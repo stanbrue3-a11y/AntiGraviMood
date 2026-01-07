@@ -1,0 +1,717 @@
+[
+    {
+        "id": "poi-031",
+        "name": "Bouillon Chartier",
+        "slug": "bouillon-chartier",
+        "location": {
+            "address": "7 Rue du Faubourg Montmartre",
+            "arrondissement": 9,
+            "coordinates": {
+                "lat": 48.8722,
+                "lng": 2.3432
+            },
+            "nearest_metro": "Grands Boulevards",
+            "metro_line": [
+                8,
+                9
+            ]
+        },
+        "category": "restaurant",
+        "subcategory": "bouillon-parisien",
+        "mood_scores": {
+            "chill": {
+                "overall": 6,
+                "criteria": {
+                    "noise_level": 4,
+                    "seating_comfort": 5,
+                    "natural_light": 6,
+                    "crowd_density": 4,
+                    "music_tempo": 8
+                }
+            },
+            "festif": {
+                "overall": 7,
+                "criteria": {
+                    "event_programming": 4,
+                    "dance_space": 1,
+                    "cocktail_offering": 5,
+                    "crowd_energy": 8,
+                    "late_hours": 5
+                }
+            },
+            "creatif": {
+                "overall": 8,
+                "criteria": {
+                    "architectural_originality": 10,
+                    "artistic_presence": 8,
+                    "cultural_programming": 5,
+                    "creative_clientele": 6,
+                    "workspace_facilities": 1
+                }
+            }
+        },
+        "vibes": [
+            "belle-époque",
+            "populaire",
+            "patrimoine",
+            "convivial",
+            "authentique"
+        ],
+        "ui_theme": {
+            "main_color": "#DAA520",
+            "map_icon": "restaurant"
+        },
+        "social_preview": {
+            "like_count": 4321,
+            "moment_count": 2134,
+            "top_vibe_tags": [
+                "belle-époque",
+                "patrimoine",
+                "convivial"
+            ]
+        },
+        "discovery_radius_meters": 50,
+        "min_stay_time_minutes": 40,
+        "practical_info": {
+            "price_range": 1,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/bouillon-chartier.jpg",
+            "instagram_handle": "@bouillonchartier"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-032",
+        "name": "Chez Jeannette",
+        "slug": "chez-jeannette",
+        "location": {
+            "address": "47 Rue du Faubourg Saint-Denis",
+            "arrondissement": 10,
+            "coordinates": {
+                "lat": 48.8721,
+                "lng": 2.3541
+            },
+            "nearest_metro": "Château d'Eau",
+            "metro_line": [
+                4
+            ]
+        },
+        "category": "bar",
+        "subcategory": "bar-retro",
+        "mood_scores": {
+            "chill": {
+                "overall": 7.5,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 7,
+                    "natural_light": 5,
+                    "crowd_density": 6,
+                    "music_tempo": 8
+                }
+            },
+            "festif": {
+                "overall": 7,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 4,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 8,
+                    "late_hours": 7
+                }
+            },
+            "creatif": {
+                "overall": 6.5,
+                "criteria": {
+                    "architectural_originality": 8,
+                    "artistic_presence": 5,
+                    "cultural_programming": 4,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 3
+                }
+            }
+        },
+        "vibes": [
+            "rétro",
+            "néons",
+            "populaire",
+            "nuit",
+            "faubourg"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "bar"
+        },
+        "social_preview": {
+            "like_count": 1876,
+            "moment_count": 932,
+            "top_vibe_tags": [
+                "rétro",
+                "néons",
+                "populaire"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 20,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/chez-jeannette.jpg",
+            "instagram_handle": null
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-033",
+        "name": "Atelier des Lumières",
+        "slug": "atelier-lumieres",
+        "location": {
+            "address": "38 Rue Saint-Maur",
+            "arrondissement": 11,
+            "coordinates": {
+                "lat": 48.8614,
+                "lng": 2.3806
+            },
+            "nearest_metro": "Saint-Maur",
+            "metro_line": [
+                3
+            ]
+        },
+        "category": "espace-culturel",
+        "subcategory": "centre-art-numerique",
+        "mood_scores": {
+            "chill": {
+                "overall": 7.5,
+                "criteria": {
+                    "noise_level": 7,
+                    "seating_comfort": 6,
+                    "natural_light": 1,
+                    "crowd_density": 5,
+                    "music_tempo": 8
+                }
+            },
+            "festif": {
+                "overall": 4,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 2,
+                    "cocktail_offering": 2,
+                    "crowd_energy": 4,
+                    "late_hours": 3
+                }
+            },
+            "creatif": {
+                "overall": 9.5,
+                "criteria": {
+                    "architectural_originality": 10,
+                    "artistic_presence": 10,
+                    "cultural_programming": 10,
+                    "creative_clientele": 9,
+                    "workspace_facilities": 3
+                }
+            }
+        },
+        "vibes": [
+            "immersif",
+            "projection",
+            "van-gogh",
+            "spectaculaire",
+            "industriel"
+        ],
+        "ui_theme": {
+            "main_color": "#AF52DE",
+            "map_icon": "theater-comedy"
+        },
+        "social_preview": {
+            "like_count": 5432,
+            "moment_count": 3214,
+            "top_vibe_tags": [
+                "immersif",
+                "spectaculaire",
+                "van-gogh"
+            ]
+        },
+        "discovery_radius_meters": 50,
+        "min_stay_time_minutes": 50,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": true,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://images.unsplash.com/photo-1580136608260-4eb11f4b8637?auto=format&fit=crop&w=800&q=80",
+            "instagram_handle": "@atelierdeslumieres"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-034",
+        "name": "Mama Shelter Paris East",
+        "slug": "mama-shelter-east",
+        "location": {
+            "address": "109 Rue de Bagnolet",
+            "arrondissement": 20,
+            "coordinates": {
+                "lat": 48.8576,
+                "lng": 2.4032
+            },
+            "nearest_metro": "Gambetta",
+            "metro_line": [
+                3
+            ]
+        },
+        "category": "bar",
+        "subcategory": "hotel-bar",
+        "mood_scores": {
+            "chill": {
+                "overall": 7,
+                "criteria": {
+                    "noise_level": 5,
+                    "seating_comfort": 8,
+                    "natural_light": 6,
+                    "crowd_density": 6,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 8,
+                "criteria": {
+                    "event_programming": 7,
+                    "dance_space": 6,
+                    "cocktail_offering": 8,
+                    "crowd_energy": 8,
+                    "late_hours": 8
+                }
+            },
+            "creatif": {
+                "overall": 8,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 8,
+                    "cultural_programming": 6,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 6
+                }
+            }
+        },
+        "vibes": [
+            "design",
+            "rooftop",
+            "starck",
+            "brunch",
+            "cosmopolite"
+        ],
+        "ui_theme": {
+            "main_color": "#FF1493",
+            "map_icon": "lodging"
+        },
+        "social_preview": {
+            "like_count": 2341,
+            "moment_count": 1123,
+            "top_vibe_tags": [
+                "design",
+                "rooftop",
+                "starck"
+            ]
+        },
+        "discovery_radius_meters": 60,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/mama-shelter.jpg",
+            "instagram_handle": "@mamashelter"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-035",
+        "name": "Dose",
+        "slug": "dose-dealer-de-cafe",
+        "location": {
+            "address": "73 Rue Mouffetard",
+            "arrondissement": 5,
+            "coordinates": {
+                "lat": 48.8421,
+                "lng": 2.3498
+            },
+            "nearest_metro": "Place Monge",
+            "metro_line": [
+                7
+            ]
+        },
+        "category": "café",
+        "subcategory": "coffee-shop",
+        "mood_scores": {
+            "chill": {
+                "overall": 8.8,
+                "criteria": {
+                    "noise_level": 8,
+                    "seating_comfort": 8,
+                    "natural_light": 8,
+                    "crowd_density": 7,
+                    "music_tempo": 9
+                }
+            },
+            "festif": {
+                "overall": 2,
+                "criteria": {
+                    "event_programming": 1,
+                    "dance_space": 1,
+                    "cocktail_offering": 1,
+                    "crowd_energy": 2,
+                    "late_hours": 2
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 6,
+                    "artistic_presence": 5,
+                    "cultural_programming": 4,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 9
+                }
+            }
+        },
+        "vibes": [
+            "mouffetard",
+            "studieux",
+            "cosy",
+            "étudiant",
+            "vintage"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "cafe"
+        },
+        "social_preview": {
+            "like_count": 1234,
+            "moment_count": 567,
+            "top_vibe_tags": [
+                "cosy",
+                "studieux",
+                "mouffetard"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": false,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/dose.jpg",
+            "instagram_handle": "@dose_dealerdecafe"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-036",
+        "name": "Supersonic",
+        "slug": "supersonic",
+        "location": {
+            "address": "9 Rue Biscornet",
+            "arrondissement": 12,
+            "coordinates": {
+                "lat": 48.851,
+                "lng": 2.3705
+            },
+            "nearest_metro": "Bastille",
+            "metro_line": [
+                1,
+                5,
+                8
+            ]
+        },
+        "category": "club",
+        "subcategory": "salle-concert",
+        "mood_scores": {
+            "chill": {
+                "overall": 3,
+                "criteria": {
+                    "noise_level": 1,
+                    "seating_comfort": 3,
+                    "natural_light": 1,
+                    "crowd_density": 3,
+                    "music_tempo": 2
+                }
+            },
+            "festif": {
+                "overall": 9,
+                "criteria": {
+                    "event_programming": 10,
+                    "dance_space": 8,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 9,
+                    "late_hours": 9
+                }
+            },
+            "creatif": {
+                "overall": 8,
+                "criteria": {
+                    "architectural_originality": 7,
+                    "artistic_presence": 8,
+                    "cultural_programming": 9,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 1
+                }
+            }
+        },
+        "vibes": [
+            "rock",
+            "gratuit",
+            "émergent",
+            "underground",
+            "convivial"
+        ],
+        "ui_theme": {
+            "main_color": "#FF4500",
+            "map_icon": "music"
+        },
+        "social_preview": {
+            "like_count": 2654,
+            "moment_count": 1432,
+            "top_vibe_tags": [
+                "rock",
+                "gratuit",
+                "émergent"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 45,
+        "practical_info": {
+            "price_range": 1,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "/images/supersonic.jpg",
+            "instagram_handle": "@supersonicparis"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-037",
+        "name": "Parc des Buttes-Chaumont",
+        "slug": "buttes-chaumont",
+        "location": {
+            "address": "1 Rue Botzaris",
+            "arrondissement": 19,
+            "coordinates": {
+                "lat": 48.8809,
+                "lng": 2.3822
+            },
+            "nearest_metro": "Buttes Chaumont",
+            "metro_line": [
+                7
+            ]
+        },
+        "category": "parc",
+        "subcategory": "parc-romantique",
+        "mood_scores": {
+            "chill": {
+                "overall": 9.5,
+                "criteria": {
+                    "noise_level": 8,
+                    "seating_comfort": 7,
+                    "natural_light": 10,
+                    "crowd_density": 7,
+                    "music_tempo": 10
+                }
+            },
+            "festif": {
+                "overall": 5,
+                "criteria": {
+                    "event_programming": 4,
+                    "dance_space": 5,
+                    "cocktail_offering": 2,
+                    "crowd_energy": 5,
+                    "late_hours": 4
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 6,
+                    "cultural_programming": 5,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 5
+                }
+            }
+        },
+        "vibes": [
+            "romantique",
+            "vallonné",
+            "lac",
+            "pique-nique",
+            "panoramique"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "park"
+        },
+        "social_preview": {
+            "like_count": 4567,
+            "moment_count": 2876,
+            "top_vibe_tags": [
+                "romantique",
+                "pique-nique",
+                "panoramique"
+            ]
+        },
+        "discovery_radius_meters": 150,
+        "min_stay_time_minutes": 45,
+        "practical_info": {
+            "price_range": 1,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "/images/buttes-chaumont.jpg",
+            "instagram_handle": null
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-038",
+        "name": "Hotel Costes",
+        "slug": "hotel-costes",
+        "location": {
+            "address": "239 Rue Saint-Honoré",
+            "arrondissement": 1,
+            "coordinates": {
+                "lat": 48.8657,
+                "lng": 2.3289
+            },
+            "nearest_metro": "Tuileries",
+            "metro_line": [
+                1
+            ]
+        },
+        "category": "bar",
+        "subcategory": "hotel-bar",
+        "mood_scores": {
+            "chill": {
+                "overall": 8,
+                "criteria": {
+                    "noise_level": 7,
+                    "seating_comfort": 10,
+                    "natural_light": 4,
+                    "crowd_density": 7,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 6,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 3,
+                    "cocktail_offering": 9,
+                    "crowd_energy": 6,
+                    "late_hours": 6
+                }
+            },
+            "creatif": {
+                "overall": 7.5,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 7,
+                    "cultural_programming": 5,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 3
+                }
+            }
+        },
+        "vibes": [
+            "luxe",
+            "red-velvet",
+            "napoléon-iii",
+            "mode",
+            "jet-set"
+        ],
+        "ui_theme": {
+            "main_color": "#800020",
+            "map_icon": "lodging"
+        },
+        "social_preview": {
+            "like_count": 2134,
+            "moment_count": 987,
+            "top_vibe_tags": [
+                "luxe",
+                "mode",
+                "jet-set"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 4,
+            "reservation_required": true,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/hotel-costes.jpg",
+            "instagram_handle": "@hotelcostes"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    }
+]

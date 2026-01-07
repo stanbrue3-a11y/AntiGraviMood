@@ -1,0 +1,721 @@
+[
+    {
+        "id": "poi-039",
+        "name": "La Rotonde de la Villette",
+        "slug": "rotonde-villette",
+        "location": {
+            "address": "6 Place de la Bataille de Stalingrad",
+            "arrondissement": 19,
+            "coordinates": {
+                "lat": 48.8827,
+                "lng": 2.3665
+            },
+            "nearest_metro": "Stalingrad",
+            "metro_line": [
+                2,
+                5,
+                7
+            ]
+        },
+        "category": "bar",
+        "subcategory": "bar-historique",
+        "mood_scores": {
+            "chill": {
+                "overall": 7,
+                "criteria": {
+                    "noise_level": 5,
+                    "seating_comfort": 6,
+                    "natural_light": 8,
+                    "crowd_density": 6,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 7.5,
+                "criteria": {
+                    "event_programming": 7,
+                    "dance_space": 6,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 8,
+                    "late_hours": 7
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 6,
+                    "cultural_programming": 6,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 3
+                }
+            }
+        },
+        "vibes": [
+            "ledoux",
+            "historique",
+            "canal",
+            "terrasse",
+            "populaire"
+        ],
+        "ui_theme": {
+            "main_color": "#CD853F",
+            "map_icon": "monument"
+        },
+        "social_preview": {
+            "like_count": 1765,
+            "moment_count": 876,
+            "top_vibe_tags": [
+                "historique",
+                "canal",
+                "terrasse"
+            ]
+        },
+        "discovery_radius_meters": 50,
+        "min_stay_time_minutes": 25,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/rotonde-villette.jpg",
+            "instagram_handle": "@larotonde"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-040",
+        "name": "Café Kitsuné",
+        "slug": "cafe-kitsune",
+        "location": {
+            "address": "51 Galerie de Montpensier",
+            "arrondissement": 1,
+            "coordinates": {
+                "lat": 48.8632,
+                "lng": 2.3372
+            },
+            "nearest_metro": "Palais Royal",
+            "metro_line": [
+                1,
+                7
+            ]
+        },
+        "category": "café",
+        "subcategory": "coffee-shop",
+        "mood_scores": {
+            "chill": {
+                "overall": 9,
+                "criteria": {
+                    "noise_level": 8,
+                    "seating_comfort": 8,
+                    "natural_light": 9,
+                    "crowd_density": 7,
+                    "music_tempo": 9
+                }
+            },
+            "festif": {
+                "overall": 3,
+                "criteria": {
+                    "event_programming": 3,
+                    "dance_space": 1,
+                    "cocktail_offering": 2,
+                    "crowd_energy": 3,
+                    "late_hours": 2
+                }
+            },
+            "creatif": {
+                "overall": 8.5,
+                "criteria": {
+                    "architectural_originality": 8,
+                    "artistic_presence": 7,
+                    "cultural_programming": 6,
+                    "creative_clientele": 10,
+                    "workspace_facilities": 7
+                }
+            }
+        },
+        "vibes": [
+            "japonais",
+            "mode",
+            "palais-royal",
+            "matcha",
+            "influenceur"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "cafe"
+        },
+        "social_preview": {
+            "like_count": 2876,
+            "moment_count": 1543,
+            "top_vibe_tags": [
+                "japonais",
+                "mode",
+                "matcha"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 25,
+        "practical_info": {
+            "price_range": 3,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/cafe-kitsune.jpg",
+            "instagram_handle": "@maborsonkitsune"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-041",
+        "name": "Cité Fertile",
+        "slug": "cite-fertile",
+        "location": {
+            "address": "14 Avenue Edouard Vaillant",
+            "arrondissement": 93,
+            "coordinates": {
+                "lat": 48.9134,
+                "lng": 2.4051
+            },
+            "nearest_metro": "Pantin",
+            "metro_line": [
+                5
+            ]
+        },
+        "category": "bar",
+        "subcategory": "friche-culturelle",
+        "mood_scores": {
+            "chill": {
+                "overall": 7.5,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 7,
+                    "natural_light": 9,
+                    "crowd_density": 7,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 7,
+                "criteria": {
+                    "event_programming": 8,
+                    "dance_space": 7,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 7,
+                    "late_hours": 6
+                }
+            },
+            "creatif": {
+                "overall": 9,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 9,
+                    "cultural_programming": 9,
+                    "creative_clientele": 9,
+                    "workspace_facilities": 8
+                }
+            }
+        },
+        "vibes": [
+            "écolo",
+            "transition",
+            "potager",
+            "pantin",
+            "alternatif"
+        ],
+        "ui_theme": {
+            "main_color": "#9D00FF",
+            "map_icon": "beer"
+        },
+        "social_preview": {
+            "like_count": 2341,
+            "moment_count": 1234,
+            "top_vibe_tags": [
+                "écolo",
+                "transition",
+                "alternatif"
+            ]
+        },
+        "discovery_radius_meters": 80,
+        "min_stay_time_minutes": 35,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true,
+            "spot_type": "Friche culturelle & Tiers-lieu",
+            "ambiance_vibe": "Décontractée & Engagée",
+            "specialty": "Bières locales & Cuisine responsable",
+            "booking_policy": "Entrée libre, réservations groupes"
+        },
+        "media": {
+            "hero_image": "/images/cite-fertile.jpg",
+            "instagram_handle": "@citefertile"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-042",
+        "name": "Candelaria",
+        "slug": "candelaria",
+        "location": {
+            "address": "52 Rue de Saintonge",
+            "arrondissement": 3,
+            "coordinates": {
+                "lat": 48.8646,
+                "lng": 2.362
+            },
+            "nearest_metro": "Filles du Calvaire",
+            "metro_line": [
+                8
+            ]
+        },
+        "category": "bar",
+        "subcategory": "speakeasy",
+        "mood_scores": {
+            "chill": {
+                "overall": 6.5,
+                "criteria": {
+                    "noise_level": 5,
+                    "seating_comfort": 6,
+                    "natural_light": 2,
+                    "crowd_density": 5,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 8,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 3,
+                    "cocktail_offering": 10,
+                    "crowd_energy": 8,
+                    "late_hours": 8
+                }
+            },
+            "creatif": {
+                "overall": 7.5,
+                "criteria": {
+                    "architectural_originality": 8,
+                    "artistic_presence": 6,
+                    "cultural_programming": 5,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 2
+                }
+            }
+        },
+        "vibes": [
+            "speakeasy",
+            "mexicain",
+            "mezcal",
+            "secret",
+            "taqueria"
+        ],
+        "ui_theme": {
+            "main_color": "#FF6B6B",
+            "map_icon": "bar"
+        },
+        "social_preview": {
+            "like_count": 2654,
+            "moment_count": 1321,
+            "top_vibe_tags": [
+                "speakeasy",
+                "mexicain",
+                "mezcal"
+            ]
+        },
+        "discovery_radius_meters": 30,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 3,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "/images/candelaria.jpg",
+            "instagram_handle": "@canaborlariaparis"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-043",
+        "name": "Parc Monceau",
+        "slug": "parc-monceau",
+        "location": {
+            "address": "35 Boulevard de Courcelles",
+            "arrondissement": 8,
+            "coordinates": {
+                "lat": 48.8794,
+                "lng": 2.3089
+            },
+            "nearest_metro": "Monceau",
+            "metro_line": [
+                2
+            ]
+        },
+        "category": "parc",
+        "subcategory": "jardin-romantique",
+        "mood_scores": {
+            "chill": {
+                "overall": 9.8,
+                "criteria": {
+                    "noise_level": 9,
+                    "seating_comfort": 8,
+                    "natural_light": 10,
+                    "crowd_density": 8,
+                    "music_tempo": 10
+                }
+            },
+            "festif": {
+                "overall": 2,
+                "criteria": {
+                    "event_programming": 1,
+                    "dance_space": 1,
+                    "cocktail_offering": 1,
+                    "crowd_energy": 2,
+                    "late_hours": 1
+                }
+            },
+            "creatif": {
+                "overall": 7.5,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 7,
+                    "cultural_programming": 4,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 6
+                }
+            }
+        },
+        "vibes": [
+            "romantique",
+            "haussmannien",
+            "colonnade",
+            "familial",
+            "lecture"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "park"
+        },
+        "social_preview": {
+            "like_count": 3214,
+            "moment_count": 1654,
+            "top_vibe_tags": [
+                "romantique",
+                "haussmannien",
+                "familial"
+            ]
+        },
+        "discovery_radius_meters": 100,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 1,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/parc-monceau.jpg",
+            "instagram_handle": null
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-044",
+        "name": "Gravity Bar",
+        "slug": "gravity-bar",
+        "location": {
+            "address": "44 Rue des Vinaigriers",
+            "arrondissement": 10,
+            "coordinates": {
+                "lat": 48.8756,
+                "lng": 2.3612
+            },
+            "nearest_metro": "Jacques Bonsergent",
+            "metro_line": [
+                5
+            ]
+        },
+        "category": "bar",
+        "subcategory": "bar-craft",
+        "mood_scores": {
+            "chill": {
+                "overall": 7.5,
+                "criteria": {
+                    "noise_level": 7,
+                    "seating_comfort": 7,
+                    "natural_light": 5,
+                    "crowd_density": 7,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 6.5,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 3,
+                    "cocktail_offering": 9,
+                    "crowd_energy": 6,
+                    "late_hours": 6
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 7,
+                    "artistic_presence": 6,
+                    "cultural_programming": 5,
+                    "creative_clientele": 8,
+                    "workspace_facilities": 4
+                }
+            }
+        },
+        "vibes": [
+            "craft-beer",
+            "cave",
+            "afterwork",
+            "décontracté",
+            "houblon"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "beer"
+        },
+        "social_preview": {
+            "like_count": 1432,
+            "moment_count": 654,
+            "top_vibe_tags": [
+                "craft-beer",
+                "décontracté",
+                "afterwork"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 20,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "/images/gravity-bar.jpg",
+            "instagram_handle": "@gravitybar"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-045",
+        "name": "Hasard Ludique",
+        "slug": "hasard-ludique",
+        "location": {
+            "address": "128 Avenue de Saint-Ouen",
+            "arrondissement": 18,
+            "coordinates": {
+                "lat": 48.8945,
+                "lng": 2.3278
+            },
+            "nearest_metro": "Guy Môquet",
+            "metro_line": [
+                13
+            ]
+        },
+        "category": "restaurant",
+        "subcategory": "cantine-festive",
+        "mood_scores": {
+            "chill": {
+                "overall": 7,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 7,
+                    "natural_light": 8,
+                    "crowd_density": 7,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 7.5,
+                "criteria": {
+                    "event_programming": 9,
+                    "dance_space": 7,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 7,
+                    "late_hours": 7
+                }
+            },
+            "creatif": {
+                "overall": 9,
+                "criteria": {
+                    "architectural_originality": 10,
+                    "artistic_presence": 9,
+                    "cultural_programming": 9,
+                    "creative_clientele": 9,
+                    "workspace_facilities": 6
+                }
+            }
+        },
+        "vibes": [
+            "petite-ceinture",
+            "ferroviaire",
+            "familial",
+            "brunch",
+            "alternatif"
+        ],
+        "ui_theme": {
+            "main_color": "#FF4500",
+            "map_icon": "restaurant"
+        },
+        "social_preview": {
+            "like_count": 2123,
+            "moment_count": 1087,
+            "top_vibe_tags": [
+                "petite-ceinture",
+                "ferroviaire",
+                "brunch"
+            ]
+        },
+        "discovery_radius_meters": 60,
+        "min_stay_time_minutes": 35,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80",
+            "instagram_handle": "@hasardludique"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    },
+    {
+        "id": "poi-046",
+        "name": "La Machine du Moulin Rouge",
+        "slug": "machine-moulin-rouge",
+        "location": {
+            "address": "90 Boulevard de Clichy",
+            "arrondissement": 18,
+            "coordinates": {
+                "lat": 48.8841,
+                "lng": 2.3323
+            },
+            "nearest_metro": "Blanche",
+            "metro_line": [
+                2
+            ]
+        },
+        "category": "club",
+        "subcategory": "club-electro",
+        "mood_scores": {
+            "chill": {
+                "overall": 2.5,
+                "criteria": {
+                    "noise_level": 1,
+                    "seating_comfort": 3,
+                    "natural_light": 1,
+                    "crowd_density": 2,
+                    "music_tempo": 2
+                }
+            },
+            "festif": {
+                "overall": 9.5,
+                "criteria": {
+                    "event_programming": 10,
+                    "dance_space": 10,
+                    "cocktail_offering": 7,
+                    "crowd_energy": 10,
+                    "late_hours": 10
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 8,
+                    "artistic_presence": 6,
+                    "cultural_programming": 7,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 1
+                }
+            }
+        },
+        "vibes": [
+            "techno",
+            "moulin-rouge",
+            "industriel",
+            "nuit-blanche",
+            "légendaire"
+        ],
+        "ui_theme": {
+            "main_color": "#FF4500",
+            "map_icon": "music"
+        },
+        "social_preview": {
+            "like_count": 3456,
+            "moment_count": 1876,
+            "top_vibe_tags": [
+                "techno",
+                "moulin-rouge",
+                "nuit-blanche"
+            ]
+        },
+        "discovery_radius_meters": 50,
+        "min_stay_time_minutes": 90,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "/images/machine-moulin.jpg",
+            "instagram_handle": "@lamachineparis"
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        }
+    }
+]
