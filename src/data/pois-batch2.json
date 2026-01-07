@@ -1,0 +1,795 @@
+[
+    {
+        "id": "poi-007",
+        "name": "Le Baron Rouge",
+        "slug": "baron-rouge",
+        "location": {
+            "address": "1 Rue Théophile Roussel",
+            "arrondissement": 12,
+            "coordinates": {
+                "lat": 48.8468,
+                "lng": 2.3789
+            },
+            "nearest_metro": "Ledru-Rollin",
+            "metro_line": [
+                8
+            ]
+        },
+        "category": "bar",
+        "subcategory": "bar-a-vin",
+        "mood_scores": {
+            "chill": {
+                "overall": 8,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 5,
+                    "natural_light": 7,
+                    "crowd_density": 5,
+                    "music_tempo": 9
+                }
+            },
+            "festif": {
+                "overall": 6.5,
+                "criteria": {
+                    "event_programming": 4,
+                    "dance_space": 2,
+                    "cocktail_offering": 8,
+                    "crowd_energy": 7,
+                    "late_hours": 5
+                }
+            },
+            "creatif": {
+                "overall": 5.5,
+                "criteria": {
+                    "architectural_originality": 6,
+                    "artistic_presence": 4,
+                    "cultural_programming": 4,
+                    "creative_clientele": 6,
+                    "workspace_facilities": 2
+                }
+            }
+        },
+        "vibes": [
+            "populaire",
+            "convivial",
+            "terroir",
+            "debout",
+            "marché"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "wine"
+        },
+        "social_preview": {
+            "like_count": 1876,
+            "moment_count": 923,
+            "top_vibe_tags": [
+                "convivial",
+                "terroir",
+                "populaire"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 15,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Baron_Rouge%2C_Paris_12.jpg",
+            "instagram_handle": null,
+            "google_photos": [
+                "AZLasHoaMFJBYlbEsIuoDz8EDmjF7laz_TJH2iFw-fPZFzZ7MSJpa8oiOqmXoXvWCKHlbpBcvE8O1NsEVlwAbWQWuv514EveAXGvd2FI0yn2chAq3RsUkGe8P0ZDdYLDsVbDBiRuwnd4e-pVjwNJQEDz4tWsGEg77qtuXJSh5wzbh4kWr5HBa2HYaWMQxdzIdflw92MSmkpoAQIibfVJxLQOyadmRBHX_JtJSvsNOGKGvXZh6PPIlaQqS4apsmejVU_UGg_B1iqgAPHLSW758xYxR4BfRXrWdsJesZgRGgqXmByMZYzXp6CeVfg-HK8pcvHEO8EbcRjAtWkcT3e_ifAV9OVXhlLZp6DxNCXWcvKB3WBOAeYxeD73doQcukN6HYaUA0Gjr2QdbSSSmj9ggXP5Jlt2zD8reloIoummD2iZylveHQ",
+                "AZLasHpEGqCaLdjAPMOkdlksiU-BYxxFjcS_jiIstCxAYGD-O2tNN_apmwRrfotJV6yAAEKV8GuM1xULH_DVyyzBPseP7IgRnvXtfakt1ATMGuJVHBuD3qjsK2v34mXA42RVii-I0e2t7FwxyymzKWgwLVy1vPI1YQmhgyvi-rKjYA_QaNWgU1Qxwb9ndpiySPEZcwPQ1M3Q7zuSUmeRXA-PRh51xPbZRH0rcbCOeLHKae0UYLkhagx12X2LuqNbOVLE_bVnW12oXfSu2QXfHn3qBM65gBvpHO1UVZ4nmzE7aDqliv3Q9Obh7dvALW6MnLrPe0WIU-9aWC2hcnPTQCLqGjPWkISDiuY9rBh-hvDclVoIvgmccDsYuTsxGdE8E4_451qJcc-GN6aPwiBJVfJKDBV0mMO1h0BwFeGJjLr7WkElwPY",
+                "AZLasHoYxmhE9YFr3SUctPd6vAltA9tazSo7UtTDaoBDwm6oSrzcWbvwvBkaljljRJ8Dab7H_D7trtYat1ZcK7tDXlwQKdcty_t4LWPa6SjgJGtyvoCXhRFnGxojidfYGj3RMmZd-bnET8gIRYMNjX1m9IxzAa24L-nyAzjW6eEW42uzyZY_7OxkEilsI5YB05LTYjeIt3Liqv4V4LKbl7SsC48WmdO9PAEmNKT632B2zSbrtqgManpcLlcCnxsmGhFzoVSA6mqjq4Fz-FqQwlbbKYCWOnvGupY1VNLmDlwIL1gO-s52E3aWeaYpKD2EZA8_K09Q7dy_8XCOlTMptXZ8YqsKQCGczbM2XjXd9bhqO8bw9RY30ybYEAjNFJ95yEcI3PMhHZRc8MCSDFID-ZcR1WsMRWb7We9VdRbxrW4HGV_qCIi2r1r-SNVY24j7MLZZ"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "17h00 - 02h00",
+            "display": "Tlj: 17h - 02h",
+            "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
+        }
+    },
+    {
+        "id": "poi-008",
+        "name": "Wanderlust",
+        "slug": "wanderlust",
+        "location": {
+            "address": "32 Quai d'Austerlitz",
+            "arrondissement": 13,
+            "coordinates": {
+                "lat": 48.8419,
+                "lng": 2.3716
+            },
+            "nearest_metro": "Gare d'Austerlitz",
+            "metro_line": [
+                5,
+                10
+            ]
+        },
+        "category": "club",
+        "subcategory": "club-plein-air",
+        "mood_scores": {
+            "chill": {
+                "overall": 5.5,
+                "criteria": {
+                    "noise_level": 3,
+                    "seating_comfort": 6,
+                    "natural_light": 10,
+                    "crowd_density": 5,
+                    "music_tempo": 4
+                }
+            },
+            "festif": {
+                "overall": 9,
+                "criteria": {
+                    "event_programming": 9,
+                    "dance_space": 9,
+                    "cocktail_offering": 7,
+                    "crowd_energy": 9,
+                    "late_hours": 9
+                }
+            },
+            "creatif": {
+                "overall": 7,
+                "criteria": {
+                    "architectural_originality": 8,
+                    "artistic_presence": 6,
+                    "cultural_programming": 7,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 3
+                }
+            }
+        },
+        "vibes": [
+            "seine",
+            "open-air",
+            "électro",
+            "sport",
+            "brunch"
+        ],
+        "ui_theme": {
+            "main_color": "#FF6B35",
+            "map_icon": "music"
+        },
+        "social_preview": {
+            "like_count": 3421,
+            "moment_count": 1654,
+            "top_vibe_tags": [
+                "open-air",
+                "électro",
+                "seine"
+            ]
+        },
+        "discovery_radius_meters": 80,
+        "min_stay_time_minutes": 45,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cit%C3%A9_de_la_Mode_et_du_Design.jpg",
+            "instagram_handle": "@wanderlustparis",
+            "google_photos": [
+                "AZLasHowhlvZ5IXINN5GCXfkSuDdcVL4-BtghrV9sL2pOeRLCgIlZhxqHLBw2LiHEYiIr7HE8zL6UOCBd0mZhKpBJXYa1acafJZv8vCIfZGa0UI4C27OmzqupG5P41kPErxZo5gn9xWt1Lq2vMKHTv3Qvuvx8hAaTFvuZk37n_H_x9naE1idnR-NWsbpqWuiErWjJgjjiFlAd5k2aFv9jKsfpsM52MykQ67GGFHyMEhYQUznGBhKTkYzNNcfGTIAEWMgataCJmdEsXDeeSq5O_cKXzssw_K3Uv_ZdFMxTBMb0WeEagl2I_AFs17jV4aUIRuuGnZqJ_cp1QhwaC3mYsxeNFi15zoUEX6-hUyfcc4OgtXw-z0s6-jw7bQR5AlPlYIYHqUpxEG_IPHoqT4ya-2xKD0ahNMO2O9Qc2LtIoBwX2G1DOw",
+                "AZLasHqTgYoVI2fw5yI6yf7GX-dIf_KyeTocCopzqE0voz8EquN1bhdT9t_tbRhn6ZyCG_04Koh2PQiuA0ifj21UCPwfHsihAMgfraAsxmsg_1RgPeizb0fvrhheNfqNUPKbM3N7ytZlGkmLbK2w8Qjk5TObG37Gtv22wxC1Q6EuhnOiYrYGiytWDRlWKSOELlQ06z4LjD802LvMShBhEfcgTE8z5eF9DrGOISn0pD2z0fzd-n-01Om5bPTextunSGp7qZanY15coIF9BIZQwJQdK9MTfOb5YWLJ7Cl3HTyP1NNGmukMNYxFq-CXfXhmuqLjUl2WIVZsENd1XzifiTwO4_0UGi-9bIzBq16xBIDaLFk0hminwE6xn_klncVro9OVN-5Wda2oxOke3trq59AjyjP1zHRRtjRNZEibDZ1nZqy3ieceyclY71GN24AlaMAD",
+                "AZLasHrv-sru5OJfhMECKt5zCV5CBdq5JlYNu8U2IRTmiIWORNHmeh_D0aMKNSXuhoYeQwRMyV5lPEB1SnpmszOfJKF4HJZxGOmOhkiA3fAUWQ33Uy2BRhDxMJ6rAkI_dzUQ2gucgVeEjojaZHoAdIBS44xtZFf3y3SMUBduQviajTHjluw0s-Rp24a1tOZm7Erz1lv6zIMa6nEFheHQqj695tMVruC4tiCkMwoppZIvdS3yQB1znx3H_G_5UK6lX9NYDWJyYv6ctjwe_1owXdeppDrjrSMyRRPh36NFiEN8BLsZlkyIGoIJTEClZToPvw4_U7VdzmsY9ve-8tUzxZPmgZP5m51mDxnJk5Tyoc_eG_TcKMNA10N53Xet1Je2Em-TnVo6W8YjexkeWPYZRv-O0vrpDKtxnIXJUITGZHa8SFQ"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "23h00 - 06h00",
+            "display": "Mer-Dim: 23h - 06h",
+            "detailed": "De 23h à 06h.\nFermé le Lundi et Mardi."
+        }
+    },
+    {
+        "id": "poi-009",
+        "name": "Hôtel des Arts et Métiers",
+        "slug": "hotel-grands-boulevards",
+        "location": {
+            "address": "243 Rue Saint-Martin",
+            "arrondissement": 3,
+            "coordinates": {
+                "lat": 48.8656,
+                "lng": 2.3553
+            },
+            "nearest_metro": "Arts et Métiers",
+            "metro_line": [
+                3,
+                11
+            ]
+        },
+        "category": "bar",
+        "subcategory": "hotel-bar",
+        "mood_scores": {
+            "chill": {
+                "overall": 9,
+                "criteria": {
+                    "noise_level": 8,
+                    "seating_comfort": 9,
+                    "natural_light": 7,
+                    "crowd_density": 8,
+                    "music_tempo": 9
+                }
+            },
+            "festif": {
+                "overall": 5,
+                "criteria": {
+                    "event_programming": 4,
+                    "dance_space": 2,
+                    "cocktail_offering": 8,
+                    "crowd_energy": 5,
+                    "late_hours": 5
+                }
+            },
+            "creatif": {
+                "overall": 7.5,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 7,
+                    "cultural_programming": 5,
+                    "creative_clientele": 7,
+                    "workspace_facilities": 6
+                }
+            }
+        },
+        "vibes": [
+            "feutré",
+            "art-déco",
+            "sophistiqué",
+            "intime",
+            "luxe-accessible"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "lodging"
+        },
+        "social_preview": {
+            "like_count": 1234,
+            "moment_count": 567,
+            "top_vibe_tags": [
+                "feutré",
+                "sophistiqué",
+                "art-déco"
+            ]
+        },
+        "discovery_radius_meters": 50,
+        "min_stay_time_minutes": 20,
+        "practical_info": {
+            "price_range": 3,
+            "reservation_required": true,
+            "wifi_available": true,
+            "outdoor_seating": false,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Point_Eph%C3%A9m%C3%A8re_2009.jpg",
+            "instagram_handle": "@hotelgrandsboulevards",
+            "google_photos": [
+                "AZLasHpuLZm1klSuHKCZl_sTJX_NRARv-apu3n5cobY8H9k5sH4lGiKuLC4Uwfwg7MYa2kky7qZ7HpT0m_Gt_QNHUA60ULRHTU4ioBPlOSs8NR0WSuTq8XtgKxzeXq-Rggyx1ZSYFoyeakPc3onx0m8GFEhrOyN2oBo83UnshKum18Q8fdhG6tx_3j0J1MQ8nsw6K7C1wl5rz6ggPR_Z7n-vJPl3AqU63VbivCk6jM8L6VURwp6_yNjhtEOF84gOtJlXaCMhELAq5d6KCLqHTNz0PrjQI8YB8Qvt9hoHrWJPQ1Wwzw",
+                "AZLasHrHqLp3A4edrMOaDzc5iwD22-djWMhNFmdGFC3n4kJMz435zMeBqV75weIKk7ZjeFJc3wAP2gvTnF-EYHJj-4njVNizy9vCRfPEa-YIvS27-l4M4Z_Rw1JTxbIjwm5etXok5_r9snXdCIzIEbVALxu1uMzj59dpPHHi2Jl4ZCLih7SOKBvvyfUzs3av56jGc7dRPhdjLWLoSksLvVHSCatAKdakxQTmsVNGxBhTNIRn7yzBxIix73PoefiTK5CkQJgOrp1ckAH4ylfHHbtIdmYcfFmsGGYoC-adbGBlBJe7Jg",
+                "AZLasHpzR1E0o-TlQDP_g4njWrV0Qalf75qNG3NwFPe7DkffxWq-sbsDaKVKGX6cBAndPKkynF01297IneqhIIopC5ZPYmbsZNhl3fOcYBLVnUYZBmFMrUPbuf1V5-V-_xk6XKBjLzrh4nNdFFWYESIIfU-TamKBfepX8xyG4t8I0MLh7jfhUCTRMcnaAYXB7wkomy_GKQxK69HhsrqIQ_uKZjeOxznrG7XcRVl3TGlWuXCuWWAnFaV0mOmxT9HwW7OYZbADfVp6RG0qZI90DbDngG3oRyYhFu3nLaTcTycwCSuhW85lylr9xkLHSuXTrVmrnCfHtGOiXe2p1b0rGwExFmG4V6hv1My-jm1vOg-VC7PyT0aLhz8xDOFB_fqM4X0Svlx-9YzkskZnV0v0UslbQul2GdXaCt7Z7QbmPuGtzg5n3k8Y"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "17h00 - 02h00",
+            "display": "Tlj: 17h - 02h",
+            "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
+        }
+    },
+    {
+        "id": "poi-010",
+        "name": "La Bellevilloise",
+        "slug": "la-bellevilloise",
+        "location": {
+            "address": "19-21 Rue Boyer",
+            "arrondissement": 20,
+            "coordinates": {
+                "lat": 48.8679,
+                "lng": 2.3918
+            },
+            "nearest_metro": "Ménilmontant",
+            "metro_line": [
+                2
+            ]
+        },
+        "category": "club",
+        "subcategory": "salle-concert",
+        "mood_scores": {
+            "chill": {
+                "overall": 5,
+                "criteria": {
+                    "noise_level": 4,
+                    "seating_comfort": 5,
+                    "natural_light": 4,
+                    "crowd_density": 4,
+                    "music_tempo": 5
+                }
+            },
+            "festif": {
+                "overall": 8.5,
+                "criteria": {
+                    "event_programming": 10,
+                    "dance_space": 8,
+                    "cocktail_offering": 6,
+                    "crowd_energy": 9,
+                    "late_hours": 8
+                }
+            },
+            "creatif": {
+                "overall": 9.2,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 10,
+                    "cultural_programming": 10,
+                    "creative_clientele": 9,
+                    "workspace_facilities": 4
+                }
+            }
+        },
+        "vibes": [
+            "militant",
+            "world-music",
+            "brunch-clubbing",
+            "populaire",
+            "festif"
+        ],
+        "ui_theme": {
+            "main_color": "#FF4500",
+            "map_icon": "music"
+        },
+        "social_preview": {
+            "like_count": 2987,
+            "moment_count": 1567,
+            "top_vibe_tags": [
+                "world-music",
+                "brunch-clubbing",
+                "militant"
+            ]
+        },
+        "discovery_radius_meters": 60,
+        "min_stay_time_minutes": 45,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/La_Bellevilloise.jpg",
+            "instagram_handle": "@labellevilloise",
+            "google_photos": [
+                "AZLasHrxfKgWUvuN2ORgf7D6p8twFAee1J2dsOqdHmw42vNB0KfFBytpHUxlwl6oXSqGH9L6pw99zcOGFPcRuiXAfDf0HrVtPo3sesYy6iZSJf5TZGlGrl3BGQ2d33fkjLU3knICGPVj6QnEB6IKpfah4w4LiXGYRbSH1HOTXgK-l4hkDY0GttOIej6h-vGAOEUdGGGKO3jFm_Xoo9csPhxeujrKr0QXkihWJ8ohCxkQVqU4ffr3BvhpiQ-9GmOZwp9Y9Y03dpVjavYHgnhDtjDB8gTvVHURzSF7c9GBuFZGoTQ9oA",
+                "AZLasHoNXRceI6WJnS8kiw2WagbsOR7CNCBTf3UA9LoEDhjx4mZ1MpuHPsQHW6oh_6C0exqp38IjMDI9TdS42mt041MRkOm0X337_x1edK4Dpv0-zYeaYVF_0d8pUw8WvckturG1H1QgvK0ER_Vf1XGOnGKRBAIh2aICp1116uZ153CpZDHH4q_GjE2Qeb4ZgQc7fBrTYKwDpuzsCQ3uQWRmekXH8iiZXkqTB4i_7xrHU8PdRsQGFZVBZYHTAqWILk3b9L0BPCUwttQ-eBHPmQNFOpSTPh3w3lqAzdWiRPAPymLRuw",
+                "AZLasHrxvU9s5S2T-j-cmEfqefrhVr3hf8hhcgxiwOrbDZFo65xPK_X-hLtVr7XfAzTNWRFR5UOLnU9mZtLxqcDTL2gXLP1eiAzM771hGTAdc4hhNfKhYFdsb9pVxmLPNgFzzeymaRBK9dqb9pvzx4XnGEZUzyUtTjsI3OmhVQg-WYs04jpPsOBNNikE_lYxdPLUhCAkoWjeoEfaNdoPD__sWWAN3eLFGY7Iywj5lTTgqTy1wzVgGZP-llyRDg1S6VM2Io7jz1FXfrpkcIQxXKt8pmryGuy4r-K0ZdBz1PuvuDTQyUgqFTXISgF7sPZ9PxxJGZWwM_PGY4deMfhHiLjy8s7kDjlWBz8RvRm2Zbe1i4bLhvudNa2YYaqsqfrAy0V96owDv9-3Q0OJSE0RkuZs_1VQEAml-9ZAT5ozSUVGeNBjWaFGLmnhf7ZUT5TqYM74"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "10h00 - 19h00",
+            "display": "Mar-Dim: 10h - 19h",
+            "detailed": "De 10h à 19h.\nFermé le Lundi."
+        }
+    },
+    {
+        "id": "poi-011",
+        "name": "Shakespeare and Company",
+        "slug": "shakespeare-company",
+        "location": {
+            "address": "37 Rue de la Bûcherie",
+            "arrondissement": 5,
+            "coordinates": {
+                "lat": 48.8526,
+                "lng": 2.3471
+            },
+            "nearest_metro": "Saint-Michel",
+            "metro_line": [
+                4
+            ]
+        },
+        "category": "café",
+        "subcategory": "librairie-cafe",
+        "mood_scores": {
+            "chill": {
+                "overall": 9.5,
+                "criteria": {
+                    "noise_level": 9,
+                    "seating_comfort": 7,
+                    "natural_light": 8,
+                    "crowd_density": 6,
+                    "music_tempo": 10
+                }
+            },
+            "festif": {
+                "overall": 2.5,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 1,
+                    "cocktail_offering": 1,
+                    "crowd_energy": 3,
+                    "late_hours": 2
+                }
+            },
+            "creatif": {
+                "overall": 9.8,
+                "criteria": {
+                    "architectural_originality": 10,
+                    "artistic_presence": 10,
+                    "cultural_programming": 9,
+                    "creative_clientele": 10,
+                    "workspace_facilities": 7
+                }
+            }
+        },
+        "vibes": [
+            "littéraire",
+            "mythique",
+            "anglophone",
+            "poétique",
+            "bohème"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "library"
+        },
+        "social_preview": {
+            "like_count": 5432,
+            "moment_count": 2876,
+            "top_vibe_tags": [
+                "mythique",
+                "littéraire",
+                "poétique"
+            ]
+        },
+        "discovery_radius_meters": 40,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Shakespeare_and_Company_bookstore_in_Paris.jpg",
+            "instagram_handle": "@shakespaborgs",
+            "google_photos": [
+                "AZLasHrZ0opL6SGRxZgwrFBg48FCheqgrkrYjDijW-qPA0b02EN6vr8dJJ9eXV5bRFp6-XCqPDTw6aPdTKi34QbwZ3AwBJZkYNEDINFIMvmRXb_5Q0f7EaSkr0cpKHXYHB8j30iW_kBkEVhNeMLOE5qSy5MGOjz0SBfUvB5fYxG8TfpYAKZWSafgw_g3kuWUeSHNTtVkTO-gEgiCrve_sWzQG4UNGZyPJOj1YF1teMg2f9SAX2I0W5cnb90OhyK7GbT_TN5_wmVHPBsbYPOLoz1XXHNH3j3HpxD_nYUE4UwljGqH8w",
+                "AZLasHob6XU7zCmGF9p4zAPz04jdzdc_3NuiR32jta2wucWjFIlsEN-TvfvEKnBmWCNOfwWqhQgsdPGDKhJNVmxHlKQ_ZYq3T8fSC4W2G9K-fS7wA1FqXSeW-9-9qOC2x8J-vVEEgA3VpT5Pd7_PN7ilxglADr_nELltpeYiLqxpu_o15wV_vg-yCtTvNbJM4qaykfIUldfbDp_vfuBQTX953su9QsjaOzeEYAds7SvLeMh5bPTlebImSD7XjfUE9NDub-QFRX1pb6oZJSLQK4zp2SRBr4l_CZNGqsmIdMFOfio-XQjeiIgYIuW574-nm_xgMQU2NX_nLNnzY4xt4Hzv6LeX9xl78XcCc4up-IB6vLeg81vIqxaG9SbIVnUcJPGiK6Aill5l9ySyKwzW2qCQU7go9_KNlABcHFkTboPefGwMSJGD"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "08h00 - 20h00",
+            "display": "Tlj: 08h - 20h",
+            "detailed": "Ouvert tous les jours.\nDe 08h à 20h."
+        }
+    },
+    {
+        "id": "poi-012",
+        "name": "Le Syndicat",
+        "slug": "le-syndicat",
+        "location": {
+            "address": "51 Rue du Faubourg Saint-Denis",
+            "arrondissement": 10,
+            "coordinates": {
+                "lat": 48.8724,
+                "lng": 2.3546
+            },
+            "nearest_metro": "Château d'Eau",
+            "metro_line": [
+                4
+            ]
+        },
+        "category": "bar",
+        "subcategory": "speakeasy",
+        "mood_scores": {
+            "chill": {
+                "overall": 7,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 7,
+                    "natural_light": 2,
+                    "crowd_density": 6,
+                    "music_tempo": 8
+                }
+            },
+            "festif": {
+                "overall": 7.5,
+                "criteria": {
+                    "event_programming": 5,
+                    "dance_space": 3,
+                    "cocktail_offering": 10,
+                    "crowd_energy": 7,
+                    "late_hours": 8
+                }
+            },
+            "creatif": {
+                "overall": 8.5,
+                "criteria": {
+                    "architectural_originality": 9,
+                    "artistic_presence": 7,
+                    "cultural_programming": 6,
+                    "creative_clientele": 9,
+                    "workspace_facilities": 2
+                }
+            }
+        },
+        "vibes": [
+            "speakeasy",
+            "french-spirits",
+            "vintage",
+            "secret",
+            "mixologie"
+        ],
+        "ui_theme": {
+            "main_color": "#2F4F4F",
+            "map_icon": "bar"
+        },
+        "social_preview": {
+            "like_count": 2341,
+            "moment_count": 1123,
+            "top_vibe_tags": [
+                "speakeasy",
+                "mixologie",
+                "secret"
+            ]
+        },
+        "discovery_radius_meters": 30,
+        "min_stay_time_minutes": 25,
+        "practical_info": {
+            "price_range": 3,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": false,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80",
+            "instagram_handle": "@lesyndicatcocktailclub",
+            "google_photos": [
+                "AZLasHpjiDcyie_8LA7nUOm968jsdoO28I1IatNnyTXxaU9bzLZqId7RK5J6FUVQCjKAg1VRQ5TqI0X1pXAQ8IqMUKq_WRsucqLIHiZfgQUV9sruv4IcrhqqDNFn3cuX098j6yuceaGEKTyqUxJwOgBf5S8mTlj0JqKwlznf3VHQkV2wdkT2Ua8qqolIpGUC3Tu4kB_Y7Cax0Qq_0G0qdKKz_O_vJUfxGYyBnU-uwfuualxnUQxDF5gSiQGmbp6dyM3H5l6s3OnbNBCjiz0wnq9fCFkD9TLgV_tMgolnl81XZ74",
+                "AZLasHrMk3-rvwOW1ukyYtsrbdWfvoyr9xlJuFZZ18zFxLRlcwVi75pc5D9KDLcjOAa3CdQDrmDxnAvzV6m6PI4RWUckKHdFYBJLKEL2yCmSRl-XxBRyxANNB1kgYmr7eQ7ZLf_C4hfQWDQMqQjn4tXv20amktpP1Ub5fURdgiTRZidLnUSJvcGLrvoIA5DzEEmjmhh4zABNhLv5KYfIYsixhVUTTgHKi1MWEXGVoOGvRoRjDTBQDFoYsB7SkbbwsHHP9KaJZmVAOi32O1QqWX9xULZIeV8GsiFGKhDITOgeBhU",
+                "AZLasHqC_HdhEUn7GMAs9aWntP4MnhwaxWEJQRojlm-_BqDME0YHy1L2of0pH8sbVQsqIP5HvjgAJzjzNKvn-b2nBLyMuHlY0OkRFR9vF0qlzcMfF74dne77C-CnYV3eoUQ8BcdaEehWnbCGAfR2cMdxN24GLQjn7jjC-tUg2488WhXCAsDMsoqMG21jML7hnUGsU1xHKel8mkWhlpAbJmDfsz2vNNkNZ5U_cy9z-2PcTPaEiI43tCem87Sa_RzQQnh2iY4MSXVafBG4owK_fqZrqsv0rgl1p2gjTlraVQ0YLrw"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "17h00 - 02h00",
+            "display": "Tlj: 17h - 02h",
+            "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
+        }
+    },
+    {
+        "id": "poi-013",
+        "name": "Rosa Bonheur Buttes-Chaumont",
+        "slug": "rosa-bonheur-buttes",
+        "location": {
+            "address": "Parc des Buttes-Chaumont",
+            "arrondissement": 19,
+            "coordinates": {
+                "lat": 48.8808,
+                "lng": 2.3829
+            },
+            "nearest_metro": "Botzaris",
+            "metro_line": [
+                7
+            ]
+        },
+        "category": "bar",
+        "subcategory": "guinguette",
+        "mood_scores": {
+            "chill": {
+                "overall": 8.5,
+                "criteria": {
+                    "noise_level": 6,
+                    "seating_comfort": 6,
+                    "natural_light": 10,
+                    "crowd_density": 5,
+                    "music_tempo": 8
+                }
+            },
+            "festif": {
+                "overall": 8,
+                "criteria": {
+                    "event_programming": 7,
+                    "dance_space": 7,
+                    "cocktail_offering": 5,
+                    "crowd_energy": 8,
+                    "late_hours": 7
+                }
+            },
+            "creatif": {
+                "overall": 6,
+                "criteria": {
+                    "architectural_originality": 7,
+                    "artistic_presence": 5,
+                    "cultural_programming": 5,
+                    "creative_clientele": 6,
+                    "workspace_facilities": 1
+                }
+            }
+        },
+        "vibes": [
+            "guinguette",
+            "parc",
+            "lgbtq-friendly",
+            "danse",
+            "dimanche"
+        ],
+        "ui_theme": {
+            "main_color": "#5AC8FA",
+            "map_icon": "park"
+        },
+        "social_preview": {
+            "like_count": 3876,
+            "moment_count": 2134,
+            "top_vibe_tags": [
+                "guinguette",
+                "lgbtq-friendly",
+                "dimanche"
+            ]
+        },
+        "discovery_radius_meters": 100,
+        "min_stay_time_minutes": 30,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": false,
+            "outdoor_seating": true,
+            "accessibility": false
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Guinguette_Rosa_Bonheur_-_Parc_des_Buttes-Chaumont.jpg",
+            "instagram_handle": "@rosabonheur_off",
+            "google_photos": [
+                "AZLasHpMamxJyevn_nqhtRGqeUDLFY4YCUHO2xqj7dw1S3gfnokot7oNp4bwfmGtJGZXWR44YISFxuR1-GmcgPVe4yCHQwuxVtN0F4OhGcRxkmC0wABcz2yXYTGv4FSAvq68D-dWNLocB5pot9CvHkiPcjYYsP-4t5X3a9Z1Cf6LnzjK3igrxa9wdFTWdWIBeRRAIAlyvw89k4T5CUvnAsf0E5-JU9skDe_M1ya56bS0mw3ntJq2-pJlo8DhFyA2hJWWK_fNDhzgBpWGoHckc149xH095HRykenfG9WPbR5XcLHhJg",
+                "AZLasHpBwUtDNr4Vaz9QUnYXMF0I1U4SvqpBrxaUgUw-uintnuloobWhyjD-pIgQJgsMgAsgKVlqJmsDNvO7SemGkPuRsO5btVQkw0swP3DhEMY7ijJyy13tUHNOLcriWb9tkwRdF_K582SCDG7o5CGPLSTVdG0gjvmJzS8dLkLG9v__oAHJDxWGwDv7NsDC8q6Cj4qYbRlu713nE_sxy5A1fUyuDr4thl23cKSlam90-ZeWHAS0d7a6iNQqms9mK6XiKY7gvGjhqUo18Wq01Qh80GSIdcbW5hGo-bbaRrW_9evLpg",
+                "AZLasHpf83RHMxTkw5UNhRmp5MZ_745UYzWibu48_t_4jBkFLZRuwBwnQM39I54GGFyXC-Inzcv1JIEtDTn-eARcQdyeRrgS1yWS2xh4lSFPsWSxXlZnIyLAOktS6o1bD7RvXf34dqt7Zx1YEku49qiiyWuqsA2Fc-i4IHUJgt2tJnpO91peY_8SwXg_UMiguaY9sREed0r0kV4zAVqvI5wLklPDBK4NiNm_7TRigkBitwDodvtdlWexn3wxJM1ODozC7835DbCrxgAFKTRQnnfkPdgWZVQAVNhqrHSpkxH-j46EM-obIJE3rE0tvae_1AHQ43FClQCcYOrrOEZDhbX9OtY1hs_2aydQLuFr1zMcrZ2ltiNnf1uNgUyPOGCiYc4QcGNQGhu8RFTrARD85Cwm49dLSH-fKTX7UsfAbEPkGYGatGC38-tq4StBBta8iw"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "17h00 - 02h00",
+            "display": "Tlj: 17h - 02h",
+            "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
+        }
+    },
+    {
+        "id": "poi-014",
+        "name": "Palais de Tokyo",
+        "slug": "palais-de-tokyo",
+        "location": {
+            "address": "13 Avenue du Président Wilson",
+            "arrondissement": 16,
+            "coordinates": {
+                "lat": 48.864,
+                "lng": 2.297
+            },
+            "nearest_metro": "Iéna",
+            "metro_line": [
+                9
+            ]
+        },
+        "category": "espace-culturel",
+        "subcategory": "musee-art-contemporain",
+        "mood_scores": {
+            "chill": {
+                "overall": 6,
+                "criteria": {
+                    "noise_level": 7,
+                    "seating_comfort": 5,
+                    "natural_light": 8,
+                    "crowd_density": 6,
+                    "music_tempo": 7
+                }
+            },
+            "festif": {
+                "overall": 5.5,
+                "criteria": {
+                    "event_programming": 8,
+                    "dance_space": 4,
+                    "cocktail_offering": 5,
+                    "crowd_energy": 5,
+                    "late_hours": 6
+                }
+            },
+            "creatif": {
+                "overall": 10,
+                "criteria": {
+                    "architectural_originality": 10,
+                    "artistic_presence": 10,
+                    "cultural_programming": 10,
+                    "creative_clientele": 10,
+                    "workspace_facilities": 5
+                }
+            }
+        },
+        "vibes": [
+            "avant-garde",
+            "monumental",
+            "expérimental",
+            "nocturne",
+            "radical"
+        ],
+        "ui_theme": {
+            "main_color": "#AF52DE",
+            "map_icon": "museum"
+        },
+        "social_preview": {
+            "like_count": 4567,
+            "moment_count": 2345,
+            "top_vibe_tags": [
+                "avant-garde",
+                "expérimental",
+                "monumental"
+            ]
+        },
+        "discovery_radius_meters": 80,
+        "min_stay_time_minutes": 60,
+        "practical_info": {
+            "price_range": 2,
+            "reservation_required": false,
+            "wifi_available": true,
+            "outdoor_seating": true,
+            "accessibility": true
+        },
+        "media": {
+            "hero_image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Palais_de_Tokyo_2010.jpg",
+            "instagram_handle": "@palaborstokyo",
+            "google_photos": [
+                "AZLasHr55VbpHOAtqQZK5HCehH8rvk3z1Pfw7qaBjKeczL4bJJ-BZoYocft7FZK2IRGz5p7r4bWoUUURzgt-4-fzyanSj-fEAjgBTp2pOOfQy8bpVnn1msMHzKTtWXh7Egw9cD8KZgUvgNib2414T-8U2QsDHfKazLdarx_X1PDl980THUrgbjmvCqWijOAGCA0BzX9-1HiG7zgQ5fHQrAMnHSYwnb4TxtnT8aNE6QfNWIGdy0c0iQUNuxmtot2iw1w7_E-Jq5T19zIhPFddVNP1qq6w7txDV5qrVbkv8_swzgUOVBVCXrQOg8ADYueH_2D2vkMERzbRBJ4opUisfJ5zrKlX4b6Ea6E3ERT8CsX6IMCtBOfgXfNS1BEgIi37s91LUu1mCwQ2OCnABtaY4BdXs_15kp1X5HQFpWeb6M0dUTmg0w",
+                "AZLasHo0zPkHPg5vDML93UffHK2dfTAaWDZPQr_TPOjehZp3UbJkIGi2Gft7Jhek23U3h82Y5FEfW10CvE1noSjyUW_I81zwy9cPowoG0BJtmXgbk9JNmMD0oKOGErbfacXZhmyRAw3rs29NQ0ge5P6BIFyQ01YD-WNZbtcTknaEidOVFwU9vgTbaLWTeB7Y0Lm59gM6Uz-MbE7KHsYLQC_g7ZjHU4OF5iCSUq_Yo1mZZdMuDmiD5vweAJ-U6q5QFdX_bu8099mrqBHUOFksS-285nFyDKxSH2xUPqkeRSWvjJHY0c2ec1OXlelxKy-Gj7i6YxFTtAdT9X0l9qTyme0JeD-DrRzSt5QxSxM61GWgjEgNt4edEYB5zxVMdGBcewGBIK8M92FeHn_duNKGqzAFLzjPZF9EJcHFVgghdtLl6awgrIH4",
+                "AZLasHoUTUDJGrEiaBUxkTfDxIvK6QpdedRYvOwuUtEq90Az3fVhpJlI1O_-1v267w8VrIRtfjcZSSC6lSoVYmm5wjubqPydmaX4_CWYA0nxWAGX5j8wlfS1vLBMJPstcFQE1ZfvXiiTLTfpHo5gTcs5bMKjW3dGEzgvIuH1ncBYjBOKBGW8HBkWjPRT5v8PhFwkna9T8NN-jX4ra910svFpI6ZMMJXM9NUzk_Q15ivT8bx3eL0DIjhmCsuO1jMmnHy4paDSkng8vA2iIe9IryZ15VyRisYiKJ7S2CeplyUCV315g7g_XehPgVjIkraxGCRxjW0NxRK_2miQjNSwZP9cgh8iP26dTJ2SE0IkCfrR2Zmtkednsu_wcT0lfsY_VjESY2nxrD3ltG2-Yznyn4-KW3AQ9jnouZgCwPtZT8H0YoOBAGaOcjqdLVh9pPx9gR9Z"
+            ]
+        },
+        "metadata": {
+            "added_at": "2025-12-18T00:00:00Z",
+            "verified": true,
+            "source": "expert-curation"
+        },
+        "opening_hours": {
+            "standard": "10h00 - 19h00",
+            "display": "Mar-Dim: 10h - 19h",
+            "detailed": "De 10h à 19h.\nFermé le Lundi."
+        }
+    }
+]
