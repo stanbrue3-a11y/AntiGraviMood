@@ -1,17 +1,15 @@
 import React, { useMemo, useCallback, useEffect, useRef } from 'react';
-import { View, Text, StyleSheet, Pressable, TouchableOpacity } from 'react-native';
-import { BottomSheetScrollView, BottomSheetBackdrop } from '@gorhom/bottom-sheet';
-import BottomSheet from '@gorhom/bottom-sheet';
+import { View, Text, StyleSheet, Pressable, TouchableOpacity, ActionSheetIOS, ScrollView, Platform } from 'react-native';
+import BottomSheet, { BottomSheetScrollView, BottomSheetBackdrop } from '@gorhom/bottom-sheet';
 import { Ionicons } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
-import { PracticalInfoList as PracticalInfo } from './PracticalInfoList';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useTheme, moodColors } from '../../design';
-import { PriceGauge } from '../common/PriceGauge';
-import { usePlacesStore, type Place } from '../../stores';
+import { PriceGauge } from '../common/PriceGauge'; // Keep this if PriceGauge is still used elsewhere or remove if InteractivePriceGauge replaces it entirely.
+import { usePlacesStore, type Place } from '../../stores'; // Original import, will be modified
 import { getDominantMood } from '../../lib/moodUtils';
 
 // Unified Components
@@ -19,10 +17,12 @@ import { PlaceHero } from './PlaceHero';
 import { PlaceSocialFeed } from './PlaceSocialFeed';
 import { PlaceRealTalk } from './PlaceRealTalk';
 import { PlaceDescription } from './PlaceDescription';
+import { PracticalInfoList as PracticalInfo } from './PracticalInfoList';
+import { InteractivePriceGauge } from '../common/InteractivePriceGauge'; // Added/Fixed import
 
 export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMode?: string }) => {
-    const theme = useTheme();
-    const snapPoints = useMemo(() => ['90%'], []);
+    const { theme, isDark } = useTheme(); // Added isDark here
+    const snapPoints = useMemo(() => ['87%'], []);
     const isFocused = useIsFocused();
     const bottomSheetRef = useRef<BottomSheet>(null);
     const insets = useSafeAreaInsets();
@@ -30,12 +30,20 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
         selectedPlaceId,
         sheetMode,
         selectPlace,
-        getPlaceById,
+        getPlaceById, // This will be removed as per the new logic
         toggleLike,
-        likedPlaceIds
+        likedPlaceIds,
+        places // Added to get all places for useMemo
     } = usePlacesStore();
 
-    const place = (selectedPlaceId && sheetMode === triggerMode) ? getPlaceById(selectedPlaceId) : null;
+    // New logic for 'place' derivation
+    const place = useMemo(() => {
+        if (selectedPlaceId && sheetMode === triggerMode) {
+            return places.find(p => p.id === selectedPlaceId);
+        }
+        return null;
+    }, [selectedPlaceId, sheetMode, triggerMode, places]);
+
     const isVisible = !!place;
 
     useEffect(() => {
@@ -149,6 +157,9 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
 
                             {/* 2. Infos & Vibes */}
                             <View style={styles.detailsContainer}>
+                                <Text style={{ fontSize: 24, fontWeight: '800', fontFamily: 'Inter_900Black', color: isDark ? '#FFF' : '#111', lineHeight: 28, marginBottom: 8 }}>
+                                    {place.name}
+                                </Text>
 
                                 {/* Row: Mood + Price + Category */}
                                 <View style={styles.metaRow}>
@@ -156,7 +167,46 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                         <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood.toUpperCase()}</Text>
                                     </View>
                                     <View style={styles.dividerVertical} />
-                                    <PriceGauge level={place.practical_info?.price_range as any || 2} size="md" activeColor={primaryColor} />
+
+                                    {/* INTERACTIVE PRICE GAUGE (Real Data) */}
+                                    {place.practical_info?.price_info && (
+                                        <InteractivePriceGauge
+                                            placeType={(() => {
+                                                const cat = (place.category || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                                                if (['coffee-shop', 'cafe', 'tea-room', 'bakery'].includes(cat)) return 'cafe';
+                                                if (['bar', 'cocktail-bar', 'wine-bar', 'speakeasy', 'pub', 'biergarten'].includes(cat)) return 'bar';
+                                                if (['club'].includes(cat)) return 'club';
+                                                if (['hotel'].includes(cat)) return 'hotel';
+                                                if (['museum', 'art-gallery', 'cultural-center', 'theatre', 'monument', 'espace-culturel'].includes(cat)) return 'culture';
+                                                if (['park', 'garden', 'walk'].includes(cat)) return 'park';
+                                                return 'restaurant'; // Default fallback
+                                            })()}
+                                            averagePrice={place.practical_info.price_info.average_price}
+                                            currency={place.practical_info.price_info.currency}
+                                            percentageVsAverage={place.practical_info.price_info.sociology_factor}
+                                            tip={place.practical_info.price_info.smart_tip}
+                                            categories={place.practical_info.price_info.items ? place.practical_info.price_info.items.map(cat => ({
+                                                icon: cat.category.includes('BOISSON') ? 'wine-outline' :
+                                                    cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
+                                                        cat.category.includes('PLAT') ? 'flame-outline' :
+                                                            cat.category.includes('DESSERT') ? 'ice-cream-outline' : 'star-outline',
+                                                title: cat.category, // e.g. "ENTRÉES" or "COCKTAILS"
+                                                items: cat.items.map(item => ({
+                                                    name: item.name,
+                                                    price: item.price
+                                                }))
+                                            })) : []}
+                                            activeColor={primaryColor}
+                                            triggerComponent={
+                                                <PriceGauge
+                                                    level={place.practical_info?.price_range || 2}
+                                                    activeColor={primaryColor}
+                                                    size="md"
+                                                />
+                                            }
+                                        />
+                                    )}
+
                                     <View style={styles.dividerVertical} />
                                     <Text style={[styles.metaText, { color: primaryColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
                                 </View>
@@ -166,14 +216,14 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
 
                                 {/* 📖 HISTOIRE & LIEU (Collapsible) */}
                                 <PlaceDescription place={place} primaryColor={primaryColor} />
-
-                                {/* Infos Pratiques & Description */}
-                                {place.practical_info && <PracticalInfo place={place} primaryColor={primaryColor} />}
-
-                                {/* 3. Moments Partagés (Unified Component) */}
-                                <PlaceSocialFeed place={place} />
-
                             </View>
+
+                            {/* Infos Pratiques & Description */}
+                            {place.practical_info && <PracticalInfo place={place} primaryColor={primaryColor} />}
+
+                            {/* 4. Social Feed (Moments) */}
+                            <PlaceSocialFeed place={place} />
+
                         </BottomSheetScrollView>
 
                         {/* 4. Bouton Y ALLER (Floating) */}
@@ -229,7 +279,7 @@ const styles = StyleSheet.create({
         elevation: 2,
     },
     // Details Component Styles
-    detailsContainer: { padding: 24, paddingTop: 28 },
+    detailsContainer: { padding: 24, paddingTop: 4, marginTop: -20 },
     metaRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 24 },
     dividerVertical: { width: 1, height: 16, backgroundColor: '#E5E7EB', marginHorizontal: 12 },
 
