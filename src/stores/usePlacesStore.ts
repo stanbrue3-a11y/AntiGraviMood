@@ -13,11 +13,11 @@ import placesData from '../data/pois_flattened.json';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // TEMPORARY: Force clear store once to fix persistent data issue
-AsyncStorage.getItem('moodmap-places-fix-v30').then(val => {
+AsyncStorage.getItem('moodmap-places-fix-v43').then(val => {
     if (!val) {
         AsyncStorage.removeItem('moodmap-places-storage');
-        AsyncStorage.setItem('moodmap-places-fix-v30', 'done');
-        console.log('[DEBUG] Storage cleared for v30 refresh');
+        AsyncStorage.setItem('moodmap-places-fix-v43', 'done');
+        console.log('[DEBUG] Storage cleared for v43 refresh');
     }
 });
 

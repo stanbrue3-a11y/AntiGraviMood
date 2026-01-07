@@ -83,6 +83,17 @@ export interface Place {
         smoking_area?: string;
         music_genre?: string;
         website?: string;
+        price_info?: {
+            average_price: number;
+            currency: string;
+            price_range: number;
+            sociology_factor?: number;
+            smart_tip?: string;
+            items?: Array<{
+                category: string;
+                items: Array<{ name: string; price: string }>;
+            }>;
+        };
     };
     opening_hours?: {
         standard: string;

@@ -152,7 +152,6 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
                     styles.imageContainer,
                     { height: cardHeight }
                 ]}>
-                    {/* Image Contained in Animated View for Shared Transition */}
                     <View style={{ flex: 1, backgroundColor: '#f0f0f0' }}>
                         <Image
                             source={{ uri: imageUri }}
@@ -190,13 +189,13 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
                         </Animated.View>
                     </Pressable>
 
-                    {/* Top Right: Mood Badge (Replaces Price) */}
+                    {/* Top Right: Mood Badge */}
                     <View style={styles.topBtnRight}>
                         <View style={[styles.moodBadgeWrapper, { borderColor: accentColor + '40' }]}>
                             <BlurView
-                                intensity={80} // Increased from 40
+                                intensity={80}
                                 tint="dark"
-                                style={[styles.moodBadgeBlur, { backgroundColor: 'rgba(0,0,0,0.4)' }]} // Added dark overlay
+                                style={[styles.moodBadgeBlur, { backgroundColor: 'rgba(0,0,0,0.4)' }]}
                             >
                                 <Text style={[styles.moodText, { color: accentColor }]}>
                                     {MOODS[mood].emoji}
@@ -210,6 +209,15 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
                         <Text style={styles.name} numberOfLines={2}>
                             {place.name}
                         </Text>
+                        <View style={styles.metaRow}>
+                            <Text style={styles.subtitle} numberOfLines={1}>
+                                {place.category.charAt(0).toUpperCase() + place.category.slice(1)}
+                            </Text>
+                            <Text style={styles.dot}>•</Text>
+                            <Text style={styles.subtitle}>
+                                {place.location.arrondissement}e
+                            </Text>
+                        </View>
                     </View>
                 </View>
             </AnimatedPressable>
@@ -280,7 +288,7 @@ const styles = StyleSheet.create({
     // Bottom Text
     textOverlay: {
         position: 'absolute',
-        bottom: 12, // Lowered from 16
+        bottom: 12,
         left: 12,
         right: 12,
         zIndex: 10,
@@ -291,7 +299,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
         textShadowColor: 'rgba(0,0,0,0.3)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 3,
-        marginBottom: 0, // Removed margin since subtitle is gone
+        marginBottom: 0,
     },
     metaRow: {
         flexDirection: 'row',
@@ -307,8 +315,9 @@ const styles = StyleSheet.create({
         color: 'rgba(255,255,255,0.9)',
         fontWeight: '500',
         textTransform: 'capitalize',
-        flexShrink: 1, // Avoid text going out of bounds
+        flexShrink: 1,
     },
+
     // Mood Badge Styles (Copied from MomentItem)
     moodBadgeWrapper: {
         borderRadius: 8,
@@ -316,15 +325,15 @@ const styles = StyleSheet.create({
         borderWidth: 1,
     },
     moodBadgeBlur: {
-        paddingHorizontal: 7, // Reduced from 8
-        paddingVertical: 3,   // Reduced from 4
+        paddingHorizontal: 7,
+        paddingVertical: 3,
         alignItems: 'center',
         justifyContent: 'center',
     },
     moodText: {
-        fontSize: 9,          // Reduced from 10
+        fontSize: 9,
         fontWeight: '800',
         textTransform: 'uppercase',
-        letterSpacing: 1.2,   // Reduced from 1.5
+        letterSpacing: 1.2,
     }
 });
