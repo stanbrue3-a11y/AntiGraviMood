@@ -105,9 +105,7 @@
           }
         ]
       },
-      "Le Concept": "Payer au temps passé, consommations à volonté",
-      "Le Tip": "Réservez une salle privée pour vos calls importants",
-      "Le Buffet": "Encas salés/sucrés et boissons chaudes inclus"
+      "specialty": "Encas salés/sucrés et boissons chaudes inclus"
     },
     "media": {
       "hero_image": "https://source.unsplash.com/uFKI74DWFKQ",
@@ -143,6 +141,12 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Étudiants ultra-concentrés, freelances en call et nomades digitaux. (Silence studieux et Wifi fibre ultra-rapide)"
+      },
+      "culture_snack": {
+        "text": "Payer au temps passé, consommations à volonté"
+      },
+      "vivant_tip": {
+        "text": "Réservez une salle privée pour vos calls importants"
       }
     }
   },
@@ -252,10 +256,9 @@
           }
         ]
       },
-      "Moment Culte": "Le lever de soleil sur la Seine vers 6h du mat'",
-      "Le Son": "Système son Funktion-One, prévoyez des bouchons",
-      "La Prog": "Le meilleur de la techno internationale",
-      "L'Entrée": "Sélection stricte à la porte, venez tôt ou préventes"
+      "music_vibe": "Système son Funktion-One, prévoyez des bouchons",
+      "music_genre": "Le meilleur de la techno internationale",
+      "door_policy": "Sélection stricte à la porte, venez tôt ou préventes"
     },
     "media": {
       "hero_image": "https://source.unsplash.com/ZyTOTmqYYQ8",
@@ -289,6 +292,9 @@
     },
     "description": "Anciennement Concrete, cette barge amarrée port de la Rapée a troqué la techno hardcore pour une ambiance solaire et guinguette. Sur trois niveaux dont un immense rooftop végétalisé avec vue imprenable sur la Seine, Le Mazette est devenu le QG des étés parisiens. On y vient pour grignoter des tapas, boire du rosé et danser sous les lampions dès que le soleil se couche. Un lieu hybride qui respire la convivialité et la fête décomplexée.",
     "ai_insights": {
+      "best_moment": {
+        "text": "Le lever de soleil sur la Seine vers 6h du mat'"
+      },
       "social_vibe": {
         "text": "L'élite festive de la rive gauche, glitter et chemises en lin."
       }
@@ -832,8 +838,7 @@
       "L'ambiance": "Feutrée, élégante et discrète.",
       "Le décor": "Design italien sophistiqué par Raphael Navot.",
       "Le tip": "Le rooftop est petit mais offre une vue imprenable.",
-      "Le Tip": "Le bar caché 'L'Herbarium' et ses cocktails signatures.",
-      "Le Must": "Le Ristorante National et ses pâtes fraîches."
+      "must_eat": "Le Ristorante National et ses pâtes fraîches."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Point_Eph%C3%A9m%C3%A8re_2009.jpg",
@@ -865,6 +870,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Créatifs chics, couples en date et voyageurs esthètes."
+      },
+      "vivant_tip": {
+        "text": "Le bar caché 'L'Herbarium' et ses cocktails signatures."
       }
     }
   },
@@ -1971,9 +1979,7 @@
       "reservation_required": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 18h00 – 01h00",
-      "Accessibility": false,
-      "Le Tip": "Un secret caché à Montmartre. Cadre féerique.",
-      "L'Ambiance": "jardin-secret, hôtel-particulier, feutré, romantique, montmartre"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/tres-particulier.jpg",
@@ -2122,10 +2128,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Sound-system légendaire. Bouchons d'oreilles recommandés.",
-      "La Musique": "techno",
-      "L'Ambiance": "légendaire, sound-system, nuit-blanche, international"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/rex-club.jpg",
@@ -2275,9 +2278,7 @@
       "Horaires": "Ouvert tous les jours 09h00 – 17h00",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Pensez à réserver.",
-      "L'Ambiance": "jardin-caché, maison-association, solidaire, tranquille, laptop-friendly"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jardin_Villemin_-_Couvent_des_R%C3%A9collets.jpg",
@@ -2433,8 +2434,7 @@
       "Le prix": "Pizzas 12-16€, Cocktails 10-14€.",
       "Le tip": "Commande avec le QR code pour ne pas faire la queue.",
       "Reservation required": false,
-      "Le Tip": "Les toilettes ultra-instagrammables.",
-      "Le Must": "La pizza à la truffe et les pâtes fraîches."
+      "must_eat": "La pizza à la truffe et les pâtes fraîches."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Immeuble_Morland_from_Jardin_Tino_Rossi%2C_Paris_27_May_2017.jpg",
@@ -2467,6 +2467,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Start-uppers, grands groupes d'amis et familles le WE."
+      },
+      "vivant_tip": {
+        "text": "Les toilettes ultra-instagrammables."
       }
     }
   },
@@ -2578,10 +2581,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 07h30 – 01h00",
-      "Reservation required": false,
-      "Le Tip": "Le grand rival du Flore. Terrasse ensoleillée face à l'église.",
-      "L'Ambiance": "iconique, existentialiste, terrasse, patrimoine, littéraire",
-      "La Terrasse": "Oui, disponible"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Les_Deux_Magots%2C_25_September_2019.jpg",
@@ -2727,10 +2727,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Un appartement secret à l'étage pour se poser entre deux sets.",
-      "La Musique": "electro-pop",
-      "L'Ambiance": "bastille, indé, convivial, live"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1514525253440-b393452e3720?auto=format&fit=crop&w=800&q=80",
@@ -2872,9 +2869,7 @@
       "Horaires": "Ouvert tous les jours 08h - 20h",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Très petit, très instagrammable. L'Avocado Toast est une référence.",
-      "L'Ambiance": "specialty-coffee, scandinave, minimaliste, brunch, digital-nomad"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/ob-la-di.jpg",
@@ -3013,9 +3008,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Ancienne maison close de Bizet. Le décor rococo est fou.",
-      "L'Ambiance": "hôtel-particulier, opulent, bizet, baroque, pigalle"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/le-carmen.jpg",
@@ -3154,10 +3147,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 09h00 – 23h30",
-      "Reservation required": false,
-      "Le Tip": "Terrasse en bord de Seine face à l'île Saint-Louis. Top l'été.",
-      "L'Ambiance": "péniche, seine, coucher-soleil, apéro, bateau",
-      "La Terrasse": "Oui, disponible"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "/images/les-nautes.jpg",
@@ -3297,8 +3287,7 @@
       "L'ambiance": "Futuriste, inclusive et architecturale.",
       "Le concept": "Salle de concert pointue, arts numériques et cultures post-Internet.",
       "Le tip": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide.",
-      "Le Tip": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
-      "Le Must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
+      "must_eat": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
     },
     "media": {
       "hero_image": "/images/gaite-lyrique.jpg",
@@ -3329,6 +3318,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux."
+      },
+      "vivant_tip": {
+        "text": "Le Foyer historique à l'étage, une pépite Second Empire cachée."
       }
     }
   },
@@ -3445,9 +3437,7 @@
       "accessibility": true,
       "Horaires": "Ouvert tous les jours 08h00 – 17h00",
       "Reservation required": false,
-      "Outdoor seating": false,
-      "Le Tip": "Torréfaction sur place. Le temple du café de spécialité.",
-      "L'Ambiance": "torréfaction, industriel, specialty-coffee, artisanal, goutte-dor"
+      "Outdoor seating": false
     },
     "media": {
       "hero_image": "/images/cafe-lomi.jpg",
@@ -3557,38 +3547,6 @@
     },
     "discovery_radius_meters": 50,
     "min_stay_time_minutes": 40,
-    "pricing": {
-      "type": "restaurant",
-      "budget_avg": 15,
-      "value_score": 95,
-      "category_percentile": 5,
-      "starter_range": [
-        1.50,
-        7.50
-      ],
-      "main_range": [
-        7.00,
-        12.20
-      ],
-      "dessert_range": [
-        2.00,
-        5.50
-      ],
-      "highlights": {
-        "signature_dish": {
-          "name": "Boeuf Bourguignon",
-          "price": 12.20
-        },
-        "best_deal": {
-          "name": "Confit de Canard",
-          "price": 9.80
-        },
-        "must_try_dessert": {
-          "name": "Baba au Rhum",
-          "price": 3.60
-        }
-      }
-    },
     "practical_info": {
       "price_info": {
         "average_price": 18,
@@ -3644,8 +3602,7 @@
       "Accessibility": false,
       "Meilleur Moment": "Y aller à 18h45 pile ou après 22h30",
       "L'Ambiance": "Brouhaha constant, serveurs en gilet qui courent",
-      "Le Secret": "Classé Monument Historique : on y mange depuis 1896.",
-      "Le Tip": "Commande l'oeuf may (2€) et le boeuf bourguignon."
+      "Le Secret": "Classé Monument Historique : on y mange depuis 1896."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bouillon_Chartier_01.jpg/1280px-Bouillon_Chartier_01.jpg",
@@ -3678,6 +3635,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Touristes affamés, étudiants fauchés et nostalgiques du vieux Paris."
+      },
+      "vivant_tip": {
+        "text": "Commande l'oeuf may (2€) et le boeuf bourguignon."
       }
     }
   },
@@ -3793,10 +3753,7 @@
       "Horaires": "Ouvert tous les jours 08h00 – 02h00",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Le rade mythique du Faubourg. Toujours bondé, toujours vivant.",
-      "La Musique": "populaire",
-      "L'Ambiance": "rétro, néons, nuit, faubourg"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/chez-jeannette.jpg",
@@ -4082,9 +4039,7 @@
       "Horaires": "Ouvert tous les jours 17h - 02h",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Rooftop avec vue sur la petite ceinture. Ambiance festive.",
-      "L'Ambiance": "design, rooftop, starck, brunch, cosmopolite"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/mama-shelter.jpg",
@@ -4229,8 +4184,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "L'Ambiance": "Coffee shop de puriste",
-      "Meilleur Moment": "En semaine pour bosser",
-      "Le Tip": "Le Flat White est le meilleur du quartier."
+      "Meilleur Moment": "En semaine pour bosser"
     },
     "media": {
       "hero_image": "/images/dose.jpg",
@@ -4262,6 +4216,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Amateurs de latte art, freelances des Batignolles et joggeurs du matin."
+      },
+      "vivant_tip": {
+        "text": "Le Flat White est le meilleur du quartier."
       }
     }
   },
@@ -4530,8 +4487,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "La ligne de Petite Ceinture visible depuis certains points.",
-      "Le Must": "Le coucher de soleil depuis le Temple de la Sibylle."
+      "must_eat": "Le coucher de soleil depuis le Temple de la Sibylle."
     },
     "media": {
       "hero_image": "/images/buttes-chaumont.jpg",
@@ -4563,6 +4519,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Joggeurs du dimanche, bobos en pique-nique et taichis."
+      },
+      "vivant_tip": {
+        "text": "La ligne de Petite Ceinture visible depuis certains points."
       }
     }
   },
@@ -4676,9 +4635,7 @@
       "Horaires": "Ouvert tous les jours 17h - 02h",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Le patio est légendaire. Très chic, très cher, très vu.",
-      "L'Ambiance": "luxe, red-velvet, napoléon-iii, mode, jet-set"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/hotel-costes.jpg",
@@ -4806,11 +4763,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
-      "Reservation required": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "La Musique": "populaire",
-      "L'Ambiance": "ledoux, historique, canal, terrasse",
-      "La Terrasse": "Oui, disponible"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "/images/rotonde-villette.jpg",
@@ -4959,9 +4912,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 09h30 – 19h00",
-      "Reservation required": false,
-      "Le Tip": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
-      "L'Ambiance": "japonais, mode, palais-royal, matcha, influenceur"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "/images/cafe-kitsune.jpg",
@@ -5109,9 +5060,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
-      "Reservation required": false,
-      "Le Tip": "Ancienne gare de marchandises. Immense tiers-lieu éco-responsable.",
-      "L'Ambiance": "écolo, transition, potager, pantin, alternatif"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "/images/cite-fertile.jpg",
@@ -5395,9 +5344,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "L'Ambiance": "craft-beer, cave, afterwork, décontracté, houblon"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/gravity-bar.jpg",
@@ -5544,8 +5491,7 @@
       "Reservation required": false,
       "Meilleur Moment": "Dimanche midi pour le brunch ou Soirée Queer",
       "L'Ambiance": "Inclusif, coloré, ça danse sur les rails",
-      "Le Secret": "C'est une ancienne gare de la Petite Ceinture (1889).",
-      "Le Tip": "Descends sur les quais, c'est là que ça se passe l'été."
+      "Le Secret": "C'est une ancienne gare de la Petite Ceinture (1889)."
     },
     "media": {
       "hero_image": "/images/hasard-ludique.jpg",
@@ -5578,6 +5524,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Habitués de la Petite Ceinture, foule queer et voisins sympas."
+      },
+      "vivant_tip": {
+        "text": "Descends sur les quais, c'est là que ça se passe l'été."
       }
     }
   },
@@ -5683,11 +5632,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "La Musique": "techno",
-      "L'Ambiance": "moulin-rouge, industriel, nuit-blanche, légendaire",
-      "La Terrasse": "Oui, disponible"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/machine-moulin.jpg",
@@ -5831,9 +5776,7 @@
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "Table d'hôte unique (5 pers max). Cuisine sicilienne authentique.",
-      "L'Ambiance": "sicilien, village, sainte-marthe, terroir, convivial"
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/tete-olives.jpg",
@@ -5977,8 +5920,7 @@
       "Pour Qui ?": "Familles curieuses, geeks et enfants.",
       "Le tip": "Réserve la Cité des Enfants des semaines à l'avance.",
       "Reservation required": false,
-      "Le Tip": "Le sous-marin Argonaute caché dans le parc.",
-      "Le Must": "Le Planétarium et son écran 8K époustouflant."
+      "must_eat": "Le Planétarium et son écran 8K époustouflant."
     },
     "media": {
       "hero_image": "/images/cite-sciences.jpg",
@@ -6011,6 +5953,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Familles curieuses, geeks et enfants."
+      },
+      "vivant_tip": {
+        "text": "Le sous-marin Argonaute caché dans le parc."
       }
     }
   },
@@ -6117,9 +6062,7 @@
       "accessibility": true,
       "Horaires": "Ouvert tous les jours 09h30 – 17h00",
       "Reservation required": false,
-      "Outdoor seating": false,
-      "Le Tip": "Louez une barque pour aller voir le temple bouddhiste au milieu.",
-      "L'Ambiance": "lac, barque, romantique, nature, évasion"
+      "Outdoor seating": false
     },
     "media": {
       "hero_image": "/images/lac-daumesnil.jpg",
@@ -6237,8 +6180,7 @@
       "L'Histoire": "Une ancienne cordonnerie classée (Façade bleue iconique 1900)",
       "Capacité": "️ Micro-coffee shop : 3 tables, 2 tabourets. C'est tout.",
       "Le Verre": "Le crème (Lait d'avoine Oatly parfaitement mousseux)",
-      "L'Atmosphère": "Magazines de mode empilés, fleurs fraîches & exiguïté charmante",
-      "Le Tip": "Prends ta commande à emporter et va au Square du Temple juste à côté"
+      "L'Atmosphère": "Magazines de mode empilés, fleurs fraîches & exiguïté charmante"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6265,6 +6207,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Photographes, touristes du Marais et amateurs de mignardises."
+      },
+      "vivant_tip": {
+        "text": "Prends ta commande à emporter et va au Square du Temple juste à côté"
       }
     }
   },
@@ -6358,7 +6303,7 @@
       "Le Design": "Style Berlinois/Indus : Béton, tuyaux apparents & grandes baies vitrées",
       "Le Setup": "Immenses tables pour bosser (mais battre-vous pour les prises)",
       "La Signature": "Le Nitro Cold Brew (Café infusé à l'azote, texture bière Guinness)",
-      "Le Son": "Playlist Lo-Fi Hip Hop assez forte"
+      "music_vibe": "Playlist Lo-Fi Hip Hop assez forte"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6833,8 +6778,7 @@
       "Les Chambres": "La Chambre (lit), La Cuisine (table), La Salle de Bain",
       "L'Astuce": "Oui, tu peux vraiment manger ton brunch dans la baignoire",
       "La Terrasse": "Grande terrasse au bord de l'eau (Canal de l'Ourcq)",
-      "L'Activité": "Cours de yoga, ateliers DIY & expos féministes",
-      "Le Concept": "Une vraie maison de campagne où tout se squatte"
+      "L'Activité": "Cours de yoga, ateliers DIY & expos féministes"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6861,6 +6805,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Travailleurs en charentaises, féministes et groupes d'amis en goûter."
+      },
+      "culture_snack": {
+        "text": "Une vraie maison de campagne où tout se squatte"
       }
     }
   },
@@ -6947,8 +6894,7 @@
       "Meilleur Moment": "Le matin tôt (8h30) pour voir les Tai-Chi",
       "L'Ambiance": "Chaises vertes, étudiants studieux et sénateurs",
       "Le Secret": "Le Sénat est juste là, dans le Palais du Luxembourg.",
-      "Horaires": "Tlj: 08h-20h",
-      "Le Tip": "Choisis une chaise inclinée (plus rare) autour du bassin."
+      "Horaires": "Tlj: 08h-20h"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6973,6 +6919,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Étudiants de la Sorbonne, sénateurs et joueurs d'échecs."
+      },
+      "vivant_tip": {
+        "text": "Choisis une chaise inclinée (plus rare) autour du bassin."
       }
     }
   },
@@ -7055,7 +7004,7 @@
       "Culture": "Maison de Victor Hugo dans l'angle (Entrée gratuite)",
       "Les Galeries": "Fais le tour des galeries d'art sous les arcades après",
       "Horaires": "Tlj: 08h-20h",
-      "Le Son": "Souvent un quatuor à cordes ou chanteur lyrique sous les arcades"
+      "music_vibe": "Souvent un quatuor à cordes ou chanteur lyrique sous les arcades"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7741,8 +7690,7 @@
       "Le Cadre": "La Bibliothèque aux 10 000 livres d'occasion (Mur entier)",
       "La Vue": "Vue plongeante sur la cour pavée et la Fiat 500 rouge",
       "Nostalgie": "Oeufs à la coque & Mouillettes (Comme en enfance)",
-      "Shopping": "Le Concept Store attenant est le temple du design",
-      "Le Tip": "Les jus de fruits frais (extracteur) sont divins"
+      "Shopping": "Le Concept Store attenant est le temple du design"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7769,6 +7717,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Design lovers, touristes chics et amateurs de beaux linges."
+      },
+      "vivant_tip": {
+        "text": "Les jus de fruits frais (extracteur) sont divins"
       }
     }
   },
@@ -8090,8 +8041,7 @@
       "Le Look": "Tout est Rose Pastel, Néons 'Bisou' & Plantes suspendues",
       "La Terrasse": "Grande terrasse chauffée sur le boulevard (Top pour people-watch)",
       "Écologie": "Ingrédients de saison & Déchets minimes",
-      "L'Ambiance": "Ultra Friendly, Staff souriant, zéro snobisme",
-      "Le Concept": "‍️ AUCUN MENU. Dis ce que tu aimes, il créent pour toi."
+      "L'Ambiance": "Ultra Friendly, Staff souriant, zéro snobisme"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8118,6 +8068,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Curieux sans menu, cœurs d'artichaut et fans de rose."
+      },
+      "culture_snack": {
+        "text": "‍️ AUCUN MENU. Dis ce que tu aimes, il créent pour toi."
       }
     }
   },
@@ -8322,9 +8275,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
-      "Reservation required": false,
-      "Le Tip": "Ambiance latino-disco moite. On y danse beaucoup.",
-      "L'Ambiance": "trendy, paris, festif"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8948,9 +8899,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 18h30 – 01h45",
-      "Reservation required": false,
-      "Le Tip": "Vins natures et vinyles. Ambiance qui monte le soir.",
-      "L'Ambiance": "trendy, paris, festif"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9771,7 +9720,7 @@
       "L'Histoire": "Ancienne salle de Jeu de Paume de Napoléon III",
       "La Vue": "La terrasse du café donne sur la Concorde & la Tour Eiffel",
       "Librairie": "La meilleure librairie photo de Paris à l'entrée",
-      "La Prog": "Rétrospectives majeures (Souvent très fréquentées)"
+      "music_genre": "Rétrospectives majeures (Souvent très fréquentées)"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9993,9 +9942,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
-      "Reservation required": false,
-      "Le Tip": "Hôtel Salé magnifique. La collection d'œuvres est unique.",
-      "L'Ambiance": "trendy, paris, culturel"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10337,8 +10284,7 @@
       "Le concept": "Salle de concert pointue, arts numériques et cultures post-Internet.",
       "Le tip": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide.",
       "Horaires": "Mar-Dim: 14h-20h",
-      "Le Tip": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
-      "Le Must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
+      "must_eat": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10362,6 +10308,9 @@
     "ai_insights": {
       "social_vibe": {
         "text": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux."
+      },
+      "vivant_tip": {
+        "text": "Le Foyer historique à l'étage, une pépite Second Empire cachée."
       }
     }
   },
@@ -10448,9 +10397,7 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 11h00 – 18h00",
-      "Reservation required": false,
-      "Le Tip": "Art Brut et café librairie atypique au pied de Montmartre.",
-      "L'Ambiance": "trendy, paris, culturel"
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",

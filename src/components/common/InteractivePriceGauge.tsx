@@ -3,7 +3,9 @@ import { View, Text, StyleSheet, Pressable, Modal, TouchableWithoutFeedback, Dim
 import { BlurView } from 'expo-blur';
 
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
+import { CrabIcon, SafeIcon } from './PriceIcons';
 import { useTheme } from '../../design';
+import { fontFamilies } from '../../design/tokens/typography';
 import Animated, { useAnimatedProps, withTiming, useSharedValue, FadeIn, useAnimatedStyle } from 'react-native-reanimated';
 import * as Haptics from 'expo-haptics';
 
@@ -152,21 +154,24 @@ export const InteractivePriceGauge = ({
                                     <Text style={styles.subTitle}>Est-ce que c'est un bon plan ?</Text>
                                 </View>
 
-                                {/* THE BAR */}
+                                {/* THE BAR - Premium */}
                                 <View style={styles.barContainer}>
-                                    {/* Track */}
-                                    <View style={styles.barTrack}>
-                                        {/* Fill */}
-                                        <Animated.View style={[styles.barFill, { backgroundColor: activeColor }, animatedStyle]} />
+                                    {/* Thicker Bar with Shadow */}
+                                    <View style={styles.barTrackOuter}>
+                                        <View style={styles.barTrack}>
+                                            <Animated.View style={[styles.barFill, { backgroundColor: activeColor }, animatedStyle]} />
+                                        </View>
                                     </View>
 
-                                    {/* Labels Ends */}
+                                    {/* Custom SVG Pictograms */}
                                     <View style={styles.barLabels}>
-                                        <Text style={styles.limitLabel}>€€€€</Text>
-
-                                        {/* Falling Crab Icon at the right end */}
-                                        <View style={styles.crabContainer}>
-                                            <Ionicons name="pricetag" size={20} color={activeColor} />
+                                        <View style={styles.barLabelGroup}>
+                                            <SafeIcon size={20} color="#9CA3AF" />
+                                            <Text style={styles.barLabelText}>Cher</Text>
+                                        </View>
+                                        <View style={styles.barLabelGroup}>
+                                            <Text style={[styles.barLabelText, { color: activeColor, fontWeight: '600' }]}>Bon plan</Text>
+                                            <CrabIcon size={22} color={activeColor} />
                                         </View>
                                     </View>
                                 </View>
@@ -253,70 +258,120 @@ const styles = StyleSheet.create({
         paddingBottom: 36,
     },
 
-    // Header (Pro)
-    headerSection: { alignItems: 'center', marginBottom: 24 },
-    mainTitle: { fontSize: 13, fontWeight: '800', letterSpacing: 2, marginBottom: 6, textTransform: 'uppercase', color: '#111' },
-    subTitle: { fontSize: 12, fontWeight: '500', color: '#9CA3AF' },
+    // Header (Minimal Serif)
+    headerSection: { alignItems: 'center', marginBottom: 20 },
+    mainTitle: {
+        fontSize: 12,
+        fontFamily: 'Georgia',
+        fontWeight: '600',
+        letterSpacing: 2,
+        marginBottom: 4,
+        textTransform: 'uppercase',
+        color: '#111'
+    },
+    subTitle: {
+        fontSize: 12,
+        fontWeight: '400',
+        color: '#9CA3AF',
+    },
 
-    // The Bar (Sexy Pill)
-    barContainer: { marginBottom: 20 },
+    // The Bar (Premium)
+    barContainer: { marginBottom: 28 },
+    barTrackOuter: {
+        padding: 3,
+        backgroundColor: '#F3F4F6',
+        borderRadius: 12,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.06,
+        shadowRadius: 4,
+        elevation: 2,
+    },
     barTrack: {
-        height: 14, // Not thin, substantial
-        backgroundColor: '#F0F2F5', // Very light cool grey
-        borderRadius: 7, // Fully rounded
+        height: 16,
+        backgroundColor: '#E8EAED',
+        borderRadius: 9,
         overflow: 'hidden',
         width: '100%',
-        marginBottom: 10,
     },
     barFill: {
         height: '100%',
-        borderRadius: 7,
+        borderRadius: 9,
     },
     barLabels: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
+        marginTop: 12,
         paddingHorizontal: 2,
     },
-    limitLabel: {
-        fontSize: 10,
-        fontWeight: '800',
-        color: '#D1D5DB',
-        letterSpacing: 1,
+    barLabelGroup: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 6,
+    },
+    barEmoji: {
+        fontSize: 18,
+    },
+    barLabelText: {
+        fontSize: 11,
+        fontWeight: '500',
+        color: '#9CA3AF',
+        textTransform: 'uppercase',
+        letterSpacing: 0.5,
     },
 
-    // Crab Pictogram (Vector)
-    crabContainer: {
-        // No border/bg, just the clean icon
-        marginRight: -2,
-        opacity: 0.9,
-    },
-
-    // Score Text (Impactful)
+    // Score Text (Premium with Emoji)
     scoreContainer: { alignItems: 'center', marginBottom: 28 },
+    scoreEmoji: {
+        fontSize: 32,
+        marginBottom: 8,
+    },
     scoreText: {
         fontSize: 26,
-        fontWeight: '900',
+        fontFamily: 'Georgia',
+        fontWeight: '700',
         letterSpacing: -0.5,
         textAlign: 'center',
-        marginBottom: 4
+        marginBottom: 6,
     },
-    contextText: { fontSize: 13, fontWeight: '600', color: '#9CA3AF' },
+    contextText: {
+        fontSize: 13,
+        fontFamily: 'Georgia',
+        fontStyle: 'italic',
+        fontWeight: '400',
+        color: '#6B7280',
+    },
 
-    // Price Block (Cleanest)
+    // Price Block (Clean & Minimal)
     priceInfoBlock: {
         alignItems: 'center',
-        paddingVertical: 14,
-        marginBottom: 24,
-        borderTopWidth: 1,
-        borderBottomWidth: 1,
-        borderColor: '#F3F4F6',
+        paddingVertical: 16,
+        marginBottom: 20,
+        borderTopWidth: StyleSheet.hairlineWidth,
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        borderColor: '#E5E7EB',
         width: '100%',
     },
     priceRow: { flexDirection: 'row', alignItems: 'baseline', marginBottom: 4 },
-    priceCurrency: { fontSize: 18, fontWeight: '400', color: '#D1D5DB' },
-    priceAmount: { fontSize: 36, fontWeight: '800', color: '#111', marginHorizontal: 8, letterSpacing: -1.5 },
-    priceDesc: { fontSize: 13, fontWeight: '600', color: '#6B7280' },
+    priceCurrency: {
+        fontSize: 16,
+        fontWeight: '300',
+        color: '#C9CDD3',
+    },
+    priceAmount: {
+        fontSize: 36,
+        fontFamily: 'Georgia',
+        fontWeight: '600',
+        color: '#111',
+        marginHorizontal: 4,
+        letterSpacing: -1,
+    },
+    priceDesc: {
+        fontSize: 12,
+        fontWeight: '400',
+        color: '#9CA3AF',
+    },
 
     // Tip Box
     tipBox: {
@@ -328,18 +383,52 @@ const styles = StyleSheet.create({
         marginBottom: 24,
         gap: 12,
     },
-    tipText: { flex: 1, fontSize: 13, fontWeight: '500', lineHeight: 18, color: '#374151' },
+    tipText: {
+        flex: 1,
+        fontSize: 13,
+        fontFamily: 'Georgia',
+        fontWeight: '400',
+        fontStyle: 'italic',
+        lineHeight: 20,
+        color: '#374151'
+    },
 
     // Categories
     categorySection: { marginBottom: 16 },
     categoryHeader: { flexDirection: 'row', alignItems: 'center', marginBottom: 8, gap: 8 },
-    categoryTitle: { fontSize: 11, fontWeight: '800', color: '#9CA3AF', textTransform: 'uppercase', letterSpacing: 1 },
-    itemRow: { flexDirection: 'row', alignItems: 'baseline', paddingVertical: 4 },
-    itemName: { fontSize: 14, color: '#1F2937', fontWeight: '500' },
-    dotLine: { flex: 1, borderBottomWidth: 1, borderColor: '#F3F4F6', marginHorizontal: 8 },
-    itemPrice: { fontSize: 14, fontWeight: '700', color: '#111' },
+    categoryTitle: {
+        fontSize: 11,
+        fontFamily: 'Georgia',
+        fontWeight: '600',
+        color: '#6B7280',
+        textTransform: 'uppercase',
+        letterSpacing: 1
+    },
+    itemRow: { flexDirection: 'row', alignItems: 'baseline', paddingVertical: 6 },
+    itemName: {
+        fontSize: 14,
+        fontFamily: 'Georgia',
+        color: '#1F2937',
+        fontWeight: '400'
+    },
+    dotLine: { flex: 1, borderBottomWidth: 1, borderColor: '#E5E7EB', marginHorizontal: 10, marginBottom: 4 },
+    itemPrice: {
+        fontSize: 14,
+        fontFamily: 'Georgia',
+        fontWeight: '600',
+        color: '#111'
+    },
 
-    disclaimer: { textAlign: 'center', fontSize: 10, color: '#E5E7EB', marginTop: 16, fontWeight: '600', letterSpacing: 0.5 },
+    disclaimer: {
+        textAlign: 'center',
+        fontSize: 10,
+        fontFamily: 'Georgia',
+        fontStyle: 'italic',
+        color: '#C9CDD3',
+        marginTop: 16,
+        fontWeight: '400',
+        letterSpacing: 0.3
+    },
 
     // Close Button
     closeBtn: {

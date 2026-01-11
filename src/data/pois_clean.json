@@ -2719,6 +2719,38 @@
         },
         "discovery_radius_meters": 50,
         "min_stay_time_minutes": 40,
+        "pricing": {
+            "type": "restaurant",
+            "budget_avg": 15,
+            "value_score": 95,
+            "category_percentile": 5,
+            "starter_range": [
+                1.50,
+                7.50
+            ],
+            "main_range": [
+                7.00,
+                12.20
+            ],
+            "dessert_range": [
+                2.00,
+                5.50
+            ],
+            "highlights": {
+                "signature_dish": {
+                    "name": "Boeuf Bourguignon",
+                    "price": 12.20
+                },
+                "best_deal": {
+                    "name": "Confit de Canard",
+                    "price": 9.80
+                },
+                "must_try_dessert": {
+                    "name": "Baba au Rhum",
+                    "price": 3.60
+                }
+            }
+        },
         "practical_info": {
             "price_range": 1,
             "reservation_required": false,

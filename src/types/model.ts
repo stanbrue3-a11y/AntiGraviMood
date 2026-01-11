@@ -21,6 +21,90 @@ export interface MoodScore {
     criteria: MoodCriteria;
 }
 
+// ====== NEW PRICING SYSTEM ======
+
+/** Price highlight for signature items */
+export interface PriceHighlight {
+    name: string;
+    price: number;
+}
+
+/** Core pricing data shared by all categories */
+export interface PricingBase {
+    /** Average budget per person in € */
+    budget_avg: number;
+    /** Value/quality ratio score (0-100, higher = better deal) */
+    value_score: number;
+    /** Position in category (0-100, lower = more accessible) */
+    category_percentile: number;
+}
+
+/** Restaurant-specific pricing */
+export interface RestaurantPricing extends PricingBase {
+    type: 'restaurant';
+    /** Price range for starters [min, max] */
+    starter_range?: [number, number];
+    /** Price range for mains [min, max] */
+    main_range?: [number, number];
+    /** Price range for desserts [min, max] */
+    dessert_range?: [number, number];
+    /** Signature dishes */
+    highlights?: {
+        signature_dish?: PriceHighlight;
+        best_deal?: PriceHighlight;
+        must_try_dessert?: PriceHighlight;
+    };
+}
+
+/** Bar-specific pricing */
+export interface BarPricing extends PricingBase {
+    type: 'bar';
+    /** Cheapest pint price in € */
+    pint_price?: number;
+    /** Average cocktail price in € */
+    cocktail_price?: number;
+    /** Glass of wine price in € */
+    wine_glass?: number;
+    /** Happy hour info */
+    happy_hour?: {
+        start: string;
+        end: string;
+        discount_percent?: number;
+    };
+}
+
+/** Café-specific pricing */
+export interface CafePricing extends PricingBase {
+    type: 'cafe';
+    /** Coffee (espresso/allongé) price in € */
+    coffee_price?: number;
+    /** Lunch formula price in € */
+    lunch_formula?: number;
+    /** Croissant/pastry price in € */
+    pastry_price?: number;
+}
+
+/** Club-specific pricing */
+export interface ClubPricing extends PricingBase {
+    type: 'club';
+    /** Entry fee in € */
+    entry_fee?: number;
+    /** Minimum drink price in € */
+    drink_min?: number;
+    /** Bottle service starting price in € */
+    bottle_service?: number;
+}
+
+/** Generic pricing for other categories */
+export interface GenericPricing extends PricingBase {
+    type: 'generic';
+}
+
+/** Union type for all pricing variants */
+export type Pricing = RestaurantPricing | BarPricing | CafePricing | ClubPricing | GenericPricing;
+
+// ====== PLACE INTERFACE ======
+
 export interface Place {
     id: string;
     name: string;
@@ -56,10 +140,13 @@ export interface Place {
     };
     discovery_radius_meters: number;
     min_stay_time_minutes: number;
+    /** NEW: Enhanced pricing system */
+    pricing?: Pricing;
     practical_info: {
+        /** @deprecated Use pricing.budget_avg instead */
         price_range: number;
         reservation_required: boolean;
-        wifi_available: boolean;
+        wifi_available?: boolean;
         outdoor_seating: boolean;
         accessibility: boolean;
         happy_hour?: {
@@ -99,6 +186,7 @@ export interface Place {
         standard: string;
         display?: string;
         detailed?: string;
+        is_open_now?: boolean;
     };
     media: {
         hero_image: string;

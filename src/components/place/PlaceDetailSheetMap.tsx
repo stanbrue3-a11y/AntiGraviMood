@@ -15,10 +15,11 @@ import { getDominantMood } from '../../lib/moodUtils';
 
 // New Components
 import { PlaceHero } from './PlaceHero';
-import { PracticalInfoList } from './PracticalInfoList';
 import { PlaceSocialFeed } from './PlaceSocialFeed';
-import { PlaceRealTalk } from './PlaceRealTalk';
 import { PlaceDescription } from './PlaceDescription';
+import { PlaceFaune } from './PlaceFaune';
+import { ModernPracticalInfo } from './ModernPracticalInfo';
+import { PlaceHours } from './PlaceHours';
 
 export const PlaceDetailSheetMap = () => {
     const theme = useTheme();
@@ -166,22 +167,30 @@ export const PlaceDetailSheetMap = () => {
                                         <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood.toUpperCase()}</Text>
                                     </View>
                                     <View style={styles.dividerVertical} />
-                                    <PriceGauge level={place.practical_info?.price_range as any || 2} size="md" activeColor={primaryColor} />
+                                    <PriceGauge
+                                        pricing={place.pricing}
+                                        legacyLevel={place.practical_info?.price_range as 1 | 2 | 3 | 4 || 2}
+                                        category={place.category}
+                                        moodColor={primaryColor}
+                                        size="md"
+                                        interactive={true}
+                                    />
                                     <View style={styles.dividerVertical} />
                                     <Text style={[styles.metaText, { color: primaryColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
                                 </View>
 
-                                {/* ✨ REAL TALK (La Faune) */}
-                                <PlaceRealTalk place={place} primaryColor={primaryColor} />
+                                {/* 🕒 HORAIRES */}
+                                {/* Inserted between Header and Faune */}
+                                <PlaceHours place={place} primaryColor={primaryColor} />
+
+                                {/* 🦊 LA FAUNE */}
+                                <PlaceFaune place={place} primaryColor={primaryColor} />
 
                                 {/* 📖 HISTOIRE & LIEU (Collapsible) */}
                                 <PlaceDescription place={place} primaryColor={primaryColor} />
 
-                                {/* Infos Pratiques */}
-                                <PracticalInfoList
-                                    place={place}
-                                    primaryColor={primaryColor}
-                                />
+                                {/* Infos Pratiques Modernes */}
+                                {place.practical_info && <ModernPracticalInfo info={place.practical_info} primaryColor={primaryColor} />}
 
                                 {/* 3. Moments Partagés (Delayed to prevent freeze) */}
                                 {contentReady ? (

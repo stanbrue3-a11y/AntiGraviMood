@@ -1,6 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import * as Haptics from 'expo-haptics';
 import { useMomentsStore } from '../stores/useMomentsStore';
+import { usePlacesStore } from '../stores/usePlacesStore'; // Import Places Store
 import { GLOBAL_MOMENTS, FRIENDS_MOMENTS } from '../data/mockMoments';
 
 export type FeedMode = 'global' | 'amis';
@@ -11,13 +12,34 @@ export const useFeedLogic = () => {
     const [isLoading, setIsLoading] = useState(true);
     const { moments: localMoments } = useMomentsStore();
 
+    // Get Filters and Place Data to cross-reference
+    const selectedDistricts = usePlacesStore(state => state.selectedDistricts);
+    const places = usePlacesStore(state => state.places);
+
     // No artificial loading delay for a snappier feel
     useEffect(() => {
         setIsLoading(false);
     }, []);
 
+    // Filter Logic
+    const filteredGlobalMoments = useMemo(() => {
+        let result = [...localMoments, ...GLOBAL_MOMENTS];
+
+        // Filter by District
+        if (selectedDistricts && selectedDistricts.length > 0) {
+            result = result.filter(moment => {
+                // Find place to get district
+                const place = places.find(p => p.id === moment.placeId);
+                if (!place) return true; // Keep if unknown to be safe (or remove?) - Safe: keep.
+
+                return selectedDistricts.includes(place.location.arrondissement);
+            });
+        }
+        return result;
+    }, [localMoments, selectedDistricts, places]);
+
     // Merge strategy
-    const allGlobalMoments = [...localMoments, ...GLOBAL_MOMENTS];
+    const allGlobalMoments = filteredGlobalMoments;
     // Future: Filter friends moments
     const allFriendsMoments = [...FRIENDS_MOMENTS];
 

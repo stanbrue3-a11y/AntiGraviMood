@@ -75,6 +75,7 @@ export const DiscoverHeader = ({
                 <View style={styles.header}>
                     <ScalePressable
                         onPress={() => {
+                            console.log('🔥 DiscoverHeader: Filter Button Pressed!');
                             Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                             setFilterVisible(true);
                         }}
