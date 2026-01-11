@@ -15,10 +15,11 @@ import { getDominantMood } from '../../lib/moodUtils';
 // Unified Components
 import { PlaceHero } from './PlaceHero';
 import { PlaceSocialFeed } from './PlaceSocialFeed';
-import { PlaceRealTalk } from './PlaceRealTalk';
 import { PlaceDescription } from './PlaceDescription';
-import { PracticalInfoList as PracticalInfo } from './PracticalInfoList';
-import { InteractivePriceGauge } from '../common/InteractivePriceGauge'; // Added/Fixed import
+import { InteractivePriceGauge } from '../common/InteractivePriceGauge';
+import { ModernPracticalInfo } from './ModernPracticalInfo';
+import { PlaceHours } from './PlaceHours';
+import { PlaceFaune } from './PlaceFaune';
 
 export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMode?: string }) => {
     const { theme, isDark } = useTheme(); // Added isDark here
@@ -199,9 +200,12 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                             activeColor={primaryColor}
                                             triggerComponent={
                                                 <PriceGauge
-                                                    level={place.practical_info?.price_range || 2}
-                                                    activeColor={primaryColor}
+                                                    pricing={place.pricing}
+                                                    legacyLevel={place.practical_info?.price_range as 1 | 2 | 3 | 4 || 2}
+                                                    category={place.category}
+                                                    moodColor={primaryColor}
                                                     size="md"
+                                                    interactive={true}
                                                 />
                                             }
                                         />
@@ -211,15 +215,19 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                     <Text style={[styles.metaText, { color: primaryColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
                                 </View>
 
-                                {/* ✨ REAL TALK (New Visual Component) - Moved Here */}
-                                <PlaceRealTalk place={place} primaryColor={primaryColor} />
+                                {/* 🕒 HORAIRES */}
+                                {/* Inserted between Header Info and La Faune as requested */}
+                                <PlaceHours place={place} primaryColor={primaryColor} />
+
+                                {/* 🦊 LA FAUNE */}
+                                <PlaceFaune place={place} primaryColor={primaryColor} />
 
                                 {/* 📖 HISTOIRE & LIEU (Collapsible) */}
                                 <PlaceDescription place={place} primaryColor={primaryColor} />
                             </View>
 
-                            {/* Infos Pratiques & Description */}
-                            {place.practical_info && <PracticalInfo place={place} primaryColor={primaryColor} />}
+                            {/* Infos Pratiques Modernes */}
+                            {place.practical_info && <ModernPracticalInfo info={place.practical_info} primaryColor={primaryColor} />}
 
                             {/* 4. Social Feed (Moments) */}
                             <PlaceSocialFeed place={place} />
@@ -303,4 +311,3 @@ const styles = StyleSheet.create({
 });
 
 export default PlaceDetailSheetExplore;
-

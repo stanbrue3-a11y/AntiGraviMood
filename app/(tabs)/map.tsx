@@ -14,7 +14,8 @@ import { useTheme } from '../../src/design';
 
 // Components
 import { PlaceDetailSheetMap } from '../../src/components/place/PlaceDetailSheetMap';
-import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters';
+import { FilterSheet } from '../../src/components/feed/FilterSheet';
+// import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters'; // REPLACED
 // import { MapImages } from '../../src/components/map/MapImages'; // Removed
 // import { MapLayers } from '../../src/components/map/MapLayers'; // Removed
 import { NativeMapPro } from '../../src/components/map/NativeMapPro';
@@ -33,6 +34,7 @@ export default function MapScreen() {
     // Refs
     const mapRef = useRef<Mapbox.MapView>(null);
     const cameraRef = useRef<Mapbox.Camera>(null);
+    const filterSheetRef = useRef<import('@gorhom/bottom-sheet').default>(null); // New Ref
     // const shapeSourceRef = useRef<Mapbox.ShapeSource>(null); // Handled inside NativeMapPro
 
     // Global State
@@ -51,6 +53,7 @@ export default function MapScreen() {
     // Filter - Mood (Synced)
     const selectedMoods = usePlacesStore(state => state.selectedMoods);
     const toggleMood = usePlacesStore(state => state.toggleMood);
+    const selectedDistricts = usePlacesStore(state => state.selectedDistricts);
 
     // Derived Moods for Map (NativeMapPro expects full list if "all", Store uses [] for "all")
     const effectiveMoods = useMemo(() => {
@@ -135,6 +138,11 @@ export default function MapScreen() {
             result = result.filter(p => (p.practical_info.price_range || 2) <= selectedPrice);
         }
 
+        // Districts (Added per user request)
+        if (selectedDistricts && selectedDistricts.length > 0) {
+            result = result.filter(p => selectedDistricts.includes(p.location.arrondissement));
+        }
+
         // Mood Filtering (Done here instead of in native styles for cleaner data flow, optional)
         // For NativeMapPro, we pass selectedMoods prop which handles the visual filtering
         // so we don't necessarily need to filter the data array itself unless we want to remove them completely from clustering.
@@ -148,7 +156,7 @@ export default function MapScreen() {
         }
 
         return result;
-    }, [rawPlaces, searchQuery, selectedCategories, selectedPrice, mapMode, likedPlaceIds]);
+    }, [rawPlaces, searchQuery, selectedCategories, selectedPrice, mapMode, likedPlaceIds, selectedDistricts]);
 
 
     // --- HANDLERS ---
@@ -229,7 +237,11 @@ export default function MapScreen() {
                     toggleMood={toggleMood as any}
                     searchQuery={searchQuery}
                     setSearchQuery={setSearchQuery}
-                    setFilterVisible={setFilterSheetVisible}
+                    setFilterVisible={() => {
+                        console.log('🔥 FILTER BUTTON PRESSED - Opening Sheet');
+                        Haptics.selectionAsync();
+                        setFilterSheetVisible(true);
+                    }}
                     isSearchActive={isSearchActive}
                     setIsSearchActive={setIsSearchActive}
                     insetsTop={insets.top}
@@ -328,17 +340,17 @@ export default function MapScreen() {
             {/* --- OVERLAYS --- */}
             <View style={[StyleSheet.absoluteFill, { zIndex: 1000 }]} pointerEvents="box-none">
                 <PlaceDetailSheetMap />
-                <DiscoverFilters
-                    visible={isFilterSheetVisible}
-                    onClose={() => setFilterSheetVisible(false)}
-                    selectedPrice={selectedPrice}
-                    setSelectedPrice={setSelectedPrice}
-                    timeRange={timeRange}
-                    setTimeRange={setTimeRange}
-                    selectedCategories={selectedCategories}
-                    toggleCategory={toggleCategory}
-                />
             </View>
+
+            {/* Filter Sheet - Isolated Layer */}
+            {isFilterSheetVisible && (
+                <View style={[StyleSheet.absoluteFill, { zIndex: 1001 }]} pointerEvents="box-none">
+                    <FilterSheet
+                        visible={true} // Always true when mounted
+                        onClose={() => setFilterSheetVisible(false)}
+                    />
+                </View>
+            )}
         </View>
     );
 }

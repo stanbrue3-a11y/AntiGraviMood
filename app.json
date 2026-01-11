@@ -37,6 +37,13 @@
         {
           "RNMapboxMapsImpl": "mapbox"
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "MoodMap a besoin de la caméra pour capturer vos moments.",
+          "microphonePermission": "MoodMap a besoin du micro pour les vidéos."
+        }
       ]
     ],
     "experiments": {

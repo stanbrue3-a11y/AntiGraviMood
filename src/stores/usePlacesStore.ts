@@ -7,17 +7,17 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import Constants from 'expo-constants';
 
-// Force Data Refresh Timestamp: 2025-12-23T12:00
+// Force Data Refresh Timestamp: 2026-01-10T20:00
 // Consolidated Data Source (Enriched) (Fresh Copy)
 import placesData from '../data/pois_flattened.json';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // TEMPORARY: Force clear store once to fix persistent data issue
-AsyncStorage.getItem('moodmap-places-fix-v43').then(val => {
+AsyncStorage.getItem('moodmap-places-fix-v46').then(val => {
     if (!val) {
         AsyncStorage.removeItem('moodmap-places-storage');
-        AsyncStorage.setItem('moodmap-places-fix-v43', 'done');
-        console.log('[DEBUG] Storage cleared for v43 refresh');
+        AsyncStorage.setItem('moodmap-places-fix-v46', 'done');
+        console.log('[DEBUG] Storage cleared for v46 refresh');
     }
 });
 
@@ -28,6 +28,7 @@ export type MoodType = 'chill' | 'festif' | 'culturel';
 export type SheetMode = 'map' | 'explore' | 'feed';
 
 // Catégories disponibles
+export const STORE_VERSION = 'v46'; // Forced refresh for Practical Info
 export const PLACE_CATEGORIES = [
     { key: 'museum', label: 'Musée', emoji: '🏛️' },
     { key: 'workshop', label: 'Atelier', emoji: '🧶' },
@@ -55,10 +56,10 @@ interface PlacesState {
     selectedMoods: MoodType[];
     selectedCategories: string[];
     selectedPrice: number | null;
-    timeRange: { start: number; end: number } | null; // New
+    selectedDistricts: number[];
+    timeRange: { start: number; end: number } | null;
+    filterOpenNow: boolean; // New: Open Now filter
     searchQuery: string;
-
-
 
     // Selection
     selectedPlaceId: string | null;
@@ -74,8 +75,11 @@ interface PlacesState {
     setPlaces: (places: Place[]) => void;
     toggleMood: (mood: MoodType) => void;
     toggleCategory: (category: string) => void;
+    setSelectedCategories: (categories: string[]) => void;
     setSelectedPrice: (price: number | null) => void;
-    setTimeRange: (range: { start: number; end: number } | null) => void; // New
+    setSelectedDistricts: (districts: number[]) => void;
+    setTimeRange: (range: { start: number; end: number } | null) => void;
+    setFilterOpenNow: (enabled: boolean) => void; // New
     clearFilters: () => void;
 
     setSearchQuery: (query: string) => void;
@@ -96,12 +100,15 @@ interface PlacesState {
     isPlaceLiked: (placeId: string) => boolean;
 }
 
-const isOpenDuring = (place: Place, range: { start: number; end: number }): boolean => {
-    if (!place.opening_hours?.standard) return false;
+export const isOpenDuring = (place: Place, range: { start: number; end: number }): boolean => {
+    if (!place.opening_hours?.standard) return true; // Default to TRUE if no data (don't hide)
 
     // Parse Opening Hours (e.g., "17:00-02:00")
-    const parts = place.opening_hours.standard.split('-');
-    if (parts.length !== 2) return false;
+    if (place.opening_hours.standard === 'Non renseigné') return true;
+    const parts = place.opening_hours.standard.split('–').length === 2 ? place.opening_hours.standard.split('–') : place.opening_hours.standard.split('-');
+
+    // If format is not standard range, assume open (permissive)
+    if (parts.length !== 2) return true;
     const [startStr, endStr] = parts;
     const [placeStartH] = startStr.split(':').map(Number);
     const [placeEndH] = endStr.split(':').map(Number);
@@ -130,7 +137,7 @@ const isOpenDuring = (place: Place, range: { start: number; end: number }): bool
 
 // Selector pour les performances (à utiliser avec usePlacesStore(useShallow(selectFilteredPlaces)))
 export const selectFilteredPlaces = (state: PlacesState) => {
-    const { places, selectedMoods, selectedCategories, selectedPrice, timeRange, searchQuery } = state;
+    const { places, selectedMoods, selectedCategories, selectedPrice, selectedDistricts, timeRange, filterOpenNow, searchQuery } = state;
 
 
     return places.filter((place) => {
@@ -149,7 +156,6 @@ export const selectFilteredPlaces = (state: PlacesState) => {
             }
         }
 
-        // Filtre par prix (Max Budget Logic: Level <= Selected)
         if (selectedPrice !== null) {
             const placePrice = place.practical_info.price_range || 2;
             if (placePrice > selectedPrice) {
@@ -157,8 +163,44 @@ export const selectFilteredPlaces = (state: PlacesState) => {
             }
         }
 
+        // Filtre par arrondissement (Secteur)
+        if (selectedDistricts && selectedDistricts.length > 0) {
+            if (!selectedDistricts.includes(place.location.arrondissement)) {
+                return false;
+            }
+        }
+
+        // Filtre Open Now (Dynamique)
+        if (filterOpenNow) {
+            // Re-use logic or inline simplified
+            if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
+                // Keep default behavior: show if unknown? Or hide? 
+                // Usually "Open Now" implies strict checking. Let's hide if unknown to be safe, or show if we want to be permissive.
+                // Given "Non renseigné", let's assume valid data needed. But to avoid empty map, let's keep it visible or check user pref.
+                // User said "filtres vraiment".
+                // Let's rely on loose check: if unknown, maybe keep it.
+            } else {
+                const now = new Date();
+                const currentHour = now.getHours();
+                // logic:
+                const parts = place.opening_hours.standard.includes('–') ? place.opening_hours.standard.split('–') : place.opening_hours.standard.split('-');
+                if (parts.length === 2) {
+                    const [sStr, eStr] = parts;
+                    const startH = parseInt(sStr, 10);
+                    const endH = parseInt(eStr, 10);
+                    let isOpen = false;
+                    if (endH < startH) { // Crosses midnight
+                        isOpen = currentHour >= startH || currentHour < endH;
+                    } else {
+                        isOpen = currentHour >= startH && currentHour < endH;
+                    }
+                    if (!isOpen) return false;
+                }
+            }
+        }
+
         // Filtre Horaire (Range)
-        if (timeRange) {
+        if (timeRange && !filterOpenNow) { // If OpenNow is active, it overrides TimeRange usually, or we can have both. User UI disables TimeRange when OpenNow is on.
             if (!isOpenDuring(place, timeRange)) {
                 return false;
             }
@@ -190,7 +232,9 @@ export const usePlacesStore = create<PlacesState>()(
             selectedMoods: [],
             selectedCategories: [],
             selectedPrice: null,
+            selectedDistricts: [],
             timeRange: null,
+            filterOpenNow: false, // Initial
             searchQuery: '',
 
             selectedPlaceId: null,
@@ -217,8 +261,12 @@ export const usePlacesStore = create<PlacesState>()(
                     : [...state.selectedCategories, category],
             })),
 
+            setSelectedCategories: (categories) => set({ selectedCategories: categories }),
+
             setSelectedPrice: (price) => set({ selectedPrice: price }),
+            setSelectedDistricts: (districts) => set({ selectedDistricts: districts }),
             setTimeRange: (range) => set({ timeRange: range }),
+            setFilterOpenNow: (enabled) => set({ filterOpenNow: enabled }),
 
 
 
@@ -228,7 +276,9 @@ export const usePlacesStore = create<PlacesState>()(
                 selectedMoods: [],
                 selectedCategories: [],
                 selectedPrice: null,
+                selectedDistricts: [],
                 timeRange: null,
+                filterOpenNow: false,
                 searchQuery: '',
             }),
 
@@ -307,8 +357,8 @@ export const usePlacesStore = create<PlacesState>()(
                 likedPlaceIds: state.likedPlaceIds,
             }),
             migrate: (persistedState: any, version: number) => {
-                console.log('[usePlacesStore] Migrating from version:', version, 'to 30');
-                if (version < 30) {
+                console.log('[usePlacesStore] Migrating from version:', version, 'to 31');
+                if (version < 31) {
                     return {
                         ...persistedState,
                         places: placesData as unknown as Place[],
@@ -316,7 +366,7 @@ export const usePlacesStore = create<PlacesState>()(
                 }
                 return persistedState;
             },
-            version: 30,
+            version: 31,
         }
     )
 );

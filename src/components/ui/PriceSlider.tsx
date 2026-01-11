@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet, Text, Platform, Dimensions } from 'react-native';
+import { View, StyleSheet, Text, Platform, Pressable } from 'react-native';
 import { GestureDetector, Gesture } from 'react-native-gesture-handler';
 import Animated, {
     useSharedValue,
@@ -8,11 +8,10 @@ import Animated, {
     runOnJS,
     useDerivedValue,
     interpolateColor,
-    interpolate,
     SharedValue
 } from 'react-native-reanimated';
-import { LinearGradient } from 'expo-linear-gradient';
 import * as Haptics from 'expo-haptics';
+import { CrabIcon } from '../common/PriceIcons'; // Adjust import path if needed
 
 interface PriceSliderProps {
     value: number | null; // 1 | 2 | 3 | 4 or null
@@ -20,230 +19,146 @@ interface PriceSliderProps {
 }
 
 const BAR_COUNT = 4;
-const MAX_BAR_HEIGHT = 60;
-const SLIDER_WIDTH = 240;
-const THUMB_SIZE = 24;
+const SPACING = 12;
+const ICON_SIZE = 42;
+// Total width approx: 4 * 42 + 3 * 12 = 168 + 36 = 204
+const TOTAL_WIDTH = (ICON_SIZE * BAR_COUNT) + (SPACING * (BAR_COUNT - 1));
 
 export const PriceSlider = ({ value, onChange }: PriceSliderProps) => {
-    // Current drag position (0 to SLIDER_WIDTH)
-    // Initial position based on value
-    const initialPos = value ? ((value / BAR_COUNT) * SLIDER_WIDTH) : 0;
-    const translateX = useSharedValue(initialPos);
-    const activeLevel = useDerivedValue(() => {
-        const percent = translateX.value / SLIDER_WIDTH;
-        // Map 0..1 to 0..4
-        const rawLevel = Math.ceil(percent * BAR_COUNT);
-        return Math.max(0, Math.min(BAR_COUNT, rawLevel));
-    });
-
-    // Track previous level for haptics
-    const prevLevel = useSharedValue(value || 0);
-
-    const handleHaptic = (newLevel: number) => {
-        if (newLevel !== prevLevel.value) {
-            prevLevel.value = newLevel;
-            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-            onChange(newLevel === 0 ? null : newLevel);
-        }
+    // Shared value for the current "fill" position (raw x)
+    // Map value 1..4 to position
+    // Map value 1..4 to position
+    const getPosFromValue = (v: number | null) => {
+        'worklet';
+        if (!v) return 0;
+        // Center of the v-th icon
+        return (v * (ICON_SIZE + SPACING)) - (SPACING / 2);
     };
 
+    const x = useSharedValue(getPosFromValue(value));
+
+    useEffect(() => {
+        x.value = withSpring(getPosFromValue(value), { damping: 15 });
+    }, [value]);
+
+    const activeIndex = useDerivedValue(() => {
+        // Calculate which index (0..3) we are currently hovering
+        const raw = x.value / (ICON_SIZE + SPACING);
+        return Math.max(0, Math.min(BAR_COUNT, Math.ceil(raw)));
+    });
+
+    const handleRelease = () => {
+        const index = Math.max(0, Math.min(BAR_COUNT, Math.ceil(x.value / (ICON_SIZE + SPACING))));
+        let finalVal = index;
+        if (x.value < 10) finalVal = 0;
+        x.value = withSpring(getPosFromValue(finalVal));
+        runOnJS(onChange)(finalVal === 0 ? null : finalVal);
+        runOnJS(Haptics.notificationAsync)(Haptics.NotificationFeedbackType.Success);
+    };
+
+    // Fix Lag: Only activate pan if moved horizontally > 10px
     const pan = Gesture.Pan()
-        .onUpdate((e: any) => {
-            let newX = e.x;
-            // Clamp
-            newX = Math.max(0, Math.min(SLIDER_WIDTH, newX));
-            translateX.value = newX;
-            runOnJS(handleHaptic)(Math.ceil((newX / SLIDER_WIDTH) * BAR_COUNT) || 0);
+        .activeOffsetX([-10, 10])
+        .onUpdate((e) => {
+            x.value = Math.max(0, Math.min(TOTAL_WIDTH, e.x));
         })
-        .onEnd(() => {
-            // Magnetic Snap
-            const level = Math.round((translateX.value / SLIDER_WIDTH) * BAR_COUNT);
-            const snappedX = (level / BAR_COUNT) * SLIDER_WIDTH;
-            translateX.value = withSpring(snappedX, { damping: 15, stiffness: 200 });
-            // Ensure final value is set
-            runOnJS(handleHaptic)(level);
-        });
+        .onEnd(handleRelease);
 
     const tap = Gesture.Tap()
         .onEnd((e) => {
-            const level = Math.ceil((e.x / SLIDER_WIDTH) * BAR_COUNT);
-            const snappedX = (level / BAR_COUNT) * SLIDER_WIDTH;
-            translateX.value = withSpring(snappedX);
-            runOnJS(handleHaptic)(level);
+            x.value = e.x;
+            handleRelease();
         });
 
     const gesture = Gesture.Race(pan, tap);
 
-    // Update internal state if external props change (e.g. reset)
-    useEffect(() => {
-        const targetX = value ? ((value / BAR_COUNT) * SLIDER_WIDTH) : 0;
-        translateX.value = withSpring(targetX);
-        prevLevel.value = value || 0;
-    }, [value]);
+    const labels = ["Pas cher", "Abordable", "Coûteux", "Luxe"];
 
-    const thumbStyle = useAnimatedStyle(() => ({
-        transform: [{ translateX: translateX.value - (THUMB_SIZE / 2) }]
-    }));
-
-    const trackFillStyle = useAnimatedStyle(() => ({
-        width: translateX.value
-    }));
+    // Mood Colors mapping: 1=Blue(Chill), 2=Purple(Culture), 3=Orange(Festif), 4=OrangeRed
+    const MOOD_COLORS = ['#8ccaf7', '#c499ff', '#ffab60', '#FF8B60'];
 
     return (
         <View style={styles.container}>
-            {/* Bars Visualization */}
-            <View style={styles.barsContainer}>
-                {Array.from({ length: BAR_COUNT }).map((_, i) => {
-                    return (
-                        <PriceBar
-                            key={i}
-                            index={i}
-                            activeLevel={activeLevel}
-                        />
-                    );
-                })}
-            </View>
-
-            {/* Slider Interaction Area */}
             <GestureDetector gesture={gesture}>
-                <View style={styles.sliderTrackContainer}>
-                    {/* Track Background */}
-                    <View style={styles.trackBg} />
+                <View style={styles.trackContainer}>
+                    {/* Background Layer (Grey Crabs) */}
+                    <View style={styles.iconRow}>
+                        {Array.from({ length: BAR_COUNT }).map((_, i) => (
+                            <View key={i} style={styles.iconWrapper}>
+                                <CrabIcon size={ICON_SIZE} color="#F3F4F6" />
+                            </View>
+                        ))}
+                    </View>
 
-                    {/* Active Track Fill (Gradient) */}
-                    <Animated.View style={[styles.trackFill, trackFillStyle]}>
-                        <LinearGradient
-                            colors={['#8B5CF6', '#3B82F6']} // Violet to Electric Blue
-                            start={{ x: 0, y: 0 }}
-                            end={{ x: 1, y: 0 }}
-                            style={{ flex: 1 }}
-                        />
-                    </Animated.View>
-
-                    {/* Thumb */}
-                    <Animated.View style={[styles.thumb, thumbStyle]}>
-                        <View style={styles.thumbInner} />
-                    </Animated.View>
+                    {/* Active Layer with Dynamic Colors */}
+                    <View style={[styles.iconRow, StyleSheet.absoluteFillObject]} pointerEvents="none">
+                        {Array.from({ length: BAR_COUNT }).map((_, i) => (
+                            <ActiveCrab
+                                key={i}
+                                index={i}
+                                progress={activeIndex}
+                                color={MOOD_COLORS[i]} // Pass specific color
+                            />
+                        ))}
+                    </View>
                 </View>
             </GestureDetector>
 
-            <Text style={styles.label}>
-                {value ? `${Array(value).fill('€').join('')}` : 'Tout budget'}
-            </Text>
+            <View style={styles.textContainer}>
+                <Text style={styles.label}>
+                    {value ? labels[value - 1] : 'Tous les prix'}
+                </Text>
+            </View>
         </View>
     );
 };
 
-const PriceBar = ({ index, activeLevel }: { index: number, activeLevel: SharedValue<number> }) => {
-    // Determine target height
-    // Index 0: 25%, Index 3: 100%
-    const height = (index + 1) * (MAX_BAR_HEIGHT / BAR_COUNT); // Linear scale for simpler visual
-
-    const animatedStyle = useAnimatedStyle(() => {
-        const isActive = activeLevel.value >= (index + 1);
+// Sub-component for individual active crab animation
+const ActiveCrab = ({ index, progress, color }: { index: number, progress: SharedValue<number>, color: string }) => {
+    const style = useAnimatedStyle(() => {
+        const isActive = progress.value >= (index + 1);
         return {
-            opacity: withSpring(isActive ? 1 : 0.3),
-            transform: [{ scaleY: withSpring(isActive ? 1 : 0.9) }] // Subtle pop
+            opacity: withSpring(isActive ? 1 : 0),
+            transform: [{ scale: withSpring(isActive ? 1.1 : 0.8) }]
         };
     });
 
     return (
-        <View style={[styles.barWrapper, { height: MAX_BAR_HEIGHT }]}>
-            {/* Background Grey Bar */}
-            <View style={[styles.barBase, { height }]} />
-
-            {/* Overlay Gradient Bar masked by height and opacity */}
-            <Animated.View style={[styles.barActive, { height }, animatedStyle]}>
-                <LinearGradient
-                    colors={['#8B5CF6', '#3B82F6']}
-                    start={{ x: 0, y: 1 }}
-                    end={{ x: 0, y: 0 }}
-                    style={{ flex: 1, borderRadius: 4 }}
-                />
-            </Animated.View>
-        </View>
+        <Animated.View style={[styles.iconWrapper, style]}>
+            <CrabIcon size={ICON_SIZE} color={color} />
+        </Animated.View>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
-        paddingVertical: 10,
-        gap: 16
+        gap: 12,
     },
-    barsContainer: {
+    trackContainer: {
+        width: TOTAL_WIDTH,
+        height: ICON_SIZE,
+        justifyContent: 'center',
+    },
+    iconRow: {
         flexDirection: 'row',
-        alignItems: 'flex-end',
         justifyContent: 'space-between',
-        width: SLIDER_WIDTH,
-        height: MAX_BAR_HEIGHT,
-        marginBottom: 8
-    },
-    barWrapper: {
-        width: 30, // Fixed width bars
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-    },
-    barBase: {
         width: '100%',
-        backgroundColor: '#374151',
-        borderRadius: 4,
-        position: 'absolute',
-        bottom: 0,
     },
-    barActive: {
-        width: '100%',
-        position: 'absolute',
-        bottom: 0,
-        borderRadius: 4,
-        overflow: 'hidden',
-    },
-
-    // Slider
-    sliderTrackContainer: {
-        width: SLIDER_WIDTH,
-        height: 30, // Hit slop
-        justifyContent: 'center',
-    },
-    trackBg: {
-        width: '100%',
-        height: 4,
-        backgroundColor: '#374151',
-        borderRadius: 2,
-        position: 'absolute',
-    },
-    trackFill: {
-        height: 4,
-        borderRadius: 2,
-        position: 'absolute',
-        left: 0,
-        overflow: 'hidden'
-    },
-    thumb: {
-        width: THUMB_SIZE,
-        height: THUMB_SIZE,
-        borderRadius: THUMB_SIZE / 2,
-        backgroundColor: '#fff',
-        position: 'absolute',
-        shadowColor: '#8B5CF6',
-        shadowOffset: { width: 0, height: 0 },
-        shadowOpacity: 0.5,
-        shadowRadius: 8,
-        elevation: 4,
+    iconWrapper: {
+        width: ICON_SIZE,
+        height: ICON_SIZE,
         justifyContent: 'center',
         alignItems: 'center',
-        top: (30 - THUMB_SIZE) / 2
     },
-    thumbInner: {
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        backgroundColor: '#8B5CF6'
+    textContainer: {
+        height: 24, // Fix height to prevent jump
+        justifyContent: 'center'
     },
     label: {
-        color: '#9CA3AF',
+        fontSize: 15,
         fontWeight: '600',
-        fontSize: 14,
+        color: '#4B5563',
         fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
     }
 });

@@ -13,7 +13,8 @@ import * as Haptics from 'expo-haptics';
 
 // Sub-components
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
-import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters';
+// import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters';
+import { FilterSheet } from '../../src/components/feed/FilterSheet';
 import { DiscoverSearch } from '../../src/components/discover/DiscoverSearch';
 import { FlashList } from '@shopify/flash-list';
 
@@ -164,18 +165,16 @@ export default function DiscoverScreen() {
                     setSearchQuery={setSearchQuery}
                 />
 
-                <DiscoverFilters
-                    visible={filterVisible}
-                    onClose={() => setFilterVisible(false)}
-                    selectedPrice={selectedPrice}
-                    setSelectedPrice={setSelectedPrice}
-                    timeRange={timeRange}
-                    setTimeRange={setTimeRange}
-                    selectedCategories={selectedCategories}
-                    toggleCategory={toggleCategory}
-                />
+
 
                 <PlaceDetailSheetExplore />
+
+                {filterVisible && (
+                    <FilterSheet
+                        visible={true} // Always true when mounted
+                        onClose={() => setFilterVisible(false)}
+                    />
+                )}
 
             </ScreenFade>
         </>

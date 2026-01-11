@@ -105,9 +105,12 @@
           }
         ]
       },
+      "description": "À deux pas du musée le plus visité au monde, cet espace réinvente totalement le concept du café parisien : ici, on ne paie pas ses consommations, mais le temps passé. C'est une bulle de productivité et de calme idéale pour les nomades digitaux et les créatifs, qui offre un buffet à volonté (snacks, boissons chaudes et fraîches) dans un cadre lumineux et design. Loin du tumulte touristique assourdissant de la rue de Rivoli, c'est le refuge parfait pour travailler quelques heures, organiser un rendez-vous informel ou simplement se poser entre deux visites culturelles. Le concept de 'pay-per-time' libère l'esprit et permet de se concentrer sur l'essentiel, dans une atmosphère studieuse mais détendue.",
       "Le Concept": "Payer au temps passé, consommations à volonté",
+      "Productivité": "Silence studieux et Wifi fibre ultra-rapide",
+      "Le Buffet": "Encas salés/sucrés et boissons chaudes inclus",
       "Le Tip": "Réservez une salle privée pour vos calls importants",
-      "Le Buffet": "Encas salés/sucrés et boissons chaudes inclus"
+      "La faune": "Étudiants ultra-concentrés, freelances en call et nomades digitaux."
     },
     "media": {
       "hero_image": "https://source.unsplash.com/uFKI74DWFKQ",
@@ -138,12 +141,6 @@
       "display": "Tlj: 10h00 – 16h45",
       "detailed": "lundi: 10:00 – 16:45\nmardi: Fermé\nmercredi: 10:00 – 16:45\njeudi: 10:00 – 16:45\nvendredi: 10:00 – 16:45\nsamedi: 10:00 – 16:45\ndimanche: 10:00 – 16:45",
       "is_open_now": false
-    },
-    "description": "À deux pas du musée le plus visité au monde, cet espace réinvente totalement le concept du café parisien : ici, on ne paie pas ses consommations, mais le temps passé. C'est une bulle de productivité et de calme idéale pour les nomades digitaux et les créatifs, qui offre un buffet à volonté (snacks, boissons chaudes et fraîches) dans un cadre lumineux et design. Loin du tumulte touristique assourdissant de la rue de Rivoli, c'est le refuge parfait pour travailler quelques heures, organiser un rendez-vous informel ou simplement se poser entre deux visites culturelles. Le concept de 'pay-per-time' libère l'esprit et permet de se concentrer sur l'essentiel, dans une atmosphère studieuse mais détendue.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Étudiants ultra-concentrés, freelances en call et nomades digitaux. (Silence studieux et Wifi fibre ultra-rapide)"
-      }
     }
   },
   {
@@ -252,10 +249,12 @@
           }
         ]
       },
-      "Moment Culte": "Le lever de soleil sur la Seine vers 6h du mat'",
+      "description": "Anciennement Concrete, cette barge amarrée port de la Rapée a troqué la techno hardcore pour une ambiance solaire et guinguette. Sur trois niveaux dont un immense rooftop végétalisé avec vue imprenable sur la Seine, Le Mazette est devenu le QG des étés parisiens. On y vient pour grignoter des tapas, boire du rosé et danser sous les lampions dès que le soleil se couche. Un lieu hybride qui respire la convivialité et la fête décomplexée.",
       "Le Son": "Système son Funktion-One, prévoyez des bouchons",
       "La Prog": "Le meilleur de la techno internationale",
-      "L'Entrée": "Sélection stricte à la porte, venez tôt ou préventes"
+      "Moment Culte": "Le lever de soleil sur la Seine vers 6h du mat'",
+      "L'Entrée": "Sélection stricte à la porte, venez tôt ou préventes",
+      "La faune": "L'élite festive de la rive gauche, glitter et chemises en lin."
     },
     "media": {
       "hero_image": "https://source.unsplash.com/ZyTOTmqYYQ8",
@@ -286,12 +285,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 18:00 – 01:00\njeudi: 18:00 – 01:00\nvendredi: 18:00 – 04:00\nsamedi: 18:00 – 04:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Anciennement Concrete, cette barge amarrée port de la Rapée a troqué la techno hardcore pour une ambiance solaire et guinguette. Sur trois niveaux dont un immense rooftop végétalisé avec vue imprenable sur la Seine, Le Mazette est devenu le QG des étés parisiens. On y vient pour grignoter des tapas, boire du rosé et danser sous les lampions dès que le soleil se couche. Un lieu hybride qui respire la convivialité et la fête décomplexée.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "L'élite festive de la rive gauche, glitter et chemises en lin."
-      }
     }
   },
   {
@@ -399,10 +392,12 @@
           }
         ]
       },
+      "description": "Le mythe parisien par excellence. S'asseoir à une table du Flore, c'est prendre place dans le fantôme de Sartre, Simone de Beauvoir ou Picasso. Le décor Art Déco, avec ses banquettes rouges et ses miroirs, n'a pas bougé. Oui, c'est touristique, oui, le chocolat chaud est cher, mais il est servi dans des pichets en argent par des garçons de café qui sont des personnages de roman. On y vient autant pour voir que pour être vu, pour lire le journal en terrasse ou simplement pour toucher du doigt l'histoire littéraire de Saint-Germain-des-Prés.",
       "Histoire": "Le QG de Sartre et Beauvoir, respirez l'histoire",
       "Terrasse": "Pour voir et être vu, c'est le spot",
       "Le Must": "Le chocolat chaud onctueux servi à l'ancienne",
-      "Prix": "Élevés, mais on paie le mythe (et le service)"
+      "Prix": "Élevés, mais on paie le mythe (et le service)",
+      "La faune": "Écrivains (ou ceux qui essaient), touristes chics et habitués légendaires."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Caf%C3%A9_de_Flore.jpg",
@@ -430,12 +425,6 @@
       "display": "Tlj: 07h30 – 02h00",
       "detailed": "lundi: 07:30 – 02:00\nmardi: 07:30 – 02:00\nmercredi: 07:30 – 02:00\njeudi: 07:30 – 02:00\nvendredi: 07:30 – 02:00\nsamedi: 07:30 – 02:00\ndimanche: 07:30 – 02:00",
       "is_open_now": true
-    },
-    "description": "Le mythe parisien par excellence. S'asseoir à une table du Flore, c'est prendre place dans le fantôme de Sartre, Simone de Beauvoir ou Picasso. Le décor Art Déco, avec ses banquettes rouges et ses miroirs, n'a pas bougé. Oui, c'est touristique, oui, le chocolat chaud est cher, mais il est servi dans des pichets en argent par des garçons de café qui sont des personnages de roman. On y vient autant pour voir que pour être vu, pour lire le journal en terrasse ou simplement pour toucher du doigt l'histoire littéraire de Saint-Germain-des-Prés.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Écrivains (ou ceux qui essaient), touristes chics et habitués légendaires."
-      }
     }
   },
   {
@@ -543,10 +532,12 @@
           }
         ]
       },
+      "description": "Une institution du marché d'Aligre. C'est un bar à vins 'à la parisienne' comme on n'en fait presque plus : on vient avec sa bouteille vide pour la remplir aux tonneaux, on mange des huîtres debout sur le trottoir le dimanche midi en les posant sur des tonneaux ou des capots de voiture. À l'intérieur, c'est sombre, boisé, ça sent le tanin et le saucisson. C'est le repaire des habitués, populaire et authentique, où le vin coule à flots sans chichis.",
       "La Tradition": "Huîtres et vin blanc le dimanche matin, immanquable",
       "Le Vrac": "Apportez votre propre bouteille pour la remplir au tonneau",
       "L'Ambiance": "Franquette, on boit souvent debout sur le trottoir",
-      "Prix": "Très abordable, le vrai Paris populaire"
+      "Prix": "Très abordable, le vrai Paris populaire",
+      "La faune": "Vrais titi parisiens, amateurs de vins natures et copains d'apéro."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Baron_Rouge%2C_Paris_12.jpg",
@@ -574,12 +565,6 @@
       "display": "Tlj: 17h00 – 22h00",
       "detailed": "lundi: 17:00 – 22:00\nmardi: 10:00 – 14:00, 17:00 – 22:00\nmercredi: 10:00 – 14:00, 17:00 – 22:00\njeudi: 10:00 – 14:00, 17:00 – 22:00\nvendredi: 10:00 – 14:00, 17:00 – 21:00\nsamedi: 10:00 – 15:00, 17:00 – 21:00\ndimanche: 10:00 – 16:00",
       "is_open_now": true
-    },
-    "description": "Une institution du marché d'Aligre. C'est un bar à vins 'à la parisienne' comme on n'en fait presque plus : on vient avec sa bouteille vide pour la remplir aux tonneaux, on mange des huîtres debout sur le trottoir le dimanche midi en les posant sur des tonneaux ou des capots de voiture. À l'intérieur, c'est sombre, boisé, ça sent le tanin et le saucisson. C'est le repaire des habitués, populaire et authentique, où le vin coule à flots sans chichis.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Vrais titi parisiens, amateurs de vins natures et copains d'apéro."
-      }
     }
   },
   {
@@ -688,10 +673,12 @@
           }
         ]
       },
+      "description": "C'est la terrasse la plus vaste et la plus clubbing de la Cité de la Mode et du Design. Posée en bord de Seine avec sa structure verte reptilienne reconnaissable entre mille, Wanderlust est le temple de la fête estivale en plein air. On y danse sous les étoiles au son du hip-hop et du R&B, on boit des cocktails dans des verres en plastique (sécurité oblige) et on profite d'une vue dégagée sur le fleuve. Le public est jeune, la musique est forte, et l'ambiance est celle d'un spring break urbain chic.",
       "L'Open Air": "Immense terrasse face à la Seine pour danser sous les étoiles",
       "L'Ambiance": "Hip-Hop et Electro selon les soirs",
       "Été": "Le spot incontournable des nuits chaudes parisiennes",
-      "File": "Arrivez très tôt, l'attente peut être longue"
+      "File": "Arrivez très tôt, l'attente peut être longue",
+      "La faune": "Gen Z sapée comme jamais, danseurs de hip-hop et noctambules insatiables."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cit%C3%A9_de_la_Mode_et_du_Design.jpg",
@@ -719,12 +706,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 23:00 – 05:00\nmercredi: 23:00 – 05:00\njeudi: 18:00 – 06:00\nvendredi: 23:00 – 05:00\nsamedi: 23:00 – 05:00\ndimanche: 16:00 – 01:00",
       "is_open_now": false
-    },
-    "description": "C'est la terrasse la plus vaste et la plus clubbing de la Cité de la Mode et du Design. Posée en bord de Seine avec sa structure verte reptilienne reconnaissable entre mille, Wanderlust est le temple de la fête estivale en plein air. On y danse sous les étoiles au son du hip-hop et du R&B, on boit des cocktails dans des verres en plastique (sécurité oblige) et on profite d'une vue dégagée sur le fleuve. Le public est jeune, la musique est forte, et l'ambiance est celle d'un spring break urbain chic.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Gen Z sapée comme jamais, danseurs de hip-hop et noctambules insatiables."
-      }
     }
   },
   {
@@ -829,11 +810,13 @@
           }
         ]
       },
+      "description": "C'est l'exemple parfait de l'hôtel parisien 'lifestyle' réussi. Situé à l'orée du Marais, cet immeuble haussmannien a été transformé en un lieu de vie design et élégant. Si les chambres sont superbes, c'est surtout pour ses espaces communs qu'on y vient : le Ristorante National (très bon italien), l'Herbarium (bar à cocktails pointu) et le rooftop caché avec une vue intimiste sur les toits de Paris. Le design joue sur les matières brutes et nobles (terrazzo, bois, velours) pour une ambiance industrielle-chic.",
       "L'ambiance": "Feutrée, élégante et discrète.",
       "Le décor": "Design italien sophistiqué par Raphael Navot.",
-      "Le tip": "Le rooftop est petit mais offre une vue imprenable.",
-      "Le Tip": "Le bar caché 'L'Herbarium' et ses cocktails signatures.",
-      "Le Must": "Le Ristorante National et ses pâtes fraîches."
+      "Le must": "Le Ristorante National et ses pâtes fraîches.",
+      "Le secret": "Le bar caché 'L'Herbarium' et ses cocktails signatures.",
+      "La faune": "Créatifs chics, couples en date et voyageurs esthètes.",
+      "Le tip": "Le rooftop est petit mais offre une vue imprenable."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Point_Eph%C3%A9m%C3%A8re_2009.jpg",
@@ -860,12 +843,6 @@
       "standard": "17:00-02:00",
       "display": "Tlj: 17h - 02h",
       "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
-    },
-    "description": "C'est l'exemple parfait de l'hôtel parisien 'lifestyle' réussi. Situé à l'orée du Marais, cet immeuble haussmannien a été transformé en un lieu de vie design et élégant. Si les chambres sont superbes, c'est surtout pour ses espaces communs qu'on y vient : le Ristorante National (très bon italien), l'Herbarium (bar à cocktails pointu) et le rooftop caché avec une vue intimiste sur les toits de Paris. Le design joue sur les matières brutes et nobles (terrazzo, bois, velours) pour une ambiance industrielle-chic.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Créatifs chics, couples en date et voyageurs esthètes."
-      }
     }
   },
   {
@@ -969,10 +946,12 @@
           }
         ]
       },
+      "description": "Fondée en 1877 comme première coopérative ouvrière de Paris, la Bellevilloise est devenue un haut lieu culturel indépendant. Dans ses halles majestueuses plantées d'oliviers centenaires, on vient écouter du jazz lors du brunch dominical, découvrir une expo engagée ou danser lors des soirées clubbing. Un lieu chargé d'histoire sociale qui continue de faire vibrer l'est parisien avec une programmation éclectique et ouverte.",
       "L'Ambiance": "Lieu de vie artistique et festif incontournable de l'Est parisien",
       "Le Rooftop": "Terrasse aux oliviers pour chill en hauteur",
       "Le Concert": "Programmation éclectique : Jazz, Soul, Hip-hop",
-      "Le Brunch": "Le fameux brunch jazz du dimanche (réservez !)"
+      "Le Brunch": "Le fameux brunch jazz du dimanche (réservez !)",
+      "La faune": "Intellos de gauche, amateurs de jazz et foule éclectique de l'Est."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/La_Bellevilloise.jpg",
@@ -1000,12 +979,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 19:00 – 01:00\nvendredi: 19:00 – 05:30\nsamedi: 19:00 – 05:30\ndimanche: 11:30 – 16:00",
       "is_open_now": false
-    },
-    "description": "Fondée en 1877 comme première coopérative ouvrière de Paris, la Bellevilloise est devenue un haut lieu culturel indépendant. Dans ses halles majestueuses plantées d'oliviers centenaires, on vient écouter du jazz lors du brunch dominical, découvrir une expo engagée ou danser lors des soirées clubbing. Un lieu chargé d'histoire sociale qui continue de faire vibrer l'est parisien avec une programmation éclectique et ouverte.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Intellos de gauche, amateurs de jazz et foule éclectique de l'Est."
-      }
     }
   },
   {
@@ -1117,10 +1090,12 @@
           }
         ]
       },
+      "description": "Cette librairie est une utopie réalisée. Fondée par George Whitman, c'est un labyrinthe de livres anglophones, de recoins poussiéreux, de lits (pour les 'Tumbleweeds', ces écrivains voyageurs hébergés gratuitement contre quelques heures de travail) et de citations peintes sur les marches. C'est le point de chute historique de la Beat Generation à Paris. En entrant, l'odeur du vieux papier et l'atmosphère bohème vous sautent au visage. C'est un lieu habité, poétique, bordélique, où chaque livre semble avoir une âme.",
       "Histoire": "La librairie anglophone la plus célèbre du monde",
       "L'Ambiance": "Labyrinthe de livres du sol au plafond, ambiance Harry Potter",
       "Le Piano": "Jouez un air à l'étage si vous osez",
-      "Café": "Coffee shop attenant avec vue sur Notre-Dame"
+      "Café": "Coffee shop attenant avec vue sur Notre-Dame",
+      "La faune": "Rêveurs littéraires, américains à béret et rats de bibliothèque."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Shakespeare_and_Company_bookstore_in_Paris.jpg",
@@ -1148,12 +1123,6 @@
       "display": "Tlj: 10h00 – 20h00",
       "detailed": "lundi: 10:00 – 20:00\nmardi: 10:00 – 20:00\nmercredi: 10:00 – 20:00\njeudi: 10:00 – 20:00\nvendredi: 10:00 – 20:00\nsamedi: 10:00 – 20:00\ndimanche: 12:00 – 19:00",
       "is_open_now": false
-    },
-    "description": "Cette librairie est une utopie réalisée. Fondée par George Whitman, c'est un labyrinthe de livres anglophones, de recoins poussiéreux, de lits (pour les 'Tumbleweeds', ces écrivains voyageurs hébergés gratuitement contre quelques heures de travail) et de citations peintes sur les marches. C'est le point de chute historique de la Beat Generation à Paris. En entrant, l'odeur du vieux papier et l'atmosphère bohème vous sautent au visage. C'est un lieu habité, poétique, bordélique, où chaque livre semble avoir une âme.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Rêveurs littéraires, américains à béret et rats de bibliothèque."
-      }
     }
   },
   {
@@ -1261,10 +1230,12 @@
           }
         ]
       },
+      "description": "Une guinguette moderne au cœur du parc le plus romantique de Paris. Rosa Bonheur a réinvesti un ancien pavillon du XIXe siècle pour en faire un lieu de fête libre et tolérant, où l'on 'boit du rosé et on mange du jambon' sans chichis. Dès 18h, la terrasse se remplit, la musique monte, et tout le monde danse, des familles aux fêtards queer, dans une joyeuse mixité. C'est l'endroit parfait pour voir le soleil se coucher sur Paris avant de se déhancher sur des tubes disco jusqu'à la fermeture du parc.",
       "Le Spot": "Au cœur du parc, entouré de verdure",
       "L'Ambiance": "Guinguette festive, on danse sur les tables le dimanche",
       "Apero": "Tapas et rosé, le combo gagnant au coucher du soleil",
-      "Le Conseil": "Venez très tôt, la queue est légendaire"
+      "Le Conseil": "Venez très tôt, la queue est légendaire",
+      "La faune": "Tout le monde ! Du bébé au grand-père, dans une ambiance de guinguette inclusive."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Guinguette_Rosa_Bonheur_-_Parc_des_Buttes-Chaumont.jpg",
@@ -1292,12 +1263,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 12:00 – 00:00\nvendredi: 12:00 – 00:00\nsamedi: 12:00 – 00:00\ndimanche: 12:00 – 00:00",
       "is_open_now": false
-    },
-    "description": "Une guinguette moderne au cœur du parc le plus romantique de Paris. Rosa Bonheur a réinvesti un ancien pavillon du XIXe siècle pour en faire un lieu de fête libre et tolérant, où l'on 'boit du rosé et on mange du jambon' sans chichis. Dès 18h, la terrasse se remplit, la musique monte, et tout le monde danse, des familles aux fêtards queer, dans une joyeuse mixité. C'est l'endroit parfait pour voir le soleil se coucher sur Paris avant de se déhancher sur des tubes disco jusqu'à la fermeture du parc.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Tout le monde ! Du bébé au grand-père, dans une ambiance de guinguette inclusive."
-      }
     }
   },
   {
@@ -1396,10 +1361,12 @@
           }
         ]
       },
+      "description": "Le centre d'art contemporain le plus cool et le plus punk de Paris. Ouvert de midi à minuit, c'est un bâtiment brut, dénudé, immense, laissé volontairement 'en chantier'. Il n'y a pas de collection permanente, mais des expos temporaires qui occupent tout l'espace de manière souvent spectaculaire. C'est aussi un lieu de fête avec le club Yoyo au sous-sol, et de gastronomie avec les restaurants Monsieur Bleu ou Bambini. Un lieu qui vit, vibre et ne dort (presque) jamais.",
       "Art": "L'art contemporain en mode brut et monumental",
       "Architecture": "Bâtiment immense, vide et impressionnant",
       "Nocturne": "Ouvert jusqu'à minuit, idéal pour une expo tardive",
-      "Club": "Le Yoyo en sous-sol pour faire la fête après l'art"
+      "Club": "Le Yoyo en sous-sol pour faire la fête après l'art",
+      "La faune": "Skaters sur le parvis, arty kids à l'intérieur et critiques d'art."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Palais_de_Tokyo_2010.jpg",
@@ -1427,12 +1394,6 @@
       "display": "Tlj: 12h00 – 22h00",
       "detailed": "lundi: 12:00 – 22:00\nmardi: Fermé\nmercredi: 12:00 – 22:00\njeudi: 12:00 – 00:00\nvendredi: 12:00 – 22:00\nsamedi: 12:00 – 22:00\ndimanche: 12:00 – 22:00",
       "is_open_now": false
-    },
-    "description": "Le centre d'art contemporain le plus cool et le plus punk de Paris. Ouvert de midi à minuit, c'est un bâtiment brut, dénudé, immense, laissé volontairement 'en chantier'. Il n'y a pas de collection permanente, mais des expos temporaires qui occupent tout l'espace de manière souvent spectaculaire. C'est aussi un lieu de fête avec le club Yoyo au sous-sol, et de gastronomie avec les restaurants Monsieur Bleu ou Bambini. Un lieu qui vit, vibre et ne dort (presque) jamais.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Skaters sur le parvis, arty kids à l'intérieur et critiques d'art."
-      }
     }
   },
   {
@@ -1531,10 +1492,12 @@
           }
         ]
       },
+      "description": "Cachée dans le parc des Buttes-Chaumont, cette grande maison de maître du XIXème siècle recouverte de lierre est un secret bien gardé des habitants de l'Est parisien. Accessible par un escalier de pierre discret, le Pavillon Puebla offre deux terrasses suspendues dans les arbres et un intérieur cosy décoré de tapis persans et de fauteuils en velours. On s'y sent comme dans une maison de campagne. C'est le spot idéal pour un apéro bucolique loin du bitume, avec des cocktails au gin et une ambiance qui devient festive et dansante une fois la nuit tombée. Un îlot de verdure féerique et décontracté.",
       "La Cachette": "Maison de campagne cachée dans les Buttes-Chaumont",
       "L'Ambiance": "Bohème chic, guirlandes et cocktails",
       "Romantisme": "Cadre parfait pour un date sous les arbres",
-      "La Pizza": "Pizzas italiennes excellentes à partager"
+      "La Pizza": "Pizzas italiennes excellentes à partager",
+      "La faune": "Jeunes actifs du 19ème, groupes de potes et dates romantiques sous les arbres."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1467003909585-2f8a7270028d?auto=format&fit=crop&w=800&q=80",
@@ -1561,12 +1524,6 @@
       "standard": "17:00-02:00",
       "display": "Tlj: 17h - 02h",
       "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
-    },
-    "description": "Cachée dans le parc des Buttes-Chaumont, cette grande maison de maître du XIXème siècle recouverte de lierre est un secret bien gardé des habitants de l'Est parisien. Accessible par un escalier de pierre discret, le Pavillon Puebla offre deux terrasses suspendues dans les arbres et un intérieur cosy décoré de tapis persans et de fauteuils en velours. On s'y sent comme dans une maison de campagne. C'est le spot idéal pour un apéro bucolique loin du bitume, avec des cocktails au gin et une ambiance qui devient festive et dansante une fois la nuit tombée. Un îlot de verdure féerique et décontracté.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Jeunes actifs du 19ème, groupes de potes et dates romantiques sous les arbres."
-      }
     }
   },
   {
@@ -1674,6 +1631,7 @@
           }
         ]
       },
+      "description": "Conçu par David Lynch lui-même, ce club privé est une œuvre d'art totale. Tout y est doré, sombre et étrange : le tunnel d'entrée, la salle de cinéma, le fumoir en forme de forêt pétrifiée. Avant minuit, c'est réservé aux membres (artistes, cinéphiles) ; après, le commun des mortels peut tenter d'entrer pour danser. L'ambiance est feutrée, mystérieuse, très 'Mulholland Drive'. C'est le club le plus esthétique et le plus snob de Paris.",
       "website": "https://lesilencio.com/venues/?selected=CLUB",
       "google_maps_url": "https://maps.google.com/?cid=9437389835112183475",
       "happy_hour": "Tlj 17h-20h",
@@ -1685,7 +1643,8 @@
       "Texture": "Tout est bois doré à la feuille & mobilier sur-mesure",
       "Exclusivity": "Carte de membre avant minuit, ouvert au public (sélect) après",
       "Les Chambres": "La salle de cinéma (sièges rouges), Le Fumoir (Forêt), Le Dancefloor",
-      "L'Aura": "L'endroit le plus cinématique de Paris"
+      "L'Aura": "L'endroit le plus cinématique de Paris",
+      "La faune": "Cinéastes, créatifs nocturnes et ceux qui ont réussi à passer le physio."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?auto=format&fit=crop&w=800&q=80",
@@ -1713,12 +1672,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 23:00 – 05:00\nvendredi: 23:00 – 06:00\nsamedi: 23:00 – 06:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Conçu par David Lynch lui-même, ce club privé est une œuvre d'art totale. Tout y est doré, sombre et étrange : le tunnel d'entrée, la salle de cinéma, le fumoir en forme de forêt pétrifiée. Avant minuit, c'est réservé aux membres (artistes, cinéphiles) ; après, le commun des mortels peut tenter d'entrer pour danser. L'ambiance est feutrée, mystérieuse, très 'Mulholland Drive'. C'est le club le plus esthétique et le plus snob de Paris.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Cinéastes, créatifs nocturnes et ceux qui ont réussi à passer le physio."
-      }
     }
   },
   {
@@ -1823,6 +1776,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Installé dans un ancien magasin de matériaux de construction au bord du Canal Saint-Martin, le Point Éphémère (qui n'a d'éphémère que le nom, puisqu'il est là depuis 2004) est un centre de dynamique artistique. C'est à la fois une salle de concert rock/indé mythique, un espace d'exposition pour les artistes en résidence et un bar avec une terrasse au bord de l'eau ultra-populaire. L'ambiance est brute, bétonnée, graffiti et créative. C'est le QG de la scène alternative parisienne.",
       "website": "https://pointephemere.org/",
       "phone": "09 50 63 40 07",
       "google_maps_url": "https://maps.google.com/?cid=8337182441760522342",
@@ -1832,7 +1786,8 @@
       "Reservation required": false,
       "L'Ambiance": "Alternative & Brute au bord de l'eau",
       "Meilleur Spot": "La terrasse au soleil couchant (Vibe Berlin)",
-      "La Carte": "Street food & Snacking quali"
+      "La Carte": "Street food & Snacking quali",
+      "La faune": "Indie rockers, artistes en résidence et foule cool du canal."
     },
     "media": {
       "hero_image": "/images/point-ephemere.jpg",
@@ -1860,12 +1815,6 @@
       "display": "Tlj: 17h00 – 02h00",
       "detailed": "lundi: 17:00 – 02:00\nmardi: 17:00 – 02:00\nmercredi: 12:00 – 02:00\njeudi: 12:00 – 02:00\nvendredi: 12:00 – 03:00\nsamedi: 12:00 – 03:00\ndimanche: 12:00 – 01:00",
       "is_open_now": true
-    },
-    "description": "Installé dans un ancien magasin de matériaux de construction au bord du Canal Saint-Martin, le Point Éphémère (qui n'a d'éphémère que le nom, puisqu'il est là depuis 2004) est un centre de dynamique artistique. C'est à la fois une salle de concert rock/indé mythique, un espace d'exposition pour les artistes en résidence et un bar avec une terrasse au bord de l'eau ultra-populaire. L'ambiance est brute, bétonnée, graffiti et créative. C'est le QG de la scène alternative parisienne.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Indie rockers, artistes en résidence et foule cool du canal."
-      }
     }
   },
   {
@@ -1965,6 +1914,7 @@
         ]
       },
       "price_range": 3,
+      "description": "C'est sans doute l'endroit le plus secret et le plus romantique de Montmartre. Niché au fond d'une impasse privée (le passage de la Sorcière), au sein de l'Hôtel Particulier Montmartre, ce bar est une récompense pour ceux qui le trouvent. On traverse un jardin sauvage avant d'entrer dans un boudoir végétal conçu par l'architecte Pierre Lacroix, tout en velours rouge, papier peint jungle et verrière. C'est le calme absolu, le luxe discret, une parenthèse enchantée hors du temps où l'on sirote des créations subtiles en se sentant coupé du monde.",
       "website": "https://www.hotelparticulier.com/tresparticulier.html",
       "phone": "01 53 41 81 40",
       "google_maps_url": "https://maps.google.com/?cid=9290934766441710905",
@@ -1972,8 +1922,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 18h00 – 01h00",
       "Accessibility": false,
-      "Le Tip": "Un secret caché à Montmartre. Cadre féerique.",
-      "L'Ambiance": "jardin-secret, hôtel-particulier, feutré, romantique, montmartre"
+      "La faune": "Couples illégitimes, stars incognito et amateurs de secrets bien gardés."
     },
     "media": {
       "hero_image": "/images/tres-particulier.jpg",
@@ -2001,12 +1950,6 @@
       "display": "Tlj: 18h00 – 01h00",
       "detailed": "lundi: 18:00 – 01:00\nmardi: 18:00 – 02:00\nmercredi: 18:00 – 02:00\njeudi: 18:00 – 02:00\nvendredi: 18:00 – 02:00\nsamedi: 18:00 – 02:00\ndimanche: 16:00 – 00:00",
       "is_open_now": true
-    },
-    "description": "C'est sans doute l'endroit le plus secret et le plus romantique de Montmartre. Niché au fond d'une impasse privée (le passage de la Sorcière), au sein de l'Hôtel Particulier Montmartre, ce bar est une récompense pour ceux qui le trouvent. On traverse un jardin sauvage avant d'entrer dans un boudoir végétal conçu par l'architecte Pierre Lacroix, tout en velours rouge, papier peint jungle et verrière. C'est le calme absolu, le luxe discret, une parenthèse enchantée hors du temps où l'on sirote des créations subtiles en se sentant coupé du monde.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Couples illégitimes, stars incognito et amateurs de secrets bien gardés."
-      }
     }
   },
   {
@@ -2116,6 +2059,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Le grand-père de la techno parisienne. Situé sous le mythique cinéma Grand Rex, c'est le club qui a accueilli les premiers sets de Laurent Garnier et des Daft Punk. Ici, pas de déco, tout est dans le son (un soundsystem Meyer légendaire) et les lumières. C'est un, tunnel sombre, bas de plafond, où l'on vient pour la musique et rien d'autre. La programmation reste, après 30 ans, l'une des plus exigeantes et respectées d'Europe.",
       "website": "https://rexclub.com/",
       "phone": "01 42 36 10 96",
       "google_maps_url": "https://maps.google.com/?cid=5245443062807038215",
@@ -2123,9 +2067,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Sound-system légendaire. Bouchons d'oreilles recommandés.",
-      "La Musique": "techno",
-      "L'Ambiance": "légendaire, sound-system, nuit-blanche, international"
+      "La faune": "Puristes de la techno, danseurs de 4h du mat et légendes de la nuit."
     },
     "media": {
       "hero_image": "/images/rex-club.jpg",
@@ -2153,12 +2095,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 23:55 – 07:00\njeudi: 23:55 – 07:00\nvendredi: 23:55 – 07:00\nsamedi: 23:55 – 07:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Le grand-père de la techno parisienne. Situé sous le mythique cinéma Grand Rex, c'est le club qui a accueilli les premiers sets de Laurent Garnier et des Daft Punk. Ici, pas de déco, tout est dans le son (un soundsystem Meyer légendaire) et les lumières. C'est un, tunnel sombre, bas de plafond, où l'on vient pour la musique et rien d'autre. La programmation reste, après 30 ans, l'une des plus exigeantes et respectées d'Europe.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Puristes de la techno, danseurs de 4h du mat et légendes de la nuit."
-      }
     }
   },
   {
@@ -2269,6 +2205,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Installé dans l'ancien couvent des Récollets (actuelle Maison de l'Architecture), près de la Gare de l'Est, le Café A possède l'une des plus belles cours intérieures secrètes de Paris. On boit un verre sous les arcades ou allongé dans des transats sur le gravier blanc, à l'ombre de vieux arbres. C'est calme, vaste, et inattendu dans ce quartier dense. Un havre de paix architectural parfait pour les beaux jours.",
       "website": "http://cafea.fr/",
       "phone": "09 81 29 83 38",
       "google_maps_url": "https://maps.google.com/?cid=14024233947434209385",
@@ -2276,8 +2213,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Pensez à réserver.",
-      "L'Ambiance": "jardin-caché, maison-association, solidaire, tranquille, laptop-friendly"
+      "La faune": "Architectes, étudiants des Beaux-Arts et Parisiens en quête de calme."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jardin_Villemin_-_Couvent_des_R%C3%A9collets.jpg",
@@ -2305,12 +2241,6 @@
       "display": "Tlj: 09h00 – 17h00",
       "detailed": "lundi: 09:00 – 17:00\nmardi: 10:00 – 02:00\nmercredi: 10:00 – 02:00\njeudi: 10:00 – 02:00\nvendredi: 10:00 – 02:00\nsamedi: 11:00 – 02:00\ndimanche: 11:00 – 17:00",
       "is_open_now": true
-    },
-    "description": "Installé dans l'ancien couvent des Récollets (actuelle Maison de l'Architecture), près de la Gare de l'Est, le Café A possède l'une des plus belles cours intérieures secrètes de Paris. On boit un verre sous les arcades ou allongé dans des transats sur le gravier blanc, à l'ombre de vieux arbres. C'est calme, vaste, et inattendu dans ce quartier dense. Un havre de paix architectural parfait pour les beaux jours.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Architectes, étudiants des Beaux-Arts et Parisiens en quête de calme."
-      }
     }
   },
   {
@@ -2423,6 +2353,7 @@
         ]
       },
       "price_range": 2,
+      "description": "La démesure à l'italienne signée Big Mamma. Installé dans la Station F (le plus grand campus de startups au monde), c'est un food-market géant de 4500m². Le décor est hallucinant : des wagons de train tagués, des arbres de 5 mètres de haut, des milliers de lumières, des tapis au sol... On se croirait dans un festival. On y mange des pizzas napolitaines, des pâtes fraîches, des burgers, le tout commandé via une app. C'est bruyant, jeune, fun et visuellement impressionnant.",
       "website": "https://www.lafelicita.fr/",
       "google_maps_url": "https://maps.google.com/?cid=4890699243263458192",
       "accessibility": true,
@@ -2430,11 +2361,12 @@
       "Horaires": "Ouvert tous les jours 08h30 – 23h30",
       "L'ambiance": "Immense halle festive, bruyante et colorée.",
       "Le concept": "Le plus grand food market d'Europe : 100% italien.",
+      "Le must": "La pizza à la truffe et les pâtes fraîches.",
+      "Le secret": "Les toilettes ultra-instagrammables.",
+      "La faune": "Start-uppers, grands groupes d'amis et familles le WE.",
       "Le prix": "Pizzas 12-16€, Cocktails 10-14€.",
       "Le tip": "Commande avec le QR code pour ne pas faire la queue.",
-      "Reservation required": false,
-      "Le Tip": "Les toilettes ultra-instagrammables.",
-      "Le Must": "La pizza à la truffe et les pâtes fraîches."
+      "Reservation required": false
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Immeuble_Morland_from_Jardin_Tino_Rossi%2C_Paris_27_May_2017.jpg",
@@ -2462,12 +2394,6 @@
       "display": "Tlj: 08h30 – 23h30",
       "detailed": "lundi: 08:30 – 23:30\nmardi: 08:30 – 00:00\nmercredi: 08:30 – 00:00\njeudi: 08:30 – 00:00\nvendredi: 08:30 – 01:30\nsamedi: 12:00 – 01:30\ndimanche: 12:00 – 23:30",
       "is_open_now": true
-    },
-    "description": "La démesure à l'italienne signée Big Mamma. Installé dans la Station F (le plus grand campus de startups au monde), c'est un food-market géant de 4500m². Le décor est hallucinant : des wagons de train tagués, des arbres de 5 mètres de haut, des milliers de lumières, des tapis au sol... On se croirait dans un festival. On y mange des pizzas napolitaines, des pâtes fraîches, des burgers, le tout commandé via une app. C'est bruyant, jeune, fun et visuellement impressionnant.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Start-uppers, grands groupes d'amis et familles le WE."
-      }
     }
   },
   {
@@ -2572,6 +2498,7 @@
         ]
       },
       "price_range": 3,
+      "description": "L'éternel rival du Flore, juste en face. Son nom vient des deux statues chinoises (les magots) qui trônent dans la salle et observent les clients depuis le XIXe siècle. Verlaine, Rimbaud et plus tard Hemingway y avaient leurs habitudes. La terrasse, orientée plein sud face à l'église Saint-Germain, est l'un des meilleurs spots de Paris pour observer le ballet des passants. L'ambiance y est peut-être un poil plus chic et traditionnelle que son voisin. Le chocolat chaud à l'ancienne y est tout aussi onctueux et riche.",
       "website": "https://lesdeuxmagots.fr/",
       "phone": "01 45 48 55 25",
       "google_maps_url": "https://maps.google.com/?cid=18029711228931295926",
@@ -2579,9 +2506,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 07h30 – 01h00",
       "Reservation required": false,
-      "Le Tip": "Le grand rival du Flore. Terrasse ensoleillée face à l'église.",
-      "L'Ambiance": "iconique, existentialiste, terrasse, patrimoine, littéraire",
-      "La Terrasse": "Oui, disponible"
+      "La faune": "Touristes littéraires, élégantes du quartier et fantômes de Sartre."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Les_Deux_Magots%2C_25_September_2019.jpg",
@@ -2609,12 +2534,6 @@
       "display": "Tlj: 07h30 – 01h00",
       "detailed": "lundi: 07:30 – 01:00\nmardi: 07:30 – 01:00\nmercredi: 07:30 – 01:00\njeudi: 07:30 – 01:00\nvendredi: 07:30 – 01:00\nsamedi: 07:30 – 01:00\ndimanche: 07:30 – 01:00",
       "is_open_now": true
-    },
-    "description": "L'éternel rival du Flore, juste en face. Son nom vient des deux statues chinoises (les magots) qui trônent dans la salle et observent les clients depuis le XIXe siècle. Verlaine, Rimbaud et plus tard Hemingway y avaient leurs habitudes. La terrasse, orientée plein sud face à l'église Saint-Germain, est l'un des meilleurs spots de Paris pour observer le ballet des passants. L'ambiance y est peut-être un poil plus chic et traditionnelle que son voisin. Le chocolat chaud à l'ancienne y est tout aussi onctueux et riche.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Touristes littéraires, élégantes du quartier et fantômes de Sartre."
-      }
     }
   },
   {
@@ -2721,6 +2640,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Plus qu'un club, le Badaboum est une institution de la rue de la Roquette. C'est un dédale festif qui comprend une excellente salle de concert (indie pop, electro), un club à la programmation house pointue et surtout un 'Appartement' caché à l'étage pour se reposer ou boire un cocktail au calme. L'ambiance change d'une pièce à l'autre, ce qui permet de passer toute la soirée sur place sans s'ennuyer. C'est un lieu safe, ouvert d'esprit et toujours garant d'une soirée de qualité, quel que soit le jour de la semaine.",
       "website": "http://www.badaboum.paris/",
       "phone": "01 48 06 50 70",
       "google_maps_url": "https://maps.google.com/?cid=4516162357030682290",
@@ -2728,9 +2648,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Un appartement secret à l'étage pour se poser entre deux sets.",
-      "La Musique": "electro-pop",
-      "L'Ambiance": "bastille, indé, convivial, live"
+      "La faune": "Party experts, foule queer-friendly et danseurs infatigables."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1514525253440-b393452e3720?auto=format&fit=crop&w=800&q=80",
@@ -2758,12 +2676,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 23:30 – 06:00\nvendredi: 23:30 – 07:00\nsamedi: 23:30 – 07:00\ndimanche: 19:30 – 00:00",
       "is_open_now": false
-    },
-    "description": "Plus qu'un club, le Badaboum est une institution de la rue de la Roquette. C'est un dédale festif qui comprend une excellente salle de concert (indie pop, electro), un club à la programmation house pointue et surtout un 'Appartement' caché à l'étage pour se reposer ou boire un cocktail au calme. L'ambiance change d'une pièce à l'autre, ce qui permet de passer toute la soirée sur place sans s'ennuyer. C'est un lieu safe, ouvert d'esprit et toujours garant d'une soirée de qualité, quel que soit le jour de la semaine.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Party experts, foule queer-friendly et danseurs infatigables."
-      }
     }
   },
   {
@@ -2868,13 +2780,13 @@
         ]
       },
       "price_range": 2,
+      "description": "Le café le plus 'Instagrammable' du Marais, avec son carrelage bleu et blanc iconique au sol et son petit comptoir en marbre. Mais ce n'est pas que de la gueule : le café est très bon, le granola maison est célèbre et les tartines d'avocat (avocado toast) sont généreuses et épicées juste comme il faut. L'espace est minuscule, on y joue des coudes, mais l'ambiance californienne et la playlist rock (Ob-La-Di, Ob-La-Da...) donnent la pêche.",
       "google_maps_url": "https://maps.google.com/?cid=4022566315130007365",
       "Horaires": "Ouvert tous les jours 08h - 20h",
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Très petit, très instagrammable. L'Avocado Toast est une référence.",
-      "L'Ambiance": "specialty-coffee, scandinave, minimaliste, brunch, digital-nomad"
+      "La faune": "Influenceurs petit-déjeuner, fans de granola et lève-tôt stylés."
     },
     "media": {
       "hero_image": "/images/ob-la-di.jpg",
@@ -2901,12 +2813,6 @@
       "standard": "08:00-20:00",
       "display": "Tlj: 08h - 20h",
       "detailed": "Ouvert tous les jours.\nDe 08h à 20h."
-    },
-    "description": "Le café le plus 'Instagrammable' du Marais, avec son carrelage bleu et blanc iconique au sol et son petit comptoir en marbre. Mais ce n'est pas que de la gueule : le café est très bon, le granola maison est célèbre et les tartines d'avocat (avocado toast) sont généreuses et épicées juste comme il faut. L'espace est minuscule, on y joue des coudes, mais l'ambiance californienne et la playlist rock (Ob-La-Di, Ob-La-Da...) donnent la pêche.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Influenceurs petit-déjeuner, fans de granola et lève-tôt stylés."
-      }
     }
   },
   {
@@ -3007,6 +2913,7 @@
         ]
       },
       "price_range": 3,
+      "description": "Danser dans l'ancien hôtel particulier de Georges Bizet (là où il aurait composé Carmen !), c'est possible. Un décor rococo délirant : colonnes corinthiennes, fresques au plafond, statues de femmes drapées, cage dorée géante... Le lieu est magnifique le jour comme la nuit. On y boit des cocktails au gin (leur spécialité) et on y danse tard dans la nuit dans une ambiance décadente et romantique. C'est Pigalle version grand siècle.",
       "website": "https://www.le-carmen.fr/",
       "phone": "01 45 26 50 00",
       "google_maps_url": "https://maps.google.com/?cid=8434686351917256478",
@@ -3014,8 +2921,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Ancienne maison close de Bizet. Le décor rococo est fou.",
-      "L'Ambiance": "hôtel-particulier, opulent, bizet, baroque, pigalle"
+      "La faune": "Cinéastes, modeux nocturnes et dandys modernes dans un décor rococo."
     },
     "media": {
       "hero_image": "/images/le-carmen.jpg",
@@ -3043,12 +2949,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 00:00 – 06:00\nmercredi: 00:00 – 06:00\njeudi: 00:00 – 06:00\nvendredi: 00:00 – 06:00\nsamedi: 00:00 – 06:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Danser dans l'ancien hôtel particulier de Georges Bizet (là où il aurait composé Carmen !), c'est possible. Un décor rococo délirant : colonnes corinthiennes, fresques au plafond, statues de femmes drapées, cage dorée géante... Le lieu est magnifique le jour comme la nuit. On y boit des cocktails au gin (leur spécialité) et on y danse tard dans la nuit dans une ambiance décadente et romantique. C'est Pigalle version grand siècle.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Cinéastes, modeux nocturnes et dandys modernes dans un décor rococo."
-      }
     }
   },
   {
@@ -3148,6 +3048,7 @@
         ]
       },
       "price_range": 2,
+      "description": "L'une des rares terrasses de Paris orientée plein sud et... pieds dans l'eau ! Située sur les quais de Seine face à l'Île Saint-Louis, cette maisonnette en pierre sert des bières et des planches simples dans une ambiance de vacances absolues. Quand le soleil tape, c'est le spot idéal pour bronzer en regardant passer les bateaux-mouches. C'est sans prétention, démocratique et magique au coucher du soleil.",
       "website": "http://lesnautes-paris.com/",
       "phone": "01 42 74 59 53",
       "google_maps_url": "https://maps.google.com/?cid=10004034028184826196",
@@ -3155,9 +3056,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 09h00 – 23h30",
       "Reservation required": false,
-      "Le Tip": "Terrasse en bord de Seine face à l'île Saint-Louis. Top l'été.",
-      "L'Ambiance": "péniche, seine, coucher-soleil, apéro, bateau",
-      "La Terrasse": "Oui, disponible"
+      "La faune": "Parisiens décontractés, amateurs de soleil et groupes d'amis en afterwork."
     },
     "media": {
       "hero_image": "/images/les-nautes.jpg",
@@ -3185,12 +3084,6 @@
       "display": "Tlj: 09h00 – 23h30",
       "detailed": "lundi: 09:00 – 23:30\nmardi: 09:00 – 00:00\nmercredi: 09:00 – 00:00\njeudi: 09:00 – 00:00\nvendredi: 09:00 – 00:00\nsamedi: 09:00 – 00:00\ndimanche: 09:00 – 00:00",
       "is_open_now": true
-    },
-    "description": "L'une des rares terrasses de Paris orientée plein sud et... pieds dans l'eau ! Située sur les quais de Seine face à l'Île Saint-Louis, cette maisonnette en pierre sert des bières et des planches simples dans une ambiance de vacances absolues. Quand le soleil tape, c'est le spot idéal pour bronzer en regardant passer les bateaux-mouches. C'est sans prétention, démocratique et magique au coucher du soleil.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Parisiens décontractés, amateurs de soleil et groupes d'amis en afterwork."
-      }
     }
   },
   {
@@ -3294,11 +3187,12 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
+      "La faune": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux.",
       "L'ambiance": "Futuriste, inclusive et architecturale.",
       "Le concept": "Salle de concert pointue, arts numériques et cultures post-Internet.",
-      "Le tip": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide.",
-      "Le Tip": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
-      "Le Must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
+      "Le must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing.",
+      "Le secret": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
+      "Le tip": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide."
     },
     "media": {
       "hero_image": "/images/gaite-lyrique.jpg",
@@ -3325,11 +3219,6 @@
       "standard": "14h00 - 20h00",
       "display": "Mar-Dim: 14h-20h",
       "detailed": "Ouvert tous les jours.\nDe 09h à 19h."
-    },
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux."
-      }
     }
   },
   {
@@ -3439,6 +3328,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Au cœur de la Goutte d'Or, Lomi est une institution du café de spécialité. Torréfacteur reconnu (Champion de France de Roasting), leur coffee shop est brut, industriel et spacieux. On y vient pour déguster des crus d'exception, filtrés avec patience. L'espace au fond sert d'école de formation. C'est un lieu sérieux mais accueillant, où l'on croise les passionnés de caféine du monde entier venus en pèlerinage.",
       "website": "https://lomi.cafe/",
       "phone": "09 51 27 46 31",
       "google_maps_url": "https://maps.google.com/?cid=8856933576526743857",
@@ -3446,8 +3336,7 @@
       "Horaires": "Ouvert tous les jours 08h00 – 17h00",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Le Tip": "Torréfaction sur place. Le temple du café de spécialité.",
-      "L'Ambiance": "torréfaction, industriel, specialty-coffee, artisanal, goutte-dor"
+      "La faune": "Puristes du grain, torréfacteurs en herbe et travailleurs nomades."
     },
     "media": {
       "hero_image": "/images/cafe-lomi.jpg",
@@ -3475,12 +3364,6 @@
       "display": "Tlj: 08h00 – 17h00",
       "detailed": "lundi: 08:00 – 17:00\nmardi: 08:00 – 17:00\nmercredi: 08:00 – 17:00\njeudi: 08:00 – 17:00\nvendredi: 08:00 – 17:00\nsamedi: 09:30 – 18:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Au cœur de la Goutte d'Or, Lomi est une institution du café de spécialité. Torréfacteur reconnu (Champion de France de Roasting), leur coffee shop est brut, industriel et spacieux. On y vient pour déguster des crus d'exception, filtrés avec patience. L'espace au fond sert d'école de formation. C'est un lieu sérieux mais accueillant, où l'on croise les passionnés de caféine du monde entier venus en pèlerinage.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Puristes du grain, torréfacteurs en herbe et travailleurs nomades."
-      }
     }
   },
   {
@@ -3557,38 +3440,6 @@
     },
     "discovery_radius_meters": 50,
     "min_stay_time_minutes": 40,
-    "pricing": {
-      "type": "restaurant",
-      "budget_avg": 15,
-      "value_score": 95,
-      "category_percentile": 5,
-      "starter_range": [
-        1.50,
-        7.50
-      ],
-      "main_range": [
-        7.00,
-        12.20
-      ],
-      "dessert_range": [
-        2.00,
-        5.50
-      ],
-      "highlights": {
-        "signature_dish": {
-          "name": "Boeuf Bourguignon",
-          "price": 12.20
-        },
-        "best_deal": {
-          "name": "Confit de Canard",
-          "price": 9.80
-        },
-        "must_try_dessert": {
-          "name": "Baba au Rhum",
-          "price": 3.60
-        }
-      }
-    },
     "practical_info": {
       "price_info": {
         "average_price": 18,
@@ -3635,6 +3486,7 @@
         ]
       },
       "price_range": 1,
+      "description": "C'est bien plus qu'un restaurant, c'est un monument historique vivant où l'on mange. Depuis 1896, le temps s'est arrêté dans cette immense salle classée aux boiseries sombres et aux globes lumineux. Le rituel est immuable : les serveurs en gilet noir et tablier blanc courent entre les tables, notent votre commande griffonnée à même la nappe en papier, et vous servent des classiques (œuf may, poireaux vinaigrette, confit de canard) à des prix défiant toute concurrence. C'est bruyant, on partage sa table avec des inconnus, on mange vite, mais cette frénésie joyeuse est l'essence même du Paris populaire de la Belle Époque.",
       "website": "http://www.bouillon-chartier.com/",
       "phone": "01 47 70 86 29",
       "google_maps_url": "https://maps.google.com/?cid=17691421677029071208",
@@ -3645,7 +3497,8 @@
       "Meilleur Moment": "Y aller à 18h45 pile ou après 22h30",
       "L'Ambiance": "Brouhaha constant, serveurs en gilet qui courent",
       "Le Secret": "Classé Monument Historique : on y mange depuis 1896.",
-      "Le Tip": "Commande l'oeuf may (2€) et le boeuf bourguignon."
+      "Le Tip": "Commande l'oeuf may (2€) et le boeuf bourguignon.",
+      "La faune": "Touristes affamés, étudiants fauchés et nostalgiques du vieux Paris."
     },
     "media": {
       "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bouillon_Chartier_01.jpg/1280px-Bouillon_Chartier_01.jpg",
@@ -3673,12 +3526,6 @@
       "display": "Tlj: 11h30 – 00h00",
       "detailed": "lundi: 11:30 – 23:00\nmardi: 11:30 – 23:00\nmercredi: 11:30 – 23:00\njeudi: 11:30 – 23:00\nvendredi: 11:30 – 23:00\nsamedi: 11:30 – 23:00\ndimanche: 11:30 – 23:00",
       "is_open_now": true
-    },
-    "description": "C'est bien plus qu'un restaurant, c'est un monument historique vivant où l'on mange. Depuis 1896, le temps s'est arrêté dans cette immense salle classée aux boiseries sombres et aux globes lumineux. Le rituel est immuable : les serveurs en gilet noir et tablier blanc courent entre les tables, notent votre commande griffonnée à même la nappe en papier, et vous servent des classiques (œuf may, poireaux vinaigrette, confit de canard) à des prix défiant toute concurrence. C'est bruyant, on partage sa table avec des inconnus, on mange vite, mais cette frénésie joyeuse est l'essence même du Paris populaire de la Belle Époque.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Touristes affamés, étudiants fauchés et nostalgiques du vieux Paris."
-      }
     }
   },
   {
@@ -3787,6 +3634,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Le bar qui a lancé la gentrification du Faubourg Saint-Denis, mais qui a su garder son âme de vieux rade parisien. Néons rouges, papier peint art déco fatigué, serveurs en marinière... Le décor est culte. En journée, c'est un café de quartier où l'on mange un croque-monsieur correct ; le soir, ça devient un bar bondé où l'on boit de la bière debout en écoutant de la musique forte. C'est l'archétype du bar 'bobo' parisien, dans le bon sens du terme : vivant et stylé.",
       "website": "https://www.facebook.com/chez.jeannette/",
       "phone": "01 47 70 30 89",
       "google_maps_url": "https://maps.google.com/?cid=974455892981439418",
@@ -3794,9 +3642,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Le rade mythique du Faubourg. Toujours bondé, toujours vivant.",
-      "La Musique": "populaire",
-      "L'Ambiance": "rétro, néons, nuit, faubourg"
+      "La faune": "Hipsters du Faubourg, habitués du comptoir et créatifs en pause."
     },
     "media": {
       "hero_image": "/images/chez-jeannette.jpg",
@@ -3824,12 +3670,6 @@
       "display": "Tlj: 08h00 – 02h00",
       "detailed": "lundi: 08:00 – 02:00\nmardi: 08:00 – 02:00\nmercredi: 08:00 – 02:00\njeudi: 08:00 – 02:00\nvendredi: 08:00 – 02:00\nsamedi: 08:00 – 02:00\ndimanche: 09:00 – 02:00",
       "is_open_now": true
-    },
-    "description": "Le bar qui a lancé la gentrification du Faubourg Saint-Denis, mais qui a su garder son âme de vieux rade parisien. Néons rouges, papier peint art déco fatigué, serveurs en marinière... Le décor est culte. En journée, c'est un café de quartier où l'on mange un croque-monsieur correct ; le soir, ça devient un bar bondé où l'on boit de la bière debout en écoutant de la musique forte. C'est l'archétype du bar 'bobo' parisien, dans le bon sens du terme : vivant et stylé.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Hipsters du Faubourg, habitués du comptoir et créatifs en pause."
-      }
     }
   },
   {
@@ -3928,13 +3768,15 @@
           }
         ]
       },
+      "description": "La première 'imprimerie numérique' géante de Paris. Dans cette ancienne fonderie du XIXe siècle, les œuvres de Klimt, Van Gogh ou Dalí sont projetées en format XXL sur les murs de 10 mètres de haut et sur le sol, accompagnées d'une musique immersive. Ce n'est pas une exposition, c'est une plongée physique dans la peinture. On marche littéralement dans la couleur. C'est l'expérience artistique idéale pour ceux qui trouvent les musées classiques trop statiques.",
       "website": "https://www.atelier-lumieres.com/",
       "reservation_required": true,
       "Horaires": "Ouvert tous les jours 10h00 – 20h00",
       "L'Expérience": "Immersion totale dans les œuvres (Van Gogh, Chagall...)",
       "Le Conseil": "Réservez le créneau de 10h pour éviter la foule",
       "La Durée": "Prévoir 1h30 de visite mystique",
-      "Booking url": "https://www.atelier-lumieres.com/fr/billetterie"
+      "Booking url": "https://www.atelier-lumieres.com/fr/billetterie",
+      "La faune": "Instagrameurs, familles émerveillées et couples en date immersif."
     },
     "media": {
       "hero_image": "/images/atelier-lumieres.jpg",
@@ -3962,12 +3804,6 @@
       "display": "Tlj: 10h00 – 20h00",
       "detailed": "lundi: 10:00 – 18:00\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 21:00\nsamedi: 10:00 – 21:00\ndimanche: 10:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "La première 'imprimerie numérique' géante de Paris. Dans cette ancienne fonderie du XIXe siècle, les œuvres de Klimt, Van Gogh ou Dalí sont projetées en format XXL sur les murs de 10 mètres de haut et sur le sol, accompagnées d'une musique immersive. Ce n'est pas une exposition, c'est une plongée physique dans la peinture. On marche littéralement dans la couleur. C'est l'expérience artistique idéale pour ceux qui trouvent les musées classiques trop statiques.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Instagrameurs, familles émerveillées et couples en date immersif."
-      }
     }
   },
   {
@@ -4076,6 +3912,7 @@
         ]
       },
       "price_range": 2,
+      "description": "C'est l'hôtel qui a révolutionné l'hôtellerie parisienne en s'installant là où personne n'allait : le 20ème arrondissement. Designé par Philippe Starck, le Mama est un refuge urbain cool et décalé. Le plafond du restaurant en craie noire, les bouées au-dessus du bar, les masques de super-héros dans les chambres... tout est fait pour ne pas se prendre au sérieux. Le rooftop est l'un des spots les plus prisés pour l'apéro et le dîner, avec ses banquettes colorées, son barbecue et son ambiance de vacances décontractée.",
       "website": "https://fr.mamashelter.com/paris-east/?goto=fiche_hotel&code_hotel=9921&merchantid=seo-maps-FR-9921&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
       "phone": "01 43 48 48 48",
       "google_maps_url": "https://maps.google.com/?cid=13266861361328849255",
@@ -4083,8 +3920,7 @@
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Rooftop avec vue sur la petite ceinture. Ambiance festive.",
-      "L'Ambiance": "design, rooftop, starck, brunch, cosmopolite"
+      "La faune": "Voyageurs cool, groupes d'amis en brunch et locaux branchés."
     },
     "media": {
       "hero_image": "/images/mama-shelter.jpg",
@@ -4111,12 +3947,6 @@
       "standard": "17:00-02:00",
       "display": "Tlj: 17h - 02h",
       "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
-    },
-    "description": "C'est l'hôtel qui a révolutionné l'hôtellerie parisienne en s'installant là où personne n'allait : le 20ème arrondissement. Designé par Philippe Starck, le Mama est un refuge urbain cool et décalé. Le plafond du restaurant en craie noire, les bouées au-dessus du bar, les masques de super-héros dans les chambres... tout est fait pour ne pas se prendre au sérieux. Le rooftop est l'un des spots les plus prisés pour l'apéro et le dîner, avec ses banquettes colorées, son barbecue et son ambiance de vacances décontractée.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Voyageurs cool, groupes d'amis en brunch et locaux branchés."
-      }
     }
   },
   {
@@ -4221,6 +4051,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Que ce soit aux Batignolles ou à Mouffetard, la philosophie Dose est la même : 'Make Coffee Not War'. Ce sont des torréfacteurs passionnés qui proposent des cafés ronds et accessibles, loin de l'acidité parfois clivante des cafés de spécialité pointus. Leurs boutiques sont des lieux de vie comptoirs en bois, trottoirs ensoleillés, jus d'orange pressé minute. C'est le café de quartier idéal, simple, bon et sans prétention snob.",
       "website": "https://www.dose.paris/",
       "phone": "01 43 36 65 03",
       "google_maps_url": "https://maps.google.com/?cid=7483633639170014630",
@@ -4230,7 +4061,8 @@
       "Outdoor seating": false,
       "L'Ambiance": "Coffee shop de puriste",
       "Meilleur Moment": "En semaine pour bosser",
-      "Le Tip": "Le Flat White est le meilleur du quartier."
+      "Le Tip": "Le Flat White est le meilleur du quartier.",
+      "La faune": "Amateurs de latte art, freelances des Batignolles et joggeurs du matin."
     },
     "media": {
       "hero_image": "/images/dose.jpg",
@@ -4257,12 +4089,6 @@
       "standard": "08:00-20:00",
       "display": "Tlj: 08h - 20h",
       "detailed": "Ouvert tous les jours.\nDe 08h à 20h."
-    },
-    "description": "Que ce soit aux Batignolles ou à Mouffetard, la philosophie Dose est la même : 'Make Coffee Not War'. Ce sont des torréfacteurs passionnés qui proposent des cafés ronds et accessibles, loin de l'acidité parfois clivante des cafés de spécialité pointus. Leurs boutiques sont des lieux de vie comptoirs en bois, trottoirs ensoleillés, jus d'orange pressé minute. C'est le café de quartier idéal, simple, bon et sans prétention snob.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs de latte art, freelances des Batignolles et joggeurs du matin."
-      }
     }
   },
   {
@@ -4372,6 +4198,7 @@
           }
         ]
       },
+      "description": "Le sauveur des nuits rock à Paris. Situé près de Bastille, ce club aux allures de loft new-yorkais (balcon intérieur, scène basse) propose des concerts gratuits presque tous les soirs ! Indie rock, post-punk, pop psychédélique... la programmation est pointue et curieuse. Après les concerts, le lieu se transforme en club avec des soirées à thème ('Fuck Forever' indie pop, 'Sunday Tribute'). C'est toujours plein, ça transpire, c'est vivant et accessible à tous.",
       "website": "http://www.supersonic-club.fr/",
       "phone": "01 49 23 41 90",
       "google_maps_url": "https://maps.google.com/?cid=3762669164234108321",
@@ -4384,7 +4211,8 @@
       "L'Agencement": "Loft new-yorkais sur 2 étages (Mezzanine pour voir la scène)",
       "L'After": "Nuits thématiques (Sunday Bloody Sunday, 90s, Arctic Monkeys)",
       "La Carte": "Hot-dogs & Pintes pas chères au food-truck intérieur",
-      "L'Attente": "Arrive avant 20h, la queue fait le tour du pâté de maison"
+      "L'Attente": "Arrive avant 20h, la queue fait le tour du pâté de maison",
+      "La faune": "Rockers indés, fans de concerts gratuits et étudiants en goguette."
     },
     "media": {
       "hero_image": "/images/supersonic.jpg",
@@ -4412,12 +4240,6 @@
       "display": "Tlj: 19h00 – 00h00",
       "detailed": "lundi: 19:00 – 00:00\nmardi: 19:00 – 00:00\nmercredi: 19:00 – 00:00\njeudi: 19:00 – 00:00\nvendredi: 19:00 – 06:00\nsamedi: 19:00 – 06:00\ndimanche: 19:00 – 00:00",
       "is_open_now": true
-    },
-    "description": "Le sauveur des nuits rock à Paris. Situé près de Bastille, ce club aux allures de loft new-yorkais (balcon intérieur, scène basse) propose des concerts gratuits presque tous les soirs ! Indie rock, post-punk, pop psychédélique... la programmation est pointue et curieuse. Après les concerts, le lieu se transforme en club avec des soirées à thème ('Fuck Forever' indie pop, 'Sunday Tribute'). C'est toujours plein, ça transpire, c'est vivant et accessible à tous.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Rockers indés, fans de concerts gratuits et étudiants en goguette."
-      }
     }
   },
   {
@@ -4522,16 +4344,18 @@
         ]
       },
       "price_range": 2,
+      "description": "Le parc le plus escarpé, romantique et 'montagnard' de Paris. Construit sous Napoléon III sur d'anciennes carrières de gypse, c'est un chef-d'œuvre de paysage artificiel : fausses falaises, grotte avec cascade, pont suspendu par Gustave Eiffel et le fameux Temple de la Sibylle perché sur son piton rocheux qui offre une vue sublime sur Montmartre. C'est le spot préféré des parisiens pour les pique-niques en pente, les apéros qui s'éternisent et les joggings cardio (ça grimpe !).",
       "google_maps_url": "https://maps.google.com/?cid=4504078882876090842",
       "Horaires": "Ouvert tous les jours 07h - 21h",
       "L'ambiance": "Romantique, escarpé et un peu sauvage.",
       "Le décor": "Grottes, cascades et le temple perché.",
+      "Le must": "Le coucher de soleil depuis le Temple de la Sibylle.",
+      "Le secret": "La ligne de Petite Ceinture visible depuis certains points.",
+      "La faune": "Joggeurs du dimanche, bobos en pique-nique et taichis.",
       "Le tip": "Prépare tes mollets, ça grimpe sec !",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Accessibility": false,
-      "Le Tip": "La ligne de Petite Ceinture visible depuis certains points.",
-      "Le Must": "Le coucher de soleil depuis le Temple de la Sibylle."
+      "Accessibility": false
     },
     "media": {
       "hero_image": "/images/buttes-chaumont.jpg",
@@ -4558,12 +4382,6 @@
       "standard": "07:00-21:00",
       "display": "Tlj: 07h - 21h",
       "detailed": "Ouvert tous les jours.\nDe 07h à 21h."
-    },
-    "description": "Le parc le plus escarpé, romantique et 'montagnard' de Paris. Construit sous Napoléon III sur d'anciennes carrières de gypse, c'est un chef-d'œuvre de paysage artificiel : fausses falaises, grotte avec cascade, pont suspendu par Gustave Eiffel et le fameux Temple de la Sibylle perché sur son piton rocheux qui offre une vue sublime sur Montmartre. C'est le spot préféré des parisiens pour les pique-niques en pente, les apéros qui s'éternisent et les joggings cardio (ça grimpe !).",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Joggeurs du dimanche, bobos en pique-nique et taichis."
-      }
     }
   },
   {
@@ -4672,13 +4490,13 @@
         ]
       },
       "price_range": 2,
+      "description": "Plus qu'un hôtel, c'est une légende des nuits parisiennes des années 90-2000, indissociable de sa célèbre compilation musicale. Le décor signé Jacques Garcia est une orgie de velours rouge, de lumière tamisée et de style Napoléon III opulent. Le patio est l'un des endroits les plus prisés (et difficiles d'accès) pour dîner ou boire un verre. C'est le temple du chic parisien 'm'as-tu-vu', intemporel et feutré.",
       "google_maps_url": "https://maps.google.com/?cid=3565199464779814617",
       "Horaires": "Ouvert tous les jours 17h - 02h",
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Le patio est légendaire. Très chic, très cher, très vu.",
-      "L'Ambiance": "luxe, red-velvet, napoléon-iii, mode, jet-set"
+      "La faune": "Jet-set internationale, mannequins et ceux qui veulent voir et être vus."
     },
     "media": {
       "hero_image": "/images/hotel-costes.jpg",
@@ -4694,12 +4512,6 @@
       "standard": "17:00-02:00",
       "display": "Tlj: 17h - 02h",
       "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
-    },
-    "description": "Plus qu'un hôtel, c'est une légende des nuits parisiennes des années 90-2000, indissociable de sa célèbre compilation musicale. Le décor signé Jacques Garcia est une orgie de velours rouge, de lumière tamisée et de style Napoléon III opulent. Le patio est l'un des endroits les plus prisés (et difficiles d'accès) pour dîner ou boire un verre. C'est le temple du chic parisien 'm'as-tu-vu', intemporel et feutré.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Jet-set internationale, mannequins et ceux qui veulent voir et être vus."
-      }
     }
   },
   {
@@ -4801,16 +4613,14 @@
         ]
       },
       "price_range": 2,
+      "description": "Impossible de rater ce bâtiment néoclassique monumental qui trône place Stalingrad. Ancienne barrière d'octroi de Ledoux (1788), La Rotonde est devenue un complexe festif géant. Elle abrite une brasserie corse excellente ('Grand Marché'), un bar à cocktails, une galerie et un mini-club. L'immense terrasse urbaine est le point de ralliement de tout le quartier. C'est un lieu qui a réussi à transformer un patrimoine austère en un espace de vie populaire, jeune et bouillonnant d'énergie.",
       "website": "http://www.larotondestalingrad.com/",
       "google_maps_url": "https://maps.google.com/?cid=15557429136509864800",
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "La Musique": "populaire",
-      "L'Ambiance": "ledoux, historique, canal, terrasse",
-      "La Terrasse": "Oui, disponible"
+      "La faune": "Bobos de l'Est, familles cool et fêtards du weekend."
     },
     "media": {
       "hero_image": "/images/rotonde-villette.jpg",
@@ -4838,12 +4648,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 19:00 – 02:00\nvendredi: 17:00 – 06:00\nsamedi: 17:00 – 06:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Impossible de rater ce bâtiment néoclassique monumental qui trône place Stalingrad. Ancienne barrière d'octroi de Ledoux (1788), La Rotonde est devenue un complexe festif géant. Elle abrite une brasserie corse excellente ('Grand Marché'), un bar à cocktails, une galerie et un mini-club. L'immense terrasse urbaine est le point de ralliement de tout le quartier. C'est un lieu qui a réussi à transformer un patrimoine austère en un espace de vie populaire, jeune et bouillonnant d'énergie.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Bobos de l'Est, familles cool et fêtards du weekend."
-      }
     }
   },
   {
@@ -4953,6 +4757,7 @@
         ]
       },
       "price_range": 2,
+      "description": "La marque franco-japonaise de musique et de mode a réussi son pari caféiné. Que ce soit au Palais Royal (le plus beau, niché dans les jardins) ou ailleurs, l'expérience est la même : un design minimaliste et chic, un café latte au lait d'avoine parfait, et ces petits sablés en forme de renard ('kitsune' en japonais) iconiques. C'est le spot idéal pour une pause esthétique et savoureuse, assis sur un banc à regarder les passants stylés.",
       "website": "https://maisonkitsune.com/mk/find-a-store/cafe-kitsune-palais-royal/",
       "phone": "01 40 15 62 31",
       "google_maps_url": "https://maps.google.com/?cid=5454067254771987156",
@@ -4960,8 +4765,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 09h30 – 19h00",
       "Reservation required": false,
-      "Le Tip": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
-      "L'Ambiance": "japonais, mode, palais-royal, matcha, influenceur"
+      "La faune": "Fans de la marque, touristes japonais et esthètes du café."
     },
     "media": {
       "hero_image": "/images/cafe-kitsune.jpg",
@@ -4989,12 +4793,6 @@
       "display": "Tlj: 09h30 – 19h00",
       "detailed": "lundi: 09:30 – 19:00\nmardi: 09:30 – 19:00\nmercredi: 09:30 – 19:00\njeudi: 09:30 – 19:00\nvendredi: 09:30 – 19:00\nsamedi: 09:30 – 19:00\ndimanche: 09:30 – 19:00",
       "is_open_now": false
-    },
-    "description": "La marque franco-japonaise de musique et de mode a réussi son pari caféiné. Que ce soit au Palais Royal (le plus beau, niché dans les jardins) ou ailleurs, l'expérience est la même : un design minimaliste et chic, un café latte au lait d'avoine parfait, et ces petits sablés en forme de renard ('kitsune' en japonais) iconiques. C'est le spot idéal pour une pause esthétique et savoureuse, assis sur un banc à regarder les passants stylés.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Fans de la marque, touristes japonais et esthètes du café."
-      }
     }
   },
   {
@@ -5103,6 +4901,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Installée sur une ancienne gare de marchandises de la SNCF à Pantin, la Cité Fertile est un hectare dédié à la ville durable. C'est un tiers-lieu gigantesque et inspirant, avec une immense halle pour manger et boire (la bière est brassée sur place !), des potagers, une serre et des espaces de jeux. L'ambiance y est familiale et festive, prouvant que l'écologie peut être joyeuse et rassembleuse.",
       "website": "https://www.citefertile.com/",
       "phone": "01 48 43 04 60",
       "google_maps_url": "https://maps.google.com/?cid=11974210525402603996",
@@ -5110,8 +4909,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
-      "Le Tip": "Ancienne gare de marchandises. Immense tiers-lieu éco-responsable.",
-      "L'Ambiance": "écolo, transition, potager, pantin, alternatif"
+      "La faune": "Écolos urbains, familles en poussette et start-uppers à impact."
     },
     "media": {
       "hero_image": "/images/cite-fertile.jpg",
@@ -5139,12 +4937,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: Fermé\nvendredi: 18:00 – 00:00\nsamedi: 12:00 – 00:00\ndimanche: 12:00 – 17:00",
       "is_open_now": false
-    },
-    "description": "Installée sur une ancienne gare de marchandises de la SNCF à Pantin, la Cité Fertile est un hectare dédié à la ville durable. C'est un tiers-lieu gigantesque et inspirant, avec une immense halle pour manger et boire (la bière est brassée sur place !), des potagers, une serre et des espaces de jeux. L'ambiance y est familiale et festive, prouvant que l'écologie peut être joyeuse et rassembleuse.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Écolos urbains, familles en poussette et start-uppers à impact."
-      }
     }
   },
   {
@@ -5248,6 +5040,7 @@
           }
         ]
       },
+      "description": "Le parc le plus élégant et le plus 'proustien' de Paris. Entouré d'hôtels particuliers somptueux, on y accède par des grilles dorées. C'est un jardin de folies architecturales : une pyramide égyptienne, une colonnade corinthienne au bord d'un bassin (la Naumachie), un pont vénitien... C'est le jardin des enfants chics du 8ème et des nounous en uniforme. Idéal pour lire un livre sur un banc en se prenant pour un héros romantique.",
       "website": "https://www.paris.fr/lieux/parc-monceau-1804",
       "phone": "01 49 52 53 00",
       "google_maps_url": "https://maps.google.com/?cid=16583421500181038082",
@@ -5257,7 +5050,8 @@
       "Le Conseil": "Idéal pour un footing chic le matin ou une balade romantique",
       "Le Running": true,
       "Pique-Nique": true,
-      "Price range": 0
+      "Price range": 0,
+      "La faune": "Runner chics, nounous du 8ème et promeneurs du dimanche."
     },
     "media": {
       "hero_image": "/images/parc-monceau.jpg",
@@ -5285,12 +5079,6 @@
       "display": "Tlj: 07h00 – 20h00",
       "detailed": "lundi: 07:00 – 20:00\nmardi: 07:00 – 20:00\nmercredi: 07:00 – 20:00\njeudi: 07:00 – 20:00\nvendredi: 09:00 – 18:00\nsamedi: 07:00 – 20:00\ndimanche: 07:00 – 20:00",
       "is_open_now": false
-    },
-    "description": "Le parc le plus élégant et le plus 'proustien' de Paris. Entouré d'hôtels particuliers somptueux, on y accède par des grilles dorées. C'est un jardin de folies architecturales : une pyramide égyptienne, une colonnade corinthienne au bord d'un bassin (la Naumachie), un pont vénitien... C'est le jardin des enfants chics du 8ème et des nounous en uniforme. Idéal pour lire un livre sur un banc en se prenant pour un héros romantique.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Runner chics, nounous du 8ème et promeneurs du dimanche."
-      }
     }
   },
   {
@@ -5390,14 +5178,14 @@
         ]
       },
       "price_range": 2,
+      "description": "Près du Canal Saint-Martin, le Gravity attire l'œil avec son plafond spectaculaire fait de vagues de lattes de bois qui semblent vous aspirer. Le design est en mouvement, tout comme les cocktails qui sont pensés pour bousculer les sens. L'équipe est ultra-dynamique, passionnée de sports de glisse et d'énergie, ce qui se ressent dans l'ambiance électrique du lieu. Les drinks sont complexes mais accessibles, et la finger food est délicieuse. C'est moderne, architectural et vibrant, parfait pour commencer une soirée avec style.",
       "phone": "07 66 96 18 78",
       "google_maps_url": "https://maps.google.com/?cid=6515999856740718131",
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "L'Ambiance": "craft-beer, cave, afterwork, décontracté, houblon"
+      "La faune": "Skaters devenus mixologues, amateurs de glisse et curieux."
     },
     "media": {
       "hero_image": "/images/gravity-bar.jpg",
@@ -5425,12 +5213,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 17:00 – 00:00\nmercredi: 17:00 – 00:00\njeudi: 17:00 – 02:00\nvendredi: 17:00 – 02:00\nsamedi: 17:00 – 02:00\ndimanche: Fermé",
       "is_open_now": true
-    },
-    "description": "Près du Canal Saint-Martin, le Gravity attire l'œil avec son plafond spectaculaire fait de vagues de lattes de bois qui semblent vous aspirer. Le design est en mouvement, tout comme les cocktails qui sont pensés pour bousculer les sens. L'équipe est ultra-dynamique, passionnée de sports de glisse et d'énergie, ce qui se ressent dans l'ambiance électrique du lieu. Les drinks sont complexes mais accessibles, et la finger food est délicieuse. C'est moderne, architectural et vibrant, parfait pour commencer une soirée avec style.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Skaters devenus mixologues, amateurs de glisse et curieux."
-      }
     }
   },
   {
@@ -5535,6 +5317,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Encore une gare de la Petite Ceinture sauvée et sublimée ! Situé avenue de Saint-Ouen, ce lieu a redonné vie à la gare et surtout aux quais en contrebas. On y accède pour boire des verres directement sur les rails désaffectés, une expérience unique. La programmation est engagée, curieuse et festive (concerts, marchés de créateurs, ateliers). La cantine propose une cuisine du monde solidaire. C'est un lieu hybride qui respire la liberté et l'ouverture d'esprit, typique du nouveau 18ème.",
       "website": "http://lehasardludique.paris/",
       "phone": "01 42 28 35 91",
       "google_maps_url": "https://maps.google.com/?cid=1264934628412076229",
@@ -5545,7 +5328,8 @@
       "Meilleur Moment": "Dimanche midi pour le brunch ou Soirée Queer",
       "L'Ambiance": "Inclusif, coloré, ça danse sur les rails",
       "Le Secret": "C'est une ancienne gare de la Petite Ceinture (1889).",
-      "Le Tip": "Descends sur les quais, c'est là que ça se passe l'été."
+      "Le Tip": "Descends sur les quais, c'est là que ça se passe l'été.",
+      "La faune": "Habitués de la Petite Ceinture, foule queer et voisins sympas."
     },
     "media": {
       "hero_image": "/images/hasard-ludique.jpg",
@@ -5573,12 +5357,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 12:00 – 00:00\nmercredi: 12:00 – 00:00\njeudi: 12:00 – 00:00\nvendredi: 12:00 – 01:00\nsamedi: 12:00 – 01:00\ndimanche: 11:30 – 21:00",
       "is_open_now": true
-    },
-    "description": "Encore une gare de la Petite Ceinture sauvée et sublimée ! Situé avenue de Saint-Ouen, ce lieu a redonné vie à la gare et surtout aux quais en contrebas. On y accède pour boire des verres directement sur les rails désaffectés, une expérience unique. La programmation est engagée, curieuse et festive (concerts, marchés de créateurs, ateliers). La cantine propose une cuisine du monde solidaire. C'est un lieu hybride qui respire la liberté et l'ouverture d'esprit, typique du nouveau 18ème.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Habitués de la Petite Ceinture, foule queer et voisins sympas."
-      }
     }
   },
   {
@@ -5678,16 +5456,14 @@
         ]
       },
       "price_range": 2,
+      "description": "Collé au célèbre cabaret, La Machine est un club à trois têtes. Le Bar à Bulles, caché sur le toit derrière les ailes du Moulin, est une terrasse végétale féerique et calme. La Chaufferie, en sous-sol (l'ancienne chaufferie du Moulin), est un club techno industriel moite et intense. Et le Central est une grande salle de concert/fête. C'est un complexe nocturne complet qui permet de passer du chill romantique à la rave party sans changer d'adresse.",
       "website": "https://www.lamachinedumoulinrouge.com/",
       "google_maps_url": "https://maps.google.com/?cid=6986315810228541913",
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Ambiance sympa pour un verre.",
-      "La Musique": "techno",
-      "L'Ambiance": "moulin-rouge, industriel, nuit-blanche, légendaire",
-      "La Terrasse": "Oui, disponible"
+      "La faune": "Clubbers pointus, fans de sets électro et noctambules du 18ème."
     },
     "media": {
       "hero_image": "/images/machine-moulin.jpg",
@@ -5715,12 +5491,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: Fermé\nvendredi: 00:00 – 06:00\nsamedi: 00:00 – 06:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Collé au célèbre cabaret, La Machine est un club à trois têtes. Le Bar à Bulles, caché sur le toit derrière les ailes du Moulin, est une terrasse végétale féerique et calme. La Chaufferie, en sous-sol (l'ancienne chaufferie du Moulin), est un club techno industriel moite et intense. Et le Central est une grande salle de concert/fête. C'est un complexe nocturne complet qui permet de passer du chill romantique à la rave party sans changer d'adresse.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Clubbers pointus, fans de sets électro et noctambules du 18ème."
-      }
     }
   },
   {
@@ -5826,14 +5596,14 @@
         ]
       },
       "price_range": 2,
+      "description": "Une table d'hôtes clandestine cachée dans une épicerie sicilienne minuscule. Cédric Casanova, le propriétaire, source ses huiles d'olive et ses produits directement chez les petits producteurs en Sicile. Le soir, sur réservation uniquement (et c'est souvent complet des mois à l'avance), la boutique se transforme en salle à manger pour un groupe privé (max 6-8 personnes). On y déguste un festin de produits bruts exceptionnels arrosés de vin naturel. C'est l'expérience gastronomique la plus intime et authentique de Paris.",
       "phone": "09 51 31 33 34",
       "google_maps_url": "https://maps.google.com/?cid=16899950013570965893",
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
       "Outdoor seating": false,
       "Accessibility": false,
-      "Le Tip": "Table d'hôte unique (5 pers max). Cuisine sicilienne authentique.",
-      "L'Ambiance": "sicilien, village, sainte-marthe, terroir, convivial"
+      "La faune": "Amateurs de produits bruts, chefs en repos et puristes."
     },
     "media": {
       "hero_image": "/images/tete-olives.jpg",
@@ -5861,12 +5631,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 14:00 – 19:00\nmercredi: 14:00 – 19:00\njeudi: 14:00 – 19:00\nvendredi: 14:00 – 19:00\nsamedi: 11:00 – 13:00, 14:00 – 19:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "Une table d'hôtes clandestine cachée dans une épicerie sicilienne minuscule. Cédric Casanova, le propriétaire, source ses huiles d'olive et ses produits directement chez les petits producteurs en Sicile. Le soir, sur réservation uniquement (et c'est souvent complet des mois à l'avance), la boutique se transforme en salle à manger pour un groupe privé (max 6-8 personnes). On y déguste un festin de produits bruts exceptionnels arrosés de vin naturel. C'est l'expérience gastronomique la plus intime et authentique de Paris.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs de produits bruts, chefs en repos et puristes."
-      }
     }
   },
   {
@@ -5966,6 +5730,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Un vaisseau spatial posé dans le parc de la Villette. C'est le plus grand musée scientifique d'Europe, mais c'est surtout un terrain de jeu génial. On y vient pour la Cité des Enfants (le meilleur endroit de Paris pour les petits), pour le Planétarium ultra-moderne, ou pour visiter le sous-marin Argonaute garé dehors. L'architecture industrielle et massive des années 80 est devenue culte. C'est un lieu où l'on apprend en touchant, en jouant et en expérimentant.",
       "website": "https://www.cite-sciences.fr/fr/accueil/",
       "phone": "01 40 05 70 00",
       "google_maps_url": "https://maps.google.com/?cid=5967647568310488871",
@@ -5974,11 +5739,12 @@
       "Horaires": "Ouvert tous les jours 10h - 18h",
       "L'ambiance": "Futuriste, interactive et immense.",
       "Le concept": "La science à portée de main pour tous les âges.",
+      "Le must": "Le Planétarium et son écran 8K époustouflant.",
+      "Le secret": "Le sous-marin Argonaute caché dans le parc.",
       "Pour Qui ?": "Familles curieuses, geeks et enfants.",
       "Le tip": "Réserve la Cité des Enfants des semaines à l'avance.",
       "Reservation required": false,
-      "Le Tip": "Le sous-marin Argonaute caché dans le parc.",
-      "Le Must": "Le Planétarium et son écran 8K époustouflant."
+      "La faune": "Familles curieuses, geeks et enfants."
     },
     "media": {
       "hero_image": "/images/cite-sciences.jpg",
@@ -6006,12 +5772,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 09:15 – 18:00\nmercredi: 09:15 – 18:00\njeudi: 09:15 – 18:00\nvendredi: 09:15 – 18:00\nsamedi: 09:15 – 18:00\ndimanche: 09:15 – 19:00",
       "is_open_now": false
-    },
-    "description": "Un vaisseau spatial posé dans le parc de la Villette. C'est le plus grand musée scientifique d'Europe, mais c'est surtout un terrain de jeu génial. On y vient pour la Cité des Enfants (le meilleur endroit de Paris pour les petits), pour le Planétarium ultra-moderne, ou pour visiter le sous-marin Argonaute garé dehors. L'architecture industrielle et massive des années 80 est devenue culte. C'est un lieu où l'on apprend en touchant, en jouant et en expérimentant.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Familles curieuses, geeks et enfants."
-      }
     }
   },
   {
@@ -6111,6 +5871,7 @@
         ]
       },
       "price_range": 2,
+      "description": "L'évasion totale à l'Est de Paris. Le Lac Daumesnil, avec ses deux îles (l'île de Reuilly et l'île de Bercy) reliées par un pont suspendu et une rotonde romantique (le temple de l'Amour), est un décor de carte postale 1900. Louer une barque blanche pour ramer au milieu des cygnes et des saules pleureurs est le cliché parisien qu'on adore vivre. C'est bucolique, apaisant et intemporel.",
       "website": "https://www.paris.fr/equipements/bois-de-vincennes-6598",
       "phone": "01 49 57 15 15",
       "google_maps_url": "https://maps.google.com/?cid=15421900172682292717",
@@ -6118,8 +5879,7 @@
       "Horaires": "Ouvert tous les jours 09h30 – 17h00",
       "Reservation required": false,
       "Outdoor seating": false,
-      "Le Tip": "Louez une barque pour aller voir le temple bouddhiste au milieu.",
-      "L'Ambiance": "lac, barque, romantique, nature, évasion"
+      "La faune": "Canoteurs du dimanche, joggeurs et amoureux de la nature."
     },
     "media": {
       "hero_image": "/images/lac-daumesnil.jpg",
@@ -6147,12 +5907,6 @@
       "display": "Tlj: 09h30 – 17h00",
       "detailed": "lundi: 09:30 – 17:00\nmardi: 09:30 – 17:00\nmercredi: 09:30 – 17:00\njeudi: 09:30 – 17:00\nvendredi: 09:30 – 17:00\nsamedi: 09:30 – 17:00\ndimanche: 09:30 – 17:00",
       "is_open_now": false
-    },
-    "description": "L'évasion totale à l'Est de Paris. Le Lac Daumesnil, avec ses deux îles (l'île de Reuilly et l'île de Bercy) reliées par un pont suspendu et une rotonde romantique (le temple de l'Amour), est un décor de carte postale 1900. Louer une barque blanche pour ramer au milieu des cygnes et des saules pleureurs est le cliché parisien qu'on adore vivre. C'est bucolique, apaisant et intemporel.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Canoteurs du dimanche, joggeurs et amoureux de la nature."
-      }
     }
   },
   {
@@ -6228,6 +5982,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Le plus petit café de Paris ? Probablement. Installé dans une ancienne cordonnerie dont il a gardé la façade bleue vintage et l'enseigne 'Cordonnerie', le Boot Café est un mouchoir de poche avec trois tables, des magazines colorés et des fleurs fraîches. On y sert un café de spécialité excellent (Fuglen, Five Elephant) et des gâteaux maison. C'est intimiste, photogénique à souhait et chaleureux. On s'y sent comme dans une maison de poupée pour coffee geeks.",
       "google_maps_url": "https://maps.google.com/?cid=4701356397950080433",
       "accessibility": true,
       "outdoor_seating": true,
@@ -6238,7 +5993,8 @@
       "Capacité": "️ Micro-coffee shop : 3 tables, 2 tabourets. C'est tout.",
       "Le Verre": "Le crème (Lait d'avoine Oatly parfaitement mousseux)",
       "L'Atmosphère": "Magazines de mode empilés, fleurs fraîches & exiguïté charmante",
-      "Le Tip": "Prends ta commande à emporter et va au Square du Temple juste à côté"
+      "Le Tip": "Prends ta commande à emporter et va au Square du Temple juste à côté",
+      "La faune": "Photographes, touristes du Marais et amateurs de mignardises."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6260,12 +6016,6 @@
       "display": "Tlj: 09h00 – 16h30",
       "detailed": "lundi: 09:00 – 16:30\nmardi: 09:00 – 16:30\nmercredi: 09:00 – 16:30\njeudi: 10:00 – 16:30\nvendredi: 10:00 – 17:30\nsamedi: 10:00 – 17:30\ndimanche: 10:00 – 17:00",
       "is_open_now": false
-    },
-    "description": "Le plus petit café de Paris ? Probablement. Installé dans une ancienne cordonnerie dont il a gardé la façade bleue vintage et l'enseigne 'Cordonnerie', le Boot Café est un mouchoir de poche avec trois tables, des magazines colorés et des fleurs fraîches. On y sert un café de spécialité excellent (Fuglen, Five Elephant) et des gâteaux maison. C'est intimiste, photogénique à souhait et chaleureux. On s'y sent comme dans une maison de poupée pour coffee geeks.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Photographes, touristes du Marais et amateurs de mignardises."
-      }
     }
   },
   {
@@ -6346,6 +6096,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Un immense espace industriel brut (béton, métal, grandes baies vitrées) qui tranche avec les petits cafés parisiens habituels. Ici, on torréfie sur place (la machine Giesen trône au fond), ça sent le grain grillé. C'est le paradis des freelances et des étudiants qui viennent travailler sur les grandes tables communes avec leur laptop, boostés par des litres de 'New Wave Coffee'. L'ambiance est sérieuse, urbaine et moderne, un morceau de Berlin ou Brooklyn à Arts et Métiers.",
       "website": "https://www.partisancafeartisanal.com/",
       "phone": "06 08 25 88 32",
       "google_maps_url": "https://maps.google.com/?cid=3403590225789894853",
@@ -6358,7 +6109,8 @@
       "Le Design": "Style Berlinois/Indus : Béton, tuyaux apparents & grandes baies vitrées",
       "Le Setup": "Immenses tables pour bosser (mais battre-vous pour les prises)",
       "La Signature": "Le Nitro Cold Brew (Café infusé à l'azote, texture bière Guinness)",
-      "Le Son": "Playlist Lo-Fi Hip Hop assez forte"
+      "Le Son": "Playlist Lo-Fi Hip Hop assez forte",
+      "La faune": "Torréfacteurs sérieux, travailleurs concentrés et fans de design industriel."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6380,12 +6132,6 @@
       "display": "Tlj: 08h30 – 18h00",
       "detailed": "lundi: 08:30 – 18:00\nmardi: 08:30 – 18:00\nmercredi: 08:30 – 18:00\njeudi: 08:30 – 18:00\nvendredi: 08:30 – 18:00\nsamedi: 09:00 – 18:30\ndimanche: 09:00 – 18:30",
       "is_open_now": false
-    },
-    "description": "Un immense espace industriel brut (béton, métal, grandes baies vitrées) qui tranche avec les petits cafés parisiens habituels. Ici, on torréfie sur place (la machine Giesen trône au fond), ça sent le grain grillé. C'est le paradis des freelances et des étudiants qui viennent travailler sur les grandes tables communes avec leur laptop, boostés par des litres de 'New Wave Coffee'. L'ambiance est sérieuse, urbaine et moderne, un morceau de Berlin ou Brooklyn à Arts et Métiers.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Torréfacteurs sérieux, travailleurs concentrés et fans de design industriel."
-      }
     }
   },
   {
@@ -6466,6 +6212,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Pionnier de la vague 'coffee shop' à l'anglo-saxonne à Paris, Ten Belles est un petit nid en mezzanine près du Canal Saint-Martin. On y boit un café de spécialité torréfié par leurs soins (Belleville Brûlerie) qui est sans doute l'un des meilleurs de la capitale. Les pâtisseries (scones, cookies, sausage rolls) sont à tomber. C'est souvent plein, on s'assoit sur des petits tabourets ou on prend son café à emporter pour aller se promener le long du canal juste à côté.",
       "website": "https://www.tenbelles.com/paris-10/",
       "phone": "06 31 67 68 45",
       "google_maps_url": "https://maps.google.com/?cid=8418162976357928835",
@@ -6478,7 +6225,8 @@
       "L'Agencement": "Mezzanine en bois (Attention la tête !) & tabourets pivotants",
       "La Carte": "Sausage Rolls (Pâte feuilletée beurrée maison) & Scones",
       "La Musique": "Brit Pop 90s (Oasis, Blur) qui donne la pêche",
-      "La Terrasse": "Quelques chaises sur le trottoir pour regarder les parisiens passer"
+      "La Terrasse": "Quelques chaises sur le trottoir pour regarder les parisiens passer",
+      "La faune": "Expats anglophones, fans de scones et habitués du Canal."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6500,12 +6248,6 @@
       "display": "Tlj: 08h30 – 17h30",
       "detailed": "lundi: 08:30 – 17:30\nmardi: 08:30 – 17:30\nmercredi: 08:30 – 17:30\njeudi: 08:30 – 17:30\nvendredi: 08:30 – 17:30\nsamedi: 09:00 – 17:30\ndimanche: 09:00 – 17:30",
       "is_open_now": false
-    },
-    "description": "Pionnier de la vague 'coffee shop' à l'anglo-saxonne à Paris, Ten Belles est un petit nid en mezzanine près du Canal Saint-Martin. On y boit un café de spécialité torréfié par leurs soins (Belleville Brûlerie) qui est sans doute l'un des meilleurs de la capitale. Les pâtisseries (scones, cookies, sausage rolls) sont à tomber. C'est souvent plein, on s'assoit sur des petits tabourets ou on prend son café à emporter pour aller se promener le long du canal juste à côté.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Expats anglophones, fans de scones et habitués du Canal."
-      }
     }
   },
   {
@@ -6586,6 +6328,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Un coffee shop qui prend la photo et le café très au sérieux. Les murs sont décorés d'expositions temporaires de photographie d'auteur, et les luminaires en forme de nuages créent une atmosphère douce et rêveuse. Le café (de chez Lomi ou drops internationaux) est extrait avec précision, et la nourriture est saine, colorée et végétale. C'est un lieu calme, propice à la réflexion, à la lecture ou à la conversation à voix basse dans le Haut-Marais.",
       "website": "http://www.fringecoffeeparis.com/",
       "google_maps_url": "https://maps.google.com/?cid=736058715472235006",
       "accessibility": true,
@@ -6597,7 +6340,8 @@
       "L'Art": "Expos photo aux murs (Change tous les mois)",
       "Le Goût": "Kanelbullar (Roulés cannelle) faits main le matin même",
       "La Faune": "Photographes, Créatifs & Anglophones",
-      "Le Café": "Grains de chez Lomi ou de guest roasters européens"
+      "Le Café": "Grains de chez Lomi ou de guest roasters européens",
+      "La faune": "Créatifs scandinaves, photographes et amateurs de slow coffee."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6619,12 +6363,6 @@
       "display": "Tlj: 08h30 – 17h00",
       "detailed": "lundi: 08:30 – 17:00\nmardi: 08:30 – 17:00\nmercredi: 08:30 – 17:00\njeudi: 08:30 – 17:00\nvendredi: 08:30 – 17:00\nsamedi: 10:00 – 18:00\ndimanche: 10:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "Un coffee shop qui prend la photo et le café très au sérieux. Les murs sont décorés d'expositions temporaires de photographie d'auteur, et les luminaires en forme de nuages créent une atmosphère douce et rêveuse. Le café (de chez Lomi ou drops internationaux) est extrait avec précision, et la nourriture est saine, colorée et végétale. C'est un lieu calme, propice à la réflexion, à la lecture ou à la conversation à voix basse dans le Haut-Marais.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Créatifs scandinaves, photographes et amateurs de slow coffee."
-      }
     }
   },
   {
@@ -6708,6 +6446,7 @@
           }
         ]
       },
+      "description": "Hippolyte Courty, sourcer de café pour les plus grands chefs (Pierre Hermé, Alain Ducasse), a ouvert ici son école et son atelier. C'est le lieu pour comprendre que le café est un produit de terroir complexe, comme le vin. On y déguste des variétés rares, fermentées avec soin, préparées en filtre ou espresso avec une précision scientifique. Le décor est épuré pour laisser toute la place à la dégustation aromatique. Une expérience puriste.",
       "website": "https://www.larbreacafe.com/fr/",
       "phone": "01 88 33 91 81",
       "google_maps_url": "https://maps.google.com/?cid=15606283973119171274",
@@ -6720,7 +6459,8 @@
       "L'Assiette": "Shakshuka servie grésillante dans sa poêle en fonte",
       "La Signature": "Lost in Cheeseland (Tartine grillée cheddar/piment)",
       "Le Service": "Staff adorable qui prend le temps (Rare !)",
-      "Le Soleil": "Le banc contre la vitrine vers 11h"
+      "Le Soleil": "Le banc contre la vitrine vers 11h",
+      "La faune": "Experts du sourcing, chefs étoilés et passionnés de terroir."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6742,12 +6482,6 @@
       "display": "Tlj: 09h00 – 13h00",
       "detailed": "lundi: 09:00 – 13:00, 13:30 – 19:00\nmardi: 09:00 – 13:00, 13:30 – 19:00\nmercredi: 09:00��– 13:00, 13:30 – 19:00\njeudi: 09:00 – 13:00, 13:30 – 19:00\nvendredi: 09:00 – 13:00, 13:30 – 19:00\nsamedi: 09:00 – 19:00\ndimanche: 10:00 – 13:00, 13:30 – 19:00",
       "is_open_now": false
-    },
-    "description": "Hippolyte Courty, sourcer de café pour les plus grands chefs (Pierre Hermé, Alain Ducasse), a ouvert ici son école et son atelier. C'est le lieu pour comprendre que le café est un produit de terroir complexe, comme le vin. On y déguste des variétés rares, fermentées avec soin, préparées en filtre ou espresso avec une précision scientifique. Le décor est épuré pour laisser toute la place à la dégustation aromatique. Une expérience puriste.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Experts du sourcing, chefs étoilés et passionnés de terroir."
-      }
     }
   },
   {
@@ -6823,6 +6557,7 @@
         ]
       },
       "price_range": 2,
+      "description": "La maison de vacances dont tout le monde rêve, posée au bord du Bassin de la Villette. Le concept est génial : c'est une vraie maison où l'on peut s'installer partout. Boire un café dans la cuisine, travailler dans le salon, papoter dans la chambre, ou même boire un cocktail dans la baignoire de la salle de bain ! La déco est chinée, colorée et chaleureuse. La grande terrasse au bord de l'eau est prise d'assaut l'été. C'est un tiers-lieu convivial qui mélange café, espace de travail et lieu culturel.",
       "website": "http://www.pavillondescanaux.com/",
       "google_maps_url": "https://maps.google.com/?cid=13468433375970572217",
       "accessibility": true,
@@ -6830,11 +6565,12 @@
       "happy_hour": "Tlj 17h-19h",
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
+      "Le Concept": "Une vraie maison de campagne où tout se squatte",
       "Les Chambres": "La Chambre (lit), La Cuisine (table), La Salle de Bain",
       "L'Astuce": "Oui, tu peux vraiment manger ton brunch dans la baignoire",
       "La Terrasse": "Grande terrasse au bord de l'eau (Canal de l'Ourcq)",
       "L'Activité": "Cours de yoga, ateliers DIY & expos féministes",
-      "Le Concept": "Une vraie maison de campagne où tout se squatte"
+      "La faune": "Travailleurs en charentaises, féministes et groupes d'amis en goûter."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6856,12 +6592,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 11:00 – 00:00\nmercredi: 11:00 – 00:00\njeudi: 11:00 – 00:00\nvendredi: 11:00 – 02:00\nsamedi: 11:00 – 02:00\ndimanche: 11:00 – 00:00",
       "is_open_now": true
-    },
-    "description": "La maison de vacances dont tout le monde rêve, posée au bord du Bassin de la Villette. Le concept est génial : c'est une vraie maison où l'on peut s'installer partout. Boire un café dans la cuisine, travailler dans le salon, papoter dans la chambre, ou même boire un cocktail dans la baignoire de la salle de bain ! La déco est chinée, colorée et chaleureuse. La grande terrasse au bord de l'eau est prise d'assaut l'été. C'est un tiers-lieu convivial qui mélange café, espace de travail et lieu culturel.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Travailleurs en charentaises, féministes et groupes d'amis en goûter."
-      }
     }
   },
   {
@@ -6932,6 +6662,7 @@
           }
         ]
       },
+      "description": "Le 'Luco' pour les intimes. C'est le jardin du Sénat, mais c'est surtout le jardin des Parisiens. Il a deux visages : le côté grand style à la française autour du bassin central où les enfants poussent des voiliers en bois (une tradition depuis 1920), et le côté anglais plus sauvage et romantique vers l'ouest. C'est un musée à ciel ouvert (centaines de statues), un terrain de sport (tennis, échecs, tai-chi) et le lieu de drague intellectuelle favori des étudiants de la Sorbonne voisine.",
       "website": "https://jardin.senat.fr/",
       "phone": "01 42 34 20 00",
       "google_maps_url": "https://maps.google.com/?cid=545460441531939211",
@@ -6947,8 +6678,9 @@
       "Meilleur Moment": "Le matin tôt (8h30) pour voir les Tai-Chi",
       "L'Ambiance": "Chaises vertes, étudiants studieux et sénateurs",
       "Le Secret": "Le Sénat est juste là, dans le Palais du Luxembourg.",
-      "Horaires": "Tlj: 08h-20h",
-      "Le Tip": "Choisis une chaise inclinée (plus rare) autour du bassin."
+      "Le Tip": "Choisis une chaise inclinée (plus rare) autour du bassin.",
+      "La faune": "Étudiants de la Sorbonne, sénateurs et joueurs d'échecs.",
+      "Horaires": "Tlj: 08h-20h"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -6968,12 +6700,6 @@
     "opening_hours": {
       "standard": "08h00 - 20h00",
       "display": "Tlj: 08h-20h"
-    },
-    "description": "Le 'Luco' pour les intimes. C'est le jardin du Sénat, mais c'est surtout le jardin des Parisiens. Il a deux visages : le côté grand style à la française autour du bassin central où les enfants poussent des voiliers en bois (une tradition depuis 1920), et le côté anglais plus sauvage et romantique vers l'ouest. C'est un musée à ciel ouvert (centaines de statues), un terrain de sport (tennis, échecs, tai-chi) et le lieu de drague intellectuelle favori des étudiants de la Sorbonne voisine.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Étudiants de la Sorbonne, sénateurs et joueurs d'échecs."
-      }
     }
   },
   {
@@ -7044,6 +6770,7 @@
           }
         ]
       },
+      "description": "La plus ancienne place de Paris (inaugurée en 1612 pour les fiançailles de Louis XIII) est aussi la plus harmonieuse. C'est un carré parfait de 36 pavillons de brique rouge et de pierre blanche, aux toits d'ardoise bleue, qui entourent le Square Louis XIII. C'est le cœur aristocratique du Marais. Victor Hugo y a vécu (sa maison se visite). Les arcades abritent des galeries d'art et des cafés chics. S'allonger sur l'herbe au centre de la place l'été, entouré de tant d'histoire et de symétrie, est un privilège royal accessible à tous.",
       "website": "https://parisjetaime.com/transport/place-des-vosges-p1907",
       "google_maps_url": "https://maps.google.com/?cid=7266689551849442472",
       "accessibility": true,
@@ -7053,9 +6780,10 @@
       "Ambiance Royale": "La plus vieille place de Paris (Symétrie Brique & Pierre)",
       "Le Pique-Nique": "Le seul endroit chic où s'asseoir dans l'herbe est toléré et stylé",
       "Culture": "Maison de Victor Hugo dans l'angle (Entrée gratuite)",
+      "Le Son": "Souvent un quatuor à cordes ou chanteur lyrique sous les arcades",
       "Les Galeries": "Fais le tour des galeries d'art sous les arcades après",
-      "Horaires": "Tlj: 08h-20h",
-      "Le Son": "Souvent un quatuor à cordes ou chanteur lyrique sous les arcades"
+      "La faune": "Amoureux sur les bancs, touristes du Marais et lecteurs au soleil.",
+      "Horaires": "Tlj: 08h-20h"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7075,12 +6803,6 @@
     "opening_hours": {
       "standard": "08h00 - 20h00",
       "display": "Tlj: 08h-20h"
-    },
-    "description": "La plus ancienne place de Paris (inaugurée en 1612 pour les fiançailles de Louis XIII) est aussi la plus harmonieuse. C'est un carré parfait de 36 pavillons de brique rouge et de pierre blanche, aux toits d'ardoise bleue, qui entourent le Square Louis XIII. C'est le cœur aristocratique du Marais. Victor Hugo y a vécu (sa maison se visite). Les arcades abritent des galeries d'art et des cafés chics. S'allonger sur l'herbe au centre de la place l'été, entouré de tant d'histoire et de symétrie, est un privilège royal accessible à tous.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amoureux sur les bancs, touristes du Marais et lecteurs au soleil."
-      }
     }
   },
   {
@@ -7160,6 +6882,7 @@
           }
         ]
       },
+      "description": "L'Hôtel Amour porte bien son nom. Ancien hôtel de passe de Pigalle reconverti par la bande à André (les rois de la nuit parisienne), c'est aujourd'hui l'adresse romantique et branchée par excellence. Le patio intérieur, avec son sol en damier et sa végétation luxuriante, est un bijou caché où l'on dîne aux chandelles loin du bruit du quartier rouge. La décoration est un mélange audacieux de vintage, d'érotisme soft (photos de Newton ou Terry Richardson aux murs) et de chic parisien. C'est l'endroit parfait pour un rendez-vous galant qui se veut cool mais impressionnant.",
       "website": "http://www.hotelamourparis.fr/",
       "phone": "01 48 78 31 80",
       "google_maps_url": "https://maps.google.com/?cid=12247876389012000680",
@@ -7172,6 +6895,7 @@
       "La Faune": "Fashion Week, couples illégitimes & parisiens branchés",
       "L'Assiette": "Le Croque-Monsieur Amour (Pain Poilâne & Comté)",
       "Résa": "Réserve la véranda impérativement, la salle est bruyante",
+      "La faune": "Couples illégitimes, modeux de Pigalle et romantiques rock.",
       "Horaires": "Tlj: 12h-02h"
     },
     "media": {
@@ -7192,12 +6916,6 @@
     "opening_hours": {
       "standard": "12h00 - 02h00",
       "display": "Tlj: 12h-02h"
-    },
-    "description": "L'Hôtel Amour porte bien son nom. Ancien hôtel de passe de Pigalle reconverti par la bande à André (les rois de la nuit parisienne), c'est aujourd'hui l'adresse romantique et branchée par excellence. Le patio intérieur, avec son sol en damier et sa végétation luxuriante, est un bijou caché où l'on dîne aux chandelles loin du bruit du quartier rouge. La décoration est un mélange audacieux de vintage, d'érotisme soft (photos de Newton ou Terry Richardson aux murs) et de chic parisien. C'est l'endroit parfait pour un rendez-vous galant qui se veut cool mais impressionnant.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Couples illégitimes, modeux de Pigalle et romantiques rock."
-      }
     }
   },
   {
@@ -7277,6 +6995,7 @@
           }
         ]
       },
+      "description": "Niché sur une petite place pavée près de Strasbourg-Saint-Denis, cet hôtel boutique est un bijou de décoration signé Pierre Moussié. Chaque chambre est un mini-appartement parisien avec papier peint fleuri, velours et bar à cocktails privé. Le restaurant en bas, avec sa terrasse chauffée donnant sur la place, offre une cuisine bourgeoise dans un cadre feutré et chaleureux, idéal pour un date.",
       "website": "http://www.hotelprovidenceparis.com/",
       "phone": "01 46 34 34 04",
       "google_maps_url": "https://maps.google.com/?cid=4490750547330320771",
@@ -7289,7 +7008,8 @@
       "L'Intérieur": "Velours sombre, Cheminée qui crépite & Papier peint floral",
       "Boisson": "Cocktails servis dans de la cristallerie vintage",
       "L'Ambiance": "Boudoir intime pour rendez-vous discret",
-      "Les Chambres": "Chaque chambre a son propre bar à cocktails"
+      "Les Chambres": "Chaque chambre a son propre bar à cocktails",
+      "La faune": "Dandys, amateurs de déco soignée et couples en escapade."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7311,12 +7031,6 @@
       "display": "Tlj: 07h00 – 01h30",
       "detailed": "lundi: 07:00 – 01:30\nmardi: 07:00 – 01:30\nmercredi: 07:00 – 01:30\njeudi: 07:00 – 01:30\nvendredi: 07:00 – 01:30\nsamedi: 07:00 – 01:30\ndimanche: 07:00 – 01:30",
       "is_open_now": true
-    },
-    "description": "Niché sur une petite place pavée près de Strasbourg-Saint-Denis, cet hôtel boutique est un bijou de décoration signé Pierre Moussié. Chaque chambre est un mini-appartement parisien avec papier peint fleuri, velours et bar à cocktails privé. Le restaurant en bas, avec sa terrasse chauffée donnant sur la place, offre une cuisine bourgeoise dans un cadre feutré et chaleureux, idéal pour un date.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Dandys, amateurs de déco soignée et couples en escapade."
-      }
     }
   },
   {
@@ -7396,6 +7110,7 @@
           }
         ]
       },
+      "description": "Installé dans un hôtel particulier du XVIIIe siècle classé monument historique (l'Hôtel de Rivie), The Hoxton a réussi le pari de rendre le luxe cool et accessible. On vient travailler dans le lobby immense baigné de lumière sous la verrière, boire un cocktail au bar Jacques qui ressemble à un boudoir, ou dîner au Rivié le long des murs végétaux. L'ambiance est cosmopolite, truffée de laptops le jour et de verres à pied le soir. C'est le QG de la tech et de la mode.",
       "website": "https://thehoxton.com/paris/?utm_source=google&utm_medium=local&utm_campaign=hotel-thehoxtonparis",
       "phone": "01 85 65 75 00",
       "google_maps_url": "https://maps.google.com/?cid=5538675626060189149",
@@ -7408,7 +7123,8 @@
       "Le Lobby": "Le Lobby est un QG de travail (Canapés velours, Wifi, Café)",
       "Effet Waouh": "La Verrière monumentale au dessus de la cour intérieure",
       "Photo Spot": "L'escalier en colimaçon au fond du lobby (Insta classic)",
-      "Boisson": "Bar Jacques au 1er étage (Plus calme et feutré)"
+      "Boisson": "Bar Jacques au 1er étage (Plus calme et feutré)",
+      "La faune": "Start-uppers au lobby, touristes cool et parisiens en afterwork."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7430,12 +7146,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Ouvert 24h/24\nmardi: Ouvert 24h/24\nmercredi: Ouvert 24h/24\njeudi: Ouvert 24h/24\nvendredi: Ouvert 24h/24\nsamedi: Ouvert 24h/24\ndimanche: Ouvert 24h/24",
       "is_open_now": true
-    },
-    "description": "Installé dans un hôtel particulier du XVIIIe siècle classé monument historique (l'Hôtel de Rivie), The Hoxton a réussi le pari de rendre le luxe cool et accessible. On vient travailler dans le lobby immense baigné de lumière sous la verrière, boire un cocktail au bar Jacques qui ressemble à un boudoir, ou dîner au Rivié le long des murs végétaux. L'ambiance est cosmopolite, truffée de laptops le jour et de verres à pied le soir. C'est le QG de la tech et de la mode.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Start-uppers au lobby, touristes cool et parisiens en afterwork."
-      }
     }
   },
   {
@@ -7506,6 +7216,7 @@
           }
         ]
       },
+      "description": "Enclavé au cœur du pouvoir (Ministère de la Culture, Conseil Constitutionnel), ce jardin est un miracle de calme et d'élégance. C'est le mariage parfait entre l'héritage classique (allées de tilleuls taillés au carré, fontaine centrale) et l'audace contemporaine avec les Colonnes de Buren dans la cour d'honneur. C'est le spot chic pour lire sur une chaise verte inclinée, loin des voitures. Les galeries qui l'entourent abritent des boutiques de niche (parfumeurs, vintage de luxe, médailles) et des restaurants mythiques comme le Grand Véfour. Une parenthèse royale.",
       "website": "http://www.domaine-palais-royal.fr/",
       "phone": "01 47 03 92 16",
       "google_maps_url": "https://maps.google.com/?cid=2789537478611892147",
@@ -7518,7 +7229,8 @@
       "Le Silence": "Enclos de murs : Le bruit de la ville disparaît totalement",
       "L'Odeur": "Les allées de Tilleuls en fleurs (Juin) ou Roses anciennes",
       "L'Histoire": "Les arcades abritaient des maisons de jeu (et de plaisir) jadis",
-      "Photo": "S'asseoir sur un 'Petit Colonne' pour la photo parfaite"
+      "Photo": "S'asseoir sur un 'Petit Colonne' pour la photo parfaite",
+      "La faune": "Influenceurs mode, promeneurs solitaires et joueurs de pétanque chics."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7540,12 +7252,6 @@
       "display": "Tlj: 08h00 – 20h00",
       "detailed": "lundi: 08:00 – 20:00\nmardi: 08:00 – 20:00\nmercredi: 08:00 – 20:00\njeudi: 08:00 – 20:00\nvendredi: 08:00 – 20:00\nsamedi: 08:00 – 20:00\ndimanche: 08:00 – 20:00",
       "is_open_now": false
-    },
-    "description": "Enclavé au cœur du pouvoir (Ministère de la Culture, Conseil Constitutionnel), ce jardin est un miracle de calme et d'élégance. C'est le mariage parfait entre l'héritage classique (allées de tilleuls taillés au carré, fontaine centrale) et l'audace contemporaine avec les Colonnes de Buren dans la cour d'honneur. C'est le spot chic pour lire sur une chaise verte inclinée, loin des voitures. Les galeries qui l'entourent abritent des boutiques de niche (parfumeurs, vintage de luxe, médailles) et des restaurants mythiques comme le Grand Véfour. Une parenthèse royale.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Influenceurs mode, promeneurs solitaires et joueurs de pétanque chics."
-      }
     }
   },
   {
@@ -7616,6 +7322,7 @@
           }
         ]
       },
+      "description": "Ce jardin paysager devant la mairie du 3ème arrondissement (Paris Centre) est le poumon vert du Haut-Marais. Construit sur l'emplacement de l'ancienne forteresse des Templiers (et de la prison de Louis XVI), c'est aujourd'hui un parc paisible avec une mare aux canards, une cascade artificielle et une pelouse libre d'accès. C'est le spot pique-nique chic des habitants du quartier, calme et parfaitement entretenu.",
       "website": "https://www.paris.fr/equipements/square-du-temple-elie-wiesel-2425",
       "google_maps_url": "https://maps.google.com/?cid=15136561069376856614",
       "accessibility": true,
@@ -7627,7 +7334,8 @@
       "Faune Sauvage": "L'étang aux canards (et parfois un Héron cendré)",
       "L'Ambiance": "Vrai jardin de quartier du 3ème (Familles & Lecteurs)",
       "Architecture": "Le Kiosque à musique 1900 (Concerts l'été)",
-      "La Paix": "Moins 'M'as-tu-vu' que les Vosges, plus reposant"
+      "La Paix": "Moins 'M'as-tu-vu' que les Vosges, plus reposant",
+      "La faune": "Familles du Marais, nounous et lecteurs tranquilles."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7649,12 +7357,6 @@
       "display": "Tlj: 08h00 – 17h45",
       "detailed": "lundi: 08:00 – 17:45\nmardi: 08:00 – 17:45\nmercredi: 08:00 – 17:45\njeudi: 08:00 – 17:45\nvendredi: 09:00 – 18:00\nsamedi: 09:00 – 17:45\ndimanche: 09:00 – 17:45",
       "is_open_now": false
-    },
-    "description": "Ce jardin paysager devant la mairie du 3ème arrondissement (Paris Centre) est le poumon vert du Haut-Marais. Construit sur l'emplacement de l'ancienne forteresse des Templiers (et de la prison de Louis XVI), c'est aujourd'hui un parc paisible avec une mare aux canards, une cascade artificielle et une pelouse libre d'accès. C'est le spot pique-nique chic des habitants du quartier, calme et parfaitement entretenu.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Familles du Marais, nounous et lecteurs tranquilles."
-      }
     }
   },
   {
@@ -7730,6 +7432,7 @@
         ]
       },
       "price_range": 3,
+      "description": "Merci est bien plus qu'un concept-store, c'est une destination. Situé dans un ancien atelier de tissus du Haut-Marais, on y accède par une cour pavée où trône toujours une petite Fiat 500 rouge (le spot photo incontournable). À l'intérieur, sous une verrière lumineuse, on découvre une sélection pointue de mode, de design et d'objets pour la maison, mise en scène comme dans un magazine. Mais Merci, c'est aussi un lieu de vie avec ses trois cafés, dont la fameuse Cantine Merci et le Café de la bibliothèque aux murs tapissés de 10 000 livres d'occasion.",
       "website": "https://merci-merci.com/collections/toutes-les-nouveautes/?utm_source=GMB&utm_medium=organic",
       "phone": "01 42 77 00 33",
       "google_maps_url": "https://maps.google.com/?cid=2892717646480357157",
@@ -7742,7 +7445,8 @@
       "La Vue": "Vue plongeante sur la cour pavée et la Fiat 500 rouge",
       "Nostalgie": "Oeufs à la coque & Mouillettes (Comme en enfance)",
       "Shopping": "Le Concept Store attenant est le temple du design",
-      "Le Tip": "Les jus de fruits frais (extracteur) sont divins"
+      "Le Tip": "Les jus de fruits frais (extracteur) sont divins",
+      "La faune": "Design lovers, touristes chics et amateurs de beaux linges."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7764,12 +7468,6 @@
       "display": "Tlj: 10h30 – 19h30",
       "detailed": "lundi: 10:30 – 19:30\nmardi: 10:30 – 19:30\nmercredi: 10:30 – 19:30\njeudi: 10:30 – 20:00\nvendredi: 10:30 – 20:00\nsamedi: 10:00 – 20:00\ndimanche: 10:00 – 19:30",
       "is_open_now": false
-    },
-    "description": "Merci est bien plus qu'un concept-store, c'est une destination. Situé dans un ancien atelier de tissus du Haut-Marais, on y accède par une cour pavée où trône toujours une petite Fiat 500 rouge (le spot photo incontournable). À l'intérieur, sous une verrière lumineuse, on découvre une sélection pointue de mode, de design et d'objets pour la maison, mise en scène comme dans un magazine. Mais Merci, c'est aussi un lieu de vie avec ses trois cafés, dont la fameuse Cantine Merci et le Café de la bibliothèque aux murs tapissés de 10 000 livres d'occasion.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Design lovers, touristes chics et amateurs de beaux linges."
-      }
     }
   },
   {
@@ -7845,6 +7543,7 @@
         ]
       },
       "price_range": 3,
+      "description": "Ancien bar à hôtesses de Pigalle transformé en temple du Tiki, le Dirty Dick assume son héritage sulfureux avec humour. C'est une explosion de kitsch polynésien : fauteuils en rotin, chemises à fleurs, totems en bois et murs peints de jungle tropicale. Les cocktails sont servis dans des verres en forme de crâne, de coquillage ou de volcan fumant, et sont redoutablement chargés en rhum. C'est festif, bruyant, exotique et totalement dépaysant. L'endroit idéal pour faire la fête entre amis sans se prendre au sérieux.",
       "website": "https://www.facebook.com/Dirty-Dick-504787289561262/",
       "google_maps_url": "https://maps.google.com/?cid=17450642718738722238",
       "accessibility": true,
@@ -7857,7 +7556,8 @@
       "Le Cocktail": "Le Mai Tai est servi dans un volcan en feu (Partage-le !)",
       "Le Look": "Chemises Hawaïennes portées par le staff (et encouragées)",
       "Le Mood": "Rockabilly, Surf Music & Lâcher prise",
-      "Peinture": "Fresques polynésiennes kitchs peintes à la main"
+      "Peinture": "Fresques polynésiennes kitchs peintes à la main",
+      "La faune": "Fans de tiki, rockeurs et fêtards de Pigalle."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7879,12 +7579,6 @@
       "display": "Tlj: 19h00 – 02h00",
       "detailed": "lundi: 19:00 – 02:00\nmardi: 19:00 – 02:00\nmercredi: 19:00 – 02:00\njeudi: 19:00 – 02:00\nvendredi: 19:00 – 03:00\nsamedi: 19:00 – 03:00\ndimanche: 19:00 – 02:00",
       "is_open_now": true
-    },
-    "description": "Ancien bar à hôtesses de Pigalle transformé en temple du Tiki, le Dirty Dick assume son héritage sulfureux avec humour. C'est une explosion de kitsch polynésien : fauteuils en rotin, chemises à fleurs, totems en bois et murs peints de jungle tropicale. Les cocktails sont servis dans des verres en forme de crâne, de coquillage ou de volcan fumant, et sont redoutablement chargés en rhum. C'est festif, bruyant, exotique et totalement dépaysant. L'endroit idéal pour faire la fête entre amis sans se prendre au sérieux.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Fans de tiki, rockeurs et fêtards de Pigalle."
-      }
     }
   },
   {
@@ -7960,6 +7654,7 @@
         ]
       },
       "price_range": 3,
+      "description": "L'ECC pour les intimes. C'est le bar qui a (ré)introduit la culture du cocktail artisanal à Paris en 2007. Caché dans une petite rue de Montorgueil, derrière un rideau de velours, le décor est celui d'un bar clandestin baroque : pierres apparentes, lustres en cristal, bougies. Les barmen sont des orfèvres qui changent la carte très régulièrement. C'est l'endroit parfait, sombre et sexy, pour un deuxième rendez-vous ou pour apprécier un spiritueux rare.",
       "website": "https://www.experimentalcocktailclub.com/paris",
       "phone": "01 45 08 88 09",
       "google_maps_url": "https://maps.google.com/?cid=9843963511667754636",
@@ -7972,7 +7667,8 @@
       "Le Décor": "Baroque sombre, Lustres en cristal & Briques",
       "L'Ambiance": "Institutionnel mais vibrant (DJ sets le week-end)",
       "Le Service": "Barmen en gilet, précis et ultra-rapides",
-      "Location": "Rue Montorgueil (Quartier piéton vivant)"
+      "Location": "Rue Montorgueil (Quartier piéton vivant)",
+      "La faune": "Pionniers du cocktail, habitués de Montorgueil et curieux."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -7994,12 +7690,6 @@
       "display": "Tlj: 19h00 – 02h00",
       "detailed": "lundi: 19:00 – 02:00\nmardi: 19:00 – 02:00\nmercredi: 19:00 – 02:00\njeudi: 19:00 – 02:00\nvendredi: 19:00 – 04:00\nsamedi: 19:00 – 04:00\ndimanche: 20:00 – 02:00",
       "is_open_now": true
-    },
-    "description": "L'ECC pour les intimes. C'est le bar qui a (ré)introduit la culture du cocktail artisanal à Paris en 2007. Caché dans une petite rue de Montorgueil, derrière un rideau de velours, le décor est celui d'un bar clandestin baroque : pierres apparentes, lustres en cristal, bougies. Les barmen sont des orfèvres qui changent la carte très régulièrement. C'est l'endroit parfait, sombre et sexy, pour un deuxième rendez-vous ou pour apprécier un spiritueux rare.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Pionniers du cocktail, habitués de Montorgueil et curieux."
-      }
     }
   },
   {
@@ -8080,6 +7770,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Ici, pas de carte ! C'est le concept radical de ce bar aux tons pastel et au néon rose bonbon. Vous dites au barman ce que vous aimez (fruité, amer, épicé, fort...), ce que vous détestez, votre humeur du moment, et il crée un cocktail sur-mesure rien que pour vous. L'interaction est au cœur de l'expérience. La terrasse donnant sur le Boulevard du Temple est très agréable pour siroter ces créations uniques. C'est ludique, surprenant et parfaitement exécuté par une équipe passionnée qui adore relever des défis gustatifs.",
       "website": "https://www.bar-bisou.com/",
       "google_maps_url": "https://maps.google.com/?cid=758497471786411032",
       "accessibility": true,
@@ -8087,11 +7778,12 @@
       "Horaires": "Ouvert tous les jours 17h00 – 02h00",
       "Reservation required": false,
       "Happy hour": null,
+      "Le Concept": "‍️ AUCUN MENU. Dis ce que tu aimes, il créent pour toi.",
       "Le Look": "Tout est Rose Pastel, Néons 'Bisou' & Plantes suspendues",
       "La Terrasse": "Grande terrasse chauffée sur le boulevard (Top pour people-watch)",
       "Écologie": "Ingrédients de saison & Déchets minimes",
       "L'Ambiance": "Ultra Friendly, Staff souriant, zéro snobisme",
-      "Le Concept": "‍️ AUCUN MENU. Dis ce que tu aimes, il créent pour toi."
+      "La faune": "Curieux sans menu, cœurs d'artichaut et fans de rose."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8113,12 +7805,6 @@
       "display": "Tlj: 17h00 – 02h00",
       "detailed": "lundi: 17:00 – 02:00\nmardi: 17:00 – 02:00\nmercredi: 17:00 – 02:00\njeudi: 17:00 – 02:00\nvendredi: 17:00 – 02:00\nsamedi: 17:00 – 02:00\ndimanche: 17:00 – 02:00",
       "is_open_now": true
-    },
-    "description": "Ici, pas de carte ! C'est le concept radical de ce bar aux tons pastel et au néon rose bonbon. Vous dites au barman ce que vous aimez (fruité, amer, épicé, fort...), ce que vous détestez, votre humeur du moment, et il crée un cocktail sur-mesure rien que pour vous. L'interaction est au cœur de l'expérience. La terrasse donnant sur le Boulevard du Temple est très agréable pour siroter ces créations uniques. C'est ludique, surprenant et parfaitement exécuté par une équipe passionnée qui adore relever des défis gustatifs.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Curieux sans menu, cœurs d'artichaut et fans de rose."
-      }
     }
   },
   {
@@ -8198,6 +7884,7 @@
           }
         ]
       },
+      "description": "Caché sous les arcades de la Place des Vosges, ce lieu est un voyage onirique. On descend un escalier pour découvrir une cave voûtée immense décorée comme l'appartement d'un dandy excentrique des années 70 : canapés en forme de serpent, sculptures aztèques, pyjamas en soie... C'est à la fois un restaurant, un bar à cocktails et un club. L'ambiance y est surréaliste, chic et un brin mystique. Boire un verre ici, c'est plonger dans un univers parallèle esthétique et fascinant, au cœur du quartier le plus historique de Paris.",
       "website": "http://serpentaplume.com/",
       "phone": "01 45 31 77 83",
       "google_maps_url": "https://maps.google.com/?cid=18061980787479067787",
@@ -8210,7 +7897,8 @@
       "Le Lieu": "Cave voûtée immense (7m sous terre) & Canapés longs",
       "Le Décor": "Aztèque Chic, Statues précolombiennes & Velours",
       "La Faune": "Dandy, Mode, Noctambules chics",
-      "Le Secret": "On perd la notion du temps (Pas de réseau, pas de fenêtres)"
+      "Le Secret": "On perd la notion du temps (Pas de réseau, pas de fenêtres)",
+      "La faune": "Dandys aventuriers, amateurs d'art et noctambules sophistiqués."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8232,12 +7920,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 17:00 – 00:00\nmercredi: 10:00 – 02:00\njeudi: 10:00 – 02:00\nvendredi: 10:00 – 02:00\nsamedi: 10:00 – 02:00\ndimanche: 10:00 – 00:00",
       "is_open_now": true
-    },
-    "description": "Caché sous les arcades de la Place des Vosges, ce lieu est un voyage onirique. On descend un escalier pour découvrir une cave voûtée immense décorée comme l'appartement d'un dandy excentrique des années 70 : canapés en forme de serpent, sculptures aztèques, pyjamas en soie... C'est à la fois un restaurant, un bar à cocktails et un club. L'ambiance y est surréaliste, chic et un brin mystique. Boire un verre ici, c'est plonger dans un univers parallèle esthétique et fascinant, au cœur du quartier le plus historique de Paris.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Dandys aventuriers, amateurs d'art et noctambules sophistiqués."
-      }
     }
   },
   {
@@ -8318,13 +8000,13 @@
         ]
       },
       "price_range": 2,
+      "description": "C'est le club où l'on vient pour danser, vraiment danser. Pas de poseurs ici, juste de la bonne vibe. La musique est éclectique, allant de la salsa à l'italo-disco en passant par le funk, toujours avec une âme. Le lieu est brut, sombre, avec une ambiance de fête mexicaine underground. C'est moite, c'est joyeux, c'est physique. L'endroit idéal pour finir la nuit en beauté, épuisé mais heureux, au milieu d'une foule cosmopolite qui aime la musique live et les rythmes chauds.",
       "google_maps_url": "https://maps.google.com/?cid=7962778015210757114",
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
-      "Le Tip": "Ambiance latino-disco moite. On y danse beaucoup.",
-      "L'Ambiance": "trendy, paris, festif"
+      "La faune": "Danseurs de salsa, fêtards décomplexés et amateurs de rythmes latins."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8346,12 +8028,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 23:45 – 06:00\njeudi: 23:45 – 06:00\nvendredi: 23:45 – 06:00\nsamedi: 23:45 – 06:00\ndimanche: Fermé",
       "is_open_now": false
-    },
-    "description": "C'est le club où l'on vient pour danser, vraiment danser. Pas de poseurs ici, juste de la bonne vibe. La musique est éclectique, allant de la salsa à l'italo-disco en passant par le funk, toujours avec une âme. Le lieu est brut, sombre, avec une ambiance de fête mexicaine underground. C'est moite, c'est joyeux, c'est physique. L'endroit idéal pour finir la nuit en beauté, épuisé mais heureux, au milieu d'une foule cosmopolite qui aime la musique live et les rythmes chauds.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Danseurs de salsa, fêtards décomplexés et amateurs de rythmes latins."
-      }
     }
   },
   {
@@ -8449,6 +8125,7 @@
         ]
       },
       "price_range": 2,
+      "description": "L'immeuble de 4 étages à Pigalle entièrement dédié à la trattoria italienne et à la viande florentine. Chaque étage a sa déco, mais tout le monde veut aller au dernier, sous la verrière époustouflante envahie de lierre et de plantes suspendues. C'est le spot le plus lumineux et photogénique du quartier. On y sert des T-Bone steaks géants et des pizzas à la truffe. C'est toujours plein, c'est un spectacle permanent, c'est l'Italie fantasmée et généreuse.",
       "website": "https://www.bigmammagroup.com/italian-restaurants/pink-mamma?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
       "phone": "09 73 03 40 29",
       "google_maps_url": "https://maps.google.com/?cid=875626592809846908",
@@ -8461,7 +8138,8 @@
       "Le Décor": "L'escalier rempli de cadres vintage (Parfait selfie) ️",
       "Le Must Eat": "T-Bone Steak Fiorentina (1kg) cuit à la braise",
       "L'Astuce": "Si l'ascenseur est long, monte à pied (ça ouvre l'appétit)",
-      "L'Ambiance": "Trattoria Toscane bruyante & généreuse"
+      "L'Ambiance": "Trattoria Toscane bruyante & généreuse",
+      "La faune": "Foule italophile, instagrameurs et amateurs de truffe."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8483,12 +8161,6 @@
       "display": "Tlj: 12h00 – 14h15",
       "detailed": "lundi: 12:00 – 14:15, 18:00 – 22:45\nmardi: 12:00 – 14:15, 18:00 – 22:45\nmercredi: 12:00 – 14:15, 18:00 – 22:45\njeudi: 12:00 – 14:15, 18:00 – 23:00\nvendredi: 12:00 – 14:15, 18:00 – 23:00\nsamedi: 12:00 – 16:00, 18:00 – 23:00\ndimanche: 12:00 – 16:00, 18:00 – 22:45",
       "is_open_now": true
-    },
-    "description": "L'immeuble de 4 étages à Pigalle entièrement dédié à la trattoria italienne et à la viande florentine. Chaque étage a sa déco, mais tout le monde veut aller au dernier, sous la verrière époustouflante envahie de lierre et de plantes suspendues. C'est le spot le plus lumineux et photogénique du quartier. On y sert des T-Bone steaks géants et des pizzas à la truffe. C'est toujours plein, c'est un spectacle permanent, c'est l'Italie fantasmée et généreuse.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Foule italophile, instagrameurs et amateurs de truffe."
-      }
     }
   },
   {
@@ -8573,6 +8245,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Le premier grand succès de Big Mamma à Oberkampf. Le décor mélange trattoria traditionnelle et design moderne avec son immense bar en marbre et ses jambons suspendus au plafond. Les pizzas cuites au feu de bois sont légères et croustillantes, les pâtes servies dans des meules de parmesan... C'est la recette du succès : produits italiens sourcés, staff italien bruyant et sympa, prix accessibles et ambiance survoltée le soir.",
       "website": "https://www.bigmammagroup.com/fr/restaurants-italiens/ober-mamma?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
       "phone": "09 73 03 41 90",
       "google_maps_url": "https://maps.google.com/?cid=16453944569276813241",
@@ -8585,7 +8258,8 @@
       "Aperitivo": "Cocktails & Antipasti servis vite et fort",
       "La Pizza": "Four à bois napolitain (Pâte gonflée et léopardée)",
       "L'Accent": "Service 100% italien (Ça chante, ça parle fort)",
-      "L'Attente": "L'attente sur le trottoir fait partie de l'expérience (Venez tôt)"
+      "L'Attente": "L'attente sur le trottoir fait partie de l'expérience (Venez tôt)",
+      "La faune": "Habitués d'Oberkampf, fans de spritz et grandes tablées."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8607,12 +8281,6 @@
       "display": "Tlj: 12h00 – 14h30",
       "detailed": "lundi: 12:00 – 14:30, 18:45 – 22:45\nmardi: 12:00 – 14:30, 18:45 – 22:45\nmercredi: 12:00 – 14:30, 18:45 – 22:45\njeudi: 12:00 – 14:30, 18:30 – 23:00\nvendredi: 12:00 – 14:30, 18:30 – 23:00\nsamedi: 12:00 – 15:30, 18:30 – 23:00\ndimanche: 12:00 – 15:30, 18:45 – 22:45",
       "is_open_now": true
-    },
-    "description": "Le premier grand succès de Big Mamma à Oberkampf. Le décor mélange trattoria traditionnelle et design moderne avec son immense bar en marbre et ses jambons suspendus au plafond. Les pizzas cuites au feu de bois sont légères et croustillantes, les pâtes servies dans des meules de parmesan... C'est la recette du succès : produits italiens sourcés, staff italien bruyant et sympa, prix accessibles et ambiance survoltée le soir.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Habitués d'Oberkampf, fans de spritz et grandes tablées."
-      }
     }
   },
   {
@@ -8697,6 +8365,7 @@
         ]
       },
       "price_range": 3,
+      "description": "Le restaurant qui a mis le 11ème arrondissement sur la carte mondiale de la gastronomie (il est classé dans le World's 50 Best). Bertrand Grébaut y propose une cuisine d'auteur moderne, épurée, végétale et locavore, dans un décor industriel brut (tables en bois, verrière atelier). C'est le fer de lance de la bistronomie. Obtenir une table relève de l'exploit sportif (réservations ouvertes 3 semaines à l'avance à 10h pétantes), mais l'expérience, décontractée et brillante, justifie tous les efforts.",
       "website": "http://www.septime-charonne.fr/",
       "google_maps_url": "https://maps.google.com/?cid=226032196792640665",
       "accessibility": true,
@@ -8708,7 +8377,8 @@
       "Le Style": "Décor Brut (Bois, Métal, Fleurs séchées) & Cuisine d'auteur",
       "Guerre Résa": "Résas ouvrent 3 semaines avant à 10h. Complet en 4 minutes.",
       "L'Assiette": "Produits sourcés à l'extrême, associations végétales folles",
-      "Le Vin": "Carte des vins nature encyclopédique"
+      "Le Vin": "Carte des vins nature encyclopédique",
+      "La faune": "Foodies internationaux, critiques gastronomiques et chanceux."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8730,12 +8400,6 @@
       "display": "Tlj: 12h15 – 14h00",
       "detailed": "lundi: 12:15 – 14:00, 19:30 – 23:00\nmardi: 12:15 – 14:00, 19:30 – 23:00\nmercredi: 12:15 – 14:00, 19:30 – 23:00\njeudi: 12:15 – 14:00, 19:30 – 23:00\nvendredi: 12:15 – 14:00, 19:30 – 23:00\nsamedi: Fermé\ndimanche: Fermé",
       "is_open_now": true
-    },
-    "description": "Le restaurant qui a mis le 11ème arrondissement sur la carte mondiale de la gastronomie (il est classé dans le World's 50 Best). Bertrand Grébaut y propose une cuisine d'auteur moderne, épurée, végétale et locavore, dans un décor industriel brut (tables en bois, verrière atelier). C'est le fer de lance de la bistronomie. Obtenir une table relève de l'exploit sportif (réservations ouvertes 3 semaines à l'avance à 10h pétantes), mais l'expérience, décontractée et brillante, justifie tous les efforts.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Foodies internationaux, critiques gastronomiques et chanceux."
-      }
     }
   },
   {
@@ -8820,6 +8484,7 @@
         ]
       },
       "price_range": 3,
+      "description": "Le petit frère marin de Septime, juste à côté, et la bonne nouvelle c'est qu'il est sans réservation ! On vient, on s'inscrit sur la liste, on va boire un verre et on revient déguster des assiettes de fruits de mer d'une fraîcheur absolue et assaisonnées avec génie (ceviche, crudo, maple syrup pie en dessert...). L'ambiance est celle d'une cabane de pêcheur stylée et bruyante. C'est l'un des meilleurs spots de Paris pour manger du poisson de manière décomplexée et moderne.",
       "website": "http://clamato-charonne.fr/",
       "phone": "01 43 72 74 53",
       "google_maps_url": "https://maps.google.com/?cid=14554041083665199659",
@@ -8832,7 +8497,8 @@
       "La Signature": "Le Ceviche de Mulet & La Tarte au Sirop d'Érable (Obligatoire)",
       "Sans Résa": "Pas de résa. Donnez votre nom, allez boire un verre à côté.",
       "L'Ambiance": "Cabane de pêcheur moderne & Vinyles",
-      "Partage": "Tout est à partager (Prenez 3-4 assiettes à deux)"
+      "Partage": "Tout est à partager (Prenez 3-4 assiettes à deux)",
+      "La faune": "Amateurs de fruits de mer, vins natures et dîners spontanés."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8854,12 +8520,6 @@
       "display": "Tlj: 12h00 – 14h30",
       "detailed": "lundi: 12:00 – 14:30, 19:00 – 22:30\nmardi: 12:00 – 14:30, 19:00 – 22:30\nmercredi: 12:00 – 14:30, 19:00 – 22:30\njeudi: 12:00 – 14:30, 19:00 – 22:30\nvendredi: 12:00 – 14:30, 19:00 – 22:30\nsamedi: 12:00 – 14:30, 19:00 – 22:30\ndimanche: 12:00 – 14:30, 19:00 – 22:30",
       "is_open_now": true
-    },
-    "description": "Le petit frère marin de Septime, juste à côté, et la bonne nouvelle c'est qu'il est sans réservation ! On vient, on s'inscrit sur la liste, on va boire un verre et on revient déguster des assiettes de fruits de mer d'une fraîcheur absolue et assaisonnées avec génie (ceviche, crudo, maple syrup pie en dessert...). L'ambiance est celle d'une cabane de pêcheur stylée et bruyante. C'est l'un des meilleurs spots de Paris pour manger du poisson de manière décomplexée et moderne.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs de fruits de mer, vins natures et dîners spontanés."
-      }
     }
   },
   {
@@ -8943,14 +8603,14 @@
           }
         ]
       },
+      "description": "Inspiré des bars d'écoute (kissa) japonais, Bambino est un lieu où la musique est aussi importante que l'assiette. Les murs sont tapissés de vinyles, le sound-system est vintage et hi-fi, et la playlist (jazz, funk, soul) est jouée intégralement sur platines. On y mange de petites assiettes à partager, on y boit du vin nature et on se laisse porter par le bon son qui monte au fil de la soirée.",
       "website": "http://www.bambinoparis.com/",
       "google_maps_url": "https://maps.google.com/?cid=13537161601735890259",
       "accessibility": true,
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 18h30 – 01h45",
       "Reservation required": false,
-      "Le Tip": "Vins natures et vinyles. Ambiance qui monte le soir.",
-      "L'Ambiance": "trendy, paris, festif"
+      "La faune": "Mélomanes gourmands, collectionneurs de vinyles et fêtards assis."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -8972,12 +8632,6 @@
       "display": "Tlj: 18h30 – 01h45",
       "detailed": "lundi: 18:30 – 01:45\nmardi: 18:30 – 01:45\nmercredi: 18:30 – 01:45\njeudi: 18:30 – 01:45\nvendredi: 18:30 – 01:45\nsamedi: 18:30 – 01:45\ndimanche: 18:30 – 01:45",
       "is_open_now": true
-    },
-    "description": "Inspiré des bars d'écoute (kissa) japonais, Bambino est un lieu où la musique est aussi importante que l'assiette. Les murs sont tapissés de vinyles, le sound-system est vintage et hi-fi, et la playlist (jazz, funk, soul) est jouée intégralement sur platines. On y mange de petites assiettes à partager, on y boit du vin nature et on se laisse porter par le bon son qui monte au fil de la soirée.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Mélomanes gourmands, collectionneurs de vinyles et fêtards assis."
-      }
     }
   },
   {
@@ -9062,6 +8716,7 @@
         ]
       },
       "price_range": 2,
+      "description": "C'est le chaos organisé le plus délicieux du Marais. Eyal Shani, chef star israélien, a importé ici l'ambiance des rues de Tel Aviv. La musique est forte, les légumes frais s'empilent dans des caisses partout (la star, c'est le chou-fleur rôti entier), et on vous appelle par votre prénom au mégaphone quand c'est prêt. Dans l'assiette (ou plutôt dans la pita moelleuse), c'est une explosion de saveurs : bœuf bourguignon, ratatouille, kebab d'agneau... C'est brut, vivant, gourmand et incroyablement convivial.",
       "website": "https://www.miznonparis.com/",
       "phone": "07 68 83 97 58",
       "google_maps_url": "https://maps.google.com/?cid=17059764992523001646",
@@ -9074,7 +8729,8 @@
       "Chef d'œuvre": "Le Chou-Fleur Rôti entier (Fondant comme du beurre)",
       "Le Sandwich": "Pita Bœuf Bourguignon (Le mélange Paris-Tel Aviv parfait)",
       "Générosité": "Thé à la menthe & Sauces offerts au comptoir",
-      "L'Ambiance": "Comme au marché Carmel de Tel Aviv"
+      "L'Ambiance": "Comme au marché Carmel de Tel Aviv",
+      "La faune": "Foule bruyante, fans de chou-fleur et ambianceurs."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9096,12 +8752,6 @@
       "display": "Tlj: 12h00 – 23h00",
       "detailed": "lundi: 12:00 – 23:00\nmardi: 12:00 – 23:00\nmercredi: 12:00 – 23:00\njeudi: 12:00 – 23:00\nvendredi: 12:00 – 16:00\nsamedi: Fermé\ndimanche: 12:00 – 23:00",
       "is_open_now": true
-    },
-    "description": "C'est le chaos organisé le plus délicieux du Marais. Eyal Shani, chef star israélien, a importé ici l'ambiance des rues de Tel Aviv. La musique est forte, les légumes frais s'empilent dans des caisses partout (la star, c'est le chou-fleur rôti entier), et on vous appelle par votre prénom au mégaphone quand c'est prêt. Dans l'assiette (ou plutôt dans la pita moelleuse), c'est une explosion de saveurs : bœuf bourguignon, ratatouille, kebab d'agneau... C'est brut, vivant, gourmand et incroyablement convivial.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Foule bruyante, fans de chou-fleur et ambianceurs."
-      }
     }
   },
   {
@@ -9186,6 +8836,7 @@
         ]
       },
       "price_range": 2,
+      "description": "Nommé d'après un célèbre navire fantôme, ce bar à huîtres et cocktails du Haut-Marais est tout sauf lugubre. Avec sa grande baie vitrée ouverte sur la rue et son bar central hexagonal, c'est un lieu lumineux et vivant. On y vient pour l'Happy Hour (huîtres à 1€ !), pour ses petits plats à partager d'inspiration asiatique et pour ses cocktails frais et équilibrés. C'est le spot d'angle parfait pour observer la faune du Marais, boire du vin nature et profiter d'une ambiance décontractée mais pointue, typique du quartier.",
       "website": "http://www.lemaryceleste.com/",
       "google_maps_url": "https://maps.google.com/?cid=872394065801039979",
       "accessibility": true,
@@ -9196,7 +8847,8 @@
       "Accord Parfait": "Huîtres fraîches & Cocktails pointus",
       "L'Agencement": "Bar central hexagonal (On voit tout le monde, super social)",
       "La Lumière": "Grandes baies vitrées d'angle (Ouvertes en été)",
-      "La Musique": "Hip Hop 90s (A Tribe Called Quest, De La Soul)"
+      "La Musique": "Hip Hop 90s (A Tribe Called Quest, De La Soul)",
+      "La faune": "Amateurs d'huîtres, buveurs de cocktails et habitués du quartier."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9218,12 +8870,6 @@
       "display": "Tlj: 12h30 – 01h00",
       "detailed": "lundi: 12:30 – 01:00\nmardi: 12:30 – 01:00\nmercredi: 12:30 – 01:00\njeudi: 12:30 – 02:00\nvendredi: 12:30 – 02:00\nsamedi: 12:00 – 02:00\ndimanche: 12:00 – 01:00",
       "is_open_now": true
-    },
-    "description": "Nommé d'après un célèbre navire fantôme, ce bar à huîtres et cocktails du Haut-Marais est tout sauf lugubre. Avec sa grande baie vitrée ouverte sur la rue et son bar central hexagonal, c'est un lieu lumineux et vivant. On y vient pour l'Happy Hour (huîtres à 1€ !), pour ses petits plats à partager d'inspiration asiatique et pour ses cocktails frais et équilibrés. C'est le spot d'angle parfait pour observer la faune du Marais, boire du vin nature et profiter d'une ambiance décontractée mais pointue, typique du quartier.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs d'huîtres, buveurs de cocktails et habitués du quartier."
-      }
     }
   },
   {
@@ -9298,6 +8944,7 @@
           }
         ]
       },
+      "description": "Le bar à manger le plus punk et le plus brillant du 10ème, petit frère du restaurant Vivant. Ici, pas de chaises, pas de résa, on mange debout accoudé au comptoir en marbre qui fait le tour de la cuisine ouverte. Les chefs envoient des petites assiettes explosives (ris de veau, couteaux à la plancha) à la minute, sous vos yeux. C'est bruyant, l'énergie est folle, le vin nature coule à flots. Une expérience culinaire 'in your face' inoubliable.",
       "website": "http://deviant.paris/",
       "phone": "01 40 00 21 24",
       "google_maps_url": "https://maps.google.com/?cid=9596080493349548867",
@@ -9310,7 +8957,8 @@
       "La Façade": "Portes pliantes totalement ouvertes sur la rue (L'intérieur est le trottoir)",
       "Le Miroir": "Plafond miroir qui donne une impression de foule immense",
       "La Carte": "Petites assiettes explosives (Cornichon frit !)",
-      "L'Ambiance": "Électrique, Bruyant, Joyeux"
+      "L'Ambiance": "Électrique, Bruyant, Joyeux",
+      "La faune": "Debout au comptoir, amateurs de petits plats et copains."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9332,12 +8980,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 18:00 – 02:00\nmercredi: 18:00 – 02:00\njeudi: 18:00 – 02:00\nvendredi: 18:00 – 02:00\nsamedi: 18:00 – 02:00\ndimanche: Fermé",
       "is_open_now": true
-    },
-    "description": "Le bar à manger le plus punk et le plus brillant du 10ème, petit frère du restaurant Vivant. Ici, pas de chaises, pas de résa, on mange debout accoudé au comptoir en marbre qui fait le tour de la cuisine ouverte. Les chefs envoient des petites assiettes explosives (ris de veau, couteaux à la plancha) à la minute, sous vos yeux. C'est bruyant, l'énergie est folle, le vin nature coule à flots. Une expérience culinaire 'in your face' inoubliable.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Debout au comptoir, amateurs de petits plats et copains."
-      }
     }
   },
   {
@@ -9417,6 +9059,7 @@
           }
         ]
       },
+      "description": "L'Hôtel Biron, où Rodin a vécu et travaillé, est sans doute l'un des plus beaux hôtels particuliers de Paris. Mais la magie opère surtout dans le jardin de sculptures de 3 hectares. Se promener au milieu des rosiers et découvrir le Penseur ou la Porte de l'Enfer en plein air, avec le dôme des Invalides en toile de fond, est un moment de grâce. L'intérieur du musée, baigné de lumière, présente les œuvres en plâtre, marbre et bronze dans leur cadre d'origine. Romantique à souhait.",
       "website": "https://www.musee-rodin.fr/",
       "phone": "01 44 18 61 10",
       "google_maps_url": "https://maps.google.com/?cid=7235270467978162264",
@@ -9429,7 +9072,8 @@
       "Icône": "Le Penseur trône au milieu des buis (Face aux Invalides)",
       "Le Prix": "Le billet 'Jardin' est bien moins cher et suffit pour le kiff",
       "Sunset": "Magique en fin de journée quand la pierre rosit",
-      "Le Cadre": "Hôtel Biron : Probablement la plus belle maison de Paris"
+      "Le Cadre": "Hôtel Biron : Probablement la plus belle maison de Paris",
+      "La faune": "Amoureux de sculpture, flâneurs du jardin et romantiques."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9451,12 +9095,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 10:00 – 18:30\nmercredi: 10:00 – 18:30\njeudi: 10:00 – 18:30\nvendredi: 10:00 – 18:30\nsamedi: 10:00 – 18:30\ndimanche: 10:00 – 18:30",
       "is_open_now": false
-    },
-    "description": "L'Hôtel Biron, où Rodin a vécu et travaillé, est sans doute l'un des plus beaux hôtels particuliers de Paris. Mais la magie opère surtout dans le jardin de sculptures de 3 hectares. Se promener au milieu des rosiers et découvrir le Penseur ou la Porte de l'Enfer en plein air, avec le dôme des Invalides en toile de fond, est un moment de grâce. L'intérieur du musée, baigné de lumière, présente les œuvres en plâtre, marbre et bronze dans leur cadre d'origine. Romantique à souhait.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amoureux de sculpture, flâneurs du jardin et romantiques."
-      }
     }
   },
   {
@@ -9531,6 +9169,7 @@
           }
         ]
       },
+      "description": "Dans un bâtiment de verre et d'acier signé Jean Nouvel boulevard Raspail, la Fondation Cartier est une bulle de transparence. Le jardin, conçu comme une friche sauvage par l'artiste Lothar Baumgarten, est une œuvre à part entière. Les expos y sont souvent grandioses et populaires (Ron Mueck, David Lynch, les Yanomami). C'est un lieu qui décloisonne l'art contemporain, le rendant accessible, beau et en lien direct avec la nature urbaine.",
       "website": "https://www.fondationcartier.com/",
       "phone": "01 70 65 47 00",
       "google_maps_url": "https://maps.google.com/?cid=2476377217128422746",
@@ -9543,7 +9182,8 @@
       "Jardin Sauvage": "Jardin sauvage 'Theatrum Botanicum' à l'arrière (Écosystème rare)",
       "Nocturne": "Les 'Soirées Nomades' (Jeudi) : Performances live & Bar dans le jardin",
       "La Lumière": "Transparence totale : On voit la rue depuis les salles d'expo",
-      "La Boutique": "Librairie d'art très pointue"
+      "La Boutique": "Librairie d'art très pointue",
+      "La faune": "Artistes contemporains, architectes et curieux de nature."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9565,12 +9205,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 11:00 – 22:00\nmercredi: 11:00 – 20:00\njeudi: 11:00 – 20:00\nvendredi: 11:00 – 20:00\nsamedi: 11:00 – 20:00\ndimanche: 11:00 – 20:00",
       "is_open_now": true
-    },
-    "description": "Dans un bâtiment de verre et d'acier signé Jean Nouvel boulevard Raspail, la Fondation Cartier est une bulle de transparence. Le jardin, conçu comme une friche sauvage par l'artiste Lothar Baumgarten, est une œuvre à part entière. Les expos y sont souvent grandioses et populaires (Ron Mueck, David Lynch, les Yanomami). C'est un lieu qui décloisonne l'art contemporain, le rendant accessible, beau et en lien direct avec la nature urbaine.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Artistes contemporains, architectes et curieux de nature."
-      }
     }
   },
   {
@@ -9645,6 +9279,7 @@
           }
         ]
       },
+      "description": "Situé au bout du jardin des Tuileries, ce musée est l'écrin sur-mesure d'un chef-d'œuvre absolu : les Nymphéas de Monet. Les deux salles ovales, baignées de lumière naturelle zénithale, ont été conçues par le peintre lui-même pour immerger le spectateur dans ses paysages d'eau. C'est une expérience méditative unique au monde. Le musée abrite aussi la collection Walter-Guillaume (Renoir, Cézanne, Matisse, Picasso...), une concentration de chefs-d'œuvre impressionnistes et modernes dans un format à taille humaine.",
       "website": "https://www.musee-orangerie.fr/fr",
       "phone": "01 44 50 43 00",
       "google_maps_url": "https://maps.google.com/?cid=15870632905802880522",
@@ -9657,7 +9292,8 @@
       "Zen": "Conçu par Monet pour être un 'havre de paix' (Parlez bas)",
       "La Verrière": "Lumière du jour zénithale (Les couleurs changent avec la météo)",
       "Location": "Au bout des Tuileries (Vue sur la Concorde)",
-      "Sous-sol": "Ne ratez pas la collection Walter-Guillaume au sous-sol (Renoir, Cézanne)"
+      "Sous-sol": "Ne ratez pas la collection Walter-Guillaume au sous-sol (Renoir, Cézanne)",
+      "La faune": "Admirateurs de Monet, touristes silencieux et rêveurs."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9679,12 +9315,6 @@
       "display": "Tlj: 09h00 – 18h00",
       "detailed": "lundi: 09:00 – 18:00\nmardi: Fermé\nmercredi: 09:00 – 18:00\njeudi: 09:00 – 18:00\nvendredi: 09:00 – 18:00\nsamedi: 09:00 – 18:00\ndimanche: 09:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "Situé au bout du jardin des Tuileries, ce musée est l'écrin sur-mesure d'un chef-d'œuvre absolu : les Nymphéas de Monet. Les deux salles ovales, baignées de lumière naturelle zénithale, ont été conçues par le peintre lui-même pour immerger le spectateur dans ses paysages d'eau. C'est une expérience méditative unique au monde. Le musée abrite aussi la collection Walter-Guillaume (Renoir, Cézanne, Matisse, Picasso...), une concentration de chefs-d'œuvre impressionnistes et modernes dans un format à taille humaine.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Admirateurs de Monet, touristes silencieux et rêveurs."
-      }
     }
   },
   {
@@ -9759,6 +9389,7 @@
           }
         ]
       },
+      "description": "Situé à l'entrée des Tuileries, face à l'Orangerie, ce bâtiment Second Empire est dédié à l'image contemporaine (photo, vidéo). Sa programmation est souvent engagée, politique et documentaire (Dorothea Lange, Gordon Matta-Clark). C'est un musée à taille humaine, lumineux, qui offre une pause culturelle intelligente avant d'aller marcher dans le jardin des Tuileries. La librairie est l'une des meilleures de Paris pour la photographie.",
       "website": "http://www.jeudepaume.org/",
       "phone": "01 47 03 12 50",
       "google_maps_url": "https://maps.google.com/?cid=2032875503726620657",
@@ -9770,8 +9401,9 @@
       "Focus": "Le Temple de l'Image (Photo, Vidéo, Cinéma)",
       "L'Histoire": "Ancienne salle de Jeu de Paume de Napoléon III",
       "La Vue": "La terrasse du café donne sur la Concorde & la Tour Eiffel",
+      "La Prog": "Rétrospectives majeures (Souvent très fréquentées)",
       "Librairie": "La meilleure librairie photo de Paris à l'entrée",
-      "La Prog": "Rétrospectives majeures (Souvent très fréquentées)"
+      "La faune": "Amateurs de photo, cinéphiles et critiques d'image."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9793,12 +9425,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 11:00 – 21:00\nmercredi: 11:00 – 19:00\njeudi: 11:00 – 19:00\nvendredi: 11:00 – 19:00\nsamedi: 11:00 – 19:00\ndimanche: 11:00 – 19:00",
       "is_open_now": true
-    },
-    "description": "Situé à l'entrée des Tuileries, face à l'Orangerie, ce bâtiment Second Empire est dédié à l'image contemporaine (photo, vidéo). Sa programmation est souvent engagée, politique et documentaire (Dorothea Lange, Gordon Matta-Clark). C'est un musée à taille humaine, lumineux, qui offre une pause culturelle intelligente avant d'aller marcher dans le jardin des Tuileries. La librairie est l'une des meilleures de Paris pour la photographie.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs de photo, cinéphiles et critiques d'image."
-      }
     }
   },
   {
@@ -9873,6 +9499,7 @@
           }
         ]
       },
+      "description": "La 'MEP' est le temple de la photo contemporaine à Paris. Située dans l'Hôtel Hénault de Cantobre (1706), elle offre un contraste saisissant entre ses murs classiques et sa programmation visuelle ultra-moderne et internationale. On y découvre les grands maîtres (Newton, Salgado) comme la jeune garde émergente. La bibliothèque est une mine d'or pour les passionnés. C'est un lieu élégant, calme et inspirant, idéalement situé pour commencer une tournée des galeries du Marais.",
       "website": "http://www.mep-fr.org/",
       "phone": "01 44 78 75 00",
       "google_maps_url": "https://maps.google.com/?cid=7057881710193422322",
@@ -9885,7 +9512,8 @@
       "Les Voûtes": "Les expos dans les caves voûtées en pierre sont mystiques",
       "Genre": "Photo contemporaine (Mode, Reportage, Art)",
       "Location": "En plein cœur du Marais chic (Saint-Paul)",
-      "Bibliothèque": "Bibliothèque Roméo Martinez (30k livres photo)"
+      "Bibliothèque": "Bibliothèque Roméo Martinez (30k livres photo)",
+      "La faune": "Photographes amateurs, instagramers pointus et visuels."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -9907,12 +9535,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 11:00 – 20:00\njeudi: 11:00 – 22:00\nvendredi: 11:00 – 20:00\nsamedi: 10:00 – 20:00\ndimanche: 10:00 – 20:00",
       "is_open_now": false
-    },
-    "description": "La 'MEP' est le temple de la photo contemporaine à Paris. Située dans l'Hôtel Hénault de Cantobre (1706), elle offre un contraste saisissant entre ses murs classiques et sa programmation visuelle ultra-moderne et internationale. On y découvre les grands maîtres (Newton, Salgado) comme la jeune garde émergente. La bibliothèque est une mine d'or pour les passionnés. C'est un lieu élégant, calme et inspirant, idéalement situé pour commencer une tournée des galeries du Marais.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Photographes amateurs, instagramers pointus et visuels."
-      }
     }
   },
   {
@@ -9987,6 +9609,7 @@
           }
         ]
       },
+      "description": "Installé dans l'Hôtel Salé, le plus grand et le plus extravagant des hôtels particuliers du Marais (construit par un collecteur de l'impôt sur le sel au XVIIe), le musée abrite la plus riche collection mondiale d'œuvres de Picasso. La rénovation a sublimé le dialogue entre l'architecture baroque (escalier d'honneur monumental) et la modernité radicale des œuvres. On y traverse toutes les périodes du maître, de ses débuts académiques au cubisme et au surréalisme. Le café sur le toit et le jardin sont des havres de paix appréciables après la visite.",
       "website": "https://www.museepicassoparis.fr/",
       "phone": "01 85 56 00 36",
       "google_maps_url": "https://maps.google.com/?cid=13948169879979585015",
@@ -9994,8 +9617,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours Non renseigné",
       "Reservation required": false,
-      "Le Tip": "Hôtel Salé magnifique. La collection d'œuvres est unique.",
-      "L'Ambiance": "trendy, paris, culturel"
+      "La faune": "Fans du maître, touristes du Marais et amateurs d'Hôtels Particuliers."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10017,12 +9639,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 09:30 – 18:00\nmercredi: 09:30 – 18:00\njeudi: 09:30 – 18:00\nvendredi: 09:30 – 18:00\nsamedi: 09:30 – 18:00\ndimanche: 09:30 – 18:00",
       "is_open_now": false
-    },
-    "description": "Installé dans l'Hôtel Salé, le plus grand et le plus extravagant des hôtels particuliers du Marais (construit par un collecteur de l'impôt sur le sel au XVIIe), le musée abrite la plus riche collection mondiale d'œuvres de Picasso. La rénovation a sublimé le dialogue entre l'architecture baroque (escalier d'honneur monumental) et la modernité radicale des œuvres. On y traverse toutes les périodes du maître, de ses débuts académiques au cubisme et au surréalisme. Le café sur le toit et le jardin sont des havres de paix appréciables après la visite.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Fans du maître, touristes du Marais et amateurs d'Hôtels Particuliers."
-      }
     }
   },
   {
@@ -10097,6 +9713,7 @@
           }
         ]
       },
+      "description": "Le nouveau phare de l'art contemporain à Paris. L'homme d'affaires François Pinault a installé sa collection dans l'ancienne Bourse de Commerce, restaurée et transformée par Tadao Ando avec un cylindre de béton minimaliste magistral au centre de la rotonde. La fresque de la coupole a été restaurée, le contraste ancien/moderne est saisissant. C'est un lieu d'art vivant, parfois déroutant (pigeons empaillés, cire qui fond), à l'architecture époustouflante.",
       "website": "https://www.pinaultcollection.com/fr/boursedecommerce",
       "phone": "01 55 04 60 60",
       "google_maps_url": "https://maps.google.com/?cid=11487203729441504906",
@@ -10109,7 +9726,8 @@
       "Waouh": "La Fresque panoramique du dôme (Commerce mondial XIXe) restaurée",
       "La Collection": "Collection Pinault (Art contemporain souvent provocateur)",
       "La Vue": "Coursive du dernier étage : Vue inédite sur les toits & les Halles",
-      "Mobilier": "Même les bancs (Bouroullec) sont des œuvres d'art"
+      "Mobilier": "Même les bancs (Bouroullec) sont des œuvres d'art",
+      "La faune": "Collectionneurs, fans de béton brut et art contemporain."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10131,12 +9749,6 @@
       "display": "Tlj: 11h00 – 19h00",
       "detailed": "lundi: 11:00 – 19:00\nmardi: Fermé\nmercredi: 11:00 – 19:00\njeudi: 11:00 – 19:00\nvendredi: 11:00 – 21:00\nsamedi: 11:00 – 19:00\ndimanche: 11:00 – 19:00",
       "is_open_now": false
-    },
-    "description": "Le nouveau phare de l'art contemporain à Paris. L'homme d'affaires François Pinault a installé sa collection dans l'ancienne Bourse de Commerce, restaurée et transformée par Tadao Ando avec un cylindre de béton minimaliste magistral au centre de la rotonde. La fresque de la coupole a été restaurée, le contraste ancien/moderne est saisissant. C'est un lieu d'art vivant, parfois déroutant (pigeons empaillés, cire qui fond), à l'architecture époustouflante.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Collectionneurs, fans de béton brut et art contemporain."
-      }
     }
   },
   {
@@ -10216,6 +9828,7 @@
           }
         ]
       },
+      "description": "Le Musée de l'Histoire de Paris, fraîchement rénové, est un voyage dans le temps à travers deux hôtels particuliers sublimes (Carnavalet et Le Peletier de Saint-Fargeau). On y découvre l'évolution de la ville, de la pirogue préhistorique à la chambre de Marcel Proust, en passant par des enseignes de magasins médiévales et des souvenirs de la Révolution. Les jardins intérieurs sont des bijoux de tranquillité. C'est le musée indispensable pour comprendre l'âme de Paris, et les collections permanentes sont gratuites !",
       "website": "https://www.carnavalet.paris.fr/",
       "phone": "01 44 59 58 58",
       "google_maps_url": "https://maps.google.com/?cid=14465961628970588353",
@@ -10228,7 +9841,8 @@
       "Les Chambres": "Chambre de Marcel Proust & Salon de Bijouterie Art Nouveau (Fou !)",
       "Le Prix": "Collections permanentes 100% GRATUITES",
       "Les Jardins": "Superbes jardins à la française intérieurs (Café caché l'été)",
-      "Signes": "La salle des Enseignes (Vieilles enseignes de boutiques parisiennes)"
+      "Signes": "La salle des Enseignes (Vieilles enseignes de boutiques parisiennes)",
+      "La faune": "Passionnés d'histoire de Paris, promeneurs et curieux."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10250,12 +9864,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 18:00\nsamedi: 10:00 – 18:00\ndimanche: 10:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "Le Musée de l'Histoire de Paris, fraîchement rénové, est un voyage dans le temps à travers deux hôtels particuliers sublimes (Carnavalet et Le Peletier de Saint-Fargeau). On y découvre l'évolution de la ville, de la pirogue préhistorique à la chambre de Marcel Proust, en passant par des enseignes de magasins médiévales et des souvenirs de la Révolution. Les jardins intérieurs sont des bijoux de tranquillité. C'est le musée indispensable pour comprendre l'âme de Paris, et les collections permanentes sont gratuites !",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Passionnés d'histoire de Paris, promeneurs et curieux."
-      }
     }
   },
   {
@@ -10333,12 +9941,13 @@
       "accessibility": true,
       "outdoor_seating": true,
       "Reservation required": false,
+      "La faune": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux.",
       "L'ambiance": "Futuriste, inclusive et architecturale.",
       "Le concept": "Salle de concert pointue, arts numériques et cultures post-Internet.",
+      "Le must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing.",
+      "Le secret": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
       "Le tip": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide.",
-      "Horaires": "Mar-Dim: 14h-20h",
-      "Le Tip": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
-      "Le Must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing."
+      "Horaires": "Mar-Dim: 14h-20h"
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10358,11 +9967,6 @@
     "opening_hours": {
       "standard": "14h00 - 20h00",
       "display": "Mar-Dim: 14h-20h"
-    },
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux."
-      }
     }
   },
   {
@@ -10442,6 +10046,7 @@
           }
         ]
       },
+      "description": "Au pied du Sacré-Cœur, dans une ancienne halle de marché style Baltard, se trouve ce musée dédié à l'art brut et à l'art singulier. C'est le musée des artistes marginaux, des fous et des visionnaires. L'ambiance y est unique, loin des musées classiques aseptisés. Le café sous la verrière, entouré de livres d'art et de gâteaux maison, est un lieu de détente génial après avoir grimpé les marches de Montmartre.",
       "website": "http://www.hallesaintpierre.org/",
       "phone": "01 42 58 72 89",
       "google_maps_url": "https://maps.google.com/?cid=15123156610957712672",
@@ -10449,8 +10054,7 @@
       "outdoor_seating": true,
       "Horaires": "Ouvert tous les jours 11h00 – 18h00",
       "Reservation required": false,
-      "Le Tip": "Art Brut et café librairie atypique au pied de Montmartre.",
-      "L'Ambiance": "trendy, paris, culturel"
+      "La faune": "Amateurs d'art brut, marginal et habitants de Montmartre."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10472,12 +10076,6 @@
       "display": "Tlj: 11h00 – 18h00",
       "detailed": "lundi: 11:00 – 18:00\nmardi: 11:00 – 18:00\nmercredi: 11:00 – 17:00\njeudi: 11:00 – 18:00\nvendredi: 11:00 – 18:00\nsamedi: 11:00 – 19:00\ndimanche: 12:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "Au pied du Sacré-Cœur, dans une ancienne halle de marché style Baltard, se trouve ce musée dédié à l'art brut et à l'art singulier. C'est le musée des artistes marginaux, des fous et des visionnaires. L'ambiance y est unique, loin des musées classiques aseptisés. Le café sous la verrière, entouré de livres d'art et de gâteaux maison, est un lieu de détente génial après avoir grimpé les marches de Montmartre.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs d'art brut, marginal et habitants de Montmartre."
-      }
     }
   },
   {
@@ -10548,6 +10146,7 @@
           }
         ]
       },
+      "description": "Sur le parvis de Beaubourg, ce petit bâtiment bas passe souvent inaperçu. C'est pourtant la reconstruction fidèle de l'atelier du sculpteur Constantin Brancusi. À travers les vitres, on voit ses œuvres (L'Oiseau dans l'espace, Le Baiser) disposées exactement comme il le voulait, dans une lumière zénithale blanche et pure. C'est un lieu de silence et de contemplation absolue au milieu de l'agitation du centre Pompidou. L'entrée est gratuite, un cadeau caché.",
       "website": "https://www.centrepompidou.fr/fr/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/constantin-brancusi/latelier-brancusi",
       "phone": "01 44 78 12 33",
       "google_maps_url": "https://maps.google.com/?cid=11731083643272140348",
@@ -10560,6 +10159,7 @@
       "Le Prix": "Gratuit (Situé sur le parvis de Beaubourg, à part)",
       "L'Ambiance": "Une bulle de sérénité absolue au milieu de la foule",
       "Time": "Se visite en 15-20 minutes, parfait pour une pause zen",
+      "La faune": "Silence religieux, amateurs de sculpture et minimalistes.",
       "Horaires": "Lun-Dim: 14h-18h"
     },
     "media": {
@@ -10580,12 +10180,6 @@
     "opening_hours": {
       "standard": "14h00 - 18h00",
       "display": "Lun-Dim: 14h-18h"
-    },
-    "description": "Sur le parvis de Beaubourg, ce petit bâtiment bas passe souvent inaperçu. C'est pourtant la reconstruction fidèle de l'atelier du sculpteur Constantin Brancusi. À travers les vitres, on voit ses œuvres (L'Oiseau dans l'espace, Le Baiser) disposées exactement comme il le voulait, dans une lumière zénithale blanche et pure. C'est un lieu de silence et de contemplation absolue au milieu de l'agitation du centre Pompidou. L'entrée est gratuite, un cadeau caché.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Silence religieux, amateurs de sculpture et minimalistes."
-      }
     }
   },
   {
@@ -10665,6 +10259,7 @@
           }
         ]
       },
+      "description": "L'atelier du sculpteur Antoine Bourdelle, élève de Rodin, a gardé tout son charme de la fin du XIXe siècle. Les salles immenses peuplées de colosses en plâtre donnent sur des jardins secrets au charme fou. La nouvelle extension en briques rouges s'intègre parfaitement. C'est un musée-atelier rare où l'on sent encore la présence physique de l'artiste, l'odeur de la terre et la poussière du plâtre. Un lieu habité et romantique à Montparnasse.",
       "website": "http://www.bourdelle.paris.fr/",
       "phone": "01 49 54 73 73",
       "google_maps_url": "https://maps.google.com/?cid=10032937997506221742",
@@ -10677,7 +10272,8 @@
       "La Chambre": "La Salle des Plâtres : Des géants blancs sous une verrière immense",
       "Les Jardins": "Sculptures cachées dans les jardins de briques rouges",
       "Le Secret": "Le Rhodia : Café à l'étage dans l'ancien appart de l'artiste",
-      "Location": "Montparnasse cachée (Impasse calme)"
+      "Location": "Montparnasse cachée (Impasse calme)",
+      "La faune": "Sculpteurs, dessinateurs et chercheurs de calme."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10699,12 +10295,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 18:00\nsamedi: 10:00 – 18:00\ndimanche: 10:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "L'atelier du sculpteur Antoine Bourdelle, élève de Rodin, a gardé tout son charme de la fin du XIXe siècle. Les salles immenses peuplées de colosses en plâtre donnent sur des jardins secrets au charme fou. La nouvelle extension en briques rouges s'intègre parfaitement. C'est un musée-atelier rare où l'on sent encore la présence physique de l'artiste, l'odeur de la terre et la poussière du plâtre. Un lieu habité et romantique à Montparnasse.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Sculpteurs, dessinateurs et chercheurs de calme."
-      }
     }
   },
   {
@@ -10784,6 +10374,7 @@
           }
         ]
       },
+      "description": "Construit pour l'Exposition Universelle de 1900 face au Grand Palais, le Petit Palais est un bijou d'architecture Beaux-Arts. Sa collection permanente (gratuite !) est riche, mais c'est son jardin intérieur qui est une merveille cachée : un péristyle en demi-cercle entourant un bassin et des palmiers, avec un café mosaïqué où l'on se croirait à Rome ou à Nice.",
       "website": "https://www.petitpalais.paris.fr/",
       "phone": "01 53 43 40 00",
       "google_maps_url": "https://maps.google.com/?cid=17579166182807848604",
@@ -10796,7 +10387,8 @@
       "Le Jardin": "Jardin intérieur tropical (Palmiers & Colonnades) - Un rêve",
       "Le Prix": "Gratuit (Collections permanentes)",
       "La Cantine": "Café dans le jardin (Très agréable aux beaux jours)",
-      "L'Art": "Art 1900, Impressionnistes & Icônes"
+      "L'Art": "Art 1900, Impressionnistes & Icônes",
+      "La faune": "Amateurs de Beaux-Arts, promeneurs du jardin et esthètes."
     },
     "media": {
       "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
@@ -10818,12 +10410,6 @@
       "display": "Tlj: Non renseigné",
       "detailed": "lundi: Fermé\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 20:00\nsamedi: 10:00 – 20:00\ndimanche: 10:00 – 18:00",
       "is_open_now": false
-    },
-    "description": "Construit pour l'Exposition Universelle de 1900 face au Grand Palais, le Petit Palais est un bijou d'architecture Beaux-Arts. Sa collection permanente (gratuite !) est riche, mais c'est son jardin intérieur qui est une merveille cachée : un péristyle en demi-cercle entourant un bassin et des palmiers, avec un café mosaïqué où l'on se croirait à Rome ou à Nice.",
-    "ai_insights": {
-      "social_vibe": {
-        "text": "Amateurs de Beaux-Arts, promeneurs du jardin et esthètes."
-      }
     }
   }
 ]

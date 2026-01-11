@@ -8,29 +8,50 @@ interface PlaceRealTalkProps {
     primaryColor: string;
 }
 
+// Keys to ignore (technical fields or already displayed elsewhere)
+const IGNORED_KEYS = [
+    'price_info', 'price_range', 'description',
+    'website', 'phone', 'instagram', 'facebook', 'email',
+    'google_maps_url', 'reservation_required',
+    'accessibility', 'outdoor_seating', 'happy_hour',
+    'vibe', 'Vibe', 'Horaires', 'opening_hours', 'address',
+    // Also ignore empty or very short values
+];
+
+const getIconName = (key: string): keyof typeof Ionicons.glyphMap => {
+    const k = key.toLowerCase();
+    if (k.includes('faune') || k.includes('crowd') || k.includes('ambiance') || k.includes('monde')) return 'people';
+    if (k.includes('secret') || k.includes('caché') || k.includes('insolite')) return 'key';
+    if (k.includes('must') || k.includes('plat') || k.includes('boire') || k.includes('manger') || k.includes('signature')) return 'star';
+    if (k.includes('tip') || k.includes('astuce') || k.includes('conseil') || k.includes('bon plan')) return 'bulb';
+    if (k.includes('son') || k.includes('playlist') || k.includes('musique') || k.includes('dj')) return 'musical-notes';
+    if (k.includes('décor') || k.includes('vue') || k.includes('architecture') || k.includes('design') || k.includes('waouh')) return 'eye';
+    if (k.includes('amour') || k.includes('date') || k.includes('romant') || k.includes('sexy')) return 'heart';
+    if (k.includes('café') || k.includes('productiv') || k.includes('wifi')) return 'cafe';
+    if (k.includes('concept')) return 'flash';
+    return 'information-circle';
+};
+
 export const PlaceRealTalk = ({ place, primaryColor }: PlaceRealTalkProps) => {
-    // Helper to safely get data
-    const getInfo = (key: string): string | null => {
-        const info = (place.practical_info as any)?.[key];
-        if (info) return info;
+    if (!place.practical_info) return null;
 
+    // Filter relevant entries
+    const entries = Object.entries(place.practical_info)
+        .filter(([key, value]) => !IGNORED_KEYS.includes(key) && typeof value === 'string' && value.length > 2);
 
-        return null;
-    };
-
-    const crowd = getInfo("La faune");
-
-    if (!crowd) return null;
+    if (entries.length === 0) return null;
 
     return (
         <View style={styles.container}>
-            <View style={[styles.card, { backgroundColor: primaryColor + '08' }]}>
-                <View style={styles.headerRow}>
-                    <Ionicons name="people" size={18} color={primaryColor} style={{ marginRight: 8 }} />
-                    <Text style={[styles.label, { color: primaryColor }]}>LA FAUNE</Text>
+            {entries.map(([key, value]) => (
+                <View key={key} style={[styles.card, { backgroundColor: primaryColor + '08', marginBottom: 12 }]}>
+                    <View style={styles.headerRow}>
+                        <Ionicons name={getIconName(key)} size={18} color={primaryColor} style={{ marginRight: 8 }} />
+                        <Text style={[styles.label, { color: primaryColor }]}>{key.toUpperCase()}</Text>
+                    </View>
+                    <Text style={styles.value}>{value as string}</Text>
                 </View>
-                <Text style={styles.value}>{crowd}</Text>
-            </View>
+            ))}
         </View>
     );
 };
@@ -47,7 +68,7 @@ const styles = StyleSheet.create({
     headerRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginBottom: 4,
+        marginBottom: 6,
     },
     label: {
         fontSize: 11,
