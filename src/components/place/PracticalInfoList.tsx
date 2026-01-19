@@ -156,8 +156,9 @@ export const PracticalInfoList = ({ place, primaryColor }: PracticalInfoListProp
                         'horaires', 'opening_hours', 'la faune', 'crowd'
                     ];
 
-                    const isCultural = ['museum', 'espace-culturel', 'monument', 'gallery', 'patrimoine'].includes(place.category);
-                    const isNightlife = ['bar', 'club', 'speakeasy', 'pub'].includes(place.category);
+                    const cats = place.categories || [place.category];
+                    const isCultural = cats.some(c => ['museum', 'espace-culturel', 'monument', 'gallery', 'patrimoine'].includes(c));
+                    const isNightlife = cats.some(c => ['bar', 'club', 'speakeasy', 'pub'].includes(c));
                     const practicalInfo = place.practical_info as any;
 
                     const websiteUrl = (practicalInfo['website'] || practicalInfo['url'] || practicalInfo['booking_url'] || practicalInfo['source_url']) as string;

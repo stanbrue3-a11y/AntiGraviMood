@@ -44,6 +44,10 @@ export default function DiscoverScreen() {
     const timeRange = usePlacesStore(state => state.timeRange);
     const setTimeRange = usePlacesStore(state => state.setTimeRange);
 
+    // Pince Filter
+    const isPinceEnabled = usePlacesStore(state => state.isPinceEnabled);
+    const pinceMaxPercent = usePlacesStore(state => state.pinceMaxPercent);
+
     // UI State
     const [filterVisible, setFilterVisible] = useState(false);
     const [isSearchActive, setIsSearchActive] = useState(false);
@@ -86,9 +90,17 @@ export default function DiscoverScreen() {
                 }
             }
 
+            // Filter by Pince (sociology_factor)
+            if (isPinceEnabled && pinceMaxPercent !== null) {
+                const sociologyFactor = place.practical_info?.price_info?.sociology_factor ?? 0;
+                if (sociologyFactor > pinceMaxPercent) {
+                    return false;
+                }
+            }
+
             return true;
         });
-    }, [places, selectedMoods, selectedCategories, searchQuery, getDominantMood]);
+    }, [places, selectedMoods, selectedCategories, searchQuery, getDominantMood, isPinceEnabled, pinceMaxPercent]);
 
     const handleCardPress = (place: Place) => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -139,6 +151,7 @@ export default function DiscoverScreen() {
                                 numColumns={2}
                                 // @ts-ignore - Masonry mode
                                 masonry={true}
+                                // @ts-ignore - FlashList type issues
                                 estimatedItemSize={200}
                                 showsVerticalScrollIndicator={false}
                                 contentContainerStyle={{ paddingBottom: 120, paddingTop: 0 }}

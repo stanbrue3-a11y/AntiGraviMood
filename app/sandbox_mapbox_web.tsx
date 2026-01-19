@@ -7,7 +7,7 @@ import { Stack } from 'expo-router';
 
 export default function MatrixMapboxWeb() {
     const webViewRef = useRef<WebView>(null);
-    const { getFilteredPlaces } = usePlacesStore();
+    const { getFilteredPlaces, getDominantMood } = usePlacesStore();
     const places = getFilteredPlaces();
 
     // Prepare initial data
@@ -16,7 +16,7 @@ export default function MatrixMapboxWeb() {
         lat: p.location.coordinates.lat,
         lng: p.location.coordinates.lng,
         category: p.category,
-        mood: p.moods?.[0] || 'chill'
+        mood: getDominantMood(p)
     }));
 
     const htmlContent = generateMapboxHtml(JSON.stringify(simplePlaces));

@@ -13,7 +13,7 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { usePlacesStore } from '../../src/stores/usePlacesStore';
 import { getPlaceImages } from '../../src/lib/placeUtils';
-import { PriceGauge } from '../../src/components/common/PriceGauge';
+import { InteractivePriceGauge } from '../../src/components/common/InteractivePriceGauge';
 
 // Helper (Dupliqué pour l'instant, à factoriser)
 const getDominantMood = (place: any): 'chill' | 'festif' | 'culturel' => {
@@ -84,6 +84,7 @@ export default function PlaceDetailScreen() {
 
                     {/* HERO IMAGE with Shared Transition */}
                     <View style={styles.heroContainer}>
+                        {/* @ts-ignore: Reanimated prop */}
                         <Animated.View sharedTransitionTag={`image-container-${place.id}`} style={styles.heroImageWrapper}>
                             <Image
                                 source={{ uri: images[0] }}
@@ -121,9 +122,42 @@ export default function PlaceDetailScreen() {
                                 <Text style={[styles.moodText, { color: accentColor }]}>{dominantMood.toUpperCase()}</Text>
                             </View>
                             <View style={styles.dividerVertical} />
-                            <PriceGauge level={place.practical_info?.price_range as any || 2} size="md" activeColor={accentColor} />
-                            <View style={styles.dividerVertical} />
                             <Text style={[styles.metaText, { color: accentColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
+                        </View>
+
+                        {/* PRICE GAUGE - Surgical Implementation */}
+                        <View style={{ marginBottom: 24 }}>
+                            <InteractivePriceGauge
+                                pricing={place.pricing}
+                                arrondissement={place.location.arrondissement}
+                                placeType={(() => {
+                                    const cat = (place.category || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                                    if (cat.includes('bouillon')) return 'bouillon';
+                                    if (cat.includes('bar-a-vin')) return 'bar-a-vin';
+                                    if (cat.includes('cocktail-bar')) return 'cocktail-bar';
+                                    if (cat.includes('techno-club')) return 'techno-club';
+                                    if (['coffee-shop', 'cafe', 'tea-room', 'bakery'].includes(cat)) return 'cafe';
+                                    if (['bar', 'pub', 'biergarten'].includes(cat)) return 'bar';
+                                    if (['club'].includes(cat)) return 'club';
+                                    if (['hotel'].includes(cat)) return 'hotel';
+                                    if (['museum', 'art-gallery', 'cultural-center', 'theatre', 'monument', 'espace-culturel'].includes(cat)) return 'culture';
+                                    if (['park', 'garden', 'walk'].includes(cat)) return 'park';
+                                    return 'restaurant';
+                                })()}
+                                categories={place.practical_info?.price_info?.items ? place.practical_info.price_info.items.map(cat => ({
+                                    icon: cat.category.includes('BOISSON') ? 'wine-outline' :
+                                        cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
+                                            cat.category.includes('PLAT') ? 'flame-outline' :
+                                                cat.category.includes('DESSERT') ? 'ice-cream-outline' : 'star-outline',
+                                    title: cat.category,
+                                    items: cat.items.map(item => ({
+                                        name: item.name,
+                                        price: item.price
+                                    }))
+                                })) : []}
+                                activeColor={accentColor}
+                                smartTip={place.practical_info?.price_info?.smart_tip}
+                            />
                         </View>
 
                         <Text style={styles.description}>

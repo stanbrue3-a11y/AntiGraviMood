@@ -41,7 +41,9 @@ export const ImageCarousel = ({ images, height = 340 }: ImageCarouselProps) => {
                 bounces={false}
                 // Gesture configuration to prevent BottomSheet from stealing touch
                 // This is critical for horizontal scroll inside BottomSheet
+                // @ts-ignore - Props exist on GH FlatList but types are conflicting
                 activeOffsetX={[-10, 10]}
+                // @ts-ignore
                 failOffsetY={[-5, 5]}
             />
             <View style={styles.paginationContainer}>

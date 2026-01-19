@@ -3,6 +3,7 @@ import { Moment } from '../stores/useMomentsStore';
 export const GLOBAL_MOMENTS: Moment[] = [
     {
         id: '1',
+        type: 'image',
         placeId: 'poi-001', // Le Comptoir Général
         placeName: 'Le Comptoir Général',
         user: { name: 'Sarah', avatar: '👩‍🎨' },
@@ -16,6 +17,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
     },
     {
         id: '1b',
+        type: 'image',
         placeId: 'poi-005', // Ground Control
         placeName: 'Ground Control',
         user: { name: 'Lucas', avatar: '🍕' },
@@ -29,6 +31,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
     },
     {
         id: '2',
+        type: 'image',
         placeId: 'poi-003', // Le Mazette
         placeName: 'Le Mazette',
         user: { name: 'Thomas', avatar: '🎧' },
@@ -42,6 +45,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
     },
     {
         id: '3',
+        type: 'image',
         placeId: 'poi-006', // Café de Flore
         placeName: 'Café de Flore',
         user: { name: 'Emma', avatar: '📚' },
@@ -55,6 +59,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
     },
     {
         id: '4',
+        type: 'image',
         placeId: 'poi-004', // Le Perchoir Marais
         placeName: 'Le Perchoir',
         user: { name: 'Jules', avatar: '🍹' },
@@ -71,6 +76,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
 export const FRIENDS_MOMENTS: Moment[] = [
     {
         id: 'f1',
+        type: 'image',
         placeId: 'poi-006', // Café de Flore
         placeName: 'Café de Flore',
         user: { name: 'Marie', avatar: '☕' },
@@ -84,6 +90,7 @@ export const FRIENDS_MOMENTS: Moment[] = [
     },
     {
         id: 'f2',
+        type: 'image',
         placeId: 'poi-008', // Wanderlust
         placeName: 'Wanderlust',
         user: { name: 'Pierre', avatar: '🎵' },

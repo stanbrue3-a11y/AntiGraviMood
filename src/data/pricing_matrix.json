@@ -1,0 +1,160 @@
+{
+    "definitions": {
+        "standing_levels": {
+            "0": "Populaire",
+            "1": "Casual",
+            "2": "Hype",
+            "3": "Premium",
+            "4": "Luxe"
+        },
+        "score_labels": {
+            "90": "PINCE-M'EN UNE !",
+            "70": "SUPER PINCE",
+            "40": "STANDARD",
+            "20": "AÏE ÇA PINCE",
+            "0": "ÇA PINCE SÉVÈRE"
+        }
+    },
+    "matrix": {
+        "bar": {
+            "unit": "Verre / Pinte",
+            "fair_prices": [
+                5,
+                8,
+                10,
+                14,
+                20
+            ]
+        },
+        "bar-a-vin": {
+            "unit": "Verre de vin",
+            "fair_prices": [
+                6,
+                8,
+                11,
+                15,
+                20
+            ]
+        },
+        "cocktail-bar": {
+            "unit": "Cocktail",
+            "fair_prices": [
+                9,
+                12,
+                15,
+                20,
+                25
+            ]
+        },
+        "speakeasy": {
+            "unit": "Cocktail",
+            "fair_prices": [
+                11,
+                14,
+                17,
+                22,
+                28
+            ]
+        },
+        "cafe": {
+            "unit": "Café / Boisson",
+            "fair_prices": [
+                3,
+                5,
+                7,
+                10,
+                15
+            ]
+        },
+        "coffee-shop": {
+            "unit": "Café spécialité",
+            "fair_prices": [
+                4,
+                6,
+                7,
+                9,
+                12
+            ]
+        },
+        "restaurant": {
+            "unit": "Plat Principal",
+            "fair_prices": [
+                12,
+                18,
+                26,
+                40,
+                60
+            ]
+        },
+        "bistrot": {
+            "unit": "Plat / Ticket moyen",
+            "fair_prices": [
+                13,
+                19,
+                25,
+                35,
+                50
+            ]
+        },
+        "bouillon": {
+            "unit": "Repas complet",
+            "fair_prices": [
+                15,
+                18,
+                22,
+                28,
+                35
+            ]
+        },
+        "street-food": {
+            "unit": "Formule / Sandwich",
+            "fair_prices": [
+                9,
+                13,
+                16,
+                20,
+                30
+            ]
+        },
+        "club": {
+            "unit": "Entrée",
+            "fair_prices": [
+                5,
+                12,
+                18,
+                25,
+                40
+            ]
+        },
+        "techno-club": {
+            "unit": "Entrée",
+            "fair_prices": [
+                8,
+                14,
+                18,
+                25,
+                40
+            ]
+        },
+        "museum": {
+            "unit": "Entrée Plein tarif",
+            "fair_prices": [
+                5,
+                12,
+                14,
+                18,
+                25
+            ]
+        },
+        "park": {
+            "unit": "Accès",
+            "fair_prices": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    }
+}

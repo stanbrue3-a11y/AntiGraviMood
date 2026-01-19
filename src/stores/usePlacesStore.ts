@@ -10,14 +10,15 @@ import Constants from 'expo-constants';
 // Force Data Refresh Timestamp: 2026-01-10T20:00
 // Consolidated Data Source (Enriched) (Fresh Copy)
 import placesData from '../data/pois_flattened.json';
+import { isTimeInRange } from '../lib/timeUtils';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // TEMPORARY: Force clear store once to fix persistent data issue
-AsyncStorage.getItem('moodmap-places-fix-v46').then(val => {
+AsyncStorage.getItem('moodmap-places-fix-v51').then(val => {
     if (!val) {
         AsyncStorage.removeItem('moodmap-places-storage');
-        AsyncStorage.setItem('moodmap-places-fix-v46', 'done');
-        console.log('[DEBUG] Storage cleared for v46 refresh');
+        AsyncStorage.setItem('moodmap-places-fix-v51', 'done');
+        console.log('[DEBUG] Storage cleared for v51 refresh');
     }
 });
 
@@ -28,10 +29,10 @@ export type MoodType = 'chill' | 'festif' | 'culturel';
 export type SheetMode = 'map' | 'explore' | 'feed';
 
 // Catégories disponibles
-export const STORE_VERSION = 'v46'; // Forced refresh for Practical Info
+// Forced refresh for Surgical Verification
+export const STORE_VERSION = 'v53';
 export const PLACE_CATEGORIES = [
     { key: 'museum', label: 'Musée', emoji: '🏛️' },
-    { key: 'workshop', label: 'Atelier', emoji: '🧶' },
     { key: 'exhibition', label: 'Expo', emoji: '🖼️' },
     { key: 'restaurant', label: 'Restaurant', emoji: '🍽️' },
     { key: 'bar', label: 'Bar', emoji: '🍸' },
@@ -56,10 +57,20 @@ interface PlacesState {
     selectedMoods: MoodType[];
     selectedCategories: string[];
     selectedPrice: number | null;
+    pinceMaxPercent: number | null; // Max % vs average for Pince filter
+    isPinceEnabled: boolean; // Whether Pince filter is active
     selectedDistricts: number[];
     timeRange: { start: number; end: number } | null;
     filterOpenNow: boolean; // New: Open Now filter
+    filterHappyHour: boolean; // Power-Up: Happy Hour
+    filterTerrace: boolean; // Power-Up: Terrace
     searchQuery: string;
+
+    // Triple Anchor Limits
+    pintLimit: number | null;
+    dishLimit: number | null;
+    coffeeLimit: number | null;
+
 
     // Selection
     selectedPlaceId: string | null;
@@ -74,12 +85,22 @@ interface PlacesState {
     // Actions
     setPlaces: (places: Place[]) => void;
     toggleMood: (mood: MoodType) => void;
+    setSelectedMoods: (moods: MoodType[]) => void;
     toggleCategory: (category: string) => void;
     setSelectedCategories: (categories: string[]) => void;
     setSelectedPrice: (price: number | null) => void;
+    setPinceMaxPercent: (percent: number | null) => void;
+    setIsPinceEnabled: (enabled: boolean) => void;
     setSelectedDistricts: (districts: number[]) => void;
     setTimeRange: (range: { start: number; end: number } | null) => void;
-    setFilterOpenNow: (enabled: boolean) => void; // New
+    setTimeRange: (range: { start: number; end: number } | null) => void;
+    setFilterOpenNow: (enabled: boolean) => void;
+    setFilterHappyHour: (enabled: boolean) => void;
+    setFilterTerrace: (enabled: boolean) => void;
+    setPintLimit: (limit: number | null) => void;
+    setDishLimit: (limit: number | null) => void;
+    setCoffeeLimit: (limit: number | null) => void;
+
     clearFilters: () => void;
 
     setSearchQuery: (query: string) => void;
@@ -89,6 +110,7 @@ interface PlacesState {
     // Navigation actions
     startNavigation: (origin: { lat: number; lng: number }, destination: { lat: number; lng: number }) => void;
     stopNavigation: () => void;
+    warmUpPrices: () => void; // Optimization for slider interactions
 
     // Simulation
     simulateLoading: () => Promise<void>;
@@ -135,86 +157,163 @@ export const isOpenDuring = (place: Place, range: { start: number; end: number }
     return Math.max(uStart, pStart) < Math.min(uEnd, pEnd);
 };
 
+
+// Helper to get current price for a specific anchor
+export const getCurrentPrice = (place: Place, type: 'pint' | 'dish' | 'coffee'): number | undefined => {
+    const p = place.pricing;
+    if (!p) return undefined;
+
+    // Use pre-calculated values if available (Surgical optimization)
+    // @ts-ignore - internal cache injected during load/sync
+    if (place._currentPrices) {
+        // @ts-ignore
+        return place._currentPrices[type];
+    }
+
+    const isHH = p.hh_time ? isTimeInRange(p.hh_time) : false;
+
+    if (type === 'pint') return (isHH && p.pint_hh) ? p.pint_hh : p.pint_price;
+    if (type === 'dish') return (isHH && p.dish_hh) ? p.dish_hh : p.main_dish_price;
+    if (type === 'coffee') return (isHH && p.coffee_hh) ? p.coffee_hh : p.coffee_price;
+
+    return undefined;
+};
+
+/** Provides raw price distributions for histograms */
+export const getPriceDistributions = (places: Place[]) => {
+    const pints: number[] = [];
+    const dishes: number[] = [];
+    const coffees: number[] = [];
+
+    places.forEach(p => {
+        const pr = p.pricing;
+        if (!pr) return;
+        if (pr.pint_price) pints.push(pr.pint_price);
+        if (pr.main_dish_price) dishes.push(pr.main_dish_price);
+        if (pr.coffee_price) coffees.push(pr.coffee_price);
+    });
+
+    return { pints, dishes, coffees };
+};
+
 // Selector pour les performances (à utiliser avec usePlacesStore(useShallow(selectFilteredPlaces)))
 export const selectFilteredPlaces = (state: PlacesState) => {
-    const { places, selectedMoods, selectedCategories, selectedPrice, selectedDistricts, timeRange, filterOpenNow, searchQuery } = state;
+    const {
+        places,
+        selectedMoods,
+        selectedCategories,
+        selectedPrice,
+        pinceMaxPercent,
+        isPinceEnabled,
+        selectedDistricts,
+        timeRange,
+        filterOpenNow,
+        filterHappyHour,
+        filterTerrace,
+        searchQuery,
+        pintLimit,
+        dishLimit,
+        coffeeLimit
+    } = state;
 
+    // Early return for empty search
+    if (selectedCategories.length === 0) return [];
 
     return places.filter((place) => {
-        // Filtre par mood
-        if (selectedMoods && selectedMoods.length > 0) {
-            const dominantMood = state.getDominantMood(place);
-            if (!selectedMoods.includes(dominantMood)) {
-                return false;
-            }
+        // 0. SEARCH OVERRIDE (Top Priority) 🔍
+        // If a search is active, it OVERRIDES all other filters.
+        // User Intent: "I am looking for THIS, don't hide it."
+        if (searchQuery) {
+            const q = searchQuery.toLowerCase();
+            const matches = place.name.toLowerCase().includes(q) ||
+                place.vibes.some(v => v.toLowerCase().includes(q)) ||
+                (place.category || '').toLowerCase().includes(q);
+
+            // If it doesn't match the search, it's gone.
+            // If it matches, we KEEP it (ignoring budget/mood/category).
+            return matches;
         }
 
-        // Filtre par catégorie
-        if (selectedCategories && selectedCategories.length > 0) {
-            if (!selectedCategories.includes(place.category)) {
-                return false;
-            }
+        // 1. Category Filter (Checked means Include) - FASTEST CHECK FIRST
+        const hasMatch = selectedCategories.includes(place.category) ||
+            (place.categories && place.categories.some(c => selectedCategories.includes(c)));
+        if (!hasMatch) return false;
+
+        // 2. Mood Filter
+        if (selectedMoods.length > 0) {
+            const dominantMood = state.getDominantMood(place);
+            if (!selectedMoods.includes(dominantMood)) return false;
+        }
+
+        // 3. UNIVERSAL PRICE SHIELDING (Applied to any venue with the data point) 🛡️
+        if (pintLimit !== null) {
+            const price = getCurrentPrice(place, 'pint');
+            if (price !== undefined && price > pintLimit) return false;
+            // Strict mode: Hide bars that are missing price data to avoid "dead" filters
+            if (price === undefined && (place.category === 'bar' || (place.categories && place.categories.includes('bar')))) return false;
+        }
+
+        if (dishLimit !== null) {
+            const price = getCurrentPrice(place, 'dish');
+            if (price !== undefined && price > dishLimit) return false;
+            // Strict mode: Hide restaurants/food-spots missing price data
+            if (price === undefined && (place.category === 'restaurant' || (place.categories && place.categories.includes('restaurant')))) return false;
+        }
+
+        if (coffeeLimit !== null) {
+            const price = getCurrentPrice(place, 'coffee');
+            if (price !== undefined && price > coffeeLimit) return false;
+            // Strict mode: Hide cafes/coffee-shops missing price data
+            if (price === undefined && (place.category === 'café' || (place.categories && place.categories.includes('café')))) return false;
+        }
+
+        // 4. District Filter
+        if (selectedDistricts.length > 0) {
+            if (!selectedDistricts.includes(place.location.arrondissement)) return false;
+        }
+
+        // 4.5 POWER-UPS ⚡️
+        if (filterHappyHour) {
+            const hasHH = !!place.happy_hour || (place.practical_info && !!place.practical_info.happy_hour);
+            if (!hasHH) return false;
+        }
+
+        if (filterTerrace) {
+            // Check 'terrace' in practical_info.terrace (boolean or string) or vibes or top-level boolean if exists?
+            // Schema check: usually inside practical_info or vibes.
+            // Let's check implicit "Terrasse" vibe or explicit field.
+            // Assuming place.practical_info.terrace is the source of truth based on schema usually.
+            const hasTerrace = (place.practical_info && place.practical_info.terrasse) || place.vibes.includes('Terrasse');
+            if (!hasTerrace) return false;
+        }
+
+        // 5. UNIFIED PRICE & PINCE FILTER
+        if (isPinceEnabled) {
+            const limit = pinceMaxPercent !== null ? pinceMaxPercent : 60;
+            if ((place.pricing?.category_percentile ?? 50) > limit) return false;
         }
 
         if (selectedPrice !== null) {
-            const placePrice = place.practical_info.price_range || 2;
-            if (placePrice > selectedPrice) {
-                return false;
-            }
+            if ((place.pricing?.budget_avg ?? 0) > selectedPrice) return false;
         }
 
-        // Filtre par arrondissement (Secteur)
-        if (selectedDistricts && selectedDistricts.length > 0) {
-            if (!selectedDistricts.includes(place.location.arrondissement)) {
-                return false;
-            }
-        }
-
-        // Filtre Open Now (Dynamique)
+        // 6. Time Filter
         if (filterOpenNow) {
-            // Re-use logic or inline simplified
-            if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
-                // Keep default behavior: show if unknown? Or hide? 
-                // Usually "Open Now" implies strict checking. Let's hide if unknown to be safe, or show if we want to be permissive.
-                // Given "Non renseigné", let's assume valid data needed. But to avoid empty map, let's keep it visible or check user pref.
-                // User said "filtres vraiment".
-                // Let's rely on loose check: if unknown, maybe keep it.
-            } else {
-                const now = new Date();
-                const currentHour = now.getHours();
-                // logic:
-                const parts = place.opening_hours.standard.includes('–') ? place.opening_hours.standard.split('–') : place.opening_hours.standard.split('-');
+            // Simplified "Open Now" for performance
+            const now = new Date();
+            const hour = now.getHours();
+            const std = place.opening_hours?.standard;
+            if (std && std !== 'Non renseigné') {
+                const parts = std.split(/[-–]/);
                 if (parts.length === 2) {
-                    const [sStr, eStr] = parts;
-                    const startH = parseInt(sStr, 10);
-                    const endH = parseInt(eStr, 10);
-                    let isOpen = false;
-                    if (endH < startH) { // Crosses midnight
-                        isOpen = currentHour >= startH || currentHour < endH;
-                    } else {
-                        isOpen = currentHour >= startH && currentHour < endH;
-                    }
+                    const s = parseInt(parts[0], 10);
+                    const e = parseInt(parts[1], 10);
+                    const isOpen = e < s ? (hour >= s || hour < e) : (hour >= s && hour < e);
                     if (!isOpen) return false;
                 }
             }
-        }
-
-        // Filtre Horaire (Range)
-        if (timeRange && !filterOpenNow) { // If OpenNow is active, it overrides TimeRange usually, or we can have both. User UI disables TimeRange when OpenNow is on.
-            if (!isOpenDuring(place, timeRange)) {
-                return false;
-            }
-        }
-
-        // Filtre par recherche
-        if (searchQuery) {
-            const query = searchQuery.toLowerCase();
-            const matchesName = place.name.toLowerCase().includes(query);
-            const matchesVibes = place.vibes.some((v) => v.toLowerCase().includes(query));
-            const matchesCategory = place.category.toLowerCase().includes(query);
-            if (!matchesName && !matchesVibes && !matchesCategory) {
-                return false;
-            }
+        } else if (timeRange) {
+            if (!isOpenDuring(place, timeRange)) return false;
         }
 
         return true;
@@ -230,12 +329,20 @@ export const usePlacesStore = create<PlacesState>()(
             isLoading: false,
             error: null,
             selectedMoods: [],
-            selectedCategories: [],
+            selectedCategories: PLACE_CATEGORIES.map(c => c.key),
             selectedPrice: null,
+            pinceMaxPercent: null,
+            isPinceEnabled: false,
             selectedDistricts: [],
             timeRange: null,
-            filterOpenNow: false, // Initial
+            filterOpenNow: false,
+            filterHappyHour: false,
+            filterTerrace: false,
             searchQuery: '',
+            pintLimit: null,
+            dishLimit: null,
+            coffeeLimit: null,
+
 
             selectedPlaceId: null,
             sheetMode: 'map', // Default mode
@@ -255,18 +362,35 @@ export const usePlacesStore = create<PlacesState>()(
                     : [...state.selectedMoods, mood],
             })),
 
-            toggleCategory: (category) => set((state) => ({
-                selectedCategories: state.selectedCategories.includes(category)
-                    ? state.selectedCategories.filter((c) => c !== category)
-                    : [...state.selectedCategories, category],
-            })),
+            setSelectedMoods: (moods) => set({ selectedMoods: moods }),
+
+            toggleCategory: (category) => set((state) => {
+                const isSelected = state.selectedCategories.includes(category);
+                const isSingleSelection = state.selectedCategories.length === 1;
+
+                // RADIO LOGIC 📻
+                // 1. If hitting the ONLY active category -> Reset to ALL (Global View)
+                if (isSelected && isSingleSelection) {
+                    return { selectedCategories: PLACE_CATEGORIES.map(c => c.key) };
+                }
+
+                // 2. Otherwise (Switching or Focusing) -> Select ONLY this category
+                return { selectedCategories: [category] };
+            }),
 
             setSelectedCategories: (categories) => set({ selectedCategories: categories }),
 
             setSelectedPrice: (price) => set({ selectedPrice: price }),
+            setPinceMaxPercent: (percent) => set({ pinceMaxPercent: percent }),
+            setIsPinceEnabled: (enabled) => set({ isPinceEnabled: enabled }),
             setSelectedDistricts: (districts) => set({ selectedDistricts: districts }),
             setTimeRange: (range) => set({ timeRange: range }),
             setFilterOpenNow: (enabled) => set({ filterOpenNow: enabled }),
+            setFilterHappyHour: (enabled) => set({ filterHappyHour: enabled }),
+            setFilterTerrace: (enabled) => set({ filterTerrace: enabled }),
+            setPintLimit: (limit) => set({ pintLimit: limit }),
+            setDishLimit: (limit) => set({ dishLimit: limit }),
+            setCoffeeLimit: (limit) => set({ coffeeLimit: limit }),
 
 
 
@@ -274,12 +398,19 @@ export const usePlacesStore = create<PlacesState>()(
 
             clearFilters: () => set({
                 selectedMoods: [],
-                selectedCategories: [],
+                selectedCategories: PLACE_CATEGORIES.map(c => c.key),
                 selectedPrice: null,
+                pinceMaxPercent: null,
+                isPinceEnabled: false,
                 selectedDistricts: [],
                 timeRange: null,
                 filterOpenNow: false,
+                filterHappyHour: false,
+                filterTerrace: false,
                 searchQuery: '',
+                pintLimit: null,
+                dishLimit: null,
+                coffeeLimit: null,
             }),
 
 
@@ -311,8 +442,45 @@ export const usePlacesStore = create<PlacesState>()(
                 set({ isLoading: false });
             },
 
+            warmUpPrices: () => {
+                const state = get();
+                const now = Date.now();
+                // @ts-ignore
+                if (!state._lastPriceSync || now - state._lastPriceSync > 30000) {
+                    console.log('[Store] Warming up prices...');
+                    state.places.forEach(p => {
+                        // @ts-ignore
+                        p._currentPrices = {
+                            pint: getCurrentPrice(p, 'pint'),
+                            dish: getCurrentPrice(p, 'dish'),
+                            coffee: getCurrentPrice(p, 'coffee')
+                        };
+                    });
+                    // @ts-ignore
+                    state._lastPriceSync = now;
+                }
+            },
+
             // Getters
-            getFilteredPlaces: () => selectFilteredPlaces(get()),
+            getFilteredPlaces: () => {
+                // Pre-calculate prices ONCE per minute or on demand to avoid 237*3 date parsing in the loop
+                const state = get();
+                const now = Date.now();
+                // @ts-ignore
+                if (!state._lastPriceSync || now - state._lastPriceSync > 30000) {
+                    state.places.forEach(p => {
+                        // @ts-ignore
+                        p._currentPrices = {
+                            pint: getCurrentPrice(p, 'pint'),
+                            dish: getCurrentPrice(p, 'dish'),
+                            coffee: getCurrentPrice(p, 'coffee')
+                        };
+                    });
+                    // @ts-ignore
+                    state._lastPriceSync = now;
+                }
+                return selectFilteredPlaces(state);
+            },
 
             getPlaceById: (id) => {
                 return get().places.find((p) => p.id === id);
@@ -355,10 +523,15 @@ export const usePlacesStore = create<PlacesState>()(
                 selectedMoods: state.selectedMoods,
                 selectedCategories: state.selectedCategories,
                 likedPlaceIds: state.likedPlaceIds,
+                isPinceEnabled: state.isPinceEnabled,
+                pinceMaxPercent: state.pinceMaxPercent,
+                pintLimit: state.pintLimit,
+                dishLimit: state.dishLimit,
+                coffeeLimit: state.coffeeLimit,
             }),
             migrate: (persistedState: any, version: number) => {
-                console.log('[usePlacesStore] Migrating from version:', version, 'to 31');
-                if (version < 31) {
+                console.log('[usePlacesStore] Migrating from version:', version, 'to 32');
+                if (version < 32) {
                     return {
                         ...persistedState,
                         places: placesData as unknown as Place[],
@@ -366,7 +539,7 @@ export const usePlacesStore = create<PlacesState>()(
                 }
                 return persistedState;
             },
-            version: 31,
+            version: 40,
         }
     )
 );

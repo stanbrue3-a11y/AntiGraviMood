@@ -8,8 +8,8 @@ import * as Haptics from 'expo-haptics';
 import { BlurView } from 'expo-blur';
 
 // Stores & Logic
-// Stores & Logic
-import { usePlacesStore } from '../../src/stores';
+import { usePlacesStore, selectFilteredPlaces } from '../../src/stores/usePlacesStore';
+import { useShallow } from 'zustand/react/shallow';
 import { useTheme } from '../../src/design';
 
 // Components
@@ -21,6 +21,7 @@ import { FilterSheet } from '../../src/components/feed/FilterSheet';
 import { NativeMapPro } from '../../src/components/map/NativeMapPro';
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
 import { DiscoverSearch } from '../../src/components/discover/DiscoverSearch';
+import { FloatingMapSliders } from '../../src/components/map/FloatingMapSliders';
 
 // Config
 const MAPBOX_TOKEN = 'pk.eyJ1Ijoic3RhbnRoZW1hbnMiLCJhIjoiY21qYW9rZmJzMDVrejNkc2J6dW9sbmNubCJ9.rio8auCYmW4qWaHP9YxD5A';
@@ -54,6 +55,10 @@ export default function MapScreen() {
     const selectedMoods = usePlacesStore(state => state.selectedMoods);
     const toggleMood = usePlacesStore(state => state.toggleMood);
     const selectedDistricts = usePlacesStore(state => state.selectedDistricts);
+
+    // Pince Filter
+    const isPinceEnabled = usePlacesStore(state => state.isPinceEnabled);
+    const pinceMaxPercent = usePlacesStore(state => state.pinceMaxPercent);
 
     // Derived Moods for Map (NativeMapPro expects full list if "all", Store uses [] for "all")
     const effectiveMoods = useMemo(() => {
@@ -115,48 +120,8 @@ export default function MapScreen() {
     // Constants
     const CATEGORIES = ['bar', 'cafe', 'restaurant', 'club', 'espace-culturel', 'parc', 'museum', 'workshop', 'exhibition', 'other'];
 
-    // Data Calculation (MEMOIZED & STABLE) 🛡️
-    const filteredPlaces = useMemo(() => {
-        let result = rawPlaces;
-
-        // Query
-        if (searchQuery) {
-            const q = searchQuery.toLowerCase();
-            result = result.filter(p =>
-                p.name.toLowerCase().includes(q) ||
-                p.category.toLowerCase().includes(q)
-            );
-        }
-
-        // Categories
-        if (selectedCategories?.length > 0) {
-            result = result.filter(p => selectedCategories.includes(p.category));
-        }
-
-        // Price
-        if (selectedPrice !== null) {
-            result = result.filter(p => (p.practical_info.price_range || 2) <= selectedPrice);
-        }
-
-        // Districts (Added per user request)
-        if (selectedDistricts && selectedDistricts.length > 0) {
-            result = result.filter(p => selectedDistricts.includes(p.location.arrondissement));
-        }
-
-        // Mood Filtering (Done here instead of in native styles for cleaner data flow, optional)
-        // For NativeMapPro, we pass selectedMoods prop which handles the visual filtering
-        // so we don't necessarily need to filter the data array itself unless we want to remove them completely from clustering.
-        // Let's keep data full and let NativeMapPro handle visual filtering if preferred, 
-        // OR filter here. Previous implementation filtered visually in MapLayers.
-        // We will pass `places` and `selectedMoods` to NativeMapPro.
-
-        // Map Mode Filtering (Global vs Likes)
-        if (mapMode === 'likes') {
-            result = result.filter(p => likedPlaceIds?.includes(p.id));
-        }
-
-        return result;
-    }, [rawPlaces, searchQuery, selectedCategories, selectedPrice, mapMode, likedPlaceIds, selectedDistricts]);
+    // Data Calculation (UNIFIED VIA STORE & SHALLOW WRAPPER) 🛡️
+    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces));
 
 
     // --- HANDLERS ---
@@ -221,6 +186,7 @@ export default function MapScreen() {
                 <NativeMapPro
                     places={filteredPlaces}
                     selectedMoods={effectiveMoods}
+                    selectedCategories={selectedCategories}
                     onPlacePress={handlePlacePress}
                     cameraRef={cameraRef}
                     highlightedPlaceId={internalHighlightId}
@@ -291,6 +257,9 @@ export default function MapScreen() {
                 searchQuery={searchQuery}
                 setSearchQuery={setSearchQuery}
             />
+
+
+            <FloatingMapSliders />
 
             {/* Geolocation FAB */}
             <TouchableOpacity

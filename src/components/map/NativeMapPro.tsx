@@ -6,6 +6,7 @@ import { Place } from '../../types/model';
 type Props = {
     places: Place[];
     selectedMoods: string[];
+    selectedCategories: string[];
     onPlacePress: (placeId: string, coordinates: [number, number]) => void;
     cameraRef?: any;
     highlightedPlaceId?: string | null;
@@ -49,7 +50,7 @@ const hashCode = (str: string): number => {
     return Math.abs(hash);
 };
 
-export const NativeMapPro = React.memo(({ places, selectedMoods, onPlacePress, cameraRef, highlightedPlaceId }: Props) => {
+export const NativeMapPro = React.memo(({ places, selectedMoods, selectedCategories, onPlacePress, cameraRef, highlightedPlaceId }: Props) => {
     const shapeSourceRef = useRef<Mapbox.ShapeSource>(null);
     const [activePin, setActivePin] = React.useState<number | null>(null);
     const [isBouncing, setIsBouncing] = React.useState(false);
@@ -72,38 +73,54 @@ export const NativeMapPro = React.memo(({ places, selectedMoods, onPlacePress, c
             const cat = place.category ? place.category.toLowerCase() : '';
             const sub = Array.isArray(place.subcategory) ? place.subcategory.map(s => s.toLowerCase()) : [];
 
-            let mood = 'chill';
-            if (['museum', 'exhibition', 'gallery', 'theatre', 'espace-culturel', 'workshop', 'monument', 'library'].includes(cat) ||
-                sub.some(s => ['musee', 'art', 'culture'].some(k => s.includes(k)))) {
+            // 2. MOOD CALCULATION (Sync with Store logic)
+            let mood: 'chill' | 'festif' | 'culturel' = 'chill';
+            const CATEGORIES_CULTUREL = ['museum', 'exhibition', 'workshop', 'theatre', 'gallery', 'espace-culturel', 'monument', 'library'];
+
+            if (CATEGORIES_CULTUREL.includes(cat) || sub.some(s => CATEGORIES_CULTUREL.includes(s))) {
                 mood = 'culturel';
-            }
-            else if (['cafe', 'café', 'coffee_shop', 'coffeeshop', 'salon-de-the', 'tea_house'].includes(cat)) {
+            } else if (cat === 'café' || cat === 'coffee-shop') {
                 mood = 'chill';
-            }
-            else if (['club', 'nightclub', 'boite-de-nuit', 'disco'].includes(cat)) {
+            } else if (cat === 'club') {
                 mood = 'festif';
-            }
-            else if (place.mood_scores) {
+            } else if (place.mood_scores) {
                 const { chill, festif } = place.mood_scores;
-                if ((festif?.overall || 0) >= (chill?.overall || 0)) mood = 'festif';
-                else mood = 'chill';
+                mood = (festif?.overall || 0) >= (chill?.overall || 0) ? 'festif' : 'chill';
             }
 
-            if (!selectedMoods.includes(mood)) return null;
+            // DO NOT filter here. The 'places' prop is already filtered by usePlacesStore.
+            // This ensures 100% sync between the Map and the List count.
 
+            // 3. ICON SELECTION (Chameleon Logic) 🦎
             let iconCategory = 'star';
-            if (['bar', 'pub', 'biergarten', 'wine_bar', 'rooftop'].includes(cat)) {
+            const allCats = place.categories || [place.category];
+
+            // a) Try to match based on user's active filter (Chameleon part)
+            let match = null;
+            if (selectedCategories.length > 0) {
+                match = selectedCategories.find(sc =>
+                    allCats.includes(sc) ||
+                    (sc === 'restaurant' && allCats.includes('restaurant')) ||
+                    (sc === 'bar' && allCats.includes('bar')) ||
+                    (sc === 'café' && allCats.includes('café'))
+                );
+            }
+
+            // b) Define identifying category
+            const targetCat = match || cat;
+
+            if (['bar', 'pub', 'biergarten', 'wine_bar', 'rooftop'].includes(targetCat)) {
                 const lowerName = place.name ? place.name.toLowerCase() : '';
                 if (lowerName.includes('pub') || lowerName.includes('brewery') || lowerName.includes('beer')) iconCategory = 'beer';
                 else iconCategory = 'cocktail';
             }
-            else if (['cafe', 'café', 'coffee_shop', 'coffeeshop', 'tea_house', 'bakery', 'boulangerie', 'patisserie', 'ice_cream', 'salon-de-the'].includes(cat)) iconCategory = 'cafe';
-            else if (['restaurant', 'food', 'meal', 'bistro', 'snack', 'fast_food', 'burger', 'pizza', 'italian', 'asian', 'sushi', 'diner', 'brasserie', 'italian-restaurant'].includes(cat)) iconCategory = 'restaurant';
-            else if (['hotel'].includes(cat)) iconCategory = 'lodging';
-            else if (['club', 'nightclub', 'disco', 'concert', 'live_music', 'boite-de-nuit'].includes(cat)) iconCategory = 'music';
-            else if (['espace-culturel', 'art_gallery', 'workshop', 'exhibition', 'arts_centre', 'library', 'theatre', 'cinema', 'gallery'].includes(cat)) iconCategory = 'palette';
-            else if (['parc', 'park', 'garden', 'forest', 'plaza', 'square', 'gym', 'yoga', 'sport', 'beach', 'lake'].includes(cat)) iconCategory = 'leaf';
-            else if (['museum', 'monument', 'landmark', 'church', 'castle', 'tourist_attraction', 'point_of_interest'].includes(cat)) iconCategory = 'museum';
+            else if (['cafe', 'café', 'coffee_shop', 'coffeeshop', 'tea_house', 'bakery', 'boulangerie', 'patisserie', 'ice_cream', 'salon-de-the'].includes(targetCat)) iconCategory = 'cafe';
+            else if (['restaurant', 'food', 'meal', 'bistro', 'snack', 'fast_food', 'burger', 'pizza', 'italian', 'asian', 'sushi', 'diner', 'brasserie', 'italian-restaurant'].includes(targetCat)) iconCategory = 'restaurant';
+            else if (['hotel'].includes(targetCat)) iconCategory = 'lodging';
+            else if (['club', 'nightclub', 'disco', 'concert', 'live_music', 'boite-de-nuit'].includes(targetCat)) iconCategory = 'music';
+            else if (['espace-culturel', 'art_gallery', 'workshop', 'exhibition', 'arts_centre', 'library', 'theatre', 'cinema', 'gallery'].includes(targetCat)) iconCategory = 'palette';
+            else if (['parc', 'park', 'garden', 'forest', 'plaza', 'square', 'gym', 'yoga', 'sport', 'beach', 'lake'].includes(targetCat)) iconCategory = 'leaf';
+            else if (['museum', 'monument', 'landmark', 'church', 'castle', 'tourist_attraction', 'point_of_interest'].includes(targetCat)) iconCategory = 'museum';
 
             return {
                 type: 'Feature',
@@ -116,6 +133,9 @@ export const NativeMapPro = React.memo(({ places, selectedMoods, onPlacePress, c
                     id: place.id,
                     numeric_id: numericId,
                     mood: mood,
+                    mood_color: MOOD_COLORS[mood],
+                    rating: place.google_rating ? place.google_rating.toFixed(1) : "4.8",
+                    badge_image: `badge-${mood}`,
                     icon_category: iconCategory,
                     icon_image: `icon-${iconCategory}-${mood}`,
                     name: place.name
@@ -124,7 +144,7 @@ export const NativeMapPro = React.memo(({ places, selectedMoods, onPlacePress, c
         }).filter(f => f !== null);
 
         return { type: 'FeatureCollection', features: features as any };
-    }, [places, selectedMoods]);
+    }, [places, selectedMoods, selectedCategories]);
 
     const STEP = 5;
 
@@ -239,12 +259,55 @@ export const NativeMapPro = React.memo(({ places, selectedMoods, onPlacePress, c
                     return <Path key={i} d={pathData} fill={seg.c} />;
                 });
                 return <Mapbox.Image key={t.id} name={t.id}><Svg height="42" width="42" viewBox="0 0 42 42"><Circle cx="21" cy="21" r="21" fill="white" />{segments}<Circle cx="21" cy="21" r="20.4" stroke="white" strokeWidth="1.2" fill="none" /></Svg></Mapbox.Image>;
-            })}{iconMatrix.map(item => <Mapbox.Image key={item.id} name={item.id}><Svg height="38" width="38" viewBox="0 0 38 38"><Circle cx="19" cy="21" r="17" fill="black" opacity="0.1" /><Circle cx="19" cy="19" r="19" fill="white" /><Circle cx="19" cy="19" r="17" fill={item.color} /><G transform="translate(7, 7)">{getIconPath(item.icon)}</G></Svg></Mapbox.Image>)}</Mapbox.Images>
+            })}{iconMatrix.map(item => <Mapbox.Image key={item.id} name={item.id}><Svg height="38" width="38" viewBox="0 0 38 38"><Circle cx="19" cy="21" r="17" fill="black" opacity="0.1" /><Circle cx="19" cy="19" r="19" fill="white" /><Circle cx="19" cy="19" r="17" fill={item.color} /><G transform="translate(7, 7)">{getIconPath(item.icon)}</G></Svg></Mapbox.Image>)}
+
+            </Mapbox.Images>
             <Mapbox.ShapeSource id="placesSource" ref={shapeSourceRef} shape={placesGeoJSON as any} onPress={handlePress} cluster={true} clusterRadius={35} clusterMaxZoomLevel={14} clusterProperties={clusterProperties} hitbox={{ width: 30, height: 30 }}>
                 <Mapbox.SymbolLayer id="clusters" filter={['has', 'point_count']} style={{ iconImage: getClusterImage as any, iconAllowOverlap: true, iconIgnorePlacement: true, iconSize: 1, iconOpacity: 1 } as any} />
                 <Mapbox.SymbolLayer id="cluster-count" filter={['has', 'point_count']} style={{ textField: ['to-string', ['get', 'point_count']], textSize: 13, textColor: '#FFFFFF', textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'], textAllowOverlap: true, textIgnorePlacement: true, textAnchor: 'center', textHaloWidth: 0 } as any} />
+
+                {/* A. NAME LABEL (Right - Simple Text + Halo) */}
+                <Mapbox.SymbolLayer
+                    id="place-name-labels"
+                    minZoomLevel={13}
+                    filter={['!', ['has', 'point_count']]}
+                    style={{
+                        textField: ['get', 'name'],
+                        textColor: ['get', 'mood_color'],
+                        textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+                        textSize: 12,
+                        textAnchor: 'left',
+                        textOffset: [1.5, 0],
+                        textAllowOverlap: false,
+                        textIgnorePlacement: false,
+                        textHaloColor: '#000000',
+                        textHaloWidth: 1.5,
+                        textHaloBlur: 0
+                    } as any}
+                />
+
                 <Mapbox.SymbolLayer id="points-static" filter={['all', ['!', ['has', 'point_count']], ['!=', ['get', 'numeric_id'], activePin || -999]]} style={{ iconImage: ['get', 'icon_image'], iconAllowOverlap: true, iconIgnorePlacement: true, iconSize: 0.85, iconAnchor: 'center' } as any} />
                 <Mapbox.SymbolLayer id="points-active" filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'numeric_id'], activePin || -999]]} style={{ iconImage: ['get', 'icon_image'], iconAllowOverlap: true, iconIgnorePlacement: true, iconSize: 0.95, iconAnchor: 'center', iconTranslate: isBouncing ? [0, -25] : [0, 0], iconTranslateTransition: { duration: 300 } } as any} />
+
+                {/* B. RATING (Directly Above Pin) */}
+                <Mapbox.SymbolLayer
+                    id="place-rating-labels"
+                    minZoomLevel={13}
+                    filter={['!', ['has', 'point_count']]}
+                    style={{
+                        textField: ['concat', '★', ['get', 'rating']],
+                        textColor: ['get', 'mood_color'],
+                        textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+                        textSize: 12,
+                        textAnchor: 'center',
+                        textOffset: [-0.3, -2.1],
+                        textAllowOverlap: true,
+                        textIgnorePlacement: true,
+                        textHaloColor: '#000000',
+                        textHaloWidth: 1.8,
+                        textHaloBlur: 0
+                    } as any}
+                />
             </Mapbox.ShapeSource>
         </>
     );

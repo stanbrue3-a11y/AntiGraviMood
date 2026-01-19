@@ -41,12 +41,11 @@ const SIZES = {
 };
 
 // Gradient from green (accessible) to gold (premium)
-const getGaugeColor = (percentile: number): string => {
-    if (percentile <= 20) return '#4CAF50'; // Very accessible - green
-    if (percentile <= 40) return '#8BC34A'; // Accessible - light green
-    if (percentile <= 60) return '#FFC107'; // Medium - amber
-    if (percentile <= 80) return '#FF9800'; // Elevated - orange
-    return '#DAA520'; // Premium - gold
+// Calibrated color logic for standard Paris benchmarks
+const getGaugeColor = (percent: number): string => {
+    if (percent <= 50) return '#22C55E'; // Green: Good deal or Fair Price
+    if (percent <= 75) return '#F59E0B'; // Orange: Slightly expensive
+    return '#EF4444'; // Red: Expensive
 };
 
 export function PriceGauge({
@@ -64,23 +63,42 @@ export function PriceGauge({
     const { gaugeWidth, gaugeHeight, fontSize, iconSize } = SIZES[size];
     const fillAnim = useRef(new Animated.Value(0)).current;
 
-    // Calculate percentile from pricing or legacy level
-    const getPercentile = (): number => {
-        if (pricing?.category_percentile !== undefined) {
-            return pricing.category_percentile;
+    // SURGICAL MATH : Benchmark is at 50% mark.
+    const getFillPercent = (): number => {
+        if (pricing?.is_free) return 5;
+
+        let current = pricing?.budget_avg ?? 0;
+        let fair = 15;
+
+        // Surgical Anchors
+        if (pricing?.pint_price) {
+            current = pricing.pint_price;
+            fair = 7;
+        } else if (pricing?.main_dish_price) {
+            current = pricing.main_dish_price;
+            fair = 18;
+        } else if (pricing?.coffee_price) {
+            current = pricing.coffee_price;
+            fair = 2.5;
+        } else if (pricing?.fair_price) {
+            fair = pricing.fair_price;
         }
-        if (legacyLevel) {
-            // Convert 1-4 to percentile: 1=15%, 2=40%, 3=65%, 4=90%
-            return [15, 40, 65, 90][legacyLevel - 1];
+
+        if (fair <= 0) {
+            if (legacyLevel) return [15, 40, 65, 90][legacyLevel - 1];
+            return 50;
         }
-        return 50; // Default middle
+
+        const deviation = (current - fair) / fair;
+        const percent = 50 + (deviation * 100);
+        return Math.max(5, Math.min(95, percent));
     };
 
-    const percentile = getPercentile();
+    const percentile = getFillPercent();
     const gaugeColor = moodColor || getGaugeColor(percentile);
     const valueScore = pricing?.value_score ?? 0;
-    const isBonPlan = valueScore >= 80 && percentile <= 30;
-    const isPremium = percentile >= 80;
+    const isBonPlan = percentile <= 50; // Standard or better
+    const isPremium = percentile >= 75; // Red zone
 
     // Get contextual price text based on category
     const getPriceText = (): string => {
@@ -92,23 +110,13 @@ export function PriceGauge({
             return '';
         }
 
-        const budgetText = `~${pricing.budget_avg}€/pers`;
+        if (pricing.is_free) return 'Gratuit';
 
-        switch (pricing.type) {
-            case 'restaurant':
-                return budgetText;
-            case 'bar':
-                if (pricing.pint_price) return `Pinte ${pricing.pint_price.toFixed(2).replace('.', ',')}€`;
-                return budgetText;
-            case 'cafe':
-                if (pricing.coffee_price) return `Café ${pricing.coffee_price.toFixed(2).replace('.', ',')}€`;
-                return budgetText;
-            case 'club':
-                if (pricing.entry_fee) return `Entrée ${pricing.entry_fee}€`;
-                return budgetText;
-            default:
-                return budgetText;
-        }
+        if (pricing.pint_price) return `Pinte ${pricing.pint_price}€`;
+        if (pricing.main_dish_price) return `Plat ${pricing.main_dish_price}€`;
+        if (pricing.coffee_price) return `Café ${pricing.coffee_price.toFixed(1)}€`;
+
+        return `~${Math.round(pricing.budget_avg)}€/pers`;
     };
 
     useEffect(() => {

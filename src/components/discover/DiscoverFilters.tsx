@@ -5,7 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import * as Haptics from 'expo-haptics';
 
-import { InteractivePriceGauge } from '../../components/common/InteractivePriceGauge';
+import { MagneticPriceSelector } from '../../components/common/MagneticPriceSelector';
 import { HorizontalTimeSlider } from '../../components/common/HorizontalTimeSlider';
 import { PLACE_CATEGORIES } from '../../stores/usePlacesStore';
 
@@ -50,9 +50,13 @@ export const DiscoverFilters = ({
 
                     {/* Budget Section */}
                     <Text style={styles.sectionTitle}>Budget Max</Text>
-                    <InteractivePriceGauge
-                        selectedPrice={selectedPrice}
-                        onPriceChange={setSelectedPrice}
+                    <MagneticPriceSelector
+                        price={selectedPrice || 25}
+                        parisAverage={25}
+                        moodColor="#6366F1"
+                        min={5}
+                        max={100}
+                        onValueChange={setSelectedPrice}
                     />
 
                     {/* Availability Section */}

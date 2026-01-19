@@ -50,6 +50,7 @@ export default function LikesScreen() {
                         style={{ marginBottom: 16, marginHorizontal: 6 }}
                     />
                 )}
+                // @ts-ignore
                 estimatedItemSize={250}
                 numColumns={2}
                 contentContainerStyle={{ padding: 10, paddingBottom: 100 }}

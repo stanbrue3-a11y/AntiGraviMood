@@ -9,9 +9,9 @@ import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useTheme, moodColors } from '../../design';
-import { PriceGauge } from '../common/PriceGauge';
 import { usePlacesStore, type Place } from '../../stores';
 import { getDominantMood } from '../../lib/moodUtils';
+import { InteractivePriceGauge } from '../common/InteractivePriceGauge';
 
 // New Components
 import { PlaceHero } from './PlaceHero';
@@ -164,20 +164,67 @@ export const PlaceDetailSheetMap = () => {
                                 {/* Row: Mood + Price + Category */}
                                 <View style={styles.metaRow}>
                                     <View style={[styles.moodBadge, { backgroundColor: primaryColor + '15' }]}>
-                                        <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood.toUpperCase()}</Text>
+                                        <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood === 'chill' ? 'CHILL' : dominantMood === 'festif' ? 'FESTIF' : 'CULTUREL'}</Text>
                                     </View>
-                                    <View style={styles.dividerVertical} />
-                                    <PriceGauge
-                                        pricing={place.pricing}
-                                        legacyLevel={place.practical_info?.price_range as 1 | 2 | 3 | 4 || 2}
-                                        category={place.category}
-                                        moodColor={primaryColor}
-                                        size="md"
-                                        interactive={true}
-                                    />
-                                    <View style={styles.dividerVertical} />
-                                    <Text style={[styles.metaText, { color: primaryColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
+                                    <Text
+                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 12, flex: 1 }]}
+                                        numberOfLines={1}
+                                        ellipsizeMode="tail"
+                                    >
+                                        {(() => {
+                                            const cats = place.categories || [place.category];
+                                            const hasBar = cats.includes('bar');
+                                            const hasResto = cats.includes('restaurant');
+                                            const hasCafe = cats.includes('café');
+
+                                            let label = '';
+                                            if (hasBar && hasResto && hasCafe) {
+                                                label = 'BRASSERIE → BAR, CAFÉ ET RESTO';
+                                            } else {
+                                                label = cats.map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join(' • ');
+                                            }
+
+                                            return label + `  •  ${place.location.arrondissement}E`;
+                                        })()}
+                                    </Text>
                                 </View>
+
+                                {/* PRICE GAUGE - Full width row */}
+                                {place.pricing && (
+                                    <View style={{ marginBottom: 16 }}>
+                                        <InteractivePriceGauge
+                                            pricing={place.pricing}
+                                            arrondissement={place.location.arrondissement}
+                                            placeType={(() => {
+                                                const cat = (place.category || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                                                if (cat.includes('bouillon')) return 'bouillon';
+                                                if (cat.includes('bar-a-vin')) return 'bar-a-vin';
+                                                if (cat.includes('cocktail-bar')) return 'cocktail-bar';
+                                                if (cat.includes('techno-club')) return 'techno-club';
+                                                if (['coffee-shop', 'cafe', 'tea-room', 'bakery'].includes(cat)) return 'cafe';
+                                                if (['bar', 'pub', 'biergarten'].includes(cat)) return 'bar';
+                                                if (['club'].includes(cat)) return 'club';
+                                                if (['hotel'].includes(cat)) return 'hotel';
+                                                if (['museum', 'art-gallery', 'cultural-center', 'theatre', 'monument', 'espace-culturel'].includes(cat)) return 'culture';
+                                                if (['park', 'garden', 'walk'].includes(cat)) return 'park';
+                                                return 'restaurant';
+                                            })()}
+                                            categories={place.practical_info.price_info?.items ? place.practical_info.price_info.items.map(cat => ({
+                                                icon: cat.category.includes('BOISSON') ? 'wine-outline' :
+                                                    cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
+                                                        cat.category.includes('PLAT') ? 'flame-outline' :
+                                                            cat.category.includes('DESSERT') ? 'ice-cream-outline' : 'star-outline',
+                                                title: cat.category,
+                                                items: cat.items.map(item => ({
+                                                    name: item.name,
+                                                    price: item.price
+                                                }))
+                                            })) : []}
+                                            activeColor={primaryColor}
+                                            smartTip={place.practical_info.price_info?.smart_tip}
+                                        />
+                                    </View>
+                                )}
 
                                 {/* 🕒 HORAIRES */}
                                 {/* Inserted between Header and Faune */}

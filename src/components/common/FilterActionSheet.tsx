@@ -1,39 +1,111 @@
+
 /**
- * MoodMap Paris - Filter Action Sheet
+ * MoodMap Paris - The Cockpit (Filter Sheet V3) 🎛️
  * 
- * Multi-sélection des types de lieux
+ * Replaces the old Category-list filter with a powerful control panel.
+ * - Zone 1: Moods (Vibe)
+ * - Zone 2: Power-Ups (Terrasse, HH, Open Now)
+ * - Zone 3: Geography (Arrondissements)
  */
 
-import React from 'react';
-import { View, Text, StyleSheet, Pressable, Modal } from 'react-native';
-import { BlurView } from 'expo-blur';
+import React, { useMemo } from 'react';
+import { View, Text, StyleSheet, Pressable, Modal, ScrollView, Switch, Dimensions } from 'react-native';
 import * as Haptics from 'expo-haptics';
+import { BlurView } from 'expo-blur';
 import { useTheme } from '../../design';
-import { usePlacesStore, PLACE_CATEGORIES } from '../../stores';
+import { usePlacesStore, MoodType } from '../../stores';
+import { Ionicons } from '@expo/vector-icons';
+
+const { width } = Dimensions.get('window');
 
 interface FilterActionSheetProps {
     visible: boolean;
     onClose: () => void;
 }
 
-export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) {
-    const { theme, isDark } = useTheme();
-    const { selectedCategories = [], toggleCategory, clearFilters } = usePlacesStore();
+const DISTRICTS = Array.from({ length: 20 }, (_, i) => i + 1);
 
-    const handleToggleCategory = (category: string) => {
+export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) {
+    const { theme } = useTheme();
+
+    const {
+        selectedMoods,
+        toggleMood,
+
+        filterHappyHour, setFilterHappyHour,
+        filterTerrace, setFilterTerrace,
+        filterOpenNow, setFilterOpenNow,
+
+        selectedDistricts, setSelectedDistricts,
+
+        clearFilters
+    } = usePlacesStore();
+
+    // HANDLERS
+    const handleToggleDistrict = (d: number) => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-        toggleCategory(category);
+        if (selectedDistricts.includes(d)) {
+            setSelectedDistricts(selectedDistricts.filter(x => x !== d));
+        } else {
+            setSelectedDistricts([...selectedDistricts, d]);
+        }
     };
 
-    const handleClearFilters = () => {
+    const handleClear = () => {
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning);
         clearFilters();
     };
 
     const handleClose = () => {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
         onClose();
     };
+
+    // SUB-COMPONENTS
+    const MoodCard = ({ mood, label, emoji }: { mood: MoodType, label: string, emoji: string }) => {
+        const isActive = selectedMoods.includes(mood);
+        return (
+            <Pressable
+                onPress={() => {
+                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                    toggleMood(mood);
+                }}
+                style={[
+                    styles.moodCard,
+                    {
+                        backgroundColor: isActive ? theme.text.primary : theme.surface_variant,
+                        borderColor: isActive ? theme.text.primary : theme.border
+                    }
+                ]}
+            >
+                <Text style={styles.moodEmoji}>{emoji}</Text>
+                <Text style={[
+                    styles.moodLabel,
+                    { color: isActive ? theme.background : theme.text.primary }
+                ]}>{label}</Text>
+            </Pressable>
+        );
+    };
+
+    const PowerUp = ({ label, icon, value, onChange }: { label: string, icon: any, value: boolean, onChange: (v: boolean) => void }) => (
+        <View style={[styles.powerUpRow, { borderBottomColor: theme.border }]}>
+            <View style={styles.powerUpLeft}>
+                <View style={[styles.iconBox, { backgroundColor: theme.surface_variant }]}>
+                    <Ionicons name={icon} size={20} color={theme.text.primary} />
+                </View>
+                <Text style={[styles.powerUpLabel, { color: theme.text.primary }]}>{label}</Text>
+            </View>
+            <Switch
+                value={value}
+                onValueChange={(v) => {
+                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                    onChange(v);
+                }}
+                trackColor={{ false: theme.border, true: theme.primary }}
+                thumbColor={'#fff'}
+            />
+        </View>
+    );
 
     return (
         <Modal
@@ -45,62 +117,72 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
             <View style={styles.overlay}>
                 <Pressable style={styles.backdrop} onPress={handleClose} />
 
-                <View style={[styles.sheet, { backgroundColor: theme.surface }]}>
+                <BlurView intensity={90} tint="dark" style={[styles.sheet, { backgroundColor: theme.surface }]}>
                     <View style={styles.handle} />
 
+                    {/* HEADER */}
                     <View style={styles.header}>
-                        <Text style={[styles.title, { color: theme.text.primary }]}>
-                            Filtrer par type
-                        </Text>
-                        {selectedCategories?.length > 0 && (
-                            <Pressable onPress={handleClearFilters}>
-                                <Text style={[styles.clearButton, { color: theme.text.secondary }]}>
-                                    Effacer
-                                </Text>
-                            </Pressable>
-                        )}
+                        <Text style={[styles.title, { color: theme.text.primary }]}>Cockpit</Text>
+                        <Pressable onPress={handleClear}>
+                            <Text style={[styles.clearBtn, { color: theme.text.secondary }]}>Réinitialiser</Text>
+                        </Pressable>
                     </View>
 
-                    <View style={styles.categories}>
-                        {PLACE_CATEGORIES.map(({ key, label, emoji }) => {
-                            const isSelected = selectedCategories.includes(key);
-                            return (
-                                <Pressable
-                                    key={key}
-                                    onPress={() => handleToggleCategory(key)}
-                                    style={[
-                                        styles.categoryChip,
-                                        {
-                                            backgroundColor: isSelected
-                                                ? theme.text.primary
-                                                : theme.background,
-                                            borderColor: theme.border,
-                                        },
-                                    ]}
-                                >
-                                    <Text style={styles.categoryEmoji}>{emoji}</Text>
-                                    <Text
+                    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 40 }}>
+
+                        {/* ZONE 1: MOODS */}
+                        <Text style={[styles.sectionTitle, { color: theme.text.secondary }]}>VIBE</Text>
+                        <View style={styles.moodGrid}>
+                            <MoodCard mood="festif" label="Festif" emoji="✨" />
+                            <MoodCard mood="chill" label="Chill" emoji="☁️" />
+                            <MoodCard mood="culturel" label="Culture" emoji="🎨" />
+                        </View>
+
+                        {/* ZONE 2: POWER-UPS */}
+                        <Text style={[styles.sectionTitle, { color: theme.text.secondary, marginTop: 24 }]}>FILTRES D'ÉLITE</Text>
+                        <View style={[styles.powerUpContainer, { backgroundColor: theme.surface_variant + '40' }]}>
+                            <PowerUp label="Happy Hour en cours" icon="beer-outline" value={filterHappyHour} onChange={setFilterHappyHour} />
+                            <PowerUp label="Terrasse Ensoleillée" icon="sunny-outline" value={filterTerrace} onChange={setFilterTerrace} />
+                            <PowerUp label="Ouvert Maintenant" icon="time-outline" value={filterOpenNow} onChange={setFilterOpenNow} />
+                        </View>
+
+                        {/* ZONE 3: GEOGRAPHY (Grid for now) */}
+                        <Text style={[styles.sectionTitle, { color: theme.text.secondary, marginTop: 24 }]}>ARRONDISSEMENT</Text>
+                        <View style={styles.districtGrid}>
+                            {DISTRICTS.map(d => {
+                                const isSel = selectedDistricts.includes(d);
+                                return (
+                                    <Pressable
+                                        key={d}
+                                        onPress={() => handleToggleDistrict(d)}
                                         style={[
-                                            styles.categoryLabel,
-                                            { color: isSelected ? theme.background : theme.text.primary },
+                                            styles.districtChip,
+                                            {
+                                                backgroundColor: isSel ? theme.text.primary : theme.surface_variant,
+                                                borderColor: isSel ? theme.text.primary : theme.border
+                                            }
                                         ]}
                                     >
-                                        {label}
-                                    </Text>
-                                </Pressable>
-                            );
-                        })}
-                    </View>
+                                        <Text style={[
+                                            styles.districtText,
+                                            { color: isSel ? theme.background : theme.text.secondary }
+                                        ]}>{d}e</Text>
+                                    </Pressable>
+                                );
+                            })}
+                        </View>
 
+                    </ScrollView>
+
+                    {/* FOOTER BUTTON */}
                     <Pressable
                         onPress={handleClose}
-                        style={[styles.doneButton, { backgroundColor: theme.text.primary }]}
+                        style={[styles.applyBtn, { backgroundColor: theme.text.primary, marginBottom: 30 }]}
                     >
-                        <Text style={[styles.doneText, { color: theme.background }]}>
-                            Appliquer
-                        </Text>
+                        <Text style={[styles.applyText, { color: theme.background }]}>Explorer</Text>
                     </Pressable>
-                </View>
+
+                </BlurView>
             </View>
         </Modal>
     );
@@ -113,18 +195,20 @@ const styles = StyleSheet.create({
     },
     backdrop: {
         ...StyleSheet.absoluteFillObject,
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        backgroundColor: 'rgba(0,0,0,0.5)',
     },
     sheet: {
-        borderTopLeftRadius: 24,
-        borderTopRightRadius: 24,
-        padding: 20,
-        paddingBottom: 40,
+        height: '85%',
+        borderTopLeftRadius: 32,
+        borderTopRightRadius: 32,
+        paddingHorizontal: 20,
+        paddingTop: 16,
+        overflow: 'hidden'
     },
     handle: {
         width: 40,
         height: 4,
-        backgroundColor: 'rgba(128, 128, 128, 0.3)',
+        backgroundColor: 'rgba(128,128,128,0.4)',
         borderRadius: 2,
         alignSelf: 'center',
         marginBottom: 20,
@@ -133,46 +217,101 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        marginBottom: 20,
-    },
-    title: {
-        fontFamily: 'Georgia',
-        fontSize: 22,
-        fontWeight: '700',
-    },
-    clearButton: {
-        fontSize: 15,
-        fontWeight: '500',
-    },
-    categories: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        gap: 10,
         marginBottom: 24,
     },
-    categoryChip: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        paddingHorizontal: 16,
-        paddingVertical: 12,
-        borderRadius: 20,
-        borderWidth: 1,
-        gap: 8,
+    title: {
+        fontSize: 28,
+        fontFamily: 'Georgia',
+        fontWeight: '700',
     },
-    categoryEmoji: {
-        fontSize: 18,
-    },
-    categoryLabel: {
+    clearBtn: {
         fontSize: 15,
         fontWeight: '600',
     },
-    doneButton: {
-        height: 52,
-        borderRadius: 26,
+    sectionTitle: {
+        fontSize: 12,
+        fontWeight: '800',
+        letterSpacing: 1,
+        marginBottom: 12,
+        opacity: 0.7,
+    },
+    moodGrid: {
+        flexDirection: 'row',
+        gap: 12,
+    },
+    moodCard: {
+        flex: 1,
+        height: 100,
+        borderRadius: 20,
+        borderWidth: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 8,
+    },
+    moodEmoji: {
+        fontSize: 32,
+    },
+    moodLabel: {
+        fontSize: 15,
+        fontWeight: '600',
+    },
+    powerUpContainer: {
+        borderRadius: 24,
+        overflow: 'hidden',
+    },
+    powerUpRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingVertical: 16,
+        paddingHorizontal: 16,
+        borderBottomWidth: StyleSheet.hairlineWidth,
+    },
+    powerUpLeft: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 12,
+    },
+    iconBox: {
+        width: 36,
+        height: 36,
+        borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center',
     },
-    doneText: {
+    powerUpLabel: {
+        fontSize: 16,
+        fontWeight: '500',
+    },
+    districtGrid: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        gap: 8,
+    },
+    districtChip: {
+        width: (width - 40 - 32) / 5, // 5 per row roughly
+        aspectRatio: 1,
+        borderRadius: 12,
+        borderWidth: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    districtText: {
+        fontWeight: '600',
+    },
+    applyBtn: {
+        height: 56,
+        borderRadius: 28,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 10,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.2,
+        shadowRadius: 8,
+        elevation: 5,
+    },
+    applyText: {
         fontSize: 17,
         fontWeight: '700',
     },
