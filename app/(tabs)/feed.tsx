@@ -75,6 +75,7 @@ export default function FeedScreen() {
                     )}
                     keyExtractor={(item) => item.id}
                     pagingEnabled
+                    // @ts-ignore
                     estimatedItemSize={ITEM_HEIGHT}
                     snapToInterval={ITEM_HEIGHT}
                     snapToAlignment="start"

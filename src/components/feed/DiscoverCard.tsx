@@ -22,6 +22,7 @@ import { useTheme, moodColors } from '../../design';
 
 import { getDominantMood } from '../../lib/moodUtils';
 import { Skeleton } from '../common/Skeleton';
+import { PriceMiniBadge } from '../common/InteractivePriceGauge';
 
 interface DiscoverCardProps {
     place: Place;
@@ -191,16 +192,18 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
 
                     {/* Top Right: Mood Badge */}
                     <View style={styles.topBtnRight}>
-                        <View style={[styles.moodBadgeWrapper, { borderColor: accentColor + '40' }]}>
-                            <BlurView
-                                intensity={80}
-                                tint="dark"
-                                style={[styles.moodBadgeBlur, { backgroundColor: 'rgba(0,0,0,0.4)' }]}
-                            >
-                                <Text style={[styles.moodText, { color: accentColor }]}>
-                                    {MOODS[mood].emoji}
-                                </Text>
-                            </BlurView>
+                        <View style={{ gap: 8, alignItems: 'flex-end' }}>
+                            <View style={[styles.moodBadgeWrapper, { borderColor: accentColor + '40' }]}>
+                                <BlurView
+                                    intensity={80}
+                                    tint="dark"
+                                    style={[styles.moodBadgeBlur, { backgroundColor: 'rgba(0,0,0,0.4)' }]}
+                                >
+                                    <Text style={[styles.moodText, { color: accentColor }]}>
+                                        {MOODS[mood].emoji}
+                                    </Text>
+                                </BlurView>
+                            </View>
                         </View>
                     </View>
 
@@ -211,7 +214,14 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
                         </Text>
                         <View style={styles.metaRow}>
                             <Text style={styles.subtitle} numberOfLines={1}>
-                                {place.category.charAt(0).toUpperCase() + place.category.slice(1)}
+                                {(() => {
+                                    const cats = place.categories || [place.category];
+                                    const hasBar = cats.includes('bar');
+                                    const hasResto = cats.includes('restaurant');
+                                    const hasCafe = cats.includes('café');
+                                    if (hasBar && hasResto && hasCafe) return 'BRASSERIE';
+                                    return cats.map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join(' • ');
+                                })()}
                             </Text>
                             <Text style={styles.dot}>•</Text>
                             <Text style={styles.subtitle}>

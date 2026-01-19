@@ -1,0 +1,776 @@
+{
+    "categories": {
+        "restaurant": {
+            "avg": 26,
+            "unit": "Repas moyen",
+            "min": 15,
+            "max": 80
+        },
+        "bistrot": {
+            "avg": 25,
+            "unit": "Menu complet",
+            "min": 15,
+            "max": 60
+        },
+        "bouillon": {
+            "avg": 18,
+            "unit": "Repas complet",
+            "min": 12,
+            "max": 30
+        },
+        "gastronomique": {
+            "avg": 100,
+            "unit": "Menu dégustation",
+            "min": 50,
+            "max": 200
+        },
+        "street-food": {
+            "avg": 16,
+            "unit": "Plat / Pita",
+            "min": 8,
+            "max": 20
+        },
+        "cantine": {
+            "avg": 16,
+            "unit": "Formule déjeuner",
+            "min": 10,
+            "max": 25
+        },
+        "cafe": {
+            "avg": 7,
+            "unit": "Café + accompagnement",
+            "min": 3,
+            "max": 10
+        },
+        "coffee-shop": {
+            "avg": 7,
+            "unit": "Café spécialité",
+            "min": 4,
+            "max": 8
+        },
+        "bar": {
+            "avg": 9,
+            "unit": "Conso",
+            "min": 5,
+            "max": 14
+        },
+        "bar-a-vin": {
+            "avg": 11,
+            "unit": "Verre de vin",
+            "min": 6,
+            "max": 15
+        },
+        "cocktail-bar": {
+            "avg": 15,
+            "unit": "Cocktail signature",
+            "min": 8,
+            "max": 20
+        },
+        "speakeasy": {
+            "avg": 17,
+            "unit": "Cocktail artisanal",
+            "min": 10,
+            "max": 22
+        },
+        "hotel-bar": {
+            "avg": 18,
+            "unit": "Cocktail",
+            "min": 14,
+            "max": 28
+        },
+        "club": {
+            "avg": 18,
+            "unit": "Entrée",
+            "min": 5,
+            "max": 25
+        },
+        "techno-club": {
+            "avg": 18,
+            "unit": "Entrée",
+            "min": 8,
+            "max": 25
+        },
+        "museum": {
+            "avg": 14,
+            "unit": "Entrée plein tarif",
+            "min": 5,
+            "max": 18
+        },
+        "art-gallery": {
+            "avg": 0,
+            "unit": "Entrée (gratuit)",
+            "min": 0,
+            "max": 10
+        },
+        "theatre": {
+            "avg": 30,
+            "unit": "Place",
+            "min": 15,
+            "max": 60
+        },
+        "cinema": {
+            "avg": 12,
+            "unit": "Séance",
+            "min": 7,
+            "max": 16
+        },
+        "concert": {
+            "avg": 20,
+            "unit": "Concert",
+            "min": 10,
+            "max": 50
+        },
+        "park": {
+            "avg": 0,
+            "unit": "Gratuit",
+            "min": 0,
+            "max": 0
+        },
+        "hotel": {
+            "avg": 18,
+            "unit": "Cocktail bar",
+            "min": 12,
+            "max": 30
+        },
+        "default": {
+            "avg": 20,
+            "unit": "Expérience",
+            "min": 10,
+            "max": 40
+        }
+    },
+    "neighborhood_multipliers": {
+        "1": 1.2,
+        "2": 1.1,
+        "3": 1.1,
+        "4": 1.2,
+        "5": 1.2,
+        "6": 1.3,
+        "7": 1.4,
+        "8": 1.4,
+        "9": 1.1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 0.9,
+        "14": 1,
+        "15": 1.1,
+        "16": 1.3,
+        "17": 1.2,
+        "18": 0.9,
+        "19": 0.8,
+        "20": 0.8
+    },
+    "verified_prices": {
+        "poi-003": {
+            "name": "Café de Flore",
+            "type": "cafe",
+            "budget_avg": 12,
+            "coffee_price": 6
+        },
+        "poi-016": {
+            "name": "Les Deux Magots",
+            "type": "cafe",
+            "budget_avg": 12,
+            "coffee_price": 6
+        },
+        "poi-004": {
+            "name": "Le Baron Rouge",
+            "type": "bar-a-vin",
+            "budget_avg": 4,
+            "pint_price": 7
+        },
+        "poi-014": {
+            "name": "Café A",
+            "type": "cafe",
+            "budget_avg": 16,
+            "coffee_price": 3,
+            "is_free": false
+        },
+        "poi-048": {
+            "name": "Dirty Dick",
+            "type": "cocktail-bar",
+            "budget_avg": 16,
+            "pint_price": 8.5
+        },
+        "poi-049": {
+            "name": "Experimental Cocktail Club",
+            "type": "cocktail-bar",
+            "budget_avg": 15,
+            "pint_price": 9
+        },
+        "poi-050": {
+            "name": "Bisou.",
+            "type": "cocktail-bar",
+            "budget_avg": 14,
+            "pint_price": 8
+        },
+        "poi-059": {
+            "name": "Le Mary Celeste",
+            "type": "bistrot",
+            "budget_avg": 25,
+            "pint_price": 8.5
+        },
+        "poi-095": {
+            "name": "Moonshiner",
+            "type": "speakeasy",
+            "budget_avg": 14,
+            "pint_price": 5
+        },
+        "poi-102": {
+            "name": "Folderol",
+            "type": "bar",
+            "budget_avg": 14,
+            "pint_price": 8,
+            "main_dish_price": 7
+        },
+        "poi-023": {
+            "name": "Bouillon Chartier",
+            "type": "bouillon",
+            "budget_avg": 14,
+            "main_dish_price": 12
+        },
+        "poi-077": {
+            "name": "Bouillon Pigalle",
+            "type": "bouillon",
+            "budget_avg": 15,
+            "main_dish_price": 11
+        },
+        "poi-013": {
+            "name": "Rex Club",
+            "type": "techno-club",
+            "budget_avg": 15,
+            "main_dish_price": 15
+        },
+        "poi-009": {
+            "name": "Palais de Tokyo",
+            "type": "museum",
+            "budget_avg": 14
+        },
+        "poi-025": {
+            "name": "Atelier des Lumières",
+            "type": "museum",
+            "budget_avg": 17
+        },
+        "poi-061": {
+            "name": "Musée Rodin",
+            "type": "museum",
+            "budget_avg": 14,
+            "main_dish_price": 14.5
+        },
+        "poi-160": {
+            "name": "Musée d'Orsay",
+            "type": "museum",
+            "budget_avg": 16
+        },
+        "poi-128": {
+            "name": "Musée Carnavalet",
+            "type": "museum",
+            "budget_avg": 0
+        },
+        "poi-140": {
+            "name": "Le Crocodile",
+            "type": "cocktail-bar",
+            "budget_avg": 12
+        },
+        "poi-190": {
+            "name": "Buddy Buddy",
+            "type": "coffee-shop",
+            "budget_avg": 14,
+            "coffee_price": 4.5
+        },
+        "poi-220": {
+            "name": "Bloom",
+            "type": "cafe",
+            "budget_avg": 16,
+            "coffee_price": 4.5
+        },
+        "poi-105": {
+            "name": "Candelaria",
+            "budget_avg": 15,
+            "pint_price": 8
+        },
+        "poi-185": {
+            "name": "Merci",
+            "budget_avg": 15,
+            "coffee_price": 2.8
+        },
+        "poi-034": {
+            "name": "Shakespeare and Company Café",
+            "budget_avg": 15,
+            "coffee_price": 4.5,
+            "main_dish_price": 30
+        },
+        "poi-075": {
+            "name": "Carette",
+            "budget_avg": 15,
+            "coffee_price": 4.7
+        },
+        "poi-041": {
+            "name": "Coutume Café",
+            "budget_avg": 15,
+            "coffee_price": 2.5
+        },
+        "poi-114": {
+            "name": "Buvette Paris",
+            "budget_avg": 25,
+            "main_dish_price": 16
+        },
+        "poi-114-old": {
+            "name": "Le Pure Café",
+            "budget_avg": 15,
+            "coffee_price": 3.5,
+            "main_dish_price": 18
+        },
+        "poi-159": {
+            "name": "Les Éditeurs",
+            "budget_avg": 15,
+            "coffee_price": 3.6,
+            "pint_price": 8.5
+        },
+        "poi-178": {
+            "name": "Le Select",
+            "budget_avg": 15,
+            "coffee_price": 3.5,
+            "pint_price": 8.5
+        },
+        "poi-186": {
+            "name": "Café de la Nouvelle Mairie",
+            "budget_avg": 15,
+            "coffee_price": 3
+        },
+        "poi-176": {
+            "name": "Le Comptoir du Panthéon",
+            "budget_avg": 15,
+            "coffee_price": 4,
+            "main_dish_price": 12
+        },
+        "poi-233": {
+            "name": "Dose Batignolles",
+            "budget_avg": 15,
+            "coffee_price": 3.5,
+            "main_dish_price": 19
+        },
+        "poi-024": {
+            "name": "Le Pavillon Puebla",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-046": {
+            "name": "Paname Brewing Company",
+            "budget_avg": 15,
+            "pint_price": 7.5
+        },
+        "poi-047": {
+            "name": "Brussels Beer Project Canal",
+            "budget_avg": 15,
+            "pint_price": 8,
+            "coffee_price": 2.8
+        },
+        "poi-057": {
+            "name": "La Fine Mousse",
+            "budget_avg": 15,
+            "pint_price": 8.5,
+            "main_dish_price": 13
+        },
+        "poi-067": {
+            "name": "Combat",
+            "budget_avg": 15,
+            "pint_price": 8
+        },
+        "poi-071": {
+            "name": "The Cambridge Public House",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-131": {
+            "name": "La Folie en Tête",
+            "budget_avg": 15,
+            "pint_price": 6
+        },
+        "poi-125": {
+            "name": "Le Très Particulier",
+            "budget_avg": 15,
+            "pint_price": 10,
+            "is_free": false
+        },
+        "poi-045": {
+            "name": "Le Perchoir Ménilmontant",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-097": {
+            "name": "Fréquence",
+            "budget_avg": 15,
+            "pint_price": 8.5
+        },
+        "poi-124": {
+            "name": "Sister Midnight",
+            "budget_avg": 15,
+            "pint_price": 8.5
+        },
+        "poi-126": {
+            "name": "Le Perchoir Marais",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-151": {
+            "name": "Le Hasard Ludique",
+            "budget_avg": 15,
+            "pint_price": 7.5
+        },
+        "poi-148": {
+            "name": "L Avant Comptoir de la Mer",
+            "budget_avg": 15,
+            "pint_price": 8.5,
+            "main_dish_price": 18
+        },
+        "poi-162": {
+            "name": "Le Bristol Bar",
+            "budget_avg": 15,
+            "pint_price": 15
+        },
+        "poi-010": {
+            "name": "Le Pavillon Puebla",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-074": {
+            "name": "Le Perchoir Ménilmontant",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-081": {
+            "name": "Paname Brewing Company",
+            "budget_avg": 15,
+            "pint_price": 7.5
+        },
+        "poi-085": {
+            "name": "Brussels Beer Project Canal",
+            "budget_avg": 15,
+            "pint_price": 8
+        },
+        "poi-086": {
+            "name": "La Fine Mousse",
+            "budget_avg": 15,
+            "pint_price": 8.5
+        },
+        "poi-098": {
+            "name": "Combat",
+            "budget_avg": 15,
+            "pint_price": 8
+        },
+        "poi-099": {
+            "name": "Sister Midnight",
+            "budget_avg": 15,
+            "pint_price": 8.5
+        },
+        "poi-103": {
+            "name": "The Cambridge Public House",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-127": {
+            "name": "Le Perchoir Marais",
+            "budget_avg": 15,
+            "pint_price": 10
+        },
+        "poi-139": {
+            "name": "Le Hasard Ludique",
+            "budget_avg": 15,
+            "pint_price": 7.5
+        },
+        "poi-167": {
+            "name": "La Folie en Tête",
+            "budget_avg": 15,
+            "pint_price": 6
+        },
+        "poi-191": {
+            "name": "Le Bristol Bar",
+            "budget_avg": 15,
+            "pint_price": 15
+        },
+        "poi-206": {
+            "name": "Brasserie Auteuil",
+            "budget_avg": 15,
+            "pint_price": 8
+        },
+        "poi-001": {
+            "name": "L Anticafé Louvre",
+            "budget_avg": 15,
+            "coffee_price": 5
+        },
+        "poi-142": {
+            "name": "Café de la Nouvelle Mairie",
+            "budget_avg": 15,
+            "coffee_price": 3
+        },
+        "poi-143": {
+            "name": "Shakespeare and Company Café",
+            "budget_avg": 15,
+            "coffee_price": 4.5
+        },
+        "poi-146": {
+            "name": "Le Comptoir du Panthéon",
+            "budget_avg": 15,
+            "coffee_price": 4
+        },
+        "poi-149": {
+            "name": "Les Éditeurs",
+            "budget_avg": 15,
+            "coffee_price": 3.6
+        },
+        "poi-173": {
+            "name": "Le Select",
+            "budget_avg": 15,
+            "coffee_price": 3.5
+        },
+        "poi-187": {
+            "name": "Coutume Café",
+            "budget_avg": 15,
+            "coffee_price": 2.5
+        },
+        "poi-198": {
+            "name": "Carette Place des Ternes",
+            "budget_avg": 15,
+            "coffee_price": 4.7
+        },
+        "poi-208": {
+            "name": "Carette Trocadéro",
+            "budget_avg": 15,
+            "coffee_price": 4.7
+        },
+        "poi-221": {
+            "name": "Dose Batignolles",
+            "budget_avg": 15,
+            "coffee_price": 3.5
+        },
+        "poi-044": {
+            "name": "Septime",
+            "budget_avg": 85,
+            "main_dish_price": 85
+        },
+        "poi-063": {
+            "name": "Breizh Café",
+            "budget_avg": 15.5,
+            "main_dish_price": 15.5
+        },
+        "poi-147": {
+            "name": "Le Verre Volé",
+            "budget_avg": 23,
+            "main_dish_price": 23
+        },
+        "poi-012": {
+            "name": "Mokonuts",
+            "budget_avg": 28,
+            "main_dish_price": 28
+        },
+        "poi-225": {
+            "name": "Janine",
+            "budget_avg": 25,
+            "main_dish_price": 25
+        },
+        "poi-019": {
+            "name": "Billili",
+            "budget_avg": 20,
+            "main_dish_price": 20
+        },
+        "poi-018": {
+            "name": "Early June",
+            "budget_avg": 16,
+            "main_dish_price": 16
+        },
+        "poi-035": {
+            "name": "Hanoi Corner",
+            "budget_avg": 13.5,
+            "main_dish_price": 13.5
+        },
+        "poi-065": {
+            "name": "Bichettes",
+            "budget_avg": 18,
+            "main_dish_price": 18
+        },
+        "poi-069": {
+            "name": "Soces",
+            "budget_avg": 25,
+            "main_dish_price": 25
+        },
+        "poi-104": {
+            "name": "Le Saint-Sébastien",
+            "budget_avg": 33,
+            "main_dish_price": 33
+        },
+        "poi-168": {
+            "name": "Cheval d Or",
+            "budget_avg": 98,
+            "main_dish_price": 98
+        },
+        "poi-070": {
+            "name": "Bambino",
+            "budget_avg": 13,
+            "main_dish_price": 13
+        },
+        "poi-039": {
+            "name": "Poggi Cup",
+            "budget_avg": 12,
+            "main_dish_price": 12
+        },
+        "poi-119": {
+            "name": "Dumbo",
+            "budget_avg": 11,
+            "main_dish_price": 11
+        },
+        "poi-193": {
+            "name": "Girafe",
+            "budget_avg": 45,
+            "main_dish_price": 45
+        },
+        "poi-194": {
+            "name": "Bonnie",
+            "budget_avg": 45,
+            "main_dish_price": 45
+        },
+        "poi-078": {
+            "name": "Bouillon République",
+            "budget_avg": 11.5,
+            "main_dish_price": 11.5
+        },
+        "poi-079": {
+            "name": "Bouillon Julien",
+            "budget_avg": 12.5,
+            "main_dish_price": 12.5
+        },
+        "poi-108": {
+            "name": "Petit Bao",
+            "budget_avg": 13.5,
+            "main_dish_price": 13.5
+        },
+        "poi-109": {
+            "name": "Bleu Bao",
+            "budget_avg": 14,
+            "main_dish_price": 14
+        },
+        "poi-113": {
+            "name": "Dalia",
+            "budget_avg": 22,
+            "main_dish_price": 22
+        },
+        "poi-121": {
+            "name": "Stellar by Ephemera",
+            "budget_avg": 25,
+            "main_dish_price": 25
+        },
+        "poi-170": {
+            "name": "Pho Banh Cuon 14",
+            "budget_avg": 13.5,
+            "main_dish_price": 13.5
+        },
+        "poi-174": {
+            "name": "La Closerie des Lilas",
+            "budget_avg": 35,
+            "main_dish_price": 35
+        },
+        "poi-177": {
+            "name": "Chez Papa",
+            "budget_avg": 17,
+            "main_dish_price": 17
+        },
+        "poi-179": {
+            "name": "La Coupole",
+            "budget_avg": 24,
+            "main_dish_price": 24
+        },
+        "poi-175": {
+            "name": "Le Dôme",
+            "budget_avg": 45,
+            "main_dish_price": 45
+        },
+        "poi-115": {
+            "name": "Miznon Marais",
+            "budget_avg": 13.5,
+            "main_dish_price": 13.5
+        },
+        "poi-096": {
+            "name": "Istr",
+            "budget_avg": 28,
+            "main_dish_price": 28
+        },
+        "poi-100": {
+            "name": "Carbonis",
+            "budget_avg": 24,
+            "main_dish_price": 24
+        },
+        "poi-120": {
+            "name": "Le Servan",
+            "budget_avg": 30,
+            "main_dish_price": 28
+        },
+        "poi-015": {
+            "name": "La Felicita",
+            "budget_avg": 18,
+            "main_dish_price": 14
+        },
+        "poi-137": {
+            "name": "Ground Control",
+            "budget_avg": 12,
+            "pint_price": 7,
+            "pint_hh": 5,
+            "hh_time": "17:00-19:00"
+        },
+        "poi-150": {
+            "name": "Le Petit Cler",
+            "budget_avg": 18,
+            "main_dish_price": 18
+        },
+        "poi-153": {
+            "name": "Chez L Ami Jean",
+            "budget_avg": 45,
+            "main_dish_price": 45
+        },
+        "poi-215": {
+            "name": "HOBA",
+            "budget_avg": 14,
+            "main_dish_price": 14
+        },
+        "poi-218": {
+            "name": "Mamma Primi",
+            "budget_avg": 16,
+            "main_dish_price": 16
+        },
+        "poi-226": {
+            "name": "Papillon",
+            "budget_avg": 35,
+            "main_dish_price": 35
+        },
+        "poi-202": {
+            "name": "Girafe Paris",
+            "budget_avg": 45,
+            "main_dish_price": 45
+        },
+        "poi-237": {
+            "name": "La Gare",
+            "budget_avg": 28,
+            "main_dish_price": 28
+        },
+        "poi-055": {
+            "name": "Septime",
+            "main_dish_price": 85
+        },
+        "poi-154": {
+            "name": "Le Récamier",
+            "main_dish_price": 24
+        },
+        "poi-197": {
+            "name": "Le Piaf",
+            "main_dish_price": 30
+        },
+        "poi-216": {
+            "name": "Le Bistrot des Dames",
+            "main_dish_price": 29
+        },
+        "poi-227": {
+            "name": "La Recoleta",
+            "main_dish_price": 21
+        }
+    }
+}

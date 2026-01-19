@@ -132,12 +132,15 @@ const GridOverlay = () => (
 );
 
 // --- DRAGGABLE CAPTION (Snapchat-style) ---
+// --- DRAGGABLE CAPTION - SNAPCHAT STYLE ---
 interface DraggableCaptionProps {
     text: string;
     onChangeText: (text: string) => void;
+    bgMode: 'transparent' | 'black' | 'white';
+    onToggleBg: () => void;
 }
 
-const DraggableCaption = ({ text, onChangeText }: DraggableCaptionProps) => {
+const DraggableCaption = ({ text, onChangeText, bgMode, onToggleBg }: DraggableCaptionProps) => {
     const translateX = useSharedValue(0);
     const translateY = useSharedValue(0);
     const scale = useSharedValue(1);
@@ -171,13 +174,7 @@ const DraggableCaption = ({ text, onChangeText }: DraggableCaptionProps) => {
             scale.value = Math.max(0.3, Math.min(4, savedScale.value * e.scale));
         })
         .onEnd(() => {
-            // Snap to 1 if close
-            if (scale.value > 0.9 && scale.value < 1.1) {
-                scale.value = withSpring(1, { damping: 15 });
-                savedScale.value = 1;
-            } else {
-                savedScale.value = scale.value;
-            }
+            savedScale.value = scale.value;
             isActive.value = false;
         });
 
@@ -189,19 +186,17 @@ const DraggableCaption = ({ text, onChangeText }: DraggableCaptionProps) => {
             rotation.value = savedRotation.value + e.rotation;
         })
         .onEnd(() => {
-            // Snap to 0 if close to horizontal
-            const degrees = (rotation.value * 180) / Math.PI;
-            if (Math.abs(degrees % 90) < 5) {
-                const snapped = Math.round(degrees / 90) * 90 * (Math.PI / 180);
-                rotation.value = withSpring(snapped, { damping: 15 });
-                savedRotation.value = snapped;
-            } else {
-                savedRotation.value = rotation.value;
-            }
+            savedRotation.value = rotation.value;
             isActive.value = false;
         });
 
-    const gesture = Gesture.Simultaneous(panGesture, pinchGesture, rotationGesture);
+    // Tap to toggle background
+    const tapGesture = Gesture.Tap()
+        .onEnd(() => {
+            runOnJS(onToggleBg)();
+        });
+
+    const gesture = Gesture.Simultaneous(panGesture, pinchGesture, rotationGesture, tapGesture);
 
     const animatedStyle = useAnimatedStyle(() => ({
         transform: [
@@ -210,19 +205,30 @@ const DraggableCaption = ({ text, onChangeText }: DraggableCaptionProps) => {
             { scale: scale.value },
             { rotate: `${rotation.value}rad` },
         ],
-        opacity: isActive.value ? 0.9 : 1,
+        // Shadow for better visibility
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
     }));
 
-    // If no text yet, show nothing (use top-right hint instead)
-    if (!text) {
-        return null;
-    }
+    if (!text) return null;
 
-    // Once text is entered, make it draggable
+    const getBgStyle = () => {
+        if (bgMode === 'black') return { backgroundColor: 'rgba(0,0,0,0.6)' };
+        if (bgMode === 'white') return { backgroundColor: 'rgba(255,255,255,0.85)' };
+        return { backgroundColor: 'transparent' };
+    };
+
+    const getTextStyle = () => {
+        if (bgMode === 'white') return { color: '#000' };
+        return { color: '#fff', textShadowColor: 'rgba(0,0,0,0.7)', textShadowRadius: 3 };
+    };
+
     return (
         <GestureDetector gesture={gesture}>
-            <Animated.View style={[styles.draggableText, animatedStyle]}>
-                <Text style={styles.draggableTextContent}>{text}</Text>
+            <Animated.View style={[styles.draggableText, animatedStyle, getBgStyle()]}>
+                <Text style={[styles.draggableTextContent, getTextStyle()]}>{text}</Text>
             </Animated.View>
         </GestureDetector>
     );
@@ -247,7 +253,9 @@ export default function CreateMomentScreen() {
     const [caption, setCaption] = useState('');
     const [selectedMood, setSelectedMood] = useState<'chill' | 'festif' | 'culturel' | null>(null);
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [showSuccess, setShowSuccess] = useState(false);
     const [isEditingText, setIsEditingText] = useState(false);
+    const [captionBgMode, setCaptionBgMode] = useState<'transparent' | 'black' | 'white'>('transparent');
     const textInputRef = useRef<TextInput>(null);
 
     const cameraRef = useRef<CameraView>(null);
@@ -381,22 +389,33 @@ export default function CreateMomentScreen() {
             Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
             return;
         }
+
         setIsSubmitting(true);
+        // Heavy success haptic
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+
+        // Show success animation
+        setShowSuccess(true);
+
+        const place = places.find(p => p.id === selectedPlaceId);
+
+        // Optimistic update
+        addMoment({
+            placeId: selectedPlaceId,
+            placeName: place?.name || 'Unknown',
+            imageUri: capturedMedia.uri,
+            caption,
+            mood: selectedMood,
+            type: capturedMedia.type,
+        });
+
+        // Delay close for animation
         setTimeout(() => {
-            const place = places.find(p => p.id === selectedPlaceId);
-            addMoment({
-                placeId: selectedPlaceId,
-                placeName: place?.name || 'Unknown',
-                imageUri: capturedMedia.uri,
-                caption,
-                mood: selectedMood,
-                type: capturedMedia.type,
-            });
             setIsSubmitting(false);
             router.dismissAll();
+            // Force feed refresh feel
             router.replace('/(tabs)/feed');
-        }, 800);
+        }, 1200);
     };
 
     const selectedPlace = places.find(p => p.id === selectedPlaceId);
@@ -626,6 +645,11 @@ export default function CreateMomentScreen() {
                                     <DraggableCaption
                                         text={caption}
                                         onChangeText={setCaption}
+                                        bgMode={captionBgMode}
+                                        onToggleBg={() => {
+                                            Haptics.selectionAsync();
+                                            setCaptionBgMode(prev => prev === 'transparent' ? 'black' : prev === 'black' ? 'white' : 'transparent');
+                                        }}
                                     />
                                 ) : null}
                             </View>
@@ -674,6 +698,14 @@ export default function CreateMomentScreen() {
                                 </Pressable>
                             </View>
                         </View>
+
+                        {/* SUCCESS OVERLAY */}
+                        {showSuccess && (
+                            <Animated.View entering={FadeIn} style={styles.successOverlay}>
+                                <Ionicons name="checkmark-circle" size={80} color={MOOD_COLORS[selectedMood!]} />
+                                <Text style={styles.successText}>Moment Publié !</Text>
+                            </Animated.View>
+                        )}
                     </View>
                 </TouchableWithoutFeedback>
             </GestureHandlerRootView>
@@ -748,29 +780,11 @@ const styles = StyleSheet.create({
     cameraHint: { textAlign: 'center', color: 'rgba(255,255,255,0.5)', fontSize: 12, marginTop: 12 },
 
     reviewOverlay: { flex: 1, justifyContent: 'space-between' },
+    reviewTopSection: {},
     reviewHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16 },
     reviewHeaderRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12 },
-    reviewHeaderCompact: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, gap: 8 },
-    addTextBtnSmall: {
-        width: 36,
-        height: 36,
-        borderRadius: 18,
-        backgroundColor: 'rgba(255,255,255,0.1)',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    addTextBtnVisible: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 6,
-        backgroundColor: 'rgba(255,255,255,0.2)',
-        paddingHorizontal: 14,
-        paddingVertical: 8,
-        borderRadius: 20,
-        borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.3)',
-    },
-    addTextBtnLabel: { color: '#fff', fontSize: 13, fontWeight: '600' },
+
+    // Add Text Button
     addTextButton: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -781,12 +795,12 @@ const styles = StyleSheet.create({
         borderRadius: 22,
         borderWidth: 1.5,
         borderColor: 'rgba(255,255,255,0.5)',
+        alignSelf: 'flex-end',
     },
     addTextButtonLabel: { color: '#fff', fontSize: 14, fontWeight: '600' },
-    addTextHint: { color: 'rgba(255,255,255,0.5)', fontSize: 12, fontWeight: '500' },
-    reviewTopSection: {},
-    reviewTitle: { color: '#fff', fontSize: 18, fontWeight: '700' },
-    captionContainer: { flex: 1, justifyContent: 'center', paddingHorizontal: 24 },
+
+    // Caption Area
+    captionAreaFull: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 16 },
     captionInputCenter: {
         color: '#fff',
         fontSize: 22,
@@ -797,43 +811,22 @@ const styles = StyleSheet.create({
         textShadowColor: 'rgba(0,0,0,0.8)',
         textShadowOffset: { width: 0, height: 1 },
         textShadowRadius: 6,
-    },
-    captionArea: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-    captionAreaFull: { flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 16 },
-    captionInput: { color: '#fff', fontSize: 20, fontWeight: '600', textAlign: 'center', textShadowColor: 'rgba(0,0,0,0.8)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 6 },
-    subtlePlaceholder: {
-        color: '#fff',
-        fontSize: 16,
-        fontWeight: '500',
-        textAlign: 'center',
-        paddingHorizontal: 20,
-        paddingVertical: 12,
-        backgroundColor: 'rgba(255,255,255,0.08)',
-        borderRadius: 20,
-        minWidth: 60,
+        width: '100%',
     },
 
-    moodContainer: { paddingHorizontal: 20, paddingBottom: 20, alignItems: 'center' },
-    moodTitle: { color: '#fff', fontSize: 14, fontWeight: '600', marginBottom: 14, opacity: 0.9 },
-    moodRow: { flexDirection: 'row', gap: 10, marginBottom: 18 },
-    moodBubble: {
-        flexDirection: 'row',
+    // Draggable Text
+    draggableText: {
+        position: 'absolute',
+        alignSelf: 'center',
+        top: '50%',
+        paddingHorizontal: 16,
+        paddingVertical: 8,
+        borderRadius: 8,
+        minWidth: 100,
         alignItems: 'center',
-        paddingHorizontal: 18,
-        paddingVertical: 12,
-        borderRadius: 24,
-        backgroundColor: 'rgba(0,0,0,0.6)',
-        borderWidth: 2,
-        gap: 8
+        justifyContent: 'center',
     },
-    moodText: { fontWeight: '700', fontSize: 15 },
-    publishBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', height: 52, borderRadius: 26 },
-    publishText: { color: '#fff', fontSize: 16, fontWeight: '700' },
-
-    // Draggable Text styles
-    draggableText: { alignItems: 'center', padding: 16 },
     draggableTextContent: {
-        color: '#fff',
         fontSize: 24,
         fontWeight: '700',
         textAlign: 'center',
@@ -842,32 +835,38 @@ const styles = StyleSheet.create({
         textShadowRadius: 8,
         maxWidth: width - 40,
     },
-    dragHint: { color: 'rgba(255,255,255,0.4)', fontSize: 11, marginTop: 8 },
-    addTextBtn: {
-        flexDirection: 'row',
+
+    // Mood Selector
+    moodContainer: { paddingHorizontal: 20, paddingBottom: 20, alignItems: 'center', gap: 16, marginBottom: 10 },
+    moodTitle: { color: '#fff', fontSize: 16, fontWeight: '600', marginBottom: 4 },
+    moodRow: { flexDirection: 'row', gap: 12, marginBottom: 12 },
+    moodBubble: {
+        flexDirection: 'row', alignItems: 'center', gap: 8,
+        paddingHorizontal: 16, paddingVertical: 10,
+        borderRadius: 24, borderWidth: 1.5, backgroundColor: 'rgba(0,0,0,0.3)'
+    },
+    moodText: { fontSize: 14, fontWeight: '700' },
+
+    // Publish Button
+    publishBtn: {
+        flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+        height: 56, borderRadius: 28, width: '100%'
+    },
+    publishText: { color: '#fff', fontSize: 18, fontWeight: '700' },
+
+    // Success Overlay
+    successOverlay: {
+        ...StyleSheet.absoluteFillObject,
+        backgroundColor: 'rgba(0,0,0,0.85)',
         alignItems: 'center',
-        gap: 8,
-        backgroundColor: 'rgba(255,255,255,0.15)',
-        paddingHorizontal: 20,
-        paddingVertical: 12,
-        borderRadius: 24,
-        borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.3)',
+        justifyContent: 'center',
+        zIndex: 9999,
+        gap: 16,
     },
-    addTextLabel: { color: '#fff', fontSize: 15, fontWeight: '600' },
-    editingContainer: { alignItems: 'center', paddingHorizontal: 20, gap: 16 },
-    editingInput: {
+    successText: {
         color: '#fff',
-        fontSize: 22,
-        fontWeight: '600',
-        textAlign: 'center',
-        backgroundColor: 'rgba(0,0,0,0.5)',
-        paddingHorizontal: 20,
-        paddingVertical: 16,
-        borderRadius: 16,
-        minWidth: 200,
-        maxWidth: width - 40,
+        fontSize: 24,
+        fontWeight: 'bold',
+        letterSpacing: 1,
     },
-    doneBtn: { backgroundColor: MOOD_COLORS.festif, paddingHorizontal: 24, paddingVertical: 10, borderRadius: 20 },
-    doneBtnText: { color: '#fff', fontSize: 15, fontWeight: '700' },
 });

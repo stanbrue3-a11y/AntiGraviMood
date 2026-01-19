@@ -121,3 +121,9 @@ export function useColors() {
     const { theme, getMoodColor } = useTheme();
     return { ...theme, getMoodColor, moodColors };
 }
+
+// Hook raccourci pour les tokens
+export function useTokens() {
+    const { tokens } = useTheme();
+    return tokens;
+}

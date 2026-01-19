@@ -228,7 +228,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 7,
+                "sociology_factor": 0,
                 "smart_tip": "Péniche sur 3 niveaux. Rooftop gratuit avant une certaine heure.",
                 "items": [
                     {
@@ -794,7 +794,7 @@
                 "average_price": 18,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 29,
+                "sociology_factor": 0,
                 "smart_tip": "Le bar 'Herbarium' fait des cocktails parfumerie incroyables.",
                 "items": [
                     {
@@ -929,7 +929,7 @@
                 "average_price": 20,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 25,
+                "sociology_factor": 67,
                 "smart_tip": "Lieu culturel hybride. Le brunch du dimanche est un classique.",
                 "items": [
                     {
@@ -1349,7 +1349,7 @@
                 "average_price": 13,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -7,
                 "smart_tip": "Ouvert jusqu'à minuit. Art contemporain parfois... surprenant.",
                 "items": [
                     {
@@ -1480,7 +1480,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 25,
                 "smart_tip": "Ambiance sympa pour un verre.",
                 "items": [
                     {
@@ -1905,7 +1905,7 @@
                 "average_price": 18,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 29,
+                "sociology_factor": 125,
                 "smart_tip": "Un secret caché à Montmartre. Cadre féerique.",
                 "items": [
                     {
@@ -2041,7 +2041,7 @@
                 "average_price": 20,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 43,
+                "sociology_factor": 33,
                 "smart_tip": "Sound-system légendaire. Bouchons d'oreilles recommandés.",
                 "items": [
                     {
@@ -2336,7 +2336,7 @@
                 "average_price": 22,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -21,
                 "smart_tip": "Immense halle. Commandez via l'app pour éviter la queue au bar.",
                 "items": [
                     {
@@ -2764,7 +2764,7 @@
                 "average_price": 14,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 100,
+                "sociology_factor": 75,
                 "smart_tip": "Très petit, très instagrammable. L'Avocado Toast est une référence.",
                 "items": [
                     {
@@ -3310,7 +3310,7 @@
                 "average_price": 5,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -29,
                 "smart_tip": "Torréfaction sur place. Le temple du café de spécialité.",
                 "items": [
                     {
@@ -3459,7 +3459,7 @@
                 "average_price": 18,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -10,
+                "sociology_factor": -36,
                 "smart_tip": "Le bœuf bourguignon avec des coquillettes, imbattable.",
                 "items": [
                     {
@@ -3616,7 +3616,7 @@
                 "average_price": 9,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 13,
                 "smart_tip": "Le rade mythique du Faubourg. Toujours bondé, toujours vivant.",
                 "items": [
                     {
@@ -3759,7 +3759,7 @@
                 "average_price": 17,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 6,
+                "sociology_factor": 42,
                 "smart_tip": "Immersion totale. Réservez votre créneau en ligne, toujours plein.",
                 "items": [
                     {
@@ -3894,7 +3894,7 @@
                 "average_price": 16,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 14,
+                "sociology_factor": -11,
                 "smart_tip": "Rooftop avec vue sur la petite ceinture. Ambiance festive.",
                 "items": [
                     {
@@ -4040,7 +4040,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 114,
+                "sociology_factor": 88,
                 "smart_tip": "Le brunch est sain et copieux. Super jus pressés à froid.",
                 "items": [
                     {
@@ -4333,7 +4333,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "Le plus escarpé. Montez au temple de la Sibylle pour la vue.",
                 "items": [
                     {
@@ -4470,7 +4470,7 @@
                 "average_price": 28,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 100,
+                "sociology_factor": 56,
                 "smart_tip": "Le patio est légendaire. Très chic, très cher, très vu.",
                 "items": [
                     {
@@ -4603,7 +4603,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 25,
                 "smart_tip": "Ambiance sympa pour un verre.",
                 "items": [
                     {
@@ -4739,7 +4739,7 @@
                 "average_price": 6,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -25,
                 "smart_tip": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
                 "items": [
                     {
@@ -4883,7 +4883,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -50,
+                "sociology_factor": -64,
                 "smart_tip": "Ancienne gare de marchandises. Immense tiers-lieu éco-responsable.",
                 "items": [
                     {
@@ -5029,7 +5029,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "Le parc le plus chic. Ruines romantiques et manège ancien.",
                 "items": [
                     {
@@ -5168,7 +5168,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 25,
                 "smart_tip": "Ambiance sympa pour un verre.",
                 "items": [
                     {
@@ -5307,7 +5307,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -50,
+                "sociology_factor": -64,
                 "smart_tip": "Sur la petite ceinture. On boit un coup sur les rails.",
                 "items": [
                     {
@@ -5446,7 +5446,7 @@
                 "average_price": 10,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -29,
                 "smart_tip": "Ambiance sympa pour un verre.",
                 "items": [
                     {
@@ -5581,7 +5581,7 @@
                 "average_price": 40,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 0,
+                "sociology_factor": 43,
                 "smart_tip": "Table d'hôte unique (5 pers max). Cuisine sicilienne authentique.",
                 "items": [
                     {
@@ -5727,7 +5727,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 7,
                 "smart_tip": "Idéal famille (Cité des enfants). Le Planétarium vaut le détour.",
                 "items": [
                     {
@@ -5862,7 +5862,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -25,
+                "sociology_factor": 0,
                 "smart_tip": "Louez une barque pour aller voir le temple bouddhiste au milieu.",
                 "items": [
                     {
@@ -5977,7 +5977,7 @@
                 "average_price": 5,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -37,
                 "smart_tip": "Plus petit café de Paris (ancienne cordonnerie). Café de spécialité.",
                 "items": [
                     {
@@ -6088,7 +6088,7 @@
                 "average_price": 5.5,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -31,
                 "smart_tip": "Torréfaction sur place. Ambiance industrielle et bruyante.",
                 "items": [
                     {
@@ -6204,7 +6204,7 @@
                 "average_price": 5,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -37,
                 "smart_tip": "Pionnier du coffee shop parisien. Le Sausage Roll est top.",
                 "items": [
                     {
@@ -6319,7 +6319,7 @@
                 "average_price": 6,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -25,
                 "smart_tip": "Café et photo. Ambiance studieuse et pâtisseries vegan.",
                 "items": [
                     {
@@ -6434,7 +6434,7 @@
                 "average_price": 30,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 329,
+                "sociology_factor": 275,
                 "smart_tip": "Pensez à réserver.",
                 "items": [
                     {
@@ -6553,7 +6553,7 @@
                 "average_price": 8,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 14,
+                "sociology_factor": 0,
                 "smart_tip": "Une vraie maison où on peut boire un café dans la baignoire.",
                 "items": [
                     {
@@ -6666,7 +6666,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "Les chaises vertes sont iconiques. Attention aux horaires de fermeture.",
                 "items": [
                     {
@@ -6764,7 +6764,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "La plus vieille place de Paris. Pelouses autorisées.",
                 "items": [
                     {
@@ -6863,7 +6863,7 @@
                 "average_price": 24,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 33,
                 "smart_tip": "Le patio est une jungle romantique. Brunch très couru.",
                 "items": [
                     {
@@ -7087,7 +7087,7 @@
                 "average_price": 16,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": 0,
+                "sociology_factor": -11,
                 "smart_tip": "Le lobby est ouvert à tous pour travailler ou chiller sur les canapés.",
                 "items": [
                     {
@@ -7202,7 +7202,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "Les colonnes de Buren et les allées de tilleuls.",
                 "items": [
                     {
@@ -7307,7 +7307,7 @@
                 "average_price": 0,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -100,
+                "sociology_factor": 0,
                 "smart_tip": "Petit parc familial très prisé du Marais.",
                 "items": [
                     {
@@ -7414,7 +7414,7 @@
                 "average_price": 18,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 157,
+                "sociology_factor": 125,
                 "smart_tip": "La Cantine est charmante. Entouré de livres d'occasion.",
                 "items": [
                     {
@@ -7525,7 +7525,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 7,
+                "sociology_factor": 88,
                 "smart_tip": "Tiki Bar. Les cocktails sont servis dans des totems fumants.",
                 "items": [
                     {
@@ -7636,7 +7636,7 @@
                 "average_price": 16,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 14,
+                "sociology_factor": 100,
                 "smart_tip": "Le pionnier du cocktail à Paris. Ambiance speakeasy feutrée.",
                 "items": [
                     {
@@ -7746,7 +7746,7 @@
                 "average_price": 13,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 0,
+                "sociology_factor": 63,
                 "smart_tip": "Pas de menu. Dites ce que vous aimez, ils créent pour vous.",
                 "items": [
                     {
@@ -8218,7 +8218,7 @@
                 "average_price": 26,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -7,
                 "smart_tip": "Les cocktails servis dans des têtes de licorne sont un must.",
                 "items": [
                     {
@@ -8337,7 +8337,7 @@
                 "average_price": 110,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 175,
+                "sociology_factor": 293,
                 "smart_tip": "Réservation obligatoire 3 semaines à l'avance à 10h pile.",
                 "items": [
                     {
@@ -8457,7 +8457,7 @@
                 "average_price": 45,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 13,
+                "sociology_factor": 61,
                 "smart_tip": "Pas de résa. Arrivez tôt. Le plateau de fruits de mer est top.",
                 "items": [
                     {
@@ -8569,7 +8569,7 @@
                 "average_price": 35,
                 "currency": "€",
                 "price_range": 3,
-                "sociology_factor": 0,
+                "sociology_factor": 25,
                 "smart_tip": "Vins natures et vinyles. Ambiance qui monte le soir.",
                 "items": [
                     {
@@ -8689,7 +8689,7 @@
                 "average_price": 18,
                 "currency": "€",
                 "price_range": 1,
-                "sociology_factor": -10,
+                "sociology_factor": -36,
                 "smart_tip": "Le chou-fleur rôti entier est légendaire.",
                 "items": [
                     {
@@ -8807,7 +8807,7 @@
                 "average_price": 16,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 14,
+                "sociology_factor": 100,
                 "smart_tip": "Happy-hour huîtres à 1€ (17h-18h). Les cocktails sont pointus.",
                 "items": [
                     {
@@ -8926,7 +8926,7 @@
                 "average_price": 25,
                 "currency": "€",
                 "price_range": 4,
-                "sociology_factor": 79,
+                "sociology_factor": 213,
                 "smart_tip": "Le petit frère du Vivant. On mange debout au comptoir.",
                 "items": [
                     {
@@ -9036,7 +9036,7 @@
                 "average_price": 13,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -7,
                 "smart_tip": "Le jardin de sculptures est accessible pour 4€ (sans le musée).",
                 "items": [
                     {
@@ -9151,7 +9151,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 7,
                 "smart_tip": "Le jardin sauvage est une œuvre d'art en soi.",
                 "items": [
                     {
@@ -9261,7 +9261,7 @@
                 "average_price": 12.5,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -11,
                 "smart_tip": "Les Nymphéas de Monet sont le clou du spectacle.",
                 "items": [
                     {
@@ -9371,7 +9371,7 @@
                 "average_price": 12,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": -14,
                 "smart_tip": "Temple de la photographie à la Concorde.",
                 "items": [
                     {
@@ -9695,7 +9695,7 @@
                 "average_price": 15,
                 "currency": "€",
                 "price_range": 2,
-                "sociology_factor": 0,
+                "sociology_factor": 7,
                 "smart_tip": "L'architecture de Tadao Ando est aussi belle que les œuvres.",
                 "items": [
                     {

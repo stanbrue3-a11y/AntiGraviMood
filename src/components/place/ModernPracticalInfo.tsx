@@ -86,7 +86,7 @@ const IGNORED_KEYS = new Set([
 ]);
 
 // Helper to get config case-insensitively
-const getIdConfig = (key: string) => {
+const getIdConfig = (key: string): { icon: keyof typeof Ionicons.glyphMap; label: string } => {
     // 1. Try exact match
     if (INFO_CONFIG[key]) return INFO_CONFIG[key];
 

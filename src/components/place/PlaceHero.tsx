@@ -12,6 +12,27 @@ interface PlaceHeroProps {
 
 const SERIF_FONT = Platform.select({ ios: 'Georgia', android: 'serif' });
 
+const getCategoryLabel = (place: Place) => {
+    const cats = place.categories || [place.category];
+
+    // Smart Brasserie Detection
+    const hasBar = cats.includes('bar');
+    const hasResto = cats.includes('restaurant');
+    const hasCafe = cats.includes('café');
+
+    let displayCats = cats.map(c => {
+        if (c === 'museum') return 'MUSÉE';
+        if (c === 'restaurant') return 'RESTO';
+        return c.toUpperCase();
+    });
+
+    if (hasBar && hasResto && hasCafe) {
+        return `BRASSERIE • BAR • RESTO`;
+    }
+
+    return displayCats.join(' • ');
+};
+
 export const PlaceHero = ({ place }: PlaceHeroProps) => {
     return (
         <View style={styles.heroContainer}>
@@ -24,8 +45,7 @@ export const PlaceHero = ({ place }: PlaceHeroProps) => {
             />
 
             <View style={styles.heroContent} pointerEvents="none">
-                <Text style={styles.heroTitle}>{place.name}</Text>
-                <Text style={styles.heroAddress}>{place.location?.address || ''}</Text>
+                <Text style={styles.heroTitle} numberOfLines={2}>{place.name}</Text>
             </View>
         </View>
     );
@@ -48,27 +68,36 @@ const styles = StyleSheet.create({
     },
     heroContent: {
         position: 'absolute',
-        bottom: 24, // Matched Explore (was 20)
-        left: 24,   // Matched Explore (was 20)
-        right: 24,  // Matched Explore (was 20)
+        bottom: 12,
+        left: 24,
+        right: 24,
         zIndex: 2,
     },
+    categoryRow: {
+        flexDirection: 'row',
+        alignItems: 'baseline',
+        marginTop: 2,
+    },
+    heroCategory: {
+        fontSize: 12,
+        fontWeight: '900',
+        color: 'rgba(255,255,255,0.7)',
+        letterSpacing: 1.2,
+    },
     heroTitle: {
-        fontSize: 32, // Matched Explore (was 28)
+        fontSize: 34,
         fontFamily: SERIF_FONT,
         fontWeight: '700',
         color: '#fff',
-        marginBottom: 4, // Matched Explore (was 8)
-        textShadowColor: 'rgba(0,0,0,0.5)', // Matched Explore
-        textShadowOffset: { width: 0, height: 2 }, // Matched Explore
-        textShadowRadius: 8, // Matched Explore
+        marginBottom: 2,
+        textShadowColor: 'rgba(0,0,0,0.5)',
+        textShadowOffset: { width: 0, height: 2 },
+        textShadowRadius: 8,
     },
     heroAddress: {
-        fontSize: 15,
-        fontFamily: SERIF_FONT,
-        fontWeight: '500',
-        color: 'rgba(255,255,255,0.95)', // Matched Explore
-        marginTop: 4,
+        fontSize: 13,
+        fontWeight: '600',
+        color: 'rgba(255,255,255,0.5)',
     },
 });
 

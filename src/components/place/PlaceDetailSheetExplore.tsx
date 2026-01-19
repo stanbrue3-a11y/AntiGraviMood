@@ -17,9 +17,11 @@ import { PlaceHero } from './PlaceHero';
 import { PlaceSocialFeed } from './PlaceSocialFeed';
 import { PlaceDescription } from './PlaceDescription';
 import { InteractivePriceGauge } from '../common/InteractivePriceGauge';
+import { MagneticPriceSelector } from '../common/MagneticPriceSelector';
 import { ModernPracticalInfo } from './ModernPracticalInfo';
 import { PlaceHours } from './PlaceHours';
 import { PlaceFaune } from './PlaceFaune';
+import { HappyHourBadge } from './HappyHourBadge';
 
 export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMode?: string }) => {
     const { theme, isDark } = useTheme(); // Added isDark here
@@ -162,58 +164,71 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                     {place.name}
                                 </Text>
 
-                                {/* Row: Mood + Price + Category */}
+                                {/* Row: Mood + Category only */}
                                 <View style={styles.metaRow}>
                                     <View style={[styles.moodBadge, { backgroundColor: primaryColor + '15' }]}>
-                                        <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood.toUpperCase()}</Text>
+                                        <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood === 'chill' ? 'CHILL' : dominantMood === 'festif' ? 'FESTIF' : 'CULTUREL'}</Text>
                                     </View>
-                                    <View style={styles.dividerVertical} />
+                                    <Text
+                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 12, flexShrink: 1 }]}
+                                        numberOfLines={1}
+                                        ellipsizeMode="tail"
+                                    >
+                                        {(() => {
+                                            const cats = place.categories || [place.category];
+                                            const hasBar = cats.includes('bar');
+                                            const hasResto = cats.includes('restaurant');
+                                            const hasCafe = cats.includes('café');
 
-                                    {/* INTERACTIVE PRICE GAUGE (Real Data) */}
-                                    {place.practical_info?.price_info && (
+                                            let label = '';
+                                            if (hasBar && hasResto && hasCafe) {
+                                                label = 'BRASSERIE → BAR, CAFÉ ET RESTO';
+                                            } else {
+                                                label = cats.map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join(' • ');
+                                            }
+
+                                            return label + `  •  ${place.location.arrondissement}E`;
+                                        })()}
+                                    </Text>
+                                    <HappyHourBadge place={place} color={primaryColor} />
+                                </View>
+
+                                {/* PRICE GAUGE - Full width row */}
+                                {place.practical_info?.price_info && (
+                                    <View style={{ marginTop: 4, marginBottom: 16 }}>
                                         <InteractivePriceGauge
+                                            arrondissement={place.location.arrondissement}
                                             placeType={(() => {
                                                 const cat = (place.category || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                                                if (cat.includes('bouillon')) return 'bouillon';
+                                                if (cat.includes('bar-a-vin')) return 'bar-a-vin';
+                                                if (cat.includes('cocktail-bar')) return 'cocktail-bar';
+                                                if (cat.includes('techno-club')) return 'techno-club';
                                                 if (['coffee-shop', 'cafe', 'tea-room', 'bakery'].includes(cat)) return 'cafe';
-                                                if (['bar', 'cocktail-bar', 'wine-bar', 'speakeasy', 'pub', 'biergarten'].includes(cat)) return 'bar';
+                                                if (['bar', 'pub', 'biergarten'].includes(cat)) return 'bar';
                                                 if (['club'].includes(cat)) return 'club';
                                                 if (['hotel'].includes(cat)) return 'hotel';
                                                 if (['museum', 'art-gallery', 'cultural-center', 'theatre', 'monument', 'espace-culturel'].includes(cat)) return 'culture';
                                                 if (['park', 'garden', 'walk'].includes(cat)) return 'park';
-                                                return 'restaurant'; // Default fallback
+                                                return 'restaurant';
                                             })()}
-                                            averagePrice={place.practical_info.price_info.average_price}
-                                            currency={place.practical_info.price_info.currency}
-                                            percentageVsAverage={place.practical_info.price_info.sociology_factor}
-                                            tip={place.practical_info.price_info.smart_tip}
-                                            categories={place.practical_info.price_info.items ? place.practical_info.price_info.items.map(cat => ({
+                                            pricing={place.pricing}
+                                            smartTip={place.practical_info?.price_info?.smart_tip}
+                                            categories={place.practical_info?.price_info?.items ? place.practical_info.price_info.items.map(cat => ({
                                                 icon: cat.category.includes('BOISSON') ? 'wine-outline' :
                                                     cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
                                                         cat.category.includes('PLAT') ? 'flame-outline' :
                                                             cat.category.includes('DESSERT') ? 'ice-cream-outline' : 'star-outline',
-                                                title: cat.category, // e.g. "ENTRÉES" or "COCKTAILS"
+                                                title: cat.category,
                                                 items: cat.items.map(item => ({
                                                     name: item.name,
                                                     price: item.price
                                                 }))
                                             })) : []}
                                             activeColor={primaryColor}
-                                            triggerComponent={
-                                                <PriceGauge
-                                                    pricing={place.pricing}
-                                                    legacyLevel={place.practical_info?.price_range as 1 | 2 | 3 | 4 || 2}
-                                                    category={place.category}
-                                                    moodColor={primaryColor}
-                                                    size="md"
-                                                    interactive={true}
-                                                />
-                                            }
                                         />
-                                    )}
-
-                                    <View style={styles.dividerVertical} />
-                                    <Text style={[styles.metaText, { color: primaryColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
-                                </View>
+                                    </View>
+                                )}
 
                                 {/* 🕒 HORAIRES */}
                                 {/* Inserted between Header Info and La Faune as requested */}
@@ -288,8 +303,8 @@ const styles = StyleSheet.create({
     },
     // Details Component Styles
     detailsContainer: { padding: 24, paddingTop: 4, marginTop: -20 },
-    metaRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 24 },
-    dividerVertical: { width: 1, height: 16, backgroundColor: '#E5E7EB', marginHorizontal: 12 },
+    metaRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 24, flexWrap: 'wrap', gap: 8 },
+    dividerVertical: { width: 1, height: 14, backgroundColor: '#E5E7EB', marginHorizontal: 8 },
 
     moodBadge: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: 12 },
     moodText: { fontSize: 12, fontWeight: '700', letterSpacing: 0.5 },

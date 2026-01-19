@@ -45,7 +45,8 @@ function RootLayoutNav() {
                         name="post/create"
                         options={{
                             headerShown: false,
-                            presentation: 'modal',
+                            presentation: 'fullScreenModal',
+                            animation: 'fade_from_bottom',
                         }}
                     />
                     <Stack.Screen

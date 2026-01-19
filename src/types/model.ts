@@ -37,6 +37,28 @@ export interface PricingBase {
     value_score: number;
     /** Position in category (0-100, lower = more accessible) */
     category_percentile: number;
+    /** Is this a free venue (parks, galleries, etc.) */
+    is_free?: boolean;
+    /** Display unit for the budget_avg (e.g. "Cocktail signature") */
+    unit?: string;
+    /** Common price anchors for quick UI access */
+    pint_price?: number;     // Prix d'une pinte (pour bar)
+    cocktail_price?: number; // Prix d'un cocktail (pour bar/club)
+    coffee_price?: number;   // Prix d'un café (pour cafe/coffee-shop)
+    main_dish_price?: number; // Prix d'un plat signature/moyen (pour resto)
+    fair_price?: number;     // Prix "Juste" estimé par l'IA (pour comparaison contextuelle)
+    standing_level?: number; // 0=Populaire, 1=Casual, 2=Hype, 3=Premium, 4=Luxe
+    // Happy Hour specific
+    pint_hh?: number;
+    dish_hh?: number;
+    coffee_hh?: number;
+    hh_time?: string; // e.g. "17:00-20:00"
+    /** Unified Anchor for precise comparison */
+    anchor?: {
+        price: number;
+        label: string;
+        source: string;
+    };
 }
 
 /** Restaurant-specific pricing */
@@ -122,6 +144,7 @@ export interface Place {
         google_id?: string;
     };
     category: string;
+    categories?: string[];
     subcategory: string;
     mood_scores: {
         chill: MoodScore;
@@ -149,7 +172,7 @@ export interface Place {
         wifi_available?: boolean;
         outdoor_seating: boolean;
         accessibility: boolean;
-        happy_hour?: {
+        happy_hour?: string | {
             start: string;
             end: string;
             price: string;
@@ -193,6 +216,8 @@ export interface Place {
         instagram_handle: string | null;
         google_photos?: string[];
     };
+    google_rating?: number;
+    google_user_ratings_total?: number;
     ai_insights?: {
         best_moment?: { text: string; icon?: string; tag?: string };
         social_vibe?: { text: string; icon?: string; tag?: string };

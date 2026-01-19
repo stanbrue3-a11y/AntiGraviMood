@@ -7,6 +7,8 @@ import * as Haptics from 'expo-haptics';
 import { Place } from '../../types/model';
 import { moodColors, MoodType } from '../../design/tokens/colors';
 import { getDominantMood } from '../../lib/moodUtils';
+import { getPlaceImages } from '../../lib/placeUtils';
+import { PriceMiniBadge } from '../common/InteractivePriceGauge';
 
 interface LikedPlaceCardProps {
     place: Place;
@@ -20,7 +22,8 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
     const color = moodColors[dominantMood]?.primary || '#444';
 
     // Safely access image
-    const imageUri = place.media?.images?.[0] || 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400';
+    const images = getPlaceImages(place);
+    const imageUri = images[0];
 
     return (
         <Pressable
@@ -44,6 +47,10 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
             <View style={styles.badge}>
                 <View style={[styles.dot, { backgroundColor: color }]} />
                 <Text style={[styles.category, { color }]}>{dominantMood.toUpperCase()}</Text>
+            </View>
+
+            <View style={styles.priceContainer}>
+                <PriceMiniBadge pricing={place.pricing} />
             </View>
 
             <View style={styles.info}>
@@ -95,6 +102,11 @@ const styles = StyleSheet.create({
     category: {
         fontSize: 10,
         fontWeight: '700',
+    },
+    priceContainer: {
+        position: 'absolute',
+        top: 10,
+        left: 10,
     },
     info: {
         position: 'absolute',

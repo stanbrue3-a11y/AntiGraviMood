@@ -14,7 +14,7 @@ interface GooglePlacesSearchProps {
 }
 
 export const GooglePlacesSearch = ({ onSelect, placeholder = "Rechercher un lieu..." }: GooglePlacesSearchProps) => {
-    const ref = useRef<any>();
+    const ref = useRef<any>(null);
     const { theme, isDark } = useTheme();
 
     return (

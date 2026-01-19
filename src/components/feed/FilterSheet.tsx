@@ -12,10 +12,12 @@ import {
     UIManager
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { MagneticPriceSelector } from '../ui/MagneticPriceSelector';
+import { PinceSlider } from '../common/PinceSlider';
 import { TimeWheelPicker } from '../ui/TimeWheelPicker';
 import { ParisMapSelector } from '../ui/ParisMapSelector';
-import { usePlacesStore, PLACE_CATEGORIES } from '../../stores/usePlacesStore';
+import { usePlacesStore, PLACE_CATEGORIES, getCurrentPrice, getPriceDistributions } from '../../stores/usePlacesStore';
+import { TriplePriceSection } from '../common/TriplePriceSection';
+
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -41,11 +43,10 @@ const MOOD_COLORS = {
 const CATEGORY_STYLE: Record<string, { primary: string; secondary?: string; icon: keyof typeof Ionicons.glyphMap }> = {
     'bar': { primary: MOOD_COLORS.festif, icon: 'wine' },
     'café': { primary: MOOD_COLORS.chill, icon: 'cafe' },
-    'restaurant': { primary: MOOD_COLORS.festif, secondary: MOOD_COLORS.culturel, icon: 'restaurant' }, // Festif + Culture (Split)
+    'restaurant': { primary: MOOD_COLORS.festif, secondary: MOOD_COLORS.chill, icon: 'restaurant' }, // Festif + Chill (Orange/Blue)
     'club': { primary: MOOD_COLORS.festif, icon: 'musical-notes' }, // Pure Festif
     'parc': { primary: MOOD_COLORS.chill, icon: 'leaf' }, // Pure Chill
     'museum': { primary: MOOD_COLORS.culturel, icon: 'library' },
-    'workshop': { primary: MOOD_COLORS.culturel, secondary: MOOD_COLORS.chill, icon: 'cut' }, // Culture + Chill
     'exhibition': { primary: MOOD_COLORS.culturel, icon: 'images' },
 };
 
@@ -210,10 +211,9 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     // Stores
     // Global Stores
     const places = usePlacesStore(state => state.places);
-    // const selectedPrice = usePlacesStore(state => state.selectedPrice); // REMOVED DIRECT USE
-    const setSelectedPriceGlobal = usePlacesStore(state => state.setSelectedPrice);
-    // const selectedCategories = usePlacesStore(state => state.selectedCategories || []); // REMOVED
-    const setSelectedCategoriesGlobal = usePlacesStore(state => state.setSelectedCategories);
+    // const setPinceMaxPercentGlobal = usePlacesStore(state => state.setPinceMaxPercent); // REMOVED
+    // const setIsPinceEnabledGlobal = usePlacesStore(state => state.setIsPinceEnabled); // REMOVED
+    // const setSelectedCategoriesGlobal = usePlacesStore(state => state.setSelectedCategories); // REMOVED
     const selectedDistrictsGlobal = usePlacesStore(state => state.selectedDistricts);
     const setSelectedDistrictsGlobal = usePlacesStore(state => state.setSelectedDistricts);
     const timeRangeGlobal = usePlacesStore(state => state.timeRange);
@@ -221,49 +221,35 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     const filterOpenNowGlobal = usePlacesStore(state => state.filterOpenNow);
     const setFilterOpenNowGlobal = usePlacesStore(state => state.setFilterOpenNow);
 
-    // Read initial state only once or on visible
-    const initialPrice = usePlacesStore(state => state.selectedPrice);
-    const initialCategories = usePlacesStore(state => state.selectedCategories);
+    const selectedMoodsGlobal = usePlacesStore(state => state.selectedMoods);
+    const setSelectedMoodsGlobal = usePlacesStore(state => state.setSelectedMoods);
 
-    const selectedMoods = usePlacesStore(state => state.selectedMoods);
     const searchQuery = usePlacesStore(state => state.searchQuery);
     const getDominantMood = usePlacesStore(state => state.getDominantMood);
 
     // LOCAL STATE (Draft Mode)
-    const [localCategories, setLocalCategories] = useState<string[]>([]);
-    const [localPrice, setLocalPrice] = useState<number | null>(null);
+    // const [localCategories, setLocalCategories] = useState<string[]>([]); // REMOVED
+    const [localMoods, setLocalMoods] = useState<string[]>([]);
     const [localDistricts, setLocalDistricts] = useState<number[]>([]);
     const [localTime, setLocalTime] = useState<{ start: number; end: number }>({ start: 18, end: 26 });
     const [openNowOnly, setOpenNowOnly] = useState(false);
 
-    // Safe Toggle for Price
-    const [isPriceEnabled, setIsPriceEnabled] = useState(false);
-
     // Safe Toggle for Time
-    // If global timeRange is null, we are disabled.
     const [isTimeEnabled, setIsTimeEnabled] = useState(false);
 
     // Sync from Store when visible opens
     useEffect(() => {
         if (visible) {
-            setLocalCategories(initialCategories || []);
+            setLocalMoods(selectedMoodsGlobal.length > 0 ? selectedMoodsGlobal : ['chill', 'festif', 'culturel']);
             setLocalDistricts(selectedDistrictsGlobal || []);
             setOpenNowOnly(filterOpenNowGlobal || false);
-
-            if (initialPrice !== null) {
-                setLocalPrice(initialPrice);
-                setIsPriceEnabled(true);
-            } else {
-                setLocalPrice(null);
-                setIsPriceEnabled(false);
-            }
 
             if (timeRangeGlobal) {
                 setLocalTime(timeRangeGlobal);
                 setIsTimeEnabled(true);
             } else {
                 setIsTimeEnabled(false);
-                setLocalTime({ start: 18, end: 26 }); // Default defaults
+                setLocalTime({ start: 18, end: 26 });
             }
         }
     }, [visible]);
@@ -275,8 +261,16 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         );
     }, []);
 
-    const handleCategoryToggle = useCallback((cat: string) => {
-        setLocalCategories(prev => toggleLocalCategory(prev, cat));
+    const handleMoodToggle = useCallback((mood: string) => {
+        setLocalMoods(prev => {
+            // If clicking an active mood when it's the ONLY one, don't allow empty?
+            // Or allow toggle. Let's allow toggle, default to all if empty in map.
+            if (prev.includes(mood)) {
+                return prev.filter(m => m !== mood);
+            } else {
+                return [...prev, mood];
+            }
+        });
     }, []);
 
     const handleStartTimeChange = useCallback((v: number) => {
@@ -297,95 +291,84 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         });
     }, []);
 
-    // Helper for optimized open check
-    // If not exported yet, I will use the one I just exported.
-    // Importing dynamically or assuming it's available. 
-    // Wait, I need to add it to imports first. 
-
     // State for Async Calculation (Fixes Latency)
     const [resultsCount, setResultsCount] = useState(0);
 
     useEffect(() => {
         // Debounce/Defer calculation to unblock UI thread immediate response
         const timeoutId = setTimeout(() => {
-            const now = new Date();
-            const currentHour = now.getHours();
-
-            // Helper for optimized open check
-            const checkOpen = (place: any) => {
-                if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') return true;
-                const parts = place.opening_hours.standard.includes('–')
-                    ? place.opening_hours.standard.split('–')
-                    : place.opening_hours.standard.split('-');
-                if (parts.length !== 2) return true;
-
-                const [sStr, eStr] = parts;
-                const startH = parseInt(sStr, 10);
-                const endH = parseInt(eStr, 10);
-
-                if (endH < startH) return currentHour >= startH || currentHour < endH;
-                return currentHour >= startH && currentHour < endH;
-            };
-
             const count = places.filter(place => {
-                // 1. Mood
-                if (selectedMoods && selectedMoods.length > 0) {
-                    // Optimized: Check dominant mood directly if possible, or use memoized store fn
-                    // For now, simple calls are fast enough if count is low (<500).
+                // 1. Mood Filter (Local)
+                if (localMoods && localMoods.length > 0) {
                     const dominantMood = getDominantMood(place);
-                    if (!selectedMoods.includes(dominantMood)) return false;
+                    if (!localMoods.includes(dominantMood)) return false;
                 }
 
-                // 2. Category
-                if (localCategories && localCategories.length > 0) {
-                    if (!localCategories.includes(place.category)) return false;
-                }
-
-                // 3. Price
-                if (isPriceEnabled && localPrice !== null) {
-                    const placePrice = place.practical_info.price_range || 2;
-                    if (placePrice > localPrice) return false;
-                }
-
-                // 4. District (Local)
+                // 2. District Filter (Local)
                 if (localDistricts.length > 0) {
                     if (!localDistricts.includes(place.location.arrondissement)) return false;
                 }
 
-                // 5. Open Now (Local)
+                // 3. Open Now / Time Range Filter (Local)
                 if (openNowOnly) {
-                    if (!checkOpen(place)) return false;
-                    return true;
+                    if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
+                        // Permissive
+                    } else {
+                        const now = new Date();
+                        const currentHour = now.getHours();
+                        const parts = place.opening_hours.standard.split(/[-–]/);
+                        if (parts.length === 2) {
+                            const [sStr, eStr] = parts;
+                            const startH = parseInt(sStr, 10);
+                            const endH = parseInt(eStr, 10);
+                            let isOpen = false;
+                            if (endH < startH) {
+                                isOpen = currentHour >= startH || currentHour < endH;
+                            } else {
+                                isOpen = currentHour >= startH && currentHour < endH;
+                            }
+                            if (!isOpen) return false;
+                        }
+                    }
+                } else if (isTimeEnabled && localTime) {
+                    const normalize = (h: number) => h < 10 ? h + 24 : h;
+                    const uStart = normalize(localTime.start);
+                    let uEnd = normalize(localTime.end);
+                    if (uEnd < uStart) uEnd += 24;
+
+                    if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
+                        // Keep
+                    } else {
+                        const parts = place.opening_hours.standard.split(/[-–]/);
+                        if (parts.length === 2) {
+                            const [sStr, eStr] = parts;
+                            const pStart = normalize(parseInt(sStr, 10));
+                            let pEnd = normalize(parseInt(eStr, 10));
+                            if (pEnd <= pStart) pEnd += 24;
+
+                            const overlap = Math.max(uStart, pStart) < Math.min(uEnd, pEnd);
+                            if (!overlap) return false;
+                        }
+                    }
                 }
 
-                // 6. Time Range Check (Local)
-                if (isTimeEnabled && localTime) {
-                    if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') return true;
-                    // Fast parse
-                    const parts = place.opening_hours.standard.split(/[-–]/);
-                    if (parts.length !== 2) return true;
-
-                    const normalize = (h: number) => h < 6 ? h + 24 : h;
-
-                    const [sStr, eStr] = parts;
-                    const pStart = normalize(parseInt(sStr, 10));
-                    let pEnd = normalize(parseInt(eStr, 10));
-                    if (pEnd <= pStart) pEnd += 24;
-
-                    const fStart = normalize(localTime.start);
-                    let fEnd = normalize(localTime.end);
-
-                    return Math.max(fStart, pStart) < Math.min(fEnd, pEnd);
+                // 4. Search Query Filter (Global)
+                if (searchQuery) {
+                    const query = searchQuery.toLowerCase();
+                    const matchesName = place.name.toLowerCase().includes(query);
+                    const matchesVibes = place.vibes.some((v) => v.toLowerCase().includes(query));
+                    const matchesCategory = (place.category || '').toLowerCase().includes(query);
+                    if (!matchesName && !matchesVibes && !matchesCategory) return false;
                 }
 
                 return true;
             }).length;
 
             setResultsCount(count);
-        }, 16); // ~1 frame delay
+        }, 32);
 
         return () => clearTimeout(timeoutId);
-    }, [places, selectedMoods, localCategories, localPrice, localDistricts, localTime, openNowOnly, isTimeEnabled, isPriceEnabled, searchQuery]);
+    }, [places, localMoods, localDistricts, localTime, openNowOnly, isTimeEnabled, searchQuery]);
 
     const handleApply = () => {
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
@@ -393,26 +376,30 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         // Commit ALL Local State to Global Store
         setTimeRangeGlobal(isTimeEnabled ? localTime : null);
         setSelectedDistrictsGlobal(localDistricts);
-        setSelectedCategoriesGlobal(localCategories);
-        setSelectedPriceGlobal(isPriceEnabled ? localPrice : null);
         setFilterOpenNowGlobal(openNowOnly);
+
+        // Commit Moods
+        setSelectedMoodsGlobal(localMoods);
 
         onClose();
     };
 
     const handleResetAll = () => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-        setLocalPrice(null);
-        setIsPriceEnabled(false);
         setLocalDistricts([]);
         // Local reset only
         setIsTimeEnabled(false);
         setLocalTime({ start: 18, end: 26 });
         setOpenNowOnly(false);
-        setLocalCategories([]);
+        setLocalMoods(['chill', 'festif', 'culturel']);
     };
 
-    const activeFiltersCount = [isPriceEnabled && localPrice !== null, localCategories.length > 0, localDistricts.length > 0, isTimeEnabled, openNowOnly].filter(Boolean).length;
+    const activeFiltersCount = [
+        localMoods.length < 3, // Changed: Active if filtered
+        localDistricts.length > 0,
+        isTimeEnabled,
+        openNowOnly,
+    ].filter(Boolean).length;
 
     return (
         <Modal
@@ -495,76 +482,53 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
 
                     <View style={styles.divider} />
 
-                    {/* 2. CATÉGORIES */}
+                    {/* 2. MOODS (VIBE) */}
                     <View style={styles.section}>
                         <View style={styles.headerWithAccent}>
-                            <View style={[styles.moodAccent, { backgroundColor: MOOD_COLORS.chill }]} />
-                            <Text style={styles.sectionTitle}>Type de lieu</Text>
+                            <View style={[styles.moodAccent, { backgroundColor: MOOD_COLORS.festif }]} />
+                            <Text style={styles.sectionTitle}>Vibe</Text>
                         </View>
-                        <View style={styles.categoryGrid}>
-                            {PLACE_CATEGORIES.map((cat) => (
-                                <CategoryItem
-                                    key={cat.key}
-                                    catKey={cat.key}
-                                    label={cat.label}
-                                    isSelected={localCategories.includes(cat.key)}
-                                    onToggle={handleCategoryToggle}
-                                />
-                            ))}
+                        <View style={{ flexDirection: 'row', gap: 10, marginTop: 12, paddingHorizontal: 24 }}>
+                            {['chill', 'festif', 'culturel'].map((mood) => {
+                                const isSelected = localMoods.includes(mood);
+                                const color = MOOD_COLORS[mood as keyof typeof MOOD_COLORS];
+                                const label = mood.charAt(0).toUpperCase() + mood.slice(1);
+
+                                return (
+                                    <Pressable
+                                        key={mood}
+                                        onPress={() => {
+                                            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                                            handleMoodToggle(mood);
+                                        }}
+                                        style={{
+                                            flex: 1,
+                                            height: 48,
+                                            borderRadius: 24,
+                                            backgroundColor: isSelected ? color : '#F3F4F6',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            borderWidth: 1,
+                                            borderColor: isSelected ? color : 'transparent'
+                                        }}
+                                    >
+                                        <Text style={{
+                                            fontWeight: '700',
+                                            fontSize: 14,
+                                            color: isSelected ? '#fff' : '#374151',
+                                            fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' })
+                                        }}>
+                                            {label}
+                                        </Text>
+                                    </Pressable>
+                                );
+                            })}
                         </View>
                     </View>
 
                     <View style={styles.divider} />
 
-                    {/* 3. BUDGET (MAGNETIC) - Toggle Added */}
-                    <View style={styles.section}>
-                        {/* Header with Switch */}
-                        <Pressable
-                            style={[styles.headerWithAccent, { justifyContent: 'space-between', paddingRight: 0 }]}
-                            onPress={() => {
-                                Haptics.selectionAsync();
-                                setIsPriceEnabled(!isPriceEnabled);
-                            }}
-                        >
-                            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-                                <View style={[styles.moodAccent, { backgroundColor: MOOD_COLORS.festif }]} />
-                                <Text style={styles.sectionTitle}>Budget</Text>
-                            </View>
-
-                            {/* Enable/Disable Toggle */}
-                            <View style={[
-                                styles.toggleSwitch,
-                                isPriceEnabled && {
-                                    backgroundColor: '#E0F7FF',
-                                    borderColor: 'rgba(140, 202, 247, 0.3)',
-                                    borderWidth: 1
-                                },
-                                { transform: [{ scale: 0.8 }] } // Smaller
-                            ]}>
-                                <View style={[
-                                    styles.toggleKnob,
-                                    isPriceEnabled && {
-                                        backgroundColor: '#8ccaf7',
-                                        transform: [{ translateX: 20 }],
-                                        shadowOpacity: 0.1
-                                    }
-                                ]} />
-                            </View>
-                        </Pressable>
-
-                        {isPriceEnabled && (
-                            <Animated.View style={{ paddingVertical: 10 }}>
-                                <MagneticPriceSelector
-                                    value={localPrice}
-                                    onChange={setLocalPrice}
-                                />
-                            </Animated.View>
-                        )}
-                    </View>
-
-                    <View style={styles.divider} />
-
-                    {/* 4. CRENEAU (WHEELS) */}
+                    {/* 3. CRENEAU (WHEELS) */}
                     <View
                         style={[
                             styles.section,
@@ -638,7 +602,7 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
 
                     <View style={styles.divider} />
 
-                    {/* 5. QUARTIER (SKIA IMMERSIVE) */}
+                    {/* 4. QUARTIER (SKIA IMMERSIVE) */}
                     <View style={styles.section}>
                         <View>
                             <View style={styles.headerWithAccent}>
