@@ -11,14 +11,16 @@ import Constants from 'expo-constants';
 // Consolidated Data Source (Enriched) (Fresh Copy)
 import placesData from '../data/pois_flattened.json';
 import { isTimeInRange } from '../lib/timeUtils';
+import { getDominantMood } from '../lib/moodUtils';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Fuse from 'fuse.js';
 
 // TEMPORARY: Force clear store once to fix persistent data issue
-AsyncStorage.getItem('moodmap-places-fix-v51').then(val => {
+AsyncStorage.getItem('moodmap-places-fix-v55').then(val => {
     if (!val) {
         AsyncStorage.removeItem('moodmap-places-storage');
-        AsyncStorage.setItem('moodmap-places-fix-v51', 'done');
-        console.log('[DEBUG] Storage cleared for v51 refresh');
+        AsyncStorage.setItem('moodmap-places-fix-v55', 'done');
+        console.log('[DEBUG] Storage cleared for v55 refresh (All Ratings)');
     }
 });
 
@@ -30,7 +32,7 @@ export type SheetMode = 'map' | 'explore' | 'feed';
 
 // Catégories disponibles
 // Forced refresh for Surgical Verification
-export const STORE_VERSION = 'v53';
+export const STORE_VERSION = 'v55';
 export const PLACE_CATEGORIES = [
     { key: 'museum', label: 'Musée', emoji: '🏛️' },
     { key: 'exhibition', label: 'Expo', emoji: '🖼️' },
@@ -76,6 +78,13 @@ interface PlacesState {
     selectedPlaceId: string | null;
     sheetMode: SheetMode;
 
+    // Navigation & Map Focus
+    mapCameraRequest: {
+        center: [number, number];
+        zoom?: number;
+        timestamp: number;
+    } | null;
+
     // Navigation
     route: RouteState;
 
@@ -92,7 +101,6 @@ interface PlacesState {
     setPinceMaxPercent: (percent: number | null) => void;
     setIsPinceEnabled: (enabled: boolean) => void;
     setSelectedDistricts: (districts: number[]) => void;
-    setTimeRange: (range: { start: number; end: number } | null) => void;
     setTimeRange: (range: { start: number; end: number } | null) => void;
     setFilterOpenNow: (enabled: boolean) => void;
     setFilterHappyHour: (enabled: boolean) => void;
@@ -111,6 +119,7 @@ interface PlacesState {
     startNavigation: (origin: { lat: number; lng: number }, destination: { lat: number; lng: number }) => void;
     stopNavigation: () => void;
     warmUpPrices: () => void; // Optimization for slider interactions
+    setMapCameraRequest: (center: [number, number], zoom?: number) => void;
 
     // Simulation
     simulateLoading: () => Promise<void>;
@@ -219,20 +228,26 @@ export const selectFilteredPlaces = (state: PlacesState) => {
     // Early return for empty search
     if (selectedCategories.length === 0) return [];
 
-    return places.filter((place) => {
-        // 0. SEARCH OVERRIDE (Top Priority) 🔍
-        // If a search is active, it OVERRIDES all other filters.
-        // User Intent: "I am looking for THIS, don't hide it."
-        if (searchQuery) {
-            const q = searchQuery.toLowerCase();
-            const matches = place.name.toLowerCase().includes(q) ||
-                place.vibes.some(v => v.toLowerCase().includes(q)) ||
-                (place.category || '').toLowerCase().includes(q);
+    // 0. SEARCH OVERRIDE (Top Priority) 🔍
+    // Using Fuse.js for Fuzzy Match & Typos 🐻
+    if (searchQuery && searchQuery.length > 1) {
+        const fuse = new Fuse(places, {
+            keys: [
+                { name: 'name', weight: 0.6 },
+                { name: 'vibes', weight: 0.2 },
+                { name: 'category', weight: 0.1 },
+                { name: 'location.address', weight: 0.1 },
+            ],
+            threshold: 0.4, // 0.0=Exact, 1.0=MatchAll. 0.4 Is good for typos.
+            minMatchCharLength: 2,
+            shouldSort: true,
+        });
 
-            // If it doesn't match the search, it's gone.
-            // If it matches, we KEEP it (ignoring budget/mood/category).
-            return matches;
-        }
+        const results = fuse.search(searchQuery);
+        return results.map(res => res.item);
+    }
+
+    return places.filter((place) => {
 
         // 1. Category Filter (Checked means Include) - FASTEST CHECK FIRST
         const hasMatch = selectedCategories.includes(place.category) ||
@@ -247,9 +262,25 @@ export const selectFilteredPlaces = (state: PlacesState) => {
 
         // 3. UNIVERSAL PRICE SHIELDING (Applied to any venue with the data point) 🛡️
         if (pintLimit !== null) {
-            const price = getCurrentPrice(place, 'pint');
+            let price = getCurrentPrice(place, 'pint');
+
+            // SMART FALLBACK 🧠: If no pint price, check match with other drinks
+            // Ratio 1.7: Cocktail (~12€) vs Pint (~7€)
+            // Ratio 1.0: Wine Glass (~6€) vs Pint (~6-7€)
+            if (price === undefined) {
+                const cocktailPrice = place.pricing?.cocktail_price;
+                // @ts-ignore - wine_glass is sparsely available on BarPricing
+                const winePrice = place.pricing?.wine_glass;
+
+                if (cocktailPrice !== undefined) {
+                    price = cocktailPrice / 1.7;
+                } else if (winePrice !== undefined) {
+                    price = winePrice;
+                }
+            }
+
             if (price !== undefined && price > pintLimit) return false;
-            // Strict mode: Hide bars that are missing price data to avoid "dead" filters
+            // Strict mode: Hide bars that are missing ALL relevant price data to avoid "dead" filters
             if (price === undefined && (place.category === 'bar' || (place.categories && place.categories.includes('bar')))) return false;
         }
 
@@ -274,7 +305,7 @@ export const selectFilteredPlaces = (state: PlacesState) => {
 
         // 4.5 POWER-UPS ⚡️
         if (filterHappyHour) {
-            const hasHH = !!place.happy_hour || (place.practical_info && !!place.practical_info.happy_hour);
+            const hasHH = (place.practical_info && !!place.practical_info.happy_hour);
             if (!hasHH) return false;
         }
 
@@ -352,6 +383,7 @@ export const usePlacesStore = create<PlacesState>()(
                 isNavigating: false,
             },
             likedPlaceIds: [],
+            mapCameraRequest: null,
 
             // Actions
             setPlaces: (places) => set({ places }),
@@ -442,6 +474,14 @@ export const usePlacesStore = create<PlacesState>()(
                 set({ isLoading: false });
             },
 
+            setMapCameraRequest: (center, zoom) => set({
+                mapCameraRequest: {
+                    center,
+                    zoom,
+                    timestamp: Date.now()
+                }
+            }),
+
             warmUpPrices: () => {
                 const state = get();
                 const now = Date.now();
@@ -487,29 +527,7 @@ export const usePlacesStore = create<PlacesState>()(
             },
 
             getDominantMood: (place) => {
-                // FORCE LOGIC based on Category
-                const CATEGORIES_CULTUREL = ['museum', 'exhibition', 'workshop', 'theatre', 'gallery', 'espace-culturel'];
-                if (CATEGORIES_CULTUREL.includes(place.category) || CATEGORIES_CULTUREL.includes(place.subcategory)) {
-                    return 'culturel';
-                }
-
-                if (place.category === 'café' || place.category === 'coffee-shop') {
-                    // Cafes are CHILL (unless extremely Festif, but let's stick to user rule: Café = Chill)
-                    // If they serve alcohol late it might be festif, but usually 'café' category implies chill.
-                    return 'chill';
-                }
-
-                // For Restaurants, Bars, Clubs: Determine between FESTIF and CHILL (ignore Culturel scores)
-                // Use scores if available, but restrict to Festif vs Chill
-                const { chill, festif } = place.mood_scores;
-
-                // Clubs are inherently Festif
-                if (place.category === 'club') return 'festif';
-
-                if (festif.overall >= chill.overall) {
-                    return 'festif';
-                }
-                return 'chill';
+                return getDominantMood(place);
             },
 
             isPlaceLiked: (placeId) => {

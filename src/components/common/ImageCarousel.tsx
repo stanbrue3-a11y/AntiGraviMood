@@ -25,12 +25,12 @@ export const ImageCarousel = ({ images, height = 340 }: ImageCarouselProps) => {
                 keyExtractor={(_, index) => index.toString()}
                 renderItem={({ item }) => (
                     <Image
-                        source={{ uri: item }}
-                        style={{ width, height, backgroundColor: '#E0E0E0' }}
+                        source={item}
+                        style={{ width, height, backgroundColor: '#1C1C1E' }}
                         contentFit="cover"
                         cachePolicy="memory-disk"
                         priority="high"
-                        transition={400}
+                        transition={200}
                     />
                 )}
                 horizontal

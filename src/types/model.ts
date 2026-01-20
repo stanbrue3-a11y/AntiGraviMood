@@ -44,6 +44,7 @@ export interface PricingBase {
     /** Common price anchors for quick UI access */
     pint_price?: number;     // Prix d'une pinte (pour bar)
     cocktail_price?: number; // Prix d'un cocktail (pour bar/club)
+    wine_glass?: number;     // Prix d'un verre de vin (pour bar/resto)
     coffee_price?: number;   // Prix d'un café (pour cafe/coffee-shop)
     main_dish_price?: number; // Prix d'un plat signature/moyen (pour resto)
     fair_price?: number;     // Prix "Juste" estimé par l'IA (pour comparaison contextuelle)
@@ -59,6 +60,10 @@ export interface PricingBase {
         label: string;
         source: string;
     };
+    /** Confidence score of the pricing data (0-100) */
+    confidence_score?: number;
+    /** Last time the pricing was manually/surgically verified */
+    last_updated?: string;
 }
 
 /** Restaurant-specific pricing */
@@ -85,8 +90,6 @@ export interface BarPricing extends PricingBase {
     pint_price?: number;
     /** Average cocktail price in € */
     cocktail_price?: number;
-    /** Glass of wine price in € */
-    wine_glass?: number;
     /** Happy hour info */
     happy_hour?: {
         start: string;
@@ -124,6 +127,14 @@ export interface GenericPricing extends PricingBase {
 
 /** Union type for all pricing variants */
 export type Pricing = RestaurantPricing | BarPricing | CafePricing | ClubPricing | GenericPricing;
+
+export interface RealTalk {
+    le_secret?: string;
+    le_son?: string;
+    la_faune?: string;
+    le_must?: string;
+    must_eat?: string;
+}
 
 // ====== PLACE INTERFACE ======
 
@@ -165,12 +176,14 @@ export interface Place {
     min_stay_time_minutes: number;
     /** NEW: Enhanced pricing system */
     pricing?: Pricing;
+    real_talk?: RealTalk;
     practical_info: {
         /** @deprecated Use pricing.budget_avg instead */
         price_range: number;
         reservation_required: boolean;
         wifi_available?: boolean;
         outdoor_seating: boolean;
+        terrasse?: boolean;
         accessibility: boolean;
         happy_hour?: string | {
             start: string;

@@ -101,17 +101,29 @@ export const DEFAULT_IMAGES_CAROUSEL: Record<string, string[]> = {
     'troquet': ['https://images.unsplash.com/photo-1595856108127-14fa88d90be7?q=80&w=1000'],
 };
 
-// Fallback function: Prioritize JSON hero_image, then hardcoded slug map, then category fallback
+import { localImages, getPlaceImagesArray } from '../data/imagesMap';
+
+// Fallback function: Prioritize LOCAL images first, then JSON hero_image, then Category fallback
 export const getPlaceImages = (p: Place) => {
-    const images: string[] = [];
+    const images: any[] = []; // Can be require() numbers or string URLs
     const GOOGLE_API_KEY = 'AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM';
 
-    // 0. Google Places API (Authentic & Primary)
-    if (p.media?.google_photos && p.media.google_photos.length > 0) {
-        // Return top 5 photos (Best of / Ambiance)
-        p.media.google_photos.slice(0, 5).forEach((photoRef: string) => {
-            // High Quality: maxwidth=800 is the perfect balance Speed/Quality
-            images.push(`https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photoRef}&key=${GOOGLE_API_KEY}`);
+    // 0. LOCAL Images (Zero Quota / High Speed)
+    // Now we get up to 3 photos locally
+    const locals = getPlaceImagesArray(p.slug);
+    if (locals.length > 0) {
+        images.push(...locals);
+    }
+
+    // 1. Google Places API (Only as fallback or to fill carousel further)
+    if (images.length < 5 && p.media?.google_photos && p.media.google_photos.length > 0) {
+        // Skip the first N photos from Google API if we already have N local photos (assuming they are the same ones)
+        const localCount = locals.length;
+        const remainingPhotos = p.media.google_photos.slice(localCount, localCount + (5 - images.length));
+
+        remainingPhotos.forEach((photoRef: string) => {
+            const url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photoRef}&key=${GOOGLE_API_KEY}`;
+            images.push(url);
         });
     }
 

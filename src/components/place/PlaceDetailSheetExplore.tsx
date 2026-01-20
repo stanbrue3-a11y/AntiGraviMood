@@ -1,5 +1,14 @@
-import React, { useMemo, useCallback, useEffect, useRef } from 'react';
-import { View, Text, StyleSheet, Pressable, TouchableOpacity, ActionSheetIOS, ScrollView, Platform } from 'react-native';
+import React, { useMemo, useCallback, useEffect, useRef, useState } from 'react';
+import { View, Text, StyleSheet, Pressable, TouchableOpacity, ActionSheetIOS, ScrollView, Platform, Share } from 'react-native';
+// import * as Sharing from 'expo-sharing';
+// import * as FileSystem from 'expo-file-system';
+import { ShareCard } from './ShareCard';
+
+// Lazy-loaded dependencies
+let captureRef: any = null;
+let ViewShotComponent: any = null;
+let Sharing: any = null;
+let FileSystem: any = null;
 import BottomSheet, { BottomSheetScrollView, BottomSheetBackdrop } from '@gorhom/bottom-sheet';
 import { Ionicons } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
@@ -8,8 +17,7 @@ import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
 
 import { useTheme, moodColors } from '../../design';
-import { PriceGauge } from '../common/PriceGauge'; // Keep this if PriceGauge is still used elsewhere or remove if InteractivePriceGauge replaces it entirely.
-import { usePlacesStore, type Place } from '../../stores'; // Original import, will be modified
+import { usePlacesStore, type Place } from '../../stores';
 import { getDominantMood } from '../../lib/moodUtils';
 
 // Unified Components
@@ -22,12 +30,14 @@ import { ModernPracticalInfo } from './ModernPracticalInfo';
 import { PlaceHours } from './PlaceHours';
 import { PlaceFaune } from './PlaceFaune';
 import { HappyHourBadge } from './HappyHourBadge';
+import { StarRating } from '../common/StarRating';
 
 export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMode?: string }) => {
     const { theme, isDark } = useTheme(); // Added isDark here
     const snapPoints = useMemo(() => ['87%'], []);
     const isFocused = useIsFocused();
     const bottomSheetRef = useRef<BottomSheet>(null);
+    const viewShotRef = useRef<any>(null);
     const insets = useSafeAreaInsets();
     const {
         selectedPlaceId,
@@ -82,9 +92,27 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
         if (!place) return;
         try {
             await Haptics.selectionAsync();
-            console.log('Sharing', place.name);
+
+            // NATIVE SHARING DISABLED TO PREVENT CRASHES ON OLD BUILDS
+            const uri = null;
+
+            // 3. Share the file or fallback
+            if (uri && await Sharing.isAvailableAsync()) {
+                await Sharing.shareAsync(uri, {
+                    mimeType: 'image/jpeg',
+                    dialogTitle: `Partager ${place.name}`,
+                    UTI: 'public.jpeg',
+                });
+            } else {
+                // Fallback to text share
+                const message = `✨ Découvre ${place.name} sur AntiGraviMood !\n📍 ${place.location.arrondissement}e Arrondissement\n🦀 Mood : ${dominantMood.toUpperCase()}\n\n"Le Secret : ${place.real_talk?.le_secret || 'Une pépite à découvrir'}"`;
+                await Share.share({ message });
+            }
         } catch (error) {
-            console.error(error);
+            console.error('Share Error:', error);
+            // Fallback for any error during capture
+            const message = `✨ Découvre ${place.name} sur AntiGraviMood !\n📍 ${place.location.arrondissement}e Arrondissement\n🦀 Mood : ${dominantMood.toUpperCase()}`;
+            await Share.share({ message });
         }
     };
 
@@ -164,15 +192,14 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                     {place.name}
                                 </Text>
 
-                                {/* Row: Mood + Category only */}
+                                {/* Row: Mood + Category + Stars */}
                                 <View style={styles.metaRow}>
                                     <View style={[styles.moodBadge, { backgroundColor: primaryColor + '15' }]}>
                                         <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood === 'chill' ? 'CHILL' : dominantMood === 'festif' ? 'FESTIF' : 'CULTUREL'}</Text>
                                     </View>
                                     <Text
-                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 12, flexShrink: 1 }]}
+                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 4 }]}
                                         numberOfLines={1}
-                                        ellipsizeMode="tail"
                                     >
                                         {(() => {
                                             const cats = place.categories || [place.category];
@@ -182,15 +209,26 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
 
                                             let label = '';
                                             if (hasBar && hasResto && hasCafe) {
-                                                label = 'BRASSERIE → BAR, CAFÉ ET RESTO';
+                                                label = 'BRASSERIE';
                                             } else {
-                                                label = cats.map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join(' • ');
+                                                label = cats.slice(0, 1).map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join('');
                                             }
 
-                                            return label + `  •  ${place.location.arrondissement}E`;
+                                            return label + `, ${place.location.arrondissement}E`;
                                         })()}
                                     </Text>
-                                    <HappyHourBadge place={place} color={primaryColor} />
+
+                                    {/* Happy Hour Badge (Integrated) */}
+                                    {place.practical_info?.happy_hour && (
+                                        <HappyHourBadge place={place} color={primaryColor} compact={true} />
+                                    )}
+
+                                    {/* Star Rating */}
+                                    {place.google_rating && (
+                                        <View style={{ marginLeft: 'auto' }}>
+                                            <StarRating rating={place.google_rating} color={primaryColor} size={16} ratingsCount={(place as any).google_ratings_count || place.google_user_ratings_total} />
+                                        </View>
+                                    )}
                                 </View>
 
                                 {/* PRICE GAUGE - Full width row */}
@@ -227,6 +265,14 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                             })) : []}
                                             activeColor={primaryColor}
                                         />
+                                        {(place.pricing?.confidence_score ?? 0) >= 90 && (
+                                            <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 12, opacity: 0.8 }}>
+                                                <Ionicons name="checkmark-circle" size={14} color="#10B981" />
+                                                <Text style={{ fontSize: 11, fontWeight: '800', color: '#10B981', marginLeft: 4, letterSpacing: 0.5 }}>
+                                                    VÉRIFIÉ • JANV. 2024
+                                                </Text>
+                                            </View>
+                                        )}
                                     </View>
                                 )}
 
@@ -258,6 +304,13 @@ export const PlaceDetailSheetExplore = ({ triggerMode = 'explore' }: { triggerMo
                                 <Ionicons name="map" size={20} color="#fff" style={{ marginRight: 8 }} />
                                 <Text style={[styles.ctaBubbleText, { color: '#fff' }]}>VOIR SUR LA CARTE</Text>
                             </Pressable>
+                        </View>
+
+                        {/* Hidden Share Card for Capture */}
+                        <View style={styles.hiddenCard} pointerEvents="none">
+                            <View ref={viewShotRef}>
+                                <ShareCard place={place} />
+                            </View>
                         </View>
                     </>
                 )}
@@ -323,6 +376,13 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 6,
     },
     ctaBubbleText: { fontSize: 15, fontWeight: '700', fontFamily: 'Georgia', letterSpacing: 0.5 },
+    hiddenCard: {
+        position: 'absolute',
+        top: -9999, // Off-screen
+        left: -9999,
+        padding: 20, // Add some padding for the shot
+        backgroundColor: '#000',
+    },
 });
 
 export default PlaceDetailSheetExplore;

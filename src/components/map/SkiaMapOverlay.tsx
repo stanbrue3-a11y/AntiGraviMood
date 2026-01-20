@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { StyleSheet, Dimensions } from 'react-native';
 import { Canvas, Circle, Group } from '@shopify/react-native-skia';
 import { useSharedValue, withSpring, useDerivedValue } from 'react-native-reanimated';
+import { getDominantMood } from '../../lib/moodUtils';
+import { moodColors } from '../../design/tokens/colors';
 
 // Mercator Projection Constants
 const TILE_SIZE = 512;
@@ -47,37 +49,11 @@ export const SkiaMapOverlay = ({ places, mapZoom, mapCenter, selectedMoods, sele
                 if (!place || !place.location || !place.location.coordinates) return null;
                 const projected = project(place.location.coordinates.lat, place.location.coordinates.lng);
 
-                // MOOD DETECTION LOGIC 🎨
-                let color = "#8ccaf7"; // Default Chill
+                // MOOD DETECTION LOGIC 🎨 - UNIFIED
+                const placeMood = getDominantMood(place);
+                const color = moodColors[placeMood].primary;
 
-                // 1. Check mood_scores
-                if (place.mood_scores) {
-                    const chill = place.mood_scores.chill?.overall || 0;
-                    const festif = place.mood_scores.festif?.overall || 0;
-                    const culturel = place.mood_scores.culturel?.overall || 0;
-                    const max = Math.max(chill, festif, culturel);
-
-                    if (max > 0) {
-                        if (max === festif) color = "#ffab60";      // Festif
-                        else if (max === culturel) color = "#c499ff"; // Culturel
-                        else color = "#8ccaf7";                     // Chill
-                    }
-                }
-
-                // 2. Fallback to category if no score (Simplified)
-                if (!place.mood_scores && place.category) {
-                    const cat = place.category.toLowerCase();
-                    if (['bar', 'club', 'pub'].some(c => cat.includes(c))) color = "#ffab60";
-                    else if (['museum', 'art', 'theatre'].some(c => cat.includes(c))) color = "#c499ff";
-                }
-
-                // Check visibility based on mood filter
                 let isVisible = true;
-                // Determine place mood for filtering
-                let placeMood = 'chill';
-                if (color === "#ffab60") placeMood = 'festif';
-                if (color === "#c499ff") placeMood = 'culturel';
-
                 if (selectedMoods.length > 0 && !selectedMoods.includes(placeMood)) {
                     isVisible = false;
                 }
