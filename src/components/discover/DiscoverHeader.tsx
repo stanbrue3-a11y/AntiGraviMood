@@ -1,54 +1,61 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet, Platform, TextInput, ScrollView } from 'react-native';
+import { View, Text, Pressable, StyleSheet, Platform, TextInput, ScrollView, FlatList } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { BlurView } from 'expo-blur';
 import { useTheme, moodColors } from '../../design';
 import { ScalePressable } from '../design/ScalePressable';
-import { usePlacesStore } from '../../stores/usePlacesStore';
+import { usePlacesStore, selectFilteredPlaces } from '../../stores/usePlacesStore';
+import { useRouter, usePathname } from 'expo-router';
+import { useShallow } from 'zustand/react/shallow';
+import { Place } from '../../types/model';
 
 type Props = {
-    // Props are now handled via Store mostly, but keeping Search/Filter props
-    searchQuery: string;
-    setSearchQuery: (q: string) => void;
-    setFilterVisible: (v: boolean) => void;
-    isSearchActive: boolean;
-    setIsSearchActive: (v: boolean) => void;
     insetsTop: number;
     transparent?: boolean;
     showLeftButton?: boolean;
-    // Removed old props: selectedMoods, toggleMood
+    setFilterVisible: (v: boolean) => void;
 };
 
 export const DiscoverHeader = ({
-    searchQuery,
-    setSearchQuery,
     setFilterVisible,
-    isSearchActive,
-    setIsSearchActive,
     insetsTop,
     transparent = false,
     showLeftButton = true
 }: Props) => {
     const { theme, isDark } = useTheme();
-    const { selectedCategories, toggleCategory } = usePlacesStore();
+    const {
+        selectedCategories,
+        toggleCategory,
+        searchQuery,
+        setSearchQuery,
+        selectPlace,
+        setMapCameraRequest
+    } = usePlacesStore();
+
+    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces)) as Place[];
+    const router = useRouter();
+    const pathname = usePathname();
+
+    const [isSearchActive, setIsSearchActive] = React.useState(false);
 
     // Horizontal Categories Configuration - MOOD GRADIENT DESIGN
     const CATEGORIES = [
-        { key: 'bar', label: 'Bar', icon: 'beer-outline', colors: ['#8ccaf7', '#ffab60'] }, // Blue -> Orange
-        { key: 'restaurant', label: 'Resto', icon: 'restaurant-outline', colors: ['#8ccaf7', '#ffab60'] }, // Blue -> Orange
-        { key: 'café', label: 'Café', icon: 'cafe-outline', colors: ['#8ccaf7', '#8ccaf7'] }, // Blue
-        { key: 'club', label: 'Club', icon: 'musical-notes-outline', colors: ['#ffab60', '#ffab60'] }, // Orange
-        { key: 'parc', label: 'Parc', icon: 'leaf-outline', colors: ['#8ccaf7', '#8ccaf7'] }, // Blue
-        { key: 'museum', label: 'Musée', icon: 'color-palette-outline', colors: ['#c499ff', '#c499ff'] }, // Violet
+        { key: 'bar', label: 'Bar', icon: 'beer-outline', colors: ['#ffab60', '#ffab60'] }, // Orange (Festif)
+        { key: 'restaurant', label: 'Resto', icon: 'restaurant-outline', colors: ['#ffab60', '#8ccaf7'] }, // Festif + Chill
+        { key: 'café', label: 'Café', icon: 'cafe-outline', colors: ['#8ccaf7', '#8ccaf7'] }, // Blue (Chill)
+        { key: 'club', label: 'Club', icon: 'musical-notes-outline', colors: ['#ffab60', '#ffab60'] }, // Orange (Festif)
+        { key: 'museum', label: 'Musée', icon: 'library-outline', colors: ['#c499ff', '#c499ff'] }, // Purple (Culturel)
+        { key: 'exhibition', label: 'Expo', icon: 'images-outline', colors: ['#c499ff', '#c499ff'] }, // Purple (Culturel)
+        { key: 'parc', label: 'Parc', icon: 'leaf-outline', colors: ['#8ccaf7', '#8ccaf7'] }, // Blue (Chill)
     ];
 
     return (
         <View style={[
             styles.headerContainer,
             { paddingTop: insetsTop, backgroundColor: transparent ? 'transparent' : theme.background },
-            transparent && { shadowOpacity: 0, elevation: 0 }
+            !transparent && { borderBottomWidth: 1, borderBottomColor: theme.border }
         ]}>
             {transparent && (
                 <LinearGradient
@@ -58,11 +65,11 @@ export const DiscoverHeader = ({
                 />
             )}
             {isSearchActive ? (
-                <View style={[styles.header, { paddingHorizontal: 20 }]}>
+                <View style={[styles.header, { paddingHorizontal: 20, flexDirection: 'column', alignItems: 'stretch' }]}>
                     <View style={[styles.searchBarContainer, { backgroundColor: isDark ? theme.surfaceElevated : '#f3f4f6' }]}>
                         <Ionicons name="search" size={20} color={theme.text.secondary} style={{ marginRight: 8 }} />
                         <TextInput
-                            placeholder="Rechercher..."
+                            placeholder="Pizza, Terrasse, 11e..."
                             placeholderTextColor={theme.text.secondary}
                             style={[styles.searchInput, { color: theme.text.primary }]}
                             autoFocus
@@ -79,6 +86,82 @@ export const DiscoverHeader = ({
                             <Ionicons name="close-circle" size={20} color={theme.text.secondary} />
                         </Pressable>
                     </View>
+
+                    {searchQuery.length > 0 && (
+                        <View style={[styles.searchResultsContainer, {
+                            backgroundColor: isDark ? theme.surfaceElevated : '#fff',
+                            borderColor: theme.border,
+                            position: 'absolute',
+                            top: 60, // Positioned below the search bar
+                            left: 20,
+                            right: 20,
+                            zIndex: 100
+                        }]}>
+                            {filteredPlaces.length > 0 ? (
+                                <ScrollView
+                                    style={{ maxHeight: 300 }}
+                                    keyboardShouldPersistTaps="handled"
+                                >
+                                    {filteredPlaces.slice(0, 10).map((place) => {
+                                        const mood = usePlacesStore.getState().getDominantMood(place);
+                                        const color = moodColors[mood].primary;
+
+                                        return (
+                                            <Pressable
+                                                key={place.id}
+                                                onPress={() => {
+                                                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+
+                                                    // 1. Select Place
+                                                    selectPlace(place.id, 'map');
+
+                                                    // 2. Fly to on map
+                                                    setMapCameraRequest([place.location.coordinates.lng, place.location.coordinates.lat], 15);
+
+                                                    // 3. Navigate to Map tab if needed
+                                                    if (pathname !== '/map') {
+                                                        router.push('/map');
+                                                    }
+
+                                                    // 4. Close search
+                                                    setIsSearchActive(false);
+                                                    setSearchQuery('');
+                                                }}
+                                                style={({ pressed }) => [
+                                                    styles.resultItem,
+                                                    { borderBottomColor: theme.border, backgroundColor: pressed ? (isDark ? 'rgba(255,255,255,0.05)' : '#f9fafb') : 'transparent' }
+                                                ]}
+                                            >
+                                                <View style={[styles.moodIconSmall, { backgroundColor: color }]}>
+                                                    <Ionicons
+                                                        name={place.category === 'bar' ? 'wine' : place.category === 'restaurant' ? 'restaurant' : 'cafe'}
+                                                        size={14}
+                                                        color="#fff"
+                                                    />
+                                                </View>
+                                                <View style={{ flex: 1 }}>
+                                                    <Text style={[styles.resultName, { color: theme.text.primary }]}>{place.name}</Text>
+                                                    <Text style={[styles.resultSub, { color: theme.text.secondary }]}>
+                                                        {place.location.arrondissement}e • {place.category}
+                                                    </Text>
+                                                </View>
+                                                <Ionicons name="chevron-forward" size={16} color={theme.text.muted} />
+                                            </Pressable>
+                                        );
+                                    })}
+                                    {filteredPlaces.length > 10 && (
+                                        <Text style={[styles.moreResults, { color: theme.text.muted }]}>
+                                            + {filteredPlaces.length - 10} autres résultats
+                                        </Text>
+                                    )}
+                                </ScrollView>
+                            ) : (
+                                <View style={styles.noResults}>
+                                    <Text style={{ color: theme.text.secondary }}>Aucun lieu trouvé 🔎</Text>
+                                </View>
+                            )}
+                        </View>
+                    )}
                 </View>
             ) : (
                 <View style={styles.header}>
@@ -151,23 +234,13 @@ export const DiscoverHeader = ({
                                 >
                                     <LinearGradient
                                         colors={finalColors as any}
-                                        locations={locations}
+                                        locations={locations as any}
                                         start={{ x: 0, y: 0 }}
-                                        end={{ x: 1, y: 1 }} // Diagonal Slash
-                                        style={[
-                                            styles.pill,
-                                            {
-                                                height: 36,
-                                                borderRadius: 18,
-                                                paddingHorizontal: 14,
-                                                flexDirection: 'row',
-                                                alignItems: 'center',
-                                                justifyContent: 'center',
-                                            }
-                                        ]}
+                                        end={{ x: 1, y: 1 }}
+                                        style={styles.pill}
                                     >
                                         <Ionicons name={cat.icon as any} size={16} color={fg} style={{ marginRight: 6 }} />
-                                        <Text style={[styles.pillText, { color: fg, fontSize: 13 }]}>{cat.label}</Text>
+                                        <Text style={[styles.pillText, { color: fg }]}>{cat.label}</Text>
                                     </LinearGradient>
                                 </Pressable>
                             );
@@ -233,7 +306,7 @@ const styles = StyleSheet.create({
         flex: 1, flexDirection: 'row', justifyContent: 'center', gap: 6
     },
     searchBarContainer: {
-        flex: 1,
+        width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 12,
@@ -247,10 +320,11 @@ const styles = StyleSheet.create({
         fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
     },
     pill: {
-        flex: 1, height: 38, borderRadius: 19,
+        height: 38, borderRadius: 19,
         alignItems: 'center', justifyContent: 'center',
         shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.1, shadowRadius: 3, elevation: 2,
-        paddingHorizontal: 4
+        paddingHorizontal: 14,
+        flexDirection: 'row',
     },
     pillText: {
         color: '#fff', fontSize: 11, fontWeight: '700', letterSpacing: 0.2,
@@ -273,5 +347,49 @@ const styles = StyleSheet.create({
     activeSegment: {
         backgroundColor: '#fff',
         shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.1, shadowRadius: 2, elevation: 1,
+    },
+    searchResultsContainer: {
+        marginTop: 8,
+        borderRadius: 20,
+        borderWidth: 1,
+        overflow: 'hidden',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.2,
+        shadowRadius: 12,
+        elevation: 5,
+    },
+    resultItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        padding: 12,
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        gap: 12,
+    },
+    moodIconSmall: {
+        width: 28,
+        height: 28,
+        borderRadius: 14,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    resultName: {
+        fontSize: 16,
+        fontWeight: '700',
+        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+    },
+    resultSub: {
+        fontSize: 13,
+        fontWeight: '500',
+    },
+    noResults: {
+        padding: 20,
+        alignItems: 'center',
+    },
+    moreResults: {
+        padding: 8,
+        textAlign: 'center',
+        fontSize: 12,
+        fontStyle: 'italic',
     },
 });

@@ -22,6 +22,7 @@ import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated';
+import Fuse from 'fuse.js';
 
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
     UIManager.setLayoutAnimationEnabledExperimental(true);
@@ -224,8 +225,9 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     const selectedMoodsGlobal = usePlacesStore(state => state.selectedMoods);
     const setSelectedMoodsGlobal = usePlacesStore(state => state.setSelectedMoods);
 
-    const searchQuery = usePlacesStore(state => state.searchQuery);
     const getDominantMood = usePlacesStore(state => state.getDominantMood);
+    const selectedCategoriesGlobal = usePlacesStore(state => state.selectedCategories);
+    const searchQuery = usePlacesStore(state => state.searchQuery);
 
     // LOCAL STATE (Draft Mode)
     // const [localCategories, setLocalCategories] = useState<string[]>([]); // REMOVED
@@ -297,19 +299,39 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     useEffect(() => {
         // Debounce/Defer calculation to unblock UI thread immediate response
         const timeoutId = setTimeout(() => {
+            // 0. SEARCH OVERRIDE (Top Priority) - Match Store Logic 🔍
+            if (searchQuery && searchQuery.length > 1) {
+                const fuse = new Fuse(places, {
+                    keys: [
+                        { name: 'name', weight: 0.6 },
+                        { name: 'vibes', weight: 0.2 },
+                        { name: 'category', weight: 0.1 },
+                        { name: 'location.address', weight: 0.1 },
+                    ],
+                    threshold: 0.4,
+                });
+                setResultsCount(fuse.search(searchQuery).length);
+                return;
+            }
+
             const count = places.filter(place => {
-                // 1. Mood Filter (Local)
+                // 1. Category Filter (Checked means Include) - FASTEST CHECK FIRST
+                const hasCatMatch = selectedCategoriesGlobal.includes(place.category) ||
+                    (place.categories && place.categories.some(c => selectedCategoriesGlobal.includes(c)));
+                if (!hasCatMatch) return false;
+
+                // 2. Mood Filter (Local)
                 if (localMoods && localMoods.length > 0) {
                     const dominantMood = getDominantMood(place);
                     if (!localMoods.includes(dominantMood)) return false;
                 }
 
-                // 2. District Filter (Local)
+                // 3. District Filter (Local)
                 if (localDistricts.length > 0) {
                     if (!localDistricts.includes(place.location.arrondissement)) return false;
                 }
 
-                // 3. Open Now / Time Range Filter (Local)
+                // 4. Open Now / Time Range Filter (Local)
                 if (openNowOnly) {
                     if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
                         // Permissive
@@ -352,15 +374,6 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
                     }
                 }
 
-                // 4. Search Query Filter (Global)
-                if (searchQuery) {
-                    const query = searchQuery.toLowerCase();
-                    const matchesName = place.name.toLowerCase().includes(query);
-                    const matchesVibes = place.vibes.some((v) => v.toLowerCase().includes(query));
-                    const matchesCategory = (place.category || '').toLowerCase().includes(query);
-                    if (!matchesName && !matchesVibes && !matchesCategory) return false;
-                }
-
                 return true;
             }).length;
 
@@ -368,7 +381,7 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         }, 32);
 
         return () => clearTimeout(timeoutId);
-    }, [places, localMoods, localDistricts, localTime, openNowOnly, isTimeEnabled, searchQuery]);
+    }, [places, localMoods, localDistricts, localTime, openNowOnly, isTimeEnabled, searchQuery, selectedCategoriesGlobal]);
 
     const handleApply = () => {
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
@@ -379,7 +392,7 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         setFilterOpenNowGlobal(openNowOnly);
 
         // Commit Moods
-        setSelectedMoodsGlobal(localMoods);
+        setSelectedMoodsGlobal(localMoods as any);
 
         onClose();
     };

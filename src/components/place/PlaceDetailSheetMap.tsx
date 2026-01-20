@@ -7,6 +7,12 @@ import { useIsFocused } from '@react-navigation/native';
 import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+// import * as Sharing from 'expo-sharing';
+import { Share } from 'react-native';
+
+// Lazy-loaded dependencies
+let captureRef: any = null;
+let Sharing: any = null;
 
 import { useTheme, moodColors } from '../../design';
 import { usePlacesStore, type Place } from '../../stores';
@@ -20,12 +26,16 @@ import { PlaceDescription } from './PlaceDescription';
 import { PlaceFaune } from './PlaceFaune';
 import { ModernPracticalInfo } from './ModernPracticalInfo';
 import { PlaceHours } from './PlaceHours';
+import { HappyHourBadge } from './HappyHourBadge';
+import { StarRating } from '../common/StarRating';
+import { ShareCard } from './ShareCard';
 
 export const PlaceDetailSheetMap = () => {
     const theme = useTheme();
     const snapPoints = useMemo(() => ['85%'], []);
     const isFocused = useIsFocused();
     const bottomSheetRef = useRef<BottomSheet>(null);
+    const viewShotRef = useRef<any>(null);
     const insets = useSafeAreaInsets();
     const {
         selectedPlaceId,
@@ -83,9 +93,26 @@ export const PlaceDetailSheetMap = () => {
         if (!place) return;
         try {
             await Haptics.selectionAsync();
-            console.log('Sharing', place.name);
+
+            // NATIVE SHARING DISABLED TO PREVENT CRASHES ON OLD BUILDS
+            const uri = null;
+
+            // 3. Share the file or fallback
+            if (uri && await Sharing.isAvailableAsync()) {
+                await Sharing.shareAsync(uri, {
+                    mimeType: 'image/jpeg',
+                    dialogTitle: `Partager ${place.name}`,
+                    UTI: 'public.jpeg',
+                });
+            } else {
+                // Fallback to text share
+                const message = `✨ Découvre ${place.name} sur AntiGraviMood !\n📍 ${place.location.arrondissement}e Arrondissement\n🦀 Mood : ${dominantMood.toUpperCase()}\n\n"Le Secret : ${place.real_talk?.le_secret || 'Une pépite à découvrir'}"`;
+                await Share.share({ message });
+            }
         } catch (error) {
-            console.error(error);
+            console.error('Share Error:', error);
+            const message = `✨ Découvre ${place.name} sur AntiGraviMood !\n📍 ${place.location.arrondissement}e Arrondissement\n🦀 Mood : ${dominantMood.toUpperCase()}`;
+            await Share.share({ message });
         }
     };
 
@@ -161,15 +188,14 @@ export const PlaceDetailSheetMap = () => {
                             {/* 2. Infos & Vibes (Immediate Render for text/icons) */}
                             <View style={styles.detailsContainer}>
 
-                                {/* Row: Mood + Price + Category */}
+                                {/* Row: Mood + Category + Stars */}
                                 <View style={styles.metaRow}>
                                     <View style={[styles.moodBadge, { backgroundColor: primaryColor + '15' }]}>
                                         <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood === 'chill' ? 'CHILL' : dominantMood === 'festif' ? 'FESTIF' : 'CULTUREL'}</Text>
                                     </View>
                                     <Text
-                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 12, flex: 1 }]}
+                                        style={[styles.metaText, { color: primaryColor, fontWeight: '900', fontSize: 13, letterSpacing: 0.8, marginLeft: 12 }]}
                                         numberOfLines={1}
-                                        ellipsizeMode="tail"
                                     >
                                         {(() => {
                                             const cats = place.categories || [place.category];
@@ -179,15 +205,28 @@ export const PlaceDetailSheetMap = () => {
 
                                             let label = '';
                                             if (hasBar && hasResto && hasCafe) {
-                                                label = 'BRASSERIE → BAR, CAFÉ ET RESTO';
+                                                label = 'BRASSERIE';
                                             } else {
-                                                label = cats.map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join(' • ');
+                                                label = cats.slice(0, 1).map(c => c === 'restaurant' ? 'RESTO' : c === 'museum' ? 'MUSÉE' : c.toUpperCase()).join('');
                                             }
 
-                                            return label + `  •  ${place.location.arrondissement}E`;
+                                            return label + `, ${place.location.arrondissement}E`;
                                         })()}
                                     </Text>
+                                    {/* Star Rating */}
+                                    {place.google_rating && (
+                                        <View style={{ marginLeft: 'auto' }}>
+                                            <StarRating rating={place.google_rating} color={primaryColor} size={16} ratingsCount={(place as any).google_ratings_count || place.google_user_ratings_total} />
+                                        </View>
+                                    )}
                                 </View>
+
+                                {/* Row: Happy Hour Badge (separate row) */}
+                                {place.practical_info?.happy_hour && (
+                                    <View style={{ marginBottom: 16 }}>
+                                        <HappyHourBadge place={place} color={primaryColor} />
+                                    </View>
+                                )}
 
                                 {/* PRICE GAUGE - Full width row */}
                                 {place.pricing && (
@@ -223,6 +262,14 @@ export const PlaceDetailSheetMap = () => {
                                             activeColor={primaryColor}
                                             smartTip={place.practical_info.price_info?.smart_tip}
                                         />
+                                        {(place.pricing?.confidence_score ?? 0) >= 90 && (
+                                            <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 12, opacity: 0.8 }}>
+                                                <Ionicons name="checkmark-circle" size={14} color="#10B981" />
+                                                <Text style={{ fontSize: 11, fontWeight: '800', color: '#10B981', marginLeft: 4, letterSpacing: 0.5 }}>
+                                                    VÉRIFIÉ • JANV. 2024
+                                                </Text>
+                                            </View>
+                                        )}
                                     </View>
                                 )}
 
@@ -259,6 +306,13 @@ export const PlaceDetailSheetMap = () => {
                                 <Ionicons name="map" size={20} color="#fff" style={{ marginRight: 8 }} />
                                 <Text style={[styles.ctaBubbleText, { color: '#fff' }]}>Y ALLER</Text>
                             </Pressable>
+                        </View>
+
+                        {/* Hidden Share Card for Capture */}
+                        <View style={styles.hiddenCard} pointerEvents="none">
+                            <View ref={viewShotRef}>
+                                <ShareCard place={place} />
+                            </View>
                         </View>
                     </>
                 )}
@@ -357,6 +411,13 @@ const styles = StyleSheet.create({
         fontFamily: 'Inter_600SemiBold',
         letterSpacing: 0.5,
         textTransform: 'uppercase'
+    },
+    hiddenCard: {
+        position: 'absolute',
+        top: -9999,
+        left: -9999,
+        padding: 20,
+        backgroundColor: '#000',
     },
 });
 

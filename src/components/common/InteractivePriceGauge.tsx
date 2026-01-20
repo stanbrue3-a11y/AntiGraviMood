@@ -8,6 +8,7 @@ import Animated, { useSharedValue, useAnimatedStyle, useAnimatedProps, withTimin
 import * as Haptics from 'expo-haptics';
 import Svg, { Rect, Defs, LinearGradient, Stop } from 'react-native-svg';
 import pricingConfig from '../../data/pricing_config.json';
+import { isTimeInRange } from '../../lib/timeUtils';
 
 const AnimatedRect = Animated.createAnimatedComponent(Rect);
 const { width, height } = Dimensions.get('window');
@@ -45,7 +46,7 @@ interface PriceCategory {
 }
 
 interface Props {
-    placeType: 'bar' | 'restaurant' | 'cafe' | 'club' | 'hotel' | 'culture' | 'park' | 'other' | 'generic' | 'bouillon' | 'bar-a-vin' | 'cocktail-bar' | 'techno-club' | 'speakeasy' | 'coffee-shop' | 'gastronomique';
+    placeType: 'bar' | 'restaurant' | 'cafe' | 'club' | 'hotel' | 'culture' | 'park' | 'other' | 'generic' | 'bouillon' | 'bar-a-vin' | 'cocktail-bar' | 'techno-club' | 'speakeasy' | 'coffee-shop' | 'gastronomique' | 'museum' | 'bistrot';
     pricing?: Pricing;
     categories?: PriceCategory[];
     triggerComponent?: React.ReactNode;
@@ -133,6 +134,8 @@ const miniBadgeStyles = StyleSheet.create({
     }
 });
 
+import { usePlacesStore } from '../../stores';
+
 export const InteractivePriceGauge = ({
     placeType,
     pricing,
@@ -143,10 +146,24 @@ export const InteractivePriceGauge = ({
     arrondissement,
 }: Props) => {
     const { theme, isDark } = useTheme();
+    const { selectedCategories } = usePlacesStore();
     const [modalVisible, setModalVisible] = useState(false);
 
+    // SMARTEST PRICE FOCUS 🧠
+    // If user is explicitly filtering, we show what they are looking for.
+    // Otherwise we show the venue's default.
+    const activeFocus = useMemo(() => {
+        if (selectedCategories.length === 1) {
+            const cat = selectedCategories[0];
+            if (cat === 'restaurant') return 'restaurant';
+            if (cat === 'bar') return 'bar';
+            if (cat === 'café') return 'cafe';
+        }
+        return pricing?.type || placeType;
+    }, [selectedCategories, pricing, placeType]);
+
     // Get reference data for this category from centralized config
-    const typeKey = pricing?.type || placeType;
+    const typeKey = activeFocus;
     const catRef = config.categories[typeKey] || config.categories.default;
     let categoryAverage = catRef.avg;
 
@@ -194,7 +211,6 @@ export const InteractivePriceGauge = ({
 
     // BARRE DES PINCES : CRAB CALCULATOR 2025
     // Benchmark is at 50% visual width.
-    // Each 1% deviation relative to the benchmark moves the bar 1% of the total width.
     const barFillPercent = useMemo(() => {
         if (isFree) return 5;
 
@@ -205,7 +221,19 @@ export const InteractivePriceGauge = ({
         const dishPrice = pricing?.main_dish_price;
         const coffeePrice = pricing?.coffee_price;
 
-        if (pintPrice !== undefined) {
+        // CTX-AWARE PRIORITY LOGIC
+        if (activeFocus === 'restaurant' && dishPrice !== undefined) {
+            current = dishPrice;
+            fair = 18;
+        } else if ((activeFocus === 'bar' || activeFocus === 'club') && pintPrice !== undefined) {
+            current = pintPrice;
+            fair = 7;
+        } else if (activeFocus === 'cafe' && coffeePrice !== undefined) {
+            current = coffeePrice;
+            fair = 2.5;
+        }
+        // Fallback to whatever is available if the preferred focus is missing data
+        else if (pintPrice !== undefined) {
             current = pintPrice;
             fair = 7;
         } else if (dishPrice !== undefined) {
@@ -224,14 +252,10 @@ export const InteractivePriceGauge = ({
 
         // Mathematical Deviation: (Current - Benchmark) / Benchmark
         const deviation = (current - fair) / fair;
-
-        // Map to 0-100 gauge where 0.5 is Benchmark
-        // Example: +14% -> 50 + 14 = 64%
-        // Example: -10% -> 50 - 10 = 40%
         const percent = 50 + (deviation * 100);
 
         return Math.max(5, Math.min(95, percent));
-    }, [pricing, displayPrice, isFree, neighborhoodAverage, categoryAverage]);
+    }, [pricing, displayPrice, isFree, neighborhoodAverage, categoryAverage, activeFocus]);
 
     // Score is the inverse of the bar fill (High Score = Short Bar = Cheap)
     const pinceScore = 100 - barFillPercent;
@@ -240,47 +264,75 @@ export const InteractivePriceGauge = ({
     const animatedWidth = useSharedValue(0);
 
     // Cursor color: CALIBRATED TO STAN STANDARDS
-    // Green (<= Benchmark), Orange (Small surcharge), Red (Severe surcharge)
     const cursorColor = barFillPercent <= 50 ? '#22C55E' : (barFillPercent <= 75 ? '#F59E0B' : '#EF4444');
 
     // Percentage comparison text with context
-    const getCategoryShortLabel = () => {
-        const key = pricing?.type || placeType;
+    const getSingularLabel = () => {
+        const key = activeFocus;
         switch (key) {
-            case 'restaurant': return 'restos';
-            case 'bar': return 'bars';
-            case 'cafe': return 'cafés';
-            case 'club': return 'clubs';
-            case 'hotel': return 'hôtels';
-            case 'culture': return 'culture';
-            case 'park': return 'parcs';
-            case 'bouillon': return 'bouillons';
-            case 'bar-a-vin': return 'bars à vin';
-            case 'cocktail-bar': return 'bars à cocktails';
-            case 'techno-club': return 'clubs techno';
-            default: return 'lieux';
+            case 'restaurant': return 'resto';
+            case 'bar': return 'bar';
+            case 'cafe': return 'café';
+            case 'club': return 'club';
+            case 'hotel': return 'hôtel';
+            case 'culture': return 'sortie culture';
+            case 'park': return 'parc';
+            case 'bouillon': return 'bouillon';
+            case 'bar-a-vin': return 'bar à vin';
+            case 'cocktail-bar': return 'bar à cocktails';
+            case 'techno-club': return 'club techno';
+            case 'coffee-shop': return 'coffee shop';
+            case 'speakeasy': return 'speakeasy';
+            case 'gastronomique': return 'gastronomique';
+            case 'museum': return 'musée';
+            case 'bistrot': return 'bistrot';
+            default: return 'lieu';
         }
     };
 
+    const priceContextLabel = useMemo(() => {
+        const label = getSingularLabel();
+        if (label === 'sortie culture') return 'une sortie culture à Paris';
+        if (['hôtel', 'une'].includes(label.split(' ')[0])) return `un ${label} à Paris`;
+
+        return `un ${label} à Paris`;
+    }, [activeFocus]);
+
     const getComparisonText = () => {
-        // 0. FREE CASE
         if (isFree) return "C'est cadeau ! 🎁";
 
-        // TRIPLE ANCHOR PRECISION (User's Rigorous System)
         const pintPrice = pricing?.pint_price;
+        const cocktailPrice = pricing?.cocktail_price;
         const dishPrice = pricing?.main_dish_price;
         const coffeePrice = pricing?.coffee_price;
 
+        // CTX-AWARE PRIORITY
+        if (activeFocus === 'restaurant' && dishPrice !== undefined) {
+            const fair = 18;
+            const diff = Math.abs(Math.round(((dishPrice - fair) / fair) * 100));
+            const sign = dishPrice > fair ? '+' : '-';
+            if (dishPrice === fair) return `Plat ${dishPrice}€ (Prix Juste)`;
+            return `Plat ${dishPrice}€ (${sign}${diff}% vs ${fair}€)`;
+        }
+
         if (pintPrice !== undefined) {
-            const fair = 7; // Paris Standard Pint
+            const fair = 7;
             const diff = Math.abs(Math.round(((pintPrice - fair) / fair) * 100));
             const sign = pintPrice > fair ? '+' : '-';
             if (pintPrice === fair) return `Pinte ${pintPrice}€ (Prix Juste)`;
             return `Pinte ${pintPrice}€ (${sign}${diff}% vs ${fair}€)`;
         }
 
+        if (cocktailPrice !== undefined) {
+            const fair = 12;
+            const diff = Math.abs(Math.round(((cocktailPrice - fair) / fair) * 100));
+            const sign = cocktailPrice > fair ? '+' : '-';
+            if (cocktailPrice === fair) return `Cocktail ${cocktailPrice}€ (Prix Juste)`;
+            return `Cocktail ${cocktailPrice}€ (${sign}${diff}% vs ${fair}€)`;
+        }
+
         if (dishPrice !== undefined) {
-            const fair = 18; // Paris Standard Dish
+            const fair = 18;
             const diff = Math.abs(Math.round(((dishPrice - fair) / fair) * 100));
             const sign = dishPrice > fair ? '+' : '-';
             if (dishPrice === fair) return `Plat ${dishPrice}€ (Prix Juste)`;
@@ -288,7 +340,7 @@ export const InteractivePriceGauge = ({
         }
 
         if (coffeePrice !== undefined) {
-            const fair = 2.5; // Paris Standard Coffee
+            const fair = 2.5;
             const diff = Math.abs(Math.round(((coffeePrice - fair) / fair) * 100));
             const sign = coffeePrice > fair ? '+' : '-';
             if (coffeePrice === fair) return `Café ${coffeePrice}€ (Prix Juste)`;
@@ -305,25 +357,17 @@ export const InteractivePriceGauge = ({
             return `${label} ${price}€ (${sign}${diff}% vs ${fair}€)`;
         }
 
-        // Fallback (Depreciated but safe)
         const fairPrice = pricing?.fair_price;
         const referenceAvg = fairPrice || neighborhoodAverage || categoryAverage;
-
         if (!referenceAvg) return '';
 
-        // Calculate diff
         const diff = Math.abs(Math.round(((displayPrice - referenceAvg) / referenceAvg) * 100));
-
-        // Label adaptation
         let vsLabel = 'moyenne';
-        if (fairPrice) vsLabel = "l'estimation IA"; // "vs AI Estimation"
+        if (fairPrice) vsLabel = "l'estimation IA";
         else if (arrondissement) vsLabel = 'quartier';
 
-        if (displayPrice < referenceAvg) {
-            return `-${diff}% vs ${vsLabel}`;
-        } else if (displayPrice > referenceAvg) {
-            return `+${diff}% vs ${vsLabel}`;
-        }
+        if (displayPrice < referenceAvg) return `-${diff}% vs ${vsLabel}`;
+        else if (displayPrice > referenceAvg) return `+${diff}% vs ${vsLabel}`;
         return `pile ${vsLabel}`;
     };
 
@@ -342,12 +386,6 @@ export const InteractivePriceGauge = ({
     const priceSubtitle = useMemo(() => {
         return catRef.unit;
     }, [catRef]);
-
-    const priceContextLabel = useMemo(() => {
-        const label = getCategoryShortLabel();
-        if (label === 'culture') return 'des sorties culture';
-        return `un ${label.endsWith('s') ? label.slice(0, -1) : label} à Paris`;
-    }, [pricing?.type, placeType]);
 
     const pinceLabel = useMemo(() => {
         return getPinceLabelFromScore(pinceScore);
@@ -369,20 +407,31 @@ export const InteractivePriceGauge = ({
 
     const getMainPriceText = () => {
         if (!pricing) return `≈--€`;
-        if (pricing.pint_price) return `${pricing.pint_price}€`;
-        if (pricing.main_dish_price) return `${pricing.main_dish_price}€`;
-        if (pricing.coffee_price) return `${pricing.coffee_price.toFixed(1)}€`;
 
-        switch (pricing.type) {
-            case 'bar':
-                return pricing.pint_price ? `${pricing.pint_price}€` : `≈${displayPrice}€`;
-            case 'cafe':
-                return pricing.coffee_price ? `${pricing.coffee_price.toFixed(1)}€` : `≈${displayPrice}€`;
-            case 'club':
-                return pricing.entry_fee ? `${pricing.entry_fee}€` : `≈${displayPrice}€`;
-            default:
-                return `≈${displayPrice}€`;
+        const isHH = pricing.hh_time && isTimeInRange(pricing.hh_time);
+        const isEvening = isTimeInRange("18:00-06:00");
+
+        const pintPrice = pricing.pint_price;
+        const dishPrice = pricing.main_dish_price;
+        const coffeePrice = pricing.coffee_price;
+
+        // CTX-AWARE PRIORITY
+        if (activeFocus === 'restaurant' && dishPrice !== undefined) {
+            return `${dishPrice}€`;
         }
+
+        const showPint = pintPrice && (activeFocus !== 'cafe' || isEvening);
+        if (showPint) {
+            if (isHH && pricing.pint_hh) return `${pricing.pint_hh}€`;
+            return `${pintPrice}€`;
+        }
+
+        if (pricing.cocktail_price) return `${pricing.cocktail_price}€`;
+        if (pricing.wine_glass) return `${pricing.wine_glass}€`;
+        if (dishPrice !== undefined) return `${dishPrice}€`;
+        if (coffeePrice !== undefined) return `${coffeePrice.toFixed(1)}€`;
+
+        return `≈${displayPrice}€`;
     };
 
     const isBonPlan = (pricing?.value_score ?? 0) >= 80;
@@ -480,15 +529,20 @@ export const InteractivePriceGauge = ({
                                     ) : (
                                         <>
                                             <View style={styles.priceRow}>
-                                                <Text style={styles.priceTilde}>{pricing?.pint_price || pricing?.main_dish_price || pricing?.coffee_price ? '' : '≈'}</Text>
+                                                <Text style={styles.priceTilde}>{pricing?.pint_price || pricing?.cocktail_price || (pricing as any)?.wine_glass || pricing?.main_dish_price || pricing?.coffee_price ? '' : '≈'}</Text>
                                                 <Text style={[styles.priceBig, { color: '#FFF' }]}>{getMainPriceText().replace('€', '')}</Text>
                                                 <Text style={styles.priceCurrency}>€</Text>
                                             </View>
                                             <Text style={styles.priceDesc}>
-                                                {pricing?.pint_price ? 'Pinte (50cl)' :
-                                                    pricing?.main_dish_price ? 'Plat Signature' :
-                                                        pricing?.coffee_price ? 'Café (Espresso)' :
-                                                            (pricing?.unit || catRef.unit)}
+                                                {pricing?.pint_price ?
+                                                    (pricing.hh_time && isTimeInRange(pricing.hh_time) && pricing.pint_hh)
+                                                        ? 'Pinte (Happy Hour)'
+                                                        : 'Pinte (50cl)'
+                                                    : pricing?.cocktail_price ? 'Cocktail Signature' :
+                                                        pricing?.wine_glass ? 'Verre de Vin' :
+                                                            pricing?.main_dish_price ? 'Plat Signature' :
+                                                                pricing?.coffee_price ? 'Café (Espresso)' :
+                                                                    (pricing?.unit || catRef.unit)}
                                             </Text>
                                         </>
                                     )}

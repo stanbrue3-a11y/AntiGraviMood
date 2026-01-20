@@ -73,7 +73,7 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
                 style={[
                     styles.moodCard,
                     {
-                        backgroundColor: isActive ? theme.text.primary : theme.surface_variant,
+                        backgroundColor: isActive ? theme.text.primary : theme.surfaceElevated,
                         borderColor: isActive ? theme.text.primary : theme.border
                     }
                 ]}
@@ -90,7 +90,7 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
     const PowerUp = ({ label, icon, value, onChange }: { label: string, icon: any, value: boolean, onChange: (v: boolean) => void }) => (
         <View style={[styles.powerUpRow, { borderBottomColor: theme.border }]}>
             <View style={styles.powerUpLeft}>
-                <View style={[styles.iconBox, { backgroundColor: theme.surface_variant }]}>
+                <View style={[styles.iconBox, { backgroundColor: theme.surfaceElevated }]}>
                     <Ionicons name={icon} size={20} color={theme.text.primary} />
                 </View>
                 <Text style={[styles.powerUpLabel, { color: theme.text.primary }]}>{label}</Text>
@@ -140,7 +140,7 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
 
                         {/* ZONE 2: POWER-UPS */}
                         <Text style={[styles.sectionTitle, { color: theme.text.secondary, marginTop: 24 }]}>FILTRES D'ÉLITE</Text>
-                        <View style={[styles.powerUpContainer, { backgroundColor: theme.surface_variant + '40' }]}>
+                        <View style={[styles.powerUpContainer, { backgroundColor: theme.surfaceElevated + '40' }]}>
                             <PowerUp label="Happy Hour en cours" icon="beer-outline" value={filterHappyHour} onChange={setFilterHappyHour} />
                             <PowerUp label="Terrasse Ensoleillée" icon="sunny-outline" value={filterTerrace} onChange={setFilterTerrace} />
                             <PowerUp label="Ouvert Maintenant" icon="time-outline" value={filterOpenNow} onChange={setFilterOpenNow} />
@@ -158,7 +158,7 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
                                         style={[
                                             styles.districtChip,
                                             {
-                                                backgroundColor: isSel ? theme.text.primary : theme.surface_variant,
+                                                backgroundColor: isSel ? theme.text.primary : theme.surfaceElevated,
                                                 borderColor: isSel ? theme.text.primary : theme.border
                                             }
                                         ]}

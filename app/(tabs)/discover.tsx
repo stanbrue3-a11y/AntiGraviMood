@@ -2,7 +2,8 @@ import { View, Text, StyleSheet, Platform, UIManager } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../../src/design';
 import { Place } from '../../src/types/model';
-import { usePlacesStore } from '../../src/stores/usePlacesStore';
+import { usePlacesStore, selectFilteredPlaces } from '../../src/stores/usePlacesStore';
+import { useShallow } from 'zustand/react/shallow';
 import { DiscoverCard } from '../../src/components/feed/DiscoverCard';
 import { PlaceDetailSheetExplore } from '../../src/components/place/PlaceDetailSheetExplore';
 import { Skeleton } from '../../src/components/common/Skeleton';
@@ -15,7 +16,6 @@ import * as Haptics from 'expo-haptics';
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
 // import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters';
 import { FilterSheet } from '../../src/components/feed/FilterSheet';
-import { DiscoverSearch } from '../../src/components/discover/DiscoverSearch';
 import { FlashList } from '@shopify/flash-list';
 
 
@@ -37,6 +37,7 @@ export default function DiscoverScreen() {
     const simulateLoading = usePlacesStore(state => state.simulateLoading);
     const isLoading = usePlacesStore(state => state.isLoading);
     const selectPlace = usePlacesStore(state => state.selectPlace);
+    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces)) as Place[];
 
     // Filter Stores
     const selectedPrice = usePlacesStore(state => state.selectedPrice);
@@ -50,7 +51,6 @@ export default function DiscoverScreen() {
 
     // UI State
     const [filterVisible, setFilterVisible] = useState(false);
-    const [isSearchActive, setIsSearchActive] = useState(false);
 
     // Initialize layout animations
     useEffect(() => {
@@ -61,46 +61,6 @@ export default function DiscoverScreen() {
         }
     }, []);
 
-    // Memoize filtering
-    const filteredPlaces = useMemo(() => {
-        return places.filter((place) => {
-            // Filter by mood
-            if (selectedMoods.length > 0) {
-                const dominantMood = getDominantMood(place);
-                if (!selectedMoods.includes(dominantMood)) {
-                    return false;
-                }
-            }
-
-            // Filter by category
-            if (selectedCategories.length > 0) {
-                if (!selectedCategories.includes(place.category)) {
-                    return false;
-                }
-            }
-
-            // Filter by search
-            if (searchQuery) {
-                const query = searchQuery.toLowerCase();
-                const matchesName = place.name.toLowerCase().includes(query);
-                const matchesVibes = place.vibes.some((v) => v.toLowerCase().includes(query));
-                const matchesCategory = place.category.toLowerCase().includes(query);
-                if (!matchesName && !matchesVibes && !matchesCategory) {
-                    return false;
-                }
-            }
-
-            // Filter by Pince (sociology_factor)
-            if (isPinceEnabled && pinceMaxPercent !== null) {
-                const sociologyFactor = place.practical_info?.price_info?.sociology_factor ?? 0;
-                if (sociologyFactor > pinceMaxPercent) {
-                    return false;
-                }
-            }
-
-            return true;
-        });
-    }, [places, selectedMoods, selectedCategories, searchQuery, getDominantMood, isPinceEnabled, pinceMaxPercent]);
 
     const handleCardPress = (place: Place) => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -116,13 +76,7 @@ export default function DiscoverScreen() {
 
                     {/* Header with Moods & Search Toggle */}
                     <DiscoverHeader
-                        selectedMoods={selectedMoods}
-                        toggleMood={toggleMood}
-                        searchQuery={searchQuery}
-                        setSearchQuery={setSearchQuery}
                         setFilterVisible={setFilterVisible}
-                        isSearchActive={isSearchActive}
-                        setIsSearchActive={setIsSearchActive}
                         insetsTop={insets.top}
                     />
 
@@ -170,13 +124,6 @@ export default function DiscoverScreen() {
                     </View>
                 </View>
 
-                {/* Modals */}
-                <DiscoverSearch
-                    visible={isSearchActive} // Reusing the header state for consistency or separate if modal needed
-                    onClose={() => setIsSearchActive(false)}
-                    searchQuery={searchQuery}
-                    setSearchQuery={setSearchQuery}
-                />
 
 
 

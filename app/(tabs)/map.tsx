@@ -20,7 +20,6 @@ import { FilterSheet } from '../../src/components/feed/FilterSheet';
 // import { MapLayers } from '../../src/components/map/MapLayers'; // Removed
 import { NativeMapPro } from '../../src/components/map/NativeMapPro';
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
-import { DiscoverSearch } from '../../src/components/discover/DiscoverSearch';
 import { FloatingMapSliders } from '../../src/components/map/FloatingMapSliders';
 
 // Config
@@ -69,7 +68,7 @@ export default function MapScreen() {
     // Local State
     const [isFilterSheetVisible, setFilterSheetVisible] = useState(false);
     // const [selectedMoods, setSelectedMoods] = useState<string[]>(['chill', 'festif', 'culturel']); // REMOVED local state
-    const [isSearchActive, setIsSearchActive] = useState(false);
+    // const [selectedMoods, setSelectedMoods] = useState<string[]>(['chill', 'festif', 'culturel']); // REMOVED local state
     const [userLocation, setUserLocation] = useState<any>(null);
     const [mapMode, setMapMode] = useState<'global' | 'likes'>('global');
     const [internalHighlightId, setInternalHighlightId] = useState<string | null>(null);
@@ -116,6 +115,30 @@ export default function MapScreen() {
             }
         }
     }, [navigatedPlaceId, rawPlaces.length]);
+
+    // MAP CAMERA REQUEST LISTENER (Live Search Selection) 🔎
+    const mapCameraRequest = usePlacesStore(state => state.mapCameraRequest);
+    const lastRequestTimestamp = useRef<number>(0);
+
+    React.useEffect(() => {
+        if (mapCameraRequest && mapCameraRequest.timestamp > lastRequestTimestamp.current) {
+            lastRequestTimestamp.current = mapCameraRequest.timestamp;
+
+            console.log('[Map] Reacting to Camera Request:', mapCameraRequest);
+
+            // Trigger Fly-To
+            cameraRef.current?.setCamera({
+                centerCoordinate: mapCameraRequest.center,
+                zoomLevel: mapCameraRequest.zoom || 15.5,
+                animationDuration: 1200,
+                animationMode: 'flyTo',
+                padding: { paddingBottom: 100, paddingLeft: 0, paddingRight: 0, paddingTop: 0 }
+            });
+
+            // Brief Haptic to confirm arrival "intent"
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+        }
+    }, [mapCameraRequest]);
 
     // Constants
     const CATEGORIES = ['bar', 'cafe', 'restaurant', 'club', 'espace-culturel', 'parc', 'museum', 'workshop', 'exhibition', 'other'];
@@ -199,17 +222,11 @@ export default function MapScreen() {
             {/* Top Controls: DiscoverHeader */}
             <View style={{ position: 'absolute', top: 0, left: 0, right: 0, zIndex: 100 }}>
                 <DiscoverHeader
-                    selectedMoods={selectedMoods}
-                    toggleMood={toggleMood as any}
-                    searchQuery={searchQuery}
-                    setSearchQuery={setSearchQuery}
                     setFilterVisible={() => {
                         console.log('🔥 FILTER BUTTON PRESSED - Opening Sheet');
                         Haptics.selectionAsync();
                         setFilterSheetVisible(true);
                     }}
-                    isSearchActive={isSearchActive}
-                    setIsSearchActive={setIsSearchActive}
                     insetsTop={insets.top}
                     transparent={true}
                     showLeftButton={true}
@@ -251,12 +268,6 @@ export default function MapScreen() {
                 </BlurView>
             </View>
 
-            <DiscoverSearch
-                visible={isSearchActive}
-                onClose={() => setIsSearchActive(false)}
-                searchQuery={searchQuery}
-                setSearchQuery={setSearchQuery}
-            />
 
 
             <FloatingMapSliders />
