@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, LayoutAnimation, Platform, UIManager } from 'react-native';
+import { useTheme } from '../../design';
 import { Ionicons } from '@expo/vector-icons';
 import { Place } from '../../types/model';
 
@@ -13,6 +14,7 @@ interface PlaceDescriptionProps {
 }
 
 export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescriptionProps) => {
+    const { theme } = useTheme();
     const [expanded, setExpanded] = useState(false);
 
     // Get description safely (history/story)
@@ -26,7 +28,7 @@ export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescri
     };
 
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, { backgroundColor: theme.surface, borderColor: theme.border }]}>
             <TouchableOpacity
                 onPress={toggleExpand}
                 style={styles.header}
@@ -47,7 +49,7 @@ export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescri
 
             <View style={styles.content}>
                 <Text
-                    style={styles.text}
+                    style={[styles.text, { color: theme.text.secondary }]}
                     numberOfLines={expanded ? undefined : 3}
                 >
                     {description}
@@ -67,13 +69,11 @@ export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescri
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'rgba(255,255,255,0.04)',
         borderRadius: 20,
         padding: 24,
         paddingBottom: 28,
         marginBottom: 24,
         borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.05)',
     },
     header: {
         flexDirection: 'row',
@@ -96,7 +96,6 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 16,
-        color: 'rgba(255,255,255,0.9)',
         lineHeight: 26,
         fontFamily: 'Inter_400Regular',
     },

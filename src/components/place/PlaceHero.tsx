@@ -8,7 +8,7 @@ import * as Haptics from 'expo-haptics';
 import { ImageCarousel } from '../common/ImageCarousel';
 import { Place } from '../../types/model';
 import { getPlaceImages } from '../../lib/placeUtils';
-import { useTokens } from '../../design';
+import { useTheme } from '../../design';
 import { LinearGradient } from 'expo-linear-gradient';
 
 interface PlaceHeroProps {
@@ -22,6 +22,7 @@ interface PlaceHeroProps {
 }
 
 export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked, primaryColor, isReady }: PlaceHeroProps) => {
+    const { theme, isDark } = useTheme();
     const images = getPlaceImages(place);
     const firstImage = images[0];
 
@@ -110,7 +111,6 @@ const styles = StyleSheet.create({
         height: 320,
         width: '100%',
         position: 'relative',
-        backgroundColor: '#121212',
     },
     topGradient: {
         position: 'absolute',

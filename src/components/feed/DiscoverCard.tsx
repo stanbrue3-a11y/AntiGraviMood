@@ -157,7 +157,7 @@ export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: Di
                 ]}>
                     <View style={{ flex: 1, backgroundColor: '#f0f0f0' }}>
                         <Image
-                            source={{ uri: imageUri }}
+                            source={imageUri}
                             style={[styles.image, { opacity: imageLoaded ? 1 : 0 }]}
                             contentFit="cover"
                             transition={300}

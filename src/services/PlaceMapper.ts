@@ -175,13 +175,20 @@ export class PlaceMapper {
             real_talk: realTalk,
             opening_hours: this.safeJsonParse<any>(row.hours_json, undefined),
             practical_info: {
-                ...editorial,
-                phone: editorial.phone || editorial.téléphone || undefined,
-                booking_url: editorial.booking_url || editorial.bouton_réserver,
-                shotgun_url: editorial.shotgun_url || editorial.bouton_shotgun,
-                reservation_required: editorial.reservation_required || false,
-                outdoor_seating: editorial.outdoor_seating || false,
-                accessibility: editorial.accessibility || false
+                primary_status: editorial.primary_status || null,
+                tags: editorial.tags || [],
+                main_action: editorial.main_action || null,
+                accessibility: editorial.accessibility || false,
+                wifi_available: editorial.wifi_available || false,
+                opening_hours: editorial.opening_hours || row.hours_json || 'Voir sur place',
+                price_range: editorial.price_range || row.budget_avg || 1,
+                happy_hour: editorial.happy_hour || null,
+                must_eat: realTalk.must_eat,
+                signature_drink: editorial.signature_drink,
+                ambiance_vibe: editorial.ambiance_vibe,
+                specialty: editorial.specialty,
+                smart_tip: editorial.smart_tip,
+                entry_fee: editorial.entry_fee,
             }
         };
 

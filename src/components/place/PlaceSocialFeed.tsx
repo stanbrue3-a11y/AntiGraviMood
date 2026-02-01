@@ -89,7 +89,7 @@ export const PlaceSocialFeed = ({ place }: PlaceSocialFeedProps) => {
                     >
                         <Pressable onPress={() => handleOpenViewer(index)}>
                             <View style={styles.momentCard}>
-                                <Image source={{ uri: moment.imageUri }} style={styles.momentImg} contentFit="cover" transition={400} />
+                                <Image source={moment.imageUri} style={styles.momentImg} contentFit="cover" transition={400} />
                                 <View style={styles.momentOverlay}>
                                     <View style={{ width: 16, height: 16, borderRadius: 8, backgroundColor: '#4e55f0', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#fff' }}>
                                         <Ionicons name="person" size={8} color="#fff" />
@@ -111,7 +111,7 @@ export const PlaceSocialFeed = ({ place }: PlaceSocialFeedProps) => {
                         >
                             <Pressable onPress={() => handleOpenViewer(globalIndex)}>
                                 <View style={styles.momentCard}>
-                                    <Image source={{ uri }} style={styles.momentImg} contentFit="cover" transition={400} />
+                                    <Image source={uri} style={styles.momentImg} contentFit="cover" transition={400} />
                                 </View>
                             </Pressable>
                         </View>

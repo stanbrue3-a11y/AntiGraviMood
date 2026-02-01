@@ -134,7 +134,7 @@ export const usePlaceDetails = (selectedPlaceId: string | null) => {
 
     const handleBooking = useCallback(() => {
         if (!place) return;
-        const url = place.practical_info?.shotgun_url || place.practical_info?.booking_url;
+        const url = place.practical_info?.main_action?.url;
         if (!url) return;
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
         Linking.openURL(url);

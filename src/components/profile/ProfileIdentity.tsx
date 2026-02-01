@@ -46,7 +46,7 @@ export const ProfileIdentity = ({ user, stats, onLogout }: Props) => {
                 {/* AVATAR WITH AURA (GLOW) */}
                 <View style={styles.avatarWrapper}>
                     <View style={[styles.aura, { backgroundColor: COLORS.orange }]} />
-                    <Image source={{ uri: user?.avatar }} style={styles.avatar} contentFit="cover" transition={300} />
+                    <Image source={user?.avatar} style={styles.avatar} contentFit="cover" transition={300} />
                     <View style={styles.cameraIcon}>
                         <Ionicons name="camera" size={12} color="#000" />
                     </View>

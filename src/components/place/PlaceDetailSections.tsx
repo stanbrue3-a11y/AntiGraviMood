@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
+import { useTheme } from '../../design';
 import { Ionicons } from '@expo/vector-icons';
 import { Place } from '../../types/model';
 import { PlaceHero } from './PlaceHero';
@@ -62,6 +63,7 @@ export const PlaceSection = React.memo(({
     isReady,
     handlers
 }: PlaceSectionProps) => {
+    const { theme, isDark } = useTheme();
 
     // ⚡ FORENSIC HYDRATION MAPPING
     const isReadyForSection = React.useMemo(() => {
@@ -121,10 +123,14 @@ export const PlaceSection = React.memo(({
                         activeColor={primaryColor}
                         minimal={true}
                         triggerComponent={
-                            <View style={sectionStyles.gaugePill}>
+                            <View style={[sectionStyles.gaugePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
                                 <CrabIcon size={18} color={primaryColor} />
-                                <Text style={[sectionStyles.gaugeLabel, { color: primaryColor }]}>Barre des Pinces</Text>
-                                <View style={sectionStyles.gaugeBarContainer}>
+                                <Text style={[sectionStyles.gaugeLabel, { color: primaryColor }]}>
+                                    {place.pricing?.budget_avg !== undefined
+                                        ? (place.pricing.budget_avg <= 7 ? 'C\'est les Pinces' : 'Un peu de Pince')
+                                        : 'Barre des Pinces'}
+                                </Text>
+                                <View style={[sectionStyles.gaugeBarContainer, { backgroundColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }]}>
                                     <View style={[sectionStyles.miniBarFill, {
                                         width: `${100 - (place.pricing ? (place.pricing.budget_avg / 50 * 100) : 50)}%`,
                                         backgroundColor: primaryColor
@@ -182,7 +188,7 @@ export const PlaceSection = React.memo(({
         case 'social':
             return (
                 <View key="social" style={[sectionStyles.socialSection, sectionStyles.scrollPadding]}>
-                    <Text style={sectionStyles.socialTitle}>Moments Partagés</Text>
+                    <Text style={[sectionStyles.socialTitle, { color: theme.text.primary }]}>Moments Partagés</Text>
                     <PlaceSocialFeed place={place} />
                 </View>
             );
@@ -199,14 +205,13 @@ const sectionStyles = StyleSheet.create({
     gaugePill: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: 'rgba(255,255,255,0.04)',
+        backgroundColor: 'transparent',
         paddingHorizontal: 16,
         paddingVertical: 14,
         borderRadius: 16,
         marginBottom: 16,
         gap: 12,
         borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.05)',
     },
     gaugeLabel: {
         fontSize: 14,
@@ -217,7 +222,6 @@ const sectionStyles = StyleSheet.create({
     gaugeBarContainer: {
         flex: 1,
         height: 4,
-        backgroundColor: 'rgba(255,255,255,0.05)',
         borderRadius: 2,
         overflow: 'hidden',
     },
@@ -231,7 +235,6 @@ const sectionStyles = StyleSheet.create({
     socialTitle: {
         fontFamily: 'PlayfairDisplay-Bold',
         fontSize: 24,
-        color: '#FFF',
         marginBottom: 20,
     },
 });

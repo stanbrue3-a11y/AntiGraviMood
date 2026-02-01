@@ -1,10 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, '../src/data/pois_flattened.json');
+const dataPath = path.join(__dirname, '../src/data/pois.jsonl');
 const outputPath = path.join(__dirname, '../assets/init.sql');
 
-const places = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+// REFACTOR: Use line-by-line reading for 10k scaling
+const rawData = fs.readFileSync(dataPath, 'utf8');
+const lines = rawData.split('\n').filter(l => l.trim().length > 0);
+const places = lines.map(l => JSON.parse(l));
 
 const escape = (str) => {
     if (typeof str !== 'string') return str;
@@ -84,7 +87,23 @@ CREATE VIRTUAL TABLE IF NOT EXISTS places_fts USING fts5(
 );
 `;
 
-places.forEach(p => {
+const { SurgicalPlaceSchema } = require('./surgical_schema');
+
+const validatedPlaces = places.map((p, idx) => {
+    try {
+        return SurgicalPlaceSchema.parse(p);
+    } catch (err) {
+        console.error(`❌ [Gatekeeper] Failure on place: ${p.name || p.id} (Ligne ${idx + 1})`);
+        if (err.errors) {
+            err.errors.forEach(e => console.error(`   - ${e.path.join('.')}: ${e.message}`));
+        } else {
+            console.error(err);
+        }
+        process.exit(1); // STOP THE BUILD
+    }
+});
+
+validatedPlaces.forEach(p => {
     // Determine dominant mood
     let dominant_mood = 'chill';
     if (p.mood_scores) {

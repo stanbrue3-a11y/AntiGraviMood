@@ -164,7 +164,7 @@ export default function RootLayout() {
     return (
         <GestureHandlerRootView style={styles.container}>
             <SafeAreaProvider>
-                <ThemeProvider initialMode="dark">
+                <ThemeProvider initialMode="smart">
                     <RootLayoutNav />
                 </ThemeProvider>
             </SafeAreaProvider>

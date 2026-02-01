@@ -1,6 +1,6 @@
 import React, { useMemo, useCallback, useRef } from 'react';
 import { View, Text, StyleSheet, Pressable, TouchableOpacity, Linking, Platform, Share, Dimensions, LayoutAnimation, UIManager, InteractionManager } from 'react-native';
-import { BottomSheetScrollView, BottomSheetBackdrop, BottomSheetFooter } from '@gorhom/bottom-sheet';
+import { BottomSheetScrollView, BottomSheetBackdrop, BottomSheetFooter, useBottomSheetSpringConfigs } from '@gorhom/bottom-sheet';
 import BottomSheet from '@gorhom/bottom-sheet';
 import { Ionicons } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
@@ -8,6 +8,7 @@ import * as Haptics from 'expo-haptics';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { BlurView } from 'expo-blur';
 
+import { ThemeProvider, useTheme } from '../../design';
 import { useUIStore } from '../../stores/uiStore';
 import { InteractivePriceGauge } from '../common/InteractivePriceGauge';
 import { CrabIcon } from '../common/PriceIcons';
@@ -49,9 +50,9 @@ const PremiumHandle = () => (
  */
 export const PlaceDetailSheet = () => {
     const insets = useSafeAreaInsets();
+    const { theme, isDark } = useTheme();
     const selectedPlaceId = useUIStore(state => state.selectedPlaceId);
 
-    // The "Haussmannian Core": All logic is here.
     const {
         place,
         isLiked,
@@ -65,6 +66,15 @@ export const PlaceDetailSheet = () => {
     } = usePlaceDetails(selectedPlaceId);
 
     const snapPoints = useMemo(() => ['88%'], []);
+
+    // 🏎️ PREMIUM DAMPED SPRING CONFIG
+    // Achieves that "Majestic" movement: fast entry, extreme damping at the end.
+    const animationConfigs = useBottomSheetSpringConfigs({
+        damping: 35,
+        stiffness: 90,
+        mass: 1.2,
+        overshootClamping: true,
+    });
 
     // 📡 TELEMETRY: Track when a place is viewed
     React.useEffect(() => {
@@ -106,7 +116,11 @@ export const PlaceDetailSheet = () => {
             snapPoints={snapPoints}
             onChange={handlers.handleSheetChanges}
             enablePanDownToClose={true}
-            handleComponent={PremiumHandle}
+            handleComponent={() => (
+                <View style={styles.handleWrapper}>
+                    <View style={[styles.handleIndicator, { backgroundColor: isDark ? 'rgba(255, 255, 255, 0.4)' : 'rgba(0, 0, 0, 0.2)' }]} />
+                </View>
+            )}
             backdropComponent={(props) => (
                 <BottomSheetBackdrop
                     {...props}
@@ -116,12 +130,11 @@ export const PlaceDetailSheet = () => {
                     pressBehavior="close"
                 />
             )}
-            backgroundStyle={styles.sheetBackground}
+            backgroundStyle={[styles.sheetBackground, { backgroundColor: theme.background }]}
             footerComponent={renderFooter}
             enableOverDrag={false}
             activeOffsetY={[-10, 10]}
-        // 🚀 ZERO-G FLIGHT: Default spring is highly optimized. 
-        // We use the default to ensure it follows the iOS/Android native curves perfectly.
+            animationConfigs={animationConfigs}
         >
             <BottomSheetScrollView
                 contentContainerStyle={{ paddingBottom: 160 }}
@@ -148,23 +161,24 @@ export const PlaceDetailSheet = () => {
 
 const styles = StyleSheet.create({
     handleWrapper: {
-        height: 24,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        height: 32,
         alignItems: 'center',
         justifyContent: 'center',
-        borderTopLeftRadius: 32,
-        borderTopRightRadius: 32,
+        zIndex: 50,
         backgroundColor: 'transparent',
     },
     handleIndicator: {
         width: 36,
         height: 4,
         borderRadius: 2,
-        backgroundColor: 'rgba(255, 255, 255, 0.2)',
     },
     sheetBackground: {
-        backgroundColor: '#121212',
         borderTopLeftRadius: 32,
-        borderTopRightRadius: 32
+        borderTopRightRadius: 32,
     },
     footerContainer: {
         alignItems: 'center',

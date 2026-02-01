@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { useTheme } from '../../design';
 import { Ionicons } from '@expo/vector-icons';
 import { Place } from '../../types/model';
 
@@ -13,13 +14,14 @@ interface PlaceMetroBlockProps {
  * Implements the "Beau Design" with bold station name and line badges.
  */
 export const PlaceMetroBlock = React.memo(({ place, primaryColor }: PlaceMetroBlockProps) => {
+    const { theme } = useTheme();
     return (
         <View style={styles.metroPremiumBlock}>
             <View style={[styles.metroPremiumIconBox, { backgroundColor: primaryColor + '15' }]}>
                 <Ionicons name="train" size={24} color={primaryColor} />
             </View>
             <View style={styles.metroPremiumContent}>
-                <Text style={styles.metroPremiumStation}>{place.location.nearest_metro}</Text>
+                <Text style={[styles.metroPremiumStation, { color: theme.text.primary }]}>{place.location.nearest_metro}</Text>
                 <View style={styles.metroPremiumMeta}>
                     <View style={[styles.lineBadge, { backgroundColor: '#FFAB60' }]}>
                         <Text style={styles.lineText}>{place.location.metro_lines?.[0] || '?'}</Text>
@@ -37,8 +39,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingVertical: 24,
         gap: 16,
-        borderBottomWidth: 1,
-        borderBottomColor: 'rgba(255,255,255,0.05)',
         marginBottom: 8,
     },
     metroPremiumIconBox: {
@@ -55,7 +55,6 @@ const styles = StyleSheet.create({
     metroPremiumStation: {
         fontSize: 22,
         fontWeight: '900',
-        color: '#FFF',
         fontFamily: 'Inter_700Bold',
     },
     metroPremiumMeta: {

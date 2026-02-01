@@ -34,7 +34,7 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
             }}
         >
             <Image
-                source={{ uri: imageUri }}
+                source={imageUri}
                 style={styles.image}
                 contentFit="cover"
                 transition={200}

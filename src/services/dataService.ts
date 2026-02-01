@@ -58,7 +58,7 @@ export class DataService {
             try {
                 logger.log("🧠 [DataService] HARD IGNITION START (LEGACY PROTOCOL)...");
 
-                const dbName = 'moodmap_v2.db';
+                const dbName = 'moodmap_v4.db';
                 const dbDir = `${FileSystem.documentDirectory}SQLite`;
                 const dbPath = `${dbDir}/${dbName}`;
 
@@ -71,25 +71,19 @@ export class DataService {
 
                 // B. ASSET PAYLOAD EXTRACTION
                 logger.log("📦 [DataService] Extracting binary payload...");
-                const binary = Asset.fromModule(require('../../assets/moodmap_v2.db'));
+                const binary = Asset.fromModule(require('../../assets/moodmap_v4.db'));
                 await binary.downloadAsync();
 
                 if (!binary.localUri) {
                     throw new Error("Internal failure: Binary localUri is null.");
                 }
 
-                // C. ATOMIC DEPLOYMENT
-                const fileInfo = await FileSystem.getInfoAsync(dbPath);
-                if (!fileInfo.exists) {
-                    logger.log("🚚 [DataService] Fresh deployment to: " + dbPath);
-                    await FileSystem.copyAsync({
-                        from: binary.localUri,
-                        to: dbPath
-                    });
-                } else {
-                    logger.log("♻️ [DataService] Using existing database core.");
-                    // TODO: Implement schema version check here for future migrations.
-                }
+                // C. ATOMIC DEPLOYMENT (FORCED FOR SILICON VALLEY MIGRATION)
+                logger.log("🚚 [DataService] Deploying fresh core to: " + dbPath);
+                await FileSystem.copyAsync({
+                    from: binary.localUri,
+                    to: dbPath
+                });
 
                 // D. KERNEL ATTACHMENT
                 logger.log("🔓 [DataService] Attaching SQLite kernel...");
