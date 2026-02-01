@@ -1,128 +1,114 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Place } from '../../types/model';
-import { useTheme, typography as typo } from '../../design';
 
 interface MagazineCardProps {
     place: Place;
     primaryColor: string;
 }
 
-export const MagazineCard: React.FC<MagazineCardProps> = ({ place, primaryColor }) => {
-    const { isDark } = useTheme();
-    const { real_talk, category, subcategory } = place;
+/**
+ * MagazineCard - "L'Aparté de l'Initié" 📸🏛️
+ * Implements the exact mockup with the orange left-border curve and premium typography.
+ */
+export const MagazineCard = React.memo(({ place, primaryColor }: MagazineCardProps) => {
+    // Determine the secondary accent (mockup uses a specific peach/orange)
+    const accentColor = '#FFAB60';
 
-    const isBar = category?.toLowerCase().includes('bar') || category?.toLowerCase().includes('club');
-    const headerTitle = isBar ? "ON BOIT QUOI ICI ?" : "TYPE DE CUISINE";
-    const detailValue = subcategory || (isBar ? "Cocktails & Vibes" : "Cuisine de Saison");
+    const realTalk = place.real_talk;
+    if (!realTalk) return null;
 
-    // L'Aparté de l'Initié Bullets
-    const bullets = [
-        real_talk?.le_secret,
-        real_talk?.le_must || real_talk?.must_eat,
-        real_talk?.le_son,
-        real_talk?.la_faune
-    ].filter(Boolean) as string[];
+    // Focus strictly on 'habitué' level info
+    const items = [
+        realTalk.le_secret,
+        realTalk.le_son,
+    ].filter(Boolean);
+
+    if (items.length === 0) return null;
 
     return (
-        <View style={[styles.container, isDark && styles.containerDark]}>
-            <View style={[styles.accentLine, { backgroundColor: primaryColor }]} />
+        <View style={styles.container}>
+            {/* Orange Left Indicator Curve */}
+            <View style={[styles.borderIndicator, { backgroundColor: accentColor }]} />
 
-            <View style={styles.section}>
-                <Text style={[styles.sectionTitle, { color: primaryColor }]}>{headerTitle}</Text>
-                <Text style={styles.detailValue}>“{detailValue}”</Text>
-            </View>
+            <View style={styles.innerContent}>
+                {/* L'Aparté de l'Initié Section - Focus on Habitué Tips */}
+                <Text style={[styles.overline, { color: accentColor }]}>L'APARTÉ DE L'INITIÉ</Text>
 
-            <View style={styles.divider} />
-
-            <View style={styles.section}>
-                <Text style={[styles.sectionTitle, { color: primaryColor }]}>L'APARTÉ DE L'INITIÉ</Text>
-                <View style={styles.bulletList}>
-                    {bullets.length > 0 ? bullets.map((bullet, idx) => (
-                        <View key={idx} style={styles.bulletRow}>
-                            <View style={[styles.bulletDot, { backgroundColor: primaryColor + '40' }]} />
-                            <Text style={styles.bulletText}>{bullet}</Text>
+                <View style={styles.listContainer}>
+                    {items.map((item, index) => (
+                        <View key={index} style={styles.listItem}>
+                            <View style={[styles.bullet, { backgroundColor: accentColor }]} />
+                            <Text style={styles.listText}>{item}</Text>
                         </View>
-                    )) : (
-                        <View style={styles.bulletRow}>
-                            <View style={[styles.bulletDot, { backgroundColor: primaryColor + '40' }]} />
-                            <Text style={styles.bulletText}>Une pépite parisienne authentique, à découvrir sans plus tarder.</Text>
-                        </View>
-                    )}
+                    ))}
                 </View>
             </View>
         </View>
     );
-};
+});
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#FFFFFF',
+        backgroundColor: 'rgba(255,255,255,0.03)', // DARK MODE: DISCRETE
         borderRadius: 20,
-        padding: 24,
-        paddingLeft: 28,
+        paddingLeft: 0,
+        overflow: 'hidden',
         marginVertical: 16,
-        position: 'relative',
-        shadowColor: '#000',
-        shadowOpacity: 0.05,
-        shadowRadius: 10,
-        elevation: 2,
+        borderWidth: 1,
+        borderColor: 'rgba(255,255,255,0.05)',
     },
-    containerDark: {
-        backgroundColor: '#1C1C1E', // Very deep gray
-        shadowOpacity: 0.2,
-    },
-    accentLine: {
+    borderIndicator: {
         position: 'absolute',
-        left: 0,
         top: 24,
         bottom: 24,
-        width: 3,
+        left: 0,
+        width: 3, // SLEEKER
         borderTopRightRadius: 4,
         borderBottomRightRadius: 4,
     },
-    section: {
-        marginVertical: 4,
+    innerContent: {
+        padding: 24,
     },
-    sectionTitle: {
-        fontSize: 11,
-        fontWeight: '900',
-        letterSpacing: 1.5,
+    overline: {
+        fontFamily: 'Inter_900Black',
+        fontSize: 10, // DISCRETE
+        letterSpacing: 1.2,
         marginBottom: 8,
-        textTransform: 'uppercase',
+        fontWeight: '900',
+        opacity: 0.8,
     },
-    detailValue: {
+    mainTitle: {
         fontFamily: 'PlayfairDisplay-Italic',
-        fontSize: 22,
-        color: '#1F2937',
-        lineHeight: 28,
-        marginBottom: 4,
+        fontSize: 22, // SLEEKER
+        color: '#FFF', // DARK MODE
+        marginBottom: 20,
     },
-    divider: {
+    separator: {
         height: 1,
-        backgroundColor: 'rgba(0,0,0,0.05)',
-        marginVertical: 16,
+        backgroundColor: 'rgba(255,255,255,0.05)',
+        marginBottom: 20,
     },
-    bulletList: {
+    listContainer: {
+        marginTop: 8,
         gap: 12,
     },
-    bulletRow: {
+    listItem: {
         flexDirection: 'row',
         alignItems: 'flex-start',
-        gap: 12,
+        gap: 10,
     },
-    bulletDot: {
-        width: 6,
-        height: 6,
-        borderRadius: 3,
+    bullet: {
+        width: 4, // DISCRETE
+        height: 4,
+        borderRadius: 2,
         marginTop: 8,
     },
-    bulletText: {
+    listText: {
         flex: 1,
-        fontSize: 15,
-        lineHeight: 22,
-        color: '#374151',
-        fontWeight: '600',
-        fontFamily: 'Inter_600SemiBold',
+        fontFamily: 'Inter_500Medium',
+        fontSize: 14, // DISCRETE
+        color: 'rgba(255,255,255,0.7)', // DARK MODE
+        lineHeight: 20,
     },
 });

@@ -12,6 +12,7 @@ interface PlacesState {
     isInitialized: boolean;
     error: string | null;
     likedPlaceIds: string[];
+    detailStorage: Record<string, Partial<Place>>;
 
     init: () => Promise<void>;
     toggleLike: (id: string) => void;
@@ -26,6 +27,7 @@ export const usePlacesStore = create<PlacesState>()(
             isInitialized: false,
             error: null,
             likedPlaceIds: [],
+            detailStorage: {},
 
             init: async () => {
                 if (get().isInitialized || get().isLoading) return;
@@ -56,20 +58,25 @@ export const usePlacesStore = create<PlacesState>()(
             })),
 
             hydratePlace: async (id) => {
-                const place = get().places.find(p => p.id === id);
-                if (place && !place.description) {
-                    const controller = new AbortController();
-                    try {
-                        const details = await dataService.places.getPlaceDetails(id, controller.signal);
-                        if (details) {
-                            set(state => ({
-                                places: state.places.map(p => p.id === id ? { ...p, ...details } : p)
-                            }));
-                        }
-                    } catch (e) {
-                        if (e instanceof Error && e.message === "AbortError") return;
-                        logger.error(e instanceof Error ? e.message : "Hydration failed", `[PlacesStore] Hydration failed for ${id}`);
+                const alreadyHydrated = get().detailStorage[id]?.description;
+                if (alreadyHydrated) return;
+
+                const controller = new AbortController();
+                try {
+                    const details = await dataService.places.getPlaceDetails(id, controller.signal);
+                    if (details) {
+                        set(state => ({
+                            detailStorage: {
+                                ...state.detailStorage,
+                                [id]: details
+                            }
+                        }));
+                        // SILENTLY update the main array only if absolutely necessary for other components, 
+                        // but keep detailStorage as the primary source of truth for the sheet.
                     }
+                } catch (e) {
+                    if (e instanceof Error && e.message === "AbortError") return;
+                    logger.error(e instanceof Error ? e.message : "Hydration failed", `[PlacesStore] Hydration failed for ${id}`);
                 }
             }
         }),

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { View, StyleSheet, useWindowDimensions } from 'react-native';
-import { FlatList } from 'react-native-gesture-handler';
+import { FlashList } from '@shopify/flash-list';
 import { Image } from 'expo-image';
 
 interface ImageCarouselProps {
@@ -8,7 +8,18 @@ interface ImageCarouselProps {
     height?: number;
 }
 
-export const ImageCarousel = ({ images, height = 340 }: ImageCarouselProps) => {
+const CarouselItem = React.memo(({ item, width, height }: { item: string, width: number, height: number }) => (
+    <Image
+        source={item}
+        style={{ width, height, backgroundColor: '#1C1C1E' }}
+        contentFit="cover"
+        cachePolicy="memory-disk"
+        priority="high"
+        transition={200}
+    />
+));
+
+export const ImageCarousel = React.memo(({ images, height = 340 }: ImageCarouselProps) => {
     const { width } = useWindowDimensions();
     const [page, setPage] = useState(0);
 
@@ -18,33 +29,25 @@ export const ImageCarousel = ({ images, height = 340 }: ImageCarouselProps) => {
         setPage(index);
     }, [width]);
 
+    const renderItem = useCallback(({ item }: { item: string }) => (
+        <CarouselItem item={item} width={width} height={height} />
+    ), [width, height]);
+
     return (
         <View style={{ width, height }}>
-            <FlatList
+            <FlashList
                 data={images}
                 keyExtractor={(_, index) => index.toString()}
-                renderItem={({ item }) => (
-                    <Image
-                        source={item}
-                        style={{ width, height, backgroundColor: '#1C1C1E' }}
-                        contentFit="cover"
-                        cachePolicy="memory-disk"
-                        priority="high"
-                        transition={200}
-                    />
-                )}
+                renderItem={renderItem}
                 horizontal
                 pagingEnabled
+                estimatedItemSize={width}
                 showsHorizontalScrollIndicator={false}
                 onScroll={onScroll}
                 scrollEventThrottle={16}
                 bounces={false}
-                // Gesture configuration to prevent BottomSheet from stealing touch
-                // This is critical for horizontal scroll inside BottomSheet
-                // @ts-ignore - Props exist on GH FlatList but types are conflicting
-                activeOffsetX={[-10, 10]}
-                // @ts-ignore
-                failOffsetY={[-5, 5]}
+                initialNumToRender={1}
+                windowSize={2}
             />
             <View style={styles.paginationContainer}>
                 {images.map((_, i) => (
@@ -56,7 +59,7 @@ export const ImageCarousel = ({ images, height = 340 }: ImageCarouselProps) => {
             </View>
         </View>
     );
-};
+});
 
 const styles = StyleSheet.create({
     paginationContainer: {
