@@ -2,10 +2,12 @@ import { View, Text, StyleSheet, Platform, UIManager } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../../src/design';
 import { Place } from '../../src/types/model';
-import { usePlacesStore, selectFilteredPlaces } from '../../src/stores/usePlacesStore';
+import { usePlacesStore } from '../../src/stores/placesStore';
+import { useSearchStore, selectFilteredResults } from '../../src/stores/searchStore';
+import { useUIStore } from '../../src/stores/uiStore';
 import { useShallow } from 'zustand/react/shallow';
 import { DiscoverCard } from '../../src/components/feed/DiscoverCard';
-import { PlaceDetailSheetExplore } from '../../src/components/place/PlaceDetailSheetExplore';
+import { PlaceDetailSheet } from '../../src/components/place/PlaceDetailSheet';
 import { Skeleton } from '../../src/components/common/Skeleton';
 import { useState, useMemo, useEffect } from 'react';
 import { useRouter } from 'expo-router';
@@ -24,30 +26,40 @@ export default function DiscoverScreen() {
     const insets = useSafeAreaInsets();
     const router = useRouter();
 
-    // Store State
-    const places = usePlacesStore(state => state.places);
-    const selectedPlaceId = usePlacesStore(state => state.selectedPlaceId);
-    const selectedMoods = usePlacesStore(state => state.selectedMoods);
-    const toggleMood = usePlacesStore(state => state.toggleMood);
-    const selectedCategories = usePlacesStore(state => state.selectedCategories || []);
-    const toggleCategory = usePlacesStore(state => state.toggleCategory);
-    const getDominantMood = usePlacesStore(state => state.getDominantMood);
-    const searchQuery = usePlacesStore(state => state.searchQuery);
-    const setSearchQuery = usePlacesStore(state => state.setSearchQuery);
-    const simulateLoading = usePlacesStore(state => state.simulateLoading);
+    // --- SV-REFACTOR: DOMAIN STORES ---
+
+    // 1. Places Store (Raw Data)
+    const rawPlaces = usePlacesStore(state => state.places);
     const isLoading = usePlacesStore(state => state.isLoading);
-    const selectPlace = usePlacesStore(state => state.selectPlace);
-    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces)) as Place[];
 
-    // Filter Stores
-    const selectedPrice = usePlacesStore(state => state.selectedPrice);
-    const setSelectedPrice = usePlacesStore(state => state.setSelectedPrice);
-    const timeRange = usePlacesStore(state => state.timeRange);
-    const setTimeRange = usePlacesStore(state => state.setTimeRange);
+    // 2. Search Store (Filters & Logic)
+    const {
+        searchQuery, setSearchQuery,
+        selectedMoods, toggleMood,
+        selectedCategories, toggleCategory,
+        timeRange, setTimeRange
+    } = useSearchStore(useShallow(state => ({
+        searchQuery: state.searchQuery,
+        setSearchQuery: state.setSearchQuery,
+        selectedMoods: state.selectedMoods,
+        toggleMood: state.toggleMood,
+        selectedCategories: state.selectedCategories,
+        toggleCategory: state.toggleCategory,
+        timeRange: state.timeRange,
+        setTimeRange: state.setTimeRange
+    })));
 
-    // Pince Filter
-    const isPinceEnabled = usePlacesStore(state => state.isPinceEnabled);
-    const pinceMaxPercent = usePlacesStore(state => state.pinceMaxPercent);
+    // Derived: Computed Filtered Results
+    const filteredPlaces = useMemo(() => selectFilteredResults(rawPlaces), [rawPlaces]);
+
+    // 3. UI Store (Interactions)
+    const {
+        selectPlace,
+        selectedPlaceId
+    } = useUIStore(useShallow(state => ({
+        selectPlace: state.selectPlace,
+        selectedPlaceId: state.selectedPlaceId
+    })));
 
     // UI State
     const [filterVisible, setFilterVisible] = useState(false);
@@ -127,7 +139,7 @@ export default function DiscoverScreen() {
 
 
 
-                <PlaceDetailSheetExplore />
+                <PlaceDetailSheet />
 
                 {filterVisible && (
                     <FilterSheet

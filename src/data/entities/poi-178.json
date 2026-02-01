@@ -1,0 +1,141 @@
+{
+  "id": "poi-178",
+  "name": "Le Rosebud",
+  "slug": "le-rosebud",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8404,
+      "lng": 2.3283
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJTRozzM5x5kcR9xYQMZZ5RAs"
+  },
+  "category": "bar",
+  "subcategory": "bar-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 397,
+    "moment_count": 23,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails classiques",
+    "ambiance_vibe": "Bar littéraire, lumière tamisée",
+    "smart_tip": "C'est l'un des rares endroits où le service est encore ultra-pro jusqu'à 2h du matin.",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2LOXxi641Y7huQi-S89QA2HSm2nHBGisaaf-Wo4XY2uAIs1LEc3pCO9wZMSCX9fRCYYIBt9opQdGy4bGxIq8Uqtjpb0Bk0eWZem-rIKqR-ZNgsLXqt1bayMJRn4vmb88DOIcNNxq3g3RXKd65Ar_C7YKBEhd0htgVTOqPsQRc2hHVOi22dSyFmJf5AhqujRBAuLvoK4HIUMO3QYC8LAisgpv2DasBr3BxBp8NzVlUWXOGbq5C4mXVnoMa01gBOMUF5xQ6uXF2tTnAM3xKfnS27FswevN0C3zyDVMOcl1tRKw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lerosebud",
+    "google_photos": [
+      "AcnlKN2LOXxi641Y7huQi-S89QA2HSm2nHBGisaaf-Wo4XY2uAIs1LEc3pCO9wZMSCX9fRCYYIBt9opQdGy4bGxIq8Uqtjpb0Bk0eWZem-rIKqR-ZNgsLXqt1bayMJRn4vmb88DOIcNNxq3g3RXKd65Ar_C7YKBEhd0htgVTOqPsQRc2hHVOi22dSyFmJf5AhqujRBAuLvoK4HIUMO3QYC8LAisgpv2DasBr3BxBp8NzVlUWXOGbq5C4mXVnoMa01gBOMUF5xQ6uXF2tTnAM3xKfnS27FswevN0C3zyDVMOcl1tRKw",
+      "AcnlKN1w0etVqG438r6SUhOHnLE9qwnDKH8RtWARIWQdt8e1G0oSwk9Br5SIWTvcwrHUg2dGzJhe09KYW2G-eYtP55cvPcxtJlgq56pUL38cOpiJgs50ZrouAyoKlGvZRTpKeFb-25weFkVRvDqqw3_R3RfGsd1_s6jhgMGmtD-Wm5CvCfLt1o9uu4OHspFuXMmCngSrpuc3w_nb5XpJFJyHtkqz1BsdOes4optAQuuY4dGVmqbEY7BcNWogTp5C0NdZeV-U5dTRh_g8W8vbWo2Pp4dcNxJ6LlZxSe1567pxEGnNAw",
+      "AcnlKN12G4Gpj8w4aW21alfOX3df5JIYNhJStDeiDk5_eRlihyK_88114cLmpj0G_DQOsykknhs8TZBYZb_ThgRnkY88o2fUWk448MqPeFnFInNRhte-ljF5MFsGrfXAiKivq2MkQSx_sW4WZagkFSvWDQfmwUKbqU_E8qQj6crZXb_BAYHWMygyiiTrY-8Iz3cquEJtTS4i-aQM1K_NinmhFBwiuoiPIjEjcTfp01FJyMKAGRMszIzBa87YJ3iqnU-5TAX83FwB5ND4ICNB_EJJgTyrNjkEdLvdVEdDJ4LtHxEdzl4Mf_GaD8m6pOQM3XiY59FRmKiBTKPEjQG6qT9ukYRqaSj7us-tHPUTzW103XEfcmjYtvxW2muvm_qGC_bLvJsPhhQaV6bOTErunE6DF7156CErFZcpPYZnr9RkIgGNahdVbkckkTgER70lIg",
+      "AcnlKN0Ulyr5yoKDdcmFUnHKbkkxwROCkgUmgzNDD4bZi0xEJJQbIVR0WqaseVAA8CIWtD5qHHYsag396-kQ2rUiIQWj0rWQjU2CO1bGIpR3cjNioTxUOol1y7FVRYY6DZFkjf27GXHJRWWNXwjue9YxLxuUJReohaByygbtPeIG9coEit-uhQCBNGBHiZCfMYrlIhnfoqOmnDNvzM4_eGGCjCv0TwRXER85fV1UvA8ET8aJkPBsRMuZ19XRKTaKQflKV2q677G8IySXcLS1u2Di2xKSEJ_pqE4cZYCksWkoaCu91640GJ3FhHCHKqBBZau6y7uo-qSnEBlFzljB6tuh8HhUXh3s9ClgRgUTbfF7MzYHxYYO3GTaJVIJ7k_lMwvd7EDDROGyk2J4Tthzz7JcGnTM6kbG6rMsPFoRuS2FBsfLoyGo",
+      "AcnlKN3sbwJ1snmWrjm8hXQAvBpRq3n3udwsa1GBqiqfx6dK8xIC5fkTxo8AfujhlEOAie_pwJDdgW0q7vttAbPSR7FLdeURlvwsa_2sVP6hkVi5C_NKzLpR6yIqx_dvxpUmLLJc7rDT0fQQPPTJJPWguGcASJoQoTwoEyMrKzkaZnn8-HGrNbEA-hQvW8X2_xV7pXxbznYoVT0wULSjCAx7ZoeDk4Ro_SDGTMQU2oFYWHdPrigQ9AN1yzVosXDN2W75fmB0Lks845NI_8q3njFtaFyo9lWTs-A3VljMH8E62lL1eLQOmP8uujFS5HhkHLXAmrA9tEPeNPbcHSOFwZZEGHokDkF-e54K5n5p9eGkZZBSkO8CMg420R4OVRGutETxgZTITjh-yZYvZJE7M_yAyZia3R_WtLGAsUnC-0Wxo5duOiwv"
+    ]
+  },
+  "description": "Le bar de nuit secret de Montparnasse. Nommé d'après la luge de Citizen Kane, le Rosebud est un sanctuaire de la nuit parisienne depuis 1962. Lumière tamisée, banquettes en cuir rouge et service impeccable en smoking blanc créent une ambiance de film noir. On y boit des cocktails classiques exécutés à la perfection en écoutant du jazz de qualité. Un lieu hors du temps, où les discussions s'étirent tard dans la nuit dans une élégance et une discrétion absolues.",
+  "real_talk": {
+    "text": "Le secret nocturne de Montparnasse. Cocktails tardifs, ambiance film noir.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Noctambules cultivés, couples en fin de soirée et célébrités en quête de discrétion.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3.5,
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Old Fashioned",
+            "price": "16€"
+          },
+          {
+            "name": "Gin Tonic",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Croque-Monsieur",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 312,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

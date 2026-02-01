@@ -1,0 +1,163 @@
+{
+  "id": "poi-036",
+  "name": "Bois de Vincennes - Lac Daumesnil",
+  "slug": "lac-daumesnil",
+  "location": {
+    "address": "Route de la Ceinture du Lac Daumesnil",
+    "arrondissement": 12,
+    "coordinates": {
+      "lat": 48.8321,
+      "lng": 2.4145
+    },
+    "nearest_metro": "Porte Dorée",
+    "bouche_metro": "Sortie 1 (Bd Poniatowski)",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJ3UNa3cNy5kcR7W1Dkn-YBdY"
+  },
+  "category": "parc",
+  "subcategory": "lac",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.8,
+      "criteria": {
+        "noise_level": 9,
+        "seating_comfort": 7,
+        "natural_light": 10,
+        "crowd_density": 8,
+        "music_tempo": 10
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "event_programming": 2,
+        "dance_space": 2,
+        "cocktail_offering": 1,
+        "crowd_energy": 3,
+        "late_hours": 2
+      }
+    },
+    "culturel": {
+      "overall": 6.5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 5,
+        "cultural_programming": 4,
+        "creative_clientele": 6,
+        "workspace_facilities": 5
+      }
+    }
+  },
+  "vibes": [
+    "lac",
+    "barque",
+    "romantique",
+    "nature",
+    "évasion"
+  ],
+  "ui_theme": {
+    "main_color": "#2E8B57",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 2876,
+    "moment_count": 1543,
+    "top_vibe_tags": [
+      "lac",
+      "romantique",
+      "nature"
+    ]
+  },
+  "discovery_radius_meters": 150,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "phone": "01 49 57 15 15",
+    "google_maps_url": "https://maps.google.com/?cid=15421900172682292717",
+    "accessibility": true,
+    "Horaires": "Ouvert tous les jours 09h30 – 17h00",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Le Tip": "Louez une barque pour aller voir le temple bouddhiste au milieu.",
+    "L'Ambiance": "lac, barque, romantique, nature, évasion",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "wifi_available": false,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/equipements/bois-de-vincennes-6598",
+    "terrasse": "Patio/Cour 🌿"
+  },
+  "media": {
+    "hero_image": "/images/lac-daumesnil.jpg",
+    "instagram_handle": "@paris4nature",
+    "google_photos": [
+      "AZLasHq9NYV6sb6wOeJ2wEhhZoW6_GmGXWzK7PS0q3de0nwFdkfnWlBI38TUGzxqeZDaRgUhMmKmq43rO3hEanRz1PUKIHC8Y6TCn8AvSDwHmaxOUPZg12hoJb5zoxHJ78O8zaoLk5rNtwy5Twfxlmu6EKhXdRDX8HJ2RCF1rD-BqXIIDevdHI_XILZnxBf8ufhmaD2qpPmyY67FTsrbVBBzYjf-b8crbREjMst-9Fr3J4sivlO2cg7yA6x7Tg3G_iuO6HBv8XZ1e2t0TpHJcYAIKcIOSMDuLbelwxq4GwnnO6v0BU6ZEGqPPoQwWwuuTD6q6rPZa2hrIUyi2kAj8DX5Ts7gsc3cNkh8o3A4EKdWLKQiFmFpDC1NNiER7NZKxT6dG-4v6H5kq3_LV3C3W0P-mwhF2H-Uj10TN-SObDg4jqOu-Q",
+      "AZLasHo-mOxLqgjym38iqdOw3r5e-AXwV38gKyAGrp4L7vGP3y-VJPEvYTTvlkh2vqes4_yfXzxyVIogu5qC7YyrVY17hnf5YbBoTq3bhXNsWBjaLws7Xrvu9gzYYgpF5iLwuCVU4kpy89pPSHM3V7I-5mPMngXGhyAquE4aIZyXCm4PUyJko9a0XjFrLIqyPqdNGXkSyILUBf4hDW6E7geobBGFqoHUQe8PVAINKuIOhVogrQrzGnQyJcjlRFdEABhC_oeMkLnkODd81PWzvu_R8RW_AHOB0yFL7xTq1v8UqH4K3RIoOxCv_QkIdtk96k4MnUPaGeUhDL4G00YtLQHAezXc1cRwXtVdVYA4pCyNRYPWGBJ-6-9hVhQrOZjlpAFoKyqkVITJpk87j9KqyTTqxSwvjvx6HGdPnzd32r6dqtJryGS3",
+      "AZLasHq8ksiSJuDdTA_SlZF7WXQYjaecBcl4KzE-_Py9w5rrrE2amWK5G6rNXnAYN10-72hCa62oiYaJu42bvxIGkN1T-ROxqOrFbodgrpSLFnWDjdaGhnr9jOszu6wp7V0QnW7QxOdGyd5r7t2C7_vDYJPS4mrbOAlUd3NCkTZg6F8_UXzodkWXq2lYUGFCm-lQJispheDnsixDVqS9M67EOE_s3gFatDnUvtFXUexL9r8te7L2YM65Cd0Ivga4cm-6quZbignveBwiAA-2oTNhthjur8jdfmS1RPPBOn66FyDGoqyPvUFsqqzbhPxuczDOjVq7ejb9nRRqhOYqco3Q36c8K8qD8VES71po0qMhaUekJ7v6xwOW9_KVC_4-oIWL3ugdPoNTZBJO3K4zmtRNZ1KQ7_UWSblwukek38Sg6roHuA",
+      "AZLasHozqHrkSI66YIrczQ9JY_y_A9dB-mF3fPJcUe90R0nh4JkI1bjHcKng1ibSmjB1lAvYfJ9EBp4PKRkBZBJb7-3XZ-P9j9mRrqVtjXVIA8GyQcf6VyrlIL_l3zBe_OkqRIPTVe38n70bSNOUchAWFK7-WJem7PelM5Riago7jAKb1NXCw9FfVkL3YHFK83Z9nMpCW2bqRmF1KbQw9aZ__HivvrBFGud0wc9juxdqVFff2mT3lzVT_wlioeJldP1RC4xERHJtG9n_NrvtE7Jz991DNvNMWiO6C3xrUkBP2gQd61VDQTyg0zmQO615eCfqK2cabDfmtcgIw_MG74rXGGzk2hZMPDnZ4wF60dR0_XmNnkPp4B6RI5mi73jO80xeN2ntDe9vLq8KUN4VnJTU3etI0jMwx9L0nyerJHAQEJONdgQ",
+      "AZLasHpCdNRGhsgrg0TKI3MalUgAEN-bUL_mD6tnexSpUDXIkx_TdoPNivWtq4olcTdC9NNWgvnmoi-Ih3yszVLmXhqKK_U9w0Tccz3QWeUPWJRgdu7CSqTHnJSYc-OTCpmGBB0zDi200EruGzPYo-KxvdW7pdvDrubyOstECdOdiFO8qZhIgRehLkYrLF-2Ge9Q0j5NRHSO9hBz5aU8Fmuze972jYjkCUEL1XW2yUWATSNXncE7fGF5giRPu_QRz_2wc6O7ZseN6ZZUwpWTH7NxAFhNcetbeQgQ329dOZNFy8izS8cGTuQxWZmbVSn6t4hZhWKYP5YG_iDPobbZAWwIXyXdip6GTyY9PEwfz4cImc5lewKQ4Yt9yetGZaoJ3qQtDFJJ77QzvvXfBhLbqEeLNVEAr3IyOtxm9IgxuHY3RCHsKCZj7InSHfPZe0A675RS",
+      "AZLasHoqjAn1Fd1MOxRHHZb5ELh9yyzvqwRQ4BJnMmeSpnei2NyvOegs6YE_gzgyGTn5gH1LWnvqp0b3kA5cA9Ukwu4tPaxErcMXLlyvwxVpnNR3LZbBF8-Xs3pEiRA7UTm87PhecD6g7aV0udzGi9SZJgLhSgZjSpkQI0ZGTvEt6aYXiet0Hm4OixNBp4FQdJiDVJWkgG7Bb0Mks3DbqC0RzcaMiJ87dpaiYl6fTCS6pHgP3OG_Eh17QlAgN68PNW0NO240HT_C7iaS112AIqUUuyperiwFYZjy3QPIr2IXZ1Ij1vqM0-Zmlwqu6tLT_MMaYFKLO12yzL17OgrIE_vLA--xpKdWr5xMHhLth2Vrvs80-MAEfkRqinB_WmUnx7mfNGPqIQSSaosghQPSmXh2nMN9wcQ0bjuEP0DON7HSngq3Aw",
+      "AZLasHozHvJ4XoMfAapvNAINg5i-OzGrQgL3ETGzPtyb1YLACMVuIZ6PbVm44oFCJf9Y87bqPUG47t6RzyHuxBDhoWcHQSnPMGvR1RjEUo77s36hX3yA0UAnvraGqiX9le8IzD8JVqnLjHelXpvhFGLjYKb6WB5Mx7wmL7jxTH4t515xgPoaGUybQUDsLaulJDyDdj80TzdDkcLJB4tBEElT-lc-iO3TIK3kb7qMESBkZUygzEATElI4kEJ2cl1gZO_6ybdQXQtVFiZR-TH2QbxmNtqgIfQzd7em4MOINf0BDS7EMNqwC4NdgXmGcvzHwAfU8ENKRrwlMSGunRqB92w1_NpIyiGfaII1ETPSfE0_PTGz-adXAv6X6OEWDhlckkfOATDVWvEfcBDMzoRVRUMRDNdnH7iERca8Ch_KqKQv2tNEWhg4",
+      "AZLasHpW6ePoKYIcrM82Wa4FkRops5G_D-kS8YS-IP6PxauAupBG7XPHt0val37ECjZ4naRYJ_t_j9N6SovBqiqYwE8q9Ljgvh4Bt--f4aT4Y16-0hFWXudu4p4VMYlaZbJJdWOw7fguShNaNeUALT1cJt4ZBd-USXrc0bPN3e1z8wbP_rzjirNSEeOVWrsT9KlcknsnyMufsdSfJBaECMgQEoUrz9ngp8RpgV1vAm08xnbRTuqrDoVNsOqAe6NLvRZIbBtiSk3vHsn6FdR1E-ezpA-aIw3cBqGQZzhgI7OBFfLvTnqM-dqhCvhJASH5rYQYdhYqp5QKSl0y6l7XXF3TUixdCXbLcPGUHTgwP24Xk-tS10UFJ5L2OGFjLfVjv27QWnvzeYC1v0eSV60QdgTJfTZ2JlOOUcgwaWNcrtK28dWLMmZDKe-0kTOTdUCSi19p",
+      "AZLasHrvjw_5U8IvO3PyLCSep7fRPFy1F9T5Rt933SoMSThn2qdqdFnBWn7X9-agSNlMs864LnA14CV0ErApi_2rMYpNUWYOgpoJECSSDQf-uoXz31iEoq5EvqqOF_RN7D_mMNCE96_1CGUDlLKb1e-agKtHgL4JOUsytRJDf6-BUn6VmpTowQ_9YwvvQZPLLUC-xXBN1nkupwK65_yzd1DmUoFIR-Vg4E15LQvdfyXz57Udk773820wKJ6NUa4EPibhBg2nvG2bYVZcI6wU1mMHgCCbOgFd7EjktksehPQ5ZNU44Tezt8z1VNVK-h7q45cnenmOqjbcY5L4rGO7gvcrbJdp6Y_Hm2Q4lpbNeUQOFDqPHSnRpkteKxzkfZkiIifnaLM4EKA9wjZFMgI-56u949eGrLKFMKMN2r3x1EKgPPU",
+      "AZLasHoT3k1C3Ethmqs3BxIyBJQKZrC5D1A23cNhtN_tqfPc7XW9T5zgPeI5A8sdesJXp3ufvvyR62awa5KoWa3XhyQmqicfvnsp8oVINwMC_7LNyexkb5_7oJmnjBnItldpsFUhhTnyO9t7LT-zzByGqU__Nrj0ygTkuCIJn-83w0XS6EgdI0_jpidi7sWjA_hkr0OglPvL7bf6sQP0TfOhpqkQ-xP0qsBPAfC9eWXre_0vdDoFSvmbpZii631nqQ-i-f9iN7pDRadNA9C489uHybJmHEMhrMxLIFR_jq0MbZ1LDpvJ4jWnJWuRCS8tjenjNpTaQzbq6nN6CympuMVwV-KerNOx3xqwMBx3apS2a1U_N-qvw3TqGRuo4E5B0xxHjoZxFJ4nE4t1GwHDauSOPf9u6sUCzX00GarmfC-DSjPaxw"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h30 – 17h00",
+    "display": "Tlj: 9h00 – 17h00",
+    "detailed": "lundi: 9:30 – 17h00\nmardi: 9:30 – 17h00\nmercredi: 9:30 – 17h00\njeudi: 9:30 – 17h00\nvendredi: 9:30 – 17h00\nsamedi: 9:30 – 17h00\ndimanche: 9:30 – 17h00",
+    "is_open_now": false
+  },
+  "description": "L'évasion totale à l'Est de Paris. Le Lac Daumesnil, avec ses deux îles (l'île de Reuilly et l'île de Bercy) reliées par un pont suspendu et une rotonde romantique (le temple de l'Amour), est un décor de carte postale 1900. Louer une barque blanche pour ramer au milieu des cygnes et des saules pleureurs est le cliché parisien qu'on adore vivre. C'est bucolique, apaisant et intemporel.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Canoteurs du dimanche, joggeurs et amoureux de la nature."
+    }
+  },
+  "real_talk": {
+    "text": "Un des plus beaux espaces verts de Paris. Parfait pour une pause au calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 41073
+}

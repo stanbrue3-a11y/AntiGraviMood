@@ -1,0 +1,187 @@
+{
+  "id": "poi-031",
+  "name": "Cité Fertile",
+  "slug": "cite-fertile",
+  "location": {
+    "address": "14 Avenue Edouard Vaillant",
+    "arrondissement": 20,
+    "coordinates": {
+      "lat": 48.9134,
+      "lng": 2.4051
+    },
+    "nearest_metro": "Pantin",
+    "bouche_metro": "Sortie 1 (Rue du Débarcadère)",
+    "metro_line": [
+      5
+    ],
+    "google_id": "ChIJZaJogm1t5kcR3KFd4AfxLKY"
+  },
+  "category": "restaurant",
+  "subcategory": "cantine-solidaire",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 7,
+        "natural_light": 9,
+        "crowd_density": 7,
+        "music_tempo": 7
+      }
+    },
+    "festif": {
+      "overall": 6,
+      "criteria": {
+        "event_programming": 8,
+        "dance_space": 7,
+        "cocktail_offering": 6,
+        "crowd_energy": 6,
+        "late_hours": 5
+      }
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 9,
+        "cultural_programming": 9,
+        "creative_clientele": 9,
+        "workspace_facilities": 8
+      }
+    }
+  },
+  "vibes": [
+    "écolo",
+    "transition",
+    "potager",
+    "pantin",
+    "alternatif",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#9D00FF",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 2341,
+    "moment_count": 1234,
+    "top_vibe_tags": [
+      "écolo",
+      "transition",
+      "alternatif"
+    ]
+  },
+  "discovery_radius_meters": 80,
+  "min_stay_time_minutes": 35,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 48 43 04 60",
+    "google_maps_url": "https://maps.google.com/?cid=11974210525402603996",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Le Tip": "Ancienne gare de marchandises. Immense tiers-lieu éco-responsable.",
+    "L'Ambiance": "écolo, transition, potager, pantin, alternatif",
+    "reservation_required": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Ferme urbaine ancienne gare",
+    "smart_tip": "Goutez leur tarama à la truffe, c'est l'un des meilleurs du quartier.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/results",
+    "website": "https://www.citefertile.com/"
+  },
+  "media": {
+    "hero_image": "/images/cite-fertile.jpg",
+    "instagram_handle": "@la_cite_fertile",
+    "google_photos": [
+      "AZLasHpSLtIUKzehPSdi7aWKcMUBAmtLpDFusuPPi4FF1jjVVzdPIoQQjtr9tjrZE4E06Qj-tsnsnajZE72D89TGdnsm_VbCDx5SpZfC5njezwolXLtL-s9jLOKa-f91ckfL5IwLOzfv59vLsiod8jFNqTMFZ0ro2oDcirbfmNaHYUdvbvj5zC4KpVSWpmj5qqKtxo_HJHKUEZa-8wMsDGmiXHCePLPcWNK01Lr_WoDP0x3cfLSUPxFIWZikOveObZddDQpZdLWDdmAUF2efJedxIixvOqu2hYMakmUYLEXc1wVXRw",
+      "AZLasHovd0UH8EMVCOyMUF6u1nJ7fZ6Gzr4a0-2uMzrngpS6j0hj8N8fpCl4Ch1Uo71PPRmufs74FJMgrmFClEnuA2fYnrXSdl9GlvN_elUPW3NV6FwEVuCBhwYei1dfxv-Z36s7dkXIUCfxqO4OHIS384ckcswDH7gGMVQkEB3n4sKwas1gQG0qOW00XbbckkhQNiN5F-2SJJHUezF58BvdLtJKDc7QpF4Duej-wGqaN5plJ-wX5r1d65IzEUD3sAog6O0S7Wki5Z9cfK79tqAAqXwjKAvz0zuHsIgmOwnwyhLScuOB67Oz4nL4j54j7DIzBXTQZXFQ0pPsGFtD-kQyWkSZhoINjpx25jupcjICX-eU2oJnVf43nqNL6bP4cQsCz631ubxa-oq1LCLN0-HZhmPbRlMSBxWAnVG_w0TYMHoML49z",
+      "AZLasHolAaQV7nK4PkRK-Rt2IMccMFYC3vRagk6Yi-R3h0GFSyjlddAYhnpZgGvESG6LTNCNtCjzzc21iwEIacqMdsgEdDPqFPAYM6AKaIdie_3eTbF2MyXPzOWOE97GMGskTHKX0eEhs0uOh2WtdY3CbHRfe0fuMJTqXZyb_-e8bDo-NTMlhEFCkPHVsxpha9ebrJjwhWDYsex6Dok2RdDFU3KvOv6ukIg_KmB_eGUDwPXK1iNOgF_rMB-E8Ek-grYcx08s4331wo7Mmwgq85b7ulgzBH54tDanfJ1feAHFHdnL-w",
+      "AZLasHoqygPLV6_HpLriG3p6FHe0SvrjTo20RLJjY4t5ho0-iQ4cZdXYznaLUx4FF3W-WaOKH1IxZVObp5KXw3Z7c7Un0TOmGGWAFZiV5xYzJo0rwJqeuKHo4eZoDHsRz4RvGTfq7JFSv_9puv0I9HvM2XZqrBs9ghSRgyQ8drZEAos9JQSvtVDB3a7LDzegPvoYZnM5RoE7tyMOiRKBWZnQMOQRf3L7Q6fVmRx87Le7IAmoqOYeSrrdEnFWsLhd3rDB1Sv_kQI_kBIflcPj-5dxc3yDj41FIzHgoEw7k4Scj4h9-geY67VCb-qwECZYghPc-Ac37CiO1G12wvGf4PjogKCjHhA4Od1JQmlsvQWKo_MX8gux4CLn7uDJmb4MjbTcvGItyFbWdH3jR9nFMRBX-dHsrBjE9B4jpsJrVc9iC98",
+      "AZLasHokEUEbPLpeEKQ3L-nwDrIKHHy9bFP9llP_TY1nVuqYOWAh3e1Ju3rzQPxEzGWXWs0dzFBBN8FXlzBpYC3mCStXSxAzGGCXwPxuR075heVREukDW3oXwlNyNDfgE68s847wixGG_ng3Cm02nDK6ddPDiJ6NsT1i2q_G1zlhjXGW4YzJHbt5eDCdpubGkQ79UosyHwL4t5h60iadCrvhWyRIQ40ESvQALk5VWLzuYeDaehCC1ofGetIWJ6CEigCZe6yyxl-pxGl8e-BfOxzZDXZB6319mRkhrE6dYQEwQxvC9dJqK6y02s0-T84nn89mmsLP3mMSYjEv_i1JWGDfry25ngM-TrH9H5kpSd8DYDF0Zl4dR1Hc3wTn96ciTjpeNchQ3sF19mpsqGyk164ceEHbZymsZUD9yRHZOU38g42Wju8rn5Vb8oyFA-G2hw",
+      "AZLasHpfRf-_B7kDDGAAfYWamn4FGQN4kLR6xN85ABF8wYcr40n5JlMtb1s3tRid-e5rJqew4riJEdghQPfHWQVn199tOrfqvWHOnstyk5Sheo35Ld0jDqBDF4Kzl-Ej3gUDOc6EkCL8rKOGAGb4iNi5pwlZy7-KQxJp5sjYdhfyj4euOlNXJSibj2HhG2B9oXu8AxTOd0dsfWEAyiBSBq0UUcMwOw_NI-EVRAJN0zl2XlXKRP4YmG-HmrTEyfYX8cfTQuak_FQ4v1QyINEASJ3Iw_YguSRjU7vptV-bC1uDtWvH5Fl4qq-EdC4KJ_brBFS_Ulf-SHVwyMEiIi0WRvfMCLae8PFQRLCJIxpxjvS6w0NxheAp7ce5WRqzsRMZOKu7loy5pFm13MXvgN9VXbV5e8kwCIjCgpDOEq279GsDKTp5Up8AfE9xae1KUttnaQ",
+      "AZLasHpB7rJ-eOZJFiChAdPFyMNPCBEa0B5g4V81IOpq2Y1Fs6GX16a0ma_YoEUqRxp7lZqnUHkOFF1mmoij4rRU5yOZM-fx77sXs6P3m2seqdZY8-sDM-LQlW_0g2Ir3JTit8UaPXxVYT2piOqgz_3BfWgRGlbEuPK0Sll_Ra60iHOKld6kAJqd0BfwDDuxw0Eo0YieXEs2jtRYJzuBAPodGE83HunEnmLWxfK1lohy4bgrCDdiCtCGheeqoII1ZWm7xAdkTla5KeQJs9XmSBjabEmRFuxMGlJnG2xrVDMaktvzzz79u2oO9orgWeBDRg6wiNjKc4B55GnSXdprFGUAEh5O_OBRZKdSJEprt9s-YYzZcAoacXxZWWJHN48sFAXYRZEG1TJ3EA7jofVfX5QodKej2V1F6TbX4CYFRMwLWfAjxg",
+      "AZLasHrrWad4YZDEG9pp7851eL1k4EtZJXEwT1YMjpYxtS3Y_Ajz7Vxqo6RgElmi3BEZMFztGtf2gXwoNcjCuU6jSpXF3Hv1Ng0yGFpLGRCcEFrj8B6uQ5AhigQxPBaRLoUv6TjFgsWYGx9m5Y42a2oz8J8VwOYlPMLcCRd73TpmzkpOFf3exxF8lJtqj1qLtA70csrqvKVxdlByQIDh_GnXLdl5F8VZgSIargD76TYv9BprjT6jUwuw0d7NwlanloTxG5G7GgTM9VkOa1HhDKOYqneRJfmrgbTa_y2ee8MMLDmG-N823LmSKGspf9t_w8-pMJWa0oWPGFP0xUuRXhcPgi1EUolheMSwXJT40Msit5vD-vox8K82pPJ__71mEAuPBtP-be4xIDRMFL8I45w9CDTL6iSrj0Pq_y27-o7-3tAmt8Q",
+      "AZLasHrVJdCYcgSvnwmYbzC-ns4tvxPlot0xpZOElvt0ZJX_T2aIYORmRvGahb3hQF_QSef_9RyUI4DzlKx7F4o9F8VkV3-ubs9ZOW-mN_eUAKnGiruv6o7twmC3dKiV9kb-h6jA4tm6Eldb_VEa4SG6NLZW_kQdaUZGofC9mjNW5Fh2KP9M-LU9nq-EmIc14CFcJjEsbTh8GxiJavQELbHsuH5lCdYvoMICHx5y0HObz9UyahtdcoMwwf4FJTCpwlWa432Cdg_f-m8UI4_KQ49y5kJpft8KfV8nv9q8lQnK_48S1-s8H3O3zP3_ng87FYNLcA8evbwjChDHHUblfS21iuSRzzVDvcbRtBoezun5m5t3UbP7wdIix51TWTj8EIcFgMvnloPhayCzeIQrlYgI2KXrEIo7xgJkiaIoo9SNAOK_JQ",
+      "AZLasHq2buheV75CmZft_jqoJ49MRq9M8UJLdwQxgfwxWvRn2YvqZdwz3ttvqI4SQ2__ll5YeNQpUCjTtm4lPCga2PJbaoDCaF3aWbB2B8QmTwHvkrMetoTtbxoN6yLFNZ2RKvW0oshVqnUPBP9vrH7_3cEv58W17xT0jl6NsxL9FXITymkjs4TPuGCUaymVSLOch3BxclKh0gSpA-34rJPfuAttg4b3_4AuZkAN3aavL-OColSP83UvV0kI4qacyMYYMtp8tOMxSL-wticWgnZknWF_oeJpMA_mO_EySGC803SDUuEFGlFk3sn3ij66lAqljVOlfo0T4Z6vc9Rep1HGkeKoHT-a4sKvZbqhhQVz6I77FAzg1LsE47iUqUkXF1s804o8pI45a7e7bFTU0GwYb6S0dL9Y_S76t8MjQKClnvIsWuhmspcAqBa6L99U23PH"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 00h00",
+    "display": "Mer-Dim: 12h-00h",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 12:00 – 00:00\njeudi: 12:00 – 00:00\nvendredi: 12:00 – 00:00\nsamedi: 12:00 – 01:00\ndimanche: 12:00 – 21:00",
+    "is_open_now": false
+  },
+  "description": "Installée sur une ancienne gare de marchandises de la SNCF à Pantin, la Cité Fertile est un hectare dédié à la ville durable. C'est un tiers-lieu gigantesque et inspirant, avec une immense halle pour manger et boire (la bière est brassée sur place !), des potagers, une serre et des espaces de jeux. L'ambiance y est familiale et festive, prouvant que l'écologie peut être joyeuse et rassembleuse.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écolos urbains, familles en poussette et start-uppers à impact."
+    }
+  },
+  "real_talk": {
+    "text": "La ferme urbaine de Pantin. Food court bio, potager géant et programmation culturelle.",
+    "must_eat": "Food court bio local",
+    "le_secret": "Ancienne gare de marchandises. Immense tiers-lieu éco-responsable.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 20.5,
+    "value_score": 84,
+    "category_percentile": 16,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(14.0€) + avgDrink(6.5€)",
+    "pint_price": 6.5,
+    "main_dish_price": 15,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 15,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte Locale",
+            "price": "6,50€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Tapas",
+            "price": "7€"
+          },
+          {
+            "name": "Plat du jour",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 2304
+}

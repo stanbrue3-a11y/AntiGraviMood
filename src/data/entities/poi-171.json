@@ -1,0 +1,142 @@
+{
+  "id": "poi-171",
+  "name": "Batofar",
+  "slug": "batofar",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8336,
+      "lng": 2.3773
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJrZsuazhz5kcR1Cr98qUi5jI"
+  },
+  "category": "club",
+  "subcategory": "peniche-club",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 338,
+    "moment_count": 41,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Techno, house, électro",
+    "door_policy": "Sélection variable",
+    "smart_tip": "Passez sur la terrasse pour le coucher de soleil avant que le club ne s enflamme à l'étage inférieur.",
+    "entry_fee": "15€",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://lebateauphare.paris/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2bSPGSTOKvXcLSdjjGJvoX3t0f9SKUL1uYX1RyZ1EDmlrVDYMJjoCCekgppttDA_L97EN_4uAd1MmsAhUo3zHYusD9JNgWzKUfk2inWRzi9YhvXvPd28OgBBG5hWzu-1TXmMJCyRtNGk0Si5956oNtOBuRHTl8EoJmE3QWJZ-jNirCaHM6HqTJ7LV9UNg4DQB9VJRv7ZgW-1wa9Q2KojsvKZsuExiSJDklTLug4WNpOI-xYCrXb8KU18S266TqjfN5II5icP0E0KXvf6eL1WjTby9vnr1tX8OmdWhs_ZiO8w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@le_bateau_phare",
+    "google_photos": [
+      "AcnlKN2bSPGSTOKvXcLSdjjGJvoX3t0f9SKUL1uYX1RyZ1EDmlrVDYMJjoCCekgppttDA_L97EN_4uAd1MmsAhUo3zHYusD9JNgWzKUfk2inWRzi9YhvXvPd28OgBBG5hWzu-1TXmMJCyRtNGk0Si5956oNtOBuRHTl8EoJmE3QWJZ-jNirCaHM6HqTJ7LV9UNg4DQB9VJRv7ZgW-1wa9Q2KojsvKZsuExiSJDklTLug4WNpOI-xYCrXb8KU18S266TqjfN5II5icP0E0KXvf6eL1WjTby9vnr1tX8OmdWhs_ZiO8w",
+      "AcnlKN0lYN80oWQv1kXjvSEVVoq4d9-8SrY928a3iZ-HiRM5-500hdq-uSjuZ3XPhnL9hseFlEDnJ1WgDH-bIxlpV4FOCBPyOsNcbevE6MRZXZsqD4-HSzlmFfuH9VsA_qvRrvu_T2feFPaJAQwqEUG4JCwXr_vZcAdWH3LAyo0YQzOmgZaEgkW08UKDQTrrU43_kgucXNBepduVRgHCvXIHLi3B3wsWBv38bvREksGGP2Pd5Do-UsacRPliKPqou43B3ZlUIRf2PPOJKFSY6wfx6ojmwqQcaic7YB5EBcJM61TwhPQ3En-WG6vnw05m599XU-heQkJeMAJatJzK51YU2ECnDwtTh5l56E2hkpr4BuOVfsHSKilnY3YiJNHLrS07tAGZ--0ELawsNaHxl3hRFLBi5Kr1JSFew9TShhGt9vE",
+      "AcnlKN2Kfmms_GxsRPkxLntnFxtkVhIJ-hpscSJwr09PMs70GHBc-TUOw9vtXwil0mYfSoPbvuMwdd7WG1TZJ0KpOz6qypaizLYCCPUPVfL-EeULFppyqkBUrMXOIza2k2sxIYSHfLaYA0-Cn8CmCxsBhgeokK3TaIi6U-y3z2xEhulmKXMHhY2xpYhd8U0VYUcUHeeIsKRyJ4SZ14RE3bEpE_bPOe9vXjY38FsShl3MAKM-Jabf03N3xTuxvxtgFG-x0-goX_WI4fG9PR2jACSYwTqE09rfsPtZQ6CPmhBvK9UJTrS-RHw7-Be4q5E3X-jD1AgB5CRzG4H2lLGkId_JDLz_KwYrMez1QSqnklpwlbqySFNpWFQj4iSwppkyEwNk24Rvu1g6D7Hadq1X-WsvPfPXESswdTobN35JldSwG_dRwA",
+      "AcnlKN3oFnrWFSxz8VxhW-K2CkjAexX0BNyfZRqZ3OnpL0-6Yp6jPxUcm1_OzHazMBO2kDbRGFcFF1WNI2t7TAMYRxE1g6Pw8PFdG-DL4ilIABbQz2z_7AhDu_BD2LefXS3m8EEHm_hzASFiOngf4e-uW7Rz_ijyLX62bfyH5MBHsnRLrMMdcR6QNgnGAPAsdgCJJiV9y237HDZGp5vcQItfSPTegUmc6aGm3v-Y5S_apsvbws5xLlxLLPHBz_EKg9p89fuamSK0-3r7HrVLezCAlXoEHHSXqHS7ozTh1_LoE5CCbX3Tc37TfGW5M8YsZR3xl3CpBwEyU45ArB6z4xDBC7-7NjMujPPMB8pxTPZ9XgII1dqMGG7PN1xttZ1GFN2ceKbesf0KMMXZREdH0HRz_50yRIIAEBGdBFhk-RsseV9HyH8hVyomXQEH3UcKpajP",
+      "AcnlKN0ULn65DStfGB5X2r_rOgePoxl-rNG-qzzAebrIQQL9OeweE4lPtRuZFdrTYvnQG0QntVW3q5YdmpwrBoRmJLfoe4YsqF0ZQ_tlC2PsrGEpemKsf0q-e6BcoSE0ky63XR-5wg-SPJoi3begjSB7atRKb3aTXt_g0q5v8nyxWc2sCnY49s85p3e5nl2_NSkjW4LUF_yJjEM-wePu1aMkh3XsplMJYWXWREFwV5klkJHsCvAqPovrUtaGHCaXZ8uA8Hsvsxp5NUhrfqHRjgW9b6OjyE7x-uEbomNk_ULnD4ldZsJGBPi5Y5Zf_o7onR8arSR_ll-lbhBJ8WHkAB8fdvLMYskyeedblApGa1TszaaGeZ-k7tRBPowzyNVGhE2qFnxjs16nCEabhe78bAte_yFt238i2JYg09K3WQwMfKT6cY8m"
+    ]
+  },
+  "description": "Le Batofar n'est pas qu'un bateau, c'est une légende de la nuit parisienne. Amarré sur les quais de la Seine, ce phare rouge accueille les meilleurs DJs de la scène électro et techno dans sa cale transformée en dancefloor vibrant. La terrasse sur le pont offre une pause magique avec vue sur le fleuve et les tours de la BNF. Une expérience clubbing hors du temps et des conventions, bercée par les flots et les infra-basses.",
+  "real_talk": {
+    "text": "Le phare rouge de l'électro parisienne. Terrasse sur Seine, sets pointus.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_secret": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Clubbers techno, amateurs de lieux insolites et noctambules du bord de Seine.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 12,
+    "value_score": 58,
+    "category_percentile": 42,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(12.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 15,
+      "label": "Entrée",
+      "source": "standard"
+    },
+    "fair_price": 15,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Bière bouteille",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Club",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 4,
+  "google_ratings_count": 1030,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

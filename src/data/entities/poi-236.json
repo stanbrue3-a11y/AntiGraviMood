@@ -1,0 +1,142 @@
+{
+  "id": "poi-236",
+  "name": "Le Tout-Monde",
+  "slug": "tout-monde-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8845,
+      "lng": 2.3212
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJNxei6Mxx5kcRyG2NQ-ovCl4"
+  },
+  "category": "bar",
+  "subcategory": "bar-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 281,
+    "moment_count": 45,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Acoustique, jazz, world",
+    "smart_tip": "Consultez leur programme mural, il y a presque tous les soirs un événement culturel gratuit.",
+    "signature_drink": "Pinte de Blonde Artisanale",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.restaurant-paris-tlmp.fr/",
+    "terrasse": "Rooftop 🌇"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1NWx5NunZkDVdqeiGj7KQKKYRQjRtepoii_8nNEX67Zfu_aGnV4qIt1qgiWjooezA7WYy9xGA9IjdhE-DiBkQvi1aL0W3iqzO3cFNvswRZwK1TO0nmRoD9RcblUxQHhpQJ7rIZCiOz56E1_3A3ldRZKcq21gc3pCmE2SL9apY6vXOqwvaWiX5tC0e-PoJe-NjjvOpTjdCZA2KZUz6MYQ2-0y5ksJ2YNJSs_QpxXCZim7lVQQMyzCriNZeJHgGjUjlKEViqENXcnZAReffyhj-H0GY4Vhcwtqgyr6DzxbA9Pg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@monde",
+    "google_photos": [
+      "AcnlKN1NWx5NunZkDVdqeiGj7KQKKYRQjRtepoii_8nNEX67Zfu_aGnV4qIt1qgiWjooezA7WYy9xGA9IjdhE-DiBkQvi1aL0W3iqzO3cFNvswRZwK1TO0nmRoD9RcblUxQHhpQJ7rIZCiOz56E1_3A3ldRZKcq21gc3pCmE2SL9apY6vXOqwvaWiX5tC0e-PoJe-NjjvOpTjdCZA2KZUz6MYQ2-0y5ksJ2YNJSs_QpxXCZim7lVQQMyzCriNZeJHgGjUjlKEViqENXcnZAReffyhj-H0GY4Vhcwtqgyr6DzxbA9Pg",
+      "AcnlKN3XtnAkzyxWZEydnnceYsZ7TRSTV-41VwGRwjj4Zw9HXRUyz9F6anXUMbVKiyLGp_e9-HUgohCkQ23hwOAHDnLDtUuIYRzOY0bKpZoRvViXxdXhKEhIonBiCOlvDhGLZ_kldCnEDxfy6V3xRsVmMmUuquv7H9oYzLNBqFUon5iTyIW89qMjhG3Nnii_WjvO33qXx_GuTOBV2vkWkj2d6SetJSCInmeyka3KZyfPifoJb_HOx_UV8JLEibpJye-SrCmd-CLJ0sKKv8n-DKUE5ixIZHMSDl5pk-KfKF_kIqm4qw",
+      "AcnlKN17rijKZrmfWpMUbS8URsbnlmko1asuWDJjTtIh7G-ROHXYR15xVfCKlZgN27bsvbhtjnDo13oAfJVF9tsoQBq4LSlv86K75fIneX6j2J7Q6d2Bo_H1YM8ub45cM5k6C8Aj3kheMAkNsEUDYJq8VbrqnBZLjNmQf7uHtOHH96eJ1Pi753qq5dqQUFTG-PSEgUQKoJARY_nNre600kgUr1qjNFAh0XChMnXBtQi8AGyuWNxNO75mm1HHenmOVYx8tPh82hARy7icU8l5OoFci3pnv00GUi78eTIV-jEqbP-jMA",
+      "AcnlKN0xDfiM2jYzugM8ZVoCUdYczds3bkaUvk3nsNILCd6QtlgFVMyK1kHEyzTB2bUH-Ev8UJktrgqS1M9PsFJVH1MXAp_wa11KvrvLkiI99MhUx2i6l_2uQtbyfH7SgRn0xoroco-E_hkP0sxFyF_MNqKS58mPxIRzHohIs2BikYP3g0N4inuySRZ7oEEVSza8Rvh-xNnq63-HgL0tjDeLwK5p7B6sZ-rJfjouy7AIG8Nx0z8qkC2yP2MzHvTj-AH0QQ69p1_sqqR545jKvTuOgNTvN0FgpyCpfZho0whYLcd9tQ",
+      "AcnlKN1pujcJWHuLawTPPiXg93KbimXCGv7fqA-s-0nh_xFaoU8JzATaXCTOt7UPZ2eivHQP8B9YXVfm5rGEgezJXMxI6FjQ8jUAlNncFKThFmeayXoTSSeh-WGD62pXqXpQeBi9NBg3NG-Ns5mZ23vxozCGL_dkAQiaVsj_66UQ6gvgKiEXnAylPwTWGpWd13TsCXrkdbV3UEqQ6Hz90ioPpG3e2sRGJowd5R2P9jJHXLRNxr5qiVKmM2fPXbiqkXxN9lCSl6jfoC7URTNdMz4HtL84M2TpAiI60l0Q2z4spOka_g"
+    ]
+  },
+  "description": "Le Tout-Monde est un bar de quartier engagé qui célèbre la culture et la diversité des échanges. Entre ses concerts acoustiques (jazz, world, folk), ses expositions régulières et son ambiance littéraire, c est un véritable lieu de vie et de débat. On y vient pour la chaleur de l accueil, pour les tarifs solidaires et pour ce mélange de populations qui fait la richesse des Batignolles authentiques. Un espace où la réflexion se fait autour d une bière artisanale et d une discussion passionnée sur l avenir.",
+  "real_talk": {
+    "text": "Le bar intello et festif. Concerts et mélanges de cultures.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Musiciens, écrivains de passage, militants du quartier et curieux de toutes cultures.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 7,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(7.0€)",
+    "pint_price": 7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "SOIF",
+        "items": [
+          {
+            "name": "Pinte de bière locale",
+            "price": "7€"
+          },
+          {
+            "name": "Verre de vin bio",
+            "price": "5,50€"
+          }
+        ]
+      },
+      {
+        "category": "MANGER",
+        "items": [
+          {
+            "name": "Tartines du Monde",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1506,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

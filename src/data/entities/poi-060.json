@@ -1,0 +1,171 @@
+{
+  "id": "poi-060",
+  "name": "Déviant",
+  "slug": "deviant",
+  "location": {
+    "address": "39 R. des Petites Écuries",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8737882,
+      "lng": 2.3501233
+    },
+    "google_id": "ChIJ8ZYS9RRu5kcRQ7Mn0l0gLIU",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 538,
+    "moment_count": 64,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 40 00 21 24",
+    "google_maps_url": "https://maps.google.com/?cid=9596080493349548867",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Stand Up": "Concept 'Bar à Manger' : Pas de chaises, on mange debout au comptoir",
+    "La Façade": "Portes pliantes totalement ouvertes sur la rue (L'intérieur est le trottoir)",
+    "Le Miroir": "Plafond miroir qui donne une impression de foule immense",
+    "La Carte": "Petites assiettes explosives (Cornichon frit !)",
+    "L'Ambiance": "Électrique, Bruyant, Joyeux",
+    "price_range": 3,
+    "reservation_required": false,
+    "wifi_available": false,
+    "signature_drink": "Cocktails créatifs",
+    "ambiance_vibe": "Cave underground",
+    "music_vibe": "Électro",
+    "smart_tip": "L endroit parfait pour fêter une bonne nouvelle entre amis.",
+    "bouton_label": "Site du lieu",
+    "website": "http://deviant.paris/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHpXxn8rTPd-l3ARisVjALu9OwL-IWUyJW7wNFFzjVpgkgfhBN6l6Yk2diU-tA5h9JlGVPMNY6hRkMl6OEQFBqquR-kz6qysYOcYHEbwpz7nBj5u5gDknjRMUonYyjbdsOTc7yrc2NmQYnnJRiRsB0V8__ftkVDIR1VZDQOSzUp_9qLl5qH7GLrZKrYehq8IJhPnvnGjgRRKHjl-8nXKbHk6dOZUe3kFa62VYROxxUeVofXf98__t3SD0Z1SWHM7o89bMjuzefbgJmLUVLp3tAG5HBBF46bAu2ayL3runbb-MQ",
+      "AZLasHrMVrDxYWmdKQF5JiM5NFrQlyoPX5MUJ-oZ5MCUNGj0CVz0OEI6ljnAWixdZ1jCYqiYgdN97X3TQLoGIbkxjtuzZ34qg3--g0xAsSBNASAJ9CDrj_PzbIJsW_O0yBCrkMUL2j2B7-ZdQ9h--pC9DwGZ-nGgFsyV0rj3jBAdc5nOGuSMAGZLMa3sKuWIXrHM3s5dxPUjmC8usbRnPyb2TwDfrYjibsPtTukKycMOpNxa3N04Alr0f_9ynX_WWfnaGToSZz8BDBtBVc4IFsKksy36p6raSX9EjUbhNa7OhyIs6A",
+      "AZLasHrgL9gtXiUKdYthRNkF0Uu2oPZVgE-fbL6cJFjZlPxQKwn8ILgrgZAXiQQBrM9ZwXrAo_Fq7lESec_5So578SVhSwZ3J1wJj18ZI7CQnDMJVOHhaOkrOkw9MaxLLKnyEvmW6cVZXCZyZb1vRXy3AJpaf2P-WVD2QtF2l1gQonUHcLQHzvvL4sKg5gzcLgRfLBPIfZ1_jry8EwKDUYZX2zm2HsXFFG_L0yj_1iP9ImZ7tNYSYhZacMV70jpEuS5-nNJBZKruIgvnHF21TB7bkVX80ygUpvIKpVQYsu3SaxxIHbiYZ3YvOu67AwufLdmLJX16dH2oRm0GsCbwsBlZ4Tldurmu6udZrvI46AbG-vW4MOIeOeM04fnD6HFYrlDIoOknnj6M9UyocRFQIpoQ9xggRFGJPadfLcf--QQa_CiPs4JJJkjml_sJa1VNPX4i",
+      "AZLasHo0E6a0jYEqXmshDjPo5Ngm-Nul7JIVIfHfg9_TKH5frWewB1A89HgtebNUPeeQuiMYYf94NAzuXMwCxtkmi92hWsnk146DDt3DYCTe4Y0Z6b__TIQDjoYXmMa3ytHZRczYlA0ntI86WcxteYJ4Q9MRWhsehA2tUyv10NfuXDjNxA1phIuEv4aL5Wdf0s-Ya4Lma9kGGJcMasfj1LbxL9Q56vt5lZfiHcdPBifMuJ1BRRL0lvlAnwsjN-RvkHUrP8HNuIlQDx5ngzvlqKtDddl8K3vBQsnQbzWKwow07LZZyQ",
+      "AZLasHquab3pkDXCudWwSpmf26vmRqZVFG67PxDithK8SShG0roprzJJqquqevjNGt5WURAHo_8h9U_y4CMSbbrSi5P9aa-7Hit_IDzSKGsWMGbSPAWtSRh9LmeZYyfVAfD18aHsbHkolOLqhTBQZTdzf_hOiaZffQIk7ZSCEE--BG8niEbjkf1frqQfDfDMvyBxn0j2mRh0dcfVstSE1PyPA4Xoawov45osdWRCXVLRzcwpgubjQ4VkKwYLW3C978NVZuHng0Xq6rDodQRUYh1gIT6oN2GqHdGtezR9enTpBHUMGmYQFVPFljn4_BdhE3RFlKnSWBuYk7U3Dy_LYFUhquFaF03KyayoRve43DtWalejxNWGkCybnvnpa_kkO5pfE1-U6e4Lm4EWm4so0q28ov8kQhQIIgAzjjG7THNBDo7dA01rRjx_mTku0heQh9yL",
+      "AZLasHqzqx0s0ElyITkBhT5Er9pDzHTDajHYFcGYzAB5CkVRr8kSfcsaK0rGvDeA2b563S6LjF_N__m9HUsdqiOigILu2Whn6kqp8THIIrqpKFe4OloWYhOTv2pzUPVCc58sFS6fDht9bi1niklxQ_KaClBJnb7OtR8hpUDXJ-bUGlqAlWERJ8dGa6f4cC8hEB4M9re57jyLNm6NzqvYsw5LN8UECBtwAi_xl5y0I3jh1SCBxa2Ge7i7CCI0MNvz_iAYnfJY0_3qnYNs9yJRhRNAa747x-azW6LqC1LcsEeFKJELKuyKdntZyBzx6GCN5xBIZWWcT92t485crPe-OnWzsySDDjaVUa3Xj_I9Pr12es24iXmi5ey5Oq3je65seCg8l-1pRcVJoAb188Bsm4XZ5kZqBYOUZ7pikgBmNzjMpN1YfQ",
+      "AZLasHrd8ERxgzFFlozalrH-xVDeYhct2ESLyzWRKVExyDEcBzhJL8z562YZyZbNofeRIgk5Z0R5PQbnPog1fZCudvtZsStxD7jCi7M_Jkh177MYl-S2lZugjW5M9RSRbgcZCu3jAlOd8C2XRzrUM218DfAvvfESaRsL52-OZXhwUxLxTCIZHAIuuDHMrMn5Dwi7UoifXUTRw6AdmL79q_tO0_lZsJ2CmQppgDY0ikezkYttLuusWgZDLsKJJAeftL_LukH3yHEU7RPQ6zJ9s-qzF4tCILz5Ng36DqHa4ULSHLXZ-Q",
+      "AZLasHp_91M3J3LRHqSUM2ksj_17b23PK_IkyyIBJ3OzrcamL-9536OJczvIDPVyafMi9KShKtuqWtclpZwxzqCZceKCp-0xDBpwcsb8c5UcRGsTAJ3wYCH9QnKH7QWcCWwEY16Slx4kFxP_F2MUGT4evZ_tdEP0jjXvohA-cXUbFXEoideEAeJ1st_rXE2jtN_WDoSSmFsh3iBnpWi-DF9XUGSORH5kW7c3Y0jy_BbC16Z9SVZxUOvo4vLB1AvwZ_-CXksCuqa5d7Y50JV_a3LHLhWQwhSVjbguUJ8w4OxSchzy2UHXunxyYqA3YoClj7dTosE-RY_MbXcbIYgImZXo0fLJ_zRz4S8N7WMj5SDqevxbGz38UhtPw-PLeynZZju_xzV4We9sZ5aHrx7rzyWi6m7iarMab-0nqj8S3vYfbaY",
+      "AZLasHqNEcqduxsm9TDcWLt8bBYh0LJ1NBENGsZUs7wDq63Sc8F2vkU4ojIE4-1nldPpNcwxRj2KkwUJ9MBoYjIJpz6_mpfBjDgSwCjLQAoN0Gvg5egQo2saXVio3_2jwt4meFz4TwV-OG1uPQ8aYY5vW9l3Y9pY2rkIAJzkfGb07VAP9QvaexS9lCaW17lgatIcuu7nKb_PkYEsqik7afC4i1JQqOwSyTvLkI_F_AAYI2Bhp9WT04FsYoKcqgjWywU-oz_CEuEj1AS__ALGTSEbxgUodu42aXp9LKaoCFb7y_DO9g",
+      "AZLasHr49WQbnZYe6NrrqBrNuNjugwqALq94FOdeGS8SCxek0oMcuCnMoqL9eh-ZGCHMc7gUo1WYubYpoz7y-1oWouSY0Oucazc6GCdL7UjhRrlkzh0U0FnpZvkqZBkJwHa7zy54h8jSkWjwbejtHk7Fo3uEq9eZk4YHxYiRRuN_96wcKwmXh9fZd1stgCeG_Q8TatJkYn-bEN-WF0MDnqzLlxJEVT1LbLk_td-SrJABs-Uq2ingSHbg3JG1jcvhWiLW3VQCQ3MI9g-ZdkIES6yC7hM9e8JjObNZR7raOKtCXoMSXg"
+    ],
+    "instagram_handle": "@deviantgram"
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 00h00",
+    "display": "Mar-Sam: 19h-00h",
+    "detailed": "lundi: Fermé\nmardi: 18:00 – 00:00\nmercredi: 18:00 – 00:00\njeudi: 18:00 – 00:00\nvendredi: 18:00 – 00:00\nsamedi: 18:00 – 00:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Le bar à manger le plus punk et le plus brillant du 10ème, petit frère du restaurant Vivant. Ici, pas de chaises, pas de résa, on mange debout accoudé au comptoir en marbre qui fait le tour de la cuisine ouverte. Les chefs envoient des petites assiettes explosives (ris de veau, couteaux à la plancha) à la minute, sous vos yeux. C'est bruyant, l'énergie est folle, le vin nature coule à flots. Une expérience culinaire 'in your face' inoubliable.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Debout au comptoir, amateurs de petits plats et copains."
+    }
+  },
+  "real_talk": {
+    "text": "Le bar debout où tout peut arriver. Pas de chaises, juste un comptoir en marbre, des vins natures qui tuent et des petites assiettes incroyables (Vivant).",
+    "must_eat": "Moules au Nam-Jim",
+    "le_secret": "Pas de réservation, pas de places assises. On mange debout, on parle aux voisins.",
+    "le_son": "Fort, Joyeux, Rock",
+    "le_must": "L'ambiance bordélique mais maîtrisée."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 30,
+    "value_score": 82,
+    "category_percentile": 40,
+    "is_free": false,
+    "unit": "Tapas + Vin",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2025-01-25",
+    "confidence_score": 90,
+    "anchor": {
+      "price": 12,
+      "label": "Petite Assiette",
+      "source": "standard"
+    },
+    "fair_price": 12,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.1,
+  "google_ratings_count": 548
+}

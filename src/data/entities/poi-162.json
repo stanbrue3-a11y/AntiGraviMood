@@ -1,0 +1,127 @@
+{
+  "id": "poi-162",
+  "name": "Musée Maillol",
+  "slug": "musee-maillol",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8516,
+      "lng": 2.3256
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJo3gTptVx5kcRkdLlyUQTawc"
+  },
+  "category": "museum",
+  "subcategory": "sculpture",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 474,
+    "moment_count": 17,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Sculptures de Maillol, expos temporaires",
+    "smart_tip": "Après la visite, allez prendre un café chez Coutume juste à côté pour rester dans l'ambiance design.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.museemaillol.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2OPqOi6vmTo0yddRhc5Zbc9ZAmPm0-s87UKQ0c4MU2bE1szhw9HHJAZuRgPYOTYsO_bSv6nSjazYWrYuLNVajMcQG65D6da3L12YMZxOpKhdCcqsAbiNfVobRbngG6_MOUcPTydjXt51bS-q1lEBSlFL38Nqu53vDFXrYprNUDMW-wLNp4oY401Gmom78dWBe7PUUoZuJPX9pjX0ap4iRewaQ2RvjLgTTNdh03GYfuwi6s8l-KklPCDVNX1MGWBXh1dQrpfxKXchhkjJWHFVABAmcadPPtbuSYpSSHyfKzjw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museemaillol",
+    "google_photos": [
+      "AcnlKN2OPqOi6vmTo0yddRhc5Zbc9ZAmPm0-s87UKQ0c4MU2bE1szhw9HHJAZuRgPYOTYsO_bSv6nSjazYWrYuLNVajMcQG65D6da3L12YMZxOpKhdCcqsAbiNfVobRbngG6_MOUcPTydjXt51bS-q1lEBSlFL38Nqu53vDFXrYprNUDMW-wLNp4oY401Gmom78dWBe7PUUoZuJPX9pjX0ap4iRewaQ2RvjLgTTNdh03GYfuwi6s8l-KklPCDVNX1MGWBXh1dQrpfxKXchhkjJWHFVABAmcadPPtbuSYpSSHyfKzjw",
+      "AcnlKN2x0ZNjnXgBooJ2T07EILtDxWe1yHyCgCJTWKvEXJsPcMXGgBm9nwzj1w13JzT1fb5Fjnat-_Gcqf5nnd7DTCFtzYYbXluV6l_91ZZ6vXxSZFQvDFWaPbc9YOe0ClnjrBq_brAfLN3TL3r-e8aSso5IinqXtvTxkJXyDu213NpcgUqypt2wF8Fnl1sF_uAYBmROevpVVx6HG_lZlmg_LVOXTlodxp1S4j-hfSE-86kVDNJMTJ-SLWhUDFbp1uyFOz5V9s_jnS58iY9rGfx5rVlDApxa_ZF8XSX5qWdnkt2vPhFzA0i5pvYdwNV0DfBCPvbLMWpOHJMGNk9t_SvDAbj56DN1he0H5PkhvvmANe69QhV3XoYptUlCRAtps0kFxzDGoyf2o-QOxOXGRzK5AvCfRckPYT6H3t4m1stYayvAHTPt",
+      "AcnlKN3TqP6DhcNGmoldy-iaGUYt4xQ2AUA9dc7YtUkTSXqPf52G8DcS12snX4S9rgLmkQd6k0AuDztN7TrSR9RcXBU3VobxVAK1w5plwnBi4PKU0a-ugkXa_P4nAXhclfexgtTKqT-14q_efIj37vxRV1doFDxULGHIrD1dDP2e2vUKsKxYnhAZEcGTRLNxFBgHeug3JLQll7tqyfKchl-QwL9qFbHo_mz3G1Ql8KCDeFq2Nf5_Nz3bVK18cq6Qt9mQva9Y0zP97bTvjTgDl6VkYdgwBM95RUo3VY2H37GYnCqxyKR1Pa2P_mMtmvXAmdsj9zwXdUfCDiXNb-OxTM9ewOBIhi_G5PeV85Kp3yu_mlrTPMgPEYc6SgL0c0QpIG7-MwZwQEQYwZTkQqMkxG-KqCWYK1TUCNuzE_SHkiOASKBicA",
+      "AcnlKN0cbRYurxfli5WVQc_m1n9rnrb8oJAfXK2YGmcd9AniVVNfWREhoYgpyEFvlwrlfBi9rrHlqIjGshNyJv315335hvc1FWfX_swkBAfWk_cgUmNiiNlLDTZe3crviS-iTkgC-dgL_qYXp94MNRJt-30v22nWgl56oU58FkWq-z990l-mMI5qZeehCaM0zXXrlPQPmDbsexGB6oDp8rslc8y0pVj6Llqrpg2eaH3-JHWP99tlv3r-EOqrG2r-mSm5oZZD_k7xWHSN_eynghIAmlcvk1wOd743N6nedpf2hN3QUxlZKuSez7NemR_Z80csrHffsrkkJxl7Zc8qpjUNrWRfx-Hanz3KEseps_Ooqoh4z12KDX_YRr-_ykyJQkPmlrv3Jhwvph-EpNwJ6K9JdxdZKSaKNBf4-8qsElaZhfT3dA",
+      "AcnlKN0pYld-WBiZpvy1G02LnhaG44sYcpt0iupXQGutpzyYWj2j3q0pDLxSUnKrroAVvV2ahGeuJ81XBGuPm_yJVqCO8goyQQtyrAw0PXWpQfLvBRdi1mjbVrmFsbCNEXjnb6tcovUicO9fwD7SPHr3CMqok1u3AsQXCY7kbbWTJOUhOEjJ6oDAXmvdEEnlbAQTh7I5IFzyjsvx8Pu-XfH7rFLs_HfeLMOcTsfFhvAFPMs23RPuxXjhRpuPTPX4FVcIo2h9aHHKlFk-CLy5HmsebrFNsaXcHMLc_IwwkJAXhp1jHFUQpDV2ohtk1420UG3uZvSW1z2NJ4QVmXH1-02RbUOG4JZE2yltdtxlaOnNl0hdTtmSMC9Hx1_-TWiHAvdY0MsLJLQk8tt0sFVsN_FJUD1Ss8CluP8H0lot55cmiMN7rg"
+    ]
+  },
+  "description": "Musée intimiste niché dans l'hôtel particulier de la rue de Grenelle, le Musée Maillol présente l'œuvre sensuelle d'Aristide Maillol. Au-delà des courbes généreuses des sculptures de Dina Vierny, le musée accueille des expositions temporaires prestigieuses et souvent audacieuses. Sa cour intérieure et son escalier monumental en font un lieu de calme et d'élégance architecturale, idéal pour une pause culturelle raffinée au cœur du faubourg Saint-Germain.",
+  "real_talk": {
+    "text": "Les femmes sculpturales de Maillol. Expositions temporaires de qualité.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de sculpture figurative, parisiens du 7ème et touristes en quête d'expos originales.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15,
+    "value_score": 23,
+    "category_percentile": 77,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "fair_price": 8,
+    "entry_fee": 15,
+    "menu_items": [
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Tarif normal",
+            "price": "15,50€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "13,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 5038,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

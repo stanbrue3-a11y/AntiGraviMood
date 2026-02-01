@@ -1,0 +1,174 @@
+{
+  "id": "poi-019",
+  "name": "Le Carmen",
+  "slug": "le-carmen",
+  "location": {
+    "address": "34 Rue Duperré",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8825,
+      "lng": 2.3342
+    },
+    "nearest_metro": "Pigalle",
+    "bouche_metro": "Sortie 1 (Place Pigalle)",
+    "metro_line": [
+      2,
+      12
+    ],
+    "google_id": "ChIJH1ZMNk9u5kcRHg_dVYwGDnU"
+  },
+  "category": "club",
+  "subcategory": "club-mansion",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 3,
+        "seating_comfort": 7,
+        "natural_light": 2,
+        "crowd_density": 4,
+        "music_tempo": 4
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 9,
+        "dance_space": 8,
+        "cocktail_offering": 9,
+        "crowd_energy": 9,
+        "late_hours": 10
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 8,
+        "cultural_programming": 7,
+        "creative_clientele": 8,
+        "workspace_facilities": 2
+      }
+    }
+  },
+  "vibes": [
+    "hôtel-particulier",
+    "opulent",
+    "bizet",
+    "baroque",
+    "pigalle"
+  ],
+  "ui_theme": {
+    "main_color": "#8B0000",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 2432,
+    "moment_count": 1234,
+    "top_vibe_tags": [
+      "opulent",
+      "baroque",
+      "pigalle"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "01 45 26 50 00",
+    "google_maps_url": "https://maps.google.com/?cid=8434686351917256478",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Ancienne maison close de Bizet. Le décor rococo est fou.",
+    "L'Ambiance": "hôtel-particulier, opulent, bizet, baroque, pigalle",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leur expresso est l un des moins chers et des meilleurs du 11è.",
+    "entry_fee": "15€",
+    "happy_hour": "19h-00h",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.le-carmen.fr/"
+  },
+  "media": {
+    "hero_image": "/images/le-carmen.jpg",
+    "instagram_handle": "@lecarmen_paris",
+    "google_photos": [
+      "AZLasHqeBen6bBWpPyfV36ZtFU47bVQMnbkMHnk3IXR7C7xIRuFvcyGhFuMvQKx_Q6bwDamgTeW1PlVaY1X_KnsioL_NftyshsLBzVnSHOTkMpBCoRT4g0yJtyXkGyD8uhHsFO9-RqoQdz6ahSTDyD4WGHuRKBJ46RfCCg6x7dXKuLqav5f1uQDBN0oLPI4YMss6TR1iKkmmQZ3eaGOnl35gmqGEUnc2PbS_76vAv-siqhB5b0JfddXAYFqTx5C8QEDm0YSzSFRP7K6t_MYRJYDH_pqbrhTCcobIiPRfErksST2LC39ddPolWggYWIyblyXtQH2NVOuHRfoiH8c2knQqsrf_4mWeOQ3Vf4a1o4zm5NCsZiAx8L3bHrt3Od_MllvLD-YGbaLMFwcfpWL4GEuKZF8Emmqk0SVfTCrTEJ-7raYa2nw",
+      "AZLasHp1gnRxzascbHoQpQ1hptTd1FVh-lxPeMfFgKeIWKryQUDqctwsnO28YHrSyZGge3uQUSaj6GEI9DsNlFaGVcHDXbi33MRZjf5KZ9sYqsIMConFNYysQ5mdXWw0h9ShjErP5Ko-xgsCSgdBTO50Ji7cMyOEabFaYoaO9ZaSwivt2bvPqmWgBHIh7KH1ZeVvY553P3j877jkfo4brkgwHIukCPJf5wMS8NneZ8YDgVidDkG3ZZuKb9-5BrjAX2jIKZPVgFrvFdopP4l7sKU5ZrSb3nN_1LIvpYlJF_IfmQQC3g",
+      "AZLasHpndf5N08OanDsFtMh6p3Su0Xljp67WHx95jrO7J9p8yFo8Xu8R2hTDW1O2mnAPvR4AQuzBi1cHXQekOWewamE30yXkBg3XrnY_pfVkVoIbBqc1M2cUvk6SKsvA2AOF3w7YJ1qpm1nAeaCIiMoSdY6APfd2K9zApikm_YZPAVoqphy0jyOse2VRKtXrJZJcC0O7qLywfc1j-kumf68AsMrMFXK2_bcfBaqOrj5ZvG-KMMA4piQawl5-3TBjWVANr-H_jWavKxyRugdmS8GV6RCEsImBikFFOg8EarjTAlyZurtGSFHoucXdBtkyCAfotJlEtV0ybbAmWbUAffJD5CYMmSjaFDs21yUVy_IXlz6urLxvQmMj3LnFJmIqrmjYV5iNEDSCj1h4l5MYkI5y4m-h8Tt4hu3AtzUTdJHPWKwsL9Nx",
+      "AZLasHpp-hM8kd_aS3ukdvva-LWpfHGE0ljIqfd_ysbL9SPMAdrqzswVbR7FlMVqFUQfsOFn3JuLCRCC4lLvZ46xdcF4mO__SUGXDvj-DahJMwWwYoijZ1SjpD-xvN4chnfUNpI5J6Db0TdKEkQmj3rF3uHiGE5naanBlSRHJvjtuALZ4lBqnkqoeUe7UakOj__daCPFM2JMhV6x6bYjvYVTCGljaznwA71jwzWfu5QMHhGdMAmdbuBZACCbCbTLzSL1v_2BBx_kSTGPHNzfGkN0xNMhCNSH0cPWDz68daL383jBN_xtOwZwpWHPtyNARUAqonVurEzlyG-S7rMNSRkQXbVzH2i7b03cRLHZxOG63-LGYvF8ocXRBZJtC2E29BrF7RV5qNbAsX8HngGynxP0ZipFVC3GdA4aC88NLmwLzV_9LnRd",
+      "AZLasHqZHYrt5p2x5pxf452gxpdGGZoSzD1KtxPzirGQvOjy3U4YkLYMr-ecpDHmHrcQDu04BOGOoz1FAIzvYaK4n1tzWut6Sz6mEs4bRvg3YWlwEMFvR6ADKFcQInkssz7n9iHJJtS32O-IWtP4oLeCD-GS4BnHEG9p_mMJJcXO_USgFzSVLVTWBi2_Fubi4hxsRkIKZu8574_KgkMMMQo5BJeqxs5lR2QDuLaFzp7kNiom36bxK2zALHz9jlPJIixgpVgvHn1o-KvDz1LjAl2D-N06bhA59ufK9xGKFgZ3zp-6RCc2FLtP0ATWAPFY1XBPVxX_PQOhA9uhVLYIqien8AmUCojZ2Y6lK7iks0M1NxL05pOLvUtbUCR-sUt6aWgYwpY_TWacOMvtpjrCb53foyDauN-09Uzkc0xkAs7hOQwITg",
+      "AZLasHr9CeBCYCdjDy55LlsO05u7RV7BZoNuBVuz-0njz1pRVQDJUitWIzS4JNqjnlhJDtxZItw9C8rnJVbh-VkxCJrWDc9BVrJ0GsSdRjfU_DtiIX5A_YVkiCMaqmIJqHESzuQqV1-ZRRkPlfpq49nBPrkcaYYlyVl44tsGGJBctOYGKuQQUOiEo-e8RZMbS3GmQN_VV2iFjwQlkArMi0PREhPx7mzXHqhBhNisL79QkGgDcxBHLReVVWCCoXa8Ab86J77JgE6jUdHDz76mw3lREIbADsswqVIqHJjIN0_E6CTsW4a-266fI_plfanZxp85NpxUP1pJWwrpUeCVPBPvt7RtXnKBZ8LclEwtq156jc7Npz6zdZnjVEXCQv-6r12p_tgrGBAnYXodVXk4TjAyNIe2eGrgcf58qEP7Jf8CFX0",
+      "AZLasHr-HvtE5HCYo5tHWD0X8-u0ajmg4Yuw-3G7IUa4-lze7UmEuZuFLQa1OyazbMo_9GMo5tC1VtFAj3AQXDaCmdqHHg4sn8gxtLXWI_EVKTZQGQfqT34iSbrFiMkC8NlQdoSzn07XzbkvnRUiL0i-2aRzD12xHddD3DTB5c_KrQ-9GgWridLVRxD1ApJ3TNPKpIYxfPbrooW50dADvDz9IwDi7FBgong4P74uCaSlou7EFADLr9CM6Phzd3Xolmhh3UFWXaLRWq6JabFjkEzq3068GDuDLlRMY3OlFEf4UJ_yuiGj9ozGlSN57_jVMyV6W27dKjTU21673Qfg0JshbPyO_PFT1oVRYuPN4ESXLkVKHVmoaNCOuFRQoE692Zd9DoOIWTlf7A26QIq0fNA7C0qdOQp5I2F-1H1t1w6Lu5CV5Q",
+      "AZLasHreklAqQKQ8Nui8fEPp_pMeKdf3aUe3aeMNIj_z3qerCRP7nNpUoMZD2mkXaRsOxdZIJrvwNWuPYvOTObUdnhCSLy0xofx6-Ie6X2C5SpzYyQxdimaFvBMAU9uJkTTsJnYgmS9ZdiUH-7_0hCKVXnl0XBHG74aPsD6VGS5B-gwpDzLp6mGl2TSAlLB7b7z9OHcRMfTGwmviuCUKf7qc_B0K_Fifo6GpHpziZTwbIiG4AQQ2dwCQMSlTvZ-0PHSV5jnq5gKUH_AtzvjLxW-85itn16TGqKGdzlvgpHKusDcoJg",
+      "AZLasHp_FrsUbzHifeynpO6B7YoY6X5E_o6k_bRSqnH9_duDG5gUmhqoo-gSniwPjAc8zlLZ5mkoPRebSlYK7awAzD9dXYS1Y-fdockIdqa-eCNWE5mnAdsj2xIiwgLmx6mTJdB1dS_cSi7HAnURp02bsDB-KiwX--hR5L4-PDOiRYE2wE5aGZv59KLEGxpc9LV68ArJ059PwZJyYcpFhddGLPw4MmW345uzUVNcmW1WewMWoSseJtsoRuxdBmwKDk9h7_4xSq13GzzzSK0Orf66MYysWMlfb-6Bt-bqE0EuERMujg",
+      "AZLasHqnfw-qCe32myHf7Kat4EzAutHWS1fnKvfNV8tzFbbAf0RlSjquwAqo9iM7aEpoOBcADGM50R_twKzaUeEjS5d4fYIsTjmvAF4rOVzzKA08Y24LBx32ykX1fSTzBs9j13sASZlETC4UUh05-gMzgoTifPG_rqZpN0QoKvJBKMoA91wIOtDIfs-wU7waJ2WevBhAHB6LXBCi7CJi3zMlw50XRsNCDdiAN56hqbJd7LF4RSXowYsqEudodesn0pCtK2vqyNH7q5aI_oxiPsAaGKSKezLRQA5ppwO2u-PzZxWaPg"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "18h00 – 04h00",
+    "display": "Mar-Sam: 18h-04h",
+    "detailed": "lundi: Fermé\nmardi: 18:00 – 04:00\nmercredi: 18:00 – 04:00\njeudi: 18:00 – 04:00\nvendredi: 18:00 – 04:00\nsamedi: 18:00 – 04:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Danser dans l'ancien hôtel particulier de Georges Bizet (là où il aurait composé Carmen !), c'est possible. Un décor rococo délirant : colonnes corinthiennes, fresques au plafond, statues de femmes drapées, cage dorée géante... Le lieu est magnifique le jour comme la nuit. On y boit des cocktails au gin (leur spécialité) et on y danse tard dans la nuit dans une ambiance décadente et romantique. C'est Pigalle version grand siècle.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Cinéastes, modeux nocturnes et dandys modernes dans un décor rococo."
+    }
+  },
+  "real_talk": {
+    "text": "L'hôtel particulier devenu club. Lustres baroques, moulures dorées et basses profondes. Le chic décadent.",
+    "le_secret": "Ancienne maison close de Bizet. Le décor rococo est fou.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 20,
+    "value_score": 25,
+    "category_percentile": 75,
+    "is_free": false,
+    "unit": "Entrée",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Gin Tonic",
+            "price": "14€"
+          },
+          {
+            "name": "Création",
+            "price": "16€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": "19h-00h",
+  "google_rating": 2.6,
+  "google_ratings_count": 974
+}

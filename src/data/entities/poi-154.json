@@ -1,0 +1,146 @@
+{
+  "id": "poi-154",
+  "name": "Le Récamier",
+  "slug": "le-recamier",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8517,
+      "lng": 2.3232
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJV7szrtZx5kcR56iYzO-ajmM"
+  },
+  "category": "restaurant",
+  "subcategory": "traditionnel",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 511,
+    "moment_count": 2,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "Demandez une table en terrasse au bord de la rue piétonne pour un moment de calme absolu.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://lerecamier.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0tLa5lY2Wi1BSkRvFi6y756s72hpmgoArEXfb2xquU6eIsqamkbVOxawJ6AJLatbE6cP5wxMZYo8EoPkUiIog1rg04dxsl28KnUSpmbijuZPPkq1JVWaVLz8RGawC5u9W-U19mOnyylGriBo7lUcVObcNFfyGvwyrCHbQaLe5Jr58QsPCZEV0yz1CE515W_9h9c5885Im-DIKkc_wHc9PZFfbcamhm-4ZZIk7yhPLUPTmqrW38nGeOjC9tBxw9oxuo1X5FBx9jVYOu_WHkrbFDgJ34cXsS5SHP-e5WMD3H-ny-iYm_4AndBIMg1KWa5x1mlkPUmqErOsP2M3rRUchD6zVGmUGmMB1UKw415MSxQyLJYsyCFKuxJP83S65IoHmUxw7rML7xfGOMzNicDUCSCM6dYOI1QGxtPt70Z08&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lerecamierparis",
+    "google_photos": [
+      "AcnlKN0tLa5lY2Wi1BSkRvFi6y756s72hpmgoArEXfb2xquU6eIsqamkbVOxawJ6AJLatbE6cP5wxMZYo8EoPkUiIog1rg04dxsl28KnUSpmbijuZPPkq1JVWaVLz8RGawC5u9W-U19mOnyylGriBo7lUcVObcNFfyGvwyrCHbQaLe5Jr58QsPCZEV0yz1CE515W_9h9c5885Im-DIKkc_wHc9PZFfbcamhm-4ZZIk7yhPLUPTmqrW38nGeOjC9tBxw9oxuo1X5FBx9jVYOu_WHkrbFDgJ34cXsS5SHP-e5WMD3H-ny-iYm_4AndBIMg1KWa5x1mlkPUmqErOsP2M3rRUchD6zVGmUGmMB1UKw415MSxQyLJYsyCFKuxJP83S65IoHmUxw7rML7xfGOMzNicDUCSCM6dYOI1QGxtPt70Z08",
+      "AcnlKN2MMCCL31ALmK9KIOWl5kgykA0693SBJaS7aX7pgSSBYz8FRaT0oTFvuXHQQiogcbxP_tSretZPh-U_vS9CjPJvYhBegQVcNFgtJaXqO1WKcmAZVVAcNdQ_qxHweg14N_1GiCoGfvV1I-QrNfcrBgqLU2R0wqyQ1JUMJFgf4ntDluXBeZLrOXWbBxpuvn5LjNUu7ms5jIQ8TshsZu6mDkvg9CmcHLb5NELqX4SvmQpb3_AVgr5lmJZGBTm6jqNYRXoO6h4JL9QThZu6du82QA5fwim5JD5hCk8JGW1Bks4UqL_vbpoeC40g79XXFRe87a4GylAklZan8lA-b8H8bbT7JsbGQk8tSrxj1ybeecJnf9JWfeynCpyM4bgParIlPB8xp-RnpYIWXH3EVFKTjo4MgowGmFrkOXyXoAhEKfUCFQ",
+      "AcnlKN2bd7fjjfjSsrU9mQx3fBJypbORSGe20p7UQ6azvkjL1_Rqkcdy64ttW8M8OPJci86mYxli65Py8DJsEGiSa6L7Gl9HX3VUqZpUEHu6sFHbu9e8AqZzDhCm8979_AgvVSPemEgDwCWPexs-avwE6bPfDrSdjo2blmA-gt3Ec-4LDWTuQrpu07cKgIj9OHRGfBphyKNusXfgLgv1pQhqTbIHl8qS2VdcLijqEAqbRgeQAcEsaJspsFBwrejhmDHBJa-H-1mI2fWQ-9a1H51k7rEqdINY2L4A_RJbdfXXowkvTZ-DKbPF_hbaQoB3g7a-hG7SavUHnYXay2tfCu0BrYXS8M0IIZ4PFnJm5ytnqdCzYVLC4Mza86TtLSVaeimtIiL1qMPxbEMzmba_585FUZFGyz4GPPfwlmhmwUKu5Ad2cJokVHdc50Q1SUq8LQ",
+      "AcnlKN0zPJwBNzb9npB0RLutd4wV8wcWCsem8-Uw9fzlnZmyh1nwTllqMQNsP01-_rwoMir278grwkwMh-c7RyaQTYTRdt5cbJItv_RKZ---2lUbEEmLMy4hGicGgfgPRqWgPN_dyIFhXrofPAydMnMBq3GwI2TzsgFhFZ1p-j-zJeQfjKI7QIOVPDfFFjZ-3M8Jvay8_MXDKC8DSsXqefj4419AR6M6ZUDNfnstOQH680qLtztk6xvYf-uMoGOh1UXgBDJyoDtaJN6-K0JTBR_k0qR_paDf3g0n2YKpLIsyj15b7aARhYrto36uCKDquUz7-rKsdmY3UZYrFSIet3kDabKMX2r2J-67tI-9AJlCKwjbx7R9Q3csJ0cuD-qz2CyNwQcDSi7ttQWxeCL2XsMnkWGUU1VCph4bVlj2ioygpIwKBEVx03d9pSb54VuL6w",
+      "AcnlKN2zk6DBS7Z0AjP4D9aQJDtIlJ3pdbsP5xV9TOZbsad4vxCj5EwjinxvpMpZp-vu1EpAU2OVL5qvDTE1NCRmlJAqxVFzk1abcDEUWPvzeI-xXWipQ_k2royg7KLBw4MUpY1dhymnJTc1fcbKMIqY3yFX8XF3vBAH3TPsDN48EoMorNvfVsYgSc_ayLfYSmpHGayQ3kZiZENBDy7ESvlZKDeCjjKfec6XE2HNwOfmyr3SfdAJeciy04ezgZbiT0q8B7V6SmDfBeItsoh97Qmtlk7vEbJuzdgRWRnagsNg_6zg5caEyKVs7fviR7Y-hkD1h55k43yfM39xpuGWRFdFY58JJzReGuZOFaW5nhln-LRo9a6fhb3Sqp1VYZebjqnfBQhJFBvsnLU7c9iPyHmBchlewE-nZv-gdfkR3-8af4HkjSAy"
+    ]
+  },
+  "description": "Caché entre Saint-Germain-des-Prés et le Bon Marché, Le Récamier est le temple du soufflé parisien. Dans un cadre feutré et une terrasse calme à l'ombre de la fontaine de l'hôtel Récamier, on vient déguster des soufflés salés et sucrés d'une légèreté et d'une technicité parfaites. Gérard Idoux y officie avec une passion intacte, faisant de chaque plat une petite œuvre d'art aérienne. L'élégance discrète de la Rive Gauche à l'état pur.",
+  "real_talk": {
+    "text": "Le roi du soufflé à Paris. Terrasse cachée, clientèle très Rive Gauche.",
+    "must_eat": "Soufflé au fromage, soufflé au Grand Marnier",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Politiques, écrivains de l'Odéon et habitués du 6ème chic.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "value_score": null,
+    "category_percentile": null,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 24,
+    "budget_avg": 30,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "SOUFFLÉS",
+        "items": [
+          {
+            "name": "Soufflé au Fromage",
+            "price": "28€"
+          },
+          [
+            {
+              "name": "Soufflé au Grand-Marnier",
+              "price": "18€"
+            }
+          ]
+        ]
+      },
+      {
+        "category": "CUISINE",
+        "items": [
+          {
+            "name": "Tourte au canard",
+            "price": "32€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 3758,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

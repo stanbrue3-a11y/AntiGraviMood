@@ -1,0 +1,171 @@
+{
+  "id": "poi-087",
+  "name": "La Station — Gare des Mines",
+  "slug": "la-station",
+  "location": {
+    "address": "29 Av. de la Prte d'Aubervilliers",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.90122419999999,
+      "lng": 2.3699373
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJs7z5HIJu5kcRCWELY2E_VsE"
+  },
+  "category": "club",
+  "subcategory": "friche-culturelle",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 4,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 10,
+        "event_programming": 10
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 8
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15€ environ",
+      "display": "Horaires non disponibles",
+      "detailed": "",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Techno, électro, musiques expérimentales",
+    "door_policy": "Entrée souvent gratuite ou prix libre",
+    "ambiance_vibe": "Friche industrielle brute, béton et liberté",
+    "smart_tip": "Un spot parfait pour les amateurs de jazz contemporain.",
+    "entry_fee": "15€",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://lastation.paris/"
+  },
+  "real_talk": {
+    "text": "Une ancienne gare à charbon devenue le QG des musiques alternatives. Brut, sauvage et essentiel pour comprendre le nouveau Paris.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_secret": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Née dans une ancienne gare de charbons à la lisière d'Aubervilliers, La Station est le projet fou du collectif MU. C'est une friche culturelle à l'état pur, où l'esthétique industrielle et bétonnée sert de décor à l'avant-garde musicale et artistique. Pendant les mois d'été, ses extérieurs se transforment en une immense aire de fête sauvage et inclusive. C'est un lieu qui refuse les codes du centre-ville pour offrir une liberté totale. On y vient pour l'imprévu, le son fort, et cette vibration brute qu'on ne trouve plus nulle part ailleurs.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0a35TXiMUVntUrWpiWx2pjdOPR3FBdmqtdvczlSK4KRdIk6SUAISmrLB3LI8pEOgdCvkF3p7SVPfSXP2tyY0a6avQXhUZPo-U_vlKASKqTWpNo5V0li4RO4SWIuE13-_hJPivEAjB4awQ442FdwjL9vd4eMTPJWYOuJ3QpB0Mb_jCVQNIO6lBRytv1Y1LmgIYR3j5hE-5Ia1pGNqUIJ78krCPobZUnp1T-asaRoDnYRRgSPnRM-1siVMYHQ6pyzL7QBxBwl-o-Z7YajsQYR6ZnLDn5r-UFKcFdDtnCtgeenQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@stationgaredesmines",
+    "google_photos": [
+      "AcnlKN0a35TXiMUVntUrWpiWx2pjdOPR3FBdmqtdvczlSK4KRdIk6SUAISmrLB3LI8pEOgdCvkF3p7SVPfSXP2tyY0a6avQXhUZPo-U_vlKASKqTWpNo5V0li4RO4SWIuE13-_hJPivEAjB4awQ442FdwjL9vd4eMTPJWYOuJ3QpB0Mb_jCVQNIO6lBRytv1Y1LmgIYR3j5hE-5Ia1pGNqUIJ78krCPobZUnp1T-asaRoDnYRRgSPnRM-1siVMYHQ6pyzL7QBxBwl-o-Z7YajsQYR6ZnLDn5r-UFKcFdDtnCtgeenQ",
+      "AcnlKN1P8M-pf1lQ0F5qkBd2ixTuk5Fk2uxqI2eWUtTySz3EdixSpZbFwaSr6n4yx0pJXqEcWAt-Wr5tXwE7yEuor5iWQJymRDasTTHyJnAELgVw8z2F2ZvOWjWnuiK3it1fnK_2J1pM-t2MvoqLxwwqsgvQ6ZJQH3jugBXCQ6-QgxR_kcxWVGCx284IC09nbzqdMJ7n9vhSl5lZOZKrK7aWdQY8fMr0uSC4iMf6Elg7lXOqCJGPfbtgU5SVu7BoefuFv9G3KPOT-foT5d2A3I7RHXaK-dBoDbxFzFoXGpFIRBAXDLKmz7fpWrwylw0PhJ645qmwTGswqHMNJK75GPbd8w9HqRs-lMhT_6F6p9rMAcBP28sCKV38YTrbF7Eeu7aEoXq77JHoh0Iq_oewoLMzHqUAIhohWhjdKqpUcixV4LCcBg",
+      "AcnlKN1mdQBn4Qm0g-1iSFxeACJW8Gk88_sxkZLr1NOAo2h-RKlv1q9UUgg7sBjTpvpaE7vhbjWLtSw6ljn1I3bSMDeajUkk4eyJ9uMLCEwwtnLeUxlGUCiJ53AmfQkywYCk5MLYseQ18Nx7XhycKAOpzHPA2_qGDbsiuXbIqskKMLTUO1F0pdW-OVMbzG7hJJ6YZFp77hvToqF6Sy8vwepCLRIGhmiVtT18peZJbgT5TjV3wqNEXKlNxhjNjrKeRBorLurjnG8LZNL2PrY3qTwdEFp7L_5mZcvbmcZ2tmiAXsmZ7LMTekaBpUG_pHlfOLzGYc6EHJVPfxNIjqqiqUDbdhbK9AFDmFkrN1V1dHyodGUPhjTL6rQ27z7ASDapdM2QJzGs7fm8Xnh1tMa_uWLZcdJzPxK_rplOT3W2Or6IHZRYkHc2",
+      "AcnlKN377edqRCnfIuGl9RW36FTR0p8W3QxCXgvv6QC39M2ibyOpQq9wi0Lcx1kA9I4gz-R988_Ty2B4AqfEPEYi_N1V85O7A-A6VxVNPXGvdvwTzJ_5BgszCFdaiYnAUjivRPMGAXEXSRvYBybT6HWkmZwmczF8X3IHsQ3aZPdQ3SuBaPsRrIPmO1-2YA8ZWuNUqtLcxejhLFaC5Hu17JACxmKXvym7WKNuIiTR7B6CXn-tI1b91lDaJvI-rf-Om841C6Dq2HU5e2KR4L9k_RsY0T5LvxxLiMNq3Yq9lEA7i_O7CSdh-Kjy6nudsyA1EnLy99S1wNaDBik8dl5XB7QioWCTzBfdp7bOdReAbyFteo4XJxjp6Yslqe4oE-bU33ZecSc8PLDErap1EVoSpPFrnrSPpdu2sCSVo5AoXhLOu_a1yTVNR1VH8C9tAs07dw",
+      "AcnlKN0JX5H1bjk6iTF9q8QjM-Bo2HiKpOpPKnxxODd0R1m99FpfJSoOsLsPQmDzUFxJwJm392UC5RJ9_un6Fl5xcg1fZSQBrv6XMuqET-waKi2VtE26RL4l7pAVMtOpCZ5VvOkUP4ASQsdhr_4D1ChhZ1B0bHIws4_ABKP2PNCAe0VMdIJQOovFWieIWVuThHFkQnlvxJmWUoe9fNO9KImJu64_SbrPSdKx4G3ahAOtRRFyAMzBA6YJ2JK7m_oa1Xitmss3pgl4szfwt2nwVJtbhrm0nup1SdvlKqBoaJVY9tk83rMGKTZF_j7SRDnCqmx3aFsbM7PbLGRCQFWjJa893Br9fNM858kQfGx2-7jwx3ODtUNaexCQsli7syW40C6LKV5iJzc9f2u82HZHKUOaBISSAh5oW3jhRph6ZPvAWMhK_A",
+      "AcnlKN376Xuh08AxLqzb7pdxhv3bHx_ZHtHC9klB07E5iTcLM0nMy0-Y3SdMDu9m5AubbwjsinU-_sRgntjOmHl6kcQjo-pwn_4rRfErOLMVrnTSFGe1ehI0LuHITQ7OWZcBRHQlsDq7kZYS7YrEppYpo3a9y1X7F-BHm4_BepZg58CPKPppPcCmaQ-HaA2tKz4Ejd3-0AbLoNidR_UQwhG6hGtgFjKSiGh_ZaVIL-6DPOn4vYpaGB-nFotWhugia3Djw2-JUw2Mergbicp6irkS0AJNGaLRaBVikhruzWPcnGjrQI8RNiwsaGw57MEUeXvuaXjM7S9p6Ll83zwS5VZ4QR6HO72a3BJDWTYsz0ZFNdBNyhKh1ISd5GuqYOLvTQjfeEW9L2jkJyoE1sP_UtMBOj06x2A6Vj2OPHxwCLxsrJKNN8Ie",
+      "AcnlKN0z6ZMq_RvJrPCdczhV7qjNK9Xt5VKWZEC9sHnc_AGftDLuWhAvqfAdKLmc7QI0rq51UvseKQiHSzGYYL7B9DhSC-lvcg1FjWWzQio1sr-JV7Sg1f8ThB4xIRt0yoZ7wQRIbHoklzi75ZQAP90tsJQBZ6AdZGPFJ_4oaISYOA41Ez1zk2wjsTVOMlSt6pDjV22r-_2jmZDLuUOkHVJKNOsArzdHfrISH09qMUJd4Uo3cGUGSp-90MF9M4b94F_y1kPyjv_IhGHd0yLCWv3DdaZFXGYC78AZwrsjeqOqo9qvWSXhxZXSw3LP6EBZLrt3rz1AExwcIdqyfP4z_FptxiDNTviLijWtbyDdnDh1Vk1zAW1Curs4vYjuWA733Zj0fsOeQmOw8HNt5iFG4kAhlvRJdwW7HCuF-Oo_ZbwkEy_PMjVI",
+      "AcnlKN03aftzGHyH-9johUC9I6JFjY5oYDMoWbSjDIAy8srj-Fzko5nYNZXW2R5ih1CQEuSJGZZwYukCi9UboyhJgyfHu2tebYQwBtYF020v1c_nrJIgpS3mPTxOdn-gPrx0RipMuUavDsT3kw9DP98tnQe6nwvnyZuDcjSpqOBBWjw8_QX7ZoxYrBbbV5OOa9pdk65D-MZ1I5OYsLJGRIhwBzjPkZ9eEJu_64_R-xJSJWcIT5cKJhB_cPCE_snEiTTU7IvGJcsckAYn-tzGGUlzR6FqgVuOeGr-2LGgkPOXqWyLlltEt7duxmOGKG4zquYFRjxRuuUW0-R805T5zMxJ2n3DVr3_5EZEVV1ONb6Cu__-u2S72u__RojOOS8n2EJNHEtEM8kk1QacLikw4BWG_spx2v44YotTMfC9l4T_kr0oHipOmWTf71nkeVVxMA",
+      "AcnlKN38yDTqt_QZwc4BZ3LOJrkkTKcs4c-c1eqqBy3D9pxWNOqIOKFMed-WhwCbXZCzYgWiHyaxRIDMC-iL96P3x0vKr-xx13o24QWR4HGdZwwvUkGPApgU1cFwxFvUIpmQSrUUA7gzQFJYzxoDXIO93KUW73yEwu2Nt3T8ryUWuDAPkGPvc8CO78-ldzbvhGkDp-JXSFIb4YiBcsM-_IfPBInvf8pV3d7qXfJJpKu0jqVvy8hJ1UbRBsP1n2RYwtQAsTWYQaTQKnNEjHWz0Ar9D0ECOTIJSU6Gf-uAOhO1rIJe_a4s1Vz9gqR2SDRTvIbmZrBfru1TiPmYIjqZ3cBWevIJ2O3wiiGNlOD7c22MLdGvgTZeBbX_zHqGjEmyOLH5cxmL7axVmAU7VRnskhVPFK_BDi9ZI7X3-44U5NJLGFIwLqkQ",
+      "AcnlKN3mr-pS4w-Bjlo4FNz0bI6k95u-HsAP_CctrLNLjXL9Ccsn_TiK61_tx_QYWexyX_rcZCRmWm5B7yAIQJM04Ut9R9yMKDI1T2_FZsEo9pXPYTRxJ6qlSMEH8pi0hQeCEK1J1ofxLiU1rtSqFPAzykIuiM20jXmFSZGe8JsufGydDHN-Cl4A8teKPziAQtUZsq2UeU2bwbluC1klO58RxjJdlx95kbe3q5MpHbCypRt66M8vYwUxrAnh6iX8aDLx-d19Xm9NxyKOt4w42018C3IKebVAwiUzf-gIriCKxcb5X3hr2K6lG5cCqA5ESaYLUcSymuI258XeMyhi51cGwNlbkLDDIzgG9ptHMMeBs2h5gojECoie21yr2eBuNdBkaaQtL9Od7iwgjzQK_ctUx4s-SKXn_kKwt92QWWL52XljLA"
+    ]
+  },
+  "social_preview": {
+    "like_count": 284,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 34
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "music"
+  },
+  "opening_hours": {
+    "standard": "15€ environ",
+    "display": "Horaires non disponibles",
+    "detailed": "",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Electro-heads, artistes underground, jeunesse alternative des portes de Paris.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "club",
+    "budget_avg": 6,
+    "value_score": 92,
+    "category_percentile": 8,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(6.0€)",
+    "pint_price": 6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "6€"
+          },
+          {
+            "name": "Soft",
+            "price": "3,50€"
+          }
+        ]
+      },
+      {
+        "category": "SNACK",
+        "items": [
+          {
+            "name": "Hot Dog / Snack du moment",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1113,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

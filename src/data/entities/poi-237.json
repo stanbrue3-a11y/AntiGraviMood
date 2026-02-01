@@ -1,0 +1,149 @@
+{
+  "id": "poi-237",
+  "name": "La Gare",
+  "slug": "la-gare-16",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8612,
+      "lng": 2.2701
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ8YZwRM1t5kcRpoEqqdUe7Uo"
+  },
+  "category": "restaurant",
+  "subcategory": "festif",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 734,
+    "moment_count": 12,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Monumental, jardins",
+    "smart_tip": "En été, demandez une table sur la terrasse extérieure, c'est l'un des jardins les plus calmes de l'ouest.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.instagram.com/La_Gare_Le_Gore"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN12KJmMnO0iE_2EMZ1YYaQedt3UZB9HaD-yWgGndkyp7gla0umDDGVnQncSjWpFas0ghNpjUHwcccP_5z76fVIy4046ZnbyrRgSmO4tD_F2YAmpyU72KygpzixQ47FZfc5hfj_FfgCpcckrRsYf9mD7bw3AXwdTiWCFwfzS1RtF8D8-uc0vIA-Jcmg-ofTOR6RoRXwmHUp-ShQGeRtO1YmKglA0oyuF6b1_vx_Wopznirnsh07Svn2Uxv_c_L6P1iRaDrGINCQ8dxyvSBV6sDfWjpK49Y2Y8mBoJBfN0cg7bz_-4FpEruJr00-SjQKPsHFuB-k9ke5eS3cocvYu9GiT4jAiFCD-TRpoaeyyLKiEfG6nXCioPk0LqFEmxvkrso1uWx8ukVOFy1tEfEuVIjTjvl13wcJwXeYoTcf_mlUokLF1&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@La_Gare_Le_Gore",
+    "google_photos": [
+      "AcnlKN1niTFydTi4rOLG1QJt8T46h0Y7rOx9DYE5VgnTKKoYbORoYxWlICr6URDI3H66o_VMzHTzzUv0wzStfU-12bL38Keo-BxE-976HIf3JxV8i9ht0t9hgNjzS89qz7BCFmyLma-FCquj2inZr_WaQL1z3p9GuxVsS-qLkwEwtMvlnmPsuEkHxnZcCuLi_RSYNL2NkumXUCFbew1QD0AY3y3YQQU6tyVPh9ul0j4bqqycz_YqOrlfEHdxy4nJdjjWTHN937amNNkT_HeUh2BrL5qvfGwTv1LDqznaGHV2h6yKCD8fL3a8w7pJKIek0D6HOXuT7zsEoOycDeWEDN7xC5CuJtRzS0Z8HdFDzmMlLm5JbGjvPBcSycNqRKJFugHXCDKmbt5mnobBO4lZdJL6tldya-pn5-zdfAa_K2Wf5Dixyw0",
+      "AcnlKN3PIeB3qmPSn_vmZgvfUjOXB4X-DFOS0O7mRIqJVNxZUZLkhXanVk5DLtuyjYsj42xI0xPzrnQR8MT7GlQ2wK9PXok2otX0U8kiuDSSY1ojEVpKsTxUVpcFAlowmaw1cUSXvHPvrWH72gisj5RuOOUtfPMX5bjWnvPVNh98y-tt5ElWrD_-3DJD4b10UFbCG4AiX99XcCVSNg3WvMIOZmIYGYPFFgTpU0KAoWB4c-tJcHlbbePMfcarMJcBLcEptA0LZG10RQFmcq2b68079R3UMA166BMnYDJWFvGnm7kZ3XoZn4GCEO17gw0-Dr5h7oQsgH1-CoNTRub5LDKum-N1gA7RMxSfhTI_6Fc_JAQM2SXFI0TGxbQkmq01OnXdfdJ4ZsW_7QO-3TC-qnxkHrojx4bmmBS2vJnpTwpFI5JnMg",
+      "AcnlKN071rNIj8biBHrYZxFYC8-wUDs5EPbnNtDNnX_Jg0BaRsvGx-3q5IcEdiEtmDU82cO9Cu1oEqedtr0yKbBHNxXUGauzUU-NyESJofvTQDLyfGGWqhcaBrZvF2cis2E1v_rYEwuZ9UOHcWBYy8ULsPIfjuady4AhORCkLPQFUcWj4rYd6WfLYftklYIYQwAdLoZGtiAnO39Cann3GD4XYLDnxuF_b8STUboRJ4ButSdsnfBVeBcoV3EFzAkZXuni-QIUMo-eBXdeEzbcBg0vFWXozNrOUt1quqOEuuJIt-DEnA",
+      "AcnlKN2LvxBM_HJOxEGnQpEcJJjOqt9MvzvHlZZ6YUPyzwava6V2ZTvU2KhHJqCRrPtTWYwcK_xdv76UwutFulzIUEGFYfsV1PXeRMvj5FtnWc6uCtLBkxXLt-nGy-11O-GL_fXle3h8M6_uZvnwprM583fjFa_6Et-Ou0GliIlod4DXZ-Gv889aEd7a4XrssunC9AFtfhpNgWZj9QZq0xQZG0VaRyiAQOUSBC6wbtfBm2311BSPCs1HUzdvHKeQB6MswjorHeJTt98_xJkDSyo-JDlZwVKEJCr-LKZIoZM7ktbQ9yGMNAVdAwmxyd1NjabS7IP7YQ9GE-HOuBNXFP2Nr6SOZQL1g8SSCe1qbs2XJKeaGAUl0uU8mvl9hexX4O8gLO8WLNYjt2ZfImYvHKA9QRDh57BVSvtXbOanz9h51OjWBugJnjOh84qZ1DDK9yVz",
+      "AcnlKN1wD0fu30fDmY2aq-Cf7WUNuPYv422Tmlt0aU96XlWAJYrCTiuK1QL6X7SCzXqc2g22AOXzd83lgtgcvRSxI2rtQp3gjy5zKxGfyQffHXc0sRN1Fh8WVp9j1Du4OTytk85VeYZ-5_S10_Z7A-r0Zqsdttp5Fun1UYucAcvyIxYOub54PhBuM96v3PkyAvXYeeyccTgbjIlDVWeIwut2Pc0ayZOmlQyYoO5HOKPyfAyJWZUGE3aWlCuKJo6xWDhHb6C6WW66VaeFeVZhj7Z268FdfSsOZhIXZKD0rAJBoopbTNY1tWBE3BOO-ycX1KyP191yjbc8zMyvWHqoEZ0odsnFH-OSfeG43O4NPECKxzqkm1lTGRv84RC6721-o_Sd2ph55XyEyLE9Gh-0slJvKCo4_OgTwNs6u9RrBpm00YxlGmOHF_GIr26mNgnveH6n",
+      "AcnlKN2eWK8JK8xScZFrrhOOWFtQRZAS4X8OExOLxb0ubbwqLF-m8HsowmF-0PYpsN-4iAVdhTZeFd0XQDuzxqvYOSvwVgdzdTliF-TdjArWt8r-2VlLjLItuEqHIGPg_8EIeNBs5OHT-IHRjjTBsWIZ6YaewM3djx8Eb38SmdHOVwKfmXivpgRu6btWTNvAK-RCDhN57cLJ2nNyQs28PPYS3baZ5bvn3L6vua7Zda_xqx5etypk_uYq8ubQsL09x6De2fAsaKFN6d-3DZfrPpi1qztr1ky6bQRm87gE0c37-ibcNg0oBbCYHlZVFfveFhualqVFev9qIwlTTZzc4hEkdKZDFhMLyjxcCX9hus1NWtZoLXLLZT5brZAx05hJ4g0C1fTqd4fPOw5pN-7FRuSo4U1LvWiTcW1_DKgaBIxPd2F14g",
+      "AcnlKN3pS4SVFJ8E6V_QeGBYXva--ZWx4OZmFgylNV7rOvhkfcdnkdcTVRyRWkl4PSMfGKB6IItDbo7Vhc4BhfvzxtyJai1N0JI6-oVIQD-SMJ2T6ozUWrWZ3P1yVCADr7GjtMo-2I3g1QK9FhobMJCrcdoUk21Bn2uhcEU0KM93vwe8YLV8EzamphKFOIzSHg2k2CTG9Hae4wFFoHfhPC6abKB_k3Be8gHOnkO0TMI82LB6x89TnoaIHmTO7JonMVyQZXUHgpdytX1CgvYXm7paSgJpZL98ScKlo9KIqeMV3ZLcPlDXLxyS2IjO12qIvP-MK5q4ZgEoDC72KpB5HVqe2BPd0k4b0aVn-x2sGCZe1n-AJcOXNdVMuVhwaoAhhp4RX8Vne-k6L9hW0A1QZgGcm007OybjkH7uJlAeoWY_FxFt4A",
+      "AcnlKN2VGaG8KQ7OL9y6wVflfzuWoEXH8npD0eA6YDVS3s0Kuc65AMY1kZUmeOdl_q8G8WDByoBLEzx_wcdgSNZ4_rJLPaucdVRm2ghDpZg1uL5EvyTjlnx-Ae7GgqVFjZtYhRqAmhlQUtaTViF5iyK3qLo7_lLVG3cm9ng4D5YLfxRZgLrRsNbWJEFZlfNKHL1e33-YPZ4A3NPvNDwHqsqW6LEaVwfALWeWC8rpj8xaX7eRszamDJqPw0ZtDvhR72mGRJAfEfn_LcrWHa0Y_3tRUK-8T9ZIKkb6fhdNuM5wZOUsHBpWIxK6TSgZIZIZ6DgWz4Jbnxmglm9eJhMo-8bOti862FxrPv__58WkcyfeIX44qHiOUMuDD8yTNuGoLMJ8YI7Sax304nkt08ct97DJ3vqI-8M-GY5x6XQkoPRu9mayndbwPxuOhArh2LxzDp5f",
+      "AcnlKN3ToWEyms400gGYfs78juY6Iqi__u0Ej7sQmN-_T_IGIhT6uxtXJFVioMxVH-i5XSGYogOYcrm-flc7iSrQN6D2jxyUIh8VC10mRjoW919L5LjEZ1XVYcb9jRsY5362t1t7qW8H8xU73hpDVK4n-lO7AEqqhCQWyzujz5VBWj-jYtFbTfUI3hVXoZ2HaEyN3nuZ2pu1kURBgBmKPKgwIapQSmzZPpOiWtMgWRcHK3pIiBcHA_RVN84CkFiRxu9YB7GZwbwjC-XqGkCOTGRCdjpUbGahg28fdHBPar7pLzcElqGsUSPaNoCB-L6UMtO6X-RYnfy3zQ2S-jXSYaFHGMHoJQIWrDLnlHqs45pUzmKgmV-wyVspjomjhxEYgd110DoQByDiPVagVh84NGtxTEzHSxKH6_NTrds-08bevuFDPQ",
+      "AcnlKN3VOkZeNQGZ3a49siJ29sF70uSXtdslkho7kBUipevF0RNH8D0-CsyHRjzMViJWTaqquYIoHhkLcJrwWmyuDHLbXCPbbyk3_JN2gUciNcz4GuWAbascklCAGN_ooNmlislOR3TtViNC4Nm54IV9-p5SvP8XcHSfWZqVHp233HR1DOhus87eQil_f8sFLWbhfCFCioWN4qaGximhPFzKSTpdaKLDr4xaYXKspTRPI1k0BtSVTAF5rr96Ku6j11FescpUuoyB7ZLoPIgkWSR15N4NcBsWeU2vIhK4RjLrRT7AonmchuEsE0uLOk7duGMrlXFti81XLqx--6M3zifzow_bf5fMCTjriq2WQIX73T5O7QLeKCOr6UUoyY0BWajRH9lG2dJLGRJFsUbFVfTVO4slZFDu0ukjvZUtNssgd9mTPH0FoT5zAWyv6OvW7w"
+    ]
+  },
+  "description": "Ancienne gare de la Petite Ceinture métamorphosée en restaurant monumental, La Gare est l une des adresses les plus spectaculaires du 16ème. Sous une hauteur sous plafond vertigineuse, le décor de bois et de verdure exotique dégage un charme colonial-chic envoûtant. La cuisine du monde, axée sur les cuissons à la braise (robata), et l'immense terrasse bucolique en bordure du bois de Boulogne en font un lieu de dépaysement total. Une escale de prestige et de fête pour un déjeuner de famille ou une soirée vibrante.",
+  "real_talk": {
+    "text": "Manger dans une ancienne gare de luxe. Décor XXL et jardin secret.",
+    "must_eat": "Cuissons à la braise, cocktails tropicaux",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gotta du 16ème, socialites, familles chic et amoureux de décors XXL.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 28,
+    "value_score": 80,
+    "category_percentile": 20,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ROBATA",
+        "items": [
+          {
+            "name": "Volaille à la braise",
+            "price": "24€"
+          },
+          {
+            "name": "Ceviche de saison",
+            "price": "18€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Punch Maison",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.4,
+  "google_ratings_count": 3305,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "poi-056",
+  "name": "Clamato",
+  "slug": "clamato",
+  "location": {
+    "address": "80 Rue de Charonne",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.85355389999999,
+      "lng": 2.3808208
+    },
+    "google_id": "ChIJCfaiUghy5kcRKzJORkFX-sk",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "restaurant",
+  "subcategory": "neobistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 133,
+    "moment_count": 63,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "01 43 72 74 53",
+    "google_maps_url": "https://maps.google.com/?cid=14554041083665199659",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 12h00 – 14h30",
+    "Reservation required": false,
+    "Happy hour": null,
+    "100% Mer": "Tout vient de la mer (Sauf le dessert)",
+    "La Signature": "Le Ceviche de Mulet & La Tarte au Sirop d'Érable (Obligatoire)",
+    "Sans Résa": "Pas de résa. Donnez votre nom, allez boire un verre à côté.",
+    "L'Ambiance": "Cabane de pêcheur moderne & Vinyles",
+    "Partage": "Tout est à partager (Prenez 3-4 assiettes à deux)",
+    "Le Concept": "Clamato est le petit frère marin du Septime, situé juste à c...",
+    "reservation_required": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Comptoir seafood",
+    "smart_tip": "Leur programmation de vinyles est toujours centrée sur les classiques soul.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://clamato-charonne.fr/",
+    "réservation": "Sans réservation"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AcnlKN2AMbB8ZukzvVYrEjS9_kK9ulfNO8seHNu8T7hXMg60uomj-ejPgu1k21Y5bY-IoN_2SVaYoVaBovksui0ek5MsugKCeEr-MAOOpflMq-yfzBOkguBr5IvqUnmaWohbWaM6NPYkUNvvEYjDD-Xf09hdxyhbrly_d_O7AqveIyG0wU5UeaZDVVU7YhELjzuiPvDbYo11ELMvCDQa7UWfMI4p1X76aj4oi9WLUs3lO8NBSBQDl4GAiMOQ_sCaAMEj4yqNFX43l3HLEdpo8ORPvEa5fxbyDrg9YsU_c2pXeNENn2aMaunGBFOF59RubLY0VXug-m5bJB2NUtk0WDyZq0rCXevLuZto0wTZ7IZmn1SIjZLLKkNkL6k0rRYuGbsLlsCBhj6m0hyVDB8k2Y_sCFsbR1_vLbZ_2hoTu9KYe4mgIhLUZp7kLbTQHp6B1A",
+      "AcnlKN08RRJVin5SLgEJ7U2s5rItOwPD7ttqyy3uWU2ZouF01fShCJT5bPJoykH4UzPS_IDtLV7MHOg1JhhiDmt1kOiKpWzdliugGz2KMK-RT2DJv8e2tk_hCyrzazHn3UpmgH-RcxnclZgwMMoOsojV48Vb6DNvthH0dxf3dLWd5zsBPdnga79EZazFukez0jcFmJtLLYqllb3iZMfic8XE1o5wtMsJk9DtCTCQMwIV2XhQfoBoLn9iURynhP51iTcGj_F6syMj9iMRY64VaJJJIApHYEaBF90xJ3fZrdxLuvgsqA8ibg9wCXXPT08xZx5mbERx2ZIZC2cOw6C6_rlM5Bb5VYhG0q0fZA3-OnuB7KemAp37QsJGzNtWnIjLoSCNEbBZ53KClvzv-bgJtVvkr9tFC7rownTdudnr7GGnH3JuSg",
+      "AcnlKN0KlMEpjBYDnGn7vuEvd6gY05j_-SJMM_P4VhhUmlfnTlDzl7tP26fvbC5nyDaR_NWiHIpWaHnYRwfYvEHjTAXOJMtMUk11SfWs5SgfS0xGCniap2SEKEO6y1K-8TPVOuc29Dqv9YudGQR7RuoxOrkcBg1hUyefk3dzrTdeTwlm-36LEFo0F1xxbOFRIjBTWAIe3BU5j4IzcEbgRD9tbVnGBE_fvLURtTcREKe2M46NLnyXC4oJg4GZP5jXjXGldBDmriV6aTicdU6xY33vrQtJQklB0V7To8JM_Avl6Bm43nI7kXkYYYeRSZ3Rt1EBQXH6DKAc0CJTnZMS5o-OJ0ZVNLodZQ2mQhdy7xahJA0E-8btrB5Svm7AOOUgmoSfYHxN9uxxT69pbgM66tvtX51_7X6eglsg-tK9j_qS9Hdc0B1MnhSE3sTpNCc3RQ",
+      "AcnlKN0LCXHo2iac3uZgeh0zgxBalMnrozfdoTCA8yRJHHLQxQB_gvj5nTadUmkiWoP0VhLfJIbo5W3Zd1XVNfAP78h2ZdxAbPgKSux9jrKLIB_gA798ZnrH1x66TBTxda1PTfLkWN7Xc8dCUr3kfCvMp59zMBKNXfMN4jd80g_kXVmRO25gA_dsS_oKhEV-5myEEC-sKGEX2l6X66e264lUIzZO11I9TPIQmpAJ_aG4iKthcBY-KlZiTGGoYBsgnCwf7AorKCF7LPnt1aLeIUoV2nwP8moOgqwPPFl8lk4ZRti9cyr10i1ZxXrZ3RYfa71TjuoHIe73FCjME9YseKcN6fi5uuYgu8wKtRNlGGeU1LcttMxNOfwMp8TJrBbeYx2OL0A108IgcF15fNmc9i7x75QQXWJjxhVaPGwSHFKIu5hgkTZY",
+      "AcnlKN2IvS-RypZJw_J1ISWzs1AALjE2ReYJhC_1qu1fzDjuN8biA_50iRHTFZAwfLx1DWGRoO0E4D73_m9FrZdDqBHM1GZW-55zRpbXrmo-CH6kssJnavhnjKBnEGs_DodEidMg39MarMwPqKwR4XHXzbhizXjygc2Fk0L6tYdFpY9Tw9okthM89tWkLH7XLz2WgNJjIWkttsK0MFccDLEqffQU5i--p_tsQWexukQcKIG7w20hwBELHv8uUI5OJvCduNIrRuY8EoGqnD2ndNaKzRhQjL9r919DBaWaSHLZQ3XYsufaksBjTKh__0o1jeBiKSvqQ6OBUSBYS7xuX6q7qJbdY4SCMa0bkR0Sg6if8j3XnmKDUXdU8LjVzc2dzhXSn-BTtIGWXYhkY9mcZGGLYMoWSlNMsHLTXywz_x9E66Un-eb7jhp7NTEwp3a2nMzv",
+      "AcnlKN06RQUdG_HD6U9PJscvVbybtK-_PrbtvGO40iFxRVbxRRQgnM6aNHMwCJ3clkZDcpGJrtF63CCkpYQG5WqiGzHPQuCIpYwKztrqsry9_4YEFhNZVcwnOsqpGjtd9mJxb648yXq3d0GmLTl7rdPFYfZLyYEalGnWkzcRR3pd-eKI6-bUS1JZKiXF3xj7q_6aSm4qG7dtWQUSOjHRlq0SjNqu00syYk9GBeDfFCAhLD86dWrJu77uSQjgSJ8d0hZEVhFrJOw3klYKM4kP4lXOxVSfbvtaU6lqdxlP3Yz_dNhe3ucIUmAX_ev9Z9tLajsZiJjMPTjJR-95zFl-2OwsNx1KcRho9NqERGkae--WlfBmmcPA-GajQiZZfAKrTzal4Ibe3lFoY2PDesKhxfqEWg1dk9GuCN5KhIfNNMswn5aIkmHp",
+      "AcnlKN2Ab0EV57WaRxuTe48HeEQyvCGsFBv5fOJfa3HNGYHAbzZQdQjdbP3-ylzDTUAXEBCCte1ZEvPmXceN-2u0erCtFtBlVHRgqOmdSeJ3jvD4mXJZRPGskW4FRMBTdG13rldAz897UEDfu--XlFsF8uznWwMmJYUVShDzu8d7MBqZUt0lz5fRevd-VPIE8FTwMo_0UTrp0LStIntHS5JWaPf7uMcxdQbLLCv2apZCtxVaRW4Ei7hheBAR2abG8LUmwbliJ_b8RmnlnadZRvRauacPYzYlAtaQ_PRV3IMmQWK61ixTOJAgRHnw6OHmKPzGwl_V2wvmv9s_ZJzxykY1zBppoT5p0iW2ABztUbjd4xV_wGQTLIoinJN5F6-wl_bfHcsxllSgtRFuMOxTU_6u1Y5KY6X0R13wPFkQhSC9BEKAQA",
+      "AcnlKN1Nk0XjdmChTGAeZRiE3ipYrU_yCW3QeOJQOqeUe-xo6bHb3gAmS56KqXGz8bd7j21coTPphFLjh066FHr37YHfymh3wKlOTfp5LubLEUBD3g4itlz2CW-g84veY37RAYhm3RaXPmlguZFD8c2GjvIN6g4k1O6SXg_X29qoB7bvk9n826kPsy0qaNv7lR16GcremLVwmj1q3zs_6ATEhBcYvWKh5E0rMMC1ADCn4ZuIIaNIGUZybCkCYPxar3dFlb1NYnC8qq0vSgqThLCFMAP5nH2ei2ZFxC48IwCw1jdVUbLi_v7dQCrFX1aaA-Skgu9m5x_Ps6ToE3Ybs3LIWJe-buePC7DV_TdJck5ZtP7pFA5K65DlrGjKezIAeSDPL8wjguEttvd48-43Fqscb-0DNZljvB1IEe02OstdF5w",
+      "AcnlKN2UTcPSIQzhv0yKy6udBnkAo5ffYQH-v1UWfm_EHCryPjWkwBbeYcHfUqyROwnAH_qrxeczbv4TzN3UL3RsHzeL8gY22LLL6wgKG5L2zH1i6GtAtto0FZ5Ox36wmEARhth1D2X8wK2zq4UuxLXdmxfrzLpLA0pnb_yEDqd6UZFQpLyaTi7M-IBf3APiouEZrG0hMGLLlTNTMY8yegNbTzXn1E1ducg5uL2Jz4mY1-RLB1Vlf6DUTeOd4Nu51C95NuU5Tt950hZBEIKZKZYBHDsekKgPDxAn6gGQXmmqPN_Rm6pWo5D77Acwkk2z2mpiTFcv2mKubR97sT6lhhzCipBRP-7OfW3-zlO0EFWwz7YeHZOVRwXn_RcgEM3u3ygdZ7dWWSBhMhRFhXrMseAkT306d-9uuhcz7aAx5ixphqsj4Uu6FzcDRKucC1zZpQ",
+      "AcnlKN0LSuwNAP9O1ZCz7AC26mvPXaMMOXD6nJkYtcVI6aPcsffIerrxiGwfiTg4lhPWp61NofgOeOKutYPPt1sZyZO38R4Ryz2-SqzEqdc4sRg0T4tH8G8C-mej-NzW-9hRj1cyNx6U-1zVz75GIPRL_zjIuWmzNCM5AqhBinIAPvyl3j_P1GNvhcl5GcTCYk01dfz2nhmYWh-PDL59LRso4D-7w9K2jMpzbN-xZyGJddWIR3k1oObovMs9SRqcKLhG6AGHHbksX2Bb1NJ1L7lf3a2n02_HcPiamOF9vUzivtgJTcqqIjEcojmcs88zsjMTAAqz0qObWDw0D_-wYFIYuKonI_4orHCmKEPBWZ9QNH1oTwVZoD2KJ7cpS5-NFSK75nOuvu3U9w8LlOiVXxhYQyUgobH3iPJlLYzvK-XOA_npGNo"
+    ],
+    "instagram_handle": "@septimeparis"
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 23h00",
+    "display": "Mer-Dim: 12h-23h (Service continu le WE)",
+    "detailed": "lundi: 12:00 – 23:00\nmardi: 12:00 – 23:00\nmercredi: 12:00 – 23:00\njeudi: 12:00 – 23:00\nvendredi: 12:00 – 23:00\nsamedi: 12:00 – 23:00\ndimanche: 12:00 – 23:00",
+    "is_open_now": false
+  },
+  "description": "Clamato est le petit frère marin du Septime, situé juste à côté dans le vibrant 11ème arrondissement. Inspiré par les oyster bars de la côte Est américaine, le lieu se définit comme une escale iodée moderne, loin des codes classiques de la brasserie de mer. Pas de réservation ici, on vient pour l'excitation du moment et la fraîcheur absolue des produits arrivés quotidiennement des ports de Saint-Jean-de-Luz ou de l'Île d'Yeu. Le cadre est rustique et chaleureux, avec beaucoup de bois, des carrelages anciens et une lumière tamisée qui invite à la confidence. La carte change selon la pêche : ceviches aux agrumes, oursins de roche, tartre de sirop d'érable iconique... Chaque plat est pensé pour être partagé, créant une expérience dynamique et festive. Une baie vitrée s'ouvre sur une cour boisée, ajoutant une touche bucolique à ce spot incontournable des soirées parisiennes.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de fruits de mer, vins natures et dîners spontanés."
+    }
+  },
+  "real_talk": {
+    "text": "Le seafood bar cool par excellence. Pas de réservation, donc on vient, on boit un vin nature en attendant une table, et on mange les meilleures assiettes marines de Paris.",
+    "must_eat": "Tarama au corail d'oursin / Ceviche de Mulet",
+    "le_secret": "Venez à 18h45 ou acceptez d'attendre au bar d'à côté (Septime La Cave).",
+    "le_son": "Hip Hop 90s & Bruit de fourchettes",
+    "le_must": "La Tarte au sirop d'érable en dessert (obligatoire !)."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 88,
+    "category_percentile": 70,
+    "is_free": false,
+    "unit": "Assiettes à partager",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 18,
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 14,
+      "label": "Ceviche",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "dish_price": 18,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "COQUILLAGES & CRUSTACÉS",
+        "items": [
+          {
+            "name": "Demi-douzaine Huîtres (N°3 ou N°4)",
+            "price": "23€"
+          },
+          {
+            "name": "Oursins de Galice (les 3)",
+            "price": "15€"
+          },
+          {
+            "name": "Plateau de fruits de mer (Crabe, huîtres, bulots, praires)",
+            "price": "65€"
+          }
+        ]
+      },
+      {
+        "category": "ASSIETTES IODÉES",
+        "items": [
+          {
+            "name": "Ceviche de mulet, courge & coriandre",
+            "price": "14€"
+          },
+          {
+            "name": "Tataki de bonite & tamarin",
+            "price": "15€"
+          },
+          {
+            "name": "Accrabes (beignets de crabe)",
+            "price": "12€"
+          },
+          {
+            "name": "Bar entier d'Oléron & béarnaise",
+            "price": "39€"
+          }
+        ]
+      },
+      {
+        "category": "DOUCEURS & VINS",
+        "items": [
+          {
+            "name": "Tarte au sirop d'érable & crème montée",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de vin nature",
+            "price": "8€"
+          },
+          {
+            "name": "Clamato Bloody Mary",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1512
+}

@@ -1,0 +1,141 @@
+{
+  "id": "poi-233",
+  "name": "Les Sales Gosses",
+  "slug": "les-sales-gosses-17",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8831,
+      "lng": 2.3142
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ176Y8hlz5kcRM2-LqzeIBuY"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 481,
+    "moment_count": 52,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leur mousse au chocolat est servie à la louche, directement dans le saladier. Avis aux amateurs !",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.lessalesgosseskids.fr/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=9359180981588189655"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3Yx8UtBy4bCjr59xfyFNLRnv6-dA3HWCtozXg2vRz4hfzC19vktLRP3cuqMzvpqxmwRh-GPOqiFsW0afKhQrCYW7I3KLk2SRdi_KsWp0SeIHAH6uUz7EBjyvp-_K3rf2tRNuB7oqLkjQj4OjAXsaJZAf5fIzZZbuprHPSHEh8uzNjPxQUaDPpQNe67HLMY3U24pcx3EsN8VdnF73XqWv_7eCIEK21bwZpRP_OJOWma4OBE_XOWsCd12gwRtrHbxxeojyZcY5RdNCRmPfYYuE-txxX6rWv-FzvjZtcQJe7imWXFxH5qHDziNjMVOiz_S_TK__rWUCuk0mb3NE8jxQm15tuRT0uwM3Zy-ofk107t9_rtAWytYtAwWx_S3PqqTQ8_cTfMNTHpqp-KDEvordq3fp4KDgT49Diguo7z01o&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@sales",
+    "google_photos": [
+      "AcnlKN3Yx8UtBy4bCjr59xfyFNLRnv6-dA3HWCtozXg2vRz4hfzC19vktLRP3cuqMzvpqxmwRh-GPOqiFsW0afKhQrCYW7I3KLk2SRdi_KsWp0SeIHAH6uUz7EBjyvp-_K3rf2tRNuB7oqLkjQj4OjAXsaJZAf5fIzZZbuprHPSHEh8uzNjPxQUaDPpQNe67HLMY3U24pcx3EsN8VdnF73XqWv_7eCIEK21bwZpRP_OJOWma4OBE_XOWsCd12gwRtrHbxxeojyZcY5RdNCRmPfYYuE-txxX6rWv-FzvjZtcQJe7imWXFxH5qHDziNjMVOiz_S_TK__rWUCuk0mb3NE8jxQm15tuRT0uwM3Zy-ofk107t9_rtAWytYtAwWx_S3PqqTQ8_cTfMNTHpqp-KDEvordq3fp4KDgT49Diguo7z01o",
+      "AcnlKN3m-RVF2aqbv6E2W5qPJ1EMp4PD4z4ZmrBOdS8h-o4VM-ZWT7_SY1Ls3Pdx_DsCW1Mvl9NpPlk8sns3MQXihJvlODv3Xuig9lpmXxHOlnX62f38iD0wQKKVGN94NDu8Xx6y0GZPm485V3k07hgdBsHZhs4dKyGptRYTyVZBhRK4DyNfXdZar9en8FhdEaUF-0rlpPTDL0AKtXet8i9lss668bVFE6izz6Bm2xW8KufUj-jUVnzUOzY_WrqPR9J0Fw0BXB0YFu2qFOjdJZfjQouXzOlWut-Wjncsbka-Q7xxOw",
+      "AcnlKN04ZIb_dZyG8igM9HSpXCADn5Var93zJcuba7_f-UOaeK77o9lweODAH0fxmMQs7t9jf37zrdWVGEh55WQLf54PxC7mfjdHJxVO-SWLeEcynOgPOC3Jeie3F0SpntGvwLE6QaU6216n6i07KsGrTOi8ITbLp2v9ocG6zEFtidkSb396AKdilix9kcrMo9-EQhCPkfwIknZodwdgebhXdwBG4D9uPEZRhlZ-DpypF-VsVh7weqsg-1AfHdPEgkL72kHxeEPPMdg7bVGoIamYtQsSDjLazYSnF06FJHoNGu54IA",
+      "AcnlKN1XcFaP8_uQTWCb5gYGtuJOV4dXS0jTvCthT4t8R_PgCjH_6AVHy3aGy9gVsHx82-H7cDnZK4_DMh_MLbYiS8mkrHd4nrAris7dPbSq1aV2m5vbhYtOZ-ZhNf8GNMhJ3ON8Z49WWcOY_bnseIkFzxxP60RW9MXcoYMjOKFoeXxLAQPQo2r2sNjvatXmo3GQMscYZo20-hfvzSt0VF5W-uS3TA7WznfufqkWk-1dpCDZWAuCbnU4PedhKUkAGFpq5u2HECr4yO4Ua1vl-NgozuODdkC1TZ3z_GzGhf1VbQ5Ssw",
+      "AcnlKN1EvMPmZFoIpz7tINovXuEWM-DGSckr0eIPr-4DDhrfsG3-NI7ZsG5GRAEhFYQu0_qLiuoieicchZAGV3589rG5b1nuWiCBkfAozki3TG7_C-DsScg63zuASCztn4bzWZkr9F-PR--XaPx-m3dkhDy-tUayisMTlTIL0Xz_BNRfaKpdw4NFY2p82kR25mSWtIN2D2i93z5-4oX0hidA6GOuf--XcNdvJzcwenMZlM01M8WCalsSUZrD3xYpaiJp7YT1hoKolXrcyPtbJQFsW4TkJyfYkbWN1FEWjEv_bMfc2Yk-vOoIW0MJPdtkQN2samygJDtiNt0gGa8mAXE0sOSxw7qIS5ca9nG04udbMKTsP-KyDqNfuwcsjbfTfwfOMtzzyGnpWsiSYfhfnwS-oi5XK3hX8J_M5zZtyXJQvv9FaA"
+    ]
+  },
+  "description": "Les Sales Gosses portent bien leur nom : c'est un bistrot joyeux, bruyant et décomplexé où la gourmandise est une fête. La cuisine canaille (os à moelle, cochon de lait, terrines maison) rime avec une carte des vins généreuse et des rires qui résonnent sur les murs couverts de BD. On y vient pour l'accueil sans chichis, pour les portions qui calment les plus gros appétits et pour cette atmosphère de franche camaraderie qui transforme chaque repas en un moment de partage vrai et savoureux.",
+  "real_talk": {
+    "text": "Le bistrot canaille qui ne se prend pas au sérieux. Bon et joyeux.",
+    "must_eat": "Os à moelle, pièce de boeuf gourmande",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bandes de copains du 17ème, amateurs de cuisine bistrotière solide et familles décontractées.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 15,
+    "value_score": 100,
+    "category_percentile": 0,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3.5,
+    "main_dish_price": 19,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "CANAILLE",
+        "items": [
+          {
+            "name": "Os à moelle",
+            "price": "10€"
+          },
+          {
+            "name": "Pièce de boeuf gourmande",
+            "price": "22€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Mousse choco géante",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 30,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

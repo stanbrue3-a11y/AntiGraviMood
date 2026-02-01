@@ -5,7 +5,9 @@ import { useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { usePlacesStore } from '../../src/stores';
+import { usePlacesStore } from '../../src/stores/placesStore';
+import { useUIStore } from '../../src/stores/uiStore';
+import { Place } from '../../src/types/model';
 import { LikedPlaceCard } from '../../src/components/profile/LikedPlaceCard';
 
 const SERIF_FONT = Platform.select({ ios: 'Georgia', android: 'serif' });
@@ -18,11 +20,22 @@ const COLORS = {
 
 export default function LikesScreen() {
     const router = useRouter();
-    const { likedPlaceIds, places } = usePlacesStore();
+
+    // SV-Refactor: Domain-driven store access
+    const places = usePlacesStore(state => state.places);
+    const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
+    const hydratePlace = usePlacesStore(state => state.hydratePlace);
+    const selectPlace = useUIStore(state => state.selectPlace);
 
     const likedPlaces = useMemo(() => {
         return places.filter(p => likedPlaceIds.includes(p.id)).reverse();
     }, [places, likedPlaceIds]);
+
+    const handlePlacePress = async (place: Place) => {
+        await hydratePlace(place.id);
+        selectPlace(place.id, 'explore');
+        router.push('/(tabs)/map');
+    };
 
     return (
         <View style={styles.container}>
@@ -45,8 +58,8 @@ export default function LikesScreen() {
                 data={likedPlaces}
                 renderItem={({ item }) => (
                     <LikedPlaceCard
-                        place={item}
-                        onPress={() => usePlacesStore.getState().selectPlace(item.id, 'explore')}
+                        place={item as Place}
+                        onPress={() => handlePlacePress(item as Place)}
                         style={{ marginBottom: 16, marginHorizontal: 6 }}
                     />
                 )}

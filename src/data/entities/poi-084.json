@@ -1,0 +1,170 @@
+{
+  "id": "poi-084",
+  "name": "Pili Pili",
+  "slug": "pili-pili",
+  "location": {
+    "address": "70 Rue Jean-Pierre Timbaud",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8669685,
+      "lng": 2.3750932
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJA6dR6uRt5kcRCwxBSnGm2Io"
+  },
+  "category": "bar",
+  "subcategory": "rock bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 4.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 4,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18€ environ",
+      "display": "Tlj: 6:00 PM – 2:00 AM",
+      "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Rhum arrangé maison (10+ parfums)",
+    "music_vibe": "Rock, punk, indie, bande-son de film",
+    "ambiance_vibe": "Antre sombre et chaleureux, posters vintage",
+    "smart_tip": "Leur burger au gorgonzola est une tuerie pour les gourmands.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.instagram.com/lepilipilibar"
+  },
+  "real_talk": {
+    "text": "Petit bar culte de la rue Jean-Pierre Timbaud. Ambiance Twin Peaks, posters de Schwarzy et rhums arrangés qui tapent juste.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Le Pili Pili est un ovni chaleureux dans le 11ème. Derrière son nom piquant se cache un bar à l'ambiance rock'n'roll et cinéphile où l'on se sent immédiatement chez soi. La lumière est tamisée, la playlist est pointue (rock, punk, indie) et les murs transpirent la culture pop. Sa spécialité ? Les rhums arrangés maison aux saveurs explosives. C'est petit, c'est intime, ça s'anime violemment dès la nuit tombée, et c'est assurément l'un des lieux les plus originaux pour s'échapper du Paris policé.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1VUz5cdHQHWQHhbzEY7oC4L55O5hmibk8y28LUzoJuWRoC9lGA9525hTZ6dtiOT-qRCuwRhh9fSegBPvabfp-6MwxdMdqvYrscXXv5WXwt99OvCpDhkvKKXqqRB5npn-i_cE3ye48aOHKCQVWz9R7xNlVutvN_jx_7cqlqv92k-b8giuleXCzIXF9ys-wyu6H6QZQW36qdOxO99_ciF0Ow9p7RXnR6ANc__64Loz2faj6a0WTLpc-KOie9a5hWQ9KHhqiG6ts3FVN_Mum8lZooUi0Sp1L0OH2BJ_lm_olufw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lepilipilibar",
+    "google_photos": [
+      "AcnlKN1VUz5cdHQHWQHhbzEY7oC4L55O5hmibk8y28LUzoJuWRoC9lGA9525hTZ6dtiOT-qRCuwRhh9fSegBPvabfp-6MwxdMdqvYrscXXv5WXwt99OvCpDhkvKKXqqRB5npn-i_cE3ye48aOHKCQVWz9R7xNlVutvN_jx_7cqlqv92k-b8giuleXCzIXF9ys-wyu6H6QZQW36qdOxO99_ciF0Ow9p7RXnR6ANc__64Loz2faj6a0WTLpc-KOie9a5hWQ9KHhqiG6ts3FVN_Mum8lZooUi0Sp1L0OH2BJ_lm_olufw",
+      "AcnlKN1mpHUb_7OzA6aoLWlyGKzyvYN8zB-tdE8-jLodBURCy4hUUcShQDIh2ECiEYQrYpmlRF_BPKjy7Lzwc0BTRQBEQymBSUwLUCWNcXFPK0vczBekZfZnmJlHe8yvtEREWegggaw_KMKpXoxTyTsTaG222bqNBOXk00LO8HMh_gZkc5-i-rFZOWVRSH4HgPd6l45hpAaMZ0ysm2tOMxP1FgLa2tvZLdlBmhQ8sH1rrw7vek_2OmrcXjujYrTz7PFLCIY8McpecVXohCFvbCTWDgh4bzUVPhVEsbtdAch0lHQyaQ",
+      "AcnlKN2X6eJEvt_wTRKT9BqWDY3U1fr6qMo8Q_ZhVBm1Octgp_QVNYPJTpj3eUaY-t7aOeeGplbdMNxRiNW9NR8Wzrb4UAASfCfuQsJLZp55eWFHv6_UQv7-OW8F4HzcMdwNG_1tmHPl_aoxJi-yUabao61TCWo1oT6i-f7HC8yo6PSEAB4ERtiT4NypG6c3CgVzZbCNbUeKfRT700u4CDvUQMNVRxAv5jhS2gkOkBF6mvFE9lvGH8FBtICAJjT3fajW6pZ0_JhW4KYG5hPfEfMM8nbNqCpQK29fNmh8ezTQG5jzWp-MYMXLf3BDtiJ4dXSY6WBu-HqdUQeV5ZPMUhlk8l2MsDZzwWEF6iibU98SeiOWDmfQtHZ8iXOvSw9NXsmo8dj0iGFglfrIuSmnyOE9Mg9-BNFinCTNjg7Gquo3eMgANQ4",
+      "AcnlKN19pAV-hIPUVVDoYMJwyOM8rt-EWTcCDJeecn4HMpY7-9y-WgNxuoOO1zENP5X1_LP9-ST3IXFtRZ5AaMwWlCytpVZiL2vnxF1s12nMRmUM3BrIMAZM2bmAQVpnbZMN9QZ7AfiQbgg0oNpCYz8sTA9k_IH-NhybPMWZLCEpbjAKs6vMJhl1y0cfuTteHgxYAen6d9HPeuqdRg6EJABC2DrN4hWGJGXUFM5rGHCNWH0RB40d2nDigROyJ8EWzKlSF6F--BsUl8SBIAxacc0jAJwdraUPhKz5k5iTAHSzyqykUw",
+      "AcnlKN2EIx8xneI3DuIs4EK3qoPMfsqsiwJBPiQ9UY6YpO2vpQn2sTT-v-HzGz0blCuLkvdy04yawO8_MBz-rHMCaNpPKj5i-8oIVx9y4uvytpAKowafjGtbS4V6is1xzxlHjND_1GRkh4gLRNC2rXFo9EtWD3pSPLMWPPFZD7A5i5Rd2VOGRXS0F4gIxGx0x3GeYV7xpSMJXXoX3rs92idJFb0v6ltq8w9kLCQQb1qvBQUALI8oUjgzOq66dM8Fq0t5bnmST8jN-5y6QLg9S9tiw4q3kxAqxx1n4yh9U02DjdZqVZ8SQfZNysW5LInvP07LPi43BRQghzFZ2gGr7ZM38XFU1CuMVbJVvYy1vclDU8gDgciaMbpRjlEplUfdh4dL3Y1nRSv9vMiv-dXvkaSxqFsnm1TTFJ81KCZo0NhiHTOIcjEKhAbLo-Llvr0HikLB",
+      "AcnlKN03Kv-b3cEUmZpLjEKBkogXndorzDubsgQUGeka6HB15YyQutd00ZYxwKpUYmEeBKnwSJ0nwpcizG1efEHVaXK2PNx3qjVSLHtMmlxIZwu6Oc0V_gH9RKnmTiflq9ol_3x_0kmYezy4XKzLIn372o1t_cc1KiD2nL0Vidm3IvyH2qP0WIhSIC9vRUMf_LX1taV7zhWoQIvrn34KvEdYvMApnTIj1lyJWXN-O0MqxDQKsad36YRi4qEiZ4RZJNU1C3oRQ06bpwjOsuTK1cfU-knR2EXoHbb6RCoW1HpUzjC4wyt2WZb968Mh20lRj8px-JItPa3O_7bhoxW_DEOvJP3oPQ4KIZNS2nR-Y0PIY90iPMgI7aSxk0GU_SI2uV3NE50llqV0wWZ-qB68xSlf4eIVONB70sGx8TN3zg7MYeErJZg",
+      "AcnlKN0CzG-K_ROAgCAPoWb2sbVsXwP9yFaKq2MksCZmcWqLsrNHIeq9RReIbitdf1865imWB3YDmbi9rir5pHIUbH5HDhvuFLfuIzDeI8m10hossCD9p15yECCyyAlntplGpx5Ml0AsvaHq-cjI5-JaC2oXjm6UvjyX1lZo7Oqq3ff3o5H65vezlVm1GsviK2WumIA4dprymZjmZ7A8iQ9JkOSI7LD2RSxUbe1g2Gnthhd_KPFpzfTZ-a7eyfmoG_wAPoIrZhYxmEF1j4dg0ayCOFVtOn4owjyyKZ_tg0u51ujNPA",
+      "AcnlKN3VWPZdbN-qsqFBwU-Ext_wh6que1Lu_l05B82vsNFwbrkiUueJfubhzRoV5tFjpSg3gu1Ib8ufDeLpQJGgGjASHKCZsG-c02IVEorUZx--Hwa494vNIApRdjgg207PdSCdizQa4HvCfdmJ61jb8N6diuU4JR6cKISH8L_tHSlseet1NBuS1unB_sKh8DalbzajqF-HyG5nHXlzi-fwDUWbpHLuqDa1dt2qb-A7ayafCn9kxvjA-Vtybh6c7HnF2cq0qsyYZthlT8DnCTdYOZk1S885lXqWlprWygR3GWJTgDT75c-FaFiAo-byeVjmqA4SrhvTV4gcTXEEYYE1KCuYWujK0AEVHRViwwW1QhoGqfjyA8O8bv4cmOGKuzOpmfJFbbmYiSvh_KE83QaVYQ5Tk7efT8PFkoxRvB5OYoLpzfU",
+      "AcnlKN0salVF-Q_auXC462mB78-whYaE9nySnBHDa2M_zcs1ddw4LayBw9otW_Y-q9ygbMtFvtAMF_qOo0V1fFOH0JnbCPYEibB12FIBmrTxqBsc6iL9x-H2ERlQtawOrQPYVlClqx_9bOKgRDCeJeXiUfvV5M-f6aikmtJOaoBMWaC-ABMf_MGwAOfvmO0hfb21vLxxyFjtc2gsWZceyJ_66z-YQR283TQdws7tCSQu1q0_CEbQQRz5cF6DkGoM9JGPBLXuh7YgyrJZ3BSVWhN9YOyWCtKl9fC3rPtrjVPvaHc20G01Qrfp-r1aQjFZoZJ7vMJt4bv4txSgyrXND8y7uXTPZkDnYTe6C1zYGcDRigj-VLHfjL7UYpP-iSZODHnyDLIR9R31t-na7Ty2_FdJCAXfIV7ufQyE4b15MpvwrUOC2-Fe",
+      "AcnlKN1Ie40gTBHIte-slNQKETT298q9HtsJMUEsASKB9OCAcuAdn9Odmf22CNGXLRrjzoQSgTBND_fB_vLw1_DPPBKBTKiRM_kPsNSxjeCRoWLw3ERnhhEjHmJ4KzbHBLaXQct06O4C1mAKssJB9EQmN5MpZJbBuDwV_D7_WFI4Eq-JhtUfDKp2I98vCC41cDp6-p5s_G1yvdSCUPgBvVNZS7ZHBF8yjjreBcnqRf1X8fvilW18dHoEFEkSmvSXIpqixEhWX0XwbQlYzYKn7er_RBTjNvl2P9bOnBgOikfxva-8jcZAg7DHBxip_BnBFE-_Hnks1HFsh0v_5hkUQuBYFtWFbPOaoSBfRiOgqwmIHpjbAWmZGy8oooIkqlCJCHtj-0p-yu82iTvz7NxttOLtDCQbTr1CpA-uPAXRM3h3sor1dANRfFlIKR_BvfD8iWAX"
+    ]
+  },
+  "social_preview": {
+    "like_count": 438,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 31
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "18€ environ",
+    "display": "Tlj: 6:00 PM – 2:00 AM",
+    "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Rockers trentenaires, cinéphiles, habitués du quartier Parmentier.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 5,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(5.0€)",
+    "pint_price": 4,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "HAPPY HOUR",
+        "items": [
+          {
+            "name": "Pinte",
+            "price": "4€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "5€"
+          }
+        ]
+      },
+      {
+        "category": "RHUM",
+        "items": [
+          {
+            "name": "Verre de Rhum Arrangé",
+            "price": "4€"
+          },
+          {
+            "name": "Ti Punch",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 334,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

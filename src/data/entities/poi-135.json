@@ -1,0 +1,150 @@
+{
+  "id": "poi-135",
+  "name": "59 Rivoli",
+  "slug": "59-rivoli",
+  "location": {
+    "address": "59 Rue de Rivoli",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8592184,
+      "lng": 2.3456696
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJbwQMcR9u5kcR8ja7bJZ5jXQ"
+  },
+  "category": "museum",
+  "subcategory": "résidence d'artistes",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 10,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 7.3,
+      "criteria": {
+        "crowd_energy": 8,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "0€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 1:00– 8:00 PM\nmercredi: 1:00– 8:00 PM\njeudi: 1:00– 8:00 PM\nvendredi: 1:00– 8:00 PM\nsamedi: 1:00– 8:00 PM\ndimanche: 1:00– 8:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Squat artistique légalisé, ateliers ouverts",
+    "ambiance_vibe": "Chaos créatif sur 6 étages, escaliers graffés",
+    "booking_policy": "Entrée libre, horaires d'ouverture limités",
+    "smart_tip": "N'hésitez pas à engager la conversation avec les artistes, ils adorent partager leur démarche créative.",
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "Un squat d'artistes légalisé en plein coeur du shopping parisien. 6 étages de création brute, colorée et totalement gratuite.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancien squat d'artistes devenu officiel, le 59 Rivoli est une explosion de créativité brute sur six étages. Chaque atelier est un univers en soi, où l'on peut voir les artistes travailler en direct, discuter avec eux et même acheter une œuvre. La façade, toujours décorée de manière extravagante, est le reflet de l'effervescence qui règne à l'intérieur. C'est le Paris alternatif qui résiste avec panache au cœur de l'artère commerciale de la ville.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1R4c0ajkqAvoxgvJoLTY4aQEnyXS_ZS4SVl55yGDJrmTecP4WSblQzPu4OcYHys0Qng2iY2NFA3bt5Uabf6385ADB_c6k2p2Q0obl0lCaT_HMvOd4gnzAPwCP6Twa5Ug46J25G-1T0Ms_IUAkyqjDHcMnOzoujLnd-jAaPtNaqqvFEdJpzHngpevco_Pvy7AMGP2q41oVVzRBjQysPVYuaJTpaHusBnebyxKZpROSzpr0fdUezDK0YSMW51JTSqHUYXBixt4KkvLlkadByLl1R1N_nger4KARxaYrSPRr2srcRhsydp9d1au4sjMsxejIcXO-peXGHfeAqrTL7sA2J7qNPVoOm-xL7zFSWG74oFpEfFirHOMsVPtlq-8Akq53lPTLLt92u4YlGy8KgGnBKCU2GIrVva3PSNn5USbE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@59rivoli",
+    "google_photos": [
+      "AcnlKN1R4c0ajkqAvoxgvJoLTY4aQEnyXS_ZS4SVl55yGDJrmTecP4WSblQzPu4OcYHys0Qng2iY2NFA3bt5Uabf6385ADB_c6k2p2Q0obl0lCaT_HMvOd4gnzAPwCP6Twa5Ug46J25G-1T0Ms_IUAkyqjDHcMnOzoujLnd-jAaPtNaqqvFEdJpzHngpevco_Pvy7AMGP2q41oVVzRBjQysPVYuaJTpaHusBnebyxKZpROSzpr0fdUezDK0YSMW51JTSqHUYXBixt4KkvLlkadByLl1R1N_nger4KARxaYrSPRr2srcRhsydp9d1au4sjMsxejIcXO-peXGHfeAqrTL7sA2J7qNPVoOm-xL7zFSWG74oFpEfFirHOMsVPtlq-8Akq53lPTLLt92u4YlGy8KgGnBKCU2GIrVva3PSNn5USbE",
+      "AcnlKN3cb1uR7DIdOqwiXXsWwkHvNdwAfOemCABJV1qGoK2zX-Mc95xliUvn70HHUbHGlcMUVgDeCP1dGNWFIhe3keoZ3xnPfnp1Xe1wZrsweO7znnJx-8wkIdQCo2FHCSvZyfLvoDC3saXbtsToA4dXoWROGbMjO0qJqpCX6P0A5i_XRDCj7nmZjkMNAsFWquKc27aZWeh3NGlbtPzflwlggoIg3ayhCsnfxJRin5vw_gp7D1TFTl96XyWHLkPqvgpHFxa2Hp7eMpdlbIdVboG1refj_WmKYzw7ww8GLgQhyXHjCaco7LwAffnkjwbZWTwaHU300axXDoJYi_rRbX5qmqhpkMU5q6O8pfu5AgxOkPbglbdH2eLs09iVEu2p3o-nvlKczirz2goU3akF9vAj_7aUq2y7_BIbelVuz6V3BPtvFPV2xW81wcMMxTUgLgee",
+      "AcnlKN2Zy8nEFFTjLcDJIwbJl_r_0plgLNqGvYTzEIBTyRdccu13H4kQkn60Rb1PJ1bCXOXaq3kE0Nw51jKquBKv8ovA_rz7DGC-FgkRApVJRfrDh8fvZ_hvzdmeJxCm5Vhx0qh2myD2VBvGbjwXOg9ZhjcXkHYyI9Ztb1njddBksqOVKdJ6WFomSKGeaz7rCVdo4_wezj8r45kj8bI59O9pI8WUTDzKz2VWP0GIlI-tVzS6T5Pj9Ltm3CkiXA_oiO4TP7Hb4Q413aW-JYv1ZneQ5omttXF6dlLd9DCF7nOByJG4EnOErdxkASKqGEU0EGt2cM9arIGUHKWwiMr5Ea1vlmMLGTi5MMQEhYqSN6NY1sz9WJctocMnZA26D--S5at6hNGFMJZJnjkFFNWNkyvr2dvV9qhjK8HSr4Q0h5Zr4dChQGs",
+      "AcnlKN0iXYjXtYNQDYPpZKNYGCSqfbfEbUiIufzW-1b-1VPvinJMtb0O83iZH2jyp9vWp34XgztpyaMybVxsde7nWcqfa3GYM6lOma9-INydPVZr4WKaVDVstiUzh-PSyWG7PlA6-Z86_kIGSxMW8XvUJNZW7c1oxhbMVQuVYkqd94lqVC6bYmWTAYM0CXoFB4BES3NydPwkQ0FpNHNCEZwRNxpR2gulmw5qKB0HE4R1T1Tf6c6GuxKJch2pLTvPQyoK5nguSqrAitbdT56csZqUJYwigMeUKP86V7z3bK877Rcoz1ATnMPq8Iho6ALpG9pbkgTByGyC9xxGC-slI61WNm-bc5Ryau3H7pvn-H7A3GdCeoHw8sJQqWeFos-RzYSsoASek6q9hedtK_24XeK3sHCCWKMC08KxZ9dMWKJf8t6KXGM",
+      "AcnlKN1oaHdEiKyOnROJInFZ1zKZfni-LdPObALoBTETpdsnlfOqdHkmEBffIiOd2p_pd1brqCpH7UW4dQ8IRkn3q9r9NZ1spm5iJOwJAtSc07h7TgURGC4LimBOxP6Obg2NplVCUCUzWVe1t29WY5y9Xx3uoCftf7n6DJw0S4pMi0ldugc-JT-0hcg8gQAaOuWzMa_yNJao-WQTNXJmGYP6KwY6dGSbY-HTFR8O2ZWk6Xqt7p7Ch8ZtuF38WefEph1uBL6gfnLu1CE014h4TFnLvKgcuJ0Jho7e58HhMBT8oj9DsxjqkvBxwlEFGGarGCF2aAt-147wkL269foRXEAUU3bvvKlqbQly9gPwHxtVRzEme2OcGO4n0JvPzh_QPJxXzMTMWsa7LZ1GkHL3dg-WHIsCuYaa6SBSaQ8VJ44LARYjZy-m",
+      "AcnlKN37a2pQqyiYiFoxrgeC1P11eUr0JPDrELjHhxnInQACVfXeCoEQ8nflwEAbspRtVsckdjoP_fliD4WdnvjCuaQAeBVauJkKwPQ1yeTrXNn39wqkzffnBs1QgynRMf0ad-DYDyzriUbu1qjZLWKXaXpt-iDjr2bIaqdQaWxA5E8gNqCyvOK7eUmNN1nvPTgwfdKNRXIVDRZkvw3byyRQWNegeTPjgM1v-blIVCH7fAm_HhKU-Iix5KLLy8Go3o6bri9-m-KHiApYfMZLVfhlVPVx_zZijBftdXRF9L6KfRg62g4KPiCJ-Joh2imLX9eYlPs1zVLnffaj1FZ5IzlgB7N4qrLOtYpGXEGQbvNi7GnEJek-N1vYvl1lTVxOS6l76T5pJV31C54DTD4mwZn9WNVWgE_WUiR3n14T-OGy0eyP6g",
+      "AcnlKN3iCNbt8bZtKQGyMJv2UytIk1XPKqppU_ND8LMum8QHRjYazEQ0TfoxP7Yh-eFwXJ5XHvheHNljhmBPA1W8eiQ0lkB-BkPAg8ueClCiVnlNcNOhthIk3ue0NLpat0bCUySWOZJQ24_S2tjLoboGDfLUnoaeY7jEFvTuj1xHW0Nrg2mXR1IvN8QIxijxuOY0wcK47GEaaMbuAMFgz-RD7vEA4iN4hkOeOHFzb2G0fmOZco5XGUdQQJwYciqpRge2WLZoIQKGqxFYpW1Gj2sHq1-pG6bGYbcM7R4z33azTIjhhAhDlia6G_LcPKP379VbaCXraGB7rHUr247EeRCOK18rYheHEphHKhvbm88ArNmJIgj-5w1LXn01IFCF6usUJjpGuPl_L5MKQuxFZLouMv2lF8R3rA7oM-KAux0gMc7-KQ",
+      "AcnlKN0sjC8VUMoRaMvc0ZyGMfxgB20BMAfyNDkbto9Gb1p-f3XjZYumqHciFWVMN48TPg3kYnR_3M622vLRp_AdSJZFSDRrBhwckJoa2Ntaxxs5czZl4HuKK6gsz7vfCKmwgXJIqk7lx4gYJgixdl46gGll78SrwyEHikGQYpyIRtlTjvREyN1pSJuSnTRaJ1gcvxY-irYVvE97EIqibYRrAPKUagdp3HuceVEtZOTqW5p4QIn8BVaR_O6ULOHVd_J16Lw1M6IpD-T_SEEbj-SZ0KobcY8SUfzD3rLHtgWMrzKnB4O1GCMhJ-1P_tnL1t-Y7FEZY4z4t28q0WCLgV1CZbFOS7WbFLaLQyl5FKvVFQ9lxETfWh_Jh_3bnQYXU6O3LdmVfixrJraW45cnR13T2G4RF0BuP9b8180ZEg2Kh7Ejx2AH",
+      "AcnlKN1_6TLC0lVtYgI8arCsj4vwXdDG0zIzG-fvB43g7v4WI7rruOX4bw5wMIDDt-95wppKYncZwNR3N4Yd-9nacO-EZwsL51nzKcV2fpWmBtsLpVckdLvSSbfYRVf12oAfybvM_kUkTe9rxC2rnmxYKkgZukVo_lnRrX4qKexi9mV3nNGu1ZQCvPLGkjSVaIeuMXDrysuDb54guXHbWerG207_PabGlxk0VFShs5TRmS1WE3VQziNjCQJPyU0uFPMZ_6mK58tkF8yP2H5HWzN84kT7PGtlvtMGX-8TqxuYHB-iiA",
+      "AcnlKN2WkJHJ7-yYaWInkoa2j8u2uWCnxblIEsl9B3oZMZVsJYfCtYFUmqfzNLN74wNNSQftDjdrXVX-7eQ-ymZ0Smsh5XCEA751JmnVuUcZDXr82QIlgG4vGVmF_eKqWAnivv-yZTdxetXM2h3-N74FAmPooeYlBHdm-RiB4xPEywRXCvDl5R-wDYwotKyA5dBM6vXZl85cACBS1wtVAxBpQ_0rMP83y6tGzQxguQZU3x50yPupsLcmPQeVik82ZVhZeAgSZlP46bDIDfSKOM3vNs4mXdEQm8skouX8SPhHLCidkl1GDDeXUKY7YmNJIAJ1ymSvYKy_SSJ21iS7yqHcp5hJAXF9-v_IVV1wAtbQdwOhyIc06QyUfVeqUvScgQYOd6DZze7iuEicyoMNsNBBSgeGoe7FA6L2xJTP08m6wk0"
+    ]
+  },
+  "social_preview": {
+    "like_count": 645,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 10
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "0€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 1:00– 8:00 PM\nmercredi: 1:00– 8:00 PM\njeudi: 1:00– 8:00 PM\nvendredi: 1:00– 8:00 PM\nsamedi: 1:00– 8:00 PM\ndimanche: 1:00– 8:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Touristes curieux, collectionneurs de pépites et artistes de passage du monde entier.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Entrée",
+            "price": "0€ (gratuit)"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

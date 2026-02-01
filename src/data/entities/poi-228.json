@@ -1,0 +1,129 @@
+{
+  "id": "poi-228",
+  "name": "Le Bal",
+  "slug": "le-bal-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8872,
+      "lng": 2.3255
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJszEIbbhv5kcRtCWcs5JOjSg"
+  },
+  "category": "museum",
+  "subcategory": "espace-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 455,
+    "moment_count": 37,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Photographie documentaire, librairie spécialisée",
+    "smart_tip": "Le café attenant (Le BAL Café Otto) sert une cuisine d inspiration austro-britannique d une qualité rare.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.le-bal.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1dYALkmbH1Vr19ct8bF6ws3XnS1ObuUI97VoMDA3sbdwSv97fmE5COMatN2u2P5RdKNN7lULYrfENnbXTdW702P8szlZSDDUo8tT9yhv7bhDIgrwfELIgB3el7IdcPP3gcvfBApA6OPV5uVOFeoTQeYWn22VkpoaEHzPmaA-AoHviyCHFSPsHAmTygjaJKWTR3PcZNizVNjKzcTJUdtmgmwrcIGrQ866qA_OjX6swTaUeFI15-PqEp8JPdRQYH5q2Tnnn0ns5Pk7ttgJNFMzGQzMGFzQVb0FlxM_7nT5c6hg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@le_bal",
+    "google_photos": [
+      "AcnlKN1dYALkmbH1Vr19ct8bF6ws3XnS1ObuUI97VoMDA3sbdwSv97fmE5COMatN2u2P5RdKNN7lULYrfENnbXTdW702P8szlZSDDUo8tT9yhv7bhDIgrwfELIgB3el7IdcPP3gcvfBApA6OPV5uVOFeoTQeYWn22VkpoaEHzPmaA-AoHviyCHFSPsHAmTygjaJKWTR3PcZNizVNjKzcTJUdtmgmwrcIGrQ866qA_OjX6swTaUeFI15-PqEp8JPdRQYH5q2Tnnn0ns5Pk7ttgJNFMzGQzMGFzQVb0FlxM_7nT5c6hg",
+      "AcnlKN3Uhc0kQyrEJi-zce_az4YvV77vhhgqyGL5oW0hjCMxXfv_rMFGCDvPmYO-EhMvXrmKCtMuR_gwLEQL_4ZCt92bI3if0AQt4qirD6zhuD4H6wKb-BMG4gIHIjmW2-bB4BrB20jbydxcg6n1GKefj8sOZjoQ6Ipg6k63OIU-U-EktqNEIP0avoyROzJUdwi_ij1qZ0uibEvCiv8TzuKsXo3R9fIRfQaOp8IU-7k5nvRAjdB9WinZMh9do-TFGYq5XUKFH6YrKUp4EYx8fuXGBTkhWZxFKRuuZnHPcJz1p1DCn2BuL_PEsXDqCm10l2pgYN744DBWMKTDGyXcEMATCu5trIGSVK5Kq-9TRSvrvJI_kdcsdtUeKD8ff_AqpFQNfacXxelbDN_7HZndDuZZuiV0IJIj3IKwqHOIKDnVFWQ",
+      "AcnlKN0X8-_2oN473-ZXx3MJ5BDoZDaFL85X0sNKW13IvBzKqz0PqHjXZA1NbomFZe1Z1MlyVOQKrzV-3rchtFcfyurqxEsliy1jbKUyfNvui8NaXksDWSqgWS9y6vwF9FSEhE1kYFC9sljNS9HniaQDqCZQvjMsrmFWbrY1Sxw7h69iDaKlr7PxrJ1mLMtJkU6N7xde-UpEyxDUQRZt9oDDxL8KGTlCGrL2WuK0UodLlrxdAhr7rw9YiBOHuEtzd4w74WVvhj5qBnaUqKWyu-dKfzSNG1srQiVZrACJEGcH8aFVBv202zEgq3aWVCMPJub7lHwAPkahj9b9zbJ024mcQm53qhMqg4yEHSbqIH6SJYfk7Pbk8jjxeQ5TJYapZYv2dXz4yOpWTITgkSiHBSPhE6uuxM4HzyR1t_kocfiJPv3-mQ",
+      "AcnlKN1EkdA_IDH5eplEieLTSQ2TEXowACsQnNQob_9MWqFqbYBb-Skv6xJ-l-l8927ybVNBu_aWaGW5s0Z-NhbarnqhQ4nbz0g7cnbyHrUgCTM6Y4PoUDfnq-26DBu0QWYlhcsqEeY1uNi3AMxl-STPKvNLnNMSFlG_nhUWorsQ6SI0zdSj3BmqkpaHi0zrup6N3ydbTPPv6mIR_ZznorQPAEW5zZ0qkVosxx8o6s9L2V7rTiaGqpoVoC_40L21nfUqjJjaM1bybbiAN4LMIrqFD_wv2ApiCUTQQOAS08YrSJdLKA",
+      "AcnlKN3VTRjHp_ZWIn_SCppczJkqqShbad8hRCq9NbwhB3EGuZ7D2k1x7cxQ22TzPe6rEItQOad3MJroiRz5cmqi5VRF_CN4kdtr92Bw4WENeFBam8JP_-XjE6OVBOMva9XZPFETqwgqFp78BatRvOE0WWPknVJ-mGsuhq9mEaO1k27fiXHm11yZPK1ZFB7s9FxMk2xEDptoh31bXLSqRrVDv_A1OFtCUX1f3RpB6eVtyx5LGMNbxy8qQgmUwreIQaaYnkUzsGZjnowhMxvpiYL_X1v1riyVWSQFebL3udZIoHL4OKDZalsrGFDs82n2xPS1o7zWFUS6es7RjaVkUogMxVjXW02egxpxGWlcuO2y39argvnivC8w1jr5sgJx7IIjrhSU3ExQDPWDeN2jm0-nY5RqsugHBAPZO1RH0XrM84olX1fS"
+    ]
+  },
+  "description": "LE BAL est un carrefour culturel indépendant dédié à l'image documentaire sous toutes ses formes (photo, film, livre). Installé dans une ancienne salle de bal des années Folles au fond d une impasse, le lieu dégage une énergie créative et exigeante. On y vient pour découvrir des expositions pointues et souvent inédites, ou pour flâner dans l une des meilleures librairies photographiques de Paris. C'est un lieu vibrant, qui invite à la réflexion et à la contemplation de notre monde à travers l objectif.",
+  "real_talk": {
+    "text": "L'image documentaire au sommet. Expo pointue et café génial à côté.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Photographes, étudiants en journalisme, curieux d images et habitants inspirés du 17ème.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 8,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(8.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "VISITE",
+        "items": [
+          {
+            "name": "Entrée Exposition",
+            "price": "8€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "5€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 613,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

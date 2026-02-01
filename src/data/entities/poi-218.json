@@ -1,0 +1,143 @@
+{
+  "id": "poi-218",
+  "name": "Mamma Primi",
+  "slug": "mamma-primi",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8824,
+      "lng": 2.3115
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJPz-2wLNv5kcRVxQUyTcZQfw"
+  },
+  "category": "restaurant",
+  "subcategory": "italien",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 314,
+    "moment_count": 19,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation (file d'attente)",
+    "smart_tip": "Ils ne prennent pas de réservation, arrivez 15 min avant l'ouverture pour être sûr d'avoir une table.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.bigmammagroup.com/fr/restaurants-italiens/mamma-primi?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
+    "terrasse": "Patio/Cour 🌿",
+    "réservation": "Sans réservation"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0kuaPYGfhY5rnovGXatldavAZiCUzo94OKq_fF7Qd7ygLP5F1TJxmnpLfqvKMF8bgfwoffOygms5YyFE-W0pHpqBXQSh44NOSwMGRB53b9FkOcruuR0oz0JwcagC8NlhEixe-mux7f4NdSLCgVPCoQgfDdz3jibBTYIWsaPk9pFlVTNuZ2PSuR7uB_oHwyA4dsAUfiVZXoshxMcHk440CoCdT4-mLkvCm3YtqXJ7SdNqLDbguxwgVr-QY_l4z3P_OqpzOvJ3F8K9sP74tqllwR7kGxVI1QKEGz0SG09Ki2Pg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bigmammagroup",
+    "google_photos": [
+      "AcnlKN0kuaPYGfhY5rnovGXatldavAZiCUzo94OKq_fF7Qd7ygLP5F1TJxmnpLfqvKMF8bgfwoffOygms5YyFE-W0pHpqBXQSh44NOSwMGRB53b9FkOcruuR0oz0JwcagC8NlhEixe-mux7f4NdSLCgVPCoQgfDdz3jibBTYIWsaPk9pFlVTNuZ2PSuR7uB_oHwyA4dsAUfiVZXoshxMcHk440CoCdT4-mLkvCm3YtqXJ7SdNqLDbguxwgVr-QY_l4z3P_OqpzOvJ3F8K9sP74tqllwR7kGxVI1QKEGz0SG09Ki2Pg",
+      "AcnlKN3HmMZwzy5zjKUC7EJtwt2pZIbit5XjodnRSPaFrm-fuV603e2DIm6YcvBwS_A68vEFAvYZ5yEYuflgZTP1R-PeYr8ouzjH3lpYvGmgvOb9iA-2WivNSxud5JE1rX9QVcIkfZxvQLxdjvouR4tePAYN0e92Otuhktbp3l8trKPcwqwRTnCk9IDLT7nv4AFohzouXzEURqbXdvEs1jabUwhDfvAzacxEz6iwX-JMOa4UWMpurG6UTvS1x1Ef6PTKwOZhbyC7ar3BoD9hUFnHMtvnBRTmSr21N_lAYARmUjXozA",
+      "AcnlKN0hnNn2I-GC2uaWOHX80sECnRj1mqmcMjn5jD7Wl-NQyPU4nNuPajTkNlxTCdn0tQRSmUVjnyHDAJQTXqANrqBm3vtGvwx_6MsxImB0Hb8hyuQBilYCa8gZp4fzvOAWzZzyxbBp255JPOwPJGQHhMQuPMeQamYxqlAt7pV3iTGW_j_tcca8_kRfcwxY6_F_g1-hTjmjKe1iZk_bBNGNrU8G5XmzharGHBtiXAb7y4WCJ3GtiqzADrHrUmA6271JEjL5WXDEHVCLni4tAZnJxLMENQUiRuLUCNEXIpbW-ZoJhPb1Uix2_hZdjGVdbcYG8UM9TpH8IaNEBiBonIgyMkkKfQFRWXbJTecLW-0X8A_eZG5PVsrermzSuaBeZ8_tcP0L1GVWuWKM6yEg6HBhyMg0WGGO19qGJcR72IGYkmMHuDsoIZlCnQ_0Gs-F_NAk",
+      "AcnlKN3iMIuuY4XGJm6mOOOd28--AG0zuWlPkMpROjcQuzfN8GAJ-PcmybvfKBk3O41Y1NNZSORLZWDPAU-lyoXY13IXVGhDv9RpVTdZXdKxWDb0aYOxwOgWxgcoCOCt4E9l6xWC3xMGa7E_UV4ACqQOgQOmjrBXZBqKR3Bd8Wg2aO4ZEece4FN7hVLNLPWyBzcJISuGFDudxleHT9e4gfniUbnmbBRoSR8QMEheGJFNBXpDrtFxKUeldvNINqQ-54Pvw75qbAW2YiNdNWgTh6sUdtLBl6y8oB1c7DlS52bgzeEbv4DNMxaC7X_GqG3gZDM4xvDY6AcRoajKOk_z5cZxRb6u-YOLExR_t9nNJf-AHUG9YpBStKgu46ZVGSFw_cnNNdcuA6oPcyjP98KAp4LqxNHnTJvf3R6BkinegqPXcbzzeoeVKp-OG0N08D574Zj-",
+      "AcnlKN0vAThyrskzv9yMnfOubK0C3csbEouQm353uraCo2xca3gdsyeS4MgCHRXLOo--19w_wavYP3osTilmxrOaiuKT4aDjMTtrLzsg-lfURzO6h7dARG_XYmnqNKEMz3Aj7S5k_9LfiltL2vHGl0P_l21hg-OUYqDm5PjCZr03tb6XPy5iHIjxLOHtjadMOUP2bOvoc9YUQB9aKvj43QO-gYXe4BuNjbRCbvOVzz3MSUiarJTPUq5CbKxNQ9qohY_cV9LkC4l3cy-Mxm4tQ5VN_QRte1Ok1cQDsCIFN6k4xrVhMYIPINbYaZsyGpVAxsXDaCQzdRngSDjYIuLA2hJARH3vSfcZE6lVdPDLbSvHnEiBtH6n8Mh0rrvp9K7Z6dUW2TzOy6YLOZhdalPKjC2vxzEz33LvJlSUie1Fu8JeVV07Np26UQd4KW5Gv-mB1W4D"
+    ]
+  },
+  "description": "Mamma Primi est la déclinaison 'Pasta & Primi' de la célèbre bande Big Mamma aux Batignolles. Dans un décor fleuri et foisonnant à l italienne, on y déguste des pâtes fraîches maison servies dans des plats en céramique colorés. L'ambiance y est toujours électrique, portée par une équipe survoltée et des Spritz qui s'enchaînent. C'est gourmand, c'est joyeux, c'est Instagrammable à souhait et c'est surtout la garantie d'un moment de fête italienne sans artifice au cœur du 17ème.",
+  "real_talk": {
+    "text": "L'Italie exubérante version Batignolles. Pasta, spritz et décibels.",
+    "must_eat": "Pasta à la truffe, tiramisu géant",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeunessse dorée de l'ouest, groupes d'amis bruyants et fans de cuisine italienne généreuse.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 16,
+    "value_score": 98,
+    "category_percentile": 2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MAMMA",
+        "items": [
+          {
+            "name": "Truffle Pasta (Culte)",
+            "price": "19€"
+          },
+          {
+            "name": "Pesto di Bronte",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "SPRITZ",
+        "items": [
+          {
+            "name": "Spritz Classico",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 15889,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

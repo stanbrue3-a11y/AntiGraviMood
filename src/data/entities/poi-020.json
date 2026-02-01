@@ -1,0 +1,205 @@
+{
+  "id": "poi-020",
+  "name": "Les Nautes",
+  "slug": "les-nautes",
+  "location": {
+    "address": "Port des Célestins",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8505,
+      "lng": 2.359
+    },
+    "nearest_metro": "Sully-Morland",
+    "bouche_metro": "Sortie 1 (Bd Henri IV)",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJgTvVPPxx5kcRVHHg6vF31Yo"
+  },
+  "category": "bar",
+  "subcategory": "péniche-bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 7,
+        "natural_light": 9,
+        "crowd_density": 7,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 6,
+      "criteria": {
+        "event_programming": 6,
+        "dance_space": 4,
+        "cocktail_offering": 6,
+        "crowd_energy": 6,
+        "late_hours": 5
+      }
+    },
+    "culturel": {
+      "overall": 6.5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 5,
+        "cultural_programming": 5,
+        "creative_clientele": 6,
+        "workspace_facilities": 4
+      }
+    }
+  },
+  "vibes": [
+    "péniche",
+    "seine",
+    "coucher-soleil",
+    "apéro",
+    "bateau",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4682B4",
+    "map_icon": "harbor"
+  },
+  "social_preview": {
+    "like_count": 1654,
+    "moment_count": 876,
+    "top_vibe_tags": [
+      "péniche",
+      "seine",
+      "coucher-soleil"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 42 74 59 53",
+    "google_maps_url": "https://maps.google.com/?cid=10004034028184826196",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 09h00 – 23h30",
+    "Reservation required": false,
+    "Le Tip": "Terrasse en bord de Seine face à l'île Saint-Louis. Top l'été.",
+    "L'Ambiance": "péniche, seine, coucher-soleil, apéro, bateau",
+    "La Terrasse": "Oui, disponible",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Gin Tonic à la Rose",
+    "ambiance_vibe": "Péniche vue Notre-Dame",
+    "smart_tip": "Le spot parfait pour un date avant que la musique ne monte vers 22h.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://lesnautes-paris.com/"
+  },
+  "media": {
+    "hero_image": "/images/les-nautes.jpg",
+    "instagram_handle": "@lesnautesparis",
+    "google_photos": [
+      "AZLasHr-VTkUnPRKQ0sJEJH-GMWBprNue1E8sWoSADIuMxFBoyEQsxIovNjuTy-Gz4--B3dMGr4O3kPLHWqORdo7vDd18n6AMJ44huRa-tjkdzRYX4pWych2FfRRP6XlpzPgl_nPjz-QxO79c39Wgggxp5m3CPs3VCxDtFMe1jd4zzU-dct_CpDm0y3NZiIFiOHvQxlPI35Z9521KamKGdNAbE_yeOm83keOM0OWW_N4V4IHiJi30KfzbXTIMBlTDJWpfatHu5Si5X1HNoYz9eymTK-TcNSasxX2OQay2btJbmKn5A",
+      "AZLasHqWcmpXyaBB88UcakVw9vSt9esoE6ZDL1jc9eRQZutHNUtK4DtG3l7vDW31edRXGPEz90ZHzWGZ6XdHOAtyu-gDCg1uVQNiLo6n5Bdtoolr22JwwnjnxfF-jRzS0VpWd85tsSe-IJjjl9i-nYcrK3D_gYK994HsZmDEH55zWr1w34-IGT4TvhoQMSUZ35Ndn0B5A4hrKVBEvubJB-1L3IEgN8J2HBnMstYGMLEDkTBNvnaIlj6l-inK9moLtEGw8GJTXHyJc_cexp3mYGcsBfLLiz4FGPBo5bNvDltTRM3U1Q",
+      "AZLasHrYFXQxIXfSAVQk2UxvyahNap-2WIDaNY1zrjG1RRiylqvb9HFDHhGd3VEglMlYr_M-xyYCqjsckLoBsqe3We_VtnxuxWZf3W88Aw6AtFAFcx25Yt560wcIOvYFOm3R1_WoYYQs1X1FupNnE9dJ62_Uwy0V5TslcU2uRSBVq9jCcd5ro9QUhbd0UpmC_C9iLaBVGhkadX1tpRe4dhr3-XjoqjX8dthXUF1gE5XUg5lgHQR1f9wj0tauR1xleqb840BjYbYfIJy91kFK27rBgJkfD7N_IQLQZuGaNXUHQ5zXpZx2IJGyAkqJx3swLLCSX3l06ftph3CIsnnEqmhOU7aaYX0QKlPrTKBZBlGtg2Ib5tQSnCIJja8eBGm6s9BE0J8iNyx277GI7OK-CkJ7JEWLiFUSxg6GcA4XKXxQsFIzOCi6g1SKPJXe9ttESDd1",
+      "AZLasHoWscHTmgGT5n8p9jzs725Vlxkw7lXYC4MNkTlvxvOzAJEqpdSV7dvoteW72aP0ZT4WxEIva31rb0ZrCYoPdqrJJRBAAPfa5nh4kyhY2ZhzngCbw0hxWECiRGD4Q7xBKT_q8lDmnvm5VfRZ9VVwUz6qQBe9E2xnpWMpQCfOznM8ZKnvmv_CTSQ14gOJ-gq7A2EPTa7ONs4EK4_8OLbTmHBNaaVR2kw1c0QBRVk87rR4hxN19U4sbNntKge296admGkrJ43kfcVGjqp4n4qatbtk3ToVMd110um-x9GhYic-kMuhFnFJPt3GDMEwrNj0s1UbmKxxuSjsfvFgor2EjeegvCJYZYlxEM7_1T38arvpoLfTJ708cYac9CvVExZ33qyrERiMVtSQ6nfBTXhJOjBPRRgeZI5VR8gwvTIRt1r6-1bK5THlLaFjX5koi23y",
+      "AZLasHpqTSqC7OtcqNoMkEBXHQDRl9TW3I1D2upFrGNjLVenJZhgQa-zYRsUdRZ0XonqoZJQXzk9O7tHP759wbvmLzWp0X1GPt9NhHTjn0MuFhV9tKJH5Dv20Nr57nDMUbyS_E7TQDur5JnR5S7776oVus7TK2TIsOKTjanR_XnR9zcm7Kspfidt9rm1PrqvRy62NLbSB2A47davyrbGlobadatT_drDpMCCAWaXwXt7hZ27yIadaFXB3d2k2h8fjinJ0EWsOKJugtdvr64jJ2xKO70FZIMRKRIeB2WNeX4eLVRB8foTYqrZZu1ndemF2yW8JqeiDK9Ik9OYctA1W-XbhSN0q9VDhSpnKUpShZHWn59BdhTN1PyBJdn3hawdTaFfq5vqlViIvaPs-24-dYepK2stmPSSe71sH3UpbXDj5kcSTWQ",
+      "AZLasHrOiADuiim0xDWUjDLgLv1H-_Zce7D3nDh-J2Ayr8rjeHtppCgpPcA0ajkC0lUZSNmQ6KUDVpmS7Yx4l3GXpxz9SNPBs4BxLwUDzck2tlHqe13AUgTHHTNUX4x502tGlel1zQdys4-1NRbgpFEkfNrLTmdWtPOeMQMCO-JeGzibOOBc-iHpbv9-lr-g2ygcgIrWWnxQbOrQDGZ6pTZ3ub_46k2EK2Fd9fxpLRoPsCuMFqR-pMCwriUl5If-aPZHB1ZLKIDMnxHS5iwY7iZkWbljH4hB7TOHk65cs5wfRPx1027UNbzGRpRH_StOCxe5GZW2hlUzDrXpPmxdjz9rbkA5MHBsOfVgSGoH33kDN3xMd9bOqJjpCBs0uv54ihd920rzZ_Zi9Trk84v5oDnovyH-UOcmpnvdW0qWK90EdY8",
+      "AZLasHpEb1c9n61OTbD92wmRf_gyvlj1UGYaYzFT61KHeJcAyWwjUbLfJWjgMQyYRETFXWp3S3SoCZ1aAYVqhfnaNj9qY-9iQ7c1tMOoiN68yggLJvfZu9WcJz8Jf9s7qw-viPPTIMzYPzpFVvmjP6BFOgSxGoaUjKlPomZ12dY-ixP165VKdVi4cImrCkVIYBeoBVpdnxc9vI-jNg5KQ3SWfRUvgXz-oEdohAVKxE51Z_mMPN_nsTCIi0V9zahA0D-DckesGIKL31ydt16dgdE2QcV4Ee6PQaAjDUMskGJ6uQ1kw7-w2sKpXEmVnn6MH3ieOU_giWCpDc0vKNyLjFRToWzyLL8fTmXmwNIqurM7sn9w8yKR-OhvATozgXmOu-t11gHZAD88BjoVKtDG7B8vAMwTGJvyx5CnO77wx2qhdiHSUw",
+      "AZLasHp5Cr00K2K0I9HrS2gWQYqx-ICJzFIDhdHgtFBSSe1AUx2enC1Wcwq3TWmViFINcH2Gi0f3W23TH3PJSRuB-yPqbbOiOKyVpokuW5QEUztUdTKWFMKPXMUOn7oymcc1TDfaM8BdZ7fNRktRJiLtqgRymfUe5udZe4K190RQjvEPVmF17VvKcbvh2QqBwKj72XHW6CavIXjqwQwjA0TOcwSMzMsuDK-7Xl18SjcfR5ZVNREiMQwmjw3ngO64hZVfoNgFSN8sIESrrqMmYU2yKHbQN-lbCe2QJDbQrE5JuAUEvxvX2cV0fR7CzpuJ8uquNRQG3id-rRPWYJrbdbWb7ufOV-UrX0SDvxDTBdgyxrL1p8wBNvlY_d1PhrjlttspNlTYe05w83r9xHKhsJprplg-TdtKFomTvlpPnVJ1LDtM5Q",
+      "AZLasHqRYknBgPP63CNNVbuee8f1ygsIKasY-QnWsI1Q3MlO2LWjVd5qLn-Kp6MMw29YSvd9LJK8NueaYiI5lfTstiK6ELPqLOulr1QuUzv65VpoELlQvJWS9gIwda4L9dq1F-6ocYIIzDQKMeD-QGSM13NBP7IDklY6bZWyJCRem0c93yzCnFsL6XdQctA9J7Sp8dsq4xitVSGFSdQqogOaCzQbrx0ygC8s8ERViqKyH0vHjR9ESditv8nIIEbzdJrlpNty2ihY9LvPEW19vz56vB9g-D5gsXdMeIzcmLntvg6I6bu6kPxL2NO8YnzcB_M8KtXNKD1vF7L3EQAzYICRdYtqDZeJhX4yoNHvcqSGXh_THSKG2nUvbwmdY8oA-mWG2A5OShDP-pV5bBuIMWSMse9L2ufExywQlUYNbkhC_c88uu0HBD2n65CAywLog5-4",
+      "AZLasHoL3_L4NPS5X1wcKE6NK4D010FxJvpWp5L1U6I08ofMJn64PIm5fB6mOYfsusjwbz0FAEONDMkxNOsRcyU0z8co8bKzQosI5v23WunFPwEI1OhCIPc5Xu9_sEaWdc4DUWKpsoddOIl5hLvyMubxXYQCI0x28os1hEXeRQLqsfW1efetexwIsV-LL9vuyHd36Ow17pYZNuNjM-MXL_bx2PXIu1BeSKosuq6S4opjI_zkxFtF6Q_Slr6wfG78vZZh0nbGyusKpDYtd7bTdP_t5_AFh8Bok1Q7mjhrSUqv65gCSALZC3ab8RLbzuJ7cdBsVWWMQkcZww2Z6UaDW4DmzNlwfSmLBdh8X9S44_yF__-qBCM3_eo_P-Er2qY25mKhYdIZG49988G-edxkTixb_FYaMESbl39tLAVfpKy3Lhgjw_E5Y4pn4eOH7MGDbQ"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h00 – 23h30",
+    "display": "Tlj: 9h00 – 23h00",
+    "detailed": "lundi: 9:00 – 23h30\nmardi: 9:00 – 0h00\nmercredi: 9:00 – 0h00\njeudi: 9:00 – 0h00\nvendredi: 9:00 – 0h00\nsamedi: 9:00 – 0h00\ndimanche: 9:00 – 0h00",
+    "is_open_now": true
+  },
+  "description": "L'une des rares terrasses de Paris orientée plein sud et... pieds dans l'eau ! Située sur les quais de Seine face à l'Île Saint-Louis, cette maisonnette en pierre sert des bières et des planches simples dans une ambiance de vacances absolues. Quand le soleil tape, c'est le spot idéal pour bronzer en regardant passer les bateaux-mouches. C'est sans prétention, démocratique et magique au coucher du soleil.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Parisiens décontractés, amateurs de soleil et groupes d'amis en afterwork."
+    }
+  },
+  "real_talk": {
+    "text": "Un pavillon Napoléon III caché dans les hauteurs des Buttes-Chaumont. Guirlandes, canapés en velours et vue sur le parc. Très romantique ou festif selon l heure.",
+    "must_eat": "Pizza à la truffe",
+    "le_secret": "Le spot parfait pour un date avant que la musique ne monte vers 22h.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": 17,
+    "category_percentile": 83,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(15.0€)",
+    "pint_price": 9,
+    "main_dish_price": 18,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 18,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      },
+      {
+        "category": "PIZZA",
+        "items": [
+          {
+            "name": "Marguerita",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 2398
+}

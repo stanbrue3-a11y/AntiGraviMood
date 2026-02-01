@@ -1,0 +1,167 @@
+{
+  "id": "poi-131",
+  "name": "Le Centquatre",
+  "slug": "le-centquatre",
+  "location": {
+    "address": "5 Rue Curial",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8899821,
+      "lng": 2.3714338
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJMffva9Zt5kcRJfNN9YtzAd4"
+  },
+  "category": "museum",
+  "subcategory": "espace multidisc.",
+  "mood_scores": {
+    "chill": {
+      "overall": 7.2,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 10,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 24.3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 12:00– 7:00 PM\nmercredi: 12:00– 7:00 PM\njeudi: 12:00– 7:00 PM\nvendredi: 12:00– 7:00 PM\nsamedi: 11:00 AM– 7:00 PM\ndimanche: 11:00 AM– 7:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Pluridisciplinaire: danse, art contemporain, ateliers",
+    "ambiance_vibe": "Anciennes pompes funèbres reconverties, nef immense",
+    "booking_policy": "Accès libre aux espaces communs",
+    "smart_tip": "Passez par la boutique Emmaüs à l'intérieur pour chiner des pépites à prix solidaires.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.104.fr/"
+  },
+  "real_talk": {
+    "text": "Une utopie artistique vivante. On y danse le hip-hop, on y voit des expos monumentales et on y croise tout Paris sous les verrières.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Installé dans les anciens pompes funèbres de Paris, le CENTQUATRE est devenu l'un des centres culturels les plus vibrants de la capitale. Sous ses grandes halles de verre et de fer, on croise des danseurs de hip-hop s'entraînant devant les miroirs, des circassiens et des expositions d'art contemporain monumentales. C'est un lieu hybride, populaire et exigeant, qui respire la vie et la création à chaque mètre carré.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0ekJAJtK1PACF3uLhm5Xmxv9txjZQcBGBe1xETqyuMAtBcpBMb4dHQAoMynmHIlPNkElJltYrfWtjja8YeyIrHCUCuLHxdxqPscg_HiLl66A5kWqX02U8UcIIrx9HAxed8Jqw3bkkO36MFUBS616LHR8iVoMHmxMvDU56laxZtXJW76qj4uUoZD9MNEaEWoqOsH6AsdpIsp59n1YOYkL8Ggj3qKRk4iYPCnQ1JNE4JLGWbPlrXp_ApTK8w2ovn8GLvqlHgZQtPkckuLedgloJ0HhY_DDcvpZu5gjLzhE8ScOhzt7a3ct7Z8EIa5BvGcOLTM7DiCRQ38zqCT6BT_VTRWVINKTSBmvfYBs0rkETO3wVBHItH8RsFDWoLfbSuQpxvjz0Wyi0Z9P0DWl70RLQaDHi5IiG5hjTjeikAdvw5x6Hd&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@104paris",
+    "google_photos": [
+      "AcnlKN0ekJAJtK1PACF3uLhm5Xmxv9txjZQcBGBe1xETqyuMAtBcpBMb4dHQAoMynmHIlPNkElJltYrfWtjja8YeyIrHCUCuLHxdxqPscg_HiLl66A5kWqX02U8UcIIrx9HAxed8Jqw3bkkO36MFUBS616LHR8iVoMHmxMvDU56laxZtXJW76qj4uUoZD9MNEaEWoqOsH6AsdpIsp59n1YOYkL8Ggj3qKRk4iYPCnQ1JNE4JLGWbPlrXp_ApTK8w2ovn8GLvqlHgZQtPkckuLedgloJ0HhY_DDcvpZu5gjLzhE8ScOhzt7a3ct7Z8EIa5BvGcOLTM7DiCRQ38zqCT6BT_VTRWVINKTSBmvfYBs0rkETO3wVBHItH8RsFDWoLfbSuQpxvjz0Wyi0Z9P0DWl70RLQaDHi5IiG5hjTjeikAdvw5x6Hd",
+      "AcnlKN1KziGKrAY4D0AKJk9IorDecqVVlbOmqfH1nL3Gpe2mDtu9NiCmXQi4jPaRWK4czuw_u-jYx6IvBsEvsaRx7Vu6onYE11o4nuoMiBgD9JM1kpaZhbmoaC1nCLHiHGtdXUhT1s5r8OiWZwxc6qUpGtQdIEyHU_V48-xy7Tl_DGorb-gsAjldLR7o_0bhNMPhoKVTyTAID6-FoM7s8SJ8wAsFbm3e4M6mFjg68lcAGrL2-TQyMVx3Y0S9jcqHqMRlxrEJQilZDcZTA1cxfndYQdxKCJdNQITmyqhNvqsmHhhCpvzX39pc-vZbWkeDUPudZI5vsaY6NFcuNcjbRNVJUjF3NZ5RtNx2hDWs2KhymYhy02w3SjtMWqqHV6jjfgoIgLLSimf368cJKoMPwslucO1k4Z-tVGVf9p3gDNu2XE-v7LvW",
+      "AcnlKN0EHpspzlxEk7iT6qfsyVy_TRXgpkBq7aIcDI3Gip5gRVq9YLJcu0ME4ugJujhKAjy99i3DE6eHyf8ccdcyXZWGcdgPgmkVQR3c2IVxbJEdUAGjbdne7vuHAb16D4BIzHWj6nRkcpyYi0y-IFauzV9zO4plvOnR9eq8D3h46GR8ECy4qsBsOsIawLZ6sUdrWi7c3LXSgHLrjOO5n__-uxd-iSr2qFMMcHOGQkVu7_Dm_VVwWHO0rOupYbPZ0iRuAShIprutBTKg3aiZZi8SQWr83FM11Ly0Gxa8QmdXe2BEtyH9U_kwk83lurtx5AfKt3n7Whq2RGxt52P5MwmLZA90HIaAYnqVBFqhr4KtOPiXgIG0dvoMa2M-7TB1DS1z_Q354SdjY5URXdK4U0-gYry7AFv7BX_ZFxbLXJR4nxU",
+      "AcnlKN3t7vCoPvSLbJcA-_McMzq4VEfDQqq1FF0zByojFNch2nhmjYHVbFrgMd8pH4qJ1_9uMu06Ru7ATYVOp6pCuoZ_oVS3K6zu1hfhsfPBXndcKopQW1gNncv_rAhD2OFJwf6x4PWKMtCSZ3avrwgDtsh_a2kVltYxQFnNRrpM737_7PKKnPA-V9iZcNfV4jajjsxBBsaDE4rJA0EMec7VI59Gby2GFJiIlqasu7VVlY3wB9FnYXJ_7tptNPuQ-6XEkpzyw4-hE1amzzacOyY6ahFm2QEESrXY5PsbTxtsIboeAih6koyNzslj6Za82CxaNZIil1jlWbqKdbkkCOiUH6qgolWRdHLUL48FLK8FrqJQmEmkwBNbo-nzGr-htFyfNOY4D0U--XrXVStztndHH4lBT1x-PZlH_nKT1jroOT85GB0",
+      "AcnlKN1b2rN29vtoqut9s1zBhP6wtx2FFrTi3rHhUGQ3DLVK2-qxC2GyfDs1oKHDBF4_iqTLdf3JgckWWDJAp8eW1npaXXbqf3Ik9TNRhxDolwMn7OYvnJq-6qvU1252eYgtedNoWGV1wJlCy7kPzIBnVO4-zwmK4vHhew_W8pHCLhXj8zXLbv6Vlmt4hTFqKLoyV1Bpn35CyyI-pojxJ-wU-5duJS2ExxI4i2w26GFgNrzZc4Rr7CynC2eXGyLtz8eFLm5jQSXsgOl4pKAzwbCOd0OomRQAlGs-WVxXBQo0OCu2iFjrzbRiungOQfhF_uL8c_2hfwCkw6WRLvg4sn-u_Rndj4ZVTjSXk-CKH2TsgmS1Q9uo2o_KZ45HpzJN8SaUKgqfeK-JnuDaJAVsO-LuGh9RE9y_HHnCPzHM_VT01ekGYA",
+      "AcnlKN1Tr7XuY8WCf_T2haEov5Ep6f0fD1E9vfGY6mSenK-wJgJv8TIHFxhTI1cPj3CEOBq-QAbkz26LS70oLpYkmY92fNE5OcaEi-aetDRCw2Xxu-QNH4wTVv_tcPN1NZkg0H8K0rAFwyn8tC7oq0fm7ZbiOAhkzpRdCEozDU9eCjkGCUZzOhancragma7kGBYW6tyEOnRMaIQsuFXt_8HwAlMe9XdmkFHRo4ZPhbxToFNI0iCcbALY1PIfvwWZOJfNKDuWQXh7jHL6cbFAKcMi5WKHq8TVxkptpzqph6ElsigKy2TEfcLz1ilHyRIYvIVvUnbt28E25a4rQl3sNgfFCNqEQGthDiJyO8qoragekcQeqFnDWgZWI7Yldl8Oerxs_L8-mR1V7YjI3fcf0ROUe2XJCrYZYUHA02BFb6TzFRH2UQ",
+      "AcnlKN3wM_ovrI-Xdef_2vBZuSprT9AFPQSDfwkGq7_hfnpm9cXhUu6U_poQMO3zC56bHOUuLz2F6XEY6My2P7f-yK4YnAm2t-0_nDl3PNr4t98wbYRJRBFEBEKzOXcBfIpsCDYckjve882fiN-yhV4HVJqooV9CI5iKuw-u8xSNxsMwPNVkJbCi9GFq4_4CT5LQSY5IYjHQlX6tDUb5T0S7d2E39ODNeY22U4cKAFlQhp8X5P4y413gwSdH3wG94Kc-8Jmv48fSc0VItsYJYdFPF1_I7k66WMn1ym-CWUfsFMOxelmsHlEUUyzYgmVc0dGA--w_rjS6tXAZI1PNMNiRBcBiOHGO88AEhvWnAHJiVttgrIv5YZK5BQO5THSNEPsJfebJA0trXpDJ7-FbvavhFFPWTSka70LqnLices5NkPKZFA",
+      "AcnlKN1rXPHxjriBOHUqVeBRgZcsYNAaueSHhlEGz6PIY060oIwoknakTWxrP3VaNNA8hRs4-wTsdzUGXkz41kCeB6PdByzfKyUAxnzex5VeLA06xbPHaNJ36WF1hEupg1exdC-K-LdIHMnrFgOeigiQuGqnT9CLIYjak63rZavxRgHC2gIPqAV8mNpmBuWWwYvZ3NUm2v3NIE9Bj00mnyZjzlhNNWZSw5DFFY0mOqX_WGp8ushLuVppqA_VYaHCydhwP5FCyV-cE5Rdr5CUZn7KjmWQBFbYYMmKdwnlQZCHSargYvHV_aK3coV50AqkUVjwRyCgM1siqmMkwm27w-KGVVBDpKsWYZosIY93fXDL6w_NS1I5TCqqWND1a-BIYGGu5Pcvfb6XjIy70ByiLQ76G9BDc2V1F9xcuW2hyFY7eFnK4w99",
+      "AcnlKN062yHLE9GxWsFNmhDfdvUh2GBJ2wU7pv8brU7uTPzG4T-zR6TX3hzFtHYsvsT5KvLYot8S9NvI1ZcN2OEsUVmoBdpgDkJiPEfIcu3mwlEUZGHd_0tNzVuSsHVPPVmt1esoqO_jwBiRd8P-XJClclmSgR7c8GzGh20-mWN6-7Rqzf_dY8TUevLRQ1IKSDQEPPaUywwpP21kGVHABTN6Nv8HXkU5AlPdKFIQBWavJdRMcDi7gyJIrIdxHwrS4Ym7pr7wsNSMsDTdZ03Ol9vbH42sxnKE-SQSenfuZoeOLAI7jvv_wp-RurH1QAvCpsSKpH9LtvJkRSKJWfzaLb16PGCvspaS5ejyisQHgR_-poBiSFyy89N8iYs1ut5udgld2rFIsY19PpX3x8sZRXv1CRvyVTMof09aO4D7L_xxbZ8KEc-M",
+      "AcnlKN2TGilVpu4r0Ogo8NEPbgifosCA2Z0E9F-uWHAy4P8165pbnrbhMWZJelcf6vkSxI_dgr1VNns0h9Roq5hgi4QfyBYFOXXkNhsXnVKmuZLygujHDk5-e7rhkQR8vn9D5QDK5zXsUL3i46L3xhdEO6mxC0yWetpOcwHKPGRM552RXFs9OmZH4YVC06DN6k355EqprLqrMlvgB-ouvqcZnAHW9RsA1rbgcGKh2n65By18GQFlwSEbJchkidJ_UUHGo8sqsBSsWQaeFGRXplLrrqRvBXCp3vm5uqo-puNm9AOvDRhHheCMYryp7xymSdd4Vp1ZtLNhQeo_aE6VP9-CUD246dqUY6j8Hr-YCr8VdsaSxlyIkqgGSKULq0Rdv7lyj3lyE-BT3wCSSMCBd3PZxhtg1ECjrL74huG49w9sewvj1rc"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1108,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 11
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "15€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 12:00– 7:00 PM\nmercredi: 12:00– 7:00 PM\njeudi: 12:00– 7:00 PM\nvendredi: 12:00– 7:00 PM\nsamedi: 11:00 AM– 7:00 PM\ndimanche: 11:00 AM– 7:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Danseurs de rue, familles du 19è, artistes en résidence et hipsters en quête de culture accessible.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15,
+    "value_score": 23,
+    "category_percentile": 77,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "CANTINE",
+        "items": [
+          {
+            "name": "Plat du jour",
+            "price": "12,50€"
+          },
+          {
+            "name": "Part de gâteau",
+            "price": "4,50€"
+          }
+        ]
+      },
+      {
+        "category": "LOISIRS",
+        "items": [
+          {
+            "name": "Accès halles",
+            "price": "Gratuit"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 6901,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "poi-001",
+  "name": "L'Anticafé Louvre",
+  "slug": "anticafe-louvre",
+  "location": {
+    "address": "10 Rue de Richelieu",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8656,
+      "lng": 2.3378
+    },
+    "nearest_metro": "Palais Royal",
+    "metro_line": [
+      1,
+      7
+    ],
+    "google_id": "ChIJgx8d1SVu5kcRsQ4Dn3F4pXw"
+  },
+  "category": "café",
+  "subcategory": "coworking-cafe",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.2,
+      "criteria": {
+        "noise_level": 8,
+        "seating_comfort": 9,
+        "natural_light": 8,
+        "crowd_density": 9,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "event_programming": 4,
+        "dance_space": 1,
+        "cocktail_offering": 2,
+        "crowd_energy": 4,
+        "late_hours": 3
+      }
+    },
+    "culturel": {
+      "overall": 8.8,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 6,
+        "cultural_programming": 7,
+        "creative_clientele": 10,
+        "workspace_facilities": 10
+      }
+    }
+  },
+  "vibes": [
+    "studieux",
+    "lumineux",
+    "collaboratif",
+    "digital-nomad",
+    "cosy",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 1923,
+    "moment_count": 856,
+    "top_vibe_tags": [
+      "studieux",
+      "cosy",
+      "collaboratif"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "Le Concept": "Payer au temps passé, consommations à volonté",
+    "Le Tip": "Réservez une salle privée pour vos calls importants",
+    "Le Buffet": "Encas salés/sucrés et boissons chaudes inclus",
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Ici on paie au temps : 5€ l'heure tout compris (boissons, snacks, wifi). Parfait pour une pause studieuse.",
+    "signature_drink": "Demie de Pinte (Météor) ou Chablis au verre",
+    "bouton_réserver": "https://www.anticafe.eu/louvre",
+    "bouton_label": "Site du lieu",
+    "website": "https://louvre.anticafe.eu/",
+    "bouche_metro": "Palais Royal",
+    "on_boit_quoi": "Café de Spécialité & Snacks"
+  },
+  "media": {
+    "hero_image": "https://source.unsplash.com/uFKI74DWFKQ",
+    "instagram_handle": "@anticafe",
+    "google_photos": [
+      "AcnlKN08L7TAVn8IjMBD-VHzftwINLmFX7bzNGioS0Y99MChdPJY_EXUkUKxbqJlWKzrK8AOzuIIavDFayErx9YntnmCCO8TxpH-WEmKJox9CEJWJ5W1L1BXV7cI91WGLObxilAH1GyQFDjJBqlPCLyK_YDJvdnwO_ZpvRF-ugszvyaaScphP2REOW6KqaeN54bngURK98GvwhOe7Jlkx3jSN55bIK0ZsTUAdzUFQS0jEliQZMsRyNv6GUjq-sK2U23jJxIYxga3jKLiux0wYQYxBSzwJRRJxslpWnXAXpNEdcYdyHp2irXs5yaPEYacU28DWAyUSc3UYMqx6hLNaUYmxvVy5eQPFpij89MXp0sxRRGMIrC6Uh-YtQmPDpaqUrQdprQLVOPJ6ZRm1r0cM4GL3a3f5X84ehUUrIEwuvIUCEKVsQ",
+      "AcnlKN2GxUx90zh_HgDeQhMzv7XNMBZO_V9Ef2dkAowUSaDxVToJWJsPwKcNnKUrMlG_fKMqsF9HeuanzpgPxl-kQbFT1Ldvjy5iW8CjNu03BTqD4XLQT2nIn3LcpeSztmKQRCdPv3Mnn-2QtcZdGdI86QxrSX0fR6QendVJzAMYyyX5xJBmbLMCU_UcFOoLV3OXkoQB8CZ25gmWmZrj8-pnvBbGDvWNsX8VM5jUVucf49UjHeoXpUGRzufv16qQFWRlpohWArO86QF9XqBGm-vxecSiF1fSs3r1qN9U4-aooblUOA",
+      "AcnlKN0Ah94t914TaTA-pL2kpZEVvKGiHRYzbWRb4-yqXTUyH5xH3U-50Qu5q8JVrtVc13dLMOwc0Eg9Qi6ARgmunPUsFo3hMP3rZ3pNMt5kQ_H8hUK8LRNlH_NIR3X13socetPqlulTZDXZB985JlzwgYWZjhlNaC9VSHy2arXcpwacNh55ad4scK-PJGbNnFIND94y43-XGyY9uD7GsnzLH3OAlV7z8Q9SEXDZ_IEbO3YgwLRI1eLZlNdVNdXfM-Q9V02AKPz2Iv3j8ZRRmW1dcW11CeMsw8daOpRaiia4W3QTpg",
+      "AcnlKN3QplUESLJRaTdMTQIYjv9d3TfkQYMXuhsGyeeujOwmHmlTanKOpWtKAb8amvjlGojOwVjefpkOhwdbbsPslQNmPniEhl4ZTb1JDUEiF_y2VbMhTBOCLBVaSOoaz2wwcUStVM63dbmgr8wGww7fP3ikMbedBO5EAs-3Y-jN7ZeancJ9YkH9on5gf4OZjXGMtMttIIc3qkEzx1OFgsZXkfzlj_7u5IPCC947IL1Oa4dyyequv2AvETu-xD55FXvmyTlY1RCVlaPQH4AdPNNjF2PUzsiVKGOGLp4k4UrhTvo4vg",
+      "AcnlKN0sqXSlPDaMah0E8I_WVhL_pHLIEJmne6rV3oFiSTuHXB0DYUhQTgrHpp4XVhPdvjzPV3TnGVlZi1zC2vUKhji8CgHUqt15k-Wj624M2WCItcODy5p8bdec4hqN-bg_q6VzvGdyLAgz0-GTfjwvONBLg_8ysLoOUPeqINTEG2LeZ-zCfZALRnzpUgqmij0rSt-IuHggj6IzYomHaim-Y6usbMi0S4hX0Ys_BfqTm0M6699Oi0ix1ctxhDPG1RNMbiKDVHZDO0NqOvYumSjsP6PRSHjNpIetGWeK8FRi51d1lV52rvAG0go2EmJo7B_QRDue9x0PucyP5t_Kbt2wMUICV9rbyTuvwp44O_iBjZ_q_yos1HiN6-qY4GAtmf7h_wflROU3gnezEjqCAN_yl4-T08pb-vCoQurhOyeqHjA4vjKPd26nyEFwHRkPq4WI",
+      "AcnlKN3ogxcj1vudMeZ9ekGvxHxoS2nquG3vfhQSd67xaKTqcS1BRmHSZETL1_L-v-oEuDIIi2nUY1T-1pDv8DkH_PMjjfpo58wSaelk90QDy7Ai8Zfh9jU3ZWjLwUTG4fIUpJ4yiakxavD0VqDqSMAEL48clfqduKG_LYW8Y3NW-aUe3O2H9gRml-MQiJPAWKd59YyqXJZ_uzscQjWto_gf9jdPdLtTBvVzsNdcdFEOo2BfUd7sl8nkVeJjGv7ASbscxobQDMpvEShAntwjYcc9_YdkFOhGRdgiHuMSbkht0o3WiBuCh5oVcaSJaBg2R3cdzAU6LeAOyyhjXyceYTWnn6KYjNzeY40K8ng5sr5t8d-2yKVHkBELTH3nzq-anBtaRYDOXP8i0R-qnxmWrXGxTZv19M_joyTulBnRQEdUdAWLVjzh5SdziazMP8ckPg",
+      "AcnlKN3ruYnJmdbsQFZ9SS2BvLYaTBzqCG9XYEIKuzT9KDxIXP-0DF1B0bq1sT-r4btxKuSF_Uh2xJhuq5UFcsFyu5vhJp6N1273WyWfN-221Rtlr_PJQ8wuhW9JeqEWiXuMMqRvEJmv_Db2fUTKXreIwWoYdkuBkl9ODHd0jCdZdkF71I9qsi62zOWSezahWEVxg8ZFlmR5kohzF_bDIiJRnWtu29GR8Ux4ZIQbwjRuXTOSxeXwTvdX5Bjbyej1sZmnZIYEFImZuygVEalKIR6bU_DcarKKF3QtydB4CnIYSakObi6jqdjvhvKQC4oS6sKroHEMI95ks-fXydWkTfVvdmNQ6mUy-4gsUz-QLmxrZKMV9iGpc8AiOqT46znIvahgVfdli1LEb2rhtNAmZDe2LNsh5-Lpq82RXWSifCavAIL2BtafvgCKhURxX_gGEBlf",
+      "AcnlKN0YdUgckYluT-OZCwMbtFZ3oljBCH8_CyatmkUoq6psz7_t5hqIFwlazJVV2UTBT-tdhiQqUnnx91xTM1BIGZwD3dRvrU7Xy2SBT28oeaoIfZjzfHz7ZBjgdxA3HkMjfWpRY263mPZ7rcBTr50MGblBgxalFTroF6CNVEfZqQRvhym0ed-kRc4JM8sITsoqsNzM86kc-l3tNiQul7odnXmoxa3Mk0m-qryt6JrAZw9NS0d_uq4600La0EOwSyAQDFVbp2ZylYV-6NfdsHj8iv12RZ7yEpScn5QZOcjKnFJMsgaoig9BLRSfTtVkbsJln_GTJfV5ECQQ9qXaG3so2NFPCQawb7brlEqlJLt2pzTmII0uFJltKfM9NAO6qMu1Q5dboVxUrSIw0fGXYHqmwChP2Roh2ZJddU0mBoP5Xrr7KW01YCq8Q0Mk9NhM6mR1",
+      "AcnlKN0P2RGU-EyQhamNsrGEnPhI4kux6S_ZHZzyUhtzqBhjXoST9ioypKuuAHVJl0TttCF7UglFgmX8Glz0nV9lJ0dn6Sz0GXCxilntZWQHNKBrvxPuSTltwf0-G_2qXYAE5943SepoFPcxiE36845cx3zWG8glVMKMf1TZDNWvocOwKkMzYLSSulZ0LqEnJcoFsOBZVBhkVbmyL7KNQGprCEt5KiEIe8KKklSKiZ4t2JOlXB8OohfVydnzpodoFcFlYOTUBXnOLm3yCmpoZ46BkgaaC5YQUWLcSWFsZT1dAwEL6LGFt1lNkU4m-YFotmDh6rplKBGPifd_nOw0bZAUfrIsrgCORMSTpozNOl0E9ol_b2EiWMLWoFuAhQp4vXdcdhylBK715cTGCBXPec-TtUQF1FUF3a39qcXvuJWhvOKGf63F"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_menu_scan": "2025-12-21T23:29:16.593Z",
+    "menu_source": "ai_vision_analysis",
+    "menu_confidence": 0.99,
+    "last_enrichment": "2026-01-26T16:02:52.938Z"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 16h45",
+    "display": "Tlj: 10h00 – 16h00",
+    "detailed": "lundi: 10:00 – 16h45\nmardi: Fermé\nmercredi: 10:00 – 16h45\njeudi: 10:00 – 16h45\nvendredi: 10:00 – 16h45\nsamedi: 10:00 – 16h45\ndimanche: 10:00 – 16h45",
+    "is_open_now": false
+  },
+  "description": "À deux pas du musée le plus visité au monde, cet espace réinvente totalement le concept du café parisien : ici, on ne paie pas ses consommations, mais le temps passé. C'est une bulle de productivité et de calme idéale pour les nomades digitaux et les créatifs, qui offre un buffet à volonté (snacks, boissons chaudes et fraîches) dans un cadre lumineux et design. Loin du tumulte touristique assourdissant de la rue de Rivoli, c'est le refuge parfait pour travailler quelques heures, organiser un rendez-vous informel ou simplement se poser entre deux visites culturelles. Le concept de 'pay-per-time' libère l'esprit et permet de se concentrer sur l'essentiel, dans une atmosphère studieuse mais détendue.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants ultra-concentrés, freelances en call et nomades digitaux. (Silence studieux et Wifi fibre ultra-rapide)"
+    }
+  },
+  "real_talk": {
+    "text": "Le vrai bar de quartier qui n a pas bougé malgré la gentrification d Etienne Marcel. On y vient pour la terrasse chauffée en hiver et le carrelage d époque.",
+    "must_eat": "Le Carpaccio de bœuf au couteau",
+    "le_secret": "Visez l angle de la terrasse pour observer le ballet du quartier tout en restant discret.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 7.5,
+    "coffee_price": 5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "TARIFS",
+        "items": [
+          {
+            "name": "1 Heure (All-inclusive)",
+            "price": "5€"
+          },
+          {
+            "name": "Forfait Journée",
+            "price": "28€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 3.7,
+  "google_ratings_count": 1641
+}

@@ -7,7 +7,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../../src/design';
-import { useUserStore } from '../../src/stores/useUserStore';
+import { useUserStore } from '../../src/stores/userStore';
 
 const { width, height } = Dimensions.get('window');
 

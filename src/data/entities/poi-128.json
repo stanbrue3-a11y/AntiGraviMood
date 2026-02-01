@@ -1,0 +1,159 @@
+{
+  "id": "poi-128",
+  "name": "Musée Carnavalet",
+  "slug": "musee-carnavalet",
+  "location": {
+    "address": "23 Rue de Sévigné",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8570669,
+      "lng": 2.3628579
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJfRtS-QBu5kcRwRg5JXVrwcg"
+  },
+  "category": "museum",
+  "subcategory": "musée d'histoire",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 8,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "5€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Histoire de Paris de la préhistoire à nos jours",
+    "ambiance_vibe": "Hôtels particuliers XVIe-XVIIe siècle, jardins à la française",
+    "booking_policy": "Gratuit, réservation en ligne recommandée",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.carnavalet.paris.fr/"
+  },
+  "real_talk": {
+    "text": "Comprendre l'âme de Paris gratuitement dans deux hôtels particuliers sublimes. Leurs jardins à la française sont des havres de paix.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Logé dans deux hôtels particuliers somptueux au cœur du Marais, ce musée raconte l'histoire de Paris depuis ses origines jusqu'à nos jours. Après une rénovation magistrale, le parcours est devenu une flânerie poétique à travers des décors d'époque reconstitués, des enseignes médiévales et des souvenirs de la Révolution. Le jardin intérieur est un havre de paix insoupçonnable, parfait pour une pause hors du temps.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN30KIglgyzAQ5W9QgBmkNRF1vko8GSqG3NmgPVERhzGtqKwbFxmwuV6meGdChbQgfLGoX9N_Nqy3dYXWwgM3hXHsM9Kvhvqc4zDUg7CKjFXuN0eqDCwt8ZsKMsTNNK1ExTvJx7Ojc045q_anvVFyOJV60o9qj0X2D-ENcDA0ahy440ORH3qSqVXyVwPtLboc0jF1E_5tVxPE2vNN2FXt443ftFy0JaPeEj6J7uhf5yhHy7V5ubGBBEeaEnMIE3TwGT3kJN5m9G-dFMMtVSAygb17ThAOEBNNDSd1ijI-Tnse9qnirogDUTzC9Y31CqOeTiFEogZP-jjVoa172GFsn6HeJ750FpahCPLxoTAJXGqVwGxo1Zip6MloNTfoGZQrLBJvdBS2iowBHHBz34ZroqacxyGzOGKC-ii-_1SdCz7Di0Q&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museecarnavalet",
+    "google_photos": [
+      "AcnlKN30KIglgyzAQ5W9QgBmkNRF1vko8GSqG3NmgPVERhzGtqKwbFxmwuV6meGdChbQgfLGoX9N_Nqy3dYXWwgM3hXHsM9Kvhvqc4zDUg7CKjFXuN0eqDCwt8ZsKMsTNNK1ExTvJx7Ojc045q_anvVFyOJV60o9qj0X2D-ENcDA0ahy440ORH3qSqVXyVwPtLboc0jF1E_5tVxPE2vNN2FXt443ftFy0JaPeEj6J7uhf5yhHy7V5ubGBBEeaEnMIE3TwGT3kJN5m9G-dFMMtVSAygb17ThAOEBNNDSd1ijI-Tnse9qnirogDUTzC9Y31CqOeTiFEogZP-jjVoa172GFsn6HeJ750FpahCPLxoTAJXGqVwGxo1Zip6MloNTfoGZQrLBJvdBS2iowBHHBz34ZroqacxyGzOGKC-ii-_1SdCz7Di0Q",
+      "AcnlKN2mJjmP_kGDTtrOA9ntr7t82rKJ2xHFBuTJAImmeEqONFJcchR6H3IIA0jmj-pYx5-VTOgtW5TiVVcugqRWsj5VGh5u8JzWLXYM_PCnAYyDtxVUNyf9r7q57rmkNJ9BeN3d_Lgw-dP4brSr95yTXF1ue2SjaSKoE9IeOdVx6vXQLCi4FaQQJLUap-381i7s0oDbgWjRshKnG5ZBBPGptc0YADBh67ucD9XjU1cUNKzVngy7mleymHEKwAVyxFUyBOFtMDdIPQUrjWiLxWJJLMxGsIbAY6KPWxUFdWAjbsZFZf54rw8mXwtlyssSP8RouZrfBeKqWPwuUotNbSWGwPlKHVn-7PtNkfzBKkFqMOgk0F1fIgVS0ddmu7e9vHv13OX4-k839BdU1NkU2a9IKInCrfEIkAjepSs8ZyCR7u8",
+      "AcnlKN3onaUoM2iM-fikRFMoWcVcj6X0FTSubxkpyzA6ZRZgzmAuzmd2erBQM-JN0qeomdNY7Lf3yW69qnCwmB6wW7euhc2uiqKXPY6zFHtYphAWu73zJAj8ZcRntH_4mdDpHALZ_6bALS3Toz_fgrjGKmsjO-1W6dhJQYbhE3JXUTZhOaH_15fmGB46M2Oa3-KtbVb2R3GmfLn8IQdaTyEhg8OamojukMZltZ8XzSaHCbhZf9sJNDeXIyO0dXIcibQf7_Hwk8PQDhCam7DbfRPOaPyAIoix8lQgwZYtCJavwr6gOV3jxATgGE69UDAymE2hSHJPWqM-8sp3fwlA6Tc8xsvNVFODxGrCWQ9YKh001vZuSBrrh1ToxTx0jwY0z65eUooQse5JJEZDwq_rl5rmQzci7meZhLBq-p4I2x1imtcZ2w",
+      "AcnlKN2li_5ku5DTqUHRztR2mBorY4xXAcWDi8kAGVpLW4e-rmNQFmduUs73VNvJ7tlO3GoftXPDWd8fqfDrlgvh-PLorKWI6rNTE_k9R8yMviv7eoaZUgRDLe9Dh5qsvk6TCNgD7aGUSAUxQPFpYZvcGyXB0rAkNFVPGN3N84IUwViq2s4DVg8RCles3iPZXKt4zuwlls42aR6xTYFX4ulz2GZolO9T2HZm0zqtirD6VinyQbNscA3Rkn_EY2Epxk9xhveYlt0xvv8ir19HPjuL2mVdCTl5JnCOzHXfxHJkTBsu4i4t-V2aWNpspALvtlQWpFiJMd1c4ELnPQKCnnqYAcQNRUr3FSEievsVyuS-xvdoxWBKSmK7GpWp5QbufjYi8wLoW3eetllge8fz1m9N6-qcmy1U-GJRaBQS5AFWn52zOf0",
+      "AcnlKN1wsHe94JgsQ_KXFsIk1w_250U4uc0viTLDicrmtD9CFcdTAiD4z2WHfuiWDxjlEG19jE-th5v0V7sma2HmGNUggMqsA7DXE8Y5t6TKqTUdHZG9QVDm4MZLcgWSh10BzfcUCZ791IPIZGYpyvMY5F-EDMz6G71Xkl7KsdqVkcFGgUS21TGiT4GHQlFctK_JFmdWsgBWlACKkgscncO_KEOp42G-Y-VTcvQuWb_TOCHO7O48RhaQbbcRoUPC3RFUEcS2oCUI3KJ_I7L31USPd9gZq48U_ga94tSsGXy1fZ2rm_3Rshg4-Ah7qxdkWHIqpBiJDNO8TpNYtiwLAWvVNtk1eNwL0eR3rLzZmkxrZr8oaCdJ9hTqZgyLigQyz3a3yCsYTPkanHy3cBk5xmQQGIoYUTkcoxegsRrPhOo0968noC1K",
+      "AcnlKN2YRhpriHwrbyiIYIWDuRfA2ZnYcYDu3VC7CtXvO2ZFKY8_ltSYxjNBvnMw2olKXv7YtNN94yN3C8aDDRM19QOfWY_YD6tIzRreVChpKLvjxl6cFvLfcWpeLV_rsb1UaWsFFmkcaqq5VCLuN-xB_eNkE3abAqN6b85yJW0mFOOW0MAOdbW0_i6yYlVnI8bbGB_eHrbQ9Wr6SuQf1HMtfKF2G95l5e1U-Px8Y4rYorIPPBT87JK9CP4jGz2nZ2l8-bm-7aehvsPzffEp0hMi96vttGPGU_nzCu6Yxpt-V77eIwI-pwa5UYf98SwS8hJSnHdXAwnPlTT6FARKOUm_XmYzmM-aqVUKlIomnEbjuzGpoLRutONgU1g_-dLfijVzl4EChLxKM1bSWPo_woJkzhbkguDHDIquapnAcf1AgbMMwfKWDQ2dNg4wq12p0fP9",
+      "AcnlKN2PByX1Abt5eNqmHHw-3yOVUndE92SpvZBlSB5lYEGbTPyYmU1Bw-tbEYgUpsjrzesSOcUgMK8fR5uYf6O6PWnl1UwwoL06xT_0FzWdxNC6wzDI81PKGwLnfLO5gU7vFHg0ly8vOLb4WHYqPaxetiMUcgT6in_PwMsl_TkAwFxdWnjrYNgXDgHlR0LiSX7pW7ETXEQWKBBgwcZSjOdx_LfNY8PhHSRupJqE6CheBxMtCB-OH2LeL3TSzfZjE6XAnWMGU4TZnis663wO6SA7iQPpPIy7tkvxgLxyHzhtjUNnQmKxIWe8bBIyunrwxljgnON89ngQ-VPeQmEZ9Uku6Tr4LB2pneIaFFeqgUygT3K7Z7Hc8BYUVeHSC5zqU1J_M5U7WO5_AzVzWDr-662TKkSHeRqSCSMdQPUfeJxRfECAkw",
+      "AcnlKN12wIeqF4q-ibg2syu9kdHyfWBnJSfz45UGcRSELQMp7V2eX0F5DMb-RFiI-wHcXctou6j6nJt2NTWqkvB3FXQCm0-he0JmNS70m2ITlkMtfGxkWq3WN14FWpVHfkQ0CIPDQa3Fl4bEdOXGkaJuyQ5TXGCaKDGZi4bgVRImkvO7tq1_58NQogdWMP-9V8GOABpzC21jlgQ0UEiOBqz0P-pQvkqAuDxIq3M0KXIfdA02jvhvxu8BB0h3KVPULwiqduLWrht6_8xSJvV6RYm5X4fXXdtOrbyZBpo3rQNcIqc6TpbV6Mv4yIIgzh0dE1C_Iheqor4DeWLhUIfThHSC3u9mD4Gyi21UYRL7qnZGwknsF8srzQX2nNAc9EH1wUQcBqEKe5htQwvvRfXnfLmH_UG63EAUzPg9MZm8tb6MZKv3kw",
+      "AcnlKN18hE_hKdelkA-kLerftdOapw4VQDHFwCNXsihloCYb71xEeYwfTySZMP4v-aNFTPT4hycF6m5udE4GVUzvZEenF6CXUD-3LWw_AS-qFHqTzTAkBISeeAr7zCRmAvZM6QW9ydHAXdqI84bq3Z7aIjnkGjI9cFMrK76lHzEMQWjEyEN4A8rWR43f4XrN7KHtisVKUy4CJfr6xYLYW3TGJ5mHKS4FJ5HxglNMU9yCAgmQaOkO62su-M-aFC5FMTJAFoSNCqjOCWlNlGtIejwUB6UjkpIQYfSIKr1GTJa9CdorWaMJI9r5MpleFH696eVEXB_REyWu3z1m4wyU8RrGA3-BhIZHMq9gJdLGCtD8gsoi6JDqW3nMrjk7RPoqmwVY1UzEj-6A3ZozyQofn1Tt8OMXq7Z_x8-7uDdIHy4Njd9RtpMPJYhlXuQ1btd74klx",
+      "AcnlKN0pyxbnD-_ZwKmBr1aP_aCiJanRE_x_Z8Tx6eOi48QdN-MEwpC2PMq6lwtbQl8_qKe7-kM_F6y3oNcC3yJMlFOS3Tvp9jg__GO8g56X_ZM63n8s5JV2kktxg2dz8AMj0UOPefuAuOgcQ6PIy_T2xKvr_ox_qJoWITlVIe60jkjOvqwl4EILTm94KMuTZZQ8Fp7dmcQjeuFidJz0w0_eqvjnoB0CBFh3g0xXYdcEDrrW23dnVwejCHzu9i5rwkaHFwPdFahzCB6d7P45gU3wRdpTfvMd1bDpHgyoygSENPXnc2IQBRUWoMbqXakObGz9XDCBOlAaJx5lOYtNdiIgSIMtzN9AqTkax5YX_VQ6ayH9ZZ7lfso3-r58AC0JC2_rcKOIFA2NXPQAw3BiHIuRlLssG47NERDirXcnKV2-CfDqy9Zm"
+    ]
+  },
+  "social_preview": {
+    "like_count": 780,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 10
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "5€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux de Paris, familles cultivées et étudiants en histoire flânant dans les galeries rénovées.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": null,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Collections permanentes",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Expos temporaires",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 11261,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

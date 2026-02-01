@@ -1,0 +1,174 @@
+{
+  "id": "poi-116",
+  "name": "Early June",
+  "slug": "early-june",
+  "location": {
+    "address": "19 Rue Jean Poulmarch",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8729647,
+      "lng": 2.3632777
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJpRggbu9v5kcRG8MgUOLA89U"
+  },
+  "category": "bar",
+  "subcategory": "vin nature / partage",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 8.7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "32€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 6:00 PM– 12:00 AM\njeudi: 6:00 PM– 12:00 AM\nvendredi: 6:00 PM– 12:00 AM\nsamedi: 6:00 PM– 12:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins nature et biodynamiques au verre",
+    "ambiance_vibe": "Bar à vin intimiste, lumière tamisée, jazz en fond",
+    "smart_tip": "Un spot parfait pour décompresser après une longue journée de boulot.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://early-june.fr/"
+  },
+  "real_talk": {
+    "text": "Le laboratoire culinaire du Canal St-Martin. Un bar à vins naturels ultra-stylé qui accueille les meilleurs chefs mondiaux en solo.",
+    "must_eat": "Planches de fromages fermiers, charcuteries",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Early June est bien plus qu'un bar à vins : c'est un carrefour de la création culinaire mondiale. Sur les bords du Canal Saint-Martin, ce lieu minimaliste et esthétique a inventé un modèle de résidence tournante où des chefs du monde entier viennent poser leurs couteaux pour quelques semaines. Il n'y a pas de carte fixe, seulement des petites assiettes créatives, audacieuses et explosives qui changent au gré des invitations. Accompagnées d'une sélection pointue de vins naturels et de pét'nats rares, ces créations font d'Early June l'un des spots les plus excitants et en pointe de la scène parisienne actuelle.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1x8eTS2OUVa8VgXgncvdnVbCnA7PvQ0egQ6BHi4tTh2h-48CfkWFKAymaTkEY3IK1NajmWBwvzlARnTkS9ffu_WAG_QkoYRGjmY4WhcEsB4Z9YX2w_8d762McGzBaY_Tq1NgIKTcG_WxsQy0rHu6_Xj882o60wI5C6-t5q1V3tt6nST5vwTynQYItcSAlCWQfTTTPsQBFkHSkPtIzb-C-TYHd4oHkqnThzbuvrsBs30I0VAfWfnQ8suV0697isru9367KnlEkgPaCjNTnWZqtY1iz_TJMjLMeUFhY6tDgSPw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@earlyjuneparis",
+    "google_photos": [
+      "AcnlKN1x8eTS2OUVa8VgXgncvdnVbCnA7PvQ0egQ6BHi4tTh2h-48CfkWFKAymaTkEY3IK1NajmWBwvzlARnTkS9ffu_WAG_QkoYRGjmY4WhcEsB4Z9YX2w_8d762McGzBaY_Tq1NgIKTcG_WxsQy0rHu6_Xj882o60wI5C6-t5q1V3tt6nST5vwTynQYItcSAlCWQfTTTPsQBFkHSkPtIzb-C-TYHd4oHkqnThzbuvrsBs30I0VAfWfnQ8suV0697isru9367KnlEkgPaCjNTnWZqtY1iz_TJMjLMeUFhY6tDgSPw",
+      "AcnlKN2JZ4sE8MVyi5r9pQpJNpFJCUqYLWx6jk7ySsxJ8NLPOY9pNaudK-svAsUnhJXbPCUIc7GLjKW3L3bmvqmZ0Qmnt60gtAQIp4bPtCNdfS0WtFkzQvT_avGDCHng0B8cOVjzoCG0i9wwlNXuLQtVZNItVYfVIseq5PU5pRjXtSTAeOhDcmRfnZJ0YAy0MkMCR4ZjVwPJcHqVBkK8KAFCHre-ncjVvkI3F8DQnMbwWUNoTBkYUFD2oz9_iJZJZ7AzyAt8K65T9iFd0c060ULiI8ERQaROUL9cpPSK0R36IG5izw",
+      "AcnlKN2zCkYcmvfu23TOrd8PHl_uegkx1da6njkYabeJHyCH075DN8bWUH_u6Z0KupklOpyUa1RxMu3GpU9eObF5fY4cNQFd5oCkV1GWYnFTQzpJJbdbSCAbiOWR4L8LgZ3dTf9cG0qPvYo7idsq3ZWn1-3gv_rkyUb_GChbJy3YwJosWXUfriabAzAZ3rwPMqxW9ev8mN67Md2Vb6_iO46vn_Wj99iPRdJlI0ebDJW3saVL8IExWry2YjTuQO6j_WzYP9yB95C4-1vA1GO52JjQJTco6OJJviTvM_On-v7GUmGfVA",
+      "AcnlKN0SqX4kRPDevlg-Ea_f_kBGy25nJRC3GzXD-WVDyeY0uibcH_Yzps5znkvMNvWzb-mluzTi2fM24V0_MdGAYiS8apM6SgNWSj4DXaoxuvssur3r9ygdgp-JFansHFbbO9oyqD44brzo03-uPkO2o1carxG_BO8lh7K1ylps9uhTrV0_Da2GvQ_q-Im2O9kKflu4Hm8PGrK--_QNOnuO5jt821TjGF4WEzxVw1iwuufxJGs041XlujHVAoK8f6b86ItYnmLnvDCGH2xMqSZ7HyZPOSJDvFrOVfOl0BZL6wbEgzKPFGh8hnM9SSXrfaw8F2WLKydfj1D5GiK2AeKbDq7offZCFNyMoMjlx0Ey_Qr9tG-sasvbcNdiA4ni4A9yO2YnwCPhVEaWurruSGSJpQ2vIKIltxflTbPYkQUgA37aFo0kZaID7wZvnWaHHg",
+      "AcnlKN0mrYYaM-uLBBusrX_lSPos7zUzjqX3_x4i9_zJvFmz6z-HSDbKNLNDSXX6YSTqAGNyiReDOrd7pDut3QB_HKp1NKcGy4oJKosUEsBMAlUyHR8PAI2DV-_EX0jcdCK9-MBdIhpi5rCT6K-bnR4GPuxHbtCijEzsfZMeV3zsKaXKfnsoWDFXjSHMUls40E1cA6oE_kGR6q1x8Kx40eQSt6PstUgiNm-k5LZCgiBuWgs1ySDlUJNp02IH7wkmMO_bYnCVbp7COsgl7Lr6rcG9wKR0qKoxKQTNU7j7cgeY6Zb8fe1NtGxDkdW2Uq7rmCGsy8mN6TH-tBRBys9X9Pv8_r3FtjGcvxZE1yJGJqGu77ZM2Ke8Xd62jdBfehWiiarq4RSy9Ui5e4-9guNXTscJSZlG0cJArqEQIxsLVgnt_tN2yLg",
+      "AcnlKN39K-CZFDjO2wp0CIg5YV_H5BdZWDoKwV7jQGCctDOhIFMp8IajciJsA40qTm6ihGYJwFqST9H_6Rc5zzX1AHlLC0e9UhmzyLf6tgaxoCkSBpboblLTRis-oHY8RykCekDxZE2ntpeNKBjeTI-yCgCL2Q8i5TqX2eSVhis-38a1Z_AtjV3v_eCbAY64ztQg5RlMixtgmbKCN8I55P5HfLMYkrYtoHzi3bJmDMqdjwIdXRYC9RPHL48nz1pZSsD6N4ZbG2pbsLP9TKjM1oAYSip3arIbkV8IgijaaiM0GAE3LJZRYn434zLhYNhDAHwRO07Dv6dlpOrJzYSV3uXgOZb5KWUrX4p0EGKuq25fxA0rl7pntPDYJnKlTgaOFGk4ifPb8RSYvr5hQYBg2lFToTXPdg4qaUS2kB0W5C6J2p8",
+      "AcnlKN2bb2g3BQeHBqc4oGffwcNFai2SquMjEr5CyDSLeAOUxVFoxY4CUzHAvn032pMeeBY7dTIcw8LnoezpO_O9OzBQDU_CwzmqnHtACQEIGG16x4dhIYGw2gLGdQJYpIv3Stcq1gvzDWPrD8mS7p40k-ePttQq134PUM_8YVVCZcp7h-yRTWgXKXmai9HzjGaB82sxTwsut6eIgCsLD1K_u0T7yqsSQXeqFe56WT2qcK8M0n0pNydgH3l-nr5_amDFssbQ3Qjougpgn-iC7BhFY39SEKoTJGs3YzdenS8gLUfnP-SHXOchwUw--6VNOXcMnb0B0BJew50OJn2pmj3eMfnUwqI7lUu32yOVHdO4SR-jbanrFcyHMy1_gd2bwtVAFX7kzudFdUAajLff9rHGGQX4tLHnEQ2Cl6VLqRY8sef9TWiIjJej3lAZDpbAMWrz",
+      "AcnlKN1G1JUs0SrwKpZqIi8JuPrHJfBT8d-VV-SZ1kcW9jVGt_C0EXxty4jtzQ6Vya75A2gBiUDPBRoThayi6J51-1GHeBA3JVHPVb7LRoNXALq-pgvPERDVC7ZNBPXs-GVZMf-rUgmHjZAO4w8JsvBBdahCNctnxB2vGcSSQ5Wl5gAQjZLe2aca8rxKxNvP5gZ2o-UBGZhlvIzOxHi6OsGbmF7qHw4BY-ffrXyYL9gs5OWBPopkrcWMEfvljb_xnOHEJzogYALr0Vnw3ol5IMBYAYWwcabIV2n1hNHgDre6lS-p9RYR-WA_PTGkOHwQYU5lDzWZX9791WkvRYez1bYA74556uqWDnzu4F5bTQb3lSY_LGSn2HxoXU0JcSwFdwpxbzm5qopGNJCEumbkVObzDiGQgfYDc6MYUU60Iww66OxFfCc9obG2FzS0-6DtxmD3",
+      "AcnlKN044aUCqBHnHpbO9wBCdpShpkCQO9_wdxzrr_Y4mz-nG7njC4iLrDEQoMt0f20ksqcg5pT4wSJk1Vvafg00k1vbR2F5A_TLvBUQjk6zF__0XA2B14nrJIPoRplNi3O9CiFSsM6PVvG6Tu0s3VNGrHnutkM7Vf6XKe6Gm5IF2BCCKkVeRCpO9zFwRERydZdAaqLncrvqEFMfd4DgOGv7f8YF31H5VGCYkZvHZRavgSL11LF9BM_Xh3AZ_VOQVcZJeBBoi47-HoVkrCcH9W657rkeqGLiPhzrDbc1ujIfY_nyaMpuM4m6sw9xcqIQV-jeHxu5zrAgcX7ss8zumTjhw5r00o3nlaZkf9bOHhjmulAVQDfCFwAPBsZV9Sp9oguHF7jmpTzF_L57XTV_sSeq465ZYgLHeo79Zwd4HnRTluFOnmvBuIZG8kZuCCr8ZmYJ",
+      "AcnlKN2mH6LJETLI6rstCWScm9mnvnZQ4fwWIBzH4IOUpThrmEi3pfJMWKPAVjn2Bb-WlqWHTk3vZw0ss_oqgVm9rehZEbBkFIaufIEiYwb5bdfVTz9Pxfst_jqWbF0hV7-Z4HKbeG9e3wYFKtD70A4W4EHSY-WPZya7fbeiBSRZAFkyQriEDdMo3JVLBzABiwoTMJCmZGNAoWLRzBRzSkrngLPSr5YtEiGqZ6G45rrR6W2jZpmFuexj2Nltm3csq_WYHHd7gZenPCTjns7Vj3GOvI9rhvu_fN9hs1HlQh4K0ZFYsMlk7x43_VIBN41AQ7X7lfndzkL_TLKom2LHsT8neUmUbZ9Jo41HH3EJLvBXeaVp-al1ZBKJMMjhVLgIqjgn2CbeXhxXbUnzABGfkg5_YsmYxol58p6eT9FM9ite9hG2jOxUhXSGhx7bCnSNVjpI"
+    ]
+  },
+  "social_preview": {
+    "like_count": 893,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 24
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "32€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 6:00 PM– 12:00 AM\njeudi: 6:00 PM– 12:00 AM\nvendredi: 6:00 PM– 12:00 AM\nsamedi: 6:00 PM– 12:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Wine lovers naturels, épicuriens du Marais, habitués discrets.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 12,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(38.0€)",
+    "pint_price": 8,
+    "main_dish_price": 14.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "LA CARTE",
+        "items": [
+          {
+            "name": "Assiette de Partage (Créative)",
+            "price": "14,50€"
+          },
+          {
+            "name": "Small Plate Signature",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Verre de Vin Nature",
+            "price": "8,50€"
+          },
+          {
+            "name": "Pétillant Naturel (Bout)",
+            "price": "38€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 503,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "poi-209",
+  "name": "Cité de l'Architecture et du Patrimoine",
+  "slug": "cite-architecture-patrimoine",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8622,
+      "lng": 2.2891
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJCaWkW_tv5kcR6VmJ4cSbVdE"
+  },
+  "category": "museum",
+  "subcategory": "architecture",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 313,
+    "moment_count": 45,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Moulages romans et gothiques, vue Eiffel",
+    "smart_tip": "La vue depuis la galerie des peintures murales au deuxième étage est absolument vertigineuse.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.citedelarchitecture.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0Scqk6bhwa_fjZJIf7pc-j5ShMATja81sKP2folL9y4_hY5OH3_0tgGSwP9SH_WnoNiqNtABUv96Ix9gaotz84hhKQNzWH-aW1G1mk2wVk4vxIUF4e06aKw55DNiF5MVtwtpvrYyFZYHBZ12ghRyMQRNS944tXIL95SFTaKcOg9oFkKDpOgvoDC67RxUuO-FsGYcLnGkjCPlX3QtA-6v5B3glFcUcKz-7w-GIeXc6ReAAqoIS1A9ryQsYPu_Ub6dOM7ra-rOOCL39CEEH04uGsJ6TIM_XLw8FgH2gi7i5f9ilUbaW1bHk8I7kO5wvObc40MKiv1Q9nZR0Y0_45IaAGMQEfmnJAMPagFw3dLZjXcDH9yA0Ytzj9gNpKcRc2CI1p57_BOO20ugYhbMwnRq2AooGTUwQUuqMAVkA0SSNsSAgQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@citedelarchi",
+    "google_photos": [
+      "AcnlKN0Scqk6bhwa_fjZJIf7pc-j5ShMATja81sKP2folL9y4_hY5OH3_0tgGSwP9SH_WnoNiqNtABUv96Ix9gaotz84hhKQNzWH-aW1G1mk2wVk4vxIUF4e06aKw55DNiF5MVtwtpvrYyFZYHBZ12ghRyMQRNS944tXIL95SFTaKcOg9oFkKDpOgvoDC67RxUuO-FsGYcLnGkjCPlX3QtA-6v5B3glFcUcKz-7w-GIeXc6ReAAqoIS1A9ryQsYPu_Ub6dOM7ra-rOOCL39CEEH04uGsJ6TIM_XLw8FgH2gi7i5f9ilUbaW1bHk8I7kO5wvObc40MKiv1Q9nZR0Y0_45IaAGMQEfmnJAMPagFw3dLZjXcDH9yA0Ytzj9gNpKcRc2CI1p57_BOO20ugYhbMwnRq2AooGTUwQUuqMAVkA0SSNsSAgQ",
+      "AcnlKN0wQXSa6sgEiRl1BRKvFtqgKdn8HgNakFcojWC_aiRtAiA5SzYvVp4gxz_EJj-2oC7qe9gyfb7eHEZv9LitTyOk89h7vB9bYtYbP24AxLUHyG84FKOB3IuAHrRcGlCdkqO7ajBz6vr8CdBTt1taPQj6FvCGTdDFekOsNsyty3HJFbYSwNHVSZqyQQwsvcEhI6oLFDwEfrnBqx2dTdtcUplZnreuepPdQcTr6Ge0XkTrcXNF4xZZSXqdov5ZoKgh_wa6v46dof0vDJQzJAc2l9N1JQMP5r2ah6CFZBv4wNQYQ58Ic6nAnBrtfzuA0byjGi8XvkIdYZqeDIkOspC-NlmeEmTDsD7mh5NX8-GBcwC55JrmQTcnbR_6B5RS_c4Z_W_oQNylH6Picew1kyifTKyQhDsmR_mV3RLzJTjpg2K9wTIO",
+      "AcnlKN05JJtI7zPpTVpO6HCs8zNgBIPC7udv66hJoUpVUrVjk-xi62kKBu9VvPwhg1smQcd9AxFUidJm2pX_JU667Lgxy8MUyv53Ekh7b4CeKmc6_XCUh0fQ1uWfcGKVJbmAoulza3S7gm9RpD9m_vS_xSZilxecKBGU8XP2yfbV1lzKKiD00uGOVeE5azjXhVhZhHgdYVSi6Up3aMOoqcm4R_mzf0t0NxDoJpAgCeK_PqhGgzuj8iO_Aqkc5BTIjDkfWZxFCbnI8zY8ofS1iOArTrCNgsnovdfh3GGiXXGo48ZNgY4QLGN2edeEk2pLHhIaN5Z-1JGTk704bwdmbMRf19qRtDv2noNnHxLWiL5BWIwUh8hHuhA3TyY645lGVFcprZtYlEqisuXG9WlxMIq3YfX3TFbxnVM-7edDZFpEMaLvqn52qwg6zL0sweya8w",
+      "AcnlKN252CHUUxK6Z1fGYJ1GD_HHQMhy_-oDmZjiZ0quJ1HU1gDXPCPDNYRpyK3iW6XjqQxTBURGuOp8pj0-iBJxq8PgyHD5wOeY7kZ2KC6Ok1avz-4k17Q_4-JrrEyGjKrVN9VLrBA5NGjVASTVweSSrdUgrf1iUvvf0DQWCf8wWfbEcUSSMF9gr2p7IFssVAe_g8_Oh5dBHGjBLwyNbbUTTw9NQvC0DRqu0foRcakxRnMVCKKY4bdWZhCbIe2CyQoU0lVpVn13IRbkTMlCRsKYuboKj3u098ubefpmenh9bZn_lc5lcjZQtoc2p09owBP6FRch43eB7QWdBlp-I2Kz71ELDE223fggPu4ETOnuxb6S6cldJRjafVIzg7OeZ95TfXaqcnncAeGy2BpcrMjzXAAp7KZkPAzxtqA0-fXDQ8I",
+      "AcnlKN0GVqcM1-IL380nUNGQPx7iCTfEe6ea28SIqSzjt6G_Gv2_sddKwDC39hD7RStRoix4bnD7-pA-zYJP9csT4_bWD2xch0WamoWnODUedzXEcvUltXR_v7w-McnVHyoEvcLP3qOTiq3n-kMQdRJbVnoBG3WI9MgE6wt149xAdpScpZFYs3ybf7tJFcPC_Xvckzawpgbf6BrCOBPY7-oktI97Pd2SNKD36M8n1Afjz9y3wHbZIzybMueJ988ENtfECztgxxYzmgoT6yTsVfggVi311QhPcPXoaZS6Ybpiefm5-cYuuMd7P0lI4Tqa-JV44z2Zx5gWDE9MdprxPh31oIxsmmi0BJ1Y1XttTEDKyeEZ3bYC6m1gyo_-lZt_UNC_m9zzaY4TTwsZ_Xdd4kkaiSGaI3HB9WEgXWf_XaVN7O4igw"
+    ]
+  },
+  "description": "Situé au Palais de Chaillot, ce musée est une ode au génie bâtisseur français. On y déambule entre des moulages grandeur nature de portails de cathédrales romanes et gothiques, et des maquettes de villes contemporaines. La perspective sur la Tour Eiffel à travers les grandes verrières est l'une des plus belles de Paris. C'est un voyage graphique et historique fascinant, qui rend l'architecture accessible et majestueuse pour les petits comme pour les grands.",
+  "real_talk": {
+    "text": "La France en miniature. Des cathédrales aux HLM, tout l'espace français.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Architectes en herbe, photographes cherchant le cadre Eiffel parfait et familles du quartier.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 10.5,
+    "value_score": 76,
+    "category_percentile": 24,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Tarif plein",
+            "price": "9€"
+          },
+          {
+            "name": "Billet combiné",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1310,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

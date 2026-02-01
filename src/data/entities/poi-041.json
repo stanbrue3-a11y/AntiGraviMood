@@ -1,0 +1,193 @@
+{
+  "id": "poi-041",
+  "name": "L'Arbre à Café - Oberkampf",
+  "slug": "caf-oberkampf",
+  "location": {
+    "address": "61 Rue Oberkampf",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8647922,
+      "lng": 2.3727708
+    },
+    "google_id": "ChIJv5mg4sFt5kcRytqjgZaolNg",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 455,
+    "moment_count": 52,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 88 33 91 81",
+    "google_maps_url": "https://maps.google.com/?cid=15606283973119171274",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 17h-20h",
+    "Horaires": "Ouvert tous les jours 09h00 – 13h00",
+    "Reservation required": false,
+    "L'Esthétique": "Minimalisme blanc pur & Cactus (L'antidote au stress)",
+    "L'Assiette": "Shakshuka servie grésillante dans sa poêle en fonte",
+    "La Signature": "Lost in Cheeseland (Tartine grillée cheddar/piment)",
+    "Le Service": "Staff adorable qui prend le temps (Rare !)",
+    "Le Soleil": "Le banc contre la vitrine vers 11h",
+    "price_range": 3,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Réservez absolument ou préparez-vous à boire un pastis au comptoir pendant 1h.",
+    "signature_drink": "Pastis Henri Bardouin (plus de 80 variétés)",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.larbreacafe.com/fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHoO5Ha48pJ1mYncoBBB7Sjuosqj9fPTasZCVJoru0NORATnNddLrSc6vBJ5s43I7PZMM1G_KORURiLAsON8AzpBJ4HO1oJQOKfQibWxmRJFvf1OW5dXUosahvIHWsDx0c9PZFhDurfjFRrwRhN3IKAlYSs-lZRvx3tY4ItvodRVkk9oLfj3o_hy-3_NOPGEcrze2xDiq8W4hmQHKPFfQ81Tr-ScvYWcl8_Q0cGIIMwEyOCenZGEYJqM9VLwxFVp5SPkIQPWvwJtotJDQk4ZrUec8HVLJFZCq-wdrhe5MyXdXQ",
+      "AZLasHqJHKH8jL1nTsrh3mgaFC1Yaks5zY5-ZfMiBA3ApXrQ0Lm0fozP9gGwiGE8w5AsL3rOnpVS9ivAcBNA0fa-JnpCoUcqUaCO0UAW8ravWlUw3sB_NfNlDCqbgJiuUv72pC5uPz-WBIWnS9N3jzW082dEL9FYxMfXcgg9-mjCudUUCWt-IY8BWpOvl1Zj4Sdqha7_Ws6YTCi4FmhGMyWZeNVJ3v3ob_nLkbYikZ77nQ4tGTkdDSSWN0cwsvisqQt4-eDImi-I5g0jSeSnaKBbL3pFImicMbWZ1A0C-W8VwUFUaA",
+      "AZLasHqeWt7pqoqSiPbuMuA-SW4x3WMm3jsJ57Pc5YLblXG1payTjs-e2RGIBue3B3kgdk3myvtguL6Al3W8xtd-uXpqe7chmYKp4-Se2UkZvRK6xfVvWf3hmQ1locEiyPP5urKefACAfB66Hdr_0m23ouQrYmYrt6P4N2GOgfOx2dSnxEVSTzKjKAQT_plXBJfoRevny2lqG4jB_zhXxkyaXToqXYk_r-q0rly8Q0fmEW7s7BMSKfsSQjGvTmCQ693aZ2jt8RwrMNku_0tnko1VYPNM8iwCx0iPOQIkH9Nq7bXZgR5Xl39umLUpvbyNteteRL5IRF-RCKHvgzTwoJGnzWJX6SDC7vw96Bj_gVPWI9u9pfDZvph0gW1yvOpPa3jVbEPaCtXzrpG8VEreMOI_p66CUxhmQ0izb6LtLR7eH7N_1W4Q",
+      "AZLasHrrnQwc5zg3faxLhwmcSc011SiujvhOgoSrrHBot7-gPoOSTszS9CQ2WoGqMrlf8uDvalqznukkAU-CZjSqHO8KX-A32HmymGRcCZc591yxUwH6ddHyj4lDlUJxRvTEAtQPCzUjEhF3nkPMOAZ_AqTpgzDlcCf6pJAWluADWLQo-V0cPXiuaPjfLB9jT07cPix7QeUxOaRfPicXKzOpWX9li-URETMwX9bn0wBYGDAAClv0saYxTbtT_W3XHXdpKNDMnM5W5B4jEHJswgVVY2i7oXpohiZWVhkj6_ScZT0-Odyz72phjJU4P-uHGrpyAIzfmREAeDnhLJo9xtAC7fKPEwP8a5ldHKzXuoW4ctvskm6dVoX-Z8U5IHn558Gmp7rvqs0ssmdRy-_ZCcnzy38116oPsiIjhTzhZMk_RvA",
+      "AZLasHo7TxKJ6Do2BkCfJlijyVKQ97VilBnIzM5gR2Ui92YU-aR6gzfyT0ZiUebx4bijBgYqYZf_9Z18RnFb_4awIdcspCInmBY-SL83dz2aaZTjPRy1U_LByU5-C2YlNlUmVz6H241V38v-SwNzrOsRoVmQIVBcwST_Mi1AjzDFZgQTbUTGmczrkvcERo9-ntEVv09uzezFhsYRrSJN1jsIcc9Kh3HmVbzyn1YuTKHCtfHJPQlwjg65zCpGedpLOJ10Xe8-RTNfvQePnf4wFsOlZ1SNlbrnPqNnNwdJul91vstBQ7SbB9T8h3HV71mnCUFtTG3wI31pEj1vZprXL7D8S47oKbmjD0qK3kv7JRzp2HzD4tmzN0eCJYo7HL26BolrXotlic7fMAin9W4Yu-gbn9q3zX_DpFnfkjApN3X2l1Db_Q",
+      "AZLasHp_jK7c48B7H3vbrXHOaskVp-sIZzMkSA7r7Fgss4jLjyWjktJ9wNuf-Gw3zMPZWroZsNlGs2l47josO87fZ-liC4ikgwxiM11w8SzTU8bRmSYdrGPR2JZvirZnYEhxOFzRgYJk-gujfLxMOXbn4jm5E8JzcKpIbOITYd001pdP_fnFRwfR3ReL15InV_MKghp3n-943jjd2njtFF23X5sWdEQf4nPHQoV9n0Xba9BsBFiAk-KeqyPW8dKSgdNsP0Djmp2dGPImZ1y7u-n-zzCm9c2-mj4eQH-lntBdhlBbfw",
+      "AZLasHpPp8AgQOYscRyK8oB_t17CEIb_EA53sXUGDAbSTOkc-1tTYJ_DlGhy4XgnOQ7yafNbLpK8hTUvCYBuJ_lWdO0VKvM1o1L5B_5G2nmc4OqoBsmkUXrufq2W7BuQvLihW-68wTQkZY6A_OMnWF7ocob8N9kfM1yc6wAs_MSnRi9l175-fouHVPG6EEbSCQaCKQVRwQ0oSVqekyh42PQM3C8XTL7kGKGWajTqFosmH6e4jkkddxbjQnDYDba2HbWFMKhMn1h55nevp6KuHELdeO0reCY3m23PEsYZX6i7gWXmCQ",
+      "AZLasHplC-KcHv8M8aJZQPRKY4XsBhLbNsDNb5halJZeYV0MrRgxM7QPDUzlQ4oGSElpF7AA9PMKrvW-x9L7hVqaQs5v1PMW4G3mjXaRtFENzbHC1dDEdqi8bA80MrpL8p-STuQToj7235gPsSG8K8DHf-zDpudf-d02DIXbKp-AdqL9LKMkb-7RV7EThJnuaBI1YuYEQ4cG-qZ_0tQZPi6pwGbOx7ekdk3H6UdUPOBLQtji27KUQ0zS4dyNJ6bBjXN2ojNFc6hSPudHHmehwRbqyNpoqaEdqEufz6PdTBvIDM-EDiD1Exg_eHXM8RGXPwkV5SpiwgwUZMNpk9ijHbQC7_IE0Gw3diCPCQIWnFesTU89CRLpB9ShBoDZkUl-8v_yU0WNigBg8b7BgdgUn3YUhHew4juynX21VzBxWGQx8vUWHw",
+      "AZLasHqua7V5rmAzVPvSzkXr0mE9VrtrSkXlqFHo9sc7FZDdusc68ua9hbm2LA4cT2bFD2JQiYcAWB_HyUxBV4W0d0pgYCa3yT_N6wVaD5wUAtGyS0lzmJkvqloVLYsmBVz7KIqZr_MSb83rWSOJJ7uszQ3q32QqnINZEOkmL7aaU0KhEeMjr5CXh6orEqsj6kAB2qkG6RHrFfV7NRM5Eq93Y_MtfpgfblVTcXMm-vO_r2BbH2Awnq6t98IlUvVk1scTlmhIR82g7ZpgD1cK8jWen_ymIyzMEsmzknDXOmdzdqRzTQ",
+      "AZLasHrAPpxe5n5NM0uxLeBi1pgDtoTRzHJHyBR1-l8R1Scc7L-ROjMyzy1d7-9RDwfelRSz5_1MLBfLBTeCD8FtMEE1_dgoIh6nSrQxygX1wLu6UbJMnXPFig2NlmfQqt8emJu8wIaWGXXozWg2SRdL2pErWc_cH0fmhiFERvwSElVtlc1OYYNDk2XG0gITmQdNoeaxPvdSpTWZZXjszqOlwY77G9NXcxhrByvHfU3KcA81L6iaB9fX9KevUot_bbK3kD-vz28I0KupGjYZ4TToi9mIM4SAF9_Epw8v618I5xnq0lTEn_Sniy85qFbxes54Oz5qknjY_WxxWvI0B8S7i4TpIxbi30c9MybVjC9EvByCZ_n9lpoZSsNDzVYg-3PM1Ak16iMB47ygYI_7nH4S4E0-urmf0IVRAtyV9tWwpw4"
+    ],
+    "instagram_handle": "@larbreacafe"
+  },
+  "opening_hours": {
+    "standard": "09h00 – 13h00",
+    "display": "Tlj: 9h00 – 13h00",
+    "detailed": "lundi: 09:00 – 13:00, 13:30 – 19:00\nmardi: 09:00 – 13:00, 13:30 – 19:00\nmercredi: 09:00��– 13:00, 13:30 – 19:00\njeudi: 09:00 – 13:00, 13:30 – 19:00\nvendredi: 09:00 – 13:00, 13:30 – 19:00\nsamedi: 9:00 – 19h00\ndimanche: 10:00 – 13:00, 13:30 – 19:00",
+    "is_open_now": false
+  },
+  "description": "Hippolyte Courty, sourcer de café pour les plus grands chefs (Pierre Hermé, Alain Ducasse), a ouvert ici son école et son atelier. C'est le lieu pour comprendre que le café est un produit de terroir complexe, comme le vin. On y déguste des variétés rares, fermentées avec soin, préparées en filtre ou espresso avec une précision scientifique. Le décor est épuré pour laisser toute la place à la dégustation aromatique. Une expérience puriste.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Experts du sourcing, chefs étoilés et passionnés de terroir."
+    }
+  },
+  "real_talk": {
+    "text": "Le spot le plus bruyant et le plus joyeux du Marais. On y vient pour la terrasse et la mousse au chocolat légendaire, moins pour le calme.",
+    "must_eat": "Mousse au Chocolat (servie à la louche)",
+    "le_secret": "Réservez absolument ou préparez-vous à boire un pastis au comptoir pendant 1h.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8,
+    "coffee_price": 3,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Pastis",
+            "price": "4€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERT",
+        "items": [
+          {
+            "name": "Mousse Chocolat",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 165,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

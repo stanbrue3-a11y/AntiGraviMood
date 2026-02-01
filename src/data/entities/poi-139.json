@@ -1,0 +1,179 @@
+{
+  "id": "poi-139",
+  "name": "Le Hasard Ludique",
+  "slug": "le-hasard-ludique",
+  "location": {
+    "address": "128 Av. de Saint-Ouen",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.895697,
+      "lng": 2.3285964
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJxyu3DNRt5kcRxbCXtlfzjRE"
+  },
+  "category": "bar",
+  "subcategory": "bar-concert",
+  "mood_scores": {
+    "chill": {
+      "overall": 22.5,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 8,
+        "crowd_density": 5
+      }
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {
+        "crowd_energy": 5,
+        "late_hours": 4,
+        "event_programming": 5
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 6
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "22€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 1:00 AM\nsamedi: 12:00 PM– 1:00 AM\ndimanche: 11:30 AM– 9:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Concerts éclectiques, soirées jeux, DJ sets",
+    "specialty": "Ludothèque, scène musicale, terrasse sur les rails",
+    "ambiance_vibe": "Ancienne gare reconvertie, ambiance associative festive",
+    "smart_tip": "Les marchés de créateurs organisés le weekend sont parfaits pour trouver des cadeaux uniques et éthiques.",
+    "signature_drink": "Pinte de Blonde Artisanale",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://lehasardludique.paris/"
+  },
+  "real_talk": {
+    "text": "Faire la fête sur les rails de l'ancienne voie ferrée. Un QG de quartier vibrant avec une programmation artistique audacieuse.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Sur les rails de la Petite Ceinture du 18ème, le Hasard Ludique est un lieu culturel hybride et festif. Installé dans l'ancienne gare de l'Avenue de Saint-Ouen, il propose une salle de concert, un atelier créatif et une terrasse monumentale de 300m2 au ras des rails. Sa programmation pointue explore les musiques actuelles et les enjeux de société, le tout dans une ambiance toujours bienveillante et survoltée.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3xGhAO_RMhLsX0js4dFHtsBQ4ZiwILcaPSMdh97BGWY3eoNrZj6CMZZid2-kblYC3fFTS7gP55LOZQSkpHuA5xVB6Kpf4zJXf21RixGkANkYHxDeNQ1UjXMZMtlodmeMNIIdlSuDHX--B2MEA0pCNBfoy18I_HgETH4Aa9Um2YbP8_9bbd046tqWjBQ0A4eyQ0yhFx7fUpF2_sLX-3d3nha809hr9yFcZL3Hlc7l_Y5026jV2N-2qmWarse1Rns-ukU6_d5P-pHSTtbPDkpTR8Hp6fCwgW6PvcuKe_b4zSIA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lehasardludique",
+    "google_photos": [
+      "AcnlKN3xGhAO_RMhLsX0js4dFHtsBQ4ZiwILcaPSMdh97BGWY3eoNrZj6CMZZid2-kblYC3fFTS7gP55LOZQSkpHuA5xVB6Kpf4zJXf21RixGkANkYHxDeNQ1UjXMZMtlodmeMNIIdlSuDHX--B2MEA0pCNBfoy18I_HgETH4Aa9Um2YbP8_9bbd046tqWjBQ0A4eyQ0yhFx7fUpF2_sLX-3d3nha809hr9yFcZL3Hlc7l_Y5026jV2N-2qmWarse1Rns-ukU6_d5P-pHSTtbPDkpTR8Hp6fCwgW6PvcuKe_b4zSIA",
+      "AcnlKN0N_uL_6UdYJuSjo5aLuP6OsmKg7w4C2Cv0BsNaXXKj4tyO8sXpn3yL6DV0s_tIp1F4Nfngp68x0CcXbSZ1ThD41zhdupOMC4OUJIbpQZagYuxYvQcU7WIASpugxlxxrtv0mVG8QY_5ZJeW2mnLslncYCN533TKNSv5lXKa5BRDwcQQWTx_6d2yJzwOoxrn60f-IxPjFopCv5jOzP5Hhbt8Z14hPQSE3XH1ltnQXGP1mIe44njdcCOWYe3yR-frUv_atpapvfOt0_tbE5TxCbOd_Lng2DPJFRlSfWgfNk0q7w",
+      "AcnlKN1SIsWaDXwW4TG3GtTGdp6-2TNBY2topT_Kxs5pyFSKAr2lOCb536ubZ7F782c_YORU1mCvzY3HZMybgeyxlOqY9eaC1bXFRccu-S9lyvFxID7gTkSQ5QIpUYLwySq-cgABBZ5847moyeBnV7Yh9tsmlDCP8s4p7W7CW5gDtW9NnEQKBgGQeVUDfenmasdEflD9id8LSUjeMRhUUCCB9Km0swhhoTg-nlmp3EUWQgPvPY9JOVp5S7kJBfLdlPDCc91qa0wDUNEqqCFgUMtmg1TH3CcXuDvjZqN-PhTB1wQVx-c0KVj8PBFMweBid5zrVPgLkTK6mT8e00wJCbD3fstuVPpFrU4rhzR1bodJ4IDiK94Bcat97q4RfG_BtDVRRkdNbc6w3AXcClavavNAhDxgmD52EJH3WNFODjpzumwuecktpm_0yvSpz4LKXKCO",
+      "AcnlKN1R8K3z3HSiz-0D_nc-G-F9giymOvhXDwacFCIk0F55PIujnph2n9_dhEzjcTHe2Ls_KZzJBCge6ab6VoHh5F9MNyjMgKwp-ZIXgwZTHSGEwshID0UG_-MxHYfSwfrRUk5kamMkucokAbUBrwan7z7EbvUJYjQZvoVH96TQQzIMz6xQRybWp29VWisbyABr3nX1ifEohTj1ECRkMUPESaCEhf8R1LI0i437v-IStONKZ6knqHfK1GAVVyQNTG7sKy9J9ycvWTw-OEaMMC3bBnMBbS__b2hxOcvqr0VtzUTDNw",
+      "AcnlKN1W5kllN-Q-MdvG8iqFKe3IkPb-y8OBnid3fR4Ta1tm_TYm12iCqLwwON58xBixDmYG682EsVoAS-p6JazJxtvY9PA4qvAVMbsAhdzywq0lp0wDjIx5kPC79egRS4-sZBctjSWUWyWBL4CtPjK-wvli68_zLCOhDAucPz2H4fT3-3hIawhkZdBja8jkLL4bpDVcD98q7q0IG5VSPoGpBRi89EN7S6NcnqW5LKS1eGm1FBbIco8XzwlpKyFMjPqP5h5A3q6VFYk-Z7oCU9OIDYgWn-Pc8swW9KOmDMNql4QVN05Qgi4UEK4JOAq-7aPLfBPSKyAeomtxhHY0RQNsLbj-eMqSJXJmirhpaiUqClqWaHWTYufrsVOP2DmH28uynOZbiGNX5mt9G1ZqAqs2N4s5GJtXtXa7cmz4E56NmBlnvFNhUUKmrikinuwImbIa",
+      "AcnlKN0rE4OrcCPLXSRRxot1C25I5qu6QGDIV8i3w6M-xCf7y74S1xqM5bQEpHfd8XQb1lD-ySvHB-ag_W8ftrgrliAdrp9pHc93E9pkKXJORyfGCjw4MtZs1Efbl7g7XKo1dV-0UngN5WMvKIapiANnnpcNCJRjh1kI4I5dzf2Dw2SrmlSg8yqK4VCXibFsbnM16nRRzNvxRBwmzGdY7xB5i27LKc8ZbG-Fxym5LrLTq8CJr-7uWPYDC8uk-rd0Z1ZCHI_zSnZACZHsRRD-y-0BX3aCNoOnj-NqBhTckB_ndm9F9tsgrrxoHp4dqnHUxr3ikNb6V3V8qD6hKIVYVHr-3lVR-rVCcJbGa6UzET_4tat6Z3ehwAVmtbA5KHfGOhfcsok97NihISwJOzQVdwLeNWlnm_MeDtFfZEESdCbwiyprBCL8VglWXi8y1Njvoj1D",
+      "AcnlKN37bbbHrWo-aG5jYUkywc2nSyaWfvFBzprWuNE01jyRbEwwJdHQ9Hf8B7GSmG12xlWpCYNsSpo9yvLH0yzNW8o3D3SSlmzSvitdtJysnN-B8DfCxJAtHBg1seSWUqovZRw6TW1-sTg9E_u-e7SHRU-Jl4-o_tawRNs9Jg2j5RDmT070XJ2yFLiNrfvkzX3fgJNifpkVwX1ZkDC6T_eo_qb8hJqPice5PEwkjGBDFdzv7maXGr1pN3Ie_3M4wLebcT-yiEIGyiOdcwUfmVqhIMcrAqmPwWi4H9Y6KT2_gm-FNcVCb9C2mDa_iapSWM3a05GXd8KMNOFX6IetLvlK3WSoWNMrDOVJ6ObYUU3hFrrNsoRoTN6qhQwBjrJvSWIcmJEQNiIbQwKufL_r6g93H3Td6kzhlrjv-RaZpyQIZ3EJg48",
+      "AcnlKN1zCt8DZevR9JvH0Qcz8j_N_wBnp22orQhWqcVK3HF5ycH3VutWcf8e1Uw6SNB3GQevcJsZlUzGnr8PQTdi5LidELez8Vj1Si1k3xuBSqoi5x4BaTTnXvmJS_baVBoC_5g8xfS1VG-TtNc589E07eLYXZ8lcUHaVMgx7D0hkYA443GQn422Oy99zKhXo3tFn_IoROHrl_MRNXTDlD1hKNNChb6lCQe1uzychykYibIWd2v_AIEITdI1snxi2zQG8bmjYCC8aKffixScRrwoae3ga-I11fKuTHgNPMhhq6_v3jWTnTK_d6d5vkS39Ibmah1_0j22aCYDcWj4syE1KcR8VAgp_WKlSfhUrejfRHuRcWAUwiANygCjW9xDmhBPrPrvWe_0_keZRTdseFZO-WjqOPHD3LqmcF74FtM",
+      "AcnlKN303YlmBBl1PUPLSvxfDlh2l3prqNVK2tM-baUs7kKDuyGAyyIZPJLWHpjQH6bdiUHlkihq7hKBAN8WdWC9L7WynBTST3PSkFkeJmt7ZbG48-NWsqt6HIA7YDuRjwynfIiAiUfCkUjj3qwpJnN3w-VOA1qnATGHGbiflvSyN1y4jNohtnTmyT94UxiSWzrotecK60tippXVdm6c-4YSrL2FrwKG6eiLTRFtKfPE1yyBHHJChl0r-WSKZkLHWhmjeTvSzMJP7yySOUytSWXRy1unkrL8UqbIqwQ4QH6UC9j68tGHFnFCZkOO_aCfdc-TGS7RQuHosFh2FfP5ANlJJWPkb0ocCpm-Fs2KToVLPX7SoYj7QUFyrj3ixwXeFNa9AmaURw8s8iC1Qi8uQm-8wd-ydw1IAkeHbObN28ee4cAeOw",
+      "AcnlKN02Y7tklscGRjRykm57XV5JebeIJ5NDIpTI5k-eB4IHTGsg7UBqseSQ9-2PLVfyuYsqXPhAlF_q8N8SJxyckDf_bD_PXuT7r-6BZWeJC9inPhNjOSztOb56PVF4IJMv9Vo6njmIAyRe16fA4ro3c96VXwKzFm9et-7Vm11-b8zp-K2sjWoIUhPmcgrYnRb5IA1zgJj5PPYoGBsCihJ25bovrMf1VboiuPomFySxYtXLgNHsfawbSk4KLSHj-TX9wcrPpfvp3eyU_CAc2smqCPbz9HTzgDsIo3R3zV-GKhIcXpc49U6Eebd6yg2iTkkcG5CniB2Fmo-Uj8ngd_zQjH7SyWdeRXSSt2yutFrb4-UHhdSRC7sbWImr_1J8KV73_cyU2Kd_d5OuohdJTcjVF7ktlGdQN3NBhWp_yVMQIkoQl-Iat20SKkNsugHd7SLE"
+    ]
+  },
+  "social_preview": {
+    "like_count": 503,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 48
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "22€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 1:00 AM\nsamedi: 12:00 PM– 1:00 AM\ndimanche: 11:30 AM– 9:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Mélomanes audacieux, collectifs artistiques, riverains du 18è et oiseaux de nuit engagés.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14,
+    "pint_price": 7.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "RESTO",
+        "items": [
+          {
+            "name": "Plat mijoté",
+            "price": "14€"
+          },
+          {
+            "name": "Burger rail",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "SOIF",
+        "items": [
+          {
+            "name": "Demi de blonde",
+            "price": "4€"
+          },
+          {
+            "name": "Verre de vin",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.3,
+  "google_ratings_count": 3150,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

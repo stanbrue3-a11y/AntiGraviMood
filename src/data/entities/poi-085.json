@@ -1,0 +1,175 @@
+{
+  "id": "poi-085",
+  "name": "Brussels Beer Project Canal",
+  "slug": "bbp-canal",
+  "location": {
+    "address": "47 bis Rue Bichat",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8724778,
+      "lng": 2.3666096
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJI-JrD8Vv5kcRMeO-Tkwaqdc"
+  },
+  "category": "bar",
+  "subcategory": "craft beer",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.8,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: 5:00 PM – 12:00 AM",
+      "detailed": "lundi: 5:00 PM– 12:00 AM\nmardi: 5:00 PM– 12:30 AM\nmercredi: 5:00 PM– 1:00 AM\njeudi: 5:00 PM– 1:45 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 4:00 PM– 2:00 AM\ndimanche: 4:00– 11:30 PM",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Jungle Joy (bière fruitée) ou Delta IPA",
+    "ambiance_vibe": "Moderne et lumineux, double terrasse paisible",
+    "smart_tip": "Leur terrasse est calme même le samedi soir, un vrai luxe.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://beerproject.be/pages/canal-taproom"
+  },
+  "real_talk": {
+    "text": "Le labo parisien des brasseurs belges. Une terrasse au calme et 20 tireuses de bières créatives et souvent expérimentales.",
+    "must_eat": "Frites belges et burger au canard",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancré à deux pas du Canal Saint-Martin, le BBP Canal est le bastion parisien de la révolution craft belge. Avec ses 20 à 26 becs changeant sans cesse, c'est le paradis pour explorer des saveurs houblonnées, acides ou torréfiées inédites. Le lieu est moderne, lumineux, avec une double terrasse sur une rue paisible. On y grignote des burgers au canard confit ou des frites belges authentiques tout en discutant avec un staff de passionnés capable d'expliquer chaque note de votre verre.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3Rz8hJ_54KQD_NGDoBhjyc5r4EnxY1WYilgfhN_pI4YEMQ4GGk9KhCpHbJQuZW2AYaUtHW8F7kL1BMS-oR1V-7OZOwCd50PtP9jZGomfkvqRSjRQW92UwYvQeTw8UsAm33wzSrdXBzT0hdUGDc-DczIJYEhRYPQxoIwhRMnGAUPRnv9NrQKMLDBvq0dEeMmdByfdMlqBgzIqHMkC3UgDUX4gH9AY05yajyXSVODD_K0Y7uJ0SOecczdb84nHGzYBPfhebacgUh0mE0hqMA-Rusqz_HAf3BbaMxSwuL-Eud4ZR7viW4I-d65Dk0Aeb6L971TzGeE9k-9sGZVgsDxvLShdk4IoGp5kB3xxPDInHEfii2c503_zcq3v-JLTPUbed_7awxzSPE_wTiIfBlOv9Fn8e6Pzt0twiJevTUCOE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bbp.canal",
+    "google_photos": [
+      "AcnlKN3Rz8hJ_54KQD_NGDoBhjyc5r4EnxY1WYilgfhN_pI4YEMQ4GGk9KhCpHbJQuZW2AYaUtHW8F7kL1BMS-oR1V-7OZOwCd50PtP9jZGomfkvqRSjRQW92UwYvQeTw8UsAm33wzSrdXBzT0hdUGDc-DczIJYEhRYPQxoIwhRMnGAUPRnv9NrQKMLDBvq0dEeMmdByfdMlqBgzIqHMkC3UgDUX4gH9AY05yajyXSVODD_K0Y7uJ0SOecczdb84nHGzYBPfhebacgUh0mE0hqMA-Rusqz_HAf3BbaMxSwuL-Eud4ZR7viW4I-d65Dk0Aeb6L971TzGeE9k-9sGZVgsDxvLShdk4IoGp5kB3xxPDInHEfii2c503_zcq3v-JLTPUbed_7awxzSPE_wTiIfBlOv9Fn8e6Pzt0twiJevTUCOE",
+      "AcnlKN3_pBFyWIswPk4egMB-wm9RV-UQHFfavaT4LK_Kv5bmiGH2mZ4zxJdh2RI6P3DtlmWkhv2aEIMKxO7mbFt7MdK8mfpNLe7L0Mcd8ZHaaY0OcZK8nty_FQVmP1EsTv89p7xjRNPoXZZd6N5OpqF7wwe5d-RyxghbBlm4kMa1AI7X_RsF9XjRnnW2dLJjFd6w0E-IDHCs1sew-P1w0M1w-9KB-AHwu__r4R8Xg2XFAsOOuv_nH46p8lQ8Fm3X8zrgwuiCKm4_4TgsZaBUpGyn8Hpj6f5XMjGTKNpc20oN9_ODu93co1xEbKm9rEZe06yVEUWSWJDKL3hJTjkmbqg2DlRFHnJ6jzswr8AAEdxGqhdRTJeasbeN1M9KPqZx4CB2w_2s3cSv5h-PFC7t1sn-EMjVsldlTc9MyPiVAXvD_sUgTr4-",
+      "AcnlKN2v0wH93XmMhWQPOZn7vuj55deH64HHqmhZHnkZwvWkbILub8EH6VosYzR0iZ9aFc21ftaQnJ8jraEti1hEFzuGZOsYMd_J5a1pF6smkiIhUqR0A7Hq6dC9r5XHdCLY2gaXS0FFw7sVbEiGHeGPfzJM3c0Mo7jDTxt4dVNi2UsuV6hSJcfwO8WyF5P79YI2jKBq6B4IxwkySrUfHW5YtsnRuk2K1xeVzLgO538fa0DAwN32EqyqV4PfBMAXAcQ9pFUX35eVvDBq6Ng3ny_OJeOmorxo6NLaArKN2cNL8JvCsMBV5WMwRRbjGNrJA2WYl4I8OJi_RgPt2nP9crhTrv_BM-VhfcYNaQpsOyvMlohtgVmkOkHwlMrJAhnRsuGaxWl6k5wKH-gIvgP3lz-C9rE1XTe_cEuDfQUwtWXJAwQYVqWR",
+      "AcnlKN0A6ndMZ7US8LCuasWvGf2o2ts-t1y_PNWZKKqRzDDZK1cr9BrfdDZpVEYTu0XmTXFNVAU5sE17RQ-UWU8IB-Pay1ApEut00XKz5y6jxjmSDgJrOJOIK9zro92PJachC2ge1PGZn_jFFl08bd7SNw2ipvU0UJyvp9jz4N_OLzEgPoxqMoDY1G1NKtvEBjbW5e-KPeYEIZmu-B20qXea4QCkEMeGr_fAUbVLpYGgFAGg_Ap0TLLv-ozFcO_1GGCr_DBtTUY1DIFASowwFfw74vjVQdrsRSd7nFH9Ja_Y_154cEubT-iorIpwDw2Fa2Qn-pO1nolkqH6i96ef7E7-hibVlt1eM0AXOYZUwdmOrCtLCqYGTpoj_mhypYCvY_LZBLKpKNfjHxaYx1fUZpMJkx3WWhrVK9EwvE2tLcyPZiabH2s",
+      "AcnlKN0dxGRUlpo2mv6UAgeCaPtBI2-DjO_7s2E_S0_fQyR1d0bBT-b_bcdANC0nQz-vf6AZr3DaT6PWNDrh_MJrLtu7N0SFwMVhi-sSBKfKr5hOSQrY1NnDOWZRdeIzaeNNo37k-qkfEstmZ5FPD7ScXTuiUb2liQ0nm0QmKmkb0ntnHOz0NeCsRciFVIHnAtv0aw4Ps65QEEsoLGbbaNV9tI-Dwr_H90vA3iQWDg0JkLoLyCPaDo0Xmd7XAx-g_0yS1wsIV4ZK3J0QSTaLcN37BMtRrsLKY1rR_PtOBAlhhiYH81OA5PduUacP8dGq0fLykZETBm18qTJsCPZbiqLISmzP11n4DWP0v6JnByKEdetYVxYOZSup1n6GvuUuHltp6YjTWij0GG0mES9dW0z71Yd60PWBljBMbFO4xRwxLp-7Ni3e9_mcJYTt5AqsKkKd",
+      "AcnlKN0BF2zs4HB9rwePZvVvod17eTQI_UaipcIm6n9OhhbQJAw-MyAoXdB2f6j3BzQPsb3isY2AQoyB-E9LrNOym_YcIGZB2MfK25bLa0azat1H9TwGZzLMCMeY4jI4M0v5lQz2E4xEdy-PpAkEUTOeOQXv4YFxopfActFMdrfsGdlHI--ODqaevLFLKTK7GFdiV_Gf4s7LzpSNlQWQ6mK1AFf3A8TA_32NEh8mOP21iBHgR8clny0JXzD8ZgRQcZfDVd0OCsgFCY5YrFn1b3b8L90FRVWEnqKeR6bWFK_cyhWEpKkpdS6YZ0TvAo72loVFlOgH08LPt140Qh2u14Rxx-ccBrdquMqn8_oUZn4tD67kqT4c64yOd6-KRyF7JO9ynjxZGdX5Sbi3lHyhiFy92XyDI_8TtigaE_GPqNmg6EM",
+      "AcnlKN3aJhxsspB2jorZ-u1nW87tbsOF6-DsFocyGi_o87GOTHJ3Kl4VJQYlKn5kNqDtglKXLPMW7k_mw-kd7wDJ-iuHyKTLV-ZaOssmQzwVx1iPGJJJ-BZ9v2g713j707b_yQzA0mQ1m-fXQWM9uD-rk22hfRRiQj4xC4tX_pGYdwPLgt_SmKKhDySmDOY06lV7puLWkGdm1vFoKGCdGSBaYP1bRKeoGIPJhPEcYQ_ri4NT7kO9o_E7hzB6XMDLDw3W5eAAFYO7vR5XZiJdaUn1QpdBR9XQV48Gybgo8s4bESuW-TO0I0Sc_HTJ7ooqPQyoYRHIxz8qTBDwcjRrQlLEAfrGTQTiY6mUJZvQh-5dXQyU1n0L_QmaVmkQh6ebunVXxawVxB6AWh2WlfiYMFIBu5YD3G49rTg7aVffGt5GoEouNnqu",
+      "AcnlKN199Qgxr5fK_J3hjcXBLK8Y-IzkZz1s-a8zW5QntgOu0F1e7O6EVpjIXC_37iAZ48YFwjWBp8cXvF4n-HDsMwn_ZfZV5oMBR_fAB1wXlYorI9OyP7mNYLtjIClr-hZ4PUO5YnNTpuOHpr4AtxWm6r1zraZ-DNypUxtulnc8ZO6twCVXhg47JNomt80aBxcO_tqShvjz6MbNBUiD3IN0flOFR6r_q_J723Sm_AI9jwbgc6MgJq0VnK2305ECTZpLPacPKFtCB6CG1I0T_rTs-KUt-OVFhkkWGeGBP0c8GLYQuZpbbodY6WOxayhcs0jL18SUrTdl2Rims8fDfm1OLWNdptdyCLa079jM209ZerARmkwJLHBEETnJsLdjCW-BHD23pZ5t2AqcgjL8mDxa3wHAeofwF_dvj3kFyeJNY5nKmQ",
+      "AcnlKN3M2hEpoHxEmrY75Xp087YuHBbVJ7Y06Z6w9jEGNbxHGe8MkXwxgjfUsAmNQ18dMsqG9Wvt0_4zaYzg-Zi54y_D5n1k5LMtKHAITJzhYwwF4xKyIVMHYeLR0F4dYbZOo830ZANKFR5VCesy9qH5pz_yKHkGBw3F4WzqNLYg6HUXDhh_46tauJorzXw2rc5muBCdHElYE6UKfbjdyaRTMHpM691LtfUGM4F-DFiY5jfj8oKZM6q_YU8xMSMgH91QRBJlwuMnQhA8hKzU2ER1eE489jopezubCNQfclilWU7S8xgkcgvLzc-geByifRJV9rrrIeiPHnqDR4UDB9312GyfBp0O1taCOAhJJhBMlnDpCmJ10pO2ALzoOXTkWS_FlxMVZS3VsVZjk5fvd_rJh57zNMW9YzGb_kadl0FRs6u_urEX",
+      "AcnlKN1EgbyVvoyzVXC4UM3smoPFPQ8RfeWvNnN3MbY_2nTHdE-LYCh5RNpaU77kUVeGE5qvxqJosxfV2g0tjSVMDHmrRTRFXgG5sjIRBRWK9zJreg25qIW7Kem4zKHmSvPnCJ6rI9Ybi9liC6PPyHdkf84sztoW1i-z_g4ADndLkDyKKo_O7TKqL4EVQwvtBRievT2-lk1ypBdgUVN3j0gv8pMhGWGdKSiRuSLrTbZT88lWytSGG8LZPGqu5zkQocYhevd3fnrtRDn6tWgRG1THPZ_U9h50tbCe818ea8Re05gEo42cQcd3QJmamX27qC4Kf2Cd9B7fVS6eUzgLI7AK5E-RD_cWVC3yvK0nPjBeUfkLzlnxf4iFAvnBcfsQ60xXpyzonpmWJK-f7pZWKcbqE5LfZpLyUP8YLmwpGPeep3n8QQ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 136,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 30
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: 5:00 PM – 12:00 AM",
+    "detailed": "lundi: 5:00 PM– 12:00 AM\nmardi: 5:00 PM– 12:30 AM\nmercredi: 5:00 PM– 1:00 AM\njeudi: 5:00 PM– 1:45 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 4:00 PM– 2:00 AM\ndimanche: 4:00– 11:30 PM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Beer geeks, expatriés belges, couples du canal en balade.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16,
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BIÈRES (Pinte)",
+        "items": [
+          {
+            "name": "Delta IPA",
+            "price": "8€"
+          },
+          {
+            "name": "Jungle Joy (Fruitée)",
+            "price": "8,50€"
+          }
+        ]
+      },
+      {
+        "category": "MANGER",
+        "items": [
+          {
+            "name": "Burger au Canard Confit",
+            "price": "16€"
+          },
+          {
+            "name": "Frites Belges Maison",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 511,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

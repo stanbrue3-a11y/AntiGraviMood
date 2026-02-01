@@ -11,7 +11,7 @@ import { BlurView } from 'expo-blur';
 import { useTheme, moodColors } from '../../src/design';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
-import { usePlacesStore } from '../../src/stores/usePlacesStore';
+import { usePlacesStore } from '../../src/stores/placesStore';
 import { getPlaceImages } from '../../src/lib/placeUtils';
 import { InteractivePriceGauge } from '../../src/components/common/InteractivePriceGauge';
 
@@ -32,7 +32,11 @@ const CATEGORY_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
 export default function PlaceDetailScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
     const { theme, isDark } = useTheme();
-    const { places, likedPlaceIds, toggleLike } = usePlacesStore();
+
+    // SV-Refactor: Use domain-specific store
+    const places = usePlacesStore(state => state.places);
+    const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
+    const toggleLike = usePlacesStore(state => state.toggleLike);
 
     const place = places.find(p => p.id === id);
 

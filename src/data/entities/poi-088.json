@@ -1,0 +1,173 @@
+{
+  "id": "poi-088",
+  "name": "Aux Folies",
+  "slug": "aux-folies",
+  "location": {
+    "address": "8 Rue de Belleville",
+    "arrondissement": 20,
+    "coordinates": {
+      "lat": 48.8722442,
+      "lng": 2.3780628
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJzSSdR-Zt5kcR6oDQEJNPuv0"
+  },
+  "category": "club",
+  "subcategory": "friche-culturelle",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 4,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 10,
+        "event_programming": 10
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 8
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15€ environ",
+      "display": "Tlj: 7:00 AM – 2:00 AM",
+      "detailed": "lundi: 7:00 AM– 2:00 AM\nmardi: 7:00 AM– 2:00 AM\nmercredi: 7:00 AM– 2:00 AM\njeudi: 7:00 AM– 2:00 AM\nvendredi: 7:00 AM– 2:00 AM\nsamedi: 7:00 AM– 2:00 AM\ndimanche: 7:00 AM– 2:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Café à 1,60€, pinte à 4€",
+    "ambiance_vibe": "Terrasse mythique, néon rouge iconique, mixité totale",
+    "music_vibe": "Quartier sonore, discussions animées",
+    "smart_tip": "Leurs vins de Loire sont sélectionnés avec un soin infini.",
+    "entry_fee": "15€",
+    "terrasse": true,
+    "happy_hour": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://auxfolies.shop/"
+  },
+  "real_talk": {
+    "text": "Le mythe de Belleville. Une terrasse chauffée où se croisent toutes les générations. La bière est pas chère, l'ambiance est éternelle.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_secret": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancienne guinguette puis cabaret où Édith Piaf et Maurice Chevalier ont fait leurs débuts, Aux Folies est l'épicentre social de Belleville. Sa terrasse tentaculaire, qui déborde sur la rue Denoyez et ses graffitis, est un spectacle permanent. C'est un lieu de mixité totale où se côtoient habitués kabyles, étudiants fauchés et bobos inspirés. L'enseigne au néon rouge brille comme un phare dans la nuit parisienne. On y boit son café à 1,60€ au soleil ou sa bière à 4€ dans le brouhaha, savourant l'un des derniers bastions du Paris populaire et insoumis.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN35SqC8oBrSZVB_FyW_N93Y--gi7xKbNaldL__6BhZvd4kalvp8eHt04TjNlU1pOR08K3uhQRc-O8gOkwWyO8nBJsc3pPZpAzJmjtkzbuUeP2Lz0fN6dlvmiGdRNxU-Dss1uupVQYgxl859cbkmmgIwBi1-ier3EiJfE0eQL5YzI63RVClLjWLV6ob7wTtpz-_Pg0t6HEJjL6Tg1xsnEBqOSHHhhDK8ZtfjCwb06XbMsUGX_Hf9kY9kfkBe-5kOuW3EU8UwlqcsBQS0-MDjB9cLav6SKrdYUdYRx6haybfOc55rxs8vFKwf__m6twxDVQwHOBtgQ5cS4UksRLkGnsVR6NBHbVNEcOBwo7_YodtK9OfKa3c_F5tCE7kx0GfnmNGeeMnYqfNFmI76-XSGi40g_ujrJhKUie4GJKwz42ysdQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@auxfolies",
+    "google_photos": [
+      "AcnlKN35SqC8oBrSZVB_FyW_N93Y--gi7xKbNaldL__6BhZvd4kalvp8eHt04TjNlU1pOR08K3uhQRc-O8gOkwWyO8nBJsc3pPZpAzJmjtkzbuUeP2Lz0fN6dlvmiGdRNxU-Dss1uupVQYgxl859cbkmmgIwBi1-ier3EiJfE0eQL5YzI63RVClLjWLV6ob7wTtpz-_Pg0t6HEJjL6Tg1xsnEBqOSHHhhDK8ZtfjCwb06XbMsUGX_Hf9kY9kfkBe-5kOuW3EU8UwlqcsBQS0-MDjB9cLav6SKrdYUdYRx6haybfOc55rxs8vFKwf__m6twxDVQwHOBtgQ5cS4UksRLkGnsVR6NBHbVNEcOBwo7_YodtK9OfKa3c_F5tCE7kx0GfnmNGeeMnYqfNFmI76-XSGi40g_ujrJhKUie4GJKwz42ysdQ",
+      "AcnlKN0BduQPKUnc8vwtr8TnF3u8co0EZI4CBBkUXmEXhcLxdTRG558uVZXs_p6zm-Wvt7amwxy9XQ5G4Qu_PEmi56oaL7tIpxZDVQtWp5XEWdR-c6MwcQDZf_VYyVYn3ceTpYXVRACCeEvvPQEjxqndb5JocMk0brwJi9x_aPoFKVzkDgBIhSKMhiRbP5IrTv8bbc47npfOvBJqvkQxr39qeWoyEbGcnbBjn_aZ3RjKg70O0JSUaOU4JdEuhiIT0nMY56BwAh1rFPqjOW86IupjuGsyQKy6sRjNm0nv5zeVqlCKTyqmTDQ3Cz2mw8JyvytPmInDa3i8VK4lh1QTQtYcy9Pbfl2lxjBL7-ABUr6eY-fwiq_ZgZmxzJD9mOJdQdzz8PYL0HGtMHn2pGyQfwf9G7ix9yDPTF1Qcfi0OIIb3YkclLo",
+      "AcnlKN233hYH7Me5v0j3aLvM68fR9bqBBATxmWB7PZwJhkqaVbsIH9PfTb3_qGzx91r6GJgCoElXqaiBhq6oKZCSampIyXB-DoPpznKA4vLthPrUelKrLigOOf5FvHxTgLlL6nFhC3eW-CTlLcZ8CrQSXjqaVAWbMae8pAn0OgZTQPSfpT6ANULvZ8AA3JbihWWwxdPxwQCV4FIWkOxZuJ4yTc_CY56U_BXx5UleIjY-heODiMz6iFogP3ti_stBkN85eBp9vwSKiA0fZkuGFabwQAEp8dAwTQ0yFMhbqlk-x2dFZTlILzSdAyYYeILdtxAoiC1DiB1ZXzDdkdy_bSgzALD5i8SYy_AZI2iT_L9e03ycQOqCECoxpJxqtX3SZmKbqrobxNVlx7EIQH2yki8OSHsmba8vwD2Nv_TGuJtIKyR2778",
+      "AcnlKN3Wmh_UjKjPX0ZpmhS3HSEZczgUx-MYYCuNXF10Es_E0I5SG04kTCVm8z8_nCyhPhAMu-QF3N__8HXQ4xzoml7Xed1jabYqTmABWLxR5Xh9elISrKm4ufnYdXfwjH2E_LLky04JRog7qqYaEQnhqdpJVzE4-x71amKa28WzYmh5Wje3xz4UvvuMuFjGOhg0C45mH5MpCIbzG3QN1GOq5zqsc-j2pz7BSDC9vZFUjgEAq_R-N8iKhauvxYKQZHK_EJC5BE5uT19cA_-JPerJAUNmsu-ioESbT5CnsjSWULrVG2E52HXtr1DjgsX8Yald0z3ulrTddatWUR9rmHyZKXdDPEKsGkVS1-G4CqFG0kCxDNTe9nUybyjur4h7IupUIfy1PR5wwTdtjFXMM7yAKyXICEwoSjhlSj3VGaXvdA8D9w",
+      "AcnlKN1Ze7m5OrRYXN03nSBetJ_oUDhgFlajMBvfL5ByH_tRdEQtZgvY9Yof16uo_zouK1ulCqceJVxAzVxkZ6trUky24U-8mFJvMKF5VpwDKp-Uf6vNZODrzpwVmvU9WxpD11jBq1rzNbnG-k5opJCcPeJLAXOtje43YDzq4WaYwFurq5qJq3suaANY-OLVy-lMG4_S1GS6KPF0gYvaCZPBhoeax0v_XkBsxBDHFeC1yBseYZsL4tHjtT9FuWd2kONktWeA-ZzOrFPzPZ6Q7hVPuP5LmEfooYyrzPlmQjCc0qJxzT9YzLJf0lS_wPIQ_2I4Y5FwIPN9zxKjEdvkoD8_-y3JbU4m84G9x5hyWWN6OPNavUz1ri00Jh5J-qWPN6E0Nd1twPXIIgJalbRHEFecTlijf0z8dfLAgtgWz0aPudidhT_ZAMUUZUrbW8vHPcXM",
+      "AcnlKN2uuw2wONnRM1dRrsSmLPdulYH-bg65sJp27DeJgODwvdZcC5v0Bjj5MiDqj5WYom2T1zHjFAvjJvC0CAQE_f8VkG77nQfY4lmYrTV6hlzS86VrZPBN91f9uX5zM1ojuAHbqQNn4TDPbZm9QRQSW_daYv49LdYevjUZ1ndGvdfymP4X4ZC-TSooOmx3hm6YP_64K_DmL6tUjNDzQNcJn4_U44NNnFNnN2ZbP7OG_hf93TDTN8XTQzrMPkDs8bC8OMGBg0uSbRUOo1ui1Dw__8bagV_J2HsOBU-Y6ClLPxyy5rL2iD75ja-m37GFWNpctwwLVlYYsy1gOK4vX6AE-k9qcBkOvh03LEV30rYA0zEVIeIk79nmHAgFnGqne7Bn_ochU2b78vhZXPXNvliq6Vdj_rMxwrtHMp_nQ3yhby9BJw",
+      "AcnlKN3Ov7sZegRTI4ZGj3tiy7iUURaOkFfOHcWoNzqwcdg_OJYvCfS2GQatSeyd4LqNhG_zY2Eexl6O66GHDUYiNh-OUp9ge4cSdb1H9LUiKkPspa_vSsrmsgUiP9q0mmfEA5_xH45QGrG2ZsnPakff50Mb1E-Ix8aPegF8YpnB7TuQc9nRYQeoyTrRvwMBT1U9zh7YLMGIzz0UtJj3_ElDak7zsQCmJCJdKLxjOJLwP4gfPs3-6Vbk3NXSasZIHkmuU3XjVQl6DR_lLFeNK79fBpXIp5UR4h_NqyO395H6bY_JNwTJVPTezPXQ2c3gv8yhj29M3gChEJUiEDqZN5J6NUP8tTzJZBLwBbab3hLO3jY_UKrmOaDkT8ypraNCd_Dd8N-UWBcG8w05oZsJ9yCgeWvbFd7ysig6XTvW7q9k81gS4Q",
+      "AcnlKN3QDQGhF7qd8SYMedqdJLLvDPSHe1-pxxCOici-HOGm2Lf27L9TglWvi4S-axNm6048s4LGea4CnWevcE4E5Jf9PPpJ_18eASskrE3CyH4vsGV6AI-AmSLEkEhcaVm1Y4qB8NEVfDHzqjY3LM5h5EoNb9WKTMp2dOa-tdTWV3LNwqwBJpKS0_b2NYUYYMJIMYhvSPFzyqe_5x_5_hdx26yHog9v60IWnLN0qomdrXV-6ECeytaArmnVmKiBIVlSuCTHm7azzyOWyuyvjA_VDDJtJVfshcJiSCowk4VmDfkaEh_wzNJyjOYE-v3ynnPrSZYXHRLAxJsYZ-eR8FXB8Y1rsDZ4HQikHjMxb5wfV1Oo_AkDL42Pqei-kfBS07aRPpKZwfFP4ZBtP9kzNuAxzHJz2fIUxlzacszOG4HFr6Gpqg",
+      "AcnlKN2qkT9TWKWlciDHGskmXGtuiKBlZF1p9kqGiMHThg4POzkAbkN25Qvr6whJWRQVwPzy5uBOZQyjSAYI1OP1nf2qZnBf9EGAuJTGKs4hAlKk8Pw1by8RJhx2f8lgqZzCzIV0NhdBCwcIvuerQo2q8V27Mgh-G43RNv3IVvjzuUq2bnH9aUpyp02MDRk_4XUpuzxvtMH1A9KJjZ3XgCd26vkVSMrNYMgbHaAUGg6Ymb_hA9Xo6dKTV5d1q4cZUBJo18tXJ1KfMw_4LEMrcLLqFUMIzF4JCydZG8OdGyB-55vBXvSMpxFTpR1d5tdz6OQDxqB1onM9Yz18ZmoM1XSrlBPUFMOwvfLVQCF-qiZaExqrNDDlvbQw0wHLETMBQuhR7ZUTFWVxTLo899bs31EehchybMKs985hect4WfwnYO_p3gttI_tU-EEJvvqT9-2d",
+      "AcnlKN3RtbPzZX3XYx0xpZzLM5vt0Avk_iwQk3aIHg8wXKe6h-Sp_Nl4rVwdi6TAvvUyb8yz4oN6zQQb845h0mJUQnb5XYSuXjQZa2VoQ_5OwgO16DbtIdGmtOmL_pkLTpMid0QHov-xt-_DgZt0ExHjp7FSr4PGrmZHK52fl6h9iVf-HkGx8Li99wBLeQa5m-ltY9M9xr5PxJ8YzOT6FUnysQSJSs_qi-fBtPIt9FoFcqXnkmrTVpiaAFywwkHU98b52M_pGzbAC2i9f99DVi1wIi0kVrTV52oS8rrZSBlulNXTjHQ56xxhEBafRGhDOnqFrUYlEalofwHAa-N28Wld-gHg-X-fXCsnTy2v6DoRDVL6tQBwqgt2atTrwOng2zkxyXcJdHdG1V7HlEXmDV8K5mTKjkPoqJnnJucyhh4lV3clTK_x4pvWIxs1YlscqQ5m"
+    ]
+  },
+  "social_preview": {
+    "like_count": 361,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 37
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "music"
+  },
+  "opening_hours": {
+    "standard": "15€ environ",
+    "display": "Tlj: 7:00 AM – 2:00 AM",
+    "detailed": "lundi: 7:00 AM– 2:00 AM\nmardi: 7:00 AM– 2:00 AM\nmercredi: 7:00 AM– 2:00 AM\njeudi: 7:00 AM– 2:00 AM\nvendredi: 7:00 AM– 2:00 AM\nsamedi: 7:00 AM– 2:00 AM\ndimanche: 7:00 AM– 2:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Toutes les générations de Belleville, artistes fauchés, habitués kabyles, bobos curieux.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "club",
+    "budget_avg": 5.5,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(5.5€)",
+    "pint_price": 5,
+    "coffee_price": 1.6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Café",
+            "price": "1,60€"
+          },
+          {
+            "name": "Pinte de Blonde",
+            "price": "5€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "3,50€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": null,
+  "google_rating": 4,
+  "google_ratings_count": 1348,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

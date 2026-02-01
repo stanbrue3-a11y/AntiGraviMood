@@ -1,0 +1,170 @@
+{
+  "id": "poi-038",
+  "name": "Partisan Café Artisanal",
+  "slug": "partisan-cafe-artisanal",
+  "location": {
+    "address": "36 R. de Turbigo",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.864681,
+      "lng": 2.353093
+    },
+    "google_id": "ChIJoXjzXBpu5kcRxcAyAUf7Oy8",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 434,
+    "moment_count": 73,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "06 08 25 88 32",
+    "google_maps_url": "https://maps.google.com/?cid=3403590225789894853",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Mar-Sam 18h-20h",
+    "Horaires": "Ouvert tous les jours 08h30 – 18h00",
+    "Reservation required": false,
+    "Torréfaction": "Torréfacteur 'In-House' : L'odeur du café grillé vous prend à la gorge",
+    "Le Design": "Style Berlinois/Indus : Béton, tuyaux apparents & grandes baies vitrées",
+    "Le Setup": "Immenses tables pour bosser (mais battre-vous pour les prises)",
+    "La Signature": "Le Nitro Cold Brew (Café infusé à l'azote, texture bière Guinness)",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Leur burger est un classique du quartier, simple et efficace.",
+    "signature_drink": "Café Latte Art",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.parispartisancafe.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHp7b8CcafsJObyJVptAREQEuMxID-vFRX8LFhcnxMLzxETq3MP719tFlRM8lAy7cahEKbdGl9EmrASQiJsyd16FvooEZ3LOSe8AuuROtqke0R52zME6AhPmKju1NjnEmgq8OkuhfwBUGFzVXZRz_fthgbZiEYy54YxZKex7R_4hL99cRv7-PLl2TP04dyRU-PBIlqmws3_610w81mXDo7OAWCtw2ow0V47iUn6TGocZUgWUXx7Yzg_knZI9lC5sdir6pxtj9YdEksjiCCgAp_S7jTy3KmVHtYQZL6C0xh0hiA",
+      "AZLasHqOHhEtxZUD1_3-ncIddmhGeAq_ZqLaP0zxNFmoj6BcA9sWHgSFguNYrxIPDyhk_24EnPQTy0wvMaBCOfA0TTur4ncywbKmpElMJDwk00HIFo2R7t3afMjGBg2pBy6BQXK7jdpJCOxZ7Vm301TzCLlHoOB3eJ04QhEgMMqZAjZWwBec8HhYBXpbqX5xyAt-fClv4Tl7D8QX9-4D1dtxEt2zZYPM6jHQL11tlixjPiy1b42Ub76Qp15pFGMPnRV-m8OZHA75lemkEvabylKWeKn8ET7ZeGuc5J92J1_U2JZPUg",
+      "AZLasHrYWcZmENcEvIunboUoJ4mdwlChQQkZfhhf-ISlTNsexE4-fTR7kfeXSjBtshlXROAoV8nS9-wAvikJu4gHM5M-2K9clNrheiFBXUUyvloleCv1CrW0NAzX3kGLRPAigCCHOc-hT0nGzdTnh8DzvlmnjfSFJJ0BTL0YEyua0xsHmv5lnCHGxhpcDo-jun_r9ZZbwPaqdoFyr7a2zZrRDrS2920qT_xIQpCjCHnkChFr2yOTnY1SscAcfhP2eeIfddoLrpx57Jg0CCmT9qyhjUaUfIMYFc4NL9ulZ8jCPdxeKa8VNVKj5QIqrXoPZGuL_j1_etsky1ZxLGLZYyC737JMuP_e9c8M0ZEHPDurhD5yDHWCLjcSAzOhnRsF1YnwCU8jgp2gCv6ZUpADZmBSBudHxmh-469fKpJpoX2lSUI",
+      "AZLasHosUQTw4orHrzoFj_Jvg_X2j0djfQ-6EvFNNUO_vPDycLDsgETt2BHrKtuZ7ESBQtVMA8J0gOJI5xEEtiBxtukgijy-wrEpt9qfma_363di7zOOIhfRMhDVcNn9zogwoAUckwwBKylsgDcUIY-SR8f04ESFiFUU1Y0IDY8pmjrjf2RXG62M3ks9fz15BvFjcJO9DPJk4_R5k6BQ2osCBWBeB9-xgSM5fXD_X2WPJ6E5w4L6vDh4D01IB8P3gYIqpbMgCCAUKy2LD-i9ZMmWcjJXSonQFjdRmT4E103_7rVFKnCOB9keu5pwgIYwPuEcI7JXMpiJcK5W2uw4qMd5DBp4_oY4JNHsQ3hftvpWzC7QN_vp3RE-8pchANjItjc31ZT5ELFY-NcoigzFxLoURg-SBUvrWHSIY1xpWO8X19E",
+      "AZLasHqyuiWxOTbaQFh_cfHyirKsW4nv_HEhwit5bC6LugySG1teSdTrSCZ4ZR1AkHlBOLx7wfFnJK-0LoA31si7Vol4WXeNfV839-cFTnqNHdPDZY53O-8l3-_S_2e4WR_e8Jj_9lfuYYSjHK2RU-yxZr6nsnE04dUkqSyJ2Sd0laRQ8cs8kOScsC2rlzO0nJRGICQC384mT0MYbPfL0pgKzQt3V5bi1lmVfvNKhfiG0FnRVH6ErLziqe9HbiUENJnxd5NrGNcPHCMTFTM5Mv2pJOu7JtBD23EfXac4VEsGn7f5UE5ogzz5qccOe8B3Xlkdr4i3N010MFgu8swowXR9tY33STJvwvtcm1qAgSi11wwfWDkSqvZ0cpS1_hhVnTDLs4Qrvskci2dO14D1kTOvvx8wIXkHqRcZpuONoIXDMEkyBohmWJALPtygyMuMeA",
+      "AZLasHo-eQl-ptk5e67AP8OAV_gYhxcw1yh2GRQGIjYPk7NHvVtTGMCO7aUozAJP2JOyY1HzUDv_kdJSYQyyKlz-i27PvcvmGc04ceDe9SF2lH3-eWeBxYfffgEqXpbP9_fpGONAVn9d_amOmnHG50H1TjlF7wyIbR-b8W6EZq1qIJBao6C-XXkNRPUpsvOd5u9GxAQE-AymgY_EqC2e03897YuHnY28tgZK6oYWXHgOdJOzOCCBPWYxxbKAGFZdkXqtfeq3adXZ6wV9YUK6yfCDhwMYoSIXwb99J55JbA_DckcWTVnjW0_-HsSdZWwMbq2cj3E2Ucqc5x_mtTtkWCop-5RsdXb3XwHucBcdU2tJkrQrY7grHXcNOvL1SBImkEfALXpsGqrWOY6CSdz8u7apsQ6KydYshoMbK9mMcCxn_VR4m5lvGB1ZhuHYxQxjFZ5f",
+      "AZLasHq85HiSHeHhj2sOZ_JEJ3BzyoWle_sA7giceWJVZXWtrE6OJfzBXogxjDU_UqpbvEEGgbF6cRglut6rTubsoT-B1GSNvUpYQCz3cCjjFVAoRfakdU8JhE7cVRslqrpGoG9rr_XefIH471PYfY5Yef41vo2e9TuywInPzSm-7YbGWcO3fH1gDO81IcxmeeKHJ30LPhDiFvJj4H1QL8ZWwMBSNWwWMzO8GOLhy-nuNfNKtRMJ3PEpRC_bXvc7MXsw1FGsIqaqnjCRMQKxgYLWZ04dcEvSsad7m-dRA7nLW9P-iBtVSI6dgMXMP6Lboc_yW2k0oEVYOd-nu1hR18TuCaH6UtrcSdOsm8qz5N9V-1Zqt7Vo8LRkh33r8F52qHCSIeqTZU_pWvO0qaCKUpggzEmDuo_YaJq8KlJGCX9zhbIjTWojfp329Ef6VTE87-lH",
+      "AZLasHqlzm7Hkus3TXqcacUGUSW7wflYGSIp133Au4o3JbpY7eVApXn9noIc5UHp81HSV_9ySOv3lyOq2aFmGA9-s986CSh4iYgr8FCYN91lze2hw3rSFkVhPujNetQvd9DTgWpI6B2ee4kKRfqIpCchkx25XEo619bicEApzobutbu7WhPkpNI22RBBYNXsK22V-qcohTFZArDXoWxj0msM__D98Xl0NkcqnRP6hQYCr2fQ2320kNtIpzZuJtrjCd8vSGqoiiLrbECAC2nxujweWveomHuoSUsyxngoFgYUHPKA1iwovhFL-yBhKuq3fTzlUHD3sKV-o7LwYjEiSf5xKH2fThxomZt99gVCiNCplkvz8KCdxzKIr3ISMQXZlDMdrbdHX7T8h-QOwx36hKUihIZGdgNVfgHs5_au4WHmYp-_-f7Oua9atEXeNFFZrzEH",
+      "AZLasHozjBM2gN0I5rkWdoBNx3eOMtZ0XkAr_W9GmPrHWN0xgp6Z3rhjcRMH-4oLLbUblgJiSKz9DCJmbgdbAu3OaSiXZ3NBsCtdK4J7eX8uk9Lz2BDst5alNKzlnyB8k1xo-BpO2zXt8SKT97fkDQ06Jpuix2z3sWJ290XT-18_90JaCArwjivv1Jtnjt-8xd9hhQszzHR-9fqfIaZls9p99kAYWonzqO92Swkf0RwJgU9Gqwm3ftDOpq3ix7zhOTdJ3ogXK2IRqacEsM5AZMwnc0OYKYU3nlRVxuUqMKjV2NAIZ_LuEnyX_Afm68fdClXslnnEATAdtTlzaGYU0sC2wsbWlcgctSFf4P5-tqFgWlh3ZfFD-7z4r2gwVcQFJAJ2WKE9McWDoe71SZ0RvUXIPmHNF3BaKTmDE_jb36il117N9l-gTLSFh_igLvFkkXyI",
+      "AZLasHrkMp6tBed2-KWhafWwyMtRH3naYvZAlGaboKt8-N7R9id_NdxGcMjKodQG8WDKM4bV6uF7JaC8syW311f00fWgLZmc0i5DLh4MNvsQrEOdf1kzbiLw8fPXdtNljc9L8--UikJDa14ayTxjSujiL79P-gh9iOxTvP-04CF3XU41MKNKU0yfF8EyCG93MEkYnB8Q9D-j7uUU4ZHcGJ91qLiAb4TEwF4FjP1SWq2Xt6OZYedAuU5VwUm1Czvczi1rS-NpveDmr3CaJZ5ZQ5arT1K-IF1r9lOYqIBri1Stzr9S6hROSWRmIqXVLY8ht_uVQ7ZLsD3hfo4R7yPWcwzB000v6hLWJ_AnrkKuUweOLU_jnqibole4PJg65DKL0Nv2LFLayq1KLikhKMXgPXFW1OYQmT8HNYMPCYB4L6HKkRVRMlzl5eN4BIsosY6XsQ"
+    ],
+    "instagram_handle": "@parispartisancafe"
+  },
+  "opening_hours": {
+    "standard": "08h30 – 18h00",
+    "display": "Tlj: 8h00 – 18h00",
+    "detailed": "lundi: 8:30 – 18h00\nmardi: 8:30 – 18h00\nmercredi: 8:30 – 18h00\njeudi: 8:30 – 18h00\nvendredi: 8:30 – 18h00\nsamedi: 9:00 – 18h30\ndimanche: 9:00 – 18h30",
+    "is_open_now": false
+  },
+  "description": "Un immense espace industriel brut (béton, métal, grandes baies vitrées) qui tranche avec les petits cafés parisiens habituels. Ici, on torréfie sur place (la machine Giesen trône au fond), ça sent le grain grillé. C'est le paradis des freelances et des étudiants qui viennent travailler sur les grandes tables communes avec leur laptop, boostés par des litres de 'New Wave Coffee'. L'ambiance est sérieuse, urbaine et moderne, un morceau de Berlin ou Brooklyn à Arts et Métiers.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Torréfacteurs sérieux, travailleurs concentrés et fans de design industriel."
+    }
+  },
+  "real_talk": {
+    "text": "Le specialty coffee du Marais. Torréfaction sur place, lumière naturelle, wifi rapide.",
+    "le_son": "Playlist Lo-Fi Hip Hop assez forte",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Torréfaction sur place. Ambiance industrielle et bruyante.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 14,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4,
+    "pint_price": 7,
+    "pint_hh": 5,
+    "hh_time": "17:00-20:00",
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 1722,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -9,6 +9,7 @@ import * as Haptics from 'expo-haptics';
 import Svg, { Rect, Defs, LinearGradient, Stop } from 'react-native-svg';
 import pricingConfig from '../../data/pricing_config.json';
 import { isTimeInRange } from '../../lib/timeUtils';
+import { CrabCalculator } from '../../lib/CrabCalculator';
 
 const AnimatedRect = Animated.createAnimatedComponent(Rect);
 const { width, height } = Dimensions.get('window');
@@ -46,42 +47,25 @@ interface PriceCategory {
 }
 
 interface Props {
-    placeType: 'bar' | 'restaurant' | 'cafe' | 'club' | 'hotel' | 'culture' | 'park' | 'other' | 'generic' | 'bouillon' | 'bar-a-vin' | 'cocktail-bar' | 'techno-club' | 'speakeasy' | 'coffee-shop' | 'gastronomique' | 'museum' | 'bistrot';
+    placeType?: 'bar' | 'restaurant' | 'cafe' | 'club' | 'hotel' | 'culture' | 'park' | 'other' | 'generic' | 'bouillon' | 'bar-a-vin' | 'cocktail-bar' | 'techno-club' | 'speakeasy' | 'coffee-shop' | 'gastronomique' | 'museum' | 'bistrot';
     pricing?: Pricing;
     categories?: PriceCategory[];
     triggerComponent?: React.ReactNode;
     activeColor?: string;
     smartTip?: string;
     arrondissement?: number;
+    minimal?: boolean;
 }
 
 export const PriceMiniBadge = ({ pricing }: { pricing?: Pricing }) => {
     if (!pricing) return null;
 
-    // Use the same Surgical Math as the main gauge
-    const getFillPercent = (): number => {
-        if (pricing.is_free) return 5;
-        let current = pricing.budget_avg ?? 0;
-        let fair = 15;
-
-        if (pricing.pint_price) { current = pricing.pint_price; fair = 7; }
-        else if (pricing.main_dish_price) { current = pricing.main_dish_price; fair = 18; }
-        else if (pricing.coffee_price) { current = pricing.coffee_price; fair = 2.5; }
-        else if (pricing.fair_price) { fair = pricing.fair_price; }
-
-        if (fair <= 0) return 50;
-        const deviation = (current - fair) / fair;
-        const percent = 50 + (deviation * 100);
-        return Math.max(5, Math.min(95, percent));
-    };
-
-    const percent = getFillPercent();
-    const cursorColor = percent <= 50 ? '#22C55E' : (percent <= 75 ? '#F59E0B' : '#EF4444');
+    const { percent, color } = CrabCalculator.getMetrics(pricing);
 
     return (
         <View style={miniBadgeStyles.badge}>
             <View style={miniBadgeStyles.track}>
-                <View style={[miniBadgeStyles.fill, { width: `${percent}%`, backgroundColor: cursorColor }]} />
+                <View style={[miniBadgeStyles.fill, { width: `${percent}%`, backgroundColor: color }]} />
             </View>
             <View style={miniBadgeStyles.textRow}>
                 <Text style={miniBadgeStyles.amount}>
@@ -124,7 +108,7 @@ const miniBadgeStyles = StyleSheet.create({
         fontSize: 13,
         color: '#FFF',
         fontWeight: '900',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'Inter_900Black',
     },
     currency: {
         fontSize: 9,
@@ -134,7 +118,7 @@ const miniBadgeStyles = StyleSheet.create({
     }
 });
 
-import { usePlacesStore } from '../../stores';
+import { useSearchStore } from '../../stores/searchStore';
 
 export const InteractivePriceGauge = ({
     placeType,
@@ -143,10 +127,9 @@ export const InteractivePriceGauge = ({
     triggerComponent,
     activeColor = '#FF2D55',
     smartTip,
-    arrondissement,
 }: Props) => {
     const { theme, isDark } = useTheme();
-    const { selectedCategories } = usePlacesStore();
+    const selectedCategories = useSearchStore(state => state.selectedCategories);
     const [modalVisible, setModalVisible] = useState(false);
 
     // SMARTEST PRICE FOCUS 🧠
@@ -165,12 +148,6 @@ export const InteractivePriceGauge = ({
     // Get reference data for this category from centralized config
     const typeKey = activeFocus;
     const catRef = config.categories[typeKey] || config.categories.default;
-    let categoryAverage = catRef.avg;
-
-    // Apply neighborhood multiplier if available
-    const neighborhoodMultiplier = (arrondissement && config.neighborhood_multipliers[arrondissement.toString()]) || 1;
-    const neighborhoodAverage = categoryAverage * neighborhoodMultiplier;
-
     // Pricing values 
     const displayPrice = pricing?.budget_avg ?? 0;
     const isFree = pricing?.is_free === true || displayPrice === 0;
@@ -209,62 +186,18 @@ export const InteractivePriceGauge = ({
         return cats;
     }, [categories, pricing]);
 
-    // BARRE DES PINCES : CRAB CALCULATOR 2025
-    // Benchmark is at 50% visual width.
-    const barFillPercent = useMemo(() => {
-        if (isFree) return 5;
+    const metrics = useMemo(() => {
+        if (!pricing) return null;
+        return CrabCalculator.getMetrics(pricing);
+    }, [pricing]);
 
-        let current = displayPrice;
-        let fair = 15;
-
-        const pintPrice = pricing?.pint_price;
-        const dishPrice = pricing?.main_dish_price;
-        const coffeePrice = pricing?.coffee_price;
-
-        // CTX-AWARE PRIORITY LOGIC
-        if (activeFocus === 'restaurant' && dishPrice !== undefined) {
-            current = dishPrice;
-            fair = 18;
-        } else if ((activeFocus === 'bar' || activeFocus === 'club') && pintPrice !== undefined) {
-            current = pintPrice;
-            fair = 7;
-        } else if (activeFocus === 'cafe' && coffeePrice !== undefined) {
-            current = coffeePrice;
-            fair = 2.5;
-        }
-        // Fallback to whatever is available if the preferred focus is missing data
-        else if (pintPrice !== undefined) {
-            current = pintPrice;
-            fair = 7;
-        } else if (dishPrice !== undefined) {
-            current = dishPrice;
-            fair = 18;
-        } else if (coffeePrice !== undefined) {
-            current = coffeePrice;
-            fair = 2.5;
-        } else if (pricing?.fair_price) {
-            fair = pricing.fair_price;
-        } else {
-            fair = neighborhoodAverage || categoryAverage || 15;
-        }
-
-        if (fair <= 0) return 50;
-
-        // Mathematical Deviation: (Current - Benchmark) / Benchmark
-        const deviation = (current - fair) / fair;
-        const percent = 50 + (deviation * 100);
-
-        return Math.max(5, Math.min(95, percent));
-    }, [pricing, displayPrice, isFree, neighborhoodAverage, categoryAverage, activeFocus]);
-
-    // Score is the inverse of the bar fill (High Score = Short Bar = Cheap)
+    const barFillPercent = metrics?.percent ?? 5;
     const pinceScore = 100 - barFillPercent;
+    const cursorColor = metrics?.color ?? '#22C55E';
+    const pinceLabel = metrics?.label ?? "STANDARD";
 
     // Bar animation
     const animatedWidth = useSharedValue(0);
-
-    // Cursor color: CALIBRATED TO STAN STANDARDS
-    const cursorColor = barFillPercent <= 50 ? '#22C55E' : (barFillPercent <= 75 ? '#F59E0B' : '#EF4444');
 
     // Percentage comparison text with context
     const getSingularLabel = () => {
@@ -300,75 +233,13 @@ export const InteractivePriceGauge = ({
 
     const getComparisonText = () => {
         if (isFree) return "C'est cadeau ! 🎁";
+        if (!metrics) return "";
 
-        const pintPrice = pricing?.pint_price;
-        const cocktailPrice = pricing?.cocktail_price;
-        const dishPrice = pricing?.main_dish_price;
-        const coffeePrice = pricing?.coffee_price;
+        const { currentPrice, benchmarkPrice, deviationPercent } = metrics;
+        const sign = deviationPercent > 0 ? '+' : '';
 
-        // CTX-AWARE PRIORITY
-        if (activeFocus === 'restaurant' && dishPrice !== undefined) {
-            const fair = 18;
-            const diff = Math.abs(Math.round(((dishPrice - fair) / fair) * 100));
-            const sign = dishPrice > fair ? '+' : '-';
-            if (dishPrice === fair) return `Plat ${dishPrice}€ (Prix Juste)`;
-            return `Plat ${dishPrice}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        if (pintPrice !== undefined) {
-            const fair = 7;
-            const diff = Math.abs(Math.round(((pintPrice - fair) / fair) * 100));
-            const sign = pintPrice > fair ? '+' : '-';
-            if (pintPrice === fair) return `Pinte ${pintPrice}€ (Prix Juste)`;
-            return `Pinte ${pintPrice}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        if (cocktailPrice !== undefined) {
-            const fair = 12;
-            const diff = Math.abs(Math.round(((cocktailPrice - fair) / fair) * 100));
-            const sign = cocktailPrice > fair ? '+' : '-';
-            if (cocktailPrice === fair) return `Cocktail ${cocktailPrice}€ (Prix Juste)`;
-            return `Cocktail ${cocktailPrice}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        if (dishPrice !== undefined) {
-            const fair = 18;
-            const diff = Math.abs(Math.round(((dishPrice - fair) / fair) * 100));
-            const sign = dishPrice > fair ? '+' : '-';
-            if (dishPrice === fair) return `Plat ${dishPrice}€ (Prix Juste)`;
-            return `Plat ${dishPrice}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        if (coffeePrice !== undefined) {
-            const fair = 2.5;
-            const diff = Math.abs(Math.round(((coffeePrice - fair) / fair) * 100));
-            const sign = coffeePrice > fair ? '+' : '-';
-            if (coffeePrice === fair) return `Café ${coffeePrice}€ (Prix Juste)`;
-            return `Café ${coffeePrice}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        // Fallback to Unified Anchor (if any)
-        if (pricing?.anchor && pricing?.fair_price) {
-            const { price, label } = pricing.anchor;
-            const fair = pricing.fair_price;
-            const diff = Math.abs(Math.round(((price - fair) / fair) * 100));
-            const sign = price > fair ? '+' : '-';
-            if (price === fair) return `${label} ${price}€ (Prix Juste)`;
-            return `${label} ${price}€ (${sign}${diff}% vs ${fair}€)`;
-        }
-
-        const fairPrice = pricing?.fair_price;
-        const referenceAvg = fairPrice || neighborhoodAverage || categoryAverage;
-        if (!referenceAvg) return '';
-
-        const diff = Math.abs(Math.round(((displayPrice - referenceAvg) / referenceAvg) * 100));
-        let vsLabel = 'moyenne';
-        if (fairPrice) vsLabel = "l'estimation IA";
-        else if (arrondissement) vsLabel = 'quartier';
-
-        if (displayPrice < referenceAvg) return `-${diff}% vs ${vsLabel}`;
-        else if (displayPrice > referenceAvg) return `+${diff}% vs ${vsLabel}`;
-        return `pile ${vsLabel}`;
+        if (deviationPercent === 0) return `Prix Juste (${currentPrice}€)`;
+        return `${currentPrice}€ (${sign}${deviationPercent}% vs ${benchmarkPrice}€)`;
     };
 
     useEffect(() => {
@@ -383,13 +254,7 @@ export const InteractivePriceGauge = ({
         width: `${animatedWidth.value}%`
     }));
 
-    const priceSubtitle = useMemo(() => {
-        return catRef.unit;
-    }, [catRef]);
-
-    const pinceLabel = useMemo(() => {
-        return getPinceLabelFromScore(pinceScore);
-    }, [pinceScore]);
+    const placeholder = ""; // Keep scroll content clean
 
     const animatedProps = useAnimatedProps(() => ({
         width: Number(animatedWidth.value)
@@ -665,8 +530,7 @@ const styles = StyleSheet.create({
     headerSubtitle: {
         fontSize: 15,
         color: 'rgba(255,255,255,0.6)', // Slightly more visible
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
-        fontStyle: 'italic',
+        fontFamily: 'PlayfairDisplay-Italic',
         marginTop: 2,
     },
     explanationRow: {
@@ -691,7 +555,7 @@ const styles = StyleSheet.create({
     explanationText: {
         fontSize: 13,
         color: '#9CA3AF',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay-Italic',
         flexShrink: 1, // Allow text to shrink if badge takes space
     },
     barContainer: {
@@ -760,15 +624,15 @@ const styles = StyleSheet.create({
     scoreText: {
         fontSize: 34,
         fontWeight: '800',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay_700Bold',
         textAlign: 'center',
-        letterSpacing: -1.5, // Tighter for premium look
+        letterSpacing: -1,
     },
     contextText: {
         fontSize: 14,
         color: 'rgba(255,255,255,0.4)',
         fontStyle: 'italic',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay-Italic',
         marginTop: 4,
     },
     priceBlock: {
@@ -806,9 +670,9 @@ const styles = StyleSheet.create({
         marginRight: 4,
     },
     priceBig: {
-        fontSize: 64, // Even bigger for surgical impact
+        fontSize: 64,
         fontWeight: '800',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay_700Bold',
         letterSpacing: -2,
     },
     priceCurrency: {
@@ -816,14 +680,14 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         color: 'rgba(255,255,255,0.4)',
         marginLeft: 4,
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay-Italic',
     },
     priceDesc: {
         fontSize: 13,
         color: 'rgba(255,255,255,0.5)',
         marginTop: 4,
         textAlign: 'center',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'PlayfairDisplay-Italic',
     },
     categoriesSection: {
         marginTop: 8,
@@ -858,7 +722,7 @@ const styles = StyleSheet.create({
     },
     itemName: {
         fontSize: 15,
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'Inter_500Medium',
         color: '#FFF',
     },
     dotLine: {
@@ -876,7 +740,7 @@ const styles = StyleSheet.create({
     itemPrice: {
         fontSize: 15,
         fontWeight: '700',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'Inter_700Bold',
         color: '#FFF',
     },
     disclaimer: {

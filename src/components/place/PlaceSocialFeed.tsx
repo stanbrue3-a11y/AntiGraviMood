@@ -9,9 +9,8 @@ interface PlaceSocialFeedProps {
     place: Place;
 }
 
-const SERIF_FONT = Platform.select({ ios: 'Georgia', android: 'serif' });
 
-import { useMomentsStore } from '../../stores/useMomentsStore';
+import { useMomentsStore } from '../../stores/momentsStore';
 
 export const PlaceSocialFeed = ({ place }: PlaceSocialFeedProps) => {
     const moments = useMomentsStore(state => state.moments);
@@ -136,8 +135,8 @@ const styles = StyleSheet.create({
     sectionTitle: {
         fontSize: 18,
         fontWeight: '600',
-        fontFamily: SERIF_FONT,
-        color: '#111',
+        fontFamily: 'PlayfairDisplay-Bold',
+        color: '#FFF',
         marginBottom: 16,
         marginTop: 8,
     },
@@ -149,9 +148,9 @@ const styles = StyleSheet.create({
     momentCard: {
         width: 100,
         height: 140,
-        borderRadius: 12,
+        borderRadius: 16,
         overflow: 'hidden',
-        backgroundColor: '#f3f4f6'
+        backgroundColor: '#1C1C1E'
     },
     momentImg: {
         width: '100%',

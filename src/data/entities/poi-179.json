@@ -1,0 +1,143 @@
+{
+  "id": "poi-179",
+  "name": "La Coupole",
+  "slug": "la-coupole",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8424,
+      "lng": 2.3283
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJYafZxs5x5kcRiDaXQXadCBY"
+  },
+  "category": "restaurant",
+  "subcategory": "brasserie-art-deco",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 471,
+    "moment_count": 41,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Art Déco monumental",
+    "smart_tip": "Le curry d'agneau est servi à la cuillère depuis 1927 selon la même recette, un must-eat historique.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/8",
+    "website": "https://www.lacoupole-paris.com/",
+    "terrasse": "Terrasse"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3xEmd6D-wp9EPkCobOCPWm9opvwkm7fyR37dJMO2uQWTKAd0WkrvKogNJhDe4IaA0WQk5rg59la5CUg7JStJXhhlqr8tdUwx6xsXN6V7GnBgILVwWUeJ25nEfCVdABrFm-fcWPiXyWXvhAsiCPwQyrZ8g_ImpJtE3fNNfmCxJiwvIBJEeBcnC1wJx6lD66vr2QCklTXz0ljGjsQNVOnT-8dFoPpDlSUhbC-46J72dBlPkZ6Tjkd8YsEwUy3IVc166lbSq3h7AePecro-UpZme2cL-5NBajg2H0uNuOzwcxwg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@la_coupole_paris",
+    "google_photos": [
+      "AcnlKN3xEmd6D-wp9EPkCobOCPWm9opvwkm7fyR37dJMO2uQWTKAd0WkrvKogNJhDe4IaA0WQk5rg59la5CUg7JStJXhhlqr8tdUwx6xsXN6V7GnBgILVwWUeJ25nEfCVdABrFm-fcWPiXyWXvhAsiCPwQyrZ8g_ImpJtE3fNNfmCxJiwvIBJEeBcnC1wJx6lD66vr2QCklTXz0ljGjsQNVOnT-8dFoPpDlSUhbC-46J72dBlPkZ6Tjkd8YsEwUy3IVc166lbSq3h7AePecro-UpZme2cL-5NBajg2H0uNuOzwcxwg",
+      "AcnlKN3S_LzRDl_R_0yQv45T70E3QgW3b-r5jPCI2RQQzOoG4GrX6GvkWXkOnOqebRwDFJ0VJNUELXiBcBQ-8Sk22rrlll371gkIfe12ZBly_3bFfiQk1oTrCRq57XQFoyl2OfNaLWqgIDXNvxNF0TGmSTRpGusEINeCJOuzmelGF8XB7CqeK0Y5hkefzHswX1lTiP6h5oWFfYp1qLXYVqOqqPdfsOWSS90Fb89WNHdoPQhwX6CyxJ6rtYhxI2MKHs3slNMyEq4OpYYqxd0nKcnrr6c_plv5z3cvpwO7JEj6PKtQMg",
+      "AcnlKN2iB-V6SyPwkXWgiH7XMETITG9oR94fBf_qAGniTY1503M4RpgOIq_DrmUPKmA4jsKPtQcAOrsnfiPslOLB5FLdBRgPtqZg2z4K8Mhq9b-QG-ITIjH9JfnI0th5cu-tbeaVJvTc3XcwMd6rN1XtGCmz5GRMwMcAooct6eq90AGYvkCEsCeYIDOic5PKrNPTm6G_x4CM6Q_iNRDKng-dRRG1qO5F39sR6ukJCfmjAw30HRU5mL_hJOC6wvS8XcCODgOH9nxhosPifMukMG-1gPqdiez3cRKuYFncYUpDYKvtoYOLpS4a2D-vlhPmUHVYqvaFWqyVghm4Aopg2odl7L0_i0a3i0RkNSQ5H7FFog0EWtlntso5TCrph0u_YXp0WxzfIpSP0W4Tz6DRCxkHUZyI_BARRiTwnCoots_MM039RFj2yvHNZhL5Behtdw",
+      "AcnlKN349Avko6Zoa_SwDK2ehLy6Mw9W6eztbQJe2qafu583Ccsvu5GYlpfuXYHPM1mPq0JKHcqbnwyrP9UchpWmF9dCN8UZub7T5cR7t1XIUZzIavpB7K6A4W6iqhM-PJQEWECGSwhCfiwZv50eKy2BFfPrAKS0mKXe4cH6qi7puQO4O3ZY4wEZA6DQQvNdPG_p3Y8kNp4OzX_SnGgaGpAYFKJEjbWdEG3dIdmTN6UO_iKjj0l49GwBbEl9FiIsB9n1TYP1UO42DJWMKBMu3182JaV6BdA6JNLxqSygxF0BFci6KNlvFQSX1J__bsVcFDKcLdEjyj_60sIS5s4sqTHwHs75vAgYAJjSPjdtdY7_M3MPtKJtww-d0DS1P9ogVKBcDI4-MjISrRjeZENI8Lh45LkzIwZkTxhaF3OEa-1fGuisWs9gqM4ZyONvdW-WCw",
+      "AcnlKN3zMVwYOk3eoaujLheXSo8Wo2UexwSaqtatZbS5c_p-Kz3j3wn1qlJjNDkEykkT4tCbLEE9RXXKdufDlB78Bxc9vb0E0jnzTlL_fk1OObFOSGuHS9yUezTN-fBdwsBsUb93_n6bW08jt4eutRNnHmHK4qFVxMdXyPCUUdGI4rncTX8cHr184phwU78kR2b42Jm8pUbl3SGZMYWCzoLWqF_3Ut69-fHnUiDaHVJyIWHppUWZemjr8qiLSl1rFTVgu0ljB2oDSV1MjfVKbp4c1EqG6A7I-xB5_nXVEMxufncs3LTVgItV45hq0cdQV-4LifUJySMvwir-lvnj2MPCgO8PAEX4K7mTqUQWbA84fmNI5N7AvgY3y9VFMFA3iE89IEG0tePOtBkYYkVVTkTGGCLSdz-VxiKwVwG8QeLa6ca0YTAbwVr8LHc1iTYBdevu"
+    ]
+  },
+  "description": "Inaugurée en 1927, La Coupole est une cathédrale de l’Art Déco. Ses 33 piliers peints par les artistes de la bohème de Montparnasse surveillent toujours la salle immense et vibrante. C’est le lieu de tous les brassages : on y croise aussi bien des touristes émerveillés que le Tout-Paris de la culture. Entre curry d agneau légendaire découpé au guéridon et plateaux de fruits de mer monumentaux, La Coupole reste le témoin flamboyant d'un Paris qui n'a jamais cessé de fêter la vie.",
+  "real_talk": {
+    "text": "La cathédrale Art Déco de Montparnasse. 33 piliers peints, ambiance unique.",
+    "must_eat": "Curry d'agneau, choucroute",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Grands bourgeois, bandes de copains bruyantes et amoureux du patrimoine Art Déco.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 24,
+    "value_score": 86,
+    "category_percentile": 14,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 24,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "LÉGENDE",
+        "items": [
+          {
+            "name": "Curry d'agneau indien",
+            "price": "32€"
+          },
+          {
+            "name": "Choucroute Tradition",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "MER",
+        "items": [
+          {
+            "name": "Banc d'écailler",
+            "price": "35€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 15271,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

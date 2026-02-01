@@ -1,0 +1,193 @@
+{
+  "id": "poi-022",
+  "name": "Café Lomi",
+  "slug": "cafe-lomi",
+  "location": {
+    "address": "3 ter Rue Marcadet",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.8912,
+      "lng": 2.3512
+    },
+    "nearest_metro": "Marcadet-Poissonniers",
+    "bouche_metro": "Sortie 1 (Rue Marcadet)",
+    "metro_line": [
+      4,
+      12
+    ],
+    "google_id": "ChIJjasjZGRu5kcRMUkbbCkm6no"
+  },
+  "category": "café",
+  "subcategory": "torrefacteur",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 7,
+        "natural_light": 9,
+        "crowd_density": 7,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {
+        "event_programming": 2,
+        "dance_space": 1,
+        "cocktail_offering": 1,
+        "crowd_energy": 2,
+        "late_hours": 2
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 6,
+        "cultural_programming": 5,
+        "creative_clientele": 9,
+        "workspace_facilities": 9
+      }
+    }
+  },
+  "vibes": [
+    "torréfaction",
+    "industriel",
+    "specialty-coffee",
+    "artisanal",
+    "goutte-dor",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#8B4513",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 1543,
+    "moment_count": 765,
+    "top_vibe_tags": [
+      "specialty-coffee",
+      "artisanal",
+      "industriel"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "09 51 27 46 31",
+    "google_maps_url": "https://maps.google.com/?cid=8856933576526743857",
+    "accessibility": true,
+    "Horaires": "Ouvert tous les jours 08h00 – 17h00",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Le Tip": "Torréfaction sur place. Le temple du café de spécialité.",
+    "L'Ambiance": "torréfaction, industriel, specialty-coffee, artisanal, goutte-dor",
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "wifi_available": true,
+    "smart_tip": "Réservez le weekend, c'est souvent complet dès le mercredi.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://lomi.cafe/"
+  },
+  "media": {
+    "hero_image": "/images/cafe-lomi.jpg",
+    "instagram_handle": "@cafelomi",
+    "google_photos": [
+      "AZLasHoLveVfI1BQt4KqFzm7x9v9k1jpBfoidDWIZ3knhBWpoYf9D0xdppCWObvdmwFA7GOXFaRa_voidVkKfE8ORLAgWyL0ySFVn0sYi65IGt930TwjJ0ilW877szeFJ9hiIa-ZZ5dWPL0THhPvGStFSh-i_aBkTrksCIzGd_wFo8kp7EYU0101aInWyf1LQI2-ed8eCFN19dDlLo7GPhbLyC6tRJSvQXBqoVloPYaV5Y5XktWJCTgZfHv2AsQCL4_HRaCxL2Io6nnosB-m2I5m0y6qSnaXfgB31aOnaEVi7e_0Mw",
+      "AZLasHoTOqzHk6l8ETA6Xjwnt3pums3DMVusgGSGE0GpUm9fZYj4vCaarSEs3nK-BWpqmtHBT2AHaWzVjjGOFzLkzobfveAh99ol1pUINqektasOnXIsz8fN5IaOGIku7RNAvoCZjah6H4REc07PZ9aq_LpVNiO48iVyrgKPGVyUCP_yg6QNFxrpilmBnpAt7WkYNT6I0kQy0Fu9AUlA57HVMolUjrzUGTq8idpBmyaCcCHQpTqgEbUdmc6tg0ONeOjKNpydZRIGD_nBR3YjRx7AQncHTcL0WSw7pjrSC735T_IYBw",
+      "AZLasHoD70nWpC1cwhhNcihF6Z4LhkKSvEA5Igfyj0eN5VoyG_tqRSsAfpMLTt35MvQImVHwxG04usIwH-BFQBNIC8FQ6IqzJNrpv6Sjqm0QiEzco6o6GCRw1XP5G8CaLoxjo3mB6uEj5mvDbZnj2-c-vhv4ZkX6WqnUHkmtnYT56vV6tPtcrs_BJ082Uzzs46ECWdiA3LxkxnIl8uoULqmxvPUOuWPPmaTj2v5VNfmCsVvNi2TpKkF9Wo1Qehlr5OMJXRbDh2SdFdx_du5q1kEI95O6LRFiIOogVBug0rKUvOaxndJqiCkPShAqi0IMluSULSCMY7I3-N5CJDbAuc9llNDC0bHMEZgg5QvvypiGke1sqOfh9MjiQKLqYPFUG8XAr69Qgsas03C_aUBrKw-fJgJHRv4mfyZ7CrIhj6K0D6nvgpAMLQrEs2aGISL_X4on",
+      "AZLasHqycvNTX8Pk4OAPpK-3eAQTRlvQFyIU7Vtd_FVSJnnszL_iLip6P37l6uFnS15Ucg5BOCavGE--rkNEM6GA01xYy69RuLLBkjkhUE3YJoBQ3UuCDwNEu6vBuCVsRmwbxbA6oPe6vJsVH-BGpWwvTiVXRDy8CXxei06DoEwkwj9GehTXr2NlYTU9h6PeKQggGGjkUiMbafVACrmr-mc_lkhi0KFZ8aSV0UItf9T4ucCjYtjsU6k01ZTCpldppbK87GzVECfgabo3_82JGbFkjWMRSTVqcIa54iDzTxVNX7jmTTxur3tutepvl7p6eXyq0xWNP9bvqcaHhpJqr3XVl_M7JtMi254yXV1bLkUfYr53Yj_qMaT7iDIr1TQUHsI8qGQRMYUIUW9Q524N6zS70AxcZhxQdviC507sd4XSPjk",
+      "AZLasHrs4Ctl_LBjOpteVDWKnffQA8sXiw_Yim-r2bvezHnu2A3qHsk2qnmn0AQnlIzYM-yNSm_x-cuM83ftz7oLXkgjZjEYSAEJ1dosT4f8z1pT7m08J490Gtq5UjsIY4J8ebduIkQLUp6oOZ-nKCF48DSqDvvGRto6-pBw-ybIckWfPT99JWuhLT1DgcF7brzys8CjrEyE4TGMQ8FsHJVM41lizLozPGAVAlL0Laijgb5OipIR3ri7hBxL_f-l33CBH3GJ_s3u0zGQ8Lf38UWylLjAhGUfCsFWszoPk5URkmgV-1MCTKj8NgzfQTIUoYFJ0-p_QG3TGq0dzXh_KZDFB15XmyaksIuf8DRXELqu-uwsQA8ZD4aZvQ064Tv8jmiXyH1gx_Sep1IOXkYl_wFPQM_DiBHfe5cVi9TIiSXt9BM24jb8h-DduvxsL7JGsg",
+      "AZLasHqu4AwnskEVnOPQp-MFZl7EsIniSsJ1hHYSyyvaHcdHIiV1NosFQRkoO3DYealdX_AEx19RkJ26IZv_6SsI2SpdktGRwizx8A3OlAH_mwcoolf8jubAloUvkfwxEqdobTWz6Oy9rs-M_GgAm6qnCRLICVL8YjuNPCGzIChLxJSxgLJoAsQB1LlVKTcI8J_S0UqJaqIEJS0Pb9D5IbAFjzAMiXQPcQipp0TSTopdTgdYHFaKY9l8HXFIawO68hyxTuVkH3kBJRxQF4tgor_-kx9F1MLnboqvn7dwnz4pWKVD8f9DFFdfKnpGK7Mf335-ZF-f1L--A60Q5DvZOIlmsjPttMzxlJ3U2Ku1YUr7Jwxx1PR7KQ4xeFIzfHIt9pL0bUYbyPIW834z1z8QWMV7Ecn_-IEbfxMiMnVu95_-wDDfbDY",
+      "AZLasHoUVvQqd3oefHdd7GiZy54m6liq3iY1RwS2hS2QF8FmgTvgrnRhu_lBazkvxWDNxJsgoEqxtS1eFiolth5WUVMUTYd7-kM-0vhhAcQokTLU5B4uEo96XofvPHZ84CnrUMjrqCknYifD0A8aRXfQpGJhqgXHRSEm4vX3Y4dSTA4A3Lx6BUSEnYcdoht2oRqYGvzY1kHSvlTrl5V8AhZpn37Ri52Sy96NKaPcmQl2I5gqpMlnBFZrTix9D4Mh_BqMSVK1-uPcRsOewVE87SlAxuaGMSj7JKep-5rvK6KJ7kmlHErhvaKGJICElF8LgtUTdy0adoxwr4d_Nuj01rsztnjMYGbgUvfOYWeG_D3gx_8rA9W4jZx0yn5j5r6o2d2jHblRd0YSCofD0a-FEE2x3bP9hvODukTOfDvgWCwXC8OhNAzc",
+      "AZLasHo32J4pVmzDUacqCOgGStwUzSznOdd9RzwFeSyKWvl9FlisxnZPlUQPXHAA3qQLEPQkLWt-_j50HvfZ7seC8o_asRi8cqoSAMee4IYTkJ8nTTL1vMywzd8rnxNISTL6JqfHFzcgRC9f9lZgYDUW2mMg-jvDf6Ca7JSUBl20ADA60bgfnc21LsrWzQRhClNMKC_fXhcokEpE4I5fg5nB6K2SE2OckbdAHG3scDWvFIc64xjkz5QfNv_zJWJzlc7yxsKSNo4Ke6B7Iqf8iPh5EbDztq9fEC3Cy_mJ69xfkwYDs6ojX5Jw_JqmMHkZXBUTE7k5E6_Hrhb4IMFALuzf62AE9SQovlntLBlLPkRj7vQDG_fdVlAkYtTmJkc4djNMpLWiR6hL7ArXCXbA6PO7C-Z0vOPrj1l3DNb97-avy24pLg",
+      "AZLasHopi79hgAjvm5qHGP_3W35bbM5i09EzfSqO1qYuDKiylEpUs1KFcciNELluAZo5dKEUqFBC2Zf-G5PG79ftLGigylNMRaz6rUrI4f_W6bmyM22FEc-xw7dkWLNPkBD6d0BcPpvh0D2dedBPQ7_7O2DRGcR_uvpXVUdEwgTRYge_3XXsjGOS38hqzSs1KjWGNqdZnNba0F7eDfBGcxL1l8zXUlQ8Dk-awlkzFGEewPXRw3Y9Ek0I70-wEN2UIbDa44Ftc8HLcBww2B_-8F08g3HKgExsFJmwIlDfrc7vEQ1uqDabsHeItYoqOsCRSM1P_8IeTv7_octe0Gt4vV-NcaCBd6HDPL057lEqGyWrXI7APpAge1kTQcRV5QEpLX3XZIWX5Bpk4SzxrYtRwMDcMUidWMSM-oWm-E3BqW4Qt9jWsS6c",
+      "AZLasHo42yhjUBldVPV62KmuqMcqXzuZJ3_vBImTD-ujPvqVvvg9S4peh-4bP1oxhmLNyIR-HL4y-0aFanpZ2M-OUce1fSudylmd3xnBEUWl6laADJMddjD_-5XWUdHWf0VyoJQtM8QknpesqB5_buE6n0KptzB_JG5dil-7NzxEbyY0DHFnKl6CmhcaUSBAfL2mVcnUzMAUrYr-Zc4dY0n3RwC4KgUPdFtZ_FbwBtLuLy42ltqVEKZZ14OzISfRtDMvPhTMqKUwvzlQGIs3oNwd-IKKfuDdeE7FnNJBZbtYmDc3alzwik9cOcMUHlOtxA0rk4-Kps4sj7nsyxbLO7-iZBwnzffNZxvKy1kzmKRrR9z31eAvT9kadSm5Jb7VO10aCB4eaj6PRoHoGcaFJ28_YRsCi7DQJ2CBoQ78xzJvKawl3etyBHmfcsNz66pzimFq"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "08h00 – 17h00",
+    "display": "Tlj: 8h00 – 17h00",
+    "detailed": "lundi: 8:00 – 17h00\nmardi: 8:00 – 17h00\nmercredi: 8:00 – 17h00\njeudi: 8:00 – 17h00\nvendredi: 8:00 – 17h00\nsamedi: 9:30 – 18h00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Au cœur de la Goutte d'Or, Lomi est une institution du café de spécialité. Torréfacteur reconnu (Champion de France de Roasting), leur coffee shop est brut, industriel et spacieux. On y vient pour déguster des crus d'exception, filtrés avec patience. L'espace au fond sert d'école de formation. C'est un lieu sérieux mais accueillant, où l'on croise les passionnés de caféine du monde entier venus en pèlerinage.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Puristes du grain, torréfacteurs en herbe et travailleurs nomades."
+    }
+  },
+  "real_talk": {
+    "text": "Le torréfacteur pionnier du canal. Café de spécialité, brunch healthy et terrasse ensoleillée.",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Torréfaction sur place. Le temple du café de spécialité.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 4.8,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Menu: avgAll(4.8€)",
+    "coffee_price": 3.5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1012
+}

@@ -1,0 +1,179 @@
+{
+  "id": "poi-090",
+  "name": "La Gouttière",
+  "slug": "la-gouttiere",
+  "location": {
+    "address": "96 Ave Parmentier",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.86609600000001,
+      "lng": 2.374182
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJH8HzreRt5kcRf3IBJmbc8Y8"
+  },
+  "category": "bar",
+  "subcategory": "bar de quartier",
+  "mood_scores": {
+    "chill": {
+      "overall": 5,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 6,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 5:00 PM– 2:00 AM\nmercredi: 5:00 PM– 2:00 AM\njeudi: 5:00 PM– 2:00 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 5:00 PM– 2:00 AM\ndimanche: 10:30 AM– 8:00 PM",
+      "is_open_now": false
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails Happy Hour à 6€",
+    "ambiance_vibe": "Bar d'angle festif, énergie kabyle chaleureuse",
+    "smart_tip": "Leur terrasse est le meilleur point d observation du quartier.",
+    "happy_hour": "17h-22h",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://fr-fr.facebook.com/gouttiere"
+  },
+  "real_talk": {
+    "text": "Le bar d'angle où l'apéro finit souvent en bal improvisé. Une énergie débordante, des prix kabyles et une terrasse qui grouille de vie.",
+    "must_eat": "Couscous maison, brick au chèvre",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "À l'angle de l'avenue Parmentier, La Gouttière est l'exemple même du bar de quartier qui refuse de mourir. C'est un lieu hybride : café kabyle le matin, cantine familiale à midi et bar dansant le soir. L'ambiance y est souvent survoltée, alimentée par un Happy Hour généreux et un staff qui a le cœur sur la main. On peut y manger un couscous traditionnel ou une burrata fraîche avant de se laisser porter par la musique qui monte. C'est bruyant, c'est chaleureux, c'est vivant : c'est le 11ème arrondissement dans ce qu'il a de plus authentique.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0wn0Na7OrJKnopK8OhfgnULZci7VB-t4qmIP85d9G-vTd5wzhlDNtVg8bXEzd9bYznh9dhkA00T6_oL255e0AAo7jxJMydb8MNjWS3Jj-VS74Mav2Iu3VqM9GJDlksTNp4pDxTnR3IQ0NQW2WO6vw2_YFr_UsDB17GBaHHyBgbXIHjjYembvFBSyR2ApagLo2lce-e30IvddPSi6gpF64NtEZp0JEGUr6sshhQZaWC66nH8LsatlUUz_LsV3cBMCVwxzq2xnW3ZIF__Vp5UBUxLyrvqO3VjzQ2IvRgMApMzQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lagouttiere",
+    "google_photos": [
+      "AcnlKN0wn0Na7OrJKnopK8OhfgnULZci7VB-t4qmIP85d9G-vTd5wzhlDNtVg8bXEzd9bYznh9dhkA00T6_oL255e0AAo7jxJMydb8MNjWS3Jj-VS74Mav2Iu3VqM9GJDlksTNp4pDxTnR3IQ0NQW2WO6vw2_YFr_UsDB17GBaHHyBgbXIHjjYembvFBSyR2ApagLo2lce-e30IvddPSi6gpF64NtEZp0JEGUr6sshhQZaWC66nH8LsatlUUz_LsV3cBMCVwxzq2xnW3ZIF__Vp5UBUxLyrvqO3VjzQ2IvRgMApMzQ",
+      "AcnlKN2KzGrEeg7NT4i8ur9mUtC0uDIpiklTn9jUI01M9I0mNcVsJpuXWkt-xgo4NETZZgWqMurqMpi5Kf2qV5A4x401mdVWp12Px9QN-S5IwhZ26-nrIss6e8IQyaGiPDYrWe_PLFa_WDzU1KzMzDvrnnpZcCKkgqSCq0SOYi2zGe1cb8U_GN0S6NGX0e3BpRVgAs_UmeNA4qE0Z2uUfOuIQB-aZuvuUeYGJ8kTDgkpWAlTvioOj8PH2u_Ipg-jsQ1yh6_F5zOkLmCZwsGhqqx14lM5EB0BO-6Ga-fCiadp9a8EPA",
+      "AcnlKN1gWHfD-RjKMkHFZAaucn2vEdHhlVXc3PQtG27THXEdxLFwFYsicsKjGDtfk2kwTWmaVBFULw_cgSf2RbhnnTs1Gtw0lnsiR85vCDcAG9PrEcU1y0JI52v3vsCVH1bKv0W4SBDi-5tV9xgWpVTMmw3B5fPCgLSHp8RdIFpuA5-o4M4M_EUCn4738TQK1T0dTgagaJk3JQRsbMmqnZUMvG9-4nyBd7vqEDk2_92agA9fYR_dX0KAEfjPB9BQRwYdsZpJeOL2RSRhsvoP-Nf_87PyIiYbYWc2aA6W30qoKzxgufCZuyccmKNG6tFk52AugsQtXekxkMhQvhcA0EDv4rNkYEK1uRBEe3LpYlRH1e_Z_sXd3cXIeZX-7uT9Y244H_vWMCQwjoLrca8E8LMWwx2XkB3tXH1wlf1d7o_uxLsTiA",
+      "AcnlKN1O96kBgqkK_3yTXdj8UDDZXy6W-FRU9YSeLIrMPLhXtp6bfd1xuE2rwfww-kj24UDh9Z-9I6VV6QFCgjZepWWGP2qXytuLZHHG_QBIEsMSp_GLMdHkzeB7Rttd6Im__jpN_0bJel8O2pZfWpm64P7KlBIpeKAGwkp_rgTonloYgRiq9kyx7otrVIphLTk4F3b7rwQU0AvmAUGOYgY5QkpWq1HbykpcqpiNh0AYPFJ7ZYvlxYSx41W2zgkBu3Ua3xwv3OjhHkV9tnLfe0bHrTmrGFnzfoWoboz9Rg6Jn7KlWw",
+      "AcnlKN2DJsUzIy6dPkAdbBCTpnb84-57sE9sD3mfQZq3UbpzRMTdyR7-BNvdEV_j9S81wsQvEO7eFmxzc5XglgG77XJ91deba-Ab8cat5Z09k6w-_aqtwaTTyn8kFgtMcR-sjT_2ooX4WX9oQvvF3kAGJtOTt8yBUEsFrXFDbkxPy6aVSBQcloVZj9HVKQLIh70VM2SHCt_c4TTMQr0Gkvo7VjkKBEFyaMNAXqg69w967AZwhQGzFGHzMfLWPlCJof6E6WtrhuXf0kEZFWsjvKVaR3ATac1lSkIodiGNpotP7tefxsOIvf7omerumlo35P71uWh7DmAhiIvCqRxYtgY5I3u8VSIN0mksTkcIlwEQ7pbKt16-1IxGaaizRqlcIHQ6ur0msQyCNbr68vkY_UQagcBATkdluxMaDGtu8kFjnyNSm4SW",
+      "AcnlKN3hFLBz6JraxE1tiV-7d0Xhhx9oBoz0J8cMV1ydnh_P-je6NKFwUQvO_ygkfka4IQ7MnPOUxaEYqKIxaMKJRCFQz2QI8JEVxyHySk9aMBrlNtZjOraU7UUQ7d85F53jLwrsj_WxwoRxXtWexhjjtB5nUCuRjRu3KpSb-GwXa4VdxID7tH48sEqW9kZpOGoeV27PafS0J6aIK56VFMs294-9DIm4WytdTct9hUcz2KdNXWuCI_sGicDXzgx8Xk8ZUx_Na_5JzFlRsgUtkHlx_Q52k5wtnzI9GBU8rRFBH_eErAg0N9vN3qhoxJ7n-pWjSCT83hH5iR1VFbAuSSJyPrHfyufi8njIWAWquu_wLAfBMZd_Nt1fXzpZSRlG0u9M5fYqJTqIVFyP7h5Vavc8JabIirtuNdsgY5WOjQ3FILogkQ",
+      "AcnlKN3UhuKb_z0SIAJKMHB8Vt8EF87hdasaBDGt6K9y4xT4gLkYIfRDz2pU-7cXXcR2doyhNe4gAIcAxt3zmSYCgLwx3fDXsM5XSoqc-b5RYjgybTgKZlYBpO08EtELbvbtnBZBpLugeEeZE34AZB2FteLGyW7-Px6FFqMTiolSzy-cF_-XxN8fA4yKuXpRQdv9NCy1DV8vBRuecafOm3dihtEeYMOsUvS4Y_FPbFmlGTAtUZiNZxXhtijblPnyXg2_BJfNZrsFDuTW2Z_EJq1vMdOIU92ijZpU-x7kq54sPCDIVw",
+      "AcnlKN1FX3vrNJvfGF7ga9vjNUiBQmU17Fdu2NUDQsDbLpjHVz3B_ibUEN3egTTB5vkdKzOUm6TpSkRaeeOJuuOUKNhLL9DGhQRhwf755wXRxNSCV1cM9LFT_RusjOCC8pzgR31zZtMoaYuWakKLtP4O-wTZkty-_lmXrHTyNBju2Z_TFPlu37HfS9BipmUI4lbsP9eKrgSY8VhW-z9wIwCqOevpeYcB99D5vTemzPE6GT3ixfowIx8ZGfyjTIu4cv5VvAfABd7mfFH_QWN2gaAdpoW59TgHHqZfdTrvxwT_y9sIdHYHsqplBsLrh2ceVGw2FYWPQZgQIS6c4huNQ_Uwf4Me1cDpVTL0pKqjYXK9sgPeRMwHe23JbV1oUGbt1MEPTul7CGsa_8LhObcwSZIxoJlCi7h-ZzFjnii0xdF5jXRHMzPE",
+      "AcnlKN1k38kmTy8i2Aqtls-mlqj4p2yNzz-7gcrPtFNIA0A8slRuT3mVBmr9tTaTzC0HyWFWn7Osbc1NpoTC8OE0sG7f7NrtczjPuYRnGF0inuQHm2ZhPMUvYnn81Mk1Cj1oldhVvFQR7-XjmJwzuAW0oV4kMF8GgTHtPB-zQn9ohcPBIE39dK-srQ1SaQ_qb76GGt6Dhu3i4xvedvu6js8OfJ38C2Qa7IwZy0dGXWEAmUDhn7L8SKTnIap301dsTifBqL6bHYpCow1xnw09TjMkJ6DAulzfl-VT2NqCsdtNV-BvW87zeWmCeutOkIvL3MatFwHmu6bIdnpqe0v2DdL5FTTYOWNgfo9CUYGXT_2nXNM6L-aUhS-A0K76KaubX1RK0npk-6SCzyVPqJ2HGRGUKmLp6FY7zgmq_I0GRWjqtK0_ZjJm",
+      "AcnlKN2SOPPmYAs03395TrkrhrnIJwXRfOoVw-c2vK49ReBj-F8Bz5nRgdXUVMf-CsOUZwke7zMq_WYoLVc5ZzjJqJ1WOudgCT-NKv6VB-leq7YcaNiA0vv83uKXpHPaCV2lTQMgPrrBprki1HB_QKRbe4oSOr_2sIn91IJa65LSUOlRny3A9rNofROleldkbe-toSSPfEwSKgN7APcmQmxdzlz19KaMbJwlRtxt15ljrhOggghn7u5iZgnGnnBzXOy_smGWABc6NWLUr6KD7FRFPLsVI-hYCKfFICtg-HBcMwxWpQ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 185,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 43
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 5:00 PM– 2:00 AM\nmercredi: 5:00 PM– 2:00 AM\njeudi: 5:00 PM– 2:00 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 5:00 PM– 2:00 AM\ndimanche: 10:30 AM– 8:00 PM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Trentenaires du 11ème, familles le dimanche, bandes d'amis dansants.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 6,
+    "value_score": 89,
+    "category_percentile": 11,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(6.0€)",
+    "pint_price": 4,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "HAPPY HOUR (17h-22h)",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "4€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Couscous Maison",
+            "price": "15€"
+          },
+          {
+            "name": "Brick au chèvre & miel",
+            "price": "6€"
+          },
+          {
+            "name": "Salade César croustillante",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": "17h-22h",
+  "google_rating": 4.4,
+  "google_ratings_count": 305,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "poi-137",
+  "name": "Ground Control",
+  "slug": "ground-control",
+  "location": {
+    "address": "81 Rue du Charolais",
+    "arrondissement": 12,
+    "coordinates": {
+      "lat": 48.8438517,
+      "lng": 2.3816725
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJCfUElBFy5kcR5-HZRzpGR9k"
+  },
+  "category": "bar",
+  "subcategory": "food-court",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 5,
+        "natural_light": 7,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {
+        "crowd_energy": 7,
+        "late_hours": 6,
+        "event_programming": 7
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 5
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "12h-00h",
+      "display": "Mer-Dim: 12h-00h",
+      "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:30 AM\nsamedi: 12:00 PM– 12:30 AM\ndimanche: 12:00– 9:30 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Anciens entrepôts SNCF reconvertis, végétation luxuriante",
+    "booking_policy": "Pas de réservation, venez comme vous êtes",
+    "smart_tip": "Testez les différents corners food, la qualité est souvent bien supérieure à ce qu un food court classique propose.",
+    "signature_drink": "Pinte de Blonde Artisanale",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.groundcontrolparis.com/"
+  },
+  "real_talk": {
+    "text": "La friche urbaine XXL de l'Est parisien. Wagons de train, 10 comptoirs food et une programmation engagée. Un chaos génial.",
+    "must_eat": "Food court avec 15+ stands du monde entier",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Installé dans un ancien centre de tri postal de 4500m2, Ground Control est le tiers-lieu par excellence. Entre ses nombreux stands food du monde entier, son disquaire, sa librairie et ses espaces d'exposition, c'est une véritable cité de la vie. L'immense terrasse extérieure, avec ses bars installés dans des bus et ses rails de chemin de fer, devient en été le point de ralliement de tout l'Est parisien pour chiller intensément.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2BQm7zXDvVF0OjEwBmli1zYfDWK3k3sntHeJX77FWeIyMuw8RA2zx2EPz1DvoTNlKwUuovOvMFnpl03S3u65-vvHFWE8D3zqHZNFJid75fywar7gr5n4MqY6ffAVFvxRjhSIK_p7SKYJxhOHodhkW2yNLS-hrfdikR64T78RIjqlW1Zh2hRROpu_26lb8VTfuFqD9TSJXditivfUoPit6XTvy3T9-sLVBHChbHMN7v3iMI2gbY190cP8bSdlXZ-e7nXRS_BZBJnzRs62GlSMcjbUHALLohvzgO76Yv5xn41vlHHCF6s3xtyS7vVWZ5MWHx2jmRuA7T9Z9Rq348JWC8jppjf6bqEo7qd1zTFZkSngjwPQvSLHXE2vQmdlg-UHnhVegyBGEv0f6hETQy11ghGGGuSSWiE11SJNNAPAW0WWZ2&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@groundcontrolparis",
+    "google_photos": [
+      "AcnlKN2BQm7zXDvVF0OjEwBmli1zYfDWK3k3sntHeJX77FWeIyMuw8RA2zx2EPz1DvoTNlKwUuovOvMFnpl03S3u65-vvHFWE8D3zqHZNFJid75fywar7gr5n4MqY6ffAVFvxRjhSIK_p7SKYJxhOHodhkW2yNLS-hrfdikR64T78RIjqlW1Zh2hRROpu_26lb8VTfuFqD9TSJXditivfUoPit6XTvy3T9-sLVBHChbHMN7v3iMI2gbY190cP8bSdlXZ-e7nXRS_BZBJnzRs62GlSMcjbUHALLohvzgO76Yv5xn41vlHHCF6s3xtyS7vVWZ5MWHx2jmRuA7T9Z9Rq348JWC8jppjf6bqEo7qd1zTFZkSngjwPQvSLHXE2vQmdlg-UHnhVegyBGEv0f6hETQy11ghGGGuSSWiE11SJNNAPAW0WWZ2",
+      "AcnlKN2kk6O8FrhoKLkvUsuC2kxcodzGGaWUQzpTL2TXXRqMcEutl0TxJukWXkEZ1X4JAqntIxvDaXlsqJEicS2px9SY6IbmeUYbV1WEgHVjyn5-Ad6P38HWURCXjIT4XhrjT72jQVHUuNgFZK-n78FBl43YLqU0o8VArQfr8Ka4Qv_l9ej_su09LvQeYMjg0YLV3PofhMyEOLdxF5h_ottaqevK8JkW7HdRzZ-tfCIcfPbq6y6encSqnANpk1QoKIzOnSHCrKv5SKOZ-zftMV9yEqjo3rhTe4rZHge6jcTkBlNpZelmeL8vNtoZeWM095XHbfsHQ9IE_nT3WOGyCqXcOjjTsIAYiGw6_c6Pdo6wlQO8OPBIPZVDCzmK8wb7xT31yiL7DMP3VFtX5dQYe547ZBXRtL6xtVkIYTS6zB9PfAUusUubgmvvUXIPbVNj1g",
+      "AcnlKN2_6PvsdIGMKgH_7dnhPh86GehilUqo0_bTNSYwgB4GqZJv-EEveVesFUkJS5h94AVsA-FK8eQiXZnI98yOMxtC9yLNMD3Yg1WK81oxlx6eWmPVXgAFYU3fc_FgjQPTblJtsFE0U2GwkqgZcT_n4u_CH-W_duJX5rfmVi5LxSUb7BhQo2WHrsymi7QUitAaWsuhVava5nY9E9CcSvrAquWI5ZN0vm8-kkKGz0CGixCb8_EeVwjtBL4HoD_DckuR_H6tbeVS-PORaH6QLHKptR8ozpAn2xARPXapNO9yaswq5nd6kim7KTHKg9z6J9xaeuHCfAtSZFr2dWSs_iHevh-1I182Y0-23sOxh2HRqrxskHxdA4xnflzSbRv86Yybs1BbBmScbXMOYiu0hkpqe29oKloi3Azw0eyYJ5PtrnY",
+      "AcnlKN27_FDBJPF2oAZwRnJPX-WQRqua0fWhuTPGuk9fLHwlvWaO2LVBnTS1Z5KUoOEn72KLAr6j3P7r1x6A88Tc4QhfWDqrDmxZkRyisqti_pLRtRGDBs0OyC-Yr6LWfpIYKWkiL4ddcUBrtTakePOZDfzNN4iIm3qGBIJc-gaGcTzKJ__3pf--T2Eezy9WLcebBK4VrvXh98sBztJ9LwLNNAmoFjvb1rKEmy4Jqz7ZeRRViyMyd00uZ-LlvWDGtnWjCKK3f3UC2HAZRTzpzxHa2zjDlHz6pFb6KEYIwhEb0vSp8g",
+      "AcnlKN1Qrd9eBrarrd_g6lP_AeUH3ZWSC_lao9mdR-6sIw2OTE37bLlA8ryhu4xp_ppVxr3FxzAgq3hF3N6jmGeqIApwSKu6gpv5bghQV97nqxmd-tpK3j7EB8e8BYRSbXmcjr1LUZ8dIrQBXpObPeUNGRi9HHmlReKhZhLWFZh7ar7hIccBxxKXJoTT5IWJNVP_B_DvTQfLDY9vgLLfFw_m0uS0Oc5iB0Xw-jy3gnaAa5JsyA-WhSM5-lY83qLk36DZevsswNE62S-O2pL4S_IkHnWsjxlc1vvx3fUU8ZQ-lEqUSfXE69lhKZxEgm5j41DbkR2ygdmScKPHxFkD_XL18-QV-8RaK251F0KSQkd8EbEPN9OfehBqD1L_TXZkamolNMqcFYj7_dsDzcXAurm4wuex562J2g806RyJX0XE0UChIU9Y-EU9WPB7fB8htuTG",
+      "AcnlKN0yo1mx3A4nRLOtuBIco5E2DW7ryNgJe2vWsCBQ44eCWY-OaXE_mDmKE9On40mycTE_namgAcWLwgEVvZNMtrxWC1GqC1gRsa58VBnL0WOnonFnbjMQt18ueFyMf3YMNJDW2qr06lQJFrq7aHVNrmfmYqaDq1l6zB6tzxmm-pJASl81t6HLTF8uJDNNOOo3aHrp7u5mr0eU7fc-RAWlALcaBnRYF_1lhwy2inIMa4b4__t-0uSPJxWRK6iXCEOkuiJi4k4ulSDS0sbn31OfHNFGbzY1vybtGYxoTxVToK0X8n2eIPhK9Ck6Tm1YpACla-BL0Ig5ZdD10Fst0X05RSgtNq0VDhceC326NKNHI2aFR6umJFZVt0ounlfPG_KHeMG0WVTMkjxnamWN1tqhf0M0XbcNiV6aWCJI_RWxLr8",
+      "AcnlKN3oe1wzqII6cmpLzEuGzVf9xCWK-Mjd9GcCEduo7zghgN81k36cB0hOCbSAZWREJ36gXvL7YoHj_g2RKbCg88hYYXgW3m5grm9JNl3J-RRoL3Zc9JlByy4DgiS6BLlXPq6FSCG1jBmopohcx8HEW38Df1VYaT8UQOSeUuOtUanoRpb324oitCvzLoj4MfQABIoCRYJzQbPiFO7v-WiGsCGPe7VwyZGDNF5uaT7Iwc1l8_MI6KjWKZGpg30ETkR6fttJUaHLslg1Ex0TJTSS3htK1JJTw-L4381sjSQd2XsmIvxAS7_xzV4qTPNf5RtNHG98Bl-Zn6ss4Vwu9IiPNil_4rhmBiqBOVN1kRbSwIj1s8DN3HNlnX_Qr0to0-T2jFBMRLNaO8yuRjUeyFbf69CFyMj9Sa5CpK8vjcHKkdTPp6kZIoJLzfpsLD3PoGqX",
+      "AcnlKN1bvVbiJPJByVXao_VK1lCIeJ3t94WneptppR7MwN1RYP7SK9dZG0XuiNbwQEzOq_ZSyNwDX0Qxwzks5ZHgHQCjRFRHpr4rL9G9abuDfJ0uVoROttY6MmRr9KCOPIhTdHLBGY5Pw-ObU1UDTs2YLcJWW-OlI-4qBLg8nn0MT1FLqO5QHBRK_RSzGYL3r78MY_zz1hjFVnEe01qGBzPyhj-iAPDpu_Eks4tAs_YeX4V2zubc2i3uduMaunwjtm2u5LK56dX_ul5IJQaKccCWj5IpHMH4uqK4ApNsG68RDjYeKebvr63t7WtMddrtlaHA-9am4LQhp2A3QNX2_yj1rqvHvdp0BEStEkkVCFe8_ksgJcqlh8_mHQa6GAcxEc3CdosXbK9TmlAr9x7LbSFbUi9BYqwylXwNWYrkLfJ8QzjVesG7X9pyPVOBuFnk3w",
+      "AcnlKN3XB5fd-APek1u1n--UKteC-VwQHc4QCeNWN8rU2gv9dQTBEmtsGuZUK2HS2y_3oEWbVg-Lc9CJKQzVGk_BrU6XpSf4m7jJp9xOkaY-8hHateSnoH1Y9tz5vh-xbBeVEn1Sotvr1W11hXA3UvuKhcVScMAPpv1lSxSdGa4XbWtZ-ucuK5tOeaGSlO37i63ASuHf1vSFwTK2LNGlNgP-88MnI1iuI2ZikJhjpaGWeAeEV53r6tXPo-C9qQzb4nJQefMl9GeDeUpxMpLztYKBIwJOgUe57Ep9PoRvSTOExqe-38eSdO_iDR1d-SRQ9mlnM7bXFz4qQ6aZtCAOjiUPn7VAKzDkiTb7SBiZEi9iPZsdp-Nje3Ei3C-l4DnbJS6zINt6aeJxI3nsdgN8b8SUhgLeNg12VXxfPaPD3QStH2rqBy04S2Y-lTx0f-ZDmA",
+      "AcnlKN2igzj6BR4UGGeVigrY2v_yWBaHatQM2ep4j6IHAZ655flYCk39HBIZrtoG1zfTChZAuACbNpA-Ystj0QJ0QbgI0RSflAibkPk3bx8k96i-qea24ylPJl0Qoo1_Edgiq9AlendyoTiTAYVqJXJ08Ur4k4BE8AFgyvXqypU-RpoovI80-qhl5iNj4e3p3UMueijVncnwgGbS5ZD-W5SBfxhTlQUYB4jNm11RWff4ubhy3tRyeZsvzYbFH7IF-CRmqeiMBEpHlzbDao5Yg-OqBHBa4wdyxZcohpQZmkYYQwLeGKJaQphlgOcNCl-FLnMlqYoNSo8BMtJR-E656IOqKjyM8USnTgKut-QLp8zimRrh_9bndKDNGdOukoQMlJ36QSLkkSNLPqhq4fQmhWHX4QwzqdmqmuPqar5FkYulI8pRlqn_1xf76bU7p7VrsQ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 699,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 25
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:30 AM\nsamedi: 12:00 PM– 12:30 AM\ndimanche: 12:00– 9:30 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bandes de potes, familles en poussette, freelances et fêtards en quête de grands espaces.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 12,
+    "value_score": 22,
+    "category_percentile": 78,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 7,
+    "main_dish_price": 14,
+    "pint_hh": 5,
+    "hh_time": "17:00-19:00",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "FOOD HALL",
+        "items": [
+          {
+            "name": "Plat du monde",
+            "price": "12€"
+          },
+          {
+            "name": "Pizza",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Pinte Pression",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant",
+    "bar",
+    "café"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.4,
+  "google_ratings_count": 13638,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

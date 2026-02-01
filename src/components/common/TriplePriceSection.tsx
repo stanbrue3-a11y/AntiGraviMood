@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: '700',
         color: '#111827',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontFamily: 'Inter-Bold',
     },
     sliderValue: {
         fontSize: 12,

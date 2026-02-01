@@ -1,0 +1,140 @@
+{
+  "id": "poi-231",
+  "name": "Terres de Café Batignolles",
+  "slug": "terres-de-cafe-batignolles",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8875,
+      "lng": 2.3195
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ-wm_RbJv5kcRtuTamvhvvr0"
+  },
+  "category": "café",
+  "subcategory": "specialty-coffee",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 664,
+    "moment_count": 53,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Espresso de spécialité, filtre",
+    "smart_tip": "Leur Cold Brew maison est particulièrement désaltérant et aromatique pendant les mois d'été.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.terresdecafe.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2baVUD7qR3bds2OM-Rr5DUke2GD1ygrNTzAbmbEHODCfxF7fmaOahpe8vffH5frdgls8zsBKEVRl04VlRipCz8iU4v_BalmiUiruO6T-5LGPfGixIZuXyctGiQPKSNCviMdLUnusTmJP7NYguKkDXkBrxFsSgKDQ24O7qRmLrDvR-PMAagJ4poqAIrGoidXxgoftoz0kYJnGtuXHAaGoTUXfgfz1hKambVnvf2NlceGNgXbODAwlXTo-3fNdopplNh_srnYa8sw9CrepiVJlobQL6Qic-SLi11_jYD7IWyhw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@terresdecafe",
+    "google_photos": [
+      "AcnlKN2baVUD7qR3bds2OM-Rr5DUke2GD1ygrNTzAbmbEHODCfxF7fmaOahpe8vffH5frdgls8zsBKEVRl04VlRipCz8iU4v_BalmiUiruO6T-5LGPfGixIZuXyctGiQPKSNCviMdLUnusTmJP7NYguKkDXkBrxFsSgKDQ24O7qRmLrDvR-PMAagJ4poqAIrGoidXxgoftoz0kYJnGtuXHAaGoTUXfgfz1hKambVnvf2NlceGNgXbODAwlXTo-3fNdopplNh_srnYa8sw9CrepiVJlobQL6Qic-SLi11_jYD7IWyhw",
+      "AcnlKN2HSMelIe6lFT9rjmySa4QDR8QoyMImKK8Io7UFdz8OJklN8j-lSo7XEuZfzgJMxd6MM4P_wfrRo9wVHT7u2rwFEYYO_NQlou3N-NgpGkoBAnh5Y22WL-pZS440gSgEjh5fDtJu9StDhE-Q5KkHfQYhEQbSIjtgdGIy7gnohZXiGOIAhbMv2Vu59ta1wOL9DV_QmlaaEqFdgGZna6gkKl8_jU5A_Me_8bpUixSBfAoaXaLRZo4KqUxYlfoarCynOVz1TYIjMzZ7Do6TxIUbFltBNHDyu8GF1VdfUUWHjQ6Wgg",
+      "AcnlKN0rPF7SWYksqouLAfxF6a-QLn642SHf5oEKoIJ9qlFAJWb2jHdTNGXXMcwNjP6YuKVFGsyg-gf0A7h_h-oEWuScKdbYBxuJe9qgdq4J_h66Nco28L8CTMaov3cPGGxwjTCTIU3sKxU0-FydCH_5L8Qmhs1Hx-D8rSAPM_wHAxY1VnPeg8fGzQc4RevN7UDd32XRbu2NtrBnIQdYWNV9ditsHRzNg4iNRyM6yoMjiV0FvmVuYg49Z6FHfCgDAESA6KsSVzMLGak_ST_ecOKXt2Z1miqIb6u2CMmX52lAfp2BHQ",
+      "AcnlKN25MsS2suc6d2GsjBU3N1SFqP333o2yJ384f9Fmpxpk_c9WbAK3RNnEML7eOsq6lUvkfKg9uFP08ZXDBzDk3hjIIQeyXwAo9MMe4bl0CZWmmifZUEFy2W1_NDquWLndCdeA3nAHOPp1_YvQx1X6xwQAt_s3VRdvndoNQetNiv7pu-60_kAPsbgK-jMg35IGOuLZGfajHaJdExYeV9KeDgxtKBuqQ6CqANFjjYEJ9UwPG3c2O7ZlNCgpjV-Qhct6tXn_IVAYr7CK4FbofQXgwDYl2jWRvYSIYkFgjZqcJW55fVW7LVBHzhQkWyahS_at2hWOpcN3DPC8c_TUT92JpYDLiEJAh6_hVPczSnKqpslrmTue_172P8fbL9u06ugtgQTPXrv-PLFy1eKCVuCl9kOxM1AJvFt9oPIZjUdrhoqjS9yfWX21-qNNQBy6nyr1",
+      "AcnlKN3N5cjMRkBijcWhvemdKXbH_XFGe5JpMBL08Gm2Kz9I0iM2GE5Ol14PLeJGMVmkkPwYKvCd97gDzuw6iqtenSi7pBHOcnpKPSYHHnGZ4gyun72R-ajc0w1hJuDXaPBuPuoVxLzOiQX5A_RBPI2vARWnTE_xU1PC0guRbrvKzNgLIBxQNH24x0uGOdu_JlS2tw2k86E2dTZL_WJnRLW7p3W8LAS1SLWIxdQWflA4BXT9i9fUJ6Dm_glpiHUfeC8r4yrQBesr6GpmxusKgdcjjVOdxCoM4GiTg3fp4tGB0XS4kG2zKf9loSREC9g1YjSf-TSWENFeOWQfNfc6ml8TtLJciEkDELAzKhNOCc6z2b2mvj0RoVSn7vP9mSXvxQ_NiLBGdGpvW7bsZwq1_SVba5of1OdZBrCGyP6ei-sqa9gIRgRHg6dZLKM9y2DofA"
+    ]
+  },
+  "description": "L'expertise de Terres de Café trouve son écrin aux Batignolles dans ce lieu épuré et moderne dédié à l'excellence caféinée. Ici, le café est traité comme un grand vin : terroir, torréfaction précise et préparation soignée selon vos goûts (V60, Chemex, Aeropress ou Espresso parfait). Chaque tasse raconte une histoire et les baristas sont là pour vous guider dans cet univers aromatique complexe et fascinant. Une escale indispensable pour tout amateur de 'specialty coffee' en quête de la tasse parfaite.",
+  "real_talk": {
+    "text": "L'expertise du café de spécialité. Chaque tasse est une leçon de goût.",
+    "must_eat": "Pâtisserie du jour",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Coffee geeks, télétravailleurs du matin et curieux d'arômes intenses.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 4.3,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Menu: avgAll(4.3€)",
+    "coffee_price": 3,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso de Spécialité",
+            "price": "3€"
+          },
+          {
+            "name": "V60 Filtre",
+            "price": "5,50€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Cookie Maison",
+            "price": "4€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 401,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

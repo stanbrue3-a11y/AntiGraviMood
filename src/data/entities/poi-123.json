@@ -1,0 +1,168 @@
+{
+  "id": "poi-123",
+  "name": "Musée Bourdelle",
+  "slug": "musee-bourdelle",
+  "location": {
+    "address": "18 Rue Antoine Bourdelle",
+    "arrondissement": 15,
+    "coordinates": {
+      "lat": 48.84315489999999,
+      "lng": 2.3186433
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJneWSEjNw5kcRrpbgsvMnPIs"
+  },
+  "category": "museum",
+  "subcategory": "musée / atelier",
+  "mood_scores": {
+    "chill": {
+      "overall": 9.6,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 10,
+        "crowd_density": 8
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication",
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Sculptures monumentales, atelier préservé d'Antoine Bourdelle",
+    "ambiance_vibe": "Atelier-musée lumineux, jardin de sculptures",
+    "booking_policy": "Gratuit pour les collections permanentes",
+    "smart_tip": "Leur burger au comté affiné est une pure gourmandise.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.bourdelle.paris.fr/"
+  },
+  "real_talk": {
+    "text": "L'atelier de sculpture resté dans son jus Belle Époque. Ne manquez pas le café 'Le Rhodia' pour un brunch arty en terrasse.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Situé à quelques pas de Montparnasse, le Musée Bourdelle préserve les ateliers de sculpture du maître Antoine Bourdelle dans un cadre de la Belle Époque saisissant. On y déambule entre des bronzes monumentaux et des plâtres herculéens, sous une lumière d'atelier magique. Le nouveau café-restaurant 'Le Rhodia', installé dans les appartements privés du sculpteur, est une pépite de sérénité.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1oqhr_IrKSCeaBh8lIWyd-T0qL2k4UJ0ReBI7GdQhS-4tIRGLInpSp8B2R8HwJR1UY5eGIgPQhzfYJK5AjPDKiMVpYuKgXl_BnphNhU8JTvhCJW2XKdLxIwWH6LGC4C61VFJhte7e5BsQzb3zYIDrIERTkEnU_uyXY0OVUce-_yzAnK0pgjUDoX63ZnYgHdv3cx8NDyflqJg0p5AheFR7uCU9YOXOvl-yFo5yqnSsMGIlQUxpuFtg1z2qVDJfLHymVQ4mDAyLj-nRP0c9GMfS63KCwwx06tSdwmwwjzIWpcH7C_U4OYpAC9BgBqkIU3RfmKQrNIpV19ga89SmPimZ0R-HGHo6vPgunAy6aUkb5wE5TBSJJKHjhBksx9992HWhd08xB22cco7zm8r8zbClOAEEs0vk5Em3WsrzitrfktA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museebourdelle",
+    "google_photos": [
+      "AcnlKN1oqhr_IrKSCeaBh8lIWyd-T0qL2k4UJ0ReBI7GdQhS-4tIRGLInpSp8B2R8HwJR1UY5eGIgPQhzfYJK5AjPDKiMVpYuKgXl_BnphNhU8JTvhCJW2XKdLxIwWH6LGC4C61VFJhte7e5BsQzb3zYIDrIERTkEnU_uyXY0OVUce-_yzAnK0pgjUDoX63ZnYgHdv3cx8NDyflqJg0p5AheFR7uCU9YOXOvl-yFo5yqnSsMGIlQUxpuFtg1z2qVDJfLHymVQ4mDAyLj-nRP0c9GMfS63KCwwx06tSdwmwwjzIWpcH7C_U4OYpAC9BgBqkIU3RfmKQrNIpV19ga89SmPimZ0R-HGHo6vPgunAy6aUkb5wE5TBSJJKHjhBksx9992HWhd08xB22cco7zm8r8zbClOAEEs0vk5Em3WsrzitrfktA",
+      "AcnlKN0xJFtDc7yAiNtfFSHuqMev3wUB2s-GrhlCHas0cOA0ZzLk58bA8Vts4_3nisEd6VlngAX2fLeZSL3SiPWuV61Zxd0AGwLXNL9pyShWM2svX8BI-9-KGL0v-8yxawEMMfgdhOfdWJovvemqc43XGH3jFayNPyio0apLWbnzIT2mrwIz00qEHiQkVpJ1wpDvxvWj44MYoI-gzxiQ4aNQ8UrYq5dqDonEkY_7GSKmAU4LSoBhChkwDq_yXaE27OQhkHlnd9BCwg_wjKS1l4cf7njRJ9gxTda1xXzAexSdQ_s_EhH_GxbPdhjPT2XFbX8NgWz-_nUdrw4oWczgM3dHMhDn5obCvt64bBO-pXQqsvHgNC0Gc8TUu07RQrnLN1dFcVhLXcsHkaLqiALUjI3WvaFrf66kOs5ekw6GQUv-4Gd0mr3j",
+      "AcnlKN3IVoFgxxOrxF7aE5ZQ_lMH-SfnvxxJjZjWCB1PePQkztscIShG5xrWu3J5HJmwnhj5cBNKUIJsmzXCXiCc3dhM-6xVW_dXK0bAEFyOrsz2fX-g6BbI8FN9elbDs8pfEmqmPU7ewWy18628XdZT0cwyInIRubf2Xs_z0XE5PUi74FZ586CPAsXYLQcqPvOFE3YzDVxTwJdYiq9hoVAphBHZfTBRYj_2mFkuipiUcneLntpg9obdaQVokoR6NMsnphH2Qx1dQXTc0CIcniXFiylZSxfq7Ri32-wSdZnYLS_r6ic4tEHMOSMQED6pZFRg5bFD8CCpjNk3i70TVtp_Os9VFLlUwR3YYpnulwFnoXq2k8qClkmEhq1Ee6sTCl_ma_E4SvkWX3PwEJI_CkdiJaPNINIrDqpIxpYSpHqsM74rvQ",
+      "AcnlKN26ZDYoZWLqA9FGPUccsmWMGV22LwqoBQJcn-J7swx-lHOqKd1p8isBuaCvavOWL9dX5tuLHIfPAo90QJ11sx3hK4npKh6MQo1ppZakiC2jxPoUvR5Kbia7NhXbJ5o2CafAZtkpj71Uf6rf0_F2QTsAygV3PD87fD1IPdnoKGF46GqkR99OB_TfYn2RXmy8guw0DH6xkcbqZpZ6sBsNS6GBdecupqxMNc4CQ-lfEu2bVWWPmjdd5c4TuYbO6MQ9bh1PX31kbXCpgMJaM2OwdNmOK51RiBHnaH1QAppEUO4EwMpVIMFjaJ3h_IQEMXghPZKdsPWQ9VChyM8-SpziYi91969VBsil9kKfKFTk-Yp2DAHXTbrca5U5khk07EtbpQzqnDeQh1RpYaTOP_UKEU0x_kIrYtE2G4olsw1i9m5jqAY",
+      "AcnlKN3v7iy2v_W5Ie8WLowRBasgfG5ngz2ZD7J-cWxcx-l-RVVW-CtaCSfIi4pV5dP-H_pxEcCTTaSxMlecgv3G96KZrR8O5bwEHuUaphzcoIYjsYGcwfODdjV91g1oeR6Nl3U3_u1NywnXjySo8ya1A1YhH8ll8SNMLM8YBQHkNfGJLx6Ju6-GeElJubumVXhfwnBp4NqSorr9ovHmwkl5IsiAlbRJ5fI6gk53pZMi2od2ghZDQqXCKyrgPFPvmNiZWJZKLqLihXJEIwGGNsBlDM13BgWXo34E9pN6f_mCXiuqedhhDMfGTSlR9aQDNKQba5ULvj37Moalzg6K5vZC_jR5BID-z4i2bD5VXDkgggJmuJ8xAJog7lz3FbGZrG3B4MYibjt7i0Yv-NpqZ18BOOj0LnE8T_YhpBRnCgdCt3Q",
+      "AcnlKN2HldFlJS6YGtWYGNuZRV6dDXd2dcFpsFiA55kL7kGHVf2Z7dYG-Ym8hdMLozmx1LE_GkbrgHHD4goi_OxI81QdzenIKXQdh8ZOST4PtkB0QguzZIVYESh2POQaHjJTMwAkwMMtY-L5Og-RckhRvXCNDwrDBmuT7qQSlOjm9gQ3_9XcQmUzo2m5v8rd3E_yT_EDC2QVuBHp_fEU4VmcU6HMo5_G4_hShycxlI5le4VpxxoFzDfgsm3SQIbrjUAtV41M8x0uRFqVsvCb6w4DHTFBwDB2h1zi9RH0rSZ-JZV8l8RKZj4Xt_PSFJfrRnncN8K_7UDfYMT76X6Rfzqfy8N9rbaqSBXs_y7gVbHL9dUP75C25MW5oTjcDgSYIHCroOfQUHRivB4JJFizbJL1F6sXBUALm5Mw5wre0XshJ1FWDXil",
+      "AcnlKN0xpY0n0MG4RLM3Acg3exeDLD8hOBQ4Y4FlIU5PGSHTRSVSrhDA-Kuk11VkOG8nx58aqTP9jVxYfjl72vv6p1eKLGDMQPSkn1Ci8QII4C_ZHCEvPioSHtkUAwpIH7M5N2AxGDSK4bmXwAE_jj8iXLhEjGdtqBm2dt_YQnoHalEfHVJhTaahuEuIzsa3bdgQgt-uaA96jlecZwZFutjIFnrVENJ4f2fEaHYUw-fF_kbx8VOI8J6YWrEjmyAmgB271QbS_JxKix5E9IowGPpFGfmB4aK_uxvNkaye4fMWy0RTxk-qN0b7TTDc7U4xSjJTASeFdqJ11a5wzKTa_e-IrZWSvsSc07INAQcsDK-CYeFQueDzUFj_-K2BlkbW8-Z5_KJtm2ENOTYsQAKm2HFWUIbM5KYRvgJxbgQdWALCc_dR2g",
+      "AcnlKN07G1tKcVdqxMOqhwKbK2Q_x9YQlcDNo6OD1PRqLJDpgbzEiOpFjWnPYDkZsSJZXz-cJ_mYHc_1DuXM1foDCwMQRU_-_tJLH3H6zohhd9Z2isnQdXxHbfCEHDuW_mw5CdGgVllZ5LI14ZhX4Bi7RpgmW_z7fD8bKYXim2fLe0feaagbxaQMEun516ryPVI5lmsXzu1DGJumd-15JEerqgHRG4qpLAtPQLRJSBYv0WmAAeGEjLiXlsg-_u5czJ-u8pXBV3KlCBrnoFMBQXGWZcKpMsGwxfmA0frIZ-7iZ7QJ8Zq8g5HCrMy7Ym-h6vu22lvhSt6ophopSNXl9r4FC3cHA8pDi2ANjLOhEoGkf_9aV_hhFVTzA6wUOSMRStKm0f5sx2ivaVz1oXOyr96xNen6Phr_3DVQ-McMjWGf6hRjEcEa",
+      "AcnlKN3psN1CdJB_KrN2dR5yhWrhl62ETwQXtqN5hsmEjGEw9c6dH9SOPnQwBzFMLGNfM1fQjfpnVFSnDfFSEeL7Exyct12fYtx8lgeDusIx44fT4SliES-sIx-FLOSf-a3nIjjBEH9h6uayQd6-Z_yuy_vNVnJPnIzrop0LAz3W6ouPHvvr_ny_12Jnt_Zw4PPvMVKQT7mRoAcMg2ptQBrnyET8MurtFrXQS8Q0CwcP_PN9yYRkoGPyk0_Nf1znnt8ekMBIsVHUyDnodno0nkzYkneDrl93dmkWcx-0FypbUxyUPus4cN0MBYCemcPgGxpLrrPRujqGJqMA86hGkbIl65KD_FyUO03xF3kcxlh9_tMDErGgED1Wa1hdNOyWtNd5MuLGizegqsmqK9bcMrIG1KtrScDk-8XNt7HUH6nse1VNZg",
+      "AcnlKN1TZMLFF6otBDhLvADGEz2e3wIZZkczb88SeUW7_6N0M92BNRDq8-_ClCXM8VILnrocYMWXB5T0T89Een2wvGXp79EYz8rpHNgz8Q70q52RWHd6XXwsTdiJX32W6bspL1f0slYdnkg2eT7J6Kwv22T-tYKBZpZyggyKGMFSvtFD0j88cAsha1vtEeMLMiVmZ8fN57473yWfFY8fCBXvxW0I__MmN2hNAiDZG1grhAP64PiEKWjIR4ryZ5-8thf0RDUS0kiY0ICJXSJd1G_dTxBkUpnq7IJbpwx9l5xaM_bSypYKz8Bavlk64yu251cy038SlBiyu5hqzsAvMWc46hta2Ijv4Inj5pENFL9L0eJHZa2S2MGjinOaKhBRH8IBZsg52bVoStfx2BIKdJP_cDfspYieaXWwRCKgHGd3gaKfOfyB"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1335,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 16
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Sculpteurs en herbe, étudiants Beaux-Arts, amateurs d'ateliers d'artistes.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 24.5,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(24.5€)",
+    "main_dish_price": 17,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "LE RHODIA",
+        "items": [
+          {
+            "name": "Brunch Dominical",
+            "price": "32€"
+          },
+          {
+            "name": "Plat du jour",
+            "price": "17€"
+          }
+        ]
+      },
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Accès collections",
+            "price": "Gratuit"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 3644,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

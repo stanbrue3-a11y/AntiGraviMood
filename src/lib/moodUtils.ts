@@ -1,32 +1,43 @@
 import { Place } from '../types/model';
 import { MoodType } from '../design/tokens/colors';
 
+export const CATEGORIES_CULTUREL = ['museum', 'exhibition', 'workshop', 'theatre', 'gallery', 'espace-culturel', 'monument', 'library', 'arts_centre', 'monument', 'church', 'castle', 'tourist_attraction', 'point_of_interest'];
+export const CATEGORIES_CHILL = ['café', 'coffee-shop', 'salon-de-the', 'bakery', 'boulangerie', 'patisserie', 'ice_cream', 'parc', 'park', 'garden', 'forest', 'plaza', 'square', 'gym', 'yoga', 'sport', 'beach', 'lake'];
+export const CATEGORIES_FESTIF = ['club', 'boite-de-nuit', 'nightclub', 'disco', 'concert', 'live_music'];
+
+/**
+ * getDominantMood 
+ * THE single source of truth for mood categorization.
+ * Brutally enforced across Map, List, and Search.
+ */
 export const getDominantMood = (place: Place): MoodType => {
-    // 1. Enforce Category Rules
-    if (['museum', 'exhibition', 'gallery', 'theatre', 'espace-culturel', 'workshop', 'monument'].includes(place.category) ||
-        (place.subcategory && ['musee-art-contemporain', 'musee-science', 'centre-art', 'friche-culturelle'].some(sub => place.subcategory.includes(sub)))) {
+    const cat = place.category?.toLowerCase() || '';
+    const sub = Array.isArray(place.subcategory) ? place.subcategory.map(s => s.toLowerCase()) : [];
+
+    // 1. Hard Rules (Category Based)
+    if (CATEGORIES_CULTUREL.includes(cat) || sub.some(s => CATEGORIES_CULTUREL.includes(s))) {
         return 'culturel';
     }
 
-    if (['café', 'coffee-shop', 'salon-de-the'].includes(place.category)) {
+    if (CATEGORIES_CHILL.includes(cat) || sub.some(s => CATEGORIES_CHILL.includes(s))) {
         return 'chill';
     }
 
-    if (['club', 'boite-de-nuit'].includes(place.category)) {
+    if (CATEGORIES_FESTIF.includes(cat) || sub.some(s => CATEGORIES_FESTIF.includes(s))) {
         return 'festif';
     }
 
-    // 2. Score Comparison for others (Bar, Restaurant, Park)
+    // 2. Score Comparison (Vibe Based)
     if (!place.mood_scores) return 'chill';
     const { chill, festif, culturel } = place.mood_scores;
 
-    // Default fallback scores if missing
     const chillScore = chill?.overall || 0;
     const festifScore = festif?.overall || 0;
     const culturelScore = culturel?.overall || 0;
 
     // Prioritize Festif vs Chill for bars/restos
-    // Culturel score is largely ignored for these unless it's overwhelmingly high and relevant (rare)
-    if (festifScore >= chillScore) return 'festif';
+    if (festifScore >= chillScore && festifScore >= culturelScore) return 'festif';
+    if (culturelScore >= chillScore) return 'culturel';
+
     return 'chill';
 };

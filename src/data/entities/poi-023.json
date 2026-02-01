@@ -1,0 +1,130 @@
+{
+  "id": "poi-023",
+  "name": "Chez Jeannette",
+  "slug": "chez-jeannette",
+  "location": {
+    "address": "47 Rue du Faubourg Saint-Denis",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8721,
+      "lng": 2.3541
+    },
+    "nearest_metro": "Château d'Eau",
+    "bouche_metro": "Sortie 1 (Bd de Strasbourg)",
+    "metro_line": [
+      4
+    ],
+    "google_id": "ChIJ485d0BNu5kcRuttxxnj2hQ0"
+  },
+  "category": "bar",
+  "subcategory": "bar-retro",
+  "mood_scores": {
+    "chill": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 18,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 12,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Néons",
+    "Rétro",
+    "Faubourg"
+  ],
+  "practical_info": {
+    "bouton_réserver": null,
+    "réservation_obligatoire": false,
+    "terrasse_extérieure": true,
+    "accessibilité": true,
+    "téléphone": "+33 1 47 70 30 89",
+    "réservation": "Sans résa (Trépidant et bondé)",
+    "ambiance": "VIBRANTE (L'institution du 10e)",
+    "boisson_signature": "Vins natures & Pinte",
+    "incontournable": "Plat du Jour à 9€",
+    "small_talk": [
+      "Un décor de 1900 resté dans son jus.",
+      "Leur formule midi à 15€ (boisson incluse) est un braquage.",
+      "Évitez les tables près de l'entrée en hiver (courants d'air)."
+    ],
+    "bouton_label": "Site du lieu",
+    "price_range": 2,
+    "website": "https://www.facebook.com/chez.jeannette/"
+  },
+  "real_talk": {
+    "text": "Le rade mythique du Faubourg. Avec ses néons rouges et son comptoir en zinc, Jeannette est le refuge des hipsters et des vrais gens du quartier. C'est bruyant, c'est serré, c'est Paris.",
+    "must_eat": "Le plat du jour, toujours une bonne surprise.",
+    "le_secret": "Les tables tout au fond à gauche sont parfaites pour observer le ballet du bar sans être bousculé.",
+    "le_son": "Un mix de conversations fortes et de funk en fond sonore.",
+    "le_must": "La lumière tamisée des néons qui donne une gueule de cinéma à tout le monde."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "pint_price": 6.5,
+    "main_dish_price": 9,
+    "last_updated": "2025-01-25",
+    "extraction_reasoning": "Surgical Verification 2025",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 9,
+      "label": "Plat du Jour",
+      "source": "verified"
+    },
+    "menu_items": [
+      {
+        "category": "À MANGER",
+        "items": [
+          {
+            "name": "Plat du Jour",
+            "price": "9.00€"
+          },
+          {
+            "name": "Formule Midi (Plat + Boisson)",
+            "price": "15.00€"
+          }
+        ]
+      },
+      {
+        "category": "À BOIRE",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "6.50€"
+          },
+          {
+            "name": "Verre de Vin Nature",
+            "price": "5.50€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "08:00 – 02:00",
+    "display": "Tlj: 8h-2h",
+    "detailed": "lundi: 08:00 – 02:00\nmardi: 08:00 – 02:00\nmercredi: 08:00 – 02:00\njeudi: 08:00 – 02:00\nvendredi: 08:00 – 02:00\nsamedi: 08:00 – 02:00\ndimanche: 09:00 – 02:00",
+    "is_open_now": true
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-lot6-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "bar"
+  ],
+  "description": "Porte d'entrée historique du renouveau de la rue du Faubourg Saint-Denis, Chez Jeannette est passé du statut de troquet de quartier à celui de QG incontournable pour toute une génération. Son décor de brasserie 1900 fatiquée et son ambiance électrique en font un lieu de vie permanent, du premier café au dernier digestif.",
+  "google_rating": 4.1,
+  "google_ratings_count": 1800,
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Hipsters du Faubourg, habitués du comptoir et créatifs en pause."
+    }
+  }
+}

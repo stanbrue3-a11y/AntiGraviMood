@@ -5,7 +5,7 @@ import BottomSheet, { BottomSheetBackdrop, BottomSheetTextInput } from '@gorhom/
 import { Image } from 'expo-image';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../design';
-import { useUserStore } from '../../stores/useUserStore';
+import { useUserStore } from '../../stores/userStore';
 
 interface Comment {
     id: string;

@@ -1,0 +1,197 @@
+{
+  "id": "poi-008",
+  "name": "Rosa Bonheur Buttes-Chaumont",
+  "slug": "rosa-bonheur-buttes",
+  "location": {
+    "address": "Parc des Buttes-Chaumont",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8808,
+      "lng": 2.3829
+    },
+    "nearest_metro": "Botzaris",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJJV7aHIAN5kcRNcr8CD6974k"
+  },
+  "category": "bar",
+  "subcategory": "guinguette",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 6,
+        "natural_light": 10,
+        "crowd_density": 5,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 24.5,
+      "criteria": {
+        "event_programming": 7,
+        "dance_space": 7,
+        "cocktail_offering": 5,
+        "crowd_energy": 9,
+        "late_hours": 7
+      }
+    },
+    "culturel": {
+      "overall": 6,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 5,
+        "cultural_programming": 5,
+        "creative_clientele": 6,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "guinguette",
+    "parc",
+    "lgbtq-friendly",
+    "danse",
+    "dimanche",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF69B4",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 3876,
+    "moment_count": 2134,
+    "top_vibe_tags": [
+      "guinguette",
+      "lgbtq-friendly",
+      "dimanche"
+    ]
+  },
+  "discovery_radius_meters": 100,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "Le Spot": "Au cœur du parc, entouré de verdure",
+    "L'Ambiance": "Guinguette festive, on danse sur les tables le dimanche",
+    "Apero": "Tapas et rosé, le combo gagnant au coucher du soleil",
+    "Le Conseil": "Venez très tôt, la queue est légendaire",
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Pichet de sangria",
+    "ambiance_vibe": "Guinguette dans le parc",
+    "music_vibe": "DJ sets dansants",
+    "smart_tip": "Leur sélection de shooters est créative, testez celui au piment pour vous réveiller.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://rosabonheur.fr/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Guinguette_Rosa_Bonheur_-_Parc_des_Buttes-Chaumont.jpg",
+    "instagram_handle": "@rosabonheur",
+    "google_photos": [
+      "AZLasHrrOGcw-hdDB90w4r8m8wjjAdv5IXdCPBWKSd68Xm_6Q-FXkOhNL_tykXm5hNqpGzRZzsSXUJq1nHRsK7yg_aAYRGTnuKdBKx-durs_tv65EGp085BCp7kKaou_n8uIB1J0QECafRGiArG5yF_o3AOzFkI1Ifa0lSmffxPV2aDZUFZx7jTaIxAuouJjB3eiEutmFz3z5Dz5SVkpziGCac7zBT1k-aKP4U33deKoObMhuu1eFbQgEyaBcil18KOsFjyo8FlhqUe4VTZU5QiON1hrqAtCkoEPi-XVPxzGCPAGfA",
+      "AZLasHpPMVJHgorWUm8uvRbKW2leWFSUo7ntkSsGXEcNQIH162nXzIOt0y85GZIq1AEBve4TV27xY91VBI17ylNn8NHPhfPTA1ZEpi0Gdtjx9lttjsKP0QDEIlc0gnqt3_pp5ESEDA3Nm9SkLhW_AT2RBzxLvZ2AmP7E5LQX2rZ4IzYUpy6bPKFnkR5n6b8o112Kr8UEP9NUXqalHGnD5hznB7dewnefCJd1g6qWyVOiSO4w3TgSOXtDb_45STr2B-owFUjewn07XRFZ6UWv_qvtjuswsJDkNyXjqAx3oiX1ga1ydA",
+      "AZLasHqy6f4i-vmM2hISravSQhkFinFC-kRnsOcqMKEOIsZgkf0Q1L9G4y6FaiTwe6ZNirriqTYtIgYiwMxSirduvpg9dGilM8JvJaFDlmMlbvBeyc8nS0H-wDuZaBlXW-_uv_cOZ3wORpYDLcxuk3GMwAqKdLU1Rq2YONmj7qqhPFcraIj-mdLoUqDY50typowX18z16LoDwIe90u67dTNWDguqQu_AwaHpZeQ_bN1OFT8_9Vh6zTNHCc8wQuFx1bayqc16KbuQiqN5q_FRPfp0S8mD4cTWOOLA6YOshR0d2BA1Fw",
+      "AZLasHrogCkDuKTw0q4Zn_nkHpz67S4gFtKvGSpgagMSPkr96tIRIVhMJ_NJ2CpbuVa-5ZcxBobUXNsBCQfvlNEYZRhsJF1aqOVg3ZgkM6m4xJVFWONluVLltb2QVNGW8DgfVnvnmZnofBtgZEkkUwesea9d588vwXA_7Av-c-7KjPkJmRfEkMyVj1--aUSobYQmw5NODAgmTVBYyxYK9Y8OePiFnz_deC7sEtmhvbdCd1OoroA3wnbxNR7iZ80lXEwP4Kie7_InnMVe7ReqakZgMum-fY1KVUFee2wHQyx1bqGM5eIKHyWOXwTRgOtFHMS2e9kCd8H_TBC7PUmmV1dq3PGig8EFSf9plxVBBOX1qGHqQkX785EzprXI88_psEbRMFigpp2_TzUVl17iQ21746Od9Pxn0gjQ95aqokcZYQWdpRnPPUfOHMOl_LSvOl2E",
+      "AZLasHrY6CPTJA2QVW9CdaX7RJ3mPeNQf-lboeR2XggKpMjF7HZk2IpLh59biHbFRn4WOqNQlkWlphbbMehYkDx09LW01Fb8Im1qOR7lqLCt1yxOhWQjSuqHMdHVNBvYMPRfdgA6b3XMApXM1tSgv_tKA6LRwNGDThr-xsTlrL50RQFtu0v5O1LnPiDkBFQpOH95A_JRCxDXNQDytLtAwLXxXEgbAmcNKwx0fZ2hGkutjwAjza9hE0ZBW9xpxhNiHSJUEj6BC6e3jK_lsW1CsWahNmvTXaZCfd6Eeou5m9-54zEVrYfHJnENHYTeW0SqtQPHE8csnsxNzhZVMzTYqkCfFIEQBLshWrtwa6m5gdW6UMarHLJ7IjH9PKVwbYTl2rdWVi1FCnopufp_cPf1r2u3jcC2dU8uMUFVDDvsilFo7uQmbsODYeIPdGDvp1igYw",
+      "AZLasHr-f54fduF4OMMlzAEeB6DSjPnnOqfgXh2uWlEMkgTVoLfsmI4MlDkW37behR53ZXjX1Hht2ZKwzrxEnvT_P4SIWjO5T3hPgNVzIcA-VW5F_mpUws_FTIwJ3_AuFnKw3ZowHvHN6fuWVDycmfhLiP3knssliKBiAlYBolm04Ozdu64sOK5dg46guCaWo238rx7oa6v_8GCujSRfV79MIHlWfQ0IfuXabeWroCs5Tt9PJMzxtpYV5RI68_vw1imsw6Knk_TCZBh3zbGgJZAxvHtH-VC8D4xLkv45q_Nzld3IM-xmpFjc3Xs76qLrBwXqy2wFlwZtrGW1lsoAXYUeggN3zYLstpTrD4lVVY4Vcze8LtbTgfytqo-zJY02MIAKB9st9LyRtNNphPz3EeQYZJuwX4sOnUug13Xu7iox_kJN63zF",
+      "AZLasHoT4rYpOt0lmBBCAwmycxq1-dnes7ob9wwEBwD4Ouko_DbkVpfZgiwLKbqxjAvFCDINuFP9L6JecQ_hj6KnegX6n64B-M3X4eA8ICM6qefcjoBo8r6irpDxKKxH-Hd1gv79kL1_ByQK5_tet08zRt8cOig99KDJ1F9KCZiSVILuRrTnITYlmQlHUwcrYwaU3q2G0j8dGfmJVUco8Y7VLvNH6t58Sx7rnwLBNwaoMGEjintRJiXQDF4J5mhfEtt8oMjc2Qo7ah11E_cgTIkypzMpvR4l7dzAeLetFtjyWUv3txfqvs6d_q-CldXqn7BQT6qjPqKbWHa-ej60JS0T5O6OfYdN0cIDEi-PZbhR1La6o8AG5OiAQIDpmbkMJu9nhRHktxSDQlo2OusM0erly9uHP1RD7bTws5vegmAg6IMR9AS0",
+      "AZLasHooiDvd29D4xnOImiX1gv62msKQA6NUDgmmuv6QyAVqC5PWHymnn2ZYDn_uO3pKzmHZKTbezET9Mto1b3O7QXqVP1pOYfIcIHikkvcFbzluFSHslzGS38i5PVB-egdIlhfgeQSAQQGmMPAEyboLtEJXTEb5bmyoyFN0tI-swWHGk532C88LkNk_o4-ReWx0DJ6t1RAlqBdaSBHbqw8bS5qNyvW0h5KFsFzySYrRveNoodinBa96LA0zxYWMEieEadPFl5YFA5JwF-HrvE8NwpBAJ9ZMIsHIQI6AUt1V9knGZn2-drtdIFT2J1UqP-QewgIgt6miIn06qWzDHL-GkIBuUol9nyfMiSJxYdxlKwSVYJvWiYw1RfOFudEZoUClGwN3OnBkUiqPLJPNmCD3EqSrRs93G44Ri9UtRkm4EnxV8AzVZnBN2EpAIv2_JzdN",
+      "AZLasHrDSBAEuH06-Mxtk_t9pXsueRSEGWjRt3dLgK3oaenUli9yrwmA4DvrSpZgCTj-899t8acDnbntiimbmlphaTmJpYHnZai255YkFxc_BrVYRJp6B_nTbscIaKNR7C1aznfY-3ezsPGgU02aY89G8QHlUSnJbvTadQqoh0hUebE7W3sdEbZBoGVMnf-msY9tBdv_G-4SHqBJm2tHocC7uCNBWsRzBDBJ9FobSAgGM65m8oblSClyAAYds2igkPhohh-ROv-CiqJuQh733y6c29Zxup026n1Z1npc1bJ8atnfP6SO4tmN1F6VuaePhmYvaBHnUOQtAX6e7ScBKgZYWHbqE_m5llP4NbkvtYFPs4SE3W-KWVivInvH0yVOROTAxYF7pVGt-H0MiUKBR0_XBq13QjxjQW6CMlTmw7ksRPgpRfIpZPMNaVzTcFBbvA",
+      "AZLasHoXB_vFIqd7jGPw3cxdYrJ9L-J-NjFry4bBY_ZCZQ1j9BWucAr4woO9pIlJ3y9Smei_Ntcp-E5blDYNJcPfB26FOFue_8szAJgFb8W39XP6xOuJjnVmr_F6-2OJX2d7va3Cm1kCsP2_yVw6XZ1YbT9BhEbJwMSbcdkUKHiYxTXJSJPw7JY39LpbsbTlv27SHkIFPOQe3JiQv_bOJhyxkWvJWqMsUWfA1ZTKZmGSI6ia-DfUGQu_M6W-powA-enS4VYEZS2yuQsSQVCR7ydLz17Odfek8ostTDn4Rbjs89vLCxA8LCawMv1Mh82ZZsxDKscNNyYM6KrMc8pvTpkDnxw-24Qp91se50f2Y1HuFkh4o6Vo_aEGlgpoKqttD6FHEmU6deIChnwAUziLB1ZS277iG9_zF23iZWSKb7Jcz6JJvNHZFK_c3UZelefCLlUq"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 00h00",
+    "display": "Jeu-Dim: 12h-00h (Very early advised)",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: 12:00 – 00:00\nvendredi: 12:00 – 00:00\nsamedi: 12:00 – 00:00\ndimanche: 12:00 – 00:00",
+    "is_open_now": false
+  },
+  "description": "Une guinguette moderne au cœur du parc le plus romantique de Paris. Rosa Bonheur a réinvesti un ancien pavillon du XIXe siècle pour en faire un lieu de fête libre et tolérant, où l'on 'boit du rosé et on mange du jambon' sans chichis. Dès 18h, la terrasse se remplit, la musique monte, et tout le monde danse, des familles aux fêtards queer, dans une joyeuse mixité. C'est l'endroit parfait pour voir le soleil se coucher sur Paris avant de se déhancher sur des tubes disco jusqu'à la fermeture du parc.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Tout le monde ! Du bébé au grand-père, dans une ambiance de guinguette inclusive."
+    }
+  },
+  "real_talk": {
+    "text": "La guinguette mythique dans le parc. Sangria, danse et vue sur le lac. L'été parisien incarné.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez avant 19h pour éviter la queue monstre. Ambiance imbattable.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": -22,
+    "category_percentile": 122,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "pint_hh": 6,
+    "hh_time": "18:00-20:00",
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 14,
+    "source": "verified",
+    "main_dish_price": 14,
+    "menu_items": [
+      {
+        "category": "GUINGUETTE",
+        "items": [
+          {
+            "name": "Pinte de Bière",
+            "price": "8€"
+          },
+          {
+            "name": "Rosé (Verre)",
+            "price": "5€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "10€"
+          }
+        ]
+      },
+      {
+        "category": "À GRIGNOTER",
+        "items": [
+          {
+            "name": "Planche Fromage",
+            "price": "14€"
+          },
+          {
+            "name": "Tapissade",
+            "price": "6€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc",
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.2,
+  "google_ratings_count": 3231
+}

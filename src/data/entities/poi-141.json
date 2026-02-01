@@ -1,0 +1,133 @@
+{
+  "id": "poi-141",
+  "name": "Le Piano Vache",
+  "slug": "le-piano-vache",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8461,
+      "lng": 2.3501
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJf1VuP-Zx5kcRHZizbBGpHAc"
+  },
+  "category": "bar",
+  "subcategory": "bar-rock",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 362,
+    "moment_count": 21,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Rock, punk, indie - concerts live gratuits",
+    "signature_drink": "Pinte à 5€",
+    "smart_tip": "Visez le lundi soir pour le concert de Jazz Manouche, l'ambiance y est électrique et d'une sincérité rare.",
+    "happy_hour": "18h-21h",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN17eUdE7ElfXb_1jmmyAIXBCPEUGOQjy4amtqHHHgASIcb1RXNVZhGvjexIyi12LfdLm5ssYb5iqAwMvP03V4Qy6VsMHEMOMNTNhX2a4pKQmWNj0iGzvm05lNKGzrsU8DNXmipl-0KRHbM_zM26P6054t_hjLm_PEM3pck8ibo5XBFiPLAdO7lx75erNBnylJQzYZfQEbxC85-jn6or6A1bDJ47bIELuZDLDhTxUcIxrGJIk1Fv3NGKo8WaW1_MSIV4YCEo17CWoW0LXX3qM_6dIIpPxLPWrk20gQVz90rsrw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lepianovache",
+    "google_photos": [
+      "AcnlKN17eUdE7ElfXb_1jmmyAIXBCPEUGOQjy4amtqHHHgASIcb1RXNVZhGvjexIyi12LfdLm5ssYb5iqAwMvP03V4Qy6VsMHEMOMNTNhX2a4pKQmWNj0iGzvm05lNKGzrsU8DNXmipl-0KRHbM_zM26P6054t_hjLm_PEM3pck8ibo5XBFiPLAdO7lx75erNBnylJQzYZfQEbxC85-jn6or6A1bDJ47bIELuZDLDhTxUcIxrGJIk1Fv3NGKo8WaW1_MSIV4YCEo17CWoW0LXX3qM_6dIIpPxLPWrk20gQVz90rsrw",
+      "AcnlKN1HwlaiQ3A_GDATqz3ARva7mk2RjGBNMlQIVZEOv-zKEVzEua5yOuYZxRR-Imz6pvBK-j_n5XfFj5ougYNIf4LIxm2VuM5lzcXzPd4ztXij89ed-2QfgujwY9AaWMvoBcv9sZsnhMcNaWIQ_OjAwpGe8DsYa-Ydo0sKwJK2y8C7FZgveizy11Ga-lIPXXbbNl1jYVKrZcQp_FHmapC2soqYKdXnGRGQORZY5sIH3KfxYV82uCSYBNi_fCfJRw92L2zFjEyhZ9I82Db8T4oV7w6YZIc29JqsSmcmWoqiYsnUcB-i6wYLHWEOf8tEnogis8xYSOaxYlKFn-oEcIESBeknm-cApyZR-Ak0hkoq3cuQA0-wr8vg6P1BdcBqsu5WYsS_zYLCiRjmpHT_HVLF6yIz5eOkE7mPNg-Kv_jKwKGmOC_Q",
+      "AcnlKN01Cyc1yvRKEK3W46DoVAeEdg6w9Na3glKCbHKHF81siy3RdUWR_bFcXpya8NhiqS6QwHXVqmXX12dV4DSYsOCshuLtzk3_ZndgBIcMun1qqvTrM4Au4L1dCxHYgXt3tYSpxmcb2nbe_PU-_PIQFbp0K5pkstXs0wevvtDz9RVov7Q3ZYyyS9EYoGvQbj22epkQmBLT1zQx6NuR1Ifq3zt1IK_wubQo17huxZeMZLDwczhf0efJlIq2mpYY3WwBRvzvfiVZV4wTZOHKWIoIxIcqzLuaU5tmjxuce7iX-79KJySitWM10zU0lwfz5sJ-sB0coK_hUbWzO_mKL-APKny3pXdDjpapPqek0XbwOy_jBqYeiXoFKUap5vPKToQQ5udYa7L_PckNNj5s4HuDtAa6OeWAN6SNYSDF7kVGqtzbZigKGX2P6MGICInw4GCp",
+      "AcnlKN3vmFZKNM25DCOPWKWKUeEG95SeuxoGcdq6AGG4OXxGZJfk1b86zts1Br9lOUta06_XlONjYLDvTWJ6K5f1NVsCb6_S9Ccc8rdkhoWUP3lWThUgWGQ-NnOJMtuS21SBmt31k_xZqtybfBkN63GBRoNKFm4z_ptdxkvcASFmrFxo7S0dFcUkn6lhEPhbINpaOXGX4aWhvuyJnSD95DdnhUGw77eRGJi4dvg_Jrz9idzyV0KxIX2xveX5aTxxW2rP8R6ZKaix8AsbncfjpS2esGGeImICD-k-sY1EBvB0-CsTBPSM-tebAn4hNKidAi1LJg8Ea_5TkYfeKQ4HGKgy1WyR2v7WDHEk4Y-rwDCMM8Nw9INdEiBVvnOrDP2lwK-X58Og2RYh6wJg_LIjjCOrNlHPdEdswtW_XbVa_d0iUOpKJkq7TXo5bKsejiTvvA",
+      "AcnlKN15Az62bg0iAf5D5SBUafwdR_yEKG57CWOufPhn2vsFhQQeDvHY4YZLTklS1ExU9Wwflc9RBGPz9GH_4lhOdBbO4PRb2foE70GaHVIyw31z--SKYMzLcQrXJY3PuFwLH3duFXs_kIJDpRfaC9-zhEw560CM2ut8d765iyQk2fjIhZ4yAEV-Tfa2Kox4T7HpUud3e6gOsOhxnWsMblNwbf_kPKoj4hbIqjN5LUhVmQxlWZEFpQbslNqcqXJEN6rasmqkE6L3Xc7RboCx81BigdCnKjgMVHNI6Rmg9TyMByLY_7qUeyLAtvE5prDkY3Wd-yV8xs-xpLK_LvSgf9AJk-nB4rEsVqRop2IWA8ZrXycUq_2aGRlPgYURcLlsYUpjCIYaA2RFa-ipPFElErkKHrB4yIi7TRqZAjvZY3xQmcT4EZwg"
+    ]
+  },
+  "description": "Entrer au Piano Vache, c'est plonger dans un Paris de nuit qui semble n'avoir jamais changé. Murs noirs couverts d'affiches vintage, banquettes usées et lumière tamisée créent une atmosphère de rock'n'roll intemporel. Les soirées jazz manouche du lundi sont légendaires, tout comme la playlist rock qui anime les nuits du weekend. Un refuge pour ceux qui détestent les bars lisses et cherchent l'âme brute du 5ème.",
+  "real_talk": {
+    "text": "Le CBGB parisien. Concerts gratuits, bières pas chères, et des générations de rockers.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Vieux rockers, étudiants d'Assas un peu destroy et habitués qui connaissent la playlist par coeur.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 7,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(7.0€)",
+    "pint_price": 7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "SOIF",
+        "items": [
+          {
+            "name": "Pinte de Guinness",
+            "price": "7€"
+          },
+          {
+            "name": "Verre de vin rouge",
+            "price": "4,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": "18h-21h",
+  "google_rating": 4.5,
+  "google_ratings_count": 912,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

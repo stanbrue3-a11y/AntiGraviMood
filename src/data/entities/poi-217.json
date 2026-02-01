@@ -1,0 +1,142 @@
+{
+  "id": "poi-217",
+  "name": "Coretta",
+  "slug": "coretta-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8901,
+      "lng": 2.3168
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJieM35q5v5kcRSsWWTlMpbA0"
+  },
+  "category": "restaurant",
+  "subcategory": "bistronomie",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 503,
+    "moment_count": 54,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "Leur brioche perdue est devenue une légende du quartier, gardez de la place pour le dessert.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://www.restaurantcoretta.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2nR_Xor7BaT04iU-yJG49qoTjR961aSAbHfCjXav0oYoZJyGLrr46VUCSEv0bEMa6W4UseJHDKYqw0Wp1pgmfOatZXLXEK3kBSvUTIyN_uwzHeecE_Reqcixfk75XF3UgDbPb1xNUtUetjGrqZBUm_0xkGm6mjdq3W8g0xsHv-j6LYl3UrmlECarcuvcnCpRbMFSbhUVGnEFh_BlCsggxUP9XUi7bd7NXz5agNwJrujBZPPDckiiHBwBWF-Srs1MY4QapU6NlBuCDP6wBczoEpEFpkx3TmVGQUG_aHcKxDYH5tf-og5_HJ99WqH_oQBnuW95FYE8Jqyhv4-NHW-BjmneQUCOJphNCSth2-9Mhti52eV7fo7Xy9PvLZwl_9pZfUxxOemgrpr4IgbSWrAJS5ECa9OitumvLeydTPM02jCP4&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@corettarestaurant",
+    "google_photos": [
+      "AcnlKN2nR_Xor7BaT04iU-yJG49qoTjR961aSAbHfCjXav0oYoZJyGLrr46VUCSEv0bEMa6W4UseJHDKYqw0Wp1pgmfOatZXLXEK3kBSvUTIyN_uwzHeecE_Reqcixfk75XF3UgDbPb1xNUtUetjGrqZBUm_0xkGm6mjdq3W8g0xsHv-j6LYl3UrmlECarcuvcnCpRbMFSbhUVGnEFh_BlCsggxUP9XUi7bd7NXz5agNwJrujBZPPDckiiHBwBWF-Srs1MY4QapU6NlBuCDP6wBczoEpEFpkx3TmVGQUG_aHcKxDYH5tf-og5_HJ99WqH_oQBnuW95FYE8Jqyhv4-NHW-BjmneQUCOJphNCSth2-9Mhti52eV7fo7Xy9PvLZwl_9pZfUxxOemgrpr4IgbSWrAJS5ECa9OitumvLeydTPM02jCP4",
+      "AcnlKN2XDEarFD72fq7DaxSvxpW6R5MGNSHG6AGHe4SveNj75OLCsHnx44jgl6U6J8W8GPqj5Iyj-pRDvaazmTgq4Zf1LDPCzzS59HlkRgVmek55Y7E35CQctK3EDDxYv0YGRqUNYdmF8XL45t9tSdzl_Erk1mP-RWs8upmkgrIyIwS8BA1qLr4ULv1B3fXjLmc8TV4wYD3tdQFxX04yGdXIhB04lXJxcqgbI2T5DOeHu7OeS5bgU2wcf4n6pXIuAYXzkTlcH23DrFNMZ_6yYCQtDuP55LYXJ5Ud0yPoexPVdsRFwA",
+      "AcnlKN3jd6A44GDNeKGipK7tLJ7nzAQsJq7AOvLq4x1VH02cnHmBRnd2VSoJI1tMwI0NsfQLkrmz4WreVXy89HfdoVNNTTGo1P0j8C5G-htcrlEev1UKBS2KKqQiV5dejBLj-UOzkwFtfR8ArIQ53Wd7AJhZc3f5x_-IDixS2BR9Z4LOTQaZ5rqm1zWAs92fV1AC0zQ_huMUA7eG3339yQNgk8fbf1e3Od2MF0F5q9YQXImRvaBoIKVdfcRFF3Bi-pAfI9r4bWkQDeppWH6JsM5-aWb9HMQUb2UEjvRvkrhSSKPjzpSMk4eRz36rWqc37VQ6r9GoYyD0_HOLwI7vL5EERrR661prQWr2b9Dn134Kp0LY3v1o1N6PO5oF-hDhPI8d2kuWfGItUenSvrZQK3SZG0UeyaJVSdNaAB6iv5hWKO81YVIALi0wKKG2LLtUKaU0",
+      "AcnlKN1115XFA8JtYZI2gSkYLLzrfzIkcPlVNxi-lH0txkqAx7ZpTwdFDq9rYUzQ4H660FaHSB9OW9cjkmRQ_eEyJ2xPO0g4R1OrRIofOzofDzWjPlV-9-n5Pfc2nUYrvdVG09XOZ_C3L1QRCZkGxED90kqd4Lh2TyefcBNXjsr6NxyRryHyw128z71xMrRwwplQvk81T7j9wu31Qs29tvzd6dcCvF8iZxrOrP-Y22YqCv5hvaoNTVGSV9a2UvZ2M2kusGuYknOrHbzDQQG4WjUDZVseLoQQnMmDl0WLhnFymbpw_Tyrc0XggCqTwBm6AbZjQd_8fPEd2Z2WMH8zttS47Vn6N-LMIp9I-Vu3OwMJgEsiHpKxkwUPkMlHCwFx1nqv1aHKDjr0anSibBw_b9livnlEz7Mwo2tNGFxdso1Tef_LYdF0foXw_sWkhI8Zx1IR",
+      "AcnlKN0TE2z77gOFO68C8SsUY3BHrRuJUp8tER6-wI_-gadkFx_v2KbmBunAFYvlxL1eAbjVzO7aq6Xog85N8hROP9ooRA1uPCHWoabelZKCO2HUONGQrec3LJuWlOhs1QSEhZ4ra-VquoEuqSm0mKLA5IhQpwkn3SZUUOha9cAF2ful7aE2MN1ezpvFClE7LgW04dMrlKfwQ9Wwx2yM3wpXdDtit2d-No_eLls9RbX1XygDisNTPZjLmehpPGnF_r2ZhlrU7auxsD6htJ-cUxoocOFukGdAs2rrg5KymCXFNiCOvavohqNR3nNAn96Jq6Q9-z1rxognOWONgZOi5Onxe1GxqQII24AV1qbIQqYyM_1V92nCBx21Ka_ZXqu0T3vrGG3XBcrwXDYX_jGBVP54ll_iGwJRnaoLMka7EXIpglvO1DWzD0paMPDfoy9azbSp"
+    ]
+  },
+  "description": "Face au parc Martin Luther King, Coretta est l'une des pépites bistronomiques de l'ouest parisien. La chef Beatriz Gonzalez y propose une cuisine inventive, précise et magnifiquement présentée dans un cadre design baigné de lumière naturelle. Les mariages de saveurs sont audacieux et les produits d'une qualité irréprochable. C'est l'adresse idéale pour un déjeuner lumineux ou un dîner sophistiqué, où la technique culinaire se met au service d'une émotion gustative pure et moderne.",
+  "real_talk": {
+    "text": "Élégance et inventivité face au parc. La bistronomie à son sommet.",
+    "must_eat": "Veau en croûte de noix, soufflé au chocolat",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gastronomes avertis, résidents du nouveau 17ème et amateurs de cuisine créative.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 65,
+    "category_percentile": 35,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(35.0€) + avgDrink(10.0€)",
+    "main_dish_price": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "GASTRO",
+        "items": [
+          {
+            "name": "Entrée Signature (Veau)",
+            "price": "18€"
+          },
+          {
+            "name": "Menu complet",
+            "price": "52€"
+          }
+        ]
+      },
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Sélection pointue",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1170,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

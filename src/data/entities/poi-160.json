@@ -1,0 +1,139 @@
+{
+  "id": "poi-160",
+  "name": "Musée d'Orsay",
+  "slug": "musee-orsay",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.86,
+      "lng": 2.3266
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJG5Qwtitu5kcR2CNEsYy9cdA"
+  },
+  "category": "museum",
+  "subcategory": "beaux-arts",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 117,
+    "moment_count": 26,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Impressionnisme, post-impressionnisme",
+    "booking_policy": "Réservation en ligne obligatoire",
+    "smart_tip": "La terrasse derrière la grande horloge du 5ème étage offre une vue découpée sur Paris absolument sublime.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.musee-orsay.fr/fr"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1gas3991_QGxW_zK-6O_nd94HbFoh10ZNY1GN8vQi9IgKdEqTMV3D0WiHOm--aoWL-4uEptspyTVTwnHsStXE2NFNZoUOupvNetquEecULnvK6RcE5VaN0XBU7sgvBfQvvtB34C8eJXnfC7Jaky3umsAgpGW5cRkmxIaEJX0vtbuJEaYOQ4nYiZDaemsQTq43YJmhaq1HlD0VGMWIXDKi8gY1NWQBBuJ-PedjPvJMUjCjF15t9eDUa_s3Z0e2V6AfnXBzLIWYubLnzIU8V1bcELa3ScbVixx3XcfKItXabiQ-G1tfJ-kalvhuF-5EZ2GonWCnOdfK4J1cN-1cDjXav4myO5P_DjbWQ_jtIV7z3nj1XR6kS_404dnCbsaxCoY23v-itSWUpIhXEH4_3CM0yf7dBOzVDP-X3nwZz2V5sLSrE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museeorsay",
+    "google_photos": [
+      "AcnlKN1gas3991_QGxW_zK-6O_nd94HbFoh10ZNY1GN8vQi9IgKdEqTMV3D0WiHOm--aoWL-4uEptspyTVTwnHsStXE2NFNZoUOupvNetquEecULnvK6RcE5VaN0XBU7sgvBfQvvtB34C8eJXnfC7Jaky3umsAgpGW5cRkmxIaEJX0vtbuJEaYOQ4nYiZDaemsQTq43YJmhaq1HlD0VGMWIXDKi8gY1NWQBBuJ-PedjPvJMUjCjF15t9eDUa_s3Z0e2V6AfnXBzLIWYubLnzIU8V1bcELa3ScbVixx3XcfKItXabiQ-G1tfJ-kalvhuF-5EZ2GonWCnOdfK4J1cN-1cDjXav4myO5P_DjbWQ_jtIV7z3nj1XR6kS_404dnCbsaxCoY23v-itSWUpIhXEH4_3CM0yf7dBOzVDP-X3nwZz2V5sLSrE",
+      "AcnlKN1R7MFduqmav1Xb1I0ap2gV79Q3X2UVGvUZ61raGxYyjtR1hpdvLlv2aKrbB-PYr56RMTi9KY57juIR901yU4lsQWCwdbPnpK41Iix0sCxpnsaRf1RlgJQfGV_x_2OQoeJyfaJKQ3PaUySQhgce_vS35_6lUFlzF4nOIPX3jluc5DRAI_fWNneaQtFyQi48UUMbzJAMUuZ1ony7byxlB6G-DabdV1T4rAKlbje4y_nj4-g6yGO7Hq3o1vVcwI6jBBWBhhb-rnl6Nwsor04yWGcSQdz89n4z_am1BPEFfQdmkbmo-MX-nO7q2xqBt7Y1C53EOOyi9ivc82F_CCBwP3gKBT638Fq2f_pb_zRqqMgnmZteD3vScMOq3y60V640zes9n2UTDU_rrEzBmyRgdXJlq1-wsOSjb-1ZHTat1ggZPQ",
+      "AcnlKN271QzGVLkIK3GrmvBXKgVxaXMyc-4edI-32LEP1qHtWvhoqnDL-T34wdJWdT0896fNDaUeaTjRU3r2d_MWZOhuDmRBfXj-bdK4PETRme4pCIiIE6VqNaJrePF80Ppmi0oOOjsZHOL9hFnn3HkphJu0vjPJMYW1pzs_WEo9oNRPq2rgZDDOvfvaKST6ZlmYodIdN_hobDDRkpmoCjD8TI2Re5DibGmrzPyjO7xmHfQiG0_652nyems5XCSd2cQQJNetyURl2yEFJdZnD73ELiVhNuukP2Od9Drwor-Lo1ZW8Is_yNuhP9jEJ72PPW0fU8zl2xQ3BC1t3kKkjVaSiW2w3DKI9cIVzaLUBpUwxvInQCVXjVCRK2f6roN4lYcnjkhUy7u2BFi7x8-JqUq5psMfm_9C432JpVyDRW1V3uE",
+      "AcnlKN0Do9p3ds2ihWbpcXOQ7s-RH1-HdnrzQS2d52zWFoi56wyRzo02JBYv4puyzNcQJxh3e32acry-L3HpbCd9amiMRkMxd1s8LSM71RTCeCLHmHXjbByaehOc_MhxRgkTqD5hbDkBCZEPAXrxoDGAgVZwNHTqsIBp6LLQ5ohJFp6uexTsAlbQUgh5LeP9B7RdflLHo0jJQ2--zGEopXSOuBQwTHD7JO9hFuCnBFyWHMj8Cl9UfGAUr_c3FC1kjs5BngH5cXxLhs5A0Qm33g-zWj-m5oG8oGjTKaoHkyfLxhPUJWymXMV1Q_Hs2H9T71IyvKcYipNUsxC6drTvJTzgFmj7GicMAYLT1l85LzndVW6kiWpfVpEpgASHFYog0rDm0bVdXQsabqP7t92Fvi6mYpiDCbK4GfR0fL0tCEOwJU6CM_m1",
+      "AcnlKN2WrlonKQtjm25q6swb6uzQkMXWKOf_cuWQRHAbRueOVSz-OqI03kq06SyHMfQHAAtDCmS2ihUUIIX5ju_5ZaFu5JMIjgD8fdIe6kuqrfU9E3oNficG7n_lJSUzmfYmmPjkhjfrcyt7LbZ30Ldi3rbG-1YlZ6A-4y6P1IQJKG5kMuKxCZXNqgEyRzqB--6gJAKTqVKPXG1DgiUMcamsqHHRWSoS1qkM_Ffg7sxWzVB3oXuHXenTQav8qZTtqBkbMP5zbBVdlXXHdJuJ_XR7nI6SS11jg5euSljQbm5rB0wCnaM1GfH-TkCr3avdg3IxKp0kaGx_HQdk6_jvQgogDM3qLTb-2LNmalx5v_cvkmYBvyLHGCl1LH8mbpJyrOqTSLTUi8BrdLMkipqosd0PshSwvxGgtvYhKx8lL_zqkZnoqA"
+    ]
+  },
+  "description": "Installé dans une ancienne gare ferroviaire aux volumes monumentaux, le Musée d'Orsay abrite la plus riche collection au monde de chefs-d'œuvre impressionnistes et post-impressionnistes. Entre les toiles de Monet, Degas, Renoir ou Van Gogh, on déambule sous la grande horloge d'origine avec une émotion toujours intacte. Le dialogue entre l'architecture de fer et de verre et les couleurs vibrantes de l'art du XIXe siècle est unique au monde.",
+  "real_talk": {
+    "text": "Les impressionnistes dans une gare sublime. La plus belle collection au monde.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux de l'art du monde entier, touristes émerveillés et parisiens redécouvrant leurs classiques.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 16,
+    "value_score": 15,
+    "category_percentile": 85,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Plein tarif",
+            "price": "16€"
+          },
+          {
+            "name": "Nocturne (jeudi)",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Accès restaurant",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 110246,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

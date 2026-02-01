@@ -1,0 +1,139 @@
+{
+  "id": "poi-208",
+  "name": "Carette Trocadéro",
+  "slug": "carette-trocadero",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8631,
+      "lng": 2.2868
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJXQvlQftv5kcROZUkVMlEAdo"
+  },
+  "category": "café",
+  "subcategory": "institution",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 837,
+    "moment_count": 54,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Chocolat Carette",
+    "smart_tip": "Le chocolat chaud est très dense, prenez une portion de chantilly, elle est légendaire.",
+    "bouton_label": "Site du lieu",
+    "website": "https://paris-carette.fr/a-propos/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2trErInU8S4kNAsRpP2UqzLoD0qt3jNU6D6l7rASlj-ZCXbykiDXJ_HzTJD4gDCP0x7mxvWmwjH0Y-qX2y4MD_PGrpfFZPuYG7pAUGwMfwBY13wK1ZV-XDLCBJsKfjAqYRM1ZAdjUACWB11aXo5kAZ1z2EwawCDoAXs0hmwsKKarz3c7ydsW7bZm6wWV5KUYG2F7un_1svJ8SJ5O8AVy2a43RifUTRkTMxbNAjYXX5iLvNVVGdgW2_uuK4HM1dBoMpTrOhOV6K1ah5FNfelxooQEUs2PLYhKTUZD2jz-_gET4zp-b_6wP0ZK4IhrxqgDbDvTobO6A69OXuuV2NbkUQxMRuF3GEuyofveA_SpXqDVDdddsMXqJz_qb03K95pSz9Btaq0k3iNzgv8XVwDYWNZOWOBje7AnbiziOmkT8XAOY&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@trocadero",
+    "google_photos": [
+      "AcnlKN2trErInU8S4kNAsRpP2UqzLoD0qt3jNU6D6l7rASlj-ZCXbykiDXJ_HzTJD4gDCP0x7mxvWmwjH0Y-qX2y4MD_PGrpfFZPuYG7pAUGwMfwBY13wK1ZV-XDLCBJsKfjAqYRM1ZAdjUACWB11aXo5kAZ1z2EwawCDoAXs0hmwsKKarz3c7ydsW7bZm6wWV5KUYG2F7un_1svJ8SJ5O8AVy2a43RifUTRkTMxbNAjYXX5iLvNVVGdgW2_uuK4HM1dBoMpTrOhOV6K1ah5FNfelxooQEUs2PLYhKTUZD2jz-_gET4zp-b_6wP0ZK4IhrxqgDbDvTobO6A69OXuuV2NbkUQxMRuF3GEuyofveA_SpXqDVDdddsMXqJz_qb03K95pSz9Btaq0k3iNzgv8XVwDYWNZOWOBje7AnbiziOmkT8XAOY",
+      "AcnlKN1golGq_B_Xxs6-SdNuKqAod3gBtYidHTR9IY6tUcA_KNk0Rj_aZbu1bZNBk3hpd0iTRa-XMtIdMxp-VyKNZaFcLSlJicf_-C21UrzVBCSPymfk7T9q6zCZs3BDhvhglBe5jje3Tc6W7rE5OP9G4rCw0oTob_PWsKRbJmxnwODBRapT4hi9t2uKUcrPuAJ8uhFG0zPDH8dZl1NQ1NcjhecE7NWMjyfoHWGPpZcvDncntWm5g8L86tfOB-WwlJ3Zuld2T8270GLyfQ8YkyzSTpbS5-Do3ZHFd7z4vBFKOiwNoxROxKsKoZHL1JZUPaE-RJ8Nn2JwshyvIU_5CMMmHZPJqhX5sywco-yo2HgQn5wLkSrBwUIrRMfvvh2r27BuiGNA3DiE1-_rqbXrBqRMmXzd3WQpNZMiJL668ZFM7vytpUaDU-0HGnt5aVogHA",
+      "AcnlKN1kO0RlTka5JT5TaR8qxuuAF7BnqGT2ik6u5RfjPzl0SyFtkVYNCz9BQyXOZDgmfKg7ZZGI_oxscVZPCqWuXbbb2cBomd7ZAAhRDmstlfj7wjEQqIXhqfajQxGhKon75v38S0uWieMNovdiKvJ-2WLhQCiq7LbQ1jjVS5F2Nyh1pYKHsIVR9NkwNVrRNoy2GiBWbP2BhJYBHm_2wNEuRmN7NIzy09EPLZ04gbWREp8lJLAy8ijwUEz34a33rzW6EvPeGA6WB9laMAKZpay7Q4FodkbbtRF_LbSE8Solk9xqBl13hTvicUqd1zB3_-v7VZg7p7F9en4vI4-aCdCMpTBcqhWOA-X3t7WyIKu0dJkH-1Yxl-8Slo2DuedL0lYwO6JQIrpGZh2MJ15RmPPlMAHsAcHjB-L6H6tLmhU17LL2JMahrngUbF9aOF8-Lg",
+      "AcnlKN0jJvsMKgOnu3c7Lv0ZnLiG-WnHI2jYnd_JgielPGxhK_OXtJv9gqdJG5rL5E0EXucH9nC2BvchRt9QRqsX2mXZDuJYNp6mldaaG2HqntFFgRq2Vg1F5liht0sF7sLSgxQolLA7Jg9lRIHmkxUaYDX3h1gsPD1U8KQmaPiXzCSm1wCF-IZvL-k128irAroOzhpgCRXZ3XQAc49LqpW0tQ74oxx_Fl2pzKt49yjTe80yRiVc4Txihv44dDKSBmKCGDNJbtHDl-al0FVqmLR_mW2v7bmK4vB8L6mywohrykwZ00vWEOdsVH-gTxigAbSt7jO1ga03wk1j8PpS-lccOoOeeU2pTb9mN9tOGz1ab9B4UdJQCl7ZHV8WWbrWBfKxB8NyFXwLNKz-Nrom9BxEbEC_RFoJ5DqjoJzFgaRV8Bb3Dw",
+      "AcnlKN3-IIDbBjohvEMrEwOk7Egv9fTExLyaFfK5cGvYzlPRWvyW_NiKxQLcmtP9dYbu49JW9PXQArGRYUsJEGja2JcPrc0m591t7Uhlw9OfT4jYkvC99kh4DikTe54c5n1UayUW5b06t3IVWW4Enkd7HCWEyEIen-rEUsEmdEVEYHDjBknq3E5ck215NTUbQsM9WdQpg_HqwYkhcQl3xNDzUCa_qCyeaAulfuv5PxOq4FWUES4bZ343A8-jwWtVmKH7WVzas_8tlAKkIKfQoFE7SY03yYDmkSIBBFd-lkCNo_VRrSV7-liSST6IrChxk0EER-mJq8mq6y6k7n-ZvaP_jZQOYbCQnFafeDCHmIyZYgfAty9AhlMEkVtv7xcXBMjiloknFG_eQr68X29h5GiZNDmbIpm3AHslb82B5QhwxusFAdory3b86VZKuuimFZ49"
+    ]
+  },
+  "description": "Carette au Trocadéro, c'est l'essence du chic parisien depuis 1927. Sous ses arcades face à la Tour Eiffel, on vient pour le plus célèbre chocolat chaud de Paris, servi avec sa montagne de chantilly maison. Le décor Art Déco rose poudré et les serveurs en gilet noir plantent le décor d'une institution immuable. Entre finger sandwichs délicats et Saint-Honoré divin, c'est la pause gourmande obligatoire pour quiconque veut goûter à la légende du goûter de luxe.",
+  "real_talk": {
+    "text": "Le goûter le plus chic de Paris. Chocolat chaud, chantilly et vue Eiffel.",
+    "must_eat": "Finger sandwichs, Saint-Honoré",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "La jet-set du 16ème, touristes en quête de mythe et gourmets amateurs de chantilly ferme.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "LÉGENDE",
+        "items": [
+          {
+            "name": "Chocolat Carette",
+            "price": "12€"
+          },
+          {
+            "name": "Saint-Honoré",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "SALÉ",
+        "items": [
+          {
+            "name": "Finger Sandwich Mixte",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 9702,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

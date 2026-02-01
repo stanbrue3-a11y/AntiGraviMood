@@ -1,0 +1,161 @@
+{
+  "id": "poi-215",
+  "name": "HOBA",
+  "slug": "hoba-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8913,
+      "lng": 2.3155
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJyaM3v9Nv5kcR44TRV_FgDhg"
+  },
+  "category": "restaurant",
+  "subcategory": "food-court",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 284,
+    "moment_count": 12,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Industriel, vert, ouvert",
+    "smart_tip": "Le belvédère de HOBA haut offre une vue plongeante sur tout le parc et le skatepark.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://hoba.paris/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2CzstCk6R9EIh1QyoKiFvq9u3dkbQndV-5M1YKq3U51UHq7XPrpnuZKTTiLoaz1k1Or839u4ijygIvwZvVk8ErcJ6mRkSFmnNZi1OUJlCuRKwmU9dJ0l0-HMcwli-AlN3Lef0iQ9eJmNF_AfqArXojn_8DWMgXStcxRaGbc4FpdHaHNsto0yBIhIlQlXtVXJ2gVGv2aTrYYcn6iYKKGYCIFGXnCxksxWdNoD-_V4zFj8koURUBLUa4VGlHFoztRw82w076HKtpq73U-miRxP3J77fP-GX0jN1BKlhKE0X32hqrZ5A1C-D6MdC0MEt8PcMLP_BqPBMjTylVnf3Yuju0oFLAHuO5SvmoY0_I66aHkBUMd6eDNHeJhceHGwgEFvxHsBqzoMWpCCMeySz8LwrEYVuxkNXdBnVR05bdKHk&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@hoba.paris",
+    "google_photos": [
+      "AcnlKN2CzstCk6R9EIh1QyoKiFvq9u3dkbQndV-5M1YKq3U51UHq7XPrpnuZKTTiLoaz1k1Or839u4ijygIvwZvVk8ErcJ6mRkSFmnNZi1OUJlCuRKwmU9dJ0l0-HMcwli-AlN3Lef0iQ9eJmNF_AfqArXojn_8DWMgXStcxRaGbc4FpdHaHNsto0yBIhIlQlXtVXJ2gVGv2aTrYYcn6iYKKGYCIFGXnCxksxWdNoD-_V4zFj8koURUBLUa4VGlHFoztRw82w076HKtpq73U-miRxP3J77fP-GX0jN1BKlhKE0X32hqrZ5A1C-D6MdC0MEt8PcMLP_BqPBMjTylVnf3Yuju0oFLAHuO5SvmoY0_I66aHkBUMd6eDNHeJhceHGwgEFvxHsBqzoMWpCCMeySz8LwrEYVuxkNXdBnVR05bdKHk",
+      "AcnlKN2WnywnYmi7Mt2hxtWTNX_G0lx99HW-miNhNC0UINWzQu353gHr_wiaoepOrH5HpGwdZRUKHb5wUcLtAntgqKWXPvP-N5n30xNlZDYcgzob78xQGPIX1F6-PblWGZ4QjbfIanAaLB-R7dI2qCGhC4xiHDbpuJcVY21YCslHgBECO6AmbgQ8Z5OqmYdwbOn2sphBtWHl_q6DXlfpN70W0kgH36J4LjercOUAnxNttnN-UT5CC5TnHOFzCQ5Ch5bYiJdWlPf7yXNUZkFro7DUJPa1nSEa37xts0JHeBWKnHUbUQ",
+      "AcnlKN3n_fvNCHuIEUWcd0e-trGXr6z2iMAmo1XL3Xj6G0ftkcX6LUp95AwvJUkgt1XgKypZe2Qwt71H80UZbCICLhqVh7PRrGqWRdMo-ed-ypC614FFnMvY4E78Jgc0IH9RHXCl4fjkNg2Oj4VG8Fb74HssZWfySqDmLMOTXS1-qWWZv4ZY5WFPgt7Phpk0wQUJIqiXjQ-M44h5pPPs8_1Sk13IzZt6t6OaMLbhbtepJvqZWqS44S06r27koenCaAhHl1o-9ZCrZGykW-Z4mmxl7nnjHhNCE4luXiUffAwdqb3gsw",
+      "AcnlKN30tLuJ9LGSFxXe82-SLUCseQPGcANrickkrAMPZ1brU2uWXIcaAXF9QWIRQYoGJ28IzvqjA0_bgEvqfkcgxMF7LgTwyx_0Uk_IOG-UR_o1TReb9YBpFEeUYmEiHWliEt9dRb-7DnpmD0oZzMrUCF-dWoKJk_-Y1Sl2dNl64OHZW0PY7lMMVEaqUyTs7cMnt4O_f1frv04VfJpclReM4-5HnOA2Rrx-UNQEXDOvOsKVLDHoI4swKitdloJfawOVEKkizXrCPzAL1T1b5K6tzYkgBXevB9tJNyjNpcGDJ3akRQ",
+      "AcnlKN2dBscyeMFV4DNxF7CVVRILEkdHpuDc9cVAaL8bQ2hqM3NcyCdA_dGosdZugxRehHyDkFaJIRzcQmNxeQurr0cuFZhFyHvRlTc3bgV9Es117XIhuBx-oTfJuJ19lczyl3kGhxoGK3aXnHNYPdaloNbUayKg_uERw4K3J612TWDzZ9ljQWPsLNuvKmVEiIHc7i5_EQbfNGNqdO3ObdyMXez2km8eKU5Oqxa2iwtuz6TGSg3ZJEk0Q6CeDlHLGcV9puK1K9ko1bSD0y62Au7HFf_33JyLaLg8bDZI0lUT9_bKCR2y4huP9BQnZpFQplY-TBx9EAQWk4mPemqxGifhTKVG4MPf53q-LX3FnI-OnZXhvnAxweibnurc2DqWdhUbfMy_fwOsVbbgXFKtUJUAyNF_bR7TTy0ycaz8m1F6aM-5BELjbEF9AueBArbUDQ"
+    ]
+  },
+  "description": "HOBA est le food court engagé et durable niché dans le parc Martin Luther King. Installé dans une ancienne forge ferroviaire (HOBA bas) et sur les rails (HOBA haut), le lieu propose une sélection de cuisines du monde qui mettent l'écologie au cœur de l'assiette. Cuisine végétarienne, produits locaux et programmation de conférences éco-responsables font de ce lieu le porte-étendard d'une nouvelle génération de gourmands conscients et festifs.",
+  "real_talk": {
+    "text": "Manger bio sur les rails. Le QG green et gourmand du 17ème.",
+    "must_eat": "Cuisines du monde éco-conçues",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bobos écolos, jeunes actifs du 17ème et familles 'conscientes'.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 18,
+    "value_score": 102,
+    "category_percentile": -2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14,
+    "confidence_score": 95,
+    "last_updated": "2024-01-20",
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "FOOD COURT",
+        "items": [
+          {
+            "name": "Plat (HO)",
+            "price": 15
+          },
+          {
+            "name": "Brunch (BA)",
+            "price": 27
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Accras (5pcs)",
+            "price": 6
+          },
+          {
+            "name": "Pastel Thon",
+            "price": 6.5
+          }
+        ]
+      },
+      {
+        "category": "COFFEE SHOP",
+        "items": [
+          {
+            "name": "Cookie / Muffin",
+            "price": 5
+          },
+          {
+            "name": "Latte / Cappuccino",
+            "price": 5
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant",
+    "café"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 946,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

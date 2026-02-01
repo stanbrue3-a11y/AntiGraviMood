@@ -1,0 +1,112 @@
+{
+  "id": "poi-batch3-02",
+  "name": "Danico",
+  "slug": "danico",
+  "location": {
+    "address": "6 Rue Vivienne",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.866504,
+      "lng": 2.339678
+    },
+    "nearest_metro": "Bourse",
+    "metro_line": [
+      3
+    ],
+    "google_id": "ChIJ_fXqTSVu5kcRE4R3m1Xo8q8"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 12,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 8,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 20,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Hidden",
+    "Elegance",
+    "Voyage"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18h00 – 02h00",
+      "display": "Tlj: 18h00 – 02h00",
+      "detailed": "lundi: 18:00 – 2:00\nmardi: 18:00 – 2:00\nmercredi: 18:00 – 2:00\njeudi: 18:00 – 2:00\nvendredi: 18:00 – 2:00\nsamedi: 18:00 – 2:00\ndimanche: 18:00 – 2:00",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Menu thématique Xplorer (actuellement Pérou)",
+    "ambiance_vibe": "Chic discret & Design velours",
+    "smart_tip": "Asseyez-vous au bar pour observer la technicité incroyable de l'équipe de Nico de Soto.",
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "L'un des bars les plus prestigieux de Paris, caché au fond d'une trattoria monumentale. Chaque menu est un voyage sensoriel dans un nouveau pays.",
+    "must_eat": "Les petites bouchées italo-fusion du menu snacks.",
+    "le_secret": "L'accès se fait en traversant tout le restaurant Daroco jusqu'au fond.",
+    "le_son": "Luxe décontracté, volume modéré. Idéal pour un date.",
+    "le_must": "La verrière industrielle et les banquettes en velours bleu profond."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 40,
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 17,
+      "label": "Xplorer Cocktail",
+      "source": "verified"
+    },
+    "fair_price": 17,
+    "source": "verified",
+    "cocktail_price": 17,
+    "verification": {
+      "verified_at": "2025-01-25T18:55:00Z",
+      "source_url": "https://www.daroco.com/danico"
+    },
+    "menu_items": [
+      {
+        "category": "MENU XPLORER (PEROU)",
+        "items": [
+          {
+            "name": "Leche de Tigre (Zesty/Coconut)",
+            "price": "17€"
+          },
+          {
+            "name": "Chica Morada Signature",
+            "price": "16€"
+          },
+          {
+            "name": "Cocktail Creation",
+            "price": "15-18€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Nichée à l'arrière d'une célèbre pizzeria de la galerie Vivienne, Danico est une 'speakeasy' élégante qui transporte ses visiteurs dans un univers de mixologie haute couture. Sous une impressionnante hauteur sous plafond et un décor signé par de grands designers, l'équipe menée par Nico de Soto propose des cocktails inspirés de voyages lointains, utilisant des techniques d'infusion et de distillation de pointe. C'est un lieu secret, feutré et cosmopolite, où chaque création liquide est une invitation à l'évasion, faisant de ce bar l'une des adresses les plus prisées des amateurs de cocktails parisiens.",
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 950
+}

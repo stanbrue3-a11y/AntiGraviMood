@@ -1,0 +1,184 @@
+{
+  "id": "poi-080",
+  "name": "Bouillon Racine",
+  "slug": "bouillon-racine",
+  "location": {
+    "address": "3 Rue Racine",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.850176,
+      "lng": 2.342022
+    },
+    "nearest_metro": "Cluny - La Sorbonne",
+    "bouche_metro": "Sortie 1 (Bd Saint-Germain)",
+    "metro_line": [
+      10
+    ],
+    "google_id": "ChIJofo-3ypx5kcR6jC1qWRBRgg"
+  },
+  "category": "restaurant",
+  "subcategory": "bouillon",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 12,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 28,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Art Nouveau",
+    "Historique",
+    "Gourmand"
+  ],
+  "practical_info": {
+    "bouton_réserver": "https://bouillonracine.fr/reservation/",
+    "réservation_obligatoire": true,
+    "terrasse_extérieure": false,
+    "accessibilité": true,
+    "téléphone": "+33 1 43 54 11 69",
+    "réservation": "3-5 jrs d'avance",
+    "ambiance": "BROUHAHA (Brasserie vivante)",
+    "boisson_signature": "Bières artisanales du Nord",
+    "incontournable": "Cuisine Française Traditionnelle",
+    "small_talk": [
+      "Décor Art Nouveau classé monument historique.",
+      "Souvent complet le soir, visez 18h30 pour du sans résa.",
+      "Ambiance bruyante typique : venez pour le lieu."
+    ],
+    "bouton_label": "Site/Réserver",
+    "price_range": 3,
+    "website": "http://bouillonracine.fr/",
+    "terrasse": "Pas de terrasse",
+    "bouche_metro": "Odéon",
+    "smart_tip": "Monument historique Belle Époque. Réservez pour admirer la salle Art Nouveau sans presser.",
+    "cuisine_type": "Bouillon Belle Époque"
+  },
+  "real_talk": {
+    "text": "Le plus beau bouillon de Paris. Art Nouveau intact (miroirs, boiseries, faïences), on mange littéralement dans un monument historique.",
+    "must_eat": "Souris d'agneau confite, Escargots de Bourgogne.",
+    "le_secret": "Les box en bois sculpté sur les côtés offrent une intimité rare pour ce genre d'établissement bruyant.",
+    "le_son": "Bruit de brasserie typique, animé et vivant.",
+    "le_must": "Le décor classé de 1906, absolument éblouissant."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 35,
+    "value_score": 90,
+    "category_percentile": 20,
+    "is_free": false,
+    "items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Œuf mayonnaise",
+            "price": "4,50€"
+          },
+          {
+            "name": "Escargots de Bourgogne (6)",
+            "price": "7,50€"
+          },
+          {
+            "name": "Pâté en croûte",
+            "price": "8,50€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Saucisse au couteau, purée maison",
+            "price": "13,50€"
+          },
+          {
+            "name": "Confit de canard IGP, pommes grenailles",
+            "price": "16,50€"
+          },
+          {
+            "name": "Quenelle de brochet, sauce Nantua",
+            "price": "14,00€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Profiterole géante chocolat chaud",
+            "price": "7,50€"
+          },
+          {
+            "name": "Tarte Tatin, crème fraîche",
+            "price": "6,50€"
+          }
+        ]
+      }
+    ],
+    "main_dish_price": 25,
+    "pint_price": 6,
+    "coffee_price": 2.5,
+    "last_updated": "2025-01-26",
+    "booking_url": "https://bouillonracine.fr/reservation/",
+    "extraction_reasoning": "Surgical Correction - Verified Signature Dish",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 25,
+      "label": "Souris d'Agneau",
+      "source": "verified"
+    },
+    "fair_price": 25,
+    "menu_items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Œuf mollet frit Comté",
+            "price": "11€"
+          },
+          {
+            "name": "Gaspacho melon pastèque",
+            "price": "10.5€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Confit de canard maison",
+            "price": "19€"
+          },
+          {
+            "name": "Poisson du jour",
+            "price": "21€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "12:00 – 23:00",
+    "display": "Tlj: 12h-23h (Service continu)",
+    "detailed": "lundi: 12:00 – 23:00\nmardi: 12:00 – 23:00\nmercredi: 12:00 – 23:00\njeudi: 12:00 – 23:00\nvendredi: 12:00 – 23:00\nsamedi: 12:00 – 23:00\ndimanche: 12:00 – 23:00",
+    "is_open_now": true
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "description": "Véritable chef-d'œuvre Art Nouveau classé, cet établissement fondé en 1906 est l'un des rares rescapés de l'âge d'or des bouillons parisiens. On y dîne au milieu des miroirs biseautés, des boiseries chantournées et des céramiques d'époque, dans une atmosphère de brasserie historique éblouissante.",
+  "google_rating": 4.1,
+  "google_ratings_count": 9400
+}

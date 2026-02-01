@@ -1,0 +1,181 @@
+{
+  "id": "poi-091",
+  "name": "Petit Bain",
+  "slug": "petit-bain",
+  "location": {
+    "address": "7 Port de la Gare",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8355263,
+      "lng": 2.3767124
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJe_iCARhy5kcRLKRegs4xnO8"
+  },
+  "category": "club",
+  "subcategory": "péniche-concert",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 6,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "crowd_energy": 9,
+        "late_hours": 8,
+        "event_programming": 9
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 6
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "24€ environ",
+      "display": "Tlj: 12:00 PM – 12:00 AM",
+      "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 2:00 AM\nvendredi: 12:00 PM– 2:00 AM\nsamedi: 12:00 PM– 2:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Concerts éclectiques, DJ sets, musiques du monde",
+    "signature_drink": "Bières artisanales locales",
+    "ambiance_vibe": "Péniche flottante, rooftop avec vue sur la BNF",
+    "smart_tip": "Un spot de repli parfait quand le Canal Saint-Martin est trop bondé.",
+    "entry_fee": "15€",
+    "happy_hour": "19h-21h",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "link_shotgun": "https://shotgun.live/fr/events/bazz-paradize",
+    "website": "http://www.petitbain.org/"
+  },
+  "real_talk": {
+    "text": "Une barge culturelle increvable amarrée à la BNF. Son rooftop avec vue sur la Seine est l'un des meilleurs spots de l'été pour une bière au soleil.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_secret": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Bateau-salle de concert et centre culturel flottant, Petit Bain est reconnaissable à son architecture jaune vif et son jardin vertical. Bien plus qu'une simple péniche, c'est un lieu hybride qui accueille des concerts indie, des soirées clubbing et des ateliers. Son point fort reste son toit-terrasse (la Cantine) qui offre une vue imprenable sur la Seine et le quartier de la Bibliothèque François Mitterrand. On y déguste des bières artisanales et des tapas dans une ambiance de croisière urbaine décontractée, loin de l'agitation bitumée.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN06Ns9MSLy6QoOJwLxoTLCCqN_pk31Bs8n9lf1n61rN8oD87HsjX1h9tfW1_zthtHJI4-pPsny9SD0KSa1IS3hhUimvNCoG7pQ0TKWdtDC3Lf7mCIerEgMyUGBjOxsgY2_bsLtGCGj6qjXxPsNRej-Wqw4RG4ZGpE6EittLsgxvaFg6_45xApdsJ_eXMCcqCVQ1Thn5vD5fWxW5HVU1FD9XbLmP4qhqSRhBFQjBZZ1zq1XG7F6_Ga09DjWoPUYtvpBNP7lDDyb9xwMb-s3jyikUConn5R1BjJzbn0y2e6v-7w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@petitbain",
+    "google_photos": [
+      "AcnlKN06Ns9MSLy6QoOJwLxoTLCCqN_pk31Bs8n9lf1n61rN8oD87HsjX1h9tfW1_zthtHJI4-pPsny9SD0KSa1IS3hhUimvNCoG7pQ0TKWdtDC3Lf7mCIerEgMyUGBjOxsgY2_bsLtGCGj6qjXxPsNRej-Wqw4RG4ZGpE6EittLsgxvaFg6_45xApdsJ_eXMCcqCVQ1Thn5vD5fWxW5HVU1FD9XbLmP4qhqSRhBFQjBZZ1zq1XG7F6_Ga09DjWoPUYtvpBNP7lDDyb9xwMb-s3jyikUConn5R1BjJzbn0y2e6v-7w",
+      "AcnlKN1uhX8R3vjxtXsAvsruw5PCBjpYIHg7_CAnMGEwpcsCF1i6spWGuXxnvTzWFlO5ksAzTnjxbOdXAiGaw4QMNecGNSeIHpDiEJ17eqLfUvzCMHQ8Y7CkykDthC-RBvrqvrHj19h-Tk7nwKk_aVfuD5kxnKwX87n-PVWdngzS89ZwYYoeASeMgzEk-w44W25mTJEIVCycRvsIvlLank5Vhj_pYnRs5maT_g1ux_TTUR4iLqCotAnAQSwtPyO7EOhR3PwSkCYHIui7CBeiQUT5GgG7Cz4mSPGzmf9xvD3rIRGduCLZcDb9gGa3S1eioK2Zqon926OUVBxjTPoNEZPbQzJZk9HP1EnIRt5oFadBVBPycIcyuQKJxb1XcDCcidN5tf0wzbVxI3yUyA1DjapaUYjy3_TxxKex8dwemuBOfDIoa3lq",
+      "AcnlKN0HvJ-pGlZGtI28H_jxMMm3StIzrhFzBoEDqDY4L3v5HsLFNEUBrVw63xMVOYTI-ZFyTg2zwe1ckwUUg6smozM1L9515t2YC06-2WmXnEP8D4II31-M1Q24uVa_HK_T8a1Fm33ZUgRDioRYqy3m1FtHKvQPTmZlQYSboAh1bz6hT7qeR3dtDVZijI6yQPr3luHOpYZ_VNKbh7pSidntpyyWohxwo11BJpqgibT643ClfIcYMNjVsLtoJI8cIZRnpwOqQ3uk6TrU7vRXgW99g3GuExOvhSaC7NVRV8TxAnxmNvqEXzmoy9iM2A7ueR08QSOP15AreaG-uqXsDhqpBuDoI3XQfDyO_3uoHKaiukgYycyj4Yf-syNiibFKhqNXubEP6JaXC_S8A9M1l0J-P6MJCckwAIBvMb6_3POMJlFYYSl1",
+      "AcnlKN3SzdWwT9NU_LLjalmW3_IjrzBqjBVogMlgKBPxQysNDWpys3BZMVbkssRdDARnIvMRbLiuU9pdASUbIAKD8iC-rqvDwnuR20bBTD9Tw_pMA_1ZIDlrBNccy93q1wxdxdhDf-g6nh3IcXIiuTVCBTe88-QbLyy6uWLN4P0uSZDMRo-amBjHiekq1CFwt33-lXK6JzOpmWEwi6jjXiJqTEfGsMl9o1OJ6G4J-axJhOC1dF7a_Xw_hslpv29a-dg8zZEH_xnWvUR1leOl0x4vPGxj3cg6uoqdE5zDCWdn-XKlRz55cGgGCJ2DTrVc9oqOnysSf4Sgo-sKpF5sBd9k9IrsZObvIQO4vKekuH4Tui18y0LGu7mrMTc6ckFfIhZzieE88_E69IpO-3KXYnASQXX9qmXVok6uEi_eXZVR0KiptDCwl30xcE4c2VeIYRuE",
+      "AcnlKN3-o4Wv7vVzsivMNQRgefZvdkNvuUF-y_nbpQ8k4ipQWy8H7HD7rrzZdoG9l0Xu5FIboU_0XIGXvFgSie5vkCgUAt7UD3FiuT_r-NXTyRLTlrEqXPc0dtYkjZ9ZZa581lLMEgPX4J6CQuk3fE0roxyNDszD6tZnE5Kv5SCDwCmUr7l0aCd1XsymDTnarUhC4VuQ4-hT2FnSZyn1BfNnLmjyzn_pSMvysozwepVILfOEXsqM1VIi9aQSFHwxex8jBotq62jtOIsHN_2efrwOeNEbxq3gyFQnG8dvHEav4NvzbqcIOZSI84Z9oZ66cuSvX2R_zoW16-UHo4VyAuGneA4vrHwaP5FltK2OUO3URK0J8mXwJ5jyhJnPXOAYnzZ5TNzRzT4beJy4SwgkrhpaE7PL1cbzMaUhEyWh_rqe2ZqYag",
+      "AcnlKN0mMl_jvImnNNBWz82KVCzxTE0qwGSus5kk0DRNE13I_FwSonUBBvtIZU7M8gyZs2gOUNF9HSSQDsm37f-yKVMbglK5qjhA8qJ6NM4GXzR87L8ALKvrfiG4fNP-HvOKFlYgDy_op6OzosbdQ4JN74-dL62RRuSyAA6GwNPghpxGRXyTg8m_JecnztWyV_uyakSzQhjI6pQP8QlDebmHmTutgQCpNqmH9OUnhm-Li9OT0mfxABG3SV9lsuHIlWRmwRum8wLpCzsmobslc95_AyK3MQaZwsU-tpygHdtEAuMEc92A_KgT5xORChzjv3MGcifXtc0Q9201cNqo6d8TNQeUyw7LlAX9tBSam2SdfAyxQlzmMMXaaev6PSuzs91arsdMdbJi8imYJolfguC3rp0ibrmHMb4d7iXJ85DbpAMKhw",
+      "AcnlKN0-MyOBGM5bOJplXE9b4yhpg7RBHhix6_PN5uZg7p3cdFTOnqgsdlJOJaUOAiEirixDkMkePujrDzvtw9SEJ8tHjI4SijDw9pzrvFmVtiUX3oSmHyg3ZP5vu3dhJ66DaFiIlvHOdhscQa57zWn6MqwHKdF8wMKd618VCckacCCOk4fcjlgsbT4TE8rsUYUYCqOZt6kVzAOQa7eR2WGIXbc7NlIPQeJ28V9TEfwhmwb-f8IuMLJ9bTuab2c3WrdydBMNFgzFv34Se5C2VP4KWmo40oPak8YZAHRc5i0oVgjchE8GBNX0397lTs6FucuR9x1eR7chATff48bBHucRtlSKbNCWMNOhPBE9hDlPj8pWt69qNTLCrTTfj1xl34TCi52eleLOvqcw4IoyiBhtORVO3W3gfxWbRM3Ge6koojE6Qw",
+      "AcnlKN2nPoKicVB3PIZUPynjNfzk9dgRgKmAi8kgLfq5VAw6LCff03xrlu6c_Y-295T_RgF8iXWTfPVk29rCsUj95HMTN0HLtO9fPNCu4Y95Ufzf0_UEMuvwh-F8WIHk1rwYXq_kVLiiokz7CpgiBOI9UTFAysb3zLhqfL3hqPJseKoicAX8O_XzcMeE-_kx75giFJzDWt6s478vKlHx9IYfdFEIrSotO2997QugtmXvuchriWrb2qx0GQjLjyW9zuRpbvsnj88oXDM4JMxpsOtUf0QSPMbg5daK6D2nibOWNp0AbADGLGXgC1KsZgDZfdNjm0yC6AOfx2IkgxHNDcAvypmlA2K9FIuY01LzSphIy7EtChb63AHAb3ETZeQuaBAo7NvbBtqOFNwLDI94PrDQNsvc0YNbFjC_0EW2hOfa4QDhOBiK",
+      "AcnlKN06zBWeIL7180NoyLti70vebNwa4gFhZF8ExmwzMQSrYb-tQT7p5E-JTN1szP-c0g8DsEUu20MoLBU23dK7-zlEMFC8zIH7LznZqEdJcgCVvs010z4yCWzJd-OTAiZ-P-fbsB-RlCde34SPVouqDNnD2WoTNywJlP4EVZpvkQRg2TWy5cRcDXr7XpVfXlsGfk6gBj4Jgr1IOjeXqKee7TRbZcMWOy7r2E07yDdTwHcXqMHXavxybjw3fnOXpLhlulNXgVQ2A_Mj3q62W80nhsF6onqQis_YLLZ4lxqU6qGR7AVopjc882DWFmGMLzkvPGvb4E6-oKSgzRqoFLqsAzwstuaMUNQuVZQKRGg70AYeDlpUykHBuDOzZBKUaz_l8-hgDggENdreyy1KJpfhS6yFjtLz0NzsvxH4YDwEDmJ3Ew",
+      "AcnlKN3QJsEjaKancL-IhlNPhX0CF-YkRltEPS1BWZbgg62AEXWQ3ETIG6WSB2oIuFmpeRyrvLFNj1FDWSDNi6zU5sRf8J2ODI8oUmKCMfVccLcUCPPsKAPPemLy1hvOXalqxdB32-hXyhNLRbvkUDUYuRIs60A6IEtT6eKr6mLDXHfHJ-LUZGVUWL3AEs25SAhIkcOGvpdrkfpxUTBhAKPRev4_nUPrqQodk3xFx1VWBCWQJJJlYypKgA69h5OIW9X-lyG0fcCExw8Dux38F_flh1TjxLwo1fjLalLwrPyo2Dfb2hGylxzMTuyQH7dlj_oD3yZk2PpfnaD4RbrAH95KoXFfOF8sRmkJy79ImA4lx2yHidYQPJqcRUWkwAtIJLzxjlx6BUml_Dswcxn_pr8Afsqxy0O-WlsGXuZOGUCETO2NnqMU"
+    ]
+  },
+  "social_preview": {
+    "like_count": 392,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 59
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "music"
+  },
+  "opening_hours": {
+    "standard": "24€ environ",
+    "display": "Tlj: 12:00 PM – 12:00 AM",
+    "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 2:00 AM\nvendredi: 12:00 PM– 2:00 AM\nsamedi: 12:00 PM– 2:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Alternatifs du 13ème, familles branchées, mélomanes éclectiques.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "club",
+    "budget_avg": 14,
+    "value_score": 47,
+    "category_percentile": 53,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(14.0€)",
+    "pint_price": 5,
+    "main_dish_price": 14,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 14,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "7€"
+          },
+          {
+            "name": "Pression Craft",
+            "price": "8,50€"
+          }
+        ]
+      },
+      {
+        "category": "RESTAURATION",
+        "items": [
+          {
+            "name": "Assiette de Tapas",
+            "price": "8€"
+          },
+          {
+            "name": "Plat du jour (midi)",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": "19h-21h",
+  "google_rating": 4.3,
+  "google_ratings_count": 3106,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

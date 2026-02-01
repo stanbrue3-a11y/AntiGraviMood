@@ -1,0 +1,134 @@
+{
+  "id": "poi-197",
+  "name": "Le Piaf",
+  "slug": "le-piaf-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8732,
+      "lng": 2.3082
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ5SxpU89v5kcRd0WX5stFudY"
+  },
+  "category": "restaurant",
+  "subcategory": "festif",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 392,
+    "moment_count": 47,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Piano-voix, festif, nappes blanches",
+    "booking_policy": "Réservation impérative",
+    "smart_tip": "Le moment où le piano s'emballe (vers 23h) est celui où l'âme du lieu se révèle vraiment.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://lepiaf-restaurant.com/?utm_source=Yext&utm_medium=GMB&y_source=1_MjU3NjI3OTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN018cN8Ba8CeSb7bHBV0BCmw0sHkVNoVluggIZyoamlfumcirH6m6qx7b9KkVJvY58r_0TfSflHubcUUFoFVKkR8VhjwTVMHsS9Ef8KZS-8ZqjKgZwgXBDGKTxINmYHk_ITn5ws0TZwz8UygIGZ0PbnN_QSBVGoBDBUl8IwRssSf5AnYWs5y6WCoykGv54OElN_yKL4ZY4IA_y7XcE0-xZev7Vpd4LMyHSnvOuoWljcokyqN2vQVbENoQJfmSfNdNc8Qgc7jdIAtFPmhYpNCkd_e-BYcA4VBDwiZSQXN2bcyQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lepiaf_restaurant",
+    "google_photos": [
+      "AcnlKN018cN8Ba8CeSb7bHBV0BCmw0sHkVNoVluggIZyoamlfumcirH6m6qx7b9KkVJvY58r_0TfSflHubcUUFoFVKkR8VhjwTVMHsS9Ef8KZS-8ZqjKgZwgXBDGKTxINmYHk_ITn5ws0TZwz8UygIGZ0PbnN_QSBVGoBDBUl8IwRssSf5AnYWs5y6WCoykGv54OElN_yKL4ZY4IA_y7XcE0-xZev7Vpd4LMyHSnvOuoWljcokyqN2vQVbENoQJfmSfNdNc8Qgc7jdIAtFPmhYpNCkd_e-BYcA4VBDwiZSQXN2bcyQ",
+      "AcnlKN0yabmVj31YwpS3-7I_7cLoo0kOateX5bEfc51zqpsezMWDFmSw4SSTkqLbOxpVBy0_1lNxJWnhAe2cfetVtgmkqoRZ2P_73S9Poig5RbjpK1W0M9jKZrts2PE81EuA_r-RK4QRBXLrm8bkW1ladyILuOcKB6ebcgkk0XpJXyySzSs5ykAA_IOBKCVK0lOJWmxviOa9wP0R_1s_9v5YZvSlS_oAJasmz4qQIRzofw4W2IY_8n-HEhTUTOOwvtTm3nrA1yv0BXo3JKeNGn6JjM_-xEGK6eSn1inS3_XfrLgWVGcroHADXGgmhuGN48orzw0d-ZAZ850fgI37e5gPoMwjjOWqoGdgxb2DzsQ6Vs7NbYiK6qGYVDnNnQhWfZ_T9cWC5g022MO37K2FfL3tdjqpqkvKw9yQ90QbqBc1-1s0SJFq7ZE_GWxpGuKY2nGr",
+      "AcnlKN3lyn75N300Ve7WBpWYa94tWdiG1AJC7gQAvGpnnKfIp_ayM7onBEWc9nnKEHGzwk6ALdf2Ci9DutyFVgady8I3RY3bO8_e0eEc-h4k4tnl3pKooKmpLMC1Yk6Pnlv9SSBsPlYC73Htvmwa2s2cTUKE9ar_J-m3A4U9UgYloIBWH5VhjvCjxFYQIoDYsDJkYBV_XjtPGeRTjQVtYHAttVoy2Cit52HtYjtqKyg2mSu2Q4AP5kdPMP5fWMkKtihfkqQEA6bIDisBmfDAigoXhTEACHjPTbEiRyRd4OpxJaOjZ7GFpGUvt40Ok63OPObOHEGzaZ3FGf2-FrXcmC706pdE6TBGPn1DeeVv0JdmQMm-YNiX3gYdIY4sy9KVlVHeRYNS7ro3_PVvhUrPrcPWEs4fyrbhNV-A0ogTM3fmgv5aTYJ3",
+      "AcnlKN3gWRQGMqRZl4jwRm_-u_l1qvnq-0xQLdfVUXkWTBxjw8M-eUZDZrgTLOh2bkle4vuUWHgCO5MAEqXw8HPMtUMF-s1D_hCHlZYasGtKOxUXPmixJF1bCLJzFc0fduMQmjJS55rZnsaPpr9QcPnOOo72ltVWM512zMH1wc2rPsg_m8mpg_IzXwoKc_aJANjuUSpPwpLDk7XxaWC0L67c-wFXRwJH7q1NpDAKtYOBV0aumatkhpR3e6O1ExHypufMie1XYeEuWr13-cfiaF9O_hvHqC9UbDdlT48y6J2vRjIlxTPupMdCNZEGCMg2nRyWqPzflSb2ujcLtOcshRtk1WGg30mlIL8UmqK43Y-dcAfC0Je3RHC9Ql6owgt5ZBy-7_iXXy8l4uEAxiy0uHbVxDI147QIx0hQ78u9XBL2_q5V65QP",
+      "AcnlKN2rz2YfVvWnh31LhoZOqe29uHGodGDgJGxBtk_ElLin7vpJHufuNauLV_d1ZKUve3MomaxXgLxRMi02ieoQ2oVs9MPzDUiWdyDbN-XnKHK48QHobtw_cROq-gV5REeDQmxRg2uPg2bzlu1nLmVR_rNbJ1y1HNfPuAZ3A6xgXtpwqR-DX1l3xKg_0UAMaEdlCGv_iAzO9BGPqcxb6lVsrO9RFJH_PtpDnezC_uHOSDxGnV4AX-hhXnI-M-heqDYHwQYttXSmCj8pA5qSA5kQvEjC6l_vfF0y1sb7wkLQ8CgoBihZE2w2w73Cn2T5RCyWBaAyVkBhmBzB0iW5Yi5Bpu3JnZNBRwR45K6f6QwsjzJ41MeEJpEno7YzPQz2kKdMoNgXxdSG2zUyXP-wFd36V-zlUuRAJgPF0EzOZCgR1nkpUi7Q"
+    ]
+  },
+  "description": "Le Piaf est le nid douillet des oiseaux de nuit parisiens. Entre restaurant feutré et piano-bar endiablé, ce lieu mise sur l'élégance et la fête bourgeoise. On y dîne sous des lumières tamisées avant que le piano-voix ne s emballe et que tout le monde ne finisse par reprendre en chœur les classiques français et internationaux. Cuisine réconfortante (foie gras, bar rôti) et cocktails signatures composent la partition idéale d'une soirée rive droite réussie.",
+  "real_talk": {
+    "text": "Diner chanteur, luxe et décadence. On finit par danser sur les tables.",
+    "must_eat": "Le Plat Signature du moment",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Trentenaires chics, bandes d amis en fête et amateurs de chansons françaises.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "value_score": null,
+    "category_percentile": null,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 30,
+    "budget_avg": 52,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "FESTIF",
+        "items": [
+          {
+            "name": "Menu Diner",
+            "price": "85€"
+          },
+          {
+            "name": "Cocktail Piaf",
+            "price": "18€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant",
+    "club"
+  ],
+  "google_rating": 3.8,
+  "google_ratings_count": 879,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "poi-223",
+  "name": "Janine",
+  "slug": "janine-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8839,
+      "lng": 2.3212
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJT3fmjZtv5kcRWZi1wjSHm0M"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot-moderne",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 693,
+    "moment_count": 14,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation conseillée",
+    "smart_tip": "Pensez à réserver, c'est souvent complet tant le bouche-à-oreille fonctionne bien.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://restaurantjanine.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2LXv2b_QJSjGeEIdgBcKtGLZEViCVbJLz8e4IiCR9e7btBU4Co015Eu4FAF579YM1ENGQBgOVJVCN4P5WIfTY0WtmxntNBASU-teTWdZLNxW5l4i4hr-gXE8J_VM2XQu2GdvEKsBTdZzSm1j3bHKfa7qLryVnQpoEtsRSAlHn791vD6ZCfjnAz4lF6jDd0aNxduxQHN-ZKccgYDDvxap9UZRPlOyDzYrt1IMA-1B3YyYUxpHMeT2eYPUSQuP8jVZkzlk0o5vN3JGtHbuk7feKS7r04tB5FOO5K7Q1RGywIjQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris",
+    "google_photos": [
+      "AcnlKN2LXv2b_QJSjGeEIdgBcKtGLZEViCVbJLz8e4IiCR9e7btBU4Co015Eu4FAF579YM1ENGQBgOVJVCN4P5WIfTY0WtmxntNBASU-teTWdZLNxW5l4i4hr-gXE8J_VM2XQu2GdvEKsBTdZzSm1j3bHKfa7qLryVnQpoEtsRSAlHn791vD6ZCfjnAz4lF6jDd0aNxduxQHN-ZKccgYDDvxap9UZRPlOyDzYrt1IMA-1B3YyYUxpHMeT2eYPUSQuP8jVZkzlk0o5vN3JGtHbuk7feKS7r04tB5FOO5K7Q1RGywIjQ",
+      "AcnlKN2vtpfcW3pM3LdCsysRWgw388OoaqpipajGwwAJi_nBgDdfrQU8FsujfUgAbM9xUvGUrRK8bitYJZJyLQJgJNZ9mdvgjZlWM4qKlkPHL6OnIOS3au6yR9KSJJOpjhBg47xgxfwe5mLdKrDkI04RanDWilBD8zbZkFlmJF48MjcxOpV4rZ_9cEhyWxrrusNWJuC4UG1hFxe1R7e6UOoQ-mGSPbIaUwhjNqH1X0CjnNJcWz5RH3E-G4HA6EsSVzKEe5FOUklW4wYpcaEquGP717G1TJTdaDMs9RBm9xVi3AVTeQ",
+      "AcnlKN1BCvmHV_FJ235_mT65fcMp-3avukB8BIdWbVKEVquoXel1ZdUrVTknAXnMtU__ApM-OIoXWqa3rT79_i68bJMJwRNI6vyaMi6B4G7s0257swMgargu6GdRrO4qEBD8Fsi5-JD4iGxrLvUs-08PuFo6vfe5lRu4c8ptMsMOSM_nulKUKMBbqMH-K_LKRYw03TguKUhA4e-yPbRVUF8AMXtTdwS6bxP8aKAPn9mdsOMsi-suyBSlPxgN7Jdprcx_wfV1H_0Kux7q9nZGd1tR-XGZr1RbhIUEXOHBAhHCmvukMatiQSMX6NSwPaFQBYuFPkgoytZE4ZaMvqV7yPcqsg9jv9Mk4loOCEbaP4SpgLixZbh3Os2QWkWqzFbpk4oR-7qXmnJj9VXxbPJrQfl1uE_eeo09AF_3zf5jYZ6m9IG5zNotI3R3qRFC2AdgoK_x",
+      "AcnlKN2Sfiyts0Jd_fW38Xy9P0aVrq4oJnIdVpz2OaC5dX3gUFjkwblp-pvMgneGRNjpbaV-xbuVNVWUFjbEZTVfRVo256AIpSlx5_ByqgZl2tYtKY1uSNO6fwK1WvGEd6gAEZAXw8dtKA_bLtTRQl-oYjqRgWap3Xd_ESb1GrbXxmNTEWjM0otoITUzx9yQcywwSuEmociz7fr5UyQDP8kGRUtlLti3S13a-2Msk_3DqhNB6DyGs2fGWcy87IiZC1pjX7Ef9taZdGMfhyEfDZdzOmjCLjemUKtrRWZMF0qfM2JmRK5yfCT_wkk3AcqTgGbanHe_BRWJu0CVMe4uvOOk5e3z2iyjgL8H53N2O6xkNQxVHKPXhQ7JTkuPleLEp7gv1EzPTCEiAvViAaG3eSkM7N7JOhzfHUAORUWwEeatSeUIzpufmBqqt6g-G10xrqX1",
+      "AcnlKN08v_BZRZR0qUdZcUvwvln4SrM7gZk9DyfdUV0Bt94ghoNlin9J2SBEO7r6O89wELdno2dI0M--I7zeXeettiA1G4Fxev_-iVztnLdANkmpBerczb4FI31klo10KW4w4kYe19_qBSXqOez5eHCH5wbhFaBT0d8MJW_fBVwMUjYWPybcNWv1A4ln71CHnQrj5MOgH3hr96GfCMeUGeLzVP5WaI5QrsfRoYiTyFFAvjr7fyj-td0xiLPuNSovaFVn2f7NVAPovXteKQCM2ynuYIkURLs4IxOwQ9Dy9WJgjwuIcm0g2JzMfJclocZiCyH1PNTxgHYEO-2za8a1QZqWIvkAWomdYxAUt9C4UgZyW2GuqqzWTij79z0rqjPJ5XmziwtGFhtosWaoW249pzOBaugbq5G7_CkoaNKNyIiHqjYRCooYfnwHX2PDv2Ddpt2t"
+    ]
+  },
+  "description": "Janine, c est le bistrot de coeur des Batignolles. Cuisine de marché inventive, produits sourcés chez les meilleurs artisans et carte des vins vivante (nature et vivants). On y déjeune d assiettes franches et on y dîne de compositions plus sophistiquées, toujours avec ce supplément d'âme qui fait les grandes adresses. Le service est adorable, l ambiance est celle d'une maison de potes, et l on ressort toujours d'ici avec le sourire et le ventre parfaitement heureux.",
+  "real_talk": {
+    "text": "La perle des Batignolles. Cuisine avec du coeur et vins qui chantent.",
+    "must_eat": "Échine de cochon, tartelette maison",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bandes d amis passionnés de bistronomie, couples du 17ème et amateurs de vins libres.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 28,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(28.0€)",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "FORMULES",
+        "items": [
+          {
+            "name": "Menu Midi",
+            "price": "28€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 824,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

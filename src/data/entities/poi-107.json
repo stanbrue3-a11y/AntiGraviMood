@@ -1,0 +1,179 @@
+{
+  "id": "poi-107",
+  "name": "Gros Bao",
+  "slug": "gros-bao",
+  "location": {
+    "address": "72 Quai de Jemmapes",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8714928,
+      "lng": 2.3657866
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJVbaSEqNv5kcRRCojUpAmUIQ"
+  },
+  "category": "restaurant",
+  "subcategory": "chinois / bao",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 10,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 9,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "24€ environ",
+      "display": "Tlj: 12:00 – 3:00 PM, 7:00 – 11:00 PM",
+      "detailed": "lundi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nmardi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 7:00 – 11:00 PM\njeudi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nsamedi: 12:00– 11:00 PM\ndimanche: 12:00– 11:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Bières asiatiques, saké",
+    "ambiance_vibe": "Street-food asiatique hype, déco néon et bois",
+    "smart_tip": "Leurs vins blancs secs sont parfaits pour un apéro entre copines.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://baofamily.co/grosbao",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Le navire amiral sur le Canal. Une cantine XXL, des baos fumants et un canard laqué de haut vol dans un décor ultra-vibrant.",
+    "must_eat": "Bao buns (porc, poulet frit, shiitake), gyozas",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Gros Bao est le navire amiral de la Bao Family sur le Canal Saint-Martin. Sa façade rouge flamboyante est devenue un repère incontournable. Dans une ambiance de cantine hong-kongaise moderne et survitaminée, on y déguste des baos format XXL, des nouilles sautées au wok et un canard laqué réputé. La salle à l'étage offre une vue imprenable sur le canal, rendant l'expérience aussi visuelle que gustative. C'est bruyant, convivial, généreux et c'est sans doute l'un des lieux les plus Instagrammables et énergiques de l'Est parisien.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2Vw_2x68VEYhRoFOyW_0BxQ6tXiNh5yZI5edB-aSx-czjIFQifVFS7dnz7UHHM5wkWArlXeGFu_2LbADPHzKlcw2rYRYx_gC3C5ihKWuWNH4K9UtVOElQGns1zXhRW_l6kU9jb5DQiZo4yUfuhZfQgZk8z9eD9LIkljHUBP9QW0nWu-RIVhJqm645URS-MoYPSN10XlQxuWogYEq7LhdTU0pd0og-ChFk8LW3AJb1Gpjb6e6_-WUk8sZMcJxHqQzqAmoqYOzuvb5opanZTBAlY5yHrq2jNiOtveHgAkD3SO2amKV54ry_U0thMwI1JA7kqfoYDrEoXhhs8pPLBRMW74TmjZTNUvYEmSe7NyYgoTJfj-h17d1bfI5O_Xs7A2_iZ8ZhPBV2_v6jO6SX8c_jADzU4nlDJ4c2lOLuqblZrjdjNe-UWXQlKNANfc38B&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bao.family",
+    "google_photos": [
+      "AcnlKN2Vw_2x68VEYhRoFOyW_0BxQ6tXiNh5yZI5edB-aSx-czjIFQifVFS7dnz7UHHM5wkWArlXeGFu_2LbADPHzKlcw2rYRYx_gC3C5ihKWuWNH4K9UtVOElQGns1zXhRW_l6kU9jb5DQiZo4yUfuhZfQgZk8z9eD9LIkljHUBP9QW0nWu-RIVhJqm645URS-MoYPSN10XlQxuWogYEq7LhdTU0pd0og-ChFk8LW3AJb1Gpjb6e6_-WUk8sZMcJxHqQzqAmoqYOzuvb5opanZTBAlY5yHrq2jNiOtveHgAkD3SO2amKV54ry_U0thMwI1JA7kqfoYDrEoXhhs8pPLBRMW74TmjZTNUvYEmSe7NyYgoTJfj-h17d1bfI5O_Xs7A2_iZ8ZhPBV2_v6jO6SX8c_jADzU4nlDJ4c2lOLuqblZrjdjNe-UWXQlKNANfc38B",
+      "AcnlKN2R7PftVmJtZnPUT_PRAM4X5mVSlNifPvOWT1R4OGqdXuvBXXbDN87Q-UDOWLu8_XVn1tVjQ8oqU1p_seHTtNSrnKACKifXO8pn7Ygj4lYtzPT3iTMBweeliqzmWYGZGcaKSqmqzPnZoHLdpkJPMvtTI9rK738P2xX3FE9h12yXX_zv8iG3U_UViXvtdeV0Xdhp_buliuNMgPWsPW5JfNW5OimlNGq2KEWxNGSkUe6h4cLRR2AHkO9TEW-kKlKW0UoRsUSel_KuyfdxVx61uPg7QISiDhO1bh5oaTIgwWan2A",
+      "AcnlKN27IXDdyEKricI1n-GiK_AOBf33DLDGKVc_Wf0sPnHMGmEU8SbA1tZi3WOyj-yCSU3y_R_SsFoTwhOX4nwoHFb6FJw_6rmT52CEUxi6DutE4BxB7wWztr0m989mia7anDT11OJ8EIcekUw_s2JqbmvE4feCuYST7E71k59STePP4YhF4WuzB_POki8OEAC2sf1mpUZ_plikG8BY3cDI0Mnr-atKeN8U2-bbD_6oj_QIQN7FG2eHt2rHS6nI6jw0z8tMlK8HniFq3JTEhEerNzOkcGi_c66XtgA9KTw647i2A2uIm1zC_0_rvKDSIEhv7ZpUz_c1adtRiktEbzjFNQGSUQJ1yAKK7a4WgmewR9DGCYBDHIWdHF8FLht7fM_SAKjdZlaJVTaAb4qboglF76fx2MShXxoCkqLaS2ArBdf9Ja3N2c0SBMAr3b80xw",
+      "AcnlKN3wnge0TrlcrFjIghz8hLWAEBJJFZUM_hHBujOMrBezNVjjsq99V9kF2aGGg8knbfloho_REntY1Iz_QZ5TM9vXlJw-r8ZtFB86aPCo0ZwpUd1gSe4Mn5TAgcR-UfbdMRlGHSo3AenyVB8KxE3BBFBRSGWkDLipqAlJ7piKfUsTWekaX6w2RPDYwYJwziUR8_BSEUH7n9K82IJt7O5G5mmw-cc-4dkBx_Yx3qbH2jE61IUVztb1nx-yV_Lq5zX1FD8Tdj5NbhF-NLhPxg1albM5cfL9U4R4naYMS-gs_UU13JYFqkOL1ftLpoeK7ujD89MTXBpxs8MSx3uiRQv9Es1-p5p-gurMcgqYLoNsUsOMx0da1nMTE3v6BIA0gF9Ammd2Qmd7MWYo0FEfbf51Z1LdDrHm6BhOUDo1XrdQXAQ",
+      "AcnlKN2tV22x_Ks59RH7lbKIw5sjjtws1FwQxd1S3LG4B4cIjGSfXV7aHhbZmVMDW-POEQqz5ooQhqkeafokI2BZ_oVy3m7I0YatQQtkB6vH9yKiLXcaAmydyJDZsIsOiW1hsuXtOSQmZGXIr8GVYYiJ9kNbT92htVEMP9NgdhK0FndYbUO5rx2Cp6HU2r4uiZQ7XCVPpXXe-cjDCtVGXKbjEJEtNJDlcgUeEJit3_z3N3wms3JJToY36Xp1ttDxCH_KTSgaXIEQhxTL5KlnGm9AtgZmmqxOjZ7svg37D07VgyhS-7O82LRu2SNplIdYFMJF-fuBy2vVKuOzzJv0Q1n8vPOmQt2xKIabDUzvtc81BNM2j4YLyqQKL76Gf0mlX7g_RF7RlSuGGR9wIUWtQv_L6jGhM8c85kd1YRvbNOtUVqAofONotanfBHCwnv2J3VcJ",
+      "AcnlKN3Nz-sn2PNd8SMMKlzhMhMbIxd47c6JXq6wRrUYL7ZeK0bYpOYF3gZBJk-QWZSs5FroLgYkcuwnUG_iSFIQtm7XdH9z1FAz3vcFN26TlH05dnTmZcNYUYqCPcr3fvkyMitBJ5ZB9xyZ2HtNk2HQHZXExw2KDl0l6fLiXMEqz4Svv-8ITneoHuwxM_AXTspt-TGG_ksGkoOvtainU3W1z06Uf-TBIKFi3tlqsMj9lu5X5_m6Wr4bPTghirC6jT9CRbq1uXfjelIW4rtvRznWBd-cnzZyfalPyy9h_cBj-Pb-YigZ353_0OfbjWqDJlm09Mvlnr-oalC5wI_QsyKDb2RReHDhGZ9SxEZcoU55ZOtgul65zWAX1qcsgw0JICxzDyUXvuHozCOsl9F4OxsgCxoPs4NrLNe7zMtU6Xv-JPGu_m4ixrwff-DLe17XKKii",
+      "AcnlKN0JWn2lgDP6uMEV4i5OE4qN5FV_ZofssHHJ0vVMJ9MvJ1fh4KPxvvSg9zbjB8PvtKDWqUuWhW45kk3zuoKYZAx1q7-BjkYk_KjXI3g8WQESZaIOa_Li2nxnSkZPrg_8VA5eAyf3sr1Ra72VdI8UBX1cG6skmRU8gfdSldxl4EdxwL0OvvkIcX5gu6gRk6RR15qXMvfYmm3n6UiBb2DRIph1kY-cnCPDk9Iv89d_Wc6wh4rX2b7kDtsKcyYMqgEtncipXl2N0bGdgyv05vObsjkhhKLIGPYFiiw-xb-mTm9Cv1bsbpHUjYZKi8MSS_z1rngcfdDvMvy1S9NIXLLjburer0mExbtouVZXq4pVO98AjUFzzvBPj9JVf3b9mpzI2oxTaw-1Uvt-gUiNMJGNScuWXG7QQGzhOvAFJmLgpZG4VtGRs9maK07qEYKXmQ",
+      "AcnlKN2nyxFioelEZef4OkjF6Xcy-j0WZDW1-DnM_V-lrfdf9rJ-LIprtZJMB5lhVYQMrcrDr_pzYHekxafeQUkOrSyS8575QYBYc4OJzLutvJNf6v_SeVd_mVz5LM1yXpkSjpJO4pepFzyCNex6KLD3JnZvwd5CNeKaSyH-QRdzNhiARjZrPg1RT66NufkLqPsI35sgWkFSqmVEwb7r4mMafvlfmwcxCv3v9PHS6Yu1Wwyy9tDq1lC77_SCcUpTuNj6sErTk86o-oWjANKvO_imas9KHVGCdR6ZtCBDgyl5O4239rSzGbeKWcoPNcQggy-mqiv6AsAAfg02rx40INunqrtGixK5iiPMDfwEeh5hBy8ZffEdEQVaDM-CsZFNw3BV3cA1_K0mui5Ymfk86n-ovWa-abxOLXJCTpFbiqhZfAE_EYRTEiGbVtWHGc72qehw",
+      "AcnlKN3DR5AQkZx24hfuzCLCpXgALIEdw_dmSmbcLc3Xg5jblIwxicK1kDlkzz8W7egSyRYqiz2ni_rPNHRZNOLvUewHvf4fwBs1wFdA4pNTb6UfBGjOVg2C1-qTNqqsvoxXsLUHIO2zQAn_T1UuiICdijEsN5taCgEroIl-nKinUF5oj1TYSOZIksGv7Nsw4KLQccwqRXLjoOd73TCIRtzpML8xemAnTvIVA1akVah3gocHg7otepUYFU86UmxoechK58Bp3sL87a52ZCMeHT-Q8OIfsVWNyq3JJueWzHSZJFw-e6YdcpMCiks6eIq4603fWwDYryoP_7wRb_z_f9Iqfm99YUi8soas9bRhjUM0NAvulB-XDboU2CIXXsr_ZrtnZGFaspP1Ku-jCkW3orKwkTIdxPy0Jhtki1yyQntFJ5SsIcA_v18QCV4rUowzx8Lt",
+      "AcnlKN3yAVP1lLiGmp-PflB_ixKs0GKpY3kuVsW-9b3183RyvvjzWDa4-mb17yO0Q4EzD6XRGwwVWsAEyOhzuTcRtPik9Nk3VvmfrTGJGbiYxGmNt8fhCHFy0-Jo1h001INx3SWcL0GvvKtGwsj9WSZf-fmXjzU6pOhlhwECZK0xeW7cVpyUbH9TADbTKU3QVf73PFHtRjTqf-vvBAuZ0VlHGOxCcOU79z0cN9lUuobrmF9FsNqYa3wpLpg9a7lkqu-oJGUMNGVVy4Mpjowo9UcCln7s82R7rT2qRwqcU7wAbOj7UZMuzpdo9U6Jx6BCiP3osrZt8bis-jTEyPpsYODsaA-6spr3iP8fpXSGWFNvNrKGwE6ASMLdbbDAuiR9MJfHwH0GXS7zrQapqM6kaXcNz1uMRr33dy2kRB7wQrouHDBr2fo"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1288,
+    "top_vibe_tags": [
+      "cuisine",
+      "gourmand",
+      "convivial"
+    ],
+    "moment_count": 23
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "24€ environ",
+    "display": "Tlj: 12:00 – 3:00 PM, 7:00 – 11:00 PM",
+    "detailed": "lundi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nmardi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 7:00 – 11:00 PM\njeudi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 7:00 – 11:00 PM\nsamedi: 12:00– 11:00 PM\ndimanche: 12:00– 11:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Foodies trendy, groupes d'amis branchés, habitués d'Oberkampf.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 26.8,
+    "value_score": 82,
+    "category_percentile": 18,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(26.8€)",
+    "main_dish_price": 16,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 16,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "LES BAOS",
+        "items": [
+          {
+            "name": "Char Siu Bao (Pâte fine)",
+            "price": "8€"
+          },
+          {
+            "name": "Veggie Bao",
+            "price": "7€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Canard Laqué Entier (à partager)",
+            "price": "48€"
+          },
+          {
+            "name": "Canard Laqué (Portion)",
+            "price": "18€"
+          },
+          {
+            "name": "Nouilles sautées canard",
+            "price": "14,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 8588,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

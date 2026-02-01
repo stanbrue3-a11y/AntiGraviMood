@@ -1,4 +1,4 @@
-import { Moment } from '../stores/useMomentsStore';
+import { Moment } from '../types/model';
 
 export const GLOBAL_MOMENTS: Moment[] = [
     {
@@ -6,7 +6,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-001', // Le Comptoir Général
         placeName: 'Le Comptoir Général',
-        user: { name: 'Sarah', avatar: '👩‍🎨' },
+        user: { id: 'u1', name: 'Sarah', username: 'sarah_p', avatar: '👩‍🎨' },
         mood: 'festif',
         likes: 234,
         isLikedByMe: false,
@@ -20,7 +20,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-005', // Ground Control
         placeName: 'Ground Control',
-        user: { name: 'Lucas', avatar: '🍕' },
+        user: { id: 'u2', name: 'Lucas', username: 'lucas_v', avatar: '🍕' },
         mood: 'festif',
         likes: 890,
         isLikedByMe: true,
@@ -34,7 +34,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-003', // Le Mazette
         placeName: 'Le Mazette',
-        user: { name: 'Thomas', avatar: '🎧' },
+        user: { id: 'u3', name: 'Thomas', username: 'tom_mix', avatar: '🎧' },
         mood: 'festif',
         likes: 567,
         isLikedByMe: false,
@@ -48,7 +48,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-006', // Café de Flore
         placeName: 'Café de Flore',
-        user: { name: 'Emma', avatar: '📚' },
+        user: { id: 'u4', name: 'Emma', username: 'em_read', avatar: '📚' },
         mood: 'chill',
         likes: 189,
         isLikedByMe: false,
@@ -62,7 +62,7 @@ export const GLOBAL_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-004', // Le Perchoir Marais
         placeName: 'Le Perchoir',
-        user: { name: 'Jules', avatar: '🍹' },
+        user: { id: 'u5', name: 'Jules', username: 'jules_view', avatar: '🍹' },
         mood: 'chill',
         likes: 445,
         isLikedByMe: false,
@@ -79,7 +79,7 @@ export const FRIENDS_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-006', // Café de Flore
         placeName: 'Café de Flore',
-        user: { name: 'Marie', avatar: '☕' },
+        user: { id: 'u6', name: 'Marie', username: 'marie_c', avatar: '☕' },
         mood: 'chill',
         likes: 45,
         isLikedByMe: true,
@@ -93,7 +93,7 @@ export const FRIENDS_MOMENTS: Moment[] = [
         type: 'image',
         placeId: 'poi-008', // Wanderlust
         placeName: 'Wanderlust',
-        user: { name: 'Pierre', avatar: '🎵' },
+        user: { id: 'u7', name: 'Pierre', username: 'pierre_music', avatar: '🎵' },
         mood: 'festif',
         likes: 89,
         isLikedByMe: false,

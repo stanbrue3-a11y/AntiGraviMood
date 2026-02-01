@@ -1,0 +1,128 @@
+{
+  "id": "poi-081",
+  "name": "Paname Brewing Company",
+  "slug": "paname-brewing-company",
+  "location": {
+    "address": "41 bis Quai de la Loire",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.887832,
+      "lng": 2.3787896
+    },
+    "metro_line": [
+      2,
+      5,
+      7
+    ],
+    "nearest_metro": "Jaurès / Laumière",
+    "google_id": "ChIJnW10B9pt5kcRTBy_pk1TkFc"
+  },
+  "category": "bar",
+  "subcategory": "craft beer",
+  "mood_scores": {
+    "chill": {
+      "overall": 12,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 28,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Brewery",
+    "Canal",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "bouton_réserver": "https://www.panamebrewingcompany.com/",
+    "réservation_obligatoire": false,
+    "terrasse_extérieure": true,
+    "accessibilité": true,
+    "téléphone": "+33 1 40 36 43 55",
+    "happy_hour": "16h-18h (Lun-Ven): Pinte à 6,50€",
+    "terrasse": "Sur l'eau (Ponton flottant Quai de la Loire)",
+    "ambiance": "VOLUBILE (Ambiance Taproom sur le Canal)",
+    "incontournable": "Smash Burger & Frites maison",
+    "small_talk": [
+      "Les bières sont brassées sur place dans les cuves visibles.",
+      "Le ponton est chauffé en hiver.",
+      "Leur cocktail fumé est une expérience visuelle rare."
+    ],
+    "bouton_label": "Site du lieu",
+    "price_range": 2,
+    "website": "http://www.panamebrewingcompany.com/"
+  },
+  "real_talk": {
+    "text": "Le spot ultime du canal de l'Ourcq. On boit des bières brassées sur place les pieds dans l'eau. Incontournable dès qu'il y a un rayon de soleil.",
+    "must_eat": "Smash burger et frites belges",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar ou visez le ponton flottant pour l'expérience totale.",
+    "le_son": "Mix indie-rock énergique, dominé par le brouhaha joyeux du canal.",
+    "le_must": "La 'Barge du Canal' (IPA maison) bue face au coucher de soleil sur le bassin."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 25,
+    "pint_price": 8.5,
+    "pint_hh": 6.5,
+    "hh_time": "16:00-18:00",
+    "main_dish_price": 16.5,
+    "last_updated": "2025-01-25",
+    "extraction_reasoning": "Surgical 3.0 Verification 2025",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 8.5,
+      "label": "Pinte IPA",
+      "source": "verified"
+    },
+    "menu_items": [
+      {
+        "category": "BIÈRES MAISON",
+        "items": [
+          {
+            "name": "Barge du Canal (IPA)",
+            "price": "8.50€"
+          },
+          {
+            "name": "Oeil de Biche (Pale Ale)",
+            "price": "8.00€"
+          }
+        ]
+      },
+      {
+        "category": "STREET FOOD",
+        "items": [
+          {
+            "name": "Loco Chicken Burger",
+            "price": "16.50€"
+          },
+          {
+            "name": "Pizza Pepperoni",
+            "price": "14.00€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "11:00 – 01:00",
+    "display": "Tlj: 11h-01h (Cuisine non-stop)",
+    "detailed": "lundi: 11:00 – 01:00\nmardi: 11:00 – 01:00\nmercredi: 11:00 – 01:00\njeudi: 11:00 – 01:00\nvendredi: 11:00 – 01:00\nsamedi: 11:00 – 01:00\ndimanche: 11:00 – 01:00",
+    "is_open_now": true
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "bar"
+  ],
+  "description": "Ancien entrepôt de grains de la Villette transformé en micro-brasserie artisanale. Le lieu cultive un esprit industriel balnéaire unique, notamment grâce à son ponton flottant suspendu au-dessus du Canal de l'Ourcq, idéal pour voir le soleil se coucher sur le bassin.",
+  "google_rating": 4.4,
+  "google_ratings_count": 8600
+}

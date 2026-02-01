@@ -1,0 +1,170 @@
+{
+  "id": "poi-113",
+  "name": "Dalia",
+  "slug": "dalia",
+  "location": {
+    "address": "93 Rue Montmartre",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.86786799999999,
+      "lng": 2.3435539
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJQ59MF1Vv5kcRKlVTAIyxIPI"
+  },
+  "category": "restaurant",
+  "subcategory": "levant / partage",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 10,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 10,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "35€ environ",
+      "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 12:00 AM",
+      "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 12:30 AM\nsamedi: 12:00– 2:45 PM, 7:00 PM – 12:30 AM\ndimanche: 12:00– 2:45 PM, 7:00 PM – 12:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins nature libanais et géorgiens",
+    "ambiance_vibe": "Élégance méditerranéenne, lumière dorée",
+    "smart_tip": "Foncez sur la Giga-Chakchouka à partager. La déco terracotta est parfaite pour le feed Insta.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://www.daliagroup.com/dalia-paris",
+    "bouche_metro": "Sentier",
+    "cuisine_type": "Levantine Festive"
+  },
+  "real_talk": {
+    "text": "Un shoot de Méditerranée dans le Sentier. Des mezzés explosifs, un décor terracotta sublime et une ambiance de fête partagée.",
+    "must_eat": "Cuisine levantine créative, mezze à partager",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Dalia est l'une des tables les plus vibrantes du 2ème arrondissement. Ce restaurant dédié à la cuisine levantine propose une farandole d'assiettes à partager inspirées des saveurs d'Israël, du Liban et de Syrie. Sous la houlette du chef Or Bitan, les classiques (houmous, shakshuka, halloumi) sont revisités avec éclat et modernité. Le décor, aux tons terracotta et au mobilier en rotin, baigné par la lumière des grandes baies vitrées, transporte immédiatement les convives sur les rives du Levant. C'est bruyant, joyeux, généreux et idéal pour de grandes tablées festives où le partage est le seul maître-mot.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1ebSMRUs5rt0zZDCJz1s-81LBL3-O6EYNZ6tetOCtYZDx0QuBEl4ihgwiKKXxIl1bt4AW85e9yrBXX1jXBlwHpkYrtoPMdOzLVkLFvRXFSVj0pk5ik_K1lesO4acSALRZWwuy4NuKrj5RjZ2H6Fihh1JWugYcwWzTcsApUMx-WtKMgCUWt_DW4eZy5sZRGKXuyQMen_dQ3pFWg0myj8vJ9cVe3NEYA6UPiPXOmluVVbMC0mr1XeScvP7nMgmPEjc3FDoWxSLWpAWSqij1GoWtnvozP2AgFpkMSRi8g8BRiGQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@squarespace",
+    "google_photos": [
+      "AcnlKN1ebSMRUs5rt0zZDCJz1s-81LBL3-O6EYNZ6tetOCtYZDx0QuBEl4ihgwiKKXxIl1bt4AW85e9yrBXX1jXBlwHpkYrtoPMdOzLVkLFvRXFSVj0pk5ik_K1lesO4acSALRZWwuy4NuKrj5RjZ2H6Fihh1JWugYcwWzTcsApUMx-WtKMgCUWt_DW4eZy5sZRGKXuyQMen_dQ3pFWg0myj8vJ9cVe3NEYA6UPiPXOmluVVbMC0mr1XeScvP7nMgmPEjc3FDoWxSLWpAWSqij1GoWtnvozP2AgFpkMSRi8g8BRiGQ",
+      "AcnlKN1EPSSBZtfKq-5zkJGhwq7n0Z-5QSjbo_uoO9YZGzVgu52E8FUC3lqFRKvsOJseA0n5ihd8tU_QnizfkTpkISH49pnM2aD0TqzmjQzAuROUHbmvB6uf5VfdChuUHn5N9tXFTvjliOjKaNLyuQdA79nsLGoh7pqEkKhKWddbxpjZXP81ISPoqaQTqeWhFEN8H-2Z6Kld3GJxej8PIGtAcJ3WsnFZHX-g2AxYs2sM6M4lFKAbm8evmxSMJj6ZnnOUE9FAzcfe2ZX7oTAcJAv-81yKl8XiaBx_yoSdsMX4xWQMkw",
+      "AcnlKN2BvWP0GB4oJ6ThvY12mx-EXErkSx5-6cBDP5Rvaonqo2nlXNqBgupcQw3DQTozIWChsepPPNl6hr9U4sdwkaGQfXwMmoJE7C8V1XRpEbbLT3NLga6p1--B0zuWHpXA4-KDWCQeSVp37G-g8yjKEiuzb3BTzb8KjO1g5mieV90kQycBd3tT-QIXQwOqKDwtBc3ghMmwVxHPdzRL-A9uGjrfQaFX7TmIYygYSdo-ZrftM_DSJNHYdzFcmvwyIOzK04Hg9nBu1jxnrUdegkbrKtaot41K87gH2wZjR5x-J7yhErkI0T0RONPnE_4YqYmt2rOHnXN6cuh80agF2T_-jVKv-FGk2jeaKQ0tEU6dfINxLMj3Aln0PtfWycoFvu7kbBoCnz6jaRBoEgv7iDP32b1XN3GgSafVYiKJ18mzz6sX1PHipX50uDMsUX-KJw",
+      "AcnlKN3mIEDY3lsH1ETgAJna3zIll352xGtlhjCPTYCubqP98LLdYuxEV9c0fTdcgTKWi9qyjUq_X8sI29ePj0osBzuE11tiBrCFsgAlv_VZDIjB2QNN-eaeJd2GpC4YLdfItD2dKhC8uuYJGlDFcIGMOCblDziz_RsDHigK6o3sK1CCFooGfWxU-rS4kNOYxHUJT-K7eQM77aNl13oT_o5WwyEkcGkZR7dUlAFn45RE7gwBOLJ5uWY1O_-Zcsea5hVa_cqljRLActTKjB8aCD2GFjYQPmi7HLU6xdNlLGXjq9iXEk9nZOiY7r4WHn67u71Ty8NEabmvJ8253cVJFLYe6qlondQpd2LSHcqxeBS7JizDjUTKoW4SuRtE_fxr5bm44Y0DWyIYS5Zqct-qeHwGLfYbnM9irROFozW2sGWgcvt95B64",
+      "AcnlKN3JzfvDxXqAFxKoNdBooyUgU2zj0ZAZ03CQXA5LrpOzIbLLsSh6qHNg7QcnCgUGcx7Mj_cCM7P6EcIB8g6xcoPd1Q8Q4Z2mudvSUYZMCY5eCibwLMdyS-fc3pAsg6h09BmouZ686_wW64UQv9FiRpVlvUs14WMCx0H0Hv4Ek8FCY5KxfWgTyhSVdrn77v1l4GRHIXDEkRVpAiLiXylzBRNOtCWFLFgpUXVMfQ8z33nQuJ6uHfVs_z0jw_gU62XrUaQaipc8GmN8yr79zNYVFmVqwM-Wg1idAxDnOdl7NXufcNrSwo2TbjeyBsOBXdsVG9O89KBFUggWLJgtwEq_gizITp73YbPRGHeLOOTLVmSVoXBoFAkCiUSyb6t6ySp_K4h58owNipfrUXhzGe2M3PYbzv_7GGEEmBhOJgVqXVxOCAlFyfumeLTyGf_2uA",
+      "AcnlKN1Sco9ZxBP-GkC7SZ3n6rNbj_slo-eQkPO2shk55TEOXPzYDzmVFbvIoK-qC7HcGt90Jiips4MTNrVxmY3Xq-b5QSOgvOVS7LTjbGl2UywaYF1tMNmEKVXXzX_S6bo5xjo_TPpmchlUOJ5-Mw2lQ3gS7Z-v__GV1An_W6ipu2W5KSh2-LRYpRpUZg63Dqcp7-xdynYEIvMcdSBGErQ7WYEppSa1qmuQ6HZiyRkncvrbuTfHSV9ogOzNogBn2mdJOIwrafCcX8-cPKkUdLIRqexK1mJV1VT5TgVjiP1wkqH4pFeN8ERivGV_csMrizvKhF3At_72lXbQW4jgJNdwz3qCla9Cg2V61idsPX060rXzZwIGFVafuLhD8qssEQ20oxyRHu_LBeZMwPpBoFc5Rs7hkgrtF0vaPOZLj8ZIAKBzUBE1_Cis9WKmF7ZTaBDj",
+      "AcnlKN05ffcfTBn2BgzzehCot_ySjPFXAydsy3IMdM3WV1Wz19tEdMNkqUSPk8myP0K4pb_X-Ah40RAalyiUy0KW8CsES7nljFjfYFGAeZm6YXWx1ZHpU0X7pXIVycUY6APWHbZdTXGq_f6htGTu4GxLWe2z3ciQTdUa9kgjw26ppRvnsQCRqddw5LcGb6G8tpa_vLAFhEEMxSAT9G_nqUZdMcMFwTIs2Wnuf8LwXDVFBeWPLn0XyTPIzXWlevozmgqFUroCO1uTWHsDncETamp1kXkTmRx--4msWd1qjVUcQEt7cGLvdcsayKOZUfCm4Qp2au8x5gM_xbbv7-qHJ0yS2D_AKiM50Y5na9J57yPXE-rMfxMrJ92Sdyr63n2IVS2KJOQU7JIqZF-XDeYpT9d3yJWLv44i3KWLvj8UK3V6pl8Hbog5aTRj4-iYaNFCzfhP",
+      "AcnlKN00WfXvrBY0yJI6V3fVjrsUZN1nhXWutaizSIp2p-OzHNvdSf12MKiaF5T0BQQzgd1H0g4uL_KKvP7W4bxZJR3GDrQD0j4WFyX-WPPno1p2WxCmAyGLMfSD_3IuEao6BDTRgZ3d9WrjG9Gs4rsqhj-aVOzOowHoPF_VwxbFvC187SxqwjCqlxs94UR2kzBiuRfHOC-5jjjlyNw5MfVTTkpA6Iemei5aMpDuPu_DGB-sn1IekycqcTxgBWOrFIPr-8rgoUY_37qCIWhugQl9bA3mQpDU2btnMILgO-aqeb9On2BNJZQgiQrTlAKYjJYbWWuiuZ_ZrO8f0ugPUJg2ZiM23yj3IY8QzT7u4XqgNij7dooMuVaZ_xbMUo9I_R9k12w6AJFG0OBFBXuH-kumWJbYofNFm4YDpOZmzo-Wl4mjso17MGNcIF8gZ3nh_ol1",
+      "AcnlKN1VHQ-vty4KHqyrpAhf9zHNXzcVcKfSeU0jNrawlL5RQxphI3jKp0C2LwpbSxb4pbTS2kghvrHUZh68mt-JGGCGKLrunXp-FbibWdiiUjfmlezsEKGhsDiFWBHKS8uiwWqSnvsAeQw4plvKl3VTusjI6jPOJ5xDDBCEUN7uyk2iDYqDujo5BvSnyK82XaOJYkh20HFup1gkrHjFhCSVmbYybA7J0FHu0h92jQYPABB8Uv5FGSMi9KlNXE56RP_xhxadL1wNHJgn1_SV2HM6h6ud5aO0oEJk6XfueaPjca8RG_X1YJVnnd29vmsw6ky2V_XfSk89aZRSLBla0Zt4rMgwuwOQdIGN_Oqr2DNPxdqdUBcqXVj3AjjpGd29x8oev85Ef9GKOuG4HXa8SScPti3Me-eoILaj46wgH4LDqlwXWCQuEvyK9iMw0RC3OiPP",
+      "AcnlKN1gTCZl54Yh0yck612z4nmGyf374IniHL87nl9rih6tV0h5o0O84D5M3PTf2H-POOmILg97B5suPtilk6MZUanO-o-7OQxv0m08ux3k4IS_-f6VKmOxVarKOveaOtp-KX4KUJ0dzltJDSMvWo-VA9otK2nTydgpj5o8Z9Nyj5fZ0K8Kak96K_O2qlhMfDpeERd72kwotqWn-D8NqNPCwGMl_TQ9jSOjXuxdjLr1dzx1ICxnm83SVW13JunEpJBMP_ZtoqLt_XMUaHqlNPJSW264vkU4QhK4-viN9vOnIJfoh49rwHY6Wfuohp5XL3QU4_1zDgliyQrBZPBMLv-qRFinMAe4rWXzyg06TfMRup5V1zdcjyzpIZ75QdtgB0PZ-7bg88-jXEmPRzhOW0JyIR_EgcJfvLp4T4ItXUQmII-VhmwtuAn5FHjlITZIxxi_"
+    ]
+  },
+  "social_preview": {
+    "like_count": 407,
+    "top_vibe_tags": [
+      "cuisine",
+      "gourmand",
+      "convivial"
+    ],
+    "moment_count": 26
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "35€ environ",
+    "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 12:00 AM",
+    "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 12:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 12:30 AM\nsamedi: 12:00– 2:45 PM, 7:00 PM – 12:30 AM\ndimanche: 12:00– 2:45 PM, 7:00 PM – 12:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gourmets aventuriers, couples en date, foodies du 11ème.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 22,
+    "value_score": 89,
+    "category_percentile": 11,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 22,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MEZZÉS",
+        "items": [
+          {
+            "name": "Malka Bread (brioche maison)",
+            "price": "12€"
+          },
+          {
+            "name": "Halloumi Caramélisé",
+            "price": "11€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Épaule d'agneau 7h",
+            "price": "18€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 3540,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

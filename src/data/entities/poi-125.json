@@ -1,0 +1,160 @@
+{
+  "id": "poi-125",
+  "name": "Le Très Particulier",
+  "slug": "le-tres-particulier",
+  "location": {
+    "address": "Hôtel Particulier Montmartre",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.8879064,
+      "lng": 2.3353175
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJc0b_cFBu5kcROcUV0fEH8IA"
+  },
+  "category": "bar",
+  "subcategory": "speakeasy / jardin",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.2,
+      "criteria": {
+        "noise_level": 8,
+        "natural_light": 4,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Secret",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: 6:00 PM – 1:00 AM",
+      "detailed": "lundi: 6:00 PM– 1:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 4:00 PM– 12:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Jardin secret de Montmartre, hôtel particulier Belle Époque",
+    "booking_policy": "Réservation conseillée en haute saison",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.hotelparticulier.com/tresparticulier.html"
+  },
+  "real_talk": {
+    "text": "Caché dans le jardin d'un hôtel de luxe à Montmartre. Un décor tropical feutré et une terrasse sauvage. Ultra-confidentiel.",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Caché au sein de l'Hôtel Particulier Montmartre, accessible uniquement par un interphone, Le Très Particulier est le bar le plus exclusif de la butte. Son décor tropical et feutré se prolonge dans un jardin luxuriant où le temps semble s'arrêter. Les cocktails y sont sophistiqués et nommés d'après des films cultes.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1laemGz2DYEkFo0GmoxQKNvkxI-ZNljssQ-Wde6YJy8hejG63VeayUtDxqIRSU1Ij9wWdyvUwVgHtiVQqTFTcx44HEhoznMiDHIF_kdKw9PwY-4W5RDainCX6-weCQLefe_JyCyDiQLt7QGjgy3YEopX_dsq7-W_uE936SPQd7quiC-EYa-SJOtzTzLKCq7BWTiPcQYJTZeLTMTfEN0H9K5FOS-8DQtng3VIoFUk-rTkxOc3VnKie62YbAW0Ev2xmEA_1tVnleZKw33jaJ4dGVIqlME967Gtgr7TU7PG4&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@letresparticulier",
+    "google_photos": [
+      "AcnlKN1laemGz2DYEkFo0GmoxQKNvkxI-ZNljssQ-Wde6YJy8hejG63VeayUtDxqIRSU1Ij9wWdyvUwVgHtiVQqTFTcx44HEhoznMiDHIF_kdKw9PwY-4W5RDainCX6-weCQLefe_JyCyDiQLt7QGjgy3YEopX_dsq7-W_uE936SPQd7quiC-EYa-SJOtzTzLKCq7BWTiPcQYJTZeLTMTfEN0H9K5FOS-8DQtng3VIoFUk-rTkxOc3VnKie62YbAW0Ev2xmEA_1tVnleZKw33jaJ4dGVIqlME967Gtgr7TU7PG4",
+      "AcnlKN3jSzo7ZDmdS-0xNeYe1b5kq_3T9BUjWl7UIphXS4JZspdeJNYRxq9yysuGsZuQGuDQKGCd8QYJrKz1BKdsSSsDauheLodct6kP6Ul4phaCX6POAaU100Fvi558u5ORHNoopDwruuSE2Bb7F7jJ5e3m-HRKBoyC_frGDz9vpcqf6PxL0G0VLHMJLH1jc2wHE9C7OFaj37KaFKkPrQkkqR5O5PYr3jVYLRBsJTbRCbMdqQltuoFbi1fJ7X9911yJDsm4QhaPBtYHyGlh_1GqY8WI3-QTFygZHrs8dGnjL1U",
+      "AcnlKN2umk9RfUzQS7yMJsL8XwgOut6cgdYjZgXUFraa7H4DpLQqsxsP5Ep1hL7HViXI-vv1rm9nKyJA3nubYsLK5U5ht16-ghNPCRe4hmvYH9M94w-W_1ish6dPh-ro7SvgOeUFsCHwpNY3H9QvSFMk4ezfmOTLXzZHcXXDaI87g6F-HTg14TDMKihfzh6wQJJePs9_Lb7GpSp5e6Z3OCOq5AfMnb1faOIbK5TswknVQBf4-mhPzsfi-lr-OSVb9Uhyr3yN5fH7xGGHSrd12egDLkZ748yiEmv9-t-G1uxUUww",
+      "AcnlKN08o66mIVVYqcuWfk-oVXyDAyWTyaPA5YENugWlUMhSjLUuIU8uiqzsGK021s5gC-8eGttg4Clq6tmZmafDiN4kf0P3TFMWAweTD4wQTThriN34ns7BRJiAtzW2umlNjw8B_XS4-T_j7HQ5iVseosLJWDMzmUdzeOeKr-q2YN9HMHuN7aDrt0uz7Rbl7w_Z2DOOWBK9bOhGSy9UiStjRgGL3sG8n2CpqAHNICtW9seC2U9e8TIAOJRUd8GeAepRmqtws1HMtHi51Qtbah0WGjrPm6azmkDNwHXCZOMYNeaqJ15uva8LNZRzcIx17kjuRKhWmt9srXGOQ_g7qOZi7ORbl2LTLTNG02JZgttrdGp9hFTsyxw079TPYfMV6SsTiEUvwrPa7tgZLAKYXuT0hVsbacXYej3qQrOYcfVhTYM",
+      "AcnlKN3XfQO23Il5ws38iidrfpEvCw3_VmIat8x0e5ByuWfzKa1Gwq0twr6tZj9TneIpTT01lqVGwvt395hSZhhPReK-SQ_6O1SR1OTD-vWCEKK4eqKdCggYJqJvOtl83zrt-xDJo3FFrM71bLwprbBD6IFaZCFtvcx8LWOIs1W9srg1oXQ2lo8tUkz28Y4DmIW6YzJmWHooHh9KSQKQmx-U9b7nNTJzTE4A9XYLS8VnnN7egln5GFxMS3plEA12QO3PAdhHfIficbRKYFXBU3B1YRlwIBRVssBAjh0YSQ8X7D8uZJzbl3m0hJ5QaDPCZYxxqdYjwVKIBh4rkVZDdmZXcCMrwj5skSDffSKUBUTMKqKi9qUBQTAsbBrm9kyGSn6uK-s2JWjqcGvfX-lZlXKeKDhYt3dE9s5NyFuSvLaWVybg0w",
+      "AcnlKN3yReHlJwq1a43pomxDsMPT_eqx5eWHJlDB3LrVyPP2R-A0fSwNRisA-S4LpX84M3PRvf7C86QhYYEjsI5y1ymO-hQ2C0XgJXSGFGGd6UI93utTmQwIFRGHIgfn9wRla1K2ot76Rdwgz7XvzWAvaFg3oGbY9x7HvXsbL0TnaRNk-k-mu4ikCKOqihoORZceiqIed3e8LSK1UKk_yOrJ4Sv807tLwYRAtZng1xUULSYipT3_0liDPFKDwEERKWKRBpgXBJ2TXE9QWeiY-QpiX5sDNWSiPkp2XrLwHb7RGcJsBLIRgvyWcXIO8oYk2Cn98srzxDxxQiVM1OtUAz_EVN_acSlK26p7WFaJxOpqbgP7yUXZ5GRvdF2Q3g5RDBp1ASZiy9RXiLpQyi61GYpaWEZxMccKiRMT70eLcbwgDkTHPAdK",
+      "AcnlKN1bxxICmNGUU8aVBGCRi8naqD7n2Iu5atVQ-6oCp59L62LMy_wRmYBiKMiy3Rm2YeNjzRNXMCpvZJI7u2SuXSPZLEcWz9e1pW4JwOStFVtGczTqhC9puqfXCtrt9fISnPmWY1-C_NjNTdkmSUuckqd_Pqct_K-NIY0bRelKQrdnRLIdWD3pKdWqYnW7gjbSKP5mt4a4Rai3Dk444zFddVQAGLW8kSdUmOHEzMc-VzQfHvkgrLdp7cvwMQAqiwJbZAffEp-RJUIcwf2eVWYDn24Eb8L3ItVh2FvWy9uKp0XAYorI02l1x6vHAkNYDnQ80J9T-NyFxfODm32set8ybsKHQPf-6lUHpvigGfZTEx1Rp_bQ6GEwvTO2_IPpUTloUgv_0DBSrsYuSl9SJlo8_g7ELFt3z0R4_TJ1pgImr25BKaNZIuaELKvufc1q-g",
+      "AcnlKN3bDjhafAOcvyTOK0KO1CwDx5ftcbFQ3l2opQ0PEBlvSafOeIP91rimHMUzSnEyLx7VngTzVY-Jtou3za2vmJTtpVRDD6PUiPn7YK5disuETkzGwbsSGNvkhU2qxFncctAMahK3CLQ8X_7ycKHkzdwUP9N2otKLseyI1h7qgTaT-b4cnKbCznd90_CLK8CspaCsjrb3RnIt5VRhRCtvP168jQ8gaXWKIuD86uiK2lqMQ3oQcszLcLmP5u-bJwih2sWryEw3Oj0YGPr5naD6Ny5IAMxn78WIDnWeSSxfHBA",
+      "AcnlKN09krlu2U0TYn_sOvNuhP8WQnIlWa2dVxospfuophtgBZTs0wWcnF6rH9ZN7OZWWup0l-0mO6QmE4bUvz_uKscXrJElk0UzGrf4EtAsU1586i6lFN1tJLoNwpwN9kMxj2sSy76Q0uV7rv-pt-dQIqyIwhXtiF3K7WzHj7Ub1P-562vMFXtcgXAaOPZ7h3wGs9gcf85VN2YwODUipkuPHmgw5hYrpuzaXIpOX9L_T16d90mfnyOndZuU4v0BHqWlldsRfWg0uC8sWtM4LsVKfZ4j6TJa5LJGMJ5GcLzB8XWsq80MoLBKGY_oNfwZA8zvjSQJH_BlVevkZK-tPkIS-WjijQwAc_pCq2eonb2LViN9LplOYeAey0eKmnB23hpiePopWvRUq1htFkB5hb5z2bMj-rzxrYsPld8gV9SYJVaxGBrp",
+      "AcnlKN3k9EpH9HKSAlyjRYVYOHlqjpWrkyh4D6l5qg9l6k1OYb2EnL2U1qbVhr4PnLKM0DyaxwF8OYrZsGtdqdU8Ud-Q_YrmpIXZjEmFms-nKX6EgLDn2539lxb3gzrr9eq4osPkThMd7HecYztPqfqPkF1nlBq4w1o4oTg6-JxL16E9Ar-C4WUkvVqOuYSUTj40joTYpO0gTn0M0nJeZSdPbnlN4_mIQQCVsXyxneBMJQHTjFLNA-5qFJ20dcgQmuqfeLv9gT0Ltr3-arkh1OgxQEOvfHTTFv06WPKtI20KP3LC76hTu6L6yhvieLavWHX6dXgI4ZPTbJTHVH9k8-yQq6AwTeYJKAphK89epJGnpTETyce7UTSC4f0OBspCJGJ-_Z-1TbUY7jZ58BjwiUihMSbVL8a30UXPM5SaCQApkxGcRe4"
+    ]
+  },
+  "social_preview": {
+    "like_count": 513,
+    "top_vibe_tags": [
+      "Secret"
+    ],
+    "moment_count": 51
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: 6:00 PM – 1:00 AM",
+    "detailed": "lundi: 6:00 PM– 1:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 4:00 PM– 12:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Couples en rendez-vous secret, amateurs de jardins cachés, parisiens avertis.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 18,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "confidence_score": 95,
+    "last_updated": "2025-01-20",
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 15,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Signature Cocktail",
+            "price": 18
+          },
+          {
+            "name": "Cocktail Classique",
+            "price": 15
+          },
+          {
+            "name": "Prestige Creation",
+            "price": 30
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "café"
+  ],
+  "google_rating": 4,
+  "google_ratings_count": 820,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

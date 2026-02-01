@@ -1,0 +1,185 @@
+{
+  "id": "poi-014",
+  "name": "Café A",
+  "slug": "cafe-a",
+  "location": {
+    "address": "148 Rue du Faubourg Saint-Martin",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8789,
+      "lng": 2.3589
+    },
+    "nearest_metro": "Gare de l'Est",
+    "metro_line": [
+      4,
+      5,
+      7
+    ],
+    "google_id": "ChIJsZKjKA1u5kcRaVDKu3gWoMI"
+  },
+  "category": "café",
+  "subcategory": "cafe-jardin",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {
+        "noise_level": 8,
+        "seating_comfort": 8,
+        "natural_light": 10,
+        "crowd_density": 8,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "event_programming": 4,
+        "dance_space": 2,
+        "cocktail_offering": 5,
+        "crowd_energy": 4,
+        "late_hours": 3
+      }
+    },
+    "culturel": {
+      "overall": 7.5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 6,
+        "cultural_programming": 6,
+        "creative_clientele": 8,
+        "workspace_facilities": 9
+      }
+    }
+  },
+  "vibes": [
+    "jardin-caché",
+    "maison-association",
+    "solidaire",
+    "tranquille",
+    "laptop-friendly",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#98D8C8",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 1654,
+    "moment_count": 765,
+    "top_vibe_tags": [
+      "jardin-caché",
+      "tranquille",
+      "laptop-friendly"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "09 81 29 83 38",
+    "google_maps_url": "https://maps.google.com/?cid=14024233947434209385",
+    "Horaires": "Ouvert tous les jours 09h00 – 17h00",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Pensez à réserver.",
+    "L'Ambiance": "jardin-caché, maison-association, solidaire, tranquille, laptop-friendly",
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://cafea.fr/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Jardin_Villemin_-_Couvent_des_R%C3%A9collets.jpg",
+    "instagram_handle": "@cafe.a.paris",
+    "google_photos": [
+      "AZLasHrNbr_h6aqfoPI3xc9OrpU5o1ZwilfY4mZCjxb3lBdM1sAgjyKCq9oQwSdmnLVaRNolIzBzIi98X83ZLRWPuIj9XaTcGjOWOre722A8OiuRHdVagmhgjn2aHLLp7oPHr25g1VwMbN241in14oGvNZWaRQ9xmD6T1JMe_7xN-qaIYQYGLgD_gLbT9ns7Ok8sT4FXRlJyeo8koHK3vBtBAgZCpDArFrwULLiRpjmzRM-Cjnjbdp0zYVTBHDqJD4J3FxCILaRR7vQVZhdb-F9um6r4onU5j46XQOa-gb79ulLFSS1FBPTSLT1Zzyym-dStUirJsSUiKRyfQoa6b_JO0X1lGjqZ5Dqwjs_EjnQuU0sveDky9R1kHI2i3cIFynIauM6c-_zBtP13bS_hfxidlQpygLmM0e-2Zl9FlicTHU7rjRlR",
+      "AZLasHrZCAZnxAgNE-SFl5Qk8L4blPNya1DD1fDOan8XX1vkHBT1Z9hpUlh0TRmXpzpfLl19mZRR5cLBi-ldXg6ZbxI7lS6VLd7atpRy5QGz7cD29yS9uJNWnN806T2zIKbLUITrYUGfUMWgKM1p0M-zltT67AoFs44Mw-iM1ID38zXn3H1Xfi35zwhDP3mYwHggBifchAr0qre_fp0jztic9Tqeml_CPSCeIDvo-BhZXQXzLFYikSJNuJn2hsLksbgXgKyz1S_rLMxLEprNndNz42H5zq8nmeyjzn9Go1fMHB0tovk59GW02zleM7eONPTjFT0viXtI3k9f2aGlNHpoX0R0Ct_YNbupDbQ9Ee2dLfCTxeEyZSfJQ22A-V3fZUw5As7RSzEdnKTO_bBm0Ib6eguGC97Jn8mHT2z-nhkwl6Q",
+      "AZLasHrNHKOvXq5IH9WjY10D6bItq09OWpKr1OP_RFjQnvkpl-8qndRlHe-5u6a3v2kAnBQQ5IAbxFjoY-OlZGyBvSnxxBavJC3apHzqFge1EgoUpAnGxVM4Ylw3MY_WgbnPJMdjpWF52jNtmAHaOJm3hsYzjOilj4rZkjl22TUKR8km5uTcMl4S78rv0M37rnR4_IMkoXLll0OnLuntE66mDpagw_LOghjP6wnPBKL9fd2FOBCRJeU9ysJur9HBM7L6xM1cpl6H84nZcolfOeshyfeGC_dH8cF6WlLrOqXcL20PKbcsEteLJyQQIJ6jcwyMzcp3GWiV2lWepzAt1dd7Is8HwJftN6lFlz_sIWWlSl-I4_AmQTdIYMlzUKN69_DFQyBxk9kpWRdlyX_NOsCaVU85ofTEfGRuyANAGH4gssiqJK6ngP_20cHuU9_6OudC",
+      "AZLasHq0tA3SV3W_XZiwYq1xu6FtrZDqmjg_dInxQU_hWTBRrQL2VOiOU8BWKN-B1GtFLmuGHxP9SMVxTZ2HaAo3aV6czc4R9XQOxDw6D3k5Ypg_5we6dcHZmdgflw3IszsiMcYYTdIRZgXIZOTLcs0LJFWgz533Oxojob45B-ht0d6Pb_Zab_zeCGd6wp52c1zHUaWevjjPoTHE_4d4Rt6Bu_jL97KywdLivmY9ntjsfDPWP0NRy9cfgDoEQ0uFyhlqlG1kwhYfUgBwpSXR7f2Q9pE2raNa5AffGfx--X55ZTa-TU7iBujI8bwPMB6zp8Ud1b2cmOl9tnhsSMdtYjTgNcwTrHcuQRgKpbRUoHAT5Kj8eqvsnPe97nogD2UqnC51IHpoIOxuGPT3ip82BKXDi7pa_W3jdfXDTRiuFGFUJugEIA",
+      "AZLasHrQ2f_JIDf6K9YgjVeShn5M3T3Hq8L7oVgki5yqZgo_ODJeleb4Py30JItkzVWrOoI6WckxmghaCNxU-1-gyhvgLPLX23s_Y6ZjRLK7BiZYXsRWlb3x-GIZz9Tx2_py62udJ44kFcAYnL8XpWuueWF9GMfghfwiIB5jSQa_5vUS-2s1IzZbc7u1Cs-fr-Zw2oIpcb6-IHgmQ1udf39En2i3QlNmbDeMX7AcRsDDkwhHpYdZYc_RS-6gk_nuCSwWOhwbW4WCG9fI9E0DoRcFkR9CVBIZChD11Mghi7ylMWebfVzDTXp-CCt1L138aU9ZUqOjxvYPQ7ixKkK1zWr19UaLr4LLrTqMgCk6PPSB8Znb8KVFjrxoE53zgGLxP4XWNL3BmAJFbksBId1e-d8b4TMQiu5SSdAmMpzmlQkoPSPA_g",
+      "AZLasHp8XZF6yv_Ug8ArgGZP2XnN9CVyP7V6Vc5nHQ9orR-8gzAt_KC-CVv3FLFx7uI68dEmEi_o9Az_O_WuRH-dA2xph-UnidLPxap-RCuT5abGBWVNOCQhQyxdx5OVRoTNGGBkkcTS9UOsjN7iFgK23PZbc7gCYoNkry41G74_ej-KvTEQqkyucDlhntTbYqqz4waL2r15xV0kcxThMi7J3rYVaf1cOhXEssl8pUdOg24GNQeOQAqp4oVOXEi76JFLV0HBTNBB87MMreNc1zF69aNStOIL-E986vRee13Dw_xTQl0bXMjQA7aN_y460OczVF8wZuALAk0lWXGWHEb_5NunwoaAuvrGfOZY8o6o9FXUALT1Hqj3G8KDr1ZP_IVPLLF6LyrOgNGvyTmZ7bOiwCXN3Qnva3qEgaEW3Ts8sR6OvU4VgT4h0KiIB3aVvifH",
+      "AZLasHpZfL0z4vki4QpR8Q4vkKUVhHBDkR2ns3V2S8Qy3KB4cujYYycE-PAcXPEcAj7Nilso3B4dlJ8pZ1bMlOogaBVE6dgME6EIPxJVcHCAopsGCmjMSpJex9VpyLuwMa6Fa6Fhm2u6BdqEqZa-Z3fij4JiaKwQc8WS4sgKtLx_JfnkpE23T7of2pBs83Sb1Jgx4iRAP8DhqC5gsP2Z5JAnq1BCKgGO-li0L1URaH7yDU53CiSDwBYWT6Yv0DQgyqDspl2N97baueDePiLOe7dah9ioILbwiTRxJSGqWi5krgSIyIfvR8PO24pUosoKP5o7NLq0JWIWThVGuASUnvr57LvJFc0tKKI36npxhcH9FA_d9-E7mAjqVeXVdVSrN0sZiQ4lltqZDqeGjbW9IWuBAGrxxhw0DadebTsHy02RaJFTT9U",
+      "AZLasHoDjJ1SegSSJRu-Qe11NbVuawwBGZBQ3SMetKwi15M-QCJpXH24Ig-eQDvnjzxfFemsm-gRsT1GvOIKKV09ZO_c8vKtec4dXn-qg2Bmkffz-A31BCQFs33MGsczVeVmmNCtwTxa4pWPrr3ekHszw9fsRMUq6MTVrkFpT_DcoB9XS_wbPbz_Py98SErx0PblR4PRK6-AT99wLzTvcxRDnLCnJEeC6jwS6ZInskFmoks5ADOSLCYeunShA5F0rsWKBJ0ZH8is-Xhg9x9sEE2mGTSeWvEnKcPaMlHbUt_jjpjqG4GCQRoUgxp86pLDab1jZzz68oferGNbwPUGO4kXCEpx5WiOF0YUkoi-N3ofTXhGVLDR5KxuJydZatVS9RkmQZBib1BUZ2D-Rt7WQSJA0i-Vn3ZoMfTf6-_GJEpvFn5uvA",
+      "AZLasHpjzdk2Jl7k0Ifb0Sk3eMYCd-81f5qPjP9cnZaBiDgLYxUrEH8YBsUnEo3FUbeeg7ikJShOmTjvIF5L1IiorNmxYv4dY6sebC3K3U4x3EmAS4jDuAdonrzhW_gUs_yvfcwY2ddYPx4Jv2KCrvPhe586oYSnIvAyjzrFI3Yx89TAqWwyBQumI1eDfVZ7DYovfVz6q_EmEl77ovgH6gimLD0Lm5jH8qrl5pSgqYF-o4SlryDJxj8G5rNS6QAi2JduCyKib5GhvgJGIx5RwzbgJwnyF_Q2URThnA1RFOCXya5ymnWuJS0RTJ_Iv7FGAi3-vFY6pLf-0JCa30GbVCZXRlFW7ueW5OMCrVT5lFWPxvOJhOEHBelYzc0SFNDBvcYzVOQVM4k9KUvTiMIAgm7vOmcNTnw4uopzhuhgnSlPSm-vNMY",
+      "AZLasHqlD0xA68IyzaRDHiHazNc2okwhFTULACGxY7RqTuQnTgyBpeE-UAqRYZ77hNxGeCyo4w9U6jVhKDGANKoYkLaJw7J7mU042eVBejleMD6srW1Tx1EZ7HEVf_z5U1JLUNf8LiUzAJu1FVIekTn77gX8vOOf84dXBrFLbiauISFT5Jt3toYC6LX-d0yiJ6awm6tSiWugaWjBbWOyyq0q62Og1IKX3FTkkpnX7E3Ddtto0it0x28XJAJyqYimxl7P0H4eO2QgnNBOQOrVAJ9D1rvENc5MQJKpXIdKFds4XKmTxIgZWhfr1bF4qowa3uJh7Kyrxfg8K5BEjJRCkjZdi36Py7eHzu5tC3orm6pAG4P2owTWK5or7P7ABBSnRvID474YWt1R9Ebh-zUJIwm0iPXvCwGDI5kOnJa7cRJvrX1kNQ"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h00 – 17h00",
+    "display": "Tlj: 9h00 – 17h00",
+    "detailed": "lundi: 9:00 – 17h00\nmardi: 10:00 – 2h00\nmercredi: 10:00 – 2h00\njeudi: 10:00 – 2h00\nvendredi: 10:00 – 2h00\nsamedi: 11:00 – 2h00\ndimanche: 11:00 – 17h00",
+    "is_open_now": true
+  },
+  "description": "Installé dans l'ancien couvent des Récollets (actuelle Maison de l'Architecture), près de la Gare de l'Est, le Café A possède l'une des plus belles cours intérieures secrètes de Paris. On boit un verre sous les arcades ou allongé dans des transats sur le gravier blanc, à l'ombre de vieux arbres. C'est calme, vaste, et inattendu dans ce quartier dense. Un havre de paix architectural parfait pour les beaux jours.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Architectes, étudiants des Beaux-Arts et Parisiens en quête de calme."
+    }
+  },
+  "real_talk": {
+    "text": "Un des plus beaux espaces verts de Paris. Parfait pour une pause au calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 20,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "confidence_score": 95,
+    "last_updated": "2025-01-20",
+    "dish_price": 16,
+    "source": "verified",
+    "main_dish_price": 16,
+    "coffee_price": 3.5,
+    "menu_items": [
+      {
+        "category": "MENUS",
+        "items": [
+          {
+            "name": "Menu Midi",
+            "price": 19.5
+          },
+          {
+            "name": "Brunch",
+            "price": 29
+          }
+        ]
+      },
+      {
+        "category": "À LA CARTE",
+        "items": [
+          {
+            "name": "Plat du jour",
+            "price": 20
+          },
+          {
+            "name": "Croque Cecina",
+            "price": 19
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.2,
+  "google_ratings_count": 4617
+}

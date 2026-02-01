@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 import { Canvas, Circle, Group } from '@shopify/react-native-skia';
 import { useSharedValue, withSpring, useDerivedValue } from 'react-native-reanimated';
 import { getDominantMood } from '../../lib/moodUtils';
-import { moodColors } from '../../design/tokens/colors';
+import { moodColors, type MoodType } from '../../design/tokens/colors';
 
 // Mercator Projection Constants
 const TILE_SIZE = 512;
@@ -50,7 +50,7 @@ export const SkiaMapOverlay = ({ places, mapZoom, mapCenter, selectedMoods, sele
                 const projected = project(place.location.coordinates.lat, place.location.coordinates.lng);
 
                 // MOOD DETECTION LOGIC 🎨 - UNIFIED
-                const placeMood = getDominantMood(place);
+                const placeMood = (place.dominant_mood || getDominantMood(place)) as MoodType;
                 const color = moodColors[placeMood].primary;
 
                 let isVisible = true;

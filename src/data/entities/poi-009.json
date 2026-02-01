@@ -1,0 +1,155 @@
+{
+  "id": "poi-009",
+  "name": "Palais de Tokyo",
+  "slug": "palais-de-tokyo",
+  "location": {
+    "address": "13 Avenue du Président Wilson",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.864,
+      "lng": 2.297
+    },
+    "nearest_metro": "Iéna",
+    "bouche_metro": "Sortie 1 (Avenue du Président Wilson)",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJC0I3-eZv5kcRHaMcXnrRLsk"
+  },
+  "category": "museum",
+  "subcategory": "musee-art-contemporain",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 5,
+        "natural_light": 8,
+        "crowd_density": 6,
+        "music_tempo": 7
+      }
+    },
+    "festif": {
+      "overall": 5.5,
+      "criteria": {
+        "event_programming": 8,
+        "dance_space": 4,
+        "cocktail_offering": 5,
+        "crowd_energy": 5,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 10,
+        "cultural_programming": 10,
+        "creative_clientele": 10,
+        "workspace_facilities": 5
+      }
+    }
+  },
+  "vibes": [
+    "avant-garde",
+    "monumental",
+    "expérimental",
+    "nocturne",
+    "radical",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#9932CC",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 4567,
+    "moment_count": 2345,
+    "top_vibe_tags": [
+      "avant-garde",
+      "expérimental",
+      "monumental"
+    ]
+  },
+  "discovery_radius_meters": 80,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "Art": "L'art contemporain en mode brut et monumental",
+    "Architecture": "Bâtiment immense, vide et impressionnant",
+    "Nocturne": "Ouvert jusqu'à minuit, idéal pour une expo tardive",
+    "Club": "Le Yoyo en sous-sol pour faire la fête après l'art",
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "La salle voûtée en bas est beaucoup plus calme pour une discussion intime.",
+    "terrasse": "Terrasse Parvis",
+    "link_exhibitions": "https://palaisdetokyo.com/expositions/",
+    "link_ticketing": "https://palaisdetokyo.com/en/ticketing/",
+    "bouton_label": "Site du lieu",
+    "website": "https://palaisdetokyo.com/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Palais_de_Tokyo_2010.jpg",
+    "instagram_handle": "@palaisdetokyo",
+    "google_photos": [
+      "AZLasHrOL7pSOEWRjfA7oBSUjbyjy0USxXTylKsJcOjHXr4qBhh0cf3aFcpGW8NZe5yWLJhlsRjOHp9ai-karBPzW1CGyaNvebw-cITFBkqx8wZDgOdUbDfJ8i1YSka7XGq1qjtne-8GNknCokzC59iVHEeFRhSshZM0SFOq1pg9jatQc00HHmF6Pkaand_O1FTi__-fwXT4-x5yP9jHFFVeqAr3hdcgx4sF56q3iEKk7btwWDq9uBPY7l8EIrQ2vfbN0csZegBpM8BfdPh-WNPHcq3SL7C86aRSO_8Y8d5Fg7XaQzKDBdLpnbP20HTbCTahTTkGavp24uJarEm2UKZQ0lmOcQnmjYqzc2Y76fvMxxuRUvcO92CoD1Pa1yV-N0bQoedUVO7y1oXRvVqAYsMAbiY-JsvdVj2-sHNawjlyd4Ntkw",
+      "AZLasHo3LkAe9-NIPYT6LIWDLu1qmYzTMbtIMtOxN0KskpUtOH3uayQSeYhL6HTP3BHyUQzda3yuZZ8JHux7owuBLSMwc6O8wy9VL-CfWFyTlP2-pveyeV0j6dU4amXu9Di11GJZX4J5qfw72OuGkAVzw5r2qvEUib7DHCoBCs4espMyuk-1plsRoEn4-FvuS0HacwQQVas-C1xycuuzewvU_0ikB7bfWjJxa6eOImuRVGT1a1Z128JeSZE3QHQbYgCrVLWy9AwO4pwn9txB7FR_UMC6G-8hONNethD8ph4XJElwqMi5wQoEuO1mtpDFrUYeNYUgpUuveRAzOjPbTTRZwPmTF7Tg-wr2sPcleYw1C315mDD2lBFs3fGiap4gt4FfGZZMBIOx2D67b_fLew4Fw6mfxM4wRNScnB1SjIuwZ-vYXL_b",
+      "AZLasHrEMizi7spi5d-xuXoIdqI0ncgJI6zYMt5EIQO5Sea8ITzjNduAGWsgIqESM5Z2aTt04Iz6fw8nPKXInCLQA1VOviZ40mdx_YfDh_dtxA2PQO9Zw-4XwUZ-DHFJx7mPSVLX05M6ZVEBW-fCQG8xNNR6hLQFgq6r2h_ZO0rE1neuSFgpZy-FR1qYd3DQ6Z4hEqHWFtUCkNEE7CDP4O0bm1CToDPHrbFimiFJxp1pR-XgDZMgkSCPMU9ho1UFi-SuNoVuJzOaUcPT_ZM_RVh1QK6Mk7MYEKnoyznZUoSVLxhjUSdtoTvaY4rBKgOWlEGWErr5kSpQXJdYe0d-t-p4kPvbTctXD5yDl45731LN4b-66ZNt-Hwx0kzC2zxMaGGw0DlckkUYDvFWmgqE8pqNjE8ZoutHB7CHIFViDmaIPULLw6s",
+      "AZLasHpz1dtuu4329wp9XJL20qix77QGFYYrxhBIFsRqfjIclQvDEzPkTRGScmQ2gfEmul-hZ_shYNhXeB9f9FhWwSzzPJfNk42YT3nVgCTdrtEij4mZSXSWnslAWgWW3BN-DweBqjVnpXNsihrUOqkVIUQu3yQbXJ5SsO-siscDrO2yqeoSCqH7RBJNeYp8BjDwPC4B6w67tMAMPDVfreOp38htq-pN4Fjk3D0ksvCksZRFubRm-fV0pq0kMFO2TslGtGaeqfK2lLqKPBPp7fvE86qT2sFT4KS9LLK3HKUUhws34qkE9FUll6bdrp4mb5yfjwUJhEJjfdo7XHTEfWJJw-mc5_X1rU3AqXXNTAY2uTB35moGiU6oXcfRr7Xw1LYcdW2-RNxw3wc3NkCDSlGhND6a2LQmHhmRqezAU75TYgInMPem",
+      "AZLasHrBNmTE6sT6Bx40J5eq4O4Zh7xqookhig_VB2Ct0WDU0srLgkZ7FU1G3gvg6oGuV4gm90Ywmwtoy5WQA3UuNkeHkRIvWLgGWHsbtuIoOHyJKFhtTaGZhMJUw6InDB2464S_lNYs_uya0oUSk_MPTvfpoJrVdqSN8FNEpUMRGRs7fW2cZc83qlipVVreNhSJsBSZod8fa6VJ19X5G0FJzUFwfbmPU3Gq-MXVR6WqO0DlGrPawHRrWWTy8rXLhBloO6Uk9ZEpeFoj6xCdRjr1hTGj9__sr3R7TiTmU10DyF4znrgMSweDGOuxRNCPVEw3bnhYHGzcjINcffmAwRja0K8Ij5l_8w8PtSZeF7bQtX4MSw_YAx4odsHfGy3zKM4MerQAYkXqnvzTdRZxHiR0QE9UAlY384ySpp6R4DaSMb0vj5_h",
+      "AZLasHrWXLXVN3U2X5Iio7jA2FsJymkybJePJUrwEunfmhXz5mFSnKXU6Z6F0vZa2ZyKxaE5nE8fcRv7NdQ7Fw7-JuP1Uuxg4NTWKfHr3Hm-sPtbZK1z52hsX9vxDKaynXEIOZ_eQUqNMeni-2ZuoMJGH2O0-fWCfzE_Cy7jP8Qx4wgKLfOLeGsveGLF1uvHcxd_kUUbez1b96QJjhGagKYdXd8JabjLzbFQBQsfpwIYJrwsWHRNuggWxijVIGVlBO5WsqbpFG0HR3X5Pbj5310Hydn0fZJgAZI7rpcXp8BNpjv8nnRi9akLf5_ZNaRHgkJQABpH7tHXPTulzQFc4DHO3BPwFzDbw_xj-PpkDA_1dVAul-mPEkcZtS5_WMfSIcu7MTYWFBqbenc4wmjJY-B5Fpggdj-jXCDX3QY8zid2wjRe6lKt",
+      "AZLasHp2nCsPTH9MbZ6vuzkoHMzJwy2owJSHiq1a-9hvfLlTnvKUnX-wP6wT8C1F5DZJJll9o4VJD2q-Merbwl-fyaByK_Nmgg3DIhtxgqr2otcd7P_yzltO4jSWPtNGDpGeO7jkhRCPQWtcB1AYTAf5mRsTkTJaJLIZFLLpYumySMfgwKQe2a4Al3wyW1iM08mCVwV-_1P5N7o4ZxSzluLJCYsOiEaEc_C1yyAtxHaqDuLhZKMWDZHDnkJo498jE6sohzf0oQTe7IMLsqaDR9Kd1vESSRFzGdQEnpZuMMNyosR9qpBpW_oOOFdf1tNiLKjJ4MXHfh-c73E9A__B6i16kLvDQLjJzeI4p1K5qUcX5bwIVeZ2SzKok2J8drQAXSFr18t9ukJwPenc7-JvC936IS3h2z2MfDq05bdXmHNKVgoB5A",
+      "AZLasHqPAqA0apmN4152GJu8m7MUKSpAOX4uu3IJC_dCoF3lJh2M3wuwKimk7hqsS2-O2MSKRWvYmUpQCbzcO497rUHckAGqjBsz0LRUV9b6MQfaaRyCx0jzfodOMwF6a9Oul1C4GfwsstKu1BWuMARjJydbjnIbXNAxsHOSw5OUP2VeJV6E9uq1MFlviisBX9yv20dSrPVzyNMHZKPya1Ze0Q54eCY48Ib7Jdg7vxnSefQnV12sitV6UJt0wkMaduUtpt-4xIamLqnviRzAprs6VZ1X0mk8Rup_4c8Ckbn0C8jgLw",
+      "AZLasHq5XKYQ3ZQKZUkQz5-ut1-m3sd7ngLfQG8FueoVIMRSGeEZ6Wr_RdjT9iFgYaXG-ouI6N3gKJ6E9ylHoetpQnWSHqqt-YqZAMTPCsOgyW5Dw84toFPw3Kh6EtCwlgT-IlLiuSuoL1RpaWswIsLSxVwbsFh87kNrIDadpzrBD1CygTOhZXPKs7wDSdcJdDuWOT36VLYlw6rzSTPqf7Pn3jUjtxYVm34RpntXoUYvTrrs4hmH3b8okqO1ePrBMsO0VRav-mRYpkBxO_a2E35yj8OQ0EPCyITI6Pv1KE2GKfGGdIS7S3c4kErktDOjFux-k1JCyOUMVBxypVAOnDMwSJsLbQYPxWxD5NPuuXWJi3onm8GYf3dcUi_p5J35hc-JhDe--g8BYjgcHpxxa_1ePgqYAoP-YJ6QVOdFEcLVsR3O-f9xnUMfQWhxHuwV2xSU",
+      "AZLasHpN58XyaQTs9jjyXwljRxV8V9sKMkc05qmyRL6zleKwk445_LVKtcW3r4bgR4UGNcj1neos8CbYFySjlZPcZJorMlPVHfjSrg4NG6cacW68ozSyfXETrJ1nyLVgn5xMng8NdRHCvHJyWGyL9FMI9Wc0d2dpFt_rqQuc6MGiui-z4hmZFnTWeAb8zip8oR7570ZAQ5BJq6-dcevevHe4R5l6uZOp4Bgvsxk0iIYFuemQP9beIVhFnZbYVStx26MVVNHABK9_uCZ_AXqmfR301DRcOZA1dmI1A1zx5KkTrfClNjXsg38iaEn2M2_xyZ4S1ylralJZBbXv9MhO2gd1aBM9L85W5z4dlXPsDrsgY2jof4IiUwl2B6xEQ8OFYh_fWoL6xftDO-C4Wb3TgsVtBh3_dgOU6Rq3rExtK4hxtKTkxAQ"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 22h00",
+    "display": "Tlj: 12h00 – 22h00",
+    "detailed": "lundi: 12:00 – 22h00\nmardi: Fermé\nmercredi: 12:00 – 22h00\njeudi: 12:00 – 0h00\nvendredi: 12:00 – 22h00\nsamedi: 12:00 – 22h00\ndimanche: 12:00 – 22h00",
+    "is_open_now": false
+  },
+  "description": "Le centre d'art contemporain le plus cool et le plus punk de Paris. Ouvert de midi à minuit, c'est un bâtiment brut, dénudé, immense, laissé volontairement 'en chantier'. Il n'y a pas de collection permanente, mais des expos temporaires qui occupent tout l'espace de manière souvent spectaculaire. C'est aussi un lieu de fête avec le club Yoyo au sous-sol, et de gastronomie avec les restaurants Monsieur Bleu ou Bambini. Un lieu qui vit, vibre et ne dort (presque) jamais.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Skaters sur le parvis, arty kids à l'intérieur et critiques d'art."
+    }
+  },
+  "real_talk": {
+    "text": "Le temple de l'art contemporain. Entrée gratuite jusqu'à 18h, expos monumentales et rooftop avec vue Tour Eiffel.",
+    "le_secret": "Ouvert jusqu'à minuit. Art contemporain parfois... surprenant.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 14,
+    "value_score": 31,
+    "category_percentile": 69,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 11436
+}

@@ -1,0 +1,166 @@
+{
+  "id": "poi-048",
+  "name": "Dirty Dick",
+  "slug": "dirty-dick",
+  "location": {
+    "address": "10 Rue Frochot",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8815448,
+      "lng": 2.3375062
+    },
+    "google_id": "ChIJ05Eq1kVu5kcRvq2tYBgjLfI",
+    "nearest_metro": "Pigalle",
+    "bouche_metro": "Sortie 2 (Bd de Clichy)",
+    "metro_line": [
+      2,
+      12
+    ]
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 388,
+    "moment_count": 54,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "google_maps_url": "https://maps.google.com/?cid=17450642718738722238",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 18h-20h",
+    "Horaires": "Ouvert tous les jours 19h00 – 02h00",
+    "Reservation required": false,
+    "Menu url": "https://www.facebook.com/Dirty-Dick-504787289561262/menu",
+    "Choc Visuel": "Tiki Bar Total : Totems, Bambous, Paille & Chaises Rotin",
+    "Le Cocktail": "Le Mai Tai est servi dans un volcan en feu (Partage-le !)",
+    "Le Look": "Chemises Hawaïennes portées par le staff (et encouragées)",
+    "Le Mood": "Rockabilly, Surf Music & Lâcher prise",
+    "Peinture": "Fresques polynésiennes kitchs peintes à la main",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Rhums exotiques tiki",
+    "ambiance_vibe": "Décor tiki kitsch",
+    "music_vibe": "Tropical",
+    "smart_tip": "Ambiance rock assurée, n y allez pas si vous cherchez le calme.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.facebook.com/Dirty-Dick-504787289561262/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHp1sq6UxQY3MNewIYUvyVIZjDe4TbQmKUPP91ev1mJO99CPEpgI2DBk_WqVW9riemf-AoJcDGnzMjEz-Ekjz3CzSQ6VQNv840imRvm3IIOaN_cUNplOkLdEf4iahFxRnO4OFnoblvxUvW-dhUwEav-aVO01nHrSJiJbl-lRvVpYXYimcvqGp4f3j4QJNQL1GR8BzZgvYTZhh0md8DkNc5N-xE2ySHTI0nbEeSmT1uCovKl3hEk1ZALx_vir7m8pBj273-0E7B8-YjIpHP9rnUnWXs9Aqpke91XR1bbxCZ_z2lY1MJ6jxKzIHX7i8oYmixdbMBsctCsmN2CxtmSxqMnhf-KUl57pKn0xwpksy3qsBzmCqwZUplSariRAzTywm2zuPtE2f7pEjZCpbzKLO6bo6m4-Gujp4QSLHrMjK1VfXTVp",
+      "AZLasHoLrkiOw7t09qlnZZvXje9RC7tpOOcs2TsZvxkGuTxU72jcPE8x_vtjJo_YKlH-63hkaTiYmirFCovdinBx3aTWFbQaHSPmG7yuzRyCoryMvDlypQX0YGcxjIXhd-ekkGebKJGTIWQkDjMxIBhMhzmHvunD5lBUv_xJn1wdb1GTbrf6rXdfh8wD-HeYnZr224qtVRWBPPVYnR5ZPSq1B84Hvv6rCA2Emfi9X5UX4Z_LMv_mdWSoVFK4GNydVvk25-0zESt8OaOOkRbFUINg5mnekeyqWNaBBp2wts_78YS3P09ElheytKxxhlUWqLx3gSQFTLL3U5-p843fEDPZ1Yrs-K_fehCTKOf27xxeMCoveDLGFGn6gLc6wk-xSqBpSXylMHvUicn8H2iW1vQzN3Pq6Ug5LoxGPYQ3M-1oITyDENvu",
+      "AZLasHq0VV_3Vn0JZxQGDpD7LRsYyzVcyhlrRgt7E_3Q9_0arYaiSfBVXrUPfbo_Y9-HUIZ67QzYIQmdKq12MGX525jAGKFLPvWwzBuZqM3lwppTWX_SBPdn6Wxp5Y-m5YgtGPawdb4_D1T-A7QvE1Twk0g0pmTVbk-kVARfIdAKvabgFMVKlI_2QwWj-l7XoX_XPHU7QlwwG2dcndqugdL8fXDY_y3-BfPgGQj9d57PQBDgV10qD9LjRI2GaenQs7zFjSCQNo71q28wFUBK91xmtJXhzK7LwpiitP2VbiEg9IsqoOafhQqiQAyp3SkR2GSh1uJiwiCefkMFTRyDcUgBTmSgzCGCmjd2wJ5-HnXqi9lnzLx3PwpxoLT3oehfmjqPXeJAfGaL8ORWKxme_6f8k0KQ5dYfwwcy_JkhRVHKMZB1snO96u5NlNDBN3ty8GQX",
+      "AZLasHqFN30ZRd24Ax5invvkSGP6fit9oS2TG_Eud4dzvYURvcG0P2rv8qnk49tV1JscXUN4PfJPCKUZxl0gmSF13OgpqPz7S6hc3XQbD63uSYN_wIKw30_km2A8eeQpsUsCQ2ONh8grIWicMs_b629-env8fJenXOVhnWepvxulLd_VjDLZLjnQwhNlWRmsVWPTMNY6if_R8nRS7G5tVNSFEEFMsI7E8Ly8j5fWpva4GPtm9Y7GukWqZ_-pa6kXjxi5FqMmL5Ei6IkaPr5B9HcoZXN665XHdxor0thKaqx_YXNnhu0Q3XvFpXJt9ljrf2RX32AwRM3-Sah2ukLlRsHZ4zVJ0cAkT0yPqqf9tJxC1fLBGshtFUiO4fHygJbAHP5Qz0HvHYaK8rzYmQmk6RvS6JtlPA0Fl82alXrcuoxrtpce-EFF",
+      "AZLasHr2XOl1xCj2284NY2I5CzGegtBiNfR2MJW1_g1_OMl7kflEBCY5yDVbxxqC473ASdiEvSouxPiywpFGZkK2mohR5zlWOknaDEsle5l4ZSNJVKcMTAKhppN5WJJHteF9O32EzJhOXfpWi_WsH6OB0VxKkAMgFQ5x-KDUeIFKvxcPJ1nggK_RVNAFA5I9Fg1fnti8QwE-6jNEbqUdtsq-gEjYlZo6IK0-rLpalT40nZuwlDYKkBMcK6BEcA46y-60tzIEqqKIi2AuVC4QUrJneNzA4qY7VClVEnYQua47w1XW8uu9KfyymEtLVG0Bi6yjoiNiGS3JyVypsnVlBBd-hvG2Zy5b0QSPgCCJdOn9POMO-qbe2Fo0_250NWg4EswxaU6qh-aVrrY4NP1xEA9ksFug6vI4hPCK7WIJD-q31r0mxb3aQ2YBlHA_xHMfng",
+      "AZLasHp0p6JoHhS9l5J5VHOZthUDQ3ONSkSJZVB-M_1ZcCaMZ6yqAANr_-SssPEBe1qO813A1s2uNlzdx53XtONSwzsgGzOnZvvNrlAVk-ngLp_zURtysQto3tmprJ02orgEKk4V24e2j8XAVph8HP5SngL6oyiYg3rrQ2p548FYI9emGJwwlqm6-vJ0GFe-kwFoliRWjBf1qCoO_M1IwwTYS-LJ5W6FgNxb0wjxCAOQCcmrX9Efg8v9bqn-MMPM93KF7om4SWMP78Pbus7zqK3rpr37fGbS4ZODSNMSksP772F7QCrFTrJQlwzyhugLUsrqljeVVoWBznubl4dz_FsVMFy-yzsDisxO8Z9nU8ApWQ8TJzV14yPkw60ickLtd6pLbkR7OUwdwc4VF6jgkZqeqFvfxH1U5wfbVTo4-qO1UzvVKylPS0YWhHkKpEL5JI2g",
+      "AZLasHqGp9B6j80BeWJ-n9E4AjAg4Cj1bg2xvSN6I40zMa8i2DgWNMQfCouET3Hz_SmzYVF_S06RhnmJzuVmcXoDJwonPEdCAt04g6bg_Yi6lxl5l6ZWcN9IEt2zhgAFHjlrC3N6EaloYP3vStC7CvEGsqHrTKNmzFsB00Igdew0EEdcHFkBQuB27ZSgQ3C4JBastBFMeYcU55MU0P95KWrgy46K9ZjOSHlJCTc5FVmkInxOE9wKZqsHKoCKGZwHsrysIzHLYRokD0OPATLivMAq0c1cd2VqGSREIX8_cfnutjhNOqGMev3jKOKOQJE3PVr05kxBWhc4SV7IYhz3-daan8NWPuC2XGpNPWsI1TEQybf_b6PVf4qsmCqKOsUo2PmxW7DXluI4IKn2h7M_9UDN7_4FzT44KVOs3C_ONtxPiVH7YYY",
+      "AZLasHqGsdDwJu-lGJdvVR2-Z0asdwuN9qXhykUdpcskA71WsXiHkhOATXjf_fBi3kcpYObJIHdEHqJ_6F2HHWm29DLLkxjUMQi8hkMe3T7M3j_jXGkG93q7wFGsn8ko57rOe4vH_PFtwilpE-lyJoAVJyQVVJx-wp901vYSFyb79TATRBjYgKUFUyJehXg9DWIGIhS5gSEIICkLJa5uyTcPyNceyvgOP5LgChHemJU_LRo4KiQnfI-cOKe1OQW_7Bd67dxmy8Edv3QgwSxf2Y_-FPl-spsUGiUyH8gbCfRqCPe5rBi51Bw26IrIyhOCVbsPCXNIAcISyIKSW1oUvcjgyC1NYfWcppxffvzi6--zuCWI4q8-azDb8ncj2hnczDM0Z3f8BY8EYDHbtYeb0vmfA9651WdAJWeAbbJpcNW1d41d_zjK",
+      "AZLasHorpJVBn1cyr-w-Q5Im8xFk26RBXBG5KNcH201j5fjHJvvfc7UyzKf5USSUF1XFR7fQazx1vNxdxVaJiPAtOHXoOKjh84p425bXz2zLQ7IpOk9SBNKhmOVz8b6iz4NtODLT8-zrkGbpnF6jjE8BixCrmBHnnDrhn0M57UK9PQvhfQ-ge9mAhCdFPn1NLpyfxz1DvYEsdBO5ZV_5dLa62xlORtHzgMzrW_IShUYTYsCXhPGfDo4UlAB4pTI1yxqE1fGktTZQvvq6Jz23AuhPfLPP5Lo_SIjptuv4GHf0aJ8HdQ8rQ4FCCTyFK1vZv1fKPCY-2TgN1xuxKlx16FE20VNd4Y1YbaMueZeYZcFfv8CVSKBTjy7AfmzsQK4bh50_BzDSt0LHUp8KVswVWuRuVTiGqWTOhbG3lqBGBCCa0PT2tR6lEBG6rMkLGdum6pLs",
+      "AZLasHpUPzSp_teBgyToE_vBk2iQH_JT_vdaFs521lJ3cLvv8tP7tdns3ekskNb7auhIe--YMHAyRM9ixn-xleR7qHaZT-jYJ1uh8FGHuhE3pxGXfBX2C-qbNw10wnBLIlzMNTadKMLCK11p6Jyi4SUlwTbvX763VHymYoMGPhq70GEm4nd6gP5VhN8I2kRWIEPkv3i4G6MYdozDZiiwuQIMtVgo3uttiKTedcFPJWb22IrNwzR4PNn1ExE9On_IkCjqzMhWXoLvtntfjb6zv0xFkl28wMstZhpB0q7v_TCf6bEf-e1JKQobAiyEgH4A_NBSVMpZ5IGEcx-YlpOuv5x5Y56OSCd6E7Y2GyymeAHQ4NPwUX5VUK-XewTVn8NOQxSco5RswGEG_zlDe61RKLeXDyFpRK1S_NkT0iqdWKb6P5Y2C7Rqh4B-biNmyJDya1FS"
+    ]
+  },
+  "opening_hours": {
+    "standard": "19h00 – 02h00",
+    "display": "Tlj: 19h00 – 2h00",
+    "detailed": "lundi: 19:00 – 2h00\nmardi: 19:00 – 2h00\nmercredi: 19:00 – 2h00\njeudi: 19:00 – 2h00\nvendredi: 19:00 – 3h00\nsamedi: 19:00 – 3h00\ndimanche: 19:00 – 2h00",
+    "is_open_now": true
+  },
+  "description": "Ancien bar à hôtesses de Pigalle transformé en temple du Tiki, le Dirty Dick assume son héritage sulfureux avec humour. C'est une explosion de kitsch polynésien : fauteuils en rotin, chemises à fleurs, totems en bois et murs peints de jungle tropicale. Les cocktails sont servis dans des verres en forme de crâne, de coquillage ou de volcan fumant, et sont redoutablement chargés en rhum. C'est festif, bruyant, exotique et totalement dépaysant. L'endroit idéal pour faire la fête entre amis sans se prendre au sérieux.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fans de tiki, rockeurs et fêtards de Pigalle."
+    }
+  },
+  "real_talk": {
+    "text": "Le tiki bar déjanté de Pigalle. Rhums exotiques, décor kitch, ambiance tropicale débridée.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Tiki Bar. Les cocktails sont servis dans des totems fumants.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 16,
+    "value_score": -22,
+    "category_percentile": 122,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_hh": 5,
+    "hh_time": "18:00-20:00",
+    "last_updated": "2025-01-20",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 15,
+    "menu_items": [
+      {
+        "category": "TIKI COCKTAILS",
+        "items": [
+          {
+            "name": "Big Kahunnas Revenge",
+            "price": 16
+          },
+          {
+            "name": "Navy Grog",
+            "price": 18
+          },
+          {
+            "name": "Zombie",
+            "price": 19
+          },
+          {
+            "name": "Mayan Zephyr",
+            "price": 15
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1747,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "poi-109",
+  "name": "Bleu Bao",
+  "slug": "bleu-bao",
+  "location": {
+    "address": "8 Rue Saint-Lazare",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8769273,
+      "lng": 2.3383897
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJw6rkxQRv5kcRDnWJAoztlyo"
+  },
+  "category": "restaurant",
+  "subcategory": "chinois / tea house",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.8,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 7.3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "32€ environ",
+      "display": "Tlj: 12:00 – 3:00 PM, 6:30 – 10:30 PM",
+      "detailed": "lundi: 12:00– 3:00 PM, 6:30 – 10:30 PM\nmardi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\njeudi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nsamedi: 12:00– 3:30 PM, 6:30 – 11:00 PM\ndimanche: 12:00– 3:30 PM, 6:30 – 10:30 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Cantine asiatique décontractée, bleu électrique",
+    "booking_policy": "Sans réservation, service rapide",
+    "smart_tip": "Leur terrasse est le meilleur point de vue sur le port de l Arsenal.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://baofamily.co/bleu-bao",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Le plus élégant de la famille. Une maison de thé moderne rue Saint-Lazare avec des dim-sums d'une finesse rare dans un décor azur.",
+    "must_eat": "Bao signatures, nouilles sautées",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Bleu Bao est la version raffinée et esthète de la Bao Family. Installé rue Saint-Lazare, cet établissement rend hommage aux maisons de thé traditionnelles chinoises avec un décor bleu azur et une porcelaine délicate. L'atmosphère y est plus feutrée et sereine que dans les autres adresses du groupe, idéale pour un déjeuner chic ou un dîner intimiste. Outre les excellents dim-sums et baos, le lieu propose une sélection de thés d'exception et des cocktails inspirés de l'Asie. C'est le mariage parfait entre l'élégance parisienne et la tradition culinaire shanghaienne.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3o52rGDFrCm4zixHj4iLb-XY-9r7xXhGTAzkScZzceFk3xEL_WVZXjNRsszONo2aUxCKAhGEL30e2FEmDHkVPcmG_5V_VEKooaOEB_YUnUNM-QU-OQTuYgVx1sHeKQtxM-o5OnJ4UX7qzW2v2xoT0UVeJ__BNPzfnF7Y7PGp12jc6MJFMbiP5eGIHmJ4LDxev4G_hV-Z-vcYjNo07Y6IAYj2u-Ndvh2VYNE9vJn1RhWsvuqtK8kUHiu_tAUBTliGAs-sB7MvbY3Y0aDQyDKgWMkLsDoWxDfqSlDMTAPC-clg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bao.family",
+    "google_photos": [
+      "AcnlKN3o52rGDFrCm4zixHj4iLb-XY-9r7xXhGTAzkScZzceFk3xEL_WVZXjNRsszONo2aUxCKAhGEL30e2FEmDHkVPcmG_5V_VEKooaOEB_YUnUNM-QU-OQTuYgVx1sHeKQtxM-o5OnJ4UX7qzW2v2xoT0UVeJ__BNPzfnF7Y7PGp12jc6MJFMbiP5eGIHmJ4LDxev4G_hV-Z-vcYjNo07Y6IAYj2u-Ndvh2VYNE9vJn1RhWsvuqtK8kUHiu_tAUBTliGAs-sB7MvbY3Y0aDQyDKgWMkLsDoWxDfqSlDMTAPC-clg",
+      "AcnlKN0kuPTXnlbRQwHFzq6RBGgQ2d0NZZGxF5jc6jTcMiZ3HL0zqjguskI7ny9TUg-iFhcmcWxIr7h6hMtgWcuSHc6T5AG2Xag4kk4x1Qf8X5Thorl8_bqkEcQPqfMEHdrud5gb0bHGkjTy3MURSj4E-QzoIIrjr45NgwGlqIbZy0JbsYBSicYAik4mqyAHQTL9V2FS2YNRLWLQw7TwG-7OQAL99LG0Dz0TRcpeeX6ku9YNS7qj5mlN9KcaTKtW5-XXJyvc6SCdyDqyhrEwS3HSM3bACR5GLxsUVvzPXhpp_JUXhA",
+      "AcnlKN3eM54tgAsbLxfSUvt2Acc7dnUHc8LBKtKEmTEbzsz0UJApOhPFY7FmTDK3ll0p0eLAixN4xq7a5T8z-LvInM0ahyFpeBtdAJRPfxt8E2VxVvDXsw8EztMtO11kWRAjKFtVaPVbxBha4SGSWBG5WvqgXb_JS1zl8i8SADc3-b6Kc-psEYsA25Tj9fH1Nf6FtAtbXu98Z9-2MRufsIx4k4Wf7X5W3zsKWXuiulS95WU5Z6IW5SDTCKEr_ZA4eEqdFG9_Fay-A1aYOPSGwSPBINKu3o03xHj7fORZH1XcDltKQRI956xpKJJDibPdTMs8OomjkkK-t9yROrJAGwm-PwwyC4R84OxOo3gWwxqMxTAuzdmoOJ_lJ8djEyhdj5_6IS9G_FQfM6A3XcJFf2-rkE0H7x7Y_mM9Z3vTFVt70xcCk8jFRVhDBhw6CTiallKD",
+      "AcnlKN0ouw8jrI8mWL_MLJStA9Hy0QzdJgpioCeeho5s6UgfyNN3ZnOocQ_0V_XqouWqKfyOvbEEkSlpjzqoNY5hzegvU5xczKjcklHOCIWOrBQUG5YY3nNO7tiofub1dneKbKr8rxtzYUS2QSQ1qL3FmswPQ-U_5r6TVsmrR2ah3JeLTcftrrs2ca1EmPhhEC-Gr1NH9TZrIcOUsYCvbr1bFbLyaOyzyh8XfWtTdKqx0PR43hZ68LY0Uf-wddwAY6HFaPRwjBo3T3ddrcm8rNjz-fg378UTIX9IXvNR3bbYu-kyrRj_9MR0BwflDn6VYLI7irTqEIHfenpPStYFn6p7bCiUxe-DJXhYAkUNl8qSKU1lxjKkTR3-5PNXF69gULBYMiP-pcS1caE1xrmK5JqYTswKAIsMn8ajz8cQDho1BGEmF82p",
+      "AcnlKN1mb_p9QhJ2kZUsIxQklBPoYAIJd_kLYUjT9WUjedbfkDFd8f7wQEpO-yNZT-d45vu22RThFFdOhj3-_AfGIYL6_YB3Nq9le7ZL4lQdcdVH8Jj_H0IREAWm1K0cluV1uvnU203ZmGb8le1pMYkI0haKSkW8Bu-tA2QaEGJTLDZ4oTK1ibVGFmxw_TPymn7P5afKq6_sbrlmlhoZySTSYFo9P--FN5ag4mgh-kqfHw7A3uQa1Uf0Uiibewn1tkzUdgx6kQVhHpDI2UQm47cs8FJB30AGH7Zzqx3FK63kYxRo3DF-jtI-1H_tz5H8JECR3WB9Eq4dRLjPfH7d_CTzb6pplc85puvVPRdY82CctvW3AnUBzzRLJ8Aein5RjsYf4k2KU7euRzMzYGJ42ZHwQj3Wxm30jJEPETOoDAQb57fAU6k493169Hbn9C0G-g",
+      "AcnlKN1Pv6YFKx8Ee2gaP_r1Q9_pFOIfhxeZU-Sf9uFgDmgIVQO94N7Ma5w2HWGwPHvaKyWzdKFQrxq7HFoxw6huuzbYt95ozBNTE_NFlqPwBIDdCDF9dJp4dT9v2NytbordQ_yrJxvn5Lt_jlkMVZPSdaP-6dInwzNb8JBjZyAvrE3UtQXl1jfo37Fw4_FeEKGo9mtATJmkJT9c_4_V561sfJa04SXJ1OsaznZ1QHmYj8dXjG3eAyZHSrffzRpbUY221FXIotfg8s7Utcfz3VvBDnFBcBdaTI9ljqcBPmlUjZVwP_G5vfNb92HlQucA085st7z8-yRyekp_pNIteS6d8pwRyeerX-Jd6isJBwh0hTzyhYsoZ6vNC6_JNUgcmoffpUvxLBHEqQUsbaeLQ1Kv4Vg8PwfxVXpUUfiW48Fp_KoftLyyZi-ZwWKuSRgsu6lL",
+      "AcnlKN3dDormtKGJju3IMKX6zoJcGNhWYODX8-vRC2d09xPKNehVv0_K4YmQYhX7jRuOy_lKj6_lhJIJBHe3z_jjB9Jb1I46l1-K1E0AO_Fq6TWB9VRqym_dsWEeJ9nzalG98S8OepoXQOOk7vCrzOFhtCYixzO2CkWHD1VMwQPQ9dSFTUYY9bCx3_4NgDP60VG3N_-7etISepNoKSpVGYQu5_2vHwBzOoBYaLAt4uRttdVV9IopcdzZp2T9X1Jf74guBBgWcdm6Ih89X4keZa0zbYl3N4iIHf7pPinWcJha-s_lHTbuVUtGyPj0vxOZqvr1YAbM3CLZ5f_0PLjbWLj8wT_8EXLu2YgUWGBE-lcDGFWsOnDp3L_SyX2XeTmDY14jPrFMLhkcNRrzArRO7v8urmqYDvbDjLjTKLaN4co_LZkZsQ2D",
+      "AcnlKN1KlQpn9An-FdBRMVJf5IsdOOrPBnFTfnOTab1TsxQTmZ5DtZZjOVpwhmY1ccXFezqVUmwnH85L9THXi51uwmnH8XJ_LrOurTcN6hELwvpAJteDR3iyvvcNMS7WufW8dL97xEdszrij8DZSfX18AG4DrJwSK1GnlV3IZCC_9LqyNquTmfmu7nnmFeY4x-nnXpWe23YUnTGgW_yaKWNZWsS6cgi0QlioxzDaXtnnyua3uzvrcHuoqoyWdCmO7dTTXqJlHaK0i4l7u4GSIugt60bI49HPLCJA440vD4maPgKnilVOBn1RJ8z_K2-HmDH_sVkpjJONwP_0qCyrD6J8Le73IH3Zu3_vxFYIbVtwvH-hKx4YXjoVhJWngGQHTsfYbmGdEvQdGFJY0UbLnZ1IXePxcE74UlvDicd7VtEZnBiGQtUL5R2B9uCakzyEeBf9",
+      "AcnlKN0ard941oT5fyC09K4bw1PxDeIa26c8FLEIz91VeosMs_HRk-pHiHq8xLQwWmsZdZYGYEugCa3bTgjfusIfv5jdW-AhNnuCSK8Y_6jbZrfDd2dQJNB9ubslxhH9iKRpNnbb5f8wP89XHYDbBVzKTnow_P56kc0x322ZxK2Jfqedoha4UY_mA-tOvMt_tdIiCPwEAsLmJ77MWprh6zwhgu_nbCu19HYpjoX7LP9ZqZ9-uo9g14jiA3Muqi4uJFxAKOErBmxjKejTf49-AtRgiACX32uvF1ecScG36BX8vOGcYV1RSdwmu430NAAz4aOun4cMrKeUDXgv2vgwjMIqc1SAKtpeENS5VNQxNEMCFWdoTc6wyVLRTiATWRjQPIq4WrWXJ94jd1IWRnlLtKyc2jnkIXAWhcQ5HfHVl-gKKsh9IVm7O5STGoLJaWKgE1HG",
+      "AcnlKN3DryhxqOwmyucsPWVdplQv0nR_91Pz728aqvIvvH3X6Cpa8jIvOuUoklPYYWncZj8TBpCeliT6ollYIbOJWENfEwcWy2dSHX6o6I3fcCu0R0CDB6jUPSQcr_T1QuZpv6IR66hpGwo8N1MVlb1UNQ59G8MS-nWPN_DnYa75kmYIQI59-1bJz92NpsutNjQoMGgyktPn-LUsKP0Atc12M79k4p_dsXXGpHevGzGUzN4ZgdLu3SuVm0jOvt2rO9xocG9-b-ml0GPo7V_0X0GpvsUuFAWSIEct_eBKTLJSrDS3pzrrbOEOCDsr4kIujEzaPZWKE-1pw6CnxqTgOnSU0PUNrjBDlFAfbUTk4P-ag4U4vRGvkHmlQrQL699nAxpSts4PaG1bcPLlmBsH7tjQSaCmC53q1w05zN8E4G2u8zUjHa_j"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1258,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 48
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "32€ environ",
+    "display": "Tlj: 12:00 – 3:00 PM, 6:30 – 10:30 PM",
+    "detailed": "lundi: 12:00– 3:00 PM, 6:30 – 10:30 PM\nmardi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\njeudi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nsamedi: 12:00– 3:30 PM, 6:30 – 11:00 PM\ndimanche: 12:00– 3:30 PM, 6:30 – 10:30 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du quartier, travailleurs en pause déj, fans de la saga Bao.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 14,
+    "value_score": 102,
+    "category_percentile": -2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "SIGNATURES",
+        "items": [
+          {
+            "name": "Assortiment Dim Sum",
+            "price": "15€"
+          },
+          {
+            "name": "Bao Cochon Noir",
+            "price": "9€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Thé d'Exception",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail Maison",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 7814,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

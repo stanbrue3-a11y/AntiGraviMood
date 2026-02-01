@@ -3,7 +3,6 @@ import { Tabs } from 'expo-router';
 import { useEffect } from 'react';
 import { useTheme } from '../../src/design';
 import { AnimatedTabBar } from '../../src/components/navigation/AnimatedTabBar';
-import { usePlacesStore } from '../../src/stores/usePlacesStore';
 import { Place } from '../../src/types/model';
 // Configuration "Culturel & Épuré"
 const TABS = [

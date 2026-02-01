@@ -1,0 +1,167 @@
+{
+  "id": "poi-095",
+  "name": "Moonshiner",
+  "slug": "moonshiner",
+  "location": {
+    "address": "5 Rue Sedaine",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8556969,
+      "lng": 2.3712084
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJdT6AoABy5kcR6p_Abkvrr6I"
+  },
+  "category": "bar",
+  "subcategory": "speakeasy",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.2,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 4,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "22€ environ",
+      "display": "Tlj: 6:00 PM – 2:00 AM",
+      "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 2:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Sélection de whisky impressionnante, cocktails classiques US",
+    "door_policy": "Entrée par la pizzeria Da Vito, frigo au fond",
+    "ambiance_vibe": "Prohibition authentique, brique et cuir",
+    "smart_tip": "Leur burger à la truffe est le péché mignon des habitués.",
+    "bouton_label": "Site du lieu",
+    "website": "https://moonshinerbar.fr/"
+  },
+  "real_talk": {
+    "text": "L'entrée se fait par le frigo de la pizzeria. Ambiance Prohibition, jazz et whiskies d'exception. Un voyage dans le temps immersif.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Le Moonshiner est sans doute le speakeasy le plus immersif de Paris. Pour y pénétrer, il faut traverser la pizzeria Da Vito et franchir la lourde porte d'une chambre froide métallique. On bascule alors dans l'Amérique de la Prohibition : décor Art Déco, lumière tamisée, phonographes et sofas Chesterfield. Le bar est une ode aux classiques (Old Fashioned, Vieux Carré) et possède l'une des collections de whiskies les plus pointues de la capitale (plus de 80 références). Un fumoir élégant et une bande-son jazz transportent immédiatement les convives dans les années 20.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1vseIiVGQHdyyPIH7lfV7Ow40b1Ngl6zNlMEjSdSK8GkfQqSrKGMab5mCeQTCWm4srlkPXRtjzR1WFVFMd91cN1bcBkasw7hzyM7-03LZA5J59FA29uqLKryVwcXxHnsx-IHXC-iLkexZvW_YV4_LxLGSBQ_UPU-13p-_uY5nTBVClc8vdvKqk6BqB8Bjn64GgAcl0x3z5YXrHclqH2IMIh82Gs4QV33NC3ue73uPp7e58xAQoksfbqMMb-ODgetQyNl__qVCaAKUOxPrlWRhXKWCxiOZ5f9gdZH2lrDIOdg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@moonshiner_cocktail_bar",
+    "google_photos": [
+      "AcnlKN1vseIiVGQHdyyPIH7lfV7Ow40b1Ngl6zNlMEjSdSK8GkfQqSrKGMab5mCeQTCWm4srlkPXRtjzR1WFVFMd91cN1bcBkasw7hzyM7-03LZA5J59FA29uqLKryVwcXxHnsx-IHXC-iLkexZvW_YV4_LxLGSBQ_UPU-13p-_uY5nTBVClc8vdvKqk6BqB8Bjn64GgAcl0x3z5YXrHclqH2IMIh82Gs4QV33NC3ue73uPp7e58xAQoksfbqMMb-ODgetQyNl__qVCaAKUOxPrlWRhXKWCxiOZ5f9gdZH2lrDIOdg",
+      "AcnlKN2urzTlmpaeGXFodAe7FMjvwSNFWgtAMVkBQpAvVsKkqiYpR2j2tk2okIhUREDfGdKiYh-Zrge-t9C8xVo9dlZs70VnkdNsaFV_FX_KQ9_9gAbqqecA9mSZLFxpKsM7gqOyJ43PQoyrHcZYSsp7BEGVaTqmyfvPGyHXiKwqib9eX2dB2k3Im3RJ7Bwkt8NXCvzyZak5_twIAeo4MnLFDB92bM4eZdDS9n8lIFGsuHKhE3hTD9zYlU8V1Af-psZLIOyOQ8BRXSiHkbxY7fYaVI0gfsz0sroLiid00wmh1QxrOA",
+      "AcnlKN1l3KU2ENllRNV2oXk-jlxzp7HVWXWeGPyZ8km5LHOy4Ds0Lc0C7BTME1B6WqLR8nhNiTiHSbcrQm7jw7Phxs8BN2pb1xmOAttNKwjWs8UxuJNTt_g1x0WaAFF-W95M7Pv57F_VptDfyG00qTEP6qqUTUcB75nsWJUbZsFQOoijswt8089Q23xhOZ5Vow3Sv4P6yb0LHRCw2UV52XIhNCZEy3IEnnLIf8jqdrZANgOTSo10qJVb_6QW_320wyKVrAFIx3Unwl6owsRE36NYhHbb81K-9DD6U0AZNqCVje5H3KE29znRcToCMrU90mVykMFl5_KZ5cLaATxHufj5flR-ZTqkv3UqU2N-eurzzqG390pUzPVaUu-0DFZgESKoDZNbXF2-2ayYLdQEDf8dC-Z-LJ05dZiMTYWU5bSIYKAR_ccwEwMAe46mgh1KBoJY",
+      "AcnlKN3g8_9F4p_7xd-K-uOEtQC6LGP-whQx4D9aSsCFPFXnqnLE0J1XE1GmisI2xC4Yw8CP5un7KUUwW_SofVAMdLOQ8HhUzX42IhyeQEsQHOI15k0Rd-Cg6-V7UzPEfQ13BCYnqXfDX7B3r-aIUCiSn69pXMawqep6hfhuO0u_83v7XZBtvwFht3edvVS6M7vCaWgcmQJEUkXGcUZOZ4Ss2ZSpJ2RCbQ7ijOoQdH6G99tiR6xz-h5Ddvi9aOZ7L_2yLpf371XdNCts578LK5vonDpaDsN-ZBDT968BVnsoVIlZUnp__pz0UFmjdOP3wuPjvsNJBvuYenBE8XHhMXDm2gsAM9IRkdCLSXp5ENw8EZQY5fKgRji3icb1wDco7a1sfu5aMiEbQ8_9n7-3JRO6BX_eDv7BHUSkWG08q2pJ1QNjucc-YYG4eeiHpC_CzguD",
+      "AcnlKN0O4NhB5c2gL1liBu066eS-Fd9fo4oPafFQV3LZbwyemt3_dZOCDToPRbrPKv4eIll4EMZhr4uNAai7yeo4JVopU5LRno4FUw1WyemSUAh9nBKl8Z99eC32lwt0MBQBgpF9NvZjuALsQ-ZMC4panDMWOlpxlX-JDZkxR3RAX3Aejo6NdbIhswkq3JKbs3X7ctWOGD_Tch0EKxnHIJpRhr2QAh1gda-vRyGbgZIiC50-ZJITFEzdPCEe8AjdOHHqicY3l7A6dhJ1P6KmvqOxoSciTGBrSzqjxBklRgapq3Qmvg",
+      "AcnlKN1jWScMhVmDPoMrBAgqX5k6AGuax6s78ckZmEurfx4JYTKYnVL5XFz_nq4o1KEDQduMB3XiWdhFIMG8xpaJJb4WEZb7OkFgx1hvWn21GglTTDAMEA4jXnzhYX41b-ZeWbPBWtDVPKxVNS_B1FpNVSoEf09bK4KPLndEsUCiQF1kgXMnA9nRVoPXc2K5dtAPq3X2q1jnC-c5IR4pSUBlZ1k84rEuZS3Smyh8raNSG4BEHfQOJneNS9RVosj_U58xNRlGBhZz6DY2JyiMJIQxA2BC0EOf9m5vNP8Ry5LDMg13mC8fXAq31JVD_Bnbl4juMR_rB1dQK45kSU7dttbhKK7WH3epqRIf1L1mkCfsQAsSud-6qMn74hv9slT2ud5Z5PeZj5I19rLlAp5OS03Pxeer9-AorSaF6-nGiR0EcYRCLkMuDOGdepFUcVi1tfGo",
+      "AcnlKN3PJ3RHO5vA7memNhdx-fctRjGvqoJh1duqHziO26YbrgSbUQpkhtsUfwbk_Dd-Z9QTC7czSBmI33wKEMyVykrczJqJIui75GcUuKNQDT5UePN2gvVracifc-jtgcxeOw7uhj4hHKHu4Xm9PKhzXtgRxnJs8CfRpV7a0EBYHaP9CKYDUtbaSXgnl9LulJ189eGnXgJUoeHDh7HXjpTi_aJWGuqjVjrX0k5iAAyDujHiA5ZegHE07-u8Eh7HS1vH4l4um3Wu3EIlaquAjRdkCi2BRDjlbZyGc6Y5G2M8NiNNzJqvwNAVLOQ5R-EjpWanYfhLMAnsiuBfOBDQRijy6V6nddNkrd-CQraLt5lrrWRU4gqlAgpDZ_OvkLb3h5P4KlfIhDZMRYrA5UyV5AStx6vXKdEn5b1D1_lLurZ5-k09wg",
+      "AcnlKN1N5T8Tt4D7HEWwCmMj01NpHQlUfihcGkkPFM1y60nOZAN_hoII4pwpMNcaLiCjkTvR5y1N7KDe6ZvVXqzys7C4O6PIW5k-SqRJwAWt9XqbTFq7pE9GwwkQ0_Qc9Jk4k1c9meeHUfoAwP-uHRHBlxOylxIWX6DqAwOs16CrIlVRU51EBiU953mrHjLl1eNSYQIA6c6XsJUnyVn4V234YMXhsN6R9GpR8neknE7l8dvlxydoEn6kKedfFn5vVINGT8zUHg97tUIiIR2q3tbNENNDbcV_jRAys2Hn1Z--dp843cZCL9c6ZZgl84hc941ESpRKMMYycC_GDBfGtGoGQwAJfEeBGQ_Qb6HiaQ6WivgzoCeCmHi68uWkJXaL5am400jYWnV0PU_1vEc62nhmY-Zfj4AD9_aLmXipvAvEkor6YaI1",
+      "AcnlKN0xJzcU8fFn2crFtS_LeyIKnYvxyKDmJyAbcGYsYS1Qri_CVoZzACfWlggBQ_rEFI2IkCTz02AWpoTdMtKUEBsvUnolrZuoSJpUbfcPK51CBGqexzMdVph7kY1rNxvjLcN1aQieHIXH9VqVN1WRE6z68RM-5geyZk_tpPOoiWzPn4xM5qSzjWKEUVrC4Dn7cDSMqGeVhx9hPfjxCZaIl8_HqBv4iuQbhEoKA9Yly5PjhdBK5IOW4g2AhbveITXHv4kNXPRS8EqQdxsHf6o1yPaXjQAsCjHbSgZuc5YcjZnsPdnAxFEMDN5gbeyzYnwsfTPsrJ9b8CO7s-xEYK3o0MoatvqFeukHiUxJ53_Fx40pJ_XOIL7jvjqj1GLqD88W1UW1xkqhwWUrlzbHbpute9mFXCvmMqDxwI1K8Zj9gneTJfUsbkbAGAf9o4dGmtGn",
+      "AcnlKN2O44lRtV7QBtD2T15x44uxRJU-FE58DFRhkPzjd0OPxADqnPBDncUO_E-4wUTR8APkf30JX4bz-oVJWE5DHgSMkk36KeUJRsk36KeWT3msqGr1tMMJ_ZWtUmrvWl2NXDYTMUu2OkABZtmiXrdp6zKDXHABIkNzhHhlurq3rzXpN5X4Y5sSDgiIEbTJMyLFRnSwABUf7QKxWwEVd1ctaSlQj-JQmM2KUo8hqtDNo-7AtFA98xvInmBSe_JX_9-LXQBUGGIoZSXyurVthF1BXCrHJnZ2StT8yCJpXS7TqbvsSZWrwJZxjuxbhnz7qZOryV_-L1t0jDTqQDqyALVBFmDL15aTWHcEzxQs3jEZafjQjLENNnyWwjTXAEoGn5SpOjPTdqbet-CMiCFCrsMIPN6dwReU6efWkW6Whsvszb0"
+    ]
+  },
+  "social_preview": {
+    "like_count": 345,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 43
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "22€ environ",
+    "display": "Tlj: 6:00 PM – 2:00 AM",
+    "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 2:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de whisky, couples en date secrète, habitués du Marais nocturne.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "speakeasy",
+    "budget_avg": 14,
+    "value_score": 0,
+    "category_percentile": 100,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Cocktail Classique",
+            "price": "14€"
+          },
+          {
+            "name": "Création Maison",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de blonde maison",
+            "price": "5€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.5,
+  "google_ratings_count": 2658,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

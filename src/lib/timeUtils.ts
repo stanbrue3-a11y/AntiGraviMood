@@ -1,110 +1,182 @@
 /**
- * Time Utilities for MoodMap Paris
- * Handles "after midnight" ranges and standardized time comparisons.
+ * Time Utilities for MoodMap Paris 🕒
+ * Handles "after midnight" ranges (e.g. 18h-02h) and standardized time comparisons.
  */
 
+import { Place } from "../types/model";
+
 /**
- * Normalizes an hour (0-23) to a "linear" time scale where 0-4 are treated as 24-28
- * for easy comparison with evening ranges.
+ * Normalizes an hour (0-23) to a "linear" time scale where 0-6 are treated as 24-30
+ * for easy comparison with evening/night ranges.
  */
 export const normalizeHour = (h: number): number => {
     return h < 6 ? h + 24 : h;
 };
 
 /**
- * Parses a time string "HH:MM" into a float representing hours.
- * e.g. "17:30" => 17.5
+ * Parses a time string into a float hours value.
+ * Supports: "17:30", "17h30", "17h", "17"
  */
 export const parseTimeToFloat = (timeStr: string): number => {
     if (!timeStr) return 0;
-    // Remove non-time characters (like 'h')
-    const cleaned = timeStr.toLowerCase().replace(/[^\d:h]/g, '');
-    const [h, m] = cleaned.split(/[:h]/).map(Number);
-    return (h || 0) + (m || 0) / 60;
+    const cleaned = timeStr.toLowerCase().replace(/[^0-9:h]/g, '');
+
+    // Split by ':' or 'h'
+    const parts = cleaned.split(/[:h]/);
+    const h = parseInt(parts[0], 10) || 0;
+    const m = parseInt(parts[1], 10) || 0;
+
+    return h + (m / 60);
 };
 
 /**
- * Checks if the current time (or a specific time) falls within a given range.
- * Handles ranges crossing midnight (e.g. "18:00-02:00").
+ * Robust OpeningHours Engine 🧠
  */
-export const isTimeInRange = (range: string, targetHour?: number): boolean => {
-    if (!range) return false;
+export class OpeningHours {
+    readonly start: number;
+    readonly end: number;
+    readonly crossesMidnight: boolean;
 
-    // Normalize target hour
-    const now = new Date();
-    const currentHour = targetHour !== undefined ? targetHour : now.getHours() + now.getMinutes() / 60;
-    const h = normalizeHour(currentHour);
+    constructor(rangeStr: string) {
+        const parts = rangeStr.split(/[-–]| à /);
+        if (parts.length !== 2) {
+            this.start = 0;
+            this.end = 0;
+            this.crossesMidnight = false;
+        } else {
+            let s = parseTimeToFloat(parts[0].trim());
+            let e = parseTimeToFloat(parts[1].trim());
 
-    const parts = range.split(/[-–]/);
-    if (parts.length !== 2) return false;
+            // Handle midnight/next day (e.g. 17:00 - 02:00)
+            if (e <= s) {
+                e += 24;
+                this.crossesMidnight = true;
+            } else {
+                this.crossesMidnight = false;
+            }
 
-    let start = parseTimeToFloat(parts[0].trim());
-    let end = parseTimeToFloat(parts[1].trim());
-
-    // Normalize start/end
-    start = normalizeHour(start);
-    end = normalizeHour(end);
-
-    if (end < start) {
-        end += 24; // Handle case where second normalization didn't catch it
+            this.start = s;
+            this.end = e;
+        }
     }
 
-    return h >= start && h < end;
+    /**
+     * Checks if a target hour (normalized or not) is within this range.
+     */
+    isOpen(targetHour: number): boolean {
+        if (this.start === 0 && this.end === 0) return true; // Permissive default
+
+        let h = targetHour;
+        // If the target is a "early morning" hour (e.g. 1am), and the range crosses midnight,
+        // we should treat the target as 25.
+        if (this.crossesMidnight && h < 6) {
+            h += 24;
+        }
+
+        return h >= this.start && h < this.end;
+    }
+
+    /**
+     * Checks if this range overlaps with another range.
+     * Used for the "Créneau" filter.
+     */
+    overlaps(otherStart: number, otherEnd: number): boolean {
+        if (this.start === 0 && this.end === 0) return true;
+
+        let uStart = otherStart;
+        let uEnd = otherEnd;
+
+        // Normalize user range if it crosses midnight
+        if (uEnd <= uStart) uEnd += 24;
+
+        // Check intersection of [this.start, this.end] and [uStart, uEnd]
+        return Math.max(this.start, uStart) < Math.min(this.end, uEnd);
+    }
+}
+
+/**
+ * Checks if the current time falls within a given range.
+ */
+export const isTimeInRange = (range: string, targetHour?: number): boolean => {
+    const oh = new OpeningHours(range);
+    const now = new Date();
+    const currentHour = targetHour !== undefined ? targetHour : now.getHours() + (now.getMinutes() / 60);
+    return oh.isOpen(currentHour);
 };
 
 // Day mapping for French abbreviations
 const DAY_MAP: Record<string, number> = {
-    'dim': 0, 'lun': 1, 'mar': 2, 'mer': 3, 'jeu': 4, 'ven': 5, 'sam': 6
+    'dim': 0, 'lun': 1, 'mar': 2, 'mer': 3, 'jeu': 4, 'ven': 5, 'sam': 6,
+    'dimanche': 0, 'lundi': 1, 'mardi': 2, 'mercredi': 3, 'jeudi': 4, 'vendredi': 5, 'samedi': 6
 };
 
 /**
  * Enhanced Happy Hour Check that respects Days of the Week.
- * Parsing patterns like:
- * - "Tlj 17h-20h"
- * - "Jeu-Sam 18h-22h"
- * - "Lun-Ven 16h-20h"
  */
 export const isHappyHourActive = (rawString: string): boolean => {
-    if (!rawString) return false;
+    if (!rawString || rawString === 'Non' || rawString === 'Faux' || rawString === 'Non renseigné') return false;
+
     const lower = rawString.toLowerCase();
     const now = new Date();
-    const currentDay = now.getDay(); // 0 = Sunday
+    const currentDay = now.getDay();
 
-    // 1. Check Day Constraints
     let isDayActive = false;
 
-    if (lower.includes('tlj') || lower.includes('7j/7') || /^\d{1,2}h/.test(lower)) {
-        // If "Tlj" or starts directly with time (implicit Tlj)
+    // 1. Check for "Every day" markers
+    if (lower.includes('tlj') || lower.includes('7j/7') || lower.includes('tous les jours')) {
         isDayActive = true;
-    } else {
-        // Parse day ranges like "jeu-sam"
-        // Look for day names at start
-        const dayRangeMatch = lower.match(/([a-z]{3})\s?[-–]\s?([a-z]{3})/);
-        if (dayRangeMatch) {
-            const startDay = DAY_MAP[dayRangeMatch[1]];
-            const endDay = DAY_MAP[dayRangeMatch[2]];
+    }
+    // 2. Check for day ranges (e.g. "lun-ven")
+    else if (/([a-z]{3,})\s?[-–]\s?([a-z]{3,})/.test(lower)) {
+        const match = lower.match(/([a-z]{3,})\s?[-–]\s?([a-z]{3,})/);
+        if (match) {
+            const startDay = DAY_MAP[match[1].substring(0, 3)];
+            const endDay = DAY_MAP[match[2].substring(0, 3)];
 
             if (startDay !== undefined && endDay !== undefined) {
                 if (startDay <= endDay) {
                     isDayActive = currentDay >= startDay && currentDay <= endDay;
                 } else {
-                    // Crossing week boundary (e.g. Ven-Mar)
                     isDayActive = currentDay >= startDay || currentDay <= endDay;
                 }
             }
         }
-        // Single day check could be added here if needed, but ranges are most common
+    }
+    // 3. Check for single day
+    else {
+        const words = lower.split(/[\s,]+/);
+        for (const word of words) {
+            const dayNum = DAY_MAP[word.substring(0, 3)];
+            if (dayNum === currentDay) {
+                isDayActive = true;
+                break;
+            }
+        }
+        // If no day mentioned, assume it's a time-only string (implicit TLJ)
+        if (!isDayActive && !Object.keys(DAY_MAP).some(d => lower.includes(d.substring(0, 3)))) {
+            isDayActive = true;
+        }
     }
 
     if (!isDayActive) return false;
 
-    // 2. Extract Time Range
-    // Extract "17h-20h" or "17:00-20:00"
-    const timeMatch = lower.match(/(\d{1,2}[h:]?\d{0,2})\s?[-–]\s?(\d{1,2}[h:]?\d{0,2})/);
+    // 4. Extract and check Time Range
+    const timeMatch = lower.match(/(\d{1,2}[h:]?\d{0,2})\s?[-–|à]\s?(\d{1,2}[h:]?\d{0,2})/);
     if (timeMatch) {
         const timeRange = `${timeMatch[1]}-${timeMatch[2]}`;
         return isTimeInRange(timeRange);
     }
 
     return false;
+};
+
+/**
+ * Checks if a place is open during a specific user-defined time range.
+ */
+export const isOpenDuring = (place: Place, range: { start: number; end: number }): boolean => {
+    const raw = place.opening_hours?.standard;
+    if (!raw || raw === 'Non renseigné') return true;
+
+    const oh = new OpeningHours(raw);
+    return oh.overlaps(range.start, range.end);
 };

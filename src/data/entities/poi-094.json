@@ -1,0 +1,169 @@
+{
+  "id": "poi-094",
+  "name": "Lavomatic",
+  "slug": "lavomatic",
+  "location": {
+    "address": "30 Rue René Boulanger",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8684697,
+      "lng": 2.3618697
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJhV2m1w5u5kcRGUoZEmX7d7w"
+  },
+  "category": "bar",
+  "subcategory": "hidden bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.6,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Fun"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 7:00 PM– 1:00 AM\nmercredi: 7:00 PM– 1:00 AM\njeudi: 7:00 PM– 1:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: Closed",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails colorés et originaux",
+    "door_policy": "Entrez par la laverie, poussez la machine",
+    "ambiance_vibe": "Speakeasy kitsch et fun, décor rétro années 70",
+    "smart_tip": "Leur playlist house 90s est un voyage dans le temps.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.lavomatic.paris/"
+  },
+  "real_talk": {
+    "text": "Cachez-vous derrière une machine à laver pour entrer. Un appartement pop avec des balançoires et des cocktails frais. Ultra-ludique.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Cachez-vous derrière la plus banale des laveries automatiques du 10ème pour découvrir Le Lavomatic. L'accès, dissimulé derrière une fausse machine, est une porte d'entrée vers un univers pop, coloré et délicieusement régressif. À l'étage, l'immense appartement se pare de balançoires et de poufs confortables dans une ambiance 'feel good'. La carte change au fil des saisons, proposant des cocktails frais, surprenants et réalisés sans sirops industriels. C'est le spot idéal pour un apéro décalé où l'effet de surprise est garanti à chaque passage.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2XLvQoZMKiea9EvncFFttUHt_-GhIuryKhDCn6Jj_bgq1c1ynV2WcAAMsDpbFRxdWfM0-BJ5Y7EWn1g6yO4rO2FpcvtnWgwEzpPBmqhJ3Dkzgjyi78JRDSZ7Pr_fFpvmTdth4_4RhlhBYrKye2d8eGGno01IWQreEAjLRVzSZEgtCs3C5QrnysF36_eHOeDFRuqL3R0ROwURK3HwmayTF4TE7jStR1WuhGWApm9VtSrUlfy32WRsmzYXNsuxGSdy4TYTvub8mbe0gMLCQbGnaDrmky1od5-oFvADeAJGCHUUKnSESHTW_R34OTxPBdQUymZqDySwGysseYfn2-eBJcn1a0SlhpWegAjo0qG7hZWc5uXjoLOGZ5FAa1rPRu5lsteyt7bnmFjS-k4A86Pxc1KJfUuXZaJsk5cKAlDE2JzA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lavomatic_paris",
+    "google_photos": [
+      "AcnlKN2XLvQoZMKiea9EvncFFttUHt_-GhIuryKhDCn6Jj_bgq1c1ynV2WcAAMsDpbFRxdWfM0-BJ5Y7EWn1g6yO4rO2FpcvtnWgwEzpPBmqhJ3Dkzgjyi78JRDSZ7Pr_fFpvmTdth4_4RhlhBYrKye2d8eGGno01IWQreEAjLRVzSZEgtCs3C5QrnysF36_eHOeDFRuqL3R0ROwURK3HwmayTF4TE7jStR1WuhGWApm9VtSrUlfy32WRsmzYXNsuxGSdy4TYTvub8mbe0gMLCQbGnaDrmky1od5-oFvADeAJGCHUUKnSESHTW_R34OTxPBdQUymZqDySwGysseYfn2-eBJcn1a0SlhpWegAjo0qG7hZWc5uXjoLOGZ5FAa1rPRu5lsteyt7bnmFjS-k4A86Pxc1KJfUuXZaJsk5cKAlDE2JzA",
+      "AcnlKN3jRLw5CWUoDASTjTueaN-qpnuAL3JSTTbQVQf1reSjM3ddI23W4prGdHMM1w3Vn0itD7DbpFEfGLb6pCNwUMEGpS_gHDyhIe5yh34LhLRXRQ9Pv-16oIYygOC034WDFrfqlbeM40cSt2bUSlCzUhYK5HlzbB7Z_BkimAZkS9VGXBn5l1UKmHEpg5bNDce0CNmnFCIJ1Qjw46BHZoRh2E4zjG23cJrLZQiQetAnbhdkRRmKLU9Y6sOK4Q2cr-kN9w0RUwuLrgbnzfec8NqRsDTbli_cqkUan1-ml0nOd9AHZg",
+      "AcnlKN31mQzkM8g9gW9tPEuOy-NCpT_LmxhXqBZXxcZTQm9xUSnd7Qi1vo3SQcv5gKrRbjNW4rA0BZ-WKL5M9ZaC8JwCBPRpOnh6SclCtQsaNz4lt3QImIg6U3FYa5DNlpAN8typx5mFmQmt3jpFRrtskXgZEp-rH8wk-JjpYSiIvTapHfPkM8EeT5LT1rgHeiqJT66NwdhIYVKt9cEGxTWdTdaLk2f-Iq9nJAgSI74Ao4P78IWYnqSmuLtStpbxSlpInJhxpIMAc1KYT4x_Hyu6YCdeF-1Xw-otpvBdKU2KOMnsAw",
+      "AcnlKN1wlnPKZSQTOxUPFfNkOpwlSiftXFOsZEnRQMYIIg-0D2nuiPYqR28rN0E5P0KitXjUQPsCf6-U0Xc02Or62-gKvpt7bOy5rHVRBdxM47n8wCbL0k54Bd3lVtTxEje-Qm7FIs7UU8g2qkrHwOAw-RazZutGFFiohW845yc-6OceiMXUDevWpS4CApx8Z9PM3DcEEKpy8wCw2dwAzIj-dPRj-J92JsKUCJAoBfo8Wll8Qj6c_RzPM17j8J4BsAtGwnBdOvep-48jERv8Tefbn3DeDdiyTxLm3krAjcPwT0RqH26ynUbXb867DFPBVh_kbe5YoyMxEmE6nScycht36dOP642i8bdFMQIy4VXO1ELx5EluBI0B8PSNrBDtPFmcCrghrauBs5TNyNw1phUtzTchFMJmhy0zfYvg-B29j7AHjhzq7kdpfF_djPUevisN",
+      "AcnlKN18gTzy5E0_s12cw9vdqOtxamp3oRf9CQSdYhdhxXB0bMR0nLp6rX3HmQ0qRGRwGu_VdFxloCIxkfblI1ks6Z6_7kueBkiid_uATKe3jdN5eOcpceS1PihAlBzGp2nAkin92JA1qXTbTiO6hfG79gkx1RiFD614-H1DFiaDf-FIUblucF_yJPjMgbB1fKDuUY-885qlDUuBw1tb_edVZrtxgmgFrg_360s7w176s1JDcnJCsN618Y6Yj6B9bxwLoyURt5upL8CVwt-x-wUVEsHEw3sT5CoCioHWZbTbLTPdBeJZWiHlq_luSkfSWpKWFmcRC6MUMY5laYHVD2NEKw01FQiZpvnCafmNJUDFY7aLQAtkeU4MJfqsRZrbNtOvxoJVOq_lrBL-SIexJvUaHqyXCx8x_gDPy39pUK49FZVtxo5n",
+      "AcnlKN3GX48c2gB5Qm_zwCKm0QNRa3CBxYPdl1Ywch8LRhAGN81ieoeyhNo3z38ACDVYGymowk7fv0i5gskgdiHYCDopb4pxE_QDuDmUmwTReCLpK9e_zqtwldDdJ0gSoyVJ30h3-ibHcCEoaKn3n1reK2MF1GiFVMsiaTUbtidxXkvN9igYtEtwY0FJUEPH6xUFNIez4hcsjOHhW-py7w6lqy9lpaz3b65u3Zxk1MhgIqblE02YBUi2XqZsVeYZgJKAFw6DSKd5e7AAqkB3FxMlYx-59bTimARLFcuUrXrwOSylViqKYfwZDBm7SQVq3wGQQ3amFzdAPVad8hNA-TKHz3Smlus0v2ZRSRKj8UYCWz16q74nR2Hzc97riplC4dmcdSZTQpnMKh4RJHbi_rcEA9uXRJOpecG3JYOinwOp2lKfDw",
+      "AcnlKN24GJEKogj1zRc6yBdc-nBe6N2D23Go95h2raDofVCQA_jdmEQAdQ-bl9y8-noUaNMnrlSL187x4xgKlQ8lUMR7xgXfdxOJLitLNCXtLpIAVmkGtO-3_PZQaYjHu49jJdKbHLQwR6s5xlUnKSHe3tznsCRNzTQep54Wr-Mw0ELbjReWT9DqhJHGxMikjNZBYYyeWc1-lBRofNOq20HrsXUyz9-BpYSeVSibBuwEkVWWfu7oivDDAUElWhlhBIvbDJD4fbBkmd7MslnJILqJeFwkl8wTHP3M82e73lpURQEpzMA448WNQBBljhrH1QhD0Eil1T8lXExILUgN613p6QI8f8jezkEV4_7lIgoNVqXy8JOpialHfepyfc3iquVs-c5z1GlakIy8eKb6CVCGh5kOKM46lmvsU-hw59-wl2VxPw",
+      "AcnlKN1GGTfBE3otgu7zT0XNPXLGLzQBvbwRfvPakjkcF2iMfCxDTM16-9pE12MttvcohRVLNK5AfpcivYtmoQwqwWR3iWx6IcWjepXRX4dAoW592ZDebqQKfmMDr9XXOOHvdlWgicH1Kljj8J1G9p2W6RiysmzC6YiY-QCQ8Vk1c7dx7SF4Xvh-h4rN9o5q4-wIgNTLBx2fwQsoeo-weh0qZHkVAVtbAu0F6HXAcr3q_Kwm0sRFKF0tYjQ1mQfOosyXZ_3zXv-xEpJCMlXRG1HnMZv9-hFKJYHC44ltf7DFf4leS-EkRU9umDA9d2Rd-uMi_pIcSDtbJDzKtYXjIp8d_dRYEc7UfE0Rf73s4AIwRamG_56stEJkYAkmVaPtIw3IFA7pBLrmw599IfemIYbOSnKW1TVAcNLREusUL-M675GmHg",
+      "AcnlKN3KggzK3RiNIfnDrw7U5-tEaOzKrF_cNUzU0_3T8lkeBd7uYfyTEqpJpa1FCXRQmaT083e_9FKWwJYaHObvpn0KEk2VTnSbq7xchnbJgxiiYdIBGcGDNTSKZ6D6hlZG9PthBzLTU-FmKOAe4s01QmjlfhHZziQpeKQHpuDmbs95hs_EZ2NFoJyPjCgNqby1RnbMn6rtk5TdmVCBFRlSwnHrZFZHUSOpIhWeq54NF80gcOwS0o_EbT0dNhJnfNiHCmqFDZzrhg4GESNormFk7K4ncZdrGldwGcFShVjDTesgS6_MxfdJe2NTpugmX44DwbfnsnFTkaneFu7d-B4kaqhrTOmms7sCx_D75S9GRyauibljnaKIOcagF-HubPMvgEFBgisVmNT3MvbSjybbTUQ5sNriSlFiZPlhg7ZFBcpoXw",
+      "AcnlKN0ge8xbcKC5ZIyW06FFenmFDVU3hf0arwmFhyQksWE4Q2O5IGIiDwegTnhGR7y7OjnokomNWYn2N-EVhsvJcS8cgXoCW_vN5CecHYs9rW3WZXSLGNgKL_pHH-ctFTNWwFi6JQ1wPz-Mvnr9au1Uc8DXF11kbCfOVxQY7w3n7-luLqbTMzqsuB2mGAR5pkeZOTMgjTf42NhDRA5buCFzfd9KWs99aSvISBgjQn9IzPhBun5gcwjWIPmrCobKcGOh4lx9_A_Mo81YMGA3th0MCQxvTdYY7ylE150qXyX9mut0gxwmDKy_wxApFtsa1a9A4855MUxtpBH1i16Fpktt8Jg8BC6te-OFBdz27bAq6t-oDrmt5mFLiCnep4NO6RIrka9MgpLutmqVYiHFgzB3FvTQgjwArg93cRJttHTN0qtM4ek"
+    ]
+  },
+  "social_preview": {
+    "like_count": 832,
+    "top_vibe_tags": [
+      "Fun"
+    ],
+    "moment_count": 15
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 7:00 PM– 1:00 AM\nmercredi: 7:00 PM– 1:00 AM\njeudi: 7:00 PM– 1:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: Closed",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Touristes curieux, instagrameurs, jeunes fêtards en chasse de spots cachés.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 13,
+    "value_score": 11,
+    "category_percentile": 89,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(13.0€)",
+    "pint_price": 6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Basilic Instinct",
+            "price": "12€"
+          },
+          {
+            "name": "Drunk in Love",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "VINS & BIÈRES",
+        "items": [
+          {
+            "name": "Verre de vin nature",
+            "price": "5,50€"
+          },
+          {
+            "name": "Pinte de bière brassée",
+            "price": "6€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.1,
+  "google_ratings_count": 2082,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -17,7 +17,7 @@ import Animated, {
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import * as Haptics from 'expo-haptics';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { usePlacesStore } from '../../stores/usePlacesStore';
+import { useSearchStore } from '../../stores/searchStore';
 
 const { height: SCREEN_HEIGHT } = Dimensions.get('window');
 
@@ -75,7 +75,7 @@ const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onCh
     const lastCommittedValue = useRef(initialValue);
     const ezl = useEZLEngine();
     const isInteracting = useRef(false);
-    const warmUpPrices = usePlacesStore.getState().warmUpPrices;
+    const warmUpPrices = useSearchStore.getState().warmUpPrices;
 
     // JS-side helper to safely manage interaction state
     const setInteracting = (active: boolean) => {
@@ -91,7 +91,7 @@ const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onCh
 
     // 1. ATOMIC SYNC: Subscribe to store WITHOUT re-rendering this component
     useEffect(() => {
-        const unsubscribe = usePlacesStore.subscribe((state) => {
+        const unsubscribe = useSearchStore.subscribe((state: any) => {
             const val = state[storeKey];
             // Only update if we are NOT interacting and not in the "cooldown" period
             if (val !== null && !isInteracting.current) {
@@ -233,14 +233,14 @@ const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onCh
 export const FloatingMapSliders = React.memo(() => {
     const insets = useSafeAreaInsets();
 
-    const selectedCategories = usePlacesStore(state => state.selectedCategories);
-    const hasPintLimit = usePlacesStore(state => state.pintLimit !== null);
-    const hasDishLimit = usePlacesStore(state => state.dishLimit !== null);
-    const hasCoffeeLimit = usePlacesStore(state => state.coffeeLimit !== null);
+    const selectedCategories = useSearchStore(state => state.selectedCategories);
+    const hasPintLimit = useSearchStore(state => state.pintLimit !== null);
+    const hasDishLimit = useSearchStore(state => state.dishLimit !== null);
+    const hasCoffeeLimit = useSearchStore(state => state.coffeeLimit !== null);
 
-    const setPintLimit = usePlacesStore.getState().setPintLimit;
-    const setDishLimit = usePlacesStore.getState().setDishLimit;
-    const setCoffeeLimit = usePlacesStore.getState().setCoffeeLimit;
+    const setPintLimit = useSearchStore.getState().setPintLimit;
+    const setDishLimit = useSearchStore.getState().setDishLimit;
+    const setCoffeeLimit = useSearchStore.getState().setCoffeeLimit;
 
     const activeSliders = useMemo(() => {
         // CHAMELEON LOGIC 🦎
@@ -258,7 +258,7 @@ export const FloatingMapSliders = React.memo(() => {
                 icon: 'restaurant' as any,
                 min: 10,
                 max: 45,
-                value: usePlacesStore.getState().dishLimit ?? 20,
+                value: useSearchStore.getState().dishLimit ?? 20,
                 onChange: setDishLimit,
                 color: '#c499ff', // Purple for Resto
                 storeKey: 'dishLimit'
@@ -273,7 +273,7 @@ export const FloatingMapSliders = React.memo(() => {
                 icon: 'beer' as any,
                 min: 3,
                 max: 12,
-                value: usePlacesStore.getState().pintLimit ?? 7,
+                value: useSearchStore.getState().pintLimit ?? 7,
                 onChange: setPintLimit,
                 color: '#ffab60', // Orange for Beer
                 storeKey: 'pintLimit'
@@ -288,7 +288,7 @@ export const FloatingMapSliders = React.memo(() => {
                 icon: 'cafe' as any,
                 min: 1,
                 max: 7,
-                value: usePlacesStore.getState().coffeeLimit ?? 3.5,
+                value: useSearchStore.getState().coffeeLimit ?? 3.5,
                 onChange: setCoffeeLimit,
                 color: '#8ccaf7', // Blue for Coffee
                 storeKey: 'coffeeLimit'

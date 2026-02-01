@@ -43,8 +43,6 @@ interface MomentsSwipeViewerProps {
     origin?: { x: number, y: number, width: number, height: number } | null;
 }
 
-const SERIF_FONT = Platform.select({ ios: 'Georgia', android: 'serif' });
-
 
 const AnimatedExpoImage = Animated.createAnimatedComponent(Image);
 
@@ -358,7 +356,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontWeight: '700',
         fontSize: 15,
-        fontFamily: SERIF_FONT,
+        fontFamily: 'PlayfairDisplay-Bold',
         textShadowColor: 'rgba(0,0,0,0.5)',
         textShadowOffset: { width: 0, height: 1 },
         textShadowRadius: 4,

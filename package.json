@@ -9,9 +9,6 @@
     "web": "expo start --web",
     "test": "jest"
   },
-  "jest": {
-    "preset": "jest-expo"
-  },
   "dependencies": {
     "@gorhom/bottom-sheet": "^5.2.8",
     "@hookform/resolvers": "^5.2.2",
@@ -41,7 +38,8 @@
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",
     "expo-video-thumbnails": "~10.0.8",
-    "fuse.js": "^7.1.0",
+    "expo-sqlite": "~16.0.10",
+    "flexsearch": "0.7.31",
     "react": "19.1.0",
     "react-hook-form": "^7.69.0",
     "react-native": "0.81.5",

@@ -1,0 +1,142 @@
+{
+  "id": "poi-142",
+  "name": "Café de la Nouvelle Mairie",
+  "slug": "cafe-nouvelle-mairie",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8469,
+      "lng": 2.3479
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJqQ9WEuhx5kcRxpB477tYsKs"
+  },
+  "category": "café",
+  "subcategory": "cafe-terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 556,
+    "moment_count": 30,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Vins nature au verre",
+    "smart_tip": "La terrasse en hiver sous les chauffages avec un verre de vin rouge est un pur moment de confort parisien.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1PWloJmpAufbVHD1PC5nAJxc6ikp19PDUAnKP-A3u48ozNEky3KdorLe4U2bWjzHU1KrFD4bpvQKpzVF0zzCfvcwdCIQTaDUXvKKYxNxEmX7KkJF31mzZXdOJItHzEjtgUnLXx7lkSxaLgm7rDp2Pxyq8khVBzjKE4Fx5fPZfNqWvC5GyjvtnlvQsZYrgyOfRZaOMtaTsTLjV4eAMTK9dRgQFRIyKoPjk_S3zlxYF2XG-wXzSO4fvTjRcy3_hD05RQ-6jFyyE2cZYbixIhV9fvPNoAIjApb6iMlI8lgABqkw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@cafenouvellemairie",
+    "google_photos": [
+      "AcnlKN1PWloJmpAufbVHD1PC5nAJxc6ikp19PDUAnKP-A3u48ozNEky3KdorLe4U2bWjzHU1KrFD4bpvQKpzVF0zzCfvcwdCIQTaDUXvKKYxNxEmX7KkJF31mzZXdOJItHzEjtgUnLXx7lkSxaLgm7rDp2Pxyq8khVBzjKE4Fx5fPZfNqWvC5GyjvtnlvQsZYrgyOfRZaOMtaTsTLjV4eAMTK9dRgQFRIyKoPjk_S3zlxYF2XG-wXzSO4fvTjRcy3_hD05RQ-6jFyyE2cZYbixIhV9fvPNoAIjApb6iMlI8lgABqkw",
+      "AcnlKN3OMTb87Qse9BKVyYqDOVWfnbDdZbrExqhc9OBSf0Axpwmi-1xt2eJkO8Y9YFRrcbs0b8JZrG9YC_0rewsiytWKrgrmBMNKTl-f3sZFJDHGXT-ozhomYrbN_EC63ghmim6Aq8MQRJlD6mpOCrceM5c7iZkDCvLzu-8aG1V9K3nwB-miPPk7ZXNAQSgqBSspjzb0D3JCdwM7TT973dTHCAYP3OqhQRL5MAgNT4WB6OMJ8h5SyTalIesDdatX8l5aUDxNclTQ2SUKLepzaPT2foBfI6lbu2-VmzNkXm1eFJalVQ",
+      "AcnlKN2np4dex2YF4ZAyykF-E5nYKHeZPBfx6bySJkTbHqWaqu2kN9y6jFtuTkcmBN_Rne-GBRX69baoFffKcukeg-zvpqC9gOTTtCdvGU0wgsNVXqf-qS87LzMKC6YK0ylFT1SEmawRPxxhNWM2qktFETBeqEAdQwBB38cvHxIh1u-_IaHZV2NjjbYOMYnR6tjKNZmcnLhRE27ec4LRD-DX6vpfzAw_IFbMS44zein6e924x0YhAhB8w6i7Vj_8bMjqnG93wuQdpBMkgn3bWv073od-ShzmLbmCASYgHRbFTyIjw5siwGkL4ISM3p5J7elkXAZ0iLG8HCUBfonuHUCkbnKguq195g-O7hHGdSBRBokBFURmPTU_fw1Wh1Y99GcilysmmUESqwNugN1n0a2kuaPoJYSdAaAKDRsds72Srekl8HQ",
+      "AcnlKN3vACLopOvlsqhjrignr7LITde7xQAk2_ywcjRKu_zfNxxT9wz0iSiPieSsJdEb7u-e9BtdS4mbd0zeO9w5GHqa-Gc4q7oor3ma9SmTUOSR77q2NN-aNwBKfe-CIRUkZl70mur_1pDcfk3Q2h20UxfC4oOgxvLrmv5fD-xM6yC9EbpCCLf5UCAZ8WgytYVOmHv1mg0TcKeeKm5lsrdT11S9vFf9mpKi72KPeQDne1tn3d_DRzifqCtziy5kVaci_8uO-umCJ81a5swV5nyFEMZN1dAPMWS8eQMrDiCU2_qWt0OmCEMMcsfv5IbtNGb0JeDl3Tlq2GEhq2GlWS_SIdxY2IDe6aBKScVrqesBICZ9evx6LwH1b2ayG9TXpPuYrUWaPrdm63nEpEroNwFogYjI8xHZpgTRZ4e8LGQ7Pu6KQFqPxdaFky5EhmdoLfIy",
+      "AcnlKN3xcGBX1MMpkSiel-4Gt3QZ-DLab4fCpchWNVm6tEy5KrOmvDxdxAUYcCirDtOWr7kyPAiTh-N79TA7on6Cjzy1cwl967jKx_8qtaiaPeKN6HYGF3fpnawcNShfIRPdHegT4Z-773Quq-HKzgzhiFP3RGiYBx3JcQVGNdxFzIHllb94zNAAvw8lCnpcZ_aJ96o9B_MxWKZ4jJb-laNyeZmnyNyaQ-0ZqJvNydMs0o2GatjldGUPegJ6xdBq_yX5l0X-gZkDJ8v1f8K5tIorPqAX4D_cJ_Ld31JcISzjFk6uloZsPWIAqY8EEW0BG8DSXlKJeakkCsTY-zm093FzJzqhSAv58N2cacTM2ZMCtVv-KKHf3jELZyJfrMgY0LMRsdcAFUmoFbY198YmAidtpRw3mvTNEeSseO5JNsi_z-k"
+    ]
+  },
+  "description": "La quintessence du bistrot de quartier parisien, celui dont on rêve quand on pense à la Rive Gauche. Face à une charmante petite place, sa terrasse est le spot idéal pour observer la vie du 5ème arrondissement. La sélection de vins nature est exceptionnelle, l'accueil est fraternel et les petites assiettes de saison sont d'une justesse absolue. C'est un lieu où l'on vient pour un café matinal et où l'on finit par dîner, capturé par sa douceur de vivre.",
+  "real_talk": {
+    "text": "La terrasse cachée des vrais parisiens du 5ème. Vins nature et tranquillité.",
+    "must_eat": "Plat du jour maison",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écrivains du dimanche, amateurs de vins libres et locaux du 5è discutant avec passion.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16,
+    "coffee_price": 3,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "CANTINE",
+        "items": [
+          {
+            "name": "Œuf mayonnaise",
+            "price": "6€"
+          },
+          {
+            "name": "Plat du jour",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Verre de vin nature (Sél.)",
+            "price": "6,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 3.7,
+  "google_ratings_count": 553,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

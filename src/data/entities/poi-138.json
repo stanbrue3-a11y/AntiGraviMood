@@ -1,0 +1,167 @@
+{
+  "id": "poi-138",
+  "name": "La Recyclerie",
+  "slug": "la-recyclerie",
+  "location": {
+    "address": "83 Bd Ornano",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.8976283,
+      "lng": 2.3441749
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ04VKlPVu5kcRJJV7esEZzgM"
+  },
+  "category": "restaurant",
+  "subcategory": "cantine-éco",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 5,
+        "natural_light": 7,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {
+        "crowd_energy": 7,
+        "late_hours": 6,
+        "event_programming": 7
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 5
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18€ environ",
+      "display": "Tlj: 11:00 AM – 10:00 PM",
+      "detailed": "lundi: 11:00 AM– 10:00 PM\nmardi: 11:00 AM– 12:00 AM\nmercredi: 11:00 AM– 12:00 AM\njeudi: 11:00 AM– 12:00 AM\nvendredi: 11:00 AM– 2:00 AM\nsamedi: 11:00 AM– 2:00 AM\ndimanche: 11:00 AM– 10:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Ferme urbaine sur les rails, ateliers recyclage",
+    "ambiance_vibe": "Ancienne gare de la Petite Ceinture, jardin potager",
+    "smart_tip": "Explorez la ferme urbaine et les rails de la Petite Ceinture avant de manger. 50% du menu est veggie.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.larecyclerie.com/",
+    "bouche_metro": "Porte de Clignancourt",
+    "cuisine_type": "Eco-Cantine Saisonnière"
+  },
+  "real_talk": {
+    "text": "Une ancienne gare de la Petite Ceinture devenue ferme urbaine. On y mange les œufs des poules d'à côté au bord des rails.",
+    "must_eat": "Brunch éco-responsable, cuisine anti-gaspi",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Nichée dans une ancienne gare de la Petite Ceinture, la Recyclerie est un manifeste pour l'écologie urbaine. Entre sa ferme en pleine ville, son atelier de réparation et sa cantine bio, le lieu invite à repenser notre mode de consommation. La terrasse qui longe les rails est un spot unique à Paris, où l'on boit un café entouré de poules et de potagers aromatiques dans une atmosphère bucolique et militante.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2SJIWhcDxK-EF1tbwt5m6ScIUv3DPCQkveaear2KT9Plp_vrx_aVRkM2VBeuE1dbqA4gNps2FRFe96xpbsVW94BL81-Zgoh36XKe7p7sPkobUraKJClIGHNe5IHdaLiQHrO7vyEo5imWxnTY07N9WIO9W5TsYISwvY3pgFVmRutEqhqG0jUVJfKDj0wsxZKmfP1Lwo7zpafarjun-5L-T9V8H4GMNFKRzFBq8OXyC1WJerUb-wCDjwNBd2kMKSFnuYsdjmT1fdrpYDLTydl002D4oQoTkOTjg-zjRVXpUO5A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@larecyclerie",
+    "google_photos": [
+      "AcnlKN2SJIWhcDxK-EF1tbwt5m6ScIUv3DPCQkveaear2KT9Plp_vrx_aVRkM2VBeuE1dbqA4gNps2FRFe96xpbsVW94BL81-Zgoh36XKe7p7sPkobUraKJClIGHNe5IHdaLiQHrO7vyEo5imWxnTY07N9WIO9W5TsYISwvY3pgFVmRutEqhqG0jUVJfKDj0wsxZKmfP1Lwo7zpafarjun-5L-T9V8H4GMNFKRzFBq8OXyC1WJerUb-wCDjwNBd2kMKSFnuYsdjmT1fdrpYDLTydl002D4oQoTkOTjg-zjRVXpUO5A",
+      "AcnlKN2T2v1gWTzPUpwGfvvHTdVXlL1E5PYyeN7POgnRP5l-jTRq5sNsAvaiM584XLrKsiwsnkWX7kW16AmhiLP3BrTbL3yO3sfSi8M0Z7dnZYLHm3QsoQKSiIpqbyuf4tH6ga-ORmOMsx8RJZ2DOwkp-wKpR2yFlZXebB9GSjVMguWJFRmkVKisN0gnTHK0c_oyI79eLuqqI9Gv5QQStTW5QU2rfM5DOOyWkAyrHBX0siYIHUtlMoFA8Hjp-7ye5F8ovZnG16HrNjRoG3iMfKfWRSaCxTMeh_wLiBOJy9kRShAOZQLTs9eQM7JsTguIHN3FHUcP9iMi14IT7iYNbMbQNiSVJ5zdGlQcrb4hCSlYacxMsN2l1LrG-zVP24HTJ8Ay4nj-IsoY35jkfOTUuuFx_jyeRSbQut5FMYk64hx7c5GhtOw7MPKqergWVAOhIYty",
+      "AcnlKN1lQXIyvss3tEX76mrDRkCzKWxVQg83bGykFA3PGdfl4zaFrVlXoh1JtmWPjIrG5Quw2S77cCmP5j-RUuC5qAYIErH0pS783Yir4beWXtbT4IQCMSM5TsRMycSf4LBfMjP0fcPnvyxqEpcYvyR846XTyymTeJrNFCepMRg-MoBenyhe2p6VAxpStrt6aJ7rHqiJo2sVJLgMJWdWZSjN6kXSsOb9Y-itY80GSFT0sPtkEWOqLpuvhhlzT6X4NuNQbQaf7UJaYOePLaP9BFDRyRjOPHD0_EE8Kbg_1DcwMvZRhA",
+      "AcnlKN1PRBW7ra2HEQjMn4g0TCm0F_Kbpf5Bc90Dzd5zogtEpUYMa-4k80EX1AAQGUrwg2fHykX6C6iqybkTqSsHjJIBhXkExLh3VEG2p9Zs1VypZxrts3V-g9pERiMVl8s1UnqTaH0wQaMzEqlrYgXvymP5uuilYBSjltAdp9rhFapNjvIER9OaMNMX1J08KqxRq9gTqtVipeWNeajdVGAg2RbN1lmC-MRnZA64aLqOorR1d68b_51WhMAExJbdxgqTbayErnhNA61kPjbTr6ONynv1WosWBebJTjKsAXkkbFdnMgbXjowKFp0FrV0nOuvfxiDFzIMJQv0r5iSkeBUv1czZT4ooTuzzYB8_3B4LLl3lT2LazLoy62pJ_WgNmg9yvEGo4A1Pg4NHHl_G0jqB4ZMgl3CNKtLlWyutwwhGxUhxz2wJMO11MaHBExnPgoxW",
+      "AcnlKN3n18JHbR6OZKFC9dfC1B2ClfSQHYOUbDAvwQFIV1S2MWAogCpz8F0GctpyevFvKVp2U3MnIvYWNoFWe_HZbRiDEFYD7x8lRvjdL5xnJ72qyOEzSNT-AFQEra08MaiWiTUFJYlmq6MoN-XQlsQcZ5roXczFgkC75zY5A-IKrs18wnSRd9CrVB1J_ipNynyXvhGqPyaUjNjVrCYWc2WTTsdvn_MEyeCxjkpQj1vgyb5TIVjEwCMGOj7pelgEfI-WG8HwcfAyuseWz7Qj7Ik9XAPAQxvCXqWUusp-EzQLoaZufXnZAtnMxeBpcm0x-g6WsZy3fmlkpMvienQACtvgwLAWzVos_3yPitjL7fMb-bT8eZTUPhIAhKGJUnxIXfDQuPv7GIbu452MHpncvhDhfQBUP5OAp-nQwSSA6cmzy45k6ZvZJzltmw3kr_PYUw",
+      "AcnlKN03JQZTt4gwt-nyYnGNNAZ_-vacyNduMxvEIrEAe-dLKC5KBX-_nV64igrcKaFTjvJzWRoXLR8LPu2SBJfjFcAbjLHJAiBovp3nv_AHjg17bfes7UY9fTFUGQlPuv4DyhdXyYvAaApnCKaEimwPmDklB9zrWZ_Y8x0Fr9m4uDGEtFBmO8EEbmSHC43PJIn9icxdDK79758m4r_GSMyV7f0Hs-DkzkT4oMg2Zqlp5yAzBWfkr7_ylmvEhS5AhEtGcqUAlNosi8mO3KZVnF-7UOfXqdzCk1Anj1b1NVGtH-IFlG-eZROW7rDTxLamnz8646IaZykOJ1YosQKzJ_xXGorVWGXbIgcn0koadXnxqNjdrS4WPFmYDfuYyOSI5HE-TFAxr23fUlRC9leO6kJPCXoLTFkJK3e-ja0vXt5N49U0rCer9TWzki4I3kufLIuh",
+      "AcnlKN3aLkyskIF90V6csTYy8RxaV1E8hnqQxdIZh7dQbujTL7PjQk59Uh7sEela7SNsJfLv0WBVdMm4JbhjLPVFZ--Uwatz44myT0ktuLEEXY1bNcvORvcwS87tzqshAugJ-VjBROE3ifxIJufwF5uxe7SBjegcccFehtgbroULd3IrnLV1O7Rk_N4x_vLTiLzrEzObwUuCys6PpBcKzG1XRxDPJxnsagpTbttmEXd3AcE4JapvtILS_5hUNERtzFuYdKlao2uCpSGJxhKcGqgKT9nfbT3cyqFdrbI98w5Alls_8OovJGT-U-awbfeuxMqMlDcw8Z_pXy5zmngBoka7mlS3W9QhRaAgKZgV4WcA4ZWCtBiv2w1fkDjrLaoW0ykSiZRufEopjmEGd1Bv0pjYm-flud0V0bsZLq__7XuTzbIy5PHmvbWmlQrOcXBuzw",
+      "AcnlKN1WIQCncDZbjWamcJsTmF-_imkwHq3b6NyRiLMjNLEJIBttIUrq1L_beUkA-P-vR1xJN0xiJSSiydjItx9kX1BpqylBvkAs1aPNuazoChPRgBxQZWOHj_OC0yD017QQUR6AYFXvUY78K9q9iNcnnQYtzz1mIB-GEFXq9qNIQ8tIxt98aaaAPAHrmkWyxe2nMJ30IVNiePg1zuYaAh1z9S77wXslWN_RHc4PBp1Gyf6fFBhbF71XVHR5yxSMLjuvlHCnaMtWRgG3WJh8f1U9-VId7a394JzR4-5u9LHxlvT-UHnIeUGM4ZWx_MUeJBEAtLMZvpj4zLHQj0f6Om7QiMX_OxUqGk3o7XDnZwVtlKxXxyfxOUntPHSDXG43d3-Azlg3LHqsRthVNlEgpLI-HiA9kv_lY6Hf3eEfWXeBsvE_ionC9cnX6RRQO1RQPU7C",
+      "AcnlKN1Tez0O0Jlt7tFFH14uenjOm8jhWJStP09ttrCo8XLaSyjzLcnb6JJ-SpSwVFDnb6S6-CkxWHKyeuvz7PFoEMnwt9Dm7-p6qZtVkGNpLsHs-K-qKXUJHXC0Fxp8yi141qGYksUABOCz-c27ivm0JdCSajWlgZN29rgrF5Poh1uxHu0HoxbakuKn1Pgzd6iR6tQF_BR1KQvzWA85WUpPKFIOjQKVLQchmjXCwzWMEl6GBkdy6WGAFGgeXLDLPuAMYw-MBaKZklzt2vi9iCunIrmfUXO5ViDRAY759HpooXoW6zp-Is-TD96YuBKzlTSKt8fiUrBtovWC8isHqKU1RQanny1sd_LaEe3qg927UnkLOSQjltpx6ur5jdE-s2g5vaKX0gukMaBRWWAE9PGxePUryFIllM6adzTQXHOh11MFf3MuEdwAMcVXgr0rtZKi",
+      "AcnlKN2icleGMbKTAbcIXdpaonkloBYPx-LsRiI3_2e4r9royUrgjY3eL7ZHYghxCzJkLvJ6uN5beC4xmtw-1SMhFvSt46W1fDTYILETLftxhRaHsnAgHSLfWRUtxlh1ChR8SJ1wCSeU_k9VXByvmcSUiEoTy7whDuO8o78qYgPXYBFGlYqgtaXs_6FVJuBLntydsPCzVsGI6G367SorZGxfIs1Mb6OHUkM5WyDw9GbRcOhfE7yuNmyLVPYvmbkbH7n2Id5sEEbyA0bB_AglVaHjAO7Kwi3iKuPxvBZtMgPIZu0n2SBmEtCjYb7sw5drTBtL2URvxuZfKwJGAg5U1VWXDFgMZ8EV-Yau1VH0Rq-1MSkvdJR4ADczbV3kRWwkPWTIjuzX8u3_LYEBJLemd0SYjiBvfHOz9nXTS_XTKuxTAtfT4zg"
+    ]
+  },
+  "social_preview": {
+    "like_count": 800,
+    "top_vibe_tags": [
+      "Nature"
+    ],
+    "moment_count": 46
+  },
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "18€ environ",
+    "display": "Tlj: 11:00 AM – 10:00 PM",
+    "detailed": "lundi: 11:00 AM– 10:00 PM\nmardi: 11:00 AM– 12:00 AM\nmercredi: 11:00 AM– 12:00 AM\njeudi: 11:00 AM– 12:00 AM\nvendredi: 11:00 AM– 2:00 AM\nsamedi: 11:00 AM– 2:00 AM\ndimanche: 11:00 AM– 10:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écolos convaincus, familles du 18ème, jeunes engagés et curieux de nature urbaine.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 25.8,
+    "value_score": 79,
+    "category_percentile": 21,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(18.8€) + avgDrink(7.0€)",
+    "main_dish_price": 24,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MIDI",
+        "items": [
+          {
+            "name": "Formule Cantine (Plat+Dessert)",
+            "price": "17€"
+          }
+        ]
+      },
+      {
+        "category": "BRUNCH",
+        "items": [
+          {
+            "name": "Brunch Complet (Week-end)",
+            "price": "27.5€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 6283,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

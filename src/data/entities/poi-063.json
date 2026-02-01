@@ -1,0 +1,153 @@
+{
+  "id": "poi-063",
+  "name": "Musée de l'Orangerie",
+  "slug": "muse-de-lorangerie",
+  "location": {
+    "address": "Jardin des Tuileries",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8637884,
+      "lng": 2.3226724
+    },
+    "google_id": "ChIJo6qq6i5u5kcRCpYBp4rQP9w",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 290,
+    "moment_count": 40,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 44 50 43 00",
+    "google_maps_url": "https://maps.google.com/?cid=15870632905802880522",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 09h00 – 18h00",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Immersion": "Les Nymphéas de Monet : 2 salles ovales, 360° de peinture",
+    "Zen": "Conçu par Monet pour être un 'havre de paix' (Parlez bas)",
+    "La Verrière": "Lumière du jour zénithale (Les couleurs changent avec la météo)",
+    "Location": "Au bout des Tuileries (Vue sur la Concorde)",
+    "Sous-sol": "Ne ratez pas la collection Walter-Guillaume au sous-sol (Renoir, Cézanne)",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur tartelette citron est un équilibre parfait entre acidité et sucre.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.musee-orangerie.fr/fr"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHpB4KdyRW_e01O9lScHOXMGg2EtY7MyRF3qsL_sQeH9t5OINSyRSizvJZCdLFa6sgZF_lkqN3cKw-No1peO7U2czVvXjdrQbYAQVrn7JipnFUF0VqSkwWK6f6lCBPjtQ4C7SebluQSZS7t7UxHObncw_Hm2t-103S0_GwXGfs7KmsKIRwjIE5TQOsaaEgu-3a38ZMAxdBgHUIjBcnFBmFIacTj3mvztnqbVxgrbgQgLybDlqjKbF-1ODyZjIhbAXL86yiQGYjXQlThSJXF_t1VclKbsfzt7ujm8gK0e31ObHWfF4OI4LtqCh8p0A8MiA_7CZcHaQDGfqZoYxYqyjr4fWuDk2RzrGnu5owM0k9OReIL6OiLK55_AiXS8covhai0m7kUx8Dvv3M_U3FCOpn6FVvq12KxbNA1241UXveiCCuJB",
+      "AZLasHqAUBhV3tMTi9oREIIx1vgGdtFAtoI0Bqhqgr5Q3yrNML_2AlhgGwOfENk4K2jRJjVqHCQojT1hwDV5gMQFKKjms594cEdc1__Zi_DqZRTaOa2QAZDxCP0eAJYk4WvflkGVE6C7VV5sfsrgB3atfTT9K1lmCnKf5nULwaRx9IgQH_oASee5KBlHNdvvuieVHSaxikhLLxa1-VfUMdiTJT2RazREUrYfNy9KjyVSijpAv201rTKnDpm51KvuHi8jRALqdxKD0qPjL99UH4LXyi1x6FNXj2ShL4n3rDHkGYzLCGEF8tI9RwibKcGuzPZnKhfv5p8PoES3kY8mn9ZJGXhhV_V3aivrFoFlrIg0Se1fnzbwC279fefJP0_OlasffFvpx40_Jnm-00WhtcH3or0yaZ53E82JK0cwaGKEW2qjY6Pp",
+      "AZLasHqZ3qxGqnXTsbcLSbM57akqHirh87c_NkHoOtPi2nc4KjVH6lGvgO-wBzgaFu3NpNTHYEBC7UbVEdES6M5v0oHGwf9TWFw0yI-0PM7gcrvfPpPLAA-upUAtxM2H6eUxdBN8-UOAz0Ie0j4oMelewvpluxt-AkNgeLP7TBr_sKbveZaECaDupC7W8GFjxqjxm6nFw8RWB882McsAL2RQNawxap9sXT8XKT7XlHZwckwIoihsTeF4YCaDutWHJJJIl7CtjJHApgyjaX3XggeLIHLe3LF26pk2-zw7w-nqAAw7dZwL1D2S5fMN4eMwlE6d0Jb5FFlwX4iyeCmzJJfX2wpeiQBLG0qDxHKMci6y7OuKBepQLS7Kug_PXXk6dnq44PdLQ2AzIKcyO8iPTREx43XQWMRsWdC6okMY3jdG-1YLkUm5",
+      "AZLasHrmvaZXxOuajY9_XSPDL9xQFXAXveyxjKBo-3OattwToyOKGJniSro4cQ9HglmBaV3OvJ4nRN_WxOX9ncDAHwOy1XFqbRe0iZdUhVNly-Fb1Bj0tPUrXYNtFePSa8glHdvCadjivmt83CCRd5yOiNjdMxTBZl-Nh6VdRSCWBm-LX2cz8q6f1e-1cYwnh_dLxBMdgaWdFPZxlg2tGElJWRgqp59iOr3mNawRDYk9A6j0UN8ZUiHQ7tHHKlY2AOIK99o8Ltvdgx53uvuFb_hjMCXVN-sX2CXAepiZ-WxF6tNH2H85MAzRdDYIVgImqaabVq_cCDOxgSzluumtsLzSP4tNGJ1Rz4eeOYSXalt6V60W6FeABpklZIB1WbBoVyEq7Jfbqm0EW7Y2NT7GWZrqYnpmQGyKZ3Zc4AbfT1HJH4YmEw4",
+      "AZLasHo-JuHiHzFln0LFBWRGemSI1i_jvwv60JW-u3_tOgXpbqk8rSBHcmH3qUHGVcD3f7r4_z8uNNvls4rHJX50r8iLzop-Fg_OJvB6Ekz1wIHS0cBasQvRwOLlmjfZCulAowSuh19oipmpZFaRLRhr1efmA4xXaXBio0nO8LP3RzJX8BkbonvilXx0vc0xYa7ku31YsIWIcP5zid8qMPWdL68zxOnIMolB2LZ-FmFEsevkwOlrqnOjSw8MxD2ZCOUwTNX3MM-CrFfOudF-XJEycXs_Saju4IsvRYRCaoIVzzcCTanPw10OvRYJ89bDXUoYJKY47eKzqzRmRwUQtYLj1wQqIJp7n7T0YgFm08wOHMXwVmjPh21jtaZqjjeeGQ7ZSL8IL6Clk1vhqhx9urbaNXbH4WF4Fh8Hf1vnrLyzkhQB1g",
+      "AZLasHpKQ3rhsclooHwllU_hyj2V9bLgvE6KF4h5_2kTTNrmYwInK9tHMgCS7U3tKpGS8XVR5rN08m1TdMvlH8GdHw9xG1918gobTsGmoFKSZWmCx8xNHlbgVwjLtXqQGenxJn3cZGYWeBklzkenpg9XWQ21V-Q5YTfWkiDv5yTdXOaArB2pJJsm_97t519l9MWOuuWgs1LXFoO3fvhc1a3gLZ4sTz5LyoVQxfduwvGuO5T6p1pT-CBJR1FsYdVLG1ktYkL7i89llleTvWrDHIo5ftAHTm46m6VgP5JD1vPON3gbHIZQHcQL4j8_KrtMuQ16S3ewhoLrQpeb31h19QQ1DajtbwZyYtdmQKgwDdNIWt_HxBrytbny7IHp56VQCkiLwfRMhLrZx5U1mDvFWpxV6lbvaVZz7LahSwiriVqhI6wYa_Gx",
+      "AZLasHoK16nF1NKu_3JOZXx1PsUEKUd4d480DAbbmN6bc02TzhahrFvnARE_1jcIDMnaex8jNZRYMEndnH8HieQPMWzJyAgD4AOhqDyVNgTYSQz6AvzZXjTNRLyaF4RjBVsjirK19oCJSgOOV_VJC6nz-PEBMa1CySgKf80oEGNUmydvFV4bVF_7VQHhIC7YWpA9nmu6N1JZvTJQJD3_iIFpYXOgAe6EtrNKgL7ot2k68hwU4pj_6Q-Q1209KhPLLUejmuwEmsBsvz6p_9n1yiqtyZi5Vdg9Zb1bLezAfLZiUGBCKpr6eDtPgoYEJ7QnLp7z7no1B1oPCjENgDyQUps4yYg6FfJ2i_d3Hll7dAM5QGPukn8UeJCFudIh7KvpSZGvAnllbildSvaC9vCIL-ZNwNItoKEfJD01Iu7Mai0hCmQL7co",
+      "AZLasHo3eRx6ql0vxHTVHeATNTebjeDuGU_aqu-_fU1otbsUknUHc2xPLKUj-0q_G2r8EcvOPdZvHe1maPrC2vlh4496djGe5jPb-9Z4gAO_gARh9PF9l3p961kVz96qOmL9EUjBzydOVfgJXVGBkr6q2IUBKtfvpDx9SUb8iSiErelqgmrkWMVFhywbqc6TFhQjF7FKPGPiQEgLa61qZ-4bQK-vTDZV7gsHw35tpAl4tKwYYZAwaJ46KByZ1lgko9KosG9nFPgYpHpwJ4K64HRUKFp9OCyjXPfLmMMph2VJ3qHMgHVn9jeoRf6CkP4i6HbvC6HEhOlmP6rxWDueefAmPU3h-LDYefUpGWPDP5qtDb3c8aiPTY40begfDIPealTrr51R5EDB1u4dlkY3X-5alOd53fRe8t1Zs4yrkQEHWHs",
+      "AZLasHocN7Oip6FsAe8AqgXtqO_ADUBFibGEP99ccmQdKY-gTfu8NBiiJe1xCL1FeH0cnFdHR8u5twAxV1wSqkmragpz8NeRo_EcxS1UTaOkAeNRCB2oxck_Bb6HO9Q5OrfSyR1Vr7B_EjtGp2GYUz-l3rEANRXYGekSyqQf1PhJqVP7dpgBRUC5ESFe_F0n8Ih56gGbrJIwbIGkxeuK73VSoYhg4XtXz_cy68lHbiMPxZG5sncjAgm5l3pe2dJzf4Q94d70kBRTZFsOEPHZoK4DZRzS7MRc3vVumm0e9WeJqxGS92mHXLRBuDeIr2NFhORNmQjPbuwY92J4vJeybIxa3v843NavzcLHtFzZg8lT8OEorI9i-Ks0dHoqWYB98uL5HomP0MgBLJI1fbCF4nf4GIlSziNpz4TgTxlNabHsRHSUjA",
+      "AZLasHqMiuyUxsNbJRDBgs6_5LtR6dkwFCcpF_3LxxN_RA2Xq7KSD-PRDVZ_JH7NVlAfvWSaBdi2Ek45Wn62x42Q9tWJ7kaYz0IiJUeraGOcBOQe0RrBJtS7sfWoKBfglHvkUXC7lSRJCn-dgncLQ3CHXwnE3v9QOKBq5jzTUH7zEKs9ZVjEoHaJwwJ9-nla-KHlKg0vcIB-_TiZZu68-Y9uqFMV8w1o5I9shnWAlXXPFhSFoCDgq4BNEXlF6TgSKJY50wvJgNd0GzVYBcyliEUtZ-3QN4oQC__tvz6qbYEyu9R40eC-87bBQn61VnB7aUjtBcTBdXieGuNnOrfRlt1uLzujy9yn3PUicvVCUECIJ9bgGHWbV4XgHp0fDGzcCPs8oPWVRJolng8cFQrMXwjyBxmsRd31Fja1nAzuQ4E6WSUeaQ"
+    ]
+  },
+  "opening_hours": {
+    "standard": "09h00 – 18h00",
+    "display": "Tlj: 9h00 – 18h00",
+    "detailed": "lundi: 9:00 – 18h00\nmardi: Fermé\nmercredi: 9:00 – 18h00\njeudi: 9:00 – 18h00\nvendredi: 9:00 – 18h00\nsamedi: 9:00 – 18h00\ndimanche: 9:00 – 18h00",
+    "is_open_now": false
+  },
+  "description": "Situé au bout du jardin des Tuileries, ce musée est l'écrin sur-mesure d'un chef-d'œuvre absolu : les Nymphéas de Monet. Les deux salles ovales, baignées de lumière naturelle zénithale, ont été conçues par le peintre lui-même pour immerger le spectateur dans ses paysages d'eau. C'est une expérience méditative unique au monde. Le musée abrite aussi la collection Walter-Guillaume (Renoir, Cézanne, Matisse, Picasso...), une concentration de chefs-d'œuvre impressionnistes et modernes dans un format à taille humaine.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Admirateurs de Monet, touristes silencieux et rêveurs."
+    }
+  },
+  "real_talk": {
+    "text": "L'écrin des Nymphéas de Monet. Petit mais parfait, lumière naturelle exceptionnelle.",
+    "le_secret": "Les Nymphéas de Monet sont le clou du spectacle.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15.5,
+    "value_score": 19,
+    "category_percentile": 81,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 15.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 22685,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

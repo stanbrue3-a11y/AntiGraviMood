@@ -7,4 +7,4 @@ export { FilterActionSheet } from './common/FilterActionSheet';
 export { ImageCarousel } from './common/ImageCarousel';
 
 // Place
-export { PlaceDetailSheet } from './place/PlaceSheetRouter';
+export { PlaceDetailSheet } from './place/PlaceDetailSheet';

@@ -82,7 +82,8 @@ const IGNORED_KEYS = new Set([
     'Horaires', 'opening_hours', 'address', 'id', 'name', 'slug', 'category',
     'subcategory', 'location', 'mood_scores', 'vibes', 'ui_theme', 'social_preview',
     'discovery_radius_meters', 'min_stay_time_minutes', 'media', 'metadata', 'description',
-    'ai_insights'
+    'ai_insights', 'le_secret', 'secret', 'le_son', 'musique', 'son',
+    'la_faune', 'clientèle', 'crowd', 'le_must', 'must_try', 'must_eat', 'plat_culte'
 ]);
 
 // Helper to get config case-insensitively
@@ -192,8 +193,7 @@ const styles = StyleSheet.create({
     content: {
         fontSize: 15,
         lineHeight: 24,
-        fontFamily: 'Georgia', // Serif as requested
-        fontStyle: 'italic',
+        fontFamily: 'PlayfairDisplay-Italic', // Consistent premium serif
         fontWeight: '400',
     }
 });

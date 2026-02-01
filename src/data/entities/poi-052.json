@@ -1,0 +1,150 @@
+{
+  "id": "poi-052",
+  "name": "La Mano",
+  "slug": "la-mano",
+  "location": {
+    "address": "10 Rue Papillon",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8762485,
+      "lng": 2.3474099
+    },
+    "google_id": "ChIJq6rGShVu5kcR-lvtjWp4gW4",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "club",
+  "subcategory": "lieux-insolites",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 465,
+    "moment_count": 48,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "google_maps_url": "https://maps.google.com/?cid=7962778015210757114",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Le Tip": "Ambiance latino-disco moite. On y danse beaucoup.",
+    "L'Ambiance": "trendy, paris, festif",
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Testez leur cocktail à base de soju, c est original et bien balancé.",
+    "entry_fee": "15€",
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHoIedctRxzrj6b-WNGICxe8IQAdshwsQB6lDXFV7rKfAXjcTFQl7y_WAsZlN_Kgz2ZwDsRR89EHAQGzP16Nz8j4liBK9WK-GHjLhJ-57Y4YqQ8rShkdOAYtMOWrL8vRu_ecEhBdEq1v2CT7tulaKMJxoqnNxPDGeYrhnfqINVJFN1GvdCCfiqq-CMB84gnTHpjxCML3MS1VhPr21gOFakQE0sv6ckOd4Ejiok_WPcQDcjadyv6sAHTKmx1Sc-KODKlv9uk5fh3pWw0p3yPHP7BFBF1PRpH8TTxFZJiaJOvi7YWMfEfRFh5qtZ0OUtvKALFGHEFOEmZUOmyTBp3t2fD8mCXDmVtUXaftiN_lEPZmkKNqIJGZ_8UTCt5-BrNoiR1Tpw0HzHu70AfpcPnLk2fSHzA_mPsE7VV0M92lEaACRQ",
+      "AZLasHpWVBF_CCbycVT3qp6NExq_f3aQWuRJL1qFPkbFqhwSgjxEb-rKSgM9hlddwYV8ituPegDgTAu4C84RuwxB6SyrCcgLztD9Jmci8-wPlQrl2tESLjSbDvMffOM26ETydJnwlrxo9wZxM8zQ3dGb0zhBPnj2ACn1Q3lzAQJ3uEjwL6bVI9lO-1JPC3yaNqFKc22EgNmVjTkDwOozauR4B2_AsjOIwvV2kIcaHMwO0YWeqPLzPoW8esPi_AwXuvVLTxSCNEbv9NDYlT2Wmelnr2LlKIJnZSpNNsH9m2hxeG6l6GkUXP8xObnToyD1UQFYYv2W9OFqNmimzAawDHthiTltPNRi0ZpGQtdLIJboIoOJwVEecc9cNnJ5dhrnwPB86-ipSLjy6Z14S-X1qP-FUj-pkS5RMt6GzhTW4tqOIP5pNVIH",
+      "AZLasHqtIW7ph0axtdBU9K1GSCOSC9N9NewzssJeDVmPIqXPi4LkspYOkWjgmu6Lugsm_yHyI2695Tx-wRVw2PwDyDeKdDbWf5n-xCSJ5IFsLm-_67hEgOGeFLJ0dArH2INVi9aJ84zFVKqEkNXh3_BOlRl77Aej5NsKANXS8YT_Pk6FA2lpRRbcueGTa1RfdDDko_lKdLU7pi46wrPJPycVLduJNJP8S-xfUAza5M4ZGoa55EPk5VxOaP15JnmSEhRRo7q7yyy9TdK_1Q8VIpgngqKdJv2f5ZQD8UaJWebQvjb9mQ",
+      "AZLasHqZbqy8J7T60zUiTfVQvzg1jN3efJeujUA69YvOE8lrtF2blHNgYVN5Nn-lXu52_2k_iTT8Mr18baP9SMy2zl0YNH0skvEjdsG0fX2UQ_aXfvwfbWtf3eYSpbE6xlFV2D0FL9vLNxw-Wl-Nv41Sfr8w7m_YT9gN6Ot3a_hWAIwBlpbI906Zj2HuIA7qMqYrWxc_tZ4OF4wsHlmS-Qen7eRY6pwPE76EFrhK5_8UcrD0zRd7T2b9hfZkiGasbvnaCCreD3aSx53IMAOL7qupqy1MVZguqobOOiaURf59KILiL4bqTYBf5UiGOR6H2uD0DRSF60UoV7ZbzO2_jGt4OLqRPcHw1NPiy5rYRPJqvIcQwmH8ogTDZMgY7b_hxW7ov8fVaJDdq4c3PZ55SHqb8M83xeXFZSVr7RWXXU9NNy_21g",
+      "AZLasHo2QDS0JYpMkwK6EuyisvHC52FiEfCw8O3VUTfjQxMsAyVS3tiPz3DoCodrxu7ha2ykzr539rh99KmPc5_pYQGM6q3Sik-cJQMrw9Q9GyQO9VVhkdIIiGhHWMG6sxQnTXYGsZ6o9_WGrrJVyP9vsQb0YX9EhvVhZ0jD0pDBGogyvNV3rGUx_gVisEoPJVw-BpJafpIpe_GuJCGTj8KJ7H_7c8cRbh0GKBeScRMzGaIGhXhm_hbM7yKUNWHp1URrvIud9AP82tcB6mr3W4puW0fOkUWb0NWZmpw7lzYtomk5nw",
+      "AZLasHr1xAI5q5OePzpOO6jR97KrT9dkdkYgxSjk-vJRmIYm4MDdMHo_MttCAm15k6w_TpR8kdX90jlQhDRsI1hJfXb_plpOdYT09wHTKkOpywCgfm5TMPI6pv98bAGJErK8f2CDv1MZVJIJRXKI2dOGKZw1eI5wNhZKaGDdxURIl56pyxC0740BE8kkNtfApROcH6Pea7NiW-qqwVTkdpziW2ri4c4yzAHGk_gKFY_Ec-U9LgdcrFV2mDb4xYfpABcJfcHXhdaeRbgRwcbVwLEl45LDZeSv_-GkDpkstPBA-GZk3g",
+      "AZLasHqEVg6sch5_285MUGCdIMTA3GvCDs4wFq_U9QVDZi5wBwEX9L41n2SW4YF6UnVVagK1lUpWcvwXIDb0kBvQZtTHFE3_tw9-kMfsvbXq9irMMptfob26bAQipSh_OkZ-cpsE9_LXO938-8WNWhuKFb9AnuEwKulXs_ZO8q5bU8qZDAJR9DosGk6SaelrA9Q_oLK2PUN0VvT9Q3hi6VLbGBCKqfcSd9ziKqtLo-naL0D6syfH6AAhtWeBOexqjyrqIoYARkJ7aj3Id_0OKeo_vqemERId8eayO9_kBTZ7rAv-H9Im01fDbP3xR9Ei5JvpcdzkgWVDwPXuF8cowNIpopi3SDcU5O993WOk4Qdu3xz9KSvlqK9_vYmgZpTqftg379OmcZlSVQnZguwS-VYTiy-GOCB6-9DlEC2cViHbsgNWxJgh",
+      "AZLasHpgSx7v2OadqHTCDFyijw2cCcQ6tAaeJbhOROYZe4TklLTn-alk8RlTCIAXvI57VdJr942aHNisxSeefx-vw7qt7ZEuNvalrUCk6BOYpZ3QqNJjYbJCrdPL6d9HqyQvo3XMpvLFWl3O7_nYhLTN6vaApVGoc66ZstiySQJ4x26Jtm_EW5-koY9F8Zhf9v-a1AwtEML9osqjrmkX_o0SW2y3fpvkqdpE5CKERyDjYNCNC53WTbUKreq_TaBxKlYF2Nznw3vUj2MnOt1PlWpoFKq2rub7J4qkf3rnLEN7xqai9w",
+      "AZLasHo_piCa5lB4AcBqAdMZV7a9EtBbunARCFgcFaJtlfkY7NCOj2m_9uJpzdA8CJrazyvt175bDhrZzpcIxFmKjkl2RabkDe909xgJJlo24LBkFc5Brd6vO-qkYvEJ3lLB_mrPtYMvJ4OwcS12fEa582Y-w0sMd3MOo_yOOLNAuJNkqHBMvgWn11lLWBh8gMKge9JA1p6RWT10-iby4T0G_8ICE74e4M8J2g0mfbktseVX3cawy8fURRgJhH1MEYjWcKgij3Pd1OBGtec62jiedr1iyWmk6WVdBK88JHip8kbDVYfxh0OzgL7uZ4pHurwuzqGUJz7yN0tTs2CMmMnJfq2t597TWIQSz27dE9dqHlWDsZuQgLj81sbXctckKAnYZqUTj3qFBCJuISQ7afDHpvbEuk6mDvn26kYHrgYu54w",
+      "AZLasHrtpdpW_fQJE1biMUlufMOcBjHOsqTdTgWcaPCkNkIiLeSb60R4zhVvt4QVE_uk0x7vLPXV6fOU0twE5V5UATYWm3_biqVtI3fysH41VI91NVbf3q01HpJ5jG0ueodFyFVOB4HHVBN8O5J8yVTkj54d3NocDTPXkc65Scoe78Q3dVXAPVoo3MrdiAo-73FW_GWIr4OAXTNSEaUPTvMzeFdupeRDnbT5eJq2yqLmsYX8B4ZM8Io8cSG5Q9vYb5mxPESP9DKouvdWXXS4XcAZEdHJUnL7a0PkL58z95yBbcyXfA"
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "23h00 – 05h00",
+    "display": "Jeu-Sam: 23h-05h",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: Fermé\njeudi: Fermé\nvendredi: 23:00 – 06:00\nsamedi: 23:00 – 06:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "C'est le club où l'on vient pour danser, vraiment danser. Pas de poseurs ici, juste de la bonne vibe. La musique est éclectique, allant de la salsa à l'italo-disco en passant par le funk, toujours avec une âme. Le lieu est brut, sombre, avec une ambiance de fête mexicaine underground. C'est moite, c'est joyeux, c'est physique. L'endroit idéal pour finir la nuit en beauté, épuisé mais heureux, au milieu d'une foule cosmopolite qui aime la musique live et les rythmes chauds.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Danseurs de salsa, fêtards décomplexés et amateurs de rythmes latins."
+    }
+  },
+  "real_talk": {
+    "text": "Le club où on danse vraiment. Pas de chichi, ça sue sur de l'Italo-Disco et de la Salsa. L'ambiance 'fête mexicaine' est brute et intense.",
+    "must_eat": "Pisco Sour (au bar)",
+    "le_secret": "Arrivez avant minuit pour éviter la queue monstre.",
+    "le_son": "Salsa / Disco / Funk (Ça crie, ça chante)",
+    "le_must": "L'énergie incroyable qui se dégage du dancefloor après 2h du mat."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 20,
+    "value_score": 75,
+    "category_percentile": 65,
+    "is_free": false,
+    "unit": "Entrée + Verre",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2025-01-25",
+    "confidence_score": 90,
+    "anchor": {
+      "price": 13,
+      "label": "Cocktail",
+      "source": "standard"
+    },
+    "fair_price": 15,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "ENTRÉE",
+        "items": [
+          {
+            "name": "Après minuit",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pisco Sour",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": null,
+  "google_rating": 3.2,
+  "google_ratings_count": 386
+}

@@ -8,9 +8,10 @@ import { BlurView } from 'expo-blur';
 
 import { useTheme } from '../../design';
 import { MOODS } from '../../design/tokens/moods';
-import { usePlacesStore } from '../../stores/usePlacesStore';
+import { useMomentsStore } from '../../stores/momentsStore';
+import { useUIStore } from '../../stores/uiStore';
 import { ReactionMenu } from './ReactionMenu';
-import { Moment } from '../../stores/useMomentsStore';
+import { Moment } from '../../types/model';
 import { ScalePressable } from '../design/ScalePressable';
 
 const { width, height } = Dimensions.get('window');
@@ -234,7 +235,7 @@ export const MomentItem = ({ item, isActive, isFullScreen = true, onCommentPress
                         <ScalePressable
                             style={styles.placeButtonWrapper}
                             onPress={() => {
-                                usePlacesStore.getState().selectPlace(item.placeId, 'feed');
+                                useUIStore.getState().selectPlace(item.placeId, 'feed');
                             }}
                             scaleTo={0.95}
                         >
@@ -438,7 +439,7 @@ const styles = StyleSheet.create({
     placeText: {
         color: '#fff',
         fontSize: 34,
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         fontWeight: '400',
         letterSpacing: -0.5,
     },

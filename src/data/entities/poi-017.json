@@ -1,0 +1,193 @@
+{
+  "id": "poi-017",
+  "name": "Badaboum",
+  "slug": "badaboum",
+  "location": {
+    "address": "2 bis Rue des Taillandiers",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8529,
+      "lng": 2.3755
+    },
+    "nearest_metro": "Bastille",
+    "bouche_metro": "Sortie 1 (Rue de la Roquette)",
+    "metro_line": [
+      1,
+      5,
+      8
+    ],
+    "google_id": "ChIJTwDXrQdy5kcRsv7NbryhrD4"
+  },
+  "category": "club",
+  "subcategory": "club-concert",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 2,
+        "seating_comfort": 3,
+        "natural_light": 2,
+        "crowd_density": 3,
+        "music_tempo": 2
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 9,
+        "dance_space": 9,
+        "cocktail_offering": 7,
+        "crowd_energy": 9,
+        "late_hours": 9
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 7,
+        "cultural_programming": 8,
+        "creative_clientele": 8,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "bastille",
+    "indé",
+    "electro-pop",
+    "convivial",
+    "live"
+  ],
+  "ui_theme": {
+    "main_color": "#FF6347",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 2765,
+    "moment_count": 1432,
+    "top_vibe_tags": [
+      "indé",
+      "electro-pop",
+      "convivial"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 48 06 50 70",
+    "google_maps_url": "https://maps.google.com/?cid=4516162357030682290",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Un appartement secret à l'étage pour se poser entre deux sets.",
+    "La Musique": "electro-pop",
+    "L'Ambiance": "bastille, indé, convivial, live",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leur brunch du dimanche est complet, essayez leur granola maison.",
+    "entry_fee": "15€",
+    "happy_hour": "19h-02h",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.badaboum.paris/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1514525253440-b393452e3720?auto=format&fit=crop&w=800&q=80",
+    "instagram_handle": "@badaboum.paris",
+    "google_photos": [
+      "AZLasHqycxys-Suag91y6I0bgmlgeMlD7wjyaLR7-D7k-l9GlVJwJN1AmWfWtX9GX3ywlE0EAiMV4F-lur8dPsbyLrq2A5_jbPmyiii6jZzuLWjI_XlPf1fzFP1eTOpb1x6EZbHFU9WiewetECn9MeRB5WptvyyMMbxv1e6mERgGE7h-hZ3evEJwlgjIXU3mjRLJtxdwZZdJerQ_0wqu-VyXGq-y_HQtcOfpkhSRtv2zaHDpnEE1Vd7_GgPsK-IvdKpkuEAeIUXjIKHqd3en1s4wyv-yhQ98SPX9voFb2Tyzxjn3Vw",
+      "AZLasHrnbnegla_0AKi-D8aMaLl9bLRgmpzGYfjweMYB4JhEOW6IMKINYwi_28tZCdaZxwOtWW2ufp3jRvGgGTSvr8g7xbOW31pl7BAHr2fbYUY50Cc83kINoruMCwKUpodZOqrNDLh7HZX4p3yM7CbfjbKdOyZMX_69njnfoZabkuDmKPFeFcxZiTd95rDsWVF99ajoU8lVd1nU-E6d44ivA6EWAPK3Pe6eoLEEjvBDpdLGWIcAtaKi69LJtni_Ml6ixydwOcBIj2K1d9GrBjG-34-hG9dYhaADlXutUZnptaLxqQ",
+      "AZLasHpM2zNiWglII5R7Y86uSqdzsD9awXi82TXrdz4gglyzbYvTvjOLMz7E3gVQxdftgUs2jKYruV5l9O_2SRv-dxa52uqmV3blOlwjKHeqFzv0Wg5qSadb6Ir76_xkMawRtEL5pDiU0t2IisUAvrbFJQtrqXGmrP7z4GC98DdU6vbuuVQc6c-qG3cUoLxgEy9PngbqkUgOLycFZs8gaR06UnO7R2VMcqgk7cjb2OVF9xJmcQLZZmJbDeSsSwAI8MLEbdUdBjJfmNE3Kz9-VpgZkylchVdxFD_xA-tzJTku2Gjkog",
+      "AZLasHqVAAgq6M7GIdpjBsAVsbrCrXRmNUwkadrl8g0SmMs61Nhk--1AYo_CHR5po6S6mP9hZrFc6ttuYEuJZEgw0yJRD2PV_VbrqPTOaLstfE7F8bdW539-R60Upf5k29IwbdZOx--0YhzD2moVo8JSbS9A4eWeGCtLmFJX9RfusJFxksXyzmJF5aI2u1OlGcPZioVBdAxpY42ij4uaHiLJjzgDPYxk9pauUet8SXEOi2rSunMn-thR75IRgBjW3VL4CKmyMNN05d18vtStCWzttJAjnQGXr2xGRPHPkXjd8PcMz43lAPe6MWQCGS6rbNRTZIWjxkM3lAhLdJjLrsxauM4LDiz26vsLG2MD5aevLsr4NRrZZOKyHWePaUZbR4hIHZ--MEUHvHq7GHnOubxgDw4xiW6zao4hskYIHsytmSD_MyCr",
+      "AZLasHpL-yN-xkLKIooi7ejeREikR_AmZHMq-d1-bDe-gU2Txc0j5Ac4ucfq9eIXT9_EcK_tbMqWNFoD6yBR_12zO3yEp7anvao4F5G-i6KStmWljk74hZSdnzNB3DS6vSuy6TruzxsHTazX_jMtoWEtmDexsrFi41GC9C4X7MPg61X6plwb9evU-adpQvclBhYrw1MFUpSyaWn6_b01t-q0iAyEz8hP_VCpSUYHCVvC7XkLK-uHd7PV79bGjB0vh5I0mp_8VKMdbJDCB8meLbLgPhj84-uTQOCEFS_WbzLJkBhW4g",
+      "AZLasHrZRcqcBY5Rum7vABrwsb24qWI3E1WcMT-y-A6-FvRivZiZ6sqSVKEBOP-fcuQLnbtG_e3-TkIA8DEx-ies4KHA8-fdjeO4ZPKT4QP4JFwlrUhjQsbfKKIDZoaR7nStjkzqC56oRua_ChEElzlgUw3PFjqzzrO9_Udeke6odj60o0XVWRHdQcEy2sOy1icE-8nxtjzwsqv-h9rMBd9T3uby934gd7NBiMO99M7xY4j5RcrcaZ6OKwqcuJhr2o3uBwgNkRdZzDM5jrUcF1-5tt1x99sSNcJ0nkpkGgDVLDYp2A",
+      "AZLasHqu2yI6i8uR7Ay81JPIxZcxkjN9N_0jaghkBifSTJqrcGFyu66z-I9KAx4WriZHZjEseHdwBMz7SImLE1EXU4yTUwgE630nVfnHyLxTmi1EkivozrlY9uwpau45fz4kv0msTp-g2PO-KzbtBpvV7Qdm1Rd3mkUsUB_LrBJn1XDdULqOgWf5uKeV80BjgqJrAPMRPNHr0MjvrsK_hPILC8MNPpw4K_JJdx4hOaCJErlJ0jskOpD8mIQhbSwit0ulVMGBpZXpjRhF7ArGsN3KeLJFmk60L1WDeK6gU-l7K7J_GA",
+      "AZLasHo2EbxXp1ZABJS8AvJio6ABcKLp5iI0CPjZHHz4I4rZqXj31N7kb6dnnewU4uyK7JnSB81F2X39BZg-TtpGwKdq4x9h1Es85XNQJ2MwfPg0RZInbGihWZpKJtVLNAX5QhLRq9KUrrfeUIB3RMszSKry8LO9W7aRmty71jQDIeb82QSHzD7iEwJ0EXkPF8DLRUWUQXiD1RLb8DBTU_supVzlM49GZDKm2uTMO7n5ZihenQphes74zTiiByvDtP6BgUvgclikye8XWjpD7Ef9u1GjZ3y7LwO1Bp8LsV9fassvyw",
+      "AZLasHr1l3SNJFP_bS9pjl93TMgtIz9VZgaQMv8FXB6sPqsDOjTyv52Sj7Ir8UwLpUBejgpuQ2xu9EeSDGUzoMdzwlvui8oZBj7gyy32Ii8253GUFtpuwXIocS03mWzUFLeXOO_G0QLFPMwh40enNOLQjiZ62zv9qBV6Z8uG69cJgVv4hTykJhk9euTX3h8onsv5cYGWp0SXQMaoIcX40NlargTmic5KQQkvwx6bwMyJYf5oS9JkcbOq8xUSVrwpU4BPFPz3ZgbFEgB72chMjcapIoREm8zqG5wPDm16R_2YOzzqWQ",
+      "AZLasHor5tECxNRaByHOIJdVLJeA1fpeH0ZE-8c2H7hq1J9xRt8R1kBOPryNzXj2Nv9LobspiSSqaw4nLPVVFttbWIm9p9AyYStk5EhkWSqpKTb2U8rQsdvVW-tnigVJTnSuY13AOYZ9k7xRqtwWY9v1mS2kbH5ZvyWDGK-ildanktDl0g30MWjAMpmiilKEP-C0b1P6bNOVbanTO-AGGYLl5W024YgLeEhWECDQaYahxjlN5Xh_F3AvDaOlY5xFm4N_8vZeEcavxWrcs34O_THkMvKerg1eL2pKdgCuVGIJa2_GF3MSHez8Mxkah8MQL5T83rlDVXQ1dqboyX-Y_hjge0fO1znHWZ6G8yk5xdt6dsRz-hSO_13B4bEfdY4aNYAGWZCnonSK_SyHvxc3Ekm3MlFv7H4p2iFjaTnJmAJHMeY"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 06h00",
+    "display": "Mer-Sam: 19h-06h",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 19:00 – 02:00\njeudi: 19:00 – 04:00\nvendredi: 19:00 – 06:00\nsamedi: 19:00 – 06:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Plus qu'un club, le Badaboum est une institution de la rue de la Roquette. C'est un dédale festif qui comprend une excellente salle de concert (indie pop, electro), un club à la programmation house pointue et surtout un 'Appartement' caché à l'étage pour se reposer ou boire un cocktail au calme. L'ambiance change d'une pièce à l'autre, ce qui permet de passer toute la soirée sur place sans s'ennuyer. C'est un lieu safe, ouvert d'esprit et toujours garant d'une soirée de qualité, quel que soit le jour de la semaine.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Party experts, foule queer-friendly et danseurs infatigables."
+    }
+  },
+  "real_talk": {
+    "text": "Le club qui fait le pont entre after-work et after-party. Programmation éclectique, ambiance survoltée.",
+    "le_secret": "Un appartement secret à l'étage pour se poser entre deux sets.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 20,
+    "value_score": 45,
+    "category_percentile": 55,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(16.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 90,
+    "anchor": {
+      "price": 15,
+      "label": "Entrée",
+      "source": "standard"
+    },
+    "fair_price": 15,
+    "menu_items": [
+      {
+        "category": "CLUB / CONCERT",
+        "items": [
+          {
+            "name": "Entrée Club",
+            "price": 15
+          },
+          {
+            "name": "Pinte de Bière",
+            "price": 9
+          },
+          {
+            "name": "Cocktail House",
+            "price": 14
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Coupe Champagne",
+            "price": 10
+          },
+          {
+            "name": "Shooter",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": "19h-02h",
+  "google_rating": 4.1,
+  "google_ratings_count": 2873
+}

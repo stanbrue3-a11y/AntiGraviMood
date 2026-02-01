@@ -1,0 +1,140 @@
+{
+  "id": "poi-198",
+  "name": "Carette Place des Ternes",
+  "slug": "carette-ternes",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8782,
+      "lng": 2.2982
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJXQvlQftv5kcROZUkVMlEAdo"
+  },
+  "category": "café",
+  "subcategory": "salon-de-the",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 854,
+    "moment_count": 55,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Chocolat viennois",
+    "smart_tip": "Leur chocolat chaud est servi avec un pot de chantilly maison généreux, à ne pas louper.",
+    "bouton_label": "Site du lieu",
+    "website": "https://paris-carette.fr/a-propos/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2tMH2AUA7exYr9aVpfio1xuh4MEoD0xlXKbxm2Joy9TfLtJqWQzWYdLsvWH4d67BKTNoBsqsQDssKq3baza_UUPAzbpbbh3XSVHTsp4yRJZihDRWfexyLPEs5uL7zIgoVQ8I8B-LH9Y2hdL_1ArO6rcFxDZAnK64YEnyFHo01KQXfCf124Q5IwhgcMz_X5k7hnhe3pOFtDnPb5yp3J7ocdwGgPLpPEJ3nA-5lgkGN0SWtPMM3y7Jsvsez4iMCAK1DUqtp9wIKil2a3Re3cDf_gk0Tz36HSf3wMn8ODLD_Nr3ycz8j6FHS15fsIDAgLavgbHrPtlerhTrJnUpe_KQ0ri-5lmXLi5nqr1_Xt8zvQdqkBElFSiEdwu3tB21TYsHm8m-ExDohpkHCWFgPu5p2253haf2vRZfI797MIIN1xpU0&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@ternes",
+    "google_photos": [
+      "AcnlKN2tMH2AUA7exYr9aVpfio1xuh4MEoD0xlXKbxm2Joy9TfLtJqWQzWYdLsvWH4d67BKTNoBsqsQDssKq3baza_UUPAzbpbbh3XSVHTsp4yRJZihDRWfexyLPEs5uL7zIgoVQ8I8B-LH9Y2hdL_1ArO6rcFxDZAnK64YEnyFHo01KQXfCf124Q5IwhgcMz_X5k7hnhe3pOFtDnPb5yp3J7ocdwGgPLpPEJ3nA-5lgkGN0SWtPMM3y7Jsvsez4iMCAK1DUqtp9wIKil2a3Re3cDf_gk0Tz36HSf3wMn8ODLD_Nr3ycz8j6FHS15fsIDAgLavgbHrPtlerhTrJnUpe_KQ0ri-5lmXLi5nqr1_Xt8zvQdqkBElFSiEdwu3tB21TYsHm8m-ExDohpkHCWFgPu5p2253haf2vRZfI797MIIN1xpU0",
+      "AcnlKN2ERO0NGbaMgTfXhaI4WleRoziCFTUvPDPxY9En-vtF612u7eR0Mu9A-WqkqI35sw48CXlLYeosB1IiIq0qrsxVuSngTGa9eIwP-71uggzD-NL6lE7owA4F3SdQEgFeqAPnXu0NCiQLrvMtBGYGX4WWXvPKrijmogf-ye1i9VNd-Vh0jfgaXqVDy0NZRB6BMiIXw97inkeRyhGgT4aPa_I7AoqEvKitglbq-bt98n5VqLsmzn247Oh7UoD_j3OmF0D0hR6YhBpNhqq1GL0_rAA1xs3KBe8rcdhNhhodIaeHxMXESyhvuY7MwxC548gHh0OjF7F5eXlXVwks2nC1uYdkV20JXspDuW9DTxVR3umqE1Xa5a_MrPCZVlTWqtj8xe4AYWQ6oWeffZNeP0wi5LxLX6QCDLfw9-Wd2TkKsm2Pw25UhwngNAIBbxprPQ",
+      "AcnlKN1qht-er1Kwky1MmglHbcrSIdxXGco3VpsK0jnoTmRRG4S_DxgFFnKTosGMHrmiUzHzg19cyKn_tYkUsTnDwZibNvSodh0FBlUG7u8elnMGXK3W_nafZNi0JQCStlMAqXlerGsfUgwpBpqwKdM4teVY62FZt-3onhR_JyrgxC_nLSEItg7wIw0xsY66KhcSc4JTzefcLJpohSoyDqcrds3xHwfRvbVUBjsHxSpMwTedmBB-JkuqMLmLpER32vmzbsBTkBQWksX0ccuHC-Iuh0qn7NGCqtYJe2S4okyEqZA3K5uEojwNLDT1Vj1Tm00dB1VVH42SRYHtJ9deS8EEPLVy6ImUCSwYcHHYZHpRmaHcHYeMA7rU7Ig-Ou46pQ6f-PbYfQiT3gXMvi-mAulzw9etusJYE5BVcavG72USfTgrjw3mQzkV9qXJpPprCQ",
+      "AcnlKN087fYqrpOOlC485-E9hcs3wnbhmGCvRwpaL5Ez62SWsBwszk6rEO4OXKpMXl7TTpYzlBrRevGWAwyu-KunqHbrsMEjrRjHgSHQM1OgXUxkr0CmXQg0VQWT74fkvQsb-vHlulgWqfYpGbTTAf8x-wMgOnMdjRFMDtRxRUGdx2cUyWLDQZdPBy3QaSR-7BnYIjmTf-uQoliJZSrTVWrHNCr7zTz6VhzrCiIuEJppM0fBs9L5gRLLml9nT_XJXKgZfpBrL57kLe9RdU4EmI6o6K6i9Iy8p8N3WHC8a3Lw6BCHMhyQmWKvNnDYNN5pjLbe68l1ZYfOtQQSH88vPk5BXud0LHJHVYlVUUlJ3HnUP6ScM3EbRQHfou-zuJw5CA1QfN9VEn8Nq3bzeKUMc0ccT_VWFzc15ZSWKKbVkGV6xpM-Ww",
+      "AcnlKN1Yiw-mPxCEDA6PmsxSYXdS_ztr2fvR1LzdmwVNGBVSiLd0cvMSuMTMtFiEE0H5PcCIi0DivA7im2rOvz7W4_LIiTV7pOIM7E7iuvSJkyTXcBFmIl1MNvNfdgZl47IyVf_9yoXvPyIZz6N8DA-RNraqgcF-jXPuzWnoZ-NTEGLS_3K2tjd3y7oiZfdjY7hRxtOWyaJmTmE3bMlarBErrmZaBOph_2ez5Hc33xFrX5b5DIV3s_V9wwlQeBaIQ6GkDmTuiSVivglr2ZgMJsZzZpkPaGQC3qu2-b02rjEo9XFEKqCKC0CPdsOzKnSe95yxLWSMiuAp4_gZktbpjYzSZaT-7PBFx2cgIsCX_ekLM3ygwck-iEvtA96zkQUNWOkESbdQ1_KPkHsPLnVQjwAAnSjnJL0A5FO8kxQlzRDnZ6NGvAZodynjGDEL1EHlLgo6"
+    ]
+  },
+  "description": "L'institution de la place des Ternes. Carette est le gardien des plaisirs sucrés de l'ouest parisien depuis 1927. Sous ses arcades, on vient pour le chocolat chaud viennois, les macarons fondants et le sel des célèbres finger sandwichs. Le service à l’ancienne et le décor rose poudré créent une ambiance de salon de thé éternel. C’est le rendez-vous des familles chic du quartier et des gourmets qui préfèrent la discrétion des Ternes à l'agitation du Trocadéro.",
+  "real_talk": {
+    "text": "Le chocolat chaud ultime. Moins de monde qu'au Trocadéro, même gourmandise.",
+    "must_eat": "Macarons, chocolat chaud, finger sandwichs",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Grandes familles du 17ème, habitués du quartier et touristes gourmands.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 15,
+    "coffee_price": 4.7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "SALON",
+        "items": [
+          {
+            "name": "Le Chocolat Viennois",
+            "price": "12€"
+          },
+          {
+            "name": "Plat de Macarons",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "SALÉ",
+        "items": [
+          {
+            "name": "Finger Sandwichs",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 9702,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

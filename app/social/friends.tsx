@@ -5,7 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useUserStore, User, Friend } from '../../src/stores';
+import { useUserStore, User } from '../../src/stores';
 import { useTheme } from '../../src/design';
 import { ScaleButton } from '../../src/components/ui/ScaleButton';
 
@@ -67,16 +67,16 @@ export default function FriendsScreen() {
         await sendFriendRequest(userId);
     };
 
-    const handleAccept = async (req: Friend) => {
-        await acceptFriendRequest(req.status);
+    const handleAccept = async (req: User) => {
+        await acceptFriendRequest(req.id);
     };
 
-    const handleReject = async (req: Friend) => {
-        await rejectFriendRequest(req.status);
+    const handleReject = async (req: User) => {
+        await rejectFriendRequest(req.id);
     };
 
     // --- RENDERERS ---
-    const renderFriend = ({ item }: { item: Friend }) => (
+    const renderFriend = ({ item }: { item: User }) => (
         <View style={styles.card}>
             <Image source={{ uri: item.avatar }} style={styles.avatar} transition={300} />
             <View style={styles.info}>
@@ -89,7 +89,7 @@ export default function FriendsScreen() {
         </View>
     );
 
-    const renderRequest = ({ item }: { item: Friend }) => (
+    const renderRequest = ({ item }: { item: User }) => (
         <View style={styles.card}>
             <Image source={{ uri: item.avatar }} style={styles.avatar} transition={300} />
             <View style={styles.info}>

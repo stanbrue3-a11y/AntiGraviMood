@@ -1,0 +1,155 @@
+{
+  "id": "poi-051",
+  "name": "Serpent à Plume",
+  "slug": "serpent-plume",
+  "location": {
+    "address": "24 Pl. des Vosges",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8561657,
+      "lng": 2.3666499
+    },
+    "google_id": "ChIJGY7Gphdv5kcRi7yeadQLqfo",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "club",
+  "subcategory": "lieux-insolites",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 279,
+    "moment_count": 105,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 45 31 77 83",
+    "google_maps_url": "https://maps.google.com/?cid=18061980787479067787",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 17h-20h",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Entrée Secrète": "Descends l'escalier en colimaçon dans la boutique de pyjamas",
+    "Le Lieu": "Cave voûtée immense (7m sous terre) & Canapés longs",
+    "Le Décor": "Aztèque Chic, Statues précolombiennes & Velours",
+    "La Faune": "Dandy, Mode, Noctambules chics",
+    "Le Secret": "On perd la notion du temps (Pas de réseau, pas de fenêtres)",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur terrasse est l une des plus ensoleillées du 10ème.",
+    "entry_fee": "15€",
+    "bouton_label": "Site du lieu",
+    "website": "http://serpentaplume.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqDtPjPmNXv-6hdfKPpFlyFSn2H-1f9v7mtzCMAaP7-GKBnSvdCnzmmspPUv_3IFp9SULmdoaQpNqOBghjF6hRIqCczvXqOg1oAEfCobHW34b7BehofE70m5kjNokIRr2TMUPenuMSchPBzLEPBtjnKEYWRtstIwWAoFEDi0sEPqHm4cGcEEszCa4KwcAtMAUvb0FwVSJtLetAsoT182x-JG_H8Y5WvzAFpb0VLrGj06ic8UpfaSNXgjcnVwlj8szLVN1Q3T6iMav80Qg9W6TQ3mhQ6BZTXOlUogpXW_ydq5w",
+      "AZLasHrBnXAgsJm1PX-QRQN0qYrMo5a38ypJdujgKVhLq1QK3XyEp_N99w9qu88KmJ2mPzvVq3wJlWz3PpO8ImIU39JBnEpliT1rVAeI-1xJvVhUnHXU7Fefn90ZfMwzPDCw1RBbduBHkvXGf3iUui5ampHoBxdb3k3kEPWX-TPrulX9u16eVR_nNnnDJi_csUP3gds_BWZ6dUE64kOA9mu34isegVl2y6OoCk4rMaUjqcIhvFRAJlvLCjKjS5a5zDJmnsQmt79NoKGNbt0B5aJgkWmUCSmHezqHDS3v9STMwHqpUQ",
+      "AZLasHrd471ODBSbQqwipQYSaBa3IcmQJqZrzcyc4UowXOHWildupBn0BS2ekWaKr8jFkgxw8fpRymek_AL50thDoMXbfOfSW8QYIMeW6UHeQI88n056H04vfPVvxEfKZg0sP2syOvIWKFtfyWXNJd3w9rgzA4xslkMukN8h4AUXmA2S7F9AvqDXLHYa_HebwjRd-neyBqiehaB-9cjGvmY1VK46dMdQCgr1sbXNthuYx80kOFBSdBbdRqxF6iuFxWimmf0G8rfF_9Mmo8K6yvUpgzCt6PFRuS0poN0uci6wYN5X8Rd61bBTRVvfRQht6QqSZw1J1sS5RjHX85Z9gHYAcDys6qFunaoBG3TNlCMSAO8FX8IG_XmOomgW9l9qOK12dRYP2Bc1hweZ1EcqNGwyuIlbTJnSXkMLIKDqMna6AKGvK4y-",
+      "AZLasHqoPc9RJRFCaeuzDX67TJZPnSBJ3DbXOc85S1t_1GBCkMPJTdTT6Qm0SQUMU8f_bBDl0RAjIsZoXBBG2rndAFnEFYXtbqGdxDSMJCCkcBokjIvhqglm0MDW9mE8EiaAnBhUfZN3wijUG5ydW-RakUoH7qE4PIA9xwvCigy0emwt0NDsYzLWp3-6r4ve-w935d6eTr0qOG5hB6Ehvp5canK0H6ypU5NYErk3skxuSuyyXW4pi7iBQbUgB0uadkUKIrD6VpiQuOvJn2vMZmJyUEglXCth40KcBl-UqMT5YPepmU69Qyv_q8_XxpYtzLVE8HS9Bhb8eOU5X4xj6Y6peEdmB751p5JKw2e5Soh__8l1_oxjl-C7rYpq1ddaLGKkCKVEEKZ45GsmpVN2sL0pwDr1qmCdoLdpWry-nn2_Co-I4inC4WjMmCZ1MeChnL5P",
+      "AZLasHqqXSS-WdFJpQA34WV8ocd3TWw9wuQYiurqayVmqFTQNsma-3BnY8U-2JYVSLehi2OpdSVzCzjiDSnFjpRRVDnPNY2KBvCdoL_EZXMcyJseh5ILW8S6P5Xxh2Dlmu0rsFRZ0nX0Bd5CFkDynU07Xj0iMW1XtlUSATttWbdRJYU6UHfVFuriDVrygFCDrcc2QjvEDb2DWgznAjgtuJNlZO5-7d4_IUXmeJMgkd1qWZkG_elnufgK6vlT2WGg6qzIJSft7libvOhBR7KBdRvSJIn4fuo8d9LuGFmWGY_zUeb1uM8-hJCK8P6hnZiC62RVXbN_48qYL4ZLRjc7cTJWfwGy-gQ7xpqr6MJpfbuZ_hwxPXqbUT1yX5LhjxNXW0vMIPppoIRdBtGEWKlGuGfAgJBlzlRhehEgZKCYuyK5n3e4yDeHy-KVvDz0vYkkmfZz",
+      "AZLasHqY4Xsvi3QypCuag7r6MqmesxTXmQeNHreHpVuU4ZqdRxwtZpYU7LZWanfBko26-TeioIOu636R_jXufZeBNvoe106lz3nT6HchvvGYOOy2gK19OKuy3Am51ypiYL0JUdxemx6vNWTysoxY9G8K8hKVqGc7BNeQZYTtDLS7Ry94KbkbuI5d-50vBjXzSBXqfwdW2M-XoQqPz2OVlLBgBVFRTbIC0FojiQ8TzLLVJ0AM93sXfS4IS1Wb0FzchxnXlQpN766kfxJhdon9a0rCGthPxtHl1YHNIiJdvqT2SESuV_70VC-uAuIwlCIoq2ID1RKbo6EpqYoc-anuemx8mROKL86-LhIt2mq1hC6nACCf5xsO-8LN_-uDR9DHIyT6qsVwqwdgT2GVxMCTRl-5qKaukE2NtG0z7J_wypPZF91htw",
+      "AZLasHrTipnKs4kLkpXnrRbGiXi0qDx6P1BRaH0URQsEeQ6Yt6kZOa1Ot4s-cM1Vh8vBSj7iCBQnRz6c9p34MVaxokiPvTKbhm7xFmwnxNhpgkvAMEtQNbmD17ez92YfBHigC1CaPgLg4OK1GV-ROdYIpYS87lSybfzKj0bvcGV-goAONzbGuBb2CIuJA44TGlrdyTCOj-ERkOe1iySqins_m6NPGD6_t5C-sNJEdGllbRToy89Oj3xupBGC4lRZipbsVmIehAorjV85ObdjB1pDNexs-HB2Wa2J5KguCKIMeGbrHcbX-7g9qbitCQQgHyFHkPZZiCgPSINgufJ7DvRSg_KJQI2CJ9GZcgxdO7NHUF3PdQkwX0r0pqBLqEdMtbvw2WjsexwWFY2DFdDi41WDvleLzkX4B2Q2NAPbUa25lXgDgAcz",
+      "AZLasHoEpK84h-YQtjjuXUbPWxL_9wcrTqVXqXmv5WjCOvCIkiyYAWNPqGk7n_6jnFRdZM7mpUAItl16SEyKXQHfFmnzcakZUUN-sD7yCSRrvBWtOLb_3qxCxcnmLnE2Aut8lEdEwv5gVfpdB2VjmICGufxGZc2yTqaGJH-GWnPh7Fzg6oiDB5nO1wY_q6kk71dOU4o_vh5BsIVszi97INZlTQ3pVfTGoI_N2zPMwpeyUZdrZn-QGlaB4s0XMk_WyzXgWRTVMcvmxLL-b_Uugo6o8DxQOENfp_opGlWWri7FRno2Dz0c25ujmiJJqLZM7v4lvhPwaz8j8BI9hVP6U1YUx5Ed6kFXbyxgO1hQ0PwIy4kBROUhVqEJtwdv-lfouv4qU6x1RFOMWvTK1BouDO07YelnKu8vPwzeMy_qySJmWLnlu6WK",
+      "AZLasHrqUK9nxu52pMC7DdLjE_T0I3lW6p15hDz_zuQY8PjJL3G79jBpkJ7EtubHEWiIHm7HAsaYm9ty_clULYvHMQFch1-ArDXDSe6JuWst1xSpNlIHIculgkOWsDWk0cTHxWpyrixyP926Muc5UstnQEvKcBHm8wJsOC0cZ4lpuC-umoOR54q_OSKgsgFftjHUNERlOdcE0DrlnNfEN7mrnCgLdExsBAWTa1ylwNozUfvgZloR1GtwjQ_Sk2swBKzxFRkdd5mUYjtxGWvESfOlAgrw5JIuefGq1xWQaTPNPImsvoOWBCFH0OOTT-9a2Ql_bMDpap2lzDq8lKy2uhtEQBcIPcGKIR-iNmkRLbR9qlSdlnFL4aAgQlS7EBWBrpQva139-Noztpk0JyWy5j1QXVtfEdAxPDJvmeuFr_-sWcAp_jo",
+      "AZLasHpxKIGCR4oGRzyn2RpCfQyPaSWN8NajQNdcCZp5ytE5LlZ1Lsobn1lkgQqhlkZPirgF_Ma0tNyF5KYFx0erB25p4pNxJxh9NM0hBNcwj3LzCnhKu_lHRubIlKZdROcgzbAw-5rJLdi2DFjmMegi2_ngPkQUmcZGFuzD89ujS05CZOouMOMgjSJ19LVtiOczVBT3wHK10AFuhpmAiBf8bHTF_4AWeyZ2A0pTkFd8c--x_LKs-3117nNn59PCosjCd6GX8BSO0l7KNBz0BwghoXLn2u-iHS_ItQ7Jikn_B7KKwaryJ8d-QYc0S0qvqBosLU3eYcPa0mBwK0CqHHNH1mfk8S6s1mX17rnrAmhT3yqIo_0L7kKO6heDoAZ2a9r5vU3k9ujMfGMO3J5tQlzGBK_bDFtmtG2pEH4Yb0SZ3P6YAg"
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "11h00 – 02h00",
+    "display": "Mar-Dim: 11h-02h",
+    "detailed": "lundi: Fermé\nmardi: 18:00 – 02:00\nmercredi: 18:00 – 02:00\njeudi: 18:00 – 02:00\nvendredi: 18:00 – 02:00\nsamedi: 18:00 – 02:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Caché sous les arcades de la Place des Vosges, ce lieu est un voyage onirique. On descend un escalier pour découvrir une cave voûtée immense décorée comme l'appartement d'un dandy excentrique des années 70 : canapés en forme de serpent, sculptures aztèques, pyjamas en soie... C'est à la fois un restaurant, un bar à cocktails et un club. L'ambiance y est surréaliste, chic et un brin mystique. Boire un verre ici, c'est plonger dans un univers parallèle esthétique et fascinant, au cœur du quartier le plus historique de Paris.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Dandys aventuriers, amateurs d'art et noctambules sophistiqués."
+    }
+  },
+  "real_talk": {
+    "text": "Le speakeasy ultime de la Place des Vosges. Caché sous les arcades, descendez l'escalier pour trouver une cave voûtée digne d'un QG de société secrète. Chic, sombre, et cocktails pointus.",
+    "must_eat": "Croque-Monsieur à la truffe",
+    "le_secret": "Il y a une boutique de pyjamas de luxe en haut. C'est la couverture.",
+    "le_son": "Jazz / Deep House feutrée",
+    "le_must": "L'escalier en colimaçon et les canapés 'serpent' en velours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 20,
+    "value_score": 80,
+    "category_percentile": 85,
+    "is_free": false,
+    "unit": "Verre",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2025-01-25",
+    "confidence_score": 90,
+    "anchor": {
+      "price": 16,
+      "label": "Cocktail",
+      "source": "standard"
+    },
+    "fair_price": 16,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Mezcal",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "VÊTEMENTS",
+        "items": [
+          {
+            "name": "Pyjama Chic",
+            "price": "Variable"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 686
+}

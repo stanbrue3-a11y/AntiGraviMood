@@ -1,0 +1,132 @@
+{
+  "id": "poi-170",
+  "name": "Pho Banh Cuon 14",
+  "slug": "pho-banh-cuon-14",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8277,
+      "lng": 2.3671
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJI7Qxt4hx5kcRMQE6xMrfhb8"
+  },
+  "category": "restaurant",
+  "subcategory": "vietnamien",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 278,
+    "moment_count": 7,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation",
+    "smart_tip": "N'ayez pas peur de la file d'attente à l'extérieur, elle avance très vite tant le service est efficace.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://pho14paris.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN00ir_MUO3MypE3IdhfYuLFLbdxzztGLGTypExFYEd0KnBBl6g1M8sUdo5LgfXDA5t53gusJ2p4Pc9m3LUhTlnAX0c-NCaTSqhWIQ3zIOeqqXu1G1ODVnnmFHftgBgjAqWA8gbXDU0VyvznUGQD326qPiUGLqCQ8ovRmh53ogCCu9cdzpNtjMTwAjoDJst07hqmHmyMwlGoLTObTUJXzFJQntF9FP1-o1ryo4wM0jeHTBi4jQKeaCPrEIccER-fUPNq07bpjLnSkuGJYGWsxC9_WTAuLyihHW3RuMwj96vW3A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@pho14paris",
+    "google_photos": [
+      "AcnlKN00ir_MUO3MypE3IdhfYuLFLbdxzztGLGTypExFYEd0KnBBl6g1M8sUdo5LgfXDA5t53gusJ2p4Pc9m3LUhTlnAX0c-NCaTSqhWIQ3zIOeqqXu1G1ODVnnmFHftgBgjAqWA8gbXDU0VyvznUGQD326qPiUGLqCQ8ovRmh53ogCCu9cdzpNtjMTwAjoDJst07hqmHmyMwlGoLTObTUJXzFJQntF9FP1-o1ryo4wM0jeHTBi4jQKeaCPrEIccER-fUPNq07bpjLnSkuGJYGWsxC9_WTAuLyihHW3RuMwj96vW3A",
+      "AcnlKN2KloKuGcxfClM0A7qDIBxScJXQDFTELxhuzeAaE9AuYSXMRSh-SWMuCo0YPdwyCInozGqN2Yymq6Kr2mnqU4lMtoPNI4_JAcKgiudSFCpqADwD_wTwFAu60lf6_yI-40zJwfQzX8iUG65gSJKwUgqxU287sIIpHALBfZmv8RqHYKrfqrW1EbHoluFRhjuT1CRDrlusQ5PHpEpaSoV44WRD3C2ZcOaBT1UOd8fETVgAqk_HeWGPqps27NETvL2vN-ne5zVxYDFUgrnDNCdR42B8h1Hm96WWMSGljtjTtjLngQ",
+      "AcnlKN0FyVsKcvl-50jLEruUitx6PQis6v44sa_YbGL3MsrodUMO4YyUUSsx3iq909eEgPDu-1O76RYXjUDmo_SqPnXfP3qRGj5DeVg4xDWZuZMDG_kBwUMjc9_ZHU7POaJRdilNEeO8rxTPcuNPxPbLJu5R4IBhZd0vbjT3hAgEzreja43pX1japjHz7Ic17Jh0ueOaR9ZqhmExiwZsaEJLlrAfHngcN2q7bKq1IGFklyClHeRWbDLcC9lGz5eQgOa8XLOmDJ3E6EeE1rxmSzN1bYgj0KFn4rpLIM4XL8wqss1lP8NEw0hCtkKo1P1ZHmqRM_tRwkL-lICqiEcqDn2ORQ3nQww_64nydo-adXjtCVJLkAQsaO4_k2kaDyJ3aKkCbqYfZ65e4as4QTHVOR_tDMVG-ealF4t0ANqQ6KmePpxuzRbXKUKdzj4WqK9l5w",
+      "AcnlKN1_gRrvsuCcHU19949y9StCZaUX-G2dIf6XJv4iFNW7be7btLV8p8Ex_xKJ8vrywApvmJ2_Cqn7oaEAoacvCKxN0wWBlrc72Xp-vvr0ffkXsU5hIrS3h9cXaXOttB8u72qo2sNkb2H36gEpBNSwlckV_B0-tqldz-SK2gj8Iz2sBMf-Lsyn5or5PYKlZWc47vjX4vOlw4feyD7aI_YggO0yQBt4quC0m0XPZv-gtrKfzU8FPyBh5xAbqgVFe6L-dReLRHtbUxmqoGG6uWsSMFTOx7xukcxL1t7IQgSnyL1rJcRPHMb3omEXZxMmMJX_FV_yZTd8mCM9zforWLtzQoXgaN_RsZ_5GjJ5oKM_ob5wh4lmfh7vqUQXZTbAMpIfmJ_so3QW-Pb9eq24yZeLgvSoO9Ac6sJDHdYt28K5mKP9vUpSfSvBDqThfp_hMXoH",
+      "AcnlKN13BTUKdlztrhVC_nktob8SekaHJ32nCIEYRr7XHekJ_YfUrnBkmv--zE0Vk1uqxeo8CDiPJVGcukqmBtlw-8jC9Va0zVpm5zHpXYZV7FbiSYIbKZ0t9GskOUCaRQSgOHP42xurr2Q4EWMOqZ2VXbIxGPuDIUWyjroYoC_PWFcF_J9vk_KnqkS5uzjGDp_Xt9IFlVGy-vau5Stg2LNJAJpiJhrhJxoDaM1Ma1k4xCSUcgKKDoxqWekYh546h5MUBj_nLcAcg7JSM7m2YNry0mJo2e3cwdBrU37Jpn9D177k1SIJf6-DkynaxfPlU36R2cYTXPgH7CElBtfB8vF52XaDu8uTlv7zwnFfuajrkUKXbD3drFQ56Buw6LeFJOmhTIPkIh489gsQ7ylrOUSkZ6qn2Qo7uSL4-Tj-Pr2caOZvIpw3iL159mdxzpFOJhjT"
+    ]
+  },
+  "description": "Certains disent qu'ici se sert le meilleur Pho de Paris. L'adresse ne paie pas de mine, mais le bouillon est profond, parfumé et mijoté avec amour. On partage sa table dans une effervescence typique des cantines d'Asie, entre le bruit des nems croustillants et les vapeurs des soupes fumantes. Une institution du quartier asiatique du 13ème, où l'authenticité prime sur tout le reste, pour un prix ridiculement bas au vu de la qualité.",
+  "real_talk": {
+    "text": "Le pho authentique du 13ème. File d'attente mais addition ridicule.",
+    "must_eat": "Pho bo, banh cuon",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Communauté vietnamienne de Paris, foodies avertis et étudiants du 13ème.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 13.5,
+    "value_score": 102,
+    "category_percentile": -2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 13.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "PHO",
+        "items": [
+          {
+            "name": "Grand Pho Spécial",
+            "price": "11,50€"
+          },
+          {
+            "name": "Nems (4)",
+            "price": "6,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 4986,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

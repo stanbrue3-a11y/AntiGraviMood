@@ -1,0 +1,130 @@
+{
+  "id": "poi-216",
+  "name": "Le Bistrot des Dames",
+  "slug": "bistrot-des-dames",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8845,
+      "lng": 2.3242
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJE2vsOk1u5kcRMTgV2z4r5PQ"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 493,
+    "moment_count": 63,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Terrasse jardin secrète",
+    "smart_tip": "C est un lieu très prisé et on ne peut pas réserver en terrasse : venez tôt ou en semaine.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.eldoradohotel.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3FEj46O4vxN2zfMy5hz1Ks_OYtij5GlA7Z5izm4U-krJr8CvOCiqTnDJsQz91_xTQ5gbfAR9ioQRQo3-ZJ3hxCguYmN6gyHNVSC6vnXvV5qnVC2GnIuWyJjOlC_XZ4YQXYw5pG7oPylmFKMEt2xh7NA4q-CgzqDD72oOAoriupQWbX3OORnPbEnUfhjxxBbHa6T8-kdOXAHI1X1GbKUZ0U2SIgRF_KQLJdFKohWqe1MVvm-tJp_Sw49YLtToX0M8jqe7ODPe0IemTtekyoFYb9bJL-7fAXiQ7OQf06L40vhrAyyviut4VxZzp8e07WRiY1nH1Elac0hoOO-cW-qn_JJLQFJOkllI_CxmqnFJZOZPoUk-7E5_hvbzHdMqOvflL7WPs7HBbQ7LOWRtMB8DKSrdxdWF24MypvXJNCjk1pCQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@des",
+    "google_photos": [
+      "AcnlKN3FEj46O4vxN2zfMy5hz1Ks_OYtij5GlA7Z5izm4U-krJr8CvOCiqTnDJsQz91_xTQ5gbfAR9ioQRQo3-ZJ3hxCguYmN6gyHNVSC6vnXvV5qnVC2GnIuWyJjOlC_XZ4YQXYw5pG7oPylmFKMEt2xh7NA4q-CgzqDD72oOAoriupQWbX3OORnPbEnUfhjxxBbHa6T8-kdOXAHI1X1GbKUZ0U2SIgRF_KQLJdFKohWqe1MVvm-tJp_Sw49YLtToX0M8jqe7ODPe0IemTtekyoFYb9bJL-7fAXiQ7OQf06L40vhrAyyviut4VxZzp8e07WRiY1nH1Elac0hoOO-cW-qn_JJLQFJOkllI_CxmqnFJZOZPoUk-7E5_hvbzHdMqOvflL7WPs7HBbQ7LOWRtMB8DKSrdxdWF24MypvXJNCjk1pCQ",
+      "AcnlKN3D1y3CR5GVafODHAaNfRTdv42W_HrMTz19pmLbkprMKJ1_gIoUSmEsDeMsjdGAVa9tkPkeUUosX_O8YrnY6pS_HmiFbefo1lDj0YCI927_N110_-EP-7r7IhoWWre49tqLcOIjsDg8IVA9ZJ42CpIqYMpB60xASAnzbLLw9LB6gk2lyAuRmhqBqELde1BTYL1z1p-vMrFntMwND7s1JwbxUmpWJOnYelnz28ZfO810ZtM0IB_pwoPHZwvpRU2nYCMA99aYub38HLQrwRp9npw72DIEAsfIcdhbiKhV8Y0grJrXtgzMS34vk7ZnE2N8dUWJunGC2DdqyCTF3SEfz3ttGAvXJNjxdqPujOKFdmniAWwwfHh2L1fv0S-NSL3maahRqAg-xcGsJnscSen5mSBtciNBNw42U9iXNWaNgdGCbMWg",
+      "AcnlKN2DOmz2NBCaTaNvtLmvNSEizq76Ktlh6aw1EKRYXGssGC1EfJgU9afEzq5HUwok1iAAIJh7Gq72BosV0HhJ6tQYfIu5f3dNup3Gja7cr0i5PN3yVwSP8mj5BCIOihrBKL4v4at1efaxYzay0GRWeRgHs-dIHMGWg7b_eFIWmdb26Q-L59ywjekxf-gHLgXd-ihT1mmItFd-qqZIT7eBHx978V8EFAqkU1kEGnipV4ghL0dmjLUmpnE-hmuVTFLdoEDUv6kNwvBoilheypPLLtrQgs3JXt12CazmFHz6yiZWMe2Y5wqHU9tAZyXYYxicDoA-Gh76mKSOQZJbO1sP7JIa81ttp2sBgqnnNFCw-HDNdGdlawqrqEolfVfMeMj6lNhiOgOB-ixWSu5T-KRGJ9XHT0K5IzfUgkpj9wPMvLw",
+      "AcnlKN1uWdjajqPSJYnWBR2TRySwSRz_kWjaW6Y9WCSYbBBS_Ll2CD9o1HVHvCCqvFTo33lHOzSc1RkUe-ZWU8Vb8nd9HpaLQMntEhZGwm7v7JC1vYzdLrYBNugJsvPzNfDfC1dA9garKIP0WbnZzPoAeFCvCaetfmcKyJS7ffQg-ZNNlzYLwPP0b1quV-bj6TczEMFy05_azBfsAQPGQbY3KFebDX2z6aQdVeWZTh9Zcajj6TjdsJHPmC9GlT97rr2X0EubAuA-w7STVy2WbGnaS_2QMHYM1GsHMtuL8_r-qkHjcNpaLOFTFvbKYIqxwdHYcOMHtnbvObBPqO8xkYrn5tgmKcItOqdBy19dWT6tQS1Q-V_UxeTKycaIG0mCEuGJwdukKB94DeNzWLR77s4gwuzuvVa9ApZ2fJGevZZHcs9CuLz_",
+      "AcnlKN0WkRlpXQFiiG2O3_yIrrXh7n9RBYdFw5tbvXPLxiC7sy1ysRMCFexvaRqglAQ94cUL0lgQ7KBGEQFwnxiFWbqh-e5GWPjfp1_K0cOrrSD9caUwLVPikuX95Ah_igQTbFIhwPQHxSDuL3HxBgzzy2nALvbWfE3upxG2x0y9D8aSG4JZiafJHeWBjmvsviNfV82_MNo75wQvvvSlBiLIcG9BfeNJOpu35wqpHdwN6WUjCaCrOweVabaXa3KG4lfGYOHrgRQ9WJheR9WoQQ_TXGhOwKKV_suzeGluPYgUuP6Y8U9lTsn1nVOMPn2VEfMI3Iu6IfT_CCApFDSJBFxjzEYIJOsl0xkzX0MAS7nHd534PKaCpjLYFZgXOBHCsQ9SebtdDStsG5GtFJcwju_pFNXCs7l4zrscQvHB1AwAs1EfPw"
+    ]
+  },
+  "description": "Caché derrière une façade de bar-tabac sans éclat, le Bistrot des Dames abrite l'un des jardins intérieurs les plus secrets et enchanteurs de Paris. Entre treilles de vigne, lierre et tables en fer, on dîne dans une atmosphère champêtre absolument inattendue en plein 17ème arrondissement. La cuisine est celle d'un vrai bistrot français de qualité : juste, généreuse et de saison. Un refuge privilégié pour ceux qui connaissent le secret et cherchent le calme d'un jardin urbain.",
+  "real_talk": {
+    "text": "Le jardin le plus secret des Batignolles. Une terrasse hors du temps.",
+    "must_eat": "Confit de canard, plats de saison",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Couples d'initiés, bandes de copains chuchotants et parisiens fuyant les terrasses bruyantes.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "value_score": 78,
+    "category_percentile": 22,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 29,
+    "budget_avg": 29,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "FORMULES",
+        "items": [
+          {
+            "name": "Menu Midi",
+            "price": "29€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 595,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

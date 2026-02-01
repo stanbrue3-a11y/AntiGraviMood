@@ -1,0 +1,146 @@
+{
+  "id": "poi-157",
+  "name": "Compagnie des Vins Surnaturels",
+  "slug": "cvs-saint-germain",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8528,
+      "lng": 2.3399
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJz8NCe9lx5kcRxi3iaZ1wGqU"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 180,
+    "moment_count": 19,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins au verre (30+ références)",
+    "smart_tip": "Demandez le 'vin mystère' : si vous trouvez de quel vin il s agit, la bouteille est offerte.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://www.compagniedesvinssurnaturels.com/paris",
+    "terrasse": "Rooftop 🌇"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1LcPFQoDaz5X5Sk5SxKZNdulg15xouS5hAfEzCOLhJ00Mm_wut6R00EKrdiSDz8Qo6ZTFZSz5LzlAHaEuz2kC27DTm5fiPEeEIM3yA3GyMyK3IlK6vJUG2ccTZOk-9CmpIJ8qAdPwl0-BiWEAJJg1F6xPbyJTOrtLLZmDQevfT9R-rCmZ4_1o9CgI4qPFOUQV97VugKcZRfOHnbbpmUq_D7euORK9bP1-tlmbGX1lYkFhOCoYxx_W-6aDIGixJ1DwJzrwvMjgJoxCJYK0IeOG8t0BYqraXaa5E25SA8QeRSA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lacompagniestgermain",
+    "google_photos": [
+      "AcnlKN1LcPFQoDaz5X5Sk5SxKZNdulg15xouS5hAfEzCOLhJ00Mm_wut6R00EKrdiSDz8Qo6ZTFZSz5LzlAHaEuz2kC27DTm5fiPEeEIM3yA3GyMyK3IlK6vJUG2ccTZOk-9CmpIJ8qAdPwl0-BiWEAJJg1F6xPbyJTOrtLLZmDQevfT9R-rCmZ4_1o9CgI4qPFOUQV97VugKcZRfOHnbbpmUq_D7euORK9bP1-tlmbGX1lYkFhOCoYxx_W-6aDIGixJ1DwJzrwvMjgJoxCJYK0IeOG8t0BYqraXaa5E25SA8QeRSA",
+      "AcnlKN20zfkVRlAEhk5iGahlgXTr8kkBgQSJfRdW8Djug4-9P1BMW3iWYW6wnNai3Ydy4oDQha_gU1xEsBtg_WgoJZ65T5_ttytRKhxKuUsuXIctUtQ11lVf7LPAd6G8ETCZo3VtB7SPOfpFLLIRRk5BxEu3aFrhm4P83ZvLkXIDBcjssLF-F23k6G7V4fnC63oB5YSaavZuJ7DkdbZXGIzav8ZLfNGzQ1E8OQ4T1XNcQET4ZCq9tsWa85oGrdsmulpy5wMYzCrYb_PriOHJCENAbxfE13z4j_EVQhlHN8sx_OOg-Q",
+      "AcnlKN0UEH5k1Pke58s-6pmVAjsGJuKKdednW1d-kZD49RCs8HmfxEilf84K4TezyiANQ8M_XPArnLZqpAlHKKIB4N_GVu0Gdsvz60-h4sZAJvQMgLpFQVQsv9eaLPmWMsOUjoZjL_Yy18_TU1-K7z_N0WILtpgDY1xXDLd0k40wcXnuKaaEOkfe556f_TAfXa4YGWnICxBjb5zsUm-fvbNm0DO016QWXRe3S3S73thljohz2WERmU9YgwPHEZFN6TlW6Y8qKpjb_FIXnLGGcXDHRWW4bDJtxEGZYwIPrQoyATi5YQ",
+      "AcnlKN2luKHh1kGz-x15thBvSSLA34XcFxRPRWfvXXHrfxttCe-rfZ1fihvycXAOyugu4x9zeDCrU181SNwnZ04ZHOA5lb0GZyk45asxrLdslV6o3bB8NJJtKWmB2v0xF1Tz_quFuSlvYPMTAia2c9HvXmprMIVOylZSiUlmBhslEPiO8k15HqcJSk9PWCMy4_SdmWICxorvtI-MsqrChPe-5sHJoFPqvAd6IdZQGP3TYxdiDfiJA5ULv16JF0CTMCnti6rZxDkd7Jn3G1ENgHX9sEYD0gQ1QEC1qru8mirKRfp-uimFdSdhXZrXtPI0QAzm7gI_P6qTqB3dCW6ynAH1ctKleDOsw-eB7bug0mXbywuQhCW6SYcb828-RqzP0JbLwMeySZHJGbqhhDAj9GwHZx87xvyTbS0dIei2dPpRdgsKPTnoXSjcswrR0Sw9e33c",
+      "AcnlKN3hhpGgJakAFkJJu_6K_1Pq3SSSLD7bjZMfjC7WJu60c4eTgI-_hKw9Oj6Y7i5V_jjxCojTnBpckcw8mT_NYTOhX4dqFkbJlQWGklGIMyYzTutC6nSMldjsjnSTiKAOak0yd15YRICG_glu3naTd3J8Wa364DKaAyySUqyN86MA0TdCNMvrxikAZdAEuD5yiIBKpVc2MW8DIJmDcjJpao5XIheA5twJiBMHk_dCRo4lZ5i5IFqwNswrBX0wBvposGeQ9CHM72WNXrv8bBVZFZesEDvesdWrsqS5hz4peVMAheKb2gwgRZt3KIWFrGwu54sE7_bBJJGWnMe-lZ_AoxtEK2mkX4C5FBZ4v7l1yh7VzeCfP0vAT2Mk4Du5SrHLYuwsQduoQUY6_l4QYrPJ7gM6AwBxg3PBXQ_tOpNh2SZExuLcGen-iRWugHVvl0pK"
+    ]
+  },
+  "description": "Cachée dans un passage du Marais, la Compagnie des Vins Surnaturels est un bar à vins sophistiqué au décor feutré (velours, cheminée, lumières tamisées). L'équipe propose une sélection pointue et cosmopolite de vins de vignerons, accompagnée de petites assiettes de saison (pata negra, burrata, truffe). C'est le lieu idéal pour une soirée intimiste ou un premier rendez-vous réussi, dans une atmosphère chic et confidentielle.",
+  "real_talk": {
+    "text": "La cave de l'équipe Experimental. 600 références, cadre voûté sublime.",
+    "must_eat": "Planches charcuterie-fromage",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Trentenaires stylés, amateurs de crus rares et couples en date galante.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 14,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(45.0€)",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Verre (Sélection)",
+            "price": "9€"
+          },
+          {
+            "name": "Bouteille",
+            "price": "45€"
+          }
+        ]
+      },
+      {
+        "category": "TAPAS",
+        "items": [
+          {
+            "name": "Truffle Ham",
+            "price": "18€"
+          },
+          {
+            "name": "Burrata",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 452,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

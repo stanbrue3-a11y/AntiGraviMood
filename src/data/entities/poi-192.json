@@ -1,0 +1,142 @@
+{
+  "id": "poi-192",
+  "name": "Beefbar Paris",
+  "slug": "beefbar-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8701,
+      "lng": 2.3021
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJdcVJaiNv5kcRVjRXMI54BVI"
+  },
+  "category": "restaurant",
+  "subcategory": "steakhouse-chic",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 241,
+    "moment_count": 53,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 4,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "smart_tip": "Leur purée de pommes de terre (façon Joël Robuchon) est à tomber par terre.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://sevenrooms.com/reservations/beefbarparis",
+    "website": "https://beefbar.com/paris/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3_sfD4oNHB6ac9Rwrmo-v6YSKxQ29EJo3w5wqUnrfQdfF7WMFn2QQsYShRsLCbluBLb6Jzk27mOIkNsMCGuyEOf-lutOOaRhY3ND2x4vehsATRGdRa9r44M_8FqFu2UFtiBc8sPkO_Oc1e9s4n79ZTmHZyrH6I7EaN-wX0kYd2OSxQxBqwC_fjrmjDRCRZ4pjIepKYgvC6pCmRs2VON-X9-HcfJOtM7Da9lhE51TY6wAOSDKD-Bwo1R3t9NEkxeK6DmkztQnt1jQngSoGQU23TG2a_PfB3QvPZ6yKJLm5w6w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@beefbar_official",
+    "google_photos": [
+      "AcnlKN3_sfD4oNHB6ac9Rwrmo-v6YSKxQ29EJo3w5wqUnrfQdfF7WMFn2QQsYShRsLCbluBLb6Jzk27mOIkNsMCGuyEOf-lutOOaRhY3ND2x4vehsATRGdRa9r44M_8FqFu2UFtiBc8sPkO_Oc1e9s4n79ZTmHZyrH6I7EaN-wX0kYd2OSxQxBqwC_fjrmjDRCRZ4pjIepKYgvC6pCmRs2VON-X9-HcfJOtM7Da9lhE51TY6wAOSDKD-Bwo1R3t9NEkxeK6DmkztQnt1jQngSoGQU23TG2a_PfB3QvPZ6yKJLm5w6w",
+      "AcnlKN3vjN6YCerOssmq_UNeDiHbm6UI8xKyEBBpGce1064s15tsJOswUdhamMA28xxl2gqKxIfPPJu9JawkgSQi6IxYIkqsERwaEqF3javMMAgyyGm13rXLZYz686pvncCxOoLTGhYzBBALLCe7XAxxod30pJegPtWlhIs_HuUmFPmLlEH4NdjuOnhb05dvPaKnFCdmYD7lYCPtutHOV1_Uk6hFgawbERCLYYb-hL9IB8LVqdbMuib8Jlbnd4rZRmk8q4n8OCtzFQLonW6c2pbrbKLEGvHTsV7GwbWx6y2EZPPqWHehCZQVATVgNj_mSYkzLYBH8e5MdqSthSNbi72YcoQIwmwe89QXtfSkN5818BiThZRGmvaKyuS7oK4t8qh7e7SzTxf5Y8fWJnfZzQe48uPKJRYd9RL_GIAbWS1v-nYbXyb8Cy9FfAkqbf0WFFy6",
+      "AcnlKN0m6f9IzrEJuaXdQqMJybjI7DkPnJdEp9IBgEjd5w_k2xgh8tYCd_vey9iy15awPffVx3HLdCavbo6VFeJGT37cs2ZDtk7fYENheBysRWk8RkCZtE3g9vTeR89soB1mfb4ApNtMVs3KZqjoGPgfHbJ5KqvN58dojLlCmCMmqNlZ4wMNYONlflBV5lmiXUy-YobV6FFl0AoTfjLe27aZsFUcxUwOFjVdVVOxZQgRPjCQXvd7zvodWzdEa5sUW_oTwAvbbS3XzqBaYipSSHao7tfRdOif8iDQ3J8-LZeyWGRx7Q",
+      "AcnlKN30PSFeT232JCZZLVy1xYsDYGWhU5342G83qRqgf5UqmSuFfOwfMqC8U_PhDaiGQJ7phH5iBSW4lnslHi3WM2w-JCqlo8p5ETxWh2Tuf9KJB5Ov2O_P34YXC_FqH3QD8VCmE1gJbc6xfmRWEkeGSjUqXLvIbKJADye-MSeApsgc0jRmMR0II0s0vTluuugg6H5iwIt5AECDYvlxH1d3QZIE5oi0eQKWsH0ac9Y63F7GzA_Z-JKQcH_WRZIgdQaNuAcTCP5M1zGeL2nu6TTNq05f5EvJWUXsWnof3KyRkkSOiBv60s1R8jFj5_SNW5J2WEJjPUuK9E14OE0Kat7yulYX4s3EpZR6g-RVzpDlynDkBliZ3IQ6t6AVkvTbguxEoGIVJFTllHAuhxBxbiqJOnb3QySfmkT2PnNcJLsu4WMDKDooX3fnBSnplTozuMDQ",
+      "AcnlKN2TvuYM44iwBVx-VzqJBXSmXMej3kUI10pj4yhIcIytNmqr6_ZVwpdAhWhUhcIpUdYwZNqcDyBa_Qm_6OJK_hghOc4lEeHVN0g1mrznGq88V340H569RVATj2qV3WZfxxrHwfZSi62UiPdy-KsCjm4Wlt1-bjx03RQCe1pD4wD7rznW2qz6IYim6_RgXeGm1shNYcSxUShD68L0z_-VW8QcnWe4ZGd3A3KYpWR3ME8vsYCyAXjdJ8aq__yATVTBr7DMuwt7qWjzWW1jZrxjrmbIo8ZJgxE95omPc7idhiy_9hM9u2zokj5cy8JdQIGphRutlfEQox1F2wFMdUSpIg1v-McYj6PhTxtXZUIllQnCF9qSTWmMY9ir8PIaRU0bnJETBP6mpLn7kx4ExF4CNRM8LNcCX_15KVZVk9FTAAUdhPAueCjhdgLvgZCStg"
+    ]
+  },
+  "description": "Situé dans l'ancien atrium Art Nouveau d'une banque historique, Beefbar Paris est une prouesse visuelle. Sous sa verrière classée, ce restaurant sublime la viande d'exception : Wagyu du Japon, bœuf d'Australie maturé... La cuisine mêle street food de luxe et plats de brasserie raffinés dans un décor théâtral. C'est le rendez-vous des carnivores en quête de prestige et d'innovation culinaire, dans l'un des cadres les plus spectaculaires du 8ème.",
+  "real_talk": {
+    "text": "La viande de luxe dans un décor classé. Spectaculaire pour les yeux et les papilles.",
+    "must_eat": "Wagyu beef, purée onctueuse",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jet-setters, amateurs de viandes rares et curieux d architecture Art Nouveau.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 36.3,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(36.3€)",
+    "main_dish_price": 26,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "VIANDES",
+        "items": [
+          {
+            "name": "Wagyu Gyoza",
+            "price": "26€"
+          },
+          {
+            "name": "Steak Frites de Luxe",
+            "price": "45€"
+          }
+        ]
+      },
+      {
+        "category": "MENU",
+        "items": [
+          {
+            "name": "Midi complet",
+            "price": "38€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 2423,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

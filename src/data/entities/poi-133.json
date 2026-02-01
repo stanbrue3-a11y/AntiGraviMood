@@ -1,0 +1,159 @@
+{
+  "id": "poi-133",
+  "name": "Maison de Victor Hugo",
+  "slug": "maison-de-victor-hugo",
+  "location": {
+    "address": "6 Pl. des Vosges",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8548256,
+      "lng": 2.3661911
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJQY4-7v9x5kcR0nRYdXyKWKg"
+  },
+  "category": "museum",
+  "subcategory": "maison d'écrivain",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 8,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "10€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Appartement de Victor Hugo, dessins et manuscrits",
+    "ambiance_vibe": "Place des Vosges, intérieur bourgeois XIXe préservé",
+    "booking_policy": "Gratuit pour les collections permanentes",
+    "smart_tip": "Le salon chinois décoré par Hugo lui-même est une pépite d'exotisme XIXème siècle à ne pas rater.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.maisonsvictorhugo.paris.fr/"
+  },
+  "real_talk": {
+    "text": "Plonger dans le génie et le décor flamboyant d'Hugo sur la Place des Vosges. Le café Mulot en cour intérieure est un secret bien gardé.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Situé sur la mythique Place des Vosges, l'appartement où vécut Victor Hugo est un sanctuaire de l'histoire littéraire française. On y découvre l'intimité de l'auteur de 'Misérables', de ses meubles sculptés par lui-même à sa célèbre table de travail. L'atmosphère est chargée d'une poésie romantique, offrant une vue imprenable sur l'une des places les plus harmonieuses du monde. Un voyage émouvant dans l'esprit d'un génie.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2uayXQ8NYeMeSWaQAbWfU8Uj1vlu-BUvVAoqXY48fNloJod9GrQA3uSfhZIWuK5hGsREIKtI7VlEdPIa4GaL-jdD5Q0SO7aw_QsbxgXdTU57pjBWEvsjMxq2T6iJNt1wUu7Mnjq_oKEyTLlvNOfzovypEKMODH_856RlvxCgCyy6XM4pZMSXH9PXKnrm_uSWT9n61HSlJaZxoAMJCfsyv_tz58rhMo3Nfz4m7FV5t0tQ2w5JSygH1YETXA-j2pNWYHJTxnZ9IDTT7C3g15EUAnU3Awq39EGxx_wHk6cnW9JyT65ZvWgkp2xCG1aeI151WUPHUqQEOkkfSuuSl2ehL_tLjkR_bXivu_MAygCeQCl92nIB5Md7O-HLyax7-7KTgXUobhJAfUl34viBHo8rZmLjxx4OI20_EAuR_CA-NyuR03k-K6g0upLHCVqg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@maisonsdevictorhugo",
+    "google_photos": [
+      "AcnlKN2uayXQ8NYeMeSWaQAbWfU8Uj1vlu-BUvVAoqXY48fNloJod9GrQA3uSfhZIWuK5hGsREIKtI7VlEdPIa4GaL-jdD5Q0SO7aw_QsbxgXdTU57pjBWEvsjMxq2T6iJNt1wUu7Mnjq_oKEyTLlvNOfzovypEKMODH_856RlvxCgCyy6XM4pZMSXH9PXKnrm_uSWT9n61HSlJaZxoAMJCfsyv_tz58rhMo3Nfz4m7FV5t0tQ2w5JSygH1YETXA-j2pNWYHJTxnZ9IDTT7C3g15EUAnU3Awq39EGxx_wHk6cnW9JyT65ZvWgkp2xCG1aeI151WUPHUqQEOkkfSuuSl2ehL_tLjkR_bXivu_MAygCeQCl92nIB5Md7O-HLyax7-7KTgXUobhJAfUl34viBHo8rZmLjxx4OI20_EAuR_CA-NyuR03k-K6g0upLHCVqg",
+      "AcnlKN0NwCN7HittzCBx9TJPS3EPqtC4apDRV853BX1MPuriN6nPNnxRweyhAjLAKTF7a-1aO3MzeO6gZ2hXkHmbih8ciX3jo2rh8aet3uZBbSVGnQcstWF338KRJGuHlvJhWTkZf_WVcqquVntMEF3MueD9xhSv8UtPjqfyW_bMbCr3GVghtUKSqYvP06EucjvAnnQ2RZMBkTC8Y2cr_DB3aoRL-9SyYW7TLhBPQ4SsCnjekrSQWI9twfai7q7XXGiuhkz5nXVAUMOheNt1gdokrLVmPPREWfw8nZtdQ1v2J_6mgV_P7L7-V0Fj9PhcAMCSZ2xOh6S1Ps-zDQvoUxVHOfZ6A6KyeLho0XrI-FRrhfK7ccp1nXwA1dmjwUwtIm-u4U3P47uez1GzXvJSO8dgRd0LTkHfGg1wRgYqrwjncm8",
+      "AcnlKN0fPwsLbiFGGdGBi1CYxZilFvwzltuOsjauBh4214iNyU-BTQ5NW7Me8VM81r9uqKKOND-mHCDgqtRq5ACd_1gijl4kTKDsg4z00tRtAHMzQ_GxzEyWGqcAN1JULgX346pd62bIkNUnyeSLaqfiZm9olvjv100eeUUATl6y6e4Sd8cZqqm-J1-GO5TnI4fFNbjpnt-1gPKcUQuLmMYKLzm2dpps6SQnNtUFMDawvg6WUVBPIWnzexAv1n5F_BKpJnrLD_0AhdWKuKBSeHTCfNC3xixAe-8qfxRByuAzW0WJ1u-PLBaww-iwZNG6VZ8CkXK1MoUeYDlrcD-hicX3Ym_aOMDGLsFJJOPup0HFmzA6DKap28EdyR4e2BHkkRLCVdpY8jee8YJqJRqECfSAqW95vWMCCiiMupN_qfUpGcdU6g",
+      "AcnlKN0_v0RikjRmPc2fedbRTpZwZrWKOi7Y2FnbTdJY7csXHuG0EJvEahAfw1HW3bSa8menCEnBfqCNJby3llwA3hUCoMHLKgXNycqgtCiAeXyAciLokxdzF_k-B26iYfiOB7mNBTQZdbjcyKSg98FvGHwN5Q0_VgFH0qIIzMs82Sg9x7dkwG0pAryAg2H6UWNQoUUaPn_6EaVJH2fkBR-UzgIuw63sClYH72kwx_XWcGHXTA7QPDragDkZin0jWVs--2_FS-Jey4Tk5peWXJUZ6Dmpbtn7xeadnePJOMy2u0rFY4eYscdUPXoIAbUBFU4mhNS-WGWYLBAQ0FLnzafdJ2rw5DThP082VaFCRPHH_omrEOFu20_aLeOLNyDhsS4iF2d1a2SErE4zA9cUUZ9sVy6ZqlNPgD8fQPODz0to-sBEwnuu",
+      "AcnlKN1LbZR99CagQIREbBTht6exm0Ndz2XOi4UB-zBhBCQ_15k642lUjvlLkUUN_4yi11-wmRT7E5Q7v_qlV2ahE86FbCA5B_RzDsztbaw-36W790uQn5qzWab1oWGsDCB2EjL7arMJobNZsZg8gmq336YB3eVHiYEtQRKK8yhLYtxaLbOKHC_-0a4Srzojz2G_e1d4wMX7SvdRHUAwpZRf5697PyEv67NJEiEggUqTmDJb4lRj4HyZAkTwrVsBylTJTJXqxD78szdTBkaJIfzx6ZL0ZlQHwfcHpzW4iBt8kaMWsyFURSQsH3q3BSOKwIt-uMDW6mV2-QFTK6FOZ2tFjW0k7a8WhcCkBiT22RkFG3OY2oEQ-MBQCvjmlQnNtm-5b5mamvAJnYz0aE4dzSW4Xx1O0g7FoYNc1Oq1hYvffgPVGZnDxVNgCFg9HeUkSZ54",
+      "AcnlKN3C17pX20cHuPW2gLnCTm3yP6YdikWo2FXY-pnG3AIFSJ-hd1gBwvqiFKeifiFCCOD_7reKMhKUGPsw3NhpMAL2hHzmghAHugW5Ofw54i9i-FpfW_uteABr7FrLb1mAtaxF3WQAqnRiO7JP30yOGJw0N29lfjEbLTXXsAF7dtDNrgh7_5kRkcZwLCt8JpHDDjaG5Cqio9ulIE-tqf84bR5dQLCmMRcp9xtSbLQhZra6DyzjVC1FOR7TRHeqxHe2Uc6myTz_p0BKnyiwgojYa-V3cqIckqmnfM1T5c820voHWnn-QgsxpJJ7UMy_8YP2OD7L5RMiR3if_5gbhfoA9GjogqVzXH8dJ0vNUu1Lt-dSg2g_2aImIQjONJJHBNK7M519ZgjGbbHBK_px9MhGl1UA1JJ1OLZgQJGNgMJ_NRY4YcjVhg1ifgoBdNaRW9ui",
+      "AcnlKN0AndrYuQM1Y4pde33Br1AH_Vg5N2H9O_gH7sCM-EtKFP8w7_h2eQ-2cYyCPqzI61gSr-SOlyOoSlAymZ1IyUmm3RnLMbQzNpf4n-THV9N0GFvLzuCxYZWm-VwkPNCu_8WE1Y9Ys0vKqow1MCaEbTNV4Tltdh1TF7JmQucNgeIgHmLkZoVp6QK1DGWvm5tHBGueLr0CGGELbM89Nief-oXAz7wyWPuv_D9wF08iGJd7JSwZaCkrUmCumMNTlJBiHTUp4YU8X-hYBHUpPGOq2rAG2Erj7BmczC56m1KEzeJQ0fEtdBkkJRsOm87VNQyZBDv0RMAv6oAUvfvFdwRqdgRUHNOetD_xoIOH0aHebr3OASI8EHEaCUmXV93R4QVr5Vdu9omVKcQHuzHeCVdlPovs0_Z3rtRB972QqgQ7n7tKlqg",
+      "AcnlKN11FFtHnJEAQIwkwmTDvXwYI3_G-cA_ehgpAuyWA9mCOin5rPKsWHOUaQAkEPwhwx5PbcDVh_0kTQFK2KF8jPUjMzHA_HJ1A2pVvIwHGMpUjCvGbsF_ZGa-k0yyy_aAfZ7p0YGESgKUOFnFmfTlOqBVz8wdXfcRYyx6tfhRw2pHWDbsMYqkCAkNsOQ7TsdGzOt_aFoTjPDNg5I1Fi9M7P1R5tyvhdg9o0awI_kV6DriuSjAwbZ0Fzx-jETPDSLg10ztYpbvRP_ZXhLsS3QaEtKfzujXwiRXpGf5mRXDK6LOpsJFqBWn8_aykr00YyRNIXaTmm4QHjoz0gjPFwj25wMwacIByYE7wdzXhnDB0ByxH3ueP4Oq2IbR9P2FZAfj-45Pzs4auB4FciMl_y2Q7pPI6J6SueSYhIDoYAUY8d0",
+      "AcnlKN3ekftpmsHkgq13S8JAb8fc1ofkI4jH5q9svAhmwXtH0t85QvWTu2ySC1Le8lYEl-FjwWIP0ZdamxX7pQPcWMr251naZdMgWt4t-PTTUQ7p7dDNwaafczkAnufzhwkdxg_Hka0ZBwZpEDELqVc7cBl8WCJ1WXMdcujRL0QWI37ovpJLIxGX_h3ekCAmsncllFeMThmJVskItc6NNg-NPvYWdgimv3GL8fPl0MB6Rd-10Hxa9-JEgEOjKRcWfCpLbI60rvkhXSTzGiIUrWj8btnpxdCR-szv1sZ3ZbrCcnba8z_5Jr3cIlnjiJlHif9zc_VfoGi_HuDd095wvCcmy9YL6VbDIsBfz7Ox4PkA_PmgN4eZ7tbrbveGcxNNjq0-vhyCskuTH33AZzH6nZBE8SPzRcw_1ZttomJenPLNiMQHqNIv",
+      "AcnlKN1A8ruGazHd0RbHjL4Ph2HThcFa7adBHWzXR6vqb9cTqeZK-Ii5BfqAUlNFF8nLeqY091-JqI79aLuEAHet-UNusTNPDGp_l1ycTXDOC_lTu-y9eu4viQl5rllmqo0dHj8Qaa9LGQUd_bqWpND1nkGU280OGZWyjTEruvu527Uh6auuJgV4leOJ3rYkT6uDMLHeu7NzxUM2zal_cqqtYx78dqBj9vkD8oeP4e7mFL7ZQCFa5vAynO19Uftt-UJaSvfYaOBxwCkXXcE2GxQ6Th6xyQ6Ixe0FGhqTrkDHCOHLGxK6NDFgh24zV2yROX13Qgq9SOAjnTTnOJ9E4gu5E6uI0KvvymfIf7-a3MiJgNJDk3KGVdax3RTGDgoypsVEn8oqV-xx3QQzkin69Jty6rafNO73tYDg_rtSS_NevBLurW7B"
+    ]
+  },
+  "social_preview": {
+    "like_count": 522,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 31
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "10€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux de littérature, admirateurs de Hugo et touristes cherchant l'âme du Marais.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 10,
+    "value_score": 74,
+    "category_percentile": 26,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Collections permanentes",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Expos temporaires",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 5104,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

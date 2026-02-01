@@ -1,0 +1,130 @@
+{
+  "id": "poi-195",
+  "name": "Musée Nissim de Camondo",
+  "slug": "musee-nissim-camondo",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8787,
+      "lng": 2.3122
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ6VmGh7dv5kcR32uxgrtK3Z4"
+  },
+  "category": "museum",
+  "subcategory": "arts-decoratifs",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 682,
+    "moment_count": 64,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Mobilier XVIIIe, cuisine d'époque",
+    "booking_policy": "Réservation conseillée",
+    "smart_tip": "Les cuisines au sous-sol sont restées intactes depuis 1910 et sont fascinantes de modernité pour l époque.",
+    "bouton_label": "Site du lieu",
+    "website": "https://madparis.fr/francais/musees/musee-nissim-de-camondo/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0B5s5DNC74KbX11Y2RKuSv2ZB9fjpYgehObRMy087xyLO4gz0KeKx6r4pfJiwf7aFD2RVJgCTyYX8ndjxgByKJKDXQbbzBupqVg6Ru0jhRc7VMnHeU9xqn3N_-E-ugnFZknMas728UqMA5QGJnAZIRQPIHTazq-0SjrUr39DcJCy_LldG97J5WUtDOADByBywoV0xZkRcjz-3hsH3OSyEfDTQZ8mwreXCzGd75lCGAhToW1jd88XnaqiI_bQG6o8uWPeo9D2qc5qlxtOrty_s1MVvvXhAsAR8AB2BGHHMcAw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@madparis",
+    "google_photos": [
+      "AcnlKN0B5s5DNC74KbX11Y2RKuSv2ZB9fjpYgehObRMy087xyLO4gz0KeKx6r4pfJiwf7aFD2RVJgCTyYX8ndjxgByKJKDXQbbzBupqVg6Ru0jhRc7VMnHeU9xqn3N_-E-ugnFZknMas728UqMA5QGJnAZIRQPIHTazq-0SjrUr39DcJCy_LldG97J5WUtDOADByBywoV0xZkRcjz-3hsH3OSyEfDTQZ8mwreXCzGd75lCGAhToW1jd88XnaqiI_bQG6o8uWPeo9D2qc5qlxtOrty_s1MVvvXhAsAR8AB2BGHHMcAw",
+      "AcnlKN0zZI-Goe4mg2qsycbksxRnAm1QYWIjthorSWiEgpnWD1tK-f79jLKEr-jNv-Zfk4jmfkZXMz911R9uGG0X-EAuqKvft4Vf3yNDzvO_PbJC8W7qBrhBKIW1LXrgBGhXQymJfWQl_BQDK3aYVgVz13_ykxQY4fPoq9I6PiOY-TRFsgoGaTmATUxDdNFuW0aGOeswvOBuo2Pw-tITOdAb5mF7xFqBMTOMVo1ERdQJxdLFLnNacQopVF4gQIxcWfo4hg9VWdnUBI4dtyNqAbHKszyJeGjQxTx68tu4qUvYSB8w-iqsNCe5zrFoRHtztCdoaP3ws079j1yQvaxCFSNqczKWWBC5jhDgCIS9NJqZsSo9GUpup5GtBxuXyn4xD73ZkW5hUfkd4bOku3efmaLUydKQwgY4AMTQLdkdINlShZaijw",
+      "AcnlKN0vqlc_wTL7H4sFZykuoWOLKa9cJjrJEiSjb-J83Jq6wVlZePk_UrMQKdbvg7wjM2I82qlM7UVnpAq5mPYAoAXiO9BQm9OJFQJlzVIheWDlW7ygxjyH3Y4lSlBB3N0RzjPXPSNGojxrbeld_hX_pRWS5JsQiOq1dKZOvl3ixsLu3yYFD-yR0lkwxC6bT4w3tXKpZ-zIbs-ccHqxQYDne035VWFArlKo9NxGQ7XA-BXU4XNYh-_85ZadW7b_TXYm9FwahDCcSz8MxaeiFaC0vjLIWlnSX2RIYAtSHkK7vTyE45dtT9zS1oDS08EE_waCO_oy5CQ4S7A3JM3HqgK4IJ84Qjp2HYqF-G9pwPYWmwb7tIKwxt8LxXOdf7DQanKC_qWF-8o5iKsS2-JfT6tHaIrRtIpujUPCdo2AIcsUy6kxYKvd",
+      "AcnlKN2cisc-LvfKtMvtMSp6s1kG8ijEjq9oa0-8B2elm1kR-clTEW6py7fZKYS_NZk517QeBgoIyWCBJgNwBS0Ixk93BSqntvz8nR70cbKT1-vwYvPd5zT6NHRxOe9uR8v47kn5to2yHAEB4gqUzQPTRf5ieC2hkSDAU8IUXEEbIfdhJBAhV3JO-nnf14uoKgOKK84YlrvV65PWjT2kLvl2sbOU4pvmNT4Q8DRZOQOCT8nyHCdBnsYTIzucq5ZVSi5dvWeL2SwTmReQohxFiz6UzAMXJxrHCUR9C9jf1YkmZ7C9rAp2ZObOk9MrbgC9PATLGHpctft1ExhhjGkRfBVXunLqka97D_p3bWMwTOT32ByHoYZbMbLpy8dtzFs9pEkODzZYQ5zaDlWQ-mVRUG2tNNFtgIuhnzXXKYfXaZ0pK8Nrqg",
+      "AcnlKN2Bna50hmhlTumZ65pEduJ8uMOSYkU2q7TotMpEyshAffL19cJlB3-2wnBDU-xwxAxN3feI6CeCdc75mVLkfdrJtl4JkRD-aDVys_f_FkIaFTDRTxusOB8G1xuSVBf0A9xhHkZ8lH3ktT2NebdBSaqARUeX_aZjI-QvZ0vRNpdEcPSfFlCy2h2MUXJXPI7AeeOmsD5mtnGVSUcH3H-f-7l8iVvdFVx34T3UMXautIxGptKNkTCi7v2IVCZn7vCO7y0fU91X1P9Vjn3xILgG97AsMBN1H5zitAFmR8n4sh95AxKOiyRSgv2-6U6XlLb0FQqUHV8wPpO5X6_kjREymFUHnOauiBDWLbNCinT-IesoQLPaRSy8_Pgrty8lbuuOLbgd89i2iyjtvx1x4uLZXJHOoEh4_MQqtIUWmsrpUhI"
+    ]
+  },
+  "description": "En bordure du parc Monceau, ce musée raconte la tragédie extraordinaire de la famille de Camondo. Dans cet hôtel particulier figé en 1910, chaque meuble du XVIIIe, chaque porcelaine est un chef-d œuvre. On y découvre l intimité d une dynastie de banquiers passionnés d art français, dont l'histoire fut brutalement stoppée par la déportation. Un lieu d'une beauté mélancolique et d'un luxe absolu, offrant un témoignage poignant sur l'élégance disparue de la Belle Époque.",
+  "real_talk": {
+    "text": "L'élégance aristocratique intacte. Un voyage suspendu hors du temps.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Passionnés d histoire, amateurs de mobilier rare et parisiens du 8ème.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 73,
+    "category_percentile": 27,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(12.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Entrée Adulte",
+            "price": "12€"
+          },
+          {
+            "name": "Audioguide",
+            "price": "Inclus"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 1753,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

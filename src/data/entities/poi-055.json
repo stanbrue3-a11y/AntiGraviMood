@@ -1,0 +1,152 @@
+{
+  "id": "poi-055",
+  "name": "Septime",
+  "slug": "septime",
+  "location": {
+    "address": "80 Rue de Charonne",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8535723,
+      "lng": 2.3809333
+    },
+    "google_id": "ChIJE6kCUghy5kcRmWSg3RUHIwM",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "restaurant",
+  "subcategory": "neobistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 357,
+    "moment_count": 98,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "réservation_obligatoire": true,
+    "terrasse_extérieure": true,
+    "accessibilité": true,
+    "téléphone": "+33 1 43 67 38 29",
+    "réservation": "Le Graal : Résas 3 semaines à l'avance à 10h pile. Complet en 4 min.",
+    "ambiance": "BROUHAHA (Bistronomie bruyante & vivante)",
+    "incontournable": "Menu dégustation de saison",
+    "bouton_label": "Site/Réserver",
+    "price_range": 3,
+    "bouton_réserver": "https://zenchef.com/results",
+    "website": "http://www.septime-charonne.fr/"
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 145,
+    "main_dish_price": 85,
+    "last_updated": "2025-01-25",
+    "booking_url": "https://www.septime-charonne.fr/en/reservation",
+    "extraction_reasoning": "Surgical Verification 2025 - Official Tasting Prices",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 85,
+      "label": "Menu Déjeuner",
+      "source": "verified"
+    },
+    "menu_items": [
+      {
+        "category": "MENUS DÉGUSTATION",
+        "items": [
+          {
+            "name": "Carte Blanche (7 étapes - Soir)",
+            "price": "145.00€"
+          },
+          {
+            "name": "Carte Blanche (5 étapes - Midi)",
+            "price": "85.00€"
+          }
+        ]
+      },
+      {
+        "category": "ACCORDS VINS NATURE",
+        "items": [
+          {
+            "name": "Accord Vins Déjeuner",
+            "price": "60.00€"
+          },
+          {
+            "name": "Accord Vins Dîner",
+            "price": "75.00€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "12:15–14:00, 19:30–22:00",
+    "display": "Lun-Ven: Midi & Soir (Fermé Sam-Dim)",
+    "detailed": "lundi: 19:30 – 22:00\nmardi: 12:15 – 14:00, 19:30 – 22:00\nmercredi: 12:15 – 14:00, 19:30 – 22:00\njeudi: 12:15 – 14:00, 19:30 – 22:00\nvendredi: 12:15 – 14:00, 19:30 – 22:00\nsamedi: Fermé\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-lot6-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHpOwXohMaLQQdjBoIs6yZEB6ggwSVqmwHrZ8-8pTXTPeQvhAGb1i5UiwWrJsnqk2MzCGdQALJcdXFpFgPTRZp91WaNp1O0FcBpm_gf6vRnrV_9q-uTt1nQBG2lFKRexlSQz8c_BBHri74lb71hhLpnTb1a5moZNuYBr5DoMuVEqJJYWdllG_8RDuty8TE32UDdqCL7juX9CfAd5qTbXkvOsp5AkC_6Fs4fPDWIZY99mhHX2cOSvLuQ2iajLGFqv0f4ehXVT1NhCh9xfLVHFLqLuqZGA2288Qmh37vKOOR-aMY61miXNmMSvRdWVRsMCwgztopS6zVFSfmDNz-qD5R48YLCZNhWVME5rJZq0WWmJYbSSVbcq8ugwE5thLu_gHIBpZz1N0qnK10rWblLDWbWmoVwEdKO6BptSGZ3IOnK9QA",
+      "AZLasHp-zq0diqcBJ4L-sCVZrsHF5hJu-46UlZM1Yn10Ov64xOlZxfCJAgrfjteNX_OXT7iQWf-y87Cjg-18iosLLrL_bIIHRnsKZWqXabpUeDbk5ThzEJzNql6SGKD3aOG7z0F25QHxbtKo6lt7Z1-BUuRSEfkekuACPXH5dP7g30i6zPOah0HbPIH1UwfalqCZIc9K0hU7idEnpKlruKw0vyFiDy4bXwtoF3c6AoohaUZPlyhZef4FDj8MTP2EvKLmkVKFb4PYqK9XxkFlW02oY-Yyf25NL0-4-uWLx4ibmgAhdPxHL-ph3bco6J-SsnpA1VT97CAhKfURzz49KJW8fi2zr3d0w_Pwh01wd5qBLb08q9LAF3RCTaOchCcNPqyi6AEfnzHRm-vAqIwPePNUpPL7jOVKLeHnXh7Ij-neSI_01NeNkv2-KrWcJgtf4w",
+      "AZLasHoCK4UkGXbS_-_E8VYrmQFtA4C-j3FPaN_VwIyX5Lz6vp6LFYWSif7WnKnY77lJvu3orOgn2tNK916DlrHgyW9yroId-MEdQL0xw08PPvSEEazLuDPw1VyP6hs6lsS_0-hkCg1p5ttGQ6YTG9lmoR9xRUQFYSeke1Z9pkm1f79HL11zLLXf1I-IfE0Y0SNI-ArZ3IstdMNJNoPhSFrsVPuhJx4kQB1CEoIuwqawKsz02zFxzIRwXCmNfs2KqWYbJ5bxKl13RYskT0C5BzK2wlRncyehkbgU75XD-lfTCendaoLUpYeS6-S6lIIzv0f-Ljk9GRJvAVcCCXO8oBPaUr3R4nYaO_CGlO9FARHkQUqzjdMWLczDNmiBHL5gcu4FXyQvEw5W3Yu85UFomUiMHSH58hRU3vHilGcSH3hxXJo9nGA",
+      "AZLasHq8ngLHfT7snfAoZgsxsWabhqPfvOTf64uYtAPoHeDP6ISzmTKx_HwzOXjprf5ydylfoo0vWVxvA098z-Fd9wXJiB_EEQIUKEsDrM3NxrWKLmkXGSud23lKmRfq742CRkI5JgMjALxfXmqWNLqdpdXZ_NpSEI_t4n6giioE4qhUbSvrcjKOjbg2uG7pC0Cwz8uFKeqi9YqPwf5YaVN9FP7W1FNDV_bkv2SXAntoRJQwbVAiTL7br4t01xvZk6UJITA0TFEqqrEjZOXM0JbFyXi72eiZFuGBUoJ6cMH00BN-RNjys_bPEX4xLKrJYZW1MZq1nwgZ9_xf5XU0LYB9bEhSjqQM4GwTyp5g2T_28Zoh5klrgnY6-OY15fjJwggCOJE8oQ1O6ZFLfBbFQ87g4i8JaWEOu8B90Okt08exeFapsx4_7aBCXEdXjLVWaXfB",
+      "AZLasHoAF_Vs0ldOdLTcoqmQLRPRBxMa1MIlb-DDU_RTPCGgxFopxMBLpCHUP2NQbXXuAhNyH9z8uHF9Mp9Ny_1QE0Aj3H0V1s1MZXU2f_dQd4MHpM1p5vbBA0X3GMqGeDOHzl7FTmYCrZMFd_4nJT-kswX_06yNGtOchqEE65NXGl79aAz-ZanB4x2zKJIf2dffoYG_gsMjxLi2SGWgHQhPLG4J6DfFdxyTsXibH9KWaurjkolB1xczbFHxZjkt045MW7mE2q2xCqoi33PvjuLkQL0knHZHi7ga5jcGMk43HmRo02VsfjsKRfAfcyQZq6PaTd4WwHpVmg7et5Pw9O6mAZwBKidK8oJNq5k9zukhAgJkJ2Qejxvk0Pz0e0Guf--F2Lc7l6CYlIDX3u5ZcG2nMTo5KFSk8y25_uQJ1JiJzfAmhFIgD2Tzoa8n_bMeTK0B",
+      "AZLasHp0vPJ1qy40sIEnpnOqRYl3HgiQ2E_fik3ocpUiWeOGglUVF-a0TMVl7Ny_A3yoPuGhfmE3RJw1cjXFkAPGny5bujMnxKcLdgSPXl2VGcP4OTKLmO1m0V8O8_VSOUB-Vge9nyBu710shv8GvO2wPw5jVxzbJpfWr4QW7qLOdy1uQcLWxLEevEt3DmXabMiwO-DotzQ7t9Wp0RGfNsXyDDCegeiMGU84v1UxeLbccoLf-kaAQ5MMurpkU1Z-7fJrpDO85HgZlJ4RGlFU-EY1V3X771gVvPORfq4imrijNXFNmIMUptNUF1l_U4V-N1ximqvOoa62vzb6hHrsOgXoW4k1TFeyOBVPbdln8Hb2WIkgUjtGOwtUM4sMp-HoeymStKYzwZ0RlQuZjT8iYekCOhnwOT7NwG5QcAEQa1l23jPERQ",
+      "AZLasHpy1Zp8kFR6gfhALndIFVJfySfwB2xLQ0nTe-4cIIXZCAxuE5jHcCHbFBDXU3jfVzFgO_k4t65sBxNGzMjbrtdEXf-QpDBJ2-yuAdy8fj90W7GIWFtORxgO2C92RTK05GsXoQ2CC796b_xwiz-0QUfzpw9IsIpcMU6b2xAmM-ehNSvnGEUoTvWKyeypDLJMB7HVXjkrYe56wxzaPes2ZLXVb_yxABZ5w6XWcoB4v9AohFRhCEaQE-hA8_2WXqy1ceAAKTlmKd_mLcNbAPDalypPiCp0nhnuPicT0jCDXXD3C95EDK4MkgnQoGJnQ_AtyIRqZ39S0GF6XQzOwfWl9VeF0i4UeJvwkpv8aDzLB89SCebqbqlcSOUakhJTSP1YFGF7XBhK7ftmfHIRWdigyPSCZVkDD53tIXAzQ19KgsASqNczSyHFAHPfg9Xb-_H9",
+      "AZLasHqzhscCXJm1h1OEt-7XdKNMxRZftJjdpRJLIUqiaAz59XFRjPg8nmjPXET4Jnz3CoS0mPqP7a_a5420cdDVzcd4uRDGqpBZYAksO0TCPtmY2ffq61bb0XkHci1ssNH5BxrnW4vTP5shVEDS6rPYJOLs6kxZGaVLijwTuVCnim7lkR89X8X5sloFQqjhYHHjvwt1GgIY36I88vKt99wziCoxJJKH5Fh-sKBE60SdCXnytwtqSs37viku1Xg74vVa_g2ZJjYF380J9I4qJ1Vkm420L_EVWbEV9ciSx7-qEH8DVtI1RCgQSe0KpGX7-vK8dmHdTfZDl4DFcsoj8le6iuEH_YBqgFqKg36w_JJkni3nqYIbjrxe9MUfchFkVCgQW0uBVHxfOllMUfzGDqZzIZvTkSJK9NZWpL7bZwxZkhajfw1zRD5N9Shye1T90dM1",
+      "AZLasHpgEjjFTdzcog9v743npHZTlly4JutD-cX4Q-Zg2s7On7CJiCpFd-CYo6YLtGvt5gFmWaSsdVYeKZYMkyAS1lZvL-sC1J2kxXPeQQUWEJvOUg8qfsZlzqxFBZCqCcSePFZx-aMhg3-GjEtDWL6opz1X-olr0PywVJ4dYdbs-3ATGUxunF_ePPb9obO-f-aZr61gvrQF6f094fMtLCiQTamF2OIgeuU6-7xe3ikTc4YJAjn065XwPRAdgRHPFHZS6QW3IofdU4ZMrda0ijs_uDF6uTPybsFF2zPcr6wKuXQf502A3A_PtVtjCUOmjFh3kwq5sL4wiCxUh0A-LRFNOvVFwTxcbdhDhEekZ2u1rY1gGTLYX8lSK_k8d0DXdG66N5szQGVq6fMKaeRk4K4PnquFb716GLSZzhSX_-n_GPz5ys8BBT0RoVptDpC2wvnx",
+      "AZLasHpWVtisMfmkib4RrPUO2aenpKYXKVCyRAzh1Qp8L-6HNV42pBtJOnJ7C8Mzq6j4VrVdH_Ymotymg6XoKfimk0KBHn7CPRMz8HKDbpjSkEhtTKjB8i2hs08bi6aAyUwvfDTJ03fXeuctxgu7VZFy1p-w5nXQo0F8BQo-sjkC-Ap2-gC-TjgGwEYLflw3GLpMApzZdAS-p7PmjA3170QZnn_2wew57kCfRhpNkYtwV4b7Zk5jOviK6htDQf-rEd3dUUfMMh7QEU--zxH_xpGMglH7faAuBIr_Ci1-IK4sqlg9ijcnTSavhhpSFTwP_-nsi2KaBQ_KJNFiiBn0itpvZEA2Zqa_EGch5j9GV78ocRpW2y7MctV2BhDE3-tNtl_IHwDBCAyG3oKk_N2htD12SxsirG40QXjfDwjfRaDRxt2uFy5jJ5_48fFp5Y1_38us"
+    ],
+    "instagram_handle": "@septimeparis"
+  },
+  "description": "Inauguré par Bertrand Grébaut et Théophile Pourriat, Septime est devenu l'emblème mondial de la bistronomie moderne. Installé dans un ancien atelier de menuiserie, le restaurant cultive un minimalisme chaleureux avec ses tables en bois massif, sa verrière iconique et ses bouquets de fleurs séchées. Ici, point de grandiloquence inutile, mais une technique culinaire d'une précision chirurgicale qui sublime les produits du terroir, les légumes de saison et les vins nature. Une expérience sensorielle brute et vibrante, où chaque plat du menu dégustation raconte une histoire d'épure et de goût, attirant les gastronomes du monde entier dans le vibrant 11ème arrondissement.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Foodies internationaux, critiques gastronomiques et chanceux."
+    }
+  },
+  "real_talk": {
+    "text": "Le Graal de la bistronomie parisienne. Obtenir une table relève du miracle, mais l'assiette justifie la hype. Brut, technique, sans chichis.",
+    "must_eat": "Menu surprise chef",
+    "le_secret": "Réservation obligatoire 3 semaines à l'avance à 10h pile.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1335
+}

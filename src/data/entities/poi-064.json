@@ -1,0 +1,152 @@
+{
+  "id": "poi-064",
+  "name": "Jeu de Paume",
+  "slug": "jeu-de-paume",
+  "location": {
+    "address": "1 Pl. de la Concorde",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8658502,
+      "lng": 2.3241019
+    },
+    "google_id": "ChIJY-1URC1u5kcR8e83AIA5Nhw",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 189,
+    "moment_count": 51,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 47 03 12 50",
+    "google_maps_url": "https://maps.google.com/?cid=2032875503726620657",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Focus": "Le Temple de l'Image (Photo, Vidéo, Cinéma)",
+    "L'Histoire": "Ancienne salle de Jeu de Paume de Napoléon III",
+    "La Vue": "La terrasse du café donne sur la Concorde & la Tour Eiffel",
+    "Librairie": "La meilleure librairie photo de Paris à l'entrée",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur moscow mule est servi dans un mug en cuivre bien givré.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.jeudepaume.org/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHo493F6eb8JCzdaf-94mz66WvxIHN3j-FQdflQNdhq8muVArOaoNyWRGBEEAt3oc3oxPFIM-eG6-khPfRuTxe09-EoGgB2ozG8KfnVIZejxAOcHDKz3RwchZK5ziwryt9fChE-Odge0Nq8aEziIKfPt8UTRKtUP44p2QmvPk2MsiEZT5I991WNoyANciWrKVo0JTNhiUnVK3ze_abhRey_Vgcgjs2LjJZQnJUvJIFy7fihdtNfM-oiwRgTGfD4BbN_Cnds-c2NC3i7qj7Ho05iEipBkdXm6OC9nkmtA2Apk2Q",
+      "AZLasHpCqbn_39vZ3ICDJC5OaUt57eThAQzJQos_aOwU1IvsgC4paQ3ZDwt5crOLedfHPtWHT1MK7GTqiYFXNvscMrMX3gzst2cHPzIxrLS3L9duR9UE5-tvrZDM4Lox2DQMY-MYQ3-5rYkKcFZcJw1s_Zq8fvAoSbn5bXAA4rVY0TLOyjKSbRHdVgizw_pZpziW4Uw4RYmghzuNyAhprHN8QXId4c7j6LG9kwVAeSp8ydYCfKTYmO2Ksn2_Nd5WGerIMVLzeB7Ca0ldF_s8Shvl5Qiz-gtsK3mcJ9x83kkU1apQw0KE43N54CMjf7qFwofeoVAvKZJ0M0-fyEdVal9kEDF4uyK5n7bHecyE3TgNfAn3W98tJymNfEcymaCtIWnbkevyL9TgxVBOMGC55id268fhrFCag_ayL0uLZH5jPuYkVQ",
+      "AZLasHq8XBl6Q5wyVz52wb5LZvcAU6DxWOBauSOe7zzlw3E59WC6hiEinN2jHcxdoj1yhtZKJtD58NPidNXqmEhl3TAavy4e6P2NldzYn0quxDPRRzLIARhoQA0Q2GAD0HG1fE7enW426jos1Y9AXWrmdbxG-_0uFN45WZ1Gw0yvbpuc3PK6xGeuu0FTwfRnxKjNmpLn2OHf8u4Ow_5ay56XSBpIkrS1YdVhAX8kWFpWCPobNBrlUcToYybP3l5ijCyWc90ro40TxTXDyT6WBMhLG88hmW3ddq2HE7C58rDoK-8F-asncNURTKZHWAPMfxnpRqLemRsa0xPPWZtoS7EzmoBwuDlc_AcHiGh4zIb-TcAigDzzFKuBfJ3HbIcnN2XhRgkdKtouM8pyC_iOvn3_X_0lE6RhlXSWDioBugJTvKopxAp_ExUBYdi_-ttty74e",
+      "AZLasHp5AU9nuNnrU40SDxPIdoSSgYAs4SSXxBqzMntT2_iwE5t7dkauyWpCRf19EJj4Ny5aUThjj0J6eKWq96Zbae1p7vuvoOF57eyZ7LWDhNxmkdZ598Il9hYw18OroHhXNDu1wm9J2Btj6A4sFIsRBhovMSPvsnQdRKURfUBWfVxp7aVCASjPWEZU6RAis_D_C48hiNo0fLRtRLbOIa7SHsFYSqRFrEcVvzjTmuFiGklSEjRwabOJttBUOTmHdlmP5M8ETnnMVf3rO1YxKWMPn9tx_6Fzs14BVhJVfZOusE-GdfzGcTjmSV84mmGME5-NLYOzPMvRvURshlJ0WXUBI2XIFQcrQKxoOxF_Q5EUiEsahtlcwLdULh5H0ASiik1hKzz6OYb63_-7SALfMQGjpWZBEoo2auXqeEccxRXFHa_ZpP5G",
+      "AZLasHpA3x4a6Zx0ewi3M8CZiUgZXz0XRE4oeI2cnHwWeCTj3uWiqaqHXWch27ga7-qRtDHIaaoctd8bQSxXhDsitVdkm58G6Sg4JGsKNievbzrzYNrWVqGFqUg-Exqn1HH--P9MxHP7HPvJDla1CJEcaZTbLjIrjsVhLfDXSTRxoLUBkFU_x7KDT_WrJiQUDyQ51dzhPvNwqcI6Wb68wlJxsuHVw09DViDb5DJ8yHDNoEfwPUQhIgVsUUby09-j1I00weZxLCfj5Ni0d5r7ONfYwzqdqrNEJIvSB-xf22qJ1xArc51NnnzMNwdHcL0MlfhnpyzI9kKVAxej1zJTcXuA1NwyKVSK8LdHuwu0iudd9xkpQoVIDTkTaDCqjhzyEo2KOnqqFLQakexNJFb0VWMZ1sroY3YCDA5_YMm_8GDjdavUGKjO",
+      "AZLasHrv4JqQ6igLIFUeTE5q5oJn8oHUJtORekOOAWyi4q6rUDMYtX0k6AppXfdyP8Fxq9g16ItKtAYjWYSUCJqJEUsDAyuf-7y76gW_Y6OxeplHXCblEpT0EbIUK-FBc1DxFf60sLYo7iUEeGHvWy8vwZ58VAbgj4Rlb8DMa5d_L4HlNKRsfYtK-QaL9aRnu88kewGZ97LQTMZT_xDh3fCwCAGzH4Rsih5aVYjOhqbct6I3XUCnl9-rMiLgArVvJoY2N-NEV5E10FPO0FIZmtzehOmd6xuYKXfpEvmzmK70f1-3N9_gV4xG1GFuhusrpHe_L00BDcrDFpgA5MvVcAHWtL23ilOC4GVvDJVakIW4PYhtsRRn-OkF56xMxp4SAQfq9Yda8bvOxVxXuHXzT0WTA7f9LHfaRn7j9PuAsLbjJbw",
+      "AZLasHoY_Z_ck2BOqE32EnZ93kCkveA2-qnih6J1Ys8XuNOE267Rc4FWuyJC8WVglN3UT5Wu42VjO2epmyXsH7-hjXtC8wScou50cChT9YoN5R3xOLsAUcNC0qJ-deCyu5tf8Vjjz1DnQEX4_XXLLAkuk5QeEStMUj6JvoIhY7fJK04X3AZrsud-dBmAVC6pOt0YSE8uQf5jbFZ5MHyivrrMc4GSzp7dVi9zvgDp0FciFnkemst-FWHCAXA23wIkVEM_owDapXNDHGXnLV2CTRp3J5ulYgmGfUFYetXHPxIoWfZ3uLkNf43uyVQucY-FA2oDu5NOkX6zsS4hFs5yDH1eW-NRaIcYrzyPHKSDggcIVD-zlDa8KtOAILl1eofG7VqsnpcyxKIFNbqeEBWzvMr2d81PZZIzIgL-mtU9IUNBs-w",
+      "AZLasHqDX0RG1z_dScYamWe4Rran_pGa8orEvG9OdC5Ohj_m7SwfACdP3StrFfqX5MUKqV6nLnLz6kMFBKrZfA5v9nsZFQ7lhrI-4f07p3co8j6uO_uCIsZV3FX8cdvW_WhTbHhFoQQTbkL06wccpMTZO3oW3kLZ4N0GR0c4IfoWAX4xL_fW3lgK7oyzt-7_p5BKCP7Jxps0jxSZDDOBAM2jGOJMs1NmU_T1ORIE-BU3sZFeT5DyJvAQWPXy7wdH3KoD1XqOWTZzXC1ssDJ4Ij3K657iEhdEo-3xExumFeM9XfLTfb_WqfulRiUUdKNtD1jQtIhtdmq2n24zKAdsQjZ614Vfts-A9XL9I0bM9C8artGRFAx54Tf7wnrkuxJFSDjaRQ2p3sI5N4PLCl0_voBZQzI8qj6u-8WE2OuuLLpoiQfPvaGT",
+      "AZLasHqAmYz1jhinLT9n1MpNms2lAVuGZBANdDSxtAVD_sfqP5ttJYRw0kqKUzkXJFqNYR14SWmChbMdqr1ZZck-yEukCA5AMv0pKCdveWUsEPo8VXwbD8Df3Lv6Tm50sdvZWiQx28gkm3bclpyqsEiXTdRsK6tdLJDOXgrkNrOsxUp2m9SD0vXtH3YBFhWLT1eP0UwAC-I-O39qPa80jZeeuCy_nqrBA02SUL3QitYynzBAQMJx8N5t9Jba34z-YVVGsoo2a1PmEnrku2AcIaf1TpKglZ6jXYYl2DR5NKI7-At9xQ",
+      "AZLasHoTQ-UZ1WjvJbguutZE5_3X_s5KR19V-ZeMqC0FQ5VFDYZJYrLB--xouefH2VRvco5hMDyIbIbUEigrwztg8cAcBwE8imndc0BBvtBpRVR0wCylmYQ_ybLMU0mX0SIXFrXlqtU8dmMZYS88C2gzkiqM1KFZpMW_Rs15fdxsAc230ywrA7wdstMmr-cjgU8HwbeMyQqXafAS6ZBusLy2o6GZqmCJnrbEk-0G4Dxo0WfR2vUc_SWrb-60DZDfOh4Wj2ryn5kTkXNQKG5SmwgApc6GhLgzPZqH0ntXDgXN3JkzDbJXlqEdiBNQu_IiYXu3wPrn70hUUJVNCU1sm43WkMqr2-UYwxq7JBNbJgBObUgzHMIyHM1M48yXE7iAnUwHGuTFKeGmv4DymU5_e5r7qS6mZknXCPxen78_LanyfC0t74Vk"
+    ],
+    "instagram_handle": "@jeudepaumeparis"
+  },
+  "opening_hours": {
+    "standard": "11h00 – 19h00",
+    "display": "Mar: 11h-21h | Mer-Dim: 11h-19h",
+    "detailed": "lundi: Fermé\nmardi: 11:00 – 21:00\nmercredi: 11:00 – 19:00\njeudi: 11:00 – 19:00\nvendredi: 11:00 – 19:00\nsamedi: 11:00 – 19:00\ndimanche: 11:00 – 19:00",
+    "is_open_now": false
+  },
+  "description": "Situé à l'entrée des Tuileries, face à l'Orangerie, ce bâtiment Second Empire est dédié à l'image contemporaine (photo, vidéo). Sa programmation est souvent engagée, politique et documentaire (Dorothea Lange, Gordon Matta-Clark). C'est un musée à taille humaine, lumineux, qui offre une pause culturelle intelligente avant d'aller marcher dans le jardin des Tuileries. La librairie est l'une des meilleures de Paris pour la photographie.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de photo, cinéphiles et critiques d'image."
+    }
+  },
+  "real_talk": {
+    "text": "Le temple de la photo au cœur des Tuileries. Expos pointues, architecture historique.",
+    "le_must": "Rétrospectives majeures (Souvent très fréquentées)",
+    "le_secret": "Temple de la photographie à la Concorde.",
+    "le_son": "Ambiance feutrée, idéale pour discuter."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 73,
+    "category_percentile": 27,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 2317,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

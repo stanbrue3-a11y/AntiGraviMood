@@ -1,0 +1,141 @@
+{
+  "id": "poi-168",
+  "name": "Chez Gladines",
+  "slug": "chez-gladines-butte",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8295,
+      "lng": 2.3503
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ5cetAJFx5kcRHTPQJOp85p8"
+  },
+  "category": "restaurant",
+  "subcategory": "basque",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 324,
+    "moment_count": 11,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation",
+    "smart_tip": "La salade Gladines peut largement nourrir deux personnes, ne vous faites pas avoir !",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://chezgladines-butteauxcailles.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1KfDpbME2aXHBULXebajqcekiaH6LlW9Sl-dwGUuB76tLXExGaw5mkiTOC9Q8jDxm1TSr6YcLNMS8sHM1vfjZC-Eb9FBU1ZUGUqZJ_V3-HFVnlyIu2hD-Upy89_R-vBIGpwLQw0POSQXZ4PCJ9dUqsomEt_reE42onYBjh1IqxAT6-U9SuI2fmNmZDQikFDIe-s8ANtJbtyRuNJkZuQu4PHYVBCyYVyCZqwcrUi6lXZGkrMeau3Y2cJ9Ur3WrCLjQf5Hp9EeqChJt1RqchnE5cti8s_QRArVD9IvoOa9VJbg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@chezgladinesbutte",
+    "google_photos": [
+      "AcnlKN1KfDpbME2aXHBULXebajqcekiaH6LlW9Sl-dwGUuB76tLXExGaw5mkiTOC9Q8jDxm1TSr6YcLNMS8sHM1vfjZC-Eb9FBU1ZUGUqZJ_V3-HFVnlyIu2hD-Upy89_R-vBIGpwLQw0POSQXZ4PCJ9dUqsomEt_reE42onYBjh1IqxAT6-U9SuI2fmNmZDQikFDIe-s8ANtJbtyRuNJkZuQu4PHYVBCyYVyCZqwcrUi6lXZGkrMeau3Y2cJ9Ur3WrCLjQf5Hp9EeqChJt1RqchnE5cti8s_QRArVD9IvoOa9VJbg",
+      "AcnlKN28h96bKFKA25q2vhIJPY2E8L2ZYKTY1OCEo49tmdTyohdXei0gXmlP2594m6A9qgVMXGQAjlQ8wFpyXh5RDTZyiWfOValzAjOgX3TBbiy23EPTUlZky_XmxByGclnO2cWB5iPn2AzxDOozAjmK4h0tZCLRegAavrvkyadSqPVn4IRltNpbScTr3GIkMM0JWA8qrjdGbs7QcgT2ZsPBTO8IosyNYzc-70o6oZeK165g3BSMxzvaNX7dmNdFDMIRq_Ds6jHHlBu-01UaxZ5CgGgWljVSzU-iGojoToBTzzK39Q",
+      "AcnlKN03EyDpJu4x4vZm_nQlcdMm4PwM-lhYy5V6rlgHgyK8ivyKascFLJtdPm9c3GZDBrQG5OMs5Q1x4cxcBSSkFua8tfI3NSMWlXe_wSjl7dWzkmnNsSBOTiIB0opoZoKmIVo_VsioHM1RlIngtYqaH_h2NTp64Ja-ksRFcLc4oUrDDJzoD3W-FpNY2xulRPWIF8GWywwOkwBQit-E_rZf3mCTyhv2P6j261RaIwZniw6NX9g7770uOrna69Ob5a74e9N9CXCeMk9TQVLAJDmWkz__NHIA1ipbBDRZ9jg3RMGPoWksyJUfjK0OivUlTxMR0VHYRZbVC7vHa7Bv5cQNva_V3Z7Mnl6dVGkbSyMNk1a_XrO4w-HTKHTpP8mwEfhXgaTF8ERThH5XVUwWS9oD6jx5NBmb0iZSsMrUT30H9m-boaslFa1HrYqVox4Tszhv",
+      "AcnlKN3fkYQHUCSKYtQWu1kthtuQgv8vJwpcs2D7Pi_MTYwuMbj-3SLghOv5rc34EgjABYv9Mt6kMLuc6w8aCL8HYz_fRD6R4GRcwlcgqbkfIuHMf3OVwHaObzBEgjwSs0rZgJxm9rME_xRGZzLjyz6RdSUlCXVO7f7WiPGxBdW0iqXJqxMoWKx7Fsg3nNRrj0l_VIvmgEObrxVlrBibyKHXqA8BLLBvw_eTGtFtUMLMpN-Zv4TiDphQH67qAhgUSOFqGBS-EDnUkbx9pcrhFY78ZnTwKqdEec17DplDRRvOnzwKhJd6wVgMLvegjoLphOHG4XezE6VwIe5JOxoAo1BmwaFnMrHzn6IcA33iVzHwQTZUVjWPW77tX1Nqa-ZIlH67cOPhuAfq73GdxAgs5g2ysiYEvTLTRIVaKvVQVkFo32HBjqPVWhg0TWWbYgmbhg",
+      "AcnlKN3R7xW7666UQgDw98H71oM1-gZZTMKAepiBsgKNt1r3ec1-l2ls3A5BX_4TgH1fEF09LQYN-1UfQ6TwTHjKYaTEtjga6H3cXj5LEYrQO_MgfpEVnRi53PNqQFW79FxGar0sCG7Q4YMrtd1hAoZYRtv--63mTe20KJ_pLyjqIXjnXr8vchz9iVDLCS65FrlJL1ai-IG8w3uDMxgj5GXRxCGtCiZnNqrH9_cZC0oC8devNQhbr4idvQXgZmUP6XzPpQqOEDliE34BUTrWVH467dl-6sYGwTcsUal_0N2u6CSj0o4dd3wP5B1CS26TO7xkP2JkhwPSJZTP2GLCr2NAxt7X9K9dRu1hPrQ3UNe0fH9EoKZzflkEfaRjD878MFBLW8GKYj3SN4wRdAZmmZXJYYWGtIm4ZdB0UHD_CxQ1BzlKDp6AiD-vqHKTcbP-OVFs"
+    ]
+  },
+  "description": "Chez Gladines à la Butte-aux-Cailles, c'est l'assurance d'un repas gargantuesque et joyeux. Cette institution de la cuisine basque ne dépareille jamais : salades qui débordent de l'assiette, magret de canard juteux et pommes de terre sautées mythiques. L'ambiance est bruyante, conviviale et les tables se touchent. C'est un lieu qui célèbre la vie, le piment d'Espelette et les grandes amitiés autour de carafes de vin de pays.",
+  "real_talk": {
+    "text": "Les portions gargantuesques du Sud-Ouest. Salade Gladines légendaire.",
+    "must_eat": "Salade Gladines, magret frites",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants affamés, familles du 13ème et touristes en quête d'authentique Sud-Ouest.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 98,
+    "value_score": -28,
+    "category_percentile": 128,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 98,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "SOLIDE",
+        "items": [
+          {
+            "name": "Salade Gladines",
+            "price": "12,50€"
+          },
+          {
+            "name": "Magret de canard",
+            "price": "18€"
+          }
+        ]
+      },
+      {
+        "category": "SOIF",
+        "items": [
+          {
+            "name": "Carafe de vin",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 4818,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

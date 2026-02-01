@@ -1,0 +1,166 @@
+{
+  "id": "poi-032",
+  "name": "Parc Monceau",
+  "slug": "parc-monceau",
+  "location": {
+    "address": "35 Boulevard de Courcelles",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8794,
+      "lng": 2.3089
+    },
+    "nearest_metro": "Monceau",
+    "bouche_metro": "Sortie 1 (Place de la République Dominicaine)",
+    "metro_line": [
+      2
+    ],
+    "google_id": "ChIJwxT3mL5v5kcRAsTd3v0lJOY"
+  },
+  "category": "parc",
+  "subcategory": "jardin-romantique",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.8,
+      "criteria": {
+        "noise_level": 9,
+        "seating_comfort": 8,
+        "natural_light": 10,
+        "crowd_density": 8,
+        "music_tempo": 10
+      }
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {
+        "event_programming": 1,
+        "dance_space": 1,
+        "cocktail_offering": 1,
+        "crowd_energy": 2,
+        "late_hours": 1
+      }
+    },
+    "culturel": {
+      "overall": 7.5,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 7,
+        "cultural_programming": 4,
+        "creative_clientele": 7,
+        "workspace_facilities": 6
+      }
+    }
+  },
+  "vibes": [
+    "romantique",
+    "haussmannien",
+    "colonnade",
+    "familial",
+    "lecture",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#98FB98",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 3214,
+    "moment_count": 1654,
+    "top_vibe_tags": [
+      "romantique",
+      "haussmannien",
+      "familial"
+    ]
+  },
+  "discovery_radius_meters": 100,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "phone": "01 49 52 53 00",
+    "google_maps_url": "https://maps.google.com/?cid=16583421500181038082",
+    "Horaires": "07h00 - 21h00",
+    "L'Ambiance": "Élégance classique et ruines romantiques",
+    "Meilleur Spot": "Près de la Naumachie pour une pause poétique",
+    "Le Conseil": "Idéal pour un footing chic le matin ou une balade romantique",
+    "Le Running": true,
+    "Pique-Nique": true,
+    "Price range": 0,
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "terrasse": "Patio/Cour 🌿",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/lieux/parc-monceau-1804"
+  },
+  "media": {
+    "hero_image": "/images/parc-monceau.jpg",
+    "instagram_handle": "@paris4nature",
+    "google_photos": [
+      "AZLasHr3XoK6nRB79XHTU83Hns8V6pvPkPWXlj-o0cs5xnR5gJf5UbgT1UK_PXbYLikkRbiwAwO8SzreP3gZxG3Twmemp3efnU-YhtJTPQq_aDee8ew30ew0B4ZKY6WLIlIYra39C-5QrfunO8KXmiZKlQpU4rWJ4VRL3yoo54m3BSfPLPW7lUFX1SppWUeR_fO5wZ7Fwv2Ly5nGpB9UptnrzqLXYj8idoNPvlomOumNKW627j0sw9OuXft8qQvDzKXTc2vYk-zWBMbgT_nLpRC5TAdvrzEcrpN2EHCHXpxnECq87sj3WnUD7GSYjJlcCWn2_gXuDBXQWKMY0DVXceEGsXG5yA6AX37obOA7eGqRwhrdsgQcHqk_m-lm_j-yNwIkfDcB4Bj4_6PlRQ6-bkOL-wFnKXtc8q_-hs7pGeDg8y4",
+      "AZLasHri3ZHSK2428x3A_EIfmW92WwkXhl-yzhqNG7prU9TFRRvdsIDRxGjEogiBbQT-3AvCjbISJ96f9052N96RQp3xwX5BdJmpyX5WBYf6pe8lSlSF2ATSuoUwXVO0xUQGMKXOmAg3dbN1ge-_ybXPB-hdhPey8hxjz-MjiZEEbnjbuS1bnE7Siqc4Q1dwJGE-G2NbZd814LZJRffxagEsXcKco2reh6sAZmdRcIGShXizlGkAlfNcI8o71N4suLQ2s5kBnO08N1IqV53mDdqrkA0adYN3FUyIUvllkuw7NCWF64hTnurant0_-gDPYFA75gtPB2klFJUnAV3_xzPD0r-ymNi5UBiuNP3mntamKm7wSut1s6XrWC5HTgdnprNedvFm96FdZBN8SE1nKgxCSb5wZkJL0eLFu-fQgfg72zpK3rWH",
+      "AZLasHoX4Dl84N8GXgy_IbPYe9NcJkIQPVLRlkDffSmLd4q9c9CBMIzqhwbjrA_ik7ByDCO7lbZ5NqCFBx2bEIQSpswTsznw5Vap5Gh--RXD_FIdJRr1uE8TVmfVN-WggPvFpHVruR0xyErbpzH_ySgwGBAGHSVtvNx6_sL3Yc7BwmFNmgBh0dWtMttEr4LZchDhqrl0O9U8kgpJ1i8eqyDBWtZrh4u0-iJpLutlRUJFFafn6QAblb8iDSI3BoNQaLS6ouKPqw9heltGXUpzg-gkrJAdABOkj1Ql03sxbC_zRechlpK3CrDQqxuCLzfg-T7Lw4P0AP2RWIe9TYe8sTDX2BQyU85xfIEDDOnZpIf0Y59uP24C6U8G0ELUbF9oFHmqJk1uQySZuFzKoPrC1rfCC21a63kbIAc2WXssBUZpDnsIlQ",
+      "AZLasHrkCMgDQxH_WznKcoOxK4xqtI7RspR9_AOO6uPYPlAL5iZFTxTxOZ840fOtoUATVneenhpx-6vhv7Qc62Oc2zpGg5NWZzOWslrr4jcwvwIT4QvviwWdjHKXuOR2fsNQVcp2zmkO7rsmZ_ypMmjYkumCRReEh4qCJVgck1rKogkX4-NIC2NRvoZFW8jpmEk7JGJQB8eaiCUTGsFrtMGTOsTnDxz3PmL08bsoGn6Ve4YFm7A1UumBqTjFg2CD3iIr_wuYDXm5Nk9QgrTCjrhgr8dx2Psrr0Um7l3Z5RmnyjcgxSv702b9rB1vehc11ScntOOPDyFfe_IvF6ujKoNUR79EaL3m84uaII2XZX6tugguZQ9SSqWKGtWEavVwRmVzKDqxguQ0kL7eQN0_dN7Byj-zbLInRj1TwG5jh39sSZ2ChJKG3GkfzG2UU7MjwA",
+      "AZLasHo3IOiUuFXLVNiv9cVvDj3q-snbKT5v71OkeDSSZeZz35Kxw-iJuM5nPyCqepg8cn2L2R3Zo5UP6sjDJJvXLMHE8_FOzzheB-NAbiAjDYbwz3ceEOZKMm-tFRTkUJjBysIBpxomaUOqLilDp8qwBlcUQNyMiAplc6OFlEqzR0xk13e9RV5mA3Qfd5vLtLdGyLzKSj7Z7Kqgi6fUJKcVKFq3zJW-5kVUDiLpF4MWDQZpSzq5ycEU4-yWCQRGMcNj5ICN4xqsB_FUda_fZn242qprpPYXYUJenQATpj6iWQbyuRcgUjttV-VwNb-AiM7sBgZXyg2xn6aWbNyT3LAj05nncJ1mXAu8C3Y8P4CII5YDB-K0KP8qz9pDqIR4zCkToqlhiaNfrUE9Ksji0WWRsJIcMQNyP57X1npM-MM6hdUk7LJg",
+      "AZLasHpsln84TXRG_G4qTRA3eLtbzKxTBRm1mDfNC6EHQ9BX6zR20LEkiscTqtyWGz7CyMxFuRzv06NGdzuNX4x91RxuL3ls3KzHM-P9I3QuH0ZLWle64FJlYr9RO5Gjf5yYsh6sGgRYUIHvr_wJ51ud7uG5AWUeiKt_ClFVuvGR_R3tOwCS7j53v3B1FnW-0_7V-f7XtWgqxYbLVY6znBDkfTfl3W5soSCWiJ65MWQqiDOmWUuNZ9lm_XwODc5siWO0LT31iiNVL5J8WRar_BYiBDSIIGjjCxy5NesIVurj8Hhy9OK5X-iczjazLCgKl_wvC3zcQJ1JJbCg_xIR7cLwad7RR-F52wPVxnbE-I9_jFExhJvXx9vlro-_aXyTz58qXqaIpS0DNgkiHtUIyummN7tE17us3tRlvAaqM9TzsDp16Yia",
+      "AZLasHptCr4A1DpK1M_MvgcuDB3ap8NAs7cuiLY7uKJM6c80RDDkwRcs-VtrwpDg5rK8AwF1ZBv7DzcvvEhFPTmyyZ9oDLFSxV_UlHuhg15ofx1QqIr9RYd1czz6KOD-jgbN37as341x7R-5OrTYMT87JgpLv0Pv9qK1cDOpSXf2BqIXnEmVzcrCqe_p1pMK_n7u5U0I5vY6MzjcCrLy1Vi8yYIkCYM9AIf2DX5mROt9mrlcaM8jYOFYxVzQmv0jAqZISp7CpIf-tPKNq943_1LO1AGHKXcpQT4HBbpGTmeohT6aQASyxRBX9ATuNAfKX0LSvaGPnsxmRxckjtM_O2B1xn_yGI_-F9XMT8y7mhOS_2nfVRRDjRNSgLb1lPueemNZqAWR5bMsB9u_yerq3jqr8GWMGr5dFTXTH62DUcB0bBfhPV15",
+      "AZLasHruVKcL9dvkWDlLanwLj5R8vlusRm5hlqD980Y6lsWcmRIN-0IoqfLhEXyt91udW5zedOwQCUYz_i9r2HSbdL1dsNQobRAwrROHDSGEVODO-YU6H-zkdT2X2LgvYtEnrQw4Ufiy9Z6OKYQ_ihvb96S6k6lj7cuQ1f1UtybQ_MNgtYI9IJRyFjf36dPGHYasR_gRDFOdyOU_qAaS_XV4Qkbl_Y6oSWV9rjf3B2W3BFxHg_2whGSXc_O5NVil3ULflBEI3uvmnC4H2uUHbOZnssM4dTzPya9k8rBgt35Ipx22r6w5CmeLnpjYgRsnjveXqXtcmysdgM8eOgCix3l4Ae2qnC9-D9Yy41IDdQy99nnX-kbDEJhnDY2zCXngknZ3_evo_nZVDEn_ZsRl-DOYU1ShP8CQWw0L_-xveAuVsbAVYw",
+      "AZLasHp5BbSTIrCTynxYdiWFoObgiZ7E0_4pXSdAC-1yENptRWo4piowj38HQq7rF0vWEIcJab12hEcUtZ4w2j2B0a-j7kCTHvLLrqFBIQAjtMMV7t_n2cXkZtswEiQ_1tk9asymIGb6Ohou10Hs1S7RZcPQ33ROZxoDSObNT7_fzAjXwvXtV_6LSMItJbwCIT0SmKJ95DAf7txbi4feI9DdyC3lqhzB1VijFEn61zuJjJANaUH-Rs5qCm9PlPu7wPWYYdBZ4SGtK28exorwAQwTHI6r45zbDZhQYUuNCANLZ7mIrRGrp7J1P3pAev_G8-LCt_MT1YmreIoV4qz83xK-mqVOgXmiKMHZ6_z4xNhfrZtjKe4MTmSctOJuY7mN7p_IsP1rtZlDKLDqUm2HZB2qTBKkSP2RwXb4umKNdxxnzleJpg",
+      "AZLasHrebVWQkdvFmPHN1ciwWwMF-zcgVTOue5iIFr93pDkDyd2G-T_5EQsO1r7kcexXHLG-MYn15Cur9M9SvwLut3g7eM0UfT3RiwMzF2g5RzWVq6Z6tR361reZlyRkYLjEZVkDXRLAtNTm8fBJBVzQp0XJn8r3CbiDfELtp_apqK0Jw7IoQuiC3kB04mY6VuaEf46ji6E8-LhHreoKJn-Bv3Ru9ya27Tou6vy_OHiWifcEtw7v-HHr8qgSiwJD6ZcJm-BsUqTcjzipbsquxNY1SvwwJD52dpafrV8qlFaOjiUlON21eWPauJg5fzyxirJCkv92XFh2QDW6q9GiqiD0XlWpxa9EmLqNoeeuBDGutYpHClkHIP7L-tOaU6NC1N4SjYqh8_EvSgGql2F2lkU3TyQwCiEDYRKtL6ScwD8kb3o"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "07h00 – 20h00",
+    "display": "Tlj: 7h00 – 20h00",
+    "detailed": "lundi: 7:00 – 20h00\nmardi: 7:00 – 20h00\nmercredi: 7:00 – 20h00\njeudi: 7:00 – 20h00\nvendredi: 9:00 – 18h00\nsamedi: 7:00 – 20h00\ndimanche: 7:00 – 20h00",
+    "is_open_now": false
+  },
+  "description": "Le parc le plus élégant et le plus 'proustien' de Paris. Entouré d'hôtels particuliers somptueux, on y accède par des grilles dorées. C'est un jardin de folies architecturales : une pyramide égyptienne, une colonnade corinthienne au bord d'un bassin (la Naumachie), un pont vénitien... C'est le jardin des enfants chics du 8ème et des nounous en uniforme. Idéal pour lire un livre sur un banc en se prenant pour un héros romantique.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Runner chics, nounous du 8ème et promeneurs du dimanche."
+    }
+  },
+  "real_talk": {
+    "text": "Le parc haussmannien par excellence. Statues, colonnade et nounous chic du 8ème.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 22737
+}

@@ -1,0 +1,168 @@
+{
+  "id": "poi-119",
+  "name": "Double Dragon",
+  "slug": "double-dragon",
+  "location": {
+    "address": "52 Rue Saint-Maur",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8626015,
+      "lng": 2.3798916
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ53_L_qpt5kcRxyLNzsOYfg0"
+  },
+  "category": "restaurant",
+  "subcategory": "fusion asiatique",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.6,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Fun"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "32€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 7:30– 10:30 PM\nmercredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\njeudi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nvendredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nsamedi: 12:00– 2:00 PM, 7:30 – 10:30 PM\ndimanche: Closed",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Saké, shochu, bières japonaises",
+    "ambiance_vibe": "Néo-cantine asiatique pop, playlist endiablée",
+    "smart_tip": "Leur terrasse est calme et ombragée, un vrai luxe en été.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://www.doubledragonparis.com/"
+  },
+  "real_talk": {
+    "text": "La petite soeur épicée du Servan. Bao au Comté et poulet frit démoniaque dans une ambiance pop et survitaminée.",
+    "must_eat": "Nouilles dan dan, poulet frit façon Taiwan",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Double Dragon est l'antenne festive et pimentée des sœurs Levha dans le 11ème. Le concept ? Une cuisine fusion asiatique (Philippines, Chine, Thaïlande) passée à la moulinette de l'insolence française. On y dévore des bao au Comté fondu, du 'KFC' (Korean Fried Chicken) ultra-croustillant et des travers de porc au miel sous des néons colorés. L'ambiance est bruyante, pop et terriblement cool. On y boit des vins naturels qui calment le feu du piment, dans une salle qui ne désemplit jamais de la jeunesse dorée du quartier. C'est piquant, c'est joyeux et c'est terriblement addictif.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN24VLLsEyqXc8oEPgqRfajO_nKS8FLRNZkwe2ahMnV7dKQeeHV-256A0cLvMM6Dd4irL3Hiv7-o3NUsdu4UGbTM0wP6l7-UNbwRMzrQinWHt6DifnDa2FauBBa_m6mwy843XyE4OM_k8jcLfrKZIzHWYp5KnODgSTjL8BohDkKDw0FWNVCnNFjD61GD4b6XvR0exgNSP78lUtGPoyGEj0R1N20BxjrrYDNXt4WoYWOoBGu-pBwKZXQMSI2F-Epv1nO3lAeySq1zUHiQQ3BPZQfBUuQR3g19dfb1TJBE5bhoe5uEAybhLoC04YSN9fBxziyfRJoRRdNGVzg8yezTCxifKBSF18dKvyK6WsUboiTIWhW_2_i4MCsFPgtQA1JsvUGUrKyArxfO5kk8XrPeiD227kIcFjbXSXvYR3VcTXL6Tg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@jolyne_cave",
+    "google_photos": [
+      "AcnlKN24VLLsEyqXc8oEPgqRfajO_nKS8FLRNZkwe2ahMnV7dKQeeHV-256A0cLvMM6Dd4irL3Hiv7-o3NUsdu4UGbTM0wP6l7-UNbwRMzrQinWHt6DifnDa2FauBBa_m6mwy843XyE4OM_k8jcLfrKZIzHWYp5KnODgSTjL8BohDkKDw0FWNVCnNFjD61GD4b6XvR0exgNSP78lUtGPoyGEj0R1N20BxjrrYDNXt4WoYWOoBGu-pBwKZXQMSI2F-Epv1nO3lAeySq1zUHiQQ3BPZQfBUuQR3g19dfb1TJBE5bhoe5uEAybhLoC04YSN9fBxziyfRJoRRdNGVzg8yezTCxifKBSF18dKvyK6WsUboiTIWhW_2_i4MCsFPgtQA1JsvUGUrKyArxfO5kk8XrPeiD227kIcFjbXSXvYR3VcTXL6Tg",
+      "AcnlKN1yIcq-jxtadtTZq7PANIc-zBKAs3gGItKHoLcMiPsDoeTiTc2bSBMRygWL7txcaL45CduAlfeyuqK7lih2g-_fOrPEu8Gr8GTbzCvWhB0wU2lNWN9nMYN9Xo2KmMzFVIgN8Pr8pV6_mLzeIbnHE2GMLTP_PbUbePHUnAdaDA1PHIVwhJ1l8AQWU4fpjmbNoRv-RyWvhdTcBX-N2RmEufFgoojG3U_WWx_BKEH4ACCV-pRhQWE_jpq9-O3XfjIOwdeF-KQJEjfIYbumxEJ7KgRE4h2jEqg2hyE2yAILQHXpaWPJE5ouxh4pzBaC-fcQH0SlCARaMXgL92g62zeEUnEeyHyMP4NOzJHkRaq2uaOrWtHlnfIpPU82Z2YhjF6s8Y0_mmfatJYigsmHGwkowGF-2yDxII6AwtWylxWHJwk1qQua",
+      "AcnlKN17Kb7qVNdEs-cfxc1ikgPon7B73xKFoBk0_h24F5Tq-P2ClEhhNXaQGpEYHDa_tPf0LVJXalSTlERw5igfysEi9Y_K5rKw04iaEYSORqnVfMQHF4HVnTdOn9YuIABfSa9Ujlk6fN4ilV1FmyR9WOVP0VCPMagWRJ4H5yhVdfUe8WoOLJhqooFtwZpT940tWVnenBIIvZuAAPMwVEhGarq7YP3Xth_X3kN9zhjOXL9io9ML0byN-whn4M91nXZ-RetvLsVGOJ8VVj7BtCwyES8-bgalDTjMWeFPo6lEuaGiU4DFCF1WBv9stdhQphdeRC-2AfsMTVOO09pO-biXysIgfp9sJWccilKrj-h7ipmefxdDf8484iiBU7_TUonc2Aa7eyvipEXnq8cL8ntICx1xqJTbVHgWYmUcP5qscCdtzltw9RB3pnb09Kx-MncG",
+      "AcnlKN3b4upMpHLQb_obFanTYQdsIe_1lnGEG2Fg1zo7RNSCHkFFs9otE0d6WIUQSYUJV6pEe8DNuNscOZf8whba1hUKMbYpp0MoEee4dE35BL96XIvtPig83VzVMnOHCeOln5RGEKL10t2kt51m5Fp0hNxeRKXwRtV2ShYW9jlqp0-tnk67ZcDygeg_PpsuGhvHdQEGupbFyjsmGymQzFxQqlYl2uZlNsbMvPBcc74o4dZ8ij2yFC9wsp0mp-aWX4-glEBcmkzX2C2sq3rP36n1VSku8F0lTXshTWUJbURcJQVIp3nkm7tFNR7F0JpCPqsWIY87Ca4Rhd8ccqoAY4i2n7nzEmN6kDlAdVPa5gKHZhM2DRfWGiZiwRlStP25gJB1nGTDIEvDs-NaAExz_67JnpMHQafPettcfXadSz8VMimf_H0jUvNIxpZkwrg--O59",
+      "AcnlKN0LOR9w4WkIQDwd7VKHKT_u9Q4Oyl49DdqhovueWbCMLCAf1o6ab92wndBkJ3W0XbxSg9mFKK0Ik41ocoAKAxUEB7IhtvSweTLwgHcKllOYafO95Wxx5ItSLu92avItW7uwFScHxLLdMrHRInUaSwBas1zfJd0rWIaLs4DQV5v3oTlDf_NAeknAxq2REKbpyTyKcKCeqFV2ghKu9ztVejmpKjoplN2zcPB1DSH0UI2Hc0Mwzo-9HVgHQqFBKcz057xAv8YnJfUCKNe70AMmYG6Pt49_0e8SlF-wdL0Jk-gcsZuhZ1DbnAa0W4pAS-xJ2jaPZKo7juXV8etGRguFNJSakO7GwyDZeqi98AAJweOFongrBEIpfKZMn0pS1G1ah6YHIKWB3mI9vBGntZR6Ux1AT2i1f5cNhUmaoN-E90mUWRUmYOwMHL6iuHm5NOxN",
+      "AcnlKN2sp1aRmYJkbuhQMHr3deLOhiz5aCnjx_3VjD2WSxsUi5KifZTu9mTKK6q-2UpKuDTFeIsR1XRFDxdbPv3i2Hsh8z212t3FoIZJX6lWBx_g5TKuzVCC54z8fVjHbleNaXZIOkK4K6u2HQyR9eunt6ADyK9N0-6CUIYlnOfBPY4kBiiB8iP62BgbHfzZGhznEBojkZuFMj8BpWXYtSHvH1BYdOxjABlIQxyuzGn7UtdQOOatWiNUcDRGgoNTgfj-bvhWIsQgk0uXZrcKm_tcFYC-9rBAUatxYvfbQ7_UHGmgmNf6I7Zk4gKeexqxaC1VZm-7PQsmhKq-WXHe8spOHc0zVLg255NjjK_k5OOinNF1Q05fWtNbMETS45f7VL6jLpuUST7VzDocbhqaZlWxxHSjkEzItosZiD89OeEWGojWpdrS8akSDu4LS7ZapAqg",
+      "AcnlKN0bP1cLLI0uwqWust-RQMPRE7Pss4oxUYELqz8xkmRp4noN_6jlKonSxACr49Jz0pRikSX3RWb0uxpwtjbFXnISeNNj80cgL5ee-WEjEL_iWSHg3qphwM9TAntTOYk0fRY5gCsy7QYEQlMTjr2-Ar6qVqjy4Ku-DYU94A4_LIXr97vIj0X-hnZl9eQfCKvUzw7Yr5ts8FVuClKNS7r2L4LYs5TaDLwmcsLZF2KY0mYJ1YNEdY5J0ZQVLgI80nr_U4yvja72FXkueQxhqgvabvDApyzrMZ9ZIdj5DDwJSzwx8xWENxBal6NEOpYBjzgfNBke-gzVLyORnsu0-52NtXwrZna87cnn-PrDcCkBWYy0FJ_SpG18mmJR3Qz2RGfmtULP_ZPGEWJsinVotxOW13Vvih3tTyB5K5GdzEok0psQz5anRF6jcwAgsgNHw9QJ",
+      "AcnlKN32mF4hdES5XzCNfKe5sPTE3DOxHqfmbwiyVX63_EHnOnFf-ZXZEzE1jbjinh5MNinKnit56uUcyxlgMPBK-eki6vZA7rsEbCj8XzOeeI5RwouIKnhuTqhVQsybxVY44eGRYmavSmjMaczM9oAWvtf9cOq1brnf1s2s_u6vViCsUjQ3qGxAFAkhFLVMzPhHn8nZByTBicHuK3eFi-nTeCA1saRMpStrl_EviDxLIT7sqavMMn2ypCWcx8AXW_qt4YfoDtNSrNcVX-mnKcITdmOxKW8KderoeEMwkbz9v8XCNXPmrdOUXPX9Yf1SC9un5Lc0fifBDFhjqVotMko1aLN5-7Xw3BXA1L2VjG2BEfku2HaQaiP21BA0hwHo8q1YYWZATod6X8nCgFuqdb1cZaQL1_YN3jah4nPC0bdiCVmvsaUXTck2XgQddvFYlYTp",
+      "AcnlKN0-TgDZzhD8xvLam49Qxt5rZ7VZkEV_ooIC-D5eQGXW5dSN8Hw9iAu8l6jV3ziU8aHLNoIsxZEPi8B0-sbeBGgpvz_VPnb6AQfXEip8EbRuxzM7JJoTS333rrLYR3PjA3iw5la0pMysiQRWdWhFjtXjVMEEQw90HGqv2Ra0r7hridhDHj1ZJpnNMemo7PLs-fuHETaU0v_izx_cAh58VmJeMa8xXSOfKcDCDbaBQ6kladmVmi93_eWP3KV6zFdJg3hTDmA2A9pPenlutk5_UyoarRYYxtg6PdK-AqUkKASNULpubItKR-T2JzMjtwa9B5q8367AajtrTOfWkwSMxO7yEo--_W3jIihIFzbpApWnkXDf5EMTmMV8NTgtHsHSk8btcfVAqd2sHHv32JqVM0Wnx74D2d3PUAdJ2pOgsF_bd05IxG1cYxB4DSy4Eqb4",
+      "AcnlKN2BnpHkNNnWGfH2P-ekho2TS1Y1GA4b0rnTmzLFndQ-Olo_4w_mU3z3cPUOwiK8m10W7feLksaw2b0NDElYUEqAPOq9XjfmUdqduQi2Ls741HYOkHL8hNntjHcW3BPBUuMmd93luOFi385XIzaWNrLXu3q22sx2OVlEIesYJ8cVzJkELqqmYXVKcvtcQxj3hClYkm7a4y6gx7yq-VeE6NrubzAOijv3Dblkbedr6yBWObnQX2wx7_AwNqjb9HJLn5cIuwYYGZdo5e6NXTwhpr8TgY4HJyQdLoVB_9QjFeCX3KScQC6vrbe2IpKuX33t2Aa9J25yZrSfgSp3-m8zurmUpl3jYWu_CbMkCYAdF9VyAa-483Dm5lcD3pOXDYe80OBg38y08kzfp5UG6aP-YKxcRShsLhROJ-awMtP3KZ3p_Rxh5VGjATawXxB1RYO0"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1124,
+    "top_vibe_tags": [
+      "Fun"
+    ],
+    "moment_count": 11
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "32€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 7:30– 10:30 PM\nmercredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\njeudi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nvendredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nsamedi: 12:00– 2:00 PM, 7:30 – 10:30 PM\ndimanche: Closed",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Foodistas asiatiques, couples curieux, fans des sœurs Tatiana et Katia.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 11,
+    "value_score": 106,
+    "category_percentile": -6,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 11,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "PLATS CULTES",
+        "items": [
+          {
+            "name": "Bao au Comté & XO",
+            "price": "8,50€"
+          },
+          {
+            "name": "Korean Fried Chicken",
+            "price": "14€"
+          },
+          {
+            "name": "Lechon Kawali (Prit croust)",
+            "price": "21€"
+          }
+        ]
+      },
+      {
+        "category": "DULSE",
+        "items": [
+          {
+            "name": "Bicho-Bicho Beignet Coco",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 643,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

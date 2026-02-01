@@ -1,0 +1,197 @@
+{
+  "id": "poi-029",
+  "name": "La Rotonde de la Villette",
+  "slug": "rotonde-villette",
+  "location": {
+    "address": "6 Place de la Bataille de Stalingrad",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8827,
+      "lng": 2.3665
+    },
+    "nearest_metro": "Stalingrad",
+    "metro_line": [
+      2,
+      5,
+      7
+    ],
+    "google_id": "ChIJ82Csfdht5kcRYIv7c18X59c"
+  },
+  "category": "bar",
+  "subcategory": "bar-historique",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {
+        "noise_level": 5,
+        "seating_comfort": 6,
+        "natural_light": 8,
+        "crowd_density": 6,
+        "music_tempo": 7
+      }
+    },
+    "festif": {
+      "overall": 22.5,
+      "criteria": {
+        "event_programming": 7,
+        "dance_space": 6,
+        "cocktail_offering": 6,
+        "crowd_energy": 8,
+        "late_hours": 7
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 6,
+        "cultural_programming": 6,
+        "creative_clientele": 7,
+        "workspace_facilities": 3
+      }
+    }
+  },
+  "vibes": [
+    "ledoux",
+    "historique",
+    "canal",
+    "terrasse",
+    "populaire"
+  ],
+  "ui_theme": {
+    "main_color": "#CD853F",
+    "map_icon": "monument"
+  },
+  "social_preview": {
+    "like_count": 1765,
+    "moment_count": 876,
+    "top_vibe_tags": [
+      "historique",
+      "canal",
+      "terrasse"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "price_range": 2,
+    "google_maps_url": "https://maps.google.com/?cid=15557429136509864800",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Le Tip": "Ambiance sympa pour un verre.",
+    "La Musique": "populaire",
+    "L'Ambiance": "ledoux, historique, canal, terrasse",
+    "La Terrasse": "Oui, disponible",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Pinte terrasse XXL",
+    "ambiance_vibe": "Rotonde Ledoux historique",
+    "smart_tip": "La terrasse au fond de la cour est ultra-calme, un vrai luxe.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/results",
+    "website": "http://www.larotondestalingrad.com/"
+  },
+  "media": {
+    "hero_image": "/images/rotonde-villette.jpg",
+    "instagram_handle": "@larotondestalingrad",
+    "google_photos": [
+      "AZLasHoHbHGqNZFs558pTWCeaGdghIGAdPFPgDQt2Re7blxy3QlQz4S8XLBFj1z_F9t_FtP9qfYoFNoWZl0x-M-Lxp9sC-IypNJp2UT_6su-52PVrkU0LJMMGNjiI0cp_JmjHd4T1rktzT_CEa-xrZmp8k1UK30pO_rgb10FSEXv66HROHjJ3i4FMc04e_G7JmKm9OnI3NtjI4fWFDUVISb6OHRmWwoRCNqvIHC18BmD8irqNPyzh0C_U8_VDe7_yXqnFGYXp11Pdss6DCTctpe74jv28sc6z04IYGhca-OrNqVVuY0V4orj94-Mnd2F5lBQ8ilwD0qRUH_qm5epUl1zTA1E7JLmE8wfgCa-QWV8vEgktIovgpxB5tr9KK-nBw44fPeNim5UseFs4ToRdo5KxztdO4NnbLq6gsRm8J2I0uuBVw",
+      "AZLasHpbOyNju_8t_nbLGKWFhHS6_PTP2p7LGxvpjk6QyOmrDqa-id7ApZsaXcSNcjSc2AhYJBvh8S70BgzK6UnC10GsmxtCIGh9dQtYf0xTEnvytVCTBYI6WxJ3AMbrz_-pXlCC4NNvbmx7ZZzfYqnuYDyay2R52kJ613LD7ynEXN7VpJxlkzewcxWE-M4GKkulvnQt_9uIV8-x5vbGQaoh6rkBoWDWtHM-wrAli0zs-9yNBkpxcU396qHPK5md8Po9Bpchh-XDx3ucWJQqiiNb-0N_yoCl8XdRnefEGMUhOyZ3Q0WqFMWSxWA4A6_BjKECpRlcOAKoZPCM3YOhktyWhjGlx7MJ_5fKV7YO1nV3fR8Pda0XlNU8b8KfsoyZCZgjfn-j4BrSH04lXtHtGBvlc2qP36VlHdebze5OOs7WMiBjfQ",
+      "AZLasHqWFEJjjEOO3K8E1CgjfSDpG385vvrNWamRkSoLqR43H_HNzqbjG2N7X6AU9ATn074VPXinUqFADrmKA_VAgG6G0XFzOmcFSDy3GFsXEcVoPfuBROhaN7dOm11JHBCbSXd4m9AtUh9tFO6jFkN1RGkdouwls_3x4PuqCJXgpk-kf0AOF51hf7lc-AEUYKNIRwt_ZRrQMA2mrhp5f9V6XVS2b0mq_8dNYr_G6y712feGG-CXA9nIcYbW2iC9vaTof9bIVkWxkfH_Oxhdya9YbZCjP0HFG8zW2qf6o7oCQdP5AfAsARXvvcfwkDkEYcMSo0KY6HxReFDh1VxVj5JGP3WbD_FqfMw1pZ-ZcQN-_Yz35XwV-6xefH1ClEDBWg4TOjrrD0buR6chp1SvF61RSxPE16rrdOhYNfhyyXUAPpYbCUFJ",
+      "AZLasHpZXUGjDEnZpkaECn-9mCPO80mM7ykP_dlU_islucg0Xjknw0wSpgxWMZGNNJQmxWWTonx-5Kp0zPoHKMgWdpxu92spjTsleCsdUBZ_r_U1VbYH3JYuHJORnzBeMxDKa7Abg-qVUW7yWO5AjobeT_6x1D430oiTBGjxItFrwHVa8iBM1vzSZ7mp26VdpLNytFnHjzBpEDhFqU0SgorMHQrXriXTxyzNQAq6_QXXy39G5-4OKe9g5npt1A-lEWxH5XSiU5f9g1higJIAyDoh471dvQdRDqpLVKQJLLUwdLjBv7A_6H3pXXjNNaeBeowzHXsQw1bxh91BSyozZyfzqhBHF7wQHnUdMmaMIweMaZ0HW_F1ehzi01KgnzNE92tFHknK3ZoWfKuUGZLeAv97g36GHKAx1uTn8VkzZMpXwes",
+      "AZLasHob2DV2EftvrbD5mwV_kAiVa75dX3ejTfRJBEo0GFAhlWhnSNDbqPG0h_O6WhzlPZLEH7ngu3_9lSIlfJ2mDF7IbMHKnHys_MRNEtS1R0G4eRPHOzye-VxwISLPCUz3EvxSuRESOyZjWxjAp3SyBeCRePJ1YX3LQyu73HfHhLf5V1D4ZjMJQWxuJIzX88Pzo5R6I6wEWSokOhrxn6vf7IYfcLhBTaTAQ7o8haxISKp5aSMs7bRVveoP59XiibW5uf8oOsj11HFzPGhJQ5NIaaLhlfQGP4kHHk9cS0QfJDj-5WJB6xFqYCechjbtpJi5ioVXpAqtPZcWa7zRHu9VAcZQCOycQEWEAncYFY6EzXOXSbS3_lzia7wvaqHwSJtl7C_6dnR5MaPuDz26sZrZNEw3bzKtcxsDubpbuNamPQ8",
+      "AZLasHp7FcRv1wRp7-kYSMva4JZv8KQuDTYTDlje87cod4Db0dhGpHPyLcL6FpaxqNfDUUziZeVB44BU5OUamRdronxElnBVOTR2u1Giqt_n5oxFLpe00zMqFNifUAO3RC5eEdQVliz1qxvbn69hw6XXsPSWo7LhhGp9hkO444DOJ7glT4U1OZm0Gh0IOCcDrBOBpzr6Qzm9dLKzIZFuXdZBAccLBfBSIImAtp8elDsF40b0OPsxCIXyDn04tNx8KFX_JsSXgUIeopP-mI733lx7DBte6CAQUp-ajxp-Y3jqmblRiI7qheMj6FQKgG2rZiynSp3z4fORtJgxRZeuvfA7ue1_DYv4lASVBEL9wF5DwSp6DAqAWhkuxjzZXOQbzfnHEykuHXHHObPfC2UY5iq16LAOK_2KrSY8Fw9DLX20blZ68r3B",
+      "AZLasHou1rCCL14IJyLH74GnHqOFIVBn9mxpCPQ55HWPDh6fkjVC_QwXKO9ewdzgrAxQGDibdnINa1H8zz3rzOcaLmsXF0EIalqDehu2483trAS7OHiXiFpP_BgMWEVHkekYJrJKrCtti5DHvu7HDmNRRVh6erHJ_GmaHZtpvaTV4s1LnujcBB8423t_xUTQ6aqjzCOFiUfzXSOcquyaydhEuZZSFbEKLz9iQ0CA_yqwBgvu0NckjnS1DR0O1cs7-QN68DgZjBZuWLowiS3sGQWd3LyQdS47IF-llfJu-s9aFrlkDSgW--1BOUssGHcFJTo9KGihC6KLdScQtIpUr0tkejEnN32JeD1lbPIZGct3mabc_TzsfKAsSAYJ7I_yN9ofkseAm51XW9rzXd6Yuws9BPeu3E4ypaAY565PqVaMvMbx8rw",
+      "AZLasHqh0t2vMRTZItg3OwIkbXNSgMgQQC-1qPT9VmMB3EpUxhUSRlZuroYih9oU_3sXXvWSgbjPQfABytsYG8w7i2ImEaFBljyRGE-gcrosOGwEVC8PxZw8chgLlTrTKdIVyq3xl5ASneJliU3VzX7fRW4N1j5R2KlalvVSKbUaEG3d-tO17iwK1zsfCqSuL9IT63FVF4rkG744brkn6qKfvdegW3Pfydt06QD8Tx5o13vx0JlA29wU2zByH2oNF_oRhXPj7_gC8eQ4j_7jAyTp4cuSMwgA9WP_qYVKZ0D8iwElypYIwGVDEuuT9KZ1EBgW2DaUgHMzHA4du8wYqkx_rAvYCeyfeYGhVh6v4R6eIErlwYnXHJcRZ_wznjeF5FE5FrKY-XxKSZXY19sR264A2pNjHyuNBbkR9ogE5VrOjgq13hU",
+      "AZLasHqfEmtpQTl36VZ8_oSZPI1uyQ7SpI43KMgf--i2zcwOm0Z029Ybrc_4fV_iveGew1DBgh_8dPvKsGGW3med-sn9LemuheqsM8_9Mdj3UVZPkDdcgPUojOSCcAl1RpF5lnhO-qkQGrqaB_dZScua4YBstcsHlcS0-Uq4nTNdry9_l5cTJV_1QVrfafT0yXdiy97Ts7rSOPrOiLtjII3nxH-Cdiu3Ibn6mdnngyo1KqRaEuhCln0AXrFhsznrNCWfS5W0TeKJat9TxSVC_XXGFH0PwRk68SKAHXQt3SHTWzU3P_Mx4MvS8XBSK9zmkc99ez5ZRtQ_yW9avG7sGrQXVHHx7HuAKWt56WD-d6xoGAIbE3_xKY2GaHJeaTsiRlo33IvgiRVMVa0BNtm-TEzDdRw7CH7gdEFcBxXWwQ",
+      "AZLasHq46kZ5OVU3_BtU8k3jDt9PWfh1pUSdznqzIA7KElCmkrYqfNuOHAnJml0ZwE9SquKZAcxClCtz6I0iRNAU_rvUbKbBZsR7yu5q9xRBTfLgGXE85cwkOzWt53jg0_uKgxqQpVUqO2l7pR8LJRsPGWcZR0ghBpOsAbmm-8PWECCDbFlXoC4G1cpBFjQNPYLOcluTDZUpKes1IvkcW0XrI6PG8bDGbczMuKEBj_KdFLiEy_aTBvbesinD43w47EGi8X0cjDWS0LALyxafYPBGurfVDNFPGzan2DIYL_qkk1AE-196IOnbb1FqXff__qDb-XIgcR9s2LMJBjzP1fwPkHQ2ksfPyYQXT8d2n4BM0IR1uMYNPBIV9lBfRmuCGOMKPPdBkyRCLpdcRVq7LqPV0P9jrwMRmFfv1KGQwYeii8GJIg"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 02h00",
+    "display": "Tlj: 10h-02h",
+    "detailed": "lundi: 10:00 – 02:00\nmardi: 10:00 – 02:00\nmercredi: 10:00 – 02:00\njeudi: 10:00 – 02:00\nvendredi: 10:00 – 02:00\nsamedi: 10:00 – 02:00\ndimanche: 10:00 – 02:00",
+    "is_open_now": false
+  },
+  "description": "Impossible de rater ce bâtiment néoclassique monumental qui trône place Stalingrad. Ancienne barrière d'octroi de Ledoux (1788), La Rotonde est devenue un complexe festif géant. Elle abrite une brasserie corse excellente ('Grand Marché'), un bar à cocktails, une galerie et un mini-club. L'immense terrasse urbaine est le point de ralliement de tout le quartier. C'est un lieu qui a réussi à transformer un patrimoine austère en un espace de vie populaire, jeune et bouillonnant d'énergie.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bobos de l'Est, familles cool et fêtards du weekend."
+    }
+  },
+  "real_talk": {
+    "text": "La rotonde Ledoux reconvertie en bar. Architecture historique, terrasse XXL, apéros populaires.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Une valeur sûre de la catégorie.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 13,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(13.0€)",
+    "pint_price": 7,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 15,
+    "source": "verified",
+    "main_dish_price": 15,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.1,
+  "google_ratings_count": 2611
+}

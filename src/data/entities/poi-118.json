@@ -1,0 +1,170 @@
+{
+  "id": "poi-118",
+  "name": "Jones",
+  "slug": "jones",
+  "location": {
+    "address": "43 Rue Godefroy Cavaignac",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.856584,
+      "lng": 2.380064
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJDXxdvwly5kcRIKCw1301aTc"
+  },
+  "category": "restaurant",
+  "subcategory": "néo-bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 23.7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "45€ environ",
+      "display": "Tlj: 7:00 – 10:30 PM",
+      "detailed": "lundi: 7:00– 10:30 PM\nmardi: Closed\nmercredi: Closed\njeudi: 7:00– 10:30 PM\nvendredi: 7:00– 10:30 PM\nsamedi: 7:00– 10:30 PM\ndimanche: 7:00– 10:30 PM",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Bloody Mary, cafés de torréfacteurs",
+    "ambiance_vibe": "Diner américain vintage, lumière naturelle",
+    "smart_tip": "Leur playlist rock classique est parfaite pour une pinte au zinc.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://www.jonescaferestaurant.com/"
+  },
+  "real_talk": {
+    "text": "L'esprit du 11ème en concentré. Des vins naturels pointus, des produits bruts et une ambiance de grande tablée d'amis.",
+    "must_eat": "Pancakes épais, bacon croustillant, bagels",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Situé rue Godefroy Cavaignac, Jones est le digne héritier de la révolution bistronomique du 11ème. Dans un décor industriel aux lignes épurées et à la lumière douce, l'établissement cultive une approche sincère et décontractée de la gastronomie. La cuisine y est brute, mettant en valeur des produits de petits producteurs avec un minimalisme élégant. Mais c'est surtout la convivialité qui définit Jones : de grandes tables en bois, des rires généreux et une carte des vins naturels monumentale qui invite à la découverte. Une adresse de quartier pour initiés où l'on se sent immédiatement comme chez soi.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0TRyVXL34vtaEOqz8zQ55WPqDaeGLzCse33WQNipQhTFDs9gDaXvvR9LKXRzbjg_UwTKcRpnhlLBomAc0Qe_Qt0n8E4RAlgeJKd4sM-wOtRpywLuMdi0HGNb7xqHSSbZYcfRio-gWtQ9nHkcJabxwvkdUhe7jz_9tsQ5z5YI4qgPa0H0lirGlDgoXV2HkUhOWKUb5uXvINO_Nxa77hiArqMCDZvaCAwNFs4E89WpJ_Rd4c98EtZrLSCLaf1l1d5LTM2BwXB8LYGWqaqNi4BOCoMUQzHZpuviiby1cQ_bq2L754ufuFegyMFB8SmCF7CvByVK1x3PnMoNBZFTF7b95P9mBPxvP40UoVH4v4g_3h92N6aXJByKXsRJKFvKbbx5GuVBcGsfiz-Grh83t4rXAGTwhygwoCQ1iF-n0y9Ky4kGia&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@jonesrestaurantparis",
+    "google_photos": [
+      "AcnlKN0TRyVXL34vtaEOqz8zQ55WPqDaeGLzCse33WQNipQhTFDs9gDaXvvR9LKXRzbjg_UwTKcRpnhlLBomAc0Qe_Qt0n8E4RAlgeJKd4sM-wOtRpywLuMdi0HGNb7xqHSSbZYcfRio-gWtQ9nHkcJabxwvkdUhe7jz_9tsQ5z5YI4qgPa0H0lirGlDgoXV2HkUhOWKUb5uXvINO_Nxa77hiArqMCDZvaCAwNFs4E89WpJ_Rd4c98EtZrLSCLaf1l1d5LTM2BwXB8LYGWqaqNi4BOCoMUQzHZpuviiby1cQ_bq2L754ufuFegyMFB8SmCF7CvByVK1x3PnMoNBZFTF7b95P9mBPxvP40UoVH4v4g_3h92N6aXJByKXsRJKFvKbbx5GuVBcGsfiz-Grh83t4rXAGTwhygwoCQ1iF-n0y9Ky4kGia",
+      "AcnlKN29SoXihlWpeKc3JV7IJHmEMGyuwu6WL4VMN8iSzG5R5v9iVzPobt8WHTGL078m6N8ChGIto6XWbL1Or5CHzcT2jmKegeHmZHEkIZ3zvmBHuYcHYDBj899NEEZY-8AOFsq0tAI_VuCEs6uhzGuOEALIynr7WJZKZk6M2i-wwNiCOOE8ETWWUPef7NTCcwm9Qvfs-LATK1aWuz6nsoLDtaFlDZAktcrhWmH2tJ8uNttdAABbKEe4xeaMUrb5I7WwCRUOJUru_9p1iUH3_za10FI2P5Xpjb3MLHOQ-NyXO90sWaJaA_zrF8L7g0TU7I7PPqvupfdVWiLFF_4VuniDpH78-obJf_CtusNc8e06yFeDZ2lsPWf7xIuDGW6mE8LE9PYykZR1aiVS5fGyCdA4wW9qjQCILfOd7HgAdCL9gE4QfcgCtE0LgR40gociqcec",
+      "AcnlKN2UilmoLRatYzhUCmliKzPFzRAfhd-Nr_8gpq_rWm2S3SnrpgP03LS7oSv2OylMk7LzRblMR5-gCiL_jm-IH7TzlXA6SAMhjIl40Re8Hp0QYBD8tZtuQ1saonVA4Xqj4sToH_U_Y1SlPNPx1Il_tW2vXfYdjAKru_hEm10M1IJeZ57Ot6UxbkRCDcUSAnomk2jtHaATbUBCuMYIYAzRfWh8a54GV4CwD9IFth_-ID9zf2wvDSF81Elld7sg4Vpu0StISlzy6MGtM0H8plHKbVpFcXB6JKWO8I3rBaoY5XFBr__8sWj-D8DNW1tVVosGDF0NdYh-xZT3G0CudER33Y02pBGC6r8kJDQbXKm9dqKhriC9HjQmpidiXatSumKf07YIJJImLY9cknVEImUU-c8C13djS3GEdd9XiiusH8Df3dL4dZFtQk3GPDI9sT9O",
+      "AcnlKN3NanHNd7VqkiLjiRbQBURKLKMU_MDxfPG9DQP1Q8v4MDmBKr9Xe3Ga0_YBSLHD95KiIy84tm_UsbApzwm9zEoLWtA0zJgOPJlzVktN3QkT607rOK1zPwJkUg3WaPw9cNDYoglYbn7W_1DZseEdYSSiiDTaVhWmerfgGTgbdgwZlgPprdcoZzqTnqGYSEaKagFUJYopL6wXtzqxGUKkgtlvBcB-kvJU7bTJOW9PoMlMTY_LyQGvMdHT_KWZNJrPAh7wLtyhmNAvYT0-EbpsJjR2wdwsotMlNXkxnrmxT_zuEjrlaN6q3KQqbv0UmFJ8gw_bPYYpvLlhGbGbLtkHIceNGS4fho7FjB9urH_4LBtrpETY3AJx9B0dt--pI8Uufw37XHgUftx4lhq1jM6IzScblqrLj4ZIXIOuMwYevd5G7YGZ2VtRrsNzVAmAhSvG",
+      "AcnlKN2GE37jdaXRDe2k1Tb1lLT8fL7AL8mWMa25rbENCw2ceyCLfUR9Q2jADEuP-Mq3dIdt26jMD4hmJU-rdVdalYanTQT8ZAsrSRDM9ZCFjepJixcJbD4MKtwFypEitN24cEm4IQWVviszKrU5CdYB39Qo75xckmgGDRiVP81Ml-mJAaofdPMCkheyfccG_eax9E_0z1ROt0z95AMtovC4cEe39WZH3MLomzJDm4P1tTZRj54ALf1mHE2uccEH1-2FO3adp9zO_KjAjQ2ta3bnALCt5FggBboQwab5g8tMMfktqR799tx2fWgYw9BRPb3Ko2P67CoxsLIRV1VIeceAtEhlPi8d1xFp7m0gjsbyHYyjyL9nv89-_zckz69UzjrcPgUHSlVQKPv653KhjroptnXIzJ-X6BbekP04edHKfwVEA_v4fEku6i9TPQXO_BB9",
+      "AcnlKN06pfLNzDxr5a16PVvaJGviREHrO-xDFd3TIiEBvHLFTpcAWYAbjZ--8NM0J4bXvKtU8NX8I6Wle2-RicsOmBboQVvHwaqOKnoMEWun05bd0udghPVFCtgaqmsOPbkkg-jFwbhV-PdyA-sBQadLAH39xlotRevoVZZb-IPI6c1FILK1gT3KO91waY6DXXJvCDxKI5R4kYzulSSxewVK78VHYXhvt5sumy2wQNipBvMcSNGAcK6PP1WhaKwj0WfVR2ogcEqt1KVjQNV4SJ4PhaTtRxiiQ7tyGlRuhPyJj3vsttNwz9Q5s66amxmd8PJqI_e2WTrIse0QCTKA78ICxN3pEmnT0JS6YpykKZXZhf5F69yMi4gLYjoi70O5H3bT8cJPq6oGWpcVCDEiNaTPEdoVKCRBfk-EyTm1xO0Ny1WaxvWQyape7JVJAJCx-mj6",
+      "AcnlKN22EYj2SMVXBK94QnN94iXuCDWtmMxGYLbh2xygvoX3MWMYgXcooa08kHFEHl9eWC0ybscrVtCeuzcOnCa7GnjwBGj6mPdlM4CcxnfakTt7QxHqIuhm8yvDmmfk3XxYFldlKOdpquUh72zE8a4_VRUKH0q0o7lPPTf1mO78ctA_-4BR8fPxBiot47OFk0MQsmQ8b88rkqjtE-e7UFqEklAnpFpo0pGB7S1Z7uNlP7Ohz5WxcV2aGd7IhgKOhIRdIMdltEz_zDWOxDu-DTk0PNir59gZo8X2F0IZJtO7SwYvSlRTT7QLpy0fa96OYP7sxUwWOqUKmg-iGz_ieddXyXL5sDdvVpTVT17tCubCfKgP-xVo6dMqy-Al-8a4gBG1etrwn97V8RxJgZI3opuVx2gB00TQC6jgpAZCMfxyO-dOYtnh",
+      "AcnlKN3FyJZ_dvWkWLTLv64W4FNBkiiCnBxN0QD0XxYz1jPTD7r2ojJIBAyXUo-c1qgm5qzrPESz3OVi4DGXaOxFWNFkP1leLN4y6S8_fH3WElO6OiRzhhyhuEWyDzfUmUGxz0Rgy3GfQYCLEnN_oew6hR3BJOMsg8jxDG5JmeXnFogkQNr-qh3g8ulaV6Ya_xAlJuhSUSrmUWyEY7b0oAyBL62JMbW_p9z8j3rv3UFdo-QyBmwxxPyttGkRugbyWkTLajg-qRnx0ofMXL-7aBLWwvfOqdwQg7Keo2ud641-1YXZd0Y9pD_GnaLwka5XxRfTJeju20tBVOQHzD6PsFffabtQyrBXuy9PGbgzmAYmY-K78yjY7HbissalSRSLVAdbeOINbVWAac6byfcOjYJRHOSNK7Xh24Z-XTyX2THu1i5QYssocWxA1nFjA82rU_5m",
+      "AcnlKN3bmXtCCtq8T-F8aaDjPVenWpHf9mgZ4ShYP9otToAQe62bN_suCi8yg6knM3IxZ9tete4O4vc00lkj6jwfMDS4iRVUvDhow3UnPVyZF5qXAEB46FE1xiI76T2sDP2kVqOEkNP4BpKO0SS-0Fh748RvjHWMq3C-hzOX7WK8pjtKv2TIy8_3Z4ZA9mu4YuW8XskID8FvI4w1lbjCLnNAbphzcMQZW2J5DGw8GfMcvh5dzf1d9L-W2Y2udk99z1RtZHMKULTOKKMQPlTSlXnGYVvjweRTKhxxrGKP9rzi8-n9PFhNmW14tRdSiLtyuxCcxxsDp4OzWpvXcXGC6YZ7f-_RffyvSmNTo2oy-kfnTzg-gXr-iKMPd88tPRpymLE89LtQv7wjMsXL6DtJKFkhZqDd5ANDMvVMDnTTIp-j3MBtPLQlEBqBaLvrqLUWDdz6",
+      "AcnlKN0ZvHN-ztr_dO5nZY49G_slVdnMj3DXlvT4T0aPMKMnHn5ai9LwScsq8SlIP2jCHm9uirVz7OLGCGiAgyWl0_whBuzLHH4fMfJsnM6Vox8Lef6tuGB1L66AXodGEPtwwXxR2FmTN2p4eS41u8f4KjNNzDSvDX6Shw7zPSnjSSpG2pB258HIKc5mkJL3RtZwwOOTInHlazLdYZM8yf3f72VDQnvufWGFFiYRm8w5FrS_-RKsJ3bfi7PdM9vY8eWjFiMr-higjdN4-6n-C9zgaXnfXIu0NGogOmRYstBb5_1C7UA2cJ1nxU0-1GNrs1hLVtFr1wHAfeVS1Kyh4wUqYtFmvKygTiouBww5iVvIT6cUzIRxZ-lOL5rtEnwI7NeQZL_dfElZrmnW661ZRC0uSD-hCYcXPsfYG3txNH7iVWZ8J3zDXDC749VeC5kxWAOJ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1105,
+    "top_vibe_tags": [
+      "Modern"
+    ],
+    "moment_count": 43
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "45€ environ",
+    "display": "Tlj: 7:00 – 10:30 PM",
+    "detailed": "lundi: 7:00– 10:30 PM\nmardi: Closed\nmercredi: Closed\njeudi: 7:00– 10:30 PM\nvendredi: 7:00– 10:30 PM\nsamedi: 7:00– 10:30 PM\ndimanche: 7:00– 10:30 PM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bruncheurs americanophiles, familles hipster, freelances en réunion.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 22.7,
+    "value_score": 88,
+    "category_percentile": 12,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(22.7€)",
+    "main_dish_price": 14,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "PARTAGE",
+        "items": [
+          {
+            "name": "Assiette de saison",
+            "price": "14€"
+          },
+          {
+            "name": "Charcuterie artisanale",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Cochon de lait rôti",
+            "price": "28€"
+          },
+          {
+            "name": "Poisson de ligne/légumes",
+            "price": "26€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 560,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

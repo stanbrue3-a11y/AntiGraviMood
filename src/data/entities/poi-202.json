@@ -1,0 +1,143 @@
+{
+  "id": "poi-202",
+  "name": "Girafe Paris",
+  "slug": "girafe-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8624,
+      "lng": 2.2882
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJw7pLvsNv5kcRnYS9wwGfwsI"
+  },
+  "category": "restaurant",
+  "subcategory": "fruits-de-mer",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 461,
+    "moment_count": 32,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 4,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Luxe, terrasse monumentale",
+    "smart_tip": "La réservation est un sport de haut niveau, essayez au moins 3 semaines à l'avance pour la terrasse.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://girafe-restaurant.com/?utm_source=Yext&utm_medium=GMB&y_source=1_MjU3NjI3ODUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3UssWkov92iNzWmBdjsXtlNIVMaiRnSnKO3HL53OSv0J1GcNEPhNNamml6s7x5n0z9wzj2UquY1majIPljvhuRhYHrvYBpr5J6c5BqIEhLfG9vI2CdkJk0xOTMU1f8XQSBrpjDwYQaSKZjxv4ukgLiokaus5ebjTRuNH7hIIYSxHdc4iXdZtDgym8YU5cstOKuEDe_Uy1M2PBuomBKkAQMamdmFcnPWnMWxHRYrJlpDWIBzwWsR5FkiX05bKWOQdWPwrm0JFadrWYapxQaY9SQPS_jbNX_VVLZoNQLqbgcNA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@girafe_paris",
+    "google_photos": [
+      "AcnlKN3UssWkov92iNzWmBdjsXtlNIVMaiRnSnKO3HL53OSv0J1GcNEPhNNamml6s7x5n0z9wzj2UquY1majIPljvhuRhYHrvYBpr5J6c5BqIEhLfG9vI2CdkJk0xOTMU1f8XQSBrpjDwYQaSKZjxv4ukgLiokaus5ebjTRuNH7hIIYSxHdc4iXdZtDgym8YU5cstOKuEDe_Uy1M2PBuomBKkAQMamdmFcnPWnMWxHRYrJlpDWIBzwWsR5FkiX05bKWOQdWPwrm0JFadrWYapxQaY9SQPS_jbNX_VVLZoNQLqbgcNA",
+      "AcnlKN0YgqNTw6EsrS1Ekp5_pNWeGGzrDrQW_ik7QP76o4UrHuTydDwwxupKNWVhjPX-7o5quxoQcWQXJ7h0vRmBaOYOkFz93RLqFQZg2ZqjRpYux56dogOyp7fkWHu57LDgQdm3pzCbdMqJ2yzZm2glkN1igkeZDc1pL4Mc6m7f3VwGCqF7iIgzc7AFU14qc8Ut5FaRRGZZR6yeOgD4duHeGA-_lp1skuLjfR3C0OD9lhQUBh89YHFDdCGySboCUaXdE5V5bDCw4m6CnFZyoxOtYnsGrEMrZrCE_Jk4Z7uxYR2V__YZPtrZlNG80whz8pPXkHZ2JC9NxCejgHUZ68BP6c1C-wUKkm-u-nEO06s-PkrKDYiwGAwb0KDVvuK7jgeO5wzQ5viGz8nRICAz2oOpqEoNW7As2HoyK_khz0Sm2uE37meuRX1Lg8Ckjt4EuK1e",
+      "AcnlKN17S--mq3BO1cZ8xciB6EfAVq5wow6BVhdhflWwfQPZN6eL_JaKHypLVQ5K6krrbDil0H5sdpLprb7WAhhbYRDtK3OB_pOSEDkGoV9oJmsNEs5mWVHT4-H1A0al30SkL4K7t3vpczKQc44b6lceldQofZQzkis6hStTwskxa7WzdFCTjxjWwd2t6Md3USmm79rMSTCdBW2_wEoiT5jEMyW-QADpxfVPIiszSQ2bsAcpWMLoY_852e44xysn1R3We0nwIyOWD-4D5hi7xQ7saPdQ97dNlt2LHGU03jKWJTZKHh2NmZWWX8aJbX9X-vVjVjUwvcm79Lt5xassP67VlvUn0Efav7QQTnz11ukP4dVcfyXMZgI3Ko9OQi15dncSKzfEbehnn4IgBGeGpSQejj40XDWPee4oS_kgHAdB4QDEz8ENAe7ywkRwlHR_hTdP",
+      "AcnlKN37yINSnbap_b-45ktRJQgFUxncyECfyxFXuApDUx5rYZAyRZ2WZtXs0UHjRmN2KqnZ58ZA3vMkyXADvm_XHWTWwMbLDD5c8QQywJdEs524KdmpubZ4880bmJkHJ4Nx_8qfXBjf4MU0uanNn-G99iHWgiKXKXMdhNvI9WpcHdLetJni6GUPyYK84vqYlxPy5rgzh8bhoQj9hxCjOF3BJnWzBAlaryhbDDw-9xcChC8uF16PRdhGqVpwXiubs5tX5nfIuMcEp3xQOexYc8jWulHnJOG1a9E0TURy_AXaYDBRsqoKgcxGxPFCtTEGUiYWQr2KTuYi_yaQeuFu_EirKwui6fkaYBqokmFSqVAxbL56vvqazLEAHW8N5ZQdI3MCy0fM2mgd6NlwEa0sLC6NzCXp-kUWuaMa-j_iU0Y83FobUR6dVvEJ5RvAGOxKZaXX",
+      "AcnlKN1rz2V9Mpln5yDT1Rf2i5TuxLGaAiRYhFCPsm_-JuvhSk0oAWU835U2nU-AnG_jfFQPi_ufXUEB1S7FMehpnJfLvh2Y9TIrC7IUWg6tbmm7go0pvc_9JklfAdOxECIrst5let9lqo05ZyLs3DU5PV4Ug_9BL01FGn9JN-0hP0HtIaRhNkhggE5KbDXEvHcE-h9G2G_jzYBKOWimn3rziWFW9XpI0KIclhtXAM2dbvoDP7ebDxWYYPVorFlfR2rKY8J2T0WZswdSri0qB94IFb-2V1m4g3HBrQ9d69XjDPeLdKaSK-QU8Ad073Zqiw49XJPbM-kQmUSHBD82rkI3mDJmCfk8gp5HGBgHo2l20QpzSMUkFoXqDcRdDWxF8uyOGze9aTh13sgv9zyFGkW11Jgb7cpO397SAgVnYLUsiwkJuQ"
+    ]
+  },
+  "description": "Girafe est sans doute la terrasse la plus spectaculaire de Paris. Peruché au premier étage de la Cité de l'Architecture, ce bistrot marin chic offre un face-à-face hypnotique avec la Tour Eiffel. Le décor années 30 signé Joseph Dirand (marbre, banquettes crème, volumes imposants) crée une ambiance de paquebot de luxe. C'est l'endroit où l'on vient pour célébrer avec panache, autour de produits de la mer d'une fraîcheur absolue, au son des murmures de la jet-set.",
+  "real_talk": {
+    "text": "Le baiser de la Tour Eiffel. La plus belle terrasse marine de Paris.",
+    "must_eat": "Plateau de fruits de mer, poisson grillé",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Expats fortunés, couples en grande occasion et Beautiful People.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 54,
+    "category_percentile": 46,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 45,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MARIN",
+        "items": [
+          {
+            "name": "Plateau Girafe",
+            "price": "140€"
+          },
+          {
+            "name": "Poisson grillé entier",
+            "price": "95€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Coupe de Champagne",
+            "price": "18€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 5117,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

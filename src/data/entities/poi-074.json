@@ -1,0 +1,212 @@
+{
+  "id": "poi-074",
+  "name": "Le Perchoir Ménilmontant",
+  "slug": "le-perchoir-menilmontant",
+  "location": {
+    "address": "14 Rue Crespin du Gast",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8687,
+      "lng": 2.3831
+    },
+    "nearest_metro": "Ménilmontant",
+    "metro_line": [
+      2
+    ],
+    "google_id": "ChIJ0VXY1fFt5kcRGteWrI2wjxQ"
+  },
+  "category": "bar",
+  "subcategory": "rooftop",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 5,
+        "seating_comfort": 7,
+        "natural_light": 10,
+        "crowd_density": 3,
+        "music_tempo": 6
+      }
+    },
+    "festif": {
+      "overall": 23.5,
+      "criteria": {
+        "event_programming": 8,
+        "dance_space": 5,
+        "cocktail_offering": 7,
+        "crowd_energy": 9,
+        "late_hours": 9
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4,
+        "cultural_programming": 3,
+        "creative_clientele": 7,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "rooftop",
+    "vue-sacré-coeur",
+    "bohemienchic",
+    "coucher-de-soleil",
+    "festif",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 8500,
+    "moment_count": 3400,
+    "top_vibe_tags": [
+      "rooftop",
+      "vue-sacré-coeur"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "Le Concept": "Le premier et plus mythique rooftop de l'Est parisien",
+    "Le Tip": "Visez l'heure bleue pour la plus belle vue sur le Sacré-Cœur",
+    "La Faune": "Trendsetters, groupes de potes et quelques touristes bien informés",
+    "Le Secret": "Le 'Petit Club' à l'étage du dessous pour finir la nuit",
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails spritzes",
+    "ambiance_vibe": "Rooftop pionnier est",
+    "smart_tip": "Leur bière blanche est infusée aux agrumes, un délice.",
+    "terrasse": "Rooftop 🌇",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://leperchoir.fr/location/le-perchoir-menilmontant"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2070&auto=format&fit=crop",
+    "instagram_handle": "@leperchoir",
+    "google_photos": [
+      "AcnlKN1pViAZgZm8MmBjk_fbPa_Ok8d3rZ6OIG3Wd6yaJxw06iMvn1PF-QwK5eqQBdHdur9Z2z6YKmh5CL6haqiMf4R4Ey-mzrs_LL48XAQSkmoqr_uyshOBsI6ncp98zKGA9J3oOqQcCdUrieDjuM4afNXiUIB4vXZt6-Q-s2M9sqC4zexPVPgUkpF4D__X9iaoC5oHxRPddyc9hrtLJD7PgW8N3NdEf260sg9XpvAXVR2JSWyd6G0oBEnNbH0xrjuokCsMFfYUKDHrq6GHUCcB_uHLl4FE89oeqzHbfIa5Z6o1xQ",
+      "AcnlKN3kdERykdDSxUipJETvd9rcLmbGYt4OEnwKYYvKyqV7g6vR873NS-6CrgiDmu9o5PeuMAES2Xoz_T-HPU1kAHhfhh1yKigKtHiPd0W3c5bk_m3rxtbb290cDAql48rcUdWMLLGZRjAiZZYzyA7dWtciduDZi0IUcRu6_cuGK_HUo-yMfidnjlLfGi4l2pIw-KykvBceUTueaDaGWemsa4ctxgwnVBk2KEzfwj7-vaGOMj5scMG6x-KBDYwL_h1mVqen5TBwGKtPmyBByjxoWlkWZiQEs0oVvrmzQyMoURPVbA",
+      "AcnlKN355Z0UPrOuGE7Y3nZNc_z4zNuWsFv2eYy0xGRhe__cTgIM8l-Gl0Eh53gCZhXrNceQqujVoC_qSxcvIsv-3H6IqesR_PXImTMzKu141GLM3k1AUSmnJPpw9QTepFO91hVSfu3B_ejrgRg7IHSW9XkYhJb7pA84eBimlriQ9Lfnzo9pJze-Fjf76A4LlHI0HkuM8Jo8cPkQCNJi6s9RkTjOMeH2qMPeKuR373ACmkw_RzboLx-BI3SFj0gFSGq4VlI8GqWbQVOT6-zCjlEZu9FAckGVqdEahlWr9cGUDsCM5geLfIcJTsCmKQaoWEKhAj4Yj6rj2YX-fFY4dOeSYBiuGw2i_qDRk7JxH3J0J-U3HD6DmKUg_fpO0tlP8FpVD9SY5XTYzjvBukIVkU7FBUnRi7uSBwr6SziXrLWHz1U",
+      "AcnlKN0Axx3LIXA6fHKRPgmSJ5laCDuHALPyAd4gz0h6axTidtadaX-bPP0o27rsXD02mVy5uPNaCyDCqMnA6XQ6OhYytyBZ9aGuBezY9O2stG4DZvxbAhXA0z7I6UK1wEBfaCE9ycehPpsqhtIidwlyBDa4GwKnJwPutB6c549f-OOfwl446gLKjW6d97ajNC4sh65W9PLT9HRQAzKUIUGEaSJ7a59aGYl42vLFpdEpZ2dVMlPGTSTNSeBoRrhzCLT7Xuaojtrzlze2sX96Zk4m8FE0EuoONluJ85HwKTBPMcGNU3uCuDROseAMvWRzi3XTABrZP2tWM7kWesE3ug9CQ8XX_EvnejwlkpvYqDhy6ihz7mfFCf8hC1U3x0q_pqJasGg6HFenuWXFpXEzxfpL_vML_Nu-jxoFOVvdUwRyQtA",
+      "AcnlKN3BkSKaTLlW4sbMkeAV4zhYsEb91aY2e5LINdFPq6vzSSGPYS4_feXt1ABDrUFnE0deHKy6O9YVwVIAczJ6WPOAruP1hQeiIYwK6_4J_juTL9wPjE5YDsjXgHfr1kCP_wTjXHwly1OT2CynZt8aWhcEpsomAUOoM50g0uyCfDVbWJYtmFYNJida20RxSkFqkolwARX0nDdI1aU1dIlL_994gkInLO2BMcFdvIcDHOzYZcfuODnSlKuKX0uGWZeWtHj6G_7h-YroEPU9_ZACRLH6RhfEQ6vI9EMjNBy9CzZtBN9JZ7XZrAnkEkqqCG2Go9rJCE4XMG2tsegHWmKGDh8qc7ooiyAsDxQ9EHl3BcNsgwZhINfY75F_8cnvI8Ky-x1QflDBR2vfQX3cwXXvKqQ3wKim5IBZwQ5Vn4eiBmboQSlc",
+      "AcnlKN3oJCAklP2RPahfjEOAnti9KoQBiI1hqFuMlPBlTiMNpC9QH3NIRJXwJwM1ZIrbQ6zrlxgRGubMtmb780dCdbRWPE8rdR_zAHBQ9ajZffPs69oM4M-0AlK8Ql3qztghXl2bufu_mxgz9xIBMshP84dEuJ82w41q17PHXQARCXEtG-AzYtE_wgPQh4vjvJiKR1XaxAtGuSkmKqGB6s640cJSthkPogXPMu0Rk41tS52rAYysy5gcJBDgRo0S0UXrt7QhKTQiEs99UicJN5THrgqNrc1ix8fuqOMZ8gWNlBLSsKLgSq3_5T0dNBfUyf3QgYzMJWhdaqOteLIqOdOJxVd1O3ligzLJfrL0Wxp8HuNQy3xbs3tNVsL-ABIrgblwtB--Cly6UReNJos6bfysXcuwYsu66bZ8gr_d3H7Err1z0w",
+      "AcnlKN1bidYpATA-Z21GYyWLF6AzNDZIjtGzm_uvHQcqLAE6Ih_rDbhhXN1geCA_Fw_oCfEYXgDLadA15Fj3hxij1aGvegzrQaxY2hR9Kmtb5sUHKUhYojK6mVj-etevbJOOeqM2iU9o0GWFHuPFITs2as9aYLBAr7Gq5NRd3GZlc4imXGmR7rXb26QvVYxgeYqPaHSSCYErvjushJbPxDN_nPlqj8YqERiB5LDTqws2Q2ofLR7eQ7u5ctx_-TCKdkqdVEch4Y9faHHtujMBPQTeayq2vzkOEe9pArz6TO9P_-4BMwHuedtFw1_2NiNigj6B02-4O-pSeBiOWq4gYr_iltwiNrcUlx2lbkltEQQIvw_FN0urlStlPy27s4kDzuYqefxkE6HV6r5a-K87_B5nX4JQJy74EsbKI8nlhha0EYR5tKsFvo1VIqIUaXtw_g",
+      "AcnlKN3snL7wfvfmOX0rOfcGqNRPgFbUL5SON6Itvjs_do4GNYH0TUlw6utAqVc7ta8oJvm5nVSjV04ryqaO5dfw6g42y68HJOfmCmyAGcCGKYzrgqMbbVtGRCa8CS26FCJ-zTqY5i2bPjEyQBrM4S6P9LZ7B6xG5TXFLj5hBHgAJfdqD8Guv-s5X0vpJy1W8lm4crGIEFeId0i3qzJmsCaCekiwpeBqlZjFm-BL9V1XhqIFjRQohOBz6Y-MBYMbFk9P-jSI1mW2N420FC1aZWH1LtXJAi3Y-og1PkOqY_NWrfLbxDVH7bY-p24LGABa1NZY0QMw-HEnRQWURlsQpqyQRV86iH1GYdY6qBgMxNh9nvQMlJpJJmgVKNkOOoT4ew55OifWk2_oHQ1r-0wiQSjs5AB6OGpXhOSJy8KLTUhMTu4lCp4",
+      "AcnlKN0AWzGq6H5Hj3IB7YSbmfbMMaiAngWHB22135_Ls5z6t3wghVS616X1no3htFIyb_H3AKURH-LKkMv1l2HCZDvdQNYvkK0qqQoo-DcBk_XQLZQI_LaFXUybERfw3QczLTgyiNPZElXZ818tmve9XBP7k0w4nAuht6gJ7Vq6DD9b4Uuy6kVg4fiYplf89Xg6IqMOG0Haw_n-9d9gPIOEdHgrUjZsvfMN7koCk6Q0AMDV-Kw68ZFF_xElkB4FprhxDx6G1OlKeClXus3ztX2Nap6WRoJGfQ7sZuttrSqOgtY63yGI_kqMyjVidQURNSB5xCMXsG0AaI8IdCKMS3VidOeV4Ir26GVvlx9fNwwZndZfRzBHPRoZ3Q459osMTPPaNfQhCaYAYg17czG9fA82wIzv0AieDLO0vCbB0CLa4w",
+      "AcnlKN1UsCaBnkQMzBypXtLI-ByN67feW0mMY1tb645ceL4O_If_XUmkaIWVq-Ne81ZhXyVmIKzS_pyONhvtgtGLMQo0d68kx5ZvbU7eHnCFQ6lMz1TpEWhSRVfIhvezKNsCCF1TvamIEOcuNF7XQQng7y3dpxYziu-EQirjYVt1BfEXbmpnSoYQczU8Z5jpinEayGIQcrCWo5iJqSuodu7jyn1V7Tp_5xPyVEsoVGTsJ8Ekp1abL370N0jO2te0yBgz1ElTsCIEl_nurjQjNKZeTDL9WuyQGje209tDtyomkCWMpP5RWee0-FIGkSjw83MIv9pTyHJGDuzuGdLT9nJZOB_lLR0Wa2a5dfZgj0MllZOEIuuvbTv5yn7pSburFRLLR_HLbB8ZJhnHxQYe31-sXq1cf7v1GE1fc3Ei1Ao2uoKKGJsn"
+    ]
+  },
+  "opening_hours": {
+    "standard": "18h00 – 02h00",
+    "display": "Tlj: 18h00 – 02h00",
+    "detailed": "lundi: 18:00 – 02:00\nmardi: 18:00 – 02:00\nmercredi: 18:00 – 02:00\njeudi: 18:00 – 02:00\nvendredi: 18:00 – 02:00\nsamedi: 18:00 – 02:00\ndimanche: 18:00 – 02:00",
+    "is_open_now": false
+  },
+  "description": "Premier-né de la famille des Perchoirs en 2013, ce rooftop a révolutionné la vie nocturne parisienne en ouvrant les toits de l'Est parisien au public. Perché au 7ème étage d'un immeuble industriel de la rue Crespin du Gast, on y accède par un ascenseur discret, presque secret. Une fois en haut, la magie opère : une terrasse de 400m² à la décoration bohème-chic (bois brut, coussins colorés, plantes verdoyantes) offre une vue spectaculaire à 360 degrés sur les toits de Paris et le Sacré-Cœur. Fondé par Adrien Boissaye avec l'envie d'insuffler un air de vacances permanent à la capitale, Le Perchoir est devenu le repaire de la jeunesse créative parisienne. On y vient pour voir le coucher du soleil avec un cocktail signature, avant que l'ambiance ne s'électrise à la tombée de la nuit sous les guirlandes lumineuses. Un véritable observatoire urbain où le temps semble s'arrêter au-dessus du tumulte de Ménilmontant.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Ambiance cool-chic et décontractée."
+    }
+  },
+  "real_talk": {
+    "text": "Le rooftop pionnier de l'est. Vue panoramique, cocktails, brunch dominical.",
+    "le_son": "DJ sets solaires et Deep House quand le soleil descend",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "L'entrée est au fond de la cour, ne vous fiez pas à l'aspect industriel du bâtiment.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16,
+    "pint_price": 8,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 15,
+    "menu_items": [
+      {
+        "category": "COCKTAILS SIGNATURE",
+        "items": [
+          {
+            "name": "Frida Kalor (Tequila, Mezcal, Hibiscus)",
+            "price": "15€"
+          },
+          {
+            "name": "Litchi Lohan (Gin, Litchi, Rose)",
+            "price": "14€"
+          },
+          {
+            "name": "Margarita / Moscow Mule",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "CABANE À SNACK",
+        "items": [
+          {
+            "name": "Arancini Cheddar & Mayo",
+            "price": "9€"
+          },
+          {
+            "name": "Focaccia garnie du moment",
+            "price": "12€"
+          },
+          {
+            "name": "Assiette de fromages / charcuterie",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "RESTAURANT VECCHIO (6e étage)",
+        "items": [
+          {
+            "name": "Paccheri Alfredo",
+            "price": "19€"
+          },
+          {
+            "name": "Fusilli à la vodka gratinées",
+            "price": "21€"
+          },
+          {
+            "name": "Chicken Parm",
+            "price": "26€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.1,
+  "google_ratings_count": 3246,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

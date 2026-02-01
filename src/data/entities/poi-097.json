@@ -1,0 +1,170 @@
+{
+  "id": "poi-097",
+  "name": "Fréquence",
+  "slug": "frequence",
+  "location": {
+    "address": "20 Rue Keller",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.85481499999999,
+      "lng": 2.3759872
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJAQB8kAdy5kcRHQ08wmA36wU"
+  },
+  "category": "bar",
+  "subcategory": "vinyl bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 6,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 8,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Music"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 4:00 AM\nsamedi: 6:00 PM– 4:00 AM\ndimanche: Closed",
+      "is_open_now": false
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "House, techno, disco, sets pointus",
+    "signature_drink": "Cocktails bien dosés, bières craft",
+    "ambiance_vibe": "Sous-sol vibrant, son cristallin, piste de danse compacte",
+    "smart_tip": "Leurs vins du Rhône sont sélectionnés chez des petits vignerons.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.instagram.com/frequenceparis/"
+  },
+  "real_talk": {
+    "text": "Un bar à vinyles où le son est aussi pointu que le cocktail. Ambiance Brooklyn, influ japonais et sets DJ le week-end.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "À la fois bar à cocktails et salon d'écoute, Fréquence est le QG des amoureux du bon son et des mélanges précis. Ici, le mur de bouteilles laisse place à une collection massive de vinyles s'étendant du funk à la modern soul. Le décor brut (béton, bois, pierres apparentes) crée un cadre minimaliste apaisant. La carte des cocktails, aux influences japonaises marquées, propose des mélanges d'une finesse chirurgicale utilisant souvent du sake ou du shochu. Dès la nuit tombée, les platines s'animent pour transformer ce lieu intimiste en un dancefloor vibrant et authentique.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3pFyW2dDrJXL2aYABsA4UGWUDqfnvgbaxqXA-BdAmggMQECbM4JPmQuyA9RBcQXyn-mqu1Rz9f9vWzzpOp6a8X8tHbsUr_vVs7zRy7LL2tztz9f2eJlKlh9hdqNdvUmISD-x0jEnYKraFMhql5Lw8c116TMUOt26tkLCynxbCpjG59kcf8eSxtcfzy4VJB6NxpZxqs8ER_GV4RpHtIqW0ijRqdr6uudwVxOkGU0jWJ8d1eLxf-dpu-f_YSSW4zv51LhX7IYec1OFyLkfUj3cPfbucO9C5yZwmf_H45LsSvlA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@frequenceparis",
+    "google_photos": [
+      "AcnlKN3pFyW2dDrJXL2aYABsA4UGWUDqfnvgbaxqXA-BdAmggMQECbM4JPmQuyA9RBcQXyn-mqu1Rz9f9vWzzpOp6a8X8tHbsUr_vVs7zRy7LL2tztz9f2eJlKlh9hdqNdvUmISD-x0jEnYKraFMhql5Lw8c116TMUOt26tkLCynxbCpjG59kcf8eSxtcfzy4VJB6NxpZxqs8ER_GV4RpHtIqW0ijRqdr6uudwVxOkGU0jWJ8d1eLxf-dpu-f_YSSW4zv51LhX7IYec1OFyLkfUj3cPfbucO9C5yZwmf_H45LsSvlA",
+      "AcnlKN24Kd4IFeqsGI5HOKdCY1fef8DCfv9QrDgTuDoxgJ5IfkTzQCZi26ZzT6nr140RtkAbwrCV4kq5stL13AdmmpmJccp7S21f1ZWxJR3lzOkmxBWbL85UXD1HLa1vqb3ldIm301vi2ojP2PS3aYmNo1ReSTl7JCHuVNte609gm3GNS878j1G7TGlXysp2TSqCt4t7H1_iq5t2aULUPKeotJn14srHclMjev-y_PUYtM8P3gsxF0tnfEjrjJEsu7Wl8aJBe4qLiWaAF2ilak5Po13Nd7InfNgBPnPXTugTO-9h6A",
+      "AcnlKN2-OaKMBW9xYoF6_Yhl56oQ8opbzswOEJYl4kCHOHcqX8XZGzgJXBdAW8m8RVRep7s_f9UChykEQFu4VTJwuLWX_yr07VIbsUbQVc1FDh9Dgf7UWS4z2HTnDMisbWafnS5f2TnD2CeIHl2FHPOUpTuJtcX3q1eE0ZO-BKUMcRGG7MqZTk1DnZ_GsDbOZQQ1LdA9ctKKt6rqO8ehKD0afxw24kypCdSSc5Y-U2PxC5JwjeXUzVC7lsEFz2rBcfrWjoi2_Bbt_2Y-yTImDIwT9Y7h0yuzXAO0emJmYAhT7H5CiXwJkWpqhoc6t0llInT-7mSjoo-dXHVJaRn9IKhSxlWz3UK2ngHie5np00X30s4TZDrntUrD94jJ9t0JRFbdElVrZc3CO5IrJwJ5wgVUXBX_YNP4tDuMy7-Vdd4y_TYkBw",
+      "AcnlKN2hEz1_SqDXS0juLR8qfyMxunsaMwGto7kUSlrHDUOYCIGTk8MmQFsqszPkX7tVibAErtRChsr9xRGN8KEw41ggdZv-P36Sg0uP__qKBqLYfG_AaRaxlRGnZqluMGUzr28RwSO-tGqkhBedSMGiCg37CIQQlfQPANVFjLlnHX2UrRi1JlECKnaO8tBlamUMVKxGNpkelye0d_Yh0MlD5XQqGj8sxy1hzpYpROGVJvOvGx-Fg4xkz2zpEw6o88k8NU6aF2UO7_8BG03xdKzyT-RiT7INXMJYvJVchSjuIRt9N4og1HqNY0MFRzE7m1gxNPFpjMdWJyLBUZEi-p1NWD2uD43HdnlmyEMI0G5PYPaw9CVwsVTm1Qe_aGDUEpp8vrKkNU6VfLUcGCKNDjwoG3GNh_J9a4eEGKAyuAkXKbMi0F4GGVu5rtTNCo636leV",
+      "AcnlKN3miXAu4eSbdad_AzJBX4lyZVdjQokHfPnhY7M-4gj242qnG6MZEWDDniBoGxk6k8jbIKruM-Q2sfVP-Xxq2dqgjAfYqOvALHMUexawByS2Hw0EUn5JF95w9Fd713iL-WadG5piO9qJ-qoycdSi-tI0XbJAs6JtipzB1Eo4OezW0wxHsHPl2MuDkkvLetkM5fi2UwFwH2A2dQL6QBcg873BR0r-3QOJzXzC7oeeaVSH79PLnRQLtFTtxSG3K8b8XJaoQL-IZ92kvwV0L_NbsGdnSU8BObV8p3B84IRoW3KIWqXzj9RKI_e9cXCPe2DTpKuPn7fPcFSvAhbHLNUmDOzcwMGmyUKL-K6pD4KkQ0G592i9FbZkQlS0Z9BHLdKZpQOhzocCUhl3H1rsZnWsWVAeE0pmCLkE3VQc40wa5k_xc-IJ",
+      "AcnlKN3-1qPlWBjR4CJTI_riPGCa9khZ_ZbHQOid7vgROoeGlHMBBJZCUT-ssHmmzeGw-v-nYOpsMvYePrJi4pAwLOKorrT5lrP6z_3yzW62Cf7MnGHcyT9-Bo3pxJL2bLcQAEZDOH5tAZqVgZjZJZBxadp8OerbxNXaF73Xkzpiiy0g2s7Y2Fg7SQ2VNvqcM8yZRwjarOgEXYwesi2fXANYerxwaPv-yJYK7xgH4w_-HOYtgwn33nTEJ6zKVzNrtI8vRF1yPjZFKu4JRVhi_ErAlO6RX1VGqx0_KWhlBL2pxL8QpA",
+      "AcnlKN2UaOYwWV881evT5EyeHXq414vYAdDEvBL2y_HxG_YaMlaWxtzHJMHjJT_RLCyh3OzBzaO-v9wTkh8Ft6gCqeCcmdjlEdKU9clHMRKMTK7hWogwnzVnNP2Ua_SWq4ajlORaZvpo5Sv9S9vOESR2sJ5v8SVh6x1560omYWAwgrGwaHZB6D0ogZ0h2y_A--TNy6vFVxA6Y0ke-v7FKF7LdbJrZiwaHHygWKTDywsuqsF01sMlEpxN-52dRUAptfI3RjuMxLEXZPVAf7wyXf1hyjCqgXPDmvFDvf4TMN9JQ9ErywSzVyBfGebovZc9JvSLgSyzV7-QOa-4tV_CmsmOigC6G16ufhHKfY77ralUieeHV5cRzG7Z2j89zwZ7WVN1QEnBsYQLiFUxFhyGwgd4_kZZj7W88B9lAiCHkIGs4uEGalS4oaVxfr3m4pMGeesH",
+      "AcnlKN3XsYvYh2jwEBO1b57KkDP_e3jHMltd20j3mtR3avoUTgboM35V-z3XahVgwb37GpwSeSGFC1YeD8lnfDofr1KbQAon9Yx3PFl6M-zwNCc_WpI3rpaeJiX_ahU49dEyX3ZZ4WlwGdU0R9lz-CHiFy2cLFv5MqfMomRiTExZfDuJ_VxpviKpuvp2Q1AeRZJEdw0qG15eY5SmF0TYoXmRmvBXMl6n9cJe8URTuVwnFIMeUhdcVvNAS0KELoB874DdwYmqs8BxKRF1fexiKQTTFT3RI4pup0lm2AiXEGYKTc8j0Vgyy3i8K5jOhE5AbB2waLHoqNro3JarktWudCJkvVinoOgo2H25SY1lqBObQc19xlNFisqRTv-8PK7RyLQEzckcBCiJtcTBKdHiHl8cfUXx-5DxTKuPh7W9STLbeg_ESuBR",
+      "AcnlKN1yrn0DJ1mrJZg0Z1C8C9P8Xph0KRLL_UHhUB7j1NiWp3TXVs1d1OoHBdEbU6ggbus2n8xa7Kr0MWzSsaWltyeKjUdMMqqNfTidNxW8YCkhkak-6IeY_2gleitfJjC7UPZbC3YSUqoMmozyrTrkSl01cmWPN2fcMKohgW99mkbbNxZXoy1fzFkzQovXyQ6LubN4xcE3NlWmfPCq70Qn14TSry0djNgWvd3s1nfOPkCjWFxerdI3Mn8T5YmzrNH9-xIdlzhYs6YBp3WXwkcOn_bhWwkhptCgxeaTVYO41eaKgz0ztMBL0XWQJ2FSAJU6y8JrstkcUhzaWQ1gMqt-6vZqrwmyZO06VuzyyYartKKeJC0j1ng9pwzSDtZHXX32xg-sAOz1Po839s_7l-1aL2NngJsFfR4XFL9ytlz7rGmauPuu",
+      "AcnlKN3nKnYMsO1s-7ROnkR0BEQG4rjgKDdjhzQHKI3fS_o1UsdVJcFvRolBrzQaPjhKvJwu7Binfs-KsXw10yl5hNfcfzdDejcJtGxh017O-l3vB8ORhgrTZADdtDmPN_D1LqiMUWXfwXZi3RjT9pG5M8NrwqQMfHefmAUG3_rc4qLPrudPZ40IG3hMHid-Ostguc9NFzak_WHuhW6OG_M8uSGG_aZOKzUJfeixogqtnpfPXt8apb5PZEwk6sB2YfnaD_vppr2kDlWrUK1HOnS1SBHbljEDb_Ax2nsLm-BR32NmoOHfyNtIBVUkce8O2UwQLVv-tEgFTaf3hHCfp8B9hoLPLsWQoT0LKjVMBi7w-lLdN6r93NOZzORw_i1lXbh_GhadpMeKAFrQF-bCO2GmioR6Tj6RFPKwLUoHCwd_Y2DNXQ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 544,
+    "top_vibe_tags": [
+      "Cozy",
+      "Music"
+    ],
+    "moment_count": 18
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 4:00 AM\nsamedi: 6:00 PM– 4:00 AM\ndimanche: Closed",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Electro-heads exigeants, DJs off-duty, noctambules avertis.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Cocktail à base de Sake",
+            "price": "13€"
+          },
+          {
+            "name": "Americano Japonais",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "TAPAS",
+        "items": [
+          {
+            "name": "Gyoza de bœuf",
+            "price": "12€"
+          },
+          {
+            "name": "Fennel & Ricotta",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.3,
+  "google_ratings_count": 560,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

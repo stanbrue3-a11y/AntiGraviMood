@@ -7,7 +7,7 @@ import { useRouter } from 'expo-router';
 
 import { MomentItem } from '../../src/components/feed/MomentItem';
 import { Skeleton } from '../../src/components/common/Skeleton';
-import { PlaceDetailSheetExplore } from '../../src/components/place/PlaceDetailSheetExplore';
+import { PlaceDetailSheet } from '../../src/components/place/PlaceDetailSheet';
 import { useFeedLogic } from '../../src/hooks/useFeedLogic';
 import { FeedHeader } from '../../src/components/feed/FeedHeader';
 import { FeedEmptyState } from '../../src/components/feed/FeedEmptyState';
@@ -102,7 +102,7 @@ export default function FeedScreen() {
             )}
 
             {/* Fiche Lieu (Triggered by Moments) */}
-            <PlaceDetailSheetExplore triggerMode="feed" />
+            <PlaceDetailSheet />
         </View>
     );
 }

@@ -1,0 +1,126 @@
+{
+  "id": "poi-batch3-03",
+  "name": "The Cambridge Public House",
+  "slug": "the-cambridge-public-house",
+  "location": {
+    "address": "8 Rue de Poitou",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.86178,
+      "lng": 2.36195
+    },
+    "nearest_metro": "Saint-Sébastien - Froissart",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJc8G30wVu5kcRhFzIdXf0N0k"
+  },
+  "category": "bar",
+  "subcategory": "pub-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "British",
+    "Friendly",
+    "HighFidelity"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15h00 – 01h00",
+      "display": "Tlj: 15h00 – 01h00 (Le week-end dès 13h)",
+      "detailed": "lundi: 15:00 – 1:00\nmardi: 15:00 – 1:00\nmercredi: 15:00 – 1:00\njeudi: 15:00 – 1:00\nvendredi: 15:00 – 1:00\nsamedi: 13:00 – 1:00\ndimanche: 13:00 – 1:00",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails saisonniers & British Ales",
+    "ambiance_vibe": "Pub londonien raffiné",
+    "smart_tip": "Leurs 'Meat Pies' sont les meilleures de Paris, parfaites pour éponger les cocktails.",
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "Élu meilleur bar à cocktail de France récemment, tout en restant un vrai pub où l'on peut boire une pinte. L'accueil est légendaire (Hospitality with a capital H).",
+    "must_eat": "Le Sausage Roll ou la Tarte du moment.",
+    "le_secret": "Ils font partie de la prestigieuse liste des 'World's 50 Best' mais vous traiteront comme un habitué dès la première visite.",
+    "le_son": "Rock, Indie & Cheers. Ambiance pub authentique.",
+    "le_must": "La petite cloche pour les 'rounds' et le service ultra-précis."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 25,
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "pint_price": 10,
+    "anchor": {
+      "price": 10,
+      "label": "Pinte de Bio Lager",
+      "source": "verified"
+    },
+    "fair_price": 10,
+    "source": "verified",
+    "cocktail_price": 14,
+    "verification": {
+      "verified_at": "2025-01-25T19:00:00Z",
+      "source_url": "https://www.thecambridge.paris/"
+    },
+    "menu_items": [
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Pinte Volcelest Bio Lager",
+            "price": "10€"
+          },
+          {
+            "name": "House Cocktails Creation",
+            "price": "14€"
+          },
+          {
+            "name": "Classic Cocktails",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sausage Roll maison",
+            "price": "8€"
+          },
+          {
+            "name": "Meat / Veggie Pies",
+            "price": "12-15€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "The Cambridge Public House réussi le pari audacieux de marier la convivialité d'un pub anglais traditionnel à l'exigence technique d'un bar à cocktails de classe mondiale. Dans un quartier du Marais en perpétuelle effervescence, ce lieu se distingue par son atmosphère authentique — bois sombre, banquettes en cuir vert et accueil chaleureux — tout en proposant une carte de cocktails saisonnière axée sur la durabilité. Ici, la mixologie est précise et réfléchie, mais l'esprit reste celui d'un pub de quartier où l'on se retrouve pour une craft beer ou leur célèbre sausage roll. Un équilibre parfait entre décontraction et excellence.",
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 1200
+}

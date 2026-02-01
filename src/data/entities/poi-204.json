@@ -1,0 +1,147 @@
+{
+  "id": "poi-204",
+  "name": "Bambini Paris",
+  "slug": "bambini-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8639,
+      "lng": 2.2982
+    },
+    "nearest_metro": "Alma - Marceau",
+    "bouche_metro": "Sortie 2 (Avenue du Président Wilson)",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJt9VeXGRv5kcRA7kQ-xGju00"
+  },
+  "category": "restaurant",
+  "subcategory": "italien",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 997,
+    "moment_count": 33,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Théâtral, joyeux, festif",
+    "smart_tip": "Les pizzas sont géantes, n hésitez pas à les partager pour goûter aussi aux antipasti.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_réserver": "https://bambini-restaurant.com/reservations/",
+    "bouton_label": "Site du lieu",
+    "website": "https://bambini-restaurant.com/?utm_source=Yext&utm_medium=GMB&y_source=1_MjU3NjI3ODctNzE1LWxvY2F0aW9uLndlYnNpdGU="
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN318_Elg1qUl0HgpAPGg1VEDjc0Rk7TSHCzIfi8WDEcK2m4BxNtb4NnuH-KO1pMJ2X_kWbKtRfJJKBJweoT1k95aBo-Zji_LtxjOa81JoJUFIPjZX4bDaWtWDykHJ7xZHrnUHTOcCWD1hajUPeZcwrJlLf1ijtZo9p9ASElDxWhfOOT5f4iqRg4la1HiHlSpvbFxjhSprxhMH_kjuESr_ba3VfBZZCUsMYh1octd5illO5AiosqZJQ5HdgzjYSQBs95Z5pcY7_aMTDYx1R1VowFFPKKiqBs5a2jtQig_6c&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bambini_paris",
+    "google_photos": [
+      "AcnlKN318_Elg1qUl0HgpAPGg1VEDjc0Rk7TSHCzIfi8WDEcK2m4BxNtb4NnuH-KO1pMJ2X_kWbKtRfJJKBJweoT1k95aBo-Zji_LtxjOa81JoJUFIPjZX4bDaWtWDykHJ7xZHrnUHTOcCWD1hajUPeZcwrJlLf1ijtZo9p9ASElDxWhfOOT5f4iqRg4la1HiHlSpvbFxjhSprxhMH_kjuESr_ba3VfBZZCUsMYh1octd5illO5AiosqZJQ5HdgzjYSQBs95Z5pcY7_aMTDYx1R1VowFFPKKiqBs5a2jtQig_6c",
+      "AcnlKN1BvdZvg_5VeE-G7YNuIEvDe01DZnPA5UZlHqSfH-G9Yj5IsKzp2WskmR4o2rQjIUBs4mGIbZf1pyaNnDoybyW-Vtv3MxnbP9oR9CibxwAAmcpv6P0a9g0LptWEx5DqrzuZV4ADXnQeWZysf0uxwpy4evCbF_6p8fzojbNaB6D_nbHERecg2rfTJd2R1YygR3YcjPFRwWtmCvALwEgm9sMir2JObcnDROs-HjVQjv1rPXKEdO6mjBgmLKyUCG5u33K2EBzv440wtNM8ruyRpJKSkqz9Y5Ua1E5OOX55hT442Sp4IY2Mn42Kn5qdlOwszX7gNyaeBTfQsCdgLz-9DxsnGS4G9hhMuEZuIQ3VrtczgF1u2F_rMmuVcmbomVvqIqCnBr0clll6Ob8lOoS6DUC6xjnoaE7LBc-GISOK0IzuLePy",
+      "AcnlKN2sdZsmEC3ot7yFEzW5AJpw5sa8gG3uBVUSAPtPO6BYYaCKvwzPiAeyIREl5JEkZEF-mnBbrLb9_ESYHdjTRineGxs5IG0bMdcgjY5SkVSK_LBBPBt4MMyEF6jvIXldbtaV3OfBj4cuMg4EyDxhc_NGKY6F5OmhII4m-nmIj_RRBOSujuoZXm6UvP6Wmau4rrNPvVZ4Y8OpbrvxUL1w3WcP5-gA_sxgg6zmlXkm6sjT2UclsATP0_Th0Qt6MEctiT_1S7vJs5XEHaU43StqdGUdhhD869ElfGQn-S0-5dJKMrgm3VATlxISipibIS0tz2XYs3uWfcumuJbelKucdWcYPKV4ZJ7m7-SXco1n0UkpD0zNWg0A4l6F0IgRgs05poX5B1ECaCbaDmVyNLorEUr4WA1IAPVBbe6kfWjRH18yp5Iq0HGhrnB94d6Af6ow",
+      "AcnlKN3tCsyglR3vTqEXyIGcizfyZCyp2WYCnlMGTqb9o89-w2IF8V3yLNtsIfTzGiouU9EFalTz5p1NRq95FDfYUS-tOiseBR8Ff4HOEPB6sRbq1j9_iN4iSsyuLJgPUUbS0vZg9BwcjkWEhMwpHH7cKjN4ckcHtHIzzmrMMofW2RBMWvZD0l4-WZPiIMOBufPaOX-OFSrW-iTkC8LZt_O-b5tL8FArN6KzTiPDO7FBaYp66cdf64TjN0bIjosh7SdTb31ccan5RnQaMKVMAs6J4LqYuZmOHDylEsokYK8j21Y",
+      "AcnlKN3OYylc4JZ783Vejz9HM8aaXxJ1NxUKJCBA3bXmM_U9ZgaOiPZ14Ur8nZWkah_Oh-t7T9vEiFpBZm_vGg2FpNReXX4IXqCiINfvcYDah48i01u8wFiMpWPCJkfgeJkW-s_UhhydV5YR337aBhHOlQ8eRZC9QLSp5NhRQwY8KVqdi2nhx8b6YVDmuIRhLtHAC291aTg_tw32MqipJpXaymTnQg82QdM2IIEHrJMmwCiOAuL9LS4NgJUokkOOTvhgK-rhnZ8_xOYO82sI_9igTtDUYlp2Wh9wQp01I_cjLSdEMMRNiie9Jb44hHxgakMDPh-pWFgbBGoz8XftpFrlZmqsq7IlpUPsvMDeG0dOag_TmqONgokqoSea47x_WGdLUUowkqWPW9s-8FE_cIwfTb-2tKCjU1Ls2gUG17n8eujW8kghCHBAuxQTrU3dZhkl"
+    ]
+  },
+  "description": "Bambini est la trattoria festive et colorée du Palais de Tokyo. Dans un décor qui évoque les vacances éternelles en Italie (osier, fresques, couleurs acidulées), on y déguste des pizzas généreuses, des arancinis croustillants et des pâtes faites maison. L'ambiance y est toujours survoltée, portée par une équipe à l'italienne et une playlist disco-funk. C'est le lieu idéal pour une grande tablée d amis qui finit souvent par chanter et danser entre deux Spritz sur la terrasse.",
+  "real_talk": {
+    "text": "L'Italie extravagante au Palais de Tokyo. Pizza, spritz et bonne humeur.",
+    "must_eat": "Arancini truffe, pizza géante",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeunessse dorée, bandes de potes en fête et familles cool.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 36,
+    "value_score": 80,
+    "category_percentile": 20,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(22.0€) + avgDrink(14.0€)",
+    "main_dish_price": 22,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ITALIA",
+        "items": [
+          {
+            "name": "Pizza Truffe",
+            "price": "22€"
+          },
+          {
+            "name": "Arancini (4)",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Spritz XXL",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 3.7,
+  "google_ratings_count": 4079,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

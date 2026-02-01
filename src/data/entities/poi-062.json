@@ -1,0 +1,153 @@
+{
+  "id": "poi-062",
+  "name": "Fondation Cartier pour l'art contemporain",
+  "slug": "fondation-cartier",
+  "location": {
+    "address": "2 Pl. du Palais Royal",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8623786,
+      "lng": 2.3373494
+    },
+    "google_id": "ChIJfbQSDMhx5kcRWl3PZPXbXSI",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 455,
+    "moment_count": 85,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 70 65 47 00",
+    "google_maps_url": "https://maps.google.com/?cid=2476377217128422746",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Transparence": "Le bâtiment de Jean Nouvel joue avec les reflets des arbres",
+    "Jardin Sauvage": "Jardin sauvage 'Theatrum Botanicum' à l'arrière (Écosystème rare)",
+    "Nocturne": "Les 'Soirées Nomades' (Jeudi) : Performances live & Bar dans le jardin",
+    "La Lumière": "Transparence totale : On voit la rue depuis les salles d'expo",
+    "La Boutique": "Librairie d'art très pointue",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Un spot de premier choix pour voir et être vu dans le Marais.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.fondationcartier.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHo_WEySDUo86Z92KL2iRuI5nP4Nd5UNvof-fif5YDsBcHgYWqTihXNJPKB0NaoSuk9z4sC5m9DU0yHCLd3Uxi-cHZpVVB4JGtgaTnYMk82qXOKa7owQqHu0NCKnyLvhXZUIT-do4p92bEaFOpfIW6uTdthNn4m5mvjs0GnK2iEei6l7pG7PdaB3vJb1kfTTbFngnlfvSBDkXGon3yeeBNb4BfPZgM1bZI5uepMhKxg2LiRC9425lXT14pVbWhMKGD5wWTEGgR7vfwojVUfiUMMthydan6nRwK8bkxKz2rp3tVlWYSMhbif5pXwF6tdzvIBl1Ecg7AmOxITM28mHZvf7IzVHCeA34jsMGxRI-5HXUetfzn5GsYD4Y5f7d1rAa2B6UzVMT_uyGHW6bnhbkR6rlyFQ_tF0ARKqQh7_cSk",
+      "AZLasHrGxPtNgdKMbHaNOqDriV1xZ3DRKgJ_uP_detdFRL2ga_29lnYgdnS62Q-bLlrrjKOC69VOR1cqCxarxeEyMWLFGO3M8Myl2pg2QBb9MObaB_Peppj32HFYUnxizuTt63BMQsVeU47StFw7WRVf0mXXhMfJ9yLyg68maJdMAhCtE60H_FFpFwrLbFM_EeW74zsEpiOvR5usKcu-T9QYBabyRUWbpHixa7Wr5blIvPkxEuooNTskzQIL5ez0L_xNt7PR10dkV1gxJEDlkUbKGV38U_vim3IjgI86Xn5cmItTGlKc9poHkyR9Efq9Y84zdSXkOA8L_T-d9a8C5RNEpiYV3gmHQCqL6PqxT-M1lKWA13JlJhwGnHP3y-_Gf6QtmCQhPT8AeSyUSbsY_7mQuamGMB7nVfzm_NG4YWBOH44gMw",
+      "AZLasHpDj8g4Zu5Uy0-ThWqFK-ZHR27ZI4MEBadiSO1kZ9dBVA4qf9jctVjuVedgyJL8Y6PzPNQb4QXvO6ksaNdHRy-gGFCnFg-JId8U_ZbvlP1EOWjMZu4gcSsv01zO_kHJ-eDsHb0XiZyYxjVmm6nVXky42-i99MrvmCPiQaZjHEanFrTkUS6wGJ6EM8pcGIEk2bzl7Gskfu8P3gOsuR2nq-9obRTz9jEuqAKDX4epCYGWaueTrMYPmS_-ukMUy19CX7O6jmmbXumV9N5sA3WdQcEni82k2HYXrI6y8JLxpZ9csqQSRUFT9mf51-50i8hi7KMKYCDImA9tEPzcCKjIMNaN04idA-72FWBgGDH_DGdA4j4aXp2ipln5_GripBFkUKDRARAd0CcOXZ0Pa5acCluL8UkEt9_jHOBTiAEQstk",
+      "AZLasHrvO2DfFG2rb5kc-Hlhe8HLQtwVKlYPzGwook2X3J7UGY8BOS-pAoelcxLqoGSV-1DpPnBsLRhWqDaBzNMKcrCx82Ai04UMd9sQXIAYPZpr67PT3zPLIRy0utMKKiuzCBmp_iJwdc104auAO15YPdIHj-I4YJpFHBVVjpL_EWV577IIZvY5MHWzFlweLa4eb1SCxwKeNUfbs3I-gXqWXK5-IeWSkAl6StlCYxFgMxUp-z-JSfaOZKdDY2KGkagQPGpAvqRiVNUMODGYFWqK4BXt4MOjXSicprZ7qIzidCXWyoe4_8sUi9v0-Td7v9v-zEcp0wnEH4qDXNET-DNQ6dA7Z-OYG00ebzNqFW-jDBQwPDrzPIZY4K_i0lMEzIA4e9zM6pHmJ5fKHvCOuMXMzBRTBFRwrNeDr_NYzCVKlsx_e6I",
+      "AZLasHr_Q3m0-C55wusD5KCz7LwdulBlURgCcd5G9SXymF3CfDV4lvL_3wt5dcMXvHPzzeVO717QXrnVItuHZsLA00UYe65wr0s_ZbIKEMM0fXZXKECZgImn0itW397AfWa_aO8MT-0GOhmeiegvLYLIbeR738aBx-bFBKRLoOPiYZqhLawNbuRsM7wMChQciy-jK2JxIwYUwt4M5PpwOOqECsV6EjwmSRWPP9sLFRWvczxcOeOdcRQcAsQqZNU9mxNQNLV27CwB1k6zfnyN-94CC6wlbGrCPxa2ceycP7XudN0CHEuo55OSPR7S8uEzm0c9Z_NBdaNgWkkoBkpXieETDojdkMI5ujrEldzaYqBkk-q7W1qPxwIfPSGuXZuYQJeewxMzib0BIt-wuG5epRZss8MC4dRfWrH7-3zmN_Eh0Ise3UQY",
+      "AZLasHqCXLn1Iwm7MsRY6yAj-9j4eS7-B_ZhJBM72IcC2keQZIs7SmMoqPpKiSRZMTSlzJ1WszjWFO5O0nbZU6ju-JTEg7axk7TTMR4haycQ-annrm7b74Hot5MU9v-hjvyf101XTSUc85qfjk_yT7yy-q5P2qpGC8YAsH5KTjEEDi-YeCwOcJNDxSDXnOmbleD2vS0Xu-jV2dxIOXxlWJlgA0liO-mr_luWPWqnXIbBidbGwwlf6fELVN6eXD8xTeaXXV6BPTzRUCSzI7W17WheKrFhXnv379HbfguYbCnlvJ91ieGcYUojHGiSpixQDSoHLOEsT3t6hoWAGYS7W5lFDZEYn80tVIUdO0n1DyEWvs1kh5SckbNwNlTzG7-_T11GURwE77ZpgEgg1y3iBUm1t-ya2D6XuHgyFqWx608JL2y0r72V",
+      "AZLasHrco7U4alH5w9NpJMCuwm7_jCoqRXVHW4lxpHV5O5J72P8TC5LJLknsQc-YWjOs35U_yGVH-wYNA91p6Z0qK-4vT6JkXOLSd_acpQHixBzKgKFbwAF44Jp1NDIEKjpREWxideGCOdDXzFTyJMrgiEHxJ1NANNWCf0-KFDEX1nRivvKQ36wBQR4MGGpxeM6gsovCpW3wB-knqLDJJkfEhMu83KugfioJQks0z2d0Av9qeHLbh0mhkwkVkK66j2_pP6cnGCrfcQ_4X_mkpMVyvqgi1NOQvEBR1SNoEvnA_MiV2eRYAN31-gfDeQi1dv0Rhudpzkd19-oH8VvYfybfU2oYLShnkGPhmdmzCNGbBWqdSqFiOitqgISV7pCY_0-0ZLqL9Hf8D6Ohc4_EobEc1jj_awQvblWtJyn3N23kPNd20mY",
+      "AZLasHraTZUzawqtUBlkQGmzY0KACU9jpD8tK7YiZUXprWIF0rfG0z5yub_ywzIDlv8A063U3MWuGXm9LaomVE1GwO6Yy2rHZrc8ew7-6V0wdOmQAeTuzZnPtXCuEpyem0jXzQdPzbv48YVWF7d2NIf_gcScY-yR5PhIt-wJsxubFt0SM9zjS4IPqhHnvOUoWC97mt5KZss7fK8v9Y9wQe_k410YM6KHVEtWRkLJmctwOaYMr-MzzYyznXd4m8jkPctqt1qVKh9-0_k14B-Skne6X2g_g1ttWZc0bmMOkiuzfpdf0WLq0GhOLpILta8c61Q4AAIGtoXgy51BvCZnQYy8PHVms-0Ug9oaA1xqOh2hDtDm22wN2EsxiBFPzVwaknf1g5kbB7oUc_APfYSHKSXO3YNO3joW3MJ6cQOLgw",
+      "AZLasHoYuVmSrQ1qjhIcYoSY3LL00KrtieckRM4zAxutmWMZUaEoY1oz_5d_5r3iCq-hvipxXzsCw8aVAlbENTX5UY72vRdw1YIHYHqJXmPjjBGwQbKRKiEqNtlGxBzOroMIL_XJvQeh4duElR0nhdmJr0Tu-9JGafUDUqcMzYMjTe7ZaqNoxe-dmjm3rh-6hFrXPHuF9mp67uwk7c_jcvuSd4jlPd9lCNUsrkWhgX08pifmkvvKJNwQL7-qvmM9OQ0P0JsFmYFFkGxHza4UJ1dLw3jD3LXoP6XtBodTiE_sG4GA1VyNO9vwuwSulwAPrmzWYl8dxtKk57Jb0VPssQ7TOEk7leksahzYihnwRiiE4CFzOEAx-RFoqel56jJcezjw9AXG6ZegTPQlCR9n7N3ecwrTUwxuxI2yyf3lH1HNve9UBGdx",
+      "AZLasHpUTnWHOBtAEpp47Jul6sfDcEYMEdjGaF7HksPEbvvqxbiCRF2qwG7H_rYnzPKF6SIrTi2A2_yK33Cu7qIVcs7urwGyPp9atfXDI8x6xh2P58HlukplyqX0A-fnQOzr2Kbs2SGudjxIv4OvSpWBkPFjUrGcX1sSrZuLzIdaLQd9_J7v5wyVmJjbbraQvNuHz2CSk_NlputcxG8LcaCdAcSR5iTmYroYln--gFq0anw94wXKzR-ICMGAqjespB5I7BwpUxH3EtsJFtChKGKTCRzpeHjYCQcvJub41oXnpzT2AvPlprowWfuvorJgO3sp7ByBPROIbGVUA_lBOOxd7QlZhJWOKyohFIxgGrxAMT5GKdoW1MWN4u7IhKpYOSI__i8MWbj_XNGz07t8X50Gn37VXlP6e_rr-tcals9OZUY4YvKU"
+    ],
+    "instagram_handle": "@fondationcartier"
+  },
+  "opening_hours": {
+    "standard": "11h00 – 20h00",
+    "display": "Mar: 11h-22h | Mer-Dim: 11h-20h",
+    "detailed": "lundi: Fermé\nmardi: 11:00 – 22:00\nmercredi: 11:00 – 20:00\njeudi: 11:00 – 20:00\nvendredi: 11:00 – 20:00\nsamedi: 11:00 – 20:00\ndimanche: 11:00 – 20:00",
+    "is_open_now": false
+  },
+  "description": "Dans un bâtiment de verre et d'acier signé Jean Nouvel boulevard Raspail, la Fondation Cartier est une bulle de transparence. Le jardin, conçu comme une friche sauvage par l'artiste Lothar Baumgarten, est une œuvre à part entière. Les expos y sont souvent grandioses et populaires (Ron Mueck, David Lynch, les Yanomami). C'est un lieu qui décloisonne l'art contemporain, le rendant accessible, beau et en lien direct avec la nature urbaine.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Artistes contemporains, architectes et curieux de nature."
+    }
+  },
+  "real_talk": {
+    "text": "L'écrin contemporain de Nouvel. Expos pointues dans un jardin d'acier et de verre.",
+    "le_secret": "Le jardin sauvage est une œuvre d'art en soi.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 62,
+    "category_percentile": 38,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 4709,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

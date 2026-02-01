@@ -1,0 +1,188 @@
+{
+  "id": "poi-010",
+  "name": "Le Pavillon Puebla",
+  "slug": "pavillon-puebla",
+  "location": {
+    "address": "Parc des Buttes-Chaumont",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8795,
+      "lng": 2.3812
+    },
+    "nearest_metro": "Buttes Chaumont",
+    "bouche_metro": "Sortie 1 (Rue Botzaris)",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJVTsJQsNt5kcRFWAWrvMCEI4"
+  },
+  "category": "bar",
+  "subcategory": "guinguette",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.8,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 8,
+        "natural_light": 10,
+        "crowd_density": 7,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 7,
+      "criteria": {
+        "event_programming": 7,
+        "dance_space": 6,
+        "cocktail_offering": 7,
+        "crowd_energy": 7,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 7.2,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 6,
+        "cultural_programming": 7,
+        "creative_clientele": 7,
+        "workspace_facilities": 3
+      }
+    }
+  },
+  "vibes": [
+    "parc",
+    "brunch",
+    "romantique",
+    "végétal",
+    "bobo",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#90EE90",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 2134,
+    "moment_count": 1087,
+    "top_vibe_tags": [
+      "romantique",
+      "parc",
+      "brunch"
+    ]
+  },
+  "discovery_radius_meters": 60,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "La Cachette": "Maison de campagne cachée dans les Buttes-Chaumont",
+    "L'Ambiance": "Bohème chic, guirlandes et cocktails",
+    "Romantisme": "Cadre parfait pour un date sous les arbres",
+    "La Pizza": "Pizzas italiennes excellentes à partager",
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Mojito, cocktails",
+    "ambiance_vibe": "Kiosque romantique Buttes-Chaumont",
+    "smart_tip": "Le spot le plus romantique du 19e, caché dans les arbres. Demandez un canapé sur la terrasse haute.",
+    "terrasse": true,
+    "bouton_réserver": "https://leperchoir.fr/lieu/le-pavillon-puebla/",
+    "bouton_label": "Site du lieu",
+    "website": "https://leperchoir.fr/location/le-pavillon-puebla/",
+    "bouche_metro": "Buttes-Chaumont",
+    "cuisine_type": "Italienne en Plein Air"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1467003909585-2f8a7270028d?auto=format&fit=crop&w=800&q=80",
+    "instagram_handle": "@pavillonpuebla",
+    "google_photos": [
+      "AZLasHrwK42Jpb0DxI2BihT5Oa3GQfA4A03oPVFheZsomug_9kAMqCdrmA0Kt9eEtoSiCjqa7jFasWzHLbgvsd1KobvlUHWJnPuo3SfAGGmimOCbOhMLkhmcLVvRvmj1rQBhf-bzkHcKoTmiKN0ECwxf70NGhiHyZ4FPsjVGIn6vRE0Hcpdw2eT0m9zBPdIHomWDumDA8ZKiXKOvopg9-x-6dThyNX5Z2HDeTe5CqebngmKNJh3YM-VTnEovpo4ewNQNWsUufyCywDhElXdyVA-3JNVr0mqkSjZyskPa66pyqcuIWA",
+      "AZLasHowHXAQ1_yFso-ToYzFAhP7rvZpUGhF1IZWtQMx4oe8YALI5bctwXG5MY0cFBoPZ9Suf7a8CDbBGj3JxUIciE9Kcg5ebgL08Ap7YTVnF32CFtj2ClKzac7u3TvMUJJ1RVFw8wBmvkK3meFevlS3-gCh8ukzh8gTomqlNB5nUYN6-bfqBcOnBHoHyhKk9P4w0LtfoD1hzRJlYMZGOPkHenxpEBVB62CD8kVlB8JH3ErA1D3c-42JCv4-jSfWfFZcyd30xvZOPyOLFwOqi4HA2KkkBQG6XxQ5e9pxlcc5Lirg_A",
+      "AZLasHpIIkI0gqrDFih7X60XzSFg_zFC49DVachjr2S-QrliIdiow0RCUVjqkDMemakV29bBoMffkDpBhMMR4Mx-QEou18mkBFuhQ5wr4ohM-ZLP6WS2_NRUJhmxK1-aEWlEINNnBcO-YA87a5mqPHoo1OpVhrOSLSQYHF48eatym9agnlT7tgmfL-MSfcrpa1VqTu0-cls66cX5QDTzZnlOPBheKSiRmrlIE2bD408g6lisRORqqhlY1JcVDGZRRi9M_Ve7WucysdHIjFXWTMoBJk7KpsPNys1W9fOBoCfkm9RL7Q",
+      "AZLasHrfZRnTsE9vikRK4dpbG-GwteNnl1JuMBJ0nzxc5oahwI-3HjeDGw88WOTjgu2bP9MfSOE_89DBA3f2BHTGkfd4gkNNO-DcB1zIQbkWsWnvhJ0zSHJEOcbsvHgpDCfFi-x4kqozNZ5EluB2e8fbRTCDGqD40zprfjQZijFeDYb1VLmTmO4w5h_r2vGzTljVnOsrHJFuHFrnyuc7kTcBaRmLrvojaA5VSRn0Rg7Vwpo-OuswBtqzp2ngpecwJBG_AvxzLB9uI5A7hN8-_zEy09nOP5U8TqijcQEw_fALe5kVHH1a4sKpq2UOrPNLjlxu6j4y8HIIgpb_orafjFBjnqhphq6Agus-_VXFnsCGUNBCItH7xosLb72IwCKvIC-Zr8Oiye5MQL4yVtJEeBBaLieTz6MDFTmzt2omw6B2ZzU",
+      "AZLasHq_qrEpM-Xp-yHeXiA04RnIUZJSRf0QxCt1BsOcUh8kORB8F6UI_-yIYde_t3ftwi4XiWUIqBR6g9DfUt0tEuKTI_p9NsV8-DSVMl7dX5VoXHDrgW0B735DyQXIvF_-PuF6EDKJe4d1Oh7FVSVAOHD0V6kU8q439AvC0QIh-3Kw4gQMfmWfYJNfJzRZ_Yg3psv8Yli05PrAgqOrZN8my4lVNaysSCM_pEwhabGfi42H-PIv_TWV1YYbAYSj8pYn8GgXGkLIx6KpC0mS8CGHpxrsWDXeFUr7uXCyr_vgA5oZSWE_OltewDnKHTHNCl0HcVSkBrkHDV0A88tnDxzO3KYE1PPE7cj-4u9-cY1ryJv-S14JZWAJBKDEhPiUx4AURnZlrvk6CWI66y8QoYvG5NTsx_RvyTaZlIxnZmkpYlIMVA",
+      "AZLasHpifNkQd8SayMigNgsWAS1SEw5yss0emeGPiFQcYqpCeF-W9W3doDZqwjxBWt7PlydtfpetX9cq4hEZVMMAXhiDnO6yt4N4Gy5QSftyjzVjGJEpNKgoLm-3NgqX7HkLo1E9B7wND6rP-NZhe_9aRJ47x07vm4XBHpusZ7Cmg0F2pwJkdwybjvN9KVr6lM51KcQaFJTypvhZoa5-Yr8v1d10J1MR4fhTA4Q0FAuuh7lSHUjGfwdLa-ebX_GDh9J1KCasAybplDzlH9QaHDb1586_fElLQ8HST2M_QwB2ZqHj0eM4UETJutSlYOHC1csfaqreU6wPBageN5iXmLeS6_o-uCpZqJJkTHhYcbBXbEata7Sij5KieHhgIF38vki5Wmu6NsD1u-GOBfiksjbaOXBnN4VkJlR781cq6B-2v7qrcTw",
+      "AZLasHpRI2a0BWD78c-2qEVCgHX5kOWJZCmN8vwm9k4lyCPnzYER08C3QVdLXZQs8_M14qWahhEO6VvHaL02TTiu9pDod3H0CIpSPLk6gFlrNz0uCfBH0EZYDwWxJQhMWfVe6ixP6sM-m57wjQgMRO2Y1Hcz9nOXEpX9kmV600rCjcBq_W92cNgs-oIBbLncdn9nfPjveHAR3WUYKsbdJ3e6hP57DV5jHaAMR11qj1ikwWcxeqWPhhk1eKQ3zpp0k86GxE5GwED-sHCW-77LQJRPMIHakN_X_mqS96BqCcmAHDktcaEBew9A-1H_BqiHvgQWGLcJr2JsQRlBuu1BoYk1H4QPQpOyTASCuDJfpnT6nTArQcugDLJxiJVDqqMHt-95KU84tkyI1mHdQxwTnWTMBcuzq5ZwmjZrb8Fqq2PefKUYVQ",
+      "AZLasHp-sXvAgJSozoDHkjIIEuT-7KebstDT75iXn1B1E__92aua_KD1ewkZqfkhPyX-8CNP_-nCftFTQW1XlP-mry269XcrJjuibl--xXpJoSGgGTRxy8SePh2PlMUH25owZOvVf-a-MVSKDa_6a1Fbd7_j637i9Bv2tktkvOGp9EJUwwu3i_vUJcxRXMLbiYy8ygCUEoUgOHSfi5wW1bcqjetRlOUs5saO4BVvtCpuwWUajH9gu94RwEsTR3bjoEbLNueenRTaADp61QdpBE0logA4pePlrkKXqeuXGeigiXjGYW_ZQ208jy4IolQVkYGtXgSKSE5JOtmUpL474-LlS_nzVvNE-rTrsnUXCAxr9noc5QTyg6sSdIwbfA_cVgNUJaMx2GFp6qmJs2qHCd71MH0e-poeiCMFz9mjAdYkxO91HNqz",
+      "AZLasHotlSXkV90qSSA6JS_NnDDevbGN17ln9hHIpNLOflugNTUS64qUuanJTN9LREQKrQ6QEJCcosrOdE23RnmGp5NYxLtn2JUuw-eoIbLIX3ruhZLMBCUaVXLk753JbpfcHHzU_yEPBECP1rrRwjGUltUNgiI947xs6rrdQIRJ6BoNgjuodQGFhLY-KW7rlJuKfdm9MMyO4eHhIe0klceA2XSWXCeUVqrl2rk-VuZz_6mc6rS5Lpx9zgr3y0tbccd8Ol2M7xVxNx964LPjaxsW1nzrMlJpzOy8uhS37EtugWEl2n49Xo0ZR4NT4TD1pAGWUFeKQe6UrPAvCN3zxlFuIrGtR9Vr9JVaIz7tQcaA19OOMVTjD71q1wcda5V7WM9p6A_8HGJJumpcOLJ_NZRr5EYZjg1Txy0OH8mKpqcqRMN_zT_R",
+      "AZLasHrkfyTWl1TlRwJC2iBN_dbiBGT0sd12Z7_Vlqkp9WlxBeKffpuhfu3S15cOlvpNh2Vhs7o4SS9_V5WsvAzSeLRZMeaVm1Z41xtIJcnqSMA_6wwEXLNIe6r-3WktcGzzLsVeoOj_mbWBr8xYatZv7h8losKngoeN7y1FnzCkPXJL6qvJ3UmJnYRerILNrj9XLv4rDpl50z4YMoBAqujidaTII0u4UA2ECDje05RrIdW6MQaxvs-koRAvn0DNKek-a8c4bb3wSLwZB575St9RE7g2ryfAqXCKubL5CcOtfeR8hikeeJQOxLOLkEiykkGnTT6K2vW5Ij0beE9lwhhjMLBhn9noRT1TwORZl-i-t6CBZ8wC1sylh2hD7G-OU07n6lhO---9SA3kJLN0QB7EW80E32OgelTFVUvARmc2g3o"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "17:00-02:00",
+    "display": "Tlj: 17h00 – 2h00",
+    "detailed": "Ouvert tous les jours.\nDe 17h à 02h."
+  },
+  "description": "Cachée dans le parc des Buttes-Chaumont, cette grande maison de maître du XIXème siècle recouverte de lierre est un secret bien gardé des habitants de l'Est parisien. Accessible par un escalier de pierre discret, le Pavillon Puebla offre deux terrasses suspendues dans les arbres et un intérieur cosy décoré de tapis persans et de fauteuils en velours. On s'y sent comme dans une maison de campagne. C'est le spot idéal pour un apéro bucolique loin du bitume, avec des cocktails au gin et une ambiance qui devient festive et dansante une fois la nuit tombée. Un îlot de verdure féerique et décontracté.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeunes actifs du 19ème, groupes de potes et dates romantiques sous les arbres."
+    }
+  },
+  "real_talk": {
+    "text": "Le kiosque enchanté des Buttes-Chaumont. Mojitos au coucher du soleil avec vue sur le parc.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Le spot le plus romantique caché dans les arbres. Pizzas à partager absolument.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 18,
+    "pint_price": 5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 18,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Pizzetta Maison",
+            "price": "13€"
+          },
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Moscow Mule",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4,
+  "google_ratings_count": 1271
+}

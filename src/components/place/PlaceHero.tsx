@@ -1,64 +1,83 @@
 import React from 'react';
-import { View, Text, StyleSheet, Platform } from 'react-native';
-import { Image } from 'expo-image';
-import { LinearGradient } from 'expo-linear-gradient';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { ImageCarousel } from '../common/ImageCarousel';
-import { Place } from '../../stores';
+import { Place } from '../../types/model';
 import { getPlaceImages } from '../../lib/placeUtils';
+import { useTokens } from '../../design';
+import { LinearGradient } from 'expo-linear-gradient';
 
 interface PlaceHeroProps {
     place: Place;
+    onClose: () => void;
+    onShare: () => void;
+    onLike: () => void;
+    isLiked: boolean;
+    primaryColor: string;
 }
 
-const SERIF_FONT = Platform.select({ ios: 'Georgia', android: 'serif' });
-
-const getCategoryLabel = (place: Place) => {
-    const cats = place.categories || [place.category];
-
-    // Smart Brasserie Detection
-    const hasBar = cats.includes('bar');
-    const hasResto = cats.includes('restaurant');
-    const hasCafe = cats.includes('café');
-
-    let displayCats = cats.map(c => {
-        if (c === 'museum') return 'MUSÉE';
-        if (c === 'restaurant') return 'RESTO';
-        return c.toUpperCase();
-    });
-
-    if (hasBar && hasResto && hasCafe) {
-        return `BRASSERIE • BAR • RESTO`;
-    }
-
-    return displayCats.join(' • ');
-};
-
-export const PlaceHero = ({ place }: PlaceHeroProps) => {
+export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked, primaryColor }: PlaceHeroProps) => {
     return (
         <View style={styles.heroContainer}>
             <ImageCarousel images={getPlaceImages(place)} height={320} />
+
+            {/* Top Action Gradient */}
             <LinearGradient
-                colors={['transparent', 'rgba(0,0,0,0.6)', 'black']}
-                locations={[0, 0.7, 1]}
-                style={styles.heroOverlay}
+                colors={['rgba(0,0,0,0.5)', 'transparent']}
+                style={styles.topGradient}
                 pointerEvents="none"
             />
 
+            {/* Bottom Content Gradient */}
+            <LinearGradient
+                colors={['transparent', 'rgba(18,18,18,0.2)', '#121212']}
+                locations={[0, 0.8, 1]}
+                style={styles.bottomGradient}
+                pointerEvents="none"
+            />
+
+            {/* Top Actions */}
+            <View style={styles.topActions}>
+                <TouchableOpacity style={styles.iconCircle} onPress={onClose}>
+                    <Ionicons name="chevron-down" size={24} color="#FFF" />
+                </TouchableOpacity>
+
+                <View style={styles.rightActions}>
+                    <TouchableOpacity style={styles.iconCircle} onPress={onShare}>
+                        <Ionicons name="share-outline" size={22} color="#FFF" />
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.iconCircle} onPress={onLike}>
+                        <Ionicons name={isLiked ? "heart" : "heart-outline"} size={22} color={isLiked ? primaryColor : "#FFF"} />
+                    </TouchableOpacity>
+                </View>
+            </View>
+
+            {/* Bottom Title */}
             <View style={styles.heroContent} pointerEvents="none">
-                <Text style={styles.heroTitle} numberOfLines={2}>{place.name}</Text>
+                <Text style={styles.heroTitle}>
+                    {place.name}
+                </Text>
             </View>
         </View>
     );
-};
+});
 
 const styles = StyleSheet.create({
     heroContainer: {
         height: 320,
         width: '100%',
         position: 'relative',
-        backgroundColor: '#f0f0f0'
+        backgroundColor: '#121212',
     },
-    heroOverlay: {
+    topGradient: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        height: 60,
+        zIndex: 1,
+    },
+    bottomGradient: {
         position: 'absolute',
         top: 0,
         left: 0,
@@ -66,38 +85,43 @@ const styles = StyleSheet.create({
         bottom: 0,
         zIndex: 1,
     },
+    topActions: {
+        position: 'absolute',
+        top: 16,
+        left: 16,
+        right: 16,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        zIndex: 10,
+    },
+    rightActions: {
+        flexDirection: 'row',
+        gap: 12,
+    },
+    iconCircle: {
+        width: 44,
+        height: 44,
+        borderRadius: 22,
+        backgroundColor: 'rgba(255,255,255,0.15)',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
     heroContent: {
         position: 'absolute',
         bottom: 12,
-        left: 24,
-        right: 24,
+        left: 20,
+        maxWidth: '70%',
         zIndex: 2,
     },
-    categoryRow: {
-        flexDirection: 'row',
-        alignItems: 'baseline',
-        marginTop: 2,
-    },
-    heroCategory: {
-        fontSize: 12,
-        fontWeight: '900',
-        color: 'rgba(255,255,255,0.7)',
-        letterSpacing: 1.2,
-    },
     heroTitle: {
-        fontSize: 34,
-        fontFamily: SERIF_FONT,
-        fontWeight: '700',
         color: '#fff',
-        marginBottom: 2,
-        textShadowColor: 'rgba(0,0,0,0.5)',
+        fontSize: 26,
+        fontFamily: 'PlayfairDisplay-Bold',
+        fontWeight: '900',
+        letterSpacing: -0.5,
+        textShadowColor: 'rgba(0,0,0,0.4)',
         textShadowOffset: { width: 0, height: 2 },
-        textShadowRadius: 8,
-    },
-    heroAddress: {
-        fontSize: 13,
-        fontWeight: '600',
-        color: 'rgba(255,255,255,0.5)',
+        textShadowRadius: 10,
     },
 });
 

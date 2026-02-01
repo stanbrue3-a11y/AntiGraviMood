@@ -1,0 +1,132 @@
+{
+  "id": "poi-200",
+  "name": "Palais Galliera",
+  "slug": "palais-galliera",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8655,
+      "lng": 2.2965
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJYRVPQOZv5kcR8DUkxywb2-A"
+  },
+  "category": "museum",
+  "subcategory": "mode",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 625,
+    "moment_count": 18,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Histoire de la mode, haute couture",
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "Le jardin du musée est en accès libre et offre un calme divin pour lire un magazine de mode.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.palaisgalliera.paris.fr/fr"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0HgzWskdaw9pZHIRQxxDpqdFHyS_BgdhmxbiDRbb7ZNNfvMWYqiwXU4cwDrqviAUNzNetFhJsCLmDVqkBnC23apg1CSVv4T_T3BArTca6q8wQ2_PxrfIw0VwWBywc5ZqV7Fwvilo3rtADA2drdZblatF8oI42SraePEtqVjlDARSrPgLAAxOuBoDXJy0xfnvFjWXgZeCnMlE1mnSDNhDvOCux9zI6mZXbx5iorU7_464PHvCuI0s-HiwXMvRsj3Iclp5JhfDnO3SQT7PZxcVC7OGeVrGFafqVxtaIVQ3xKN6VV9WgpkDpKRR3nVe2oNg7G2l43DA_F1mFDa3Cd4ZCPPWQbinc8ZIuf7PKBPCqxz5cUP_CPgtK0o07FI6zUpUa_jp4UY3PjNJKkb0OLB3TtLsPCJMQ9Y2C4pxo7pnGDK4Tj&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@palaisgallieramuseedelamode",
+    "google_photos": [
+      "AcnlKN0HgzWskdaw9pZHIRQxxDpqdFHyS_BgdhmxbiDRbb7ZNNfvMWYqiwXU4cwDrqviAUNzNetFhJsCLmDVqkBnC23apg1CSVv4T_T3BArTca6q8wQ2_PxrfIw0VwWBywc5ZqV7Fwvilo3rtADA2drdZblatF8oI42SraePEtqVjlDARSrPgLAAxOuBoDXJy0xfnvFjWXgZeCnMlE1mnSDNhDvOCux9zI6mZXbx5iorU7_464PHvCuI0s-HiwXMvRsj3Iclp5JhfDnO3SQT7PZxcVC7OGeVrGFafqVxtaIVQ3xKN6VV9WgpkDpKRR3nVe2oNg7G2l43DA_F1mFDa3Cd4ZCPPWQbinc8ZIuf7PKBPCqxz5cUP_CPgtK0o07FI6zUpUa_jp4UY3PjNJKkb0OLB3TtLsPCJMQ9Y2C4pxo7pnGDK4Tj",
+      "AcnlKN0DeBAdAgC7aJhX92ZtNIEoqMKW-ge1LvTtjPqCpR2S8eYXEN6jhHsU3MMKNxmx70QhcwBh9B22lnI_n8eszExUj8nvwc9ANuAwMgfUVBkniKQeM9EqoYBbagfILkmJzd7_czRVGM7MZBnQ23yORF6A4kS6adYZIulwuDg_8pvgMPWMMuZOz0gE32GTJiRAPFn0XQvBuyMP2PA1VmFCrE6lKz-0frEiFEgx6nwe3cRu0V1F7Rl5aRWkbqCByKESSLHlmFeQIh1TsCX3TuzAYBixtmXh6eC1MEIWP2ipL6XafUMkADdH-UdxDuSQ8N9LsY-M4yqz4YnfYB1uOSxb3XtTYs0KXaj-bQQefDWQf1xZQA-fCEzIy_gbEGBgM5QPQUf63hX3sUHXLLzFE3nba1ZgyZ0bJ88A0MhWxAvl-tP4JbFd",
+      "AcnlKN23JgYBsuSKUskuWuFO7zCQ6Y7SJg30z3r1OjubCVM9H9SE-7ZIH_1205akNqcFwbuRoYnWe8fK4iGsaAKFV-oXms7qwPS2k0YbiDd4W7-5G1RYm1_eJpefak2q_CwKAPOX1NcVMh2bALcdEwdHlsm5Qh-VbJsM14w12HKY9HhRLleQr7l9z9OECnFMHX16A1insvVWLOhgr2HWgySROQh8g5_MbahGJ51sl6SplMFw8Yq0xoHCSa-vOdZxgYdE3wP-NTx5W2-WRFoZMn8cAnmkMtjkzE222rPWwFu4GoknGTC9A7s5XfZjpWWhcx0guTHIoeWLaL1wkeyiM-05VYs9-JNRLS0sLUNBPC9U2JYK1UvABom5ZeMncdGRp9KKYcgftqT_k-8p2pt-_EAM10HHGi84y2GTKwFJ63m9hVeAzWAp",
+      "AcnlKN3gibcUDC-WoeO-n339z9iw7ywhB2ddKBu0WO9wHC-u6tnmIlP8EoMDlPFcOpOck1PY9rcfbyDPTmvUkf2KzhUeJzbReW2Fn-LLbIhuflJw5EAXjS0E28YdMdOoW14OQjlHkQYJsPUqd_Jptul6ZjrySnBa4EqSkL2kBAVvzlJee8Xk6Og2DjHlFmZ_u4IiocDdLoG52y3d4vrql-CdQfKnQQdGpT7UmtkNagXAAXppmm1helb5alUKoxtmtcwud-GqZ4TryFF9YuSGp7594Zw30-Jw5_sTRvX6Si_CkL3o_-EduT9XFp53BktpVPNEx4N2DfbhkYvyOwu7GvQkP7J_s9vT4G9UimcdvEaHlF5c3jqXky3DI0NQTDTDP_1d7BKt7TT9YiO5NymShVHb9qzzq6D-Q8ViEI5pwUsbp2ABcQnE",
+      "AcnlKN28trXLGhfw2wT6MV14YmBn7gd8SmOBdAwnZhJfNGefo_Z8HI3UY1C7itygGDAFySvTMeF6l10wOXQQcKCmh1jw9QE6wYz2g2BLIpp7b5TybJIiNkhYIQOL828RIv5WcMnJ6l4X81fOKg7vYyuOYUFxWCj39N9tDPpQ2o4M4ojXl6dD03UgP7ixI3EHPZCqDvrSoAWabFxkVc_3q8QlxJ3tsGQfEV-Mj5_dgN6d9HCoTP2GcEjrlwQpkMayQ286Qz430QH93LvTN3wQNiMeAtX4DKtxp56fMJDMw7h0dV_Sk1cS4iqnLxF6u9g3GVLRWNLjksmfhhVBA3qswaK1i5JDPALpSXpMWB7W2XnOaD2r2UjHRruLSxYYETRWJQtz6rKWPBoWqzsAdX-bOn8jdXA5m105whLnjFIP4qxPZcJE-h3I"
+    ]
+  },
+  "description": "Le Palais Galliera est l'écrin majestueux de la mode à Paris. Ce palais Renaissance italienne abrite les archives de la ville sur l’histoire du costume, du XVIIIe siècle à nos jours. Ses galeries récemment rénovées, dorées et feutrées, accueillent des rétrospectives mythiques (Chanel, Dior, Alaïa). Son jardin extérieur est un petit havre de verdure sculpté, parfait pour méditer sur l'élégance parisienne après une plongée dans les dentelles et les soies de la haute couture.",
+  "real_talk": {
+    "text": "Le temple du style. On y vient pour les robes, on reste pour le jardin.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants en mode, historiens du costume et élégantes du quartier d'Iéna.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 14,
+    "value_score": 56,
+    "category_percentile": 44,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Exposition Temporaire",
+            "price": "15€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 4074,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

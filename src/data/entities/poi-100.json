@@ -1,0 +1,169 @@
+{
+  "id": "poi-100",
+  "name": "Carboni's",
+  "slug": "carbonis",
+  "location": {
+    "address": "45 Rue de Poitou",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8616678,
+      "lng": 2.3613044
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJH7XtmgZu5kcRHzaNGWpmVyM"
+  },
+  "category": "restaurant",
+  "subcategory": "italian",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.8,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 6,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "55€ environ",
+      "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 2:00 AM",
+      "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nsamedi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\ndimanche: 12:00– 2:30 PM, 7:00 PM – 2:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 4,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "ambiance_vibe": "Trattoria intime et authentique, service chaleureux",
+    "smart_tip": "Leur cocktail au basilic et fraise est un délice estival.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://www.carbonisparis.com/"
+  },
+  "real_talk": {
+    "text": "Un restaurant italien chic avec un speakeasy (Bar Sotto) caché au sous-sol. Jukebox vinyle et banquettes de velours. Très date.",
+    "must_eat": "Pasta al limone, tiramisu, antipasti",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Carboni's est l'escale la plus élégante du Marais pour les amoureux de l'Italie. Si sa table à l'étage est réputée pour ses pâtes fraîches mémorables (cacio e pepe, amatriciana), c'est son sous-sol qui abrite le secret le mieux gardé du quartier : le BAR SOTTO. Ce speakeasy confidentiel, avec son comptoir en cuivre brossé et son jukebox chantant des vinyles italo-disco, est le théâtre d'une mixology raffinée. Entre lumière tamisée et conversations feutrées sur les banquettes de velours, c'est l'adresse idéale pour une soirée romantique ou un tête-à-tête ultra-stylé.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3l3T1UHngqqI5vedVXKPf0UnsZsXRdS4sQ4jcpSKUXuyVQr5ZB3rAothV9s5CThZFJNb869Ew2uhgPAK_FiNsRMlQg1h1iynYVFPZu8glk-sXMjk8a1zZQesl_X8e46MgBqiloUAKOjFMOMSCTtJQMi_ICWOWuEzBTQAFgbUKqjSjw6mnnsbkoxFzxeVkStdkrxSIxrzlL_iaNSkKUAOZm9Z_lr7dTxMsv_smeOkiK1bUU4IU5BqfjymEOsjMa_jqPuYOk8mEkFeNtshY4c4L6eK8GXaNrRhvUMTS3o5A9Uw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@Carbonis.paris",
+    "google_photos": [
+      "AcnlKN3l3T1UHngqqI5vedVXKPf0UnsZsXRdS4sQ4jcpSKUXuyVQr5ZB3rAothV9s5CThZFJNb869Ew2uhgPAK_FiNsRMlQg1h1iynYVFPZu8glk-sXMjk8a1zZQesl_X8e46MgBqiloUAKOjFMOMSCTtJQMi_ICWOWuEzBTQAFgbUKqjSjw6mnnsbkoxFzxeVkStdkrxSIxrzlL_iaNSkKUAOZm9Z_lr7dTxMsv_smeOkiK1bUU4IU5BqfjymEOsjMa_jqPuYOk8mEkFeNtshY4c4L6eK8GXaNrRhvUMTS3o5A9Uw",
+      "AcnlKN1_4l9zPoEnXVSa9H0fJgFFiJKh9kh6a-_FomeSmHGqCdvZjZg69aHIDQjrOygcmUz_FsDt6Hm8qAamz-eWSTvIRRAI7BOyUOgt48QS-BMGhYAV3sD2zLpranWlTotgq6nEqGewUFpivOGJ7kiDeffoHGVPlnRKU3QzsYanvB9U4wVWA2zdbdBu4WlJqJeD7ioaHznB_MMT7q1aGws37E42pxL3jz8SN6nsYFBqAatEMhVekojEnRqxxwK73RcEs3PjdiYl_rkFXPTRWshmEm3LWAiumWOVlu86AthDa3ZjhQ",
+      "AcnlKN2GbXvYGBqEAc5NmNatZxrTb7SKRnU9CVapREzcn-w6RZ8r63rVtZ5_pPHMeGypC7Wj3x89bsLNn3-zMyiMl0Wuqt1JoYTLwxZRZnSwIdx23s_-Go1pXF_2RFcG0THcfx8HSfWIrrFOs2EYaqbabGxmV1YYTuDpEfrsMdBWcDFZ5XvUQASDr41-7aMjBfhFEtKh_8E_zProHMBkiDc284F6h5ZTkZgpMLBt2ceiwclB39ujaoy_J3hwzaQNo6Z2cXkrrE4PAAakaMhkgB3UJeKQpruTamo_jkaxdwnCLPSHRK2kMdmJ5c7UDxpC0ptuAzVX4Wrh8rZLteXHlb6SVbGZ8EV6UNCnxAP-pmyfJ8n2gqwoam68uO-lgV4oxlSNVSNnlj3plXn5PY3rRzQ3F16O8WVZP_QXEGQ25Fx_V0_Awdck",
+      "AcnlKN2U77_UoygrUmlN4uqrhbCyJ7ki7XjglqI6LYPJ1JFnnxAVHcMEjTRZLXTSqOXLwAX_JqZ5zi1kUV3A4t-B6iB6gyodWCV2b_F8zjL4AnzHTivHJRK47gBGnsoXvYa55ilsBLIhpiGa_4Cr-FFdnDpqfzZrf2-K2TSiQByufIgGxU706_YPgM9A65KHivApB1foZ3iIPEiCuxdEjGn0Lk4g-YTK_ndOhDHVsLFnQsNd24jk-aemwjWww_NvGOJuLHWt0AtgS3eDtl6sHKXeBrnjjg1HGStyFO-S4XhU4XzNxHLJyeqMFKaLg8tiL3M6MZUAWtEklLaSQJTnp6WVHWiUZjw8YyYYJrbH0lYLMicRkaCyDWaHaWtiWDCsr4H74L8iRoV2ttqzTUx7pyZqZHgHpL4IvGFomlvdj9_TT-qpiO1P",
+      "AcnlKN0O2kEKfGy38tnRITB5IrZy9CZSZ-56wqjgbRhQbC1wtNg7CQzockuT5fzRwN-2nTXyFaI6UzZTB_lXFZKVpzQLgw_n_YEsY3euhD_vRq-63vG2HqLEbe5TGqdMwfAoOzUv_qCUlbVdCp5aFFFIAqT5kKitj0RhlQEfh6KpXrZHxuHNJW9wmi3nCcBHP4OBc7zkvp2_B5Bv_N5zqm1tvXFyNXsPyN-tL8IgiFyAg5gx-EZwySPKTKHMtuQJr-zD4IdoktroICjiRiwxu-g6Paq2GV3PJjUp2eloh3BMLM-ICtK5CZmmlU6kStVaU4YNUCSl2096xa4kDOQyZD0GsY_JtTpcXGo-o8tIMr_QdBUXR92CDvbfHZhjba6FDhdpbxKLOmdVhHx_EykYL4HVxWl2qyuTkoDar2GSZkNz2NY",
+      "AcnlKN3L3GywWMoXtI1wxBaGcDkoHtkW4skpaGOkA8B11f4sGCIao_ws8LgoOj2Qojp2y02rH1aDhC_XT3wCLJk6HY2gPrf9TZuWCiNSdyFffuJQWilmnFr8643ezHe9-weSOer0x3_H2UaGzm6-B16yGTumbfSfYXwLAxi8w_RoYcOlK1wqWQsCCPG-vubBOcZylGet3XkJNRva_ATPRpS4rbHTqi-DEVrlxlNdtT2fIqWsmA6p1qMxKDqaGgZWGrUsInrceJJyIIoSTtcNLYkZPO8wFkKnzxJJsnpsUDFGs05JWA5mg4XKMkphydcmTttJcffaefX3K15NGci1PK87Lo9zOdejBsnO90jaE27zw2f1zCrc9_Vn7R15H9RVoieBRzeGzfdelPIAApONXIQ8mrJFpe-qQngX9Zo6LlRzSVZDalxjkPFzJicK9HbooKnu",
+      "AcnlKN0OozCRyGfmv95JE4su4QgjahboDVgY7ROC0SRvpn2hhNO6ugDn2B3N5hMaNWuiDD0ZOfvNKyyu7xKjPG1SA-WSlZuy7LJsUAASgz4FmiFW1bmL8rRT3j_syRpk-Zm-UiJROUEU_t3Sw0509CtVACH4lGBTcw7s3DFis1tdx765q9TgQDPAajJi8FYYaVxeGa58Hox00cKxxxDO7sSWqgVRutjETvRP3_iD9Ldd5-_iTMJH7XKQ1nfqaENKfvAQWbB2TDKl6nK5d8npo3EI7_rvj0ZGmhCD4qJ4TNw8eaihrGfJpJW7kEuG3h7gKJEYs8HiAllyAF6ue59U7dP4r1zHUL_J5axtqQl6HncBo-6fV9pFwSjAmX3s4ubw6IVuQaMk8ZjMQH5x5KKIRIddje3UViLl_FCGQUpYafUrY9cZJ_VK6KolBdHavfOltQ",
+      "AcnlKN3uIKDj5mrfVKHc3pYxSwTNNfnoODhH0mhhakOtgg4U5p4QTlDFnZ6aPco0fIh-ue0C6nImZblV6lhX3mDl1i0_PqbuZpNHt95PVpn-TZvk0xrDHQBk04DrFpHt-8Y-uxU0S-n3OsztbxiRUeJn_vWsNVP-Ck7w-QiuKwgPhwi4G9UfRYmy-jpRJSIWk9boDKf-iNmd-vveKwQ1qn2SrQ7iJTvZ_QuNKEduoutvOaRfMBcHqyEWKTK5SKUKv-d2AyVcD_C2iWW2c-dZKxukKH8lKMMRtj1GTHkpaSxI9Pw_WMZPFYNcpx1uxCeVFwzjAM6zgkuSL4MlWB3lLtm3TI5FjrYsRSu49s-1sDsYwSuYUoQPNx-ISd-L2_fOBpGDJpf9BJZcH1pstVij5QyxyPmKqdn5bfaBPjr2ydPVL5Cq4CmxLrZgM7o01A64otaf",
+      "AcnlKN3J6XYxD3qpoi8fB5ZxKqMRAr6wwaJtu2EaFl5aUQ_F6ozvLxRRopWfZw2UhMG_d0W9JAVq1a9n82pwwWIxEUQX-3OkcMWpQEQAG6LdasPm3fTB-sY6GbX3aMgA6Xp268cv5qo_ZivbuNl4NzydlcdnDMBHePG2b8HMfwCqK_SvjGpe6svK6MLm2-NNhVj7IdX3C30WFFG2kI5e6bJqMupChwTFWrgJAtVmesY6R0m0qJECmIUitOd5gYci4XDVXAPiMQ_AkPxNz0jEZuk10aUpV-MHmlsgwv3je8Z1H4X_dhK7OcqRm8DcDULyZuYSCcShgnqaSVP1Oy1EuIn56Ijzn-8ZWSwMvNMpasr5SEkW5mNL2r6oReucjokEhDKzvwITFCDmyvsrPWNQS_euoIyQ1Sj9vgjmDSapLWnsf6elIAK6pTVAKS0PGH8c6_HZ",
+      "AcnlKN2HNKOaJwBQVZDFnvLf4FJiN2p3GIdUbaTlc09zM261g8ToImgHlUgOANYBC1XqQ9d6F1_UB45QVGu9M2zUuAdiVj03hi3HPbhDFm0C9vJTxjGYVdTyuiHdd0IAjBHcEi2IHdZhP-hapCKy4zhOckYoksJ7U8y2j8i9HQENOMryD7U2KXjJLYxrmVw8b5OEUuIh_INxt_pv-tiIJ1EAPCecD0KH2pAkC-GE5xHzTOrst2X3uFm6-FnzqefZFoCJpm_nL6PFg_1Fdv9v2RqKduAhVzlIM28kqZH4vrNnsiaCX1fj6jcDDO6nGPz2A1SETXV8uj1y_VcA4m_6qniEphG8vLv4rVo2ZL64pf78jWyZuuXXKeFkUZheVd42slyOeP-Ni_AM7LfYije-TaCKjtCu9T3AubjDbEozE4Y8nmpp-48"
+    ]
+  },
+  "social_preview": {
+    "like_count": 912,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 28
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "55€ environ",
+    "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 2:00 AM",
+    "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nsamedi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\ndimanche: 12:00– 2:30 PM, 7:00 PM – 2:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Italophiles, couples romantiques, gourmets du quartier Saint-Paul.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 24,
+    "value_score": 86,
+    "category_percentile": 14,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 24,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 24,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "PRIMA",
+        "items": [
+          {
+            "name": "Raviolis Cacio e Pepe",
+            "price": "24€"
+          },
+          {
+            "name": "Pasta of the day",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "BAR SOTTO",
+        "items": [
+          {
+            "name": "Signature Cocktail",
+            "price": "16€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 1393,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

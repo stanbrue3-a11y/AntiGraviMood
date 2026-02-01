@@ -1,0 +1,167 @@
+{
+  "id": "poi-117",
+  "name": "Clown Bar",
+  "slug": "clown-bar",
+  "location": {
+    "address": "114 Rue Amelot",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8636036,
+      "lng": 2.3672314
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ_aCXeQBy5kcR4ZxoRALxHhY"
+  },
+  "category": "restaurant",
+  "subcategory": "gastro-bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 8,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "65€ environ",
+      "display": "Tlj: 12:00 – 2:00 PM, 7:00 PM – 12:00 AM",
+      "detailed": "lundi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nmardi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nmercredi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\njeudi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nvendredi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nsamedi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\ndimanche: 12:00– 2:00 PM, 7:00 PM – 12:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Carte de vins nature exceptionnelle",
+    "ambiance_vibe": "Décor de cirque historique, carreaux de faïence classés",
+    "smart_tip": "Leurs vins d Alsace sont une vraie découverte pour les néophytes.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.clownbar.fr/"
+  },
+  "real_talk": {
+    "text": "Dîner dans un Monument Historique de 1900. Une cuisine d'avant-garde (cerveau d'agneau !) dans le décor le plus fou de Paris.",
+    "must_eat": "Oursin, ris de veau, desserts de Sat Bains alumni",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancienne cantine des artistes du Cirque d'Hiver voisin, le Clown Bar est un joyau Belle Époque miraculeusement préservé. Son plafond de céramique peinte, figurant des clowns et des acrobates, est classé Monument Historique. Mais derrière ce décor de musée se cache l'une des cuisines les plus radicales et brillantes de Paris. Les chefs y proposent des assiettes d'une créativité folle, n'hésitant pas à travailler des abats ou des accords terre-mer audacieux. C'est l'essence de la nouvelle garde culinaire : un respect immense pour l'histoire allié à une audace contemporaine totale. Une expérience hors du temps et des modes.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN01RdBIK3AmNWYURXG32KuFJyBywhRlLV646NLdVXrnBedtC1D_87PbcV4DIP0279YRMwJk7f9W5eH2-vssu-P69fEY9xAzhSrNdB3IbWtgakVPcBL9CXvtKIH25uYqCFqmFdMboHRwB4-6OYC2PwTFiE7O6Q92n8Io64feqEIJ6qpACgqq24nmEF6fJBY8YTgdCIPh1A4_zEyzjBuxW-3xFKKG3XF75agPrdJr3P4SYSZsGABHIOvMdKIf78D_eYLcxOno0LL87Qtq5BYmbW9V-qLN4GuxsiN7187NbzesIg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@wix",
+    "google_photos": [
+      "AcnlKN01RdBIK3AmNWYURXG32KuFJyBywhRlLV646NLdVXrnBedtC1D_87PbcV4DIP0279YRMwJk7f9W5eH2-vssu-P69fEY9xAzhSrNdB3IbWtgakVPcBL9CXvtKIH25uYqCFqmFdMboHRwB4-6OYC2PwTFiE7O6Q92n8Io64feqEIJ6qpACgqq24nmEF6fJBY8YTgdCIPh1A4_zEyzjBuxW-3xFKKG3XF75agPrdJr3P4SYSZsGABHIOvMdKIf78D_eYLcxOno0LL87Qtq5BYmbW9V-qLN4GuxsiN7187NbzesIg",
+      "AcnlKN3FJuPp8H9sdpj9w9AI3-KDsEvmPIuTZIJpaRLmTG7OI6Asb3ZGidi-aT3Lv0qSjkisZHAy0v51FPXSCyNRlAmV0Z1igsO1hvoR4NPT9LmtJ1PLfdiyFQaU8rRt-YN5iiUhv_V8ruqrSoiB16ADXu_Lya-DfClqAH0s2gOSGGTWV1_H43u9EI0ip3fhiaKNfuZZXWJ2TglGS0HJjmaWPAJwUPcJfkvWvpZChwm2Q67dvGPkHT4mvw1wdpS-TybsO6e1Mr90sAAujfbcKSvpgEu13592N-uziTa5hOKnXaeNQg",
+      "AcnlKN1GCDRWRI-Ck9QqgZsgFhZ5IM6VtnzmLK3BGI-Tl3zO06M0FF-kkvpIYnj5dJq864eCf9rGl9WcyXo0q2-TJ79LOWp8sTR-d1K2Ax9SAHTlUyKyCNFSsKdgMgsJYV5X2kTiVMekASzsoX_XJRrCRrL_POi1v-jYcPWkdBwombE-qyduaQhrt_Q9txrkD2ZtJ9iAvL7XTDgfNLoeFPnlF0-zZwJaD9NpUypYVXDW4L_HYrWzwdKiYJd_zWfQzb46Sg5WzuVwbNvsK-etY0BTs77VmIzW-RWKYGEBM5raJAKPY5ojrzW6w0K1nvVcFEYZ9xNKZr2hj61M01kHz63TFOE_JIkhNHOZgesGede7IgtvPJwkt4Py-NtQ5ouP-c9NnYKHtV7R1pJU_ZAzx1cJROiZbzX3ObngAlfKlKSJAjmwMw",
+      "AcnlKN2nvs9Cv9BTGe2WSfYBJ-S8XhHuTFvS_zZf7sSHPqd1H1ChrwSUhv9BZkuz_eKoI-TIaJ63bovkNzCXQVh4509I-fzRaO-F_YxLJdXa4C-oMSBJ19ol6U1YsAAZf18o3fF6sk1Wj_GAyiTot1KrXAo86XyjtAYkOiTq0W3N1Q4nAVgCGnnsWRp2oqLsl01mvj0So6UJ_S6oU42_cYq1tDGg9YDLlLKoCvGrrwOu-ex7AkUZ_XaiIgjuKGMKq-taLhjyK-Ha7TzKtRUXJAzFq21_k87beG637BK_tp_b35tH0E54XVW5jtVJMlhq_gFe0s4fj-9XKy6Hn4hRonzCfLiv8MICaAff9TgWuzSUTsHzkWfVgp8DaUpQ8el_LzRkxkPDLTL8VF3p4ZkAgr4VkBKQzD_tPtwQ86SXueycaviKDffpurAHEGVFygaNBw",
+      "AcnlKN2PqaF5eNV67ry5mC5jnaWMdkvUMlIklbOFaIYirTPtsZ527oh73cXZbNt76CmO2w7zcRCZJPez6Xz5m_4XrLt3WygG3VY05wi8aVmj82PInciXSH1vFm2BCxvsUwi3pvTi4o1RXJfrIkN3IjCds8udhCnPU2oM1FRkO-B8oH60rUT14shNjX-w8pTvZvt_naJpWYozd1laCZFAvFWpcEdIrfEEamsZqI0wHZIdzHuXvs6F6QHMaueoDuHFzP0kWm6BI9SCmtXYuubT6tWeF63WqwY7DUkghoCuBmAgDSAAxA7usOaK1tsinTm-fIjqRxPUOSQ7f9STNKtePKbtaqHz6tX3FPaUdNz1MAZI_ZdycVcF0K2-mKxfHfn5xm5rno_2JZuKaJ3O6QigsZekWcyEQApAR9kB7GCKNm8M03qOKJvvBoJFRuAesEb-Uok8",
+      "AcnlKN0rV7AKADjkRmskF4eBDIf-VGyMhpxWlSzWK20H5kwfZAVVxrY0S4EfsMglAf5IVpFfdQwmU5OptTN70oGLFUqdJp_KST6imPzxMQG0NVRS4bvff2A-o9U5m_E2r-VQTJ0Sh1_jwI-IjcRV2LNTgSAMZNo_zlqSi-1BvmbT4IqTdB-VpTMPrN0jtZBTwEdSCi-1vh2E-w_fZ47NCp-HrZ6vC6WGldMwS1J6wSSjm_WbGdbcfd3wynhbqcH-CuZNzHhm7WEXwYz1GDPfdqzFnvqdJnSUDbOLF2RmBXe0TAdJfRBCw0OUD_Snhjsx1dEH5eNYzkkzye7MrbhHHZ38jDb0Y8aweSmyqgy9pTPjBhmo0HvJQu72z41hO6JKatSpwilcdJPXNmnn5mwoViM8TQ7-u742RDQcwJqVobi5jx4",
+      "AcnlKN3CV0hupYj__RkuSvQfcW3hYsUaphNYTr0b9KmfNJ7thre3qz0tDwMOIslcU5EwfeR9UUDhGqlvWnORuXpLTu1YdyGjaMemf3YrA7gWJE3zn4EBHaHLjhgTRHf1p255XCyUrRNZPs0HP9cTOq6uLs2azeWYXcYt4Y0-EFFt8z9z3QiTK1nkqBuC5TU9Rg7QuINgg3TxM4ypkaqsLNjIMyyfYtFblR2Y1VU_jY5LF6sNM3NabZqyc2_8G6w-yEj6QC6Is2aeqkRNi-i-XqTwBPEiZ6-xcrj-Y35o_OId_5vVw2I3C4XG7FzTbb6QFt_g1KFMfO6hbVsFjX1WFP2MxERvnw0dNUAyP9me60aFRLmDVwmSSsPkVV4U8uNgI3WMyvIviIg9HF9uB6sGDDfPaOxWSaHY210GjNvQQemZQPCfGEk5q_cPYBfvGuTcF66K",
+      "AcnlKN0bOKb9qOrSXNWVZYX7Y5ummFUpjyWagiFuYLj2qe3fdB6vMO74NjfaOA-EIO2p9ommxKeaaPFUhsE-UZys3C4i0tFwiP5fhotvjIWAYtC_dRmlmY2JHFy4XdDATVoH0opfCn6x8EJOdEHg9kBbizGVV7m-t6ECVEOs6MFd9HWehtSO3iRLQkNdG2CHnOBFo8A5RRAcgF6pkRO0V98llCbFFifLcnW6dNAaxWoeRHOcG6tuEbRcAlNnFEPgIt0Xp6OVdQIJreKAzzW3fBI5CJxqNJ08FG-GLf-8h_sY5y5MX-sPui8_jbMKEcgFGVctPsTgGk9YIvS0g0Mj70ryFFRtZA8NVQ1az-Ud5BF3tXAWM9WXKv2PtJSM23tFfWaF2tJ7qjWYFLOCVVFrOF3UmW0LQOZfCASwUncpjMxEyjjF9dX_DsvrGhk6ajbbMQbe",
+      "AcnlKN1QI3FpZ7dBhWFvopM04QAt_wU308I3kZ934qtbr_IfI18qpjceXIBTlZDzKlXW1TewCTGJi5-nvJ3s5k6MY9q6e9MNXMSXk-xFpoHPT-ThD4n6oPoyh5MZYzxTPD0_wyiO1oWcz4Ou-C4HJleGFHQq5IQ-U-nSXHMWGrKqTTF8_S3r7r1b0aZccMc-iNIZMQCqRxOMXU02sy-5iqjsrQeQxCJV64411Gs2-Yvm_2QfGeGJGapz8kiSabCXMNYlT2NPR5jrlrF2QvJeyCuCuUF_dHtsQdea4hS_hxHPatKCrqjGk79lLQY63Q5yacBLPoAFN9tUrNkabuHyobx-_TmIPeRuYAOl4j0mZbw8fX1Z7_knVMw3BWEMvTcoo_hhsVNURxThWsQZIopxaQ_A8a2gt6KQG8fSzkzpk5tSQRhAmoc4",
+      "AcnlKN0XMA-0kkhDgp88GIL0m59bkI9KVQ9gl07PbZNye5-WRm7fsemTFrPO9S-mbeEnUJhQG04h-NNaOYqiZ0YbFtvXwoz1ToUpqj-6aUqNT95P8z_7UCeccAs2FKguy-3Bbnnq1WR_w-VQC2fszzyLLlSQkivSkIbVbrrX_xFiLolJVnpu5uXK53hK723h9drB5mTk--eDrGzxcmk9qCSxHe2yM2BCbDUkOU4KyvEaCepujswTv5JcNcjCe9quhtoOUwiXCeSHjh-ylq5t-C-cQwE5I7gf86FD0MVXMnVDmcd_KUMVoe6jCZSNDtJ38IlB4IBBKFQkTIrFhEfQ8rJRF7EwZVD5oA-0UzinkCgICXJFPdep82qj_29toe20vB9Rduy2zYseif5uw45kHG0sab8y9u7thhun0rtctqAtHhv5iat_HpDfy05MLAxvngnP"
+    ]
+  },
+  "social_preview": {
+    "like_count": 791,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 45
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "65€ environ",
+    "display": "Tlj: 12:00 – 2:00 PM, 7:00 PM – 12:00 AM",
+    "detailed": "lundi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nmardi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nmercredi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\njeudi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nvendredi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\nsamedi: 12:00– 2:00 PM, 7:00 PM – 12:00 AM\ndimanche: 12:00– 2:00 PM, 7:00 PM – 12:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gourmets avertis, bistronomie lovers, habitués de la scène food parisienne.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 26,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(26.0€)",
+    "main_dish_price": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Cervelle d'agneau panée",
+            "price": "18€"
+          },
+          {
+            "name": "Couteaux à la citronnelle",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Plat du Marché Signature",
+            "price": "32€"
+          },
+          {
+            "name": "Pigeon de chez Racan",
+            "price": "38€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 1246,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

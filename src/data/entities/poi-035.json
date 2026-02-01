@@ -1,0 +1,178 @@
+{
+  "id": "poi-035",
+  "name": "Cité des Sciences et de l'Industrie",
+  "slug": "cite-des-sciences",
+  "location": {
+    "address": "30 Avenue Corentin Cariou",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8958,
+      "lng": 2.3872
+    },
+    "nearest_metro": "Porte de la Villette",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJD6qS3zJs5kcRJ8_ebdhX0VI"
+  },
+  "category": "museum",
+  "subcategory": "musee-science",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.5,
+      "criteria": {
+        "noise_level": 5,
+        "seating_comfort": 6,
+        "natural_light": 8,
+        "crowd_density": 5,
+        "music_tempo": 7
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "event_programming": 6,
+        "dance_space": 2,
+        "cocktail_offering": 2,
+        "crowd_energy": 4,
+        "late_hours": 3
+      }
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 8,
+        "cultural_programming": 10,
+        "creative_clientele": 9,
+        "workspace_facilities": 7
+      }
+    }
+  },
+  "vibes": [
+    "futuriste",
+    "géode",
+    "interactif",
+    "familial",
+    "pédagogique",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4169E1",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 3654,
+    "moment_count": 2134,
+    "top_vibe_tags": [
+      "futuriste",
+      "interactif",
+      "géode"
+    ]
+  },
+  "discovery_radius_meters": 100,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 40 05 70 00",
+    "google_maps_url": "https://maps.google.com/?cid=5967647568310488871",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 10h - 18h",
+    "L'ambiance": "Futuriste, interactive et immense.",
+    "Le concept": "La science à portée de main pour tous les âges.",
+    "Pour Qui ?": "Familles curieuses, geeks et enfants.",
+    "Reservation required": false,
+    "Le Tip": "Le sous-marin Argonaute caché dans le parc.",
+    "Le Must": "Le Planétarium et son écran 8K époustouflant.",
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Demandez la place près de la fenêtre pour voir passer tout le 11ème.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.cite-sciences.fr/fr/accueil/"
+  },
+  "media": {
+    "hero_image": "/images/cite-sciences.jpg",
+    "instagram_handle": "@citedessciences",
+    "google_photos": [
+      "AZLasHrvW_I5f64cfON-EfBJI_qMTe8wQVUDhvofdwGaF3aW0uFbA3c63HaSsAgXPz_FquPnQQ7ws1zt6CqX1X5HqUjzorbfG9LOdhHVkPr_xWtOFUKRAKu6JxFa7NEG13vO7kiBRWJ3YUCQzRt4ezOcu8wLAoomspfPihcZb24wY7o1l4447FJcAWBGpSTiC8bk3PCYbXWmDqso5f3CyMWhytzt2CH0B1IzP7A1Pbo_Gu8I262hVlxWUkPlVmGRdqQDK6WM-NzbM03hUMAEZUhFarCPuCZMM5j6Q-cihdwW2NTvQd6me7YK5Hr5A-H1RZWj-URw3i4DCIBAl1GWy1Y6d8EbzzfYec7_fSQXNXj_wUeL10hS_BywgmOOAxiNm7VzTaBzNGk_GbzCks5UyS3Btc37xVfzmt2Jgvts-tJytDMOO0U",
+      "AZLasHppYUQcOoBG51gVTh0EkqA_h70d_dWJ2bQQCNhEKWF7qZP51c6RsFyXcQa7aSt30t3dTB1SmoJ5cFecjIl8YgWrNpIsU1_xYSVA80ZKAXe3E3CyNfugnLhLKcJAWsV7qESsDltQj5sqijs4tzAKTVT-HYeWTatZHHhZI6DPAmo7TMbq-rgP8oXfDHqBd5MwXovWiveezP4UEG1vWOOmQe2yKn46q5ouZHlslelDTkE-1uGwJfxFtYuKSPv9Qb_l9cyqpxwcTthM-0lbvgAlnE6nboOm-FQa_bl6_Dddacc4xgmWIz3l-EGtu4Ardv6avzzDW0tn2_O_meMTt2q95na4sMWDJE9rPf0fVQqTXSJmkCPM4mk3wAKqsqh1RxpogrA7wv9WUPynhLALUgERGRkeqLNvKnx37rjUneVn_SH0MJRr",
+      "AZLasHokbYAfYB7p6u5KMrTYTsiMYe0J0AL2klFVc-yQkJCsrlfYsoYafjWsTZ5oUuW-TOzfUhm2FyOMLNujspF8AhIgl8y14hDTjASrlmXJ7ljf9yUAUrThcMnC92B3Yf8e5-wn56FVuEaZWdQLW8KNZPYwAqcVVBBNOjTb5uqmZ-dSRNERL5QuYsqAV4BgQZllX179exafojEv890OfkfztV1SsEtW98FXfWttGWnv6Wz1xj2EELC7lNuHUM5KXUpqNH0_c3pva0HSTy9ZP6dGlIxX3xEwkOLRNDjOFZIj7aYH0bvwb-qSw_6791XvzO-VR7e8hvqA6z-I6N4Q9bEh5MFi9IgSGailZpGhmlIpIsswhMnOxHd4pTrR0mEZefw1-YZrm-jBPw5I_vTsOfz_IqeMFtwy32dsjBGyeIjuWRQ",
+      "AZLasHo3o7rhpKUOf2NMgTKNKptM-9r6rCA3WAnJFv2bTP3KJg9G9w2cv877PdsJA6ct02kMPfZGBm1_EExXnxE3mBd600qpaLTesoJdlKki56SeQIIizUpHQU1yu5A7liU9d5tCUqfWVEm0Ka7zsKvnU-VL9AZImU0_C1-n2bj9Uo0PID7uHcK3-NR76iS6ibdHFVId8AKXsSZlwguS_m7FLQ4TXbb3ZDEXgWYvCuU3DHTmY8eZFr1gYzcyP-Q__ceg8K3zq25g6ATdL5MY88wRi4ZyLMTidpr_eCK2HRmZ9SqdAy-IkDf7DfwsJJK7103fvjVVk-to6yTv_4JDGxdPmaxurcewQws3ajNuMCvqS1LbKeB_eTMAVNYXzPJS7n8jhwnEB3Tsxke-mGnwCdvFgede_xc_7rJ3WC1fDIkI59Wcx_wi",
+      "AZLasHrPjMcsU0bCzTL-5CCrD3_E1DMYkf_AGdZXdpT9ZOiszE_mx_NC6TOeT2VfuQ_sjY05-FUjzPn9ETpkUqXzL07Mut0SxYhU7LJTmB-Wgk3xcN9qyu2DheIkM16JB8T0FMSwegHslfXkJaMOoYf9v42ObCEGBpk1dVrRW_EHfYvVliDtGX1vUwt6qWr9X0VWilM-Q2IJ159UK64mf33ucFb4D9SV7zTRq-6wpZlm8sC3e_C9KCSnEUNCh0aWCfRmWYfXy7B-qo-r-Ln8pO5tSrRBaWU940H5E6MsCAyb5wuRH36EHmyTbgiU2OJhNgkHzqvwoxcSEYqkoiMRfKNTFVlhOtbPeapSDN86Oq0bYre8w_RXNDLj9Xb62nqtwbfhlbxaJRbD_R2zYUebz0-tWjghEUiTFm2DuXthhL1cGK9Igg",
+      "AZLasHr_enE2EO1eigapBcaa2sKQsVTHfrIRtK_Q_UyzpTOKnnT5ck1tEF04ckf-o-gt_NXg3dWeIeJyl-VaWRhLSL5gc0e1rwe0rSqhACWlyojMyNX2xxCvGy-oKDfPAwK7Ae2e1Ief_OtQghDfTKH7kHmJGprEXwtO4iZ9h5_HSs4LnizOBNeeuSDvlT-nDbcF6fplxmYNThcLv90ii57pVSzdoZ_PdFeCPGGhPjx8pZlFUxRcHQKvCduN5snKenDwWOLI7IR7if3lXBWShv_HNTFEDvbkyBZt1d-FNTjY9wQACNuvMTdyhRBk5Hn4ydhrgYTSzjJVDo54XgyjCmddrOBaL-dhscHZqly0r4F6U4Tj0yGYtilLknQI06MTOJyxKIZ40Yr2omhd92eR_AbJ7SFfpWLV8NIdUKSDavc-T1V1gA",
+      "AZLasHoAIi1WvSmco5YLOuH-J0qAuEEUEgDeb0y-9nWlehmriXPv_AtX-4-Kx0vsMNTmBwM42bpyJXZqYENjBthfgVGnsq1JCXtWL7wDGRKEYUA4fA_RU70vnRt-UuNFB_UH3Iofd8AASaDRTILGkX7O-Dyatt3YwRbBkziaovo6mI8V11Zez4pS6QWHYmnyRJNCJSqLSMweW6iOhQ2DnTS_OSMh5pE8Dtmmua_5NUDdtIZfw2C8MT-OwHzjydm8oPHoBo1nmqN7_1ShSicdG1z_IfaxTufH0JB2V6QDSR-sY65igRgIQhtguxtwQ3hyseF40DWtThbNhmYJfalK8c4v5Xa3CGF4WUlPKtm8f4IFkP_vOvQ_VDzypr8XVV1R1OK-xI5QrD1hpaqnPSrGhip80tX84YzinNRnHxck9bjPL4GlXQ",
+      "AZLasHqzLIwxcyKbRcr9eoS6MdBd7puH6L1P_PvuL_l8NWTCgWyhIRbUlKku7_JCAPHHtYI9DWo9SlQXt4xvpkPe_QrgMCMrTdb-ZFAPtHP2vCVTHz4eRanEe5ex_dlAxU99UGi_a87fKTZTnI7O-auY-x7rszrF51PGkeUSKrbKF0akjSmVQ4-2W1IQtOfoxXzIZNj4rfIXsUHgFODHaUg5ipWiJGB5FeKtHkYGrbsifW5OtwoEt3PRbz-eXO7_DVCt-q2LE3YBB_hnGelxrtmK6YG8LwZ9Br-54wcULuCLw-iNQ1Bu6Z4A5a2hyh0qaG4YhBFBRaklhCan7m2jfZwTSG_rG7_BpqbY2apbzKXWk0sb1gfIq2Nz0nSQbvATYKSvVUpXMAHgfbd9PTzDiPBHjeVuSdsf5r16JpcEoiR7GnuWI0mDbVoKdiGRtrUvo_Gn",
+      "AZLasHpbwBUEVqrRgZImrNHa9deBnRPix_rQE0OYCERio1EG80mM7zB_8TeuoKzNEMF4U_vy1b3YEfpPxvYfW80fHXcNadIj0Ddk-YzYtYsJHJ_MGnLnvqZ3bWP81TksXnTLDT-vqzRMcIYCkD115zqcEiYKOKTwWeNivJOSaA74T5qno3JtB56NlowJgBCwRaty9xtFW-b4HeRFm-pGn65kO_7D4nkM4HVki4DCNFpP2Obi1M0PJgz7kFvbfNUNxVnzUGkc54f5VkoJ0IfL2IjKSA09ba_qjFyzxRkIEVox5Y4LmvVKQ5p1PsNqGk-8p6cCtAtJDmYUf1InHYw4oG1C_9AHwGQKO7Wr_s4KDj_I62oFHiot7RkFXt4Xus7bAONvYDmFsCXAjspqZ8MFQFd-t9G46UkRM-tUrma5ghu2-sxHx1H_",
+      "AZLasHoJIRJsUF7Q1lgiON7gx17rGSBelwzp_h1GJQbkWzrRFTA5P3R_GVPo-Bw4JDZwcMPEDUmR0XSuXLh9mkPS2AqLjPw1BQU4-6Q8LZLVSM_L-N791gDd1o2ZcFoloQ6TaklUSOyOo6NB6V7tmQF3YZLFZ7VCSYTyaUI5RKh_8ANaAwxNy6WpGqBAfZs4vhjdp5RN2-n3HZYwcfQdL3nBOJrK7vkGtiswXBTXeSd8TsImPMdaVDHncMPgZmwbfKbLdMKDR1vxP7Je8YNEGvtWCbq6ethyWzPm4x7Aj4eHrlvWCdns1Wtr_J4sFhLRHX78E-eQSQR0vpMbaRpEoVfeVMbAFNVlzpR8kL6r1Ypb-ANetrluAskzbZhSSJRYMuAZBFGIaabDoCuWdt0g9MpiwDVuN5FDOc6DdiSxt8vu_JNonWVe8iv49t6rcEWDWDH7"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h15 – 18h00",
+    "display": "Mar-Sam: 09h15-18h | Dim: 09h15-19h",
+    "detailed": "lundi: Fermé\nmardi: 09:15 – 18:00\nmercredi: 09:15 – 18:00\njeudi: 09:15 – 18:00\nvendredi: 09:15 – 18:00\nsamedi: 09:15 – 18:00\ndimanche: 09:15 – 19:00",
+    "is_open_now": false
+  },
+  "description": "Un vaisseau spatial posé dans le parc de la Villette. C'est le plus grand musée scientifique d'Europe, mais c'est surtout un terrain de jeu génial. On y vient pour la Cité des Enfants (le meilleur endroit de Paris pour les petits), pour le Planétarium ultra-moderne, ou pour visiter le sous-marin Argonaute garé dehors. L'architecture industrielle et massive des années 80 est devenue culte. C'est un lieu où l'on apprend en touchant, en jouant et en expérimentant.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles curieuses, geeks et enfants."
+    }
+  },
+  "real_talk": {
+    "text": "Le musée des sciences pour petits et grands. Planétarium, sous-marin et expériences interactives.",
+    "le_secret": "Réserve la Cité des Enfants des semaines à l'avance.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 13.5,
+    "value_score": 35,
+    "category_percentile": 65,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 13.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 3.8,
+  "google_ratings_count": 6793
+}

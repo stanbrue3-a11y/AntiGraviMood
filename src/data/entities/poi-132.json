@@ -1,0 +1,153 @@
+{
+  "id": "poi-132",
+  "name": "Pavillon de l'Arsenal",
+  "slug": "pavillon-de-l-arsenal",
+  "location": {
+    "address": "21 Bd Morland",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.85071199999999,
+      "lng": 2.362425
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJUxJlNflx5kcRjaxTCjw1Bps"
+  },
+  "category": "museum",
+  "subcategory": "architecture",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.6,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 10,
+        "crowd_density": 8
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "0€ environ",
+      "display": "Horaires non disponibles",
+      "detailed": "",
+      "is_open_now": false
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Architecture et urbanisme de Paris, maquette géante",
+    "ambiance_vibe": "Centre de documentation lumineux, expositions gratuites",
+    "booking_policy": "Entrée libre",
+    "smart_tip": "La maquette interactive permet de visualiser sa propre rue et de voir l'évolution de son quartier en quelques clics.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.pavillon-arsenal.com/"
+  },
+  "real_talk": {
+    "text": "Le musée gratuit pour comprendre comment Paris s'est construite. Une maquette géante de la ville à couper le souffle.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Le centre d'information sur l'architecture et l'urbanisme de Paris est un lieu fascinant pour comprendre comment la ville s'est construite et comment elle évolue. Sa maquette géante de Paris est un aimant à regards, tout comme ses expositions thématiques sur le logement ou les jardins urbains. Situé dans un ancien arsenal, c'est une étape indispensable pour tout amoureux de Paname et de ses secrets de construction.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3tdx_rBZ2CvKyK8rBVQjTIeCbSL1orw2WaDON04AkJoc0w-KnuNwQDBLDfQVk3RHQ7HmH0nlzrWzl-aa2_fPWZwFBes834UKk_5l2dctKYNooV5K5BSFv6b2WXmvP1kKCoCkAhUYZgfXk0V3d6mUoHDSEbmFUfDeYISxSRVyXberS1-UMPWdAxAgttvfQWDuqSNDtnsrAH3hRaPjsfP5TZIZJl6T4YgwW3ub9wnNuiA1lM2HPSUX4mKM673RRNShlIZt7-6-H9WYhNamA-ts_2TsGijGKqhHoE4lCz9H46vBWj36eiTKKjXXuHvcFfbvSqnSuRivaVe3pWlEy-H9c8yC1PLzBJc85Mqw8vWROYaAUhT9LkQv6UwItgqV95ju1vl7mtFy_4ncGhIVFRb-oef_6osagYAW_XHowLRKGtx3RD&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@pavillonarsenal",
+    "google_photos": [
+      "AcnlKN3tdx_rBZ2CvKyK8rBVQjTIeCbSL1orw2WaDON04AkJoc0w-KnuNwQDBLDfQVk3RHQ7HmH0nlzrWzl-aa2_fPWZwFBes834UKk_5l2dctKYNooV5K5BSFv6b2WXmvP1kKCoCkAhUYZgfXk0V3d6mUoHDSEbmFUfDeYISxSRVyXberS1-UMPWdAxAgttvfQWDuqSNDtnsrAH3hRaPjsfP5TZIZJl6T4YgwW3ub9wnNuiA1lM2HPSUX4mKM673RRNShlIZt7-6-H9WYhNamA-ts_2TsGijGKqhHoE4lCz9H46vBWj36eiTKKjXXuHvcFfbvSqnSuRivaVe3pWlEy-H9c8yC1PLzBJc85Mqw8vWROYaAUhT9LkQv6UwItgqV95ju1vl7mtFy_4ncGhIVFRb-oef_6osagYAW_XHowLRKGtx3RD",
+      "AcnlKN3hqZbnevncssf6SrhvnoUSa52y9942n9NsweZTdzzUg1l6kcPSvs5sicXS43hZNmGhu5sMhqK0J8pEtGmaiiAd0E82qqgehQObybooYgLzp06GvkHmFVXigRxfMBzECgdxToW0OmVJfqobWcd-8VsofyGn44V3s0_OiFtzw1iXBBrDNST-j4dcv9K1vhDHboej_beZaDIQ2mZ0Idib0SJWXNR3VCSeCnl4_pQOBGGGyJzMynXupixKGjSXp6fEVXs_9u2XZyNx3NL1UzIiOJDwEmklt4kQPLXGeGaAQY_-rrd3NT-OBfowipfiMljeu0wmGOlQ66oZdRKILAWEg4ryNvtRABRKP-UJcDjy2g97Wgdq7VZc3nq3qZ8Wr7P3hZDBGX2ATcqyP0ZIyBIyQ_Dm8M4jDcqBxiaapJgBQ7IuNw",
+      "AcnlKN2W2rX3MpgXbRabNUc3-w-982zNYLtb_ggOUrCmiwye55lrdhbtLRAuGQt78I-CioMbmu-Yp_wUSC7oi63Qf6W99nJIUPU8PcR3dAJzu31X3VH0oabw9Jfv8cZVahpbj5MMTRp_gEdkhgDCoRtB-j0iHiC07Yp6oXT6VRd4QzqJNo7zEATneCsN903_svDh7X7RD6N9TLENWRTLNHTVKuZ9L3ZI33hdX3Cls77wlleHXi8EINSKShUs0DuxBYS6PpQYP9L_sNqUru5Wxy-xaV4Uxl4uEsN_UMDHQz3E9aB6JXXZL0sCo7NwMIzEVIaDdk8h-2x_6VMGanpEpx6x_eCy6O4iYkTv60pR8ef2Dq5GxSy2HFSSg1zTmswk1FwYaHFwBENBoatmOOskWojVNZZtfNhwDj_AFhkchkZUzawubg",
+      "AcnlKN3te-lHFJj9nCuVYLhbinsCrCgn9K6RXw-pX-UN080WdUM4apnt1pT4usMGVCFqxceUQxqxya9sxQ3dvHJ98r4f9LmZnMGvvncrYMwkBaYYouOpy7XJKMy4Ua4JUOMVgfrkSckmHzYqp-9L6i6ngV7NWQ2U_yPoT0GGZropoXNZlYFkdbvRgjt8bHUUWwq_lNip2bOjGTkhA5JZnKlVJGDorMYtVLJbyGDuTTsQSsoQ0ynrx8RDOdyDHbcsts7U_Nc_wjnF_chT1-iLfDxWcvvGzuUd6URbf4L9Gl0eom1EKSogPlpUz6gwunmDqW92CvKQaI7aHlYLy9hgcoTDTCz2YFzGDxA2kncOd7IIkMvSX6gxCHualObE9FQGQl8V4OUamJj3bfWUdCtggOkb-iREqsCWDYULMJKfnMAP7C8GgZo",
+      "AcnlKN3hGwPTrgG6BwirTHlDn-maLEGIOaU6qCYuATn5n-u4zleIzs8gZZM_zIzv0PW2a1BGbcBEfJJr9XMPK9LD4Yts1k8P7qIrRpG6lhbcZO9Olb85ktCrXMxyLtc4wFXQKAB1yYXFb2i_tubn2phOrfLPLENzXkms1xlpXliUUkRCRKCGeBztRsooA3ngf1_iSwW9BVyHGJ3WZjJKBJZhWA90D5Rphxcc68dqNsvkW7DYB1E_4h5qcpyN1cRJqYYuWoLoSEM5pAJWNVSk15ZSIA8JxM2vhGIbu5AXUEv1i_AAlz6AUMI2zYu_BRtCXlI7_YnpdFc9bua2U6nodXu6CjoLteeT9MUC46vghC4NYlkcyB--R8Xs3JBTrHG0vPVbNx7pJ6LjdNm9pKZC-lMkgNtTYebD6j6Sc7hONkg9lY6kIVr7",
+      "AcnlKN1YEoltZ5OjOPaaZPcLkNC7cmAFmFa3GoQnmEOXMfSSeunLiwKR7wXHtE9xb4_it2FIhgGvF1kxoD9ftAJ4aUvCU5em-NVEqO3y44A4KpsJBdIRQ8jZqWslS-xHSnqVJ7HH5trhxG4w7vn7nEeLVPQOzS66UyqjOl5BH-so6sTCWPx71JSbiLedcD9Mf7qKT4h0lgKwJKyQS1hhNe8Qh5FulsmcfJAKLQOp78hJ7ESqTTZ3B89y0hkjWIOpk-3QTVWqeNrbN2GXrgGNjrU1y9-9KA_jyXfZe3ED65vebEBaZR3ac9QjMMRXsltHq3WJ8jXBXkywDATV_O76EiS_KYGAVqkrzXBlZHhWyWuPUyYjVMw04T3rRP0yBl_J6PMaZJza-jzwH9KjBqhPCtCA67eKXVdNEJpyLEG4sts0tJpqQ1Zf",
+      "AcnlKN2E5O3iD2o-fEyodQ5jcqCNZccjQVvTivxCxND4TZ4CuEExX3VVep1MK1OFSYB2iSSG6MUQDcArrB-qqWIoeDUpSe2H7qGyQQ_7EkKhKPqNRHc-5g6TJ8TuM8rmzvIn9Ed1mzHCKPFVehXCvutjyWv3vu_F4-NnN7qbUZErMeh2bJwroRQYEHHV8OfsUmBuyIsyh7vDo10poAMoNsc9EtM3JtJn9mCovQB2HFJaclAs4cxkX5QvPVpnRZZSTF4nafTTT9l1R-p0kv_gR9xSjYUugRi8H5TQnq_hfB4g-svON5ZPh5n2AlR_QarnGQG7h9FsVVTbvc2gijiBGY8KeLYwwjfuhWVzhAC3-9fK2NhedLrzOJr1j3N56bGo8DV2bM3kWhYGxY6hAZANLB5bnQXsPgaPQNFIUmHbbas5qS_Xn8el",
+      "AcnlKN1tL7fwsr-QjS3DKS6zXwlm84H6bhfs1kWXlgywHgqGHi1eQGWZHHfszHSOZMFug3NdJ8azRA9pQ1yiE0b-0Bo6sxfZjwQ_QIKZhvrcVLBq84KiZZAGnemLozus0J-ULFHeASOAGDYdGY1MSBILflH0dFChw5tAtDXjd8rSfdGqGPnKF3Rmx05t-IyOA59YMZVUIfmkDbULzgitat2rDhb5HxFAsilOYLOfFLF6eghjHsmVIq-8BCD-CsKbyeRcSNSnZitC1f-OLSVyeGepOriCESkyfEHD45po7hHViOA8llII-QARTPJRLMq4Xmx3jHQPoYPlSZrSjbwx0fgfYVMI4m-sQg9KQclyaQ5RbCVl4fr0XYWeT1X_ZjuarhfPkt2mgDCtd6Z1ZoWtonoM1YFWlh3Y5rJ47LzQDcU9qsRaX3WA",
+      "AcnlKN1JiyzEONdKfvvgu7nwXLieWIh9yNLP4CLWF_s9wDdFKEQc9fgqhfTv87pOUgtWkUePnHHtx04Ytb3uSNpjzbVg0L7c_cOHtMqTiArHiMhEXFoBU8KHVo8ZmUOQk7-QeD25GkjP01CDdPiLNTdNLEgQx8EB3KeAOUF9Fl5OdN7k_ZbXKDGpgYAUJGKbsT-XvWhQdIHnOITJxYW4vQkcLIcFa5XjrEOjBN5rRdQhxdf_tCYtM_nyfKtw2SbDSTA-jsiGc34hjHC85xkjjmQrm_O1PiqtQQ3fSBV8b7ypAqwzWCDxFDoCoDIp5FM97P8hPXFxIJeEA_HAvn1ig7CGK--5W9eukeFu7JmRixB2abCAbmV12yBjBukEk6BbEjKqqCUQwSyjJ2lWMlovf2mfrWqVmp2PqQrhF7Pyfy5dcU7TwQGR",
+      "AcnlKN0jx50jQzUtwUYm_YIXxa2HVy7e5rhbOT1DANBBfnOq8LYOSaYliS0CN67j2kHjYSzRdDp-x-mrPySmdEaS1h6PPl3vBdLk5v9kxwAInKjd_euOHBEPsYzpyXtpW8DG3UQUl_MU3DnYhmWql4LFlwklLSsSg-2Zd7svSBxmA_juHsrkNeFmsGQDizRBkOqyg6kDiEQJotYIXYuKu0eKGidYD5Ze1VT9ZKPESWXLjHjy9Wezg3fYT58SNd-lzJTxozBm_TsyYpqe9zIcxMd9PZzlSOpv2BE-8EF2a85oAZz5M54l_Raz0kghr2lUjaz2SXy1RTlPqp2AWldtx-vuLS8gUjn_S_A8gO_n0eCRPpDq2SPSSZ5rH4idVF7tcYDtBQsFmysECuML8A_eNoSx1Kek1JmISKqOEhV_TK5KCdZlSA"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1570,
+    "top_vibe_tags": [
+      "Modern"
+    ],
+    "moment_count": 28
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "0€ environ",
+    "display": "Horaires non disponibles",
+    "detailed": "",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Architectes en herbe, parisiens curieux de leur patrimoine et étudiants en urbanisme.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Entrée",
+            "price": "0€ (gratuit)"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1581,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

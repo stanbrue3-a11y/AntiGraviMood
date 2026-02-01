@@ -1,0 +1,176 @@
+{
+  "id": "poi-115",
+  "name": "Miznon Marais",
+  "slug": "miznon-marais",
+  "location": {
+    "address": "22 Rue des Écouffes",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8571597,
+      "lng": 2.3589814
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJo4T2XQJu5kcRLl_6yt91wOw"
+  },
+  "category": "restaurant",
+  "subcategory": "street food israélien",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 10,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 6,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Fun",
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18€ environ",
+      "display": "Tlj: 12:00 – 11:00 PM",
+      "detailed": "lundi: 12:00– 11:00 PM\nmardi: 12:00– 11:00 PM\nmercredi: 12:00– 11:00 PM\njeudi: 12:00– 11:00 PM\nvendredi: 12:00– 4:00 PM\nsamedi: Closed\ndimanche: 12:00– 11:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Énergie rock, cuisine ouverte, musique forte",
+    "booking_policy": "Pas de réservation, prenez votre mal en patience",
+    "smart_tip": "Leur cocktail au pamplemousse est ultra-désaltérant.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.miznonparis.com/",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Le temple de la pita et du chou-fleur rôti. Un joyeux bordel organisé où l'on mange avec les mains au son d'une playlist survitaminée.",
+    "must_eat": "Pita chou-fleur rôti, pita steak, ratatouille brûlée",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Miznon Marais est le sanctuaire de la street-food israélienne décomplexée imaginé par Eyal Shani. Ici, pas de réservation et souvent une file d'attente sur le trottoir. À l'intérieur, c'est le chaos fertile : on hurle votre nom pour votre commande, la musique est à fond, et des légumes frais trônent partout sur les murs. On y dévore des pitas incroyables (bœuf bourguignon, kebab d'agneau, ratatouille) et le cultissime chou-fleur rôti entier, devenu un emblème du quartier. C'est bruyant, c'est généreux, c'est authentique et c'est assurément l'une des expériences les plus énergisantes du Marais.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3V73QitMQ-fb2iOz15qhDWxJg3dMhJu0GPGsyqV0AX1Gea1-8AVyYq-qnf1H7wbGJ_qq38idh5oMTwOoeumV9IskgPVaa_vtjUhWDHu6-JcC-e3rYjgqvB5SU2Y2L_x1lODGNXzg-teVHjUm7PHNXrwR07BQ6F9vwo6CTSrMXwDLO5RMOInsHHSAezZGyOByum7qPVGBX3fXMKsQpiQkRQ1pp869h_qDlFabMW7gKiCKvqjVW84P8i0fKPw9owlvVzY74DzXnnJdDd86vxCaCFd5Hse47kflLyKmo9kato6Q&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@miznonparis",
+    "google_photos": [
+      "AcnlKN3V73QitMQ-fb2iOz15qhDWxJg3dMhJu0GPGsyqV0AX1Gea1-8AVyYq-qnf1H7wbGJ_qq38idh5oMTwOoeumV9IskgPVaa_vtjUhWDHu6-JcC-e3rYjgqvB5SU2Y2L_x1lODGNXzg-teVHjUm7PHNXrwR07BQ6F9vwo6CTSrMXwDLO5RMOInsHHSAezZGyOByum7qPVGBX3fXMKsQpiQkRQ1pp869h_qDlFabMW7gKiCKvqjVW84P8i0fKPw9owlvVzY74DzXnnJdDd86vxCaCFd5Hse47kflLyKmo9kato6Q",
+      "AcnlKN2D0xh0ANk1tanxeCj1pKChKWJaDVzpdHIqKucm1oR6lMgNOIWeft3FOkL1r_czeJ3KQ5S11HLYCRRr95NoY3CvTkrbp5V14ykq9J01UxD3rev8HhvcDFib3v2TR8O7IM4DEjuOw22skl01ZfzFcN4SSLupzW_Cw_CHErTT8WvHUf6RX4dJNIvyYK-JzwiVJ1PmNv3bj5hKnGMu4p2nd1pF0vCND3IKDM96GCDd2bCrAWdRH8B6uxB39_f1cPKbc_Qg3nKtyxXBPcJDfcY08dMT1PWQK7QGtEyNgdPpOFCWZw",
+      "AcnlKN0DY8yPHSaanQK4bT8H5Fwfwcm1FM2YIz231f3On1G4GZ5FeJEdRP6NwN284bt8NbHPAH3nnPWL-jTCIPyGp2YdVv-OgwQqtLjoVRLFlsbJZtQ3_BGZxXgy0uifoaNPwsY5QWE2Skrs-yvv2Ft4CPBn3pNDRocNwY2VH7HFgLHCnt3f0tsS3IjwK7Pd7bHJWmx4YEKuhmX9O5G9yRGE1XGqqDrYMTXGHWwBZ6XDOqw9zkLRx_WALiMVdnyYXTX-9oeQcCliqT1KctRa4XRPXewE-7CEQ-zGJoajjQQFtwoMTwkyU84q-KnnNLFRcf1HcaM8m6gycSXpjWU4fkFpcrr_R-6ajgvkytKi-t_dsZYTs8sz4LpZJujHFbtyqJJCQzby-rtbp3-Csv10FApIxxJgWN7w3ZvMPZXFGlOd9mWQ4zb2xAyts4tqxsJ7KNou",
+      "AcnlKN2gbFJmyWmKODLTou7TC0GdDvTWGpwLaafUNT7n3_BLy0pIjkJhrR96j8XViWHE7It-krebNmXmzroeVbuZH2sPALn3pSLNpgFMiGMVJz56qTqLrZJV3o_wPfqn5TKAwZY6Dv9xcFf3EpluR51pDGrUyKzxaFMOqV0_rbbRPxjtsirmFsAfEGnqPorrs_mBIN2MMd_iw0qjk_SgjsXRECfSWx3n_pS8NviCETrm2Fc8y0TE97w-IlkXMVS9lZ-RlyzdnpjnSN1kPNKUBH8jtC0HkDZ4Tirjs8Zg8du_Np58vlR-hWCz0S_4J9ZYud28Gb9Qq0_dL-m0jZu9j3xVcKdFmJeq8cQTNuV_RfW8fJtfZH6dc3A3N4ollawjoXIG7gON3GqG_kf3mTgL0utB7Jn47GtC7p5U76Sc12Iyv__Mu8SpAZ4SnTLgupzIMASh",
+      "AcnlKN3apA624XCya_iHYGNvPcOXroaRqNEQykXfwRXmP3aUCSJohZNrj9iJqRkTxm4g7-QkQ2WfWhRyn-1KVg4Lve6T-_lzuU4Kl3SVTbyixM_J9gGfXjdAs6pU3uFPwGoTKfErP1nAYMpps4SPMHLqBDfv8GDAVB8Po3-nbdsf-OLzH98qn7EA336eh25awC2fQKDN_iHqaUOuOU8mUGiwMUca-cEw4FwYirHEr8zGF7t4uT1hus1h7CMWI7dKisrBmAOepQfUKySld8L7AIXADwNRtkPXMvynt4KpUIxEvsNkyqBNh0CN8pjiQ0hkJGqFZPBWdi-BeScJ8NRt8wYc2MY3fC2VSj7DX6OY9kWzYPeiWHKCHl6j2pf7Zxr7anxDqCDg-gv5rlopJ45-qmjCoxy7m7yWDH0McXrEsoeqEBch0kNCec9IKdCOasPm_w",
+      "AcnlKN1oLBkk35xSzfwBFAaiESzM8pTzM31ZhJOYf6jGq02_RlzElpwApTBLsFhps3299fgbkNhcNLgCPi59joj0TYPqk_EBLs4pcAcfYpkZP2MfMdPNX_oAzZlMjJbXjYYMhEzrBZdV0JONHD-8lNN_tRQ8Mhf2heDM5jswrpeQbmBfypcQ2Mu7T0eANWFj1Jg60v3wK8ZUlxN0r_V6IHV_zliaIqg62RuDPP_dpvaiyWNEYosllSyOjMcDjodTy4Py0DI_OTrFWI7VV_F5N6-hOlNBQeCXtKSUqcsUgwMi02xovvKmijSzvmvnn0rca7cCIa75LV1XDq-q6zBBmEAVmoW0ZuxQ9XJhfR72nygXfXnluj3SSclavaUlfdlmXt-UCQzL8OPoxW5hEcUPFJqNBkT7dVtAbyiaBeVK5_4iIxYh-rKhPOwysY23Gr2W2j_V",
+      "AcnlKN24BHDVvebrIwmyRThkCO2czBR6YSpza93hq6GMXCxIGsl8LLoXqTvQj117N0v_IUzMpHRan-62j0ZlQ4dNhz2u2qRSoVgwb01rY9e5sRXN3s-zbYRxuyhPAJOAaxedTDK3L0VSRYqmrH27oRGtoMeweAYzMLu3Yun_H0FRYtIFvr1pACoGc79RQC14RSnSKZjc3khJEQ56xXkYOcFDejDtrAfeNCiv0UW49H7Nwo_fpCnDb9HQ6hJSTQFaAv8A8rOoRn1laPt5ZDkZer6r-RowxgppwKwip6V40VvMXlfKqGZeW28F_5Fv5VxA82UWNtlGsT4DmHfyLUfPySpneLaGPv8vdNq5UZ2fQk-BUM7nctbLEaP5mHGu2jFuMUUwghOO4sGTYZNeVG6U-tTAxXkngyCTsTRG5RZy3eWelLNDCQq9YamBC2S74oUBd5dr",
+      "AcnlKN0Y5qHYPY5ONzFMb7_k4WuVEAS34dkYayyo9KmlEQhdifRXsC2MCeXo1cRyjb0Yk9AzSGVjqJb5EDRwZKpEKa52lLsieMqJQ_p_mIvqEZJUDkSbWF63rFC6fR2sdanCuznyZGDUhqchm0adeV8Tf09oeV7K77fjMmrYSkr43rR14sQay4EAnVSK7QjpXFhaTK4zVUWEi5qgbmgRTX0liM9obtWAcsSNiQmYCXQ-rbG8PD2ecsKXhMPshyUzm0my1zqXC7wTkNVHOTMRIicABTo1So3SKEKf1NOD8--Lp2dSXWlmmVtwTtBlp9PVh9QQEzkdbZ3ptXkffa22yQcqlz6ZH8t-1u2gAkLOFWMybGYEPs1KIK42SGVRiI2vQqzRn1NOkWy2nGqAq7VvnBdSiKMDhRwqWvO5N-WQerrpZeY",
+      "AcnlKN2h_3fxpqCoVigVXSeWKCeja1k84WAfp90HQ5Ku4oWi579dhg-q6tuLOVozq5z3RL0-fkD8jzB29TBibI7tcekbX1xA5jwaoZxhdZ1WagTd7W5-ZukI9z0TxN_FmmrfifHjQEq4mgvfOYfAwzo0fESCHjU-8szNp1DCme5IDm7x4Lif0Asedm3xb2AJSKT_YKdLuWv-YbIPH5biyGZDzClXmgc-_D8P-HxM0OvKqBFLWEivPq8RMZBmYOO7y0WLxRvqmwY32zr3qYSOcPFGxEZlbaUuYeasXgSr-eTDHdBa3YeqqQZArzGT8gov2MyMxrbGhZHPlLHAKgZZnxNeA2U4Xdd2s5-4bZKH3dumOXcxJQ64dTN27gueg3husV1bXhIO449CqnFYktjdafbH4DjtKmVB7k62596hQWchNzHtGaWRQxIGaV_kEgPR6eWU",
+      "AcnlKN2a6eyb3D9wla0LfL5nLLy_zPJAa2zNykobHI5ghyL99YXp9uqotjsz1ZH-MK5Nnoqd1X7IQz5KG6wcadbZguEPxry1HPzhmIzfokjr4tERiQv-TMa7wZ3zxnRRg90M_eInlVrBuY9W3-oiQSQyCdtnngx_9ARicomcwc0TraHYBIgXQg2_Gplic-ShGuTJ45GKftYw6UlFdzPnN0maZSKqNR84b6vdAi-DfxvSEVbpah8oVoaRrz_NQgvRG3yO0GQAmW9kQ_pnT33sSNGu1QtMP1EkJPoK4VdThtrMRonRWCu2UmA446Nx6uJu1yR2TuWtiOxywwBHSjmDj9fwC7djhZqCtt8E62gWtegrNCYBeQ1js3YOovaOr9rpJb_LkbV8llAtb0gKAHvhDuUgfw7NoLcMjcIxqwOyZzELFvBIeWnnryaXY_zvJNu2lWxu"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1011,
+    "top_vibe_tags": [
+      "Fun"
+    ],
+    "moment_count": 29
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "18€ environ",
+    "display": "Tlj: 12:00 – 11:00 PM",
+    "detailed": "lundi: 12:00– 11:00 PM\nmardi: 12:00– 11:00 PM\nmercredi: 12:00– 11:00 PM\njeudi: 12:00– 11:00 PM\nvendredi: 12:00– 4:00 PM\nsamedi: Closed\ndimanche: 12:00– 11:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fans d'Eyal Shani, touristes israéliens, végétariens en quête de saveurs.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 13.5,
+    "value_score": 102,
+    "category_percentile": -2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 13.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "LES PITAS",
+        "items": [
+          {
+            "name": "Pita Bœuf Bourguignon",
+            "price": "13,50€"
+          },
+          {
+            "name": "Pita Kebab d'Agneau",
+            "price": "12,50€"
+          },
+          {
+            "name": "Pita Ratatouille",
+            "price": "9,50€"
+          }
+        ]
+      },
+      {
+        "category": "LES LÉGUMES",
+        "items": [
+          {
+            "name": "Chou-Fleur Entier Rôti",
+            "price": "8€"
+          },
+          {
+            "name": "Patate Douce Rôtie",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 3084,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

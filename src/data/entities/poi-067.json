@@ -1,0 +1,152 @@
+{
+  "id": "poi-067",
+  "name": "Bourse de Commerce - Pinault Collection",
+  "slug": "bourse-de-commerce",
+  "location": {
+    "address": "2 Rue de Viarmes",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8628797,
+      "lng": 2.3428392
+    },
+    "google_id": "ChIJHxsFziJu5kcRij7nG-6-ap8",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 394,
+    "moment_count": 28,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 55 04 60 60",
+    "google_maps_url": "https://maps.google.com/?cid=11487203729441504906",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 11h00 – 19h00",
+    "Reservation required": false,
+    "Happy hour": null,
+    "L'Architecte": "Le Cylindre de Béton de Tadao Ando dans la Rotonde historique",
+    "Waouh": "La Fresque panoramique du dôme (Commerce mondial XIXe) restaurée",
+    "La Collection": "Collection Pinault (Art contemporain souvent provocateur)",
+    "La Vue": "Coursive du dernier étage : Vue inédite sur les toits & les Halles",
+    "Mobilier": "Même les bancs (Bouroullec) sont des œuvres d'art",
+    "price_range": 3,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leurs vins du Languedoc sont d un rapport qualité-prix imbattable.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.pinaultcollection.com/fr/boursedecommerce"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHq-J145x33AebH6tOju-_gzZ1iKXaUNNGqYI9s6WqW8a-u78TPuFj9HHi1Gn8bfHxieaZlM6K7aRBL9wLBp0s73oyW17mnr46vumw06pDUBQlk8QeV8DCMa5vwblG34e8Np-QI_qIO0N4Vq9BkAtbCrXwfL2adIfwQlr-umizZ_5W0d08gzgNyZiNKlgjeYCzJD38MqzKIF3jYkUvTarqS77Q5i1FswC4XqjsSMQbW7ghKNvioRrwcGUZMXXNyhDip_TGQulO2ToVb0K0SqIs75aCRHz6Z20_qCOHRkwigGpBkE5epf7wzJG_TDvRUHzSrQgDD1i8yVldyQ-HLtBAzb59HeYLXFr1OkLd6U0CVKjrs-b20V4vr6X968b254VzBuR_L4cfpvIQ8Y4XPxs_ct2r3peR33agW7q4_wlJEajbeV",
+      "AZLasHqiYRhJ9leBD1L50H02xOfWN89BOA3tT2w6zvIUgNKjY6MSW-aQChQq3S56gM436OrAYQggZAIqPfmI_g9x2yKgkyMQKenK4yKXdHIW1vyKp4p_sjnyqjKwiBrfqmSrVZvygbEgFfhk5FQwAtOwv-fTgzmzWO9ZcQ-CcBCqJBtmSR1wD-ymIQBmocVL2TLnXuklqiNryiAGYPm6SVC5Yny3fc-X3EvSYQmIkOI6Kn5j-Dig7Dw1l4dtzddhHgOimTDGlrh8xiimiD8Accf7EagjpKfdWghcEFOTloMKB7C81nrfFy_aUs0HsYvYSw0Wgix--k2IK7ovzM-89EG_uy0-LhSeaBUa0B_GhffO7pXLUanDWiQ2ay4Wr88cXJmNnyq0PpdWpnFAxtl0dv0mRtjGxGUne1VVk85K8xN7X46WlVs",
+      "AZLasHov1Rh_5RhVrAt-rI4aY4MzD2aY8LOTGQG_Bm0StXBTuNPjHkkJj3m1J3hDN6xP1yG7jIHzKLCygOWwWdW-BoX46eXucvEZq6Ry9-h7W5svH9X0gkpevv6WQPzfmvooe5g9H8Rjy5fxNMlXXiJZJfd4xfMEq8f1_p_9eIMlEYBQ2Bo5nd9thUePPqzzZZ69NbLftj2e-rC9aHJFrYzgJ11zberHV2bcJcxMhilL8lQ9ciNgOX2yv4HBPmvBDx7NjtUJQCXlqt5LTqUhFjznyPKFPIHL8cEIPUhOF1MAin_bgt__JEoay_PQLS4nZA8KuOVsDIrUc3yVVV5pa27kaXuNuA6_5c3_wTs2Hsa2VkB42EJit73kYMd8ibBeuqx5GLUufMT-S-ftbdt9FUkZIusqAVT2ietCYy9Z8yDWz5Ple4Th",
+      "AZLasHoz4PIgizI6UR7AZ1BbAEWCIX9RnjIqpE4qIpCH3oADLYLsMxi4rFyTyOC1gP_odmstgvveQSaThK_4pFdv7R6It0L3sJmExRssaaZdE5BFfKKWtta4o2WhIqeg2nLf7KHNQaT-jGT2DmLhHZ6dac4-VmpcqR9ZFpRUxvlEXcRbLuNpp9IEZuWUinSwlb_0WNIBUpjHKN6HiZiU7PLc4dx1hqtXjlzSOzDbKYUOWMyzIlCLJFBF0cqJMXJVO7gZnHI-Yq7m1xWVV35gnpDW2DUasWlA1D29__15afMYmwU4rrxwp559e8k4hbasWFZ-vqucyPpp_VIpGm8hdi-R-zOy7CdEaEKHpXUWDbX9m-IOns0R_lRVh6c6sEW-E8sp7w5-ARm56qwc3qoZnd7bG8OL5ph9VxRnQl5dKP62XYyPmKk",
+      "AZLasHpw_tpxLM-_mZpi-9_OzIXoiLAVtdYQjgaESkrQrwJJCPzzYLh53V-W11UXeQqauH8FuYN6THP69kUQbSjfOuNISk3da_ZnXvQh8ceGOysf78wQ1KN_9E5mDshZtNQNFyhc5r9w_xFjsQoKY9301mpVftAWPmwsA5jvhSp-RwfVhDr8qn_1DEXrgSZOhoh4LLos3Lt3b13mjLFg7n4hRC7S8h7A3-Q6Qqp8ViaNwyQrPj7EfPb4ahsSiqZGjELsRmR_fsbgyRkot3MYXK39BpAntINLcGpRkvSqcTfqxJKiSwy2eyRS_WbqIYOiV3o9HFiRNxJhxFKLCx5tsQk3RgnPOvEeyWnyxYoRriAkjkKMUw4ZKJ_OWxWAQe3ikCc4UdLaxYIykUHz9Zr2-Xr86syah5LRLn_JxCCKd9ynzBf00g",
+      "AZLasHqo5I0hvOKxWtikehye_lLi_zS6AytqlZadRCY4B6Xe4Jn3G1PsaSbctqi_FfBHmdMMRqQTTVMPaWmyHnsaw2wCK2Mh8FfHot3blffM0cOu02MTPRKqbhev-DUG_MtqbDoc0dgNsTpVTlT4_gQIKsJ_wc2RrZ2ayiQzOJIn6OYmZguLVPFDaEHn_uGqIOErSRQKYb3hZSHIsaohUlEo4d3z6Aoy_FJVGCsWnw9VKJnx3-LLxJsI_wmDO1TL8r8vdaNdEYbwRaSdEAE5x0OgMMqlHyFQTAxi86DJ0NEIRb0gcRk9hxF1SXpbgjiqR2lRGcWaQQCMNhC3g6iKPsNv2OLmm9S7FvS2wwj7wpPt8SknqFU1oZwOZbvONf8heDUHO1_fgF6VPpI5_KvK-DQAmBORQ0sPqkNK2wX57_ZvXOipUKyQd2v48peTdjIK96lE",
+      "AZLasHrNwMbMeX1EEtVl2eD81fQ6q9aIpVT8rH4mXcnzUD5W22Sp0OBjARQLFxpbT63GUxSk77C2-AH2ZeOCvZIFRyWlC1fnSt16KBAdiVkJRlAUWx0HYsmUn71PZ4yl8kcZSAvnhcu9YZC45dWpYoD-F-B_fdTXkE-N1kE-yPku6_KzZ8pEjUkPuv2XQzI6FaGuq6xz4Mpa0JpOvGTbvBXSRxb69EZiCE3eKBPOIGozZqtwW4xtEDk8eE44gNDPCukgkf62AcYeJGrCEFJw5fi0Fjm9hyggyKjOARCTDQARfB-EnPdDoiOh2NDtmB2qZbQhAnhzCVuwp7-NQ65I8FeaVCOQvKFZH_VVJoMV2okbPFT2KW6Y3hzmhCnKkxWLLDpsilOTRenQowR8fyMGXZFCuZ_bttJWu8ewDHS1gDad0oEC6qb6OfRx_WG8K6cfHA",
+      "AZLasHoP8ETtl8Fsvg60D_eABuY7viOaXdoVY-Q3r25v7JcPCSVRC184_Zc8FRrZK9svSTorUSZF8turSDKNcn5Vc-XpKt21jMUthDCfOU1YAqxTBBUF44XD39MBN20hydkfJ49PZP-fTK8kZ1DqX7hkqHH2zF61U3Dzt6tLa8itKeUWXk5P_Vd_O4M9BB_vWTyRCbq09Bg4Kps_q2spwBXIQdQ_c0mdqOtQhsrKAAogDeLHmQEYiQPAIClzzPHT1PI3GAAiy_C9wdrheh7kgYH0GTR2Rr0u8NavGazvpZ1PegtMxl3LCMZPHEZvt62U64uWgoJKGlA2o1zlyO6amosyZK6tg_SmfNTLVezH6W5CFQFJ28UsId3u8QDqJYuUu9TkqQTGSNbW23cLdSUq8Oe_125jUKSd7xw5T4NhD2w4xFoAnu4c",
+      "AZLasHp7DsReJZeGi8vjI_6kfNrooNyhE0a5I5ns-RtNqaZEpzaovqS4ktXcUDLyU6ZpqnRgjnOB5saLVjuGj9bmwAUCj09hCmrMEHWA82A5ABC2MtZ2KKw5UPGhb5QxTRdX7SfikSSxPd8lSMgQiYn_jJq87R7JApOdXlK2NDzQINp1Ad4K5uzD-dSLRHwj8Sh4oed-FZUlTo8dVpQUiQzYhjuDqEhWpmtVVuj2zeOW1Gviy7fJSTMBDRZOzAKAvu63pi_jCmatKjb1uCRSdXdjcJUdPbv7sbKg9ApNMia2TZIcMTrKBCpe0dWwAWMMLiPUucBIq10iaKYz4dYy4k3ixwQYNyHGQu73H8GhK9CkSIqy_6EwxZS0m0oA8z55Rqw2J1rk3R2gbhTgD8UwqhEUndG9efX-IcfdC8rypeHkbo-d2Q",
+      "AZLasHqaHkmqJw-an8_5JSiTXUgLAXgApBczXj_2n8-91yJOxgq5sOCq07Cs-R2-mDRWx5YAtYGF8rbSZBBiF21f4IQdLGOc44Rrhn1rfHMkkwZ11RuctrtBDm87QEqk613ivkXsbjxP7yau9B7xQ3HRZbx8lpLXu3wgXfPytjN3rNOOcKTKGE6O0UTAsCoB5VvkYDB1LCgMVlp_OhBRILVk-WlpCHYFg-WyghlpDBPbdJxi8xKA0aL-x6HxB8bIT7-6EqlsG4F-NFj5Jv5sP4RVUM7E8GXRt0GONVDs4NpqbFNAPxVVS-wkdA4t1NbwxEzFsUGf1TcyeQeRs0SkLBZh7GLybs0V3KCk-ycxuRr8Q8n4_JXzHNxQDv-fgg46pCpKlD5EGEkJ7RhOcfdUkCSedvqIpL1T8OT6HL_IbP2cVsujJd1YwtpOxVLQYXVtL7uR"
+    ],
+    "instagram_handle": "@boursedecommerce"
+  },
+  "opening_hours": {
+    "standard": "11h00 – 19h00",
+    "display": "Tlj: 11h00 – 19h00",
+    "detailed": "lundi: 11:00 – 19h00\nmardi: Fermé\nmercredi: 11:00 – 19h00\njeudi: 11:00 – 19h00\nvendredi: 11:00 – 21h00\nsamedi: 11:00 – 19h00\ndimanche: 11:00 – 19h00",
+    "is_open_now": false
+  },
+  "description": "Le nouveau phare de l'art contemporain à Paris. L'homme d'affaires François Pinault a installé sa collection dans l'ancienne Bourse de Commerce, restaurée et transformée par Tadao Ando avec un cylindre de béton minimaliste magistral au centre de la rotonde. La fresque de la coupole a été restaurée, le contraste ancien/moderne est saisissant. C'est un lieu d'art vivant, parfois déroutant (pigeons empaillés, cire qui fond), à l'architecture époustouflante.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Collectionneurs, fans de béton brut et art contemporain."
+    }
+  },
+  "real_talk": {
+    "text": "La collection Pinault dans l'ancienne Bourse. Art contemporain premium, architecture Ando.",
+    "le_secret": "Entrée gratuite le premier samedi du mois de 17h à 21h. Architecture sublime.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15,
+    "value_score": 23,
+    "category_percentile": 77,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Plein Tarif",
+            "price": "14€"
+          },
+          {
+            "name": "Nocturne (samedi)",
+            "price": "0€"
+          },
+          {
+            "name": "Moins de 27 ans",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 8814,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "poi-147",
+  "name": "Polidor",
+  "slug": "polidor",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8503,
+      "lng": 2.3404
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJUy4Drt5x5kcRkHl_c9NVwDM"
+  },
+  "category": "restaurant",
+  "subcategory": "cuisine-bourgeoise",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 125,
+    "moment_count": 2,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation, tables communes",
+    "smart_tip": "Leur boeuf bourguignon est une institution, testez-le pour comprendre le vrai goût du Paris d'antan.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/3",
+    "website": "http://www.polidor.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3jBKmc3hnYN_WETz8sObE99qDfETVkDnHWCyysGHhogIC2XnZrtYsECBRIWx1ejs9HTOpA0giAOEaBPRtBr-7pM0lqPp72HjKG3SzO5WXAnwXjqyxGXTfHjL7gSi1L44hxGAj6fjGq_3AAlc5GLBz8-OkPviMQlNpglcCicMO7k2T3AWzQrxxq-lIk27-FngntjLK9wM7hTuMcc-CUwzhoKK7EhXQ_hsK_BJrkPc1RS1EWRG6-AzzEgOREJ8RjR2cO_aJNfH7AII6yIxkaeDn4cwqzQ2hY_v3GVMCnjLtjOQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@polidor",
+    "google_photos": [
+      "AcnlKN3jBKmc3hnYN_WETz8sObE99qDfETVkDnHWCyysGHhogIC2XnZrtYsECBRIWx1ejs9HTOpA0giAOEaBPRtBr-7pM0lqPp72HjKG3SzO5WXAnwXjqyxGXTfHjL7gSi1L44hxGAj6fjGq_3AAlc5GLBz8-OkPviMQlNpglcCicMO7k2T3AWzQrxxq-lIk27-FngntjLK9wM7hTuMcc-CUwzhoKK7EhXQ_hsK_BJrkPc1RS1EWRG6-AzzEgOREJ8RjR2cO_aJNfH7AII6yIxkaeDn4cwqzQ2hY_v3GVMCnjLtjOQ",
+      "AcnlKN1OmwE85ibv_fpspyBuL7ktARcUv-jhWdr-Q_dnTjIeR1D37ftsfXYliwS4vYZq68zyzl98IgPOr4y8e18whvzC2oPwjDXVsJk41yU8ivLwgNOC1_H2zisSU94myAZPLN1wOQWTVCxD8X73lfHTo5l_v4c4GZTDE9SjelGY57o40PGOxPbg1u5zO5QtjFzEswQuDUpHqwTOwbY1ZgjZHsXLK25PJvlo1D1zZqtgDt6Q9Lof73IE0obb9xM2UIc1zxWk85eTzuewCXMr33_VWwibw-q0v2VfQDmdYjrb57OoABuH4dcDsoVXS3ji24HdD1XTIIFrbnyvROsjIqdo9mZCrSGDyY9edE_o5bkqf7-16XCFQiwT91AEWNRY-vbPg_mpt6naK3a-GC1FRRP40GkDO8cqh944Su2NLXcZ5Wm31m-1",
+      "AcnlKN3wEbqKMQda29CvY_e1RTZeZ5KAo12AULmB8E8_Ly0vM2D7YlK32R0HlAhf2048daPSfalV7ZGbwfkR0Pzrm4T63d-wR536aOKKc8PnOlhkOxAlQYcm8GuB1iKmVNFXMRxhhkeagZeSmihYgh5ose9ldGK8f72HXRxxFuQHHSwi0pk-RAzBbigNeJ4RR2OTMNbPZ6d23HVHSHyl0sTevCabYZYnIvmumtSuNwM313E6AmxVyBLKiu1AFzIjr2vz1CUGIMHXo94gz-ESgdWOZlQoL7NnUP_hdFNI2Pvu0UxJazPKPQiBZ0tbo4hbI7UAAcUcsKqyA2H_DjET3QLFrj9sPq-eRWcYwlAqRirIrThk5mMqBLprzHT64w_b3ixd2IanzPeSHJiTGDeB_SBEJA3F7m_yvzbovcSBicX_3ZjWAoOa9fIikWxQcEE3QQ",
+      "AcnlKN3ksjBTGB_cKQjQ0f0lT7GVqtqlbdh2M8PFzTR_8Sg4ztAQnxnaOFpApnciiBK3oRz_2vmbfrE0g2thuUIOpHNsWnRO3SZRb3aYhMKu6yUBoxOWxaqulgJ5ND0qU6_OvaQ46C-AHmEjUaNSWwja4azW3yFLMKH9LDnMYkxOInNyCIcIpYmZBkXz9764Ybg_lFdWU-ctZVSBpLxeXsONbGv85vdtpydAEeoW6qJWZE99vMlzcW0h7VUlD7eUsOsbNBOZ3Q5nCGLTFDkzYCSaTB6KBqlid6nUNlT4nhFM4ePGgeg6MjxqGB8Jm2I3mwpzLFoHyrDU0mFdoDsUZY_G6oleq9jWQUyJ-zCuJQwRm9smaR2V-u0QokvyG1TRc9mI5LsSAsA97szDsdpLkLZf-or4aROJ1gE9RSy4_XIRp_lZ_kDcW8z6Y-25TM-uWLSm",
+      "AcnlKN2IhbFyIKeK8IO43m8mLpkFLoQ5mqMQYQu2rM04zq9EiiwhuJrDUdb7j22Sf5d_NIST5pZZqHdcRRJxaYRTAP-5md7PTOqc4IuFBsml5aO1Y0pnFj4auCpypP1TsT9zBe7Tyg8sP2sD8PvAa3zBhq83W7CS05QL2evCZ0qwoTWWnN5nUcKA3wd1769nDIJieBA-Mp8maKWd_uVfLKt3tmMsI9bftCBuSTCv2KGniLdZLRxPOjhNi0KtCmzIURCdh7qzFQAyUjAHXsgQtqiYjxtAQt3OCrvZvNQQo_Bj3nPPqLQEt3XWHhMhbBA16daFo_zxNKlrDwDsUC8Hk20wiEZGSpHvQ0PTKPndJ1xJfMCyYXYD1tcwHPt8oAiOljg8K0Q8-5uVqgT3SzVsTeZjG-HeezOoiTeVcO-6JZyO3xFs20S1oUOA35Qs7-VhfGUA"
+    ]
+  },
+  "description": "Fréquenté autrefois par Verlaine, Rimbaud et plus tard Hemingway, Polidor est plus qu'un restaurant : c'est un morceau d'histoire vivante de Paris. Avec ses nappes à carreaux, son décor inchangé depuis le XIXème siècle et son absence totale de chichis, le lieu impose le respect. On y partage de grandes tables en bois en dégustant des classiques de la cuisine bourgeoise française, dans une atmosphère de fraternité littéraire qui n'a jamais faibli.",
+  "real_talk": {
+    "text": "La cantine des écrivains depuis 1845. Même décor, mêmes prix doux, même magie.",
+    "must_eat": "Boeuf bourguignon, tarte Tatin",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bibliophiles, touristes en quête d'histoire et parisiens attachés aux traditions culinaires.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 23,
+    "value_score": 88,
+    "category_percentile": 12,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 23,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "HISTOIRE",
+        "items": [
+          {
+            "name": "Blanquette de veau",
+            "price": "18,50€"
+          },
+          {
+            "name": "Tarte Tatin",
+            "price": "8€"
+          }
+        ]
+      },
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Pichet Polidor",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 3106,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

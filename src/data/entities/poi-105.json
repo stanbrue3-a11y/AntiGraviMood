@@ -1,0 +1,168 @@
+{
+  "id": "poi-105",
+  "name": "Candelaria",
+  "slug": "candelaria",
+  "location": {
+    "address": "52 Rue de Saintonge",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8629825,
+      "lng": 2.3640307
+    },
+    "nearest_metro": "Filles du Calvaire",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJ5-Wt8AZu5kcRwI6zQEwdXv4"
+  },
+  "category": "bar",
+  "subcategory": "speakeasy",
+  "mood_scores": {
+    "chill": {
+      "overall": 4.8,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 9,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Secret",
+    "Agave",
+    "Festif"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "12h00 – 01h30",
+      "display": "Tlj: 12h00 – 01h30 (Bar dès 18h)",
+      "detailed": "lundi: 12:00 – 1:30\nmardi: 12:00 – 1:30\nmercredi: 12:00 – 1:30\njeudi: 12:00 – 1:30\nvendredi: 12:00 – 1:30\nsamedi: 12:00 – 1:30\ndimanche: 12:00 – 1:30",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "La Guêpe Verte",
+    "ambiance_vibe": "Clandestin & Caliente",
+    "smart_tip": "Venez manger un taco au comptoir avant de pousser la porte du bar secret.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.candelaria-paris.com/",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Le pionnier du speakeasy à Paris. Une façade de taqueria qui cache l'un des meilleurs bars à agave du monde. Toujours aussi vibrant après toutes ces années.",
+    "must_eat": "Tacos Carnitas ou Al Pastor.",
+    "le_secret": "La porte blanche au fond de la boutique de tacos n'est pas un frigo.",
+    "le_son": "Hip Hop, Latino & Good Vibes. Ça transpire le soir.",
+    "le_must": "La Margarita 'La Guêpe Verte' : une légende."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "TAQUERIA (DEVANT)",
+        "items": [
+          {
+            "name": "Tacos (Unité)",
+            "price": "4-6€"
+          },
+          {
+            "name": "Quesadilla",
+            "price": "8€"
+          }
+        ]
+      },
+      {
+        "category": "COCKTAILS (DERRIÈRE)",
+        "items": [
+          {
+            "name": "La Guêpe Verte Signature",
+            "price": "14€"
+          },
+          {
+            "name": "Mezcal Mule",
+            "price": "15€"
+          },
+          {
+            "name": "Cocktail Création",
+            "price": "13-16€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Pousse la porte blanche au fond de cette minuscule taqueria du Marais et tu basculeras dans l'un des bars les plus iconiques de Paris. Candelaria a ouvert la voie aux bars cachés de la capitale avec un concept imparable : tacos authentiques à l'avant, temple du mezcal et de la tequila à l'arrière. La salle, aux murs de pierre brute et aux banquettes sombres, invite à la dégustation de cocktails parfumés sous une lumière de bougies vacillantes. C'est intime, cosmopolite, toujours plein, et cela reste l'adresse de référence pour s'évader au Mexique sans quitter le 3ème.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2695AXdJlveSoPaJHTwe5aYKLHOcUmjB1qw3sU8pLur60dZboIr2HyMy88A2amcDZoKOcbHA8h3JPq32a357WGZkb_G8qMXVJ3NbUWpB7kCqxL0X6UfKmGPyCoUkhQOdAh8siDvtnk99XX6Fz1kl585ohaPoy_v0dCRb_cqxiPufopNabfqj9tO64sZJvFsR_dXBtBuZsp1pDZlbd5LAio4CgeQmumLQFPQnUsPjAc_BUvkS3Hei785JKqOiwdwvtibkEw0YaEsLCNimDR1UsuOy0bzZdqQH4zdWo99NyuPw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@candelariaparis",
+    "google_photos": [
+      "AcnlKN2695AXdJlveSoPaJHTwe5aYKLHOcUmjB1qw3sU8pLur60dZboIr2HyMy88A2amcDZoKOcbHA8h3JPq32a357WGZkb_G8qMXVJ3NbUWpB7kCqxL0X6UfKmGPyCoUkhQOdAh8siDvtnk99XX6Fz1kl585ohaPoy_v0dCRb_cqxiPufopNabfqj9tO64sZJvFsR_dXBtBuZsp1pDZlbd5LAio4CgeQmumLQFPQnUsPjAc_BUvkS3Hei785JKqOiwdwvtibkEw0YaEsLCNimDR1UsuOy0bzZdqQH4zdWo99NyuPw",
+      "AcnlKN0kXzPiQ-j-wwOvX_5iLDdzhScHs80aSg90niVCRce07YA2RcXwMyDlm7OxriJsKUZRnAkacs-FOKUo-QEPOJ6gdSq3YNmkRvdUzkO278aqh2XRvrszzs_5HxOBbo4WyZHYOb7JVJn2krCO_Lri2-kqvAH_ksKnwzCNxAoPQmsWndYMNXhX3ppXZze_bxSlu_azFR8Yn8TjeiltkaqWVvuihxAIKdXm6G5kP1rbPj5TiWLOsgx6KsrqIh8SOKpp9qZ67lnLs-SxPTb3mV-l7KqZ6rmIHTN0m3-YLoLigVchEnfzj1aokgIIKUUBg9AIGlfss9ebqFrRXtdJ-KaVIJKGYmqqF3YNmkrRA00j77KRs3abNsC7HIcKfivWmiao2TRIF60xTfBBeI4eAehbhyh8f6iK10Z_P0EbgxSWIcv_6vkTfXwmfUVXX81tFg",
+      "AcnlKN02WC2aQEdKaqdGLoPcXk9tg_CPGdWpqOp0boMCiv0AGuhKEwQUnfEWBr6_ZlPwA5LDHurhLXjbD9CUfVc7kXPX2Mn7pyrsv4S-koscL2DXrAnjvv-VJTLlD5L8uUnRE7cY-A7JUBHBuZzos7BgpYtwC2LMmNuP0JLPIqL0nZhZy_h6w-1u-hw4-k7-5uHCZ0LPcYeMHDhu3xSUFH3-nITRJ7Bj7lGNDrsJMspmRoq8bMAlMClXZyMgUVm4QLha-nvFklNPu4HRJ-0WKvjqsxgWQuNy7WDy4PH5I9UfXD6afg",
+      "AcnlKN3JlJmyrsp0o3z_etC1ykSPwlOdq7OQiVHfR18NJvLwkXBV8sL8uMxYyqQJh9ndtumh6NZMxEdPE2pDkcdEKDqVntPRV-4NQx9yEG7Cu1A-8Io4pT5yohvVxBGBLURBMJNIK5hinS5w2V017yIH_wIwbEc2c65w-mkCfXiF8IysEAclAgmuxrXYusFEICKb9TaoMc6BO9aSYuPiTjtjNtSQvZwP75OJFy00EmFDaCsW0wDIevf38imxwUSnwS5um3hDVsaGcMAnVP5I3qGEvD-dLDmweJ0VDQ1lnU1MQCKbFg",
+      "AcnlKN1gghkXFFbinMI1w01oTAKDHBqUxRUmYwkWNDY-tSWJ2iZiJTxjoX7agM4RlEYxikDgvKbSMoo7dxHs5AnCqZ9liGrzAjnRohq6YVO7MeCcu96ftNlb-0oJ9yxLcTkiJdSGqMtWPit4YimzuoWxFiNKmrUVHITPM6GGmHvSK7FfiCuCBGxeJ5cxc2lslu42WRDArAQIaZlu-HrbDcz9hiiw8U2xJP027qSTJchwTJuOq22GVzeWLnAa3BQNr7gpPYgkkH5z0bW2Ppzo06pHeYpGZoIscqXKGLDUsWzETw5afuTps6YecHZRLaD0RvISfo6Ky5ylaI27HwR9AdJGEEi9Q2df9F86-IuYT6_JRJ27hGVigVv8zmU_xr9kEQ1FFuRfRVStf-d0Hy8s09fqabccWcoNgcZd1_LwrTBDKnTkZ7TsrTl802Krhalp3tsp",
+      "AcnlKN0yhihbbLwDoGjS4oUPPunt2-bIrb46upxG_g0wTQgCnvOOHVndtyPTLtANRrr0LLcvGS3KKIGklKob0lSImt-vNzJULfLil5GzIFIlN5MmILEibS6vqllgSamVKXvD07X1j2DsaCCResYAjbSAd4VtNRuimHWwGxInk6cijdOVOzd1DaQxhM9fUzqornboArvOkxrIOl9uFYk4743O7fwtr74R5k5QSdEAS39iZeJiUEI55uKesu10PvqvUdaAAvmj1azpnkVsl3BrkFsnu4rV7ulUt8l2RPD94S4dBKaB30EnOmI4z-qKNVD5o88761dZ1INOC7Sx_KqSZJeprp05BbDXYgkMH71O65y3Oes1qbmNa86WTrcYTSiA1z-uMX_k9uBSg65OqSvbe1Q6_BdRuL3F8Mu78pu1VK7K4Idqm4c0mv0VQ0yt7nY1Jv6Z",
+      "AcnlKN0R_8leHy_GXMvRu2rJH25eofHjHs2W5OqSpXmfBoHPCvVu7c0XMNMqO6GDt7bT7o9_mmkBmeRgD74rF6dVvIf9tW1sSNfQ9nyt2IoIjnb6KanWX-Nx5Jaoy4oknfFLIAbXcEoKH6zgo2oId3Mv6Hu3B5XkbUO3NZ6UCo6ydrc9xqkTkSNoynTCmzOu9cNbpNbkW_xwpLzz_tflyFOTGna0OI5fJKxexNKRgqPUL8fq3LhJxnBVUmsZWGp8sXlcmiSuRZRT7RwkprZedpMaNFQGXyVHUgrwyOUyQxqWNRV59oXKrlxh-n3j7a7kGp6OrvH8f7YQw-1er4mHf5UfSEZz05-gyPtvshbBnJPU7daOvH_HEV58-ktjDnDuEfaTPcYaI7YcdkGd0-SQJHIT9KqouclMOA_aPsXmXCT9w4h6rw",
+      "AcnlKN2PHUiFdelOq1wkE0FMyRFGVUpHOhquH6Fda19K4nZaE-Jf1ggyv7-xkpRM9hKPyVqDtSBwy8nCPMjLmScymE6c9ZFrnRQ8NBdKqL4C8vmepclZznd5xkbtTJfGuzmRO7BeD05AtZPbp4e06dWOoi8YNJzJR8zq8KLOzXB7TZ7h2qluoqaNuNz3kfWb_252pHoicTrOI78E8kq1eKrQ-4f72JQnlN9CR9PMjQO7oiwy0w4HWzgrVB3ov4583fDlNZljWOIUOhIHnrh0nEWYiFA2e0IDWue79pYCtHATZ8JsA1Us1eX9ooLRTmYS9jCZiMzm5nfg1XPFxuOIvD7W-CQDGeGHA7K67YdbczDUMpDGa7SbtCb0GcWyUThltUg-y_8ycqaMOwI_wkb41WYz2u3TQzqrsfKbEXtkBSoJFD_WUTrkRt2e-AJLuuNqHQ",
+      "AcnlKN0dvj7GZZpbu6Qxu_1ExL6jMwHxa8WC6vFq_wbCF7KUcykgdkklgZiMrX7tpJ5RguH5CSsQ7jFTYM3_noa2SI_csJiS3bpKlUG3yh45F9AdVpIw0RcKy88IxOCRt5YgGoJVCXBALc6sJkM3kxye5b2qTjmplmasls5B4djdj6lLTe_Q3FTAqg1Q3rPhhRWNPiDmrorMakH3YOiEKZv6xyddkhaGe1UsJbfaJvT8T7gGPtyOJIWcumzjBtqVERyOmvX0QzQ4FCG7blCmMO35XRuyLkMZGVAa_wvSoq1OJrVJ9__k2-sEaXt-pYN3dpsz0N6II_bAQGjMeB6zx8GAwQL_mi0Pwpkyh4qAWyJSvzE_689l99kqRaGdbi-7OvWuI14u8JCdhewBDLTPnZ03GcSvpizEaaVi8Z6pBB2qtjMOG-LLw-kRVnsevnZhUw",
+      "AcnlKN2mCKSkRMhaBufuA4IPtFk-1L_Xd088GwBkA0iDIkpAOuvSLpsARnyhTVOZqFJnGXZbFOgPAZbrCjbmD4omrMvJsN5pd34AYfcklkRfVOImpIMW11TALjUF7z5gmsmik0lZeVrz_V9-R26ZoDkhgDz-Q69qpt3w43RSRaKzPWSEGlAFUtBi2tcmqOiUmBTu4uThlPLxy6iwVsb-PA0h7f6MBao7R4F3aDapPzRm5pMZBWp0EIPDaT4lDzWj0M4CjvZE5Znf9GgVLebIqs3QeQGmM0xalsPY2530Fw3f9IWBBhUslHuU7Y6jPg6PK6qoutt43fHIX2mt4iwyFCunPz87zubvSqKQDzfuWYVVi3sGYcLkmnucjBwZFK3SkiczxVw10Wane2PLPwm1bb0yQaLSVJHJlCCKUxEHChfqbAzb2Bsn-EhOx57QWX79Eg"
+    ]
+  },
+  "social_preview": {
+    "like_count": 640,
+    "top_vibe_tags": [
+      "Secret"
+    ],
+    "moment_count": 58
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "18€ environ",
+    "display": "Tlj: 4:00 PM – 1:30 AM",
+    "detailed": "lundi: 4:00 PM– 1:30 AM\nmardi: 4:00 PM– 1:30 AM\nmercredi: 4:00 PM– 1:30 AM\njeudi: 4:00 PM– 1:30 AM\nvendredi: 4:00 PM– 1:30 AM\nsamedi: 12:00 PM– 1:30 AM\ndimanche: 12:00 PM– 1:30 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fans de tacos, amateurs de mezcal, noctambules du Marais en quête de speakeasy.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.3,
+  "google_ratings_count": 2933
+}

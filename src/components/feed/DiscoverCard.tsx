@@ -14,7 +14,8 @@ import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 import { MOODS } from '../../design/tokens/moods';
-import { usePlacesStore } from '../../stores/usePlacesStore';
+import { usePlacesStore } from '../../stores/placesStore';
+import { useUIStore } from '../../stores/uiStore';
 import { Place } from '../../types/model';
 import { getPlaceImages } from '../../lib/placeUtils';
 import { useTheme, moodColors } from '../../design';
@@ -35,7 +36,8 @@ const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
 // Memoize to prevent re-renders in FlashList
 export const DiscoverCard = React.memo(({ place, onPress, index = 0, style }: DiscoverCardProps) => {
-    const { toggleLike, likedPlaceIds } = usePlacesStore();
+    const toggleLike = usePlacesStore(state => state.toggleLike);
+    const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
     const [imageLoaded, setImageLoaded] = React.useState(false);
     const mood = getDominantMood(place);
     const accentColor = moodColors[mood].primary;
@@ -307,7 +309,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: '700',
         color: '#fff',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         textShadowColor: 'rgba(0,0,0,0.3)', textShadowOffset: { width: 0, height: 1 }, textShadowRadius: 3,
         marginBottom: 0,
     },

@@ -1,0 +1,169 @@
+{
+  "id": "poi-102",
+  "name": "Folderol",
+  "slug": "folderol",
+  "location": {
+    "address": "10 Rue du Grand Prieuré",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8652388,
+      "lng": 2.3690636
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ70bFoN9t5kcROrR-uLoEoOY"
+  },
+  "category": "bar",
+  "subcategory": "wine & ice cream",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 9,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Trend"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 4:00– 11:00 PM\njeudi: 4:00– 11:00 PM\nvendredi: 4:00– 11:00 PM\nsamedi: 4:00– 11:00 PM\ndimanche: 4:00– 11:00 PM",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins nature et biodynamiques rares",
+    "ambiance_vibe": "Cave à vin intimiste, éclairage bougie, ambiance confidentielle",
+    "smart_tip": "Leur playlist funk est la garantie d une ambiance au top.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.folderol.com/"
+  },
+  "real_talk": {
+    "text": "Vin nature et glaces artisanales : le combo le plus hype du 11ème. Pas de menu, on se laisse guider par le staff passionné.",
+    "must_eat": "Planches de fromages et charcuteries affinées",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Folderol est sans doute le lieu le plus singulier de la nouvelle garde du 11ème arrondissement. Ce bar-glacier hybride réunit deux mondes à priori opposés : une sélection pointue de vins naturels de petits vignerons et des glaces artisanales aux saveurs expérimentales (huile d'olive, sésame miso, pain perdu). Le cadre est minimaliste avec son bar en fer à cheval et son comptoir de béton, attirant une foule branchée qui n'hésite pas à s'asseoir sur le trottoir un verre de vin à la main. C'est frais, c'est audacieux, c'est branché, et c'est l'essence même du 'cool' parisien contemporain.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3qRtn4HRKFPi_Szzp7QXK3bFT8KVghB2z-H98tpju84fDk9JZEV3fKo21Rf4G9waX02kBOg1uO0PGAtNmvG1d3XpZF9DNHxuxZ8XyXqugn4z_8p_JWH-ZUKiYOIp-VHG-eaLbdpORSik1mRQM2z58fWfkLNIQCrPGDIwHdMdBP6TqnFgd5Se4gE5n1MkMKAr8M2Jlrzhju_-U-nCM1COqtLSkTh2Tj2DJfw1HjR6YCpG1R_Z8jUhS9DzV1lMnrtzIi1CUhlx0FZx4YG--uh1FVBX5tIJvFC7Rw7mkS7bEAXnRuaE3g_RQVQCWD4RdOrQomyhOm5MJgrosGwQC4fiNXLpqzOuTrD7SL4vfYuxnQ7nHIF9anyGRVlTf81XrCLfF8SwRuilsOK5cqgN1C3WmqnU5MOnmOS8TPerXatAinfm2aQSs6qicTH3ocmC-v&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@folderol",
+    "google_photos": [
+      "AcnlKN3qRtn4HRKFPi_Szzp7QXK3bFT8KVghB2z-H98tpju84fDk9JZEV3fKo21Rf4G9waX02kBOg1uO0PGAtNmvG1d3XpZF9DNHxuxZ8XyXqugn4z_8p_JWH-ZUKiYOIp-VHG-eaLbdpORSik1mRQM2z58fWfkLNIQCrPGDIwHdMdBP6TqnFgd5Se4gE5n1MkMKAr8M2Jlrzhju_-U-nCM1COqtLSkTh2Tj2DJfw1HjR6YCpG1R_Z8jUhS9DzV1lMnrtzIi1CUhlx0FZx4YG--uh1FVBX5tIJvFC7Rw7mkS7bEAXnRuaE3g_RQVQCWD4RdOrQomyhOm5MJgrosGwQC4fiNXLpqzOuTrD7SL4vfYuxnQ7nHIF9anyGRVlTf81XrCLfF8SwRuilsOK5cqgN1C3WmqnU5MOnmOS8TPerXatAinfm2aQSs6qicTH3ocmC-v",
+      "AcnlKN1uVKiXbHyPp1xLJV7geUtbAPETGblXCWrdVOWgTCO8dPYRCjONZflsWUvUzci2ynx-JjTzRSQNwGa25JLiUSulqV9NmCG_Hqg5DjEFYWwG7FFQthD85FqXvOY3dg8DpviikISsY9X312x2L_rkssl8KxU0J8ynOyk6578_r58UFXUnngbm4hzkW2Zgd89NaKy5bmjuPwETDndXKHYmU7yNgnhdjj76O_a2mXUeHMRp3oMRVAm6WJbv4PqzeMG34Dq2NqZ3mF4g78KL5tBOu6JjxLNv6Q4rBiy0NyC0QpUwmXc0l7IAMPGsGJZ3xExfiFa52pwCMpbV5k2F8akr3M1KjlmLuKaz6FcRQ1eqGhD6vLhkvSUqPv_8EN58RzhSpWsmjAyLoEQ5qezCNFAX_e0BnVOyyyCjWKyn8sF_uzA11g",
+      "AcnlKN1ULObHZ_iWMugLSw8oqPKM0iwGJsQGfegfZnSx6y7h84_sASG2pkyI0WqvTGSpcbBaGssjH5mIgxwfIMlQr0gasGvLjlUwebRHgCTqvY_dw10ABwFHbkmmZNFAi5TvGNc4PQ9yN_PfASERndoIAiMeF5dUKd7ZB417JRtiNYIPObTdDxjVlk-Vkvq8uG0n7FhkwWEMmLASs6mR3mrrxa0V2D5bL_d-HSsr-rtOM7ixdrVM6Y_uvNPWUik6Jurn0SCF3F3t0FF0Sgi9OPZ6Ytyh4oZIun7Oq4rfLjbNhl5ulGkNYcqAanzZc2Nke5KGWiUSKhEZ-NJ2GyqtITVoX_gxutSnFG31vUh8gHEmru9-8nQtQjiCqknibtVMe6bEHzAEEGlZe12FoQCsrYt-qoHmqYfzTx9a-K68qxDDfyrMC4ztylLPgem8rwjj-4ec",
+      "AcnlKN0FoD8BRoqOWGSPyBGeeqhTsGogyQpCjD6X3Q1iSNvWbXMTI1eApCqDEcW-LqEuwKalj8pAshLDmzOkLYXeQ5Q_Lb1fYkElfOoQN3-SzBosgG6huqScLOJJKEzOA3JOzGY5D4nYpxmOH0RMs4zgHbP033L8Bs9JqZD5pKDdbuh-7pyPZbC2iLjKK0TCO8825XuZ--04AYY_UUzsbx1OiFwO6xI8IlYoCl-SMGBJqg_fkNpgQ77FGOy9C67M2c69O7M-6Jf55IgWaBXIYkSe8_G2a6xfoMSGkJ8PcwLmnWPoDSg_lAiAO4ONL9FsFXS4ob-1uiqoMrJ7z2p-PUHmc9NO2kcam0bSMZ6YdBZOJd98NY9ISecIh7xa-Q_1kzI-otpk4KqBpjAIxeER_JNCuHU1E5OXxtUPOtozoguVuByMBPBf",
+      "AcnlKN1zFhgm_UHwI9IciEzdyrmiICV1d8G-Mb3Rsml-yHW8bWXdlFVpDTMUZbSRFNnJNsL565QjsP1UXMzyourWTfucMlmRRakudYW0lI_7F2yuYuy8KD0aPiao2vTUqCtSqJVnMV0ovbOKjTZ9834JpiYn5Z77FyShvv_5GbmLlZUqQlqugf5B1MYXt-e_Tpa4j8n7J0cnegAElOo58lC_o3L-HfJO7D5JUU0WQepfiEYQxVkcRek3fkmUsJaE4GMMajhoRjOQa8vIyJZkZ_SRE2fSqUzWF4LVi9U7uJxT5AttOupwavlZjRLLrqDptG1mK7qlWjw2thRO45THXNVnfPnQerJ_tO0PaQJvSqPVK7uxCRLs1HuusC2eAvDO0mKnDwCEIFBatSIml8q_g4w8ciSw_Sx7UygIROAIvFgH0h8gAyJscAXxj7YEC0Dipvtm",
+      "AcnlKN03nibO13DrvIzt_eRrXW3tszoS5O9D_SuXi4phHOj5EN3DbTHtRco2LAdibaXaS3M3Ja-OrEnbmGI-dNlGvi1_pawyd1tnj9zICV199YHkbQ6KDS0PJhh2OrTTxL7pePD3ucil35c-32GhFmScGA73km2gUKEEqSMw3-HfA1PHnoT4uZouG42SXfLFDvEJnwBMZcIiSz59PzB8noW7U9s4julJPq3vyYYDT6jm3uMlHeee1-FYaG_6etYM6RuCLeGPLhfVkUebguMOY7A8Ll_1vqrd9gMS4qQXkyHgSZ9ueW7dLpKynU6DroAM9GEkAk8wfLrE5tvkWw3ad4IA8bfpe4CRObBZAU8LzUrgUOShkvhGVYnZH_L5G77vAHQIV-XggkfLwXoEOYrDI_FjslHdIl8VTqWLd8rl7sySm-7-eF8WLysFuh5h-84htHPu",
+      "AcnlKN3v9OIIqp1oi63S3E7MDTkb4JeCUiuvG_hZXP7wpvFhFtvCKTrfYWeQuJEvMWb7HBRzBkS7RLcgKRC0ud3eKy02E2IxK6hnxWYmocVujckoiyD5PhGgB0ubjTKnxdN3fDPFvaFBUUf4GCVxj_rSV6gyXAJvHPhokfKzMebvf4uII9NnD-Rk2yORnZous6dT27H7DXdm1vPmf7PjuW2tTbxqBnvvWrfcontRPk9l75SM7fAJFuDf5OIaoeNKTbXzmkaNUPqEBMo7FGbZViM3SZXVms7mGyndqzV_6Iwc2wJz9DXWAePbSoNGMaqwjWgGJjKLSanolHngBPj7WcvdoMtEcVosuWcJ7uxmynm_wHfpPybrU_dCzqz-Y40FwL3PKaOvAjCWrKzTIFEdTXKFqqpzhma99TcewPv8PUVClxIgU3-v2Hkhktm8YlcVYem0",
+      "AcnlKN17L9jxXeNJFM2Oyney0nxn5rn4Vf9696YzovwOQoZBogwBa3kFDiediYX2Sp3vpJsm7uiutuk4rTKdYC1kWJDPJkU8bm-p-Oc88Iop1fhhvS07cMw1UQ3mnMS7Ojy-7Is3s0Gp2UQg1nOJ7gpofxbEk0es7iRcumD5XzwhUZjUbzMCAqQ1Ajdgwc3UOJ-kJ-Z9dkKbEZqx9fHxAkgIeFOQgIeTMhCMkfGe4-JybEXQa_BrIE3pPhtsuIsiU369fVCReUtqbAnBu3eSTP1XGj0XUhnzUQo0Z9R7imwHCp8eOeYMr5a_E7MUHx_Z22PC6vjCEZYw9Ge5h5-xkUJJzRlw830iNYK_lH8jZDXEHeH5uICRoPcnrBNey7ucOFoBJQOqqPIcwdu3JR-c3jVZPvs_6F9mZ70i86JXnhu8Jt4EKkux",
+      "AcnlKN2YfbxNn4o2j05YG5-0ROnwMji7_kHKnWX4fTidjrM3DthMHablOivg7kUVLD7ceM-lI44t09i6_EV_Q7_aB2pBTrKm7Hagc6saIR_zF2GoDPwFalEjpfFjgZLYwGfygDYd5UDVxaBxXxONZG8NvP0VIKEqOgs8mQZ4LyCrbno_u6wCLAHeuJV5GTUSGb4U4RQ2G2Vl2nPNsL5ZWoSgoD5LZ8fEdNBtmhnwzbt3r36-CP69o4TLyWD0pUvgrHvl2G9IHUgyRyn-BsxayU_DlexSqiuFYbDffRoHoRNwFDfS4jWntaFTyOtHfjPl-_TkoDsdUUOavZrhB49NTp4inMjGj6eY_A_pcQI1Ur5pnO8l3I8iIpQCbi21A9cneEmGqCqsKtLaQuE1nSSVJoixCZ5YPjQ7CwWb7Z6tnfAsd4mgdeebd7Wc0CawDs44tlV1",
+      "AcnlKN281uzk96BH6T7Db0BH7pgQw5vOHLSoqvU6VeruMz96Tal4skhzuELdtkevGopIsdcZ97zYOmKwhKHq49UUSUS6lZh7Lao67BE6JPpyXeEv9RE-6b8TAPi6fsJNnboDZ1SKAH2PuGsPIm4I0bjUBxyBKdeWrrqUA7G6BHKBqYYiEKRLpBoO07lh9OXhcOnj2VLEtfx9ax9M1q4ZbZVSX4CWR6mQl-v0NrwffAy7if4ckLCT_2iPT6DEUDUTdLCqbzgAkY0bwp0P5oXt4Hb5zG6hGIuXd-F87h53DIaQ4B1Z1YoUSGe29Y8Cp62YDd_dvibpaodhsTNBHMCG5tJE_SeNGxb_lfHd6TpBkjRk4idnd2el1HgscNEIP6QZCOfcRliDn2LYoNWy8poFAbd59S8l_xmdEXYDJssdx5AiGYwNqzn_SBUQieO0arTVuTAH"
+    ]
+  },
+  "social_preview": {
+    "like_count": 741,
+    "top_vibe_tags": [
+      "Trend"
+    ],
+    "moment_count": 58
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 4:00– 11:00 PM\njeudi: 4:00– 11:00 PM\nvendredi: 4:00– 11:00 PM\nsamedi: 4:00– 11:00 PM\ndimanche: 4:00– 11:00 PM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Wine nerds, sommeliers off-duty, épicuriens du 11ème.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 14,
+    "value_score": 0,
+    "category_percentile": 100,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8,
+    "main_dish_price": 12,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 12,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "LE BAR",
+        "items": [
+          {
+            "name": "Verre de Vin Nature",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "LES GLACES",
+        "items": [
+          {
+            "name": "Glace 1 boule",
+            "price": "3,50€"
+          },
+          {
+            "name": "Glace 2 boules",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "café",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.3,
+  "google_ratings_count": 563,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

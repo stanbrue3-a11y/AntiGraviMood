@@ -1,0 +1,132 @@
+{
+  "id": "poi-163",
+  "name": "Institut du Monde Arabe",
+  "slug": "institut-monde-arabe",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8511,
+      "lng": 2.3544
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJK-03I_tx5kcRdA4Cj8VV1b4"
+  },
+  "category": "museum",
+  "subcategory": "civilisation",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 581,
+    "moment_count": 3,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Art et civilisation arabe",
+    "ambiance_vibe": "Architecture contemporaine, vue panoramique",
+    "smart_tip": "L'accès au toit est gratuit même si vous ne visitez pas le musée. C'est l'une des vues les plus dégagées sur l'Île de la Cité.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.imarabe.org/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN32JRqU7SSLVYe3T8yfPM9E5MoYV33eDDILCq9iQX475WBzstd7L3xjF7orhumbuz26HKvxq973XSbe6mEOMk25D_fsS8JadvrxdVLLvD6YtYikqrUCebPlqg9aYCE6O06OFPfMXDrULxHZmX-uf0G6ndZyQ8vaAPE5ta6Uk43LjVIEn_Q7AWVBcxCrBxiZRgqb20w8KPe5b4Ner_RJr5H1bKAb4QXPzCbDFSqtA4XJNMT6QcUOMG0YrA83pQoYlxvdDb2SJ5dYFqbDbTEAwZNpgDckk9e1iCzJATYfQyPo0Kq7iq1ICOf3yWEWLpK5JFmd50r6-87KsL1tbndSOQuHHZu4f4QK6IkrrbmAqY1P3hNpKyFecxuAZuh-J7zmGp1vgTgKIMBTM0zSX-I4ImEKL_a2EtZ-JXkr8oE8_ozapg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@institutdumondearabe",
+    "google_photos": [
+      "AcnlKN32JRqU7SSLVYe3T8yfPM9E5MoYV33eDDILCq9iQX475WBzstd7L3xjF7orhumbuz26HKvxq973XSbe6mEOMk25D_fsS8JadvrxdVLLvD6YtYikqrUCebPlqg9aYCE6O06OFPfMXDrULxHZmX-uf0G6ndZyQ8vaAPE5ta6Uk43LjVIEn_Q7AWVBcxCrBxiZRgqb20w8KPe5b4Ner_RJr5H1bKAb4QXPzCbDFSqtA4XJNMT6QcUOMG0YrA83pQoYlxvdDb2SJ5dYFqbDbTEAwZNpgDckk9e1iCzJATYfQyPo0Kq7iq1ICOf3yWEWLpK5JFmd50r6-87KsL1tbndSOQuHHZu4f4QK6IkrrbmAqY1P3hNpKyFecxuAZuh-J7zmGp1vgTgKIMBTM0zSX-I4ImEKL_a2EtZ-JXkr8oE8_ozapg",
+      "AcnlKN1UFA01WTjSFxyC17NsZ7zzO6P1wtnZ3TOwPClsLf9uNhhHvuBUitIZGtTBOJ2DkQiiPayxsfPV_P3Q55i4UeaNy86GIipLIX3LceerKmRHfcEtrQLOw5v2DvRE-F59SAvlu_cKCE2ufbrPFZda2GRhfOHdkue4Tdc0Xaja9poKM-YoGPRNcCQ32zVXNM3uHeKt4pP7KLISK3bxT27YJC0fsu_Qus5EGCYemvUg9ZuUX50pFiXkKKBQdKzHlEgJrG0iaz2bjvZGSBAIGAv6rfn0r_M7YUvAd4igQHIXfYiXF9uN0VA197HDYrpEM9uOgMRbBd2yf_8f3lC8TmK3O2faOPFy9SDDL0PrgLYmoKv-wjbcFCpdtXOZYx1pZ9mIJMMlfXBkdOWiCAT5_TXbsTs3EjOXH9SAw_OokhBETgFvbg",
+      "AcnlKN3SNN6X9GMqY4f0K2urOYbMRI72CTiayzjJYoyfFiDCQRyDGecH8st_-ZnY22JOoPFbde4-vN6HxLbIjpjd0RpK_2ZOSu8JW-Zv1VoRJZ76oXGfObfYvJn2tEbmAcTPBKabSxm85LTYsAi9wdckIqTv5iNTvD_U4lnZHNjuq1QO2NKrL8S7LLf5ghzgbwr7mzFqLPp6xF0EcSs8a7VNTxx1MwNNhpheYQ8nnMi93IBP1Uh2sAOY0ySoZySwAvvVNfA9uuJFKZ0xsar8NkASG-3YPO7XsXD-AVAXt8IxIPa5rBIMJ1gTO0usPi05mJtZOSM5k0-FyLc_AwuG3bBgtpgCMtDFb5xrFGqZX-puZyulQbPtEC_65_0bl-jv6qYhlusfy0iV3sQHbQzrqfgcEGD2PSpBP6kNMbjDlc1Vi-zu4w",
+      "AcnlKN13lSEqWZAm0ttydWVjhA8QN9XEoBz32fQk4b7Iv0xOFAaXkzszY5An6MGX5e2vJt81CgUaKivLKis4mNcbQePWwIcd2T3nM9kN8BqFkb_rKMgQGHgPVLdj5dZgHomgYNzgDiXOCFHpm2OHC55JUGbeTD4i2-fYr2hmHGbsiZs2-Pte4ZV0ibq3SqjeOwHlSivcmQtk_p3-02ENk5Ln5b2esppWfqTunHzQgsW3J509SW4uzbeUl9jHNNisV3uUOFCb8JRg8rKjuQ55RohKf56VlcKjovwbrH2_cn0u1Nuf8YXub7yw6jTmXCmC-phhwGh9PhXwA8k7yG6BzQdFHmMHIgo8CpBkCwtCDSsH5lV5Z-z2bZlYUnFwS6TumvtmVIA-petDANNihtrRbTktr7wGHbR3ShJeryoYtM_nh8Lnm9ft",
+      "AcnlKN1ge1GQf7JbBb1MXHyUYLR9AF8xYkZJo6nhLIghm289qpIWEHQBhL9mZO6V9izNu7vZEX4Rvznv62UpORq9QkhqPmpTTcnOQFLUlLpO4_z8KYKGqrP4qmFQcvpALK6UeSyNM8nJVzg1N8PIgj2uwEg_LdxzFITi0KHu8LDpHy2cQQoZfH0nokUk-WDHQ4l3VSH1fqpL66b_t9DLtDXOCn9RumveFJDsg8_E50CFmTCPHT5QM7v-Ui07AN68faGsTFWHUGzWMjiOSdJM3Yb4tWldvc9wyu5M0Y2_9Eu_VB3E0Moa_FPdb4oWwrq05gkGM4wqiA-rSqAWpnrIahfkDo7B_SuKF1HnxpoZ1w4owjbwz2qyye3V7sy2ryoeEIDE5nNRUQWp-JcUxwmI4zmTO0XFhKC3JpVGMgaDZAFyRvDs88h2"
+    ]
+  },
+  "description": "Fruit du dialogue entre la culture arabe et l'architecture moderne de Jean Nouvel, l'IMA est une icône des bords de Seine. Sa façade de moucharabiehs métalliques, qui s'ouvrent et se ferment selon la lumière, est une merveille technologique. Le musée offre des collections d'une richesse rare sur les mondes arabes, tandis que le rooftop surplombe Notre-Dame et les toits de Paris avec une force visuelle inégalée.",
+  "real_talk": {
+    "text": "Architecture Nouvel iconique. Rooftop avec la plus belle vue sur Paris.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants en géopolitique, mélomanes d'Orient et curieux de vues panoramiques.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 8,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Collections",
+            "price": "8€"
+          },
+          {
+            "name": "Rooftop",
+            "price": "Accès libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 2497,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

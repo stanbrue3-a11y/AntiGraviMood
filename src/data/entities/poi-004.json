@@ -1,0 +1,191 @@
+{
+  "id": "poi-004",
+  "name": "Le Baron Rouge",
+  "slug": "baron-rouge",
+  "location": {
+    "address": "1 Rue Théophile Roussel",
+    "arrondissement": 12,
+    "coordinates": {
+      "lat": 48.8468,
+      "lng": 2.3789
+    },
+    "nearest_metro": "Ledru-Rollin",
+    "bouche_metro": "Sortie 1 (Place de la Bastille)",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJNTd-9QVy5kcRSktNBvRTsao"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 5,
+        "natural_light": 7,
+        "crowd_density": 5,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 6.5,
+      "criteria": {
+        "event_programming": 4,
+        "dance_space": 2,
+        "cocktail_offering": 8,
+        "crowd_energy": 7,
+        "late_hours": 5
+      }
+    },
+    "culturel": {
+      "overall": 5.5,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 4,
+        "cultural_programming": 4,
+        "creative_clientele": 6,
+        "workspace_facilities": 2
+      }
+    }
+  },
+  "vibes": [
+    "populaire",
+    "convivial",
+    "terroir",
+    "debout",
+    "marché"
+  ],
+  "ui_theme": {
+    "main_color": "#722F37",
+    "map_icon": "wine"
+  },
+  "social_preview": {
+    "like_count": 1876,
+    "moment_count": 923,
+    "top_vibe_tags": [
+      "convivial",
+      "terroir",
+      "populaire"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 15,
+  "practical_info": {
+    "La Tradition": "Huîtres et vin blanc le dimanche matin, immanquable",
+    "Le Vrac": "Apportez votre propre bouteille pour la remplir au tonneau",
+    "L'Ambiance": "Franquette, on boit souvent debout sur le trottoir",
+    "Prix": "Très abordable, le vrai Paris populaire",
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Verre de vin nature à 3€",
+    "ambiance_vibe": "Cave authentique du marché d Aligre",
+    "smart_tip": "Le barman est un expert des infusions maison, demandez-lui son mélange secret du jour.",
+    "happy_hour": "Tlj 18h-20h",
+    "bouton_label": "Site du lieu",
+    "website": "http://lebaronrouge.net/",
+    "terrasse": "Terrasse",
+    "réservation": "Sans réservation"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Le_Baron_Rouge%2C_Paris_12.jpg",
+    "instagram_handle": null,
+    "google_photos": [
+      "AZLasHofxhcZxlNC0jRN1nyanh0SD3imtut0bum8JBJ_qih68Wv1w72aAZNs_N97P5txFUZGf0GAsMr6dvN3HsosB9VATTs-uHZNXRxqc3LACLc7zB6ihIe3x7DUTVWdXeoshYeUD1_1rStTWtk8HM-45Pwzi97cj0zz-qTIVAXWSX7T1tJ0EBjEaOPWrswKojGcA3wNhQihcHhGZr1bjZf11bXY6wMun-YjtcDIKm_Ktec85138ZYReetdOW1ZWgxXTfC-lyu2P98EF-NXXErA2ZXnf07iKsLHA197T-uVJVaz3FmQrJzqM7haRd-EZqP44fj4aExmdxgDxR_6EWicFLKjyofaZPVnnKl2mR8Pay6EXYzndsusR8Jux3PA0Zj9SiPVht54noreR51P7FT4Jxg6jOX7T7Mm8QejuE9_Ake3YcQ",
+      "AZLasHpc81lwz3tTkE3zfYL2Unj_Vu1l6Hl9pQhluap7b1jpDeUfOhyvOn7mV98gP36OuPbdRct3_E5YYGxBr4KnGIB98gUyVjo8kphLD2mq2Hub1keV9R_RcTh22dSk0URxFI61NgsIEtxOpa3aMcr2B5nw49T109eaTlLSQsljaCY5i4ZRmcSwAoASQpN6nTYwJ4iacKUHES5Uf0ihrczZTunLOXEYb2pm9dyL1XTRY7i74Cp6pQp30suUJ_EsOp4D9--edD_8_DH1sDneErfmb2TH9cbONgv4r8TeCPnAMqLCfUrZyVUEooZtEQTd9ggug-dy1zhRfiGsBQnJBkp1lqfgxZPKVybXntvtMChDFRxT9qqhFjcE8-IkkQCtj4yf1lMEH4LtwCLMf9HikQ5y7n49dubhVtOsmBTNSj5oePiGWgc",
+      "AZLasHrSF7GobRKZFFpCp3CeyMK0wuNK1DrIUvDQlHK0eartNEBmqW4x33vjeZwDEGTAPi3afRIFxL274ShjQh9RimTr-ccVNOBwUlEljXLgEBe9nY_gOcNjF_aewWBEvJChs0GHjghfOyibjZ2wxkpg4wv0WrnS7a8lUNQbdckJoNhFFrFRWeEILQjJgmsT9tTN8K7HxDOyu0eWiNC6ffYRBH0w4suxgsOtUEaefVFAaFFNl89QdXpmZNr4CBQurq6b4HvMKhJjGXxVlwLMuJCUkgB3vyFx9Jlo_HH__vIniPFgKajoDI7nVL4L1hnCb0tnmtCZxG_Has67QKA86b4mUY5gKzbhL2jHSEVgq9gBEVV5od2SvTLBoFXSKT3m9raDjwoCDuarGSJPKkYjJAQiTAzNi4FbMX9wuMSntwOVpDsUH4P8I51E_uyNfi6FS3Hz",
+      "AZLasHpI95U_omziIv8CkEiMadOcZQpDmzqgA3YXMYm3JJbKhCJhynObp4TT2TxmXtAWSNcEbmVVaUG4atp-gxpGv_BnBIXZB2jrsc4sYncL2UiwTM8UizoGq2-ANMIL5RQ4nlIGqnJcBHZOdf_Jm5cnkUhVq8HGuo4uLLbj9Vlpreyz93A-k_9AuleYFnBAnWd2DoDiZfWyfB6S2TChlUyDegCV_rWC7eVSXt2Lpm28bT6iTRetBd8jMQNQNDu5gmwGh5cwIJWkqXKoJorLkkTrtxgRY7lxRKqbj3V_BLXnvzehl7YEl8udT-kZSeTcqeewdkbYAxbjKdjyfvAei-tvuha6_9sFpYcsVX53jQWRFouVtO1hPOUrrXSdOEXG1Os8afQ1BwjyFeRrkBUEusev39gkhx8kBl5Gp5rQddtEhj9m9Po7xiI76sG1CprTPxGH",
+      "AZLasHrLB-ZesJm0Fb9c85rFVdIfvA_GS9RZCkcHTnaqxw5XCHTenZ8Yz9PIpWjigd7lUvZbGIoPYBp3ZVqVAeBmsF-9YrPD7rfDZ_-67_MZtjx1GTx-3_QPeuaNl3Hq-DEBSl-KCAjHF2h22XwUG0x7EiCCaWx2En03CqsG5dh3_UtA12_PT7DgWCnHl9wRMpfgYwVX7nBXcR5IqPmdfHMhwD_Je8d8f8-gnOthujtJo2jiobb2jyfdyJt5sF3hYYfg3xqzx9NMwl_YoE6ISE-pwqN74TUgX7nAO2RYb4daLAijXQvwrGWzTcK9RrlY6G7Xg9kz-lWbMZx2CNAQGx4L7529QnhykXkhenykgkzPchvPlnTcIykXQv8FmzvpLHJoQ79r2yQczQ8wseR6QACelXOJG-FVWXVaOy73cpQqH_66o8rtGgYsJqY-vEnJ75v8",
+      "AZLasHoxeGPZmvHQwSTLAqrWEZffVwhWrTmg8mxyAkyMyRUFzvdP_c6zy5_bWw0w0PmWS8eWSO-CGAS6aFP6yp7h9fS5Qv95b2C4c0e6DFM50WQAJg4jmH5fpiJa9MS8kkQbQPCOtpwxt0JNbgWvaANtPu0gKy9gClbGVpnjslEeiqMy60vgWHAb-VOMd2KdBmrfloDYnQ-8PPVuBHf_w46AB0SgVqyzVWds6Ku8-0KEO_LeT5TuAFaN_VQLMhmzKMZbwOkk92ZHNwMmv3X8eg-Cdws3IKtne0YO6L0zOxU8_RnqICSWDGs8bGIoDxQk4RhDRDQtc2ux8FRhjoOW5HrQIqQyAmwUnu27iTlg0Gn2nBTgzSH9b5gaDS_QQeXd3VnsOdFmZUVkNPaL0j07Y9K4X57lOog7EZKk70_9OYCH4Ur-pCEKhHEQvQjqTswI34aw",
+      "AZLasHq3kbnsNtl38QWKWUaB73sKWahclp3kaWYddV6P2e7jW9TROxsfHZNz3V1-fhO7IenDVpblMIY6T4MnVmu8G_yU4g6ftD-hvexhS77qNB7oZg_zlLI_R6JHIMm_rH7RGtVn88BK8nOq9XfMZo_N63y1qROLScO-l7DFC3SGe0dr8DbxgfJvmNlptrO18-j0f92ynqWuQZTgxy0gdVOz6Abu0BhsBlUHgviJfwUkRyLtyr_ZYtIZEEsDHxSyd5NydPQJC41iFIc027iTrjMsQ6xPjlDcykPdeFY8he2GS0ebJFFvNLIvDJbbaFEwHJt098KkLuT_CUMzBLZoFRpqH7IMubDdZfpfVl6FQzALz7UHIEd1Kng9hJ6EpGb4uB11zIpDIrwFABombRRQIYKyMoK3MQ0DI_NDoKGKIMIZgryW2Ko",
+      "AZLasHoiqHOv1nG0nOF8TSMi-hiLAnmmcC1NhxgUzmn1X4uKnxAkmsoilSQ02fTbgg8K5YhpCEJshsDxpCV6HEzSU7QiltmyQfANiJSTpDACla1C9BZFB-iojjcf2hcccVcCSaqLyv_N80m4xjoSvqjrkxSH4RdWL7VG3W6YySgArZeboTUFaaG-S9-DdIQI_oDv8y2Uu3Dh8u_82U32p7qX3wT548j8Rs-TU5ijvLIf-2sBUYSjpZvGFisezR_EnjXeeXXywe6o1fN2-KfOr3Dapfe6ohM4EyugQWa-idYwU35BqZ8FLdlTT1-NceHHAvcs8UV9i99XFHfAcLyC2IxgKumaCb-ADC_jP4ACX12cAalsWiaCRzkRn1dU5CqYmB8scpBhZ1QnyyXIr-akAAckKyPHDsLt0uWRmIVje8hUfg0FUg",
+      "AZLasHoSTMvmy-mtYvjb0NAu-WncD73RfgnPp9cLYXG1yNL3aacYRgfng1Jn5Ws_szAu6i5rpofI8dwOCvKuKFLnbl1KZv7Q9XuYng9HxO0oTY81sSpVw5eFsqCFWGwenJTtZVocNzz0HH_gA3EGD6UyUJ34A_8ydsFN1MuUfWtMxXq3wdHbnqZURtKtUEnUSC-kHLHknjpribCb7N6jMmriKPmQKNy6Nj85ZmKD8cB2EhRcTc7li4gmiE4PEu4M4CBcZy3eVp5-iv-agKqwKrXCO5xjrmIH9a_E20wpmr8Te2J57UVBNAs8jB1eCkQ72hurzFJZHHlea0uNuc-3kNIF3NYmv3ry2NrSDwkH6yDLD93SANtJ8kk9s67ZKC-2F1-i0eoYtgxkGUKner5x3ZdbL2TzaktLRxwMjlapALmmxcue-rba",
+      "AZLasHpUehXFb9Ow7IKNFPa9GykFBSYNZDOFCYpB4elrjZPlgvgZYF1YT3UZePQCF8rOgJZ6g5NM1NCGHyvSgMHA1Vp4Y4wdCDqLcnbmMxVA6t5PbYDKEGLdX26oM-xK1muF59vk1uMzlYWM8M3DOvRIWSkriz004xPduRQiLgYC0w3vmg_zrCj9xecHW9AFL0SxGAJnJlc0aPNZT0nDCQzDq7QrErPL37Qo0vno0B4oAkyBtjE0hKYpZgiZRaS0VE0XlmWVFhfm_2IU4_GYw_smM5O3ub7noOtyJqtLqkk3COfO_WB00t7lvM7tw_6gi8TWGfYMYuJCjmwdQvrSbmCuR-EGgzfOWVBO5Et_NGmwNYgQyL4Bx-1Qxg8jyqDz4k3apbaNo6OAJUDybsu4O8z4_QRtr-2EcsfqnzlwKCKHi0I"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "17h00 – 22h00",
+    "display": "Tlj: 17h00 – 22h00",
+    "detailed": "lundi: 17:00 – 22h00\nmardi: 10:00 – 14:00, 17:00 – 22:00\nmercredi: 10:00 – 14:00, 17:00 – 22:00\njeudi: 10:00 – 14:00, 17:00 – 22:00\nvendredi: 10:00 – 14:00, 17:00 – 21:00\nsamedi: 10:00 – 15:00, 17:00 – 21:00\ndimanche: 10:00 – 16h00",
+    "is_open_now": true
+  },
+  "description": "Une institution du marché d'Aligre. C'est un bar à vins 'à la parisienne' comme on n'en fait presque plus : on vient avec sa bouteille vide pour la remplir aux tonneaux, on mange des huîtres debout sur le trottoir le dimanche midi en les posant sur des tonneaux ou des capots de voiture. À l'intérieur, c'est sombre, boisé, ça sent le tanin et le saucisson. C'est le repaire des habitués, populaire et authentique, où le vin coule à flots sans chichis.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Vrais titi parisiens, amateurs de vins natures et copains d'apéro."
+    }
+  },
+  "real_talk": {
+    "text": "L'authentique cave à vin du marché d'Aligre. On boit debout, coude à coude, sur des barriques. C'est ça Paris.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Vin au tonneau. Les huîtres le dimanche matin sont une institution.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar-a-vin",
+    "budget_avg": 4,
+    "value_score": 111,
+    "category_percentile": -11,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 6.5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "6,50€"
+          },
+          {
+            "name": "Verre de Vin du Tonneau",
+            "price": "3,50€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 1554
+}

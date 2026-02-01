@@ -1,0 +1,126 @@
+{
+  "id": "poi-196",
+  "name": "L'Eclaireur Boissy d'Anglas",
+  "slug": "leclaireur-boissy",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8692,
+      "lng": 2.3217
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJlTjSFM1v5kcRPIfwYvclh08"
+  },
+  "category": "museum",
+  "subcategory": "concept-store",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 678,
+    "moment_count": 47,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Mode avant-garde, design rares",
+    "ambiance_vibe": "Galerie d'art futuriste",
+    "smart_tip": "N'ayez pas peur d'entrer même si vous n achetez rien, c est avant tout une expérience visuelle.",
+    "bouton_label": "Site du lieu",
+    "website": "https://leclaireur.com/pages/leclaireur-boissy-danglas"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3h48ThZGTwW9dzF4kH3AOWwZynIQ1HcxNSMLdgy8UkSuxow4F31YyRNTbOWHgUPeYjYq_eCqxfHJ3Hj9cbXJEHsE-KEkzBo4G8mhdbTPXEpyw2ARQNRC0FOpSJHU2gH6AQfKwmhtjP0ed-iKMtM_PNx_Y6QE2ehP9Bo8S1_hfsikxPml-ip3sNsQMoH0Qu1FrnkHdKmR3Fo5pGxy8AlaZ_-VsFsMBhIZJHigF2AIMuFYpZDpXOY8uDi67U1xh0Q3d8XtGW0IyZ5Z-_ceI5_swm2OewAfhZg1fDYSckoL-bmQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@leclaireur",
+    "google_photos": [
+      "AcnlKN3h48ThZGTwW9dzF4kH3AOWwZynIQ1HcxNSMLdgy8UkSuxow4F31YyRNTbOWHgUPeYjYq_eCqxfHJ3Hj9cbXJEHsE-KEkzBo4G8mhdbTPXEpyw2ARQNRC0FOpSJHU2gH6AQfKwmhtjP0ed-iKMtM_PNx_Y6QE2ehP9Bo8S1_hfsikxPml-ip3sNsQMoH0Qu1FrnkHdKmR3Fo5pGxy8AlaZ_-VsFsMBhIZJHigF2AIMuFYpZDpXOY8uDi67U1xh0Q3d8XtGW0IyZ5Z-_ceI5_swm2OewAfhZg1fDYSckoL-bmQ",
+      "AcnlKN3GeTlkk1Y5Dly9RRXjrX_zc4-ItESsX_SgYHDeQjCqcK_MDFxiqZeGSeJasqwDGvWvQdv8VjoJRwa-szqZDMsNtZ1KtlF6urLZuFMBvj1GeIOPhdNEudJzo_DE2lHB3TmIi0bbIBvW6ohgRoVTB8DnIcKR6vVdLFZr8_UdxOGzKyKoOkOx5qyaX_3KXZU26aaj1XakIh8k3vk6xe7EaThlSW4Ox-jwqtVwPIYPoLVdN_pB4nriiuZR2nSS5LquOXz57i0lpKAsZPVzSF39lxbsBRAQLU05sqkbOIqUm7wSxQ",
+      "AcnlKN2bx8s67TC7ffiWgNK_3Up9LNVgBN7y5QzthmXsPSqz3thVH92nqR8P63AczcoN3Ug-k9pCHpqZ9G7Uud6wkqv7sitZMF62P5Fgug7Vwe8x8CVPFfglMCnfVGwHo5yGwZogEFbrLq2t644so-dfzdmKMEH3jkTe43k3tX5Thh92-KO6xbMrOpBKWMOZ7FrDmzfzT1fGY7R5UQgKt0CoPbi1wX5wlAPc8__BLhygGkv0xxuNlvUPiKI3LZ4V0Ps6Tp3v-9eKwilOAyfogJZ1a85v7OMhKe89Kdr4b4s-foYqSg",
+      "AcnlKN1aVgNNINagYBfeFD2S7cpuC8Wjg4IzWF7rI0sNVFaYJ0KyjYN-PoqjMDToRezVYCPrXpzH4E7uVbTgyMgwINrqnQfIG-mZg9KNyF6ff55gUovLsFRzuZm-rofWKbgu-RxlujTjkWEY6xVdRcW0D2OzEeGtkx-4EKGpIhooY3FV3QQYNIj3ts0UN-0mr7k4ZsKMNpML6AoR27n5mQV46oZONP8zq8RFG8S6vYdHNacwTT_k3RfpJ0zhw7C9kAt8cQj7pW_q2fPimd6YJQrv0wcy9kvnXq3YJcDjvQMiFIOrNg",
+      "AcnlKN25fby4iZzXA_gQQ9yc7UNZTIy1oNKORcs5BHvZDIwkWHta5SdMJpU0D6MQbe33kXkQZ1sbTyFeC2-yu2lRc9lQQ6kKkbQvdWL24rMYSrFhhtqw0mrEbGaA2AAbuxSrWXFHy9Xg7YZwFxJO6OQyvP2Gy0T44COvmEVSeKsFpazsubLx-ut-oU-_AvhA9O5C8NqvP4hgqPxhNUFchIi2UpDPkJAvJ47B13P3Vjx5lUWiENwk9_1eTDVa5iEC4ytD_nAdbqAaRczWavi9b2Vo944uK44D3rpZXoV2Mq2M_p3gUsr2QU68RffVrhtn3bvdkucO88aY6zJnSNsifgNZz4QhTGHwvkhT_m7Xr1IbUmGkoHcX2PtgCA8kqfz72cRqRM3sR9A7AxbDK7aM346fQnBT9I3N5ckWbkU0QWh7IxAqwQ"
+    ]
+  },
+  "description": "Plus qu une boutique, L’Eclaireur Boissy d’Anglas est un labyrinthe de design et de mode avant-gardiste. Pensé comme un cabinet de curiosités du futur, le lieu expose des pièces de créateurs (Fornasetti, Rick Owens, Ann Demeulemeester) au milieu d'une scénographie mouvante faite d écrans et de miroirs. Un lieu de pélérinage pour les amoureux de l'objet rare et de la création visuelle la plus pointue, où l'on déambule comme dans un musée de l'esthétique contemporaine.",
+  "real_talk": {
+    "text": "Le musée de la mode qu'on peut acheter. Scénographie incroyable.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fashionistas pointues, designers en quête d inspiration et acheteurs de luxe discret.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Entrée",
+            "price": "0€ (gratuit)"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 3.7,
+  "google_ratings_count": 50,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

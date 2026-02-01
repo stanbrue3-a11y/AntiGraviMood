@@ -1,0 +1,133 @@
+{
+  "id": "poi-185",
+  "name": "Jardin des Plantes",
+  "slug": "jardin-des-plantes",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8439,
+      "lng": 2.3594
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "parc",
+  "subcategory": "jardin-botanique",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "nature",
+    "calme",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "leaf"
+  },
+  "social_preview": {
+    "like_count": 355,
+    "moment_count": 36,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 150,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Jardin botanique, Muséum, Ménagerie",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2TNRBOXrSv4gg_vtI-4rGuyU3h4lNs3vhLc8phKtgitwTapz1eTrjWcygNyW2URqBtudijGoefTosEC9pXyzWpdrmZ1hJ1HdeykR4QrYnXsG4VHczVUHO0snP6FGeL1xqTCjHzI09nHinzaPSZ_r8q69PV3pIkdtkpcLbXXvroHsLOMC6JjRvO5hIs33F7gJwJAhXnXZ3VEu0VtqfuyQo7wqx7BoQXcbZU3do11z6SuRR-H4V6C9S567HvrtFsq-nOH1HAqSEIMHsNETwiioV84sqhTQqVYRVlppqEF2F9uNTufOQHVXmnMh_2v80tsSFGanc76zErX-Cg1IaO6mdmntGTW689SzGKPfU5zTw3PrY6nVTGcjeaN3I93rnHmF9zQqeOK4_1DqXge3U5HkvJL2sVQKk6JUYWN5qGc1YF2g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@jardindesplantes",
+    "google_photos": [
+      "AcnlKN2TNRBOXrSv4gg_vtI-4rGuyU3h4lNs3vhLc8phKtgitwTapz1eTrjWcygNyW2URqBtudijGoefTosEC9pXyzWpdrmZ1hJ1HdeykR4QrYnXsG4VHczVUHO0snP6FGeL1xqTCjHzI09nHinzaPSZ_r8q69PV3pIkdtkpcLbXXvroHsLOMC6JjRvO5hIs33F7gJwJAhXnXZ3VEu0VtqfuyQo7wqx7BoQXcbZU3do11z6SuRR-H4V6C9S567HvrtFsq-nOH1HAqSEIMHsNETwiioV84sqhTQqVYRVlppqEF2F9uNTufOQHVXmnMh_2v80tsSFGanc76zErX-Cg1IaO6mdmntGTW689SzGKPfU5zTw3PrY6nVTGcjeaN3I93rnHmF9zQqeOK4_1DqXge3U5HkvJL2sVQKk6JUYWN5qGc1YF2g",
+      "AcnlKN3x-piw4AAXyyU70aL41MFwaWWr1m1URkU3cb__HEM1VxZun9mVYcf1-nsPgDAyXugNZczE3pR7KclqADa5TSk7nUFpb_Be0tZ2S6Q-wGaWNs7G8EDvpYHb5DDyAoPn12wQLfa2y_azpuCspisJsgn4BYsOwwFZjCZwKdEjxFD5_c7m_Z7T-WBK6-rGRhs5etMrPbc_4tFNauv98Dy7NcusPznrbk-6BXEJgX0FUbiBzZitSRfMV36Y1tkye1hJCy4JtkzfqYkDNmjl0UYQmT0Tcr2z9uJ_Xwsx0Qe4C_aRs79VYCRB7iZOkThwXMIaMoGrjgvHFpgx5ZkBe4uhnXDQ6NUuK6Kn7210_RdLPJQepv7i642IApzH9vFjjr4750hReV20O4bc4qQbouaFhIrHU7VWfYAuGJIqzttBG_pzwSvK",
+      "AcnlKN3OkwkewSUaf-eXQN4sASSdW74l92u_F1Yb3YM5Td5DDDjQs7yYgiLNXyaXt9h4UhvwUpaNDRByVtp4i5vc7lA2cWXL5QifjXRyxcGzYO1RLPFRlUMjSQ7wczMD9PIub30lCqUfX_onptNWxFgX78MrRrnGqxS7qf4Xfu57W5_piCfM7z9ptsqcEnqUi14DmaBFfvPpdk7cCsFbrg4KfjX3-rNRz3ryY15V7tVQmjSEFIBFzyqtetFubqFcAPIV-IjC3U3Kk2PNUrJ2Gm0oC8Yi9hGohq8Tj-rJVfyFceR03qJnMr26feaChRMgv9kG2zAfLZKakqVvPOrqXBtuC-4pPUOOM09P_cgZwCO18EjpwQvGa4mqOgTqzbzuv1Cj6cbD1qhDv9NKDNut7l6WWKhwBFL6qCVn3m95acl0wzm-Fg",
+      "AcnlKN28jWbZKiAB-pJRP82EdwayvksxgMUxJ8YtaLtxgJVX-0bNFOtMlWURncoH7G6jgCTH9cdI9szQpDDj1mEj-daSUqPe90K9qNajZ7UK41yH6--RTDWJomSfStXDBAdv3FizjKhdundg87eUxxCstqO-uHEWcFe1bOvOw_DR-bxb3Z7LGHPaVTJQDPvh0WIUR1Ef5tjj2c1XPKBWzr8Ddf8IH_4Nq8OMzas6JUcWOrEfmWi5wZaii-hUC1o2eKOCk3zWeBrWGLTaQjTRf7bAhb0lAZhJhBX5ZZqw9iBDar4kTqlmIb1-Xp91hAKgreK-h_W7VgKY1G4RJkatfu_CIewTOReo6QU7z7mraQ20qosy746WS7ROzU4ueNwEFdDVRKiyGMfxaS9MVH6AV0VctmRNCa7vCAyoKL5XNU5zkQ0TtPIj",
+      "AcnlKN29DX_40ujT_asMdNbd5DgLgd7C8WYnOM7LJezr6vHNIItrmjl3L1WTbcQ-P8VDpJ7kuTc-591_qIqplbJ_Pz360k9CDXqBoT3b9KobqN8S0sQkaN8UhuflFEW6QeP1FYgpb2e-k3D2TPTDCGv3xtb8OlaVMQ98YlUWGnXoaCVI3kdBhMce69Io_EGhlMy7OHeNrM_EzhEi3iVrZrIgdMHvZcyuHNUz28fCwUOS7KqjR1mHDYm1r7U35ltKxoVesoBgYbBH6pShBiK1QpmYaqRee28LDeOxPhriIZLuIHJiE345entD-zTn9DRpui2OkY_5XvrfeRYoos-Sfo2gWfI8iS6mt2cB_geXFyOOrxGt2mGloz59iOiZz7hxlxIpWFJO4g4MftHFMpOSW2xXXVqxoyySTcUGmjp-ZeDiweQ3Dg"
+    ]
+  },
+  "description": "Vieux de quatre siècles, le Jardin des Plantes est un monument vivant de la science et de la nature. Entre ses serres tropicales spectaculaires, sa Ménagerie historique (la plus ancienne au monde!) et ses allées de roses, il offre une promenade savante et poétique. C'est un lieu où l'on déambule entre l'Histoire naturelle et la botanique la plus rare, au pied de la Grande Galerie de l'Évolution. Un jardin royal qui invite à l'éveil des sens et de l'esprit.",
+  "real_talk": {
+    "text": "Le jardin royal de la science. 400 ans d'histoire, serres sublimes.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles curieuses, étudiants du Muséum, botanistes du dimanche et touristes en quête de majesté.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 95,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Jardin",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "category": "SUR PLACE: Les Belles Plantes",
+        "items": [
+          {
+            "name": "Plat Méditerranéen",
+            "price": 20
+          },
+          {
+            "name": "Brunch / Breakfast",
+            "price": 15
+          },
+          {
+            "name": "Burger",
+            "price": 21.5
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

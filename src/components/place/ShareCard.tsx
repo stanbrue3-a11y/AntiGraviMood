@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
         fontWeight: '900',
         textAlign: 'center',
         lineHeight: 52,
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         textShadowColor: 'rgba(0,0,0,0.5)',
         textShadowOffset: { width: 0, height: 4 },
         textShadowRadius: 10,

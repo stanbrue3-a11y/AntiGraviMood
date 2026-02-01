@@ -1,0 +1,144 @@
+{
+  "id": "poi-150",
+  "name": "Le Petit Cler",
+  "slug": "le-petit-cler",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8574,
+      "lng": 2.307
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJh32iCt9v5kcRv8zeQH_P9hI"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 347,
+    "moment_count": 36,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation conseillée",
+    "smart_tip": "Situé juste à côté de la Tour Eiffel mais à l'abri de son tumulte, c'est le spot parfait après une visite au Trocadéro.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://menuonline.fr/lepetitcler"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1Nh4mwGDoEiV6geufK-SKok5yZhZAk9lJ_kzpfSMC4i8TjOMlzNNZ-Deykw5Pt9K3EfNU-ZlU9XN1CY_wK6an3wN1dpPCHju4EZLd7nr6ttGE7XPSrcnOpQSwJZNE6i0l4woFALe521eRTv0tlEYYa2FrtWI3GLiGK580eEFEtnM7Rnmo0bdav9T1Vb7AAVDtb8XXd50edWOjcyp4jfap-Aa5gdGvA3syZ0bekvOQ4Ta_TmbR5sZxllW7c3VRnBlK9nBHhbl_ELla2_NgemSH7zuamwDisVPV915NOmNX4pA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lepetitcler",
+    "google_photos": [
+      "AcnlKN1Nh4mwGDoEiV6geufK-SKok5yZhZAk9lJ_kzpfSMC4i8TjOMlzNNZ-Deykw5Pt9K3EfNU-ZlU9XN1CY_wK6an3wN1dpPCHju4EZLd7nr6ttGE7XPSrcnOpQSwJZNE6i0l4woFALe521eRTv0tlEYYa2FrtWI3GLiGK580eEFEtnM7Rnmo0bdav9T1Vb7AAVDtb8XXd50edWOjcyp4jfap-Aa5gdGvA3syZ0bekvOQ4Ta_TmbR5sZxllW7c3VRnBlK9nBHhbl_ELla2_NgemSH7zuamwDisVPV915NOmNX4pA",
+      "AcnlKN3yAhy9glWhjkrPAJZteLc2IivM6nIDDf_RMykCOIYPzYYeDLDQvJuhSehPzZ6ezDHVzOZrouoMwHsJ5xnc5h5Fq4atned6cNWxm5J7Si6xG1_2u5_GJwgag6GeDQSHXxpeD8qyQjIrnnG9NOeKVSaC22rE96iS2umPLe_-mPA0DppBC-844lyq0eG_nOADaITjBLRjVGp_rSOppt2FVfK43yRmW8L7M6yR5oKnfOCTeWrUPkLxPU5QPsoPvM0xWGe9m-uD4iL_kA6Lk4iKhVhPIF0M9i8j3HyuLW4PmKgS1Q",
+      "AcnlKN0XK-fmokSFytFZOZ75kEiQ_Ohj-8d3oRDgunlEFYtP2sRnOe9VsKCLlZza5fqB6DzWzX8-NYZuNFwGXg4Rko4zBkV4ej0AFl88NVDpWIIq1wyWEpk1OjB1OF0kQbMBzANtBkgavvajYUD6Xo8DM6jLSn5G_wzCuq4X9rMETStGJ4ooiQ8GpRkHP8kRlBPsJB8ozw6jP5y2HCMwllsVssgCDuvEHYpfMr9vk34N-ER96IcuMyTXpGLhHbzD-e9_TlQc_N9rCqUDSxPZBywPnyfXOHJvhvvKYVD4FtIyJkMFJ663b9sOGuLuIcODrcCj4V2CZ6OhSzTQhvQMExqwScSMI-NyjI93SZt_8JsxL4yU7QrTGMXL9MsXHGfF50Az_KBqf4YE5e2xJ03VgcbxSM7pt0-dNDMlhE_vtJYGB1bf84vXSzkuFWoqDb6sNiOu",
+      "AcnlKN2Bz3q9IDPU6X4IH-jRzy3U8pRnTAHdg3LMZupCuF5sm_QxNWLCBzm8cWBxdV5U19i9VeLqgif_h6iDUCn0kslgmR8Skgi14tiTpB7tcUgkX_PfNM3_QetUrk-SvMfTOD__Hci7MlkhsTK39pGJKirtyBi3f-kay6Agj8CzHKtyDgG-4lsQl7UBsU46azeibbbr4Cj9Cfwe3E-Yd5r7aNlOfnn2pxVRwfTyNTXMQvR1Nvw4JcDF8wthLKWkMCjVS0gREwwqOT1M1frFPW7MxZYd-cZVpzqC9zb2b4y7l435URj3he_6pwA526WXVBVK6RsQLu28FJYkyZLUlvo29Fz84jFcS04fZn5V2tHvJc3g_I_XXahvtA5GvYY3s1D9REu4fyhlRDK9oqqOIKlQhYYkXZXyrRZcmLSUoCvlizoqd8pH9UGz6iFaqAJic3ie",
+      "AcnlKN1GYH4xFqc0U5AR5o8M944RD17AcLa-gpvFfIzzcbxojkJrPjnVXzdobET1I53y7pyQI9wDZBfASJOXWzX1sgPrkcAtWoyuoYcWOxZ7ARe7eGmZz2bJq1Bx1Fbz6upivL8NJdCgnZ8ODeSRJ3GG3DfhQJf2X4sEs8kXNUhcddm_CTOQKHms3go4G5cZ72oNUoLyvEr-utCsJVI1Xa6vsNbrU3OuQE-q3OGNYx62uP2AFD5SxCc6V3KEk7Itd5ZlYPRJrBMdF01UaZh5H34POrlkE6fUYQpHJRqleSSPWra2IVC4b_fTUPwHGfoTESmTn9qm_Kx2GEu9MnmyUCM1pSUjgn4c8SArwgtYUR93WlYOaUZaC4YK9o1ipIYYnX8CmaOTbRSX5NYFAze0PI4FofsmMFRmmy5cnQLc0PXCnjX8NUACHTXKAhMPNne245uU"
+    ]
+  },
+  "description": "Bistrot de poche niché sur la rue Cler, l'une des plus jolies rues piétonnes et commerçantes de Paris. Le Petit Cler propose une cuisine de marché sincère et sans artifice, servie dans un décor de bistrot authentique et chaleureux. Avec sa terrasse ensoleillée et son accueil toujours souriant, c'est le point de ralliement des habitants du 7ème qui cherchent la qualité d'un bon produit à un prix juste, dans une ambiance de village préservé.",
+  "real_talk": {
+    "text": "Le bistrot du marché de la rue Cler. Cuisine fraîche, ambiance village.",
+    "must_eat": "Plat du jour du marché",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Résidents élégants du 7ème, gourmets du quartier et touristes avertis s'éloignant de la Tour Eiffel.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 18,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MARCHÉ",
+        "items": [
+          {
+            "name": "Planche de fromages Cantin",
+            "price": "14€"
+          },
+          {
+            "name": "Omelette fine",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Riz au lait",
+            "price": "7,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 1945,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

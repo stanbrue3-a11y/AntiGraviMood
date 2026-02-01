@@ -1,0 +1,195 @@
+{
+  "id": "poi-033",
+  "name": "Gravity Bar",
+  "slug": "gravity-bar",
+  "location": {
+    "address": "44 Rue des Vinaigriers",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8756,
+      "lng": 2.3612
+    },
+    "nearest_metro": "Jacques Bonsergent",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      5
+    ],
+    "google_id": "ChIJV9nlWAxu5kcRM9aGsVh7bVo"
+  },
+  "category": "bar",
+  "subcategory": "bar-craft",
+  "mood_scores": {
+    "chill": {
+      "overall": 22.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 7,
+        "natural_light": 5,
+        "crowd_density": 7,
+        "music_tempo": 7
+      }
+    },
+    "festif": {
+      "overall": 6.5,
+      "criteria": {
+        "event_programming": 5,
+        "dance_space": 3,
+        "cocktail_offering": 9,
+        "crowd_energy": 6,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 6,
+        "cultural_programming": 5,
+        "creative_clientele": 8,
+        "workspace_facilities": 4
+      }
+    }
+  },
+  "vibes": [
+    "craft-beer",
+    "cave",
+    "afterwork",
+    "décontracté",
+    "houblon",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#DAA520",
+    "map_icon": "beer"
+  },
+  "social_preview": {
+    "like_count": 1432,
+    "moment_count": 654,
+    "top_vibe_tags": [
+      "craft-beer",
+      "décontracté",
+      "afterwork"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 20,
+  "practical_info": {
+    "price_range": 1,
+    "phone": "07 66 96 18 78",
+    "google_maps_url": "https://maps.google.com/?cid=6515999856740718131",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Ambiance sympa pour un verre.",
+    "L'Ambiance": "craft-beer, cave, afterwork, décontracté, houblon",
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Cocktails vue 360",
+    "ambiance_vibe": "Rooftop Tour Montparnasse",
+    "smart_tip": "Leur cocktail signature au basilic est ultra-rafraîchissant en été.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "/images/gravity-bar.jpg",
+    "instagram_handle": "@gravitybar",
+    "google_photos": [
+      "AZLasHq102vlfvxvgQOPp91mknes7lz4TWddVyCJl1JJ53VcLbqiwZPhPWazceGmZ8-wN2uinjqbtKO0jbl4OmykDofH4Q3-q-KgbdEpeOP8hWl6wJM6QHI6lJDohxSxSwTBhsu1fVW0x65yQA4P6glbs9IvwlLTfYQjaOqxoqh_Ltk5NowXMLdemUK4iq60wAEKLt_4B-asYECrWCgBQgUJ-eo1DxBd0Cq2NiZyHvZWv6QJ7JGc69W-IFw5rUPRavl4AWzc9hdqH4v1gxun6MY7PD_zbjEDntYhAX6wKLiH3KfRZw",
+      "AZLasHoxV5g0ZSE9a7FJo2kVvgsxyU_aSey5iYtAx3DzaSEkqSviVHskX_Rr1xKke4-MKIp755KqrFh6M1__u6SjVVhr3uafWLEvJkE-zwK2ZgAfIUkWOgFxOxnAM3g4GHN0yK3VjPKMswwDgO495eNTU3C0aor-bhpVxRIkKyuFTIrV3X5AEv-9bRUkvdoD1I7S1gQT7bQGw4ahQfprwcqQOqcXXzroqZXHEqMwCv4HXOWCUhA2oIQ5bXEFWV6b2-aFLzmq_g0zJgB0q1RyD-cnL-3aQp_8ZFwvZAbQGQ__alGmjw",
+      "AZLasHoAHNSn-KdUUkGzqoMAB7tWZL90CMagM9RTA6CfO-KW2EbQbFxtUHMCuccwL7p26rHe9ORD_wKbSwQSJFwZTD9N15tu_3aCdmeJoBjWWi7iY-xivMktbnmyB378QWPT2izt27Pen4jV8NZvr1tq0OFv8D9wf4K_zKH_m2Nb-uZArvWGAXsR0dVwWxcWCQs-16en3pheMHSGlCumjsN98o4K8nbl0R46P0pMolRaQE0D9xAmjJnFSa68nafgpw4BupxeCyQ9W2tLpqXIEJRt-6oIscEUj2mfRhUpcH08o7iQ7ts-7lryUyP6W_HaDWFzOtdM-hK7ARrE4aHKhvm1Muox5HDN09ztUct_v26U7UVqwTrToAPRf5AfwuT449X4PzH6VVDc6vR1WTy5zMYXcVAwHoTwd9OP-opxoRQ4C7TYEFUV",
+      "AZLasHrLAXP1SlSudi6HaJCtzccYdgx0Od7632WS-WMahJll2B-PBe-SjM1lgMXkjuX8x4JbPqbrxYfaVPcFy9dJ0w9LkJSvQKMlkRL5SKZwcs5csU4BN_6h2XTLo2pSuXPBthhWlrZy2dU5XjDovfe4D4SFEbiP4uudGp9Jh-2nvEwrTyG7NZMY_QJ8estCxTHMovlnV_pq1LsvnNlJWb-LMbsmD_ORqhjsmR3Qpvx-dUgkx42U3doeL4e5Ctqq4Uq-8F32qMTfb8MNmP5m8atOK7dJC53m1HZvEUvzzZAypI79EJv0SD6IsU8J-lDf7QVnQWS2NSWsuCSA9BkkMzuio4ocItB5G9p_P1EvjJ0KEgeEMjzWlYV2R5k4TM06z2DRtL3CH9nNo4iZIWouyd8f2EHoA38b6JMZh_Vo8OjZaBQv-7TaKy-Kxnia058on1GM",
+      "AZLasHr9LY6NtCYL5nw3rG-THmr1SV9ykzUHleghlbCxLRfuSGgnFYogvYwClOpIKsiPiUg12qqgcieJQOTMuBAiQNGYGPGl3576sVr0p7z0Z5bES4maiOkLCpt8oDtZnj-2ixw4XZfEunN1KPmVPqa3EBXcQtGLMph9YUZMIHiv1U6AtQWIs2RLOzQj1jJNuPB3vF8yokGC0SwREPF4QD-LSvyMI0qXk_3iA-1-yDau1WiuqaOh3Nkkg4S0o4G8GIl0lK9yibYu91kl2OTLrGgy-ATfgMjP56IV1NV-etb92Ya2y4J6fHI9JMkqu-HiJka-BDL8sd1HjuDgTuMU70LpuUBi6aT2MqNawAKEfZl5DdVkKAXKj6Wf81BPM7DVakp5OS0ZB0yZQphhaeFwe-244eGQ47NuIIHMaZ3dELxdEA4",
+      "AZLasHoyAWM5mUASHmTW1_lTPtS5SvBcPYcVtALMymsWjeyTbxjH8ScflwduHoxWxoHwPTrHZJwLYr6PmS3PeDxvTFWkHiKeZhxsPzX-ZE3LkWCY1G3edUC9zjzgPLM4wyP0328C6dQuHjwK4QMnf3iYZEDy_OPervVtHmcBymBfKAn-xHoXyEdRpjjCjkG-NW_N0n9UsE5VpHAfWbnLCYgBuATIIn9MPvvOB0NSFc_h4Cy0rAqfbic0701ibLny3bQba_2VRc-oHBqNfq1ukAjNzhky-pZ-9t-8vehurxVpWfhxkg",
+      "AZLasHpGk-12uN1AsMLufs0y7p07GFICALKLJ68eEpMRvUaiR8BxbFIcve7oj2smY9nIS7Rqv6jwKxTCBIeYOX3pl2lg5z-PW8PpVOrdB8fMEMzmsEQSEC5u5ERPZZ06ISpsYOjkfL55SL2R2a3Izk1iH8ngV3bmjgLhXrNEiKBCIhZkVFNoS1QyhsfqexXJisceid1duTUupvYTxG_bPy9BIRW7XWhpBTkzboiBqSk1zIl0nr6MaLlJwP5cByrhZE98bPKLntnsrOCG0NSbejVwZ4OR8dx-_P12LtfNt6TUDA_yOJ-l9KdQNURSMw5BV8P8iWZp5-T5X81YvC7ev5-cuNCL7kCqYQ-vEhgTsq8TDwYXukAybh_iK7lAat9czG1h_16tu6NCLhGmzq98eq8jmBZHlM9UF2GXVLyJtgxzipHXcA",
+      "AZLasHos-TfD5J5fqcsLinGNq01TX-mXwwsBArqklqz8uBa850XRDeFZ_1wllNYWkdn8WZv-Re7co8AJDxsSNG_cnGvgXv5lv0Y8a00P8RFO8TVBCzQuTwariJ_IJXF29M_xm_zs_2Cyu2SiS5Nz91WWZiUFNqghXnL82-6k0AG9K9Wx0LfMxJrBPCiUhQCwRyTbknavmMdMTW3W9SDojKBpjAn4FAR66ydAci-QZWF9FuW4ol6TanRiUoKAC0lnV9RRRJlHNIC-Y3nxhCerUz-4HSGR861HijWHXLxKDcRcg6htIssK7ZCkPpBr4DWGfZdQxQzWYXHMgYnmG8M49tYbnv33oYNe0KtlwToQWWqDf22BMW-poTPc5wzIMjrPJjLlPAtF8V4MGj6DdGamle1T5E5x9Y3Ep1FAFvWw4TCIp_vDVXw",
+      "AZLasHrWw7PTKj4xaeUhGF9QA2V0emMfYICmJQZ0uV4abrtoyCdKZexUaugPa2qRL0QlTptHCLK7pltLlqnmPnw9p6M3dMF1lnzYbsOi_vZ7JmtOUAtBj-OCFi9MCuAPJv5RmfSfWHnw8cy6aVoS84AjNqd3V9YP_nUEf1E9v74YIkx1QdF_fLGj5CcBSxNzZTwQZd3VQ4ARO-C1pPxlDBD8GCjPsVgPqZzhSF3SI3BOlbJY9tiptmYzgPw_gxbXo-xjzGympAUu3AMGox1HRH_fKHc7d9mEDuOFL2iQaCTORhrN97VTv9NxasinFcSJDEPlYhl7rILBXdbQ3CcFXxdC8JOvKPYz9Gi10wCQpqwBplMg2JB0s4uHf65aCweDotZeS8Xspr1qRs6-ienAzJrd67I6imMc9ZQNK9Sgo6xmSyq97j5k",
+      "AZLasHp5OQfhUkO03eT6imf_zxcEht2w4tW5X-ZgMSOlblcEOCyUH2pWPV0ZcglHeAt1Fuxb7zluvbXEW7tP6avZfe5fqczc_b4ESCMlRNPtkEZY-Qr-A8D-sddFph1k6Y_TglRuTVEoKAugbPprPC6U8xiqIGuEnzv1eJQfku912KCECJ31mBcmzbi22AXQ4EJqEMhFI0IgXKJfSgrUae-oLXZmsmui0FH_FGIB5KL5xRSAJJ0hc4937I3294mYMnNp9OZVac-yF6wZ-AScZKv-Fc2ZMmOMjEeTtUGq8cPqnvfBbhpC6qOesP9ijvzs2UOLwbcOi_blKFUsvCTOVqFZRU3YZQEJMN4zh-zN3aqt8v9ecdBZGDo0aOUeEq3q-ZlTsO0WQbeNEKH2WqcJ5QpTGIIzhRd7UNpt5iUUtK0Le30"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 02h00",
+    "display": "Mar-Sam: 19h-02h",
+    "detailed": "lundi: Fermé\nmardi: 19:00 – 02:00\nmercredi: 19:00 – 02:00\njeudi: 19:00 – 02:00\nvendredi: 19:00 – 02:00\nsamedi: 19:00 – 02:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Près du Canal Saint-Martin, le Gravity attire l'œil avec son plafond spectaculaire fait de vagues de lattes de bois qui semblent vous aspirer. Le design est en mouvement, tout comme les cocktails qui sont pensés pour bousculer les sens. L'équipe est ultra-dynamique, passionnée de sports de glisse et d'énergie, ce qui se ressent dans l'ambiance électrique du lieu. Les drinks sont complexes mais accessibles, et la finger food est délicieuse. C'est moderne, architectural et vibrant, parfait pour commencer une soirée avec style.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Skaters devenus mixologues, amateurs de glisse et curieux."
+    }
+  },
+  "real_talk": {
+    "text": "Le rooftop vertigineux de la Tour Montparnasse. Vue 360° sur Paris, cocktails à la hauteur.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Une valeur sûre de la catégorie.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 13,
+    "value_score": 11,
+    "category_percentile": 89,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(13.0€)",
+    "pint_price": 7,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 13,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.6,
+  "google_ratings_count": 713
+}

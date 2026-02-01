@@ -1,0 +1,137 @@
+{
+  "id": "poi-079",
+  "name": "Bouillon Julien",
+  "slug": "bouillon-julien",
+  "location": {
+    "address": "16 Rue du Faubourg Saint-Denis",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8705635,
+      "lng": 2.3532275
+    },
+    "nearest_metro": "Strasbourg - Saint-Denis",
+    "metro_line": [
+      4,
+      8,
+      9
+    ],
+    "google_id": "ChIJg8kIZRFu5kcRULZqe9xS-a0"
+  },
+  "category": "restaurant",
+  "subcategory": "bouillon",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 27,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Art Nouveau",
+    "Historique",
+    "Belle Époque"
+  ],
+  "practical_info": {
+    "bouton_réserver": "https://www.bouillon-julien.com/",
+    "réservation_obligatoire": false,
+    "terrasse_extérieure": false,
+    "accessibilité": true,
+    "téléphone": "+33 1 47 70 12 06",
+    "réservation": "Sans résa (File d'attente fréquente)",
+    "ambiance": "ÉLECTRIQUE (Ruche Art Nouveau)",
+    "boisson_signature": "Vins de vignerons à prix doux",
+    "incontournable": "Cuisine Française Populaire",
+    "small_talk": [
+      "Inscrit aux Monuments Historiques depuis 1997.",
+      "Le bar en acajou de Cuba est une pièce unique.",
+      "Visez 11h45 pour le premier service sans attente."
+    ],
+    "bouton_label": "Site du lieu",
+    "price_range": 2,
+    "website": "https://www.bouillon-julien.com/"
+  },
+  "real_talk": {
+    "text": "Le plus beau bouillon de Paris, tout simplement. On déjeune sous une verrière de 1906 dans un vert céladon hypnotique. C'est le luxe démocratisé.",
+    "must_eat": "Saucisse-purée, Bœuf Bourguignon, Baba au rhum.",
+    "le_secret": "Observez les vitraux signés Louis Trézel représentant des nymphes, ils sont d'une finesse absolue.",
+    "le_son": "Le cliquetis des assiettes et le brouhaha joyeux des 800 couverts quotidiens.",
+    "le_must": "Le décor Art Nouveau classé, probablement le mieux restauré de Paris."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 22,
+    "main_dish_price": 12,
+    "pint_price": 6.5,
+    "last_updated": "2025-01-25",
+    "extraction_reasoning": "Surgical Verification - 2025 Menu Search",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 11.9,
+      "label": "Saucisse-Purée",
+      "source": "verified"
+    },
+    "menu_items": [
+      {
+        "category": "LES CLASSIQUES",
+        "items": [
+          {
+            "name": "Œuf dur Mayonnaise",
+            "price": "4.30€"
+          },
+          {
+            "name": "Saucisse au couteau purée",
+            "price": "11.90€"
+          },
+          {
+            "name": "Bœuf Bourguignon Coquillettes",
+            "price": "12.50€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS & VINS",
+        "items": [
+          {
+            "name": "Riz au lait onctueux, caramel beurre salé",
+            "price": "4.20€"
+          },
+          {
+            "name": "Profiterole géante au chocolat chaud",
+            "price": "6.50€"
+          },
+          {
+            "name": "Pichet de vin de pays (25cl)",
+            "price": "5.50€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "11:45 – 00:00",
+    "display": "Tlj: 11h45-00h (Service continu)",
+    "detailed": "lundi: 11:45 – 00:00\nmardi: 11:45 – 00:00\nmercredi: 11:45 – 00:00\njeudi: 11:45 – 00:00\nvendredi: 11:45 – 00:00\nsamedi: 11:45 – 00:00\ndimanche: 11:45 – 00:00",
+    "is_open_now": true
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-lot6-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "description": "Véritable capsule temporelle de la Belle Époque, le Bouillon Julien impressionne par son décor Art Nouveau classé, magnifiquement restauré en 2018. Entre les murs vert céladon et les vitraux majestueux, on y sert une cuisine française généreuse et accessible, fidèle à la tradition des bouillons parisiens.",
+  "google_rating": 4.1,
+  "google_ratings_count": 9387,
+  "media": {
+    "instagram_handle": "@bouillonjulienparis"
+  }
+}

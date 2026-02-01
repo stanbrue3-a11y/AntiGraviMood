@@ -1,0 +1,147 @@
+{
+  "id": "poi-043",
+  "name": "Jardin du Luxembourg",
+  "slug": "jardin-du-luxembourg",
+  "location": {
+    "address": "75006 Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8466144,
+      "lng": 2.3363309
+    },
+    "google_id": "ChIJe2jeNttx5kcRi_mJsGHdkQc",
+    "nearest_metro": "Odéon / Luxembourg (RER)",
+    "bouche_metro": "Sortie Jardin",
+    "metro_line": [
+      4,
+      10
+    ]
+  },
+  "category": "parc",
+  "subcategory": "parc-urbain",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 259,
+    "moment_count": 111,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 42 34 20 00",
+    "google_maps_url": "https://maps.google.com/?cid=545460441531939211",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Reservation required": false,
+    "Les Sièges": "Trouver une 'Chaise inclinée' verte (Les 'Assis' sont moins cool)",
+    "Nostalgie": "Les petits voiliers en bois à pousser sur le grand bassin",
+    "La Vue": "Perspective parfaite sur le Panthéon depuis l'allée centrale",
+    "Sport": "Terrains de Tennis & Tai-Chi le matin",
+    "Romantisme": "La Fontaine Médicis (Le coin le plus romantique du parc)",
+    "Meilleur Moment": "Le matin tôt (8h30) pour voir les Tai-Chi",
+    "L'Ambiance": "Chaises vertes, étudiants studieux et sénateurs",
+    "Le Secret": "Le Sénat est juste là, dans le Palais du Luxembourg.",
+    "Horaires": "Tlj: 08h-20h",
+    "Le Tip": "Choisis une chaise inclinée (plus rare) autour du bassin.",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://jardin.senat.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHq8NkNYELrUT0nMh8we6cAvSALDNSw8R3d0B9TvQOBuGF28S_kwWNiCg1Lo0XEtAFahBes4OMzxFj4xKWc-Ow3vxamxphq9mamfuCuYZblT3cTE0DSkkGYsiaADXS8v8yccOUV8W9K0p65zlYrR7QyMQYMCGC3pFgWinTuJUMGP33VFBgMNT-2_Rc4aZFVSMEmGwl8mS6ZPigajfElm7EvYhdqxkh-GHztEP5E0ReJ7-dy9kwyxYW2609gdmh-8KhqBoa7U2EbXTw8jZHbdqJ6fgE26Xw0ZZZBd-ld174SRMhk_6Yktw-yp9teVlY043sZuDooVjRSp6o0JuzqnTkVtIc5Ipm36TUnrVbPZeBmgBU1sSKx7rJmZX4OyGWKtEh8u9bXIfPQ3Iv2_arq83lsM1zNpE9rsG4wBReEd1gpqxA",
+      "AZLasHpIlflFwbZs8oqCJYXgGMR1JWMovoVovJKME3va7DjiPmvUm1u4DQeULciYk35et5LPC8IzX8S4Rjej3xM6S_tjI4zmbNf3oiqfEDOdHTfN0IA1g4N1Ly_8XXp24nocvatd-WALMoNvfuhsbWEcAtkjAFGFI7WCXwzRpYOCeXZFL6yU58DQ89_w7nsX1EkBAAAtAZsOC5i7bEU3NusNTbe1gveD8Taw2f7WOA1v__iYizGXSdoZXair6Vx3wL89SGuRtNwCkNjLcwrP6VgOu_OFM66U6I4ienWxFdqvZIeXtlISCKxKR4-vHFq8_gOgnevLtTARHyblXKyAmH7rfIMk64oFByogkdeBEVIKdvTcgQEH1gzhKrw6SbcXQ84X94G0PQvmm9VvHYm6F7_R_R9hJ7AoMd2szwRwJJqvhsywSjuv",
+      "AZLasHrWuy8RbsOAAMlXHObf2tS275Q_O9-dXZGCXAjDh4KiPZHs5H0v4lRB1NZDzP3V-JmOeAWeu39i5bp8avow3Q9eVt86f1JXTX4uYfDRRbgSUSBwA9MCIH90aNYUoSK-gN16Pmn1YeZaX0g1c6h6a0WGPrzxwCFQNLXiiVK5cnsxkEclztdCnJ5R_D_P2P87eDthk0PAdEANKQHUS8zgt2Jp2OH15TUYmtWFzYUUcOyPXyfefrsa5tnXH9Ot9Z8422f4VdjCrYYe65bLSfZrNi2_Am4XfELJBYD4WrBy2vZ8tLGbu0pNZWR6evin-x-cQMtGexdOz6KT2JTfelml35kvb6lwB4NDsatHsQWDRxUc9OO4lqYTLPqaUF5t1gJLRrqjHCdM9FO5d2zKjWbPpzG8FF2abWUQ4L5HQZ86pO0hV7X-loPGPPA_B7vMXpzQ",
+      "AZLasHpxRKvheeqJaUzVpkcUWNHV-gvhwQenSUyeU9XBzDmcsCAD1lI0CKp8jwwB7QXhsQIsxBxW0vScnKR2W_j8eL_BIeMbnRLM6deIlEK_Wn0VwyFwmU-dfGtcc3bWwIXDlGLb3wQPKAXwF66VMpZF_wVQJj0caSILN6a_wtEIXYO7VzzhoXJe6aot5-cy1umvqtOs_b4CXcE1CSSCYe7rt1rx2CAwsCOFtnxxxx2OMOEs7rZ5kN8ZqYS6GE5VA-zQg8wx6PKKfgMY9BiDKsZFjQjBHd8mVlDiDaQARYJq0gSzuerfpBSq2Vd2zqH4R1pdmpvV-cU0VtgGwD_y772Smptdti4GughERcQCWLjKjh3-GMDG0yj_MKcpVNl3uHgoCPqI1LPWJ6wosJ9j_DSllcU6jMJIV30vzOFBrQYuZ3W8sQ",
+      "AZLasHrsMeSzHio1uzGZ7uUNNaYcW4KhSQrzdtxsvPBsnapbJGfUSxe4Saio8_hNQeegmTqopfMVrN_8Usc2gYHKl7_uQYYAhYH36-QoxPikdhXq59gl5ogTfAT8pmlGqc7SKfNVBvXlk8xfEulbsKWRYEKnfRQAs1OXkJOOgTIi02-ZSmGhZPLQZJjyUiRsde3SQwdEzvMoThOhNlxZfb8s1u17VsblcvTu5b2DLBtqxXlkpcGukkGOO9XJ1rpnfC7bSR9Tfa5FpLl70QgMIto_J8Wyon_L64b1uOMgF-h74VUqwDb_YKDkB7KCP8jj_Y6TDFGOEBx1ZwJemg5OWbO_LjuYvtePpAj6Gtbp8MML8UNQsauQlISeRJkVokSOl37I7ANbeKnzIz740NIMSBjpi49AxB2WSl5kEopIWWMRO6NoXUEW",
+      "AZLasHqLXy4f3LIks0JEPjaLru40_qRh9rnzribPRKb1-BMlWsaEJibDK-lvRbDlAr0L9IuTPKfCY-T4slrHrRE1zyyMDOr3aGiD-9TI0lAjvZtW33J2KAY2N_bqFwbMpDSamsCRIwcBkZSjXjEUoqKfJRvEdyu1j4QXvDvZa7yc1IRU9Bc8C3knIEJhu32M3VOismE2nOSV4M22rgomYKm_mgD0GHgI25gHELYZ9BtpnXis29BhNN6Dm3PRaOs4RuEQhmKuE-Y-sUJ40STq1lpaI9JhdpHW3puaGPvjJncD4xP_f8hzvxDLhnZBzWP9YIKmGB8YSi5ZYZ5d940dXG58b4DQ6VTHdWhbesPuesIrTamJITF1AT3925BpGhev_l6v09GmVfDfdZdC9hETK_0Wqwnq7LQWmICQvRLYftMpktQ",
+      "AZLasHpBTKVUjQB2O0mNc_754iShZOieFuIRE4K8IFDhjSNjU2dn1WAoEMezm0FGmFpAR3f9gS5pk7XWiKD_pp86qWvsoZOyfXYKYFQUrCG0KptP-2RgtZNL73IOcuJLeHqAVxYmZGjaXymw9cOZk1g340G4F7IWGqE98Se982LJC-iKLzpmHVW6T-JqSHFRcorkhvOkM620SL-8mC5YwDxT_tgCqHa5sYpoRS2rJdAWZeG9zN2KdnZKLG4GKYq5FXIdBNY4I57UYM4-5Vb-r4z9SuVvKbzmTgLXnmEGMuNq5QfQkAMhBbP4kXLTuFoyCBy2ng6UmRbk2yyf5JZW-NukLj6p_cKfK54KFQX_eG35hLHQLBL9rVCvXrGGpkWaiAdso5TdXPOaW4_AjLVqJR8ZMM3S6RjJM90jWXi7B-U03WfwNBjIIOtKrBQ2e9Rc8BT1",
+      "AZLasHqJNrZCzLsPU4e7PsJChfDL62cEpT7cdkuDG-R__igga0ZN8GMQsFGpTZdyihzH5DiBFyq2rZum-nEywsGXP7puieEs2QdDtrOw2G3dKP-eupvvPWTHtcXCzqGqoUYkasc8-IglDYNzmJDv2JarBAKm5gkcO0p219GIiAp7PdWk77Jy1TeCLlUJVz0a02UNnMiQmVQLv9G56YKvncjIk27U4Hs3jD5ypErmxUnGL42CIoi-6CTMxIV9fv29GML8mXnoIfc6JfytuxYdAg_9dVonGZvUxVYpzZ6etsmP6_0EpEyeUFUy2abDirY-rJ2i2h81TEiGWLbLI7av1SyINqVteypp2O_sGsZmLZJnmH71vARkQC1yVfFp9XINfNXExn6gfOkaep0nrMw6jw1NSjmDJyZq0ogxNpUUUKJMImkMKS9m5zlZgr_jc9Hct4-0",
+      "AZLasHqy4RgzHTIF3dzOo5xYxyRfUP79QPpdIqTgL-Vn8v1I-_8SVGAjAgExyS7yZJ1i5sHx7UrnCqn2Bumi3mrV5bdSbX7nhB8WQf8YGUyaOK6tauG3Ch3wyMsopWbRf2chFhgv_TqHNt2h72ISZxXCoMHvlsyPmNPBar51S6V_dgg9DWm-xHUW90bqFL778tIm3g_eLpnYquPf4R9Yp9O-whaDi4B0CkNsl7O3f5Q_20t72ehIdjKje4qWXwb1UMMqUtczLwp1iPeIElLD3Qr8IM6u2X6OQMR55rNbinBUbDtlMdSMwW3BUFlvOrz-X5rcjT9WXWEEb5nByZR1noSBboM_vMhKn9RPrIf6D9TSZ-Q0oHg32l6Ep2VVd7IgtzlN7of3sT21RebM9viDdNx8XsahchKHMMbUnWhlrogCjoo",
+      "AZLasHrUM6Mqkfm2JLhr6QQqEyEYAtDJ5TKICxqkn5jlIjveTS-CiO6lLzc5VcjkN48_m8GO4pXQo1SLSCN5JglqxOTlvpE9zHn17BIOo1YPWl54ybYwtws8MmzW2rpCTCPd5V4_Pkj28wfrTTLL2Ku-K7gct_lWfgdMfWbZfwU_gI5DYjYVpMIlVTma4ChiZmaF4nW6rB33TszQaWdE1_bnDf093ywdiIpgkw0o3o14476dhLCqo3YYntpZ5aPOO3GmjmCMbayP3qlxmKLAZkNAsl_Usb5MoJFd9B94v-TLOvoOeL8ejIxU0RN7Qdh6R8jnva80Y6Sdmd9wZWDZV9Sm7TnhchP8HnIW5tCUeThcqh9zupJmooL3vkJB0YOK7yZRhrFQ2kM4U6SZnheU0Gwwq7CRJ2X_kewQnJ90O7UzO_tJpw"
+    ],
+    "instagram_handle": "@jardinduluxembourg_"
+  },
+  "opening_hours": {
+    "standard": "08h00 - 20h00",
+    "display": "Tlj: 08h-20h"
+  },
+  "description": "Le 'Luco' pour les intimes. C'est le jardin du Sénat, mais c'est surtout le jardin des Parisiens. Il a deux visages : le côté grand style à la française autour du bassin central où les enfants poussent des voiliers en bois (une tradition depuis 1920), et le côté anglais plus sauvage et romantique vers l'ouest. C'est un musée à ciel ouvert (centaines de statues), un terrain de sport (tennis, échecs, tai-chi) et le lieu de drague intellectuelle favori des étudiants de la Sorbonne voisine.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants de la Sorbonne, sénateurs et joueurs d'échecs."
+    }
+  },
+  "real_talk": {
+    "text": "Le jardin royal du Quartier Latin. Bassin, chaises métalliques, joueurs d'échecs et joggeurs.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 122667,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "poi-086",
+  "name": "La Fine Mousse",
+  "slug": "fine-mousse",
+  "location": {
+    "address": "6 Av. Jean Aicard",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8648895,
+      "lng": 2.3818038
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJBajpzPFt5kcR_n4amMZrFbk"
+  },
+  "category": "bar",
+  "subcategory": "craft beer",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {
+        "noise_level": 8,
+        "natural_light": 6,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 23,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "30€ environ",
+      "display": "Tlj: 5:00 PM – 12:00 AM",
+      "detailed": "lundi: 5:00 PM– 12:00 AM\nmardi: 5:00 PM– 12:00 AM\nmercredi: 5:00 PM– 12:00 AM\njeudi: 5:00 PM– 12:00 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 5:00 PM– 2:00 AM\ndimanche: 5:00 PM– 12:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "20 bières pression rotatives du monde entier",
+    "ambiance_vibe": "Temple boisé et feutré, ambiance dégustation",
+    "smart_tip": "Leur cocktail au gingembre réveillerait un mort.",
+    "happy_hour": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.lafinemousse.fr/"
+  },
+  "real_talk": {
+    "text": "Le temple de la bière artisanale. Pas de Happy Hour ici, on est là pour la dégustation et les conseils pointus des barmans passionnés.",
+    "must_eat": "Accords mets-bières au restaurant",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Pionnière de la scène craft à Paris, La Fine Mousse est une adresse de puristes déclinée en deux espaces : un bar de dégustation et un restaurant proposant des accords mets-bières. L'atmosphère y est apaisée, propice à la découverte d'une sélection pointue de 20 becs pressions du monde entier. La rénovation soignée offre un cadre boisé et tamisé parfait pour un rendez-vous calme ou une exploration gustative sérieuse. Ici, la bière est traitée avec le même respect que le vin, dans un esprit d'indépendance et de qualité.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0H5M8SCL60s4Yq6eWht-jz0ePmLQOW1TQGmpZhTPUIXQ8q-WsouEA0UzOhuSOm7RH9bEH4_mWzz7AeLCZUSiUivyeB1gswxjmzxPx1bIYD6WFqhyKPigFSxrn9Dp9PFOOD5u1znqrpj-YwD9WHzN_73E8Nf5SZhccNlLd2dGs10iN7Cnia0I4Hkr0nurizCeIsQNojo5QK1SxcvBQ4YAGske_sDr3OZU-d6deowJ4Cnme0jJ_YXseXKrOFroJsQ6qxbgImRmWAducIuphwVVxAFN54P1hLDuLCkcf0-vk3eA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lafinemousse",
+    "google_photos": [
+      "AcnlKN0H5M8SCL60s4Yq6eWht-jz0ePmLQOW1TQGmpZhTPUIXQ8q-WsouEA0UzOhuSOm7RH9bEH4_mWzz7AeLCZUSiUivyeB1gswxjmzxPx1bIYD6WFqhyKPigFSxrn9Dp9PFOOD5u1znqrpj-YwD9WHzN_73E8Nf5SZhccNlLd2dGs10iN7Cnia0I4Hkr0nurizCeIsQNojo5QK1SxcvBQ4YAGske_sDr3OZU-d6deowJ4Cnme0jJ_YXseXKrOFroJsQ6qxbgImRmWAducIuphwVVxAFN54P1hLDuLCkcf0-vk3eA",
+      "AcnlKN39gptf5SaLar7wl-VO4c_YzBmbuFemIIgi_-FESlquCaAxcJmGW_91-utdFS5z81KKjNWFioP4psKstWDEqJU1eNdn4tuGYI6lMVVeDMGuhT0y3c8v9GxZRuLw08iW3W7Q7AD8zm-mKEtqk5V3UZIPQlhxAQsjhxlz96skklu9a_sfUqgPKQbpSa9LIVZ-iHaxGrUYj6-gfEwi01epzpsmA-uhLC6aNzREL9ojLHxc4nXOOyELrLSRbGL4XM7KQ2B-PvVtwuIWEH1Z98caao5bRm_54n2kz7muyFWg1cpclA",
+      "AcnlKN3uFWHpr6H7T5JlBuDzYAJko1Gz__q0KQ8lrS7Hl8FXRUMCkTRTsTyMjvQHLe_FBPnto0g7GRi5M0YqLF5FpkwROtJKCttQDS1nBK2qWXHDR9QbuGsbnWjkBbHjwv7PajAirZuNNWk8JSWDaj71AchLfkA81Gd7Oj19ui3WYSQsrgkMJN5Dwz8hnivCmm-3kTHPb0aZCO8CGbSksKWUk9Md_KiJZy4ip9HIQrT4epzau4prGPYvjQXRF7VyD2YLQhTLyXUST45mGkSyhmgLGDClyfLDDmYyGdRSuTEV2C1wRqDMzDlK7TlPGEgbtQHa0YexDVFs8kwz0hkS0wdd6gAWlNd0dCAO3wOpTPV7thR6KpGS-odGtxO-BJFZfKDROX55HKErUf-Q_wwXDVHww5JeeefhkF5dFHK1M6Jx7dW8qmQj0d92drBOKMmNNO80",
+      "AcnlKN0VIgX50_nJBn9Pyj53CLApIvL7HjbKyUBF7p20YXg-EQlKE-ZYZ_AVvtqKSvqg2CYmo1KoKCDe8_WptaVLljRQSmNXifh6rxnIY1cM8geC3KZ58__CuI6EqerZLjgiQqfN7P6hor9wNzq6VSmIo6_PymIYFPqtlL4AbZ1186jJbA3_9yznC94MDstGVU99jAakLHyulNUdLQ4bp17nExlzhl7Bm3qUisA03cint77INw6ZRMNcFWfQWOP8F4FfrtOPGYzRscFVBqPOPTUPPpo29Tiw9Z_fCaBV1AIAGkP5h1nO9iBKJ1i44k_vDsZGuz3NghdBcXXr_OSyPczyeSvWA5P-yH1b8-oiQazH4MDQL04NQTbKkDFurURMsZ4MTqOasZV1PS3LsrrOGxDDd2N1eLSbSgS0hGhVze67BSM51w",
+      "AcnlKN2ByRnnGLHFvGfPH8fIav9pl9EMvlcjDTZ2A-Vm2oFC0NDahlfwI5dhEcVlrZX8emzKHxAFsYeIDo3VydbC-Yqdr7xGGZS9DntnwvAJqHDJjcdRRujZ428snueU_C3EP_cPPWv9vs3cpGZBPFcidiEWc-lnLK68oe2g3OEQceFNAUe9CMAOHEGamJ3bIsduP_51wFEnJTLtvRFS_LCiEsYXGL7FnREEKqF5xoETN37z5BuwaM2xByisrzsso61yq8oBfMT1Dj-qUP32KtPYb4mxnCknVS-exMSBkzqn_py3JnBj_xuggoTjLv4D5s23SVLRQKuVwjUNlPaxaVQb-L3QrHfRSHIgTmGBRToQav8A_i_G5jimE7TJck0zp65ZjmBqwhMOOCz3Z8pwWvBPAF1w5jEETVxk3Nvv3d-ysnHF8TRGxxoEEGvod_JBkhkL",
+      "AcnlKN1lEccP9o4p6yAzfxCP-QDmwas0UcLQ9Br0D0RsQrhEFDqVwj8b4vIFzNqupqv29As6LsoZMflGfgpEx5rVCYMKweAu5agRj6VQJiMfhRXTv_F9o6RLbHLeEjMz_qVKSmezWcTncF-bN_4O0nLwnADpA1Xe23-1qe91QOJi9GEq9g7872334eDcl1iRxxquuTpGs10A_v9395xD0r1w0PokHmV75ZySDtAJ8A42Hfp2ufKa2Wr-7lG2N5iH23P2SeFsvh-CNu0Ui8IyrlQlisd8y7BBERIpDvLA9-CSlr_t2fxcnM26Sfwuhvm0bmKmkEe2PGCUYAogP3Ac4sXhkoszb7MoF2VdR7susrvTZq-3LSJ9bL5TKeKTmKPj8Q31_YNgB6jbWFQc16w9Nn_ZrArY_mcFuV8lqKkWKjY34Ji7og",
+      "AcnlKN2pSCc-7MJlhUYKsWZQDp-cXLJlLOcj0qE4c9JP3YijdhbMCK1TJAOYrgfDLPKwJjRXXNEHb7AIe92KfxdXd2SqX47qQ6ZwGgK1CDCD9_ZZThfVM4z9H4Mou5nBfxaRsl3Z64X51XdRYWsRgwMHsRCtRBPh5cvcOrevprwAINkkark_FWL6UYlMEd6DPi_fS_VEC7s25DrA6kNwo_nJ_XA4iXWlaRAOn82JZ8AZPjI_o2W201cE_s4Zjkl6Lz1AOPzqHuYc6nOyLCpggWgYENZIGIaqULPuEMzJxraC-ytUunrARX8KOxwyeae1Oh41J0AaXZlgmu-Xg2kaH2pjAQfTM53V15uQ3dWFnMGdziy8zg5G4pWjlg0Pdp2sRWKpoT2M3m4xwIpQZQyEF6Bv1yXweqpTxYGK7g_E7yuIbOB6ZIQU",
+      "AcnlKN0kGtc77qZZaubE8fgXwvvrzHQohWyn3XfAYbuPvP554zh8TOr3jNjeAFS7z3unYmOTtxgp6XlMc94kBTeNWDeI4pj2-TntPF2JBVzIkWb6TWQtRXP7QY508hPvgCVls_1D2KwjhpNWW5zZ37KVNOkBQDmRQ4j7MRB_QviQg_Oc1RH0Klnuuc_Kpt34r73L7cMNO7w5M_WiKxzUHoKVKVlRpj_b29HWM0kw3xNzs9-mNOwZeyHrN8mGhFVaFtWtVq7Zjxh2n7zLb7bmc8mMaDaa_O046SL0tvvmRCOKHfbyEg",
+      "AcnlKN28Eqa4aXad7P2IiCpHtxlXoFkru3XtY06wUXOJbPp8c0pykp79NWJYXg2vfmXEq3AZMB0Y1TMksPn3a5bh86jhN3s2eqJRg9SySowIWNwJTFZtL-6SkUetDLxF0D1wAlm2AnP6wV6n9ubFA7e74CShZjkaNMkUJTPW3qxIHKfzww9DSoshjPvol7xAsX2Bmg1W5LDWD2IiZQ2-7tVNaIvyRkeGvX73LCK65BH4EgZw5vfh1iF8drILsrrY7snUSG7ZzgErUA8jqK8tCIC3wO7hgJEpKVYClWsh77qL0P6ClH2FADZeSZvOMgbAtkNOMMYk_4MdQ4VY5vALNzSlhurxm9KaH-kIOpPHBoHNuINNd2WtqQVDRAkms4DvbopNTQ_hvPRDZgYAfUUumS0MU9D7OcfDQMl2gF93buSKo-nu3ww",
+      "AcnlKN2gkn9nog6QQf38WIkxoqLf-QygfzC-9t10weURp_KWRlDKvR6mQf-Lzcg3pRJ4eU2Wvoeqevf11f6JeTr_ylZM9FzcPDY1ui_qUAlkFGxKLt5nk0QuVTKBYKj68k_odNVtik4t7-ELUJmP9V6sS0lGev9agSO4eDL0m20CsFcPG1leGeG8vfVXTqjETzS-kONCTVB4nmO3HvCxfxhKXEGCyndtRKolqBmxiQb1Hn4wUQ0YAVa5vK_TZIJ7sIaykx7z10gye6yM7DCLGvYv3JBNNBB86hBU5d3_yYb4UJUE6_a8vP4z8GHWzJF5qDTjQCZtUgj1NNPiAtsHL7IB01LzpfebiwddHBMyUxz6ofWZNcaMXeNcwSQhcfAe8Ke6N1pP76FFWekWf-1hN9ahQF5VewHKkyTKWdPcOqyJhoaiFQ"
+    ]
+  },
+  "social_preview": {
+    "like_count": 597,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 16
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "30€ environ",
+    "display": "Tlj: 5:00 PM – 12:00 AM",
+    "detailed": "lundi: 5:00 PM– 12:00 AM\nmardi: 5:00 PM– 12:00 AM\nmercredi: 5:00 PM– 12:00 AM\njeudi: 5:00 PM– 12:00 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 5:00 PM– 2:00 AM\ndimanche: 5:00 PM– 12:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Puristes de la bière craft, œnologues reconvertis, couples gastronomes.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "DÉGUSTATION",
+        "items": [
+          {
+            "name": "Plateau 4 galopins (12.5cl)",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "RESTAURANT",
+        "items": [
+          {
+            "name": "Menu Accords Mets-Bières",
+            "price": "45€"
+          },
+          {
+            "name": "Assiette de fromages affinés",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.5,
+  "google_ratings_count": 1976,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

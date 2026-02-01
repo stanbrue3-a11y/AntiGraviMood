@@ -1,0 +1,193 @@
+{
+  "id": "poi-016",
+  "name": "Les Deux Magots",
+  "slug": "deux-magots",
+  "location": {
+    "address": "6 Place Saint-Germain-des-Prés",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.854,
+      "lng": 2.3333
+    },
+    "nearest_metro": "Saint-Germain-des-Prés",
+    "metro_line": [
+      4
+    ],
+    "google_id": "ChIJLeslLNhx5kcRtkpSU9ZmNvo"
+  },
+  "category": "café",
+  "subcategory": "cafe-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 8,
+        "natural_light": 9,
+        "crowd_density": 5,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 3.5,
+      "criteria": {
+        "event_programming": 3,
+        "dance_space": 1,
+        "cocktail_offering": 5,
+        "crowd_energy": 4,
+        "late_hours": 3
+      }
+    },
+    "culturel": {
+      "overall": 23.5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 9,
+        "cultural_programming": 8,
+        "creative_clientele": 9,
+        "workspace_facilities": 5
+      }
+    }
+  },
+  "vibes": [
+    "iconique",
+    "existentialiste",
+    "terrasse",
+    "patrimoine",
+    "littéraire"
+  ],
+  "ui_theme": {
+    "main_color": "#006400",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 3654,
+    "moment_count": 1876,
+    "top_vibe_tags": [
+      "iconique",
+      "terrasse",
+      "littéraire"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "01 45 48 55 25",
+    "google_maps_url": "https://maps.google.com/?cid=18029711228931295926",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 07h30 – 01h00",
+    "Reservation required": false,
+    "Le Tip": "Le grand rival du Flore. Terrasse ensoleillée face à l'église.",
+    "L'Ambiance": "iconique, existentialiste, terrasse, patrimoine, littéraire",
+    "La Terrasse": "Oui, disponible",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Demandez la carte des vins 'cachée' pour découvrir des crus plus pointus.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://lesdeuxmagots.fr/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Les_Deux_Magots%2C_25_September_2019.jpg",
+    "instagram_handle": "@lesdeuxmagots",
+    "google_photos": [
+      "AZLasHoHqSn0r_TINzBbIQdTVRg9Mg7gRIg9zL3PUM4-OlIn81mOJVfzLTI2g7SshFOBUWcT1LXwJV1jsFKl859nkNik7me0No2KDRQ8z2wdpppxau3_QDQO22RwTqDVTdHwZqhtRRH4M01fLtie8Hbst24VDhYqYYVvEPa-LaAES99gf5xFntT9IeVFsMAzOs__i3X7c0MN_Vd2baiiFH7AEzgs7VPlStSZ88A01-eKtG6-FKxxdswxz48qsISLHXJQYo3o2wYk43t2sV0kRp89yDoHlf9S1PAMRhe_S59OQ7dFRw",
+      "AZLasHpZDEeQ1w6tLsnVhg5HNMERM_bEj88nkAAosvoVpmP6vwP5N6UUpXCvywg_QGodWbqz1206lgqu3IyAUNNyOwNMpwk-vxMoFdyF1_yDepzlm2Hi018pO74FrWNhGKg68DjXM9yTWcef4lIjYIFhkTSfJLdJUgQfdOB8wv6OOdhSuvAQimKg-DfG94CN-04ZaGjwoy0B2vgA8lECbXYqWZOQ-T0hUGZp7GYPdVV3pFsG2qgt_fYQTDKkz5H_XeXbLIVzs8hHzjPpjCV0UhSfuUd0CtQIcSVeDuTOvjbl7gcIHc4e4uEfs5snmp6dlgviKvx8KM94qCLc698J2JWiQU2mlSTvShsKUJeclOGrNrvWzfN87nQliv3WBo3pNMxX3YZUT7W8BxD1cBkonXnsXRFx778waoL8f4F4tOUa7mpKmq9S",
+      "AZLasHp61m7WoG-uu-IgWE3xwqjh1o596GzYrHrsed8Ll_9ZOEQZGjBFj9eJ_SHRsD8cEuyRTq8BWmGyvtHc89ob-8e2tpW7eQ_d7s6jrKZyGuT-aHsyIVOtudo5l-G0kvFXkyclkEjG0yDyrzITbRTstyQkGNfniUJcdMuh0-LsFN_rEYz_JfjESoi0FNBvJn34YszCATInzGW40uSQOQTd_WFLfqPkVjXOl15y_Dep3KMXA42HUDsUccLjEDPMkG-VnUDVVb-iuL8rcEQ8mbMeZU75EiyH_8jWlDPQfQFlFGqgTKI7b0GX4HCvzlv1Y8hnc9d_XTHfhaE5tyPpfA-FY8yrqLb3IRJNxHBN0NfsIniFNe2Q7BbCAxQtwzcxEmf_C4UFBshCRDHb6_qba0KyiJa1VLLho6OQ_9Z9X-M5EdDXsSSr0h2_ir5Usuj1M9Wr",
+      "AZLasHoet3DMi1_OOC6AvfJZMOMEqUgdc_0KauphiisekeCL7-yNT0LlgXb7iwuSKtt4nOL-KdVKpTGUuuxCB8L8zYuykXJonQLhQoCSKMvFg3fsgPBOMPy3pktH9EvOpue359VfGJb8FbeM1hrPXoigNYg7ojRkkMA2xo3oaXRTk8A3PQ-sHx20BJByqDWR3mEjswhdGGlZ8JdHcCmzlIw0Vdv8uigOAeSBmPMgvSMJ59JWtigMTfdvSnBDqJQZywnmwg07FJkxU1ajKtfGLqu2KSXnk2Mz3AeMqy5edbcSqjT8YSZULCkifywaJINHAE6Y-JTzPF5FaBESdu3zolz7Ht6aCQhWALf4mAixqKqtSaVOaZzkwoMC0Q2QWYhzQwzU_-FB18DAAtEIzUmRi3abdIbo8J-F6WivW8xWA5L4EmnIDA-_u1UyDYIamSkcXw",
+      "AZLasHrJZOifL70iozejEvq0lcXm1iEJDWgxuThQn-nD_URt-PGllsNYkf972b9PYQkGp3IFUkNOHNTs4Ip9ORy92K8baCJ5bwFhTZIQU2jWb45-QaUD1SNIeLdHaB6ROIS9ZvxnxjeA25socf5hUMzpAKJ9H2Flvu2eDyobuCa2mEK3bKLBDxif2nfWo8o7oRcJ7J2vbbK5A6F5ubgk1vVrZq4HTRA9H7s6l9fPrlwWRVD7kgzYLmGhQySl5WTuMrVQlG08gp3a9ign7s7Pt7nB2_T5Nk7eyFgnroIQUGZ6gNftwS-87pe0O0QhzIBqpYBnNPX6uV6zWVM2ivRydgmjZcMDguGjChl2h2Jm5VppGPhDm-SAs4tyiVygo2rStUBFyuTtLnGtR0z0tukEobFZ8NqTnQbGQYcG1GMbhhc39jTgEdHB4e53cq8zkPA0sQ",
+      "AZLasHrjm8dgxdDRsrrd3CGQOPdKlOdkhc78aZ0E4VXXg_l-8xOM_qMT3TmuHDTsrRoLDx_DvBSjCBUCl5eDgzxdKnZOkmf3gYGw39dDNnlrpQR1eqt9_7sqdJ2sXvCtgIT7-KrzipXn2TBLLXWpEHfS4D_E77RjsY0dVOaC0uVKzczL-EAGiwpSBhmWcrDONteyjHquIIdQ9LACkgVuMIigAx1Bw5OVt9D0BrPYJnI3ic3RFN1_j_KmgLZOPRpfhOOlusQqRT1nHAvg0bByL3MoJD-18Favu2f2HI9a27kz7WA88Bx5HAcnDYv1wnsFZ-EqbMi56XG3vY7Mf9QpPmCh2eQILqQ26RMAiuvc2fw5-kGcb6VQifi9hGHZo-OmN5kbPxNdTTtiLkGKcfWZOJ6-ZPzE3Py02koz-sW32FdO731_Odsq",
+      "AZLasHqTsdJZcyhAGiLEPv76WEzxmhDeu7inc-LOQxjQwzx1tkwAAmeCr6vyTvu6Rwr-Sp-KxVmiTjMvW-zTdSRTt37t7efTMA_LT7mzbtj0jPlJYStKNTBehaf1qMw-IxHNAQtkGGhTNkxhw-vt9PObaEqCqNgsNq-7EMAFvgWEeMyXPuAlqZkCqD5baicqs5Zxm7kLbmdmWcgxa55srRBZTleudit4Wb2Q5VEBQVFPy0TS2j2S1heTRTrGj94qiyEmJTGgAw7bCOUXq_V9kIl3KUBMNS8Rgbk_zgA1s_45k4pqsu8mQjsd6QAnfeGiHXBr2dAiJde4ZbZwM7cdHgFVuNB-uW8kqC0Tv5jO5QQ-j9TzKxSK7mjf8n1Oo8Zmze4WhVSEs_ySpZBttLWlRPW53rTpUnYMr9vPAJh7kS6USAWgqjkpRlDaW62pxTFqIPL2",
+      "AZLasHrslnywn4AIoT-2hvSyBQck8Q61az2UpXHBdksNl8gMkOlbMNOj_es9U4PlBrnK79Qc5tl6eOxZ1TlmZ0qgnUhoIgH4NccaUOV3rK1Q17xQE8h0uChsoruZB0eF2ZrRbFkzCO2nw4Il2zORpVhXWzsx95azW_xM6lQbscUhq-aZi0e_DwPZjlDjfA1KdlGdf4MCy564NyJTvSr5rbYRyrqgtU8xZb_RpnWcJ19Ij2B42qI9zlyu1SublFi1kNenp_0TupGyKZ0R2DjAuNZ6cqano7QqErt-lveJT_ab0vhM7HTtYQxFqqhzvmbsUg6hrgL0jHg6EsLFcJivqtnqRqs_LlvVKG_AMAkcT-gzybHsn70TkmvT9p1d1SZZKBlxB3HMuby6OIliXAc8CGDmwQw4mf8_WLk-wghBIOYT5VCdTn2sye6oFUNMq1mYOsM5",
+      "AZLasHrXQA6cBuWfhpt_yDb1D5hwMcu2kJk5o6qiXVNeH0RNua6Ns4Ba0LUI2_Y-yr4-uFk5ydazKyF3LpbgFRs4LJookXT3SvZ3JALvICWIRjJmM4HgldydigPGTuOJmg3uHWdYgPjrhtMSurI7RWuAMIjDzdEGCBVcw-6kVDEO4lJfhY7w2e7VjCLA3I3C4uk9eilR4D8Cl05Q8hzNRCAy1ASTE3VuqfAr6InH6u6_dFfAuQRCcLNwh5F9Y6PwMTiMFNIa08KFAaxqBBUnnezUREki2GY_GHDmnE390BGsECFbhK8ktow4uWF5OUPNZMnWE3znV4zk-Zz7bt5SMtiReT4L8kwPD8pPA1vK2KwBTMVynW2XOAID9oE1HydbtGW6JWd8U35VWFX0IYK2xHOXfVqlHlCrMA-7riNgdovsP6B8-33lbqDJQ6HRiw00YEtL",
+      "AZLasHqsnI9018iHoonm7nUHh2LYdE0KVggwHTxHdmuN_RI7roZp2uFj2LfwxMlufYvRRWCqvRMQzcd9JUsjKZA3C3Jvs2tYuk1ACVjSBS9Cv6uqoSWU0vV4wIIZaX25ll-0k1xNqeO8JkUVZ-1C2Pc9oQG7g3VkP53u3-Oite0TIa0n6-sVhjiby500CByuDUOWx-rxX0wQhNqEgQz4vZNgDVIIYYemwjIfRGfM2nx2kZNDMszVYYIy_IXh8pl94UQ7vT2xbRjCPJKHhrvyZW6HHf7SadktXrbZmzzPK0LQwmijSdQdTdoTG1Bhm5UDrT7i7lhGt88AZ7D2Ep1-NlmkOt_Uih3-qoEIZTVLD1YQ5oLC_NoQoMnNiFEp4MI08ORYXYZN6lJqirZVROeobgocBGHU-x9QuqpCscdH31YLE9qge91KyyrQjSzVQAeWBg"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "07h30 – 01h00",
+    "display": "Tlj: 7h00 – 1h00",
+    "detailed": "lundi: 7:30 – 1h00\nmardi: 7:30 – 1h00\nmercredi: 7:30 – 1h00\njeudi: 7:30 – 1h00\nvendredi: 7:30 – 1h00\nsamedi: 7:30 – 1h00\ndimanche: 7:30 – 1h00",
+    "is_open_now": true
+  },
+  "description": "L'éternel rival du Flore, juste en face. Son nom vient des deux statues chinoises (les magots) qui trônent dans la salle et observent les clients depuis le XIXe siècle. Verlaine, Rimbaud et plus tard Hemingway y avaient leurs habitudes. La terrasse, orientée plein sud face à l'église Saint-Germain, est l'un des meilleurs spots de Paris pour observer le ballet des passants. L'ambiance y est peut-être un poil plus chic et traditionnelle que son voisin. Le chocolat chaud à l'ancienne y est tout aussi onctueux et riche.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Touristes littéraires, élégantes du quartier et fantômes de Sartre."
+    }
+  },
+  "real_talk": {
+    "text": "L'autre légende de Saint-Germain. Sartre et Beauvoir y refaisaient le monde, vous pouvez tenter aussi.",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Le grand rival du Flore. Terrasse ensoleillée face à l'église.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 12,
+    "value_score": 93,
+    "category_percentile": 7,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "dish_price": 29,
+    "source": "verified",
+    "main_dish_price": 29,
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 11198
+}

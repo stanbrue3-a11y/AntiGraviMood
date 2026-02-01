@@ -1,7 +1,10 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import * as Haptics from 'expo-haptics';
-import { useMomentsStore } from '../stores/useMomentsStore';
-import { usePlacesStore } from '../stores/usePlacesStore'; // Import Places Store
+// Moments logic handled via useMomentsStore
+import { Place } from '../types/model';
+import { useMomentsStore } from '../stores/momentsStore';
+import { useSearchStore } from '../stores/searchStore';
+import { usePlacesStore } from '../stores/placesStore';
 import { GLOBAL_MOMENTS, FRIENDS_MOMENTS } from '../data/mockMoments';
 
 export type FeedMode = 'global' | 'amis';
@@ -10,10 +13,10 @@ export const useFeedLogic = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [feedMode, setFeedMode] = useState<FeedMode>('global');
     const [isLoading, setIsLoading] = useState(true);
-    const { moments: localMoments } = useMomentsStore();
+    const localMoments = useMomentsStore(state => state.moments);
 
     // Get Filters and Place Data to cross-reference
-    const selectedDistricts = usePlacesStore(state => state.selectedDistricts);
+    const selectedDistricts = useSearchStore(state => state.selectedDistricts);
     const places = usePlacesStore(state => state.places);
 
     // No artificial loading delay for a snappier feel
@@ -21,22 +24,28 @@ export const useFeedLogic = () => {
         setIsLoading(false);
     }, []);
 
-    // Filter Logic
+    // Optimized Lookup Map 🗺️
+    const placesMap = useMemo(() => {
+        const map: Record<string, Place> = {};
+        places.forEach(p => { map[p.id] = p; });
+        return map;
+    }, [places]);
+
+    // Filter Logic - Now O(N) instead of O(N*M) ⚡️
     const filteredGlobalMoments = useMemo(() => {
         let result = [...localMoments, ...GLOBAL_MOMENTS];
 
         // Filter by District
         if (selectedDistricts && selectedDistricts.length > 0) {
             result = result.filter(moment => {
-                // Find place to get district
-                const place = places.find(p => p.id === moment.placeId);
-                if (!place) return true; // Keep if unknown to be safe (or remove?) - Safe: keep.
+                const place = placesMap[moment.placeId];
+                if (!place) return true;
 
                 return selectedDistricts.includes(place.location.arrondissement);
             });
         }
         return result;
-    }, [localMoments, selectedDistricts, places]);
+    }, [localMoments, selectedDistricts, placesMap]);
 
     // Merge strategy
     const allGlobalMoments = filteredGlobalMoments;

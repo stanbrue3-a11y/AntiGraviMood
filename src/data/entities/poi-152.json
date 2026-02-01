@@ -1,0 +1,143 @@
+{
+  "id": "poi-152",
+  "name": "Les Climats",
+  "slug": "les-climats",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8582,
+      "lng": 2.3243
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJpSSqgylu5kcRK-RJTRI5f34"
+  },
+  "category": "restaurant",
+  "subcategory": "gastronomique",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 386,
+    "moment_count": 12,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 4,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "smart_tip": "Le jardin extérieur est ouvert même en hiver avec des chauffages, l'ambiance y est féerique.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.lesclimats.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0hpx9neLbiIXGmN-uGBbmL64JvQVei9ZOklnPKKJoBpN0Gz3FzUZzgLZdAgZGyjWhGyaSbDtUqlG9wnCXjpttBwud9K-7Ynv-uTWuGjmlOVkDOA4vvjk5tsk4ATo1iRMu5aHvw-bi0fELKEBGjG2nhyUJ8Wf1Q5-gBQO0YdY5OrB5UaHEeVOF28z_WnmyAEq1hPB32Tcs4bjWJrfctT3rxPRNtxGe0li7kx-ieaz909U0wEc-FYmXwf_HP3XCe9f7BCuT3ILcI189Kxg3Ljhnm6JuxCNcbG0npeC3ityuYzQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lesclimatsparis",
+    "google_photos": [
+      "AcnlKN0hpx9neLbiIXGmN-uGBbmL64JvQVei9ZOklnPKKJoBpN0Gz3FzUZzgLZdAgZGyjWhGyaSbDtUqlG9wnCXjpttBwud9K-7Ynv-uTWuGjmlOVkDOA4vvjk5tsk4ATo1iRMu5aHvw-bi0fELKEBGjG2nhyUJ8Wf1Q5-gBQO0YdY5OrB5UaHEeVOF28z_WnmyAEq1hPB32Tcs4bjWJrfctT3rxPRNtxGe0li7kx-ieaz909U0wEc-FYmXwf_HP3XCe9f7BCuT3ILcI189Kxg3Ljhnm6JuxCNcbG0npeC3ityuYzQ",
+      "AcnlKN1CY6urQBAjZlS8jmcADbd38LUpuxFp8ZCOam88JCOr_dQsrVoWetG8t_xkm-2iLE6rqD5-UKupoeijj_mDiZOIvwrRnneG75oWPTYnggqBZ5nsp59_0k6-qSLkFFHGm4LmfDLiw7grKvUBXzBVWmPoQpx7FHQ379424OD5rKhWUYbwJCimUcjzxcG1NNMaWO4aMx6c0eus4a3wQdPi4CSG41W6fX_S-nphwU6dgIo0O0Li5WCkZYByz-697HNHXlTy2JFmMVdlzs2S9B2L43Gzxyk_7Oxvld51UVTI_2YkvA",
+      "AcnlKN0nh3QgAabE4mgorXUoei2muYPeL_lHoexLxjhJyArICHg4TpWg9oqloOQPVB1HvnLItzfrtZRBZscObA2uG4JInYJBrND0BbQ6h4zqSC_gbBF4UDei3pyerOZKKl-MTGuQ9QYRk-rB97_Tn2LlJFbqaXO7A85iVgcIUnxsNnAu6Np89hvQVJw-R1TFsQ_239U3nl8Dav49Qw8QcEfpMy2TvZOf3sxc0z7lAbCDsMTj0pL6CnTnUKGK2Lk1camF3Eou55qJAn360di-rLZuCd-K7j0b3g3nRRBOTbLh_hVmAWhIBMYLKCO2h7pzxChtJdLcZyzX7H-JjeLoxsE9fxtxsvL4VfabP2y9h8RTIlL3Z8thfTIcc2JVQazbyOcM333izghdvOwCCQxWQh_suycAZenXMhjTEhewmr9ujul08uo_",
+      "AcnlKN30P2io7KNCQQII2KLU7GMByXGwqaFGjB3U-jAziXyerSUCuzMxOikv6fwK6wMKaNP49qePY76yBmwdYWx-28WhPbitcslH4uQq_8lgbxVDPQXJyVAhVcsd45bFNzX37mroNw_7zjrRH4i8MQxId6E3XFmVaoClbbUjKnKLY8l4tHtfj_68_PY94yeoDw3ZX_X5ot5szAjeiIRqT03Hl5IF-OnzLJ9o69OW79WJkjEd0G-5RUm1bTlEsGfV4lM9-uOKstJGavIU7wbCJdYOfQad4Qj7-X2d5jszdutqek0Nc_Er0YtYURrlQkhHpSOgtfEXC6ltLCt8MFdsfKvGISvxvj0RVNunsXisdScdvJzh9QEHTe_p0FnPX7MT3FjHyCsO4HRGArkrnp7sVNCrW0KWI4tJdxDsRWE_oO7WM79L4_kG",
+      "AcnlKN1YwNDhV55uaQtdyqSsWKaeaXLJQ19unOfApaWJrK75VOz--IWY_yanTXiHGJkrh8cYsYQ39-nbxi16sBCdZQyDjcKIRU0fyUjoP4Dhuk8673w2mASQiBVOLLJSJlOXY15hoTAILjZzH8EatqTbqKwPSdulUgg_r6dvRIzJQUazXEa8md-EmG63uLlcFFtprO807wfKImepFBsO9KtRcNpa3n75akrs-VwccL7h6k2TOL1rg5r5RFaGqhIjp7xta0iriQupbiYCiaKavmDNCIKxybfg37QSK7NyJS348xBVx0m1AmNI2pwPjdppCzIVlAM7XNWsb1ELozi_g5dTd-eqjk4GX5cXv4ZltFHHU0QrbPC3C5ItTlFJiiTHJYqh1YDmkKeobdxWNykBAd05l4C7NZk9596HmeapRHcwWe8"
+    ]
+  },
+  "description": "Installé dans l'ancien hôtel des dames des Postes, ce restaurant au décor Art Nouveau somptueux (classé!) est dédié aux vins de Bourgogne. Le jardin intérieur est un éden secret, calme et luxuriant, loin du tumulte des quais de Seine. La cuisine est à la hauteur de la sélection de vins : précise, élégante et profondément enracinée dans le terroir français. Un lieu de célébration pour les sens, à quelques mètres du Musée d'Orsay.",
+  "real_talk": {
+    "text": "Gastronomie étoilée dans un décor de gare Art Déco. Cave à vins légendaire.",
+    "must_eat": "Menu dégustation",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Grandes tablées oenophiles, couples en quête de romantisme et amateurs de jardins cachés.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 66.5,
+    "value_score": 50,
+    "category_percentile": 50,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(38.0€) + avgDrink(28.5€)",
+    "main_dish_price": 38,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ACCORD VINS",
+        "items": [
+          {
+            "name": "Verre de Bourgogne",
+            "price": "12€"
+          },
+          {
+            "name": "Menu midi",
+            "price": "45€"
+          }
+        ]
+      },
+      {
+        "category": "CUISINE",
+        "items": [
+          {
+            "name": "Plat signature",
+            "price": "38€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 684,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

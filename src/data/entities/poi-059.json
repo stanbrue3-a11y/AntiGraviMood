@@ -1,0 +1,172 @@
+{
+  "id": "poi-059",
+  "name": "Le Mary Celeste",
+  "slug": "le-mary-celeste",
+  "location": {
+    "address": "1 Rue Commines",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8617412,
+      "lng": 2.3650124
+    },
+    "google_id": "ChIJh8xrJAdu5kcRa9A63MddGww",
+    "nearest_metro": "Filles du Calvaire",
+    "metro_line": [
+      8
+    ]
+  },
+  "category": "bar",
+  "subcategory": "bar-a-huîtres",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif",
+    "huîtres"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 344,
+    "moment_count": 21,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "huîtres"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "google_maps_url": "https://maps.google.com/?cid=872394065801039979",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Les Huîtres à 1€ (17h-19h) - Le meilleur plan du Marais",
+    "Horaires": "Ouvert tous les jours 12h30 – 01h00",
+    "Reservation required": false,
+    "Accord Parfait": "Huîtres fraîches & Cocktails pointus",
+    "L'Agencement": "Bar central hexagonal (On voit tout le monde, super social)",
+    "La Lumière": "Grandes baies vitrées d'angle (Ouvertes en été)",
+    "La Musique": "Hip Hop 90s (A Tribe Called Quest, De La Soul)",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Cocktails & Huîtres",
+    "ambiance_vibe": "Bar à huîtres branché",
+    "smart_tip": "Venez pour l'ouverture à 17h pour choper une place au bar central.",
+    "bouton_label": "Site du lieu",
+    "price_range": 2,
+    "website": "http://www.lemaryceleste.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqlVMglSivtYftFPj5oJYv_CeFBxDuYHzkq93dCK42iT7Oi5ay6GK0UKUEbo09zRnFbfubabpXBHYT3C07K2xmWk9AKIfweyFr7peQ3bVOxz2DCJfaooYUIXGNok1NnvqaHXf5AsAB5ybHfGvZOi3l16cMFWgPBMkG9vqUCIUd7ky_qGIQwCbCt5XL43hB9ElSxcSQ4SqrbDMSG3K8TaCAFZp87AtiBT0v88-fztSlY9ajF4kB7jpxbpR7IuGgG3PsiKEzj0ku5-yVhKzt7guKJpDUjbYrzT00TEBpDylKN-g"
+    ],
+    "instagram_handle": "@lemaryceleste"
+  },
+  "opening_hours": {
+    "standard": "12h30 – 01h00",
+    "display": "Tlj: 12h30 – 1h00",
+    "detailed": "lundi: 12:30 – 1:00\nmardi: 12:30 – 1:00\nmercredi: 12:30 – 1:00\njeudi: 12:30 – 1:00\nvendredi: 12:30 – 1:00\nsamedi: 12:30 – 1:00\ndimanche: 12:30 – 1:00",
+    "is_open_now": true
+  },
+  "description": "Nommé d'après un navire fantôme, ce bar à huîtres et cocktails du Haut-Marais est une institution. Avec son bar central hexagonal et ses grandes baies vitrées, c'est le spot parfait pour observer le quartier tout en dégustant des huîtres à 1€ lors de l'happy hour.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs d'huîtres, buveurs de cocktails et habitués cosmopolites."
+    }
+  },
+  "real_talk": {
+    "text": "Le bar à huîtres et cocktails le plus cool du Marais. Fruits de mer ultra-frais, ambiance maritime urbaine et bar central magnétique.",
+    "must_eat": "Le 'Tac-o-No-More' et les huîtres du moment.",
+    "le_secret": "L'Happy Hour huîtres à 1€ est l'un des secrets les mieux gardés pour commencer la soirée tôt.",
+    "le_son": "Hip Hop 90s & Funk. Ambiance sonore calibrée pour vibrer sans hurler.",
+    "le_must": "Le bar hexagonal central : c'est ici que l'âme du lieu se trouve."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 30,
+    "value_score": 88,
+    "category_percentile": 75,
+    "is_free": false,
+    "unit": "Oysters & Cocktails",
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 14,
+      "label": "Cocktail Création",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "source": "verified",
+    "cocktail_price": 14,
+    "verification": {
+      "verified_at": "2025-01-25T18:35:00Z",
+      "source_url": "https://www.lemaryceleste.com/"
+    },
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Cocktails Création",
+            "price": "14€"
+          },
+          {
+            "name": "Cocktail Signature ECC",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "IODÉ",
+        "items": [
+          {
+            "name": "Huîtres (Pièce)",
+            "price": "2-4€"
+          },
+          {
+            "name": "Small Plates (Asiatique/Fusion)",
+            "price": "8-16€"
+          }
+        ]
+      },
+      {
+        "category": "HAPPY HOUR",
+        "items": [
+          {
+            "name": "Huître (17h-19h)",
+            "price": "1€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 1506
+}
