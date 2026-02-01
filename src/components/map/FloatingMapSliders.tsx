@@ -17,6 +17,7 @@ import Animated, {
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import * as Haptics from 'expo-haptics';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useTheme } from '../../design';
 import { useSearchStore } from '../../stores/searchStore';
 
 const { height: SCREEN_HEIGHT } = Dimensions.get('window');
@@ -64,6 +65,7 @@ interface SlimSliderProps {
 }
 
 const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onChange, color, icon, unit = '€', height, storeKey }) => {
+    const { theme, isDark } = useTheme();
     const progress = useSharedValue((initialValue - min) / (max - min));
     const isPressed = useSharedValue(false);
     const uiSteppedValue = useSharedValue(initialValue); // UI Thread Truth for logic
@@ -200,11 +202,10 @@ const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onCh
             <View style={[styles.sliderWrapper, { height }]}>
                 <Animated.View style={[styles.tooltip, tooltipStyle]} pointerEvents="none">
                     <View style={[styles.badge, { backgroundColor: color }]}>
-                        {/* REANIMATED TEXT INPUT HACK - Zero JS Render Lag */}
                         <AnimatedTextInput
                             underlineColorAndroid="transparent"
                             editable={false}
-                            value={`${initialValue.toFixed(1)}${unit}`} // Initial Value for hydration
+                            value={`${initialValue.toFixed(1)}${unit}`}
                             style={[styles.badgeText]}
                             animatedProps={animatedTextProps}
                         />
@@ -213,16 +214,16 @@ const StealthSlider: React.FC<SlimSliderProps> = ({ min, max, initialValue, onCh
 
                 <GestureDetector gesture={pan}>
                     <View style={[styles.trackTouchable, { height }]}>
-                        <View style={[styles.trackBase, { height }]}>
-                            <BlurView intensity={30} tint="light" style={StyleSheet.absoluteFill} />
+                        <View style={[styles.trackBase, { height, backgroundColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)', borderColor: isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)' }]}>
+                            <BlurView intensity={isDark ? 50 : 30} tint={isDark ? "dark" : "light"} style={StyleSheet.absoluteFill} />
                             <Animated.View style={fillStyle} />
                         </View>
-                        <Animated.View style={[styles.thumb, thumbStyle]} />
+                        <Animated.View style={[styles.thumb, thumbStyle, { backgroundColor: theme.surface, borderColor: theme.surface }]} />
                     </View>
                 </GestureDetector>
             </View>
 
-            <View style={[styles.iconCircle, { borderColor: color + '40' }]}>
+            <View style={[styles.iconCircle, { borderColor: color + '40', backgroundColor: theme.surface }]}>
                 <Ionicons name={icon} size={20} color={color} />
             </View>
         </View>

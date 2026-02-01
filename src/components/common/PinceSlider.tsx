@@ -20,6 +20,7 @@ import Animated, {
 import { Gesture, GestureDetector, GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as Haptics from 'expo-haptics';
 import Svg, { Path } from 'react-native-svg';
+import { useTheme } from '../../design';
 import { CrabIcon } from './PriceIcons';
 import { getPinceLabel } from '../../data/parisPriceReference';
 
@@ -64,6 +65,7 @@ export const PinceSlider: React.FC<PinceSliderProps> = ({
     value,
     onChange,
 }) => {
+    const { theme, isDark } = useTheme();
     const MIN = -100;
     const MAX = 100;
 
@@ -108,7 +110,7 @@ export const PinceSlider: React.FC<PinceSliderProps> = ({
     useAnimatedReaction(
         () => Math.round(progress.value * (MAX - MIN) + MIN),
         (current, previous) => {
-            if (current !== previous) {
+            if (current !== previous && isPressed.value) {
                 runOnJS(onChange)(current);
             }
         }
@@ -157,6 +159,10 @@ export const PinceSlider: React.FC<PinceSliderProps> = ({
         return MOOD_COLORS.culturel;
     }, [safeValue]);
 
+    const trackColor = isDark ? 'rgba(255,255,255,0.05)' : '#F3F4F6';
+    const innerTrackColor = isDark ? '#1F2937' : '#E8EAED';
+    const markerColor = isDark ? '#374151' : '#C9CDD3';
+
     return (
         <GestureHandlerRootView style={styles.container}>
             {/* Header */}
@@ -178,14 +184,14 @@ export const PinceSlider: React.FC<PinceSliderProps> = ({
                 ))}
 
                 <View style={[styles.moyenneMarker, { left: zeroPosition + 12 }]}>
-                    <View style={styles.moyenneLine} />
+                    <View style={[styles.moyenneLine, { backgroundColor: markerColor }]} />
                     <View style={styles.moyenneLabelWrapper}>
                         <Text style={styles.moyenneLabel}>Moyenne</Text>
                     </View>
                 </View>
 
-                <View style={styles.outerTrack}>
-                    <View style={styles.innerTrack}>
+                <View style={[styles.outerTrack, { backgroundColor: trackColor }]}>
+                    <View style={[styles.innerTrack, { backgroundColor: innerTrackColor }]}>
                         <Animated.View style={[styles.fill, fillStyle]} />
                     </View>
                 </View>

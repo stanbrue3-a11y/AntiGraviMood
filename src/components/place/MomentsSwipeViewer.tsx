@@ -51,7 +51,7 @@ const MomentCard = React.memo(({ moment, animatedStyle, isBackground = false }: 
         <Animated.View style={[styles.cardContainer, animatedStyle]}>
             <View style={{ flex: 1, overflow: 'hidden', borderRadius: 0 }}>
                 <AnimatedExpoImage
-                    source={{ uri: moment.imageUri }}
+                    source={moment.imageUri}
                     style={[styles.cardImage]}
                     contentFit="cover"
                     cachePolicy="memory-disk"
@@ -213,7 +213,7 @@ const GalleryPager = ({ moments, initialIndex, onClose, origin }: { moments: Mom
             {origin && activeMoment && (
                 <Animated.View style={sharedElementStyle} pointerEvents="none">
                     <Image
-                        source={{ uri: activeMoment.imageUri }}
+                        source={activeMoment.imageUri}
                         style={{ width: '100%', height: '100%' }}
                         contentFit="cover"
                     />

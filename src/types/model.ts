@@ -171,46 +171,28 @@ export interface Place {
     pricing?: Pricing;
     real_talk?: RealTalk;
     practical_info: {
-        reservation_required: boolean;
-        wifi_available?: boolean;
-        outdoor_seating: boolean;
-        terrasse?: boolean;
+        primary_status: 'sans_resa' | 'resa_conseillee' | 'resa_obligatoire' | null;
+        tags: string[];
+        main_action: {
+            type: 'book' | 'shotgun' | 'site';
+            url: string;
+            label: string;
+        } | null;
         accessibility: boolean;
+        wifi_available: boolean;
+        opening_hours: string;
+        price_range: number;
         happy_hour?: string | {
             start: string;
             end: string;
             price: string;
         };
-        music_vibe?: string;
-        signature_drink?: { name: string; price: string };
-        spot_type?: string;
         must_eat?: string;
-        average_bill?: string;
+        signature_drink?: string | { name: string; price: string };
         ambiance_vibe?: string;
-        booking_policy?: string;
-        laptop_policy?: string;
         specialty?: string;
-        power_outlets?: string;
-        noise_level?: string;
-        door_policy?: string;
+        smart_tip?: string;
         entry_fee?: string;
-        smoking_area?: string;
-        music_genre?: string;
-        website?: string;
-        phone?: string;
-        booking_url?: string;
-        shotgun_url?: string;
-        price_info?: {
-            average_price: number;
-            currency: string;
-            price_range: number;
-            sociology_factor?: number;
-            smart_tip?: string;
-            items?: Array<{
-                category: string;
-                items: Array<{ name: string; price: string }>;
-            }>;
-        };
     };
     opening_hours?: {
         standard: string;

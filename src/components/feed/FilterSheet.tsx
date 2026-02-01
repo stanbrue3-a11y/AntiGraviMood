@@ -12,13 +12,15 @@ import {
     UIManager
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useTheme } from '../../design';
 import { PinceSlider } from '../common/PinceSlider';
 import { TimeWheelPicker } from '../ui/TimeWheelPicker';
 import { ParisMapSelector } from '../ui/ParisMapSelector';
 import { usePlacesStore } from '../../stores/placesStore';
 import { useSearchStore, selectFilteredResults, PLACE_CATEGORIES } from '../../stores/searchStore';
 import { getCurrentPrice, getPriceDistributions } from '../../lib/priceUtils';
-import { TriplePriceSection } from '../common/TriplePriceSection';
+import { OpeningHoursSection } from '../place/OpeningHoursSection';
+import { isOpenDuring } from '../../lib/timeUtils';
 
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
@@ -80,12 +82,14 @@ const toggleLocalCategory = (cats: string[], cat: string) => {
 
 // MEMOIZED CATEGORY ITEM with SHARP SPLIT
 const CategoryItem = React.memo(({
-    catKey, label, isSelected, onToggle
+    catKey, label, isSelected, onToggle, theme, border
 }: {
     catKey: string,
     label: string,
     isSelected: boolean,
-    onToggle: (k: string) => void
+    onToggle: (k: string) => void,
+    theme: any,
+    border: string
 }) => {
     const styleConfig = CATEGORY_STYLE[catKey] || { primary: '#9CA3AF', icon: 'ellipse' };
     const scale = useSharedValue(1);
@@ -145,7 +149,7 @@ const CategoryItem = React.memo(({
         >
             <Animated.View style={[
                 styles.catItem,
-                isSelected ? styles.catItemActive : styles.catItemInactive,
+                isSelected ? styles.catItemActive : [styles.catItemInactive, { backgroundColor: theme.surface, borderColor: border }],
                 animatedStyle
             ]}>
                 {backgroundElement}
@@ -212,6 +216,7 @@ const RollingCounter = ({ value }: { value: number }) => {
 
 export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     const insets = useSafeAreaInsets();
+    const { theme, isDark } = useTheme();
 
     // 1. Places Store
     const places = usePlacesStore(state => state.places);
@@ -223,7 +228,9 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         filterOpenNowGlobal, setFilterOpenNowGlobal,
         selectedMoodsGlobal, setSelectedMoodsGlobal,
         selectedCategoriesGlobal,
-        searchQuery
+        searchQuery,
+        pinceMaxPercentGlobal,
+        setMaxPriceGlobal
     } = useSearchStore(useShallow(state => ({
         selectedDistrictsGlobal: state.selectedDistricts,
         setSelectedDistrictsGlobal: state.setSelectedDistricts,
@@ -234,8 +241,12 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         selectedMoodsGlobal: state.selectedMoods,
         setSelectedMoodsGlobal: state.setSelectedMoods,
         selectedCategoriesGlobal: state.selectedCategories,
-        searchQuery: state.searchQuery
+        searchQuery: state.searchQuery,
+        pinceMaxPercentGlobal: state.pinceMaxPercent,
+        setMaxPriceGlobal: state.setMaxPrice
     })));
+
+    // Re-fix: ensure we have setPinceMaxPercent in store if we use it
 
     // LOCAL STATE (Draft Mode)
     // const [localCategories, setLocalCategories] = useState<string[]>([]); // REMOVED
@@ -243,8 +254,6 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     const [localDistricts, setLocalDistricts] = useState<number[]>([]);
     const [localTime, setLocalTime] = useState<{ start: number; end: number }>({ start: 18, end: 26 });
     const [openNowOnly, setOpenNowOnly] = useState(false);
-
-    // Safe Toggle for Time
     const [isTimeEnabled, setIsTimeEnabled] = useState(false);
 
     // Sync from Store when visible opens
@@ -307,13 +316,33 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     useEffect(() => {
         // Debounce/Defer calculation to unblock UI thread immediate response
         const timeoutId = setTimeout(() => {
-            // SV-Refactor: Use the domain-specific selector logic
-            const filtered = selectFilteredResults(places);
+            // SV-Refactor: Use the domain-specific selector logic WITH LOCAL OVERRIDES
+            // This ensures the "Voir X résultats" button reflects what the user sees in the sheet
+            const filtered = places.filter(p => {
+                // 1. Local Moods
+                if (localMoods.length > 0 && !localMoods.includes(p.dominant_mood as any)) return false;
+
+                // 2. Global Categories (Categories are not edited in the sheet currently)
+                if (selectedCategoriesGlobal.length > 0 && !selectedCategoriesGlobal.includes(p.category)) return false;
+
+                // 3. Local Districts
+                if (localDistricts.length > 0 && !localDistricts.includes(p.location.arrondissement)) return false;
+
+                // 4. Local Price (REMOVED LEGACY BUDGET SLIDER)
+
+                // 5. Local Time
+                if (isTimeEnabled && !isOpenDuring(p, localTime)) return false;
+
+                // 6. Open Now
+                if (openNowOnly && p.opening_hours && !p.opening_hours.is_open_now) return false;
+
+                return true;
+            });
             setResultsCount(filtered.length);
         }, 32);
 
         return () => clearTimeout(timeoutId);
-    }, [places, localMoods, localDistricts, localTime, openNowOnly, isTimeEnabled, searchQuery, selectedCategoriesGlobal]);
+    }, [places, localMoods, localDistricts, localTime, openNowOnly, isTimeEnabled, selectedCategoriesGlobal]);
 
     const handleApply = () => {
         Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
@@ -322,8 +351,6 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
         setTimeRangeGlobal(isTimeEnabled ? localTime : null);
         setSelectedDistrictsGlobal(localDistricts);
         setFilterOpenNowGlobal(openNowOnly);
-
-        // Commit Moods
         setSelectedMoodsGlobal(localMoods as any);
 
         onClose();
@@ -353,15 +380,15 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
             presentationStyle="pageSheet"
             onRequestClose={onClose}
         >
-            <View style={styles.container}>
+            <View style={[styles.container, { backgroundColor: theme.background }]}>
                 {/* Grabber Handle for better UX */}
                 <View style={styles.grabberContainer}>
-                    <View style={styles.grabber} />
+                    <View style={[styles.grabber, { backgroundColor: isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)' }]} />
                 </View>
 
                 {/* Header */}
                 <View style={styles.header}>
-                    <Text style={styles.title}>Filtres</Text>
+                    <Text style={[styles.title, { color: theme.text.primary }]}>Filtres</Text>
                     <View style={styles.headerActions}>
                         {activeFiltersCount > 0 && (
                             <TouchableOpacity onPress={handleResetAll} hitSlop={10} style={styles.resetButton}>
@@ -427,6 +454,10 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
 
                     <View style={styles.divider} />
 
+                    <View style={styles.divider} />
+
+                    {/* 2. MOODS (VIBE) */}
+
                     {/* 2. MOODS (VIBE) */}
                     <View style={styles.section}>
                         <View style={styles.headerWithAccent}>
@@ -450,17 +481,17 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
                                             flex: 1,
                                             height: 48,
                                             borderRadius: 24,
-                                            backgroundColor: isSelected ? color : '#F3F4F6',
+                                            backgroundColor: isSelected ? color : (isDark ? 'rgba(255,255,255,0.05)' : '#F3F4F6'),
                                             alignItems: 'center',
                                             justifyContent: 'center',
                                             borderWidth: 1,
-                                            borderColor: isSelected ? color : 'transparent'
+                                            borderColor: isSelected ? color : (isDark ? 'rgba(255,255,255,0.1)' : 'transparent')
                                         }}
                                     >
                                         <Text style={{
                                             fontWeight: '700',
                                             fontSize: 14,
-                                            color: isSelected ? '#fff' : '#374151',
+                                            color: isSelected ? '#fff' : (isDark ? 'rgba(255,255,255,0.6)' : '#374151'),
                                             fontFamily: 'PlayfairDisplay-Bold'
                                         }}>
                                             {label}
@@ -515,7 +546,7 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
                         </Pressable>
 
                         {isTimeEnabled && (
-                            <Animated.View style={styles.timeWheelRow}>
+                            <Animated.View style={[styles.timeWheelRow, { backgroundColor: theme.surface }]}>
                                 <View style={styles.timeColumn}>
                                     <Text style={styles.timeLabel}>Début</Text>
                                     <TimeWheelPicker
@@ -561,7 +592,10 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
                             </Text>
                         </View>
 
-                        <View style={styles.mapWrapper}>
+                        <View style={[styles.mapWrapper, {
+                            backgroundColor: theme.surface,
+                            borderColor: isDark ? theme.border : '#E5E7EB'
+                        }]}>
                             <ParisMapSelector
                                 selectedDistricts={localDistricts}
                                 onToggle={handleDistrictToggle}
@@ -588,7 +622,6 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
     },
     header: {
         flexDirection: 'row',
@@ -736,9 +769,7 @@ const styles = StyleSheet.create({
         borderRadius: 16,
     },
     catItemInactive: {
-        backgroundColor: '#fff', // White background
         borderWidth: 1.5, // Thicker border for contrast
-        borderColor: '#E5E7EB', // Slightly darker border
     },
     catItemActive: {
         borderWidth: 0,
@@ -773,8 +804,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         gap: 20,
-        backgroundColor: '#fff',
-        // Optional border/container
     },
     timeColumn: {
         alignItems: 'center',
@@ -792,11 +821,9 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
     },
     timeSliderContainer: {
-        backgroundColor: '#fff',
         borderRadius: 16,
         padding: 16,
         borderWidth: 1,
-        borderColor: '#E5E7EB',
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.05,
@@ -805,11 +832,9 @@ const styles = StyleSheet.create({
     },
     mapWrapper: {
         marginTop: 20,
-        backgroundColor: '#fff',
         borderRadius: 20,
         padding: 10,
         borderWidth: 1,
-        borderColor: '#E5E7EB',
         // Slight shadow lift
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 4 },
@@ -824,9 +849,7 @@ const styles = StyleSheet.create({
         right: 0,
         paddingHorizontal: 24,
         paddingTop: 20,
-        backgroundColor: '#fff',
         borderTopWidth: 1,
-        borderTopColor: '#F3F4F6',
     },
     applyButton: {
         backgroundColor: '#111827',

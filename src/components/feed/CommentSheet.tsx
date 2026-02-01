@@ -89,7 +89,7 @@ export const CommentSheet = React.forwardRef<BottomSheet, CommentSheetProps>(({ 
                     keyExtractor={item => item.id}
                     renderItem={({ item }) => (
                         <View style={styles.commentRow}>
-                            <Image source={{ uri: item.avatar }} style={styles.avatar} />
+                            <Image source={item.avatar} style={styles.avatar} />
                             <View style={styles.bubble}>
                                 <View style={styles.bubbleHeader}>
                                     <Text style={styles.username}>{item.username}</Text>
@@ -110,7 +110,7 @@ export const CommentSheet = React.forwardRef<BottomSheet, CommentSheetProps>(({ 
                     keyboardVerticalOffset={Platform.OS === 'ios' ? 10 : 0}
                     style={styles.inputContainer}
                 >
-                    <Image source={{ uri: user?.avatar }} style={styles.inputAvatar} />
+                    <Image source={user?.avatar} style={styles.inputAvatar} />
                     <BottomSheetTextInput
                         style={styles.input}
                         placeholder="Ajouter un commentaire..."

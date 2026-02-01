@@ -176,7 +176,7 @@ export const MomentItem = ({ item, isActive, isFullScreen = true, onCommentPress
                 onPress={handleSmartTap}
             >
                 <Image
-                    source={{ uri: item.imageUri }}
+                    source={item.imageUri}
                     style={styles.image}
                     contentFit="cover"
                     transition={300}

@@ -51,24 +51,26 @@ export default function MapScreen() {
         selectedCategories,
         selectedMoods,
         selectedDistricts,
+        maxPrice,
         pintLimit,
+        dishLimit,
         coffeeLimit,
-        dishLimit
     } = useSearchStore(useShallow(state => ({
         searchQuery: state.searchQuery,
         selectedCategories: state.selectedCategories,
         selectedMoods: state.selectedMoods,
         selectedDistricts: state.selectedDistricts,
+        maxPrice: state.maxPrice,
         pintLimit: state.pintLimit,
+        dishLimit: state.dishLimit,
         coffeeLimit: state.coffeeLimit,
-        dishLimit: state.dishLimit
     })));
 
     // 2b. We do ALL filtering in JS for reliability and consistency with components.
     // The GPU only handles the final delivery.
     const places = useMemo(() => {
         return selectFilteredResults(rawPlaces);
-    }, [rawPlaces, searchQuery, selectedCategories, selectedMoods, selectedDistricts, pintLimit, coffeeLimit, dishLimit]);
+    }, [rawPlaces, searchQuery, selectedCategories, selectedMoods, selectedDistricts, maxPrice, pintLimit, dishLimit, coffeeLimit]);
 
     // 3. UI Store (Interactions)
     const {
@@ -190,7 +192,10 @@ export default function MapScreen() {
             <Mapbox.MapView
                 ref={mapRef}
                 style={styles.map}
-                styleURL="mapbox://styles/stanthemans/cmkn3jdva007y01qzaryxax7k"
+                styleURL={isDark
+                    ? "mapbox://styles/stanthemans/cmkn3jdva007y01qzaryxax7k"
+                    : "mapbox://styles/stanthemans/cml3tpi82009c01r4c18r83yz"
+                }
                 scrollEnabled={true}
                 pitchEnabled={true}
                 rotateEnabled={true}

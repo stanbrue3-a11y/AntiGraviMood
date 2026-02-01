@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { useTheme } from '../../design';
 import { Place } from '../../types/model';
 
 interface MagazineCardProps {
@@ -12,6 +13,7 @@ interface MagazineCardProps {
  * Implements the exact mockup with the orange left-border curve and premium typography.
  */
 export const MagazineCard = React.memo(({ place, primaryColor }: MagazineCardProps) => {
+    const { theme } = useTheme();
     // Determine the secondary accent (mockup uses a specific peach/orange)
     const accentColor = '#FFAB60';
 
@@ -27,7 +29,7 @@ export const MagazineCard = React.memo(({ place, primaryColor }: MagazineCardPro
     if (items.length === 0) return null;
 
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, { backgroundColor: theme.surface, borderColor: theme.border }]}>
             {/* Orange Left Indicator Curve */}
             <View style={[styles.borderIndicator, { backgroundColor: accentColor }]} />
 
@@ -39,7 +41,7 @@ export const MagazineCard = React.memo(({ place, primaryColor }: MagazineCardPro
                     {items.map((item, index) => (
                         <View key={index} style={styles.listItem}>
                             <View style={[styles.bullet, { backgroundColor: accentColor }]} />
-                            <Text style={styles.listText}>{item}</Text>
+                            <Text style={[styles.listText, { color: theme.text.secondary }]}>{item}</Text>
                         </View>
                     ))}
                 </View>
@@ -50,13 +52,11 @@ export const MagazineCard = React.memo(({ place, primaryColor }: MagazineCardPro
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'rgba(255,255,255,0.03)', // DARK MODE: DISCRETE
         borderRadius: 20,
         paddingLeft: 0,
         overflow: 'hidden',
         marginVertical: 16,
         borderWidth: 1,
-        borderColor: 'rgba(255,255,255,0.05)',
     },
     borderIndicator: {
         position: 'absolute',
@@ -108,7 +108,6 @@ const styles = StyleSheet.create({
         flex: 1,
         fontFamily: 'Inter_500Medium',
         fontSize: 14, // DISCRETE
-        color: 'rgba(255,255,255,0.7)', // DARK MODE
         lineHeight: 20,
     },
 });

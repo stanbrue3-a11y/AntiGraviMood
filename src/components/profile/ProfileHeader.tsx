@@ -38,7 +38,7 @@ export function ProfileHeader({ user, stats, onSettingsPress, onEditPress }: Pro
                     >
                         <View style={[styles.avatarBorder, { backgroundColor: theme.background }]}>
                             <Image
-                                source={{ uri: user?.avatar ?? 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400' }}
+                                source={user?.avatar ?? 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400'}
                                 style={styles.avatar}
                             />
                         </View>

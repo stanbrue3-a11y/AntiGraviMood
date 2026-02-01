@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { useTheme } from '../../design';
 import { StarRating } from '../common/StarRating';
 import { Place } from '../../types/model';
 import { MoodType } from '../../design';
@@ -15,14 +16,15 @@ interface PlaceMetaHeaderProps {
  * Reusable component for the top info row.
  */
 export const PlaceMetaHeader = React.memo(({ place, primaryColor, dominantMood }: PlaceMetaHeaderProps) => {
+    const { theme } = useTheme();
     return (
         <View style={styles.metaRow}>
-            <View style={styles.moodBadge}>
+            <View style={[styles.moodBadge, { backgroundColor: theme.surface }]}>
                 <Text style={[styles.moodText, { color: primaryColor }]}>{dominantMood.toUpperCase()}</Text>
             </View>
 
             <Text
-                style={[styles.categoryPath, { color: primaryColor }]}
+                style={[styles.categoryPath, { color: theme.text.primary }]}
                 numberOfLines={1}
                 adjustsFontSizeToFit
                 minimumFontScale={0.8}
@@ -54,7 +56,8 @@ const styles = StyleSheet.create({
         paddingHorizontal: 8,
         paddingVertical: 5,
         borderRadius: 8,
-        backgroundColor: 'rgba(255,255,255,0.06)',
+        borderWidth: 1,
+        borderColor: 'rgba(255,255,255,0.05)',
     },
     moodText: {
         fontSize: 12,
@@ -64,8 +67,6 @@ const styles = StyleSheet.create({
     categoryPath: {
         flexShrink: 1,
         fontSize: 17,
-        color: '#FFF',
-        opacity: 0.9,
         fontWeight: '700',
         fontFamily: 'Inter_700Bold',
         marginRight: 6,
