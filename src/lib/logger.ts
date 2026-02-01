@@ -42,7 +42,7 @@ export const logger = {
      */
     trackEvent: (event: string, properties?: Record<string, any>) => {
         if (isDev) {
-            console.log('📈 [Telemetry]', event, properties);
+            console.info('📈 [Telemetry]', event, properties);
         } else {
             // Remote Telemetry (e.g. PostHog/Amplitude hook)
             // analytics.track(event, properties);

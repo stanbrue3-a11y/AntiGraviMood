@@ -10,7 +10,7 @@ import Svg, { Rect, Defs, LinearGradient, Stop } from 'react-native-svg';
 import pricingConfig from '../../data/pricing_config.json';
 import { isTimeInRange } from '../../lib/timeUtils';
 import { CrabCalculator } from '../../lib/CrabCalculator';
-
+import { logger } from '../../lib/logger';
 const AnimatedRect = Animated.createAnimatedComponent(Rect);
 const { width, height } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.92;
@@ -262,6 +262,7 @@ export const InteractivePriceGauge = ({
 
     const handleOpen = () => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+        logger.trackEvent('price_gauge_opened', { placeType, pricing: pricing?.budget_avg });
         setModalVisible(true);
     };
 

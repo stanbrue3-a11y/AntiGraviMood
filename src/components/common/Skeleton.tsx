@@ -53,6 +53,6 @@ export const Skeleton = ({
 
 const styles = StyleSheet.create({
     skeleton: {
-        backgroundColor: '#E5E7EB', // Light gray standard
+        backgroundColor: 'rgba(255,255,255,0.05)', // Dark Mode: Discrete Glassy
     },
 });

@@ -1,6 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { Image } from 'expo-image';
+import Animated, { FadeIn } from 'react-native-reanimated';
+
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { ImageCarousel } from '../common/ImageCarousel';
 import { Place } from '../../types/model';
 import { getPlaceImages } from '../../lib/placeUtils';
@@ -14,19 +18,40 @@ interface PlaceHeroProps {
     onLike: () => void;
     isLiked: boolean;
     primaryColor: string;
+    isReady: boolean;
 }
 
-export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked, primaryColor }: PlaceHeroProps) => {
+export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked, primaryColor, isReady }: PlaceHeroProps) => {
+    const images = getPlaceImages(place);
+    const firstImage = images[0];
+
     return (
         <View style={styles.heroContainer}>
-            <ImageCarousel images={getPlaceImages(place)} height={320} />
+            {/* 🎞️ ATOMIC HERO HANDOFF: Backdrop is CONSTANT, Carousel is OVERLAID when settled */}
+            {/* 🎞️ ATOMIC HERO HANDOFF: Pixel-perfect overlay */}
+            <View style={{ width: '100%', height: 320, backgroundColor: '#1C1C1E' }}>
+                {firstImage ? (
+                    <Image
+                        source={firstImage}
+                        style={StyleSheet.absoluteFill}
+                        contentFit="cover"
+                        transition={null}
+                    />
+                ) : (
+                    <View style={[StyleSheet.absoluteFill, { backgroundColor: '#1C1C1E' }]} />
+                )}
 
-            {/* Top Action Gradient */}
-            <LinearGradient
-                colors={['rgba(0,0,0,0.5)', 'transparent']}
-                style={styles.topGradient}
-                pointerEvents="none"
-            />
+                {isReady && images.length > 0 && (
+                    <Animated.View
+                        entering={FadeIn.duration(400)}
+                        style={StyleSheet.absoluteFill}
+                    >
+                        <ImageCarousel images={images} height={320} />
+                    </Animated.View>
+                )}
+            </View>
+
+            {/* Bottom Content Gradient */}
 
             {/* Bottom Content Gradient */}
             <LinearGradient
@@ -38,15 +63,33 @@ export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked,
 
             {/* Top Actions */}
             <View style={styles.topActions}>
-                <TouchableOpacity style={styles.iconCircle} onPress={onClose}>
+                <TouchableOpacity
+                    style={styles.iconCircle}
+                    onPress={() => {
+                        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                        onClose();
+                    }}
+                >
                     <Ionicons name="chevron-down" size={24} color="#FFF" />
                 </TouchableOpacity>
 
                 <View style={styles.rightActions}>
-                    <TouchableOpacity style={styles.iconCircle} onPress={onShare}>
+                    <TouchableOpacity
+                        style={styles.iconCircle}
+                        onPress={() => {
+                            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                            onShare();
+                        }}
+                    >
                         <Ionicons name="share-outline" size={22} color="#FFF" />
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.iconCircle} onPress={onLike}>
+                    <TouchableOpacity
+                        style={styles.iconCircle}
+                        onPress={() => {
+                            Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+                            onLike();
+                        }}
+                    >
                         <Ionicons name={isLiked ? "heart" : "heart-outline"} size={22} color={isLiked ? primaryColor : "#FFF"} />
                     </TouchableOpacity>
                 </View>
@@ -87,7 +130,7 @@ const styles = StyleSheet.create({
     },
     topActions: {
         position: 'absolute',
-        top: 16,
+        top: 20, // Lowered slightly
         left: 16,
         right: 16,
         flexDirection: 'row',
@@ -102,7 +145,7 @@ const styles = StyleSheet.create({
         width: 44,
         height: 44,
         borderRadius: 22,
-        backgroundColor: 'rgba(255,255,255,0.15)',
+        backgroundColor: 'rgba(0,0,0,0.2)', // Slightly darker for visibility without bar
         alignItems: 'center',
         justifyContent: 'center',
     },
