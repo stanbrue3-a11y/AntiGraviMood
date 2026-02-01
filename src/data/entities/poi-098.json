@@ -1,0 +1,151 @@
+{
+  "id": "poi-098",
+  "name": "Combat",
+  "slug": "combat",
+  "location": {
+    "address": "63 Rue de Belleville",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8735287,
+      "lng": 2.3822625
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJj9S9Kt1t5kcRjko_lN3XvKE"
+  },
+  "category": "bar",
+  "subcategory": "mixology",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 10,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Craft",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "22€ environ",
+      "display": "Tlj: 6:00 PM – 2:00 AM",
+      "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vin nature au verre, bières locales",
+    "ambiance_vibe": "Cave à vin chaleureuse, bougies et bois brut",
+    "smart_tip": "Leur playlist soul est parfaite pour un apéro détente.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "Le bar de mixology de Belleville. Solaire, féminin, décomplexé. Une terrasse sur la rue de Belleville et des cocktails très frais.",
+    "must_eat": "Petits plats du marché à partager",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Combat, c'est l'essence de Belleville distillée dans un cocktail bar. Fondé par un collectif de femmes talentueuses issues des meilleures adresses parisiennes, le lieu tourne le dos aux speakeasies sombres pour offrir une salle lumineuse, minimaliste et végétale. On y vient pour une mixology de haut vol, sans snobisme, avec une carte qui fait la part belle aux agrumes, à l'amertume et aux produits de saison. L'ambiance y est celle d'un vrai bar de quartier où l'on se sent bien pour l'apéro sur le trottoir comme pour une soirée qui s'éternise à l'intérieur.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3wBzJ-9Hal5G6HR67xT9wMmKaQIGXW-AukHw9XngFvzSkAju7pHQYvg-xgQgy-sY5v_Zi8ie1xS56YlSkfzw7NrIv78V2GdZ8oXTfnyiJ6XkbBh_Y2MFmuTGbs4TgVSx1XOIx2f2-lkI5jTzNonYsshFyhqzhYwTbknyLdAk9nmVV1BasfGjeYUJcYa26RslkcLe026gMGMmqIuspU5jRmd41cO1TpyJQ3rfGPX0kzQqpXF9dqbt-oiN_clO3rsM-V9SwByyj7QBHgorC6oTePKK4YoUET1JH6mhlfWQ8pyg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@combat",
+    "google_photos": [
+      "AcnlKN3wBzJ-9Hal5G6HR67xT9wMmKaQIGXW-AukHw9XngFvzSkAju7pHQYvg-xgQgy-sY5v_Zi8ie1xS56YlSkfzw7NrIv78V2GdZ8oXTfnyiJ6XkbBh_Y2MFmuTGbs4TgVSx1XOIx2f2-lkI5jTzNonYsshFyhqzhYwTbknyLdAk9nmVV1BasfGjeYUJcYa26RslkcLe026gMGMmqIuspU5jRmd41cO1TpyJQ3rfGPX0kzQqpXF9dqbt-oiN_clO3rsM-V9SwByyj7QBHgorC6oTePKK4YoUET1JH6mhlfWQ8pyg",
+      "AcnlKN3-TdXPFHcgw301WUTeC2gtOkfMz_2WJRtRl9w6aSnmK-ukAz-sdCZWTYUUgdRXFUBlzHUipMhi0meCKZLxlFqU9PNAXq4ygrcGYUQXWs4uVV3XViGUB-VNgZcMx7OpnJuvG1hZWDPaZwRNgansMzq9WvUUXxlGQbBsBjrHuVL1dWCKWxMEcMyCmelxa4zXjZ3zFH9OrD0m3lxngWNR-9bubAo-OSV30URflX0aKu7wKk3ybiwpOMdQtEIVd3Gupr6Yokac5cRPqBzGpPW2YDt_huSfdwE-R2xs03N2gkUl8w",
+      "AcnlKN1TgYMj1Fu1aooITiEiM-7Zkf3VNBr1uia52vnMklM-u93ioxvTmWk6m9o4PRx2488o2uQ00IlIalJIY-apof9zlojNOEoBb4XNX95CU5mz8K8OSsF_hd2idRHq5dTmIOYVOvIjwG0fEo6N6p8uqqKCK0FmvPq0FeIwSH3DTYx-BFgnPIN7zoP8IsbEjVNesYlJ1QTYsvNhw0QuobIPH7pT3H-Nkf-uwBfqawK1dl9qu02Kaj959HPFevgHM0veYzWE0YAhkAkiPEn59tP9I9abGJQbpTb9juzrgPdzflxzNA",
+      "AcnlKN2QbcXo0GWyzLW1xN8PoJqPWTyMLcVG6JRKd-27Q5SubjWqc8H1Tqtcrc7_aABxgdYG74JBcgR01RFmbiqShJJhzACZof_OJ_sw_t90xQtF8LqbvkXE8lUJCwGVcWiIf3ZgN9LorNTBvqJA9CdPKqeTgDWioUQKxNxgei3YZ7u1ULMOVqcHLlt2ym5Qta52us5Bc4mG3Gu-zMBRzfoP3VbuPXOAe7R481JzPFgmrKWJuC19jpSLwk-5_XhtomRlUN-OTo9oIp3y772pmZFjDFzASwy8NKAsBCYaqn1Ahq-TiLPYTikLbu8ojMrmMdnSOuYH7twTKKnnx770UT6D9W7Fj5nCbPOnPDFVMa6o4IsBn8v0ptnePpySENrRzH5iZyngHC15vE9hfKxpOeRJ5P18ClY-mHDvi5qPLjBsiJlSW2Y",
+      "AcnlKN3NQqF2lpoT1hrS3TzHS5q2lRdQcUfvXHJiUiN6e5T9UBgilDlhzn-yaQB7GTokzrYWL4ShwPhB-TnvTcVgp9Xxse9vdIRbCsjXHuW8vUzprdlS0ythbQfi36MnM36CPlZK0IOFOfCT6wgKBu49WzVxJrvk2qyt9fGAGqxBcJmU0tZXevfzaxXDexm_sgoHLWTvNZBNVu-pyjwtzw5mVyKynA50-fRh1aPcfgGqgfJzuh_sssQAEM4jE8nvZR3CdCEYxRmIu2NJrL06nb7PmMq5hM9wuEu3PWwPX6d0930ZmPiEF-lMi4QHRDDoTTTynvoLNfx_Tan6LTRwjidE0HbtoQd1NlAZGGVL7hisWmo84llA6O0DvXgdOKaurm4VEtL_uZxH66jAbaZQ99RbFGdE4LPUohujKwn90AeZRyVCUTI6",
+      "AcnlKN0a83D68mXCAJMb4nJT5OVzV9027FAbbUDptojYeg6XwMPorbwT1y0m7qURh8yFBeWSTcKuSEtyjq1VCdlMCz4uH1swBLELOlEIS1Y2J0NPUpOOTMvSiecGzZLfOnND-XuWhObeqUvaLEHLrZUlgqSLwedLUIMTGEDxMIKnVfAinYIR5FBsTg0li6aZXKRaxxj-5018O5_jx60bzajMpcUrXD7YMj8whDkqhzImG7UiS2tOciTGwGUEKOW8MsK25oFcKXIs2CAV4uwfQO7hc_efIP4tJgytAd-qxymp-1v1s9tm52JiGUl1odxoFJF7h3xeJy6ONr92y4WYNnTi7MLW-iDc71jk0kA_rpg27xZqNzlz8eU8fgzj8KiZJ6c8h8ETntg-VXY6R-euuQI6Pr4Eo0Vd3sKGAc15KUI9UVz6q2nQ",
+      "AcnlKN0RJ6ispz-9u5g7aKZodgWqyyYl4fBBOiIQQ-_l5mMqvSpagHfOQqWZx0bBjrCzeDj6CscjztRxFUZUzCFJxP4Xz1O_e8271LDv9yoOZCCbgAsBW5jTEfBp0YKXtDFcepQH7bLdZACXt90Q22hm44nt5hTyBO86Olx2jQ3kJ0ScpgY-Hgs7lQa8BME2RNG4TvpsLMUsh8wUnYRz04l2SKn2MaPrZGx_9DaVaVBAGnniM_LwxOHpYEiiE5sZ68-lyUippxo90vEh0e2PQg3xahHU8Iwlc4NRFkzh1zDdYZhgag",
+      "AcnlKN1r1h4Qt2mgpheXv3Is6dbtwgUHMxk5j3sj_KcQJ5S0C2pFkkOGeT0K0mKepLZDf_pAUynyv4sE8WB2PjZRrNweVfTMau-uvEKfydQlisOHlnigtpJkOrASragXdmctw8kVCFTEty73YHjBtsa0Km8EPXHOle0bEIKjkxWUg_Yood5OaoX59KNQm954j9xf76-zu4qacvR34mcJgiP1FkP02rqH2aKQYfIKXcK4NZZpC2oGnRNB3-f6CSprDhJCvindohe9c1pLKh8L5ajDX2H3SDtBhT0wrYDJLuT5S9SoWg",
+      "AcnlKN3WuFd1Cc3AGZIIRNs5_lSbkobnObopytYhvytxICwmA51lK17LtmlCXzf1OX9zYwA11ZTWivWSt1vzPb7mOxuU77mhV-3VyBkqe7gfB4mVyYoXJHYraOjuWwgBRLR_cts1jNmF5DlYKMLCykFAOxFvhGoWhlDi6kgYam0FVFijwoKENgtRzhoxa41A97Hi4_q_lbloYIKgpZ2jZVTQJXAiDJ0oR325YVbIO2MMHc578ZwkWv23IsJCFvgaMacxSGEDjrWeKIUHUe_1bEYzv2B0QkEQBrNThgl899cbYjkm4A",
+      "AcnlKN23nw8Mrpn4fd4dPdKLf5yRs8T59rA6OblMSS48COx6PKzUoOKPdVm1g8cj5-qSoSMNuw5MI-hVh-ZjBQu1vQ5L0zCZsYFmeC0GN5DD8kp_ykXsvts88urWLNeXIM5bHBKJnc0CE_AkVkeNySWeCxxjBW5pbexLpOIfTyjEtZw4b8Q5t_gxgGYNliFx0WPo_PHwB8vQI1URoWATAmqUVuTB8yC2_fxc3wmJygIxu2A9y5y7z-8_PtYgP1-wP7SThOuTW-Nuat8MtRfrT34X2jahQofBvJ3x0DxfS89SpoNXdiBboa9GphpfIyvkR3nBGpfVrHstLs4dRL7oDzv2tZRO0RQt7rVzUy4g1ZHkRbZKhrfRemNkTHvJtCnYy6ZTlMVQZKqM-4lOFWTpMcKy_2gT5Wvxr5jCRo_iuNDj2gv4saDf"
+    ]
+  },
+  "social_preview": {
+    "like_count": 298,
+    "top_vibe_tags": [
+      "Cozy",
+      "Craft"
+    ],
+    "moment_count": 29
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "22€ environ",
+    "display": "Tlj: 6:00 PM – 2:00 AM",
+    "detailed": "lundi: 6:00 PM– 2:00 AM\nmardi: 6:00 PM– 2:00 AM\nmercredi: 6:00 PM– 2:00 AM\njeudi: 6:00 PM– 2:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: 6:00 PM– 12:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Hipsters du canal, créatifs en réunion informelle, expats nordiques.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Cocktail",
+            "price": "10-14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

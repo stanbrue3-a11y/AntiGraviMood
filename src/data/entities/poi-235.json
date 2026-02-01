@@ -1,0 +1,140 @@
+{
+  "id": "poi-235",
+  "name": "Elle l'a fée",
+  "slug": "elle-la-fee",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8856,
+      "lng": 2.3212
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJsakkcM9x5kcRcRak51zgezM"
+  },
+  "category": "bar",
+  "subcategory": "cocktail-bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 340,
+    "moment_count": 44,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails potion maison",
+    "smart_tip": "Demandez au barman de vous créer une potion sur-mesure selon votre humeur du jour.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.lileauxfees.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN01NZNCU8BmaqCWJPR5At_2YFsRfmBNuybgZyv3lO5-aJ2e3lcPIImXkJy2m_k-bxl8bgiaD-SRAhFdQLsImT2-yxk2lwpQkYjjje3mb2kIrnNo_YNXFqYiDCox63OrKwSiwwZnXrdj3gO___3hGUDwpsleEJAwKQI4Y4wQvUcUuswr94fGaI_9UCQJ26NiKJI3LdxO05XQv3sym2hq86pu9rkaseVnyLzqfR4rKe2ejK-IxZRpx_i8q1vAJn3bIcz_WLHsYJmDQxbglq_BMRgfiz3bRUJHKMwiQ10jDO05Zw0JLhQeWA7sbO5Vtu5h6o5Fhb2WL1OK5KABX1oqdi-WlQY4yYms17hxqqNhn2N7SCCwNNksR72ez08NfkI35kptwx-xVj0jlmAlrtffFvF3vC-kgthLG_MuaBil9_BqN-2A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@charlotte_sy_dimby",
+    "google_photos": [
+      "AcnlKN01NZNCU8BmaqCWJPR5At_2YFsRfmBNuybgZyv3lO5-aJ2e3lcPIImXkJy2m_k-bxl8bgiaD-SRAhFdQLsImT2-yxk2lwpQkYjjje3mb2kIrnNo_YNXFqYiDCox63OrKwSiwwZnXrdj3gO___3hGUDwpsleEJAwKQI4Y4wQvUcUuswr94fGaI_9UCQJ26NiKJI3LdxO05XQv3sym2hq86pu9rkaseVnyLzqfR4rKe2ejK-IxZRpx_i8q1vAJn3bIcz_WLHsYJmDQxbglq_BMRgfiz3bRUJHKMwiQ10jDO05Zw0JLhQeWA7sbO5Vtu5h6o5Fhb2WL1OK5KABX1oqdi-WlQY4yYms17hxqqNhn2N7SCCwNNksR72ez08NfkI35kptwx-xVj0jlmAlrtffFvF3vC-kgthLG_MuaBil9_BqN-2A",
+      "AcnlKN1SeOc3MTU-6gNqk2bC5uyzZPdjrLzBp9qrxhfvi0_IwzcxNFPd0ZO6yI6V-21Ggwei7NHw8DSMjIMp6SNQ5Rj5kf2vj1LSCZoOiAutiuiStq7VPHQ2bENptkUG1RwwwVgKwkSb-0KACTaHGRe9XD0eAP_eUQqx1k8lMBlSBTkkrEi8pBSuq6lxYYri1BF5MPL3-wRiRojI8bd147nMwkZHW2KjvleQgBWnjykET8mvd80S3Mag6V5m9A-N0Jy-8sy9t9xgJMIY5fRT8rO9pqsBd66OhaRIqB0WXByICqaq2g",
+      "AcnlKN173TiUOMlTqwMQs-RwR5Hl7VADxPSO7IW2f43sYp-AGPNt46UD0qaj6cK6DCZVASZUSOLWrycuRwtDOoH1cfAY61KErl8i94ty2DNbx1P7DTT9tFHJyzf9SFcFR4sYkr2LOkjRHEkAgP9eXDpzKCW9DFR1brV0ea_dmOk6J61LT0nL-GS0K5Tv9opmI1I5s5mLbcMHJj4942Jpi5OHEuYXnqnEfIgAeO0vNSv6yCxU_awHegSa28u8lTP6hbF0OyyQrffoy7kyGI-CugU9SlPithY9HI4rna4k4MdyADlx6IVIM4a8MC2-00soPCgkr_izJ48Aux8Pli9IK5FN6IArTEOrHQk07cSq2wj0o2Bem2-m_ZB8sSNLo4IEIMDcNigCRf0E_8qt0MCpS_HTV4Cb5fkIsPhgpwZ3JV_cT2hNWg",
+      "AcnlKN1KJusR6p-D5pAA5obFRy9abqmga4IYcFRnN_JiXviEzAsGoWRpbDIfFbaYECHyLh6f8bNJYJt3G8lbXXnp2XFpJ64dwGuqbDT3_HK6eZz-KqsvJmhXz2NKWKbMc2YUgdwzjcdg12TQNFCwHdZHUb3y2-_rUGQYI05nzTqrgQSxdiG4bhEc7ln5z0-PLG85nrPteERkXg5T_VgEz6Wo9HYpDMOiCXrnapXLXR4CAdZjwOnFjpILA2gKDlzWnfmbTvu26tGUNhmnBR3QHKEY0HRxwR84r98J3mXH5gVer8N3Ow",
+      "AcnlKN3pt1G83aid9kUV2jgmPnimq4AX8OLu2M3LUVtUmgcvwwz0xY1GYXN06-MvE_qy8GqeQ78oQ6gXtVHHTupuj2z3yY9A9WnNiHcSqU4oHZBwRBs4mptAanqaKojKffr-wbbeAzP4yYrPI0DerVnVw3RIImNrAOZ_ac91eZClMhqOBPSMjtRGWqS6jVyKdKancex9RWWKDEOqRXuN7rkGaN5-1qxKAGZ5mqHRE1CLmulsJsYkcEOFSa4s6KJ_Y10I-wmqQ4rLqsRam3BtwvkVVFFk0-irBSlp3SASv4V3t_lk_Q"
+    ]
+  },
+  "description": "Elle l'a fée est le bar à cocktails intimiste et magique qui manquait aux Batignolles. Dans une ambiance de boudoir secret, tout en velours pourpre et lumières tamisées, on y déguste des élixirs créatifs aux noms enchanteurs. Chaque cocktail est une composition précise, à base d infusions maison et de spiritueux choisis avec soin. C est le spot idéal pour un verre clandestin entre copines ou un rendez-vous mystérieux, où le temps semble s arrêter à l lueur des bougies et au rythme du shaker.",
+  "real_talk": {
+    "text": "Le cocktail bar magique du 17ème. Créatif et intimiste.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de mixologie, couples en date et habitués cherchant le calme chic.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 14,
+    "value_score": 26,
+    "category_percentile": 74,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(14.0€)",
+    "pint_price": 7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "POTIONS",
+        "items": [
+          {
+            "name": "Cocktail Signature",
+            "price": "14€"
+          },
+          {
+            "name": "Mocktail Créatif",
+            "price": "10€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Finger food fine",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 5,
+  "google_ratings_count": 572,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

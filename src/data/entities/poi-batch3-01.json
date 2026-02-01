@@ -1,0 +1,112 @@
+{
+  "id": "poi-batch3-01",
+  "name": "Bisou.",
+  "slug": "bisou",
+  "location": {
+    "address": "15 Boulevard du Temple",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8647038,
+      "lng": 2.365319
+    },
+    "nearest_metro": "Filles du Calvaire",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJbS6B7wdv5kcRK59T8_5_E2M"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 18,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "NoMenu",
+    "Pastel",
+    "Sur Mesure"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "17h00 – 02h00",
+      "display": "Tlj: 17h00 – 02h00",
+      "detailed": "lundi: 17:00 – 2:00\nmardi: 17:00 – 2:00\nmercredi: 17:00 – 2:00\njeudi: 17:00 – 2:00\nvendredi: 17:00 – 2:00\nsamedi: 17:00 – 2:00\ndimanche: 17:00 – 2:00",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Le vôtre (créé à la minute)",
+    "ambiance_vibe": "Terrasse pastel & Mixologie intuitive",
+    "smart_tip": "La terrasse est chauffée en hiver, parfaite pour un cocktail tardif.",
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "Le bar sans carte qui a révolutionné le Marais. Pas de menu, pas de contraintes : le barman discute avec vous et crée un cocktail unique selon votre mood.",
+    "must_eat": "Leurs petits snacks apéritifs maison.",
+    "le_secret": "Ne demandez pas de classiques, laissez-vous porter par l'intuition du staff.",
+    "le_son": "Groovy & Chill. Parfait pour discuter en terrasse.",
+    "le_must": "Le moment où l'on découvre son cocktail unique, servi dans un verre vintage."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 28,
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 14,
+      "label": "Custom Cocktail",
+      "source": "verified"
+    },
+    "fair_price": 14,
+    "source": "verified",
+    "cocktail_price": 14,
+    "verification": {
+      "verified_at": "2025-01-25T18:50:00Z",
+      "source_url": "https://www.bar-bisou.com/"
+    },
+    "menu_items": [
+      {
+        "category": "CRÉATIONS SUR-MESURE",
+        "items": [
+          {
+            "name": "Cocktail Alcoolisé Custom",
+            "price": "14€"
+          },
+          {
+            "name": "Cocktail Sans Alcool Custom",
+            "price": "9€"
+          },
+          {
+            "name": "Bière Artisanale",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Ici, pas de carte ! C'est le concept radical de ce bar aux tons pastel et au néon rose bonbon. Vous dites au barman ce que vous aimez (fruité, amer, épicé, fort...), ce que vous détestez, votre humeur du moment, et il crée un cocktail sur-mesure rien que pour vous. L'interaction est au cœur de l'expérience. La terrasse donnant sur le Boulevard du Temple est très agréable pour siroter ces créations uniques. C'est ludique, surprenant et parfaitement exécuté par une équipe passionnée qui adore relever des défis gustatifs.",
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 2100
+}

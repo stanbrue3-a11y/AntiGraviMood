@@ -1,0 +1,166 @@
+{
+  "id": "poi-037",
+  "name": "Boot Café",
+  "slug": "boot-caf",
+  "location": {
+    "address": "19 Rue du Pont aux Choux",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.861154,
+      "lng": 2.3653088
+    },
+    "google_id": "ChIJWRpFMgdu5kcRsRVTLrySPkE",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 133,
+    "moment_count": 78,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "google_maps_url": "https://maps.google.com/?cid=4701356397950080433",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 18h-21h",
+    "Horaires": "Ouvert tous les jours 09h00 – 16h30",
+    "Reservation required": false,
+    "L'Histoire": "Une ancienne cordonnerie classée (Façade bleue iconique 1900)",
+    "Capacité": "️ Micro-coffee shop : 3 tables, 2 tabourets. C'est tout.",
+    "Le Verre": "Le crème (Lait d'avoine Oatly parfaitement mousseux)",
+    "L'Atmosphère": "Magazines de mode empilés, fleurs fraîches & exiguïté charmante",
+    "Le Tip": "Prends ta commande à emporter et va au Square du Temple juste à côté",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Leurs vins oranges sont surprenants, laissez-vous guider.",
+    "signature_drink": "Café Latte Art",
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqEQ_DDjj5npWV8-OFvdA-dUyFFmqac1OlJc_XrjT95I6WS1z8p2L-3ggBfE_UuZh6ohAEw2KLqA5fr1-f6wXGXv7o3N9WrZUZTghgjwQOISIavr-HIPJ467QSTO9fvvtqsj0W_Rj5VPbyuEYw_x2iSP57oWHZ8l0GS1yq8Rlotv3cqpMDGZwSSkzHx_IbzBdFlRpUU_wr8m5aK1Z4Ibr22A0BTKykiSYq-00_6J4yunaLnzBmfQRk8mMcgka3x8zfRcm6zsYBrQom9Lfp2Q07hGVlUgqvcVCUWRMiZkb_YEmW6PRzTuLvi2JNmG_cKb7CKAS8c0YR93RBXsYB-wGLqWMxvaWtMzS3bd-wALV_XVcjS7ka-lLSsotG5Sut2sHNIaKBDvr3VZP_z0Sb-S9pbTbyttMNXghKShq7r6iaIAl9X",
+      "AZLasHoqwEYMLLIN3B3-PPB3JUlxzhNn73ofj1HQ7ZQ8PUZ0-FOw4Ag9QibWsXKGlMRTbWahZ9AOhcbvWLYEbaNkzC9ETwykj_Ho26KauAGmrVuOwBTsnDutMUVuErw3RwpPNkr2g1DDoOPmeytYlkHYe1Snb08mW7lHxNRVPSaqyIH8EEGEbhH9ivu8XvlHwUFC5Voyt6x1UxDuWOuODYmN3-8a5r7IqLbh8uuASdDoiDqawm99c_N6nPXpbanCGTa0bHU1etJJ20XSxzINtIdeXdSZTQ8OYgIYlncBkcbadF3FCslnTVqoFh1Y8FITDDjSihgdCk5CKUkLcv_r2BKhBgIMcroDFdLcpYOJIKy6BWYD7jVdG7QtMzlVS04UOHhduoxcVNBbvc8ix9nR9q3aaNXlcdYt2gSwZJFaQz308rouRX8",
+      "AZLasHqEIbmsRUPA6NyJ4gvwxU98QTMS7T7iP3SC4OnYsYPywkB9ysP_oNhDC5Dl2yymvybyS7B8oKAoBUkCWaQjMY3TUz0Q0O5-kNAgiY-ezrHZqHpq9enZ_ES8pmKuP6T9Bu_SwpJbrCym3MYzlEiJ-3llct1FjFDySj6SyLdlhWzPU8TwxbQvjHZiaE4AGW2r-U6ko7izXxRgpphTPFV6QhDD3Zq_dT1gNju_U3SDVoHvWFKHjDdX8XP05TvvMLmTWT6kYoQ0UYIk5UIGO7Nyp_Diw_pjthIz2PFlBq3sr14FhRZS4JPJFj7VxiT5YjeJxr5a8g0wulX1UkkmtU4w74OpGEU6bMgW174sc6WLXGmiTrVPGnKoGxVsot-HBsjioQMQGqLYAHOhvzNmRl5m_zNaElLkA1f_uOyK6GNKpA7QiozZLhw8x-beXq36vHJS",
+      "AZLasHpDKMQ80BjJq8Td6qvNSZIHRmPTLsxoIjwRqUJ3CJ9owriVPcTjQyBtVIR1vas1JFRovAwUO5k9hZPJo8ZLlXiqODMLx4hd4rWW1V_CCMq9hEpiTA8F4Gink2mc4mKGUGANcVJ3HCWmISyvZo7OcpKDAQjQcy22_1TJLGY2bGDSj6JpD6dDYlHGNbM7MXRcf_2ySMDSR-oOh2EPuKnhBhrQLKgLb_XSRWeOHQGOf0fpnfahI_dcF6wm9ZQlwQOrQiunzx9rwKP1cRWDRg9Ri3CkzPI57zo4VvMUxN0AGcvmLLhwHmfL7Y3yxyplo23gL-hxKinvp2mLsf_fmA22rbCojuTA-_MZwwaDrKcr5_yUyRyNkFEHhWF54WRPR7_ttnNAl6nIiiQcv2BhYxUmkFRcT7rwRD5yECiWPiFeuRjABdjh_mIT33QV7BukJw",
+      "AZLasHqvKvZocnrDRyNKkYuWynrtzql4hTxMAGnyLkqN1BeWZv2jJPybZIpvTVQW0Eq0f6NcGvtKALS6SLUlkxTvbPR7OYUUgVT5y6mcNDzbrLkZvToV9b9ZuG6wWe8i6RwWS-bzpIs5vPGZuIbYDrfPnMKrcG7m_G9eZxz5zHVcL9Cr0ldwbT3OkT3_DsGpO-oMRiwrBBBwrWijskL5m4VfEQXqewryYUWN32o4KmHXtp43Bg9oIpE9HuMtzSHEJhdyEyknzghMsP2q47LPqA3K2wEQ1llwLPkf2DW6JHby1Nv9BARVyEmYN1e8ZBKKgxuopLoxLmRXMUBBgt6KCQXY2CgIlgapb0Waf7McmYgNTOXwUiNjI8cmEXGKjmY_JVulbPuJIDwQn4VkwXFWt4S0mTFrIWT1iMZRi0ytyYvc4lf8-vkI",
+      "AZLasHqU_bxfPs09z7fn2siq_UA15437zxjg-DsObsExq0edUUBPUecfCqgZqVkaczNtypXqz-htgKAXo1Cx2uFpkjsD5NguGxFYO9KXzl0xtKZf14MSQtK4cutlMQ-pJVagEIsZVdzCrVGKEwSat9-7EU7Ve_WuU_KU_tbv7cqPmMqV8qizMRVhljWg-rSAV-tlSO8Z4RT-D4fxOskrYRkEbFxt97kj5m8Go6TKWEPojGITZOf1wCD267SCEwYvaaMuwAx2D98C9O9P8K5oXXPLMzCZdTnNCAYn0mKY2JeWRLNRvJQAOKbH21Zf7i2E-ESOadN4D1BZl9BF1N8WU8GQv8OFtsNd4-AdxlQQC2vNk7AECK2m5pt0eFTunQeUSCMnLZU0xWbz5WW-Swah7w3dPuI70u-grvK_s0ZSpm9-ocz8oUBa",
+      "AZLasHrmIZnHEEOE7ZDfkqdag-Z6T3AkGcccZGQZPNqJLpgt4LTamIsSk5jmdlMNH_sk2qN1MU4MoUunB53cmnFd8KRuJSGxZqXQGYCMd-_GVwjsgt8TPjniASetPOR2s2f1fppdZE2DA1leWDCg8ST5KqkbLGoBcPzdgeW7ek1IuG1bO44-J1PltCreaFub6ahHCmHdvSFByNfN2_MkMGwBZK0KJnZHSQH8P_qqWY70MnNnOQTUF0vZcHSBQEQJeEwnN6PaoB8x8p05SC9BuiKDXTso1bBQZ_aAGG0GQfPr7kN9lYC5RLcb2zpSsFSPF1df4-qzpcoAIS6wmXJ_Dlfo7LFWHBmaPjJad3U9KT6V3bvOW76I2CY8bObKTV-gjNFNvW8ypqXG-pXGObpT_GxywZBRxdHWopPCegQ4vm3qpk7hZRLu",
+      "AZLasHpcf--lERRL-V5-wxyALJir0rakkN4DpLUij1LKEMw2ZC7IgI4B5aUVHr8VoRYPb4J4AdNbgp5nXy2dNjoewYGoJr_FsFzxESEDYOzKQbYsW2F-NzGeGUZAYFrUmQ_mgrCTIN25HFoGGB-sLuPx80ghSnXqDTA6wX_c2oEMgNtPIk0e2ygPwM7GdOSY5SfyNEV4ZZXZQRtuxqPkkIZZaOauVbQNJzE5qD5kwINApaTGaOKJkqUHFjvRaZyzAWn56vPhL8wS5Ce1_nTPPf9pIsQyIOkA02D5eWwZtLGse-UUujbdraclS_Sh7iC9QRvx1bgsqkiaUP6kSX46eBQubJjgXCVt0s6ELEtINXntum5jD9EL4PkzOC2JbnwMuwOv1h-W4KtMR-oNR_aBvnexC7eMp_sUw-x_qJaDm0cvQVypYg",
+      "AZLasHoBtRvQTJrZMGUGJFSNals0FcwrIEH0ZApFV1PMq0I5mm754gM3DH8Gno8X1tNx843I8kn5UeRk1oQKTti74cElvRq3cxYn_V1XHXmiSGJjAPvCPV9rilCrUssRtENzIqX6t2EVUQUXfCBsNT7WSLF4Acrr_0FCTj3ZbwNSr1z5ci00VoWzafIDQEIUygyCqJ37aCPKM2smNNzcrBHmyX5F5l5g0CDUOB8AaYoEgTmNMSRqBS7bGwfeqnR6uTqSAg9RuR9zBb8wyKpUfvKHJ7R5W8L7SKac4w5bhlsIFVUh0J-RTtp8qOeAV5IVxP6ue0_vqoNyrVuLasYYUKjr4Tk6-E7Xfzp_j9828TnSImYfi2Ie_u9uQRKZHTpOR7RazjiuC2ma1ESp08L3UtJlpnFu7jXTyRQfQs48PbHZCLg",
+      "AZLasHrY9MicyMVBKbnkN7rDBoluz-vbv85V07gD3YrepHxwoKOSnNg6JHxMBz5NBracSyrmZwoqQxxBImHFFDW9DOhr6Gx4x19UI5Id4dELi7nJZ5FwH5fMfw80NtsixWF19crrwt-ZLUFb5nZ_-PsHfpo81RoKLCdwanmtz4_ssSyJM0WwvLWRsSVVkaufdOn9GTLz_KxCOV3jYmU_8cqdGBRo5kgKBTB_t4I8PXYA5maDW8NyMGBeQr3gRxXmwU4HA43a8TEDMqMnsU_NZie2VpTYfC_vhke8LTVFXaCAMmEQqGxuiM7NTx0z6rAOzFHX43h55zDt9lqTRAsu56epfvzIThWOZLU-DlEBOFqCj26EyroKym4QI4DAzdExiZFVKhKzwHvOv3zSNAZ5RQZEy_uwYSucv9IuO2_9bovcXNCflqpG"
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h00 – 17h00",
+    "display": "Tlj: 9h00 – 17h00",
+    "detailed": "lundi: 9:00 – 16h30\nmardi: 9:00 – 16h30\nmercredi: 9:00 – 16h30\njeudi: 10:00 – 16h30\nvendredi: 10:00 – 17h30\nsamedi: 10:00 – 17h30\ndimanche: 10:00 – 17h00",
+    "is_open_now": false
+  },
+  "description": "Le plus petit café de Paris ? Probablement. Installé dans une ancienne cordonnerie dont il a gardé la façade bleue vintage et l'enseigne 'Cordonnerie', le Boot Café est un mouchoir de poche avec trois tables, des magazines colorés et des fleurs fraîches. On y sert un café de spécialité excellent (Fuglen, Five Elephant) et des gâteaux maison. C'est intimiste, photogénique à souhait et chaleureux. On s'y sent comme dans une maison de poupée pour coffee geeks.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Photographes, touristes du Marais et amateurs de mignardises."
+    }
+  },
+  "real_talk": {
+    "text": "Le plus petit café de Paris (ancienne cordonnerie). 3 tables, pas une de plus. On y boit son café coude-à-coude avec des inconnus, et c'est ça qui est cool.",
+    "must_eat": "Banana Bread",
+    "le_secret": "Le banc bleu sur le trottoir pour la photo parfaite.",
+    "le_son": "Indie folk calme",
+    "le_must": "Le Flat White, un des meilleurs du Marais."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 6,
+    "value_score": 92,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3,
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 3,
+      "label": "Espresso",
+      "source": "standard"
+    },
+    "fair_price": 3,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 654
+}

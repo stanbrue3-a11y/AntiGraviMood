@@ -1,0 +1,164 @@
+{
+  "id": "poi-111",
+  "name": "Mokoloco",
+  "slug": "mokoloco",
+  "location": {
+    "address": "74 Rue de Charonne",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8534122,
+      "lng": 2.3799023
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJseadIG1z5kcR0GvBsNWHgd8"
+  },
+  "category": "restaurant",
+  "subcategory": "table d'hôte",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "Casual"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "30€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 7:00– 10:00 PM\nmercredi: 7:00– 10:00 PM\njeudi: 7:00– 10:00 PM\nvendredi: 7:00– 10:00 PM\nsamedi: 7:00– 10:00 PM\ndimanche: Closed",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Café lumineux et familial, extension de Mokonuts",
+    "booking_policy": "Pas de réservation, ambiance décontractée",
+    "smart_tip": "L endroit idéal pour un brunch tardif le dimanche après-midi.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://mokoloco.co/"
+  },
+  "real_talk": {
+    "text": "Le laboratoire des chefs rue de Charonne. Des résidences qui changent tous les mois pour un voyage culinaire sans bouger du 11ème.",
+    "must_eat": "Brunch bowl, pancakes, cafés de spécialité",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Mokoloco est une adresse hybride et passionnante située sur la très gourmande rue de Charonne. Fonctionnant sur un modèle de résidence, le lieu accueille régulièrement de nouveaux chefs qui s'emparent de la minuscule cuisine ouverte. Cette modularité permet de découvrir des gastronomies du monde entier (coréenne, philippine, levantine) réinterprétées avec une liberté totale. L'ambiance y est celle d'une table d'amis, simple et chaleureuse, où l'on s'assoit au comptoir pour discuter avec les créateurs du menu. C'est le spot idéal pour les curieux en quête de découvertes gastronomiques spontanées et de qualité.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0kFSVlxCvBZkQpFIFEpDVW9hx7fGSsRpIoaQRp5TkSR1uzDDKQsTUsHzgJitOuU1IjEUPFSs9lxUsXDO01fRyYiZRm5s5gQ5HlhpnbrkGky7WIIUU0Jw1ayskkLgfU7Sft9AiXScTVEZKWjBDXY8L-XX4fB66dlp5qDlOgADolSa-UbaMhYIUUULyyGOGJj9-VqjDbCk7A7chF51pYy03VPLH6DljLVYk9B-gK7sCERUOSfreNRL6wP36Ppq6JTYQ-SLsfFS-O6VQdwRA2sl8RiFAFYLDpIxMMvAPod5LryhMy8sVmb4Q-xaAWIfHwXtYjHeGCr9kDXFBQPWNfGCCYRz1acWZK04LABKnafF0KiRq3IGOSQNqKV-A2PgE2gpcoAb4txZy6AKF_m5bFc_s2RE1DK4gQrFI4YkExZCVCe9nu&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@mokoloco",
+    "google_photos": [
+      "AcnlKN0kFSVlxCvBZkQpFIFEpDVW9hx7fGSsRpIoaQRp5TkSR1uzDDKQsTUsHzgJitOuU1IjEUPFSs9lxUsXDO01fRyYiZRm5s5gQ5HlhpnbrkGky7WIIUU0Jw1ayskkLgfU7Sft9AiXScTVEZKWjBDXY8L-XX4fB66dlp5qDlOgADolSa-UbaMhYIUUULyyGOGJj9-VqjDbCk7A7chF51pYy03VPLH6DljLVYk9B-gK7sCERUOSfreNRL6wP36Ppq6JTYQ-SLsfFS-O6VQdwRA2sl8RiFAFYLDpIxMMvAPod5LryhMy8sVmb4Q-xaAWIfHwXtYjHeGCr9kDXFBQPWNfGCCYRz1acWZK04LABKnafF0KiRq3IGOSQNqKV-A2PgE2gpcoAb4txZy6AKF_m5bFc_s2RE1DK4gQrFI4YkExZCVCe9nu",
+      "AcnlKN2Vi5xshYnhlLD-653XpV8PCCUPf-fUZtJpC3bO5bQgWHby0Krq1h1TNdKtlffBn9sv7QS1Zxja3NEyXTSs2BpECBxK_gNcOyZUjTkmNbQed6b4--BrCHyZ-ypMEk9z86h2S5jFYNVMrKcxQXO2ACzGxhTr2AEMW4AJ47T03qzjEfx-7cX8yvMeGR8EktKlP2ss0orlj_c0kDN_DyrQHDH4TZAOiELM1mRNLy2aQYWR9PJP5Q412TL95L6nDEMXz7kjd_ATKdh25IOcAlwgpfaziSTFxrfs-RnCzC6oI1-Xaxdhalkpz214_2hn00fUlsA9ijAPhotpKSQHQQwojbx9Alt-cpaf1g8UrsJJ6FoHJMmN3xUmeBPgpnlIdgvNQdjDVI_CGNgzmHeGcqWQc0A9HVbqz-tUEp8gif8Zo5Ebpow",
+      "AcnlKN21212sWa9cAqvP3r4-00xnFlCZ0FJr7JnrLImDB0mw0fh0rMRKV2DuKgPi7hNkLYWTT3pvGyXUtBA_967qlyoYcVQid3gSJqkJAGBlk-TiguzFSAWIwS-WwYXLnBYoDiMvfjxoJNRJ6K9Xv5JgtegFUp9TzNj-t5WhDMwZzEnI74Gwl9AbI1YMLcR2CR952p3zi5EBAS8Au_dYiClnxLNHjEcW-1-VmzmdVlVdfq1tbKDVS5Rb1shW-kBMUYY8Yutm9iuxPPKoQhqPFD6znLvOskXVsRANh_qs6zRr7j-f1wEIH4TkfWhwbMlCqLBT2PtuE5aXoxEpTJSGXvW0RImnfN2gWWZ0ryYwO7S1DQ41bWu8F0zj4vb8rZmkJwZyoE_vm195w4w86qwbCq2oLMdK0s1s1jm2HRTqZgD3hPsp9Gqs",
+      "AcnlKN1KM2S2TTNhImTKMIXHP1eSq7jzE2Ig2WpFetplJO48AX3MLHfGihEKGKJ4uopvAz4S_7o6RCsYykcLzgRd9kOM8nPt5bsuQxUygJKIAono70XPZcIUxvWwOwhiY22zqiKo0evOvbIvEyznCs6CgRR82IUd2pnpW6r3fC2YermX3IOJP8Gu4yQ6oacNh7PkZ9tDeKj23J-RbaC0oXpF5FCFwIYTjCsepFM93Av2f8jt5wxjayTbpnK1f_XN460t-VeSbyiy_gZdam8DbZ9ViwERCZu4FgXkaAnv2B0PQxQ20uFrz3qXfMz2S9LIw2HIaOhk2eAN4_47SnNBeYDrw9aWFHcfRgzVlUb8iNm7HiWuUUQisiHSCFQyjEkUr65KavY4x8geDlwT8gX58VI7Gdvt3Gah8V4sDEnMjnSIX5Ov5uU0kVjKkQFRT1WksA",
+      "AcnlKN3XGoSYvojEHl1VX2Q44ivpOKO22mNoObIZ6ICu9nj_HUncMhWmLVOo1XcMTvKtrg_JREVa2karf3GmCdE2vqQKfxOGm0AVPQ-aGWg62I3g3zG3Vqoplws8hslT2AUMuMDeC6yjDgRtOCK2PRvMNAeRKCmi41iuuuy1rmSc9DHTgScDThbQj5BuMOgbuufINcJjyoZeKxhSMWV8YVLeWscTOEZucmIqufi5aOhB5NyEacgodlwowQAojHZXHn_0HlQIMGARRVmRei8Blpc_smNDTuNKIdvUzFhuDZaWqkIXkrONldCC9InBtYIjNqfRNE5O1VC_rxNJMtm5OHKKxohba9zDXUh9qFwd64_d2rgYLaC0dfUU6kL-FmD5DRz1i00BUVc-N36Dhp0LJ-KTcy0KOiQNl5Yq2ghnMffJl7Hebt4dHGxzas4eKBYLTQ",
+      "AcnlKN3t6xtXFKeC0PIp5Q2e6UH5lhr2JyMaRUobjAqcOYxr_W9vDEnLod7ZU5RmIXcGK_XnYWXQDhO5UxZYM2AWCMWm7H-7jySAG8Fe_dDBd17VX13-B3JcmlInHXD5Ed33ekFTgLlf8Cx2pmlusMp1zI--QeLuSDovwpd6dSuyAj61jOPQ3wKCmXgO4FQG_TOXMvHtqZV9Uxsa5uKV-oa_S_f6KpIRvzlp7yFvgHkvzkOJwNc3eixhvEZPPxwGVff6rxVDKWXc0lb6wvRPodlZLvIO7YSNDp_YAJhQeySkislENvs_s14iE5KQb2zvWfISCGp_IZtymQfu7YMZ--0dCLAnzqdV9ESXcdU1SQlv4Wwy7pKVPe9wVmAXBpXHFh3tRN_9eIzhYHH0cjt6Or8iTTrfEYBY-74Gzdk9AWlPaFrQ0w",
+      "AcnlKN19zR1iPOpB84L_FrII3Hx1DcJbmlhlDxA1-PwWoO1TVg-WvLAzz4PcMZqY0anKskEgVq5UVWNCxsxnGbR_o87NSmY33kNiBlh0JquyE-BRt6rqpwzcTIRzOKA4nxWAkNRk-JHUbzXx_2yvVXebVDMuD4T1R9v984aPaJqasNKZlI0wP-GUgdnr4DHMaUM7TmAbpBwbs5F7qCE18XiUV_fF5Gqbyd41eOR6oD7DXEDzAXxxkmi4bZf08R3efULzibEQpT3_d0x987rKbdBFdhMiNoFQQqJGe-Zy9sVFVO_TMplX5hn8yjNmQuU96Ls91OFXTUXvDP0CvSift8u1SIQshgamF30guDEz3svmSrhBEMMah0twQMz2i6cFJzgtx9xyD5lUFC_AIX4XlSEUGPSUaASTQqmkro0H_9ZvoY0",
+      "AcnlKN0wEBKuPdcnwG5Xp6A6gIfFcqdgDxWWmPClfGo47mmFcUhJp8Obq04J3kSsGBZccjKvbMmY_z7S5t2bwFQkZFZ5FPinWH4rVOILncC6Dqan5rpYmbujA8LVq7X1e4dpOjA-3tRdMWUbGaKzJLFqs9ky8M5FtunUq2NXPLjWh9Q42HEb2GoJ7UUgOT-okdGIyzBgkcZICNZZ9I8VEyVMHfv8I2Xb1Wp5qjdO-69OzOchlyfDIAOk9pRSvYdexBxoyLt-3WWCF6oikG4EkwGSgbA_YmTM2bLpHv6dxKHsijYMt5VlHZBbowWmP9pFBwJzZMN_8_kh8a0v9oxwKl_dhqbyvy2rsCw5tBUBIpAUcvaltW8j-u1qcpe6A1Q1pVjOcQ_lgJosDrGiQ6NDQPlHOFD1-IuBiTHlSPEulqTEcecn7w",
+      "AcnlKN28QZXJTXR0uGPQG_oF4SMxL_hRlr_mmjAnMl-9J-za0Jy1hWrSp6XglDd8cs__HLTBxFp92S4UdyamCGkeVJOzkSJkAeasSHsZWETVZyk0lgZBk2IAv5YitfGhB-F1p4RsZwox50WWEbxLArnwwtbjaIrV82_BDp7EbIxLmlnogr8D5FAMfkglL9jTE0t9wQHRohAW8BFIjzNvltr8Sj8OHKPDNM_3XTBlbIskPrMsFtgw2SE6R1oJ-80X4sFJC45naxTUL2h6imHLo33XPo4fngIRgOhYXjeIwM089ijo6B3Z_8e0SuN9_lYybc5Uc8vcY0GsC1OIEh2a7Uio-wQEcd1OpH17jPRrQ2jWdwLgLGA3yXmXhrubS9dVveyhXS5wORxyqJneRItsKsOILN6FWblABcCoiyn5rwSHpJnePg",
+      "AcnlKN1EqSyW3Hx_myZXT6WI1HyZaYlMPE2TAYrb6g1Wax9G8w2OljnyCtTIJ9nBHvKUYmA7dtl8gqL-AdVj8unvoNUM8J94e5Fe7Q66KZncUimUN_ZckUrioWT3GnNdirt_pQtRceay7fYu5n2IQe32yHg4r82BzZBgNhaASFIOzPlILT3syOBYX_DXPsvpb8rs_C7wq5y_cqPPykwhPPNl2E1IT7lH9DIaPK0LJo8MEHEJ3d9vmmTxqIwe-bsrpbmQKUbrXGZ1j2XXuY1xdAl2bBoioIFTFovB6rF4KsbrT3AAixUXFVkUoYkYJHpmHX0kyE-5YVkn_AaetOvuWlLUsWFhkrDDqIKbEjd_SpQz-GXYQaAwwNL8V8uU6Sf44Ku8n9ieW-3fTqFyiHCki2PXShldLBVZTdve0KwBATg8LH9NimYc"
+    ]
+  },
+  "social_preview": {
+    "like_count": 836,
+    "top_vibe_tags": [
+      "Casual"
+    ],
+    "moment_count": 26
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "30€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 7:00– 10:00 PM\nmercredi: 7:00– 10:00 PM\njeudi: 7:00– 10:00 PM\nvendredi: 7:00– 10:00 PM\nsamedi: 7:00– 10:00 PM\ndimanche: Closed",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles avec enfants, freelances en brunch, habitués du coin.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 9.5,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(9.5€)",
+    "main_dish_price": 15,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MIDI",
+        "items": [
+          {
+            "name": "Sandwich de Résidence",
+            "price": "11€"
+          },
+          {
+            "name": "Plat du Jour",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Cookie Miso-Sésame",
+            "price": "4€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 215,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

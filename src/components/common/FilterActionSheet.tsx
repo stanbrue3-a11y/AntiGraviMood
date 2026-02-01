@@ -13,7 +13,8 @@ import { View, Text, StyleSheet, Pressable, Modal, ScrollView, Switch, Dimension
 import * as Haptics from 'expo-haptics';
 import { BlurView } from 'expo-blur';
 import { useTheme } from '../../design';
-import { usePlacesStore, MoodType } from '../../stores';
+import { useSearchStore } from '../../stores/searchStore';
+import { MoodType } from '../../types/model';
 import { Ionicons } from '@expo/vector-icons';
 
 const { width } = Dimensions.get('window');
@@ -31,23 +32,24 @@ export function FilterActionSheet({ visible, onClose }: FilterActionSheetProps) 
     const {
         selectedMoods,
         toggleMood,
-
-        filterHappyHour, setFilterHappyHour,
-        filterTerrace, setFilterTerrace,
-        filterOpenNow, setFilterOpenNow,
-
-        selectedDistricts, setSelectedDistricts,
-
+        filterHappyHour,
+        setFilterHappyHour,
+        filterTerrace,
+        setFilterTerrace,
+        filterOpenNow,
+        setFilterOpenNow,
+        selectedDistricts,
+        setSelectedDistricts,
         clearFilters
-    } = usePlacesStore();
+    } = useSearchStore();
 
     // HANDLERS
     const handleToggleDistrict = (d: number) => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-        if (selectedDistricts.includes(d)) {
-            setSelectedDistricts(selectedDistricts.filter(x => x !== d));
+        if (selectedDistricts?.includes(d)) {
+            setSelectedDistricts(selectedDistricts.filter((x: number) => x !== d));
         } else {
-            setSelectedDistricts([...selectedDistricts, d]);
+            setSelectedDistricts([...(selectedDistricts || []), d]);
         }
     };
 

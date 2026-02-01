@@ -1,0 +1,116 @@
+{
+  "id": "poi-082",
+  "name": "Le Mauri 7",
+  "slug": "mauri-7",
+  "location": {
+    "address": "46 Rue du Faubourg Saint-Denis",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8715706,
+      "lng": 2.3538932
+    },
+    "nearest_metro": "Strasbourg - Saint-Denis",
+    "metro_line": [
+      4,
+      8,
+      9
+    ],
+    "google_id": "ChIJdYgD0RNu5kcRv9AqdX6wN54"
+  },
+  "category": "bar",
+  "subcategory": "bar de quartier",
+  "mood_scores": {
+    "chill": {
+      "overall": 5,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 28,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Rock",
+    "Kitsch",
+    "Populaire"
+  ],
+  "practical_info": {
+    "bouton_réserver": null,
+    "réservation_obligatoire": false,
+    "terrasse_extérieure": true,
+    "accessibilité": true,
+    "téléphone": "+33 1 47 70 12 06",
+    "réservation": "Pas de résa (Premier arrivé, premier servi)",
+    "ambiance": "ÉLECTRIQUE (L'âme du Faubourg)",
+    "boisson_signature": "Pinte de Blonde à 5€",
+    "incontournable": "Planche Mixte & Pinte",
+    "small_talk": [
+      "La déco est faite d'affiches de vieux films et pochettes vinyles.",
+      "Pas de Happy Hour, mais des prix bas toute l'année.",
+      "Le trottoir est souvent plus rempli que l'intérieur."
+    ],
+    "bouton_label": "Site du lieu",
+    "price_range": 1,
+    "website": "https://fr-fr.facebook.com/Le-Mauri-7-380748391972307/"
+  },
+  "real_talk": {
+    "text": "Le cœur battant de St-Denis. C'est kitsch, c'est rock, c'est bondé. On boit debout sur le trottoir et on refait le monde avec des inconnus.",
+    "must_eat": "La Planche Mixte généreuse.",
+    "le_secret": "Arrivez avant 19h pour espérer une place assise sur les mythiques banquettes rouges.",
+    "le_son": "Indie-rock et brouhaha permanent, parfait pour une soirée sans chichis.",
+    "le_must": "L'ambiance sans filtre où tout Paris se mélange."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 10,
+    "pint_price": 5,
+    "last_updated": "2025-01-25",
+    "extraction_reasoning": "Surgical Verification 2025 - Fixed Price Policy",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 5,
+      "label": "Pinte Blonde",
+      "source": "verified"
+    },
+    "menu_items": [
+      {
+        "category": "SOIF",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "5.00€"
+          },
+          {
+            "name": "Cocktails Maison",
+            "price": "7.00€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "3.50€"
+          }
+        ]
+      }
+    ]
+  },
+  "opening_hours": {
+    "standard": "08:00 – 01:30",
+    "display": "Tlj: 8h-1h30 (Sauf Dimanche)",
+    "detailed": "lundi: 08:00 – 01:30\nmardi: 08:00 – 01:30\nmercredi: 08:00 – 01:30\njeudi: 08:00 – 01:30\nvendredi: 08:00 – 01:30\nsamedi: 08:00 – 01:30\ndimanche: Fermé",
+    "is_open_now": true
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-lot6-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "bar"
+  ],
+  "description": "Véritable institution de la rue du Faubourg Saint-Denis, le Mauri 7 cultive un esprit de 'rade' chic et populaire. Sa déco vintage et ses prix restés bloqués dans le passé en font le point de ralliement incontournable de la jeunesse créative du 10ème.",
+  "google_rating": 4.1,
+  "google_ratings_count": 750
+}

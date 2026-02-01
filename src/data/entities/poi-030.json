@@ -1,0 +1,192 @@
+{
+  "id": "poi-030",
+  "name": "Café Kitsuné",
+  "slug": "cafe-kitsune",
+  "location": {
+    "address": "51 Galerie de Montpensier",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8632,
+      "lng": 2.3372
+    },
+    "nearest_metro": "Palais Royal - Musée du Louvre",
+    "bouche_metro": "Sortie 1 (Place du Palais Royal)",
+    "metro_line": [
+      1,
+      7
+    ],
+    "google_id": "ChIJVymU3CRu5kcR1DLGdUW9sEs"
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {
+        "noise_level": 8,
+        "seating_comfort": 8,
+        "natural_light": 9,
+        "crowd_density": 7,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "event_programming": 3,
+        "dance_space": 1,
+        "cocktail_offering": 2,
+        "crowd_energy": 3,
+        "late_hours": 2
+      }
+    },
+    "culturel": {
+      "overall": 8.5,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 7,
+        "cultural_programming": 6,
+        "creative_clientele": 10,
+        "workspace_facilities": 7
+      }
+    }
+  },
+  "vibes": [
+    "japonais",
+    "mode",
+    "palais-royal",
+    "matcha",
+    "influenceur",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#90EE90",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 2876,
+    "moment_count": 1543,
+    "top_vibe_tags": [
+      "japonais",
+      "mode",
+      "matcha"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 40 15 62 31",
+    "google_maps_url": "https://maps.google.com/?cid=5454067254771987156",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 09h30 – 19h00",
+    "Reservation required": false,
+    "Le Tip": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
+    "L'Ambiance": "japonais, mode, palais-royal, matcha, influenceur",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Leur pâté en croûte maison est un chef-d œuvre visuel et gustatif.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://maisonkitsune.com/mk/find-a-store/cafe-kitsune-palais-royal/"
+  },
+  "media": {
+    "hero_image": "/images/cafe-kitsune.jpg",
+    "instagram_handle": "@maisonkitsune",
+    "google_photos": [
+      "AZLasHoby1CA_rZFmc0rdhW1ez7UVs0yvI5IKEfh-P_GtJ7aF7kD6AGovsqJDVY-Ssl0B4PdlNRDrZq8h6HLHAAg6-natT51KcTwjpGHnHf4MrpWb5np--LuuVZwob951Vv-PVDTa1SGNczQ3xnWmVyN_ceOQFQMBmbVm0L2B4WUZZwajHW_TSZHiaeY5_XzBbUysxyV8KeFuy_9RjeF9J4BXpxm-5_VWdmQAZDxxroYEyKhQtpVe8hPCu4XYEwlIJ29PvewlzpzxEGWVD_w0NuRtGrouq6FWDG-v9DAUR_baCP4OQ",
+      "AZLasHpLoqxVD68APm81pgFVgg-_JzpEvSiVS9IoXyX4_Ul42mbRhl6ebgZMy3Tr2dldY8g0evvWcv2jjHyid2kqmDthopOxTLFv4JRoM0jyk-6p2z9abjNJyXO_mxraE3c86mOIrlx4RPfvafMaxk54ig4UoG_tC1ROPrkvAQbuwKy9BVgHso0odNp6IhrrIJ_wGhnuYKkqBb51xeKoRXG0_6g3HYvTXU2ip_Rge7eNlL8rKLQTZrH8F1UNf6lbGIEMKIFbfpZzs1IdKy8NdBPKh_KWtbD59Ej5G8jnWXnBJ7mTLw",
+      "AZLasHrNa819Ul_--bL9dhST-L-HL0BnP6m-CqDa0ZpGE7OrmSEcjGtWefZqf7XEQbcnk1Frh8vk0M2uMFkwLymlOpLUY64rSGAZyMSRhbn9F2ku0D5TskT2Erfzs6vgjVNtwD7s6qV1G8IrMDTQWxylsLPQPq_Q-w62KTQBLubt5OR0e0Ga7keR5atNvYW-E0vXkVeLfOqN0IKRWbvWjQXtP-1XXGWDCNEyYjUA4s0CRZvmIUfU7QLWQIsbwlF3oSZJnE0oGVK546JamlwWeOSTYae5pSTNRJ2ElOd-PmQ0YSkRqYG62kYQsctBTKp2dznKZIJudc41HgV9KBa7bLy7oG0AHfVpxgjrx1WFvMcqu9RtmK9P2f-sp3XU4hNIMhyR6j5ncuuv6uqS34iL-QxVfYXlb8SNrSeLZhewe8QKiRs4r0Y",
+      "AZLasHqiP5Blyxly9tqEucQ8oiyM9MsIZhOJmrDqkKUDKGN4roNl68mRNABpfgiQQfdXaFXRYAVkxrp7YjrYtNq9uhNlyr5YUDg2xHaFR-RVpJA60qTYKwfKTKSUTJwD0am8e3LPnC0hFFgARIK4huyfsNkFJHiiIHvxMu0OZl1fgNERMgY8oIR6swcg8-uYkKqGYshJd8_2EZjWpaKsQ5NWWDjKuuNem4Jso2P1UDNXiIR5wS8p7NTZOmOOvCayr9Jfe3vx_iEe4RwKgfAIuyv1p_qKYCN8XQ9-aKkBzL7VaXKjcQvZpXqFs3Mus4wGlJjhqmIMd-5-HfNoQuoME7JzxyxmbioTFRvVOTA2255vlufJQPYrzpqrX29fRJBugfxdyoSGk7nNzweTqybbqEoQ7a1QThX29s-I9sOAjoIS3DAH-bPR",
+      "AZLasHq6RSkUgdcILrdmJuanJ0ziVXoND8yc9ArB-TWxNIzoAQuJf16_xvWPyd_RXPcbfW-HiHfBOMLm7WsefH7y0R196k6Y-6hNYfL7yFACgXaI2vPBOAFMVZaaraN1PFOlkhHUMafluUdgxRraMuajcqazGnUDxgToKBLPPtiaQ0zzsQrsXyLdd57HHMf8a7gDgL0XppraeP41rrQzeEjkiOObcLaZ5y8jkOPZ4sF4-pspQEzjsWLtLtsJsIfqHt6DS0sfyAOWB4lCKTQA8dgIENc0ilDtuCxC8q2u2EAuxuBYJGbVqs8O0l9k6H9QWoaTm4jxtXRsS1XQukrhlNviJ68oroqTd_NfAd8YCbMZsSw8xl0gI-f7b1ZIlrNL33_4-eahgunLaJ_1Eiiaw-6EtDnk0nB6_aO339popa11QzNVHofuqJuGBR6NWDGQ2Q",
+      "AZLasHrzIEoEfspvi8RQficl-CbvU5Ch1eUvUMIQ5KGCbatat5T5g5ZYWsJr2RbrPc36Hra-7ycJ93p3DinlESqskgmpqdR1nz3x56Ges0gC3tbC1_DSA5N_nHsyxVIKzvCNht0lrQ079gCYNMUeitkmToXz5tipcNGMqtVCzC6pKhlPA5zoJQL1wo8d6cLwnFO1uPRqKouJmBUXeiLaGjtz4s-0__mOQ7cx2zEPiAmq23r6HceDsI2VDXGdZl0iR6TtbGpnHhiDUUVGq8R9AWklvDagSotL0-idlIg-RsELgeSuEX5bVy9CDORLF_toVCH2XEK_VNQEDPb57iwuORp38RK206jEYFU7oLIbTouUNQp3ySr3JifSu_AcT-L-eaziBof2X1E3WWFmbODiV0inLc6mwou-UmFDZeTQrC5GdKDPn-h97FBgRwPCQGWcL8Fy",
+      "AZLasHqOHrAFT9r_sUYfAwhOyQ-qeO-atiT74CZc9e54epMmKLpKrnkgIbLxDW9CTgLiLKfoWsbp32wuW4bP0Shkb73_bHKF4sA8S9cEF0hB4Y3Jjcik_UxpMc1FZgggDH8BDwBl1RiJeAZJXK1qV2tMxLyQEf2h1xuudZMCWlFHK8l2tqj_kjgtLK5TGWGdLhpuVBG-0LM8pXFNlQ4osZvzjkAbaiAKMGcvwVgwVKZFEkQIgpNFshpIwEzQjPuAPYY-dQ4MfK1Pw4pnlICED816FGUxSaXD3fB0CVLaKmVCkUPvxf2KMnbxUkAkApSuwKbRgvGuZ1TCZOPX8dAuFqberp1VyoP9dKej9Fro-YTi8Eq1-TyCbbd1OrNgoZdcuthdGoDdd-rZ4mcBL80O6A_RuXq7UEBKkmBwzu4e0_r5JS_wMQ",
+      "AZLasHonkwjRviei-SQ4F6EnihHfP5dVvEcLjDGUlv0RvBPpDLUqNwnHymqXVxk-PkW5jwxc9G0dimouGUmRfTJAbUiq9Yz6TkK4Lgq3FC61uuhNKH7mYIb47bfW_UFPNJb2sV4JZbfKij0DOlpG202YBwFz9eX3T7NIRF793V3b3zm-gHUMorL-aQ57GJXUI2nQGQzQH93mT2G4ETEtd0nJJMKH8B4OYomUjkQ1YOSoh9FaBLDi3bNpDx11JAyrloS29TT6JPZa4qZlfuQlOypW3a9BRb4gs8d3NbAihWp24RkEQa9Re4WYOfCQqfpZTdp1Bjy9LWg60As2080oxEG57kWructCCwfy7AVVtph6KoiWTEopMj9fe4R7EidtHqyrbF3uQxxDhrI4ROt5XOUchCnD-uu8oSAzkncKgbfeTY2Q_JvQ4L0_PWY7W5Eojg",
+      "AZLasHorD2MFAJdKtxP8PyLUnA9dvYlQQJLka2msDsuJ3tld5e--5O8IehtebGPKf71zwcaRupOju5DK6jW4Bx1Jy6Cl4ssp59O8P8OhblT30fROHDTJuun3FJ3SVRgCmmqudbFT00pD9RYnX1NuyACKlgcT29KqeJA1XPXBvxTi32ETWODk9T8ZNUJcOaradL1muylQe2ni9G1m53OW5s0CMxLwz-dsQsXgv65ekYeWe9f1egzkeHW3N2rGMf8Ve3kOXrAG_ONMO9qyuoZjjXl56a2e4Uxyz2pcqlZzV0wRzlGQQvGo3zEetaMUyl51vD1n7DgF76praGmJWiKf2jNC6wE2Y8Y8sFYorOXEh4vWt0m9lsxivLYZEc3hEyQO6D5IHKLqPvZIIcjvmcmRMhzvP-XxY7_gqeCBY7OWDItcjD6NXmPQZ3u0ybgLgl-EmpR9",
+      "AZLasHr_sOutpY8815imFjrIq1O5lP-CcboYMQorbyaGCbbXDVugBR7MgnF8kB90gsXv39K__NA6Qca1-BE_tgzHrI82NAb3CHAJfgGCQqqcrzkmTBzrp311aF2OhljXyBZ1SVwxBoAHGNZB6QWmShYCErTJh1fp1qHcw8LAEdRnUFec5IAt1G3RvXYBcI8biA5fiiM1xg2zZwUAg7A0WMpmxoqWc7Rhk-7LY5Q97z5dhPv0EUziUHGCKhP9B6R9lO1nPrwofJ1b91Qp2VxltV579Bl7kU9FO4YHad602WXobJ7yfA"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "09h30 – 19h00",
+    "display": "Tlj: 9h00 – 19h00",
+    "detailed": "lundi: 9:30 – 19h00\nmardi: 9:30 – 19h00\nmercredi: 9:30 – 19h00\njeudi: 9:30 – 19h00\nvendredi: 9:30 – 19h00\nsamedi: 9:30 – 19h00\ndimanche: 9:30 – 19h00",
+    "is_open_now": false
+  },
+  "description": "La marque franco-japonaise de musique et de mode a réussi son pari caféiné. Que ce soit au Palais Royal (le plus beau, niché dans les jardins) ou ailleurs, l'expérience est la même : un design minimaliste et chic, un café latte au lait d'avoine parfait, et ces petits sablés en forme de renard ('kitsune' en japonais) iconiques. C'est le spot idéal pour une pause esthétique et savoureuse, assis sur un banc à regarder les passants stylés.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fans de la marque, touristes japonais et esthètes du café."
+    }
+  },
+  "real_talk": {
+    "text": "Le café du renard japonais. Matcha impeccable, playlist pointue, déco épurée.",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 4.8,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Menu: avgAll(4.8€)",
+    "coffee_price": 5.5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4,
+  "google_ratings_count": 1458
+}

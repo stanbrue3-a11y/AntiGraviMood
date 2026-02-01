@@ -1,0 +1,174 @@
+{
+  "id": "poi-039",
+  "name": "Ten Belles",
+  "slug": "ten-belles",
+  "location": {
+    "address": "10 Rue de la Grange aux Belles",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8735501,
+      "lng": 2.3648351
+    },
+    "google_id": "ChIJF_DrCQtu5kcRg88oK6BS03Q",
+    "nearest_metro": "Goncourt / Jacques Bonsergent",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      11,
+      5
+    ]
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 360,
+    "moment_count": 71,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "06 31 67 68 45",
+    "google_maps_url": "https://maps.google.com/?cid=8418162976357928835",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Mer-Ven 17h-20h",
+    "Horaires": "Ouvert tous les jours 08h30 – 17h30",
+    "Reservation required": false,
+    "L'Ambiance": "L'âme du Canal Saint-Martin (Bobo cool & décontracté)",
+    "L'Agencement": "Mezzanine en bois (Attention la tête !) & tabourets pivotants",
+    "La Carte": "Sausage Rolls (Pâte feuilletée beurrée maison) & Scones",
+    "La Musique": "Brit Pop 90s (Oasis, Blur) qui donne la pêche",
+    "La Terrasse": "Quelques chaises sur le trottoir pour regarder les parisiens passer",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Leur cheesecake est l un des plus soyeux de tout Paris.",
+    "signature_drink": "Café Latte Art",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.tenbelles.com/paris-10/",
+    "réservation": "Sans réservation"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHo9FpnZGsbgYRfFgDNh9KJfAb3V-bYt--sIU0iDZ-7TAbnElJU8VIVUquASzZmaXYk0pbhqhXoT73TQGko5hUVSPseuXFu3x38NwtCQB5XVq0172YFGHxLHo8LZXAai5vxI3yAWJWMt6X-lwm8q3Fed4GRnuWrK9EBeDhk55w-s5DBqRDMzjgXmyxqA54t2CSl77FVhSrqOHMGqI3f9-mL7H4e_ok3h_W7k_ppogJYhd0LiWOfK5ykvMeetiGuAaM9_Ej6KL8czt32FPdUMXqINEGmLK6SSFsAoHJMnr8QR3Q",
+      "AZLasHoFrdlamWl0Apenz5GgcWfjPLpduSfHHMaEfuQXgO1p0ynqrchcbKMhaYEo0gyHQMYYZ-a5EkqPb5zy-2nuyaerZt3CYucAV69YaaDjPJVa0Lm_c0ec7d_BB_WPqLcvG2e6ZneBLZfFHXhLdmlwE-09NkwC6alYUpYZPK3FUeeifTmU0YzXSC0svFhT5VJTDxDDVRTaSoH_m-PQNj-GKG5X6qRrNYAjJCCV3QACeNAPWfadI9UEXRbpuVynWS8wlvMxRUipH9g1VH63P64R00u1x7_qja4xeB3bikvSrjpT5MiBoUSoYLgmF4yUtlRytoEK7BwHMhNdqIEWLg1wLlj7GXkhBWCcGtMfJIIPHB6nH12XwQrV-T_e1EDnyJW9FLErR3X-GCD3uUofiMgPra6TWH27tCWpTDXMHG9CtFK21w",
+      "AZLasHqgVlnYoqJ5MF9UJTyBhqCPa9DSfju8nj4fRSUL6SIk3pzINXsXoqsSAMLYiTSXN-E0HPj16-Hl_apeZwsPhyaKlqtIFo9E_-gjm-ZWsz4KrxX_2OyS0SwADg2YfOOy8wQgunZP4I0hVgQYJMPBm7mCyKwpswCmy_ccnwZ1T-VuXr_gM4xOf6Rn97wdyAIzNB4KaTPP9pAkjL-v_UKmvqYcoFPMwkACLzUknI_4JJFtEyx3sWK0AMUpoeVgR11Vr8WA8rakwXElZbH6T9FWgtnKojMaS66gsz3qV7RzNs-Gsyg8EpeS2ODn-iMpdZXeoIxrn53eI6pe7BXyS5Sp40EsEFX4842_FUvtBI6bAIa1XJwxYSzTU5JQZQ8tTxTpDPTnHerYNgkaRYFEBboTUO9vaK2OoYiJWF7LLPjPKVXZX1Ar6UM8Fwtp83hlUcKH",
+      "AZLasHosDDKQsldPFweyc_6Z8RUkzCvwoFyy7zESsaIm7KL886ZEOZdISuXVcaUTKg_Gu0xpvd-oaRtI8_Enz0zuKZqbZF-iWk9O7yJ0bWq83FZNWwloSg2CdtAfmefj_Ep8wQgmBs-UVbb2dXVHOMWoAU-dsEDR0ckWyc1CpFUfUuSDdR-RpYAqkrYKsoWmio1_6A5vx78PdaZIgnvdZqMFdJHuc_nKg00clQZ3r8q0WGskd2BmOwGUdBHmLo8bKUAVcWdaJG8B7iVh2QOZXi3OAKkwkaPmyk-04NLa1jgC5G_p-nKSdF9KColbAvLFWNd12eNkjpEhUA1N4T8Ps19Cocw-L9nxMZgyWqyztX8-ExT1VSMnGSPOxWKlRw5E-QEo3HO3YdvShKjXNkTm6d252Fkk6QmHNgdiXQcZS0EmjP8MtHHGvIXGkjVAAJ6lI1uJ",
+      "AZLasHp0dNXl2NFJ146YhLSrdY2IjzqhdEr0wfgQuHhHlZyTdiwbk9G_x8owQ4nGn33nTkdWgxWOy4eD8WncCW8kNdn7QT6iMlmPWkV-w8nO71ilm9EZhSEWhu_9sRsiWtx2GUFw93jB7PDSphCvCv_S8ZF-VmQ_lWNcad2aEQzyhoMIapDjS55Cp_D-NZqrPJTqe0gYWfa321oHKzO1xG6vZb58Bjdl6QqJPjXeezrYd55CEsEopl8kWjJFwwPIG1HRIbHt_L0PGHVbn6AtpmkTqRefKsDEbkEPfEkgAe7k1qmlpSkbOgxpvbkLrhVq3O7zsXSma7EDePd20pieu3S4cYYC7Jlcjj-uRgmHke1CvOciJxBwrSI94BJasbZeqyGAXAY3FZCBTaNK92auWZor4LcYSQ6ek-YYI1NOB1H_RhF8YDfToE2EoMldY_-ZdQ",
+      "AZLasHqnEQwL0wMOh4zLbIf2xsORTAQPuuTJ7tS1nW8wO50xKeQmwv4xmPhCwmv3zFuo9pgeNIPfohu33n6iiE8QIwheSyrwgoHC6AQuURtWnbeItSnTAptAwrlVSxWemA_fYmF8AGMFU7YD0LUNm4GDt8cGuQqWcfmEfkDyV15p55VPXm_2-zeMaysRo__zVT4xWu0CoKbnwCPxLs7xTttsA4xu_B9rU5UyV3ZvjxfWBRUO6JHri1KEckSnnOegFNJ_VvDatuj00KI4pYXfuFE1qqV2PIW_2_rthzpsm0wrydVabRQ0Lkg2pE3nN83LB4e8f_biOh9HKZs--28dGfBobgCoBqb2IYDxNBU1xLhfUUs-2ErXp-b61Ox9XNbokjtXeCYSFKGWFNra3H09N9o7ftY66xAzMJxIOhiDwlRrqz0kUC11",
+      "AZLasHryAxvwopAeRlde9jbC3mPQrpjEZiqcwBC8hQiipYpzzAizmza4jCWxLhxkMBoffmnshjDr_AHelPc5brBr74NenxiI7BY39XcpM68t0H7liDwopfCwkDS6WJBOtGE8BJ39O6EXebIYQ3qcdX5t1-18I04LVP1ijXs6WKxAlyy0hBXO5P1JsT7-FnFuypv3_lmEBxFFkDNrQGlKGh4I-pQh6ejuvtOyRV47jlGcwstu8I1b5qIX8YM_0A9znmYhxMYmc3g04WXZv4G2thkdXj54II4_HzpTHSToF5o0XYKguh62l6xuU4KaGe4lNjrRwbrh9xD_5Oi42r2WYhlMjCYH___M9Xt5xdNmdpznEwrRKxghy4jZfAEte9SYZdBB2A9AUBcXwDRNMPMJTmbWDSMtpECCt9jbHOnJT95INTHzbmY",
+      "AZLasHqJNGCZx4IOTTdOv9HHtM_JHLI3YJwKetkr8e8uAzIVJ2-vjSBYcs-AhMCCjPDv2tb228fB1IdgDD4UaXKTPKg2r2KA1TlkFMt6WKnNo6jL_huw_3vo3T8ZeePx4Bo60VDoKYkLzwi2dHGghWNj5nNdGa81YtLGdnkK6OTZuM9Ylszv1dbsE19t6JBuv2Er97-LStxr7ge4abIK5gHJiIHEg_1psg0JB4WCb0CGCHJtv-nEN_FHnk5l2_fBbtVv86P82t0m98VUXrnjmEE6DTzlIX9hQzUkUPBptctZd8xMTJAVQEoFpeNsm1mLh4ta8l6QhwPotaFnRg9Mi2VWki5H3a9uEk-qHTLq65QMjByAvE4Uf3vEqoUsqtsTI0Ok9V1K70f8ouat_4CP9ulfML_go9r7JJEoQ1_j3vPtuCntGw",
+      "AZLasHqU_SyqkKzjtMZf_ejwsqe3TKR6uPh5VBwsDF1u1HE7EgAGmYW89VhqIEm2CJpb78XyIc-gJejjMvUFrz-iePMHI-WloEmP2loh8-ks1SfOqX-AY_xg3okBb2KzTl_hd1aJGZl90lu0F3rUMn-Ovvs6zLziXuY1nq0QfHDRwSqC69E5E4StI5QKvR9Ouh4wALLtFWdV67Mx6uBnoqnvjWZ5_7ePWpIVBuKcVYBCIhw1imxExBDxKoITUWocWDALcG5mQn2jJtvEqvLm9GYcWkYgJhUrunIRREW3orfT_1PK0pRe9QiyTADau0diLT2bQRv0Eqw-bBTznTrMarRvyy6F68P2gpQ3OXRGzQCHgmLpBN0hm84IrhNHLpNDU9rrOJRIh4nZ16gIw9bCBDz4GDTHKINYPe3MCeSC5ZDwoRmaWwez",
+      "AZLasHooXfP_b8hSWt0P1LUwAEnAOC4rXotxvvUzqCjPi6U-x7zQhgWXniUs_o__8vp-QZHkhjJ6I1G9CbkU_0lFG31wvmrycg8XUN2cFwyOUJDyvrZI80mgUnu3pbn_TcmUHbUaBUiQOrEHPQvITKlpJKVEZ77Z7nSfxAwFCBW4iNnRtnWsROZarpjVeG28eO77R8oF_-fCn23JtIWPGFOdepcOu6gsVtpaMKMFyom8YJUXY0BdJhhoFSsipC1BPqHzgPCMXzcvNgOHM9kJLZuP_X5NEn2dEq4Gli-wsxrO-ovsjqpka8X8l8VExJ6L-D1wyRIDWPxY0UzQyAAHAstaDfrSuvDHw21xmzAvAwk-55KJcuB5KPvmykO1hVuUt46aYUXBh9AOe5DN9J0n-Yo6NxpOp7EmyeDPjZCLaBjKth0ajU5C"
+    ],
+    "instagram_handle": "@tenbelles"
+  },
+  "opening_hours": {
+    "standard": "08h30 – 17h30",
+    "display": "Tlj: 8h00 – 17h00",
+    "detailed": "lundi: 8:30 – 17h30\nmardi: 8:30 – 17h30\nmercredi: 8:30 – 17h30\njeudi: 8:30 – 17h30\nvendredi: 8:30 – 17h30\nsamedi: 9:00 – 17h30\ndimanche: 9:00 – 17h30",
+    "is_open_now": false
+  },
+  "description": "Pionnier de la vague 'coffee shop' à l'anglo-saxonne à Paris, Ten Belles est un petit nid en mezzanine près du Canal Saint-Martin. On y boit un café de spécialité torréfié par leurs soins (Belleville Brûlerie) qui est sans doute l'un des meilleurs de la capitale. Les pâtisseries (scones, cookies, sausage rolls) sont à tomber. C'est souvent plein, on s'assoit sur des petits tabourets ou on prend son café à emporter pour aller se promener le long du canal juste à côté.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Expats anglophones, fans de scones et habitués du Canal."
+    }
+  },
+  "real_talk": {
+    "text": "Le coffee shop qui a mis le canal sur la carte café. Brunch légendaire, queue garantie.",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Pionnier du coffee shop parisien. Le Sausage Roll est top.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 12,
+    "value_score": 93,
+    "category_percentile": 7,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.5,
+    "main_dish_price": 12,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 957,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

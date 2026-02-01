@@ -3,7 +3,8 @@ import { View, Text, StyleSheet, Platform, ScrollView } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
-import { usePlacesStore, useUserStore } from '../../src/stores';
+import { usePlacesStore } from '../../src/stores/placesStore';
+import { useUserStore } from '../../src/stores/userStore';
 import { getDominantMood } from '../../src/lib/moodUtils';
 import { MoodRow } from '../../src/components/profile/MoodRow';
 import { ScaleButton } from '../../src/components/ui/ScaleButton';
@@ -25,7 +26,8 @@ export default function ProfileScreen() {
     };
 
     const router = useRouter();
-    const { likedPlaceIds, places } = usePlacesStore();
+    const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
+    const places = usePlacesStore(state => state.places);
     const { user, friends, isAuthenticated, logout } = useUserStore();
 
     const handleLogout = async () => {

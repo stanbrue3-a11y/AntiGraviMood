@@ -1,0 +1,141 @@
+{
+  "id": "poi-232",
+  "name": "Gyoza Bar",
+  "slug": "gyoza-bar-17",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8842,
+      "lng": 2.3012
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJb2SWIDxu5kcRKA7SC7qmH_M"
+  },
+  "category": "restaurant",
+  "subcategory": "japonais",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 968,
+    "moment_count": 52,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Prenez place directement au comptoir pour voir le chef manier la plaque de cuisson avec dextérité.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.gyozabar.fr/",
+    "terrasse": "Patio/Cour 🌿"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN18Cqdn0b-prWuhunC0FgbOuEcVDkZOo935kD0D5qG8Mo5DSeaauINmu9ISVhtHCpA-tU4ltljh2Up6i7Hr3BgSJ-VJfb5KwzLtj5DGgcBYAjYfzCkQw0YDt1IP8pTSnm3EV49kvQo0rjsWoJTR7ZaYll0EXHjqpcxmc7m3WtinVEiIeiN3tilu6677vfGWCUjbqPdV0nnw3JPQp86YvCLGTYWs4oDRIr2gqNNksKkfym-NhVHXlcWnO6IwhuKCc_Rhhudk3ZZrSdpBa7Mat_DILJ4kLHUTgAEvvYY8O5g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@gyozabar_paris",
+    "google_photos": [
+      "AcnlKN18Cqdn0b-prWuhunC0FgbOuEcVDkZOo935kD0D5qG8Mo5DSeaauINmu9ISVhtHCpA-tU4ltljh2Up6i7Hr3BgSJ-VJfb5KwzLtj5DGgcBYAjYfzCkQw0YDt1IP8pTSnm3EV49kvQo0rjsWoJTR7ZaYll0EXHjqpcxmc7m3WtinVEiIeiN3tilu6677vfGWCUjbqPdV0nnw3JPQp86YvCLGTYWs4oDRIr2gqNNksKkfym-NhVHXlcWnO6IwhuKCc_Rhhudk3ZZrSdpBa7Mat_DILJ4kLHUTgAEvvYY8O5g",
+      "AcnlKN2rxtM2UZMbFprhzEXzXvS2cfggepCIeALHW00B_4vP9pQi1WG7-MGwz6uhJzX7esAxffPHzgQ7VkRSCCBkeLYL8tPR2Jxx4o86E1YvAG_Vz0dpKZwX-xPHwaXVtoNXmVTtnOBloeJ1WGhu0VBRR48oefonuh2m3tRiEYM832YFKhL_TBB2Vlp6_FG4U3ob4LqV1kQ1aBkSZQp3l0dp80fDuaWP9q7LLOVmjTUijjZeCM3qTIv4CC5Gzv1LA00st_Qf0c65JZgNvTqe69uacK_V3dSpnTELGqebgAamyrI",
+      "AcnlKN3VguvLzXcHlTnb1F-cTffNtonB527bdpU-GOnONMuBXPKcZuLstXfglwcxEi_SzjuZmazsQ5bntEyPua20mEu0wLyDgswu4sedqu_7EbeXCu07xgNzNJ1JvvZ1l3ASUEvUl8wnpbR_rwmPptsspD7nlpTizH_pwqd3uVFL5QwKIheQl7_Mx8IyftPzWILuBypY8tI172N6jXYRRgrNBAXjLWB7OH2Hp6MdCLhcyIcrTPOS9rCF0-VMQSGgE_55y5AKK4SPzJALzLD-Bn_7Hb-SBb9XNPW1yrLuFbA8SzJVW1nfnA9O55hSMVCce4sACXspeVJyGznuOxdaA9a0CYGqGtwAo06qWkZV4MNtj-Skk9K8UuHAAmCony7gdCzrhLqn3s1fVOJfyNhf3Eqh9JlCHjXT9cLFLP2x57xc4MSqmYb1",
+      "AcnlKN2L2y2SaCFc9mzMDEYg8t6GYFMl-e4KBaLlcw0zzXwscDiNZcCoVgxHwKo1SWRV1-GFOi9zu_7yYtz1-ygEAbpjmSKqg3wvQ8syBllt0noAUxY5h4jUllRBsDsb7mAreuFWbilNgrP74JElJ4CBenROX8CnYnMLyewDnNJDAxDoWt9G23xAFPOE3mQh0no94TrZjrqmoOmudeM-3imhZ7xWidOVByQtD6fPZfjzRCDEFrDdlnCLcRVKrvdP0DH5ndvo8HwugNVK_PJO4v8yYTuybBvhYAeuxlAoMJJ8VTL5YTryo45lCmjbIvjMqOCvOWDlGOFqBtNaDkdbmepp_tRlBKMI3881oSV6OWn6uEePrXUvQLIjNy-U2pq1q7BJerNSuX6nMXXhIjAGUM7P4bHRw6fHxdWHZQLyWioQj7LqZHbFC_VGtm4gMttFCyA7",
+      "AcnlKN1Ebxh1QFNSGJRqLZM9jYF_IKx85qY-Gntiw4WwkeRUgCJFKbwDtTHZg1pvOQ2_sy0CdnPklm6iYrDOJmDvLROtfGaYUhCt37RAoD-Ezs2hCuYGnhcZIHH2JdooObgEWmwIWWFax8Lr8ATsXZ7FWBmcnabFEdPxmOH-I6_Jft-AeU12cE2QEnK8xjPBf8ftQ6pjv83cZR1y0cIgF04M7wBryYui9sXwjfSMsv6p4yo4pMLhG1NVoCAPChdLKGCs5IAeA6u7GWW4ZsyaW6ZyZKO7Niiszz53kpfJSm5zdlCORFUfJj8fnmt9Fun0mM2_OfXoBNBAJLfmB1Jocew6iTDtRZZxwHHaojBIt6TypAKbzoNSM56N3PFrEDGmNN5cPNGzW3PzajuPTy2fE9Nj1gsn1v98bv13yajTEUEEGFT6aowquEUpOI9Hwdxywna6"
+    ]
+  },
+  "description": "Le concept est simple et radical : d excellents gyozas et rien d autre (ou presque). Dans un décor minimaliste inspiré des comptoirs tokyoïtes, Gyoza Bar propose des raviolis japonais à la farce juteuse et à la pâte craquante, confectionnés sur place avec des produits de qualité. C'est rapide, c'est sain, c'est addictif et c est la garantie d un déjeuner ou d un dîner sur le pouce qui ne sacrifie jamais le goût à la vitesse. Une petite bulle japonaise épurée et efficace au centre du 17ème.",
+  "real_talk": {
+    "text": "Le gyoza parfait. Rapide, efficace et terriblement addictif.",
+    "must_eat": "Gyoza porc ou légumes, riz vapeur",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeunes actifs pressés, fans de cuisine nippone et amateurs de concepts radicaux.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 20.5,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(10.0€) + avgDrink(10.5€)",
+    "main_dish_price": 16,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "GYOZAS",
+        "items": [
+          {
+            "name": "Assiette de 8 Gyozas (Porc)",
+            "price": "10€"
+          },
+          {
+            "name": "Menu (8 gyozas+riz+bière)",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Bière Kirin",
+            "price": "5€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 1135,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

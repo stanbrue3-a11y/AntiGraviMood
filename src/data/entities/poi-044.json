@@ -1,0 +1,138 @@
+{
+  "id": "poi-044",
+  "name": "Place des Vosges",
+  "slug": "place-des-vosges",
+  "location": {
+    "address": "Pl. des Vosges",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.85561140000001,
+      "lng": 2.3655266
+    },
+    "google_id": "ChIJUeiI4P9x5kcRqEwHl6V32GQ",
+    "nearest_metro": "Saint-Paul / Chemin Vert",
+    "bouche_metro": "Sortie Place des Vosges",
+    "metro_line": [
+      1,
+      8
+    ]
+  },
+  "category": "parc",
+  "subcategory": "parc-urbain",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 461,
+    "moment_count": 56,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "google_maps_url": "https://maps.google.com/?cid=7266689551849442472",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Reservation required": false,
+    "Ambiance Royale": "La plus vieille place de Paris (Symétrie Brique & Pierre)",
+    "Le Pique-Nique": "Le seul endroit chic où s'asseoir dans l'herbe est toléré et stylé",
+    "Culture": "Maison de Victor Hugo dans l'angle (Entrée gratuite)",
+    "Les Galeries": "Fais le tour des galeries d'art sous les arcades après",
+    "Horaires": "Tlj: 08h-20h",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "bouton_label": "Site du lieu",
+    "website": "https://parisjetaime.com/transport/place-des-vosges-p1907"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqTOnzZtPRbzmFuq9JjjY4xZ6PplpQjQc7zYXJPA57wB6eTNRcx8Tb8R7Uo8c0YeEZas8gq4fDc-hULcGB_QW6OaHeyEcSNcOyLgm9l5DSc_vSXWuF9NKhXpOrgWuG7Vxc0SZ54vA2DV0ql2b1ItmyTzkhCTOXMmhpSzomvs5jq1V349DtBkRGGyroqlGgtVHKUWQqM_iAHiKf6B4jRhsJi_B_yJUi1lL8JarRy5mgsL0wNrT6o9QANuGrF1DZrFd2cIiRXUJwRhz1yGz-VrZaD0p4Br9f6bPymmttm1DR-9vS_G0ti4k-YrTtchr3qpXjdhz5NMXXWJPsCzC3eyfDJu-FZGXf3hi025l4_vjMURKl5Ut1Gif40o5_2NEuFiFp-fVL1m84WTbepOVBHIjGlsW6CjT99xpt1em3mX-MgkJdeRYIxYamOUppsMiZK",
+      "AZLasHqQGosK-G9-JRy_NsE_xaGcfMzjuJlZbewaReJAVbibng31cLRzP-3TABYqjhO7kKj8dVmWIz70bAOQx3TEhyQthPOZYXwqYSFnvzSgy39F4yjVF34bQypf-_sQBSzv2fea9RqQANoYANte9BIFI2lgpz8AdI-cSw7vrO-a2LeScof3NRZwSYMr58uzw2abGE6bndgxrK3IdZ9AvBAnn3LuX2lJ0I3-Ipb9ilesAFGzNbRGv8ONVhMglwpPjEL7zQjgyP9d4ucrfZzLHuGwXnNyR31GU3rMnYz4hUtEKNBsyZB-1Jv92eZmtMz8_W85RcKOQvbBUiiEMN0zNcf55kRhIGJnPlSn4YUMcmCKbkUl5nCxSI2ir7KDYQQF2BwwWYoKMv4S9selM9Kjp-HJt_0CE-4QXq28D_M7-AOVsDTCifGSPWoXgU9D-Hyoqwj-",
+      "AZLasHpmnqzSqpRB2dlrMannaAtNpYnmBGHjYT64pg24YCSiGGioL6Oe38_kT2u4dg41XrNMccMeCY1n0lZpi1tyD9nmwZvZlPz30G9dsYaiwOy92fJOhVKIAtvPMwWjYDAfL15h4ZAIAQylA2DLxXDAuahBKRHZ92MK1mB1oRGDFzBewsFRrFP4YMbgdYV3BXhGxlcuZjHLTXKryqBzNA2bs4SgdjQbbTIJK35EuOmNuj5WsA56cCNCl9OPPVMXs1wsnAMDqiuth6ymc-c2xqniJrrp9zsj0x_xnciq9BdP2uM7ylvgXtAhAivtHpLU00G0EHot_nhZoFv_gXjHUFgpUiXyeGaWonWavbI2-hl8kjiYP58XH0mfS0R3FTPCmVrndFQtYy9qqn96yayLBwizkjE5V0tzR9jZdsQ1N6CsueU",
+      "AZLasHpZFWnoURgNuDmuG7YZuPTyEo9YBdgNhGr2RNdQKxj-R8FR26W7vy4G_8WdgKFhhD-Pr3_wfL4SsnkXRKLGEaySLZehzo5XYGMszFsOQuLAK2p6qnqPK80oIJcs4lXzdPgTYemAp4WediWWZu-Fwzkadzjw_2iznZ4RczT0joZ_GRVRapfM0N-zX8BTKQyLVE2mbbLYoUxVwJYwVyjpcX-ic6Dp8sgZ-jvStJ-i17lCKCPtlUVaB2fcztciIUaxazluppvxC0noZMHKxBcP1J-u_M6KeerCixRkhXHEdCJQhIwZia8du9YVCIeeqoVAXRkd5AvUXX4WieTAQDN-VVVukNakLlC7ll8OoeEzNo3jGMDIQFU3WghKGh_0lcHJdcjNt1OKRMWuVYasa-UVhCyARkTt4f4NX_J59E_hH1Q",
+      "AZLasHoybC9Z67ohwwWYMVk5bOfsVSZ4mzfFX7Xk4romegaw-OXX3TJjYFCQSnQ_X700fXlyQsw4FZhd91a9SKYwbG9QSIn5io0pLnMkLBU9DEFgIfz-wIlHFLjukJv1tMK2bFGepmAwrGClyBzfZegjyeh8lQdEYPMaiZu07LxEXKbau2PSYIsvNjLtavd4BK5Lx05V86dBC_nEry_oiab3NCPHpcb3A7oDkrKyXV265aVN_NTpeLVo8ylMoMdDcIfyCsYMMob1msOlg35OgIh6ukd3MvPrWYoFoPd1UWacSpBe9vMOq_1388Mijr-KXu6VtEPvLF7foOBReQoKP4LQ5jIMWUfWofC_RnuF_LGeCDT-jFU386K6Nfmm4zWIxs52k37Ke_WkrBn3MbWsQkHRrqeiR-59quRKokPAGviBx4IPvQ",
+      "AZLasHpNEtaFUDJUv03egOXsn9sW0BYFnjHe0SIw7jER9CC3uSdPwFY-6kRcz52FTVYAOtElqt2o9vr4U6D0ghk9GmvH1jOAzJmUXJiNfrObwFpwJO_KclP2ejDPdzxemuXNvxgsANoMLPxxa51XP2GD6-FGB-8-t5za9byfMLGPpYZSAly-IuObajQCcH98p3iMyrgnnGmswuNGzp2wGODW7HkLk_oGURDxxF9rRxksS7v6zeEVMbmWtyfUU0fTGRKNi22t1wfZdLIFMd3MpAZRXA0N4zDZK8HrbAxzrYfN21-2Dm4WLtIxuMhFxZlHTwA7bE8Mia9QR6mkvzXiruBuZfOsZ048bDh1opjpk1M46P5_NdOLx0ZaJwUoau_NBd6PBJCzqBrrE6n1jBvsHf2is01Bu0K_TioRQOvMuHnIXkWHzA",
+      "AZLasHosAcHrT9Owg0fe1BNo-XqS54a8IJGl_EAQ73WnboHKA6HhatSNCAtU5--87LhntUzigNrsd3fnVixPjPs-s1NY7nZo16njN6yTDPi2jyJC5NlAy9hHwDxHZc1Hg-MJNV-6gjlGswYHUcU45JznTfMJm0K9XPjV5WEqKbZr9v42pG5DfEjXYn1eQdI0B7AaC6eC4XK7u_KC6dvwct2xZ_HS7PpInGdQFAmtkLm78hvDxEFvBOFALwVSlKn6w-okh1gsX0e0q95_U31t-deLFyScOo6qFObCyzMpAGX6VHfNgA9pOZHR3apE7ANvPh8VEv54gDGI--TmI54duMwJ_ALJLlPi1ZSQSbL8rZrhBm0KNpMBMxdQv7847dN_zXmKDcL540Fdy-L0GYnTAeyT0BpAHAJOUpRwAWAP8eR380afwg",
+      "AZLasHqQo-NZ_kZtHFV4Sc1sqJACP3Q10T0r7bPSA8Z7fOkZiS4H8lbeX7M4WaqT5he5lyHyRxUvw52aWF4lVUODqDm_oe9pbEUTJofV372wpTG58Moc-d49CljsUJ44b65_42_JrRDkTC5Vb4cSQwXQfDKe2QL--vaBp-blVtPzUcV6WaBtPou6AIVAz8yanP4XVKMXRut1RJdMXR-8UEiY4tkynRz7MO-LW8iVmQVvgE1moOlULCFCbllHQykh7PB43tEHbwHDzrh7qM9t7CUcPpYP604XVImFMCgErTmtkbMU4431wo3bskxePqECtCfG296_g4GOaKfAFW0F83OHX8hchxfo_-bF1xMNvRFPvyWEr3ahy_oYwD77ux69CGuxuoEEyGPiQ4rOG9GVusIVrxp-pDsoPnsEX2aCRptuQwVduw",
+      "AZLasHodnPdu87KpZi54W3-n20ILx7sWah0Wnmn9AuoH7ZvpbrGSrhteffHVa8xGm-qN0uUJQLp2dI-wxoK4hHPIkBLh2KKy9UqL92kPq3zBbdLVqw47noSBmGNETKQ_i7ZrFEzbvkNMMmKdSFig0dQTNxhaF2fMvVuqTbE3IAw54DO-1Lb7402dJ-LG3Aw5CfrrDQo9cy-lEd3uyERrjVCUA69iO-C9bklkcdl54jyeDrdVCXmfoFapb8Z7-owq_i5pVL-5Afmo_zZ7ZAcZ9Mp_-XuxAYl9tcFEEwPa3Q_TKOKRB29iltLffFnH_ApHplKeLDVcWRnU8f1nZWQbSjyEDM9DH1jAAQOozJMe9DpFsmVmEcZQtpB-egrxlTjEq8NMc7C8L9BoLMaCpGs0nr7Y0kL-AxP3KaRnc336MR1JUBo4Kw",
+      "AZLasHpqosRegIrDvdeZMKHiJKrG6AEf7QeIYKJPxmsIUaxSYeMR23454wqY0BBZD0Q8Mi26tlfZY4kYa--KT7HiLlDh7ypwgJeb7IIw1nuIWSNvmwOp2JxJ45HdaWRDdXwOX8HQPGpFfmpjb0H7gZYMV1STyW7sRbu-ADoE6TNfwsKmloxSbOVETprBpBHFa0QILIqcrlTltMMcPzGgqieT1dwjBPcm3lPJcRsI293AWH1_hLYSdXClXzClp5HJ0gqsjc1tt0wgKMqXU6WRIfNfTj3vZw0Axe91hbuzbZirtMyVWb7uQe7Uo_3XUStf210Ci_YMOtjKmxddg9usYEeVFt38-QzrLAIL1eizb2I-ZkUgc_TH-hPJbaB9rIDAzv7r-O-UQ6BB3H53WqAJGIkx8T2mxTfb5eJpT4p_nfq44QpVw5LT"
+    ]
+  },
+  "opening_hours": {
+    "standard": "08h00 - 20h00",
+    "display": "Tlj: 08h-20h"
+  },
+  "description": "La plus ancienne place de Paris (inaugurée en 1612 pour les fiançailles de Louis XIII) est aussi la plus harmonieuse. C'est un carré parfait de 36 pavillons de brique rouge et de pierre blanche, aux toits d'ardoise bleue, qui entourent le Square Louis XIII. C'est le cœur aristocratique du Marais. Victor Hugo y a vécu (sa maison se visite). Les arcades abritent des galeries d'art et des cafés chics. S'allonger sur l'herbe au centre de la place l'été, entouré de tant d'histoire et de symétrie, est un privilège royal accessible à tous.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux sur les bancs, touristes du Marais et lecteurs au soleil."
+    }
+  },
+  "real_talk": {
+    "text": "Un des plus beaux espaces verts de Paris. Parfait pour une pause au calme.",
+    "le_son": "Souvent un quatuor à cordes ou chanteur lyrique sous les arcades",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 31583,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

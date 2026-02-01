@@ -1,0 +1,146 @@
+{
+  "id": "poi-173",
+  "name": "Le Select",
+  "slug": "le-select",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8427,
+      "lng": 2.3285
+    },
+    "nearest_metro": "Vavin",
+    "bouche_metro": "Sortie 1 (Bd du Montparnasse)",
+    "metro_line": [
+      4
+    ],
+    "google_id": "ChIJPcO4w85x5kcRjh9ZKp6tkPQ"
+  },
+  "category": "café",
+  "subcategory": "cafe-historique",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 363,
+    "moment_count": 14,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Art Déco historique",
+    "signature_drink": "Café, cocktails classiques",
+    "smart_tip": "Installez-vous sur les banquettes en cuir du fond pour une discussion intime façon 'Les Années Folles'.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://leselect-montparnasse.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1kkrVyD3C8e3d4zkJtoTq5D5UOt50Ty5gSRB54-_yzQm-k3uWDUBjnf6d23aWUL2WORkhbXRo80tva14n8fWHj3V3_7OjTYa3nZqRrB-wgMtleDw4wKw7xxyuqSLsroZkxuHKJQA4Lm6OBwLe_UQQXBLedReSegwE0un3yT6OCJa6LRhuXkPR40qE8-F4B0gM7gb1eYcs2yO_1ZgPHo4tXn3qGvsBDHLnWlnn64RhapG66j6Sv8dRla_0U29zCtP6ZT5EygqPiZgkGSztmRZkaFbhd4xfcu-cnPmzMP1D9zA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@leselectmontparnasse",
+    "google_photos": [
+      "AcnlKN1kkrVyD3C8e3d4zkJtoTq5D5UOt50Ty5gSRB54-_yzQm-k3uWDUBjnf6d23aWUL2WORkhbXRo80tva14n8fWHj3V3_7OjTYa3nZqRrB-wgMtleDw4wKw7xxyuqSLsroZkxuHKJQA4Lm6OBwLe_UQQXBLedReSegwE0un3yT6OCJa6LRhuXkPR40qE8-F4B0gM7gb1eYcs2yO_1ZgPHo4tXn3qGvsBDHLnWlnn64RhapG66j6Sv8dRla_0U29zCtP6ZT5EygqPiZgkGSztmRZkaFbhd4xfcu-cnPmzMP1D9zA",
+      "AcnlKN2zhrftjKqvgN81ygadaPPQmUrhOWf4XBNQwRB5Ww5tct2AoUM8tu4vLQh8I1p8xceePHib6ICxWyGtVHjihFASP5UnT0dc3x6SfGr6_DviF1rhrNy6LVTvZPdzVvLMZ1vACLyVU-RkW_csSrESH8qyB8pwBq3A-OlTZnsxOwJ6RMvr4l2gj4tr4kq1-XK4D6HN-HryQvHAuf2QPpbBQ8Awp2a3OjavDO90yOEIFmS6X-FErKMX2xPdWXHruk1rnbM1-7uu9WMvFXmgHkfz1kUVrnYl5zpOWhHTvDWmqjjGBE_1TVaz8MSEQA3AAm4K3rNvRfoczSMl6QOwGflWIID7C5pmoRzqzYnrz7nCzDdF39CL23UnrT95G7n2wlr_GsAh_vxKP3NfKUBesApfwGgLvXGLHH0yn-xgda_QZ7UcGbVLpfA0tUsGlmyGZZJw",
+      "AcnlKN3XmvY5U4e7PmDB9UIpE821EQz1YQ-DmSm3CUTzdxQk99HljbLzVXqmFOygohdJTVymIsQITzR1Df2cT3KwGoutVQy99d1OpWZSBgMkxXVMjE42U2R8GT5wcn4WMS5xCjxT3T52ivWYnGrz68ZYpQ_J6r4oZmgoDWNGJlP6yCcHAEaJbEGJsKRb6IbgpSznTpUkNPFcYEGEZ9WYKwJ7SbW5Brfyrnz82rOLzyOdk0lOo-MAAtsxioBORZ55bFwSziTuyLLdAfQMuzEQwGyiYINgtjtp6C4a3pTNanUQVHZwyQ",
+      "AcnlKN22_ZMdUbmAwfN06BTbb0F_jmnkHz8ZU-nSOuleAYMhSqQGlKJispA7MaF-l9xMNbzhu7R9U701P8qB76GqwteX5oetoEVtRDQSg01s6lRkY-HW5mKYBFuBOMqPsMi7fyUFvQ-UzXBjYrV7-gcCMR1VRENAe16gXKbQW4-ECzpA7FWImS3J5A-jFWxfrDdZ4zCYJFGO_MAuHnUalgXaGcqUgMzFTmxU8p90vZv9vnL5rzUXxK5MncHOrqMpQEEt1dkc-gsow98qggIab-zU4xWnrW9MkJ8IsV18kv_Zl1iSCHBJkcOXERkEU4Ds5WSWbU8wHt4hcKaeo2_R3u25GEMGFmu7G17rRKaaR4fMyg7L95dh-pf-mq4enUAUlDj4Mtwetin-oVWac-uLvIXYPyPRBHQadY2MlQZG1-qTkkGwIN83JZQ8HeVmqk1XCX2p",
+      "AcnlKN2aBAY5hWYEzbSbEuxpfdRu_rO7WB4dXGVczLBNeVb7BPBCS6Ok5X0ThLF6yElZVfZ9r4Z_V1kId9tP94MDue8GAEA8y4SjyZIzTXVGpGTQJiSdVH5zzK36doOKiizQ9DY-g3XUhH8AEw3QQOInwZPELb18Vl31j7-Ec_EvmHx3-ltutGhsD4RJNUFLMRz4L8S2G4N7P730-2XdHdShnLoTgoovvxX9-1rG1tLZope9Ree93Igt7H4zD5c5Ov3Iri7qJcjfz9HhpS-T-dG_PY3g62u2pUujv0Bi9qGpRfVFi9Y0cDqVmxqzh2ok99TkKH_ndKEb6tDn4DFN58RzVCZ-C8MKgFTKQbTBjSsxuk8-N8P-ckkNRC-j8vj50UPwjVdmluL6XlPz01O8_HZxOnlk15lXxzQnHrb0osEjWW9zz6uj_1Iq23hOETJVB69Z"
+    ]
+  },
+  "description": "Le Select est une machine à remonter le temps. Entrer dans ce café mythique de Montparnasse, c'est s'asseoir là où Picasso, Hemingway ou Fitzgerald ont refait le monde. Le décor Art Déco est resté intact, feutré par les années d'histoire littéraire et artistique. C'est l'un des rares cafés parisiens qui conserve son âme noctambule et sa dignité de grand classique, offrant un service impeccable et une terrasse légendaire sur le boulevard.",
+  "real_talk": {
+    "text": "Le café des génies perdus. Art Déco intact, fantômes littéraires partout.",
+    "must_eat": "Pâtisserie du jour",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écrivains, vieux parisiens nostalgiques, philosophes du dimanche et touristes cultivés.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "BRASSERIE",
+        "items": [
+          {
+            "name": "Croque-monsieur Classique",
+            "price": "14€"
+          },
+          {
+            "name": "Petit noir",
+            "price": "3,50€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Cocktail Classique",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 1995,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

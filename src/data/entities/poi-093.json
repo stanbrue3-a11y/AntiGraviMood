@@ -1,0 +1,166 @@
+{
+  "id": "poi-093",
+  "name": "Little Red Door",
+  "slug": "little-red-door",
+  "location": {
+    "address": "60 Rue Charlot",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8636097,
+      "lng": 2.3636335
+    },
+    "nearest_metro": "Filles du Calvaire",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJ3_UUXAZu5kcRfpTN8bZRXMU"
+  },
+  "category": "bar",
+  "subcategory": "speakeasy",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 4,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 9,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Craft",
+    "ConceptUEL",
+    "Hospitalité"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "17h00 – 02h00",
+      "display": "Tlj: 17h00 – 02h00",
+      "detailed": "lundi: 17:00 – 2:00\nmardi: 17:00 – 2:00\nmercredi: 17:00 – 2:00\njeudi: 17:00 – 2:00\nvendredi: 17:00 – 2:00\nsamedi: 17:00 – 2:00\ndimanche: 17:00 – 2:00",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails du menu Agri/Culture",
+    "door_policy": "Poussez la petite porte rouge (pas besoin de sonner)",
+    "ambiance_vibe": "Laboratoire de saveurs feutré",
+    "smart_tip": "Le staff est d'une hospitalité rare, n'hésitez pas à demander l'histoire de chaque ingrédient.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "http://www.lrdparis.com/"
+  },
+  "real_talk": {
+    "text": "La mythique porte rouge du Marais. Un bar qui ne se repose jamais sur ses lauriers (Top 50 Best mondial) et qui réinvente le cocktail par l'agriculture.",
+    "must_eat": "Leurs snacks pensés pour s'accorder aux cocktails.",
+    "le_secret": "Ne cherchez pas de menu classique, chaque 'collection' est un livre d'art.",
+    "le_son": "Soul & Jazz feutré. Parfait pour l'immersion.",
+    "le_must": "La petite porte rouge : le passage obligé vers un autre monde."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 18,
+    "value_score": 24,
+    "category_percentile": 76,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(13.0€)",
+    "pint_price": 9,
+    "last_updated": "2024-01-20",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS 'AGRI/CULTURE'",
+        "items": [
+          {
+            "name": "Carbone (Betterave/Armagnac)",
+            "price": "16€"
+          },
+          {
+            "name": "Aquaponie (Basilic/St-Germain)",
+            "price": "15€"
+          },
+          {
+            "name": "Urbaine (Café/Shiitaké/Whisky)",
+            "price": "16€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Little Red Door n'est pas seulement un bar, c'est une institution mondiale de la mixology. Depuis sa petite porte rouge de la rue Charlot, ce speakeasy réinvente sans cesse l'expérience cocktail à travers des menus conceptuels basés sur l'art, l'anthropologie ou plus récemment l'agriculture locale. Son décor feutré de briques apparentes et de sofas en velours crée une atmosphère de salon new-yorkais intime et chaleureux. Ici, l'accueil est aussi précis que le dosage des alcools, offrant une immersion totale dans la création liquide contemporaine.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1-hVEWEFWQe-JzAPriYKNqlHi1hGfPntLB9BEozpkAr5n9HBQ6J3BCIp-juFDQ2XTt4JmpalD0eQWbwrL7Yrof_8cOusbAXpN-7doRh6Zk57oLtvvGCqatSw23VGkwtmxMkqufWI7AtdrlT8ZzwiSFbymqQPs4whci4IsDU30LcQp7_UssE-YXf_dqec6LNh6QZtuvVuQL-eZmjlOYA_5cvfoX2Ivu0qXeIkJLF2EZ5bvwpCvXD1Z-nXTRQmYd03eHvHwBR5dFVHc-OThbum9Wx62IA7yJ-naHhElimRH26g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@softr.io",
+    "google_photos": [
+      "AcnlKN1-hVEWEFWQe-JzAPriYKNqlHi1hGfPntLB9BEozpkAr5n9HBQ6J3BCIp-juFDQ2XTt4JmpalD0eQWbwrL7Yrof_8cOusbAXpN-7doRh6Zk57oLtvvGCqatSw23VGkwtmxMkqufWI7AtdrlT8ZzwiSFbymqQPs4whci4IsDU30LcQp7_UssE-YXf_dqec6LNh6QZtuvVuQL-eZmjlOYA_5cvfoX2Ivu0qXeIkJLF2EZ5bvwpCvXD1Z-nXTRQmYd03eHvHwBR5dFVHc-OThbum9Wx62IA7yJ-naHhElimRH26g",
+      "AcnlKN0tqS4AhEg-SD0TkDixJ7rZDSAqRPa8sKXMRepCznAVJSB2UtIAPWtCFjjpFUdk-urkqMBkIbdX39MC5sqratLC5scIEHSw3YmACHHn6CB8ZShqz-GJ4Znn5L08c3ls65J1n7_leRj-pabjvKwwA3hfajLS5dBcMmg6ybJnJ0Cm11guQPheuflSYl4cF-bJblFSG9Ih25l2J0Mne9mDdYVUXSb-bkKRtLm62vaHFj5tb6u4ArWWQttXN6nqCMB88Vl62W_AGk9dsRTtoULz9iMqVsubR1DkWVnTNg4wC_C8WQ",
+      "AcnlKN1nlGJuwlHT7JBPJP2XyNJNQsf0FhYSyisaVxDb1HUZAZNqP5AFUGybVQTqdksJpQduGbuEhlMNhkoJRX0jt5FnnClx0ZgnSIE3ftjViyCeb_6KgGQe0dIU1IRrNkWXCT22oWGStRVMowbdtCZvk1pwGJLjp56929OCx5htKaHK-4Rabw9eyAx6webP2DuUSTrj2hMz3Nv-OUHG4jfsNRk39udIy8aC3o8XzAtNUzlp0qVYF1fqhguW3mMK1JVtD1vnb-dBCse93Lf6QL5k4a3reEn0y5CAkG1_XqgtjwkFtg",
+      "AcnlKN3xDg8E_ODApD6DggVbArKveKK_Ifog0pBKTX0z3pA79D1W7edK2DJ_LO_a0pVuUIELJbkOauVUOi49NZYaI3s63Pcq3VLY2qlJ7NX7zVhhQnDBr9Xh9_bxHmnT4HruIK7lCDOoLnEtkd5WM9s6_-8llf056a4jmINdWJFmlpL8ukR8KvpDkYPHnBnz_XWt2XQ9R_5K-AML0-xMlOMtDazDI4eudcoip2V_a8Xc1x7DZgYZopqe6bYL4w2wMh-SH_3mZeR77RGpTGtlCUg83hLgT1tfPqC6qXcdLJKy37NYZSzhoBPsp8gKmPr_MskHrvYve1G6As8x2pM_0o5eiztGxRsiSzySlNbJxVbK-XBWcRmawo6uAEHCe6sVOD0lgDIbRtsYECJC34runXqWL1u7j9tcVLOL2zP1pmQekto",
+      "AcnlKN2ob6jgP8h4mVdroM8xlGjlo9pC4CBos741UJr92pBiRk73VBXYPELGiObMK5DYF-aB3MGk2QdUKc8ZZnUbOz4XWtMO1WuvFsmqGuUoVA0PupI5FjqEUOInEpW3YrXhj4YGbJniZnp5cr7sOM8WNZpxYq9FM_vOh6jLnX3viWK9g9NV_Zpgv8Y1cp-VTLTF4bSQBszwcMB9Aq6YsQBA-uhhTgTgGTrgc9IDsrM8Zu-YyTEmCjxQklI0d6rUebjLFHaEubzvUQBTYNaOxhTs5FWU6yMQZpWECdHe2mTey-pHJfslZCP2rKz6jvgD4t-7ZxaxPecM_-_w2wS3CbqcwDkeUh5XVb-6b6wO6gMmqrDIfmIXxckT1yj4ttl_GG0Z0U5HLemMvmvCDC-f9NRWlizZjdSxpG-RZfQ7NuJTkhIXqTKNrwKE4nNl2UE-sQ",
+      "AcnlKN1La45LGf4EPSHAGnu6EAjB0KfGZBR2pGDp_1wcKw2zCxA4JBcwW3vxLwb4jftDX2Uv3vKjaE1c5BBdTvzYspo47i-Zb1mvnkW4stFft7ScwEswJf3xi_Uq3SGn4KibnJHv0BqxntbqG1cOivCMM3ItSAK0PC8NOa3rzlHjIqotYzYN7KciGu7h-gIZoUYz65MqSrrohldpmOyxf4zoG0R-nvf95tSAbVC8pEsMg1IS1PvcSjwjHpxXo6loB2vU8dGXOTqopipgyiAtC2d42lKZXOWRdAXGB-bufh6aOSc9xwV2IGlvIYavGKISlDjZmeb6aqa_e9VWiqGrdP0bAyokqtECFczD7bWOt2gnnDp-nav-LlWS6ePt-evLuHjAhCqAVS9DAXEb80QsbO1jaFWUxxy8S8TPt0KDn3ox8sxEg8jueIWqqi2kQr3xtw",
+      "AcnlKN0lTyI747SwCnM0QLrtqOiFCQE461qqP8L_VKB8oVwVw5mzVy7ekbUXDKFUxar_kyaWXY4O1u5dKlFDzsiMaZvhpvEqK3AnpZQcUYXaGXGc0-F9msGHgmaf6SxAIIwiLrF_H5MCtuBrtsoW8y2jrwSINZ_tz2GfxU4DP0U4Lp-HqzgBT-8Rws73ZKOaLyUsXGFzD9drzwel1vZ2xutamSwAZefz0SZfGpOaAxpcHbW5x37qJl7UwbHDfmgfSCqOKj7jX6qg7QS-a_zTKaDxn1GaULrJFq63UARDKgiXTuWXnIpl-b2scqZYEHLO5CAqfVc5axAc6wLLaoaRo6nMg53v7S383g-zsVpzI1a2pQ3ZsuGjigbNzkh58Uv_rk5Mp1ViPQowkfHFjj2fRcJjSDk2doczrZJtjRR6JI4M44Su8eXGFVDAqejfzcwHhF29",
+      "AcnlKN2a8Et6CnYL85LINeiyI4E8KxCoMvzS5sZLIPhImSs6Du64j3r8-X32obUBk6Xtq3R_fVdtp06C-yhxgvWLbaQ38tZbLFJxto4Wht7PVwiaFS95vsIWU2dbeDG31knxCPwk84XuXnQ6sTEfayqkr3-FgOV4C-CJ3kjVCh6w5Ua4QbH7RIST411ZyPM93IAaES-ROfn3QKtA2x_IR7rLo7ubc6YL39918xm8HDp6ZE2UOtkhKPRPOUsZTxi3GgFxs9fHWjbYl63Mxn50F6lFtnt_rBGhUjJXH3TZvx8sHAxQDKTyxBVNJd3mrTWkfZdXtv7mZkFYR1GVukhZCb4hUneHIDR06b_otXjt7S-gqNIZHcrrKy0a4cZoNspnE28NOrOG9ji_ed-10ayF1bS4EuR8DDuTWclnXeoY9IEud6Wsgw",
+      "AcnlKN0XCAq6rI4Z03mAvXXrUutkLjHB0z_w8gHGqeD8zAJr_b4rATWZLX7wAoOt9uhefH5czja4BzMSii6qYwdBlO5paEB15tPeN02q2P0cITM34krud7wxuZe8QI7HyMqZ5k657lq1w62QUtVI290be3OrGmsHfwb4jzlEWdv8Tk0-25mf_g_F0VwZ5Pk1ZL-knJIvpjLKQUFwNW6ouD7cAMUEpArHWXrU469jh2Gchw-CDarG5zfGcH8WTo-WBCW8GHbQua2x8OWnljj8w5il3l2S4hCKooXK18B9KiiK8sMYgNzq7JHUQfLu8lJKPAg-uzg8lmK7LjOEflalox23MOflQi0FukkubtbuoAcObSHPdSjj6Iv4y81JVqvBAIFz8dKwgUT5U_ykfLxUceHBIlR01GuYZKHV9HDqk-88iSPeRsFih3RGzkV5t0jD-A",
+      "AcnlKN3XCSREidkrjD0-lQgHPaVAq3fwE7MlTp_E2P6H2DmasNuDautcPOWoADAkynCG1MiiXg29RiXN0EcaJTjg-5vpgwnScP5kh4FkGByw_GL8iiBOtGBcdBJTRWZ8zZN_djsnEkgFcJ7bI4moEMwrYvpUdaYSeTj_JkU3gbl8sPMTHApI4dgjAMldPn8O_Z65KetH94GOgxwzMp7uJSjScB5JQAL1JXE2GXBLiv4aAeRDbh7sJZWrxNPzuNlXfOnA0JZnIs1nwGbdDeKlMKlGEU39pm9IbSzs4grC1UrWjAgeCulZDyH8kluy7pgQJROaTxPA33-tD92-HVln4XWveMxKC6zQ8348EqBdOWJqJpFLXVItyJVLT7sHyQXmOby65eI2pF79BuaK4jqjX6n-aWI4ynWJ3xM3Yj2yZXASPEMT4A"
+    ]
+  },
+  "social_preview": {
+    "like_count": 750,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 29
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: 5:00 PM – 2:00 AM",
+    "detailed": "lundi: 5:00 PM– 2:00 AM\nmardi: 5:00 PM– 2:00 AM\nmercredi: 5:00 PM– 2:00 AM\njeudi: 5:00 PM– 2:00 AM\nvendredi: 5:00 PM– 2:00 AM\nsamedi: 5:00 PM– 2:00 AM\ndimanche: 5:00 PM– 2:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Créatifs internationaux, gourmets du cocktail, influenceurs discrets.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.4,
+  "google_ratings_count": 2864
+}

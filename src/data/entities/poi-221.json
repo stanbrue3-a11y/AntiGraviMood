@@ -1,0 +1,140 @@
+{
+  "id": "poi-221",
+  "name": "Dose Batignolles",
+  "slug": "dose-batignolles",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8865,
+      "lng": 2.3195
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ59DnHa5v5kcRMetOXvvcaJ8"
+  },
+  "category": "café",
+  "subcategory": "specialty-coffee",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 315,
+    "moment_count": 17,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "V60, Cold Brew",
+    "smart_tip": "Ils vendent leur café en grains ou moulu, demandez conseil pour choisir selon votre type de machine.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.dose.paris/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN34jHK8_P_H22FdoEAjddqDfZLDhKbKYJomic7e4-Iem6y42LpzMcEuM5Vbm8ujYwXnJNakwyCOlrMCQIT5YnvSDcEFXCdOaEFfHM3JprZgd16JkD-w13b7OiW5bzXQtWTdnnUzAwXp-3vqGDRBW-0LDyUsFUKNWtcrCbf8qfH9WkXZyxtySCZkBudi2aORu2a4G6RmP8YfY3RU4v7YVmtsDlRANpcjw6aJeVtml_jg022BrhEs7GKFdvuv5teemR-CieOfZpDoLJ3wrOnKCj5p0Htn2KFrUwKoLOoLKmjCWQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@dose.family",
+    "google_photos": [
+      "AcnlKN34jHK8_P_H22FdoEAjddqDfZLDhKbKYJomic7e4-Iem6y42LpzMcEuM5Vbm8ujYwXnJNakwyCOlrMCQIT5YnvSDcEFXCdOaEFfHM3JprZgd16JkD-w13b7OiW5bzXQtWTdnnUzAwXp-3vqGDRBW-0LDyUsFUKNWtcrCbf8qfH9WkXZyxtySCZkBudi2aORu2a4G6RmP8YfY3RU4v7YVmtsDlRANpcjw6aJeVtml_jg022BrhEs7GKFdvuv5teemR-CieOfZpDoLJ3wrOnKCj5p0Htn2KFrUwKoLOoLKmjCWQ",
+      "AcnlKN1kQgOzIoxBPy9GHo4FE2FXzjDCj_FE1owFFFs_S4yFBT6W0Xiu6dCWYJkW0ulyvxFfO_-BR-l-s5nONdUu9ps-hYoi1ec19Xo4Tl8oW3RDQjrN8rMSDg9827nCabq9Es7Oc1S1_xfy7BftOMEgE3qVDAKS3_ZW7_kVJ3qAXPlgCfGV5aMp9T6BY6bdZsaI8SI7c4JvU_mOpkD_XnjbHW57uAHF20N5WVuiNULVJAce4X1mfUiZsofkA4v1-8W6wg1pFn9S2Xtl72GUlCnTnKv7hV8-uoFE6ad9L-i1W3S8UW51_r91VLX63tVwNlxlpHVBZJEG2PN9_Ma6Iz05_kaNa5HZXdpOFtrbUAyeTtxMMoZ9Qypayl5IL5MZmr8BGfTXTMJ2cTviKNBeAkPFaKIdTwzIxj8fxzmiXQtjvSgSJg",
+      "AcnlKN01uhHGh1CA_T34_-yVKnKfW0g5_oFXEcy_NAyGjpH2ACpYRSyBjncFCNDbKrKYNXa6IWiCaUL0J84HnBvY5ZMs83cVTKrGhewvBQctR2z4NoN5j3-wt9zKxTM7KWAY2mKZwMqPjbTJ6CCzT8E4nC0IjkVRsWZ0w5niXFdG3zSYtEaK1pmXiMBAT3SlEEtwQ8kIsOY1PvNJjoP3w0GYGMlZE0tTsmjxq6IDSaNG64X1qgM9pr7HoDQRUmhFunSf_gT-vOMxWBep30z-iTGmYP6628anAIhtX4pGfUSynECtc8KHj4cCY-h5QT-3YLjt4CWEJ3GB57F3qJvOpjfnbIo7cS9xQCV-8k_RRy8a7w5R6qvK_johDmcK09gm7b17sdVBOETwqZaiaBq0p0Fim1NVlvQBYLQe035kslzBMhOG2oAtE77_m7VINs8T59R_",
+      "AcnlKN3KvpreBRjDzyFQ3QiiCH6VfbzAyJwrsNB1DGjY0E0IW-H98MkM0P-tqq_YGHadZwiaPxzC5Sms7eBj9mXeczdDhzeJju4qCltLL4SX-tLaQ4cSksaTDAfKxrdppvQz6PW6HiPwyXXO693I9LAJ3WC1MV_U6YOCpZetKHAFhFwZUx1NHUYGEuBRQFRbrEhwvxAfqa-zURPSo9PNcxlwGOVn_Eccvu6P3w4OeUANt0Sto_m7iOw-cECWImNXGsvAxpI2cNUNFTBAqYUmTMOqdI1HYmwv0lTaW7NYDeNutNrL7-bbiZOsXKQ38dCCzsi4SxN4vGfHd0Ibnv3n1AqWWEkEVsJdFk37lQe7U59Q5nrg8PU3KB6DGxJQz8D0f6MR0kq10hloPC6PJL7Z-bWoK-Bbh06MFRIZaTEsQToZzgkVGw",
+      "AcnlKN04XNgJpmIIf7obgXYzf_yvVPoKY-awXNVsOzR0eD5pijIlBNvzSKaeo4hW3jVRpwj6e3EaYZsJ5OL3dEwpXxVF9rViGKSvk4MyreEErVTi2kEvwHz8CZ-ZduVNgwRGDMBEBDTw4xw8s0IUqiOE44RwBRVBzpfrGZvvPm8huBbciYDL7Bu26eqjqPJ9WUrQood6AHoC1CxM8V2whYEXAVbKLENoJmUUloKFHfeeGbYWMM0eKrdxrcJ_kXzvrbzIuYwNDIjaB7iB5yDZ9wAOeOxSPHlis4xl7uEEJ9Gpy9TC-_Jdtnwugd-aXjsWqTdnyjtlR1eqBB-sW8tC1uc_FW6Jhf3IE3BOtTqz6Qoxv2Jld-rBsW4hhCqPuO7N46Z2UaCBI3PGgp00z4TL-fNeoq8CFHrBLrfkN2zDZE4lvRMgsOT6BQ75Gca6XbI_HvRM"
+    ]
+  },
+  "description": "Dose est bien plus qu'un simple café, c'est l'antre des puristes du grain aux Batignolles. Installé face au parc, ce coffee shop propose une torréfaction propre et une expertise rare sur chaque tasse. Du V60 au Flat White, chaque extraction est une leçon de goût. L'ambiance y est cool et studieuse, complétée par une offre de brunch gourmande et des jus frais pressés minute. C'est l'essence même du 'third wave coffee' appliqué avec passion dans un cadre de quartier chaleureux.",
+  "real_talk": {
+    "text": "Le café qui réveille les Batignolles. Sérieux sur le grain, cool sur l'ambiance.",
+    "must_eat": "Banana bread maison",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Connaisseurs de café, télétravailleurs du matin et résidents branchés du 17ème.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "COFFEE",
+        "items": [
+          {
+            "name": "Flat White",
+            "price": "5€"
+          },
+          {
+            "name": "Cold Brew",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "SOUP",
+        "items": [
+          {
+            "name": "Banana Bread",
+            "price": "4,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 4074,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

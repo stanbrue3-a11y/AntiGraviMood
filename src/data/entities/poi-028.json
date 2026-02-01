@@ -1,0 +1,162 @@
+{
+  "id": "poi-028",
+  "name": "Parc des Buttes-Chaumont",
+  "slug": "buttes-chaumont",
+  "location": {
+    "address": "1 Rue Botzaris",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8809,
+      "lng": 2.3822
+    },
+    "nearest_metro": "Buttes Chaumont",
+    "bouche_metro": "Sortie 1 (Rue Botzaris)",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJh9M-FMZt5kcR2ukqXuGzgT4"
+  },
+  "category": "parc",
+  "subcategory": "parc-romantique",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.5,
+      "criteria": {
+        "noise_level": 8,
+        "seating_comfort": 7,
+        "natural_light": 10,
+        "crowd_density": 7,
+        "music_tempo": 10
+      }
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {
+        "event_programming": 4,
+        "dance_space": 5,
+        "cocktail_offering": 2,
+        "crowd_energy": 5,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 6,
+        "cultural_programming": 5,
+        "creative_clientele": 7,
+        "workspace_facilities": 5
+      }
+    }
+  },
+  "vibes": [
+    "romantique",
+    "vallonné",
+    "lac",
+    "pique-nique",
+    "panoramique"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 4567,
+    "moment_count": 2876,
+    "top_vibe_tags": [
+      "romantique",
+      "pique-nique",
+      "panoramique"
+    ]
+  },
+  "discovery_radius_meters": 150,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "google_maps_url": "https://maps.google.com/?cid=4504078882876090842",
+    "Horaires": "Ouvert tous les jours 07h - 21h",
+    "L'ambiance": "Romantique, escarpé et un peu sauvage.",
+    "Le décor": "Grottes, cascades et le temple perché.",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "La ligne de Petite Ceinture visible depuis certains points.",
+    "Le Must": "Le coucher de soleil depuis le Temple de la Sibylle.",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "/images/buttes-chaumont.jpg",
+    "instagram_handle": null,
+    "google_photos": [
+      "AZLasHqkjjf9BStVaeZsJgEE2K3BwVtCmlUSrOHJFHQXE0ki6YSoi78ggkb5sQcuFlU58bV3DC4G0SRPtVXzPxHf11d6DyxsG-7BV_BxOTYmPzbHuvVnPIFJMGBHHvrWh48NsfH6qteEYvjNIxrnzUUdURDRZD05uf7Oxl-FXbTCZzI8HfZ-R5RmLtiq2p7W5tqjVmougSxeseSlt2-bXzSvYXt15eD-s5KMcFNUxYaap4K8oQ5LJ2BD-mHshmY0sBak_PvsywmEhLnO6lVk_F6i-0IgVAP09eLEjbg7WnRFT9xoI2EG2ji6ACQ-VxUl5ldmg0Uiu1wO1AjOkvRo2oRSO0Txdj4kNGTgZwSCgMhcosqNOkr0IDsNezeY9_Wht1OhRG6a6rqquqaZ94PeS-1FuGnAUXgvuiaJKqCyqlCPOai6VcOnc853f5xgH0hj9Ak0",
+      "AZLasHoWJErCBFM43BlJ8l8I7PNZRcf4ua60B1TpLSEvyEzT2pzYl7nLJiaNga57EuQkPXXhM-zfzFJOG0PngDdGsYI-gVk30bttO__KC1wF_LW-Ah0VFRenfix6s7Zwf3nCaDFxXtniwAfdwotLoHYm1gHmeC7zgjYZJB3gZqBV23dScqDjhtP7tnZqmhPX5A7-acTuqQtxGVhmuxwwxdQFciEQrEDuZBXVJ3q4ngjz7KD8AjexjdejuLUnR1cD85eX-63qb1ogx_aoc5C2mopsJf8O5svhBTiIM1Xqf0klT3CGNzF20sp6t3N_1bD-u06KNvju2kzaCggdIg6KkdE20oga3EAfvCeo81eRlAYA5Nt9YGdYstVThX2zTV5U_7E6ts-lntbm2VCkehZdN77DsyfOJpNSAi3CKZCf2uSeDcIFcpuZ",
+      "AZLasHpakBElzt51a7vRrRBnyH2WeH5yYT_eFapag4W3tfN8GAxLk7uaGz-Mhxvn_SHSjYyg2B2Gj_2EhLvfVjiKIQ7HeEd5ZqcDWKR1pOqjqsdtYaWWqeGKOfHGjwp5GtzcyOxXBn1YHaHTOqHm7DjX1X_cI72Yw415iT5JNgwuGadebrBY1kOWA2ybrM35wITcm7ClIIigE3d9eVD_y7h7gcyUO6AfRIHG6soKPCtG4VD80yr2Ma5KCQApcaaROeh6UlcpHRkntuUXaoNH8w98KnSQXLF-2nmKkqGTYLrmNrDwlLl7B32WHYz8PtKWRxD6eUZhGriWdG3vvCVy0O02NxQdOUrDajpHWdW_m1MDGoNo_AJLoUwdQLND74hOEKmbaVCqHylRyC1Ilvzxz65VTcGpm0sB3ISR_qlGAk5HA6nbLw",
+      "AZLasHoXTjXMx3kDmLBJJALyoyc_S-Fw_p-TL57K7YVI0gPjSlHDCmtVQA58hdnUz9MhqDCWvcZqdIH9x3RtI9mOsREvCbOAGMdmnVJk_7IIxI0hKoBkNV8yPjie3V-qEIdUSl4258ejH5AYdnkMVEaBZqck1-0M2G8vnHMHgMwanbtbFi7uKeKcKjbRHQOdwtVEDQpASLwmSWp4RgpNmWTEIqXQrk0gXxQwN6AQCDYXqhg3r7zescNvDT96PAsfRJHb8tCBfMQOiFQli5Wxo7gkj8MoRn-tXuSI_j4rhTECD6eBmYQ1yrve5T2eh8wvDR4Wb29x5YlDhVg7tCyaPxCGJ35D3vUF5hmMnRmHFduAqKCFiJaolPk0DsCKMHtDDOiJ9QhNXdMt45wmY6ZFZWJNbStU90GO5ZIoj8zr48gX355ZKA",
+      "AZLasHrp5WdL92BwoTATuKF9OU3Cf8IE9XYxuaSH5uyf_jgfP7sxJ0TDpRV6UVp6y_TDOLvoiTYKpWWSDCjfulXz06cKvL0rPjIo3VmgBeQ1PEufaPbJEU2EMSQx1jmv0wbVuwvN3c10u3WN9joU8ZHI5qwbyGPO9HOYTk1Xq9ENpnoqjlApe1YsgIAiEFjJyCuvJD4CprdAW7xL_UcWqdLsQea6oy7zuAtd9JmB9M7GZ8dyIKJVUxE86YjDoBcTaAlSq_X5zpTOlGGhbmEqyDOH-hSmaMZDeMLWjxqzh1MGR5ohGRR5AGWfRL_26BIfIW3fHfNSBCjbnj33yXltb2cm3WnVmuQx4apxhGBDasJu-59NdmR606xPvnpyC6nl9s5b97qCoPDKVC2C03Zaa7bONataQGLl-1wKILRHEoc567yI0g",
+      "AZLasHo0RnTYSZAPyYPyTJak0wTB0kWoIBqjm254owfCOUfuwKpL6pK9p0Lb8-_5zrEhLfHT-Wq65wS5hfBbZrdsYqubn2ztl05wNBd4xsnAatZMOkrRODJrH9dL2DFjdZVdTDqje5n7TtSzCKYgwJxAGiv0-zuxOrELtZbATjMP8o4m_Wb1riyAnpuTCi9yNeaGwTbqEsgrupFttdlCUrBHQZhI857v4GyBr1kXwVp37TXxyb61YhF2Cjj-d2FxXGn6ejVfDJnT0iWT0rQiD1pbcBZB4MKCv0vjCPdfeB8_q05G67AqX2_01qThCx7Hehh40JN786dwV3r15WcCd84z3z6Ixt6vIZYcFr6qUgcdgzCAzyCY-yLd8DwaoEiZFcuPPXI1lLC0aCYQjMxXK5N6TUwpIIOy0onp32nGp2ciuahFJPuu",
+      "AZLasHrfwDk4y1Vkad5LkJlAb192s2_6BgB0ZmlUolHx-lsobWKbHxrEAibF_JJ11Yjkb_MgxV7QJGnkUJhOCg3dJ2rqKZg-eDRNJq8D-MuuZZlarPgwHqO3djzRQm_x81FquymJCrIhiMmrDRrHhGloT1E5YDw64woxGRkGiAb5rh_v1bOXiUQKXLjmdHDdrhJm7YZlco6AlnFwt4g_Q6ub9TQrtnPilI2PY1mIRmUx-SrTOz7FfWeHOdpov_0LF6wX4p8FrACDhkdvE3AsgdNtdC_PBzd93hR_LA1Cz6o9W1IJhMam6wIbB2QRQ4abN4vzQrwDgTKN-d3kgobFXQd9gCzDCVwIBMbE7lGr7kfCG6YxJRfSfbOf5l6VZh9ohL_F8aAECaFcl235-M5VihYTEMaWli7bpYMShvKgaju7jkIyueF1",
+      "AZLasHoU29cQoZoKpAP8fdtTxWCkPjMr8SytHRaSIq1syG-l4A5sxznrzwRTsfTN7pCs9rX8GbrOXf395ZzAQ5xcxmDu09SWmnhqaE6Tefma4TWNKJh5j2uoo6SO4ULDiO3Dcxf4l75t1NLg3OX-hONluq1cON2NuJLLq9inU5IU_SVGUUT9elev5vrlObY17KAPgXTEZyzIigAiC8K8S1CJ0QqoK6kZ7la6BZ0Ji2QHtJQ-MKLvaYaeTA-dwZobvSJac5GarVgNBmf9gTdrCgYZqQ87vqKPbmc7AsiSP3j5QlbAv7MVXfE6bqJCIuCRlB2fZBAAzk6vaz2eGxuC20RD-o6CGDQKWqX5bySPmePVQLZlG-HXnzD9_tcJIFu_9Nyq3N2ahUHZMYjdwIXzlJqFSHBOAWw1h5jo96MzO46v3ID4pA",
+      "AZLasHoPcRnUT2cCyJ6Qn27sVrMl30G-0EP4hk-IX3cQomplCmlJs-b_Xu-lRibghm7zxSba8mJPTDVGRlYk6noTdSb22ISgkiDmLcr1IKiHIJ6QvsH4dFmQlcWgLEgmXM1Atiz7qs02UQMSoikd2ubk8TtrpeDkQYRxKL7PnTBM-cB9cjrxRTrwAKi8zkgItXXm1QKIp1YsLDnAoLCeVWZad6vc6JJIbMRvPpjyffHKPfD0GfFlr11bkzFjoib4Km98wBsY_ZKt306Ty0ItNuKtfoZ3XrYprW9H9CZ8uCpmbfAIMGRy9qON9C8nB5x95IjlYI3Ta3k7IR0sUI-VccLDs50FFnMihO1RqxW5ySV-6Ux0J0EDkFYE7ZInxfr-AfQfiypE4q0ihu2kL5NC541U1AmuXoKai9fUb0S3Kn5g1_RHKaPU",
+      "AZLasHoet3C_aaWkgr1_TY4_lvTNwrlqjmXH6AzufwzEtCrNMn2zAOjDYayVbewQj7e8s4C5psTHX8Y8T0vOj3a95O1zzuuPG8VmrfJB4F5V-VEMxw87gBlQZk9_X_dYfELj6J0mp1esAKsfP-PYLHOSyLeP9UGWD9eEkXbd63ibOjHxc4mvpJymFVC_FKboewC_nhQPHa94dr4b5_0YMD2AHzg4yMsORBzWnFf6_gEwIxibJ8kHbhTeIKtCrt5N7ieXr_XgDOAni8qT7ep5THVx-vt49uaWkfRBikyteRrJ_Ssn9L7wx_paiqrrharpPE4zLd1_ZTE0r2rbjHSWz9LAlHVmS7qQRtV-cSP_EAk5dP3o-niMH2cHq61QEZYlQW5zo2Ch96I2XxfBXDL-7OPLuHncrisa89cUpf91enFKp7662Wjp"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "07:00-21:00",
+    "display": "Tlj: 7h00 – 21h00",
+    "detailed": "Ouvert tous les jours.\nDe 07h à 21h."
+  },
+  "description": "Le parc le plus escarpé, romantique et 'montagnard' de Paris. Construit sous Napoléon III sur d'anciennes carrières de gypse, c'est un chef-d'œuvre de paysage artificiel : fausses falaises, grotte avec cascade, pont suspendu par Gustave Eiffel et le fameux Temple de la Sibylle perché sur son piton rocheux qui offre une vue sublime sur Montmartre. C'est le spot préféré des parisiens pour les pique-niques en pente, les apéros qui s'éternisent et les joggings cardio (ça grimpe !).",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Joggeurs du dimanche, bobos en pique-nique et taichis."
+    }
+  },
+  "real_talk": {
+    "text": "Le plus beau parc de Paris. Temple de Sybille, lac, grottes et joggeurs matinaux.",
+    "le_secret": "Prépare tes mollets, ça grimpe sec !",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 26844
+}

@@ -1,0 +1,144 @@
+{
+  "id": "poi-069",
+  "name": "Halle Saint-Pierre",
+  "slug": "halle-saint-pierre",
+  "location": {
+    "address": "2 Rue Ronsard",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.88474670000001,
+      "lng": 2.3445132
+    },
+    "google_id": "ChIJNb_X40Ju5kcRIB28zs8-4NE",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "espace-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "theater-comedy"
+  },
+  "social_preview": {
+    "like_count": 252,
+    "moment_count": 42,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 42 58 72 89",
+    "google_maps_url": "https://maps.google.com/?cid=15123156610957712672",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 11h00 – 18h00",
+    "Reservation required": false,
+    "Le Tip": "Art Brut et café librairie atypique au pied de Montmartre.",
+    "L'Ambiance": "trendy, paris, culturel",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur playlist disco est la garantie d une soirée réussie.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.hallesaintpierre.org/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHryJG4UyCuatiC-L-2qKqCyip6S98ewvV1yhnrbNZxLwTivHSfc77ICenPoISgSH7mRwnTjsVaMsVAvk50ZjcfNnA5k-Yj0WicSB9HIAvf8ixAA5oOZzSSG81F2c-HZqi-NEdtOZ6rpCMYHc5T_dQq4zl2E-B-8OEy_jLPCWUd7CJim7MHyzFGrrgXs9i0M7Mp-TMrEkd31QuRgyIWkSZplSNMrckBRZ0TByP9oavJiOXhU4CRihjE3ufyghn3bGmxFBAUNobxA1M1BVLjSFVPt9T4JzoN6goNSVJSVlEFrK_4SnrLQ1zWvPjGqwmtkH3n0oOdRXmn3442tFNptjNkHAedeIQMDgcPKRerVqfP27oBb9MU6GCkO8mGx_ricUb5F6XWW58lYLv0ikKXWU3IF8N-dZMJ4gEk-Oa_NIcsnhg",
+      "AZLasHpq8GGx1Qc6jsxzMzOJuYRTdu4Sm55unQDbNM8u8-hQ9TwzalfX-F7aCNHz-SF2z2xj-ut3WCJOoEM4fIpwAEMxRnU_WpAstkj4bA7CA9yqQl5Ov7I_K7sDbPmiJjqBRI2-WKg6X3BYGVhBiZfFL9GexyxBWTAO3f6MaKEnD9XfQOcbD-npY-IYzIPLa1grY6Y1mPRy7N8XGUKRCVNz_t4Vj36xhr_iQ8UkBrUoYzwWMWBmxoR--5lkRf7zNGo2O6ZgWXIVmoFBh9m24ThR4B7bCwSOmi3EjAaWN4984YW11kOttMQt58jGYHIF_d48VtDwlwfZ1bJCy07q6omxW-Y6T-rKm2zGQipF6Z7Z5LhH_cJCtIrIOFppqyP8aRSDBLNcrtmToc_pfinr4AX9RlFhbpNonTMFV23RzxOHh60RA6MK",
+      "AZLasHpW_ehh0nRjzOxuzfobtwxw2Mp0Hd6kzfL9y24R6-SCCL6pc5v1q0xuGaVfDun5J25Ir9ErzDOAeOqR9FwMz18rt-To5wKc3vTSW2aCvzZjioPkcDiBfohmrvtdjvluLbQq2oMp4-b87iRzVp7OnGpT1LDQiXP63zUWGLKvseqahiwfK7dLAej9oNylUdcC9ZavQ6HcKPldHxAmnGmwl7d8n_et2FEZQb2Oy6O8u0kNvEM_iZY-Xg4c0LsqbSklH-KoBxYBmhOo7XpilYvtKfRMhJABRQUPm3J6U8iYTpVpPb4NALBnKL2oxN2qCDIx303Vw2zh9XoO9g_D08ftKhgsaGpSdnA84-_FOPq6bHMThoa-29WebtBqHeMkMZPTHIWcptppV90mkW2_FUDCQP8925VS9Y-v4H-TMDXArYpc7H6o",
+      "AZLasHrSxO59Po1UpbhMT-9zfEwMcR87JnHhO4Q4lWzpbVZhY2Dr03_0vNeqtKbHKeQTNlEXG4_wFal0AijKolV6vLVAyu2jq8M-0y5OQNBU6_xyVfU6xWU9I0rtw0EWXs2i95XWtPGkVywMpW2QU3zhZwokUXdHDDtAdm72jQhne6iZra_UrAEInpLFCA9CvGUDyEIPxEserhwwT8TamtrFVbDI4f2ksR0ITAZADy-YG5Pk4JCqweawK7tjRnvD8-b8udGKim9xctSB-MC8cmTMYWnVAJAkVQ2Vx6qPHGxldZwlPuttFVrxongOtdnJfLXPj8L4vrbN-2j-1ZA7LlFxc-Y3iqGfNHhB5xm0Ka92E5bp9b_tlmBtx7EL3qkwZCFrxPl_tbavoNjvUrWSocnXjSQzxkI-B442zCDpT-B8SYsINg",
+      "AZLasHqwtjkli6Y-Gb9HMjlEfr9ZbADAGYqALi0VL0M1AtUDjqx0eyklgfSbXz0c4etyKsR6rVwI83E8n-YZinnZQN1EgqQaA9WRU7gTkKDgjoD0Cma7odYle3cDeVfzzcoovqtMo8QIfdRt4EhxsXhqWfVVTEINIcNK1UhZPlm-YFkeWlMR6by6b1ZFmxSjtNM6kZOHg444cN5FFDorw3YMD6TCnzU9S0cxSt7S83Lo1euH65iR64P62vsdXfZZA6X1E3exnsndfbQhSIrRaUFCfisZI9UtfUY3rkYtScxld9yMwMgnhkyi8ue-bjMTBuuiN7CSfcI8Hr9KcfxTZIwz8OmPtuimKyHbnJT5lZzF7LZq3WYDd5xKzG6nVHITpFpfRJWOVV3ZHRwfRfJKn4yxMAANHUY7kiCqLa3dbEq9spu96A",
+      "AZLasHo4PJD72Odxa5gaU2KcFcGHed7X_vCyDgNlSbtaScKKb715600ZVkTFSy8zYniBlarx45qq2CQcDd95lcaMjnv3lz_aXwWzmfCzXER8nRYAXnsuvkBLT0zZbNHFCPbVjqv-9PFou8ucIYcMmWX9OV4WNSL5AXyR1F9dIZ3WY4hAjRN5qyagx_oncLiMyNQEOc4ZQspWVH4ZDoastwDkxXCSez9nzu89zGKsPjLZpmfaMFvdoy3APZpBYEVXU4K4wnkZEi7ccMaQ2E9AZZYH7W8wbXM9hDeQr4yt2jBvfp38FWblw_DPEDkfKk5x27rz6X20p5UwhJdaDTIz-bynackP6-S7-wlXYNxZuNTorHMQ2mYzFUNY94McZoMy8hqardzc7Uzfc_AKDmoBQsuTlK0skB3BkqFGhIMDVb9sX50rcA",
+      "AZLasHrfJ7afA2g24AmcKdDLQGkGvnMg0zL618Oz7gGEI3slN7qH0cyFmRHRAQSzYPMGHoluYWRBA0BC0Ci10pkao6tx0s-tLa0LP1gdjRxU7zTMzYAoZK1F5T-xzlq6jVYPKaK_fYu1LCdBNC1WzqNpwpITfC6KEzHvy8dpUZXkZ3ae5nlzBWm0ypzwlKzIqBVlvbRjdKng6_DnKy6xOEWAMOs5R2pUfyBEeEFqejbGxIL0ElAU5E3egiPvoqUyZgFXEWTxykPyJYWK2w8UeQHYFgaw8RF31mCFLHahNhmSKbSoLa-6f-zVuICxWwWaOMqLvNViZQDXIL2DbpEVrKwU-6yowMkmx9gtoKCjVR6uD7QLjnCB__UpgBIj_OcRaRvWFaF3KCYM_q2nl_LS-ZxMi2TNBQ15fRw7vs9lUuXi2kzcBPsk",
+      "AZLasHpnWVgzQJQC3wiDMKzreGMkSvZUUoUhB8eqSPAjanrfaFtNq6yCDFg_Mqd6LPZxzYX-RzEzmeD_V1dJSJkeCWOiFMdB4RYivhrN-pdsQr30qx3cvaohjEUNsrcStCnsBDfiZWZvzsU9BwED3uimJrQgnsgE6mcfudAhYMkxiFbRw8GXE4s1lHQ6ivCByYhR5BTYH2Rhhl_0SX63tB74VICvoJ8joaVvj7Q2Ubs5F9-K8Vsiwb0inGwcsKU5-EIDQI3zoPmANjasOAKxp78bFc9nlyzWR8BdE4V3lEuKzRZejjN2eAHevIL_Q9c0m2s6BU1WjwyGWCXL-jYw9orLS8DM6laaKJK8AvrV8ojJK9AsQbcRsmiNGo9vwqvp7fWI1q9wWB82Yc0cqqDkGZ20zuaNI7ijgaqVt20eGDLsm70fgfDD",
+      "AZLasHq8M9Y8Cs1SKg1UQ_GnKSSiTzX-K0y59jQWWXhPUHh8s2VX5cCIfwNp9Hg6qG2yDqjbDTM-JU4zS_p9HX9PKCD_OsRsqz1jEieZY_YqnW3oPCfS_ZVEoHnYzq8t69SKJsa3xsEL_8KuQ6KLAi9fU8gMk5LMGJB86hV0i4TWA3DsioQr0my0DqZHyNjeAbqFhnHEcXSlWUGIuNxNITW1UovFuYAiQReqxu_up_D6kxWErG0P8HpjMUjc2wfnrkUOcimNqdRwVuI5mmwBlElnKPLNoqPKsxxtY0sD7e5SOmxHLQe0YBPr7N2SdXJr1zWeGlHzN0Aug0xzrcvWZFOxkeMUc_yuU2Lb6L4Qge1j2--kh_VzLPrF6Q6wJ5oEtXySw2NvcTsSPxSphvvhPUXG3c71K1x36jzakMgiBdeJe05Iag",
+      "AZLasHoLnNmZxm_B6XIGmPl7oxZbg6-B69a0ucupViTlga6D2dmzET3DxTpPXK7SbWwCYPWxfj8hNTRxoz752HrYKCdcxL6-8vCgxXdk_AKr747X13lChLxiKg67RvANAf78jxS2xmyev7uNviRInKJ2_DrReNaXVkcvwJCzwezHuqYunkauM5VQuBflKLRsl7EXnPYWPVTP3seQIoSLQ8hJnxXIUvSsORD0UULmWkUxEJZ4cxgQYH6B9pXrnu59xtzLYdch1MXK8iv5QTwEIfEQ4OiK1pKtI3VIbY71u6w_wo_mWToRHPvC-vzrWANhCsvVxvM0B6nFnX-L6jbl_W8AqQGyxksHMAWwNTifPyN2Ipz0e7YkXlGkeKMqpNQmBgmW6o853yFALQM0YeEKd0AdXm5vBqgheREHL5Z3pkk1Itc"
+    ],
+    "instagram_handle": "@hallesaintpierre"
+  },
+  "opening_hours": {
+    "standard": "11h00 – 18h00",
+    "display": "Tlj: 11h00 – 18h00",
+    "detailed": "lundi: 11:00 – 18h00\nmardi: 11:00 – 18h00\nmercredi: 11:00 – 17h00\njeudi: 11:00 – 18h00\nvendredi: 11:00 – 18h00\nsamedi: 11:00 – 19h00\ndimanche: 12:00 – 18h00",
+    "is_open_now": false
+  },
+  "description": "Au pied du Sacré-Cœur, dans une ancienne halle de marché style Baltard, se trouve ce musée dédié à l'art brut et à l'art singulier. C'est le musée des artistes marginaux, des fous et des visionnaires. L'ambiance y est unique, loin des musées classiques aseptisés. Le café sous la verrière, entouré de livres d'art et de gâteaux maison, est un lieu de détente génial après avoir grimpé les marches de Montmartre.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs d'art brut, marginal et habitants de Montmartre."
+    }
+  },
+  "real_talk": {
+    "text": "L'art brut et outsider à Montmartre. Collections uniques, café tranquille, esprit rebelle.",
+    "le_secret": "Art Brut et café librairie atypique au pied de Montmartre.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 25,
+    "value_score": -54,
+    "category_percentile": 154,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 25,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Entrée plein tarif",
+            "price": "10€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 2153,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

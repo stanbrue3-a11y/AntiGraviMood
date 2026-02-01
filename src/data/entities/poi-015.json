@@ -1,0 +1,202 @@
+{
+  "id": "poi-015",
+  "name": "La Felicità",
+  "slug": "la-felicita",
+  "location": {
+    "address": "5 Parvis Alan Turing",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8323,
+      "lng": 2.3726
+    },
+    "google_id": "ChIJu-x-3rFz5kcRu-t9uQxB30M",
+    "transport": {
+      "metro_station": "Bibliothèque François Mitterrand",
+      "lines": [
+        14,
+        "C"
+      ]
+    }
+  },
+  "category": "restaurant",
+  "categories": [
+    "italian",
+    "pizza",
+    "pasta",
+    "food-market",
+    "bar"
+  ],
+  "subcategory": "Food Market Géant, Pizzeria au feu de bois & Trattoria Italienne",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 8,
+        "natural_light": 10,
+        "crowd_density": 7,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 6.5,
+      "criteria": {
+        "event_programming": 6,
+        "dance_space": 5,
+        "cocktail_offering": 8,
+        "crowd_energy": 6,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 5,
+        "cultural_programming": 5,
+        "creative_clientele": 7,
+        "workspace_facilities": 6
+      }
+    }
+  },
+  "pricing": {
+    "budget_avg": 16,
+    "pint_price": 7.5,
+    "cocktail_price": 10,
+    "main_dish_price": 15,
+    "fair_price": 16,
+    "items": [
+      {
+        "category": "PIZZERIA (Bornes)",
+        "items": [
+          {
+            "name": "Mammargherita",
+            "price": 10.5
+          },
+          {
+            "name": "Regina Catch Me",
+            "price": 13.5
+          },
+          {
+            "name": "Double Trouble (Piccante)",
+            "price": 15.0
+          },
+          {
+            "name": "Black Mamba (Truffe)",
+            "price": 17.0
+          },
+          {
+            "name": "4 Fromages",
+            "price": 14.0
+          },
+          {
+            "name": "Burratina (Entrée)",
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "category": "TRATTORIA (Pâtes Fraîches)",
+        "items": [
+          {
+            "name": "La fameuse pâte à la truffe",
+            "price": 19.5
+          },
+          {
+            "name": "The Great Carbonara",
+            "price": 15.0
+          },
+          {
+            "name": "Pesto di Pistacchio",
+            "price": 14.0
+          },
+          {
+            "name": "Lasagne della Mamma",
+            "price": 14.0
+          },
+          {
+            "name": "Pollo Fritto Alla Toscana",
+            "price": 16.5
+          }
+        ]
+      },
+      {
+        "category": "BAR & COCKTAILS",
+        "items": [
+          {
+            "name": "Pinte de Blonde (Pression)",
+            "price": 7.5
+          },
+          {
+            "name": "Bière IPA (Pression)",
+            "price": 7.5
+          },
+          {
+            "name": "Bellini Spritz",
+            "price": 10.0
+          },
+          {
+            "name": "Moscow Spice (Mule)",
+            "price": 10.0
+          },
+          {
+            "name": "Cocktail Secousse",
+            "price": 12.0
+          },
+          {
+            "name": "Verre de Vin",
+            "price": 7.0
+          }
+        ]
+      }
+    ],
+    "menu_url": "https://www.lafelicita.fr/food",
+    "sources": [
+      "API Big Mamma Production (Surgical Extraction - Jan 2025)",
+      "Surgical User Verification"
+    ],
+    "confidence_score": 100,
+    "last_updated": "2025-01-26"
+  },
+  "editorial": {
+    "description": "Imaginez le navire amiral de la Big Mamma : 4500m² de pure démesure italienne au cœur de la Station F. C'est un voyage immédiat avec des wagons SNCF vintage transformés en salles à manger, des oliviers géants sous verrière et une ambiance de festival permanent. On y vient pour l'expérience visuelle autant que pour les pizzas napolitaines sorties des fours à bois géants.",
+    "mood_vibes": [
+      "DÉMESURE",
+      "FOOD MARKET",
+      "FESTIVAL",
+      "STATION F"
+    ],
+    "insider_tip": "Le vrai secret ? Pour éviter la foule et l'attente aux bornes, visez les créneaux 'hors-piste' : arrivez dès 12h00 ou après 14h30. Et pour le spot le plus chill, montez à l'étage dans les wagons SNCF tagués, c'est là que l'immersion est totale.",
+    "signature_dish": "Les Pâtes à la Truffe fraiche",
+    "sound_vibe": "Rumeur de foule festive, DJ sets léchés le soir, ça vit fort."
+  },
+  "ui_theme": {
+    "main_color": "#87CEEB",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 1432,
+    "moment_count": 654,
+    "top_vibe_tags": [
+      "IMMENSE",
+      "FOOD MARKET",
+      "STATION F"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 20,
+  "google_maps_url": "https://maps.google.com/?cid=4890699243263458192",
+  "opening_hours": {
+    "standard": "08:30-23:30",
+    "display": "Tlj • 8h30 – 23h30",
+    "detailed": "Lundi : 08h30 – 23h30\nMardi : 08h30 – 00h00\nMercredi : 08h30 – 00h00\nJeudi : 08h30 – 00h00\nVendredi : 08h30 – 01h30\nSamedi : 12h00 – 01h30\nDimanche : 12h00 – 23h30",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Une orgie italo-branchée où les start-uppers de Station F croisent les familles le week-end et les DJs sets enflammés le soir. Mélange total et ambiance électrique."
+    }
+  },
+  "google_rating": 4.4,
+  "google_user_ratings_total": 12842
+}

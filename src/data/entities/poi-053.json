@@ -1,0 +1,167 @@
+{
+  "id": "poi-053",
+  "name": "Pink Mamma",
+  "slug": "pink-mamma",
+  "location": {
+    "address": "20bis Rue de Douai",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8819469,
+      "lng": 2.3345309
+    },
+    "google_id": "ChIJaYIUUk9u5kcRfAhRNL_ZJgw",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "restaurant",
+  "subcategory": "neobistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 152,
+    "moment_count": 40,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "09 73 03 40 29",
+    "google_maps_url": "https://maps.google.com/?cid=875626592809846908",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 12h00 – 14h15",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Effet Waouh": "La Verrière Végétale au 4ème étage (Demande 'Dernier Étage' !)",
+    "Le Décor": "L'escalier rempli de cadres vintage (Parfait selfie) ️",
+    "Le Must Eat": "T-Bone Steak Fiorentina (1kg) cuit à la braise",
+    "L'Astuce": "Si l'ascenseur est long, monte à pied (ça ouvre l'appétit)",
+    "L'Ambiance": "Trattoria Toscane bruyante & généreuse",
+    "reservation_required": true,
+    "wifi_available": false,
+    "ambiance_vibe": "4 étages décor Instagram",
+    "smart_tip": "Un speakeasy 'No Entry' est caché au sous-sol. Pour la verrière du haut, réservez 30 jours pile à l'avance.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.bigmammagroup.com/italian-restaurants/pink-mamma?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
+    "terrasse": "Rooftop 🌇",
+    "réservation": "Sans réservation",
+    "bouche_metro": "Place de Clichy",
+    "cuisine_type": "Trattoria Spectaculaire"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrtFs9OEKW_YGrjFJQHwKFAIRChnK3B0izTdY68rLn-FDw5_Wt5PsiCpHFmSmdWs0lHO7V48XMiJBsXxpAd0YW3B3J_PPTA2XH6b9EJI26-5t8AdRjGPuuT510X21LGb9sS_UtNpIJbPvg5FPkpBmeX2S1QtUcp4sxh1K9uTqhARFiAYPqFTLeczTdVgyCNBDGpFVtMjK9OqgnrGv8kDoR4kqmmrKaOA2_D0GhKZpaG0wG3X511-7PQIZx7XUGbTrIpt6SKRE2yEqT5B8J0vRRUD2aa_Y7BszFnu9C1Pbl_bg",
+      "AZLasHovqECqwM4NJWMNJSl2fdnXMNL9hjEmZa9QmfM0pIHn83Ubs6JozZaDUowwAzGZMp92ed19bsk55sJmXWRi_yvpt00HclstwHfDsCH6V_90bb74feeWI8Ysm8huD7K602hLQQ5TChFyw2byKHGlHnDgP03iNEdlrs2DWnyaxVcN7eUkO9xawHj3qCH06EK8a8VwJhckekk-gDxrBob8TPSr-fmeC8yauAbN0pEDd9RXH0VSm-tKwJ4gvDliaZKTUWOccSipNWqCyaG16zK_UbcASlMvUTvAMxhfM-0ySKV-39UJgV87DwCbxFkUSKrOUMMAw8z7FEhMEeBHhiCH9-vawItkOr3_SovA-B-8nTkl8Ck9DIPz6FXt3qYqxkg9ofe_-XqIMX-F_0klNetumrJRjZtyuoiDEwE88R_C2pERdQcDwrgA5AkGAP-4GOxu",
+      "AZLasHq0W1SCs7Y3i7YkqLE_mFlbtq5mLbXXmB2aegwNksJeF37a69Xd3Bg3iQ4fO7tABZ7Wl54s0htndp5tGzQY83flpuMCxedN9OeXx2Ihv1MzPJnyoDSG2nW8IBG0hPZSGZgzllBhaZJz2p1atVUOWb9nFA4jUsCA1Cei1vNFpKX8e4LmqXMWRrdA3a-JbePzhwKZlYdtdO3HmpXqkADf1whyVPfwfq5HdyASn9xdBoFV-lDuA6FiHnNNok45XqJpsXPut2hZs0sLdRE2-d6LdQZryTYSZZAXBxo5kbVQV54eUw",
+      "AZLasHo-fWWUTFIacoocMufolrxQrnWENTu4e_XkyywLokKKDjBi_RDTP4Wfu7R7p_NM-9QmtLl_PooCdQHk43acgFFgL9wdrYDU0PppzEsgpbSiaaSJIGvt52usKiho3rItcVPP70SxvML_RCmBvBGb0hx5rizCh2McxT4eqRJKN1mom3ftAfmqz9gOZhcy_CVlZtI1QLqTLM19IeUGkEMzjTqiS1FBLYQKkOY-l7RMDKqEkQume5bKJgHqXwK3M16VajUKKoBFiCNe-JezTVMMJomZajZTTvCvyaGevy150A6-d1OBVyL4gVogquSc5_Uy-6tkpzYSvIxKI0oL0ccPT81EmAXfccBMEfklg4ZqzXtScxeEu5R_PnJOwM4GpWPhXIh2cfsycWARrA_FgTKof9nDD0YUM1ZK6TsrK4VxbVoBDVPStdHMB24EkdIiET_E",
+      "AZLasHra6arjab1-4A7D-2kIYm6r4ZtmkUxBf-_wnNWkl8duif9eqcEqqf8QF1PXkuuUDL3Th_SJ_lmP1q1FgI5-TnG6BvShkcI5Gxi7lG2Yjk3hLXj8knmMDsn5FSNGZivhfq7-yDOHYeZTrnthUs26bnufesgx6t-n93VD0Jna_Cr3BetEHpDl0etxTN2Hcmg6aZU8iwzeTeHokZhl-48nMAR1j2dVTPWWkssAcLivnNX7RzJfOkBns24OyaQZ7ypObfWwGvgd5uN0E6NyEhUVZ-PLiiAwl-VO6XBAmJWfVMyQQfnuiT_WqDFAt9xezWhmqj5OVYrzzjpiqZw0dFhO--5QjIuGSh8tg5QuzTvQeTKpgrtVKFRqt5IDvLcy5Dgs375Y_4uV30Z0nSUde9PT35AOnuqAF8cP44FHk-m8KcUR2Wpz0anxciqQlKnTDQ",
+      "AZLasHoq9ObUHRtH1suMOCt9Ck4nKlKt0_4xNV9f25g7u9Yt2Hwd7iaRJmgV39shD0Rp8oE722cyNiS0FTow_5y7EELCQMs4DM7jP9uP-es8aVsPGDa5mHRHgEdA2C0tzOC3_sMqOpSiUJeIZeuKJj-MLVB6PdlleI-y5RkK10pil6wTozHWfvuRAVWMfN28yf9Rt-7zp1_qUVJ8_lpUKqk3hXE_eMn0CLNFTx8YMZWgEwAitF4mBRJ3ANX5Lj_RSwAMa5sdLNy7ZEdstgUnwqcX2rD08PZnRn1G7FyB36LiYbTyjZX9nG7zgS1kj4qyA7ymkQ94Kq0ioneph6cvMbCSeFPcRD81FVKNEf3bzF_BriyKAQ60fROHFfKdv1EjFSsrnT97sjjk0dP1uJpGSTFbxQiBYMITvVIU21vHRLuav7sVxQ",
+      "AZLasHoQMFbhZd9jJfs6ak7py_BvJXNRBUJdLqFTAmKrh1HHCecAPo3U9zE6aLOxdlU5Xe_qsZ-fwLwOHhsCfcUA97UU5rgTjnDQD7So7fho8buGFWvDbyyjqLuLM7zaiB1cQTr2HLj5MKtQR0WIP45wnynpelKZj_czjfdkH7v32nX0o2lag-EHGEuuR-X_a3084NHw5xemgPUMtIZYsagQTFFXJYVbbsk4iefL0PhA5hYUBw4DM2oq1SRt5tufoxf41P2fOdFx31NjXwjWOeWZRErf8j3PcBCVLhgwQ5cHoXSC815eve6cEy84EAz2r3W0f7_vg5hHkiVDnRLveWHG_qt9kFpCIx-E0Y80ljO5nvkVFgJSOxlEarykApFYyy0nmWT7JQZ4W7wQKhrvogfvmEPK8Rj4FnWA7Z_1ixZ6lEu7zQ",
+      "AZLasHoolPq3G-jyvHf3HAK4SqOlk9GYfK0lEq9MuYWHwx1euqs5PK31PxHWYISexNZ5oVtYSKXLSFYMwF0ZIWGwkxWCGH4WQWtLMPItiHt5yGhWZ0_vjLij9yAidNMygF65Rc8mToUb6i4q09NXFuhKcZJTIY1agHOMrP-_FzbAB-NOhNVC6L1PGn5XnpI8HpnxjuXfuyAE_OyGgJeLksk2nLByw0mCNVdDw2oWe3J5EDxIKNlWgpsnKDQLAkPLCaexyJYjAO3-5CrFYT8psPW5EjovEmL4x9nSJYe10QTCE5-blmZ1Bz5AICkZMQG1soaZ16hJn8ObZWmGTPm0uBUZSRKjiRbGEEsTcaemZDPM4uiWptAcSwpFCHNcCjKVpc-MmVoxMimLdq67yQVvxNOzKyjU4E9Kx8vIwDSsD1vbDV8Lm1yAbvXflOKP2HxV_CL8",
+      "AZLasHoJMRMEpnoLh5tXptncJlYF_DpuexUZOOW_dfy31WCr1EHL2EHKQZ6KG8Lk3BXRf3Cul8VkojLbvfYnh9qJ2bZDFXFwbDRfufSRDu-3lQQpXI8Xfq0zdHi-rqojntgxwpYhvdmrrpl6SpzgQPWZzVpvmBEC3Dbx4XM0g0_utb0PP2L-nNCyxtkGCF2Ctnx_alRgLJCKwlzUgu75eIQaFmlbJUYMkhy3-xl09D5bdQz-TFsHnZAQGu3w169feKfzIwaGoTHSPULFtkGz8pNidcFcy4WJbCcqD5u8Jr2k6TQ3fyAURa8m0u_EOX5JT9tAne6Pc9Qv3x1CTFgNbF60_ED1kkNjjulvsTe_Jrc9IuKQt5QZiL69g83hf5EbmHRQavxFznQJM3cqQdkH7cCHWFXNvtt73p55dqT7nyIyBTpelVi9CyKQ8X1SRG4VU5pT",
+      "AZLasHoPHUlgEYMggkHk1cUi1hcF_ZSGh9dkHHC44wo92VCZzNQyyr_P079ml4WOoTQmyrhGnF0Y-jjs5bCvChwHIYRe2pVOZYhqcE06KkFxW_ML90JL_GQPgwJL5PjHTYiGw5U80wsnRS579L-5j4a9A8-joODsvekrE1BMA7rp1tsNhhDT40d-6yddfxhYusmaobgKvQc2K-HZftxOSgtwHxmrwGyZpe3Ii7zM3rgqm-gD5K8bAz4TEQ29sDgWKu4nBnfP3fFpBXJ7oNkqxUTWT-BXdm-fqNubrooSz1BDaKWcWT505Et4fwMa6r_oonxu_qgfxvFoB9r_J6EbSa2LLJAUeuFrZT72X5cLxbrV7VCpZZqBkRHCFVMRe2GkVvYcuZ0zVKC2h_mN3GnuV1LmdNO5xubj6-YATDKxXhNKfEugp8bq2F9LKy0VMQ5_IX_u"
+    ],
+    "instagram_handle": "@pinkmamma_paris"
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 14h15",
+    "display": "Tlj: 12h00 – 14h15",
+    "detailed": "lundi: 12:00 – 14:15, 18:00 – 22:45\nmardi: 12:00 – 14:15, 18:00 – 22:45\nmercredi: 12:00 – 14:15, 18:00 – 22:45\njeudi: 12:00 – 14:15, 18:00 – 23:00\nvendredi: 12:00 – 14:15, 18:00 – 23:00\nsamedi: 12:00 – 16:00, 18:00 – 23:00\ndimanche: 12:00 – 16:00, 18:00 – 22:45",
+    "is_open_now": true
+  },
+  "description": "L'immeuble de 4 étages à Pigalle entièrement dédié à la trattoria italienne et à la viande florentine. Chaque étage a sa déco, mais tout le monde veut aller au dernier, sous la verrière époustouflante envahie de lierre et de plantes suspendues. C'est le spot le plus lumineux et photogénique du quartier. On y sert des T-Bone steaks géants et des pizzas à la truffe. C'est toujours plein, c'est un spectacle permanent, c'est l'Italie fantasmée et généreuse.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Foule italophile, instagrameurs et amateurs de truffe."
+    }
+  },
+  "real_talk": {
+    "text": "Le vaisseau amiral de Big Mamma. 4 étages de décors fous, couronné par une verrière sous les toits. C'est bruyant, c'est drôle, ça parle fort italien. Le Disneyland de la truffe.",
+    "must_eat": "La Fameuse Pâte à la Truffe",
+    "le_secret": "Demandez 'le dernier étage' à la résa (sans garantie, mais tentez !).",
+    "le_son": "Brouhaha joyeux & Italo Disco",
+    "le_must": "La verrière au 4ème étage, imbattable pour la lumière."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 35,
+    "value_score": 85,
+    "category_percentile": 60,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 19,
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 19,
+      "label": "Pasta Truffe",
+      "source": "standard"
+    },
+    "fair_price": 19,
+    "dish_price": 19,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Pasta à la Truffe (Copper dish)",
+            "price": "18€"
+          },
+          {
+            "name": "Pizza Margherita",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "DOUCEURS",
+        "items": [
+          {
+            "name": "Tiramisù géant",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 45544
+}

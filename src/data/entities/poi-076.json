@@ -1,0 +1,200 @@
+{
+  "id": "poi-076",
+  "name": "Mokonuts",
+  "slug": "mokonuts",
+  "location": {
+    "address": "5 Rue Saint-Bernard",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8504,
+      "lng": 2.3842
+    },
+    "nearest_metro": "Faidherbe-Chaligny",
+    "metro_line": [
+      8
+    ],
+    "google_id": "ChIJlSThMQly5kcR1fXHGctIH88"
+  },
+  "category": "restaurant",
+  "subcategory": "pocket-bistro",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.8,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 6,
+        "natural_light": 9,
+        "crowd_density": 5,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "event_programming": 1,
+        "dance_space": 1,
+        "cocktail_offering": 2,
+        "crowd_energy": 6,
+        "late_hours": 2
+      }
+    },
+    "culturel": {
+      "overall": 7.8,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 5,
+        "cultural_programming": 2,
+        "creative_clientele": 9,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "cookies-de-fou",
+    "cosy",
+    "fusion",
+    "libanais-japonais",
+    "pépouze"
+  ],
+  "ui_theme": {
+    "main_color": "#FFCC00",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 3120,
+    "moment_count": 950,
+    "top_vibe_tags": [
+      "cookies-de-fou",
+      "cosy"
+    ]
+  },
+  "discovery_radius_meters": 30,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "Le Concept": "Un café-resto miniature où l'on se sent comme à la maison",
+    "Le Tip": "Prenez les cookies par 3, vous regretterez d'en avoir pris moins",
+    "La Faune": "Locaux du 11ème et foodies venus des quatre coins de Paris",
+    "Le Secret": "Moko et Omar, le couple de fondateurs, sont en cuisine tous les jours",
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation conseillée, surtout le weekend",
+    "ambiance_vibe": "Minimaliste et épuré, bois clair et lumière naturelle",
+    "smart_tip": "Les soirs de match, l ambiance est électrique mais bon enfant.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.mokonuts.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "instagram_handle": "@mokonuts",
+    "google_photos": [
+      "AcnlKN02vfNLaTcS_qyWKZPUWtj_et8cHmZ0s3aBAE27VHnb_d2_pjZ69nlycwIO8M_Tccf8esFykR3wtPSbHDG-NIIAnT9oSvc0LmgCg4bhl2UBTk_eIH01ZwK911a6ENas2u3LFLqJWB2qKQjTOaR_VDMCnsiZhtY80qDrxNSDvN2D5inHesRrjQjH_RoHoipFG15XO1jdGa0aNV6enRZZ6J3N8liemI0V0qWQk6p7_llavIBe_K7QTZ_iCTv2nN5ZpiIq0qvvaxfOEvbZrR9zqa01nLNENVPCFeHjIivhP139coJlhQr54a0KQUOpbvIY3zZT6OG0ffSWasl58PVbCpaSWU7AIlqlkefc1lqHB8JfzaIZNkpt03sHoAlal5ovWRLBjDGVYxaao-lELIqlSpi3xBn2672ly_6LceH5QCE",
+      "AcnlKN0XPukoaZlxZxoXyX1Sm_uPVlf9muY-DwxttksWAlbTKeEK0FoINGiVRxsyDlxySMpFIEMBRGZRgDm7yE6EWfqfcwnV-1BvEa8AZ6kZ0Lc0B9LneJNSbfzRXZk57ANbnIRq4VbdIwLbcG-e4DZkzAKlnCQ8su7jXyC8fVgTVihaZon_k0qzMw4htNAExB17Kqw_UbPTK7CkPo-6IaBi2ZB3SETZD_SuocNE5Wdex3m08PfSSQ0Y-GH5cg1qHKsE9FN_iCbLY7ktoP2yyKnc0lhlDFkY9XGq8q5eAfapYBUeF0ptxvZDbI2g8uGShMnZNJOm08mGjhHmoNafTvNb3AkPBM2NP1_7ClHzj33JDsZLc3s6A02MxMFzTHM8mFOiUry_mhW5wDot3XEGUCCM34GOYTONk-KLBQXyJALuNXY-3WV4AkCgj4ffKfgkPct_",
+      "AcnlKN3RRsad_sRz_apey597kXwIozrVpAViwmGDErqrRHlyXYEsY_AVnJvINMK1g8DbZSpi3WMqQdyj3TniMA4JqeAqYK4zzTMNJncDZBHwLAiXBrg7hH0b6ZDUy8-FumfZjdjEsVGn1vt8F3Vzd5xKLtfeXz35DWfYQ_I0R_rwM-fMfhnsyH4i_F0_Qc-h2FGFVJnUifGAo4QHo9FvlZJmep1FL_ZByi8e-oOb7GmAOTVMO2YQvLUH0uoBv6ETbNcm3O4r3-VxHtW1-BxYTKEgFEocmuIeLuwHXFau9YmhCmpb2uPuMz4ebACYoPYnNOVOMqai-dr6lVvWh8SnbOXRq5vp4RvDKYPOkV_ZpfPwChlCqrIvnf4w6cnoqceIrUbTuD6Es35qE5O-4cmtJUR81Mo8a0XjUrb52mkPHjWzGaLxFkgk5fXm9seVI_DUzeqR",
+      "AcnlKN05HexWCTKF76haLaMC-CfCnAFo_tKTSdpPn_dPXKSuvmiR008uJcTugYNHGqqEkL5LQsXmUKdXpI1f9TIfgC98DrEUc-RfvMcVPqOKw__uli2c6OFWKsqkWU9TR4n10i3rrJ1JzuXdOO-pQNZIwVaN5a12lNfjKWJd1pGF-Zk7uB6hFPbaRD4l3BH1pTFef3sBtQ7u-tyM9tSJBIjB7JFkRZzPg7Rrp7YWULT2kAXP2crcv8EHMJo_zkkvNn5czXqYNhGGKsqu9ioPMYZ_2y6uRGFamzBPMYw630j9fzeDL4x_ljxCLy1rkweXcASQu0tW294q2II5BZ1xyAXZzBs5g0jBESadzXaS6NlW78_5uj864WU84SGT_K4w1ShQC4RcsHEyIetulEt557axN64521Hg4lW12pMCdBL1WRGdwiU",
+      "AcnlKN1miajI82i_BI4nQT1piFWV79-oqwLQcE9Lx84Xqt1RkAXj_1t81admJydiZZiTiA-hnP1uKQ9uPjkM6kQjJlFvpo-kzOsQNcCWWb8xaWM28z3h2YLIBXklW8eAzVmAzcgGX0bi4suXNWMcjKWyARGu6ZsIEWtxKOnLUb6qxmySTveaGf7Vnqx1xrMeZ0AG9TfrYX8hUYZF14hONQtrIsDFRQi_7G1rnrHZ-_1XKJL_fD31ntVvNPeqBhTJ6jdYNqHaa0OiHF9_Waz6N7SPvzNALzwaSB2rTAgHEG2YBWuRTucQ5xUNfgU4YZmYnZqEeZuFogfDJciEwrp2VC5SYfhoBR1PxD6jAbRr9-ZEil4xNgO5B_hm_IIeTo8KK2XjLm1a7hjKin11g3jvi7xczXKTyTVQysgDMFzM8cOg1LAuH9dRHa64LyWaV2RgdjzN",
+      "AcnlKN1fq7B4KegOPcnHysZS193B0KbifKZSWWb7saiw-R4Bi1L6G20WnblbI3WERwxVEw0vGCxbfGZxI6UPojKiP8fkZ7HdkeDSfd76kKXM63qHIipRo4ROHYN8QL7mkd-s49uNyPMGYsaiw6JDATGM8ps6g3NfUveaWjY-fmXxSlcFYrlCXa-3cScw7bN0llNgEl4EiQhTUCfg0RkaI6LnS1Pg-SpzuAxNDmLESe_YZqfwpYhCcxSETSp_mlTTLfafEvdaAw95jXBuLuSFWHiB1K-gLLSQmo5w_NhPCG8QgnIMd066dGAQZadLVRfmBFgGYjmmwQEZpqRAL2re0I1HCCLMGRelTNkxSpTVqVjkbxgWQ9_vIh9-g5ut56pCKWRoBIZOGg14e2NXCVgbxvnBXK1EAj-dbO1BHzo37wT0jt0Z0oHFl_DxnkOivtg5yOha",
+      "AcnlKN2Dv_do5-5XP4sOU8iB1QVeMzkY-g3zG68dWmv2gFpBh_JC7UGwCnJDuK8FKIXNC3ior_GVxMKxUJ9H2feqplJ458PVzszjX95LbSH9E3nQVIVpH3K6pNtXfiaP-Ha_3axlve6okYqm7unUfGQudiHYTtRLOasI3uNzEwOLa_wLwg5d2Ok1TgbLMiSwGaXlfXCMjVJT0vT6rAlHdnPji7TGJ1uZGNYtU1_hwBknvKXkUv2VOw-FybAUCFtY9nWC06OnsaWvsPrD1sYNmycDu9tLXZj1hncuSAN4Ol2rRR7mfElzVKwA6glkYlrMbKFekM6XQmRODzopkM8PgmoQpH8pcXQdXK6CRQiVMlUR24rzgkwiM5fQxuBKidZk08-Hb9q8iqJWiW_yaGcc1BPj7iSyAtzB3ptNybqHUF46waf-ArgpJTdeBLYBPLYrjQ",
+      "AcnlKN2z3CDT9n-TOdg6afRm3zivY0GbD50-SiRMC_XtGKQYMpD6xHpp143sZJCpabyQR1tSHaxoTqnAmNC__WxLm5pIqdoDisZFKPiG6J0Vzduy83PrnSNYkaKV4j9SfXA7MB9kbyEJ9lVq_pum-3WFkEcMVNmoRNLlp6Q266tOKKeXyb4mkvCPlbX52_3bZ-5tO4Du1GGTpygi81F_rePHuaQsMLNtzsCrN5C_e63OgEmtDUaIi5Su1Z9xm2WwKkswoRgVeAfyNktOvZMt82g6nyeovitfehnp8oEuf3j4mHyjpH8j187-G15BgcMNgy-LQdIqbUU9Av-en0QySddHSxQRAgK7DPFlWj9DbZyH6GyaF0yDQE172ZgplikMl7Dd7AWxDjKAZpRFk-FHQ3aVqii7SCwvRS-Y4yvbPVzxjxnuSlHRkgBw0_BsmAj-8ewi",
+      "AcnlKN3j4FTm2aOWkT8GIomSHGcnv-T_IidWzy4sxDK_kC4Pzy4EuiweEwg7JmmHpQnGVmpRA0O6FWgyctjzYSvfC57tYL65dfRmQGwdUMyzRjJUN7_-8BKPjCvyI91jVW-kmyfPqnWEVk3UHhVSNrY1OYhXDqr-3gqm_vXZiGy8_8MXooFEpLV4sNLHSjPU8wra-q3ziugNa-yMU0QnsHWCNfd6sKpZfbkV9rn7YAThabqEThnkTTrXPSk_2W7ar4MNOHXi7M8bUxJc2SiyukG2a7XGwxV_Tjc6LvNI-gKQfy_dz14lINf8GSjZF3wE0b4tI6doUnur5nnQ3X2w6ijSVwz4cxM0JbBBeomUTP7Y0rE6qG24OHEimDQClf6NhgA6P4yEdb73nyRq13jjiN-tPFKcZN5yUN0kCeW-YMWJI-7NDrqwmipjzEzQTcMfNg",
+      "AcnlKN2nMX6k7A5-I06SNU8aeE-Y2hnXUOwiMl90vM-nE3CaR0VCHZ6dO1vQOfhq7RTy3nF511NWDLKpW7pkPFufBNXL9D9PPsbNyEOSHkOrrBuDWiVSC_tQcp4tJL7IYTdf3_YMcHjzkva64BKmprcDCF5DweRs8egLOLsdgLdigTQUMoyzLXv1_7q_xsn_vqsp5ptYgV90KmB-BoPWaaNFNHt_M0w4EGPRI4HyvQrnL7xqiS5rsnoumTvfLFqt3pRepaC098A5tn0tOLWI1EubyHDJOl46vj1q7TxiVZU7gC6o2rJ9DzuVdm6ccc8mYa2ih6KQERXsugTbfk6GdlqukSIR0mm0Nsf2i0Y5yNQFnrykTGhZ7U5Vfl47_eJvdHbePaUQTE5CI7IYAMBe6d9GnIugkUSfRtPQAQbLhAdTOWVuumi2ZbmxVsQT1gje0A"
+    ]
+  },
+  "opening_hours": {
+    "standard": "09h00 – 17h00",
+    "display": "Lun-Ven: 09h00 – 17h00",
+    "detailed": "lundi: 09:00 – 17:00\nmardi: 09:00 – 17:00\nmercredi: 09:00 – 17:00\njeudi: 09:00 – 17:00\nvendredi: 09:00 – 17:00\nsamedi: Fermé\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Mokonuts est l'une de ces pépites gastronomiques confidentielles qui font la légende du 11ème arrondissement. Ce 'pocket bistro' est le fruit de l'amour et de la passion de Moko Hirayama, avocate américano-japonaise reconvertie en fée de la pâtisserie, et d'Omar Koreitem, chef né au Liban. Ensemble, ils ont créé un lieu qui refuse les étiquettes, à mi-chemin entre le coffee shop new-yorkais et la table d'auteur parisienne. La salle est minuscule (à peine 18 places), décorée avec une simplicité touchante qui donne l'impression d'être invité dans leur propre cuisine. On y vient le midi pour une cuisine du marché inventive, mêlant épices du Moyen-Orient et techniques japonaises, et toute la journée pour les cookies de Moko, célèbres dans tout Paris pour leur texture parfaite et leurs saveurs audacieuses (tahini, miso, chocolat noir). Mokonuts incarne cette nouvelle scène culinaire parisienne : cosmopolite, exigeante mais profondément généreuse.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bobos créatifs du 11ème, foodistas avertis et couples gastronomes en quête de subtilité.",
+      "tag": "La faune"
+    }
+  },
+  "real_talk": {
+    "text": "La pâtisserie-resto du duo star. Cookies légendaires, brunch parfait, réservation impossible.",
+    "le_son": "Ambiance de cuisine familiale qui s'active",
+    "must_eat": "Cookie au tahini et chocolat, brunch complet le weekend",
+    "le_secret": "Ouvert uniquement en semaine pour le déjeuner et le goûter. Fermé le weekend.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 17.1,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(13.3€) + avgDrink(3.8€)",
+    "main_dish_price": 28,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 28,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "LUNCH (Sur réservation)",
+        "items": [
+          {
+            "name": "Entrée (ex: Labneh, Coques au zaatar)",
+            "price": "8€"
+          },
+          {
+            "name": "Plat (ex: Cabillaud rôti, Veau de lait)",
+            "price": "21€"
+          },
+          {
+            "name": "Dessert à l'assiette",
+            "price": "11€"
+          }
+        ]
+      },
+      {
+        "category": "BAKERY (Toute la journée)",
+        "items": [
+          {
+            "name": "Cookie légendaire (Tahini, Miso ou Chocolat)",
+            "price": "3€"
+          },
+          {
+            "name": "Cake du jour (Citron-Pavot, etc.)",
+            "price": "5,50€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Café (Sélection Terres de Café)",
+            "price": "3€"
+          },
+          {
+            "name": "Tisane maison",
+            "price": "4,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 581,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "poi-025",
+  "name": "Atelier des Lumières",
+  "slug": "atelier-lumieres",
+  "location": {
+    "address": "38 Rue Saint-Maur",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8614,
+      "lng": 2.3806
+    },
+    "nearest_metro": "Voltaire",
+    "bouche_metro": "Sortie 1 (Rue de la Roquette)",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJZZTY3PBt5kcR6jdmzirZ-eY"
+  },
+  "category": "museum",
+  "subcategory": "espace-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 7.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 6,
+        "natural_light": 1,
+        "crowd_density": 5,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "event_programming": 5,
+        "dance_space": 2,
+        "cocktail_offering": 2,
+        "crowd_energy": 4,
+        "late_hours": 3
+      }
+    },
+    "culturel": {
+      "overall": 24.5,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 10,
+        "cultural_programming": 10,
+        "creative_clientele": 9,
+        "workspace_facilities": 3
+      }
+    }
+  },
+  "vibes": [
+    "immersif",
+    "projection",
+    "van-gogh",
+    "spectaculaire",
+    "industriel"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "theater-comedy"
+  },
+  "social_preview": {
+    "like_count": 5432,
+    "moment_count": 3214,
+    "top_vibe_tags": [
+      "immersif",
+      "spectaculaire",
+      "van-gogh"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 50,
+  "practical_info": {
+    "reservation_required": false,
+    "Horaires": "Ouvert tous les jours 10h00 – 20h00",
+    "L'Expérience": "Immersion totale dans les œuvres (Van Gogh, Chagall...)",
+    "Le Conseil": "Réservez le créneau de 10h pour éviter la foule",
+    "La Durée": "Prévoir 1h30 de visite mystique",
+    "Booking url": "https://www.atelier-lumieres.com/fr/billetterie",
+    "price_range": 2,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Prenez le menu dégustation si c est votre première fois, c est un vrai voyage.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.atelier-lumieres.com/"
+  },
+  "media": {
+    "hero_image": "/images/atelier-lumieres.jpg",
+    "instagram_handle": "@Atelierdeslumieres",
+    "google_photos": [
+      "AZLasHrRJKIU9K2qfjo-oo8UNjo64wAlxohyZ2uonIfW1arOZMbDTKpu0dDv-Do0QryI6HW0LP85U5ywYmnTnpwC7H3iISqrB2I-ax-KFUWvHEQ-5ANyG-ahJYpRbIfA9zogzMVRyzL17EjzZwIGj9okrdLBkMoYZjIonMAcLbri8Ij5xfXie-o_8BT9hHfaN1pYx5nOE7EbLnoR3RLhXM9bR5o9fIZtXIzPdLcvhhih-Y23Ibz5N7tBFzsqPY-mfdplQawYx-GghBNJ-wSsLMmBhc1JIdTmpwOK2jUJXHTv14aAZA",
+      "AZLasHqRbququ0iAXXhHZmYm7kVgqvQFIoBz7y2nP2KLl7lzXkgrbVIKBkfLfKLrXUD6gVvvlcplIX29WrvjtIb-VIV83Zs6jIByXnY2eSZ1I9tiRimY4j9XWeM8z8MLsprrNL2sCkaTpp23w8r7apWwhPvH4Rs4wUX5swnFdE9J8E39EShoVSPdyEFIzZh7Wt9MJzcyGZpZl71Tls1qcv3lqjLDYjwsZtA2zNbgqfQhUaFjnjpnshi0OsixaY6avg_UBzwVapioRzy8zf_PWAYtS3LF_VEVqycJgOXvnSHwl7OAMuVMQTryg79-rxg7q9kweJHlDNq2n5I1Axpitmf9yU3hfUTGVaJJgRjZJy1Zt5a9UECd6HHvsmftaJBxHxpXIAKymCzqnhXCWLv8QzPhwPivzXADFvNSaHYLfdpqXI1WkKRz",
+      "AZLasHrpt1lUe9viG_nHNeOZZqfpCkT3W9sGtZeKh0O7o_5g6r0I4v9Vv2Ghfn-sxr1aZfUaQ1lHRsVdwUo3hSu2BfcaUfQi-48QoF4tryAMh7V-ytRqFFZJYey9apEsHg7MogXjf_iJSycRBKo3t6mEHStbwEPORM7Q5RbxlWbOill7qogyqs3WX3Fo9xcruEp151WLoGlvr5NRs1hLpwgK95xGJvImbTQTWye3pHkXzD1LJW3RTa8JUiVO3aGf8yNOEQX3Fjters8_xSUSuoanR6oX9GbbMNIBaUkmq5QhrSqbVIkI5CIIGhkV6xS30LnyhsINdaGS4btMvJs4ImTRMLyIdcJomw5b2f1pD5HXNpTTRfT2HzA-8kdBrgdGHvslsPuqfZFmzF72JZAlAE1kFHpExsl1Yb4yDGC3L23Eg5tMowzm",
+      "AZLasHrmE93dDQ203YNuUtJtOjpnnHIpyaEzNeikSY1pMt-2lqWub4juwp0PXpLRIa-UEH8R2Es6DoQo3dk--FVYkNWXQO6Gt7QQRVgS0UjKL2_hWVn49XWdeskZVpfv3FKcttvJQubmqgTQIsQgFs5BJO8txpQaZaAgugGi7G-5Mqvbty866zfspzalYAUYjdl77sNKOyDVRxf5QZOHppUkheQFmc9WRwBGGFWtwRbscbfdbedbXvIGbKTiRXYqJZCHCvIWotyrOzwLxJA5pMFpJbG1mD0SlTAB-SX1JPwjxYryShcjl3laHXK925a-oD7-ZQZtNYg0tXi3rVk1aGNTxQXnI07u4oCx7TWF8JBkSubD5aNTMCXTZ4Zxf9UQl4Rn26cKqvU4GK9cKaBGitI0bsGdDzG3gOKG_mc6PfdBiWY8_jV0",
+      "AZLasHpFW567SrzZ6M6E6CSS8F65IxZUSTTT5elGybIpxAVBCEneqxFbJCod7VuxeULVRe_xNRIAHvcb9I3H1MvYkCItofMhuvQYYZ5VL_AJGP4ZkFLDnOeXIfqCeOGb735hgTZ9fENIQ4DCc-x8Ko47_HKn4HW7tT2Ek8_StW5HWaUHgnxMVOVIzpQzobTdFjiGwCxtYV-wk-6SrrttFyJKmB52gk5UU6GXgCwqIG1fY2ZWqGSmfEJGQtNVCniMwaAEUW7ElB0KOVFp6zcdV_X4mKpk0I11H_TFq9nkQ9mZFnMDAOqfrIHRXLdeGzcZ5J6VttRxtZPLWHRM6_Amk-KgMS5ajXHzR7uO7RAMPX07Pgl3D0jEsvRn9tkXBjrklf7YF6s9FigZlU2wZW9RQa9Yv4JdECuPNOj-dQhHESBEoIla7w",
+      "AZLasHo4wxbrRC5HYfPUHrU56fG2HyjZUr7HDF7xz1bsL53rnY-7vN5fhBRBwLCZvNIuKcscjUfAe1_WK3HP_EDLZe1rv3rzsdjO6CTbLRGSEBGt1Ucp8mMZ7fc1ChI_wptZybd42bExIR5xvP9ucMcSlAawK-dz-Tr3ka7U4yNjDUAmQ1q2GTrC-qFoWGB8oVUnvRZ3EbbyUdING2nQvAi62ZQ_eX8E6r4xNLAHdzgDhmHhEPvraBonVk6CO1pzDAlPea-zkOxBBoyTP4N45WtF6yZWVTGmbIFOIkWSN8V7DQ_RQA",
+      "AZLasHo7YI7k6SD1NhzY326w1WGfl9WMbOrOUPruleAKl0Nno7bG2kBtdfZdBCzl173CCNYIwktQTf0oaMKztvT-Bb2GuAlEHFlDOk4tJNG10yC5uOOhATV9AsuqhzHhpmP_gCaxl-ShJIecrE1nz5ld0DgYQHGidcf4XZVDtr7M6gKY9tTAA4DWwZwI3VNoN5wGUICjwEfcRJmdt08NEZ2413OD9QqvjimFp4XreueP_s04dk22FBNeL1CRh4UgYqXg4UgX5PvZ01PwU4sFHFtI_MEUz1hiux-440uVucj2jvzZtLB1AYxgjNsV5xTAOiFzMatwDp1brYtVq_OkWuNZocuEx70S6D7Zkb9Cwce-nda1xuAA3WY7uluxhrzPRRavVQ_jAzPcy3RvXyFmY3FX1R8usSxFZDgPzuiuvi1w-s-XcoU",
+      "AZLasHoJyAIEnyrHVwVWcKDv8UybzjdlwZgR00Wt1GXS9o_qEcXsX-X-ZyJor1YflDG1YWovpmnEoVgJ7DSrS6G2fIL5cylXkiBv3f5zYV8imuneCzzSWk6PiMmX7B8snNBehi079amlDbou5AP62VtIQUSUbzGosHzxd1oZ-Dqc3KhD0UZp0_L_9JzyxIVLIsCmXWsmG7ihp_g4qu99PDN1cHbmR8luxxSZN0vwco15mrhpdFblQQw23I1_VpZPMnvIQ5CQ-cIZediuSNYONFdXwcg06gv1QnKG7PHchYWbJRfFG3lB6rszHAEUwEUUIoCPoP6oJfKcAcguqmSzphn-J4XroBcM-u4pY-PAb5uBS881lTVUY_a7po6zXyGcqWnbG3s8jZlCX7kDbBykuqXh_5YfM3WcIbpHf8Gz9PQGZRE_oGPt",
+      "AZLasHqpybgzBq7WngOwZ4MF2YW0GpEagN_AK-pRDWjPJFl20_bXMYW0qb4UNHj_LB7RR-YmZfsKKSEYKEBzQL6MvhREhUSX_U0ELJ6hL-Q23EqDtxZrpvSU5PFXyueU0-UUaAOyOfh4oQe-d5wRxBWv0z_pGbIv_LRkDVnOF0sdDIDw23VEoHk0iWn9ZlAw5TCSfC-ScWnPdC_7m5Ntcrg2bsIs4EZZ0EDXMpxJjdE5G3HQwFaMcHSjbYudmOPY6xj0IrEPnhpI5OnUrjOkio3_bWyHJB5qA9OQcYRjK89Y8FyMRQK8ZigAaVDzE8DFEdwwiuZoAr6i94uUq6shh-YkHdBErcYID3SanJTSX7vPzXK636sF0kCUB2uovymt5qX7j321MBYQcY-LY_EnWzHhE1jryXmMyVXqQpWqpooPTYh19g",
+      "AZLasHorhl76GbcbqkcXPOP3WwqeM2ldeyAyY794CV9MSNYeonf8eQze5JmLk4yIsehFrHCQ3rIuPS3lLRPPAzjeMg1OD4IjaCLJeARB6mKSoyL0DIrLOMJQ7Nc-rLUCYtvQsGXyXfrAJvO78VUiQHOZsnwWRaByVaCLCXwAAWUSdS6CXn7Zf8of1EVW6vM_xx5Z3r1b6Bo_MpPPDnKxrNrJH8g5IQNulir-iU5yOhHs3yCpmVZEqHZPkijqWEjoS71qoszDs2XI9L18vm1yfJofPT_3yie8rVXDkkuu2LJGsmgN2cdcsp7g3fGuVglLkxgJ-w_xuwYx60QVKaTxZcSgr9vJbUmEf22Iy6I0GOUiIvZED_T4aK7NUAur14F6ZVk8KlNEyTR5qltYhrVU06OwjRSS4QEGTDqn6uYoD7Ol1CGVhys"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 20h00",
+    "display": "Tlj: 10h00 – 20h00",
+    "detailed": "lundi: 10:00 – 18h00\nmardi: 10:00 – 18h00\nmercredi: 10:00 – 18h00\njeudi: 10:00 – 18h00\nvendredi: 10:00 – 21h00\nsamedi: 10:00 – 21h00\ndimanche: 10:00 – 18h00",
+    "is_open_now": false
+  },
+  "description": "La première 'imprimerie numérique' géante de Paris. Dans cette ancienne fonderie du XIXe siècle, les œuvres de Klimt, Van Gogh ou Dalí sont projetées en format XXL sur les murs de 10 mètres de haut et sur le sol, accompagnées d'une musique immersive. Ce n'est pas une exposition, c'est une plongée physique dans la peinture. On marche littéralement dans la couleur. C'est l'expérience artistique idéale pour ceux qui trouvent les musées classiques trop statiques.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Instagrameurs, familles émerveillées et couples en date immersif."
+    }
+  },
+  "real_talk": {
+    "text": "Le blockbuster de l'art immersif. Projections géantes dans une ancienne fonderie, expérience sensorielle totale.",
+    "le_secret": "Expérience immersive sonore et visuelle. Réservez impérativement en ligne.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 17,
+    "value_score": 8,
+    "category_percentile": 92,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "EXPOSITION",
+        "items": [
+          {
+            "name": "Plein Tarif",
+            "price": "17€"
+          },
+          {
+            "name": "Tarif Jeune (-26)",
+            "price": "12€"
+          },
+          {
+            "name": "Sénior (+65)",
+            "price": "16€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 35499
+}

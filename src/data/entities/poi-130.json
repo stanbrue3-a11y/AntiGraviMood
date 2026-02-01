@@ -1,0 +1,166 @@
+{
+  "id": "poi-130",
+  "name": "Lafayette Anticipations",
+  "slug": "lafayette-anticipations",
+  "location": {
+    "address": "9 Rue du Plâtre",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8591728,
+      "lng": 2.3548369
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJSRtqwxxu5kcRj9KfcP8YN_k"
+  },
+  "category": "museum",
+  "subcategory": "fondation d'art",
+  "mood_scores": {
+    "chill": {
+      "overall": 9.2,
+      "criteria": {
+        "noise_level": 8,
+        "natural_light": 10,
+        "crowd_density": 8
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 24.3,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "5€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 2:00– 7:00 PM\njeudi: 2:00– 7:00 PM\nvendredi: 2:00– 7:00 PM\nsamedi: 2:00– 7:00 PM\ndimanche: 2:00– 7:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Art contemporain, performances, architecture Rem Koolhaas",
+    "ambiance_vibe": "Bâtiment transformable, ateliers et café",
+    "booking_policy": "Entrée gratuite",
+    "smart_tip": "Ne manquez pas le Café à l'étage pour une pause calme et ultra-lumineuse après votre visite.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.lafayetteanticipations.com/fr",
+    "terrasse": "Patio/Cour 🌿"
+  },
+  "real_talk": {
+    "text": "Une architecture mobile signée Rem Koolhaas en plein Marais. Expositions gratuites et boutique design ultra-pointue.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Véritable laboratoire de création au cœur du Marais, cette fondation d'entreprise signée Rem Koolhaas est un espace mutant. Grâce à un jeu de planchers mobiles, le bâtiment s'adapte à chaque exposition d'art contemporain, de design ou de mode. Lafayette Anticipations est le lieu où l'on vient découvrir les artistes qui feront demain, dans une atmosphère de curiosité permanente et d'effervescence intellectuelle.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN27v2eQi7ilb-1obIzhnxEEY_3f-tjjlBIzRbNNA1xWtWmpwpfmLsANcSooqmonBVIXe4Dmx6wVWTl-g0i8BTgF_thnVLCXFKBM91bzdlZcrROZefykwf1XEpWt9wNckolU1JiAxW8fxPxzZgVuRibwDCwNqYM7w6Y5R0n861H8s54FCL7y2QYb1cJqtI8mEEJKfc9N2smPRp3id--TAeDn2REWOoDTJbOn8yXN4UXp84I-xE-q5ns558P8hLZ_1BQMmgnDa_rFAqQxB9ZaZJl37VuFsKnh6PLCEBidfgO1Fg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lafayetteanticipations",
+    "google_photos": [
+      "AcnlKN27v2eQi7ilb-1obIzhnxEEY_3f-tjjlBIzRbNNA1xWtWmpwpfmLsANcSooqmonBVIXe4Dmx6wVWTl-g0i8BTgF_thnVLCXFKBM91bzdlZcrROZefykwf1XEpWt9wNckolU1JiAxW8fxPxzZgVuRibwDCwNqYM7w6Y5R0n861H8s54FCL7y2QYb1cJqtI8mEEJKfc9N2smPRp3id--TAeDn2REWOoDTJbOn8yXN4UXp84I-xE-q5ns558P8hLZ_1BQMmgnDa_rFAqQxB9ZaZJl37VuFsKnh6PLCEBidfgO1Fg",
+      "AcnlKN3Cn8WYgKFgz_W-ib-5CBwB20LeRbw0d4kNQ22kPUE8X6ihPGWH58i0NnhbhSo1fLnGuSJGIy4sNLlXTf9QY9G2pse-Bqu93J47_4ixyKuocHcxGZD8ti4eRoTnvUdDknv67joewE0DF0FWcHBEaIQp96bxmmJeFEc418EiVYnNPJEo_c1a-1v4ZApgFOSWmF1NNX1EeWisFyA87l1K5PdeXmDNCQnZIKWy4taybPO5vhFGfZjW3OH7Wt3egkdFTs6UHLExJx982UKXQWMvF8cWhzJa8-0rkF5tjnRd_Ht2pQ",
+      "AcnlKN3ujhaoFH9zvOWZD3DQ9ieH98G6Z2I2tNZFDDNf-zQt9G-5aIS4AY9JP9OKSCScgIQxzl4jehrRkTpjmureAWya-rOZ93dAcdrpHTiGXgggCScDbs7S8CuZBCVJQ1ENeof-fbrbfAQSGBhMOZNxRxvysBZtptBTd5e6ZLm_byRykSnj8tab53-ei0w7CBQfKvufmRx5RhhO6sLmED3skAaUmIXqhCJY-lBpb6sQlQvMbHOgYEG5XKrGFP7ql2uWmRYyXTJRR0UPpqwq3cTRZODRpVn4eBIJHtXf2Q9wh_Ue_nptFBfT9VKGsQiRFQKJS9WBavs886c30yPKpTbYxxJpkrI0ZI1Q22w3oXs3z2Ax7LBK1Ox_IbJwQmC17_EY02wMKww1madReGHFZCBXeGfSYkxvqEEyzl0vrrYlY-FqEAA",
+      "AcnlKN2qg4rMNNnuLJM6egie75BeVvYgtAT9_IVyzQXLVWtzL9j4q3HXqORR-rYQxU7u3Ju4rwaupXRe8vdVxnTwKNcfVDC47dipLb-H2X-_R-L9tepapxGgttEVEvIztgHBjsAwOcWuOkfEBH6MkjFRYmDcxes4C0maHqq_2HcBBdn1-vQLL6umH3smt6IfsnVC1Dmh7tJQlpRlDM_4hUrG3pDlJhnymitsI0F4XnK4FsdhG0MOHulDsEUz_1kP61rZyaD39TE8WeDwEba4n-2MiQdAwfRIktBK0qsd49WZQW4Lkt2msBTLyI4RUjvTtb9XfjPULWdRvCx3VJ4p-1cdsKpnRZlMR0pP4-X4aXi3orwUQe8HNjK-VuYsm-GnXJmARmBoYKKq7D_ZEw9EbL8sFK2aR9mPhk2h79Eg14xvBgTMBQ",
+      "AcnlKN3he3_o_gwSo5NZUNozSZV1MaIK-dPtQVUGE2ickpHAMFjlexQYn8nAoEFr9xQ9XJvMO3KJ9zGQvJBJaJQoCcHUD4aX1zTAakXPENSPJQ911jK1HwlFV9IdEUdHVsRrIyAKqRyTFglv0Vpy1b7woEakmWrixg6Cz2biYEG1-j76UKRoKFD9d04OhYPZL0vL4qdi_TyqxcDjyP6LUl513Z-eQe8hAWQQOjQPtHK2RRthy-DsGlkos5pvTubppiJQb20mdqb4_TyVSLpkQ4QXW2b6pDNn3otnfLiehi-TMHzU7e1gAAPaHLXtqE5aY1ZD9QVEHPnH81Q8uMncMbvQrMdXXPdXvnHaDVWUNydpfKhYXfk6k8DrE04bLpKsvkYI3gf8A0-kY9kWkJanHHNgMRJ6nu3UiqOO3_OaJJnUKSsaGw",
+      "AcnlKN1fJIpCDDQHo1B7g6HuBZSTCft2ajbiK8AalewARDuLp0gfwB468B7_n-tBYXBhjqPZ_cXmguDWgBv_VLPMICo-niKrHtIIRaQLrea5D0nhrsSY8FzOau_j5rf10VQIGiCVqRInSJcj98c_eBvkoTnUAd34QCfWqx6uWShPXzIbvKB_rhZiALZ3PK3O-K-b-KY1lZMec9CGLIoanEjNr4V83LXFiOJY7sfZ9ghUw0HWL4iCL0NxKWKfsaNv4lFXRf6WMjmH9GGkuuwzrX9VCtSQXxsGRDGRMzlQPcTJ4KV7R6C1zRio-jV70qTsTlAn5WNjAWcNl5oAVb-Kga8g_k_sK01YsSv2nU_AhphPAY_gyTZw-Pf6y3DGv-DMAwEboZ3sJKZkrO3ciUPtRbj_y94vub1Rwu3ejqJNO-yP_Os",
+      "AcnlKN0rh8bm7Aw0scRBBiXJVqWUCeK4X4IeGg2ZFZR8O-LrhjBatuzgpZsCaHK3yLNm4t3at2RLnLJr7BEjZvH-y5TZCc_3lVQZGzznS4wxlY4Whc-nQ6H-mEodynteo0iVobfBkOCb8V2kp6RukxVDY7A16rzO8t7FRqCWMvNTxO_CrwS5-9PtAnn3nNGVoWciJj4D0mVMxG_82J-ITTrEkjbQMqDlLu3baH3oxro-Bu892gFW-Xgsr_cn97PRpQ77xaErSGRt5lfjE52CiTV5ao3XqcdmJxUTfRJPLWqOuBnz841CNOf2cgiFZ7qso4YDSvlQRx13iIdY8b3ouJYRhg0SwlojYPizOkIRZhrAWNPGMQ-W1Tm5Y4Qrs9qTPHaa8_YVNRJuOyEUBJQzQQGrQZGB4NhcUy16pQ-sW048r3xEoZxq",
+      "AcnlKN2nNEXI6l78-9mhxYcUWVG0jBK4KjCYmuB05W00c45DmRmdiJ41Q0pwwxT3VRR0-qE39NZ7MQp_C5Tbfl-38asv0EUOpgwYc7JPwhcCT0CyWl2_Njs__mQKWeU2jjPE4SibQG9yTlauKCOixLgspc3t4nUWoTQRSuqj3CK8DQDHvf-_aoSRZ0LYbRUQzQUsbq36MJagcrzQBdJjcqplCAt0uGr4t13IvePBiv5Fnjpc_4oQYipqKIUTTmxyv5BfRN8rFOhEfDlZDsPI9CPOw0j8N_16HX_XDbI5m7k64mzCuadS-XTd1alwOSl5aPYf-zdkiTJfkV5EjyVAneV3TB-fpo-PwFIYwUClPqr9v3Iigifgi2fx9qJovrUpJ2AH8PWgdn4SM8J7Oyq_n4KcxpNgv8aerInCFsZu5-Lz5p0SfQ",
+      "AcnlKN1oA--Fi5L2ZjLW93NqL04YZYEZ4ZpLTnQ8arTileKJes05pE5vUctURpXzbJCfZH-INlxQo9VhSZoBTWSN5mCCJeAnlxdsmciPrcYeQXm2vE1Ls01pm17YRN0OkQ4x6Y7qTe9ISnSa-RsTxLc5D7sT2QUBaGsGab1ox0MUYo6efWqNdoN1A6--2PguIdayc-yzDjka-GYMBqD7D09RY7oRmUZ-hjuYqIu11a8yXjOuU8t-sDkN_87XhBDrWbkf10sCMZhvti2m8qLcj8TykmhqNS5xLTGQxSM_Rt5vbUJtigmDaZy1ib_KchSNNMRSoLsIfR8bDsP8ZlItWBB5-eQ3isedXnTrb8-iLq1gk3BaXERU9ZdUEsFABDDDDq6ByLqmQbS1eaGB8PZDAsn3elW9WNoL-Go-V6W-_uLqvJac841B",
+      "AcnlKN0BVV--SNcvcuJEwCWz-5Rkh_JwxQNxsaHl-KIKzaoSxsAtO1ltJiw9GNIWOPwanZr-91vTOMi-0vGsWH9Bl4ia6tckLThCb71uoY75Sl6c8twvZY5mf03W8U3b2osHDAV_omXp0uX_WWxiycTgFIbG97ImbRpCXwOcdtCa9AXHEqu532DG9XJD8xWKHK3_sc40vwirOCc99yPUpztJ86f1aRNiIZbeJhJDi-lTb54MHY25ktutCIlChAjrFzCjkUQ1nvVWDpE9YnOiHmQhUg2X1xk9WOcVFIXwCvv3fmm2_aCbm4VOZeyqMMrhdFolwZqNpJHA6a9qdnLwllRAUYcNgCBDiXOrqjLeA0MEINj-F5Pr1-6T9aAIUGXRFWliy5o1ma6KqEG3arCEMT7lHxpPsT0PBnPjemlG3t-5ojE"
+    ]
+  },
+  "social_preview": {
+    "like_count": 566,
+    "top_vibe_tags": [
+      "Modern"
+    ],
+    "moment_count": 36
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "5€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 2:00– 7:00 PM\njeudi: 2:00– 7:00 PM\nvendredi: 2:00– 7:00 PM\nsamedi: 2:00– 7:00 PM\ndimanche: 2:00– 7:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Artistes en devenir, curieux d'architecture et influenceurs design en quête de lignes pures.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 4.3,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(4.3€)",
+    "coffee_price": 2.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Expresso",
+            "price": "2,50€"
+          },
+          {
+            "name": "Pâtisserie du jour",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Expositions",
+            "price": "Gratuit"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 684,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "poi-046",
+  "name": "Square du Temple - Elie Wiesel",
+  "slug": "square-du-temple",
+  "location": {
+    "address": "64 Rue de Bretagne",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.86448739999999,
+      "lng": 2.3607212
+    },
+    "google_id": "ChIJKyPdwAVu5kcRJuI2fRjeD9I",
+    "nearest_metro": "Temple",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      3
+    ]
+  },
+  "category": "parc",
+  "subcategory": "parc-urbain",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 421,
+    "moment_count": 65,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "google_maps_url": "https://maps.google.com/?cid=15136561069376856614",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 08h00 – 17h45",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Nature": "Jardin à l'Anglaise (Vallonné, pas géométrique)",
+    "Faune Sauvage": "L'étang aux canards (et parfois un Héron cendré)",
+    "L'Ambiance": "Vrai jardin de quartier du 3ème (Familles & Lecteurs)",
+    "Architecture": "Le Kiosque à musique 1900 (Concerts l'été)",
+    "La Paix": "Moins 'M'as-tu-vu' que les Vosges, plus reposant",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "terrasse": "Patio/Cour 🌿",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/equipements/square-du-temple-elie-wiesel-2425"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrgskVVo7HRjO0NiU9YIMkfJzSqjkiG0RDsIKHyeUOWw6oSYDfhyiNagn4niXJe7cSNAJT6MqpqgPxjfnIclbYKcnfFlpYHk936wcT7ncxjlYBBTY8VT2gUTAyXIwJbGUNYsvdkH4f6c7TsNjbbCA8dvrS_Y3loHgVOVLSDjb839OKV3ZUghSYkg3L00hGrvh5m6fJxNosG8CwAKmwb7cVafRgNbk2zoBSzOrwC1ZMHIgCd9JLneJ94Ee_vg03xHCXVd8SarmLX4TmM6NiJAPn_IxxLYq_qZX2WIX70i7CAbQ",
+      "AZLasHqbM5rQmSVJGVV6vR1hKlFswzeelEqA-5FGbHnr5TY2DGMC5QXx6SkcdIFQoonLPsZnbx1cJaugky3c5kwQOnnuH8I03LFGZRoA70ZCXSdeD7O80JBiLtQ01xoS2eTB3n2yi_6GfyqSs2OfAEkC3roP7DWzQ5yY_htgGzD5CXlGjHNXlP8qv8x1zuHh-C3TgDk4k15-13EovM4lrgZMCbfBiGItEIvNRnzl5_ghdL_EpEC-eUCunY1bz-79vukcn4VY-RhEH_iD2XXifUD8tfo29GdBpWseslURicyK-KxFGXNLK3L_ImmETeB4_RZ9V7LgozQTiCCthcbZ_RAMGlS-r6eq59s5ZjO4Ml-d5Rr7cJML6HZCQbWBLILsqtgoseXXhh79mImhTQTxAtf6bNMJ2_9WPR3D6eLbViwr_lRPjw7K",
+      "AZLasHrHUMgNptSuOM5wvHDQSDGY0lVULIpDqVWixa5x3_t7Y6SVZJKHk7y_9TRRUTc4mguakP5D5ikzEd7tvK0EJAQ7HTYSg1nLDCvHMXDxxg4RapC1n54Npq2YyLdNlNsEWo3Dl-XVacF8V3bANWdfSgR2IHUZpJ7tgMhtthuF00RN4ZVeY5ZPKJNp1pchlVEfYboGLOFnWOPs_Nn3QDi6K5yh2Wz_lmmQ85SRZ6KpKNyczQbBWeQyiAnZr_v7p7SYg3a-GzmMMg-va_qiyF17I6IXRRBXF3NpZKNDqCPEV2RayumQ6Ad02L_WMJraBU5fJ1oNjmA9lEbVTYRse2CuDBZtZvC0wr0DA49C0HXnZp_4G7FcSBsj-1tTMIJRl2ANNKbL0eSqZLvyt0Y0Ys5zBrnaKzEi8wlev5-5KicYAiE",
+      "AZLasHp_vf6rKPi4jYA397rL7BGw4khAzKYliyKYxDDs3Y9YwUMkiZM3m4GS_V1H4g2JqC_1ImAGzzHax-I2kTbRnRydn2tAt6vm3kUTUvfSMlDq4mFkz1Prp8xjYUQ0HM4A1OI6elcpLF4QeQqrANwryIIhBvOOdKucbiA04fA4n4WpYvu1kRxjFj2cEeahvFCrTHuqaIrT49lyBcJ7x-sUDzuOD_TGyJDfwKoxayOfgAFXaUOj_JV7mV01O5gpikNiLGsfEVTUhZoYXC1pzgGR9lqCd7crDbKLLFZaFAMclKHZj46Z1d2OZZyiW9UiZERoBykDhjNaIbxIqizOlCcS_4LuibTNFSkBgrOzin7iDBmK1ZqWrryDzsPBg3vMWlJINMhAU_OcnSSWRsIlSMaApB3trLynvv5o9Od-XaPFFeJTVQ",
+      "AZLasHpJxA7Wyl2xy0pfpgaUJ_hwMY_BmYhmi4L50dWWZN5LPjtcXFGKfk-azFF6SnHrSWry7EIv6vjn_0Zgr5WVr-OhmGSj0tEJtfuvUhi7SV1bIfDxmPNsDCRpBXjAufDGdRrRyR7ysAiH-6F7fQIWzvdivB61jcjgzQwN65pghqdpSq4HSWK0VATODE5haGA9ztqTK_ow_irpN_rjTrAaNJLO16wc1Px5kmTC9QRQ_stO8Xfe9EfzwkL5nscAMZQ1fFQ3cCa1okG0SqKGaSaAZ2DRTFkQ9F9ILBVWJM1x3I2hzQaH_N1YIR_KHSbKyBrKmJASn3NDFAnyqYXMLSI5oV29vHxiuJ2YWTlGKdMQckJg4DHwtcp2bfRCOg_XJ1cn0dJ9PdkdJMFPuKBltQLqFMsBElzBZUla448noAYy_tA",
+      "AZLasHqza9Ajb6BR6QRlqS2V6uBSanh1nA70Lem3phyhEvYs7_6wFr7dAoKd8yfy-N6PBVGjuWPelQROW0wyYEH5WzsfIPCpm7qpC_NwHZj6GICUn4VQBmDJb5BhImBHao6qz-Sg-g0RDs5EFZ5ufFPYeUJ6vkCA_lBQ4CxrdncX-n77Y48C55WwDTMDMfZFfI4vc8tNWaPI1djpk9XfXTRnYLev5y6OvtZYPzyRLLs5tea1alAn6nvR6kdicklwGncqCHDbY9U3O--ltalJkJlWU6RLyj5sZxA4FSXR3Dc7kiu_jAOmDob66ndYGru9JmFHySTteV0uRYNnV4oSiHVaRn-Bj4HHRij85LPZAmK2YxzzaPjQ7V6AL68gZZWT0p3aGnEzgVlW5eM5Y-0wV4anM5ZNGB-F3xSqEU4GSGJJ0fJ5NfzX",
+      "AZLasHpDWhoYcysQ_vSeGyh94WJ6zOS2_IHQIZ3o-Pyv6ZIlqXcpNjJjM5bXxcrG3sMYilkbJAjWaRSekLvfNuR_FgOW3L9DODnQ9TsPvIXElBT1kO80YF1EvZv65br7lEvCiNhh6r8LRbGSd8-0rEKxBi6YcZLEZvNCnIhPGdT0AhcFoMi_34EZGDrJDYUHQ_bvxadyrjwYCMRIjQab3vnxTDfMgh8BAO2ULqcvs-o-VqeVPjhM5eT9iIHUGSONWa_iKlAQdfp6RvCZOnufaR_XuO8tVUJiiHBk2JMWsNgS5czLdfd9gGskPnAihkPlnZAhcfE0z1nvxmlxQSCd4FfDoqdxpC5jBvXXKP0Pi7qvdx2FcrMxpPo8PcOmb3A1kOEiZHtc6Y-AHQaEc17TMSBz0de8WH3sntDWAdghiYD0B6hN-g",
+      "AZLasHrpWVkFS3DksbvCtwkIuyF_APTZi1P-lKXkOFrj-bTi-MpY_DUNYO9gTH_kqFccmoJBtFXsurfXkCE56ZRIHhuPDfx9jelTaLAsWSXXlbp4Ky43-KwJ6X8C2drWGiEaVlhYMDVJILvCnamp8tG-V_1QlcmTPMTbwpfbN4AzEup6VMOy90_g9TxbMqfUzL85FtWn0Gpy-U3ujLQtgl1hZlXMD__vhUSQa7v4qZ9PBWIAjGqn5JJiI02dwLIZM8fchb4qWUDfnG8Qpu5D7ZVerfoJtTVtP4h964orMV0hxP4KsNWxZRSXzGq9ee_H7V0klRNN79O5AtCtDK_3LFoBvtglKn_MLYNezsA4lnM2-j8-YAbJRqaBzwf5v4kQJFe9JthE0MWt33RC8KRciITzK1hBDNqWxO5lK8I8a3q8CmRyFV9T",
+      "AZLasHrtvC1hquTp1PEWOcLG_cayHce2iDl8jqxWpBpw0NxvvSPP7_3ZxjFAk_UqdHrYgk2trpVNPuyMiM1LpuFHgZ9AAXWXN-vNffzafihb4o3mhXfTT87nnd_i3GBeWMrJPsdCku3e-qp8UL_EQ-Xf4YyYkXEbCHYxunFchozQxZSFvAAMcVlhAjuVa1Vq5zWe57NLNcUdVgVFJ5rxUGhsh0AwfLwdSCkOWTuQgmxk620iAWr6bGcT46ZpeatJQaaAgaoCKJQ3f2QRZLaHGxYXLQ6V0yI9Ta16Kx_XqvgYMSNrr4-nacLE8XtPXQuVzK5oNV9lENzZkpoZgeQ6HMP23_pHIvrDj-pYTY5HJyaYlTFNspC05JE7X6DaDguCXGuKVKVfARZX0pvy5MPBO_yTToMA6AlOGrNbb3ioqIv5Cqw",
+      "AZLasHpmEPAYR5jxdMfEeFLJ0TVKhsKrklhPsX3VMqUUXgG8AohjkRPh5RmtggIPGJKrPIJ6HghyuZjmsvtrjqSWNJFgs3yeS4UtEAUPnxD40aO0zvbboow-tgEM0rnqvejcRcvBKtfjXVOlWlUWzAuZ6O6ilAtYFGQZc9kE-oC6Jv5SfbSd9yMDQ92RHtzm67jyccNaC1y-NpYExYozXV3qLF5cFTbSOQVAXTcdB76yxY52FKASdx5-h8GBEUJLH7Y2hikzw05YlwmmdD9ELhGdyFPktl125qGssJkmhDeCWnzzL9f99G7RQ88wVHQMzTNxLiKxMV5lRwpYH0RaRke0OMyNgvcb5wOi5Nxai5yJ6BQd0nvGrDxWlqbJighBbzANOrLmfS1kqNSEE2jWqoe-nshN2PNHo7Am9Lu_yuA9YoTZkg"
+    ],
+    "instagram_handle": "@paris4nature"
+  },
+  "opening_hours": {
+    "standard": "08h00 – 17h45",
+    "display": "Tlj: 8h00 – 17h00",
+    "detailed": "lundi: 8:00 – 17h45\nmardi: 8:00 – 17h45\nmercredi: 8:00 – 17h45\njeudi: 8:00 – 17h45\nvendredi: 9:00 – 18h00\nsamedi: 9:00 – 17h45\ndimanche: 9:00 – 17h45",
+    "is_open_now": false
+  },
+  "description": "Ce jardin paysager devant la mairie du 3ème arrondissement (Paris Centre) est le poumon vert du Haut-Marais. Construit sur l'emplacement de l'ancienne forteresse des Templiers (et de la prison de Louis XVI), c'est aujourd'hui un parc paisible avec une mare aux canards, une cascade artificielle et une pelouse libre d'accès. C'est le spot pique-nique chic des habitants du quartier, calme et parfaitement entretenu.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du Marais, nounous et lecteurs tranquilles."
+    }
+  },
+  "real_talk": {
+    "text": "Le square tranquille du 3ème. Mairie, kiosque et familles du quartier.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 3493,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

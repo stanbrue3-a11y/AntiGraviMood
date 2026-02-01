@@ -1,0 +1,148 @@
+{
+  "id": "poi-049",
+  "name": "Experimental Cocktail Club",
+  "slug": "experimental-cocktail-club",
+  "location": {
+    "address": "37 Rue Saint-Sauveur",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.86606399999999,
+      "lng": 2.348261
+    },
+    "google_id": "ChIJY5aj1Rlu5kcRjAbdhqjInIg",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 465,
+    "moment_count": 84,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "01 45 08 88 09",
+    "google_maps_url": "https://maps.google.com/?cid=9843963511667754636",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 18h-20h",
+    "Horaires": "Ouvert tous les jours 19h00 – 02h00",
+    "Reservation required": false,
+    "La Légende": "Le bar qui a lancé la mode du cocktail à Paris en 2007",
+    "Le Décor": "Baroque sombre, Lustres en cristal & Briques",
+    "L'Ambiance": "Institutionnel mais vibrant (DJ sets le week-end)",
+    "Le Service": "Barmen en gilet, précis et ultra-rapides",
+    "Location": "Rue Montorgueil (Quartier piéton vivant)",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Cocktails Experimental",
+    "ambiance_vibe": "Speakeasy originel",
+    "smart_tip": "Leurs planches maraîchères sont une alternative géniale à la charcute.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.experimentalcocktailclub.com/paris"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrbYCrzE6tFaFII1rfQbpPACw-VhMqNGtCnfUZCkhlfvvRWePsCzq-I634Fh95Mxe9xgEtzq720CWnpLJ_7NMI64EuEqH732853QYO8h70SuX6mrE7Ht3zhgBRC0pJg81vLJhdR89e27rD0tbRLgnW-IcD8YqLru8AZceysTMwBCAdsyWMj7uf_7PpWPAsNuetldn4tf4bbgYvWot-49jTPghY-jKLHxb-AUO6nqWL1wxO_24LqTQXZI1YLm4aFQEsDb4FOrUB-rYCAodPSY3f3-UKtbEhtIMkbwXVaBSpDzw",
+      "AZLasHopjCn-7YMcL0gQtKAOOIOmZgBbCCg_dx0lgaZSfWwHh76ESg1e7mXqRQbcBGTb_N_UttFPEBASS2RwMUAVmJb3jf9xFExVB01b7s44rUqiZQnAFizfIifJn0vWXB2hQ6apn5kSqVvTEUhKaf58He_fD1HRej--mZ_2oUoqaEZmZqPUFD3QFn7a4_EQT3vhCPjAAb7hr0qiTlQkPE7B4HBUhTNyYxlDeA67eceESzm13s6ryC35GFk7y8NV1cpzqPx13uOB7pQkoc6maQTORQxX5PzDn1nMctPx8c_7IOJTOw",
+      "AZLasHq32iBA17JRtp632G38ezDP0mVGebBf4AQsFllkHbZZjMpev6tVemnRkKTP2QW_Ipd5Np_SzgHD35pYN5QqyJO54WfDsP_LuvuT4X3-bKVm03N5IvWwFCqFEfZFa1rOHYfARO1lBY0OMvN0PwovPau-uLWk0VC46wCVVDmNR5vJsMD-HYPQ6ZQOTdFo8HPIYBgryse-3a0-HBw59VUdqvqMMvdzILVQSHVhkzL_cyEOdAiba59VPFwAC8Lt6AUUI_kXJL0jimmU0OScjM1qXVbohifUL0YGbCgRakCb3QrxABmEEPHcLLT_C7saYj37HMmNgWJeilZPFpirop2PK0IR6KnB_44bkfHSQcoJ4ytD1PrB-PTeg49ixtvtXI3XBctJVxSx7G2Bn6hulqO7HWcl0t-PlMiHh4_4uf-nrv079zIr1Pc3EgzIrnlSTVy-",
+      "AZLasHqWAYqUViZ4gE-02iYWYjmTMbj3MPUm7XbHbMnQcYxh5Bk1xUZa5HusNH_hHKHs7IH96Mw8xYMOAp9U0QbTroF7X5Nrzi-b12MCAAUcpEUZy8REb7k_tlTQm5rUIkitBNo_A5_TjRhUBLS5mg8cGmPYy87eqiAnXb3IBwVeFM-4pkZUVB8HcTRF7oTcmRTotMouy4YvxjbaKSD-m4OHfAcy_Uji8iMIaT4ig4M0gqchV2Z1j8-XinTWTe4qkMdDWcZSDcVFoNARY60xxtvRHEL94hVGgXbcoQo6n8xggDvkoNMSblO7LUitQu64fW5ItCR8a5bDUa-PKn2aRMu9olMH9WhBXuJDAPv7acuWKg25g27ZtD-VfFt0dDfXvgB31xTyTZf9Gh2-J6kHWW9qk8RuXFnqktjAS4GK8fAL5YAIpZMUV1oZdKeOpog9-A",
+      "AZLasHqHhBI5JY7CjXKYPOrPle08avI9HdR858wMHvXich6Q7EbrpPk8WpbsPVSveGqq0AVECSECIhbB5UMhKWaMgZUMW4LXF6nSnr_BXjPSvnL7eXbbCCOxYxlbQ4WOG0stqjxwt0lNfMwR1PAh9eZ333CX3FlvG6OPqEN82bRhFxEqxrQeO7srzgzyBHqfpOH4likGGqBMkBJ3jKnVduC9ThfA0_1udM69XuZBu9o4NV0VdjPeX8BKTlXXiyReO3Lw4fyYOeHqmIY7F14euGsG9kWhteAOEQhqjEyMsCQiX_z0qpmOwXoqRy4n-mWOIz7URao20fqyUyVhx_W6s4kWMIVcteW0rlnQgy3z7JyVQmPEo4hAo-ewYbJiSyWQKoH4apHCNzhMhVXxhZvu7-NnjsdfBXhZGLFb8_GIF9yldBuF5ty36fjH5ikKZ9vfvg",
+      "AZLasHrQX9PxoxVY6uXGKjT_4MP-lPGDPcy1-pYMaaf7GI6JB9pSc6E2o09JYVQrrNb7e8dO9kgMBz-pgb93cwQT-lZWnhd1vrjM8I8toJaQwEoIJTA8Iaxd9ax1GwvQGSi4FoDc9hi0g_Z4jqA05t8ruY667aqWgyzFsnmdvqVKMocRcSTD61ZPdsvMMfI5OePe4LMOIWuM-pX2GVNpuGD2i7xWv1G22e4R0dvlBnbgIhwGeqmE_fPdylr8VegkRRCaMDYlsDbC_SaLaoPZ3OfL-yzA8_ObY0gm4GjnFC6vfGi9DFZeqw4CEVaC_s-WeSwcLFEZSU7xqXaVFndS3iVHSLMzK8laVjO0KlGJipMmgX3nvQOSvJKxn7m7q38TLvY6_mjT9K0Vcf9c_4tWRuNSHKtP5e9zLWZK8SIOH9G4Y7A",
+      "AZLasHpH2p12yhGfktI5BCxUVpO-tx-1pl1IfwMWvBeORFCnQawVDqwkmbBX7FSHaEZsmvIjAOOJNa6Iik80lHLO65x1H0_MucBtoUyp3m1K6eCRqYCospJ7xJYbqMY-PxIRx1FJ-yaaO8HhR3Kn-jCAlepyUDwDbzbWoBWCCVseP6KxA5AUMB_hpo65C6YxzbwukAI4gtgJj2eiccBnx3x573VGIMSvRr7JtV9F1uhwonlHUe42MjES6y-bYWVyT1la37Wdyjlrchr3JhFmhiJ4nSfYPW331szjKbnK_JjrbuJ0kQhlE6D2eQNR8r0EnKsTSOXSk5yp7mBl5O9JrOswovO5uKAPGGpvSdis-mFeBJkYvCWwxXt-38qcUNESmMRfP6NO0Ds0Lsrj4qsgDnRLfD9LMFZrpjmJt40BUWkHZSk",
+      "AZLasHqz981FgOniL4yw9VEtnKcHMA0dpiZEfxex6f151TTJx09Gk5KmH40p7tW3v4OrlsOYkNZq_MHelyYQK3O6y3TIw-I-TCo3ZCX5lajWBp18j5cC8pyOxzxssRa5bipjdkBRb1g1QbEjmr1OEAXBz5Ul992I0NimezBLvGdaa5N_vQfXDPzh_t-4YmYym5FSc19FHRRpLSJ3g9fVNrygFuemI_tuvPXHX0JJkli8qUQg2NtvD1LwE0Oyl2Hp6VD8Aydbm0uukvUHejBSejeDi183YYWQisbl690dTnQdFFe8aXtGg1ZmAN_sKR9wo1UpfTs9-maIFaL2z-u0uOXwtoyLHtM3UlYdWcclU4LORwxiswAz0hyQJQwOtkjuiVPLsvhRkvdyZUT-HMNVi2i93BK7Rq4uAKHaqkzEmpMd2vl69gkW8Y0P1oKJp9xtwalX",
+      "AZLasHqv2BXOu5KD6jB3VkQnZoGVWVTdRpMuBeMB8FpdEfm4zdK9GenpWyhXTo8fzPQhGZdsuo3MwINAcLUwLIzxGSbUrMohqDWj6VGK8LAvkctmrnNyQ2oJG_5XuMExcLc-CEiDtTODZb33kN3qtPBjgbHSh28enKOHwSg0xz-nzdDNqBV32Iu05ZLjs_dvdXYtrtS27UX66QlOHlNWDQWtcZQ4fUX5EqIvSCMGM0g6M_XTQtjc_T8zIdDuLn4OuZHBr1qPZ0lOB6u3kQesiTnVKGw2EFTZpx3JbMFE3NyGMCVYnnvOq4ZWJy1LKDcYfbgHhnmXjSeRFjsCYUU7Ji3_w4fmzQa0MlryfmKbgjPbq4j2fPFSvvPGl68QZ6csuMf0eKsojYFX_giXQvBvcWE9dd9JI2AnvS74LvfYmrBZgyZATwA4uIC53LcPT5Z-xFTq",
+      "AZLasHpepGy3u-Vwc8i2q-i5TNCrS9ltqL0B3iilwMqywlu2GoMMXZiMCK2iCzWZEw-2mntN92TwtojQr4GQnGJd_2sEj_Zv8bxrz5mdzbYeb2nRjiSV42VV3W0d9s_sN635_bicYU11s3vdd6SFaAkfJvk6ihWGjFzR2Zlsh395n_TdVROoUxIJSGQF9MMQtdtG7u5rsgGQO3JRy-aSeb0K5CYQaf52eJqh3iMR7MPeQGD6-9eXmY47e5dLRppGONN7FXxyWDrAMoLOz0RZK3WGanfWTeYv6edxvU36zcZgwUDvJ575eS1L6MUFYnmPCW4cZV-JKDQ_l4okZtyiXmnHoHSolNA3QSNaZDGyOWpokxqv4a_rlhz5ZH9L7DJ51lq9zVTPZhgsYP84vMMzsIM-xxNNL7elZ0XhMMHgvony2lqxo5s"
+    ],
+    "instagram_handle": "@experimentalcocktailclub"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 02h00",
+    "display": "Tlj: 19h00 – 2h00",
+    "detailed": "lundi: 19:00 – 2h00\nmardi: 19:00 – 2h00\nmercredi: 19:00 – 2h00\njeudi: 19:00 – 2h00\nvendredi: 19:00 – 4h00\nsamedi: 19:00 – 4h00\ndimanche: 20:00 – 2h00",
+    "is_open_now": true
+  },
+  "description": "L'ECC pour les intimes. C'est le bar qui a (ré)introduit la culture du cocktail artisanal à Paris en 2007. Caché dans une petite rue de Montorgueil, derrière un rideau de velours, le décor est celui d'un bar clandestin baroque : pierres apparentes, lustres en cristal, bougies. Les barmen sont des orfèvres qui changent la carte très régulièrement. C'est l'endroit parfait, sombre et sexy, pour un deuxième rendez-vous ou pour apprécier un spiritueux rare.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Pionniers du cocktail, habitués de Montorgueil et curieux."
+    }
+  },
+  "real_talk": {
+    "text": "Le speakeasy qui a tout lancé. Cocktails parfaits, ambiance feutrée, réservation conseillée.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Le pionnier du cocktail à Paris. Ambiance speakeasy feutrée.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cocktail-bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 13,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Cocktail",
+            "price": "10-15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 1706,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "poi-176",
+  "name": "Crêperie Josselin",
+  "slug": "creperie-josselin",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8331,
+      "lng": 2.3237
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJNZKKCsxx5kcRKI18uxbygPI"
+  },
+  "category": "restaurant",
+  "subcategory": "creperie",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 158,
+    "moment_count": 8,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation",
+    "smart_tip": "N'ayez pas peur de la file : elle avance très vite tant le service est rodé.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN30z0ZyxDGc90qxGLXHNb3KK2BWyDBsQJlipiReKHCnxq4bhByG28BhsYc4zKOMWCzdBgXOpO6TNFiUhk5Nx_lAlg6PDLpUIpf87fQ5YI179DIT7PHVNdLDH-317U48LMT2eDGD93fPF6q0nw64pnc9uAYLJDrZ2hUSSpiyerdkzPGP-sDWL4JaWHibuor27qDTX9Byrkn_U7pueku_kCJBvsuJSeYRSgzTXNpiQ2nKLBvSE0Mas3ZFWgw-6alIXHvjsO8aMEFdKGSof7XocBelVe7SqYGZ1jWJxd-EMnWmgn4WLLGWkurP7dHU3_8M2rXoPS9nJFRbWLFA_lXcE10U0HartD8v8fwlr352ui2Bsqd4Vv8CiyW-wW9JL_6Uj8uCRNX-3gxBzAuvuBLhlXrSgG2f9WnwFZfXDxDDvVjEDTi6&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@creperiejosselin",
+    "google_photos": [
+      "AcnlKN30z0ZyxDGc90qxGLXHNb3KK2BWyDBsQJlipiReKHCnxq4bhByG28BhsYc4zKOMWCzdBgXOpO6TNFiUhk5Nx_lAlg6PDLpUIpf87fQ5YI179DIT7PHVNdLDH-317U48LMT2eDGD93fPF6q0nw64pnc9uAYLJDrZ2hUSSpiyerdkzPGP-sDWL4JaWHibuor27qDTX9Byrkn_U7pueku_kCJBvsuJSeYRSgzTXNpiQ2nKLBvSE0Mas3ZFWgw-6alIXHvjsO8aMEFdKGSof7XocBelVe7SqYGZ1jWJxd-EMnWmgn4WLLGWkurP7dHU3_8M2rXoPS9nJFRbWLFA_lXcE10U0HartD8v8fwlr352ui2Bsqd4Vv8CiyW-wW9JL_6Uj8uCRNX-3gxBzAuvuBLhlXrSgG2f9WnwFZfXDxDDvVjEDTi6",
+      "AcnlKN0TwF2c_rfRdiCphd5fhCH3BnD_C50uC6CEbbE_feyCbrcos_z7R-87Pu68o5nGgvrN58vivN8HO7luF1KkNy9wEQqUhgj4ZMh6F6m7rlGqH7RuhRPXk9cIBmUOp-0yCThEQcJ3kjZkKVTKgmbNv11un4C_KXnNbyXoRm09ugEG-9OWVe2Gry9qJvdfeHXXhY4Wh5oVVkVxA0TNUeksOkQ4NyK3dFhGHieslFXnJ7eQpfX-A7wHoZQamJI6mJhzDzNEHCFIVrFtd-NJ22oQEEc5gwhTuhB1fXRh54GTpspAlWB7LNP68CAMgVXj_TTlm5kLUg4yF0CwEbEDRt-urIjqT6eQYl-mcz12U6kTrR4HqX3PZHJGDXoHl1EgL04SLNXf9sqQfN0nW-WxMHgge9o1kI34gbEJKIyA_QS-rPrKpQJ9BD8qxYnjpcO8x8do",
+      "AcnlKN0SeTS0hlFs91rrKCGI6ldedsrK3aeACklnZCYpUZrvW-UtdQkQPYz-Sjb-rTbUDfqpFyPI2t7qMFtgycKPNuIVqFN_UhaDYCeMMSjG9R3z3jMYxknIRiisIZPibi83sNW5Q683VuAPiXcfo-WvRvcTURQUi6CCKD_VxA53KFaTKgz90U6JRNmsbsCkLxG4H8jtlaGXY9ZhmP8oLQlX8nXfm18gkDE3qUxCi80_GOM5QGeSSmtWZ3PhYoJLNTHDLDcOS5Y2IYXXwPMsrFUFhoJSLcZlkTtihHV-hvDC7JJe_CiMNQQ_qKXnDqbyeh5xmadNWusbwDEAE_Z6AOQm6UP-ptuH1B6L7uYEIe3NQlRfapGu6yGYhH27yS0-QqjiBjY8yj17nNsQuE6zQlz3qJ97uR9nNFF1Fm9kwlMPoUk9I3RwVNV-_dWuv0h5IP6G",
+      "AcnlKN1KkQkV377kkQFmN0NozJEs706d3n8LDdEbVjl2z-kmBvAHEff7s0tSurunJO4ACHLgfHGwPXkwveGUVmN6OzhVzdUKdIf-h9ds2_56fTUQLmwykhGOgDq7Gw7pfJaMeBz8WHVukSYZK29agTRRSdRBpCxl-L0OkbIKClSqjUPs8tv6Z4zXRPYQ84GLk_OjEZ-sXXdr1BXrF_6Jkz6uxbJDgwZ7AayZGoAY2njssibnWofXdeBB244PsMG2poQv0qh_IymaLAdfHglXPIBczbdcW_Gi1pOZuyYjXFFnnixPCZHyMfhngssxsPBUe4UI9zycfmS49OKxOjO-z1FjogERpXtW_TPUPKvGq-63hUnx6fHB0HilXyNZi7Qyg8DDY-ZeF5i7jlscYZHy1mlImBMSysWkQdaNkA6NnbHbpnI6XQ19Kp7Bwp1BOqfQkdE5",
+      "AcnlKN0z7XB0po9qbIADMcMI8Sa-AQ4zl4L1zuN-tGXPW4AzR8HfD_N5sev7Ng8pjwPNxWe334dq5pcfYAOgn_Ap76I3lczOK8P7QVnm7wfNPzZsiQECp4rT2GA-MkbDri-0LXeDAnarz05pA_FLVEiKC4GigX5cXPfQiEICEwBuiPIUR55ZmSY_1e8pMGwe2XImT96_um7hkO-ABPifYR0jxTshZAbXTXZrrBnLb7AdH04hV9u646V490qJ9etjXxa3u1AYPemnkAN7-NZfXRBO60YgKRDOfCocks3MHz4qkIPTUZNKLyV4fSuGOha7UYOYYmPIe1gtB4kk26EEhhVVBtZxY_sNMcNtUP_Rn1Ni43q_j8cipDCbD5qiviNjQq9NS5LIXK5enCbW5fzdTQm_OvJlu2AKidrfOUUN7W9nrNOq6HSqQdiTArv2KNlgie_C"
+    ]
+  },
+  "description": "La Crêperie Josselin est sans doute la plus célèbre de tout le quartier de Montparnasse. Dans un décor rustique de vieille auberge bretonne, on y sert des galettes de sarrasin au beurre (salé!) d une finesse et d une régularité absolues. Le cidre y coule à flot et l ambiance est joyeuse, rythmée par le ballet incessant des serveurs. C'est le rendez-vous obligé des familles et des amoureux de la tradition bretonne, pour une expérience authentique et généreuse qui ne déçoit jamais.",
+  "real_talk": {
+    "text": "LA crêperie de Paris. Galettes parfaites, file d'attente obligatoire.",
+    "must_eat": "Complète, andouille de Guémené",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bretons de Paris nostalgiques, familles en sortie et gourmands s alignant sur le trottoir.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 15,
+    "value_score": 100,
+    "category_percentile": 0,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4,
+    "main_dish_price": 12,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "GALETTES",
+        "items": [
+          {
+            "name": "La Complète au Beurre",
+            "price": "11,50€"
+          },
+          {
+            "name": "La Josselin",
+            "price": "14,50€"
+          }
+        ]
+      },
+      {
+        "category": "DOUCEURS",
+        "items": [
+          {
+            "name": "Crêpe Caramel Beurre Salé",
+            "price": "7,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 5258,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

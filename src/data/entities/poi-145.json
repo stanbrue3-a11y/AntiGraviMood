@@ -1,0 +1,142 @@
+{
+  "id": "poi-145",
+  "name": "Prescription Cocktail Club",
+  "slug": "prescription-cocktail-club",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8536,
+      "lng": 2.3382
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ7TWlx9hx5kcRFaK9ELNH0Qk"
+  },
+  "category": "bar",
+  "subcategory": "speakeasy",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 296,
+    "moment_count": 3,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails classiques revisités",
+    "door_policy": "Sonnez à la porte de la pharmacie",
+    "smart_tip": "L'étage est plus calme et offre des coins plus intimes pour une soirée à deux.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.prescriptioncocktailclub.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0HTHQEDPAILlh7c7uKOI9eYwsa5mR_49PLTYLWpyd1iJ8Nx00CXyEKSkHQxffIe0H_IhjKW_XX02r_GfBO1OA44h5EfHaciA3Ict31CutLMMKzGAhGL5w6bk3QMpsxgAeWh2NfSA64MOWymZdWPm59061R49xZtCxAdsXJAh5bBtE7EtRuu-KlCzyYJw5iZAm9ZyL0UE9LdU-b3DF0ZYdhgxEoiaWg5oe8j-KSL0iNzs_A-glIHf7Z0pOuRm_3CaSdTy6DVYAVfypiRm-_b5y_yGtaC7YzgKgvl-4uCx1wmA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@prescriptioncocktailclubparis",
+    "google_photos": [
+      "AcnlKN0HTHQEDPAILlh7c7uKOI9eYwsa5mR_49PLTYLWpyd1iJ8Nx00CXyEKSkHQxffIe0H_IhjKW_XX02r_GfBO1OA44h5EfHaciA3Ict31CutLMMKzGAhGL5w6bk3QMpsxgAeWh2NfSA64MOWymZdWPm59061R49xZtCxAdsXJAh5bBtE7EtRuu-KlCzyYJw5iZAm9ZyL0UE9LdU-b3DF0ZYdhgxEoiaWg5oe8j-KSL0iNzs_A-glIHf7Z0pOuRm_3CaSdTy6DVYAVfypiRm-_b5y_yGtaC7YzgKgvl-4uCx1wmA",
+      "AcnlKN0xODcChUI6SJxfymFK0d-u4CDKbd0sfor18VzZ80WvEk2YR-xeHgGOrqWucMn9Fh80ud6EpLtp-rZVnLDyFrOd9MHpJCp0vaKhrbftMgJAGRatkQ0RqYj5l4AgrbxX9dKCz6MCxlu5XFik-0klNyBtxVYH6k0_jSbZD48OZKDth3RG5n9Qeh5cnke3rKyeICelwHc0E1gdEQXfHTDQxs5NKvguPUDM4tKJPvSLpULYHtEUnlJVCG_-wWafZy5_l-3JH_fNh8JanbeYD0SmK4RIoMSOBM-v6aoDFLbASQEn36i7DRfKgNtvoDk6TD03fxlcJ0Ig7nimESDJP24G07NqHSHcQ9U5vYw5FuSvIyUzxJ8zx5Iao4OkHjVkeuP89DPwo9bp0erbokbUysU8b0FiaPqdcX8eAYwDiFNE53_CJ3kuLoEhWvhmL1Tk3GfL",
+      "AcnlKN2FX_On9i2RRFQ8tQDNG3NGTbgsDqAF2jnLTaRtfc89VHql9rwqZ3mP2QM0z72hHh3m5BBPBMXMHhFkDmtdiVFaSAXjfdzDpekPcyt-FmHTlkHWy0GjUvch741J-24npxcWZ0J87XblzHcb-jCKVohvtAYynsiETRn0Q4zELnEy7L6aijQN1uVXS3Z-MlI7jaKRbcjuPnjBH5aX1QqdiOFkqEn8_1sVuPC6-zaZv8N1ZFSquD7K09XGd2Syox9Xp7s0uFCspyHn5UjUvtDP2x5xKAePSQBUVFTtoi9P_kU27QcRM6cY1HRhK1KbB3j79sAaBX52IUUBaVGo4B_VDUJFb54hBUHRTB0SKLOXvtReeIsc33fjl2HZBubKcB6ymy2rbNxHytf5qx-8j6hu6sk7vHPK3OH0qBNQjKxldL7y304cmiKIIaIYttYFbQ",
+      "AcnlKN2a0NYEoac5xuSi-eTXy_dhcr1ZHdmcCvalWFGufanzyCyJdeTrNzyZBHPCjdGZLhOLlLnazIjuhKgNRzYPlBkifES-wit8eeDtRYo9jSe53Fv5QzSyD0zsFTJwAbb7BKyT1rCqbb48c-UgL6vWXNLejsHYbNkJA-feOFW0z2gG1xDjW_DxUj5LsDiMw3Wl4DzTr8HGvH7dqoDidlog3OZbQShLya0C-uhecvC5fdvkn-_GFrg5Cqtc3C6pMbaw0ei7higGHECgg5F1VcT10fdz5Tqhk1EE249-0i770cHUc3zZMIOLPbLkO0CMEp_GZi0AsgSbjyz1oiAsQUpuhCvJIaAR7061OTfsaqrCKwmZRQtMNvO7105dZYCoTAZNOJTaKHpIA9C53CQFa9LNn4-7TMbqickEFCoMi1kuF5e2fJHI",
+      "AcnlKN1YO6nqioTGlhMZxIxBUXKY3QAmBE8Yov_IXudCmQhna1x51aFqwDpNd6kv0o7mCKtwEOccIvhXrUHfT-7X8Cak19fcA131D9f4jyPHtLu23o79H8hUVaRIf9qgXpynFNl5OxibNMD1WzD1zIqzJWo-c328I0UKeaHFmWuPyp-k_R9CS2Io7JVcBIhYjqHUOf6odo_LvzrpS0YXKevlvfEsLNWylZt8YhNXdgLpwCChFUZ13z-YjMPpr8k-OszvO60ZmupUmBiG-OMHVWQG432n1j4mKuolzySoW0nT3ZaPMZ3zB9i2HNKeeQT-N4k6lLVHgL28qFSU8yP60KidmAtP4WH2VtevO3rVF_WACXb-5OPhlgU-emqYQk1WJEzRj465XilbFpKzE-9HhmPdCLuZhUdQ-SQzL_h1jYtEOJqIEANkV9BX5ch5WuPw0tfJ"
+    ]
+  },
+  "description": "Premier bar à cocktails du groupe Experimental, le Prescription est un speakeasy feutré et mystérieux sur deux étages. Lumière tamisée, briques apparentes et mixologues de haut vol créent une atmosphère intemporelle et ultra-chic. Chaque cocktail est une création complexe et précise, à déguster sur les banquettes en cuir en écoutant une bande-son jazzy et feutrée. Un incontournable de la vie nocturne de Saint-Germain-des-Prés.",
+  "real_talk": {
+    "text": "Le speakeasy qui a lancé la vague cocktail à Paris. Ambiance prohibition chic.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Trentenaires stylés, couples en rendez-vous galant et amateurs de spiritueux d'exception.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "speakeasy",
+    "budget_avg": 16,
+    "value_score": 81,
+    "category_percentile": 19,
+    "is_free": false,
+    "unit": "Cocktail",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "pint_price": 9,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "SIGNATURES",
+        "items": [
+          {
+            "name": "Old Fashioned revisité",
+            "price": "15€"
+          },
+          {
+            "name": "Création Maison",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "À GRIGNOTER",
+        "items": [
+          {
+            "name": "Finger food gourmet",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.4,
+  "google_ratings_count": 1036,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

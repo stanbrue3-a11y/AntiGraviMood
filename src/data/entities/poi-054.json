@@ -1,0 +1,165 @@
+{
+  "id": "poi-054",
+  "name": "Ober Mamma",
+  "slug": "ober-mamma",
+  "location": {
+    "address": "107 Bd Richard-Lenoir",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8644739,
+      "lng": 2.3701387
+    },
+    "google_id": "ChIJ9wPDGP1t5kcRuU-2tWgnWOQ",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "restaurant",
+  "subcategory": "neobistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 510,
+    "moment_count": 71,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "09 73 03 41 90",
+    "google_maps_url": "https://maps.google.com/?cid=16453944569276813241",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 12h00 – 14h30",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Pièce Pimpante": "L'Arbre immense sous la verrière au fond du resto",
+    "Aperitivo": "Cocktails & Antipasti servis vite et fort",
+    "La Pizza": "Four à bois napolitain (Pâte gonflée et léopardée)",
+    "L'Accent": "Service 100% italien (Ça chante, ça parle fort)",
+    "L'Attente": "L'attente sur le trottoir fait partie de l'expérience (Venez tôt)",
+    "reservation_required": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Trattoria animée",
+    "smart_tip": "Leur burger végétarien est bluffant, même pour les carnivores.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.bigmammagroup.com/fr/restaurants-italiens/ober-mamma?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website",
+    "terrasse": "Patio/Cour 🌿",
+    "réservation": "Sans réservation"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHq7OLgB85QqYhUayWb4lqCAl8nBLmsCBAZPVTgz0_UjkxjgNVW1ebCCRN8TknsvHfQx5ZAJF_xzBtMycbtiVVQd1oFURGhq8QsFmdgGZpb2gdKJVtNjND8yz5RhbVb2ac_rpVKGaORpZyhHKZjBU-k_epwfbwF3sBdWQVep_MG19KfZit4NhnnmXOsKZTNL0MHDr4cKeHnG2M8zijQt5eEWvIxt8EYCy_ASXf91UUPYQ_Wd8E8U4QSqlNtVrTk5NTNf6G_vPjHR1wm6lY_cUDHs6jI2tyk6oWMxYpgULp8Fqw",
+      "AZLasHrrjsUnL9L18zGAkV13b9aMJu_NLASj1AsIvdvbTF-LlScRTqJ9IMOH3qMPVLHRm413BDRNM00A9iAf_t6_llzUufvrAjhVe2aNvwxHS8LkOaxyFeV_HQn1Vb0dcL8uFT7CQo78ZFi1Hp75z_HMZDqwp83u5aXKDU2xuFrx1YeXp_DeE_mYlgO2_VdIe8NXzxXCyH159i86hFg7m3_h2ydIDPj0zvO8UtTzIdii3pBi9VNu1Fy0OOBVUlaO1V3zSZQ3ERxWhv2JL9tvuZGtJyqUd0u-RNyjLs03lDYFAn24XA",
+      "AZLasHowX1TpsviYoZUXneqJeHyiR8GOioNmvSrLwdpIZO7Lp2Ac5zqrpf7uFqGLrMk-FDC3NlHzfRbp0viWUnE6pbrVwzxRuI_IiOU2ExsP8YorRfDDY1E3eSVZ0rF-ZPemgYB7UPf70ECIjGAOlyTXGCRyF4e9MhI0sIyTaQvoWw8iwiyU5Du-LhxACGik1fMGpYdWIjyEpWK_qHNJeSXnXB9U1SlmEhxJBofjDz2Zi82U6XbULftahE8yrlukKjNZGv5Y1M6gXeWJe1EYvxSBKaN0fChSDVYR3iB_aVUdFfOiNN4kqjVsba1j_A3fNSqHZjYvJ6d63c-jGiKZNuLRL-5Ks3__bTlwyTUNZxunfq-KKNCW0qQkBayM_naDGNl46t55lRnkgIbC4a5KxGIdQGBAfECfgzRMTpJxcIDhlBtngtHqJektfaRmbyvTwvcA",
+      "AZLasHrBqmVAJYnPEiRi6wreGJBA1FkyS6Ge59fdtr5JctCD3yy6q27UCow0R-ScStQcdw98kJOjfOiGOUJdK0VXqnxAoEPbaEjlBILsCZmJLLZVPnqO_kZQnvjV8WUV7zttXePY-fNbZOmsoajUgB9G44RL7NbDE9lDyEZpWqFCAZQ7H1q3uUkx9NCDNYFfJfQZSYmn5CHckoSUTybbJjIGxQmgAOkjwXOeVFK3uNQtpXewMJdy9eOltCithdziU7KugGIx-gMQ8_reY06h54ZJvLP8EnycbdvElo7dKoSXKGjklFbcbBJ_DfgURZ6Do0e8hxf_wbhL8mfR3lokMnB_OR7MCPeB0IK4gRoZYSERChEV3MVWr8aC91HabgVfRH9jL_VfEhzT_NX7erQ5cHMH6Rs-f1ecCOn9H8p-1TqtHOFZFx7nhPmgG4pt5fB5rw",
+      "AZLasHppMAutpMjwKtqztV_ZFpvO1cvETWyxKAVlwrqeREqNmCrkXhhvHL914XNzyf0V_5_Y9XY7z56nAXxUPMWI7BXPfRo09xfC_0uGZNaFxFPhI5ccamY6I44Rtk0_lK54l7cr-gudgWVYW30kVyAFovKd6e-avqeg_6trDLNMjm5ItUkADDvXh8fD5va6rWFPg5VjLgFv1VzTEyji8O66UOq8_5wNC3p2wvqMHGPkZQ_hUchOmsFkMV9WZX-4GSi3Ln_2KwtWIc-1M4rXSEy6AyzfnX2HtAuYrwR5zhaTLg5r6ioGWYUF3gboRXhUBCDfro30xGOlVP5sTb6bv9OvfZB4Rec_kEJnzRUCmdjDNaCDq3vDyFoAyyGJYgUqOa5sia-1zOd4AnpuxwacuhOw8TGJ0GywcBREFVcsa09lDXV27ntaRV7zb6efu_drtWnj",
+      "AZLasHrq43Vu93O3KLVglq6dUz3QmFitkXgIy7ffGaKIhep5kW9KUm-uh9v7jllNZasU-V5k57esb7ugpIK_lzoa5YwzngPmAECq_x2HXHP8FuWVwqKSxMiAeg90K57Fc1xizvBnE37fswCzNiS0bzGJ3r_jE1-ki41mIpwJaqEKmTWQ30OOKJ-QsRYxK4fgpN-NBG0qK9BDFM826cKHroVN4rRQPTDzqj59yH9TDWW-q4D6MymO4rXttmCwPoU-yeWBTCtl5mh23-6gVjL20Ke7M7jOvxhBMAPty8tQxstoir3G8w",
+      "AZLasHrWl6SvKr8xEcsI5GspzSwrRDdWqQS4Rkh56IVfQZKLGfbtfMFLHxgTPtG_4gjRdzjEd1Oyr38o-uVgYi4UbX3qXx15ex7e9ABTk7XXl-ZYJ3RUL-hLKBOFfTo8YPAiJRcQNhA3VzvEC6-fqOCdFhk_evoQ1jBWBMJiCcGwrZ8LwwU1FXuEcUEaOVSF6T4QQ5TG07EEB85rybw2-s_G797H4syHAEH-meClLqvAaSs6dpjJSNg4KYja2aXz6sqWwBTjg5f8GvOX56IXzdsLqrqm4THMC495By6Znh7AKj-ZiA",
+      "AZLasHqnaH43E2-KyQwBB2AjmO-dG6fYssiPu3biV_ZZG4SdbLDTDlAsspwQRX_Jb59xfp7pGYPfZEFIizznO2q2KqBjmkHj3kQ6TspRMr7zNGd6uahH7RYv507gB8lEq05XycwRxZ0czSvO5V1RfEOkM8u1IFYPNGdrFImxqz82C7-ZMK93nITqnd350plBunftbZha7QZJ1UOX0OiVLDEvlZsXV7fdSBS28LbeYqnbMGUIIDXbuig_CVA1fIKMidMwq_sVif0QizX94Tq8W9HLMD4gAx0fytGK05yRlAv7RGldHEWfN48ht0bTglsDnzT2fdgvKgEy8wmIkH9tn77xZ2CKUTY5eT51L-gbLbXBmMtx3lyJOSCNZwdzRomSY7t0bCKC_ink-3C3L_IrlYVwyuCDXgBCIUIt34Dx533t98Pj1mAtIjW3cuGzJsm9Ng",
+      "AZLasHrQeNbCE_M_VAwZ0kvBjDFNQilElprCklQYYsdWJqWlOc3VyfzmHv1tpN1DT5T_teXKWownllNfslz8o4mbxZE9K7QN7ry6NVGKfiklG9tBJcUr6jrqdeGPd-MzQcIFa9P5ZS7Y94zrIYlj-J0_tOB0Ou14BW7rNOyEGvi3UlZuSwNuGvwC4oX0fFYj4Op8wcEQXc2tyq1tyX-Sg6OK-hOUi_ENzJapPqAI8YUpH5TWQDujq5cFPgJ7BimnGq__xuruNr6Mfa6ezC4A6Z7DzN6jCaCWeKt2sQMWKqVtn7LQEeTxxmjM1Ppy_6M6GNYNazF6_klsoODOJkzyyh57XLY_9YeO1dp7MYtHSOKBE7XkgYJnE-yf5GCSDEd7i36pHQuKIkNkToqGRGRmd9qW9HcgwYhEoK98zvJjko5XadUFwhI6",
+      "AZLasHoVLJc_CCFglT807FkSxKSrMy5aPr_TaQ5OQNU0Km-mMRYroQcNhvEgNujyYiN5EGjIsZaSdSoGpiL0LXc31-IssH_EqcfasGdVJnPxfhSmVQy5CR82YSYdm7abgdWJLOfCA9SIrZ6BJu9XesJS981C9TcV-J6tsYAHApE3vuLNyQM5sNwIAZ9YVmWo_dLfYzpSOSMsu5mROZsr7MWyyhv3kO48QPMc2cu_cCLp8557zLysoBXOrVajaKiyZ5fjV5aMLZQIakZwyrMxjl2onSTSI429KnxarlGrSW5ej-6REmVzIxVtbs5gEG51cQH6Q7mEiyvCpkdimuUGvAqcKj3dgMzGIMupWYON9AP3rasCYTt3xxWf-mslEPSEwGG2mGacZdSQd6AzxvRhevpnvor1t1kiTD7H2MEKENBtu8sVKq7o8MxkHjOLVMdvUt8d"
+    ],
+    "instagram_handle": "@bigmammagroup"
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "12h00 – 14h30",
+    "display": "Tlj: 12h00 – 14h30",
+    "detailed": "lundi: 12:00 – 14:30, 18:45 – 22:45\nmardi: 12:00 – 14:30, 18:45 – 22:45\nmercredi: 12:00 – 14:30, 18:45 – 22:45\njeudi: 12:00 – 14:30, 18:30 – 23:00\nvendredi: 12:00 – 14:30, 18:30 – 23:00\nsamedi: 12:00 – 15:30, 18:30 – 23:00\ndimanche: 12:00 – 15:30, 18:45 – 22:45",
+    "is_open_now": true
+  },
+  "description": "Le premier grand succès de Big Mamma à Oberkampf. Le décor mélange trattoria traditionnelle et design moderne avec son immense bar en marbre et ses jambons suspendus au plafond. Les pizzas cuites au feu de bois sont légères et croustillantes, les pâtes servies dans des meules de parmesan... C'est la recette du succès : produits italiens sourcés, staff italien bruyant et sympa, prix accessibles et ambiance survoltée le soir.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Habitués d'Oberkampf, fans de spritz et grandes tablées."
+    }
+  },
+  "real_talk": {
+    "text": "La première adresse qui a lancé la vague Big Mamma. Plus brut, plus 'aperitivo' que les autres. Le bar en marbre est sublime, et ça reste l'adresse la plus authentique du groupe.",
+    "must_eat": "Pizza Mammargherita",
+    "le_secret": "Venez tôt (18h45) pour l'aperitivo sans faire 1h de queue.",
+    "le_son": "Rock italien / Pop",
+    "le_must": "Les jambons suspendus au plafond et l'arbre au fond."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 26,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16,
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 16,
+      "label": "Pizza/Pasta",
+      "source": "standard"
+    },
+    "fair_price": 16,
+    "dish_price": 16,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "PRIMI",
+        "items": [
+          {
+            "name": "Truffle Pasta",
+            "price": "22€"
+          },
+          {
+            "name": "Pizza Burrata",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Spritz",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 19432
+}

@@ -1,0 +1,150 @@
+{
+  "id": "poi-143",
+  "name": "Shakespeare and Company Café",
+  "slug": "shakespeare-cafe",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8526,
+      "lng": 2.3471
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJa4GQZFtx5kcRAZWQg58A4nY"
+  },
+  "category": "café",
+  "subcategory": "cafe-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "littéraire",
+    "mythique",
+    "anglophone",
+    "poétique",
+    "bohème"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 476,
+    "moment_count": 46,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Librairie anglo-saxonne, vue cathédrale",
+    "smart_tip": "Demandez le 'Shakespeare Shake', leur boisson signature glacée, c'est une merveille l'été.",
+    "signature_drink": "Café Latte Art",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1CzIunaikQ6grege_XJuK7l_Eu6Upu45EXk_uXvlsa3K-74mkakUuZGTT_rQnf8cOJXLwzd8BHEOUvmpjCAiAwdmsUv1cx-UO8Fx0GIe7BfwcjkPwrPaQwCz9UIIa-CVLbb_tErP9z66G15EXrp5LUvY0ywzJTZDmRah7Uo5mHtIc_nlZn9WrF9l3QoEnOqbDrVLuU41IV7NGsra_mJSZg23wwynay2PkSp_C9329z3jAML1ROX1n9bMADao0BIdg3lAIyzThsWmrQh9H4Z5fgH3jy7S5jdiWklpJpvuHQfHn7W2Bg_T6SNOfMNJH9_N5N33SkLL5Vy9AiFVO1qB_-SKgIPZgEd85bfCs1IhgioCqyMjZOuBJTrr98NQ7JfXfigaZGXBL1iFjFAjINK3e1k36hcfbSXs0QlzQPzvOkYipMY0_K6kbz5ZklicR8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@shakespearecafe",
+    "google_photos": [
+      "AcnlKN1CzIunaikQ6grege_XJuK7l_Eu6Upu45EXk_uXvlsa3K-74mkakUuZGTT_rQnf8cOJXLwzd8BHEOUvmpjCAiAwdmsUv1cx-UO8Fx0GIe7BfwcjkPwrPaQwCz9UIIa-CVLbb_tErP9z66G15EXrp5LUvY0ywzJTZDmRah7Uo5mHtIc_nlZn9WrF9l3QoEnOqbDrVLuU41IV7NGsra_mJSZg23wwynay2PkSp_C9329z3jAML1ROX1n9bMADao0BIdg3lAIyzThsWmrQh9H4Z5fgH3jy7S5jdiWklpJpvuHQfHn7W2Bg_T6SNOfMNJH9_N5N33SkLL5Vy9AiFVO1qB_-SKgIPZgEd85bfCs1IhgioCqyMjZOuBJTrr98NQ7JfXfigaZGXBL1iFjFAjINK3e1k36hcfbSXs0QlzQPzvOkYipMY0_K6kbz5ZklicR8",
+      "AcnlKN3HvOzUOmPn_lELXEGiT1DZNWFp47pNHOfdwPF0B_lGsLaZ2NLNAaDG8oal1jAnTZo-ORyxY8N-VnyhRWxW56AdlIWQmjCtZtwxdypDoZzB3M15Tti10gq2vMQVl-0X2Egizbz3CRucOCU0gzrM-uq0G4pyzJb3QemMEAZU-Q0VOEhHWbPgmL3JHvdyWm4DIqKfjtB7hM1HPTukUhPOSEYRrExEkD0yheBo-7V0J_Hn65WyMu4RW4O4RPzZpuhDYxdhExPj3nKKyewsU3rK4a5XMhi_p5_aQKSEz0WcH1fGniVEqBjjQztaeKyfzEGcNuO21BrdoFM7iU9-epoR7rlcUa7oxb6lYs7K5tvViP7EqQXgutaBFG85Lg17ufsuoW3U5Bv63Opca_SlrVBaO5Wh6_GxqZkGQ0vV_IbnW41mT4P11o9IDJIx2DPTyQvo",
+      "AcnlKN0p4F9EKrGcu9lfJLa4Dk_wjGxrwZhTLhGf6tjlsHB7grS5uqFjDyzKZzbCT3D8BKyrYCmQ-0J9SZlTDlan4IfCQYJP4C5S_vfbNlqyEcQBP2Xole87F0nH3TGEhw3qDMhHggrAE8EyyvXodANJsaHcJ46KapPbpPp3bz5z9r2P5dN_k2h0GBCTdtFCSE3l8x2B3X5m75P06mA1poj_lG9VXmOYaOeWlw7znWDCSUsC7x1lLYNZv46TRvZmX-ICY7Jvx7pqrtsnKiIDAVUyrFEaIYkjzKcW30vrQ41YltCihQ",
+      "AcnlKN3u7Xadq0JaeDOypplGQ2aMrTMGDxyqjdOhc5rlfDYEe4cVMDJg0d-SHioJ2Bz39sS2_J_T3V3S10gB1m3bFIbmao0jc0uW2iM4_pv_0h-9fnwN_y_oisK5Aq_tD5ACNIGg2cJecSrtW_gEspWSEleJqH4z-E7ZllQjn3R3wYB2hJabpw-fURDvwJn188lRujnFS7L8Q38O42P2DsD9Y-QYhA9_d8W5fLkP46KOX3N5WtNi_Q8iYDgAEZ-ndWf1rIyAUQgWhRp78RB1B74BV1dO1gizDtcD2CrAujplaOd6zAHgv5qUV2VN2MtCFciREoFWUFwUJS1H2l6ThtQHh0b-RNsfAd3pobCHSgEmg5cZPKb7EE7AqVGnIU4cWfF_3KBnE4qAJ602Pw9YJeqwvf3whUw2h3aaiW-uNT1eLxAXxxyAbeN1N0Mt6ivlLB_M",
+      "AcnlKN1UDl-olTPt_a4Y5mxmQz-26LfCHON99hNZCU57rJG6u3HgrHOCaHl7OqStTWvnUH4Dd0d3L4rGoxMZrKVfWXXvVKQjzRd8QSBvZcbpf-xCAkN-Eq5qHaqqZr9GLYO-EWWZy7TO_GqN8SyOv7fD04EQUfQ41GtIvBV0gnqgdcIqFQKu53auZdhxgvhcXCPm5PAM_LA5mo4LlZwHBdIK_hIfeAXiii_rOA154zBGigOqvY1QNF03-_-QqWaC-ztRKYWrfduKvIoWdXraHKxL7-YCTIWIzzYkOXyUA1Eo3CpEDusgp4Ga46wp_B2ooYFoP4-EEeO98WKAzAGS4gF_u7nTVoIY-qagFle7LGqj95tp6_acVv0A7bLyIO8HLa3cLmeVcCP1Iy_jzVzKqxS2DNESSOH_-6xGjkTLuArcCgr1TO8HPSZFixraw2aca0VJ"
+    ]
+  },
+  "description": "Adossé à la librairie anglophone la plus célèbre du monde, ce café offre une vue imprenable sur Notre-Dame à travers ses grandes vitres. Entre les pâtisseries anglo-saxonnes (incroyable lemon pie!), les cafés d'exception et les livres qui traînent sur les tables, c'est le refuge parfait pour les amoureux des lettres. On y respire l'héritage de la Beat Generation dans une version moderne, lumineuse et délicieusement gourmande.",
+  "real_talk": {
+    "text": "Vue sur Notre-Dame, scones parfaits. L'extension gourmande de la librairie mythique.",
+    "must_eat": "Scones et clotted cream",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Expatriés américains, étudiants de la Sorbonne en mode studieux et bibliophiles égarés.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "GOÛTER",
+        "items": [
+          {
+            "name": "Lemon Pie",
+            "price": "6€"
+          },
+          {
+            "name": "Vegan Brownie",
+            "price": "5,50€"
+          }
+        ]
+      },
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Flat White",
+            "price": "4,50€"
+          },
+          {
+            "name": "Filter Coffee",
+            "price": "3,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 965,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

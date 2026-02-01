@@ -1,0 +1,144 @@
+{
+  "id": "poi-122",
+  "name": "Musée de la Vie Romantique",
+  "slug": "musee-vie-romantique",
+  "location": {
+    "address": "16 Rue Chaptal",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8814198,
+      "lng": 2.3335672
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJg4YBxUhu5kcRoIeyo9blO00"
+  },
+  "category": "museum",
+  "subcategory": "musée / jardin",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.6,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 10,
+        "crowd_density": 8
+      }
+    },
+    "festif": {
+      "overall": 3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 9,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15€ environ",
+      "display": "Horaires non disponibles",
+      "detailed": "",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "George Sand, Romantisme, jardin secret",
+    "ambiance_vibe": "Hôtel particulier préservé, jardin de roses caché",
+    "booking_policy": "Entrée libre pour les collections permanentes",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://museevieromantique.paris.fr/fr"
+  },
+  "real_talk": {
+    "text": "[REOUVERTURE 2026] Le café Rose Bakery est fermé pour travaux. C'était l'un des jardins les plus secrets de Paris.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancienne demeure du peintre Ary Scheffer, ce musée et son jardin bucolique sont l'incarnation du romantisme parisien. Sa serre transformée en salon de thé par Rose Bakery est le spot idéal pour un après-midi suspendu, entre fleurs anciennes et sculptures délicates. C'est calme, poétique, et d'une beauté fragile qui enchante dès que l'on franchit la grille.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2ZrLi_R5CHQqvgApHooMMKp1PZl4ot9KMxs2f0DJl4z1iLlRE5GOpxbePvygXW1N4s2aT-b9cD_Dbi7tM7fMZQ3gX68054a6fYfrgeOM2AAM8qiLR5C_n1EUhCxJ4Llhm56bce-DgoPtec8W2yT1eSq7EU-7_DEQCbzwqaRsOKFepXuQ6moZ-k2ZmyFU9iJLYou4oWzJx_rsyEb_QBf-VLpSHdBwbdaH9YVK58EPIT36unXukRmA18wWUvDIFoB6n1CJTdvPAH-TllOnkQ4HC9UYAMhNO_7epm2vNJ8F83FxdEpX7nLBhRhODSOTNKCEmfkyJvzMNip1ddAzzAMTuxfLMWFQ9BP_hpZZXi-BECFw68jVcyCU8g8CVWdauKzaom0QkG-tsCMAjpmqK_6oEZElLRbCy6QyvLcee_iSsMKg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museevieromantique",
+    "google_photos": [
+      "AcnlKN2ZrLi_R5CHQqvgApHooMMKp1PZl4ot9KMxs2f0DJl4z1iLlRE5GOpxbePvygXW1N4s2aT-b9cD_Dbi7tM7fMZQ3gX68054a6fYfrgeOM2AAM8qiLR5C_n1EUhCxJ4Llhm56bce-DgoPtec8W2yT1eSq7EU-7_DEQCbzwqaRsOKFepXuQ6moZ-k2ZmyFU9iJLYou4oWzJx_rsyEb_QBf-VLpSHdBwbdaH9YVK58EPIT36unXukRmA18wWUvDIFoB6n1CJTdvPAH-TllOnkQ4HC9UYAMhNO_7epm2vNJ8F83FxdEpX7nLBhRhODSOTNKCEmfkyJvzMNip1ddAzzAMTuxfLMWFQ9BP_hpZZXi-BECFw68jVcyCU8g8CVWdauKzaom0QkG-tsCMAjpmqK_6oEZElLRbCy6QyvLcee_iSsMKg",
+      "AcnlKN3BqmfRzWpXTEPC0aTfo_M04S2-pDPAQfriJhv4Mkgowno0b2ffYhfP1aErZjnnnuMizqGdwz-GKB__QzkwF8rQfsDzpdsQMM-N6J-VGwwuJY6iC5bihaME9Zef02hEZ5ZIZvkXkfq0b397QaDAcTuY8xwK_Ww9cL9CXfvpIRhcxJZklCpkVZ0UClDxqLkq1FoNWZBAgYy0ShTra-hddZ7RWYCCBp6FI0IAStiHeb1pPAsuxI6VAhcyqkwdqxF3oOwIo85c5lpenBsjpnc9SFRgO6_Ew_8Q9DAebtwEvAWZBSZR1znONYmFL7DiWiU16IKsXcPkulR_igwq_AyhL5kRIWWVMPV1_iu6lfPl8pFSiMV3Bajft_0n0ZawFGR69kL8vhUsPz6K-m3vI7P0sBID9w4q_AjqMkCka7xgmggpbg",
+      "AcnlKN3zRELaO9xuGZ4oLqdQMl_neVo1PcawEK91BSS5C5DYf1LXBhu8_xMaXyHF4211EzQJ84e67GwP6q0dgkItJDayzlrOZJcKcxgafIfheoFPm7R-yOwMiUVOnxV823WZpuL3JjCxzsoxp_tfyhfuYoGuKFxOPaImth8i0UX5fFdy2SYQE1OUyyb7e7_xEsghc5R6jZ8rznvBt1yvDwPd0unqwlcANBKVc5pZnnrU9iKcBNdON92UXl53-KGgCv6mOG_CI9nIWqjHxQkOUZccvPrtDUTJJQ2hxBQGTPlhNtLqxNfIKEdlpHwt48J0FIiclOlrL1KAPCmvvE1ljMfepH1mJjQgMvTMwGEZEHeJe4rGIUHVhAq9C-JpT9-p7-lKXLihJQ3G160DloSzufdE5LEHqLPqT3PMaiHOTJtFQ__Sdg",
+      "AcnlKN2tQ1tyl5yrUXtyaTK6e21e3icWnlBylfhcdg2HzqXt6XrshDa0jdHGvVBY0oYdkbJLkJv6AKNyCnS8hCAIDrp4Rq4Mx0tLp0ju8ZaTFLVcItTCBb4ue1OD36DeqYEQa_CAeGAjwApe99mbfTdTWpjA2CIPltv7aFSUOP32TKbDNEhCE4GQwZI0hwwHCenkXJ-EIvj2TEjHnHO1TChDpgfJL0PITgc4hi-yymn-ufkUAyi9mvn1jZC7UWtls4c_IqzaE_mGtPgWnn5YBFb4SlHSwnA7PkfC8bcdTUPoIyBIUVD0z9T24gR4WpzxpuSDoCYWm2kkDwuh4USxwSZXP1A2_ObglyaUmylCJjoAnt96xKCfiwXDXgjpcxXPq5LDqZIQxpfjVzpcrtp61SgkT8XSB6I_T16Rpe4xca_uRLp8m7E",
+      "AcnlKN0EQzPfFtbLyYZpHMLlOPK-Xeqr3O8N00Hz2TkwluZg-c_m-JlpIrTWLfxaxUoZ8yHf-cCA0WKnQYbr9H5csi-OB4vEMRtiFOWX3ZDLMgl3_6oCWcZ-cXikmx_kHrKiNTvzKogMPGha1Wf9B4xNqOOWEEevuVEtJyt3IUcUiEgBc7F7nef1m9fU_bQRKw9Q0qCPrLqj32st7Pn-olWoFe5bb65GXOuJzdA06tptfxinZ8DXJoal9e7jLdN1WCW6ZyzGj_ylGTQkDaS4Rla2mR-ajQUlK5MTmjEQ92pvcazNO7GaE5jfy4jCN0OBQ57K7lnswi7PRBM5dXTrUvDEemWYY_fIRyFbI3Jt2JncDa-S2_wrtoKn18aHcJFVgFPQYkMfRzTqv9Pbr9OX_-7DjqMIAyFnVmDdeM89FltrgqoqO7em",
+      "AcnlKN3lJz5BsJ91Iu6UrCMhdOP7318NvgjKQDYqPRdqtRrGzh2hkH0U2PBB9OQuvnaxrNwdrjqONsD3dPW4Ng6jLS_V6yyl6lGCG2amOsNnKCya5YwH8fahT2Jfkjh_Cq8H8ZhFo_RPAhTwafIVEyJG2dGZZjKTDxDn3rWLLhptHsO2OOkfj0bWJLz_Mu1dNwQZtbiVdyLnG6ZU-oPYTuj1rwTbg_RUe07I-CE-3n3bA1iDgqS0j5U-h6_KLvZENf5X_taJhR7pVU9MJVLkwD3ND7Bpn7mm2CjHpF8pnpqEBfu8C2imUJXYXNGAknD_DE_fFNDqaM7yWT0QuYXUeoFP4HHV-a3QKhjECrJciMow9scfmCp_ZgRLPiR8pWp81k7sAtnDEP7hEsIBZ62xfvgzA5n-AqHRRqThv7mptBiOvfBQ_A",
+      "AcnlKN0H8Nk7HzDv8hwhVpknEs3Ja73ZpGSvnYmnOT4pDFFC7eScVBojUWK5U8DcOjlYAqU2u6tTNeN3DSD3z0zKa1Wpvqnb2II08P49Shz-e_jVPJCBjtvsqBSlPyV_hrBAsJV7m9yBr63rU_oBgc-ceaq2FBFpoqdCBLA---nfkVawn_CMKWiwCbfRa6vBnsaLavbSY6GXldJ0Lb8BjP8dEF9xzsIzTv0hqGsBjBIl-BDQcDbt3U6MApFon5NNTRRmLZes9PsX4SsufBAW9ryZioGYl_Yf0F0oRWpmVv0rz1gEewuNKcnuiJx2FKgsk4A1qgXMtRbzRHsw9l6BUYA-rVBvVHf1ytfWbjXwKn2zbVVdG6_YnSfWSdqJAcjsC9xCzG93582QEbosroF6lEd5anzEovpMlRxCxvao3BU952WZxag",
+      "AcnlKN2-HCuiEsbei4KxQ3lDNfwXnc9if68i2a_l0scUGSPbSnyFyxxP3rjFrXgcsWo5GV__W2exiK1_Wq_PMnZuyJOkuKOUIvxo6Na2e0OyXrBz2BC4xxLWgLypzyRCHm1sO1AmUovTBVHmZJygJ8ojvaPKdBHB2ntyiJGY7Xo1nGYD-_V1GvD1EzXpCJzwygFVL8DFqiDZ74m0dhSqNhOcUJHRfJd5IZ-VTHWCuqZxZaT600E6XeQoaJlDHnwcCdRT4iCOhMR-AxpeX_WJ4K9j-qbII4nyObIivgKcmkAWp4kMNHu3c4h-l6TQBJOpfoKCOsDiHYrW8jY0JHammlZmvO-p2wZZVgqkutLMXGZKUeVI1E3phXQ5K2P4O2AfKzOlNducF9-k5CZn5Yo8Y1YprBvxzFUb-1o_1AZ9hh6UlivR96Zl",
+      "AcnlKN3imVF9YWg8XZRiRSuRrpU448eVXEXXfORlanZMUDYb4jG6gss_w6ctbDqfQDHh0-FrXszvoDmbglNf77DhJY7LYDkeklWb-tp5moVb05jw5_NXtzYBgnduiSL7N5JyYGM2cfFcR71PA6EO5-kZXsl1czPK3nzl5_K-M_BcNFJBKuXyprWuQUWfARHfZ_DCN5cgwji_SDbz78DW_9M4coXEYejJwpmMmjS2iQ3uKVHSljOK30BmOqes0qVWJwizyjmxnxWwjPZikBlvh5gz_88tldxjNDQi5Ii14LEPmPUIW82zvUnr26ZhPaJBoz1-uJDZtJzmZ--TJdZ7I_JCtCxsT4o1XBOYV9PoP2JARjDoZAEnY_7pDKo08eIMHKx5EOwBmtQqPSlctiUhwUMbhC_fuiYE_v4AahFEicphcyA",
+      "AcnlKN2LMcl4dMnJBkonb8-ZSIneo59KmH_hK4b9BR22YutbjN2nBnyyIVK0sHcPF_tWrRqJ2GMGCr4WzEj2Jux__ULNOlNkKxaLegoWU0_MUiqViEjNDr4tZ5aVG8qtGfx0UHm5O8SUQYwzCR2kTcmOjhrLheqBivC9Z0jCnkEtO_N9R2c_IgpSDNdu_8tvr7rHrlIZ4IvmVirf78cqGacDcyKIvXAkBApxtCUKeppilChyz8jOwAyobJtyYX-Yjp76Ji_n57eED4zT_9ZpTApyun_7Bbfh2jM4H8B79ML6sJOYynz8phuhzgddznCbXqXmOh_DTv7gDQM1iLDrgbu_tSen_bAlghNcPTVZv9zJ2cQQwU3LJ5em904E2uerg__6QCaivTeESVn76kiI2YsuEf_OLVBMb8W413yOz6ujQS2tfVL2"
+    ]
+  },
+  "social_preview": {
+    "like_count": 454,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 28
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "15€ environ",
+    "display": "Horaires non disponibles",
+    "detailed": "",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux en balade, passionnés de XIXe siècle, flâneurs cultivés.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Gratuit",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": []
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 3600,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

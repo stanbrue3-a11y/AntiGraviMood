@@ -1,0 +1,202 @@
+{
+  "id": "poi-012",
+  "name": "Point Éphémère",
+  "slug": "point-ephemere",
+  "location": {
+    "address": "200 Quai de Valmy",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8794,
+      "lng": 2.3672
+    },
+    "nearest_metro": "Louis Blanc",
+    "bouche_metro": "Sortie 1 (Rue du Faubourg Saint-Martin)",
+    "metro_line": [
+      7
+    ],
+    "google_id": "ChIJT78RxHVu5kcRZoDCLEKfs3M"
+  },
+  "category": "bar",
+  "subcategory": "bar-concert",
+  "mood_scores": {
+    "chill": {
+      "overall": 4,
+      "criteria": {
+        "noise_level": 2,
+        "seating_comfort": 4,
+        "natural_light": 6,
+        "crowd_density": 3,
+        "music_tempo": 3
+      }
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {
+        "event_programming": 9,
+        "dance_space": 8,
+        "cocktail_offering": 6,
+        "crowd_energy": 9,
+        "late_hours": 9
+      }
+    },
+    "culturel": {
+      "overall": 7,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 8,
+        "cultural_programming": 8,
+        "creative_clientele": 8,
+        "workspace_facilities": 2
+      }
+    }
+  },
+  "vibes": [
+    "canal",
+    "émergent",
+    "rock",
+    "underground",
+    "concert",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 2543,
+    "moment_count": 1234,
+    "top_vibe_tags": [
+      "émergent",
+      "canal",
+      "underground"
+    ]
+  },
+  "discovery_radius_meters": 60,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "phone": "09 50 63 40 07",
+    "google_maps_url": "https://maps.google.com/?cid=8337182441760522342",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 17h00 – 02h00",
+    "Reservation required": false,
+    "L'Ambiance": "Alternative & Brute au bord de l'eau",
+    "Meilleur Spot": "La terrasse au soleil couchant (Vibe Berlin)",
+    "La Carte": "Street food & Snacking quali",
+    "reservation_required": false,
+    "wifi_available": true,
+    "signature_drink": "Pinte craft beer",
+    "ambiance_vibe": "Péniche culturelle canal",
+    "music_vibe": "Concerts éclectiques",
+    "smart_tip": "Leur terrasse est chauffée l hiver, un vrai luxe dans cette petite rue.",
+    "happy_hour": "17h-20h",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://pointephemere.org/"
+  },
+  "media": {
+    "hero_image": "/images/point-ephemere.jpg",
+    "instagram_handle": "@pointephemere",
+    "google_photos": [
+      "AZLasHoG0zhDKIHSQq5YLg3TPGFD6S8m5nerGaoHOqSQ3JNV2hSuGyU-libvn42jUbO_EACWUO-_e4dQiKhAKu8JZYD0Vq1016VVhRZkp8WxXNY7cCXUYjMbjzCK4O6Gle3PIKXoCZGe82YClC3C-rfgdNzfqS7-AIeMhUbDSDcvVEOsCf5T-Z3CvmoKL14qYt47fhDkRtx8-1XRiU_vO21XsYfM9wp3O-bLIgxvxwLRknh5hhgPBOLCKduN3opvwTfdoujYQyhTpYy4cwILoZR8snUAYd37Fl1xtMlhTUlx5nQjGw",
+      "AZLasHrOCsGdKm8ZpmndhssC9JSE06mNPfK43kJ68YwMbDYaRm5VHnKB2cyaNQDIc2nUYy3JlKMkfil82O2ybt5v1uG_kVfy0f0ngbR-qp7sYd_tWHGHY7FTFTtfN4J_Q3qfi9rplUgoKxytndsgBFCaaYwUu0oW5d8KA1yERxFOOESM6fcpe8k7NcTOfn837t03ZMhPRKRGSYBAZGrdxacn_8AvQ_gkZGBijiwWjeUlMtRDQ5YCy2Yu61sVgW3HiTN88Zdtzp5HKysWTRBG24ssyvz6YqPCk98lWPC6C6E23S7qeQ2JsMBP1CXARtgAjS0iKBUFJIzLTiKTHUnrNLBHmqrXnx1WSBOcFLa1R6vr0CaGEhgaaTAud_jKpLIJ-FVayegQ4zxIM4hbWgsRWcSgY_ZliTQAEXfwMTd5HrLoRnXRWJRs",
+      "AZLasHos7Djt8WjgCf-CsOeXjSt5p6Ik-BtSDbv2C-b3m5DLkZI1JmqCELEaOzi38NAPo6mS_HwGTJRhMeD4AQH3WeJRRfjDusUYWIVAvOa3R05H4hMeEzYLkzLNHpbY7bEqEQKfa4Q67fhyrfJ7K4r9G12f0-YZv3qEg2uZ0G53-eX0TuPfIx94mNBk0Jrd1AXcaHKjbfMucTpsYpa5u1pG2fAY6wrtWsSMnvtp3ynacqP6Ijo266BTpZIycoQsS8vqm5j29b2DdzxDx9nQb06cxDJ_HVI5eZ8r1pOMHau6uWKtrH_IC0lJnLF5EwAM7mGaGhICSPzsSKO-NwIA2B66famqvyuFA8wPZcgur2sN_QbGLIQzSFMQK1YeMEIxujMPRmUoWxtAEWW_rUAa3MzzYJ-6eVDYwTMuUgIMlzq0WaY",
+      "AZLasHoz6ejG0rT_wKNp10VbnjP_qvSl22EMqtY1C4ahqVzSjnT0NeyHpSI8kAdJNzscRllTVc2AvbWEUfqNgwv0M_YG0WTcgxH97_8BwBWr3R4Pdhq3sIuvjFNMgtK2Yl3Vk46cNW_Gl1F1qu7a2VjAoqwLiyaBxTQbygdGHYPFmWtP9kS75qfpHlBWlaamCMMCAERC9KMwT5KiFuqDHiD8Y0-66ipsevRmGkIOiDUE0Awgm9KDXSFm7ZdQtazmnph94tG60atIBAL0BonQhv9hM_ClzrnpixMDCDBnN2_PW2yZikuh08wFq9dAMtVMpfAvimXg5iotPdLmb0Fq1QW1_Jjcs4HvkSwFxRkHyH3NPXQXNsBgZnhFEbgyYAormQ2a_K02ooBD_oyGlIuxGNop4Dkt9FR0uZTEFh0F4BbZpzKjHw",
+      "AZLasHqqO4YOOKVnxvyVCrT6hMv-rd0VHBZahzSKkI_NgT7DmRW6fTGFlgU_3BCxofknmocJcLcaCo2Jxzc_AuPKDwETOFCDDeXG9efdA5uTbS2pbHz58OdRXyW1mgt9kXFcAanIg2O4y8rTeXWQpMImc3JTQiN5mdyNMH_Gyqep2GHsC_1tYH8BY4brvAWY0J4gE67iN9MVZO2Kur-j1JDNTobHEthH8oI_gNlevWemDpvujcidBJLlw9eW8fXArT4USE0CFS5Jc6it69Kvaue_dCBrml5Iu2we2Tht6XQthJhtAf0MrDD_VAmVlExlNuRGQwDe0K7iuxNbkkGn4GrN9QsgI_UlQj2glXbFNdYy_aaQQZHt5V3igmkJ2aNOg_TpM8s7JWbg2iewsoiRYSXywLqRRq9K0Ht6Vf0YytHmvWMOKFa9",
+      "AZLasHpNyQRN5hiMhdfhegEtGnY9rs-AmFa69TFcElAgK4Z3z7UDoKfGzBZthtAUAS2MfcdX6rWseUbt0wcs5ycPWn574p2JyeKMmIG8EaKa6IaMSaq9IJjUE9B0rpZEQyPx_TwoLPHdfGHCgxmp0lr5aSkz6doSp9TGfW1oHjN-gLrNsSPESJ65-OyJuRB3z7HgJS4xLPyVQ6yET1WEm5_wEhxaHAAzajBXReaciyTOd4D2fcz9qTLAlT16fNydC__O7ytHfv18b43GVSiLmnW2cL--8l5-1jyryjmy2B-8eXS88Rh_xc1D3-7_5cnN_3QcY2_ZByw3WV1SIkkhJb-btUQEjqqL4maTkjqveuxPu2U5Ey1d9Xnqp9vtnzCqVUX_tFqU0lvFsyEz_QyDr3Yb_sk8KxgbTR2DPBTrCogKTLYBijnY",
+      "AZLasHqDMyz3sGKOfHigW0swiSb8WD7EmixDxhqRnpSvd3WQg7ohEvp88DKjL7D7OA9UYfhGYRIbXFaJd4zKKlxw3AYCKQ4ZwgBBEP47Ag9V7RJxp9td7E95JkA7hQ2LNmTHcJo8Ww5ORK7-IIiXUH0PTeCPOJMab0gYeE4f_cVl2oZEFmbYIBWXMjPxl0aey2ELkvGRNogObGzi8S7BZWxXS8-_NnZtXoy75X0-NfR_sm1ZFHyd4tWEO6_GE0OAKtu75oMX6H_7qsOgwgx4OnWERyM2D-LuLeC_7Lq1NotNQU8geGvx-Pi2L50tKZjA__U8SkUzUS4J4C7xuibP5WuwqbkUiDvBhYRcFCaA1atW8itShf5zsX3wRxcOPzfEk5xj5oi5Q2TGUBo5HMtKhOpY5OR1fbLfZoVwC7ydtm-cOH2g4jV6",
+      "AZLasHrEZkN7Ye4AT0fBP0b5UzDZ-7ApwpZbQh1eWm_LrukemIzpofH20gfu8bOsAaQp-wuFWJ9TIIrU4JPtJLM_BcqEC3TvANMuM7a2L1w_m51dSaumx_6Na10hSOasPhGbZSvG1i9ccrBju3cXGOlQuCztXDw7beU33PiY_IVoIwOqgL5i-LDj02hCuV4NQkmpRHaMeOZ9YBBEDG6pLcRdm8wXhOZHmq_JBS0A0LMpPvArc4MgP4O246tLCO4B8M3ge2Z-ydm9ZW-1Ce2jcIq8O53-PIiA6fisCqYJCSwLVJ860DzQZmOmO87xNKHJEMw4yB1shExu6PePn--zB61YZx-Tu7N7SAnZn7uJrPoDYVdY9YdoWCDH9aq5HIP-Cm7RgWbUuqet9Wk7N5tNdJHS0CBsYUGQ0gPeYOd6NJCQUFvb_B2R",
+      "AZLasHqxxhwkIMycMHpsCEXPwzJhqgK7GZQsqWI54A450QXCJmEsVL0HflnCVXPoi1lW6Y-SX2jcZ37GYTCyLS_NvaTSU-tmhJ8JcuJinmcBn1LdUUqcVAg4MewScwu--xLd_4RhKNHqeZEtuBCuK6qx1j9-Hmf_4nDT-YAAv1qWKiZQk8c80aWiRlV6-V6luM9xFQduqp92D5Zixhok3LBUU5HIQVdKwFOB-INp8XFKMT_fGRJg_rb1MSPO-OtsCSauHCzqdY6ccX49DINFbdHVFzczJmKqCHrOP8mEavveH-L_dKDRbZen9QOozCjAUDz7SIJpZR26x8gQR99lzbyijocOqLITFc4EL1PaotCK8Tb3lrTqaMiqrjClKtq4wfAfqJSq5LKG6D8egOHC2M-QzlMj4bu-ElHCB95yBt1PLfC5GI9E",
+      "AZLasHqkJ1rnAeIxHF_79oOe3JkXw5DUvJgMGv0lLx2SSFUfGXv3BKw09N6CMBq9JqZXV2HUKrTWnUtv7VG7YrbGQHJs_jdgMdEF0wpL7EcS97DElHwrzvy-uvsd9O5KL6iNuFG3QqHLZ5vq4PTQuvqTGt8fjQ9CEwS1KlrQz4AF11MVi2eiJak-BFu9MxBl_6hMEt_Q91wt_sH_L5hnXiGgFIjcx7b5eodOWZ4DfiGG7VlG9z5IyyQ9E9jhWzMQxXYcg6PioXNze3coIoUaPx2-bolGDTVFnwVVmPc2MBLVlXzeZIUBCI5zfmy2pJrO1OOyP2c4a7DSqaM8amUm50DjU5hM1pRHCNolg-ulkzMV783SH03PeRS7-zBzM9Z2ybeFR0FF09qirGxTM3h8DpZ8uqmWAU0fUyKqf2rqivOGEUlAEGCk"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "17h00 – 02h00",
+    "display": "Tlj: 17h00 – 2h00",
+    "detailed": "lundi: 17:00 – 2h00\nmardi: 17:00 – 2h00\nmercredi: 12:00 – 2h00\njeudi: 12:00 – 2h00\nvendredi: 12:00 – 3h00\nsamedi: 12:00 – 3h00\ndimanche: 12:00 – 1h00",
+    "is_open_now": true
+  },
+  "description": "Installé dans un ancien magasin de matériaux de construction au bord du Canal Saint-Martin, le Point Éphémère (qui n'a d'éphémère que le nom, puisqu'il est là depuis 2004) est un centre de dynamique artistique. C'est à la fois une salle de concert rock/indé mythique, un espace d'exposition pour les artistes en résidence et un bar avec une terrasse au bord de l'eau ultra-populaire. L'ambiance est brute, bétonnée, graffiti et créative. C'est le QG de la scène alternative parisienne.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Indie rockers, artistes en résidence et foule cool du canal."
+    }
+  },
+  "real_talk": {
+    "text": "La péniche créative du canal. Concerts, expos, brunch et terrasse au fil de l'eau.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Au bord du canal. Concerts indé et bières pas chères.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 28,
+    "value_score": -156,
+    "category_percentile": 256,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 5.5,
+    "main_dish_price": 12,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 12,
+    "source": "verified",
+    "pint_hh": 4.5,
+    "hh_time": "18:00-20:00",
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de Blonde",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Frites Maison",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant",
+    "espace-culturel"
+  ],
+  "happy_hour": "17h-20h",
+  "google_rating": 4.2,
+  "google_ratings_count": 3984
+}

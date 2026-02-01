@@ -1,0 +1,165 @@
+{
+  "id": "poi-121",
+  "name": "Stellar by Ephemera",
+  "slug": "stellar-ephemera",
+  "location": {
+    "address": "45 Rue Saint-Sébastien",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8618209,
+      "lng": 2.3716149
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJrbxjimxt5kcR8wRf2dLRao4"
+  },
+  "category": "restaurant",
+  "subcategory": "immersif",
+  "mood_scores": {
+    "chill": {
+      "overall": 4,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 4,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 8.7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "Fun"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "33€ environ",
+      "display": "Tlj: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+      "detailed": "lundi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nmardi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nmercredi: 12:00– 2:30 PM, 7:00 – 10:30 PM\njeudi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nvendredi: 12:00– 2:30 PM, 6:30 – 10:30 PM\nsamedi: 12:00– 3:00 PM, 6:30 – 10:30 PM\ndimanche: 12:00– 3:00 PM, 7:00 – 10:30 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Design futuriste, néons et plantes, très instagramable",
+    "booking_policy": "Réservation via l'app ou Instagram",
+    "smart_tip": "L endroit idéal pour une soirée entre potes sans prise de tête.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.ephemera-group.com/stellar-ephemera",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Dîner dans une station spatiale avec vue sur l'infini. Des écrans panoramic, des plats voyageur et une immersion totale dans le cosmos.",
+    "must_eat": "Plats photogéniques fusion, pâtisseries artistiques",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Stellar vous propose un embarquement immédiat pour le cosmos sans quitter le 11ème arrondissement. Ce restaurant immersif du groupe Ephemera transporte ses hôtes dans un décor de vaisseau spatial digne des meilleurs films de SF. Entre les hublots numériques affichant des planètes lointaines et le personnel en combinaison, l'immersion est totale. La cuisine reste voyageuse et accessible (poulet yassa, houmous galactique), mais c'est surtout pour l'expérience visuelle et sensorielle unique que l'on se presse ici. Un spot incontournable pour les familles, les fans de technologie et tous ceux qui cherchent à s'évader du bitume parisien.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN15qfg7jv75qh3jnbfwN-z80MjnYCZnq4RJvxGeehxUC4B_F5T42txc5mZK3l11kIhWegWYOPsYq_iQyKJsmC2PtO3DbZ7_CGxp_NIL739fidto21PUY0rlumIKvSa1EwXl_pX2ZztFeTGA7BA1cMMaK8q1qH7JM-p5iEgvCapwA9-5L65jMTns5kIKYtQ2YLYnAESVUNIcTBOcO4JnMV62QPVbX-z64nsB4GSii8mq0DHgr0zhvDL54NGVKXK5F80H-51YCZKEUwo_fmT5vJ9UQKF1OsGTY-b1z1Swo7i-uQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@ephemeragroup",
+    "google_photos": [
+      "AcnlKN15qfg7jv75qh3jnbfwN-z80MjnYCZnq4RJvxGeehxUC4B_F5T42txc5mZK3l11kIhWegWYOPsYq_iQyKJsmC2PtO3DbZ7_CGxp_NIL739fidto21PUY0rlumIKvSa1EwXl_pX2ZztFeTGA7BA1cMMaK8q1qH7JM-p5iEgvCapwA9-5L65jMTns5kIKYtQ2YLYnAESVUNIcTBOcO4JnMV62QPVbX-z64nsB4GSii8mq0DHgr0zhvDL54NGVKXK5F80H-51YCZKEUwo_fmT5vJ9UQKF1OsGTY-b1z1Swo7i-uQ",
+      "AcnlKN18m3QI7ONAYbyfLLQc8YKyODKfdsYTIgsFqxK-uSm2Km3nqtXFmBW37FVXHUhaVa2cIsUF9KwP9Bk0DG6eIcsy92sPyv8QWs1rVYetoJmYUm1M38inNvCwB0sWst8M8gAJdrMwrb87_54FtUykBuQNKDaFuVLTfhAXQVYfmFhUSSGIYCAMFbgfmuLXrkvpcqfrIqFcNeewEdL9qRTPLpwUTgGodyu9vVGvIuLNa82mJizVRMASNWdqPwHtzFKCSnzOsMAKksyVJFGRqKj9Gl10bJS3oTJVl0XU1KS0fCNdQw",
+      "AcnlKN0dXzqz_QsJmO12QVQcew1hbdXdHV9XDo5g8rR7T7WlTaiq-fQ1KC3tWWsCoOYocyPSbbZ3KYe-VncuI1CnbXBvAy8wB1hDNRACUra98W8YVeTy8plnC8b0YxOO2uehkLoz8SbSOIISyZX2tbklpVSZmJ0dwYQpaR-kxf-tQ_CSa6zXQ6uMF-WYOfHg7dA0LlaAeBRdW4MXpQY2PnlvWg3rRcm36c3PchTfTCQExZl4K-sChmvQdukLNFouCiWtsUvb0ddTwljUXgIyGcWlr6T8yocdghIh24t8via1GCc9Nw",
+      "AcnlKN1SQ6YYypJAK8nZzZwwUw2OWBPm5U3MCQsdZuO8ZiRZrpcbtsRdpNdra_4EHiwsU6JWkOHhIz2WCzRPSL5XvGHDyKxZsq9-5Bn28FtA7OTnv6854KVaZAIWMFsWb0wU5cCf8WZai2bmsgY6OXWmn6RRCGplZYO7GdDE9EDyoRMXoTzcxQeQeORSfmvTQNWEgxuOKqqMyuBioi7EAXbAPxIMXv7_Dh-6nwkK0P3GNRHNoISpomeVaK-Hiz5ZOwL4Z3P3YPreq3Sz7441tX3f8AiK3UJ1tLJ5XQkoqGgcof6DqivfxFkp5Mip-9o9eVBwh6XoeZwDi0E7tDDKLPK5110dinbKcX3-54BW3smTELVB6SDFtlv28ywojAtXNdsftIDHe3XVcBfHY9A7B7LwDOzAJya11MWrPL2fH-gIRHw99w",
+      "AcnlKN3xnfJPsaFvLesCfj9KuVbDCLumq6V-FOfqpepW_oXM5t4dMzkmyBCKr3pPBBDoHSaQ624sB0SEpwJ0x5iC3hE2HpoCd9v1V1HGGbBEoWVtkze4bXdqIwQ4hhQUZP61Lo4_uJ3j9_r2U_TdleL6LvedDY3nz4klgm3OOlynYaLOPVTTBrsIhAfK1UbH8xpe3ZA0Edx5GF7tt0zkxyALpJfYSn97q4A_ho7yG-GSzTW06cY0ktSlU-x-12ynTe_ab3OS_icLIQFECRqIRmCMjHvgUm55kuL75mAwfT1WAg8wNJ9ePdvI4w6YGCsbr0iV28-29l4fmGicmwUBZV93GY9BGzNopfIzouPdR103-RHxW8_W-FjHCudRRd09CsChpw_F3pnbBVHJFjTeAn1ygq4fTj8EUysmL6vIswcTA-dmspZ-lmY5XRugiITU",
+      "AcnlKN0-TLk1twbShnWp-U2XEYQfFtTFCcKnY6thtSg9bEMaaYG-RCgDYGENaKP6N7CprVEPNL0Lo8tEIe85yt0Qzm8GDjbDXjUiwuA_pJ0qJzon8q5faFGMBJLTmvCRFeeaMSMwlupXHvyQ9k11oX9BFlQmITtHycMIEpNom_5-teDptezs1RGGG-NIb9kU4JhpSuC0rxshVbXHHsAweflZrFfNBX55Aw7e3esJaQVHXmlBLRz3r0UkzTUkMHTEzszzG14L6ZkfFEAvHgu389wJfDHzQE1Qh-1bkO2cp_5812FXnXlWZDt0nYFySUeynNXDO-n7IN-dM19XfS14jNs8eyjooA5-36gsEq3IGL2Q3z5NUI_rsyKMd1O9wbP7ELwG_UqFfcgxJ_pfBSmj8VvMn_yJrAygjAENimCfJI3KpXMjAjiOWauJ5rO7LLxwbi8A",
+      "AcnlKN20r4hoo5KC0ck-U7j54em88j6ezhzIDJShJ3WXe3gyY3NMnj3ZimXcnDsweKHTq6YyOKXE_VwwK7zGqKUiHquwazgV9CdE2DfTUVX4QmEwLsvPCmnuNbf5mUXROqLV8fK-EhDAXzlVd30jjjOTQ7Xd2V3xFPhc-HjBJmyxnLWHg6rik1Y0Bwf1BjMhYBuxoIlPIJYDJ9wOtXlkOcIrZgq3k2k6BJTT8Eh4NwibcPJGBNXOyZJdQ9eDA0obhrMMSYnV1JhLIuqSuNP5rubWKEGYqVPf1gBjJnEzreNB4eR2LKVLvDRM2qQUvAV2FdlBL4cp_WG7RlGAcvllQqI29Nj2TewFQQgE-e_C0arMb9CtRFQ4ccKw7w13RmprhBCmbpGxLmDSvrDScfwpm_VQRHdRuLhIC-96r5y_hCGZZ0z0NPSb",
+      "AcnlKN34JBmpuiUwgxIkuNIK7Mc5otvgLs9v4BH3GvxltZrSBc6VgM-oId94mVX6jlCjRUq40jqkjrTH-B0KgHm3bXBoeBk8023HdzLI9ZL_ZgxeggsFiUCi_WenrirzEOCjV2hXKuRzm44kAFC5D8sH1i2OmStnErf3aiElkqwjnye55Xl_ix42Kg0wSImDAH6DMXD0I5zIe3TyDJqF9xjDhjIZWwkCcGh8vGsNl4-sV3ZGYf3egak0Zm26g3_84cmVYTnshKnMBUcavMSNestdfNr9m-2JyeDDvT2EbYPaOWR1KMKVWkFPI0722RPbOTKZkrItB4x4rECWl5DTD7zzAP9P_HtZQiB2TmWf1tfDtvC85d3wLH39_tcMLjqxvXBpYFGEjnac1UTF8njpOXzlRSZkkMYZEiWfY1Ibv8LSa6MXopR3fZ5KodBHTVZBh5Cj",
+      "AcnlKN0wBwCbx9Fa-4knE4sGQ36ITEhFbQfWXDutVyUCyfGCI-gi3cr0qdWAVZiaV3uBkD9x3mdmLxqCfdn_3niOIH3JC_pzWSCSZxCT64gpMEj8nBxb-KrOW-eF6p4RPYb6Qpd3QjYesksoYppcSgMDrEwOfh3LvxkWiX9eU1-muhKSnuUp66ksn9Ywo_CkuXA0JQ3gJEo6OJ8EAR6dcjYUidSL-Y79y3iJsj9HP9Vt1Sj8Zgb3Vbj_rnYR_v3ZtdJ1twpCrHFuprfimhrJ475vzXbvdSL6vN7anX146UcL3yAOWl0tT4L_Zo-S7QWUeAz3ijkFHaPHKFiCLSJ4c8TY7VetGXkP2AgH6irhDf_lrXj767ljsZcnM2zR3WGFCeVD1CNGW5t5fkgYUo1_Trl0oTuTIA-8MfWEUzZKHX2sYLIhq-8h2xLR6okZEtnN_Q",
+      "AcnlKN13UgcSj_BUe3tWDpMysVaAfW0b_qzz_JXuuhDe3IASBUEbrApe5Z7HPJ0GbqG6j6PgMtoWHffA8Ag2q_hp9ztwLop2S4cx3HdriHU7Mp81-5loL2cZOHV5JX7FbEu4PTKnpW4PnPLwTVQQw7Ycge7GFJxVPFtQNjD39iuDZQUpwDG1HJ6BKc6WEc5eq74-x_Nb16FeIvnE0xIL7fXDPOBG8ow4UAEZ7HR8wlS84wPot5AriIsITYxQnWNp-8A8DrMWICHSQ1bUkhIoeHgD_pEWXPmAzMasLHouDSiCHuNct6QSU3SfBz7Jl9n98W-L6XW-T76h5v6YsgSKzCE3cpwNG15H3LXKDl2KnD62ejCw1NE2evJH9Kk2OoBp-OFwh4XzDQprLHYb7bu6Uz3ivZ7UrZy0euHSzxt07sBIdUiWTzE"
+    ]
+  },
+  "social_preview": {
+    "like_count": 997,
+    "top_vibe_tags": [
+      "Fun"
+    ],
+    "moment_count": 40
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "33€ environ",
+    "display": "Tlj: 12:00 – 2:30 PM, 7:00 – 10:30 PM",
+    "detailed": "lundi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nmardi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nmercredi: 12:00– 2:30 PM, 7:00 – 10:30 PM\njeudi: 12:00– 2:30 PM, 7:00 – 10:30 PM\nvendredi: 12:00– 2:30 PM, 6:30 – 10:30 PM\nsamedi: 12:00– 3:00 PM, 6:30 – 10:30 PM\ndimanche: 12:00– 3:00 PM, 7:00 – 10:30 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Influenceurs food, couples instagrameurs, touristes gastronomiques.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 25,
+    "value_score": 85,
+    "category_percentile": 15,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 25,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MENU MIDI",
+        "items": [
+          {
+            "name": "Entrée + Plat Voyageur",
+            "price": "25,50€"
+          }
+        ]
+      },
+      {
+        "category": "STARTERS",
+        "items": [
+          {
+            "name": "Galactic Houmous",
+            "price": "8,50€"
+          },
+          {
+            "name": "Accras Supersoniques",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 19281,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

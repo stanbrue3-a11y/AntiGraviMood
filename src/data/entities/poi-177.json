@@ -1,0 +1,145 @@
+{
+  "id": "poi-177",
+  "name": "Chez Papa",
+  "slug": "chez-papa-14",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8328,
+      "lng": 2.3248
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJC0tMA8Zx5kcRT0FUzlguCls"
+  },
+  "category": "restaurant",
+  "subcategory": "sud-ouest",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 412,
+    "moment_count": 42,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Cantine du Sud-Ouest",
+    "smart_tip": "Les salades sont géantes, une pour deux avec un plat de viande est souvent suffisant.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/3",
+    "website": "http://www.chez-papa-vavin.com/",
+    "terrasse": "Terrasse"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0K1RpEqRYSOMiFE4ujcDfLqHPxQQPIhkebuZ9qMNe_XDRNLFuaUJD8wJ_zVQzX0Ae1hjWwacXsHOybqWbMx4uO40hij7DSkJFkz0KjpBdtrsC_MfBEs2NTXY3L-xU0pRXJykwgKCSnspR6eC642MkxoydpwzLyq0a5wPA9X2ch3IUyjs5YvaPYC0VsNNQIc6Uos3u1qFAsnEFi1dq6zMFLnqZtUTVyZ0lzkKKN5c9ZA0AgDf2_XSiJv5irpYtoFRAS4Zo2uaM93rQh_K5gu_8Rguj3OU-tZRYaJQTVtqIxYm39Klo96fUhUzIcy8bZCr-ZCErSQ622I6t5wZIAYUDorsOJGoFFqQxCyM1IsUTsbAG9_fxgQrAAt5lEUOt73h0SWy6Y2xd4JK4idv3A6fepBvN-xlnU1M-uHqxLyZI&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@chezpapa14",
+    "google_photos": [
+      "AcnlKN0K1RpEqRYSOMiFE4ujcDfLqHPxQQPIhkebuZ9qMNe_XDRNLFuaUJD8wJ_zVQzX0Ae1hjWwacXsHOybqWbMx4uO40hij7DSkJFkz0KjpBdtrsC_MfBEs2NTXY3L-xU0pRXJykwgKCSnspR6eC642MkxoydpwzLyq0a5wPA9X2ch3IUyjs5YvaPYC0VsNNQIc6Uos3u1qFAsnEFi1dq6zMFLnqZtUTVyZ0lzkKKN5c9ZA0AgDf2_XSiJv5irpYtoFRAS4Zo2uaM93rQh_K5gu_8Rguj3OU-tZRYaJQTVtqIxYm39Klo96fUhUzIcy8bZCr-ZCErSQ622I6t5wZIAYUDorsOJGoFFqQxCyM1IsUTsbAG9_fxgQrAAt5lEUOt73h0SWy6Y2xd4JK4idv3A6fepBvN-xlnU1M-uHqxLyZI",
+      "AcnlKN1nWLY2AEyFyutdzqS3u1UFXFMAg1R_k8QuKsGhaUSj6ycnKlyzX25r1d6jpi9qceUSXLiJcTa8qgk2fqdYotz2_kjaWBWj7uYcBcrI2nIWPzecuWxMS4s2ylI0jR5jbNo8oWD7bonhbzVz4058f5fxWT_4kKjFfusTsLpG6LxbUgZIH_yKMS0iwbUScXsB85RFvDXYYn94VS8YnTeamFmY2jmnjGV_caL8Y-WMgkNJP4tfKjtAxOLrHihArLxqMNKYOf4WTiYB-KAulq9HJqduEWKM9k5EZyns7O2WZk01r1_BOWbDRdwwfp-BZEEgfQYsbUC8dlOaCG4ddecezKvE9YOuoIVgGpheuf9MT65CWbPu-HEmP0p2-tgmFi85wv0PVPC8eMu2YR3sW1UjR_2ZGLpCAO0ibVV65JluWLZX2w",
+      "AcnlKN0Em9hbieAKxx9V78Dja9rXgO-apUbiv9cniluD6Uegao8Dgh4Jl151WWqd5t8XbZP35hQNh6J0AezrIc86SWTeWymdCDE63gXJk1qgzf8ijGUJBnXJA_h9AH0QzNdEHni8EDj-QtnFuF0MpImz54JotjRwKy2kQqIKHi0Exoelkm0UGE1Wtvctr5bVxJXtFStG6codmohOgGU8B2yszzuf5F-EtSSZJwvxn30YLP8IqPDUxdVrJSNuaV_uUch5jWxNHGUBCTrbwR7ppny9ErppoKDVfZK9ndUjj9PBMrivOZD6CuCRYHuoPimDGk8g-Kzmbg028HzfBaaHWuV0hRzpKZLfx-d2c5C9GQ46RWQAEXQZGmIyMWdphl-t9-Fr-zYYS0QlfP6cYpEeXiKHmLPNiBG4bOpxZcit0nCg5pLBIGEgXWjLci6LJarlfx48",
+      "AcnlKN0idxDQ9-sFaRvJW9hGHVVUBpnvi88SzBGNVlEAOcA7r0kGmGI8FDVHD1DWqeaYhrC370AvAHMXZuhR9jaMD5R7BoRpwTIA7kz5-ID7bMf36JWJ2xCN3jKXt8h5pm0D2o4naPFF3oMhFD-uZQMLXSVzmXqVyBDMEzWsw1NPtVZCIqW-0y19UzsvC6Yt4AKU-ilI9vMXO44PPUYQzTd-8mLrMDcsDOAFOUxbaCrxGOM1S13dMc9B2uB-RGn-oRqbLNUTUB8vf9j7Z_aZw8I3sDRKd-cJPHcwkGWWz93CSpYjW62KcHgIC6NNaAnxX82je7Zee7lymVHiiKzjO417CpEDrBV1SPRkOBp28tXS8VH2-4XLnALsItNEd2I-eF5M1ZXOy__YCHwJJ40aO_YWN2L62fsuohIkNcJbalWhYadpJGAZ",
+      "AcnlKN2NT9qHiNEIVA2LPbSAHFP80TSHwGlbyetiCUhfKo3xHV8DRUE6l9nEnYCu_dTJkT0cVCkT0xTgdcwrzOv7CRuc4wO6lCb_LjG2da9G6Hm2gYdUOIv70BrDl_hHJ5dSbZxShZ0bovJBY6qBIj6AoIp8FFPhrrDwnu3Ee0K6VT0KiqW8qJLMiNCf3vFxYPzQpS0RPdr8kM89ngG5it24cEfld4gujdXKO-I4PkYRn2BS_xt8a0mlDICzT-ii0K-qNBJc2gp9xfviIXdMtsKeJT8U6qHgDVzD_8tVvmAjSSK9B49167cO8dS9tvjHzB17_Mnyv_zQo0svbtjEC53g-pA6XflGwN9foeGbUpwpkFLVYbYCJQN7sEu2Qk6ls7B13JOafM0Ca0DVNn9f_1s9mr2TS8MRx5dKjoZDDU6Vq3w"
+    ]
+  },
+  "description": "Chez Papa à Montparnasse, c est une incursion immédiate dans le Sud-Ouest le plus généreux. Ici, les portions ne sont pas faites pour les petits appétits : cassoulet mijoté, magret de canard entier et frites à profusion règnent sur les tables. Le décor est simple, l ambiance est bruyante et fraternelle, et les prix restent très abordables pour une telle quantité. C est le refuge parfait pour un repas de copains solide et sans chichis, où la convivialité gasconne s installe dès la première bouchée.",
+  "real_talk": {
+    "text": "Les portions XXL du Sud-Ouest. Cassoulet pour rugbymen affamés.",
+    "must_eat": "Cassoulet, confit de canard",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bandes d amis affamés, rugbymen en goguette et étudiants du 14ème.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 17,
+    "value_score": 97,
+    "category_percentile": 3,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 6.5,
+    "main_dish_price": 17,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "SUD-OUEST",
+        "items": [
+          {
+            "name": "Cassoulet maison",
+            "price": "18€"
+          },
+          {
+            "name": "Salade Boyarde",
+            "price": "14,50€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Pinte de bière",
+            "price": "6,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant",
+    "bar"
+  ],
+  "google_rating": 4,
+  "google_ratings_count": 1488,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

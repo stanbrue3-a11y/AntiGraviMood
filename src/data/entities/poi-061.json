@@ -1,0 +1,154 @@
+{
+  "id": "poi-061",
+  "name": "Musée Rodin",
+  "slug": "muse-rodin",
+  "location": {
+    "address": "77 Rue de Varenne",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8553072,
+      "lng": 2.3158354
+    },
+    "google_id": "ChIJQ9vMHipw5kcRWHC2ESjYaGQ",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 264,
+    "moment_count": 108,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 44 18 61 10",
+    "google_maps_url": "https://maps.google.com/?cid=7235270467978162264",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Le Jardin": "Le vrai musée, c'est le jardin (Roseraies, Sculptures cachées)",
+    "Icône": "Le Penseur trône au milieu des buis (Face aux Invalides)",
+    "Le Prix": "Le billet 'Jardin' est bien moins cher et suffit pour le kiff",
+    "Sunset": "Magique en fin de journée quand la pierre rosit",
+    "Le Cadre": "Hôtel Biron : Probablement la plus belle maison de Paris",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur spritz est préparé avec un prosecco d une qualité rare.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.musee-rodin.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqtFBhVE4MgavjmurNNnoMhy6k7UwfTVhIRX6ik2jXqXDMUKX9flOt8wuz1NMjxuxfanxoAfhwEEf5R3hIEmj19pPd8nz5osnlT4iMA7Lxz4ppareqRkc6CkY7CWCHQ-5FEUPZWLKaul0-g5RD-nA9beRb7Ty9MWNBXDgLdg0bpQ1Kxnxv51oUL22haiFb4iZ_TDaZ6mWPgp_JUMZiDKbFHYUFfYfMflxiYJ4iqcWF4aGpYwm3XZbKihA__HmPLzPa_6RAwnFHA19kHIOMRAQg839NuYYhaY4We6i5_sBrzYgutTs3yGWJhuJVC5vMY9pKMpJDPBWYC0tm8chrlnWLwwjrQba-fG5uzOPyaBF4HimnZNRsBN3xjY9IxZjQrcaPhSjuTv8Yd1QVFeoMVqaiAJW2fCqahYFxqu9J9Lu2oNA",
+      "AZLasHqtmJ_IVRB0ZWTy4EBhFCM7fR4bneGT52N8UoP0_xfplFYSrUC6aOxugFIjc6PF3qjFN3BFtjJ3gGV-mjhJIZvE5FpWq4SYKvOoc009p4kkeMgyi7qPvdCtCFZ_7VfjNh2GvE3nSuphSN3JOmFtv2gF_EKv0JYG1x-HwVNcEMT7QZvdc8PkCuCPVBXa_RwxCbK8czelO3AMYINC2fXhQ55ZTsdOuwWHMWlYnbLFmLbT3nI3s0NgqFV5QLwwMDOAnaGgyp0--pQUiA8rcQImB-6jInOuLMNj8kSKAbyitDqNv5i7jZ7rrsEEc1MDXDvcXHnoqhQf6ifUp_dui0f27U3IGsd8Hyw_DNYPDqzRyTicr74kYZL9TxU6sRXCOrjkC3Sk74K9dgx59a9LbxffwkwFsZjKU4hN52uoC8Ur1iU",
+      "AZLasHrq7Kcpse5Vh7RKQnyGAs7IdT826LYVRc06A08sZxQsozxt1835hUMzmHWW6BfiUmcasjB4dIUQjMtrG1MgaBY1h8ZV2lA3hp3RrEIkmJ0YAjXAf-3QC3MbDRTgcwexf8amIPlHe6kxvQ3_tUPGAKhYMIuRlMKJalEuwcJ7MVeIpw5MvsX739g1bcWe0PsbKz8Af9ds2CJP-qYaZQ4DyN3Kl6CAk7-hqlxn5YQ-9UIv-VwkIO3J-UEMezfUOuA58RdeY31m5RUaFHRQDY-a8HKjpPXTrA2lz6pBcgjWNqZdpQMAXbuEsPf-8yx5AGxfwMkv_0o0yL5P1pqvbDjngW9oy-RIw2fdzAm8zberzwqE466mczIm88ZV_9vU1WRedKz03H7DLqDcxQl4zLxKYukRoRiUDozMTwHAN4QMvUhJ6RAA",
+      "AZLasHoyfKizreU2RoBABrTRucX0G7XluSkhQKFwmEOxH8k_9qaClRgUYeXUxQ1G5FQeKmpZV-gG1qY-mnrQNASbc5aSOHVzzBfKopotK7bafra76Vr9KYRj_2Fbkkztvo5ZR_atcEHOUZtnqgVC1Q6uK-GekULp2WILfMZD_ZHqhZsT0G3TXOzfyH5QLIZGZKtZBhm3qXxo_oPmaW6tsuUgk2uLMy7VReObm_UUR5vkPniw-vLxTXl-kRYszD5mXCqLA2HVkLkwct2xARjuzcjy707-ll53-2Y4RxMGfwgsWrLvr91pkTTjs2wzXqhmIhAegUjImYPnYIVH7YaG6PR6zKvfZzR3JcGa4SIBjpectYwqEstrsZ2Xy64CncNdRhpW83l3EcummLGoy4WqRwpEhsXb_KxwCi4zsVeaeiTih2s",
+      "AZLasHoI_pvTyntrdrI7RT13bYkCZkNLyQqFHt53yJOy8onsSZdpYiyKpeFqXHEPyPyJAGqVRKhgpvGF81c7rwSsIYjgtk1JCtaalnQXcn00Bn62ZGygTkcFCmkKoV2U41fRL9dI7Dlvh76WvM94DJuW_kA5GIeibzonCLUw3QX8D0MRSbvukN2QtnyRnYk3zpmcox7Tar_vhXYUYNIZXDFM7VZc4m8Ya-L01dNJPZ0BKlx52txSOvJ482tYGRgIB2Qkly6lf_ViH5iqz2Q-bGLv-pjLCchT1Q8kLtH3u9ystVsMnCDJQQ0mdJS3-3wbqK9foorwlS-aFJJXGT5GOdc8fz8FYGb-YT87Xq53m4UFl7D8qhXdwCuDkqz1iDaBHR-Zh7T5Z6pFfIXCtsKIHZ40dEa_DCcwZ3vmcX6WI715OEs",
+      "AZLasHrK_K71vrFH0bOVbD9ZPW1blgSXYfgzkveeZu2sccURZdyEP1BrCxPPOjQKkBesiE31WMF0nnydG2J-g4KNg1jIZy3RVIf4DxU2QlidJFfcyXkMP6e4Xkf-BscyP3J5sgMPKlcgvKvwFUin0pw2V8DJeN7UwTBsvyFRwZBzdnUMazwM27xLuj6KxuBt8_VV8re44Ps0qyUHZegMTlA2i8-X-0Aib__CwHL1JKxvm3wDMAr0_PQyUxCdK3Dwbim7Po5D_seBNWteHj9aVRfNZOzZN4VL_Taqkqz8cFWsSRj1JRbQdrkPhD8tvESy9SjUKXP6WRNJpv8kUTi_09X4IZT1GLtfhLX8_qTa4xCB34nkmrxEt4WL6oQ7_8Wt6I4qCDsnQpmNXneA6k_AFPtIZS9bwaN_ICOFQEoYQJTet6qMFQ",
+      "AZLasHqcP2mqDzujgh2xFVTLGwE8JACFJdjHHgXFR-P7iG4wy1VfGlidRFJOtpYKbiHjhXEWml2c_DkpWWqI90syLn7iOCPxIpKwFnJ1OAYdK0F2X3LwOzlMuDRobtYWKl_KPdCY0oOVt2_tkr0U9d2IK1nBQv_k7bPun25WnCWBdcHTuU3ehMT8y6TuNQ7dYT75AmoxHD-YIXVpkgPh9CZn2cn_8sK728GR1cZ_3F1m5UoLGGYju8MI9z-aynQTzFxXmevVv1e0EiYyWxBhuyyMaPNw8rsslPZXmCSX9TKGikgr8OLxg56m8opBaxmKGcqR_qVG3sMCZa2-48rHlgyzw0GZQGYCcpYLFZWOCsqgcUqCtIDh0zhgZu_oFcv5ss1cyzQ8eEyAWg40qZfYYJmwpgaLk6bIeIexwybDJIATEs9msQ",
+      "AZLasHre3yTn8mPyDJT8xdwcU0hw5weBUYV5LrAvnYbFBIAE2vmb_tTp8aCfP2PjooXW1CWmUrhAh4Q6XefhC9nYH1d6sn17APozPyja4QIBJOGCCO9cp_Kqwum3EnN_g7NqzSbIhmQIHYD6ng35XeGLY7h_qWL2tPyshEVib4EOH-JgHkBuHUjHm8dC0cLVHB4szkMZIE0mDzCtHg671Icx9BBvILuu_ijIFNXSqi7nULg-lL42rVuEuE-qp9aw4k8OK5nf6f3VRH90klInNSjwuG_ET3LLTb1MCHBDqTaxZcNRyJ31OxBbUYv0PsUOk3Nys2ZA6BI9xw7ozHWEkM4PAsEPhDndkNOuBplMiBjnCVDY9uS7ee9n1vUrETEzZvufW-ahyUc7pk8X6Xoe24ZdiigIddQxGM__rT4MvlyxePYOyfFK",
+      "AZLasHoa459S2jtoJHgDpXMPpOkuP8SX5tCXvNQ6wjR_67ZWHxBWIb3HfPT0CpDipgWuJRrv4VZ9NiCio77_0KM0AtLMdGwwS6LLbznHCOA50g_OpPMrSKv_m0WilvHdSMncHAZYxLHluFo48XEF_C2HkIUXw4Aurizi_PEY6mwFWs2GqPstY_B2SlGTBTxdTfXSkZznk9QSsukTOmJhS2fpknYGghT9ASwNw4_lmBY_kUoB9uEE_gacWT8Nb8InxOXtnTgYMZ-oIlt5Q4stzHEYdZLz-_DkKBh8dmTqz4g62j6d_fxq1Z5WZ3D9FNdUhQm_nyJLxkBW6agrpuwqR7CmBpzi2Lh9ZezhwhkwKOVI0g_8NrPfUJEI2NohaT-79nEB1Ihb7Uy9YQHWSZU1DM6uc5nSF-NXUSkRe9z83wPYLWCfl58",
+      "AZLasHqrYDf_4kazqRl31MHGxy9gbDolI06R7Qx8n4AbFg_u_vw2aXVsQBMxr4riQf_QsFgem9Bw7O-GHlSlLq3kDQBo2-c9OF25xxUOGXwloOf9woZAumjDojCw-1XUUKmzlB9BiIUcVLtpFT7Iqi9w6eYmB2wMjlBgSaSLpc59TU6DV694ASq2td_ZmKxaGGAGka7sGQvgo9FRRJ2L82oUmaa7VSLN4g5ne41T4qGiLE26muGu-8jmANoRgCf5kZEjUskzjv99ehSi2vmd1TKKVJNlFD0_KJAzM8mWTWCQz_uf5x9NFe5DDdo2rHxQ8gNpfogmsyiP80jmSbaJPwL0lAMZ_SD-6l0nZy3eSpEitUGapiYd5ZXAaHQydzi_A5jUBpHUFWx4SpJqrDfTmY1TqDknmXdMFVol6wTV0uOdZMgX3Qqf"
+    ],
+    "instagram_handle": "@museerodinparis"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 18h30",
+    "display": "Mar-Dim: 10h-18h30",
+    "detailed": "lundi: Fermé\nmardi: 10:00 – 18:30\nmercredi: 10:00 – 18:30\njeudi: 10:00 – 18:30\nvendredi: 10:00 – 18:30\nsamedi: 10:00 – 18:30\ndimanche: 10:00 – 18:30",
+    "is_open_now": false
+  },
+  "description": "L'Hôtel Biron, où Rodin a vécu et travaillé, est sans doute l'un des plus beaux hôtels particuliers de Paris. Mais la magie opère surtout dans le jardin de sculptures de 3 hectares. Se promener au milieu des rosiers et découvrir le Penseur ou la Porte de l'Enfer en plein air, avec le dôme des Invalides en toile de fond, est un moment de grâce. L'intérieur du musée, baigné de lumière, présente les œuvres en plâtre, marbre et bronze dans leur cadre d'origine. Romantique à souhait.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux de sculpture, flâneurs du jardin et romantiques."
+    }
+  },
+  "real_talk": {
+    "text": "Le musée au jardin extraordinaire. Les sculptures de Rodin en plein air, café sous les arbres.",
+    "le_secret": "Le jardin de sculptures est accessible pour 4€ (sans le musée).",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 14,
+    "value_score": 31,
+    "category_percentile": 69,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 19736,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

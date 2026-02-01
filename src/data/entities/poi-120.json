@@ -1,0 +1,165 @@
+{
+  "id": "poi-120",
+  "name": "Le Servan",
+  "slug": "le-servan",
+  "location": {
+    "address": "32 Rue Saint-Maur",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.86101559999999,
+      "lng": 2.3814506
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJDxNp1_Bt5kcRfBQ1nlGxQoQ"
+  },
+  "category": "restaurant",
+  "subcategory": "bistronomie",
+  "mood_scores": {
+    "chill": {
+      "overall": 6.4,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "50€ environ",
+      "display": "Tlj: 12:00 – 2:00 PM, 7:30 – 10:30 PM",
+      "detailed": "lundi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nmardi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nmercredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\njeudi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nvendredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nsamedi: 12:00– 2:00 PM, 7:30 – 10:30 PM\ndimanche: Closed",
+      "is_open_now": true
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "ambiance_vibe": "Bistronomie intimiste, service attentionné",
+    "smart_tip": "Leur cocktail à la violette est une touche de poésie dans un verre.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://leservan.fr/"
+  },
+  "real_talk": {
+    "text": "La justesse incarnée au coeur du 11ème. Une cuisine française moderne avec des touches asiatiques dans un cadre bistrot chic.",
+    "must_eat": "Menu dégustation, plats de saison inspirés d'Asie",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Le Servan, dirigé par Tatiana et Katia Levha, est l'un des visages les plus aimés de la bistronomie parisienne. Ce bistrot d'angle élégant propose une cuisine française contemporaine d'une grande finesse, subtilement relevée par les origines philippines des chefs. La carte, très changeante, brille par son intelligence et la qualité exceptionnelle de son sourcing. L'ambiance y est vibrante tout en restant chic, avec un service attentionné et une carte des vins pointue. C'est l'adresse de référence pour un repas de haut vol qui ne se prend pas au sérieux, au cœur du vibrant quartier Voltaire.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3b63BfHg8U41Z7Nukb0o0RCOL23aZ0-fsm5LgYJZfQXR1ayRdToeQ1ExlROPhfcjoq0SrfgYBXw9OAYlRM--WcRvftKoITnfMEoS9wLCBn_zmvbUVpUxtJssQNoX33nHX3kgIi4EThMJWbJUDjVaIRFuMdIV08jpZbFsvpYU4aQCa-pvYm0RFJjRpo0dqFYnju5wAlxAJ3Ik6dVeFua7rauL7egj41Z1lqyrZdWN6vI_FI87WxAj1Lo7rzo15KqN9neu53Eh5yzja5QnvS6L9zYiHijMUD04yMOXssFd64USsgv0DbOJgVEIQEd36vhprL1VKf0jSX2XSwVnxDCCMqMQJEZlMPCO8j5N3NZMqZuKYpV2pKM5Pdxm5yX8vN2NgqnNdG5esHMZyoT7zI3OneSLGlLpmpGoTURErN21r_CS7s&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@jolyne_cave",
+    "google_photos": [
+      "AcnlKN3b63BfHg8U41Z7Nukb0o0RCOL23aZ0-fsm5LgYJZfQXR1ayRdToeQ1ExlROPhfcjoq0SrfgYBXw9OAYlRM--WcRvftKoITnfMEoS9wLCBn_zmvbUVpUxtJssQNoX33nHX3kgIi4EThMJWbJUDjVaIRFuMdIV08jpZbFsvpYU4aQCa-pvYm0RFJjRpo0dqFYnju5wAlxAJ3Ik6dVeFua7rauL7egj41Z1lqyrZdWN6vI_FI87WxAj1Lo7rzo15KqN9neu53Eh5yzja5QnvS6L9zYiHijMUD04yMOXssFd64USsgv0DbOJgVEIQEd36vhprL1VKf0jSX2XSwVnxDCCMqMQJEZlMPCO8j5N3NZMqZuKYpV2pKM5Pdxm5yX8vN2NgqnNdG5esHMZyoT7zI3OneSLGlLpmpGoTURErN21r_CS7s",
+      "AcnlKN2I2UkMyIdhbgiX0L9kkBVPIc2knkRG7yDDtZxT2p4jw21FDMRsvsjnr5xOL8_C_eEomMH20v2CNbXeQyEjvQIlkyvHFKCP4YwK5Jrjy0whlyh3kDkcX5_c-wReT77vAfsDqpnj5OAhSXW1Wn3SoBp-7a3cxKrFE8J4YPWvafwgy8CLwLl-Yb6ezSlFheT9-aVJPMPTNY0tZ2YP0fUWQcQuLc5injRNDI_Lot7ErrlLqHMNIQQtV7JGSZl_9YZko0ILLO-sKTFoxz2rgZJLvA1tWX6k0LKUuJ_qopcdrApY5kzJXCEZvWp3v52gqnavj7Q_3fW8Y5EdfHIV7mboTjiiy14vdQ7w8DO3Oxz_dEbGyS9z3MfXcRiwaAdLN7ass76gJ6b0K1JvkZLFWePUhVlLzVurJtHo-3ThA3WXnl7WNEgATiMFjHkCeE9HBHlX",
+      "AcnlKN1DSdDU4zycjuWrxMaiIKOvnLxcTz4lXsNaY9yMDg6z2CfB_POwfjGM1OXqU0h_MDHd4J43-JfdcpaaHGpYwIVgj4yprPlr3c-vdd3QkfZ7YUsN8F1pxay38KAMxq6cAdmub_tKYSgEReSlu5sSIhdeD_17wiPyxJKOqugtrBckqp0jQ7OLlDo_YlHgfUV3uhEAow9D0vyUnft-Uep2lCu217p7IfGRJQdy4_T1Mn0y-lMK2aQWFaBArVUiNEd0BuxrweraZ-qZP3KLxbv7JGoW1NTl0uGsyvcviPh3ViR9XblSRQTW83hkeSwVt6ksjsQAhHS3MQ5aKCKA7R3_NJq3LhhiTTPWzNnG-siVdfAwyjkoiarCN_w2Ccc9qN1Q7kt6dCu0LXP4X_d_eHPslXYt4SKKwg9eE35x-kszoDYEcZZIJ6WGEt8DE6-gQSrq",
+      "AcnlKN076yN8GP1kBQ2Ma2PRkREbP1Obi22N2EDf7Pu_PzZzak5eH0NTUugZObZ3GyWUqUZQXbRxwceN8KIm8j9kz22cKGAySGAdrBC_P9Ts1VIldMMZM6Yz40uwO7OB3k08HM6QPxxSVmuIkeCenFOX8hsiYbwRiBc2YJ1CcgkREmNvETVwEPkMl4qcty8Q2oKYH0kMuBw7AE8wh07jMbyYbez-ozaozU9vnv4spY0vpX7tORsyZwku5hJmMBAtDx_K6RZvv2V4n9IdQNrsS3gfny3sptS2uGoxnWJb0Wv_PxcN1syTV2716CrYJSetFCpEOvRkYfp3OcRw6A-dDDrTammAdk5uM-JmLA1bOCc_P6Pb6WB0HMRbzZTsKpUij_unPT5yio7Qcs_bGeRiYAN5F4tiOypSpIUCHOhVciZQOHM_K80",
+      "AcnlKN0AyFEzvuXqC2wuFLJZNNsizEXHRPuZaael6tAfzKBPFmF5LhPxSn6nGkh17zcIhbz6ra4Mm0z6TWeJyRznuK0RZEUQ7KzTAmU9fWKoGbeIXfPduyFA7ahDDWRJojUtVhQGLXnhEPzEM6C9qUriJiFFQI3lhBM0wWAAsQ83FJwobPTArDXJ_CB_4kzp3HubSHSeN4xDoo5qSe7_Ur5DFfOs3N-2Se4OsBBzjSs2mtA_oSC4z9ykElf3sRPLjVH80nvP28MHoKPFmUeJ_xCOCCBHmuW4D-aD0i_sbCGbFsnxvNNs_faQC0jurrP-2OfD8PFtG-9ESBQaLA2O1-qWygtisU97_yXvx6--kghQ5T_fAsRTC4_JGW-sC7QvRx6qWxXc_HaGnOEMvk_iErFparnUoiyKoO47XyPlSlCv-_ctBlYCrJIa4rXc4el4un5F",
+      "AcnlKN2lKJKx_2go6O9arduhjyywIRdc8_xzO5jJ_gKmhmQj-Fxq7xmlXr3-Qp9KUlvYrDCsem93iJfE1AsPDAoAdc-4eMHth3CxcyAiHrgJAvQtPK8HMfA8mvrSchsfyylE7jGgD-Rzj0_KcRQrdkkib6H1yrP3bWmkbjvf2twZ1VnzdcjJ08TSLZywqbETYByvGfnobvd8jGobRMalMOsALXQkCITYWEPu1VsZ7Obx8WToJm-DVG2HFB0HbUuvh08ZNRE6oz4MGN1U1YsZKM-2VmhHz9bJPIwaW7sjOudqABIkhnyg9QQJ7mjC812Q2YFySlLF0cgbp8DKvvhH502yU8IMQtKzpcNpW1s41hH1a79d4IdpSkQheVcT0sFI2jCO4e1MOx0LHinvbx2bJiu5Xa9TJLeoeALLhR_U5o7P-VGhnZiSUGMH_klbjzViCw",
+      "AcnlKN1phBbvjSyVoKsHrNw05ZbePOpNRy5cqTCbonr50_bhXv4OlrmwvYUWw6XKA5jiOdFVAMdoJCtAjwqz-zypwGj45fgt8iovrnCsmTyuR-AwWnkXyjMj59qTfeTjL209jSIyA0EG75r2-UzP1wHdWRo6byuorzz5-O5V2Zy__gRLDqP_NYyrIbgyFZbc6MIgCbNMTp5hrHDuy7ztXQae3kDd28hrKdmGY-BnqPjKchrwI4CpU9ykgQW4Tl1OE6de5IKamSBxOe5Xy3bveDSsnc3hAMAy_sI-GXvYQ-0PD8ve1ir4n4sVSYl6DcAjwbMPS89tVfGfWDjUIwb8O_IrohFN4OfdBj21QwyDJJzcWq5EMGManlJi67V1VRQL_8fwNebC26ydN1xpM_Qqf5PRNSXzPRGl5DEJ71VYcoza2BtNIZ5OHI3l0TFbKsWuaz7T",
+      "AcnlKN2gCvc8Gz5lF2lAlR9BzJaJ_n0EM8zywttG7KxTegjdDmj-2A9kJP86rNCZBfNSfWHDKDlrrxWxxW6jI5GUupv-BEMMbdxUJQI8_tlPwRO5X_kQWPqBDdROdVTr0Gux3xK6sSPxuugaotB-bEf0W9fyhUoFcaQNoW6Mgl6oWEbsWQl8TbT31i5mEDad8om00NWIC8KtksApPN3KHYds5saRnQOfl3ZmNtFMp4mN9x-qVkgKa0KDhkqvexqgPp4F6Uw6YmU7l9Ynda9NXyCsyI31x5wnZSeJs7ExvjSTAF-8Lj_Ai63ucmXY2LEpFtFvubcty1EyJrPWAHlyz2uO6mSYmafFKnpOvllPCst60NGApvClT_kFJ_P2AhDLmzMCJ9IhDuxQafMd8FNqqx6s3WERCtvMnNXbLOmQbGK2_ToLBkXLtHBj8vw66pCA6AEP",
+      "AcnlKN3fIezmMH5PaqpSsW0sRmfPtoGRafzQJKQLXSjIidt2yIrSc5ZGEWS_ZicHxzYTf7NKV6vJDNXJoIwe41SGBiylNdwNcYPRxq3DDN8yYNnJfb0vTINi8gtBZ1W2VjCAmZM6Jkj10jtXr9orfQbAfM1F5OCTPYkxui73I9bIiiEdf8qavk-XBhPRlyKT1AOGn4hlGlKn4YM3cRAa7tDQbHfUg-_hWf8Jhdi8zTS42A7NF3qRVYMzxWS1o2SVuZjBRr2AGhJyot9i1wkzji6ot9uBRcqXQoqy958F857zs1bYfw6xSPCV3979KJOnM8WJ5YrNWuTI6WlPRjm0K6yB-ofrXg4tRl9KrKKjr5-nhnvpqQqPIiDbidt7aal02YSY7KrJpo4O8DVGj8YEpyLDJq_1Hep-OAw7GMdLdcrYU_r-YDu6ripQzVlGSwuKhs5o",
+      "AcnlKN2c9voAf2YG4lWea-DkNXSQSKWbu58NX9NgCf9hE1LycUxBZEatPvgbL69giqUnK28DVAjZjir0DKgrx4nyTKQ2J2_knNRWp-bxH_Qv2_Nt3L0KIRDhnXiZogfA-rYtFtXYkVOV793aBGBz-Izu-MsEXE_kAjdEiQTs6FOuYqtQahPqCBX3UhSG9zNJaPhF1gskRgFOriCKMkfEJDnWJjlg2wqCJsqKOVQOxw1WZXYkfyaYmnZQo8z8NdSLFi_v6ES1Ewa2yAg4VetM61FMwM4DwxpCCxlX9q0qlKcAGeOFBCdrKYjCIr4gHfHo5YEwMF8oxmP6dF_HNaI9aXnHdgUicu30GOl5txBO3jFjfroC3XOVQyonb-Tf8iF1zS1FS55lU76iyfuS29Rj9R78mMYIlp5DoUEFmqs387mmJdY"
+    ]
+  },
+  "social_preview": {
+    "like_count": 847,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 53
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "50€ environ",
+    "display": "Tlj: 12:00 – 2:00 PM, 7:30 – 10:30 PM",
+    "detailed": "lundi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nmardi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nmercredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\njeudi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nvendredi: 12:00– 2:00 PM, 7:30 – 10:30 PM\nsamedi: 12:00– 2:00 PM, 7:30 – 10:30 PM\ndimanche: Closed",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gastronomes exigeants, couples en date spéciale, critiques culinaires.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 30,
+    "value_score": 77,
+    "category_percentile": 23,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "DÉJEUNER",
+        "items": [
+          {
+            "name": "Formule Midi (Entrée/Plat)",
+            "price": "28€"
+          }
+        ]
+      },
+      {
+        "category": "SIGNATURES",
+        "items": [
+          {
+            "name": "Maquereau mariné",
+            "price": "14€"
+          },
+          {
+            "name": "Ventrèche de thon/légumes",
+            "price": "32€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1048,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

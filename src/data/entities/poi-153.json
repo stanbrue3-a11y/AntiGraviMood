@@ -1,0 +1,141 @@
+{
+  "id": "poi-153",
+  "name": "Chez L'Ami Jean",
+  "slug": "chez-lami-jean",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8598,
+      "lng": 2.3096
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJjVT2MNlv5kcR4QtneAsLSdU"
+  },
+  "category": "restaurant",
+  "subcategory": "basque",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 312,
+    "moment_count": 22,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation obligatoire",
+    "smart_tip": "Gardez absolument de la place pour le riz au lait en fin de repas, il est élu par beaucoup comme le meilleur de Paris.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://lamijean.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0eA0mrRbuTK4AyLXq9kzmmlBMVojVB6UqGYJAZpkZ5bUIW6aFkSgaMB5VOC-yu6QSMszqna2EK9BHMgjGQd0u3oxhLNqfItfwWDCJSpt6X3kuk3EeoS9A5342aW5vSzTWd-IVjVLDLflfqpOPnn0hmHdchhMzTsu1RAPU9SQOTVFKYXLlu_8EDpekOul7JkHAdHZp4QSAaGgg1MHWz0St_nfD-RvXIQz91f2pEf7gvmA3tx5CF1R7IzbMS7eNaxt630GmAbWWKgQqLhmaAooq7bO5B04ZIBmO3yL8kFBJjCLGJCwACZDCLI8TxUCMhYtHAxahVxYVJ4E1gIwUYQdmxAd-1GL56jV4AnUtse-K1dzj-Gxgxr8iHBEO9PGGrJUMUaXKILvDTcjALY1N0otSYyqbTNTO-VZpOkQvQ2M20SGHZaAb_rcLesUme_NDD&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@l_ami_jean",
+    "google_photos": [
+      "AcnlKN0eA0mrRbuTK4AyLXq9kzmmlBMVojVB6UqGYJAZpkZ5bUIW6aFkSgaMB5VOC-yu6QSMszqna2EK9BHMgjGQd0u3oxhLNqfItfwWDCJSpt6X3kuk3EeoS9A5342aW5vSzTWd-IVjVLDLflfqpOPnn0hmHdchhMzTsu1RAPU9SQOTVFKYXLlu_8EDpekOul7JkHAdHZp4QSAaGgg1MHWz0St_nfD-RvXIQz91f2pEf7gvmA3tx5CF1R7IzbMS7eNaxt630GmAbWWKgQqLhmaAooq7bO5B04ZIBmO3yL8kFBJjCLGJCwACZDCLI8TxUCMhYtHAxahVxYVJ4E1gIwUYQdmxAd-1GL56jV4AnUtse-K1dzj-Gxgxr8iHBEO9PGGrJUMUaXKILvDTcjALY1N0otSYyqbTNTO-VZpOkQvQ2M20SGHZaAb_rcLesUme_NDD",
+      "AcnlKN2WzkGZKSt4FHoB48gsOW6OtQLGv_0rbRTTnl_dllmWgbiX23ME2QvF1J2zr_0JG-cvjvMBTb-JfcAeXU3SvD40x0vD3EpsQnMWgCLFPnLybAPw72WUIT4jpRxPo90DfeYcEyAo5abO1uWKzgZG8FmiFYEp9WKHa_2C8VYUCYYppeYUrawqg5rjykEovSdGj5hlNJuY4yu3fb3c2l8qH3Lxlbx9hlnxzut3WwoMWTCb4md5aPNkAPKwuTm1ZcpGKqaRuZ1XB8y-0Bos7874S-6rTTZxcufQk_fZT2WwkP1iNw",
+      "AcnlKN0i11URKdJ7eAJ5usFHaEAztbcmP2KL9QA8tDULACAmBy_5mVF0g2SKcQiqFhR4UxKt7a6Egyl1zERRoPye7NJ7omeSzg0_jb3WPc6x8sF-2RviB2o16SO5SqrmM3Q7OmUDeXL7FqsOMu8rdCkqNY1DM2eJkg1Z3V-S6FX_rc886qJ_7WI5Tsm_gdtP9a96MvfatzbIMF-YFl9HsuF7y1yKOJ-wBktBobMxeP1gtF9b7Kcqdy3yi5c_8Ga8BOO0l9W5RwVxPG99Z3GjLYUi1b51G40rI6oNlqSPWx-OOeieBgfyMxLO-n09xbGOaS-Qvmf9Rfci0QOS2ezSCsJ9o-RHQ18zKPOCIo3IM6o78Mjt-V141ue0c20oIPy03lMyeWcvtGD9rBGYBoSVPBALlF_mUljCdqjql5Nzzhnzkey5GsjY4XoPYQw9kLt5J5I9",
+      "AcnlKN0LDp1b5WVIVQZTofRRj9CgiMRlwBn_mv_aozrK_d6IrIdWL7qxGZO5fQXdyxZzILnWGz2aobCiXJa8lgjPvD_noYy9Npx9LKRUFljAIo9cCqcyzggFxij8HeRklmuUJgTc3QTRpey6dE-xcNLOVsH09Rze77K-X9AJLNi0fl4vB2bIejSNWbLQA2R1eltScg2ytJ0TPseEzO8qqH45nMCYow9EiXeYKWaon89VjuAiiLU9P9huH3flsYfPLfrPa_n5bLvIe-ro73ePX0fwV-UWjk9uySSkiaMya31qMKEkqEzaZjOtNJ5fDDCk_2l1AMd7u3zarbCeAupru5G8CzJX6lDyLs0kAnZOiFIxFR9okEM8DuFhqPa0f3qska4i62UIzsElhesF2DlN3_UfZXZeH2nUx60FVQ3juTHKrhTDmgI4ieHQvFMiRCCGeAQc",
+      "AcnlKN05tAb5sR24TjCbPmorhysLIzwtETyI7tmz2dLuTt1W0GIJnSayvw7OIkXFyAg1E0Wz0b3EUF_HtR3YiDn7UIFGcrHa6HvHaQB_qisPCCadwL3ea8rmM5NFYJNPVEcrkPeQ2Fbx8nAd4kh-iUWO9zttUfFVOa05JtxlUHOufoS5KSSklq_V6a19rc76oPqn5PJQaxwP9rzinDiqKt9navPfLE2_O8amYxPhxLJcLgvNMpoOxMGrPe8RVvZGJiXkD9JSuzmvUP1m_1Dn1yZvFClYCZR_TWzXynhDhPdx8P8S6N5suz5IR-dXYcy7aT72xpjSg4MLVmP8T7T7sMtN84JSVDXFB62CrNzB-O-p9o4GLz8tUm4O2lWEp1hjz1AgCIm4JeFbUuC7NYysgGE3z4BkrEgTyeLn7dlpI4xwQP7frdSCvQNRy6tdDerBtmb4"
+    ]
+  },
+  "description": "Chez L'Ami Jean est bien plus qu'un bistrot, c'est une expérience volcanique menée par le chef Stéphane Jégo. Ici, la cuisine basque est revisitée avec une énergie folle et une précision chirurgicale. Les plats sortent dans le bruit et la fureur d'une salle toujours pleine, où l'on partage souvent sa table. C'est généreux, c'est créatif, c'est rustique et c'est surtout d'une finesse incroyable. Une adresse culte du 7ème pour les vrais amoureux du goût.",
+  "real_talk": {
+    "text": "Cuisine basque explosive, portions géantes. Le riz au lait vaut le déplacement.",
+    "must_eat": "Riz au lait de mémé, cochon de lait",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gourmands avertis, critiques gastronomiques incognito et bandes d'amis passionnés de terroir.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 54,
+    "category_percentile": 46,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 45,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "INCONTOURNABLE",
+        "items": [
+          {
+            "name": "Le Riz au Lait géant",
+            "price": "14€"
+          },
+          {
+            "name": "Couteaux de plongée",
+            "price": "19€"
+          }
+        ]
+      },
+      {
+        "category": "MENUS",
+        "items": [
+          {
+            "name": "Menu Carte Blanche",
+            "price": "85€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1305,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

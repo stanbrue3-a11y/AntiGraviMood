@@ -1,0 +1,140 @@
+{
+  "id": "poi-225",
+  "name": "Breizh Café Batignolles",
+  "slug": "breizh-cafe-batignolles",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8875,
+      "lng": 2.3142
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJQ_Axo1hv5kcRQdt867ZMQn4"
+  },
+  "category": "restaurant",
+  "subcategory": "creperie",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 647,
+    "moment_count": 63,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Goutez leur beurre au yuzu, c'est une merveille qui résume parfaitement l esprit du lieu.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.breizhcafe.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0EEPPOP2_mpWmM22xp-HLnBIpJyhGJyNuFNX7RwBoiw5dS30or6SWhAtWoCZ5dTXucQz8n8wf4KIjMgGMwezWz5n6SGq--EPSrRam1ajfw-RFtBl_XfIm_rjmy5S_DqdFsVKg-ThJv48aaTp5JOH1gHnKdKgeaFJnl81dGae31Doo2WPRA0rR7uQFdcijn6KmSehbvLGXlUChCbFomET7x-8zcueACNG82NJTo7qTTp70EhOIuGG0JQ_9MprFJGRxcyNHqN2IHgDLwK0Hqb5mpE-6lbOKXrdlOiXNgkkOSNQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@breizhcafe_fr",
+    "google_photos": [
+      "AcnlKN0EEPPOP2_mpWmM22xp-HLnBIpJyhGJyNuFNX7RwBoiw5dS30or6SWhAtWoCZ5dTXucQz8n8wf4KIjMgGMwezWz5n6SGq--EPSrRam1ajfw-RFtBl_XfIm_rjmy5S_DqdFsVKg-ThJv48aaTp5JOH1gHnKdKgeaFJnl81dGae31Doo2WPRA0rR7uQFdcijn6KmSehbvLGXlUChCbFomET7x-8zcueACNG82NJTo7qTTp70EhOIuGG0JQ_9MprFJGRxcyNHqN2IHgDLwK0Hqb5mpE-6lbOKXrdlOiXNgkkOSNQ",
+      "AcnlKN0T0ZeodsT3A0afUiUN3CL8bsdA2ZYwWAw3zXYbqXSvSqEJIjrbN-_epmU0hEi8tPUWg03iESKjaBRvfHgj_IHsTAtDCsnfC9jEElxs_BQZgcTnbpxyClULphmJMlYO2gL0yrdySVJq3Et6FBPFs5SHJCgTaQLyQMiJFz3nW9Xjewss-Pm4QMt2UE5gtXxk063RElId-zA6h7im0LEy-dnbbwsUwawg4JfiKomORm6FuWYzI6lmpbMKn7GnvD3Qori-QT_Pemnv8tthGSIumHP73OWt9B0VmTX6Huj74KRQHA",
+      "AcnlKN1lDigAuA820Ott79dNm5AZ3R35Fk6xfv8oW51zBAwymvdm7uw67I0nJOYOi0-xfei7zLUbPDHjERM7RN11o6UUXrDY4jD7Ma7fW3mz6bwOdkL_RkjA1zlRsMvaN5xOvqz_cnKVClH2Mo-MbyCU4GOZUD7wqyPIyFjYTqkMbC7OoiYauBoGBjg6p5uxa18wz6NnJ4jU_fIr3nJBekqE5LOQfRwQAkILWocKOdSkGiEr5VOWHjW8LOCf1gSajuaI1kW0-7rONyfKobg2PvlLsdtRGFuL2QpOQzGoAa6yBp15PZitqI6Y8xkNkoVAdyd4tNf2XxTHVpVXAg0Up-8uInd82G2YN-Xl1FRO-DAg5cILpRRq_0Px9H5c3y7lum5C0Xti60uUbgVonUaHince1kkvV21ItG1XDzzquOg0vX80xNoXJqSkEhRX5F_ayydD",
+      "AcnlKN3w-nr8P7NOFCgFxsCf0pcjo96Z9Svvlk6gtEm17vTstNRK0Mez13ssOl5e2B-GDl_LxNaxq95tJ6AiVWV_frbU4nvu8ecFp-3UzziDg7BwuPEvUv8e0Xi2Yd5w3OWw9KX07uuUX_NeyZ4lFIYpn7Gos2-Svv7t5a3tInPL9pDfQC1CPXBDAVCagmk9uF8moKnspjJgnTh_L0R5EVrIsFE8AUcrJikzeFu2StCDuKIA099XE4oVTNMGirX6OGQEqbHnAVLo-QXTkkj4GW1Gia3tFDPnBxzpKdNGyyvvzKslSw",
+      "AcnlKN16N6UqAsqgKIgDHQwUAAnzWL3NdISiwfSTUQlU5armmBmoO0ic3bQQxUSOyv7EeEq96D2r99_KXxbRGkmhCC5vsvWr-CCibVBmEFN0xv2MPCqKz1MBcoiOEl1EY5e8lxTx4SWZ3AeV62EBAIPpcwGSf5NRgA423vg-4EWoW37-exkuEZHwsCY0R8YRyAnEjI41iCVqfF6tA7N6h5KMdslsREXaf_JNsvGTSz7vBtKnZxEhFL3YMfLEHHK89qrHBf1bDdJzb6QJxyVFyAe-vigVqzWSAqDG2k1c7fKFpww8Cg"
+    ]
+  },
+  "description": "Breizh Café aux Batignolles, c'est l'excellence de la galette bretonne avec une touche de raffinement japonais. Les galettes de sarrasin sont craquantes à souhait, beurrées au beurre Bordier et garnies de produits d'exception. Le décor est boisé, sobre et élégant, tranchant avec les crêperies traditionnelles. Une carte de cidres exceptionnelle (plus de 60 références!) complète l'expérience, faisant de ce lieu le rendez-vous chic et authentique des amoureux de l'Armorique dans le 17ème.",
+  "real_talk": {
+    "text": "La rolls de la galette. Beurre Bordier et cidres rares. Incontournable.",
+    "must_eat": "Galette au beurre Bordier, crêpe au caramel",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du 17ème, amateurs de cidres rares et gourmands de tradition revisitée.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 25,
+    "value_score": 85,
+    "category_percentile": 15,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 25,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BREIZH",
+        "items": [
+          {
+            "name": "Galette Beurre Bordier",
+            "price": "12€"
+          },
+          {
+            "name": "Complète Chorizo",
+            "price": "14,50€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Cidre Artisanal (bol)",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1079,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

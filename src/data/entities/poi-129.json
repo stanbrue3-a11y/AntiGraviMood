@@ -1,0 +1,169 @@
+{
+  "id": "poi-129",
+  "name": "Monsieur Bleu",
+  "slug": "monsieur-bleu",
+  "location": {
+    "address": "Palais De Tokyo",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.86384109999999,
+      "lng": 2.2967794
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJNWYQDudv5kcRj-kwX_6y0Sc"
+  },
+  "category": "restaurant",
+  "subcategory": "chic / terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 10,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 7,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "70€ environ",
+      "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 2:00 AM",
+      "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nsamedi: 12:00– 4:00 PM, 7:00 PM – 2:00 AM\ndimanche: 12:00– 4:00 PM, 7:00 PM – 2:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 4,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Champagne, cocktails classiques",
+    "ambiance_vibe": "Art Déco somptueux au Palais de Tokyo, vue Tour Eiffel",
+    "smart_tip": "Le bar intérieur est parfait pour un cocktail tardif quand les lumières de la Tour Eiffel commencent à scintiller.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://monsieurbleu-restaurant.com/?utm_source=Yext&utm_medium=GMB&y_source=1_MjU3NjI3ODMtNzE1LWxvY2F0aW9uLndlYnNpdGU="
+  },
+  "real_talk": {
+    "text": "Le spot mode du Palais de Tokyo. Une terrasse de dingue face à la dame de fer et un décor Art Déco magistral.",
+    "must_eat": "Cuisine française contemporaine, fruits de mer",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Installé dans l'aile ouest du Palais de Tokyo, Monsieur Bleu est une brasserie cosmopolite au design impeccable signé Joseph Dirand. Avec ses volumes impressionnants, son marbre noir et ses touches de vert, le lieu dégage une élégance folle. Sa terrasse immense, probablement l'une des plus belles de Paris, offre un face-à-face spectaculaire avec la Tour Eiffel, idéal pour un déjeuner chic ou un cocktail au crépuscule.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0s4ot7cJKOHB8Qqx9HPP1z38REmo84siaTecJtM5ejQXdZxtxCBB77_FZqgcI4Xxl_hx1--rUBKgKjLzPczFyzPoLxn4BPjPuqNtzYBoKNIjhsI3LCv5SnWRFGkAs-Mk0q-hOAAwBnVSRus195cXGCcAPap07M7buxnm1QfnWI3qcXtc1kyOXPWUurEjlbOk3brhcCdgPpW-gPJNz_ffleDeiLppWzzgf-hyYsxuPIy2Y7eHOwViYfJ3Gn5QVN45Qmokpz9b3ul5DGrhlgWfIjzprRwh6Ix3y10RyEQdrOtg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@monsieur_bleu",
+    "google_photos": [
+      "AcnlKN0s4ot7cJKOHB8Qqx9HPP1z38REmo84siaTecJtM5ejQXdZxtxCBB77_FZqgcI4Xxl_hx1--rUBKgKjLzPczFyzPoLxn4BPjPuqNtzYBoKNIjhsI3LCv5SnWRFGkAs-Mk0q-hOAAwBnVSRus195cXGCcAPap07M7buxnm1QfnWI3qcXtc1kyOXPWUurEjlbOk3brhcCdgPpW-gPJNz_ffleDeiLppWzzgf-hyYsxuPIy2Y7eHOwViYfJ3Gn5QVN45Qmokpz9b3ul5DGrhlgWfIjzprRwh6Ix3y10RyEQdrOtg",
+      "AcnlKN30xAJdJhvN2OjyZBixoEv7_5fTrU82T6CaCymNEL_1b9LHUVqZv39PRLkJXyjQrBGJCk6G1IQv1Ni_m54iNatSi_E3oQyM4vk2LSsAKYr9JRgE3V_PxCM9BD0jtwUojJYWvCBTArOy1OrFxOJIxTWsD7kdceP-kxx-j50eeOYAX-IoqUP2NMbhIqjtXJLnsTZhvg_8pB6fVOCXzQqhyGyMZyee_Uog1__VTgzA5tVGzhNb-xbjbBN4UxsIrvhFduGYpwXesVYwI4JOKh5lBN4LK8MmR0sVeDCnS2EpDjAjRnY-9pclmAYlpdgPzWBW-k4Hren89DsNBcdChHoFgBNYJZEJUahkM808nbUIZBbIETXx-RnEjahwWRiKCpCgCIYFzbFfh7_8K02AdhzZDcfxndoKMSpPHsIiE2curpyj5ZGY",
+      "AcnlKN3shvjrlEPxUprlUkfphs0X2mkx81V7a7W8P_P3L1_4_I4MbgoevNwsubHinAEhKqHAjlBz0EyKWbz164DVUgjNnlOQB1YZhBTerR8a0-IgvC7GWmHQJaZkYmm7f167qu11uSXtxery_SJWCmLs-7ZygDxMvQFXpsDQu1c9thuCGk2kzEpnV8-_kaVfIIWcqMIgmn-aA46SLUe0VXewMWajnlqJAOI2KcqzSIDQkYo9mfpvHevTWVj5sS1FBczuF9CFcUbA2hbmqQ2r32XvBf2np0ChHDUmzPAJk1fgxi5Qd0t8pgB0LD-Spy90AsPuisb3BIC--VA4MfrMcY0a7tfGq_m2Lur0SFZflS7OgTk6lyrEXW-qXAhrOIjw4rpSF7E1Ky5_g8pggDqhmEAihexidt-IflFqGyzHc-gqKXtLueEm_tQsD9TA83z3lw",
+      "AcnlKN1oydhou9hHGP5Kc2pdAwVPy7PJQp9uXyOkgNRUtyiIWKOwXCxpyZVr9wTtg8JqiunLRcwyyrmITxnEYjNTQ9dJCJ8pjVyeg6hRyEayydn9haR_DvTgYzJzcPhX374kENXFT9s6VjeaJxCChhIrxyTwckv4gorqgihbC6tsBXPyhbpEM_QEr0KtT_9lFLit92gqYdtpN0KjTaz9NdLmd76AG2Sfnqhwmj66c6mxeRmEnB0tBYjl8IJPpX6Z_XbC78apLgReRYKipM3kGM3jwGc7CwthyCT3JRCMVWBj4kVyKMsblYuhfzrZyPuH-N-xHuuyjnqNr4bqTmyCH5XSDO4FhaN7Cqzw-Br2PmASjrLghYbjHcYsYE6OQnrle4pqM_jijhWajPqTKi2Ifm5dwlUJsv2FkUGZNkvKmxi9iCAQKd-a",
+      "AcnlKN1kiQsC8O6JuNV7BxlcCcsN38R4fcyOyL5VCWDu1xCdEirZH1B5PKcHn71x8PH4Y65p9UjOlngXdUUCEjLN-glYUCHv8mf9eGAunUpG_qtTUC50L00FJIwtTl5r2X2awS5YNQrI7hs3YporHYnfO2u7vxpt1l0jv9OEpaaIn-bneo7FZvDROozCUFy3jKVLeQQoYSmhmtb4XWxonDMbLYyzVX1vUW9TW1qBs0aJOKePsZtMk94kiLbP5GNsgGtBuTWhia1QCRnp9e-ILugjcooWzEs_BW6-rpErw2WjqLMK90wTecvVG9YmvDpAeZwV8TNqIcHQW69vkvHY4wSu2z8a96glc6XLIw6mBRGE5YslI0pCc-q32CtW3dCoZT4uN3T6fTYZFIbqLrMuGhrYCsxNW8s1Ac9SUihtao61hn1tTY65",
+      "AcnlKN1vxopizdfY4tU3-2nIOIpleY-8h12gSLgR0t4-McBApdRqNLg1s_wDsfvIGT5QPrJvPXISKnI86JW4los4JSOjROtux317dKokbTD1G8WPEUrHPecCdHhELgXs0vJ3DUFG0cvICjim-hqKg-2oyRpZHXBtVfjhuBotItzFeP3O9YFCfnIAL-5ovGHDLiIzDd2hVVvrPGqrWtp6VgkdF5jZ65jZ5UncB9qwZlyGbdbYOp7vaSMCOssDniv3JnqPa7CFNGL2JyEKlCwB_tmOTzh4YzSYme1XHzcbauu5CSwPtWsJDUVrXfk_2fEx4ElDvu81ZJlIUwS-fKpVQ6Pg8dAgOoHt8zNHpazydYHP9ef2pFAYOFbkqFKdtlYLDyNKeUV26PrvtLoGNLEc0H5xbTxOWeSIV3AW1muJM5rEG6O1o2xr0KP9ijcLfRQRk_br",
+      "AcnlKN3rqI8ZBKW_15r9buTDUsYve9SCoqSg-tHY-M5ngxka3bv6aIIt_90L73liYv5bsm2tJipiBLCC2hu-odcTeScb5SaB5dMjRGVQP3gbaBmJNwvKLYHWE4ym_0BQfM6NPtdSjtVApRwNxmwmf9JOFmxtiRH_RPHtnUaF7TiIHv75t3Nmtv2DrqdlYCtqtH70n1Cc3jHe0a2XTN_i0H8GnEuDnXC_KL3nTqRf7G3FChy2Jnqd6D-4vmSC9UftbyTVRPJ5uJVUKDcjLKe0X1AzK0COZQ_UDfOPR0zMWfCrHnyaIjvEVTUekiieQR_11VeUDKMDL8Kjd7pybhOEVk6EKaMUb6QCBTe2sOP5Vpx2JezX_4anISuOIFwadrWf6eo-dq51y10YFMjjgxmVLqmLX7EN3FoFH271L--CJfYe-AOUFQ",
+      "AcnlKN2jHcKwsI0nmX1rkOtNgoQ7gfb4c4W4ZF9O5E1L0rWuXM3hhwXeTmtMS_km2w74I0curZaML_xfhUAtys9K7YSH-J85Q3F_e2_QxdX5Qmjoh5zDYb0Q5llwnvWD9TzZh0rVvto1hlhR7QLvmx1ZGDnRKsGIW2M1W4ACgI2vEv1yDadZqcBrGjYZs9p34w2v6SSUKPK2arXnyfGFj_tu9_U7_Drf0VIQVDqcsvaRHBzOuQE1ripeIo_QGvinDemCcCvp3wQVoxLLsO8ZDVEftahOx7GUVDTtV1575OA4GqJbwfsi_fy4TnNL12-e46_hZIGWW01N7q9RU5GseJ2vIv6_p1FzaAlzyxuMyuxBpqRnE9PCzylgZI3wwyJN3zFbiNMNNA_cAd-v2zI3BFQ2IPua13VtbEfhyVEmBO8RCc1Ddefq",
+      "AcnlKN2vRgxOs6Ea5_6erljNc83-rIKaJNT90zMrwTMUw_ooDiBfVc8owIFf6LcDAEVuEoFlWxfpXtoe2FCo0PM3aQlCR_dYP225oacSXaE1woHx9-Yv23Qnn0bViPPbCr9rQorkIIayPPOw4QUndOtN8o2wT05YmluvwoqFI-THDltF1W2LY7iGqkVZj5sZ8ucSg7T31NhLKh4aGN0PYqQUB4DJk3hsZmHnjF6ZoIigzGVvx8SK04k29CdcQfOE_mEdLdmvCBtv2DkkzoTmD1usro1J4xQhZ3kIz0yHAP_HrPA4rqeJuPXfxdiNe-pGcRtxD60vhBasgvMxTsOhguHyw8jGbzzvjYSqIbQ0zzKR0VXmSWvgigARUGt0aNcCxlobzuDKugifkBs46NHiEkKfbJJ4bqhs3UR8g2XH0ctW4TYu2g",
+      "AcnlKN3D5i8JxMUsuu0uXFGUC4ieOFO5kAbDk8mejyDwPAUQVyA5OdZ6KdxYo1ekxZjZV4XQ75vicy90NmylD8PtQ6BsMTmZa9wtDK87LhQ6vUq4Svzk-ap6oEfUWFo2wjhIhDQXIMTLhMBty2nwYKymOJSzS-F_9uIi5CBJ88xmjP-3WeCmiXkywnR3CEitOLVyl1x6EtdGhqPuE-kYAcqMO7qcA9jUeYsbOB0eWFOFmrIGXS_p2Ayma5qJFfthO_wl6otksRw0h9RcgbuOq4fWaVMfR0xWbXg7tqv1ZgIWZw_tS2kf7atTspYisc1P2bgz-FRTM08FjJZDl9pEJiQN0JxUBOcpK6pO8pzmX6GniR61GmyWUtcWNGPAr9YkeCArbfGpsJJ9oTq2GV7vm9up5NHXkzkziLAelZNT62OBq8oaM9HTtOODLJ7KxsYkTf7g"
+    ]
+  },
+  "social_preview": {
+    "like_count": 486,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 29
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "70€ environ",
+    "display": "Tlj: 12:00 – 2:30 PM, 7:00 PM – 2:00 AM",
+    "detailed": "lundi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmardi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nmercredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\njeudi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nvendredi: 12:00– 2:30 PM, 7:00 PM – 2:00 AM\nsamedi: 12:00– 4:00 PM, 7:00 PM – 2:00 AM\ndimanche: 12:00– 4:00 PM, 7:00 PM – 2:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Publicitaires, galeristes, beautiful people et touristes en quête du cliché parfait face à la Dame de Fer.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 30.5,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(30.5€)",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Salade de homard",
+            "price": "28€"
+          },
+          {
+            "name": "Burrata crémeuse",
+            "price": "18€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Cabillaud au four",
+            "price": "34€"
+          },
+          {
+            "name": "Entrecôte grillée",
+            "price": "42€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4,
+  "google_ratings_count": 3707,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

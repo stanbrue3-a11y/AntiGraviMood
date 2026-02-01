@@ -1,0 +1,153 @@
+{
+  "id": "poi-072",
+  "name": "Petit Palais",
+  "slug": "petit-palais",
+  "location": {
+    "address": "Av. Winston Churchill",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8660479,
+      "lng": 2.3145896
+    },
+    "google_id": "ChIJSUOPztFv5kcRnEbSPYG-9fM",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 240,
+    "moment_count": 28,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 53 43 40 00",
+    "google_maps_url": "https://maps.google.com/?cid=17579166182807848604",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Dorures": "Belle Époque grandiose, Mosaïques au sol, Or & Fer forcé",
+    "Le Jardin": "Jardin intérieur tropical (Palmiers & Colonnades) - Un rêve",
+    "Le Prix": "Gratuit (Collections permanentes)",
+    "La Cantine": "Café dans le jardin (Très agréable aux beaux jours)",
+    "L'Art": "Art 1900, Impressionnistes & Icônes",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur margarita est dosée comme au Mexique, attention les yeux.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.petitpalais.paris.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHpZoyNIe_IZCGGpXM_ex7o7UiPskMaxtzm8YgW3U1EXajj4GW9doxLzYy_9ZKoUD8Hws1KH1MEY9dpf7dDnoassqbEgszPfimJTIKsIHM3fFhwbChOYgx1UZS-9oOJQdL6lQ_OHBUe1lpkxD89RPxfPrdBNwGejtPb5rN_iH3C-ILnpWlBbyoFFF2PKq1-iw_6E_NMZyZIws376g__Q-PyZ0sj4Rza5UW3LsR2er7hzQiE2AyjGgKNsB2RPeItkbKQ29__tmK4X-EDHJs-YHF2-315OoD44-49zIziBp7AROZpZGFHe8w20tVOHWd_1fsLkYMiRedxA8sCzyZvMhwhy4UpOTTa-j_kfj8iz_I2teTI-OnNZGBKt-XeayU17aPIaTJyvlMs4DPBvRF5Et7nzDLK054qriudEGOSne3E",
+      "AZLasHp3RFfkgGOHNq-8TphSLKmSl7tXun4Rro7jsHaqPx6f2aeaquGgcyLNBUYMXW2xDesLYxc9GVVFwnAdl1S02vno1zJx958LPnm8PBo39M9KmzaouRL9dHwkmtNOVNtdAavKFWH47BIhDt_SwHU_Cmgb3OXuF6Vr-b8tQ5NbtDf2BXljrpdo_1quUI93cJWFQvPj-yMIH9SoIUNLP08JrpxFK3GbA3METE3ZmmM2oKW6N0UfzL_bUZhkI2cuWpi4Iio8I-ZMsXzA78okoieto5ZatsIMsui9BS6FgfxkZlIGhXsfMlvPbzp5O8SC4y6d-gbe1x2ObFpHXk6cDEvoHb78kjzk0ogYwRu3ZVrhvlZ58og3E-LOtXP7JRxoz2XudezbbNAsuWm4Ks8kLeJjruxSv1hHMyiQukFx2cL3CDCK1A",
+      "AZLasHoiVhZ-uOzaPuAkSVOxEyD45ZQ6lKLePK5TmAV46tdqXHFMGCuNNiVsf3sbi9xMDzT7H2gOY3mj9CT2c6EqWTG2Q9Q7TnhELNv1Jf5O2PjX5INdzzwlqcr2pQT55JMSpI9f7XrdM94Tb0T6aV5TeNlfMeJMVuMQfKqLd9dKOw7pqV1jiKNLY-OdSbdWTeAfRi8ZcyY1_4PEMOfGLCXJQJaJVB9yuSvjPkdn2jHl0Eah8xKN-ACWAk9EFebAENCO_74iL5-_I7wjkCVdkJePvT7Jg1vLi2k0nfg6y2uqx8YENMiz7kjtix8URnfrD8m-Bs0Fjg8NTHASJ8vLq5oj5l7NUmuPtJTD2k9j0MO1vSo03vl4eYLhRlRoAunC4Zh1uoBwwvH-tImYCj-fYtThkHD17x3WB8TGgEAF-J2cZWY",
+      "AZLasHqpv1x4gCAfAv0tH75A70dbvQG_oZNyuQy8rDtBlytigpDrlWHkOYpnHBztNd612ry1rDjNf4QoU7xFu84b_yNFSKK9caCQ5MbLXRAArHY-y-CCdrODxIFWEhtidCgWkq2YT1rFoy8WFc_d9bqPeDsFyWEzOwbofAcPNz8QWIZH38MpVFvt3-UdlhJ9nDpXXFKza6AZtmqudvUq0pk_SPLpWioaA2idixmaVKXmCXO5vKTxfTe8J5BfrUnA4YjWOovq_0CfZF85D2YMpYdZvJfv1Q6oLD9KKpIa6wP5BNHvqmCk6q44bseHRDTr6GoUXvDKxM8o_WkISrxS-8XFJz9bnTyD48d-KG0TQo7pYlflKBRE3UFg6xyvWDKxmiMnEn_N85i8DzPPPPfSRT8u-i7WY7KVfFC5TRLaDVlaDCE3xDV1",
+      "AZLasHqDT4kglsf_VSPtYpt1446j6BiKallk6r8GKphiwqLaiRKuyVVJ5qj09cQLbBTr8dxfowSXHbjfDWPnxMkLaXdz5d5zvUVmIWYUM8uUrgNBb-CPmLdK2As9BNAgWTJn8dBg73OuRa4Bbix9WyR6MRolS31_aMd0SMrQZMHC9wx2mhG-b4B_ieULyDLPi-r2rbntnbYxR2G9Is9F2ToiZamQzwuLR-9xbj4HdSMlBfoXG8cz6mvOrJnN4CeZqVYUgNvXZFysGFFqw-flV1pqoxjT20OBetbZ1hnnsQBFkqBViSImiOo0U4eyBqp-CjKjtH8h-cT-swlnrdxDVnQxX4d8j_TxJP8S7TOCkFYprN3NKa6Tu_tCpJVgPnkc9PsUaZRIBkleSR2EyqaAReAgATHTm97Ysv0NUfkhx-N46VliyZY",
+      "AZLasHq9vBVkVTomXjlt7UNhMrE8SN9O4ObCAvnNGSBmkasztiUExBYNdxOjIhdu5fCBce0qbBWkJDsGVVOOCz6Wyes5yzyLVeS_x0np3_YWxZA9f3ORyEbwAkHlEjlIeKBJHQvEXE0KLp3861dnH101oj6lr6zhfMqamrvjHeAo_N3IDuso8U4XB-uIj0uyVt-Y0wyXnsqxPgC6I2X1knBtphAlZTXTUx3PGje9beI_9cU7-6V3O-fmM-8ZQkXbux1ti5-v8jd5dmW2ksMNhhNRlxCypBuoO18gl-7crdzIUFH7rDOy83tFJLynz7jmDfh3DzH7w1Y1TZsZC5OqOs_pJ6wBP8yigbCZ1fOIWHaxVfh1w6hrf0APFSCW0IxM_4AmBswjhCjjYp3OXtls-L6yJAF8HdXE9dykburZSIa7FnvmUQ",
+      "AZLasHoiNyS-jEDAh5G9oVD9X0gz55oWH0U9lkIsqvKrjlh3O0jAF37M88Pix-7IEt4cO4KnThwAvFX9Z7IyLwQeF9gajLH9sYeEBzSn2YRjDqcErVg-xFY_5Pq52wrhkbnHRp5-_-RbVqe2i9cgJLCVlLKdawihAdrq_LiQUkf9CK6vZxU6keN5u00ZSfHJc3TytPB3j_qLPavhIb-q5Apuswk_JRhaPdAFPKPt3zJr_UfPBQ_6SxWMQ89D39bkPekl3cpvPux5gcRAXjXlRxGZEJpOv_29iUj9YRpXJK6W3GuHonUOC7GVE_B3FN8DBp2Xzls47ZiW7F8sfRb1eDcGUeI1tCzx9wCshsJU3_Vj46mL7WqkYtd6seQ63c8RVbY1UaAe5J9u2Ord2H5Ays2RbaB7KjWxd2mQ3Lezzur3kzxsAde0ih_IaNhceHHEuA",
+      "AZLasHpVVESUBceSF5Y2cUV9uCGjcmkho1sCmVnAGVK3aVvxHghynxmZ5As6FqHR4y3-JVf-L7qb3i4Yt7ZklVx0X4vEaoWa3q2D4gPYx7vTABRqNSwIOIDtctVu1seW9d56dHvhhid1FdygmVmSMMHFqPlLZIE_J3Szp7ZLBPdsSYpti7TgA2LsJFDT1SOjgjKE5G48pboEApUz226PcNqsn-v9garfYUGh1LQZUmFa2w64hNb6BDOQtUW1Wd-lU7Qe_1cWdFWZhNcOuZ6g1Yjpwy1n93_LJY9Uk3RG0aatCkchQWP5WF5UKAiDRjraX5ClkJCuUg2ES-mnClkbJdp7e0kY0CjtlcuK0GvT-lsut2BeAuGUaLWxeiGGbNwi1grStf0GsMpJGbs4vQrroWpFuj8XZAGXHDluHADW4L9NeSEIXnsJ6-Bbv5-6DvFRCA",
+      "AZLasHop7FDGwoUOnJKS1kOwZ7FrOHdh7N4HySJyCFepCv2Te4ata_i0omP6DSzzq9Axj2Nspzg4ZN8B_ucF4ZKKfIVu1KaofD6VFQdtegCUnVzXEfEcHiP1LCltT7kR0z3Pw0iS4GtxdpSWrhzu2zMVCzWE7zE8GGUT6qeACAx84SXPbozQl1gN6pcSI7-SRcDvdlupOy_2FoDAsoRQwxHICC3y0PkeBP3BxQ_h52YDNpIze03_S6ompWAcf9NfK84LZLN53kI3V-HAZfQjl-Mvab9yB964612JbwizlPTK2EbVX_alIkysXLUKbk7onf8yYmibEktC7CWcYq1bP5tQ7tDmVmOAHBLKa9nyRZDzeIHToMo2ytbv-lD6jV3wZxLX_VzOIKKFb4YlSYwOWYT9ETOxTseBvU-mVoX1l2-ZR8Jp9Bz9zxvdGLeJItq_tnoc",
+      "AZLasHpZa1YiOjs0vM6dKlWLugiTyuvk9cNYkOHdOQzf5dgkUjyzVb94xX3SpeVCfL15deajFYq8c2XQ9z-StMbBIGzAPps3gJbtxSxNCHragH3Z-1oUqte6rcC_EsJfKkxS_GJsvGnRJxblAMeK2THNA8oS1cqf7fYI_IvII0AmPRN3iLvVRe8I3o8YC0V8DRMjBFa0PX1hi3okmkh_hLQnRNQm-ZICpD-n2ycaF2_BTjTWnWHwsieCoFjZYQOAHMLDQHiC60N_9iDaVcMzjXtcDdXr_M-dwaxDHs42b_irUyzFgfuR6jRPvmtP--trebuSIvcR4VlRbB07Of8rEh_pu4CK6gry_cH-ModPfqSHfyNgWiD4PVlliMwd-kC4-lhKnEptOWo-j5G0kYux6BX3zAj_kK76rXay52OviyKuYT-tbRN2"
+    ],
+    "instagram_handle": "@petitpalais_musee"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 18h00",
+    "display": "Mar-Dim: 10h-18h",
+    "detailed": "lundi: Fermé\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 18:00\nsamedi: 10:00 – 18:00\ndimanche: 10:00 – 18:00",
+    "is_open_now": false
+  },
+  "description": "Construit pour l'Exposition Universelle de 1900 face au Grand Palais, le Petit Palais est un bijou d'architecture Beaux-Arts. Sa collection permanente (gratuite !) est riche, mais c'est son jardin intérieur qui est une merveille cachée : un péristyle en demi-cercle entourant un bassin et des palmiers, avec un café mosaïqué où l'on se croirait à Rome ou à Nice.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de Beaux-Arts, promeneurs du jardin et esthètes."
+    }
+  },
+  "real_talk": {
+    "text": "Le petit palais des Champs-Élysées. Collection éclectique, jardin intérieur, café charmant. Gratuit.",
+    "le_secret": "Le jardin intérieur est un havre de paix pour prendre un café.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 73,
+    "category_percentile": 27,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 23715,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

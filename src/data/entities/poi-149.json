@@ -1,0 +1,144 @@
+{
+  "id": "poi-149",
+  "name": "Les Éditeurs",
+  "slug": "les-editeurs",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8511,
+      "lng": 2.3386
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJF6_Jst5x5kcRF0sXkzeGFHI"
+  },
+  "category": "café",
+  "subcategory": "cafe-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 321,
+    "moment_count": 29,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Bibliothèque vivante",
+    "smart_tip": "La petite salle à l'étage est parfaite pour lire un livre en toute tranquillité pendant des heures.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.lesediteurs.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0Rk_4pTy7y5qxoV_-GnEtAfJM1kJ7ca1DVWmul0KnEvQEbLkEm5JeunkZ1ASzLvoWbF1N6bH_bfnkEHfySor-5sCKoaEU8XcOjA4VHSiNPHZ8H8xBV-lDxORGzJcRyJYvVvCXrwcZMGsrq8nkx4GsdULEG_T0aJ9R3Y5c2MT7k86XM4KrL5PCscS45MWs96Iy51s8rCjvmDZPVNC_ynt1tH0skv2ykEOjIHvMEaeyWHmzPkcPcg7-J8BH3uwIFTaZdQmAKc1B3C6rjtU2IylziAn2sx3BdHWPgzLw0EGTlqw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lesediteurs_caferestaurant",
+    "google_photos": [
+      "AcnlKN0Rk_4pTy7y5qxoV_-GnEtAfJM1kJ7ca1DVWmul0KnEvQEbLkEm5JeunkZ1ASzLvoWbF1N6bH_bfnkEHfySor-5sCKoaEU8XcOjA4VHSiNPHZ8H8xBV-lDxORGzJcRyJYvVvCXrwcZMGsrq8nkx4GsdULEG_T0aJ9R3Y5c2MT7k86XM4KrL5PCscS45MWs96Iy51s8rCjvmDZPVNC_ynt1tH0skv2ykEOjIHvMEaeyWHmzPkcPcg7-J8BH3uwIFTaZdQmAKc1B3C6rjtU2IylziAn2sx3BdHWPgzLw0EGTlqw",
+      "AcnlKN1lfwnDgR4hsI0iij_qZl3i7S_WO5XaImD93gV_dEx-hvlpeLnz7gQEvnRP8seivl51ikA1yR9-uQms1hDUJt6KtjDRfGW6AU3JCVdWzVnVbkWsXSVGuTInbIvsZ3PZL--7KTr0adM5gJzOxb-CrBTXS-0wI4ncshJzEDsEhc1DELfdsbM1C-ZuLCS7MdCmATQEZ0qt7LTW_WCG4YHpuyMy_nEcpw9zCi9ffIbBi8bukF06bIH9EiFu3OhOWjWTtprI2xHEPA-nI96x9vLamY4RvqEnWoFTfchJIdN3GIkLqQ",
+      "AcnlKN0Fr9OMx_bSzIb2DZA6g6pGED9N8WR1GMJAzN1lxdPKSSFfzR4_JNldb3TPMbYJCvy7znrsagI7jfJ-KidYzJDPTafZb4RTJEHOSDfh3WD_jlXwRa51jVhd_x71VuwnDZhjmsqJzp6XCy17xAsKR1PGvdM-WWMBVVIejpg2sLdUObH4QfiQik56InoAiEtBF4TpQf36gq19SgoS2l_ctiuS5TDDy1N21lHTHO5fCK1UmRAz-_RSQyFxj1mgjDMrJFwJFkFrgTNwARKB6WAVinkAGYGx39rNxcdj1-l614bEQy6FedSqAyOdlG2RD5zfNxFja8XD1qLcjqZnx1-PenWxq3Cepr6JlwQ7pXbwO7yB9QvzHwSReE7GbLugO9668l6GpWXnuk3Xnd04K9AW5dSSYnlRcj_Z34l-T2d-yo6V2ECPn4WcoAk_o7rzDR2G",
+      "AcnlKN2_tuVCR96jD8lDxfRejQSmKSElduIwE2QXZKtBstrT8SS9ui8MhKIX1vIlOqRTX5oEz6w-72A3aCcu5OuNI3laSHvc6pKAvYAFfDxOdNxD6aKckyIygbt6j_zueA9avd8LzyTKBtkZvQeIktGaSjsosndpC6SmrV4AcsTCmbQC6-ZSLS4hLI783evssfMmZ76AJgcUkSVttTklok8Kiz7W8uYj5bIAgtR_LktJW4lHktxyI4tBrcpJ5YUwK-jBSqBTci-dXhcpss7HIzPErKzBa09FVT1y611qee_Du3NGPAWS1IgulvwEtBwp2uN0rBfczK2M0Cx9UOj0Q2ejzUDEPZoQbk9QnXQpM_At1FRvz5Lbcqmyu20igN9ldtW15u-YO8pJgpKDnjszvrsc56zIN4k_8C83i07hwwU-yT9kX15LzqXI5-NttdtZcA",
+      "AcnlKN0zcAmCR7Ro3-qHsvuNBvpakumRLVdYIJKX-VU8Kkfqe7z-yVVtSegzwNr4dE9JLoIWPqCRgWxetNAohFZfPmncRdiy5g309YkhiozfSS6GpSXtBtxxyCnAbSrmCds4rCsz5talmAX0l0_5xjOxiXUXqtZQ2wA2AAfCrSoOBt-CZZMVHaLr5wA-f_FAvmt_VIc6rQ0X6ApAEEeeG6zxGYR9UhdI-TBz_LfOrI1BM0-TwIaUWvn7TQB11esSYTkjon3M91J_Xu8RmyTopVT5zpNpboSPqWFABK4XzwLXGCv10rM4zI2FZFdHJ1uvl3DWZ0I8xZzurYsuwUvz5L7o3f8yBINREHqAmnGKI9DwN8KUw2fBysAQ0KzILGRNRACDmS8-i3PiOrV00WARkyPtsVMK4JiFWYhOV4rAZLRspzlb-tRd4lVQmM1yNRAv-A"
+    ]
+  },
+  "description": "Installé dans une magnifique bâtisse à l'angle du Boulevard Saint-Germain, Les Éditeurs est le café littéraire par excellence. Entre les milliers de livres qui ornent les murs, les fauteuils en cuir rouge et la vue sur l'Odéon, l'ambiance est studieuse et feutrée. On y croise souvent des auteurs et des gens de l'édition, venus discuter de leur prochain manuscrit autour d'un café ou d'un club sandwich exemplaire. Une bulle de culture et de confort parisien.",
+  "real_talk": {
+    "text": "5000 livres aux murs, terrasse sur l'Odéon. Le QG de l'édition parisienne.",
+    "must_eat": "Brunch littéraire du weekend",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écrivains, critiques littéraires, étudiants en master et parisiens du 6ème chic.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 22,
+    "coffee_price": 3.6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "STUDIEUX",
+        "items": [
+          {
+            "name": "Club Sandwich",
+            "price": "19€"
+          },
+          {
+            "name": "Petit déjeuner complet",
+            "price": "22€"
+          }
+        ]
+      },
+      {
+        "category": "SOIR",
+        "items": [
+          {
+            "name": "Cocktail Éditeurs",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 3781,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

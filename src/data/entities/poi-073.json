@@ -1,0 +1,206 @@
+{
+  "id": "poi-073",
+  "name": "Septime La Cave",
+  "slug": "septime-la-cave",
+  "location": {
+    "address": "3 Rue Basfroi",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8534,
+      "lng": 2.3797
+    },
+    "nearest_metro": "Charonne",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJeVOXTwhy5kcRAqtr02NpcpA"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.5,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 5,
+        "natural_light": 6,
+        "crowd_density": 4,
+        "music_tempo": 8
+      }
+    },
+    "festif": {
+      "overall": 7,
+      "criteria": {
+        "event_programming": 3,
+        "dance_space": 1,
+        "cocktail_offering": 4,
+        "crowd_energy": 8,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 7.5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 5,
+        "cultural_programming": 4,
+        "creative_clientele": 9,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "natural-wine",
+    "intime",
+    "parisien",
+    "standing-only",
+    "expert"
+  ],
+  "ui_theme": {
+    "main_color": "#722F37",
+    "map_icon": "wine"
+  },
+  "social_preview": {
+    "like_count": 2840,
+    "moment_count": 1120,
+    "top_vibe_tags": [
+      "natural-wine",
+      "intime"
+    ]
+  },
+  "discovery_radius_meters": 30,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "Le Concept": "L'annexe décontractée du mythique Septime",
+    "Le Tip": "Prenez une bouteille à emporter si c'est trop blindé",
+    "La Faune": "Foodies internationaux et locaux du 11ème en quête de pépites",
+    "Le Secret": "Les arrivages de vins oranges sont souvent exceptionnels",
+    "price_range": 4,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins nature vignerons",
+    "ambiance_vibe": "Cave décontractée",
+    "smart_tip": "Un spot mythique pour les amateurs de culture punk-rock.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.septime-lacave.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2070&auto=format&fit=crop",
+    "instagram_handle": "@septimeparis",
+    "google_photos": [
+      "AcnlKN37MQ7POnJGM0gHVX7ZBJrg1c3TZXyyE8HXeJNSvVZ9qFhZ2BfUPMaFy_UIXGDgw8H_4L6pLLOxse-XENaYaLNln-r55yZFXN-28RLrBapZkNV5Ei35lZCZk5xKpRYsM5Av85k5t_29uuSyvZJcenF_7BXYrjxV0UN1WURhB10IitbQw6ytKEbSd1zyQXksXEXB4OcyVkOlSrzePWNu_G6t-E1THAkdYie7_72EmCRh1MXrkzZ8D4BPovPX8mIX1yobQi8EQyrVK-FGUzwgkLRKiBEfp6HvWj6mXxh1e71RoAoZfoXhcKLIgzlsGKtDnL-H3iJx-dj9vG-VcnxXukG4stP4rgGckx8dQuIhcnpVU9bojXRDOXx01LXti2mKGX1vnp61Td799clp0jvgNN-qpULXvFT99NwtTJuJklNUlw",
+      "AcnlKN1lNTf48wsRPgbOp4n5C0yuLgvL36mHyfiMUbzlvbALjCjuCPRWEPKuzxFa2u9bIAAz-CP3XSdEOsnislRVGl8Q3i-L3MJTunWdaussWo5ELWKZkBwZBQaXtbP8WjI9D7cyAv6iZl-WF2MvEo1tOz-vaCvkzfaF2rNzhF32w-WhVMVh1ZT8E9j4twJb13ENDz5D8KAytil-9jUGVugfdVbjGuDn9VB_Unbqbady1zCJSNif_IryZ7eCuqoDAMpV18lTrPO-9eadWHi9P1dAP16Qspue1kC-0d9e-8omaDqFeOB1ohtA_YsI8VtEUomINqTXbS2MA7Ho3_wYbULs50ytMTvyaDoje0b2El9mairfUSAEl97TXbuwnoYrnF7zBxViSs-ppjFnId-SB0azlSTgapT-ljwlouIOelwm8BXl2frj",
+      "AcnlKN37p80aC-tfJbUFdZ6kaaeeIHjmAXdVZYbyH_Jr78o547XXZiYd6T6itrdi2SWZFUEmsMeFKO4u-bFiX11Zok4RNjlZGIDMGWFYPhENdja_79EVsY7ln51BBD9yAeDUWwY1H9ka_tyBSuEES1xg9A2hfRO2uXFYooj4DBnNyQTzPqm7umz98SZTANxjYbCZvPGA7D71_ZzxEt19cmcXt2KzOKbRkTAHj-dhLdT8TLy9a4PcoUDtbw37UiyUZ2actr1zhbru9f1Fn7kwVfY6De0gYv3dJw8osrC9OZl3Eq9ZgDkAynduhdC3Bl5UuRfA5Px6TGb1OvfjPIPEOLGKoU1N3gPAnn56ORsPGyV-v-d-4ubOrMNAN6ze5d1TTFPHg5whMxIv1upVgWXRqGasUi_DSUS3M6wIdZhsyWj3mNevpzUv",
+      "AcnlKN0Hq52-xvjpnNpKd7_u8L7o-eM4tc47guNLPUSfAy4jiyxy3PXUI6rKhMkLQfSIb_2e6I4IOfS3Ns4lmqEul-MVa1qal1Y1SZt7ZNFD9mRJ8LXWDNOspYu2aELTJF4GbZYWu243TVl-ubjYULRRF5lchwpTW5v1If4oLml0UhRNXDOB8Hy8Vxf0823WM1PpB0bmbxI_UmJsT8Rfc5sALwHBxlOAIcbCD0T8Zq7K61oVQ0iX7mDiw_8uc_i-Ulrp4Cyg3foOAbugKFwrQxPanegXcv4ixoHln6XnILV4oCqKYQae0sGYw6Zqd4Q-wfXUg66asrkFJSOiaGpyVfXo8PfyYMgJNdZOir4waJFiLd2VR4hIGWINyS6t8xOn42yWmIS_UUVAzgfBA0Vvey99n9UeP1gulDLQbOV16jW6mjroPJoU1iGEup2Uax5DegZx",
+      "AcnlKN3c_MD5p-FGaVW09_86cbs1Y5Q3QwBzrCev59tp375ZcIYa8pisEmB-nrUYjGXTqW_ebeuaxPxjrwAajg2DS0Y789_p2AUoNG-TBxDsBIf9ap_YTvr8ZfGt_n5dXQbsi2zaFJx1MbLKc4rOpfcUOQ9ELSp0Kr3HWpFirvVctyyNt_R0_CYQlR62fWbcoDzvsl6qYiuh0WoT8L44ET7fdsiEChzqBA4YrvasUE9Lk0ONsCMIn_SAseykbJEYBta28-0ary7HyGiAMz0YPRZ7kPO3jpZLEQ5SEKK9oLE3pfsrMQY_FeMN2ZafZePyTKi6DKl5EeR3_MaHyzemwZdw4-HIrAD1CC2boOwgWZGuz95DBLbUmP-OWtpw_pPWsXXNB6k-g-OIGMGQTU9J7XxukGnOqJVeXLDGv83-Wj3hi2VA9qU",
+      "AcnlKN11h_jrf2WYBBaljEQI1ToZqEhH-BP48obsxKNqtYyW36kTzRcgKIxeDVhqPkdkWHvEVxQf0ZEI4tikPMPeWI3rdeZhvzRFjI3vDK3LWzJAkUfmvn5Ot6BXJqO4k6gNVjdZf3fLLZrH4hiURsvcYRy0doJQ2imAe3RdQgenkhIMNqnCLl16-pU0XYQoaJ6ZYrErC_9MiqnKZ6TPy_gaFa26iuVZs_s1p-1e2TqFEX8_jxJ5tA2_pTQOnFiQMe_6S7pDuAxYVperARs7j1VIWZa2ijO56v0U_LQd2T-MZ4HK5IP69s7lAN0I5CxBYYPZd0rJeWBdA7Gh6FZ-9QhhxcThZIs86mgr5krKC84h4n-JbOutnsxVJOOTz80BXyzo5gkIxwxutgxnMAlUD20qjD4va0wgVnkk1zAl7vETFpc75QcU",
+      "AcnlKN0CJhX8lJxLyx-8ENXXyo1W6qCIS0MsZ93E3pvzR-eSyhFtvBR8Io7axLfdqjsbLb9RD8YFyuQpLuYFV0VN2OPcqj82rQHUxzyUCQd-lmbfAynU_4hmL-NG74v1iwHx-aeneEqoFBxV4dRxJPd-8-kMX3Zg0EXTPm5GHRAuz0vivHo8_RtHnZYdnxPSx4CVb9hxi4FSiOPRVIzo_Q1Qm7uVaOGIVgOSbKyZzKgXaCa1LooESIka3PXuSRULqTPIqHoTtVYSvUiQkwVw_59_RTdGpBq9sFSk-a9_FD8_9Rtf3Xpx2PX_WfeS50t7HWpgDDibRdxnJlf-d7P75DMNRLaVy_r2av0Cr57EmDMEgVB50zYZS-FkiZRv0Sv_bn2r0r2WQsRJGS-DtJwoWCHz-BL3HdBGTkYDt_-GTrebPnDi7CDk-HKkXpGnNyijZH5t",
+      "AcnlKN013I75dTvBpIuVCwadifcSItAKHtYw1FcMsHQL9H_yn8iN9_z8FYDUSjyMNH1zfMiKm3Uox7ulvEnZQk9NkXCNM1i8_jqCYw0rtCgmKer1AkZAPbKUc3UDWGOx87GyU0O5FMRnsPjyLFwyl5LTRnh7tnWWMwvTNEidMv6uOrytz0n3kdbpIKnrXyhyEKGVkoC0JucUsnhRk7Vmn1f02WX_BpBfZKEMlkrWR1FYufVgQmwxzc2lUpdhKieMx83vrPZbQRwHGwb-ZJFQEh-8Jce9pWobANEbBbESUt4T_SY-ANN9zTi4qNMQCF-IJxUUbD3BrLlX9Pk27prAxEsf_11Ti-oi6TnEopSJMa6E5FraMgds8ISFIpv9xm78Q8cRRZhczIJ3eZy8RkgOxztzStRmSXqKxFEs1xfJe2nCntQ",
+      "AcnlKN3GjI0i2Rlp_y6uMZtfJcepfPW08L0gSA9fZ7Pw4ZOOG1gjmUqxXVfwY8m3wO2x0y8LiuFbaKVrSofvgvIC2YGITGSJxj2wZ0Asrecv6LeuNzGPJtpQdzc00997_lwd5qyFs0a_HkZ8aKLTQv8HXAkoXErTs7lLLafh98bgo5dTUaxYPIL-41nBlcLeH3exFu4fBmBW8XuPHZtTscQNxa8QCcqJO-U_aoI8HamgQd2EEGEGaLY4aKcyIO2TmQUYFHJD-T9q2zNzen0q48HFS4WAOUz0Wk4tYPIlPz2j0WFb_gUhV1UPrwlHADBNWZSmHQ9tZeiW26fC_V_6lG3oJdWSqVt5dPV0pMO76EMgaAWFFRah3ZGp2XMbPmtHWWpH5Mp9X0abp4I4VzL9eUHbZ92dlaBuhrP70eE5eXdN501PVg",
+      "AcnlKN1Gk8M4Hm8qOXKmsP80Z9huXJynTyKWXtYJ2iDAosT3buqa_cIhQQqtp4XyU8ybxIc_Qf9MsI_gvXhX0sR2ZjZ3Dn9WDteBcNBR5rkUCzTcoIYN6DBGAX06nchEr8WaOn9raezsbQ_i4RPYfKyP7WbinD5P83HklxT6xM3l6Ao2eDatrh11pYVgFqkGOGz7siqjqJKDut7dlUF6PtJfxJ_d9bvncNGKNDaEVZYzjF8ihmYqfhB4mkHKbXOIyx9wtnplipQDZ2cB9agMiGhRG9z99ipLvOZO93_poR_s_6tf1oRbbyjIDGOyACyp5FqtpA_o0RTpTplPyhfRkEpn73rVGr3ycwO0bauUMsP1LnrYhDrup_CcfvJIz3-bVm-5ZPvwNBTFVu0fJWcBFT7_3QlsldE6MJfsTcDOhj3MOnxXhg"
+    ]
+  },
+  "opening_hours": {
+    "standard": "16h00 – 23h00",
+    "display": "Tlj: 16h00 – 23h00",
+    "detailed": "lundi: 16:00 – 23:00\nmardi: 16:00 – 23:00\nmercredi: 16:00 – 23:00\njeudi: 16:00 – 23:00\nvendredi: 16:00 – 23:00\nsamedi: 16:00 – 23:00\ndimanche: 16:00 – 23:00",
+    "is_open_now": false
+  },
+  "description": "Septime La Cave est bien plus qu'une simple annexe du restaurant étoilé Septime. Installée dans une ancienne cordonnerie au cachet industriel brut, cette 'cave à manger' incarne l'esprit du Paris moderne et décontracté. Fondée par le duo Bertrand Grébaut et Théophile Pourriat, l'idée de départ était de trouver un simple espace de stockage pour leurs précieux flacons. En découvrant ce local rue Basfroi, ils décidèrent finalement d'en faire un lieu de vie. Le décor est resté volontairement dépouillé : poutres apparentes, casiers à bouteilles du sol au plafond et comptoir patiné. Ici, on vient sans réservation, on boit souvent debout sur le trottoir ou sur des caisses de vin, partageant des assiettes millimétrées (ricotta fumée, charcuteries d'exception, légumes de saison) au son d'une playlist pointue. C'est le temple parisien du vin nature, où l'expertise technique s'efface derrière une convivialité brute et sans artifice.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Connaisseurs exigeants et cool kids du quartier."
+    }
+  },
+  "real_talk": {
+    "text": "La cave à vin de Septime. Vins nature pointus, ambiance décontractée, assiettes du chef.",
+    "le_son": "Brouhaha chaleureux et jazz discret en fond",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Le plan B parfait si Septime est complet. On boit souvent debout sur le trottoir.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 14,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(14.0€)",
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "wine_glass": 6,
+    "menu_items": [
+      {
+        "category": "VIN AU VERRE",
+        "items": [
+          {
+            "name": "Sélection du moment (Blanc/Rouge/Orange)",
+            "price": "7€"
+          },
+          {
+            "name": "Verre prestige",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "ASSIETTES / À PARTAGER",
+        "items": [
+          {
+            "name": "Saucisson d'Ardèche & beurre Bordier",
+            "price": "7,50€"
+          },
+          {
+            "name": "Ricotta fumée & anchois",
+            "price": "9€"
+          },
+          {
+            "name": "Jambon de bœuf & amandes grillées",
+            "price": "12€"
+          },
+          {
+            "name": "Comté 24 mois & chutney de figue",
+            "price": "11€"
+          },
+          {
+            "name": "Terrine de porc noir de Bigorre",
+            "price": "11€"
+          }
+        ]
+      },
+      {
+        "category": "BOUTEILLES",
+        "items": [
+          {
+            "name": "Sur place (Droit de bouchon incl.)",
+            "price": "25€"
+          },
+          {
+            "name": "À emporter (-7€ sur le prix table)",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.6,
+  "google_ratings_count": 449,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

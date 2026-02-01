@@ -1,0 +1,142 @@
+{
+  "id": "poi-224",
+  "name": "Formaticus",
+  "slug": "formaticus-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8812,
+      "lng": 2.3182
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ__8bb65v5kcRMB8728lyg3U"
+  },
+  "category": "restaurant",
+  "subcategory": "bar-a-fromage",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 784,
+    "moment_count": 56,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Vous pouvez aussi repartir avec votre fromage préféré, ils font aussi boutique !",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/v1",
+    "website": "http://restaurant-formaticus.fr/",
+    "terrasse": "Terrasse"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3kNzewAh75GO82juwvXhAMxB0v_XUpDToL7KFbPakBk0hlJ-fZdC2tJusP1KqZNJ2Uz-K0_LDX7IW5QGsvJY0IBpLuFfTkR9_CVHr2ZAZElTNS1cwqAIB-1BzkDU_MHnQGFthPQL6jRv4earBlRzyFSPfy8_AJw5xiZA_km5IOFi-0MR1kmPIZMFw-l91GqjjiuNDSHIYgcKsBZpjumT5Ee-_kOaN3GKKHdRsZcwkmG2tc0jm8S8sfEBO2xoQb1zQo1tFvkhhOod3URTrewCvq7M1hsmJgpFCDqCTtMPs&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris",
+    "google_photos": [
+      "AcnlKN3kNzewAh75GO82juwvXhAMxB0v_XUpDToL7KFbPakBk0hlJ-fZdC2tJusP1KqZNJ2Uz-K0_LDX7IW5QGsvJY0IBpLuFfTkR9_CVHr2ZAZElTNS1cwqAIB-1BzkDU_MHnQGFthPQL6jRv4earBlRzyFSPfy8_AJw5xiZA_km5IOFi-0MR1kmPIZMFw-l91GqjjiuNDSHIYgcKsBZpjumT5Ee-_kOaN3GKKHdRsZcwkmG2tc0jm8S8sfEBO2xoQb1zQo1tFvkhhOod3URTrewCvq7M1hsmJgpFCDqCTtMPs",
+      "AcnlKN3PxW-M6GpnvxaYEIHv-oePfoNtcXxnI2vj0FNX9SBJG1TRcKWu9RbywQTSSVmvxMoMsC_BtL7Ku8jg88ZSVuqFUoGOQYOs3qnaL2Nv8XKgc_WZpoJrproeFvyFshvim5FzAupaTV4Np_cId-0h3CzVGKPi_VJYl73Hie4aJj263maDiY9tW_xPPpz5z5EAV0ypRQpfy0ZIp_Shikgl5-9DT8it7S9QFEiPick5m389G2ibMMe1c9qp5A8huYVnKQeNknQ8Ly057KHUjiJEU2cYHDcCvoW90VjdWEjhU60",
+      "AcnlKN2K_wDMI6IBiCJ3b6W4whQ6WUDyFHltsBh1rXb3fHwztYJg7vVFhAhRgOmW6luU22Wl5jAzp9BHMeSXZ-7do4jU9UfCyEs6kxwzbs4g9_IWLtNqVXAJeVflJYOUVWhskYFLXQmBI99W42vEibXaM38PSy3KF8pcEbtnfYn4j6M6rFn7HFFhL7EglLBYdSOU1hwDe8Y4XcUYyz6oGBacINGebknpei4O1JdHst4p4sI3j-it7FyySgTpUknOEUUW-TSfNJHfTuHsFA703UbABRD7O5gEWTAIs-s-FQvND3_ls_wUEvN6vnWDkAJfcvejzntEJfJbA-wWGNiU_GgH_xHj7VbMpqIDk8v4LXBhZENhRNo3RvqCzci4JntYlus1DFOeZ8k5PnJT0j0dwmMzeHxF_8W9YLZZoxgb-xqAcJSgjg",
+      "AcnlKN2uPbibOhqTd3I-L0xweAzO-x2no3HNNF_02Z2WLQjG0F5BCh6UQoAHkYccYVAvYBoYclSzeab6pkJsHGMkxvJhp9cjgmw53rLeno5R2qkPelsnvXVWVHxN8I3wehygWxFih2uj2X4jRJX7PMpnYF1jwEevOZM6EGs-fmF7hkIehHdaGZwZY1svmDapoT_-IE8NxA5vQZ5HSeUArN9q96-tPsbAM61usb0BK-1GDaLUpPFaLwyLNRiab_0cpT9cubCKLAjc6EUTCI4O5qm0ySr802LZJpzyyIQPYW4BJPI",
+      "AcnlKN1_j7jfotu9ddcsUWw83RBqZ4rSVRfOrvx_lKGBYwIhN7Ekq4PxUx_9AdfUXwHgOE2uynGMqjVyuC8uux7HHfgY-oLvRXoQdJ0KPeXiXncRlePCWvDKyUcVpyA2Ep9bW6VHUeQpzXUKVnTyaI51BdFq1vB2XttB82LdRKUALPOVi03IUEsu3aG4O4h4T-QtwwG8Cdcs7F9kOk73OvVOXQTYyMDiz8zTR4l_iKA2rLL0vh9xz57oCIZGQllvlqc54xLTrRuksOxwIfBG8DQqr_gIvCW1BdWNzT4LOnPNURDirlihQSQh2YofHsDmN8NCsIxRMZNBlnV8VCPj3BQmsO30jhc31csQwebghZu9PV827NQcTYYl7PlnVVNNEP5apSgiIi7CSFGRqhDW3GGiSa6r9lWKr_MhGsCMvE6iOf_ynA"
+    ]
+  },
+  "description": "Le paradis des amateurs de fromage ! Formaticus est un concept hybride entre crèmerie d excellence et bar à manger fromager. On choisit ses produits sur l'étal avant de les déguster sur place, accompagnés d'un bon vin et de charcuteries artisanales. Fromages affinés, croque-monsieur de luxe au Beaufort et conseils de passionnés font de ce lieu une étape indispensable pour tout épicurien qui se respecte au cœur des Batignolles. Une ode au terroir dans un cadre moderne et convivial.",
+  "real_talk": {
+    "text": "Paradis pour cheese addicts. On choisit sur l'étal, on déguste au comptoir.",
+    "must_eat": "Plateau de fromages affinés, croque-monsieur luxe",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Cheese-addicts du quartier, amateurs de planches terroir et bons vivants.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 25,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(18.0€) + avgDrink(7.0€)",
+    "main_dish_price": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "QUESO",
+        "items": [
+          {
+            "name": "Plateau Sélection",
+            "price": "18€"
+          },
+          {
+            "name": "Croque-Monsieur Signature",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Verre de vin blanc",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 611,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

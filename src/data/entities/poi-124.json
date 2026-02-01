@@ -1,0 +1,154 @@
+{
+  "id": "poi-124",
+  "name": "Musée Gustave Moreau",
+  "slug": "musee-gustave-moreau",
+  "location": {
+    "address": "14 Rue Catherine de la Rochefoucauld",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8779074,
+      "lng": 2.3344737
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJi3H5ckhu5kcRPxLR6VJeEXo"
+  },
+  "category": "museum",
+  "subcategory": "maison-musée",
+  "mood_scores": {
+    "chill": {
+      "overall": 8,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 8,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "10€ environ",
+      "display": "Tlj: 10:00 AM – 6:00 PM",
+      "detailed": "lundi: 10:00 AM– 6:00 PM\nmardi: Closed\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Œuvres symbolistes, escalier monumental, atelier intact",
+    "ambiance_vibe": "Maison-atelier XIXe, accumulation onirique",
+    "booking_policy": "Billet à réserver en ligne conseillé",
+    "smart_tip": "Leur terrasse est le meilleur spot pour observer la vie du quartier.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.musee-moreau.fr/"
+  },
+  "real_talk": {
+    "text": "Le musée le plus Instagrammable de Paris grâce à son escalier en colimaçon légendaire. Une plongée dans le psychédélisme du 19ème.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Ancienne maison et ateliers du peintre symboliste Gustave Moreau, le clou de la visite est son monumental escalier en colimaçon qui semble s'envoler vers les cimes de l'imaginaire. Les murs sont recouverts du sol au plafond de milliers d'œuvres oniriques, créant une atmosphère de cabinet de curiosités géant.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN21k70XweHodDbvHT_ia4pVNMIUMMct3qQtXrqmawAWYEzwwf5BBN_WR7pQQHu5D-hTq63t3TDrlpnffIF8W4IDSsfNIa7VHLggfY9i7QvdGTSqTtcy8fcvuLhcpjVDTz-OGEPX5eoySf_it9_OHZFV4rnpRF8Q87h-qFas-t2iyATz1nHhfthXrjWb0Pq2spzACulQRd2iBVovQU4wI1Zc16stJ_8MHMCI6_xQ12XdbKRNRwI2qUi5b1F1Nl4BGlb0Fqh_cKieUzSPfwEvdS2eP2EtGj77xtxQq9JZmlbrkSGWfrWz2vW4Jy20mzx3ttHWs--2i7DVZgLf1k7Adngrl5bSwRZzVcsJicrddmFtJ9OyI1HKS9S4HWCGhFY7aA9fx9JG0qU6_-owVTISO2FRkIMmkTQyWJY0AH0E5Afh7Q&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museegustavemoreau",
+    "google_photos": [
+      "AcnlKN21k70XweHodDbvHT_ia4pVNMIUMMct3qQtXrqmawAWYEzwwf5BBN_WR7pQQHu5D-hTq63t3TDrlpnffIF8W4IDSsfNIa7VHLggfY9i7QvdGTSqTtcy8fcvuLhcpjVDTz-OGEPX5eoySf_it9_OHZFV4rnpRF8Q87h-qFas-t2iyATz1nHhfthXrjWb0Pq2spzACulQRd2iBVovQU4wI1Zc16stJ_8MHMCI6_xQ12XdbKRNRwI2qUi5b1F1Nl4BGlb0Fqh_cKieUzSPfwEvdS2eP2EtGj77xtxQq9JZmlbrkSGWfrWz2vW4Jy20mzx3ttHWs--2i7DVZgLf1k7Adngrl5bSwRZzVcsJicrddmFtJ9OyI1HKS9S4HWCGhFY7aA9fx9JG0qU6_-owVTISO2FRkIMmkTQyWJY0AH0E5Afh7Q",
+      "AcnlKN2WMMIsXAeCnUAe5QljIaCoyTctJogmZllmg1bBt_q61rW_McfPv-i-1GIQAqYTIpXqQYskuyHJCYkZhkz7mbgZsI6avGjSWBOKXn-OFKl9RSJ1vZp4KtvWYsC5CYpRze6Jcie0LmFrQc3CBSaQDGYTbOwYN34lR4iL6wqv9I3rwJiGoZPQO2QTXIl1CU-sqcyMfojw1Y2_L5f6l2efBYJBz3Dmykpo0dG1lgFpmdL4gTlhxt5vz8JMZj-pJcUEUpMKtgPxgsNFXwadqWyBETTl0n1DgfEhtmGCIvwqDrP-7KIZBOLs5GctWTi5mjhkm-WjeaXIkpaL_Qss5xrVkvKbrA36kW7rO3ofZ--us-llS0xNYdiq07YSpEZ5zPbCr5slqEtq4e1hnbI1NdeUsAOGF1ZDwUhNjcRieJ-9DNA",
+      "AcnlKN1xByugU4w8JyYiLh5UN2mqwgr1fjS_I0o_NKVWA6fgoyQ0vJ-QAQkAUjAvASrdzYXFalP2-e2_zYLYOrt6XTqj0knBxY8dtf0VxhkhvzIQ0NJN6lNnhRwvwyE31XxDefxrHi1QYQ8yj4u0IONz0kX4cGC3_AIxOCi2SDQqnaTh7uKvmFRzyqnd0RGyRE7De0FuCBEbZPXcfLF7NU7u3zPJOzWI8MK3cw1qTcA-gIPRoEZ41zsZ03ukWbLAM6QSjDpJENog9SmRq_dWwu-VbhqS5-2Vc3SY7D6u4xRx6eyHi21rUmAK7ZscwB1LoRpQYxGm0xysVd2QhElZtSpBqdmrSutXKSfUdcyiG-A08x5fBt7ZIaSXNHFVuIyE9zKMKuskcqA-idyzqFwcME7UHG7XtEdyQed1dG8EaXtlIBUbPg",
+      "AcnlKN2-Ti1u1pri7gN2B77P30xOuLuaW0xfZZjRo78DkSFktlgnBrqwrtoq6tnvs4pOG2QY6-rR2YcxI7mJgTJqk1r1AhFu1bVq2qoerqJBsW5v4pP6aArJ0VMVBhY5H7cqInYRiV49bK5p62XUoGrARmHAtqxhUBB8uPUIY1xm8ho3QrT8MPTh8GW9aM02ZC7UVSJCfx2mid8usVj7D2JFRhH3wfWhOkT9SD3Q_ljRWllV4yuC4aaqfW9YqYO6Qj9aSPDblB-Eh_a1zki9k19SkI5eNHoZZFi6fw_3Zj-xOd7YsUEtqhXlAK0VzKAk4UBL1rs0cHQFRUsTaVRlpXNkjgaTVYWrloyLHFVv6a97bYBpRRLQiiVmnKzPnN4xSZFnme54G9CQfHBVWMhpagaGeKJWdcOGbQW7ZKgpZ-j5hC0",
+      "AcnlKN0EYkUvu6pDV2vTrN17y5JgmWO1TBu4Y8_ZRr3gfLvOj_c9pszMio9pQKzZBBEpRmn0dGQHVwAuG8QyAAH1_Dw5zVI1JP_wlsJ1OfPy99oAKs8gL-oO5GRSOrZmJcfti2pkSpwNdGeNAGE5V0Q5tEn_n-TZqSZBVMPbUG6pE9QwKYb1evhLxgq1Ns5IgJ4RxKcw02d1wrB83O65ky8CGXZLaqu1QwK3FedCXlSASLba90cpADwU_KM6rLVEv7wflQ74Qjw10jpe0RVGdc7R0tentoeIdFIYUEANdBFlQop6svO_tvK3nxkpYOJPp10xCFY-lS4Ka4PvkdvI0FA66CRKsq2kGQmC4avHW_W9kCnR7qizgWi_OVo82rQeZ4HHeNbWg8fU3gI_921kFwrCOzlc6zsBQacs2L4PYCrVoOc",
+      "AcnlKN2QD3oImi5CcoUUWeiNxq4i5TcaokhbIRnKM72mzikIdfj_Mi1SwAqZfuidsEeSuDYne5O_tJLevonvG47HMHGyahua8cQalEYH35XBL87qurhBsItbwQrAPX5il8eeofHS0qrZS6Z_Pa8szf8BoyRauJ_eSVfNQ9LJQ8z47YapLllJv82RuwhD8MUTARQrZCUTkXhJzo8T7nKHSD3SSYKoyd9kbDtY7K8cTA4e6RPEbVQ9aZsmkGWrZIDTNg_yhm_AsPeiGMgWGsTdyQh6q6_1BPrVU0PLyDeF8NUaYsJJKwSEV5Px9SlLL2XBjCP9DAs8YtISg_gyH37cGZQPVNDXd0pLQgbEaQO71shwUnYVWf_DRUNHqOREqRuxeixxzXzG1AtToRS7d4s1BN8w7ee9-up7CPnOXO5fi8KHWZ5vDA",
+      "AcnlKN0tSNDHfhjCGCiVyJjsXS1g9J1BJUK2dVmWK1N7G3dw8lYkrscXhua4ECklxH-gTvEOKFqWOVoMQ9sTDS0ocVIsUXFoB-1ldBX1bOioapH8ttw1P5X_g9X5cvUjgp0YsIotBRvWb_e6qyx2tmQ69UN9jiZzhau9Hg_I9gBuxtssxCHQwRxwe2f2WMQOPqnhFoFOA4Ir2kV9fnrw9G2nju2MCoA5hqBiRcSpsNfy7ibRVm0tW-oLAVCJUI1KCGSQqhFcx7ZxQ7Ujn4iGElzz2kime5V_Orex2g_0XBk5WhYZsloLZPo6bviYwGlfa5ZgOE7Q6CJsX4J3apJcJvKuBI5kd-FIbve7r_4W4n8j6X4KeEHV8UrkJ2F1q9Y8m84fe8Un5PYiSNmpUUtrc7SKARooJjMKp4U8ZwF18Xegvus",
+      "AcnlKN0lobACMlhfOy2Fufk6wjqh5x8iTr7EMU1O0NnEy1K0i4XGc6XNkzJuDb8o_-3oOiuf90rE0Mv9eOBSEWk1G5tQZiNGOTGPCMWI1e_uhXWCqlgWSPM0XUHXiJKc2-5se6EcPBmpTZqssczi4JzH2ReseZQLJPk3HmEHsRIm5ddsBdPyh3e3uaxShIXt6wkqTM1pGdjNmUCbMWI_J3YkyVVvM8jstdYmXpTTMyzhUYu-MY8hp-mSOieDBHQKwa9Z7hWcMWv6vVBYIbKyncDBRid1otZjWEh5ASdkC7nzMfchNP1T9Crdo94_ouc1QmdGNZX43GzZQaROWdA6o5MPlr5lq3wRtyyslIGuFQKonxAk0FDMxxHEX7LWhIi0emzn_DV2mA0dlH3Xr6uWU49Ni93cPOszOeNJaCALx88rIfHDgA",
+      "AcnlKN2EAg6oU04wTnZ-fKOt_0H58SbissVeK1pxZiS-EP5J31CRhlItCue4n9pjr93mKCv6n-7RnJoeQaVwMGqaIxQ_wLaC-tt_rvZzQuHajRy1Hry-FKvQwogBbnpzFDiNFjAptKzfLijxuFrb5OIe5No1vjWs1dr--tZ89cQfBgcbxRWppqI__zmLjA_XldKyfGaoIvg5lrdEcrAugf7dxoJXPak21Wx3UwQPXxV-8j9jZxCjuc7_TnkaYx5Y9FTln1iDXddIV72CM5xb1FDEqgglamOMY57DZLW-NJ4K02MeouA5-bGYB7V0b4kKz9m0CKWsEfGRAbHuToWZX9QlHUcOrS4eKwmw4G4hHNTIw1ahJIw94c9yX4yyLK5UUtElUvCbV8ysNjbIVBCKdRoEbbcxQDQY4SiI1pwrv6g-8AU",
+      "AcnlKN0iu_sgOxdUqV0oNB6Jvm-6hPNZsylINr7yYLKNlyUIUvCy1pnDZZCV3qx2FxD9c0pJCvE6R9VlFmgjC6ofGs6d7UFQ49TQbdxPNs-ItpR6NoVqgvbo6p-EKJpgEHnV-rEcUtVRwtd6JgCJRzNLoRuwzXcXtOW0PTEPrm4EgulsVKEVqlkEWNg8-4K3nBDDNF7LESYQ2-mFRBcZBVcvGAEIuksJ5G7Bn5t39MhQQ1oo5yKVJ_ioX3GBBuaS5fYQWgmz2IZVnwauCT2P8Pgp54LI0bG8mRRyZbaTJFJjULH3diVuciqEV_Ieh-Iup9WdZH1zyL1aVCv748PKR3_Qg3oBK2Vi0oqCHzw2hE_SvyHbquHWNqqh33WcVtrzYyDsfkPf3t8-U8hEUva3TocBbtpLI3AtHB7_xWkvsVByzdML90hL"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1376,
+    "top_vibe_tags": [
+      "Sophistication"
+    ],
+    "moment_count": 49
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "10€ environ",
+    "display": "Tlj: 10:00 AM – 6:00 PM",
+    "detailed": "lundi: 10:00 AM– 6:00 PM\nmardi: Closed\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Symbolistes passionnés, étudiants en histoire de l'art, curieux d'intérieurs préservés.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15,
+    "value_score": 23,
+    "category_percentile": 77,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "ENTRÉE",
+        "items": [
+          {
+            "name": "Plein tarif",
+            "price": "7€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "5€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 2309,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

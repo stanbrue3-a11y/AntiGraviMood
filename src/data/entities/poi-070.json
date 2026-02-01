@@ -1,0 +1,150 @@
+{
+  "id": "poi-070",
+  "name": "Atelier Brancusi",
+  "slug": "latelier-brancusi",
+  "location": {
+    "address": "Place Georges Pompidou",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8613372,
+      "lng": 2.3519776
+    },
+    "google_id": "ChIJoyC4CRxu5kcRPJaha2suzaI",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 153,
+    "moment_count": 75,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 44 78 12 33",
+    "google_maps_url": "https://maps.google.com/?cid=11731083643272140348",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Reservation required": false,
+    "Happy hour": null,
+    "Unique": "Atelier du sculpteur reconstitué à l'identique (Lumière du nord)",
+    "L'Atmosphère": "Silence monacal, Blancheur, Pierre & Bois",
+    "Le Prix": "Gratuit (Situé sur le parvis de Beaubourg, à part)",
+    "L'Ambiance": "Une bulle de sérénité absolue au milieu de la foule",
+    "Time": "Se visite en 15-20 minutes, parfait pour une pause zen",
+    "Horaires": "Lun-Dim: 14h-18h",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur cocktail au concombre est la fraîcheur incarnée.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.centrepompidou.fr/fr/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/constantin-brancusi/latelier-brancusi"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrppCojfVFxois0ypwnUetaBuUysNkbTHn1deiP9SMWEpTCIF6FKijAUwzkVMr6b2bJwspCIDHBR565r_9WnIt8QQq-tTnY2CnSY6sAFtwN-kPuobuRANkq7897NNPu6Ux6FLPncgpD_kLX1zmUH-FRJwhKSmuV8eiyvM-MGjRLcqEE5oW6yrBxYb9Ni6foydRfO2Tj8N50qXmpyzfjOjj4pexTKpVuKOXThaBJQPi3kWEl-HxyZ73ofAB46hPqhuKXQpFcmAUVmShaWehoS-pg_wUdzO7q4gP5Y8RsVGzRV3FTQ_k7iewpSXpcXCXeTY4zupuY1KJ9MnmVvR6AHZu7QzOCcyDRPNhjtrPDLZd50wkW3734v192-yd1IwD-6DZSj8wp22uOI9XOwJIUEQDUAhqt95g-xv08TlU73uTn5jL8",
+      "AZLasHpvl8ve7UqDsIq7eQqhzp5Fg3_eIqtyxdTVxtqTMg4oVpbOvRL6GFHXRtkXTHuH6P9onF4yZkX4YTMUkYgJOYFMuyfVDM5jbBnyrPyFpYfFE5FApO04JRMBghdZ90yuizuFUvCWrnkZUGE9sjCmTAg_vtlVjA_FMKfcceOIxv-aOJda0B7xXrgzIwsJczUwRGAql-9FDSLy3ZBF17Ko_HMjMBC5dl11_RddU5GV8q84gMQsFTylgaO1qVVCx8EIj4ZE-bJsS8lAGC9xUhSYsmJoq4z3CKxQPIfksdOeQGjIT0h5oV4QYy6X0W9T_Cv6oPlHWjETABI_hFkFwvb48-ND3m-BC0PXXebohIyXtJE0WxdTEOGXulPqM5LV82HzmmZzi3ylgdVcr4G2zecQ5tKOHIo3HaTInMHcvXjjT6YAV-k",
+      "AZLasHpajkmSPaW9s2gMMwD6a3uBVbaYE1pHk9OWr2hNYp9L85zmECJXtPrNTIVV6tlOolonX4vbUFlsywmmDZqnuEDf0KsykZNUlbK30AU8WzJY_zK2YfFnyxokkb8-TzhydnpkxV_xBCzHSt9HvvHB4RE2LWw32OdwdJOSCN4G7scF8kE_BvWnY1ac46oo0YX5S3Q8w8t_kxVvIJ6OYpphK_ImBetReYP1SEGK3HxNJu4u2TmbqEgQE4G4tnTxPGMdIQQ0UV1nPMYxqZpGuSwUfS-9kPYmeZcMu6TGiEPFAxcdRChGjfx_R6poo4FKD0vKzdvjt6ArRnVQf_gHppmrbOm_Vw-tpuCfXRrgKy9ZqJS-VQ-EdQmtdgag8GvKNPAjedtIrEZcVhTEjOOXciRrOu8k-NOSiJRLft--kGDaG0y0Fb0",
+      "AZLasHp_wRJMCE0I85maMVm5v4uUVZgofezYG5QC7S2BJvPULDnrg24CmXetCr__gE1xh3Oor1CPTPIYTKfqsNURYrE7bi4Fz7yK7u5g1QwSFwSNz7knrTl9ZIV6Uehru7lYcwmI7UulA6_kxUQkiHZOkUU0hjU5R_LZk9taHAGxskDb5E_w687jwzK7XcBm6pDqZmXtc34ChwluBhMZrV2WGxmliUGrT63FDN627F06FX5zPXHRaut9dbA-xgY9ecxWEP7-LwfPN5WiDSTjhCe7znng8yNH7Bo6HCRpFBCJ5p6DVWvEgt70p83Mtj5aglSBPGqLMjhqog8HwBHYy0gu5ymgRBlpQ4KZahft_fBbxha4ss-QPmo1mrJR7DH5xQdFnt503C2aSc5gJRrA3WcbTpLVkAq3IgQRPrDrwbQMoRicANy6XPlhZVazMm0UCA",
+      "AZLasHoKA6gFaWsOSe5_4vGWUzETJCRBCLqiMa4hbhk572vTtaVtjP0OD3_Y2xygfYKHnaR6zWLpXyyB_Dlqzs0VTY-Y5agjEVSobBThrzhGGW5ctEBuytWtsc8Q05l1XlGqnX9O618NhPMK2_F28e0iT7q4Ega1lHEA-7JiI1TjUm92NYQWixqkrFahJoDNBGR-TQ2jLIWb_kcRwCpzqvQJNOJu-y4ab4SMsugx-Tuokr96DN6-3Ki8aMd5uWyDbrCBkV9sV2EYyCG_lEyMmW2-8ZuqlBoFaydbO3VIHrEIPVoCi0qEKoIcYtELzuO1cyn5YX--78-nuNAsq8oS5uSfejw4JvNZNIJS4ocM4RePPFbLJcOeKbBzDrVQ2k3AIxGePVnkUZJXTGZF3bjHdHwm5QUeSHl6MzBjns2yCfsKtimDMg",
+      "AZLasHrQb7rIKinhYX5XHCL6QOY1Bqq6208iyjGuyMH3qMV_KmsMwBPxY-wpyBx-8e3bYmHRSe_5RgVejRTVz3n9Uvl_Nt8Cm_jlGHK0IylPQ0o0V73ozBm3BGIVPE5RtTk6EZdQhhfBzml40xs7mTaoFpfTC_YG9DL516ep1JuTkLRlIbTtm78ae9U3JeYIWhn0uWvrbS1V6-lE6aglstzUdnYizA7_B7N0ey8sP2K_ksiFYGf7bYI07WfFA40kbrw2RUcrE3PzuDPEe3xGRgj-Dss7UQYra013ZAL8oRTonSIZsvQWyfl1iaDysKTP_mhwTlKpvmND3ZL6JYfE3BHRYZ34IsJ-P-raPC6Qb17nX70328m6BN3dZY6HQfRQGcTefGoj6veayUk0PgesbEyyiLLGUIDkqwidSF0158gQp1eFrA",
+      "AZLasHon5yCk_zmduck-h2tXZZKRhusfFC4Jr352fSG7wG1-N0JjdOkv_G6jjvpfpGdWlflIQSUdrGPsSdCP075pLl7TS4nqIlLVI07TMJNxLQ-_mL5aAmmee9BxgsPWXDp1AOAfo0nba18y9X2qN_-cQeQN_6q3WqyZsZhYNOU83-hRMUduXLLhIV3Gt1AHp2ParhJgcJwXFZAOHwOFadVq71olBr7iG1tigDC9a4wwSR_sN6wLEZ1Z6ZqqXzUE4AsNoW6FsmmdYmZedKoR5ndJilsY_XC6k8RwKQWDVFfGl_yUsYop1D-pqdYD0eM0CN04hO_Rt0WTm4e5up770JspfhJdUgZCOgZpHFqmVMt2fFB5pVmefmY86RBJUWFNFk1ElvR6-Z6Yv6qQNRMWdDmaEh93lXmdoqM0ok662ChnPwWKaCk",
+      "AZLasHpTfXe7PGzOt6I5uJljc66F-R862VC7PBgnUjJSvw2QQgbXdKD_iun7jx8An439u4yDITlK-N18cnwi71nmpTJSMVdePThC_vPDQ8BZ7q006A33rb6nPzqEko6dFHJXQLSQikZYGkEN1c1MXYldpBZOW88Aqp6fyvlmxSn6cD0G56gdbW9PPGiy4UtnDPLBOIoKx9aklWmL9gsqyR1fYLlq2a-qrZo7P6meA4UEZNKPB7xpEo7CvtCoMyP5oIVC-x2pXzzzlZoUjV2y4fZerU0cqAM5qrB5uED_1-TmzzVgCiDU8hA5VC96Hmx9dwDnnOO6luLLAH8aVK97L7T_T-w6rDMYXwHS_qn398KjbXRoPUUJAsVW6qngk26YedsZ3Gw-XcO_Ys42dsoQ9tIqdXPbBodrcMSLVXqD2AGHYHrHtvhA",
+      "AZLasHqCrI-9I8Ec2ua0M89gYo-Sv9-0Y3T0ImJwp0bqhmgZez8N1rSWzfr6dIL4ccTb9xgFQUXeAGZzwdbmBwQZZXRSbVkG5ZjyRmH2u2-HgtKA8Q2FGpeQxXmGiG-b_eWQw5I6yHBN7ItSKZ-L4ybH5Me1RuLCFl4rs974ZtRIdW7kfzaM5ta-SfKVwP_M-8yxseGQOKmKKrNVBo96V3Cdt3tZCc1gILqqLijKyWuUkswH_RdG5Yd9NCKJ8ZPvZO76nWs2YvbP2X_3B9qgvdhV646e9ceY4dVwBhEJv8EFa-t5_6vlzFn2eLgFHD88iqS0chs95FzIfRp4Y1aSXFBWWTg3ig4pUejRKdd6l5DOMZq1Yj1yu39xFPNff5HafZGY5-W-RSUrVR_su8Q6apxd0UAk6n4wTlAq0qVjHargPwk",
+      "AZLasHrTGjOoE7Wcwf-LRAAo82eWOkOHuB_EDckk58ipB1J0R968iHfrNLbBBlcTpzWt_nvUwqEQnyh9FvmlxymBwyJrUvfDmO7Rovb0qwsgfiTxE_xRKbUw2v2kDggUhkKCL-nuESsy0Alu2TtSxWtkxcgm8jXqba8ToqfG4QpYdF5xYwNaXDezdHMFay6UlxmUyeAOGVOXGu5y9p2c1d36vrK6xDhIRYabkjXlavMIVf304aFGFF4h4GhrckSV48l6iu6ziGny1_x4juXhSTRZ9PpMLrRbjE3_zfgXxRzMj96ZHv_ArQguJheqQRuASMZvmCxmMLTO6w6wjVkV1cN98Iu9Q3lvp03z4Y94OV4VMFStdYxiZQkiYcpVPmwFmabyxHr6DqOouM1MiZDv8wemAKkf9gXrgiZFaSuQqN3xdbhCwpUL"
+    ],
+    "instagram_handle": "@centrepompidou"
+  },
+  "opening_hours": {
+    "standard": "14h00 - 18h00",
+    "display": "Lun-Dim: 14h-18h"
+  },
+  "description": "Sur le parvis de Beaubourg, ce petit bâtiment bas passe souvent inaperçu. C'est pourtant la reconstruction fidèle de l'atelier du sculpteur Constantin Brancusi. À travers les vitres, on voit ses œuvres (L'Oiseau dans l'espace, Le Baiser) disposées exactement comme il le voulait, dans une lumière zénithale blanche et pure. C'est un lieu de silence et de contemplation absolue au milieu de l'agitation du centre Pompidou. L'entrée est gratuite, un cadeau caché.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Silence religieux, amateurs de sculpture et minimalistes."
+    }
+  },
+  "real_talk": {
+    "text": "L'atelier reconstitué du sculpteur. Petit, gratuit, essentiel pour comprendre Brancusi.",
+    "le_secret": "Reconstitution de l'atelier du sculpteur. Gratuit.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 13,
+    "value_score": 38,
+    "category_percentile": 62,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 13,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 500,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

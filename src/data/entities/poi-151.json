@@ -1,0 +1,149 @@
+{
+  "id": "poi-151",
+  "name": "Le Café du Marché",
+  "slug": "cafe-du-marche-7",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8576,
+      "lng": 2.3065
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJU-XFaSdw5kcReNgoNaOVGe8"
+  },
+  "category": "café",
+  "subcategory": "cafe-terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 568,
+    "moment_count": 11,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Terrasse sur rue piétonne",
+    "signature_drink": "Café crème, chocolat chaud",
+    "smart_tip": "En plein après-midi, c'est l'un des meilleurs spots pour lire un livre au soleil sur la terrasse.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1QGa-aS99BxOO9gg4rp6uleoaS-rvDctscuE6DkdhFpe8gTYTTJVM5WZmy8lD4Zuezp7wdF5gT2i8vUsNIS156myV2j2CYXhXmvFd677m3W-a9jyClKvVoEtLNTW-tRTEAPt3T2ZuUjMRMHFuistPBazQkOs2dmUTHA5X-4pqmBEqdY4FXkuZeu3RJP605Lf--R1XGZbO92LlcAzK_tQmdhjrDX6k8ZHUm3UJUi1oivwLXw-6P9IcarKkXZllygT0VL9MpSPFB8_fFJC5k3M4DIPjrcJPJw8ER1m6JBQG2nw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@cafedumarche7",
+    "google_photos": [
+      "AcnlKN1QGa-aS99BxOO9gg4rp6uleoaS-rvDctscuE6DkdhFpe8gTYTTJVM5WZmy8lD4Zuezp7wdF5gT2i8vUsNIS156myV2j2CYXhXmvFd677m3W-a9jyClKvVoEtLNTW-tRTEAPt3T2ZuUjMRMHFuistPBazQkOs2dmUTHA5X-4pqmBEqdY4FXkuZeu3RJP605Lf--R1XGZbO92LlcAzK_tQmdhjrDX6k8ZHUm3UJUi1oivwLXw-6P9IcarKkXZllygT0VL9MpSPFB8_fFJC5k3M4DIPjrcJPJw8ER1m6JBQG2nw",
+      "AcnlKN13jLW6kgZcU1IlyXsFW78YRZSMUmKZR56nrnpITXvsIQb8pgYTUQ_PEzQWv6x4ObRjnK3R1ZHUEactXg43t4e_5W_-CO5Gmn9LA8e9IPVck4mm55XkQ6pnPucLHfjW2yEez2L39WBnH8ry3WpJJJiYOzPph_24TqHj3hiHggqbfsmotU4Pw5lrzGpWYc8ijLrbYaeMawdoWuGvU_cVxLpi1odN48weW3xn5GOdANUH2b8H-sK7EEp5EKm_7voL0YmF29D4r5jHgh3_JJvg8ytnxCrqwWIsv_0q-WxWJxVOfg",
+      "AcnlKN0GkJq8_mvSvYfUniDYadH2w3YOTWlEDsxfNW_5wIHuvFUDFZAEJfkLkLyxyz8nVd3oa6wv2b0JgCLw7L3569BF5Ub8q-FzlHbp8UpWptTY0K1VofZg4hYXiHDowSxkVlg2V8IfklMbJ-7K5mHyinSU_4OfNqhk5WEOZN0xj7nq-833qvUBbA5ob0T54tyhepLB25EN6GtXK7CZqMwXRzztZs47brq2fHMAA2hMCsfHmZakoqHH2zTDQw9xW_Hl4ICqNZsstHsN2awPGBK39h1BO2H2nMCodw2rWl8eBrblyNdHw14GGbge8nvsrzi5YM69gfyFCd4MbTxnhj9-v7p2uj090rSJ9yFseylQNCtMJc2wib5F-7I8jXEjrr15yyw62gSWql4G3W0tnSO-rYjVPgGKFpZGqHxg31h7SbG1U-XRaV0ygS7q7IOf3oN0",
+      "AcnlKN2Vv9YMuTCDLvIMdlWPqffCwqeE7WZLzKWqjJDX5aNCtDtWk70JOqTcWoRv9b8khfnBji-x8qiQYtbA58ITPHHDsC0mzRJmil_qhGjp1Sg5hLFBDJLwkT8wm07FYz89KrJpb-KkcxFpTh5TdTrxHjYuNKBhyc-ape8nnWV-m9GnQEz47CtcJmM4BcW662WNuXzXGDoNij12hKrkROBXK_Vll1tvuU7-5P1f6ySy9oaxH89Z4Glq4qE4TxNw_yHz24VylTyQHZWHRTjhGxYGJIo_8VpTmLcTkULe2_w_rT42bQ0e1J-AlazGtBwcMEaWNW0nsGWhxUHbAaQoNgIa8aT7QdFCjHtev76SKvLhDV7BM2CttXkiwbfxqI7uH9ed3811kCdK9C_Xj5rpek8p6_4oH-7aB7De8WAWEd0sF1eZ4cv5mWrEEvssa_Ux",
+      "AcnlKN120BcGzWM1IcpIFiaQtPlKK4hfhYlQsFk3OcakDtMsKjkcSSjNwNwfgd7pyoACUNJNm5P9tboHWazBt9NgoKVQiYsWCPVrmiGcSt-OmdohmPynAmBubmM9Vtavohbje0lVQGZ_0LnUmgVkDHLT9gbBxz96k_-ppzNWyyaWM-jQOIB9MgG_MYjAUjJMrIEGLhMFfKckIwiOogdTTLPdrqcbVALmyk683LPuxYlnLKVT6dJI5BhZ9YBeOYVJ-OdfCXMCbU9yBh9FKPmSQqOVFcyyf4315uwKLATUgIAyHGriKOY0wq6OZbIjh_zSY5LK-mna_oR6vBQSEtPGaxv2kpJtwT_c2gf9TUAgcXFR95sYsky8M1ppLHT8D7_ESSyGwnDtl2Wtwzmvb6upldVJb2HyNcDGAdsupfpeKJPc31WgivC6kR-JBbM03CUdmwN1"
+    ]
+  },
+  "description": "Le Café du Marché est le cœur battant de la rue Cler. Avec sa terrasse immense et toujours bondée, c'est l'endroit idéal pour s'imprégner de l'atmosphère bourgeoise et décontractée du 7ème arrondissement. On y vient pour un café matinal, un déjeuner de produits frais du marché ou un apéro qui s'étire. C'est une institution qui ne déçoit jamais, offrant un spectacle permanent sur la plus belle rue commerçante du quartier.",
+  "real_talk": {
+    "text": "La terrasse chauffée de la rue Cler. Le village au pied de la Tour Eiffel.",
+    "must_eat": "Pâtisserie du jour",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Commerçants de la rue Cler, familles élégantes du 7ème et bandes d'amis en afterwork.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 15.5,
+    "coffee_price": 2.5,
+    "pint_price": 7.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Demi de bière",
+            "price": "4,80€"
+          },
+          {
+            "name": "Expresso",
+            "price": "2,50€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Salade César",
+            "price": "16€"
+          },
+          {
+            "name": "Plat du jour",
+            "price": "15,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 3.8,
+  "google_ratings_count": 1418,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

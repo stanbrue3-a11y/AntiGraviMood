@@ -21,6 +21,8 @@ export interface MoodScore {
     criteria: MoodCriteria;
 }
 
+export type MoodType = 'chill' | 'festif' | 'culturel';
+
 // ====== NEW PRICING SYSTEM ======
 
 /** Price highlight for signature items */
@@ -31,39 +33,29 @@ export interface PriceHighlight {
 
 /** Core pricing data shared by all categories */
 export interface PricingBase {
-    /** Average budget per person in € */
     budget_avg: number;
-    /** Value/quality ratio score (0-100, higher = better deal) */
     value_score: number;
-    /** Position in category (0-100, lower = more accessible) */
     category_percentile: number;
-    /** Is this a free venue (parks, galleries, etc.) */
     is_free?: boolean;
-    /** Display unit for the budget_avg (e.g. "Cocktail signature") */
     unit?: string;
-    /** Common price anchors for quick UI access */
-    pint_price?: number;     // Prix d'une pinte (pour bar)
-    cocktail_price?: number; // Prix d'un cocktail (pour bar/club)
-    wine_glass?: number;     // Prix d'un verre de vin (pour bar/resto)
-    coffee_price?: number;   // Prix d'un café (pour cafe/coffee-shop)
-    main_dish_price?: number; // Prix d'un plat signature/moyen (pour resto)
-    fair_price?: number;     // Prix "Juste" estimé par l'IA (pour comparaison contextuelle)
-    standing_level?: number; // 0=Populaire, 1=Casual, 2=Hype, 3=Premium, 4=Luxe
-    // Happy Hour specific
+    pint_price?: number;
+    cocktail_price?: number;
+    wine_glass?: number;
+    coffee_price?: number;
+    main_dish_price?: number;
+    standing_level?: number;
     pint_hh?: number;
     dish_hh?: number;
     coffee_hh?: number;
-    hh_time?: string; // e.g. "17:00-20:00"
-    /** Unified Anchor for precise comparison */
+    hh_time?: string;
+    confidence_score?: number;
+    last_updated?: string;
+    fair_price?: number;
     anchor?: {
         price: number;
         label: string;
         source: string;
     };
-    /** Confidence score of the pricing data (0-100) */
-    confidence_score?: number;
-    /** Last time the pricing was manually/surgically verified */
-    last_updated?: string;
 }
 
 /** Restaurant-specific pricing */
@@ -151,7 +143,7 @@ export interface Place {
             lng: number;
         };
         nearest_metro: string;
-        metro_line: number[];
+        metro_lines?: (string | number)[];
         google_id?: string;
     };
     category: string;
@@ -163,6 +155,7 @@ export interface Place {
         culturel: MoodScore;
     };
     vibes: string[];
+    dominant_mood?: MoodType;
     ui_theme: {
         main_color: string;
         map_icon: string;
@@ -174,12 +167,10 @@ export interface Place {
     };
     discovery_radius_meters: number;
     min_stay_time_minutes: number;
-    /** NEW: Enhanced pricing system */
+    editorial?: any;
     pricing?: Pricing;
     real_talk?: RealTalk;
     practical_info: {
-        /** @deprecated Use pricing.budget_avg instead */
-        price_range: number;
         reservation_required: boolean;
         wifi_available?: boolean;
         outdoor_seating: boolean;
@@ -206,6 +197,9 @@ export interface Place {
         smoking_area?: string;
         music_genre?: string;
         website?: string;
+        phone?: string;
+        booking_url?: string;
+        shotgun_url?: string;
         price_info?: {
             average_price: number;
             currency: string;
@@ -237,4 +231,31 @@ export interface Place {
         culture_snack?: { text: string; icon?: string; tag?: string };
         vivant_tip?: { text: string; icon?: string; tag?: string };
     };
+}
+
+// ====== SOCIAL MODELS ======
+
+export interface User {
+    id: string;
+    email?: string;
+    name: string;
+    username: string;
+    avatar: string;
+    bio?: string;
+    location?: string;
+}
+
+export interface Moment {
+    id: string;
+    placeId: string;
+    placeName: string;
+    imageUri: string;
+    caption: string;
+    mood: MoodType;
+    type: 'image' | 'video';
+    timestamp: number;
+    user: User;
+    likes: number;
+    isLikedByMe: boolean;
+    verbatimDate?: string;
 }

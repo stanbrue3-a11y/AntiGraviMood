@@ -7,7 +7,7 @@ import * as Haptics from 'expo-haptics';
 
 import { MagneticPriceSelector } from '../../components/common/MagneticPriceSelector';
 import { HorizontalTimeSlider } from '../../components/common/HorizontalTimeSlider';
-import { PLACE_CATEGORIES } from '../../stores/usePlacesStore';
+import { PLACE_CATEGORIES } from '../../stores/searchStore';
 
 type Props = {
     visible: boolean;

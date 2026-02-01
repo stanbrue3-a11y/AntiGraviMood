@@ -1,0 +1,205 @@
+{
+  "id": "poi-011",
+  "name": "Silencio",
+  "slug": "silencio",
+  "location": {
+    "address": "142 Rue Montmartre",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.8678,
+      "lng": 2.3422
+    },
+    "nearest_metro": "Bourse",
+    "metro_line": [
+      3
+    ],
+    "google_id": "ChIJdZR7qt5x5kcRs3a-uA1Y-II"
+  },
+  "category": "club",
+  "subcategory": "club-prive",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 5,
+        "seating_comfort": 9,
+        "natural_light": 1,
+        "crowd_density": 8,
+        "music_tempo": 6
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 9,
+        "dance_space": 7,
+        "cocktail_offering": 9,
+        "crowd_energy": 8,
+        "late_hours": 9
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 10,
+        "cultural_programming": 10,
+        "creative_clientele": 10,
+        "workspace_facilities": 3
+      }
+    }
+  },
+  "vibes": [
+    "david-lynch",
+    "exclusif",
+    "cinéphile",
+    "mystérieux",
+    "underground"
+  ],
+  "ui_theme": {
+    "main_color": "#1a1a2e",
+    "map_icon": "cinema"
+  },
+  "social_preview": {
+    "like_count": 1567,
+    "moment_count": 432,
+    "top_vibe_tags": [
+      "exclusif",
+      "david-lynch",
+      "mystérieux"
+    ]
+  },
+  "discovery_radius_meters": 30,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "google_maps_url": "https://maps.google.com/?cid=9437389835112183475",
+    "happy_hour": "Tlj 17h-20h",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Designer": "Dessiné par David Lynch (Inspiré de Mulholland Drive)",
+    "Texture": "Tout est bois doré à la feuille & mobilier sur-mesure",
+    "Exclusivity": "Carte de membre avant minuit, ouvert au public (sélect) après",
+    "Les Chambres": "La salle de cinéma (sièges rouges), Le Fumoir (Forêt), Le Dancefloor",
+    "L'Aura": "L'endroit le plus cinématique de Paris",
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "L entrée est réservée aux membres avant minuit. Tentez votre chance en étant impeccablement sapé.",
+    "signature_drink": "Cocktail Signature David Lynch",
+    "entry_fee": "15€",
+    "bouton_label": "Site du lieu",
+    "website": "https://lesilencio.com/venues/?selected=CLUB"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?auto=format&fit=crop&w=800&q=80",
+    "instagram_handle": "@silencioclub",
+    "google_photos": [
+      "AZLasHoKcb100fp900_C2MVmJwKk950Uqyo4rze5OqRcQZpAAmnxnx3BVnJnnOs_6PX8tWLpnbcKUbfgo-0uWJb_7DnZr9ZQhq2rNn-316YO9d1EmT86rTQOM1n6q03ZrGxIfT6f1F_eu06yDIPEClPrrCOTA8H2B2945rgZ599BuuyLAW9XTC02WFaw3nEEdT8bE8MSMd6cuUFCtpOnHNODohLZ2jG106wzLjW2D3_CkYSsSWg1J_48_a4u8xHpxd8z863557BX10YfaqVmZYIrMqGp2ivrHH-H1qrWTWbV8OlQV9EHzC-r-2-3g8AlGdZLXcy6jSA4CAiF-OquKprHCn4Ms6eLDKjs4g_BVsJl5YC5lv-Iv4xo79sX702s0j7E5t7nh94nZS-Ax7K1gOs_tKquOfrcIEuJL7wc7FxXCn0",
+      "AZLasHpTFMLh0xJvqWWND_09PdA-fvN3W186Ftr8nGkwaMm0CUyi4NOFEKEVEnwCgrda8CT9BHUdUfifZSutLHIJgDgnSIYmKNZF8mW4e32Z2C3rnSRaA671AJStxsXPPzZaKukX48EWZ5VArMbJNjirMX6eLddc9afjGzgSxyd_YBbHwfwfyhjfwhGBgqiAq4ivumXOMvJfLnIwrHRAn9xGKZt6aYgfC9LZTqzoCwVyjeD_RBK2-uRUqKjjYU4o2ZWtW4l14h7dxXzE0S6QNzcQqf9FP2OJ-z2JderZdReQXPFJx1gImNP8-z66U4X0_aj1UZJELC8WnBVcLbxlxTelOrX6fWrKmf2Es7lPF9bbDAvRDVPu65kBRUAU6H-xe3QXmk9wEngdnF3R7cQrqBEkJ4Ofs1Bpw4UkINdlzFIEjfxfJrpr",
+      "AZLasHrzgTp9S9_fv2YPOd3VTWcSaLneTchz34emcjo1Cy7NFuKN5BIoXfBRyFmtweccKNSTpvGQp0WjDSxu9FCCVgf9AaL2nEJiAHk6M6qUqkFxRhyqHnrOMeBp0brRnzPWjzhjaYzwcYqgsWccdzVhhAdwNKED81j5_HOBT905TCiDBdqiOkO2JmeU2mdImBnXalyO8vT2-rvHsBJGd9a5kM-zGBaLpwwnKgKlIrwatPrT6NIvP4GElGCkyyfb4bCO_EbZGq6stlNxmR1EiN_nCDksJACx4vqR4UD8i37E0uaOs9KOIVU9x3ROOMb--5Suj8xxdeSKJUXKy-NJmmSbClWXVVh3du_Lk-WX1HDqk7b2aONnbPUYr1KjciMSLYYgd58rtxH2HsAJOx9O3YmLguA-FD0NueQe8CrW2qArGc-iBUXl",
+      "AZLasHq_oKy2yeYcf1Lwmsdx1deggpcdayVDLF_oIsnP5jGrdklv22drB_r6pB6K0Cd6rB1NLCbHju0ysvy8i6dOZMCC9qYjt1pl-gMII7GHi80sKNUrvJVQU7MuOuY_vMpkPoxTCc9kaClT0jdSU0ODePCjoGOG1Slw_KG81XMJqh3NMiEGVe89KR5TZV_1EsDoi0QhmsULvfkOmBSRE54aVxeWVDVg4HdXg92yyA5Q1zHLRur2cUVP3K7Fg2GTUoSIlRKb9vPRH9Te3W11vfX95mc9vRWl4Wqf3VoEXYN-4xZ5ahqBLeW4-1Yeh2SLN4px7GeyMZj8Pw2k1deZWKDVqIqMm3bRvQ6L4M9O5pF5iLxLBn-4gRd699MPkLv1sLJpftoYBwG6wPMbIqAmffahLmO1d1fDSeWuYarJsC9wyOPCVQs4",
+      "AZLasHqpJIbI1Lj58raskXqwzm7csHGlSaCHIkEmwaNN9dxWjeA6Qb6jSfKfZC-T63nyfmh67OxFg3ZFSOBqB3lVuQB5iJrMTYANAmXp280UUvbumAu41JTnkFuRtAXPG8D3F_m6y8zrI12jIj7wpjxdm3XUlMbKMaR9KfFjPOWJaxtMy_K26xllEqGn9lFsHepWym_IhxZGX61aZBvdA7ClUo5ye53OStUnu5McVEUeGdjoYszAM13CsEBXi6iXjtcO0IVOe1zeMeeVtPj37cYvyHU4tzR6oQKz3ZJmb32Km2W3Nm6e4Q-LdFd-V-rYTXddLlTQvvNy4da6IQSoWtKLWDSyb47-g183MdvGwFtlmHNiwCjKcKK1fvMQY8TgDaeReYJ951YrZ3GKEfZh2VwLd2Z5wDltxMBvdf7kd-8lvVw",
+      "AZLasHqF249iTYYZ0R7BlmUSDJo6xDjVy5QiPGeBMlGaS43G673waqewRo86cdBqu1EciwDj_hZB5oJZxSTi6jDtFBuCQAqxFDFmAGIrBZjYPWbdg9vVyL3G4veWxowwl0lqLRN3CF_OJ0Naoxojf98Uymwr_s9lkOabGKlkqffqGUlAFdCDRcN6qWv7x15ovwwcbbFUl5FDVBiMJqJ2ltlmLhFl2OOAZItMK-AdLfGuUs05odkZCZfb6ev6ql9ofWsjDRAdAgu-I4qmhoyWw-KvSdm5FcfcPYwDArT1AtA_4Esld5hgahzTbuWKqtDeqI8gJ3D7cQiTbjnMElV7z5iEz3EFYndue0aPWaatw8Tv7zSudbSaJI9OBm-x2ofCayKmrz8aB5SM4EZp9stBBulGg9ACTRcqqsSpKAnFhj28Kbkbxv-B",
+      "AZLasHqqLw38Fq6xNrddwe8gEU0yKZFEK_dHHoyUz_rh7vhE2xVSiIPqRQMK9pUwEf17X-ZiUZgDY0IYs3mMgYSaFLKxR5Q8q1gjW-newjep23p7NZFqZ94D-S4POSwWwos4sbzkf-v0Q8YvPvTcKtGxLfP-8SS4Z3iutiM_GKarqk6hFpOCZHFYkEdf1cDZHrEoeg61_4VfOdsZJBWPB63uVSV9I9V9PsxvJeLc-XImakSI8hA1ckVFKJR2meZ-cKlHH46U1w20LjgIKnVYEK15z6CbAl3b2qCQU76EjLkSZjdJ0tLkfBV0rHWZog6vbA_4b7rvbeOrJUI0987KELI4PxV1wBptgBMi8rmxEm8cDJGIrzZ5xesYVbfAMXUFTGY8ic2Fj9vh_VPqSM-hStP31qD9fWOHHUdtqRxvhrNG7F99Xho",
+      "AZLasHrI03hyDy14trTVFqynHu1014kSJEmiGpvvutNU96WNdS4-LdYmyFsVGKAu2g1XfScataRBO7A2dL8eSQUsbzpKbIbCQK1FO5sERPjmsGPmzj8Rm6Ybh8s8JgAnj21SgEk9WqKnvMXi5NJoXBpM1Z75lbQ1mp1b4UKmW_-lQ_r3Txy8apAazu2W5hA_Ze-SpTm6CeWIuSibgziK1VCqt_VdLqg-rbUxmPV_U1hWkoujxA1Gxi3J5lPOd9Cchnvz2jxP3vXCo3OiM8-IRe1ShL4q3RFOMWuUIxCdjSqWnP_ykRDecw0PeM86lxpIlVTzHBogZRfmRduPfYrdZ54zzLmxQZdSZxMQk7bXVWPYrdBd4jtLdgXjAcFQIUUw0GDkKLH24istFsKA7EbtZFXg2arXNyiJlDd3_sqx3NQDUWc",
+      "AZLasHrB_HcmTcf80sgneaCtLE3Mt_hIJ-McKnZXKIR4jOu0mr7Rbyivg9rDV3Gdt_FCWfpZE8u9yEzYbKkdD3ALEgUQV4Wluh8r5DUCSvpTt-2HEHSt6gQf-MM-uBKhZXw2IE4v9lg94nVytSzEUzVFHupbcdSZ8xK17KZK7bu6cYjb6FGVtxkL2h-r2dl4O4JvZz0B73459CXtBlIALg9JjgWg9n3lm5cS9S5A0o-lRIazQE0n84B2Qf2VjOn1PFcZ-gQ0QUgn73CG53mSdOlr1SL_7uDPs294tMC3-4dISpsEi6FcH3rLWcp_FMOlqwQEF4w-EIZ_vhhNPNJKqUOKmBdKjE8tYhSyEiVODXE5uEAqsPgw9W40OUgGbZOx6NTQBthxEo7yl_OUySGLUAeSji8Y3fj7fuQeNkZJ-nklH1YxUg",
+      "AZLasHpXddfeKVKgsgiw12nuFH8-Dy7mIfCLzCbQN-hix8lqUp1ED2QzDrKoMydED-f0mCTkzpyrCF6CkjBUYf7GfCzkNo5gGYHU3xFjFcwXpHV2psb-S1_rkg_vUk8eIDIQuWLR7b01OKoouw4ynW8l3D4YnaZjpcM7d5yJPaI9LPHEKQpW-D08M5RnAOc0Ry0mbkp941nEfIl3beb-6QllVM_PGAOkfcL_p-QZWwaNyu4HGsAaaV6qymPKiJe-NObdytfhyCkgWqA7LlaOeh-7LQWpGf6PNtxeTrC454AS95OtDx90WtwAdIwLG3X1Em-k87d_QdtpGoa_YiDAFU-B5JYsAo9X3KdgDx-0plkjxK1heUpGkd2y3pBJftSPUsNxxqNk4FFAman5sk3wTQ-bZNOlOGbapEoLB6d8pqLC5Co9hKcq"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "18h00 – 06h00",
+    "display": "Mar-Sam: 18h-06h",
+    "detailed": "lundi: Fermé\nmardi: 18:00 – 02:00\nmercredi: 18:00 – 02:00\njeudi: 18:00 – 02:00\nvendredi: 18:00 – 06:00\nsamedi: 18:00 – 06:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Conçu par David Lynch lui-même, ce club privé est une œuvre d'art totale. Tout y est doré, sombre et étrange : le tunnel d'entrée, la salle de cinéma, le fumoir en forme de forêt pétrifiée. Avant minuit, c'est réservé aux membres (artistes, cinéphiles) ; après, le commun des mortels peut tenter d'entrer pour danser. L'ambiance est feutrée, mystérieuse, très 'Mulholland Drive'. C'est le club le plus esthétique et le plus snob de Paris.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Cinéastes, créatifs nocturnes et ceux qui ont réussi à passer le physio."
+    }
+  },
+  "real_talk": {
+    "text": "Le club le plus exclusif de Paris. Déco par David Lynch, caveau doré, système son incroyable. Si vous rentrez, vous ne voulez plus sortir.",
+    "must_eat": "Finger food gastronomique",
+    "le_secret": "L entrée est réservée aux membres avant minuit. Tentez votre chance en étant impeccablement sapé.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 25,
+    "value_score": 11,
+    "category_percentile": 89,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(25.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Cocktail Signature",
+            "price": "18€"
+          },
+          {
+            "name": "Coupe de Champagne",
+            "price": "20€"
+          },
+          {
+            "name": "Cocktail Gold",
+            "price": "18€"
+          },
+          {
+            "name": "Verre de Champagne",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "ENTRÉE",
+        "items": [
+          {
+            "name": "Adhésion membre",
+            "price": "600€"
+          },
+          {
+            "name": "Accès public (après minuit)",
+            "price": "20€"
+          }
+        ]
+      },
+      {
+        "category": "ENTRY",
+        "items": [
+          {
+            "name": "Entrée (après minuit)",
+            "price": "25€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 2.2,
+  "google_ratings_count": 850
+}

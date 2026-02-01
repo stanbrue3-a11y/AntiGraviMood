@@ -15,14 +15,18 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PinceSlider } from '../common/PinceSlider';
 import { TimeWheelPicker } from '../ui/TimeWheelPicker';
 import { ParisMapSelector } from '../ui/ParisMapSelector';
-import { usePlacesStore, PLACE_CATEGORIES, getCurrentPrice, getPriceDistributions } from '../../stores/usePlacesStore';
+import { usePlacesStore } from '../../stores/placesStore';
+import { useSearchStore, selectFilteredResults, PLACE_CATEGORIES } from '../../stores/searchStore';
+import { getCurrentPrice, getPriceDistributions } from '../../lib/priceUtils';
 import { TriplePriceSection } from '../common/TriplePriceSection';
 
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated';
-import Fuse from 'fuse.js';
+import { useShallow } from 'zustand/react/shallow';
+import { MoodEngine } from '../../lib/MoodEngine';
+import { MoodType } from '../../types/model';
 
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
     UIManager.setLayoutAnimationEnabledExperimental(true);
@@ -209,25 +213,29 @@ const RollingCounter = ({ value }: { value: number }) => {
 export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     const insets = useSafeAreaInsets();
 
-    // Stores
-    // Global Stores
+    // 1. Places Store
     const places = usePlacesStore(state => state.places);
-    // const setPinceMaxPercentGlobal = usePlacesStore(state => state.setPinceMaxPercent); // REMOVED
-    // const setIsPinceEnabledGlobal = usePlacesStore(state => state.setIsPinceEnabled); // REMOVED
-    // const setSelectedCategoriesGlobal = usePlacesStore(state => state.setSelectedCategories); // REMOVED
-    const selectedDistrictsGlobal = usePlacesStore(state => state.selectedDistricts);
-    const setSelectedDistrictsGlobal = usePlacesStore(state => state.setSelectedDistricts);
-    const timeRangeGlobal = usePlacesStore(state => state.timeRange);
-    const setTimeRangeGlobal = usePlacesStore(state => state.setTimeRange);
-    const filterOpenNowGlobal = usePlacesStore(state => state.filterOpenNow);
-    const setFilterOpenNowGlobal = usePlacesStore(state => state.setFilterOpenNow);
 
-    const selectedMoodsGlobal = usePlacesStore(state => state.selectedMoods);
-    const setSelectedMoodsGlobal = usePlacesStore(state => state.setSelectedMoods);
-
-    const getDominantMood = usePlacesStore(state => state.getDominantMood);
-    const selectedCategoriesGlobal = usePlacesStore(state => state.selectedCategories);
-    const searchQuery = usePlacesStore(state => state.searchQuery);
+    // 2. Search Store (Global Filters)
+    const {
+        selectedDistrictsGlobal, setSelectedDistrictsGlobal,
+        timeRangeGlobal, setTimeRangeGlobal,
+        filterOpenNowGlobal, setFilterOpenNowGlobal,
+        selectedMoodsGlobal, setSelectedMoodsGlobal,
+        selectedCategoriesGlobal,
+        searchQuery
+    } = useSearchStore(useShallow(state => ({
+        selectedDistrictsGlobal: state.selectedDistricts,
+        setSelectedDistrictsGlobal: state.setSelectedDistricts,
+        timeRangeGlobal: state.timeRange,
+        setTimeRangeGlobal: state.setTimeRange,
+        filterOpenNowGlobal: state.filterOpenNow,
+        setFilterOpenNowGlobal: state.setFilterOpenNow,
+        selectedMoodsGlobal: state.selectedMoods,
+        setSelectedMoodsGlobal: state.setSelectedMoods,
+        selectedCategoriesGlobal: state.selectedCategories,
+        searchQuery: state.searchQuery
+    })));
 
     // LOCAL STATE (Draft Mode)
     // const [localCategories, setLocalCategories] = useState<string[]>([]); // REMOVED
@@ -299,85 +307,9 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
     useEffect(() => {
         // Debounce/Defer calculation to unblock UI thread immediate response
         const timeoutId = setTimeout(() => {
-            // 0. SEARCH OVERRIDE (Top Priority) - Match Store Logic 🔍
-            if (searchQuery && searchQuery.length > 1) {
-                const fuse = new Fuse(places, {
-                    keys: [
-                        { name: 'name', weight: 0.6 },
-                        { name: 'vibes', weight: 0.2 },
-                        { name: 'category', weight: 0.1 },
-                        { name: 'location.address', weight: 0.1 },
-                    ],
-                    threshold: 0.4,
-                });
-                setResultsCount(fuse.search(searchQuery).length);
-                return;
-            }
-
-            const count = places.filter(place => {
-                // 1. Category Filter (Checked means Include) - FASTEST CHECK FIRST
-                const hasCatMatch = selectedCategoriesGlobal.includes(place.category) ||
-                    (place.categories && place.categories.some(c => selectedCategoriesGlobal.includes(c)));
-                if (!hasCatMatch) return false;
-
-                // 2. Mood Filter (Local)
-                if (localMoods && localMoods.length > 0) {
-                    const dominantMood = getDominantMood(place);
-                    if (!localMoods.includes(dominantMood)) return false;
-                }
-
-                // 3. District Filter (Local)
-                if (localDistricts.length > 0) {
-                    if (!localDistricts.includes(place.location.arrondissement)) return false;
-                }
-
-                // 4. Open Now / Time Range Filter (Local)
-                if (openNowOnly) {
-                    if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
-                        // Permissive
-                    } else {
-                        const now = new Date();
-                        const currentHour = now.getHours();
-                        const parts = place.opening_hours.standard.split(/[-–]/);
-                        if (parts.length === 2) {
-                            const [sStr, eStr] = parts;
-                            const startH = parseInt(sStr, 10);
-                            const endH = parseInt(eStr, 10);
-                            let isOpen = false;
-                            if (endH < startH) {
-                                isOpen = currentHour >= startH || currentHour < endH;
-                            } else {
-                                isOpen = currentHour >= startH && currentHour < endH;
-                            }
-                            if (!isOpen) return false;
-                        }
-                    }
-                } else if (isTimeEnabled && localTime) {
-                    const normalize = (h: number) => h < 10 ? h + 24 : h;
-                    const uStart = normalize(localTime.start);
-                    let uEnd = normalize(localTime.end);
-                    if (uEnd < uStart) uEnd += 24;
-
-                    if (!place.opening_hours?.standard || place.opening_hours.standard === 'Non renseigné') {
-                        // Keep
-                    } else {
-                        const parts = place.opening_hours.standard.split(/[-–]/);
-                        if (parts.length === 2) {
-                            const [sStr, eStr] = parts;
-                            const pStart = normalize(parseInt(sStr, 10));
-                            let pEnd = normalize(parseInt(eStr, 10));
-                            if (pEnd <= pStart) pEnd += 24;
-
-                            const overlap = Math.max(uStart, pStart) < Math.min(uEnd, pEnd);
-                            if (!overlap) return false;
-                        }
-                    }
-                }
-
-                return true;
-            }).length;
-
-            setResultsCount(count);
+            // SV-Refactor: Use the domain-specific selector logic
+            const filtered = selectFilteredResults(places);
+            setResultsCount(filtered.length);
         }, 32);
 
         return () => clearTimeout(timeoutId);
@@ -529,7 +461,7 @@ export const FilterSheet = ({ visible, onClose }: FilterSheetProps) => {
                                             fontWeight: '700',
                                             fontSize: 14,
                                             color: isSelected ? '#fff' : '#374151',
-                                            fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' })
+                                            fontFamily: 'PlayfairDisplay-Bold'
                                         }}>
                                             {label}
                                         </Text>
@@ -681,7 +613,7 @@ const styles = StyleSheet.create({
         fontSize: 34,
         fontWeight: '700',
         color: '#111827',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
     },
     headerActions: {
         flexDirection: 'row',
@@ -698,7 +630,7 @@ const styles = StyleSheet.create({
         fontSize: 13,
         fontWeight: '700',
         color: '#D97706',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         letterSpacing: 0.5,
         textDecorationLine: 'underline',
     },
@@ -737,7 +669,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '600',
         color: '#111827',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         marginBottom: 0, // Removed bottom margin here, handled by wrapper
         letterSpacing: -0.5,
     },
@@ -756,12 +688,12 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: '600',
         color: '#111827',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
     },
     sectionSubtitle: {
         fontSize: 14,
         color: '#9CA3AF',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
     },
     toggleSwitch: {
         width: 50,
@@ -825,7 +757,7 @@ const styles = StyleSheet.create({
     },
     catLabel: {
         fontSize: 15,
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
         textShadowColor: 'rgba(0,0,0,0.2)',
         textShadowOffset: { width: 0, height: 1 },
         textShadowRadius: 2,
@@ -913,6 +845,6 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 18,
         fontWeight: '600',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
     }
 });

@@ -1,0 +1,131 @@
+{
+  "id": "poi-batch3-05",
+  "name": "Dirty Lemon",
+  "slug": "dirty-lemon",
+  "location": {
+    "address": "24 Rue de la Folie Méricourt",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.861,
+      "lng": 2.373
+    },
+    "nearest_metro": "Saint-Ambroise",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJc8G30wVu5kcRhFzIdXf0N0k_fake1"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 15,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 12,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "QueerFriendly",
+    "PalestinianFood",
+    "Bright"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18h00 – 02h00",
+      "display": "Lun-Sam: 18h-02h / Dim: 12h-17h (Brunch)",
+      "detailed": "lundi: 18:00 – 2:00\nmardi: 18:00 – 2:00\nmercredi: 18:00 – 2:00\njeudi: 18:00 – 2:00\nvendredi: 18:00 – 2:00\nsamedi: 18:00 – 2:00\ndimanche: 12:00 – 17:00",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Hot Mama",
+    "ambiance_vibe": "Solaire & Engagé",
+    "smart_tip": "Leur brunch du dimanche est l'un des plus créatifs du quartier.",
+    "bouton_label": "Site du lieu",
+    "happy_hour": "18h-20h (Fermé Dim)",
+    "terrasse": "Terrasse sur rue"
+  },
+  "real_talk": {
+    "text": "Le bar de Ruba Khoury qui fait du bien à Paris. Queer-friendly, féministe et surtout excellent, tant sur les cocktails audacieux que sur les assiettes levantines.",
+    "must_eat": "Le poulet frit à la palestinienne ou le Halloumi sauté.",
+    "le_secret": "La carte des shots est aussi travaillée que celle des long-drinks.",
+    "le_son": "Indie Pop, Electro & Pop Arabe. Dynamique et joyeux.",
+    "le_must": "L'ambiance ultra-bienveillante qui règne ici dès qu'on passe la porte."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 25,
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 13,
+      "label": "Signature Cocktail",
+      "source": "verified"
+    },
+    "fair_price": 13,
+    "source": "verified",
+    "cocktail_price": 13,
+    "verification": {
+      "verified_at": "2025-01-25T19:10:00Z",
+      "source_url": "https://www.dirtylemonparis.com/"
+    },
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Hot Mama (Mezcal/Betterave)",
+            "price": "14€"
+          },
+          {
+            "name": "Soft Butch (Cognac/Poire)",
+            "price": "13€"
+          },
+          {
+            "name": "Shooter",
+            "price": "4€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Halloumi Sticks",
+            "price": "9.50€"
+          },
+          {
+            "name": "Confit Lamb Fries",
+            "price": "9.50€"
+          },
+          {
+            "name": "Hummus Deviled Eggs",
+            "price": "6€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Dirty Lemon est un bar à cocktails vibrant et inclusif qui apporte une touche de fraîcheur et d'audace à la scène parisienne. Fondé par une équipe de femmes talentueuses, le lieu se définit par une énergie communicative, un décor acidulé et une carte de cocktails qui ne craint pas de bousculer les conventions. Ici, les saveurs sont vives, souvent citronnées ou herbacées, privilégiant les produits frais et les combinaisons inattendues. Que ce soit pour un apéro entre amis ou une soirée plus festive, Dirty Lemon s'est imposé comme un refuge chaleureux où la mixologie se veut accessible, créative et résolument moderne.",
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 450
+}

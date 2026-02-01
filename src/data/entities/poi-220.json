@@ -1,0 +1,140 @@
+{
+  "id": "poi-220",
+  "name": "Bloom",
+  "slug": "bloom-café",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8852,
+      "lng": 2.3125
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJublxIVBx5kcRvKlMMIBOUL4"
+  },
+  "category": "café",
+  "subcategory": "healthy-cafe",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 388,
+    "moment_count": 63,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Flat white, Matcha latte",
+    "smart_tip": "Leur terrasse est très agréable au printemps pour un déjeuner léger au soleil.",
+    "bouton_label": "Site du lieu",
+    "website": "https://bloom-paris.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2LYNSBYNgim2bagNnvfGQk2FHz1HUwVn-7NAoQhEheGur6R271QH9rK_RAQ_qzae6Pm37v7mH7JyAJf5WXJQhk90pa0ZawDzjYja5WITIDS1tVJ_gNISG4FlSSOyPUNxIEqjyRCTUvv_Xw-t0_UNifpXOxz4PGizR1ARwV6bFWfWx8g8OobdlgXH5twJfX0U5CemHSaKaVZPOgS2PuFiGriz_snUDivo7MoM8-X6A7OimtigagpadfRk_Z2TU_ccljXz9o1aKjQAbnYAv69FXIB_pyJC8opqMENx6zASeDuw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bloomparis",
+    "google_photos": [
+      "AcnlKN2LYNSBYNgim2bagNnvfGQk2FHz1HUwVn-7NAoQhEheGur6R271QH9rK_RAQ_qzae6Pm37v7mH7JyAJf5WXJQhk90pa0ZawDzjYja5WITIDS1tVJ_gNISG4FlSSOyPUNxIEqjyRCTUvv_Xw-t0_UNifpXOxz4PGizR1ARwV6bFWfWx8g8OobdlgXH5twJfX0U5CemHSaKaVZPOgS2PuFiGriz_snUDivo7MoM8-X6A7OimtigagpadfRk_Z2TU_ccljXz9o1aKjQAbnYAv69FXIB_pyJC8opqMENx6zASeDuw",
+      "AcnlKN3gH92wgUjbpkcrdoQ5VOI0MwF8e8EXyNBPIXevI-7ySP1pyEe6skcrrEBkP0rwnDVVtZ04QltNkVAerCxdMoGdXBo-PzKV0dmbizAVxyV0uBCWD1yjVScD-YtdmR3vh5NdmJsdBl58qsVCgr1wByG_vVM1RqEVkzsFrw_zCXImds9z9vAyAjCJ9J68ge0j-DHgXn2ddqdI60pV77ONR3TRQURnSpAL_uRePrFUns1l1iOE-0f0uHDyfCYKpgV7nkD76s_qK42eP6_OYCwq_au_Mu_D9cBAxB5e1S0Niz-ivg",
+      "AcnlKN1Qiwpodwtmht9LMOJRdlGxPBeS4ua7gyVhIGkcjEz2-vCoaSI7hnjXRLZdMxYLEA3tefNIJRXvmB-_hBPHsrzJX_KLC57_Um4kP-07cRjFMRWJXyqnh3DM2lpLSA5nu4VU_hvHttBLlCnoPaCNrglH2Pd95yWzLtZ0ST5m__MXMelh3H8FcbJXwhdK_hqU-cmqcJN5Gvr-LY2zoFLAjehtc_n4exwy2uxao0sH8C4WqOo2eILdqPTfaXqBrfSzzk4ixeNz0xgarLJvBUlLnDOh0erX-uaHdL3oHrFbNzo5e0BM2K-4dCG2HANkANrKtILGbL-bk03QOJ0zbftoz-GJdtf9FnHqq391ujVfcWzx5DdYX6x2oLuDe1e0abQSdsJ2l44uBJJinOGoovL4zNxKgOrnDBteXjkMztDxR_n3VeMlQar8js0YZMPhxsE0",
+      "AcnlKN38mcPJ9lqvqUcTTQO0my6Dw-wGy3Ss1sw2d_Z8-f2cvNWUif3y9DPpSxsnYbmQbx2CaQ9pNY4N7f7YOxtWkN2uB28fEIeCHvPZ9aMtGmLHEzUuhuT1kCpPrOkaVmyLhS-VjEK5dIGI6HiX_75zcOghZaWVuRCjI5wg1LeRYpWjH4sop5zIBObi7dH6hrD69LLzPcqtP-vngEtGeitg5Fs2arnNi_G2gob_holflwoc0er95Lnzvk9ItDj3sGaRdpNEGVDn-Pk7UcjZ3Cz5rTGCQEYkRVzhuzCG3Qq0h8GtYaG089vA-nk14dl1K3k8WX_HUJ0yufMOk7eN_-TKGtMTCMclLhCwXTlwJnFMnfzaPj6_SL9U-sExIEsEBly6GiJRfOd8k6FEOv1LpFyylQYgZuP5VgdTu3ybQi7vAfYGgzcsuyXr4A-LxJT_CQ",
+      "AcnlKN2KLOMTp8R0o7bOy4MvctuxnRiie280zj49529MBN6OadZZWozfndeXpxIX8Uyk5pBnni8ffMeD-yiBc82qeKSLqjxe-wMSInki5CgFF6rykPh7OgYg9J2MyGmdg36bbwdeaw7Kh36zkByTejHQwWUQWukoSyy9GcXrxwZVhJj5lpSlUvsEWBlva8xXV0vEN_9n6pibu0o0xPGRpXf0mjSr19EPl8ybLOkQke2AN9V4zrp2fo1ge9KpGYu-J5Bgs4WEItOdrt0ty8zz2nE2J8eGMPQBP-Cp2YEq8icG3YapfTgWCsgytieqWp_enIl_Cpg3BQmauAf5boZ29nSYQQ8U0hTwu-N6vtS7EcCkP7eAgNMt4l32SSvXT_4JgY7lsW35WtqzNTyBq7qKF30NB4ikgeirFXkPS7r6SHNrFG-AxJ-yzmKZ_BxXzftSzSba"
+    ]
+  },
+  "description": "Bloom Café est la pause zen et healthy des Batignolles. Un lieu baigné de lumière, décoré de plantes et de bois clair, où l'on vient pour un brunch de qualité servi tous les jours. Avocado toasts impeccables, acaï bowls colorés et cafés de spécialité composent une carte qui fait du bien au corps et à l'esprit. C'est l'endroit parfait pour se poser avec un livre ou discuter tranquillement entre deux rendez-vous, dans une atmosphère douce et résolument contemporaine.",
+  "real_talk": {
+    "text": "Le paradis des avocado toasts. Zen, bon et super instagrammable.",
+    "must_eat": "Acai bowl, avocado toast",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Freelances studieux, sportifs sortant du parc et bobos du quartier.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 16,
+    "value_score": 80,
+    "category_percentile": 20,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "CAFE",
+        "items": [
+          {
+            "name": "Matcha Latte",
+            "price": "6€"
+          },
+          {
+            "name": "Avocado Toast",
+            "price": "12,50€"
+          }
+        ]
+      },
+      {
+        "category": "HEALTHY",
+        "items": [
+          {
+            "name": "Granola Maison",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 2,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

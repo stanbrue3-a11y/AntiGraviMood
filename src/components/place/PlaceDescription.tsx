@@ -1,7 +1,7 @@
-import React, { useState, useRef } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Animated, Platform, LayoutAnimation, UIManager } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, LayoutAnimation, Platform, UIManager } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { Place } from '../../stores';
+import { Place } from '../../types/model';
 
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
     UIManager.setLayoutAnimationEnabledExperimental(true);
@@ -12,10 +12,10 @@ interface PlaceDescriptionProps {
     primaryColor: string;
 }
 
-export const PlaceDescription = ({ place, primaryColor }: PlaceDescriptionProps) => {
+export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescriptionProps) => {
     const [expanded, setExpanded] = useState(false);
 
-    // Get description safely
+    // Get description safely (history/story)
     const description = (place.practical_info as any)?.description || place.description;
 
     if (!description) return null;
@@ -25,11 +25,6 @@ export const PlaceDescription = ({ place, primaryColor }: PlaceDescriptionProps)
         setExpanded(!expanded);
     };
 
-    // Auto-collapse when opening a new place
-    React.useEffect(() => {
-        setExpanded(false);
-    }, [place.id]);
-
     return (
         <View style={styles.container}>
             <TouchableOpacity
@@ -38,16 +33,15 @@ export const PlaceDescription = ({ place, primaryColor }: PlaceDescriptionProps)
                 activeOpacity={0.7}
             >
                 <View style={styles.titleRow}>
-                    <Ionicons name="book-outline" size={18} color={primaryColor} style={{ marginRight: 8 }} />
+                    <Ionicons name="book-outline" size={18} color={primaryColor} />
                     <Text style={[styles.label, { color: primaryColor }]}>
                         L'HISTOIRE & LE LIEU
                     </Text>
                 </View>
-                {/* Optional: Chevon could still be nice to indicate interactivity, keeping it */}
                 <Ionicons
                     name={expanded ? "chevron-up" : "chevron-down"}
                     size={20}
-                    color={primaryColor + '80'}
+                    color={primaryColor + '40'}
                 />
             </TouchableOpacity>
 
@@ -55,7 +49,6 @@ export const PlaceDescription = ({ place, primaryColor }: PlaceDescriptionProps)
                 <Text
                     style={styles.text}
                     numberOfLines={expanded ? undefined : 3}
-                    ellipsizeMode="tail"
                 >
                     {description}
                 </Text>
@@ -64,33 +57,23 @@ export const PlaceDescription = ({ place, primaryColor }: PlaceDescriptionProps)
             {!expanded && (
                 <TouchableOpacity onPress={toggleExpand} style={styles.readMoreContainer} activeOpacity={0.7}>
                     <Text style={[styles.readMoreText, { color: primaryColor }]}>
-                        Voir plus
+                        Lire la suite
                     </Text>
-                    <Ionicons name="chevron-down" size={14} color={primaryColor} style={{ marginLeft: 4 }} />
                 </TouchableOpacity>
             )}
         </View>
     );
-};
+});
 
 const styles = StyleSheet.create({
     container: {
-        marginHorizontal: 16,
-        marginBottom: 20,
-        backgroundColor: '#fff',
-        borderRadius: 16,
-        padding: 16,
-        // Soft Shadow
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.05,
-        shadowRadius: 8,
-        elevation: 2,
+        backgroundColor: 'rgba(255,255,255,0.04)',
+        borderRadius: 20,
+        padding: 24,
+        paddingBottom: 28,
+        marginBottom: 24,
         borderWidth: 1,
-        borderColor: 'rgba(0,0,0,0.05)'
+        borderColor: 'rgba(255,255,255,0.05)',
     },
     header: {
         flexDirection: 'row',
@@ -100,32 +83,29 @@ const styles = StyleSheet.create({
     titleRow: {
         flexDirection: 'row',
         alignItems: 'center',
+        gap: 10,
     },
     label: {
         fontSize: 13,
-        fontWeight: '800',
+        fontWeight: '900',
         textTransform: 'uppercase',
-        letterSpacing: 0.5,
-        fontFamily: Platform.OS === 'ios' ? 'System' : 'Roboto',
+        letterSpacing: 1.5,
     },
     content: {
-        marginTop: 16,
+        marginTop: 20,
     },
     text: {
-        fontSize: 15,
-        lineHeight: 24,
-        color: '#2C2C2C',
-        fontFamily: Platform.OS === 'ios' ? 'Georgia' : 'serif',
+        fontSize: 16,
+        color: 'rgba(255,255,255,0.9)',
+        lineHeight: 26,
+        fontFamily: 'Inter_400Regular',
     },
     readMoreContainer: {
-        marginTop: 8,
-        flexDirection: 'row',
-        alignItems: 'center',
-        alignSelf: 'flex-start',
+        marginTop: 16,
     },
     readMoreText: {
         fontSize: 14,
-        fontWeight: '600',
-        textDecorationLine: 'underline',
+        fontWeight: '700',
+        textDecorationLine: 'none',
     }
 });

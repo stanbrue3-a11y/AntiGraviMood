@@ -1,0 +1,185 @@
+{
+  "id": "poi-027",
+  "name": "Supersonic",
+  "slug": "supersonic",
+  "location": {
+    "address": "9 Rue Biscornet",
+    "arrondissement": 12,
+    "coordinates": {
+      "lat": 48.851,
+      "lng": 2.3705
+    },
+    "nearest_metro": "Bastille",
+    "metro_line": [
+      1,
+      5,
+      8
+    ],
+    "google_id": "ChIJlyUF0QNy5kcRoW19XauvNzQ"
+  },
+  "category": "club",
+  "subcategory": "salle-concert",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 1,
+        "seating_comfort": 3,
+        "natural_light": 1,
+        "crowd_density": 3,
+        "music_tempo": 2
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 10,
+        "dance_space": 8,
+        "cocktail_offering": 6,
+        "crowd_energy": 9,
+        "late_hours": 9
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 8,
+        "cultural_programming": 9,
+        "creative_clientele": 8,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "rock",
+    "gratuit",
+    "émergent",
+    "underground",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 2654,
+    "moment_count": 1432,
+    "top_vibe_tags": [
+      "rock",
+      "gratuit",
+      "émergent"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 49 23 41 90",
+    "google_maps_url": "https://maps.google.com/?cid=3762669164234108321",
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 18h-21h",
+    "Horaires": "Ouvert tous les jours 19h00 – 00h00",
+    "Reservation required": false,
+    "Accessibility": false,
+    "Le Bon Plan": "Concerts Gratuits TOUS les soirs (Indie, Rock, Pop)",
+    "L'Agencement": "Loft new-yorkais sur 2 étages (Mezzanine pour voir la scène)",
+    "L'After": "Nuits thématiques (Sunday Bloody Sunday, 90s, Arctic Monkeys)",
+    "La Carte": "Hot-dogs & Pintes pas chères au food-truck intérieur",
+    "L'Attente": "Arrive avant 20h, la queue fait le tour du pâté de maison",
+    "price_range": 1,
+    "reservation_required": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leurs cocktails à base de mezcal sont très réussis.",
+    "entry_fee": "10€",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.supersonic-club.fr/"
+  },
+  "media": {
+    "hero_image": "/images/supersonic.jpg",
+    "instagram_handle": "@supersonicclub",
+    "google_photos": [
+      "AZLasHozWo_CQoIUgSEa45hc4po2xfilsk8qEicAaeFo20uL0Yc8Tn_AvfbEEHi9QG_A_nDHQ4E8BkdBS7Mp9UXVA14kaO2sFIBuStl1qGKTQmsh_G-Wide9DixGGc4XS54B2BiCpmT1pLmscqMOm5ssZWS1fYruYU_GXJ8foLFFsyB-pi2T5799quw1lb3jNUUpTdx5_OhVrsMcGd0FA8kGb_1WyxthVmH7Gge5YqCBHeOdFOY0nVygr2GntK08LywFdRy_g5vq1xOJHkdqGDCuVkWLfUbNM3WwG4LwT35l57Z4xg",
+      "AZLasHoGxuTcSdOQ7ATu5XUo0b3aXwZKNV2S2tYxzodZBBWBcX0Gb9Yn-OeL5lQSFQ1rrV2WPwwy9QoOuJy7WgQ_3rY4T7EnJw8NGo11dP7xaGEmVubn65tEtL19sBRrycItvKq1A2vr5H5juxjS6uikohPIUY96tCqzQMd6Vy9SVRGoGHvj_fNr7fQwE_-I6-sk1kuikxkP0sXxpxIp2CDLqimw2Y_6FjxefnWbecigEYsbQSxA43a_batOe4ki_aKTNKD5M546AWPQASeJGK6JqdVdWCvlXbRD0b6q7zx1UXuJKcHsba3BSOkf45fn9NCt36yyxCdADXNVxuhsblehvztRnM4jjMNsuCiHCXWAZHgpFOGFDY9VgI0qSb77mcUI7ZySCbocOpl93KH9XogleDNqSqWW14eOAZiizeSoHDzjrw",
+      "AZLasHqO67UUMoI4U0XYhYNH6_iMDODIGW1uycN1VqARCa8DvsDTnG32LPj-HRjEEX6zAebNkZfZ8hRDX8cHtXEYLeaqPtH2UcY_SsU5M5p1z0sOCJa9TABSxZOoeDRPUBlwJv76ODGXUq0ZSfp8YckR2zO1sNfMAgQmMES8AXmiqQwaD5sAfcGIpZReAV_UEUGO6z5eQ7p9KkqW3GPe9xrFybjiHImZS-eqHMO0gAlMF_bjViYGqfHOF3olsNfHzznT99zsJoomtLqFViu0bomK1U9aTBMfwhnQqYt7FiVjToQnWw",
+      "AZLasHq2OlPA_2gunhlHd5tbunW8RSdNk74wMHP5RKeO-flgcgwRzoUOTg61yuQxndrXNSNGyCqAFQtikZ_cFg5vBjg6m57noBK1o2itcQOh33PxgLM9uJVQRTuoL2u-yIVb5Fw_xyaF7PzDZad1fRSl0YlwFVUuWokNAOxgT64xJG_DHMHURzMjXkS4lxnE6_yselO_tW89PSRg9rd2cxpycVMSu09kb-CcrDDt3LhxhsnPe5L48fjpJPMStXj-6Tzrr4XjmFx14U6sFvL7ZqLKZmsvmPqJ4ZCrL8VnvUxfGGMhGw",
+      "AZLasHpzxhQ0n1kHBVMse09gW7CfvYVuiDKes0bVL97o9iVVvcWxr6nEGze8MVqvfHJd2dH2Pn8oLAZuvNPiH0M0acIg9Y6Bum6v7AihIwjffM5CU8bVdRgfkOeJLTcoHixV022XjtGamamGZRBbRKqQpkI2IZGdskrjwwvPSRnSShrOw_z0Fm8bmlp0Q-E4W7nuMmilV9605ZupAcbEpWuIoWcf1gTnh2jeAldmy67X90gidAsbNJ_2jVDj0kKMV_PDs09kEi47DM7EUYxEv2wAhuBx8IxsW_vyRiavZV-fPBb-Aw",
+      "AZLasHqx2aUCl1ExN0mTymNZabKFjcJUr0RMda6S2zXqiPvDdWQWVmQlMVY5MLHsoIO689I7-JdfpJkCrtWlG8Waz9hRq3Szd8EOYe9HQAc46P1H1kVtb0GMBVruYfF27Jlp3FCnIMdVM6RI4on2c36jFtzRgWVQzzkv7wIiBNgrhtQ46sko2LVHmEdGxQbKyxziF6CS0Tpq7eCw-iTIblrsESL9AfnrzA5a7EYKEbbEX17mi-4wx3kHYgUrnr9Tq1Mgoo7ZH-HqVltV6842QiZleeafsI3H-JIM6vn4g7PzoUQneOhnBxtIh0QVgLTgU9bQsOLAPGSg4EsfWPaSYz2-1-oCa3S_d7fNq3Yq0h3wY8Pe78bMUtpz1xHgKg5hUF3J0c28vdhFkjdI3A2kCJpv9Egs3JtrRINZSI3GZpgM26lA1w",
+      "AZLasHrQ-4uFbCtAN0HfCr7AR8u8JclRQqWzp1Q_9rmCBrxlNDhQGFf9cySXM2IPMLDnoZp9TsAFg4TELAnkm47ZmnnW-L-kMcQlkem7J8lTHmwzX6aMpdmSBVzRK0nV3egfU9U-v_Lswe0FS8tJRpkyf_fd2O8Gf-XFcvdEgchNs8vPX93SFc5bzVP_jLmOOIm6G_K1_Wl8RQai-_uBAFJ4KKmbrfbYo7d2xXOapxGVnjDHsTf_xaKlza--1DWmSNcIl8ro_BhqsivmPbAW9XWDWGJMdXU24rt-giooxnjsu5-F8Q",
+      "AZLasHoQERxyVoMGfmx8TkVFY1niKqNY6onrpYd-qUzCRUxe2K4UXd24IgWhmVSKkF0-Hv0RLD61f3_CszcnqgDbr7qIXHLnSMmquGAaMNzyGugehtrNpOeMD5_TSmLX5LXSsNtNtjvkE5VeZyJ5hNM8uLCle2q_w1CsWM-wzSg1aI31aF4Rbs4APD0ou-91n_09CFAzkiwN7mLCVZstUW2JYTmt8ugzknKftBkjcMom7pNaW9YH-2qXqrzESyCllgvr_B3tGpJ7tXgjiICW_IfUnVRQ7hmQTBVlw69lT5k5KHLMRA",
+      "AZLasHrKF45hxJnyeKdHQIlh4BiKNDCxxvyJsx6IAJY6ATQbH8Rw0xhfgPXyQJCgm9DpR_wkYT-b8PE3YU5bSnlematMqk59t_x_XFdcSbo39u_8vyURv_NRne9M60wJwOjlWcp7fuEQ8pcqP2pEzx9M0MjOSFuCBaO8XaIDvhTJ6FuBf2Iwo-OuDqyJblNwEgUO2MhI-ALx-okHvBbVFkcQLR-4YizntWlDvKvsBKLQaXuF42LfBZbt-e259Hr_uKOcdh2lP5Z9mdDFLd01xg9iXgIKAPZUuz2dU0sRD-orem5mm6P87qPuSmI5Nkne5PKtegx46akWDfLnqopppo1mNbLe25A9lSvEoKWDlqj_Vd_N9LkUSIaTt-ntaXm3g5WwXohpxwuZ5MLFrXRvdaz6MXMiDO7xWtp_-C4cnJG3rTDV25M4",
+      "AZLasHqRMEfcE2vhbwSOurRuXKBBjBi5JVjhNQaHOhxiXaN67igsokjPaPVM2M2v0cMFkcCDIFrFR-WEDtHbp8bAf3otj0tweNZjSso9JAWO-pmu7FTuHYl9HLeewHxZEGlBwEB67hzktMdiX4uLNESe1onKC85LCjjeonkbwvKAW3_Gu_nCnuHK3n3gIag0Cb8AWZpa9NroUgc2liaMLvQnDx_eBwv4QYwH3Sb5-KWYYxVqbn1zBNPkg36Cuuq0kTtW9zAT7uFFpRXkh0BFQolyj0ABFQOZ7iEkCSVfN3aTkNV19w"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 00h00",
+    "display": "Tlj: 19h00 – 0h00",
+    "detailed": "lundi: 19:00 – 0h00\nmardi: 19:00 – 0h00\nmercredi: 19:00 – 0h00\njeudi: 19:00 – 0h00\nvendredi: 19:00 – 6h00\nsamedi: 19:00 – 6h00\ndimanche: 19:00 – 0h00",
+    "is_open_now": true
+  },
+  "description": "Le sauveur des nuits rock à Paris. Situé près de Bastille, ce club aux allures de loft new-yorkais (balcon intérieur, scène basse) propose des concerts gratuits presque tous les soirs ! Indie rock, post-punk, pop psychédélique... la programmation est pointue et curieuse. Après les concerts, le lieu se transforme en club avec des soirées à thème ('Fuck Forever' indie pop, 'Sunday Tribute'). C'est toujours plein, ça transpire, c'est vivant et accessible à tous.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Rockers indés, fans de concerts gratuits et étudiants en goguette."
+    }
+  },
+  "real_talk": {
+    "text": "Le rock'n'roll dans toute sa splendeur. Concerts intenses, public passionné, bière pas chère.",
+    "le_secret": "Concerts et soirées tribute Gratuits avant minuit. Ambiance Rock.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 8.5,
+    "value_score": 90,
+    "category_percentile": 10,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(10.0€)",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8.5,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8.5,
+    "menu_items": [
+      {
+        "category": "ENTRÉE",
+        "items": [
+          {
+            "name": "Avant 23h",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Après",
+            "price": "10€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte",
+            "price": "8,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 3357
+}

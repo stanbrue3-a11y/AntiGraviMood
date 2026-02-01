@@ -1,0 +1,168 @@
+{
+  "id": "poi-099",
+  "name": "Sister Midnight",
+  "slug": "sister-midnight",
+  "location": {
+    "address": "4 Rue Viollet-le-Duc",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.8814703,
+      "lng": 2.340862
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJldeGZ4Vv5kcRho7NxA0CnAw"
+  },
+  "category": "bar",
+  "subcategory": "glam rock bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 4.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 4,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 9.3,
+      "criteria": {
+        "crowd_energy": 10,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "24€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: 6:00 PM– 1:00 AM\nmercredi: 6:00 PM– 1:00 AM\njeudi: 6:00 PM– 1:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: Closed",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Disco, funk, italo, house",
+    "signature_drink": "Cocktails années 70-80 revisités",
+    "ambiance_vibe": "Boule à facettes, néons rose, piste de danse chaude",
+    "smart_tip": "Leur terrasse est chauffée et couverte en hiver, un vrai cocon.",
+    "bouton_label": "Site du lieu",
+    "website": "http://sistermidnightparis.com/",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Glam rock, léopard et disco ball. Des cocktails à paillettes, des shows drag le samedi et une ambiance 70s ultra-cool.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Sister Midnight est une capsule temporelle glam-rock nichée à Pigalle. Inspiré par les clubs underground berlinois et la silhouette de Bowie, ce petit bar aux murs bleus et au velours léopard est un concentré d'énergie inclusive. Les cocktails y portent des noms de tubes iconiques et brillent souvent de paillettes comestibles. Mais l'âme du lieu, ce sont ses shows drag et burlesque qui enflamment la petite salle le week-end. C'est sexy, intime, bienveillant et résolument rock'n'roll : une célébration de la nuit parisienne dans ce qu'elle a de plus libre et pétillant.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1tzKD3VEnJao8rTUI_oKC4KQ2p8RPyeZhxfH7NNwEJ_mxH4lOyTgzpUdBZADLA5pBc6C6sspAQR3r2hNcx8Xow_9qjauqo1nt44moBr0kDzS9Y7mWU9bGpUBU59HVMLymGFw3x638-QtN-_BIQ7NxQga_uT2HQA86sy9XDDQ_4y9Ej7hRLBAXwUVnvzpP3Su8UJzmURU64N72RkEt2jtAJJSdjPt4cxVP5bPIYGk6RMiDbwflpacGdA4Ef81KE2o6oAQxoj7Ut23IMKW7L6g1bwgOt9gAQ5lknMQ-F-U0&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@sistermidnightparis",
+    "google_photos": [
+      "AcnlKN1tzKD3VEnJao8rTUI_oKC4KQ2p8RPyeZhxfH7NNwEJ_mxH4lOyTgzpUdBZADLA5pBc6C6sspAQR3r2hNcx8Xow_9qjauqo1nt44moBr0kDzS9Y7mWU9bGpUBU59HVMLymGFw3x638-QtN-_BIQ7NxQga_uT2HQA86sy9XDDQ_4y9Ej7hRLBAXwUVnvzpP3Su8UJzmURU64N72RkEt2jtAJJSdjPt4cxVP5bPIYGk6RMiDbwflpacGdA4Ef81KE2o6oAQxoj7Ut23IMKW7L6g1bwgOt9gAQ5lknMQ-F-U0",
+      "AcnlKN2txHeIwXmT0VwVhX7XY7VUNRghAygupaekiRbZdPSyc49O1xeGqkPwXXnzdbROLwzO7dXJ6aVh5GdA7EiLn1_iloA373kzFTGK2eqnzAnW7Rpf_cKPSMjmOrn8TNWRUFw3lefpjt_hX7jvXVmG9cNNDcqYCS0rDicYqxVENzmhQDFItRMc854G3yDRt_aMFYb9TjMtX5NKwf53VlhOha3XmMD7Rr8n0kJz1NKv5k1uLVJCVIDOdzgjaCOGoyRXJY38dWM6K7NmpiD3B1x2REjxH3t_kMGWYvk30pyjH2w",
+      "AcnlKN3N3oMPwVJ9xIvxw9FEiwBU8BScseV8STvzyveXKDl6XyVdQ-48FHF5tNGKj2pVb0LnkrmoXuowmoK5lYyzIKBxg2HTyfPXJ-u5Q3B5jAt2tGQqi7RVUttSOD4QdxYvnOohK85Nvvx-IYqNFQT5_1WcjF8v3OkaxboMJfZKmtA4L_bckUtr0gTq5cnHaiDWK44XtBLXtC4Hv6cgLje7qhTulN4gMvxGLbQ7_e8A7BkLoukFa4XpnzXO508Z2I-8t-lV_R8OnAWb6jjLHyrlk2Dk9FbGX6N62_OzxyBVb1w",
+      "AcnlKN3unxpQfurglg6deuEGwF_CvEx13eVfrnB371WQxacZZK0CDep-AECCviwodRsChV8bG3zFNzVgHG06LXQqxsv6w5lFrVYOFwco8f2i9OCsa7qXMTdHUAl5WdoOJ6AEt2ZdqCnQCo_4O8Q2pBRAKaw57pRxyptBYiYg-A6kjuFqcgCHKsv3pQJ19_hRYZhgFvMcJwFu4z2-QyDxvXQwnd5IrRetm_-VBbX9w1ssMalmohzO8TNJEZTE1r--3ipN0vFPYQxBTsTdlNMECNwk9nn8QBkon4JSSPjn7ryS9M9hPww7Nvls1hCBxuOnfWEJs5XG2kWDTcMDXMy1knImB86P4SbXr6nPsjZ-bYBSR3qABIToywRs64lvJv8Aj_AlEvha0f87HFGlUcjvxpo7CuqhKM7Z4KgvzgPqFnImGCeKWz3p",
+      "AcnlKN2KMqk6y3SBmasPj2J6tk7JxsASs2QYy7xCB0YZFcUjAQZ22225wM_jK-6jmM4ke2KLVatTVVX3P6-ryvOp3YIahWJnuFG3eRt3wcXmCuhpJg07h9ynOsTm9JTE6CrJAaRKP0XMV-VEAecxXiJveSV2mAn99pE4JmrliolMalLjNvF36m51Wy-k_xbY0LEsv-SvkqO59M35oIoFRtoKl1Efbfz736vA7ZAVZfTu59MHJcQM1dbYWy4_LKLRvFuzoPcB2hxcg5nvDvJE0m-yiHYEr0iLY2SCixMRKhp3Mk0K2rg_EIikSarozDR83OjA6rDxOgA0LWsoHG3-DFV5ok4fQMy27b5GZ6HlEtEX-QRboThPdt9kjDEmz_u1379PHq-gY_mZLbVUTtoEV17XmT3fFOnKrKPIW5Kj99A8v1pP6gjh6S0_edYybA4Fq83V",
+      "AcnlKN3ox5zPEwzB64Roi09wQBFTULfgZO4Mqz6uCUpPbpCp-rQ-5HyiYfVw27tfy4dUkrGI1Xb1ZEfqLddQhhi2hwCsBrQtIJP6tj-Nw85eSNMTOVley2WDPfaEH3HlFbEcV5z_fmRpXqg9Kw4QaLbaxqPvIBSr2Bzy3dJza_aw4UlH2BvY1RW6NL3XXi0C8mkptq_ppgWeiqambyxl4-v6mgvqwbbo0SWwhs6Fjy8lvDVBwsYYjr6EmUAlGM1wanXTbKVGOxz4MWBo9c9bxtqoVa8Bw2NAnavwFGxYjqYZdRzdqR6pXSav3Ozi00c1F6W9IHvfZg_IZseU9NH1UZEBtor35qvpdxhoMEvFaSKjRhSDO534qdQ9GyM1Th4YI3yeaiZ0XWFSebSSvCn2MIuP5qmoSRBNUxD3iiuQ16gDR1cP7ujf",
+      "AcnlKN0ilqFEvCKCK6x26IWUcy_bwCeV97fFRaiCk-xbQVLhf_D7xAW4tTmJm1m64brNhDKzXcZ2BqexKSwRzRNUseKII5C99xIya-0yPPMJSmT0crcGNgFg2-faMSevu5o9iKh6CJv7wdnJ5xnpfJN1p7y5ItxBrxUp7-qEJYFBPNMfqsyN9vhvKtYpbuXiFBiHNoxLmbHBO0bH0vM4E9to9kzVyjihMuRV6OPrM6GbIAKVRc4tNXE5rwfCY_53QCK0yqs6AA57zrbdje4KLfE0RTvtyPxkLLjUV0BRTvZm0ZW8FzZ4608lvou5PQ1j4ZlnqUybWQlIuO7tpPatn4qo0DnERI82eyPGUAaqDcY1ZxkKUlT0mvHHfg8mG1r52SP2LWfMni8K84KO39575aQGLKaTsia52IBYcekLUKzZlz8M8ApE",
+      "AcnlKN0cQ6GLn__kAEf-LxGtBCTTYgv_UTSO7Q_LGptbdhD3aoWyTJbAT7Y4BtAQlt-_AjLXWgZMDMx5CgreISxBj-3Ab7BU8HXfwdeKZB1Kx2ha1cTiMy2UbLdCjdeK3Medn88E7GMujgevCZOj79BF843udtZJ8OKTXfI07HH4gycm5YSovXQTIPWIPK_xJ2rHuec934pIEZo81GXSaFX6YZNo5yGhy13wSUHndxYkV_z-xsa1avZ2Cz8ZNPrFiGNsNRWVjFMUFG8q_h27zDXBugYqV-xWI2PGA4QXp3Nb8FAN2TCoTNm0PBpjCHfKFpOKyd0OyhvZxCjgeuYHQ8FC5Cz8Nc5-5lCOIkh2qghvQjnKZ7X5-w942gF02LEg2CClh_zmHMYl_MRV6aP9DUoAsr7GS45rwOELBDK9e5LmEFE6NGrqKE6VNjByYvdPsZo9",
+      "AcnlKN3WtQvwElJh2jaBngyXtGfmZRNnDHeejkkMNxFmsRiINXmsowSJjTmThu3mVlryrREBAmk-vgxTm6hv_qlHCof-Yh8fnB4TWGq_w-C1xBZojKix6QLOQlRWfJvDY8yG-tyvvSJuhbmEFLNSmnyqMASH5KhQFYH2NfCFe44m72s8DZocWKxl6o4ir-KPmpfSYirEcJCycefY4PDhRIkC-qXsHEvQWTMwPdaN40_J-SvEEGfGHPPBQ8NkzHnU4WpOjNZosn1BZ0-oJmS9KaaPpTVOMMThajoE3j-PWit9IJAH-oYf1JGKJnPQgCVvdZQMGxdLjoRR5dEMRzM33OzhvUWHEz4uyhgpIDpgGuyGgSfq7j-q9nlqdy_n0SCxTSgNI-vREQZyBz4DU_kVAn18BSzRhcrllEVNs5kqpx9zA-P-t4fxu6AQDBha1I8CnL7d",
+      "AcnlKN3dLh26T0CnluQ6iGcAS4nXXf3PUuQfTHR5uNfeyIiQssNq2bxEadCIL3O5vEh0bcjSrDt4OTBI5GOpU9KtBZ1Or8hXtX_sL27bKBB0w3UQE-NWRIuSM0NAX6EuFwsZItR1qHhMH5zmLudNqIlstVqklURQ7aE_w8FvOKI7hvdIyMBL1THG_zi_UVXOlwuw45w7uQ0T9sDvuGfhnz6o5eO2O8lsVMzLxgl0wE5fVL4aW3L9Mhls4LcsHr0ofA7x99Y0sOTbMwG7UE_dWcTW5H2mK8U9WmX6y9Z1T0dFTDeXzKYNlyPGozqlf8HkcnddiZu-tQ2JTXn-fYVy_XSislpPpoBC5Cqv-V5mZa_3Kv4qWrCSKgWeBXkUI9ou2EEPvaaF1xUcDi-rHzzIaOeWR_QVuCvSOR_VpWhCUT4qPZ1TAmc"
+    ]
+  },
+  "social_preview": {
+    "like_count": 327,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 40
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "24€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: 6:00 PM– 1:00 AM\nmercredi: 6:00 PM– 1:00 AM\njeudi: 6:00 PM– 1:00 AM\nvendredi: 6:00 PM– 2:00 AM\nsamedi: 6:00 PM– 2:00 AM\ndimanche: Closed",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Danseurs disco, noctambules glamour, amateurs de sons rétro-futuristes.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "GLAM COCKTAILS",
+        "items": [
+          {
+            "name": "Heart of Glass",
+            "price": "13€"
+          },
+          {
+            "name": "Sister Midnight",
+            "price": "13€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Planche English Cheddar",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.7,
+  "google_ratings_count": 275,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

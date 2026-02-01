@@ -1,0 +1,188 @@
+{
+  "id": "poi-003",
+  "name": "Café de Flore",
+  "slug": "cafe-de-flore",
+  "location": {
+    "address": "172 Boulevard Saint-Germain",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8541,
+      "lng": 2.3326
+    },
+    "nearest_metro": "Saint-Germain-des-Prés",
+    "bouche_metro": "Sortie 1 (Bd St-Germain)",
+    "metro_line": [
+      4
+    ],
+    "google_id": "ChIJq537gddx5kcR_3PhRd2muxg"
+  },
+  "category": "café",
+  "subcategory": "cafe-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 23.5,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 8,
+        "natural_light": 8,
+        "crowd_density": 6,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "event_programming": 3,
+        "dance_space": 1,
+        "cocktail_offering": 5,
+        "crowd_energy": 5,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 8,
+        "cultural_programming": 7,
+        "creative_clientele": 9,
+        "workspace_facilities": 5
+      }
+    }
+  },
+  "vibes": [
+    "littéraire",
+    "art-déco",
+    "iconique",
+    "intellectuel",
+    "terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 4102,
+    "moment_count": 2341,
+    "top_vibe_tags": [
+      "iconique",
+      "littéraire",
+      "terrasse"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 25,
+  "practical_info": {
+    "Histoire": "Le QG de Sartre et Beauvoir, respirez l'histoire",
+    "Terrasse": "Pour voir et être vu, c'est le spot",
+    "Le Must": "Le chocolat chaud onctueux servi à l'ancienne",
+    "Prix": "Élevés, mais on paie le mythe (et le service)",
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Commandez le chocolat chaud, il est assez copieux pour deux.",
+    "signature_drink": "Chocolat Spécial Flore (en sucrier)",
+    "terrasse": "Patio/Cour 🌿",
+    "link_menu": "https://cafedeflore.fr/menu/",
+    "bouton_label": "Site du lieu",
+    "website": "https://cafedeflore.fr/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Caf%C3%A9_de_Flore.jpg",
+    "instagram_handle": "@lecafedeflore",
+    "google_photos": [
+      "AZLasHp0tZjDcL2MXbg4ZbTiy6s7QrYagA9P4q38rfq3MCoRCuCtyICR_0Am7tHP-S1J8QbcF66lyhqhAojS9db-2dHVgZCNixxgP1O32o9xliOZHVH5uIRbaMi4FyvJKj55H72REmuQIF3hSktUDgx-kbUeo7wyh-GTG15nW5dcNilhDA4mQCxAYvntgU-mbCsdYFVFpb-UMaTscz0pXm3EqWj1iJM7uq8IbsIrzX1i4EdrsrxUofkMD3ZHkyGajvXxqCd2rTpdnrlu2dquU0_61NUZq7dtL1tbRG3qAeFKQtGUZw",
+      "AZLasHpF10shRVGxIrcpHCVhsJqgNkuA1naqsXCLojFNiS3_4dMk-DjE226CLTH8PmZFMk2vm96TLjsR65RrMXKk8a86ltdPDrL7obrgD0JALn6jH6Qj8B2qVisvozrgvYBxMMZcaDxWWSHjYmNb3YnDGaqP_k_NiFnjUnx9klMxYOTvu89gR2PK_pLsSPNkdLHUFdiBoqOMcRNMA433ectbNjNKf7s6Fe4rp1Hl32jX3cl8DCbj_FizfE_aCpvwIfszoQJMVmcpdrUIWCfpndFyoYyprR1Io4yqyodzA8P1zDd_Ww",
+      "AZLasHq0jJDWTVgu2IbdSqt2_VcuWsfM24AAp-USnmTjgjCmNkcoY1GqaqS_PdR_LDHLrpzQyFat5YmiuyBMsDF3CCDgSqH28G-LjgQksyC1nqf1FV4egoAWlt3rvlD1iMbp7ZCffTljTs0LJDVoFkjfblCJAiO4UEes2emEYeYn4YY8tuGke-Rttaz50QbgokZ_cepJgI_pyBi5LQFRilDQjs6m7Q6QUHvcpptVUKDm0AXpeCippt1AjQ4x8fODA8qhGgRm-C9RnSb52jw7lpczxYGkxoSAlUUqhCoPRih7hW4KnmbSzCgy-1V9rqlSApKBhnwZpB_IAa0JR_ci_YyOoZpjBUiRxCNca8Fvz5oohZ0z_f87S2oB6yeqErK2QWqSrakUnipJpEqmWXi3Srk6vH8uM1mi5Qjrz2RcPeBZBZnH-MIhFjUsBGHHPyCqqQ-f",
+      "AZLasHoc8ADD4PWT4jSTEWSH8jHmOdv-bszbyHhd4ownx9FjUFw1OVOZXvh9BjryoejEU1zS5e3TWKFJB92pRqZAb6ObWBqZZEdZmdoPZ087g8g6RmOsBHv1l7_93y5O3omSkXzxF318iBbrc_AGx8aLUgYKgeFBoIs2cIzaEU_1SROoFGfQHKT79tJAxCepDVk_0kotNdxXiWVT8UMwbe4OwTh8XxUCjR_NoWgH066ZfnLekXZ5ejRDeLRIuhIF6EWYPANczs42ugcmCp510zNfEmROPY9np-9Hik2b2Fzu7Fvm3nf0PrWgDTcGV_AMc2dHMxktzZH1uv5g2Eo01462t-V4FYiC-Bjm731P30eRkuNPEHcn7rD3mQ47o63V7_XXLzkT59Mfd8tP5Gt7lIV1mFmE2mVTshcFTsvhW5U8mZpAahEbjrc-ZD3n7oEdqKPS",
+      "AZLasHrfYp8Ot3xKcl1QbdEiydLnLanl1ABSWxjn8qCImVQeEwWJ3Vn_aw8p7-GEoZkbLAvkI3WjL7D1F3YIBw3kHv-H6dIbvcp3HXuif37DdEzqtPZNz7cuCj3hFoRHUhL7p3Y12dKMjxjUvcISjpz1Gq6MM8pW7Jht2dZeQOcB84ujb3HyrWq2zfqZxkqwpx9GujVwMDWhW_Rv5pSSxqckQRK6U_QGfyWn16xWKU1Ye9y2COSmszJlfIWSk99OdXYYRNXlVW5p2b6IJyqJiA6wcHgWMoRwHAi3fQHuiU_a-Uml4iiTaenv7jPO6vSsFwHJTp32sUwu1w1IytR82XgwLiXf-J2cKBt9KjwE3BP5md8xjt21kejgra-HdpTNPkfYo4sWG6KrVeuiFSFsFI31lL8-EFFhdIOPnVyvR-qUg3B__2aFSDNp_9TZ1sX5b36r",
+      "AZLasHqlgwjasr6vuIOC5qdcWdRqBxPJRrlvmlD2_giRv83TBkoRKmYunH-_EkXP3gs1-vy6PvfpxtG7zuGf0osbbV6OU_BR1ZLQWRaTVtvzizH0tUEtA-r3QZ4ky59oOIO0h8dFfmhmAgYHDlc2-qdoo4ujzgre1jXEi8-PocJmQd31o2Cc1-DK56AkUcOmlMROOTuGbmRpUIarxQcsjkHxq7SNHOt4DHc3xbdigtiLzd4OUEuCyDd31cHdGGfruZEFWakeUWDoh-7u_-Fnvazh5JuW0vjI12HgNVoKcjIcOU1mqAzqUsP9Ogdn_Y5Hbw0tVyDiZVLZrYpf1Av6jwXIprt_Pe_IqsouYy-JpvExewE8jpro-0X78WZeNGckAxddGh_oP7fVe-NZ3eFOf9ZSVZLj8BMHwSDUSIp5IvXQiRoWbMVX",
+      "AZLasHrQIaZGQ3UOWISrkJ39HiR7uC6CiwRwwnk9Hf4ngIGw8vR3s-D-IrhdlQ23a2Uy1DdAYo_EvkJDZVCN5ZtU4wMhE008XLeQRYkGLL53-0QIpj0Gi6xph6nGOAL_ZtT3gUr37RfnoR7U4ei5SCvUHJ60sHxVuxmBd_JIk_1lEPR5FKm_Io6_ekxujEZ1GKGkVlpYi_4LwTbl-hDE7JhGi0SU8amKSbqAgPE5UtODnC0PRqzpVfKXg1GdRdHuECSq2xMT3Pk1-8v7Qgvoi_Z-aWO88SUkp8rpN2O3oGgegjM8l3XnkpUhoCMvM9DMIsiE5JLFjPsdrZ1VpLclx4hGXNvAyNnPEVCUByNCmZzmK7jAb5AWmTlE-DlGg3ArlaISeeBB4U5cdgY0PJS9iGMQ-cHTYBlhiDP15nt35Is0BQdDiCbf",
+      "AZLasHp8wB6Ndsm29U_e0wAJVjyjJw7ejAxN4IpcxpAMmsupuMc8o4_TDAl8OBUJ1XVLgJ0VxhYWAOKRj-JlZnLWYU20VDgCvqlpYfkwztHl623w0FralCT_GfPe6oF8f1NLVvTdsPY1cJJPBqUgsYoRTc16FPEIIdEs5GRoSBRN3c09KfNsIHLKQBokXWHnZzaPj3043owXzzRWtB8RXzENBrRwwJZQhPybuTSvXfTVRj70mTuXgY5HXboFlWSsmM8ffRRehtS1KD3ZLrpcdSZZXyMTJnNnoD336dDVjbBIkxSHu6DkFOJxaibX0xcmvSGa7Qe7HZk54X-nqbWV9ddxKqP63_hqAo92KauwBfNAndup0_sJdKrUo8oRTM9kPcX6gtN2f-aUM6EoeJLE5J5a_xMqCfqAySgSVx0xVw47EPlYQg",
+      "AZLasHrcG-_P0VLE9IEHEJR5kh2p6Ka-D6cpH1bYHThqs4LxGgvhfUQn71HIgRdIEAOawm0a1V_nLwUXUDnJRVKyWCh6OjyOOAfcjrxE7JbjAAEIfzVrXXNVMDDR2d-Uw-4j6RGhYz9-J6SBYQmRPbtjB1SFn1jDyWjBunl9TRlsy-hS4OEpGIA30amvf75k7Z53YxDseuW02NjXtBwGPGcLjcXnRrZBPeSJBrLW918w8w6abNDhdWGKgGdf6jti0HZjmmoSbD1keotiKfoAsEFt6K1cGdovcq-O16Ye7syNwh9djpDVvIWK9mvN0pjMAlw_vq9jfPxwQziRYzmoX-ae_-n452YkYDgN7GZ8PDoPf0E8cbM9bVou4s6ujdCxDf7ZTzE89LLzM4QBYA5QXQYqSN35xCHwKKUHW-qpmyTzUTqU7_EmQl9_r7pMtjfD4A",
+      "AZLasHr627tWgcJ2MH4eTx933W3NpeORAoT-bC0d9DALLnLOCqXlG4R3znS_9fXghihSMLUCfGPt_yU-h6ittBScz-VsE1k3K2R5zbnmxZimasa9KW2qzbzTRiVGYffki2Ub3gN56btL8kPiwp9TIQIbQdpp9oS6Tq81Z0iCKLJqt5QSis8DgI0D-HkyQm8pVYaAxcQhOC5UhE-R5HO82vdexMWeRFscMGoWi_2j6THOWO0FbASCx3L0kWFfTf44grg_dG-ZuwN82ZqsRocA9zvoneUGeGmJndDDtLUulU9qZky25y4M5PzO-XA7t9ncHUCDafENkfpZ-GlLAlrjb-qP-aAGhYGoyLnNsBktmtsDFItLWp7azTT2_EOXyfV-9MFfeoqoe9ANnDrEUJFm41mw2cLjUpMjAKeJ1v77fUE99jA5kd_CaiREsE5HXoc5aQ"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "07h30 – 02h00",
+    "display": "Tlj: 7h00 – 2h00",
+    "detailed": "lundi: 7:30 – 2h00\nmardi: 7:30 – 2h00\nmercredi: 7:30 – 2h00\njeudi: 7:30 – 2h00\nvendredi: 7:30 – 2h00\nsamedi: 7:30 – 2h00\ndimanche: 7:30 – 2h00",
+    "is_open_now": true
+  },
+  "description": "Le mythe parisien par excellence. S'asseoir à une table du Flore, c'est prendre place dans le fantôme de Sartre, Simone de Beauvoir ou Picasso. Le décor Art Déco, avec ses banquettes rouges et ses miroirs, n'a pas bougé. Oui, c'est touristique, oui, le chocolat chaud est cher, mais il est servi dans des pichets en argent par des garçons de café qui sont des personnages de roman. On y vient autant pour voir que pour être vu, pour lire le journal en terrasse ou simplement pour toucher du doigt l'histoire littéraire de Saint-Germain-des-Prés.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écrivains (ou ceux qui essaient), touristes chics et habitués légendaires."
+    }
+  },
+  "real_talk": {
+    "text": "Le temple du snobisme germanopratin qu on adore détester. Cher, mais le service est un art et le chocolat est divin.",
+    "must_eat": "L Œuf Coque avec ses mouillettes",
+    "le_secret": "Commandez le chocolat chaud, il est assez copieux pour deux.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 12,
+    "value_score": 93,
+    "category_percentile": 7,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 5,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "dish_price": 22,
+    "source": "verified",
+    "main_dish_price": 22,
+    "menu_items": [
+      {
+        "category": "SIGNATURES",
+        "items": [
+          {
+            "name": "Chocolat Spécial Flore (servi en pot)",
+            "price": "9€"
+          },
+          {
+            "name": "Croque-Monsieur Tradition",
+            "price": "18.50€"
+          }
+        ]
+      },
+      {
+        "category": "L'APÉRO",
+        "items": [
+          {
+            "name": "Café Expresso",
+            "price": "4.90€"
+          },
+          {
+            "name": "Flûte de Champagne",
+            "price": "17€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 3.9,
+  "google_ratings_count": 13604
+}

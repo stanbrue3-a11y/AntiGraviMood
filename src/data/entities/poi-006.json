@@ -1,0 +1,205 @@
+{
+  "id": "poi-006",
+  "name": "La Bellevilloise",
+  "slug": "la-bellevilloise",
+  "location": {
+    "address": "19-21 Rue Boyer",
+    "arrondissement": 20,
+    "coordinates": {
+      "lat": 48.8679,
+      "lng": 2.3918
+    },
+    "nearest_metro": "Ménilmontant",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      2
+    ],
+    "google_id": "ChIJVeiKGZNt5kcRkPH9S37Lnzg"
+  },
+  "category": "club",
+  "subcategory": "espace-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 4,
+        "seating_comfort": 5,
+        "natural_light": 4,
+        "crowd_density": 4,
+        "music_tempo": 5
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 10,
+        "dance_space": 8,
+        "cocktail_offering": 6,
+        "crowd_energy": 9,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 10,
+        "cultural_programming": 10,
+        "creative_clientele": 9,
+        "workspace_facilities": 4
+      }
+    }
+  },
+  "vibes": [
+    "militant",
+    "world-music",
+    "brunch-clubbing",
+    "populaire",
+    "festif"
+  ],
+  "ui_theme": {
+    "main_color": "#DC143C",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 2987,
+    "moment_count": 1567,
+    "top_vibe_tags": [
+      "world-music",
+      "brunch-clubbing",
+      "militant"
+    ]
+  },
+  "discovery_radius_meters": 60,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "L'Ambiance": "Lieu de vie artistique et festif incontournable de l'Est parisien",
+    "Le Rooftop": "Terrasse aux oliviers pour chill en hauteur",
+    "Le Concert": "Programmation éclectique : Jazz, Soul, Hip-hop",
+    "Le Brunch": "Le fameux brunch jazz du dimanche (réservez !)",
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Le brunch du dimanche avec jazz live est magique, mais réservez 2 semaines à l avance.",
+    "signature_drink": "Club-Mate ou Pinte de IPA locale",
+    "entry_fee": "15€",
+    "terrasse": "Rooftop 🌇",
+    "link_agenda": "https://www.labellevilloise.com/programmation/",
+    "bouton_réserver": "https://www.labellevilloise.com/la-halle-aux-oliviers/",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.labellevilloise.com/"
+  },
+  "media": {
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/La_Bellevilloise.jpg",
+    "instagram_handle": "@labellevilloise",
+    "google_photos": [
+      "AZLasHpP8kceufC6JqD2n6dzu6g9beSZx1WNWdaS7NbuM4NcZcmG11RjUnrPGmNWmW_rMAph9LQULA6wA2cAS_iLzriXqRX3PD_FSHHHV__E_zJncFvO9-MikFpgL1NF4APYiquiSLMe1P67gAdWzeg2SScUJ7_fErPqwNSxQqouPXOWE9JnTlbcUd3HlvM1alYid-ojU2OGCPlVNWBLJSoOmtnpRCuyXF0zQaS8YOFn_M7Qx4Nx7loiAwpa79sNorZHzLBPDlZSNipUhY68j-6tlECQsBMb4VSxZnS2tT7KnvYOTA",
+      "AZLasHrl_9w1rfySqE0qUeOkX8Ws0FFrjuTEmVymOEBPJrr6pmTjWbKR5vXY9cC0P8pu5Y8h8tkeP1IJEohsUvD5oplUXoeA3uTfbAC30K2ZjdDSQC48VebAQfYfY3YoXwuZ_kRXt2Kr4pKv4dAV2TmgNqoGF4REAdnVvvKNXkAVD4ALeE4Xf3D1KDUvDwtDnG_U2MZdTZAzjLeHRoIh5jiQuHZ6Z9RIJuVEWm47qA18tnkVP7KPXpAGfKe4zV8JqxQYRYpsQEsQwIxtsN-6J8-2lGofDyoRXLdEBhZLcQGRnppFyw",
+      "AZLasHrezMk1KHHaCNvSwt0_jIpxtGcezJWQWq9_K_zylqNDSvcRomQy5kU0Udim8647muZBCagkhFr5Aft6XgldHOhkd-NEw4D24CDvkZhbXG4htaKVtq0t_fQ8PvYSj93WdQ-YItooksvbzX-37oa8YyIIbwJ8HOdWoFjMltO0yXVStme1SCPmEFNV_2dMu1n6hMXCt5G6rVz_iFQD5hYLaY4Cdcw35xcijuOXUEmk1vYxCZPx5uMeo6TSELk3zE_9sAxQ4OBQKYZRzYYsDZH7fyzA6LklEOeNYdPwbGFUgroUd73D3pHkBamQXzVND6TXDoL2coaVXCGtGb4ksd3rVY_QfvNfcY5jMeR55HRV8Gf1l12y_1Q_1PuqxyEdU-CxvoEmu3pQRYY_0NmzE2SeJVgNSaKfwptXG4qwbOhhh7ZAeMVDP8GcGORP_taG0h1O",
+      "AZLasHoiaFcy7_M2bHCU0iHSidA1_fxQvpOHtMRDZvNMH7IN09kUWgJAT9pjc9S-x6PJjWrAF9sU2M5OWbIC-Yor3iPduhED9SnKm06Ko4mgoabmIigB5_rdkT5cnEinv7NOVBO4hSMl-ulK4wLmNF3-c5dJVCDtrA7gv_4bhSCC_S0HNQQDay3KSa9D5EPJEdB4fFyt3UeWEDURZb__B_HtfTDs3zFR1A_XvWN3nOKveYNFfUpO3Iq54A9yy2k_eOA6oW6RRs6Q_W-uzSRdzTXlNZZkd9CXpy4dshOvYlxKmtzOLPPkN0f8N71hagaER69l74j0GoJ8km4-kovUvw0QKxNaFdArML_OF2vTzQKJ2NYVIjwTqQJ79UmbaKHqzSOTwg6tV10_66Vq9gohlre9ol7edRROozz2-s4qjkzCm08",
+      "AZLasHowaIxgkpMGBSP37PSIdxlfgjCdyVyDebLWUWWMKLvJ03pPJ32h6BWqXB7E0OpOjcUZ1E0JJWLWh918GP8P3k6oW_frlnmw-EdThSnjgDQOFvOHWqfPNczcXemq77QLvjiOyy3VuvTnRKSh0kQoh9h2k7MOD4q0TzhVxmZgT8_Oyhf08vmNlnflnt7nyYL-LQhj7yoXVuJrbDDj3eycv5pxDz5pZ89DKMRGzV47MDdt-97n6-QecLRPWAm-eyfNXLWrOu1HAOH0Wz1xW6cThzlllPk0_GNhvJX8CV-wt4P8ITJr0W4niWWTzTOlSoKDQm54QazcFkDF6gQowvraGI_xShx1ZXiZ7nhPsJpkZ3hqc5Q47sWp4hODxdzocA_T53rMJtfOVyPDKpB_ecnOh8PDyyJ6JqCjLQiLFb5H7sif8tnE",
+      "AZLasHrgfN8hhXPCeFi9XlPuEBRM3PzqrXBEXB6KjxRccl8AsK2q29hr2_LzBFu1blBIunLEEZfHML03Kpm4k5I5cK1lQOwb0XwqmeCGO68N-xC6ZdvuGiE_YFxQ_2LQzmyMrAUcLrIfX1KDl78-kbwWMg3iuJ9jg9KFhLl8EVlt-L2VS0NXLFIBp5Ddlv9-HfS2A-WIGTMWrZeJTc2sK0-KIDSk8eHeUZDcRsP_ZhavaRV_5h12pUAtK9dNhD_fer4cRujBykJ_YMcVV6RtrM7fTGCMEvQN0frbiolXNd0F78pL0Q",
+      "AZLasHrl-k_d7naEcs-qGlzWE_-p7h4cD5vjebqXu36y_w5dT454ESvJ_b6P6FT8Li7euw_3oOVTEzgNNKqI68KQNFv9xwBpnU3S4SQLxl4RF1fyjQqnRmHKu2AsnBSPcslZpY0csnY_ikv3XlDRt6Ej1a73OPxH6iwjT7sAuAqvL0r9kVgeCSs32HhPjasKkh4-IqCdQ5h8Dnu6Oq7ObBdvCx8IBzDkAOfUuFnHmHCegaENWD5qOHSSjC6cuED3lJsjap4Cf5G14nhjhWa0Zh1GJYges5mMIzLR0vNjdeR2tYe28FLKl0ry4Aaw_Zlzgs63-rR0QyR5YTfso0S5HgYInvdKvKj-nOj1LmiIjmQofQSDb4ekZH9RuNqlLQ3pLKFX1NZUuFguvnDBXLHhdU-nxZ42ozFT_QlmbuZEaJmLZVqlDg",
+      "AZLasHqiJBruLvJX7fdr6lNmz7ZY7ePzCVSiD53n_CW7k04S9tYaO_JnydZlzGUXH71lc-9JHlgoCH6re3X70L5M4-BojJAeHM3A5K3UwlLJoghv7Y9D1v2l3MClBic0wHIRIaYmD9MWFuLLb5fC-NMG-Kxm7PT0CW3BKRnAPxbqL35fbdsfszZPKrZ7x8Pdf8FSbDa7YqC9qiVnWsJokkhl0RP3PFw_3I_m4U9jXzpxLvPTXNsNn63ZbG7CJN_LMFnTIzvhPwaSIZ3rw6n8i7AwhgoLXQPW8hk0pM8vTbsvxeCaWFnTQAgOlCscBJv6UyYjGUWIi248RV3WbwrUPus5QREElY6qXSWZBX6tfLxmj_XTfnVz0c-5H_FfnwhByExkRfnzxKJdPOEtoO3VOhz9la5W48jVhGdyXOSf-t_mkNU",
+      "AZLasHpNNcpE4fya5fbTxPbfhLNL4eKRG_pssTgQh-P--4m0wUdz6CyiG_zZGsYZVZxjI0a-aGAhlMWoYdOnOImIkbfFYTVGLN3hjrlAEck0YLOQR6pTz9tj9eY17CesGYS-sOEATKpLG9PFH-PviHxfPutjMPamB64Xjx395EK225GiXNWli94P-nqt_nxr5_JyO39n9S6bomq-zLdW-mcNSGYmYZLRSkGV-HqTUhJ6ARMK5lvNp-x-KNp83Onb-5pWPB51OrB-v2H4L1-coZUlJj1BLmhyORYDW8Xwhk0jj_plHQ",
+      "AZLasHr0GM5BN_Q-r_94Ca2E9ZmVUJh6TSSvYUP0RXz2KqpnsRiYZPoREuPIUl8khd3FR7DmgsG062vohjAHAaZU4-1E82GXpR_Gz365KGDq5KwVbbizGuq2kpRpyuTpRjvdfPtJGmrPqKwbMOo3BmIL59BhlWqwWJQBSpVp3RgDzlYZl2FkYg_nlf4LP3F1qOkajnKSQgW2wQdS2vmgAj7VUdaRKX4drCF6-XJIbKHHkJYOulKYv6YfVQsIjcU-teYlpjoD1L1pdZ7O7Dl6CDhOH8vJ5TwsycUMdOpIqhFr2OOtGqpUohtn9TgdWfo7QgmxrwmQqRL0bPwfwTXbV0fd2rCHPySF1v6ygWY-ppNAf8MYSzeFyFH_7JeeA8dJLO7eTgr2EUSX4MfS1YW3Mn2ODen9R3VWDco31zh9Mr5oNkh2FPoCP-urCAe2YmULBHH6"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "19h00 – 06h00",
+    "display": "Mer-Dim: 19h-06h",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 19:00 – 01:00\njeudi: 19:00 – 01:00\nvendredi: 19:00 – 06:00\nsamedi: 19:00 – 06:00\ndimanche: 11:00 – 19:00",
+    "is_open_now": false
+  },
+  "description": "Fondée en 1877 comme première coopérative ouvrière de Paris, la Bellevilloise est devenue un haut lieu culturel indépendant. Dans ses halles majestueuses plantées d'oliviers centenaires, on vient écouter du jazz lors du brunch dominical, découvrir une expo engagée ou danser lors des soirées clubbing. Un lieu chargé d'histoire sociale qui continue de faire vibrer l'est parisien avec une programmation éclectique et ouverte.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Intellos de gauche, amateurs de jazz et foule éclectique de l'Est."
+    }
+  },
+  "real_talk": {
+    "text": "L ancien lieu de culture ouvrière devenu temple du jazz et de l électro. Une ambiance ultra-inclusive et une jungle intérieure.",
+    "must_eat": "Planche de Fromages de Ménilmontant",
+    "le_secret": "Le brunch du dimanche avec jazz live est magique, mais réservez 2 semaines à l avance.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 8,
+    "value_score": 80,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(32.0€)",
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Espaces Communs",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Expositions",
+            "price": "Voir prog"
+          }
+        ]
+      },
+      {
+        "category": "SERVICES",
+        "items": [
+          {
+            "name": "WiFi / Coworking",
+            "price": "Gratuit"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de IPA",
+            "price": "8€"
+          },
+          {
+            "name": "Verre de Vin Bio",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "BRUNCH",
+        "items": [
+          {
+            "name": "Formule Complète",
+            "price": "32€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": "22h-00h",
+  "google_rating": 4.3,
+  "google_ratings_count": 6530
+}

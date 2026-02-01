@@ -1,0 +1,139 @@
+{
+  "id": "poi-234",
+  "name": "Brasserie Urbaine Porte Maillot",
+  "slug": "brasserie-urbaine-maillot",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8785,
+      "lng": 2.2852
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJX4rFg_Rv5kcR_mxjzkhFn_M"
+  },
+  "category": "restaurant",
+  "subcategory": "brasserie-moderne",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 837,
+    "moment_count": 11,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Les volumes sont tels qu'on y trouve presque toujours de la place, idéal pour les groupes de dernière minute.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN22D8luzEel9whnTDEttm5E0piftT1JmSJCOUnSRkjOlZX1lz6t14FZjTpV4orU7jvtuZLkqoFj7Q2hIPqte9iLgmTEg4sYTA8eMXUPlbIE2gdQNFaJol1O9zVeZYak-QOfTYPx4ie7B78AYueqo2ySpVn7rX7WfGuq7k2n3v9n7UjPzDNuSfZnQsu-XQGUvcjkGhj9JVpsOHBHlgglMKDW_WyfPXhSsPXiByPGqm5tUtz0jOzBDszifkhPMLr18zhPt_QD7QflYAqgNjEPfx5mdbi0TmqTOD-1Q1VTO7E-ZQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@urbaine",
+    "google_photos": [
+      "AcnlKN22D8luzEel9whnTDEttm5E0piftT1JmSJCOUnSRkjOlZX1lz6t14FZjTpV4orU7jvtuZLkqoFj7Q2hIPqte9iLgmTEg4sYTA8eMXUPlbIE2gdQNFaJol1O9zVeZYak-QOfTYPx4ie7B78AYueqo2ySpVn7rX7WfGuq7k2n3v9n7UjPzDNuSfZnQsu-XQGUvcjkGhj9JVpsOHBHlgglMKDW_WyfPXhSsPXiByPGqm5tUtz0jOzBDszifkhPMLr18zhPt_QD7QflYAqgNjEPfx5mdbi0TmqTOD-1Q1VTO7E-ZQ",
+      "AcnlKN3Eai1Ufl2oYB4VbWUd_y4ZAup3Gfh-QDs4VpcqLwkEOYkkhdgmAK3fLhpidcDP0AUzDxZwhBLlQz8RNcSU46lvan1wAz0xkVV9FpnirRhEI4RChDiOhUH-T4iAhdPI77U4WDRINJo33SkVw52ngFG1H1ZMu5KvPPENwLkXHF4lbhnYbXVCxpWxpX3Vi2hWzzkaWZGUEwJFGPrqhl747y5ZumriIjwYqmPXZdZRkqwgRrQgtdCtLIoOfjc-iMxSpF8fMoNZFYiIAN9p-pvC_9kc33FoLkRMAUEpDLXlJ931ww",
+      "AcnlKN1GsRNFrgJficbJdWGhQE4OIniiCYUk4qoBcT_5d30lgBbkOhzqL_ZRmEXmnZAXbK4eHEuVPFLgl_Lo9Am-372Plnx2Xx8vnanhJqFpJr9zzIR8U1usHmm-KEzdl8UUfUgp6ycEu5_kH9MugtDL3iER6HkNBzvNf0m-s-aJReAvCFxj0oH308HuBYZYlbQR-NJZmZTnHnwPVMxEdKIcdS8SkeL1UorKiAnPFNWKH13szyVlBuTpb8kF0yeuBCBJSBuc5e1tNs2gCAGOYQNaSWllwUvRw2_R1t6dA1BFpZqxCk6TGMkTcYiGhJvk8P0mSwUbEx6VuqEQSuxaQ_prWofkp0-rTt4DuoFNDNppM2zbftnRaH39HbuVZmKq1UuCIhcq0eW_cJiUkBZOXLEJNpEpKbDVkM3Tw_4i4igq4z-8570qeWTsdInDvWkcQA",
+      "AcnlKN2kTMtd_PwSrsjzj-kL2rRdMGgPd5iPJZaeyaGZND1wKWlBfMq0clHBgT_XR73XdTflUAEaUiWcJUztHNv6l92r3JBNt2CKoUzUtYPaczPstKDsRP5XaUzqaVYUs1RL0wXDgciX4cxvblNrbcAgFA-jzGm-N0CdGX29mRZO4PRvaqQhCFWG7lxBseSJr7iRfkywEC29019b35cSgKnEz_Ya_1pOqvQjeEgA_j7nYcb3KNNJsFHHQl4vfsWPAZglpBfyEHKCGAHsBvCCioKrkUvxV-v2O9yR21xL9xvQD89YmQ",
+      "AcnlKN3Ez0pdKaXIeUvoA30TcXgfjRLBE-Z1KDWiJ2u_5OFzRulg3jTkNhCPcjTJv7H7hDkycI9q9ObE4fQKYhRbpiq4zRHS7ufXLkVP2eM48C0VhzNtFS81PwGDUp69yAd0z5x0_C9nxHGdd3L2tPeLPtM1C7Z8D2TB812caklgrICFb4NbiWMV6nsd4sep-XbexzkLZWtuoZp1pKVlktMPaH3G17Fv_dw99rUKacOgRWiojihioDSBhpDeNvuGTpvNDDVrPint6DoqrJ2SWmQq9h7mretvHOxBShouHsu9k9v-8g"
+    ]
+  },
+  "description": "Immense, lumineuse et vibrante, la Brasserie Urbaine est le nouveau phare de la Porte Maillot. Dans un décor contemporain signé Jean-Philippe Nuel, ce lieu propose une cuisine française de tradition revisitée avec modernité. Des plats classiques aux cocktails créatifs servis au vaste bar central, l énergétique est communicative. C'est l escale parfaite pour un rendez-vous business matinal, un déjeuner d équipe ou un afterwork festif dans un cadre vaste qui respire l'air du temps et l'efficacité parisienne.",
+  "real_talk": {
+    "text": "La brasserie qui réveille Maillot. Moderne, vaste et efficace.",
+    "must_eat": "Tartare de boeuf maison, choucroute moderne",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gens d affaires, voyageurs de l'ouest parisien et habitants de Ternes.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 39,
+    "value_score": 73,
+    "category_percentile": 27,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(24.0€) + avgDrink(15.0€)",
+    "main_dish_price": 24,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BRASSERIE",
+        "items": [
+          {
+            "name": "Oeuf parfait de saison",
+            "price": "12€"
+          },
+          {
+            "name": "Burger Urbain",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Création Maison",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 396,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

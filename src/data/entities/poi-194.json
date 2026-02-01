@@ -1,0 +1,181 @@
+{
+  "id": "poi-194",
+  "name": "Raspoutine",
+  "slug": "raspoutine-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8687,
+      "lng": 2.3015
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJZ_QI5elv5kcRqHGhTRTRzA4"
+  },
+  "category": "club",
+  "subcategory": "club-select",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 593,
+    "moment_count": 28,
+    "top_vibe_tags": [
+      "club"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 4,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "music_vibe": "Deep house, lounge",
+    "door_policy": "Très sélectif",
+    "smart_tip": "L'entrée est très sélective, soyez impeccable. Pas de prix d'entrée, mais le service de table exige l'achat de bouteilles.",
+    "entry_fee": "Gratuit (Sélect)",
+    "bouton_label": "Site du lieu",
+    "website": "https://raspoutine.com"
+  },
+  "opening_hours": {
+    "standard": "23:30-05:00",
+    "display": "Jeu-Sam: 23:30 - 05:00",
+    "detailed": "Lundi: Fermé\nMardi: Fermé\nMercredi: Fermé\nJeudi: 23:30 - 05:00\nVendredi: 23:30 - 05:00\nSamedi: 23:30 - 05:00\nDimanche: Fermé"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1Q9pCADCg7Y1VicjRPvLmI2Y9W8z8GRoZmxqTdudc2WDDpf_L9tyFhi6cDzUFjcq9vzTY4hwXLr1BuwCsVPazrKYs5M_FBCi-YzJEW3y2MzrFslBsX7pzEi_FuUsxYGMpulqv1GqLWl1WFazLdSCZ3d13vyKYPdrUD-wvu3sVT2B0KGOG7Gmm65UmvRNIxhIloz1DWKfsZast1HpBcZILIDR5TvN3BxSUYTjSaork1EsNK9nz5wNM7BgBiRNz1Fhv8jQ5iodYC7MfIIIHi_otX87FsSZm3LTn3G-N2QnCsbsr_TLGlSIzvi-8ghFC253nrX41bdQ5lPbgCMQh1GjenRkd_y55pIz6gNgemvtk5pv_ewSgTP29AqIA2knpuDA1ARnOIf33uOpzKjLEw2buykoM8VdDPqAXnJuhxY8nuMJ8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@raspoutine",
+    "google_photos": [
+      "AcnlKN1Q9pCADCg7Y1VicjRPvLmI2Y9W8z8GRoZmxqTdudc2WDDpf_L9tyFhi6cDzUFjcq9vzTY4hwXLr1BuwCsVPazrKYs5M_FBCi-YzJEW3y2MzrFslBsX7pzEi_FuUsxYGMpulqv1GqLWl1WFazLdSCZ3d13vyKYPdrUD-wvu3sVT2B0KGOG7Gmm65UmvRNIxhIloz1DWKfsZast1HpBcZILIDR5TvN3BxSUYTjSaork1EsNK9nz5wNM7BgBiRNz1Fhv8jQ5iodYC7MfIIIHi_otX87FsSZm3LTn3G-N2QnCsbsr_TLGlSIzvi-8ghFC253nrX41bdQ5lPbgCMQh1GjenRkd_y55pIz6gNgemvtk5pv_ewSgTP29AqIA2knpuDA1ARnOIf33uOpzKjLEw2buykoM8VdDPqAXnJuhxY8nuMJ8",
+      "AcnlKN3fKHUUeJ2FkZCqHyAz0Zer_99uNFgcDpCgu6PxO-76IQGtIJNoxW2YBcTRaDV8Zd-hQUiBFzwqIL4NcuIdvEr2CdcVLIxy06CVIZyjQGq77AE3_v4gFTlDr2wYueD2eJzH8JNUpmcVd-BN4Up5C0F4eKYwocyt9ivEAd_334ldv3HAKHQUWO7FQUjx0K1UUfrHtv4mU37ddg1Qq3ZOPsspb2PtakP0BD_Fi_Pd5KxcaWr1SppSW7LbrKi78ZabUyWcM4z-xeHhCNDicBQBlrZdwqSDXAwiXgH42nhqI6L4tcvj3V8rYmzIezh2jEWgswOsMQTHacZv58IVLRu-oqVXBISx4VVOcIs7YU0FjF_V6wuAK_tPQnZK1mAmTTFs291cgYgd4ucE-Ulfm0dPFgkinVp91zl84QNLL3VMjVxXelQ",
+      "AcnlKN2xGI0bmv1qMzg-6mtJ5EhtexPY8inGwwPrxoVPSSWxEzlmN7XoL08jXkz7YqFVbJ3kYVmmbck1DHOkSmWrtS93D8xXJ2BRsSJgO8E-iEF2CAV29WCLMU75lk_xp_cD22GZj7fvzW8PPco37Ys9b_mO3PG2qGEF7_nAKsiw8DOeD1vi4GOzeWgwHmkjdXzfS2Cia811OOOHJJQu7klrQYM6jI5WmepQbAL1UTQiOUS3Zeb_OUlvL7YxoQudsBja_GpnhSDaOCu_PmTATFnLrMUjqbLfj4mM2ui5s-9ug_bB0C-s-UuNJzs5sCBYZgq1u0Gjo3XtoTxHwsh2nqUnzfAFKLFhyx3PUwd8d_0XGLZgvYvbdJH93mHwgYBGw7jcBh_Dtxti1fVFG46iH1IjVdoCYTGlNIsZMS0XQsy_59-iBqJnjeB-CyyQEH9i7g",
+      "AcnlKN32VzVzxpHxF77LYfX7Pr4c5MYFNFsEO4D8kNbOQzq3X9mNkeirhyheLUiE3ybijDOLJew4NMijcrB_C3vo7Ir09QbluDGFYcwtoULow49j3vIzYsd3Zry6Z1bDyZOBRx-wWfyQVdq7ZQjjmSNCYnFxXnFlgs6KR7wb6odAeOas9TbotOLuiiRWoKORfkKZIWCENIaMnBT2omtTImsEv32-2fTawPkOrTq9UDXGryklNBhJtA-kc8mQYLairV8vY3Ha0AEAaHqT4nKvA4-0bCyT_O3nL4fJ7gtt4hE5SBeDvA",
+      "AcnlKN3WNRizNkCmwfBBOpm6PFQ7QNv0d6V39Ehd3QreWdrujwVwLJXjaLehbpik6sCeQC1YFK3opkkNuX3xyyHhFfFxmP48Rkr_279GkNcWxTLJ2vNPbSEs1mRfBbgTS_NbSdg8gdBAfWeV3aBcwtMDW2xIlB_b1LFZZShDsL1QgPGLWW5VlAPzc1YxXl-IbNSIapO8BRTzb9vvbxCNZ34kSA-kgWdT9Ihen9Bv7ICmoV-8UqheKYyM1_y9U_jE7Iredq9ddFlnQ5OS4V10IslXrqzCp9_Qr18PblnVg-ce0UOAMQ"
+    ]
+  },
+  "description": "Le Raspoutine est une légende de la nuit slave à Paris. Avec son décor baroque rouge sang, ses broderies russes et son éclairage tamisé, ce club est une institution de l'exclusivité. On y bascule dans une autre dimension dès le pas de la porte : entre cabaret russe historique et clubbing deep house pointu. Une sélection drastique à l'entrée garantit une faune haut de gamme pour des nuits qui ne s arrêtent jamais dans un luxe de velours et de secret.",
+  "real_talk": {
+    "text": "Velours rouge et sélection drastique. Le club des initiés du 8ème.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_secret": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Mannequins, socialites, jet-set et noctambules du triangle d or.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "club",
+    "budget_avg": 250,
+    "value_score": -95,
+    "category_percentile": 99,
+    "is_free": false,
+    "unit": "Bouteille / Verre",
+    "extraction_reasoning": "Surgical Search (2024/2025 Market Rates)",
+    "cocktail_price": 22,
+    "pint_price": null,
+    "last_updated": "2025-01-27",
+    "confidence_score": 95,
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "COCKTAILS & VERRES",
+        "items": [
+          {
+            "name": "Cocktail Signature",
+            "price": 22,
+            "description": "Mixologie slave créative"
+          },
+          {
+            "name": "Verre de Vin / Prosecco",
+            "price": 18
+          },
+          {
+            "name": "Soft / Soda",
+            "price": 12
+          }
+        ]
+      },
+      {
+        "category": "VODKA (70cl)",
+        "items": [
+          {
+            "name": "Absolut Elyx",
+            "price": 170,
+            "description": "Entrée de gamme club"
+          },
+          {
+            "name": "Belvedere",
+            "price": 170
+          },
+          {
+            "name": "Grey Goose",
+            "price": 190
+          },
+          {
+            "name": "Cîroc",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "category": "CHAMPAGNE",
+        "items": [
+          {
+            "name": "Bouteille Prestige (Standard)",
+            "price": 250
+          },
+          {
+            "name": "Dom Pérignon",
+            "price": 550
+          }
+        ]
+      },
+      {
+        "category": "SPIRITUEUX D'EXCEPTION",
+        "items": [
+          {
+            "name": "Casamigos Tequila",
+            "price": 650
+          },
+          {
+            "name": "Blue Label Whisky",
+            "price": 400
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "google_rating": 2.8,
+  "google_ratings_count": 409,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "poi-040",
+  "name": "Fringe",
+  "slug": "fringe",
+  "location": {
+    "address": "106 Rue de Turenne",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8627833,
+      "lng": 2.3647928
+    },
+    "google_id": "ChIJ57HSHAdu5kcR_omNfYABNwo",
+    "nearest_metro": "Filles du Calvaire",
+    "bouche_metro": "Sortie 1 (Boulevard du Temple)",
+    "metro_line": [
+      8
+    ]
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 380,
+    "moment_count": 21,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "google_maps_url": "https://maps.google.com/?cid=736058715472235006",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 17h-19h",
+    "Horaires": "Ouvert tous les jours 08h30 – 17h00",
+    "Reservation required": false,
+    "Lumière": "Ampoules danoises suspendues (Lumière chaude incroyable pour les photos)",
+    "L'Art": "Expos photo aux murs (Change tous les mois)",
+    "Le Goût": "Kanelbullar (Roulés cannelle) faits main le matin même",
+    "La Faune": "Photographes, Créatifs & Anglophones",
+    "Le Café": "Grains de chez Lomi ou de guest roasters européens",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Prenez-le à emporter si la queue est trop longue, le Canal est à 2 min.",
+    "signature_drink": "Café Latte Art",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.fringecoffeeparis.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHr09Wp_louWkxLGnOc-EMlvrvEu0KbJ1_mqxZEbkBdRxk0vPy5soQYcRFiIlzt3y1z9Or5Ct6S2AySvXHnwqqYgWQOklBiuSrvAPd1esBgUsDLCZGjdaY3qZNCnxAZ7R2RosTQu0aRDxP5jrJ8q3lRittOOnlUXhbO-N64rSX0zVsCuATyoS4hiBdLybvykdVUlqaLnjCFl9tcik5CqnckIsNIP6-UpEOISksVxNjH9OTNEpW0f8YChWod8CBq2yGZ97kgfIREO4pke_W5PX5e7O2SxpoD_kGqy1IViYWw9LA",
+      "AZLasHpETiBGg3XnSvjQmKvFHJsqVMxIlemEAM6iQHISBpgS9XHI-ekfD-Qtp5VA_2if8luwDGf2yMXpjPBuZ6u1kbNk-_Evfdl1KUQXcpJRBfYkj5gHlPIsbQPhrwoFurFAAasKHB7169nfzsBkxShKdTKETgFJB38j-4yhHd9HV7X_JCt118jNxFcanchX618bsJLZGUUOulaakq-XImoqdLvsGqm4B8-nTgtJJgnhN6JHndcGdXRuY0m6O9qlCI4jmoA-oUQZaLjgheajj8-DBCnM-7DaXgjJDeupDwa3nuvSGA",
+      "AZLasHo4iXzKtzYylBBdMTChcGhyWmbBinICO2eqhs2UFep1mlwNGApse9jZ4B9rwiOB5gsXmXVFyrqZTpNc8bcK5tLUtHBAfnIhyIeRNZMqlz48R_DDyW1fQ687diAqUIsYb3gzZBKUprHEJ93VkMecWl18bJ6xlGF0xxlPQr6IcCXPBY2LHmzBXD9nZ4iNulDbgM5LPNyKbe8M9q7a0Zl-KPGO2YJJjl2MQbPnmOst2-F46B9W-d8K-sys5lu7A-AOLH6SabVNjwdKA3Umr6moSWCbU0SolcITqMdEjZ2PLmV2FFnpd1Eyl7AjhA0qSO86Y9cpaNaZ3IF9Ezqv0O1C89t6Jj15CDC7D-xaKNuPmAEhxPWvKs8V9TMaEo3X-6QdM26zuhfQ1R0gNF5IqqLYRfTibqKUsvnOa-_MdFi7vO7o2_uJ",
+      "AZLasHpvjpo2GX6buvaNj-q9wFETIANwhEzadLIwcwJjyalEgfnMPH__YdoFsIWewUm3DUTCdXgYtwjrhRWgOJdTbdI0nD09gaU30rURHUrE23JoYIcXEORyLwf8SHX0ZmelY2A_SzpDUCgcHNUUqEiHIrl9ePvbbdKmklb8IeWcqW4gWjimOWKxGFxmJyQHyLpiFa4n6q7wAQZaIakveAnpkcHmIPHTKRDX4qk4622Dd_POYUih5HFQMAbH_H4tIEHPKXNW5GKcpdHjeq5GX35xDI_3a8r4hBsyUyE25ytQNjZ1lpfJEVcLzsBeASXa5JbxqWGFaykr_TPb3rwrP-ScKcpQm1lg3zCs1t5KN6YUG9DVrf6mL4cW-HI1YqzxpnGDU3XxvITcmp7p3WmkMeOFfj3uAP2s6_kqH_Szy3TFa2Kg5g58L0Y84tadp-CF7g",
+      "AZLasHqhkHgYD4NFHj4zbF4LNVJggpiZGrZTz76PNuMmGrW8j1RqE7KVeJZ0txPQcwXhQEjreehzN4eX9Zf5ay80TK2QgasU2NutEsC_IOTRPaxkg7BBvROG-K-6YDEpZOOCAHE304jK3OSj8BGxgn1Qbs3tKEVJHGNhWmEkaJAlgg1NEga-2zSICzY9qTdbb39UxBeseCkJdySdaKdKfvS_9tmXEoLJ7_nxngFJLHkebKi5LegJqai6tZVJr0_b8P9vvvEiwz0_OBw85GjotpQpq9ip4oF1gvsfpCBX5CIYMSK2JsRz0Y3cCdc2-2sZmzGqci4V5TLu0Zv1y-b0Kgd_yHadQ59fqETxuoycaOVFRjI8bQydgkpyp93HNPn5oETAX_M09auen1Ds6X45GC_BVPmpop4fBSdR0fESBRXWt0ajow",
+      "AZLasHpYMgVfHxlrA2d3-iP7bfOJ2jdT33jYHLDFeccv6GN3NMc4MhbJG4VJLhojH_bQuXxI2x2cdfQCiQDpsCIrao5tBvRTn5ue2H9nChJSAPs2IKA0g5EdkhbQ7vFU3EAdx1Lt_BiwWSvhruDvP2bLwpqqv1L1lYW-gyA125AWnxFCI2Eu9r8zx3vIIOZGT4C6uRec_R-D1zwl2v_Qf6h8IFNORCTlG13Al3MFcifK1C7a4rk6JZfulaPiUiwRJoF7e11dE1D8TVCs6PIVOYK2pxHKn2YqYjjYMBTULKMWhCBP-Yr4OVAHsuN8E_J8ex2KV0bpjo2fQsAxeG0lo3EAXZ3YX94Oqot2Pp34eYBYF6b7oTTVq5Xh9C8QClS0lbVpkIfNxXI-Up57JKRXF-yQUrj7sY3bHPcpF6cmshixLuykrCWRT48z4aACwfDvjwHL",
+      "AZLasHoUh0jVI1HhrkT6jEpxY4uJ0NxQ4ZPJfCUHhkfeqSRaghM2Srx34ze7YjVviJ4Y9L7EQHsNOrRsrWZC5N3W93jB_uT_jaMCk1TutnWbzc1c1Abd1N4Q5-nFcja1mUv7eU5LgGCJIPy2Mw-3sgz9LinIUj7ApkB6M2Rj39mViLXdQdEmzWCwQHOHtpyVNhRyMaKGfd13JrHn26AmHQKbzi5XJ6KA7_jPOg3PDCMeYJI9Op2NvbE1q2uLupKAi1cyDePtX0l6PZeJ_94KhxWEs1PU1XLrl-8khOU4IbwA3jOHouJsz0pbN3p8-2BawT1grXLezShoDBzQXz_xTT7xa0pjlCmBOo0Q0Klzet6jZ9CBGIWwCfOmDFtb1Rx1-lMNBKpYBg4ai1vOav3H1XxaB5xQekf3EdOHaect6__8UrRO0BX9",
+      "AZLasHpF4m5ss6z9XuL60-X1Rz_dktA6IJRi7wYTH2RkrUTjZMrRF6ZeVPlahlVt-W9JaXg_B3xhuxKFg5UUDXDCJCbVoih5pRDKM-LFgK0SYiWH7M90YUHSzkEyZK1iPX1IBjj3Es0mdyXmxnaJ7PQIUYgdJFAtod9DAVMf21gHLGr83vzTKhQZ7mJMuptSnX7Befit_UySXLZkuTnCvlVONCMBepFxYo3Z2Rtygq-e-tdn9xYI6jf9eHx0x3CkljfjvAKuFwyRZoTxVGCJqm82A1nNQnvfHp9bs73UcMpbNjJAXCSwBXkkr_lXkJVS3tbi05SGAumYGLnkY7fZFNedcN5pl-KuwY3QSZknwilPLWmUz7W0pEPCu01C0lYuhl9fMSYVqx6USJs3q8DG-uAk0QHpBRwIi6gUWQyOpH3-oWW2INw-",
+      "AZLasHrEXh7mRJS3F_Tb4TaCgY064R5sCvbM6q2qpk5jaQCWGi4mn_-0XNrYZCdoRKYTNTPw6wMesVzNKz5qSRmgTENYN-r-4_YrU_Wr_TYRtirj3vFp5TpQMdz1XLwnYm3QzZZOZfbErg4fjObQvnRgQjLs4SEfcWSA3MmtbCwxLuY7ItULlzE6cm3Ur1hrC_1O1bX7g8liksIwkXOLTk_tbVYYGwYsnlTRSqJ6whdZSMK2-v76svOXLJ6ZPIZ-q90UOzlv3fa7kjj0M6cBezX6_BbU5J5-ZxqOQ2tjCS2F2cTHcszF0NRIwb6e3G7CuU0tVCp9_XdQLvO_PXCnBAA0OBMTclkOb0i7sYqHcCftr4UGEztTfjNEPTl52-4VLuwa7IRGrb_KCRnRfg2Fvq0TOF4AVWFaJ6qX9UNDb4e_PLINuoU",
+      "AZLasHo2DcUf6BHyDIvZ9wI7iTilEkXEMuAlQf1-B2aOgh8uCQY_bELM5O9Gco5Y2KA-OcyS_rMGNgGyukXv9w69ScatFiTcfdYEZpOtzUWgo7QF1K1o5mJduaVuKkv_vu8e-UIm2ivhdbZnkoBtPXFVSh3-Ra7bjbU9I_74uOF5Gd_vc5D39qTaT4FwVdrysJImJXerVTMI08Oe1KOiSKlsE9n4BOUCymvT7DSkqBtGa5hUNOOw0z7pD9yPmgH1a3yPS7ZMl0EhE_T9upRwEGlOKlYURgbwMcyV6BnuYe3-TF0eJ_VkYeJ4ipCJqUpolEajyfn2OPV4Yfqt9DoR6yArU-6Vz7LCokMnIWxebNOpo27BY_pimdHidjRjns_ErwVnbkAA1faN_Q1uhOifhZ5bXnL8eGakC5nqZJ5EWNL77JRDARg"
+    ],
+    "instagram_handle": "@fringecoffeeparis"
+  },
+  "opening_hours": {
+    "standard": "08h30 – 17h00",
+    "display": "Tlj: 8h00 – 17h00",
+    "detailed": "lundi: 8:30 – 17h00\nmardi: 8:30 – 17h00\nmercredi: 8:30 – 17h00\njeudi: 8:30 – 17h00\nvendredi: 8:30 – 17h00\nsamedi: 10:00 – 18h00\ndimanche: 10:00 – 18h00",
+    "is_open_now": false
+  },
+  "description": "Un coffee shop qui prend la photo et le café très au sérieux. Les murs sont décorés d'expositions temporaires de photographie d'auteur, et les luminaires en forme de nuages créent une atmosphère douce et rêveuse. Le café (de chez Lomi ou drops internationaux) est extrait avec précision, et la nourriture est saine, colorée et végétale. C'est un lieu calme, propice à la réflexion, à la lecture ou à la conversation à voix basse dans le Haut-Marais.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Créatifs scandinaves, photographes et amateurs de slow coffee."
+    }
+  },
+  "real_talk": {
+    "text": "Le spot 'Coffee & Photography' par excellence. Ambiance ultra calme, lumière soignée (ampoules danoises), idéal pour lire ou discuter à voix basse. Les pâtisseries sont aussi belles que les photos aux murs.",
+    "must_eat": "Kanelbullar (Roulés Canelle)",
+    "le_secret": "L'espace est aussi une galerie photo, les expos changent souvent.",
+    "le_son": "Silence studieux / Jazz très doux",
+    "le_must": "Le Flat White, servi avec une précision d'orfèvre."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 7,
+    "value_score": 90,
+    "category_percentile": 20,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3,
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 5.5,
+      "label": "Flat White",
+      "source": "standard"
+    },
+    "fair_price": 5.5,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 1115,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

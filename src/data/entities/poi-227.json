@@ -1,0 +1,140 @@
+{
+  "id": "poi-227",
+  "name": "La Recoleta",
+  "slug": "la-recoleta",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8828,
+      "lng": 2.2982
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJvTLl3pBv5kcRVnzsLT2erP0"
+  },
+  "category": "restaurant",
+  "subcategory": "argentin",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 450,
+    "moment_count": 68,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Malbec de Mendoza",
+    "smart_tip": "Leur sauce chimichurri est faite maison et change tout, n hésitez pas à en redemander.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.barrionorte.fr/la-recoleta"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3n9DJ_oLfYV4XQah1smpepe_zCfDg-QTb0wh5-DPhgYf0bry4TYel4XHtWumULPED1f_VWaJFHWOSUujNewbJEF2Ag1EmveTMItCbM2N76uxrSMx0jyWNhSTTl_Fh4AmsJrRtL3raZiQ_MlygITjUvALGuSr1Ut2gfpVrBLtpDLG6CD7C9TG3OipmmAUnpk71UDZ1jXWsUBMWilS4YSPpUK59eg0nacjeZZgTPXFpm2RrET-w2qVrylg2nlnIpx-ZAuqJpqesG0ZVkTTl5BOsFyS_YmiPnNcOSnqBIvWCggg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@barrionortegroup",
+    "google_photos": [
+      "AcnlKN3n9DJ_oLfYV4XQah1smpepe_zCfDg-QTb0wh5-DPhgYf0bry4TYel4XHtWumULPED1f_VWaJFHWOSUujNewbJEF2Ag1EmveTMItCbM2N76uxrSMx0jyWNhSTTl_Fh4AmsJrRtL3raZiQ_MlygITjUvALGuSr1Ut2gfpVrBLtpDLG6CD7C9TG3OipmmAUnpk71UDZ1jXWsUBMWilS4YSPpUK59eg0nacjeZZgTPXFpm2RrET-w2qVrylg2nlnIpx-ZAuqJpqesG0ZVkTTl5BOsFyS_YmiPnNcOSnqBIvWCggg",
+      "AcnlKN1qPPOBu_rQSsuu4x122z2Ff35GekSPatHIKvTO1H8p7_BFbFMF5ZcF6LSwxfbNB5T__EZ8ZHMpDVb04N0yJ9zb4K0LVCeCMepxdrH5YQcgKPs5iUowXAc5dbE_1VxIg4cQ5x8eRzUsraajJ9BZxiKfD8mCNZOgMlaifHffcV8gsIps_2qRVwq_Gsq14BR5Hg8U3DSOXZEz4Qv6dgva7bDMpzm77syg1okzDNHp5a53DyryxNMXHQhDRR-WnR3ELgnZeZacQfCa5pgVOaZy8UbASj5jF2SAaSUw5h9vj8ozOw",
+      "AcnlKN1cH3E_0TAC18_btTrJ1qHjxQKAkb6-sk2cd2Tm8q7yjQRRsJyrlUShvOjrLsGZqV82ZyN5ZjhWgXmtulg9aYtHjs_vZd-FFx6IDbo7otDu3MMi00g9ubxq97gOxQfy8GcJ2AmWbzd-ZSOmuTdAJoDI0M1buj6oS2ME_JH98g4B5OcSD8FepyUb1jo5QQv2HNuGPI5arDcrSThZF2ctP9Eo_WzBj51Gx6nzMSEQm-RY_bqlwyu92ztT4EeIwIGgDD0Dgf6F_q6r13ks-rwxdAel6R6z6v-oKzKcnl5Si9AnhA",
+      "AcnlKN2y7Gy2J9hScp1y5UH-zvKJVd3W49yuMbdkFcUMHlBywZxvjcvdURqxiOa2WGpaNYVrMcxd3Sx3hQtHCQAgDq4ZUnVrQYHvgdAbJvtNrJcqtzaW26LyjdByfRZJ8ddN61M3imBCfhH6VooiyopFdBNIyyUyaAEBPp-h7ddo_x6e0VyLHGKodUSRpR0m6vgHbgc8W4j0z56cYYmFq4SaB2a-cJkpDjHW14muY1itPgybfPXycenIwJ_rFzojw4JjRqLJxpFucOMOSTkBoF1mzSDRzQwMyZXpElp6IgVSl2OxVQ",
+      "AcnlKN3GZrfMnf11rTvaVtf-Gu0mik3KWukIsOizzasBZq1sy_3ey6TOblPxOpTAzh2wi_W2DOHWWldnPQaufEYW7KOsZ5Y6qlhHFVyMP3ACoIIuIPNhLRiEvoSllhH5GtGh4jAP1MzHan1eCj4DfnbvxjXE_OpjoECPNjO4ZeU6QFtnCOh4EKIS9MPrVRvsv5OXjDZY7pcfc-isu_hFpNS5-cx0WpzDaa27uYGu7EUCDbsEncWtww-Ac6LikpbWrxYsr7MnVp4IKbL_tEc_gdJfL-Q8BmzO0XYGOQRwtokgv4boZNhX0a5jPiswr5wpv1fZEzPdFiwVmm_fqAvX5xnUR_AxrqqhqM_aQsQ6f5GGynkSprT03CmxM3mn1vfw_kBzhyUz7CQyYyywQm38G6XZTwzIpEJlnviSWbuRo4pWAkYwrqiavnSBrKO1LS9p9A"
+    ]
+  },
+  "description": "La Recoleta transporte l'esprit de Buenos Aires sur le boulevard Pereire. Ici, la 'Parrilla' est reine : des viandes argentines d exception, grillées au charbon de bois avec un savoir-faire incomparable. Le cadre est élégant, boisé et chaleureux, rappelant les grands restaurants du quartier chic de la capitale argentine. On y accompagne son bifteck d'un Malbec profond et d'empanadas maison craquantes, pour une immersion carnivore et culturelle d une authenticité rare en plein Paris.",
+  "real_talk": {
+    "text": "Le meilleur beefsteak de l'ouest. L'Argentine authentique et chic.",
+    "must_eat": "Bife de Lomo, Empanadas",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Carnivores avertis, expats argentins nostalgiques et hommes d'affaires du quartier.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "value_score": null,
+    "category_percentile": null,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 21,
+    "budget_avg": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "PARRILLA",
+        "items": [
+          {
+            "name": "Ojo de Bife (300g)",
+            "price": "38€"
+          },
+          {
+            "name": "Empanada (l unité)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Verre de Malbec",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 680,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

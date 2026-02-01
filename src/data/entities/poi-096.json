@@ -1,0 +1,167 @@
+{
+  "id": "poi-096",
+  "name": "Istr",
+  "slug": "istr",
+  "location": {
+    "address": "41 Rue Notre Dame de Nazareth",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8674128,
+      "lng": 2.3575347
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ38NQwg9u5kcR_BHPw0V7BDE"
+  },
+  "category": "restaurant",
+  "subcategory": "seafood & cocktails",
+  "mood_scores": {
+    "chill": {
+      "overall": 7.2,
+      "criteria": {
+        "noise_level": 6,
+        "natural_light": 8,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 6,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Sophistication"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "45€ environ",
+      "display": "Horaires non disponibles",
+      "detailed": "",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Carte de vins nature pointue",
+    "ambiance_vibe": "Néo-trattoria chic, lumière tamisée, musique lounge",
+    "smart_tip": "Un spot idéal pour un date qui veut impressionner sans en faire trop.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.istr.paris/"
+  },
+  "real_talk": {
+    "text": "Huîtres et cocktails : le combo gagnant. Un décor chic et moderne pour un apéro iodé haut de gamme dans le Haut Marais.",
+    "must_eat": "Burrata fumée, pâtes fraîches, desserts créatifs",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Istr ('huître' en breton) réinvente le bar à huîtres traditionnel en y injectant une dose de mixology new-yorkaise. Niché dans le Marais, cet établissement lumineux au décor soigné (marbre, bois, touches cuivrées) propose de déguster des produits de la mer d'une fraîcheur exemplaire accompagnés de cocktails créatifs spécifiquement conçus pour se marier aux saveurs iodées. Que ce soit pour un ceviche minute ou une douzaine de n°3 spéciales, Istr offre une parenthèse élégante et contemporaine, idéale pour un 'shellfish & cocktail' entre initiés.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2gih_uezw7RucIIgFyMdCXec4ZuzGQDagPeRulb_jXErScDCZjS2Nsfv3AUjDyXnJ5qt7i73vgyvggBN5e01jTe6sgr9HGbVQAE2p1-lOQJp42lbLmlvjDRcVB5cOERh1QyD1vh-vBOx-RVEBJ-IQGTZpmgCOCuJbz7-RhqYCyrZ4aRnQCk1umzOq4OABYmWD1rU-6WG2X2YwraXMcfNjMr5B0RXIYx4JXOYEZmkjSZtW_RUIt7AyS3riBkN7ApH-YiuTOwSbonWBJAnRJEFuNEx4PJlnWdaxRHH55kcgOlQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@istr",
+    "google_photos": [
+      "AcnlKN2gih_uezw7RucIIgFyMdCXec4ZuzGQDagPeRulb_jXErScDCZjS2Nsfv3AUjDyXnJ5qt7i73vgyvggBN5e01jTe6sgr9HGbVQAE2p1-lOQJp42lbLmlvjDRcVB5cOERh1QyD1vh-vBOx-RVEBJ-IQGTZpmgCOCuJbz7-RhqYCyrZ4aRnQCk1umzOq4OABYmWD1rU-6WG2X2YwraXMcfNjMr5B0RXIYx4JXOYEZmkjSZtW_RUIt7AyS3riBkN7ApH-YiuTOwSbonWBJAnRJEFuNEx4PJlnWdaxRHH55kcgOlQ",
+      "AcnlKN1PbSbFOo_eX75xPBRVElcl2LyTNPLpxiObedEorTHdKvXPjlXyQGVM9BiGEH0tHpo8d7m3x2spUGad9Ugpu8WIhodWtJA2GC_qpf2bb_9Iwkfm93gCdZfsceT8xU8oV7zlRnBnDEuh6aPnfpE4kJrUkvHjhQyJFX8ELokSwnyqoR48-gfDvys1H3OFmhyxkPK22EguolAaCkfnEc99pcVhu6mJxjQ6ZH-aC477Xhvwb48rbITATOMUzj_VBsI3J_Ui8X9t9BcXrTtOhQSdLp1OXOeU8yF8OvKl3LIKUXrOgQ",
+      "AcnlKN2AIee3sDtlvjUy-N_Iy7lYsqWS_GmcXccAkWgauSFZs49dqsrKW0nRoXuurp1aCnImv5vGykhbHpSjID9ncCx9cuXEtAcpCDvlnSZIB_INosYCbbOC9vvqG9znHrX-19GFOVMNsJP7alsXUj6zBY_M2DRuvj1Kvq-CKZA8VsmMYx5vQXux-BE9rmay3bfbgVI7ogcQXFP_CcaTyAY1HXWQAlWqQXS0RzV_RQ0KHVJFCYzwYzvVj8rBFaLEHIs7LidcQIur1zAJ7wkoc2LG79dAX-u6q0pvRs9CX7FW2yt9CX938j-_o18BsarxZj4mnDxfk-L7R0oA-K18AOJz18KCoVIkou-cn6WDoJACHrnB47i4GI5k2mvJ1hytOYiPQ3OPfz58YSCYAu4AWTFoULKMRyTB4m-EVUWrdg5gnRwFmg",
+      "AcnlKN07K3akU-c-zmkpWFuHLdc7qDbOrUgbCrnYAzXN6orkPPNjNm-eP-rxmvDJDtg2g0onqhWaHPD3nPYcy5qkF8FejEYAyn--ykrvm0ASQuElWVN-LIb5lK4wCCLE4zRMNBJeCstL7HVw4nwV-g5LRERgLrqZFuGgcP5LqEzBoP0dviVQz8HYOoQeWeeNp78xYk6NQp95KWZ19PhBOm_saRqKQ8clubY2rfGIn0OHcK9xPXMI_h80ZmHBngTF2aotq51PxZojMqssCfECcPARRGZlGxTd_GAfh1nZ0R7Ep7TJ5w",
+      "AcnlKN2sGYx32Dc11cbdHRG7Egqg6KZdEgCq0pd_WyD6NK1eqlHGTTjeB8XkoaOdVkd6ddlSAv5qfNTnjoucL35h04BdSbZOe4k2LUckZ-qYXOTGtyAVZ4j7JRZsVKAYtMs_CjH4KPyNOZL0QoTDwEsc19SY7x4oXjgl-gs1D_m78NjJoxMMQ0DYAqbX_FYA_vAQZmPBnb0-1FhnGA7m5dnUbT1oOp3iBHtHYJ58isErBi0LVV2oMu8PWLug7sDpE0fQMQmwZ0ojkrG8rtm-g-U12wkqoWaMOEp3rX_BEE7ToeEM_gzF6GT7uhLfeun3MqavkrVInBl8Kt28eex-pwRJASBXUrDhUXMsSaTbebUtadrUvvIguLlOs5dmgnJbE-00i2LOKH-pab8dY8jXofKaxmixPpFWBb4GlyNlscPn1Pc",
+      "AcnlKN1bRZdtv1MX2hPo-sSlwtgOIVWf7W_lijghehssj-Dz6m90_LdxesI9c6h0pBxRstm4VsVWzMR-3zKDyaySIUhaTt-7-N0e-6_wtey0CeplcR-5hkPIL0hQJV3vxvu_mYgf33NExD8NCWgN8cGynJ86_hyHH10GPDZZaiCytDfASSHcSR6EP3KvGZeUg6oOOqutFQ1Nu6OBfhUYM02wjFf9a2jpb9_Im7fIvyWd0VLCbkW6eJ3V5_erbBq-yMu7SVKLcDfdY-rMn62iVhZqL1vckgUUdDPhQRch6D-l4kxV7tTkD_IW0pE-TfEZtYP1sYTiE5mWPCNGPJT603UiFHabPthRLNkDLVICC3neR71xjqY9t9JAausSwRbQkxIFDcepPtC6fw-GpEEHQUJuSGgNV1gDvsDbLR18PbTJ4DYsD9uZ",
+      "AcnlKN3TGqr1k2byCAC4y7_f1mi0OsjYMM2AkEmuWA-o0x05SmYs-zJdo9CIpcnxJDQiOQ1mP3Wk8pPt88RHtEaaSe8CGoh5cgfKENmkYHxkZa72EGEwtnAJGmLyHTP1oeAnKIs7Bmj6XOYiGKvXqtzlD52VFuxfS5dhKvSZKnvanl90OmjO-MdqBmUiHpTbTYFWLxhPRjdjokliAXA0R3Sti6YxsPQCbc7VFazRAmOSrgZQiERrDOd01UHuKqcyU9y0C7BnUzqNMl0j7M86nqkUMtOCusHqmg0sG7umllTjX_kBf1xxu5cJ3fZUs2hQeNY-Lgl6fZM03qjXS7yaB-h9P-NCMx7mBo1-LVi_wopCceQMAuTln11_BauncMQo6HXVf6WguSKsNuJ1fJw94i7vz8caHeKvDXW50H_az9OCgmLwDSXQ",
+      "AcnlKN0q11QTotK4PfQRm7DOo_m89EwyXgxioB4F9fmXTVkv7bMZf_CkaChmW2m0t8AL8hgTmt7zhmEzscKTGOZj8vURhvUqTbCWzc5Oj6EJtyMtzoAiHEw-fb9hYMjvqNnjdqXmg5lmhf6-_Gv5GvM0k1nh-bN-TlYi5YJDcL8Ci_Wl3FaWDWDGQ6HvgkgywYvgQwBngpOAQGSonn_imUth5h9BG3GVwEMIPWs8SRidqAHWJ0MEvDxO-jSK3iyZejohUovFyrJD0j6yYGNPsiTOMRtjS09fhMeEn5GTeu3XdsbHeA",
+      "AcnlKN1o1clPO_k0ciHA8c4RU2PmIlfmvzOckIdDySoQoszhpRVR2pjn_bNhiZLO8J5lB2ungDQg_BimZpoMHdEB2Ea9690Luj7rQbEaf-GdEeuwFvkWCZzfkmskyKwI1Siny937GTd7OkNIssEmuHcn_Jj3RM-AEZ5pfX8uYHWsIBs_qaaVLwWQXsb2QcJRuw4kUg3kVAiNQZ7WhMFpp5HSSFrJBV1fm-ryLnbCg9_cXvoaTQeY1GYriHwGgDGfyPUHolAGV7EP7yFjFChjzXDWOnfx5GG7nP3LRQv1jKKexLASAYe16ri4jWL6VuK84nlZXK6idVsqyobGy-QVimuAYWQJJFSwT1xkkkdXFBv5jsv_-P3Qs3HyvXkQL9wXQRwJau6zz1wa7_DU26Efbnf4CgZUfnTdBqqpiYOdyENABpPWjaTU",
+      "AcnlKN3X9E-0oZokXZYehhLmvd8fN7nh7lhqz7anf4JOS3tcdJBH2Gxv0MsJ89w4IdhCxj0v2grmMDvXjw52-6_GQI_zj9SSgio_ddXzII5mvUaIJSk_OeNTpUXr-LpVNI-ZaZOBAIlAXu1ATC4O47q-umCz8Q6umlSUGQfZ4Jebr4t3cC9J5--9lfhQ9fESMknVTyebAZuyB7i3eelDCBi9Q09Cy0MToBnMhncR5RgrDbpwr_AY0YQu9oBUWma8aRXzLvkypAVWncHR2vexHL-upU7dqT7cmhhrb-9fd-kqIUBautWEun5tRzBAWx9Oh_5nEH5JSPA90FTRqq5Iteq8ZmL4XiCmXbC3ExwCgIuYSbveNIilNFOXbbjGUV7zlW8YBDboftrQIwG5shBNpi_PqsZv8FiHDMHR-QAuBFdc5g21V6mV"
+    ]
+  },
+  "social_preview": {
+    "like_count": 747,
+    "top_vibe_tags": [
+      "Cozy"
+    ],
+    "moment_count": 48
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "45€ environ",
+    "display": "Horaires non disponibles",
+    "detailed": "",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeune bourgeoisie parisienne, groupes d'amis trentenaires, rendez-vous galants.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 28,
+    "value_score": 80,
+    "category_percentile": 20,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ÉCAILLE",
+        "items": [
+          {
+            "name": "Huîtres x6 (Cadoret)",
+            "price": "18€"
+          },
+          {
+            "name": "Ceviche de saison",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Cocktail Création",
+            "price": "14€"
+          },
+          {
+            "name": "Verre de Muscadet",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 747,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

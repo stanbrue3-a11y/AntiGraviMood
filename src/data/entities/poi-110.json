@@ -1,0 +1,175 @@
+{
+  "id": "poi-110",
+  "name": "PNY Marais",
+  "slug": "pny-marais",
+  "location": {
+    "address": "1 Rue Perrée",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.86377299999999,
+      "lng": 2.3626017
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJXxTx-_9v5kcRfSDU80Xc2UA"
+  },
+  "category": "restaurant",
+  "subcategory": "gourmet burger",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 24.3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 9,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "22€ environ",
+      "display": "Tlj: 11:30 AM – 11:30 PM",
+      "detailed": "lundi: 11:30 AM– 11:30 PM\nmardi: 11:30 AM– 11:30���PM\nmercredi: 11:30 AM– 11:30 PM\njeudi: 11:30 AM– 11:30 PM\nvendredi: 11:30 AM– 11:30 PM\nsamedi: 11:30 AM– 11:30 PM\ndimanche: 11:30 AM– 11:30 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Milkshakes épais, bières craft",
+    "ambiance_vibe": "Diner new-yorkais chic, banquettes cuir, musique rock",
+    "smart_tip": "Leur cocktail signature à la poire est une merveille de douceur.",
+    "bouton_label": "Site du lieu",
+    "website": "https://restaurants.pnyburger.com/burger-paris-marais/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website"
+  },
+  "real_talk": {
+    "text": "Le burger de haute volée dans un décor de diner rétro-futuriste. Viande sourcée et ambiance ultra-cool au cœur du Marais.",
+    "must_eat": "PNY Burger (bacon, cheddar, sauce maison), frites croustillantes",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "PNY (Paris New York) Marais est l'un des bastions du groupe dédié au burger d'exception. Son décor, qui évoque les diners américains des années 60 avec des touches de turquoise et de rose poudré, en fait l'un des spots les plus stylés du quartier. La qualité est ici le maître-mot : la viande provient du célèbre éleveur Le Ponclet et chaque ingrédient est sélectionné avec soin. On y vient pour les burgers fondants, les 'Loaded Fries' au cheddar addictives et les milkshakes onctueux, le tout dans une ambiance jeune, dynamique et délicieusement branchée.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0uxhfnB4ru-DrLzlBW7b8pK9_vdFPyuMFfYHN_znYpJWx7CwNf2eyNoeVcfNy9u7r6i20EognSpfm11-HCKzVN9lxRRIcfNkSUNEs-JI_2BHcb6YBHWc0nYj23U6M3u3RN9mgD1Up5mXbqhGe-PM7QQfEgNHL1BrJ40ya02Q1DbpOpcYtATWTgBrE4NSd_u8yjfQGFCD_Bpnuew3p6rBdQ1eYyewADvL3UizAcCaIq_Rur4vjki4UWGy_mDwBMTzrTqq0b3d7xF8T-0fZ2PtcOCINFdnxyBNLWRxi-irV9iQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@pnyburger",
+    "google_photos": [
+      "AcnlKN0uxhfnB4ru-DrLzlBW7b8pK9_vdFPyuMFfYHN_znYpJWx7CwNf2eyNoeVcfNy9u7r6i20EognSpfm11-HCKzVN9lxRRIcfNkSUNEs-JI_2BHcb6YBHWc0nYj23U6M3u3RN9mgD1Up5mXbqhGe-PM7QQfEgNHL1BrJ40ya02Q1DbpOpcYtATWTgBrE4NSd_u8yjfQGFCD_Bpnuew3p6rBdQ1eYyewADvL3UizAcCaIq_Rur4vjki4UWGy_mDwBMTzrTqq0b3d7xF8T-0fZ2PtcOCINFdnxyBNLWRxi-irV9iQ",
+      "AcnlKN13uNEtw3YgoHZbFXIXrRQMBqjH_znA_jUIwISe7Xi6NXiE_bI-HV83mueagsBzcPN1PHzeYGw2V20u0KP0ScHMGemLWLGC6LUWfiDiGy3aI71OjrGG7DAGGgopS9ia2x1fB4bO739gJilIuJZeflk_oJ4f7xGSM53tUIjJhwxmhqsISwhPsGwye6PX6ECesAjwI4JCI2i_0nebNfEXS1-rEb9YxQH9qUtd2bDxspeBY03i1v2wKPZPyyUsIxsEObI8UAH3BmYASHZ8PkCsRlEebCTWCHEMhU34NDVdlHqOag",
+      "AcnlKN1KiZBpZgtMqBDENdrF8dvDstNRONT2d3LtW2HRZwVnPZZipTikUTznrNr3MmhzWaUUrpvvxlOQPgAlIZzC8MjfxSNwU8FixqCO0x6SGdeTQqEsY1bZZUYR6FLmBi0mgg83GeQK-ybBr2nhtJDsZAUhYYqnKtpFoALt8l3klaWSSUTUzXkz6FzQbx4yEkw9e8RkJskeiUfR18Cb-3ZMMCaHsHdrst2rZw6dEJztCkS0ghGs2LaXdSjRlzhK9klut95QOuW03Ks7kPoJx-bM03zNK481OemaNy75QF76uJwIs7eUPYvp2YEdlLT9zRk81aOcTApVVX20XJbEn-j7eYhXbQ4w5szYDWc5xVpYCHy4Priwf4eI3xB-bY7MeqsgM5rE_eR4rNxRDA3Xillfxeo3_QyJLqtKYPlwyeTxLymX2Q",
+      "AcnlKN2LBLEzZsotS3IHLVVrj5U2HxF5wVldaPwBBLLPeVBtjmaaKUm-eg447FXxq_W123xIjaccRNkjDIDpAbqNSHia1JDvuyqgROmfHfXJHiJk2iaY4q9RSCpJOSMB6xvnfNlpSgcZF81r2REfEsDtpyf4R47QKY8wxAWy7fPGr8Nc0VdOnAP2RhXeNdBGXlG6VfcQgSV3j0R1ktVJBD1BOQ2GKD2EgQmTUjJjfEkMBkiqTAFyqY0bU9uCqILHPD8hlu3QJCulX6-aaVBHls6XGGIs-TcW_q3y97CqTdhxGvdJbmb0YHnd9ifz8gv6iE4i5sPJnlDo3NDsWETwzrjB6_hzrtJrI7TdlVg5HdBnAJnYPoOW1QUBkzZZPvQBQtHIK-oPv27n7wVRr4P2AmV4KIBicq971ph9Sc05fJPVFvpcj3x_WzxjixLqhY0OzJAQ",
+      "AcnlKN1gLWWR5jpCMOB4lI63OyCS5o4fBXSHmtEkSNZNsBkodf8-pcROvMZnp9AhZQ47kLi1rRyEDvtVc7OdXdnwdHyNrunyUMhbgT4tArAwa6CEXcROOVLjbEnh5JlolmZMaG4QNRHdXV9gd7rF4IFxJfZpJUiqvGSUeLS16yYZizw8d6mAL2H_kWUIE2cUCIgv-nJTpyHJtzldcVZvMN8p7WvpvTm_t8MBE53fw460_HVFc3bZvxlW3TY5y5vvkhnXW1Pm4E-guHtiVoPmxCEgldjRULhaqTzogSEFKbpWkzw1hQrt6HgB3WTK3ofnFabubg7P_FciONB6OxsSfJZrNLiaVu1JpPew54KjewC1BkX6ebFPqY6UOR-4C8TqLchGeRhW2PGdiEFG079kZJcN1xKYmiuHyueYToPFJs_miYRV8HIclWiuc2ZbUpT1Q2RT",
+      "AcnlKN12exI6X4h6I3z75g2oeR8cq9-hsKoMSlQYd_V5IHilEXZa6xXM8OIFCfjkkbaCTFcwfwzLiaQApfA2nFzBAlQMJnNmm5BeDk47SdmsNgMdZ3qVc-VsCuL_kx20f-YLus9H0Q8S1RatLzU-7WPgBJcHVXIzJAFELLDkN-TR5pPxo7L7CcNokbDGBdcEcLd_WYGxREs5DqSnttUs5QKqxHDI5CGX2CxBJaPzWNYebCNulu3LYhLpedimFmRl0lbEIBrbuH7iS3sshFk295P4f1p8juzv-dydBUUIN7RK30vuyCzJJBgWoSxMlhBO0fiB_mPchg7X9qcSk5kPweWelhpvQCk_4v_s4bsZMboKJ4HVukpfxprVrDP7fyIQlxw3O2u0LJRjr_eLitGJrEWpjjDwDvL3db7rSOapm_4IEsIXeFOrcYeU7ietCfxWx1Zg",
+      "AcnlKN27WTh69HwjzBITWaigwnlz7bPzGf_Hr9SGs5bh0NtiHC2bsMbnkhUIVpLNjGGjCs0GxmEGu8BMjhVix4Wf59rRtCuvXDpCW_O8ZkhIWPCI5Y4nQ30dfADQVOhZ_2uvh5P0rKOmIc6yJKHMn-J1Cp9rCHTdDKke3zXluNEFQ-et2UKpZ_Yur8TKExqZ8KmVC0M0rSs8CHShWmfjwgLV7oXYptPZju3gEXQfRa0eQ4aSRa6cSSty1VXj15cb0tLt7Z2DihNIpcjaietqeYLntixt320VDQli9kxmUBWNKqwB3doz4RWeIftd0_XIqbjpB4IqdSAiUi4okkx3rX1_vJd86Co5xLUJEqOVimjIniA5lybukw7VSPlDbgBKof53wF9Ts-V2YZvGy2Fw6tUC843Y3eNKbZQBuZbVlBl4Yy_ecBQXs8nO-EJ-KzMU1WBr",
+      "AcnlKN3RHRLvpkLb9I3K8HOjAgRjdOg8ew7I8pd--5nyXKP5fybOl-eLmM6BmeJUoPCZTG8Y9NQLMS6FTmWIwY8_8tEyR_wZUNCLMciFrZWdjUTJiWR7Dg2FqYnNmXjfYgDX4yZ-ALbi82nrxeEDLSM2_thx3aV_2QnsgTK9JtZ-8taL4m1sjDLzr5byObHo5f3jIEv6EzrlVZs1u7ijhVscey1c5Y_mxbbycgJ1KpYnbDy2vQ-8Mv-7UgwDJYZiwqLDs7osU9fHpB7YI-NKAm8G8pIdO0j08x9smACPuo-K9UtpsSpfj_wiidizfJldPNEjAlMQER1VP90IHXyX6RUG4ZH9P99QBDp9QW1H0e5N8PmA9NdI6yCKK2rfJ1qtfSZJllgyMHwY6MAD35HlV4O2yQw6EgYL17oCFGYJpfb0Hczk6PNl",
+      "AcnlKN2Sn6D9RT6wOhMqUL3FOZifKgNGLDecvtkSxsyMCAPkd7vzQ6iGXXsgaMBDSDayINRmDBCsjUM8ia5V_RgLywLc61LgkhxZP5QoAHWJubI8uoidDU0Db_EhEVRztlGXZa-E8RLUKC7njnNNi2cJMDjYVZGzAjEgMOYjZwXmo1BGCNEMkaXoLhFxaduTDEj9eGAkB06Y0CqmOOeLPbSTeEf8LaKsc8iB5-K4CNQl0GjgKFHNx0j-uLqNLlzFOsYxslm8-QYVxBRCqTuguVclRDGK3mKmYJ7h4HeW3IitPaT70nGbU2IW2Z6_sYmfFyOGUi36C3SGkNbpEKczOzCjnnoTa2Zvmeja6DKp1eqz12kKJxfVuxes2-XGMfEk0f9PfLNH_ihtdmXVoCO7UU9Xq5epi97FP30r3PIDgXp-dMtZpuuDa9gl5Hmypo40Ww",
+      "AcnlKN3CFr0aEL0aMDJej_cN7UhF6-gADXZpignn6ukh1uqtVcVA8rajyv_Qw-Av83JeZXSmmB-_CHLJmty0eOstGCzFOe0p3v8x9CJ7jy62inKP7NcwplqkugnuQvuigqPsZgdOBBYsYd0bFkIKjaMutQQ5AVaEjJdCMiTOaz_QtFhRG_nhH6fyZmBDfae41OA_QtasARS1NyWynjE9oiEfrIeCwpl5CBWpHz1KnbbtoMu8W1us1i0TFF2KkZGPYu05CdIQbp4jr2Xkxul3NPMlsw5BVgRJIC2KcgsDvHOZnMBIDuHAHAGKEVJHQg48dGTFX97VFo3nK_58n3vNe64uf6m-N9ejseP8sXGJIqAiY6Z6P4Ttm19fdD3wCBXBwadH6RqQCUL94qf46jb4L6zir1p4II5DBq7_X3VYzID8pId6bLfN"
+    ]
+  },
+  "social_preview": {
+    "like_count": 770,
+    "top_vibe_tags": [
+      "Modern"
+    ],
+    "moment_count": 42
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "22€ environ",
+    "display": "Tlj: 11:30 AM – 11:30 PM",
+    "detailed": "lundi: 11:30 AM– 11:30 PM\nmardi: 11:30 AM– 11:30���PM\nmercredi: 11:30 AM– 11:30 PM\njeudi: 11:30 AM– 11:30 PM\nvendredi: 11:30 AM– 11:30 PM\nsamedi: 11:30 AM– 11:30 PM\ndimanche: 11:30 AM– 11:30 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Burger addicts, jeunesse dorée du Marais, touristes américains.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 28.8,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(14.9€) + avgDrink(13.9€)",
+    "main_dish_price": 13,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 13,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "BURGERS",
+        "items": [
+          {
+            "name": "The Return of the Cowboy",
+            "price": "14,90€"
+          },
+          {
+            "name": "Goodbye California",
+            "price": "14,90€"
+          },
+          {
+            "name": "Vintage Cheeseburger",
+            "price": "13,90€"
+          }
+        ]
+      },
+      {
+        "category": "SIDES",
+        "items": [
+          {
+            "name": "Loaded Fries (Cheddar/Bacon)",
+            "price": "6,90€"
+          },
+          {
+            "name": "Onion Rings",
+            "price": "6€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.8,
+  "google_ratings_count": 1865,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

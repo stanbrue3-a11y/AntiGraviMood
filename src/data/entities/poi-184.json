@@ -1,0 +1,136 @@
+{
+  "id": "poi-184",
+  "name": "Parc Montsouris",
+  "slug": "parc-montsouris",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8219,
+      "lng": 2.3378
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJN4tOxqNx5kcRsa159MJv2Q0"
+  },
+  "category": "parc",
+  "subcategory": "parc-anglais",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "nature",
+    "calme",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "leaf"
+  },
+  "social_preview": {
+    "like_count": 502,
+    "moment_count": 2,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 150,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Lac, pelouses autorisées, oiseaux",
+    "terrasse": "Patio/Cour 🌿",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/equipements/parc-montsouris-1810",
+    "pelouse": "Pelouse autorisée 🧺",
+    "bouche_metro": "Glacière",
+    "smart_tip": "Pelouse autorisée toute l'année. Les arbres exotiques et le lac aux cygnes en font un vrai Central Park du 14e."
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0o92UE6-w-JLLm16bEkg7JnPct5wh8O8clG3DY5xFqpwpxHGq6-boVuM19y3OGkNfjq-9E0WJfM622GmO5hE2doHfmrnMr5t1_ce77BJMpKTkNjBkSfufTAg5v5tdlXU24nFE7y3bepke5ys6v7lGIdN79OPqj4W36kuZdvP4HZypPnZq-4I1P5ZTPYKtz_z2pPJmo6FDbwLgb1AyIUI5yzOsaNKgZILXGpZzL4pdB81jM3H23bTnxyhnk68Fn4QWjPmcJltRQCuskF4bHFazASD8MJIk_5cZd_9rQ6fRpFMzpqPLZsYheeUvFtphO0HcR6kKwjkxk81UUrcSZTzKGpQ337nUesn2YbXPs5pzWx0_hwRYEsiYnwvhYNwN-A2DXUjUeMpjzhUIfalnpCgzKgFXJUm6Fsrf7qhruHj2M8yE5&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris4nature",
+    "google_photos": [
+      "AcnlKN0o92UE6-w-JLLm16bEkg7JnPct5wh8O8clG3DY5xFqpwpxHGq6-boVuM19y3OGkNfjq-9E0WJfM622GmO5hE2doHfmrnMr5t1_ce77BJMpKTkNjBkSfufTAg5v5tdlXU24nFE7y3bepke5ys6v7lGIdN79OPqj4W36kuZdvP4HZypPnZq-4I1P5ZTPYKtz_z2pPJmo6FDbwLgb1AyIUI5yzOsaNKgZILXGpZzL4pdB81jM3H23bTnxyhnk68Fn4QWjPmcJltRQCuskF4bHFazASD8MJIk_5cZd_9rQ6fRpFMzpqPLZsYheeUvFtphO0HcR6kKwjkxk81UUrcSZTzKGpQ337nUesn2YbXPs5pzWx0_hwRYEsiYnwvhYNwN-A2DXUjUeMpjzhUIfalnpCgzKgFXJUm6Fsrf7qhruHj2M8yE5",
+      "AcnlKN2h4bteb0FBcnz1RJow-REMVbPthmlotVzxVQP1oaX_wv15xVB1xSv4oxKeiDBkARDj93f8Djk2iJiif8walDpAvTX22e-nKIJcJduE5Fs87id2hhyJB2QizN0hyMvGrkpEL9lVoRBFQWTFw3Pmr4NGDbL9kn_5d9uyWZJBs4xe05WsDb7IXQa-7l6hxHc-x9x6N58KK8pfWcmXt7Z-GQ676Tr393YemytMlrPUYyEWxkLHobOcDvOlSx_v1AOEoG0nuY622pPotcAG9r6SWUdvvbeTpuadDbox9rdoEEYIZ-AlxR-4OHyTBsRqhz0dxXrlXjzdFrC0IAA5VaoRkH4sRkGBzKidWNRZki-WoerFG4v1cN89aqGF_-XS7f-80C3Oa9n8POsuyZEFZewE-j4IKFtxOnQv8VCBF6ofx30",
+      "AcnlKN2zUZR41Mb2mPE1vULFI25hu0fMx5tsiFDLXB9yp5NpSJLVfkugQTQxvPRQHW8PlTyhfazj1G-krtWypc41YvNmutCbVC1GcVkKbK6ebhYIbY7n6iM5tyHnlFuSB_kRa-hxgiLMUiFT2QVgmNl1FVCnjEBtG_tlOs_GSPJtscCU6d74seVXcAFEuT54X11mDb8Yhj_feZFG2_oqo5u1dMGoD7YcYbRvH_le3GVxja6qh502-EDctlvsp6TeGBuxIXDa3hamnsTQOyAieek53B9Hdbjv_zcfxMhYwEB0pZsCUirdosK_WDCv4Veh9C4_xDmsIHFsdYIU6Hmr4D9lhG_eePyFz9q7L82jKlbxTxjKDzazc70mDkivIJYXK98sW6vNyZqmX7Y1Pa0a8DkjYWQS7AN2ef0sIcUP4uz2uk3R3w",
+      "AcnlKN3J5KEl4UO_GnCbg3L73yLLcTRnhaYc2_K68PMywc6cTp7DUzQRwV_6LqNxOjTwhNetvGpIdkM9ncuWXTuLegHJOhYhmDF9t6PGzTAl_JNtG0JnG-e62KVwqzrg4ECbmsolI6XfV9WJDCXz09oDOnP_zXGjknxOKqFxgqtzguce89L-omNN_DIv8MiKJl1k6a3Gb4gwomUS875JBqYuic2QTLunzeOVP8omgPIeywMKQfXzpSIXZELsU6vp9a-OCVEDe2kTAsnj9z_jEhAd2b0zvdCQ6Ng0vzKnp-vH_ErTbqAXx1qs5KewmXFUsJN_uoMgKaqoQzNND4E_OWEh0ZnFOI-lyvZgzVgqc-X6v3B4HwZIXxaydZY8iULj4crkjUNCAHJlwi59O5OcOGSUsw_Ajle0k8cH29iFON96A4OW96AL",
+      "AcnlKN07q1rutif00bX5kTmkgVnP8j9EIorCJxvyLsj7UyrMYkMCkLbiteiTZt0-fsnFD63A0IHHD1DybYiW3ig5q2oXUkSVSvZKHfobaX7sLSbVLjPwOgpL-a_cvl22btw4rzvsVZ3Z43oL2XeZib-jBX_H5iFiXdDfMxnsXRhYW5Dc3UR0WlrkPqsQmK4CzJNhFgcfEuypnwFPdgDYnHkxgBVMz9OuqT4LiW79KXIGNz-hGGoKv6iUbb-DeI9MK4NPVHn5YRQHfrsyqHXzMNvzY5I9RiZ52GBqhNuXfR8pAJX8a5F_ve7Aubbpl8OrRs5xEgjQwabpiB4v2PN1eKwFFo01PycmHBJOLf4ud7BMje8pgBGGREt8TlVSqCU4osPAcLoKTAljGC9P_8_am820eegeA01_i0ZByvcuMggW5NwtCw"
+    ]
+  },
+  "description": "Havre de paix de 15 hectares au sud de Paris, le parc Montsouris est un chef-d'œuvre du jardin à l'anglaise du XIXe siècle. Son lac peuplé de cygnes, ses arbres centenaires exotiques et ses pelouses vallonnées invitent à la flânerie romantique. Sous les cascades artificielles ou sur les ponts en fer forgé, le temps s'arrête. C'est le spot préféré des étudiants de la Cité Universitaire voisine et des familles du 14ème pour un pique-nique bucolique ou un jogging matinal inspirant.",
+  "real_talk": {
+    "text": "Le Central Park du 14ème. Lac, pelouses et tranquillité absolue.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants du monde entier, joggeurs matinaux, amoureux sur les bancs et familles en balade.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 95,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Libre",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "category": "SUR PLACE: Pavillon Montsouris",
+        "items": [
+          {
+            "name": "Menu Midi/Soir",
+            "price": 49
+          },
+          {
+            "name": "A la Carte (Plat)",
+            "price": 27
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 17011,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

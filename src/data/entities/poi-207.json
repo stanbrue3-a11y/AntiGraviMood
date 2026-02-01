@@ -1,0 +1,130 @@
+{
+  "id": "poi-207",
+  "name": "Musée Guimet",
+  "slug": "musee-guimet",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8651,
+      "lng": 2.2936
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJwyk5zeVv5kcRiZy8pxIE7LU"
+  },
+  "category": "museum",
+  "subcategory": "arts-asiatiques",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 487,
+    "moment_count": 60,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Art Khmer, porcelaines chinoises",
+    "ambiance_vibe": "Zen, majestueux",
+    "smart_tip": "Le jardin japonais annexe (Hôtel d Heidelbach, à 100m) est un petit paradis zen méconnu.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.guimet.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2cSrzLcLudnub3qmmC-NtFNpi1SUJOuunOi3e8giI48SNRVPDGvt8v0_AsvRR9bcMWlWT6_5ETazPzuuUs_KP36Nl_y2dv0nxugbpMRz2u1a-5Ww-FbyaqMsgBsg62th-AAG0BVkZPQsZ9XmxKpyF5hqYlfL3HCjfF6EdlhoVKdladVG2Dkdt_AZD_NmNByPzdIZOXTIEwqWXOR7oOnyTVDe2Qgtb_KtC3pb3mZl0ytTIVDDEBeKmWbsLmD-c5DAidW-zpZpNh0BYAcUuyZpM4jeyqq3hwfxS9BYlJj1XKvoVWt1zZZKZNg97Md9P-ME_eHYBSMGl5tKDinsXT0lBM06q35xCSS3OCssaneAtFDy4hPnWeCCDFP_R_PMovHYGUayodnAh20FKB0R4FgkafPMmIN1vGxItWNikI3N9eWYpG&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museeguimet",
+    "google_photos": [
+      "AcnlKN2cSrzLcLudnub3qmmC-NtFNpi1SUJOuunOi3e8giI48SNRVPDGvt8v0_AsvRR9bcMWlWT6_5ETazPzuuUs_KP36Nl_y2dv0nxugbpMRz2u1a-5Ww-FbyaqMsgBsg62th-AAG0BVkZPQsZ9XmxKpyF5hqYlfL3HCjfF6EdlhoVKdladVG2Dkdt_AZD_NmNByPzdIZOXTIEwqWXOR7oOnyTVDe2Qgtb_KtC3pb3mZl0ytTIVDDEBeKmWbsLmD-c5DAidW-zpZpNh0BYAcUuyZpM4jeyqq3hwfxS9BYlJj1XKvoVWt1zZZKZNg97Md9P-ME_eHYBSMGl5tKDinsXT0lBM06q35xCSS3OCssaneAtFDy4hPnWeCCDFP_R_PMovHYGUayodnAh20FKB0R4FgkafPMmIN1vGxItWNikI3N9eWYpG",
+      "AcnlKN3Atvo7plMXtRWmIYSBR7mc0HUZ02zSSATK7XQpN-krUmSSPzpqUeabvraC9JLjiGjzqhiwX5TkXNIGgfsin4ndmy7NayNRXKOS6IEItamLcNwMvEL0GcWmHJyH-UP5S_10rP7meM13bFKMzDm08Uz9Fw2v2jZ8aCA9_swmSG_SITBwIhBtQoGTeKtg8cUDTpJw8D5kjSL15_xfnDsBH3SSIWSrg489umsz_ZboHE5Jxe87ta2h3R5i7xD255c1SX9QkP-oR9Lfpv9fNjC_KkUSh4LcqYswxWzog9hOf_MtIfpIOuaaQM5im7ugSjXy5kHJXzqt2hwSw_D6qj_Pk0WtE_mV6lRDfRXiS2TTqH7I6gm9Zn4ckSEoccNCoI3dP0jgiE1JGDVaJlV_GdorqpAz8JXcHBdUQMK8J3viVkAwzsGL",
+      "AcnlKN1dfQm5Ej8dgsQaaUYSAwsyGWiIoJATyMnoHyg9qeXtJ2mKINo8x8hCLdo_A9p5Oj-yDESaVv5oL05JD90Sxg9-hDVSH0NJxmdnWb_Hj39v3EEFR4aRoDD_kl9V5hnzOx67I1c0Z8nO03Ill6akPzeSrx8OqweRoxlho4mVB9BXZvtiNkzyNjsh_bKCh04xa-Ss21j6Xpo9wHsffHuzD82wBuSVUc0kTZW0wyqfIuXiF0FHHQI4-arvjnDYFQe3Egwf9weORGot-Do7jWZwlJ_g5VxgC4R4y5E3FN3xGoQQgYtxlvxpRJQ5HQ5lRcmyZA_zvL4KYUqvz7EW3ConE-CNV3Ye--hSiM1KkcOq5qpeR2gFoddKXhh2gjfXoDZqkkIH7O5tMq498-mE7IAjiEJQ53T_5i89qDr4P_YHWrKu25E",
+      "AcnlKN0jDax96XtBF4polRLonFnU35q9PR8VzEWGHkXpXJ_pzvKzuGctXbkrT75yJ-glsHMzoRoFcu2fw_ZDpHEEyYIGUp0qE62zAbqZFkZSxKOCdqX1-xzIo4bF9j3ynC4rT0rVKORlAz9WFTuElLJbecwn61wdW-PBQRFC4jF6Vc3vc4t6vjvwY_GY7x8jnDSEDI5504Ng00eelvCWaU3ygarUnHCmH52np7GExsRO63ihvN4g-T1JESrSY79ECdsUxjZRF7Fe_s0Db3nb3Vrs-qGQzDihh79_FsUWaVRhAx1aE2gCtBn_GppI88Ey8ljdvUcEXFzJqpct_alVidX1JLahzB2C-zfTldpk9irBttaLqiGdlbHTIQwGfzhhkdXir7hch7gVNygBbE60aJJGvSu7LcmpEQIljCZIY7Iv1hGOHAff",
+      "AcnlKN1rGrroYyW1nhSnvaif_Z4ugVHGGKEBToGjQ_zHAIYxD-6kYq1FZIUC_FJbVU7_4lezyC8LdF3kSaVjLV2cKcACDrUi1F3eMjNlguzExlZGFyAAG2uL0Ll4xlVWP1dbBbuX76l7vrcaV8BINRuBh4hzqjCyuejrf4lP4tmLrAuheO4rSebRDUzbBvS-q7ZZUEWPrsX7Q5om0t03zIYJn_EIyIk8RyPKkfHzC55uSzR_LDm0455P_mv7DgD41irOwVU-cBWmpk7n1qknFGPHueEIuHu0ZPjj8245TKhwFOUjCI4EAMN_0rs2pdZWq2JONAfnhmH-q83qMjLJ0XiB0r_Bh3GoXH3TdV8HSsEhCKDmEFX0ObzFlqBO_CWff5phhYvXZHkS9CGsyRBY-okPTNHwwWqmN6laUrEaBwVTd_O-ZSlAnrmGcSqoGTA3wQ"
+    ]
+  },
+  "description": "Le Musée Guimet est un voyage spirituel et esthétique à travers toute l'Asie. Des bouddhas géants d'Angkor aux estampes japonaises et porcelaines de la Cité Interdite, on déambule dans un calme olympien entre des chefs-d'œuvre millénaires. Le bâtiment en rotonde sur la place d'Iéna est une merveille de lumière, offrant une perspective unique sur l'art oriental. C'est un lieu de contemplation majestueux, indispensable pour comprendre le monde au-delà de l'Occident.",
+  "real_talk": {
+    "text": "Le voyage en Asie sans quitter Paris. Sérénité absolue garantie.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants en art oriental, voyageurs immobiles et parisiens en quête de zenitude.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 18.8,
+    "value_score": 28,
+    "category_percentile": 72,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Plein tarif",
+            "price": "11,50€"
+          },
+          {
+            "name": "Collections permanentes",
+            "price": "Gratuit -26ans"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 8013,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

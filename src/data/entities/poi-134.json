@@ -1,0 +1,168 @@
+{
+  "id": "poi-134",
+  "name": "Musée de Montmartre",
+  "slug": "musee-de-montmartre",
+  "location": {
+    "address": "12 Rue Cortot",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.887709,
+      "lng": 2.3406731
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJWcXsQltu5kcRbqfaH0NhNxE"
+  },
+  "category": "museum",
+  "subcategory": "musée / vignobles",
+  "mood_scores": {
+    "chill": {
+      "overall": 9.2,
+      "criteria": {
+        "noise_level": 10,
+        "natural_light": 10,
+        "crowd_density": 6
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 25,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "15€ environ",
+      "display": "Tlj: 10:00 AM – 6:00 PM",
+      "detailed": "lundi: 10:00 AM– 6:00 PM\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Histoire de Montmartre, Renoir, Utrillo, jardins de Renoir",
+    "ambiance_vibe": "Maison de vigne historique, vue sur les vignes",
+    "booking_policy": "Billet en ligne recommandé",
+    "smart_tip": "Le café Renoir dans le jardin est probablement l'un des lieux les plus calmes et confidentiels de tout Montmartre.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://museedemontmartre.fr/"
+  },
+  "real_talk": {
+    "text": "L'âme de Montmartre loin du tumulte. Les jardins Renoir surplombant les vignes sont le lieu le plus bucolique de la Butte.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Niché dans la plus vieille maison de la colline de Montmartre, ce musée est un enchantement total. Entre ses jardins inspirés des tableaux de Renoir et ses vues plongeantes sur les vignes du Clos Montmartre, le lieu respire l'esprit bohème de la Belle Époque. On y revit les heures de gloire du Bateau-Lavoir et d'Erik Satie dans une atmosphère bucolique et secrète, loin de l'agitation de la Place du Tertre.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3tyjT4JgL1blQa2E82DeKopfJxVM7HE-_VIYcEj34tbEtNWDzv-if6i4-hxg8Wi7jfOq7bAjricJCRRzg-f6H-NnZa3fS1VK0vhctE5mjHyFFU_9hgnSHNH6E7Wl8sTxyAiwXmpqzK1cY_rqAfZCXnMns4UhUNzrVFKlKgT5oGsWiVnQrnJoAwE2lgtsYcz825Ji_j-WVUAVZaUUMtOm1KdeXEIOuw65GiAVRf9s1MXPwKqYri9_PPWPSsWFdggUFq3ckAz-Y85o7XvMQXm56cWRIrOD6iRb7-uLo3qzCgBsETFk1QrVkTGl3XhzDMshbdnquovg3yfaSkNqeBD09cRaZodOWTfrkE6i1hAfJBvnnSxrBiMyVrsStSZVKNvFNMXSD5k4oyn5yHCC3QB9m7jIyTDKLqGENyjg4zDaUivA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museedemontmartre",
+    "google_photos": [
+      "AcnlKN3tyjT4JgL1blQa2E82DeKopfJxVM7HE-_VIYcEj34tbEtNWDzv-if6i4-hxg8Wi7jfOq7bAjricJCRRzg-f6H-NnZa3fS1VK0vhctE5mjHyFFU_9hgnSHNH6E7Wl8sTxyAiwXmpqzK1cY_rqAfZCXnMns4UhUNzrVFKlKgT5oGsWiVnQrnJoAwE2lgtsYcz825Ji_j-WVUAVZaUUMtOm1KdeXEIOuw65GiAVRf9s1MXPwKqYri9_PPWPSsWFdggUFq3ckAz-Y85o7XvMQXm56cWRIrOD6iRb7-uLo3qzCgBsETFk1QrVkTGl3XhzDMshbdnquovg3yfaSkNqeBD09cRaZodOWTfrkE6i1hAfJBvnnSxrBiMyVrsStSZVKNvFNMXSD5k4oyn5yHCC3QB9m7jIyTDKLqGENyjg4zDaUivA",
+      "AcnlKN0PqOIeYYb4bruMpzRn-djUGSeVSf-BDzxOsVQZuwUlkfjyfn91GuqRFT4-0VZfEJbbzcwd2WSvoG8I26rs8_7lIbXt8ifnHVVa8owZnZAy8pSOPpio2Fhz5ERS-pFVx8k5FTreWdCFATs8d2HFqp5ASH92Rzo8p6rgWWW-t0BKlKdfACGykl7c4H5vJbl5AEif6Qi-t2SDFjlLQABzgVYtvCKuWiM6tXuXCQBS0oKPq_wYoKcILu0guPVRff2BDP7-CSNhxAM-rJ2wsGvkSErgdSh90eqGPLKMkmx03-CV7Q",
+      "AcnlKN1FfdoR937LQoJICcaQixDaQc4gwVPks0dPJj7Np80m-f1TmCUEgfln70eg90JZrs87gICyUkLb0oXsXXQpVDbAIigbAVNBC3cxi--BDi-g07LXbiIpdIKjAQexhnQ79rmbSD15DoBERh9yvE55xQ-Dpj40CFLCIWE8xGvbYqi_FUfRckS9rEJFzjzMTgckFLO_cLQ58s2JZ6JXJFVcnCQOv3G5-UmSLNjj2uKrWeZ0KkfbVctlCRLD3YFN5DJgzURWdI-T19sI5_vtbvGOssuhVVQ2fmmrYzGjJMm5B5qxJD3ceLuh_Myp_LRccLrXqj7ImZYdJbDTHo7JYHhsMGq1RzVClHGT0-wxx_WrvYd65ccU0bnggc07n_iTBwKZ9Mzv3GpJa-KQC9ysn_yJTHJhc9tvkn_-Kr-ieAkxswNHlg",
+      "AcnlKN1txneA6OCoyH_CIVqPZ4c_wNWnIzzjEy2C-qgHKP5uV3ykadFyzPQN2fm3bL9GTXi2ANTlkItH5r4soUDPtp7CCG1GQjH0oRVDqLp8JQS9O1PEAFU7ZlSeabA9QorlnNt1AkBLoDRYuilU0vrvRqWzu8Z652lc6mIm7lQGoZwtQZSnaOltH0lRXVbO9twn1_xQMI_mvSk8RWnp6ZjYmZE7qt4cLf6YHZiv_vjmjx_OLDMecaFMrs6C_ucLrpcfVYn-jdE_Kq9Z0VPZ6d_Y3KMPz0iAWBZs8FMXAFYYj1upw85u15vpzSC7iJIf2zgQmK6-VUEj3qCjIdUfVhS9bZyEsguJUSmjYrYuQDqIj4bahdPieqnLLsMXngLBKCtSRTnQuNmnK9jvRnowwzbmVb0hRQvjgP24_8CRhrGcgSJ_5HysMInBXs5vb9fN4w",
+      "AcnlKN3MZdRmFsxqYsQjgaHOYl4c8UatIYqu8i9nERNFeNw1HqtC6Eisn00Z5Kh10SITDlmx6x8Aasf6G52P_P2wk2FYOFKe8GeORTaKDvPAJGbHuU-1l3VCYBOKjd87hKjNhKEAlXgFINbGBTJpanC6jQwUP8Sqyu6o_E90sP9NLzfvFBYPzZVtQWjwXpj9TG0HC-KTuixcL4SF2FgtddoPemuOZcTPlp9wCOR4-Vf7uUrdi-kgTC0MK-yA-hRyKJooUcXg5wpUIsgDp46jfTHAZ6uD-mMA6-qNgg06Qt_WGq2RmIp3sUjw8GCX7hVuxOlpqlPSF38CkEE879s1jHKQnAckxZkd6-tU17F3TNTqO4Y3zJYrdmtnie1rs-IRS8LiOcnukKAvPLM8NdFW6JoEJuZ6YBZDyu4ThdAwH33uoCoKBYCp",
+      "AcnlKN1ARKHwnN1KrTzTY3x0YjaFuIPiz3P--2PVugcWfcxXEyBFIxzedqnR1zIyB6L-WtFNXYZjHDXqOCPKGbDy3F2HzqkMr6iRZUcDmxDfxc7czHFVXrpPEVm3aCf_8G194XlmMjiONFVKX8RgqI-fGeOa4vJkOxbtmOU9WQMxW6ZHLhRmF2Is-6E7vVafwBMK8zgjg97XOu5LfbX7bpyA6zx_zaxO6LOMmdheX20cjTbheHO4B8ko-kO0PK-I0oazCQPKADvIrUl9yXtHeCPe5fcEzvYHrJqWZt3tvwK3zkKpyCnnc-qPDCFOyUPmSLMc9imhSMR6ztx9RBz4uXuPSKJk_4uhd6kbnShGwBArtCCKI45tmLEqye5GNO67HjFh9ETs3R2AP0T0bPRgd-eJCxMLZWRvuzcP6f2Nu6PTsdg",
+      "AcnlKN0s0b0RtDWxA6HbAnPGDoFGRTdubU8c3ra_4PDl140uuUT58H6DTdZKqeXvK-HOAx-ldfIT6VTMi3lOSP3saehdCC8O5oP-URexRKNUlj5CGbWLpOPBAQi05aFyeyTba7hHN4Zf_GS8JHEXUWfl3vjmmHNUJxIasFK79qGKpcUND63PMdEBZOkiKhm3vnLcdlvggkqEj-8cwcnIliwVxTjMN6CbAHel5MZJ-zmzsQIOvntR1NhhOOHoigZd4isNPd3Kon8tslo_RSsl_bypJltaOrlwbZD5JkWUOadNOKlbfUrXmxp-PY0sHK4VqPnEUtHycRqvUQWY0FaWbpnncTA6hX0E2y99Juk2ZGkdQNN9xoJix0sK262hAXxYIMD17GSfkmXtFKiYTE7ZqOISU7E-U9JQuMGwbiAH6X8-Nisf8AmX",
+      "AcnlKN0KBQyrWirbOyJ619n4UiuLz3_gnUUiPf0CRTUIETiF2hIUkkrbYyHj9tkEG-gqIerNK-9UJXzAc_Ft1OfhU3mc0HY4FnntQyNU8ixTfmRAX9NhoLBj3tGFxamq2uV5DRKrX241DKoD9CEuTOTILBTLJfEEJjwf1ujU7WJUSk4m75JfpUdC9TGVcQF8rFfOEq6i_E9_xPIK9KiuUfTGVXIY9SQfMI5NN6TW0wLh2ti469QsMoTMd6cIAfJbQ1vqs1Ya93oPFP8fXHDpDOYFgr3KnQgerL5o4LWTPrb_Q1Y4g04pZwtNRn9VGXe-frATa8RLtSLzlYkeNkfAGf0opUXVR4dwSbqPfcE4CS2mub34ZecSHVmzcMJ2k5tVq7sTgGs-WAEi14-Xj-0ZUTqvsOPhRK8DDejf6TZlQ1WSyy220IVh",
+      "AcnlKN3_Ij_9d7rxuot4iiHSCdiEV0AVGre2U25NufisJVCAcFOtUl4e_tBpHY0vfgr22lEMTap_SrpM7XSfL121Pu7JqEgdm-vJ_D2jChdTlDpBY1uPl9igo6i_bpXjqWkJMw54U9ixOrjVQ7kCXXlD57HSkipojW5_wmjB2FEdYRkXlyssKsXD-E81jwfqz4rzfTCnRx5VJenaAWVMsTkaY7VTfqYMnskbY5mhSDtU2G5cZJYBvJQML_vQX3GiDuqAcf4XlwWYjE01unLmi380CyiNCSLx66fGAzd6c46uLZl6juMXy8YtSPYodijk2z8GTYw89GteQDmKtxE3WD3YQc3KeErmy_hJrR2wKZFUOqATUKNhlQImwI7bf4UNZle6sYVgiZTMJkNxViPqHoNBAXp_OulrxwwU8bVvgP2SnTeRjcdl",
+      "AcnlKN3C7YnKfSldGyz_3jOvY3pIGJFz7dA3aQD7OUdU1M9rPx25PwiZg_B3dg9P9EIZoE0tyT_4FJsWjE7yeFrgVCHwBoehVFig8p5cgY-CFfkeY3sn6WIt98v-f1B0E5a4AzC0Puz-YgMrQpYf3qsnfvdnFAj0BlVvrUXbjqt9nDtLVnyD4TGEpEMVkgRGRjessGsTmRwmPBzOQRGogD6rTj6mqS0NbMIHjmbX-qZ3XLEZJN4tJdMuiEZuj9E_OuAKN9pjZNOC-k51WssuXGD6dW_HWUnbl5H_6B1IL9IDEIQP8JA4mgOpKwiFQpOHyVUViYntPfr1cR8UPM85AihaERGko1ULm2sjjjRyVexMngOXBuBGUL0kUWBLCr-9pcpZLnH0P6u86JKg_8OLiKuU3IUKirHLEp75CXmxcIVY16XZNA"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1344,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 20
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "15€ environ",
+    "display": "Tlj: 10:00 AM – 6:00 PM",
+    "detailed": "lundi: 10:00 AM– 6:00 PM\nmardi: 10:00 AM– 6:00 PM\nmercredi: 10:00 AM– 6:00 PM\njeudi: 10:00 AM– 6:00 PM\nvendredi: 10:00 AM– 6:00 PM\nsamedi: 10:00 AM– 6:00 PM\ndimanche: 10:00 AM– 6:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Romantiques, passionnés de l'histoire de la bohème et citadins en manque de verdure.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 7,
+    "value_score": 79,
+    "category_percentile": 21,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(7.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "CAFÉ RENOIR",
+        "items": [
+          {
+            "name": "Thé Mariage Frères",
+            "price": "6€"
+          },
+          {
+            "name": "Goûter maison",
+            "price": "8€"
+          }
+        ]
+      },
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Plein tarif",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 4349,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

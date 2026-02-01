@@ -1,0 +1,145 @@
+{
+  "id": "poi-187",
+  "name": "Coutume Café",
+  "slug": "coutume-babylone",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.851,
+      "lng": 2.3199
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJqyageCxw5kcRTKbr3dU5HD4"
+  },
+  "category": "café",
+  "subcategory": "specialty-coffee",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 531,
+    "moment_count": 8,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Filtre, flat white",
+    "smart_tip": "Demandez au barista l'origine du grain du jour, son expertise est fascinante.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.coutumecafe.com/content/8-coffee-shops-coutume?srsltid=AfmBOooybNHjeY4_DuGChw7hoGAS7mqI9mCyi4mIfcjJcOz-n9LoalL-"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0pYvX-KXmJ94LSf3DhxfYee2yMSKFntUXD6lB2-cWAXuqFPUNlHXvm6lGsv23VDhnHXU8ClJdPM4SBX272XHKgiJ078t4q9WbLngn401-71LvJJub-ulfWY2PAR3NF7VCKkmDjsiTIFJ-2OQ3krS0JAeQHMZqEB5lEt9VpfIq2Fr2zFGCDdmHBcWPgTNZskhVi5OibCxzoE0o8z_JuDKk7h1V29TVV9N5eAniHgVJ27ddtLPPMdDG8NwfhXBz6nHIR4t1WpczHqlK8Yl_bTFNp2M8rBIFAnD1tTX_qYzcxxQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@coutumecafe",
+    "google_photos": [
+      "AcnlKN0pYvX-KXmJ94LSf3DhxfYee2yMSKFntUXD6lB2-cWAXuqFPUNlHXvm6lGsv23VDhnHXU8ClJdPM4SBX272XHKgiJ078t4q9WbLngn401-71LvJJub-ulfWY2PAR3NF7VCKkmDjsiTIFJ-2OQ3krS0JAeQHMZqEB5lEt9VpfIq2Fr2zFGCDdmHBcWPgTNZskhVi5OibCxzoE0o8z_JuDKk7h1V29TVV9N5eAniHgVJ27ddtLPPMdDG8NwfhXBz6nHIR4t1WpczHqlK8Yl_bTFNp2M8rBIFAnD1tTX_qYzcxxQ",
+      "AcnlKN1I4G9knY_bznbabfyoc_z4VSCONvXX1t0eXTHBSgsZ3eKK5LswOpzOakautqFKi76jSGSPtO2FFe2eFDlnbD95Wx5TsTkPh6BhMkTTe0J0UdbUEkezIO3MVOfcVUAVEgmcEsB88h32W9fCNnJxdkeCGmvM1pZmVSDPeL5v1ob1FiV0b0LYJ5LOhsU6GA_X4knP81feIEH0ArHYu1guY3fd4UfPjOuGkGw269BOfqsEWB83Q_0AXcgTn_tzTs-TN35DBZF5Ul1_OW4PBYGFL_xjbi6mhQJ0FaEO3oOYngWlOQ",
+      "AcnlKN3tdw9cBa89ZNKotIYN44v77ay_UVi4-Ytz-bghwNOp31rfAwaGzJJytb8rw5kdOWBZiZOw1eCuNtnOAOt2HwDNFpCohAZKlJUkKQpqBS8Tvh1_BNTHPH6-Mt1HGsZ8b49yLyo8ZsXejWxejHHBpndSB5QpXHo1LF9BvyX97cQGXbFD4P41W5U9O1159Li9Tv937m0qkAsYF3Hv__o3DJj3i7C94udBx_NNWorrHoOGHLncrpN1yH3dZLBkv3JeN3B4Oj1sRcxB2mFqMj023qaU__XOzj5cqThQPhp88JMJPcVzCliyctGY1cMDchnQAfg02GaVpH9wHYgTs_6HV6kK_DctBvcHB-Y0Ft7siX1ZbhjS6pSEBOfOA_-v4DEoSktVUKUwR-UFe6CIQCkZT9-mR1a4xeMY-GmJrV6L6K9jvcEXjwMUbeUL1WBqWccg",
+      "AcnlKN17-_eBIio47J4ac_FRjG0grUnx-1DHcUWdpyuiM7pG7DKh622Vur4PlxMAwKtVV23MXMIAD-srj_OX_s5OKTT0yuWxlkdvzIH0-G5LMQvTeu17O0aDMJK3eJUKkCf37wX_SzxVT8ozG7wzwtL1-PbVKAm2noUgBohs7xNcbtPsmhhiLwP9m6PqH_4wm51u5s0DkbUTs3tTrL4wNaJo6by4xjknH6tr3z3gIEnOlj_o1Fqfrt4ukAf3IEWdwMPhmNrwfkcizy3KIF3WSpDNfaecvW5OwoDWw7Bh8gvCCog6UoWDMK82ujWJkAD8j-aiRU-KeBF2zQJr3iTz_I-uH5CfFsp_518TVPhK5AfZdHQsAywz-99AK8AZvIAFcqQ6LTHpTsqS90Za21_L8OyeQZCPYtKRsXa8FtqSdv44J9gw_1XMQBfmIrrSH0zDiRHG",
+      "AcnlKN2gdAWk_lCa8DW569f51SuXDTe9hI_pbCku1VtHLR6Imr7qmQLudqURWGU3xFXJ3Fem4ABqZWvT4UtTlOO_dPjuhpUjokwlO-RhPOPEbohoeF-6f-eeIVPcVWol4OrC9Y_vkefzbvrfzkeIr2YrqdcVUv93pOMjFrD3N87YpVTF0PXuIrYUBSItRQlTNgsHZRX2NAUKWT3S3xsnj5f7xg9C7o-IM9ZyobNCgEHrRlo6ywvExD-N1Hvd_M7VZpD1U8KGe75jQ-ccOPvDeqyOmmsUmqqusTkN-ATQlPFtBuQZGC0GVBDYfhWZ_TEWoEQQ5RgxBGzqIclQFL2VQPa_rYyqZQrhDJja9_brVIHmZW5A2uMiHx7o7mignI4blqs8r-GiYhiIrrN092RbSrYibd4YlldWC55MsWP2ZVilTcjaSYxRaczK-U0XCoqKXmwD"
+    ]
+  },
+  "description": "Pionnier de la vague du café de spécialité à Paris, Coutume Café a transformé l'ancien atelier de la rue de Babylone en un temple de la caféine moderne. La torréfaction se fait sur place, inondant le quartier d'un parfum enivrant. On y déguste des crus d'exception (filtres, flat whites, espressos) accompagnés d'un brunch créatif et sain. Le décor épuré, tout en transparence et en bois clair, invite à la concentration studieuse ou à la discussion passionnée autour d'une tasse parfaite.",
+  "real_talk": {
+    "text": "Le pionnier du café de spécialité à Paris. Brûlerie sur place, brunch parfait.",
+    "must_eat": "Brunch healthy",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Coffee addicts puristes, freelances du 7ème et bobos en quête de brunch parfait.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 26,
+    "coffee_price": 2.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "V60 Filtre",
+            "price": "6€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5€"
+          }
+        ]
+      },
+      {
+        "category": "MANGER",
+        "items": [
+          {
+            "name": "Avo Toast",
+            "price": "12€"
+          },
+          {
+            "name": "Brunch complet",
+            "price": "26€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 2249,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

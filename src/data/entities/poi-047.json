@@ -1,0 +1,177 @@
+{
+  "id": "poi-047",
+  "name": "Merci",
+  "slug": "merci-paris",
+  "location": {
+    "address": "111 Bd Beaumarchais",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8607214,
+      "lng": 2.3668319
+    },
+    "google_id": "ChIJDSzfrABu5kcRJTf3iV__JCg",
+    "nearest_metro": "Saint-Sébastien-Froissart",
+    "bouche_metro": "Sortie 1 (Filles du Calvaire)",
+    "metro_line": [
+      8
+    ]
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 429,
+    "moment_count": 51,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "01 42 77 00 33",
+    "google_maps_url": "https://maps.google.com/?cid=2892717646480357157",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 10h30 – 19h30",
+    "Reservation required": false,
+    "Happy hour": null,
+    "Le Cadre": "La Bibliothèque aux 10 000 livres d'occasion (Mur entier)",
+    "La Vue": "Vue plongeante sur la cour pavée et la Fiat 500 rouge",
+    "Nostalgie": "Oeufs à la coque & Mouillettes (Comme en enfance)",
+    "Shopping": "Le Concept Store attenant est le temple du design",
+    "Le Tip": "Les jus de fruits frais (extracteur) sont divins",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "Leur gin tonic est servi dans de vrais grands verres ballon.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://merci-merci.com/collections/toutes-les-nouveautes/?utm_source=GMB&utm_medium=organic"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHpC3N5kzHzONk_2qlWzNAMXRn8fGZirBWFhQuLA-bFtiI-63HOP5xaN8M_2PWMO-9GDOG1QlpLBIlIPygxXiO0OYmppu8NOM1SsGH9LynrN7XlnAx5He3zwpI1_S53OYklonko5h6jHRsL0xFlGLCsDPZwCEAib6y37emVn3XyDPnvKMk8fyZO1p-4GL8HzFWTtPjQAe5nJI4-n2rpD-kxBgzzMYe4w3N_wi8fS_DB0ERKi773wxDTWrhFLSuIsXBSMGG6IaamLDYgo-Ib6vhkc5IOuoMRp48jQRroe_F6qDM3Rl8wNvBjiaX-M215CyCvdT5uioFjqzHAIVQSZpVAUM0HSP9mWo0r_7wyXZ3IS1-7upedbJG9adv91V45rF1-ZhTnhBYq0WgG5Wv2_AncGHjJmNeAr57LV9qOAubKOM1Pr",
+      "AZLasHq3EmiX-mOFqTLmyyhMWBDHY-aukJwQmbleB1zGKsdMiOEBhPeo8jh0QyGV298LM05PrrT80t5dLE2T1_AGo3imlci-y1x3P9VZIIA3O0_JOCFJdkFnXmXOiI2Elj1HuEGMkWgiUtlLXKitWDLhm0XNGO9Sc7R-YlfLFZ39YG1jbU7CXDBGuqCGDKQtAKNIEZqExYDXnGguPiTTxmNgmRk3q5L2tq9A6RxRSsgV5AEwSWlpS-_W5p1MRnhdT1D0ZDl9M0_y4JZtvJqpB6740d79SFlc4nLlzi097P_5hZPcMoLPk5uG5Dsdy4ODUVc-YcNdV8uxwsbevBTtOKRuyc5rDrlz1fypWLAVvh-8pV7H5sApbkAnmpkJFUE19sKt8Ps9URjZ9L54xHuC-_N5ZsW-UpQj9xSfXvkWaTsyNWNlrm_ZB5Rt7ecrl_vexg",
+      "AZLasHpcEWY6F7sssH5r0uvpVG-tqNwl7IeSp83aTfRph5galym3vW5z601EVCa1GqK_eIIfxKB3kTom5yUrVNhJ2nulOwbK0Y5ieU-ERE6sJVMTRDhTq4Hm0x1eSUtzWKy8ojjMZuA-rCHLjCnyhajlxltXNqMsAAY8VwUjnAFjyH8-a3XaEwUZUQAEYpUd8S3AYy4HsY-1aRPMTZbB_QidjrRnXEYTxliToLdfJJ2_BJEneMkk37Jd8hnHWu-pP2rRqv6HBIABb37b3YV9p1HIoKm20Rtr011CdX98zAcuhYKK022Z3G924Mbx4HnAHihWvxkylnWHmMG91GFxfyFmdIwTpja5OAHpN4WZDmUGjLC0eCO7WPqUJIMQ5ZfwZHo0ygG3uZ9zfrw2EIMmZqCS3RmWVmgf0ZmIFaRUCG5Sztpm_Vno",
+      "AZLasHo0zTgaJoq8eqaxCSavvvIywmQU9QbjnBlPGEHF9SzllPE1TYZbgLLbwvhRtBRyz63qVBu--H-Z4CzwI-HN4lZTojmuWsOuu3SGJq-IRfbHviDvQW9oPD2stGdlt3a0kGvMzW5Dqq-fRBPdC4lXBY87Xb9-u8QpE7S8y9q8FbH5-g08ld6ERZxFeqlFx9rIw_RErlHu4AEoVo8Ys_Mr8Bdf86TlpHzGmYxmZuoWZ2KzPSYX-fUHHwVVtSBJO31tkKB5Fk5fu-vUMzxWCnl4KD0OKCqKJjKTuKp0GKVV63SxrA",
+      "AZLasHr8is9kJNQglc4ZrLa-lTjcuufXeK5k41MEfGgBEEd_WapgDLSekduRIEHvA4rwWA8DC2PNP2etjs43mKn7chHfii78nchgHI_DgwqD1hWmlEm_bSt8ldczgs2VYRKsH6BNO5mtXzRUAMothCgMVz57_d7WVsSF7njjrwT6KZtICnRzxOQnFQNHcvhCo-IiBVg6nDR3mhmuE_j60iFUhesnOjuWkobgYnYw-jRwU5uArXLUI9GaUO6mJ0GS6VXIN-v9_ouG52F1YEtRTu1SLZPDr_9Ndo3wtJ-CZ6nS6p1ZBG4gfUdAoCYyz4iiosw9f9QWE1beTMEDJyLqkQzcEkugr5U02HWwxU_2SdaPIYUpOCHrG86MW6Fumc-0Mel2yCeF2BK7yANOAeaX4mASL5iuDcJJBU5B0RsX7OVRo9I2Og",
+      "AZLasHq7o31cwduzqeDD81X9ycRq3qUws-tMbnta6NoWTXlZFvYBU2dBFwcNw_VxHzCngZ5623myUvcc0bD29AkeeXCDVlG7WGhR1EeC8yh3w3-pegkBBy_2EcEL2jYljy0NqLAVHptDfhXJxs9aHL8phPwEPstO7Za2GQusMVZNkJfaIFqzAJAJjfVrUsbqm_DESJVeNYcBYNJcix9oBB-FXA1ZP5tGRil_38yXIwot6mMaU5lm45QNKJ3duRU7Fj1u8Et5tzuQQgWYlZXd2peD5dbrKEc_sP2zsPmtmPUEAeWDI-fRavn-XjqmPWVmn0dVh2LnTInvqnGyAGFYoLG_fwfUh9oiorO5NB6O2qRtk8GPj-JIv0u6EtO5HmHCkzyXHnGdYbYrhUNLyEOgGa7rR_90FKKZu5Jm6Gf7RrJ9SXDc-fbbb2nuUAT4fHMCn-7o",
+      "AZLasHo6t1GXofy4Ke8JwrXKf9IjQ0h3r69pXH5yzwR3W7ownPtTtgZX5EEPQZgnYVbzA0PqidFTf181PjF5xojPQhMBbgPVp8h8x8YQqCo20WHgYF3hal8holxID7sV8bKyhLTjaCoPcH9XyCG7RBuLl5-jB_go4IhW9IEpyYTXyq2dkAYpIllWaqNNLN-_ToNs8HGq5GtPAPfimQUfpmF-CsuNVVU0y3tubUzppe50ZXTOwcv5bNXbIdiePpC5T8jGMmrY5HFFyGOVZho6ZdtRo3p1kgx_0wv1Dk7RdTPKiAaKCN6usR5COU9BbHNnecY2ozSxL-n8Cj3GsvamV5dQGGKAN7FsTP3H981_GJtQxejh0znblOeC4A1vqB4jIZaVt2Y0gdSewmYWiS9JzMutjJ4SL47PLEM4a8RVZ7ESkR5wXA",
+      "AZLasHrQGOQzSZf4s8zpGEWbetVhlav1csCzt3Uq3Kibeu4MBQ7KBZ4ajVPSS6QbdO8w3WiZVujkGO0f_NduBY4_86izMhsoTzSujb3VyEJIpw2_9Wc40PJB8eAJd776SRn87SgIALSLH_5xWLSRSZUmoqVgJEvcm1Tj1FXxhS5MJ6X0-VS8DkHdkvjRNeOOTNfKzka6TPyAO2M0QYp45eEilpIVSBz9nBJTscKOrThIDTloiQ8oGNtD7GWFwbYX_brz7y8cuFvMtWlJoKLbMeSOAdKelCnmhjLui-eCx-SAUeY2tllB7XzFP5kRiR2YZ1-ogRhzAqSP53wjIr4EKlVDCZ5qhb2dwjCVqZCrGVmUTI9YO-uHEUfAHcV1u-eBAlGubx2C_8_BhXyPEwmNQiNmF_6jlRnpAuzOOam1dU_m_RA",
+      "AZLasHoxO5dd9Fv6TThjSuoc3GIPeO843HhP49s9mPRosaeVCb2S7uEY6ahpxD3BmBpkf7thIMmyXfyoL6gD58FdfdsNXVYdF6kdxda1IqVe72FWT_YfhgYkEnur-SrcraBKsZ8N5YqBizjaPLbLsmbi87ADrhkqvkSv6tbU-2zDCVAPvhavAM6FqV7cjqGllMS3RWKsoKUFto9KWYWqrdHVyMIj1TPhDLBwymLzt6Rf0Ds3WJlFVtfCZmJQhcdH3n8sEJfEFCuMnNu1nCTFkuRMRYvfymS4Oj_eJfZJTmoCtUujPAxkpTli6VDOSb4_pjGidpuJC5Gm6EMEStBgbiUg3DsZ_RZpR4UoWCT9SDSNq_8eSYezYWDU_Sy_D8KLQPQvf4nt62VhSw8rEWsatwEtx08lE-LyFtitJyjMCpH48UPr6A",
+      "AZLasHpg8A80Y6g_WWHW6n7LRPi-4c_CvCKoJ0MeDCgDhbSpNDttL8E44AHjV4uhryIQP8MxSs6pFb94VHA0pg_ibVYv7Jk6ClOi8yCEWhidu2LwS5Qbr1dJ11oawyEyJ-l-jB3s4JADpiXEiimThWh2fRHnjHA5aJhR6SxwwLSma4kdmYCM1Zc3j64EwvKf8OyHjZKigP9J0Trr0o-NjUGTe0grttZfxQWfDEgd8jzP1dEHeoP5OZoFIIk-Snf7ejHZaNVaC1xqjGrNBPXURoPFpq9O19-leQ3xfr25fMyGWE_kc1cf7slsjng_EUwnE9YOcbcdrbaLDBwXHWgKNx9ZzrUlx8WKbt2axSL9hvj8FrHyQdPHUv7KSMv2lcAfNwSkd8Hd_6n9s2dAEye7BEON-Kdg10oOLmqyCgj1zao5vtmoXqE"
+    ],
+    "instagram_handle": "@merciparis"
+  },
+  "opening_hours": {
+    "standard": "10h30 – 19h30",
+    "display": "Tlj: 10h00 – 19h00",
+    "detailed": "lundi: 10:30 – 19h30\nmardi: 10:30 – 19h30\nmercredi: 10:30 – 19h30\njeudi: 10:30 – 20h00\nvendredi: 10:30 – 20h00\nsamedi: 10:00 – 20h00\ndimanche: 10:00 – 19h30",
+    "is_open_now": false
+  },
+  "description": "Merci est bien plus qu'un concept-store, c'est une destination. Situé dans un ancien atelier de tissus du Haut-Marais, on y accède par une cour pavée où trône toujours une petite Fiat 500 rouge (le spot photo incontournable). À l'intérieur, sous une verrière lumineuse, on découvre une sélection pointue de mode, de design et d'objets pour la maison, mise en scène comme dans un magazine. Mais Merci, c'est aussi un lieu de vie avec ses trois cafés, dont la fameuse Cantine Merci et le Café de la bibliothèque aux murs tapissés de 10 000 livres d'occasion.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Design lovers, touristes chics et amateurs de beaux linges."
+    }
+  },
+  "real_talk": {
+    "text": "Le concept-store charity du Marais. Librairie, café, mode et tout pour la maison.",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Le Used Book Café est parfait pour lire entouré de milliers de livres. Très prisé le weekend.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 15,
+    "pint_price": 8,
+    "coffee_price": 3,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 15,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "USED BOOK CAFÉ",
+        "items": [
+          {
+            "name": "Café crème",
+            "price": "5€"
+          },
+          {
+            "name": "Thé",
+            "price": "5,50€"
+          },
+          {
+            "name": "Scone",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "CANTINE",
+        "items": [
+          {
+            "name": "Assiette du jour",
+            "price": "16€"
+          },
+          {
+            "name": "Jus frais",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 4986,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

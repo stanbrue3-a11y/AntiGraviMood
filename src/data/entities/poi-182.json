@@ -1,0 +1,142 @@
+{
+  "id": "poi-182",
+  "name": "Le Grand Pan",
+  "slug": "grand-pan",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 15,
+    "coordinates": {
+      "lat": 48.8401,
+      "lng": 2.2912
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJBecyi0Zw5kcR_tvz4xAL8_4"
+  },
+  "category": "restaurant",
+  "subcategory": "viande",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 591,
+    "moment_count": 46,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "La côte de bœuf est la star absolue, réservez-la à l'avance si vous venez en groupe.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.legrandpan.fr/?utm_source=gmb"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2RovkS2Vb7IWqOJT6jDqKbrCFFDFrGwJPJ7SN6O4FheNkvKZgny8nRkTFGQLxyXtbioMgmREtiaJXIkU_6Y2YPp9rH9xbIiUJyDd5csvbLoh2-Uqfe0btY2Zu67dvOlz9FxTyaSVWl7hmfBbGuMJTotDeFQtLQl4Wmt4DGd5cShdzAK8GrVWZssQfyq-jbibV781zWO1Q1PZePO-6_npSEvrri8bK0wJybChUtNWd4p5Egek6I5L-e-aMzWsf6vIVVoxNuEhOmXuT3HGnfl7QTA0X0r6vhdmQdKNy6tZiSbw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@grandpan",
+    "google_photos": [
+      "AcnlKN2RovkS2Vb7IWqOJT6jDqKbrCFFDFrGwJPJ7SN6O4FheNkvKZgny8nRkTFGQLxyXtbioMgmREtiaJXIkU_6Y2YPp9rH9xbIiUJyDd5csvbLoh2-Uqfe0btY2Zu67dvOlz9FxTyaSVWl7hmfBbGuMJTotDeFQtLQl4Wmt4DGd5cShdzAK8GrVWZssQfyq-jbibV781zWO1Q1PZePO-6_npSEvrri8bK0wJybChUtNWd4p5Egek6I5L-e-aMzWsf6vIVVoxNuEhOmXuT3HGnfl7QTA0X0r6vhdmQdKNy6tZiSbw",
+      "AcnlKN3OO9ESpghyZOlAnVTmVNJHfJR5dD7kVwv9T_soQENES-o7X5hqW4G_Em-ZJur35Bv8-ozHmt7cQhO70-u41VUdCZiO6FPkaXyo0J0wd9EGgkwSL_tzBLDrPExUO_ALMCLL92iX7JYH2NTjXyYwV9XV0CR6N-ueR7lJoHR8cb0Whpd9C_4QyJT-MYrLmWxJPOktv_eFpSr3Lrnw2WP29V9bonK21AUD3RSJ-YXVx9PTpXRgb7OtzQgx6cmGtm1h5L96oJW67RyjOGhvVUG4P9DuACREQRTG4aWR-epT4No0zQ",
+      "AcnlKN3D_DW9nMO51EzFR_OA6c5CsQFAlo5bBbE0DA3o-doDomLAQwxmUtrtIxbdGq8DK-mXpwnD9uNrNVijth4OR3dKFxMn8mo-r__U3VTy8Ow2XWAdpZnk4G2t1zVGT7AQnXLAmZflR5844caMVBxDUgCQ-A4LuW5VV6W9y1wrwKfTTYgi4MaOsW_VFcfVcbH5H_rpkj8BFBd8o_RTIq5L1Qiu0KYtAlG_q28F_e1KtXarpondd5yR2kXsoN8ESacg1yMnZ-m93bVlPOfODyUWEPmKKh8t-1POkI0KINDSKrXMjqeN2sX6KRJjJDHyh2aGAu6wwTfnT7DU7tueR7xpB7MnK0rRCo02R0y33ZVVc3S-IojElR3gXnJo93RL_qBWzOY573epTKR0i_7xepQVfVONCuzqv3LJ0Xq9pIe2VuH1a_w",
+      "AcnlKN3qIBJNf2XKjOtM5joB-QujXiIJZ92Ioo_zrvr8aH5Kee1-WUpmwiM76sciepkQJ5-A5ZQlmMiyO_a4qMz1-s7MDEz_dBPl921y1-xKcZJ8QEJ5g5QvETWGj3_uTV0bz11ltrSNlA_qhWWjvRS7yJSyN5eBujVNWL49WUowptDLwFdcMuE5c80GOGsCncTZDyBpjTU2yuzTckQADq91P7O1PI2235ag8CCy5ys5ctfjPuh0vWV5sRc4kD0vuCQRPPtj2W9Cu0q5cmGsMiNJRjYZXaRxIM_dFm-jb2ACaOeC8sAqwWzXTyoNqzG51-TVLrN04mb1weTifPiRZmrMjpUmfMOfzm-aZUvIXm4sHwhKHz-DhbnqyyFPWnpREzG0MQZ4n-enmMqJco9SdFhbPCJZj3pxVfQAV4cYQ9cJM_RxFRNtwTWBr2cpBh3kig",
+      "AcnlKN3Yqq7P5orZpPEwLSH7YnfJwB1vvWNGrCoKop-0yFyDM_IggKcd8mIY41yJX6GJn3afwnTAyX4KiYF1OvEJ_SlLBeEw_AXi-Kabbl0CLhbU3JhMSU7vSACZM5uuE_BA21ny-jeAm5QHWGkn6SXCL2nnFPBxtN_Y5wK_BdGRqby3KpM7guDeP-V8zCKnyBN7eMtGa6WTjA0gv8ljPQw__DhO2i_iOyeIhSCeMO57QKU97VZ42352awQ-8VtT8XOl6y_wm7QBPZU0BUsujFYafkmJ0rcbw4xmnXhkTZUoIoIOvSlCmers_Sf65ADvlEhOP70UwC84fpDbN2M5nX0gg4zrpLsyauWRA4mRV5hjvsKdpb-z04cjCZ2lBbjoCk2vxAzqIpjc53sXv2ctfup1BxmhS8KlLIyS5-Afc3AtkaOtQVEGYiweUV4LfV8j5w"
+    ]
+  },
+  "description": "Le Grand Pan est le temple de la bidoche dans le 15ème. Le chef Benoît Gauthier sublime les plus belles pièces de viande (notamment bœuf de Galice ou Salers) maturées avec soin. Le cadre est simple, axé sur l'essentiel : l'assiette. Les cuissons à la braise sont parfaites et les accompagnements (pommes de terre grenailles, légumes de maraîchers) ne sont pas en reste. Une adresse pour les carnivores avertis qui cherchent la vérité du produit sans artifice.",
+  "real_talk": {
+    "text": "La viande maturée du 15ème. Cuissons parfaites, légumes de producteurs.",
+    "must_eat": "Côte de boeuf maturée",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de côte de bœuf, gastronomes de quartier et bons vivants.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 23,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(16.0€) + avgDrink(7.0€)",
+    "pint_price": 7,
+    "main_dish_price": 16,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BOUCHERIE",
+        "items": [
+          {
+            "name": "Côte de boeuf (2 pers)",
+            "price": "75€"
+          },
+          {
+            "name": "Plat du jour",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Pinte de vin rouge",
+            "price": "7€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 658,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

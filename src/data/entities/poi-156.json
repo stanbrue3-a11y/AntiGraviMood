@@ -1,0 +1,145 @@
+{
+  "id": "poi-156",
+  "name": "Bar du Marché",
+  "slug": "bar-du-marche",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8531,
+      "lng": 2.3373
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJNwu74dhx5kcRN88_tF5X-Z0"
+  },
+  "category": "bar",
+  "subcategory": "bar-terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 436,
+    "moment_count": 47,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Kir, pastis, pinte",
+    "ambiance_vibe": "Zinc parisien authentique",
+    "smart_tip": "La table de coin tout devant est LA place pour être vu et tout voir du quartier.",
+    "happy_hour": "16h-21h",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://bardumarche.shop/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1h9EtSkzi4bjETwGJMHwjTTTzEVI0_sObPrjz11Ofv0GhlyuKQHLrZqUp8q24xHxcl25Lm1ZNENJfGzNvcoFJF_B6ygKuE7X0yLZB70qoCq47l4U6z84W3lfVM0kqeaOg3tUHoOlpbD9wbaaALMBB0bqQ6m0QqrTWVS1ofdYfgctG8yNnFTIi9mXu1JNRSqOV3tBXaLPf1dVtuckhLrHS4fPwpH67qgXKJio4YLpMa5CAsyRYKLy64QdDEGYMzokLYRzfAVidf5hsJtP0uwWkQzKA0uuxPJ0fzGv1Yogljsw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bardumarche",
+    "google_photos": [
+      "AcnlKN1h9EtSkzi4bjETwGJMHwjTTTzEVI0_sObPrjz11Ofv0GhlyuKQHLrZqUp8q24xHxcl25Lm1ZNENJfGzNvcoFJF_B6ygKuE7X0yLZB70qoCq47l4U6z84W3lfVM0kqeaOg3tUHoOlpbD9wbaaALMBB0bqQ6m0QqrTWVS1ofdYfgctG8yNnFTIi9mXu1JNRSqOV3tBXaLPf1dVtuckhLrHS4fPwpH67qgXKJio4YLpMa5CAsyRYKLy64QdDEGYMzokLYRzfAVidf5hsJtP0uwWkQzKA0uuxPJ0fzGv1Yogljsw",
+      "AcnlKN3YoZ5jJxm2uANingonmlHqc9FMGW0lRP3J-JMlz02ad-Idbb0-1W1_vg4Bk4VRIA88VRkA6YlDJDzOJ2GK0V7NLIPUb8QqXMY7PXEIPElybHZqgQ5G95snC49B512p34PpEX685Oo_q27VdIL4nvwa1F1xLHlqKDEi3wnQkcNQtjx-bIPsoxxoReM8Ztrw6I6CrlsRa_2fZkPRiiarz-zuWBAuYgSDELQV_hs2mAGqEQa2zsy4G1tUSYLMt_zh4HltEszC1TrJqoQhfvlSOlEzsArMLdUkmdNxF08ws49l1zTU6vxKubR_u2H0wrRjFJ_qJvlLaSxzgGivh-Itik2-b5IfGVDgB-TgawaqBaPSrkOg3Lxm9Ky_fUfaVdY-URE2Y1F7PIAe_v3jmtn4XoVDbIUP7YaUaWTSx-ued06G_520YKdGJKYY2x9astC2",
+      "AcnlKN3HbYb6rZZWj4eSGXvWZCrxRg53JGBspyH3_tqPfe5elskz5nb4ltV80TzX3Xyrd_TdZxV7Qe0-JFnlfQIiJEFR31YDAj9PwWMS6Ke5mjCXE0_qamuhai3IFQaly3u8ZkB_1gvYdGpeYwMQ9RdrEChBBDawB8qFEdmrTaQY2Gn8XlpbLiMYFXSy2QhUfT29h53wZbWuWajPZIrUciFmB98ABDSSwB3rH4ByMqxXjlM56D4uYDU23Rnrs6xZR_Erul0ONPZQeucFiz6h0lbba4-i5QH3UxcHgxifayVUQ5XLkg",
+      "AcnlKN20bQATR5uXESw7TY1K4cemVBeQ-Zpx_WR1uTDWwcMAnUtszZTseivN47gk0WSHNRsJy64wJrPh1Ew8IxQZU9UgZ6quKjSG98x7EhYIYTSet5qVk0AJc_-jLxe4JbuXAwHi-0fMcofqODXpmgrQuVEwtAkCx_U2SPD5N7EBGW1vvtGyaVJguqNIKZwtA3EVVhVIYoMXaxsBg1opRO8PRWaTLK-eO1_LslxvwZ4ubyYxG7eiTH3TppHzXGxmwqr_1Q8WYaTcDXioFrvO9Q2sIuR_v7oVoy17ceDljhXOGhOVwg",
+      "AcnlKN3lCtW5NN8iYnoL2rp9wgExuq_JI1BQhD91KXq5YJEFW4hJNPJaK4kXj2c4_uQvqoLaqJ6Ek8y8ENz65tVOxsoavLxDY5N10OrqaWyZ2r5HhihofcvkjQQpEFRPaeV6BDiRUa3s-XQkmOgNhFqwtB7bKoH7toeEQOH8iWIKJMqGvmRZfA8rkeryia2LwVmYPD_28W_8IiKwgfi8z3mVXpQFf0Xb356ZGYaSnRXXh-M2fFNRA8dHTgVczZpVHekKdq88oUDNH3YPntPhlIQig0NN_Xv3riQd7rK8aeOI01zjY5yKofnJ-IsnshaNUlDvCzkPLU7jOERxNa2NnD7EbEpMzRMMAuSyx7fKOqamu7QSDXtsamitghMu6D1bYQyb0SIpu4dYNmvbf8EBUahXU3JFZYFQTy1KqvV_XxbP5LNJhGxztLsIB6kgrFuJsrr9"
+    ]
+  },
+  "description": "Le Bar du Marché à Saint-Germain-des-Prés est le rendez-vous incontournable pour observer le spectacle de la rue. Avec ses serveurs en tenue traditionnelle (gilets noirs et blancs), son zinc d'époque et sa terrasse qui déborde sur la rue de Seine, c'est le Paris des galeries et des peintres. On y boit un café serré le matin ou une pinte en fin d'après-midi dans une ambiance sonore et visuelle unique au monde. C'est l'essence même de la Rive Gauche éternelle.",
+  "real_talk": {
+    "text": "Le symbole de Saint-Germain. Serveurs rayés, apéros éternels sur la terrasse.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Galeristes, étudiants des Beaux-Arts et parisiens en quête de visibilité.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 7.5,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(7.5€)",
+    "pint_price": 7.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "ZINC",
+        "items": [
+          {
+            "name": "Petit noir",
+            "price": "2,40€"
+          },
+          {
+            "name": "Pinte de blonde",
+            "price": "7,50€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Croque-Monsieur",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": "16h-21h",
+  "google_rating": 4,
+  "google_ratings_count": 1499,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

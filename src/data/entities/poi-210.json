@@ -1,0 +1,130 @@
+{
+  "id": "poi-210",
+  "name": "Musée de l'Homme",
+  "slug": "musee-de-lhomme",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8621,
+      "lng": 2.2871
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJlSwHnvxv5kcR3zfGXbDK6g0"
+  },
+  "category": "museum",
+  "subcategory": "anthropologie",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 391,
+    "moment_count": 40,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Évolution humaine, crânes célèbres",
+    "ambiance_vibe": "Moderne, pédagogique",
+    "smart_tip": "Le café du musée (Café de l'Homme) a une terrasse imprenable, réservez pour un café avec vue.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.museedelhomme.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0ZstW0I_-67W6VW-AL0SVe8pWDMWmNzq35j7LIqB7yigm5OOvuGao2970dnXZZRlf__vGwaU5CiVg250_YWKQCRe5NS2bxoyzvKFxlrNo0wrV_V32BtQUG6kYxJdTl4OK7LAt5yWhVL4ls-72n3YkQtoqWzXZABD4qOBVwB43KvAMjAyfLY9TOy1H-FytE0DZx1gvjK4DLg06G-ruWjpt8x8IkSaMNuzSVWcSx5sga3ZODQAZ395ldHEODDIqZMWacdgRZ2don2HfnRjJ6kSE5PJSUBbFDi5DTE9X25VBbHQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museedelhomme",
+    "google_photos": [
+      "AcnlKN0ZstW0I_-67W6VW-AL0SVe8pWDMWmNzq35j7LIqB7yigm5OOvuGao2970dnXZZRlf__vGwaU5CiVg250_YWKQCRe5NS2bxoyzvKFxlrNo0wrV_V32BtQUG6kYxJdTl4OK7LAt5yWhVL4ls-72n3YkQtoqWzXZABD4qOBVwB43KvAMjAyfLY9TOy1H-FytE0DZx1gvjK4DLg06G-ruWjpt8x8IkSaMNuzSVWcSx5sga3ZODQAZ395ldHEODDIqZMWacdgRZ2don2HfnRjJ6kSE5PJSUBbFDi5DTE9X25VBbHQ",
+      "AcnlKN3CaHYHU75w4nkUHUDZB8s3fhEpHN4xgAjRpCs93rOJk-eY9PB-q6ve3z0FrGKKt1fxsjrdazYdFI4JH87Z7harNjKRGb6AmUJZqyyBsz2PTtLFy0-lFEkB7N8ienDqUf-9kvAqBQ00tDeAmaUltLPDeP7vw3c8oIz02qr8J6-B7BPck9tpaR1EMkJBDKX677MT1i4Luq61Gya3ORNvFrnQbEPvEToNX1tTa95nFHM01Z7OUtWV0SoUJzGTzk2PZF243FIDxdc-yb4QCQxcWWC4E6o-yspex5thZ0Gy7zLN18DxH4AcdcPM8jxOFey7WnHQn8ACJ9ucSMS-Y1xTbnL75KAA8uLu8V6Jxt5auzi8U80C6IzcJLM68vxTlcBMikxENtFv4WupvXhQCNR0Iy6at1_VChL9gt8pfL2bEYg",
+      "AcnlKN3gvz-zs1OPMLOUUDn-k59UfHh5s835wSn6TTmsMXNxaJSP6roKZVGJx93U22rdjgUwB7UnuHmpXzW2mGVyRWqIhOew8N-72TvjQB2F0hCgDC45uGIkqgqZYOIXR7xybdo37YeMa_yUi3IsRkjLfo5JbMk33NqrJ7gP8AG24LIJ6y_DHht3dQ_phwcOrUrJ_AM57ZulJceDIhigIKs05KoLtbeczUH5uQ5e_htEjBO2Z8x789Hq8u9O5hbSDPygvrx5F299euZsd3GRUciXgB9DNL8iSWVBm2BZdTV-iiaLEST62jIpRJt9I9rpCgf2BtVcONXdSz-FvFfR9myrIdfO0ZHBhpqhMlKkOteBhrumBYnRxGA2ATkS6I67-jokEulP_vsoav8ydqYoegEk-i1cn3eRsFUvAlSwc4jG_skfU49K",
+      "AcnlKN2GmY1DJdyMykUTRUgtftExAa9df-fcs0i5uBG1LkQr9I14FLPwejrbbxMBF-GK630GNT3lpbqu2gOu1DOZEIvjpfCsWg_Rc8UgMKwnZxpa1Zl7J3O1IakyDGqB9nG3Q0y6fSHEgATxcMQN2UAyLwVgMTcNc8ljMxvauUKMUNPNijKdyHhLJxS9PiAAtyTYMNez3Trn4KS2z5N6PcBkDaVO4XH8MAJ_Iaz8MakYSiQSKHfauNvUtu0te16V-vL0YUWRHUMPZgM6c_EG7voXYgW4t87Ai5aJRMEMt0aaBeF9dRziVh9lX-VEGgXfVV8ik96rgEzdUfS3CpPV8nVMIHRNv0zxu9m86TyLBPtEZKz-2ahCYroNGCBo50BWG1MobAax-YybwXGDIT9VjBMJz4KXIaEQ5netahag__0C3yE9A2vbFgpAR93c3mUdrsUd",
+      "AcnlKN31tXHotyLexHOpDMK-y8zQ8-F4Jzs31iKaGH7PfuFrXcIvKD0VeccsI2KtAvQgBp-_gTgBLY0tO9szwNm9YN0I5BnLJihkXlqDGqrIQ5SY95N6vOxyKfgpuILqf1hF0sRKVltjt4dmpkWW2Qv2x2yCSufzLDzruD36BaF1_s_-Io4jVy6VwAntdRnJeSJnyrLh9Qsn9nmHv85Qzwm6S-nFIYHF6iMc6zOZIYRObAVJy5UugXniFBWfYVe2yUTBW1mWP5D-Xq2piCEd-dnmVbp56hos-AbbVW18rT9y-1AFB6y9Z7s3iSh0-zOm9tmuKlCRRgYdyFTt2ZXSBeySU6vT2_yhxrttuH4BYvAQLsDQ__ZrDAsYwE2X2blCQTKcYeCHk3OSayV7_HVVKugyiEkbuUoDF-KUQvY3-Uk3uhRRnJWS"
+    ]
+  },
+  "description": "Le Musée de l'Homme répond avec modernité aux questions fondamentales de notre existence : qui sommes-nous, d'où venons-nous et où allons-nous ? Dans un espace totalement repensé et interactif, on suit l'aventure humaine de la préhistoire aux enjeux technologiques de demain. Installé place du Trocadéro, il offre une vue plongeante sur la Dame de Fer tout en nous rappelant notre fragilité et notre grandeur à travers l'Histoire de l'Espèce.",
+  "real_talk": {
+    "text": "Le miroir de l'humanité. Comprendre d'où on vient face à la Tour Eiffel.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Curieux de science, familles avec enfants et étudiants en anthropologie.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 14,
+    "value_score": 56,
+    "category_percentile": 44,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Billet Musée",
+            "price": "13€"
+          },
+          {
+            "name": "Exposition Temporaire",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 5845,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "poi-167",
+  "name": "La Folie en Tête",
+  "slug": "folie-en-tete",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 13,
+    "coordinates": {
+      "lat": 48.8293,
+      "lng": 2.3487
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJhw7fyJBx5kcR_AYOYAt6Gfw"
+  },
+  "category": "bar",
+  "subcategory": "bar-alternatif",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 384,
+    "moment_count": 43,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Bières artisanales locales",
+    "ambiance_vibe": "Bar associatif",
+    "smart_tip": "Installez-vous près des instruments, il n'est pas rare qu'un boeuf musical s improvise en milieu de soirée.",
+    "happy_hour": "17h-20h",
+    "bouton_label": "Site du lieu",
+    "website": "https://lafolieentete.wixsite.com/lesite"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN08SuQcBUT7UEjuM5lm--4G3DhMbQoKOpai1I2SViycHAWmTAVdYboX120db4arFGWB1KKkDqg-rnuO4VnYCMTbefXCp5N0XhXmNz2K_EoW5e20NW1NfSSHar-8_x2Pf2UWXqmDttj5wTxd7iuY2ea5EJrW5Btm0w-dyG0yYUGps-GIG1NzK3993gWG5KtzMM8waqJVRt-5PhWPVvSWW9mVLYjDLGFGpqw1rOd0tjjj3dOEMw_opYhrsYno0QccUx-93GkXC1Jrq4q_r0WF3W3P02EDHOzFlg5BKwy9afIcHA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@folieentete",
+    "google_photos": [
+      "AcnlKN08SuQcBUT7UEjuM5lm--4G3DhMbQoKOpai1I2SViycHAWmTAVdYboX120db4arFGWB1KKkDqg-rnuO4VnYCMTbefXCp5N0XhXmNz2K_EoW5e20NW1NfSSHar-8_x2Pf2UWXqmDttj5wTxd7iuY2ea5EJrW5Btm0w-dyG0yYUGps-GIG1NzK3993gWG5KtzMM8waqJVRt-5PhWPVvSWW9mVLYjDLGFGpqw1rOd0tjjj3dOEMw_opYhrsYno0QccUx-93GkXC1Jrq4q_r0WF3W3P02EDHOzFlg5BKwy9afIcHA",
+      "AcnlKN0ruxRYbRAU9Jkp4ZV5_viRwgtsmTxfOX7LB1fucw_piaKVJlReIb1EZM5Bnsol5D3hf0CWVaenP3FC1scXO_C3yu-aFGg6XTHAQEPROS1jyYizuLh8Rv_eP4VwrbKcbams9Q5UPPntbg-DlASeF8A4H8a7yXldWN9xtS1mw05oklLRhQFqPnkOKcpgdJAhomcArtWsFll0JLWT3HOO4mhtQyyef8cg4DjoSW_WxQEzqUotobPnFFE-Ntnk9Eh5VnUcfmzz24x91rGO2j32HnhCwngJfwyCy19ZKxvaZibd4A",
+      "AcnlKN2E1-mj2am1A_RkCiW5lr5sRTBa0A4kzgvXwTcR9gA9yjQbo2tf9jPANI3YAk_hzpfDlo-foN-VqMx3-ZUzrnhIWC-soDI6cBEJ3LNtdnqPHhUTyTz5btZ7XKJCnHJKuMvl3jbkOTqh1MjrDdCVdjuYcpxfcsE78Gpm2idOfc1GWyhnzahfl8f2bBBXWVwVlhr4ZkVpHaOQYzowO-Bgy0kPGfFw5lEBo7qEchvhMElkF3thmlHoX8J2Xa44xIlgmrsGUdeOHP40kyZp-avgCi81TZDa9Lh0_a85XrxEB_vTcmP4JjWVgeoyJXJdt4pOxG7nrM6_9len1id43SBzEhe-WtO1AAEw7gAasSHItmbKPbjf1ty1SS9-hxLjuV5mP40P0eug1xd_Yvbag_nAwoUn5V-t5n5ZEyRdWCjpqF4XghPkXcdmiYnPoXyy4zbQ",
+      "AcnlKN0k34PHOkC0ucRgdR65TVWsBu8jTQ38ci3hez3RG-139Bg5IRqPVQt36-d1DbYVKdH_92ZcW1MMurLON5dxfZH-MJlUWfAPa-uRT4_T27BstZSDhRoqS65ZyeFFUGT1RFqgSr9v8LR-IutKnQIsC8x4auvczYySGaOoXgF_aFjIami5e1ta24NDErwPN4jXA9b9IEo7bqZz4q5cPErnqfiLCQvXUtFYjqMrpO8O6sjnBaco8c3sA3oVWYG6Nm01SUPL_Ub07KNnQxwe9vcB1JKdPRvpcOxpig3LBC2BqEWKpjO7aY3vEs5SsjrCeb-_f_-hJflwFw7RG_1fl0-CzyVnMq4H7y0F2LcM02kl0hpepLvb21kxE9EKu1l5A0nSc2tiO4qhwqII3tvQbv8llF1W3OtQriuOWdYS8j6nGc1WnhYL",
+      "AcnlKN1g0x6sIutK6yGVg8o-G2YOIvIrfAVShtnMxG4hBSAw1oCwjpeGsZznU4yK5eBznPjFsJ6ppRZxaanSk8tc-mR8nm9pi5L3W9PkZv1wUXxmpMiHt5ggj8T-mSkN2dlR3SUxvfYzAB5dtoe6DWqUVhJ_eA4maDPmSd2PcXOe4Nro2HcSuMLPfTTTORLapER6512DrK8Ebi8cfIdf1Iv5raq-fcK1Lu7UKQjzQSQtn2NFpK-v8TEHeoyGlMbiY2_CFlnY3GREbql3Rh-a9RnESrwuoS2tDCT4n20qUX-xcRBymi_wtoqdnnSr07MB0fk0g9RatotEp7ys36ruAH2tBCGO4sDLXc6BKhfvTewnkQ7jYMeQoUTtS5W07jxQZyXdk2XbVt-nJrSdk5ktxg-imzUfYQh85uuGqjTiW1dwcocjHQ"
+    ]
+  },
+  "description": "Bar associatif et solidaire, la Folie en Tête est l'une des dernières pépites authentiques du 13ème. Ambiance alter, concerts de jazz manouche impromptus et boissons à prix défiant toute concurrence. Le décor est fait de bric et de broc, créant une atmosphère de liberté absolue. C'est ici que bat le cœur de la Butte-aux-Cailles, entre deux débats sur le monde et un verre de vin rouge partagé.",
+  "real_talk": {
+    "text": "Le QG alter de la Butte-aux-Cailles. Engagé, festif et accessible.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Artistes fauchés, retraités de la Butte et jeunes engagés.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 6,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "SOLAIRE",
+        "items": [
+          {
+            "name": "Verre de rouge",
+            "price": "3€"
+          },
+          {
+            "name": "Demi pression",
+            "price": "3,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": "17h-20h",
+  "google_rating": 4.5,
+  "google_ratings_count": 602,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

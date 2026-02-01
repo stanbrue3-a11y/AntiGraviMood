@@ -6,10 +6,13 @@ import * as Haptics from 'expo-haptics';
 import { BlurView } from 'expo-blur';
 import { useTheme, moodColors } from '../../design';
 import { ScalePressable } from '../design/ScalePressable';
-import { usePlacesStore, selectFilteredPlaces } from '../../stores/usePlacesStore';
+import { usePlacesStore } from '../../stores/placesStore';
+import { useSearchStore, selectFilteredResults } from '../../stores/searchStore';
+import { useUIStore } from '../../stores/uiStore';
 import { useRouter, usePathname } from 'expo-router';
 import { useShallow } from 'zustand/react/shallow';
 import { Place } from '../../types/model';
+import { DeepSearchScreen } from '../search/DeepSearchScreen';
 
 type Props = {
     insetsTop: number;
@@ -29,12 +32,21 @@ export const DiscoverHeader = ({
         selectedCategories,
         toggleCategory,
         searchQuery,
-        setSearchQuery,
-        selectPlace,
-        setMapCameraRequest
-    } = usePlacesStore();
+        setSearchQuery
+    } = useSearchStore(useShallow(state => ({
+        selectedCategories: state.selectedCategories,
+        toggleCategory: state.toggleCategory,
+        searchQuery: state.searchQuery,
+        setSearchQuery: state.setSearchQuery
+    })));
 
-    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces)) as Place[];
+    const { selectPlace, setMapCameraRequest } = useUIStore();
+    const places = usePlacesStore(state => state.places);
+
+    const filteredPlaces = React.useMemo(() =>
+        selectFilteredResults(places),
+        [places, selectedCategories, searchQuery]
+    );
     const router = useRouter();
     const pathname = usePathname();
 
@@ -66,11 +78,21 @@ export const DiscoverHeader = ({
             )}
             {isSearchActive ? (
                 <View style={[styles.header, { paddingHorizontal: 20, flexDirection: 'column', alignItems: 'stretch' }]}>
-                    <View style={[styles.searchBarContainer, { backgroundColor: isDark ? theme.surfaceElevated : '#f3f4f6' }]}>
-                        <Ionicons name="search" size={20} color={theme.text.secondary} style={{ marginRight: 8 }} />
+                    <View style={[
+                        styles.searchBarContainer,
+                        {
+                            backgroundColor: isDark ? '#1A1C24' : '#f3f4f6',
+                            borderWidth: 1.5,
+                            borderColor: isDark ? '#8ccaf7' : 'transparent',
+                            shadowColor: isDark ? '#8ccaf7' : '#000',
+                            shadowOpacity: isDark ? 0.4 : 0.1,
+                            shadowRadius: 10,
+                        }
+                    ]}>
+                        <Ionicons name="search" size={20} color={isDark ? '#8ccaf7' : theme.text.secondary} style={{ marginRight: 10 }} />
                         <TextInput
-                            placeholder="Pizza, Terrasse, 11e..."
-                            placeholderTextColor={theme.text.secondary}
+                            placeholder="Rechercher un lieu..."
+                            placeholderTextColor={isDark ? 'rgba(255,255,255,0.4)' : theme.text.secondary}
                             style={[styles.searchInput, { color: theme.text.primary }]}
                             autoFocus
                             value={searchQuery}
@@ -88,78 +110,29 @@ export const DiscoverHeader = ({
                     </View>
 
                     {searchQuery.length > 0 && (
-                        <View style={[styles.searchResultsContainer, {
-                            backgroundColor: isDark ? theme.surfaceElevated : '#fff',
-                            borderColor: theme.border,
-                            position: 'absolute',
-                            top: 60, // Positioned below the search bar
-                            left: 20,
-                            right: 20,
-                            zIndex: 100
+                        <View style={[StyleSheet.absoluteFill, {
+                            marginTop: 60,
+                            height: 2000, // Cover the whole screen
+                            backgroundColor: 'transparent'
                         }]}>
-                            {filteredPlaces.length > 0 ? (
-                                <ScrollView
-                                    style={{ maxHeight: 300 }}
-                                    keyboardShouldPersistTaps="handled"
-                                >
-                                    {filteredPlaces.slice(0, 10).map((place) => {
-                                        const mood = usePlacesStore.getState().getDominantMood(place);
-                                        const color = moodColors[mood].primary;
-
-                                        return (
-                                            <Pressable
-                                                key={place.id}
-                                                onPress={() => {
-                                                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-
-                                                    // 1. Select Place
-                                                    selectPlace(place.id, 'map');
-
-                                                    // 2. Fly to on map
-                                                    setMapCameraRequest([place.location.coordinates.lng, place.location.coordinates.lat], 15);
-
-                                                    // 3. Navigate to Map tab if needed
-                                                    if (pathname !== '/map') {
-                                                        router.push('/map');
-                                                    }
-
-                                                    // 4. Close search
-                                                    setIsSearchActive(false);
-                                                    setSearchQuery('');
-                                                }}
-                                                style={({ pressed }) => [
-                                                    styles.resultItem,
-                                                    { borderBottomColor: theme.border, backgroundColor: pressed ? (isDark ? 'rgba(255,255,255,0.05)' : '#f9fafb') : 'transparent' }
-                                                ]}
-                                            >
-                                                <View style={[styles.moodIconSmall, { backgroundColor: color }]}>
-                                                    <Ionicons
-                                                        name={place.category === 'bar' ? 'wine' : place.category === 'restaurant' ? 'restaurant' : 'cafe'}
-                                                        size={14}
-                                                        color="#fff"
-                                                    />
-                                                </View>
-                                                <View style={{ flex: 1 }}>
-                                                    <Text style={[styles.resultName, { color: theme.text.primary }]}>{place.name}</Text>
-                                                    <Text style={[styles.resultSub, { color: theme.text.secondary }]}>
-                                                        {place.location.arrondissement}e • {place.category}
-                                                    </Text>
-                                                </View>
-                                                <Ionicons name="chevron-forward" size={16} color={theme.text.muted} />
-                                            </Pressable>
-                                        );
-                                    })}
-                                    {filteredPlaces.length > 10 && (
-                                        <Text style={[styles.moreResults, { color: theme.text.muted }]}>
-                                            + {filteredPlaces.length - 10} autres résultats
-                                        </Text>
-                                    )}
-                                </ScrollView>
-                            ) : (
-                                <View style={styles.noResults}>
-                                    <Text style={{ color: theme.text.secondary }}>Aucun lieu trouvé 🔎</Text>
-                                </View>
-                            )}
+                            <DeepSearchScreen
+                                searchQuery={searchQuery}
+                                results={filteredPlaces}
+                                onSelect={(place) => {
+                                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                                    selectPlace(place.id, 'map');
+                                    setMapCameraRequest([place.location.coordinates.lng, place.location.coordinates.lat], 15);
+                                    if (pathname !== '/map') {
+                                        router.push('/map');
+                                    }
+                                    setIsSearchActive(false);
+                                    setSearchQuery('');
+                                }}
+                                onClose={() => {
+                                    setIsSearchActive(false);
+                                    setSearchQuery('');
+                                }}
+                            />
                         </View>
                     )}
                 </View>
@@ -317,7 +290,7 @@ const styles = StyleSheet.create({
     searchInput: {
         flex: 1,
         fontSize: 16,
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'Inter-Medium',
     },
     pill: {
         height: 38, borderRadius: 19,
@@ -328,7 +301,7 @@ const styles = StyleSheet.create({
     },
     pillText: {
         color: '#fff', fontSize: 11, fontWeight: '700', letterSpacing: 0.2,
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'Inter_600SemiBold',
     },
     toggleContainer: {
         flexDirection: 'row',
@@ -376,7 +349,7 @@ const styles = StyleSheet.create({
     resultName: {
         fontSize: 16,
         fontWeight: '700',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+        fontFamily: 'PlayfairDisplay-Bold',
     },
     resultSub: {
         fontSize: 13,

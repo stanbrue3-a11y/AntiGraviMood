@@ -1,0 +1,134 @@
+{
+  "id": "poi-230",
+  "name": "Les Caves de Courcelles",
+  "slug": "caves-courcelles",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8814,
+      "lng": 2.3042
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJi-Hdr5Bv5kcRhkCbO12hbHM"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 803,
+    "moment_count": 22,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Sélection de vignerons locaux",
+    "smart_tip": "En fin de semaine, l ambiance devient très animée, c est le spot idéal pour un début de soirée.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.instagram.com/caves_de_courcelles/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2qJ_XNza1caC3ZRJnQzM4dFU0QG1lfHFMfkyEfpS9AauMRmNyhWeycQjyNEKlPgRfYT_-MSTfFaNT9-DeOZEKRaaIcwhT0k1frDGOljJvCAZfDiWzkecJL_DOd_BclByVriMUcZcrnxv0whxNWw1bK9MQpBwZ5sIhGtsGXqiTyfNM6E4Jq19u46_fxHvy5CxVjWlS1lgZpD63MSq9Zvq8oVl8z0a5gTxX9MEBfTN4G4Xybr1zmzz83eADYUD6VSQMROnxyMbchwmJm_vXqk4sLA2gjM-VS-iUBUfVLy9TpJw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@caves_de_courcelles",
+    "google_photos": [
+      "AcnlKN2qJ_XNza1caC3ZRJnQzM4dFU0QG1lfHFMfkyEfpS9AauMRmNyhWeycQjyNEKlPgRfYT_-MSTfFaNT9-DeOZEKRaaIcwhT0k1frDGOljJvCAZfDiWzkecJL_DOd_BclByVriMUcZcrnxv0whxNWw1bK9MQpBwZ5sIhGtsGXqiTyfNM6E4Jq19u46_fxHvy5CxVjWlS1lgZpD63MSq9Zvq8oVl8z0a5gTxX9MEBfTN4G4Xybr1zmzz83eADYUD6VSQMROnxyMbchwmJm_vXqk4sLA2gjM-VS-iUBUfVLy9TpJw",
+      "AcnlKN0iR6j2Lx_zaLoB4dv3FhgdwPgLpoY1coSCqVgx3pgpKN-7uFCaDR_pC93h9HjvDoBYcIkKrZirSjmF8fIreoua4TtzLEh3AoU2KwFWU-T6TpEgc5MFIEOEKshgT6LfHhvup4amIEL2547Fpji31qlsquWtHCiyJjyGlWkfhWaA2GlFXsy22R8rvvXAU0B2Pd2qHgTCuY_0P8CNAk3hH0Hril1cwY3pS_E2_71PZymBi_ZS2Nf_Cltwl5ZKefHpT5VYChZVqrDtFa9zEc6B5qFSc7QrYdtxVG1fh6cua4joacfF2I9TXuDUO0o8XZgcv_0PJZG3m71FYOToyspEGVkAMpJ7Yn2LwF_P42Ulxhaq8oShchPZYlx-Eo9Jm3Yt1jKnwoC7c0NumL2lcff7fi1eOs4l__iCYHyGcGGd_pqHG98",
+      "AcnlKN1QaFiF9x3HDc724kxQSTU-sidlE0PMsd4QY38GLiBaC2hzPX8ca_Ysi3TrJvvsQGxlbbO6sn_Fa_I0DHAqukqrGTBHWAbcXteDqrifn57Rt1Cqw6SD0QPCnNE4PIoTydHbbDWY_-HeHmMboAlzL_LdDp_SUKCX38FhAOfkmgEAeqM_S1oUlwpSJTGLeGoZc6PQ58MBh1H1XeaiPVkySAMGo8EuoGkS3qaDropLvO1cDSXg6yar2buZthhBZnvV7Noe8RB5a6d0KEFS7vByt7gd18eBnWfynZxBoUIpDmkGT1-I_CyvJniO77UIn7V9Tp6Jvj3Qv9DNB_TdSRIc8lh6lLYvP_u4sqwoTZ2Ps0qJTduGHC3gT7TeRNlqnW_Wb4dVbvV7WciWPNGTh3ijWzzv1yFVTud1Vo5TW8ykTmUCamw",
+      "AcnlKN1O4sKQl4G3QN1pIvvuergtt7Pobbvr9ovAY6SOv38wMJMzEh5HrL5LWfVy6hj6bGT5bS61hyvoRlnf1gK0ksJUiGRG2jU9m7NoyBDFigenzKt6ie45Agp1w6gfny7tJ8xDY4qfw4uw6RYU1nMgKQKUtDn3zYpeus4SKBzPncloOdnGN9iXUWrptNIwK7cnfknmx_SLbsCsBmHb8XSZ9EdpXbf00AuEHKcsa-we6wMG99W8FnGHaAn-LGo8KstKx8WQKazwwHQG08uG1xSgkhs42yx6wGxJVpOlobIvXLo0IvSyDX-t6pHS0bQ5VOqV49mJvBj9iVEmRvhFZxKnB4voxsvvuHfbmgBlZ563xoJe8J_mHcwHnLqe2z8zmBU4teMSLQdqp5kJEAZa4qtCv8cUM1m5IWH1yN8oxPQCfYmK-g",
+      "AcnlKN31DUtkCjIyYULjsQnsOYsfhToydccq7p5hGoI-e8zDTlnYELfnzcDmVmjHn7C-w37dJe_bN0krNZB1GaeXmIp6f9t4Y9qpqHfCO_qe-v43FgWtOt1Yp7K45vm2G_d3V25oRrfSABiT5JmUl4etZx1eS-wb1uMwhdBKCekKllf0DFUNVzll2uQXJjEG5PvtN32uz85NLFgSpk4FI1i_YYWR1xpUQGCqN0TJMHiYquf5tA4zpk-rU0jJWZbgF_O8JNn3cX-_p7UeC5RMa_zvNeAApjsYTKgEx5THp7dAXq4VaA1l8juy-Rgm9fe6FQ3zWaRP-Qy2NGpV2zzxgL0nUf90I_yFnUcXOOy61-ELDg0S0RdJq0f8qQBXI3X3LyD-eVYSWjLPfOVspwG7LeZeCVgwcZj6OnOqsmNRSPwxttsplQ"
+    ]
+  },
+  "description": "Les Caves de Courcelles, c'est le bar à vin de quartier dont on ne se lasse jamais. Ici, pas de snobisme, seulement de l amour pour le vin et la convivialité. Les murs couverts de bouteilles annoncent la couleur : la sélection est vaste, pointue et souvent axée sur des petits producteurs méconnus. On s installe sur le zinc ou autour d un fût pour partager des planches de charcuteries artisanales généreuses dans une ambiance de village qui fait chaud au cœur, en plein cœur du 17ème arrondissement.",
+  "real_talk": {
+    "text": "Le bar à vin des bons copains. Simple, bon et toujours chaleureux.",
+    "must_eat": "Planche mixte charcuterie/fromage",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Habitués de Courcelles, trentenaires du quartier et oenophiles du dimanche.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 16,
+    "value_score": 7,
+    "category_percentile": 93,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(16.0€)",
+    "pint_price": 7.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Verre de vin (Sélection)",
+            "price": "7€"
+          },
+          {
+            "name": "Planche de fromages",
+            "price": "16€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.9,
+  "google_ratings_count": 49,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

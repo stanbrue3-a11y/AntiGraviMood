@@ -1,0 +1,149 @@
+{
+  "id": "poi-066",
+  "name": "Musée National Picasso-Paris",
+  "slug": "muse-picasso-paris",
+  "location": {
+    "address": "5 Rue de Thorigny",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8598775,
+      "lng": 2.362285
+    },
+    "google_id": "ChIJS2t0QgFu5kcR92388prakcE",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 294,
+    "moment_count": 31,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 85 56 00 36",
+    "google_maps_url": "https://maps.google.com/?cid=13948169879979585015",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Le Tip": "Hôtel Salé magnifique. La collection d'œuvres est unique.",
+    "L'Ambiance": "trendy, paris, culturel",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "Leur terrasse est cachée dans une cour calme, un vrai privilège.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.museepicassoparis.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrUckguJa8gt9eciHXLkWzMoU93oinQAyEwFbrwbPA35UajiiabNR5fE-6h7AcpaD1YOKXwn4jTnove9pzVDIyWVGzH9WXLCW91ti6B4rzf63q-Nrh9pAE5UXF3dw988eLVuF3A9jFgoTuOhOAfV4-Rqrhf5wWl4yjt9xnBHumA7UI0x4PBltcvwQN2-1w8yDli7ET1W0aXUQCCvGpD40ayEfOZHH9_7p9givMz-RETsClwY038p_JUo6wlu-HvAEreQVjplzRU9CndgcFdPEbvQdy_lz7DsIId-R65TyMladhbqIc_K5ygj3OCggmtZsLsVHVJ-Q3AfRPCB_ct7ZFlkapz83qWDKHEXNMHgV3eqaycBFcFnFzcEIktbYhW5eopAMG6Ol0xcdgvS8CIwJrgNZ0qP7YNoE2gQcZ85Q8",
+      "AZLasHoJ0PUtSuythnIF7PzpnR7XAJNTYsytHx6JHvRa15iLPzjZ4AcKtAzbmLei-EemV3A0gEJXdWqpn-k5uHCnImTe0VSsC5PnxnO6IyvocZhs3hWMLVgMCS0nTF6065E4ReslsJggUg6a1B4ChtRzqaaupx7xsSzURN4jfpUzVtSVy_EVvSvtplHrHBW9nz_GANUApXk4EpzRvjp1jruEL4ETyKb1oBMeutPec7c8VmxKV9scUbNx46OXwt5DD1zdSyVfhNMhvIyqWlqlk85OhzIe8AqJsaGm_YmR0dZDID-C43jh0iHi_vaRAJvM1JhGiuFdywP9r2ejFm4EHTfPVFcYxsTzkK1nHeJhVbrjET7sRFcUh5RgxMGZGWyttBn-fweEBkeronvEUa_dcjoyekltA7HKMcMqPePrSQwWDSG6gTRO-UIncuNpXq-BkSiK",
+      "AZLasHotAP2FHFzvNy1O1BleYqvyo7pqgVhBUu18BTlJQKvkscjfrlWtMsNZDz03gn2Ov2YRa7ezdCSOe6ORMUQWw0lVMGcWBrxnVWNRh2YoMz5EMGuDCgSmsCXLLRQcc9-cnQOyRWLwDlSgD1x2HNduDqJPlP8yawrz5WM-tpVWW6JPoVG4c2zLqP-69ab_dgrUd--KIVzrjqLCCVYQlLKzVK_Q-PDS_2J99aT4oON5-oH0N0hCL6AVi78wLSQL6HLiUqMpttIOvK2siakGdb2rqI4UE_oWSU7IVyQfkn5kCGq4oiKipGfx_UibkqtbmGh1r_9cuxmM_4K_JZAPieicqiEnrhpae81NjqlzqNlfzqmLZulLvSbLLj1vTLyP-tpabswqazPY-b45iFZQqGzCsKTiSk0A-QrgrpfijmsgxI3_Btvj",
+      "AZLasHppepfG4dvxk4yIdzMeQr5_hnMqLvHwyqbXs-_KV1PWtprVLANIqGxFqK1zizcE_1RY1ZZ_gigLUml_0l_SQhSFQgTILhPAv1LDCZXoRCKof668nrIOMjWkaVWPCDa29PVyvjEr5FzvsVVp7fAnfKj018J1jXzlymweqJifjY0pUZzbYUgi2-5L6YZC9bqNUnKhiSaUP12DC1Ua3JxwEXnbu6OAjbCacekSYW2FpEJmqjTRbopNBaLR9ZKbuXjUDFtK2A8WWyFtQzeb5eO4qa7BKr0Pr-h4pZxu5SE3T2FxpRj9OkcNE7-Uzuq029wKDarcwZaGTsput8YQeRFcAOwP2i-SRqE5mCLxEUS09UVwQQchM83E6lkakfozX6_GKZGPlAKAEh0LEuMCyWfaqeqq6-l6SLQMmDDmmVS9Wosp_9YE",
+      "AZLasHo5jdG8vDis-HKBh4iHg-2pR3eamEuZM2Str_E8N4r5fWLAhgwF1-zrqHwTl-gG0PcVoGm5dWrROfItASJDMzcf2SEgHu7ICN-_sN91W64xFJI_phHcgEOAmeHhQZBmZLHAl2PX9YQF04sPzA7ACwY64qnoVwayakDOeXc-M9JInsmt9NQuANuNb6Cm87FbrmrWhFaAjc2OfQVFYGecvXeGJ_E9tYqsEkbE_XRbkYiO9O51G2UgDjVFrAmnz8kcNkf0I2E7MjIoC8d1qYmtEK9jKbrM0BqNxSI7qFwtOJdxbyZRAkxGHw6uAo3hbUsnuXVwgbQX7_dYagp47MGl32MO7W0_0DvLPdWROgnAAQgjhb-G6jnWQONUBJuEqXo6S27FSdhinGdHAAQSb8FRCiA5UJqULDDGfK0QiVFegrfMgxg",
+      "AZLasHoR1r70LvvQOwI_2zGHVmjqYRy0pr2AX_Y2WaHlZiHFQT1qDCHv6ggp1F0kX8T0UcR2c5nX_zpInQvMEEMQvCFsgaLMFcN98TxJiyxnMMSrj72Lq-TXQC-LcUHQDlllrKHk8CUeCoKCM1EkqlqlZfleLJxi3nYojjhg6Xsx4H0kt8_G4g0b6PzG6UVJOkKoebFNOI60TmqgYxiPP9QyyAc2SPkWi5Np7AhbpCZ4PU8LaRusVGVWTFVZGRRq240y8QBwBYivtOaJl4V9pLUZTIijHs2a5C5F3F9jlEmuO68Bvv0VYZlP_X_8kX3-O40HI49Ne5tMXN5N2kLWCrR1q4bX2BKEyFlINvoOnjJLjIFZfZt0ebWTdAtDGUtQrsZ6wBvf3cNyZ-4gW4QHVqWeuWIuWNhiE-vlKFfFOkXu2lE0tw",
+      "AZLasHoUaUjA4efua13zm1cnN7lo26sg__TnTbWcusQQ54UFAj5UZEVmE-9KPF5oAQe5JQ5coabh3VqA8PkmCviPnw4wZB8uAXPCP-kf0f6J-Rg20v5T19nb7V9xRveF-JpFgQRxYFp0k0BqAOZ3phAMYXeUv4hOlNAC2XW0KFGVeLNT5QZEh9tK5ja6uftg7wCixsMFlZouBzIPobiOPimEG5s-ydgobxUjWt7WN3krh5wphJPM0MLjc_DwWwZzxrdiV5_tsQ-Oerb49gr0do-RTzL1ccRHCadw4MnuNUXPMK4sgaoc11_pRY5hcu3s7slI3H0wuw-l9MDmVn0WtudmiotO_X4djfUy7UnDRj3BRrr80psLDyQNWDIXkKjdF049apq1bD7iOcHyYa7E0_dMGhB-QJ9H8_VyAe4KUEgXVINqzy1F",
+      "AZLasHpXQEh_P6zdg0VxuWx7SICnyGNjkoSxfsllZHIZJtdrGocqYEFr5UciploCi92Pl9IOx9djPgfAJYMEa14xwHEtp4DEGDYH_1vdy5fKFVYAqXUR6PntJwtLsFTH2gyQS395ymKX-S0W5mrBsSAnsghHxWXAiP_erAzO8KxgFwZpiThRijzUWhpV1S-vHTWV1sHNBAAoWjJb5abzmrquFu5mUjv_zRhf0R26JHh7H51hi8CVW6DNpXNJf6yy1OYzNvU3ny6UQWpKvsCFAXtw4apSutUvaq4n_lNtW1KgcYvhn8yqwXURomhf6Xwo0LS-Q50B-iRSmhMF46xEOHweGAxnEHr1idlumbqMZ_ehy0dKE-uyurJY2sbhIQ2p88NOHvYYh7HOqk162LKDIX9qOD-GtS5-CartfFv1NTFrUogr98M1",
+      "AZLasHoXmcS7-8E4MXmxH7yzJTWqRkaEUi92L_m2u68W6pdrQwY4Ar1ubhMAfDCkCSTbmz7Gq_WYkXDZcsGPltqiCmk_Mb9n11VRXMWB3VVDRdovOsZgU1Qka41hIhv-TCwQEyUmrXt9t7sCv7JtkTDj749IqKooMklqBEBzCIF41X3Z27QWlVpxpHXkxtz5Up4zwhtLBRnfP3IpVQZomePfXSm42_rjctKAtLZoVvZmxKRHxNcO_tibu_Xty2k0HD_lmDMOfIOQ7Q4kgTjYN-QtdL1J11Oain2RwHjs5YoPfDUX1nAftc5xYDDFPckxgXMlShdhRmwwDrN8pB7Jilnde9lL6Ol459LcU4AiBU0QgRNbFvTbuDfabQpCED8gIeFRxEHWKBeByLxA-6hXJ9gIEKTaGB8d1UogAUshf4XoSuSxveVHLYl_zHm5OdIYFJhf",
+      "AZLasHpEQQgKNtHYodBdMboD1KpejOmGhNg0tMAp-5kpjUv9O70GKX6JwIkt_6oZbw3JB7POBd3i-96i8bc1KlCtS-8w3y97xnfoI_TamLiiJrAqdo2K8KBEjX0KrKaWwfANdSJnGHAXv_HyCIccHU_mEcKNhb01J9XnJEhYzDBE5NiEV4i6imCwRBIN5pdCl1kOSzeYzJFpjz9prGW6Xpuw6ogn3OYYYb8bcMxbwcjhfG1yfDo-O-Yog5ffSIlVL8t99DALt41FadCNFRI4BPuv7dYmfS58yURFaWSV5flRnAVXnfnOIasyLqFPSDEthg42pF3ewVGQ6ehAJ3Tszp5WriDip78eaMSCsJxM90YPsRfE9HgaHTvLzoxy0TnwCTDQj0D-qtqMw6i2q3tTsAdkFAJicr99F2WLEc6V6UlJHlY4Gw"
+    ],
+    "instagram_handle": "@museepicassoparis"
+  },
+  "opening_hours": {
+    "standard": "09h30 – 18h00",
+    "display": "Mar-Dim: 09h30-18h",
+    "detailed": "lundi: Fermé\nmardi: 09:30 – 18:00\nmercredi: 09:30 – 18:00\njeudi: 09:30 – 18:00\nvendredi: 09:30 – 18:00\nsamedi: 09:30 – 18:00\ndimanche: 09:30 – 18:00",
+    "is_open_now": false
+  },
+  "description": "Installé dans l'Hôtel Salé, le plus grand et le plus extravagant des hôtels particuliers du Marais (construit par un collecteur de l'impôt sur le sel au XVIIe), le musée abrite la plus riche collection mondiale d'œuvres de Picasso. La rénovation a sublimé le dialogue entre l'architecture baroque (escalier d'honneur monumental) et la modernité radicale des œuvres. On y traverse toutes les périodes du maître, de ses débuts académiques au cubisme et au surréalisme. Le café sur le toit et le jardin sont des havres de paix appréciables après la visite.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Fans du maître, touristes du Marais et amateurs d'Hôtels Particuliers."
+    }
+  },
+  "real_talk": {
+    "text": "La collection Picasso dans un hôtel particulier. Chef-d'œuvre architectural et artistique.",
+    "le_secret": "Hôtel Salé magnifique. La collection d'œuvres est unique.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 55,
+    "category_percentile": 45,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 14530,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

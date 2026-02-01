@@ -1,0 +1,133 @@
+{
+  "id": "poi-175",
+  "name": "Le Dôme",
+  "slug": "le-dome-montparnasse",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.8423,
+      "lng": 2.3293
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJhVtS185x5kcRkE_U2jvOHoc"
+  },
+  "category": "restaurant",
+  "subcategory": "fruits-de-mer",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 293,
+    "moment_count": 34,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "smart_tip": "Même pour un simple café, venir au Dôme l'après-midi permet de profiter du décor sans se ruiner.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.restaurant-ledome.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1JuZq-iQnXbhipngWeQFD9QXt5JxHH9Ljv56E3CC-cIDH2hhQaC78CPrPx-wb_yfW-0v2jG4gyMkjM7cw0mYVoy6rHOjSbYjRhzBfvvQ6XCXD0JchJgy3vbzdKRvBDSGuNbL_AvIAf3X4d2dyjTPbjMk-ZQr35ESXKSltiWOQI4b2nw4-HVxSjGtfnTdbwKnU9z1X6TZtPHiN5b80QdL7ZhJN5H8_dCnMvNWLvqetK11ju_U_k-s3U2nTYC_MN3E-54jvPW-vZzljYVzuebuyi2_iV9YET6qmG-FjHdbXgGw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@ledomemontparnasse",
+    "google_photos": [
+      "AcnlKN1JuZq-iQnXbhipngWeQFD9QXt5JxHH9Ljv56E3CC-cIDH2hhQaC78CPrPx-wb_yfW-0v2jG4gyMkjM7cw0mYVoy6rHOjSbYjRhzBfvvQ6XCXD0JchJgy3vbzdKRvBDSGuNbL_AvIAf3X4d2dyjTPbjMk-ZQr35ESXKSltiWOQI4b2nw4-HVxSjGtfnTdbwKnU9z1X6TZtPHiN5b80QdL7ZhJN5H8_dCnMvNWLvqetK11ju_U_k-s3U2nTYC_MN3E-54jvPW-vZzljYVzuebuyi2_iV9YET6qmG-FjHdbXgGw",
+      "AcnlKN2RQTuyiI3ntwsdJ-iqwrEIDeNm3rPMJjWuMzdx_ou6krRf5YeTh6wPnpGuO41onCifiJ0HOddXF_uAKnOts7XlRXpPIKNrzwK9BqN6AiXdZRyBWrENXqpMo-Gslrywo_5ekwWl-Kqhoq5ALSot8uVxFApZnsymbaFuMURew842hJyDzOecLtX7B82E3VbTzZQODgFbvZhaZ8LyeySjPr4hoyNKeuyaGJclEu-AOnRGL1A2wlzKaaiQjCDvaJiJLvF2Yof9zRrGEIMMpYfb8UculHDTO8Y8zQ8dyXi1f0Mjpzc4uNbkByAITCsx10yg8IHjbMsaumosC247D5UNEC5QvG9L57oxKrbELfZDKhIw8PyQBnfEEm-Sjhm5paJGWq96gBSE3wdgKiFu7t2CuQhi7ibpaDFELkuzIxqEErvjWAymghb8Cx-7R0Wtgw",
+      "AcnlKN27nMjtftxywDUjFmUt5OLQnI5BmxQEceI2IeQH3H8mwdH77Ju7kI-WrOX2qOZs2mv1kKqU2LFh2dpKe_jimRBQoOPkwtOZUWig56tT_R5p3y-atanhBo0vLOj3jGR3U3_HggovKUlwehoVHlKyO3NgxZQLP0yAunX7VwGqyyVx1db99rN8MvT-oy-OLGOSADZ-G-wxIlHz7LU5oGjcdp_wpkn9mY8J7ZAXRFSEoVBLH0kIsZYxHKhcJBUS86F5uXI-PTGxGMJwkbUFnG9bVTCZdWBj0dc7G0KPuz501hCJ_w",
+      "AcnlKN3x_OWMxWlwMwiD_jJ1jKW-uNkst4wJFhacdxF1kO0yChkmLJVXtoRNzRGToP19i-22FPMpbAQSlzXWlmVFeh7BjF5vJ09xIQqnZd0tEn5kSyo44QmW_WyEA9p5AqCM6EbA6XBQEr-6WBlNz-QSZ8g66Dt_N5RAfARz4ipLv_-yQCdqdgmQm6PlcYfcms2VCPDfd6wRVuvTSsHL2KZ7xat36cCiy2P5qmTZ7JCJFCJoPp3BwErjQPUeFzEy4U9JA8djVczJ6Ab43OHE5HRTLRttQ6N1cVHkRyd1WVB_0GUHZQI-fDb2yXFaT224si-4uMvWwCuR0UKgmEQcS4zbZP3O7oLI0qAAh8wco5huXu5Sih-z5urH8uXma7i0KXpVZwXc326iJNqS326Ye1kYxmhXNwqv6rgthg51GFfqQ9RY58_L922jvxpj0rNoLTqW",
+      "AcnlKN18D0xEZCF61lRdsDRkZ50-AEDjGptvx-eojWStb6IAdZaMm66_zyKhkMXz28fE73pSwLObzNEIDr00NBskJGk2jgxCsHFztrxtFWv0MyqMpQVRngB9M1cUxd9PL8Gs5MboyLCEuviZxblTrOB8mo-lB0cc6S_HxKWzqvfj_Jaai5hEbvgPa_D2Sd42ofYJKU9_OA3zSmFDXBZXd5x2St3xr1ko4scC08gqAwQ4NeFgqWRW_6fqM7Kxf7wyHTTsajzfmSjxwucyVquPiyc6JwxqWCKV_GZLfnoyKPg_2QImlHSE6xlxBKqzVqsP18AeM9YL7Gbl-6RAo0teaEGmgXbgr5vsGLG6qTfzflZBrzeJnyCgYfNOlbbeNxCst5Dkcab7oNlT1coJctAFxRWUI9v5oEOac3dHr_RiYnKgJ6QnLE8kKlzab3URtPnGbqKD"
+    ]
+  },
+  "description": "Le Dôme est une cathédrale de la mer et de l'histoire de Montparnasse. Sous sa verrière Art Déco somptueuse, il a vu défiler toute la bohème internationale dans les années 20. Aujourd'hui, on y déguste les meilleurs poissons de Paris dans un cadre d'une élégance absolue. Des plateaux de fruits de mer monumentaux aux célèbres soles meunières, chaque service est une leçon de gastronomie classique et de prestige parisien préservé.",
+  "real_talk": {
+    "text": "Le palace des fruits de mer. Prix en conséquence, mais qualité absolue.",
+    "must_eat": "Plateau de fruits de mer royal",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Clientèle internationale chic, journalistes politiques et amateurs de haute gastronomie marine.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 54,
+    "category_percentile": 46,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 45,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MER",
+        "items": [
+          {
+            "name": "Sole Meunière (Mythique)",
+            "price": "55€"
+          },
+          {
+            "name": "Plateau Dôme",
+            "price": "75€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant",
+    "café"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 1862,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

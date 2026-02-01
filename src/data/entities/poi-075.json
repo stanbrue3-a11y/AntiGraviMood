@@ -1,0 +1,213 @@
+{
+  "id": "poi-075",
+  "name": "Le Pure Café",
+  "slug": "le-pure-cafe",
+  "location": {
+    "address": "14 Rue Jean Macé",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8519,
+      "lng": 2.3835
+    },
+    "nearest_metro": "Charonne",
+    "metro_line": [
+      9
+    ],
+    "google_id": "ChIJC9HLgAly5kcRU2iTxARJDSw"
+  },
+  "category": "café",
+  "subcategory": "bistro-traditionnel",
+  "mood_scores": {
+    "chill": {
+      "overall": 24.2,
+      "criteria": {
+        "noise_level": 8,
+        "seating_comfort": 8,
+        "natural_light": 8,
+        "crowd_density": 7,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {
+        "event_programming": 2,
+        "dance_space": 1,
+        "cocktail_offering": 5,
+        "crowd_energy": 5,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 6,
+        "cultural_programming": 3,
+        "creative_clientele": 8,
+        "workspace_facilities": 6
+      }
+    }
+  },
+  "vibes": [
+    "cinématographique",
+    "vintage",
+    "authentique",
+    "quartier",
+    "calme",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 1540,
+    "moment_count": 680,
+    "top_vibe_tags": [
+      "vintage",
+      "cinématographique"
+    ]
+  },
+  "discovery_radius_meters": 30,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "Le Concept": "Le vrai bistro parisien resté dans son jus des années 30",
+    "Le Tip": "Installez-vous sur les banquettes rouges du fond pour plus d'intimité",
+    "La Faune": "Habitués du quartier, scénaristes en herbe et fans de 'Before Sunset'",
+    "Le Secret": "C'est ici qu'ont été tournées des scènes cultes du film 'Before Sunset'",
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leur terrasse surplombe le jardin, la vue est ultra-apaisante.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop",
+    "instagram_handle": null,
+    "google_photos": [
+      "AcnlKN1oLDBUr2DYYZdhRHKCq28EHoutZ5p34YjsJTm3Ntj1pp5Z4lSFOic_PAVXL3VorRoINHhG4fwItKHwGMElf-BjQPi2vrlsG1liF0-JR_j3ECNe4vnqiqeC5m3kL5sCXHpCHckZFLD5lxXYrKquS3HOq3vVbo6a-kPOe5MXhknZ7YVrdmVu0U3s89_mfIR4lntHK5Zh7BFmdW8hjLr9FD5_ZccDA-gpsHDnMaI2sFHNFDmIOIgLdC3pd351sekGzhZVZ-ZGYZObPVt1s_J7yobpn14fG8CSGwTbCIyIQW6Pqw",
+      "AcnlKN0WGdj8xGE_byEsKtd7jrqLCaj3YOqKEpcJFpIFvYDWowXJMLLbXNZhx3sjuR-iOrpENza3reLN_sUZy1QZT_hCwh8Rn6vJwGt8U-5lClm47iYSUZJKkV86cxGIPnOLsrlPcqZ_Lp9tDVdkrnVClV31SlI7N7AZa5WT4juOHbJhcL1pSaYX1IhlRR481SDc7NU_20v7gRel7XpfZa75ziAeUYxtdRlnWFyhL-CcmKsIjlmCEfiOeXYm6IpW07PxH7ZBZr5ETqWmBbjLfwAc8LTn2DsmKB_djYFYH2rER5tEpg",
+      "AcnlKN1cixCYYNswpZGbN3vGbKPzK0zJVWkpaKORNEwIdbHafkWuKJJ_kbleEj0XNvfkxlnGHgX4JGJZ0XReEwbAf_QhmbTjyNNnquopKL7c33L8OAWao89ytMTx2XpWkkaY-JViTUalN9sPBkC_8LyGkbYDBlBLrunBMe6NC_rTNiCA8jJVqg4JJFF_QgfBsYvH7xyLIWwRNtE7owK7Wmq6ZS5Q8X2Ij83psPXWHfUOdwIy-qgMw-T0EL9qnOjG3aNnnueIV1BKkno_5BQG4l2RiWhS0Aq75Ojju2XdoRqi5oQwqNnd0G6ubv_AV4Z9dIfJ3oYKBYkilfh-nmnlqum6v-RnLo1Lai2WDpXxJTjwzd36YT8WXhBZP7lNxXks2cYZ-OU5qotFL18PP2ZYZMWCGE5V0S_6pbU5nggdQIA_v85mAQ",
+      "AcnlKN1s4TWEBuDrbr5ub9xND4nzF4-xs9usp7YBwT9YvbObuhyr37JXhT6eudCOZyffZvOstAX8HF6sjpU6cbbvve799TU8BNkAX-PeuP7bNYSy50cgF-gdsYHR6bzM7I-GD8AP1YtBRc1MIZ_N21vzOI6unKhPl8z9Ssstx0A1AKFTnuom3PhHENHwS6uVFKG-ew3p7rw0gPdwpzTdFCiVhgiMWAW_R7qfGa499CIMEhsWpHosuuwYgCXl1parNbJa-F8Y54ExkW98-UbCp8zReiaOe-mI1fJ6iZXZAdx_mgRCzsI4UQuUphiZ-Cj_y_O9Vmkbj13PUb_N6Y38qnz8uwST-6sv0_DTJazDUMip9bHtrN3NnyPEYbyuakR1cLlYqO933iX1vNGgp3d_ckDz44Pxz0Aa7pOv-8m5_TI1AJRV0WK65kJtYa3vpIo2HgIo",
+      "AcnlKN2yrtreQI0YwOFner-N4j-q9dcV489K7vPIq09TwIDJq_UZvqpi3CR7i6yjg6s5DjHGejgEFswyRl7vxtEjjvfbj18kUCH5FzwB6gbDmZwBIBsB1rRAjPkv4dbRvFBLuuvnbhoPszgbVucO_qckyPkJ1nxqrFijRqUD7vVVs7fgHUb6-50ke_nmO39TuPZhBu0151eYuJhy6UHIdj5Lc9Hvf8pZLMzVWHMfdr996GB8h-2-G3CI8VeqOjan0HtuaYEin4z-wrKn5RIxZG7ZZ_weJxDWr9L-XAy8lGILyU326pYleUInGJa3GPQ3pXufTvUHGqFgmYBbSmpGWAkYbcW6iDHwTz7IEh2oiFcQzhzTpzbB2XkdUBXF18tZ_BR9qxC0zjzq2fmDIfuqvUzoNXjRcK4D-noKSxxkgXdY54oramsoUCdALouKCQoZ_0ZG",
+      "AcnlKN2l-gkJ7MVVXrFBE3cHGqv-RKmhX7MuhlbuzjtWo9kIeVCAr2hJf7RbPIyPB41pK6OIN6HDEtTy1MHR7LSmUqMVaIie6Uazei8i4GuBc6RqPTWwviDaoaNEKaIkHb-r9JcVZQoEdigxvguPtVDGJsF0uy6ZOh8MpRnvGBnXL4emC0PDttWB9PN5oknRf-CI6JyECJ2ejpV7VF4rutcnLMtL1a8lRVvrE2iVMb_5giMIvz-z5I6phzDgw-7-CMCBqSVMCFHqjByHGb-ZK54eAbXyU2_EbFu73PMGi4AFCJOyyLeWYVBv8IworYf_XPDhyK9n1WF4ppx2fkEdgUBWX8RbFi-WsGcrxNj0vlOl_eLS5m2XDnv1p_dDHZUJnAslbJlzKU6MEGIjbVSXZVHo_XuZCepQSKgu3MrRKZQ6GI7FYOkQ",
+      "AcnlKN2yj8TELZctPuz2ExAYWzNpuvCY2ejhcLg0979_u7_c6o2Ei0sfzk8lbhRttUW4RsJ5dm23-mxjPdL5Vr-objMGnBKZiLZ3x1LSYuvWKD65zYw8P2NoYjqP0cFBBsg_WlW6wKKDMrsZST0nHkZXfsLeSv8lWc--pum0xVfBGAq8lmdmTsNotqlZ78Zdla6pGrhEiZXlovkp9t1A_ddj1vT9o-NPU7wgUY_hW3-pkkQqo3N1s7ajfLQjnJeCZe1wZGm9iKvxXhNgTplaDA9eaf_5W4kHwuGvc8eC1PYj1Z3TTlzKyQU85FtZZaIi9wVLq0sl34wVRy8j4qNS_eSuUQ9RsFdK9xSKS6Bi4TvYCkZVfWKdmhJ3BiNQL0S6Nnx1a73rcl1O8jjvGa-3q7a-KP6YTbgFzXHEYhv97rWOEzmdvvle",
+      "AcnlKN2POhsHhm8K3eMM9zoOayTU7Izmk0YKo9Bnd_QhLu-Xt20vttlGPI73z6i6Rli0oK0J7WrOENA9WNO3e-ME-2BHKUQ8uUDi6TI7md_h2sgKZCL5qbG-fxo-XiIUh76Fl3QNu3sdOoIMYn7y3jdhUytURCRAqVdtFARG7L5v2hBPnwNoedPoY4s-JekR9r14kvxpCZfhyz58hadkb9OTKoWKN-TnTChD3lweYjVAfneQnFaH3UsoZVIq1PN_2SETsOI6UZ9rlgzoRYrzHDKI2IdflF2rdN4EfEmLY2FlcIYeTW5n_QR3eAKNlfrh5xiWmGm5X3wRxSFoO8qo2WANg2isiA2VJzVKw4agT1fJXLRnal8ncqZlrowuWPohVkcZ8mIXmpK2EwCnvatHx5oLPujjxZPJG7UlFugXQmvvUE8voixQ",
+      "AcnlKN2LWTJp_a1FbpLS_fuxP2ayDKUarfIamvNVi7tuZSU25F3kIFWtNysgwMaGpGwwfTRl7udgCUjkVsnuz8vygS0M2n1cCfpTNuHlZLpSgXPG93obOlyyrKditxBj_d_BHEKcZAMQ-iyBOwhLqZrQki6u6y4wIq0Ysdry6W7F9XkbVY-gLMaOFaEGscIK89pwgdBuNB5643MSOImYMjy-WgcbnhjB0Ngcyfy64605Jhygf1dKz_ZWa0Z_2CouNbz0bDU3647-iy969vGuXUvkPnIHIa3sNEVaXlHyCDVJWYZy8OdLwnr93McGatfuL19GEh_dxBFvrGYOe9pFrubIyIJvwtpjUsbtxvL4fU81EDzH3x2L5Fdel6KjCRL3vYC-nXT0BL0eMl2zZMPh5oc70fOXfWmwPyOZJCe6i5Lh-3ZPpg",
+      "AcnlKN0tNzcp3MaRnBw8Ibvm3uGhekThKvtCdRJ32Dmyi1VVP7irxeU9-4RoyiHjCiz8LJL0_1-RhGmfnHdcQaBAQ0NWpx04bv9fY45MYG1nzLJbVcZ2oV8V1Zun2kjfYKiIXH-56Q-DK9lANOEiUum8O4HkruePC0XFKxzYzVelm8636QHUYyw89Zp_pm9x020I1Oa1fK1NZ6ODU8LKn6gB-cuwUW7Oqp_K3jVL2lrMSqVL9E77QY117-6kkBMCVwOgmobgeGuKCWuo4_APEMM79CVooCyxKx9WqpuaE90JQ_VHxAhTLi8anHffLqbUgK2UvsViFctfxeb3JHpyip3EqNIG3iPUXuIPU7w2wzcry6FePLheiloVsvtzZn8X-8XHLbyLSw45yWd-11czKvM7sKXpeM5UpObdWbHuc9qAnxs"
+    ]
+  },
+  "opening_hours": {
+    "standard": "07h30 – 00h00",
+    "display": "Tlj: 07h30 – 00h00",
+    "detailed": "lundi: 07:30 – 00:00\nmardi: 07:30 – 00:00\nmercredi: 07:30 – 00:00\njeudi: 07:30 – 00:00\nvendredi: 07:30 – 00:00\nsamedi: 07:30 – 00:00\ndimanche: 07:30 – 00:00",
+    "is_open_now": false
+  },
+  "description": "Le Pure Café est un véritable voyage dans le temps, un bistrot parisien comme on n'en fait plus, miraculeusement préservé au coin de la rue Jean Macé. Avec son élégante façade d'angle et son intérieur 'Belle Époque' datant de 1905, il incarne l'âme du 11ème historique. On y retrouve tous les codes du parfait café de quartier : un grand comptoir en zinc, des banquettes en velours rouge profond, des miroirs piqués et un plafond travaillé. Le lieu a acquis une dimension internationale en servant de décor au film culte 'Before Sunset' (2004), où les personnages de Julie Delpy et Ethan Hawke s'y retrouvent pour une conversation suspendue. L'atmosphère y est paisible le matin, idéale pour lire le journal, et devient plus animée le soir lors des apéros de quartier. Son nom vient des anciens ventilateurs installés au-dessus des baies vitrées qui servaient jadis à 'purifier' l'air du tabac. Un spot intemporel et cinématographique.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Bulle de calme et d'authenticité."
+    }
+  },
+  "real_talk": {
+    "text": "Le café bistrot du 11ème filmé par Linklater. Terrasse mythique, café correct, histoire cinéma.",
+    "le_son": "Le cliquetis des cuillères et les discussions feutrées",
+    "must_eat": "Pâtisserie du jour",
+    "le_secret": "Parfait pour bouquiner ou travailler hors heures de pointe (prises dispo).",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "pint_price": 8.5,
+    "main_dish_price": 15,
+    "coffee_price": 4.7,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "dish_price": 15,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CLASSICS BISTRO",
+        "items": [
+          {
+            "name": "Pure Burger & Frites maison",
+            "price": "15€"
+          },
+          {
+            "name": "Poisson du jour en papillote",
+            "price": "15€"
+          },
+          {
+            "name": "Steak Tartare au couteau",
+            "price": "16€"
+          },
+          {
+            "name": "Fish N' Chips",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "APÉRO & CHARCUTIER",
+        "items": [
+          {
+            "name": "Planche Mixte (Wagyu, Bellota, Comté)",
+            "price": "18€"
+          },
+          {
+            "name": "Jambon Blanc Île-de-France",
+            "price": "7€"
+          },
+          {
+            "name": "Tempura de légumes",
+            "price": "6,50€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Café comptoir",
+            "price": "2€"
+          },
+          {
+            "name": "Pinte de bière locale",
+            "price": "8,50€"
+          },
+          {
+            "name": "Cocktails maison",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café",
+    "restaurant"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 1128,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

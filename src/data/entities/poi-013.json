@@ -1,0 +1,189 @@
+{
+  "id": "poi-013",
+  "name": "Rex Club",
+  "slug": "rex-club",
+  "location": {
+    "address": "5 Boulevard Poissonnière",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.8712,
+      "lng": 2.3481
+    },
+    "nearest_metro": "Bonne Nouvelle",
+    "metro_line": [
+      8,
+      9
+    ],
+    "google_id": "ChIJX3AIchZu5kcRB4kmkKyOy0g"
+  },
+  "category": "club",
+  "subcategory": "techno-club",
+  "mood_scores": {
+    "chill": {
+      "overall": 10,
+      "criteria": {
+        "noise_level": 1,
+        "seating_comfort": 2,
+        "natural_light": 1,
+        "crowd_density": 2,
+        "music_tempo": 1
+      }
+    },
+    "festif": {
+      "overall": 90,
+      "criteria": {
+        "event_programming": 10,
+        "dance_space": 9,
+        "cocktail_offering": 6,
+        "crowd_energy": 10,
+        "late_hours": 10
+      }
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 6,
+        "cultural_programming": 8,
+        "creative_clientele": 8,
+        "workspace_facilities": 1
+      }
+    }
+  },
+  "vibes": [
+    "techno",
+    "légendaire",
+    "sound-system",
+    "nuit-blanche",
+    "international"
+  ],
+  "ui_theme": {
+    "main_color": "#FF0000",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 4123,
+    "moment_count": 1987,
+    "top_vibe_tags": [
+      "techno",
+      "légendaire",
+      "sound-system"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 42 36 10 96",
+    "google_maps_url": "https://maps.google.com/?cid=5245443062807038215",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Sound-system légendaire. Bouchons d'oreilles recommandés.",
+    "La Musique": "techno",
+    "L'Ambiance": "légendaire, sound-system, nuit-blanche, international",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Le temple de la techno. Prenez vos tickets sur Shotgun pour éviter 1h d'attente.",
+    "signature_drink": "Pinte de Carlsberg ou Vodka-Mate",
+    "entry_fee": "15€",
+    "bouton_label": "Site du lieu",
+    "website": "https://rexclub.com/",
+    "réservation": "Billeterie Shotgun",
+    "link_shotgun": "https://shotgun.live/fr/venues/rex-club",
+    "terrasse": "Pas de terrasse",
+    "bouche_metro": "Grands Boulevards",
+    "on_boit_quoi": "L'essentiel du clubbing"
+  },
+  "media": {
+    "hero_image": "/images/rex-club.jpg",
+    "instagram_handle": "@rexclub",
+    "google_photos": [
+      "AZLasHpajYWJ5WkrDz4wm0lBAf5CWerIrBecTBYUm9FpLE3TOB6R_KTb98FdgKVYz4l9ZRTFrsvlxv9r3x1RZ7yiDdNWBH5jlmGcnKy6imC9wCATt03145mX6sxigdkHcm68UDHWFlbEuGIFsWtBP-jl-X9V1f8WgNStDdzj1yqLDXBw2unWDEc2Zv6EXeh-I2L3LEfZGVbsuPsQstXHmo_2nXU0JLL-yM0ojqtm6kJTcBCq27Duy8tUWwZ-fpKoQIJnmzrRgg35PW8Ux0Exy4oKQaM799ay0exDFKdTGe0Bekg3IklE1o6nKWyjqmH3dnDqSGXBDlD-KqAEqpAdAJF5GRPPRVFNNGYy8o4SQrBZDmDwFYUBM7iEb_YXDVqMvyUFs9Gy18slCatViAP5xRDM2jmUD-z3nchVC6Xq5yhhCr1Rcw",
+      "AZLasHof5OQTCKUSNCmPssTEXduljQAzCoS9puC9QkxWmfUjiIxyIxb_A3P4-DdMV18J8ybPJgSbMzJ3iLJXZAbVMer92Qyaz8n1A5jOCFKxxRWp-0BeyeA8yYJqRY6_cbgvNTQI15ETdim_rCm_mW2DCMmiW_LvcjRY0bSxONxQzrux-zj4Dfh12wFCqcoIfBz0QhczsywY1EhrIpWYVpsXosfW2IUzgg_T3ZaroXP0KnYGNkKU57pGjqMS8G-QgOcJtFNBKolAU3aUcrSn382SZ-O6ZmhhJ-Dd4GGRvt9AUq7MN2Yq3glga20kF7YMCLyHQbgumqBF9PIttcoHgbPUQB4nw39VRvMiYFk_Zz2JJi8iWvfOXAoS99UGMM2vf_DxSEuPvCcmV_IS1L4Ym6_XPp0D_yaL8SBK0akJKTq3nB4",
+      "AZLasHp6i0TauaqhzhMO1Pd8zUppAqazA3az4DchnlBE5c9Z2aRi7R_4snRr5d6FbMZSYswBtRkMTbQH9RtAd45jniToKJQfCatTwmTmmTohhhWqX-GAPI83VVcDlZ55jienFgYBQ-sY-KmSnJpF9KcTDSjZnh22ioZqW76DT-1vziJj2IHf61RMIoM918mqsZK40TgKIsBgne8VpGDOuLGwYT82p0DN-3enidUu94PBjar1H7LV1Bl79me32kikI4kf1__djJZDUmeodRgpSE89H77o5f4ICqJBhHFTg5e3BJty5quL4JdstqIAiS1X5BEMAHckl1fT-O9OZjEDPvH0iyCtC0IPzD4mXTU4BGT3wVgGYEWNmA9d5cu-Z00gcJLIsqMYegOoibISS_D33BJXav93BMRDX3q2Yy9DK2TywjTEMw",
+      "AZLasHqQoUEbSt92H2kji3MvsuEW6SSI-4wiMOTvRZUkuZ-HH2JDvZajDmPx1FCbgT9bWwdhZLvCC3L4iyoonNtxz5JFVs1kJGjudF_JXybUUt1MVIwf8-qJQi9nm67Z3Ufz6DQxo9IzXZKCNg3NZwIUlkH0-8OwFteZjwowiu4lwPopsiEKbBd4kUJ78rt83MVi5EO5cAquqrUDdpkrxgS9akMITiyoq73lur0cwnqIkkeOGGbm-xo9KrxXi_5O8k5u922_n58VTXsjnt3T2gU9dCPhD5L9nb_TuQt6QUGkTJuuJzn4pneuikOxKmb8ZhLxcscrMEBDUaFjQpCJTejbAILH62xxzRWeP1cxkmWukbhwNiwXI-lnRA63iKvlHTcsSFOf1ionSQ6U98OSxjhCSL4Qgb8jA0YRFRXcRHkCbWHyiDiy",
+      "AZLasHpJ5UhrKKNk5Rp9mtiroGdeo4RjlZeG7HxOQ91j0AO4wsm3BvP4M5k0HNqJqd2lALXvUFPdOYRlDeV9RFiz7oHZupacneQfo39NnQtAm2UtCkz7xXf0YD3MO0-X72Q82KG_iMLXRS9olH12_Xcxb66ZRuVtbBiyriJpgt0Zrk4x9iiIWADgFkTZGjFJsZN-tO6OmAK6s9dXIzODZ7yh97UBaASA9tN9qCw0i-5Q2dehijsYaX9Tmy_dYVy9nDQ1zmbxQmK261-JZXtpYJA9mSyFd6-T95RbVZoC0vcPZiiSI0GkW18n-2qAAJJsiz2kPpeCNF4PhNT3KRyxlkylUnC2lGTfxMwd2kNTd8f986uyvrlOE9USCUvF-MaXy7f0XuGY1XPhjJl8tJWyklM7GrAWSwEMOpW64NZrKrQU803da_ef",
+      "AZLasHrMSHUUULaQ5LnxwtgHKQKN3uPJSeZjeIWjgN-RiGO8W9TA1n91G12qw5iQG8z2RgqjuFXvsEoPV42YFSVHmWhO1LuU7lt-odBb6uPGb1fMXGnWYyH-NZ7O3HHOVblSgnM3kkWKo83E85z1LGVmsLrjhpo4WfxDN-hgY7QEXFejWAQEu65NFZu71hx3kCAKf7TTLCFiGM1D_r-FAF2BpY9693ZtSHNGiN_BGprr7YMMPWFlvcpKvAjz8bM2PJNpsl-FO5vioRzKbzw_cwXtqZJaDdfZs4-qtiLsbVKD2uw_IEJZ7Zkul0WBAPgYPJnNsWyc2e95HZnpDMasH0gNAxiBboOMQmDbagaCEVnr2cGU3_ytFz356XPju0gyGqBorxMqrYoR79rl_BDvke5WhNXlKuRr3bHAuc80djQ00aSoGw",
+      "AZLasHp7NWDQBwPxMlADe2Yezd0HhCIQkf8T8xFr_p_Rvqebw4pg_elj5sPNVtswM-NDHzWpqPUF4uYUnPzBX8-a9JHoGmz33VCk1a4OyMDNDkCdfpuMAN9gZ6q6VHTHXkKN7z8m54tnMOlVA2w8JtXBBuzwhux1xS_nCkQx8000mqhduvf_HzXdJPLF3sihuixgqtKgN5VsCw9QjFece3257S3SA4DL2scUOa2FlquILL0ljU-EZKsHa_28Xtnaub56FQwWibk2Whjg3hyOLyP82bfJ3QLF_6sl2q6hgffkybL7n7aDR4DoNJokweG0CCr6E1JQClcisppYJS9T-JDy8kZsveL7fj8zJBjDJIfqF2R-onx_zU6MksIs1G5-zhR7R92Auya8io6EpcEr_AVRr4WhVnuS_87149FYw6HRxMY",
+      "AZLasHofQNbb8nPHafnGbaakA98IBmOSXTYNeUg2KZltvqcWxqR0zTBTEmVNCapt8ZQiRlXsuDQCChdI1xLwlpttQl_m4Rf7D2qe_lt2YK3mf2PGv4zPa5cwceISGolfbhTdKPH4mHkpXNPJoiGsWaVZflJM0V7TyN1il0CcvdxYAczdg2kWN2KCUgOuz-YlsnmVLajynAbC4AeUFVysZXR3rBIXF3xGSLCK9_nuOh1Y8tjves8MVXpTCTNRHtI3ws51hbgI4eIcf1wnGSxh4AMjw6KyewFAQc5XHuemHRnB8fJlVyN-U8UUiFHeGKi-3ImK8t8hcGIZ_RknCleoCj4sSg4Qd9D_2HYNnRpuVM7PhGpUra3dfgRPud0HZj1ZK3rk2v-AsmP1TDOoeiz0a2My6Rb5EBEwjIgz3EXKsxKTgW0joR2-",
+      "AZLasHoKOTW3ImPnd2SPsM__IWj-jOKa9xEH1YknZAsINt-IKq-00Fp47E-iWosFgX-UiaxGvXeTUgQYSUGYoRRSR1L0xIMNMBraZ-wlfnLlL0IojBZnIHAWOe1XhDkZAS3CuMB1r7nkdvas0hRZDCZLGMyzlSH7MabhSXV4QeBBuqWB6K6hlat7hUFem5Oi36rQjRjHZHxQZHnxBcw1GKdraiyOZk_v1TdFjFAgP1l7hpWqDFBz1baYnPlgBUlF2YdTPrSrVDXyFmpUCy5QF6qZp5yDnEV39Sdzb0Wd5Ntsyqg-rbsuJ9JFHKClfvXyMATHluvZXDerFi_HNAXUpOtNG0JyL-He9OfDSDsI4KsV5nYZOAsDDqD4nk-PN_zbRi7Pda6EcLTXGOJtLr-7Uind3_NBQfwEW8lNWg7uyr_vKcOLjw",
+      "AZLasHol4EQuAeBznB24SORRrSOK6iUXzb4mWV9JOXpKfs_Ni0IvOXXmDtND0BCXDcbe3zk3YTa4nXqOlC0V-86gSMFlnTnrIKdFCPYHN1wcvQtFlxyOQiKMt0Yi7vAzM4MX8kf8LH3BGT8KWz_rZBZbqjrGLYZFu7O-CAdcMViqVWrPKlgkIC0TQlyIGRf_85ySyY5ipJ7qB9QjCCN_2vvw7mzwxUcBXQixL0PF3U_Fcx3umqPV-CFA3wA1jqLqJjcdFoxOOPJru6OhDQlOA7salJ3U-c7RV6D9fKc-EihNA4fx23wmeoReDCe9FWjmYUccO4vJ48dxDN7iG2Bfr4pMUCnc0pPURsolARZLMyQvynEARWNfiUK2B_UyZbWuNoVjpza0chKS3Gzynh_J8ZVPwktTrja0HroOJSEu-4XAGfSk7wLkto1Pm4zRObuYxuxu"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "23h55 – 07h00",
+    "display": "Mer-Sam: 23h55 – 07h00",
+    "detailed": "lundi: Fermé\nmardi: Fermé\nmercredi: 23:55 – 07:00\njeudi: 23:55 – 07:00\nvendredi: 23:55 – 07:00\nsamedi: 23:55 – 07:00\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Le grand-père de la techno parisienne. Situé sous le mythique cinéma Grand Rex, c'est le club qui a accueilli les premiers sets de Laurent Garnier et des Daft Punk. Ici, pas de déco, tout est dans le son (un soundsystem Meyer légendaire) et les lumières. C'est un, tunnel sombre, bas de plafond, où l'on vient pour la musique et rien d'autre. La programmation reste, après 30 ans, l'une des plus exigeantes et respectées d'Europe.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Puristes de la techno, danseurs de 4h du mat et légendes de la nuit."
+    }
+  },
+  "real_talk": {
+    "text": "La cathédrale de la techno. Pas de paillettes, juste du son lourd et une atmosphère sombre. Une institution mondiale.",
+    "must_eat": "N/A (C est pour danser)",
+    "le_secret": "Checkez la prog sur Resident Advisor, c est ici que les légendes mixent.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "techno-club",
+    "budget_avg": 15,
+    "value_score": 50,
+    "category_percentile": 50,
+    "is_free": false,
+    "unit": "Entrée",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2024-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "ENTRY",
+        "items": [
+          {
+            "name": "Early Bird",
+            "price": "12€"
+          },
+          {
+            "name": "Regular",
+            "price": "18€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Bière / Soft",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "club"
+  ],
+  "happy_hour": null,
+  "google_rating": 3.6,
+  "google_ratings_count": 1678
+}

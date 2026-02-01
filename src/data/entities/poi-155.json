@@ -1,0 +1,141 @@
+{
+  "id": "poi-155",
+  "name": "Café Constant",
+  "slug": "cafe-constant",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8571,
+      "lng": 2.3062
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJK5N69Hdv5kcRf_WdpQxGof4"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 160,
+    "moment_count": 33,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation, file d'attente",
+    "smart_tip": "Il n'y a pas de réservation, venez à 12h pile ou après 13h30 pour éviter l'attente.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.instagram.com/constant.____/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN10cOd9O-AvjebZZH-Wouq2S6yHMezpcopSow2O_guO4GaYjXI52NqqKKSJ8u8gyYWboihEfboD4i3uD6DcdUawP0JlW7H46SdFFeK1ez03v1MgWg6ZqoCbe_K3631tAk7Lt3A0DTMnM7aoLea0DcAxgwSPf1oHASUIOKI1RLcTkbhhUrhWa9BdeaYxJAZiqm5ywe7OPElc4bYkqXHLe2iDq3aGtZkQPuqaj67VvLyxA7c2CQJxm3BYWs8b7sgLolSuwGp4c9WjtB1FjUUFePA-CZotb4NiqQVM0gVRXUs4Dw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@constant.____",
+    "google_photos": [
+      "AcnlKN10cOd9O-AvjebZZH-Wouq2S6yHMezpcopSow2O_guO4GaYjXI52NqqKKSJ8u8gyYWboihEfboD4i3uD6DcdUawP0JlW7H46SdFFeK1ez03v1MgWg6ZqoCbe_K3631tAk7Lt3A0DTMnM7aoLea0DcAxgwSPf1oHASUIOKI1RLcTkbhhUrhWa9BdeaYxJAZiqm5ywe7OPElc4bYkqXHLe2iDq3aGtZkQPuqaj67VvLyxA7c2CQJxm3BYWs8b7sgLolSuwGp4c9WjtB1FjUUFePA-CZotb4NiqQVM0gVRXUs4Dw",
+      "AcnlKN3GxWh-o98UwwEPKpoxcH9itk0DQvF-9JMOMuANZXNIkx4Oz5LBJoyZa0pJWeY-Bbq2Tu3EY9ux6Cxfkfnemzvx2KovQdooiGi8-ES0WzqFJ_kWdmGZS1_aQFeYewRCnAWGShofLInaKq7xuizXC_CgrWCYGtToTcz3NYcnoj3_ov3bwlha4_jWZfHZ-kqbJDKjXZxn-u7KbAt4G5XoPGiyDiLaUc0Bft6oINO-jdsg-avxy-WfWKJvAMU8Un_IEtV_ls-ZKy7ko8Ycxh2hpo0jyd0pw5tMvN2yhpaY4RGeyg",
+      "AcnlKN1nre6dBSmbggzDNY8a6MTPiYXUscPjGWrc5-TVnci7wZYxPSasI6HYVGzttZIytVHLEdga2h5n3RtiGCM743f04AEsnrvsP9B0RTgamO4sSmyW83DdA4Heg7M9mQ6OPdw99-YEaI4z7HVz4X_gqpLWrEV2ROaN7vRwXMavyEMjGIZAMeFW5n42N2jyB5KJzMX2ENQQDhfl4jHlqJKvSgzj9LUfoVOBY7dK0gx7p-BWGndzjU7fdamN3zNJnLLFWxVP4ez5Pp6jxwA-bLW1UmuNfn7V07TYL6iqGFBAphuIP8wYTV7t0LedJ0taAxsaOpDDJabwYTDxDzPbTZHxvT0009aXJCOTMggJXcym2tleNzwKoL9XZ5rVUQax1E86EYlwoit4eq7j2iVZSlYF0O1NNgwiRyIWy-F0SeSaAda5PDJAeTvVq_veoGZJVO5N",
+      "AcnlKN1F5IeATrxX655M_BrnEe79Pj6qclAOfJ9nXvohM3L7PgMQ_T32-2jpuyiMSHILFSH9zgwDRQM5uR1dTCBsPzlCMkCy-CSSn1fFtR3Y87vqedYb2-nd0aDDRaxehwZQxs5M1cT-qmQzCVSiben9qxd3dsybwVVDdsrz2tULiUOc-du6lRw8OysGBv5tum8PPKX1mXj9Q_ewgahsoh84bO1fPKwH9eK7w6e0yFF_l5GqkP1YylJi_G_78-dEd4sMJvZse_6jSkPEjB5cI9JRnz47Ah6x_IWYTj2qCF_4EEmJogH_jdGHuns3U9-Pq5T8X66htcLXAwM4vI3k--0gD1Il-BoHj8TNK1-vOKEoddFi4K08JkKVF7z-Jy4dwuRAYw4SlHOyIfmqlEkHUFx2aSW-eSg4eu6jVpoMgXgf4fKzeQs_",
+      "AcnlKN3AEz4uFSt_P67IQUJsf4Bs7bRwZ06jFZVWLTgIwpX9YdBDoiFEG5Y_3CZWpY2zj4IwQGrR5SfUQdEKkr6k3A_-OpGCTy5IcbUzWNDFAWLedkXiZNTCPQayhMfDMyeNP5u5WJmZKx5lOGgU0mmQkjhtCVYA7c_hfHurrlWVKMyhMJ-2EwdLrvGTvUIfcLdgm6G3U0_60x7khjg_vN8zBD5Ghs-KsIuC-Ds3l7rHf9YLoEv90_Lo2cW3OEKUtprfAsl_eQZpsZc0cgZ0qnv6Kpk-y0-1p7AfuNbSy4M-Zqs4aFQOTbsZEUf-ynroo0C3-tWzS8U2_UC1eTypsZRtb7LliHtueloKnwgeOVZokJfO1zv4cQY0KEPGa_LiAbIAbNbZV7cgoMK72S-baOU89AwowpvaAGuY_qZCRhyJF4-tb7mWU3weg5IKVn5Jk8KH"
+    ]
+  },
+  "description": "Le Café Constant est le bistrot iconique du chef Christian Constant, qui a marqué l'histoire de la gastronomie parisienne. On y retrouve une cuisine de tradition, généreuse et parfaitement maîtrisée : œufs mimosa, parmentier de canard, riz au lait... L'ambiance est celle d'un vrai café parisien, sans réservation, où les habitués du quartier côtoient les gourmets du monde entier dans une effervescence joyeuse et conviviale.",
+  "real_talk": {
+    "text": "La cuisine de chef étoilé au prix bistrot. File d'attente mais ça vaut le coup.",
+    "must_eat": "Ardoise du jour",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du quartier, touristes gourmets et nostalgiques de la vraie cuisine française.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 24,
+    "value_score": 95,
+    "category_percentile": 5,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(24.0€)",
+    "main_dish_price": 24,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BISTROT",
+        "items": [
+          {
+            "name": "Oeufs Mimosa",
+            "price": "8€"
+          },
+          {
+            "name": "Soupe à l oignon",
+            "price": "12€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Parmentier de canard",
+            "price": "24€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.9,
+  "google_ratings_count": 305,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

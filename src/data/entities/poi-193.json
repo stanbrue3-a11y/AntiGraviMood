@@ -1,0 +1,140 @@
+{
+  "id": "poi-193",
+  "name": "Manko Paris",
+  "slug": "manko-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8665,
+      "lng": 2.3039
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJK4jwId1v5kcRPwJFpw7bzY0"
+  },
+  "category": "restaurant",
+  "subcategory": "peruvien",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 972,
+    "moment_count": 34,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Pisco Sour",
+    "smart_tip": "Le bar à Pisco est un voyage en soi, demandez une dégustation des différentes infusions.",
+    "bouton_label": "Site du lieu",
+    "website": "https://manko-paris.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1FzI3oB5x9rOP42ax_TKEwohv0sJSNu_lnv8bKUV1yuqU9-P1GtkhvNO6Ol_NsDdC-drHUHx5K9NWWP7P-eap0Hh4x0p2hhE3qXiFA0df1mCoq8p338UUqwsIdOMIaZvipkXJnqtrEx-traFUIiGoZVEvQsooq5CohgHq2156wHaAloX_tNWbS2yat4WhmQyTvKiTKtWDIUcQjQVVzpIjUZJ3RYgFu4d77bc-M3OW1_RjNwiY8oVxER3Ei4UfbB0E5voWPs9-wjOs9m--dLKoc4AAAOun5AzWG6wL1k75L1Q&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@mankoparis",
+    "google_photos": [
+      "AcnlKN1FzI3oB5x9rOP42ax_TKEwohv0sJSNu_lnv8bKUV1yuqU9-P1GtkhvNO6Ol_NsDdC-drHUHx5K9NWWP7P-eap0Hh4x0p2hhE3qXiFA0df1mCoq8p338UUqwsIdOMIaZvipkXJnqtrEx-traFUIiGoZVEvQsooq5CohgHq2156wHaAloX_tNWbS2yat4WhmQyTvKiTKtWDIUcQjQVVzpIjUZJ3RYgFu4d77bc-M3OW1_RjNwiY8oVxER3Ei4UfbB0E5voWPs9-wjOs9m--dLKoc4AAAOun5AzWG6wL1k75L1Q",
+      "AcnlKN3otd0IgsxFV50x85uScH62Calqdul0pPSVYX-Arl3zuWKlctZcIR4ByeiPzK5I5xYHRaleAzobRqkrpMJNHe_-QrOF-mcS1xjr8khr2BGU4pKQlpxGKITB9NtVi5tkd1PlUpLaSUQ5znUyc6ryXYcEXq3Inb6lowthBY5XvZL7a_KhIF8Qk-_uoegXkfL2VmONX_KPlb1-knQwGYPwl-OKq9KqJRsCpuYHo_p9Bw76xMXLRo5li0ubWK1Ba6mjfB0RKdG1Ov2h5sXuIBhz5QmS2tE8dAa1ZsFnaSL4VaFdzsJR881CCixXV5duZe5gER4iR9caejJyRzkY_Wt6Pdvg8NO_3qjsw4n-jMTVVk1ImMDbL2cvnMtSpPusA4AMpm-QHHN4nQA8jn-WbYfxwKdsHf8BE49Iq33PT_gG1Xzl4AQnegL4V2P9gAhTUg",
+      "AcnlKN1o6ihwY_gjAz9yJWX-2CYFbiGOfTd7f5Xh-ERrl4cRoZNX6KtKM7SlfQh5HZbfDGUb2SizsG_9lsn9RhC1pjpxSE-odXfMEBuHmKgqiU0cvILz4btr842Bjf3hLfa65WTjj8_cGaXQ-A1wi09E5mE3-EFy5tKz2ZxOcpMV22rxgoK6AOSJ9q3VCgxqnXQNXmP_Pi6HrrUFE9W5dDCrmOQGwtFAKqVQggduWZmF5MfnJKFPD3RDdpJqK-6aMGY_FYVBFYl67hYgvyIh66vWYctxoHsbXgl_BePeIaG5-thGx22-qp0hZ2fBirdKzHEaUBLek8JxOxWgm91uF12C6whIwgR0cNSkIRjpHIar5gWJXHNGAkk_RFKgNtBSmH1Hly797clc9Nv-VJ1ZkK5eymEWjqP5pAb8269u8YVXV1Wj7WNutaPEK6rX6Rpz_w",
+      "AcnlKN384qMJ43Gtpy8p4YUvWfoJP9_hY1MminjljSW4oSdgVa9e8jNVpjvEZnBlgjRr6KWTxqV2-IwEZtiU4awf957IfUksY6SdZgtF2iWLAT1VnBtWcZY8lST3B2pznVN0_ZOop3ta0I01L9FBCWNbHPShA1czoGgIQGg9iVYq5qKYTzawkSiV_leJBpY1sNDqEeslzzGbqYgn7sZ2_uPVYFmcTJ6M3T2VXl2Iw8wquhZBrXgDCp_6dFGV_nx16xtPDMJ1uxh3RN2C7Gc6t9JnVBTyIZhb8wgIzoRK13jZ0Tr_F2wtN8jilb3GhDqHQjtY9mgB7kgcRzxzrEdAupefutDsSY-oefCzPSsVc_3quNovy7f6maPk_n0pbkNSXdpfJsPTif0l0u_-bqugq2ipg4V7wxa_Qcr6NPQECLJkV_ik5g",
+      "AcnlKN0RNLzX2iYlYvViypMJXyUhkrDF4iWDg6hoxuFbfkBDYhny3GyzO_Yscetomenj5DiJpac9ZCZDWd_FvlaHzF5kuCFC93_q1FKloTpk_dJ7ow6uP-0FQ-_uA0d5RSBPAzbZlZiKRH23tzAEG6R5PFnsZTzeLVNq5UMOSSqeissUjo6oRUb4NemCuCTloPUKIKDYmuQLSWCk_6PsRYrO1qeI9Mmu9R_dOv-u3lW3p9-C6sLspzLuZoYEQFUXFIn7DSpQem_kUPfhm-LnYD-IAsPcuGORHdxxlrEV1OaNkZVJ1ZhSdm6JUz3_7nPL0s-7l773RXh3Rou9yLFBXi9bsnYEUN5fX4zf9J_bK7D7aL786mpxapaUev2iG2TjoXRjeg6ZccrgYbu-_anlcJo3VrCfKNsWwIoqW77Gtd0uBdmfYRIQw316Cu-k0RdAUg"
+    ]
+  },
+  "description": "Manko Paris est une escale vibrante entre cuisine péruvienne Nikkei et cabaret mystérieux. Sous la houlette du chef Gaston Acurio, le lieu propose des ceviches explosifs, des tiraditos de poissons fins et des cocktails au Pisco à la perfection. Le décor tout en or et pierre sombre crée une ambiance envoûtante qui se transforme en fête débridée au fil de la nuit. Un spot cosmopolite et chic qui fait vrombir le Triangle d Or de son énergie solaire.",
+  "real_talk": {
+    "text": "L'énergie du Pérou version luxe. Ceviche de haut vol et soirées débridées.",
+    "must_eat": "Ceviche classique",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Beautiful people, expats péruviens et fêtards élégants.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 45,
+    "value_score": 54,
+    "category_percentile": 46,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 45,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "CEVICHE",
+        "items": [
+          {
+            "name": "Ceviche Classico",
+            "price": "24€"
+          },
+          {
+            "name": "Pisco Sour",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "FESTIF",
+        "items": [
+          {
+            "name": "Menu Cabaret",
+            "price": "95€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 3.5,
+  "google_ratings_count": 2818,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

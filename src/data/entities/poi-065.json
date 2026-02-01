@@ -1,0 +1,152 @@
+{
+  "id": "poi-065",
+  "name": "Maison Européenne de la Photographie",
+  "slug": "maison-europenne-de-la-photographie",
+  "location": {
+    "address": "5/7 Rue de Fourcy",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.8551679,
+      "lng": 2.3590571
+    },
+    "google_id": "ChIJU2iukP1x5kcR8i_OagWi8mE",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "museum",
+  "subcategory": "musee",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "culturel"
+  ],
+  "ui_theme": {
+    "main_color": "#AF52DE",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 412,
+    "moment_count": 105,
+    "top_vibe_tags": [
+      "trendy",
+      "culturel",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 44 78 75 00",
+    "google_maps_url": "https://maps.google.com/?cid=7057881710193422322",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Happy hour": null,
+    "L'Ambiance": "Intime & Labyrinthique (On se perd dans les demi-étages)",
+    "Les Voûtes": "Les expos dans les caves voûtées en pierre sont mystiques",
+    "Genre": "Photo contemporaine (Mode, Reportage, Art)",
+    "Location": "En plein cœur du Marais chic (Saint-Paul)",
+    "Bibliothèque": "Bibliothèque Roméo Martinez (30k livres photo)",
+    "price_range": 2,
+    "reservation_required": false,
+    "wifi_available": false,
+    "smart_tip": "L endroit idéal pour débriefer sa semaine le vendredi soir.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.mep-fr.org/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHqBX0zZMmIY0Gq4OCwxTzx6vduj4pc8EloyLHjkFg68KVP6yNasMEozuguPoiF7NDKxG0MzCKHmH-8jzaH14oKZxOPkbM53_ZqWKq0M9QwXJbspS4KtT8QQG8g8f62NaQuusPUmr9wMHUaCYSO2aSrU3noSKBp5W9b1i0YV5-gx-jX8ij5sZYVV46oGfHbhENC1C2xIMLCERXmmm3Dq-xDmB9WVDV2aVdotSIXliHmgitDfLxYfw6cso1pYKdUVNoHDr6Jpa3b42lXHM8n7k8hZ9WXvxZB7aILkLx-Bh3gtMdL6qj8rG46eLKDDYAVDQVyVc6t-U0PQIzNGHSsuqGA7ZXoQ5ZqgXYHNjw9Q3hXZXty55z12zMikh6mKVj8soHrnlyUmwJ2jaJF6J75Y2f3h1lju06pzwL4aNOVhTlrnLw",
+      "AZLasHpanpKM-1rDFTFfv68bpASuMVdMvCDKcmpXv0dRGveecGABZLw-aJIdYm5JRhWQP_hm_Av0kWLowp3Gl8814tPtBTG7Ty7rNqGWHdru4o2lI8FevuDQIJUyYWojXWRMzBy6nvEDcPm5ptWFZTzJcPAvCrzGL1ywrL3JBTam6D9_6m5-emjAA3--GoI65iWnDdObJQW0OZ5rqirFzOsMwQgmr0qv7FtdMG1Vq2v95C7CcNN6Ecx_Pv_q49_kvB5SxrWKIH5-pyAe1Q0_GUeGp4ZOsX5DJNPbikmvkHA2LROeDoNDngiu2LETRMAT-hJk3Y6qIbwO1DOPJHNeL0fHB3XR4gFRf5N-oaaBvMJFDtG8dTV0LOMYQlqAFbUk9y9j60ftU8XjYCWtont4JeTZisEn_dJjt_Vu_HLss9fpQ9GB-Lo",
+      "AZLasHpdMEniFaawvwIb-mhssnw1X8Qv8XDUrsKPfaSRbLfdMNLLENoow9rd6LuwYtjnM-6nhvkhbDVBUIOxJarxyCntBNmiPxVxyeBocD_wmizMIS80-MLvEqVtOwY_xXcQoFR6JfCZlB3_i7FPBunCgnH7WCv_4XuINVUJyexnDo8epkLrr26bFT7K1aTXcGSZN2ELc4sGkA0McSUV0kYnDssEoaFJIvdbpXQbg7y-XK2NbnzOv7P65uzR9Sgh0dNrkXAPZ2Xag8TH0fSrrC5YtoKwDUqj5GajFad1HvQXK7IJ5Ddq8rg3WlrbOFX8qRKIRuVHv6TnxFie31R-YZQb-nXc-YYSvTRAyfsFr6b0i2p9FiB22RQPzhADmNnaVmvvxhsfwWCBfffFlbKD0iy-ry-soM5BQgrIkdwvZc1lt1Yqkg",
+      "AZLasHqn5e7oX7_9CKGo2d7nUBn924HO7yTSHEyJfTw4qeUcahl1vkLPPV_xI7AcAQNz4ebDx2rUwXvirsCT-SlJ4El7Pch2O5EoKMt2X5TIp8S5JitcCnDRBVo6aks4LfowJIwPOxbT7y7cTEn9jhwKMwzJfpvK7eztgl_Z3PMTJSjiF70lU-y23cz2_1okH8S59iiSDAZiGngb5hlAo_BEgGC75dXDmPmP-fp-hIuG_WwUFZFwuFzOpIXdveGgxRz3mCsx-D_OCoX6_8rluwB0vA8fqBGtb5PDhrpy0K234Wf9xFgr0WVqhgeqNfh5tj09jM5LkiUvH6K43WK12K80Jfq9heBlRjRTBd7FQ3MBbfW-hhMyHcy3z_RWp_X-Rr-PcBV-r1p7TmANIvBHknD67xhYQHdu9yuXkDkUir2cN_ndJw",
+      "AZLasHrN9h7uCAElUZTFj-SVy5wgaudh4Wb-R2_EDv2S_MQOK2j9-ZLEfiNCirz73vj1_3ZDUUhf7BMJMX-fIV7WzV_JaP4YZ475GgKC4inT2TvvlJVNt26bpLGUwMyIRTDQ1lHx8_4F9XvLvQUygHOSxUb1nN42OxqXq3Ifv5oh9Oy-q7_HNPCoJ3-Y3wUbFJd74FAh3eVLuAFb_fMxZYu3VqS7e3jr7YWxAJJrJY74BSVydV2s1NZnD5LYKMGcL0zdpjUREvcNp_NTKCQXFsCmL9XadbCM8elUXH7HEW8jWsCe4ONppPfd-ujyWtj_c7auRmxhkC-sZjhNqc6j_lk29x9ZDkJE_ra8NxvdQOdKjPY8PV0H4gD2L4H6W067qsopg57ZOuEKlaPXys3XL3OaWP-2T3EclOgKO-CYTR7J0Axznw",
+      "AZLasHonNp2l9ydZ3vTCPUS0Ui0H42rpH1SYITXpSz43wR4MhyBWQOec4X1AqEZKQm6JSt8CNaS_4JegdCUaMUN34BRX6eZ7dtB6JTYhjnuRVyStCR8Est0IUts0Lo98GBXw8D63ScuNY8e7cbIoelhVcd00Fx-jhvFongfweyrc5X030wj8td7aWbrHW3_1Q7Lx275IvoUchWhsUhvQBIyBJ3tfDdzZcHIAQvcMCZy0CZ_-JR9FigaMxrQK8CkEqrPtfHTRmtdlRqzL6gB8XlrdUQBh4bMC68vO1tS982XLPuuSaxlq6MZxngBiLRSnlAAwYwRt2_dHFB401oN2QMLfzjTMEgTsmLvK0a44NE0PqsyZPX91lT_87bJJW0h8vkRxwPGcaKxHZBKdRVNCBhhCpI-S0lWFnU8oKzOsJVeAy2QCqBtS",
+      "AZLasHo22GQmTdDx945cpTHZT4oVTRcbTmuo0BQJRukUE1XIOleKEfXHfnReYgcGQFPk58aar9qIqp9-KMEm-NnliyIX3bZ8kV-IUYPlT_38vsjNAZUPBHgXYVmNB28FRQWzjitb5yxSQvy6XnZNXFTurPFe_UROGEIcrEgBHQrpkGIr-rfUKWqYIqH1f_nOVh-pnvvtXABShCUWmL-cDWKbN2AFVieMmdcnKCfENHMs54e9SZPYNAH7fkCreN7NyK_EMHqR6rkh4mNwXTsAraxyAuDIDopzjDDvXEAa-vnra_OyRnq-NNw62cPvuc2Ra_34mshu9N0i-7-HWkUmSYSuNO4WzD98-TdhcNZ29DFHHDYmoAmqRU0CfjtwLL683jselIKULYLZZHDxL4oznrSpk2i4eSkusrsQrYn4vVATClY",
+      "AZLasHqc1NGvUSRYyxrCXO3aUrpQ1uylywe4yHVxDYgyerzbTqU1iZJkAb6LAx8O92KnXq5M7o8oSZbt1EOj3r_JUMlS8EwADcW4e2jHpeW4HmF58FQLteGLHAA6w5Gqotu8LlwWyRNzFqXny1Goll0sgLtJskTf8wv-nUdOZOiBPGN79AsBZtvrKAZXl0sXTPMZjiKvFam__RaQMNvsKpdpMpl_cW5q1Q94NTWBbOWk1CkjH6ndpi7-4V1HHohAmcEnOeoNgH3auD30HfyBJhLiRAczVh7-mXXEXN54L469iG72w4S7Xi1v-xpO-4jEnOkhsdP6anH1HUX1FJXR4A90LeEnxaqx8LIYA39a8WTo7E-IEGYfgjvdsmMitOXsdYpSnINkcfkbf-plZAvpBeG7Zh_3k4tN9YV6f8GcFf6IjbsKMwYs",
+      "AZLasHrOb6Ci5b57gvBUUMJzMRwMnbrWv4kGjA0Etk_qYHNgo9PBi69724y-hAVIsVe_JZ5ZwdHMqo_4Fp2j8hW3j6WKYwNh8nQOHnghZBpzKkcAhw7lVFXytaxAYNLWizCSVAYYIGCKQzHwd90Fl71atn4aup2TkBplrWsaVNtaKQ8AA-zmcD8Kzomk5FfjyLmK-BlpFnnPrfWkJKcRNoTtskO44hzwSPlY-gZD5JmM-Dw80oWIR6NlDsuSu30XsV505KkkZF2pKcE54gIhmCSj15jl4C5kOAF5iWvzccDN9VunlOMtc1xJ_aopSeI4QL9hQRuuLVek-PoMe8NCPykaz-tp3xsW_SIxRqbxEERSOY76ALaeRwsKaUxwmSHsazTRGnLnFwXktgAeUuTGMILt9Vkfgfn6fudp3mISB3CkidWR6OYu",
+      "AZLasHrS2zwN5eIAklfDlBk4cK5dcO-cbA5WiZlCgMF6A87J-fXUn-U8uvIk4C4TvNib98S6K8w4pNI-4HqUcRqO72cfHIp6WPY_Aww7NLOXC5ES0Q1MVbKaHqO6q6l2lnejRcdeoJbq8z_itU2mKgc7vvUamYZsLg2IhOXhcNAYVG6LyMqxzP3LQxMRe02N_iGEkzC2YgfbEjXYioWC9MOAsHuMGvCG8GYdoBv2Lm4S_C3ouCU14XarpEDVzxOx_sqe6bhooodJzVgEqZvbghFf-Psq1bWQwxCE-AstsShU8Js8XIjJqtJhBOOGz0rI4arCmzFDg73ojmYhP-fbGz0LVyTYgU4jdSK0AF6MuS1PXqOdOCD_-mkBfAQAVm74co0ajQnOLLT6L24o2H3gHnQ6mEHj9mgL5xXLzUoVPV7_ntpuCl1M"
+    ],
+    "instagram_handle": "@mep.paris"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 18h00",
+    "display": "Mar-Dim: 10h-18h | Lun: Fermé",
+    "detailed": "lundi: Fermé\nmardi: 10:00 – 18:00\nmercredi: 10:00 – 18:00\njeudi: 10:00 – 18:00\nvendredi: 10:00 – 18:00\nsamedi: 10:00 – 18:00\ndimanche: 10:00 – 18:00",
+    "is_open_now": false
+  },
+  "description": "La 'MEP' est le temple de la photo contemporaine à Paris. Située dans l'Hôtel Hénault de Cantobre (1706), elle offre un contraste saisissant entre ses murs classiques et sa programmation visuelle ultra-moderne et internationale. On y découvre les grands maîtres (Newton, Salgado) comme la jeune garde émergente. La bibliothèque est une mine d'or pour les passionnés. C'est un lieu élégant, calme et inspirant, idéalement situé pour commencer une tournée des galeries du Marais.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Photographes amateurs, instagramers pointus et visuels."
+    }
+  },
+  "real_talk": {
+    "text": "Le musée photo du Marais. Collections historiques, expos temporaires de qualité.",
+    "le_secret": "La MEP, incontournable pour la photo contemporaine.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 18,
+    "value_score": 0,
+    "category_percentile": 100,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 18,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Tarif Plein",
+            "price": "14€"
+          },
+          {
+            "name": "Réduit (-26 ans)",
+            "price": "10€"
+          },
+          {
+            "name": "Gratuit (1er Dimanche)",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 3096,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "poi-186",
+  "name": "Café de la Mairie",
+  "slug": "cafe-mairie-6",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8513,
+      "lng": 2.3347
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJGX3LHdpx5kcR4kgWKLL8Gzg"
+  },
+  "category": "café",
+  "subcategory": "cafe-terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 245,
+    "moment_count": 26,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Terrasse sur place d'église",
+    "signature_drink": "Café, vin blanc",
+    "smart_tip": "C'est l'un des meilleurs spots pour écrire ou réfléchir au calme, la terrasse est particulièrement inspirante.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2JDuek-ln89-E_SUGymbhUaPdkWSLRqVw8LWGd5TKnqoRaQBrI9XPhZ3NTqRTLN4u8Uo_B51ULmppc7RdP2pMGaR8gEmh0xDljfMe9w2RWzT6ZGUdchdlbhN_u0E-JBbVqv7wfaT3tMjKUyuppUXteNZ4R_k6jKK_9bD098gI9sIESWQA8dM6YSfj549xLg-fj4ruK47Tnx80eld8qV6noYug6tzTwzfo5Q3ae3ERmtZiMWEzQs6TmxE-JDmlLMMGc0K2SdhnNfc_EM0P0VdYcrEZAWVkGirHmO_5hljAp6w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@cafemairie6",
+    "google_photos": [
+      "AcnlKN2JDuek-ln89-E_SUGymbhUaPdkWSLRqVw8LWGd5TKnqoRaQBrI9XPhZ3NTqRTLN4u8Uo_B51ULmppc7RdP2pMGaR8gEmh0xDljfMe9w2RWzT6ZGUdchdlbhN_u0E-JBbVqv7wfaT3tMjKUyuppUXteNZ4R_k6jKK_9bD098gI9sIESWQA8dM6YSfj549xLg-fj4ruK47Tnx80eld8qV6noYug6tzTwzfo5Q3ae3ERmtZiMWEzQs6TmxE-JDmlLMMGc0K2SdhnNfc_EM0P0VdYcrEZAWVkGirHmO_5hljAp6w",
+      "AcnlKN1N-iwKlcscaGtgpwy3JacAWTD0f3pizsr6JUwM0zNuArXkyaEYh4JqIl0jXDqoO52JUutiCmeVWb9FaII32fkBM769rT07D2SrJ_9OT4MFW7I2IRRErQeTeFOoO4nNXOn8XN9wfT_5qYPNoOpwXXaZ3jEe3Q_NnVzqDO-OctzdHTf-QS0rRciHaEY64JNVjnuIpChYmtIKo1kvXsPSDSeTFF_WjuxTSk6TJn2yt-bigIn-CJYL7QocCVGk2OaJBOpuOKOYDnEGVRZFIjicxkGoPex4aqDbcC2OxQa26LxZTQ",
+      "AcnlKN3nWAk3smJSbgRlMdTPh9AYO1pJQIBUsn5SHDzwvwPdRoCEc7X3EK2FNTS2tB3qG1JADJSpRnegL-_vJNrwj1sFaj2RU_gPlrtZEECOvH2LlNb1i4xRErfQzHBonMUErCppdn4SXImNsUFR4iWnuxIuq5qbmUXqr_14oUzO2voYnEZdzpsfV00FPu7z2VD76Zwnl-cazvF2OrVuCyqjTzMiOrOCtovFQlQe68I42J9b-w0iZa4ZWbPIHroULu0cA1z-L8IMTACEm3sWYfvrYSaN8aUWoVK5uwffEmFOc6XHrcftrNdoSEru3OAmK5vfduQ88MrsNKNA8SgjQHnFslTragdYq7YWGjHCqId-kjIrFeM0hku4Yi6YJHmz6xj8-wCa5vbqByORDz2EU29pB4aXfwGQpUH8OUiKrZawrOn-KX6n1B7RxP8Zc45wrQAA",
+      "AcnlKN3VBTORGSkeQZVs_tuNkpU4Q6FHqgy0ySKd2_N1gxvYd2Iw-t9EkNrJ7rwpgGcvnt2AHlTOo1wxcu0b2oki0_GAxvOw-SY2OR0KOBB3u1RP-tdnXBrxVqipXK7RxxZklr5FHNsJ56Et60nbTPFhbGAIBM5rJAuU9jOHJ3TDzwOj3db0VjUaTj9-i2Dy-i3tZ0ao8h2OW8ffh2rFQh3Iz0RrG8PVGzLYM7i-rN7baXbN251BOKob0oC1wQlKdMhR_VpDqKRPXfnoDFbTfOGglCp1mQk3d8INWmxdKdzqLFEN4Q",
+      "AcnlKN0-ZREf72zkJ7iMLyMfnBk3uyyVJItdQutEPY8g55cyiPlnNviU26I46UD4Ln9cfJ89tJ73mK9ID29Wsiryjq3gL4Mcf_X4tkIEo4gKCtXzYgw0vpz157sF3wdyWIhRU25erKkWXDo6n2PLnABdJ87_ug0e3WWkb3TdHCLU7VTEK2lExu8VrdPMKMJVCQsb2VhLVU5kx4cyW8xg2rAeQOodvyLIjh0nIb0xitDGL4l_DEi4oQ_81rtJEzEJw2PajmhL-luWb1KGH25APSgjCKW61nAu55qGIc32SrSZDMa3CUjqIzgJGMjmVlJScZbneeVy_Fl6XAy_AtI2Qhm4aZDlT87lV-ng6AAAbngaiQNVLA9VfaJzetK3H3PZ6xbenqo_B3HEvAHg7i_R6f4GLrYTwKeYIoGo_W0PNaek_lKws6mVKeeBAJCapOrSlO8I"
+    ]
+  },
+  "description": "Le Café de la Mairie est l'un des secrets les mieux gardés du 6e arrondissement. Face à l'église Saint-Sulpice, sa terrasse ombragée est un havre de calme absolu. Ici, le café est servi à l'ancienne et le service est d'une politesse rare. On y vient pour lire le journal, discuter à voix basse ou simplement observer la lumière sur la pierre de l'église. C'est le Paris éternel, celui des écrivains et des penseurs, qui s'offre ici en toute simplicité.",
+  "real_talk": {
+    "text": "La terrasse incognito face à Saint-Sulpice. Paris éternel.",
+    "must_eat": "Pâtisserie du jour",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Écrivains du dimanche, retraités élégants du 6è et parisiens fuyant le tumulte de Saint-Germain.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14,
+    "coffee_price": 3,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Café comptoir",
+            "price": "2,50€"
+          },
+          {
+            "name": "Petit déjeuner",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "ZINC",
+        "items": [
+          {
+            "name": "Vin blanc sec",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 3.2,
+  "google_ratings_count": 1074,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

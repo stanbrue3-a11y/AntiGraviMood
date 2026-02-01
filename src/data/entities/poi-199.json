@@ -1,0 +1,132 @@
+{
+  "id": "poi-199",
+  "name": "Fondation Louis Vuitton",
+  "slug": "fondation-louis-vuitton",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8767,
+      "lng": 2.2634
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJJSr0RV1l5kcRzbW6FfxF1oU"
+  },
+  "category": "museum",
+  "subcategory": "art-contemporain",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 460,
+    "moment_count": 57,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Architecture, art contemporain",
+    "booking_policy": "Réservation indispensable",
+    "smart_tip": "Utilisez la navette électrique depuis la place de l Étoile, c est pratique et inclus dans le billet.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.fondationlouisvuitton.fr/fr"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1PAiq2-GyTPFvtyXjyKF__fIm9ACzh_NGzwvGSj5LVOy3tCYxJ2lZk_MWkjn8vU6xPXAuGNWJsVW9zfjA__freWqb85pWLbwjls4O7krEszfW252rbj802yzi3lgAo-P7GYyW-j4ygn4ijxKvWLugonsbUxLt2WXS_jZ8S4_sKbqFlmGc2o1h8QRcyF22HtnNIkHBl9snZKgkWtr0FY5tlr_o80Hrqx9TgyPGyW3zwVa4Cq4moB2FFYCmHM3vcddyhn7lSLuYWERmr2v_icEarBtNPOYm-JsxoShoi-IyRth8IYEBSqiitVBmVk8Fz6OE3b-brMt0q0IHZ_3gQyU82yaN-LLrJc1UqW80Avsa7xJ7BdnZaqvRNORq0qphbyYbqMxkxSmm1Kz6ore0lALTJkY1W7YharEgQm4ejfgvmDKONyncKl2Xi2F39bSv1&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@louis",
+    "google_photos": [
+      "AcnlKN1PAiq2-GyTPFvtyXjyKF__fIm9ACzh_NGzwvGSj5LVOy3tCYxJ2lZk_MWkjn8vU6xPXAuGNWJsVW9zfjA__freWqb85pWLbwjls4O7krEszfW252rbj802yzi3lgAo-P7GYyW-j4ygn4ijxKvWLugonsbUxLt2WXS_jZ8S4_sKbqFlmGc2o1h8QRcyF22HtnNIkHBl9snZKgkWtr0FY5tlr_o80Hrqx9TgyPGyW3zwVa4Cq4moB2FFYCmHM3vcddyhn7lSLuYWERmr2v_icEarBtNPOYm-JsxoShoi-IyRth8IYEBSqiitVBmVk8Fz6OE3b-brMt0q0IHZ_3gQyU82yaN-LLrJc1UqW80Avsa7xJ7BdnZaqvRNORq0qphbyYbqMxkxSmm1Kz6ore0lALTJkY1W7YharEgQm4ejfgvmDKONyncKl2Xi2F39bSv1",
+      "AcnlKN3fhFNWkjJ8k3dBN8rMcPRuKpKhE_nA0W6BPUkkej-CEO0LRKpRFQ50cz6i_CanMFm-lPNsQ-tzjK7OyLn6r76X4GfjeJLMdafl1buPJaGpxmPjiPujpIzgV8tDYkkF5gsxXsLNPbWPVeduwOTjE34gK_k8IZ0A8gP2Oy3qsMnHv7oyFJX_gOtt2eDrwJgUT0DqaAMGtIMBP22mALKDSwRDJrdTifIxbfKdFjRBszxHj7JzwZEW4PDc91i3KtPU3FlHNVcpqPtuifHwxpIx8cDHRmbCsy8RCNB9AgnKdeg8-TWXQS0qxqmuyzVDEcXzL-2Xh9VBx3M_koB9xAeuL2ZBWXmFtc4CmDAAgquwnl76kOYtvMyBRPVPojBXKRNhhoG1tb20T_srhFdo3AdvH0DMFPvrrDFiIQ4Dr8Tm5EWALycKctWPj9j4jkHHTg",
+      "AcnlKN27A4tS2ISuohFnpoGRRD_TzbeopJfW0fcqSXk-LeBUQ9B74paTDIQdcmPfpZYWpHagkTDpa_JjWGUXYXtaZOpiVEXSq3riKmztx5JqSeVGFmjfjbIYdzW2srYx2mS70nuq2yLRQmSNtWn9KVzRk1TU-PZrXD0AX6F_kcU7eVJIs2c4U2eB15pHXiEyPT2uobxs2j3pc8QNMUuWG7DLR9hfEMAkhhsQ914W1GHI4vEKzBep-XFqjT2rpp2BBmqXV2GQPLKZP56xZ4JWMYJih-4FklaaZkxCpkAz5er9A7aDaySGWu0Py9dtxAej4n-zYEoNtqINyFKL8U9K44t38BT8OfLWbdx04O4wYFzTSIWZv9eXyV4aflxat68wDsZJPR29BVDyQdCjiva1IvfEJBIEGKr_x1g9bfDqXf0Ml5qSmAMd",
+      "AcnlKN3kxpSdbErXkxjipNS9kMtxaiyWt5qk9GXCFA5xBcpdhoZTCRSSTxCNrvO5SpxtYofyRlP0mGLTm3FqlBxdqcjOszHesh-L21WS8UYkRN7gLWUnZX8ZADh4EDd83S7Rz18UdoTIU_ubfyRkDpIuhiNsuHpm20R9kQjVNAUMmWjoQT9pra4jzPr39RPcFzXONVEjFvt-f5OnE0b47ZEyFMe6v0Y6hMxdpPccGj8MB6bGMYJSpT5MAeskWR_7LB2XBqaH83JOtV4d8jxrnENsSrwSpS7t0jMDJeXSFhK4FdhqdZeqEV63KSK8SfBfkf44_ktCsu4HOxG5E50mPC400IEsStcD5GXReuX8NrGU3m1j02Tsn_PO4ou8L7SQVjZ6c0LVV-Z12NEXyr_LmBhniUIFlw-Wgz6Wm0idaUuZDO8qnCen",
+      "AcnlKN0Pe008WHftfjYSWfKes8TiV4KdyQ1xHW4Angk8TFhAyy_xBvKc7Alys2rxDmLxAyQ0rlGak04tIS99FucqyNrRdBrXi60uapwUedG9f2FxIKRh9yNXhEqMfW7bGZzsFqVeLS2Y_ETJJgPQk4Abo-5kPFC5sGhDR_YXD9HJaL8RwXlnhCCr100LFgRLQGl5WiadkZdxnc9rtl80m1VPglIn8Fnu5lUy6BThg-6XZl0WhYdVEjOlmkmoLQwsd3GOB5R0AoHH41iap8xPnk4ap7maw1nOJfsUsfZkC_j-8E7cN8GmHocz-wZkEEQlPnqlS0QpupSjMJE5AN0ug_ecjc0CdmPqtZ7AUV6witboE9oM5SjxjrH63xzbFdc_rdc1HPOyKuR1vGaX6pSujPHRCOWxdO4NBbHOPWLwphI-1VkY9hU"
+    ]
+  },
+  "description": "Vaisseau de verre amarré dans le bois de Boulogne, la Fondation Louis Vuitton est la vision futuriste de Frank Gehry. Ses douze 'voiles' monumentales abritent l'une des collections d art contemporain les plus ambitieuses au monde. Entre expositions blockbusters (Chtchoukine, Basquiat) et architecture à couper le souffle, ce lieu est une ode à la lumière et à la création sans limite. Ses terrasses offrent des points de vue inédits sur la canopée du bois et les gratte-ciel de La Défense.",
+  "real_talk": {
+    "text": "Le nuage de Gehry. Architecture folle et expos blockbusters.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Critiques d art, amateurs d architecture, familles du 16ème et touristes du monde entier.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 16,
+    "value_score": 44,
+    "category_percentile": 56,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(16.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Entrée Adulte",
+            "price": "16€"
+          },
+          {
+            "name": "Billet Famille",
+            "price": "32€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 23845,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

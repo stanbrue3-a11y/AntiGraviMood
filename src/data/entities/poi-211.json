@@ -1,0 +1,124 @@
+{
+  "id": "poi-211",
+  "name": "Jardin d'Acclimatation",
+  "slug": "jardin-acclimatation",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8778,
+      "lng": 2.2619
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJBWVK9zNl5kcRYvMftNkuw4o"
+  },
+  "category": "parc",
+  "subcategory": "loisirs",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "leaf"
+  },
+  "social_preview": {
+    "like_count": 785,
+    "moment_count": 60,
+    "top_vibe_tags": [
+      "parc"
+    ]
+  },
+  "discovery_radius_meters": 200,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Manèges, ferme, petit train",
+    "ambiance_vibe": "Enfance, festif",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.jardindacclimatation.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN06LvKJcf-qRKT8XvZA3UO3-mseGH8wkS0Qjh-NEPtOxY2Ni_AtXZO-l5MbQ8_S52_u0hT3HGZd2ZR9azOGXdCqu6QUD49k2Ks5fz3XbcASycsC9yUv8hE28WvES34drUu283dOfZR3FB9CKA10e5X1Mo19tckh7wGJ2fMnPyn-fLZK2OVjBSC9XOmTVlN6Do_dtNa_p4hpB3e1LO5jsUIfbiFA5zbL5N9pG15f-VoEEwDdVO9JBAuK_Y6ACqctLA2wvgY9WyQMqN1sM0-U_CftfVXq7oaYg0eJlXI5SLo_Kg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@acclimatation",
+    "google_photos": [
+      "AcnlKN06LvKJcf-qRKT8XvZA3UO3-mseGH8wkS0Qjh-NEPtOxY2Ni_AtXZO-l5MbQ8_S52_u0hT3HGZd2ZR9azOGXdCqu6QUD49k2Ks5fz3XbcASycsC9yUv8hE28WvES34drUu283dOfZR3FB9CKA10e5X1Mo19tckh7wGJ2fMnPyn-fLZK2OVjBSC9XOmTVlN6Do_dtNa_p4hpB3e1LO5jsUIfbiFA5zbL5N9pG15f-VoEEwDdVO9JBAuK_Y6ACqctLA2wvgY9WyQMqN1sM0-U_CftfVXq7oaYg0eJlXI5SLo_Kg",
+      "AcnlKN1XGmXYVZJVkljsYzWJBgl_1RsrjpTMv53xXyqUhJtknw1_K1Y1sHJTuOppbd4rx71zwceXpzrJ064OGDfMKAccffBDcMxfxLL1cSQft3BmdjQL1o2vUDW2fAFfOgIwmT19UIH6LWFJ533Xk90SJMqZejNU3tYFSqPtcVwrS5xy2HMmjmwqgv_7ZJ0EId8PT3ffDSx4T1JOgxMtGUmGc3YAwMn0aqFu0fkj9Yfb8U_rlN4d5XbEY3Y2U_67januWGPOixxXukoRWGM705fuUo-Qvs9c4GRTIziMPcOdgG-CQmJRWyC0lEmFT9lf3JHBuOvI6ipPcnsvtY4DjJvd83Rc62vUhE55CGYnhH7-G0rfA4BZtYwEkDql4baCyKrhmmYjJVxO0ZG-95nKTcPe14H9N_dCyoQFRcH9nBkPpvDMdQ",
+      "AcnlKN1ruWxgP-aT0m1PELncf7kZkhzmXb5hDUOHKFhMDhsr_wAID-CJlnXD22Mlon-TRTfETnFjI0TpqJyzUm5L-PjB7rqJ_axWAGepwnUO7O0n8AH9hIxjePxcAiXcRm696hJK4wIytd4zuvze8aEmaa7nlueWy-0mKGhWCfIFlc8KoNq2o7tW1vj7STziX9XntWgDx4EDzFCg97HHLCDA4BzkxQ303Yb2diZ3HDXLjsBCKsGBbP7dEm7pLr51IBoBNMBBMfCsEUjC7zCQDvsklnevTGlrKnsZDzvlOCjdVFah0G1ioarX_lPcvur-4Y4ltS5pl6Ym3SDw3-4TCPs46d0BPxaf8-AzeuxZvYRI9xr3U8SX7LjS0nQCW07jxa9gFRCs4nK3qf2aZTNg11jSoTlLapiR4U9GIYhsbU77jasAng",
+      "AcnlKN3oULNmtXL9bNQw4CT9j5eBkx4SuY1SFB0JBlXaipbpoEjsVCM1a-1tMNPsdfPW7OpQ138AVrRx4YNWn4H1lz78J7r_SFltbc-0f0V6IiH4bbFOJs02f2gDPCTko3dXx0cACARRam-Nd6Lns8G1m5pSUBR2Aff6QfhNdj7pujBucC2XL8FIPKlqr20prQeKJaD86rj7aUQWeC5DVO8xmlFVpa3GeLIhVB3WhdP0nULprZ8XUBMHdHxSl5eA6YkXGFCkbsuJ3rI1DRPRuk0V9a5mE05eyh86Dq7CeKs3imorBw2FIb8N0eV9C29Fzb0-b30-fy2nAngv_NJthMSZfRUzsCLM3uC8UCGOFFSC6NRLD7UGM4XgZW0x_DVrqpuiPa7TmoJ6j7xgEI7CiBTrALhmFuE1A27GcRe4NyvR-vU",
+      "AcnlKN2zdwttcpj-CwMYTu-REqGL5EzCFi2KkbP7jEfzbKTB10QKagreNwKVo7_qfaqdgFF791CLUIJ-QXwLutxdkJcZjbTZe2TxCawo3hYyliQVwOrD4Zzp8ckk__4ZCP1uGcISW3iy3oCRqmyPZcjB9u6y2MygcEmR4tHtoTCpqOvKZGZqGzY3IZIrtDi9PHkM1aWBStUZgXtKIS22WEfNbtSLKXVPunRycicumbDWlgt8v9eGBKJOkWF1QTdlVPLnETztducVLh9ZtM9lQ2EURU3kMwD9QTHaR4gi68-82WlG6R2Yww7OTJGxGSMBOqS031U8l27VmSe2dGN43DvKQnHcsDHg1GLZ1FhiaNqV_XQTQVEblmBNDDMRUYXpFJdLva36_41ptXQWIJYfZpXDhJCPANysNnv_pMqaa2G1U28bIeGJ"
+    ]
+  },
+  "description": "Voulu par Napoléon III, le Jardin d'Acclimatation est le plus ancien et le plus charmant parc de loisirs de France. Entre ses manèges vintage, sa petite ferme pédagogique, ses rivières enchantées et le bois de Boulogne qui l'entoure, c'est un paradis pour les enfants et une bouffée de nostalgie pour les parents. Un mélange unique de tradition foraine et de jardins paysagers impeccables, où le temps semble s'être arrêté à l'époque des ombrelles et des chevaux de bois.",
+  "real_talk": {
+    "text": "Le paradis des enfants du 16ème. Manèges rétro et nature en ville.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du 16ème en mode week-end, nounous du quartier et parisiens en manque de verdure ludique.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "7€"
+          },
+          {
+            "name": "Pass Manèges illimité",
+            "price": "40€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 19478,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

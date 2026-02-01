@@ -1,0 +1,141 @@
+{
+  "id": "poi-226",
+  "name": "Papillon",
+  "slug": "papillon-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8835,
+      "lng": 2.3115
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJCbAzjz9t5kcRbRHv49H64H8"
+  },
+  "category": "restaurant",
+  "subcategory": "bistronomie",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 974,
+    "moment_count": 14,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation indispensable",
+    "smart_tip": "Demandez une table près de la cuisine pour observer le ballet silencieux et ultra-précis de la brigade.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://instagram.com/papillonparis__?igshid=YmMyMTA2M2Y="
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1znD5WHKBaSJMgFE5PajUBHBt3vuUxWDe86x9ZyVyDLJIfb2oKD2Bk_iWAHevosG06qyyWOFIyAqkX_bX-pA69UnPEmjFbNliHd0rmvSHxhkcMB0MJgcx1yIoxoCueZym1o1Wsi7eg-V8TUjaD_kC5lGBQpUZo-tMo7_4vxawuMk-gnT69nRzVo5CkbIzYUJ8nSKtKM8edMCF89n6iWlPZvD5JLo4zYh51DlMOMGntzG_yd6L2MovAnP-FRe6PnojR-W02aqp0xwE7WJnSKRr7gtu6VIkDCyKDohRV5P56RMAtLtxTqH2O1GMa_wAXvmNQkxDKZQOwce3Pa2efo7vGnp1AIllp2nPpld7tZkP6vfV6-y4slEhihaVnIX218E2jWdEyScDOQQJxOgynwVnD1DFiHbF2kbAcDZmkjSH36g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@papillonparis__",
+    "google_photos": [
+      "AcnlKN1znD5WHKBaSJMgFE5PajUBHBt3vuUxWDe86x9ZyVyDLJIfb2oKD2Bk_iWAHevosG06qyyWOFIyAqkX_bX-pA69UnPEmjFbNliHd0rmvSHxhkcMB0MJgcx1yIoxoCueZym1o1Wsi7eg-V8TUjaD_kC5lGBQpUZo-tMo7_4vxawuMk-gnT69nRzVo5CkbIzYUJ8nSKtKM8edMCF89n6iWlPZvD5JLo4zYh51DlMOMGntzG_yd6L2MovAnP-FRe6PnojR-W02aqp0xwE7WJnSKRr7gtu6VIkDCyKDohRV5P56RMAtLtxTqH2O1GMa_wAXvmNQkxDKZQOwce3Pa2efo7vGnp1AIllp2nPpld7tZkP6vfV6-y4slEhihaVnIX218E2jWdEyScDOQQJxOgynwVnD1DFiHbF2kbAcDZmkjSH36g",
+      "AcnlKN0bC-1xq7PoWp2jEx1Tnvy1k899YQZWDYQPjAgAvrbGpVpfuK2u5MXIH6ZBY1uJ6_oUim9vEiKjwhY7zJXiQE20DgPQYmuyS3oY_6ZdVd7alz2nsGyLCVPjCsPftZeD25tgzPRxgk3yieriRMRiZvbU6JQ5Qnf9r1iEHLJV4f7x6JUgO0_fvAFVfhTYLI3gNhkWhOgqMcDANfbMGr1FsiMsc2tKob_x3KQGb51VrygJAOWj15pDdRcpuT0nrPQXOG06EpOh6jMjGEXF9Kumr9n1glR6cWFvt0zs62NRTUO1Qb2GfgDzYHigDFz3wQR20KYX78XwlcXBKxyIBq4so-RTV-UCMH6ZmDNgRJMqIog9DjSHJewjL70owIFM49RJIfn_QDeAm0-FIexEfppYja2JVBLuiWm24AxtI3Jqad8",
+      "AcnlKN1hVk0qIpgGyjAH-TU4FudTgBz2TJcdyVwQXr6y9DdN11hmTX_ajXYd9zapYwEyYBS_ASNIsQJwJoohObYtO0uDirztaDumGGhwuQNXZ549nbUdj7R_brWopAWwOOApKGGJqEQtS1C7Y8U1KMm0Iid0ISodRLMw6LAAtNLJVK_jW-r6IHrLJjpXLhXB8sksuJGfaf9TiA49NM-Hdjr5Gum0PuqF9s5s59oZJ-V6p3CPkIngnP8NYrK-x0Avb4mGdv22HkuFcd7yn4Eq7awSOh6yzQpWEXua8Bvokd-VAMhMGpce6mRsjyC045X9erUPCQuKrLbLo9bCWrixUYgPvulAUbRSgpkPbPKHPmxPkXg9WXx1PMoE6ZBUW7ZwXgrVik-wr4tq6C0bLK_zNJXkZLEsBTyRI2FceHNVnI1lfQwa7CZ0",
+      "AcnlKN1_t0orFvMam6Tv8iX9e0n3TArHyJkCa6Ul_r-Oz5y-p4MNxBE4OHvisi4pNvPRbEvLx-FWnSgNSgopHYwu8eEtsXZq2tnmX6q3GlH56kbWO2RWLt_od7QF1nvIFvKTKa5VPWurrZvlPjXbHTdxFYt7d5KhCpaUXujfZ3YKNkSXB8X9MYtiBno3mdy9phxAF7msijiCRoQwtAncZGH12S1-sCJQOXNdr_yKPYxI3vRJbY_TvdihyL6bv6LlSP60ejx2rirIBMFHa4-VkBJul2PnSS6JJYG80IIaiW-4tWJdMgJc1iOKW6dk_ufooD9UbxivelKkX3_d1_PjiTcePEQ0JBq7KsZ_iLl7MSJlVmorwoeGPP_NaFimhLM2yQQc3-z3gfgm37hv34uv7JNi5nzMOc55tKAZ-NnAMn1Vq-eLIgA",
+      "AcnlKN0x8ZxPeetYe0MwmIzEFB-3NzbnB8Mt9QbWYxx9pWxSgprzF5ClUiTKlQNvGqREegJbK8Fi2N19Gn2NAfy261aK2vkciiYZxeEPZgIVYtnkbkjv4htWuGy-4JIN_GqO6jYAhb1jOXhcGpvtdOrAWMuuta62SIDrDq_6tTes-qpBrx6nTbMd4WuK4R3NTXScAxaYz0cg2CYALN-L7iHSGnyuyyHZ7jknO-iZIE8zHaixVy-HA4MAuphELBxIW8QQQDh9TSwoa9R-QOaZJz4WJ6Nv1PIF-7WQe5ajy5Q0iHxIiY__r7Mq-b3ycH7RDtV5w4drwQMBdac9neL94diY0neYvT2jicBv8cKgd7rF3CAg1hFGzKLShhzZg6-I_APmeaiCOYVxNrocXIIjNR2JH38dTQVlmWnBj7IMhRw5HCuXGA"
+    ]
+  },
+  "description": "Le restaurant du chef Christophe Saintagne est une ode au produit brut et à la simplicité magistrale. Dans un décor épuré, presque monacal, Papillon dégage une élégance folle par son dépouillement même. Chaque assiette est une leçon de goût et de précision technique, où rien n'est superflu. On y vient pour redécouvrir la noblesse du poisson de ligne, la vérité d’un légume de saison ou la gourmandise d un dessert sans fioritures. Une expérience gastronomique moderne et lumineuse au cœur du 17ème chic.",
+  "real_talk": {
+    "text": "La cuisine mise à nu. Chic, simple et techniquement parfait.",
+    "must_eat": "Poisson de ligne, sorbet maison",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gastronomes en quête de pureté, clientèle business du 17è et amateurs d'épure stylistique.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 35,
+    "value_score": 69,
+    "category_percentile": 31,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 35,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "GASTRO",
+        "items": [
+          {
+            "name": "Menu Déjeuner",
+            "price": "38€"
+          },
+          {
+            "name": "Menu Dégustation",
+            "price": "75€"
+          }
+        ]
+      },
+      {
+        "category": "VINS",
+        "items": [
+          {
+            "name": "Sélection de vignerons",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 133,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

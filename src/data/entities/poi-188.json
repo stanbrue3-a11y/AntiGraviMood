@@ -1,0 +1,132 @@
+{
+  "id": "poi-188",
+  "name": "Hôtel de la Marine",
+  "slug": "hotel-de-la-marine",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8669,
+      "lng": 2.3225
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ0zsd7NJv5kcR2_5nDJEof54"
+  },
+  "category": "museum",
+  "subcategory": "monument-historique",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 440,
+    "moment_count": 29,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Appartements XVIIIe, loggia sur la Concorde",
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "Allez sur la loggia extérieure : la perspective sur la Concorde et la Tour Eiffel au loin est royale.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.hotel-de-la-marine.paris/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN20IlR1zflHt04t3PmoLgB9d9NVv0RVbdHnmxshBGHTHYykDLn3dGGc2TTvLCww-S6UNst35nOyvWX4WypuhfxA0HO_541pdN8-lRv8WXg3qJMlVWU8bh1pe7qr7PWIjRiYKykiHmHE49igqVPWZ_VHyCZxnG-WiEkKq5x_nMDJBWUm0ad2s5vVvFYTKTh30tUb9hXu1s54PHUFYxW9UXR0ld8eNnocxlQJ4_ty6cDZ70ICA-9JOIXhagY9M1t7jRoW3CWkEfq9VnIfJEFkoh8Z9opjbi-ckVbqsmk7Gfb03HRRAutTOrOpU9cr1HZM7k66wPXbQkl6FJFKDNZ9VOVeHKB-IPUn7qjGTlJ9N1UCGRsUVh3_aCbn7ntFetKsvJV4JSsNm972-lhtEKuHL23Gi3YLD0kPFElTZcA16-C413lA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@hoteldelamarine",
+    "google_photos": [
+      "AcnlKN20IlR1zflHt04t3PmoLgB9d9NVv0RVbdHnmxshBGHTHYykDLn3dGGc2TTvLCww-S6UNst35nOyvWX4WypuhfxA0HO_541pdN8-lRv8WXg3qJMlVWU8bh1pe7qr7PWIjRiYKykiHmHE49igqVPWZ_VHyCZxnG-WiEkKq5x_nMDJBWUm0ad2s5vVvFYTKTh30tUb9hXu1s54PHUFYxW9UXR0ld8eNnocxlQJ4_ty6cDZ70ICA-9JOIXhagY9M1t7jRoW3CWkEfq9VnIfJEFkoh8Z9opjbi-ckVbqsmk7Gfb03HRRAutTOrOpU9cr1HZM7k66wPXbQkl6FJFKDNZ9VOVeHKB-IPUn7qjGTlJ9N1UCGRsUVh3_aCbn7ntFetKsvJV4JSsNm972-lhtEKuHL23Gi3YLD0kPFElTZcA16-C413lA",
+      "AcnlKN0lEZohxJ6CapNqMIMCMDRNgjiH5Wv9Su2lVDPqR-9oI9eb_Nwg5wKVoyR7yEWWY_w3BQdVmwX9cLoXxwb_bYuJSB2D_N64wcrfZjgUQXmyYY0wg8nuE2xL0g5wOzyI1RmVi02X6m5uyEW6Dc8A7oKo-8HJ6Qy7NNFoQKD-ETEiw0My4bDPrsf4DvPClac_kTLZPu9U5cnQsmu1x6OGpscYPSCUXAcqNwNGHMc1K_mOCTrBHnE8PghkN6Wtnlr4E8D5U9Egfv97Q9hWSzy1IPicqpANpFCco1VBhtJr5LAHLoqNX2YdRQ8u1zLZ8Lz_vVCVpKE7K-AVnUDlbXb03U5QK2iKRaYUPBJaJWJBAE0F31JjosCFbIYbL01NuTRO2bQsLBud2te7U_hDWT07H0NmB4rVo7xa-8hSpqbBuPQe52Q",
+      "AcnlKN2yiDLitJ_CljZdg5euEHd_j8CBt5HzpxSiTcXVNriJlSHyK4aq__y0IWZ14txKMt49YiIz4d2iLvDCAENO3F8_-4cx9N0V1MfCAavG9po9g2GKkHLqEiynvYGIcZas5Dvvw1yBnIMKOAbvCivwkCG0c0xmFmhavvg-Rb1d-ecEoYv94a-1wvuaKE-KvjmcFanM81AQAlGI7hw2T28JPnNk5YYolgxG_YBH86A5tXrpeujtv5LGjQKwNiRnhaXwCZg7dF087NkPwox8NEDYORrxW727171INzb7-hU3gVCiFh8k0dDV8V6TYvUO0k8hDksXdER_1ZHMXV0zU-vRKulM-d-gAI1zWz8nabxcKKqUd1okH3v5Ui2NJzllA1MHrsqTp9Kmi2WLvDon7CfjyvbweQR4GasMSHU70qU1UxUjC5Dq",
+      "AcnlKN1EsAqZHc8-xkDKtMUsGHwlfjdUgHF7WpjiKF18tsrKMnjx9z55cVJWy7qLOdqFEbTkjmWbS9zW4nQvEZawi-J4WG-oP3mxyrDxTaaLPIiJuXV4ZoX2SqdyK6YSPT1cwSDFiCcdHcujl5eVTG2oSe2UVDa2qOVNqFbwxmBp1Tel3ugLtoGdgxjm6WtEEvWaLA-UGgue4cDDTO-oTryUM9Lmgo7SYf3oxskm8XlfMfb97VNKgk28wXfLdB8itKwpMLR4WnnD6qrE6U29r_O650RLE9171tgb2NRxfAXge-oKuazwSNSuCl8TN1qUJcTbkCaquedyau9iufxF9OrA1ed06iw0Q7mM24XU3B3j_fCva-oMOBPIHTI6F-2vggMWhcSdWDpTKl15GlFG-bXFcZU8ELd7fJtIC1EcdVGDXsJvbCOHtNwGpa2SSCQ0Zy_e",
+      "AcnlKN0BRroPsTJsxG6q83MVSeWkBcWv0qGlFGPphF7Ci6tHAVDqDTKejYa-2uJJ3zVbY4X3RByN0KPDDlQdhL20ac--BRr6fB1_LQ-6HTMBOEsvn1UQqTDI5v0sRMHYeN1-sxgdJJlm7c8aqilRiRixwQdKN6na-0f1e8BtVyyFkbUqU_vH8wE3GFLk__sHD0MTjfSX4PZVjnE7qLmjAM-kTXkMgyKTp5y1GlBe0KLPEXG6TYjYdbJlPNR40dg5FJjZVhmBF2ZSDQQA847JOGFyFNFjcq1_8L8hyDHB_T8k_2f9_P7Nj_gPAW5QI9wbS8cypjpz_7d7WHOgRgOzVYidUBHz0Xavg3SGc8E_vxbAjJiM736neLmvSRFLNfYu9xQJKTME8XMFYGHqpQJK9DQdmwX0oNIUpkH_8tpdR6B-btB-5i52"
+    ]
+  },
+  "description": "Ancré sur la place de la Concorde, l'Hôtel de la Marine est un joyau du XVIIIe siècle. Cet ancien Garde-Meuble de la Couronne a rouvert ses portes après une restauration pharaonique, révélant des appartements d'apparat aux dorures et miroirs éblouissants. La visite est immersive, grâce à un casque sonore de haute technologie qui nous transporte à la cour de Louis XV. Un voyage impérial au centre de Paris, couronné par une vue imprenable sur les obélisques et le jardin des Tuileries.",
+  "real_talk": {
+    "text": "Le Versailles de la Concorde. Dorures, miroirs et une vue royale sur Paris.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amoureux du patrimoine français, esthètes et curieux de fastes royaux.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 17,
+    "value_score": 45,
+    "category_percentile": 55,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "VISITE",
+        "items": [
+          {
+            "name": "Appartements Intendants",
+            "price": "17€"
+          },
+          {
+            "name": "Loggia vue Concorde",
+            "price": "Inclus"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 5393,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

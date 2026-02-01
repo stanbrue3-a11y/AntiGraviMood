@@ -1,0 +1,183 @@
+{
+  "id": "poi-078",
+  "name": "Bouillon République",
+  "slug": "bouillon-republique",
+  "location": {
+    "address": "39 Bd du Temple",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8660129,
+      "lng": 2.3647516
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJQ7aZhzNv5kcR2ukcRnOizeQ"
+  },
+  "category": "restaurant",
+  "subcategory": "bouillon",
+  "mood_scores": {
+    "chill": {
+      "overall": 5,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 10,
+      "criteria": {
+        "architectural_originality": 10,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: 12:00 PM – 12:00 AM",
+      "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:00 AM\nsamedi: 12:00 PM– 12:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation, venez tôt",
+    "ambiance_vibe": "Grand réfectoire populaire, ambiance cantine joyeuse",
+    "smart_tip": "Leur playlist funk vous fera forcément bouger la tête.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://bouillonlesite.com/bouillon-republique"
+  },
+  "real_talk": {
+    "text": "Imaginez un immense paquebot Art Déco dédié à la cuisine française. C'est fluide, massif et délicieux. Mention spéciale pour la marqueterie.",
+    "must_eat": "Boeuf bourguignon, tête de veau, paris-brest",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Situé à la place de l'ancienne institution Chez Jenny, le Bouillon République impressionne par son immensité et son décor Art Déco préservé. Plus vaste que son frère de Pigalle, il accueille une foule hétéroclite dans une ambiance de grande brasserie parisienne. On y vient pour la générosité des plats, la rapidité du service et ce sentiment d'appartenir à une ruche vibrante en plein cœur de Paris. C'est le spot idéal pour un repas de groupe ou un dîner improvisé sans se ruiner, tout en profitant des boiseries sculptées et des panneaux de marqueterie historiques.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3fWQBtlGfe8lwqFRishcMmvSScuguWcfL9TtDugZ3kv7Dkm27WX_XLBk3oaRAk1cM49SW4-J1vlI0ohZRVbNY_kXula7YMwBhJpIqmahAMDpsQ1v3OmkZ0GDTO6Pi25YqwHlxCrQoRDfjDmZF5r00wzdkC9D3g1N6c4g8wobPp5WtUfb8tfW9tUQrtl8lR5MZd0ybASON_lxFTvAdAl6eKrwr--uGF3oiPqFzkMWHmWM6eJ2SC4aZK3GAa0HPagPN9g-s-UK2Jkm1X8HF7fLol437NnlCsnc7qB1SsiP1-vQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bouillonrepublique",
+    "google_photos": [
+      "AcnlKN3fWQBtlGfe8lwqFRishcMmvSScuguWcfL9TtDugZ3kv7Dkm27WX_XLBk3oaRAk1cM49SW4-J1vlI0ohZRVbNY_kXula7YMwBhJpIqmahAMDpsQ1v3OmkZ0GDTO6Pi25YqwHlxCrQoRDfjDmZF5r00wzdkC9D3g1N6c4g8wobPp5WtUfb8tfW9tUQrtl8lR5MZd0ybASON_lxFTvAdAl6eKrwr--uGF3oiPqFzkMWHmWM6eJ2SC4aZK3GAa0HPagPN9g-s-UK2Jkm1X8HF7fLol437NnlCsnc7qB1SsiP1-vQ",
+      "AcnlKN1u2OUI9uyCR-LX6rZPJRF6omHEnTb7iWuHhMWTWNxSHxmU0Qe7t250HK8UiTZPUOQNCLTKRMQPGtF2NBv94E0cpPKd_XYk82cjnSRn92zUJYORIg6qmlZfh-fwvBWSp1wlRjwr27d5XjCMC3QVE9ttSfF3GCkAmAK3QVJltgLGZ0B2zKL7BJZz6kH1eFMx-hod9DZiVZd_qbuFRNFo0_eWXoH-lWMOadDH7yWLZwEeyK18Rh14O06RXYE1HfC6nDRaA-fWHB8woKHO_1oMh6HpPvB2Y-RBFIIUU13bATWAhu_AO30xVRuMIzQlxQc3FM8psUu9eCutMOUyY8qp1L30RA_xHXIX2KmT4l2elYB6y9k7rWBeX4Gui1EIIcFsGUA_Th_DXiO-b-R3fokJLufyUKa3DKkPYSAk_SLwPNAsugJWNN70xp42OvmLePIg",
+      "AcnlKN3wot2GFjSWV-m6azSfQ95Jl09Wg3KEv1XjD5r0WXHxjMEGXxCV924c8Ry0GY-waY3iIRgBqx45Vtk2I5grxy4byyjwzzy21ACaHJRnKVLS32B0VVvEGRVzy4HcafBoQjIApV_d8gorM1YnO4Rb-KfaOJE4lxZi3ZW3pFiI4gdqsVC9mZiKPiILvvcDBhJiYqCmnawBsZ53pRpp0CzmFXU2ZU3xjG4kBr5VEZHCSCOEVjIaJ2rNlLh2lttbTcpB6fGd1ymeSg83lthe8bmPSA0tISTD4tTz_c5M4MlS1swr8vRXUUnlt9rBNGTfnHC-ZrNcBVgUUMU_9qVUBJBPXpo8S5Ep0ygQJsidcjf0ATHVBRrYLGbwH0WuFnR1-YmXqju2Uptl4uW67LPnQQ1CC0ThuLolUuVI8JUDcVz4TTp1D0Q",
+      "AcnlKN2Fi99YXZEfIDwZXKz1KNcgVpXcYJ_EaFf4la3eoWYBowoi9tyT-R72bsdpUpC9jhdp-VCn5ZnCptmhkCe1qw-hMQ-osbKq1oPc27la3nAcetQhO8fGFirGoQ_N4rCL9e7E3lVs3mNb71TNFXAfzSw_cDBIOjrFEoY8gXk1fobhKiRW9ZEmYU_nibA6vQabnfewTYv_jjoB8T2EwYkvonWydrKiTfg1-lfCrw8mCPHCvs0h8QLa35Tu9fiI83hpHgsY06MQBSPco2NZHAW9xPUNz89i4jtBj8Vd823w55yleyiRJB3SCTGvmniH38c51CRjMl20p7tth8jZdGYL1H0_X5S47dFOhoDd0r_-0V8BX3vl2qpalISB6h3yBIghGvzREC46ghxM0HujtAdHRHaq6fXqX2-ZCmxDV1nMYJFYwmTX893V2iUhXH3dQ3PH",
+      "AcnlKN2uXZDSGotxNsZe7dGy96WhnFSnwA_r3UyR50dIBWt2bsS6phnHfIS1ZnCFtr0svpoxOXWZl85GFXhKyKNIAFexZ9iqmuKLogXeUVbTB3KWCgkzOP78H8RdrjT5M99qGuoi-cu2B4iVZcQOhZU0pNwXrqsWfgwLx6R2LZ-ImxUzE-Inw3YT6psjDnrombGIxAPHqiitBZ9wQcAqQ29hoPZCp7Vav4ArfPkzlfYa7QHaW-St1SZCydQHY78NFgTPXQ-dThIprKu3sUQHGzhhSiQh20OrXsdvEdiUqBphYYgrKW6Vum3ba9Kyk7td0yBCG1xqSjaH8k0MFgn54tKDGuW2WuXsaZg-UwCaVW8vbtD0GNIlMgxkwEUZdo5nr8BoVBkaxAv-X4lWwpv18u13CrrWCCPKssJ8wSUPMyOa4X81XRpyoZmdF1PW9xCYJw",
+      "AcnlKN2bxmpa800ogio9NbE_Yh-OQE0FKDNnTQI9qKY_NG_2DvAP93EttAbiEft-mDBxeDpIXVeMz-JmqXgz3eO-YjmmAtGSv7gTNVdjgHIIfMabOlB9knNkSgYuiuCIgwIcuNkvZcAZmS1YCjAWwCCqdPXm4r7qpuCm_pbBwtMPdGqvbbyIotqotbVNRgQuDO9qO9QQn_HagFDXR_lJaoPdRHbBipB7W8osp7PGxzpnz1BIfkPc0u4uJkEy4rZ-goXL-g6Zh9eWVp5dBldiKT9Q-Pbd9_EdLt2JWBKnD9oJhv8EuEiKpXGN946D5JAkH1Dtx-DDA1_hVvQbs_pfnqPcYWqxeER0Cw92xa8SMe_ftGT32fI4j4I4uDqHezGK8Vdz8KAvpYKQM2Eh3-opqE59GTtoTfMEpM5RYTCWO8FeCUyKm7MWFLSdTBk16nJeHg",
+      "AcnlKN14pUfvwofquoYokRE8wzfBlEOPKV_y1qdpVZAs2WDGblhr19sRFxPzslvDTVeTl-_mC72guJNqoe1X8L6f6Jt6UH8VXW4nHQkU2KM5AsDqY6tSKhl7yGboADYl1OQ_MVCP7632kR7hX8JCURl-WtffV4ej8dt_6kmM37qK5LLC70dxJjCladwrsfQGbwXnikkJLCD8XKkN3AbAtmec1g1MLBMPda0N0fXQY-t_76rqJWMHSYIdAk_jUdeGd6PSJ4JGPTaLdFwE1LtVU-wwmoSe2LLc7-HYT8RYQ7beHxKtDqzoFtnGfDyREbY_Hb0oBmKd9oKuqmdcMcQ01_XigQur2fdKu6UdxWzZfAiu7dxxwtdaVhyv5d4oxL8M468q4U-uGypeMok6uy0VPU402_po-TfThpOrYODkhUCBLO-i4Hd91WOi9MZfl556p3UR",
+      "AcnlKN1jFcUL6AW9i4asPjyV-qm3UkzVivvrJXxfiX0NH18UceZIoq0boeqNxEVXqDHq4OFr4E41vKwyL8xrxJX8w6FVwMMugPiGEJACpxlVPpWbUvRx0S0b1bwRrq27NsxYE4_rT0O_4fqEi7PNzJLBb8cbDFGKD_xONZt0brNohTq8ec9HCdchyZcyx1APs8nyMaDxXQ0nTlf1n2xCbOcBGo1fIt1bgkfO1QJ_kJOSgIBNvwbhzTk9xLYhy3XmPJ4X8DrfpuvRo90yfRdEYqCBUjyjEv0zHJ1F1FEaC80EFdtXaJDcr-M1j83obbTnmfYf2zYqUElOPZptHhe4cCmuVty1Dt6zNC5xUiplREuxv_nOOkYz_JNfJxCLNwDRF3EmxpsL3XjIQQnof2UCor8Kw09od9bkE5R7XnOdeSEkX210uS9pxrJ-onFL4V7WhQ1h",
+      "AcnlKN1VmarsKc46gcvXq6Rh0dZlXwJ5thF3H14OCMmxwxHBBTpKAjR-j816Z407c5O8PFCUdYLvWGVmvx5hi7Q5g5jBvJQBTnAz8H8SGVa7cRjwiBvBXqNut5f9g2Z3QZbyAVGjsLm9FUMCZXrMMtUV6lChJIPufp8PuokjXYmmgS8sdn17NMbX7CzpN50Qx4QshGsSZfTAGPbuE-gFeL95o110dQqjHaXNIbeHTwkaG5Muz7k1vTPcAdu9En-MA1-OEmk1D2Qv40iea_M6LchykTX_-zpGabBOav8TcZFG935nqVtREA1vGAwPwc-KAVqtlY0VuiT555WJ6D0rcIYQOLkGd6Sd56QpNeqefZedcLj2mTZZquT2W9dFLQgkklY4OIqnPdqYz-tfTccaQFzHNg8VnTzhIWVO0vK8CEgCJosCmAyhWOGpLPHF900hi4LZ",
+      "AcnlKN0D009WTqsbpEYPFAiz---QlrSLSho3luLrti1Fys_JGOPheCv-LJQ3bR-a1Iigvn2__dFbqDxanAOZP2ctUcfjHsz4BLgh4Xq09BhTHHixBd-Nl4A8-WSApxa5hzNKJM1hSgmyN-dcZfAFJrIgZ_xDKl7Qcaqcvhi4cCzmBFQ0SrAaUr3clREjlUYnTTY9b1d0Osm3dow0E-8hdsue32sXOSzY2ndl0NuTFauBYiAPP-E3OSxp9xy4DywPdi2QE3hhlwL-feVVw0_-TqmWglfkx-tqHNgRBv_p83M2W89cooUTIs76sgwJWGNKkLB8aMsztBAWd1jAbGH0GxEQuMzB8WrSSxwg6zI5zaX_rd4Gb5rzTRLzEznMrCCUz2Q7Bzkze383BtDBVX50CBWhtzXKeuvtrbDkxFrXzud87GxnksgmWHi5NVKOeWbDygDm"
+    ]
+  },
+  "social_preview": {
+    "like_count": 150,
+    "top_vibe_tags": [
+      "cuisine",
+      "gourmand",
+      "convivial"
+    ],
+    "moment_count": 54
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: 12:00 PM – 12:00 AM",
+    "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:00 AM\nsamedi: 12:00 PM– 12:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants en pause déjeuner, familles multiculturel du 10ème, habitués de la Place.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 11.5,
+    "value_score": 105,
+    "category_percentile": -5,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 12,
+    "last_updated": "2025-01-20",
+    "confidence_score": 80,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 10,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Os à moelle grillé",
+            "price": "4,20€"
+          },
+          {
+            "name": "Escargots de Bourgogne (x6)",
+            "price": "7€"
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Bœuf Bourguignon & Coquillettes",
+            "price": "11,20€"
+          },
+          {
+            "name": "Choucroute de la Mer",
+            "price": "13,50€"
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Île flottante",
+            "price": "3,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 34335,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

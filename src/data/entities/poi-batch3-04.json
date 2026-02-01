@@ -1,0 +1,114 @@
+{
+  "id": "poi-batch3-04",
+  "name": "Sherry Butt",
+  "slug": "sherry-butt",
+  "location": {
+    "address": "20 Rue Beautreillis",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.853118,
+      "lng": 2.36294
+    },
+    "nearest_metro": "Bastille",
+    "metro_line": [
+      1,
+      5,
+      8
+    ],
+    "google_id": "ChIJb_fG9xlv5kcRR6xY_l32fS4"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-cocktail",
+  "mood_scores": {
+    "chill": {
+      "overall": 20,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 10,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "Speakeasy",
+    "Whisky",
+    "Loft"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18h00 – 02h00",
+      "display": "Mar-Sam: 18h-02h / Dim-Lun: 20h-02h",
+      "detailed": "lundi: 20:00 – 2:00\nmardi: 18:00 – 2:00\nmercredi: 18:00 – 2:00\njeudi: 18:00 – 2:00\nvendredi: 18:00 – 2:00\nsamedi: 18:00 – 2:00\ndimanche: 20:00 – 2:00",
+      "is_open_now": false
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Shimbashi",
+    "ambiance_vibe": "Chic & Industriel",
+    "smart_tip": "Demandez une dégustation de whiskies japonais, leur sélection est l'une des meilleures de Paris.",
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "Un loft new-yorkais niché dans le Marais historique. Spécialiste du whisky et des cocktails vieillis, c'est le lieu parfait pour une fin de soirée élégante et feutrée.",
+    "must_eat": "Leurs planches de charcuterie fine.",
+    "le_secret": "Le changement de nom pour 'Memento' ne change pas la qualité : les barmen historiques sont toujours là.",
+    "le_son": "Soul, Funk & Downtempo. Basses profondes mais volume de salon.",
+    "le_must": "Les canapés Chesterfield au fond pour s'enfoncer dans sa soirée."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 30,
+    "extraction_reasoning": "Manual Verification 2025",
+    "last_updated": "2025-01-25",
+    "confidence_score": 95,
+    "anchor": {
+      "price": 13,
+      "label": "Creation Cocktail",
+      "source": "verified"
+    },
+    "fair_price": 13,
+    "source": "verified",
+    "cocktail_price": 13,
+    "verification": {
+      "verified_at": "2025-01-25T19:05:00Z",
+      "source_url": "https://www.sherrybuttparis.com/"
+    },
+    "menu_items": [
+      {
+        "category": "COCKTAILS CRÉATION",
+        "items": [
+          {
+            "name": "Belle en Bulle (Pisco/Champagne)",
+            "price": "14€"
+          },
+          {
+            "name": "Shimbashi (Japanese Whisky/Sherry)",
+            "price": "13€"
+          },
+          {
+            "name": "Yuzu Yuzu",
+            "price": "13€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "description": "Sherry Butt est le havre de paix idéal pour les esthètes en quête de tranquillité et de spiritueux d'exception dans le Marais. Ce bar à l'allure de loft industriel chic – pierre apparente, métal et cuir profond – se spécialise dans les whiskies du monde entier, avec une affection particulière pour les fûts de Sherry, et les cocktails de création d'une grande complexité aromatique. L'ambiance y est apaisée, la musique est au bon volume, et l'hospitalité est irréprochable. C'est l'un de ces lieux précieux où l'on vient pour savourer le temps, une excellente quille à la main, dans un cadre serein et sophistiqué qui invite à la confidence.",
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 800
+}

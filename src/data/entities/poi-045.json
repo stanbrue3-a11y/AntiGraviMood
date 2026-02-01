@@ -1,0 +1,145 @@
+{
+  "id": "poi-045",
+  "name": "Jardin du Palais Royal",
+  "slug": "jardin-du-palais-royal",
+  "location": {
+    "address": "8 Rue de Montpensier",
+    "arrondissement": 1,
+    "coordinates": {
+      "lat": 48.8649723,
+      "lng": 2.3378061
+    },
+    "google_id": "ChIJ5bx0qiVu5kcRs_dMpI5ttiY",
+    "nearest_metro": "Palais Royal",
+    "bouche_metro": "Sortie Conseil Constitutionnel",
+    "metro_line": [
+      1,
+      7
+    ]
+  },
+  "category": "parc",
+  "subcategory": "parc-urbain",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "park"
+  },
+  "social_preview": {
+    "like_count": 444,
+    "moment_count": 88,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "phone": "01 47 03 92 16",
+    "google_maps_url": "https://maps.google.com/?cid=2789537478611892147",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 08h00 – 20h00",
+    "Reservation required": false,
+    "Choc Artistique": "Les Colonnes de Buren (Contraste 1986 vs 1600) ️️",
+    "Le Silence": "Enclos de murs : Le bruit de la ville disparaît totalement",
+    "L'Odeur": "Les allées de Tilleuls en fleurs (Juin) ou Roses anciennes",
+    "L'Histoire": "Les arcades abritaient des maisons de jeu (et de plaisir) jadis",
+    "Photo": "S'asseoir sur un 'Petit Colonne' pour la photo parfaite",
+    "price_range": 1,
+    "reservation_required": false,
+    "wifi_available": false,
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.domaine-palais-royal.fr/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHr_ToQQVvYEEZWCQB_2s5ZnJ3cKlWWB29c0lzy5hKBVTKSeJ7DWSBko2Ob4ecfV7OPO8XEmYjq-UvSb_SOv3fsKJlKiITp2zjRBZtiZ-ehibZq4Sj4rA4uVgnHVdngScPbeYKj3WzXBJquMSEjnDpV_EZmvU8Tc76JRM4ttxEzAtVwZCyncVQ6VjFzRD6yhn2Eqj10KS_1oFDN9ht1oe4KuyvDeaKm-1WZ9GM8k4dCJeLCzZXU1OGzuL-QIhv5wkkRKHtefatL2DV_POvxPJfCNa4kGw8ukYKOAftebgRN95kOnAcpz0vLoj7tfNPthjEmWDSPpcXGr2rvRd8MJ2EttEeUOV6FX-J0GMRZrf0wnWDImJheXDAy7RvypTjpHyqaceQqqMSpDsbd2NsJoJVPwXT79KMgGo2p4emhAY-1_2HQ",
+      "AZLasHqSm_NiS1FxjFJhTPHFfZ8qf9RO1bfw8mv1TfTh5A-mxlGKqktKhvdFhzroKf-n_yxfPqYcHue_J8k1WE7xCIt-sku4DguDtTZ1jbcBAdFxFy_YpBRMUzDvVpIAi91h9Dn5LNQmy5B-Xbfu8gLGr4TZYNEUvCcPokIjvVPwrGDDAkssg9ARBP-x7HBVgQGC3FTwd9EUzhAjbwqIhMgBAdlFTH-9O4TNXYNED-BDy8w1iBf3H5VSgsNrEjKNCWdDypaOGx15xqzepUcG3IUVuhrZ1jee9sg2mzSUCDmALX_zpQ27PkhmYvLoraQnAcd3pP6R4XGVkQNfNAONkyrkuLPbFicovc8I3qPGxjBY5kE9rCKYBu1qwQ-qZJ6UZ5my7-txbUIGHmd8-T9V5CvceSL7Vtw_apQ-sNI3u6YQ1s_VPw",
+      "AZLasHp2TDoLMOUWvHSCJN6Vo2JDp2mNTjby5_cQv8EZQ_ze8itmdTM4gyqfek2vLeR47pQim8in8p5PBWd7AQMrhyBnIa0Rz2278uyQx4fyncnP2W3DxELMoeysh3XI1Xsk9BNrppRL9i69TrQX4MkzMREmFVUj0okwFWmWzUA9WsRn9CPSzSFXL4CLp390scsjYbBsGfy6Q1_DNanpFZMucMGDw0zuRoM3AHnZ_3Xa1buuOl-_AnfgabFrJubE6Sl5RnBsaEfZ-QoQRcm7jbU-V4gLUdZ1DJXJcmgOu1_UMD_4JnNoGqiYLtFCHMiIfJ3tUDjcbg1XOtPmUJPeojzi6otRyUZOkfE2XzwdEUaBWj7UWOc0QT84qaHemospvymyuQIjEQp8GMySBNUVKXRtxd8nlDbD0FHmuLlX9GyUTkjBaw",
+      "AZLasHqUeYbWrBgIB41vjDvBsDkJ_GqnzdbUi6DDnXaFw6ko61IMHJFSPUJ_BWzjk4ffPBesPod2uzeEsZ3Nhuc9jsRhWTarIXoiXw6Pz_bNPGUsspZ8L12q2bFamxGEe4DhD5vguyzwF8sJjJy3ZpBvUtPhR5r5JqmWwkLwRMw01TMln_i9d3PKL6UdpjpE7VGtATbvhoNDwcZ7o0MnXKZ_SerkvEtOXd_n61rNJO76msh0p8OUTYqAGcbUYW-P3m676zvdmJoBTCNEHakaWN9Vq-9n8-SLWVxN_6OaTvGlaGnkdOgsYLdF3DUszQXMo_1CESeL6MyG2C3cVCuPDZG0tTVGMh5-C58yDF2GFYXDp2PiPc-nI7DugcbLqrUnqYOUGlAegFRt0RlOd7x4Q92mjyA6MY6Z6KOjmOo1q1Doc81luag",
+      "AZLasHpEQBLw7P4a3ku95NjzP2ySjt7Mn0lSYorH1pVBN9bUihmEiYM9cgrfctjHs0EDwA5BH7U65cF2XoudHDQpdb9xOhOtrn4y_XcNH-cDJahVJcwtioymBk4M-7zylqqF4kP2q2JsJSbkygyOd1KWpFuHAV5qUjUQamchPVSs4QMruLAmRNOVcpo8WDK0jTg0URFt5T3kGtrDaw0LLfIqjnrFMScHF1qIcKTBEuJYXqYA1Zdi8XeYOcvKYt2emT1jvX5YYlVR9UEoiu3uKROM0erGk-vlE38MV_VLQJiPv9lFseA3Gg0NA_Hlo27kjcDemvh6VCRrI19U8nHgWsaYLpf86yGbpRvYc44jKs3Y6tpXr2qyWwqFU0QiZW-kJbNEcuJ5vraksA9LcCcwqQvAcGOX_qoHma_Tqbd4eVwFJEbWyqXX",
+      "AZLasHrSrJoVwH_EFdAyHAYRtukc6VCI-sIxCGz99alNIiE9Glv_PZ0T4efbW_FooKilQPl8wik5KIT9e7Kg4-41kKvUW4vz0AkG2PS46BAzJx80kmt0IpAJXJm4os0olAqg9d8uViFboUxNTOZ3uyP2chrrbDlp_-YCnfB-S11sMxCvXk-W0B6VVG_GGWbcjcVt3gkXxsDNrZDVbyogxDYtcx7MvcfVrUoK9N--J9SwbHTxWQO4GRC55QYcEf4qQcTT7Av-HewY5ug4KjmzeG4zMsU4bnSU2O9zCvl6zP7Tci3Gnpg-l4beuIGVd9yyhoQcqBedsYHuBfgPqH1CwTdIW06bOa8ZFvD2lMCF7_G4_9aHLLx2cgR9F7FMneJJiC0EnWm-BLg4ie6N24lbnoLJm9PgT7QBVeSASdh6zmSN0q2-xjyS",
+      "AZLasHoHD7WSeKMVavydhOtQPqquci63rce8yqJGg3PQs0_4XS6pr6V0uBtbOVRwI3YnVnA7Yjdkadswa5kBSrCYUNTme5sB0B_-BPcZzNXIqGyJ7B95U9DdxNT6fkZ9fhhW-8yTtLsrDEarlSHaliiVSIcWdb7_pyexyB0L6QHEMRVMc8ZyrjlJNMy5YFps2A90EDicZBnqt41H5CvUHGFBZKmtBl3acf_Cgj97UbZEQxqIZHD20rGBpvF40G33sGl2X5sMqoitQH9Z5s7z84yojpDV--CEKRWMNH-7F8AiSFs2TWZp__ePGrw_eKZRArl5MsDYH_0O2e2TUarx8Vd7Y1moMSUzXAtjdVDBhmWx65FKgVOsx2pJdPL2nbAOVrtUdJNSCzw2LChufiKY-WnMOqClQdb5XBOc1wAqsgsnUFinrw",
+      "AZLasHpFxUzq4KbYRx9-03QK0sri6KkOxmCtfSeIHWbbCVqpyYnkNh9s19jVN9TdZDP8sVswj_AtkFtLQRAJgGYatuQRIM9wU36FsZV15Gi5DzBgsedK0ArdLyFlOT0K37fN7hdOmnaAcINvF96bMoHvTSGsqRn_DBHny0KRD89Lt16rnu0OW8K2d-mD-UvROxUr460DGjuGmpLb1tUDchQLepJOjMxphoxZURsO42lvDvw16pDzZuI_wbt-IcYJ7PT_lDPj-oBjPfnW7NiEs2M_eEsgCh-UamndsLRAU8nqhjcL_7An1NDWqhN6oBnf89y7rWBvR9P-t-GiXBETE5JD4unFU6DUMv85_Gj4DXRdLX8Uc8PM_r0jN6RIcK6ALue25totNcHc2qVlCZq2iGgnMuepXHDu1g69uVB3SsD0cqw-eA",
+      "AZLasHoPCUuGFtly4R4jrWpYGKN-NViajCZjmG_byX_ESyptiaYNXrEbL_SQU9uYHRXfPJx-wKwSeX77QtKgNxBwTHeC7dlQyb3ARlmEkf9DhWNwUBsTuaSnDMqMGOokm3yRlNVnHr6-0R9FuNaZdw1Ul-fBqrI9rIkgUQHA0ji58K9FE6elRdan1eWAgYtqMkf_ksS5BCd6N1YdC1kV41QThsNdaROPUeYPqLDXHH2hQNs2UUzzVgduRPQB8fIac0cD0zLV_bwauihvzr5BkH7RV4a8Z-HohjVpKvYZdwrHdqrJ46dO51yifQ5X2-xIXiPt82qCI3lVcHFauUY-KYeHy8RspP6GRa4oRtj_iCw5S5KY5FKDsTieT4Nkmjw6bDUpt1jH95tpDjVnDSk58LThp1OoaLKzUzXJuQO6A_UU05fxZ_rJ",
+      "AZLasHp4ae7-0L1ApIhXa-Z9GdYJVpf7CWLhLHqaEmh0IBYaKsMIOhGtaJmCdwd_eEwj5LYaG6v5w4A6lD_Zrln8kAO9n2hGcuZ8r0av6oRyyvS94XCXIQMgVzCszbi0He3TKZUIfNKpKBbIR4MWzdQ1rpDdivzlI6mZwK6Cpf_e3H2ZUdqC-iVBlz4Kt_G19avzo77g2QQKCVRoySBI1phpzmj3cL1ZHRS2St-CsGzHKYzzbo8vtYil3MquD5GAsFEJEnkNBkUiuo9UdrK0EycXjjtsdX4qoHE20qCtC0jAk5rscOFWca1Vxh6wQ7pol8QNKsERPu0i0PasMHuvL8Zx3179q7iVL7raDyEF3M3pi2_O08kSIT9ayjMp4dplP0epwocYHHQz3NfBB0yzo4LrD-U7gRodAtCKw5agCtGmj-frZQ"
+    ],
+    "instagram_handle": "@jardindupalaisroyal"
+  },
+  "opening_hours": {
+    "standard": "08h00 – 20h00",
+    "display": "Tlj: 8h00 – 20h00",
+    "detailed": "lundi: 8:00 – 20h00\nmardi: 8:00 – 20h00\nmercredi: 8:00 – 20h00\njeudi: 8:00 – 20h00\nvendredi: 8:00 – 20h00\nsamedi: 8:00 – 20h00\ndimanche: 8:00 – 20h00",
+    "is_open_now": false
+  },
+  "description": "Enclavé au cœur du pouvoir (Ministère de la Culture, Conseil Constitutionnel), ce jardin est un miracle de calme et d'élégance. C'est le mariage parfait entre l'héritage classique (allées de tilleuls taillés au carré, fontaine centrale) et l'audace contemporaine avec les Colonnes de Buren dans la cour d'honneur. C'est le spot chic pour lire sur une chaise verte inclinée, loin des voitures. Les galeries qui l'entourent abritent des boutiques de niche (parfumeurs, vintage de luxe, médailles) et des restaurants mythiques comme le Grand Véfour. Une parenthèse royale.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Influenceurs mode, promeneurs solitaires et joueurs de pétanque chics."
+    }
+  },
+  "real_talk": {
+    "text": "Le jardin secret du 1er. Colonnes de Buren, silence royal et bancs au soleil.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Entrée Parc",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Pelouses",
+            "price": "Libre"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 9186,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

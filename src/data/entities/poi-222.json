@@ -1,0 +1,132 @@
+{
+  "id": "poi-222",
+  "name": "Octave",
+  "slug": "octave-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8681,
+      "lng": 2.2852
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ0ceOuhtv5kcRs4hvxXcuTWQ"
+  },
+  "category": "restaurant",
+  "subcategory": "fusion",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 909,
+    "moment_count": 30,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation recommandée",
+    "smart_tip": "Les accords mets & vins sont particulièrement bien pensés pour accompagner les notes asiatiques.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.octave-paris.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0uQm22fg2lt-u15hPcDUyP7wnV1TX0ESTwyczNuIft_-bSK_1hItD5eHxMk4jIfOBCusjGdAHRTn-bxB6oqXVYCmTpeD4rWKR_ZJkbCjZGw2Fv-KCzFEL1rw6VY3DFOvquq_kgyelA0R59Sd8A0MYKdUwP25u8mF5xy571F2WuO-2xtqdo99unyzYkrIuPTcxOai35C5138LLbo1gnImXeVfxxGnCCrYMaa9MNnq2abvXzMWt1NZyw_vQWuLcetI8P3Pt2WGbICjPz05ft1OQsCBkXU5BBEof7GyqI-4iBsw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris",
+    "google_photos": [
+      "AcnlKN0uQm22fg2lt-u15hPcDUyP7wnV1TX0ESTwyczNuIft_-bSK_1hItD5eHxMk4jIfOBCusjGdAHRTn-bxB6oqXVYCmTpeD4rWKR_ZJkbCjZGw2Fv-KCzFEL1rw6VY3DFOvquq_kgyelA0R59Sd8A0MYKdUwP25u8mF5xy571F2WuO-2xtqdo99unyzYkrIuPTcxOai35C5138LLbo1gnImXeVfxxGnCCrYMaa9MNnq2abvXzMWt1NZyw_vQWuLcetI8P3Pt2WGbICjPz05ft1OQsCBkXU5BBEof7GyqI-4iBsw",
+      "AcnlKN04b0gXVjGa67LjxYv3ZAfCUWNLxYwlszgX_BrYAEfi2fW6F8Zs21ta7QUpoEHokKVrxS5mOstekmzoGaRBe7Wb_ENdt7RSdZqsgLzqrpRkG24o1E7DS3ZC1IxJjStFlCUkOXngEc-bBXzvR7Am0jqFxEX5B81q6WT-pVx9N72aNmD4sGUrWWRmEqp_Y2hvyb2tRWA1bga4ubKllJ4XaNXaX_TEH6JpYp2TKe8YW1h20GyOo9b-7yOjFfw1_XgC05w4fXVTkOzKUpQfW5vRaQUzAio5Oiln32H741on6GHlCg",
+      "AcnlKN3IKa3Bo4Hbawi1vv7WdOnf1uelkaTHVD70go_lvMBqbaUI16E6J9LIarWoh-Eu-6KBQlkdAYba0y26CWL1dF9bvWiXxJpHHZsGVkEm54IFYVPeM1wGxj1EOTrjTTur2r0vOOmuU_ykjGI16jG5aP7YtA57Vl0fSchZFlGA05SxwDO5Bd1yabmhFd-vjrF_vUg5NLN5wD0pIgxd9WJy-qJ-U68Ll5kPciFin0drS9hh8f6UTDM5es_3TmcSfPusYRs39zi1odVka4Q1ZJzbmQ36ga52wC4PADWDuoBIhYoqGw",
+      "AcnlKN1mILwLprc3vVXVQ8wAwLPF59mWGFzBsIx3Y5lExx5W9zuUqSP99KyxgDTibeH1AmuATtYVw50YyEHhvFjBmyLFY9HhsqZqaaormBHJALoI2Yfp6-d1K-GRhadO_FjXAju_dx_eR9QQI-oVoy1M76LNE-wzjNYAhjXPtz9PJXbAHSDZ7vGkY7LzMpG0d9eaRj4alP2hnUK0soO0wZ0nPyQlrfTE2znfIxRBPxRcx-PnwLbnljwVmlWaMr7OuGKJ0ivDk4PGXsG5qUNCV2Qe65KYGQe0-2sLRl0J_uCT0lKYFAwmiyEd3SQi0jdkdj4IdE5CZd67yioXoJ0qT7GLt2tpyurj_-a8oM6ZALErVuFPyLIaYuXU867ICJncWaUfM0mEMD6i9xh735mTdCADR8uyVVffdsvT_qQ6y6G96Ad0cI0t",
+      "AcnlKN3SOuJzvPqNY2eorLWLWxwVuP4Eh9PJMoFVFkJGmKx5ncGqj0TJp5ooC-Ic1nQJ3HvasE-jVAlaPGYw9EwTxFdlDTpQ91TjujOSxVsli-8UPU9ANH5bOIVGUa7mYNh_KKSbYiDhDYKdZDB0P13seV8YrHjun3RoWIq33F1phaRi7yzeBJqBT4ZTgGOa6vHgTpUKZ_p91GvRpZQdqzoGfx3nDAQb6LJf4h3Xaf5SCEqzKNUCslvFkARzipM3Ygvhna8SNYiVYlfZSYQmKoqPFk-2mDaURatZumTGE29lMubY4Q"
+    ]
+  },
+  "description": "Octave est une invitation au voyage immobile entre Paris et l'Asie. Ce restaurant fusion propose une cuisine créative et raffinée qui mêle avec brio techniques françaises et saveurs lointaines (yuzu, gingembre, wasabi). Le décor est contemporain, épuré et apaisant, idéal pour savourer la précision des dressages et la justesse des goûts. Une adresse de connaisseurs à deux pas du Trocadéro, pour ceux qui cherchent la surprise culinaire dans un cadre calme et élégant.",
+  "real_talk": {
+    "text": "Le choc des cultures dans l'assiette. Chic, audacieux et délicieux.",
+    "must_eat": "Menu dégustation fusion",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Gastronomes de l'ouest, couples en quête de voyage gustatif et clientèle business.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 58,
+    "value_score": 54,
+    "category_percentile": 46,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(58.0€)",
+    "main_dish_price": 58,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "FUSION",
+        "items": [
+          {
+            "name": "Menu Signature",
+            "price": "58€"
+          },
+          {
+            "name": "Tataki de thon",
+            "price": "24€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 112,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

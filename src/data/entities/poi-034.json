@@ -1,0 +1,181 @@
+{
+  "id": "poi-034",
+  "name": "Tête dans les Olives",
+  "slug": "tete-dans-olives",
+  "location": {
+    "address": "2 Rue Sainte-Marthe",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8724,
+      "lng": 2.3689
+    },
+    "nearest_metro": "Goncourt",
+    "bouche_metro": "Sortie unique",
+    "metro_line": [
+      11
+    ],
+    "google_id": "ChIJ_-5h-uBt5kcRhWHBYP-uiOo"
+  },
+  "category": "restaurant",
+  "subcategory": "epicerie-bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {
+        "noise_level": 7,
+        "seating_comfort": 7,
+        "natural_light": 8,
+        "crowd_density": 7,
+        "music_tempo": 9
+      }
+    },
+    "festif": {
+      "overall": 5,
+      "criteria": {
+        "event_programming": 4,
+        "dance_space": 2,
+        "cocktail_offering": 6,
+        "crowd_energy": 5,
+        "late_hours": 4
+      }
+    },
+    "culturel": {
+      "overall": 7.5,
+      "criteria": {
+        "architectural_originality": 7,
+        "artistic_presence": 6,
+        "cultural_programming": 5,
+        "creative_clientele": 8,
+        "workspace_facilities": 4
+      }
+    }
+  },
+  "vibes": [
+    "sicilien",
+    "village",
+    "sainte-marthe",
+    "terroir",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#6B8E23",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 1876,
+    "moment_count": 932,
+    "top_vibe_tags": [
+      "sicilien",
+      "village",
+      "convivial"
+    ]
+  },
+  "discovery_radius_meters": 40,
+  "min_stay_time_minutes": 35,
+  "practical_info": {
+    "price_range": 3,
+    "phone": "09 51 31 33 34",
+    "google_maps_url": "https://maps.google.com/?cid=16899950013570965893",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "Le Tip": "Table d'hôte unique (5 pers max). Cuisine sicilienne authentique.",
+    "L'Ambiance": "sicilien, village, sainte-marthe, terroir, convivial",
+    "reservation_required": true,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Épicerie fine méditerranéenne",
+    "smart_tip": "Leur burrata fumée est une merveille de gourmandise à partager.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu"
+  },
+  "media": {
+    "hero_image": "/images/tete-olives.jpg",
+    "instagram_handle": "@tetedanslesolives",
+    "google_photos": [
+      "AZLasHoy2hHmQVwExkF4rdk5NWgfSX-A8KLwQbEVO8PnZgn-gtpvk0wwj9xncnVU--rQ0kDVTgB1qGEkkOYMUS9Z1qHnp7r90WcEt2_ZPmBjbd2u7VTa09YZWfPEHtJk2hX2WmSVKFfhTxZMjMjyjkfuRKkj3sgcJZbB0bnBBwVYTbo10D3AJkanjle6qQYLqEDX5cxYHhSomeJg6dhGwXVWiH34m8PQ6ohF6XZlkbKMValtugR2lY-oVO-g1DMXREXd3InAxTiCPNyGqwYpmjhzz9bln5BQc7a30IUElrAvaWx6KDtQbpHngkuZlSc3reaTkkFP5jl1gqimilro9PzmUr-kVdfLiK_3CwJn8S_AaXAmr115qKtyy3xEUZBHFqBmiF7u9jPj74l_wOAPRBWCuwzE0kw8BXHGLnhInXrz3r5Xhw",
+      "AZLasHqG_U1CtFzgWzEL-1-UtVXMIJWoyDg1kLYn1PxAdHkwXJ001rNq8SAuF8DXSJ7rcDLtSbgoFFS5qyTxStm12KRveD6O0_do9QIWaVaVBbk9cDh96hXCmOX2f9oQgAhbOJ-j_Wvw6-iJfR3oYvsQ85ZhUcKexxtC_MZh4a0XMdCNDzLbi_EbV5hZB2A6NX6vSMY9ZWn4tJ2V71-i1nExAgl3YLSOZl9BGO4bigyP9qgn5elOQ3w8AgVvLOcVRjvInEhPfD1G2XSzqiQTQWkPXe2tT-JRXWB-SYEu1R4Xjoc-ETZVWyJL5YcPtEIfNmGHh4aY9PjgGgoMlprXXHfhrWnaV6FiUFHZd4p-0P5YuHbXNrLiIpWWbPsFNNLq_f8s0EoRxr_fKM6Wb27Xkxd8S5JDRDF-wFDuIg5QQZy9FAHwnXU",
+      "AZLasHq0Y2modafNeD8VPJFD5elbWHX7OIFQu1KrdFVMuLLSXHCDjluzEa9MnlQQZ_iqCeB2r4r3_wBz30sdTdHh3rSNU_cTiw1nWQwry6_J6N6HK5pKUHx6LBrfOnDMzeCwz4qpeIcnjcyk5xinfYQ92Ywy4Qy7iuh64e2SrKzoPAAkYBuGCLaXuvY7QPFvqk541ekaBTHO4qHbxOpf7vQt5KUZtcoW0mYnw6A6cE8GyGum7RGEB-xFjWEmnKJoOdd17LktSN-InRK6RELMWkG_nXTn7pR5fNyt3vCkDmBOEjH2AtjhCA8VjbZKaDz3MsEMoh7LxJAYu5epS9BHdbGMXmVN9wQg1iEWmrx8yr3I-AHfW0GUBZEaBRr1m7ZOR9xpXXK-Sng1JqAzGxGXB30FFAf6VICoZl-Nrrb2KNQc-i1C7nRm",
+      "AZLasHp1QytkCM-SawhgbcxE0Em_Ple3aRTJsas8qs17C7AMu-Qlb0EU7rhui4JX4pueOR-cnBx62zcJePhbqwhO_Etb9Y0V5-QXHWGnpiZ9DaEJByYfmR5y2tiyyw20ByLppA2dIsyrWJnusRfvohqg-mROqZJtkZfy27gT2FMSxARMFcbsfF570EEuki3djCmIxdVbKcys-0smEbkrKEB1C6Dn-UHtyQTqL_dX4Jn_6CqQBiz2hRqxr7aHTBIAFBeHa_2pIgn1xOMEdGJGmxH3_TrsH_ElMjRHiYYh2wNT80kY2tZmEcrYOtl5sz74NnK7jixg8YJFxBhgaZiAVfmHQV_fglnu-H4AU8iaDrZ3FSd9lmC0T57jOIPIri__GHEct_BgbIjW5Gzu5bREd8PhVh64Vl9rkOUNi1eRE5tK2eLKeTZK",
+      "AZLasHqF-WpcDwlR3spKtS1UpBJ9ZWV2TPugV8Vo8xCAT6mJka1MpTns1UoN4oU6Xpd4844vKylaSHmJ1s3bzava0NuyAlAjBSeGLxrhGyzgrZM4EQhGs915lriyJBneFLaN3iKCudZO9qnOy6XievMFjYU1XVYxniX8mI2yHre8ua1KkwXG8UPSZ9J8gyXmOzQgWad3fIzb-K4SHI35tNgJn4EyxEkWsgokpYHCAC2AKKXWA6_ic8ME_cUXVFZTvF8ieig2AXOm6JtXBZsaqeetMLfqUFXX8eCZa78_6v5hQ5IQXQObW5fsxqAblqz4RPZAysvfX5Sk-4EyfcK7fWME9dUC5JU0W6vKlRR7YTK525BnYewyXWng3K62_DFKw-GqO3StwN9FsybdE8r-sgOedXBeE2QvgfI-EbNGuMpe6nL0IA",
+      "AZLasHrBghBZBtVspShrfgdub5sE4MB1K3iH1pWU2X8pXiVrjSFG3GSzuIP3DcjjoT6zDxt_6JpGbUjU4T9SnwFfW9mYkR21kQ3FtLNbg2JXkUA7OCpCwQBaMT6euIDeA3Zsuu2MrN05nQU1pE92pSTJ5YotRdv6tdOE0FPb_7KB0d0Ueq3GHKDIvDXlZbH0VEsqoAw8Q8P9Jro66TXtKQ6dw5r6-tRFVmLlnaeRzSwdoF_W5PxtTZ-vT7kKl8YdeRSRgd51dyHQqAMQq5bBmkbpheWWdi1xjJN0otiAtHVfa3_gYgMB2Q0_C8-LJoSRMWNGJ86MF9pp45Dr3TscJBU2b1PpkCc00KRS0DmGRzzX2wTO8tMdeLmDnB9wQncSugqmllbuAtjaR6kvajgm6EhwG5KEFvCYUIYXBoejJwCc2QoiSQ",
+      "AZLasHpkH1frpD5YDI1cFG4BrZ-tJPoVBKML3EBJjSNLUeXO9xY_8TG5n0CsDDshilJO-k0wDnYyQ9GZRZ7x6ZB99mngcYy2LDBxlv1yCsgqpC8oxVP1WbRFTEqD3COYc2tTUoBW7WeaCrhzzKtBRtAbKZhrhgp1nODLNA8rVM_eQgSyqneVDDiO3erUNuCRxVXzzmYXzALeM-VJFmZAql1hXcT7db3p9qgUGOa-amvHtBsN8kA3gMVeemLLzwVvoOgvWew1qZqavzSUPF1wWIEKwRF-Xhd1Js4fxiU-J8I58F4dxoJH7lcT24ja8r-FC5XAzjw0iQyC8HggzIiYF4aQcFeSGtAFx4_se-PJvTvzyLpuSSpbPJsFgpPoot7XedssM18WZvRjAOEkpNHSkHcHTo96V7Wh4tJCHpj1opdJNdP5_raM",
+      "AZLasHq2pc3Ei01q-z1MaIfOV3X7uCYcUvN77_40Jtw9cZMAe8GSi-anSfNn_VzxGFn6Jky4NwpgdOCaBHDqUhlp7g-hh2LOOmO_Cilzk49jw_0GLALjdHdMFCtAaXubkahlAfS7Ct9eAzh5YHTGR1MoESbatOAdJH12ujg6grwWU5CXgpniL794zMfG0Mu_Gnzfwx5i9CLC9jw_EOiVC1Pc3n6DgRYmkkbK2aNRuBykcT1S3kqw3zEVWhuVEj4gvIhRjuOt64kacvLxZ0RY_ooWexW7B-fwr5Xt7gYGzEaPMgasFTb_WmFmYza1mckF1Uq8hBA68tNbHn8jlNeuxKuszpR74ZIdIySltk6qITDhq6AaQp73jqypE5DxyPqdMXRtdrXdjBGstukxYDCMk9AmDjmkVi-5ElXq5RixxRaF1MFSgT4",
+      "AZLasHo_RklW9rILuwTeZgJ37za0YlurB5tisv60As0JjemYFQH5LZo5hq6bADrkbuwN4qKWsk3ocJJujmyFX194T7oZDEvp-a-0ptWLQbyNo8jl7tOhDet8zutIq5Ae_Oikqp01T_-Zp_TmmSDO7KhcoC67KLqk8LzIDppy2hKD63gg1p7PjYLZIRVFzwuitkUCtZzszw9tiLJqaA3lFRWgq_k1FWl4qJIweDp7h_Yip-jyN6YHFYrhaLXWKX3VV8asMEalZTPUz46FUo9sW94V-B6UE8rgvN4lZO1JX6Z4Hb7kwmQcM1iC6vGtiD2VehPxNhiESlaZm7dduu6YPpubLtDZ-mzAyexpYK5J0gwnMMhSWUl7H2fyaM_GitxI0yCVzI_0ihb2n5mymDi1FcGZRQHyUgTIkp6pB0f4BTL9jBk",
+      "AZLasHqRDzVrURFlVy6gHHoeAojrr8kpe-QGL62quPr6Civ7xsfemDWUqoN1bo4NQEYnzMP2mXssd8mcGNIVOBskTngyS_AGppEmYQ_g62gUqnusInmpn5_Z7sMKcbJNZwhrWHHNJ9qpoOlVj8ZPmjurWAtawPTlWQkOvGe9FoAmPdBfDJM_VfwIjpM6nE1OAfLTi5yRPoFODnMMo0C-hnNmokymehZt7Jx67CywBJo8MB48DKiqd2OkDM4ZwLHQ6qfkY6ZzBg27DFzMtdCxWfgX-Hisbr98GqxK_sBM5adbbMjYYYEQISKVgSdt4Sx7ZwzhkU_xdMncTG8cgrJvRS_7S10usifk_9dyjln7gALOXjfTAiV_H9Mzer2kKAFYqThYab2rR9E-1L0YXx0IuA_LEcr2dVFnvpZTboewwDZHdnwHJuO6"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 19h00",
+    "display": "Lun-Ven: 10h-19h",
+    "detailed": "lundi: 10:00 – 19:00\nmardi: 10:00 – 19:00\nmercredi: 10:00 – 19:00\njeudi: 10:00 – 19:00\nvendredi: 10:00 – 19:00\nsamedi: Fermé\ndimanche: Fermé",
+    "is_open_now": false
+  },
+  "description": "Une table d'hôtes clandestine cachée dans une épicerie sicilienne minuscule. Cédric Casanova, le propriétaire, source ses huiles d'olive et ses produits directement chez les petits producteurs en Sicile. Le soir, sur réservation uniquement (et c'est souvent complet des mois à l'avance), la boutique se transforme en salle à manger pour un groupe privé (max 6-8 personnes). On y déguste un festin de produits bruts exceptionnels arrosés de vin naturel. C'est l'expérience gastronomique la plus intime et authentique de Paris.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de produits bruts, chefs en repos et puristes."
+    }
+  },
+  "real_talk": {
+    "text": "La cantine méditerranéenne du chef Cédric. Huile d'olive exceptionnelle, plats du soleil.",
+    "must_eat": "Huile olive, antipasti",
+    "le_secret": "Table d'hôte unique (5 pers max). Cuisine sicilienne authentique.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 15,
+    "value_score": 100,
+    "category_percentile": 0,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.5,
+    "main_dish_price": 30,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 30,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "DÎNER",
+        "items": [
+          {
+            "name": "Dégustation",
+            "price": "30€"
+          }
+        ]
+      },
+      {
+        "category": "BYOB",
+        "items": [
+          {
+            "name": "Droit bouchon",
+            "price": "0€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 74
+}

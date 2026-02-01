@@ -1,0 +1,141 @@
+{
+  "id": "poi-191",
+  "name": "Le Bristol Bar",
+  "slug": "le-bristol-bar",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8718,
+      "lng": 2.3168
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJWZFcKs9v5kcRpPtQJY0Kn6k"
+  },
+  "category": "bar",
+  "subcategory": "palace-bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 868,
+    "moment_count": 33,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails sur mesure",
+    "ambiance_vibe": "Luxe discret, feutré",
+    "smart_tip": "Demandez à voir le patio intérieur, c'est l'un des jardins de palace les plus calmes de Paris.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.oetkerhotels.com/fr/hotels/le-bristol-paris/restaurants-bars/le-bar-du-bristol/?utm_source=google&utm_medium=local&utm_campaign=Bar-du-Bristol"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3jybof_zMNW3ytXsuRV_Ue8hp9TATasVbFQHNg8_Ty-42z-II4q3j__kN9-dl_QJyL43voUx8clJ3lC3mH-R51Qncjd6M3cCn7ftp9JEb6xmz4sim0YOKisq86LGUIEE8OBq_mq-wR7Xk-AUJ0u-O8ue_VU13T6WyFNmoNkKdbLYPF1ojGhSDN7aF8oDYuhNf1iFVsvezFMq5u1knOGslaWbwt8XcxyTuLOH80DjV92HPQRpwUaiSa-4dmkOo65meJDwIVdvu2Xs9lGw1Dgf91HAowb-izJuaLralN1Bl0aA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lebristolparis",
+    "google_photos": [
+      "AcnlKN3jybof_zMNW3ytXsuRV_Ue8hp9TATasVbFQHNg8_Ty-42z-II4q3j__kN9-dl_QJyL43voUx8clJ3lC3mH-R51Qncjd6M3cCn7ftp9JEb6xmz4sim0YOKisq86LGUIEE8OBq_mq-wR7Xk-AUJ0u-O8ue_VU13T6WyFNmoNkKdbLYPF1ojGhSDN7aF8oDYuhNf1iFVsvezFMq5u1knOGslaWbwt8XcxyTuLOH80DjV92HPQRpwUaiSa-4dmkOo65meJDwIVdvu2Xs9lGw1Dgf91HAowb-izJuaLralN1Bl0aA",
+      "AcnlKN2yThTppuNPTtRHrewKt1HyOKp7Eri6avJsDlE2y1OO6099PDci88OiC_Zm5BfoFNs-veFy6D4aY80PhyEd2X8cF2CRhFrOy4mterkxXw0wiGZLFqOBFlJpeenAM3NSo19wSqEdSCzxnfCDeeInmytgQAvnpYNaQjAoXKqef1N8lGjosxXzXkIx2K6jFiHHdOw6T8t5rhL98zDZhYSI8sn_iqdNaJ-7GAXUJqLhTEuuc5BH9G4j_VG-ZEl9hXTsC9YHwAuUMoLBzwTXfdHpq_eUpzjS7CbVYbIAkKxRDUtXZg",
+      "AcnlKN2cG3Ur2TxuT2UizIWqN_hRZAnEURIuvtA7OGQ0M7_kjlw42X3qZTLLLR4yvH1o08Y7orsTqyBXN7He5DujQpIvugK9gnZYBYjZDN172frE9HSk3gtDkS0VyFzCJI_f0gMiR9VSo4UfXT2Eaq6b6Tv_preLx29DGwqTP7xLmTRGVq9zARjGZx0Dx0s3bJDf2oUgltXYvEAIAEU7V4r5woAkmbwFzzW1cst1PV_1kcGeU5g_gKpI51WJ1EdDd4FZJREKcvHSkc7KqyAzkjVM-RFChpTEb-HGQNgv4XHDtKP3w4xYOjrEPob1Rp3hrNS6HkqE7MDYFk85Fa0_bflefJwbf8NAkLSAIpP3O2xA0IAtlGluKmgNTS-_SluvwHPqHjNiXOaG9WpXkqMv0FwXlznK8UrT1kELOieRPCwQNsfJTcTWwAh8oJl6f8W18UV_",
+      "AcnlKN30fQwGa8Tss_GN-ZvRe6hPldb0VALCGPYHb4uWvd4svp-vCtGPQhlRCy62UiUFZKSYbaTyCiasUWVL6SR_ez41u9JiXwaxFpdYXAs5PljkPmXX7-xn06q7Xy37z36Bv6Mrz747mcfwcZCBZPV_XeYAgeenSb3WTStAtTMnJ9F9XSJLaQHhMpC8OJs31SygVvCdc6qbcjX4rqF6KixCqWDpIZ39yNCLJDC5xMz38tM5FuZGjaZnTQgicKun8zwwPGXtDZJkJAlBtQwwFSTG21IxtaDA8F6GdfEVEZDTnPvUZEPdvxnY8L5SYnusqJHXTAf6mXUO1dSF8owR2rYep4qPeWDNRYDj5TpXc0tWnh78zryk5eKyia61nk8Xr8GuG0EUiE7r3MaKHPvwfjpKzTcmH0Btw-XGlFU6EYBcqVHDbbs",
+      "AcnlKN1OZ3Dgn3j9CaB84Dg5I1Y7QArV4mpTEqB7vId0GG6KZ_YhGARqTs-TEdLjb7IscHYVW-AwA0L_OMU1EA2Ct_Z9Rr4G__LkE0sHdE2kA1QDkp6ABTwiFkbUcGY0eE_iVc-T5QhFsXhsT5W8e6MXUET_Kt86TQ0gl2qOV6wu1ULKvMUfCuMDKTUpvMK-zLa2WlUXFxS7fmzZ_ipoSY2bOTB5qEwBtJsAzQvYxR_MhW2hB82JEX5FfKcvhVLrOPTZsnBEHlrFhjWDbh47Gz87gNIKRu-W_3PnGm5dPTURP0rcrLYT9UZIx_38bF_R_bo4erq2-_zwkO8XHwSGFCQjBO8UH22nllbKSVEoGUv0BJyH4waD715ZkP_9JtySEdlr7xzDz7j-lfF6d3t6M01k-ead0Rzf6Y-06WFtSkh_214"
+    ]
+  },
+  "description": "Le bar du Bristol est le refuge secret du Triangle d'Or. Dans un décor de boiseries sombres, cheminée et velours précieux, on y déguste des cocktails de haute volée loin du tumulte des Champs-Élysées. Service de palace, attentionné et discret, atmosphère feutrée et compositions de spiritueux rares en font un lieu d'exception. C'est l'élégance parisienne poussée à son paroxysme, où chaque détail est pensé pour créer une bulle de luxe et de sérénité.",
+  "real_talk": {
+    "text": "Le luxe absolu sans le snobisme. Cocktails parfaits dans un cocon de soie.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Le gotha international, habitués des palaces et amateurs de cocktails parfaits.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "cocktail_price": 22,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "PALACE",
+        "items": [
+          {
+            "name": "Cocktail Classique",
+            "price": "28€"
+          },
+          {
+            "name": "Cocktail Création",
+            "price": "32€"
+          }
+        ]
+      },
+      {
+        "category": "TAPAS",
+        "items": [
+          {
+            "name": "Club Sandwich Bristol",
+            "price": "45€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 295,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

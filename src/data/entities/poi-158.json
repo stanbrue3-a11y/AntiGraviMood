@@ -1,0 +1,143 @@
+{
+  "id": "poi-158",
+  "name": "Tiger",
+  "slug": "tiger-saint-germain",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 6,
+    "coordinates": {
+      "lat": 48.8522,
+      "lng": 2.3399
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJM4POkdlx5kcRA1z7FelDYkg"
+  },
+  "category": "bar",
+  "subcategory": "cocktail-bar",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 405,
+    "moment_count": 23,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Mai Tai, cocktails au rhum",
+    "ambiance_vibe": "Tiki tropical",
+    "smart_tip": "Laissez-vous guider par le mixologue, ils ont des gins rares que vous ne trouverez nulle part ailleurs.",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/v1",
+    "website": "http://www.tiger-paris.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0vxzZQ9FsVltgEZHHzNMxIn_W9nj9babe1RRHUiZODe5Aqrm_sXtH42qTmb-ul_DUict8aOVC2LPvm3tolERnc9XO9QwEMD7jDQZWQf2W3eV1HBep_WAT3HeoClTohOOkmumfGWuDKlZt0XXJ_UbZ7xbWRUd0Fn28J9R_UxRuJo5XFDF_tZvxIHVNPWza76euGWLcdCaMP_FI3DouNf_oz97qOP9QFLbJIuMg8Z8WYX6u_po1LxcFEJreyC89QjG9e-u54hE6vrvM01q3O5QYCAjqJuy5piF8wfvd2HM2vew&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@tigersaintgermain",
+    "google_photos": [
+      "AcnlKN0vxzZQ9FsVltgEZHHzNMxIn_W9nj9babe1RRHUiZODe5Aqrm_sXtH42qTmb-ul_DUict8aOVC2LPvm3tolERnc9XO9QwEMD7jDQZWQf2W3eV1HBep_WAT3HeoClTohOOkmumfGWuDKlZt0XXJ_UbZ7xbWRUd0Fn28J9R_UxRuJo5XFDF_tZvxIHVNPWza76euGWLcdCaMP_FI3DouNf_oz97qOP9QFLbJIuMg8Z8WYX6u_po1LxcFEJreyC89QjG9e-u54hE6vrvM01q3O5QYCAjqJuy5piF8wfvd2HM2vew",
+      "AcnlKN0opB4cqL5xaqIhmRsAEtzwunf-oKI_HhXeHHKYt0hK1Y-pjZhlOYEmVRjQrs1VyK3E9zrsCODHrBPi_HRYtPvzZ4sgGHXsieVdYf6-ZYU0_AU9YQOn32AKw0Ld7Jmv95q2tMzGaHAHiDmaw76eN_mL713bIvAUWR08uoDOTfEEoAo-r4zz2qd5tuBq99__2r2mtR5Hu2smqgcswYuLmXD8VTcZ4oZU6UdkzXgVVXGWU5q6aAd_QT2jL5zNd57R6aSFKp7bmezlPqNrNL_AMi_RMjoeFEXHIMwI_xcnmjn88Q",
+      "AcnlKN0fktBMoaz8saaybiSjRP5xZ6V_sUG-gKR7JwKvrPeKsEvrdiIPOoeoqiOLHbGQhH4PloeY7qUH-r04sidcg-HUmOvKSs4w7UnaTJN7a9gzKavW7eli4Q85eSCE4d8VLhQ7vu0dvdinDCvn5jlbIypiqvWBcLl2dlHEmb5EQKSK-uaI-95KxG41yJhXbj4__uiv9zbUSsB4VVXlF50Ya77NMlfBAXLNiySz8H4GQavxc2iBdxVhrwV-ENiOKvHtTj4YiHOt1A5u4Wuvz4i4Wv-mkxu3BdeAXpapXsNf882SJQ",
+      "AcnlKN1sA9aPjlnnWPxePUHDOt8o1k8Np2-uRlrWpjdVaYW55NVMAD-yDahOHxArd8Nh6G2YulhNOaPe0MbY4Z_Q0qSATFHi07yfOt-1lt1NY_6wNSLhNg4FRTJawCm-R5N6mXojMpABYMvPE1fAo4NDu_Ip7rseomj5os6XAtusV5c0G925mrA_zh8-FXWczv4UvxJlAwUng9fkQzeqGVMj0-vy3Ke9YnQ8JJG_I1_9Ewz7bCXovZLlEt64k-yxIOReTR3-Hi76iomBmKA0M6pR6nOnCtpulgcd-CYc-zx9tRkPPTCxV__bn6KgKNK9mS8WxoGkTMXYllLlwS2gfRSdrlXfF__yL1loiUZbB7oS4uPJ7Nzg2qPGTg4GRty9dxGS5_uL8ZpG9a_1gBvPNI_XXi0dQwgrajhXbRICep0fxVJaO5-ImV_Jb2jG704SeXQA",
+      "AcnlKN1DhpmHvkRczEXuHo0VpcGR6faZ8BDoSs1DTZGLhboZSfCMgO96e44Lqx8tMa4u7lRF-GQ9KWuNAj60HB3BwvkqhsYajhTS4XSnlYHKL_eYTLmL1ltjNKo8VVMDSfqRunf8ovGZucrMKP7uM6XETcHxbdePO-3H0CmdbmuE6eETTb8lR-yzsNF532a4QCb5evm_i9o-LLB-wXbAk3PPhFv7RBHUAcQJjzP3V_Fyb-QOlm_Yu_9Q8L2KWDEGSR1E_qffmkYhDiQdaDCaEQviZ70Lv4zQPUnhoLEeSWF87F613MtqvY0PJbuanWI6aOTKjPXZfIR3403uj_RXdkOrBzyF8s1YON0x2d5LBLLofRys9FTHkscQiQFCdHFQ6t94EvdIouEQQI7i5xlimUnm-jusz0b9rTGz2W1YPjj1MOpJ7CQV2lMVQWzhxC5AM2jy"
+    ]
+  },
+  "description": "Le temple parisien du Gin et des spiritueux exotiques dans un décor qui évoque le voyage. Chez Tiger, on redécouvre le Gin & Tonic à travers des créations sophistiquées, infusées maison et servies avec passion. L'ambiance est de plus en plus animée au fil de la soirée, portée par une playlist entraînante. C'est une escale rafraîchissante et pointue au cœur de Saint-Germain, où l'expertise du barman se goûte à chaque gorgée.",
+  "real_talk": {
+    "text": "Le bar tiki de Saint-Germain. Rhums du monde et évasion garantie.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de Gin, noctambules du 6ème et curieux de mixologie raffinée.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": 27,
+    "category_percentile": 73,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Menu: maxDrink(15.0€)",
+    "pint_price": 8.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "GINS",
+        "items": [
+          {
+            "name": "Gin Tonic Signature",
+            "price": "13€"
+          },
+          {
+            "name": "Création Cocktail",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Snacks asiatiques",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.5,
+  "google_ratings_count": 1107,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

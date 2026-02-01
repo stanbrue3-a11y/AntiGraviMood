@@ -1,0 +1,176 @@
+{
+  "id": "poi-127",
+  "name": "Le Perchoir Marais",
+  "slug": "le-perchoir-marais",
+  "location": {
+    "address": "33 Rue de la Verrerie",
+    "arrondissement": 4,
+    "coordinates": {
+      "lat": 48.85727019999999,
+      "lng": 2.3532773
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJoWH6Ex1u5kcRg7XHRXA1dXM"
+  },
+  "category": "bar",
+  "subcategory": "rooftop",
+  "mood_scores": {
+    "chill": {
+      "overall": 7.2,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 10,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 24.3,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 9,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "mixologie",
+    "soirée",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "24€ environ",
+      "display": "Horaires non disponibles",
+      "detailed": "",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails signatures, spritzes de saison",
+    "ambiance_vibe": "Rooftop végétalisé, vue sur les toits du Marais",
+    "booking_policy": "Réservation obligatoire le weekend",
+    "smart_tip": "Arrivez 15 minutes avant l'ouverture pour éviter une attente interminable sur le trottoir de la rue des Archives.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu"
+  },
+  "real_talk": {
+    "text": "La vue la plus iconique du Marais sur l'Hôtel de Ville et la Tour Eiffel. Armez-vous de patience pour la file, le coucher de soleil le vaut.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Perché sur le toit du BHV Marais, ce rooftop offre l'une des vues les plus intimes sur l'Hôtel de Ville et les toits de Paris. Dans un décor qui change au gré des saisons (esprit jungle l'été, chalet l'hiver), Le Perchoir Marais est l'épicentre du cool parisien. On y vient pour siroter des cocktails créatifs dans une ambiance festive et électrique, bercé par une programmation musicale pointue.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1vYF7LAfu0KXdErDSJb2bt3fmmtg7Nky-V8noNvNpNWk5hVQnosY28uPujPljKDBdBg33fBfbT5NiGCENhSlp0saKyIUerjGq3EQ0seILJtixxSKQVgp0YrMGYd6Jb2S3i2vum8abtY0PgsqfzowURiPEveCFGlHCgZOaryblAujP13G5b50tng1Ww6cd6XOKSH5wlFODK1mW0B7R2AHLvtvcJCcw0Ij4cEAuKg6be2tTQcwYZaiXN2qwQxHvstB6Yas35HGQj4PhL6dSRLyK1IoF93SLs78hi6EMSDcEqQw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@leperchoirmarais",
+    "google_photos": [
+      "AcnlKN1vYF7LAfu0KXdErDSJb2bt3fmmtg7Nky-V8noNvNpNWk5hVQnosY28uPujPljKDBdBg33fBfbT5NiGCENhSlp0saKyIUerjGq3EQ0seILJtixxSKQVgp0YrMGYd6Jb2S3i2vum8abtY0PgsqfzowURiPEveCFGlHCgZOaryblAujP13G5b50tng1Ww6cd6XOKSH5wlFODK1mW0B7R2AHLvtvcJCcw0Ij4cEAuKg6be2tTQcwYZaiXN2qwQxHvstB6Yas35HGQj4PhL6dSRLyK1IoF93SLs78hi6EMSDcEqQw",
+      "AcnlKN3Jsh0yL0WlGPAph6q3lnwqU7PE3H2iy8qxMNS4WjlPyRHI9EPv9YQ_cqr1ZyflTeeB7z3Gtd4B0XXmI8xccDSGwWg10puDeDl-atXoIpey8WHwXnjj2L9ykLwGML-sJ2vrZPy3y3fc1gj9l2NueNWd7_9ENFtMfCgEeOvHlfJ2YlyNbzg2bXa8nXbOSX596EVjaNDobJpzbsjMo87Oosn_OLkm2aVApQmWo3EL6V9XWszghaQgIs2ZNuIIAqM7DCXIqBDn6Fl1-cAcfR1vIyBkUwoOwO8Tp0LW7YwnUcS7eIuSORaIwXCxdFE6cpbfMjoZbDZY_Ts9s3CnPTVA10M-dKhMgtIjGiEzbhIHCPmqbnBaruLsci2hJWbuDrvDp9SOGHV6-rDXuDEiLz71KpA6trr9m6IBO-XF_KWjGvgxqA",
+      "AcnlKN17_k437eMxBuCAw5ApjJoAp__LoPNhLYYle1TJIf9h4aaqufa3wtVH9cYKBYxnTWcn_pxZBrtTtGeL0lDvER8mXAUK4l4gqm5YSMR0RK_W5vLRsvpuIAeUmN40cMrLTTdpDRIDmXkbNUCHE4F5-OnrSyg4a0cjeNykhE3e0YLGNrTSOBxiiVnqeMWK7NsNmKo13idbVtjJ5FqnCvYpFVXqBB4sRQ5prRalCPt9aq0palJFyhtGVqdaXBqUfy9dZTvc9wQjT-mdJ0KGOnm2WPTTUDz8ielyNWdPRu_j3SD9tHPsfcFQ9Ip9QwYihdGrXOUlZUZzIZ8mOkCM4gItLoq6TsB5OuWC0DR5g1aEGYLgWkOUOyAMp1M1CsE5EuS_zZ00ozUKq4rUHXPXVsi8MSHNJE9L2TakoUtHvDH2IHt4qn8E",
+      "AcnlKN1RYYxv1k8tFWs-N-qQ5ferCqqAtEgKMqfzqnBLSSYNGWkoLkHdDJpYehaJkE0osnWwfWbZ6TLd7cmRlNsHv4rCczLgy0ENhlb5B-brcHDsbQEIZM5C0cosT_1Kq9MQY54wQcxN_IBJ0Z23syFN45e8BoKcYi0s_qsJov04xs1hHSb6eMq5SalYRP1rHfpYIJi7Tch2IJ66HB7Wx4HUH1OUR8Uhp0ocjzWoaxRm90LIO5BRYZdVYujRLXQF7KEMzEVaYRnjO_UmEvZw8ziksMJ2y4k1DcFHbZ14LO4aYmEdNtrQlSmjQgFXngwrEEg5_NpgYEmlroBfeCh3tUtwHJnVgfOOuIuHWInSd7xx22SmVL2_9yP4-AiTgM1Qh31zrckYY3FNLgazLnrZ6AovJYHoNR5rAwuSzJY7tOtKUy22OQ",
+      "AcnlKN23ipnCzSel0nwrtMau5Bz8h3VBXOVBo1RVk6SjuCk4lUlNiJrzMthqAHSgdDxfFL-mLfBDXuh3TduKjb6G2ULb-k0_wvnyGJNeQU4jrt5ncS6hImcXGgVPPAvct6KSCFzgFvjtOvsU1UPULenCckt-B0QlVAZRAuU1n_i_jf3pWqbbaGzOhjIQz-HZAnZpaIcGAm_U95LgcUQyVPr62GTu9jRpgSlBVPys3eoe_Ed0YH-62Mmixi-dwuTas5_dmALN1RWzwy3zPAyuFKKjL0-0KOvmaS_9xuViHVoau5ehPt9P-F-m-zpbMMR3ihufEbvrQfH11Cnw_qJ4472SYN88RcQMsOON_sacfgH3qt9m_CUWUhsUYa5bZyvnwhlSQSTDJpi1J3CXS6pxwtLFOh8jHKCsrBEDyfrRdfqEW1StDtWP",
+      "AcnlKN32CXztXZ1N06cXO3lrmAzaBF12BsUaL13GXzj66TlaYClQu34g0kaBFfDbLtpWQ5EyY6hexovwzLNNLbvr06P8Uk-xj2bzzFAH4eIl8PdCIGEb-bnOdioUkMfMKtsoVLE3vks9_XfGEvhcIkc92v6KH8AmHp8kjpzzfyB4KRpb6pY0T0ook33yQqu4zyBqdnMrKJEfDq1mDvfqMgcly30hwBCOBi0VG6H3rDpJIyIi4cm2OYS5GVuBDFll-99ADbHQouCltjBPjRTExPOCYmPAzgmoKgm6KRBE2_qgvujRKk2u7SDdlRI4lRZN_xEOA1Y2SfVVx09T0b2WbquxADx2qLKwl0HfM6JAE2gmCpLt111KtS-U7YZV2UCFH8IGL8ZePL-7G7FL-nb5MUYcxUyiSCvhuia9MZcYwmODQqc",
+      "AcnlKN0NlT-EBAC1v_CEBqo9_vO54Gx02mU-RFT9q2aabg3QeUefk7N4Sn1VjBg4IV2T3iOv2CZviDnqTdEFxylM73DKVySfdDhG0z90MWp-Zk-bC-1_uuA9Q43BpBgowlKvNTTdgTSkt5ramld-3-Y4Q1xs07y_DCUjU3jLk0V7wgzMdTzPNyodBbhDCQuC7fhun1Fp9HXFNNnPcYwo8RwYXr3lvScR8iXxx-zmQdCPaGQ9Gg-uUMTviLAtIcIZXACwBRUpsW3GFiP9u9p59ECzTK0pJZ5CE7O67D-HjcXWCrmR0syuFu7C95mFRpq77DKdV4xKZl4u0-0P47s660npyrwfVUgGyp9o0EsAMXTDKzL9K66YNW2z7rRZnrHu3gJ9Sz__D-V8rf4qKmW-5UTLg_KiLXe656zhJeREe9yvM5FC-A",
+      "AcnlKN3TUBm1LoDUpAc9jgZS5bHvxmKZK3PAMrdUu_RAGVVdJUA0yAoZ8tS12xbyJFowYvlJv5XuKkCJg6ZF_8Nfwd__BmJGtuA9GWt0EtS2baQCR66YnssghjNDswIQJPISM1O8jfhQRixFkLy6tNwZph-XzVLuXgjiOaumi24razvyze1WqmrDmybFPVC9BBjTCGKO12DVLL-C_PzNV9xqu8LGOI4n1duTdcP9Q5ea3oI0QdpxyFf2HVN62fkgXJQFhg9VHDRk7M9jh15_MEFSvz1uC0_7T7RWHQoTDF09Lba2NJdc8Mgon1cxtWxzwKEJRQuLr7REQS663sTi3kbvB49zHooiq_AXLBkiDeXxq4uAdi907Y5N2u_sOt-fU-T6oiSOHu4eg1akdGWNx6Y6bvzRHhosfLb4ilyC2cZmwUeh9Lg8",
+      "AcnlKN1jO7egWbd7eGJcQJKrWgmWdJVf3FsoU2rtiHjun6zu5mtrWxWXksQ84p1HduadJVqx0W3MTisL_r26ulzr26-1Nv_InYZ0e9hydUNQxFYyoXZuhpsURa7IROmhGAlkh9JollWv6suBbE2rXLdeLVOD9qjOCNoVYQKhMV7ag5mfHWtXGVVfo3t43WI-3kOEl4k_9Yy10wSz1p04sXilQ7F6_YeG9IAao5AtohXDCgzvA1nHff7_zCwDiSDbqszl8sD9yXXGoj0UaGgUUnMXBjBV9ephDVxbgkvWAmxT_a531xL9xu2XIKJpsNvtt4VUO-bZvsHWePl01hX_pKE1Nkj0LyrUdqMaojxzqeyPiuvCqz5OWzLyGMsz_9LZ6Er2PlE2l6Ryo6spQEK-CF93VvXJRsVeikPZq13p41SdAE7a4Eo",
+      "AcnlKN1sZjge__wCiylrIs2wEJPeXB113exPoDirWv0pHktgtZnVwM5qNRQrD7j9G7S5iGwHksX-yT7ZDTP1rWsgBYLyxxSWa6KyR8qqryohOuSOQJ6-DTDud0gnjEevUPua4qy1Tlsnr8Hc-aXibDg4vB2BMagwmSQbL8dnZdDhuoF0m7UtvBY1-R62IhVmCGgt4bsDYPWVkZWOeqwOlMvznaFM5nEWQsYqf85-rMHt5vhGMduMXLezEqOFuiJ5m6-XRIrk5PBbgPw8uuyG1hAFFfcyTjkCsKEXtUoeEb3ZaTSrKQRy2tKDaYT-D0xsSeJ1MOIWIsjvfxK73TdbY26uXfBWgigS-zHArI-h5RE3joOglmZyeSX2YgJE9ICnYbNudrFZRzROGiQy88IC5PgCbd-9P9IFsUdZ-rrStW9zO_igHl7h"
+    ]
+  },
+  "social_preview": {
+    "like_count": 931,
+    "top_vibe_tags": [
+      "ambiance",
+      "mixologie",
+      "soirée"
+    ],
+    "moment_count": 49
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "24€ environ",
+    "display": "Horaires non disponibles",
+    "detailed": "",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Le gratin de la mode, touristes stylés et parisiens branchés prêts à faire la queue pour la vue.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 14,
+    "pint_price": 10,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Moscow Mule",
+            "price": "14€"
+          },
+          {
+            "name": "Création Saison",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "GRIGNOTAGE",
+        "items": [
+          {
+            "name": "Houmous & Pita",
+            "price": "9€"
+          },
+          {
+            "name": "Assiette de fromages",
+            "price": "14€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4,
+  "google_ratings_count": 1308,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

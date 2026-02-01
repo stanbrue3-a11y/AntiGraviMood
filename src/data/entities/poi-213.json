@@ -1,0 +1,141 @@
+{
+  "id": "poi-213",
+  "name": "Parc Martin Luther King",
+  "slug": "parc-martin-luther-king",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8906,
+      "lng": 2.3168
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJOWt5E69v5kcR7ZQg8i4r60o"
+  },
+  "category": "parc",
+  "subcategory": "parc-contemporain",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "leaf"
+  },
+  "social_preview": {
+    "like_count": 388,
+    "moment_count": 55,
+    "top_vibe_tags": [
+      "parc"
+    ]
+  },
+  "discovery_radius_meters": 200,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Plans d'eau, skatepark, jardins écologiques",
+    "terrasse": "Patio/Cour 🌿",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/equipements/parc-clichy-batignolles-martin-luther-king-2817"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3nhytI6GxIWbgvLsQStA8wPq0yq25FokumCE3Mfq_ggMFlDqsBv8o-B0F3vVNGuOjU45r7nb56Dgnnc_cCmMsh7itll_GbldAOcEESeRCcT1AOgUtt2rCdw5fs_3brQQO7XIwrR5t-g-MvTZHdZ-NtxId6Yy19JuEvh2TcKr47NT2W6iRuaTR0bzaXa4MC8LnV1J8b72PufeznYv2U7VTmtbX0fQzcphN38BIIV3ivk9g8AdboN9KN-692GUmVV0RLBetzlB-cpHlUTB_cPjmAdG7uNDNJSNBlC5lHH256kwqdUIHv2oIkwVqJ-EP-whqMooqsaOpnQhbo9zS0lSwZI4HrjSiK31a3gCqDOXqeUXWUi76KNPsge-UAW7hke2hxbzcmSx5TCbauYV_zZtyHSI8Webvl9JXqWRZ3KsjBDA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris4nature",
+    "google_photos": [
+      "AcnlKN3nhytI6GxIWbgvLsQStA8wPq0yq25FokumCE3Mfq_ggMFlDqsBv8o-B0F3vVNGuOjU45r7nb56Dgnnc_cCmMsh7itll_GbldAOcEESeRCcT1AOgUtt2rCdw5fs_3brQQO7XIwrR5t-g-MvTZHdZ-NtxId6Yy19JuEvh2TcKr47NT2W6iRuaTR0bzaXa4MC8LnV1J8b72PufeznYv2U7VTmtbX0fQzcphN38BIIV3ivk9g8AdboN9KN-692GUmVV0RLBetzlB-cpHlUTB_cPjmAdG7uNDNJSNBlC5lHH256kwqdUIHv2oIkwVqJ-EP-whqMooqsaOpnQhbo9zS0lSwZI4HrjSiK31a3gCqDOXqeUXWUi76KNPsge-UAW7hke2hxbzcmSx5TCbauYV_zZtyHSI8Webvl9JXqWRZ3KsjBDA",
+      "AcnlKN3njbF-6vzvUv5IOEr1su0FWZ2pDH1WMuFjgwgABuKx9ybM8ewHFAy-Wd_QH5aKlpQjZ0qr2SZ9iR1KB20GCUBvyj5wKW2PHBDnZEDYie7JJRsX-2Q7FpQy0NcRY_V4AeVVtlrbRlIX-yvjJ3CvVfkNLa8Lg2Uw-dDaNDK-dNVXZuYdfEEnpxPqWxqx9_7tpF3wxRWdR1RnHu_QGryJaogJRQzutFaRWxr-hg4aejREUSfSkcFFu9ofSqLePSCTBFLgZBhflycTUJpp6IiXtkB9wqM9JJ3ezqEuEjncrNlUFKXbyPR4Tsxw2P5wuBHBp3NZyzFEY5wyLlmiVXi40uHcWJhET9W9hf0Y70trZCBiUWslxvhgdgl3CfyywjFVUWefAr54Opi5CG0Y9CKYuIZ_qk2Hvg_KcC1PKulbtDg4BMs",
+      "AcnlKN0Z1gPD4ke6faHUiTy6Yff979ztp6890sJ5HSSwCinq6QB8MgVPOigcWX8pOxukQxvFcR_PCWVrRpqS1ne-_X8cvEeJcYl-ZZyVjSlG3IQc3z21UG6D2iXF56_NQOttuRKk4VCOZWKpl9wF4cENoA3PDP2YfYs8zf7CCjGlK10YLmR2HEZnSXpb-G4wxzU2iLYOEZ-4L-UXjBJiiAUKNfZ_wPlsRFii1LX11ZKHqBsuzvBwYc-UZ2LEcvlnNyZHGVwx-cFMb5lvpDYFF85mUOZBxRv5rcW29NeIifHLmPQoJYse1-c4OZ0J2XPD1xC60Ap8b7m7KvpiEe7jDR1_iGRmDw12zdshC9HgV9MNmAKTE_sKV1saju0p859pis2AhPIJISw4LKfv-jbMP_UA1ZpXB_rJSHaZo1jtgXPxHjPIIGA",
+      "AcnlKN0crliwbIlO5eVaRJhYNVp8gBeaHwNA1pnK35XeHkMAfMbJh7ym9p9fgc3WkBCOWebd1RUPVjKYF9Hwif14lELppiwqC1xL0mOBLrxSfwM3y77Qom1OPVGLvCa6oelYPHF7VoTzXezDc0gf9wsh9koO854xkNs6ESCpTTRvAp0pI2TW5JurfmFDyrjX9cZiGMpBVPX8jmKgRz-lxYek4xtDaQKiZZQPOo1_bIJFh6hqJL_cTPMeCaLqh45uo3zLpyWASp54SncsntbnAsvUl5SCpPPvs73GnsnNIwTrosODJDvIbzBCKx2uGNa8g0XaKBIOrlVKYz37_bpmswnWxGP-fD0P6UZ_grx9QNUzAYtoWKBzIqST9cmcx1hgZnaZz_HyP004W1lWgkvLgW5O5LjWTOgcn-P_c0bA6LMphMPjzg",
+      "AcnlKN3yqXeLInhu7G7yTVUwxFrqCY1rbs12OiOq4DfNdqgRFnZIVQ16tc-FrZC-YE2ej9g90exPOctGalKCLOHVuiuOtwp4zyOeUz8KkipHKDpATq59agifShuFtusl8lgKa919RCs9BYpkdmW2s8ei8PlRcY6aZ9PKGah5TfNFyAW402o50VwK3vIHVJptLGcEZt0vYOENqlPvi3EpQ-d-dFrG7Zy7KuL1afQKuURG6emCNWZUPkA53AS-2FCF8DHoZrnKtZOfNKOOrW821xRpB1d5_jVrjief1K_S7hegthCopyS8rx8juRzSU3U6Mzv0iPgOPYKN0Jx7UQrFPvTrJ77GdRwj5CbK70swhNuv-GLXRz3OqrpDTXVt9zFpUqAvEb4haRfHdWwuGSaQFueAnqJ6sAqMgz82nz67DrtAecvvqmen"
+    ]
+  },
+  "description": "Le Parc Martin Luther King est le nouveau poumon vert du 17ème, symbole d'un urbanisme contemporain et écologique. Sur ses 10 hectares, on découvre des plans d'eau luxuriants, des jardins partagés, un skatepark vibrant et de vastes pelouses où tout le monde se retrouve. Entre les immeubles design du nouveau Batignolles, c'est une bulle de nature urbaine où la biodiversité est reine. Un modèle de parc moderne, vivant et lumineux qui a transformé la vie du quartier.",
+  "real_talk": {
+    "text": "Le Central Park du 17ème. Urbain, vert et résolument moderne.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Jeunes familles du nouveau 17ème, skateurs, sportifs et pique-niqueurs du dimanche.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": null,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 95,
+    "menu_items": [
+      {
+        "category": "HOBA (Food Court)",
+        "items": [
+          {
+            "name": "Plat Signature",
+            "price": 15
+          },
+          {
+            "name": "Brunch Sam/Dim",
+            "price": 27
+          },
+          {
+            "name": "Cookie / Muffin",
+            "price": 5
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Bière Pression",
+            "price": 7
+          },
+          {
+            "name": "Café / Thé",
+            "price": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 6669,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

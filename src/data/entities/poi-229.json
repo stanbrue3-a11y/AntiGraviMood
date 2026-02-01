@@ -1,0 +1,137 @@
+{
+  "id": "poi-229",
+  "name": "Le Wimereux",
+  "slug": "le-wimereux-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8856,
+      "lng": 2.3121
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJGxxHdZIu3EcRmSgjlZQLkp8"
+  },
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 540,
+    "moment_count": 48,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Regardez l'ardoise des arrivages du jour, ils ont souvent des poissons rares de petite pêche.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN3S13JBNM63H7l5RphHXsVB_6Zf1RaIfS6SU63G5FCalSMQFKuvjCTpIEj9GzEkYOE3yLM0g4Mw-3LweDwvO9R5yrnp-g3fSk3jFuVyz6M5jwDGeH-v7p2bHFVRDP8yM_qUyNR8Rbu7NNbgQKDJgeu6oTailk1eJhST5GscgJ5z7RU2E_IWtpv5LNxF8fAvvUb6cEklA8slP0xqnufXkQSf2SCDQq4mO2b8QYjoUwDhg-CINmyfKwFP4KJGpYwfudXO3K-9KfQFGJP878XQGUKTqzMJoasjjU14dFE24MpH5u25uxWubC_AdVAlZodY0S8Sh1xSPx23S2yhsj6CyWkCBASM-BjDG6EewkJn5MEtqraV7kSsPU0dkO0YcKieAXggC0KY3trL1gGawanxwxM1I_JgJW98nVbeRtmHeg1vNa6SVdL_oS75RRwErAOx&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@wimereux",
+    "google_photos": [
+      "AcnlKN3S13JBNM63H7l5RphHXsVB_6Zf1RaIfS6SU63G5FCalSMQFKuvjCTpIEj9GzEkYOE3yLM0g4Mw-3LweDwvO9R5yrnp-g3fSk3jFuVyz6M5jwDGeH-v7p2bHFVRDP8yM_qUyNR8Rbu7NNbgQKDJgeu6oTailk1eJhST5GscgJ5z7RU2E_IWtpv5LNxF8fAvvUb6cEklA8slP0xqnufXkQSf2SCDQq4mO2b8QYjoUwDhg-CINmyfKwFP4KJGpYwfudXO3K-9KfQFGJP878XQGUKTqzMJoasjjU14dFE24MpH5u25uxWubC_AdVAlZodY0S8Sh1xSPx23S2yhsj6CyWkCBASM-BjDG6EewkJn5MEtqraV7kSsPU0dkO0YcKieAXggC0KY3trL1gGawanxwxM1I_JgJW98nVbeRtmHeg1vNa6SVdL_oS75RRwErAOx",
+      "AcnlKN3jIznFY9euk-STBNkw4NTloJasv-eXv74HpniDNrBy4EjI78XhF_qEl4NTLmU2FQjgOtMmQ0n7NTEn8Ky1pIomuSZQAnluaRnF5TQHwqEvtawxyW7dF2B8F6Ewln8IQwrkMLrEqEfnRp3LB80KnDxpSwSciT8ZEHdr4cOvPyDi55CoQM2hPFMtFg0NYtU5vHi7BvU9OqFNqDQHcdskhLi64tfO6vpGITQ9xYMll9NJDuVnLxa1lNDKBh_PFzpV1XOfIdL9moeZkOV6D0hjG69omPKEQrJ85_tqrx1Px1X11NKC5H925PY-BF9f2qJN9k3z25UN7iwQU5B1QZk2MJarmUOInD52wFOgrvGlheT1vMkrTiUMNyMGbiuTMgJ51mcfz-Bc5JgbuNrJ0KtDS5ZEmQLUay-ot5sfqxaoeb4a8Ckg",
+      "AcnlKN02esHlhaU7BIDEg77W3VASueS61nfEOYJ8mQWpzQXLu_DPST3nnjckq1GeL_yxIAVoaz7eLTK10JZJJtIU1wm0Gct2epIGhlcVTVbr41iGTtdV6eaDhVSiXV0_CzIWsGMTvmjR12W-g_EOerfNkWc0kP-aiCjLUx0V9NoZptyf_UOfQffLNlJpoX2IkNw_FvWAgjjhkhWPvWE3T9sIUjy9OcDKB0HV3dlG7FGJP5YfVuJvQhEj2CVSbbcrgr-ITTZG2fivMTsCUz_DndL00zzTwVI00XO-BFwH8KgdZoCmRGrp85yDX69tBoKHXtM-7YbVB9yuRLNfVIaVQBMzLZypLPMW_OPtzihBMnbXqu-bKTkzXnzgbm3zzmLvRiDgIfo0oDvber69XSXHKclx5V5wviFq9OZlmpfR9Jf60nNgi0dUl7xpe9i6Ts9Dkyl5",
+      "AcnlKN2-jd5tnGBOauCB6zx-37Ckawzl2fYvQDZr1tItFYythcNUItjKF0haPz83uiRjEEb6rlBWiN-0PE7JcySFvWxdu04gZlkRJwC-rEdvzBJZpuiutgYF8H23bhc-UkVBkNnfqafVqOhdJSe3YVihzNSQCNd58a9miOyvzimC-21emg5fQqrl_4QcRX6fJUbX-XhiFJp6czGyFxo4XoElgRbFCb-_-6eTwuZxv-Bt5lPjqHY5iCgSl5Ezs5BrY2TqIyoy8GRp9Rr4_-BpuUDRHAqs3r6Q6w2giackC2POzWysV_kxLl5Ip6SAgL4bg8WnIPoOXs9iz-6d1HhpL6-xS9v6V3vAQ5IG-FXYq-QUSkmVGrsNnZbHYnBn7mqZiQR0H_xYZ0vhOGcwI3TYmtNb6BYDEcFmvY6TgaEWskEKPLYPCg",
+      "AcnlKN1UaYExSszpf0Ojimhm0zOizTtCVNgMNTcvtYF7SBdZAW41H5En9_qlTwGC40hWTbZOCmVgV24f7LQHs9ahH8tWbRSONr2cA9cFagXeFf2anliVlF_D39SvaYnYnC9iNYDVDU-pCna98PcWUVGWkbNOX4d8BAHmje0v7zktKF2vpraKI7_tCZNVbn1XqC6yMwpbEtTat-KkWUCjALQqSAIauZxKB6MRDb4epJU-9vrQKD2HiRb1MI-XAJTsgLEPie4K1G2ScZLZt8hFDI2TrAMKikf1d6wOqWgCe66-C9VtHYJ1-na9ndaGBpip-jpWl4e-tsiRDCr11BacmBCNeCIVRPOUE2WTdTgAThwCEAdpyhvcwm4gSBLq-MMKkOYkj_xFokQrywAbM7LG_yNXsZp5gsgoaoYlQ7sKywPIV1f_-sF9VVmCUfKuktalTykH"
+    ]
+  },
+  "description": "Le Wimereux est une bouffée d'air iodé en plein cœur des Batignolles. Ce bistrot marin rend hommage à la Côte d Opale avec une fraîcheur et une simplicité qui font du bien. Poissons sauvages selon l arrivage, huîtres de pleine mer et moules de bouchots se dégustent dans un cadre bleu et bois qui évoque les vacances sur le littoral. C'est l adresse parfaite pour un déjeuner de mer sain et vivifiant, où le produit brut est la seule véritable star de l assiette.",
+  "real_talk": {
+    "text": "Le goût de la mer du Nord. Poissons sauvages et huîtres fraîches.",
+    "must_eat": "Poisson du jour sauvage, huîtres",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Amateurs de produits de la mer, familles du quartier et habitués en quête d'iode.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 26.8,
+    "value_score": 89,
+    "category_percentile": 11,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(21.3€) + avgDrink(5.5€)",
+    "main_dish_price": 24,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "MARIN",
+        "items": [
+          {
+            "name": "Plateau d Huîtres (12)",
+            "price": "24€"
+          },
+          {
+            "name": "Poisson du jour grillé",
+            "price": "18,50€"
+          }
+        ]
+      },
+      {
+        "category": "DRINKS",
+        "items": [
+          {
+            "name": "Muscadet (verre)",
+            "price": "5,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

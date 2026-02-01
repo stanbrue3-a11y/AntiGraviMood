@@ -1,0 +1,161 @@
+{
+  "id": "poi-057",
+  "name": "Bambino",
+  "slug": "bambino",
+  "location": {
+    "address": "25 Rue Saint-Sébastien",
+    "arrondissement": 11,
+    "coordinates": {
+      "lat": 48.8613821,
+      "lng": 2.3697899
+    },
+    "google_id": "ChIJB0eTdh9t5kcRU5WG-sCo3bs",
+    "nearest_metro": "À proximité",
+    "metro_line": []
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vinyles",
+  "mood_scores": {
+    "chill": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "festif",
+    "vinyles"
+  ],
+  "ui_theme": {
+    "main_color": "#FF4500",
+    "map_icon": "music"
+  },
+  "social_preview": {
+    "like_count": 101,
+    "moment_count": 81,
+    "top_vibe_tags": [
+      "trendy",
+      "festif",
+      "vinyles"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "google_maps_url": "https://maps.google.com/?cid=13537161601735890259",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "Horaires": "Ouvert tous les jours 18h30 – 01h45",
+    "Reservation required": false,
+    "Le Tip": "Vins natures et vinyles. Ambiance qui monte le soir.",
+    "L'Ambiance": "Trendy, Mélomane, Festif",
+    "price_range": 3,
+    "reservation_required": false,
+    "wifi_available": false,
+    "ambiance_vibe": "Hi-Fi Listening Bar",
+    "smart_tip": "Best fried chicken sandwich de Paris. Le son est géré par des audiophiles, c'est comme un salon géant.",
+    "signature_drink": "Vin Nature / Cocktail du moment",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.bambinoparis.com/",
+    "bouche_metro": "Saint-Sébastien - Froissart",
+    "on_boit_quoi": "Vins Nature & Cocktails Craft"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHq8m3FdC3GhJVk92ygZ1st5G7g0iOZMGngY5VQP6qUktsnri3z4NARumzkFuMpwO2sGqy2-1tC72HBo8RQ3PqqrEt9bjOSGVFAvcQ2peCG2dlDrpR1p1B1qTkwlQX5behg9Nv33AjGQewi_yAvIQlVHDox-pujMhvhaiXqfj_pUIhqRuEZtqqz2vSLKI1KYmUEhhHNUG-wykuXi_FPhan8xx1B5gb6s-ag70wvthdiB8EgvBNbVdBI40zw9LnWLZt4Q2D_3H3-r5x-zoCghcTyFuMHu5mnRDg7yFJD1Idd3NkVtWRFfbVg2nc91evx5yluTQPKUaWKmqbzQWmuGFRy8u966LguxfstB6barhPQldoutE_KmNi-ORWguiDxvfzQAqd4i0KfNqgWN2bRX0C_3ZGIYjKnwxXibmBq63CsYiA"
+    ]
+  },
+  "opening_hours": {
+    "standard": "18h30 – 01h45",
+    "display": "Tlj: 18h30 – 1h45",
+    "detailed": "lundi: 18:30 – 1:45\nmardi: 18:30 – 1:45\nmercredi: 18:30 – 1:45\njeudi: 18:30 – 1:45\nvendredi: 18:30 – 1:45\nsamedi: 18:30 – 1:45\ndimanche: 18:30 – 1:45",
+    "is_open_now": true
+  },
+  "description": "Inspiré des bars d'écoute (kissa) japonais, Bambino est un lieu où la musique est le cœur battant. Les murs tapissés de vinyles et le sound-system vintage hi-fi créent une acoustique exceptionnelle. On y dîne de petites assiettes fusion (Japon/Méditerranée), on y boit du vin nature et on profite d'une programmation pointue uniquement sur platines.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Mélomanes gourmands, collectionneurs de vinyles et faune branchée du 11ème."
+    }
+  },
+  "real_talk": {
+    "text": "Le temple du son dans le 11ème. Un bar à vinyles où l'on dîne de petites assiettes très bien tournées. Le son est précis, jamais agressif.",
+    "must_eat": "Le sandwich Focaccia maison.",
+    "le_secret": "L'immense bibliothèque de vinyles est la collection personnelle du staff.",
+    "le_son": "Hi-Fi custom, acoustique bois. Jazz, Funk, Rare Grooves.",
+    "le_must": "Le moment où le volume monte en fin de soirée sans jamais saturer."
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 30,
+    "value_score": 85,
+    "category_percentile": 75,
+    "is_free": false,
+    "unit": "Small Plates & Drinks",
+    "extraction_reasoning": "Manual Verification 2025",
+    "pint_price": 9,
+    "main_dish_price": 13,
+    "last_updated": "2025-01-25",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 9,
+      "label": "Pinte de bière",
+      "source": "standard"
+    },
+    "fair_price": 9,
+    "dish_price": 13,
+    "source": "verified",
+    "verification": {
+      "verified_at": "2025-01-25T18:30:00Z",
+      "source_url": "https://www.bambinoparis.com/menu"
+    },
+    "menu_items": [
+      {
+        "category": "TAPAS",
+        "items": [
+          {
+            "name": "Fried Chicken Sandwich",
+            "price": "14€"
+          },
+          {
+            "name": "Brochette de cœurs de canard",
+            "price": "9€"
+          }
+        ]
+      },
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Verre de Vin Nature",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail Maison",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 3.8,
+  "google_ratings_count": 1083
+}

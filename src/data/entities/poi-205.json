@@ -1,0 +1,143 @@
+{
+  "id": "poi-205",
+  "name": "RadioEat",
+  "slug": "radioeat-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8523,
+      "lng": 2.2785
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJQfF2MAFw5kcRpc1lq1gz1c0"
+  },
+  "category": "restaurant",
+  "subcategory": "bistrot-contemporain",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "chic",
+    "gastronomie"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 583,
+    "moment_count": 56,
+    "top_vibe_tags": [
+      "restaurant"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Lumineux, épuré, calme",
+    "smart_tip": "C'est l'endroit idéal pour un déjeuner calme et lumineux avant un concert à l'Auditorium.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://www.radioeat.com/",
+    "terrasse": "Terrasse"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1ehrGucXt-Xm-zlLa91QFM6NryQe31nGTk8G3VXQMGJy7OHuxoMUjzTea1I6FTVgN8q1bFqR_dJwZXDMTb94_vTIq1SDBNNJJkC1SC5OAvuqL-Ez3e7Zdl96cqpubcQX5vbOCCmjRpxJJ2mCN5UjqMg1aF123FeeI9W1ygX9iLe2zPJ9crLXFqcRDxBynHKc8Asg9i6ZITjoF45J_2Ts_4pwbYgdJQ7IuiK04Tr4Y5X4D4JkMlIaf4NEfOdBaAFkF01AJcKPo96rZFUzROy006eeh_guVgZtUzl6wSOZRWjA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris",
+    "google_photos": [
+      "AcnlKN1ehrGucXt-Xm-zlLa91QFM6NryQe31nGTk8G3VXQMGJy7OHuxoMUjzTea1I6FTVgN8q1bFqR_dJwZXDMTb94_vTIq1SDBNNJJkC1SC5OAvuqL-Ez3e7Zdl96cqpubcQX5vbOCCmjRpxJJ2mCN5UjqMg1aF123FeeI9W1ygX9iLe2zPJ9crLXFqcRDxBynHKc8Asg9i6ZITjoF45J_2Ts_4pwbYgdJQ7IuiK04Tr4Y5X4D4JkMlIaf4NEfOdBaAFkF01AJcKPo96rZFUzROy006eeh_guVgZtUzl6wSOZRWjA",
+      "AcnlKN28fN5U2JJcpVaxIIwyAJ_tDpBafk9sj_q6dJSx5NphOa5lH5uwyc4CQXyxEcLRySvBYELYg_Y_3vufSfA1av_f10DXvkqqe2ymdFiHS0gb4ejA6yTJfbgCmKqmUFjnXG0Z_EvIjfitHQ2oq0Ywfn8el6-fLkJ-SgtsUStiTg2q2lneay5LxxSoKxwXWJLES8JCyoLLjg9igJQcQM7X7zGpjXFBNkTU5dPR1O6V84S7D9KligMJ19YGB1gWxtwcEU31BeHxCVYc4gKkSn0LKISLG-eFuMqKMmzKyDhgaq4ij_pH0Bh9_CMGD4GiY1mn6ng6szHfTegZlqI4kgU4n6PGUxxI6JZtGZgJe2aWNuZZdUXi7pki2YNGwZC7j-DhYwW5dh1pruEySLDeBahwghRk9tr1x0iv9pUg-XbkVd010EzJcxuc5QtGNp8s1vBW",
+      "AcnlKN0r7dpjGS1UOeyMZnsvvY6AazYkN-Wz6-3eLqJQh3lSF4-119OGuMlGwFJizMNlcKedC9LbE3ptaxoRWIMo31oYCOZGuRXPRUoC3o7aAzu94OY3b78ywyRJAMdlwH-TLSXvc5ZQYs3h84IouTVPs6wxHLi3kDYX3EwDbGdV5pmQssTziMDMyMp7L_SXWeCK66XkL_X7k8FAzRgrUPE-P3BAo2_m5hV0fGXWA1sYLeGYgojjYkTbKnFwyhzOJRveIbjnjj-2nNXIh8Rr_I5JKueFU4ptfeztL1wQ8iQwxtRFkw",
+      "AcnlKN2TkMnBx09c6NxnkJyrriNxL_IxiLVGmE96Q_ax7XdqVsGHH7MG4vjwowe0diCgW_linSr1a2eJdamtu1RZtL5GJRzJQRQlHp6fQiA_rkciAdadbU1m6eCCGUTssfIiwKEKETCfp361oPBvyHxuRJYGWOrj-4eDDBzrkDJF0xE08_DAv2eD-QYs-e7jNp-NvEtBJhW5WJIoCPOFGBwW8Zxt0i26wJ3A4n8smwasvBP8s8XjgiUIOZSaVvfAaYvd3Mu33pJzc5HVH4Ahfp2yTWoqC-WSFmgIPTX0EEgpNt0qXU1xY34_9jwvx55My5H2nixvX-nagqbVLaAekxaCUhk7Hvgxcn2veZl0gg2J1AYSB4QCO1HrRrAhGiGkakl_220DWEEPE5kB2Uj7DJmvNx9E7rGboE-sugd8pS1MTVkONuVbnPD-D1oY0kh2wtdT",
+      "AcnlKN08B0gUXyhS_MYjJR4PD5s0g-0MEZd8hIf-ufqpEuTy5I1MLUgKM1aKh-oSXI4qpDdO3DcDUuObv1zcTFMG3BOm9NUqi6rGpx0_g3uG3o24Tvfaj0Njl1ecnSXnnJqBslXxiMfsyGqTxkiHuPbS36k9NAukzR7v32n3tDaJeaI9kIwd3-ORnYEWSc6TFigwNXjqlEqHp5A7R0FHk2w2HegzjSAYHEa_kn95hTcPb4d7c778STlz6kKKHXhM7PTrUj4fqJ_YBhzVFtVxY1sEM5JcyVsQTsBYGWF6uHu-BkP1737XiC0XqAV2fDY2KzKlSJcyCECjhrprtVv9aFBzKdW5wRD2zHliyd_VejhxpCiZnn7xCcmPHGCP4sXYKwEFxSVczQXRTrIvw5kF4U3lX72thFH0n6T7_7Z5xolKsfByK9Cd"
+    ]
+  },
+  "description": "RadioEat est le secret le mieux gardé des bords de Seine. Perché au premier étage de la Maison de la Radio, ce restaurant baigné de lumière offre une vue panoramique sur la Tour Eiffel loin du tumulte touristique. La cuisine de saison est inventive, fraîche et sans prétention, privilégiant les bons produits. C'est le lieu de rendez-vous des journalistes et des mélomanes, une bulle de calme et d'élégance contemporaine où l'on se sent privilégié à chaque instant.",
+  "real_talk": {
+    "text": "Le secret des gens de radio. Lumière, vue et cuisine fraîche.",
+    "must_eat": "Plat de saison, tartare de poisson",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Équipes de Radio France, mélomanes et parisiens avertis cherchant la vue sans le prix palace.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 25,
+    "value_score": 93,
+    "category_percentile": 7,
+    "is_free": false,
+    "unit": "Plat seul",
+    "extraction_reasoning": "Menu: avgFood(25.0€)",
+    "main_dish_price": 28,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "BISTROT",
+        "items": [
+          {
+            "name": "Menu midi",
+            "price": "28€"
+          },
+          {
+            "name": "Poisson du jour",
+            "price": "22€"
+          }
+        ]
+      },
+      {
+        "category": "BREAK",
+        "items": [
+          {
+            "name": "Pâtisserie maison",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 630,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

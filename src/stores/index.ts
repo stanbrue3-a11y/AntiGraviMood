@@ -1,10 +1,12 @@
 /**
- * MoodMap Paris - Stores Index
+ * MoodMap Paris - Stores Index (Decoupled Edition)
  */
 
-export { usePlacesStore, PLACE_CATEGORIES } from './usePlacesStore';
-export type { MoodType } from './usePlacesStore'; // MoodType is still in usePlacesStore
-export type { Place, MoodScore } from '../types/model';
+export * from './placesStore';
+export * from './searchStore';
+export * from './uiStore';
+export * from './momentsStore';
+export * from './userStore';
 
-export { useUserStore } from './useUserStore';
-export type { User, Friend } from './useUserStore';
+// Types
+export type { MoodType, Place, Moment, User } from '../types/model';

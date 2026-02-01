@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
     content: {
         fontSize: 16,
         lineHeight: 25,
-        color: '#111827', // Force Dark text
-        fontFamily: 'Georgia',
+        color: '#111827',
+        fontFamily: 'PlayfairDisplay_400Regular_Italic',
         fontStyle: 'italic',
     },
 });

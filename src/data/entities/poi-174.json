@@ -1,0 +1,142 @@
+{
+  "id": "poi-174",
+  "name": "La Closerie des Lilas",
+  "slug": "closerie-des-lilas",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 14,
+    "coordinates": {
+      "lat": 48.842,
+      "lng": 2.3371
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJD0MBxsZx5kcREfMy9IsrUTo"
+  },
+  "category": "restaurant",
+  "subcategory": "brasserie-litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 21,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "gourmand",
+    "convivial"
+  ],
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "social_preview": {
+    "like_count": 320,
+    "moment_count": 12,
+    "top_vibe_tags": [
+      "gourmand"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 3,
+    "reservation_required": true,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Réservation conseillée",
+    "smart_tip": "Le bar est l'endroit le plus authentique : cherchez les plaques en laiton aux noms des célébrités sur le zinc.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/3",
+    "website": "http://www.closeriedeslilas.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0uN0cwiLl4ZYuZH7hDPmn3S_LiX1mUnBJdk795WPDckVh9CB7059C-1k4WeE2NOn-EXjhfWyzTlVWa6VWZLbo5iLqblCaiMDulWxBCToI_uVWbfKT_HRE7Q9sk_2c0GipJsWVDUpmNuooPLc4XPwia30LBR1Ip3pGv3AQfALFXvKMukyz8D9MyTypfFohZKP874emr2e7AKEKL4zapXhvwYbsG-MjI91x-y5V1FFGxTwahxcXGu6cg4WzdiQO_qDY70fD7HRbTgcZOzqOKh8rpyDSd3HG7MDvMPNJdT_pPXw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lacloseriedeslilas",
+    "google_photos": [
+      "AcnlKN0uN0cwiLl4ZYuZH7hDPmn3S_LiX1mUnBJdk795WPDckVh9CB7059C-1k4WeE2NOn-EXjhfWyzTlVWa6VWZLbo5iLqblCaiMDulWxBCToI_uVWbfKT_HRE7Q9sk_2c0GipJsWVDUpmNuooPLc4XPwia30LBR1Ip3pGv3AQfALFXvKMukyz8D9MyTypfFohZKP874emr2e7AKEKL4zapXhvwYbsG-MjI91x-y5V1FFGxTwahxcXGu6cg4WzdiQO_qDY70fD7HRbTgcZOzqOKh8rpyDSd3HG7MDvMPNJdT_pPXw",
+      "AcnlKN2QUlFBdbaJfPMoAvVhMBWjk_wekz8zwiI9qLz_rduwAfRq8GU2v1cj9RbfZ4dUxQjrVlVSLqPgMMihUaOy_zRnJ3R9RyJtaMepGNJQhGpWUXYSw_iDE9T5m-ufFUCm8NAQhYSGalFQmTQLJcaIDmiAQuFTCFShOn5NKDbWNC1rlZiGF2v8jrIcxD74FKx2mxAcZ6mJ5zQpy2S8q00ETvagnfgAxRxjwcO-Ugq4Q1hi0kQU91RW9i9gDT9IB1d2nWQTIuxh5kies04e-_4YuZM-gpmc2WKFmQdYkKRlc2K_BivKniLhBRRsXhly1NSqpouM2OPzvbtJ-fl1mvD8yGu0RDqh4rhrM4CcoOmWqxZx7G779A2tTKV5jbtitL-NBu9txZ4S7EQa2FiUjMwkJsCpuPrVaesomVznYIIMqNU6XNc-LiD-PUiqBYjtb-GE",
+      "AcnlKN3wAdMtzgPBxHzX0yPSO90A2jdfjzMbDxolhMv25ROPjV28sq8ZdMxwMRaYRm8BY5WCTEMosrkCB1__NKP1g22IrKnWCbKGTNoEGOVZtO-S7NN1CUM3VYAg5Nu7buHSKyp9PX7aHx9GS6O70ukMSKpaAvJCn5e0AD1wd-hbx1Lb62ySHKoEWpIJT-8DnYbmnWJShgjET6R2URhdfYWVE1q_rtSlsRwt0wCbpIMQit1eNa0yliOxd7w6fJS8xX_aQ6c4oUa-yxq24kcPe8OlVHtx3bNlrx4FKWstLXa4Qoj6Tw",
+      "AcnlKN2162puX_Rjd2NGnSogovv5vMECGaVGMvA0je_ycsTfsINgO8DX-bn6RuLVcLVnkE5Wxt4ESqSdyaxIZYMIviEDm4YFZhtb9E7pSwpGdeDaA89iLppG7rPXwdiTsNfosQZ7h2_lsCQIC-A_j8ts1miAn074c745yMxJPrnA6XBrsG8rkeTsrrDNlSvY3axIB3gi9vGQWF9rUK7CzSOsCcm54ZOSD2yzyeeze3pQEFp5mOOoJw5koSfJPV5SFcaAMQlDuJ2cu7HTyhZAbOgiOB0HJGx7UAcy8qmyCr63RLU7tXPbyVS39sIMQV3jbUSEpd_Btk5FCVCVIW9muoOospWO8VuHRLAO8UIFsXgv3EXvkC3sIcHgOXkIT669f-lcb3RqqGIoyfBNn8f4p4taE_JGS1W6lYGYmLE0ryicImhxv2zRytTXS1EhbAiKDw",
+      "AcnlKN1bgPhKL1IV-uUHBfpn3QNwPrf6anwwg08kn6e1EGdO0YnKpS3gAPHHmw4TQMQf3pBwb2cuQXVtfmwPrBflbCgjllrREs4VEe0SPvXFsHcI1CDPLQB_h5A1C9gAHrZgY4cKnU8STL-UD9Bo1wW1d64peEybNJ6SbjBTmg3YfHIjIkfCQSV5sv7K7_AO9XIwVyrWKs0qBQrbl237EWt9YLRZq4FylHDpfrDN3g8sblztPuWNbnWFED622tPurKhSwgLRZwe7BxKVGD5Q4RxMyxh6orofhe-H8O2_PW5T45euKGLfkhTm7afw-lJfhC4o4mddk_W5EOQ7ITqa5uj_a3iYCCn2Dw7lUecBnaplcMAziUPDfmye8ZT1qYbyvYopv3hIu-u2K6d2v83uVXmBEpHvMUn1EO-QvtcAOwHQRjN0iSW8iXLF1vVmsHXqlGwL"
+    ]
+  },
+  "description": "La Closerie des Lilas est l'un des sanctuaires de la vie bohème et littéraire du Paris de la Belle Époque. On y vient pour son bar mythique au décor de bois sombre, où Hemingway avait ses quartiers, ou pour sa brasserie élégante. Entre piano-bar et parfum de lilas, le lieu dégage une poésie folle que les années n'ont pas entamée. C'est le rendez-vous des amoureux des lettres et de l'art de vivre à la française, chic sans être arrogant.",
+  "real_talk": {
+    "text": "Là où Hemingway écrivait. On paye la légende, mais le bar est plus accessible.",
+    "must_eat": "Steak tartare au comptoir",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Le monde de l'édition, actrices iconiques et touristes littéraires en pèlerinage.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 35,
+    "value_score": 69,
+    "category_percentile": 31,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 35,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "INCONTOURNABLE",
+        "items": [
+          {
+            "name": "Le Tartare au comptoir",
+            "price": "24€"
+          },
+          {
+            "name": "Verre de Champagne",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "CARTE",
+        "items": [
+          {
+            "name": "Filet de boeuf Hemingway",
+            "price": "45€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 2804,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

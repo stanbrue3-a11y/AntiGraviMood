@@ -1,0 +1,172 @@
+{
+  "id": "poi-021",
+  "name": "La Gaîté Lyrique",
+  "slug": "gaite-lyrique",
+  "location": {
+    "address": "3 bis Rue Papin",
+    "arrondissement": 3,
+    "coordinates": {
+      "lat": 48.8668,
+      "lng": 2.354
+    },
+    "nearest_metro": "Réaumur-Sébastopol",
+    "bouche_metro": "Sortie 4 (Square Émile Chautemps)",
+    "metro_line": [
+      3,
+      4
+    ],
+    "google_id": "ChIJ2z9mdIhv5kcR9dDkS5Z8sno"
+  },
+  "category": "museum",
+  "subcategory": "espace-culturel",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 6,
+        "seating_comfort": 6,
+        "natural_light": 5,
+        "crowd_density": 6,
+        "music_tempo": 6
+      }
+    },
+    "festif": {
+      "overall": 6.5,
+      "criteria": {
+        "event_programming": 8,
+        "dance_space": 6,
+        "cocktail_offering": 5,
+        "crowd_energy": 6,
+        "late_hours": 6
+      }
+    },
+    "culturel": {
+      "overall": 24.5,
+      "criteria": {
+        "architectural_originality": 9,
+        "artistic_presence": 10,
+        "cultural_programming": 10,
+        "creative_clientele": 10,
+        "workspace_facilities": 7
+      }
+    }
+  },
+  "vibes": [
+    "numérique",
+    "gaming",
+    "immersif",
+    "avant-garde",
+    "tech-art"
+  ],
+  "ui_theme": {
+    "main_color": "#00CED1",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 2876,
+    "moment_count": 1432,
+    "top_vibe_tags": [
+      "numérique",
+      "immersif",
+      "avant-garde"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "phone": "01 84 74 49 00",
+    "google_maps_url": "https://maps.google.com/?cid=8841266003441930485",
+    "Horaires": "Mar-Dim: 14h-20h",
+    "Reservation required": false,
+    "Outdoor seating": false,
+    "Accessibility": false,
+    "L'ambiance": "Futuriste, inclusive et architecturale.",
+    "Le concept": "Salle de concert pointue, arts numériques et cultures post-Internet.",
+    "Le Tip": "Le Foyer historique à l'étage, une pépite Second Empire cachée.",
+    "Le Must": "Les concerts immersifs dans la Grande Salle et les balls de Voguing.",
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "smart_tip": "Leurs jus pressés à froid sont parfaits après une session de yoga.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.gaite-lyrique.net/"
+  },
+  "media": {
+    "hero_image": "/images/gaite-lyrique.jpg",
+    "instagram_handle": "@gaitelyrique",
+    "google_photos": [
+      "AZLasHqf_vOGcvzNS55H17ds9tu3YoOQKEjTP8kyKa_YDDBkpVXaEE3GaulVCJUH-u77DJgMfw66eWdCzpfb27V0uWd29-y8NpQrwrO2-uff49FqPUSgqMpe5To6tdvFWYoVe6XHwC2LlL5B3ArTweER2OZyW36GuZZIpM8_bFxKHLAmgRc8a9eFAFkAvYahrQNol9b3UNEiEueWPOS4_juHj97uqijO1rh9bA6GHzO7yOelDHLZX100ltsH1ImC6_jTr7fKQMDumR1wzCtlvVXtak0hvmKqmlFMph331RPUVJHd2w",
+      "AZLasHqva00DW_G0Ev1aDhegKgz00nP04e_mHQxhJzG3nOy-GWR7cdfL9B7ue0LXcI23f_8kkXPEVin77wlLhTwCJDg1NbMGz5HbgTS5BgWRAyZtOoH_IoOPMZxkNx_YVW76fMWXbR3bOxpjWwtX1RUojG4ufs8Vvq_i21LlpeKWnHoylaKsbvHnJzLw5syeWRNVA_rQXE7KbL6KcYHjUr1bnug9aKAwYZLcgS2jx3SyindOO7PpigOwi734miob6JRsSp_LQzfFafdvku_uw4aWO0iF5-O-2iOCh2qhiylMKOYwMAcd0rAyXqVwXTWzmOoN3VfBxgFnxOXxwF3bCsEdqE6_w3JafKtMvYnh5nwgGQsi4iHLw8gqsv_KJ62tmHH68iZnQ1pQf6mLF1Fqjol4yWBshmv13FhuTq16sxkPi1rQVIfM",
+      "AZLasHri3xMmyy78qdg9nhRdhlOGlbFmSAokihGNjwNauMcUQa82rIMIvMWCmjgIk-ueEWHZBZcilpRrWMTHGkDqouhVL5Cjqgkm8QFN7HWy_ZuS6ckJZtan8rCUO6W_msL91JfAACFJZrixvUMayb_pybWMM0xVOhnsjEl_67S1L2jxUAhfXhH-ZZgPglOLNtr8agL34Eu9RXbQAHRVIgDt0MX3k6ar9syJqsg0ZO9K707a9z8nyYkROIgj42jmcseQMu28dtC-0FVd5FcLge2CsGX5aMeTrZ53gSf90V0iGfrKo8RmzJrB6P23WDpfvjrW0ar5EJxB-cbWQgqc5EDlVVkXdqLXRPL1gogG27KhVYt1g4YEMEX9UhLJ0ttyD35cauzb21wDmWQUbQNGri0E2Mmm3D8KXCo5bBfXmXTiwKBw1A",
+      "AZLasHq6AiBA7utl9sJWU51-XQKHrSFZRoGhLML2u_-IdtWIP6GH8HveBDU26G5epXJ-t8rRBGVw4Gczz8y92Fnuf1Djdv7uzOpdS-WAXNx8ShmxViWsp7CEHQvJzlCY54UXpcBYdkU0Wbd7xOA_wXe3XVD0-rjha-URQqKj8it0lwb1G6TBwedAFBBN5HCt-THlQxCCFC67yLcGbHyR26IYSdxPpcuGD_tJ-maKzyOIXP9Xrotmw4H-1bp4HsjXsp0CjRNeBmvGw39A14OzwG3oNsConU7sQGGS6MZcagSl5xBFrO1_IM-W9RxjvIGs9fHmM2rGcOsT_Aa09QfQa0ofYQg1oWFkuYuSiN33Fqiamuly_1_L19fTuAvxcvB2u7K7NqwaotlVqUnphlP6gKxIgl1q3CKdk0Uw7mXGbJ6yG_StSw",
+      "AZLasHoXiVWONnsBsQVJELT-vetNC3iUODxZusdhCtwQG_OGuMdVSDLF6lgPXL_I3QukREbzdjZb65S7Fl1ejifMMkj8SpsQLhACpIoSusBRTuvHBCS3JdjBfKFk_nDvNNcuUmIY_wbApNaFiTct_NjtK9hsFrBGGNbynYPo-ohv_q3-GGiGzkUmY-zs8t1k4PK3Tx1xRsO4H2qHbp8ekaw92Ks1CfIT1Jb2jKJUrAO8htdoT6tF5B5sHdENI0u-oi2wFfMSuGTxvxGkOkQbwiD7A3wRibLkJErfsPq87XY8IdbxcIVgdwhD1D60JuFUmDPr35M6CcteiaFfrqSjPc5fPh8CaYg_8as0dd-xKuWSMhtqhvNxsaj_mISoljz1AJFrpz7l6YTkyTtnXkx1dw-mwSBRXPUnzETwFYlRw8-xdYpvr2po",
+      "AZLasHrnfTcEmTLcU9bt0SpA0QXVO7u2aNW-X1g511OCkjVWLgiR-Tr27qX1ZsGtJyHW7m7mB0MKbMXMvxelo_W8EkUJW7UVKgfXf0_fn8UBZ9ysUuJexGP7-paqpKNVEyOZ8Nhr0fl4JhyotLplNsLB6AXYPsnMCgKGC0CkCgF4Ofc7_tCia8xnxOb3IoyPD3j_GDH1PZygckdteEx_EpR8V7cMHUxffg_ajgYtaitXgt0Y0HPitKhHOT9HwI4-e0h-DtTWX-AXaAtmeBdKvmJ98MysoC1LMS8ZiD9wKjpbOpcJeYZEHOSAnNfdeNM67WeLbtFDzpx47YWcwONlgOlkdI895Ay0GGVnkclpyJ5st5wSqrcQl8FNztrhlAo9MpdAHzUtajPGHH5ocpDG7pG1uWS46d-5ZyzUtTJ_5lOSHCI",
+      "AZLasHraI4bNUTOI9e_5-SUm0nnkS2GoVqOyIHx17EDjxTnNkyFuMxYnkflV8nZ2uItQOFoxBp4TXcMYYHfaCCY7f_rTP6bupQviu4enQL5eZnESm0Vv-r4NMV-cGXqElvCECzPsdEsEJDyz2X1nNLigjeEv9vnkxxYd0ebDitDSR6rTCbDtz5mZV9PNM6ysuyxZNr2U9yWoVtda5Ay0xPKYkdieLtKyvl6vx3Wv0gHVMv7WaChXbxYt2DHaPmzMbGveCMT7sFAnbpmN_naV_lcg9p5G8eKhWthpzhNV6hH1hTu1nK8PSt6uRGryGA3sk_Xggax51HcnKGypPvvb6YpOlmxKLaYAvJFfEsdt0PRPzBqjVS3v5AwayHGQgCqvdLxfyCAX9a5AvXBozoSUeJNYLDjEuEJqKSPpsWgE3rDGSHY_7w",
+      "AZLasHrwBGfhh3hStbRAeqfucSORqwxQ_ri-L93OBAF_YQUv2HonrfUQ7oI1F7z5NVpmPWD0oTNPjwIQ8Q4bbmvsGFjabTvBzbZaNwEF0gxQxKCR_tbq8H_4LxZz7pCLzo919ZRW_3rv7GmVRAqo6dPFTgCQa7euUMS7mGq0E96trqAHOTH2znjZGlgK0YfnLdkSfGc5sUg4Vs7NQZhU1WDmnfExAp0XoTabr3gJNGzQgAlc5b0Lwzpv5fWZavSCwPmDHsGiILd1YsFG348jMgZ_dqMxl5morfkfZcggn_huAs1gjDABKqyne0grx68r8Gl4UuJpovZCBZTtEYv4mlzwEAoh7H3FvoQ4A_te_Je7fCc0mL5KG9HkEYRfAfStPBYcB3wQv85FgOkylGOqw5vZBwJhunxu6BGs60rqCCAvN9bncRM",
+      "AZLasHpQPmTOQSNlxtNA8RjQAVUWOQq0ecdIAdaouNd9D72QLnXInIzoVFaie2X6OjAzbTdRvZv0ac84aG9lhgT_S0vV3C2Aw0Ne2WSgP8lnNFwDxEyJS85k_60yzGy-gIYaV0D3Cimvg5PU3uH1ru1wxT8InNmbtHWgOZDqzF7hN8bK8N6kH3gucEozSnb4yS50u5Ia8JA9KOFrV70INV9_yLofuzrE9mOqIa1-0J_b1k7hKdjp9jthXXERZeCm-Vbao1-s9jDDA4uco2CxWXl3ynMtWBV8xZBVs9ribJTtF9tlgyEMTCYNFhEFjNbZR_7aISBJJ0oMjJ3n9G9amwviGnO5-q4jhkyu4YMg9OrcLPxN3qVsHx9Y2TLoKCCTo7t4zoVnHozKYed6YjmZRfdUUH7LvLJVOOBtm9_xq-CriIosag",
+      "AZLasHqCznx1-osD87XHC_aD7nksgPKol7_oDpf4JvFBDdf5krH68iTrCgMC7u4QQo-K8_2M26dzLB3pcmh_DMy9-Riy-NeVljSJC0AR4_UowiewRS4L2fIRF4RINMLg0GuYpYKIzX5JPLhDAX5tGH7uKOSPsUB02bMkNFMfsWJNVOkj1_JWWayyGJZROuPXLwiarH0nk0lqNUi4lF5C6d3ZKm1dG-u5_BlIeY5ng2fnkKxwVHVVPlBkF9ZnU_I_GTcSQVdOX1o20McCeoRPyAUb1vHFTh2-3h4pmB2kTh7hUNrFWkSrD8C9WumIPSvDIGb1O91dgYmtmWexZOK0y0kxMh_tSvxMK3-KNz9B_12PmFSSfq36nF7ySTwuDyRNgJzcWhlJaAEkxMT1gsCAC_foEnmr8T-sP14zLq3rIgRZQpDv4g"
+    ]
+  },
+  "metadata": {
+    "added_at": "2025-12-18T00:00:00Z",
+    "verified": true,
+    "source": "expert-curation",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "14h00 - 20h00",
+    "display": "Mar-Dim: 14h-20h",
+    "detailed": "Ouvert tous les jours.\nDe 09h à 19h."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Geeks connectés, danseurs de ballroom, familles 2.0 et curieux."
+    }
+  },
+  "description": "Ancien théâtre du XIXe siècle reconverti en centre dédié aux cultures numériques et aux arts digitaux. Caché derrière sa façade Second Empire, l'intérieur est un vaisseau futuriste où se croisent expositions immersives, concerts électroniques pointus et balls de voguing légendaires. Le Foyer historique à l'étage, miraculeusement préservé, est une pépite dorée à découvrir. C'est le QG de la scène tech-art parisienne.",
+  "real_talk": {
+    "text": "Le vaisseau des cultures numériques. Art digital, concerts immersifs et balls de voguing légendaires.",
+    "le_secret": "Top pour bosser l'après-midi avec un café, le wifi est ultra-rapide.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 12,
+    "value_score": 55,
+    "category_percentile": 45,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(12.0€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLETTERIE",
+        "items": [
+          {
+            "name": "Entrée exposition",
+            "price": "12€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 2589
+}

@@ -1,0 +1,143 @@
+{
+  "id": "poi-146",
+  "name": "Le Comptoir du Panthéon",
+  "slug": "comptoir-pantheon",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.846,
+      "lng": 2.3463
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJZbQv_-dx5kcRARl8yz3wTu0"
+  },
+  "category": "café",
+  "subcategory": "cafe-terrasse",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 369,
+    "moment_count": 16,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "ambiance_vibe": "Terrasse face au Panthéon",
+    "signature_drink": "Café serré, verre de blanc",
+    "smart_tip": "La terrasse offre probablement l'un des meilleurs rapports vue/prix de tout le quartier latin.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://www.comptoirdupantheon.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1ZC3GjNyqNPQ9lbwatR45mgyg5xsG6nWjR7W-E11ZLioSR2__rGTPTZavpM18Q0FdRKqONieZ4NqoFY3qbVz1iPyM7NeBMabMnyyREn7s6Hcc70C3EgXkTfM7oDCEiBPLGWL1ED8bnQjzRj2u60K6pQec91dTkI-46O85p-4v0rrDWzPglyyKZyzRGuteMnFrDejQqIsvy07Yy353bwSowddGue09tXei_7SHFSGrHcQ3Na9gF0-MIYy0UC6DEV2N9OAzpkDYNzSJuT7iXt8s_I46PVmVd3lz27CWZ-oUiYB9Tx9-09oJ9yYW3X0FCK27Yo8l5KjiTYH8a79VUTE5ZEgn-MWjeX5uRilNjgQg42Kda3ZiA0dOk5WvhiJtvemxiF3HxhT2tsgM8Nyd6UZmk4KFrVITT940iHbcSSywhOw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@comptoirpantheon",
+    "google_photos": [
+      "AcnlKN1ZC3GjNyqNPQ9lbwatR45mgyg5xsG6nWjR7W-E11ZLioSR2__rGTPTZavpM18Q0FdRKqONieZ4NqoFY3qbVz1iPyM7NeBMabMnyyREn7s6Hcc70C3EgXkTfM7oDCEiBPLGWL1ED8bnQjzRj2u60K6pQec91dTkI-46O85p-4v0rrDWzPglyyKZyzRGuteMnFrDejQqIsvy07Yy353bwSowddGue09tXei_7SHFSGrHcQ3Na9gF0-MIYy0UC6DEV2N9OAzpkDYNzSJuT7iXt8s_I46PVmVd3lz27CWZ-oUiYB9Tx9-09oJ9yYW3X0FCK27Yo8l5KjiTYH8a79VUTE5ZEgn-MWjeX5uRilNjgQg42Kda3ZiA0dOk5WvhiJtvemxiF3HxhT2tsgM8Nyd6UZmk4KFrVITT940iHbcSSywhOw",
+      "AcnlKN0UnHyU3uHSGuF3xeOv9h6Rpgm3EUHEWztsetr0WVgYax9MwGpuR6AUES1iWcMF1ho0TDrYKUbMMCrqneksBxjP6-PszoUMa3bBn_74nIcuI-_bVxFWFcC4y3AZm5EzXcjZys9Aa6mkjTHDq3lXdv_9YFR8iIxPf7wpn3KeUGnbhG1RORaB8zFLxgrMx54gpLpJGErfIiISV_xMwV0duPPpD6Ofb6OaXO5GXlV8x3d5NqdEoPehr9slEUKdgiVPQ2fAYMb2fQJQfHp1-JnK7u1wJmWGFRy0H3fIP2Co4wcHvwne5f9iv6AXdgSwKCqKHmFa_MRGeV4618qf-deyhkAVFN70RY5fooAWLiQ4cazHKUIyiPBWwLoKETWE-ra5108hK9hIUluxhBv3m4l8LE12q0Jpu58Bhj7nlcvxHzeh-ic",
+      "AcnlKN0_DSduO0ixZIeDh-GnXjWyk9GgYBZio-LwU1BZ2lzlTuiIiew3kkeYVVRLu5rdmWO6e7YB1yRw7Rd_8tXy0AH1_-Ex2i2pcu1uq1Y6SMWKqJzVLeLzUWTpl97YC8ISIUk-Z0XjRO9zB0gDQrh6CoRbsgnE9srG-PPTACbM43pNBoVfJ4YqqCh_dhHseSMiBX5F5bbnJw_cF8tviNHrkLW056vXhV1B3y2xV25_XkoJZm_2evnOznrg-f0tm9x9Kn8r8Z5PSHj32q2TJKkAtX0A5hixw_7_ZAVWsf6lwauK80_h6oxXYSTj37NBcEe4Cu4U-lzBXqZMqhbE_W899RTvE7FKui9hKv5eLXiLqkS0zeCi4DONg_RxsLjnoyiT5K8IpaHua4b0M5K-_VVFrXtX_pXL5KYiVq7QGMC7sZMPUP9fwmTvNH1C4VN-xg",
+      "AcnlKN3b029zJa55fTK75L_nmjUZ65bjiagbVjj40nAfgjRwUf3RNIcnUtS3_2JI7qQfVl-K8Cixb9DPkpOHSZBAM_4lwF0dRBd6R86qRPeLzXcBnCySTzGY-Dp6MWe8LSR0RChH6sL0HXqvV_zAe2IoRWym0FwlOzx7nFBoLQkqhWFhmStVzx3OWC4PT3vD0_Jd4tlGIc4d1MiL8SOmtO1qVXim3yS3C_NtLMOCtC39slANB8HOw7kK5cI6aP9N_zLFA3rN6Xld-CJ1CT2p_29qRVgnTUulF2Cun4dGKRN3u2i0UK7OcdYs_GDLcNF5RVxxPwZQRKcyQ3U79sgiBt4TKwyE-BbozdeLcblATajefUEmg6ntxuUD9wqSHL562e5YXJcyKMbiEatlk-qfTIQrtYQAfL_thdVDdXkt0s-b1vhxPv5URTrBvXypRf8BWVqa",
+      "AcnlKN28pa3i_rBp-hqTKlbmp_nTHNvvcIsXATaPQZFpJ3fFIUmHycgwM5eLSEVpFXQY1XtbKfrWRHdctWoTsxFHXJ39JMrxJ4dzbtRsH9RksftDvu4AytuguyzmdQDmvsbOhk9mkyFnGkNxyG-Khlt4-VXSXca6GjJLmLpRElvAXy77hVFcR_Vkb7sr2JIYFsG2hkgymgbvjvPMoncemg8fzOib2CyQbX1hnL54OLdXwiXg7BYAulKPJRCeWHZhm4N9jEJ11uBTDaCBGjUCMDXRruy5gfsGu7-I46neTgmeXdQ4w_YPDMS8hOwH8PmNR88na2iDJMocmd--lbgFfrBXT1DPP6hddWKhi4qpCsMZqQJkeCPeoX4qXE5YegVGBT64A9noG_U9ghmgGwVt5Wr6OJTfzvw8zldRTkSjQjYnxn0dA5yx1Wn1IcbKlVHHP5eA"
+    ]
+  },
+  "description": "Face à l'imposante silhouette du Panthéon, ce comptoir dégage une énergie typiquement parisienne. Entre le service rapide et efficace, la terrasse toujours animée et sa situation idéale, c'est l'endroit parfait pour une pause entre deux visites historiques. On y retrouve l'efficacité des grands bistrots de passage mixée à la qualité d'une institution du 5ème arrondissement, dans un cadre qui respire l'histoire à chaque angle de rue.",
+  "real_talk": {
+    "text": "La plus belle vue terrasse du Quartier Latin. Face au Panthéon, café parfait.",
+    "must_eat": "Pâtisserie du jour",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Étudiants en lettres, guides touristiques en pause et riverains du Luxembourg.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 15,
+    "value_score": 83,
+    "category_percentile": 17,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "CLASSIQUES",
+        "items": [
+          {
+            "name": "Express comptoir",
+            "price": "1,20€"
+          },
+          {
+            "name": "Salade Panthéon",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Verre de bière",
+            "price": "4,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.1,
+  "google_ratings_count": 1026,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

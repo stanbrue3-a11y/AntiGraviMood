@@ -1,0 +1,141 @@
+{
+  "id": "poi-219",
+  "name": "Le P'tit Canon",
+  "slug": "ptit-canon-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8817,
+      "lng": 2.2952
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJEzsl9LBv5kcRTUlx-NK8sVE"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 309,
+    "moment_count": 60,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins de petits producteurs",
+    "smart_tip": "Leurs terrines maison sont excellentes, l accompagnement idéal pour un verre de rouge.",
+    "bouton_label": "Site du lieu",
+    "website": "https://leptitcanonparis.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2KsWQw2WPjcCqpn_XpIEFGOzooY9I_6WEviSrJJMQH3V1dkLWxOs6nNuy0m0ioa49EQcSsZAWMLIjaw3ymaUovuMSNaAUP8jZw6IcLCwYia4XO1fRyx3YSnRbVG04vmj7ALP_Py3p6rKlsujEiG1Gp_MI5Li7dRp7rAKMMvO3A22RiJuzZN31HXtSs0C7OUUyhXHvsN6zGwmr8QXkT2wPNUCn63KYCAb8-_doPkNn_N8cM-T0NK67aHXu6No5zv4pspN3mgJDnQjv8aWcRBaNK84BMCK6XkF3IPe9-823BGw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@leptitcanon",
+    "google_photos": [
+      "AcnlKN2KsWQw2WPjcCqpn_XpIEFGOzooY9I_6WEviSrJJMQH3V1dkLWxOs6nNuy0m0ioa49EQcSsZAWMLIjaw3ymaUovuMSNaAUP8jZw6IcLCwYia4XO1fRyx3YSnRbVG04vmj7ALP_Py3p6rKlsujEiG1Gp_MI5Li7dRp7rAKMMvO3A22RiJuzZN31HXtSs0C7OUUyhXHvsN6zGwmr8QXkT2wPNUCn63KYCAb8-_doPkNn_N8cM-T0NK67aHXu6No5zv4pspN3mgJDnQjv8aWcRBaNK84BMCK6XkF3IPe9-823BGw",
+      "AcnlKN0ERdF4uGXPmELMXsQXr34oAOHgzP5xknnZgOE80iL8oVuwTd2cXQu7cD79WifZzL5rJTf_KAwD1M8gVfXF0kMoLgnsguSX8a0GpSlrSFfeHXlkNcHa9Q_p5I_FmfTBvuGliSM4HXb1XdF-du93aq-j4RWrhdO-tVtAHsQYf7X_7jJFyjh8VX8HCeCf2bbf1KcPuNBPolC29qb6_qK6umhrzDWjff9m8qIAtzylX2qDUc-B6e1ccfJ7-TF9PQLvSBTcWUoJH7Xsx9dV7lhte7Hrjmt1Gm4nobIMTyc9J4zYPQ",
+      "AcnlKN0Y6feP_md566OL1aTr8d0LqWSTByndP4YNZfF8ChD_0CgufAknxgaVBXlwiGZFTXq4hU79FwbP2ml495XecMxAGrgAXOZbz7MaMJQbD29y5AmJa0vbaIfFQ-UMjk48lqrABwpxNkTl9ZFI61ycpjglKY-QIm0xk3kujPuQhq0snk-h_ch0i2D-j9XoT9NGJ99-u6MBwVEmnLImWfWAaKX7QTXPTb9mN8N5i8k9bOZ_2oQjulZzL-vy92V04_e1OsOWzl9XjVh8O2RCtxd7TWoH6Y5cnFxsS0GpiHwnF0ihubkugHl5hGWYhOHkuyYJkmvQQrBJ2pUaCHnR2AR1sLnvYwKBpkKX6JPjS6dv2olA9Ti1kiG4Hd4kJ2szOXksjcF6O4o35Kjwjv4CWTrAvViQ5yGRaXhL_O6d4-RG__IFXg",
+      "AcnlKN3dR5PkjMk22p8PteGGR-WENkw0eKZOMANlyt69CPSzfrzXaX3lRqXUjyXtx_Ox88E-YpuFUzdMl8JuDNbe7Ty3Rt5P9xRyBcarIw3syVlsRqQtwmlunFoW1BUrZDGKCmY9M628pEqNDjGALvPMUxTBtM5RQk65YkbWh2333v6iBUoWeZ94FMVse7GZuOGAKqGnigSaIPPyiUTaU6YMGte0wfTopfXedJuB1dNKIxbKwPLToncdNe5yzUiXBUWZSzOVqQ-H713QVPTPjE-eaDLZPlQv021IKnPl7EKRG-N5OBiD3GIFaS3Ycc4msm50qvDe3O5fhZ1wdvTavrkZCkNWl7z7ZHkqOwrC1En0m9fck5fixq4AUJemo5U0AnK2tn4nciUwkH3FdnIs7yLE1c0cB5zND1Gl20TIjZoOC47oo2Q",
+      "AcnlKN0K-CNlJ6hj8rQaXiQv9JRkqSuUSBlGzvLidP3gh9Ne6BnXyIZeK8rT021-i-vvZDEQWl5yuQGnNOcn1rpvLUqP-tKGDqbg7Ber-T0hRPLAmPbCgjoR00XsnjdXqQnqIPYBuwRS6yGMqNXfCaQt6NOFoFFjO5p9gsvcr_D296YkvdUWh0TtVnlrRZPEsP1k_tsp7nQL1nSdn0ohYSzm194bFVCmNgOGnosbjHVSOSvAQGCXhFLeBIxqq4PbIp0bJYMDOX8AKh1llllDe7T7GO0uVgnp1Nc7FC2VSV646V2Cs1cxRy4C6N69mhOXsV-X_eLcU99mcNhsjDjlBtZ-5SNbDlsc_Rvo8Is5-yx2bf4KjdlCFJLn78ZOYdfG-GkbbhjcFJCk1BPtlH3PpzlX7NI_M4UwxYD73eOYyu1eKTJoBUy1FwRkZR5FpmiPuQ"
+    ]
+  },
+  "description": "Le P'tit Canon est l'âme du quartier des Ternes. Ce bar à vin et bistrot à l'ancienne, avec ses nappes à carreaux rouges et son comptoir en zinc, dégage une convivialité communicative. On y vient pour boire un 'ptit canon' de vignerons triés sur le volet et partager des planches de charcuterie artisanale ou une cuisine canaille bien exécutée. C'est le Paris des copains et des bons produits, où l'accueil est fraternel et l'atmosphère toujours au beau fixe, loin du snobisme du 16e voisin.",
+  "real_talk": {
+    "text": "Le village de Paris dans un verre. Authentique, simple et chaleureux.",
+    "must_eat": "Assiette de charcuterie artisanale",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Habitués du 17ème chic, amateurs de vin de propriété et bandes d amis en afterwork.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar-a-vin",
+    "budget_avg": 8,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "pint_price": 7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "ZINC",
+        "items": [
+          {
+            "name": "Petit Canon (verre)",
+            "price": "5€"
+          },
+          {
+            "name": "Planche de Campagne",
+            "price": "16€"
+          }
+        ]
+      },
+      {
+        "category": "BISTROT",
+        "items": [
+          {
+            "name": "Entrecôte frites",
+            "price": "24€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.4,
+  "google_ratings_count": 914,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

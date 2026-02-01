@@ -1,0 +1,193 @@
+{
+  "id": "poi-077",
+  "name": "Bouillon Pigalle",
+  "slug": "bouillon-pigalle",
+  "location": {
+    "address": "22 Bd de Clichy",
+    "arrondissement": 18,
+    "coordinates": {
+      "lat": 48.8826242,
+      "lng": 2.3374171
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJVb7Sx0Vu5kcR5gDcYjssPWw"
+  },
+  "category": "restaurant",
+  "subcategory": "bouillon",
+  "mood_scores": {
+    "chill": {
+      "overall": 3.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 6,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "cuisine",
+    "gourmand",
+    "convivial",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "18€ environ",
+      "display": "Tlj: 12:00 PM – 12:00 AM",
+      "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:00 AM\nsamedi: 12:00 PM– 12:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "booking_policy": "Pas de réservation, file d'attente fréquente",
+    "ambiance_vibe": "Néo-rétro chic, moulures et miroirs, service express",
+    "smart_tip": "Leur cocktail fumé au bois de santal est une expérience en soi.",
+    "signature_drink": "Sélection du moment",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "https://bouillonlesite.com/bouillon-pigalle"
+  },
+  "real_talk": {
+    "text": "L'institution qui a fait revivre le genre. C'est bruyant, c'est bon, c'est pas cher. Les œufs mayo sont obligatoires.",
+    "must_eat": "Os à moelle, blanquette de veau, profiteroles",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Bouillon Pigalle est la réincarnation parfaite de la cantine populaire du XIXe siècle. Niché en face du métro Pigalle, ce temple de la cuisine française démocratisée propose des classiques (œuf mayo, saucisse-purée, riz au lait) à des prix défiant toute concurrence. L'ambiance y est électrique, un joyau de brouhaha convivial où les nappes rouges et les serveurs en tablier courent dans tous les sens. Sa terrasse au premier étage offre une vue plongeante sur l'effervescence du quartier, idéale pour s'imprégner de l'énergie de Pigalle sans le tumulte du trottoir.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN16s8rI98MlxZRjjLze3IfCMc3gUbfgcnLbte79py0atV-IQ7pxgv8mjWjbTK5Y2v5qcQ4G8rZCy51Ym4KqNBghqak9_mSDDK-RMKKa93ziGzquenx63qLNfI0xSoBITaR9jYgqu48DcYF1De3r211KTOnZZM2khghEhiqWelw-q9vkxibLplPTnEOluIE2X3UbzGVhccY4grmrBNf8gMBQcUP94UkOfcpFiTGjv-_fi2b5xHNT6yQ-J7hplbEO-OEtICal9gVcSbqDpaY9bzwmS7Mq-1GcIgMOisYkA6YCEw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bouillonpigalle",
+    "google_photos": [
+      "AcnlKN16s8rI98MlxZRjjLze3IfCMc3gUbfgcnLbte79py0atV-IQ7pxgv8mjWjbTK5Y2v5qcQ4G8rZCy51Ym4KqNBghqak9_mSDDK-RMKKa93ziGzquenx63qLNfI0xSoBITaR9jYgqu48DcYF1De3r211KTOnZZM2khghEhiqWelw-q9vkxibLplPTnEOluIE2X3UbzGVhccY4grmrBNf8gMBQcUP94UkOfcpFiTGjv-_fi2b5xHNT6yQ-J7hplbEO-OEtICal9gVcSbqDpaY9bzwmS7Mq-1GcIgMOisYkA6YCEw",
+      "AcnlKN3gjSBgaE9uou34XtLZkrD6vMWWkJdY7ALsn8vLlrcK8utbV6VI4HlwMeRldlKqHfeWtlgjo51JJQncPOrKuMP_jRA8_IeoMyRB286SQwoqaITvTV5erqLPJvuIjCIrJ7JDO7_wPjGGLfrmFXkDNWBsCrvGldbUI0aNGNmEbVxrsq7DJIeHr0OhX6TYMlH672zomKzdvLMX8rgvFrqVxJIkUREmsKbPHassRhqHG2KIwR1ostbO1NEakiZ8tfNF_cW46jwI2T-n5WIQrsWr17X48TFaeswHeqKvlcYJM4bUPVHr5mzkzeESqYyAU6tVaJ3RyYuOzYZuClwoGkFDhopQ2Rf1ccrvk96ru4d-sQ2oLupUF0UTc3zFib5sUi6OJ0k4BgFzxmxhK5X3FurIs_6NwC3tvJnYSbFLN0Zr2xlkG-pW38uk1rs6AwmYaPpl",
+      "AcnlKN0_2mCzEBp3_Xvttzbyl0WCrc4KtIh79tqFCF7TaBWe78RUP6gs2oGU5eboPqDzCUIUmWzFhiUPpmqc34yxDuk4nDjkHnb0I0vFB8g8im8gbgHX2yUT4AmnX_E3_JSFvVda4FB1jKvhtI02b3g_DACmanK61Yr1U1gky5wh_psn7ONsGxNKw4JRXHa5rr3zFn9-eH3MOGXg8FWH3oceyAZXQ2kwVF5RsII65WSZqLSl4anG0GvkKrpn66xXro4MPinLR8ggEd5ZzbNMVDGylQGOd-xH3lxhxs5oMAmLBLV9GGIdzobfamx6R9pdYwWMcecpASD2nikDtquyJmyeqXdDMwEUgnRWnqTi12FgECQKQfyXxKyHhlTWa-cocyjJ9YhzF7rwKTqjzpYBCRQ9f1PcheEw2shihP-0qkniC6GULJNv",
+      "AcnlKN15RVHh7J01Mkx2i2buklHQXXVj3UxtFcUvdrrdsTTzXfIYsHCERfuuiICNvs6c4Cu42v1EbuI9nhV88dWWS9ganNxHE5qGNRakZiT1xpK0y8TymUGnwaxbs18p5Kpb0EGu8Djx9M-y8Jn_tPuVM_I8atXJhsZp7HAS-UpjCf83NJI5Vg5Ta25IyCjG9DbPsOjxflCCtAyd3J5-du1LqBhUXZRV6kRK6aKOK7YCCkwaGlEBr5ZS7trwGiu71Sl5Yhxcb6Udskibh5MlEZGTKSM1Tf8GzIPl9HP7nASwZZ5o0UxczTUxh6C3l8anL6uOa4JVQ-aKWc6wOBwr7_3k-v5-_zqfchbhZGEY234iFJmD8fjSCxIJzcDoYokmG0e2SuBqDFPGnHn0cXZiSuarkiu2xNVKcjeqvTOYr3YWpllO7WPbEJncBn0IdrmKwaTm",
+      "AcnlKN0LehZC0fLc55XiMehhKeyZr6vUNGiYzdcSo0GOG18HfT_bY3yAt5DaG9HQ9vHRU--6UEJaBpNQqvYRaAYz4UHsT7SnUnZpwnkG3E_tAuywEo2X5yaYvdNkGoCjbMeFnQWdGOB360N3magrGGkcXGMFdfQgr_eUazAg7oZvQLtGG2eHFAkLwqF2AiBqWwSOukk5s_SAPyYuPKDwXgpWEBSlETKzZrjcWgwViXrtGSeouy32KlCfrBZ64Dq1HIOnXcS0pdQ-Z73ahmOH1hT-HiGV8ad0QJdWKdN7dQTAx6U7XcMWIsWzdpbM813uK-Xb4k7vUhrHVQ3vHVN5Om9eeyACzCWiDb3At-_-MRRRc_IATsELX2PqnhHtR98Aian1iAlUelyt9a1G03_TXoCcD-_HAbxgKdkSlerLW-ENF8lt0ZY",
+      "AcnlKN2S9LW77l-KbxYW-51I-ItBiH0FtgCnCbODn0EiVI5vl2BPQnFjg4W31N5pDPmG3uv40G-T5EsE0LUp8In3YVuonWxnkYYpSOdGNNacGYTh3FnbLYemImV-b8_Bi742qroRtRJnZ7QoWxS0BYToS9o2RrSSFQh2zRG5tfCY9MykQG_GituYvHuWuhBe7LzpRGk0wk2uCHCPIpyn_mexL4rPx-YQ97P23uS3savjHw-J4HkW-H7xHo5U72_g5eyxQxKqVo5QBF8UpLN7EATazhBu5SknggBYaJF6PxmVkuwIYaYBxq1-3G1xVqMLNxiMcp3fBAaL0J24Hf4Af2U-acDiTTcV5OeMkpRqWOJXZkquZVp846oE3LvDnbSjRSkFxErzzPbeMFKTRDkjdLCWwfkWW3zYPCPe5bE8-b4wmRkNeVy0jVppXcMd2ZeemW0G",
+      "AcnlKN3UIEyLM50gWe_3vH0yXX99579suOE9QgKb3V0rONT4L8V-YCPcc7lpe9WV7H6O3z1oRYXUoeYPD1KFXkXd1viFjlSEnVq9OgWyOuPuxT0h9y1D8lep6ifVJfW047-ckNqAXj2w6i2GxfZncfJDCxfwRtlpyg-yhgIlRwx0WOWrH5hNSNffbrmh334s24naM6JnyWnjRcdBz0M25ONbOhtuK4_b8kJdODZ-wMsdrq_Cmg3rlDedNLGVlNOr-STZ5G3XI5ISAJonkytovsbjMW7lGGXM8_3ut-NFfR5-1xwC2shpp4SPStMWaknaFEaxVBYafR018h4vMbNPX8itHzlz8tqlplNy8t02ba6DVI029BdnUzZbNFL7m6eiT11bKtqI9o7QgidQNzRDchrSnp-AZoHK0lst87zn35-QNko99J25QGThBaa60VK3ZPm6",
+      "AcnlKN3-uOX3bbag4WXFthB9WsSgywXzDZDsRioW5QpfHsRlCUopw9Tk028saJq8OqC6oVdBlDU9uVrYw1gUtD3j4FiH_4T1Yp8n3i7qPo4L375mqHrP3iqYfFR-1mtyRn7Ad8ZhGiIfAtU7iZbyTT0ygUhLifd4YsewJNpI7tncfAiGFhReQzHQfKkQqRTLHDsZTu7wl21lU1eozt4h620r4Ib3R5El8dkexNMaEFszfVJL5zKsbDSd2luRf75RnfWFIZMeI7_HI9gj-UPOsgB6cpY0ianFIDpu22OC2tVtXVDKToY9NQRAt8dV61P2OhGfTh-ENnTVccMtaWhaUfM5svdmVM6GO6MWgoIuHUtC-Q7u1LRsHa1t8QvvwCHETEqOzFGEGOFeQYnFEUoSZLZtdhA8OodPKGLVI1SCxlzFzkze5VtyGy84m-8uqfQjiA",
+      "AcnlKN1OioomN-3QtgjvFBQ5ZpT0zuHKVJG8uoH2pqA3n371wzNlOAw1dICNHkKh5PI5VsvXw92fMVenDBa9bR5wiOy2lV6ZzwuxVOjpyXqGJIXrMg2tm-ArUSlc7pzDr_abrRjkTdIuKL3DkhtbrJ4uC9f4_TA-q6xnyuuuBbOomUnqQRmxXqM_4VGoHrzV0kmWh8M5fQdo9F-XCS8yzJvwFmSwLYfV046fqXY9PeWYP4UYM0Il-sPJfF27Pxs_VUExY_kmN4SlPSJhuxCdmJx2p5UqqIzjGzeCOU-Ljh5yEiqgcAVbblgBckT-NgoTat25G5acFT2RXrL1S3sS0hmVj8ojL3u3wrdORmAHYhkraerrcQoICyhwuVzuwieasjcOSsjE2KNwPyVt_laHDt1wYqAFlHpG-UumYt2g5KXn2OXc-UpBIPdI7M4_6ucaY12m",
+      "AcnlKN2COCpsQgrDYaJF-awqPwhmk7l3LXN1DjchvJ-6Oa0nTt0Clh5zqPjZ0XvRgeirJSZl5hfbvFUcN8xOJM45IEgbn74nUp7iQbbNj7D6eapUArAP6fKZ_-a9e3Y0trHYYJtEp7wgIlQgkw3XNx2t_XfbhKlJIWB3gWdVXl2LzUvpI0nDnqMrUxE4rANSdZpHhfZ1Wflby57XdViA3748umYzO6K1vI4USZv4oTuc5Mutn-CFf0-yj8wckse7iLusbTDE_-5cwM_Rstx5RbPUjudRVXNPmNrL09j6qZCwocapYQeBMJhLYb44gMVe_yE7Sj1h3dgc_bArBnWm1KOrUC4qRzIYMg8xOihdG_AQoHx6POPBEsMSnSFewAAKaGbcjUvsH3zFE-4pW40ANIG1loStTqA6Hk5DOuTyjTrkpxM6UagKGFcDL__Qa7APvW_v"
+    ]
+  },
+  "social_preview": {
+    "like_count": 384,
+    "top_vibe_tags": [
+      "cuisine",
+      "gourmand",
+      "convivial"
+    ],
+    "moment_count": 35
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "18€ environ",
+    "display": "Tlj: 12:00 PM – 12:00 AM",
+    "detailed": "lundi: 12:00 PM– 12:00 AM\nmardi: 12:00 PM– 12:00 AM\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 12:00 AM\nvendredi: 12:00 PM– 12:00 AM\nsamedi: 12:00 PM– 12:00 AM\ndimanche: 12:00 PM– 12:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Touristes futés, étudiants affamés, familles du quartier et nostalgiques de la Belle Époque.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bouillon",
+    "budget_avg": 18,
+    "value_score": 100,
+    "category_percentile": 0,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 12,
+    "last_updated": "2025-01-20",
+    "confidence_score": 100,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "dish_price": 10,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "ENTRÉES",
+        "items": [
+          {
+            "name": "Œuf Mayonnaise (ASOM)",
+            "price": 2.5
+          },
+          {
+            "name": "Poireaux Vinaigrette",
+            "price": 3.4
+          }
+        ]
+      },
+      {
+        "category": "PLATS",
+        "items": [
+          {
+            "name": "Saucisse Purée",
+            "price": 9.6
+          },
+          {
+            "name": "Steak Frites",
+            "price": 11.5
+          },
+          {
+            "name": "Confit de Canard",
+            "price": 12.8
+          }
+        ]
+      },
+      {
+        "category": "DESSERTS",
+        "items": [
+          {
+            "name": "Profiterole Géante",
+            "price": 4.5
+          },
+          {
+            "name": "Riz au Lait",
+            "price": 3.2
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 50552,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

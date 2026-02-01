@@ -1,0 +1,179 @@
+{
+  "id": "poi-126",
+  "name": "Fluctuart",
+  "slug": "fluctuart",
+  "location": {
+    "address": "2 port du Gros Caillou",
+    "arrondissement": 7,
+    "coordinates": {
+      "lat": 48.8630873,
+      "lng": 2.3093367
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJKdIzjYBv5kcRvvhpPfJktq0"
+  },
+  "category": "museum",
+  "subcategory": "street art / bateau",
+  "mood_scores": {
+    "chill": {
+      "overall": 7.6,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 10,
+        "crowd_density": 4
+      }
+    },
+    "festif": {
+      "overall": 8,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 24.3,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 10
+      }
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "insolite",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: Closed",
+      "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 2:00 AM\nvendredi: 12:00 PM– 2:00 AM\nsamedi: 12:00 PM– 2:00 AM\ndimanche: 12:00 PM– 1:00 AM",
+      "is_open_now": true
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Art urbain, expositions gratuites, rooftop bar",
+    "ambiance_vibe": "Centre d'art flottant, vue Tour Eiffel",
+    "booking_policy": "Entrée gratuite pour les expos",
+    "smart_tip": "Le rooftop est l'un des meilleurs spots de Paris pour le coucher de soleil sans le snobisme des terrasses chics.",
+    "terrasse": "Rooftop 🌇",
+    "bouton_label": "Site du lieu",
+    "website": "https://fluctuart.fr/"
+  },
+  "real_talk": {
+    "text": "Faire le plein d'art urbain gratuitement sur la Seine. Le rooftop offre une vue imprenable sur la Tour Eiffel et le Grand Palais.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Amarré au pied du Pont des Invalides, ce centre d'art urbain flottant est une prouesse architecturale totalement transparente. Sur trois niveaux, Fluctuart propose des expositions temporaires gratuites des plus grands street-artistes mondiaux, une librairie spécialisée et un rooftop vibrant. C'est le lieu idéal pour une immersion culturelle décontractée au fil de l'eau, où l'art de rue prend une dimension majestueuse face au Grand Palais.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1_y99-e9w--WslH7bm9usa_892ezYPbjBGiQ7JiqM8rgFKB30TRpt5oe9EpCL-yMXI04pRwmlAiGTbfAacW8CIt_o6Nxy82KwZ5JrcjNi9QzsZA8Z0D1GiKjXeBd9klaYMc0xf00Vhqq1pJZX_Nka3YT-GfiVs9ajFkvXb1bpj7UgKzWIqz18tMzzJDIjiGaB1kLw0MrbUitT8OM-5_hfmIn6S5ql81ttsWKBTIXrqjcEx9HrYkrGcGHXJJzybLab92nquNkNA0c_j2OI5zcPfSkjcMJhrBTLKL0XUwHSu5w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@fluctuart",
+    "google_photos": [
+      "AcnlKN1_y99-e9w--WslH7bm9usa_892ezYPbjBGiQ7JiqM8rgFKB30TRpt5oe9EpCL-yMXI04pRwmlAiGTbfAacW8CIt_o6Nxy82KwZ5JrcjNi9QzsZA8Z0D1GiKjXeBd9klaYMc0xf00Vhqq1pJZX_Nka3YT-GfiVs9ajFkvXb1bpj7UgKzWIqz18tMzzJDIjiGaB1kLw0MrbUitT8OM-5_hfmIn6S5ql81ttsWKBTIXrqjcEx9HrYkrGcGHXJJzybLab92nquNkNA0c_j2OI5zcPfSkjcMJhrBTLKL0XUwHSu5w",
+      "AcnlKN2hSyQjIpemg1R0W0DW3qQ27f9sRAyGqjy8xZYeyw0VIwH6s66kpjH997FZSp4tGT20FHNFo8BzPl3Ei-gokeP7gsFRiVU93M2sgCiHjGDi7MU2ur4564kw4MwsYp_jgKOx1Ool5-Ls1oj8QbA7nGdBbmMuzWcBiWWG-yUg83QAxeo3gPHrAcHmR820UYLnmoEK39_uLrU5T9c70Xt0Otnjysz39wrK_LafEgOmQP1GAwDjz3DzT5Dq_ku4BI2p-U33ODcIGBNsFKk6q5eKDfr4IvCbhNFOq7z8lvW1VsjezoyMVR9_HFyyYZ_ChboBXxxX6Nkm0bFHMsyRSS-RkUNEMaogWj6mO8DeQrhLQspSl6yu4F9xGr9a3nZneJdFAEme3tK4z58jyParOV0vpeW-VJeZZlOtpUhfU8uL7mj4GSaB",
+      "AcnlKN3od4Qu361Md6_b8pL9-_rBC9LbpAar5p-h8n4I1MddGLK28Eowullf7_Yh__U0GjkVfxRgwYWR1tQvaDZKP6Ph-YyQm5FXKcNNk5DFEhdxOaPJWTd36ZRenpvpNQyA52ScwldndoiOSl_VcoR5hGEGzNcrQ30uUC4dLFos9-BocIjlT34Ku4Zf8U52tf4a3wmtECE36XyR27XIOKEtN06KcHWxkbJ0NODMGqAcapwyE5waz6sWXHdZdb9Cq14TxCHW4XF42t5WBjyNGI9i7pwr0eTcOOzUbf9inA3g0JU3aw",
+      "AcnlKN3A6kDvmtbtk17HMMM3Wur8LmGCdIiUbPokqSoW2SBnuNajzUOER-ZQoLtt0cf9GFV5asJ3BBlMYL1HkcYCjNP33swy4e2doJt8aKEKi1SmWmZh6GZA0rJr8wzb63u_bhUY_GP7Xn1lOiWbsTiXaLNelZ9XsPFxqEUXEL-MetBph_DA8RaAr4Kl-W-_LrvmA3lFkkBgwX03FvXrk2Z1Sh8ril5RyD_2t28SLs5chudHz2cuJhaGxV5uyA3qpmAJFUN92X5ZOv4ALVUJUAv2tCDoJleZqNSLJMGfIKr6H0ca7w",
+      "AcnlKN0BLnIN_bF8mykavJH0RVk6_vCaW0EcFzjBo4rWQacu73qZS7ck5I5kg0ZmfmUeD2fYlRXny6gk2lr-nw8azh5FH3q-wNdY8RyNmWgXgcUsIDwXgfT6tFLnq3F3lRbllwyA8QH3p6wud1V71dcLv8CGtGmL5mFB2REOx3Oe8_qmeLAZ64c6o0dZvZv0VyUD03IuE-5NRM85L4FT--HvxZX7_VCLRtD2itmLLmodEE5f9hBX-2fF5gAcRMUdRmAykUwzFFisezlKh0Q37WQCqKbJJCAXrlCMYdOVG2vNcxvxplidbv2ldGZdYixPs80ka8l5kt8GmTsjUEubVUAbofqwfYfAgLpXEpmCyliFw9_ScxWBLgDHUpRE2JhMdcSGg6TWk4SjGGzUE45v-04c1i0fTatnSjsyiH1pnanCM26Tpc5Q",
+      "AcnlKN2BTUaEqcLErdDXSMT76U04voAc_E6y3cmRaWUQ9ycTMfkE1gtZabMaO9wQqQXhurQpG2TIklO-cQPewAXtQnvNNiOVFML2wsi8n3nJ8FucAMBGUN08MlDpFN7Xf_k_Vl4aRAGUeMNRBqAO4kOOyPma6JDwJIwySET1_gwHiitf_tH09wmbuW1fTsnxnxleYNutnbn6o2ngGmRzUmOCkXQqjFKHeA724MYfOWCDTePcQq4t_LEbAuwRQ86V3fTWSpDvk8fW7MrZeO0hcKYOTTiOMpU10yae6GE2Oin2LnI5o4I-jJNbY6W58VJbIV0rtu1kCpvv5ejnGzpmwNjO2Y9eekvpcp_9KSXPEoJlClg4bkZYaioQNAvZD2DKbg-5CALA97uc_bUtwtD9fbAZmPtE6B5yBPV-D3VVBDW12LHQ5pyp",
+      "AcnlKN1ivPBi_0EIEKSzdHR5xtPe9hdzknkFsieaoGk6atVPK30NMk16OsKVgOms8LONRdZXUi4Y32CShFS8uVIOGIoGrFAm7DBJtMPolgNLjJM6ga8tPVVsvZ1qD11lHKYCcYyWQueXBvXwrt7rbjOvNu3niGjK8ZCkF8VGN0vQ_rXouIuLBlLKIxz2rCEnMbtUDDta1NfP-jtEd-NFcxkidRX33JwKoCcSPROvkQtST0ocCP4w1vey6pR2BFYc0uGRHFZcu325W-Y-BiDGajgOu3iQWzlC627G1QuyaD9BoHbs_3LgB04EiyLnJjN2X5P1rUadbkCXIzyEmV1h8kpSaQu6cBHarmdVIofpFMm7xcNuxww2DVWx5HKz2UC6QhWRxvL1YmBDakiN3pXv8IGoqZuYiaSvhTW3MOZpOWdSdkqwOQ",
+      "AcnlKN3XkaAZFwbSvlaY02fxtlMpIE0-EqLOQDQPm3_O7J7l5c-qp1Kms1RVAhOfksptuylUGK4tUyTf1cz-nGVU2DtOS8CrERnskWmWW-BL6w_5M6IORcuinDSaaP0TgoAsQP4LDiM2DK4Va9Lhvyj40WC4yJh5L3tWST4rLFyHGJQ3jwB1peonuxEbW4PV3ibPwjtksVBqojec7jWUNQ7JwkMmjwsYeTj9TZoFGkO09Pj-wrYBeal5Wh5GngpRCiwW6vWnjP_V-jMlECfl49VJRp5_pYDaX9FD2onaMC-mOP3s17LT-udUPgsMyZPwbCQ3KU5fcQJUzt50kQX8_eXqXVBnfO1u6_qgYOrvvEBmVwcWVubDEjxAM2gPbn_YrNanA5dRyMnagXhMnNxuUHvbBblqTi94SO8xELaevWyKbjng1g",
+      "AcnlKN2J6tS1_MYxa_CRdIsbyR8GoEVFey68bSVUhOhQtMqSgkxoAHsAGyOkGG8qXpb9fKHO5IrMNnVRPYdruSsi1fGttandfVc2QrHZaimAtUJN9W3j_iU0-jvrXREhue1Cr-04QxZmg1sBZexH8DrmzBHqJYEX5fuLuesh9uRa3-nRBzGPiD45dlijIy9x4zst2WvKvlJBQpstZBobnjHc8Tw6NTbvlkAM8Wh4UhLL_7BwYbBNu3GDIU3fCWegZw9QETV2dw44NMIZmVLVbpBqltKo9pXFcw40VHjKBejPMkCR0PexqdeoN-N4TgYjKjNylsOWe-70rpom3gdFZ9MwiTDzqbRCHGMD3d5jPSctX77N8jNQg3BdSBa75Va_nIm7RNZvDAYbA9eCo8_T0OP3Jonh5xVHT7DzJ1xfWEwhLXruyRI",
+      "AcnlKN3lVfX7BHqLlooF4OldyrwJd-t4nYD5UY9ph32r6trfl4NfAqcxdz1Ig4Blp2RdZ89NscRu0DxzhBJHVtyTUrv36uwW4VBUI2PzI986h14lSMpaQpBNX5RM0pOuUc2DXOS7EONdVOctOdE2NaP6s_M0K1uK6JnFHlwfb3aerLujMFsAPN6wcANn5ff6bLeXqFY-vf7xkczLAoampzwRMaCM5N2Dg0Mi_wd-QqaaRnRHA0yNX3bzudvsrqSHyDUYfSbXiWhWHvtjl22USUftjHx7GDVsKIGHtPqgtxDekRBpcr77DUv7OXMmDc2HowoHZZGxKbD1jllH6d2gU1tV0lkZgnrucG3sbsloLMDrdWNgApTtqHFwXwAP8UVKufL9e18GCJSKMqY0YCvKYuCXJqQuwkAhw2W6jA-aKNTeMctp8Kx_"
+    ]
+  },
+  "social_preview": {
+    "like_count": 781,
+    "top_vibe_tags": [
+      "culture",
+      "découverte",
+      "insolite"
+    ],
+    "moment_count": 29
+  },
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: Closed",
+    "detailed": "lundi: Closed\nmardi: Closed\nmercredi: 12:00 PM– 12:00 AM\njeudi: 12:00 PM– 2:00 AM\nvendredi: 12:00 PM– 2:00 AM\nsamedi: 12:00 PM– 2:00 AM\ndimanche: 12:00 PM– 1:00 AM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Skaters esthètes, collectionneurs de street-art et jeunes actifs venus pour l'afterwork avec vue sur Seine.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 60,
+  "discovery_radius_meters": 100,
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 15,
+    "value_score": 23,
+    "category_percentile": 77,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 15,
+    "pint_price": 10,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "BOISSONS",
+        "items": [
+          {
+            "name": "Demi Pression",
+            "price": "4,50€"
+          },
+          {
+            "name": "Cocktail Signature",
+            "price": "12€"
+          },
+          {
+            "name": "Softs",
+            "price": "5€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": "18€"
+          },
+          {
+            "name": "Burger Maison",
+            "price": "15€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum",
+    "restaurant"
+  ],
+  "google_rating": 4.4,
+  "google_ratings_count": 3376,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "poi-108",
+  "name": "Petit Bao",
+  "slug": "petit-bao",
+  "location": {
+    "address": "116 Rue St Denis",
+    "arrondissement": 2,
+    "coordinates": {
+      "lat": 48.8644466,
+      "lng": 2.3502881
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJpyinfKpv5kcRcNtyIMo717s"
+  },
+  "category": "restaurant",
+  "subcategory": "chinois / bao",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {
+        "noise_level": 4,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 23.7,
+      "criteria": {
+        "crowd_energy": 8,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Craft"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: 12:00 – 3:00 PM, 6:30 – 11:00 PM",
+      "detailed": "lundi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmardi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\njeudi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nsamedi: 12:00– 11:00 PM\ndimanche: 12:00– 11:00 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "ambiance_vibe": "Version intimiste et veggie-friendly du grand frère",
+    "booking_policy": "Pas de réservation, file d'attente fréquente",
+    "smart_tip": "Leur playlist jazzy crée une ambiance feutrée délicieuse.",
+    "signature_drink": "Sélection du moment",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.baofamily.co/petitbao",
+    "réservation": "Sans réservation"
+  },
+  "real_talk": {
+    "text": "Le premier-né, rue Saint-Denis. L'enclave authentique du Shanghai street-food. Les Xiao Long Bao y sont une religion.",
+    "must_eat": "Bao végétariens, dumplings aux légumes",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Petit Bao est l'adresse qui a lancé la révolution du bao artisanal à Paris. Situé rue Saint-Denis, ce restaurant à la déco épurée (carrelage blanc, bois clair) se concentre sur le Shanghai street-food authentique. Dans la cuisine ouverte, les chefs plient les raviolis avec une rapidité déconcertante. La spécialité ? Les Xiao Long Bao, ces raviolis juteux remplis de bouillon, à dévorer avec précaution. C'est frais, rapide, abordable et terriblement addictif. Une petite pépite qui ne désemplit pas et qui privilégie la qualité du geste artisanal.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0swDKYQ9w0cAtYKR1X5TwRf--4-5y6vDVKijx2bO8aiQxqcX_fDTqXdBjku-R0x9T-Gv4RnuB-d7_qfyLAWjor2grYSt7PrLA021JucRcSgUSw5RRBsjnyg0NwSFj9Ax8HjFSOnqJg0iRI5hJceu54lB9KfO8bwpzDeFFdp1IbdMYzg_2fJFAZqhcQVyk0q3iFqN1-sZQzppkx6jFGB8ClSydWjOv4PYD-1eBLUwCdyXTkleWU0itEVVbqDzJNMe4-nlzObyONF4lyj3RVflbQLdF-NL6ia66MWMjmIftBkw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@bao.family",
+    "google_photos": [
+      "AcnlKN0swDKYQ9w0cAtYKR1X5TwRf--4-5y6vDVKijx2bO8aiQxqcX_fDTqXdBjku-R0x9T-Gv4RnuB-d7_qfyLAWjor2grYSt7PrLA021JucRcSgUSw5RRBsjnyg0NwSFj9Ax8HjFSOnqJg0iRI5hJceu54lB9KfO8bwpzDeFFdp1IbdMYzg_2fJFAZqhcQVyk0q3iFqN1-sZQzppkx6jFGB8ClSydWjOv4PYD-1eBLUwCdyXTkleWU0itEVVbqDzJNMe4-nlzObyONF4lyj3RVflbQLdF-NL6ia66MWMjmIftBkw",
+      "AcnlKN2NCM45SHIYUZgp_d3JvGkH7Jf3Ji37hTByeVC-sRDaEbrO99NGNpVp52npW2UR5O75DXa8Oe5cleZRZGGzgq8LqYieM4gaMMpX599V4xC4lIjdjQ_v250dwFn1Z9D0GlN4fFN7_CRXQnFRTTygWQLE44cF54K8Y7Dw7LPZrQhAx97w6xCHeiGyt-sFLJBZJOZgyhBA97aX68SOk0AqzqASL-ov-03_GwwOH7d-ANPQyuq9OCpytTouFoy0tn7mjTqlM20ytEFqzXHnP3i93HOoi-4fUpVL-gv8qrFsL21ldA",
+      "AcnlKN3X6KHB5GL7WuKT8Rl2Dg4VgcZfLEskQuZAXmRodPHq8SC5Ynwvxgvyxb8dR_xk2mxbhgkTyJ3nc6HcJqqUjm_o2IDUsCLn-w3DZ-a-4HWDf1o6nAjY1gSWELTWxhoTT-nyvpiwi40wJT8-4x3s6UZx1CqVU8ITZsSYHalrvCir8EOkHCIIRcgtwWIVspM4uAQDQP9YrsxVhpQiRfA9lafFbzT25_PEBK8jnKcj0NA2TIXbfgQ6vdFEglHOWrC66AHAQmIn8b24fkt8XKC2Zx6N3cvhh5pTbiKtZOe3ERddA4p_81Qc8jN1LMJEEWuttwsBwqkbDvZHY4bIm163kqRjDCOPs4l6zDJn682hcs6Tqo6XSUhLIunHO6a09F_v0ix6s6hKR4izddCUGD5_KYpvusV94UwoXJoItdszFIr59I4Lo0x2fHNcbYefWQ",
+      "AcnlKN0PvV2AaJn_QZWCRRLiT3zMmT6oLboucb5Xf2cvAdY2oIJg797Xb-lJiuYPK-Xu7ieDDjRrExBCN9BucMwNGSq-O0E9W4rXNEuj9npshb2TrZLtacPIdL10QwFUynkFlp5QlaW4KTkp2-hxja2OU92ZSrNrMYQeBecIyPHOoLIz71NCU-7ZYUZK8PvvlH604qGqFFDuGkp7IAbA2oQiZgEZBwqmul1OKe08nS5nGyZ2graQZzqFj7hzx7QueS7IivKia9Y-xWc8sWWNVt1_4sPB9NDqi-yiWbegxChrv_tIj6QcD-CenlFbne392WxiKARHid5KPr1ImpKGNgEfJOlnC5tofwT8845rXHGdH1gNAaIeJpeQNnCQ5EUiodA8I8kBKwTmLOZy1bRWal6gduVfytMdC9QJI4A0uXB_-RrvvzhpTJ9PgTCDNDNvyQ",
+      "AcnlKN3fW_ewnJ3cgBLDpFuz7dorZdlxfI1ntuoEOW7aIiEZSWdTGJMO7rboPgU1Osd-wkmrEyPJR7PNpW_eDCs-NRTkm7V9eyDh4v4mXTwPDFCaCn5MPueV_9YGwNrYNkYTDWSvr6uIMEElAUP5miuDkp4HrOmA3i0Z2LBJ9jGNxKe94e0cCbt9k5dOtTJtyvmJH0tDEtPLlvVp6gaMN1FauO1uAYz50YSLzQVYoHyBkBfCKmVwODqHeH2wP-VtzLLVTCuGerkyr3MAAQenQS2h8bMflbdO8ReCKB6YC5tVulnqauO4V0ociFZzwCBk4l9TeZHHCt2MZvK7VzQiEAyEGlGOUcpQ7cCss3HxuKE407cUfzxiQNoTE8FuNKByx2THPf2hNDGxOgmlLNXMY4GHpH2QbY4AgZiyOa6oLK9m0tc8Anh3C4tGvY8XORhQLTk3",
+      "AcnlKN0KaGUg2IjIpVHefYTXAh_CtiLzt3i1Qb-I-ZgJMS4CEqBtHIT8av2nzZIDXt6Dsgf3VtiEBClJS7VVYisqpRGo41ahErh3O3RmKHfMZ2yXouYgQuKZEgOVbJY7eX0j_8oV1wP_JC6fzWIUJtmB-G4ReorGeMnqMprU-8PKfYG75QPyy1AK6dNw163Q378eHvU8iXj7YQdDeWV_qVTamYg-ySVgZCnFsju4kD54I2Ra-ZVtHqLwIytNfGJyTxT9Q42eSIwj32gD_KiGGNarcmuwTPv21CBBRtL3gxB56XK4zt8MVc6WcIxtAxXfjO5laTAaQ2kZHl4LUuTYCj-ar2_eA2u63gJ4xpc6oX_cjJZQSdJAFF0S_rwfQnZIbYhB8_O6_v_d-TSvnfWzRI6KDNIOkii5TD1pa-_SxgdRFM-Mnq2M",
+      "AcnlKN2lRVlXrlG36_8narPXyj4qU233bvHOloBAFsRL1BMnckQ2bE7eDit6OVCjA4QiPjL7WcXwq44Aa_kFPy7NckySlISN3DKCnRxdu1QXabn-UapK3uN4V_fCBd3dOgW5jMF-yfE93hkWyHTqV3JZdS28asqkppgCxmBD6gh19mNXDCX889i3pI2RGkcCahE4xAcqmtkuQy9WLvgJkZsYB9TdzGEA5uCiCKp13UOUo9UBKbfFwwMMlK7YXyaDH-xPIhLBWEDd-q6_ejIrL1dGE4-wJzBOJs4lN83nognsn9GtKohD13XI3s2jGZdKagoitJnPpU_laqErnO886v5BpwQAjkzY0MIhsRswTN6l8XkoOHNt8BM5LyIidPxnxVVv9Fwfvhtsi0pQZvaZvHMLhXpKxLH0CY-19eZ90EwHXQmPwQ",
+      "AcnlKN2SHPlqZnN9gHU3n4EJVE1eh4VXy_tc0Sx6ufEfWV8ueBXTlULDl5EvSZCq2WIT7hfgMoGhXFhWbhxHS3LmqWyg4JCvD0v8WXBmJUNwY0EC4Sk9MI817BsZ6q5SGeek_sgQ5BOPebMMBn-vpxIo3GXd1eiwYt6-OHm9MFSjNBXqaiilS-K4AwOHDz3Pn32pxsLMfHF2n693hNpHsIDlWtNS700WVrJ99AXUMbsRHKOY4W86iXX-5tQ2q3_c5JxdHOa4Ni95JhYeqF7qfnFgZCT2Wwq52IF32zDunSSSuxBTtY4hwSLupMmdE2Af58EbwX53Tr1YMWewlg9LzdAK_U7q3Abe1OUZLbtQuMDOhh8xOBda0t9CBCh9Z0SzT-znrUe2Bo9IjYftu-ivGObhAPGYbCOMNWnjinkxqpPe1342xLr2GtRwCz8ivDTRlKUo",
+      "AcnlKN1zhqgguTkFuKK11vcauo4fplRHEOMzJGZg7bU4p-8hq3ygGtzbI8DSm60Sp6ux9zyi5L_tQUh6KErOv5jFYVODCulh5oloahYZkllc1f0yLGSRJz5uPDnnBWIsZH92-lz4fzviOck1hb2jHtYK80QeMgwYjPvPSfc8EpZCDwLK-Vl78IvavLtR0TeOcspHAUOrHaZhlQF6IAbHMRASdZcDgPyLlQtNnGuSdv6mUr7B6jJB4HZLEAoGH5uR2R4fGC3jDUUeoy-oRAmergb658FZlrTinEEWewdLbfw40cRULqzLJdysfyCEMUl2q2ej0FEW3NSRKjlqJQmT3O5lEcglaGBOoMPIIi-monSRWWY8y6pw02H_MTcx4onb0oLi-FkEPxnF4Wnqh2aXxMNMbgJkAY2iOaJVkHSgwg8OS1H5V3hArJ4T4wuWn9dfGMpm",
+      "AcnlKN3yYMljqxR5yMJoip9Nrw0glLNeWRvFnMtYncQrXA0QKTiwH4a50RV-OQOV6CNygWsPWXpf2-CVB-xNlfE1wk8edHYmBCvyCCVeRs0njoVZbEgo1mz8OLGhXceb6_JUiGVqYxhXfhFUnsRorlt04d_M5CvzTjcL5HcZD4YQC32o_JoioepqOqXP2MbiFF0ZIb3pe6VtnEyh2yCLLZh9aqO9MRXtbFN93oM5NXdg0zt0Hr8BWFEzW85fQjRGf4Zu0Rx1fTy30k0f2OhkMy5BCR2Jf8S4-dgyC1ko6387FwZ8SBcQyQIZfZsNimmi_nfSV4eCPeQOeTNRZ0IRIJJ9ZjSbw7APY39Ll40suJGhTxJ6D3l8YuNMF7l5Rf2ntlAj9RecaHWwXPzm0WwniWmtm4rO5N7zJqetnlh_b_HGtT_QjEn4KYEKoqanyizs1YwV"
+    ]
+  },
+  "social_preview": {
+    "like_count": 1115,
+    "top_vibe_tags": [
+      "Craft"
+    ],
+    "moment_count": 11
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: 12:00 – 3:00 PM, 6:30 – 11:00 PM",
+    "detailed": "lundi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmardi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nmercredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\njeudi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nvendredi: 12:00– 3:00 PM, 6:30 – 11:00 PM\nsamedi: 12:00– 11:00 PM\ndimanche: 12:00– 11:00 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Végans curieux, couples du Marais, touristes foodistas.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 13.5,
+    "value_score": 102,
+    "category_percentile": -2,
+    "is_free": false,
+    "unit": "Repas moyen",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 13.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 18,
+      "label": "Plat (Solo)",
+      "source": "standard"
+    },
+    "fair_price": 18,
+    "menu_items": [
+      {
+        "category": "LES DIM SUM",
+        "items": [
+          {
+            "name": "Xiao Long Bao x6 (Cochon)",
+            "price": "11€"
+          },
+          {
+            "name": "Siu Mai x4",
+            "price": "9€"
+          }
+        ]
+      },
+      {
+        "category": "ACCOMPAGNEMENTS",
+        "items": [
+          {
+            "name": "Salade de concombres ail",
+            "price": "6€"
+          },
+          {
+            "name": "Riz Sauté Maison",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 5646,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

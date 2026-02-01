@@ -1,0 +1,131 @@
+{
+  "id": "poi-201",
+  "name": "Musée Marmottan Monet",
+  "slug": "musee-marmottan-monet",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8592,
+      "lng": 2.2677
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJYfRHlFJl5kcRTIXaVRFhx04"
+  },
+  "category": "museum",
+  "subcategory": "impressionnisme",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 846,
+    "moment_count": 36,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Monet, Morisot, Impressionnisme",
+    "smart_tip": "Ne manquez pas la collection de Berthe Morisot à l'étage, une merveille injustement méconnue.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.marmottan.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2AXdiMe0wsW4Yq9IDYC5_2zKZ4ORrCCjHmcZiYXU4fsk6VvqNIca2zStptRxJoZ3SbjV7QOBDMbF0mvF-Ox3h-mK71C_Zj5ByQ7vjHAACO-XHko2rxeCl9y6wj7X8ZizgAgZkwewPqv_MWkzWjxwsJ40glsjIhWVuaee8PTbdpCkHx7zmzZGWnkSnYzIrgfj4cbVOYoK7ajEig9lRhNiJ3IKVrP-e07DBoRmECNj2ha754dbBb_jzk0UNtu7SOgk038bmHE1Tz2z_mDcHkbYDqCaRT1VxPoTj0TQ5NTrh5egZwxyN3kS1lVqhRdD9erEaAotMz-ByWLFJlogugQhkf5Dn4hrMYy59741txBrw9Zi6tCJkVGAWnuwmVTBfcJnAGr71u5mEkrcohnNrd_A024GYbQKGS-GbGqOWUF_RqBx4c&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@museemarmottanmonet_",
+    "google_photos": [
+      "AcnlKN2AXdiMe0wsW4Yq9IDYC5_2zKZ4ORrCCjHmcZiYXU4fsk6VvqNIca2zStptRxJoZ3SbjV7QOBDMbF0mvF-Ox3h-mK71C_Zj5ByQ7vjHAACO-XHko2rxeCl9y6wj7X8ZizgAgZkwewPqv_MWkzWjxwsJ40glsjIhWVuaee8PTbdpCkHx7zmzZGWnkSnYzIrgfj4cbVOYoK7ajEig9lRhNiJ3IKVrP-e07DBoRmECNj2ha754dbBb_jzk0UNtu7SOgk038bmHE1Tz2z_mDcHkbYDqCaRT1VxPoTj0TQ5NTrh5egZwxyN3kS1lVqhRdD9erEaAotMz-ByWLFJlogugQhkf5Dn4hrMYy59741txBrw9Zi6tCJkVGAWnuwmVTBfcJnAGr71u5mEkrcohnNrd_A024GYbQKGS-GbGqOWUF_RqBx4c",
+      "AcnlKN3MXwKAdb614QdmGdlAiDGXxQb2x_q7gNfgFjw0ug0YfzW5QVyJdjaX9LdzMV2JCebBfPtyL9SDrT6a5ojKMuYqfHhzBWMuFKJO6PgYkfO9Vr9pv_O1fbGKwaqTWQ9kJhpBvzyH0zVMpD0MRASWAxGTflQ4c2Oau1303OFAe-sfQ5O93H5r2yM4XF8K5d4nLatrPJwFV1Kmh4dFuazILWM-DcSacn6xTWT8pVRqAFZlEHsvRjzr6UEUXaxfBdoNluIYdG4H6TAll01ZH7rRJkuA0NR5grps-AXG03KXNKU-XVoRqfpOtxGZL57Pa4l94fZrNTINSugAX0UJxcvpOQ7nOn7LwZngEkb9AIfzBulFGjKq4bvBt5kHechQW5KCDREXvr9eqNifkJfC3LPiiCuoHT4-PR1BrHmNl64XqPzGLOlBnHi8Oq3yWBEn_w",
+      "AcnlKN3TqlcCo-jfbfbHrQA55W2kRyJilG5m1_b3Ky7VT1EED96H6qg5KGFrqOT8YZUbAS8nO5T3XTdUKV0JWKnnsVm_Z_gmFLmmqZrEUnfcDZxxgZFGmUu8c4WAluBus-fFea0c4uw6TzVFSjTMfjCCAw4uuib5Z1Qu04wwNFwdjyD4CO58CEK8MUk8r98h2ohNotE18jYCdOY2cGbnPocjGmhPz8pYJoFaXBPIlf6yXlhJ_gG-ID3rZfoVIooLMIW_NQBq7Zd9kR2Ep0cQgjjaD0x3rZGBI3iLIkVoiVIllzb4NCu7hOn1-_25sKveQ59889PY5RVREWOCHJsayHHpYHX51gjKtfZg4oBQDB8judUt9vemqj01zjfcutpoLKbmNjWSMoPqRsPWFpOCr-7WAFjo9CjoPa_44OjszouISlI",
+      "AcnlKN3N8w-6WOWrRPNUmHAOYTh13kMI7puhSZKVpHPgUutTEtOjwc1A01q5EHFIMpqSfDlsYMJrPHDNr4SPjYK_6Y8ToEn-07upNIs-5guY7eNuCx82JqcoEFiZ58R4NpEcGFNMaFBzNuxK24rj4qNmdPGOhynAtuzpYPsCSgge1PJw6Rimz_2IHrY_Y0zc6J8XqFRChANxtgf7KiTslqRQnViQUYD7CRmxasu3NtoAs2_lrwBtgPgL4QX5vanIz26xbKM13pHxamdbQxFJj1zwDnRPZ4Y2rof_6Xx7Rx82K8ntF0RyfPQxByUnmQR6nYOxZM16-e_Aihqxv-QfNOeUIZeC9fbmzhWPFTiuaP6lSfV4jpe5kYwy9A1HbZTNfXP-aWoSo7iem8RP76N-p2TroNr0A5-pZ6xOtLGNB0TT9hHyivQ",
+      "AcnlKN1XCuhAny5ZJw50sxFWLTVfsQANyZWAHDsQbFF7nzoa1NegNNhs1jKk5rIe8vFXKzhJkCHl6jZsydZlJm0g1gG6hxGebRjOjnDLbQc96BpCYr65KkgDyw_gfzKO7-WyEpkn9J19rmUqRjvi3r8q4f-Dh-SSTMFMIVS03DrBcyv55WLvsmca_pNb2xPHs4qMJyuC58KZlHgtwdhlyi87mP7d8GTAn3qfgTvKmVdixPwFpuRd6CKqMuliBQ1pevT4D8M5RARCp5jSloi0cMh71iVj_PO6JM0y-tNXTxTLqP_hUjR0B80H02hcusRfYnbST65Ag0OO4wUeISKZIy0mqNwDZ3f-AN0Z7KhViFeHvaP_HzfUsaWlMziuAPGxPnGUSTAPv-_rivj10fA9OzCz0Y6NFXOrstxGbZGHN6KP40C1Y2iXyaNNS3nxwhNeDZ9f"
+    ]
+  },
+  "description": "C est ici, dans cet ancien pavillon de chasse du bois de Boulogne, que repose l'âme de l'impressionnisme. Le Musée Marmottan Monet abrite la plus grande collection au monde d'œuvres de Claude Monet, dont le mythique 'Impression, soleil levant' qui donna son nom au mouvement. Dans une atmosphère intimiste et boisée, on y suit l'évolution du génie, de ses caricatures de jeunesse à ses Nymphéas monumentaux. Un jardin secret de la peinture au cœur du 16e, loin des foules d'Orsay.",
+  "real_talk": {
+    "text": "Le vrai jardin secret de Monet. On évite la foule d'Orsay pour l'essentiel.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Passionnés de Monet, familles discrètes du 16e et esthètes en quête de lumière.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 11.5,
+    "value_score": 70,
+    "category_percentile": 30,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Plein tarif",
+            "price": "14€"
+          },
+          {
+            "name": "Tarif réduit",
+            "price": "9€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 9382,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

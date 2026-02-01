@@ -12,7 +12,8 @@ import {
     Dimensions,
     Image as RNImage,
     Keyboard,
-    TouchableWithoutFeedback
+    TouchableWithoutFeedback,
+    Linking
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import { CameraView, useCameraPermissions, CameraType, FlashMode } from 'expo-camera';
@@ -33,11 +34,14 @@ import { Gesture, GestureDetector, GestureHandlerRootView } from 'react-native-g
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { useMomentsStore } from '../../src/stores/useMomentsStore';
-import { usePlacesStore } from '../../src/stores/usePlacesStore';
+// Moments and Places decoupled micro-stores
+import { usePlacesStore } from '../../src/stores/placesStore';
+import { useMomentsStore } from '../../src/stores/momentsStore';
 import { MOODS } from '../../src/design/tokens/moods';
 import { useTheme } from '../../src/design';
 import { useLocation } from '../../src/hooks/useLocation';
+import { Place } from '../../src/types/model';
+import { IconService } from '../../src/services/IconService';
 
 const { width, height } = Dimensions.get('window');
 
@@ -64,19 +68,23 @@ const formatDistance = (km: number): string => km < 1 ? `${Math.round(km * 1000)
 type CreateStep = 'search' | 'camera' | 'review';
 const STEPS: CreateStep[] = ['search', 'camera', 'review'];
 
-// --- ICON MAPPING (SAME AS MAP PINS) ---
-const getCategoryIcon = (category: string): keyof typeof Ionicons.glyphMap => {
-    const cat = category.toLowerCase();
-    if (cat === 'bar') return 'wine';
-    if (cat === 'cafe' || cat === 'café') return 'cafe';
-    if (cat === 'restaurant') return 'restaurant';
-    if (cat === 'club') return 'musical-notes';
-    if (cat === 'espace-culturel') return 'easel';
-    if (cat === 'parc') return 'leaf';
-    if (cat === 'museum') return 'library';
-    if (cat === 'workshop') return 'hammer';
-    if (cat === 'exhibition') return 'glasses';
-    return 'location';
+// --- ICON MAPPING (DELEGATED TO ICON SERVICE) ---
+const getCategoryIcon = (place: Place): keyof typeof Ionicons.glyphMap => {
+    // Adapter le retour de IconService (string) vers keyof Ionicons
+    const cat = IconService.getIconCategory(place);
+    switch (cat) {
+        case 'beer': return 'wine'; // Fallback mapping if needed, or update IconService to return ionic names
+        case 'wine': return 'wine';
+        case 'cocktail': return 'wine'; // 'wine' is generic for drink
+        case 'cafe': return 'cafe';
+        case 'restaurant': return 'restaurant';
+        case 'music': return 'musical-notes';
+        case 'palette': return 'easel'; // easel vs color-palette
+        case 'leaf': return 'leaf';
+        case 'museum': return 'library';
+        case 'lodging': return 'bed';
+        default: return 'location';
+    }
 };
 
 // --- GET MOOD COLOR BY CATEGORY ---
@@ -241,8 +249,8 @@ export default function CreateMomentScreen() {
     const insets = useSafeAreaInsets();
     const { theme } = useTheme();
 
-    const { addMoment } = useMomentsStore();
-    const { places } = usePlacesStore();
+    const addMoment = useMomentsStore(state => state.addMoment);
+    const places = usePlacesStore(state => state.places);
     const { location } = useLocation();
 
     const [permission, requestPermission] = useCameraPermissions();
@@ -283,8 +291,8 @@ export default function CreateMomentScreen() {
 
     // Places with distance
     const placesWithDistance = useMemo(() => {
-        if (!location) return places.map(p => ({ ...p, distance: null }));
-        return places.map(p => ({
+        if (!location) return places.map((p) => ({ ...p, distance: null }));
+        return places.map((p) => ({
             ...p,
             distance: getDistanceKm(location.latitude, location.longitude, p.location.coordinates.lat, p.location.coordinates.lng)
         })).sort((a, b) => (a.distance ?? 999) - (b.distance ?? 999));
@@ -292,7 +300,7 @@ export default function CreateMomentScreen() {
 
     const filteredPlaces = useMemo(() => {
         const list = searchQuery
-            ? placesWithDistance.filter(p => p.name.toLowerCase().includes(searchQuery.toLowerCase()) || p.category.toLowerCase().includes(searchQuery.toLowerCase()))
+            ? placesWithDistance.filter((p) => p.name.toLowerCase().includes(searchQuery.toLowerCase()) || p.category.toLowerCase().includes(searchQuery.toLowerCase()))
             : placesWithDistance;
         return list.slice(0, 20);
     }, [placesWithDistance, searchQuery]);
@@ -466,7 +474,7 @@ export default function CreateMomentScreen() {
                     <ScrollView contentContainerStyle={styles.list} keyboardShouldPersistTaps="handled">
                         {filteredPlaces.map(place => {
                             const moodColor = getCategoryMoodColor(place.category);
-                            const icon = getCategoryIcon(place.category);
+                            const icon = getCategoryIcon(place);
 
                             return (
                                 <Pressable
@@ -511,9 +519,17 @@ export default function CreateMomentScreen() {
                 <View style={[styles.container, styles.centered, { backgroundColor: '#000' }]}>
                     <Ionicons name="camera" size={64} color={MOOD_COLORS.festif} />
                     <Text style={styles.permissionText}>Permission caméra requise</Text>
-                    <Pressable onPress={requestPermission}>
+                    <Pressable onPress={() => {
+                        if (!permission?.canAskAgain) {
+                            Linking.openSettings();
+                        } else {
+                            requestPermission();
+                        }
+                    }}>
                         <LinearGradient colors={[MOOD_COLORS.chill, MOOD_COLORS.festif]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={styles.permissionBtn}>
-                            <Text style={styles.permissionBtnText}>Autoriser</Text>
+                            <Text style={styles.permissionBtnText}>
+                                {!permission?.canAskAgain ? 'Ouvrir les réglages' : 'Autoriser'}
+                            </Text>
                         </LinearGradient>
                     </Pressable>
                 </View>

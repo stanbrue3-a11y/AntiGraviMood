@@ -1,0 +1,131 @@
+{
+  "id": "poi-212",
+  "name": "Maison de Balzac",
+  "slug": "maison-de-balzac",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8557,
+      "lng": 2.2801
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ986IowFw5kcRHzrNsGTG0Rk"
+  },
+  "category": "museum",
+  "subcategory": "litteraire",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 766,
+    "moment_count": 52,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Objets de Balzac, jardin secret",
+    "smart_tip": "L accès au jardin et au rez-de-chaussée est gratuit, profitez-en pour lire au calme.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://maisondebalzac.paris.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1oDaOuPEckci6Zx5UPpeY9sGte3tnaXKdQ_S46KcpEBx6GUrPf39XVbc94KoEp50t5PDue25G_rAPrlpd1qMP4VrXTjYQo43_dfP_O2GIrIs_30quCbvuNqO_Lo_tddQVvENaQG91Gp5pwKXO3Zqr4ljr7hes0bPa9kRGXt49vyxYGYtrQVQpOVk88dAclz8-4vu6grjt6xlh_oQBPJAxx1ZMLg6tqHt6rSoiUu5V_OM3qvrkYK1qT2-IWbuntCK-3yoJYKXMXG7Etxyvix48pnyRJnGSKtHuOttmb8NeI1MiaaPR8wwAtiefKTsdvQ4agAfXwfIpTtF8ieKguc6Ghg43dBf02uXkGAyIZ6MwIl7pHBjjnkrifBnAzC4omFD5cLUH6TB8i9-UnVdozPnmXv7gCJ1EfCmfxSZX2nUJOOw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@de",
+    "google_photos": [
+      "AcnlKN1oDaOuPEckci6Zx5UPpeY9sGte3tnaXKdQ_S46KcpEBx6GUrPf39XVbc94KoEp50t5PDue25G_rAPrlpd1qMP4VrXTjYQo43_dfP_O2GIrIs_30quCbvuNqO_Lo_tddQVvENaQG91Gp5pwKXO3Zqr4ljr7hes0bPa9kRGXt49vyxYGYtrQVQpOVk88dAclz8-4vu6grjt6xlh_oQBPJAxx1ZMLg6tqHt6rSoiUu5V_OM3qvrkYK1qT2-IWbuntCK-3yoJYKXMXG7Etxyvix48pnyRJnGSKtHuOttmb8NeI1MiaaPR8wwAtiefKTsdvQ4agAfXwfIpTtF8ieKguc6Ghg43dBf02uXkGAyIZ6MwIl7pHBjjnkrifBnAzC4omFD5cLUH6TB8i9-UnVdozPnmXv7gCJ1EfCmfxSZX2nUJOOw",
+      "AcnlKN0AFPxJaprYMFj_0zdnr72VxyME1q6HRNY2rwMFYF7X82IzSzDfgSmyRL1JmLsdeGIHvymVRoTcv0fkr-T08z7IMEPrxnWn_QvMOmRiUsTVez15xeJBELbfuCjWdTNJTeE8Q0D6darf90kGImfmOK1E7uqXMpTJYPZFk62CKkKMHusXLriLTHex2dYM4RiSaHa4qYB4I1QV07r0rSOoeMNWWoQg-mJnLgQEPgBvO6bxMXFp0llrIwuY9kBQYhBW-wxOV-89YWE03su7jLEohyb1dtc68ZGfx_ALW21L10ubvXcgZkou-__nq3eMSUzSZkbLyhNHCC7ydks-HB5IDdMgYeUoj-fR9kHiDjD4hX3ptK1xhro9qCyVcuYiqA0TWKb-CcFLvUPOo_x1UuRpcmGqkGDROFYIKDeyazDyigy7Sw",
+      "AcnlKN3kjFAfLfRJyla02ur5SHT7FlZO48_lrVJypgm1juw3wvYChW6596D1-2C8GZjnY-yqvWGBLyxMD_1iLY3Yxjm7WqcC7MYY2Lj74HyfZBFwu83q0p-LHsovnUhX6lmUS8xRj8zHyVLKklnA1EovgrJJzv9dENxwDCO6IV8zb-GXZWUWAynKOR8qdbDKqf3JlC5Iw3jQB54E_udTOBtDNhnSgMiatiUWMJNfq1CyP6TIMHTsdZZ0nKluKs4jMxQDQL-kmT-isIK_0ymn5-e4a-ZoeUvLjtncNoemNqgfnCEhfFUNcTE3Leg0LlrMMVUa94gu7NRtJUF7y1y1RubFPQHzb23ylf_89XsX_NYJx9tdm8uQoLHUruHP6EGohJ4w_oqwATLlQTOUxHwI8OB9KDM9jG4e31quamSK5-954zVuEzLQ",
+      "AcnlKN2YG1PUKaOrY_3Z-4b488WPpqBe78ldRmM5u40tfQUx23hKhqsYFmaCEtvNwQlWuZpAHXGWK-60uSWkHEd4A0XoP3AjG1ZcS4bKvJoqN4fY5K7l3Ya-2hZYz5YMa1i8J1j0UfvQ0eWGpg-Wi6H8tQnyGxLFSYUyzyI0jFPHe2pWOaZV6Qtlyl7q2lMUtSvFNKqNE2TQ_An0oa6kEcpmpfRSRM-aZFrlCIjEN3_vbhxKlE-ZBeP51D3jSTmf6n98EuxlDWj7-xgNI7Px-IgnZv0j_Bmlo57KO-yPzAlqLt13OfnJcoR4XlL0-m8ITVKRPn5ohMEVvXuVF_kukcai5UnISBznPBKTIj7G7e_hiYiMpFtH3uoSPQ6knK7He5IF5M5qh2-I59HtEjzAOwgACzxMtdOqkdKI1W6Sg3tRQvhZJRY",
+      "AcnlKN2gJyTtjwLA_W82VSqkcrNAg7wmlEUG1ktjkuBYgF82KoQf9Ah8ytqxqNzfw6CPLD2Z6r4l7QpRPnCtP6vSkrmDUe0EIyzkM5XaD2A-qHCFR11xy-9d3lCbHtnOleXovGZZj7t-5kPUoe0x-yWO0IegqmwIAcej7f5TMhrIY-MI6GJpzCt4duycxrjNY_Sc96wCxWCQ6BKksXOYWK4-1jMZjWK5qggGfX0QaGXThIkfn99wFIptpth_KFNh2-oN57cPdZ1OMP_nr1NTb_bomWnHh0IZL0uURr5PbDzwlXKefuxEbWIwKnvvX1sSBChya-u33AfJvlN__UIuANASRt72Yog_uMJ74pCmHGKmW9A0Yhz0wHFC4pEHHCfxCaGREmGoV7g1gafMh6Xv7zzgzn1pgHGFscKXGQ2Mj5EdFpYvifyv"
+    ]
+  },
+  "description": "C'est dans ce petit pavillon niché sur les pentes de Passy que Balzac a écrit une partie de sa 'Comédie Humaine'. Le musée a gardé le cabinet de travail de l'écrivain, avec sa célèbre cafetière indispensable à ses nuits de création. Le jardin secret, surplombant le quartier et offrant une vue inattendue sur la Tour Eiffel, est un lieu d'un calme absolu et d'une poésie rare. Une immersion touchante dans l'intimité d'un bourreau de travail et d'un génie visionnaire.",
+  "real_talk": {
+    "text": "Le refuge du génie. Un jardin caché et la cafetière de Balzac.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Passionnés de littérature, flâneurs de jardins secrets et admirateurs de Balzac.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 8,
+    "value_score": 91,
+    "category_percentile": 9,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "ACCÈS",
+        "items": [
+          {
+            "name": "Collections permanentes",
+            "price": "Gratuit"
+          },
+          {
+            "name": "Expos temporaires",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 1788,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "poi-112",
+  "name": "Pizzou Pigalle",
+  "slug": "pizzou-pigalle",
+  "location": {
+    "address": "28 Rue de Douai",
+    "arrondissement": 9,
+    "coordinates": {
+      "lat": 48.882538,
+      "lng": 2.3329611
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJjXoAJE9u5kcRc16kPeQ_2GI"
+  },
+  "category": "restaurant",
+  "subcategory": "pizza française",
+  "mood_scores": {
+    "chill": {
+      "overall": 5.6,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 8,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 6,
+      "criteria": {
+        "architectural_originality": 6,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Fun",
+    "Terrasse"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "20€ environ",
+      "display": "Tlj: 12:00 – 2:15 PM, 7:00 – 10:30 PM",
+      "detailed": "lundi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nmardi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nmercredi: 12:00– 2:15 PM, 7:00 – 10:30 PM\njeudi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nvendredi: 12:00– 2:15 PM, 7:00 – 11:00 PM\nsamedi: 12:00– 3:00 PM, 7:00 – 11:00 PM\ndimanche: 12:00– 3:00 PM, 7:00 – 10:30 PM",
+      "is_open_now": true
+    },
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Aperol Spritz, vins italiens",
+    "ambiance_vibe": "Trattoria festive, carrelage et néons",
+    "smart_tip": "Leur playlist disco-funk met tout le monde d accord.",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://bookings.zenchef.com/results",
+    "website": "https://pizzou.fr/pizzerias/pigalle/"
+  },
+  "real_talk": {
+    "text": "La pizza napolitaine... mais 100% terroir français. Un décor kitsch-assumé et une ambiance de franche camaraderie à Pigalle.",
+    "must_eat": "Pizza diavola, burrata, tiramisu maison",
+    "le_secret": "Réservez le premier service pour une ambiance plus calme.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Pizzou Pigalle réussit le pari de l'italo-français : des pizzas aux bords gonflés comme à Naples, mais garnies de produits sourcés exclusivement dans nos régions (fromage de la Drôme, jambon de Paris, farine des Grands Moulins de Paris). Le décor célèbre le kitsch populaire français avec humour (nappes à carreaux, affiches vintage), créant une atmosphère de bistrot de quartier joyeux. Sa terrasse sur la rue de Douai est le point de départ idéal pour un apéro-pizza convivial avant de se perdre dans l'effervescence nocturne de South Pigalle. C'est décontracté, généreux et résolument anti-snob.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN11GJeReSWo3p9WxrklPjECiUXAbOCmkfpAGUhStOQJ1spUsVoRoORzKDxxrkgNxd2oPSjwM8zATZVgetM93Dq9wCBxdLyqKegWbhNO7DS1eeJYcNvzB43P-OwCOP_LLxb50AeFbZPbHshK3FSXbakPoDYEJS7gSuGs3eb4EQNA88qvPYy0YUF_D4tk01-Ui14K_9SKSV0MMQ2hHCZ0ZReiaHlyiV8gSO28UKLoyi0XTCePaflW0_BIZzoOPE36w_qOhxMAWYTg8BHt-B4qy85T1hTXRscM9ramAoKuzG6x2g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@pizzou_pizzou",
+    "google_photos": [
+      "AcnlKN11GJeReSWo3p9WxrklPjECiUXAbOCmkfpAGUhStOQJ1spUsVoRoORzKDxxrkgNxd2oPSjwM8zATZVgetM93Dq9wCBxdLyqKegWbhNO7DS1eeJYcNvzB43P-OwCOP_LLxb50AeFbZPbHshK3FSXbakPoDYEJS7gSuGs3eb4EQNA88qvPYy0YUF_D4tk01-Ui14K_9SKSV0MMQ2hHCZ0ZReiaHlyiV8gSO28UKLoyi0XTCePaflW0_BIZzoOPE36w_qOhxMAWYTg8BHt-B4qy85T1hTXRscM9ramAoKuzG6x2g",
+      "AcnlKN3WyAGzaaAjnKVmMFlDtvcz0MjHeAjfnUK7W_gEOaNhdF0nsY-WjDgV7tky3I3cuozqnaZ6nB8msU3KK0ubBJo3YwsayS9p1G9M-oRnuOBD26_RvpYTdDyucDhHge9XMBL-SmJkzNvC62cn2CFA60AvpUwW1EXSqD62MOYDBHV9Zayaf6RhBGSXyD35LqhSr-QkdwvmPL1Fj3C6Jl_ukZkeKPjKAKDDuP6-VwY_iRwFsxeg0GbQ3Hvxi1awWdltuFnGT0698r5mO5wcWVexW7IodlTHRtn9CRfQD8wPHheqIQ",
+      "AcnlKN2K4u8gdV9iar___hiHiU3vd-v2I1pfIfFm_ayax5DFQfr3ojg6poEstcrC3riT7b1ou4AnqPRcMKWVvra_Z_kbs0cHvZmSFxTczUMyZHd48R7pOvTMZIONY1D2Jh6j8rot9dWyu3xBVDQdJeSZYqTxTfFxCLMmg8dgQcJ3OLhWIZIzCV2qhnGgWT45vzURnYuB3HVgaa7QgmDUOcm2YlnZNFJQYLAUhRwM1MWzHJBObB6A1av69GPFt3UJrbsmVZYdu-qdRwqGpGm_7o1kqiT-SlAnw8t4BTtr625V1LLZaGTLKQV-d6_UwAiHaj69lDYmuiJYqAxrdXXINf502p5i2qyCLrecNiLItr46YtAIfrCDKmmR5lZ4Pi2p9isDNAxj5rtzbWjUqiwgDnJI5sn7HWXVhN4KtJ0PRmGr38o-ezD-X16e89nMOrlS1tVz",
+      "AcnlKN3FKk_daMhQuGq08pQu4CM3h2uf1wdkZlCwstUW8bSA-cag5Yg0Prq986Hl6_ZTUqNgKdSkk9zbgLaII9SWg7GHAzg2ikH4ND1ssKdMg9oiqRAJq9t0axVlOfDp87tGQSIL-HQ451OUTKdczeJpFjDl5zNvmzQ4fOZ8HpbJYl0r-dELYl79rEKEWcaVJ0o1DGn6ocvIxhjkG8vCjOQlF5wAc0sD0vR-iGOn9u4LXzq1BOw360M7neJ6XMwlsDLlGR5C5uw6akg677YoDWb6R7gTK0oBVj4BDomjA28h57ZIYZZbVYGCS4FB6WJEymPjRsye0Bf90Uia1kqA_c0KszQlGk5Lci0As-bzNRNrkhBlYaxG_FsJGqYj8--JodnCnJCNHb80jiEsb69t70qOLqilk2Gg7SP0p0EyUoY7mX4bJksih4a720_-O7u08Q",
+      "AcnlKN2C8shlB2ek1zA-P8Qc3BFGu6U0mnpQKuxmaVJWTKBk0RWRB9VnfoKl-h92VI-zbU98A5LWTAhJiw1Yvle2ib3V4z-irqN4xkPFRV94v_TMlrwyeT5xqszjIPUiobncWKOk5G_ROMwsdZjbe_gzpfNDQVYM3ADqp4sy5fcrvnv0xXSwmXbOhtny_w5x8S4qbWsQORcdQ-sxXiBfHeRhjlDtQpKJUfSqpOZxmhCX7HjXvTUeXgkNV-Kbl8AOB6IS_OEgwKidnUQ8O2qAjD1zpB4oKbUv-l2doIIynShdBMKtE4CT8f6AtswfeCo_ns4Gzd9fKj30G9jX40ZhHoh46TxJ1AB6SyTYSdb98MVV278lhtI1E30GUm9j9H91OSynfndCVUAMxJBZ7ra_vLAhG4fPfZQfIiUYWFWbLza-VQNDVBFn",
+      "AcnlKN1Oqhh7OFhs2fEZomPFX9X9EWYmEB1XLFeuSTQXth-t6EJ3IHMZ2RMahwj0p16PFt5LubLD7M8zSMMlMDVzgie6_ZbXiPP-cDLVx07ak5bgb4DnaX1t17flLNexi3PtPGuw40ymm6IHm52AhV3CGFYuc2oAcSUwfYfO0TeFHKQZ3BCK7Hmv-dDIZdVQNI9azKe00UUnuBwNc3pQn3OVJyIEgzsyxW8tin4239W75ZSmpBNKQ1gz2tY-JOnOpmuqbjz3yfPM7lu90lr7UQWJorKN5GSyWQQbxo_tg1ceBc6mWg",
+      "AcnlKN2G_fXqYsBAOzyhfcBkQV_ppQKLmMXeg-zsXbdNkhA4LhVtJXufX7tgap_CtbOhTfRHW1QWKUhathd1ZaLKnwgHRM8AlV3KOY-NY32zMxcEFIc5Q9dLdB3eKyguWRykCevdyuz11ytI7muuAN8RMkL-CSAycp5eYbTJUgmixhyiDtYsfEwrvGWTQ8NXEXuTnZC7LJ6pYEuL15eWAv5IhkpbaDO2iwAoD83z3Sd21BdtNzhha1chJf4gLISIlmVz3NGH3h8duzFClKBi1VwJS_QiY-fg-kBqehSaO4yISG9IOA",
+      "AcnlKN1p8IbJAm9SJKtmsoymgz4deSQk7IBTVDjWwu0urc2gtcXXZMxAQrWP8B26GXiuV-s9ZXIc4HPbCCkgSlDC6S57rjEczA7jyPx6lQvWSHU6JwBQ__qNMi8Wsx0FreU_cKzDGCivfisQ2JvhThciKDs1YNxTF8ydawSa27PMGgDFyGkXGv2CmyrzNB7ErRmMmRkPM36eGFf4zjv8Klp4wPG_99mQyp8D81wDdFrJ0-34p16OGZthGWenja7NaNRJxFPIksY5-WqYvUeO4ZrH4F_0cMrJjrVxU0mIoWHjcYRjkum0b848JLFLY9nysOyqX8MwsBSU1jkH4vTqu3Bz--jDnwm4BVw0iTYN_8NuzGMjL3IxFI7P7YyOvzZYYeALtx-SQgx5e-1UKKUrRIZgSu3VGlNM8eBnexwZBK0_ISEHw3EoS5EwD3Qx3NxWlQ",
+      "AcnlKN08kCbNIQcrAguESHCxDbuB_HEPop23K_tjybpBYS96r23Wn-gU3rHq8wfXNJ9WqYc3t7b8ayTM1DwNDzAkqeEbUcLmJ0y5ytBxW-KCluwuA9aHqG9a7xAxSOpg4UmasuCIeu_seobJ0a-QQ4dRitFcaI_HRhVtMkbynmgA_XnmQPP-9z1Z9xzrBUoSucONRJVX6Cm4vGdknoX1VDoafhrvhMeXOm3ZNQZWkzKbqn82Ah4VXgThCirhdtX2lVZCpuu8sTvcHrtJgmwYngyjh2HEn0GbQ6Lk8C4AkdaG5JLZGZHoqeqK1o8WKKoQgHjEWRvO-1Ow5nkczU5t-4O5UgcbaG9rppTiLz96MC4c27U_-EvNmzwNaPyUA-pJMdQ4wwSaW9-FjZP0NpzmCe-eibKKoJAraZvjeN04DO6RgZgo_be954-0lJuyDINTpg",
+      "AcnlKN3CsuAOC4umcFjxI51-ntLl8brW3dceeidqlsiTDiWq1ARfE6Jx3PpnoHkWJpQUJoqAmgi0cQ1P12oqwx1ibbcdGcLGC77ZqVL-tEptpqP6b4krpy3IVvhaiG8Ja2Jpt3_YbrnuEXZ7CgSZvstyp10uKETY1sU75iI3j3busKZWjwR2gBEliz1nffiHI3vsLyypv_WbzWbiWVXgdB66bFQKuEkDz658UYNPWyDAECQM4SIw9MSjA0NfT_y4rV_lx6VzJAfvpXsinA3hSRxEvzqhL4hga7AdU-maCROVA-7_yKwnP2aBuyKXTlqx1o4JH2PSJqPYc0tImXZOWHWJkLCa09MaXfb1e9dpftzLk8pGgej8y5QDM3Ze0zZHlA_ShAtv6QkxzFGna4C9Gg22pMtAnIS9VaGYifFWEM69swPa1zFV"
+    ]
+  },
+  "social_preview": {
+    "like_count": 506,
+    "top_vibe_tags": [
+      "Fun"
+    ],
+    "moment_count": 44
+  },
+  "ui_theme": {
+    "main_color": "#FF9500",
+    "map_icon": "restaurant"
+  },
+  "opening_hours": {
+    "standard": "20€ environ",
+    "display": "Tlj: 12:00 – 2:15 PM, 7:00 – 10:30 PM",
+    "detailed": "lundi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nmardi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nmercredi: 12:00– 2:15 PM, 7:00 – 10:30 PM\njeudi: 12:00– 2:15 PM, 7:00 – 10:30 PM\nvendredi: 12:00– 2:15 PM, 7:00 – 11:00 PM\nsamedi: 12:00– 3:00 PM, 7:00 – 11:00 PM\ndimanche: 12:00– 3:00 PM, 7:00 – 10:30 PM",
+    "is_open_now": true
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Pigalliens affamés, couples en sortie ciné, bandes de potes.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 45,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "restaurant",
+    "budget_avg": 22.5,
+    "value_score": 92,
+    "category_percentile": 8,
+    "is_free": false,
+    "unit": "Plat + boisson",
+    "extraction_reasoning": "Menu: avgFood(14.0€) + avgDrink(8.5€)",
+    "pint_price": 7,
+    "main_dish_price": 15,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "PIZZAS",
+        "items": [
+          {
+            "name": "La Régina (Champignons de Paris)",
+            "price": "13€"
+          },
+          {
+            "name": "Enfants de la Patrie",
+            "price": "15€"
+          }
+        ]
+      },
+      {
+        "category": "BAR",
+        "items": [
+          {
+            "name": "Pinte de French Lager",
+            "price": "7€"
+          },
+          {
+            "name": "Cocktail du Moment",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "restaurant"
+  ],
+  "google_rating": 4.7,
+  "google_ratings_count": 2182,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

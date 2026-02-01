@@ -1,0 +1,128 @@
+{
+  "id": "poi-214",
+  "name": "Square des Batignolles",
+  "slug": "square-des-batignolles",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 17,
+    "coordinates": {
+      "lat": 48.8872,
+      "lng": 2.3164
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJobwhH1Nu5kcRmzezNs96kKs"
+  },
+  "category": "parc",
+  "subcategory": "jardin-anglais",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#4CD964",
+    "map_icon": "leaf"
+  },
+  "social_preview": {
+    "like_count": 571,
+    "moment_count": 12,
+    "top_vibe_tags": [
+      "parc"
+    ]
+  },
+  "discovery_radius_meters": 200,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Cascade, rivière, canards, arbres exotiques",
+    "terrasse": "Patio/Cour 🌿",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris.fr/equipements/square-des-batignolles-1761"
+  },
+  "opening_hours": {
+    "standard": "10h-23h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1wiDgMR1frnedsFZ0ADqeGHxJQoXruwMw-G9GJecgr8azL10js97kGax3tqbOGjYNZ5oPJDghhuDzaRm1FrLCYZEfQh9SLbK5wbYi08G8pBgHA7dxUhKpFh8kdltVS2ERgEcSD1v8VJG7aLdEjrjp2NiCHNh5FtXL9HuQKebxGeoUOa57ZTopUpZsCb6qbIn4DC6FhxDk9jU12DtJb-rm0FeOi8OklTkVh-7Q_rqV65kOtqjv33HtTLLLU5I9xH9lviaVcRau7OWmdnY8jkLTwXr7KSjOYvsFz8X9dbDgf-P9mjbyjQmhzXdCEehoEn58EvP23YjRTsbhGcJWoxF-PbvuzgNnwGiVOaVJPrDaSfle6urFVirUkNGAUXxUDR-jhazMlPOsqt6yfnPi4DiGmq6F60FmdqxUU7qCmoInvKhk&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@paris4nature",
+    "google_photos": [
+      "AcnlKN1wiDgMR1frnedsFZ0ADqeGHxJQoXruwMw-G9GJecgr8azL10js97kGax3tqbOGjYNZ5oPJDghhuDzaRm1FrLCYZEfQh9SLbK5wbYi08G8pBgHA7dxUhKpFh8kdltVS2ERgEcSD1v8VJG7aLdEjrjp2NiCHNh5FtXL9HuQKebxGeoUOa57ZTopUpZsCb6qbIn4DC6FhxDk9jU12DtJb-rm0FeOi8OklTkVh-7Q_rqV65kOtqjv33HtTLLLU5I9xH9lviaVcRau7OWmdnY8jkLTwXr7KSjOYvsFz8X9dbDgf-P9mjbyjQmhzXdCEehoEn58EvP23YjRTsbhGcJWoxF-PbvuzgNnwGiVOaVJPrDaSfle6urFVirUkNGAUXxUDR-jhazMlPOsqt6yfnPi4DiGmq6F60FmdqxUU7qCmoInvKhk",
+      "AcnlKN0OFt16ztoIETba_U40B-FiU78AwLVqf3zFBUt-htw8yCvfiHRChV3t0MuhhCciic29bV6yqHugEzNskflfFUmUGYiwOfoQ0iC-vSNYQfRNiHphT5U_GW2BmNT1JenIClH4lQ_FYk-84VYzQAz5dVMvpYClzhrEQ897dpIPFFhRqmXP1fpZsw3ZGpOinSAGplqsRaREYIzjplVGJy8hAfKGuRSNiBiaGS9oyrJ0mQi5cG0bxaoIzYj-gdJeqTXsFCEBWp32VaXN0Zj3EWH2_RvtIXuBp8DV1GNa06hZT-7_5d7j2eDtxUNyd1Q4uZ9hcrHGwglxYKFSEPVTvbZhqcpAMro-vm_FESw0x48BZjHPdle2vFXsbxEXnNraKf5zq1f74-0wuokCKTm-gaWlJvPy4CoC-MMX3Ytb8OhMbH6YT47M",
+      "AcnlKN3XSerSakoLVQgmO3bBWCsPhnXBAOJiuWqgrCcZHKRwb8sG081LOwKGeV-lbx7KQgQwQX-kFX4dzIML_1OpVCnpZAIdtybykobuGEtyOzpZRTua7tvSh0Yw7tKZx9KezAfw_ct95g6y6xweDWeI8UDn3mLoXgekPDLZxnbegooyNCHLVQB5-IhLfg8fhW9oVYJeED7vNa5g-n7rcZEkxDWGSJaBFFFRw2EZ8LYhBOHbe8gbzMAWRkYYrK4CWsQ2Mn5EdgCcVEVVZEwM-MhcyhLFxRkTqDgAY_o5NDBoFWaDKwvI6Zu9TGGKj6WsxJihfhtHMsTHdsFhmviQgzTxcHs2e7kTFteM3jxyVXZNaNHsFaWR3RVo4HbzrSqHro8uEgYQTIZ4wIJHtCIXbu7QbTt5AnMUHkhbjoiKH3a4guo1JA",
+      "AcnlKN3h3p9EwOMoyV_Z-Mx6kkwGyHO2Z2N6_w_05ruow82SWsCmY3eLm6pVklaM47ZdDeuwTIYlMsiHdOxnQJLyu8dw_vDdNqKLXW3m0fRvp8Oyt2cPsmtg-yDmZAQ84JfQrFGKP9vuj-l7QDllZ8ipqtA-uwP6EMrsct1xhWoOHZLVnarYosODKOhJGKgxyYtIHvTkn4LgHLeQw1G1o-iTYiLYSI9-fmDxGttiB-DT7eNzkioukeE8tUyv_imXKtIybc5qTinmkUxNm3zTZmg2Fe_fOKL3okokQkQso8M4ZmOJAE4ogTz0ICLowntOOJpe6n6ELG40H_Q_m5oz16W23dDnDKZONMkM_IDMYyUpARPkponTqfvGfFaN10y9bWC_6MRfurFp67qMLpPAb-v70gJ7cjsUdCBONUp-47zPUZpBLA",
+      "AcnlKN3w_1RZiKG03-jbWrdfCECy6ptRDASl0b2QcQYyjRDAsSebVGwpsXqnl3Xr2tAp4nPdVVTytabRXZMd0ObWji_A4SPUzzczd2ZRTu05UlTVQ72v5glBfVSsc0j5WakYZhjKuyVxgtPa6ObZx2gAd3kuVSm9VHKk36KlJr5I_o_e9XN9D7uUAH0vCxA7dbaHYIGjVejpsVw4h6Z5FRQ1Wp5Ul2BH75e11g85H9RGkWmgroGsNFRE5k8PPNoS2yXgBu0nIKZlrSXnccZI_uIPRxPBI35D0DUjuAiCpiBr1QdzI4iIkFYEkqYnZPT6gwOk4jchdFees-qcS7xCYxOPAfyFWfx1jGSPPQb2rv3qO_qKVICvkkCAkVyAXjihGbfUQovkofEl-YxgA7fkpfQglmPPm8JojtLtGBae0weOMrKwgA"
+    ]
+  },
+  "description": "Créé sous Napoléon III, le Square des Batignolles est un petit bijou de jardin à l'anglaise. Avec sa cascade, sa rivière, ses canards et ses ginkgo bilobas centenaires, il dégage une atmosphère bucolique et romantique en plein cœur du 17ème populaire. C'est le jardin de quartier par excellence, où les enfants courent autour du kiosque et où les amoureux s'isolent sur les bancs de fer forgé au milieu d'une végétation luxuriante et soignée.",
+  "real_talk": {
+    "text": "Le petit jardin secret de Napoléon III. Cascade et sérénité au milieu des immeubles.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Habitants historiques des Batignolles, jeunes couples de bobos et enfants du quartier.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "park",
+    "budget_avg": 0,
+    "value_score": 100,
+    "category_percentile": 5,
+    "is_free": true,
+    "unit": "Accès / Libre",
+    "extraction_reasoning": "Free Venue",
+    "last_updated": "2024-01-20",
+    "confidence_score": 90,
+    "menu_items": [
+      {
+        "category": "LA BUVETTE",
+        "items": [
+          {
+            "name": "Planche Mixte",
+            "price": 20
+          },
+          {
+            "name": "Vin / Bière au verre",
+            "price": 7
+          },
+          {
+            "name": "Softs",
+            "price": 4
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "parc"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 3792,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

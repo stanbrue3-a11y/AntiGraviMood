@@ -8,12 +8,15 @@ import * as Haptics from 'expo-haptics';
 import { BlurView } from 'expo-blur';
 
 // Stores & Logic
-import { usePlacesStore, selectFilteredPlaces } from '../../src/stores/usePlacesStore';
+import { usePlacesStore } from '../../src/stores/placesStore';
+import { useSearchStore, selectFilteredResults } from '../../src/stores/searchStore';
+import { useUIStore } from '../../src/stores/uiStore';
+import { MoodEngine } from '../../src/lib/MoodEngine';
 import { useShallow } from 'zustand/react/shallow';
 import { useTheme } from '../../src/design';
 
 // Components
-import { PlaceDetailSheetMap } from '../../src/components/place/PlaceDetailSheetMap';
+import { PlaceDetailSheet } from '../../src/components/place/PlaceDetailSheet';
 import { FilterSheet } from '../../src/components/feed/FilterSheet';
 // import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters'; // REPLACED
 // import { MapImages } from '../../src/components/map/MapImages'; // Removed
@@ -35,31 +38,50 @@ export default function MapScreen() {
     const mapRef = useRef<Mapbox.MapView>(null);
     const cameraRef = useRef<Mapbox.Camera>(null);
     const filterSheetRef = useRef<import('@gorhom/bottom-sheet').default>(null); // New Ref
-    // const shapeSourceRef = useRef<Mapbox.ShapeSource>(null); // Handled inside NativeMapPro
+    // --- SV-REFACTOR: DOMAIN STORES ---
 
-    // Global State
-    const rawPlaces = usePlacesStore(state => state.places || []);
-    const selectedPrice = usePlacesStore(state => state.selectedPrice);
-    const setSelectedPrice = usePlacesStore(state => state.setSelectedPrice);
-    const searchQuery = usePlacesStore(state => state.searchQuery);
-    const setSearchQuery = usePlacesStore(state => state.setSearchQuery);
-    const selectedCategories = usePlacesStore(state => state.selectedCategories || []);
-    const toggleCategory = usePlacesStore(state => state.toggleCategory);
-    const timeRange = usePlacesStore(state => state.timeRange);
-    const setTimeRange = usePlacesStore(state => state.setTimeRange);
-    const selectPlace = usePlacesStore(state => state.selectPlace);
+    // 1. Data Store (Places)
+    const rawPlaces = usePlacesStore(state => state.places);
     const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
 
-    // Filter - Mood (Synced)
-    const selectedMoods = usePlacesStore(state => state.selectedMoods);
-    const toggleMood = usePlacesStore(state => state.toggleMood);
-    const selectedDistricts = usePlacesStore(state => state.selectedDistricts);
+    // 2. Search Store (Filtered Data)
+    // 2. Search Store (Filter state for native/GPU filtering)
+    const {
+        searchQuery,
+        selectedCategories,
+        selectedMoods,
+        selectedDistricts,
+        pintLimit,
+        coffeeLimit,
+        dishLimit
+    } = useSearchStore(useShallow(state => ({
+        searchQuery: state.searchQuery,
+        selectedCategories: state.selectedCategories,
+        selectedMoods: state.selectedMoods,
+        selectedDistricts: state.selectedDistricts,
+        pintLimit: state.pintLimit,
+        coffeeLimit: state.coffeeLimit,
+        dishLimit: state.dishLimit
+    })));
 
-    // Pince Filter
-    const isPinceEnabled = usePlacesStore(state => state.isPinceEnabled);
-    const pinceMaxPercent = usePlacesStore(state => state.pinceMaxPercent);
+    // 2b. We do ALL filtering in JS for reliability and consistency with components.
+    // The GPU only handles the final delivery.
+    const places = useMemo(() => {
+        return selectFilteredResults(rawPlaces);
+    }, [rawPlaces, searchQuery, selectedCategories, selectedMoods, selectedDistricts, pintLimit, coffeeLimit, dishLimit]);
 
-    // Derived Moods for Map (NativeMapPro expects full list if "all", Store uses [] for "all")
+    // 3. UI Store (Interactions)
+    const {
+        selectPlace,
+        setMapCameraRequest,
+        mapCameraRequest
+    } = useUIStore(useShallow(state => ({
+        selectPlace: state.selectPlace,
+        setMapCameraRequest: state.setMapCameraRequest,
+        mapCameraRequest: state.mapCameraRequest
+    })));
+
+    // Derived Moods for Map
     const effectiveMoods = useMemo(() => {
         return selectedMoods.length > 0 ? selectedMoods : ['chill', 'festif', 'culturel'];
     }, [selectedMoods]);
@@ -71,6 +93,7 @@ export default function MapScreen() {
     // const [selectedMoods, setSelectedMoods] = useState<string[]>(['chill', 'festif', 'culturel']); // REMOVED local state
     const [userLocation, setUserLocation] = useState<any>(null);
     const [mapMode, setMapMode] = useState<'global' | 'likes'>('global');
+    const [styleLoaded, setStyleLoaded] = useState(false);
     const [internalHighlightId, setInternalHighlightId] = useState<string | null>(null);
 
     // Deep Link / Navigation Param Logic
@@ -78,46 +101,28 @@ export default function MapScreen() {
     const navigatedPlaceId = params.placeId as string;
     const lastNavigatedId = useRef<string | null>(null);
 
+    // --- SV-REFACTOR: UNIFIED NAVIGATION BRIDGE 🌉 ---
+    // Listen for incoming deep-link params and convert them to UIStore intents
     React.useEffect(() => {
-        if (navigatedPlaceId && rawPlaces.length > 0 && lastNavigatedId.current !== navigatedPlaceId) {
-            lastNavigatedId.current = navigatedPlaceId;
-            const place = rawPlaces.find(p => p.id === navigatedPlaceId);
-
+        if (navigatedPlaceId && rawPlaces.length > 0) {
+            const place = rawPlaces.find((p: any) => p.id === navigatedPlaceId);
             if (place) {
-                // Give the UI a moment to switch tabs and layout
-                setTimeout(() => {
-                    requestAnimationFrame(() => {
-                        // cinematic zoom focus
-                        cameraRef.current?.setCamera({
-                            centerCoordinate: [place.location.coordinates.lng, place.location.coordinates.lat],
-                            zoomLevel: 15.5,
-                            animationDuration: 1400,
-                            animationMode: 'flyTo'
-                        });
-                    });
+                // 1. Update Store (This opens the DetailSheet)
+                selectPlace(place.id, 'map');
 
-                    // Trigger highlight POP when the camera is nearly arrived
-                    setTimeout(() => {
-                        setInternalHighlightId(navigatedPlaceId);
-                        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                // 2. Request Camera Move (This triggers the flyTo effect below)
+                setMapCameraRequest(
+                    [place.location.coordinates.lng, place.location.coordinates.lat],
+                    15.5
+                );
 
-                        // Clear highlight after pop
-                        setTimeout(() => {
-                            setInternalHighlightId(null);
-                        }, 1000);
-                    }, 1200);
-
-                    // Delay param clearing to prevent re-render during animation
-                    setTimeout(() => {
-                        router.setParams({ placeId: undefined });
-                    }, 2000);
-                }, 400);
+                // 3. Clean URL immediately
+                router.setParams({ placeId: undefined });
             }
         }
-    }, [navigatedPlaceId, rawPlaces.length]);
+    }, [navigatedPlaceId, places.length]);
 
-    // MAP CAMERA REQUEST LISTENER (Live Search Selection) 🔎
-    const mapCameraRequest = usePlacesStore(state => state.mapCameraRequest);
+    // MAP CAMERA REQUEST LISTENER (Unified Fly-To & Highlight) 🎥
     const lastRequestTimestamp = useRef<number>(0);
 
     React.useEffect(() => {
@@ -126,17 +131,26 @@ export default function MapScreen() {
 
             console.log('[Map] Reacting to Camera Request:', mapCameraRequest);
 
-            // Trigger Fly-To
+            // 1. Cinematic Fly-To
             cameraRef.current?.setCamera({
                 centerCoordinate: mapCameraRequest.center,
                 zoomLevel: mapCameraRequest.zoom || 15.5,
                 animationDuration: 1200,
                 animationMode: 'flyTo',
-                padding: { paddingBottom: 100, paddingLeft: 0, paddingRight: 0, paddingTop: 0 }
+                padding: { paddingBottom: 150, paddingLeft: 0, paddingRight: 0, paddingTop: 0 }
             });
 
-            // Brief Haptic to confirm arrival "intent"
-            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+            // 2. Highlight POP (Visual confirmation of arrival)
+            // We find the place ID by coordinates (or we could pass ID in the request if we wanted to be even more precise)
+            // For now, if there's a selectedPlaceId, we treat it as the target.
+            const targetId = useUIStore.getState().selectedPlaceId;
+            if (targetId) {
+                setTimeout(() => {
+                    setInternalHighlightId(targetId);
+                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                    setTimeout(() => setInternalHighlightId(null), 1000);
+                }, 1000); // Trigger near arrival
+            }
         }
     }, [mapCameraRequest]);
 
@@ -144,13 +158,14 @@ export default function MapScreen() {
     const CATEGORIES = ['bar', 'cafe', 'restaurant', 'club', 'espace-culturel', 'parc', 'museum', 'workshop', 'exhibition', 'other'];
 
     // Data Calculation (UNIFIED VIA STORE & SHALLOW WRAPPER) 🛡️
-    const filteredPlaces = usePlacesStore(useShallow(selectFilteredPlaces));
+    // Data Calculation (UNIFIED VIA STORE & SHALLOW WRAPPER) 🛡️
+    // filteredPlaces removed, using 'places' directly from selector above.
 
 
     // --- HANDLERS ---
     const handlePlacePress = useCallback(async (placeId: string, coordinates: [number, number]) => {
         Haptics.selectionAsync();
-        selectPlace(placeId);
+        selectPlace(placeId, 'map');
 
         // Get current zoom to avoid zooming OUT if we are already close
         const currentZoom = await mapRef.current?.getZoom();
@@ -175,7 +190,7 @@ export default function MapScreen() {
             <Mapbox.MapView
                 ref={mapRef}
                 style={styles.map}
-                styleURL={Mapbox.StyleURL.Dark}
+                styleURL="mapbox://styles/stanthemans/cmkn3jdva007y01qzaryxax7k"
                 scrollEnabled={true}
                 pitchEnabled={true}
                 rotateEnabled={true}
@@ -184,8 +199,9 @@ export default function MapScreen() {
                 logoEnabled={false}
                 // @ts-ignore
                 decelerationRate={0.2}
-                onPress={() => {
-                    // Optional: Deselect place on map tap
+                onDidFinishLoadingStyle={() => {
+                    console.log('🗺️ [Map] Style fully loaded.');
+                    setStyleLoaded(true);
                 }}
             >
                 <Mapbox.Camera
@@ -202,28 +218,18 @@ export default function MapScreen() {
                     onUpdate={(loc) => setUserLocation(loc)}
                 />
 
-                <Mapbox.FillLayer id="custom-water" sourceID="composite" sourceLayerID="water" style={{ fillColor: '#263c52', fillOpacity: 0.8 }} belowLayerID="waterway-label" />
-                <Mapbox.FillLayer id="custom-parks" sourceID="composite" sourceLayerID="landuse" filter={['==', 'class', 'park']} style={{ fillColor: '#343f38', fillOpacity: 0.8 }} belowLayerID="waterway-label" />
-
-                {/* ✨ NATIVE MAP PRO INTEGRATION ✨ */}
                 <NativeMapPro
-                    places={filteredPlaces}
-                    selectedMoods={effectiveMoods}
-                    selectedCategories={selectedCategories}
+                    places={places}
                     onPlacePress={handlePlacePress}
                     cameraRef={cameraRef}
                     highlightedPlaceId={internalHighlightId}
+                    styleLoaded={styleLoaded}
                 />
-
             </Mapbox.MapView>
 
-            {/* SkiaOverlay Disabled/Removed */}
-
-            {/* Top Controls: DiscoverHeader */}
             <View style={{ position: 'absolute', top: 0, left: 0, right: 0, zIndex: 100 }}>
                 <DiscoverHeader
                     setFilterVisible={() => {
-                        console.log('🔥 FILTER BUTTON PRESSED - Opening Sheet');
                         Haptics.selectionAsync();
                         setFilterSheetVisible(true);
                     }}
@@ -233,55 +239,29 @@ export default function MapScreen() {
                 />
             </View>
 
-            {/* Map Mode Toggle (Vertical Glassmorphic) */}
             <View style={{ position: 'absolute', top: insets.top + 60, left: 16, zIndex: 90 }}>
-                <BlurView intensity={90} tint="light" style={{
-                    width: 48,
-                    borderRadius: 24,
-                    alignItems: 'center',
-                    paddingVertical: 6,
-                    gap: 8,
-                    overflow: 'hidden',
-                    backgroundColor: 'rgba(255,255,255,0.4)'
-                }}>
+                <BlurView intensity={90} tint="light" style={styles.modeToggle}>
                     <TouchableOpacity
                         onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); setMapMode('global'); }}
-                        style={{
-                            width: 38, height: 38, borderRadius: 19,
-                            alignItems: 'center', justifyContent: 'center',
-                            backgroundColor: mapMode === 'global' ? '#1c1c1e' : 'transparent',
-                        }}
+                        style={[styles.modeBtn, mapMode === 'global' && styles.activeModeBtn]}
                     >
                         <Ionicons name={mapMode === 'global' ? "earth" : "earth-outline"} size={20} color={mapMode === 'global' ? "#fff" : "#000"} />
                     </TouchableOpacity>
 
                     <TouchableOpacity
                         onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light); setMapMode('likes'); }}
-                        style={{
-                            width: 38, height: 38, borderRadius: 19,
-                            alignItems: 'center', justifyContent: 'center',
-                            backgroundColor: mapMode === 'likes' ? '#1c1c1e' : 'transparent',
-                        }}
+                        style={[styles.modeBtn, mapMode === 'likes' && styles.activeModeBtn]}
                     >
                         <Ionicons name={mapMode === 'likes' ? "heart" : "heart-outline"} size={20} color={mapMode === 'likes' ? "#fff" : "#000"} />
                     </TouchableOpacity>
                 </BlurView>
             </View>
 
-
-
             <FloatingMapSliders />
 
             {/* Geolocation FAB */}
             <TouchableOpacity
-                style={{
-                    position: 'absolute', bottom: 120, left: 16,
-                    width: 48, height: 48, borderRadius: 24,
-                    backgroundColor: '#4e55f0',
-                    alignItems: 'center', justifyContent: 'center',
-                    shadowColor: "#000", shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5,
-                    zIndex: 90 // Below Sheet (9999) but above map
-                }}
+                style={styles.geoFab}
                 onPress={() => {
                     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                     if (userLocation) {
@@ -291,42 +271,28 @@ export default function MapScreen() {
                             animationDuration: 1000,
                             animationMode: 'flyTo'
                         });
-                    } else {
-                        // Fallback or request permission prompt technically handled by Mapbox defaults
                     }
                 }}
             >
                 <Ionicons name="locate" size={24} color="white" />
             </TouchableOpacity>
 
-            {/* Create Post FAB */}
-            <TouchableOpacity
-                style={{
-                    position: 'absolute', bottom: 120, right: 16,
-                    width: 48, height: 48, borderRadius: 24,
-                    backgroundColor: '#4e55f0',
-                    alignItems: 'center', justifyContent: 'center',
-                    shadowColor: "#000", shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5,
-                    zIndex: 90
-                }}
-                onPress={() => {
-                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-                    router.push('/post/create');
-                }}
-            >
+            <TouchableOpacity style={styles.addFab} onPress={() => {
+                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                router.push('/post/create');
+            }}>
                 <Ionicons name="add" size={30} color="white" />
             </TouchableOpacity>
 
-            {/* --- OVERLAYS --- */}
-            <View style={[StyleSheet.absoluteFill, { zIndex: 1000 }]} pointerEvents="box-none">
-                <PlaceDetailSheetMap />
+            {/* --- OVERLAYS: CRITICAL LAYERING --- */}
+            <View style={styles.bottomSheetLayer} pointerEvents="box-none">
+                <PlaceDetailSheet />
             </View>
 
-            {/* Filter Sheet - Isolated Layer */}
             {isFilterSheetVisible && (
-                <View style={[StyleSheet.absoluteFill, { zIndex: 1001 }]} pointerEvents="box-none">
+                <View style={styles.filterSheetLayer} pointerEvents="box-none">
                     <FilterSheet
-                        visible={true} // Always true when mounted
+                        visible={true}
                         onClose={() => setFilterSheetVisible(false)}
                     />
                 </View>
@@ -338,4 +304,44 @@ export default function MapScreen() {
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#000' },
     map: { flex: 1 },
+    modeToggle: {
+        width: 48,
+        borderRadius: 24,
+        alignItems: 'center',
+        paddingVertical: 6,
+        gap: 8,
+        overflow: 'hidden',
+        backgroundColor: 'rgba(255,255,255,0.4)'
+    },
+    modeBtn: {
+        width: 38, height: 38, borderRadius: 19,
+        alignItems: 'center', justifyContent: 'center',
+    },
+    activeModeBtn: {
+        backgroundColor: '#1c1c1e',
+    },
+    geoFab: {
+        position: 'absolute', bottom: 120, left: 16,
+        width: 48, height: 48, borderRadius: 24,
+        backgroundColor: '#4e55f0',
+        alignItems: 'center', justifyContent: 'center',
+        shadowColor: "#000", shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5,
+        zIndex: 90
+    },
+    addFab: {
+        position: 'absolute', bottom: 120, right: 16,
+        width: 48, height: 48, borderRadius: 24,
+        backgroundColor: '#4e55f0',
+        alignItems: 'center', justifyContent: 'center',
+        shadowColor: "#000", shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5,
+        zIndex: 90
+    },
+    bottomSheetLayer: {
+        ...StyleSheet.absoluteFillObject,
+        zIndex: 10000, // Top priority
+    },
+    filterSheetLayer: {
+        ...StyleSheet.absoluteFillObject,
+        zIndex: 10001,
+    }
 });

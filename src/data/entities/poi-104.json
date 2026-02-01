@@ -1,0 +1,168 @@
+{
+  "id": "poi-104",
+  "name": "Le Syndicat",
+  "slug": "le-syndicat",
+  "location": {
+    "address": "51 Rue du Faubourg Saint-Denis",
+    "arrondissement": 10,
+    "coordinates": {
+      "lat": 48.8718637,
+      "lng": 2.3536501
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJ-SUuzhNu5kcRM6mjAa7Rzb4"
+  },
+  "category": "bar",
+  "subcategory": "craft cocktails",
+  "mood_scores": {
+    "chill": {
+      "overall": 3.8,
+      "criteria": {
+        "noise_level": 2,
+        "natural_light": 4,
+        "crowd_density": 2
+      }
+    },
+    "festif": {
+      "overall": 25,
+      "criteria": {
+        "crowd_energy": 4,
+        "late_hours": 8
+      }
+    },
+    "culturel": {
+      "overall": 8,
+      "criteria": {
+        "architectural_originality": 8,
+        "artistic_presence": 4
+      }
+    }
+  },
+  "vibes": [
+    "Craft"
+  ],
+  "practical_info": {
+    "opening_hours": {
+      "standard": "25€ environ",
+      "display": "Tlj: 6:30 PM – 2:00 AM",
+      "detailed": "lundi: 6:30 PM– 2:00 AM\nmardi: 6:30 PM–���2:00 AM\nmercredi: 6:30 PM– 2:00 AM\njeudi: 6:30 PM– 2:00 AM\nvendredi: 6:30 PM– 2:00 AM\nsamedi: 6:30 PM– 2:00 AM\ndimanche: 6:30 PM– 2:00 AM",
+      "is_open_now": false
+    },
+    "price_range": 3,
+    "reservation_required": false,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Cocktails 100% spiritueux français (cognac, calvados, pastis...)",
+    "ambiance_vibe": "Décor industriel et vintage, affiches rétro",
+    "booking_policy": "Pas de réservation, premier arrivé premier servi",
+    "smart_tip": "Leur terrasse est calme même pendant l happy hour.",
+    "bouton_label": "Site du lieu",
+    "website": "https://domainesyndicat.com/"
+  },
+  "real_talk": {
+    "text": "100% spiritueux français et 100% Hip-Hop. Caché derrière une façade d'affiches, c'est l'épicentre du cocktail à Paris.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "description": "Caché derrière une façade d'immeuble décatie recouverte d'affiches sauvages, Le Syndicat est en réalité l'une des tables les plus influentes de la mixology mondiale. Sa mission est d'une clarté totale : défendre et glorifier les spiritueux français. Ici, pas de whisky écossais ni d'alcools internationaux ; tout, du Cognac à l'absinthe, est sourcé dans l'Hexagone. Le décor 'schlague-chic', avec ses tentures dorées et son éclairage tamisé, vibre au son d'une playlist hip-hop pointue. C'est électrique, audacieux, et parfaitement révélateur de l'esprit du Faubourg Saint-Denis.",
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2OJ1NNxktATymgRtyf00bIEYcXLb_XxmM6piMb2uomG7fk5CuLNO3-NiemaMjMcxcXe2ecZ7B6aVxIAsbLcU__ncS6zgGgI9lrq6HT04DaTCl3kctlBFc52fKt4hFZQccXR6pQmBC8MyT-4ruoyUxViU86ltNZCDUy7xDBCNFpDssYpifRJ36rK93EqrQOOnjqLwyWtk_XqBH9f6PNniFy8fgUh8ojj_xN54aiDH-kMDYCJ6A4YoD3iBYtipS6dK0l-DEsFmCy25BMDKnuTZuqDCI2cw14fZYhf9LlvyI&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lesyndicat",
+    "google_photos": [
+      "AcnlKN2OJ1NNxktATymgRtyf00bIEYcXLb_XxmM6piMb2uomG7fk5CuLNO3-NiemaMjMcxcXe2ecZ7B6aVxIAsbLcU__ncS6zgGgI9lrq6HT04DaTCl3kctlBFc52fKt4hFZQccXR6pQmBC8MyT-4ruoyUxViU86ltNZCDUy7xDBCNFpDssYpifRJ36rK93EqrQOOnjqLwyWtk_XqBH9f6PNniFy8fgUh8ojj_xN54aiDH-kMDYCJ6A4YoD3iBYtipS6dK0l-DEsFmCy25BMDKnuTZuqDCI2cw14fZYhf9LlvyI",
+      "AcnlKN1OsEZHsleSOJdDyeJ9KHkggB2TQDOtcu3q5PemNVYcqPkIrerLSpQLv_qCC2iiIojxGB9RJmYu5Z_E2-jamqOjCCSdY4XhMEvfU8iLtvNJimgp74K02imzVGG9gLY3uRUyeo8oFApq2bhuQo-EHDIrCp8LS0rScIbYrMNU1x5RCATPXuEnL5QvnEWIXko_znWISgLBAE5xWPjsZJhRcMWUlA8k1owAZHKbYg8-_q6zh7sUQCwhQx3xv6NpB4D0BTrmQ0NgAFggfdb8NsX4JKgd-Rts64A7RtUR_SeLXrA",
+      "AcnlKN2x_I1OZy2O5_16PA0Y8RsbezZLcu9wiPt6T1qH98J9ODfj77Jx_jdHKRZGxcQcHm3W7c4893_i2Ss1NuBjLAzt8psTWvbq8w23Sc52NFJulm-QDDtkf3FMPQQZcu_ClOUDilxLdmTqHeyFLOq0M_6wzG8cJB9lJbRChvKAkfm2lMKZC17LAavdqI1G0KGW9hlZDEe94G3UeZGntdINNFnInXVoLHwMz_puQoQr9lIroNHB6Ub7VNBSGyOvCZlDFZ9mTkARMjpgCRI0u6tzdxvnDRoGPTiihgPDVEBrD1I",
+      "AcnlKN1j150RlTjERxuo_rcm1huOxvNXZ0f7Ku5KSFCGCrRQgEjLRY2WEKA77BImuF25-BiCxQo-NfKxX3t-6qjiPxQJYfYk90FtgDymeg79HnJmGkOiLpz0HyX9qT6M3-PIU2bPSywn2xbZJ9uiwAKymxsoJaMkwG_CItjd4MXCj-xnSGctjrHcoRqhmE89BjTS-9864fq2BTp0_ntRcXHl71qxFPJHGdavWPUfYC4Sj75u52Hc5CTpWNbJQeYwhrHU91WWpe2pe7G6BLE9v4ZHggrkLaPWhAGErJt_0MH-ngz8QFc4Hb85tfePgrAn5_RnbF53fYHvldsoqpDt5HTcTbz3xwOPw-TNUtz0Id2KZa1ET1-9zGMccMcRa1hwZo_gbfuKf2qHXTt7ATEolxu9Q7ZKFJ_tVOKMKNJurlUkpyANyrZnekMuUW4BDhiQN9_L",
+      "AcnlKN24mjy46UR1kzn4MirDvZC_2uAW0PSTpQfI6iN3QQUa-DppF9bgiCS3PGV9n3Bh_za1Xa3RMp_OEnleqiHSJYKytR10bmC3OPO_-VS6LFWooKswmG9_-MMx5srRruLDJeHSQ7FVyhIrTXeqsLRxk0Z5cV78MmFmwmxDkAzZ8uNg7j3O-HaLhkw8Y3ifjoaWiUyaulpPGIGgg2u2gX_G_-0RtvUmRTb9ALqgxX-l-8-mmpdJZ95eCQ1dNPUFNyFE5JCg9keIMHpTnvdBaObIiGrZOVbLhmvSfr57sBJQ7rK6Y7fl8b9Glt0ZKj1kflu3fKT1QM31PAIVyIBbMkvD4nKdU3IkcZsjId0KQAttrmf01KwSSAw4ShIokHlDc6snIFQfNMw2btHkSNkJPvrCGAPBCExPnquz4UbNcrdPRApVY6wSvuh2s-T5RXbpW3jo",
+      "AcnlKN1gfJl_RF6WIzDFM-I5iT_TvkaTdy8_0ar0fca3hDfSZR_dWkGMLq_wRk8s51JjH5BAEzD_pZj30AisWCxNX5D45urnL5clhuQXEAhPhKyX7Mn3I_jKJ7MBgdERtW9bMvj7IKdon5wBqvcEzU2TOAmB5e8M_VuqTecrZv7r2t_t8acutLoKCz1uUH8okGO5agtUADqpjtLxjGX1tqKEOVKQBf-VEGvAUZKX7W_RiY2IVsehoiozte2bg6c_FLcM-DIc3RguqyF7Zp_Pfj4a9LmMRHQNZB_n6hcIdEZ8-uOMa6Jxk0QIMOsYIP3iPF7tifVajPxd3dDkblos9NExinywA8u2r0pMqVrKQygfSjxYpGet7NxJ2ngZKT_-uVJtUW2j8_0CMoW-_DhU2ALPBramuXNwhyFVo8UilNV_fLoxwIE7pPgEVil7g3mQtcJn",
+      "AcnlKN2Z9Qg3H-JpUIgVAHT_Ur3Pyps5FI8jd3T3eL29nVMzz39z92CSUdHWtwv6sSwSQwhBnrEwsLbNxR1Lyvq0VYXn4Toa_2iK7eG60SVWEWDMCsGQIpKs-yA0aKttsJL0VuuWeBrAJfA70cI0hovsEO2Roo8wp95zqH3NZgiln1F5bek04Bcx3MThsOGoWbpX0BjHtTOfMQ715dXbkA30LeMkhCc6PYGR2Oep46qFglRugz8RjPiXtHxuqDcle3CM20T5syHYmp_dC5zJ3oMYE4Wt_RAh7i_YE8eCwaHqwP8IJkvcFF_rFKlfTAOCZ20IC7VUAKuEbuHnG8YC0a_XANVC9mgucBT4jTE3Pd4eBNxvuniDENuCRrlHox76YKr5ie5v_97IomF6NkNC-ip19Ml_iVR2e7AGlcuoUIa1TfksIfxc-c5lc3Jh09mWmumw",
+      "AcnlKN1ejBB7kuKZy2HpyNofZOsQhxe936U4vCRP_pYXtbzb2HgIUNUNITanBm2xYfCYXGTEHJ1mZXvi12TM72hN5Kos9BH3gLz8-n5AbSOhTWsCdOYAWvGQjHVwr-gMTBd42mpFACgm9d_Ibyiu3T5v2vzXRBe9A6BTNxobJXzKzhhlBC9LAkHQLFDQybqaYIdmhWAWgkNsXdYrjrB3hmk58Bc2k1zttB5wPcSQ-iHhGFtIlVLEqrJd9EZLh9hE5n0HyZGEws1Pjdl6L4TfqkYv9RXgSSU1g7B81bLQrcMzpyiI4MUTCJVO4iYuG6rSEx5ygS4zQzSwZdvNUQNLVlpiju4LWUIj7tvTzoY1g0WVzglszerKOiEUH-rvFNZgLkSi3DNjjfbq-ca62coQC8GRkPppKriGEdjttFEUVq0G4OzCftttVAxBTyPoVS-AV3Mg",
+      "AcnlKN0HO1s5itXiiZDRiZYEslDn62LHPzX_lLUfNSNFVe_7jgnlPNEXM4eD-Q8_J3V7Sdv-G4ymsOVbo5aPQChspf1J5GA5JVSw4vKa118kaj8PfxUhBHA_EX7VhqRqj-ri2SFfsbmrNf1HmLSt_08FWrYD1sGl1pvkVgxZYPITtLdFy0gUynBdqOTDH2vvUXqb3232Lugh4Jm8Yxq1T5pDRasv6p0Aex-fTEbQFE455FNXhL6WUBEwSzT55HSvToSja8qLDKtCpejDmJnnHojdQ6WTQnWkrKs35C2WVfccc29x2wZOvfz4X536zUkqnDWDqAfFpvp_RhM8LBfrqzpuKLs1vDxhMG17TU1m-oqArwHhsYV6k8zkH2RGpCCM5lGx4Y1VErF2Z6pWnb0FgZx8oyAOdqIyJZG0mNr10pEFrfg_od1Q",
+      "AcnlKN3bRdpicxfoj8l2TloGOuSKD_5Y8CpzDHnmvpmMdNbKMn7gbY647M6lD7ln1dIB5trLRWG3wInKPRF2tnFcX5elGvk-7zUR5ZZwQT8jIlZExYxCxMoOGgz23HgiUVDQRHX4dUUzZmBqY81IzhCZ94JHGn68acx4Prpqz-67I94iKKhdFNvtp-xg8IMdSdHvyXgMBHxOyPPG81BWDsJVSEdvrNRU6irSo1KfW6kw_y42ZeLzmhhkq0zn4P_269-ZYfX5jWHmleQ48SkJZrO7zh3qAmk6dHslJOUblXKicul2MvLSmVS1gFSk5JA6DmIRnbW3vlSzgpsiNOzn08AWirSLOwNuomc-F6PO7fhDjcEZT8G5P6vXqyoyZ2ot-YquQfFSrvfmMWKZAxS-Kgr6Ie7p7BenoHlzyyulCcDNfrlUVxD39HBYBrpgT9lP9q42"
+    ]
+  },
+  "social_preview": {
+    "like_count": 500,
+    "top_vibe_tags": [
+      "Craft"
+    ],
+    "moment_count": 17
+  },
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "opening_hours": {
+    "standard": "25€ environ",
+    "display": "Tlj: 6:30 PM – 2:00 AM",
+    "detailed": "lundi: 6:30 PM– 2:00 AM\nmardi: 6:30 PM–���2:00 AM\nmercredi: 6:30 PM– 2:00 AM\njeudi: 6:30 PM– 2:00 AM\nvendredi: 6:30 PM– 2:00 AM\nsamedi: 6:30 PM– 2:00 AM\ndimanche: 6:30 PM– 2:00 AM",
+    "is_open_now": false
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Cocktail connoisseurs, patriotes du spiritueux français, touristes avertis.",
+      "tag": "La faune"
+    }
+  },
+  "min_stay_time_minutes": 30,
+  "discovery_radius_meters": 50,
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 33,
+    "value_score": -211,
+    "category_percentile": 311,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 33,
+    "last_updated": "2025-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "source": "verified",
+    "cocktail_price": 15,
+    "menu_items": [
+      {
+        "category": "COCKTAILS",
+        "items": [
+          {
+            "name": "Cocktail à base d'Armagnac",
+            "price": "15€"
+          },
+          {
+            "name": "Création Maison",
+            "price": "14€"
+          }
+        ]
+      },
+      {
+        "category": "SNACKS",
+        "items": [
+          {
+            "name": "Finger food français",
+            "price": "8€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "happy_hour": null,
+  "google_rating": 4.5,
+  "google_ratings_count": 1653,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

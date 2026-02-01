@@ -1,0 +1,145 @@
+{
+  "id": "poi-206",
+  "name": "Brasserie Auteuil",
+  "slug": "brasserie-auteuil",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 16,
+    "coordinates": {
+      "lat": 48.8475,
+      "lng": 2.2592
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJEcNXrLB65kcR6leyh3yLQpk"
+  },
+  "category": "bar",
+  "subcategory": "rooftop-italien",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 708,
+    "moment_count": 15,
+    "top_vibe_tags": [
+      "bar"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Aperol Rose Spritz",
+    "ambiance_vibe": "Rooftop végétalisé, bohème",
+    "smart_tip": "En hiver, le rooftop est couvert et chauffé avec des plaids, c'est ultra-cosy.",
+    "terrasse": "Rooftop 🌇",
+    "bouton_label": "Site du lieu",
+    "bouton_réserver": "https://zenchef.com/3",
+    "website": "https://www.auteuil-brasserie.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2IPRJ_bXcubjgDIqdr01f2iX42O7JbLBVd00Pj4TXGSmVzqtgbwr69mroIvVRsl9PJkROSqzNvlz6bc0xoP21RtXVqdgKUlajwFv7Tw779EzLk-UqZcqMVWjM0bwkFAWaMX-ESyiiZQsnXBDpMqMtpufXlUFEXiCHtqv7XYjhc-mEZo-QlDfvgzdXUQVKq79Ch2y1bWCKuh81-kMH6zayNU8AJTwNjgx5B1GtWuc87HObF9GX2PFliLYAnWKoI8xeBipMzmPmyrKDhjG0Xb0Wx5mFomq_U7dCVOQAfE3giew&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@auteuilbrasserie",
+    "google_photos": [
+      "AcnlKN2IPRJ_bXcubjgDIqdr01f2iX42O7JbLBVd00Pj4TXGSmVzqtgbwr69mroIvVRsl9PJkROSqzNvlz6bc0xoP21RtXVqdgKUlajwFv7Tw779EzLk-UqZcqMVWjM0bwkFAWaMX-ESyiiZQsnXBDpMqMtpufXlUFEXiCHtqv7XYjhc-mEZo-QlDfvgzdXUQVKq79Ch2y1bWCKuh81-kMH6zayNU8AJTwNjgx5B1GtWuc87HObF9GX2PFliLYAnWKoI8xeBipMzmPmyrKDhjG0Xb0Wx5mFomq_U7dCVOQAfE3giew",
+      "AcnlKN2a18kd8mb8AU1sEmB2K0pwgzK9wRfCpyvVDcYOt93GW6AFUwlTRPoPURjBfBhe922idbWLYfqzdI-dcbejhTVf6dIAQMKMyQ6pzx-ubb4RYdaAu4S1M1NJj7JwKTdhw675lJXeHTh81_4zB123r884KLof2H0z4zCUQKzVeQuziLOnkSzHiZk0qZzeVeACizjrBT_IP0aCh7S5EtEb8769IblWqSBgZwsA13I0vxEbuR2QWnZ_orhJHRosGTEGqiXjP3KRPL7AHgkhNWwXgVAC-OjWID4UYAGejj-XTmY0Mw",
+      "AcnlKN1H0ealit1S1fKhe9WJaQCPrf_lao5oLhiBjRBVh7wXMl8cbeHXXT7W2WRWqcfKeTi6Vo74PTr3tO6jka_ZElstgJyUD4bfOiF_ODAdtqUO6_Lfo3_KM7pdjOH5JOwO0X741Kxwd8qwMEK8H_FHDd1-m61nJ9LVAD5whcQyYMbWOtqDoPrc-o5oD1_SZOjZY9dsp3usIwyVlwXeZSpP2J9QQ2rJFisNVdGTKV9YgTBMOnfQ_EWKoReyPMPDnubOT1h7omdoOvuupsv8VuF31bJ1_fpHiur4g6m6Cp7zKVd9Pw",
+      "AcnlKN26HGOBauQWgX4pSmS3-5fiEMTRKALQzsQhDJwCn-ypN3H93NI018qndv3G7vlmUJdj3rW3xEzSyOS2ywXEDQoZpXdAWEMhj_MCj5cI-BxfVbicjyzFQy6HajLZIUxx1jQF9nhXAeEivl2UPzxgjZiEZ9b-k8u0tB2NV5RB9nnssOstL9WVUyHUUeExae33BbE7d59YxdNy0DXEm_nt5HPc0J67m_vG7GynTdryECwVCEJcUsRz05vnbsno0e6zWLrtmhQFxp1jA4WoeHi6aqkNxw_DtYUjp2B56bNwuruP8Q",
+      "AcnlKN1yBLX8wMr6xzXLfXVH5swa2GglvIxamoSqG3cJpkpCoG0V5MX_zhhlQWebvNH-Hq8aB9QLGLjffCh0udVajYh_Pg4qVc7PF0-gJ0gflzimRRA0O_Vp6dWetiB4PVTfIUuYTtuze1grwqbK6-tt_5ADX-jK_aQCzu0BMzMpmnEYu4rHjAPLawsTh2fTjdl7YJN2U50u08HByEjTI-gjBoVqiZXgFnBmQ774HaKtut-WyPbgrqIR0aMt8UnvTsbFzz83Iqblk9bZB1JyfHWC5LtgF1JgF6AFbQeLHtB0upmJkWLmjY75Y9yEtCzuZ8lH4ifTdIoCIA1LKJoMtcx1L0oK2PDi2T9BxO3W_p-UX1Dee7Dp29Wm2Clc4s5X09-IpIOXmh7gQ1E18iL6eoaxjMWWZY2coVbRZnfOFlcimTicGRcum4TeMj0OVCS_ZA"
+    ]
+  },
+  "description": "Ancienne gare de la Petite Ceinture transformée en immense brasserie italienne, Brasserie Auteuil est un véritable oasis urbain. Son rooftop végétalisé, le plus grand de l'ouest parisien, est une merveille de bohème-chic : banquettes en rotin, oliviers et lumières tamisées. On y vient pour chiller sous les étoiles avec un cocktail infusé ou pour partager des pizzas cuites au feu de bois dans une ambiance de vacances italiennes qui dure toute l'année.",
+  "real_talk": {
+    "text": "Le jardin suspendu d'Auteuil. Spritz et pizza sous la verdure.",
+    "must_eat": "L'Incontournable Planche Mixte",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Familles du 16ème, jeunes actifs et fans de rooftops végétalisés.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar",
+    "budget_avg": 15,
+    "value_score": -11,
+    "category_percentile": 111,
+    "is_free": false,
+    "unit": "Conso",
+    "extraction_reasoning": "Manual Verification",
+    "main_dish_price": 16.5,
+    "pint_price": 8,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "ROOFTOP",
+        "items": [
+          {
+            "name": "Cocktail Botanique",
+            "price": "15€"
+          },
+          {
+            "name": "Pizza Regina",
+            "price": "16,50€"
+          }
+        ]
+      },
+      {
+        "category": "BREAK",
+        "items": [
+          {
+            "name": "Planche Antipasti",
+            "price": "22€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar",
+    "restaurant"
+  ],
+  "google_rating": 4.2,
+  "google_ratings_count": 10546,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

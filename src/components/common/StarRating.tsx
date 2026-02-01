@@ -82,14 +82,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     ratingText: {
-        fontSize: 13,
-        fontWeight: '800',
-        marginLeft: 6,
+        fontSize: 12,
+        fontWeight: '900',
+        marginLeft: 5,
     },
     countText: {
-        fontSize: 12,
+        fontSize: 11,
         color: '#9CA3AF',
-        marginLeft: 4,
+        marginLeft: 2,
     },
 });
 

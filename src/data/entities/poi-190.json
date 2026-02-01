@@ -1,0 +1,139 @@
+{
+  "id": "poi-190",
+  "name": "Buddy Buddy",
+  "slug": "buddy-buddy-paris",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8741,
+      "lng": 2.3155
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJaY-wAUBv5kcR03ZeMD4tR44"
+  },
+  "category": "café",
+  "subcategory": "specialty-coffee",
+  "mood_scores": {
+    "chill": {
+      "overall": 23,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "élégant"
+  ],
+  "ui_theme": {
+    "main_color": "#5AC8FA",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 550,
+    "moment_count": 18,
+    "top_vibe_tags": [
+      "café"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 1,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": true,
+    "signature_drink": "Nut Butter Latte",
+    "smart_tip": "Ramenez un pot de leur beurre de noisette 'hazelnut butter', c est un pur délice matinal.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.buddybuddy.co/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1RfW-OxkEn_roRx9Bb43NP0XipXDbWVpq1t-jDkLa4E0tX6olf7eq3iBPsYRBFrW_GEQY-870pTkyxhG8dpDjQu3WlO62McmqvIcWWJIN16J1kfyII1EfNnLaK7JnIkENnX2pbXBbf8Wxe99NyoZFLjjXDKMopO0yeapi8ZtxBFsBTU-hPvKnYZYC-NJgNHqIi9ggjwIau-ZFb4TKu8ZUHp9NrQbMx7BYiz3G1mKXELXV3PMwnk94YGWdpD3YvTykM4JmfuOmKbXJ7L2rd2JlPuYKt1seXZHssKV0L8PZJcQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@buddybuddy",
+    "google_photos": [
+      "AcnlKN1RfW-OxkEn_roRx9Bb43NP0XipXDbWVpq1t-jDkLa4E0tX6olf7eq3iBPsYRBFrW_GEQY-870pTkyxhG8dpDjQu3WlO62McmqvIcWWJIN16J1kfyII1EfNnLaK7JnIkENnX2pbXBbf8Wxe99NyoZFLjjXDKMopO0yeapi8ZtxBFsBTU-hPvKnYZYC-NJgNHqIi9ggjwIau-ZFb4TKu8ZUHp9NrQbMx7BYiz3G1mKXELXV3PMwnk94YGWdpD3YvTykM4JmfuOmKbXJ7L2rd2JlPuYKt1seXZHssKV0L8PZJcQ",
+      "AcnlKN1IrM6JNnSiHsxh4MZA-rbAoUgIMl_L4MfUaoq6yH8ifkBbtS3DdjxaiF5Lt47TpVCv222jHR0CMTgEuxEXkIUyHWvQhxsSO_EYuHsol2pEbVitK8dnJ7-YzNr9LZFKZyQfdY0XBXwLg_juIPSt5k2-quQi-e1xR94eeFJcjMUVHZMBiLFC3dsZ_dobImPcGgHFs9NKwBYmHsfb33Sd8Nte7PEm8apvdYcCrerLuAVuCEd_wo8iRi4LR2hErU8oWTyH3ZM2JAknDBkMyj69Zcc8JRqROht_sFL_rDYepG9gqg",
+      "AcnlKN3N8Led2IMb1k_gINZaBgdpBLqOGkMBPHtSP1ocHM0hjoKcGya3WLs_64XuoxlhTLygxOBC6U76MA3SvTcw-mUKXflRvGVxYH8R4yWIDfXZdBtSPZ2fIJC5JqfzR6MInhrajlbUzw7bkfAfm1keFYyjnVNejXQsq_LhfkIMz6tvSZSVTWuvEr8zaNqoHALVor81wjgwltBYyuxt2f9L1P-cSg16Dc8ORdh5i1rPTbC7PqFUtkCKvjgpmLj5Dl5XDPI-bwI2gca2h5_AIIfwW53M8d-yJfFYVajqr_LzvgWUPVlhoIRNp0xERRa7DtUw-9-sggvZd1l65keTDbxg9-Ps1qT_c5QUsxXun42mel1s2FyLtZ5PUJPI5wm9XomJrKqm1aGevwKSI1oFIj23E_t5YUZ_U72SqfAISYZduY9E8zop6ppOOKmbw9-nTAzv",
+      "AcnlKN0QP520S-2OR3030JbIbYNEVYnfydrHtRrV60-01x382iVIzhSkoEBdm0xVyEwfkcfbNVV7w3vmB8pE4dcOJ2-YBTtTi1tPj73MM967TM49NtQLcUAbwRP7z1l18YGV6jl3hc6iujp9XjAI3V1aC6VhvhOIBF0_JR71HvWGM0LWdf5YTJXL3S6u_S3RIvyjccV9XxYdHKf52err4Iau9DPthf4uuZPTA7PZowKp4_DypvvMhCrJ-G9bf9KgNdJUBLdgwm2q3oF3HBimMfcnfqCUuXDGDPhSP3GQIteUWVtPRoRxbf7i2wnGR2L1pckvpFrKTdsLkt-m2T0bT7CIypLlPuuQ4Bvs_GEveQHXSLiBm95DzfYUfgCMJMrJG-7WJ5bB87iqGIk7YJY2vgI2je2uBqInO6O693jCYSlyJe8OsXClB0YOiz4ReRScm5RS",
+      "AcnlKN3kTRiDrXMpmS6De3KVDqlrNi13JL60kIc-UmFeexMUdgjyKuiQLHtdBsbPhqyJQhjar3tiB_bX3iwGcGf3w8P6vsyNHGZp8Z_K4l1F92AFkp3hbF-CsAa-OvWhTeMtFAygvhYC4_zzAOaE5zCMApZIQYAXFWvP1UPJrBQwJoCQ7ZtpEUvEd4ONQ2BBeVpmS_k8yRSDN3sLtuvr88aQAG1XJ71gQdMYjka9EE6WpvDdjI3_qWnpWJ7NYxEm0OJsJjPcWjh6DCJdtX3Z-u8V8SF0qENFFW4BNUsA7vd5r17lvKlhw-3zaQBCo2iJkD0lTwUkwtJ-ll5bcaVSt-WGn3MIv7qcrSt38N5RCs-2yOBYh5oL1ChR3F_NjXYQv2GtznHaM1hPm9EFOWpXj0VoYEdIKT_FQ_cklGFFWK6lvN_5B6497_N7OjA2n7h3HQ"
+    ]
+  },
+  "description": "Le premier 'nut butter café' de France est un spot minimaliste et design qui révolutionne l'heure du café. Buddy Buddy propose des créations à base de leurs propres beurres de noisettes, cacahuètes et amandes artisanaux, torréfiés sur place. Latte au beurre de noisette, tartines gourmandes et pâtisseries végétales composent une carte saine et terriblement addictive. Un lieu qui respire la précision bruxelloise et la gourmandise moderne au cœur du chic 8ème arrondissement.",
+  "real_talk": {
+    "text": "Beurres de noisette de l'espace et café pointu. Le combo gagnant du matin.",
+    "must_eat": "Tartine au beurre de noisette",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours.",
+    "le_secret": "L'adresse préférée des locaux, loin des foules habituelles."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Foodies healthy, influenceurs life-style et travailleurs nomades.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "coffee-shop",
+    "budget_avg": 14,
+    "value_score": 87,
+    "category_percentile": 13,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 4.5,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 2.5,
+      "label": "Café (Comptoir)",
+      "source": "standard"
+    },
+    "fair_price": 2.5,
+    "menu_items": [
+      {
+        "category": "CAFE",
+        "items": [
+          {
+            "name": "Buddy Latte (Noisette)",
+            "price": "6,50€"
+          },
+          {
+            "name": "V60",
+            "price": "5€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Tartine Signature",
+            "price": "11€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 1078,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

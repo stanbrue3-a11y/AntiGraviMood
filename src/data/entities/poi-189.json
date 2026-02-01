@@ -1,0 +1,139 @@
+{
+  "id": "poi-189",
+  "name": "Musée Jacquemart-André",
+  "slug": "musee-jacquemart-andre",
+  "location": {
+    "address": "Paris, France",
+    "arrondissement": 8,
+    "coordinates": {
+      "lat": 48.8757,
+      "lng": 2.3106
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJpfWut8dv5kcRLTqTTLiFd10"
+  },
+  "category": "museum",
+  "subcategory": "beaux-arts",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "histoire"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 459,
+    "moment_count": 67,
+    "top_vibe_tags": [
+      "museum"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 90,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Peinture italienne, escalier monumental",
+    "smart_tip": "Leur brunch le dimanche est un moment de raffinement hors du temps, réservez bien à l'avance.",
+    "bouton_label": "Site du lieu",
+    "website": "http://www.musee-jacquemart-andre.com/"
+  },
+  "opening_hours": {
+    "standard": "10h-19h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2BJXFVav7FXCILgBH0mhp5KKNDyUiulihk32XvnjZqYFnSeY7YUhFO8Oud_oRQJxBXJY92eOwSINiZphtZaqhxrAsnyiUblFNRwSEDv_xpzuEcOoMTOhDb_ye0EiQ2nFGP9zgPMsrPKHBKEtoESxN7Yotsu0PctIGAVgLNMC4gVObNuPQMXxyoESBVLklmZJVp-U0Pq80MVEx1HpsJsPiv_AJL9eb_k4VY43YoNGkqVtW_BMSA9Mxr3BxgkvJaUnmEO54aBLc6IM3IOcD3wfZHPq_aoms3cjFPls93kxf_riWf5JHW3Y_dcZaUvrvdHQ0tTWLswrwI-8uUkpcJLepK5J_Vhfl3K4hyfTCGGA3MVs1bpin61xVMB0F8nmmleejFArdj__vL3nmSVs0x5N1cfJobKL_xYzJShDgBZ8c&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@jacquemartandre",
+    "google_photos": [
+      "AcnlKN2BJXFVav7FXCILgBH0mhp5KKNDyUiulihk32XvnjZqYFnSeY7YUhFO8Oud_oRQJxBXJY92eOwSINiZphtZaqhxrAsnyiUblFNRwSEDv_xpzuEcOoMTOhDb_ye0EiQ2nFGP9zgPMsrPKHBKEtoESxN7Yotsu0PctIGAVgLNMC4gVObNuPQMXxyoESBVLklmZJVp-U0Pq80MVEx1HpsJsPiv_AJL9eb_k4VY43YoNGkqVtW_BMSA9Mxr3BxgkvJaUnmEO54aBLc6IM3IOcD3wfZHPq_aoms3cjFPls93kxf_riWf5JHW3Y_dcZaUvrvdHQ0tTWLswrwI-8uUkpcJLepK5J_Vhfl3K4hyfTCGGA3MVs1bpin61xVMB0F8nmmleejFArdj__vL3nmSVs0x5N1cfJobKL_xYzJShDgBZ8c",
+      "AcnlKN13qw90FaKJE2OQDaRmscVBs-mwjj_iDk6CZnpDDMlGfsL0Ng9dA1AiCWS3ldpXIqZvtsZZHSO0QqKSxRGn7zUPoWH2jFrFy-kTr_G1JWXo23HeXGRjzqHKZ2mMRXPUp2Jp58YgA_swIzxKgxj1Mgk9xKgbB_yfH9HLXKuF7tbHw2chRphlF-z4HNup0NRk2dghL1nZry7TvRpRwCCuiZjj2lrTK56xRKMBXhewpQQ7Mf3Z79sTCrGO4hWHE4AH94fhMdlLmYvkHc5uzi1sXenPdm484Ie4vMhCGAm2brKT_EbJzTgjriC3sDfMNNJLcdMPwwA0jH00kXo3bW16U96ED9Ykhimqki7AdsEJGTZXCHf3c6nJ0mb59Ip7uBauod7A-RkPh-hOriVbtCmNfnGByyMIL5F0Bwq2ESlnTHm0gHs5",
+      "AcnlKN1lV_K-TKEaOF-3r761ChEupGetBZqCg_eVEIKoV9_8RoKMwB4pyPebMBISlUO64gRDDcVaRkOJR2H6nhtDhaMUhAQMX3W6OKE6lHKka4P__j2hExUXtX_h9yC1pUfAcJMl36EixgT81VqlnXbm9zQ4NDW2iL-vy6yC54zjk82Le7STPQmUpE6du9qlO1VUmjvt5fB1QRP5M-V8Cx9QzonQz17IQNMO7YIGoD4raUfDceA2uL5obojN-JltFq9AYn2G1Fgy_CLBpAMzL5ifvfYv_vRO-qiRcP0k9ZeihC43T2AJ_kxkefwLvhzKjjT1NxMv65GxNP7AbBOvZV_r3K1zmgqLYqTD2DqvaYlNA_gi7b0VnEhQtHIjyb88BlrdvsWPRZZs1-mOFtfctEJlw-xxYICj3AUAm9OVD3fhov78afsb",
+      "AcnlKN07yhGbYIPrvCZX_1EOt5QVI3QAdp7hgEUTzzeC1yrGs-tpISp5auh03cSzLAcQ6pAvK4DJxVUskOxkwxwPOG29a46UIoM1bx1DTFUEXL354OHGAlwhjhT-Kld7J6TYoRZVjbmJnl-nFHFUcTt7FHqL-3MtdFkqKK_P-0a3UtKY4PkkeLb-mCe7xspjMAceaqbIkNt84ZDdiwrL7CKzHO0tg0uC77NwR9kxdhzMMZ6NXi_NQULITVSWQZ8azJSto0HJx2H9kaddvMnqGw1yOtXGOgF2tmVZROZSjwl6kZRJvbIRDyMVkmIsCPyfBDO5A3oqaN-QPW5V57Nf-YagySBCa_8FSAv-VHG03huXS-UMsVPMOlLjvKXOPDeOGPR5foUtReSFL5X1cdRvIh3wjWM6eytckLx5dKbEhWqPDuc",
+      "AcnlKN3ccSbE9FydJA7nVaQa7_Rx34HD2hNHj1ukG8ewKpYAJGHs-Jr--NKFZMFuJDpmsln6dIs_6Gz2Lxxkv9DOpSglBvjiRwafxOLuJwYOe-ctFcGTpM-3-UWr37VeOG__DVwRhqxAe0u3NN4iwko-wo_Lr_DZ2TYK6QJF2Js8JFCKB33ZfD9EKIyK5OprlwlPqSxyfP57KQkgwj0H7FyEhzyMn9rKZD_YF2m-DpEI6dOP6_KZRb6dYBgujCIZ5Li6cE8i1ApEPsO2pmKxblyUcQMcs2D871yxHHym0jXXq0WX6Nz82PYf2nDRfuoJlRAZj3aW-YeOSu6vO_3bKojVjuchFf0xikLxst2ft-phMSNqRfN_0ifzXBcm7GIyHpBGDzGwIoogthzD3i38j5aXIix6SBOQTZNbkEu0l2iaFrFXcmsIufyyS6XsweU9teqJ"
+    ]
+  },
+  "description": "C'est la plus belle collection privée de chefs-d'œuvre à Paris, logée dans l'hôtel particulier d'un couple de collectionneurs du XIXe. Entre peinture italienne de la Renaissance et école flamande, on déambule sous les plafonds peints de Tiepolo. Le clou du spectacle est sans doute le salon de thé, situé dans l'ancienne salle à manger, considéré comme l'un des plus raffinés de la capitale. Une expérience de luxe et de culture d'une élégance absolue sur le boulevard Haussmann.",
+  "real_talk": {
+    "text": "L'élégance absolue du Second Empire. On vient pour les tableaux, on reste pour le thé.",
+    "must_eat": "Pâtisseries au salon de thé",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Esthètes avertis, couples en date élégante et habitués du salon de thé.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 17,
+    "value_score": 45,
+    "category_percentile": 55,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "MUSÉE",
+        "items": [
+          {
+            "name": "Billet adulte",
+            "price": "15€"
+          },
+          {
+            "name": "Salade Lunch (Salon)",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "GOÛTER",
+        "items": [
+          {
+            "name": "Pâtisserie",
+            "price": "12€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.5,
+  "google_ratings_count": 9358,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

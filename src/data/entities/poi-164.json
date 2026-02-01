@@ -1,0 +1,129 @@
+{
+  "id": "poi-164",
+  "name": "Panthéon",
+  "slug": "pantheon",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8462,
+      "lng": 2.3464
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJc8mX0udx5kcRWKcjTwDr5QA"
+  },
+  "category": "museum",
+  "subcategory": "monument",
+  "mood_scores": {
+    "chill": {
+      "overall": 7,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 4,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 24,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "culture",
+    "découverte"
+  ],
+  "ui_theme": {
+    "main_color": "#5856D6",
+    "map_icon": "museum"
+  },
+  "social_preview": {
+    "like_count": 414,
+    "moment_count": 44,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 60,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "specialty": "Nécropole nationale, architecture néoclassique",
+    "smart_tip": "Prêtez attention au pendule de Foucault au centre de la nef, une preuve physique et majestueuse de la rotation de la Terre.",
+    "bouton_label": "Site du lieu",
+    "website": "https://www.paris-pantheon.fr/"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0LNhzQD06-fpg7-SB89OS7xIGpuQgRBzjyySzXcJIrMhh4_gF6dXIwpSQH3B_uZMtZCQrcYqWb7zNoTn3rheopBkp3sNtKKQUjUoGdLZAGQjK5jy1sK_QRRgxQzdt2zaNgfOV-He5KhmbzdR3ipGJU8qEeka5qtVjHeFq0SNRe_s8VnQXcux9PvKKcrpPUeGgypLZre-jXkyprue24gelfsyqlQ4NnHM0Wa_9Q8TKon3BvdrQEfpxNKZSS0qQyVBMbAzzhywYqohVYmT9U_sPlFPM6GEaSACZMxrAdDMUC2w7Emyxgeq5ry4rHEOkKIhR70izPeNIr4GYZf-kmBZ8tbfF47QyFrHkAHQk55vM6aFfPNL__9K5hg3Bt7cqnuDoiGcdeIBZ-PvoC0usZKN5D29VcQAepCtpPzXxd0OysXw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@pantheon.paris",
+    "google_photos": [
+      "AcnlKN0LNhzQD06-fpg7-SB89OS7xIGpuQgRBzjyySzXcJIrMhh4_gF6dXIwpSQH3B_uZMtZCQrcYqWb7zNoTn3rheopBkp3sNtKKQUjUoGdLZAGQjK5jy1sK_QRRgxQzdt2zaNgfOV-He5KhmbzdR3ipGJU8qEeka5qtVjHeFq0SNRe_s8VnQXcux9PvKKcrpPUeGgypLZre-jXkyprue24gelfsyqlQ4NnHM0Wa_9Q8TKon3BvdrQEfpxNKZSS0qQyVBMbAzzhywYqohVYmT9U_sPlFPM6GEaSACZMxrAdDMUC2w7Emyxgeq5ry4rHEOkKIhR70izPeNIr4GYZf-kmBZ8tbfF47QyFrHkAHQk55vM6aFfPNL__9K5hg3Bt7cqnuDoiGcdeIBZ-PvoC0usZKN5D29VcQAepCtpPzXxd0OysXw",
+      "AcnlKN1BOoqrM51iXMbOmS1y5PegK1vcIuxwfc1OSm8j1_eAjzO0GSTU9XzaSoVvwcoXvhhcxVJNpaPBKEMm8mgm15YMkISqaYb_QxyC22DZMuh_OtRnY4jl3pOO2w9p9I6EHJApOLZHth4zE-KDlqRowUAkTTWrMAgMa6oSyCOpYxeFLDg2gHOOiL5b4QMXf1_XUhKcP85_2H5KH8679M0xoFJNwxvPukchpH4ieBe5CJutmW2vkUKh3P0LsmcgMS7VlnldEq2gpLQQm0-T8bKff3r7OqhyG9jDFADoCeLcEucqAuakvV-o5ygYyOWTZkKC2u2ZqlN3tT0NpyfWINtGEQLA8GFNXb8pnMjsVZQ2AVjhIozptRsBMK7e0s0ko48zm6bURiB9LKZzEzk9_9mPwI33n-YdfG2jJFrNDlrZPaM",
+      "AcnlKN2sc-V-bJ9mpENIgjxj9q00pbXUOrUNGy4ULbFVUGnH80tTpaV4QxocmNeDiHgaJj1FbIfcV8PaXBhm0sJl_I7EBRsl7jR3gYbygApdexFXJZ1I--r4ez_OUspphGXmT6vf2Q-WJvLZzgmfWuXqWtVfvTwv-XLQ3tI7Ip3mkC9adQ9Fb3V9kcZd8f9hCHqMEFVpIOtEfQllo2fgs_VpnxjjmGLvXo7fjMHHHxWaaTuX2UQoqIV9ObvqkLk2OwR0stSun__u5jasWJGhF1UMUkboEYXKRiKRgJHN6BMldZltGPeItcSAO8QESkNPf9A7db-DMxT4-JONGwBb-0znYiz0yM7XqgWWnLJoTF6HzEsjb_8a0URXrbwfAs8aX-ze0q77CS858sGFdSRbgrwb72MKM0jkBucsChHw6JIFNY1UAaYYU_9unoxf_Xcla7Lv",
+      "AcnlKN1o5-jzu7WRISOubbk6f3aPYx38e0vuYGVQEoIEdGUqrNwUwCtZ__ZLmyqWDXmKubZ1uLdddUoZc79v4_NfWzPWqmW3scbfWDHz7bpZCvzazPOTQsJxbF4XwvvhuAPDZo0JT9Nt8BsslQ1Zmr5porclAosjhhvvHOqxbuwofbkUHxOt1O285dKL3oUgzyjmA35qIh5VNLBSKHJ9lfDWHzvcuEPvamjGTMXB_5OdlTBO70oSAp-iH90hg7SkE_Xw4VYXURme80Ic-FL7qwxtPLTYG2BEwEBhepNWXuFu5lXON_KZ118UMJCPil-wOtl3g06VSJ264HofXR4yiAv6CWlS78ksv64UHCYZdR7nwEv7Hw7hBoDo9Q1XtWWmOCQQp490A8xzoBjZZv1298esjiC0p6GsO3eykfQo6TUOjsfY1Ug",
+      "AcnlKN2yimQgNa5DejT3_cg_bLpfeWsrC3It1r95Q4EC9IbOrOjfn4PgWlbzH15ffXmEuWZvynJR6WSCJ2uXPx8AcCHiXpMaHDu5_KH7tAB9WGiL0N_YP0a1L2nNWAkRYc9lUQH1PI0vdq_BJBTesHuF7Glte4nTRTqSdNbvkT--u05yhzbY-SiR2q4fNPyc57bwf5bJ_Y_hmi81xFYY9Tr5llWiCEgbrFQEJv74ST-Ltx36LERnviOdR8ZqH3IgSAVMTBC7H9oEUWPcvKOjFNy5U5m7YwZ_TU5AiuQCQTRxCgfZgk_u3e1zwTOuX0xFIYjXBBrwtQlCrAuJ3cuyKZC-J2ONhF2M-8DSWoUaXMhazmDspGZzdT31TfoPmkLDR_SuiW2H0klqTi6HGLlgrk6hckpKIO81jdoX4YLztk4F9kDUWbBQ"
+    ]
+  },
+  "description": "Surplombant la montagne Sainte-Geneviève, ce monument néoclassique monumental est le lieu de mémoire de la République. Sous son dôme immense, on rend hommage aux 'Grands Hommes' de la patrie, de Victor Hugo à Simone Veil. La coupole offre un panorama époustouflant sur tout le Quartier Latin et au-delà. Entre solennité de la crypte et majesté de l'architecture, c'est une plongée dans l'histoire glorieuse et tragique de France.",
+  "real_talk": {
+    "text": "Là où reposent les géants. Pendule de Foucault et vue depuis le dôme.",
+    "le_secret": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "le_son": "Ambiance feutrée, idéale pour discuter.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Élèves des lycées voisins, historiens passionnés et touristes fascinés par Gustave Eiffel et le Pendule de Foucault.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "museum",
+    "budget_avg": 11.5,
+    "value_score": 65,
+    "category_percentile": 35,
+    "is_free": false,
+    "unit": "Entrée plein tarif",
+    "extraction_reasoning": "Menu: avgAll(11.5€)",
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 14,
+      "label": "Tarif Plein",
+      "source": "standard"
+    },
+    "fair_price": 14,
+    "menu_items": [
+      {
+        "category": "BILLET",
+        "items": [
+          {
+            "name": "Entrée",
+            "price": "11,50€"
+          },
+          {
+            "name": "Vue Panorama",
+            "price": "3,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "museum"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 65503,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}

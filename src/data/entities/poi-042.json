@@ -1,0 +1,173 @@
+{
+  "id": "poi-042",
+  "name": "Le Pavillon des Canaux",
+  "slug": "le-pavillon-des-canaux",
+  "location": {
+    "address": "39 Quai de la Loire",
+    "arrondissement": 19,
+    "coordinates": {
+      "lat": 48.8874325,
+      "lng": 2.3786977
+    },
+    "google_id": "ChIJ5YzMRNBt5kcRube978t86bo",
+    "nearest_metro": "Laumière",
+    "bouche_metro": "Sortie 1 (Avenue Jean Jaurès)",
+    "metro_line": [
+      5
+    ]
+  },
+  "category": "café",
+  "subcategory": "coffee-shop",
+  "mood_scores": {
+    "chill": {
+      "overall": 24,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 2,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 2,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "trendy",
+    "paris",
+    "chill",
+    "Terrasse"
+  ],
+  "ui_theme": {
+    "main_color": "#007AFF",
+    "map_icon": "cafe"
+  },
+  "social_preview": {
+    "like_count": 356,
+    "moment_count": 66,
+    "top_vibe_tags": [
+      "trendy",
+      "chill",
+      "a-voir"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 45,
+  "practical_info": {
+    "price_range": 2,
+    "google_maps_url": "https://maps.google.com/?cid=13468433375970572217",
+    "accessibility": true,
+    "outdoor_seating": true,
+    "happy_hour": "Tlj 17h-19h",
+    "Horaires": "Ouvert tous les jours Non renseigné",
+    "Reservation required": false,
+    "Les Chambres": "La Chambre (lit), La Cuisine (table), La Salle de Bain",
+    "L'Astuce": "Oui, tu peux vraiment manger ton brunch dans la baignoire",
+    "La Terrasse": "Grande terrasse au bord de l'eau (Canal de l'Ourcq)",
+    "L'Activité": "Cours de yoga, ateliers DIY & expos féministes",
+    "Le Concept": "Une vraie maison de campagne où tout se squatte",
+    "reservation_required": false,
+    "wifi_available": true,
+    "smart_tip": "L endroit idéal pour télétravailler dans le calme le matin.",
+    "signature_drink": "Café Latte Art",
+    "terrasse": true,
+    "bouton_label": "Site du lieu",
+    "website": "http://www.pavillondescanaux.com/"
+  },
+  "media": {
+    "hero_image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1000&q=80",
+    "google_photos": [
+      "AZLasHrHjTdhUGjN-yXFqF9Fkm86v-gMaFcHp-2qVrjx6zGzdwdaVNmZohtA_HsxxJLKFkHM99_9w2qQP5aPMsqqoqG_9ZDkb38DsSb-xag9mrqdyTNRvPE1C0woDEBebcRadFr8C4DhjJAdm_fgZUpfE6SHtm0tDSRe950_1ymUz4TbLcMNBgk7hmrx8FAZGfMzqETN7ovxu_UmYMmb2JvG68Od2qwQOUjLUYV-NQ4pHVARxJwsgyq9VVlsvMTEhu-cQb1YavE4qaAnlHNxoHja8zAwp4Us_hoNctUyoGnCUo9JMw",
+      "AZLasHpC93w5b2xqWFRZZGxJIaQjNbT9vnhpcPo0oYed1ih_DafrK6PS50xZ6SJXYBwvakPLNfXY4EhVLSee0_h2EDwD4qU3B6Vgzn7VolShtT3I6i6Sr91IzqnJjEXA4_xxwMyu0FAN99wn2eEMEKn7hC-sMWzlnjAeDjtKI4eag5jyaSgOfHUSIfanvX94vDcyzp0D0pO9qIam26MxH0FeKcj_Z0iGw_JKwjZVKXY4WMPOkMu3FKSZfGFZY_DzCgUl0uoUZndo6HL8s-KGv-UeO3BDYX59oVFGVzG8WhGFj98LRw",
+      "AZLasHp5V9XPNApq0mcQJLS7nOE8yE1eBxdkba5xXIdnucS1riiM21WlYhPFvLQDlmYfzIdywO6WfGgOsfXW1a8u2xzgAV2xvwxXMl-u1RJfTqEbmqBVY4EM0DI3wmFRaePFsYnFNRbO2srH-fjTAqZufx4NqLs7-8zuoqc6EO1qv50RWxAQSTEOQE23-Jre9FrCtCBbb79bU8UzW33X6NARIuR0RnzPObv0MGbp-6Q68Oim-6a0HO6VONrpGz2hI1RZz5d15nx3iFwfWWKTbJG4EvjcFLjGa8nj5iHsAx8i0daYI_zAhD78bK53Pn49Kpe7BHE2CMSFnnurT2Vn-l-QgIUbAkZ7V_lwdiP94CH0ospg8It49z85O433JVunLb88j74kg-5qXyGY1532FqxiGms1ZEHlLHPLsU8Ps4GSlaV-IHSmM9MqY3MhO-AQqjWN",
+      "AZLasHpEdvMQArdOzYMOB-eI_KHYIcpkTJzPDCdwXdGg0R21XiRdtzAadyV71KJa34lJEZ2eGlt9t7nn6com7itVPYU4ZuLkk9Lob5x08BY7OEH5afTU6LtBaH8JGez0mRkM8c40GOUPeKIMTzxBrVOvum7e2AfzSm8ju8W47_-W800ieehkUMGJwoTjVivBn1bJO6TPTWnyd1mW0VjCRuQeVdFtniujN6dlYEP8McXY5nc4X8u-7wDMaQWa61otnGv96ga808MLWvJy6DxiwJOvVlmitrnyJp5yHr7jvxPNpUeF4AMWQ4I-xctDcTO_SmboV4cM2P-GxXknKbffvvp60FSyzszQ_CaPlrYIDNppzAvmULe_WOlAtDCssNWwd_nfTfrMa6z0QquRO1eyvhGHdI-kTdjCpJkVrY7qKR9krFhUrUYdETL0bQEqt1BTbg",
+      "AZLasHotKAScs2ZqJAok4EgrZa5ZXzK07QD3cJOIKGcGSckvTCumaHBtavpHOFXYj1X5uO-Sw5mxI3Geb_oaH_NURseIVblTWOOkgu8u0ro3azMOCy331SCQZyvYni7DfVb8XjgOEVshBDnt2KTNytk8NyWRp0S5oYjoN0NsFO7WiWR3ppcGdar6t1RTSJ2kJn0ay_skNqD1nA1mo2SRoOuYEuQLv97M9ceZQkBLKqy9DuoBh-ZWS6rvvtiftuvz5e_OFtpcNaJYu9CH76FlBYMFYcGAcWIOoRwa7aECcew35HQC4frGlgJLVG17d-kBd2N3iRVw7ABKzQODOcdto_hn-ngYOYMzo1wBpLETG0dhaYo-5_Tm1VIZYy48jM4fF-cBxmouMlpOYpT4IuSgQC8Tuo5z8IZ-07ixyM87da-OjaJkW8CpXqOVSFaMhXmFKPCA",
+      "AZLasHp9YAxAtTONz2RNz4g_UzjY-wqvWH6PSoMdZTPJie55zdNAV5ai_xpy8PD4UewZuW3NaORv5CcUbKh8iWfupOm8SvDnZ5tDSnBOiDZPBLRN7CtW8b5F092WSeGM__MMqc_3NdozcT7sZm053ExuQGbRaWTEw6UIcDdSk4lokwE1V-L0iGmkg6fFt5gi3oxudJkt-nkSKLhyHpN7u9NbsizdBtSheZxnz21Xj6IAu903JYsAgdXugX3ZgebNxgBgcz_l86tSv6DNL2lIARzURV_Ar7WKzxpBwgh8TprOxCIXUFKl3lmib5M3XRHJpg-Uyh-DIqD67H4f7tq9LoZtmBhmscihuNLw0sDQzRU6cA6z0k0Mx3NlFbPZ8XeO5vOaAC87aeLHJ8vAe33zqUqlZ2iREcqaOo_QagHRDRFrO4rmog",
+      "AZLasHpl-SQmWLSGZGiQlKvnVrlt4eVgnl5ysfH_affzi_2AIhi4TyhhhfTiznmSBjvGG_H31-HD9bYPSdVaRfg0UNAwVyHtz57sZYaxu3lo_SkbqJLi5HVUyUR2oD07N8_A92k4u8YTyoMjL7w3G6ktkF5Z9MiMCRPUk_AjbWhxEfnheoeZu4Ng2UD2Wzd_HCVnI0ei5M_C4zaI97a7_vOxORKyjjMxp7VaJAVdg87d6TPUWegvTasyFeAWXBSfyXh5abQMZsQYFoSqtqTk_oo51fRnhEQuv_FAUvvNO5SyFNcvdppwMaFVh3iekeDz-xOHSSsfrnRtW3tewUqBgGi4jd0wULk1Hk5QjPz-SeMpmn60nBsztX7sOGR0RteFqFxYQc9NVDutDxCZXXCwtxnWsw15J5UonGwcsql96aWLMa5jZB8",
+      "AZLasHphc_XdVdEsozm3xfIvw1uK9ClMu6aQ2Y8jNqZRSjgR-Tj6CGE4WAU_5Vdkp8Ogp3WJtbpUykIqiriNBSUWr7N9-rbMNpTcMAJnk7m8G_2NJd1PavILqLal2D34AvyHLZmf0zREeddpgimrjlGMRmPVF7NAbDVgbwi4oog1Nf4_ypYBor3zca9OK7iamm-oXGtbjVHa-XXMaZChcWKiOzvsylE2cMLoCk_GyRK-zQL1TiFcI_mIrN9_O_QKg4b1FyHcC8yImKfXRJdmRkm5NIbNjjXNkkv_k6JtGuVZc8Dvl8CDP1Ou9rb3fvrXIsLvRYUlMQ-Ow6zR39YywfxREBwBsvnGuddXKh5vyGxweXyw8bhgwqMjBrbDCSqoh7bCkMOQN7fRZTSGmkwHzsOPQggQV6dvGbbw54-JQ5PDrR_UZctu8yjAKCZxVbRKYbTI",
+      "AZLasHq439g-pkt3gcEMCwqO8E2Z7deDS28wU8G9gQDuFP_g3F_xObtOqKZbYvdSFZ_N66D07uKA2LfQ4BuYuEWJyVZjJ6UtFILkaKJ92XT9p-1B-BvRGzou3qH1Fqnb4qp5ulGWNx34y-CVkXVmHHh31uV7WNfIMGMrh2GrVFcJiMb444TTt6opEhfNuPw1oidv3pOqNbyZ8M6PkN5nnXBcwozTyWM8fdQmDO2m4-VsfQRmIJTq5L12N5-_xCbdR06rmYOapRrtqAYrsLqn5GlaFP9bqAdx060a3INZCO8h3dBO6wuF56-daLwcrhyjaIj9iowjSrgGaPKag3orFbD45iEt37eufd5kXesieJ-wEVAJqhhmFzOc6Ic_AUcHxfDzlax7XMiy8R0nO5kRayxoPnHQ0PmQBiAIes0BYXwMRSD6tcJSjuJ4BEDtdBxrVWAg",
+      "AZLasHrMGumPTyG7FBNm2qycsVpxu8ldnMGdxn7MVnqEmQ4KMNVzUFVaZv9btDGZEvftjeZ2NVjNl9KBOtgqwLOV_5LViBQ0Lh6DT5p8B32pObzQHaQKwtDeeTPfgxGeKfNIdMa6zq3D4w8JYQ1cn2Kmbn3FSzIMhty2X5YK_6n1KqwO5VeZn1CL3mY2viR8bx8tIZYLpqiQy2idLloY0hGeGQTkEsQoNRS44ZRjLVaedUT_5Jv1d36twVfhwbanlvoZGVgGZ2aPA8XcR-iowvP46sOcKQW1nnUu7Q_BPse4386AJCU7C4VuJMIjoAPSL21BCXgatQ6ReyWz_ecglqMPoOCOrko41wjCFy5O2rcQod8pLIYYCqZmoFzQw--HpVkooYk9uO9I63pP3JAlBnIqRyeoo4SisSJJJIqeRUkWhL5BuPa-muYSe6psPU_RmsOe"
+    ],
+    "instagram_handle": "@lepavillondescanaux"
+  },
+  "metadata": {
+    "verified": true,
+    "source": "surgical-clean-2025",
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  },
+  "opening_hours": {
+    "standard": "10h00 – 00h00",
+    "display": "Tlj: 10h-00h",
+    "detailed": "lundi: 10:00 – 00:00\nmardi: 10:00 – 00:00\nmercredi: 10:00 – 00:00\njeudi: 10:00 – 00:00\nvendredi: 10:00 – 01:00\nsamedi: 10:00 – 01:00\ndimanche: 10:00 – 22:00",
+    "is_open_now": false
+  },
+  "description": "La maison de vacances dont tout le monde rêve, posée au bord du Bassin de la Villette. Le concept est génial : c'est une vraie maison où l'on peut s'installer partout. Boire un café dans la cuisine, travailler dans le salon, papoter dans la chambre, ou même boire un cocktail dans la baignoire de la salle de bain ! La déco est chinée, colorée et chaleureuse. La grande terrasse au bord de l'eau est prise d'assaut l'été. C'est un tiers-lieu convivial qui mélange café, espace de travail et lieu culturel.",
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Travailleurs en charentaises, féministes et groupes d'amis en goûter."
+    }
+  },
+  "real_talk": {
+    "text": "Bosser dans une baignoire avec vue sur le canal, c'est possible ici. La maison est 100% investie, de la cuisine à la chambre. Ambiance colonie de vacances pour freelances.",
+    "must_eat": "Le Brunch (très copieux)",
+    "le_secret": "La baignoire à l'étage est une vraie place assise (les chaussures restent dehors !).",
+    "le_son": "Playlist chill / Bavardages",
+    "le_must": "La terrasse au bord de l'eau dès qu'il fait beau."
+  },
+  "pricing": {
+    "type": "cafe",
+    "budget_avg": 5,
+    "value_score": 90,
+    "category_percentile": 10,
+    "is_free": false,
+    "unit": "Expérience",
+    "extraction_reasoning": "Manual Verification",
+    "coffee_price": 3,
+    "last_updated": "2025-01-25",
+    "confidence_score": 90,
+    "anchor": {
+      "price": 7,
+      "label": "Pinte",
+      "source": "standard"
+    },
+    "fair_price": 3,
+    "source": "verified",
+    "menu_items": [
+      {
+        "category": "CAFÉ",
+        "items": [
+          {
+            "name": "Espresso (Mono-origine)",
+            "price": "3€"
+          },
+          {
+            "name": "Flat White",
+            "price": "5,50€"
+          },
+          {
+            "name": "Filter (V60)",
+            "price": "6€"
+          }
+        ]
+      },
+      {
+        "category": "FOOD",
+        "items": [
+          {
+            "name": "Sourdough Toast",
+            "price": "9€"
+          },
+          {
+            "name": "Granola Bowl",
+            "price": "10€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "café"
+  ],
+  "google_rating": 4.3,
+  "google_ratings_count": 3560
+}

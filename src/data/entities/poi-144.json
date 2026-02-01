@@ -1,0 +1,139 @@
+{
+  "id": "poi-144",
+  "name": "Les Pipos",
+  "slug": "les-pipos",
+  "location": {
+    "address": "Rive Gauche, Paris",
+    "arrondissement": 5,
+    "coordinates": {
+      "lat": 48.8463,
+      "lng": 2.3506
+    },
+    "nearest_metro": "À proximité",
+    "metro_line": [],
+    "google_id": "ChIJB4fzbOZx5kcRqQ_HrlaIjlg"
+  },
+  "category": "bar",
+  "subcategory": "bar-a-vin",
+  "mood_scores": {
+    "chill": {
+      "overall": 6,
+      "criteria": {}
+    },
+    "festif": {
+      "overall": 22,
+      "criteria": {}
+    },
+    "culturel": {
+      "overall": 5,
+      "criteria": {}
+    }
+  },
+  "vibes": [
+    "ambiance",
+    "soirée"
+  ],
+  "ui_theme": {
+    "main_color": "#FF2D55",
+    "map_icon": "bar"
+  },
+  "social_preview": {
+    "like_count": 549,
+    "moment_count": 18,
+    "top_vibe_tags": [
+      "ambiance"
+    ]
+  },
+  "discovery_radius_meters": 50,
+  "min_stay_time_minutes": 30,
+  "practical_info": {
+    "price_range": 2,
+    "reservation_required": false,
+    "outdoor_seating": true,
+    "accessibility": true,
+    "wifi_available": false,
+    "signature_drink": "Vins nature au verre",
+    "smart_tip": "Leur aligot file comme aucun autre dans le quartier, n'hésitez pas une seconde.",
+    "bouton_label": "Site du lieu"
+  },
+  "opening_hours": {
+    "standard": "10h-00h",
+    "display": "Voir sur place"
+  },
+  "media": {
+    "hero_image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1Z5RrOZa0ZE4n-I7V2Kbg7fOI8dKvd4afd4l-178kx9UPtwW9QaqR4U6ft0BsVBTfWKfRPcTn4oOzjTdzjlVf_iUEVxOp9sLkZF8di1ZD_dK4fEgwA587CVN-IvwYx_6pVZgXFuok7PKcMw3UQsYBpEVn4mVwSTeHVf0-Pjhhrcuxa34v3IYEGgWOF0bKf1zSCSCKc69gpJWIwjof-Iu5Fr64hezR72pkHKkatXvMsZIMTtDFrylIecoJsKX5ugPXFbGZxcH9kxf6AYhKCUH_oeN4M5Lbp-xxpwFqNK5lT22n_0KHFUc1YB-9ARPc4JSvyNOu5x5Gye4pzEtJftchn2XdddZKZr7M3O4dOoBkxFkPaMMML3p3gqwb_PvUVLvsLJb5y9o1Iz9eq62jRVnyGaFMC2hUgnMg2xMsbes7ygQ8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+    "instagram_handle": "@lespipos",
+    "google_photos": [
+      "AcnlKN1Z5RrOZa0ZE4n-I7V2Kbg7fOI8dKvd4afd4l-178kx9UPtwW9QaqR4U6ft0BsVBTfWKfRPcTn4oOzjTdzjlVf_iUEVxOp9sLkZF8di1ZD_dK4fEgwA587CVN-IvwYx_6pVZgXFuok7PKcMw3UQsYBpEVn4mVwSTeHVf0-Pjhhrcuxa34v3IYEGgWOF0bKf1zSCSCKc69gpJWIwjof-Iu5Fr64hezR72pkHKkatXvMsZIMTtDFrylIecoJsKX5ugPXFbGZxcH9kxf6AYhKCUH_oeN4M5Lbp-xxpwFqNK5lT22n_0KHFUc1YB-9ARPc4JSvyNOu5x5Gye4pzEtJftchn2XdddZKZr7M3O4dOoBkxFkPaMMML3p3gqwb_PvUVLvsLJb5y9o1Iz9eq62jRVnyGaFMC2hUgnMg2xMsbes7ygQ8",
+      "AcnlKN3k4-y7B3WjnWGXma9tY9Cv9TF462IhfRFYKp1u5Vt-ZMfNGgkgvkdZtZgiAj7pPw2esjM9OBmfoxtagruxtIBng981ugGh8Bpt1fqortPre_45NGaVbFAunylGMS-f2J0aCSvf5bOQvEnFV9wXq7EWl34cyz_mQUakY9ZXfUSKmzeM5CMZ5VEUkoaJJwoFBdJ6PehJZzIlozdpNe9k0Hy3cfjkeQFIFeehK-qFzy2RBBttZMs1Img3VSUR_zmu5Ms0PvVBgKTd_zcbJnc9FO2agKX4fNoN9OZDx2atuAUj1O7wk-qlPFPhVARgOyDIrgZB19Im457jSDW2AHLXBIqF9uCor_Yb_gdpSmHU6KAg3gFI35naIyP-VgrnafsnsanLfMdJ7JrSYo5DGgqsLx4uI6vVB3qQr6PxiX50RN1XjfXN",
+      "AcnlKN1RRDC5c9mP6O5G6txDcmGzrQPOD8RyEapd27SuiJOZ8tE5TXJePHWGMllrOKH9sDPrjKH6E18wdDtqTMP6DfswldaKF48whXSTUoPuARpA1cCgiyuLP-42P3TEE4wDW7ZTQOABLsoILv4VGs7G1I4pC-gtUq_YhDAAYjiEVR8UwEqEkf7JttIg5h3BJoAO62OBYjtpPNdoIto_Sz90V6ix5nuuttrwpfxznWpmiehlWpzWY4fQgITwclfW9Q9nf0BcQD_IOB8IzDtixXZ8diL2HHvNuJHKPuN5nkx9PWJBwlcGxXw5uTTNT7DmfzOgo6IFUc7FTHsgv8Wq3bSKqvEM96Vu6CcRhF_ktas74-oSaSGlG1eeBLaVStR4ZmFWEfKDl999p-T1qL17hskF-UChMzscGniH7f2K1ypq5y9oQ7hDuuO-xvWHT-kqKg",
+      "AcnlKN055CcycRIoj6HQfSj_xopAiohGIeziP2f7Z_ox1RFBVUiGUjsJdYi2xEG-rhza7PdK73SxVAh9Z37t-CXNfoOJBWDaUn6QpApq0mSql0uTuhEM_9-6AGaTCNkSmEuqldzN10m1gvtTbEEdp1nmAnczk9hC4RCz3CH8IUc97q-9ICR2-EnVau3XaNzG2gVusGfHEK0YUZAwFafpjFNujNx1uiDEPbcf57qcFM0G14wtGZcFhUrIhK9_cFGAyax0zZmWUo9aAazVnaRmgWfvdtymXju6Q23UuoFcHsWjZUfScL0xT2Q6cjKlJgT7Scung5PxgFrKmYeYBgdBzfJJAvSlps8qEkrSqxv5Op5D9YZ-72GZCL2Ae5zUol4_gaGwTzsaV7VhMQ_0J5eeONVSo-QqEbZr69sm3Z3THQrApoo04kc",
+      "AcnlKN3l8o_1cpiqBo6Id7v3Dv8w86XUr2V2Mcbi7jPHJGI7NChK3qLST7A9obbshkotOWvFZFy_trmW_ras-BmHiIdZaRUSBkPg4TP3Yikfwi8T2ZpUunUyOoF_KCzbWpyTARbWrHcE6WoXZoGX5O7cEJzGDLIZkugFmGNxnwS2Jl-RBY2RriYmIlK0BOT9uWPdEOmPBWFa78MK-ZcYv74cIxTJTZ0fRr9trNYV-uNNERyVbATGJz0JlEP1HDTZPQaojzzHB0Aw8NNzgy8mNn781El2UTDRy8-ed8NceKzlH_Tyx8q1ScTr_1jAgw0HC7aiu2-kVMWRtZPaENeaUuKqcLd6fMCqjPtqz1TBaxYX64iyarl8Qa8WyOXTKGMfKJB0oc7C3uFFsMqQJ_sAPkqgqEy_hOyedhCjIcZp7BocxwtZ5qXyQCW8b06cErOQWDYe"
+    ]
+  },
+  "description": "Bistrot de tradition niché dans une bâtisse du XVIIème siècle, Les Pipos est une ode au Paris populaire et littéraire. Entre le comptoir en zinc, les boiseries patinées et les affiches d'époque, le temps semble s'être arrêté. On y déguste une cuisine de bistrot sincère et généreuse, servie avec le sourire et un petit verre de bon vin. C'est le genre d'adresse que l'on voudrait garder secrète, tant elle incarne la quintessence du Quartier Latin.",
+  "real_talk": {
+    "text": "Le secret des œnophiles du 5ème. Vins nature pointus, fromages parfaits.",
+    "must_eat": "Plateau de fromages affinés",
+    "le_secret": "Arrivez tôt pour choper les tabourets du bar, c'est là que ça se passe.",
+    "le_son": "Ambiance sonore calibrée pour ne pas avoir à hurler, mais assez pour vibrer.",
+    "le_must": "L'atmosphère unique qui fait qu'on y revient toujours."
+  },
+  "ai_insights": {
+    "social_vibe": {
+      "text": "Anciens élèves du lycée Henri IV, riverains du Panthéon et quelques touristes qui ont du flair.",
+      "tag": "La faune"
+    }
+  },
+  "pricing": {
+    "type": "bar-a-vin",
+    "budget_avg": 9,
+    "value_score": 5,
+    "category_percentile": 95,
+    "is_free": false,
+    "unit": "Pinte / Verre",
+    "extraction_reasoning": "Kept Existing (No Menu Data)",
+    "pint_price": 7,
+    "last_updated": "2024-01-20",
+    "confidence_score": 50,
+    "anchor": {
+      "price": 8,
+      "label": "Pinte (50cl)",
+      "source": "standard"
+    },
+    "fair_price": 8,
+    "menu_items": [
+      {
+        "category": "HISTOIRE",
+        "items": [
+          {
+            "name": "Saucisse aligot",
+            "price": "16,50€"
+          },
+          {
+            "name": "Entrecôte frites",
+            "price": "24€"
+          }
+        ]
+      },
+      {
+        "category": "ZINC",
+        "items": [
+          {
+            "name": "Petit blanc comptoir",
+            "price": "3,50€"
+          }
+        ]
+      }
+    ]
+  },
+  "categories": [
+    "bar"
+  ],
+  "google_rating": 4.6,
+  "google_ratings_count": 1375,
+  "metadata": {
+    "verified": true,
+    "last_enrichment": "2026-01-26T16:02:52.944Z"
+  }
+}
