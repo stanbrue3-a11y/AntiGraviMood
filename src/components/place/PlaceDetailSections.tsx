@@ -134,12 +134,12 @@ export const PlaceSection = React.memo(({
                             <View style={[sectionStyles.gaugePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
                                 <CrabIcon size={18} color={primaryColor} />
                                 <Text style={[sectionStyles.gaugeLabel, { color: primaryColor }]}>
-                                    {place.pricing ? CrabCalculator.getMetrics(place.pricing).label.toUpperCase() : "CHARGEMENT..."}
+                                    {place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).label.toUpperCase() : "CHARGEMENT..."}
                                 </Text>
                                 <View style={[sectionStyles.gaugeBarContainer, { backgroundColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }]}>
                                     <View style={[sectionStyles.miniBarFill, {
-                                        width: `${place.pricing ? CrabCalculator.getMetrics(place.pricing).percent : 50}%`,
-                                        backgroundColor: place.pricing ? CrabCalculator.getMetrics(place.pricing).color : primaryColor
+                                        width: `${place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).percent : 50}%`,
+                                        backgroundColor: place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).color : primaryColor
                                     }]} />
                                 </View>
                                 <Ionicons name="chevron-forward" size={16} color={primaryColor} style={{ opacity: 0.4 }} />
