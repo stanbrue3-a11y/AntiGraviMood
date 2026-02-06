@@ -124,9 +124,17 @@ export const PlaceSection = React.memo(({
         case 'price_gauge':
             // 🔍 DEBUG: Check menu_items presence
             console.log(`🍽️ [PlaceSection] ${place.name} pricing:`, JSON.stringify(place.pricing?.menu_items?.length || 0), 'menu items');
+
+            // 🧠 NUANCE: Detect Cocktail Bar via subcategory if main category is generic 'bar'
+            // This triggers the specific Price Logic (Cocktail Priority)
+            const effectiveCategory = (place.subcategories || []).includes('bar-cocktail')
+                ? 'cocktail-bar'
+                : place.category;
+
             return (
                 <View key="price_gauge" style={sectionStyles.scrollPadding}>
                     <InteractivePriceGauge
+                        placeType={effectiveCategory as any}
                         pricing={place.pricing}
                         activeColor={primaryColor}
                         minimal={true}
@@ -134,12 +142,12 @@ export const PlaceSection = React.memo(({
                             <View style={[sectionStyles.gaugePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
                                 <CrabIcon size={18} color={primaryColor} />
                                 <Text style={[sectionStyles.gaugeLabel, { color: primaryColor }]}>
-                                    {place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).label.toUpperCase() : "CHARGEMENT..."}
+                                    {place.pricing ? CrabCalculator.getMetrics(place.pricing, effectiveCategory).label.toUpperCase() : "CHARGEMENT..."}
                                 </Text>
                                 <View style={[sectionStyles.gaugeBarContainer, { backgroundColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }]}>
                                     <View style={[sectionStyles.miniBarFill, {
-                                        width: `${place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).percent : 50}%`,
-                                        backgroundColor: place.pricing ? CrabCalculator.getMetrics(place.pricing, place.category).color : primaryColor
+                                        width: `${place.pricing ? CrabCalculator.getMetrics(place.pricing, effectiveCategory).percent : 50}%`,
+                                        backgroundColor: place.pricing ? CrabCalculator.getMetrics(place.pricing, effectiveCategory).color : primaryColor
                                     }]} />
                                 </View>
                                 <Ionicons name="chevron-forward" size={16} color={primaryColor} style={{ opacity: 0.4 }} />
