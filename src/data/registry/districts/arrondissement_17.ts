@@ -1111,7 +1111,7 @@ export const arrondissement_17Places: SurgicalPlace[] = [
             "avg_budget": 14,
             "is_free": false,
             "pint_price": 7,
-            "cocktail_price": 0,
+            "cocktail_price": 12,
             "coffee_price": 0,
             "dish_price": 0
         },

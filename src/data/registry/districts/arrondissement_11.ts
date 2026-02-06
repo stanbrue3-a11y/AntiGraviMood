@@ -821,7 +821,7 @@ export const arrondissement_11Places: SurgicalPlace[] = [
             "avg_budget": 14,
             "is_free": false,
             "pint_price": 5,
-            "cocktail_price": 0,
+            "cocktail_price": 14,
             "coffee_price": 0,
             "dish_price": 0
         },

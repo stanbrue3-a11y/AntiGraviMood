@@ -59,7 +59,7 @@ export class DataService {
             try {
                 logger.log("🧠 [DataService] HARD IGNITION START (LEGACY PROTOCOL)...");
 
-                const dbName = 'moodmap_v27.db'; // Tiger Price Fix
+                const dbName = 'moodmap_v28.db'; // Global Cocktail Fix
                 const dbDir = `${FileSystem.documentDirectory}SQLite`;
                 const dbPath = `${dbDir}/${dbName}`;
 
@@ -71,13 +71,13 @@ export class DataService {
                 }
 
                 // B. VERSION CHECK (Nuclear Option)
-                const DEPLOYED_VER_KEY = 'deployed_db_version_v27';
-                const currentVersion = 'v27';
+                const DEPLOYED_VER_KEY = 'deployed_db_version_v28';
+                const currentVersion = 'v28';
 
                 // C. ASSET PAYLOAD EXTRACTION
                 logger.log("📦 [DataService] Extracting binary payload...");
                 // Total rotation to v22
-                const asset = Asset.fromModule(require('../../assets/moodmap_v27.db')); // Note: Asset name remains v24 as per instruction
+                const asset = Asset.fromModule(require('../../assets/moodmap_v28.db')); // Note: Asset name remains v24 as per instruction
                 await asset.downloadAsync();
 
                 if (!asset.localUri) {
