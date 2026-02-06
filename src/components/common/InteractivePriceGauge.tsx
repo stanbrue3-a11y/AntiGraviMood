@@ -234,8 +234,8 @@ export const InteractivePriceGauge = ({
 
     const metrics = useMemo(() => {
         if (!pricing) return null;
-        return CrabCalculator.getMetrics(pricing);
-    }, [pricing]);
+        return CrabCalculator.getMetrics(pricing, activeFocus);
+    }, [pricing, activeFocus]);
 
     const barFillPercent = metrics?.percent ?? 5;
     const pinceScore = 100 - barFillPercent;

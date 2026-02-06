@@ -18,7 +18,7 @@ const BENCHMARKS = {
 };
 
 export class CrabCalculator {
-    static getMetrics(pricing: Pricing): PriceMetrics {
+    static getMetrics(pricing: Pricing, placeType?: string): PriceMetrics {
         if (pricing.is_free) {
             return {
                 percent: 5,
@@ -34,7 +34,12 @@ export class CrabCalculator {
         let fair = pricing.fair_price || BENCHMARKS.default;
 
         // Context-aware priority
-        if (pricing.pint_price !== undefined) {
+        const isCocktailPrioritized = placeType && ['cocktail-bar', 'speakeasy', 'hotel-bar', 'club'].includes(placeType);
+
+        if (isCocktailPrioritized && pricing.cocktail_price !== undefined) {
+            current = pricing.cocktail_price;
+            fair = 12; // Benchmark for Cocktails
+        } else if (pricing.pint_price !== undefined) {
             current = pricing.pint_price;
             fair = 7;
         } else if (pricing.main_dish_price !== undefined) {
