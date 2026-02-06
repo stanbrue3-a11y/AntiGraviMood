@@ -59,7 +59,7 @@ export class DataService {
             try {
                 logger.log("🧠 [DataService] HARD IGNITION START (LEGACY PROTOCOL)...");
 
-                const dbName = 'moodmap_v22.db'; // Complete Menu Fix
+                const dbName = 'moodmap_v23.db'; // Rosebud Editorial Fix
                 const dbDir = `${FileSystem.documentDirectory}SQLite`;
                 const dbPath = `${dbDir}/${dbName}`;
 
@@ -73,7 +73,7 @@ export class DataService {
                 // B. ASSET PAYLOAD EXTRACTION
                 logger.log("📦 [DataService] Extracting binary payload...");
                 // Total rotation to v22
-                const asset = Asset.fromModule(require('../../assets/moodmap_v22.db'));
+                const asset = Asset.fromModule(require('../../assets/moodmap_v23.db'));
                 await asset.downloadAsync();
 
                 if (!asset.localUri) {
@@ -84,8 +84,8 @@ export class DataService {
                 logger.log("🚚 [DataService] Checking core status at: " + dbPath);
 
                 const dbInfo = await FileSystem.getInfoAsync(dbPath);
-                const DEPLOYED_VER_KEY = 'deployed_db_version_v22'; // Complete Menu
-                const currentVersion = 'v22'; // Full reset
+                const DEPLOYED_VER_KEY = 'deployed_db_version_v23'; // Rosebud Fix
+                const currentVersion = 'v23'; // Full reset
 
                 let shouldDeploy = !dbInfo.exists;
 
