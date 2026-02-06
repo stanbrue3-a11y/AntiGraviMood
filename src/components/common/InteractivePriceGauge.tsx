@@ -357,6 +357,23 @@ export const InteractivePriceGauge = ({
 
     const isBonPlan = (pricing?.value_score ?? 0) >= 80;
 
+    // 🧠 SMART PREVIEW: Show max 6 items to fill space without pushing button off-screen
+    const previewCategories = useMemo(() => {
+        let count = 0;
+        const maxItems = 6;
+        const result = [];
+        for (const cat of finalCategories) {
+            if (count >= maxItems) break;
+            const available = maxItems - count;
+            const itemsToTake = cat.items.slice(0, available);
+            if (itemsToTake.length > 0) {
+                result.push({ ...cat, items: itemsToTake });
+                count += itemsToTake.length;
+            }
+        }
+        return result;
+    }, [finalCategories]);
+
     return (
         <>
             <Pressable onPress={handleOpen}>
@@ -502,9 +519,9 @@ export const InteractivePriceGauge = ({
                                             </View>
                                         )}
 
-                                        {finalCategories.length > 0 && (
+                                        {previewCategories.length > 0 && (
                                             <View style={styles.categoriesSection}>
-                                                {finalCategories.slice(0, 1).map((cat, idx) => (
+                                                {previewCategories.map((cat, idx) => (
                                                     <View key={idx} style={styles.categoryBlock}>
                                                         <View style={styles.categoryHeader}>
                                                             <Ionicons name="star-outline" size={16} color={activeColor} />
@@ -621,7 +638,7 @@ const styles = StyleSheet.create({
         elevation: 10,
     },
     scrollContent: {
-        paddingBottom: 80,
+        paddingBottom: 32,
     },
     headerSection: {
         alignItems: 'center',
@@ -887,7 +904,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         borderRadius: 12,
         marginTop: 20,
-        marginBottom: 24,
+        marginBottom: 12,
         borderWidth: 1,
     },
     fullMenuBtnText: {
