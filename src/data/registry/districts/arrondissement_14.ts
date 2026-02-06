@@ -354,7 +354,7 @@ export const arrondissement_14Places: SurgicalPlace[] = [
             "festif": 15,
             "culturel": 15
         },
-        "description": "Une institution de Montparnasse figée dans les années 30. Ambiance feutrée, fond sonore jazz et service à l'ancienne. C'était le QG de Sartre et Beauvoir. L'endroit idéal pour déguster des classiques dans le calme, loin des modes passagères.",
+        "description": "Une véritable institution de Montparnasse qui a vu défiler le tout-Paris intellectuel, de Sartre à Marguerite Duras. Le Rosebud n'essaie pas d'être à la mode, il est le style. Avec ses banquettes en velours, sa moquette feutrée et ses serveurs en veste blanche, l'ambiance est celle d'un confort intemporel, propice aux confidences. La carte est une bible du cocktail classique, exécuté avec une précision chirurgicale et des doses généreuses. C'est le refuge idéal pour ceux qui cherchent une élégance discrète et une atmosphère jazz, loin de l'agitation m'as-tu-vu.",
         "insider_tip": "Arrivez avant 22h pour avoir une banquette. Goûtez le Chili con carne, la recette historique de la maison qui n'a jamais changé.",
         "specials": {
             "cuisine": [],
