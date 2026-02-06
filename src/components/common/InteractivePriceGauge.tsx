@@ -361,7 +361,7 @@ export const InteractivePriceGauge = ({
     // 🧠 SMART PREVIEW: Show max 6 items to fill space without pushing button off-screen
     const previewCategories = useMemo(() => {
         let count = 0;
-        const maxItems = 4;
+        const maxItems = 3;
         const result = [];
         for (const cat of finalCategories) {
             if (count >= maxItems) break;
@@ -516,7 +516,7 @@ export const InteractivePriceGauge = ({
                                         {smartTip && (
                                             <View style={styles.tipBox}>
                                                 <Ionicons name="bulb-outline" size={18} color={activeColor} />
-                                                <Text style={styles.tipText}>{smartTip}</Text>
+                                                <Text style={styles.tipText} numberOfLines={2}>{smartTip}</Text>
                                             </View>
                                         )}
 
@@ -770,12 +770,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'flex-start',
         gap: 12,
-        padding: 16,
+        padding: 12,
         backgroundColor: 'rgba(255,255,255,0.05)',
         borderRadius: 16,
         borderWidth: 1,
         borderColor: 'rgba(255,255,255,0.1)',
-        marginBottom: 24,
+        marginBottom: 16,
     },
     tipText: {
         flex: 1,
