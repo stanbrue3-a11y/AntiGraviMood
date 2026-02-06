@@ -144,7 +144,7 @@ export const InteractivePriceGauge = ({
             if (cat === 'bar') return 'bar';
             if (cat === 'café') return 'cafe';
         }
-        return pricing?.type || placeType;
+        return placeType || pricing?.type;
     }, [selectedCategories, pricing, placeType]);
 
     // Get reference data for this category from centralized config
