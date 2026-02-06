@@ -4,6 +4,7 @@ import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
 import { CrabIcon, SafeIcon } from './PriceIcons';
 import { useTheme } from '../../design';
+import { LinearGradient as ViewGradient } from 'expo-linear-gradient';
 import Animated, { useSharedValue, useAnimatedStyle, useAnimatedProps, withTiming, FadeIn } from 'react-native-reanimated';
 import * as Haptics from 'expo-haptics';
 import Svg, { Rect, Defs, LinearGradient, Stop } from 'react-native-svg';
@@ -301,8 +302,8 @@ export const InteractivePriceGauge = ({
 
     const placeholder = ""; // Keep scroll content clean
 
-    const animatedProps = useAnimatedProps(() => ({
-        width: Number(animatedWidth.value)
+    const animatedBarStyle = useAnimatedStyle(() => ({
+        width: `${animatedWidth.value}%`
     }));
 
     const handleOpen = () => {
@@ -437,23 +438,14 @@ export const InteractivePriceGauge = ({
                                                         <Text style={styles.benchmarkLabel}>STANDARD</Text>
                                                     </View>
 
-                                                    <Svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
-                                                        <Defs>
-                                                            <LinearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
-                                                                <Stop offset="0" stopColor={cursorColor} stopOpacity="0.75" />
-                                                                <Stop offset="1" stopColor={cursorColor} />
-                                                            </LinearGradient>
-                                                        </Defs>
-                                                        <AnimatedRect
-                                                            x="0"
-                                                            y="0"
-                                                            height="20"
-                                                            animatedProps={animatedProps}
-                                                            fill="url(#barGradient)"
-                                                            rx={10}
-                                                            ry={10}
+                                                    <Animated.View style={[styles.barFill, animatedBarStyle, { overflow: 'hidden' }]}>
+                                                        <ViewGradient
+                                                            colors={[cursorColor + 'BF', cursorColor]}
+                                                            start={{ x: 0, y: 0 }}
+                                                            end={{ x: 1, y: 0 }}
+                                                            style={{ flex: 1 }}
                                                         />
-                                                    </Svg>
+                                                    </Animated.View>
                                                 </View>
                                             </View>
                                             <View style={styles.barLabels}>
@@ -629,7 +621,7 @@ const styles = StyleSheet.create({
         elevation: 10,
     },
     scrollContent: {
-        paddingBottom: 60,
+        paddingBottom: 80,
     },
     headerSection: {
         alignItems: 'center',
@@ -894,7 +886,7 @@ const styles = StyleSheet.create({
         paddingVertical: 14,
         paddingHorizontal: 20,
         borderRadius: 12,
-        marginTop: 0,
+        marginTop: 20,
         marginBottom: 24,
         borderWidth: 1,
     },
