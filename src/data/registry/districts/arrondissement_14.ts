@@ -354,7 +354,7 @@ export const arrondissement_14Places: SurgicalPlace[] = [
             "festif": 15,
             "culturel": 15
         },
-        "description": "Le Rosebud n'est pas un décor, c'est une capsule temporelle. Tout est d'origine et patiné par le temps : la moquette épaisse qui étouffe les pas, les banquettes basses où l'on s'enfonce pour disparaître, et cette bibliothèque de vinyles jazz qui tourne en fond sonore. Ici, pas de mixologie prétentieuse, mais l'art du cocktail classique exécuté à la perfection par des serveurs en veste blanche qui connaissent la maison depuis toujours. C'était la cantine liquide de Sartre, Beauvoir et Marguerite Duras, et l'atmosphère intellectuelle et feutrée n'a pas bougé d'un iota. C'est l'anti-m'as-tu-vu : on y vient pour la pénombre rassurante, pour se couper du réseau, et pour boire le meilleur Old Fashioned de la Rive Gauche.",
+        "description": "Une institution de Montparnasse figée dans les années 30. Ambiance feutrée, fond sonore jazz et service à l'ancienne. C'était le QG de Sartre et Beauvoir. L'endroit idéal pour déguster des classiques dans le calme, loin des modes passagères.",
         "insider_tip": "Arrivez avant 22h pour avoir une banquette. Goûtez le Chili con carne, la recette historique de la maison qui n'a jamais changé.",
         "specials": {
             "cuisine": [],
