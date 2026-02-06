@@ -5,7 +5,7 @@
  * Smart Mode: Basé sur le rythme solaire parisien.
  */
 
-import React, { createContext, useContext, useState, useMemo, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useMemo, ReactNode, useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 import { darkTheme, lightTheme, moodColors, type Theme, type MoodType } from './tokens/colors';
 import { typography } from './tokens/typography';
@@ -77,7 +77,18 @@ export function ThemeProvider({ children, initialMode = 'dark' }: ThemeProviderP
         if (mode === 'light') return false;
         if (mode === 'smart') return getParisIsNight();
         return systemColorScheme === 'dark';
-    }, [mode, systemColorScheme]); // Note: Real-time update would require a timer, but init is sufficient for MVP
+    }, [mode, systemColorScheme]);
+
+    // SMART REFRESH: If mode is smart, we check periodically (e.g. every 5 mins)
+    // to see if we transitioned into night/day without restart.
+    const [_, forceUpdate] = useState(0);
+    useEffect(() => {
+        if (mode !== 'smart') return;
+        const interval = setInterval(() => {
+            forceUpdate(v => v + 1);
+        }, 1000 * 60 * 5); // 5 minutes
+        return () => clearInterval(interval);
+    }, [mode]);
 
     const theme = isDark ? darkTheme : lightTheme;
 

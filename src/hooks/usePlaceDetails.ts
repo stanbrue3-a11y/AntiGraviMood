@@ -28,14 +28,9 @@ export const usePlaceDetails = (selectedPlaceId: string | null) => {
     const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
     const toggleLike = usePlacesStore(state => state.toggleLike);
     const hydratePlace = usePlacesStore(state => state.hydratePlace);
-    const detailStorage = usePlacesStore(state => state.detailStorage);
-
     const place = useMemo(() => {
-        const basePlace = selectedPlaceId ? places.find(p => p.id === selectedPlaceId) : null;
-        if (!basePlace) return null;
-        const details = detailStorage[basePlace.id];
-        return details ? { ...basePlace, ...details } : basePlace;
-    }, [selectedPlaceId, places, detailStorage]);
+        return selectedPlaceId ? places.find(p => p.id === selectedPlaceId) : null;
+    }, [selectedPlaceId, places]);
 
     const activeIdRef = useRef<string | null>(null);
 
@@ -63,15 +58,21 @@ export const usePlaceDetails = (selectedPlaceId: string | null) => {
                 // Hydrate details in background
                 hydratePlace(selectedPlaceId);
 
+                // ⚡ INSTANT HYDRATION: If we already have the description (cached), skip the staggered UI wait.
+                if (place.description && place.description.length > 50) {
+                    setHydrationLevel(2);
+                    return;
+                }
+
                 // Stage 1: Meta & Core (增加到 200ms 为了让处理器降温)
                 const t1 = setTimeout(() => {
                     setHydrationLevel(1);
-                }, 200);
+                }, 150);
 
-                // Stage 2: Heavy Content (增加到 800ms)
+                // Stage 2: Heavy Content
                 const t2 = setTimeout(() => {
                     setHydrationLevel(2);
-                }, 800);
+                }, 500);
 
                 return () => { clearTimeout(t1); clearTimeout(t2); };
             });

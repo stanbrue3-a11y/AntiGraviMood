@@ -4,6 +4,7 @@
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring, runOnJS, interpolate, Extrapolation } from 'react-native-reanimated';
 import { Image } from 'expo-image';
+import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, Pressable, Platform } from 'react-native';
 import { useLocalSearchParams, router } from 'expo-router';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -33,12 +34,18 @@ export default function PlaceDetailScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
     const { theme, isDark } = useTheme();
 
-    // SV-Refactor: Use domain-specific store
     const places = usePlacesStore(state => state.places);
     const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
     const toggleLike = usePlacesStore(state => state.toggleLike);
+    const hydratePlace = usePlacesStore(state => state.hydratePlace);
 
     const place = places.find(p => p.id === id);
+
+    useEffect(() => {
+        if (id) {
+            hydratePlace(id);
+        }
+    }, [id]);
 
     if (!place) return null; // Or Error Loading
 
@@ -114,13 +121,16 @@ export default function PlaceDetailScreen() {
                         </SafeAreaView>
 
                         <View style={styles.heroContent}>
-                            <Text style={styles.heroTitle}>{place.name}</Text>
+                            <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>
+                                <Text style={styles.heroTitle}>{place.name}</Text>
+                                <Text style={{ color: 'rgba(255,255,255,0.4)', fontSize: 10, fontWeight: '900' }}>v19</Text>
+                            </View>
                             <Text style={styles.heroAddress}>{place.location.address}</Text>
                         </View>
                     </View>
 
-                    {/* DETAILS Content (Copied from Sheet) */}
                     <View style={styles.detailsContainer}>
+                        {/* 1. META ROW (Mood / Category) */}
                         <View style={styles.metaRow}>
                             <View style={[styles.moodBadge, { backgroundColor: accentColor + '20' }]}>
                                 <Text style={[styles.moodText, { color: accentColor }]}>{dominantMood.toUpperCase()}</Text>
@@ -129,7 +139,36 @@ export default function PlaceDetailScreen() {
                             <Text style={[styles.metaText, { color: accentColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
                         </View>
 
-                        {/* PRICE GAUGE - Surgical Implementation */}
+                        {/* 2. CUISINE HIGHLIGHT SECTION (Just above Insider) */}
+                        {place.practical_info?.cuisine_type && (
+                            <View style={[styles.cuisineBox, { borderColor: accentColor + '20' }]}>
+                                <View style={styles.cuisineHeader}>
+                                    <Ionicons name="restaurant-outline" size={16} color={accentColor} />
+                                    <Text style={[styles.cuisineTitle, { color: accentColor }]}>SIGNATURE CULINAIRE</Text>
+                                </View>
+                                <Text style={styles.cuisineText}>{place.practical_info.cuisine_type}</Text>
+                            </View>
+                        )}
+
+                        {/* 3. L'APPARTÉ DE L'INITIÉ (Insider Tip) */}
+                        {place.insider_tip && (
+                            <View style={[styles.insiderBox, { borderColor: accentColor + '30', backgroundColor: accentColor + '05' }]}>
+                                <View style={styles.insiderHeader}>
+                                    <Ionicons name="sparkles-outline" size={18} color={accentColor} />
+                                    <Text style={[styles.insiderTitle, { color: accentColor }]}>L'APPARTÉ DE L'INITIÉ</Text>
+                                </View>
+                                <Text style={styles.insiderText}>{place.insider_tip}</Text>
+                            </View>
+                        )}
+
+                        {/* 4. DESCRIPTION SECTION */}
+                        <View style={{ marginBottom: 32 }}>
+                            <Text style={styles.description}>
+                                {place.description || `Un lieu ${dominantMood} incontournable à Paris. Venez découvrir l'ambiance unique.`}
+                            </Text>
+                        </View>
+
+                        {/* 5. PRICE GAUGE - Surgical Implementation */}
                         <View style={{ marginBottom: 24 }}>
                             <InteractivePriceGauge
                                 pricing={place.pricing}
@@ -148,7 +187,7 @@ export default function PlaceDetailScreen() {
                                     if (['park', 'garden', 'walk'].includes(cat)) return 'park';
                                     return 'restaurant';
                                 })()}
-                                categories={place.practical_info?.price_info?.items ? place.practical_info.price_info.items.map(cat => ({
+                                categories={(place.pricing?.menu_items || place.practical_info?.price_info?.items || []).map(cat => ({
                                     icon: cat.category.includes('BOISSON') ? 'wine-outline' :
                                         cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
                                             cat.category.includes('PLAT') ? 'flame-outline' :
@@ -158,15 +197,11 @@ export default function PlaceDetailScreen() {
                                         name: item.name,
                                         price: item.price
                                     }))
-                                })) : []}
+                                }))}
                                 activeColor={accentColor}
                                 smartTip={place.practical_info?.price_info?.smart_tip}
                             />
                         </View>
-
-                        <Text style={styles.description}>
-                            {place.description || `Un lieu ${dominantMood} incontournable à Paris. Venez découvrir l'ambiance unique.`}
-                        </Text>
 
                         {/* 3. Moments Partagés (Restored) */}
                         <Text style={styles.sectionTitle}>Moments partagés ({place.social_preview?.moment_count || 120})</Text>
@@ -180,7 +215,7 @@ export default function PlaceDetailScreen() {
                         </ScrollView>
 
                         <Text style={styles.sectionTitle}>Infos pratiques</Text>
-                        <View style={styles.infoRow}><Ionicons name={CATEGORY_ICONS[place.category] || 'bookmark'} size={20} color={accentColor} /><Text style={[styles.infoText, { textTransform: 'capitalize', color: accentColor, fontWeight: '600' }]}>{place.subcategory || place.category}</Text></View>
+                        <View style={styles.infoRow}><Ionicons name={CATEGORY_ICONS[place.category] || 'bookmark'} size={20} color={accentColor} /><Text style={[styles.infoText, { textTransform: 'capitalize', color: accentColor, fontWeight: '600' }]}>{place.subcategories?.[0] || place.category}</Text></View>
                         <View style={styles.infoRow}><Ionicons name="time-outline" size={20} color={accentColor} /><Text style={styles.infoText}>Fermeture à {place.category === 'club' ? '06:00' : '02:00'}</Text></View>
                         <View style={styles.infoRow}><Ionicons name="logo-instagram" size={20} color={accentColor} /><Text style={styles.infoText}>{place.media?.instagram_handle || '@moodmap_paris'}</Text></View>
                         <View style={styles.infoRow}><Ionicons name="location-outline" size={20} color={accentColor} /><Text style={styles.infoText}>{place.location.arrondissement}ème • Métro {place.location.nearest_metro}</Text></View>
@@ -205,7 +240,7 @@ const styles = StyleSheet.create({
     content: { flex: 1 },
     contentContainer: { paddingBottom: 100 },
 
-    heroContainer: { height: 400, width: '100%', position: 'relative' },
+    heroContainer: { height: 650, width: '100%', position: 'relative' },
     heroImageWrapper: { width: '100%', height: '100%' },
     heroImage: { width: '100%', height: '100%' },
     heroOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.1)' },
@@ -234,6 +269,58 @@ const styles = StyleSheet.create({
 
     infoRow: { flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 14 },
     infoText: { fontSize: 16, color: '#111827', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), fontWeight: '500' },
+
+    // Insider Box
+    insiderBox: {
+        padding: 20,
+        borderRadius: 20,
+        borderWidth: 1,
+        marginBottom: 32,
+    },
+    insiderHeader: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 8,
+        marginBottom: 12,
+    },
+    insiderTitle: {
+        fontSize: 13,
+        fontWeight: '800',
+        letterSpacing: 1,
+    },
+    insiderText: {
+        fontSize: 15,
+        lineHeight: 24,
+        color: '#4B5563',
+        fontStyle: 'italic',
+        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+    },
+
+    // Cuisine Box (New)
+    cuisineBox: {
+        padding: 16,
+        borderRadius: 16,
+        borderWidth: 1.5,
+        marginBottom: 24,
+        backgroundColor: '#fff',
+    },
+    cuisineHeader: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 6,
+        marginBottom: 6,
+    },
+    cuisineTitle: {
+        fontSize: 11,
+        fontWeight: '900',
+        letterSpacing: 1.5,
+    },
+    cuisineText: {
+        fontSize: 17,
+        fontWeight: '600',
+        color: '#111',
+        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
+    },
 
     floatingCtaContainer: { position: 'absolute', bottom: 0, left: 0, right: 0, alignItems: 'center', zIndex: 20 },
     ctaBubble: { flexDirection: 'row', alignItems: 'center', paddingVertical: 14, paddingHorizontal: 28, borderRadius: 30, shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.3, shadowRadius: 8, elevation: 8 },

@@ -24,7 +24,7 @@ export const IconService = {
      * Resolve the icon category based on the place data.
      */
     getIconCategory: (place: Place): IconCategory => {
-        const cat = place.category?.toLowerCase() || '';
+        const cat = (place.category || '').toLowerCase();
         const subString = (Array.isArray(place.subcategory)
             ? place.subcategory.join(' ')
             : (place.subcategory || '')).toLowerCase();

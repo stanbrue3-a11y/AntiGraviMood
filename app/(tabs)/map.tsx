@@ -17,7 +17,7 @@ import { useTheme } from '../../src/design';
 
 // Components
 import { PlaceDetailSheet } from '../../src/components/place/PlaceDetailSheet';
-import { FilterSheet } from '../../src/components/feed/FilterSheet';
+import { FilterActionSheet } from '../../src/components/common/FilterActionSheet';
 // import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters'; // REPLACED
 // import { MapImages } from '../../src/components/map/MapImages'; // Removed
 // import { MapLayers } from '../../src/components/map/MapLayers'; // Removed
@@ -296,7 +296,7 @@ export default function MapScreen() {
 
             {isFilterSheetVisible && (
                 <View style={styles.filterSheetLayer} pointerEvents="box-none">
-                    <FilterSheet
+                    <FilterActionSheet
                         visible={true}
                         onClose={() => setFilterSheetVisible(false)}
                     />

@@ -14,17 +14,18 @@ import { MagazineCard } from './MagazineCard';
 import { PlaceSocialFeed } from './PlaceSocialFeed';
 import { OpeningHoursSection } from './OpeningHoursSection';
 import { Skeleton } from '../common/Skeleton';
+import { CrabCalculator } from '../../lib/CrabCalculator';
 
 
 export type SectionType =
     | 'hero'
     | 'meta'
+    | 'magazine' // Promoted to top!
     | 'price_gauge'
     | 'hours'
     | 'description'
     | 'actions'
     | 'metro'
-    | 'magazine'
     | 'social';
 
 interface PlaceSectionProps {
@@ -67,14 +68,14 @@ export const PlaceSection = React.memo(({
 
     // ⚡ FORENSIC HYDRATION MAPPING
     const isReadyForSection = React.useMemo(() => {
-        // Hero is always present (has internal handoff)
+        // Hero is always present
         if (type === 'hero') return true;
 
-        // Stage 1: Meta Headers (Mounts Level 1)
-        if (hydrationLevel >= 1 && (type === 'meta' || type === 'actions' || type === 'price_gauge' || type === 'description' || type === 'hours' || type === 'metro')) return true;
+        // Stage 1: Core Content (Mounts Level 1)
+        if (hydrationLevel >= 1 && (type === 'meta' || type === 'magazine' || type === 'actions' || type === 'price_gauge' || type === 'description' || type === 'hours' || type === 'metro')) return true;
 
         // Stage 2: Heavy Content (Mounts Level 2)
-        if (hydrationLevel >= 2 && (type === 'social' || type === 'magazine')) return true;
+        if (hydrationLevel >= 2 && (type === 'social')) return true;
 
         return false;
     }, [type, hydrationLevel]);
@@ -86,7 +87,12 @@ export const PlaceSection = React.memo(({
 
         return (
             <View style={sectionStyles.scrollPadding}>
-                <Skeleton height={type === 'meta' ? 80 : 40} borderRadius={12} style={{ marginVertical: 8 }} />
+                {/* 🦕 SQUELETTES ÉLANCÉS : Alignés sur la taille réelle des composants pour éviter le Layout Shift */}
+                <Skeleton
+                    height={type === 'meta' ? 50 : type === 'magazine' ? 140 : type === 'price_gauge' ? 60 : 40}
+                    borderRadius={16}
+                    style={{ marginVertical: 12, opacity: 0.6 }}
+                />
             </View>
         );
     }
@@ -116,6 +122,8 @@ export const PlaceSection = React.memo(({
                 </View>
             );
         case 'price_gauge':
+            // 🔍 DEBUG: Check menu_items presence
+            console.log(`🍽️ [PlaceSection] ${place.name} pricing:`, JSON.stringify(place.pricing?.menu_items?.length || 0), 'menu items');
             return (
                 <View key="price_gauge" style={sectionStyles.scrollPadding}>
                     <InteractivePriceGauge
@@ -126,14 +134,12 @@ export const PlaceSection = React.memo(({
                             <View style={[sectionStyles.gaugePill, { backgroundColor: theme.surface, borderColor: theme.border }]}>
                                 <CrabIcon size={18} color={primaryColor} />
                                 <Text style={[sectionStyles.gaugeLabel, { color: primaryColor }]}>
-                                    {place.pricing?.budget_avg !== undefined
-                                        ? (place.pricing.budget_avg <= 7 ? 'C\'est les Pinces' : 'Un peu de Pince')
-                                        : 'Barre des Pinces'}
+                                    {place.pricing ? CrabCalculator.getMetrics(place.pricing).label.toUpperCase() : "CHARGEMENT..."}
                                 </Text>
                                 <View style={[sectionStyles.gaugeBarContainer, { backgroundColor: isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }]}>
                                     <View style={[sectionStyles.miniBarFill, {
-                                        width: `${100 - (place.pricing ? (place.pricing.budget_avg / 50 * 100) : 50)}%`,
-                                        backgroundColor: primaryColor
+                                        width: `${place.pricing ? CrabCalculator.getMetrics(place.pricing).percent : 50}%`,
+                                        backgroundColor: place.pricing ? CrabCalculator.getMetrics(place.pricing).color : primaryColor
                                     }]} />
                                 </View>
                                 <Ionicons name="chevron-forward" size={16} color={primaryColor} style={{ opacity: 0.4 }} />

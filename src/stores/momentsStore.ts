@@ -32,11 +32,13 @@ export const useMomentsStore = create<MomentsState>((set, get) => ({
         if (get().isInitialized) return;
         set({ isLoading: true });
         try {
+            logger.log("🌊 [MomentsStore] Fetching Social Core...");
+            await dataService.init();
             const moments = await dataService.moments.getMoments();
             set({ moments, isInitialized: true });
             logger.log(`✅ [MomentsStore] Hydrated ${moments.length} moments.`);
-        } catch (error) {
-            logger.error("❌ [MomentsStore] Hydration failed:", error);
+        } catch (error: any) {
+            logger.error("❌ [MomentsStore] Hydration failed:", error?.message || String(error));
         } finally {
             set({ isLoading: false });
         }
@@ -66,7 +68,8 @@ export const useMomentsStore = create<MomentsState>((set, get) => ({
             },
             likes: 0,
             isLikedByMe: false,
-            verbatimDate: 'À l\'instant'
+            verbatimDate: 'À l\'instant',
+            is_verified: false
         };
 
         // Optimistic Update
@@ -77,8 +80,8 @@ export const useMomentsStore = create<MomentsState>((set, get) => ({
         try {
             await dataService.moments.saveMoment(newMoment);
             logger.log("💾 [MomentsStore] Moment persisted to SQLite.");
-        } catch (error) {
-            logger.error("❌ [MomentsStore] Persistence failed, rolling back:", error);
+        } catch (error: any) {
+            logger.error("❌ [MomentsStore] Persistence failed, rolling back:", error?.message || String(error));
             set(state => ({
                 moments: state.moments.filter(m => m.id !== newMoment.id)
             }));
@@ -105,8 +108,8 @@ export const useMomentsStore = create<MomentsState>((set, get) => ({
         try {
             const updated = get().moments.find(m => m.id === id);
             if (updated) await dataService.moments.saveMoment(updated);
-        } catch (error) {
-            logger.error("❌ [MomentsStore] Like persistence failed.");
+        } catch (error: any) {
+            logger.error("❌ [MomentsStore] Like persistence failed.", error?.message || String(error));
             // Revert on failure (Omitted for brevity in this step, but recommended for SV-grade)
         }
     },
@@ -117,8 +120,8 @@ export const useMomentsStore = create<MomentsState>((set, get) => ({
         }));
         try {
             await dataService.moments.deleteMoment(id);
-        } catch (error) {
-            logger.error("❌ [MomentsStore] Deletion failed:", error);
+        } catch (error: any) {
+            logger.error("❌ [MomentsStore] Deletion failed:", error?.message || String(error));
         }
     }
 }));

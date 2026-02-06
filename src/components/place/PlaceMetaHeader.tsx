@@ -66,10 +66,11 @@ const styles = StyleSheet.create({
     },
     categoryPath: {
         flexShrink: 1,
-        fontSize: 17,
-        fontWeight: '700',
-        fontFamily: 'Inter_700Bold',
+        fontSize: 16,
+        fontWeight: '600',
+        fontFamily: 'Inter_600SemiBold',
         marginRight: 6,
+        letterSpacing: -0.2,
     },
     ratingBox: {
         flexDirection: 'row',

@@ -106,8 +106,21 @@ export const useSearchStore = create<SearchState>((set) => ({
         pintLimit: null,
         dishLimit: null,
         coffeeLimit: null,
-    })
+    }),
 }));
+
+// RELATIONAL BRIDGE 🏛️
+// Automatically react to PlacesStore readiness
+import { usePlacesStore } from './placesStore';
+
+usePlacesStore.subscribe((state) => {
+    if (state.isReady) {
+        const searchStore = useSearchStore.getState();
+        searchStore.warmUpPrices();
+        // MoodEngine is already inited by placesStore, so we are good to go
+        console.log('🏛️ [SearchStore] Bridge Solidified: Data detected and ready.');
+    }
+});
 
 // Cross-domain selector
 export const selectFilteredResults = (places: Place[]) => {
@@ -138,7 +151,7 @@ export const selectFilteredResults = (places: Place[]) => {
         // 2. Adaptive Pricing Intelligence 🧠
         // If any limit is set, we check the relevant field based on category/vibes
         if (p.pricing) {
-            const isCocktailBar = p.vibes.some(v => v.toLowerCase().includes('cocktail'));
+            const isCocktailBar = p.vibes?.some(v => typeof v === 'string' && v.toLowerCase().includes('cocktail'));
             const isClub = p.category === 'club';
             const isRestaurant = p.category === 'restaurant' || p.category === 'bouillon';
             const isCafe = p.category === 'café';

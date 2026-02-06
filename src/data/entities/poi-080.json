@@ -38,127 +38,78 @@
     "Gourmand"
   ],
   "practical_info": {
-    "bouton_réserver": "https://bouillonracine.fr/reservation/",
-    "réservation_obligatoire": true,
-    "terrasse_extérieure": false,
-    "accessibilité": true,
-    "téléphone": "+33 1 43 54 11 69",
-    "réservation": "3-5 jrs d'avance",
-    "ambiance": "BROUHAHA (Brasserie vivante)",
-    "boisson_signature": "Bières artisanales du Nord",
-    "incontournable": "Cuisine Française Traditionnelle",
-    "small_talk": [
-      "Décor Art Nouveau classé monument historique.",
-      "Souvent complet le soir, visez 18h30 pour du sans résa.",
-      "Ambiance bruyante typique : venez pour le lieu."
-    ],
-    "bouton_label": "Site/Réserver",
+    "link_booking": "https://bouillonracine.fr/",
+    "link_privatisation": "https://bookings.zenchef.com/privatisation?rid=132&lang=fr&pid=1001",
+    "link_gift": "https://bouillonracine.fr/bons-d-achats/",
+    "reservation_required": true,
+    "outdoor_seating": false,
+    "accessibility": true,
+    "phone": "+33 1 44 32 15 60",
+    "on_boit_quoi": "Vins de petits producteurs, bières artisanales du Nord et cocktails signatures au Bar du Bouillon.",
+    "on_ecoute_quoi": "Bruit de brasserie animé et discussions vivantes.",
+    "smart_tip": "Le véritable secret est le premier étage, souvent plus calme, parfait pour admirer les verrières Art Nouveau de près. Les box en bois sculpté sur les côtés offrent une intimité rare dans le brouhaha typique d'un bouillon.",
     "price_range": 3,
-    "website": "http://bouillonracine.fr/",
-    "terrasse": "Pas de terrasse",
-    "bouche_metro": "Odéon",
-    "smart_tip": "Monument historique Belle Époque. Réservez pour admirer la salle Art Nouveau sans presser.",
-    "cuisine_type": "Bouillon Belle Époque"
+    "website": "https://bouillonracine.fr/",
+    "cuisine_type": "Bouillon Historique & Cuisine de Saison"
   },
   "real_talk": {
-    "text": "Le plus beau bouillon de Paris. Art Nouveau intact (miroirs, boiseries, faïences), on mange littéralement dans un monument historique.",
-    "must_eat": "Souris d'agneau confite, Escargots de Bourgogne.",
-    "le_secret": "Les box en bois sculpté sur les côtés offrent une intimité rare pour ce genre d'établissement bruyant.",
-    "le_son": "Bruit de brasserie typique, animé et vivant.",
-    "le_must": "Le décor classé de 1906, absolument éblouissant."
+    "text": "Le plus beau bouillon de Paris. Ici, on mange littéralement dans un monument historique. L'Art Nouveau y est intact, des miroirs biseautés aux céramiques irisées.",
+    "must_eat": "Le Parmentier d'agneau au thym ou le Filet de canette et sa mousseline de pois chiches.",
+    "le_secret": "Ne manquez pas le Bar du Bouillon attenant pour un cocktail dans une ambiance feutrée après le dîner.",
+    "le_son": "Animation brasserie, vivant et chaleureux.",
+    "le_must": "Le décor de 1906 classé Monument Historique."
   },
   "pricing": {
     "type": "restaurant",
     "budget_avg": 35,
-    "value_score": 90,
+    "value_score": 85,
     "category_percentile": 20,
     "is_free": false,
-    "items": [
-      {
-        "category": "ENTRÉES",
-        "items": [
-          {
-            "name": "Œuf mayonnaise",
-            "price": "4,50€"
-          },
-          {
-            "name": "Escargots de Bourgogne (6)",
-            "price": "7,50€"
-          },
-          {
-            "name": "Pâté en croûte",
-            "price": "8,50€"
-          }
-        ]
-      },
-      {
-        "category": "PLATS",
-        "items": [
-          {
-            "name": "Saucisse au couteau, purée maison",
-            "price": "13,50€"
-          },
-          {
-            "name": "Confit de canard IGP, pommes grenailles",
-            "price": "16,50€"
-          },
-          {
-            "name": "Quenelle de brochet, sauce Nantua",
-            "price": "14,00€"
-          }
-        ]
-      },
-      {
-        "category": "DESSERTS",
-        "items": [
-          {
-            "name": "Profiterole géante chocolat chaud",
-            "price": "7,50€"
-          },
-          {
-            "name": "Tarte Tatin, crème fraîche",
-            "price": "6,50€"
-          }
-        ]
-      }
-    ],
-    "main_dish_price": 25,
-    "pint_price": 6,
-    "coffee_price": 2.5,
-    "last_updated": "2025-01-26",
-    "booking_url": "https://bouillonracine.fr/reservation/",
-    "extraction_reasoning": "Surgical Correction - Verified Signature Dish",
+    "pint_price": 8.0,
+    "coffee_price": 3.0,
+    "pint_hh": null,
+    "source_url": "https://bouillonracine.fr/la-carte/",
+    "last_updated": "2025-02-03",
+    "extraction_reasoning": "Surgical Verification 2025 - Official Menu Scan",
     "confidence_score": 100,
     "anchor": {
-      "price": 25,
-      "label": "Souris d'Agneau",
+      "price": 19.5,
+      "label": "Formule Midi (L-V)",
       "source": "verified"
     },
-    "fair_price": 25,
+    "fair_price": 19.5,
     "menu_items": [
       {
-        "category": "ENTRÉES",
+        "category": "FORMULES",
         "items": [
           {
-            "name": "Œuf mollet frit Comté",
-            "price": "11€"
+            "name": "Formule Midi (Lun-Ven)",
+            "price": "19.50€"
           },
           {
-            "name": "Gaspacho melon pastèque",
-            "price": "10.5€"
+            "name": "Menu 1900 (Complet)",
+            "price": "44.00€"
+          },
+          {
+            "name": "Menu Enfant (-12 ans)",
+            "price": "15.50€"
           }
         ]
       },
       {
-        "category": "PLATS",
+        "category": "À LA CARTE",
         "items": [
           {
-            "name": "Confit de canard maison",
-            "price": "19€"
+            "name": "Oeuf parfait aux girolles",
+            "price": "12.00€"
           },
           {
-            "name": "Poisson du jour",
-            "price": "21€"
+            "name": "Soupe du jour",
+            "price": "9.75€"
+          },
+          {
+            "name": "Parmentier d'agneau au thym",
+            "price": "26.00€"
           }
         ]
       }
@@ -172,13 +123,15 @@
   },
   "metadata": {
     "verified": true,
-    "source": "surgical-clean-2025",
-    "last_enrichment": "2026-01-26T16:02:52.944Z"
+    "verification_grade": "Surgical",
+    "source": "official-website-scrub",
+    "last_enrichment": "2026-02-03T20:45:00Z"
   },
   "categories": [
-    "restaurant"
+    "restaurant",
+    "historique"
   ],
-  "description": "Véritable chef-d'œuvre Art Nouveau classé, cet établissement fondé en 1906 est l'un des rares rescapés de l'âge d'or des bouillons parisiens. On y dîne au milieu des miroirs biseautés, des boiseries chantournées et des céramiques d'époque, dans une atmosphère de brasserie historique éblouissante.",
+  "description": "Fondé en 1906 par Camille Chartier, le Bouillon Racine est une capsule temporelle de la Belle Époque nichée au cœur du Quartier Latin. Classé Monument Historique depuis 1995, il éblouit par son décor Art Nouveau authentique : boiseries sculptées, miroirs biseautés et mosaïques irisées. Ancien refuge des professeurs de la Sorbonne dans les années 60, ce 'bouillon' a su conserver son âme populaire tout en montant en gamme sous la houlette du chef Alexandre Belthoise. On y vient autant pour admirer l'architecture monumentale que pour savourer une cuisine française généreuse et saisonnière dans une atmosphère élégante et éternelle.",
   "google_rating": 4.1,
   "google_ratings_count": 9400
 }

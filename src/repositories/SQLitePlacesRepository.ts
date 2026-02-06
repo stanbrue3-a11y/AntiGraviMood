@@ -12,7 +12,8 @@ export class SQLitePlacesRepository implements IPlacesRepository {
             `SELECT id, name, slug, category, subcategory, dominant_mood, lat, lng, arrondissement, address,
               main_color, map_icon, verified, rating, user_ratings_total, hero_image, instagram_handle,
               budget_avg, is_free, budget_unit, pint_price, cocktail_price, coffee_price, main_dish_price, category_percentile,
-              mood_scores_json, social_json, categories_json, hours_json, nearest_metro, metro_line_json, editorial_json, vibes_json
+              mood_scores_json, social_json, categories_json, hours_json, nearest_metro, metro_line_json, editorial_json, vibes_json,
+              real_talk_json, description
        FROM places`
         );
         if (signal?.aborted) throw new Error("AbortError");
@@ -39,7 +40,8 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       SELECT p.id, p.name, p.slug, p.category, p.subcategory, p.dominant_mood, p.lat, p.lng, p.arrondissement, p.address,
              p.main_color, p.map_icon, p.verified, p.rating, p.user_ratings_total, p.hero_image, p.instagram_handle,
              p.budget_avg, p.is_free, p.budget_unit, p.pint_price, p.cocktail_price, p.coffee_price, p.main_dish_price, p.category_percentile,
-             p.mood_scores_json, p.social_json, p.categories_json, p.hours_json, p.editorial_json, p.nearest_metro, p.metro_line_json, p.vibes_json
+             p.mood_scores_json, p.social_json, p.categories_json, p.hours_json, p.editorial_json, p.pricing_json,
+             p.nearest_metro, p.metro_line_json, p.vibes_json
       FROM places p
     `;
         const whereClauses: string[] = [];
@@ -121,13 +123,19 @@ export class SQLitePlacesRepository implements IPlacesRepository {
     }
 
     async getPlaceDetails(id: string, signal?: AbortSignal): Promise<Place | null> {
+        console.log(`🛰️ [SQL:Details] Fetching payload for: ${id}`);
         const row = await this.db.getFirstAsync<PlaceRow>(
-            `SELECT p.*, description, editorial_json, pricing_json, hours_json, media_json, ai_insights_json 
+            `SELECT p.*, description, editorial_json, pricing_json, hours_json, media_json, ai_insights_json, real_talk_json 
        FROM places p WHERE p.id = ?`,
             [id]
         );
         if (signal?.aborted) throw new Error("AbortError");
-        if (!row) return null;
+        if (!row) {
+            console.error(`❌ [SQL:Details] No row found for: ${id}`);
+            return null;
+        }
+
+        console.log(`🛰️ [SQL:Details] Found ${row.name || 'Unknown'}. desc_len=${row.description?.length || 0}, rt_len=${row.real_talk_json?.length || 0}`);
         const place = PlaceMapper.mapRowToPlace(row);
         return PlaceMapper.hydrateDetails(place, row);
     }

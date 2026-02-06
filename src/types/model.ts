@@ -17,8 +17,8 @@ export interface MoodCriteria {
 }
 
 export interface MoodScore {
-    overall: number;
-    criteria: MoodCriteria;
+    overall: number; // 0-100
+    criteria?: MoodCriteria;
 }
 
 export type MoodType = 'chill' | 'festif' | 'culturel';
@@ -56,6 +56,10 @@ export interface PricingBase {
         label: string;
         source: string;
     };
+    menu_items?: {
+        category: string;
+        items: { name: string; price: string }[];
+    }[];
 }
 
 /** Restaurant-specific pricing */
@@ -143,12 +147,12 @@ export interface Place {
             lng: number;
         };
         nearest_metro: string;
-        metro_lines?: (string | number)[];
+        metro_lines: string[];
         google_id?: string;
     };
     category: string;
     categories?: string[];
-    subcategory: string;
+    subcategories: string[];
     mood_scores: {
         chill: MoodScore;
         festif: MoodScore;
@@ -172,14 +176,11 @@ export interface Place {
     real_talk?: RealTalk;
     practical_info: {
         primary_status: 'sans_resa' | 'resa_conseillee' | 'resa_obligatoire' | null;
-        tags: string[];
         main_action: {
             type: 'book' | 'shotgun' | 'site';
             url: string;
             label: string;
         } | null;
-        accessibility: boolean;
-        wifi_available: boolean;
         opening_hours: string;
         price_range: number;
         happy_hour?: string | {
@@ -193,6 +194,15 @@ export interface Place {
         specialty?: string;
         smart_tip?: string;
         entry_fee?: string;
+        cuisine_type?: string;
+        tags?: string[]; // ['terrasse', 'pelouse_autorisee', 'vins_nature', etc.]
+        price_info?: {
+            smart_tip?: string;
+            items: {
+                category: string;
+                items: { name: string; price: string }[];
+            }[];
+        };
     };
     opening_hours?: {
         standard: string;
@@ -212,6 +222,11 @@ export interface Place {
         social_vibe?: { text: string; icon?: string; tag?: string };
         culture_snack?: { text: string; icon?: string; tag?: string };
         vivant_tip?: { text: string; icon?: string; tag?: string };
+    };
+    insider_tip?: string;
+    specials?: {
+        cuisine?: string[];
+        drinks?: string[];
     };
 }
 
@@ -240,4 +255,5 @@ export interface Moment {
     likes: number;
     isLikedByMe: boolean;
     verbatimDate?: string;
+    is_verified?: boolean;
 }

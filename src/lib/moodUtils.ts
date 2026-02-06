@@ -11,7 +11,7 @@ export const CATEGORIES_FESTIF = ['club', 'boite-de-nuit', 'nightclub', 'disco',
  * Brutally enforced across Map, List, and Search.
  */
 export const getDominantMood = (place: Place): MoodType => {
-    const cat = place.category?.toLowerCase() || '';
+    const cat = (place.category || '').toLowerCase();
     const sub = Array.isArray(place.subcategory) ? place.subcategory.map(s => s.toLowerCase()) : [];
 
     // 1. Hard Rules (Category Based)

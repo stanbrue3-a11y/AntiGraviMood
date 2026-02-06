@@ -18,7 +18,8 @@ export const PlaceDescription = React.memo(({ place, primaryColor }: PlaceDescri
     const [expanded, setExpanded] = useState(false);
 
     // Get description safely (history/story)
-    const description = (place.practical_info as any)?.description || place.description;
+    const description = place.description || "";
+    const primarySubcategory = place.subcategories?.[0] || "";
 
     if (!description) return null;
 

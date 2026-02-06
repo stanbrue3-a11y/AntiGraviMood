@@ -17,7 +17,7 @@ import * as Haptics from 'expo-haptics';
 // Sub-components
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
 // import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters';
-import { FilterSheet } from '../../src/components/feed/FilterSheet';
+import { FilterActionSheet } from '../../src/components/common/FilterActionSheet';
 import { FlashList } from '@shopify/flash-list';
 
 
@@ -50,7 +50,13 @@ export default function DiscoverScreen() {
     })));
 
     // Derived: Computed Filtered Results
-    const filteredPlaces = useMemo(() => selectFilteredResults(rawPlaces), [rawPlaces]);
+    const filteredPlaces = useMemo(() => selectFilteredResults(rawPlaces), [
+        rawPlaces,
+        searchQuery,
+        selectedMoods,
+        selectedCategories,
+        timeRange
+    ]);
 
     // 3. UI Store (Interactions)
     const {
@@ -142,8 +148,8 @@ export default function DiscoverScreen() {
                 <PlaceDetailSheet />
 
                 {filterVisible && (
-                    <FilterSheet
-                        visible={true} // Always true when mounted
+                    <FilterActionSheet
+                        visible={true}
                         onClose={() => setFilterVisible(false)}
                     />
                 )}
