@@ -556,7 +556,7 @@ export const arrondissement_3Places: SurgicalPlace[] = [
             "avg_budget": 18,
             "is_free": false,
             "pint_price": 9,
-            "cocktail_price": 0,
+            "cocktail_price": 16,
             "coffee_price": 0,
             "dish_price": 0
         },
@@ -766,7 +766,7 @@ export const arrondissement_3Places: SurgicalPlace[] = [
             "avg_budget": 15,
             "is_free": false,
             "pint_price": 8,
-            "cocktail_price": 0,
+            "cocktail_price": 14,
             "coffee_price": 0,
             "dish_price": 0
         },
