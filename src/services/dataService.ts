@@ -10,6 +10,7 @@ import { IPlacesRepository } from '../repositories/IPlacesRepository';
 import { SQLitePlacesRepository } from '../repositories/SQLitePlacesRepository';
 import { IMomentsRepository } from '../repositories/IMomentsRepository';
 import { SQLiteMomentsRepository } from '../repositories/SQLiteMomentsRepository';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /**
  * DATASERVICE v5.0 (Legacy Protocol Stabilization)
@@ -58,7 +59,7 @@ export class DataService {
             try {
                 logger.log("🧠 [DataService] HARD IGNITION START (LEGACY PROTOCOL)...");
 
-                const dbName = 'moodmap_v4.db';
+                const dbName = 'moodmap_v22.db'; // Complete Menu Fix
                 const dbDir = `${FileSystem.documentDirectory}SQLite`;
                 const dbPath = `${dbDir}/${dbName}`;
 
@@ -71,19 +72,43 @@ export class DataService {
 
                 // B. ASSET PAYLOAD EXTRACTION
                 logger.log("📦 [DataService] Extracting binary payload...");
-                const binary = Asset.fromModule(require('../../assets/moodmap_v4.db'));
-                await binary.downloadAsync();
+                // Total rotation to v22
+                const asset = Asset.fromModule(require('../../assets/moodmap_v22.db'));
+                await asset.downloadAsync();
 
-                if (!binary.localUri) {
+                if (!asset.localUri) {
                     throw new Error("Internal failure: Binary localUri is null.");
                 }
 
                 // C. ATOMIC DEPLOYMENT (FORCED FOR SILICON VALLEY MIGRATION)
-                logger.log("🚚 [DataService] Deploying fresh core to: " + dbPath);
-                await FileSystem.copyAsync({
-                    from: binary.localUri,
-                    to: dbPath
-                });
+                logger.log("🚚 [DataService] Checking core status at: " + dbPath);
+
+                const dbInfo = await FileSystem.getInfoAsync(dbPath);
+                const DEPLOYED_VER_KEY = 'deployed_db_version_v22'; // Complete Menu
+                const currentVersion = 'v22'; // Full reset
+
+                let shouldDeploy = !dbInfo.exists;
+
+                if (!shouldDeploy) {
+                    const deployedVersion = await AsyncStorage.getItem(DEPLOYED_VER_KEY);
+                    if (deployedVersion !== currentVersion) {
+                        logger.log(`🔄 [DataService] ENGINE ROTATION (Old: ${deployedVersion}, New: ${currentVersion}). Purging old kernel.`);
+                        // DELETE OLD GHOST FILE IF EXISTS
+                        try { await FileSystem.deleteAsync(dbPath, { idempotent: true }); } catch (e) { }
+                        shouldDeploy = true;
+                    }
+                }
+
+                if (shouldDeploy) {
+                    logger.log(`📥 [DataService] Deploying ENGINE ${currentVersion} (v19)...`);
+                    await FileSystem.copyAsync({
+                        from: asset.localUri,
+                        to: dbPath
+                    });
+                    await AsyncStorage.setItem(DEPLOYED_VER_KEY, currentVersion);
+                } else {
+                    logger.log(`⏭️ [DataService] Engine ${currentVersion} active. Skipping.`);
+                }
 
                 // D. KERNEL ATTACHMENT
                 logger.log("🔓 [DataService] Attaching SQLite kernel...");
@@ -121,6 +146,20 @@ export class DataService {
                 `);
 
                 // G. SCHEMA VALIDATION
+                const columns = await this._kernel.getAllAsync<{ name: string }>(
+                    "PRAGMA table_info(places)"
+                );
+                const columnNames = columns.map(c => c.name);
+                logger.log(`🔍 [DataService] Schema columns: ${columnNames.join(', ')}`);
+
+                if (!columnNames.includes('real_talk_json')) {
+                    logger.error("🚨 [DataService] CRITICAL: real_talk_json column MISSING in open database!");
+                    // Force delete for next run
+                    await FileSystem.deleteAsync(dbPath, { idempotent: true });
+                    await AsyncStorage.removeItem(DEPLOYED_VER_KEY);
+                    throw new Error("Schema Mismatch: real_talk_json missing.");
+                }
+
                 const integrity = await this._kernel.getFirstAsync<{ count: number }>(
                     "SELECT count(*) as count FROM sqlite_master WHERE type='table' AND name='places'"
                 );
@@ -130,7 +169,7 @@ export class DataService {
                 }
 
                 const countCheck = await this._kernel.getFirstAsync<{ count: number }>("SELECT count(*) as count FROM places");
-                logger.log(`✅ [DataService] ENGINE LIVE. Records: ${countCheck?.count}`);
+                logger.log(`✅ [DataService] ENGINE LIVE (${currentVersion}). Records: ${countCheck?.count}`);
 
                 // G. REPOSITORY HYDRATION
                 this._placesRepo = new SQLitePlacesRepository(this._kernel);

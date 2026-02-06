@@ -1,6 +1,6 @@
 /**
  * MoodMap Paris - Root Layout (Expo Go Compatible)
-// (Force Reload)
+ // (Force Reload v10)
  */
 
 import { useEffect } from 'react';
@@ -25,7 +25,7 @@ SplashScreen.preventAutoHideAsync();
 
 function RootLayoutNav() {
     const { isDark, theme } = useTheme();
-    const isPlacesReady = usePlacesStore(state => state.isInitialized);
+    const isPlacesReady = usePlacesStore(state => state.isReady);
     const initPlaces = usePlacesStore(state => state.init);
     const isMomentsReady = useMomentsStore(state => state.isInitialized);
     const initMoments = useMomentsStore(state => state.init);
@@ -38,32 +38,30 @@ function RootLayoutNav() {
         const prepare = async () => {
             const timeoutId = setTimeout(() => {
                 console.warn('⚠️ [Init] Hydration taking too long. Force releasing splash screen...');
-                SplashScreen.hideAsync();
+                SplashScreen.hideAsync().catch(() => { });
                 appOpacity.value = withTiming(1, { duration: 600 });
-            }, 10000); // 10s safety net
+            }, 5000); // Reduced to 5s for better UX
 
             try {
                 console.log('🚀 [Init] Sequence Started...');
 
-                console.time('PlacesInit');
-                await initPlaces();
-                console.timeEnd('PlacesInit');
-
-                console.time('MomentsInit');
-                await initMoments();
-                console.timeEnd('MomentsInit');
-
-                console.time('UserSession');
-                await checkSession();
-                console.timeEnd('UserSession');
+                // Run init in parallel but with a race against timeout
+                await Promise.all([
+                    initPlaces().catch(e => console.error('Places Init Failed', e)),
+                    initMoments().catch(e => console.error('Moments Init Failed', e)),
+                    checkSession().catch(e => console.error('Session Check Failed', e))
+                ]);
 
                 console.log('🏁 App Infrastructure Hydrated.');
                 clearTimeout(timeoutId);
+
+                // Final release
+                await SplashScreen.hideAsync().catch(() => { });
+                appOpacity.value = withTiming(1, { duration: 600 });
             } catch (e) {
                 console.error('❌ Error during app init:', e);
                 clearTimeout(timeoutId);
-                // Fallback show
-                SplashScreen.hideAsync();
+                SplashScreen.hideAsync().catch(() => { });
                 appOpacity.value = withTiming(1, { duration: 600 });
             }
         };
@@ -102,8 +100,8 @@ function RootLayoutNav() {
                             name="place/[id]"
                             options={{
                                 headerShown: false,
-                                presentation: 'transparentModal',
-                                animation: 'fade',
+                                presentation: 'fullScreenModal',
+                                animation: 'fade_from_bottom',
                             }}
                         />
                         <Stack.Screen

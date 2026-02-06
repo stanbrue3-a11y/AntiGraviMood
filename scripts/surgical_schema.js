@@ -14,7 +14,7 @@ const LocationSchema = z.object({
     address: z.string().min(5),
     arrondissement: z.number().min(1).max(20),
     coordinates: CoordinatesSchema,
-    nearest_metro: z.string().min(2).optional(),
+    nearest_metro: z.string().min(2).max(60).optional(), // STRICT: No more history text here
 });
 
 const MoodScoreSchema = z.object({
@@ -34,7 +34,25 @@ const PracticalInfoSchema = z.object({
     wifi_available: z.boolean(),
     opening_hours: z.string().min(5),
     price_range: z.number().min(1).max(3),
-    smart_tip: z.string().min(15),
+    smart_tip: z.string().min(10).optional(),
+    signature_drink: z.string().optional(),
+    ambiance_vibe: z.string().optional(),
+    entry_fee: z.string().optional(),
+});
+
+const RealTalkSchema = z.object({
+    text: z.string().optional(),
+    le_secret: z.string().optional(),
+    le_son: z.string().optional(),
+    le_must: z.string().optional(),
+    must_eat: z.string().optional()
+});
+
+const AIInsightsSchema = z.object({
+    social_vibe: z.object({
+        text: z.string().optional(),
+        tag: z.string().optional()
+    }).optional()
 });
 
 const SurgicalPlaceSchema = z.object({
@@ -45,11 +63,13 @@ const SurgicalPlaceSchema = z.object({
     location: LocationSchema,
     mood_scores: z.record(z.string(), MoodScoreSchema),
     practical_info: PracticalInfoSchema,
+    real_talk: RealTalkSchema.optional(),
+    ai_insights: AIInsightsSchema.optional(),
     description: z.string().min(20),
     pricing: z.object({
         budget_avg: z.number(),
         is_free: z.boolean(),
-    }).optional()
+    }).passthrough().optional()
 }).superRefine((data, ctx) => {
     // CATEGORY SPECIFIC RULES
     if (data.category === 'parc') {

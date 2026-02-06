@@ -75,4 +75,17 @@ export class CrabCalculator {
         if (percent <= 75) return '#F59E0B'; // Orange
         return '#EF4444'; // Red
     }
+
+    static getConfidenceMetrics(lastUpdated?: string): { score: number; label: string; color: string } {
+        if (!lastUpdated) return { score: 0, label: "Non vérifié", color: '#9CA3AF' };
+
+        const date = new Date(lastUpdated);
+        const now = new Date();
+        const diffMonths = (now.getFullYear() - date.getFullYear()) * 12 + (now.getMonth() - date.getMonth());
+
+        if (diffMonths <= 3) return { score: 100, label: "VÉRIFIÉ RÉCEMMENT", color: '#22C55E' };
+        if (diffMonths <= 6) return { score: 70, label: "VÉRIFIÉ IL Y A 6 MOIS", color: '#F59E0B' };
+
+        return { score: 40, label: "VÉRIFICATION ANCIENNE", color: '#EF4444' };
+    }
 }

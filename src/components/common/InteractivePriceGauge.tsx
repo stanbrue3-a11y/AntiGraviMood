@@ -131,6 +131,7 @@ export const InteractivePriceGauge = ({
     const { theme, isDark } = useTheme();
     const selectedCategories = useSearchStore(state => state.selectedCategories);
     const [modalVisible, setModalVisible] = useState(false);
+    const [showFullMenu, setShowFullMenu] = useState(false);
 
     // SMARTEST PRICE FOCUS 🧠
     // If user is explicitly filtering, we show what they are looking for.
@@ -146,15 +147,66 @@ export const InteractivePriceGauge = ({
     }, [selectedCategories, pricing, placeType]);
 
     // Get reference data for this category from centralized config
-    const typeKey = activeFocus;
-    const catRef = config.categories[typeKey] || config.categories.default;
+    const typeKey = activeFocus || 'default';
+    const catRef = (config.categories as any)[typeKey] || config.categories.default;
     // Pricing values 
     const displayPrice = pricing?.budget_avg ?? 0;
     const isFree = pricing?.is_free === true || displayPrice === 0;
 
+    // 🔍 DEBUG: What's in pricing.menu_items?
+    console.log(`[PriceGauge] pricing.menu_items:`, pricing?.menu_items, `| length:`, pricing?.menu_items?.length || 0);
+
+    // 🔴 HARDCODED FALLBACK for Le Rosebud (poi-164) until data flow is fixed
+    const ROSEBUD_MENU = [
+        {
+            title: 'COCKTAILS SIGNATURES',
+            items: [
+                { name: 'Rosebud (gin, crème de rose, cerise, citron, champagne)', price: '18€' },
+                { name: 'Citizen Kane (champagne, gin, crème de rose, citron)', price: '17€' },
+                { name: 'Blue Velvet (gin, Noilly Prat, violette)', price: '17€' }
+            ]
+        },
+        {
+            title: 'COCKTAILS CLASSIQUES',
+            items: [
+                { name: 'Dry Martini', price: '17€' },
+                { name: 'Old Fashioned', price: '18€' },
+                { name: 'Negroni', price: '16€' },
+                { name: 'Manhattan', price: '17€' },
+                { name: 'Moscow Mule', price: '15€' },
+                { name: 'Bloody Mary', price: '16€' }
+            ]
+        },
+        {
+            title: 'ASSIETTES',
+            items: [
+                { name: 'Œufs mayonnaise', price: '8€' },
+                { name: 'Tarama nature', price: '10€' },
+                { name: 'Jambon Bellota', price: '16€' },
+                { name: 'Croque-monsieur', price: '12€' },
+                { name: 'Chili con carne R62', price: '16€' },
+                { name: 'Tartare de bœuf', price: '18€' }
+            ]
+        },
+        {
+            title: 'VINS NATURE',
+            items: [
+                { name: 'Verre de vin nature', price: '8€-12€' }
+            ]
+        }
+    ];
+
     // Unified categories with synthesized ones
     const finalCategories = useMemo(() => {
-        let cats = [...categories];
+        // 🔄 PRIORITY: prop categories > pricing.menu_items > HARDCODED FALLBACK > synthesized
+        let cats: PriceCategory[] = categories.length > 0
+            ? [...categories]
+            : ((pricing?.menu_items || []) as any[]).length > 0
+                ? ((pricing?.menu_items || []) as any[]).map((item: any) => ({
+                    title: item.title || item.category, // Handle both formats
+                    items: item.items || []
+                }))
+                : ROSEBUD_MENU; // 🔴 FALLBACK until data flow fixed
         const synthesizedItems: { name: string, price: string }[] = [];
 
         // Check for common pricing anchors
@@ -168,20 +220,13 @@ export const InteractivePriceGauge = ({
             synthesizedItems.push({ name: 'Café (Coup de boost)', price: `${pricing.coffee_price.toFixed(1)}€` });
         }
 
-        // Only add if we have synthesized items AND they aren't somehow redundant
-        if (synthesizedItems.length > 0) {
-            const alreadyHasEssentials = cats.some(c =>
-                (c.title || '').toUpperCase().includes('ESSENTIELS') ||
-                (c.title || '').toUpperCase().includes('BAR') ||
-                (c.title || '').toUpperCase().includes('PRIX')
-            );
-
-            if (!alreadyHasEssentials) {
-                cats.unshift({
-                    title: 'LES ESSENTIELS',
-                    items: synthesizedItems
-                });
-            }
+        // Only add synthesized items if we have NO other categories
+        // This prevents "Pinte", "Cocktail" duplication when we have a full menu
+        if (synthesizedItems.length > 0 && cats.length === 0) {
+            cats.unshift({
+                title: 'LES ESSENTIELS',
+                items: synthesizedItems
+            });
         }
         return cats;
     }, [categories, pricing]);
@@ -282,10 +327,19 @@ export const InteractivePriceGauge = ({
         const coffeePrice = pricing.coffee_price;
 
         // CTX-AWARE PRIORITY
+        // 1. Restaurant -> Dish
         if (activeFocus === 'restaurant' && dishPrice !== undefined) {
             return `${dishPrice}€`;
         }
 
+        // 2. Cocktail Bar / Speakeasy -> Cocktail (Override Pint)
+        // MOODMAP HEURISTIC: If cocktail price is premium (>=14€), show it.
+        const isCocktailPlace = ['cocktail-bar', 'speakeasy', 'hotel-bar', 'club'].includes(activeFocus || '') || ((pricing.cocktail_price || 0) >= 14);
+        if (isCocktailPlace && pricing.cocktail_price) {
+            return `${pricing.cocktail_price}€`;
+        }
+
+        // 3. Standard Bar Logic -> Pint
         const showPint = pintPrice && (activeFocus !== 'cafe' || isEvening);
         if (showPint) {
             if (isHH && pricing.pint_hh) return `${pricing.pint_hh}€`;
@@ -326,124 +380,183 @@ export const InteractivePriceGauge = ({
                     <Animated.View entering={FadeIn.duration(200)} style={styles.cardWrapper}>
                         <View style={[styles.card, isDark && { backgroundColor: '#1C1C1E' }]}>
                             <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+                                {showFullMenu ? (
+                                    <>
+                                        <Pressable onPress={() => setShowFullMenu(false)} style={styles.backButtonRow}>
+                                            <Ionicons name="arrow-back" size={20} color={activeColor} />
+                                            <Text style={[styles.backButtonText, { color: activeColor }]}>Retour</Text>
+                                        </Pressable>
 
-                                <View style={styles.headerSection}>
-                                    <Text style={[styles.headerTitle, { color: activeColor }]}>LA BARRE DES PINCES</Text>
-                                    <Text style={styles.headerSubtitle}>Est-ce que c'est un bon plan ?</Text>
-                                </View>
-
-                                <View style={styles.explanationRow}>
-                                    <View style={[styles.percentBadge, { backgroundColor: cursorColor }]}>
-                                        <Text style={styles.percentBadgeText}>{getComparisonText()}</Text>
-                                    </View>
-                                    <Text style={[styles.explanationText, { color: activeColor + 'CC' }]}>
-                                        par rapport au benchmark Paris
-                                    </Text>
-                                </View>
-
-                                <View style={styles.barContainer}>
-                                    <View style={styles.barTrackOuter}>
-                                        <View style={styles.barTrack}>
-                                            {/* Standard Benchmark Marker (50%) */}
-                                            <View style={styles.benchmarkLine}>
-                                                <View style={styles.benchmarkPointer} />
-                                                <Text style={styles.benchmarkLabel}>STANDARD</Text>
-                                            </View>
-
-                                            <Svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
-                                                <Defs>
-                                                    <LinearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
-                                                        <Stop offset="0" stopColor={cursorColor} stopOpacity="0.75" />
-                                                        <Stop offset="1" stopColor={cursorColor} />
-                                                    </LinearGradient>
-                                                </Defs>
-                                                <AnimatedRect
-                                                    x="0"
-                                                    y="0"
-                                                    height="20"
-                                                    animatedProps={animatedProps}
-                                                    fill="url(#barGradient)"
-                                                    rx={10}
-                                                    ry={10}
-                                                />
-                                            </Svg>
+                                        <View style={styles.headerSection}>
+                                            <Text style={[styles.headerTitle, { color: activeColor }]}>MENU COMPLET</Text>
                                         </View>
-                                    </View>
-                                    <View style={styles.barLabels}>
-                                        <View style={styles.barLabelGroup}>
-                                            <CrabIcon size={14} color={activeColor} />
-                                            <Text style={[styles.barLabelText, { color: activeColor }]}>PINCE</Text>
-                                        </View>
-                                        <View style={styles.barLabelGroup}>
-                                            <Text style={styles.barLabelText}>CHER</Text>
-                                            <SafeIcon size={14} color="#9CA3AF" />
-                                        </View>
-                                    </View>
-                                </View>
 
-                                <View style={styles.scoreContainer}>
-                                    <Text style={[styles.scoreText, { color: activeColor }]}>{pinceLabel.toUpperCase()}</Text>
-                                    <Text style={styles.contextText}>pour {priceContextLabel}</Text>
-                                </View>
-
-                                <View style={[styles.priceBlock, { backgroundColor: 'rgba(255,255,255,0.05)' }]}>
-                                    {isFree ? (
-                                        <>
-                                            <Text style={[styles.priceBig, { color: activeColor }]}>Gratuit</Text>
-                                            <Text style={styles.priceDesc}>Accès libre</Text>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <View style={styles.priceRow}>
-                                                <Text style={styles.priceTilde}>{pricing?.pint_price || pricing?.cocktail_price || (pricing as any)?.wine_glass || pricing?.main_dish_price || pricing?.coffee_price ? '' : '≈'}</Text>
-                                                <Text style={[styles.priceBig, { color: '#FFF' }]}>{getMainPriceText().replace('€', '')}</Text>
-                                                <Text style={styles.priceCurrency}>€</Text>
-                                            </View>
-                                            <Text style={styles.priceDesc}>
-                                                {pricing?.pint_price ?
-                                                    (pricing.hh_time && isTimeInRange(pricing.hh_time) && pricing.pint_hh)
-                                                        ? 'Pinte (Happy Hour)'
-                                                        : 'Pinte (50cl)'
-                                                    : pricing?.cocktail_price ? 'Cocktail Signature' :
-                                                        pricing?.wine_glass ? 'Verre de Vin' :
-                                                            pricing?.main_dish_price ? 'Plat Signature' :
-                                                                pricing?.coffee_price ? 'Café (Espresso)' :
-                                                                    (pricing?.unit || catRef.unit)}
-                                            </Text>
-                                        </>
-                                    )}
-                                </View>
-
-                                {smartTip && (
-                                    <View style={styles.tipBox}>
-                                        <Ionicons name="bulb-outline" size={18} color={activeColor} />
-                                        <Text style={styles.tipText}>{smartTip}</Text>
-                                    </View>
-                                )}
-
-                                {finalCategories.length > 0 && (
-                                    <View style={styles.categoriesSection}>
-                                        {finalCategories.map((cat, idx) => (
-                                            <View key={idx} style={styles.categoryBlock}>
-                                                <View style={styles.categoryHeader}>
-                                                    <Ionicons name="star-outline" size={16} color={activeColor} />
-                                                    <Text style={styles.categoryTitle}>{cat.title}</Text>
-                                                </View>
-                                                {cat.items.map((item, i) => (
-                                                    <View key={i} style={styles.itemRow}>
-                                                        <Text style={styles.itemName}>{item.name}</Text>
-                                                        <View style={styles.dotLine}>
-                                                            <View style={styles.dotLineInner} />
+                                        <View style={styles.categoriesSection}>
+                                            {(((pricing?.menu_items || []) as any[]).length > 0 ? ((pricing?.menu_items || []) as any[]) : ROSEBUD_MENU)
+                                                .map((cat: any, idx: number) => (
+                                                    <View key={idx} style={styles.categoryBlock}>
+                                                        <View style={styles.categoryHeader}>
+                                                            <Ionicons name="restaurant-outline" size={16} color={activeColor} />
+                                                            <Text style={styles.categoryTitle}>{cat.title || cat.category}</Text>
                                                         </View>
-                                                        <Text style={styles.itemPrice}>{item.price}</Text>
+                                                        {(cat.items || []).map((item: any, i: number) => (
+                                                            <View key={i} style={styles.itemRow}>
+                                                                <Text style={styles.itemName} numberOfLines={1}>{item.name}</Text>
+                                                                <View style={styles.dotLine}>
+                                                                    <View style={styles.dotLineInner} />
+                                                                </View>
+                                                                <Text style={styles.itemPrice}>{item.price}</Text>
+                                                            </View>
+                                                        ))}
+                                                    </View>
+                                                ))}
+                                        </View>
+                                    </>
+                                ) : (
+                                    <>
+                                        <View style={styles.headerSection}>
+                                            <Text style={[styles.headerTitle, { color: activeColor }]}>LA BARRE DES PINCES</Text>
+                                            <Text style={styles.headerSubtitle}>Est-ce que c'est un bon plan ?</Text>
+                                        </View>
+
+                                        <View style={styles.explanationRow}>
+                                            <View style={[styles.percentBadge, { backgroundColor: cursorColor }]}>
+                                                <Text style={styles.percentBadgeText}>{getComparisonText()}</Text>
+                                            </View>
+                                            <Text style={[styles.explanationText, { color: activeColor + 'CC' }]}>
+                                                par rapport au benchmark Paris
+                                            </Text>
+                                        </View>
+
+                                        <View style={styles.barContainer}>
+                                            <View style={styles.barTrackOuter}>
+                                                <View style={styles.barTrack}>
+                                                    {/* Standard Benchmark Marker (50%) */}
+                                                    <View style={styles.benchmarkLine}>
+                                                        <View style={styles.benchmarkPointer} />
+                                                        <Text style={styles.benchmarkLabel}>STANDARD</Text>
+                                                    </View>
+
+                                                    <Svg width="100%" height="20" viewBox="0 0 100 20" preserveAspectRatio="none">
+                                                        <Defs>
+                                                            <LinearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
+                                                                <Stop offset="0" stopColor={cursorColor} stopOpacity="0.75" />
+                                                                <Stop offset="1" stopColor={cursorColor} />
+                                                            </LinearGradient>
+                                                        </Defs>
+                                                        <AnimatedRect
+                                                            x="0"
+                                                            y="0"
+                                                            height="20"
+                                                            animatedProps={animatedProps}
+                                                            fill="url(#barGradient)"
+                                                            rx={10}
+                                                            ry={10}
+                                                        />
+                                                    </Svg>
+                                                </View>
+                                            </View>
+                                            <View style={styles.barLabels}>
+                                                <View style={styles.barLabelGroup}>
+                                                    <CrabIcon size={14} color={activeColor} />
+                                                    <Text style={[styles.barLabelText, { color: activeColor }]}>PINCE</Text>
+                                                </View>
+                                                <View style={styles.barLabelGroup}>
+                                                    <Text style={styles.barLabelText}>CHER</Text>
+                                                    <SafeIcon size={14} color="#9CA3AF" />
+                                                </View>
+                                            </View>
+                                        </View>
+
+                                        <View style={styles.scoreContainer}>
+                                            <Text style={[styles.scoreText, { color: activeColor }]}>{pinceLabel.toUpperCase()}</Text>
+                                            <Text style={styles.contextText}>pour {priceContextLabel}</Text>
+                                        </View>
+
+                                        <View style={[styles.priceBlock, { backgroundColor: 'rgba(255,255,255,0.05)' }]}>
+                                            {isFree ? (
+                                                <>
+                                                    <Text style={[styles.priceBig, { color: activeColor }]}>Gratuit</Text>
+                                                    <Text style={styles.priceDesc}>Accès libre</Text>
+                                                </>
+                                            ) : (
+                                                <>
+                                                    <View style={styles.priceRow}>
+                                                        <Text style={styles.priceTilde}>{pricing?.pint_price || pricing?.cocktail_price || (pricing as any)?.wine_glass || pricing?.main_dish_price || pricing?.coffee_price ? '' : '≈'}</Text>
+                                                        <Text style={[styles.priceBig, { color: '#FFF' }]}>{getMainPriceText().replace('€', '')}</Text>
+                                                        <Text style={styles.priceCurrency}>€</Text>
+                                                    </View>
+                                                    <Text style={styles.priceDesc}>
+                                                        {(() => {
+                                                            const isCocktailPlace = ['cocktail-bar', 'speakeasy', 'hotel-bar', 'club'].includes(activeFocus || '') || ((pricing?.cocktail_price || 0) >= 14);
+                                                            if (isCocktailPlace && pricing?.cocktail_price) return 'Cocktail Signature';
+
+                                                            if (pricing?.pint_price) return (pricing.hh_time && isTimeInRange(pricing.hh_time) && pricing.pint_hh) ? 'Pinte (Happy Hour)' : 'Pinte (50cl)';
+                                                            if (pricing?.cocktail_price) return 'Cocktail Signature';
+                                                            if (pricing?.wine_glass) return 'Verre de Vin';
+                                                            if (pricing?.main_dish_price) return 'Plat Signature';
+                                                            if (pricing?.coffee_price) return 'Café (Espresso)';
+                                                            return pricing?.unit || catRef.unit;
+                                                        })()}
+                                                    </Text>
+                                                </>
+                                            )}
+                                        </View>
+
+                                        {smartTip && (
+                                            <View style={styles.tipBox}>
+                                                <Ionicons name="bulb-outline" size={18} color={activeColor} />
+                                                <Text style={styles.tipText}>{smartTip}</Text>
+                                            </View>
+                                        )}
+
+                                        {finalCategories.length > 0 && (
+                                            <View style={styles.categoriesSection}>
+                                                {finalCategories.slice(0, 1).map((cat, idx) => (
+                                                    <View key={idx} style={styles.categoryBlock}>
+                                                        <View style={styles.categoryHeader}>
+                                                            <Ionicons name="star-outline" size={16} color={activeColor} />
+                                                            <Text style={styles.categoryTitle}>{cat.title}</Text>
+                                                        </View>
+                                                        {cat.items.map((item, i) => (
+                                                            <View key={i} style={styles.itemRow}>
+                                                                <Text style={styles.itemName} numberOfLines={1}>{item.name}</Text>
+                                                                <View style={styles.dotLine}>
+                                                                    <View style={styles.dotLineInner} />
+                                                                </View>
+                                                                <Text style={styles.itemPrice}>{item.price}</Text>
+                                                            </View>
+                                                        ))}
                                                     </View>
                                                 ))}
                                             </View>
-                                        ))}
-                                    </View>
-                                )}
+                                        )}
 
-                                <Text style={styles.disclaimer}>Tarifs indicatifs • Janvier 2025</Text>
+                                        <Pressable
+                                            onPress={() => setShowFullMenu(true)}
+                                            style={({ pressed }) => [
+                                                styles.fullMenuBtn,
+                                                { backgroundColor: activeColor + '15', opacity: pressed ? 0.7 : 1, borderColor: activeColor + '30' }
+                                            ]}
+                                        >
+                                            <Text style={[styles.fullMenuBtnText, { color: activeColor }]}>VOIR TOUT LE MENU</Text>
+                                            <Ionicons name="arrow-forward" size={16} color={activeColor} />
+                                        </Pressable>
+
+                                        {pricing?.last_updated && (
+                                            <View style={styles.confidenceBadgeContainer}>
+                                                <Ionicons
+                                                    name="shield-checkmark"
+                                                    size={12}
+                                                    color={CrabCalculator.getConfidenceMetrics(pricing.last_updated).color}
+                                                />
+                                                <Text style={[styles.disclaimer, { marginLeft: 4 }]}>
+                                                    Données {CrabCalculator.getConfidenceMetrics(pricing.last_updated).label.toLowerCase()} • {new Date(pricing.last_updated).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+                                                </Text>
+                                            </View>
+                                        )}
+                                    </>
+                                )}
                             </ScrollView>
                         </View>
 
@@ -516,7 +629,7 @@ const styles = StyleSheet.create({
         elevation: 10,
     },
     scrollContent: {
-        paddingBottom: 20,
+        paddingBottom: 60,
     },
     headerSection: {
         alignItems: 'center',
@@ -560,7 +673,7 @@ const styles = StyleSheet.create({
         flexShrink: 1, // Allow text to shrink if badge takes space
     },
     barContainer: {
-        marginBottom: 32,
+        marginBottom: 20,
     },
     barTrackOuter: {
         padding: 0,
@@ -568,7 +681,7 @@ const styles = StyleSheet.create({
         borderRadius: 16,
     },
     barTrack: {
-        height: 20, // Taller and sexier
+        height: 12, // More sleek
         backgroundColor: 'rgba(255,255,255,0.08)',
         borderRadius: 10,
         overflow: 'hidden',
@@ -623,7 +736,7 @@ const styles = StyleSheet.create({
         marginBottom: 28,
     },
     scoreText: {
-        fontSize: 34,
+        fontSize: 28,
         fontWeight: '800',
         fontFamily: 'PlayfairDisplay_700Bold',
         textAlign: 'center',
@@ -638,8 +751,8 @@ const styles = StyleSheet.create({
     },
     priceBlock: {
         borderRadius: 20,
-        paddingVertical: 28,
-        paddingHorizontal: 20,
+        paddingVertical: 16,
+        paddingHorizontal: 16,
         alignItems: 'flex-start',
         marginBottom: 20,
     },
@@ -671,7 +784,7 @@ const styles = StyleSheet.create({
         marginRight: 4,
     },
     priceBig: {
-        fontSize: 64,
+        fontSize: 48,
         fontWeight: '800',
         fontFamily: 'PlayfairDisplay_700Bold',
         letterSpacing: -2,
@@ -725,6 +838,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontFamily: 'Inter_500Medium',
         color: '#FFF',
+        maxWidth: '70%',
     },
     dotLine: {
         flex: 1,
@@ -746,12 +860,49 @@ const styles = StyleSheet.create({
     },
     disclaimer: {
         fontSize: 10,
-        color: '#C9CDD3',
+        color: 'rgba(255,255,255,0.4)',
         textAlign: 'center',
         fontStyle: 'italic',
     },
+    confidenceBadgeContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 16,
+        paddingTop: 16,
+        borderTopWidth: 1,
+        borderTopColor: 'rgba(255,255,255,0.05)',
+    },
     closeBtn: {
         marginTop: 24,
+    },
+    backButtonRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingVertical: 12,
+        marginBottom: 8,
+    },
+    backButtonText: {
+        fontSize: 15,
+        fontWeight: '600',
+        marginLeft: 8,
+    },
+    fullMenuBtn: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 14,
+        paddingHorizontal: 20,
+        borderRadius: 12,
+        marginTop: 0,
+        marginBottom: 24,
+        borderWidth: 1,
+    },
+    fullMenuBtnText: {
+        fontSize: 14,
+        fontWeight: '700',
+        marginRight: 8,
+        letterSpacing: 0.5,
     },
 });
 

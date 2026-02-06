@@ -45,6 +45,7 @@ export interface PlaceRow {
     pricing_json: string | null;
     media_json: string | null;
     ai_insights_json: string | null;
+    real_talk_json: string | null;
     description: string | null;
 }
 
@@ -57,6 +58,36 @@ export class PlaceMapper {
             logger.log(`⚠️ Database JSON Parse Error: ${e instanceof Error ? e.message : 'Unknown'}`);
             return defaultValue;
         }
+    }
+
+    /**
+     * FIREWALL: Clean text to ensure no JSON leaks into the UI.
+     * Detects if a string is actually a JSON object (e.g. {"text": "..."}) and extracts the content.
+     */
+    private static cleanText(text: string | null | undefined): string {
+        if (!text) return "";
+        const trimmed = text.trim();
+        if (trimmed.startsWith('{') && trimmed.endsWith('}')) {
+            try {
+                const parsed = JSON.parse(trimmed);
+                if (parsed.text) return parsed.text;
+                if (parsed.description) return parsed.description;
+                return "";
+            } catch (e) {
+                return text;
+            }
+        }
+        return text;
+    }
+
+    /**
+     * METRO SANITIZER 🚇
+     * Ensures metro station names are actual names, not full descriptions.
+     */
+    private static sanitizeMetro(text: string | null | undefined): string {
+        const cleaned = this.cleanText(text);
+        if (cleaned.length > 60) return ""; // It's a description, not a station
+        return cleaned;
     }
 
     /**
@@ -105,21 +136,57 @@ export class PlaceMapper {
         const vibes = this.safeJsonParse<string[]>(row.vibes_json, []);
 
         // Practical Info / Editorial Overlap
-        const nearestMetro = row.nearest_metro || editorial.bouche_metro || editorial.metro || "";
-        const metroLines = this.safeJsonParse<any[]>(row.metro_line_json, (editorial.metro_lines || []));
+        const nearestMetro = this.sanitizeMetro(row.nearest_metro);
+        const metroLines = this.safeJsonParse<any[]>(row.metro_line_json, []);
+
+        // Cleaner: ensure lines are strings and short (not descriptions)
+        const validMetroLines = metroLines
+            .map(l => String(l).trim())
+            .filter(l => l.length > 0 && l.length < 10);
 
         // Real Talk Extraction 🗣️
+        const realTalkRaw = this.safeJsonParse<any>(row.real_talk_json, {});
+
+        // ADAPTER: New Schema (insider_tip, specials) -> Old UI Model
+        // We map the new clean data to the old slots so the UI displays them.
+        const insiderTip = realTalkRaw.insider_tip || realTalkRaw.le_secret || editorial.le_secret;
+
+        const cuisineStr = realTalkRaw.specials?.cuisine?.join(', ');
+        const drinkStr = realTalkRaw.specials?.drinks?.join(', ');
+        const specialsStr = [cuisineStr, drinkStr].filter(s => s && s.length > 0).join(' • ');
+
         const realTalk: RealTalk = {
-            le_secret: editorial.le_secret || editorial.secret || row.description,
-            le_son: editorial.le_son || editorial.musique || editorial.son,
-            la_faune: editorial.la_faune || editorial.clientèle || editorial.crowd,
-            le_must: editorial.le_must || editorial.must_try,
-            must_eat: editorial.must_eat || editorial.plat_culte
+            le_secret: insiderTip, // The "Insider Tip"
+
+            le_son: realTalkRaw.le_son || editorial.le_son, // Legacy fallback
+            la_faune: realTalkRaw.la_faune || editorial.la_faune,
+            le_must: realTalkRaw.le_must || editorial.le_must || editorial.must_try,
+
+            must_eat: specialsStr || realTalkRaw.must_eat || editorial.must_eat // Injects Cuisine/Drinks here
         };
 
-        const pricingType = (row.category === 'restaurant' || row.category === 'bar' || row.category === 'cafe' || row.category === 'club')
-            ? row.category as any
+        const insider_tip = realTalkRaw.insider_tip || "";
+        const specials = realTalkRaw.specials || { cuisine: [], drinks: [] };
+
+        // STRICT MAPPING: No more "Smart Recovery" hacks.
+        let description = row.description || "";
+
+        // Subcategories normalization
+        const subcategories = typeof row.subcategory === 'string'
+            ? row.subcategory.split(',').map(s => s.trim())
+            : (Array.isArray(row.subcategory) ? row.subcategory : []);
+
+        const pricingType = (row.category === 'restaurant' || row.category === 'bar' || row.category === 'café' || row.category === 'cafe' || row.category === 'club')
+            ? (row.category === 'café' ? 'cafe' : row.category) as any
             : 'generic';
+
+        // MOOD SCORES (Standardized)
+        const mood_scores = {
+            chill: { overall: typeof moodScores.chill === 'number' ? moodScores.chill : (moodScores.chill?.overall || 50) },
+            festif: { overall: typeof moodScores.festif === 'number' ? moodScores.festif : (moodScores.festif?.overall || 50) },
+            culturel: { overall: typeof moodScores.culturel === 'number' ? moodScores.culturel : (moodScores.culturel?.overall || 50) }
+        };
+        const dominant_mood = this.determineDominantMood(moodScores, row.dominant_mood) as MoodType;
 
         const rawPlace: Place = {
             id: row.id,
@@ -132,20 +199,17 @@ export class PlaceMapper {
                     lat: row.lat,
                     lng: row.lng
                 },
-                nearest_metro: nearestMetro,
-                metro_lines: metroLines,
+                nearest_metro: nearestMetro || editorial.bouche_metro || editorial.metro || "",
+                metro_lines: validMetroLines.length > 0 ? validMetroLines : (editorial.metro_lines || []),
                 google_id: row.google_id || undefined
             },
+            description: description,
             category: row.category,
             categories: categories,
-            subcategory: row.subcategory,
-            mood_scores: {
-                chill: moodScores.chill || { overall: 0, criteria: {} },
-                festif: moodScores.festif || { overall: 0, criteria: {} },
-                culturel: moodScores.culturel || { overall: 0, criteria: {} }
-            },
+            subcategories: subcategories,
+            mood_scores: mood_scores,
             vibes: vibes,
-            dominant_mood: this.determineDominantMood(moodScores, row.dominant_mood) as MoodType,
+            dominant_mood: dominant_mood,
             ui_theme: {
                 main_color: row.main_color,
                 map_icon: row.map_icon
@@ -160,36 +224,52 @@ export class PlaceMapper {
             },
             google_rating: row.rating || undefined,
             google_user_ratings_total: row.user_ratings_total || undefined,
-            pricing: {
-                type: pricingType,
-                budget_avg: row.budget_avg || 0,
-                unit: row.budget_unit || '€',
-                is_free: row.budget_avg === 0,
-                pint_price: row.pint_price || undefined,
-                coffee_price: row.coffee_price || undefined,
-                main_dish_price: row.main_dish_price || undefined,
-                cocktail_price: row.cocktail_price || undefined,
-                category_percentile: row.category_percentile || 0,
-                value_score: 80
-            } as Pricing,
+            insider_tip,
+            specials,
+            pricing: (() => {
+                const pricingJson = this.safeJsonParse<any>(row.pricing_json, {});
+                // 🔍 CRITICAL DEBUG - trace pricing_json flow
+                if (row.id === 'poi-164') {
+                    console.log(`🔴 [MAPPER] poi-164 row.pricing_json type:`, typeof row.pricing_json);
+                    console.log(`🔴 [MAPPER] poi-164 row.pricing_json first 100:`, String(row.pricing_json || '').substring(0, 100));
+                    console.log(`🔴 [MAPPER] poi-164 pricingJson.menu_items:`, pricingJson?.menu_items?.length || 0);
+                }
+                return {
+                    type: pricingType,
+                    budget_avg: row.budget_avg || 0,
+                    unit: row.budget_unit || '€',
+                    is_free: row.budget_avg === 0,
+                    pint_price: row.pint_price || undefined,
+                    coffee_price: row.coffee_price || undefined,
+                    main_dish_price: row.main_dish_price || undefined,
+                    cocktail_price: row.cocktail_price || undefined,
+                    category_percentile: row.category_percentile || 0,
+                    value_score: 80,
+                    // 🍽️ MENU ITEMS FROM PRICING_JSON
+                    menu_items: pricingJson.menu_items || [],
+                    last_updated: pricingJson.last_updated
+                } as Pricing;
+            })(),
             real_talk: realTalk,
             opening_hours: this.safeJsonParse<any>(row.hours_json, undefined),
             practical_info: {
-                primary_status: editorial.primary_status || null,
-                tags: editorial.tags || [],
+                primary_status: editorial.primary_status || editorial.reservation_policy || null,
                 main_action: editorial.main_action || null,
-                accessibility: editorial.accessibility || false,
-                wifi_available: editorial.wifi_available || false,
                 opening_hours: editorial.opening_hours || row.hours_json || 'Voir sur place',
                 price_range: editorial.price_range || row.budget_avg || 1,
                 happy_hour: editorial.happy_hour || null,
                 must_eat: realTalk.must_eat,
-                signature_drink: editorial.signature_drink,
+                signature_drink: editorial.signature_drink || (drinkStr ? drinkStr : undefined),
                 ambiance_vibe: editorial.ambiance_vibe,
                 specialty: editorial.specialty,
                 smart_tip: editorial.smart_tip,
                 entry_fee: editorial.entry_fee,
-            }
+                cuisine_type: editorial.cuisine_type,
+                price_info: editorial.price_info,
+                // 🏷️ SURGICAL TAGS EXTRACTION
+                tags: this.extractTags(editorial),
+            },
+            ai_insights: this.safeJsonParse<any>(row.ai_insights_json, undefined)
         };
 
         // SURGICAL VALIDATION
@@ -206,23 +286,87 @@ export class PlaceMapper {
      */
     static hydrateDetails(place: Place, detailsRow: PlaceRow): Place {
         const editorial = this.safeJsonParse<any>(detailsRow.editorial_json, {});
+        const realTalkRaw = this.safeJsonParse<any>(detailsRow.real_talk_json, {});
+
+        // SMART RECOVERY 🧠
+        // If description is generic ("Bateau") and Real Talk text is good, PROMOTE Real Talk.
+        let description = this.cleanText(detailsRow.description || place.description);
+        const genericTriggers = ["Découvrez ce lieu", "Venez découvrir", "Un lieu unique", "Une expérience authentique"];
+        const isGeneric = genericTriggers.some(t => description.startsWith(t));
+
+        if ((isGeneric || !description) && realTalkRaw.text && realTalkRaw.text.length > 40) {
+            console.log(`🚨 [Mapper:Hydrate] ID:${place.id} SMART RECOVERY triggered. Story was: ${isGeneric ? 'Generic' : 'Empty'}`);
+            description = realTalkRaw.text;
+        } else {
+            console.log(`✅ [Mapper:Hydrate] ID:${place.id} Story Preserved (len: ${description?.length || 0})`);
+        }
 
         return {
             ...place,
-            description: detailsRow.description || place.description,
+            description: description,
             practical_info: {
                 ...place.practical_info,
                 ...editorial,
+                primary_status: editorial.primary_status || editorial.reservation_policy || place.practical_info.primary_status,
+                description: undefined, // CRITICAL: Stop JSON leak
                 booking_url: editorial.booking_url || editorial.bouton_réserver,
                 shotgun_url: editorial.shotgun_url || editorial.bouton_shotgun,
             },
-            pricing: detailsRow.pricing_json ? JSON.parse(detailsRow.pricing_json) : place.pricing,
-            opening_hours: detailsRow.hours_json ? JSON.parse(detailsRow.hours_json) : place.opening_hours,
+            pricing: (() => {
+                const pricingJson = detailsRow.pricing_json ? this.safeJsonParse<any>(detailsRow.pricing_json, {}) : {};
+                return {
+                    ...place.pricing,
+                    ...pricingJson,
+                    // Ensure menu_items is always an array
+                    menu_items: pricingJson.menu_items || place.pricing?.menu_items || []
+                };
+            })(),
+            opening_hours: detailsRow.hours_json ? this.safeJsonParse<any>(detailsRow.hours_json, place.opening_hours) : place.opening_hours,
             media: {
                 ...place.media,
-                ...(detailsRow.media_json ? JSON.parse(detailsRow.media_json) : {})
+                ...(detailsRow.media_json ? this.safeJsonParse<any>(detailsRow.media_json, {}) : {})
             },
-            ai_insights: detailsRow.ai_insights_json ? JSON.parse(detailsRow.ai_insights_json) : undefined
+            real_talk: {
+                ...place.real_talk,
+                ...realTalkRaw
+            },
+            ai_insights: detailsRow.ai_insights_json ? this.safeJsonParse<any>(detailsRow.ai_insights_json, place.ai_insights) : place.ai_insights
         };
+    }
+
+    /**
+     * 🏷️ SURGICAL TAGS EXTRACTION
+     * Derives badge tags from editorial/practical info fields
+     */
+    private static extractTags(editorial: any): string[] {
+        const tags: string[] = [];
+
+        // Terrace
+        if (editorial.terrace === true || editorial.terrasse === true) {
+            tags.push('terrasse');
+        }
+
+        // Wifi
+        if (editorial.wifi === true) {
+            tags.push('laptop_friendly');
+        }
+
+        // Vegan friendly
+        if (editorial.vegan_friendly === true) {
+            tags.push('vegan_friendly');
+        }
+
+        // Accessibility
+        if (editorial.accessibility === true) {
+            tags.push('accessible');
+        }
+
+        // Natural wine (check cuisine_type or drinks)
+        if (editorial.cuisine_type?.toLowerCase().includes('nature') ||
+            editorial.cuisine_type?.toLowerCase().includes('vin')) {
+            tags.push('vins_nature');
+        }
+
+        return tags;
     }
 }

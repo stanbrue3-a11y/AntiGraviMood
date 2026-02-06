@@ -17,17 +17,18 @@ export const PlaceMetroBlock = React.memo(({ place, primaryColor }: PlaceMetroBl
     const { theme } = useTheme();
     return (
         <View style={styles.metroPremiumBlock}>
-            <View style={[styles.metroPremiumIconBox, { backgroundColor: primaryColor + '15' }]}>
-                <Ionicons name="train" size={24} color={primaryColor} />
+            <View style={styles.headerRow}>
+                <Ionicons name="train" size={20} color={primaryColor} style={{ marginRight: 8, marginTop: 2 }} />
+                <Text style={[styles.metroPremiumStation, { color: theme.text.primary }]}>
+                    {place.location.nearest_metro}
+                </Text>
             </View>
-            <View style={styles.metroPremiumContent}>
-                <Text style={[styles.metroPremiumStation, { color: theme.text.primary }]}>{place.location.nearest_metro}</Text>
-                <View style={styles.metroPremiumMeta}>
-                    <View style={[styles.lineBadge, { backgroundColor: '#FFAB60' }]}>
-                        <Text style={styles.lineText}>{place.location.metro_lines?.[0] || '?'}</Text>
-                    </View>
-                    <Text style={styles.metroPremiumAddress}>{place.location.address.split(',')[0]}</Text>
+
+            <View style={styles.metroPremiumMeta}>
+                <View style={[styles.lineBadge, { backgroundColor: '#FFAB60' }]}>
+                    <Text style={styles.lineText}>{String(place.location.metro_lines?.[0] || '?')}</Text>
                 </View>
+                <Text style={styles.metroPremiumAddress}>{place.location.address.split(',')[0]}</Text>
             </View>
         </View>
     );
@@ -35,48 +36,42 @@ export const PlaceMetroBlock = React.memo(({ place, primaryColor }: PlaceMetroBl
 
 const styles = StyleSheet.create({
     metroPremiumBlock: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        paddingVertical: 24,
-        gap: 16,
+        paddingVertical: 0,
+        gap: 8,
         marginBottom: 8,
+        marginTop: 8,
     },
-    metroPremiumIconBox: {
-        width: 52,
-        height: 52,
-        borderRadius: 14,
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    metroPremiumContent: {
-        flex: 1,
-        gap: 4,
+    headerRow: {
+        flexDirection: 'row',
+        alignItems: 'flex-start',
     },
     metroPremiumStation: {
-        fontSize: 22,
-        fontWeight: '900',
+        fontSize: 18,
+        fontWeight: '700',
         fontFamily: 'Inter_700Bold',
+        flex: 1,
     },
     metroPremiumMeta: {
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 10,
+        gap: 12,
+        paddingLeft: 28, // Align with text start (icon width + margin)
     },
     lineBadge: {
-        width: 22,
-        height: 22,
-        borderRadius: 11,
+        width: 20,
+        height: 20,
+        borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center',
     },
     lineText: {
         color: '#FFF',
-        fontSize: 12,
+        fontSize: 11,
         fontWeight: '900',
     },
     metroPremiumAddress: {
         fontSize: 14,
         color: 'rgba(255,255,255,0.4)',
-        fontWeight: '600',
+        fontWeight: '500',
     }
 });

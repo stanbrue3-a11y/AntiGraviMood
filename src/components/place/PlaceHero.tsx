@@ -31,7 +31,9 @@ export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked,
             {/* 🎞️ ATOMIC HERO HANDOFF: Backdrop is CONSTANT, Carousel is OVERLAID when settled */}
             {/* 🎞️ ATOMIC HERO HANDOFF: Pixel-perfect overlay */}
             <View style={{ width: '100%', height: 320, backgroundColor: '#1C1C1E' }}>
-                {firstImage ? (
+                {isReady && images.length > 0 ? (
+                    <ImageCarousel images={images} height={320} />
+                ) : firstImage ? (
                     <Image
                         source={firstImage}
                         style={StyleSheet.absoluteFill}
@@ -41,23 +43,12 @@ export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked,
                 ) : (
                     <View style={[StyleSheet.absoluteFill, { backgroundColor: '#1C1C1E' }]} />
                 )}
-
-                {isReady && images.length > 0 && (
-                    <Animated.View
-                        entering={FadeIn.duration(400)}
-                        style={StyleSheet.absoluteFill}
-                    >
-                        <ImageCarousel images={images} height={320} />
-                    </Animated.View>
-                )}
             </View>
 
             {/* Bottom Content Gradient */}
-
-            {/* Bottom Content Gradient */}
             <LinearGradient
-                colors={['transparent', 'rgba(18,18,18,0.2)', '#121212']}
-                locations={[0, 0.8, 1]}
+                colors={['transparent', 'rgba(18,18,18,0.4)', '#121212']}
+                locations={[0, 0.6, 1]}
                 style={styles.bottomGradient}
                 pointerEvents="none"
             />

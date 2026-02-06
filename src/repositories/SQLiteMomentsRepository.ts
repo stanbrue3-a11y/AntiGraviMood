@@ -9,7 +9,7 @@ export class SQLiteMomentsRepository implements IMomentsRepository {
         let query = `
             SELECT m.*, u.full_name as user_name, u.avatar_url as user_avatar
             FROM moments m
-            JOIN users u ON m.user_id = u.id
+            LEFT JOIN users u ON m.user_id = u.id
         `;
         const params: any[] = [];
 
