@@ -309,6 +309,7 @@ export const InteractivePriceGauge = ({
     const handleOpen = () => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
         logger.trackEvent('price_gauge_opened', { placeType, pricing: pricing?.budget_avg });
+        setShowFullMenu(false); // Always reset to preview
         setModalVisible(true);
     };
 
@@ -360,7 +361,7 @@ export const InteractivePriceGauge = ({
     // 🧠 SMART PREVIEW: Show max 6 items to fill space without pushing button off-screen
     const previewCategories = useMemo(() => {
         let count = 0;
-        const maxItems = 6;
+        const maxItems = 4;
         const result = [];
         for (const cat of finalCategories) {
             if (count >= maxItems) break;
