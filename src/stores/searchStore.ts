@@ -109,18 +109,24 @@ export const useSearchStore = create<SearchState>((set) => ({
     }),
 }));
 
-// RELATIONAL BRIDGE 🏛️
-// Automatically react to PlacesStore readiness
 import { usePlacesStore } from './placesStore';
 
-usePlacesStore.subscribe((state) => {
+// RELATIONAL BRIDGE 🏛️
+// Explicit init function to be called from _layout.tsx
+export const initSearchBridge = () => {
+    const state = usePlacesStore.getState();
     if (state.isReady) {
-        const searchStore = useSearchStore.getState();
-        searchStore.warmUpPrices();
-        // MoodEngine is already inited by placesStore, so we are good to go
-        console.log('🏛️ [SearchStore] Bridge Solidified: Data detected and ready.');
+        useSearchStore.getState().warmUpPrices();
+        console.log('🏛️ [SearchStore] Bridge Solidified (Manual Init).');
     }
-});
+
+    // Subscribe for future updates
+    return usePlacesStore.subscribe((newState) => {
+        if (newState.isReady) {
+            useSearchStore.getState().warmUpPrices();
+        }
+    });
+};
 
 // Cross-domain selector
 export const selectFilteredResults = (places: Place[]) => {
@@ -193,5 +199,5 @@ export const selectFilteredResults = (places: Place[]) => {
         if (filterOpenNow && p.opening_hours && !p.opening_hours.is_open_now) return false;
 
         return true;
-    });
+    }).sort((a, b) => (b.google_rating || 0) - (a.google_rating || 0));
 };

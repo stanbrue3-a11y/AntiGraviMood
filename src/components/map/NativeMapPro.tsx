@@ -3,8 +3,10 @@ import Mapbox from '@rnmapbox/maps';
 import { Place, MoodType } from '../../types/model';
 import { moodColors } from '../../design/tokens/colors';
 import { IconService } from '../../services/IconService';
+import { getHeroImage } from '../../lib/placeUtils'; // Added for accurate prefetch
 import { ClusterImages, ClusterLayers } from './layers/ClusterResources';
 import { PinImages, PinLayers } from './layers/PinResources';
+import { Image } from 'expo-image'; // Added for prefetch
 
 type Props = {
     places: Place[];
@@ -42,7 +44,7 @@ export const NativeMapPro = React.memo(({
     const [activePin, setActivePin] = React.useState<number | null>(null);
     const [isBouncing, setIsBouncing] = React.useState(false);
 
-    console.log('[NativeMapPro] Rendering with places:', places.length);
+
 
     // External highlight effect
     useEffect(() => {
@@ -54,6 +56,26 @@ export const NativeMapPro = React.memo(({
             return () => clearTimeout(timer);
         }
     }, [highlightedPlaceId]);
+
+
+    // ⚡️ SMART PREFETCHING: Aggressively cache images for visible places (Top 20)
+    // This runs whenever `places` changes (i.e. filter change or map move if we had region-based search)
+    useEffect(() => {
+        if (!places || places.length === 0) return;
+
+        // Prioritize: 
+        // 1. High mood score? (Maybe later)
+        // 2. Just the first 20 in the list (which are usually the ones returned by the search/filter)
+        const candidates = places.slice(0, 20);
+
+        candidates.forEach(place => {
+            const heroUrl = getHeroImage(place);
+            if (typeof heroUrl === 'string' && heroUrl.startsWith('http')) {
+                // Only prefetch remote URLs. Local (require) are instant.
+                Image.prefetch(heroUrl, 'memory-disk');
+            }
+        });
+    }, [places]);
 
     // 1. DATA - Filtered GeoJSON for performance
     const placesGeoJSON = useMemo(() => {

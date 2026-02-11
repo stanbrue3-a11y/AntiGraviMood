@@ -16,7 +16,14 @@ export const getPlaceImages = (p: Place) => {
         images.push(...locals);
     }
 
-    // 1. Google Places API (Only as fallback or to fill carousel further)
+    // 1. JSON Hero Image (User provided) - PRIORITY over Google Photos
+    if (p.media?.hero_image && p.media.hero_image.startsWith('http')) {
+        if (!images.includes(p.media.hero_image)) {
+            images.push(p.media.hero_image);
+        }
+    }
+
+    // 2. Google Places API (Only if we need more images)
     if (images.length < 5 && p.media?.google_photos && p.media.google_photos.length > 0) {
         // Skip the first N photos from Google API if we already have N local photos (assuming they are the same ones)
         const localCount = locals.length;
@@ -26,26 +33,6 @@ export const getPlaceImages = (p: Place) => {
             const url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photoRef}&key=${GOOGLE_API_KEY}`;
             images.push(url);
         });
-    }
-
-    // 1. JSON Hero Image (User provided) - Add if we need more images
-    if (images.length < 5 && p.media?.hero_image && p.media.hero_image.startsWith('http')) {
-        if (!images.includes(p.media.hero_image)) {
-            images.push(p.media.hero_image);
-        }
-    } else if (images.length < 5 && p.media?.hero_image && p.media.hero_image.startsWith('/')) {
-        // Handle local paths if needed
-    }
-
-    // 2. Hardcoded specific overrides - Add if we need more images
-    if (images.length < 5 && PLACE_IMAGES_CAROUSEL[p.slug]) {
-        const overrides = PLACE_IMAGES_CAROUSEL[p.slug];
-        for (const img of overrides) {
-            if (images.length >= 5) break;
-            if (!images.includes(img)) {
-                images.push(img);
-            }
-        }
     }
 
     // 3. Category Fallback - Force fill to 5 images
@@ -60,4 +47,9 @@ export const getPlaceImages = (p: Place) => {
     }
 
     return images;
+};
+
+export const getHeroImage = (p: Place): string | null => {
+    const images = getPlaceImages(p);
+    return images.length > 0 ? images[0] : null;
 };

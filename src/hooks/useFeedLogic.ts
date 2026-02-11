@@ -54,12 +54,16 @@ export const useFeedLogic = () => {
 
     const moments = feedMode === 'global' ? allGlobalMoments : allFriendsMoments;
 
+    // I3 FIX: Use a ref to track activeIndex inside the stable callback
+    const activeIndexRef = useRef(0);
+
     const onViewableItemsChanged = useRef(({ viewableItems }: any) => {
         if (viewableItems.length > 0) {
             const newIndex = viewableItems[0].index || 0;
-            if (newIndex !== activeIndex) {
+            if (newIndex !== activeIndexRef.current) {
                 Haptics.selectionAsync();
             }
+            activeIndexRef.current = newIndex;
             setActiveIndex(newIndex);
         }
     }).current;

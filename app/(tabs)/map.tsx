@@ -18,14 +18,13 @@ import { useTheme } from '../../src/design';
 // Components
 import { PlaceDetailSheet } from '../../src/components/place/PlaceDetailSheet';
 import { FilterActionSheet } from '../../src/components/common/FilterActionSheet';
-// import { DiscoverFilters } from '../../src/components/discover/DiscoverFilters'; // REPLACED
-// import { MapImages } from '../../src/components/map/MapImages'; // Removed
-// import { MapLayers } from '../../src/components/map/MapLayers'; // Removed
 import { NativeMapPro } from '../../src/components/map/NativeMapPro';
 import { DiscoverHeader } from '../../src/components/discover/DiscoverHeader';
 import { FloatingMapSliders } from '../../src/components/map/FloatingMapSliders';
+import { getHeroImage } from '../../src/lib/placeUtils'; // Added for accurate prefetch
 
 // Config
+import { Image } from 'expo-image';
 const MAPBOX_TOKEN = 'REMOVED_TOKEN';
 Mapbox.setAccessToken(MAPBOX_TOKEN);
 
@@ -37,7 +36,6 @@ export default function MapScreen() {
     // Refs
     const mapRef = useRef<Mapbox.MapView>(null);
     const cameraRef = useRef<Mapbox.Camera>(null);
-    const filterSheetRef = useRef<import('@gorhom/bottom-sheet').default>(null); // New Ref
     // --- SV-REFACTOR: DOMAIN STORES ---
 
     // 1. Data Store (Places)
@@ -91,8 +89,6 @@ export default function MapScreen() {
 
     // Local State
     const [isFilterSheetVisible, setFilterSheetVisible] = useState(false);
-    // const [selectedMoods, setSelectedMoods] = useState<string[]>(['chill', 'festif', 'culturel']); // REMOVED local state
-    // const [selectedMoods, setSelectedMoods] = useState<string[]>(['chill', 'festif', 'culturel']); // REMOVED local state
     const [userLocation, setUserLocation] = useState<any>(null);
     const [mapMode, setMapMode] = useState<'global' | 'likes'>('global');
     const [styleLoaded, setStyleLoaded] = useState(false);
@@ -131,8 +127,6 @@ export default function MapScreen() {
         if (mapCameraRequest && mapCameraRequest.timestamp > lastRequestTimestamp.current) {
             lastRequestTimestamp.current = mapCameraRequest.timestamp;
 
-            console.log('[Map] Reacting to Camera Request:', mapCameraRequest);
-
             // 1. Cinematic Fly-To
             cameraRef.current?.setCamera({
                 centerCoordinate: mapCameraRequest.center,
@@ -156,27 +150,28 @@ export default function MapScreen() {
         }
     }, [mapCameraRequest]);
 
-    // Constants
-    const CATEGORIES = ['bar', 'cafe', 'restaurant', 'club', 'espace-culturel', 'parc', 'museum', 'workshop', 'exhibition', 'other'];
-
-    // Data Calculation (UNIFIED VIA STORE & SHALLOW WRAPPER) 🛡️
-    // Data Calculation (UNIFIED VIA STORE & SHALLOW WRAPPER) 🛡️
-    // filteredPlaces removed, using 'places' directly from selector above.
 
 
     // --- HANDLERS ---
-    const handlePlacePress = useCallback(async (placeId: string, coordinates: [number, number]) => {
+    // C3 FIX: Synchronous — no more blocking `await getZoom()` bridge call.
+    const handlePlacePress = useCallback((placeId: string, coordinates: [number, number]) => {
         Haptics.selectionAsync();
+
+        // 🚀 PREFETCH HERO IMAGE FOR MEMORY CACHE
+        const place = usePlacesStore.getState().places.find(p => p.id === placeId);
+        if (place) {
+            const heroUrl = getHeroImage(place);
+            if (typeof heroUrl === 'string' && heroUrl.startsWith('http')) {
+                Image.prefetch(heroUrl, 'memory-disk');
+            }
+        }
+
         selectPlace(placeId, 'map');
 
-        // Get current zoom to avoid zooming OUT if we are already close
-        const currentZoom = await mapRef.current?.getZoom();
-        const targetZoom = Math.max(currentZoom || 0, 14.5);
-
-        // CINEMATIC FLY-TO 🎥
+        // CINEMATIC FLY-TO 🎥 (uses fixed zoom, avoids async native bridge call)
         cameraRef.current?.setCamera({
             centerCoordinate: coordinates,
-            zoomLevel: targetZoom,
+            zoomLevel: 14.5,
             animationDuration: 1000,
             animationMode: 'flyTo',
             padding: { paddingBottom: 450, paddingLeft: 0, paddingRight: 0, paddingTop: 0 }
@@ -205,7 +200,6 @@ export default function MapScreen() {
                 // @ts-ignore
                 decelerationRate={0.2}
                 onDidFinishLoadingStyle={() => {
-                    console.log('🗺️ [Map] Style fully loaded.');
                     setStyleLoaded(true);
                 }}
             >

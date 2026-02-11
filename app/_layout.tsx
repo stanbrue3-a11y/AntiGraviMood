@@ -16,6 +16,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { usePlacesStore } from '../src/stores/placesStore';
 import { useMomentsStore } from '../src/stores/momentsStore';
 import { useUserStore } from '../src/stores/userStore';
+import { initSearchBridge } from '../src/stores/searchStore';
 import Animated, { useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
 const queryClient = new QueryClient();
@@ -35,8 +36,14 @@ function RootLayoutNav() {
     const appOpacity = useSharedValue(0);
 
     useEffect(() => {
+        let searchUnsub: (() => void) | undefined;
+        let timeoutId: ReturnType<typeof setTimeout> | undefined;
+
         const prepare = async () => {
-            const timeoutId = setTimeout(() => {
+            // 1. Initialize Search Bridge (Listener for Places updates)
+            searchUnsub = initSearchBridge();
+
+            timeoutId = setTimeout(() => {
                 console.warn('⚠️ [Init] Hydration taking too long. Force releasing splash screen...');
                 SplashScreen.hideAsync().catch(() => { });
                 appOpacity.value = withTiming(1, { duration: 600 });
@@ -53,20 +60,25 @@ function RootLayoutNav() {
                 ]);
 
                 console.log('🏁 App Infrastructure Hydrated.');
-                clearTimeout(timeoutId);
+                if (timeoutId) clearTimeout(timeoutId);
 
                 // Final release
                 await SplashScreen.hideAsync().catch(() => { });
                 appOpacity.value = withTiming(1, { duration: 600 });
             } catch (e) {
                 console.error('❌ Error during app init:', e);
-                clearTimeout(timeoutId);
+                if (timeoutId) clearTimeout(timeoutId);
                 SplashScreen.hideAsync().catch(() => { });
                 appOpacity.value = withTiming(1, { duration: 600 });
             }
         };
 
         prepare();
+
+        return () => {
+            if (searchUnsub) searchUnsub();
+            if (timeoutId) clearTimeout(timeoutId);
+        };
     }, []);
 
     const onLayoutRootView = useEffect(() => {

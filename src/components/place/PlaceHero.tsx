@@ -5,7 +5,7 @@ import Animated, { FadeIn } from 'react-native-reanimated';
 
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
-import { ImageCarousel } from '../common/ImageCarousel';
+import { ImageCarousel, ImageCarouselRef } from '../common/ImageCarousel';
 import { Place } from '../../types/model';
 import { getPlaceImages } from '../../lib/placeUtils';
 import { useTheme } from '../../design';
@@ -25,6 +25,15 @@ export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked,
     const { theme, isDark } = useTheme();
     const images = getPlaceImages(place);
     const firstImage = images[0];
+    const carouselRef = React.useRef<ImageCarouselRef>(null);
+
+    // 🔄 FORCE RESET CAROUSEL ON PLACE CHANGE
+    // When opening a new place, we want to start at index 0, not where the previous place left off
+    React.useEffect(() => {
+        if (place.id) {
+            carouselRef.current?.reset();
+        }
+    }, [place.id]);
 
     return (
         <View style={styles.heroContainer}>
@@ -32,13 +41,15 @@ export const PlaceHero = React.memo(({ place, onClose, onShare, onLike, isLiked,
             {/* 🎞️ ATOMIC HERO HANDOFF: Pixel-perfect overlay */}
             <View style={{ width: '100%', height: 320, backgroundColor: '#1C1C1E' }}>
                 {isReady && images.length > 0 ? (
-                    <ImageCarousel images={images} height={320} />
+                    <ImageCarousel ref={carouselRef} images={images} height={320} />
                 ) : firstImage ? (
                     <Image
                         source={firstImage}
                         style={StyleSheet.absoluteFill}
                         contentFit="cover"
                         transition={null}
+                        cachePolicy="memory-disk"
+                        priority="high"
                     />
                 ) : (
                     <View style={[StyleSheet.absoluteFill, { backgroundColor: '#1C1C1E' }]} />

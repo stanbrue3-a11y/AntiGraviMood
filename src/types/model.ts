@@ -182,6 +182,7 @@ export interface Place {
             label: string;
         } | null;
         opening_hours: string;
+        /** @deprecated Use `pricing` object instead */
         price_range: number;
         happy_hour?: string | {
             start: string;

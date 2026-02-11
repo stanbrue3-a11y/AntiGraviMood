@@ -13,6 +13,7 @@ import { Place, MoodType } from '../types/model';
 let index: any = null;
 let lastDataLength = 0;
 let searchCache: Record<string, Place[]> = {};
+const MAX_CACHE_SIZE = 100;
 
 const MOOD_KEYWORDS: Record<MoodType, string[]> = {
     chill: ['calme', 'cosy', 'posé', 'détente', 'lecture', 'café', 'silence', 'intimiste', 'douceur', 'repos'],
@@ -54,13 +55,14 @@ export const MoodEngine = {
                 name: place.name,
                 vibes: vibes,
                 category: place.category,
-                subcategory: Array.isArray(place.subcategory) ? place.subcategory.join(" ") : place.subcategory,
+                subcategory: Array.isArray(place.subcategories) ? place.subcategories.join(" ") : (place.subcategories || ""),
                 description: place.description || "",
                 specialty: specialty
             });
         });
 
         lastDataLength = places.length;
+        searchCache = {}; // Invalidate cache when data changes
         logger.log('🧠 [MoodEngine] Haussmann Index Ready.');
     },
 
@@ -109,6 +111,11 @@ export const MoodEngine = {
             .slice(0, limit)
             .map(s => s.place);
 
+        // Limit cache size
+        if (Object.keys(searchCache).length > MAX_CACHE_SIZE) {
+            const keys = Object.keys(searchCache);
+            delete searchCache[keys[0]];
+        }
         searchCache[cacheKey] = finalResult;
         return finalResult;
     }

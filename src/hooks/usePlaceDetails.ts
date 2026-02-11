@@ -8,18 +8,15 @@ import { Place } from '../types/model';
 import { moodColors, useTheme, type MoodType } from '../design';
 
 /**
- * usePlaceDetails - Forensic Edition 🔬🏛️
- * Staggered hydration driven by BottomSheet animation milestones.
+ * usePlaceDetails — Post-Audit Edition 🔬
+ * 
+ * KEY FIX (C1): The useEffect ONLY depends on `selectedPlaceId`, NOT `place`.
  */
 export const usePlaceDetails = (selectedPlaceId: string | null) => {
     const { theme } = useTheme();
     const bottomSheetRef = useRef<BottomSheet>(null);
     const [isHoursExpanded, setIsHoursExpanded] = useState(false);
 
-    // 🚦 STAGE MACHINE: 
-    // 0: Flight (Only Backdrop)
-    // 1: Settled (Carousel + Meta)
-    // 2: Hydrated (Heavy Content)
     const [hydrationLevel, setHydrationLevel] = useState(0);
     const [isReady, setIsReady] = useState(false);
 
@@ -28,67 +25,78 @@ export const usePlaceDetails = (selectedPlaceId: string | null) => {
     const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
     const toggleLike = usePlacesStore(state => state.toggleLike);
     const hydratePlace = usePlacesStore(state => state.hydratePlace);
+
+    // Derived place — reactive to store changes for UI rendering
     const place = useMemo(() => {
         return selectedPlaceId ? places.find(p => p.id === selectedPlaceId) : null;
     }, [selectedPlaceId, places]);
 
     const activeIdRef = useRef<string | null>(null);
 
+    // ============================================================
+    // CORE EFFECT: Only fires when selectedPlaceId changes.
+    // ============================================================
     useEffect(() => {
-        if (selectedPlaceId && place) {
-            // Stage 0: START FLIGHT
-            // Important: We DON'T reset hydrationLevel here if it's already > 0 for the SAME place
-            // to prevent the "disappearing" glitch.
-            if (activeIdRef.current !== selectedPlaceId) {
-                setHydrationLevel(0);
-                setIsReady(false);
-                activeIdRef.current = selectedPlaceId;
-            }
+        console.log(`🔵 [usePlaceDetails] Effect fired. selectedPlaceId=${selectedPlaceId}`);
 
-            // Trigger animation with surgical precision
-            const snapId = requestAnimationFrame(() => {
-                bottomSheetRef.current?.snapToIndex(0);
-            });
-
-            // POST-ANIMATION SEQUENCE
-            const interactionHandle = InteractionManager.runAfterInteractions(() => {
-                // Animation finished - we are settled.
-                setIsReady(true);
-
-                // Hydrate details in background
-                hydratePlace(selectedPlaceId);
-
-                // ⚡ INSTANT HYDRATION: If we already have the description (cached), skip the staggered UI wait.
-                if (place.description && place.description.length > 50) {
-                    setHydrationLevel(2);
-                    return;
-                }
-
-                // Stage 1: Meta & Core (增加到 200ms 为了让处理器降温)
-                const t1 = setTimeout(() => {
-                    setHydrationLevel(1);
-                }, 150);
-
-                // Stage 2: Heavy Content
-                const t2 = setTimeout(() => {
-                    setHydrationLevel(2);
-                }, 500);
-
-                return () => { clearTimeout(t1); clearTimeout(t2); };
-            });
-
-            return () => {
-                cancelAnimationFrame(snapId);
-                interactionHandle.cancel();
-            };
-        } else if (!selectedPlaceId) {
+        if (!selectedPlaceId) {
             activeIdRef.current = null;
             bottomSheetRef.current?.close();
             setIsHoursExpanded(false);
             setHydrationLevel(0);
             setIsReady(false);
+            return;
         }
-    }, [selectedPlaceId, place, hydratePlace]);
+
+        // Read place imperatively
+        const currentPlace = usePlacesStore.getState().places.find(p => p.id === selectedPlaceId);
+        console.log(`🔵 [usePlaceDetails] Place found: ${currentPlace?.name || 'NULL'}`);
+
+        if (!currentPlace) {
+            console.warn(`❌ [usePlaceDetails] No place found for ID: ${selectedPlaceId}`);
+            return;
+        }
+
+        // Reset state for new place
+        if (activeIdRef.current !== selectedPlaceId) {
+            setHydrationLevel(0);
+            setIsReady(false);
+            activeIdRef.current = selectedPlaceId;
+        }
+
+        // SNAP: Use setTimeout to ensure the BottomSheet ref is ready
+        const snapTimeout = setTimeout(() => {
+            const hasRef = !!bottomSheetRef.current;
+            console.log(`🎯 [usePlaceDetails] SNAP attempt. Ref present: ${hasRef}`);
+            if (hasRef) {
+                bottomSheetRef.current!.snapToIndex(0);
+                console.log(`✅ [usePlaceDetails] snapToIndex(0) called`);
+            } else {
+                console.error(`❌ [usePlaceDetails] SNAP FAILED — ref is null!`);
+            }
+        }, 50);
+
+        // Post-animation hydration
+        const interactionHandle = InteractionManager.runAfterInteractions(() => {
+            setIsReady(true);
+            hydratePlace(selectedPlaceId);
+
+            if (currentPlace.description && currentPlace.description.length > 50) {
+                setHydrationLevel(2);
+                return;
+            }
+
+            const t1 = setTimeout(() => setHydrationLevel(1), 150);
+            const t2 = setTimeout(() => setHydrationLevel(2), 500);
+
+            return () => { clearTimeout(t1); clearTimeout(t2); };
+        });
+
+        return () => {
+            clearTimeout(snapTimeout);
+            interactionHandle.cancel();
+        };
+    }, [selectedPlaceId]);
 
     const isLiked = useMemo(() =>
         place ? likedPlaceIds.includes(place.id) : false
@@ -100,6 +108,7 @@ export const usePlaceDetails = (selectedPlaceId: string | null) => {
     }, []);
 
     const handleSheetChanges = useCallback((index: number) => {
+        console.log(`📊 [usePlaceDetails] Sheet index changed: ${index}`);
         if (index === -1) selectPlace(null, 'map');
     }, [selectPlace]);
 

@@ -51,11 +51,16 @@ export class DataService {
 
     // --- CORE IGNITION LOGIC (LEGACY PROTOCOL) ---
 
+    // --- CORE IGNITION LOGIC (LEGACY PROTOCOL) ---
+    // LOCKING: Ensure only one initialization definition runs at a time.
     async init() {
-        if (this._kernel) return;
-        if (this._initPromise) return this._initPromise;
+        if (this._kernel) return; // Fast path: already initialized
+        if (this._initPromise) return this._initPromise; // Fast path: initialization in progress
 
         this._initPromise = (async () => {
+            // DOUBLE CHECK LOCK inside the async scope (in case of microtask race, though JS is single threaded, this is good practice for mental model)
+            if (this._kernel) return;
+
             try {
                 logger.log("🧠 [DataService] HARD IGNITION START (LEGACY PROTOCOL)...");
 
@@ -179,7 +184,9 @@ export class DataService {
                 this._momentsRepo = new SQLiteMomentsRepository(this._kernel);
 
             } catch (fault) {
-                this._initPromise = null; // Reset promise so retry is possible
+                // LOCK RELEASE ON FAILURE
+                this._initPromise = null;
+                this._kernel = null; // Ensure we don't end up in a half-initialized state
                 const message = fault instanceof Error ? fault.message : 'Unknown core fault';
                 logger.error(`💀 [DataService] CRITICAL ENGINE FAILURE: ${message}`);
                 throw fault;

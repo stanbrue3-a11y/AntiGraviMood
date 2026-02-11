@@ -168,8 +168,14 @@ export class PlaceMapper {
         const insider_tip = realTalkRaw.insider_tip || "";
         const specials = realTalkRaw.specials || { cuisine: [], drinks: [] };
 
-        // STRICT MAPPING: No more "Smart Recovery" hacks.
-        let description = row.description || "";
+        // STRICT MAPPING: Enabled Smart Recovery 🧠
+        let description = this.cleanText(row.description || "");
+        const genericTriggers = ["Découvrez ce lieu", "Venez découvrir", "Un lieu unique", "Une expérience authentique"];
+        const isGeneric = genericTriggers.some(t => description.startsWith(t));
+
+        if ((isGeneric || !description) && realTalkRaw.text && realTalkRaw.text.length > 40) {
+            description = realTalkRaw.text;
+        }
 
         // Subcategories normalization
         const subcategories = typeof row.subcategory === 'string'
@@ -220,7 +226,8 @@ export class PlaceMapper {
             media: {
                 hero_image: row.hero_image,
                 instagram_handle: row.instagram_handle,
-                google_photos: this.safeJsonParse<string[] | undefined>(row.google_photos_json, undefined)
+                google_photos: this.safeJsonParse<string[] | undefined>(row.google_photos_json, undefined),
+                ...(row.media_json ? this.safeJsonParse<any>(row.media_json, {}) : {})
             },
             google_rating: row.rating || undefined,
             google_user_ratings_total: row.user_ratings_total || undefined,
@@ -228,12 +235,6 @@ export class PlaceMapper {
             specials,
             pricing: (() => {
                 const pricingJson = this.safeJsonParse<any>(row.pricing_json, {});
-                // 🔍 CRITICAL DEBUG - trace pricing_json flow
-                if (row.id === 'poi-164') {
-                    console.log(`🔴 [MAPPER] poi-164 row.pricing_json type:`, typeof row.pricing_json);
-                    console.log(`🔴 [MAPPER] poi-164 row.pricing_json first 100:`, String(row.pricing_json || '').substring(0, 100));
-                    console.log(`🔴 [MAPPER] poi-164 pricingJson.menu_items:`, pricingJson?.menu_items?.length || 0);
-                }
                 return {
                     type: pricingType,
                     budget_avg: row.budget_avg || 0,

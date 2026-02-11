@@ -122,9 +122,6 @@ export const PlaceSection = React.memo(({
                 </View>
             );
         case 'price_gauge':
-            // 🔍 DEBUG: Check menu_items presence
-            console.log(`🍽️ [PlaceSection] ${place.name} pricing:`, JSON.stringify(place.pricing?.menu_items?.length || 0), 'menu items');
-
             // 🧠 NUANCE: Detect Cocktail Bar via subcategory if main category is generic 'bar'
             // This triggers the specific Price Logic (Cocktail Priority)
             const effectiveCategory = (place.subcategories || []).includes('bar-cocktail')
