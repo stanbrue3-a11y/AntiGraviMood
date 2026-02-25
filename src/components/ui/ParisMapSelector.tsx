@@ -3,6 +3,7 @@ import { View, StyleSheet, Text, Platform, TouchableOpacity } from 'react-native
 import Svg, { Path, G, Text as SvgText, Defs, LinearGradient, Stop } from 'react-native-svg';
 import Animated, { useSharedValue, useAnimatedProps, withRepeat, withTiming } from 'react-native-reanimated';
 import * as Haptics from 'expo-haptics';
+import { useTheme } from '../../design';
 
 interface ParisMapSelectorProps {
     selectedDistricts: number[];
@@ -74,7 +75,7 @@ const getDistrictMood = (id: number): 'chill' | 'festif' | 'culturel' => {
 
 const AnimatedPath = Animated.createAnimatedComponent(Path);
 
-const DistrictItem = ({ district, isSelected, onToggle }: { district: any, isSelected: boolean, onToggle: (id: number) => void }) => {
+const DistrictItem = ({ district, isSelected, onToggle, isDark }: { district: any, isSelected: boolean, onToggle: (id: number) => void, isDark: boolean }) => {
     const opacity = useSharedValue(1);
 
     React.useEffect(() => {
@@ -94,9 +95,10 @@ const DistrictItem = ({ district, isSelected, onToggle }: { district: any, isSel
     }));
 
     const mood = getDistrictMood(district.id);
-    const fillColor = isSelected ? MOOD_COLORS[mood] : '#FFFFFF';
-    const strokeColor = '#334155'; // Always Dark Graphite for "Sketch" look
+    const fillColor = isSelected ? MOOD_COLORS[mood] : (isDark ? '#374151' : '#FFFFFF');
+    const strokeColor = isDark ? '#1F2937' : '#334155'; // Dark Graphite or Deep Dark for "Sketch" look
     const strokeWidth = isSelected ? 2.5 : 1.5; // Thicker when selected
+    const textColor = isSelected ? '#1E293B' : (isDark ? '#9CA3AF' : '#1E293B');
 
     return (
         <G
@@ -121,7 +123,7 @@ const DistrictItem = ({ district, isSelected, onToggle }: { district: any, isSel
             <SvgText
                 x={district.cx}
                 y={district.cy + 4}
-                fill="#1E293B" // Always Dark for readability
+                fill={textColor}
                 fontSize={isSelected ? "13" : "11"}
                 fontFamily={Platform.OS === 'ios' ? 'Georgia' : 'serif'}
                 fontWeight="bold"
@@ -134,13 +136,15 @@ const DistrictItem = ({ district, isSelected, onToggle }: { district: any, isSel
 };
 
 export const ParisMapSelector = React.memo(({ selectedDistricts, onToggle }: ParisMapSelectorProps) => {
+    const { isDark } = useTheme();
+
     return (
         <View style={styles.container}>
             <Svg width="340" height="330" viewBox="0 0 340 330">
                 {/* Seine River - Visible Blue */}
                 <Path
                     d="M20,170 Q80,145 120,155 Q160,165 180,168 Q210,172 250,165 Q290,158 330,175"
-                    stroke="#BAE6FD" // Beautiful Sky/River Blue
+                    stroke={isDark ? '#1E3A8A' : '#BAE6FD'} // Darker blue river in night mode
                     strokeWidth="12"
                     fill="none"
                     strokeLinecap="round"
@@ -153,6 +157,7 @@ export const ParisMapSelector = React.memo(({ selectedDistricts, onToggle }: Par
                         district={district}
                         isSelected={selectedDistricts.includes(district.id)}
                         onToggle={onToggle}
+                        isDark={isDark}
                     />
                 ))}
             </Svg>
