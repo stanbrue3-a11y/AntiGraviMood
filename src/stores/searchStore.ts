@@ -1,203 +1,222 @@
 import { create } from 'zustand';
-import { MoodType, Place } from '../types/model';
-import { MoodEngine } from '../lib/MoodEngine';
-import { isOpenDuring } from '../lib/timeUtils';
+import { MoodType, PlaceSkeleton } from '../types/model';
+import { isOpenDuring, isOpenNow, isHappyHourActive } from '../lib/timeUtils';
+import { dataService } from '../services/dataService';
+import { usePlacesStore } from './placesStore';
 
-interface SearchState {
-    selectedMoods: MoodType[];
-    selectedCategories: string[];
-    selectedDistricts: number[];
-    searchQuery: string;
-    timeRange: { start: number; end: number } | null;
-    filterOpenNow: boolean;
-    filterHappyHour: boolean;
-    filterTerrace: boolean;
+export interface SearchState {
+  selectedMoods: MoodType[];
+  selectedCategories: string[];
+  selectedDistricts: number[];
+  searchQuery: string;
+  timeRange: { start: number; end: number } | null;
+  filterOpenNow: boolean;
+  filterHappyHour: boolean;
+  filterTerrace: boolean;
 
-    // Pricing Filters
-    pinceMaxPercent: number;
+  // Pricing Filters
+  pinceMaxPercent: number;
 
-    // Unified Adaptive Filter
-    maxPrice: number | null;
-    setMaxPrice: (price: number | null) => void;
+  // Unified Adaptive Filter
+  maxPrice: number | null;
+  setMaxPrice: (price: number | null) => void;
 
-    // Legacy/Component Specific Limits
-    pintLimit: number | null;
-    dishLimit: number | null;
-    coffeeLimit: number | null;
+  // Surgical Performance (Phase 9)
+  filteredIds: string[];
+  isSearching: boolean;
+  performSearch: () => Promise<void>;
 
-    // Actions
-    warmUpPrices: () => void;
-    setSearchQuery: (query: string) => void;
-    setTimeRange: (range: { start: number; end: number } | null) => void;
-    setFilterOpenNow: (open: boolean) => void;
-    setFilterHappyHour: (open: boolean) => void;
-    setFilterTerrace: (open: boolean) => void;
-    setSelectedMoods: (moods: MoodType[]) => void;
-    toggleMood: (mood: MoodType) => void;
-    toggleCategory: (cat: string) => void;
-    setSelectedDistricts: (districts: number[]) => void;
-    setPintLimit: (limit: number | null) => void;
-    setDishLimit: (limit: number | null) => void;
-    setCoffeeLimit: (limit: number | null) => void;
-    clearFilters: () => void;
+  // Legacy/Component Specific Limits
+  pintLimit: number | null;
+  dishLimit: number | null;
+  coffeeLimit: number | null;
+
+  // Actions
+  warmUpPrices: () => void;
+  setSearchQuery: (query: string) => void;
+  setTimeRange: (range: { start: number; end: number } | null) => void;
+  setFilterOpenNow: (open: boolean) => void;
+  setFilterHappyHour: (open: boolean) => void;
+  setFilterTerrace: (open: boolean) => void;
+  setSelectedMoods: (moods: MoodType[]) => void;
+  toggleMood: (mood: MoodType) => void;
+  toggleCategory: (cat: string) => void;
+  setSelectedDistricts: (districts: number[]) => void;
+  setPintLimit: (limit: number | null) => void;
+  setDishLimit: (limit: number | null) => void;
+  setCoffeeLimit: (limit: number | null) => void;
+  clearFilters: () => void;
 }
 
 export const PLACE_CATEGORIES = [
-    { key: 'bar', label: 'Bars' },
-    { key: 'café', label: 'Cafés' },
-    { key: 'restaurant', label: 'Restos' },
-    { key: 'club', label: 'Clubs' },
-    { key: 'parc', label: 'Parcs' },
-    { key: 'museum', label: 'Musées' },
-    { key: 'exhibition', label: 'Expos' }
+  { key: 'bar', label: 'Bars' },
+  { key: 'café', label: 'Cafés' },
+  { key: 'restaurant', label: 'Restos' },
+  { key: 'club', label: 'Clubs' },
+  { key: 'parc', label: 'Parcs' },
+  { key: 'museum', label: 'Musées' },
+  { key: 'exhibition', label: 'Expos' },
 ];
 
-export const useSearchStore = create<SearchState>((set) => ({
-    selectedMoods: [],
-    selectedCategories: ['bar'],
-    selectedDistricts: [],
-    searchQuery: '',
-    timeRange: null,
-    filterOpenNow: false,
-    filterHappyHour: false,
-    filterTerrace: false,
-    pinceMaxPercent: 100,
-    maxPrice: null,
-    pintLimit: null,
-    dishLimit: null,
-    coffeeLimit: null,
+export const useSearchStore = create<SearchState>((set, get) => ({
+  selectedMoods: [],
+  selectedCategories: ['bar'],
+  selectedDistricts: [],
+  searchQuery: '',
+  timeRange: null,
+  filterOpenNow: false,
+  filterHappyHour: false,
+  filterTerrace: false,
+  pinceMaxPercent: 100,
+  maxPrice: null,
+  filteredIds: [],
+  isSearching: false,
+  pintLimit: null,
+  dishLimit: null,
+  coffeeLimit: null,
 
-    setMaxPrice: (price) => set({ maxPrice: price }),
+  setMaxPrice: (price) => {
+    const categories = get().selectedCategories;
+    const isBar = categories.includes('bar');
+    const isResto = categories.includes('restaurant');
+    const isCoffee = categories.includes('café');
 
-    warmUpPrices: () => {
-        console.log('⚡️ [SearchStore] Warming up price indexes...');
-    },
+    // Intelligence Situationnelle 2026 : Le slider s'adapte au contexte actif
+    if (isBar) {
+      set({ maxPrice: null, pintLimit: price, dishLimit: null, coffeeLimit: null });
+    } else if (isResto) {
+      set({ maxPrice: null, dishLimit: price, pintLimit: null, coffeeLimit: null });
+    } else if (isCoffee) {
+      set({ maxPrice: null, coffeeLimit: price, pintLimit: null, dishLimit: null });
+    } else {
+      set({ maxPrice: price, pintLimit: null, dishLimit: null, coffeeLimit: null });
+    }
+    get().performSearch();
+  },
 
-    setSearchQuery: (query) => set({ searchQuery: query }),
-    setTimeRange: (range) => set({ timeRange: range }),
-    setFilterOpenNow: (open) => set({ filterOpenNow: open }),
-    setFilterHappyHour: (open) => set({ filterHappyHour: open }),
-    setFilterTerrace: (open) => set({ filterTerrace: open }),
-    setSelectedMoods: (moods) => set({ selectedMoods: moods }),
-    toggleMood: (mood) => set(state => ({
-        selectedMoods: state.selectedMoods.includes(mood)
-            ? state.selectedMoods.filter(m => m !== mood)
-            : [...state.selectedMoods, mood]
-    })),
-    toggleCategory: (cat) => set(state => ({
-        selectedCategories: state.selectedCategories.includes(cat)
-            ? state.selectedCategories.filter(c => c !== cat)
-            : [cat]
-    })),
-    setSelectedDistricts: (districts) => set({ selectedDistricts: districts }),
-    setDishLimit: (limit) => set({ dishLimit: limit }),
-    setCoffeeLimit: (limit) => set({ coffeeLimit: limit }),
-    setPintLimit: (limit) => set({ pintLimit: limit }),
-    clearFilters: () => set({
-        selectedMoods: [],
-        selectedCategories: ['bar'],
-        selectedDistricts: [],
-        searchQuery: '',
-        timeRange: null,
-        filterOpenNow: false,
-        filterHappyHour: false,
-        filterTerrace: false,
-        maxPrice: null,
-        pintLimit: null,
-        dishLimit: null,
-        coffeeLimit: null,
-    }),
+  performSearch: async () => {
+    const state = get();
+    if (state.isSearching) return;
+    set({ isSearching: true });
+
+    try {
+      const filters = {
+        searchQuery: state.searchQuery,
+        selectedCategories: state.selectedCategories,
+        selectedMoods: state.selectedMoods,
+        selectedDistricts: state.selectedDistricts,
+        maxPrice: state.maxPrice,
+        pintLimit: state.pintLimit,
+        dishLimit: state.dishLimit,
+        coffeeLimit: state.coffeeLimit,
+        filterTerrace: state.filterTerrace,
+        // timeRange and filterOpenNow are still JS-only because they are dynamic (now)
+      };
+
+      const ids = await dataService.getFilteredPlaceIds(filters);
+
+      // Post-filter for time-based (since it's hard to do in SQL-native without complicated date functions)
+      // Actually, we can do it in JS on just the returned IDs (very fast)
+      // V2: Time-based post-filters require full Place data (opening_hours, practical_info).
+      // Since placesStore now only holds PlaceSkeletons, these JS-side filters are disabled.
+      // TODO: Migrate openNow/happyHour/timeRange filtering to SQL-level in a future phase.
+      let finalIds = ids;
+
+      set({ filteredIds: finalIds, isSearching: false });
+    } catch (e) {
+      console.error('❌ [SearchStore] Search failed:', e);
+      set({ isSearching: false });
+    }
+  },
+
+  warmUpPrices: () => { },
+
+  setSearchQuery: (query) => set({ searchQuery: query }),
+  setTimeRange: (range) => set({ timeRange: range }),
+  setFilterOpenNow: (open) => {
+    set({ filterOpenNow: open });
+    get().performSearch();
+  },
+  setFilterHappyHour: (open) => {
+    set({ filterHappyHour: open });
+    get().performSearch();
+  },
+  setFilterTerrace: (open) => {
+    set({ filterTerrace: open });
+    get().performSearch();
+  },
+  setSelectedMoods: (moods) => {
+    set({ selectedMoods: moods });
+    get().performSearch();
+  },
+  toggleMood: (mood) => {
+    set((state) => ({
+      selectedMoods: state.selectedMoods.includes(mood)
+        ? state.selectedMoods.filter((m) => m !== mood)
+        : [...state.selectedMoods, mood],
+    }));
+    get().performSearch();
+  },
+  toggleCategory: (cat) => {
+    set((state) => ({
+      selectedCategories: state.selectedCategories.includes(cat)
+        ? state.selectedCategories.filter((c) => c !== cat)
+        : [cat],
+      // Reset contextual price limits on category change to avoid empty results
+      pintLimit: null,
+      dishLimit: null,
+      coffeeLimit: null,
+      maxPrice: null,
+    }));
+    get().performSearch();
+  },
+  setSelectedDistricts: (districts) => {
+    set({ selectedDistricts: districts });
+    get().performSearch();
+  },
+  setPintLimit: (limit) => {
+    set({ pintLimit: limit });
+    get().performSearch();
+  },
+  setDishLimit: (limit) => {
+    set({ dishLimit: limit });
+    get().performSearch();
+  },
+  setCoffeeLimit: (limit) => {
+    set({ coffeeLimit: limit });
+    get().performSearch();
+  },
+  clearFilters: () => {
+    set({
+      selectedMoods: [],
+      selectedCategories: ['bar'],
+      selectedDistricts: [],
+      searchQuery: '',
+      timeRange: null,
+      filterOpenNow: false,
+      filterHappyHour: false,
+      filterTerrace: false,
+      maxPrice: null,
+      pintLimit: null,
+      dishLimit: null,
+      coffeeLimit: null,
+    });
+    get().performSearch();
+  },
 }));
-
-import { usePlacesStore } from './placesStore';
 
 // RELATIONAL BRIDGE 🏛️
 // Explicit init function to be called from _layout.tsx
 export const initSearchBridge = () => {
-    const state = usePlacesStore.getState();
-    if (state.isReady) {
-        useSearchStore.getState().warmUpPrices();
-        console.log('🏛️ [SearchStore] Bridge Solidified (Manual Init).');
+  const state = usePlacesStore.getState();
+  if (state.isReady) {
+    useSearchStore.getState().warmUpPrices();
+  }
+
+  // Subscribe for future updates
+  return usePlacesStore.subscribe((newState) => {
+    if (newState.isReady) {
+      useSearchStore.getState().warmUpPrices();
     }
-
-    // Subscribe for future updates
-    return usePlacesStore.subscribe((newState) => {
-        if (newState.isReady) {
-            useSearchStore.getState().warmUpPrices();
-        }
-    });
-};
-
-// Cross-domain selector
-export const selectFilteredResults = (places: Place[]) => {
-    const state = useSearchStore.getState();
-    const {
-        searchQuery,
-        selectedMoods,
-        selectedCategories,
-        selectedDistricts,
-        maxPrice,
-        pintLimit,
-        dishLimit,
-        coffeeLimit,
-        timeRange,
-        filterOpenNow
-    } = state;
-
-    let filtered = searchQuery.length > 1
-        ? MoodEngine.search(places, searchQuery)
-        : places;
-
-    return filtered.filter(p => {
-        // 1. Mood & Category & District
-        if (selectedMoods.length > 0 && !selectedMoods.includes(p.dominant_mood as MoodType)) return false;
-        if (selectedCategories.length > 0 && !selectedCategories.includes(p.category)) return false;
-        if (selectedDistricts.length > 0 && !selectedDistricts.includes(p.location.arrondissement)) return false;
-
-        // 2. Adaptive Pricing Intelligence 🧠
-        // If any limit is set, we check the relevant field based on category/vibes
-        if (p.pricing) {
-            const isCocktailBar = p.vibes?.some(v => typeof v === 'string' && v.toLowerCase().includes('cocktail'));
-            const isClub = p.category === 'club';
-            const isRestaurant = p.category === 'restaurant' || p.category === 'bouillon';
-            const isCafe = p.category === 'café';
-            const isBar = p.category === 'bar';
-
-            let targetPrice: number | undefined;
-            let currentLimit: number | null = null;
-
-            if (isCocktailBar) {
-                targetPrice = p.pricing.cocktail_price;
-                currentLimit = maxPrice;
-            } else if (isClub) {
-                targetPrice = p.pricing.pint_price || p.pricing.cocktail_price;
-                currentLimit = pintLimit || maxPrice;
-            } else if (isRestaurant) {
-                targetPrice = p.pricing.main_dish_price;
-                currentLimit = dishLimit || maxPrice;
-            } else if (isCafe) {
-                targetPrice = p.pricing.coffee_price;
-                currentLimit = coffeeLimit || maxPrice;
-            } else if (isBar) {
-                targetPrice = p.pricing.pint_price;
-                currentLimit = pintLimit || maxPrice;
-            }
-
-            // Fallback to budget_avg if no specific item price found
-            if (targetPrice === undefined) {
-                targetPrice = p.pricing.budget_avg;
-                if (currentLimit === null) currentLimit = maxPrice;
-            }
-
-            if (currentLimit !== null && targetPrice > currentLimit) return false;
-        }
-
-        // 3. Time Filter Reconnection ⏱️
-        if (timeRange && !isOpenDuring(p, timeRange)) return false;
-
-        // 4. Open Now Short-circuit
-        if (filterOpenNow && p.opening_hours && !p.opening_hours.is_open_now) return false;
-
-        return true;
-    }).sort((a, b) => (b.google_rating || 0) - (a.google_rating || 0));
+  });
 };

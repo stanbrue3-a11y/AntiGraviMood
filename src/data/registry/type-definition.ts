@@ -20,7 +20,9 @@ export type CuisineType =
     | 'Pizza'
     | 'Fruits de mer'
     | 'Street Food'
-    | 'Autre';
+    | 'Patrimoine'
+    | 'Autre'
+    | (string & {});
 
 export type BeverageType =
     | 'Bière'
@@ -30,6 +32,9 @@ export type BeverageType =
     | 'Thé'
     | 'Soft';
 
+// Allow registry to carry free-form beverage taxons during migration
+export type BeverageTypeFlexible = BeverageType | (string & {});
+
 export interface Location {
     address: string;          // Must be > 5 chars
     arrondissement: number;   // 1-20
@@ -37,6 +42,7 @@ export interface Location {
     lng: number;
     nearest_metro: string;    // MAX 60 chars
     metro_lines?: (string | number)[]; // Array of short strings/numbers
+    google_id?: string;       // For deep links & persistence
 }
 
 export interface PracticalInfo {
@@ -55,19 +61,48 @@ export interface PracticalInfo {
         smart_tip?: string;
         items: {
             category: string;
-            items: { name: string; price: string }[];
+            items: { name: string; price: string; description?: string }[];
         }[];
     };
 }
 
+// Surgical Price Index (Fact-Only Prices)
 export interface Pricing {
-    avg_budget: number; // 1-4
     is_free?: boolean;
-    pint_price?: number;
-    cocktail_price?: number;
-    coffee_price?: number;
-    dish_price?: number;
-    last_updated?: string; // ISO Date "YYYY-MM-DD"
+
+    // Legacy/registry-level budget index (1..4 etc)
+    avg_budget?: number;
+
+    // Core representative prices (MANDATORY for industrial scaling)
+    index_price?: number;     // Factual price of the representative item
+    primary_price_type?: string;
+    pint_price?: number;     // Standard pint (Beer bars)
+    cocktail_price?: number; // Signature cocktail (Bar/Club)
+    wine_glass?: number;     // Standard glass (Wine bars)
+    coffee_price?: number;   // Espresso price (Cafés)
+    dish_price?: number;     // Main representative dish (Restaurants)
+
+    // Extended prices
+    shot_price?: number;
+    soft_price?: number;
+    planche_price?: number;
+
+    // Happy Hour
+    hh_pint?: number;
+    hh_cocktail?: number;
+    hh_wine?: number;
+    hh_time?: string;        // "18h-20h" or "lun-ven 18h-20h"
+
+    // Full menu (Strictly factual)
+    menu_items?: {
+        category: string;
+        items: { name: string; price: string; description?: string }[];
+    }[];
+    smart_tip?: string;
+
+    // Reliability Metadata
+    verified_at?: string;    // ISO Date "YYYY-MM-DD"
+    last_updated?: string;   // ISO Date (Internal pipeline)
 }
 
 // THE MASTER INTERFACE
@@ -83,14 +118,17 @@ export interface SurgicalPlace {
     pricing: Pricing;
     practical: PracticalInfo;
 
-    // Content (Simplified & Rich)
+    // Content (Simplified & Rich 2026 Standard)
     description: string;      // "Histoire et lieu (Mini Fiche)" - Paragraph format
-    insider_tip: string;      // "L'apparté de l'initié"
+    expert_catchline?: string; // "On mange quoi ?" - Editorial summary (Ami qui sait)
+    insider_tip: string;      // "L'apparté de l'initié" - Tips & Must Eat
 
-    // Structured Offerings (New)
+    // Structured Offerings
     specials: {
         cuisine?: CuisineType[];
-        drinks?: BeverageType[];
+        drinks?: BeverageTypeFlexible[];
+        must_eat?: string;    // Moved to insider_tip but kept here for data pipeline logic
+        expert_catchline?: string;
     };
 
     // Moods (0-100)
@@ -109,4 +147,8 @@ export interface SurgicalPlace {
     // Metadata
     verified: boolean;
     google_rating?: number;
+    instagram_handle?: string;
+
+    // Data Provenance 🧬
+    source?: 'expert_human' | 'research_ai' | 'to_be_verified';
 }

@@ -1,135 +1,417 @@
 import * as SQLite from 'expo-sqlite';
-import { Place } from '../types/model';
+import { Place, PlaceRow, PlaceSkeleton } from '../types/model';
 import { FilterCriteria } from '../types/filters';
 import { IPlacesRepository } from './IPlacesRepository';
-import { PlaceMapper, PlaceRow } from '../services/PlaceMapper';
+import { PlaceMapper } from '../services/PlaceMapper';
+import { Kysely, sql, ExpressionBuilder } from 'kysely';
+import { Database } from '../data/db/schema';
+import { SQLiteKernel } from '../services/SQLiteKernel';
 
 export class SQLitePlacesRepository implements IPlacesRepository {
-    constructor(private db: SQLite.SQLiteDatabase) { }
+  private kysely: Kysely<Database> | null = null;
 
-    /**
-     * getAllPlacesLight 
-     * 
-     * ⚠️ PERFORMANCE OVERRIDE: 
-     * Switching to SELECT * to ensure NO data is missing during initial render.
-     * The "Light" naming is legacy now; this returns FULL objects for the ~63 places.
-     * This fixes the "White Sheet Pop-in" issue.
-     */
-    async getAllPlacesLight(signal?: AbortSignal): Promise<Place[]> {
-        const results = await this.db.getAllAsync<PlaceRow>(
-            `SELECT * FROM places`
+  constructor(
+    private db: SQLite.SQLiteDatabase,
+    private kernel?: SQLiteKernel,
+  ) { }
+
+  private async getDb(): Promise<Kysely<Database>> {
+    if (this.kysely) return this.kysely;
+    if (this.kernel) {
+      this.kysely = await this.kernel.getKysely();
+    } else {
+      // Fallback for tests or legacy instantiation
+      const { ExpoDialect } = require('kysely-expo');
+      this.kysely = new Kysely<Database>({
+        dialect: new ExpoDialect({ database: this.db }),
+      });
+    }
+    return this.kysely;
+  }
+
+  /**
+   * Returns FULL objects for the ~63 places to avoid pop-in.
+   * Part of the Haussmannian Registry Store model.
+   */
+  async getRegistryPlaces(signal?: AbortSignal): Promise<Place[]> {
+    const queryBuilder = await this.getDb();
+    const results = await queryBuilder.selectFrom('places').selectAll().execute();
+
+    if (signal?.aborted) throw new Error('AbortError');
+    return (results as unknown as PlaceRow[]).map((row) => PlaceMapper.mapRowToPlace(row));
+  }
+
+  /**
+   * [V2 Architecture] Fetches ONLY the required columns to build PlaceSkeletons.
+   * Guaranteed O(1) Memory footprint by stripping out heavy JSON objects.
+   */
+  async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
+    const queryBuilder = await this.getDb();
+
+    const results = await queryBuilder
+      .selectFrom('places')
+      .select([
+        'id',
+        'name',
+        'slug',
+        'category',
+        'subcategory',
+        'dominant_mood',
+        'lat',
+        'lng',
+        'arrondissement',
+        'address',
+        'hero_image',
+        'rating',
+        'user_ratings_total',
+        // Pricing Base Fields for MiniBadge
+        'budget_avg',
+        'is_free',
+        'budget_unit',
+        'pint_price',
+        'cocktail_price',
+        'coffee_price',
+        'main_dish_price',
+        // No Categories JSON, No Social, No Editorial, No Vibe, No AI Insights
+        'pricing_json', // Required for Happy Hour parsing inside the MiniBadge
+      ])
+      .execute();
+
+    if (signal?.aborted) throw new Error('AbortError');
+
+    // We use PlaceMapper to guarantee consistent typing, even for skeletons
+    return (results as unknown as PlaceRow[]).map((row) => PlaceMapper.mapRowToSkeleton(row));
+  }
+
+  async getRegistryRows(signal?: AbortSignal): Promise<PlaceRow[]> {
+    const queryBuilder = await this.getDb();
+    const results = await queryBuilder.selectFrom('places').selectAll().execute();
+
+    if (signal?.aborted) throw new Error('AbortError');
+    return results as unknown as PlaceRow[];
+  }
+
+  async getFilteredPlaces(
+    filters: Partial<FilterCriteria> & { userLocation?: { lat: number; lng: number } },
+    signal?: AbortSignal,
+  ): Promise<Place[]> {
+    const queryBuilder = await this.getDb();
+
+    const {
+      searchQuery = '',
+      selectedCategories = [],
+      selectedMoods = [],
+      selectedDistricts = [],
+      maxPrice = null,
+      pintLimit = null,
+      dishLimit = null,
+      coffeeLimit = null,
+      filterTerrace = false,
+      userLocation,
+    } = filters;
+
+    let results;
+
+    if (searchQuery && searchQuery.trim().length > 1) {
+      let q = queryBuilder
+        .selectFrom('places')
+        .innerJoin('places_fts', 'places.id', 'places_fts.id')
+        .selectAll('places')
+        .where('places_fts.places_fts', 'match', searchQuery.trim() + '*');
+
+      if (selectedCategories && selectedCategories.length > 0)
+        q = q.where((eb) => eb.or([
+          eb('places.category', 'in', selectedCategories),
+          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+        ]));
+      if (selectedMoods && selectedMoods.length > 0)
+        q = q.where('places.dominant_mood', 'in', selectedMoods);
+      if (selectedDistricts && selectedDistricts.length > 0)
+        q = q.where('places.arrondissement', 'in', selectedDistricts);
+
+      if (maxPrice !== null || pintLimit !== null || dishLimit !== null || coffeeLimit !== null) {
+        q = q.where((eb) => {
+          const priceOrs = [];
+
+          if (pintLimit !== null) {
+            priceOrs.push(
+              eb.and([
+                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb.or([
+                  eb.and([eb('places.pint_price', '>', 0), eb('places.pint_price', '<=', pintLimit)]),
+                  eb.and([eb('places.wine_glass', '>', 0), eb('places.wine_glass', '<=', pintLimit)]),
+                  eb.and([eb('places.cocktail_price', '>', 0), eb('places.cocktail_price', '<=', pintLimit * 1.35)]),
+                  eb.and([
+                    eb.or([eb('places.pint_price', 'is', null), eb('places.pint_price', '=', 0)]),
+                    eb.or([eb('places.wine_glass', 'is', null), eb('places.wine_glass', '=', 0)]),
+                    eb.or([eb('places.cocktail_price', 'is', null), eb('places.cocktail_price', '=', 0)]),
+                    eb.and([eb('places.budget_avg', '>', 0), eb('places.budget_avg', '<=', pintLimit)])
+                  ])
+                ])
+              ])
+            );
+          }
+
+          if (dishLimit !== null) {
+            priceOrs.push(
+              eb.and([
+                eb('places.category', 'in', ['restaurant', 'bouillon']),
+                eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', dishLimit)]),
+              ])
+            );
+          }
+
+          if (coffeeLimit !== null) {
+            priceOrs.push(
+              eb.and([
+                eb('places.category', '=', 'café'),
+                eb.and([eb('places.coffee_price', '>', 0), eb('places.coffee_price', '<=', coffeeLimit)]),
+              ])
+            );
+          }
+
+          if (maxPrice !== null) {
+            priceOrs.push(eb.and([eb('places.budget_avg', '>', 0), eb('places.budget_avg', '<=', maxPrice)]));
+          }
+
+          return eb.or(priceOrs);
+        });
+      }
+
+      if (filterTerrace) {
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.description', 'like', '%terrasse%'),
+            eb('places.editorial_json', 'like', '%terrasse%'),
+          ]),
         );
-        if (signal?.aborted) throw new Error("AbortError");
-        return results.map(row => PlaceMapper.mapRowToPlace(row));
-    }
+      }
 
-    async getFilteredPlaces(filters: Partial<FilterCriteria> & { userLocation?: { lat: number; lng: number } }, signal?: AbortSignal): Promise<Place[]> {
-        const {
-            searchQuery = '',
-            selectedCategories = [],
-            selectedMoods = [],
-            selectedDistricts = [],
-            isPinceEnabled = false,
-            pinceMaxPercent = null,
-            selectedPrice = null,
-            pintLimit = null,
-            dishLimit = null,
-            coffeeLimit = null,
-            filterTerrace = false,
-            userLocation
-        } = filters;
+      q = q.orderBy('places_fts.rank', 'asc');
+      results = await q.execute();
+    } else {
+      let q = queryBuilder.selectFrom('places').selectAll('places');
 
-        // ⚠️ PERFORMANCE OVERRIDE: SELECT * here too.
-        let query = `SELECT p.* FROM places p`;
+      if (selectedCategories && selectedCategories.length > 0)
+        q = q.where((eb) => eb.or([
+          eb('places.category', 'in', selectedCategories),
+          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+        ]));
+      if (selectedMoods && selectedMoods.length > 0)
+        q = q.where('places.dominant_mood', 'in', selectedMoods);
+      if (selectedDistricts && selectedDistricts.length > 0)
+        q = q.where('places.arrondissement', 'in', selectedDistricts);
 
-        const whereClauses: string[] = [];
-        const params: any[] = [];
+      if (maxPrice !== null || pintLimit !== null || dishLimit !== null || coffeeLimit !== null) {
+        q = q.where((eb) => {
+          const priceOrs = [];
+          if (pintLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb('places.pint_price', '<=', pintLimit)
+              ]),
+            );
+          if (dishLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', 'in', ['restaurant', 'bouillon']),
+                eb('places.main_dish_price', '<=', dishLimit),
+              ]),
+            );
+          if (coffeeLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', '=', 'café'),
+                eb('places.coffee_price', '<=', coffeeLimit),
+              ]),
+            );
+          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          return eb.or(priceOrs);
+        });
+      }
 
-        if (searchQuery && searchQuery.length > 0) {
-            query += ` JOIN places_fts fts ON p.id = fts.id`;
-            whereClauses.push(`places_fts MATCH ?`);
-            params.push(searchQuery + "*");
-        }
-
-        if (selectedCategories && selectedCategories.length > 0) {
-            const placeholders = selectedCategories.map(() => '?').join(',');
-            whereClauses.push(`(p.category IN (${placeholders}) OR EXISTS (
-        SELECT 1 FROM json_each(p.categories_json) WHERE json_each.value IN (${placeholders})
-      ))`);
-            params.push(...selectedCategories, ...selectedCategories);
-        }
-
-        if (selectedMoods && selectedMoods.length > 0) {
-            const placeholders = selectedMoods.map(() => '?').join(',');
-            whereClauses.push(`p.dominant_mood IN (${placeholders})`);
-            params.push(...selectedMoods);
-        }
-
-        if (selectedDistricts && selectedDistricts.length > 0) {
-            const placeholders = selectedDistricts.map(() => '?').join(',');
-            whereClauses.push(`p.arrondissement IN (${placeholders})`);
-            params.push(...selectedDistricts);
-        }
-
-        if (pintLimit !== null) {
-            whereClauses.push(`(p.pint_price <= ? OR (p.pint_price IS NULL AND p.category != 'bar'))`);
-            params.push(pintLimit);
-        }
-
-        if (dishLimit !== null) {
-            whereClauses.push(`(p.main_dish_price <= ? OR (p.main_dish_price IS NULL AND p.category != 'restaurant'))`);
-            params.push(dishLimit);
-        }
-
-        if (coffeeLimit !== null) {
-            whereClauses.push(`(p.coffee_price <= ? OR (p.coffee_price IS NULL AND p.category != 'café'))`);
-            params.push(coffeeLimit);
-        }
-
-        if (selectedPrice !== null) {
-            whereClauses.push(`p.budget_avg <= ?`);
-            params.push(selectedPrice);
-        }
-
-        if (isPinceEnabled) {
-            const limit = pinceMaxPercent !== null ? pinceMaxPercent : 60;
-            whereClauses.push(`p.category_percentile <= ?`);
-            params.push(limit);
-        }
-
-        if (filterTerrace) {
-            whereClauses.push(`(p.description LIKE '%terrasse%' OR p.editorial_json LIKE '%terrasse%')`);
-        }
-
-        if (whereClauses.length > 0) {
-            query += ` WHERE ` + whereClauses.join(' AND ');
-        }
-
-        if (searchQuery) {
-            query += ` ORDER BY rank ASC`; // FTS5 rank: lower is better usually, or use bm25
-        } else if (userLocation) {
-            // High-fidelity Haversine approximation
-            query += ` ORDER BY ((p.lat - ?) * (p.lat - ?) + (p.lng - ?) * (p.lng - ?)) ASC`;
-            params.push(userLocation.lat, userLocation.lat, userLocation.lng, userLocation.lng);
-        } else {
-            query += ` ORDER BY p.rating DESC, p.user_ratings_total DESC`;
-        }
-
-        const results = await this.db.getAllAsync<PlaceRow>(query, params);
-        if (signal?.aborted) throw new Error("AbortError");
-        return results.map(row => PlaceMapper.mapRowToPlace(row));
-    }
-
-    async getPlaceDetails(id: string, signal?: AbortSignal): Promise<Place | null> {
-        const row = await this.db.getFirstAsync<PlaceRow>(
-            `SELECT p.*, description, editorial_json, pricing_json, hours_json, media_json, ai_insights_json, real_talk_json 
-       FROM places p WHERE p.id = ?`,
-            [id]
+      if (filterTerrace) {
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.description', 'like', '%terrasse%'),
+            eb('places.editorial_json', 'like', '%terrasse%'),
+          ]),
         );
-        if (signal?.aborted) throw new Error("AbortError");
-        if (!row) return null;
+      }
 
-        const place = PlaceMapper.mapRowToPlace(row);
-        return PlaceMapper.hydrateDetails(place, row);
+      if (userLocation) {
+        q = q.orderBy(
+          sql`((places.lat - ${userLocation.lat}) * (places.lat - ${userLocation.lat}) + (places.lng - ${userLocation.lng}) * (places.lng - ${userLocation.lng}))`,
+          'asc',
+        );
+      } else {
+        q = q.orderBy('places.rating', 'desc').orderBy('places.user_ratings_total', 'desc');
+      }
+      results = await q.execute();
     }
+
+    if (signal?.aborted) throw new Error('AbortError');
+    return (results as unknown as PlaceRow[]).map((row) => PlaceMapper.mapRowToPlace(row));
+  }
+
+  async getPlaceDetails(id: string, signal?: AbortSignal): Promise<Place | null> {
+    const queryBuilder = await this.getDb();
+    const row = await queryBuilder
+      .selectFrom('places')
+      .selectAll()
+      .where('id', '=', id)
+      .executeTakeFirst();
+
+    if (signal?.aborted) throw new Error('AbortError');
+    if (!row) return null;
+
+    const typedRow = row as unknown as PlaceRow;
+    const place = PlaceMapper.mapRowToPlace(typedRow);
+    return PlaceMapper.hydrateDetails(place, typedRow);
+  }
+
+  async getFilteredPlaceIds(
+    filters: Partial<FilterCriteria> & { userLocation?: { lat: number; lng: number } },
+    signal?: AbortSignal,
+  ): Promise<string[]> {
+    const queryBuilder = await this.getDb();
+
+    const {
+      searchQuery = '',
+      selectedCategories = [],
+      selectedMoods = [],
+      selectedDistricts = [],
+      maxPrice = null,
+      pintLimit = null,
+      dishLimit = null,
+      coffeeLimit = null,
+      filterTerrace = false,
+      userLocation,
+    } = filters;
+
+    let results;
+
+    if (searchQuery && searchQuery.trim().length > 1) {
+      let q = queryBuilder
+        .selectFrom('places')
+        .innerJoin('places_fts', 'places.id', 'places_fts.id')
+        .select('places.id')
+        .where('places_fts.places_fts', 'match', searchQuery.trim() + '*');
+
+      if (selectedCategories && selectedCategories.length > 0)
+        q = q.where((eb) => eb.or([
+          eb('places.category', 'in', selectedCategories),
+          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+        ]));
+      if (selectedMoods && selectedMoods.length > 0)
+        q = q.where('places.dominant_mood', 'in', selectedMoods);
+      if (selectedDistricts && selectedDistricts.length > 0)
+        q = q.where('places.arrondissement', 'in', selectedDistricts);
+
+      if (maxPrice !== null || pintLimit !== null || dishLimit !== null || coffeeLimit !== null) {
+        q = q.where((eb) => {
+          const priceOrs = [];
+          if (pintLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb('places.pint_price', '<=', pintLimit)
+              ]),
+            );
+          if (dishLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', 'in', ['restaurant', 'bouillon']),
+                eb('places.main_dish_price', '<=', dishLimit),
+              ]),
+            );
+          if (coffeeLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', '=', 'café'),
+                eb('places.coffee_price', '<=', coffeeLimit),
+              ]),
+            );
+          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          return eb.or(priceOrs);
+        });
+      }
+
+      if (filterTerrace) {
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.description', 'like', '%terrasse%'),
+            eb('places.editorial_json', 'like', '%terrasse%'),
+          ]),
+        );
+      }
+
+      q = q.orderBy('places_fts.rank', 'asc');
+      results = await q.execute();
+    } else {
+      let q = queryBuilder.selectFrom('places').select('places.id');
+
+      if (selectedCategories && selectedCategories.length > 0)
+        q = q.where((eb) => eb.or([
+          eb('places.category', 'in', selectedCategories),
+          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+        ]));
+      if (selectedMoods && selectedMoods.length > 0)
+        q = q.where('places.dominant_mood', 'in', selectedMoods);
+      if (selectedDistricts && selectedDistricts.length > 0)
+        q = q.where('places.arrondissement', 'in', selectedDistricts);
+
+      if (maxPrice !== null || pintLimit !== null || dishLimit !== null || coffeeLimit !== null) {
+        q = q.where((eb) => {
+          const priceOrs = [];
+          if (pintLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb('places.pint_price', '<=', pintLimit)
+              ]),
+            );
+          if (dishLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', 'in', ['restaurant', 'bouillon']),
+                eb('places.main_dish_price', '<=', dishLimit),
+              ]),
+            );
+          if (coffeeLimit !== null)
+            priceOrs.push(
+              eb.and([
+                eb('places.category', '=', 'café'),
+                eb('places.coffee_price', '<=', coffeeLimit),
+              ]),
+            );
+          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          return eb.or(priceOrs);
+        });
+      }
+
+      if (filterTerrace) {
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.description', 'like', '%terrasse%'),
+            eb('places.editorial_json', 'like', '%terrasse%'),
+          ]),
+        );
+      }
+
+      if (userLocation) {
+        q = q.orderBy(
+          sql`((places.lat - ${userLocation.lat}) * (places.lat - ${userLocation.lat}) + (places.lng - ${userLocation.lng}) * (places.lng - ${userLocation.lng}))`,
+          'asc',
+        );
+      } else {
+        q = q.orderBy('places.rating', 'desc').orderBy('places.user_ratings_total', 'desc');
+      }
+      results = await q.execute();
+    }
+
+    if (signal?.aborted) throw new Error('AbortError');
+    return results.map((r: { id: string }) => r.id);
+  }
 }

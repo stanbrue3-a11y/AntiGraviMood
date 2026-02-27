@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import * as Haptics from 'expo-haptics';
 // Moments logic handled via useMomentsStore
-import { Place } from '../types/model';
+import { PlaceSkeleton } from '../types/model';
 import { useMomentsStore } from '../stores/momentsStore';
 import { useSearchStore } from '../stores/searchStore';
 import { usePlacesStore } from '../stores/placesStore';
@@ -10,90 +10,94 @@ import { GLOBAL_MOMENTS, FRIENDS_MOMENTS } from '../data/mockMoments';
 export type FeedMode = 'global' | 'amis';
 
 export const useFeedLogic = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-    const [feedMode, setFeedMode] = useState<FeedMode>('global');
-    const [isLoading, setIsLoading] = useState(true);
-    const localMoments = useMomentsStore(state => state.moments);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [feedMode, setFeedMode] = useState<FeedMode>('global');
+  const [isLoading, setIsLoading] = useState(true);
+  const localMoments = useMomentsStore((state) => state.moments);
 
-    // Get Filters and Place Data to cross-reference
-    const selectedDistricts = useSearchStore(state => state.selectedDistricts);
-    const places = usePlacesStore(state => state.places);
+  // Get Filters and Place Data to cross-reference
+  const selectedDistricts = useSearchStore((state) => state.selectedDistricts);
+  const places = usePlacesStore((state) => state.places);
 
-    // No artificial loading delay for a snappier feel
-    useEffect(() => {
-        setIsLoading(false);
-    }, []);
+  // No artificial loading delay for a snappier feel
+  useEffect(() => {
+    setIsLoading(false);
+  }, []);
 
-    // Optimized Lookup Map 🗺️
-    const placesMap = useMemo(() => {
-        const map: Record<string, Place> = {};
-        places.forEach(p => { map[p.id] = p; });
-        return map;
-    }, [places]);
+  // V2: Optimized Lookup Map using PlaceSkeleton 🗺️
+  const placesMap = useMemo(() => {
+    const map: Record<string, PlaceSkeleton> = {};
+    places.forEach((p) => {
+      map[p.id] = p;
+    });
+    return map;
+  }, [places]);
 
-    // Filter Logic - Now O(N) instead of O(N*M) ⚡️
-    const filteredGlobalMoments = useMemo(() => {
-        let result = [...localMoments, ...GLOBAL_MOMENTS];
+  // Filter Logic - Now O(N) instead of O(N*M) ⚡️
+  const filteredGlobalMoments = useMemo(() => {
+    let result = [...localMoments, ...GLOBAL_MOMENTS];
 
-        // Filter by District
-        if (selectedDistricts && selectedDistricts.length > 0) {
-            result = result.filter(moment => {
-                const place = placesMap[moment.placeId];
-                if (!place) return true;
+    // Filter by District
+    if (selectedDistricts && selectedDistricts.length > 0) {
+      result = result.filter((moment) => {
+        const place = placesMap[moment.placeId];
+        if (!place) return true;
 
-                return selectedDistricts.includes(place.location.arrondissement);
-            });
+        return selectedDistricts.includes(place.location.arrondissement);
+      });
+    }
+    return result;
+  }, [localMoments, selectedDistricts, placesMap]);
+
+  // Merge strategy
+  const allGlobalMoments = filteredGlobalMoments;
+  // Future: Filter friends moments
+  const allFriendsMoments = [...FRIENDS_MOMENTS];
+
+  const moments = feedMode === 'global' ? allGlobalMoments : allFriendsMoments;
+
+  // I3 FIX: Use a ref to track activeIndex inside the stable callback
+  const activeIndexRef = useRef(0);
+
+  const onViewableItemsChanged = useRef(
+    ({ viewableItems }: { viewableItems: Array<{ index: number | null }> }) => {
+      if (viewableItems.length > 0) {
+        const newIndex = viewableItems[0].index || 0;
+        if (newIndex !== activeIndexRef.current) {
+          Haptics.selectionAsync();
         }
-        return result;
-    }, [localMoments, selectedDistricts, placesMap]);
+        activeIndexRef.current = newIndex;
+        setActiveIndex(newIndex);
+      }
+    },
+  ).current;
 
-    // Merge strategy
-    const allGlobalMoments = filteredGlobalMoments;
-    // Future: Filter friends moments
-    const allFriendsMoments = [...FRIENDS_MOMENTS];
+  const [refreshing, setRefreshing] = useState(false);
 
-    const moments = feedMode === 'global' ? allGlobalMoments : allFriendsMoments;
+  const onRefresh = async () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    setRefreshing(true);
+    // Simulate network fetch
+    setTimeout(() => {
+      setRefreshing(false);
+    }, 1500);
+  };
 
-    // I3 FIX: Use a ref to track activeIndex inside the stable callback
-    const activeIndexRef = useRef(0);
+  const handleSwitchMode = (mode: FeedMode) => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    setFeedMode(mode);
+    setActiveIndex(0);
+  };
 
-    const onViewableItemsChanged = useRef(({ viewableItems }: any) => {
-        if (viewableItems.length > 0) {
-            const newIndex = viewableItems[0].index || 0;
-            if (newIndex !== activeIndexRef.current) {
-                Haptics.selectionAsync();
-            }
-            activeIndexRef.current = newIndex;
-            setActiveIndex(newIndex);
-        }
-    }).current;
-
-    const [refreshing, setRefreshing] = useState(false);
-
-    const onRefresh = async () => {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-        setRefreshing(true);
-        // Simulate network fetch
-        setTimeout(() => {
-            setRefreshing(false);
-        }, 1500);
-    };
-
-    const handleSwitchMode = (mode: FeedMode) => {
-        Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-        setFeedMode(mode);
-        setActiveIndex(0);
-    };
-
-    return {
-        feedMode,
-        moments,
-        isLoading,
-        activeIndex,
-        localMoments, // Exposed for extraData
-        handleSwitchMode,
-        onViewableItemsChanged,
-        refreshing,
-        onRefresh
-    };
+  return {
+    feedMode,
+    moments,
+    isLoading,
+    activeIndex,
+    localMoments, // Exposed for extraData
+    handleSwitchMode,
+    onViewableItemsChanged,
+    refreshing,
+    onRefresh,
+  };
 };

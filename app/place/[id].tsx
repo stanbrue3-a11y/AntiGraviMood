@@ -1,328 +1,223 @@
 /**
- * MoodMap Paris - Place Detail Screen (Shared Element Ready)
+ * Place Detail — Native Modal Route (Phase 13 - Industrial)
+ *
+ * presentation: 'modal' + animation: 'slide_from_bottom'
+ * Content renders immediately — visible during the slide-up transition.
+ * Swipe down to dismiss via gestureDirection: 'vertical'.
  */
-import { Gesture, GestureDetector } from 'react-native-gesture-handler';
-import Animated, { useSharedValue, useAnimatedStyle, withSpring, runOnJS, interpolate, Extrapolation } from 'react-native-reanimated';
-import { Image } from 'expo-image';
-import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, ScrollView, Pressable, Platform } from 'react-native';
-import { useLocalSearchParams, router } from 'expo-router';
-import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
-import { BlurView } from 'expo-blur';
-import { useTheme, moodColors } from '../../src/design';
+import React, { useEffect, useRef, useMemo, useCallback } from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  Pressable,
+  Linking,
+  Platform,
+  Share,
+} from 'react-native';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { useTheme } from '../../src/design';
 import { usePlacesStore } from '../../src/stores/placesStore';
-import { getPlaceImages } from '../../src/lib/placeUtils';
-import { InteractivePriceGauge } from '../../src/components/common/InteractivePriceGauge';
-
-// Helper (Dupliqué pour l'instant, à factoriser)
-const getDominantMood = (place: any): 'chill' | 'festif' | 'culturel' => {
-    const scores = place.mood_scores;
-    if (scores.festif.overall > scores.chill.overall && scores.festif.overall > scores.culturel.overall) return 'festif';
-    if (scores.culturel.overall > scores.chill.overall && scores.culturel.overall > scores.festif.overall) return 'culturel';
-    return 'chill';
-};
-
-const CATEGORY_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
-    'bar': 'wine', 'café': 'cafe', 'restaurant': 'restaurant', 'club': 'musical-notes',
-    'espace-culturel': 'color-palette', 'parc': 'leaf', 'museum': 'library',
-    'workshop': 'cut', 'exhibition': 'images',
-};
+import { useDetailsStore } from '../../src/stores/detailsStore';
+import { useSearchStore } from '../../src/stores/searchStore';
+import { mapPlaceToDetailViewModel } from '../../src/viewmodels/PlaceDetailViewModel';
+import { PlaceDetailProvider } from '../../src/contexts/PlaceDetailContext';
+import { PlaceSection, SectionType } from '../../src/components/place/PlaceDetailSections';
+import { Place } from '../../src/types/model';
+import { moodColors, type MoodType } from '../../src/design';
 
 export default function PlaceDetailScreen() {
-    const { id } = useLocalSearchParams<{ id: string }>();
-    const { theme, isDark } = useTheme();
+  const { id } = useLocalSearchParams<{ id: string }>();
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const { theme, isDark } = useTheme();
 
-    const places = usePlacesStore(state => state.places);
-    const likedPlaceIds = usePlacesStore(state => state.likedPlaceIds);
-    const toggleLike = usePlacesStore(state => state.toggleLike);
-    const hydratePlace = usePlacesStore(state => state.hydratePlace);
+  // --- DATA (V2: Lazy Load from SQLite via detailsStore) ---
+  const hydratePlace = useDetailsStore((state) => state.hydratePlace);
+  const toggleLike = usePlacesStore((state) => state.toggleLike);
 
-    const place = places.find(p => p.id === id);
+  // V2: Place comes ONLY from detailsStore (full Place from SQLite, not skeleton)
+  const place = useDetailsStore(
+    useCallback(
+      (state: { detailsCache: Record<string, Place> }) => {
+        if (!id) return null;
+        return state.detailsCache[id] ?? null;
+      },
+      [id],
+    ),
+  );
 
-    useEffect(() => {
-        if (id) {
-            hydratePlace(id);
-        }
-    }, [id]);
+  const activeCategories = useSearchStore((state) => state.selectedCategories);
+  const viewModel = useMemo(() => (place ? mapPlaceToDetailViewModel(place, activeCategories) : null), [place, activeCategories]);
 
-    if (!place) return null; // Or Error Loading
+  // Background hydration
+  useEffect(() => {
+    if (id) hydratePlace(id);
+  }, [id, hydratePlace]);
 
-    const dominantMood = getDominantMood(place);
-    const accentColor = moodColors[dominantMood].primary;
-    const images = getPlaceImages(place);
-    const isLiked = likedPlaceIds.includes(place.id);
+  // --- ACTIONS ---
+  const handleClose = useCallback(() => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    router.back();
+  }, [router]);
 
-    const handleClose = () => {
-        router.back();
-    };
-
-    // Gesture Logic
-    const translateY = useSharedValue(0);
-    const context = useSharedValue({ y: 0 });
-
-    const pan = Gesture.Pan()
-        .onStart(() => {
-            context.value = { y: translateY.value };
-        })
-        .onUpdate((event) => {
-            if (event.translationY > 0) {
-                translateY.value = event.translationY + context.value.y;
-            }
-        })
-        .onEnd(() => {
-            if (translateY.value > 100) {
-                runOnJS(handleClose)();
-            } else {
-                translateY.value = withSpring(0, { damping: 15 });
-            }
-        });
-
-    const animatedStyle = useAnimatedStyle(() => {
-        return {
-            transform: [{ translateY: translateY.value }],
-            borderRadius: interpolate(translateY.value, [0, 200], [0, 32], Extrapolation.CLAMP),
-            overflow: 'hidden',
-        };
+  const handleNavigate = useCallback(() => {
+    if (!place) return;
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    const { lat, lng } = place.location.coordinates;
+    const label = encodeURIComponent(place.name);
+    const url = Platform.select({
+      ios: `maps:0,0?q=${label}@${lat},${lng}`,
+      android: `geo:0,0?q=${lat},${lng}(${label})`,
     });
+    if (url) Linking.openURL(url);
+  }, [place]);
 
+  const handleShare = useCallback(async () => {
+    if (!place) return;
+    await Haptics.selectionAsync();
+    const message = `✨ Découvre ${place.name} sur AntiGraviMood !`;
+    await Share.share({ message });
+  }, [place]);
+
+  const handleLike = useCallback(() => {
+    if (!place) return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    toggleLike(place.id);
+  }, [place, toggleLike]);
+
+
+  const handleVibeCheck = useCallback(async () => {
+    if (place?.media?.instagram_handle) {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+      const handle = place.media.instagram_handle.replace('@', '');
+      const igUrl = `instagram://user?username=${handle}`;
+      const webUrl = `https://instagram.com/${handle}`;
+
+      try {
+        const supported = await Linking.canOpenURL(igUrl);
+        if (supported) {
+          await Linking.openURL(igUrl);
+        } else {
+          await Linking.openURL(webUrl);
+        }
+      } catch (err) {
+        await Linking.openURL(webUrl);
+      }
+    }
+  }, [place]);
+
+  const handleBooking = useCallback(() => {
+    const url = place?.practical_info?.main_action?.url;
+    if (!url) return;
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    Linking.openURL(url);
+  }, [place]);
+
+  // --- RENDER ---
+  const sections = viewModel?.sections ?? [];
+  const mood = (place?.dominant_mood || 'chill') as MoodType;
+  const primaryColor = moodColors[mood]?.primary || '#000000';
+
+  if (__DEV__ && viewModel) {
+    console.log(`[Diagnostic] Sections for ${place?.name}:`, sections);
+  }
+
+  if (!viewModel) {
     return (
-        <GestureDetector gesture={pan}>
-            <Animated.View style={[styles.container, { backgroundColor: '#fff' }, animatedStyle]}>
-
-                <ScrollView style={styles.content} contentContainerStyle={styles.contentContainer} showsVerticalScrollIndicator={false} bounces={false}>
-
-                    {/* HERO IMAGE with Shared Transition */}
-                    <View style={styles.heroContainer}>
-                        {/* @ts-ignore: Reanimated prop */}
-                        <Animated.View sharedTransitionTag={`image-container-${place.id}`} style={styles.heroImageWrapper}>
-                            <Image
-                                source={{ uri: images[0] }}
-                                style={styles.heroImage}
-                                contentFit="cover"
-                            />
-                        </Animated.View>
-
-                        <View style={styles.heroOverlay} />
-
-                        {/* Header Controls */}
-                        <SafeAreaView edges={['top']} style={styles.heroHeader}>
-                            <Pressable style={styles.iconBtnValues} onPress={handleClose}>
-                                <Ionicons name="chevron-down" size={24} color="#fff" />
-                            </Pressable>
-                            <View style={{ flex: 1 }} />
-                            <Pressable style={styles.iconBtnValues}>
-                                <Ionicons name="share-outline" size={20} color="#fff" />
-                            </Pressable>
-                            <Pressable style={[styles.iconBtnValues, { marginLeft: 12 }]} onPress={() => { Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium); toggleLike(place.id); }}>
-                                <Ionicons name={isLiked ? "heart" : "heart-outline"} size={20} color={isLiked ? accentColor : "#fff"} />
-                            </Pressable>
-                        </SafeAreaView>
-
-                        <View style={styles.heroContent}>
-                            <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 8 }}>
-                                <Text style={styles.heroTitle}>{place.name}</Text>
-                                <Text style={{ color: 'rgba(255,255,255,0.4)', fontSize: 10, fontWeight: '900' }}>v19</Text>
-                            </View>
-                            <Text style={styles.heroAddress}>{place.location.address}</Text>
-                        </View>
-                    </View>
-
-                    <View style={styles.detailsContainer}>
-                        {/* 1. META ROW (Mood / Category) */}
-                        <View style={styles.metaRow}>
-                            <View style={[styles.moodBadge, { backgroundColor: accentColor + '20' }]}>
-                                <Text style={[styles.moodText, { color: accentColor }]}>{dominantMood.toUpperCase()}</Text>
-                            </View>
-                            <View style={styles.dividerVertical} />
-                            <Text style={[styles.metaText, { color: accentColor, fontWeight: '700', fontSize: 16 }]}>{place.category}</Text>
-                        </View>
-
-                        {/* 2. CUISINE HIGHLIGHT SECTION (Just above Insider) */}
-                        {place.practical_info?.cuisine_type && (
-                            <View style={[styles.cuisineBox, { borderColor: accentColor + '20' }]}>
-                                <View style={styles.cuisineHeader}>
-                                    <Ionicons name="restaurant-outline" size={16} color={accentColor} />
-                                    <Text style={[styles.cuisineTitle, { color: accentColor }]}>SIGNATURE CULINAIRE</Text>
-                                </View>
-                                <Text style={styles.cuisineText}>{place.practical_info.cuisine_type}</Text>
-                            </View>
-                        )}
-
-                        {/* 3. L'APPARTÉ DE L'INITIÉ (Insider Tip) */}
-                        {place.insider_tip && (
-                            <View style={[styles.insiderBox, { borderColor: accentColor + '30', backgroundColor: accentColor + '05' }]}>
-                                <View style={styles.insiderHeader}>
-                                    <Ionicons name="sparkles-outline" size={18} color={accentColor} />
-                                    <Text style={[styles.insiderTitle, { color: accentColor }]}>L'APPARTÉ DE L'INITIÉ</Text>
-                                </View>
-                                <Text style={styles.insiderText}>{place.insider_tip}</Text>
-                            </View>
-                        )}
-
-                        {/* 4. DESCRIPTION SECTION */}
-                        <View style={{ marginBottom: 32 }}>
-                            <Text style={styles.description}>
-                                {place.description || `Un lieu ${dominantMood} incontournable à Paris. Venez découvrir l'ambiance unique.`}
-                            </Text>
-                        </View>
-
-                        {/* 5. PRICE GAUGE - Surgical Implementation */}
-                        <View style={{ marginBottom: 24 }}>
-                            <InteractivePriceGauge
-                                pricing={place.pricing}
-                                arrondissement={place.location.arrondissement}
-                                placeType={(() => {
-                                    const cat = (place.category || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-                                    if (cat.includes('bouillon')) return 'bouillon';
-                                    if (cat.includes('bar-a-vin')) return 'bar-a-vin';
-                                    if (cat.includes('cocktail-bar')) return 'cocktail-bar';
-                                    if (cat.includes('techno-club')) return 'techno-club';
-                                    if (['coffee-shop', 'cafe', 'tea-room', 'bakery'].includes(cat)) return 'cafe';
-                                    if (['bar', 'pub', 'biergarten'].includes(cat)) return 'bar';
-                                    if (['club'].includes(cat)) return 'club';
-                                    if (['hotel'].includes(cat)) return 'hotel';
-                                    if (['museum', 'art-gallery', 'cultural-center', 'theatre', 'monument', 'espace-culturel'].includes(cat)) return 'culture';
-                                    if (['park', 'garden', 'walk'].includes(cat)) return 'park';
-                                    return 'restaurant';
-                                })()}
-                                categories={(place.pricing?.menu_items || place.practical_info?.price_info?.items || []).map(cat => ({
-                                    icon: cat.category.includes('BOISSON') ? 'wine-outline' :
-                                        cat.category.includes('ENTRÉE') ? 'restaurant-outline' :
-                                            cat.category.includes('PLAT') ? 'flame-outline' :
-                                                cat.category.includes('DESSERT') ? 'ice-cream-outline' : 'star-outline',
-                                    title: cat.category,
-                                    items: cat.items.map(item => ({
-                                        name: item.name,
-                                        price: item.price
-                                    }))
-                                }))}
-                                activeColor={accentColor}
-                                smartTip={place.practical_info?.price_info?.smart_tip}
-                            />
-                        </View>
-
-                        {/* 3. Moments Partagés (Restored) */}
-                        <Text style={styles.sectionTitle}>Moments partagés ({place.social_preview?.moment_count || 120})</Text>
-                        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.momentsScroll}>
-                            {[1, 2, 3, 4].map(i => (
-                                <View key={i} style={styles.momentCard}>
-                                    <Image source={{ uri: `https://source.unsplash.com/random/200x300?sig=${i + place.id.length}` }} style={styles.momentImg} />
-                                    <View style={styles.momentOverlay}><Ionicons name="play" size={12} color="#fff" /></View>
-                                </View>
-                            ))}
-                        </ScrollView>
-
-                        <Text style={styles.sectionTitle}>Infos pratiques</Text>
-                        <View style={styles.infoRow}><Ionicons name={CATEGORY_ICONS[place.category] || 'bookmark'} size={20} color={accentColor} /><Text style={[styles.infoText, { textTransform: 'capitalize', color: accentColor, fontWeight: '600' }]}>{place.subcategories?.[0] || place.category}</Text></View>
-                        <View style={styles.infoRow}><Ionicons name="time-outline" size={20} color={accentColor} /><Text style={styles.infoText}>Fermeture à {place.category === 'club' ? '06:00' : '02:00'}</Text></View>
-                        <View style={styles.infoRow}><Ionicons name="logo-instagram" size={20} color={accentColor} /><Text style={styles.infoText}>{place.media?.instagram_handle || '@moodmap_paris'}</Text></View>
-                        <View style={styles.infoRow}><Ionicons name="location-outline" size={20} color={accentColor} /><Text style={styles.infoText}>{place.location.arrondissement}ème • Métro {place.location.nearest_metro}</Text></View>
-                    </View>
-
-                </ScrollView>
-
-                {/* CTA */}
-                <View style={[styles.floatingCtaContainer, { paddingBottom: 40 }]}>
-                    <Pressable style={[styles.ctaBubble, { backgroundColor: accentColor, shadowColor: accentColor }]}>
-                        <Ionicons name="map" size={20} color="#fff" style={{ marginRight: 8 }} />
-                        <Text style={[styles.ctaBubbleText, { color: '#fff' }]}>VOIR SUR LA CARTE</Text>
-                    </Pressable>
-                </View>
-            </Animated.View>
-        </GestureDetector>
+      <View style={[styles.container, { backgroundColor: isDark ? '#000' : theme.background }]}>
+        <View style={styles.loadingContainer}>
+          <Text style={{ color: theme.text.muted }}>Chargement...</Text>
+        </View>
+      </View>
     );
+  }
+
+  return (
+    <PlaceDetailProvider
+      viewModel={viewModel}
+      dominantMoodStr={place?.dominant_mood || 'chill'}
+      onClose={handleClose}
+      onNavigate={handleNavigate}
+      onShare={handleShare}
+      onLike={handleLike}
+      onVibeCheck={handleVibeCheck}
+      onBooking={handleBooking}
+    >
+      <View style={[styles.container, { backgroundColor: isDark ? '#000' : theme.background }]}>
+        <ScrollView
+          showsVerticalScrollIndicator={false}
+          bounces={true}
+          scrollEventThrottle={16}
+          contentContainerStyle={{ paddingBottom: insets.bottom + 100 }}
+        >
+          {sections.map((section) => (
+            <PlaceSection key={section} type={section} />
+          ))}
+        </ScrollView>
+
+        {/* Sticky CTA Footer */}
+        <View style={[styles.footer, { paddingBottom: insets.bottom + 16 }]}>
+          <Pressable
+            onPress={() => {
+              Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+              handleNavigate();
+            }}
+            style={({ pressed }) => [
+              styles.ctaBubble,
+              {
+                backgroundColor: primaryColor,
+                opacity: pressed ? 0.85 : 1,
+                transform: [{ scale: pressed ? 0.95 : 1 }],
+              },
+            ]}
+          >
+            <Ionicons name="map-outline" size={22} color="#FFF" style={{ marginRight: 10 }} />
+            <Text style={styles.ctaText}>Y ALLER</Text>
+          </Pressable>
+        </View>
+      </View>
+    </PlaceDetailProvider>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: { flex: 1, backgroundColor: '#fff' },
-    content: { flex: 1 },
-    contentContainer: { paddingBottom: 100 },
-
-    heroContainer: { height: 650, width: '100%', position: 'relative' },
-    heroImageWrapper: { width: '100%', height: '100%' },
-    heroImage: { width: '100%', height: '100%' },
-    heroOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.1)' },
-    heroHeader: { flexDirection: 'row', paddingHorizontal: 16, position: 'absolute', width: '100%', zIndex: 50 },
-
-    iconBtnValues: { width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(0,0,0,0.25)', alignItems: 'center', justifyContent: 'center' },
-
-    heroContent: { position: 'absolute', bottom: 24, left: 24, right: 24 },
-    heroTitle: { color: '#fff', fontSize: 36, fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), fontWeight: '700', textShadowColor: 'rgba(0,0,0,0.5)', textShadowRadius: 8, textShadowOffset: { width: 0, height: 2 } },
-    heroAddress: { color: 'rgba(255,255,255,0.95)', fontSize: 16, fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), marginTop: 6, fontWeight: '500' },
-
-    detailsContainer: { padding: 24, paddingTop: 28 },
-    metaRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 24 },
-    dividerVertical: { width: 1, height: 16, backgroundColor: '#E5E7EB', marginHorizontal: 12 },
-    moodBadge: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: 12 },
-    moodText: { fontSize: 12, fontWeight: '700', letterSpacing: 0.5 },
-    metaText: { color: '#6B7280', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), fontSize: 14, textTransform: 'capitalize' },
-    description: { fontSize: 18, lineHeight: 28, color: '#374151', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), marginBottom: 32 },
-    sectionTitle: { fontSize: 18, fontWeight: '600', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), color: '#111', marginBottom: 16, marginTop: 8 },
-
-    // Moments Styles
-    momentsScroll: { paddingRight: 24, gap: 12, marginBottom: 32 },
-    momentCard: { width: 100, height: 140, borderRadius: 12, overflow: 'hidden', backgroundColor: '#f3f4f6' },
-    momentImg: { width: '100%', height: '100%' },
-    momentOverlay: { position: 'absolute', bottom: 6, right: 6, backgroundColor: 'rgba(0,0,0,0.5)', borderRadius: 8, padding: 4 },
-
-    infoRow: { flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 14 },
-    infoText: { fontSize: 16, color: '#111827', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), fontWeight: '500' },
-
-    // Insider Box
-    insiderBox: {
-        padding: 20,
-        borderRadius: 20,
-        borderWidth: 1,
-        marginBottom: 32,
-    },
-    insiderHeader: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 8,
-        marginBottom: 12,
-    },
-    insiderTitle: {
-        fontSize: 13,
-        fontWeight: '800',
-        letterSpacing: 1,
-    },
-    insiderText: {
-        fontSize: 15,
-        lineHeight: 24,
-        color: '#4B5563',
-        fontStyle: 'italic',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
-    },
-
-    // Cuisine Box (New)
-    cuisineBox: {
-        padding: 16,
-        borderRadius: 16,
-        borderWidth: 1.5,
-        marginBottom: 24,
-        backgroundColor: '#fff',
-    },
-    cuisineHeader: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 6,
-        marginBottom: 6,
-    },
-    cuisineTitle: {
-        fontSize: 11,
-        fontWeight: '900',
-        letterSpacing: 1.5,
-    },
-    cuisineText: {
-        fontSize: 17,
-        fontWeight: '600',
-        color: '#111',
-        fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }),
-    },
-
-    floatingCtaContainer: { position: 'absolute', bottom: 0, left: 0, right: 0, alignItems: 'center', zIndex: 20 },
-    ctaBubble: { flexDirection: 'row', alignItems: 'center', paddingVertical: 14, paddingHorizontal: 28, borderRadius: 30, shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.3, shadowRadius: 8, elevation: 8 },
-    ctaBubbleText: { fontSize: 16, fontWeight: '700', fontFamily: Platform.select({ ios: 'Georgia', android: 'serif' }), letterSpacing: 0.5 },
+  container: {
+    flex: 1,
+  },
+  loadingContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  footer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+    paddingTop: 12,
+  },
+  ctaBubble: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 16,
+    paddingHorizontal: 28,
+    borderRadius: 32,
+    shadowColor: '#000',
+    shadowOpacity: 0.4,
+    shadowRadius: 15,
+    elevation: 10,
+  },
+  ctaText: {
+    color: '#FFF',
+    fontSize: 15,
+    fontWeight: '900',
+    letterSpacing: 1.5,
+  },
 });

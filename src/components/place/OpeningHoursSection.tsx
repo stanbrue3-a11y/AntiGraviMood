@@ -1,90 +1,156 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import Animated, {
+  useSharedValue,
+  useAnimatedStyle,
+  withTiming,
+  Easing,
+} from 'react-native-reanimated';
 import { useTheme } from '../../design';
 import { Ionicons } from '@expo/vector-icons';
-import { Place } from '../../types/model';
+import { PlaceDetailViewModel } from '../../viewmodels/PlaceDetailViewModel';
 
 interface OpeningHoursSectionProps {
-    place: Place;
-    primaryColor: string;
-    isExpanded: boolean;
-    onToggle: () => void;
+  openingView: PlaceDetailViewModel['opening'];
+  isExpanded: boolean;
+  onToggle: () => void;
+  primaryColor: string;
 }
 
-export const OpeningHoursSection = React.memo(({ place, primaryColor, isExpanded, onToggle }: OpeningHoursSectionProps) => {
+export const OpeningHoursSection = React.memo(
+  ({ openingView, isExpanded, onToggle, primaryColor }: OpeningHoursSectionProps) => {
     const { theme, isDark } = useTheme();
-    return (
-        <View style={{ marginBottom: 24 }}>
-            <TouchableOpacity
-                style={[styles.hoursRow, { marginBottom: 0, backgroundColor: theme.surface, borderColor: theme.border }]}
-                activeOpacity={0.7}
-                onPress={onToggle}
-            >
-                <Ionicons name="time-outline" size={18} color={primaryColor} />
-                <Text style={[styles.hoursStatus, { color: primaryColor }]}>
-                    {place.opening_hours?.is_open_now ? 'OUVERT' : 'FERMÉ'}
-                </Text>
-                <Text
-                    style={[styles.hoursValue, { color: theme.text.secondary }]}
-                    numberOfLines={1}
-                    adjustsFontSizeToFit
-                    minimumFontScale={0.8}
-                >
-                    • {place.opening_hours?.display?.replace('Tlj: ', '') || '12h-23h'}
-                </Text>
-                <Ionicons
-                    name={isExpanded ? "chevron-up" : "chevron-down"}
-                    size={16}
-                    color={theme.text.muted}
-                    style={{ marginLeft: 'auto' }}
-                />
-            </TouchableOpacity>
 
-            {isExpanded && place.opening_hours?.detailed && (
-                <View style={[styles.hoursDetails, { backgroundColor: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.02)' }]}>
-                    {place.opening_hours.detailed.split('\n').map((line, idx) => (
-                        <View key={idx} style={styles.hoursDetailRow}>
-                            <Text style={[styles.hoursDetailText, { color: theme.text.secondary }]}>{line}</Text>
-                        </View>
-                    ))}
-                </View>
+    const chevronRotation = useSharedValue(isExpanded ? 1 : 0);
+
+    React.useEffect(() => {
+      chevronRotation.value = withTiming(isExpanded ? 1 : 0, {
+        duration: 200,
+        easing: Easing.out(Easing.quad),
+      });
+    }, [isExpanded]);
+
+    const chevronStyle = useAnimatedStyle(() => ({
+      transform: [{ rotate: `${chevronRotation.value * 90}deg` }],
+    }));
+
+    // Safety fallback
+    const view = openingView || {
+      state: 'closed',
+      label: 'Fermé',
+      color: theme.text.muted,
+      time_display: 'Horaires non confirmés',
+      details: [],
+    };
+
+    const hasDetails = view.details && view.details.length > 0;
+
+    return (
+      <View style={styles.container}>
+        <View
+          style={[
+            styles.cardWrapper,
+            {
+              backgroundColor: theme.surface,
+              borderColor: theme.border,
+            },
+          ]}
+        >
+          <TouchableOpacity
+            style={styles.headerRow}
+            activeOpacity={0.7}
+            onPress={hasDetails ? onToggle : undefined}
+          >
+            {/* Clock Icon */}
+            <Ionicons name="time-outline" size={18} color={primaryColor} />
+
+            {/* Main Status Text */}
+            <View style={styles.textBlock}>
+              <Text style={[styles.mainStatus, { color: theme.text.primary }]}>
+                <Text style={{ color: view.color, fontWeight: '700' }}>{view.label}</Text>
+                <Text style={{ color: theme.text.muted }}> ⋅ </Text>
+                <Text style={{ color: theme.text.secondary }}>{view.time_display}</Text>
+              </Text>
+            </View>
+
+            {/* Chevron */}
+            {hasDetails && (
+              <Animated.View style={chevronStyle}>
+                <Ionicons name="chevron-forward" size={16} color={primaryColor} />
+              </Animated.View>
             )}
+          </TouchableOpacity>
+
+          {/* Expanded details — Cohesive with the card */}
+          {isExpanded && hasDetails && (
+            <View style={[styles.detailsPanel, { borderTopColor: theme.border }]}>
+              {view.details
+                .filter((l: string) => l.trim().length > 0)
+                .map((line: string, idx: number) => {
+                  const colonIdx = line.indexOf(':');
+                  const day = colonIdx > -1 ? line.slice(0, colonIdx).trim() : line;
+                  const hours = colonIdx > -1 ? line.slice(colonIdx + 1).trim() : '';
+
+                  return (
+                    <View key={idx} style={styles.detailRow}>
+                      <Text style={[styles.detailDay, { color: theme.text.secondary }]}>{day}</Text>
+                      <Text style={[styles.detailHours, { color: theme.text.primary }]}>
+                        {hours || '-'}
+                      </Text>
+                    </View>
+                  );
+                })}
+            </View>
+          )}
         </View>
+      </View>
     );
-});
+  },
+);
 
 const styles = StyleSheet.create({
-    hoursRow: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        padding: 14,
-        borderRadius: 12,
-        marginBottom: 24,
-        gap: 10,
-        borderWidth: 1,
-    },
-    hoursStatus: {
-        fontSize: 13,
-        fontWeight: '900',
-    },
-    hoursValue: {
-        flex: 1,
-        fontSize: 13,
-        fontWeight: '600',
-    },
-    hoursDetails: {
-        marginTop: 12,
-        paddingHorizontal: 16,
-        paddingVertical: 12,
-        borderRadius: 12,
-        gap: 6,
-    },
-    hoursDetailRow: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-    },
-    hoursDetailText: {
-        fontSize: 13,
-        fontFamily: 'Inter_400Regular',
-    },
+  container: {
+    marginBottom: 16,
+  },
+  cardWrapper: {
+    borderRadius: 14,
+    borderWidth: 1,
+    overflow: 'hidden',
+  },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    gap: 10,
+  },
+  textBlock: {
+    flex: 1,
+  },
+  mainStatus: {
+    fontSize: 13,
+    letterSpacing: -0.1,
+  },
+  detailsPanel: {
+    paddingHorizontal: 16,
+    paddingBottom: 14,
+    paddingTop: 10,
+    gap: 10,
+    borderTopWidth: 1,
+  },
+  detailRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  detailDay: {
+    fontSize: 13,
+    fontWeight: '400',
+    width: 100,
+  },
+  detailHours: {
+    fontSize: 13,
+    fontWeight: '500',
+    textAlign: 'right',
+    flex: 1,
+  },
 });

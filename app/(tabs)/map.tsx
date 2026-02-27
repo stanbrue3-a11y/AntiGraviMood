@@ -25,8 +25,7 @@ import { getHeroImage } from '../../src/lib/placeUtils'; // Added for accurate p
 
 // Config
 import { Image } from 'expo-image';
-const MAPBOX_TOKEN =
-  'REMOVED_TOKEN';
+const MAPBOX_TOKEN = process.env.EXPO_PUBLIC_MAPBOX_TOKEN || '';
 Mapbox.setAccessToken(MAPBOX_TOKEN);
 
 export default function MapScreen() {

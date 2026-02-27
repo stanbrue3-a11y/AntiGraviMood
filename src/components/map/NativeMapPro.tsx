@@ -1,65 +1,70 @@
 import React, { useMemo, useRef, useCallback, useEffect } from 'react';
 import Mapbox from '@rnmapbox/maps';
-import { Place, MoodType } from '../../types/model';
+import { PlaceSkeleton, MoodType, Place } from '../../types/model';
 import { moodColors } from '../../design/tokens/colors';
 import { IconService } from '../../services/IconService';
 import { getHeroImage } from '../../lib/placeUtils'; // Added for accurate prefetch
 import { ClusterImages, ClusterLayers } from './layers/ClusterResources';
 import { PinImages, PinLayers } from './layers/PinResources';
 import { Image } from 'expo-image'; // Added for prefetch
+import { useSearchStore } from '../../stores/searchStore';
+import { ContextualEngine } from '../../services/ContextualEngine';
 
 type Props = {
-    places: Place[];
-    onPlacePress: (placeId: string, coordinates: [number, number]) => void;
-    cameraRef?: any;
-    highlightedPlaceId?: string | null;
-    styleLoaded?: boolean;
+  places: PlaceSkeleton[];
+  onPlacePress: (placeId: string, coordinates: [number, number]) => void;
+  cameraRef?: React.RefObject<Mapbox.Camera | null>;
+  highlightedPlaceId?: string | null;
+  styleLoaded?: boolean;
 };
 
 // --- COLORS (Synced with Design Tokens) ---
 const MOOD_COLORS: Record<MoodType, string> = {
-    chill: moodColors.chill.primary,
-    festif: moodColors.festif.primary,
-    culturel: moodColors.culturel.primary
+  chill: moodColors.chill.primary,
+  festif: moodColors.festif.primary,
+  culturel: moodColors.culturel.primary,
 };
 
 const hashCode = (str: string): number => {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        const char = str.charCodeAt(i);
-        hash = ((hash << 5) - hash) + char;
-        hash = hash & hash;
-    }
-    return Math.abs(hash);
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = (hash << 5) - hash + char;
+    hash = hash & hash;
+  }
+  return Math.abs(hash);
 };
 
-export const NativeMapPro = React.memo(({
-    places,
-    onPlacePress,
-    cameraRef,
-    highlightedPlaceId,
-    styleLoaded
-}: Props) => {
+const clusterProperties = {
+  point_count: ['+', 1],
+  chill_count: ['+', ['case', ['==', ['get', 'mood'], 'chill'], 1, 0]],
+  festif_count: ['+', ['case', ['==', ['get', 'mood'], 'festif'], 1, 0]],
+  culturel_count: ['+', ['case', ['==', ['get', 'mood'], 'culturel'], 1, 0]],
+};
+
+export const NativeMapPro = React.memo(
+  ({ places, onPlacePress, cameraRef, highlightedPlaceId, styleLoaded }: Props) => {
     const shapeSourceRef = useRef<Mapbox.ShapeSource>(null);
     const [activePin, setActivePin] = React.useState<number | null>(null);
     const [isBouncing, setIsBouncing] = React.useState(false);
 
-
+    // UI Context for intelligence
+    const activeCategories = useSearchStore(s => s.selectedCategories);
 
     // External highlight effect
     useEffect(() => {
-        if (highlightedPlaceId) {
-            const numericId = hashCode(highlightedPlaceId);
-            setActivePin(numericId);
-            setIsBouncing(true);
-            const timer = setTimeout(() => setIsBouncing(false), 500);
-            return () => clearTimeout(timer);
-        }
+      if (highlightedPlaceId) {
+        const numericId = hashCode(highlightedPlaceId);
+        setActivePin(numericId);
+        setIsBouncing(true);
+        const timer = setTimeout(() => setIsBouncing(false), 500);
+        return () => clearTimeout(timer);
+      }
     }, [highlightedPlaceId]);
 
-
-    // ⚡️ SMART PREFETCHING: Aggressively cache images for visible places (Top 20)
-    // This runs whenever `places` changes (i.e. filter change or map move if we had region-based search)
+    // ⚡️ SMART PREFETCHING: Disabled for performance (Slider Lag)
+    // Aggressively caching images on every prop change causes severe stutter during filtering.
+    /*
     useEffect(() => {
         if (!places || places.length === 0) return;
 
@@ -76,96 +81,130 @@ export const NativeMapPro = React.memo(({
             }
         });
     }, [places]);
+    */
 
-    // 1. DATA - Filtered GeoJSON for performance
     const placesGeoJSON = useMemo(() => {
-        const features = places.map((place) => {
-            const numericId = hashCode(place.id);
-            const mood = (place.dominant_mood || 'chill') as MoodType;
+      const features = places.map((place) => {
+        const numericId = hashCode(place.id);
+        const mood = ContextualEngine.resolveMood(place, activeCategories);
+        const moodColor = moodColors[mood]?.primary || '#9CA3AF';
+        const iconCategory = ContextualEngine.resolveIconCategory(place, activeCategories);
+        const iconName = `icon-${iconCategory}-${mood}`;
+        const categoryLabel = place.subcategories?.[0] || place.category;
+        const displayCategory = categoryLabel
+          ? categoryLabel.charAt(0).toUpperCase() + categoryLabel.slice(1).replace('_', ' ')
+          : place.category;
+        const subtitle = `${displayCategory} • ${place.location.arrondissement}e`;
 
-            // 3. ICON SELECTION (Unified Logic) 🦎
-            const iconCategory = IconService.getIconCategory(place);
+        return {
+          type: 'Feature',
+          id: numericId,
+          geometry: {
+            type: 'Point',
+            coordinates: [place.location.coordinates.lng, place.location.coordinates.lat],
+          },
+          properties: {
+            id: place.id,
+            numeric_id: numericId,
+            mood: mood, // Used for clustering logic filters
+            mood_color: moodColor,
+            rating: place.google_rating ? place.google_rating.toFixed(1) : '',
+            badge_image: `badge-${mood}`, // Keep for now if used by layers
+            icon_category: iconCategory,
+            icon_image: iconName,
+            name: place.name,
+            category: subtitle,
+            arrondissement: place.location.arrondissement,
+          },
+        };
+      });
 
-            return {
-                type: 'Feature',
-                id: numericId,
-                geometry: {
-                    type: 'Point',
-                    coordinates: [place.location.coordinates.lng, place.location.coordinates.lat]
-                },
-                properties: {
-                    id: place.id,
-                    numeric_id: numericId,
-                    mood: mood,
-                    mood_color: MOOD_COLORS[mood] || '#ffffff',
-                    rating: place.google_rating ? place.google_rating.toFixed(1) : "",
-                    badge_image: `badge-${mood}`,
-                    icon_category: iconCategory,
-                    icon_image: `icon-${iconCategory}-${mood}`,
-                    name: place.name,
-                    category: place.category,
-                    arrondissement: place.location.arrondissement,
-                }
-            };
-        });
+      return { type: 'FeatureCollection', features };
+    }, [places, activeCategories]);
 
-        return { type: 'FeatureCollection', features };
-    }, [places]);
-
-    const clusterProperties = useMemo(() => ({
-        point_count: ['+', 1],
-        chill_count: ['+', ['case', ['==', ['get', 'mood'], 'chill'], 1, 0]],
-        festif_count: ['+', ['case', ['==', ['get', 'mood'], 'festif'], 1, 0]],
-        culturel_count: ['+', ['case', ['==', ['get', 'mood'], 'culturel'], 1, 0]]
-    }), []);
-
-    const handlePress = useCallback(async (e: any) => {
+    const handlePress = useCallback(
+      async (
+        e: Parameters<NonNullable<React.ComponentProps<typeof Mapbox.ShapeSource>['onPress']>>[0],
+      ) => {
         if (!e.features?.length) return;
-        const feature = e.features[0];
+        const feature = e.features[0] as unknown as import('geojson').Feature<
+          import('geojson').Point
+        > & {
+          properties: { cluster?: boolean; cluster_id?: number; numeric_id?: number; id?: string };
+        };
         if (feature.properties.cluster) {
-            if (shapeSourceRef.current && cameraRef?.current) {
-                try {
-                    const expansionZoom = await shapeSourceRef.current.getClusterExpansionZoom(feature);
-                    cameraRef.current.setCamera({
-                        centerCoordinate: feature.geometry.coordinates,
-                        zoomLevel: expansionZoom,
-                        animationDuration: 600,
-                        animationMode: 'flyTo'
-                    });
-                } catch (err) { }
-            }
+          if (shapeSourceRef.current && cameraRef?.current) {
+            try {
+              const expansionZoom = await shapeSourceRef.current.getClusterExpansionZoom(feature);
+              cameraRef.current.setCamera({
+                centerCoordinate: feature.geometry.coordinates as [number, number],
+                zoomLevel: expansionZoom,
+                animationDuration: 600,
+                animationMode: 'flyTo',
+              });
+            } catch (err) { }
+          }
         } else {
-            const numericId = feature.properties.numeric_id;
-            setActivePin(numericId);
-            setIsBouncing(true);
-            setTimeout(() => setIsBouncing(false), 200);
-            onPlacePress(feature.properties.id, feature.geometry.coordinates);
+          const numericId = feature.properties?.numeric_id;
+          setActivePin(numericId ?? null);
+          setIsBouncing(true);
+          setTimeout(() => setIsBouncing(false), 150);
+          onPlacePress(
+            feature.properties?.id ?? '',
+            feature.geometry.coordinates as [number, number],
+          );
         }
-    }, [cameraRef, onPlacePress]);
+      },
+      [cameraRef, onPlacePress],
+    );
 
     return (
-        <>
-            <Mapbox.Images>
-                <ClusterImages />
-                <PinImages />
-            </Mapbox.Images>
+      <>
+        <Mapbox.Images>
+          <ClusterImages />
+          <PinImages />
+        </Mapbox.Images>
 
-            {styleLoaded && (
-                <Mapbox.ShapeSource
-                    id="placesSource"
-                    ref={shapeSourceRef}
-                    shape={placesGeoJSON as any}
-                    onPress={handlePress}
-                    cluster={true}
-                    clusterRadius={35}
-                    clusterMaxZoomLevel={14}
-                    clusterProperties={clusterProperties}
-                    hitbox={{ width: 30, height: 30 }}
-                >
-                    <ClusterLayers />
-                    <PinLayers activePin={activePin} isBouncing={isBouncing} />
-                </Mapbox.ShapeSource>
-            )}
-        </>
+        {styleLoaded && (
+          <Mapbox.ShapeSource
+            id="placesSource"
+            ref={shapeSourceRef}
+            shape={placesGeoJSON as React.ComponentProps<typeof Mapbox.ShapeSource>['shape']}
+            onPress={handlePress}
+            cluster={true}
+            clusterRadius={35}
+            clusterMaxZoomLevel={14}
+            clusterProperties={clusterProperties}
+            hitbox={{ width: 30, height: 30 }}
+          >
+            <ClusterLayers />
+            <PinLayers activePin={activePin} isBouncing={isBouncing} />
+          </Mapbox.ShapeSource>
+        )}
+      </>
     );
-});
+  },
+  (prev, next) => {
+    // 🛡️ SURGICAL RE-RENDER GUARD
+    // Only update map if:
+    // 1. Highlight changed (User tapped pin or card)
+    // 2. Mapbox style availability changed
+    // 3. The SET of places changed (Filtering)
+
+    if (prev.highlightedPlaceId !== next.highlightedPlaceId) return false;
+    if (prev.styleLoaded !== next.styleLoaded) return false;
+    if (prev.places.length !== next.places.length) return false;
+
+    // Deep check: We hash the visual dependencies of a marker (id, mood, rating)
+    // This allows the map to update instantly if a place's note or mood changes,
+    // while ignoring heavy object reference changes caused by Hydration (description/pricing).
+    const prevHash = prev.places
+      .map((p) => `${p.id}:${p.dominant_mood}:${p.google_rating}`)
+      .join('|');
+    const nextHash = next.places
+      .map((p) => `${p.id}:${p.dominant_mood}:${p.google_rating}`)
+      .join('|');
+
+    return prevHash === nextHash;
+  },
+);

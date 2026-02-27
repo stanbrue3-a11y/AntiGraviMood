@@ -1,0 +1,12 @@
+node_modules
+.expo
+ios
+android
+dist
+web-build
+coverage
+*.lock
+*.log
+
+# Generated data-as-code registry
+src/data/registry

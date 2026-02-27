@@ -1,373 +1,443 @@
-import { Place, MoodType, Pricing, RealTalk } from '../types/model';
+import {
+  Place,
+  MoodType,
+  Pricing,
+  RealTalk,
+  PlaceSkeleton,
+  PricingView,
+  PlaceRow,
+} from '../types/model';
 import { PlaceSchema } from '../schemas/place.schema';
+import {
+  PlaceEditorialSchema,
+  PlacePricingSchema,
+  PlaceRealTalkSchema,
+  PlaceMoodScoresSchema,
+} from '../schemas/place.validation';
+import { z } from 'zod';
 import { logger } from '../lib/logger';
+import { IconService } from './IconService';
+import { OpeningHours, isHappyHourActive } from '../lib/timeUtils';
+import { CrabCalculator } from '../lib/CrabCalculator';
+import { moodColors } from '../design';
+import { PricingMapper } from './mappers/PricingMapper';
+import { TimeMapper } from './mappers/TimeMapper';
+import { MetaMapper } from './mappers/MetaMapper';
+import { BadgeMapper } from './mappers/BadgeMapper';
+import { isValidString, extractInstagramHandle } from '../utils/sanitization';
 
 /**
  * PlaceMapper
  * Surgically maps raw SQLite rows to the high-fidelity Place model.
  * Part of the Great Haussmann Reconstruction.
  */
-export interface PlaceRow {
-    id: string;
-    name: string;
-    slug: string;
-    category: string;
-    subcategory: string;
-    dominant_mood: string;
-    lat: number;
-    lng: number;
-    arrondissement: number;
-    address: string;
-    main_color: string;
-    map_icon: string;
-    hero_image: string;
-    instagram_handle: string | null;
-    google_id: string | null;
-    rating: number | null;
-    user_ratings_total: number | null;
-    budget_avg: number | null;
-    is_free: number; // SQLite boolean
-    budget_unit: string | null;
-    pint_price: number | null;
-    cocktail_price: number | null;
-    coffee_price: number | null;
-    main_dish_price: number | null;
-    category_percentile: number;
-    mood_scores_json: string | null;
-    social_json: string | null;
-    categories_json: string | null;
-    hours_json: string | null;
-    nearest_metro: string | null;
-    metro_line_json: string | null;
-    editorial_json: string | null;
-    vibes_json: string | null;
-    google_photos_json: string | null;
-    pricing_json: string | null;
-    media_json: string | null;
-    ai_insights_json: string | null;
-    real_talk_json: string | null;
-    description: string | null;
-}
 
 export class PlaceMapper {
-    private static safeJsonParse<T>(data: string | null, defaultValue: T): T {
-        if (!data) return defaultValue;
-        try {
-            return JSON.parse(data);
-        } catch (e) {
-            logger.log(`⚠️ Database JSON Parse Error: ${e instanceof Error ? e.message : 'Unknown'}`);
-            return defaultValue;
-        }
+  private static safeJsonParse<T>(data: string | null, defaultValue: T): T {
+    if (!data) return defaultValue;
+    try {
+      return JSON.parse(data);
+    } catch (e) {
+      logger.log(`⚠️ Database JSON Parse Error: ${e instanceof Error ? e.message : 'Unknown'}`);
+      return defaultValue;
     }
+  }
 
-    /**
-     * FIREWALL: Clean text to ensure no JSON leaks into the UI.
-     * Detects if a string is actually a JSON object (e.g. {"text": "..."}) and extracts the content.
-     */
-    private static cleanText(text: string | null | undefined): string {
-        if (!text) return "";
-        const trimmed = text.trim();
-        if (trimmed.startsWith('{') && trimmed.endsWith('}')) {
-            try {
-                const parsed = JSON.parse(trimmed);
-                if (parsed.text) return parsed.text;
-                if (parsed.description) return parsed.description;
-                return "";
-            } catch (e) {
-                return text;
-            }
-        }
+  private static safeValidate<T>(data: string | null, schema: z.ZodType<T>, defaultValue: T): T {
+    if (!data) return defaultValue;
+    try {
+      const parsed = JSON.parse(data);
+      const result = schema.safeParse(parsed);
+      if (result.success) {
+        return result.data;
+      } else {
+        console.error(
+          `🚨 ZOD VALIDATION ERROR 🚨:`,
+          JSON.stringify(result.error.format(), null, 2),
+        );
+        logger.log(`⚠️ Zod Validation Error: ${JSON.stringify(result.error.format())}`);
+        return defaultValue;
+      }
+    } catch (e) {
+      logger.log(
+        `⚠️ Database Parse Error in Validation: ${e instanceof Error ? e.message : 'Unknown'}`,
+      );
+      return defaultValue;
+    }
+  }
+
+  private static cleanText(text: string | null | undefined): string {
+    if (!text) return '';
+    const trimmed = text.trim();
+    if (trimmed.startsWith('{') && trimmed.endsWith('}')) {
+      try {
+        const parsed = JSON.parse(trimmed);
+        if (parsed.text) return parsed.text;
+        if (parsed.description) return parsed.description;
+        return '';
+      } catch (e) {
         return text;
+      }
+    }
+    return text;
+  }
+
+  private static sanitizeMetro(text: string | null | undefined): string {
+    const cleaned = this.cleanText(text);
+    if (cleaned.length > 60) return '';
+    return cleaned;
+  }
+
+  private static determineDominantMood(
+    scores: Record<string, { overall?: number }>,
+    fallback: string,
+  ): string {
+    if (!scores || typeof scores !== 'object') return fallback;
+    const moodValues = [
+      { mood: 'chill', score: scores.chill?.overall || 0 },
+      { mood: 'festif', score: scores.festif?.overall || 0 },
+      { mood: 'culturel', score: scores.culturel?.overall || 0 },
+    ];
+    moodValues.sort((a, b) => b.score - a.score);
+    const primary = moodValues[0];
+    const secondary = moodValues[1];
+    if (primary.mood === 'culturel' && secondary.mood === 'festif' && secondary.score > 0) {
+      return 'festif';
+    }
+    return primary.score > 0 ? primary.mood : fallback;
+  }
+
+  static mapRowToPlace(row: PlaceRow): Place {
+    const categories = this.safeJsonParse<string[]>(row.categories_json, []);
+    const moodScores = this.safeValidate(row.mood_scores_json, PlaceMoodScoresSchema, {});
+    const socialPreview = this.safeJsonParse<NonNullable<Place['social_preview']>>(
+      row.social_json,
+      { like_count: 0, moment_count: 0, top_vibe_tags: [] },
+    );
+    const editorial = this.safeValidate(
+      row.editorial_json,
+      PlaceEditorialSchema,
+      {} as z.infer<typeof PlaceEditorialSchema>,
+    );
+    const vibes = this.safeJsonParse<string[]>(row.vibes_json, []);
+    const nearestMetro = this.sanitizeMetro(row.nearest_metro);
+    const metroLines = this.safeJsonParse<string[]>(row.metro_line_json, []);
+    const validMetroLines = (metroLines || [])
+      .map((l) => String(l).trim())
+      .filter((l) => l.length > 0 && l.length < 10);
+
+    const EMPTY_REAL_TALK = { insider_tip: undefined, must_eat: undefined };
+    const realTalkRaw = this.safeValidate(row.real_talk_json, PlaceRealTalkSchema, EMPTY_REAL_TALK);
+
+    const pricingData = this.safeValidate(row.pricing_json, PlacePricingSchema, { menu_items: [] });
+
+    const nullToUndefined = <T>(v: T | null): T | undefined => (v === null ? undefined : v);
+
+    // PRICING: Unified Construction (No casts)
+    const pricing: Pricing = {
+      type: (row.category === 'café'
+        ? 'cafe'
+        : ['bar', 'restaurant', 'club'].includes(row.category)
+          ? row.category
+          : 'generic') as Pricing['type'],
+      unit: row.budget_unit || '€',
+      is_free: row.budget_avg === 0 || row.is_free === 1,
+      category_percentile: row.category_percentile || 0,
+      value_score: 80,
+
+      // Item prices
+      pint_price: nullToUndefined(row.pint_price ?? pricingData.pint_price),
+      cocktail_price: nullToUndefined(row.cocktail_price ?? pricingData.cocktail_price),
+      wine_glass: nullToUndefined(row.wine_glass ?? pricingData.wine_glass),
+      coffee_price: nullToUndefined(row.coffee_price ?? pricingData.coffee_price),
+      dish_price: nullToUndefined(row.main_dish_price ?? pricingData.dish_price),
+
+      // Extended prices
+      shot_price: nullToUndefined(pricingData.shot_price),
+      soft_price: nullToUndefined(pricingData.soft_price),
+      planche_price: nullToUndefined(pricingData.planche_price),
+
+      // HH (Standardized 2026)
+      hh_time: nullToUndefined(pricingData.hh_time),
+      hh_pint: nullToUndefined(pricingData.hh_pint),
+      hh_cocktail: nullToUndefined(pricingData.hh_cocktail),
+      hh_wine: nullToUndefined(pricingData.hh_wine),
+
+      // Metadata
+      smart_tip: nullToUndefined(pricingData.smart_tip),
+      verified_at: nullToUndefined(pricingData.verified_at),
+      last_updated: nullToUndefined(pricingData.last_updated),
+
+      menu_items: (pricingData.menu_items || []).map((cat) => ({
+        category: cat.category || 'Menu',
+        items: (cat.items || []).map((item) => ({
+          name: item.name,
+          price: item.price,
+          description: item.description || undefined,
+        })),
+      })),
+    };
+
+    const primaryPrice = this.getPrimaryPrice(pricing);
+    pricing.index_price = primaryPrice.price;
+    pricing.primary_price_type = primaryPrice.type;
+
+    const practical_info = {
+      primary_status: (editorial.primary_status ||
+        editorial.reservation_policy ||
+        null) as Place['practical_info']['primary_status'],
+      opening_hours: editorial.opening_hours || row.hours_json || 'Voir sur place',
+      happy_hour: (editorial.happy_hour ||
+        pricing.hh_time ||
+        null) as Place['practical_info']['happy_hour'],
+      tags: BadgeMapper.extractTags(editorial),
+      main_action: (() => {
+        if (isValidString(editorial.action_url) && isValidString(editorial.action_type)) {
+          const type = editorial.action_type as string;
+          const url = editorial.action_url as string;
+          let label = editorial.bouton_label;
+          if (!label || label === 'false') {
+            label = type === 'shotgun' ? 'SHOTGUN' : type === 'book' ? 'RÉSERVER' : 'SITE WEB';
+          }
+          return { type, url, label };
+        }
+        return undefined;
+      })(),
+      terrace: editorial.terrace || undefined,
+      cuisine_type: editorial.cuisine_type || undefined,
+    };
+
+    const media = {
+      hero_image: row.hero_image,
+      instagram_handle: extractInstagramHandle(row.instagram_handle || editorial.instagram),
+      google_photos: this.safeJsonParse<string[] | undefined>(row.google_photos_json, undefined),
+    };
+
+    const place: Place = {
+      id: row.id,
+      name: row.name,
+      slug: row.slug,
+      description: row.description || '',
+      expert_catchline: (realTalkRaw.expert_catchline ||
+        realTalkRaw.specials?.expert_catchline ||
+        realTalkRaw.must_eat ||
+        '') as string,
+      insider_tip: (realTalkRaw.insider_tip || row.insider_tip || '') as string,
+      category: row.category,
+      subcategories:
+        typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : [],
+      dominant_mood: this.determineDominantMood(
+        moodScores,
+        row.dominant_mood,
+      ) as Place['dominant_mood'],
+
+      location: {
+        address: row.address,
+        arrondissement: row.arrondissement,
+        coordinates: { lat: row.lat, lng: row.lng },
+        nearest_metro:
+          nearestMetro ||
+          (editorial.bouche_metro as string) ||
+          (editorial.metro as string) ||
+          undefined,
+        metro_lines:
+          validMetroLines.length > 0
+            ? validMetroLines
+            : ((editorial.metro_lines || []) as (string | number)[])
+                .map((l) => String(l).replace(/[{}]/g, '').trim())
+                .filter((l) => l.length > 0),
+        google_id: row.google_id || undefined,
+      },
+
+      mood_scores: {
+        chill: { overall: moodScores.chill?.overall || 50, criteria: undefined },
+        festif: { overall: moodScores.festif?.overall || 50, criteria: undefined },
+        culturel: { overall: moodScores.culturel?.overall || 50, criteria: undefined },
+      },
+
+      vibes: vibes,
+      pricing: pricing,
+
+      practical_info: practical_info,
+      media: media,
+
+      real_talk: {
+        insider_tip: realTalkRaw.insider_tip || undefined,
+        must_eat: realTalkRaw.must_eat || realTalkRaw.specials?.must_eat || undefined,
+      },
+
+      specials: {
+        cuisine: realTalkRaw.specials?.cuisine || [],
+        drinks: realTalkRaw.specials?.drinks || [],
+        must_eat: realTalkRaw.specials?.must_eat || undefined,
+        expert_catchline: realTalkRaw.specials?.expert_catchline || undefined,
+      },
+
+      social_preview: socialPreview,
+      ai_insights: this.safeJsonParse<Record<string, any>>(row.ai_insights_json, {}),
+
+      google_rating: row.rating || undefined,
+      google_user_ratings_total: row.user_ratings_total || undefined,
+      verified: row.verified === 1,
+    };
+
+    // Final Verification against the Master Contract 📜
+    const result = PlaceSchema.safeParse(place);
+    if (!result.success) {
+      logger.log(`🚨 CONTRACT BREACH [${place.id}]: ${JSON.stringify(result.error.format())}`);
     }
 
-    /**
-     * METRO SANITIZER 🚇
-     * Ensures metro station names are actual names, not full descriptions.
-     */
-    private static sanitizeMetro(text: string | null | undefined): string {
-        const cleaned = this.cleanText(text);
-        if (cleaned.length > 60) return ""; // It's a description, not a station
-        return cleaned;
-    }
+    return place;
+  }
 
-    /**
-     * CULTURAL PIVOT 🎭
-     * Logic: If Cultural is #1 but Festive is #2, Festive wins.
-     * If Cultural is #1 but Chill is #2, Cultural stays.
-     */
-    private static determineDominantMood(scores: any, fallback: string): string {
-        if (!scores || typeof scores !== 'object') return fallback;
+  static mapRowToSkeleton(row: PlaceRow): PlaceSkeleton {
+    const moodScores = this.safeValidate(row.mood_scores_json, PlaceMoodScoresSchema, {});
+    const dominantMood = this.determineDominantMood(moodScores, row.dominant_mood) as MoodType;
 
-        // Extract scores for the three core moods
-        const moodValues = [
-            { mood: 'chill', score: scores.chill?.overall || 0 },
-            { mood: 'festif', score: scores.festif?.overall || 0 },
-            { mood: 'culturel', score: scores.culturel?.overall || 0 }
-        ];
+    const pricing: Pricing = {
+      type: (row.category === 'café'
+        ? 'cafe'
+        : ['bar', 'restaurant', 'club'].includes(row.category)
+          ? row.category
+          : 'generic') as Pricing['type'],
+      unit: row.budget_unit || '€',
+      is_free: row.is_free === 1,
+      pint_price: row.pint_price === null ? undefined : row.pint_price,
+      cocktail_price: row.cocktail_price === null ? undefined : row.cocktail_price,
+      wine_glass: row.wine_glass === null ? undefined : row.wine_glass,
+      coffee_price: row.coffee_price === null ? undefined : row.coffee_price,
+      dish_price: row.main_dish_price === null ? undefined : row.main_dish_price,
+      category_percentile: row.category_percentile || 0,
+      value_score: 80,
+      menu_items: [],
+    };
 
-        // Sort by score descending
-        moodValues.sort((a, b) => b.score - a.score);
+    const primaryPrice = this.getPrimaryPrice(pricing);
+    pricing.index_price = primaryPrice.price;
+    pricing.primary_price_type = primaryPrice.type;
 
-        const primary = moodValues[0];
-        const secondary = moodValues[1];
+    const skeleton: PlaceSkeleton = {
+      id: row.id,
+      name: row.name,
+      slug: row.slug,
+      location: {
+        address: row.address,
+        arrondissement: row.arrondissement,
+        coordinates: { lat: row.lat, lng: row.lng },
+      },
+      category: row.category,
+      subcategories:
+        typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : [],
+      dominant_mood: dominantMood,
+      media: { hero_image: row.hero_image },
+      pricing: pricing,
+      google_rating: row.rating || undefined,
+      google_user_ratings_total: row.user_ratings_total || undefined,
+    };
 
-        // BUSINESS RULE: "Cultural Pivot"
-        // If Cultural is the king, but Festive is the prince... make the prince the king.
-        if (primary.mood === 'culturel' && secondary.mood === 'festif' && secondary.score > 0) {
-            return 'festif';
-        }
+    return skeleton;
+  }
 
-        return primary.score > 0 ? primary.mood : fallback;
-    }
+  static hydrateDetails(place: Place, detailsRow: PlaceRow): Place {
+    const pricingData = this.safeValidate(detailsRow.pricing_json, PlacePricingSchema, {
+      menu_items: [],
+    });
 
-    /**
-     * Maps a raw SQL row to a sanitized Place object.
-     */
-    static mapRowToPlace(row: PlaceRow): Place {
-        const categories = this.safeJsonParse<string[]>(row.categories_json, []);
-        const moodScores = this.safeJsonParse<Record<string, any>>(row.mood_scores_json, {});
-        const socialPreview = this.safeJsonParse<{
-            like_count: number;
-            moment_count: number;
-            top_vibe_tags: string[];
-        }>(row.social_json, { like_count: 0, moment_count: 0, top_vibe_tags: [] });
+    const EMPTY_REAL_TALK = { insider_tip: undefined, must_eat: undefined };
+    const realTalkRaw = this.safeValidate(
+      detailsRow.real_talk_json,
+      PlaceRealTalkSchema,
+      EMPTY_REAL_TALK,
+    );
 
-        const editorial = this.safeJsonParse<any>(row.editorial_json, {});
-        const vibes = this.safeJsonParse<string[]>(row.vibes_json, []);
+    const editorial = this.safeValidate(detailsRow.editorial_json, PlaceEditorialSchema, {
+      terrace: false,
+      terrasse: false,
+      wifi: false,
+      laptop_friendly: false,
+      vins_nature: false,
+      shotgun: false,
+      gratuit_moins_26: false,
+      pelouse: false,
+      pelouse_autorisee: false,
+    });
 
-        // Practical Info / Editorial Overlap
-        const nearestMetro = this.sanitizeMetro(row.nearest_metro);
-        const metroLines = this.safeJsonParse<any[]>(row.metro_line_json, []);
+    const nullToUndefined = <T>(v: T | null): T | undefined => (v === null ? undefined : v);
 
-        // Cleaner: ensure lines are strings and short (not descriptions)
-        const validMetroLines = metroLines
-            .map(l => String(l).trim())
-            .filter(l => l.length > 0 && l.length < 10);
+    const updatedPricing: Pricing = {
+      ...place.pricing,
+      is_free: place.pricing.is_free,
+      unit: place.pricing.unit,
+      type: place.pricing.type,
+      pint_price: nullToUndefined(pricingData.pint_price ?? place.pricing.pint_price),
+      cocktail_price: nullToUndefined(pricingData.cocktail_price ?? place.pricing.cocktail_price),
+      wine_glass: nullToUndefined(pricingData.wine_glass ?? place.pricing.wine_glass),
+      coffee_price: nullToUndefined(pricingData.coffee_price ?? place.pricing.coffee_price),
+      dish_price: nullToUndefined(pricingData.dish_price ?? place.pricing.dish_price),
+      hh_pint: nullToUndefined(pricingData.hh_pint ?? place.pricing.hh_pint),
+      hh_cocktail: nullToUndefined(pricingData.hh_cocktail ?? place.pricing.hh_cocktail),
+      hh_wine: nullToUndefined(pricingData.hh_wine ?? place.pricing.hh_wine),
+      hh_time: nullToUndefined(pricingData.hh_time ?? place.pricing.hh_time),
+      verified_at: nullToUndefined(pricingData.verified_at || place.pricing.verified_at),
+      smart_tip: nullToUndefined(pricingData.smart_tip || place.pricing.smart_tip),
+      menu_items:
+        (pricingData.menu_items || []).length > 0
+          ? (pricingData.menu_items || []).map((cat) => ({
+              category: cat.category || 'Menu',
+              items: (cat.items || []).map((item) => ({
+                name: item.name,
+                price: item.price,
+                description: item.description || undefined,
+              })),
+            }))
+          : place.pricing.menu_items,
+    };
 
-        // Real Talk Extraction 🗣️
-        const realTalkRaw = this.safeJsonParse<any>(row.real_talk_json, {});
+    const primaryPrice = this.getPrimaryPrice(updatedPricing);
+    updatedPricing.index_price = primaryPrice.price;
+    updatedPricing.primary_price_type = primaryPrice.type;
 
-        // ADAPTER: New Schema (insider_tip, specials) -> Old UI Model
-        // We map the new clean data to the old slots so the UI displays them.
-        const insiderTip = realTalkRaw.insider_tip || realTalkRaw.le_secret || editorial.le_secret;
+    const hydratedPlace: Place = {
+      ...place,
+      pricing: updatedPricing,
+      opening_hours: detailsRow.hours_json
+        ? this.safeJsonParse<Place['opening_hours']>(detailsRow.hours_json, place.opening_hours)
+        : place.opening_hours,
+      real_talk: {
+        ...place.real_talk,
+        insider_tip: realTalkRaw.insider_tip || place.real_talk?.insider_tip,
+        must_eat:
+          realTalkRaw.must_eat || realTalkRaw.specials?.must_eat || place.real_talk?.must_eat,
+      },
+      specials: realTalkRaw.specials
+        ? {
+            cuisine: realTalkRaw.specials.cuisine || [],
+            drinks: realTalkRaw.specials.drinks || [],
+            must_eat: realTalkRaw.specials.must_eat || undefined,
+            expert_catchline: realTalkRaw.specials.expert_catchline || undefined,
+          }
+        : place.specials,
+      insider_tip: realTalkRaw.insider_tip || detailsRow.insider_tip || place.insider_tip,
+      expert_catchline:
+        realTalkRaw.specials?.expert_catchline || realTalkRaw.must_eat || place.expert_catchline,
+    };
 
-        const cuisineStr = realTalkRaw.specials?.cuisine?.join(', ');
-        const drinkStr = realTalkRaw.specials?.drinks?.join(', ');
-        const specialsStr = [cuisineStr, drinkStr].filter(s => s && s.length > 0).join(' • ');
+    return hydratedPlace;
+  }
 
-        const realTalk: RealTalk = {
-            le_secret: insiderTip, // The "Insider Tip"
-
-            le_son: realTalkRaw.le_son || editorial.le_son, // Legacy fallback
-            la_faune: realTalkRaw.la_faune || editorial.la_faune,
-            le_must: realTalkRaw.le_must || editorial.le_must || editorial.must_try,
-
-            must_eat: specialsStr || realTalkRaw.must_eat || editorial.must_eat // Injects Cuisine/Drinks here
-        };
-
-        const insider_tip = realTalkRaw.insider_tip || "";
-        const specials = realTalkRaw.specials || { cuisine: [], drinks: [] };
-
-        // STRICT MAPPING: Enabled Smart Recovery 🧠
-        let description = this.cleanText(row.description || "");
-        const genericTriggers = ["Découvrez ce lieu", "Venez découvrir", "Un lieu unique", "Une expérience authentique"];
-        const isGeneric = genericTriggers.some(t => description.startsWith(t));
-
-        if ((isGeneric || !description) && realTalkRaw.text && realTalkRaw.text.length > 40) {
-            description = realTalkRaw.text;
-        }
-
-        // Subcategories normalization
-        const subcategories = typeof row.subcategory === 'string'
-            ? row.subcategory.split(',').map(s => s.trim())
-            : (Array.isArray(row.subcategory) ? row.subcategory : []);
-
-        const pricingType = (row.category === 'restaurant' || row.category === 'bar' || row.category === 'café' || row.category === 'cafe' || row.category === 'club')
-            ? (row.category === 'café' ? 'cafe' : row.category) as any
-            : 'generic';
-
-        // MOOD SCORES (Standardized)
-        const mood_scores = {
-            chill: { overall: typeof moodScores.chill === 'number' ? moodScores.chill : (moodScores.chill?.overall || 50) },
-            festif: { overall: typeof moodScores.festif === 'number' ? moodScores.festif : (moodScores.festif?.overall || 50) },
-            culturel: { overall: typeof moodScores.culturel === 'number' ? moodScores.culturel : (moodScores.culturel?.overall || 50) }
-        };
-        const dominant_mood = this.determineDominantMood(moodScores, row.dominant_mood) as MoodType;
-
-        const rawPlace: Place = {
-            id: row.id,
-            name: row.name,
-            slug: row.slug,
-            location: {
-                address: row.address,
-                arrondissement: row.arrondissement,
-                coordinates: {
-                    lat: row.lat,
-                    lng: row.lng
-                },
-                nearest_metro: nearestMetro || editorial.bouche_metro || editorial.metro || "",
-                metro_lines: validMetroLines.length > 0 ? validMetroLines : (editorial.metro_lines || []),
-                google_id: row.google_id || undefined
-            },
-            description: description,
-            category: row.category,
-            categories: categories,
-            subcategories: subcategories,
-            mood_scores: mood_scores,
-            vibes: vibes,
-            dominant_mood: dominant_mood,
-            ui_theme: {
-                main_color: row.main_color,
-                map_icon: row.map_icon
-            },
-            social_preview: socialPreview,
-            discovery_radius_meters: 500,
-            min_stay_time_minutes: 30,
-            media: {
-                hero_image: row.hero_image,
-                instagram_handle: row.instagram_handle,
-                google_photos: this.safeJsonParse<string[] | undefined>(row.google_photos_json, undefined),
-                ...(row.media_json ? this.safeJsonParse<any>(row.media_json, {}) : {})
-            },
-            google_rating: row.rating || undefined,
-            google_user_ratings_total: row.user_ratings_total || undefined,
-            insider_tip,
-            specials,
-            pricing: (() => {
-                const pricingJson = this.safeJsonParse<any>(row.pricing_json, {});
-                return {
-                    type: pricingType,
-                    budget_avg: row.budget_avg || 0,
-                    unit: row.budget_unit || '€',
-                    is_free: row.budget_avg === 0,
-                    pint_price: row.pint_price || undefined,
-                    coffee_price: row.coffee_price || undefined,
-                    main_dish_price: row.main_dish_price || undefined,
-                    cocktail_price: row.cocktail_price || undefined,
-                    category_percentile: row.category_percentile || 0,
-                    value_score: 80,
-                    // 🍽️ MENU ITEMS FROM PRICING_JSON
-                    menu_items: pricingJson.menu_items || [],
-                    last_updated: pricingJson.last_updated
-                } as Pricing;
-            })(),
-            real_talk: realTalk,
-            opening_hours: this.safeJsonParse<any>(row.hours_json, undefined),
-            practical_info: {
-                primary_status: editorial.primary_status || editorial.reservation_policy || null,
-                main_action: editorial.main_action || null,
-                opening_hours: editorial.opening_hours || row.hours_json || 'Voir sur place',
-                price_range: editorial.price_range || row.budget_avg || 1,
-                happy_hour: editorial.happy_hour || null,
-                must_eat: realTalk.must_eat,
-                signature_drink: editorial.signature_drink || (drinkStr ? drinkStr : undefined),
-                ambiance_vibe: editorial.ambiance_vibe,
-                specialty: editorial.specialty,
-                smart_tip: editorial.smart_tip,
-                entry_fee: editorial.entry_fee,
-                cuisine_type: editorial.cuisine_type,
-                price_info: editorial.price_info,
-                // 🏷️ SURGICAL TAGS EXTRACTION
-                tags: this.extractTags(editorial),
-            },
-            ai_insights: this.safeJsonParse<any>(row.ai_insights_json, undefined)
-        };
-
-        // SURGICAL VALIDATION
-        const validation = PlaceSchema.safeParse(rawPlace);
-        if (!validation.success) {
-            logger.log(`❌ Place ${row.id} failed validation: ${validation.error.message}`);
-        }
-
-        return rawPlace;
-    }
-
-    /**
-     * Hydrates a light place object with detailed information.
-     */
-    static hydrateDetails(place: Place, detailsRow: PlaceRow): Place {
-        const editorial = this.safeJsonParse<any>(detailsRow.editorial_json, {});
-        const realTalkRaw = this.safeJsonParse<any>(detailsRow.real_talk_json, {});
-
-        // SMART RECOVERY 🧠
-        // If description is generic ("Bateau") and Real Talk text is good, PROMOTE Real Talk.
-        let description = this.cleanText(detailsRow.description || place.description);
-        const genericTriggers = ["Découvrez ce lieu", "Venez découvrir", "Un lieu unique", "Une expérience authentique"];
-        const isGeneric = genericTriggers.some(t => description.startsWith(t));
-
-        if ((isGeneric || !description) && realTalkRaw.text && realTalkRaw.text.length > 40) {
-            console.log(`🚨 [Mapper:Hydrate] ID:${place.id} SMART RECOVERY triggered. Story was: ${isGeneric ? 'Generic' : 'Empty'}`);
-            description = realTalkRaw.text;
-        } else {
-            console.log(`✅ [Mapper:Hydrate] ID:${place.id} Story Preserved (len: ${description?.length || 0})`);
-        }
-
-        return {
-            ...place,
-            description: description,
-            practical_info: {
-                ...place.practical_info,
-                ...editorial,
-                primary_status: editorial.primary_status || editorial.reservation_policy || place.practical_info.primary_status,
-                description: undefined, // CRITICAL: Stop JSON leak
-                booking_url: editorial.booking_url || editorial.bouton_réserver,
-                shotgun_url: editorial.shotgun_url || editorial.bouton_shotgun,
-            },
-            pricing: (() => {
-                const pricingJson = detailsRow.pricing_json ? this.safeJsonParse<any>(detailsRow.pricing_json, {}) : {};
-                return {
-                    ...place.pricing,
-                    ...pricingJson,
-                    // Ensure menu_items is always an array
-                    menu_items: pricingJson.menu_items || place.pricing?.menu_items || []
-                };
-            })(),
-            opening_hours: detailsRow.hours_json ? this.safeJsonParse<any>(detailsRow.hours_json, place.opening_hours) : place.opening_hours,
-            media: {
-                ...place.media,
-                ...(detailsRow.media_json ? this.safeJsonParse<any>(detailsRow.media_json, {}) : {})
-            },
-            real_talk: {
-                ...place.real_talk,
-                ...realTalkRaw
-            },
-            ai_insights: detailsRow.ai_insights_json ? this.safeJsonParse<any>(detailsRow.ai_insights_json, place.ai_insights) : place.ai_insights
-        };
-    }
-
-    /**
-     * 🏷️ SURGICAL TAGS EXTRACTION
-     * Derives badge tags from editorial/practical info fields
-     */
-    private static extractTags(editorial: any): string[] {
-        const tags: string[] = [];
-
-        // Terrace
-        if (editorial.terrace === true || editorial.terrasse === true) {
-            tags.push('terrasse');
-        }
-
-        // Wifi
-        if (editorial.wifi === true) {
-            tags.push('laptop_friendly');
-        }
-
-        // Vegan friendly
-        if (editorial.vegan_friendly === true) {
-            tags.push('vegan_friendly');
-        }
-
-        // Accessibility
-        if (editorial.accessibility === true) {
-            tags.push('accessible');
-        }
-
-        // Natural wine (check cuisine_type or drinks)
-        if (editorial.cuisine_type?.toLowerCase().includes('nature') ||
-            editorial.cuisine_type?.toLowerCase().includes('vin')) {
-            tags.push('vins_nature');
-        }
-
-        return tags;
-    }
+  /**
+   * Helper to extract the primary index price from pricing data.
+   * Order of preference: pint -> wine -> cocktail -> coffee -> dish
+   */
+  private static getPrimaryPrice(pricing: Pricing): {
+    price: number;
+    type: 'generic' | 'pint' | 'wine' | 'cocktail' | 'coffee' | 'dish';
+  } {
+    if (pricing.pint_price) return { price: pricing.pint_price, type: 'pint' };
+    if (pricing.wine_glass) return { price: pricing.wine_glass, type: 'wine' };
+    if (pricing.cocktail_price) return { price: pricing.cocktail_price, type: 'cocktail' };
+    if (pricing.coffee_price) return { price: pricing.coffee_price, type: 'coffee' };
+    if (pricing.dish_price) return { price: pricing.dish_price, type: 'dish' };
+    return { price: 0, type: 'generic' };
+  }
 }

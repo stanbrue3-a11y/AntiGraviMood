@@ -1,0 +1,152 @@
+import { Place, PlaceRow } from '../types/model';
+
+/**
+ * 💎 2026 INDUSTRIAL TEST FIXTURES
+ * Single Source of Truth for mock data.
+ * No more 'as any' hacks.
+ */
+
+export const MOCK_PLACE_ROW: PlaceRow = {
+  id: 'poi-test-place',
+  name: 'Test Place',
+  slug: 'test-place',
+  category: 'bar',
+  subcategory: 'cocktail, terrace',
+  dominant_mood: 'chill',
+  lat: 48.8566,
+  lng: 2.3522,
+  arrondissement: 75011,
+  address: '123 Industrial Ave, 75011 Paris',
+  main_color: '#8ccaf7',
+  map_icon: 'pin',
+  verified: 1,
+  rating: 4.5,
+  user_ratings_total: 100,
+  hero_image: 'https://example.com/hero.jpg',
+  instagram_handle: '@testplace',
+  google_id: 'google-id-123',
+  budget_avg: 15,
+  is_free: 0,
+  budget_unit: '€',
+  pint_price: 7,
+  cocktail_price: 12,
+  wine_glass: 6,
+  coffee_price: 2.5,
+  main_dish_price: 18,
+  category_percentile: 50,
+  mood_scores_json: JSON.stringify({
+    chill: { overall: 80 },
+    festif: { overall: 30 },
+    culturel: { overall: 10 },
+  }),
+  social_json: JSON.stringify({
+    like_count: 42,
+    moment_count: 5,
+    top_vibe_tags: ['chill', 'vibe'],
+  }),
+  categories_json: JSON.stringify(['bar', 'terrace']),
+  hours_json: JSON.stringify({
+    standard: '18h-02h',
+    display: '18h-02h',
+  }),
+  editorial_json: JSON.stringify({
+    primary_status: 'sans_resa',
+    terrace: true,
+    metro_lines: [3, 5],
+  }),
+  pricing_json: JSON.stringify({
+    dish_price: 18,
+    hh_pint: 5,
+    menu_items: [{ category: 'Drinks', items: [{ name: 'Pint', price: '7€' }] }],
+  }),
+  media_json: JSON.stringify({
+    hero_image: 'https://example.com/hero.jpg',
+    google_photos: [],
+  }),
+  ai_insights_json: JSON.stringify({}),
+  real_talk_json: JSON.stringify({
+    insider_tip: 'Go early and ask for the terrace at the back.',
+    must_eat: 'Plat Signature de la Maison',
+    specials: {
+      expert_catchline: 'Plat Signature de la Maison',
+    },
+  }),
+  description: 'A strictly typed mock place for testing the Industrial 2026 Data Engine.',
+  insider_tip: 'Go early and ask for the terrace at the back.',
+  nearest_metro: 'Parmentier',
+  metro_line_json: JSON.stringify(['3', '5']),
+  vibes_json: JSON.stringify(['chill', 'industrial']),
+  google_photos_json: JSON.stringify([]),
+};
+
+export const MOCK_PLACE: Place = {
+  id: MOCK_PLACE_ROW.id,
+  name: MOCK_PLACE_ROW.name,
+  slug: MOCK_PLACE_ROW.slug,
+  description: MOCK_PLACE_ROW.description ?? '',
+  insider_tip: MOCK_PLACE_ROW.insider_tip || '',
+  expert_catchline: 'Plat Signature de la Maison',
+  category: MOCK_PLACE_ROW.category,
+  subcategories: ['cocktail', 'terrace'],
+  dominant_mood: 'chill',
+  location: {
+    address: MOCK_PLACE_ROW.address,
+    arrondissement: MOCK_PLACE_ROW.arrondissement,
+    coordinates: { lat: MOCK_PLACE_ROW.lat, lng: MOCK_PLACE_ROW.lng },
+    nearest_metro: 'Parmentier',
+    metro_lines: ['3', '5'],
+    google_id: 'google-id-123',
+  },
+  mood_scores: {
+    chill: { overall: 80, criteria: undefined },
+    festif: { overall: 30, criteria: undefined },
+    culturel: { overall: 10, criteria: undefined },
+  },
+  vibes: ['chill', 'industrial'],
+  pricing: {
+    type: 'bar',
+    unit: '€',
+    is_free: false,
+    index_price: 7,
+    primary_price_type: 'pint',
+    pint_price: 7,
+    cocktail_price: 12,
+    wine_glass: 6,
+    coffee_price: 2.5,
+    dish_price: 18,
+    hh_pint: 5,
+    category_percentile: 50,
+    value_score: 80,
+    menu_items: [{ category: 'Drinks', items: [{ name: 'Pint', price: '7€' }] }],
+  },
+  practical_info: {
+    primary_status: 'sans_resa',
+    opening_hours: '18h-02h',
+    happy_hour: null,
+    tags: ['terrasse'],
+    terrace: true,
+  },
+  media: {
+    hero_image: MOCK_PLACE_ROW.hero_image,
+    instagram_handle: 'testplace',
+  },
+  specials: {
+    cuisine: [],
+    drinks: [],
+    must_eat: 'Plat Signature de la Maison',
+    expert_catchline: 'Plat Signature de la Maison',
+  },
+  real_talk: {
+    insider_tip: 'Go early and ask for the terrace at the back.',
+    must_eat: 'Plat Signature de la Maison',
+  },
+  social_preview: {
+    like_count: 42,
+    moment_count: 5,
+    top_vibe_tags: ['chill', 'vibe'],
+  },
+  ai_insights: {},
+  google_rating: 4.5,
+  google_user_ratings_total: 100,
+  verified: true,
+};

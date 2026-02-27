@@ -30,6 +30,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      "expo-dev-client",
       "expo-router",
       "expo-font",
       [
@@ -44,7 +45,9 @@
           "cameraPermission": "MoodMap a besoin de la caméra pour capturer vos moments.",
           "microphonePermission": "MoodMap a besoin du micro pour les vidéos."
         }
-      ]
+      ],
+      "./plugins/withCustomPods",
+      "./plugins/withHighFidelity"
     ],
     "experiments": {
       "typedRoutes": true

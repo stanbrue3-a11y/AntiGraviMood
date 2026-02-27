@@ -1,260 +1,159 @@
-export interface MoodCriteria {
-    noise_level?: number;
-    seating_comfort?: number;
-    natural_light?: number;
-    crowd_density?: number;
-    music_tempo?: number;
-    event_programming?: number;
-    dance_space?: number;
-    cocktail_offering?: number;
-    crowd_energy?: number;
-    late_hours?: number;
-    architectural_originality?: number;
-    artistic_presence?: number;
-    cultural_programming?: number;
-    creative_clientele?: number;
-    workspace_facilities?: number;
-}
+import {
+  ValidatedPlace,
+  ValidatedPricing,
+  ValidatedMoodScore,
+  ValidatedPracticalInfo,
+  ValidatedMedia,
+  RealTalk,
+} from '../schemas/place.schema';
 
-export interface MoodScore {
-    overall: number; // 0-100
-    criteria?: MoodCriteria;
-}
+/**
+ * 2026 UNIFIED DATA MODELS 🏢
+ * All core entities are now derived from Master Zod Schemas.
+ * No more manual interface maintenance.
+ */
 
 export type MoodType = 'chill' | 'festif' | 'culturel';
 
-// ====== NEW PRICING SYSTEM ======
+// Inferred from Master Schema
+export type Place = ValidatedPlace;
+export type Pricing = ValidatedPricing;
+export type MoodScore = ValidatedMoodScore;
+export type PracticalInfo = ValidatedPracticalInfo;
+export type Media = ValidatedMedia;
+export { RealTalk };
 
-/** Price highlight for signature items */
-export interface PriceHighlight {
-    name: string;
-    price: number;
-}
-
-/** Core pricing data shared by all categories */
-export interface PricingBase {
-    budget_avg: number;
-    value_score: number;
-    category_percentile: number;
-    is_free?: boolean;
-    unit?: string;
-    pint_price?: number;
-    cocktail_price?: number;
-    wine_glass?: number;
-    coffee_price?: number;
-    main_dish_price?: number;
-    standing_level?: number;
-    pint_hh?: number;
-    dish_hh?: number;
-    coffee_hh?: number;
-    hh_time?: string;
-    confidence_score?: number;
-    last_updated?: string;
-    fair_price?: number;
-    anchor?: {
-        price: number;
-        label: string;
-        source: string;
-    };
-    menu_items?: {
-        category: string;
-        items: { name: string; price: string }[];
-    }[];
-}
-
-/** Restaurant-specific pricing */
-export interface RestaurantPricing extends PricingBase {
-    type: 'restaurant';
-    /** Price range for starters [min, max] */
-    starter_range?: [number, number];
-    /** Price range for mains [min, max] */
-    main_range?: [number, number];
-    /** Price range for desserts [min, max] */
-    dessert_range?: [number, number];
-    /** Signature dishes */
-    highlights?: {
-        signature_dish?: PriceHighlight;
-        best_deal?: PriceHighlight;
-        must_try_dessert?: PriceHighlight;
-    };
-}
-
-/** Bar-specific pricing */
-export interface BarPricing extends PricingBase {
-    type: 'bar';
-    /** Cheapest pint price in € */
-    pint_price?: number;
-    /** Average cocktail price in € */
-    cocktail_price?: number;
-    /** Happy hour info */
-    happy_hour?: {
-        start: string;
-        end: string;
-        discount_percent?: number;
-    };
-}
-
-/** Café-specific pricing */
-export interface CafePricing extends PricingBase {
-    type: 'cafe';
-    /** Coffee (espresso/allongé) price in € */
-    coffee_price?: number;
-    /** Lunch formula price in € */
-    lunch_formula?: number;
-    /** Croissant/pastry price in € */
-    pastry_price?: number;
-}
-
-/** Club-specific pricing */
-export interface ClubPricing extends PricingBase {
-    type: 'club';
-    /** Entry fee in € */
-    entry_fee?: number;
-    /** Minimum drink price in € */
-    drink_min?: number;
-    /** Bottle service starting price in € */
-    bottle_service?: number;
-}
-
-/** Generic pricing for other categories */
-export interface GenericPricing extends PricingBase {
-    type: 'generic';
-}
-
-/** Union type for all pricing variants */
-export type Pricing = RestaurantPricing | BarPricing | CafePricing | ClubPricing | GenericPricing;
-
-export interface RealTalk {
-    le_secret?: string;
-    le_son?: string;
-    la_faune?: string;
-    le_must?: string;
-    must_eat?: string;
-}
-
-// ====== PLACE INTERFACE ======
-
-export interface Place {
-    id: string;
-    name: string;
+// UI-Specific View Models
+export interface PricingView {
+  // Legacy/UI alias (some components still reference avg_price)
+  avg_price?: number;
+  index_price: number; // Factual price of the representative item (Pint, Coffee, Dish)
+  level: 1 | 2 | 3 | 4;
+  hh_pint?: number;
+  hh_cocktail?: number;
+  hh_wine?: number;
+  smart_tip?: string;
+  pince_label: string;
+  deviation_text?: string;
+  benchmark_label?: string;
+  price_context?: string;
+  card_display: {
+    label: string;
+    price: string;
+    value: number;
+    highlight: boolean;
+    badge?: string;
     description?: string;
-    slug: string;
-    location: {
-        address: string;
-        arrondissement: number;
-        coordinates: {
-            lat: number;
-            lng: number;
-        };
-        nearest_metro: string;
-        metro_lines: string[];
-        google_id?: string;
-    };
+  };
+  confidence?: {
+    score: number;
+    label: string;
+    color: string;
+  };
+  menu: {
     category: string;
-    categories?: string[];
-    subcategories: string[];
-    mood_scores: {
-        chill: MoodScore;
-        festif: MoodScore;
-        culturel: MoodScore;
-    };
-    vibes: string[];
-    dominant_mood?: MoodType;
-    ui_theme: {
-        main_color: string;
-        map_icon: string;
-    };
-    social_preview: {
-        like_count: number;
-        moment_count: number;
-        top_vibe_tags: string[];
-    };
-    discovery_radius_meters: number;
-    min_stay_time_minutes: number;
-    editorial?: any;
-    pricing?: Pricing;
-    real_talk?: RealTalk;
-    practical_info: {
-        primary_status: 'sans_resa' | 'resa_conseillee' | 'resa_obligatoire' | null;
-        main_action: {
-            type: 'book' | 'shotgun' | 'site';
-            url: string;
-            label: string;
-        } | null;
-        opening_hours: string;
-        /** @deprecated Use `pricing` object instead */
-        price_range: number;
-        happy_hour?: string | {
-            start: string;
-            end: string;
-            price: string;
-        };
-        must_eat?: string;
-        signature_drink?: string | { name: string; price: string };
-        ambiance_vibe?: string;
-        specialty?: string;
-        smart_tip?: string;
-        entry_fee?: string;
-        cuisine_type?: string;
-        tags?: string[]; // ['terrasse', 'pelouse_autorisee', 'vins_nature', etc.]
-        price_info?: {
-            smart_tip?: string;
-            items: {
-                category: string;
-                items: { name: string; price: string }[];
-            }[];
-        };
-    };
-    opening_hours?: {
-        standard: string;
-        display?: string;
-        detailed?: string;
-        is_open_now?: boolean;
-    };
-    media: {
-        hero_image: string;
-        instagram_handle: string | null;
-        google_photos?: string[];
-    };
-    google_rating?: number;
-    google_user_ratings_total?: number;
-    ai_insights?: {
-        best_moment?: { text: string; icon?: string; tag?: string };
-        social_vibe?: { text: string; icon?: string; tag?: string };
-        culture_snack?: { text: string; icon?: string; tag?: string };
-        vivant_tip?: { text: string; icon?: string; tag?: string };
-    };
-    insider_tip?: string;
-    specials?: {
-        cuisine?: string[];
-        drinks?: string[];
-    };
+    items: { name: string; price: string; highlight?: boolean }[];
+  }[];
 }
 
-// ====== SOCIAL MODELS ======
+/**
+ * Raw SQLite Row Interface
+ * Matches the actual database columns 1:1.
+ */
+export interface PlaceRow {
+  id: string;
+  name: string;
+  slug: string;
+  category: string;
+  subcategory: string;
+  dominant_mood: string;
+  lat: number;
+  lng: number;
+  arrondissement: number;
+  address: string;
+  main_color: string;
+  map_icon: string;
+  verified: number; // SQLite boolean
+  hero_image: string;
+  instagram_handle: string | null;
+  google_id: string | null;
+  rating: number | null;
+  user_ratings_total: number | null;
+  budget_avg: number | null;
+  is_free: number; // SQLite boolean
+  budget_unit: string | null;
+  pint_price: number | null;
+  cocktail_price: number | null;
+  wine_glass: number | null;
+  coffee_price: number | null;
+  main_dish_price: number | null;
+  category_percentile: number;
+  mood_scores_json: string | null;
+  social_json: string | null;
+  categories_json: string | null;
+  hours_json: string | null;
+  nearest_metro: string | null;
+  metro_line_json: string | null;
+  editorial_json: string | null;
+  vibes_json: string | null;
+  google_photos_json: string | null;
+  pricing_json: string | null;
+  media_json: string | null;
+  ai_insights_json: string | null;
+  real_talk_json: string | null;
+  description: string | null;
+  insider_tip: string | null;
+}
 
+/**
+ * Partial Place for search results and map pins
+ */
+export interface PlaceSkeleton {
+  id: string;
+  name: string;
+  slug: string;
+  location: {
+    address: string;
+    arrondissement: number;
+    coordinates: {
+      lat: number;
+      lng: number;
+    };
+  };
+  category: string;
+  subcategories: string[];
+  dominant_mood?: MoodType;
+  media: {
+    hero_image: string;
+  };
+  pricing: Pricing;
+  google_rating?: number;
+  google_user_ratings_total?: number;
+}
+
+// User & Moments
 export interface User {
-    id: string;
-    email?: string;
-    name: string;
-    username: string;
-    avatar: string;
-    bio?: string;
-    location?: string;
+  id: string;
+  email?: string;
+  name: string;
+  username: string;
+  avatar: string;
+  bio?: string;
+  location?: string;
 }
 
 export interface Moment {
-    id: string;
-    placeId: string;
-    placeName: string;
-    imageUri: string;
-    caption: string;
-    mood: MoodType;
-    type: 'image' | 'video';
-    timestamp: number;
-    user: User;
-    likes: number;
-    isLikedByMe: boolean;
-    verbatimDate?: string;
-    is_verified?: boolean;
+  id: string;
+  placeId: string;
+  placeName: string;
+  imageUri: string;
+  caption: string;
+  mood: MoodType;
+  type: 'image' | 'video';
+  timestamp: number;
+  user: User;
+  likes: number;
+  isLikedByMe: boolean;
+  verbatimDate?: string;
+  is_verified?: boolean;
 }

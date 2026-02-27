@@ -1,6 +1,6 @@
 /**
  * MoodMap Paris - Design Tokens Index
- * 
+ *
  * Export centralisé de tous les tokens
  */
 
