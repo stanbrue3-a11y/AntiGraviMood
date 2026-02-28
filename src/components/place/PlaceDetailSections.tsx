@@ -56,18 +56,7 @@ const MetaSection = React.memo(() => {
   const hasTerrasse = meta.hasTerrasse;
   const hh = meta.happyHour;
 
-  // Construct Subtitle (e.g. "Restaurant • 11e")
-  let subtitle = 'Lieu • Paris';
-  if (meta.primaryCategory) {
-    const cat = meta.primaryCategory.charAt(0).toUpperCase() + meta.primaryCategory.slice(1);
-    let arr = 'Paris';
-    const arrStr = meta.arrondissement ? meta.arrondissement.toString() : '';
-    if (arrStr.startsWith('75')) {
-      const num = parseInt(arrStr.slice(-2));
-      arr = num === 1 ? '1er' : `${num}e`;
-    }
-    subtitle = `${cat} • ${arr}`;
-  }
+  const subtitle = meta.subtitle;
 
   return (
     <View style={sectionStyles.scrollPadding}>

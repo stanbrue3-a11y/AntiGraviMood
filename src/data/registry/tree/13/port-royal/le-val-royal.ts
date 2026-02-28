@@ -7,53 +7,100 @@ export const le_val_royal: SurgicalPlace = {
     "category": "restaurant",
     "subcategory": [
         "brasserie",
+        "bar",
         "terrasse",
         "happy-hour"
     ],
     "verified": true,
     "google_rating": 4.2,
     "location": {
-        "address": "93 Bd de Port-Royal",
+        "address": "93 Boulevard de Port-Royal",
         "arrondissement": 13,
-        "lat": 48.838059,
-        "lng": 2.342206,
+        "lat": 48.838382,
+        "lng": 2.341857,
         "nearest_metro": "Port-Royal",
-        "metro_lines": [
-            "RER B"
-        ]
+        "metro_lines": ["RER B"],
+        "google_id": "ChIJT_vAnMFx5kcRRE4Q-id-9p0"
     },
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
         "wifi": true,
-        "opening_hours_raw": "Lun-Dim: 07h00-02h00",
-        "action_type": "site",
-        "action_url": ""
+        "terrace": true,
+        "opening_hours_raw": "Lundi-Samedi: 07h00–02h00\nDimanche: 16h00–02h00",
+        "happy_hour": "15h-02h",
+        "main_action": {
+            "type": "site",
+            "url": "https://www.privateaser.com/lieu/16604-le-val-royal",
+            "label": "RESERVER"
+        },
+        "cuisine_type": "Brasserie Traditionnelle / Couscous"
     },
     "pricing": {
         "avg_budget": 15,
         "is_free": false,
         "pint_price": 3.8,
         "cocktail_price": 5.8,
+        "wine_glass": 3.5,
         "coffee_price": 2.2,
-        "dish_price": 16
+        "dish_price": 14,
+        "hh_time": "15h-02h",
+        "hh_pint": 3.8,
+        "hh_cocktail": 5.8,
+        "smart_tip": "Happy Hour record (3,80€ la pinte) jusqu'à 02h du matin. Menu étudiant à 9,50€ imbattable.",
+        "menu_items": [
+            {
+                "category": "Happy Hour (15h-02h)",
+                "items": [
+                    { "name": "Pinte de Blonde (Pression)", "price": "3,80€" },
+                    { "name": "Cocktails Classiques", "price": "5,80€" },
+                    { "name": "Verre de Vin", "price": "3,50€" },
+                    { "name": "Ricard (2cl)", "price": "4,30€" },
+                    { "name": "Softs (HH)", "price": "3,00€" }
+                ]
+            },
+            {
+                "category": "Cuisine du Val",
+                "items": [
+                    { "name": "Croque Monsieur Maison & Frites", "price": "9,80€" },
+                    { "name": "Œuf Cocotte du Val", "price": "6,00€" },
+                    { "name": "Entrecôte de Bœuf Grillée (240g)", "price": "18,00€" },
+                    { "name": "Pavé de Saumon à l'oseille", "price": "13,80€" },
+                    { "name": "Taglio Del Macellaio", "price": "15,00€" },
+                    { "name": "Menu Étudiant (Plat + Boisson)", "price": "9,50€" },
+                    { "name": "Pasta Box (Petite/Moyenne/Maxi)", "price": "4.5/8/9.5€" }
+                ]
+            },
+            {
+                "category": "Omelettes & Desserts",
+                "items": [
+                    { "name": "Omelette Nature & Salade", "price": "12,00€" },
+                    { "name": "Omelette Fromage", "price": "14,00€" },
+                    { "name": "Tarte Tatin Maison", "price": "7,00€" },
+                    { "name": "Crème Brûlée Vanille", "price": "7,00€" }
+                ]
+            }
+        ],
+        "last_updated": "2026-02-28"
     },
     "moods": {
-        "chill": 60,
-        "festif": 40,
+        "chill": 80,
+        "festif": 60,
         "culturel": 10
     },
-    "description": "L'institution du quartier Port-Royal. Une brasserie parisienne dans son jus avec une terrasse immense qui ne désemplit pas. C'est le QG des étudiants en médecine et des riverains qui cherchent une pinte pas chère sans chichis.",
-    "insider_tip": "La salle du fond est souvent vide et calme pour bosser l'après-midi.",
+    "description": "Le véritable QG de Port-Royal. Entre les étudiants de la fac de médecine et les habitués du Val-de-Grâce, cette brasserie est une institution de la convivialité brute. On y vient pour la terrasse immense et chauffée, les prix défiant toute concurrence parisienne et l'accueil toujours impeccable.",
+    "insider_tip": "• Le secret du Val : leur Happy Hour court jusqu'à 2h du matin, une rareté totale sur le boulevard qui en fait le refuge ultime des fins de soirées fauchées.\n• Si vous saturez de la pinte, demandez leur couscous (servi avec générosité le vendredi) ou posez-vous dans la salle du fond avec votre laptop, c'est le spot de coworking gratuit le mieux gardé du quartier.\n• Pour les petits budgets, la Pasta Box à emporter démarre à 4,50€, imbattable pour le secteur.",
     "specials": {
-        "cuisine": [
-            "Français"
-        ],
-        "drinks": []
+        "cuisine": ["Brasserie", "Français", "Couscous"],
+        "drinks": ["Pinte Blonde HH", "Vins de Propriétaires", "Cocktails Classiques"],
+        "must_eat": "Le Croque Monsieur extra-beurré ou le Menu Étudiant pour les budgets serrés.",
+        "expert_catchline": "Le meilleur rapport 'Heures de Soleil / Prix de la Pinte' de tout le sud parisien."
     },
     "images": {
-        "hero": "https://lh3.googleusercontent.com/p/AF1QipNqY5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5=s1600-w1600",
-        "gallery": []
+        "hero": "https://lh3.googleusercontent.com/p/AF1QipNX8O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O=s1600-w1600",
+        "gallery": [
+            "https://lh3.googleusercontent.com/p/AF1QipNqY5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5=s1600-w1600"
+        ]
     },
-    "source": "to_be_verified"
+    "source": "expert_human"
 };

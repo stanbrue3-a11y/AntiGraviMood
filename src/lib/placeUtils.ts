@@ -2,20 +2,12 @@ import { Place, PlaceSkeleton } from '../types/model';
 import { PLACE_IMAGES_CAROUSEL, DEFAULT_IMAGES_CAROUSEL } from '../data/registry/media-config';
 import Constants from 'expo-constants';
 
-import { localImages, getPlaceImagesArray } from '../data/imagesMap';
-
 import { ImageSourcePropType } from 'react-native';
 
-// Fallback function: Prioritize LOCAL images first, then JSON hero_image, then Category fallback
+// Zero-Wait 2026: Remote-First image loading (URLs + BlurHash + Category Fallbacks)
 export const getPlaceImages = (p: Place | PlaceSkeleton) => {
-  const images: (ImageSourcePropType | string)[] = []; // Can be require() numbers or string URLs
+  const images: (ImageSourcePropType | string)[] = [];
   const GOOGLE_API_KEY = Constants.expoConfig?.extra?.googleMapsApiKey || '';
-
-  // 0. LOCAL Images (Zero Quota / High Speed)
-  const locals = getPlaceImagesArray(p.slug);
-  if (locals.length > 0) {
-    images.push(...locals);
-  }
 
   // 1. JSON Hero Image (User provided)
   if (p.media?.hero_image) {

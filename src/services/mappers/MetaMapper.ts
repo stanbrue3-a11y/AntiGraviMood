@@ -21,16 +21,35 @@ export class MetaMapper {
     const color = MOOD_PALETTE[mood] || MOOD_PALETTE.chill;
 
     const contextualCat = ContextualEngine.resolveContextualCategory(place, activeCategories);
-    const cat = contextualCat === place.category ? (place.subcategories?.[0] || place.category) : contextualCat;
-    const displayCategory = cat.charAt(0).toUpperCase() + cat.slice(1).replace('_', ' ');
+
+    // SMARTER CATEGORY: If primary is generic (restaurant/bar) but we have a more specific subcategory (Brasserie, Bistro, Cocktail Bar)
+    let displayCat = contextualCat;
+    if (contextualCat === place.category && (place.subcategories || []).length > 0) {
+      const topSub = place.subcategories![0];
+      // Only override if the subcategory is more "evocative" than the primary
+      if (!['restaurant', 'bar', 'café', 'club'].includes(topSub.toLowerCase())) {
+        displayCat = topSub;
+      }
+    }
+    const formattedCat = displayCat.charAt(0).toUpperCase() + displayCat.slice(1).replace('_', ' ');
+
+    // ROBUST ARRONDISSEMENT
+    let arr = 'Paris';
+    const rawArr = place.location.arrondissement;
+    if (rawArr) {
+      const arrNum = typeof rawArr === 'string' ? parseInt((rawArr as string).slice(-2)) : rawArr;
+      if (!isNaN(arrNum)) {
+        arr = arrNum === 1 ? '1er' : `${arrNum}e`;
+      }
+    }
 
     return {
       mood_label: mood,
       mood_color: color,
-      subtitle: `${displayCategory} • ${place.location.arrondissement}e`,
+      subtitle: `${formattedCat} • ${arr}`,
       tags: place.practical_info?.tags || [],
-      category_raw: displayCategory,
-      arrondissement_raw: place.location.arrondissement,
+      category_raw: formattedCat,
+      arrondissement_raw: typeof rawArr === 'number' ? rawArr : 75,
     };
   }
 

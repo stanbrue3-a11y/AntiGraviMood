@@ -71,6 +71,7 @@ export interface PlaceDetailViewModel {
     rating: number;
     ratingCount: number;
     primaryCategory: string;
+    subtitle: string;
     arrondissement: number;
     hasTerrasse: boolean;
     happyHour: { active: boolean; label: string; display: string } | null;
@@ -124,92 +125,11 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
   const hasActions = !!actionsView.primary || !!actionsView.instagram || badgesView.length > 0;
   const sections = buildLayout(place, !!pricingView, !!openingView, hasActions);
 
-  const getDrinkProfile = () => {
-    const subcats = place.subcategories || [];
-    const category = place.category;
-    const pricing = place.pricing;
-
-    const hhTime = place.practical_info?.happy_hour || pricing?.hh_time;
-    const hhContext = hhTime ? ` en Happy Hour (${hhTime})` : ' en Happy Hour';
-
-    const formatPrice = (hhPrice?: number | null, stdPrice?: number | null) => {
-      if (hhPrice) return `${hhPrice}€${hhContext}`;
-      if (stdPrice) return `${stdPrice}€`;
-      return null;
-    };
-
-    if (subcats.includes('bar-cocktail') || subcats.includes('speakeasy') || subcats.includes('cocktail-bar')) {
-      const priceStr = formatPrice(pricing?.hh_cocktail, pricing?.cocktail_price);
-      return {
-        icon: 'wine',
-        emoji: '🍸',
-        text: priceStr ? `Spécialité cocktails. Comptez ${priceStr} le verre.` : `Spécialité cocktails.`,
-      };
-    }
-    if (subcats.includes('bar-a-vin') || subcats.includes('wine-bar')) {
-      const priceStr = formatPrice(pricing?.hh_wine, pricing?.wine_glass);
-      return {
-        icon: 'wine',
-        emoji: '🍷',
-        text: priceStr ? `Bar à vin. Comptez ${priceStr} le verre.` : `Bar à vin. Belle sélection.`,
-      };
-    }
-    if (category === 'bar' && (pricing?.hh_pint || pricing?.pint_price)) {
-      const priceStr = formatPrice(pricing?.hh_pint, pricing?.pint_price);
-      return {
-        icon: 'beer',
-        emoji: '🍺',
-        text: `Ici ça se boit à la pinte. Comptez ${priceStr}.`,
-      };
-    }
-    if (category === 'café' || subcats.includes('coffee-shop')) {
-      const priceStr = formatPrice(null, pricing?.coffee_price);
-      return {
-        icon: 'cafe',
-        emoji: '☕',
-        text: priceStr ? `Café de qualité (${priceStr}).` : `Spot café et travail.`,
-      };
-    }
-    if (category === 'club' || subcats.includes('techno-club')) {
-      return {
-        icon: 'sparkles',
-        emoji: '🥂',
-        text: `Clubbing et DJ sets.`,
-      };
-    }
-    if (category === 'restaurant' && (pricing?.hh_pint || pricing?.pint_price)) {
-      const priceStr = formatPrice(pricing?.hh_pint, pricing?.pint_price);
-      return {
-        icon: 'restaurant',
-        emoji: '🍷',
-        text: `Bonne carte des vins et pinte à ${priceStr}.`,
-      };
-    }
-    return undefined;
-  };
-
-  const getEmbellishedCuisine = () => {
-    if (place.practical_info?.cuisine_type) return place.practical_info.cuisine_type;
-    const types = place.specials?.cuisine || [];
-    const subs = place.subcategories || [];
-    const mapping: Record<string, string> = {
-      Italien: 'Trattoria authentique & produits sourcés',
-      Français: 'Cuisine de terroir & Mémoire de quartier',
-      Bistro: 'Bistronomie vibrante & assiettes signatures',
-      Asiatique: "Saveurs d'Asie & fusion créative",
-      Japonais: 'Pépites nipponnes & art du produit',
-      'Street Food': 'Street food de haut vol & saveurs brutes',
-      Méditerranéen: 'Solaire & saveurs de la Méditerranée',
-    };
-    const primary = types[0];
-    if (primary && mapping[primary]) return mapping[primary];
-    if (subs.includes('bouillon')) return 'Bouillon classique & Cuisine de saison';
-    if (types.length === 0) return 'Cuisine de quartier & pépites de saison';
-    return types.join(' • ');
-  };
-
   const primaryColor = metaView.mood_color;
   const isDark = metaView.mood_color === 'dark';
+
+  const contextualCat = ContextualEngine.resolveContextualCategory(place, activeCategories);
+  const isBarContext = contextualCat === 'bar' || contextualCat === 'club';
 
   return {
     id: place.id,
@@ -222,46 +142,23 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
       rating: place.google_rating || 0,
       ratingCount: place.google_user_ratings_total || 0,
       primaryCategory: metaView.category_raw,
+      subtitle: metaView.subtitle,
       arrondissement: metaView.arrondissement_raw,
       hasTerrasse: metaView.tags.includes('terrasse'),
       happyHour: happyHourView || null,
     },
     pricing: pricingView,
     opening: openingView,
-    expertise: (place.real_talk || place.insider_tip) ? (() => {
-      const specials = place.specials;
-      const expertCatchline = specials?.expert_catchline;
-      const mustEat = specials?.must_eat || place.real_talk?.must_eat;
-      const contextualCat = ContextualEngine.resolveContextualCategory(place, activeCategories);
-      const isBarContext = contextualCat === 'bar' || contextualCat === 'club';
-      const drinkProfile = getDrinkProfile();
-      const enrichedCuisine = getEmbellishedCuisine();
-
-      let headline = '';
-      if (isBarContext) {
-        headline = drinkProfile?.text || expertCatchline || 'Une sélection pointue et un esprit de niche.';
-      } else {
-        if (expertCatchline && expertCatchline.length > 5) {
-          headline = expertCatchline;
-        } else if (mustEat && mustEat.length > 5) {
-          headline = mustEat;
-        } else {
-          const cuisineLine = (specials?.cuisine || []).join(' & ');
-          headline = cuisineLine.length > 3 ? `${cuisineLine} & Passion du produit.` : (enrichedCuisine || "Cuisine de terroir & Table d'exception.");
-        }
-      }
-
-      const showCuisineLabel = !isBarContext && !headline.includes(enrichedCuisine);
-
-      return {
-        type: isBarContext ? 'drink' : 'food' as 'food' | 'drink',
-        headline,
+    expertise: (place.real_talk || place.insider_tip)
+      ? {
+        type: isBarContext ? 'drink' : 'food',
+        headline: place.specials?.expert_catchline || place.specials?.must_eat || 'Expertise & Sélection.',
         insiderTip: place.insider_tip,
         leSecret: place.real_talk?.insider_tip,
         leSon: place.real_talk?.must_eat,
-        cuisineLabel: showCuisineLabel ? enrichedCuisine : undefined,
-      };
-    })() : null,
+        cuisineLabel: place.practical_info?.cuisine_type || (place.specials?.cuisine || []).join(' • ') || undefined,
+      }
+      : null,
     description: place.description || null,
     actions: {
       primary: actionsView.primary as any,

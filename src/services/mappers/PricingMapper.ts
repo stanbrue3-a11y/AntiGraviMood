@@ -35,7 +35,6 @@ export class PricingMapper {
     return {
       label: isActuallyHH ? `${info.label} (HH)` : info.label,
       price: priceLabel,
-      value: resolved.price,
       highlight: isActuallyHH,
       badge: isActuallyHH ? 'Happy Hour' : undefined,
       description: info.descriptionLabel,
@@ -55,40 +54,7 @@ export class PricingMapper {
     const metrics = CrabCalculator.getMetrics(pricing, drinkType);
     const anchor = this.getSmartAnchor(pricing, { ...place, pricing }, activeCategories);
 
-    // --- AUTO MENU ---
     let menu = pricing.menu_items || [];
-    if (!menu || menu.length === 0) {
-      const essentials = [];
-      if (pricing.pint_price) essentials.push({ name: 'Pinte', price: `${pricing.pint_price}€` });
-      if (pricing.wine_glass)
-        essentials.push({ name: 'Verre de vin', price: `${pricing.wine_glass}€` });
-      if (pricing.cocktail_price)
-        essentials.push({ name: 'Cocktail', price: `${pricing.cocktail_price}€` });
-      if (pricing.coffee_price)
-        essentials.push({ name: 'Café', price: `${pricing.coffee_price}€` });
-      if (pricing.dish_price) essentials.push({ name: 'Plat', price: `${pricing.dish_price}€` });
-      if (pricing.shot_price) essentials.push({ name: 'Shot', price: `${pricing.shot_price}€` });
-      if (pricing.soft_price) essentials.push({ name: 'Soft', price: `${pricing.soft_price}€` });
-      if (pricing.planche_price)
-        essentials.push({ name: 'Planche', price: `${pricing.planche_price}€` });
-
-      const categories = [];
-      if (essentials.length > 0) categories.push({ category: 'Les Essentiels', items: essentials });
-
-      // Happy Hour section
-      const hhItems = [];
-      if (pricing.hh_pint) hhItems.push({ name: 'Pinte HH', price: `${pricing.hh_pint}€` });
-      if (pricing.hh_cocktail)
-        hhItems.push({ name: 'Cocktail HH', price: `${pricing.hh_cocktail}€` });
-      if (pricing.hh_wine) hhItems.push({ name: 'Verre HH', price: `${pricing.hh_wine}€` });
-      if (hhItems.length > 0)
-        categories.push({
-          category: `Happy Hour${pricing.hh_time ? ` (${pricing.hh_time})` : ''}`,
-          items: hhItems,
-        });
-
-      if (categories.length > 0) menu = categories;
-    }
 
     // --- LEVEL: based on CrabCalculator deviation, not raw price ---
     let level: 1 | 2 | 3 | 4;
@@ -112,33 +78,10 @@ export class PricingMapper {
 
     const sign = metrics.deviationPercent > 0 ? '+' : '';
 
-    // --- AUTO-INJECTION OF ESSENTIALS (Standard 2026: No Technical Laziness) ---
-    const isBarContext = drinkType === 'pint' || drinkType === 'cocktail' || drinkType === 'wine';
-    const menuFlatNames = (menu || []).flatMap(cat => cat.items.map(i => i.name.toLowerCase()));
-
-    if (isBarContext && menu && menu.length > 0) {
-      const injectedItems = [];
-
-      // Inject Pinte if missing and exists in data
-      if (pricing.hh_pint && !menuFlatNames.some(n => n.includes('pinte') || n.includes('bière'))) {
-        injectedItems.push({ name: `Pinte (HH)`, price: `${pricing.hh_pint}€`, description: 'Prix de référence Happy Hour' });
-      } else if (pricing.pint_price && !menuFlatNames.some(n => n.includes('pinte') || n.includes('bière'))) {
-        injectedItems.push({ name: `Pinte`, price: `${pricing.pint_price}€` });
-      }
-
-      // Inject Cocktail if missing
-      if (pricing.hh_cocktail && !menuFlatNames.some(n => n.includes('cocktail'))) {
-        injectedItems.push({ name: `Cocktail (HH)`, price: `${pricing.hh_cocktail}€` });
-      }
-
-      // If we found missing essentials, inject them at the top
-      if (injectedItems.length > 0) {
-        menu = [{ category: 'Les Incontournables Bar', items: injectedItems }, ...menu];
-      }
-    }
 
     // --- CONTEXTUAL SORTING (Standard Industriel 2026) ---
     if (menu && menu.length > 1) {
+      const isBarContext = drinkType === 'pint' || drinkType === 'cocktail' || drinkType === 'wine';
       menu = [...menu].sort((a, b) => {
         const catA = a.category.toLowerCase();
         const catB = b.category.toLowerCase();

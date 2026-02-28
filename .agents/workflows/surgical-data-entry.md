@@ -124,14 +124,30 @@ https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=[
 ```
 - **JAMAIS** d'image Unsplash générique
 
+### 4. RÈGLE DE L'EXHAUSTIVITÉ (ANTI-FLÈMME)
+> **Si un menu est trouvé (site web, instagram, ou photo de la carte), il est INTERDIT de le résumer.**
+> Chaque item doit être saisi avec son prix exact. Si le menu a 50 items, on saisit 50 items.
+> L'IA ne doit jamais tronquer la donnée par "gain de temps". La complétude est la priorité.
+
+### 5. HIÉRARCHIE DES SOURCES (DOUBLE-CHECK)
+> 1. **SOURCE N°1 (Vérité)** : Menu officiel (Site, Instagram récent, Photo de -3 mois).
+> 2. **SOURCE N°2 (Fiabilité)** : Sites spécialisés (MisterGoodBeer, Schlouk, Privateaser).
+> 3. **SOURCE N°3 (Indice)** : Avis Google.
+> **Note** : Un avis Google ne peut plus invalider une source spécialisée sans une preuve visuelle jointe. Si un avis contredit un prix d'annuaire, on garde le prix d'annuaire par défaut sauf certitude absolue du contraire.
+
+### 6. LE DEEP-LINK OBLIGATOIRE
+> - Interdiction de valider une fiche sans `instagram_handle` ou `website` si le lieu est présent sur le web.
+> - Si le lien est caché (bouton icône sans texte), l'agent DOIT explorer le DOM ou naviguer pour trouver l'URL finale.
+
 ---
 
-## PHASE 3 — INTÉGRATION TECHNIQUE
+## PHASE 3 — INSTALLATION TECHNIQUE & SOURCING
 
 1. Créer le fichier `.ts` dans `src/data/registry/tree/[arrondissement]/[metro-slug]/[place-slug].ts`
-2. Ajouter l'import et l'entrée dans `src/data/registry/tree/[arrondissement]/index.ts`
-3. Compiler : `npx tsx scripts/compile_registry.ts` ← auto-hash, auto-manifest, auto-cleanup
-4. Relancer Metro : `npx expo start -c --dev-client --lan`
+2. **SOURCING TRANSPARENT** : Chaque bloc de données (Pricing, Menu, Practical) doit avoir un commentaire `// SOURCE: [URL/Source]` précisant l'origine et la date de vérification.
+3. Ajouter l'import dans `index.ts`.
+4. Compiler : `npx tsx scripts/compile_registry.ts` ← auto-hash, auto-manifest, auto-cleanup
+5. Relancer Metro : `npx expo start -c --dev-client --lan`
 
 > Plus de bump de version manuel. Le hash SHA-256 est généré automatiquement.
 

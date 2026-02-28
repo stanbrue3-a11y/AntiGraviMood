@@ -25,6 +25,8 @@ import { le_perchoir_menilmontant } from './m-nilmontant/le-perchoir-menilmontan
 import { dirty_lemon } from './saint-ambroise/dirty-lemon';
 import { atelier_lumieres } from './voltaire/atelier-lumieres';
 import { soumsoum_voltaire } from './voltaire/soumsoum-voltaire';
+import { le_centenaire } from './--proximit-/le-centenaire';
+import { le_grand_breguet } from './--proximit-/le-grand-breguet';
 
 export const arrondissement_11Places: SurgicalPlace[] = [
     bambino,
@@ -52,5 +54,7 @@ export const arrondissement_11Places: SurgicalPlace[] = [
     le_perchoir_menilmontant,
     dirty_lemon,
     atelier_lumieres,
-    soumsoum_voltaire
+    soumsoum_voltaire,
+    le_centenaire,
+    le_grand_breguet
 ];
