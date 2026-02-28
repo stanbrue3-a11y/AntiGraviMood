@@ -22,8 +22,10 @@ export const le_nouvel_institut: SurgicalPlace = {
         accessibility: true,
         wifi: true,
         opening_hours_raw: "Lundi au Dimanche: 08h00-02h00\nService continu 12h00-23h00",
-        action_type: "site",
-        action_url: "https://lenouvelinstitut.com/",
+        main_action: {
+            type: "site",
+            url: "https://lenouvelinstitut.com/"
+        },
         cuisine_type: "Bar Brasserie Étudiant",
         terrace: true
     },

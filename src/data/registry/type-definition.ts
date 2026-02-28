@@ -53,9 +53,13 @@ export interface PracticalInfo {
     terrace?: boolean;
     opening_hours_raw: string; // "Lundi: 10h-20h..."
 
-    // Actions
-    action_type?: 'book' | 'shotgun' | 'site';
-    action_url?: string;
+    // Actions (Industrial 2026 Standard) 🧬
+    main_action?: {
+        type: 'book' | 'shotgun' | 'site';
+        url: string;
+        label?: string; // e.g. "RÉSERVER", "SHOTGUN"
+    };
+    menu_url?: string; // Direct link to PDF/Menu page
     cuisine_type?: string;
     price_info?: {
         smart_tip?: string;

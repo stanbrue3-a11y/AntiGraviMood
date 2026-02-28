@@ -44,7 +44,7 @@ export const PlaceHero = React.memo(() => {
             style={StyleSheet.absoluteFill}
             contentFit="cover"
             transition={null}
-            cachePolicy="memory-disk"
+            cachePolicy="disk"
             priority="high"
           />
         ) : (

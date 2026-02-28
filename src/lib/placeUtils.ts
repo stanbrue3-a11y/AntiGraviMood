@@ -18,21 +18,33 @@ export const getPlaceImages = (p: Place | PlaceSkeleton) => {
   }
 
   // 1. JSON Hero Image (User provided)
-  if (p.media?.hero_image && p.media.hero_image.startsWith('http')) {
-    if (!images.includes(p.media.hero_image)) {
-      images.push(p.media.hero_image);
+  if (p.media?.hero_image) {
+    const heroRef = p.media.hero_image as string;
+    let heroUrl = heroRef;
+    // If it's a raw reference (no http) and looks like a Google token
+    if (!heroRef.startsWith('http') && heroRef.length > 20) {
+      heroUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=${heroRef}&key=${GOOGLE_API_KEY}`;
+    }
+    if (!images.includes(heroUrl)) {
+      images.push(heroUrl);
     }
   }
 
   // 2. Google Places API (Only for full Places, skeletons stick to hero/local)
   const googlePhotos = (p.media as Record<string, unknown>)?.google_photos as string[] | undefined;
   if (images.length < 5 && googlePhotos && googlePhotos.length > 0) {
-    const localCount = locals.length;
-    const remainingPhotos = googlePhotos.slice(localCount, localCount + (5 - images.length));
+    const remaining = 5 - images.length;
+    const photosToAdd = googlePhotos.slice(0, remaining);
 
-    remainingPhotos.forEach((photoRef: string) => {
-      const url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photoRef}&key=${GOOGLE_API_KEY}`;
-      images.push(url);
+    photosToAdd.forEach((photo: string) => {
+      // If it's already a full URL (from compile), use it directly
+      if (photo.startsWith('http')) {
+        if (!images.includes(photo)) images.push(photo);
+      } else {
+        // It's a raw photo_reference, build the URL
+        const url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photo}&key=${GOOGLE_API_KEY}`;
+        images.push(url);
+      }
     });
   }
 

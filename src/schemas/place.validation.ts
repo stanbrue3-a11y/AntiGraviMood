@@ -191,8 +191,12 @@ export const SurgicalPlaceSchema = z.object({
       accessibility: z.boolean().default(false),
       wifi: z.boolean().default(false),
       opening_hours_raw: z.string(),
-      action_type: z.enum(['book', 'shotgun', 'site']).optional(),
-      action_url: z.string().optional().nullable(),
+      main_action: z.object({
+        type: z.enum(['book', 'shotgun', 'site']),
+        url: z.string().url(),
+        label: z.string().optional(),
+      }).optional(),
+      menu_url: z.string().url().optional().nullable(),
       terrace: z.boolean().optional(),
       cuisine_type: z.string().optional().nullable(),
     })

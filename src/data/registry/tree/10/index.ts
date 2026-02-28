@@ -12,6 +12,7 @@ import { ten_belles } from './goncourt---jacques-bonsergent/ten-belles';
 import { gravity_bar } from './jacques-bonsergent/gravity-bar';
 import { point_ephemere } from './louis-blanc/point-ephemere';
 import { bouillon_julien } from './strasbourg---saint-denis/bouillon-julien';
+import { l_attirail_cafe } from './strasbourg---saint-denis/l-attirail-cafe';
 import { mauri_7 } from './strasbourg---saint-denis/mauri-7';
 
 export const arrondissement_10Places: SurgicalPlace[] = [
@@ -28,5 +29,6 @@ export const arrondissement_10Places: SurgicalPlace[] = [
     gravity_bar,
     point_ephemere,
     bouillon_julien,
+    l_attirail_cafe,
     mauri_7
 ];

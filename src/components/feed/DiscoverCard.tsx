@@ -131,6 +131,7 @@ export const DiscoverCard = React.memo(
                 style={[styles.image, { opacity: imageLoaded ? 1 : 0 }]}
                 contentFit="cover"
                 transition={300} // Restored 300ms
+                cachePolicy="disk"
                 recyclingKey={place.id}
                 onLoad={() => setImageLoaded(true)}
               />

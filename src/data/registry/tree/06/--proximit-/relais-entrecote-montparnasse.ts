@@ -22,8 +22,10 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
         accessibility: true,
         wifi: false,
         opening_hours_raw: "Lundi au Dimanche: 12h00-14h30, 19h00-23h00",
-        action_type: "site",
-        action_url: "https://www.relaisdelentrecote.com/",
+        main_action: {
+            type: "site",
+            url: "https://www.relaisdelentrecote.com/"
+        },
         cuisine_type: "Viande & Frites",
         terrace: true
     },

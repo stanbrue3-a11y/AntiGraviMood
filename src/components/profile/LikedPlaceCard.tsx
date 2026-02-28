@@ -27,9 +27,9 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
   // Decorate with 2026 Pricing View Model 🖼️
   const pricingView = place.pricing
     ? PricingMapper.mapPricingView(place.pricing, {
-        category: place.category,
-        subcategories: place.subcategories || [],
-      })
+      category: place.category,
+      subcategories: place.subcategories || [],
+    })
     : undefined;
 
   return (
@@ -40,7 +40,7 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
         router.push({ pathname: '/place/[id]', params: { id: place.id } });
       }}
     >
-      <Image source={imageUri} style={styles.image} contentFit="cover" transition={200} />
+      <Image source={imageUri} style={styles.image} contentFit="cover" transition={200} cachePolicy="disk" />
       <LinearGradient colors={['transparent', 'rgba(0,0,0,0.6)']} style={styles.gradient} />
 
       <View style={styles.badge}>

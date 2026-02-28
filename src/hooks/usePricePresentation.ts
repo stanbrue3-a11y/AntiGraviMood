@@ -23,10 +23,10 @@ export const usePricePresentation = (view?: PricingView) => {
   };
 
   const level = view?.level ?? 2;
-  const barFillPercent = Math.min(level * 25, 100);
-  const color = getLevelColor(level);
-  const label = getLevelLabel(level);
-  const isFree = view?.avg_price === 0;
+  const barFillPercent = view?.fill_percent ?? Math.min(level * 25, 100);
+  const color = view?.color ?? getLevelColor(level);
+  const label = view?.pince_label ?? getLevelLabel(level);
+  const isFree = view?.index_price === 0;
 
   // Track Alpha for background transparency (10% approx)
   const trackAlpha = color.startsWith('#') ? `${color}18` : 'rgba(128, 128, 128, 0.1)';

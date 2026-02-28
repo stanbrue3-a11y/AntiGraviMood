@@ -4,7 +4,7 @@ import {
   resolveDrinkType,
   resolveReferencePrice,
   getDrinkTypeInfo,
-  BENCHMARKS,
+  getHHDuration,
 } from '../../lib/drinkTypeResolver';
 import { isHappyHourActive } from '../../lib/timeUtils';
 
@@ -17,32 +17,29 @@ export class PricingMapper {
     pricing: Pricing,
     place: Pick<Place, 'category' | 'subcategories' | 'pricing'>,
     activeCategories: string[] = []
-  ): { price: string; label: string; highlight: boolean; badge?: string } {
+  ): { price: string; label: string; highlight: boolean; badge?: string; description?: string } {
     const drinkType = resolveDrinkType(place.category, place.subcategories || [], activeCategories);
     const resolved = resolveReferencePrice(pricing, drinkType);
     const info = getDrinkTypeInfo(resolved.type);
 
-    // SMARTEST PRICE (Standard Industriel 2026)
-    // Rule: If we are in "bar" mode and have a HH price that covers the main usage or is mentioned as permanent
-    const isBarContext = drinkType === 'pint' || drinkType === 'cocktail' || drinkType === 'wine';
+    const isLongHH = getHHDuration(pricing.hh_time ?? undefined) > 3;
+    const priceLabel = resolved.price > 0 ? `${resolved.price}€` : '-';
 
-    if (isBarContext) {
-      if (resolved.type === 'pint' && pricing.hh_pint) {
-        return { price: `${pricing.hh_pint}€`, label: 'Pinte (HH)', highlight: true, badge: 'PRIX COOL' };
-      }
-      if (resolved.type === 'cocktail' && pricing.hh_cocktail) {
-        return { price: `${pricing.hh_cocktail}€`, label: 'Cocktail (HH)', highlight: true, badge: 'PRIX COOL' };
-      }
-      if (resolved.type === 'wine' && pricing.hh_wine) {
-        return { price: `${pricing.hh_wine}€`, label: 'Verre (HH)', highlight: true, badge: 'PRIX COOL' };
-      }
-    }
+    // Logic: If it's a long HH and the price we found matches the HH price for that drink type
+    const isActuallyHH = isLongHH && (
+      (resolved.type === 'pint' && resolved.price === pricing.hh_pint) ||
+      (resolved.type === 'cocktail' && resolved.price === pricing.hh_cocktail) ||
+      (resolved.type === 'wine' && resolved.price === pricing.hh_wine)
+    );
 
-    if (resolved.price > 0) {
-      return { price: `${resolved.price}€`, label: info.label, highlight: false };
-    }
-
-    return { price: 'N/A', label: 'Prix', highlight: false };
+    return {
+      label: isActuallyHH ? `${info.label} (HH)` : info.label,
+      price: priceLabel,
+      value: resolved.price,
+      highlight: isActuallyHH,
+      badge: isActuallyHH ? 'Happy Hour' : undefined,
+      description: info.descriptionLabel,
+    };
   }
 
   static mapPricingView(
@@ -95,6 +92,7 @@ export class PricingMapper {
 
     // --- LEVEL: based on CrabCalculator deviation, not raw price ---
     let level: 1 | 2 | 3 | 4;
+    // We use the continuous percent from metrics
     if (metrics.percent <= 35)
       level = 1; // Cheap relative to benchmark
     else if (metrics.percent <= 65)
@@ -140,25 +138,21 @@ export class PricingMapper {
     }
 
     // --- CONTEXTUAL SORTING (Standard Industriel 2026) ---
-
     if (menu && menu.length > 1) {
       menu = [...menu].sort((a, b) => {
         const catA = a.category.toLowerCase();
         const catB = b.category.toLowerCase();
 
-        // Keywords for bar prioritization
-        const barKeywords = ['bar', 'drink', 'boisson', 'vin', 'cocktail', 'pint', 'happy hour', 'hh'];
-        // Keywords for food prioritization
-        const foodKeywords = ['plat', 'cuisine', 'entrée', 'dessert', 'food', 'snack', 'planche', 'resto'];
+        const barKeywords = ['bar', 'drink', 'boisson', 'vin', 'cocktail', 'pint', 'happy hour', 'hh', 'champagne', 'bière', 'pression'];
+        const foodKeywords = ['plat', 'cuisine', 'entrée', 'dessert', 'food', 'snack', 'planche', 'resto', 'pâtes', 'burger', 'italien', 'bistrot', 'suggestion'];
 
         if (isBarContext) {
-          const scoreA = barKeywords.some(kw => catA.includes(kw)) ? 1 : 0;
-          const scoreB = barKeywords.some(kw => catB.includes(kw)) ? 1 : 0;
+          const scoreA = barKeywords.some(kw => catA.includes(kw)) ? 2 : (foodKeywords.some(kw => catA.includes(kw)) ? -1 : 0);
+          const scoreB = barKeywords.some(kw => catB.includes(kw)) ? 2 : (foodKeywords.some(kw => catB.includes(kw)) ? -1 : 0);
           return scoreB - scoreA;
         } else {
-          // Food context (Restaurant)
-          const scoreA = foodKeywords.some(kw => catA.includes(kw)) ? 1 : 0;
-          const scoreB = foodKeywords.some(kw => catB.includes(kw)) ? 1 : 0;
+          const scoreA = foodKeywords.some(kw => catA.includes(kw)) ? 2 : (barKeywords.some(kw => catA.includes(kw)) ? -1 : 0);
+          const scoreB = foodKeywords.some(kw => catB.includes(kw)) ? 2 : (barKeywords.some(kw => catB.includes(kw)) ? -1 : 0);
           return scoreB - scoreA;
         }
       });
@@ -168,6 +162,8 @@ export class PricingMapper {
       avg_price: resolved.price,
       index_price: resolved.price,
       level,
+      fill_percent: metrics.percent,
+      color: metrics.color,
       smart_tip: pricing.smart_tip,
       pince_label: metrics.label,
       hh_pint: pricing.hh_pint,
@@ -185,7 +181,7 @@ export class PricingMapper {
         value: parseFloat(anchor.price.replace('€', '')) || 0,
         highlight: anchor.highlight,
         badge: anchor.badge,
-        description: getDescription(),
+        description: anchor.description || getDescription(),
       },
       confidence: CrabCalculator.getConfidenceMetrics(pricing.last_updated),
       menu,

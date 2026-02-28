@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 
 // CRITICAL: dotenv MUST load before any registry imports.
 // ES `import` is hoisted above require(), so we use require() for the registry.
@@ -7,9 +8,11 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 import { SurgicalPlace } from '../src/data/registry/type-definition';
 import { SurgicalPlaceSchema } from '../src/schemas/place.validation';
+import { OpeningHours } from '../src/lib/timeUtils';
+import { resolveDrinkType, getReferencePrice } from '../src/lib/drinkTypeResolver';
 const allPlaces: SurgicalPlace[] = require('../src/data/registry/index').default;
 
-const OUTPUT_PATH = path.join(__dirname, '../assets/moodmap_v47.sql');
+const OUTPUT_PATH = path.join(__dirname, '../assets/moodmap_current.sql');
 if (fs.existsSync(OUTPUT_PATH)) fs.unlinkSync(OUTPUT_PATH);
 
 /**
@@ -71,6 +74,7 @@ CREATE TABLE IF NOT EXISTS places (
     editorial_json TEXT,
     pricing_json TEXT,
     media_json TEXT,
+    google_photos_json TEXT,
     ai_insights_json TEXT,
     real_talk_json TEXT,
     description TEXT,
@@ -112,20 +116,27 @@ CREATE INDEX IF NOT EXISTS idx_places_percentile ON places(category_percentile);
  * This is what the price slider filters on.
  */
 function getNormalizedPrice(p: SurgicalPlace): number {
-  const sub = p.subcategory.join(' ').toLowerCase();
-  const isWineBar = sub.includes('vin') || sub.includes('cave') || sub.includes('nature');
-  const isCocktailBar =
-    sub.includes('cocktail') ||
-    sub.includes('speakeasy') ||
-    sub.includes('mixo') ||
-    sub.includes('palace');
+  const drinkType = resolveDrinkType(p.category, p.subcategory);
+  return getReferencePrice(p.pricing, drinkType) || 0;
+}
 
-  if (isWineBar && p.pricing.wine_glass) return p.pricing.wine_glass;
-  if (isCocktailBar && p.pricing.cocktail_price) return p.pricing.cocktail_price;
-  if (p.pricing.pint_price) return p.pricing.pint_price;
-  if (p.pricing.wine_glass) return p.pricing.wine_glass;
-  if (p.pricing.cocktail_price) return p.pricing.cocktail_price;
-  return p.pricing.index_price || p.pricing.dish_price || 0;
+/**
+ * PHOTO REFERENCE EXTRACTOR 📸
+ * Strips the API Key and only keeps the raw ID to secure the database payload.
+ */
+function extractPhotoReference(url: string | undefined): string | null {
+  if (!url) return null;
+  const match = url.match(/photo_reference=([^&]+)/);
+  if (match) return match[1];
+  return url; // Return original if it's not a Google API URL
+}
+
+function processImagesForDB(images: any) {
+  if (!images) return null;
+  // IMPORTANT: Do NOT strip URLs. The full URLs (with API key) are needed
+  // because the runtime (placeUtils.ts) has no googleMapsApiKey configured.
+  // This matches the working v47 behavior.
+  return { ...images };
 }
 
 /**
@@ -214,16 +225,17 @@ allPlaces.forEach((p, index) => {
     valueOrNull(p.google_rating || 0),
     valueOrNull(0), // user_ratings_total
 
-    valueOrNull(p.images.hero),
+    valueOrNull(processImagesForDB(p.images)?.hero),
     valueOrNull(p.instagram_handle),
 
     valueOrNull(getNormalizedPrice(p)), // budget_avg = normalized reference price
     valueOrNull(p.pricing.is_free),
     valueOrNull('€'), // budget_unit
 
-    valueOrNull(p.pricing.pint_price),
-    valueOrNull(p.pricing.cocktail_price),
-    valueOrNull(p.pricing.wine_glass),
+    // EFFECTIVE PRICES FOR FILTERING (Uses HH if > 3h via centralized resolver)
+    valueOrNull(getReferencePrice(p.pricing, 'pint')),
+    valueOrNull(getReferencePrice(p.pricing, 'cocktail')),
+    valueOrNull(getReferencePrice(p.pricing, 'wine')),
     valueOrNull(p.pricing.coffee_price),
     valueOrNull(p.pricing.dish_price),
 
@@ -257,7 +269,8 @@ allPlaces.forEach((p, index) => {
       wine_hh: p.pricing.hh_wine,
       hh_time: p.pricing.hh_time,
     }),
-    jsonValue(p.images), // media_json
+    jsonValue(processImagesForDB(p.images)), // media_json
+    jsonValue(processImagesForDB(p.images)?.gallery || []), // google_photos_json
     jsonValue(null), // ai_insights
     jsonValue({
       insider_tip: p.insider_tip,
@@ -300,19 +313,43 @@ if (errorCount > 0) {
 fs.writeFileSync(OUTPUT_PATH, sqlOutput);
 console.log(`✅ [DaC] Successfully generated init.sql with ${allPlaces.length} places.`);
 
-// 4. BINARY PACKAGING (The Missing Link) 📦
-const DB_PATH = './assets/moodmap_v47.db';
+// 4. BINARY PACKAGING — Auto-Hash Versioning 📦
+const DB_PATH = './assets/moodmap.db';
+const MANIFEST_PATH = './assets/db_manifest.json';
 console.log('📦 [DaC] Packaging into SQLite Binary...');
 
 try {
-  if (fs.existsSync(DB_PATH)) {
-    fs.unlinkSync(DB_PATH); // Delete old DB
+  // Clean up old versioned DB files (moodmap_v47.db, moodmap_v51.db, etc.)
+  const assetsDir = './assets';
+  const oldDbFiles = fs.readdirSync(assetsDir).filter(f => /^moodmap_v\d+\.db$/.test(f));
+  if (oldDbFiles.length > 0) {
+    oldDbFiles.forEach(f => {
+      fs.unlinkSync(`${assetsDir}/${f}`);
+      console.log(`🗑️  [DaC] Purged old DB: ${f}`);
+    });
   }
 
-  // Use system sqlite3 to build the DB from SQL
+  if (fs.existsSync(DB_PATH)) {
+    fs.unlinkSync(DB_PATH);
+  }
+
+  // Build the DB from SQL
   require('child_process').execSync(`sqlite3 "${DB_PATH}" < "${OUTPUT_PATH}"`);
-  console.log(`🚀 [DaC] moodmap_current.db regenerated successfully! (${allPlaces.length} places)`);
+
+  // Generate SHA-256 hash of the compiled DB
+  const dbBuffer = fs.readFileSync(DB_PATH);
+  const hash = crypto.createHash('sha256').update(dbBuffer).digest('hex').slice(0, 16);
+
+  // Write manifest
+  const manifest = {
+    hash,
+    places_count: allPlaces.length,
+    compiled_at: new Date().toISOString()
+  };
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
+
+  console.log(`🚀 [DaC] moodmap.db regenerated successfully!`);
+  console.log(`   📊 ${allPlaces.length} places | 🔑 hash: ${hash}`);
 } catch (e) {
   console.error('❌ [DaC] Failed to package DB:', e);
-  // Fallback: If sqlite3 is not in PATH, user must do it manually, but on Mac it should be there.
 }

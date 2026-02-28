@@ -22,8 +22,10 @@ export const sir_winston: SurgicalPlace = {
         accessibility: true,
         wifi: true,
         opening_hours_raw: "Lundi au Dimanche: 08h00-02h00",
-        action_type: "site",
-        action_url: "https://www.sirwinston.fr/",
+        main_action: {
+            type: "site",
+            url: "https://www.sirwinston.fr/"
+        },
         cuisine_type: "Pub Anglo-Indien",
         terrace: true
     },

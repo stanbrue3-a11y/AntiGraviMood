@@ -29,6 +29,8 @@ export interface PricingView {
   avg_price?: number;
   index_price: number; // Factual price of the representative item (Pint, Coffee, Dish)
   level: 1 | 2 | 3 | 4;
+  fill_percent: number; // Continuous 0-100 for the bar
+  color: string; // The specific color from CrabCalculator
   hh_pint?: number;
   hh_cocktail?: number;
   hh_wine?: number;

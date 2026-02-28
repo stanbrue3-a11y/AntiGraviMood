@@ -89,15 +89,8 @@ const PricingSection = React.memo(() => {
 
   const pricingView = viewModel.pricing;
 
-  const getLevelColor = (l: number) => {
-    if (l === 1) return '#22C55E';
-    if (l === 2) return '#F59E0B';
-    if (l === 3) return '#EF4444';
-    return '#A855F7';
-  };
-  const level = pricingView.level || 2;
-  const pillColor = getLevelColor(level);
-  const pillPercent = Math.min(level * 25, 100);
+  const pillColor = pricingView.color;
+  const pillPercent = pricingView.fill_percent;
 
   return (
     <View style={sectionStyles.scrollPadding}>

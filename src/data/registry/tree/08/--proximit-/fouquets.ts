@@ -22,8 +22,10 @@ export const fouquets: SurgicalPlace = {
         accessibility: true,
         wifi: true,
         opening_hours_raw: "Lundi au Dimanche: 07h30-01h00",
-        action_type: "book",
-        action_url: "https://www.hotelsbarriere.com/fr/paris/le-fouquets.html",
+        main_action: {
+            type: "book",
+            url: "https://www.hotelsbarriere.com/fr/paris/le-fouquets.html"
+        },
         cuisine_type: "Haute Brasserie"
     },
     pricing: {

@@ -24,6 +24,7 @@ import { mokonuts } from './faidherbe-chaligny/mokonuts';
 import { le_perchoir_menilmontant } from './m-nilmontant/le-perchoir-menilmontant';
 import { dirty_lemon } from './saint-ambroise/dirty-lemon';
 import { atelier_lumieres } from './voltaire/atelier-lumieres';
+import { soumsoum_voltaire } from './voltaire/soumsoum-voltaire';
 
 export const arrondissement_11Places: SurgicalPlace[] = [
     bambino,
@@ -50,5 +51,6 @@ export const arrondissement_11Places: SurgicalPlace[] = [
     mokonuts,
     le_perchoir_menilmontant,
     dirty_lemon,
-    atelier_lumieres
+    atelier_lumieres,
+    soumsoum_voltaire
 ];

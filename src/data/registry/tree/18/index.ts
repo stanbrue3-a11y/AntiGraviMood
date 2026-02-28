@@ -7,6 +7,7 @@ import { le_hasard_ludique } from './--proximit-/le-hasard-ludique';
 import { le_tres_particulier } from './--proximit-/le-tres-particulier';
 import { musee_de_montmartre } from './--proximit-/musee-de-montmartre';
 import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
+import { la_marmite } from './pigalle/la-marmite';
 
 export const arrondissement_18Places: SurgicalPlace[] = [
     bouillon_pigalle,
@@ -16,5 +17,6 @@ export const arrondissement_18Places: SurgicalPlace[] = [
     le_hasard_ludique,
     le_tres_particulier,
     musee_de_montmartre,
-    cafe_lomi
+    cafe_lomi,
+    la_marmite
 ];

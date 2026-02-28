@@ -54,13 +54,11 @@ export class MetaMapper {
 
     const mainAction = place.practical_info?.main_action;
     if (mainAction) {
-      const typeCast =
-        mainAction.type === 'shotgun' || mainAction.type === 'book' ? mainAction.type : 'site';
       actions.primary = {
-        type: typeCast,
+        type: mainAction.type,
         url: mainAction.url,
-        label: mainAction.label?.toUpperCase() || 'SITE WEB',
-        icon: typeCast === 'shotgun' ? 'flash' : typeCast === 'book' ? 'calendar' : 'globe',
+        label: mainAction.label?.toUpperCase() || (mainAction.type === 'book' ? 'RÉSERVER' : mainAction.type === 'shotgun' ? 'SHOTGUN' : 'SITE WEB'),
+        icon: mainAction.type === 'shotgun' ? 'flash' : mainAction.type === 'book' ? 'calendar' : 'globe',
       };
     }
 

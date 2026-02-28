@@ -22,43 +22,65 @@ export const bouillon_montparnasse: SurgicalPlace = {
         accessibility: true,
         wifi: false,
         opening_hours_raw: "Lundi au Dimanche: 11h30-00h00",
-        action_type: "site",
-        action_url: "https://www.bouillon-chartier.com/montparnasse/",
+        main_action: {
+            type: "site",
+            url: "https://www.bouillon-chartier.com/montparnasse/"
+        },
         cuisine_type: "Bouillon Traditionnel"
     },
     pricing: {
         is_free: false,
         index_price: 15,
         primary_price_type: "dish",
-        wine_glass: 3,
-        coffee_price: 2,
-        dish_price: 13,
+        wine_glass: 3.50,
+        coffee_price: 2.20,
+        dish_price: 13.20,
+        soft_price: 3.80,
         menu_items: [
             {
-                category: "Entrées",
+                category: "Les Entrées du Moment",
                 items: [
-                    { name: "L'Œuf mayonnaise", price: "2.20€", description: "L'incontournable classique" },
-                    { name: "Céleri Rémoulade", price: "3.00€" },
-                    { name: "Poireaux vinaigrette", price: "3.50€" }
+                    { name: "Œuf dur mayonnaise", price: "2.50€", description: "L'institution nationale (Championnat du monde)" },
+                    { name: "Céleri Rémoulade", price: "3.20€" },
+                    { name: "Poireaux vinaigrette", price: "3.80€" },
+                    { name: "Filet de hareng pommes à l'huile", price: "4.50€" },
+                    { name: "Pâté de campagne maison", price: "4.20€" }
                 ]
             },
             {
-                category: "Plats",
+                category: "Les Plats de Tradition",
                 items: [
-                    { name: "Saucisse au couteau, purée", price: "9.60€" },
-                    { name: "Poulet rôti frites", price: "12.50€" },
-                    { name: "Daurade royale au four", price: "14.50€", description: "Bouillon de légumes" }
+                    { name: "Saucisse au couteau, purée maison", price: "9.80€" },
+                    { name: "Poulet rôti, frites fraîches", price: "12.80€" },
+                    { name: "Pièce du boucher sauce poivre, frites", price: "13.20€", description: "Le choix des gourmets" },
+                    { name: "Daurade royale au four", price: "14.80€" },
+                    { name: "Confit de canard, pommes grenailles", price: "14.20€" },
+                    { name: "Tête de veau sauce gribiche", price: "12.50€" }
                 ]
             },
             {
-                category: "Desserts",
+                category: "Fromages & Desserts",
                 items: [
-                    { name: "Chou glacé à la vanille", price: "3.80€", description: "Nappage chocolat chaud" },
-                    { name: "Mousse au chocolat", price: "3.50€", description: "Fait maison" }
+                    { name: "Camembert 'Le Châtelain' portion", price: "3.20€" },
+                    { name: "Chou glacé vanille, chocolat chaud", price: "4.20€" },
+                    { name: "Mousse au chocolat faite maison", price: "3.80€" },
+                    { name: "Baba au rhum", price: "4.80€" },
+                    { name: "Compote de pommes", price: "2.80€" }
+                ]
+            },
+            {
+                category: "Boissons & Vins",
+                items: [
+                    { name: "Carafe de Merlot (25cl)", price: "4.90€" },
+                    { name: "Pichet de vin rouge (50cl)", price: "8.50€" },
+                    { name: "Verre de vin (12cl)", price: "3.50€" },
+                    { name: "Pression Licorne (25cl)", price: "3.20€" },
+                    { name: "Bière Picon (25cl)", price: "4.20€" },
+                    { name: "Café / Expresso", price: "2.20€" }
                 ]
             }
         ],
-        smart_tip: "Addition sur la nappe, entrées à 2.20€ : un saut dans le temps hyper abordable."
+        smart_tip: "Champion du monde de l'œuf mayo, entrées à partir de 2.50€ : le record imbattable de Paris Rive Gauche."
     },
     moods: { chill: 20, festif: 40, culturel: 90 },
     description: "Anciennement Bouillon Rougeot, cette cantine de la Belle Époque à la majestueuse salle de 1903 (classée monument historique) fait revivre l'esprit des bouillons. Le ballet incessant des garçons en gilet noir, le bruit des assiettes et les prix qui défient toute inflation créent une atmosphère unique, théâtrale et populaire.",
@@ -67,7 +89,7 @@ export const bouillon_montparnasse: SurgicalPlace = {
     specials: {
         cuisine: ["Terroir", "Classiques Parisiens"],
         drinks: ["Pichet de Vin", "Picon Bière"],
-        must_eat: "L'œuf mayo (2.20€) et la saucisse purée (9.60€) valent le détour.",
+        must_eat: "Cuisine française de tradition. L'Œuf dur mayonnaise (2.50€) et la Saucisse au couteau purée maison (9.80€).",
         expert_catchline: "Traditions ouvrières : plats canailles, poireaux vinaigrettes et choucroute bien servie."
     },
     images: { hero: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paris_Montparnasse_Bouillon_Chartier_01.jpg/1200px-Paris_Montparnasse_Bouillon_Chartier_01.jpg", gallery: [] },

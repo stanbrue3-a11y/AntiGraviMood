@@ -24,7 +24,7 @@ const CarouselItem = React.memo(
       source={typeof item === 'string' ? { uri: item } : (item as number | { uri: string })}
       style={{ width, height, backgroundColor: '#1C1C1E' }}
       contentFit="cover"
-      cachePolicy="memory-disk"
+      cachePolicy="disk"
       priority="high"
       transition={200}
     />

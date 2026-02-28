@@ -9,8 +9,26 @@
 
 import { Pricing } from '../types/model';
 import { ContextualEngine } from '../services/ContextualEngine';
+import { OpeningHours } from './timeUtils';
 
 export type DrinkType = 'pint' | 'wine' | 'cocktail' | 'coffee' | 'dish' | 'generic';
+
+/**
+ * Returns the duration of a Happy Hour string in hours.
+ */
+export function getHHDuration(hhTime: string | undefined): number {
+  if (!hhTime) return 0;
+  const match = hhTime.match(/(\d{1,2}[:h]?\d{0,2})\s?[-–|à]\s?(\d{1,2}[:h]?\d{0,2})/);
+  if (match) {
+    try {
+      const oh = new OpeningHours(`${match[1]}-${match[2]}`);
+      return oh.end - oh.start;
+    } catch (e) {
+      return 0;
+    }
+  }
+  return 0;
+}
 
 export interface DrinkTypeInfo {
   type: DrinkType;
@@ -134,18 +152,23 @@ export function resolveDrinkType(
   return 'generic';
 }
 
-/** Returns the reference price for a given drink type from pricing data */
+/**
+ * Returns the reference price for a given drink type from pricing data.
+ * RULE [Standard 2026]: If HH duration > 3h, we return the HH price.
+ */
 export function getReferencePrice(
   pricing: Partial<Pricing>,
   drinkType: DrinkType,
 ): number | undefined {
+  const isLongHH = getHHDuration(pricing.hh_time ?? undefined) > 3;
+
   switch (drinkType) {
     case 'pint':
-      return pricing.pint_price ?? undefined;
+      return (isLongHH && pricing.hh_pint) ? pricing.hh_pint : (pricing.pint_price ?? undefined);
     case 'wine':
-      return pricing.wine_glass ?? undefined;
+      return (isLongHH && pricing.hh_wine) ? pricing.hh_wine : (pricing.wine_glass ?? undefined);
     case 'cocktail':
-      return pricing.cocktail_price ?? undefined;
+      return (isLongHH && pricing.hh_cocktail) ? pricing.hh_cocktail : (pricing.cocktail_price ?? undefined);
     case 'coffee':
       return pricing.coffee_price ?? undefined;
     case 'dish':
