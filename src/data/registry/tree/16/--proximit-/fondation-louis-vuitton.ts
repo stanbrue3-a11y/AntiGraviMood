@@ -27,6 +27,7 @@ export const fondation_louis_vuitton: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 16,
         "is_free": false,
         "pint_price": 0,

@@ -27,6 +27,7 @@ export const maison_europenne_de_la_photographie: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 18,
         "is_free": false,
         "pint_price": 0,

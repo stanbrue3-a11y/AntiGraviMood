@@ -27,6 +27,7 @@ export const cite_architecture_patrimoine: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 10.5,
         "is_free": false,
         "pint_price": 0,

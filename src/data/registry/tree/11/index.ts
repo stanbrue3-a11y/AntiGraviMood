@@ -27,6 +27,9 @@ import { atelier_lumieres } from './voltaire/atelier-lumieres';
 import { soumsoum_voltaire } from './voltaire/soumsoum-voltaire';
 import { le_centenaire } from './--proximit-/le-centenaire';
 import { le_grand_breguet } from './--proximit-/le-grand-breguet';
+import { brasserie_rosie } from './--proximit-/brasserie-rosie';
+import { yukga } from './--proximit-/yukga';
+import { cafe_industrie } from './--proximit-/cafe-industrie';
 
 export const arrondissement_11Places: SurgicalPlace[] = [
     bambino,
@@ -56,5 +59,8 @@ export const arrondissement_11Places: SurgicalPlace[] = [
     atelier_lumieres,
     soumsoum_voltaire,
     le_centenaire,
-    le_grand_breguet
+    le_grand_breguet,
+    brasserie_rosie,
+    yukga,
+    cafe_industrie
 ];

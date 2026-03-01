@@ -27,6 +27,7 @@ export const pantheon: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 11.5,
         "is_free": false,
         "pint_price": 0,

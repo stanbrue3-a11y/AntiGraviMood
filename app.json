@@ -51,6 +51,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "googleMapsApiKey": "AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
     }
   }
 }

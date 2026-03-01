@@ -1,28 +1,24 @@
 import { Place, Pricing, PricingView } from '../../types/model';
+import { PlaceCategory } from '../../data/registry/type-definition';
 import { CrabCalculator } from '../../lib/CrabCalculator';
-import {
-  resolveDrinkType,
-  resolveReferencePrice,
-  getDrinkTypeInfo,
-  getHHDuration,
-} from '../../lib/drinkTypeResolver';
+import { PriceEngine } from '../../lib/pricing/PriceEngine';
 import { isHappyHourActive } from '../../lib/timeUtils';
 
 export class PricingMapper {
   /**
    * Smart Anchor: determines the HEADLINE price for a place.
-   * Delegates drink-type detection to drinkTypeResolver (single source of truth).
+   * Delegates drink-type detection to PriceEngine (single source of truth).
    */
   static getSmartAnchor(
     pricing: Pricing,
-    place: Pick<Place, 'category' | 'subcategories' | 'pricing'>,
+    place: Pick<Place, 'subcategories' | 'pricing'> & { category: PlaceCategory },
     activeCategories: string[] = []
   ): { price: string; label: string; highlight: boolean; badge?: string; description?: string } {
-    const drinkType = resolveDrinkType(place.category, place.subcategories || [], activeCategories);
-    const resolved = resolveReferencePrice(pricing, drinkType);
-    const info = getDrinkTypeInfo(resolved.type);
+    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || []);
+    const resolved = PriceEngine.resolveReferencePrice(pricing as any, drinkType);
+    const info = PriceEngine.getInfo(resolved.type);
 
-    const isLongHH = getHHDuration(pricing.hh_time ?? undefined) > 3;
+    const isLongHH = PriceEngine.getHHDuration(pricing?.hh_time as any) >= 3;
     const priceLabel = resolved.price > 0 ? `${resolved.price}€` : '-';
 
     // Logic: If it's a long HH and the price we found matches the HH price for that drink type
@@ -43,13 +39,13 @@ export class PricingMapper {
 
   static mapPricingView(
     pricing: Pricing,
-    place: Pick<Place, 'category' | 'subcategories'> & { practical_info?: any; pricing?: Pricing },
+    place: Pick<Place, 'subcategories'> & { category: PlaceCategory; practical_info?: any; pricing?: Pricing },
     testDate?: Date,
     activeCategories: string[] = []
   ): PricingView {
-    const drinkType = resolveDrinkType(place.category, place.subcategories || [], activeCategories);
-    const drinkInfo = getDrinkTypeInfo(drinkType);
-    const resolved = resolveReferencePrice(pricing, drinkType);
+    const drinkType = PriceEngine.resolveDrinkType(place.category, place.subcategories || []);
+    const drinkInfo = PriceEngine.getInfo(drinkType);
+    const resolved = PriceEngine.resolveReferencePrice(pricing, drinkType);
 
     const metrics = CrabCalculator.getMetrics(pricing, drinkType);
     const anchor = this.getSmartAnchor(pricing, { ...place, pricing }, activeCategories);
@@ -67,10 +63,10 @@ export class PricingMapper {
       level = 3; // Expensive
     else level = 4; // Luxury
 
-    // --- DESCRIPTION: uses drinkTypeResolver ---
+    // --- DESCRIPTION: uses PriceEngine ---
     const getDescription = (): string => {
-      const info = getDrinkTypeInfo(resolved.type);
-      if (isHappyHourActive(place.practical_info?.happy_hour, testDate) && pricing.hh_pint) {
+      const info = PriceEngine.getInfo(resolved.type);
+      if (isHappyHourActive(place.practical_info?.happy_hour as any, testDate) && pricing.hh_pint) {
         return `${info.label} (Happy Hour)`;
       }
       return info.descriptionLabel;

@@ -7,7 +7,7 @@ import { ImageSourcePropType } from 'react-native';
 // Zero-Wait 2026: Remote-First image loading (URLs + BlurHash + Category Fallbacks)
 export const getPlaceImages = (p: Place | PlaceSkeleton) => {
   const images: (ImageSourcePropType | string)[] = [];
-  const GOOGLE_API_KEY = Constants.expoConfig?.extra?.googleMapsApiKey || '';
+  const GOOGLE_API_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY || Constants.expoConfig?.extra?.googleMapsApiKey || '';
 
   // 1. JSON Hero Image (User provided)
   if (p.media?.hero_image) {

@@ -119,7 +119,7 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     place.opening_hours ? JSON.stringify(place.opening_hours) : null,
     place,
   );
-  const pricingView = place.pricing ? PricingMapper.mapPricingView(place.pricing, place, undefined, activeCategories) : null;
+  const pricingView = place.pricing ? PricingMapper.mapPricingView(place.pricing as any, place as any, undefined, activeCategories) : null;
   const badgesView = BadgeMapper.mapBadgesView(place, metaView.mood_color);
 
   const hasActions = !!actionsView.primary || !!actionsView.instagram || badgesView.length > 0;

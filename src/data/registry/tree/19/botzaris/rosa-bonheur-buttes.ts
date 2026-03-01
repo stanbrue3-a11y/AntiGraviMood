@@ -30,7 +30,7 @@ export const rosa_bonheur_buttes: SurgicalPlace = {
     },
     "pricing": {
         "avg_budget": 2,
-        "is_free": true,
+        "is_free": false,
         "pint_price": 8.5,
         "cocktail_price": 0,
         "coffee_price": 0,

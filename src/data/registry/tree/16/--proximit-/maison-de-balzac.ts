@@ -27,6 +27,7 @@ export const maison_de_balzac: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 8,
         "is_free": false,
         "pint_price": 0,

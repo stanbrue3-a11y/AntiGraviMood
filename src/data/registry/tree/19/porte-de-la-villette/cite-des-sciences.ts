@@ -29,6 +29,7 @@ export const cite_des_sciences: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 13.5,
         "is_free": false,
         "pint_price": 0,

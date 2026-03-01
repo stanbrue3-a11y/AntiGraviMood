@@ -28,7 +28,6 @@ export const le_val_royal: SurgicalPlace = {
         "wifi": true,
         "terrace": true,
         "opening_hours_raw": "Lundi-Samedi: 07h00–02h00\nDimanche: 16h00–02h00",
-        "happy_hour": "15h-02h",
         "main_action": {
             "type": "site",
             "url": "https://www.privateaser.com/lieu/16604-le-val-royal",
@@ -97,9 +96,10 @@ export const le_val_royal: SurgicalPlace = {
         "expert_catchline": "Le meilleur rapport 'Heures de Soleil / Prix de la Pinte' de tout le sud parisien."
     },
     "images": {
-        "hero": "https://lh3.googleusercontent.com/p/AF1QipNX8O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O9O=s1600-w1600",
+        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUweGRnq1YqS45Mq-6OgUmBxi6uK6Z1MiOhDdGdp0XnYHulXaY8rHSdoLFHHJcEjasvCdIqXewvSHdscxpH6uZ6lxj74humQzZ52_9NibTBmPIsKLR_UV7anuUdXR-tn30AlzMhcMv0764Sc0XPnSWXeSo7FiELnKUUh7I0jjs64TPVhtZ4X8_MqhRZWdeQXIYHnBeZjxQncjWwWz3j7KeTvBX798IM9X8fTL9DmrUhWW-HQNDKnF1YeMw2W8xTo6o7LU2wjm2iyNsdPnerd833snOwXHkuBkGkQ5a0yS9QQw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
         "gallery": [
-            "https://lh3.googleusercontent.com/p/AF1QipNqY5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5Q5=s1600-w1600"
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXIcXLezwUwg1AJYfMN81XmZAiyedFWhjKx3GNW_lpH-CT4J5Wqie817B5XzTGOTOkC4gfg80qQOEli2A4SAkNjflUTD28K6I8y0_vSb5ia2YHuM5Lyj95MhLjYIkkEYBEz-ZG6UptQBsirB6AwcO-8cN3xZrbvtgCDQXvXqf3bPpLctEbPiBX-yJFHBBjRDAnIdqj-iRb3TbpqqnpjZNKHYUakqMrN-TQgVmsnK2OaW9sTuOqeQlw7N3RCco-_kjRV7tfVpCRDroGXRYAiUqD7e0EIluAZU5m8u00wXeFfTw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXxyGs_ZqY0HOBBd7T6lJrZjhxTU718-atNurWszo_V6C2q5vjb-y-oTzg7Oiy_D6kiRbxri0wWKIoLUUJ34hRuPuiBJ0SwJlarNw5JZzhife5qbxtV5zl4ePyNzj1fu4tTxThuL-nMvuftKe_Qn-11gO01756xwgeqkYqro51cYGmnb2oF77c_PIL3kYoPRForvs3pbceyF4oUTZ3OPYrAoMHFaf6OvSSkFkVGvXM7SwA2lS56m7bGN4221OF1TjEsBTCS-IprpdxFdWkMpPZZKyEodx0hVXN7WYb0V2oSLA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
         ]
     },
     "source": "expert_human"

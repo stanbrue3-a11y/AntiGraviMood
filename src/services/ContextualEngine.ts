@@ -16,10 +16,10 @@ export const ContextualEngine = {
                 pCat === 'bar' ||
                 subs.includes('bar') ||
                 subs.includes('pub') ||
-                subStr.includes('wine') ||
-                subStr.includes('cocktail') ||
-                subStr.includes('brasserie') ||
-                subStr.includes('bistro') ||
+                subs.includes('wine_bar') ||
+                subs.includes('cocktail_bar') ||
+                subs.includes('brasserie') ||
+                subs.includes('bistro') ||
                 pCat === 'café'
             ) {
                 return 'bar';

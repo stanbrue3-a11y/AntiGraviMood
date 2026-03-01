@@ -10,6 +10,7 @@ import { les_pipos } from './--proximit-/les-pipos';
 import { pantheon } from './--proximit-/pantheon';
 import { shakespeare_cafe } from './--proximit-/shakespeare-cafe';
 import { le_royal } from './--proximit-/le-royal';
+import { rim_cafe } from './--proximit-/rim-cafe';
 
 export const arrondissement_5Places: SurgicalPlace[] = [
     cafe_nouvelle_mairie,
@@ -22,5 +23,6 @@ export const arrondissement_5Places: SurgicalPlace[] = [
     les_pipos,
     pantheon,
     shakespeare_cafe,
-    le_royal
+    le_royal,
+    rim_cafe
 ];

@@ -8,6 +8,7 @@ import { jeu_de_paume } from './--proximit-/jeu-de-paume';
 import { le_bristol_bar } from './--proximit-/le-bristol-bar';
 import { le_piaf_paris } from './--proximit-/le-piaf-paris';
 import { leclaireur_boissy } from './--proximit-/leclaireur-boissy';
+import { maison_de_l_aubrac } from './--proximit-/maison-de-l-aubrac';
 import { manko_paris } from './--proximit-/manko-paris';
 import { musee_jacquemart_andre } from './--proximit-/musee-jacquemart-andre';
 import { musee_nissim_camondo } from './--proximit-/musee-nissim-camondo';
@@ -30,5 +31,6 @@ export const arrondissement_8Places: SurgicalPlace[] = [
     musee_nissim_camondo,
     petit_palais,
     raspoutine_paris,
+    maison_de_l_aubrac,
     parc_monceau
 ];

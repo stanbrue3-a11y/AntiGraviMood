@@ -122,7 +122,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       if (selectedCategories && selectedCategories.length > 0)
         q = q.where((eb) => eb.or([
           eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
         ]));
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
@@ -136,7 +136,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null) {
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
                 eb.or([
                   eb.and([eb('places.pint_price', '>', 0), eb('places.pint_price', '<=', pintLimit)]),
                   eb.and([eb('places.wine_glass', '>', 0), eb('places.wine_glass', '<=', pintLimit)]),
@@ -302,7 +302,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       if (selectedCategories && selectedCategories.length > 0)
         q = q.where((eb) => eb.or([
           eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
         ]));
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
@@ -315,7 +315,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null)
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
                 eb('places.pint_price', '<=', pintLimit)
               ]),
             );
@@ -355,7 +355,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       if (selectedCategories && selectedCategories.length > 0)
         q = q.where((eb) => eb.or([
           eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
+          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
         ]));
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
@@ -368,7 +368,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null)
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
+                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
                 eb('places.pint_price', '<=', pintLimit)
               ]),
             );

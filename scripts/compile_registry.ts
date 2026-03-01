@@ -8,8 +8,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 import { SurgicalPlace } from '../src/data/registry/type-definition';
 import { SurgicalPlaceSchema } from '../src/schemas/place.validation';
-import { OpeningHours } from '../src/lib/timeUtils';
-import { resolveDrinkType, getReferencePrice } from '../src/lib/drinkTypeResolver';
+import { PriceEngine } from '../src/lib/pricing/PriceEngine';
 const allPlaces: SurgicalPlace[] = require('../src/data/registry/index').default;
 
 const OUTPUT_PATH = path.join(__dirname, '../assets/moodmap_current.sql');
@@ -116,8 +115,8 @@ CREATE INDEX IF NOT EXISTS idx_places_percentile ON places(category_percentile);
  * This is what the price slider filters on.
  */
 function getNormalizedPrice(p: SurgicalPlace): number {
-  const drinkType = resolveDrinkType(p.category, p.subcategory);
-  return getReferencePrice(p.pricing, drinkType) || 0;
+  const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
+  return PriceEngine.getReferencePrice(p.pricing, drinkType) || 0;
 }
 
 /**
@@ -160,6 +159,26 @@ allPlaces.forEach((p, index) => {
     });
     errorCount++;
     return;
+  }
+
+  // --- INDUSTRIAL 2026 QUALITY GUARD 🛡️ ---
+  if (p.verified) {
+    const qErrors: string[] = [];
+    if (!p.images?.hero || p.images.hero.includes('placeholder'))
+      qErrors.push(`Missing HD Hero Image`);
+
+    const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
+    const price = PriceEngine.getReferencePrice(p.pricing, drinkType);
+    if (!price || price <= 0)
+      qErrors.push(`Missing Reference Price for ${drinkType}`);
+
+    if (!p.insider_tip || p.insider_tip.length < 50)
+      qErrors.push(`Insider tip too short (${p.insider_tip?.length || 0} chars)`);
+
+    if (qErrors.length > 0) {
+      console.warn(`⚠️ [Quality Guard] ${p.name} (${p.id}) is sub-standard: ${qErrors.join(', ')}`);
+      // errorCount++; // Temporarily disabled while building the Scribe
+    }
   }
 
   // 1. DUPLICATE DETECTION 👯
@@ -233,9 +252,9 @@ allPlaces.forEach((p, index) => {
     valueOrNull('€'), // budget_unit
 
     // EFFECTIVE PRICES FOR FILTERING (Uses HH if > 3h via centralized resolver)
-    valueOrNull(getReferencePrice(p.pricing, 'pint')),
-    valueOrNull(getReferencePrice(p.pricing, 'cocktail')),
-    valueOrNull(getReferencePrice(p.pricing, 'wine')),
+    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'pint')),
+    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'cocktail')),
+    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'wine')),
     valueOrNull(p.pricing.coffee_price),
     valueOrNull(p.pricing.dish_price),
 

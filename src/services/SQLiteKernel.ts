@@ -68,6 +68,7 @@ export class SQLiteKernel {
 
       if (!shouldDeploy) {
         const deployedHash = await AsyncStorage.getItem(SQLiteKernel.VERSION_KEY);
+        console.warn(`📊 [Kernel] Hash Check: Deployed=${deployedHash} | Bundled=${currentHash}`);
         if (deployedHash !== currentHash) {
           logger.log(
             `🔄 [Kernel] Hash shift detected (${deployedHash} -> ${currentHash})`,
@@ -78,6 +79,7 @@ export class SQLiteKernel {
       }
 
       if (shouldDeploy) {
+        console.warn(`📥 [Kernel] FORCE DEPLOYMENT of hash: ${currentHash}`);
         logger.log(`📥 [Kernel] Deploying binary (hash: ${currentHash})...`);
         await FileSystem.copyAsync({
           from: asset.localUri,

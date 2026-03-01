@@ -27,6 +27,7 @@ export const muse_de_lorangerie: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 15.5,
         "is_free": false,
         "pint_price": 0,

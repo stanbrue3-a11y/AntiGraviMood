@@ -26,10 +26,10 @@ export const LikedPlaceCard = ({ place, onPress, style }: LikedPlaceCardProps) =
 
   // Decorate with 2026 Pricing View Model 🖼️
   const pricingView = place.pricing
-    ? PricingMapper.mapPricingView(place.pricing, {
-      category: place.category,
+    ? PricingMapper.mapPricingView(place.pricing as any, {
+      category: place.category as any,
       subcategories: place.subcategories || [],
-    })
+    } as any)
     : undefined;
 
   return (

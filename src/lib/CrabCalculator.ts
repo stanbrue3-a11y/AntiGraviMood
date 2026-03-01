@@ -5,7 +5,7 @@
  */
 
 import { Pricing } from '../types/model';
-import { DrinkType, BENCHMARKS, resolveReferencePrice } from './drinkTypeResolver';
+import { PriceEngine, DrinkType, BENCHMARKS } from './pricing/PriceEngine';
 import { palette, moodColors } from '../design/tokens/colors';
 
 export interface PriceMetrics {
@@ -34,8 +34,8 @@ export class CrabCalculator {
       };
     }
 
-    // Use drinkTypeResolver for reference price + benchmark
-    const resolved = resolveReferencePrice(pricing, drinkType);
+    // Use PriceEngine for reference price + benchmark
+    const resolved = PriceEngine.resolveReferencePrice(pricing as any, drinkType);
     const current = resolved.price;
     const fair = pricing.fair_price || BENCHMARKS[resolved.type];
 

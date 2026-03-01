@@ -27,6 +27,7 @@ export const musee_de_montmartre: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 7,
         "is_free": false,
         "pint_price": 0,

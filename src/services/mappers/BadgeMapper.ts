@@ -1,5 +1,6 @@
 import { Place } from '../../types/model';
 import { TimeMapper } from './TimeMapper'; // Reuse HH logic
+import { OpeningHours } from '../../lib/timeUtils';
 
 export class BadgeMapper {
   static isTrue(value: unknown): boolean {
@@ -57,7 +58,6 @@ export class BadgeMapper {
       terrasse: { label: 'Terrasse', icon: 'sunny-outline' },
       pelouse_autorisee: { label: 'Pelouse autorisée', icon: 'leaf-outline' },
       vins_nature: { label: 'Vins Nature', icon: 'wine-outline' },
-      laptop_friendly: { label: 'Laptop Friendly', icon: 'laptop-outline' },
       gratuit_moins_26: { label: 'Gratuit < 26 ans', icon: 'gift-outline' },
       shotgun: { label: 'Shotgun', icon: 'flash-outline' },
     };
@@ -68,12 +68,49 @@ export class BadgeMapper {
       }
     });
 
-    // TimeMapper Happy Hour logic
-    const hh = TimeMapper.mapHappyHourView(info.happy_hour, testDate);
+    // 🏎️ AUTO-BADGE LOGIC (Standard Industriel 2026)
+    const rawInfo = info as any;
+    // 1. Feature Detection
+    if (this.isTrue(rawInfo.terrace) && !badgeDict.has('Terrasse')) {
+      addBadge('Terrasse', 'sunny-outline', moodColor);
+    }
+
+    // 2. Late Opening Detection (Critical for Aubrac/Nightlife)
+    const hours = rawInfo.opening_hours_raw || (place as any).opening_hours?.standard;
+    if (hours && hours !== 'Non renseigné') {
+      const ranges = hours.split(/[,\n]/).map((l: string) => {
+        const trimmed = l.trim();
+        // Smarter extraction: only strip prefix if it's letters + colon (like "Lundi: ")
+        const prefixMatch = trimmed.match(/(?:[A-Za-zÀ-ÿ]+\s*:\s*)(.*)/);
+        const timePart = prefixMatch ? prefixMatch[1].trim() : trimmed;
+        return new OpeningHours(timePart);
+      });
+      const maxEnd = Math.max(...ranges.map((r: any) => r.end));
+      if (maxEnd > 26) { // Strictly after 2:00 AM normalized
+        addBadge('Ouvert Tard', 'moon-outline', '#c499ff');
+      }
+    }
+
+    // 3. Relevant Subcategories to Badges
+    const subMap: Record<string, { label: string; icon: string }> = {
+      pepite: { label: 'Pépite', icon: 'star-outline' },
+      viande: { label: 'Viande d\'exception', icon: 'restaurant-outline' },
+    };
+    place.subcategories?.forEach(sub => {
+      const key = sub.toLowerCase();
+      if (subMap[key]) {
+        addBadge(subMap[key].label, subMap[key].icon, moodColor);
+      }
+    });
+
+    // 4. SMART FILTER: [LAPTOP FRIENDLY REMOVED AS PER USER REQUEST]
+
+    // TimeMapper Happy Hour logic (Neutral icon)
+    const hh = TimeMapper.mapHappyHourView(info.happy_hour as any, testDate);
     if (hh) {
       addBadge(
         `HH: ${hh.display}`,
-        hh.active ? 'flame' : 'time-outline',
+        'time-outline', // Dégage la flamme 
         hh.active ? '#ffab60' : '#9CA3AF',
       );
     }

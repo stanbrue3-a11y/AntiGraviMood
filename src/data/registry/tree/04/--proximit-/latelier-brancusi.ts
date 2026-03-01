@@ -27,6 +27,7 @@ export const latelier_brancusi: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 13,
         "is_free": false,
         "pint_price": 0,

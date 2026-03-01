@@ -27,6 +27,7 @@ export const hotel_de_la_marine: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 17,
         "is_free": false,
         "pint_price": 0,

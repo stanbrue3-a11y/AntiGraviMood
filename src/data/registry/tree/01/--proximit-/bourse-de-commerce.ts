@@ -27,6 +27,7 @@ export const bourse_de_commerce: SurgicalPlace = {
         "action_url": ""
     },
     "pricing": {
+        "index_price": 15,
         "avg_budget": 15,
         "is_free": false,
         "pint_price": 8,
