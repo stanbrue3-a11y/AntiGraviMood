@@ -7,6 +7,7 @@ import { parc_montsouris } from './--proximit-/parc-montsouris';
 import { le_rosebud } from './vavin/le-rosebud';
 import { le_select } from './vavin/le-select';
 import { chez_papa_montparnasse } from './vavin/chez-papa-montparnasse';
+import { chez_alphonse } from './--proximit-/chez-alphonse';
 
 export const arrondissement_14Places: SurgicalPlace[] = [
     closerie_des_lilas,
@@ -16,5 +17,6 @@ export const arrondissement_14Places: SurgicalPlace[] = [
     parc_montsouris,
     le_rosebud,
     le_select,
-    chez_papa_montparnasse
+    chez_papa_montparnasse,
+    chez_alphonse
 ];

@@ -42,12 +42,10 @@ export const le_grand_breguet: SurgicalPlace = {
         "is_free": false,
         // SOURCE: SchloukMap 2025 & MisterGoodBeer (confirmé par utilisateur terrain)
         "pint_price": 7,
-        // SOURCE: Estimé 9-11€ sur la base de la carte saisonnière
-        "cocktail_price": 0,
-        "wine_glass": 0,
-        "coffee_price": 0,
-        // SOURCE: Google review Clara Larrieu (déc 2025) — "formule à 17 euros bio"
-        "dish_price": 17,
+        "cocktail_price": 10,
+        "wine_glass": 6,
+        "coffee_price": 2.5,
+        "dish_price": 10,
         "smart_tip": "Formule déjeuner 100% bio imbattable dès 10€. Coworking gratuit l'après-midi. Ambiance cantine bio le midi et bar à tapas le soir.",
         "menu_items": [
             {
@@ -123,7 +121,7 @@ export const le_grand_breguet: SurgicalPlace = {
         "expert_catchline": "Tiers-lieu 100% bio : cantine saine le midi, coworking studieux et bar festif le soir avec vins nature."
     },
     "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-CpG6Bdfvop3ojLEvO-HTdIlvT6kldXoW2psUeEVXjYnacod7rbVSjFrboqGDFvMQcCxgkkcuaJucvhrGMAXDAQylzjuwjpHwMrhuAOWuuFsIQtF7vOn-4j30cufa9u910k4caJm8nx7lTLiT39NZapdCP7HcqNc1StAl6XiuOGaTO6Y6L6NJpNyO8Xgh-Fxh4RQ5yWMqbX6ccMagbNehNgHa7F1ikbvwP2LsPGs3jUEBlOhpYgi71qNDPJ6sgJ8gufPfYp1dZXGpZXrDEQOG7FLvEGnlssgSVtbpH3sRmsFz3SdsVnjKK6fLJys91ep_WEZpbd-LGn7zF7rXvtD24le3Qd_7fxPIj9j-bG2D9sUW9Xcpqw9lxkJOzH0GvEmTkDEbCM1WOn29O2KE8Pv7hNg88XrPUDGPau5y8BfV3MNm5t6u9831PBypfAh26Y7vuD7D0GRfCvaAdQVPx9R3rKuDGaOi_Jv5HgaN0zg-JxIt7ZicroB6cHFibhpgp2QVqhxPQ4nHGEVFHx_P3Nu-BlZRFPfzw-_BUL7yjbUARTEQfTTRscCzr4jp5ai7x6dmTN-3&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-CpG6Bdfvop3ojLEvO-HTdIlvT6kldXoW2psUeEVXjYnacod7rbVSjFrboqGDFvMQcCxgkkcuaJucvhrGMAXDAQylzjuwjpHwMrhuAOWuuFsIQtF7vOn-4j30cufa9u910k4caJm8nx7lTLiT39NZapdCP7HcqNc1StAl6XiuOGaTO6Y6L6NJpNyO8Xgh-Fxh4RQ5yWMqbX6ccMagbNehNgHa7F1ikbvwP2LsPGs3jUEBlOhpYgi71qNDPJ6sgJ8gufPfYp1dZXGpZXrDEQOG7FLvEGnlssgSVtbpH3sRmsFz3SdsVnjKK6fLJys91ep_WEZpbd-LGn7zF7rXvtD24le3Qd_7fxPIj9j-bG2D9sUW9Xcpqw9lxkJOzH0GvEmTkDEbCM1WOn29O2KE8Pv7hNg88XrPUDGPau5y8BfV3MNm5t6u9831PBypfAh26Y7vuD7D0GRfCvaAdQVPx9R3rKuDGaOi_Jv5HgaN0zg-JxIt7ZicroB6cHFibhpgp2QVqhxPQ4nHGEVFHx_P3Nu-BlZRFPfzw-_BUL7yjbUARTEQfTTRscCzr4jp5ai7x6dmTN-3&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
         "gallery": []
     },
     "source": "expert_human"

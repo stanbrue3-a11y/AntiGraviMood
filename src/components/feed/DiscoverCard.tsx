@@ -9,7 +9,7 @@ import {
   StyleProp,
   ViewStyle,
 } from 'react-native';
-import { Image } from 'expo-image';
+import { MoodImage } from '../common/MoodImage';
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -126,13 +126,10 @@ export const DiscoverCard = React.memo(
         >
           <View style={[styles.imageContainer, { height: cardHeight }]}>
             <View style={{ flex: 1, backgroundColor: '#1A1A1A' }}>
-              <Image
+              <MoodImage
                 source={imageUri}
                 style={[styles.image, { opacity: imageLoaded ? 1 : 0 }]}
-                contentFit="cover"
-                transition={300} // Restored 300ms
-                cachePolicy="disk"
-                recyclingKey={place.id}
+                resolution="THUMB"
                 onLoad={() => setImageLoaded(true)}
               />
               {!imageLoaded && (

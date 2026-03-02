@@ -49,6 +49,10 @@ export class SQLiteKernel {
             logger.log(`🗑️ [Kernel] Purging old versioned DB: ${file}`);
             await FileSystem.deleteAsync(`${dbDir}/${file}`, { idempotent: true });
           }
+          // Also purge any abandoned WAL/SHM files if the main DB is gone
+          if (file.includes('moodmap') && (file.endsWith('-wal') || file.endsWith('-shm'))) {
+            await FileSystem.deleteAsync(`${dbDir}/${file}`, { idempotent: true });
+          }
         }
       } catch (cleanupError) {
         // Non-fatal: cleanup failure shouldn't block deployment
@@ -73,7 +77,10 @@ export class SQLiteKernel {
           logger.log(
             `🔄 [Kernel] Hash shift detected (${deployedHash} -> ${currentHash})`,
           );
+          // CRITICAL: Must delete WAL and SHM accompanies to prevent malformation
           await FileSystem.deleteAsync(dbPath, { idempotent: true });
+          await FileSystem.deleteAsync(`${dbPath}-wal`, { idempotent: true });
+          await FileSystem.deleteAsync(`${dbPath}-shm`, { idempotent: true });
           shouldDeploy = true;
         }
       }
@@ -103,8 +110,11 @@ export class SQLiteKernel {
           try { await this.db.closeAsync(); } catch (_) { }
           this.db = null;
         }
-        // Delete and redeploy
+        // Delete and redeploy (Atomically)
         await FileSystem.deleteAsync(dbPath, { idempotent: true });
+        await FileSystem.deleteAsync(`${dbPath}-wal`, { idempotent: true });
+        await FileSystem.deleteAsync(`${dbPath}-shm`, { idempotent: true });
+
         await FileSystem.copyAsync({
           from: asset.localUri,
           to: dbPath,

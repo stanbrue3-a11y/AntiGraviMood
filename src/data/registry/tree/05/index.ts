@@ -11,6 +11,8 @@ import { pantheon } from './--proximit-/pantheon';
 import { shakespeare_cafe } from './--proximit-/shakespeare-cafe';
 import { le_royal } from './--proximit-/le-royal';
 import { rim_cafe } from './--proximit-/rim-cafe';
+import { eddar_restaurant } from './--proximit-/eddar-restaurant';
+import { bibimbap_paris } from './--proximit-/bibimbap-paris';
 
 export const arrondissement_5Places: SurgicalPlace[] = [
     cafe_nouvelle_mairie,
@@ -24,5 +26,7 @@ export const arrondissement_5Places: SurgicalPlace[] = [
     pantheon,
     shakespeare_cafe,
     le_royal,
-    rim_cafe
+    rim_cafe,
+    eddar_restaurant,
+    bibimbap_paris
 ];

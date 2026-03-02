@@ -40,7 +40,7 @@ export const cafe_industrie: SurgicalPlace = {
     "pricing": {
         "avg_budget": 25,
         "is_free": false,
-        "dish_price": 17,
+        "dish_price": 21,
         "pint_price": 7,
         "wine_glass": 5.5,
         "coffee_price": 2.5,

@@ -5,7 +5,7 @@ export const bouillon_montparnasse: SurgicalPlace = {
     name: "Bouillon Chartier Montparnasse",
     slug: "bouillon-chartier-montparnasse",
     category: "restaurant",
-    subcategory: ["bouillon", "cuisine-francaise", "patrimoine"],
+    subcategory: ["bouillon", "cuisine-francaise", "patrimoine", "restaurant"],
     verified: true,
     google_rating: 4.1,
     instagram_handle: "bouillonchartier",

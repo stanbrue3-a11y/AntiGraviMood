@@ -91,26 +91,49 @@ export class PriceEngine {
     }
 
     /**
-     * Resolves the primary drink type based on category and subcategories.
+     * Resolves the primary drink type based on category, subcategories AND user filters.
+     * @param category Main category of the place
+     * @param subcategories Subcategories of the place
+     * @param activeCategories User-selected filters on the map/search
      */
-    static resolveDrinkType(category: PlaceCategory, subcategories: string[]): DrinkType {
+    static resolveDrinkType(category: PlaceCategory, subcategories: string[], activeCategories: string[] = []): DrinkType {
         const sub = subcategories.join(' ').toLowerCase();
+        const active = activeCategories.map(c => c.toLowerCase());
 
-        // 1. Specialty Specificity
+        // 1. Contextual Override (Standard Janus 2026)
+        // If user is explicitly filtering by "bar" or "boisson", we pivot to drinks even for restaurants
+        if (active.some(c => c.includes('bar') || c.includes('boisson') || c.includes('vin') || c.includes('cocktail'))) {
+            if (sub.includes('vin')) return 'wine';
+            if (sub.includes('cocktail')) return 'cocktail';
+            return 'pint'; // Default drink pivot
+        }
+
+        // If user is explicitly filtering by "restaurant" or "food", we pivot to dishes even for bars
+        if (active.some(c => c.includes('restaurant') || c.includes('food') || c.includes('plat'))) {
+            return 'dish';
+        }
+
+        // 2. Mandatory Category Primacy (Standard 2026)
+        if (category === 'restaurant') {
+            if (sub.includes('vin') || sub.includes('cocktail') || sub.includes('bar-a-vin')) {
+                // Keep sub-specialty for hybrid wine/cocktail dining if no explicit filter
+            } else {
+                return 'dish';
+            }
+        }
+
+        if (category === 'bar') return 'pint';
+        if (category === 'club') return 'cocktail';
+
+        // 3. Specialty Specificity (Subcategories)
         if (sub.includes('vin') || sub.includes('cave') || sub.includes('nature')) return 'wine';
         if (sub.includes('cocktail') || sub.includes('speakeasy') || sub.includes('mixo')) return 'cocktail';
         if (sub.includes('café') || sub.includes('coffee') || sub.includes('salon-de-the')) return 'coffee';
 
-        // 2. Category Priority
-        if (category === 'restaurant') return 'dish';
-        if (category === 'bar') return 'pint';
-        if (category === 'café') return 'coffee';
-        if (category === 'club') return 'cocktail';
-
-        // 3. Fallbacks
+        // 4. Fallbacks
         if (sub.includes('bouillon') || sub.includes('bistro') || sub.includes('brasserie')) return 'dish';
 
-        return 'generic';
+        return category === 'café' ? 'coffee' : 'generic';
     }
 
     /**
@@ -125,11 +148,11 @@ export class PriceEngine {
 
         switch (type) {
             case 'pint':
-                return isLongHH && pricing.hh_pint ? pricing.hh_pint : pricing.pint_price || undefined;
+                return (isLongHH && pricing.hh_pint) ? pricing.hh_pint : pricing.pint_price || undefined;
             case 'wine':
-                return isLongHH && pricing.hh_wine ? pricing.hh_wine : pricing.wine_glass || undefined;
+                return (isLongHH && pricing.hh_wine) ? pricing.hh_wine : pricing.wine_glass || undefined;
             case 'cocktail':
-                return isLongHH && pricing.hh_cocktail ? pricing.hh_cocktail : pricing.cocktail_price || undefined;
+                return (isLongHH && pricing.hh_cocktail) ? pricing.hh_cocktail : pricing.cocktail_price || undefined;
             case 'coffee':
                 return pricing.coffee_price || undefined;
             case 'dish':
@@ -149,7 +172,8 @@ export class PriceEngine {
         const primary = this.getReferencePrice(pricing, primaryType);
         if (primary && primary > 0) return { price: primary, type: primaryType };
 
-        const fallbacks: DrinkType[] = ['pint', 'wine', 'cocktail', 'coffee', 'dish'];
+        // New Fallback Order: Dish and Pint first, Coffee last.
+        const fallbacks: DrinkType[] = ['dish', 'pint', 'cocktail', 'wine', 'coffee'];
         for (const fb of fallbacks) {
             const p = this.getReferencePrice(pricing, fb);
             if (p && p > 0) return { price: p, type: fb };

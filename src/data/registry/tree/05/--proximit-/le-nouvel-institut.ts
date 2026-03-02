@@ -5,7 +5,7 @@ export const le_nouvel_institut: SurgicalPlace = {
     name: "Le Nouvel Institut",
     slug: "le-nouvel-institut",
     category: "bar",
-    subcategory: ["brasserie", "pub-etudiant"],
+    subcategory: ["brasserie", "pub-etudiant", "restaurant", "speakeasy", "cocktail-bar"],
     verified: true,
     instagram_handle: "lenouvelinstitut",
     location: {

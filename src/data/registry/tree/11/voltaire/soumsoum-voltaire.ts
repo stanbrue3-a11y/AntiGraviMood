@@ -5,7 +5,7 @@ export const soumsoum_voltaire: SurgicalPlace = {
     name: "SoumSoum Voltaire",
     slug: "soumsoum-voltaire",
     category: "restaurant",
-    subcategory: ["israelien", "levantin", "street-food", "pita", "houmous", "kasher"],
+    subcategory: ["israelien", "levantin", "street-food", "pita", "houmous", "kasher", "restaurant"],
     verified: true,
     google_rating: 4.5,
     instagram_handle: "soumsoumparis",
@@ -33,7 +33,7 @@ export const soumsoum_voltaire: SurgicalPlace = {
         index_price: 20,
         primary_price_type: "dish",
         // VERIFIED: TheFork Menu 2026 (July 2025 update) — 18.99€
-        dish_price: 18.99,
+        dish_price: 22,
         // VERIFIED: Deliveroo/Official Site 2026 — 3.50€
         soft_price: 3.50,
         // NOT FOUND: No verified source for wine glass price — set to 0

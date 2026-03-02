@@ -14,7 +14,7 @@ export class PricingMapper {
     place: Pick<Place, 'subcategories' | 'pricing'> & { category: PlaceCategory },
     activeCategories: string[] = []
   ): { price: string; label: string; highlight: boolean; badge?: string; description?: string } {
-    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || []);
+    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || [], activeCategories);
     const resolved = PriceEngine.resolveReferencePrice(pricing as any, drinkType);
     const info = PriceEngine.getInfo(resolved.type);
 
@@ -43,7 +43,7 @@ export class PricingMapper {
     testDate?: Date,
     activeCategories: string[] = []
   ): PricingView {
-    const drinkType = PriceEngine.resolveDrinkType(place.category, place.subcategories || []);
+    const drinkType = PriceEngine.resolveDrinkType(place.category, place.subcategories || [], activeCategories);
     const drinkInfo = PriceEngine.getInfo(drinkType);
     const resolved = PriceEngine.resolveReferencePrice(pricing, drinkType);
 

@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useImperativeHandle, forwardRef } from 'react';
 import { View, StyleSheet, useWindowDimensions } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
-import { Image } from 'expo-image';
+import { MoodImage } from './MoodImage';
 
 import { ImageSourcePropType, NativeScrollEvent, NativeSyntheticEvent } from 'react-native';
 
@@ -20,13 +20,13 @@ const CarouselItem = React.memo(
     width: number;
     height: number;
   }) => (
-    <Image
-      source={typeof item === 'string' ? { uri: item } : (item as number | { uri: string })}
-      style={{ width, height, backgroundColor: '#1C1C1E' }}
+    <MoodImage
+      source={item}
+      width={width}
+      height={height}
+      resolution="HERO"
       contentFit="cover"
-      cachePolicy="disk"
       priority="high"
-      transition={200}
     />
   ),
 );

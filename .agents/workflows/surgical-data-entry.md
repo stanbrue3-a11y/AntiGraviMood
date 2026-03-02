@@ -24,9 +24,16 @@ Chaque champ prix doit être renseigné ou explicitement justifié si absent :
 - `planche_price` : Prix d'une planche (si applicable)
 - `shot_price` : Prix d'un shot (si applicable)
 - Si **Happy Hour** : renseigner `hh_pint`, `hh_cocktail`, `hh_wine`, et `hh_time`
-- **`menu_items`** : OBLIGATOIRE si le lieu a un site web avec une carte. Remplir TOUTES les catégories trouvées (Cafés, Cocktails, Bières, Plats, Desserts, etc.) avec chaque item et son prix exact
+- **`menu_items`** : OBLIGATOIRE si le lieu a un site web avec une carte. Saisir la TOTALITÉ de la carte (Menu complet, Entrées, Plats, Desserts, Boissons). Un lieu premium doit avoir **minimum 30 items** si le menu est riche.
 - **`smart_tip`** : Résumer le meilleur deal du lieu (ex: "HR 16h-23h cocktails 5€")
 - `0` = "prix NON TROUVÉ" — jamais inventer
+
+### 3. PROTOCOLE JANUS — L'HYBRIDITÉ OBLIGATOIRE 🕵️‍♂️🎭
+Les lieux ne sont plus binaires. Si un lieu est hybride, il DOIT être tagué pour apparaître dans TOUS les filtres :
+- **Règle des Sous-Catégories** : Si un Bar sert des plats réeels → ajouter `"restaurant"` dans `subcategory`.
+- **Analyse des Indices** : Chercher les mots-clés "cuisine", "menu", "chef", "signature" dans les avis.
+- **Speakeasy** : Si un bar a un sous-sol caché → ajouter `"speakeasy"`.
+- **Conséquence** : Un lieu hybride doit apparaître quand on filtre sur "Restaurant" MÊME si sa catégorie principale est "Bar".
 
 ### ⚡ RÈGLE HH 3H+ (FILTRAGE MAP)
 > **Si le Happy Hour dure PLUS de 3 heures (ex: 15h-00h = 9h), le compilateur utilise AUTOMATIQUEMENT les prix HH pour les filtres de la carte.**
@@ -114,7 +121,7 @@ Pour chaque donnée trouvée :
 - **opening_hours_raw** : Utiliser UNIQUEMENT les horaires de l'API Google Maps (`weekday_text`)
 - **action_url** : Priorité au champ `website` de l'API Google Maps. Si absent, chercher sur le web
 - **instagram_handle** : Chercher dans Google Maps, site web, et recherche web. Si introuvable → `null`
-- **wifi / terrace** : Mentionné dans les avis ou les fiches de sites (TimeToBar, etc.)
+- **terrace** : Mentionné dans les avis ou les fiches de sites (TimeToBar, etc.). **Scan visuel obligatoire.**
 - **reservation_policy** : Valeurs autorisées : `"sans_resa"`, `"resa_conseillee"`, `"resa_obligatoire"`, `null`
 
 ### Photo
@@ -161,11 +168,13 @@ RECHERCHE
 [ ] API Google Maps Place Details appelée (reviews, hours, website)
 [ ] Avis Google lus et prix extraits
 [ ] 5+ recherches web effectuées et croisées
+[ ] **Protocole Janus** : Hybridité vérifiée et tags subcategory ajoutés (ex: restaurant pour un bar à manger)
 [ ] Date de chaque source vérifiée (< 2 ans)
 [ ] Contradictions entre sources identifiées et résolues
 
-PRIX
+PRIX & MENU
 [ ] Chaque prix annoté avec // VERIFIED: [source] ([date])
+[ ] **Opération Moelle** : 30+ items de menu saisis (si carte riche disponible)
 [ ] Prix non trouvés mis à 0 avec // NOT FOUND
 [ ] Happy Hour vérifié dans les AVIS (pas juste sur TimeToBar)
 [ ] Règle HH 3h+ : si HH > 3h, les prix HH sont renseignés (ils serviront au filtrage)

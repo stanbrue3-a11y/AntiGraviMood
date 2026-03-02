@@ -1,14 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
-import { Image } from 'expo-image';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-
 import { usePlaceDetail } from '../../contexts/PlaceDetailContext';
-
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
 import { ImageCarousel, ImageCarouselRef } from '../common/ImageCarousel';
-
+import { MoodImage } from '../common/MoodImage';
 import { useTheme } from '../../design';
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -22,7 +19,6 @@ export const PlaceHero = React.memo(() => {
   const carouselRef = React.useRef<ImageCarouselRef>(null);
 
   // 🔄 FORCE RESET CAROUSEL ON PLACE CHANGE
-  // When opening a new place, we want to start at index 0, not where the previous place left off
   React.useEffect(() => {
     if (viewModel?.id) {
       carouselRef.current?.reset();
@@ -33,18 +29,14 @@ export const PlaceHero = React.memo(() => {
 
   return (
     <View style={styles.heroContainer}>
-      {/* 🎞️ ATOMIC HERO HANDOFF: Backdrop is CONSTANT, Carousel is OVERLAID when settled */}
-      {/* 🎞️ ATOMIC HERO HANDOFF: Pixel-perfect overlay */}
       <View style={{ width: '100%', height: 320, backgroundColor: '#1C1C1E', overflow: 'hidden' }}>
         {images.length > 0 ? (
           <ImageCarousel ref={carouselRef} images={images} height={320} />
         ) : firstImage ? (
-          <Image
+          <MoodImage
             source={firstImage}
-            style={StyleSheet.absoluteFill}
-            contentFit="cover"
-            transition={null}
-            cachePolicy="disk"
+            style={StyleSheet.absoluteFill as any}
+            resolution="HERO"
             priority="high"
           />
         ) : (
@@ -52,7 +44,6 @@ export const PlaceHero = React.memo(() => {
         )}
       </View>
 
-      {/* Bottom Content Gradient */}
       <LinearGradient
         colors={['transparent', 'rgba(18,18,18,0.3)', 'rgba(18,18,18,0.7)', '#121212']}
         locations={[0, 0.5, 0.8, 1]}
@@ -60,7 +51,6 @@ export const PlaceHero = React.memo(() => {
         pointerEvents="none"
       />
 
-      {/* Top Actions */}
       <View style={[styles.topActions, { top: insets.top + 12 }]}>
         <Pressable
           style={({ pressed }) => [
@@ -104,7 +94,6 @@ export const PlaceHero = React.memo(() => {
         </View>
       </View>
 
-      {/* Bottom Title */}
       <View style={styles.heroContent} pointerEvents="none">
         <Text style={styles.heroTitle}>{viewModel.hero.title}</Text>
       </View>
@@ -119,14 +108,6 @@ const styles = StyleSheet.create({
     position: 'relative',
     overflow: 'hidden',
   },
-  topGradient: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    height: 60,
-    zIndex: 1,
-  },
   bottomGradient: {
     position: 'absolute',
     top: 0,
@@ -137,7 +118,6 @@ const styles = StyleSheet.create({
   },
   topActions: {
     position: 'absolute',
-    top: 20, // Fallback, overridden by inline style with safe area
     left: 16,
     right: 16,
     flexDirection: 'row',
@@ -152,7 +132,7 @@ const styles = StyleSheet.create({
     width: 44,
     height: 44,
     borderRadius: 22,
-    backgroundColor: 'rgba(0,0,0,0.2)', // Slightly darker for visibility without bar
+    backgroundColor: 'rgba(0,0,0,0.2)',
     alignItems: 'center',
     justifyContent: 'center',
   },

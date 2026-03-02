@@ -114,9 +114,67 @@ CREATE INDEX IF NOT EXISTS idx_places_percentile ON places(category_percentile);
  * Returns the reference drink price based on subcategory.
  * This is what the price slider filters on.
  */
-function getNormalizedPrice(p: SurgicalPlace): number {
+function getNormalizedPrice(p: SurgicalPlace, effectivePricing: any): number {
   const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
-  return PriceEngine.getReferencePrice(p.pricing, drinkType) || 0;
+  return PriceEngine.getReferencePrice(effectivePricing, drinkType) || 0;
+}
+
+/**
+ * 📊 GASTRONOMIC PRICING AUDIT (Standard 2026)
+ * Calculates the median price of main dishes to verify manual dish_price.
+ */
+function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
+  if (!menuItems || menuItems.length === 0) return null;
+
+  const dishCategories = [
+    'plats', 'pizzas', 'burgers', 'signature', 'couscous', 'bibimbaps',
+    'grillades', 'pâtes', 'bowls', 'tradition', 'main courses', 'les plats',
+    'spécialités', 'viandes', 'poissons', 'planches', 'boards', 'boxes'
+  ];
+
+  // Secondary categories used only if no main dishes are found
+  const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes'];
+
+  let prices: number[] = [];
+  let foundMainDish = false;
+
+  // First pass: look for substantial main dishes/planches
+  menuItems.forEach(cat => {
+    const categoryName = cat.category.toLowerCase();
+    if (dishCategories.some(dc => categoryName.includes(dc))) {
+      cat.items.forEach((item: any) => {
+        const priceStr = item.price.replace('€', '').replace(',', '.').trim();
+        const priceNum = parseFloat(priceStr);
+        if (!isNaN(priceNum) && priceNum >= 8) { // Min 8€ for a "main" item
+          prices.push(priceNum);
+          foundMainDish = true;
+        }
+      });
+    }
+  });
+
+  // Second pass: fallback to components only if no main dish was found
+  if (!foundMainDish) {
+    menuItems.forEach(cat => {
+      const categoryName = cat.category.toLowerCase();
+      if (secondaryCategories.some(sc => categoryName.includes(sc))) {
+        cat.items.forEach((item: any) => {
+          const priceStr = item.price.replace('€', '').replace(',', '.').trim();
+          const priceNum = parseFloat(priceStr);
+          if (!isNaN(priceNum) && priceNum >= 3) {
+            prices.push(priceNum);
+          }
+        });
+      }
+    });
+  }
+
+  if (prices.length === 0) return null;
+
+  // Sort and find median
+  prices.sort((a, b) => a - b);
+  const mid = Math.floor(prices.length / 2);
+  return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
 }
 
 /**
@@ -150,7 +208,14 @@ let errorCount = 0;
 let sqlOutput = SCHEMA_SQL + '\n-- DATA INJECTION --\n';
 
 allPlaces.forEach((p, index) => {
-  // 0. VALIDATION (The "Blindage") 🛡️
+  // 0. PRICING AUTOMATION (Standard 2026 Full Auto) 📊
+  const medianDishPrice = calculateMedianDishPrice(p.pricing.menu_items);
+  const effectivePricing = {
+    ...p.pricing,
+    dish_price: medianDishPrice ?? p.pricing.dish_price
+  };
+
+  // 1. VALIDATION (The "Blindage") 🛡️
   const result = SurgicalPlaceSchema.safeParse(p);
   if (!result.success) {
     console.error(`❌ [Validation Error] ${p.name || 'Unknown'} (Index: ${index}):`);
@@ -168,16 +233,35 @@ allPlaces.forEach((p, index) => {
       qErrors.push(`Missing HD Hero Image`);
 
     const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
-    const price = PriceEngine.getReferencePrice(p.pricing, drinkType);
+    const price = PriceEngine.getReferencePrice(effectivePricing, drinkType);
     if (!price || price <= 0)
       qErrors.push(`Missing Reference Price for ${drinkType}`);
+
+    // --- PRICING AUDIT (Standard 2026) ---
+    const isRestaurant = p.category === 'restaurant';
+    const isBarAPlanches = p.category === 'bar' && p.subcategory.includes('bar-a-planches');
+
+    if (isRestaurant || isBarAPlanches) {
+      if (medianDishPrice) {
+        const manualPrice = p.pricing.dish_price;
+        if (manualPrice) {
+          const diff = Math.abs(manualPrice - medianDishPrice);
+          const diffPercent = (diff / manualPrice) * 100;
+
+          if (diffPercent > 15) {
+            console.warn(`📢 [Pricing Audit] ${p.name}: Manual ${manualPrice}€ override by Median ${medianDishPrice.toFixed(2)}€ (${diffPercent.toFixed(1)}% delta)`);
+          }
+        }
+      } else if (!effectivePricing.dish_price) {
+        qErrors.push(`Missing both Manual and Median Dish Price`);
+      }
+    }
 
     if (!p.insider_tip || p.insider_tip.length < 50)
       qErrors.push(`Insider tip too short (${p.insider_tip?.length || 0} chars)`);
 
     if (qErrors.length > 0) {
       console.warn(`⚠️ [Quality Guard] ${p.name} (${p.id}) is sub-standard: ${qErrors.join(', ')}`);
-      // errorCount++; // Temporarily disabled while building the Scribe
     }
   }
 
@@ -199,6 +283,8 @@ allPlaces.forEach((p, index) => {
     );
   }
   coords.push({ lat: p.location.lat, lng: p.location.lng, name: p.name });
+
+  slugs.add(p.slug);
 
   // 2. CALCULATED FIELDS
   const MOOD_COLORS: Record<string, string> = {
@@ -247,16 +333,16 @@ allPlaces.forEach((p, index) => {
     valueOrNull(processImagesForDB(p.images)?.hero),
     valueOrNull(p.instagram_handle),
 
-    valueOrNull(getNormalizedPrice(p)), // budget_avg = normalized reference price
+    valueOrNull(getNormalizedPrice(p, effectivePricing)), // budget_avg = normalized reference price
     valueOrNull(p.pricing.is_free),
     valueOrNull('€'), // budget_unit
 
     // EFFECTIVE PRICES FOR FILTERING (Uses HH if > 3h via centralized resolver)
-    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'pint')),
-    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'cocktail')),
-    valueOrNull(PriceEngine.getReferencePrice(p.pricing, 'wine')),
+    valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'pint')),
+    valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'cocktail')),
+    valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'wine')),
     valueOrNull(p.pricing.coffee_price),
-    valueOrNull(p.pricing.dish_price),
+    valueOrNull(effectivePricing.dish_price),
 
     valueOrNull(50), // percentile
 
@@ -278,8 +364,8 @@ allPlaces.forEach((p, index) => {
     }), // editorial_json (includes terrace + happy_hour for badges)
     // 💰 FULL PRICING BLOB — single source of truth for all prices
     jsonValue({
-      ...p.pricing,
-      budget_avg: getNormalizedPrice(p),
+      ...effectivePricing,
+      budget_avg: getNormalizedPrice(p, effectivePricing),
       type: p.category === 'café' ? 'cafe' : p.category,
       menu_items: p.pricing.menu_items || [],
       // HH prices (normalize field names for PricingBase)
@@ -287,6 +373,8 @@ allPlaces.forEach((p, index) => {
       cocktail_hh: p.pricing.hh_cocktail,
       wine_hh: p.pricing.hh_wine,
       hh_time: p.pricing.hh_time,
+      _debug_manual_dish_price: p.pricing.dish_price, // Track for debugging
+      _debug_median_dish_price: medianDishPrice
     }),
     jsonValue(processImagesForDB(p.images)), // media_json
     jsonValue(processImagesForDB(p.images)?.gallery || []), // google_photos_json

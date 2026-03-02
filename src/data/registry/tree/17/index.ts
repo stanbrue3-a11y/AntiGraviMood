@@ -22,6 +22,7 @@ import { ptit_canon_paris } from './--proximit-/ptit-canon-paris';
 import { square_des_batignolles } from './--proximit-/square-des-batignolles';
 import { terres_de_cafe_batignolles } from './--proximit-/terres-de-cafe-batignolles';
 import { tout_monde_paris } from './--proximit-/tout-monde-paris';
+import { la_cantina_chic } from './--proximit-/la-cantina-chic';
 
 export const arrondissement_17Places: SurgicalPlace[] = [
     bistrot_des_dames,
@@ -36,6 +37,7 @@ export const arrondissement_17Places: SurgicalPlace[] = [
     gyoza_bar_17,
     hoba_paris,
     janine_paris,
+    la_cantina_chic,
     la_recoleta,
     le_bal_paris,
     le_wimereux_paris,

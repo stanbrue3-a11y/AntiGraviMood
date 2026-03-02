@@ -5,7 +5,7 @@ export const fouquets: SurgicalPlace = {
     name: "Fouquet's Paris",
     slug: "fouquets-champs-elysees",
     category: "restaurant",
-    subcategory: ["brasserie", "palace", "institution"],
+    subcategory: ["brasserie", "palace", "institution", "restaurant", "cocktail-bar"],
     verified: true,
     google_rating: 4.1,
     instagram_handle: "fouquets",

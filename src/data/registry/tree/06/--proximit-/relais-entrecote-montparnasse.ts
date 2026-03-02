@@ -5,7 +5,7 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
     name: "Le Relais de l'Entrecôte",
     slug: "relais-entrecote-montparnasse",
     category: "restaurant",
-    subcategory: ["viande", "bistro", "institution"],
+    subcategory: ["viande", "bistro", "institution", "restaurant"],
     verified: true,
     google_rating: 4.4,
     instagram_handle: "relaisdelentrecote",

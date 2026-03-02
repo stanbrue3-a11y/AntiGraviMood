@@ -10,7 +10,7 @@ import Animated, {
   withRepeat,
 } from 'react-native-reanimated';
 import { useMomentInteraction } from '../../hooks/useMomentInteraction';
-import { Image } from 'expo-image';
+import { MoodImage } from '../common/MoodImage';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
@@ -73,14 +73,11 @@ export const MomentItem = ({
         delayLongPress={300}
         onPress={handleSmartTap}
       >
-        <Image
+        <MoodImage
           source={item.imageUri}
           style={styles.image}
-          contentFit="cover"
-          cachePolicy="disk"
+          resolution="FULL"
           priority="high"
-          recyclingKey={item.id}
-          placeholderContentFit="cover"
         />
 
         {/* 2. THE SCRIM (Premium Gradient Overlay) */}
