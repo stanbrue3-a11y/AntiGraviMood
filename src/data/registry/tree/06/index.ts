@@ -4,6 +4,7 @@ import { bar_du_marche } from './--proximit-/bar-du-marche';
 import { bouillon_montparnasse } from './--proximit-/bouillon-montparnasse';
 import { cafe_mairie_6 } from './--proximit-/cafe-mairie-6';
 import { cvs_saint_germain } from './--proximit-/cvs-saint-germain';
+import { joayo_luxembourg } from './--proximit-/joayo-luxembourg';
 import { les_editeurs } from './--proximit-/les-editeurs';
 import { polidor } from './--proximit-/polidor';
 import { prescription_cocktail_club } from './--proximit-/prescription-cocktail-club';
@@ -20,6 +21,7 @@ export const arrondissement_6Places: SurgicalPlace[] = [
     bouillon_montparnasse,
     cafe_mairie_6,
     cvs_saint_germain,
+    joayo_luxembourg,
     les_editeurs,
     polidor,
     prescription_cocktail_club,

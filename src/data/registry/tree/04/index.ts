@@ -9,6 +9,7 @@ import { pavillon_de_l_arsenal } from './--proximit-/pavillon-de-l-arsenal';
 import { sherry_butt } from './bastille/sherry-butt';
 import { place_des_vosges } from './saint-paul---chemin-vert/place-des-vosges';
 import { les_nautes } from './sully-morland/les-nautes';
+import { le_feria } from './saint-paul---chemin-vert/le-feria';
 
 export const arrondissement_4Places: SurgicalPlace[] = [
     lafayette_anticipations,
@@ -20,5 +21,6 @@ export const arrondissement_4Places: SurgicalPlace[] = [
     pavillon_de_l_arsenal,
     sherry_butt,
     place_des_vosges,
-    les_nautes
+    les_nautes,
+    le_feria
 ];

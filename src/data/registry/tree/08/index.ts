@@ -26,11 +26,11 @@ export const arrondissement_8Places: SurgicalPlace[] = [
     le_bristol_bar,
     le_piaf_paris,
     leclaireur_boissy,
+    maison_de_l_aubrac,
     manko_paris,
     musee_jacquemart_andre,
     musee_nissim_camondo,
     petit_palais,
     raspoutine_paris,
-    maison_de_l_aubrac,
     parc_monceau
 ];

@@ -214,7 +214,6 @@ const ExpertTalkSection = React.memo(() => {
                 )}
               </View>
 
-              {/* MAIN HEADLINE (Always visible) */}
               <Text
                 style={[
                   sectionStyles.expertHeadline,

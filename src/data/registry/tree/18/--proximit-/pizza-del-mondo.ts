@@ -47,27 +47,48 @@ export const pizza_del_mondo: SurgicalPlace = {
         "smart_tip": "La pizza 'Del Mondo' (viande hachée, merguez) est l'un des meilleurs rapports qualité-prix du quartier pour un repas sur le pouce.",
         "menu_items": [
             {
-                "category": "Pizzas Maison",
+                "category": "Pizzas Maison (Four à Pierre)",
                 "items": [
-                    { "name": "Margherita", "price": "11,50€" },
-                    { "name": "Regina", "price": "13,50€" },
-                    { "name": "Carbonara", "price": "14,50€" },
-                    { "name": "Végétariana", "price": "15,50€" }
+                    { "name": "Margherita", "price": "12,00€" },
+                    { "name": "Del Mondo (viande hachée, merguez, œuf)", "price": "12,50€" },
+                    { "name": "Regina (jambon, champignons)", "price": "14,50€" },
+                    { "name": "Umberto (jambon, œuf)", "price": "14,00€" },
+                    { "name": "Napoletano (anchois, câpres, olives)", "price": "14,50€" },
+                    { "name": "Américain (poivron, salami)", "price": "14,50€" },
+                    { "name": "Quatre Fromages", "price": "15,50€" },
+                    { "name": "Calzone (jambon, champignons, œuf)", "price": "15,00€" },
+                    { "name": "Chorizo", "price": "15,00€" },
+                    { "name": "Hawaï (jambon, ananas)", "price": "15,00€" },
+                    { "name": "Quatre Saisons", "price": "15,50€" },
+                    { "name": "Pescatore", "price": "15,50€" },
+                    { "name": "Poulet", "price": "16,00€" },
+                    { "name": "Campione", "price": "16,00€" },
+                    { "name": "Salmone", "price": "16,50€" }
                 ]
             },
             {
                 "category": "Pâtes",
                 "items": [
+                    { "name": "Napoletana", "price": "13,50€" },
                     { "name": "Bolognaise maison", "price": "14,50€" },
-                    { "name": "Carbonara", "price": "15,50€" },
-                    { "name": "Napoletana", "price": "13,50€" }
+                    { "name": "Carbonara", "price": "15,50€" }
                 ]
             },
             {
                 "category": "Desserts Maison",
                 "items": [
-                    { "name": "Tiramisu Maison", "price": "6,50€" },
-                    { "name": "Mousse au chocolat", "price": "5,50€" }
+                    { "name": "Mousse au chocolat", "price": "5,50€" },
+                    { "name": "Tiramisu Maison", "price": "6,50€" }
+                ]
+            },
+            {
+                "category": "Boissons",
+                "items": [
+                    { "name": "Café", "price": "2,00€" },
+                    { "name": "Soft", "price": "4,00€" },
+                    { "name": "Verre de vin", "price": "5,00€" },
+                    { "name": "Pain à l'ail", "price": "6,50€" },
+                    { "name": "Pain à l'ail avec mozzarella", "price": "8,50€" }
                 ]
             }
         ],

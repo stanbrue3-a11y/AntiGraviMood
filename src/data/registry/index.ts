@@ -21,51 +21,28 @@ import { arrondissement_19Places } from './tree/19';
 import { arrondissement_20Places } from './tree/20';
 
 // AGGREGATE ALL DATA FROM REGISTRY TREE 🌳
-const rawDistricts = [
-    { name: 'District 1', data: arrondissement_1Places },
-    { name: 'District 2', data: arrondissement_2Places },
-    { name: 'District 3', data: arrondissement_3Places },
-    { name: 'District 4', data: arrondissement_4Places },
-    { name: 'District 5', data: arrondissement_5Places },
-    { name: 'District 6', data: arrondissement_6Places },
-    { name: 'District 7', data: arrondissement_7Places },
-    { name: 'District 8', data: arrondissement_8Places },
-    { name: 'District 9', data: arrondissement_9Places },
-    { name: 'District 10', data: arrondissement_10Places },
-    { name: 'District 11', data: arrondissement_11Places },
-    { name: 'District 12', data: arrondissement_12Places },
-    { name: 'District 13', data: arrondissement_13Places },
-    { name: 'District 14', data: arrondissement_14Places },
-    { name: 'District 15', data: arrondissement_15Places },
-    { name: 'District 16', data: arrondissement_16Places },
-    { name: 'District 17', data: arrondissement_17Places },
-    { name: 'District 18', data: arrondissement_18Places },
-    { name: 'District 19', data: arrondissement_19Places },
-    { name: 'District 20', data: arrondissement_20Places }
+const allPlaces: SurgicalPlace[] = [
+    ...arrondissement_1Places,
+    ...arrondissement_2Places,
+    ...arrondissement_3Places,
+    ...arrondissement_4Places,
+    ...arrondissement_5Places,
+    ...arrondissement_6Places,
+    ...arrondissement_7Places,
+    ...arrondissement_8Places,
+    ...arrondissement_9Places,
+    ...arrondissement_10Places,
+    ...arrondissement_11Places,
+    ...arrondissement_12Places,
+    ...arrondissement_13Places,
+    ...arrondissement_14Places,
+    ...arrondissement_15Places,
+    ...arrondissement_16Places,
+    ...arrondissement_17Places,
+    ...arrondissement_18Places,
+    ...arrondissement_19Places,
+    ...arrondissement_20Places
 ];
-
-rawDistricts.forEach(dist => {
-    if (dist.data.some(p => !p)) {
-        console.error(`🚨 DETECTED undefined in ${dist.name}!`);
-        dist.data.forEach((p, i) => {
-            if (!p) console.error(`   -> Index ${i} is undefined`);
-        });
-    }
-});
-
-const rawPlaces: (SurgicalPlace | undefined)[] = rawDistricts.flatMap(d => d.data);
-
-const allPlaces = rawPlaces.filter((p): p is SurgicalPlace => {
-    if (!p) {
-        console.warn('⚠️ Found undefined place in registry!');
-        return false;
-    }
-    return true;
-});
-
-if (allPlaces.length !== rawPlaces.length) {
-    console.error(`🚨 CRITICAL: Skipped ${rawPlaces.length - allPlaces.length} undefined places!`);
-}
 
 // VALIDATION LAYER (Runtime)
 const seenIds = new Set<string>();

@@ -13,7 +13,9 @@ import { gravity_bar } from './jacques-bonsergent/gravity-bar';
 import { point_ephemere } from './louis-blanc/point-ephemere';
 import { bouillon_julien } from './strasbourg---saint-denis/bouillon-julien';
 import { l_attirail_cafe } from './strasbourg---saint-denis/l-attirail-cafe';
+import { cavale } from './strasbourg---saint-denis/cavale';
 import { mauri_7 } from './strasbourg---saint-denis/mauri-7';
+import { chez_maman } from './canal-saint-martin/chez-maman';
 
 export const arrondissement_10Places: SurgicalPlace[] = [
     bbp_canal,
@@ -30,5 +32,7 @@ export const arrondissement_10Places: SurgicalPlace[] = [
     point_ephemere,
     bouillon_julien,
     l_attirail_cafe,
-    mauri_7
+    mauri_7,
+    chez_maman,
+    cavale
 ];

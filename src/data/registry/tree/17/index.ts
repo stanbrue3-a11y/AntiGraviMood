@@ -11,6 +11,7 @@ import { formaticus_paris } from './--proximit-/formaticus-paris';
 import { gyoza_bar_17 } from './--proximit-/gyoza-bar-17';
 import { hoba_paris } from './--proximit-/hoba-paris';
 import { janine_paris } from './--proximit-/janine-paris';
+import { la_cantina_chic } from './--proximit-/la-cantina-chic';
 import { la_recoleta } from './--proximit-/la-recoleta';
 import { le_bal_paris } from './--proximit-/le-bal-paris';
 import { le_wimereux_paris } from './--proximit-/le-wimereux-paris';
@@ -22,7 +23,6 @@ import { ptit_canon_paris } from './--proximit-/ptit-canon-paris';
 import { square_des_batignolles } from './--proximit-/square-des-batignolles';
 import { terres_de_cafe_batignolles } from './--proximit-/terres-de-cafe-batignolles';
 import { tout_monde_paris } from './--proximit-/tout-monde-paris';
-import { la_cantina_chic } from './--proximit-/la-cantina-chic';
 
 export const arrondissement_17Places: SurgicalPlace[] = [
     bistrot_des_dames,

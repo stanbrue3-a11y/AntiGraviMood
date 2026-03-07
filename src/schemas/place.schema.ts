@@ -159,6 +159,7 @@ export const PlaceSchema = z.object({
       cuisine: z.array(z.string()).default([]),
       drinks: z.array(z.string()).default([]),
       must_eat: z.string().optional(),
+      must_drink: z.string().optional(),
       expert_catchline: z.string().optional(), // Keep for registry back-compat during migration
     })
     .optional(),
@@ -167,6 +168,7 @@ export const PlaceSchema = z.object({
     .object({
       insider_tip: z.string().optional(),
       must_eat: z.string().optional(),
+      must_drink: z.string().optional(),
     })
     .optional(),
 

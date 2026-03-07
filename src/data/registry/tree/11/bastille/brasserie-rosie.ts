@@ -1,0 +1,125 @@
+import { SurgicalPlace } from '../../../type-definition';
+
+export const brasserie_rosie: SurgicalPlace = {
+    id: "poi-brasserie-rosie",
+    name: "Brasserie Rosie",
+    slug: "brasserie-rosie",
+    category: "restaurant",
+    subcategory: ["brasserie", "traditionnel", "restaurant"],
+    location: {
+        address: "53 Rue du Faubourg Saint-Antoine",
+        arrondissement: 11,
+        lat: 48.8521656,
+        lng: 2.3731937,
+        nearest_metro: "Bastille",
+        metro_lines: [1, 5, 8],
+        google_id: "ChIJpxiIIGdz5kcRw6DgrF-erAA"
+    },
+    moods: {
+        chill: 50,
+        festif: 40,
+        culturel: 10
+    },
+    practical: {
+        opening_hours_raw: "lundi: 12:00–14:30, 18:45–22:30\nmardi: 12:00–14:30, 18:45–22:30\nmercredi: 12:00–14:30, 18:45–22:30\njeudi: 12:00–14:30, 18:45–22:30\nvendredi: 12:00–14:30, 18:45–23:00\nsamedi: 12:00–15:00, 18:45–23:00\ndimanche: 12:00–15:00, 18:45–22:00",
+        reservation_policy: "resa_conseillee",
+        terrace: false,
+        accessibility: true,
+        wifi: false,
+        main_action: {
+            type: "site",
+            url: "https://brasseriesalamode.com/brasserie-rosie",
+            label: "RÉSERVER"
+        }
+    },
+    pricing: {
+        avg_budget: 30,
+        is_free: false,
+        pint_price: 6.50,
+        wine_glass: 6.00,
+        coffee_price: 2.50,
+        dish_price: 18, // MANUAL: Moyenne des plats principaux (16-20€), axé sur les vrais plats.
+        last_updated: "2026-03-07",
+        menu_items: [
+            {
+                category: "Les Formules (Le Midi en Semaine)",
+                items: [
+                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
+                    { name: "Formule Déjeuner (E/P ou P/D)", price: "19.50€", description: "En semaine uniquement, de 11h30 à 17h." },
+                    { name: "Le Menu Brasserie Complet (E/P/D)", price: "39.50€" }
+                ]
+            },
+            {
+                category: "L'Écailler & Fruits de Mer",
+                items: [
+                    { name: "Happy Oysters (3 huîtres + 1 verre blanc)", price: "13.00€" },
+                    { name: "Crevettes (environ 100g)", price: "10.00€" },
+                    { name: "Bigorneaux (environ 300g)", price: "12.50€" },
+                    { name: "Gambas Label Rouge (par 6)", price: "14.50€" },
+                    { name: "1/2 Homard Froid, Mayonnaise", price: "22.50€" },
+                    { name: "Homard Entier, Mayonnaise maison", price: "45.00€" }
+                ]
+            },
+            {
+                category: "Hors-d'œuvre & Entrées",
+                items: [
+                    { name: "Œuf mayonnaise", price: "4.50€" },
+                    { name: "Poireaux vinaigrette", price: "6.50€" },
+                    { name: "Soupe à l'oignon gratinée à la parisienne", price: "8.50€" },
+                    { name: "6 escargots de Bourgogne Label Rouge", price: "9.50€" },
+                    { name: "Terrine des amis par Maison Brosset", price: "11.00€" }
+                ]
+            },
+            {
+                category: "Plats Principaux Fait-Maison",
+                items: [
+                    { name: "Saucisse purée au jus", price: "15.50€" },
+                    { name: "Ravioles du Royans Label Rouge, crème Parmesan", price: "16.00€" },
+                    { name: "Tartare de bœuf au couteau, frites", price: "17.00€" },
+                    { name: "Suprême de volaille", price: "18.00€" },
+                    { name: "Cordon bleu de Rosalie, coquillettes", price: "18.00€" },
+                    { name: "Coquillettes à la truffe et jambon blanc", price: "18.50€", description: "Le best-seller absolu et ultra-réconfortant de la maison." },
+                    { name: "Pavé de saumon écossais rôti, fondue de poireaux", price: "19.00€" }
+                ]
+            },
+            {
+                category: "Desserts (L'artisanat pur)",
+                items: [
+                    { name: "Crème brûlée à la vanille Bourbon", price: "9.50€" },
+                    { name: "Île flottante", price: "9.50€" },
+                    { name: "Le fameux Paris-Brest", price: "11.50€" },
+                    { name: "Soufflé au chocolat", price: "12.50€" }
+                ]
+            },
+            {
+                category: "Coupes Glacées",
+                items: [
+                    { name: "Coupes 2 boules", price: "8.50€" },
+                    { name: "Coupes 3 boules", price: "10.50€" },
+                    { name: "Café ou Chocolat Liégeois", price: "12.50€" },
+                    { name: "Coupe Nocciolata", price: "12.50€" },
+                    { name: "Dame Blanche", price: "12.50€" }
+                ]
+            }
+        ]
+    },
+    images: {
+        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUvNAXEO_VpHe8y7kMEuKoFLTBdaNDeIC84jE-qjpZjI_X-1UrW478Q5vT6Qsdbma2uNGdxBwxKb_XGTxc8RV5jDyzLRhXSS_oXedRBuxg5exMsQBvR0_ukb694pmDgJm9hLaoPIXiR604FH_TKWw9cNdIBPWOcROVB1YUeoWoUSs_Atf244vo1EbsHTB0sJ8pv3FWqHCltsgWdy68NQa5ruuKNk7D5wtaLSwiQo-QwgZBxo1vNUXJBm0WEt8ftt9s05y6sozaIh1TDKpWt5RnzxGd1WrjxJeADCiMTK9igZw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        gallery: [
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXIaXQ0ik95okz48pzc1tcfiPWHPkGP-kB92d-zr-HmXVVtlMbw2nEtuUQrQOIdEvY16-k2u3MVXgTZ2EMgoOiymFQLs96j7qsWIEWeZhrmusTggVJ38xAd-yY5b2QgESYSjxzMQLbBT4DLD3qW-bNrunAU2FdC4bOtXuLlIfqxmdZRQzMPr4vHBYnbCJg5ARSA60JtjIhZLwGJoR1WcdyJFg1egoQy_iGRdVR6brLcHQt80uSQYhiciAS-4hgxRgpn7-AW0Bjr9-S2AIqVmlZfWDhtLALC1jKK1VOzacCGd61GCpR4R4rqLtJfQN4ezk7vbNmM-aBf75i-GU0o70XKvo19fLFS_TlX1NCbxt0iZ6km5Le5E0MCMY0PbMzFQjmxHmuaZcFYTFAE6fsJ7dCtCQ5LgY-ekrANUKfq0549PhtNDpHhE3nOweCldg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUdWpzOzfIuVZDOD0mfWUfkdvxiXs9hxAxD1djDwg4HFkfcR5VlsMmnXVVdSAUBoHMAF3R2GA8u0EifmK_0oP3iH96knLOM9xLd4Ow5XFk6Kd-KB0sxEhSPSbK5hYVdkw77CH5D7-0-rTFLxx5mAWaEpjqC9IhZl5sPbkgqKnkY2PtVo396YeOAJrBkKj4HVTz--zW46o6xsOsZBYPP0F1uYJbWc0x0QYLx_Vmw2aYNKwg7xuR2oDaJLq1_ky9dTNUHVnInWr68GC3saPjTpR3jC8OfWgW6XAIUkkcTEooa5Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+        ]
+    },
+    instagram_handle: "brasserierosie",
+    verified: true,
+    google_rating: 4.7,
+    description: "Une brasserie furieusement moderne qui ressuscite l'âme des grands bouillons parisiens avec un décor hyper travaillé (moquettes fleuries, banquettes velours rose) et un 100% fait main à prix justes.",
+    insider_tip: "• Les saloirs/boutiques privatisables au premier étage valent le coup d'œil.\n• Pour une brasserie aussi stylisée, le rapport qualité/prix (notamment la formule à 19,50€ le midi) est imbattable dans ce quartier.\n• Le Paris-Brest y est stratosphérique, il justifie presque le déplacement.",
+    expert_catchline: "La néo-brasserie parfaite : déco dingue, 100% fait-maison, et coquillettes à la truffe en étendard.",
+    specials: {
+        cuisine: ["Coquillettes truffe/jambon", "Paris-Brest de folie"],
+        drinks: ["Pinte de blonde rafraîchissante"],
+        must_eat: "Vous n'aurez d'autre choix que de sombrer devant les réjouissantes coquillettes à la crème de truffes (servies dans leur poêlon en cuivre).",
+        must_drink: "Restez sur de bons basiques traditionnels comme une pinte de bière artisanale."
+    }
+};

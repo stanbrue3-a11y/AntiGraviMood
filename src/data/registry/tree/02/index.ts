@@ -5,6 +5,7 @@ import { petit_bao } from './--proximit-/petit-bao';
 import { rex_club } from './bonne-nouvelle/rex-club';
 import { danico } from './bourse/danico';
 import { silencio } from './bourse/silencio';
+import { sugo } from './bourse/sugo';
 
 export const arrondissement_2Places: SurgicalPlace[] = [
     dalia,
@@ -12,5 +13,6 @@ export const arrondissement_2Places: SurgicalPlace[] = [
     petit_bao,
     rex_club,
     danico,
-    silencio
+    silencio,
+    sugo
 ];

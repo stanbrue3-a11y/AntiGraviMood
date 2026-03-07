@@ -34,7 +34,8 @@ export const las_du_shawarma: SurgicalPlace = {
         "is_free": false,
         "index_price": 12,
         "primary_price_type": "dish",
-        "dish_price": 11.5,
+        "dish_price": 16, // MANUAL: Assiette complète (Meat, sides) over Sandwich
+        "force_manual_dish_price": true,
         "pint_price": 0, // Ne sert pas d'alcool (Halal/Religieux possiblement)
         "wine_glass": 0,
         "coffee_price": 2.0,

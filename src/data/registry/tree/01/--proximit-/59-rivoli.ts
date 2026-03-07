@@ -23,8 +23,10 @@ export const poi_59_rivoli: SurgicalPlace = {
         "accessibility": false,
         "wifi": false,
         "opening_hours_raw": "",
-        "action_type": "site",
-        "action_url": ""
+        "main_action": {
+            "type": "site",
+            "url": "https://www.59rivoli.org/"
+        }
     },
     "pricing": {
         "avg_budget": 2,

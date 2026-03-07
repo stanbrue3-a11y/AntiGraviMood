@@ -12,6 +12,7 @@ import { temps_des_cerises } from './--proximit-/temps-des-cerises';
 import { la_felicita } from './all/la-felicita';
 import { wanderlust } from './gare-d-austerlitz/wanderlust';
 import { le_val_royal } from './port-royal/le-val-royal';
+import { lancetta } from './place-d-italie/lancetta';
 
 export const arrondissement_13Places: SurgicalPlace[] = [
     batofar,
@@ -26,5 +27,6 @@ export const arrondissement_13Places: SurgicalPlace[] = [
     temps_des_cerises,
     la_felicita,
     wanderlust,
-    le_val_royal
+    le_val_royal,
+    lancetta
 ];

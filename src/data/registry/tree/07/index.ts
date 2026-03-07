@@ -1,7 +1,7 @@
 import { SurgicalPlace } from '../../../type-definition';
 import { cafe_constant } from './--proximit-/cafe-constant';
 import { cafe_du_marche_7 } from './--proximit-/cafe-du-marche-7';
-import { chez_lami_jean } from './--proximit-/chez-lami-jean';
+import { l_ami_jean } from '../7/invalides/l-ami-jean';
 import { coutume_babylone } from './--proximit-/coutume-babylone';
 import { fluctuart } from './--proximit-/fluctuart';
 import { le_petit_cler } from './--proximit-/le-petit-cler';
@@ -14,7 +14,7 @@ import { musee_orsay } from './--proximit-/musee-orsay';
 export const arrondissement_7Places: SurgicalPlace[] = [
     cafe_constant,
     cafe_du_marche_7,
-    chez_lami_jean,
+    l_ami_jean,
     coutume_babylone,
     fluctuart,
     le_petit_cler,

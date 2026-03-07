@@ -23,8 +23,8 @@ const buildLayout = (
   if (hasPricing) layout.push('price_gauge');
   if (hasOpening) layout.push('hours');
 
-  // On mange quoi ici ? — Unified source: specials OR real_talk
-  if (place.specials?.must_eat || place.real_talk?.must_eat) {
+  // On mange/boit quoi ici ? — Unified source
+  if (place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.must_drink || place.real_talk?.must_drink) {
     layout.push('must_eat');
   }
 
@@ -152,10 +152,12 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     expertise: (place.real_talk || place.insider_tip)
       ? {
         type: isBarContext ? 'drink' : 'food',
-        headline: place.specials?.expert_catchline || place.specials?.must_eat || 'Expertise & Sélection.',
+        headline: isBarContext
+          ? place.specials?.must_drink || place.real_talk?.must_drink || place.specials?.expert_catchline || place.specials?.must_eat || 'Sélection Liqueurs & Spiritueux.'
+          : place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.expert_catchline || 'Expertise & Sélection.',
         insiderTip: place.insider_tip,
         leSecret: place.real_talk?.insider_tip,
-        leSon: place.real_talk?.must_eat,
+        leSon: isBarContext ? place.real_talk?.must_drink || place.real_talk?.must_eat : place.real_talk?.must_eat || place.real_talk?.must_drink,
         cuisineLabel: place.practical_info?.cuisine_type || (place.specials?.cuisine || []).join(' • ') || undefined,
       }
       : null,

@@ -101,11 +101,13 @@ export class PriceEngine {
         const active = activeCategories.map(c => c.toLowerCase());
 
         // 1. Contextual Override (Standard Janus 2026)
-        // If user is explicitly filtering by "bar" or "boisson", we pivot to drinks even for restaurants
-        if (active.some(c => c.includes('bar') || c.includes('boisson') || c.includes('vin') || c.includes('cocktail'))) {
-            if (sub.includes('vin')) return 'wine';
-            if (sub.includes('cocktail')) return 'cocktail';
-            return 'pint'; // Default drink pivot
+        // Explicit filters take absolute priority
+        if (active.some(c => c.includes('vin'))) return 'wine';
+        if (active.some(c => c.includes('cocktail'))) return 'cocktail';
+
+        // If user is explicitly filtering by "bar" or "boisson", pint is KING.
+        if (active.some(c => c.includes('bar') || c.includes('boisson'))) {
+            return 'pint';
         }
 
         // If user is explicitly filtering by "restaurant" or "food", we pivot to dishes even for bars
@@ -115,19 +117,18 @@ export class PriceEngine {
 
         // 2. Mandatory Category Primacy (Standard 2026)
         if (category === 'restaurant') {
-            if (sub.includes('vin') || sub.includes('cocktail') || sub.includes('bar-a-vin')) {
-                // Keep sub-specialty for hybrid wine/cocktail dining if no explicit filter
-            } else {
-                return 'dish';
-            }
+            return 'dish';
         }
 
         if (category === 'bar') return 'pint';
         if (category === 'club') return 'cocktail';
 
         // 3. Specialty Specificity (Subcategories)
+        // CRITICAL FIX: To respect the 2026 "Pint/HH" priority rule, 'bar à cocktails'
+        // should only override to cocktail IF it's not a general bar first, or if explicitly filtered.
+        // We defer 'cocktail' resolution to fallback if 'bar' is the primary category.
         if (sub.includes('vin') || sub.includes('cave') || sub.includes('nature')) return 'wine';
-        if (sub.includes('cocktail') || sub.includes('speakeasy') || sub.includes('mixo')) return 'cocktail';
+        if (category as string !== 'bar' && (sub.includes('cocktail') || sub.includes('speakeasy') || sub.includes('mixo'))) return 'cocktail';
         if (sub.includes('café') || sub.includes('coffee') || sub.includes('salon-de-the')) return 'coffee';
 
         // 4. Fallbacks

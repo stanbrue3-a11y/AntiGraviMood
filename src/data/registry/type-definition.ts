@@ -85,6 +85,8 @@ export interface Pricing {
     wine_glass?: number;     // Standard glass (Wine bars)
     coffee_price?: number;   // Espresso price (Cafés)
     dish_price?: number;     // Main representative dish (Restaurants)
+    force_manual_dish_price?: boolean; // Bypass algorithmic median calculation when required
+    menu_type?: 'fixed' | 'standard'; // 'fixed' = tasting/set menu only (Septime, Pianovins). Exempts from minimum items gate.
 
     // Extended prices
     shot_price?: number;
@@ -132,6 +134,7 @@ export interface SurgicalPlace {
         cuisine?: CuisineType[];
         drinks?: BeverageTypeFlexible[];
         must_eat?: string;    // Moved to insider_tip but kept here for data pipeline logic
+        must_drink?: string;
         expert_catchline?: string;
     };
 

@@ -69,17 +69,17 @@ export const chez_alphonse: SurgicalPlace = {
         "last_updated": "2026-03-03"
     },
     "moods": {
-        "chill": 80,
+        "chill": 70,
         "festif": 35,
         "culturel": 20
     },
-    "description": "Véritable institution du quartier Alésia, Chez Alphonse incarne le bistro parisien tel qu'on le rêve : une cuisine sincère, des produits frais sourcés auprès de producteurs locaux et une ambiance qui réchauffe le cœur. Entre les boiseries industrielles et les grandes tablées, on s'y sent tout de suite chez soi.",
-    "insider_tip": "Demandez la table de coin près de la fenêtre : c'est le meilleur spot pour observer l'effervescence de la rue Alphonse Daudet en savourant le mythique confit de canard. Côté vins, laissez-vous guider vers les blancs de Loire, la sélection est exceptionnelle.",
+    "description": "Niché rue Alphonse Daudet, Chez Alphonse est l'archétype du néo-bistrot de quartier réussi. Le lieu marie avec élégance des cloisons modernes, de confortables banquettes et de grandes tablées boisées sous une belle hauteur de plafond. Ici, la cuisine française traditionnelle est exécutée avec la précision d'un restaurant gastronomique mais servie avec la générosité d'une brasserie. Le sourcing est au cœur de l'assiette, privilégiant les circuits courts et les produits d'artisans. C'est une valeur sûre, aussi bien pour un déjeuner rapide que pour un dîner épicurien, portée par une équipe d'une efficacité redoutable.",
+    "insider_tip": "• La formule Ardoise à 31€ est l'une des meilleures affaires du quartier Alésia.\n• La salle pouvant être animée le soir, la terrasse en angle est très prisée aux beaux jours (non réservable).\n• L'établissement possède une excellente sélection de blancs de Loire hors-carte pour accompagner le poisson.\n• Ne passez pas à côté du Cheesecake Pistache, plébiscité par les habitués.",
     "specials": {
-        "cuisine": ["Français", "Cuisine à l'ardoise", "Canard confit"],
-        "drinks": ["Vin", "Vins de vignerons", "Bières artisanales"],
-        "must_eat": "Le confit de canard avec son écrasé de PDT maison.",
-        "expert_catchline": "Bistronomie franche et chaleureuse au pied du métro Alésia."
+        "cuisine": ["Bistronomie", "Viandes Françaises", "Fait Maison"],
+        "drinks": ["Vins de Producteurs", "Blancs de Loire", "Softs Artisanaux"],
+        "must_eat": "Le Confit de Canard fondant & le Cheesecake Pistache.",
+        "expert_catchline": "Bistronomie franche, sourcing pointu et générosité au cœur du 14e."
     },
     "images": {
         "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJFdGeqnhI_1adHrFvY1piUpZCYyDssFiA3XhMKGXs83Inn6LO8qH-xyK7M8oC9exVpraTdcJyFwQGlAiqHLA7tafH0Vx0oJHfrjOi-zs1O8jIAeYLpf5SYTO5YL68dbLebON9iSYoHvKEqBLo4uBCWjqOpqGRodFz2iRSpnvzt5V7JLNAD-AOXdkUuswsl-XTBK7zx56SzxAmL1wPX31YGveGuKluw2jZUtg3Se8sQ83fn1_QcEMuZ2Kb5zw5_wqUDN0T3Qu0W4xL4_728H1wzOlePJxCCT_MF_2X92cZ0g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",

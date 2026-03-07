@@ -210,9 +210,11 @@ let sqlOutput = SCHEMA_SQL + '\n-- DATA INJECTION --\n';
 allPlaces.forEach((p, index) => {
   // 0. PRICING AUTOMATION (Standard 2026 Full Auto) 📊
   const medianDishPrice = calculateMedianDishPrice(p.pricing.menu_items);
+  const finalDishPrice = p.pricing.force_manual_dish_price ? p.pricing.dish_price : (medianDishPrice ?? p.pricing.dish_price);
+
   const effectivePricing = {
     ...p.pricing,
-    dish_price: medianDishPrice ?? p.pricing.dish_price
+    dish_price: finalDishPrice
   };
 
   // 1. VALIDATION (The "Blindage") 🛡️
@@ -224,6 +226,46 @@ allPlaces.forEach((p, index) => {
     });
     errorCount++;
     return;
+  }
+
+  // --- 🚨 MENU EXHAUSTIVENESS GATE (Standard Moelle 2026) 🚨 ---
+  // BLOCKING: This gate PREVENTS compilation if a restaurant has a TRUNCATED menu.
+  // - Legacy fiches with NO menu_items at all → WARNING only (not blocking).
+  // - Fiches with menu_items that are too short → BLOCKED (lazy scrape detected).
+  // - Restaurants with fixed tasting menus (menu_type: 'fixed') → exempt.
+  if (p.category === 'restaurant' && p.verified) {
+    const isFixedMenu = p.pricing.menu_type === 'fixed';
+    const hasMenuItems = p.pricing.menu_items && p.pricing.menu_items.length > 0;
+
+    if (!isFixedMenu) {
+      if (!hasMenuItems) {
+        // Legacy fiche — no menus at all. Warn but don't block.
+        console.warn(`⚠️ [Menu Debt] ${p.name}: No menu_items defined. Needs deep scrape.`);
+      } else {
+        // Menu exists but may be truncated — enforce Moelle standard.
+        const allItems = p.pricing.menu_items!.flatMap(cat => cat.items);
+        const pricedItems = allItems.filter(item => {
+          const priceNum = parseFloat(item.price?.replace('€', '').replace(',', '.') || '0');
+          return priceNum > 0;
+        });
+        const distinctCategories = new Set(p.pricing.menu_items!.map(cat => cat.category));
+
+        const MIN_PRICED_ITEMS = 10;
+        const MIN_CATEGORIES = 2;
+
+        if (pricedItems.length < MIN_PRICED_ITEMS) {
+          console.error(`🚫 [MENU GATE BLOCKED] ${p.name}: Only ${pricedItems.length} priced items (minimum: ${MIN_PRICED_ITEMS}). Scrape deeper or add menu_type: 'fixed'.`);
+          errorCount++;
+          return;
+        }
+
+        if (distinctCategories.size < MIN_CATEGORIES) {
+          console.error(`🚫 [MENU GATE BLOCKED] ${p.name}: Only ${distinctCategories.size} menu category (minimum: ${MIN_CATEGORIES}). Add at least Plats + Desserts.`);
+          errorCount++;
+          return;
+        }
+      }
+    }
   }
 
   // --- INDUSTRIAL 2026 QUALITY GUARD 🛡️ ---
@@ -242,7 +284,7 @@ allPlaces.forEach((p, index) => {
     const isBarAPlanches = p.category === 'bar' && p.subcategory.includes('bar-a-planches');
 
     if (isRestaurant || isBarAPlanches) {
-      if (medianDishPrice) {
+      if (medianDishPrice && !p.pricing.force_manual_dish_price) {
         const manualPrice = p.pricing.dish_price;
         if (manualPrice) {
           const diff = Math.abs(manualPrice - medianDishPrice);
