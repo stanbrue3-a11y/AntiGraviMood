@@ -9,8 +9,8 @@ export const erso: SurgicalPlace = {
     location: {
         address: "18 Rue Saint-Ambroise",
         arrondissement: 11,
-        lat: 48.86239339999999,
-        lng: 2.3781824,
+        lat: 48.862393,
+        lng: 2.378182,
         nearest_metro: "Saint-Ambroise",
         metro_lines: [9],
         google_id: "ChIJ5xLQUi5t5kcRm28wzY19NIQ"
@@ -23,7 +23,7 @@ export const erso: SurgicalPlace = {
     practical: {
         opening_hours_raw: "lundi: Fermé\nmardi: 12:30–14:00, 19:30–22:00\nmercredi: 12:30–14:00, 19:30–22:00\njeudi: 12:30–14:00, 19:30–22:00\nvendredi: 12:30–14:00, 19:30–22:00\nsamedi: 12:30–14:00, 19:30–22:00\ndimanche: Fermé",
         reservation_policy: "resa_obligatoire",
-        terrace: false,
+        terrace: true,
         accessibility: true,
         wifi: false,
         main_action: {
@@ -82,8 +82,7 @@ export const erso: SurgicalPlace = {
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUHoxtcJEG8eXFfP1ngE_SFRN35Wb139Z_RTd1gr2GuGbcZfh1stD1yPFwWzvi5kE3gstt_dmba-PRol_mhnoIlqkQzwI4WduXDMLlUbOogK9Iusdo0TcKl__LXUxQCUySeyqeqVXA6DFEr5dmf0TyKakkYlQn44Nz9A486uFCcBoQ8UETP7TG_wALhSETnmxE7vjdvjPeAN1zeIhGwgkj-jFmlCjk_RROnHETTyiZV4FYNl-ivyrd5sDQrgyddLmW9F8s4GKpH1uUneLb3xdPDqPp4qy_mLv3jseVCPX__9Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
         gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWZMI3mbuY1aF91cs-3uHWlK3mBibM16O8TXVuX8PwafT5cIfqEM8D7rOf3uVyB9w8NppESxtWou8AaLczIq-HUIhxlFR7MgDFPxDZ4e1oHwe0JnDByu7NoZa9MRkbzPxOthuT0pzGCiOTnt8l_3pCQJj7sZOdunSMZX8_eV4L6BSI9xAfw1Yd5K6N5RnpLy1m56tsxKzA_Z7w7acio-po7B6Pf1-7V7w41n-xMwYho3Yx_VwhozCahx6zu8YAWmSldRaxKg732SR3gGTiCLYbFti7tKF95uO6dtE3LTW-paw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVg2v7AwH0ILCt43f8E7NVKJq-yMMvJV4Nf-yFie2nlQFOj2T4ERjTQ5kv05hEk8xBAE3Tpv8e66Cxqqkw_EB2J5Gazx9YNS24E880Scv_coXFFQrzaKamvJJLxJysC42KzautjgY9IAD0E05O3HTdscSCoku2jpVcYnGLTRUD1p-IBUMwC6eOII2hML0uaT3zAKSPWLx24R0QHTzHRP3AW9-JX8bcx7k4EqXIJ0NN3lMz0QIjMIFjDQ2qiDmV8kjMEu6nWzMOvkm2xwFZnVkZENcMGvWhIkW_Zkj03hpOK-awhVcJEPi6aIJjC7DXG0A7YRYSybLNQG5f9gPduh1hDDWhHsvERJaKE1qKKVk_FS4M0nvgPppjw7SgTtonPFbTmcAB5HPfXLZm_wHWPibsnbDpAYnHH7vrPOUPXGl9OrwxSJa_O2EbEyYg93g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-KFjNMXLPu12imCC_ZJhmUnwrYpBejcsZjVg3qEPtMKECHBybCOE83zIpVCLTM7cn8KqhE6CZ0hRrshsLd4u-uz3g_tTTHo3DUcIc4NMNMBMWqiea&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
         ]
     },
     instagram_handle: "erso.paris",

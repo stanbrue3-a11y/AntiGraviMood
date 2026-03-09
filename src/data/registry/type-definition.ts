@@ -155,6 +155,7 @@ export interface SurgicalPlace {
     verified: boolean;
     google_rating?: number;
     instagram_handle?: string;
+    michelin_stars?: number; // 1, 2, or 3 stars
 
     // Data Provenance 🧬
     source?: 'expert_human' | 'research_ai' | 'to_be_verified';

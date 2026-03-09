@@ -37,8 +37,8 @@ export const le_villaret: SurgicalPlace = {
         is_free: false,
         pint_price: 0,
         wine_glass: 10.00,
-        coffee_price: 0,
-        dish_price: 47, // MANUAL: Median des Plats (42, 52) — carte réduite, data TheFork+site
+        coffee_price: 3.50,
+        dish_price: 32.00, // VERIFIED 2025: Median of main courses (22€ to 52€). Lunch menu at 35€.
         last_updated: "2026-03-06",
         menu_items: [
             {
@@ -51,8 +51,11 @@ export const le_villaret: SurgicalPlace = {
                 category: "Entrées",
                 items: [
                     { name: "Queue de bœuf au foie gras", price: "18.00€" },
-                    { name: "Tête de veau", price: "16.00€" },
-                    { name: "Ris de veau doré", price: "18.00€" }
+                    { name: "Tête de veau, sauce gribiche", price: "16.00€" },
+                    { name: "Ris de veau doré", price: "18.00€" },
+                    { name: "Saumon fumé maison, focaccia herbes", price: "22.00€" },
+                    { name: "Pâté en croûte (Ris de veau, Porc, Foie gras)", price: "25.00€" },
+                    { name: "Cervelle d'agneau et petits légumes", price: "18.00€" }
                 ]
             },
             {

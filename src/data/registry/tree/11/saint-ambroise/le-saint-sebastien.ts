@@ -38,7 +38,7 @@ export const le_saint_sebastien: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 11.00,
         coffee_price: 4.00,
-        dish_price: 0, // Auto-calculated via median
+        dish_price: 33.00, // VERIFIED 2025: Median of main courses (29€ to 45€)
         last_updated: "2026-03-06",
         menu_items: [
             {

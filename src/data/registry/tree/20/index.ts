@@ -1,10 +1,9 @@
-import { SurgicalPlace } from '../../../type-definition';
 import { aux_folies } from './--proximit-/aux-folies';
 import { la_bellevilloise } from './m-nilmontant/la-bellevilloise';
-import { cite_fertile } from './pantin/cite-fertile';
+import { dilia } from './menilmontant/dilia';
 
-export const arrondissement_20Places: SurgicalPlace[] = [
+export const arrondissement_20Places = [
     aux_folies,
     la_bellevilloise,
-    cite_fertile
+    dilia
 ];

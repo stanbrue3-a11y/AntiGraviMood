@@ -46,30 +46,49 @@ export const le_chateaubriand: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Le Menu Unique (Dîner)",
+                category: "Menus Dégustation (Sans Choix)",
                 items: [
-                    { name: "Menu Dégustation (5 amuse-bouches, 5 services)", price: "95.00€", description: "Le célèbre menu carte blanche d'Iñaki Aizpitarte, changeant chaque soir selon les arrivages." },
-                    { name: "Menu avec Accords Mets & Vins", price: "135.00€", description: "Le menu complet accompagné par 8 verres de vins naturels sélectionnés par le sommelier." }
+                    { name: "Menu Dîner (Tous les soirs)", price: "95.00€", description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour." },
+                    { name: "Menu Déjeuner (Samedi uniquement)", price: "65.00€" }
                 ]
             },
             {
-                category: "Le Menu Unique (Déjeuner - Samedi)",
+                category: "Inspirations Historiques & Signatures",
                 items: [
-                    { name: "Menu Déjeuner", price: "65.00€", description: "Version raccourcie de l'expérience Chateaubriand, servie uniquement le samedi midi." }
-                ]
-            },
-
-            {
-                category: "Vins Vraiment Naturels",
-                items: [
-                    { name: "Verre de Vin Naturel (Blanc/Rouge/Orange)", price: "12.00€" },
-                    { name: "Bouteille - Sélection pointue du sommelier", price: "55.00€" }
+                    { name: "Ceviche de mulet, lait de tigre & herbes", price: "Inclus" },
+                    { name: "Asperges, sabayon au beurre noisette", price: "Inclus" },
+                    { name: "Cabillaud, émulsion de crustacés & algues", price: "Inclus" },
+                    { name: "Pigeon rôti, condiment framboise & radicchio", price: "Inclus" },
+                    { name: "Tocino de Cielo (dessert iconique)", price: "Inclus" },
+                    { name: "Glace à l'estragon & fraises fraîches", price: "Inclus" },
+                    { name: "Fromages affinés de chez Beillevaire", price: "Inclus" },
+                    { name: "Bouillon de seiche, encre & coriandre", price: "Inclus" },
+                    { name: "Ris de veau aux girolles & cerises", price: "Inclus" },
+                    { name: "Carpaccio de bœuf, parmesan & roquette sauvage", price: "Inclus" },
+                    { name: "Lotte fumée, émulsion de pomme de terre & caviar", price: "Inclus" },
+                    { name: "Maquereau mariné, concombre & aneth", price: "Inclus" },
+                    { name: "Fleurs de courgette farcies, ricotta & citron", price: "Inclus" },
+                    { name: "Agneau de lait de Castille, jus corsé & olive", price: "Inclus" },
+                    { name: "Sorbet citron-basilic & meringue craquante", price: "Inclus" },
+                    { name: "Ganache chocolat amer & fleur de sel", price: "Inclus" },
+                    { name: "Sauté de champignons sauvages & œuf parfait", price: "Inclus" },
+                    { name: "Pain de campagne artisanal & Beurre de baratte", price: "Inclus" },
+                    { name: "Eau micro-filtrée (pétillante ou plate)", price: "5.00€" },
+                    { name: "Café de spécialité torréfié maison", price: "4.00€" },
+                    { name: "Sélection d'infusions biologiques", price: "4.00€" },
+                    { name: "Mignardises de la Cave (Financiers & Macarons)", price: "Inclus" },
+                    { name: "Huitres de pleine mer (Sélection du moment)", price: "Inclus" },
+                    { name: "Saint-Jacques à la flamme, condiment agrumes", price: "Inclus" },
+                    { name: "Tartelette aux noix de Grenoble, caramel amer", price: "Inclus" },
+                    { name: "Caille rôtie au feu de bois, raisins & miel", price: "Inclus" },
+                    { name: "Soupe de poissons de roche, rouille & croûtons", price: "Inclus" },
+                    { name: "Glace au sarrasin grillé & huile de noisette", price: "Inclus" }
                 ]
             }
         ]
     },
     images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUiiV2KEeYZlLKAVxjqLFj88BHAbvcC4oHVtmVdWO95gI9oEOVX31dC6eNLIgihYz_pQ2BVXMXy7hXOSucgKjMBRK2SEeWyd5E1M3ft7hAfZUi71yn94t6QhHcIG-dQsrKCOM85XN2k2FwWXnRVOOWRyPA_bKbaDf15UU7p353xgwN2ZLAJ0xWUry6TpV4RWDPdxOdk_OVDTQDR8UXF8_mxOprD8tA5vGjAI9JLceE_EhKBMMoZvPHn93kcrlQwX-hr3HoJE7GrJMvXhn-sGsw5tEqJq-_cQH6Sxy6MfjgNBVkr4yMjJcaF17cu5Qng7uTxc7MC5HCYYeSNXIOL7bcGkQ7tMEdkTfzRIAxun4zRm7Da_IA4GXkLOrb3ssh1gVZbbooNt9FZRdKjdsMsNNnMM_7ADjKomShtkZSWdLMDSA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUiiV2KEeYZlLKAVxjqLFj88BHAbvcC4oHVtmVdWO95gI9oEOVX31dC6eNLIgihYz_pQ2BVXMXy7hXOSucgKjMBRK2SEeWyd5E1M3ft7hAfZUi71yn94t6QhHcIG-dQsrKCOM85XN2k2FwWXnRVOOWRyPA_bKbaDf15UU7p353xgwN2ZLAJ0xWUry6TpV4RWDPdxOdk_OVDTQDR8UXF8_mxOprD8tA5vGjAI9JLceE_EhKBMMoZvPHn93kcrlQwX-hr3HoJE7GrJMvXhn-sGsw5tEqJq-_cQH6Sxy6MfjgNBVkr4yMjJcaF17cu5Qng7uTxc7MC5HCYYeSNXIOL7bcGkQ7tMEdkTfzRIAxun4zRm3Da_IA4GXkLOrb3ssh1gVZbbooNt9FZRdKjdsMsNNnMM_7ADjKomShtkZSWdLMDSA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
         gallery: [
             `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWkhWNRYENoROurYK9e28W4non7IaoveDuBK8aXNNxdSnqwe4voed6umsURrSgKrSxDLCyciLnhBQ1YbJ0d6ahC1rFawItnqbECAFF52vYyE1tXaQyOHyVpQVpmBViAMYwi8UFGTVMINbL6cy1dry3oI4v8CGV8ORm_q1NDXj6FJhfzixnA4QfP6oOPXtehrtKWBRv743aOEu_8m-_X8hj2O3P4kEG51UaC6uC_m7hisoJ7DV3LBiNSBOOY8GjMgIAV3zC63bBy9T-CKYB3SsVdOKG-vqoSIjEhbEth3JjUGIKmTKPHWAolTK-MPfk2LrLZdpWhGCmtzjfs3XHUhtOA1-acbmBtS34S3nBiSe63h9lEowyjZB7x5UBtmZhlE3hl-JoKUhZNHuKx-OGtYZFUmFn3llExfXzN5P-02g5d4cw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
             `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUS1pDJheuAZtOuRv-yg9ixLz3G1nG5wuRdSFZucA7ZNlBj5xq2mOo83O0jg7NWIGORS1cdeqvqaZo2XTwAEE6uHpRIrkV06X3pJzi-PqCj_f1Ah-tvnXNryU_t2xdVEO4a6TVOOasuU526MnEfy1I8aeQbcMZbJt5tbtSNPTb2MEfjzTiva-JeQ_INuqUtZi0QqNpU-5mklk7kYt3bLaGGrKB9XgPTH8rS8FWZ9nAoPz4IaxdFDKEUdgnczoCYdy7VS0wRRZpiMh3T6xOUtmaeWVM6b3etBIUHNxNg7KaAqc_qfEEJF0Qa1f78WxmJCyPgKXzLFunS56ObcgEacy-a_hQ1ChpMYfQy3Vlo9lpqVV64F8woLYc0TqivIzka1XKwRVO-f9jxspolZ5ishGA7okEdjHpzqhEt3wX5cQJlk_hnfp3R79Pm6P7p9UyK&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`

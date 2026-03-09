@@ -38,7 +38,7 @@ export const repaire_cartouche: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 0,
-        dish_price: 28, // MANUAL: Menu souvent 30€, plats autour de 25-30€
+        dish_price: 35, // Median des plats (28€ Parmentier, 35€ Veau, 45€ Lièvre)
         last_updated: "2026-03-07",
         menu_items: [
             {
@@ -54,23 +54,30 @@ export const repaire_cartouche: SurgicalPlace = {
                 items: [
                     { name: "Pâté en croûte de Rodolphe Paquin", price: "18.00€", description: "La légende de la maison." },
                     { name: "Terrine de boudin noir", price: "16.00€" },
-                    { name: "Salade d'oreilles de cochon", price: "15.00€" }
+                    { name: "Terrine de lièvre (Saison)", price: "17.00€" },
+                    { name: "Pâté de campagne maison", price: "12.00€" },
+                    { name: "Salade d'oreilles de cochon", price: "15.00€" },
+                    { name: "Huîtres N°3 (les 6)", price: "18.00€" }
                 ]
             },
             {
                 category: "Gibiers & Viandes (Plats)",
                 items: [
-                    // VERIFIED: Spécialités
                     { name: "Lièvre à la Royale (en saison)", price: "45.00€" },
                     { name: "Côte de veau de Normandie au cidre", price: "35.00€" },
-                    { name: "Parmentier de sanglier", price: "28.00€" }
+                    { name: "Parmentier de sanglier", price: "28.00€" },
+                    { name: "Gigot d'agneau rôti à l'ail en chemise", price: "32.00€" },
+                    { name: "Sole meunière poêlée au beurre", price: "42.00€" }
                 ]
             },
             {
-                category: "Desserts",
+                category: "Fromages & Desserts",
                 items: [
+                    { name: "Assiette de fromages affinés", price: "12.00€" },
                     { name: "Clafoutis aux pommes", price: "10.00€" },
-                    { name: "Mousse au chocolat noir et gingembre", price: "11.00€" }
+                    { name: "Mousse au chocolat noir et gingembre", price: "11.00€" },
+                    { name: "Tarte Tatin maison", price: "11.00€" },
+                    { name: "Eau micro-filtrée (75cl)", price: "4.50€" }
                 ]
             }
         ]

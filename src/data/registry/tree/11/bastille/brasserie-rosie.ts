@@ -21,9 +21,9 @@ export const brasserie_rosie: SurgicalPlace = {
         culturel: 10
     },
     practical: {
-        opening_hours_raw: "lundi: 12:00–14:30, 18:45–22:30\nmardi: 12:00–14:30, 18:45–22:30\nmercredi: 12:00–14:30, 18:45–22:30\njeudi: 12:00–14:30, 18:45–22:30\nvendredi: 12:00–14:30, 18:45–23:00\nsamedi: 12:00–15:00, 18:45–23:00\ndimanche: 12:00–15:00, 18:45–22:00",
+        opening_hours_raw: "Tous les jours: 12:00–14:30, 19:00–22:45",
         reservation_policy: "resa_conseillee",
-        terrace: false,
+        terrace: true,
         accessibility: true,
         wifi: false,
         main_action: {

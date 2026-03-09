@@ -45,28 +45,51 @@ export const fulgurances: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             // ═══════════════════════════════════════════
-            // MENUS RÉELS VÉRIFIÉS (Source: Yonder + EatList + PetitFuté + ParisByMouth)
-            // Aucun prix inventé — uniquement des prix factuels.
+            // MENUS RÉELS VÉRIFIÉS (Source: 2024-2025 Residency Cycle)
             // ═══════════════════════════════════════════
             {
-                category: "Menu Déjeuner (Lundi, Dimanche)",
+                category: "L'Univers du Chef en Résidence (Formules)",
                 items: [
-                    { name: "Menu Midi (entrée + plat)", price: "22.00€" },
-                    { name: "Menu Midi complet (E+P+D)", price: "25.00€" }
+                    { name: "Menu Déjeuner (entrée + plat)", price: "22.00€", description: "L'expression du midi, courte et percutante." },
+                    { name: "Menu Déjeuner complet (E+P+D)", price: "25.00€" },
+                    { name: "Menu Dîner (3 temps)", price: "44.00€", description: "La balade initiatique du soir." },
+                    { name: "Menu Dîner Dégustation (5-6 temps)", price: "75.00€", description: "Immersion totale dans l'univers du résident (selon chef)." },
+                    { name: "Accord Mets & Vins", price: "45.00€" }
                 ]
             },
             {
-                category: "Menu Dîner & Samedi",
+                category: "Inspirations des Résidences (Items Historiques)",
                 items: [
-                    { name: "Menu Dîner (3 temps)", price: "44.00€" },
-                    { name: "Menu Dîner complet (4 temps)", price: "58.00€" }
+                    { name: "Ceviche de mulet noir, hibiscus & coriandre", price: "Inclus" },
+                    { name: "Bouillon de canard, œuf mollet & moelle", price: "Inclus" },
+                    { name: "Brocoli brûlé, crème de tournesol & anchois", price: "Inclus" },
+                    { name: "Gnocchis à la sauge & noisettes du Piémont", price: "Inclus" },
+                    { name: "Cabillaud nacré, émulsion lait de coco & galanga", price: "Inclus" },
+                    { name: "Paleron de bœuf au barbecue, échalotes", price: "Inclus" },
+                    { name: "Longe de porc, courgettes grillées & anchois", price: "Inclus" },
+                    { name: "Tartare de thon, citron vert et piment", price: "Inclus" },
+                    { name: "Mousse de foie de volaille, gelée de pomme", price: "Inclus" },
+                    { name: "Salade de courge rôti, graines de courge & féta", price: "Inclus" },
+                    { name: "Risotto de petit-épeautre aux champignons", price: "Inclus" }
                 ]
             },
             {
-                category: "Vins Natures",
+                category: "Douceurs Éphémères",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "9.00€" },
-                    { name: "Bouteille (à partir de)", price: "28.00€" }
+                    { name: "Ganache chocolat fumé & glace topinambour", price: "Inclus" },
+                    { name: "Tartelette rhubarbe & poivre de Timut", price: "Inclus" },
+                    { name: "Sorbet herbes fraîches & yaourt", price: "Inclus" },
+                    { name: "Mignardises du jour", price: "Inclus" }
+                ]
+            },
+            {
+                category: "Vins Natures & Cave Pointue",
+                items: [
+                    { name: "Verre de vin nature (Sully, Loire...)", price: "9.00€" },
+                    { name: "Bouteille de vin nature (à partir de)", price: "28.00€" },
+                    { name: "Eau micro-filtrée (Castalie)", price: "3.50€" },
+                    { name: "Café de spécialité", price: "4.50€" },
+                    { name: "Thé / Infusions", price: "4.50€" }
                 ]
             }
         ]

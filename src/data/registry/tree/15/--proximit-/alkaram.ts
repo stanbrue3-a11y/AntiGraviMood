@@ -34,7 +34,8 @@ export const alkaram: SurgicalPlace = {
     "pricing": {
         "avg_budget": 25,
         "is_free": false,
-        "dish_price": 18,
+        "dish_price": 18, // MANUAL: Expérience mezzés ~18€/pers. Les grillades (23-25€) sont des options premium.
+        "force_manual_dish_price": true,
         "pint_price": 6,
         "cocktail_price": 9,
         "wine_glass": 8,
@@ -60,7 +61,7 @@ export const alkaram: SurgicalPlace = {
                 ]
             },
             {
-                "category": "Sandwichs & Grillades",
+                "category": "Grillades & Assiettes",
                 "items": [
                     { "name": "Chawarma (Bœuf mariné)", "price": "25,00€", "description": "Sur place. Viande de bœuf mariné, émincé et grillé." },
                     { "name": "Chiche Taouk (Poulet mariné)", "price": "23,50€" },

@@ -42,39 +42,50 @@ export const moonshiner: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Cocktails Signatures Terroirs de France (2024)",
+                category: "Les Cocktails Signatures 'Terroirs de France' (Saison 2025)",
                 items: [
-                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Bœuf bourguignon (Création originale)", price: "14.00€", description: "Inspiré des terroirs français, étonnant et salin." },
-                    { name: "Saté (Création épicée)", price: "14.00€" },
-                    { name: "Cidre & Genièvre", price: "14.00€", description: "Notes herbacées, fraîches et pétillantes." },
-                    { name: "Punch du jour (Saison)", price: "6.00€", description: "L'option la moins chère pour bien démarrer." }
+                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Menu Itinéraire
+                    { name: "Bœuf bourguignon (Cocktail Signature)", price: "14.00€", description: "Inspiré des terroirs français, étonnant et salin, une balade gourmande." },
+                    { name: "Saté (Création épicée)", price: "14.00€", description: "Notes de cacahuète grillée et de piment léger." },
+                    { name: "Cidre & Genièvre", price: "14.00€", description: "Notes herbacées, fraîches et pétillantes, l'hommage au Nord." },
+                    { name: "Truffe & Noisette", price: "15.00€", description: "Un cocktail opulent et terreux." },
+                    { name: "Mirabelle & Sapin", price: "14.00€", description: "L'itinéraire Lorrain, forestier et fruité." },
+                    { name: "Herbiers des Alpes", price: "14.00€" },
+                    { name: "Punch du jour (Saison)", price: "6.00€", description: "L'option la moins chère pour bien démarrer, toujours frais." }
                 ]
             },
             {
-                category: "Les Barrel-Aged & Classiques (Les 50 historiques)",
+                category: "Les Barrel-Aged & Classiques Modernes",
                 items: [
-                    { name: "Vieux Carré (Barrel-Aged)", price: "13.00€", description: "Un grand classique américain de Rye et Cognac, vieilli en fût." },
-                    { name: "Negroni vieilli en fût", price: "13.00€" },
-                    { name: "Boulevardier", price: "12.00€" },
-                    { name: "Old Fashioned sur mesure", price: "12.00€" },
+                    { name: "Vieux Carré (Barrel-Aged)", price: "13.00€", description: "Un grand classique américain de Rye et Cognac, vieilli en fût par nos soins." },
+                    { name: "Negroni vieilli en fût de chêne", price: "13.00€" },
+                    { name: "Boulevardier Signature", price: "12.00€" },
+                    { name: "Old Fashioned sur mesure (Bourbon ou Rye)", price: "12.00€" },
+                    { name: "Smokey Island (Islay Whisky based)", price: "14.00€" },
+                    { name: "Moscow Mule Ginger maison", price: "12.00€" },
                     { name: "Cocktail Classique au choix (Demande au bartender)", price: "12.00€" }
                 ]
             },
             {
-                category: "L'Univers du Whisky (Plus de 85 références)",
+                category: "L'Univers du Whisky (85+ Références)",
                 items: [
                     { name: "Sélection de Bourbons (Verre, à partir de)", price: "12.00€" },
-                    { name: "Sélection de Scotch Single Malt (Verre, à partir de)", price: "14.00€" },
-                    { name: "Whiskies Japonais pointus (Verre, à partir de)", price: "16.00€" }
+                    { name: "Sélection de Scotch Single Malt (à partir de)", price: "14.00€" },
+                    { name: "Whiskies Japonais (à partir de)", price: "16.00€" },
+                    { name: "Lagavulin 16 ans", price: "18.00€" },
+                    { name: "Nikka from the Barrel", price: "15.00€" },
+                    { name: "Hibiki Harmony", price: "19.00€" }
                 ]
             },
             {
-                category: "Bières & Snacks",
+                category: "Bières, Vins & Snacks Pizzeria",
                 items: [
-                    { name: "Pinte de Bière Pression", price: "6.00€" },
-                    { name: "Cidre Bouteille", price: "7.00€" },
-                    { name: "Pizza Da Vito (à commander au restaurant avant d'entrer)", price: "14.00€", description: "Non servi au Moonshiner, mais indispensable avant !" }
+                    { name: "Pinte de Bière Pression Lager", price: "6.00€" },
+                    { name: "IPA Artisanale (33cl)", price: "8.00€" },
+                    { name: "Verre de vin (Sélection ardoise)", price: "7.00€" },
+                    { name: "Cidre Bouteille Artisanal", price: "7.00€" },
+                    { name: "Pizza Da Vito (Au restaurant avant d'entrer)", price: "14.00€", description: "La Margarita classique de Da Vito." },
+                    { name: "Planche de charcuterie italienne", price: "16.00€" }
                 ]
             }
         ]

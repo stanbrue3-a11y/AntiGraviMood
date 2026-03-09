@@ -38,19 +38,21 @@ export const brutos: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 0,
-        dish_price: 38, // MANUAL: Plats principaux entre 30€ et 45€ (ex: Côte de cochon, Asado de Bœuf)
+        dish_price: 29, // Median des Plats: Asado 29€, Cochon 28€, Lieu 32€, Poulet 28€
         last_updated: "2026-03-07",
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
                 category: "Brésil & Asado (Entrées & Tapas)",
                 items: [
-                    // VERIFIED: Le Fooding + lacarte.menu + Novacircle (2024-2025)
                     { name: "Dés de Tapioca frits, sauce goyave piment doux", price: "9.00€" },
                     { name: "Caviar d'aubergine fumée en toast, grenade, noix du Brésil", price: "7.00€" },
                     { name: "Asperges vertes à la braise, sauce Gribiche", price: "11.00€" },
                     { name: "Os à moelle braisé, noisettes concassées", price: "12.00€" },
-                    { name: "Morcilla maison et piments guindilla", price: "10.00€" }
+                    { name: "Morcilla maison et piments guindilla", price: "10.00€" },
+                    { name: "Pasteis au potimarron et épices", price: "10.00€" },
+                    { name: "Croquettes de boeuf fumé, sauce pimentée", price: "11.00€" },
+                    { name: "Betteraves braisées au feu de bois", price: "9.00€" }
                 ]
             },
             {
@@ -59,7 +61,10 @@ export const brutos: SurgicalPlace = {
                     { name: "Asado de tira Black Angus, chimichurri, frites maison", price: "29.00€", description: "La spécialité de la maison." },
                     { name: "Côte de Cochon de lait de Clavisy, abricots grillés", price: "28.00€" },
                     { name: "Lieu jaune, beurre blanc aux crustacés", price: "32.00€" },
-                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l'ail", price: "28.00€", description: "Uniquement le dimanche midi." }
+                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l'ail", price: "28.00€", description: "Uniquement le dimanche midi." },
+                    { name: "Ris de veau à la braise, sauce chimichurri", price: "34.00€" },
+                    { name: "Echine de cochon noir de Bigorre", price: "30.00€" },
+                    { name: "Picanha de boeuf Angus (pour 2)", price: "68.00€", description: "La pièce emblématique du Brésil." }
                 ]
             },
             {
@@ -67,13 +72,13 @@ export const brutos: SurgicalPlace = {
                 items: [
                     { name: "Banane croustillante, dulce de leche, crème crue, coco fraîche", price: "8.00€" },
                     { name: "Pudim (crème caramel brésilienne)", price: "9.00€" },
-                    { name: "Gâteau chocolat du Brésil", price: "11.00€" }
+                    { name: "Gâteau chocolat du Brésil, clémentines", price: "11.00€" }
                 ]
             },
             {
                 category: "Cocktails & Vins",
                 items: [
-                    { name: "Caïpirinha classique", price: "12.00€" },
+                    { name: "Caïpirinha classique (le totem)", price: "12.00€" },
                     { name: "Negroni au mezcal signature", price: "12.00€" },
                     { name: "Verre de vin nature (rouge Ardèche)", price: "6.50€" }
                 ]

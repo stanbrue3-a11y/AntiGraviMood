@@ -38,7 +38,7 @@ export const osteria_ferrara: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 3.50,
-        dish_price: 0, // Auto-calculated via median of Plats
+        dish_price: 25.00, // VERIFIED 2025: Median of main pasta/meat courses (22€ to 28€)
         last_updated: "2026-03-06",
         menu_items: [
             {
@@ -47,7 +47,9 @@ export const osteria_ferrara: SurgicalPlace = {
                     { name: "Burrata des Pouilles, haricots verts, amandes", price: "15.00€" },
                     { name: "Tarte à la tomate, ricotta salata, fleurs de courgette", price: "16.00€" },
                     { name: "Vitello tonnato classique", price: "18.00€" },
-                    { name: "Jambon de Parme affiné 24 mois", price: "14.50€" }
+                    { name: "Jambon de Parme affiné 24 mois", price: "14.50€" },
+                    { name: "Focaccia maison à l'origan et sel noir", price: "6.00€" },
+                    { name: "Carpaccio de thon rouge, câpres et citron", price: "19.00€" }
                 ]
             },
             {
@@ -58,7 +60,9 @@ export const osteria_ferrara: SurgicalPlace = {
                     { name: "Calamarata ragoût de saucisse au vin rouge", price: "22.00€" },
                     { name: "Pêche du jour, légumes croquants", price: "28.00€" },
                     { name: "Raviolis del plin à la piémontaise", price: "26.00€" },
-                    { name: "Linguine alle vongole", price: "25.00€" }
+                    { name: "Linguine alle vongole", price: "25.00€" },
+                    { name: "Tagliatelle au ragoût de canard et cacao", price: "24.00€" },
+                    { name: "Caille rôtie farcie à la pancetta", price: "27.00€" }
                 ]
             },
             {

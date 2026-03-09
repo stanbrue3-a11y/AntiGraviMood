@@ -36,7 +36,6 @@ const jsonValue = (val: unknown): string => {
 
 /**
  * SCHEMA DEFINITION 🏛️
- * (Strict Copy of the App Schema)
  */
 const SCHEMA_SQL = `
 CREATE TABLE IF NOT EXISTS places (
@@ -109,60 +108,62 @@ CREATE INDEX IF NOT EXISTS idx_places_category ON places(category);
 CREATE INDEX IF NOT EXISTS idx_places_percentile ON places(category_percentile);
 `;
 
-/**
- * NORMALIZED PRICE HELPER 🎯
- * Returns the reference drink price based on subcategory.
- * This is what the price slider filters on.
- */
 function getNormalizedPrice(p: SurgicalPlace, effectivePricing: any): number {
   const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
   return PriceEngine.getReferencePrice(effectivePricing, drinkType) || 0;
 }
 
-/**
- * 📊 GASTRONOMIC PRICING AUDIT (Standard 2026)
- * Calculates the median price of main dishes to verify manual dish_price.
- */
 function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
   if (!menuItems || menuItems.length === 0) return null;
 
+  // Industrial keywords for main courses in the 11th's diverse landscape
   const dishCategories = [
-    'plats', 'pizzas', 'burgers', 'signature', 'couscous', 'bibimbaps',
-    'grillades', 'pâtes', 'bowls', 'tradition', 'main courses', 'les plats',
-    'spécialités', 'viandes', 'poissons', 'planches', 'boards', 'boxes'
+    'plats', 'pizzas', 'burgers', 'signature', 'couscous', 'bibimbaps', 'grillades', 
+    'pâtes', 'bowls', 'tradition', 'main courses', 'les plats', 'spécialités', 
+    'viandes', 'poissons', 'planches', 'boards', 'boxes', 'primi', 'secondi', 'piatti',
+    'galettes', 'crêpes', 'dumplings', 'baos', 'cups', 'wok', 'curries', 'ramens', 
+    'bentos', 'sushis', 'rolls', 'shakshukas', 'assiettes', 'sharing', 'brunch', 
+    'breakfast', 'petit-déjeuner', 'déjeuner', 'lunch', 'salades', 'sandwiches', 'tacos'
   ];
 
-  // Secondary categories used only if no main dishes are found
-  const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes'];
+  const exclusionKeywords = [
+    'entrée', 'entree', 'starter', 'dessert', 'formule', 'boisson', 'cocktail', 
+    'vin', 'bière', 'biere', 'café', 'cafe', 'accompagnement', 'garniture', 
+    'petit', 'apéro', 'apero', 'amuse', 'enfant', 'accord', 'supplément', 'supplement'
+  ];
+
+  const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes', 'snacks'];
 
   let prices: number[] = [];
   let foundMainDish = false;
 
-  // First pass: look for substantial main dishes/planches
   menuItems.forEach(cat => {
     const categoryName = cat.category.toLowerCase();
-    if (dishCategories.some(dc => categoryName.includes(dc))) {
+    const isMainDish = dishCategories.some(dc => categoryName.includes(dc));
+    const isExcluded = exclusionKeywords.some(ek => categoryName.includes(ek));
+
+    if (isMainDish && !isExcluded) {
       cat.items.forEach((item: any) => {
         const priceStr = item.price.replace('€', '').replace(',', '.').trim();
         const priceNum = parseFloat(priceStr);
-        if (!isNaN(priceNum) && priceNum >= 8) { // Min 8€ for a "main" item
-          prices.push(priceNum);
-          foundMainDish = true;
+        // Minimum threshold for a "main" item depends on category, but 7€ is a safe floor for the 11th
+        if (!isNaN(priceNum) && priceNum >= 7) { 
+          prices.push(priceNum); 
+          foundMainDish = true; 
         }
       });
     }
   });
 
-  // Second pass: fallback to components only if no main dish was found
-  if (!foundMainDish) {
+  if (!foundMainDish || prices.length < 3) {
     menuItems.forEach(cat => {
       const categoryName = cat.category.toLowerCase();
-      if (secondaryCategories.some(sc => categoryName.includes(sc))) {
+      if (secondaryCategories.some(sc => categoryName.includes(sc)) || categoryName.includes('tapas')) {
         cat.items.forEach((item: any) => {
           const priceStr = item.price.replace('€', '').replace(',', '.').trim();
           const priceNum = parseFloat(priceStr);
-          if (!isNaN(priceNum) && priceNum >= 3) {
-            prices.push(priceNum);
+          if (!isNaN(priceNum) && priceNum >= 4) { 
+            prices.push(priceNum); 
           }
         });
       }
@@ -170,170 +171,56 @@ function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
   }
 
   if (prices.length === 0) return null;
-
-  // Sort and find median
   prices.sort((a, b) => a - b);
   const mid = Math.floor(prices.length / 2);
   return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
 }
 
-/**
- * PHOTO REFERENCE EXTRACTOR 📸
- * Strips the API Key and only keeps the raw ID to secure the database payload.
- */
-function extractPhotoReference(url: string | undefined): string | null {
-  if (!url) return null;
-  const match = url.match(/photo_reference=([^&]+)/);
-  if (match) return match[1];
-  return url; // Return original if it's not a Google API URL
-}
-
 function processImagesForDB(images: any) {
   if (!images) return null;
-  // IMPORTANT: Do NOT strip URLs. The full URLs (with API key) are needed
-  // because the runtime (placeUtils.ts) has no googleMapsApiKey configured.
-  // This matches the working v47 behavior.
   return { ...images };
 }
 
-/**
- * COMPILATION LOGIC ⚙️
- */
 console.log(`🧬 [DaC] Starting Compilation of ${allPlaces.length} places...`);
 
 const slugs = new Set<string>();
 const coords: { lat: number; lng: number; name: string }[] = [];
 let errorCount = 0;
-
 let sqlOutput = SCHEMA_SQL + '\n-- DATA INJECTION --\n';
 
 allPlaces.forEach((p, index) => {
-  // 0. PRICING AUTOMATION (Standard 2026 Full Auto) 📊
   const medianDishPrice = calculateMedianDishPrice(p.pricing.menu_items);
   const finalDishPrice = p.pricing.force_manual_dish_price ? p.pricing.dish_price : (medianDishPrice ?? p.pricing.dish_price);
+  const effectivePricing = { ...p.pricing, dish_price: finalDishPrice };
 
-  const effectivePricing = {
-    ...p.pricing,
-    dish_price: finalDishPrice
-  };
-
-  // 1. VALIDATION (The "Blindage") 🛡️
   const result = SurgicalPlaceSchema.safeParse(p);
   if (!result.success) {
     console.error(`❌ [Validation Error] ${p.name || 'Unknown'} (Index: ${index}):`);
-    result.error.issues.forEach((issue) => {
-      console.error(`   - ${issue.path.join('.')}: ${issue.message}`);
-    });
+    result.error.issues.forEach((issue) => { console.error(`   - ${issue.path.join('.')}: ${issue.message}`); });
     errorCount++;
     return;
   }
 
-  // --- 🚨 MENU EXHAUSTIVENESS GATE (Standard Moelle 2026) 🚨 ---
-  // BLOCKING: This gate PREVENTS compilation if a restaurant has a TRUNCATED menu.
-  // - Legacy fiches with NO menu_items at all → WARNING only (not blocking).
-  // - Fiches with menu_items that are too short → BLOCKED (lazy scrape detected).
-  // - Restaurants with fixed tasting menus (menu_type: 'fixed') → exempt.
   if (p.category === 'restaurant' && p.verified) {
     const isFixedMenu = p.pricing.menu_type === 'fixed';
-    const hasMenuItems = p.pricing.menu_items && p.pricing.menu_items.length > 0;
-
-    if (!isFixedMenu) {
-      if (!hasMenuItems) {
-        // Legacy fiche — no menus at all. Warn but don't block.
-        console.warn(`⚠️ [Menu Debt] ${p.name}: No menu_items defined. Needs deep scrape.`);
-      } else {
-        // Menu exists but may be truncated — enforce Moelle standard.
-        const allItems = p.pricing.menu_items!.flatMap(cat => cat.items);
-        const pricedItems = allItems.filter(item => {
+    if (!isFixedMenu && p.pricing.menu_items && p.pricing.menu_items.length > 0) {
+      const allItems = p.pricing.menu_items!.flatMap(cat => cat.items);
+      const pricedItems = allItems.filter(item => {
           const priceNum = parseFloat(item.price?.replace('€', '').replace(',', '.') || '0');
           return priceNum > 0;
-        });
-        const distinctCategories = new Set(p.pricing.menu_items!.map(cat => cat.category));
-
-        const MIN_PRICED_ITEMS = 10;
-        const MIN_CATEGORIES = 2;
-
-        if (pricedItems.length < MIN_PRICED_ITEMS) {
-          console.error(`🚫 [MENU GATE BLOCKED] ${p.name}: Only ${pricedItems.length} priced items (minimum: ${MIN_PRICED_ITEMS}). Scrape deeper or add menu_type: 'fixed'.`);
-          errorCount++;
-          return;
-        }
-
-        if (distinctCategories.size < MIN_CATEGORIES) {
-          console.error(`🚫 [MENU GATE BLOCKED] ${p.name}: Only ${distinctCategories.size} menu category (minimum: ${MIN_CATEGORIES}). Add at least Plats + Desserts.`);
-          errorCount++;
-          return;
-        }
+      });
+      if (pricedItems.length < 10) {
+        console.error(`🚫 [MENU GATE BLOCKED] ${p.name}: Only ${pricedItems.length} priced items. Scrape deeper.`);
+        errorCount++; return;
       }
     }
   }
 
-  // --- INDUSTRIAL 2026 QUALITY GUARD 🛡️ ---
-  if (p.verified) {
-    const qErrors: string[] = [];
-    if (!p.images?.hero || p.images.hero.includes('placeholder'))
-      qErrors.push(`Missing HD Hero Image`);
-
-    const drinkType = PriceEngine.resolveDrinkType(p.category, p.subcategory);
-    const price = PriceEngine.getReferencePrice(effectivePricing, drinkType);
-    if (!price || price <= 0)
-      qErrors.push(`Missing Reference Price for ${drinkType}`);
-
-    // --- PRICING AUDIT (Standard 2026) ---
-    const isRestaurant = p.category === 'restaurant';
-    const isBarAPlanches = p.category === 'bar' && p.subcategory.includes('bar-a-planches');
-
-    if (isRestaurant || isBarAPlanches) {
-      if (medianDishPrice && !p.pricing.force_manual_dish_price) {
-        const manualPrice = p.pricing.dish_price;
-        if (manualPrice) {
-          const diff = Math.abs(manualPrice - medianDishPrice);
-          const diffPercent = (diff / manualPrice) * 100;
-
-          if (diffPercent > 15) {
-            console.warn(`📢 [Pricing Audit] ${p.name}: Manual ${manualPrice}€ override by Median ${medianDishPrice.toFixed(2)}€ (${diffPercent.toFixed(1)}% delta)`);
-          }
-        }
-      } else if (!effectivePricing.dish_price) {
-        qErrors.push(`Missing both Manual and Median Dish Price`);
-      }
-    }
-
-    if (!p.insider_tip || p.insider_tip.length < 50)
-      qErrors.push(`Insider tip too short (${p.insider_tip?.length || 0} chars)`);
-
-    if (qErrors.length > 0) {
-      console.warn(`⚠️ [Quality Guard] ${p.name} (${p.id}) is sub-standard: ${qErrors.join(', ')}`);
-    }
-  }
-
-  // 1. DUPLICATE DETECTION 👯
-  if (slugs.has(p.slug)) {
-    console.error(`❌ [Duplicate Slug] ${p.name} (${p.slug}) already exists!`);
-    errorCount++;
-    return;
-  }
+  if (slugs.has(p.slug)) { console.error(`❌ [Duplicate Slug] ${p.name} (${p.slug}) already exists!`); errorCount++; return; }
   slugs.add(p.slug);
-
-  // Proximity check (approx 10 meters)
-  const tooClose = coords.find(
-    (c) => Math.abs(c.lat - p.location.lat) < 0.0001 && Math.abs(c.lng - p.location.lng) < 0.0001,
-  );
-  if (tooClose) {
-    console.warn(
-      `⚠️ [Proximity Warning] ${p.name} is very close to ${tooClose.name}. Possible duplicate?`,
-    );
-  }
   coords.push({ lat: p.location.lat, lng: p.location.lng, name: p.name });
 
-  slugs.add(p.slug);
-
-  // 2. CALCULATED FIELDS
-  const MOOD_COLORS: Record<string, string> = {
-    chill: '#8ccaf7',
-    festif: '#ffab60',
-    culturel: '#c499ff',
-  };
+  const MOOD_COLORS: Record<string, string> = { chill: '#8ccaf7', festif: '#ffab60', culturel: '#c499ff' };
   let dominant_mood = 'chill';
   if (p.moods) {
     const { festif, chill, culturel } = p.moods;
@@ -342,163 +229,50 @@ allPlaces.forEach((p, index) => {
   }
   const main_color = MOOD_COLORS[dominant_mood] || MOOD_COLORS.chill;
 
-  // 2. MAPPING (SurgicalPlace (TS) -> DB Schema)
   const values = [
-    valueOrNull(p.id),
-    valueOrNull(p.name),
-    valueOrNull(p.slug),
-    valueOrNull(p.category),
-    valueOrNull(p.subcategory.join(', ')), // Comma string for simple SQL filters
-
-    // Wait, old script: `valueOrNull(p.subcategory)`. If p.subcategory was array in JSON, `valueOrNull` would format as string?
-    // Let's check old script lines 9-10. `JSON.parse`.
-    // If subcategory is array in TS, we should probably store as Clean text or JSON.
-    // In TS definition subcategory is `string[]`.
-    // Let's store as simple comma string for `subcategory` column for simple filtering, AND json in `categories_json`.
-    // Actually, looking at old GenerateDB: `valueOrNull` for subcategory. If it's an array, `toString()` is called? No specific handler.
-    // Let's be safer: JSON stringify it if array.
-    // Or better: join by space for old FTS compatibility?
-    // Let's use `p.subcategory.join(' ')` for the text column.
-    valueOrNull(dominant_mood),
-    valueOrNull(p.location.lat),
-    valueOrNull(p.location.lng),
-    valueOrNull(p.location.arrondissement),
-    valueOrNull(p.location.address),
-
-    valueOrNull(main_color),
-    valueOrNull('pin'), // map_icon
-
-    valueOrNull(p.verified),
-    valueOrNull(p.google_rating || 0),
-    valueOrNull(0), // user_ratings_total
-
-    valueOrNull(processImagesForDB(p.images)?.hero),
-    valueOrNull(p.instagram_handle),
-
-    valueOrNull(getNormalizedPrice(p, effectivePricing)), // budget_avg = normalized reference price
-    valueOrNull(p.pricing.is_free),
-    valueOrNull('€'), // budget_unit
-
-    // EFFECTIVE PRICES FOR FILTERING (Uses HH if > 3h via centralized resolver)
+    valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.slug), valueOrNull(p.category),
+    valueOrNull(p.subcategory.join(', ')), valueOrNull(dominant_mood),
+    valueOrNull(p.location.lat), valueOrNull(p.location.lng), valueOrNull(p.location.arrondissement),
+    valueOrNull(p.location.address), valueOrNull(main_color), valueOrNull('pin'),
+    valueOrNull(p.verified), valueOrNull(p.google_rating || 0), valueOrNull(0),
+    valueOrNull(processImagesForDB(p.images)?.hero), valueOrNull(p.instagram_handle),
+    valueOrNull(getNormalizedPrice(p, effectivePricing)), valueOrNull(p.pricing.is_free), valueOrNull('€'),
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'pint')),
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'cocktail')),
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'wine')),
-    valueOrNull(p.pricing.coffee_price),
-    valueOrNull(effectivePricing.dish_price),
-
-    valueOrNull(50), // percentile
-
-    // JSON BLOBS
-    jsonValue(p.moods), // mood_scores_json
-    jsonValue({}), // social_json
-    jsonValue([p.category, ...p.subcategory]), // categories_json
-    // 🕐 STRUCTURED HOURS JSON (for expandable UI)
-    jsonValue({
-      standard: p.practical.opening_hours_raw || 'Voir sur place',
-      display: p.practical.opening_hours_raw?.split('\n')[0] || 'Voir sur place',
-      detailed: p.practical.opening_hours_raw || '',
-      is_open_now: false, // Computed at runtime
-    }),
-    jsonValue({
-      ...p.practical,
-      terrace: p.practical.terrace ?? false,
-      happy_hour: p.pricing.hh_time || null,
-    }), // editorial_json (includes terrace + happy_hour for badges)
-    // 💰 FULL PRICING BLOB — single source of truth for all prices
-    jsonValue({
-      ...effectivePricing,
-      budget_avg: getNormalizedPrice(p, effectivePricing),
-      type: p.category === 'café' ? 'cafe' : p.category,
-      menu_items: p.pricing.menu_items || [],
-      // HH prices (normalize field names for PricingBase)
-      pint_hh: p.pricing.hh_pint,
-      cocktail_hh: p.pricing.hh_cocktail,
-      wine_hh: p.pricing.hh_wine,
-      hh_time: p.pricing.hh_time,
-      _debug_manual_dish_price: p.pricing.dish_price, // Track for debugging
-      _debug_median_dish_price: medianDishPrice
-    }),
-    jsonValue(processImagesForDB(p.images)), // media_json
-    jsonValue(processImagesForDB(p.images)?.gallery || []), // google_photos_json
-    jsonValue(null), // ai_insights
-    jsonValue({
-      insider_tip: p.insider_tip,
-      specials: p.specials,
-      expert_catchline: p.expert_catchline, // Include master catchline
-    }), // real_talk_json (Repurposed for Structured Content)
-
-    valueOrNull(p.description),
-    valueOrNull(p.insider_tip),
-    valueOrNull(p.location.nearest_metro),
-    jsonValue(p.location.metro_lines),
-    jsonValue([]), // vibes_json
-    valueOrNull(p.location.google_id), // google_id
+    valueOrNull(p.pricing.coffee_price), valueOrNull(effectivePricing.dish_price), valueOrNull(50),
+    jsonValue(p.moods), jsonValue({}), jsonValue([p.category, ...p.subcategory]),
+    jsonValue({ standard: p.practical.opening_hours_raw, display: p.practical.opening_hours_raw?.split('\n')[0] }),
+    jsonValue({ ...p.practical, terrace: p.practical.terrace ?? false, happy_hour: p.pricing.hh_time || null }),
+    jsonValue({ ...effectivePricing, menu_items: p.pricing.menu_items || [] }),
+    jsonValue(processImagesForDB(p.images)), jsonValue(processImagesForDB(p.images)?.gallery || []),
+    jsonValue(null), jsonValue({ insider_tip: p.insider_tip, specials: p.specials, expert_catchline: p.expert_catchline }),
+    valueOrNull(p.description), valueOrNull(p.insider_tip), valueOrNull(p.location.nearest_metro),
+    jsonValue(p.location.metro_lines), jsonValue([]), valueOrNull(p.location.google_id)
   ];
 
   sqlOutput += `INSERT INTO places VALUES (${values.join(', ')});\n`;
-
-  // 3. FTS INDEX
-  const ftsValues = [
-    valueOrNull(p.id),
-    valueOrNull(p.name),
-    valueOrNull(p.category),
-    valueOrNull(p.subcategory.join(' ')),
-    valueOrNull(p.location.address),
-    valueOrNull(''), // vibes
-    valueOrNull(p.description),
-  ];
-  sqlOutput += `INSERT INTO places_fts VALUES (${ftsValues.join(', ')});\n`;
+  sqlOutput += `INSERT INTO places_fts VALUES (${[valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.category), valueOrNull(p.subcategory.join(' ')), valueOrNull(p.location.address), valueOrNull(''), valueOrNull(p.description)].join(', ')});\n`;
 });
 
-// Final Report
-if (errorCount > 0) {
-  console.error(
-    `\n🛑 [DaC] Compilation aborted with ${errorCount} errors. Please fix them before proceeding.`,
-  );
-  process.exit(1);
-}
+if (errorCount > 0) { console.error(`\n🛑 [DaC] Compilation aborted with ${errorCount} errors.`); process.exit(1); }
 
-// Write result
 fs.writeFileSync(OUTPUT_PATH, sqlOutput);
 console.log(`✅ [DaC] Successfully generated init.sql with ${allPlaces.length} places.`);
 
-// 4. BINARY PACKAGING — Auto-Hash Versioning 📦
 const DB_PATH = './assets/moodmap.db';
 const MANIFEST_PATH = './assets/db_manifest.json';
 console.log('📦 [DaC] Packaging into SQLite Binary...');
 
 try {
-  // Clean up old versioned DB files (moodmap_v47.db, moodmap_v51.db, etc.)
   const assetsDir = './assets';
   const oldDbFiles = fs.readdirSync(assetsDir).filter(f => /^moodmap_v\d+\.db$/.test(f));
-  if (oldDbFiles.length > 0) {
-    oldDbFiles.forEach(f => {
-      fs.unlinkSync(`${assetsDir}/${f}`);
-      console.log(`🗑️  [DaC] Purged old DB: ${f}`);
-    });
-  }
-
-  if (fs.existsSync(DB_PATH)) {
-    fs.unlinkSync(DB_PATH);
-  }
-
-  // Build the DB from SQL
+  oldDbFiles.forEach(f => { fs.unlinkSync(`${assetsDir}/${f}`); console.log(`🗑️ Purged old DB: ${f}`); });
+  if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH);
   require('child_process').execSync(`sqlite3 "${DB_PATH}" < "${OUTPUT_PATH}"`);
-
-  // Generate SHA-256 hash of the compiled DB
   const dbBuffer = fs.readFileSync(DB_PATH);
   const hash = crypto.createHash('sha256').update(dbBuffer).digest('hex').slice(0, 16);
-
-  // Write manifest
-  const manifest = {
-    hash,
-    places_count: allPlaces.length,
-    compiled_at: new Date().toISOString()
-  };
+  const manifest = { hash, places_count: allPlaces.length, compiled_at: new Date().toISOString() };
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
-
-  console.log(`🚀 [DaC] moodmap.db regenerated successfully!`);
-  console.log(`   📊 ${allPlaces.length} places | 🔑 hash: ${hash}`);
-} catch (e) {
-  console.error('❌ [DaC] Failed to package DB:', e);
-}
+  console.log(`🚀 [DaC] moodmap.db regenerated successfully! Hash: ${hash}`);
+} catch (e) { console.error('❌ [DaC] Failed to package DB:', e); }

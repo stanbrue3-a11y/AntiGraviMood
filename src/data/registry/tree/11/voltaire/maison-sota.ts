@@ -46,26 +46,32 @@ export const maison_sota: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Dîner & Dimanche (Menu Unique)",
+                category: "Menus Dégustation Gourmands",
                 items: [
-                    { name: "Menu MAISON (7 temps)", price: "165.00€", description: "Le grand voyage de Sota Atsumi articulé autour du four à bois spectaculaire." },
-                    { name: "Menu MAISON Dîner (4 temps - Mercredi)", price: "140.00€", description: "Menu raccourci proposé en semaine." },
-                    { name: "Accord Mets & Vins (7 verres)", price: "110.00€" }
+                    { name: "Menu Maison (Dîner 6 étapes)", price: "140.00€" },
+                    { name: "Menu Maison (Dîner 7 étapes - Mer-Sam)", price: "165.00€" },
+                    { name: "Menu Déjeuner (4 étapes)", price: "65.00€" },
+                    { name: "Menu Déjeuner (5 étapes - Jeu-Sam)", price: "85.00€" },
+                    { name: "Menu Dimanche (7 étapes)", price: "165.00€" },
+                    { name: "Accord Mets & Vins - Dîner", price: "110.00€" }
                 ]
             },
             {
-                category: "Déjeuner (Jeudi - Samedi)",
+                category: "Signature Sota Atsumi (Extraits)",
                 items: [
-                    { name: "Menu Déjeuner (4 temps)", price: "65.00€", description: "L'option la plus accessible pour découvrir l'univers du chef." },
-                    { name: "Menu Déjeuner Supplément (5 temps)", price: "85.00€" },
-                    { name: "Accord Mets & Vins (5 verres)", price: "65.00€" }
-                ]
-            },
-
-            {
-                category: "Vins & Boissons",
-                items: [
-                    { name: "Verre de Vin", price: "12.00€", description: "A partir de 12€ le verre." }
+                    { name: "Makis de veau, huîtres & condiment algues", price: "Inclus" },
+                    { name: "Asperges blanches cuites au bois, beurre d'agrumes", price: "Inclus" },
+                    { name: "Saint-Jacques de plongée, mousseline de céleri", price: "Inclus" },
+                    { name: "Pigeon de Vendée, betteraves au feu de bois", price: "Inclus" },
+                    { name: "Poire rôtie, glace au foin & caramel beurre salé", price: "Inclus" },
+                    { name: "Tartelette au yuzu & meringue italienne", price: "Inclus" },
+                    { name: "Homard bleu de casier au Bincho-tan", price: "Inclus" },
+                    { name: "Oursin & sabayon au Vin Jaune", price: "Inclus" },
+                    { name: "Turbot sauvage, émulsion d'arêtes perlé", price: "Inclus" },
+                    { name: "Pain maison au feu de bois & Beurre fermier", price: "Inclus" },
+                    { name: "Mignardises de la Maison Sota", price: "Inclus" },
+                    { name: "Eau micro-filtrée", price: "6.00€" },
+                    { name: "Sélection de Cafés par Sota", price: "5.00€" }
                 ]
             }
         ]

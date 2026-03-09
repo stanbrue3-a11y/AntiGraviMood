@@ -38,8 +38,11 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 6.00,
         coffee_price: 2.50,
-        dish_price: 0, // Auto-calculated via median of tasting menus
-        last_updated: "2026-03-06",
+        // Estimation dish_price : Plat du jour déjeuner 19€, soir = menu aveugle 46.50-55.50€
+        dish_price: 19,
+        force_manual_dish_price: true,
+        menu_type: 'fixed',
+        last_updated: "2026-03-07",
         menu_items: [
             {
                 category: "Plats (Déjeuner)",

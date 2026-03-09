@@ -45,12 +45,26 @@ export const les_deserteurs: SurgicalPlace = {
             {
                 category: "Les Menus Uniques (À l'aveugle)",
                 items: [
-                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés Historiques
                     { name: "Menu Déjeuner 3 temps (Entrée-Plat-Dessert)", price: "35.00€" },
+                    { name: "Menu Déjeuner 2 temps (Entrée-Plat ou Plat-Dessert)", price: "28.00€" },
                     { name: "Menu Dégustation 4 temps (Soir)", price: "45.00€" },
                     { name: "Menu Dégustation 6 temps (Soir)", price: "60.00€", description: "L'expérience complète du chef Daniel Baratier à l'aveugle." },
+                    { name: "Plateau de fromages affinés (Supplément)", price: "12.00€" },
                     { name: "Accord Mets & Vins (4 verres)", price: "30.00€" },
                     { name: "Accord Mets & Vins (6 verres)", price: "45.00€" }
+                ]
+            },
+            {
+                category: "Inspirations (Saveurs Déserteurs)",
+                items: [
+                    { name: "Betterave aigre-doux, estragon du Mexique", price: "Inclus" },
+                    { name: "Ravioles d'oignons de paille, amandes de Noto", price: "Inclus" },
+                    { name: "Thon blanc basque snacké, purée potiron-miso", price: "Inclus" },
+                    { name: "Rouget barbet, mousseline de chou-fleur & rouille", price: "Inclus" },
+                    { name: "Asperges, anchoïade & pimprenelle", price: "Inclus" },
+                    { name: "Pigeonneau de Barbarie, carotte & oseille", price: "Inclus" },
+                    { name: "Paris-Brest déstructuré, noisettes & shiso", price: "Inclus" },
+                    { name: "Le dessert 'Triple C' (Caramel, Cacahuète, Chocolat)", price: "Inclus" }
                 ]
             }
         ]

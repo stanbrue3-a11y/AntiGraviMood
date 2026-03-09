@@ -38,16 +38,16 @@ export const le_servan: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 3.50,
-        dish_price: 26, // MANUAL: Plats tournant autour de 20-30€ si pas en menu complet
+        dish_price: 30, // Median des Plats: 28, 28, 30, 38, 45 → médiane = 30€
         last_updated: "2026-03-07",
         menu_items: [
             {
                 category: "Les Menus (Évolutif Quotidien)",
                 items: [
-                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
                     { name: "Menu Dégustation (À l'aveugle)", price: "55.00€" },
                     { name: "Menu Déjeuner (Entrée, Plat, Dessert)", price: "35.00€" },
-                    { name: "Carafe d'eau purifiée", price: "5.00€", description: "L'eau filtrée maison est facturée." }
+                    { name: "Accord Mets & Vins Nature (3 verres)", price: "30.00€" },
+                    { name: "Accord Mets & Vins Nature (5 verres)", price: "45.00€" }
                 ]
             },
             {
@@ -58,7 +58,11 @@ export const le_servan: SurgicalPlace = {
                     { name: "Ceviche du moment, agrumes et piment", price: "15.00€" },
                     { name: "Raviolis de porc et langoustine au beurre de soja", price: "16.00€" },
                     { name: "Encornets sautés, ail noir et herbes fraîches", price: "17.00€" },
-                    { name: "Tartare de bœuf, mayonnaise épicée, chips de sarrasin", price: "18.00€" }
+                    { name: "Tartare de bœuf, mayonnaise épicée, chips de sarrasin", price: "18.00€" },
+                    { name: "Pig ears with Szechuan pepper & chili crisp", price: "14.00€" },
+                    { name: "Tomato Tartelette, ricotta & chili chutney", price: "13.00€" },
+                    { name: "Bone Marrow, herb crust & sourdough", price: "15.00€" },
+                    { name: "Mackerel Crudo, calamansi & ginger", price: "16.00€" }
                 ]
             },
             {
@@ -68,7 +72,12 @@ export const le_servan: SurgicalPlace = {
                     { name: "Pot-au-feu de Saint-Jacques", price: "28.00€" },
                     { name: "Maigre de ligne, bouillon asiatique", price: "30.00€" },
                     { name: "Pigeon rôti, jus corsé (pour 1 personne)", price: "38.00€" },
-                    { name: "Ris de veau croustillant, jus réduit pimenté", price: "45.00€" }
+                    { name: "Ris de veau croustillant, jus réduit pimenté", price: "45.00€" },
+                    { name: "Duck baked in brioche, five-spice jus", price: "36.00€" },
+                    { name: "Crispy-skin Pork Belly, bok choy & soy", price: "29.00€" },
+                    { name: "Sweetbreads (Ris de Veau), brown butter & lemon", price: "42.00€" },
+                    { name: "Sea Bass, fennel & kale, saffron bisque", price: "34.00€" },
+                    { name: "Lobster Raviolis, saffron butter & peanut", price: "38.00€" }
                 ]
             },
             {
@@ -77,7 +86,18 @@ export const le_servan: SurgicalPlace = {
                     { name: "Glace sésame noir", price: "8.00€" },
                     { name: "Tarte meringuée au citron (Revisitée)", price: "12.00€" },
                     { name: "Chocolat crémeux, praliné cacahuète", price: "13.00€" },
-                    { name: "Poire pochée au sirop d'épices, crème crue", price: "12.00€" }
+                    { name: "Poire pochée au sirop d'épices, crème crue", price: "12.00€" },
+                    { name: "Selection of Artisan Cheeses", price: "14.00€" },
+                    { name: "Mango Pomelo Sago (Modern interpretation)", price: "11.00€" }
+                ]
+            },
+            {
+                category: "Sélection de Vins Naturels",
+                items: [
+                    { name: "Verre de Blanc (Vibrant & Frais)", price: "9.50€" },
+                    { name: "Verre de Rouge (Fruit & Caractère)", price: "10.00€" },
+                    { name: "Verre d'Orange (Macération)", price: "12.00€" },
+                    { name: "Bouteille de Pet-Nat (Sélection)", price: "45.00€" }
                 ]
             }
         ]

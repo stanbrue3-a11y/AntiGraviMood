@@ -38,7 +38,8 @@ export const ober_mamma: SurgicalPlace = {
         pint_price: 7.00,
         wine_glass: 6.50,
         coffee_price: 2.50,
-        dish_price: 18, // MANUAL: Focus sur les plats/pâtes fraîches (17-19€) plutôt que les pizzas d'appel.
+        dish_price: 18, // MANUAL: Focus Primi/pâtes fraîches (13.50-20€, médiane ~17€). Pizzas d'appel (6.90-15€) pas représentatives.
+        force_manual_dish_price: true,
         last_updated: "2026-03-07",
         menu_items: [
             {

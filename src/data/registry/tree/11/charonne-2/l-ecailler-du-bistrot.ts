@@ -51,26 +51,32 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
             {
                 category: "Mer & Huîtres",
                 items: [
-                    { name: "Douzaine d'huîtres (Belon, Spéciales d'Utah Beach...)", price: "38.00€", description: "Dégustation panachée." },
+                    { name: "Douzaine d'huîtres Perles Noires n°3", price: "38.00€" },
+                    { name: "Spéciales d'Utah Beach n°2 (les 6)", price: "22.00€" },
+                    { name: "Huîtres Plates du Belon (les 6)", price: "24.00€" },
                     { name: "Langoustines du Guilvinec rôties au beurre d'algues", price: "15.00€" },
-                    { name: "Carpaccio de lieu jaune de ligne", price: "13.00€" }
+                    { name: "Carpaccio de lieu jaune de ligne, agrumes", price: "13.00€" },
+                    { name: "Couteaux à la plancha aux épices", price: "14.50€" }
                 ]
             },
             {
                 category: "Plats Marins & de Viande",
                 items: [
-                    { name: "Demi-homard bleu au Kari Gosse, frites maison", price: "46.00€" },
-                    { name: "Sole Meunière de Petit Bateau", price: "44.00€", description: "Tradition inébranlable beurrée, servie à la pièce ou pour 2 (78€)." },
-                    { name: "Noix de St-Jacques à la plancha, purée de céleri, truffe noire", price: "34.00€" },
-                    { name: "Dos de lieu jaune de ligne", price: "28.00€" },
-                    { name: "Filet de bœuf au poivre de Sarawak, frites maison", price: "38.00€", description: "Le choix canaille pour les réfractaires au poisson." }
+                    { name: "Demi-homard bleu au Kari Gosse, frites maison", price: "46.00€", description: "La spécialité de la maison depuis 25 ans." },
+                    { name: "Sole Meunière de Petit Bateau (entière)", price: "44.00€" },
+                    { name: "Noix de St-Jacques à la plancha, purée de céleri", price: "34.00€" },
+                    { name: "Dos de lieu jaune de ligne, fondue de poireaux", price: "28.00€" },
+                    { name: "Brandade de morue au beurre demi-sel", price: "25.00€" },
+                    { name: "Filet de bœuf au poivre de Sarawak, frites maison", price: "38.00€" }
                 ]
             },
             {
                 category: "Desserts Classiques",
                 items: [
                     { name: "Paris-Brest de l'Écailler", price: "9.00€" },
-                    { name: "Pomme au four, caramel au beurre salé, glace vanille", price: "9.00€" }
+                    { name: "Pomme au four, caramel au beurre salé", price: "9.00€" },
+                    { name: "Tarte Tatin, crème crue de Normandie", price: "10.00€" },
+                    { name: "Tarte aux poires Bourdaloue", price: "9.00€" }
                 ]
             }
         ]

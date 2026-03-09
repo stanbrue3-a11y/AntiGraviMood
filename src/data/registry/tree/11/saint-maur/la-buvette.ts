@@ -38,21 +38,34 @@ export const la_buvette: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 8.00,
         coffee_price: 0,
-        dish_price: 16, // MANUAL: Cave à manger, grignotis entre 11€ et 20€.
-        menu_type: 'fixed',
-        last_updated: "2026-03-07",
+        dish_price: 14.00, // MANUAL: Median des grignotis (3€ - 18€)
+        menu_type: 'standard',
+        last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Grignotis & Petites Assiettes",
+                category: "Grignotis (3€ - 8€)",
                 items: [
-                    // VERIFIED: Source Paris by Mouth 2024-2025
-                    { name: "Gros haricots blancs, zeste d'orange et huile d'olive", price: "12.00€" },
-                    { name: "Andouille au lard tranchée épaisse", price: "14.00€" },
-                    { name: "Burrata", price: "16.00€" },
-                    { name: "Terrine de foies de volaille", price: "15.00€" },
-                    { name: "Saucisson & Charcuteries espagnoles", price: "18.00€" },
-                    { name: "Œufs marinés (Pickled Eggs)", price: "11.00€" },
-                    { name: "Tomme aux orties", price: "14.00€" }
+                    { name: "Olives de Kalamata", price: "4.50€" },
+                    { name: "Amandes fumées", price: "4.00€" },
+                    { name: "Beurre bordier & pain au levain", price: "6.00€" },
+                    { name: "Pickled Eggs (Œufs marinés)", price: "4.50€" },
+                    { name: "Sardines à l'huile", price: "8.00€" }
+                ]
+            },
+            {
+                category: "Assiettes Signature (10€ - 18€)",
+                items: [
+                    // VERIFIED: Source 2024-2025 menus
+                    { name: "Haricots blancs, huile d'olive & zeste d'orange", price: "12.00€", description: "Le plat culte de Camille." },
+                    { name: "Burrata des Pouilles, huile de basilic", price: "16.00€" },
+                    { name: "Terrine de foies de volaille maison", price: "15.00€" },
+                    { name: "Andouille au lard de Vire", price: "14.00€" },
+                    { name: "Jambon blanc à l'os", price: "13.00€" },
+                    { name: "Bresaola & roquette", price: "16.00€" },
+                    { name: "Rillettes d'oie", price: "14.00€" },
+                    { name: "Tomme aux orties", price: "12.00€" },
+                    { name: "Comté 24 mois affiné", price: "14.00€" },
+                    { name: "Chèvre frais & miel", price: "11.00€" }
                 ]
             }
         ]

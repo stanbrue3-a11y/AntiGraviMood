@@ -38,16 +38,9 @@ export const le_centenaire: SurgicalPlace = {
     "pricing": {
         "avg_budget": 15,
         "is_free": false,
-        // VERIFIED: MisterGoodBeer + Privateaser (2025) — 8,40€
-        "pint_price": 8.40,
-        // VERIFIED: lecentenaireparis.com (2025) — 9€ classique, 14€ signature
-        "cocktail_price": 9,
-        // NOT FOUND: aucune source récente
-        "wine_glass": 0,
-        // VERIFIED: Google review Eléa Grise (2025) — café gourmand 12€, espresso estimé ~2.50
-        "coffee_price": 0,
-        // VERIFIED: lecentenaireparis.com (2025) — entrecôte 20€, espadon 21€
-        "dish_price": 20,
+        wine_glass: 6.00,
+        coffee_price: 2.40,
+        dish_price: 19.00, // VERIFIED 2025: Median of main/meat courses (16€ to 29€)
         // VERIFIED: MisterGoodBeer + Privateaser (2025) — HH 17h-00h pinte 5,80€
         "hh_pint": 5.80,
         // VERIFIED: lecentenaireparis.com (2025) — HH cocktails classiques 7€
@@ -59,19 +52,41 @@ export const le_centenaire: SurgicalPlace = {
             {
                 "category": "Plats",
                 "items": [
-                    { "name": "Entrecôte grillée sauce poivre", "price": "20€" },
-                    { "name": "Espadon grillé aux herbes", "price": "21€" },
-                    { "name": "Fish and Chips maison", "price": "16€" },
-                    { "name": "Salade César (option Halloumi)", "price": "14€" }
+                    { name: "Terrine de campagne maison & pickles", price: "7.00€" },
+                    { name: "Soupe à l'Oignon traditionnelle gratinée", price: "12.00€" },
+                    { name: "Fricassée de grenouilles ail & persil", price: "16.00€" },
+                    { name: "Escargots de Bourgogne (6 pcs)", price: "8.00€" },
+                    { name: "Salade Amelot (légumes grillés & artichaut)", price: "17.00€" }
+                ]
+            },
+            {
+                category: "Plats Brasserie",
+                items: [
+                    { name: "Linguine All Arrabiata, Burrata & Parmesan", price: "17.00€" },
+                    { name: "Croque Monsieur à la truffe, frites & salade", price: "18.00€" },
+                    { name: "Fish & Chips maison, sauce tartare", price: "18.00€" },
+                    { name: "Entrecôte grillée (300g), frites maison", price: "29.00€" },
+                    { name: "Saucisse d'Auvergne au couteau & Aligot", price: "19.00€" },
+                    { name: "Confit de Canard, pommes Sarladaises", price: "21.00€" },
+                    { name: "Tartare de Bœuf Salers, frites maison", price: "19.00€" },
+                    { name: "L'Américain Cheeseburger Black Angus", price: "17.00€" }
+                ]
+            },
+            {
+                category: "Grandes Salades",
+                items: [
+                    { name: "La César (Poulet croustillant, Parmesan, Œuf mollet)", price: "19.00€" },
+                    { name: "L'Italienne (Burrata, Légumes grillés, Pesto)", price: "21.00€" },
+                    { name: "L'Auvergnate (Jambon cru, St Nectaire, Noix)", price: "19.00€" }
                 ]
             },
             {
                 "category": "Desserts",
                 "items": [
-                    { "name": "Baba au rhum chantilly", "price": "8€" },
-                    { "name": "Tarte amandine aux fraises", "price": "8€" },
-                    { "name": "Cheesecake caramel maison", "price": "8€" },
-                    { "name": "Café gourmand", "price": "12€" }
+                    { name: "Crème brûlée à la vanille bourbon", price: "8.00€" },
+                    { name: "Brownie chocolat & noix", price: "8.00€" },
+                    { name: "Salade d'agrumes à la menthe fraîche", price: "8.00€" },
+                    { name: "Café gourmand (sélection du jour)", price: "12.00€" }
                 ]
             },
             {

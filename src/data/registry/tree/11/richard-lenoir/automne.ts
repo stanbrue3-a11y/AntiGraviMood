@@ -63,11 +63,25 @@ export const automne: SurgicalPlace = {
             },
 
             {
-                category: "Boissons",
+                category: "Inspirations (Séquences Automne)",
                 items: [
-                    { name: "Bouteille d'eau minérale", price: "6.00€" },
-                    { name: "Café", price: "5.00€" },
-                    { name: "Verre de vin nature (estimation)", price: "12.00€", description: "La cave est gérée par le sommelier Ulysse Hivroz avec de belles références nature." }
+                    { name: "Saint-Jacques de Dieppe & légumes de saison", price: "Inclus" },
+                    { name: "Asperges blanches, oseille & amandes fraîches", price: "Inclus" },
+                    { name: "Maigre de ligne, courgettes & couteaux de plongée", price: "Inclus" },
+                    { name: "Jardinière de légumes, émulsion barigoule", price: "Inclus" },
+                    { name: "Tartelette de foie gras au pain d'épice & muscat", price: "Inclus" },
+                    { name: "Ris de veau croustillant & champignons pied bleu", price: "Inclus" },
+                    { name: "Selle de chevreuil rôtie (en saison de chasse)", price: "Inclus" },
+                    { name: "Blanc manger à l'estragon & sorbet huile d'olive", price: "Inclus" },
+                    { name: "Gelée de thé jasmin, crème chocolat blanc & mangue", price: "Inclus" }
+                ]
+            },
+            {
+                category: "Boissons & Extras",
+                items: [
+                    { name: "Eau minérale (75cl)", price: "6.00€" },
+                    { name: "Café de spécialité", price: "5.00€" },
+                    { name: "Mignardises de fin de repas", price: "Inclus" }
                 ]
             }
         ]
@@ -80,6 +94,7 @@ export const automne: SurgicalPlace = {
         ]
     },
     instagram_handle: "restaurant_automne",
+    michelin_stars: 1,
     verified: true,
     google_rating: 4.6,
     description: "Couronné d'une étoile Michelin, Automne est l'écrin du chef japonais Nobuyuki Akishige. Il y déploie une gastronomie française d'une technicité redoutable, magnifiée par la délicatesse et la précision de sa culture natale. Le cadre est feutré et sobre, concentrant toute l'attention sur des assiettes bluffantes, sublimées par une cave nature d'exception dirigée par le sommelier Ulysse Hivroz.",

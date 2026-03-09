@@ -48,35 +48,47 @@ export const cafe_industrie: SurgicalPlace = {
         "smart_tip": "Le menu midi Express à 16€ (E+P ou P+D) est imbattable dans le quartier. Pour le soir, arrivez tôt car la terrasse est prise d'assaut.",
         "menu_items": [
             {
-                "category": "Formules & Brunch",
+                "category": "Formules Midi (Semaine)",
                 "items": [
-                    { "name": "Formule Midi (E+P+D)", "price": "19,00€" },
-                    { "name": "Formule Midi (E+P ou P+D)", "price": "16,00€" },
-                    { "name": "Brunch Complet (WE & JF)", "price": "23,00€" },
-                    { "name": "Petit Déjeuner Parisien", "price": "8,00€" }
+                    { "name": "Formule E + P + D", "price": "19.00€" },
+                    { "name": "Formule E + P ou P + D", "price": "16.00€" },
+                    { "name": "Petit Déjeuner Parisien", "price": "8.00€" }
+                ]
+            },
+            {
+                "category": "Entrées & Grignotages",
+                "items": [
+                    { "name": "Duo d'Œufs Bio Mayo", "price": "6.00€" },
+                    { "name": "Soupe à l'oignon gratinée", "price": "8.50€" },
+                    { "name": "6 Gros Escargots de Bourgogne", "price": "10.00€" },
+                    { "name": "Os à moelle grillé, fleur de sel", "price": "9.50€" },
+                    { "name": "Gros poireau crayon, vinaigrette noisette", "price": "7.50€" }
                 ]
             },
             {
                 "category": "Plats de Résistance",
                 "items": [
-                    { "name": "Filet de bœuf sauce au poivre", "price": "25,00€" },
-                    { "name": "Filet de bar poêlé au pesto", "price": "17,00€" },
-                    { "name": "Brick de chèvre chaud", "price": "6,00€" },
-                    { "name": "Accras de morue à la créole", "price": "7,00€" }
+                    { "name": "Onglet de bœuf grillé aux échalotes", "price": "19.00€" },
+                    { "name": "Filet de bœuf, sauce au poivre noir", "price": "26.00€" },
+                    { "name": "Tartare de bœuf maison, frites", "price": "18.00€" },
+                    { "name": "Magret de canard entier, miel & épices", "price": "22.00€" },
+                    { "name": "Confit de canard du Sud-Ouest", "price": "17.00€" },
+                    { "name": "Filet de bar poêlé, beurre blanc", "price": "19.00€" },
+                    { "name": "Linguine à la Bolognaise maison", "price": "14.00€" },
+                    { "name": "Blanquette de veau à l'ancienne", "price": "18.50€" }
                 ]
             },
             {
-                "category": "Boissons & Alcools",
+                "category": "Desserts Classiques",
                 "items": [
-                    { "name": "Cocktails Classiques", "price": "9,50€" },
-                    { "name": "Pinte de Bière Pression", "price": "7,00€" },
-                    { "name": "Verre de Vin AOC", "price": "5,50€" },
-                    { "name": "Jus de Bissap Maison", "price": "4,50€" },
-                    { "name": "Café / Allongé", "price": "2,50€" }
+                    { "name": "Crème brûlée à la cassonade", "price": "7.50€" },
+                    { "name": "Moelleux au chocolat, crème anglaise", "price": "6.00€" },
+                    { "name": "Tiramisu traditionnel", "price": "6.50€" },
+                    { "name": "Baba au rhum, chantilly fraîche", "price": "8.00€" }
                 ]
             }
         ],
-        "last_updated": "2026-03-02"
+        "last_updated": "2024-03-08"
     },
     "moods": {
         "chill": 80,

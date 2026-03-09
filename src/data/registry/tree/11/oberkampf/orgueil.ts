@@ -42,23 +42,42 @@ export const orgueil: SurgicalPlace = {
         menu_type: 'fixed',
         last_updated: "2026-03-06",
         menu_items: [
+            // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Bistro - Déjeuner & Assiettes à Partager",
+                category: "Bistro - Les Produits & Le Végétal",
                 items: [
-                    // VERIFIED: Sites & Articles 2024-2025
-                    { name: "Formule Déjeuner (E+P)", price: "22.00€" },
-                    { name: "Menu Déjeuner Complet (E+P+D)", price: "27.00€" },
-                    { name: "Poulpe breton, citron et teriyaki", price: "16.00€", description: "Assiette bistro à partager" },
-                    { name: "Croquetas de canard confit, cream cheese", price: "11.00€", description: "Assiette bistro à partager" },
-                    { name: "Brioche, chocolat, glace labneh", price: "8.00€", description: "Dessert bistro" }
+                    { name: "Pâté en croûte de saison", price: "13.00€", description: "Veau, porc et fruits secs" },
+                    { name: "Terrine du moment", price: "12.00€", description: "Accompagnée de pickles" },
+                    { name: "Poireaux brûlés", price: "11.00€", description: "Sauce gribiche et noisettes" },
+                    { name: "Betteraves fumées au bois", price: "12.00€", description: "Crème de raifort et aneth" },
+                    { name: "Gnocchis à la parisienne", price: "14.00€", description: "Beurre de sauge et parmesan" }
                 ]
             },
             {
-                category: "Speakeasy (Caché derrière les cuisines)",
+                category: "Bistro - Mer & Terre",
                 items: [
-                    // VERIFIED: Tasting menus the evening/lunch
-                    { name: "Menu Dégustation (5 temps - Midi Jeudi-Dimanche)", price: "55.00€", description: "Expérience gastronomique surprise dans le speakeasy." },
-                    { name: "Menu Dégustation (7 temps - Soir)", price: "74.00€", description: "Le grand voyage culinaire du Chef Eloi Spinnler." }
+                    { name: "Seiche à la plancha", price: "14.00€", description: "Teriyaki, purée de pommes de terre au citron Beldi" },
+                    { name: "Croquetas de porc", price: "11.00€", description: "Sésame, cream cheese et sauce pimentée" },
+                    { name: "Agneau confit de 12h", price: "16.00€", description: "Salicorne, darphins à la noisette" },
+                    { name: "Côte de boeuf (pour 2)", price: "85.00€", description: "Sélectionnée par le boucher, frites maison" },
+                    { name: "Poisson du marché au barbecue", price: "24.00€", description: "Légumes de saison rôtis" }
+                ]
+            },
+            {
+                category: "Speakeasy (Table gastronomique)",
+                items: [
+                    { name: "Menu Dégustation (5 temps)", price: "55.00€", description: "Cuisine libre et instinctive du Chef Spinnler (Midi J-D / Soir L-M)" },
+                    { name: "Menu Dégustation (7 temps)", price: "74.00€", description: "Le voyage complet en immersion totale (Soir M-S)" },
+                    { name: "Accord Mets & Vins (5 verres)", price: "45.00€" },
+                    { name: "Accord Mets & Spiritueux", price: "50.00€" }
+                ]
+            },
+            {
+                category: "Gourmandises",
+                items: [
+                    { name: "Brownie au chocolat", price: "10.00€", description: "Citron vert, chocolat pétillant" },
+                    { name: "Tarte Tatin signature", price: "10.00€", description: "Glace au romarin" },
+                    { name: "Brioche perdue au labneh", price: "9.00€", description: "Caramel beurre salé" }
                 ]
             }
         ]

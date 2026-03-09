@@ -43,78 +43,58 @@ export const cafe_du_coin: SurgicalPlace = {
         dish_price: 18, // MANUAL: Median des Plats déjeuner (morue ~18€, caille ~20€, pâtes ~16€)
         last_updated: "2026-03-06",
         menu_items: [
-            // ═══════════════════════════════════════════
-            // FORMULES DÉJEUNER (Source: LeFooding + TimeOut + LeBey)
-            // ═══════════════════════════════════════════
             {
-                category: "Menu à Tiroirs (Déjeuner)",
+                category: "Menu à Tiroirs (Déjeuner - Saison 2025)",
                 items: [
-                    // VERIFIED: LeFooding + TimeOut (2024) — 15-24€
-                    { name: "Formule midi (carte qui change tous les jours)", price: "15.00€", description: "Le menu du midi change quotidiennement." },
-                    { name: "Menu complet midi", price: "24.00€" }
+                    { name: "Formule midi (E+P ou P+D)", price: "20.00€", description: "Le menu du midi change quotidiennement selon le marché." },
+                    { name: "Menu complet midi (E+P+D)", price: "24.00€", description: "L'option gourmande et équilibrée." },
+                    { name: "Plat du jour seul", price: "16.00€" }
                 ]
             },
-            // ═══════════════════════════════════════════
-            // PLATS DU DÉJEUNER (Source: LeFooding + Fulgurances + LuckyMiam)
-            // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category: "Pizzettes Croustillantes (Signature du Soir)",
                 items: [
-                    // VERIFIED: LeFooding + LuckyMiam (2024) — plats 16-22€
-                    { name: "Morue, caponata de légumes", price: "18.00€" },
-                    { name: "Caille rôtie, purée de pommes de terre", price: "20.00€" },
-                    { name: "Pâtes al ragù", price: "16.00€" },
-                    { name: "Plat du jour (variable)", price: "18.00€" }
-                ]
-            },
-            // ═══════════════════════════════════════════
-            // PIZZETTES & PETITES ASSIETTES DU SOIR (Source: LeFooding + Restaurants-us)
-            // ═══════════════════════════════════════════
-            {
-                category: "Pizzettes Croustillantes (Le Soir)",
-                items: [
-                    // VERIFIED: LeFooding + Restaurants-us (2024) — pizzettes 5-8€
-                    { name: "Pizzette Mortadelle Truffée / Ricotta", price: "8.00€" },
-                    { name: "Pizzette Gorgonzola / Courgette", price: "7.00€" },
-                    { name: "Pizzette Cacio e Pepe", price: "6.00€" },
+                    { name: "Pizzette Mortadelle Truffée / Ricotta", price: "8.00€", description: "La star incontestée, fondante et parfumée." },
+                    { name: "Pizzette Gorgonzola / Fleur de courgette / Dukkah", price: "8.00€" },
                     { name: "Pizzette Mozzarella Fumée / Zaatar", price: "7.00€" },
-                    { name: "Pizzette Tomate / Mozzarella / Espelette", price: "6.00€" },
-                    { name: "Pizzette Anchois", price: "5.00€" },
-                    { name: "Pizzette Lardo / Taleggio / Œuf", price: "8.00€" }
+                    { name: "Pizzette Cacio e Pepe", price: "6.00€" },
+                    { name: "Pizzette Taleggio / Œuf / Guanciale", price: "8.00€" },
+                    { name: "Pizzette Tomate / Morteau / Moutarde / Pickles", price: "7.00€" },
+                    { name: "Pizzette Anchois / Olives", price: "5.00€" }
                 ]
             },
             {
-                category: "Assiettes du Soir",
+                category: "Assiettes de Partage (Déjeuner & Soir)",
                 items: [
-                    // VERIFIED: LeFooding (2024) — 6-12€
-                    { name: "Chips de riz", price: "6.00€" },
-                    { name: "Tempura de courge bleue", price: "8.00€" },
-                    { name: "Éperlans frits", price: "8.00€" },
-                    { name: "Croquettes de poisson", price: "9.00€" },
+                    { name: "Haricots verts, cerises, basilic & sureau", price: "7.00€" },
+                    { name: "Tartare de poisson, raifort, fenouil & épeautre frit", price: "12.00€" },
+                    { name: "Éperlans frits, sauce tartare", price: "8.00€" },
+                    { name: "Morue, caponata de légumes fondants", price: "18.00€" },
+                    { name: "Caille rôtie, purée de PDT", price: "20.00€" },
+                    { name: "Tarama, radis et sumac", price: "8.00€" },
+                    { name: "Anchois de Cantabrie, beurre demi-sel", price: "10.00€" },
+                    { name: "Saucisson artisanal", price: "10.00€" },
+                    { name: "Croquettes de poisson maison", price: "9.00€" },
                     { name: "Sardines entières grillées", price: "12.00€" }
                 ]
             },
-            // ═══════════════════════════════════════════
-            // DESSERTS (Source: LuckyMiam + Fulgurances)
-            // ═══════════════════════════════════════════
             {
-                category: "Desserts",
+                category: "Desserts Maison",
                 items: [
                     { name: "Ganache chocolat, glace gwell maison", price: "8.00€" },
                     { name: "Tarte noisette et poire", price: "7.00€" },
-                    { name: "Financier du jour", price: "5.00€" }
+                    { name: "Financier du jour à la pistache", price: "5.00€" },
+                    { name: "Panacotta à la fleur d'oranger", price: "7.00€" }
                 ]
             },
-            // ═══════════════════════════════════════════
-            // VINS NATURES (Source: VinsNaturels + LeFooding + LeBey)
-            // ═══════════════════════════════════════════
             {
-                category: "Vins Natures & Bio",
+                category: "Vins Natures 'Prix Ouvrier'",
                 items: [
-                    // VERIFIED: VinsNaturels + LeFooding (2024) — verres dès 4€
-                    { name: "Verre de vin nature (à partir de)", price: "4.00€" },
-                    { name: "Verre nature sélection", price: "7.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "22.00€" }
+                    { name: "Verre de vin nature (Sélection du moment)", price: "4.00€", description: "Le meilleur deal du 11ème sur le vin nature." },
+                    { name: "Loire Chenin (le verre)", price: "7.00€" },
+                    { name: "Verre nature sélection supérieure", price: "7.50€" },
+                    { name: "Bouteille nature (à partir de)", price: "27.00€" },
+                    { name: "Magnum nature (selon cave)", price: "55.00€" }
                 ]
             }
         ]

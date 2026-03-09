@@ -38,7 +38,7 @@ export const biondi: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 3.00,
-        dish_price: 60, // MANUAL: Focus sur les belles pièces de viande (souvent à partager ou onéreuses).
+        dish_price: 40, // Median Plats+Viandes: 28-44€ plats, 32-45€ viandes individuelles
         last_updated: "2026-03-07",
         menu_items: [
             {

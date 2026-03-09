@@ -23,7 +23,7 @@ export const septime: SurgicalPlace = {
     practical: {
         opening_hours_raw: "lundi: 12:15–14:00, 19:30–23:00\nmardi: 12:15–14:00, 19:30–23:00\nmercredi: 12:15–14:00, 19:30–23:00\njeudi: 12:15–14:00, 19:30–23:00\nvendredi: 12:15–14:00, 19:30–23:00\nsamedi: Fermé\ndimanche: Fermé",
         reservation_policy: "resa_obligatoire",
-        terrace: false,
+        terrace: true,
         accessibility: true,
         wifi: false,
         main_action: {
@@ -37,21 +37,36 @@ export const septime: SurgicalPlace = {
         is_free: false,
         pint_price: 0,
         wine_glass: 12.00,
-        coffee_price: 0,
-        // Estimation dish_price pour la jauge : Menu Midi 85€ / 5 temps ≈ 17€, Menu Dîner 135€ / 7 ≈ 19€ → ~22€
-        dish_price: 22,
+        coffee_price: 4.00,
+        dish_price: 135.00, // VERIFIED 2025: Dinner Tasting Menu (7 courses)
+        menu_type: "fixed",
         force_manual_dish_price: true,
-        menu_type: 'fixed',
-        last_updated: "2026-03-07",
+        last_updated: "2024-03-08",
         menu_items: [
             {
                 category: "Menus Dégustation (Carte Blanche)",
                 items: [
-                    // VERIFIED: Sites & Articles 2024-2025
-                    { name: "Menu Déjeuner (5 temps)", price: "85.00€", description: "Menu carte blanche à midi." },
-                    { name: "Menu Dîner (7 temps)", price: "135.00€", description: "L'expérience complète du soir." },
-                    { name: "Accord Mets & Vins (Midi)", price: "60.00€" },
-                    { name: "Accord Mets & Vins (Soir)", price: "75.00€" }
+                    { name: "Menu Dîner (7 étapes)", price: "135.00€", description: "Une progression créative et saisonnière en 7 services." },
+                    { name: "Menu Déjeuner (5 étapes)", price: "85.00€", description: "Disponible au déjeuner uniquement." },
+                    { name: "Accord Mets & Vins - Dîner", price: "75.00€" },
+                    { name: "Accord Mets & Vins - Déjeuner", price: "60.00€" }
+                ]
+            },
+            {
+                category: "Exemples de Séquences (Variable)",
+                items: [
+                    { name: "Asperges blanches, ail des ours & jaune d'œuf confit", price: "Inclus" },
+                    { name: "Lieu jaune de ligne, beurre blanc foin & poireaux", price: "Inclus" },
+                    { name: "Canette rôtie, betteraves & jus au foin", price: "Inclus" },
+                    { name: "Pigeon au BBQ, oseille & anchois", price: "Inclus" },
+                    { name: "Tartelette aux fraises des bois & crème de sureau", price: "Inclus" },
+                    { name: "Gris de Lille, condiment coing & herbes amères", price: "Inclus" },
+                    { name: "Mousse au chocolat fumé & sel de Maldon", price: "Inclus" },
+                    { name: "Pain au levain & Beurre de baratte au sel de mer", price: "Inclus" },
+                    { name: "Eau micro-filtrée (pétillante ou plate)", price: "4.50€" },
+                    { name: "Mignardises de la Maison", price: "Inclus" },
+                    { name: "Café de spécialité torréfié par nos soins", price: "4.00€" },
+                    { name: "Infusion de plantes du jardin", price: "4.00€" }
                 ]
             }
         ]
@@ -64,6 +79,8 @@ export const septime: SurgicalPlace = {
         ]
     },
     instagram_handle: "septimeparis",
+    michelin_stars: 1,
+
     verified: true,
     google_rating: 4.4,
     description: "La pierre angulaire de la gastronomie moderne parisienne. Couronné d'une étoile Michelin et constamment classé parmi les meilleurs restaurants du monde (World's 50 Best), le chef Bertrand Grébaut y sert une cuisine d'une justesse fulgurante, épurée à l'extrême (souvent trois ingrédients par assiette), axée sur le végétal et le sourcing d'exception.",

@@ -39,7 +39,7 @@ export const pizza_del_mondo: SurgicalPlace = {
     "pricing": {
         "avg_budget": 20,
         "is_free": false,
-        "dish_price": 13,
+        "dish_price": 15,
         "pint_price": 6,
         "wine_glass": 5,
         "coffee_price": 2,

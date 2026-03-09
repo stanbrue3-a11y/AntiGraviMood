@@ -43,47 +43,62 @@ export const clamato: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Petites Assiettes (Entrées & Tapas Marins)",
+                category: "Les Incontournables & Grignotages (Standard Moelle 2025)",
                 items: [
-                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Rillette de bonite", price: "7.00€" },
-                    { name: "Tarama d'œuf de cabillaud fumé au zaatar", price: "8.00€" },
-                    { name: "Bulots de Dieppe, aïoli à l'ail rôti", price: "9.00€" },
-                    { name: "Coques de Roscoff, beurre au vinaigre fumé", price: "9.00€" },
-                    { name: "Accras de morue sauce chien", price: "11.00€" },
-                    { name: "Oursins de Galice (les 3)", price: "15.00€" },
+                    { name: "Rillette de bonite", price: "7.00€", description: "L'amuse-bouche marin classique, parfait pour commencer." },
+                    { name: "Tarama d'œuf de cabillaud fumé au zaatar", price: "8.00€", description: "Une onctuosité folle relevée par les épices." },
+                    { name: "Bulots de Dieppe, aïoli à l'ail rôti", price: "9.00€", description: "Générationnel, l'aïoli est d'une précision chirurgicale." },
+                    { name: "Coques de Roscoff, beurre au vinaigre fumé", price: "9.00€", description: "L'acidité fumée qui claque en bouche." },
+                    { name: "Accras de morue sauce chien", price: "11.00€", description: "Croustillants, cœur fondant, sauce percutante." },
+                    { name: "Oursins de Galice (les 3)", price: "15.00€", description: "L'iode pur, à déguster à la petite cuillère." },
                     { name: "Huîtres Marennes Oléron N°3 (les 6)", price: "18.00€" },
                     { name: "Huîtres Utah Beach N°2 (les 6)", price: "20.00€" },
-                    { name: "Huîtres plates de Belon (les 6)", price: "24.00€" }
+                    { name: "Huîtres plates de Belon (les 6)", price: "24.00€" },
+                    { name: "Bigorneaux au court-bouillon", price: "7.00€" },
+                    { name: "Croquette de lieu jaune, sauce Huancaína", price: "8.00€" }
                 ]
             },
             {
                 category: "Le Cru & Les Assiettes Moyennes (Crudos)",
                 items: [
-                    { name: "Ceviche de mulet noir, courge musquée, coriandre", price: "14.00€" },
+                    { name: "Ceviche de mulet noir, courge musquée, coriandre", price: "14.00€", description: "Équilibre parfait entre le gras du poisson et l'acidité du leche de tigre." },
                     { name: "Carpaccio de mulet, huile de sésame, piment", price: "14.50€" },
-                    { name: "Maigre de ligne, poire et chou-rave", price: "15.00€" },
-                    { name: "Saint-Jacques crues, cédrat et clémentine", price: "16.00€" },
+                    { name: "Maigre de ligne, poire et chou-rave", price: "15.00€", description: "Une association terre-mer audacieuse et fraîche." },
+                    { name: "Saint-Jacques crues, cédrat et clémentine", price: "16.00€", description: "La douceur de la Saint-Jacques dynamisée par les agrumes." },
+                    { name: "Thon blanc, échalotes et groseille", price: "16.00€" },
                     { name: "Tartare de thon rouge, stracciatella, anchois", price: "18.00€" },
-                    { name: "Truite de Banka, sauce matelote et lard fumé", price: "18.00€" }
+                    { name: "Truite de Banka, sauce matelote et lard fumé", price: "18.00€" },
+                    { name: "Daurade royale, navet kabu et huile de poireau", price: "17.00€" }
                 ]
             },
             {
-                category: "Les Grandes Assiettes (À partager)",
+                category: "Les Grandes Assiettes (Plats à partager)",
                 items: [
-                    { name: "Poulpe grillé, pommes grenailles, aïoli", price: "29.00€" },
+                    { name: "Poulpe grillé, pommes grenailles, aïoli", price: "29.00€", description: "Tendreté absolue, un classique immuable de la maison." },
                     { name: "Lotte rôtie, jus de viande, champignons sauvages", price: "34.00€" },
-                    { name: "Bar entier d'Oléron, sauce béarnaise", price: "39.00€" },
+                    { name: "Bar entier d'Oléron, sauce béarnaise", price: "39.00€", description: "Cuit à la perfection, pour deux personnes." },
+                    { name: "Saint-Jacques snackées, beurre blanc truffé", price: "24.00€" },
+                    { name: "Seiche à la plancha, encre et piment", price: "21.00€" },
+                    { name: "Mulet entier au sel, légumes de saison", price: "36.00€" },
                     { name: "Plateau panaché (crabes, bulots, oursins, coques, huîtres)", price: "65.00€", description: "Le plateau signature hyper iodé de l'écailler." }
                 ]
             },
             {
-                category: "Desserts & Boissons",
+                category: "Desserts & Douceurs",
                 items: [
-                    { name: "Tartelette au sirop d'érable, crème fouettée", price: "8.00€", description: "L'incontournable dessert signature, cultissime." },
+                    { name: "Tartelette au sirop d'érable, crème fouettée", price: "8.00€", description: "L'incontournable dessert signature, cultissime, passage obligé." },
                     { name: "Glace au sarrasin, caramel beurre salé", price: "7.00€" },
+                    { name: "Calamansi curd, biscuit noisette", price: "9.00€" },
+                    { name: "Clementine et sorbet herbes", price: "8.00€" }
+                ]
+            },
+            {
+                category: "Drinks & Signature Cocktails",
+                items: [
                     { name: "Clamato Bloody Mary", price: "12.00€", description: "Le cocktail signature, parfait avec les huîtres." },
-                    { name: "Michelada (Bière, jus de tomate, épices)", price: "10.00€" }
+                    { name: "Michelada (Bière, jus de tomate, épices)", price: "10.00€" },
+                    { name: "Cidre fermier brut (le verre)", price: "6.00€" },
+                    { name: "Pet-Nat (sélection du moment)", price: "9.00€" }
                 ]
             }
         ]

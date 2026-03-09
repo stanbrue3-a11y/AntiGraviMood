@@ -40,42 +40,52 @@ export const amalia: SurgicalPlace = {
         // VERIFIED: Site officiel — accord vins 80€ pour ~5 verres → ~16€/verre
         wine_glass: 16.00,
         coffee_price: 0,
-        dish_price: 33, // MANUAL: Median des plats à la carte du déjeuner (25, 32, 34, 38)
+        dish_price: 40.00, // MANUAL: Median des plats à la carte du déjeuner (25, 32, 34, 38)
         menu_type: 'fixed',
-        last_updated: "2026-03-06",
+        last_updated: "2026-03-08",
         menu_items: [
             // ═══════════════════════════════════════════
-            // MENU DÉGUSTATION (Source: site officiel + GaultMillau)
+            // MENUS (Source: site officiel 2025)
             // ═══════════════════════════════════════════
             {
-                category: "Menu Dégustation (Soir)",
+                category: "Menus Dégustation",
                 items: [
-                    // VERIFIED: Site officiel + Reddit + GaultMillau (2024-2025)
-                    { name: "Menu Saison", price: "90.00€", description: "Menu saisonnier plus court." },
-                    { name: "Grand Menu AMÂLIA (menu complet)", price: "145.00€", description: "Le grand parcours du chef." },
-                    { name: "Accord mets et vins", price: "80.00€", description: "Supplément pour l'accord vins." }
+                    { name: "Grand Menu AMÂLIA", price: "145.00€", description: "Expérience complète en plusieurs étapes." },
+                    { name: "Menu Végétarien", price: "120.00€", description: "Déclinaison végétale du grand menu." },
+                    { name: "Menu Déjeuner (Semaine)", price: "60.00€", description: "Formule midi rapide." },
+                    { name: "Menu Déjeuner (Week-end)", price: "90.00€", description: "Menu complet en 3 temps." },
+                    { name: "Accord Mets & Vins (Grand Menu)", price: "80.00€" },
+                    { name: "Accord Mets & Vins (Végétarien)", price: "70.00€" }
                 ]
             },
             // ═══════════════════════════════════════════
-            // CARTE DÉJEUNER (Source: GaultMillau — week-end)
+            // À LA CARTE - DÉJEUNER (Source: GaultMillau/Guide Michelin)
             // ═══════════════════════════════════════════
+            {
+                category: "Entrées",
+                items: [
+                    { name: "Cappuccino d'araignée de mer, agrumes, amandes", price: "25.00€" },
+                    { name: "Tartare de veau fumé, cacahuètes, glace oursin", price: "28.00€" },
+                    { name: "Gnocchis au beurre de tabasco, coques marinière", price: "26.00€" },
+                    { name: "Spaghettoni au citron, sauce huître épicée", price: "32.00€" }
+                ]
+            },
             {
                 category: "Plats",
                 items: [
-                    // VERIFIED: GaultMillau (2025) — carte déjeuner du week-end
-                    { name: "Cappuccino d'araignée de mer, pamplemousse, amandes fraîches, café", price: "25.00€" },
-                    { name: "Spaghettoni citronnés, sauce huître épicée, livèche, sumac", price: "32.00€" },
-                    { name: "Cuisse de canard challandais confite, poivron jaune, abricot rôti, jus mezcal", price: "34.00€" },
-                    { name: "Barbue rôtie, tomates datterino fumées, olives Taggiasche, beurre vanillé", price: "38.00€" }
+                    { name: "Barbue rôtie, tomates datterino fumées, olives", price: "38.00€" },
+                    { name: "Cuisse de canard challandais, poivron, abricot", price: "34.00€" },
+                    { name: "Ris de veau croustillant, condiment anchois", price: "42.00€" },
+                    { name: "Turbot sauvage, artichauts, jus de coquillages", price: "45.00€" }
                 ]
             },
-            // ═══════════════════════════════════════════
-            // DESSERTS (Source: GaultMillau)
-            // ═══════════════════════════════════════════
             {
                 category: "Desserts",
                 items: [
-                    { name: "Sorbet gingembre, nuage citron, piment d'Espelette et coriandre", price: "15.00€" }
+                    { name: "Sorbet gingembre, nuage citron, Espelette", price: "15.00€" },
+                    { name: "Feuille à feuille ananas rôti, pomme de terre", price: "18.00€" },
+                    { name: "Rhubarbe, fraises, fontainebleau, coquelicot", price: "18.00€" },
+                    { name: "Chocolat grand cru, noisettes du Piémont", price: "17.00€" }
                 ]
             }
         ]
@@ -88,15 +98,16 @@ export const amalia: SurgicalPlace = {
         ]
     },
     instagram_handle: "amalia_restaurant_paris",
+    michelin_stars: 1,
     verified: true,
     google_rating: 4.9,
     description: "AMÂLIA est le restaurant étoilé Michelin (2025) des chefs italiens Eugenio Anfuso et Cecilia Spurio, dans l'ancien local du restaurant Robert. La cuisine est un mariage magistral entre technique française et âme italienne : spaghettoni citronnés sauce huître, barbue aux tomates fumées beurre vanillé, canard confit au jus de mezcal. C'est probablement la plus belle table du 11ème avec 4.9 étoiles Google.",
-    insider_tip: "• Le Grand Menu AMÂLIA à 145€ est l'expérience complète — comptez 225€ avec l'accord vins.\n• Le Menu Saison à 90€ offre un parcours plus court mais tout aussi précis.\n• Le déjeuner du week-end (dimanche) propose une carte à la volée avec des plats entre 25-38€ — l'occasion de goûter à moindre coût.\n• La réservation est OBLIGATOIRE et les créneaux sont limités (19h30-21h30) — réservez tôt.\n• C'est un étoilé Michelin 2025 avec 4.9 étoiles Google — un exploit rare.",
+    insider_tip: "• Le Grand Menu AMÂLIA à 145€ est l'expérience complète — comptez 225€ avec l'accord vins.\n• Le Menu Saison à 90€ offre un parcours plus court mais tout aussi précis.\n• Le déjeuner propose une carte à la volée avec des plats entre 25-45€ — l'occasion de goûter à moindre coût.\n• La réservation est OBLIGATOIRE et les créneaux sont limités — réservez tôt.\n• C'est un étoilé Michelin 2025 avec 4.9 étoiles Google — un exploit rare.",
     expert_catchline: "L'étoilé Michelin 2025 franco-italien du 11ème : 4.9 étoiles Google, le sommet du quartier.",
     specials: {
         cuisine: ["Spaghettoni citronnés sauce huître", "Barbue aux olives Taggiasche", "Canard confit jus mezcal", "Araignée de mer cappuccino"],
         drinks: ["Accord mets-vins 80€", "Sélection franco-italienne", "Sommelier expert"],
-        must_eat: "Le Grand Menu AMÂLIA (145€) est le parcours signature. Pour un premier essai, le Menu Saison (90€) est parfait. Le dimanche midi, la carte offre des plats individuels entre 25-38€ — le deal du siècle pour un étoilé.",
+        must_eat: "Le Grand Menu AMÂLIA (145€) est le parcours signature. Le dimanche midi, la carte offre des plats individuels entre 25-45€ — le deal du siècle pour un étoilé.",
         must_drink: "L'accord mets-vins à 80€ est calibré pour chaque plat du menu — indispensable pour profiter pleinement de l'expérience."
     }
 };

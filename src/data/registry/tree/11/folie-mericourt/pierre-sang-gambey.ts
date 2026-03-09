@@ -45,9 +45,26 @@ export const pierre_sang_gambey: SurgicalPlace = {
             {
                 category: "Les Menus (Créations sans carte)",
                 items: [
-                    // VERIFIED: Source TheFork & Site Officiel 2024
                     { name: "Menu Freestyle (Dejeuner/Soir - 4 services)", price: "51.50€", description: "L'expression libre du chef selon les arrivages (Entrée/Plat/Fromage/Dessert)." },
                     { name: "Menu Découverte (Soir - 6 services)", price: "63.50€", description: "Expérience complète de la cuisine fusion de Pierre Sang Boyer." }
+                ]
+            },
+            {
+                category: "Signatures (Surprise Menu - Extraits)",
+                items: [
+                    { name: "Amuse-bouche : Champignons & crumble parmesan", price: "Inclus" },
+                    { name: "Saumon fumé, navets pickles & sauce Kimchi", price: "Inclus" },
+                    { name: "Poulpe frit, purée de vitelotte & miso", price: "Inclus" },
+                    { name: "Saint-Pierre, choux asiat' & condiment citron-réglisse", price: "Inclus" },
+                    { name: "Magret de canard, betterave & jus Gochujang", price: "Inclus" },
+                    { name: "Comté affiné, sorbet Poivre de Timut", price: "Inclus" },
+                    { name: "Dessert : Mangue, passion & sorbet coriandre", price: "Inclus" },
+                    { name: "Thé vert coréen sélectionné", price: "Inclus" },
+                    { name: "Mignardises de fin de repas", price: "Inclus" },
+                    { name: "Beurre au Kimchi maison & pain de campagne", price: "Inclus" },
+                    { name: "Eau micro-filtrée", price: "Inclus" },
+                    { name: "Consommé de seiche & Kimchi blanc", price: "Inclus" },
+                    { name: "Ganache Sésame Noir & Miso", price: "Inclus" }
                 ]
             }
         ]

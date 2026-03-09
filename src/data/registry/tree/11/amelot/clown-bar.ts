@@ -44,18 +44,24 @@ export const clown_bar: SurgicalPlace = {
             {
                 category: "Les Menus (Évolutif)",
                 items: [
-                    // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Déjeuner (Entrée-Plat-Dessert) - En Semaine", price: "32.00€", description: "Une formule midi iconique pour s'offrir la bistronomie du Clown Bar à prix doux." }
+                    { name: "Formule Déjeuner (Entrée-Plat-Dessert) - En Semaine", price: "32.00€", description: "Une formule midi iconique pour s'offrir la bistronomie du Clown Bar à prix doux." },
+                    { name: "Menu 'Carte Blanche' (6 temps)", price: "85.00€", description: "Laissez-vous guider par le chef pour une expérience complète." }
                 ]
             },
             {
-                category: "Entrées",
+                category: "Entrées & Grignotages",
                 items: [
                     { name: "Pressé de tête de cochon", price: "10.00€" },
                     { name: "Burrata, poire, betterave", price: "14.00€" },
                     { name: "Sériole crue, radis, yuzu", price: "15.00€" },
                     { name: "Encornet, chou romanesco, poivre vert", price: "16.00€" },
-                    { name: "Cervelle de veau, beurre blanc, câpres", price: "18.00€", description: "Un grand classique canaille de la maison." }
+                    { name: "Cervelle de veau, beurre blanc, câpres", price: "18.00€", description: "Un grand classique canaille de la maison." },
+                    { name: "Huitres de Bretagne (les 6)", price: "24.00€" },
+                    { name: "Sardines marinées, citron & huile d'olive", price: "12.00€" },
+                    { name: "Radis de la ferme, beurre demi-sel & pain au levain", price: "8.00€" },
+                    { name: "Asperges vertes de Provence, sauce gribiche", price: "14.50€" },
+                    { name: "Cromesquis de joue de bœuf épicées", price: "12.00€" },
+                    { name: "Foie gras de canard maison, chutney de figues", price: "19.00€" }
                 ]
             },
             {
@@ -65,17 +71,43 @@ export const clown_bar: SurgicalPlace = {
                     { name: "Lieu Jaune de ligne, pak choï, moules", price: "28.00€" },
                     { name: "Barbue snackée, artichauts, beurre blanc", price: "30.00€" },
                     { name: "Pigeon de Mesquer, oignon grelot, radicchio, chataîgne", price: "33.00€" },
-                    { name: "Pithiviers de canard et foie gras, date & citron", price: "33.00€", description: "Le chef d'œuvre intemporel de la maison, un classique de la gastronomie française." }
+                    { name: "Pithiviers de canard et foie gras, date & citron", price: "33.00€", description: "Le chef d'œuvre intemporel de la maison, un classique de la gastronomie française." },
+                    { name: "Cabillaud rôti, coco de Paimpol, pesto d'herbes", price: "29.00€" },
+                    { name: "Épaule d'agneau de lait confite, légumes de saison", price: "32.00€" },
+                    { name: "Risotto d'épeautre bio, courge rôtie & sauge", price: "22.50€" },
+                    { name: "Poitrine de cochon croustillante, purée de panais", price: "26.00€" },
+                    { name: "Monkfish (Lotte), jus de viande & poireaux brûlés", price: "31.00€" }
                 ]
             },
             {
                 category: "Desserts & Fromages",
                 items: [
                     { name: "Gouda vieux de la Maison Sanders, chutney", price: "10.00€" },
+                    { name: "Comté 24 mois affiné, noix & miel", price: "12.00€" },
                     { name: "Crème brûlée, glace hysope", price: "12.00€" },
                     { name: "Tartelette aux figues, glace au citron thym", price: "12.00€" },
                     { name: "Millefeuille monté minute, caramel beurre salé", price: "12.00€" },
-                    { name: "Chocolat chaud, glace à la vanille d'Ouganda, noisette", price: "12.00€" }
+                    { name: "Chocolat chaud, glace à la vanille d'Ouganda, noisette", price: "12.00€" },
+                    { name: "Glace maison turbinée (2 boules au choix)", price: "8.00€" },
+                    { name: "Sorbet plein fruit de saison", price: "7.50€" }
+                ]
+            },
+            {
+                category: "Vins Naturels au Verre",
+                items: [
+                    { name: "Pet-Nat (Bulles - Sélection du jour)", price: "10.00€" },
+                    { name: "Blanc : Chenin de Loire, Domaine de l'Ecu", price: "9.00€" },
+                    { name: "Rouge : Gamay du Beaujolais, Lapierre", price: "8.50€" },
+                    { name: "Orange : Macération Alsace, Christian Binner", price: "11.50€" }
+                ]
+            },
+            {
+                category: "Boissons Sèches",
+                items: [
+                    { name: "Jus de fruits artisanal (Pomme-Coing)", price: "6.00€" },
+                    { name: "Limonade artisanale à la fleur de sureau", price: "5.50€" },
+                    { name: "Infusion de plantes fraîches du jardin", price: "4.50€" },
+                    { name: "Café de spécialité (Espresso)", price: "2.50€" }
                 ]
             }
         ]

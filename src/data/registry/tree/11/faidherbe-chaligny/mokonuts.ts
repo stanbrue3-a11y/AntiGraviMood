@@ -44,28 +44,48 @@ export const mokonuts: SurgicalPlace = {
             {
                 category: "Les Fripouilles de Moko (Pâtisserie continue)",
                 items: [
-                    // VERIFIED: Infamous cookies 
-                    { name: "Cookie Sésame noir & Chocolat", price: "2.50€" },
-                    { name: "Cookie Avoine, miso et sésame noir", price: "2.50€" },
-                    { name: "Cookie Chocolat blanc et olive noire", price: "2.50€" },
-                    { name: "Tarte Fraise & Basilic", price: "11.00€" }
+                    { name: "Cookie Sésame noir & Chocolat", price: "4.00€", description: "Le best-seller iconique." },
+                    { name: "Cookie Avoine, miso et sésame noir", price: "4.00€" },
+                    { name: "Cookie Chocolat blanc et olive noire", price: "4.00€" },
+                    { name: "Cookie Chocolat au lait & Noisettes du Piémont", price: "4.00€" },
+                    { name: "Cookie Tahini & Chocolat noir", price: "4.00€" },
+                    { name: "Cookie Peanut Butter & Sea Salt", price: "4.00€" },
+                    { name: "Cookie Rye (Seigle) & Coquelicot", price: "4.00€" },
+                    { name: "Tarte Fraise & Basilic", price: "11.00€" },
+                    { name: "Tarte au Citron Meyer & Meringue", price: "10.00€" },
+                    { name: "Ricotta & Blood Orange Cake", price: "9.00€" },
+                    { name: "Fig Tart with Black Sesame", price: "10.00€" },
+                    { name: "Apple Plum Chiffon Cake", price: "8.50€" }
                 ]
             },
             {
                 category: "La Cuisine Levantine d'Omar (Midi Uniquement)",
                 items: [
                     { name: "Labneh maison, za'atar et pain pita", price: "10.00€", description: "L'incontournable absolu de la maison." },
-                    { name: "Thon blanc saisis, courgettes et aubergine fumée", price: "14.00€" },
-                    { name: "Orecchiette au homard breton", price: "32.00€", description: "Exemple de plat pointu." },
-                    { name: "Filet mignon de porc, asperges et pommes de terre", price: "26.00€" }
+                    { name: "Thon blanc saisis, courgettes et aubergine fumée", price: "16.00€" },
+                    { name: "Œuf mollet, chanterelles & haricots verts", price: "15.00€" },
+                    { name: "Orecchiette au homard breton & bisque", price: "32.00€" },
+                    { name: "Filet mignon de porc, asperges et grenailles", price: "28.00€" },
+                    { name: "Quasi de veau rôti, borlotti et sauge", price: "30.00€" },
+                    { name: "Lieu jaune de ligne, fenouil & olives", price: "27.00€" },
+                    { name: "Caille grillée, épices douces & légumes racines", price: "26.00€" },
+                    { name: "Risotto d'épeautre aux herbes fraîches", price: "24.00€" },
+                    { name: "Mackerel Crudo, green sauce & radish", price: "14.00€" },
+                    { name: "Seared Hake, pil-pil sauce & endive", price: "21.00€" },
+                    { name: "Fried Egg, asparagus vinaigrette & bitter lettuces", price: "12.00€" },
+                    { name: "Coques (Clams), garlic-herb butter", price: "12.00€" }
                 ]
             },
             {
-                category: "Boissons",
+                category: "Boissons & Extras",
                 items: [
-                    { name: "Limonade maison à la fleur d'oranger", price: "4.00€" },
-                    { name: "Thé Sobacha", price: "4.00€" },
-                    { name: "Verre de vin nature (Sélection)", price: "13.00€" }
+                    { name: "Limonade maison à la fleur d'oranger", price: "5.50€" },
+                    { name: "Thé Sobacha (Sarrasin grillé)", price: "5.00€" },
+                    { name: "Verre de vin nature (Sélection)", price: "13.00€" },
+                    { name: "Kéfir de fruits maison", price: "6.00€" },
+                    { name: "Café Filtre (Specialty Coffee)", price: "4.50€" },
+                    { name: "Espresso", price: "2.50€" },
+                    { name: "Hot Chocolate (Valrhona)", price: "6.00€" }
                 ]
             }
         ]

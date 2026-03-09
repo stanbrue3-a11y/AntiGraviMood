@@ -41,36 +41,42 @@ export const bouche: SurgicalPlace = {
         dish_price: 15, // MANUAL: Concept d'assiettes à partager. Prix allant de 10€ à 20€. Median ~14-15€. (Ex: fromage 12€, lomo 13€, praires 14€, chou 18€).
         last_updated: "2026-03-06",
         menu_items: [
+            // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Tapassiettes Végétales & Fromages (à partager)",
+                category: "Tapassiettes - Les Incontournables",
                 items: [
-                    // VERIFIED: Source sites 2024
+                    { name: "Chou frisé au BBQ, dattes, tahini, cacahuètes", price: "18.00€", description: "Le plat signature, cuit longuement." },
                     { name: "Fromage suisse au nid d'abeille", price: "12.00€" },
-                    { name: "Çiğ köfte (version végétalienne)", price: "13.00€" },
-                    { name: "Chou frisé au BBQ", price: "18.00€", description: "Le plat signature, cuit longuement." }
+                    { name: "Çiğ köfte (version végétalienne), sucrine et herbes", price: "13.00€" },
+                    { name: "Mousse de foie de volaille, gelée de poire au Timut", price: "13.00€" },
+                    { name: "Chiacciata (pain italien maison)", price: "9.00€" }
                 ]
             },
             {
-                category: "Tapassiettes Carnées & Marines (à partager)",
+                category: "Tapassiettes - Mer & Terre",
                 items: [
-                    // VERIFIED: Mises à jour récentes (10 à 20€ en moyenne)
-                    { name: "Lomo ibérique", price: "13.00€" },
-                    { name: "Mousse de foie de volaille", price: "13.00€" },
-                    { name: "Praires au beurre d'ail noir", price: "14.00€" },
-                    { name: "Bœuf braisé / Cotechino selon saison", price: "16.00€" }
+                    { name: "Praires au beurre d'ail noir & katsuobushi", price: "14.00€" },
+                    { name: "Lomo ibérique (planche)", price: "13.00€" },
+                    { name: "Moules en escabèche maison", price: "10.00€" },
+                    { name: "Sopressata artisanale", price: "8.00€" },
+                    { name: "Gnolottis poireaux & scarmorza, bouillon champignon", price: "14.00€" },
+                    { name: "Pommes de terre tapées, paprika fumé, sauce ranch", price: "7.00€" }
                 ]
             },
             {
-                category: "Desserts",
+                category: "Gourmandises",
                 items: [
-                    { name: "Dessert de saison", price: "9.00€" }
+                    { name: "Tarte à la clémentine & mousse au chocolat", price: "10.00€" },
+                    { name: "Cheesecake basque, coulis de myrtille sauvage", price: "11.00€" },
+                    { name: "Ice cream sandwich (sésame & cacao)", price: "10.00€" }
                 ]
             },
             {
-                category: "Vins Natures",
+                category: "Cave & Vins Natures",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "9.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "40.00€" }
+                    { name: "Verre de vin 'sur le fruit' (blanc/rouge)", price: "9.00€" },
+                    { name: "Verre de Pet Nat (effervescent naturel)", price: "11.00€" },
+                    { name: "Bouteille nature (sélection du moment)", price: "40.00€", description: "À partir de 40€" }
                 ]
             }
         ]

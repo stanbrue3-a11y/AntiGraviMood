@@ -63,12 +63,20 @@ export const qui_plume_la_lune: SurgicalPlace = {
                 category: "Menus Dégustation (Soir)",
                 items: [
                     // VERIFIED: Site officiel (2024)
-                    { name: "Menu 3 temps", price: "70.00€" },
-                    { name: "Menu Angèle (4 plats + desserts)", price: "90.00€" },
-                    { name: "Menu 5 temps", price: "110.00€" },
-                    { name: "Menu Lucie (5 plats + desserts)", price: "130.00€" },
-                    { name: "Menu 6 temps", price: "150.00€" },
-                    { name: "Menu Claude M. (produits d'exception)", price: "250.00€", description: "Le menu ultime avec des produits d'exception." }
+                    { name: "Menu 3 temps", price: "70.00€", description: "Entrée, Plat, Dessert." },
+                    { name: "Menu Angèle (4 plats + desserts)", price: "110.00€", description: "Le voyage gastronomique autour du produit." },
+                    { name: "Menu Lucie (5 plats + desserts)", price: "150.00€", description: "L'expérience complète saisonnière." },
+                    { name: "Menu Claude M. (produits d'exception)", price: "250.00€", description: "Homard, truffe, caviar et pièces nobles." }
+                ]
+            },
+            {
+                category: "Signatures de Saison (Incluses dans les menus)",
+                items: [
+                    { name: "Lotte nacrée, pimiento de Piquillo & combawa", price: "0.00€" },
+                    { name: "Boeuf de Charolles maturé, artichaut & jus corsé", price: "0.00€" },
+                    { name: "Foie gras de canard poêlé, porto & cassis marinés", price: "0.00€" },
+                    { name: "Saint-Jacques, bouillon d'herbes & cresson", price: "0.00€" },
+                    { name: "Mousse chocolat sauvage & herbes folles", price: "0.00€" }
                 ]
             },
 
@@ -114,6 +122,7 @@ export const qui_plume_la_lune: SurgicalPlace = {
         ]
     },
     instagram_handle: "quiplumelalune",
+    michelin_stars: 1,
     verified: true,
     google_rating: 4.6,
     description: "Qui Plume la Lune est un restaurant étoilé au Guide Michelin niché dans une rue discrète du 11ème. Le chef compose des menus surprises autour de produits d'exception — Saint-Jacques, homard breton, cerf, agneau de lait des Pyrénées — dans un cadre intime et feutré. Pas de carte : on se laisse porter par les menus dégustation, du midi accessible (45€) au somptueux Menu Claude M. (250€).",

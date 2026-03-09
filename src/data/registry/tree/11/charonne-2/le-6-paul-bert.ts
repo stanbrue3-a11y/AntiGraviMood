@@ -42,47 +42,57 @@ export const le_6_paul_bert: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formules",
+                category: "Formules & Menus (Saison 2025)",
                 items: [
-                    // VERIFIED: ParisBouge + RestoAParis + GaultMillau (2024)
-                    { name: "Menu Déjeuner (E+P+D)", price: "26.00€" },
-                    { name: "Menu-Carte Dîner (E+poisson+viande+D)", price: "44.00€", description: "Le menu complet du soir en 4 temps." }
+                    { name: "Menu Déjeuner (E+P+D)", price: "26.00€", description: "Excellence bistronomique accessible le midi." },
+                    { name: "Menu-Carte Dîner (E+Poisson+Viande+D)", price: "44.00€", description: "Le menu signature en 4 temps, idéal pour découvrir l'univers du chef." },
+                    { name: "Menu Dégustation (5 services)", price: "75.00€", description: "L'immersion totale avec accords possibles." }
                 ]
             },
             {
-                category: "Entrées",
+                category: "Entrées Créatives",
                 items: [
-                    // VERIFIED: RestoSurLeGrill + RestoAParis (2024)
-                    { name: "Carpaccio de Saint-Jacques", price: "15.00€" },
-                    { name: "Maquereau mariné au citron, mandarine Corse, fenouil", price: "12.00€" },
-                    { name: "Entrée du jour", price: "10.00€" }
+                    { name: "Œuf parfait, chakchouka & herbes fraîches", price: "12.00€" },
+                    { name: "Maquereau mariné, mandarine Corse, fenouil", price: "14.00€" },
+                    { name: "Carpaccio de Saint-Jacques, citron vert", price: "16.00€" },
+                    { name: "Salade de PDT aux cœurs de canard grillés", price: "15.00€" },
+                    { name: "Langue de bœuf, condiment ravigote moderne", price: "13.00€" },
+                    { name: "Cocos de Paimpol, jus de palourdes", price: "12.00€" },
+                    { name: "Gnocchis aneth et hareng fumé", price: "15.00€" }
                 ]
             },
             {
-                category: "Plats",
+                category: "Plats Bistronomiques",
                 items: [
-                    // VERIFIED: RestoSurLeGrill + LesRestos (2024) — plats 26-27€
-                    { name: "Paleron juste poêlé, servi rouge, légumes rôtis", price: "27.00€" },
-                    { name: "Lotte rôtie, échalotes confites, beurre blanc", price: "27.00€" },
-                    { name: "Carré de veau, betterave, cresson, radis", price: "27.00€" },
-                    { name: "Échine de porc fermier, poitrine croustillante", price: "26.00€" },
-                    { name: "Pintade rôtie, salsifis, panais, limette confite", price: "26.00€" }
+                    { name: "Paleron de bœuf poêlé, servi rouge, racines", price: "27.00€", description: "Cuit basse température puis saisi, une tendreté rare." },
+                    { name: "Lotte rôtie, beurre blanc aux agrumes", price: "28.00€" },
+                    { name: "Aile de raie au beurre noisette et câpres", price: "26.00€" },
+                    { name: "Échine de porc fermier croustillante", price: "26.00€" },
+                    { name: "Pintade de Challans, salsifis et limette", price: "27.00€" },
+                    { name: "Lingot de volaille juteuse, purée de panais", price: "26.00€" },
+                    { name: "Poisson de ligne selon arrivage, émulsion iodée", price: "29.00€" },
+                    { name: "Cocotte de légumes d'hiver, truffe noire", price: "24.00€" }
                 ]
             },
             {
-                category: "Desserts",
+                category: "Desserts & Gourmandises",
                 items: [
+                    { name: "Mousse au chocolat noir 70%, sel fumé", price: "10.00€" },
                     { name: "Pot de crème au chocolat amer", price: "10.00€" },
-                    { name: "Parfait glacé yaourt, crème citron", price: "10.00€" },
+                    { name: "Parfait glacé yaourt, citron de Menton", price: "10.00€" },
                     { name: "Gâteau aux pommes caramélisées", price: "10.00€" },
-                    { name: "Mille-feuille", price: "12.00€" }
+                    { name: "Mille-feuille minute à la vanille", price: "12.00€" },
+                    { name: "Pavlova aux fruits de saison", price: "11.00€" }
                 ]
             },
             {
-                category: "Vins Natures & Bio",
+                category: "La Cave de Natures & Biodynamie",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "8.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "28.00€" }
+                    { name: "Sélection Verre de Vin Blanc Nature", price: "8.00€" },
+                    { name: "Sélection Verre de Vin Rouge Nature", price: "9.00€" },
+                    { name: "Muscadet de Loire (le verre)", price: "8.00€" },
+                    { name: "Bouteille Collection Nature (à partir de)", price: "32.00€" },
+                    { name: "Cuvée Spéciale du Moment", price: "12.00€" }
                 ]
             }
         ]
