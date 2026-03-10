@@ -39,7 +39,7 @@ export const badaboum: SurgicalPlace = {
         "pint_price": 9.00,
         "cocktail_price": 14.00,
         "wine_glass": 6.50,
-        "dish_price": 0,
+        "dish_price": 16.00, // Satiety Unit: Planche Artisanale
         "hh_pint": 6.00,
         "hh_cocktail": 9.00,
         "hh_time": "19:00–21:00",

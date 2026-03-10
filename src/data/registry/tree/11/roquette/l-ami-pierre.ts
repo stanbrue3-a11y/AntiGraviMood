@@ -2,18 +2,18 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const lAmiPierre: SurgicalPlace = {
     id: "poi-l-ami-pierre",
-    name: "L'Ami Pierre",
+    name: "A l'ami Pierre",
     slug: "l-ami-pierre",
     category: "restaurant",
     subcategory: ["bistrot", "french", "traditional", "neighborhood-gem"],
     location: {
         address: "5 Rue de la Main d'Or",
         arrondissement: 11,
-        lat: 48.8522, // Approximate
-        lng: 2.3787,
+        lat: 48.8514931,
+        lng: 2.3782317,
         nearest_metro: "Ledru-Rollin",
         metro_lines: [8],
-        google_id: "ChIJW0-v__tt5kcRrW0-v__tt5k" // Placeholder
+        google_id: "0x47e67208a3bec699:0x4be330db6d7710a3"
     },
     moods: {
         chill: 80,
@@ -38,7 +38,7 @@ export const lAmiPierre: SurgicalPlace = {
         pint_price: 7.50,
         wine_glass: 6.50,
         coffee_price: 2.50,
-        dish_price: 19.00, // MANUAL: Median for main à la carte
+        dish_price: 22.00, // MANUAL: Median for main courses (19, 17, 28, 24, 22)
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

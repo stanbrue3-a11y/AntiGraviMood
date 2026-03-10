@@ -22,7 +22,7 @@ export const lAlicheur: SurgicalPlace = {
     },
     pricing: {
         avg_budget: 18,
-        dish_price: 13.50, // Pâtes de riz
+        dish_price: 15.00, // MANUAL: Satiety Unit (Main bowl 14€ + buffer)
         last_updated: "2026-03-08",
         menu_items: [
             {

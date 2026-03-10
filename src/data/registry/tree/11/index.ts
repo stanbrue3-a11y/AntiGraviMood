@@ -90,7 +90,6 @@ import { elComal } from './saint-maur/el-comal';
 import { ama } from './fontaine-au-roi/ama';
 import { bambino } from './folie-mericourt/bambino';
 import { brasserieMartin } from './saint-ambroise/brasserie-martin';
-import { petitBaoBastille } from './--proximit-/petit-bao-bastille';
 import { chulita } from './parmentier/chulita';
 import { doubleDragon } from './saint-maur/double-dragon';
 import { bistrotPaulBert } from './paul-bert/paul-bert';
@@ -105,11 +104,11 @@ import { lAmiPierre } from './roquette/l-ami-pierre';
 import { recoin } from './roquette/recoin';
 import { leSotLyLaisse } from './alexandre-dumas/sot-ly-laisse';
 import { soya } from './oberkampf/soya';
-import { massale } from './roquette/massale';
+import { samaBistro } from './roquette/sama-bistro';
 import { perchoirMenilmontant } from './menilmontant/perchoir-menilmontant';
 import { leDauphin } from './parmentier/le-dauphin';
 import { twentyOneGDumpling } from './faidherbe-chaligny/21g-dumpling';
-import { baoExpress } from './bastille/bao-express';
+import { petitBaoBastille } from './bastille/petit-bao-bastille';
 import { breizhCafePaulBert } from './paul-bert/breizh-cafe';
 import { septimeLaCave } from './charonne-2/septime-la-cave';
 import { streetBangkokBastille } from './roquette/street-bangkok';
@@ -233,11 +232,10 @@ export const arrondissement_11Places = [
     recoin,
     leSotLyLaisse,
     soya,
-    massale,
+    samaBistro,
     perchoirMenilmontant,
     leDauphin,
     twentyOneGDumpling,
-    baoExpress,
     breizhCafePaulBert,
     septimeLaCave,
     streetBangkokBastille,

@@ -40,13 +40,13 @@ export const le_chateaubriand: SurgicalPlace = {
         wine_glass: 12.00,
         coffee_price: 4.00,
         // Estimation dish_price pour la jauge : Menu Déjeuner 65€ / 3 temps ≈ 22€, Menu Dîner 95€ / 5 temps ≈ 19€ → ~22€
-        dish_price: 22,
+        dish_price: 65.00, // VERIFIED 2025: Lunch Tasting Menu (Saturday)
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Menus Dégustation (Sans Choix)",
+                category: "Plats (Menus Dégustation)",
                 items: [
                     { name: "Menu Dîner (Tous les soirs)", price: "95.00€", description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour." },
                     { name: "Menu Déjeuner (Samedi uniquement)", price: "65.00€" }

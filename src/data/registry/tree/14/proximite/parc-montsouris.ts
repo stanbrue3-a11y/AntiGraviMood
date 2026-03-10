@@ -1,4 +1,4 @@
-import { SurgicalPlace } from '../../../../type-definition';
+import { SurgicalPlace } from '../../../type-definition';
 
 export const parc_montsouris: SurgicalPlace = {
     "id": "poi-170",

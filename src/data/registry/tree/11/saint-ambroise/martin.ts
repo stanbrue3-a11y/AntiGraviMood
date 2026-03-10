@@ -38,7 +38,7 @@ export const martin: SurgicalPlace = {
         pint_price: 7.50,
         wine_glass: 7.50,
         coffee_price: 0,
-        dish_price: 14, // MANUAL: Median des petites assiettes à partager
+        dish_price: 22.00, // Satiety Unit: Standard Tapas Bar (3 plates)
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

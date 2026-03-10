@@ -38,7 +38,7 @@ export const geosmine: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 16.00,
         coffee_price: 5.00,
-        dish_price: 140, // Base on the evening Carte Blanche menu as it's the core experience
+        dish_price: 36.00, // Median of a la carte "Plats"
         menu_type: "fixed",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

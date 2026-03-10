@@ -40,7 +40,7 @@ export const maison_sota: SurgicalPlace = {
         wine_glass: 12.00,
         coffee_price: 5.00,
         // Estimation dish_price pour la jauge : Menu Déjeuner 65€ / 4 temps ≈ 16€, Menu 85€ / 5 ≈ 17€ → ~20€ (pondéré vers le haut pour le prestige)
-        dish_price: 20,
+        dish_price: 65.00, // VERIFIED 2025: Lunch Tasting Menu (Entry Satiety)
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",

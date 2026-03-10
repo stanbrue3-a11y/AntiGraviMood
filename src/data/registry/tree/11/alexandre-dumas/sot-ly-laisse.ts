@@ -2,18 +2,18 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const leSotLyLaisse: SurgicalPlace = {
     id: "poi-le-sot-ly-laisse",
-    name: "Le Sot l'y Laisse",
+    name: "Sot l'y Laisse",
     slug: "le-sot-ly-laisse",
     category: "restaurant",
     subcategory: ["franco-japanese", "bistronomic", "traditional", "fine-dining"],
     location: {
         address: "70 Rue Alexandre Dumas",
         arrondissement: 11,
-        lat: 48.8546, // Approximate
-        lng: 2.3924,
+        lat: 48.8540972,
+        lng: 2.3954806,
         nearest_metro: "Alexandre Dumas",
         metro_lines: [2],
-        google_id: "ChIJW0-v__tt5kcRrW0-v__tt5k" // Placeholder
+        google_id: "0x47e6727611f7ba69:0x9a2c3e941a7bf882"
     },
     moods: {
         chill: 60,

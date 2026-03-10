@@ -38,7 +38,7 @@ export const les_deserteurs: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 3.50,
-        dish_price: 60, // MANUAL: Menu unique le soir à 60€, le système prend le premier plat normalisé ou le menu si forcé
+        dish_price: 28.00, // Menu Déjeuner (Entry Satiety)
         menu_type: 'fixed',
         last_updated: "2026-03-07",
         menu_items: [

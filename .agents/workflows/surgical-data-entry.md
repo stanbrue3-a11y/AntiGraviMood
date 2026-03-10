@@ -19,7 +19,7 @@ Chaque champ prix doit être renseigné ou explicitement justifié si absent :
 - `cocktail_price` : Prix EXACT d'un cocktail signature
 - `wine_glass` : Prix EXACT du verre de vin
 - `coffee_price` : Prix EXACT du café/expresso
-- `dish_price` : Prix EXACT d'un plat représentatif
+- `dish_price` : **PRIX MÉDIAN DES PLATS** (Main Dishes only). Interdiction d'utiliser un menu ou une formule si des plats à la carte existent.
 - `soft_price` : Prix d'un soft/eau minérale
 - `planche_price` : Prix d'une planche (si applicable)
 - `shot_price` : Prix d'un shot (si applicable)
@@ -27,6 +27,20 @@ Chaque champ prix doit être renseigné ou explicitement justifié si absent :
 - **`menu_items`** : OBLIGATOIRE si le lieu a un site web avec une carte. Saisir la TOTALITÉ de la carte (Menu complet, Entrées, Plats, Desserts, Boissons). Un lieu premium doit avoir **minimum 30 items** si le menu est riche.
 - **`smart_tip`** : Résumer le meilleur deal du lieu (ex: "HR 16h-23h cocktails 5€")
 - `0` = "prix NON TROUVÉ" — jamais inventer
+
+### 2.2 LE DOGME DU PLAT MÉDIAN ⚖️
+> **La jauge de prix (`dish_price`) repose UNIQUEMENT sur la médiane des "Vrais Plats" (Main Courses).**
+> - **Outil** : Utiliser `scripts/audit_11.ts` ou `audit_14.ts` pour vérifier la cohérence.
+> - **Priorité 1** : Médiane des Plats individuels (ex: 18€, 22€, 26€ -> 22€).
+> - **Priorité 2 (si Menu Unique)** : Prix du menu le moins cher permettant d'être rassasié (Satiety Unit).
+> - **Interdiction** : Ne jamais moyenner avec les entrées, desserts ou "petites assiettes".
+> - **Exception** : Pour les bars à planches/tapas, prendre le prix d'une planche "Satiety" (~22€).
+
+### 2.3 NOMMAGE CHIRURGICAL DES CATÉGORIES (ANTI-BIAIS) 🚫🍰
+> **La jauge de prix est calculée par un script (ex. audit_14.ts). Les mots-clés du nom des catégories DÉFINISSENT si les prix sont inclus dans la médiane. Ne JAMAIS faire de l'à-peu-près.**
+> - **Catégories "Plat Principal" (INCLUS)** : Le nom de la catégorie DOIT contenir des mots forts de ciblage : `Plats`, `Main`, `Résistance`, `Salé`, `Lunch`, `Pizza`, `Burger`, `Viande`, `Bistronomie`, `Moment`, `Planche`, `Satiété`.
+> - **Catégories Secondaires (EXCLUS)** : Pour éviter le biais du dessert ou du sandwich pas cher, les catégories annexes DOIVENT contenir des mots d'exclusion : `Entrée`, `Dessert`, `Douceur`, `Sucré`, `Boisson`, `Café`, `Accompagnement`, `Side`, `Viennoiserie`.
+> - **L'Interdiction Absolue** : Nommer une catégorie de façon ambiguë avec "Menu" ou "Signature" sans préciser le type. (Ex: "Signatures" → "Signatures (Desserts)"). Toujours lever l'ambiguïté pour le script.
 
 ### 3. PROTOCOLE JANUS — L'HYBRIDITÉ OBLIGATOIRE 🕵️‍♂️🎭
 Les lieux ne sont plus binaires. Si un lieu est hybride, il DOIT être tagué pour apparaître dans TOUS les filtres :

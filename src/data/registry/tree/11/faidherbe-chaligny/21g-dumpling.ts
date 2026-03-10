@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const twentyOneGDumpling: SurgicalPlace = {
     id: "poi-21g-dumpling",
-    name: "21G Dumpling (Bastille)",
+    name: "21G Dumpling",
     slug: "21g-dumpling",
     category: "restaurant",
     subcategory: ["Dim Sum", "Taïwanais", "Fait Maison", "Cantine"],
@@ -22,8 +22,8 @@ export const twentyOneGDumpling: SurgicalPlace = {
     },
     pricing: {
         avg_budget: 25,
-        dish_price: 15.50, // Unité de Satiété (Menu Complet / Curry)
-        last_updated: "2026-03-08",
+        dish_price: 15.75, // MÉDIAN des Plats (15.50€ - 16.00€)
+        last_updated: "2026-03-10",
         menu_items: [
             {
                 category: "Xiao Long Bao (Vapeurs de Shanghai)",
@@ -56,13 +56,23 @@ export const twentyOneGDumpling: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats Taïwanais & Riz",
+                category: "Plats (Signatures)",
                 items: [
                     { name: "Poitrine de Porc Dongpo", price: "16.00€", description: "Mijotée 4h, pak choi et riz blanc." },
-                    { name: "Taiwanese Fried Chicken Curry", price: "15.50€", description: "Sauce curry douce, œuf mariné." },
+                    { name: "Taiwanese Fried Chicken Curry", price: "15.50€", description: "Sauce curry douce, œuf mariné." }
+                ]
+            },
+            {
+                category: "Riz & Nouilles (Petits Plats)",
+                items: [
                     { name: "Riz Sauté aux Crevettes", price: "10.00€" },
                     { name: "Noodles Sauce Cacahuète & Sésame", price: "8.50€" },
-                    { name: "Noodles Epicées (Chili oil)", price: "8.50€" },
+                    { name: "Noodles Epicées (Chili oil)", price: "8.50€" }
+                ]
+            },
+            {
+                category: "Accompagnements & Veggies",
+                items: [
                     { name: "Aubergines Chinoises Fondantes", price: "7.50€" },
                     { name: "Pak Choi Sauté Ail & Soja", price: "8.50€" },
                     { name: "Riz Blanc", price: "3.00€" }

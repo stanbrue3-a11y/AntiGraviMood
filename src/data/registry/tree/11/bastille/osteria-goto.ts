@@ -38,14 +38,14 @@ export const osteriaGoto: SurgicalPlace = {
         pint_price: 7.50, // Peroni/Craft
         wine_glass: 8.50,
         coffee_price: 2.50,
-        dish_price: 22, // MANUAL: Median des pâtes (Gnocchi/Carbonara)
+        dish_price: 23, // MÉDIAN des Primi Piatti (20€ - 28€)
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",
         menu_items: [
             // VERIFIED: Osteria Gòto 2025 Standard (Venetian Italian)
             {
-                category: "Cicchetti Veneziani (Tapas à l'unité)",
+                category: "Cicchetti (Entrées/Tapas)",
                 items: [
                     { name: "Sardine en saor (Oignon, pignons, raisins)", price: "8.00€", description: "L'emblème de Venise, marinade aigre-douce parfaite." },
                     { name: "Baccalà mantecato sur crostini", price: "12.00€", description: "Mousse de morue fouettée à l'huile d'olive, ultra-fondante." },

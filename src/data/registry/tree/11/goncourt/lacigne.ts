@@ -38,10 +38,10 @@ export const lacigne: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 0,
         coffee_price: 4.50,
-        dish_price: 22.00, // MANUAL: Formule Déjeuner (E+P+Mochi)
+        dish_price: 16.00, // MÉDIAN du Donburi (Plat unique)
         menu_type: "standard",
         force_manual_dish_price: true,
-        last_updated: "2026-03-08",
+        last_updated: "2026-03-10",
         menu_items: [
             // VERIFIED: Lacigne 2025 Seasonal (Japanese Fusion)
             {
@@ -52,7 +52,7 @@ export const lacigne: SurgicalPlace = {
                 ]
             },
             {
-                category: "L'Art du Mochi (Maison)",
+                category: "L'Art du Mochi (Pâtisserie)",
                 items: [
                     { name: "Mochi Matcha Azuki", price: "5.50€", description: "Mochi frais, texture nuageuse." },
                     { name: "Mochi Framboise Litchi", price: "5.50€" },
@@ -61,9 +61,14 @@ export const lacigne: SurgicalPlace = {
                 ]
             },
             {
-                category: "Cuisine (Carte Blanche)",
+                category: "Plats (Donburi)",
                 items: [
-                    { name: "Donburi du jour", price: "16.00€" },
+                    { name: "Donburi du jour", price: "16.00€" }
+                ]
+            },
+            {
+                category: "Entrées & Soupes",
+                items: [
                     { name: "Entrée de saison (Sashimi/Tofu)", price: "9.00€" },
                     { name: "Soupe Miso artisanale", price: "4.50€" }
                 ]

@@ -1,19 +1,19 @@
-import { SurgicalPlace } from '../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
 export const petitBaoBastille: SurgicalPlace = {
     id: "poi-petit-bao-bastille",
-    name: "Petit Bao (Bastille)",
+    name: "Petit Bao - Bastille",
     slug: "petit-bao-bastille",
     category: "restaurant",
-    subcategory: ["chinese", "baos", "dim-sum", "hong-kong-diner"],
+    subcategory: ["Chinois", "Baos", "Dim Sum", "Hong Kong Diner"],
     location: {
-        address: "10 Rue Bréguet",
+        address: "10 Rue Bréguet, 75011 Paris",
         arrondissement: 11,
         lat: 48.8552636,
         lng: 2.3734007,
-        nearest_metro: "Bastille",
-        metro_lines: [1, 5, 8],
-        google_id: "ChIJ7d3z67Bt5kcRe_v-dY1dTXk"
+        nearest_metro: "Breguet-Sabin",
+        metro_lines: [5],
+        google_id: "ChIJ7fS-x3ZshkcRSX6W9_Xl3Qk"
     },
     moods: {
         chill: 70,
@@ -28,8 +28,8 @@ export const petitBaoBastille: SurgicalPlace = {
         wifi: false,
         main_action: {
             type: "site",
-            url: "https://www.baofamily.co/petitbao-bastille",
-            label: "SITE WEB"
+            url: "https://www.baofamily.co/restaurants/bao-express",
+            label: "VOIR LE MENU"
         }
     },
     pricing: {
@@ -41,9 +41,8 @@ export const petitBaoBastille: SurgicalPlace = {
         dish_price: 15.00, // MANUAL: Median of Bao kits & Plats
         menu_type: "standard",
         force_manual_dish_price: true,
-        last_updated: "2026-03-08",
+        last_updated: "2026-03-10",
         menu_items: [
-            // VERIFIED: Petit Bao Bastille (ex-Bao Express) 2024-2025
             {
                 category: "Les Signatures (Baos & Dim Sum)",
                 items: [
@@ -57,18 +56,9 @@ export const petitBaoBastille: SurgicalPlace = {
                 ]
             },
             {
-                category: "Dim Sum & Sides",
-                items: [
-                    { name: "Fried Wontons (x6)", price: "10.00€", description: "Crevettes entières, sauce sweet chili." },
-                    { name: "Shrimp Toast (x2)", price: "9.00€", description: "Pain brioché, crevettes, mayo sriracha." },
-                    { name: "Golden Mushrooms", price: "7.50€", description: "Pleurotes frites au cumin." },
-                    { name: "Fraîcheur Verte", price: "5.00€", description: "Concombres à l'ail et vinaigre noir." }
-                ]
-            },
-            {
                 category: "Wok & Plats",
                 items: [
-                    { name: "Aubergines Hong Shao sur riz", price: "15.00€", description: "Aubergines fondantes à la sauce soja secrète." },
+                    { name: "Aubergines Chinoise Fondantes", price: "15.00€", description: "Aubergines fondantes à la sauce soja secrète." },
                     { name: "Poulet Sweet & Sour sur riz", price: "16.00€", description: "Poulet frit croustillant, sauce acidulée." },
                     { name: "Boeuf Loc Lac", price: "18.00€" },
                     { name: "OG Chao Fan", price: "14.50€", description: "Riz sauté aux œufs, shiitake & sauce XO maison." },
@@ -77,10 +67,12 @@ export const petitBaoBastille: SurgicalPlace = {
                 ]
             },
             {
-                category: "Petites Choses (Sides)",
+                category: "The Underpool (Signatures Cocktails)",
                 items: [
-                    { name: "Fraîcheur Verte", price: "5.00€", description: "Concombres à l'ail et vinaigre noir." },
-                    { name: "Wontons Crevettes (x6)", price: "10.00€" }
+                    { name: "Crystal Lotus", price: "13.00€", description: "Gin, lotus blanc, touche florale." },
+                    { name: "Rose Prune", price: "14.00€", description: "Pisco infusé vanille, Umeshu." },
+                    { name: "Sichuan Mule", price: "13.00€", description: "Vodka, poivre de Sichuan, ginger beer." },
+                    { name: "Underpool Negroni", price: "15.00€" }
                 ]
             },
             {
@@ -102,12 +94,12 @@ export const petitBaoBastille: SurgicalPlace = {
     verified: true,
     google_rating: 4.3,
     description: "Anciennement Bao Express, ce lieu a été repensé pour devenir le plus grand temple de la Bao Family. Inspiré des 'cha chaan teng' (cafés de Hong Kong), le décor rétro mélange néons, banquettes et cuisine ouverte survoltée. Des baos vapeur façonnés main aux nouilles sautées au wok, on y trouve toute la gourmandise de la street-food cantonaise avec une énergie communicative.",
-    insider_tip: "N'essayez même pas de réserver, c'est premier arrivé, premier servi. Le weekend, le service continu est parfait pour un déjeuner tardif à 16h sans faire la queue. Le French Toast version Hong-Kong est une folie calorique nécessaire.",
+    insider_tip: "N'essayez même pas de réserver, c'est premier arrivé, premier servi. Le weekend, le service continu est parfait pour un déjeuner tardif à 16h sans faire la queue. Le bar caché Underpool au sous-sol vaut le détour pour ses cocktails précis.",
     expert_catchline: "L'énergie de Hong-Kong et le paradis du bao artisanal entre Bastille et Bréguet.",
     specials: {
         cuisine: ["Baos artisanaux", "Wok-cooked dishes", "Hong Kong Diner vibe"],
-        drinks: ["Bières artisanales Deck&Donohue", "Thés glacés maison"],
+        drinks: ["Bières artisanales Deck&Donohue", "Cocktails Speakeasy Underpool"],
         must_eat: "Le Charsiu Bao au porc laqué, fondant et sucré-salé.",
-        must_drink: "Le Ginger Beer maison pour réveiller les papilles."
+        must_drink: "Un cocktail au Underpool après votre festin."
     }
 };

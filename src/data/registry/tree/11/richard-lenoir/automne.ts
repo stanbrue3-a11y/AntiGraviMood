@@ -41,7 +41,7 @@ export const automne: SurgicalPlace = {
         // VERIFIED: Source web 2024
         coffee_price: 5.00,
         // Estimation dish_price pour la jauge : Menu Déjeuner 75€ / 3 temps ≈ 25€, Menu Dîner 110€ / 5 temps ≈ 22€ → ~25€
-        dish_price: 25,
+        dish_price: 75.00, // Menu Déjeuner (Entry Satiety)
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",

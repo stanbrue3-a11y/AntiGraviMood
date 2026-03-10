@@ -34,14 +34,14 @@ export const cafe_du_coin: SurgicalPlace = {
         }
     },
     pricing: {
-        avg_budget: 22,
+        avg_budget: 28,
         is_free: false,
         pint_price: 0,
         // VERIFIED: LeFooding + VinsNaturels (2024) — verres dès 4€, moyenne 7€
         wine_glass: 7.00,
         coffee_price: 0,
-        dish_price: 18, // MANUAL: Median des Plats déjeuner (morue ~18€, caille ~20€, pâtes ~16€)
-        last_updated: "2026-03-06",
+        dish_price: 19.00, // MÉDIAN des Plats (Morue 18€, Caille 20€)
+        last_updated: "2026-03-10",
         menu_items: [
             {
                 category: "Menu à Tiroirs (Déjeuner - Saison 2025)",
@@ -52,7 +52,7 @@ export const cafe_du_coin: SurgicalPlace = {
                 ]
             },
             {
-                category: "Pizzettes Croustillantes (Signature du Soir)",
+                category: "Pizzettes Croustillantes (Tapas du Soir)",
                 items: [
                     { name: "Pizzette Mortadelle Truffée / Ricotta", price: "8.00€", description: "La star incontestée, fondante et parfumée." },
                     { name: "Pizzette Gorgonzola / Fleur de courgette / Dukkah", price: "8.00€" },
@@ -64,13 +64,18 @@ export const cafe_du_coin: SurgicalPlace = {
                 ]
             },
             {
-                category: "Assiettes de Partage (Déjeuner & Soir)",
+                category: "Plats (Déjeuner)",
+                items: [
+                    { name: "Morue, caponata de légumes fondants", price: "18.00€" },
+                    { name: "Caille rôtie, purée de PDT", price: "20.00€" }
+                ]
+            },
+            {
+                category: "Petites Assiettes de Partage (Tapas)",
                 items: [
                     { name: "Haricots verts, cerises, basilic & sureau", price: "7.00€" },
                     { name: "Tartare de poisson, raifort, fenouil & épeautre frit", price: "12.00€" },
                     { name: "Éperlans frits, sauce tartare", price: "8.00€" },
-                    { name: "Morue, caponata de légumes fondants", price: "18.00€" },
-                    { name: "Caille rôtie, purée de PDT", price: "20.00€" },
                     { name: "Tarama, radis et sumac", price: "8.00€" },
                     { name: "Anchois de Cantabrie, beurre demi-sel", price: "10.00€" },
                     { name: "Saucisson artisanal", price: "10.00€" },

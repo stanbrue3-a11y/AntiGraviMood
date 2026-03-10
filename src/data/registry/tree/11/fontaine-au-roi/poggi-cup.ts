@@ -22,7 +22,7 @@ export const poggiCup: SurgicalPlace = {
     },
     pricing: {
         avg_budget: 15,
-        dish_price: 12.00, // Poggi Salé
+        dish_price: 14.90, // MANUAL: Formula Poggi + Drink as standard satiety unit
         last_updated: "2026-03-08",
         menu_items: [
             {

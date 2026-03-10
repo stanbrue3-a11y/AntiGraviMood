@@ -38,7 +38,7 @@ export const septime: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 12.00,
         coffee_price: 4.00,
-        dish_price: 135.00, // VERIFIED 2025: Dinner Tasting Menu (7 courses)
+        dish_price: 85.00, // VERIFIED 2025: Lunch Tasting Menu (Entry Satiety)
         menu_type: "fixed",
         force_manual_dish_price: true,
         last_updated: "2024-03-08",

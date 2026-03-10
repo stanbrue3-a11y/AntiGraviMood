@@ -123,13 +123,23 @@ function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
     'viandes', 'poissons', 'planches', 'boards', 'boxes', 'primi', 'secondi', 'piatti',
     'galettes', 'crêpes', 'dumplings', 'baos', 'cups', 'wok', 'curries', 'ramens', 
     'bentos', 'sushis', 'rolls', 'shakshukas', 'assiettes', 'sharing', 'brunch', 
-    'breakfast', 'petit-déjeuner', 'déjeuner', 'lunch', 'salades', 'sandwiches', 'tacos'
+    'breakfast', 'petit-déjeuner', 'déjeuner', 'lunch', 'salades', 'sandwiches', 'tacos',
+    // Hardened Keywords (Phase 19/20)
+    'plat', 'main', 'résistance', 'course', 'traditionnel', 'curry', 'bowl', 'burger', 'pizza', 'pizze', 'pasta',
+    'poisson', 'viande', 'noodle', 'bo bun', 'ramen', 'udon', 'galette',
+    'crêpe salée', 'incontournable', 'ardoise', 'légende', 'classique', 'océan', 'empreinte',
+    'crapaud', 'arrivage', 'écailler', 'cocotte', 'maison', 'mezzé', 'taco', 'burrito', 'quesadilla',
+    'tajine', 'mijoté', 'brochette', 'spécialité', 'suggestion', 'box', 'planche',
+    'pâtisserie', 'gâteau', 'viennoiserie', 'satiété', 'saison', 'carte', 'cuisine', 'moment', 'bistronomie',
+    'fusion', 'lyonnaiseries', 'poulet'
   ];
 
   const exclusionKeywords = [
     'entrée', 'entree', 'starter', 'dessert', 'formule', 'boisson', 'cocktail', 
     'vin', 'bière', 'biere', 'café', 'cafe', 'accompagnement', 'garniture', 
-    'petit', 'apéro', 'apero', 'amuse', 'enfant', 'accord', 'supplément', 'supplement'
+    'petit', 'apéro', 'apero', 'amuse', 'enfant', 'accord', 'supplément', 'supplement',
+    // Hardened Keywords (Phase 19/20)
+    'auspice', 'prélude', 'douceur', 'mignardise', 'amuse-bouche', 'appetizer', 'sucrée', 'sucré', 'digestif', 'fromage', 'side'
   ];
 
   const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes', 'snacks'];
@@ -242,7 +252,10 @@ allPlaces.forEach((p, index) => {
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'wine')),
     valueOrNull(p.pricing.coffee_price), valueOrNull(effectivePricing.dish_price), valueOrNull(50),
     jsonValue(p.moods), jsonValue({}), jsonValue([p.category, ...p.subcategory]),
-    jsonValue({ standard: p.practical.opening_hours_raw, display: p.practical.opening_hours_raw?.split('\n')[0] }),
+    jsonValue({
+      standard: p.practical.opening_hours_raw?.replace(/ \| /g, '\n'),
+      display: p.practical.opening_hours_raw?.replace(/ \| /g, '\n').split('\n')[0]
+    }),
     jsonValue({ ...p.practical, terrace: p.practical.terrace ?? false, happy_hour: p.pricing.hh_time || null }),
     jsonValue({ ...effectivePricing, menu_items: p.pricing.menu_items || [] }),
     jsonValue(processImagesForDB(p.images)), jsonValue(processImagesForDB(p.images)?.gallery || []),

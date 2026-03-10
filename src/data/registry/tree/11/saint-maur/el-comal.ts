@@ -38,7 +38,8 @@ export const elComal: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 0,
         coffee_price: 2.50,
-        dish_price: 13.50, // Unité de Satiété (3 Tacos)
+        dish_price: 16.50, // 3 Tacos/Gorditas + buffer
+        // Unité de Satiété (3 Tacos)
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

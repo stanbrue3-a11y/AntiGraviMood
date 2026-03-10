@@ -38,8 +38,7 @@ export const fulgurances: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 0,
-        // Estimation dish_price pour la jauge : Menu Midi 22€ / 2 temps ≈ 14€, Menu Dîner 44€ / 3 temps ≈ 18€ → médiane ≈ 16€
-        dish_price: 16,
+        dish_price: 22, // Plat Médian: Prix du Menu Déjeuner (E+P)
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",

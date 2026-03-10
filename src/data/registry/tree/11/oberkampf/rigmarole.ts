@@ -41,7 +41,7 @@ export const rigmarole: SurgicalPlace = {
         wine_glass: 9.00,
         // NOT FOUND: aucune source fiable récente — mis à 0
         coffee_price: 0,
-        dish_price: 0, // Auto-computed via median of "Plats" section
+        dish_price: 20.00, // Median of Yakitori/Pasta platos
         last_updated: "2026-03-06",
         menu_items: [
             // ═══════════════════════════════════════════

@@ -1,55 +1,97 @@
-import { SurgicalPlace } from '../../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
 export const le_select: SurgicalPlace = {
-    "id": "poi-159",
-    "name": "Le Select",
-    "slug": "le-select",
-    "category": "café",
-    "subcategory": [
-        "cafe-historique"
-    ],
-    "verified": true,
-    "google_rating": 4.2,
-    "location": {
-        "address": "99 Bd du Montparnasse",
-        "arrondissement": 14,
-        "lat": 48.842612,
-        "lng": 2.328407,
-        "nearest_metro": "Vavin",
-        "metro_lines": [
-            4
+    id: "poi-le-select-montparnasse",
+    name: "Le Select",
+    slug: "le-select-montparnasse",
+    category: "restaurant",
+    subcategory: ["brasserie", "historique", "institution", "parisien", "cafe", "terrasse"],
+    location: {
+        address: "99 Boulevard du Montparnasse, 75006 Paris, France",
+        arrondissement: 14,
+        lat: 48.8426118,
+        lng: 2.3284069,
+        nearest_metro: "Vavin",
+        metro_lines: ["4"],
+        google_id: "ChIJPcO4w85x5kcRjh9ZKp6tkPQ"
+    },
+    moods: {
+        chill: 60,
+        festif: 50,
+        culturel: 100
+    },
+    practical: {
+        opening_hours_raw: "Monday: 7:00 AM – 2:00 AM | Tuesday: 7:00 AM – 2:00 AM | Wednesday: 7:00 AM – 2:00 AM | Thursday: 7:00 AM – 2:00 AM | Friday: 7:00 AM – 2:00 AM | Saturday: 7:00 AM – 3:00 AM | Sunday: 7:00 AM – 3:00 AM",
+        reservation_policy: "sans_resa",
+        terrace: true,
+        accessibility: true,
+        wifi: true,
+        main_action: {
+            type: "site",
+            url: "http://www.leselect-montparnasse.fr/",
+            label: "SITE OFFICIEL"
+        }
+    },
+    pricing: {
+        avg_budget: 45,
+        is_free: false,
+        dish_price: 22,
+        menu_type: "standard",
+        last_updated: "2026-03-10",
+        menu_items: [
+            {
+                category: "Les Grands Classiques du Select",
+                items: [
+                    { name: "Tartare de Boeuf Aubrac au couteau", price: "24.50€" },
+                    { name: "Confit de Canard des Landes, frites maison", price: "26.00€" },
+                    { name: "Andouillette 5A à la Chablisienne", price: "22.50€" },
+                    { name: "Onglet de Boeuf Sauce Poivre", price: "28.00€" },
+                    { name: "Pavé de Saumon, Sauce Béarnaise", price: "21.00€" },
+                    { name: "Filet de Bar à l'Huile d'Olive", price: "28.00€" },
+                    { name: "Magret de Canard, Sauce Périgourdine", price: "29.00€" },
+                    { name: "Risotto aux Champignons des bois", price: "19.50€" },
+                    { name: "Salade César au Poulet Fermier", price: "18.50€" }
+                ]
+            },
+            {
+                category: "Entrées de Brasserie",
+                items: [
+                    { name: "Oeuf Mayo Tradition (Championnat)", price: "8.50€" },
+                    { name: "Escargots de Bourgogne de chez Metzger", price: "14.50€" },
+                    { name: "Saumon Fumé & Blinis Maison", price: "18.00€" },
+                    { name: "Foie Gras de Canard, Toasts Chauds", price: "19.50€" },
+                    { name: "Harengs Pommes à l'Huile", price: "12.00€" },
+                    { name: "Tataki de Thon et Saumon", price: "16.00€" },
+                    { name: "Assiette de Planche de Charcuterie Conquet", price: "17.30€" }
+                ]
+            },
+            {
+                category: "Douceurs & Desserts",
+                items: [
+                    { name: "Tarte Tatin caramélisée, crème fraîche", price: "11.50€" },
+                    { name: "Crème Brûlée à la Vanille Bourbon", price: "9.50€" },
+                    { name: "Profiteroles au Chocolat Chaud", price: "12.50€" },
+                    { name: "Baba au Rhum Ambré", price: "12.00€" },
+                    { name: "Tarte Citron façon Select", price: "10.50€" }
+                ]
+            }
         ]
     },
-    "practical": {
-        "reservation_policy": null,
-        "accessibility": false,
-        "wifi": false,
-        "opening_hours_raw": "",
-        "action_type": "site",
-        "action_url": ""
+    images: {
+        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWB9J9gd2EpDr4HZS5FZ1Nl1VdVkKCUO-zm_j8qHiRp0YgION_HGaTfF3wf3aJYE6l9z88xMrlkapePOMXrgL81XWvGwqVpEwm4RBlg1YAN5HiyIaHugRTLxgcjbPW1nuRjSwWjy0FKhGHkhZafodFrHgJ0wsNOZ0IZ0OO9YohY7dauSa5Dcwh6Fvsovyqo5bzd0cS3W2zekf-_jvvEM8IRdNNLwCjQ8h9v1XpOgp1SwyuYJswx_G9nP2xaPKWtPRshJ1iUQ4jt8rvXYf5h943DzqGaSb7hvGFTsoMfuRYZ8w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
+        gallery: [
+            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVbrJdMRi1uQ_-ZvwA8QvKHjKObvpIML357qocLGP6XcZpH-Z27TUKRi12yOfSQxLaTgyB8s0Ht7GQnPzRDSonCT8v4CcEnZyfRzSkJE9NhE4yYGh38mRrTp2M2b-dTzrrbIRkcrc4rrL97jqFfyCebMuH2O6ZNNidOHJwl0U4Gj6fW_RqVwqMTbG3v6gwMBecOUJVb71A9Zg79NekUeMOzXCiW0s_ZRLLiYp91kwhGH98lZzsxQ3jrY1n0Tmzr1MldazR3eakMLEel8nAmUZH4sB89bZVLVKI6RIcBFNFHMA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
+        ]
     },
-    "pricing": {
-        "avg_budget": 15,
-        "is_free": false,
-        "pint_price": 0,
-        "cocktail_price": 0,
-        "coffee_price": 3.5,
-        "dish_price": 0
-    },
-    "moods": {
-        "chill": 23,
-        "festif": 4,
-        "culturel": 5
-    },
-    "description": "Le Select est une machine à remonter le temps. Entrer dans ce café mythique de Montparnasse, c'est s'asseoir là où Picasso, Hemingway ou Fitzgerald ont refait le monde. Le décor Art Déco est resté intact, feutré par les années d'histoire littéraire et artistique. C'est l'un des rares cafés parisiens qui conserve son âme noctambule et sa dignité de grand classique, offrant un service impeccable et une terrasse légendaire sur le boulevard.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
-    "specials": {
-        "cuisine": [],
-        "drinks": []
-    },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1kkrVyD3C8e3d4zkJtoTq5D5UOt50Ty5gSRB54-_yzQm-k3uWDUBjnf6d23aWUL2WORkhbXRo80tva14n8fWHj3V3_7OjTYa3nZqRrB-wgMtleDw4wKw7xxyuqSLsroZkxuHKJQA4Lm6OBwLe_UQQXBLedReSegwE0un3yT6OCJa6LRhuXkPR40qE8-F4B0gM7gb1eYcs2yO_1ZgPHo4tXn3qGvsBDHLnWlnn64RhapG66j6Sv8dRla_0U29zCtP6ZT5EygqPiZgkGSztmRZkaFbhd4xfcu-cnPmzMP1D9zA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+    verified: true,
+    google_rating: 4.1,
+    description: "Le Select est la dernière grande brasserie de Montparnasse à avoir conservé son âme et son décor d'origine, sans succomber aux sirènes de la modernisation à outrance. Inauguré en 1923, il fut le refuge de la 'Lost Generation' : Henry Miller, Ernest Hemingway et Morley Callaghan y avaient leurs habitudes. Sous ses éclairages tamisés et son plafond patiné par les années, l'atmosphère y est restée intellectuelle, artistique et profondément parisienne. Que ce soit pour un café matinal, un déjeuner de brasserie classique ou un dernier verre à deux heures du matin, Le Select incarne cette permanence du Montparnasse éternel.",
+    insider_tip: "Ne cherchez pas à réserver le soir, l'établissement cultive une liberté rare à Paris. Le chocolat chaud est l'un des plus onctueux du quartier, parfait pour une pause après-midi. Les soirs de week-end, l'ambiance y est particulièrement vibrante jusqu'au petit matin.",
+    expert_catchline: "Le dernier temple authentique de la Lost Generation à Montparnasse.",
+    specials: {
+        cuisine: ["Brasserie Traditionnelle", "Viandes de Qualité"],
+        drinks: ["Cocktails Classiques", "Vins de Vignerons"],
+        must_eat: "L'Oeuf Mayo et le Confit de Canard.",
+        must_drink: "Un café creme ou un cocktail au bar en zinc."
+    }
 };

@@ -38,11 +38,11 @@ export const mokonuts: SurgicalPlace = {
         pint_price: 6.50,
         wine_glass: 13.00,
         coffee_price: 3.50,
-        dish_price: 28, // MANUAL: Main courses range from 24€ to 32€. Let's set 28€.
+        dish_price: 27.50, // MÉDIAN des Plats (24€ - 32€)
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Fripouilles de Moko (Pâtisserie continue)",
+                category: "Pâtisseries & Cookies (Continu)",
                 items: [
                     { name: "Cookie Sésame noir & Chocolat", price: "4.00€", description: "Le best-seller iconique." },
                     { name: "Cookie Avoine, miso et sésame noir", price: "4.00€" },
@@ -59,7 +59,7 @@ export const mokonuts: SurgicalPlace = {
                 ]
             },
             {
-                category: "La Cuisine Levantine d'Omar (Midi Uniquement)",
+                category: "Plats (Midi Uniquement)",
                 items: [
                     { name: "Labneh maison, za'atar et pain pita", price: "10.00€", description: "L'incontournable absolu de la maison." },
                     { name: "Thon blanc saisis, courgettes et aubergine fumée", price: "16.00€" },

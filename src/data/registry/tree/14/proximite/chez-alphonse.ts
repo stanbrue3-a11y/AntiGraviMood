@@ -1,4 +1,4 @@
-import { SurgicalPlace } from '../../../../type-definition';
+import { SurgicalPlace } from '../../../type-definition';
 
 export const chez_alphonse: SurgicalPlace = {
     "id": "poi-chez-alphonse-75014",

@@ -38,7 +38,7 @@ export const la_buvette: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 8.00,
         coffee_price: 0,
-        dish_price: 14.00, // MANUAL: Median des grignotis (3€ - 18€)
+        dish_price: 22.00, // Satiety Unit: Standard Tapas Bar (3 plates)
         menu_type: 'standard',
         last_updated: "2026-03-08",
         menu_items: [

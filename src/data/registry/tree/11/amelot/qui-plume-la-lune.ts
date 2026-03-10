@@ -40,8 +40,7 @@ export const qui_plume_la_lune: SurgicalPlace = {
         // VERIFIED: Site officiel (2024) — accords vins 3 verres 45€ → ~15€/verre
         wine_glass: 15.00,
         coffee_price: 0,
-        // Estimation dish_price pour la jauge : Menu Angèle 90€ / 4 temps ≈ 22.50€, Menu Lucie 130€ / 5 ≈ 26€ → ~24€
-        dish_price: 24,
+        dish_price: 45, // Plat Médian: Prix du Menu Déjeuner (Satiety Unit)
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",

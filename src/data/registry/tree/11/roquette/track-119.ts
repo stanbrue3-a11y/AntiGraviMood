@@ -38,7 +38,7 @@ export const track119: SurgicalPlace = {
         pint_price: 6,
         wine_glass: 0,
         coffee_price: 2.50,
-        dish_price: 13.00, // MANUAL: Median des plats indiens
+        dish_price: 14.50, // Street Food Satiety Unit
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

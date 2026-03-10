@@ -22,7 +22,7 @@ export const cafeMericourt: SurgicalPlace = {
     },
     pricing: {
         avg_budget: 22,
-        dish_price: 13.50, // Plat du jour
+        dish_price: 16.00, // MANUAL: Satiety Unit (Main dish ~14€ + coffee/buffer)
         last_updated: "2026-03-08",
         menu_items: [
             {

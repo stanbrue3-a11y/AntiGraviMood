@@ -38,7 +38,7 @@ export const ama: SurgicalPlace = {
         pint_price: 6.00,
         wine_glass: 0,
         coffee_price: 2.50,
-        dish_price: 11.00, // MANUAL: Plateau de 8 Momos (Le coeur du menu)
+        dish_price: 16.00, // Cambodian bowl + buffer
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

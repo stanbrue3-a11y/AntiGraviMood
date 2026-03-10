@@ -22,11 +22,11 @@ export const septimeLaCave: SurgicalPlace = {
     },
     pricing: {
         avg_budget: 35,
-        dish_price: 11.00, // Assiette moyenne
+        dish_price: 22.00, // MANUAL: Wine bar small plates - requires 2-3 for satiety
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Petites Assiettes & Tapas (Saisonnier)",
+                category: "Petites Assiettes à Partager (Tapas)",
                 items: [
                     { name: "Pain, Beurre Fumé & Truffes Noires", price: "10.00€", description: "Le toast iconique de la Cave." },
                     { name: "Jambon de Bœur, Citron & Huile d'Olive", price: "9.00€" },

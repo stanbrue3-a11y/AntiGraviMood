@@ -9,11 +9,11 @@ export const recoin: SurgicalPlace = {
     location: {
         address: "60 Rue Saint-Sabin",
         arrondissement: 11,
-        lat: 48.8576, // Approximate
-        lng: 2.3708,
+        lat: 48.8591331,
+        lng: 2.3688686,
         nearest_metro: "Richard Lenoir",
         metro_lines: [5],
-        google_id: "ChIJW0-v__tt5kcRrW0-v__tt5k" // Placeholder
+        google_id: "0x47e66dc8c8c9349f:0xbc4821d2704e8801"
     },
     moods: {
         chill: 60,

@@ -38,7 +38,7 @@ export const pianovins: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 12.00,
         coffee_price: 0,
-        dish_price: 75, // MANUAL: Menu unique Dégustation 5 temps le soir à 75€
+        dish_price: 35.00, // Menu Marché (Déjeuner)
         menu_type: 'fixed',
         last_updated: "2026-03-07",
         menu_items: [

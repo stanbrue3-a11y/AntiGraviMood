@@ -9,11 +9,11 @@ export const tram130: SurgicalPlace = {
     location: {
         address: "130 Rue Saint-Maur",
         arrondissement: 11,
-        lat: 48.8653, // Approximate, verified in 11th
-        lng: 2.3768,
+        lat: 48.8680202,
+        lng: 2.3754187,
         nearest_metro: "Parmentier",
         metro_lines: [3],
-        google_id: "ChIJW0-v__tt5kcRrW0-v__tt5k" // Placeholder for precise ID if mismatch
+        google_id: "0x47e66d0077a82023:0x8b5ef22cd6445b6f"
     },
     moods: {
         chill: 50,
@@ -38,7 +38,7 @@ export const tram130: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 9.00,
         coffee_price: 3.50,
-        dish_price: 28.00, // MANUAL: Median for main courses
+        dish_price: 26.00, // MANUAL: Median of main courses (32, 35, 20, 26, 22)
         menu_type: "standard",
         force_manual_dish_price: true,
         last_updated: "2026-03-08",

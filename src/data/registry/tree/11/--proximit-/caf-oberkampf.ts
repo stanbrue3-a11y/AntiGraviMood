@@ -46,7 +46,7 @@ export const caf_oberkampf: SurgicalPlace = {
         "last_updated": "2024-03-08",
         "menu_items": [
             {
-                "category": "All-Day Food (Brunch)",
+                "category": "Plats (Brunch)",
                 "items": [
                     { "name": "Lost in Shakshuka", "price": "14.50€", "description": "L'incontournable : sauce tomate épicée, œufs pochés, herbes fraîches, pita." },
                     { "name": "Avocado Toast au Za'atar", "price": "13.50€" },

@@ -38,7 +38,7 @@ export const gourou: SurgicalPlace = {
         pint_price: 7.00,
         wine_glass: 6.00,
         coffee_price: 2.50,
-        dish_price: 13.50, // MANUAL: Median for standard curries (Murgh Korma, Butter Chicken)
+        dish_price: 16.00, // MANUAL: Satiety Unit (Main dish ~14€ + coffee/buffer)
         last_updated: "2026-03-09",
         menu_items: [
             {

@@ -38,7 +38,7 @@ export const le_villaret: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 10.00,
         coffee_price: 3.50,
-        dish_price: 32.00, // VERIFIED 2025: Median of main courses (22€ to 52€). Lunch menu at 35€.
+        dish_price: 42.00, // Median of Main Courses (22€-52€)
         last_updated: "2026-03-06",
         menu_items: [
             {
