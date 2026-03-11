@@ -15,6 +15,11 @@ import { monsieurBleu } from './palais-de-tokyo/monsieur-bleu';
 import { brasserieAuteuil } from './auteuil/brasserie-auteuil';
 import { cravan } from './auteuil/cravan';
 import { carette } from './trocadero/carette';
+import { bambini } from './palais-de-tokyo/bambini';
+import { forest } from './palais-de-tokyo/forest';
+import { maisonRusse } from './victor-hugo/maison-russe';
+import { flandrin } from './la-muette/flandrin';
+import { tseYang } from './passy/tse-yang';
 
 export const arrondissement_16Places = [
     carette_trocadero,
@@ -33,5 +38,12 @@ export const arrondissement_16Places = [
     monsieurBleu,
     brasserieAuteuil,
     cravan,
-    carette
+    carette,
+    
+    // Lot M
+    bambini,
+    forest,
+    maisonRusse,
+    flandrin,
+    tseYang
 ];
