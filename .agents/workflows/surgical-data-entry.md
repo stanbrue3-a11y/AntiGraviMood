@@ -145,18 +145,23 @@ https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=[
 ```
 - **JAMAIS** d'image Unsplash générique
 
-### 4. RÈGLE DE L'EXHAUSTIVITÉ (ANTI-FLÈMME)
+### 4. INTÉGRITÉ MÉDIA ET LOCALISATION (ANTI-FAKE DATA)
+> **L'utilisation de données de remplissage (placeholders) est STRICTEMENT INTERDITE.**
+> - **Photos** : L'agent DOIT récupérer **3 vraies URLs de photos Google Maps** (1 hero, 2 gallery). Interdiction formelle d'utiliser des motifs comme `v8v8v8` ou `Z-Z-Z`.
+> - **Localisation** : L'agent DOIT vérifier et saisir les coordonnées GPS (`lat`/`lng`) **exactes** du lieu. Interdiction de copier/coller les coordonnées d'un autre lieu pour gagner du temps.
+
+### 5. RÈGLE DE L'EXHAUSTIVITÉ (ANTI-FLÈMME)
 > **Si un menu est trouvé (site web, instagram, ou photo de la carte), il est INTERDIT de le résumer.**
 > Chaque item doit être saisi avec son prix exact. Si le menu a 50 items, on saisit 50 items.
 > L'IA ne doit jamais tronquer la donnée par "gain de temps". La complétude est la priorité.
 
-### 5. HIÉRARCHIE DES SOURCES (DOUBLE-CHECK)
+### 6. HIÉRARCHIE DES SOURCES (DOUBLE-CHECK)
 > 1. **SOURCE N°1 (Vérité)** : Menu officiel (Site, Instagram récent, Photo de -3 mois).
 > 2. **SOURCE N°2 (Fiabilité)** : Sites spécialisés (MisterGoodBeer, Schlouk, Privateaser).
 > 3. **SOURCE N°3 (Indice)** : Avis Google.
 > **Note** : Un avis Google ne peut plus invalider une source spécialisée sans une preuve visuelle jointe. Si un avis contredit un prix d'annuaire, on garde le prix d'annuaire par défaut sauf certitude absolue du contraire.
 
-### 6. LE DEEP-LINK OBLIGATOIRE
+### 7. LE DEEP-LINK OBLIGATOIRE
 > - Interdiction de valider une fiche sans `instagram_handle` ou `website` si le lieu est présent sur le web.
 > - Si le lien est caché (bouton icône sans texte), l'agent DOIT explorer le DOM ou naviguer pour trouver l'URL finale.
 

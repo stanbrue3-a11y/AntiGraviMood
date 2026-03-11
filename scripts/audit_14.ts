@@ -45,11 +45,22 @@ const auditResults = arrondissement_14Places.map((place: any) => {
         errors.push(`DEPTH_FAILURE: Only ${allItems.length} items (Minimum 15)`);
     }
     
-    if (!place.images.hero || !place.images.gallery || place.images.gallery.length < 1) {
-        errors.push(`MEDIA_FAILURE: Missing hero or gallery images`);
+    // 📸 STRICT MEDIA INTEGRITY CHECK (MOELLE 2026)
+    if (!place.images.hero || !place.images.gallery || place.images.gallery.length !== 2) {
+        errors.push(`PHOTO_COUNT_ERROR: Must have exactly 1 hero and 2 gallery images (Total: 3). Found ${place.images.gallery?.length || 0} gallery.`);
     } else {
-        const hasPlaceholders = place.images.hero.includes("v8v8v8") || place.images.gallery.some((g: string) => g.includes("v8v8v8"));
-        if (hasPlaceholders) errors.push(`MEDIA_FAILURE: Found placeholder 'v8v8v8' references`);
+        const fakePatterns = ["v8v8v8", "Z-Z-Z", "-_-_-_", "Y--M-Y", "XQ8V8_Z"];
+        const allPhotos = [place.images.hero, ...place.images.gallery];
+        const hasPlaceholders = allPhotos.some(photo => fakePatterns.some(pattern => photo.includes(pattern)));
+        
+        if (hasPlaceholders) {
+            errors.push(`FAKE_PHOTO_ERROR: Detected mechanical placeholder pattern. You MUST use real Google Places Photo References.`);
+        }
+    }
+
+    // 📍 STRICT LOCATION INTEGRITY CHECK
+    if (place.location.lat === 48.862412 && place.location.lng === 2.287115 && place.id !== 'poi-girafe') {
+        errors.push(`LOCATION_DUPLICATION_ERROR: Coordinates match Girafe exact default. Did you forget to update lat/lng?`);
     }
 
     if (!place.practical.opening_hours_raw || place.practical.opening_hours_raw.length < 60) {

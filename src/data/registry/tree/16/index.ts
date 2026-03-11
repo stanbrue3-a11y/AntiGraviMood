@@ -9,6 +9,13 @@ import { musee_marmottan_monet } from './--proximit-/musee-marmottan-monet';
 import { palais_galliera } from './--proximit-/palais-galliera';
 import { palais_de_tokyo } from './i-na/palais-de-tokyo';
 
+// Lot L (Phase 23)
+import { girafe } from './trocadero/girafe';
+import { monsieurBleu } from './palais-de-tokyo/monsieur-bleu';
+import { brasserieAuteuil } from './auteuil/brasserie-auteuil';
+import { cravan } from './auteuil/cravan';
+import { carette } from './trocadero/carette';
+
 export const arrondissement_16Places = [
     carette_trocadero,
     cite_architecture_patrimoine,
@@ -19,5 +26,12 @@ export const arrondissement_16Places = [
     musee_guimet,
     musee_marmottan_monet,
     palais_galliera,
-    palais_de_tokyo
+    palais_de_tokyo,
+    
+    // Lot L
+    girafe,
+    monsieurBleu,
+    brasserieAuteuil,
+    cravan,
+    carette
 ];

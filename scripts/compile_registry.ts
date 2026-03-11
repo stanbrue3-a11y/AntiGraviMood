@@ -254,7 +254,8 @@ allPlaces.forEach((p, index) => {
     jsonValue(p.moods), jsonValue({}), jsonValue([p.category, ...p.subcategory]),
     jsonValue({
       standard: p.practical.opening_hours_raw?.replace(/ \| /g, '\n'),
-      display: p.practical.opening_hours_raw?.replace(/ \| /g, '\n').split('\n')[0]
+      display: p.practical.opening_hours_raw?.replace(/ \| /g, '\n').split('\n')[0],
+      detailed: p.practical.opening_hours_raw?.replace(/ \| /g, '\n')
     }),
     jsonValue({ ...p.practical, terrace: p.practical.terrace ?? false, happy_hour: p.pricing.hh_time || null }),
     jsonValue({ ...effectivePricing, menu_items: p.pricing.menu_items || [] }),
