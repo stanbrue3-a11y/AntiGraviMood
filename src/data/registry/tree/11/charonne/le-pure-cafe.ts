@@ -91,7 +91,12 @@ export const le_pure_cafe: SurgicalPlace = {
         "must_drink": "Un verre de vin rouge de la Loire au bar."
     },
     "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXrHAqiUpYsTn_FRCy0Gu6jtCYDhv_jPu6Y8Q07JpvDiE1sTtyy5JH_SoDsTbojr0HFUaECiZWaHom4qDekb5pxxCa1KuI3gq0g7EpXElBNldMowW4W2NhuV_c3SBmzPm6cqc37IK0pDK3lVem4mu_5-i2wITe1J1kCPxjYpy6VlVtFlqCWdvVMiD5c-7HLs2bUOkZhEkwV3plkDfXw9yfOzGKDzW_nvDNKTfxmRuFBMxhGsYz1b8nFW6YDTO9r-PMwomiKHHP1b4avCipNgJj_9Z5QBzYFVyR3_Lr90puqAg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        "gallery": [
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUmkrWCx1xpSBqNKvSDLlmhZgnOO-vZr1vdir0yNDpfEUaCRQyhqninvP2FxN3-FugUhe1IyRhjvQ_mzLmAMFwyo5PIDrrwsn_Jqtrrs-7HthXtwt7IZx3ICt-gi3Q-RsBugkOKatxHg-jenqrmytLyyOGKCfmdXH79aGkmB8x5ElMgoVUtZKS0mEeJPxruNMfKFgJeegITS6rvMT4_bBrKd8szDaNGQHxCirh6wyp-RitNm8vceilWOM5lT7QDtACOaOShyUWsoRKSq-bCw_LKosvmIsL4ooVz2PE_lrg1zw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXHKo0FLgGqavJzrGyM-fulsTWwnSYzxltQ_hqhno-FzKTFkg5RJmeuEaSUJy1gt_vBfTZ5VjytvwaMTk55lYCa1xeJYNGgT6JDxZdlMfOfcsJIub0cUbqf7kZgVuiT17MJ0al-JAKfskTrBvSb3yZUbUX6RgYaktu60KT42QZDrx-zvC1ljxhNVbMMn0cyxVifmt_swvWuOE_Pp-kz1R1VuTBdbE5tuESzNJuW886In8nO_vWosWj1HX_lPY7VcX_UDKrRtj_nO7o4l6ySkSnfZI-kPjsy9BfGMzu93JG0PNirwLccWCVQ7kgQ856y6EndHrwDnftpcEcyU6GJqpKG1WkhN2-eGrTLz9YOW8ucj5xWFYeMUjJrHg9tYsZlu53gCOsJayRpx9tb63BNVGzhnB3zDMv01l-KkVxVJK8B5PlBeqQBQ6jMLoQcrP_M&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+        ]
+    }`,
         "gallery": []
     }
 };

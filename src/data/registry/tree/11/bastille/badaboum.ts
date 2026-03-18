@@ -90,7 +90,12 @@ export const badaboum: SurgicalPlace = {
         "must_drink": "Le Gin Thé-Nic, signature rafraîchissante de la maison."
     },
     "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUNvTYEr2W-uABK--5P-QH2o1HYBRhwW0mAxZ6mPSXMAbd09mfDR_gjV6IqYc4IEgQNPH2zWOKX6YGUWbXvdWJccTWetBymuDCU5GbD5zVLRolXQ0R3XrXDwc85TYWfrrRrl8ih4JgJbral02behaP0iuNAw-r9iaZXBxDSUGWF2sfSHEwi7c_7FMK-sAa02D8-bFwWfaFKgKccbTN8Ocj72I5Bj18StHAGgG8h6KB6gRGq63WnV0USu2oVsfAqIVxKvxQhEsqG5SpNtSHwQA3ysKLsILTgIZYdsBXi05_LcA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        "gallery": [
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWtq2EYKZtAo9MnIVJMBa0rOnEAuR8_VT3k4kjlF7M09SFoGZztT0OpzqICG238A7GFnAOUmvK9HilKe90NNOpIK3w3UyF5_GUMYgmdNEY0aneQg41fpVPanApUQDpG3uZyMCmjgHJ-IUhqqhaM8sRpucI4xljE_AkiBW8DRJ-CwdMC5YUNq9_0vGxCXpckqKVy35lzaJps9atVCcZzcat8CYyOcb21LarvBsA6POZqoLJZJLbfE9B-9bk5i7lDckGv8GSq2sRFSPApsB4mfffS-zLfWiCKX2KKCuATNLMdaA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXmRvD8nFRQgVtl9K93q0aOcD5JfslpGpKVAAZZ6e0jQrCYGtq0Jn2ZO7zlHc9OEfZN2JS1gkCzZWCwTdcAWyZB9AfoYn3eeyXVKloG4zDy2GPBW_F9ky3InGCOId81B7Z7WLF85KwhYslTH8WCDiC8KAgcFvlAy0LV3jOVowaMMw5AzR_SQdkYD0ruBIvU5sQWoAi95p7l2oNA9MCgRGc5TVT84YyA0NGPuB55jnMSB4-gdUbaL36-aE2eU5VjFXV7Bz63eX2ohDkXGzKew1mmqMtt8XMkV8VzFid737FBBA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+        ]
+    }`,
         "gallery": []
     }
 };
