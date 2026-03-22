@@ -88,6 +88,10 @@ async function auditRegistry() {
                 errors.push(`🛡️ [${context}] : Badge 'Terrasse' non défini.`);
             }
 
+            if (!place.practical.terrace && (place.description?.toLowerCase().includes("terrasse") || place.insider_tip?.toLowerCase().includes("terrasse"))) {
+                errors.push(`🚨 [${context}] : Conflit potentiel Badge 'Terrasse' (Badge à false mais mentionné dans le texte).`);
+            }
+
             // 5. Rédactionnel
             if (place.description?.includes("TODO") || place.description?.length < 50) {
                 errors.push(`✍️ [${context}] : Description trop courte ou contenant des TODO.`);

@@ -226,7 +226,6 @@ async function enrich() {
             if (finalMedian === 0 && mains.length > 0) {
                 const allMainPrices = mains.flatMap(m => m.relevantPrices);
                 finalMedian = calculateMedian(allMainPrices);
-                console.log(`💰 [${place.slug}] Médiane Plats : ${finalMedian}€`);
             }
 
             // Règle 3 : TAPAS / GASTRO-SHARING MULTIPLIER (x2.5)
@@ -234,7 +233,6 @@ async function enrich() {
                const allTapasPrices = tapas.flatMap(m => m.relevantPrices);
                const tapasMedian = calculateMedian(allTapasPrices);
                finalMedian = tapasMedian * 2.5;
-               console.log(`🍢 [${place.slug}] Médiane Tapas/Sharing (x2.5) : ${finalMedian}€`);
             }
 
             // --- 3. BONUS BRUNCH / COFFEE SHOP (+25%) ---
@@ -267,8 +265,10 @@ async function enrich() {
         }
 
         if (finalMedian > 0) {
-            updates.main_dish_price = finalMedian;
-            updates.index_price = finalMedian;
+            const roundedMedian = Math.round(finalMedian * 10) / 10;
+            updates.main_dish_price = roundedMedian;
+            updates.index_price = roundedMedian;
+            console.log(`💰 [${place.slug}] Médiane Finale : ${roundedMedian}€`);
         }
 
         // --- 3. STYLE DE CUISINE (AUTO-PREFIX) ---

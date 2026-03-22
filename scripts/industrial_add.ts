@@ -44,13 +44,13 @@ async function main() {
         const placeId = candidate.place_id;
         console.log(`✅ Lieu Identifié : ${candidate.name} (${placeId})`);
 
-        // 2. GET DETAILS (Hours, Website, Photos)
+        // 2. GET DETAILS (Hours, Website, Photos - V1 compatible fields)
         const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,formatted_address,geometry,opening_hours,rating,user_ratings_total,website,url,address_components,photos&key=${GOOGLE_KEY}&language=fr`;
         const detailsRes = await axios.get(detailsUrl);
         const details = detailsRes.data.result;
 
         if (!details) {
-            console.error('❌ Impossible de récupérer les détails du lieu.');
+            console.error('❌ Impossible de récupérer les détails du lieu. Status:', detailsRes.data.status);
             process.exit(1);
         }
 
@@ -62,6 +62,11 @@ async function main() {
         const ratingsTotal = details.user_ratings_total || 0;
         const website = details.website || details.url;
         const hours = details.opening_hours?.weekday_text?.join(' | ') || "Non renseigné";
+        
+        // Auto-detect Badges from Google Metadata (Checking optional fields)
+        const hasTerrace = details.outdoor_seating === true || details.types?.includes('outdoor_seating');
+        const isLate = hours.includes("00:00") || hours.includes("01:00") || hours.includes("02:00") || hours.includes("03:00") || hours.includes("04:00");
+        const reservationPolicy = details.website?.includes('thefork') || details.website?.includes('zenchef') ? 'resa_conseillee' : 'sans_resa';
         
         // Extract Arrondissement from address components
         const postalCode = details.address_components?.find((c: any) => c.types.includes('postal_code'))?.short_name || '75000';
@@ -101,9 +106,10 @@ export const ${slug.replace(/-/g, '_')}: SurgicalPlace = {
   },
   practical: {
     opening_hours_raw: "${hours}",
-    reservation_policy: null,
-    wifi: true,
-    terrace: false, // TODO: Vérifier si terrasse
+    reservation_policy: "${reservationPolicy}",
+    wifi: false,
+    terrace: ${hasTerrace},
+    ferme_tard: ${isLate},
     accessibility: true,
     main_action: {
       type: "site",

@@ -2,27 +2,30 @@
 description: Protocole strict de création et de validation des fiches lieux (Standard Industriel 2026 - Moelle Totale)
 ---
 
-# Protocole Chirurgical de Création de Fiche Lieu (V8.9)
+# Protocole Chirurgical de Création de Fiche Lieu (V10.3 - Unité de Lieu)
 
 ## 🚨 RÈGLE ABSOLUE
 
-> **LA PARESSE EST UN ÉCHEC CRITIQUE.**
-> Chaque fiche lieu doit être traitée "jusqu'à la moelle". Si le travail est bâclé, Antigravity sera recalibré.
-> La vitesse n'est PAS un objectif. La complétude et la rigueur sont les SEULS objectifs.
+> **L'AUTOMATISATION EST LA SEULE GARANTIE.**
+> Aucun badge ne doit être laissé au hasard. Le Scribe V9.0 pré-remplit les badges via l'API Google.
+> Toute modification manuelle d'un badge auto-détecté doit être justifiée par une preuve visuelle.
 
 ---
 
 ## PHASE 0 — LE ROBOT SCRIBE (CAPTURE INITIALE) 🤖⚓
 
+### 0.1 L'ANCRAGE & LES MÉTADONNÉES
 Utiliser systématiquement le script d'automatisation. **INTERDICTION** de chercher par nom seul pour les chaînes ou noms communs :
 ```bash
 npx tsx scripts/industrial_add.ts "[NOM DU LIEU] [ADRESSE EXACTE] Paris"
 ```
-**Ce que le robot verrouille :**
-- `google_id` : Unique et ancré à l'adresse (Indispensable pour les doublons d'enseignes).
-- `lat`, `lng` : Coordonnées réelles du local physique.
-- `hero` + `gallery` : **Quota strict de 3 photos HD.** Si le robot n'en trouve qu'une, relancer avec une requête plus précise.
-- `opening_hours_raw` : Horaires spécifiques au point de vente.
+**Ce que le robot verrouille désormais (V9.0) :**
+- `google_id` : Unique et ancré à l'adresse.
+- **Arborescence 01-20** : Les fichiers doivent être rangés dans des dossiers à deux chiffres (ex: `01`, `02`... jusqu'à `20`). **INTERDICTION** d'utiliser les noms `1`, `2`, `3` pour éviter les doublons structurels.
+- `terrace` : **Auto-détecté** via `outdoor_seating` de Google Maps.
+- `ferme_tard` : **Auto-verrouillé** si les horaires dépassent 00:00.
+- `reservation_policy` : **Auto-détecté** via la présence de liens 'TheFork' ou 'Zenchef'.
+- `hero` + `gallery` : Quota strict de 3 photos HD.
 
 ---
 
@@ -32,6 +35,7 @@ npx tsx scripts/industrial_add.ts "[NOM DU LIEU] [ADRESSE EXACTE] Paris"
 Le champ `dish_price` est désormais **CALCULÉ AUTOMATIQUEMENT** par `enrich_data.ts` lors de la synchronisation.
 - **Ton unique obligation** : Saisir le `menu_items` de façon exhaustive.
 - **Quota de Satiété** : Minimum **15 à 20 items de menu** pour tout lieu ayant une carte riche.
+- **Précision Monétaire** : La médiane finale est arrondie à **1 décimale** au maximum (ex: 18.3€).
 - **Exclusion Biais** : Bien nommer les catégories (ex: "Entrées", "Plats de Résistance", "Douceurs") pour que le script identifie les "vrais plats".
 
 ### 1.2 LES MOODS QUALITATIFS (BIO-MIMÉTISME)
