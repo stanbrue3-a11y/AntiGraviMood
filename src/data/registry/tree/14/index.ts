@@ -55,6 +55,8 @@ import { ordonnance } from './alesia/ordonnance';
 import { bistrotCampagnes } from './gaite/bistrot-campagnes';
 import { bistrotDuDome } from './montparnasse/bistrot-du-dome';
 import { moulinVert } from './alesia/moulin-vert';
+import mr_chow from './montparnasse/mr-chow';
+import { la_taverne_de_zhao } from './montparnasse/la-taverne-de-zhao';
 
 export const arrondissement_14Places = [
     // Core Institutions
@@ -112,5 +114,7 @@ export const arrondissement_14Places = [
     ordonnance,
     bistrotCampagnes,
     bistrotDuDome,
-    moulinVert
+    moulinVert,
+    mr_chow,
+    la_taverne_de_zhao
 ];

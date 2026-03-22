@@ -92,6 +92,7 @@ export const PracticalInfoSchema = z.object({
     .nullable()
     .optional(),
   opening_hours: z.string().optional(),
+  opening_hours_raw: z.string().optional(),
   happy_hour: z
     .union([z.string(), z.object({ start: z.string(), end: z.string() })])
     .nullable()

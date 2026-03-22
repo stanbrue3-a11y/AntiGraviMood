@@ -15,36 +15,67 @@ export class TimeMapper {
     label: string;
     color: string;
     time_display: string;
-    details?: string[];
+    details?: { text: string; isToday: boolean }[];
   } {
     let parsedHours: { display?: string; standard?: string; detailed?: string } = {};
+    let rawDisplayFallback = '';
+
     try {
-      parsedHours = hoursJson ? JSON.parse(hoursJson) : {};
-    } catch (e) { }
+      if (hoursJson) {
+        if (hoursJson.trim().startsWith('{')) {
+          parsedHours = JSON.parse(hoursJson);
+        } else {
+          // It's a raw string from Registry/Supabase PracticalInfo
+          rawDisplayFallback = hoursJson;
+        }
+      }
+    } catch (e) { 
+      rawDisplayFallback = hoursJson || '';
+    }
 
     const display =
-      parsedHours?.display?.replace('Tlj: ', 'TOUS LES JOURS : ') || 'Horaires non confirmés';
-    const standard = parsedHours?.standard;
+      parsedHours?.display?.replace('Tlj: ', 'TOUS LES JOURS : ') || 
+      rawDisplayFallback?.replace('Tlj: ', 'TOUS LES JOURS : ') ||
+      'Horaires non confirmés';
+    
+    // Use raw string as standard if we don't have a JSON object
+    const standard = parsedHours?.standard || rawDisplayFallback;
 
     let state: 'open' | 'closed' | 'closing_soon' = 'closed';
     let label = 'Fermé';
     let color: string = palette.dark[500];
     let timeDisplay = '';
 
-    if (standard && standard !== 'Non renseigné') {
-      // Split by comma OR newline to handle multi-line blocks correctly
-      const lines = standard.split(/[,\n]/).map((s) => s.trim()).filter(Boolean);
+    const now = testDate || new Date();
+    const currentDayIndex = now.getDay();
+    const daysFr = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
+    const todayFr = daysFr[currentDayIndex];
+    const todayFrShort = todayFr.substring(0, 3);
+    const currentHour = now.getHours() + now.getMinutes() / 60;
 
-      // Extract time ranges, removing potential day prefixes (e.g. "Lundi: ")
-      const rawRanges = lines.map(line => {
-        // If the line has words followed by a colon (like "Lundi: 12:00-15:00"), extract the time part
-        const match = line.match(/(?:[A-Za-zÀ-ÿ]+\s*:\s*)(.*)/);
+    if (standard && standard !== 'Non renseigné') {
+
+      // Split by comma, pipe, or newline
+      const allLines = standard.split(/[|,\n]/).map((s) => s.trim()).filter(Boolean);
+
+      // Filter lines: Keep if they mention today OR if the whole string is just a time range (implicit TLJ)
+      const todayLines = allLines.filter(line => {
+        const lowerLine = line.toLowerCase();
+        // If it explicitly mentions another day, skip it
+        const otherDays = daysFr.filter(d => d !== todayFr);
+        const mentionsOtherDay = otherDays.some(d => lowerLine.includes(d) || lowerLine.includes(d.substring(0,3)));
+        
+        // It's for today if: explicit mention OR doesn't mention any other day and has times
+        return lowerLine.includes(todayFr) || lowerLine.includes(todayFrShort) || !mentionsOtherDay;
+      });
+
+      // Extract time ranges from filtered lines
+      const rawRanges = todayLines.map(line => {
+        const match = line.match(/(?:[A-Za-zÀ-ÿ]+\s*[:]\s*)(.*)/);
         return match ? match[1].trim() : line;
       });
 
       const ranges = rawRanges.map((r) => new OpeningHours(r));
-      const now = testDate || new Date();
-      const currentHour = now.getHours() + now.getMinutes() / 60;
 
       // Find current or next range
       let currentRange: OpeningHours | undefined = ranges.find((r) => r.isOpen(currentHour));
@@ -77,10 +108,25 @@ export class TimeMapper {
       }
     }
 
-    const rawDetails = parsedHours?.detailed?.split('\n') || [];
-    const details = rawDetails.map((l) =>
-      l.replace(/Tlj\s*:\s*/gi, 'Tous les jours : ').replace(/Tlj\b/gi, 'Tous les jours'),
-    );
+    // DETAILS POPULATION: Handle both JSON-detailed and Raw Fallback split
+    let rawDetails: string[] = [];
+    if (parsedHours?.detailed) {
+      rawDetails = parsedHours.detailed.split('\n');
+    } else if (rawDisplayFallback) {
+      // Split by pipe (registry standard) or newline
+      rawDetails = rawDisplayFallback.split(/[|\n]/).map(s => s.trim()).filter(Boolean);
+      // Remove the first line if it's already the 'display' summary (heuristic)
+      if (rawDetails.length > 1 && rawDetails[0].toLowerCase().includes('tous les jours')) {
+        // keep it anyway for the list
+      }
+    }
+
+    const details = rawDetails.map((l) => {
+      const cleanLine = l.replace(/Tlj\s*:\s*/gi, 'Tous les jours : ').replace(/Tlj\b/gi, 'Tous les jours');
+      const lowerLine = cleanLine.toLowerCase();
+      const isToday = lowerLine.includes(todayFr) || lowerLine.includes(todayFrShort);
+      return { text: cleanLine, isToday };
+    });
 
     return {
       state,

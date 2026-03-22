@@ -215,10 +215,30 @@ export const isOpenDuring = (place: Place, range: { start: number; end: number }
  */
 export const isOpenNow = (place: Place): boolean => {
   const raw = place.opening_hours?.standard;
-  if (!raw || raw === 'Non renseigné') return true; // Permissive: no data = assume open
+  if (!raw || raw === 'Non renseigné') return true;
 
-  const oh = new OpeningHours(raw);
   const now = new Date();
   const currentHour = now.getHours() + now.getMinutes() / 60;
-  return oh.isOpen(currentHour);
+  const daysFr = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
+  const todayFr = daysFr[now.getDay()];
+  const todayFrShort = todayFr.substring(0, 3);
+
+  // Split and filter for today's ranges
+  const allLines = raw.split(/[|,\n]/).map((s) => s.trim()).filter(Boolean);
+  const todayLines = allLines.filter(line => {
+    const lower = line.toLowerCase();
+    const otherDays = daysFr.filter(d => d !== todayFr);
+    const mentionsOtherDay = otherDays.some(d => lower.includes(d) || lower.includes(d.substring(0,3)));
+    return lower.includes(todayFr) || lower.includes(todayFrShort) || !mentionsOtherDay;
+  });
+
+  if (todayLines.length === 0) return false;
+
+  const ranges = todayLines.map(line => {
+    const match = line.match(/(?:[A-Za-zÀ-ÿ]+\s*[:]\s*)(.*)/);
+    const timeStr = match ? match[1].trim() : line;
+    return new OpeningHours(timeStr);
+  });
+
+  return ranges.some(oh => oh.isOpen(currentHour));
 };

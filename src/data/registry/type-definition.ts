@@ -47,10 +47,11 @@ export interface Location {
 
 export interface PracticalInfo {
     reservation_policy: 'sans_resa' | 'resa_conseillee' | 'resa_obligatoire' | null;
-    accessibility: boolean;
-    wifi: boolean;
-    vegan_friendly?: boolean;
     terrace?: boolean;
+    viande_exception?: boolean;
+    ferme_tard?: boolean;
+    accessibility?: boolean;
+    wifi?: boolean;
     opening_hours_raw: string; // "Lundi: 10h-20h..."
 
     // Actions (Industrial 2026 Standard) 🧬

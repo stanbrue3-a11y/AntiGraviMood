@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --max-warnings=0",
     "format:check": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "industrial-add": "npx tsx scripts/industrial_add.ts",
+    "industrial-sync": "npx tsx scripts/sync_to_supabase.ts --slug=$npm_config_slug && npx tsx scripts/migrate_media.ts --slug=$npm_config_slug && npx tsx scripts/inject_data.ts && npx tsx scripts/enrich_data.ts --slug=$npm_config_slug"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

@@ -115,10 +115,11 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
   const metaView = MetaMapper.mapMetaView(place, activeCategories);
   const actionsView = MetaMapper.mapActionsView(place);
   const happyHourView = TimeMapper.mapHappyHourView(place.practical_info?.happy_hour);
-  const openingView = TimeMapper.mapOpeningView(
-    place.opening_hours ? JSON.stringify(place.opening_hours) : null,
-    place,
-  );
+  const rawHours = place.opening_hours 
+    ? JSON.stringify(place.opening_hours) 
+    : place.practical_info?.opening_hours_raw || place.practical_info?.opening_hours || null;
+
+  const openingView = TimeMapper.mapOpeningView(rawHours, place);
   const pricingView = place.pricing ? PricingMapper.mapPricingView(place.pricing as any, place as any, undefined, activeCategories) : null;
   const badgesView = BadgeMapper.mapBadgesView(place, metaView.mood_color);
 

@@ -4,7 +4,7 @@ import { logger } from '../lib/logger';
 import { Place, PlaceRow, PlaceSkeleton } from '../types/model';
 import { FilterCriteria } from '../types/filters';
 import { IPlacesRepository } from '../repositories/IPlacesRepository';
-import { SQLitePlacesRepository } from '../repositories/SQLitePlacesRepository';
+import { SupabasePlacesRepository } from '../repositories/SupabasePlacesRepository';
 import { IMomentsRepository } from '../repositories/IMomentsRepository';
 import { SQLiteMomentsRepository } from '../repositories/SQLiteMomentsRepository';
 
@@ -42,33 +42,29 @@ export class DataService {
 
   /**
    * ATOMIC IGNITION
-   * Uses SQLiteKernel for attachment and MigrationRunner for schema stability.
+   * Uses Supabase for Places and SQLite for local Moments.
    */
   async init() {
-    if (this._placesRepo) return;
+    if (this._placesRepo && this._momentsRepo) return;
     if (this._initPromise) return this._initPromise;
 
     this._initPromise = (async () => {
       try {
-        logger.log('🧠 [DataService] Vault Ignition Start...');
+        logger.log('🧠 [DataService] Cloud-First Ignition Start...');
 
-        // 1. Attach Kernel
+        // 1. Repository Hydration (Supabase for Places)
+        const placesRepo = new SupabasePlacesRepository();
+
+        // 2. Local fallback for Moments (Keep it for now as requested)
         const db = await this._kernel.attach();
-
-        // 2. Run Migrations
         await MigrationRunner.run(db);
+        const momentsRepo = new SQLiteMomentsRepository(db);
 
-        // 3. Schema Integrity Check
-        const columns = await db.getAllAsync<{ name: string }>('PRAGMA table_info(places)');
-        if (!columns.some((c) => c.name === 'real_talk_json')) {
-          throw new Error('Kernel Panic: Schema missing real_talk_json.');
-        }
+        // 3. Atomic Assignment
+        this._placesRepo = placesRepo;
+        this._momentsRepo = momentsRepo;
 
-        // 4. Repository Hydration
-        this._placesRepo = new SQLitePlacesRepository(db);
-        this._momentsRepo = new SQLiteMomentsRepository(db);
-
-        logger.log('✅ [DataService] Vault Engine Live.');
+        logger.log('✅ [DataService] Cloud Engine Live (Places on Supabase).');
       } catch (fault) {
         this._initPromise = null;
         const message = fault instanceof Error ? fault.message : 'Unknown core fault';

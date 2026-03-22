@@ -67,7 +67,7 @@ export const OpeningHoursSection = React.memo(
             {/* Main Status Text */}
             <View style={styles.textBlock}>
               <Text style={[styles.mainStatus, { color: theme.text.primary }]}>
-                <Text style={{ color: view.color, fontWeight: '700' }}>{view.label}</Text>
+                <Text style={{ color: view.color, fontWeight: '500' }}>{view.label}</Text>
                 <Text style={{ color: theme.text.muted }}> ⋅ </Text>
                 <Text style={{ color: theme.text.secondary }}>{view.time_display}</Text>
               </Text>
@@ -85,16 +85,29 @@ export const OpeningHoursSection = React.memo(
           {isExpanded && hasDetails && (
             <View style={[styles.detailsPanel, { borderTopColor: theme.border }]}>
               {view.details
-                .filter((l: string) => l.trim().length > 0)
-                .map((line: string, idx: number) => {
+                .filter((d: any) => d.text.trim().length > 0)
+                .map((detail: any, idx: number) => {
+                  const line = detail.text;
                   const colonIdx = line.indexOf(':');
                   const day = colonIdx > -1 ? line.slice(0, colonIdx).trim() : line;
                   const hours = colonIdx > -1 ? line.slice(colonIdx + 1).trim() : '';
 
                   return (
                     <View key={idx} style={styles.detailRow}>
-                      <Text style={[styles.detailDay, { color: theme.text.secondary }]}>{day}</Text>
-                      <Text style={[styles.detailHours, { color: theme.text.primary }]}>
+                      <Text 
+                        style={[
+                          styles.detailDay, 
+                          { color: detail.isToday ? theme.text.primary : theme.text.secondary }
+                        ]}
+                      >
+                        {day}
+                      </Text>
+                      <Text 
+                        style={[
+                          styles.detailHours, 
+                          { color: detail.isToday ? theme.text.primary : theme.text.secondary }
+                        ]}
+                      >
                         {hours || '-'}
                       </Text>
                     </View>
@@ -146,13 +159,13 @@ const styles = StyleSheet.create({
   },
   detailDay: {
     fontSize: 14,
-    fontWeight: '500',
+    fontWeight: '400',
     width: 110,
     textTransform: 'capitalize',
   },
   detailHours: {
     fontSize: 14,
-    fontWeight: '600',
+    fontWeight: '400',
     textAlign: 'right',
     flex: 1,
     lineHeight: 20,

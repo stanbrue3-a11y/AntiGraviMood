@@ -1,118 +1,105 @@
-import { SurgicalPlace } from '../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
 export const sugo: SurgicalPlace = {
-    id: "poi-sugo",
-    name: "Sugo",
-    slug: "sugo",
-    category: "restaurant",
-    subcategory: ["italien", "pâtes"],
-    location: {
-        address: "16 Rue Saint-Augustin",
-        arrondissement: 2,
-        lat: 48.868939,
-        lng: 2.3361951,
-        nearest_metro: "Quatre-Septembre",
-        metro_lines: [3],
-        google_id: "ChIJ-WZa4A9v5kcRPgA2aczQBnQ"
-    },
-    moods: {
-        chill: 60,
-        festif: 10,
-        culturel: 10
-    },
-    practical: {
-        // VERIFIED: Google Maps API (March 2026)
-        opening_hours_raw: "lundi: 12:00–14:30, 19:00–22:30\nmardi: 12:00–14:30, 19:00–22:30\nmercredi: 12:00–14:30, 19:00–22:30\njeudi: 12:00–14:30, 19:00–22:30\nvendredi: 12:00–14:30, 19:00–22:30\nsamedi: 12:00–15:00, 19:00–22:30\ndimanche: 12:00–15:00, 19:00–22:30",
-        reservation_policy: "resa_conseillee",
-        terrace: false,
-        accessibility: false,
-        wifi: false,
-        main_action: {
-            type: "site",
-            url: "http://www.sugoparis.com/",
-            label: "RÉSERVER"
-        }
-    },
-    pricing: {
-        avg_budget: 25,
-        is_free: false,
-        pint_price: 0,
-        cocktail_price: 0,
-        wine_glass: 0,
-        coffee_price: 2.50,
-        // NOT FOUND: Auto-calculated via `compile_registry.ts`
-        dish_price: 0,
-        last_updated: "2026-03-05",
-        menu_items: [
-            {
-                category: "Antipasti",
-                items: [
-                    { name: "Carciofini (Artichauts des Pouilles, olives Taggiasche)", price: "10.00€" },
-                    { name: "Mozzarella di Bufala (Tomates séchées des Pouilles)", price: "10.00€" },
-                    { name: "Polpette (Boulettes de veau, sauce Sugo, parmesan)", price: "12.00€" },
-                    { name: "Salade Betterave Ricotta (Vinaigrette orange)", price: "9.00€" },
-                    { name: "Velouté Courge (Butternut, mascarpone, noisettes)", price: "8.00€" }
-                ]
-            },
-            {
-                category: "Pâtes Fraîches (Permanent - Prix midi / soir)",
-                items: [
-                    { name: "Sugo (Sauce tomate sarde cuite 4h, ail)", price: "12.00€" },
-                    { name: "Sugo (Prix Soir)", price: "15.00€" },
-                    { name: "Cacio e Pepe (Pecorino Romano, poivre torréfié)", price: "15.00€" },
-                    { name: "Cacio e Pepe (Prix Soir)", price: "17.00€" },
-                    { name: "Pesto (Basilic, amandes de Sicile, Pecorino)", price: "15.00€" },
-                    { name: "Pesto (Prix Soir)", price: "17.00€" },
-                    { name: "Amatriciana (Tomate sarde, guanciale, Pecorino)", price: "15.00€" },
-                    { name: "Amatriciana (Prix Soir)", price: "17.00€" },
-                    { name: "Ragù (Effiloché de boeuf, tomate sarde, Gremolada)", price: "15.00€" },
-                    { name: "Ragù (Prix Soir)", price: "18.00€" }
-                ]
-            },
-            {
-                category: "Le Semainier (Spécialités - Prix Soir)",
-                items: [
-                    { name: "Lundi : Puttanesca (Tomates, olives, câpres, anchois)", price: "18.00€" },
-                    { name: "Mardi : Carbonara (Pecorino, oeuf, Guanciale)", price: "18.00€" },
-                    { name: "Mercredi : Burro Salvia Limone (Beurre, sauge, citron)", price: "18.00€" },
-                    { name: "Jeudi : Lasagna (Ragu de boeuf Angus, béchamel)", price: "18.00€" },
-                    { name: "Vendredi : Salsiccia (Aubergines et saucisse artisanale)", price: "18.00€" },
-                    { name: "Samedi : Ruggine (Pesto, sauce Sugo, olives Ligure)", price: "18.00€" },
-                    { name: "Dimanche : Carciofi (Crème d'artichaut, guanciale)", price: "18.00€" }
-                ]
-            },
-            {
-                category: "Dolci (Desserts)",
-                items: [
-                    { name: "Tiramisu (Mascarpone crémeux, café, chocolat)", price: "7.00€" },
-                    { name: "Torta Caprese (Fondant chocolat Valrhona, amandes)", price: "7.00€" },
-                    { name: "Panna Cotta (Fleur d'oranger, praliné pistache)", price: "6.00€" }
-                ]
-            },
-            {
-                category: "Boissons (Sans alcool et Cafés)",
-                items: [
-                    { name: "Café express-allongé", price: "2.50€" },
-                    { name: "Mole Cola (Cola italien)", price: "3.00€" },
-                    { name: "San Pellegrino", price: "3.00€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUbDRe4k5Z2YoZwk7IlpqT9zy09WnZOeQ1hCb1tEvqUFZ7vzLnd235dckBBEvBhIb25of0yXwL__Fplq8UdyUG1lsWoIXQZ1yVAVR-bAbz5-bbAJoR30B4iKKxPlg7FgHD5Yr_pbr1IlDuXHbiNtxYiLM2UYhqaMPYNC1_kbXGOMVplS4GnvqvK05SAhdmD27_iOxxvmblBK--mMaMntO7Zis27_TNjspBG9GuXvkT9lIEVhylOZmQn-RmlgZvmGaOIkZZXSI6wr8JsfiTULQfCxbBfBXksXm5QRvXLnXDvmTM1Dhs&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
-    instagram_handle: "sugoparis",
-    verified: true,
-    google_rating: 4.8,
-    description: "Niché dans la rue Saint-Augustin, Sugo s'impose comme une adresse incontournable pour les puristes de la pasta fresca. Le lieu mise sur un approvisionnement pointu en direct d'Italie (semoule de blé dur bio, tomates sardes) pour délivrer des assiettes d'une redoutable efficacité. L'ambiance y est conviviale, vivante et laisse la part belle au produit brut sans aucune fioriture.",
-    insider_tip: "• Pensez à vérifier le \"Semainier\" avant de venir : à chaque jour sa recette spéciale (Puttanesca le lundi, Carbonara le mardi...).\n• Victime de son succès, la queue s'allonge très vite : ne soyez pas surpris de patienter ou d'être invité à revenir une heure plus tard sans réservation.\n• Attention, la politique tarifaire est variable avec une différence d'environ +2€ ou +3€ sur les plats le soir par rapport au déjeuner.",
-    expert_catchline: "Pâtes fraîches artisanales et sourcing italien obsessionnel dans ce repaire très prisé du quartier.",
-    specials: {
-        cuisine: ["Polpette de veau", "Pâtes fraîches Cacio e Pepe", "Carbonara du Mardi", "Tiramisu crémeux"],
-        drinks: ["Mole Cola"],
-        must_eat: "Temple absolu des pâtes fraîches. Le semainier rythme la carte : attaquez la redoutable Carbonara du mardi ou le Ragù mijoté 4h. Les délicates Polpettes de veau sont parfaites en entrée.",
-        must_drink: "Restauration très orientée food, sans bar à cocktails spécifique. On y trouve néanmoins des classiques italiens comme le surprenant Mole Cola originel."
+  id: "poi-sugo-pasta-fresca-saint-augustin",
+  slug: "sugo-pasta-fresca-saint-augustin",
+  name: "SUGO pasta fresca - Saint-Augustin",
+  category: "restaurant",
+  subcategory: ["italien", "pâtes", "frais", "traiteur", "cantine"],
+  location: {
+    address: "16 Rue Saint-Augustin, 75002 Paris, France",
+    arrondissement: 2,
+    lat: 48.8690001,
+    lng: 2.3361959,
+    nearest_metro: "Quatre-Septembre",
+    metro_lines: [3],
+    google_id: "ChIJ-WZa4A9v5kcRPgA2aczQBnQ"
+  },
+  moods: {
+    chill: 70,
+    festif: 30,
+    culturel: 50
+  },
+  practical: {
+    opening_hours_raw: "lundi: 12:00 – 14:30, 19:00 – 22:30 | mardi: 12:00 – 14:30, 19:00 – 22:30 | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 22:30 | vendredi: 12:00 – 14:30, 19:00 – 22:30 | samedi: 12:00 – 15:00, 19:00 – 22:30 | dimanche: 12:00 – 15:00, 19:00 – 22:30",
+    reservation_policy: "sans_resa",
+    wifi: false,
+    terrace: false,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "http://www.sugoparis.com/",
+      label: "SITE WEB"
     }
+  },
+  pricing: {
+    avg_budget: 18,
+    is_free: false,
+    last_updated: "2026-03-22",
+    menu_items: [
+        {
+            category: "Antipasti",
+            items: [
+                { name: "Carciofini (Artichauts des Pouilles, olives Taggiasche)", price: "10.00€" },
+                { name: "Mozzarella di Bufala (Tomates séchées des Pouilles)", price: "10.00€" },
+                { name: "Polpette (Boulettes de veau, sauce Sugo, parmesan)", price: "12.00€" },
+                { name: "Salade Betterave Ricotta (Vinaigrette orange)", price: "9.00€" },
+                { name: "Velouté Courge (Butternut, mascarpone, noisettes)", price: "8.00€" }
+            ]
+        },
+        {
+            category: "Pâtes Fraîches (Permanent - Prix midi / soir)",
+            items: [
+                { name: "Sugo (Sauce tomate sarde cuite 4h, ail)", price: "12.00€" },
+                { name: "Sugo (Prix Soir)", price: "15.00€" },
+                { name: "Cacio e Pepe (Pecorino Romano, poivre torréfié)", price: "15.00€" },
+                { name: "Cacio e Pepe (Prix Soir)", price: "17.00€" },
+                { name: "Pesto (Basilic, amandes de Sicile, Pecorino)", price: "15.00€" },
+                { name: "Pesto (Prix Soir)", price: "17.00€" },
+                { name: "Amatriciana (Tomate sarde, guanciale, Pecorino)", price: "15.00€" },
+                { name: "Amatriciana (Prix Soir)", price: "17.00€" },
+                { name: "Ragù (Effiloché de boeuf, tomate sarde, Gremolada)", price: "15.00€" },
+                { name: "Ragù (Prix Soir)", price: "18.00€" }
+            ]
+        },
+        {
+            category: "Le Semainier (Spécialités - Prix Soir)",
+            items: [
+                { name: "Lundi : Puttanesca (Tomates, olives, câpres, anchois)", price: "18.00€" },
+                { name: "Mardi : Carbonara (Pecorino, oeuf, Guanciale)", price: "18.00€" },
+                { name: "Mercredi : Burro Salvia Limone (Beurre, sauge, citron)", price: "18.00€" },
+                { name: "Jeudi : Lasagna (Ragu de boeuf Angus, béchamel)", price: "18.00€" },
+                { name: "Vendredi : Salsiccia (Aubergines et saucisse artisanale)", price: "18.00€" },
+                { name: "Samedi : Ruggine (Pesto, sauce Sugo, olives Ligure)", price: "18.00€" },
+                { name: "Dimanche : Carciofi (Crème d'artichaut, guanciale)", price: "18.00€" }
+            ]
+        },
+        {
+            category: "Dolci (Desserts)",
+            items: [
+                { name: "Tiramisu (Mascarpone crémeux, café, chocolat)", price: "7.00€" },
+                { name: "Torta Caprese (Fondant chocolat Valrhona, amandes)", price: "7.00€" },
+                { name: "Panna Cotta (Fleur d'oranger, praliné pistache)", price: "6.00€" }
+            ]
+        }
+    ]
+  },
+  description: "SUGO est la nouvelle ambassade de la pasta fresca à Paris. Ici, les pâtes sont fabriquées sur place chaque matin à partir de semoule de blé dur bio. Le concept est simple : des recettes italiennes authentiques, des produits sourcés directement chez les petits producteurs, et une générosité sans compromis.",
+  insider_tip: "Attention, le lieu est victime de son succès et ne prend pas de réservations : arrive à 12h00 pile ou après 21h00 pour éviter la file. Ne rate pas la Carbonara, elle respecte le dogme italien à la lettre (guanciale & pecorino, pas de crème).",
+  specials: {
+    cuisine: ["Italien", "Pâtes Fraîches"],
+    drinks: ["Vins Italiens", "Limonata"],
+    must_eat: "Carbonara Authentique",
+  },
+  images: {
+    hero: "AU_ZVEGU-yvi0YgTOeTpPWEFJ1-QGjW-MKu0h6uMUQMa5yf3siZi8Sw8rasfc9Iu_GFdYi_gxX5HDmCZoOM_WAikDXTeDT8q5fvE-EpZHkzt9BioycEtGt_fBaf7Qc_9CDJ4zMBWOU2uhdakzd52-SWXDZjNgP08bfnxw8bXQ8QshcTW_JGoOZP_kjW0qUppfY9bQsjMod4uWogOP4facIoQyvu1k_mTp8l88q27hp-Iy6Nl_Qmp-2bJx1Wd4mJxLMFBP7LVxLcn-oOxVPR5IhkWTJ1LuMP9jk1qiIuz29pJabuJbw",
+    gallery: [
+      "AU_ZVEEcKGBAKcbrPVNhXWLWELjn8chwSfMPC74B_ailrjVPU_cwzQz-OC77W6jbotZ_0gHlr3UMO48j7sZZMN900OLKz5PGQgENKIvfFQXU_juvoqNcLnDygFPXxX13uP_j_LzYoB4Kg613jKh9q97-siWP87PNH-pWhRbbomB0yb4WXPWn1kYo5lpAY0sWJDLXKyrJ5CeTGgrzG3XHCPxGal_8SGbcSPIvwPfVH-6weOsB4arpaXuKTy23Rv04zN4xps-PyLxrJBDXxWAO6Jimhuxd3R_XStFbLugPMztaDGye6jVW-HhBHYGC7yrLm2oUXzuvWQxSAS3FPBrM6gWZrDoe6Gd_f5LlUk9u31r7ZaS3T6f_Do4H78oHsAP8ObmGH42i1eKCUF5AB-G6BvjKWeRyBcTbXdhdQ1hQecrjHrQjiMNoUzlk1yZ5fn1V2tJa",
+      "AU_ZVEEsgOuPrf4XQg1ITdy46kz9zoQS1X1M14Kb1BeJSn-2YU_aPSwJyj0pE-ZzmTH6gGbpsHfZGqYr6hvJtQHpygOgyrDHt10u451vbiox-CQqtkd8M3Oi_8OZ0tnvGKdARzqlUbwthN6567Bog6Okjez8GZCcqBAwfY16drqUOkPnhm9D1t1euz4E1vxFuTMR3y54B3yF8DkKGTTP__iY7HG_-dK8CKDXHwM8gWrupBexRvBvRiawqJGSIumERCS3gcYmEFBPAVS3Y-6NU8AZvm8XjHQE94Me3ieamUdH32IxSg"
+    ]
+  },
+  verified: true,
+  google_rating: 4.8
 };
+
+export default sugo;
