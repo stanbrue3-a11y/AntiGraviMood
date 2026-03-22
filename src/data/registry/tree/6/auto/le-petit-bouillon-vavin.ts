@@ -25,6 +25,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
     reservation_policy: "sans_resa",
     wifi: false,
     terrace: true,
+    ferme_tard: true,
     accessibility: true,
     main_action: {
       type: "site",

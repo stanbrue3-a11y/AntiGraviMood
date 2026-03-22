@@ -58,12 +58,19 @@ export const mr_chow: SurgicalPlace = {
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category: "Cave & Boissons",
         items: [
           { name: "Cocktail Moon Palace", price: "12.00€", description: "Signé Panda Panda" },
           { name: "Bière Tsingtao", price: "5.50€", description: "Classique chinois" },
           { name: "Thé Glacé Maison", price: "4.50€" },
-          { name: "Taiwanese Passion Fruit Drink", price: "4.00€" }
+          { name: "Passion Fruit Taiwanese Drink", price: "4.00€" }
+        ]
+      },
+      {
+        category: "Desserts",
+        items: [
+          { name: "Bao au Chocolat fondu", price: "5.50€", description: "Cœur coulant" },
+          { name: "Mango Sago Dessert", price: "7.00€", description: "Mangue & perles de sagou" }
         ]
       }
     ]

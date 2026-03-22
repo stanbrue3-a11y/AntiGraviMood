@@ -20,7 +20,7 @@ const SECTION_HINTS = {
   DRINK: ['boisson', 'drink', 'vins', 'vin', 'bière', 'beer', 'coffee', 'café', 'thé', 'tea', 'soft', 'jus', 'juice', 'cocktail', 'liqueur', 'eau', 'water', 'cave', 'alcohol'],
   MENU: ['menu', 'formule', 'dégustation', 'étapes', 'steps', 'carte blanche', 'expériences', 'satiété', 'midi', 'déjeuner', 'speakeasy', 'privatisation', 'groupe', 'evenement'],
   TAPAS: ['tapas', 'partager', 'sharing', 'assiettes', 'tapassiettes', 'mezze', 'sharing'],
-  MAIN: ['plats', 'main', 'résistance', 'salé', 'pizza', 'burger', 'viande', 'poisson', 'pâtes', 'pasta', 'riz', 'curry', 'udon', 'ramen', 'signature', 'bao', 'galette', 'sarrasin', 'terre', 'mer']
+  MAIN: ['plats', 'main', 'résistance', 'salé', 'pizza', 'burger', 'viande', 'poisson', 'pâtes', 'pasta', 'riz', 'curry', 'udon', 'ramen', 'signature', 'bao', 'galette', 'sarrasin', 'terre', 'mer', 'noodles', 'biang', 'bun', 'pad']
 };
 
 /**

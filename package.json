@@ -13,7 +13,8 @@
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "industrial-add": "npx tsx scripts/industrial_add.ts",
-    "industrial-sync": "npx tsx scripts/sync_to_supabase.ts --slug=$npm_config_slug && npx tsx scripts/migrate_media.ts --slug=$npm_config_slug && npx tsx scripts/inject_data.ts && npx tsx scripts/enrich_data.ts --slug=$npm_config_slug"
+    "industrial-sync": "npx tsx scripts/sync_to_supabase.ts --slug=$npm_config_slug && npx tsx scripts/migrate_media.ts --slug=$npm_config_slug && npx tsx scripts/inject_data.ts && npx tsx scripts/enrich_data.ts --slug=$npm_config_slug",
+    "audit-registry": "npx tsx scripts/audit_registry.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
