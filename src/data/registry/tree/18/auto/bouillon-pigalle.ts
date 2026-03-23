@@ -53,7 +53,7 @@ export const bouillon_pigalle: SurgicalPlace = {
         ]
       },
       {
-        category: "Les Plats de Résistance",
+        category: "Les Les Plats",
         items: [
           { name: "Saucisse au jus, purée maison", price: "9.60€", description: "Le best-seller absolu" },
           { name: "Bœuf bourguignon, lard fumé, coquillettes", price: "12.20€" },

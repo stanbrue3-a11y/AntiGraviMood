@@ -95,6 +95,8 @@ export class BadgeMapper {
     const subMap: Record<string, { label: string; icon: string }> = {
       pepite: { label: 'Pépite', icon: 'star-outline' },
       viande: { label: 'Viande d\'exception', icon: 'restaurant-outline' },
+      étoilé: { label: '1* Michelin', icon: 'star' },
+      michelin: { label: '1* Michelin', icon: 'star' },
     };
     place.subcategories?.forEach(sub => {
       const key = sub.toLowerCase();
