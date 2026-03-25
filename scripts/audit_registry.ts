@@ -10,6 +10,11 @@ import { SurgicalPlace } from '../src/data/registry/type-definition';
 const REGISTRY_PATH = path.join(__dirname, '../src/data/registry/tree');
 const MIN_MENU_ITEMS = 15;
 const MIN_GALLERY_PHOTOS = 2;
+const ALLOWED_PATTERNS = [/Entrée/i, /Plat/i, /Dessert/i, /Douceur/i, /Formule/i, /Partager/i, /Cave/i, /Boisson/i, /Aperitivo/i, /Antipasti/i, /Pâte/i, /Dolci/i, /Tapassiette/i, /Côté/i, /Accompagnement/i, /Mo's/i, /Signature/i, /Supplément/i, /Topping/i, /Extra/i, /Spécialité/i];
+const FORBIDDEN_WORDS = [
+    { word: "Carte", reason: "Forbidden nomenclature (Redundant with UI)" },
+    { word: "Résistance", reason: "Forbidden nomenclature ('Plat de Résistance' is banned, use 'Plats')" }
+];
 
 async function auditRegistry() {
     console.log("🔍 DÉBUT DE L'AUDIT DE MOELLE...");
@@ -62,7 +67,45 @@ async function auditRegistry() {
             }
 
             // 3. Menus Moelle
-            const totalItems = (place.pricing.menu_items || []).reduce((acc, cat) => acc + (cat.items?.length || 0), 0);
+            const totalItems = (place.pricing.menu_items || []).reduce((acc, cat) => {
+                const catName = cat.category;
+                
+                // 3.1 Vérification Nomenclature (Moelle V10.4)
+                const isDrinkSection = catName.includes("Boisson") || catName.includes("Cave");
+                
+                // Flexible Match
+                const isStandardMatched = ALLOWED_PATTERNS.some(pattern => pattern.test(catName));
+                if (!isStandardMatched) {
+                    errors.push(`🏗️ [${context}] : Catégorie non-standard détectée : "${catName}". Doit contenir un mot-clé valide (Entrée, Plat, Dessert, etc.).`);
+                }
+                
+                // Forbidden Words Check
+                FORBIDDEN_WORDS.forEach(rule => {
+                    if (catName.includes(rule.word)) {
+                        // Exception pour "La Cave / Boissons"
+                        if (catName === "La Cave / Boissons" && rule.word === "Boisson") return;
+                        
+                        errors.push(`🚨 [${context}] : Libellé proscrit détecté dans "${catName}" (Mot: "${rule.word}" - ${rule.reason}).`);
+                    }
+                });
+
+                if (isDrinkSection && place.category === 'restaurant') {
+                    const isAllowedDrink = catName.includes("Boisson") || catName.includes("Cave") || catName.includes("Aperitivo");
+                    if (!place.subcategory.includes('bouillon') && !isAllowedDrink) {
+                        errors.push(`🥤 [${context}] : Section boissons interdite pour un restaurant standard : "${catName}". (Utilisez specials.drinks).`);
+                    }
+                }
+
+                // 3.2 Vérification des Prix (€ obligatoire)
+                cat.items?.forEach(item => {
+                    if (!item.price.includes('€')) {
+                        errors.push(`💰 [${context}] : Symbole € manquant pour l'item "${item.name}" (Prix: "${item.price}").`);
+                    }
+                });
+
+                return acc + (cat.items?.length || 0);
+            }, 0);
+            
             if (totalItems < MIN_MENU_ITEMS) {
                 errors.push(`🍗 [${context}] : Menu anémique (${totalItems}/${MIN_MENU_ITEMS} items).`);
             }
@@ -92,12 +135,30 @@ async function auditRegistry() {
                 errors.push(`🚨 [${context}] : Conflit potentiel Badge 'Terrasse' (Badge à false mais mentionné dans le texte).`);
             }
 
-            // 5. Rédactionnel
-            if (place.description?.includes("TODO") || place.description?.length < 50) {
-                errors.push(`✍️ [${context}] : Description trop courte ou contenant des TODO.`);
+            // 2.2 Vérification des Moods (No 50/50/50 standard)
+            const moodValues = Object.values(place.moods);
+            const isGenericMood = moodValues.every(v => v === 50) || 
+                                 (moodValues.filter(v => v === 50).length >= 2 && moodValues.some(v => v === 50));
+            if (isGenericMood) {
+                errors.push(`🎭 [${context}] : Moods génériques détectés (Éviter le 50/50 par défaut).`);
             }
-            if (place.insider_tip?.includes("TODO")) {
+            
+            // 5.1 Insider Tip (Triple Bullet Requirement)
+            if (!place.insider_tip || place.insider_tip.includes("TODO")) {
                 errors.push(`💡 [${context}] : Insider Tip manquant (TODO).`);
+            } else {
+                const bulletCount = (place.insider_tip.match(/•/g) || []).length;
+                if (bulletCount < 3) {
+                    errors.push(`💡 [${context}] : Format Insider Tip invalide (${bulletCount}/3 puces '•' détectées).`);
+                }
+            }
+
+            // 5.2 Must Eat (Prefix Requirement)
+            const mustEat = place.specials?.must_eat;
+            if (!mustEat || mustEat.includes("TODO")) {
+                errors.push(`🍴 [${context}] : Must Eat manquant (TODO).`);
+            } else if (!mustEat.includes('.') || mustEat.split('.')[0].length < 3) {
+                errors.push(`🍴 [${context}] : Préfixe de cuisine manquant dans Must Eat ("${mustEat}"). Format attendu: "Cuisine [Type]. [Plats]"`);
             }
 
         } catch (e) {

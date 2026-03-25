@@ -58,6 +58,10 @@ import { moulinVert } from './alesia/moulin-vert';
 import mr_chow from './montparnasse/mr-chow';
 import { la_taverne_de_zhao } from './montparnasse/la-taverne-de-zhao';
 
+// --- AUTO-GENERATED MOELLE (75014) ---
+import { restaurant_a_mi_chemin_paris_14_eme } from './auto/restaurant-a-mi-chemin-paris-14-eme';
+import { restaurant_korean_barbecue } from './auto/restaurant-korean-barbecue';
+
 export const arrondissement_14Places = [
     // Core Institutions
     chez_papa_montparnasse,
@@ -116,5 +120,8 @@ export const arrondissement_14Places = [
     bistrotDuDome,
     moulinVert,
     mr_chow,
-    la_taverne_de_zhao
+    la_taverne_de_zhao,
+    // --- AUTO-GENERATED MOELLE ---
+    restaurant_a_mi_chemin_paris_14_eme,
+    restaurant_korean_barbecue
 ];

@@ -54,7 +54,7 @@ export const tram130: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance",
+                category: "Les Plats",
                 items: [
                     { name: "Risotto d'orzo crémeux, tourteau & bisque", price: "32.00€" },
                     { name: "Ris de veau laqués façon Char Siu", price: "35.00€" },

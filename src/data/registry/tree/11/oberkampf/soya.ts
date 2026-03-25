@@ -54,7 +54,7 @@ export const soya: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance",
+                category: "Les Plats",
                 items: [
                     { name: "Grand Mezze de Soya", price: "22.00€", description: "L'assiette signature : houmous, caviar de légumes, makis, falafels, crudités." },
                     { name: "Lasagne Végétale au pesto de cajou", price: "19.00€" },

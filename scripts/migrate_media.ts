@@ -42,8 +42,10 @@ async function migrateMedia() {
     const args = process.argv.slice(2);
     const targetSlug = args.find(arg => arg.startsWith('--slug='))?.split('=')[1];
 
-    const placesToMigrate = targetSlug 
-        ? report.filter((p: any) => p.slug === targetSlug)
+    const targetSlugs = targetSlug ? targetSlug.split(',') : [];
+
+    const placesToMigrate = targetSlugs.length > 0
+        ? report.filter((p: any) => targetSlugs.includes(p.slug))
         : report;
 
     console.log(`📍 Cibles identifiées : ${placesToMigrate.length} lieux${targetSlug ? ` [CIBLÉ: ${targetSlug}]` : ''}.`);

@@ -33,6 +33,7 @@ export const la_taverne_de_zhao: SurgicalPlace = {
     }
   },
   pricing: {
+    certification: "gold",
     avg_budget: 15,
     is_free: false,
     last_updated: "2026-03-22",
@@ -41,44 +42,52 @@ export const la_taverne_de_zhao: SurgicalPlace = {
         category: "Les Incontournables (Plats Mo - Sandwiches Xi'an)",
         items: [
           { name: "MO Traditionnel (Porc mijoté)", price: "7.50€", description: "Pain maison croustillant, viande fondante" },
-          { name: "MO - JI (Poulet)", price: "8.50€" },
+          { name: "MO - JI (Poulet)", price: "7.50€" },
           { name: "MO Végé", price: "7.50€", description: "Tofu & légumes" }
         ]
       },
       {
         category: "Pâtes Fraîches (Plats Biang Biang & Handmade)",
         items: [
-          { name: "Pâte Biangbiang Bœuf Braisé", price: "16.50€", description: "Larges nouilles tirées à la main" },
-          { name: "Pâte Biangbiang Tomate & Œuf", price: "14.80€" },
-          { name: "Pâte Biangbiang Mixte (Bœuf & Tomate)", price: "17.00€" },
-          { name: "Nouilles Épinards au Porc Mijoté", price: "15.50€" },
-          { name: "Nouilles Froides Liangpi", price: "12.00€", description: "Idéal en été" }
+          { name: "Pâte Biangbiang Bœuf Braisé", price: "13.80€", description: "Larges nouilles tirées à la main" },
+          { name: "Pâte Biangbiang Porc", price: "13.80€" },
+          { name: "Pâte Biangbiang Tomate & Œuf", price: "12.80€" },
+          { name: "Pâte Biangbiang Mixte (Bœuf & Tomate)", price: "13.80€" },
+          { name: "Pâte Biangbiang Mixte (Porc & Tomate)", price: "13.80€" },
+          { name: "Nouilles Froides Liangpi Classiques", price: "11.80€", description: "Idéal en été" },
+          { name: "Nouilles Froides Liangpi Sauce XO", price: "12.80€" }
         ]
       },
       {
         category: "Raviolis (Plats Artisanaux)",
         items: [
-          { name: "Raviolis Dorés Classiques (10pc)", price: "9.50€" },
-          { name: "Raviolis à la Vapeur (10pc)", price: "8.50€" },
-          { name: "Raviolis Végétariens Dorés", price: "9.50€" },
-          { name: "Xiao Long Bao (4pc)", price: "6.80€" }
+          { name: "Classic Fried Dumplings (6pc)", price: "7.80€" },
+          { name: "Steam Chicken Dumplings (6pc)", price: "7.80€" },
+          { name: "Vegetable Fried Dumplings (6pc)", price: "7.80€" },
+          { name: "Xiao Long Bao (4pc)", price: "8.50€" }
         ]
       },
       {
-        category: "Entrées Froides (Sides)",
+        category: "Entrées Froides (Cold Appetizers)",
         items: [
-          { name: "Platycodon (Racine croquante)", price: "6.80€" },
-          { name: "Salade d'Algues", price: "6.50€" },
-          { name: "Bœuf Pimenté", price: "7.80€" },
-          { name: "Concombre Tapé à l'Ail", price: "6.50€" }
+          { name: "Platycodon (Racine croquante)", price: "7.80€" },
+          { name: "Black Forest (Champignons)", price: "6.80€" },
+          { name: "Salad Kelp (Algues)", price: "6.80€" },
+          { name: "Spicy Beef", price: "7.80€" }
         ]
       },
       {
-        category: "Spécialités (Plats de la Taverne)",
+        category: "Marmites (Plats)",
         items: [
-          { name: "Zhao Fried Chicken", price: "8.50€" },
-          { name: "Riz au Porc Mijoté", price: "13.50€" },
-          { name: "Riz au Calamar Sauté", price: "14.50€" }
+          { name: "Clay Pot Rice Noodles", price: "13.80€" },
+          { name: "Clay Pot Sweet Potato Noodles", price: "13.80€" },
+          { name: "Clay Pot Chinese Udon", price: "13.80€" }
+        ]
+      },
+      {
+        category: "Spécialités & Poulet Sauté",
+        items: [
+          { name: "ZHAO's Fried Chicken", price: "8.50€" }
         ]
       },
       {
@@ -88,29 +97,20 @@ export const la_taverne_de_zhao: SurgicalPlace = {
           { name: "Perles de Coco", price: "6.00€" }
         ]
       },
-      {
-        category: "Boissons Maison",
-        items: [
-          { name: "Sirop de Prune Maison", price: "5.50€" },
-          { name: "Thé au Pamplemousse & Miel", price: "5.50€" },
-          { name: "Bière Chinoise (Tsingtao)", price: "5.00€" },
-          { name: "Thé Chrysanthème", price: "4.50€" }
-        ]
-      }
     ]
   },
   description: "La Taverne de Zhao est une escale vibrante dédiée à la gastronomie de Xi'an. Ici, l'art du Biang Biang (nouilles tirées à la main) et du Mo (pain traditionnel) est élevé au rang de religion. L'ambiance 'taverne' invite au partage dans un décor boisé et authentique, à deux pas de la tour Montparnasse.",
-  insider_tip: "Ne passe pas à côté du MO traditionnel (le sandwich historique de Xi'an) pour accompagner tes nouilles. Si tu aimes les sensations fortes, les Biang Biang bœuf pimenté sont un must absolu. Le lieu ne prend pas de résa, comme son voisin Mr Chow, donc viens tôt !",
+  insider_tip: "• **Timing Stratégique** : Visez le créneau de 12h pour éviter l'affluence des bureaux.\n• **Combo Moelle** : Les Biang Biang Bœuf sont une référence en termes de texture et de goût.\n• **Détail Secret** : Demandez le niveau de piment 'moyen' pour apprécier toute la complexité des épices de Xi'an.",
   specials: {
-    cuisine: ["Xi'an", "Nouilles Biang Biang", "Street Food Chinoise"],
-    drinks: ["Sirop de Prune", "Thés Chinois"],
-    must_eat: "Biang Biang Noodles Bœuf Braisé",
+    cuisine: ["Chinoise", "Xi'an"],
+    drinks: ["Softs", "Thé"],
+    must_eat: "Cuisine chinoise. Biang Biang Noodles Bœuf Braisé",
   },
   images: {
     hero: "AU_ZVEHV_MriBbok-AK-kjlwkJ423Aoj66Y5LHouQQkduEN-I8e2RMN5LqrMKEdDMi_upTXfDBH7DACT-yn_QySATrKCfyjflDTXpHWfdcdfF-hcOewjf6A65xklzvz2FPKFvr_QaiJrCGBrfOvJfskZyugfRGPgDVeqIBEtCZTyxY9Q575cznpflI8UjkdZMa4gD7vKJCKPCgcDQ-AgeVEzqQQhYm3EmTLHH5zECJfp3cxn5BtepBNiT1ZOGFSH3TfrGLXYroTsohbYAYvSTWc3IbyVVf4peC5iL2qykaGEmgQ",
     gallery: [
       "AU_ZVEEzHCpcBa4xqeHkvmMHojElXhvQys_HqDl-qHHjuYYxoC0nY8y0WZqA2Zj9J0APa7eUKftCKt1yuQc42j0PJwkqyy1vpg3tcBC-KKXP91R0C8AsLzMLLvBNZ3VGyhRiOH_knwkLSRyecqfJa3iML81mVIv_mwK8VTJNnyBCVLV-VivsIy-YGRE-D3qgMYl67E6aC5s-VUMulORTV1ykARvC3yZ1DPNTfVIpYKongOkB5PJ5DoJfd9othdF7DfFZ6H7NIYHhgSteKNOwD7TBRqakQi9PETvLy-Y_d3gwuvc",
-      "AU_ZVEEBjoRzMYQGowL9vpTrDVvmYdA2ZCpiagKPSlBqA_zExe3kA6HaoXfp4xfQwgTlVNmhuiKedxqFvgiWMuM9K7Xdubd9hje1uaBhIweJnOHnM1UuaI6oTDgbXkrsizK4-Rxy2HQvHgZvqQdFBofRXrDBcplqDCpRjNmmDGrROBX2Thadmzy4aPdJxn-6j8MMbrnmTc8qZONqCuOt65vy73B--yq3gmVBaqmKDQe1ln-_09MSr7dRTU-1zPJjnUOBrYuL6_RsHLOt3Djm_kY81uz83Thirb5rYTereVWtHeo4esJTgtMsyc2BlDbjiEVFu3hyVfN21Qwd4ROIOMHstK1al16H79Ir8gnOve-36TZ0th_7nkzY-CzBYzDvoK7RWub-RfvSLZUGERlhiBCs_kTKA5rpWq77DmgO7GtTdHK7MMCaYra816kpUuGSQcOj"
+      "AU_ZVEEBjoRzMYQGowL9vpTrDVvmYdA2ZCpiagKPSlBqA_zExe3kA6HaoXfp4xfQwgTlVNmhuiKedxqFvgiWMuM9K7Xdubd9hje1uaBhIweJnOHnM1UuaI6oTDgbXkrsizK4-Rxy2HQvHgZvqQdFBofRXrDBcplqDCpRjNmmDGrROBX2Thadmzy4aPdJxn-6j8MMbrnmTc8qZONqCuOt65vy73B--yq3gmVBaqmKDQe1ln-_09MSr7dRTU-1zPJjnUOBrYuL6_RsHLOt3Djm_kY81uz83Thirb5rYTereVWtHeo4esJTgtMsyc2BlDbjiEVFu3hyVfN21Qwd3ROIOMHstK1al16H79Ir8gnOve-36TZ0th_7nkzY-CzBYzDvoK7RWub-RfvSLZUGERlhiBCs_kTKA5rpWq77DmgO7GtTdHK7MMCaYra816kpUuGSQcOj"
     ]
   },
   verified: true,

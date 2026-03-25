@@ -53,7 +53,7 @@ export const monsieurBleu: SurgicalPlace = {
                 ]
             },
             {
-                category: "Les Plats de Résistance (Plats Principaux)",
+                category: "Les Les Plats (Plats Principaux)",
                 items: [
                     { name: "Tartare de bœuf tradition, frites", price: "36.00€" },
                     { name: "Cabillaud rôti, purée de pommes de terre", price: "42.00€" },

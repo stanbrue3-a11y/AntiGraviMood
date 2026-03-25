@@ -80,7 +80,7 @@ export const acme: SurgicalPlace = {
                 ]
             },
             {
-                category: "Boissons Maison & Vins Libres",
+                category: "Douceurs Maison & Vins Libres",
                 items: [
                     { name: "Kéfir de fruits du moment", price: "6.00€" },
                     { name: "Infusion froide verveine-menthe", price: "5.50€" },

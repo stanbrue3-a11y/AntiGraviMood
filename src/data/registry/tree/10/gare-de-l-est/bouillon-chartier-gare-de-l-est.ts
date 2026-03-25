@@ -80,7 +80,7 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   specials: {
     cuisine: ["Française", "Bouillon", "Populaire"],
     drinks: ["Bouillon Rouge", "Café"],
-    must_eat: "Œufs Mayonnaise & Choucroute alsacienne",
+    must_eat: "Cuisine française. Œufs Mayonnaise & Choucroute alsacienne",
   },
   images: {
     hero: "AU_ZVEFgb3FP-1l9dJLqkB7K6VRed_N2iVVyoLYynk4fu9Neg3_AQOh2Qcx-tXFG7qhYQ_XwLUO-8DmyqOX5VIKenNXHUdyYCrkXFYhREjOwRWEVdEKZJdBGAxzhHNUFm35fgo61fXRhpRapWZL3e43tR5yp6wvCmNnG1dsKg889gs0NRwwePmYZ49WYQhY5-7Ldwc1MjKyIWwgo2bvxmUnqPsfyNFV-s95TlzY0WTQ1lMNiTmnm92ANhbff9Qd2bGR3WSrSjjZNQJhA3lqSCF7cNUYnYxo3mRkZTEOcrZ0ZIMt92w",

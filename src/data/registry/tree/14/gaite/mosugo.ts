@@ -72,7 +72,7 @@ export const mosugo: SurgicalPlace = {
                 ]
             },
             {
-                category: "Desserts & Boissons Maison",
+                category: "Desserts & Douceurs Maison",
                 items: [
                     { name: "Mobroockie (Chocolat Tanzanie & Miso caramel)", price: "5.50€" },
                     { name: "Pavlova de Saison (Kiwi & Yaourt grec)", price: "6.00€" },

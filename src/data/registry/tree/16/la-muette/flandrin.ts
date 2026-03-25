@@ -60,7 +60,7 @@ export const flandrin = {
                 ]
             },
             {
-                category: "Les Plats de Résistance (Classiques parisiens)",
+                category: "Les Les Plats (Classiques parisiens)",
                 items: [
                     { name: "Le fameux Tartare de Bœuf Flandrin, frites", price: "38.00€" },
                     { name: "Sole Meunière ou Grillée (500g)", price: "62.00€" },

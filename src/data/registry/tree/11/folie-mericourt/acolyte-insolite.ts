@@ -62,7 +62,7 @@ export const acolyte_insolite: SurgicalPlace = {
                 ]
             },
             {
-                category: "Les Plats de Résistance (Hybrides)",
+                category: "Les Les Plats (Hybrides)",
                 items: [
                     { name: "Pizza Fusion", price: "14.00€" },
                     { name: "Udon au poulet, touches japonaises", price: "15.00€" },

@@ -40,7 +40,7 @@ export const ordonnance: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de Résistance",
+                category: "Les Les Plats",
                 items: [
                     { name: "Dos de Cabillaud de Ligne, Risotto au Safran", price: "26.00€" },
                     { name: "Pseudo-Bourguignon de Joue de Boeuf Confite", price: "24.00€" },

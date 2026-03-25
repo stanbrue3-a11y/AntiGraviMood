@@ -60,7 +60,7 @@ export const zhao_grands_boulevards: SurgicalPlace = {
         ]
       },
       {
-        category: "Plats de Résistance (Biang Biang)",
+        category: "Les Plats (Biang Biang)",
         items: [
           { name: "Biang Biang au Bœuf mijoté", price: "12.80€", description: "Nouilles larges maison, épices" },
           { name: "Biang Biang au Porc haché", price: "11.50€" },
@@ -70,14 +70,10 @@ export const zhao_grands_boulevards: SurgicalPlace = {
         ]
       },
       {
-        category: "Desserts & Boissons Maison",
+        category: "Desserts & Douceurs Maison",
         items: [
           { name: "Mochi glacé (2)", price: "4.50€" },
           { name: "Perles de coco", price: "4.80€" },
-          { name: "Thé glacé maison au Jasmin", price: "4.00€" },
-          { name: "Bière Tsingtao (33cl)", price: "4.50€" },
-          { name: "Soda", price: "3.50€" },
-          { name: "Eau minérale", price: "3.00€" }
         ]
       }
     ]
@@ -86,7 +82,6 @@ export const zhao_grands_boulevards: SurgicalPlace = {
   insider_tip: "• Arrivée conseillée dès 12h pour éviter le rush des bureaux alentours qui s'y pressent chaque midi.\n• Le service est ultra-rapide, idéal pour un repas de haute qualité chrono en main.\n• Ne repartez pas sans avoir goûté les Oreilles de porc pimentées, un délice croquant typique de Xi'an.",
   specials: {
     cuisine: ["Chinoise", "Xi'an", "Nouilles"],
-    drinks: ["Thé glacé maison", "Bière Tsingtao"],
     must_eat: "Cuisine chinoise. Biang Biang Poulet & Mo Bœuf",
   },
   images: {

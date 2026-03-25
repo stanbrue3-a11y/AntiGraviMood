@@ -48,8 +48,10 @@ const REPORT_PATH = path.join(__dirname, '../../temp_screenshots/shadow_sync_rep
  */
 
 async function runShadowSync() {
-    const placesToProcess = targetSlug 
-        ? allPlaces.filter(p => p.slug === targetSlug)
+    const targetSlugs = targetSlug ? targetSlug.split(',') : [];
+    
+    const placesToProcess = targetSlugs.length > 0 
+        ? allPlaces.filter(p => targetSlugs.includes(p.slug))
         : allPlaces;
 
     console.log('🛰️  SHADOW SYNC: Simulation de migration Supabase');

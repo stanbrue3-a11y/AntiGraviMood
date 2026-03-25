@@ -60,7 +60,7 @@ export const forest = {
                 ]
             },
             {
-                category: "Les Plats de Résistance",
+                category: "Les Les Plats",
                 items: [
                     { name: "Arayes d'agneau (Pita farcie grillée)", price: "26.00€" },
                     { name: "Kebab de poisson aux épices douces", price: "32.00€" },

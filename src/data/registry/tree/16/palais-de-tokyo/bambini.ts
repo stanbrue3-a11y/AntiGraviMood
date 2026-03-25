@@ -60,7 +60,7 @@ export const bambini = {
                 ]
             },
             {
-                category: "Les Plats de Résistance (Pizzas & Pâtes)",
+                category: "Les Les Plats (Pizzas & Pâtes)",
                 items: [
                     { name: "Pizza Margherita DOP", price: "16.00€" },
                     { name: "Pizza Tartufo (Crème de truffe, mozza)", price: "32.00€" },

@@ -16,9 +16,9 @@ export const zhao_opera: SurgicalPlace = {
     google_id: "ChIJ33wI4iNv5kcRSUFFfd3qLeA"
   },
   moods: {
-    chill: 50,
-    festif: 50,
-    culturel: 60
+    chill: 60,
+    festif: 40,
+    culturel: 50
   },
   practical: {
     opening_hours_raw: "lundi: 11:30 – 22:30 | mardi: 11:30 – 22:30 | mercredi: 11:30 – 22:30 | jeudi: 11:30 – 22:30 | vendredi: 11:30 – 23:00 | samedi: 11:30 – 23:00 | dimanche: 11:30 – 23:00",
@@ -60,7 +60,7 @@ export const zhao_opera: SurgicalPlace = {
         ]
       },
       {
-        category: "Plats de Résistance (Biang Biang)",
+        category: "Les Plats (Biang Biang)",
         items: [
           { name: "Biang Biang au Bœuf mijoté", price: "12.80€", description: "Nouilles larges maison, épices" },
           { name: "Biang Biang au Porc haché", price: "11.50€" },
@@ -70,14 +70,10 @@ export const zhao_opera: SurgicalPlace = {
         ]
       },
       {
-        category: "Desserts & Boissons Maison",
+        category: "Desserts & Douceurs Maison",
         items: [
           { name: "Mochi glacé (2)", price: "4.50€" },
           { name: "Perles de coco", price: "4.80€" },
-          { name: "Thé glacé maison au Jasmin", price: "4.00€" },
-          { name: "Bière Tsingtao (33cl)", price: "4.50€" },
-          { name: "Soda", price: "3.50€" },
-          { name: "Eau minérale", price: "3.00€" }
         ]
       }
     ]
@@ -86,7 +82,6 @@ export const zhao_opera: SurgicalPlace = {
   insider_tip: "• C'est l'adresse la plus 'chic' de la famille : idéale si vous voulez faire découvrir les saveurs de Xi'an dans un cadre soigné.\n• Les raviolis y sont particulièrement bien exécutés, ne passez pas à côté de la version Poulet & Champignon.\n• Si vous venez à deux, partagez un Mo et un plat de nouilles pour goûter à tout sans exploser votre budget.",
   specials: {
     cuisine: ["Chinoise", "Xi'an", "Nouilles"],
-    drinks: ["Thé glacé maison", "Bière Tsingtao"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
   images: {

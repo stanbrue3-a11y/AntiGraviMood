@@ -54,7 +54,7 @@ export const dersou: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance",
+                category: "Les Plats",
                 items: [
                     { name: "Filet de Lotte à la grenobloise", price: "33.00€", description: "Chanterelles jaunes et beurre noisette." },
                     { name: "Turbot au BBQ, bok choy, sauce matelote", price: "38.00€" },

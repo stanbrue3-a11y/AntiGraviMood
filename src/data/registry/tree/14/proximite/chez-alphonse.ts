@@ -47,7 +47,7 @@ export const chez_alphonse: SurgicalPlace = {
                 ]
             },
             {
-                "category": "Plats de Résistance",
+                "category": "Les Plats",
                 "items": [
                     { "name": "Cuisse de canard confite, écrasé de PDT", "price": "19€", "description": "La spécialité maison, fondante à souhait." },
                     { "name": "Araignée de boeuf, sauce poivre vert", "price": "26€" },

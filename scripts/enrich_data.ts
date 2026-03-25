@@ -58,7 +58,7 @@ const UI_CATEGORIES: Record<UnitType, string> = {
   STARTER: 'Pour Commencer / À Partager',
   MAIN: 'Les Plats',
   DESSERT: 'Douceurs',
-  DRINK: 'La Cave & Boissons',
+  DRINK: 'La Cave / Boissons',
   MENU: 'Formules & Expériences',
   TAPAS: 'Assiettes à Partager',
   UNKNOWN: 'La Carte'
@@ -124,9 +124,11 @@ scanDirectory(REGISTRY_ROOT);
 async function enrich() {
     console.log(`🚀 DÉPLOIEMENT LOGIC V8.7 (UNITÉ DE SATIÉTÉ ABSOLUE${targetSlug ? ` - CIBLÉ: ${targetSlug}` : ''})...`);
     
+    const targetSlugs = targetSlug ? targetSlug.split(',') : [];
+    
     let query = supabase.from('places').select('*');
-    if (targetSlug) {
-        query = query.eq('slug', targetSlug);
+    if (targetSlugs.length > 0) {
+        query = query.in('slug', targetSlugs);
     }
     
     const { data: dbPlaces, error } = await query;

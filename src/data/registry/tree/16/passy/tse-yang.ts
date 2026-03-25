@@ -65,7 +65,7 @@ export const tseYang = {
                 ]
             },
             {
-                category: "Poissons, Viandes & Plats de Résistance",
+                category: "Poissons, Viandes & Les Plats",
                 items: [
                     { name: "Bœuf sauté au poivre noir sur plaque chauffante", price: "55.00€" },
                     { name: "Crevettes impériales sautées sauce aigre-douce", price: "52.00€" },

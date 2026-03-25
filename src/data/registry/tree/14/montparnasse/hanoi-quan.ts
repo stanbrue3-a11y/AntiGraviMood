@@ -48,7 +48,7 @@ export const hanoi_quan: SurgicalPlace = {
         ]
       },
       {
-        category: "Plats de Résistance (Món Chính)",
+        category: "Les Plats (Món Chính)",
         items: [
           { name: "Phở Bœuf Ha Noi", price: "13.50€", description: "Bouillon mijoté 12h, herbes" },
           { name: "Phở Poulet", price: "12.80€" },
@@ -63,14 +63,11 @@ export const hanoi_quan: SurgicalPlace = {
         ]
       },
       {
-        category: "Boissons & Douceurs",
+        category: "Desserts",
         items: [
-          { name: "Bubble Tea Mangue", price: "5.90€", description: "Perles de tapioca" },
-          { name: "Bubble Tea Lychee", price: "5.90€" },
-          { name: "Bubble Tea Passion", price: "5.90€" },
-          { name: "Bière Singha (33cl)", price: "5.50€" },
-          { name: "Thé Glacé Maison", price: "4.50€" },
-          { name: "Eau Minérale (50cl)", price: "2.50€" }
+          { name: "Litchis au sirop", price: "5.50€" },
+          { name: "Boules Coco (x2)", price: "5.00€", description: "Cœur haricot mungo" },
+          { name: "Perles du Japon au lait de coco", price: "6.00€" }
         ]
       }
     ]

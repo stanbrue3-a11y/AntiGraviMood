@@ -65,7 +65,7 @@ export const bistrotPaulBert: SurgicalPlace = {
                 ]
             },
             {
-                category: "Les Plats de Résistance (Authentique)",
+                category: "Les Les Plats (Authentique)",
                 items: [
                     { name: "Filet de bœuf au poivre de Sarawak & frites maison", price: "44.00€", description: "Le plat signature mythique, cuisson saignante vivement conseillée." },
                     { name: "Tartare de bœuf au couteau & frites", price: "28.00€", description: "Assaisonnement classique, viande sourcée d'exception." },

@@ -50,7 +50,7 @@ export const le_rempart_bastille: SurgicalPlace = {
         ]
       },
       {
-        category: "Les Plats de Résistance",
+        category: "Les Les Plats",
         items: [
           { name: "Tartare de bœuf tradition frites maison", price: "17.50€" },
           { name: "Burger du Rempart (Cheddar, oignons confits)", price: "18.50€" },
@@ -80,7 +80,7 @@ export const le_rempart_bastille: SurgicalPlace = {
   specials: {
     cuisine: ["Française", "Brasserie", "Bastille"],
     drinks: ["Cocktails classiques", "Vin au verre"],
-    must_eat: "L'Os à moelle & Le Burger du Rempart",
+    must_eat: "Cuisine française. L'Os à moelle & Le Burger du Rempart",
   },
   images: {
     hero: "AU_ZVEGS0jMDJS6mrf1ESCiqOMCfXMmtF68f8yFwQHVqSMq0ihNogEqoM8b4tRPFL3OB2tgcK10q1hTC-gBHw6xxUUIA-Wi3LsWjykUoPT36ruVfQD6FwaAaJVk37JVciz6Sh4Cy_fw6uILx3uwyudS4Iee-cmJGYDe3IRDhz9ZQcZaija7sQdY4pzEF6-QKxckO1oY9NIV1SPhFvTAviSCTzwYv4qQU-YDar_26oJoVzMrq5FERPIxNTbpWBgf1Squpmv5fmFA77uuVDUzSYjn2erqjL2tlSPELzPN4kDABbnmf8Q",

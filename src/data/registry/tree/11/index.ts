@@ -124,6 +124,10 @@ import { atelier_saisonnier } from './charonne/atelier-saisonnier';
 import { gourou } from './voltaire/gourou';
 import { auberge_pyrenees_cevennes } from './folie-mericourt/auberge-pyrenees-cevennes';
 
+// --- AUTO-GENERATED MOELLE (75011) ---
+import { sababa_le_gout_de_la_paix } from './auto/sababa-le-gout-de-la-paix';
+import { zhao_bastille } from './auto/zhao-bastille';
+
 export const arrondissement_11Places = [
     caf_oberkampf,
     cafe_industrie,
@@ -250,4 +254,7 @@ export const arrondissement_11Places = [
     atelier_saisonnier,
     gourou,
     auberge_pyrenees_cevennes,
+    // --- AUTO-GENERATED MOELLE ---
+    sababa_le_gout_de_la_paix,
+    zhao_bastille
 ];

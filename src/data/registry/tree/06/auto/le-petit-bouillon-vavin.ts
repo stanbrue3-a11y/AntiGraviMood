@@ -30,7 +30,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
     main_action: {
       type: "site",
       url: "https://petitbouillonvavin.fr/",
-      label: "VOIR LA CARTE"
+      label: "DÉCOUVRIR"
     }
   },
   pricing: {
@@ -39,7 +39,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées du Bouillon",
+        category: "Les Entrées",
         items: [
           { name: "Œuf mayonnaise", price: "2.30€", description: "Le champion du monde" },
           { name: "Os à moelle grillé, fleur de sel", price: "4.60€", description: "Servi avec ses toasts" },
@@ -50,7 +50,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
         ]
       },
       {
-        category: "Les Plats de Résistance",
+        category: "Les Plats",
         items: [
           { name: "Bœuf bourguignon aux pommes vapeur", price: "14.90€", description: "Mijoté avec amour" },
           { name: "Saucisse au couteau Purée", price: "9.20€", description: "Jus de viande lié" },
@@ -61,7 +61,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category: "La Cave / Boissons",
         items: [
           { name: "Kir", price: "2.80€", description: "Cassis, Mûre ou Pêche" },
           { name: "Beaujolais Rouge (Bouteille)", price: "35.00€" },
@@ -85,7 +85,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
   specials: {
     cuisine: ["Française", "Bouillon", "Traditionnelle"],
     drinks: ["Vin de table", "Kir", "Café"],
-    must_eat: "Bœuf Bourguignon & Œuf Mayo",
+    must_eat: "Cuisine française. Bœuf Bourguignon & Œuf Mayo",
   },
   images: {
     hero: "AU_ZVEHWQ-1KSeGl4RTzEROvX0vyo_vHiBNiY7tWq5i9Zr9yWVTORp5e5MFrIbPuQm2_zF1EsiLA4pwqq-chvononqKPq4W-7rbkg3bJCLLrVlNiPB4Zruscn5tscERrx8l-kTbuUisXAvphcTbBHE6TNBOT5ko5ymLjhjGdY4FSXWsCG7FzXpspLuXVl7h50NFpK0MwptqDCRHrCRLgwBouWEgk60zyeQ0GU1J-bY1cdZlaNhdjeb0yopsVTWai27pDuHnc4Z05GCWTRhVZYGmVyLwiPLoO8hKeE8zSIceUhMM",

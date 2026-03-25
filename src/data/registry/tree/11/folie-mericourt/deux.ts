@@ -71,7 +71,7 @@ export const deux: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance",
+                category: "Les Plats",
                 items: [
                     { name: "Gnocchis poêlés & crème de Vacherin", price: "24.00€" },
                     { name: "Poisson du moment (arrivage)", price: "27.00€" },

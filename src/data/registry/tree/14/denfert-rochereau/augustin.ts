@@ -54,7 +54,7 @@ export const augustin: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance (Bistronomie du Chef)",
+                category: "Les Plats (Bistronomie du Chef)",
                 items: [
                     { name: "Côte de Cochon du Cantal, purée à la truffe noire", price: "32.00€", description: "Le plat emblématique du bistrot." },
                     { name: "Filet de bar rôti à la plancha, légumes oubliés", price: "24.00€" },

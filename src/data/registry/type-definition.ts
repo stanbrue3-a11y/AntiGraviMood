@@ -103,11 +103,12 @@ export interface Pricing {
     // Full menu (Strictly factual)
     menu_items?: {
         category: string;
-        items: { name: string; price: string; description?: string }[];
+        items: { name: string; price: string; description?: string; highlight?: boolean }[];
     }[];
     smart_tip?: string;
 
-    // Reliability Metadata
+    // Reliability Metadata 🛡️
+    certification?: 'gold' | 'silver' | 'bronze'; // Gold: Photo (<6m), Silver: Web/Delivery, Bronze: Estimated
     verified_at?: string;    // ISO Date "YYYY-MM-DD"
     last_updated?: string;   // ISO Date (Internal pipeline)
 }

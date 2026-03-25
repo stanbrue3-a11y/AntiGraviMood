@@ -57,7 +57,7 @@ export const kaiIzakaya: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance (Donburi & Udon)",
+                category: "Les Plats (Donburi & Udon)",
                 items: [
                     { name: "Udon Carbonara", price: "14.90€", description: "La fusion culte de la maison." },
                     { name: "Udon Satay Coco", price: "14.90€" },

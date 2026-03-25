@@ -66,7 +66,7 @@ export const auberge_pyrenees_cevennes: SurgicalPlace = {
                 ]
             },
             {
-                category: "Plats de Résistance (Signatures)",
+                category: "Les Plats (Signatures)",
                 items: [
                     { name: "Cassoulet de l'Auberge", price: "37.00€", description: "Mijoté des heures, le plat culte de la maison." },
                     { name: "Blanquette de Veau à l'ancienne, Riz Basmati", price: "32.00€" },

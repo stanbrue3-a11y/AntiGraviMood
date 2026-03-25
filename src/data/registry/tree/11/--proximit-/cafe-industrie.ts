@@ -66,7 +66,7 @@ export const cafe_industrie: SurgicalPlace = {
                 ]
             },
             {
-                "category": "Plats de Résistance",
+                "category": "Les Plats",
                 "items": [
                     { "name": "Onglet de bœuf grillé aux échalotes", "price": "19.00€" },
                     { "name": "Filet de bœuf, sauce au poivre noir", "price": "26.00€" },

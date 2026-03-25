@@ -60,7 +60,7 @@ export const zhao_st_germain: SurgicalPlace = {
         ]
       },
       {
-        category: "Plats de Résistance (Biang Biang)",
+        category: "Les Plats (Biang Biang)",
         items: [
           { name: "Biang Biang au Bœuf mijoté", price: "12.80€", description: "Nouilles larges maison, épices" },
           { name: "Biang Biang au Porc haché", price: "11.50€" },
@@ -70,14 +70,10 @@ export const zhao_st_germain: SurgicalPlace = {
         ]
       },
       {
-        category: "Desserts & Boissons Maison",
+        category: "Desserts & Douceurs Maison",
         items: [
           { name: "Mochi glacé (2)", price: "4.50€" },
           { name: "Perles de coco", price: "4.80€" },
-          { name: "Thé glacé maison au Jasmin", price: "4.00€" },
-          { name: "Bière Tsingtao (33cl)", price: "4.50€" },
-          { name: "Soda", price: "3.50€" },
-          { name: "Eau minérale", price: "3.00€" }
         ]
       }
     ]
@@ -86,7 +82,6 @@ export const zhao_st_germain: SurgicalPlace = {
   insider_tip: "• C'est l'adresse la plus 'cosy' de la Rive Gauche : idéale pour faire découvrir la cuisine chinoise authentique dans un cadre soigné.\n• Leur thé au jasmin est servi dans de jolies théières traditionnelles, parfait pour accompagner la puissance des épices.\n• Ne ratez pas l'assiette de raviolis dégustation pour goûter aux trois farces différentes faites maison.",
   specials: {
     cuisine: ["Chinoise", "Xi'an", "Nouilles"],
-    drinks: ["Thé glacé maison", "Bière Tsingtao"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
   images: {
