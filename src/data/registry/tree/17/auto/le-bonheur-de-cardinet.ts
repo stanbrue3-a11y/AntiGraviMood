@@ -43,14 +43,14 @@ export const le_bonheur_de_cardinet: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: "• **Timing Stratégique** : TODO
+  description: `TODO: Description riche (3 phrases minimum).`,
+  insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO",
+  • **Expérience Culturelle** : TODO`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: `Cuisine [Type]. TODO`,
   },
   images: {
     hero: "AU_ZVEE1yukTx1CTsMh8bosq1SD0k9mjN4cA27cShbqi9uf3K5OGU6NIgBVPO1rvQVQfGCUvKzcNLgw4bfWD6Ck8UiUcqWZypAZEPyqGmXcGSgrAR6dSmToE4or0rxXeGtzNP9s66YOtD5p9i7wZQTtS9WcVR-1d7Z20OEXALBRymHJgucZ5YiU5D6qtrNOTdsM_KB6nXmJtgj0oOCM2RkccC6YLwQC_V4SHqv0gKFX7uZK0qGJu4a0RF7D9SG_wj_jCM6MsRNfcDsOGyxBxIKWJwPtSxN_ePYhvBdqBAjz2l8vPEg",

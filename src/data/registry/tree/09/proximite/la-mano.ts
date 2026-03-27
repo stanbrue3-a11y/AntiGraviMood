@@ -43,10 +43,10 @@ export const la_mano: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: "• **Timing Stratégique** : TODO
+  description: `TODO: Description riche (3 phrases minimum).`,
+  insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO",
+  • **Expérience Culturelle** : TODO`,
   specials: {
     cuisine: [],
     drinks: [],

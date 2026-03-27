@@ -200,8 +200,14 @@ let errorCount = 0;
 let sqlOutput = SCHEMA_SQL + '\n-- DATA INJECTION --\n';
 
 allPlaces.forEach((p, index) => {
-  const medianDishPrice = calculateMedianDishPrice(p.pricing.menu_items);
-  const finalDishPrice = p.pricing.force_manual_dish_price ? p.pricing.dish_price : (medianDishPrice ?? p.pricing.dish_price);
+  if (!p) {
+    console.error(`❌ [Critical Error] Place at index ${index} is undefined!`);
+    if (index > 0) console.error(`   - Previous place was: ${allPlaces[index-1]?.name} (${allPlaces[index-1]?.slug})`);
+    errorCount++;
+    return;
+  }
+  const medianDishPrice = calculateMedianDishPrice(p.pricing?.menu_items);
+  const finalDishPrice = p.pricing?.force_manual_dish_price ? p.pricing.dish_price : (medianDishPrice ?? p.pricing?.dish_price);
   const effectivePricing = { ...p.pricing, dish_price: finalDishPrice };
 
   const result = SurgicalPlaceSchema.safeParse(p);
@@ -267,7 +273,17 @@ allPlaces.forEach((p, index) => {
     valueOrNull(p.michelin_stars)
   ];
 
-  sqlOutput += `INSERT INTO places VALUES (${values.join(', ')});\n`;
+  const columns = [
+    'id', 'name', 'slug', 'category', 'subcategory', 'dominant_mood', 'lat', 'lng', 'arrondissement', 'address',
+    'main_color', 'map_icon', 'verified', 'rating', 'user_ratings_total', 'hero_image', 'instagram_handle',
+    'budget_avg', 'is_free', 'budget_unit', 'pint_price', 'cocktail_price', 'wine_glass', 'coffee_price',
+    'main_dish_price', 'category_percentile', 'mood_scores_json', 'social_json', 'categories_json',
+    'hours_json', 'editorial_json', 'pricing_json', 'media_json', 'google_photos_json', 'ai_insights_json',
+    'real_talk_json', 'description', 'insider_tip', 'nearest_metro', 'metro_line_json', 'vibes_json',
+    'google_id', 'michelin_stars'
+  ];
+
+  sqlOutput += `INSERT INTO places (${columns.join(', ')}) VALUES (${values.join(', ')});\n`;
   sqlOutput += `INSERT INTO places_fts VALUES (${[valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.category), valueOrNull(p.subcategory.join(' ')), valueOrNull(p.location.address), valueOrNull(''), valueOrNull(p.description)].join(', ')});\n`;
 });
 

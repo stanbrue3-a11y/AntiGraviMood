@@ -1,3 +1,4 @@
+import { parc_monceau } from './monceau/parc-monceau';
 import { buddy_buddy_paris } from './proximite/buddy-buddy-paris';
 import { carette_ternes } from './proximite/carette-ternes';
 import { hotel_de_la_marine } from './proximite/hotel-de-la-marine';
@@ -8,9 +9,9 @@ import { musee_jacquemart_andre } from './proximite/musee-jacquemart-andre';
 import { musee_nissim_camondo } from './proximite/musee-nissim-camondo';
 import { petit_palais } from './proximite/petit-palais';
 import { raspoutine_paris } from './proximite/raspoutine-paris';
-import { parc_monceau } from './monceau/parc-monceau';
 
 export const arrondissement_8Places = [
+    parc_monceau,
     buddy_buddy_paris,
     carette_ternes,
     hotel_de_la_marine,
@@ -20,6 +21,5 @@ export const arrondissement_8Places = [
     musee_jacquemart_andre,
     musee_nissim_camondo,
     petit_palais,
-    raspoutine_paris,
-    parc_monceau
+    raspoutine_paris
 ];

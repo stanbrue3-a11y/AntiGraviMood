@@ -43,14 +43,14 @@ export const benjamin_schmitt_restaurant: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: "• **Timing Stratégique** : TODO
+  description: `TODO: Description riche (3 phrases minimum).`,
+  insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO",
+  • **Expérience Culturelle** : TODO`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: `Cuisine [Type]. TODO`,
   },
   images: {
     hero: "AU_ZVEHgHlXWBeHThwyxNnSokp--YEkpUalbfkFIU3ZG2C3_sui6x2O9wTZmbaAVu7qgl9c_p4_iSX4e_0_haA1_onMzR8JoVHMQrG0Y_wpXA6jRRAbCtkSWzWVhUEnJU0H2Vj1AxtIf_N4WSzcgZHRHKutLoP5hD5Q5FhmR2HxRoVB62ZLbaWweO1mgRGC_vaBamRu6FbZNnkUBpbaQfUz7LiPsBiQL8Xa0xDx0IgIlza90wovNpXZDai_-l8m7gzwBvaCsfNdGUf-SUnLZ7eSfBleOdVS47FCsin3PWwZ11PrBlw",

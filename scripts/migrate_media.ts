@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 import { createClient } from '@supabase/supabase-js';
+import { Buffer } from 'buffer';
 
 // CRITICAL: dotenv MUST load before any logic.
 require('dotenv').config({ path: path.join(__dirname, '../.env') });

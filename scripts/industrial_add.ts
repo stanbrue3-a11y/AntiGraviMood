@@ -185,8 +185,8 @@ export const ${slug.replace(/-/g, '_')}: SurgicalPlace = {
     verified_at: "${new Date().toISOString().split('T')[0]}",
     menu_items: ${menuItems}
   },
-  description: "${description}",
-  insider_tip: "${tip}",
+  description: \`${description}\`,
+  insider_tip: \`${tip}\`,
   specials: ${specials.endsWith(',') ? specials.slice(0, -1) : specials},
   images: {
     hero: "${hero}",

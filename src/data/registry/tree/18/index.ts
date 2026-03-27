@@ -1,17 +1,9 @@
-import { halle_saint_pierre } from './proximite/halle-saint-pierre';
-import { la_station } from './proximite/la-station';
-import { musee_de_montmartre } from './proximite/musee-de-montmartre';
-import { pizza_del_mondo } from './proximite/pizza-del-mondo';
 import { la_rughetta } from './abbesses/la-rughetta';
-import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
-import { la_marmite } from './pigalle/la-marmite';
-import { maison_pinsa_montmartre } from './pigalle/maison-pinsa-montmartre';
-
-// --- AUTO-GENERATED MOELLE (75018) ---
 import { bon_jo } from './auto/bon-jo';
 import { bouillon_pigalle } from './auto/bouillon-pigalle';
 import { brasserie_barbes } from './auto/brasserie-barbes';
 import { chantoiseau } from './auto/chantoiseau';
+import { l_arcane } from './auto/l-arcane';
 import { l_ete_en_pente_douce } from './auto/l-ete-en-pente-douce';
 import { la_boite_aux_lettres } from './auto/la-boite-aux-lettres';
 import { la_mascotte_montmartre } from './auto/la-mascotte-montmartre';
@@ -23,23 +15,24 @@ import { le_vieux_chalet } from './auto/le-vieux-chalet';
 import { le_vrai_paris } from './auto/le-vrai-paris';
 import { popine_sacre_coeur } from './auto/popine-sacre-coeur';
 import { sacree_fleur_montmartre } from './auto/sacree-fleur-montmartre';
-import { l_arcane } from './auto/l-arcane';
+import { sacree_fleur } from './clignancourt/sacree-fleur';
 import { le_maquis } from './cloys/le-maquis';
+import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
+import { bulot_bulot } from './martyrs/bulot-bulot';
+import { la_marmite } from './pigalle/la-marmite';
+import { maison_pinsa_montmartre } from './pigalle/maison-pinsa-montmartre';
+import { halle_saint_pierre } from './proximite/halle-saint-pierre';
+import { la_station } from './proximite/la-station';
+import { musee_de_montmartre } from './proximite/musee-de-montmartre';
+import { pizza_del_mondo } from './proximite/pizza-del-mondo';
 
 export const arrondissement_18Places = [
-    halle_saint_pierre,
-    la_station,
-    musee_de_montmartre,
-    pizza_del_mondo,
     la_rughetta,
-    cafe_lomi,
-    la_marmite,
-    maison_pinsa_montmartre,
-    // --- AUTO-GENERATED MOELLE ---
     bon_jo,
     bouillon_pigalle,
     brasserie_barbes,
     chantoiseau,
+    l_arcane,
     l_ete_en_pente_douce,
     la_boite_aux_lettres,
     la_mascotte_montmartre,
@@ -51,6 +44,14 @@ export const arrondissement_18Places = [
     le_vrai_paris,
     popine_sacre_coeur,
     sacree_fleur_montmartre,
-    l_arcane,
-    le_maquis
+    sacree_fleur,
+    le_maquis,
+    cafe_lomi,
+    bulot_bulot,
+    la_marmite,
+    maison_pinsa_montmartre,
+    halle_saint_pierre,
+    la_station,
+    musee_de_montmartre,
+    pizza_del_mondo
 ];

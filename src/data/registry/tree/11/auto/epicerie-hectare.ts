@@ -43,14 +43,14 @@ export const epicerie_hectare: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: "• **Timing Stratégique** : TODO
+  description: `TODO: Description riche (3 phrases minimum).`,
+  insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO",
+  • **Expérience Culturelle** : TODO`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: `Cuisine [Type]. TODO`,
   },
   images: {
     hero: "AU_ZVEEsoVWtEKw51PXAWJ8F1vrue-Hb5Tlj_4pWW2v8tsV0IsdpD0gmayc8Z3vmIDG7jCqIMjF53hAoJ3hdAvmbNQBUc5rvsXeBz-0K-4DMLzS_u5BpomsKTw3NdmW0g7eoWA6W33gCdjyoH3oZUPyxverDWDyAfC4Ts6kltJCUdq7LYjHtSfXWa8fu8TSgkwydtBDiR1BFjotJZbsP76Ta3dmIorS8FsYBGvaHq22VwQ9XTOlCYj1cvEqM9meQBkEbarTw1ZfFZBZbhE1NKbwzEZC58WPz-5aDIKsbnsKos6tjKg",

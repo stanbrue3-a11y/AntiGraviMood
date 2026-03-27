@@ -1,9 +1,11 @@
-import { aux_folies } from './proximite/aux-folies';
+import { zhao_menilmontant } from './auto/zhao-menilmontant';
 import { la_bellevilloise } from './m-nilmontant/la-bellevilloise';
 import { dilia } from './menilmontant/dilia';
+import { aux_folies } from './proximite/aux-folies';
 
 export const arrondissement_20Places = [
-    aux_folies,
+    zhao_menilmontant,
     la_bellevilloise,
-    dilia
+    dilia,
+    aux_folies
 ];

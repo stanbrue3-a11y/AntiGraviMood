@@ -1,6 +1,8 @@
 import { SurgicalPlace } from './type-definition';
+import { arrondissement_0Places } from './tree/00';
 import { arrondissement_1Places } from './tree/01';
 import { arrondissement_2Places } from './tree/02';
+import { arrondissement_2Places } from './tree/2';
 import { arrondissement_3Places } from './tree/03';
 import { arrondissement_4Places } from './tree/04';
 import { arrondissement_5Places } from './tree/05';
@@ -8,6 +10,7 @@ import { arrondissement_6Places } from './tree/06';
 import { arrondissement_7Places } from './tree/07';
 import { arrondissement_8Places } from './tree/08';
 import { arrondissement_9Places } from './tree/09';
+import { arrondissement_9Places } from './tree/9';
 import { arrondissement_10Places } from './tree/10';
 import { arrondissement_11Places } from './tree/11';
 import { arrondissement_12Places } from './tree/12';
@@ -22,26 +25,29 @@ import { arrondissement_20Places } from './tree/20';
 
 // AGGREGATE ALL DATA FROM REGISTRY TREE 🌳
 const allPlaces: SurgicalPlace[] = [
-    // ...arrondissement_1Places,
-    // ...arrondissement_2Places,
-    // ...arrondissement_3Places,
-    // ...arrondissement_4Places,
-    // ...arrondissement_5Places,
-    // ...arrondissement_6Places,
-    // ...arrondissement_7Places,
-    // ...arrondissement_8Places,
-    // ...arrondissement_9Places,
+    ...arrondissement_0Places,
+    ...arrondissement_1Places,
+    ...arrondissement_2Places,
+    ...arrondissement_2Places,
+    ...arrondissement_3Places,
+    ...arrondissement_4Places,
+    ...arrondissement_5Places,
+    ...arrondissement_6Places,
+    ...arrondissement_7Places,
+    ...arrondissement_8Places,
+    ...arrondissement_9Places,
+    ...arrondissement_9Places,
     ...arrondissement_10Places,
-    // ...arrondissement_11Places,
-    // ...arrondissement_12Places,
-    // ...arrondissement_13Places,
-    // ...arrondissement_14Places,
-    // ...arrondissement_15Places,
-    // ...arrondissement_16Places,
+    ...arrondissement_11Places,
+    ...arrondissement_12Places,
+    ...arrondissement_13Places,
+    ...arrondissement_14Places,
+    ...arrondissement_15Places,
+    ...arrondissement_16Places,
     ...arrondissement_17Places,
-    // ...arrondissement_18Places,
-    // ...arrondissement_19Places,
-    // ...arrondissement_20Places
+    ...arrondissement_18Places,
+    ...arrondissement_19Places,
+    ...arrondissement_20Places
 ];
 
 // VALIDATION LAYER (Runtime)

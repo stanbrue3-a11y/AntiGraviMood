@@ -43,14 +43,14 @@ export const mano_a_mano_pizza_restaurant: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: "• **Timing Stratégique** : TODO
+  description: `TODO: Description riche (3 phrases minimum).`,
+  insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO",
+  • **Expérience Culturelle** : TODO`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: `Cuisine [Type]. TODO`,
   },
   images: {
     hero: "AU_ZVEH0qYgoUrr98eAlNZ0mgpMtBjrrK12XO5W104FQuePJC2qxVATvjBvG0_DPPfu2yOosJlJK5ywtnZSLB8C1SLWoEXwmFm-8V3pm2IQlBUKF5JK7dlcGJ6AY0mclcCJV42rUjzmTZxkvrcneF_gB9sSAirNTMsr4C128W5WaJidcvI0VOMKpMrTja06nxiJpwk4yVlOtuVQBXIelKKHfJGxuUdtzsNl-2wd3M56ESV7qZ0YFvFerCA9ieGbA6HRgeFcEVB7ILEo1QDkPEeeyJ6bu9LDZta2aMalf8I7CzFSv-Q",
