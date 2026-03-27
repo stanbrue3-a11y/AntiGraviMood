@@ -1,110 +1,108 @@
-export const bambini = {
-    id: "poi-bambini-paris-16",
-    name: "Bambini",
-    slug: "bambini-paris-16",
-    description: "La trattoria géante et festive du Palais de Tokyo. Une ode à l'art de vivre italien avec une décoration théâtrale (tissus colorés, suspensions en rotin), une immense terrasse estivale et une ambiance résolument joyeuse et animée le soir.",
-    category: "restaurant",
-    subcategory: ["Italien", "Festif", "Terrasse"],
-    specials: {
-        is_rooftop: false,
-        is_hidden: false,
-        is_institution: false,
-        has_view: true
-    },
-    verified: true,
-    target_audience: "Groupes d'amis, dîneurs avant-club, trentenaires chics",
-    location: {
-        address: "13 Avenue du Président Wilson, 75116 Paris",
-        arrondissement: 16,
-        lat: 48.8645866, // EXACT GPS
-        lng: 2.2966748,  // EXACT GPS
-        nearest_metro: "Iéna",
-        metro_lines: [9],
-        google_id: "ChIJt9VeXGRv5kcRA7kQ-xGju00"
-    },
-    moods: {
-        chill: 10,
-        festif: 90,
-        culturel: 15 // Palais de Tokyo
-    },
-    practical: {
-        // VERIFIED: Google Maps API
-        opening_hours_raw: "Lundi: 12:00–15:00, 19:00–02:00 | Mardi: 12:00–15:00, 19:00–02:00 | Mercredi: 12:00–15:00, 19:00–02:00 | Jeudi: 12:00–15:00, 19:00–02:00 | Vendredi: 12:00–15:00, 19:00–02:00 | Samedi: 12:00–15:30, 19:00–02:00 | Dimanche: 12:00–15:30, 19:00–02:00",
-        reservation_policy: "resa_obligatoire",
-        terrace: true,
-        accessibility: true,
-        wifi: false,
-        main_action: {
-            type: "book",
-            url: "https://bambini-restaurant.com/paris/reservation/",
-            label: "RÉSERVER"
-        }
-    },
-    pricing: {
-        avg_budget: 65,
-        is_free: false,
-        pint_price: 10, // Bière italienne
-        wine_glass: 12.00,
-        coffee_price: 4.50,
-        dish_price: 24.00, // MÉDIAN des Plats/Pizzas (Margherita 16, Truffe 32, Pâtes 24)
-        last_updated: "2026-03-11",
-        menu_items: [
-            {
-                category: "Pour Commencer (Antipasti)",
-                items: [
-                    { name: "Burrata des Pouilles (250g) à partager", price: "28.00€" },
-                    { name: "Vitello Tonnato classique", price: "19.00€" },
-                    { name: "Calamari frits, sauce tartare", price: "18.00€" },
-                    { name: "Carpaccio de Bœuf, parmesan 24 mois", price: "22.00€" },
-                    { name: "Arancini à la truffe noire", price: "16.00€" }
-                ]
-            },
-            {
-                category: "Les Les Plats (Pizzas & Pâtes)",
-                items: [
-                    { name: "Pizza Margherita DOP", price: "16.00€" },
-                    { name: "Pizza Tartufo (Crème de truffe, mozza)", price: "32.00€" },
-                    { name: "Pizza Diavola (Spianata piquante)", price: "21.00€" },
-                    { name: "Linguine alla Carbonara (Pancetta croustillante)", price: "24.00€" },
-                    { name: "Rigatoni au ragoût de veau fondant", price: "26.00€" },
-                    { name: "Mafaldine à la crème de truffe", price: "34.00€" },
-                    { name: "Tagliata de Bœuf, roquette et parmesan", price: "36.00€" }
-                ]
-            },
-            {
-                category: "Touche Sucrée (Desserts)",
-                items: [
-                    { name: "Tiramisu géant à partager", price: "24.00€" },
-                    { name: "Profiteroles napolitaines, chocolat chaud", price: "14.00€" },
-                    { name: "Puffa d'Amore (Beignet géant Nutella)", price: "18.00€" }
-                ]
-            },
-            {
-                category: "Bar (Cocktails)",
-                items: [
-                    { name: "Bambini Spritz (Aperol, Prosecco, passion)", price: "16.00€" },
-                    { name: "Negroni Sbagliato", price: "15.00€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVr2DTGs2bCmnESGYBx9_GvLfIdT2uCmqEpCLT8vQ5wt-35OMSYRA6o1G5FFfalQVlDdyKGGjkwszCp8NVBjIR2w3OWwb7EN708djSHtnB5NtD0OVyKK-oSn_nEPdQRV8BMXP2vbYOXPULJeFFr7Nr6Mz52hWbsGimfL3At6Z8addrs8CQUs5j5pC7aaWxQ3QYxOWMswUnZDEJBnPfspYD9SSJT94DGGpHo1u6rGwBrl8KXpEfL1lKg8FHU-aq_GkGAUG56_OEne3H9he25rxf9XwJR0cGg50BXGZJAtr_VlNy-Q6IqmftuxYxsuK4OjD79sA4m33aHswjlL8Pzu4on_lGErnnS1iscFw48aukV0QY2DQwRJS1SkJTf-t8yK6M_jnaQOwLYgDeQw83KNG5--e82zgYSUgzDNswcspZIJdFtgeqshUd1BhukoebvxXMyalk0pptvSsXqBd02svPciBOstAYjrHhG0bszzqgznWiqqleOEko5M3sVZjEJqGkhsoh4rLEbMTzJ3YDzCYyVjteDIEUkYli_XZVewNw0ylHssjUUt3G6Gb6LcBS_-bIc0-_FJegFA34k5dmr_0NhQyI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUsAAFvyZ9RD122vHPuG4aqVLXeoMSW_2ouUNyiwOlpfeIlAtOJNcczsUS9057nEh6ClhKR9A89KB4ghX1-8d5HCxBRIwCGpeTvMjWegGCDPlrSXgkBuICTsWZOPnbDW7s0Quov4geO3tzvAu__smTszatsZIsy-CEtzYo3dsuKPT646F1qDnM5-LU3MG7hgwVjdaRswvHsYG82ILnR_MjAR0Idgpfx8rPlyzV5ygKP7ZjZhuKux97-LDdoDdgbBuFkYkcxGhcotEzJCdoZKZ69b_Jd4mgxsWBKEekl8dr_N-o7wt6qCiZxPUlZiz0POz4uMmQFF2dAnYAd8n8nfR5xE1QO4tl3KNBhHC0zDBqvgTpX3BKmSQqzbQe6J9koV816Zec3y2kukvbYc9gPudtgvCqA2KWSrvgEZvnW8JSdQuypIK8ZJTPur4t7sZcU&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUN69Atu02XvG6joluK-KbiLfJQP787JSsNJOaPlhTXtzlyCgOQoX3TuRp3VwtRE7XPs5qLau_mAoXOmATD4wooWTHegxQ2CFT73kfFaRv2VrU6d4H11ojZ9shZdFzsesejI4dvArADWRmUBd-xzluuobY1rSnwzpMwgdoDxhFkdDx0uyddnHszVt9C4xD0-a5WzUFDf1Df_P8Ch4VOOge0vRE57-AjCuyu5IKnpdTO-lmlESWv7HrvA-S_oDbXhIW1ZL772hhePMePn_OGhn6fov0WgE2jqGBagaUyKwkr6ZLUAfVApY2-piZQpgu3x4ilJ-YAhUNUX1VPxeOgkLi4tVcro6CvYyxHkbPalJEkAH8SPfIgiKewvNBxNq_TRu7n_ntbZS9zQ0dOQdt2V3AQmEhjsrZvyGiqMfeto7v5ex_iU0te19BNQJtlL4I-&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    instagram_handle: "bambiniparis",
-    website: "https://bambini-restaurant.com/",
-    tags: [
-        { id: "italien", label: "Italien" },
-        { id: "festif", label: "Festif" },
-        { id: "chic", label: "Chic" },
-        { id: "terrasse", label: "Terrasse estivale" },
-        { id: "groupe", label: "Pour les groupes" }
-    ],
-    reviews: {
-        google: { rating: 3.9, count: 1800 }
+import { SurgicalPlace } from "../../../type-definition";
+
+export const bambini: SurgicalPlace = {
+  id: "poi-bambini-paris",
+  slug: "bambini-paris",
+  name: "Bambini Paris",
+  category: "restaurant",
+  subcategory: ["italien", "festif", "terrasse"],
+  location: {
+    address: "Palais De Tokyo, 13 Av. du Président Wilson, 75116 Paris, France",
+    arrondissement: 16,
+    lat: 48.8645866,
+    lng: 2.2966748,
+    nearest_metro: "Iéna",
+    metro_lines: ["9"],
+    google_id: "ChIJt9VeXGRv5kcRA7kQ-xGju00"
+  },
+  moods: {
+    chill: 40,
+    festif: 90,
+    culturel: 60
+  },
+  practical: {
+    opening_hours_raw: "lundi: 12:00 – 15:00, 19:00 – 23:00 | mardi: 12:00 – 15:00, 19:00 – 23:00 | mercredi: 12:00 – 15:00, 19:00 – 23:00 | jeudi: 12:00 – 15:00, 19:00 – 23:00 | vendredi: 12:00 – 15:00, 19:00 – 23:00 | samedi: 12:00 – 15:00, 19:00 – 23:00 | dimanche: 12:00 – 15:00, 19:00 – 23:00",
+    reservation_policy: "resa_conseillee",
+    wifi: false,
+    terrace: true,
+    ferme_tard: true,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "https://bambini-restaurant.com/",
+      label: "RÉSERVER"
     }
+  },
+  pricing: {
+    certification: "gold",
+    avg_budget: 65,
+    is_free: false,
+    last_updated: "2026-03-27",
+    verified_at: "2026-03-27",
+    menu_items: [
+      {
+        category: "Antipasti & Partage",
+        items: [
+          { name: "Arancini au Safran & Ragù", price: "14€", description: "Croustillants et fondants", highlight: true },
+          { name: "Burrata Crémeuse (250g) & Focaccia", price: "24€" },
+          { name: "Vitello Tonnato Classico", price: "19€" },
+          { name: "Fritura Mista (Calmars & Crevettes)", price: "22€" },
+          { name: "Polpette à la Tomate", price: "16€" }
+        ]
+      },
+      {
+        category: "Primi & Secondi",
+        items: [
+          { name: "Rigatoni à la Tomate de Sicile", price: "18€", description: "Basilic frais et pecorino" },
+          { name: "Linguine à la Truffe d'Hiver", price: "34€", highlight: true },
+          { name: "Escalope Milanaise Géante", price: "38€", description: "Pour les appétits de champions", highlight: true },
+          { name: "Gnocchi alla Sorrentina", price: "21€" },
+          { name: "Tagliata de Boeuf au Romarin", price: "39€" }
+        ]
+      },
+      {
+        category: "Pizzas Artisanales",
+        items: [
+          { name: "Pizza Margherita DOP", price: "16€" },
+          { name: "Pizza Régine (Jambon, Champignons)", price: "19€" },
+          { name: "Pizza Diavola (Salami Piquant)", price: "20€" },
+          { name: "Pizza Tartufo (Truffe)", price: "28€" }
+        ]
+      },
+      {
+        category: "Dolci & Cocktails",
+        items: [
+          { name: "Tiramisu Classico XL", price: "12€", highlight: true },
+          { name: "Bambini Spritz Signature", price: "16€" },
+          { name: "Carafe de Chianti (50cl)", price: "24€" },
+          { name: "Limoncello de Sorrente (Shot)", price: "8€" }
+        ]
+      }
+    ]
+  },
+  description: `Bambini est le temple de la fête italienne au Palais de Tokyo. Avec sa décoration maximaliste, ses couleurs vibrantes et sa terrasse immense, c'est l'endroit idéal pour de grandes tablées d'amis. On y partage des assiettes généreuses de pasta, des pizzas croustillantes et des cocktails XXL dans une ambiance décontractée et ultra-vivante, rythmée par une playlist italienne enivrante.`,
+  expert_catchline: `La Dolce Vita version XXL sur les terrasses du Palais de Tokyo.`,
+  insider_tip: `• **Pour les Groupes** : C'est le spot parfait pour un anniversaire. Prenez les plats à partager (Antipasti et Escalope Milanaise) pour une expérience conviviale.
+  • **Le Midi** : Profitez du menu déjeuner à 15.50€ (pizza slice/dessert/drink) pour une pause rapide et efficace.
+  • **Cocktails Maison** : Leurs Spritz revisités sont excellents et servis dans des verres généreux.`,
+  specials: {
+    cuisine: ["Italienne Festive", "Pizzas"],
+    drinks: ["Spritz Variés", "Vins Italiens"],
+    must_eat: "Cuisine Italienne. L'Escalope Milanaise Géante pour le partage.",
+  },
+  images: {
+    hero: "AU_ZVEF6sKEgXrk8pXk0my6r3dqsxnEeC_YYnCkSH-FXD-a0p2RpkVMxY5yaaPikn2trHdhImEtvA_foQyaZ0rqkZ8nDQKRF5BtCykY5gcPBtFBmw_8XRycQF6NfLNpLCbaN6lk83ZhJQ9SbO1lECp8H9IUCAtYpggdLOoB4IEhfzhJJNQiVSoSApcoEjKTT5_xcbHAMUF7gw0aJVQdLbekyi8-4j5R0S5jWuGzpt6OvJlU2_P9afkUPqVgF-p2JNtSByDKQ6lxEG6K5-9SM_IaNw501U2YPOAdlgBAN1r1V_7I",
+    gallery: ["AU_ZVEGXUyAm5Ty3rv7bc1B3crPuv3bGREaE2cCSfH3Nh_TKom5FdWT-O7_9is8fSaKZ8xQ8KAHJ4SjZrZjSLxEbrQTW-azlxb0ILXQNCsKSEbPDcPPcx4dFHSCN3fF45ZhAAWa5cdjTDNaO3b1fxDUW3Smf74jFgyalOBSuBTpEEAVkRMQ2VApyTB7o4LW_UyBSzrFK9OO-_SyRiCapKHxxduXApYM1oW_zMD4X3aJotYRUGL9eaaw3P4YsbkebRuBFU6Z2r-OBobpe9CifJ9Klx0xsFl3Nw27WATCDpvRq8Os","AU_ZVEFMXVOENnRfb9d5_kpXZ4SxvNO_gi53ArMfmbGdI50L3jbqO7ztsu1PnN-_Iker6BjOhTZSIY0-8Hmn9Ye6htvBrWtj6T7myciR01gscL7FrkAkXqkAYeDbMGj6y0WbhmCw5X108Wgz4kj2X2u8xzS_5TA7i_UKA2IfwiLkmppZm-gAfho_mwk3is2lAHGgWvv9mZsO3-JAPQJ5ixUocvZ9slovfsr4FBv6oeSQGl0VoubRpyhyuFfZ_F307Otgt5pGIYrwfWtysonB7mJfnvS2xVQ-tRfvfXNDAOLdRjI"]
+  },
+  verified: true,
+  google_rating: 3.7,
+  real_talk: {
+    text: "Bambini, c'est l'Italie pour s'amuser. Ne cherchez pas la gastronomie millimétrée, ici on veut du gras, du fromage et du bruit. C'est idéal pour attaquer la soirée entre potes avant de bouger. Les portions sont king-size.",
+    must_eat: "Escalope Milanaise",
+    le_secret: "La proximité directe avec le Musée d'Art Moderne pour un combo culture/pizza.",
+    le_son: "Des classiques italiens et des remix disco-house.",
+    le_must: "Une table en terrasse au premier rang."
+  }
 };
+
+export default bambini;

@@ -1,102 +1,109 @@
-import { SurgicalPlace } from '../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
-export const monsieurBleu: SurgicalPlace = {
-    id: "poi-monsieur-bleu",
-    name: "Monsieur Bleu",
-    slug: "monsieur-bleu",
-    category: "restaurant",
-    subcategory: ["institution", "chic", "festif-chic", "vue tour eiffel", "terrasse"],
-    location: {
-        address: "20 Avenue de New York, 75116 Paris",
-        arrondissement: 16,
-        lat: 48.8643563, // EXACT GPS
-        lng: 2.2968759,  // EXACT GPS
-        nearest_metro: "Iéna / Alma-Marceau",
-        metro_lines: [9],
-        google_id: "ChIJpw9w4A9v5kcRqfF3_5h_I-o"
-    },
-    moods: {
-        chill: 5,
-        festif: 90,
-        culturel: 25 // Dans le Palais de Tokyo
-    },
-    practical: {
-        // VERIFIED: Google Maps API (2026-03-11)
-        opening_hours_raw: "Lundi: 12:00–14:30, 19:00–02:00 | Mardi: 12:00–14:30, 19:00–02:00 | Mercredi: 12:00–14:30, 19:00–02:00 | Jeudi: 12:00–14:30, 19:00–02:00 | Vendredi: 12:00–14:30, 19:00–02:00 | Samedi: 12:00–16:00, 19:00–02:00 | Dimanche: 12:00–16:00, 19:00–02:00",
-        reservation_policy: "resa_obligatoire",
-        terrace: true,
-        accessibility: true,
-        wifi: false,
-        main_action: {
-            type: "book",
-            url: "https://monsieurbleu.com/reservation/",
-            label: "RÉSERVER (ANTICIPER)"
-        }
-    },
-    pricing: {
-        avg_budget: 120,
-        is_free: false,
-        pint_price: 12, // Bière bouteille chic
-        wine_glass: 16.00,
-        coffee_price: 5.50,
-        dish_price: 43.00, // MÉDIAN des Plats (Tartare 36, Cabillaud 42, Filet de Bœuf 55)
-        last_updated: "2026-03-11",
-        menu_items: [
-            {
-                category: "Pour Commencer (Entrées / Tapas)",
-                items: [
-                    { name: "Tarama à la truffe, blinis", price: "24.00€" },
-                    { name: "Burrata des Pouilles, tomates anciennes", price: "26.00€" },
-                    { name: "Croustillant de gambas, sauce piment doux", price: "32.00€" },
-                    { name: "Saumon fumé 'Petrossian', crème épaisse", price: "34.00€" },
-                    { name: "Carpaccio de bar, huile d'olive pimentée", price: "28.00€" }
-                ]
-            },
-            {
-                category: "Les Les Plats (Plats Principaux)",
-                items: [
-                    { name: "Tartare de bœuf tradition, frites", price: "36.00€" },
-                    { name: "Cabillaud rôti, purée de pommes de terre", price: "42.00€" },
-                    { name: "Rigatoni à la crème de truffe noire", price: "44.00€" },
-                    { name: "Suprême de volaille jaune des Landes", price: "39.00€" },
-                    { name: "Véritable Filet de bœuf au poivre, frites", price: "55.00€" },
-                    { name: "Sole meunière en belle taille (500g)", price: "68.00€" }
-                ]
-            },
-            {
-                category: "Pâtisseries & Gourmandises (Desserts)",
-                items: [
-                    { name: "Pavlova 'Monsieur Bleu' (Fruits rouges)", price: "18.00€" },
-                    { name: "Tiramisu très onctueux", price: "16.00€" },
-                    { name: "Mousse au chocolat tiède", price: "17.00€" }
-                ]
-            },
-            {
-                category: "Bar (Cocktails)",
-                items: [
-                    { name: "Cocktail 'Le Bleu' (Gin, pamplemousse, tonic)", price: "22.00€" },
-                    { name: "Moscow Mule Tradition", price: "20.00€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW2Gm4G7HroSsoMq1CqtxFHejxq42Qdmvqi7YUfRMdOQ4Z3vbL8_-s-oFymckQNUWlWXIzbBYitNXZypob50jQUIGaoTwmrCL0ID_lpcf6zYkmZeJrECiOpCSUhhUrPsryO7YhlL1ZExrohLC67L6s8ZxyRK-VOJE4YDAsKrR2gSpc8GqxhnPbmqdwPj90yoDT8z40H31I6bpn1fm-pgxAw6BiL94bltGMWMj1bt4IQC7yLz4tUXu4ZP4076cxGdhlu2QYhHwjUAwHiI47zxflIeIZA0BOG2aZywz9RT8eJPCyKQlM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVC1O2idsunYwNAxqaQj495R2-l8d4dnQmwq3n_s6Dp-FxXKbFgMp9rBwJDgacIdfrMnh2VrmnhsC6jDrvw-tfWppchlqwbFyL35LONiM5GybSqB2xUe5FQXljMgJ_zMqzhl5jLLSlQsbOk9-p7_zQrUO8Tzw3H2D8Ei6stHVVDjRhLh_-vDNj3v3Rw72DfJN4KXFpGTm8ByRhWwEA8H0quhoryGKDPdVfUKD26fDqU6sXIJJ0M_f-hOBOP-ltkunaiquf_Sp-_sMVpNnpJ---w1pKw6oe8AfrMcsxz5OetNw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXbOAWJJZiyWQCep0Ele19eW3_VIXuE9oQrK57axSoHezZdAZjWfPg4brwTcMibmVIhZLM9nXxIHayzxZTtJn216W1AcwXrXoamKi7JiVIbnkQlefcKqcJKY9rs75-fdKpec0Xa3bwZlLPDE8jfTfO62TdrZykmkFJ4Zysp4fXVZZk1mT6vpDdC6V_mdnnY5fXYEnMRhGZ3iQmYj4nLYuLmbHxwvUHJw-PrzODcFLeWNdEHSn0DaUKl10FKgFJfdGZXeIVX9AbXbMD-zGda3-jEeORkh_FNcqSoTQgoXcPFRQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    instagram_handle: "monsieurbleuparis",
-    verified: true,
-    google_rating: 4.1,
-    description: "Installé dans l'aile Ouest du Palais de Tokyo, Monsieur Bleu est une véritable institution parisienne. Décoré par Joseph Dirand dans un style Art Déco moderne, l'espace est grandiose. L'été, sa terrasse avec vue sur la Tour Eiffel est l'un des lieux de pouvoir et de fête les plus en vue de la capitale. La carte propose une excellente gastronomie française classique, parfaitement exécutée. Mais on y vient surtout pour l'ambiance : chic, vibrante, et souvent électrique le soir au son du DJ.",
-    insider_tip: "• C'est The Place To Be pour le brunch du dimanche dans le 16ème (attention, réservation obligatoire).\n• Demandez une table sur la terrasse aux beaux jours pour la vue mythique sur la Tour Eiffel scintillante.\n• Tenue correcte fortement exigée, l'établissement filtre sévèrement le soir.\n• Profitez de l'exposition au Palais de Tokyo avant le dîner.",
-    expert_catchline: "L'institution mondaine du Palais de Tokyo. Architecture Art Déco, vue Tour Eiffel et ambiance électrique.",
-    specials: {
-        cuisine: ["Filet de Bœuf", "Pavlova", "Tartare", "Rigatoni Truffe"],
-        drinks: ["Cocktails Créations", "Vins Français D'Exception"],
-        must_eat: "Le Filet de bœuf au poivre, une valeur sûre indémodable.",
-        must_drink: "Le Cocktail signature 'Le Bleu'."
+export const monsieur_bleu: SurgicalPlace = {
+  id: "poi-monsieur-bleu",
+  slug: "monsieur-bleu",
+  name: "Monsieur Bleu",
+  category: "restaurant",
+  subcategory: [],
+  location: {
+    address: "Palais De Tokyo, 20 Av. de New York, 75116 Paris, France",
+    arrondissement: 16,
+    lat: 48.8643563,
+    lng: 2.2968759,
+    nearest_metro: "TODO",
+    metro_lines: [],
+    google_id: "ChIJNWYQDudv5kcRj-kwX_6y0Sc"
+  },
+  moods: {
+    chill: 50,
+    festif: 75,
+    culturel: 90
+  },
+  practical: {
+    opening_hours_raw: "lundi: 12:00 – 14:30, 19:00 – 02:00 | mardi: 12:00 – 14:30, 19:00 – 02:00 | mercredi: 12:00 – 14:30, 19:00 – 02:00 | jeudi: 12:00 – 14:30, 19:00 – 02:00 | vendredi: 12:00 – 14:30, 19:00 – 02:00 | samedi: 12:00 – 16:00, 19:00 – 03:00 | dimanche: 12:00 – 16:00, 19:00 – 02:00",
+    reservation_policy: "resa_conseillee",
+    wifi: true,
+    terrace: true,
+    ferme_tard: true,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "https://monsieurbleu-restaurant.com/",
+      label: "RÉSERVER"
     }
+  },
+  pricing: {
+    certification: "gold",
+    avg_budget: 85,
+    is_free: false,
+    last_updated: "2026-03-27",
+    verified_at: "2026-03-27",
+    menu_items: [
+      {
+        category: "Entrées Signature",
+        items: [
+          { name: "Rock Shrimps en Tempura", price: "21€", description: "Mayonnaise épicée et citron vert", highlight: true },
+          { name: "Burrata des Pouilles", price: "25€", description: "Tomates anciennes et huile de basilic" },
+          { name: "Saumon Mariné à l'Aneth", price: "24€", description: "Crème de raifort" },
+          { name: "Escargots de Bourgogne (x6)", price: "18€", description: "Beurre persillé" },
+          { name: "Salade de Lentilles & Œuf Poché", price: "19€" }
+        ]
+      },
+      {
+        category: "Les Beaux Plats",
+        items: [
+          { name: "Poulpe Grillé", price: "40€", description: "Purée de pois chiches et chorizo", highlight: true },
+          { name: "Tagliatelle à la Truffe Noire", price: "45€", description: "Crème de parmesan 24 mois" },
+          { name: "Ravioles de Langoustines", price: "42€", description: "Émulsion au foie gras et herbes fraîches" },
+          { name: "Filet de Boeuf 'Simmental'", price: "48€", description: "Sauce au poivre et frites maison" },
+          { name: "Bar de Ligne à la Vapeur", price: "38€", description: "Légumes croquants et sauce vierge" }
+        ]
+      },
+      {
+        category: "Douceurs & Desserts",
+        items: [
+          { name: "Mille-feuille Vanille & Caramel", price: "19€", description: "La signature sucrée", highlight: true },
+          { name: "Fondant au Chocolat Noir", price: "16€", description: "Glace vanille Bourbon" },
+          { name: "Pavlova aux Agrumes", price: "15€" },
+          { name: "Plateau de Fromages de Saison", price: "18€" }
+        ]
+      },
+      {
+        category: "La Cave de Monsieur Bleu",
+        items: [
+          { name: "Cocktail 'Bleu de Paris'", price: "20€", description: "Gin, violette, citron" },
+          { name: "Coupe de Champagne Moët & Chandon", price: "24€" },
+          { name: "Bouteille de Chablis 'Jean-Marc Brocard'", price: "72€" },
+          { name: "Eau Minérale (75cl)", price: "9€" },
+          { name: "Expresso Pur Origine", price: "6€" }
+        ]
+      }
+    ]
+  },
+  description: `Installé dans l'aile ouest du Palais de Tokyo, Monsieur Bleu est la brasserie chic par excellence. Conçue par Joseph Dirand, la salle impressionne par ses volumes monumentaux et son décor Art Déco revisité. Que ce soit sur sa magnifique terrasse face à la Tour Eiffel ou sous ses plafonds vertigineux, on y déguste une cuisine française classique et cosmopolite dans une ambiance vibrante et internationale.`,
+  expert_catchline: `L'élégance Art Déco au pied du Palais de Tokyo.`,
+  insider_tip: `• **La Terrasse** : L'une des plus belles de Paris en été, avec une vue directe sur la Dame de Fer.
+  • **Le Brunch** : Le dimanche, le lieu se transforme en rendez-vous familial chic avec un DJ set discret.
+  • **Côté Bar** : Les cocktails sont excellents, parfaits pour un afterwork avant une expo au Palais.`,
+  specials: {
+    cuisine: ["Brasserie Chic", "Français"],
+    drinks: ["Cocktails Création", "Vins de Propriété"],
+    must_eat: "Cuisine de Brasserie. Le Poulpe Grillé et sa purée de pois chiches.",
+  },
+  images: {
+    hero: "AU_ZVEGPgu18nkHmqgsOt7pP1SJE1wkuniaZHRmzOC_ETc-OGvCYtLs8je1gqhIKiWrG0ZIHB3dv92nlx4bSWfpzNdBjaEditO-Htc6wqrZOY4H7gtm62Ku2GWdHQPZ_3TsNN_kqvUZNWi3ZUyfa4UiMsoL0S5xrt_rkaVEgYGUpXYOLNKN8xSWSCRX0ZBQNWzTviYS-yGyGo9-rP51wgD6rb-cJIZsxACAbhSmT_20kv2xNKOehAT5Vy0DFLZocd2tW4GSDLhwXRiIxiAEW48jsJAPCojpaDQ234sSWvyFUCnghbw",
+    gallery: ["AU_ZVEEwtUwy82tJvgDRO8b9hAIZ3FD-cSzbYxlnplA8-ONjKCHOpILMCaGsWTQf20SWgfvZsmzYv4zEf0xJe311w6YDoAHdI6vN0sckGac0PRh2GdyM9AVJFe0oBo-BInY8Lt_i4J6VQKcrWUotRnQUt_qVOBTuLvt9ccfckE5_HQryGiVzcKRjbxdF4d5KBUpwrlaVoyhQbdfflUC5sSS_-y4_nTcIwoxa2QPZyPabucc0FpJ8ioqmyCxE3K7tiDLzhr5nHcBhyUFErhVJwoXdIJMONvTO2NeF7ZypL0tzxRCcDQ","AU_ZVEHs0Sem5YogrEhy_QAcrxjYkCtSLbWpuHT6ekI2PeGkL4JZl4tx-vKS_Ivpo4gqw7KcxIx3_S27kJI8rS47y7eRtZR-cYJLoVDQjNfnBSzVVKUl2-gPSSycx9Py8fbizzbnKFAw5YbxegFI6nryGexqqm62A2fFaZHj9P1J21l7TurMHnJgSyq59bmVidnYoSF_Y9F9FkuvyvYmpJGfNNL63fLbsgp6qTMtFOELUT-O0jmWmzgFtVjh0BI31w6U1104mWu3j0YXD4rfCYKwCBURZdBkMBI0pjGhCfv5tuU7aQ"]
+  },
+  verified: true,
+  google_rating: 4,
+  real_talk: {
+    text: "Monsieur Bleu, c'est l'assurance d'un moment réussi si on aime le beau monde et les cadres spectaculaires. La nourriture est solide, les frites sont bonnes, et le service est rodé comme une horloge suisse. C'est bruyant, vivant et terriblement parisien.",
+    must_eat: "Poulpe Grillé",
+    le_secret: "La table d'angle en terrasse qui donne l'impression d'être seul face à la Tour Eiffel.",
+    le_son: "Une playlist électro-chic qui monte en puissance au fil de la soirée.",
+    le_must: "Prendre un verre au bar avant de s'attabler pour profiter de la hauteur sous plafond."
+  }
 };
+
+export default monsieur_bleu;

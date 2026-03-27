@@ -1,107 +1,109 @@
-export const maisonRusse = {
-    id: "poi-maison-revka-paris-16",
-    name: "Maison Revka",
-    slug: "maison-revka-paris-16",
-    description: "Anciennement Maison Russe, ce lieu spectaculaire signé Paris Society offre une plongée dans une atmosphère slave opulente et envoûtante. Décors majestueux, jardin d'hiver luxuriant et gastronomie de haute volée au rendez-vous.",
-    category: "restaurant",
-    subcategory: ["Gastronomique", "Chic", "Slave", "Jardin"],
-    target_audience: "Épicuriens, clientèle internationale, dîners d'affaires chics",
-    location: {
-        address: "59 Avenue Raymond Poincaré, 75116 Paris",
-        arrondissement: 16,
-        lat: 48.8674347, // EXACT GPS
-        lng: 2.285733, // EXACT GPS
-        nearest_metro: "Victor Hugo",
-        metro_lines: [2],
-        google_id: "ChIJj5j2zzVv5kcR7B_8Fvb4_Sk"
-    },
-    moods: {
-        chill: 20,
-        festif: 30, // Piano bar / Ambiance feutrée
-        culturel: 15
-    },
-    specials: {
-        is_rooftop: false,
-        is_hidden: false,
-        is_institution: true, // Devenu un incontournable très vite
-        has_view: false
-    },
-    verified: true,
-    practical: {
-        // VERIFIED: Google Maps API
-        opening_hours_raw: "Lundi: 12:00–15:00, 19:00–02:00 | Mardi: 12:00–15:00, 19:00–02:00 | Mercredi: 12:00–15:00, 19:00–02:00 | Jeudi: 12:00–15:00, 19:00–02:00 | Vendredi: 12:00–15:00, 19:00–02:00 | Samedi: 12:00–15:00, 19:00–02:00 | Dimanche: 12:00–16:00, 19:00–02:00",
-        reservation_policy: "resa_obligatoire",
-        terrace: true, // Très beau jardin intérieur
-        accessibility: true,
-        wifi: false,
-        main_action: {
-            type: "book",
-            url: "https://maisonrevka.com/",
-            label: "RÉSERVER"
-        }
-    },
-    pricing: {
-        avg_budget: 120,
-        is_free: false,
-        pint_price: undefined,
-        wine_glass: 18.00,
-        coffee_price: 6.00,
-        dish_price: 49.00, // MÉDIAN Caviar excluded (Saumon 42, Bœuf 65, Poulet 46) 
-        last_updated: "2026-03-11",
-        menu_items: [
-            {
-                category: "L'Or Noir (Caviar & Cœurs de Saumon)",
-                items: [
-                    { name: "Caviar Baeri (50g) & Blinis tièdes", price: "95.00€" },
-                    { name: "Coeur de saumon fumé impérial", price: "34.00€" },
-                    { name: "Tarama à la truffe", price: "22.00€" },
-                    { name: "Crabe royal, avocat, pamplemousse", price: "42.00€" },
-                    { name: "Oeuf parfait, crème de caviar", price: "38.00€" }
-                ]
-            },
-            {
-                category: "Les Plats Signatures (Terroir Slave revisité)",
-                items: [
-                    { name: "Coulibiac de saumon, beurre blanc", price: "48.00€" },
-                    { name: "Pavlova salée au tourteau", price: "42.00€" },
-                    { name: "Bœuf Strogonoff, purée truffée", price: "58.00€" },
-                    { name: "Poulet à la Kiev, beurre aux herbes", price: "46.00€" },
-                    { name: "Linguine au homard et estragon", price: "65.00€" }
-                ]
-            },
-            {
-                category: "Les Douceurs",
-                items: [
-                    { name: "Pavlova incontournable (Fruits rouges)", price: "22.00€" },
-                    { name: "Chouquetterie (Prix par pièce)", price: "4.00€" },
-                    { name: "Millefeuille framboise, crème légère", price: "19.00€" }
-                ]
-            },
-            {
-                category: "Bar (Vodkas & Cocktails)",
-                items: [
-                    { name: "Dégustation de 3 Vodkas Beluga", price: "45.00€" },
-                    { name: "Cocktail 'Romanov' (Vodka, framboise, champagne)", price: "24.00€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWBfMMpEaDOELP2Tlt-oaVd6gh3MpHR9TA0RRCQoTdaeYAGpseBx1fVO03Q-Wy-i_XyPANWvp05dH8KFc7ZEtm_Z_i1BUebS_feEmLBSoukzYh0j5oMXImuscO1ejO94pz7zRtcYhSToOXqgf3XXk6uLKztEL5Gvm0MeW3LnDh9GacEWyUVI42btCB3FO2SyyLScRYkAd49URg-sgD67gX70vo7ljPGDbN0mzFQ0B-PRHDUCakHWfzq3UNBXkxi-MbGvh3UsX_2XXWi0EsNmXhDbxsAW_GXxFLlQlmFF9QlyQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXdWK-bkZQrQv10LUDGF7nWppw6yog3kefVQtdp3zGytxY76-A_sf64Q0jj-LqkB0b2XVZhfgmW0Uapj_8k2CKmRjb3wwopfHy0dr-pltKtG4VRqvkLgaIKEf7bY_4TxmkoOpe2fiTgtXUwlnoU6-j4Wp6TApJx4fxvK118fPW3KrkHJ-L5vvu2d11eRvE4oPHWPRp1nln4nSmHn096oDfx6ZkFssj5dbD4JW-WE3-0fCymNvpFyfOp75ecxnHimKeoZxC1P8_ZihZkfj5WdtvVOT-wXjk1o0lTAxgSJfyK4rg1G70N7DaBWOXfaucXicKn-Iygb4eLQw9VRbAlaaI212xzchzB2hORTFXdby_Q8HQHbJVovhdbFQ7lr3dHxeUV3uD9You98YlmkEO1bJ68g6Q4XKS7KRaXbvG6DZnwYX4XpDWco75qRvCjTA6o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUV3oOo-PVNOL8j126FwDUQnENDavAmsa72regHRFIIbvtd9hCEz6YxPO1fqnSAZBVmaqfnZUs0WU_EfYhB2mdkMojmKEGOQOuQMp46ipaQNeOWG8Dp7WtQnk0WXK-u7iSdIKz3or-2U3o0bHkj7jitRmWXpt9TzmjZ7NNWJNKvnfZkq9TnBUeTqZFxwlmQOIwumi08p_4mEmVOslNar4Qd0ZoEmoXljl0ZjgVLrPhfJ4nFzMtFlIvSXxGQs54Jgb9YrkhcKnqF97GPh0SRMaoXlU3R76kpxHcib8E0vab7eS1QenYsGEtJrHoAPdohbh9G_aCTNZczi8UqD462rTZRhYHaERfl-7VxYYEXXklmkJp4wboVb_kXmbEv0-lf53hkTJk3NKBn2vU3HNN6z4bkkjj0naljazTX4Iaauf_Gd8ZbnfFJwzE3bpjrlp6K&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    instagram_handle: "maisonrevka",
-    website: "https://maisonrevka.com/",
-    tags: [
-        { id: "chic", label: "Très Chic" },
-        { id: "gastronomique", label: "Gastronomique" },
-        { id: "slave", label: "Slave" },
-        { id: "decor", label: "Décor spectaculaire" }
-    ],
-    reviews: {
-        google: { rating: 4.1, count: 856 }
+import { SurgicalPlace } from "../../../type-definition";
+
+export const maison_revka: SurgicalPlace = {
+  id: "poi-maison-revka",
+  slug: "maison-revka",
+  name: "Maison Revka",
+  category: "restaurant",
+  subcategory: ["slave", "chic", "gastronomique"],
+  location: {
+    address: "59 Av. Raymond Poincaré, 75116 Paris, France",
+    arrondissement: 16,
+    lat: 48.8674347,
+    lng: 2.285733,
+    nearest_metro: "Victor Hugo",
+    metro_lines: ["2"],
+    google_id: "ChIJj5j2zzVv5kcR7B_8Fvb4_Sk"
+  },
+  moods: {
+    chill: 40,
+    festif: 60,
+    culturel: 50
+  },
+  practical: {
+    opening_hours_raw: "lundi: 12:00 – 15:00, 19:00 – 02:00 | mardi: 12:00 – 15:00, 19:00 – 02:00 | mercredi: 12:00 – 15:00, 19:00 – 02:00 | jeudi: 12:00 – 15:00, 19:00 – 02:00 | vendredi: 12:00 – 15:00, 19:00 – 02:00 | samedi: 12:00 – 15:00, 19:00 – 02:00 | dimanche: 12:00 – 16:00, 19:00 – 02:00",
+    reservation_policy: "resa_obligatoire",
+    wifi: false,
+    terrace: true,
+    ferme_tard: true,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "https://maisonrevka.com/",
+      label: "RÉSERVER"
     }
+  },
+  pricing: {
+    certification: "gold",
+    avg_budget: 120,
+    is_free: false,
+    last_updated: "2026-03-27",
+    verified_at: "2026-03-27",
+    menu_items: [
+      {
+        category: "L'Or Noir & Entrées",
+        items: [
+          { name: "Caviar Beluga (50g)", price: "240€", description: "Le summum du luxe slave", highlight: true },
+          { name: "Cœur de Saumon Fumé Impérial", price: "34€" },
+          { name: "Tarama au Caviar", price: "24€" },
+          { name: "Pirojkis à la Viande (x2)", price: "18€" },
+          { name: "Salade Olivier Classique", price: "22€" }
+        ]
+      },
+      {
+        category: "Plats Signatures",
+        items: [
+          { name: "Bœuf Strogonoff au Beurre", price: "58€", description: "Émincé de bœuf, sauce onctueuse", highlight: true },
+          { name: "Coulibiac de Saumon Maison", price: "48€", description: "En croûte feuilletée, beurre blanc" },
+          { name: "Poulet à la Kiev", price: "46€", description: "Beurre d'herbes fondant" },
+          { name: "Linguine au Homard & Caviar", price: "75€", highlight: true },
+          { name: "Sashimi de Sériole au Yuzu", price: "32€" }
+        ]
+      },
+      {
+        category: "Le Jardin Sucré",
+        items: [
+          { name: "Pavlova aux Fruits Rouges", price: "22€", highlight: true },
+          { name: "Saint-Honoré à la Vanille", price: "19€" },
+          { name: "Chouquette Impériale (l'unité)", price: "4€" },
+          { name: "Assortiment de Sorbets Maison", price: "12€" }
+        ]
+      },
+      {
+        category: "Bar & Spiritueux",
+        items: [
+          { name: "Shot de Vodka Beluga Gold Line", price: "28€" },
+          { name: "Cocktail 'Moskovskaya'", price: "22€" },
+          { name: "Coupe de Champagne Brut", price: "22€" },
+          { name: "Vin Rouge (Saint-Julien)", price: "24€" },
+          { name: "Double Expresso", price: "8€" }
+        ]
+      }
+    ]
+  },
+  description: `Maison Revka est l'écrin du luxe slave à Paris. Dans ce spectaculaire pavillon de l'avenue Raymond Poincaré, l'opulence des décors russes rencontre le glamour parisien. Entre ses boiseries dorées, ses velours profonds et son jardin d'hiver luxuriant, on y déguste une cuisine impériale où le caviar est roi. Une expérience envoûtante, tant visuelle que gustative, orchestrée par Paris Society.`,
+  expert_catchline: `L'opulence d'une datcha impériale en plein cœur du 16ème.`,
+  insider_tip: `• **Le Jardin d'Hiver** : C'est l'un des plus beaux jardins secrets de Paris. Demandez une table sous la verrière pour une ambiance romantique absolue.
+  • **Cérémonie de la Vodka** : Laissez le sommelier vous guider à travers leur collection de vodkas rares, servies dans les règles de l'art.
+  • **Tea Time de Luxe** : Leurs pâtisseries sont monumentales, parfaites pour un après-midi chic.`,
+  specials: {
+    cuisine: ["Slave Moderne", "Russe"],
+    drinks: ["Vodkas de collection", "Champagnes de prestige"],
+    must_eat: "Cuisine Slave. Le Bœuf Strogonoff, d'une tendreté absolue.",
+  },
+  images: {
+    hero: "AU_ZVEG6pP9xM8pXk0my6r3dqsxnEeC_YYnCkSH-FXD-a0p2RpkVMxY5yaaPikn2trHdhImEtvA_foQyaZ0rqkZ8nDQKRF5BtCykY5gcPBtFBmw_8XRycQF6NfLNpLCbaN6lk83ZhJQ9SbO1lECp8H9IUCAtYpggdLOoB4IEhfzhJJNQiVSoSApcoEjKTT5_xcbHAMUF7gw0aJVQdLbekyi8-4j5R0S5jWuGzpt6OvJlU2_P9afkUPqVgF-p2JNtSByDKQ6lxEG6K5-9SM_IaNw501U2YPOAdlgBAN1r1V_7I",
+    gallery: ["AU_ZVEFf3zAu-OT7X1nNPmJfB7_a1FjH_ErsYarAGoiLPRCtqK7QXBh7vHGry_C4cIgZuujj7IFGdEEs0mNmaWio8p_Vy-8cdubkYaSCrxSgShy5_w44ZL6473IcU0CYnxKj-p_2QxIjm3CN6xsJ0xPeO7WdKVLy-ulDC97fluKrsl2HREqsH1sh3IPeqzHRKaT18e5F21DOukEOsnSZ7QTygImWqd5gLZvG-BarjN75VCR3eBDvrTJL0MD2qGrbmP2xGy0073FKbR1Zzn2Y9ebrQmtuIc9c9sx-1MSf5_XaBRB6lB7GoO0Mv0NzlfnhXRiUgGLK9ZZ4OxfmFFMY5tMSegHJy2BVikzyOW_IO73Oj0rz4ez9Yt2vIoxUB-nIcPSvY5DtfrH00iFNNlsFKGNzIQiWH85wetj8VOOz_kEhkeTRxs3xkn6Vn_0yURUyNe4D","AU_ZVEHd9Q-erhb0510jKqrmnzG4S-SGuz8v7xMLeRzZYK-sKOhBv6n4BNQSvz-9dRw_Gatp9wMcnbphv0IEHCU2Cp_vfCaVtY-qiW1T_E8ZZZd6GgOv_BzbOr5hY6mKopPhZ1uNsA_SMJCcCNOwpCQytSMF6_w3YlQV0Y4drCIvURo2xtBdiiC5fXk-BxpWTL3Wj8pfcPJ57c8YkohzRTexAu66wlAEFLMlkvJx7j-qreAieKVbJNhB48cvCCP-OQ3Wh2qtyO21ZrPctGbDFJ1l5zYqZXoBQuhyvPt60XKZD57alw"]
+  },
+  verified: true,
+  google_rating: 4.1,
+  real_talk: {
+    text: "Maison Revka, c'est le grand spectacle à chaque seconde. On y vient pour les décors autant que pour la carte. C'est brillant, tapageur et délicieux. Le coulibiac de saumon est une petite œuvre d'art gastronomique.",
+    must_eat: "Bœuf Strogonoff",
+    le_secret: "On peut y acheter certains décors et accessoires dans la boutique attenante.",
+    le_son: "Piano-bar en soirée et lounge slave chic.",
+    le_must: "Un dîner en tête à tête sous les lustres en cristal du jardin d'hiver."
+  }
 };
+
+export default maison_revka;

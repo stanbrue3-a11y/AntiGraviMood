@@ -1,94 +1,109 @@
-import { SurgicalPlace } from '../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
 export const carette: SurgicalPlace = {
-    id: "poi-carette",
-    name: "Carette",
-    slug: "carette",
-    category: "restaurant",
-    subcategory: ["salon de the", "patisserie", "institution", "chic", "chill", "historique"],
-    location: {
-        address: "4 Place du Trocadéro et du 11 Novembre, 75016 Paris",
-        arrondissement: 16,
-        lat: 48.863665,  // EXACT GPS
-        lng: 2.2872101,  // EXACT GPS
-        nearest_metro: "Trocadéro",
-        metro_lines: [6, 9],
-        google_id: "ChIJXQvlQftv5kcROZUkVMlEAdo"
-    },
-    moods: {
-        chill: 40,
-        festif: 5,
-        culturel: 50 // Institution parisienne
-    },
-    practical: {
-        // VERIFIED: Google Maps API (2026-03-11)
-        opening_hours_raw: "Monday: 7:30 AM – 11:30 PM | Tuesday: 7:30 AM – 11:30 PM | Wednesday: 7:30 AM – 11:30 PM | Thursday: 7:30 AM – 11:30 PM | Friday: 7:30 AM – 11:30 PM | Saturday: 7:30 AM – 11:30 PM | Sunday: 7:30 AM – 11:30 PM",
-        reservation_policy: "sans_resa", // Grosse file d'attente souvent
-        terrace: true,
-        accessibility: true,
-        wifi: false,
-        main_action: {
-            type: "site",
-            url: "https://www.carette-paris.fr/",
-            label: "SITE OFFICIEL"
-        }
-    },
-    pricing: {
-        avg_budget: 35,
-        is_free: false,
-        pint_price: undefined, // Pas la vibe
-        wine_glass: 12.00,
-        coffee_price: 6.50, // Le mythique chocolat chaud est à 12€/14€
-        dish_price: 24.00, // MÉDIAN du Salé (Croque 22, Salade 26, Omelette 20)
-        last_updated: "2026-03-11",
-        menu_items: [
-            {
-                category: "Les Incontournables (Pâtisseries & Goûter)",
-                items: [
-                    { name: "Chocolat chaud onctueux Carette", price: "12.00€", description: "La spécialité maison, servi en pichet avec crème chantilly." },
-                    { name: "Saint-Honoré", price: "11.50€" },
-                    { name: "Millefeuille vanille", price: "11.00€" },
-                    { name: "Éclair au chocolat", price: "9.50€" },
-                    { name: "Assortiment de 5 macarons", price: "16.00€" }
-                ]
-            },
-            {
-                category: "Le Salé (Déjeuner & Sur le Pouce)",
-                items: [
-                    { name: "Croque-Monsieur traditionnel, salade mêlée", price: "22.00€" },
-                    { name: "Omelette fines herbes", price: "20.00€" },
-                    { name: "Salade Niçoise au thon poêlé", price: "26.00€" },
-                    { name: "Club Sandwich Poulet Bacon", price: "24.00€" },
-                    { name: "Quiche Lorraine maison", price: "18.00€" }
-                ]
-            },
-            {
-                category: "Petit-Déjeuner",
-                items: [
-                    { name: "Formule Petit-Déjeuner Parisien (Viennoiserie, boisson chaude, jus)", price: "22.00€" },
-                    { name: "Tartine beurrée et confiture", price: "8.50€" },
-                    { name: "Croissant au beurre", price: "3.50€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUItCwFiQLTbr53_Q8zd3SKSY3b7-3SxCND4Ed_9sHiMDIblVagmxYOLI5IMGfb7tsvlP32ng7hCxpym-Co_g80_OJWfPgi4V-SpIoDvSa28LdmdmK6xhh4fF417NaOOHbqv_6jotgRLvecO3Kw6EORqvuWMmQoWK265ecy9Gk7KjzncJkLW87Hyjg717uw2xEKleMzOU6BxjfoliQnphZK1c6aqA7m4x1JaSUl6km_NCdglAUT_N-8mGRzlg3xIr9i0yMzs9mtEfpq4whA_95jDnmzorHlvbKin4rIclxeXIrvQKG6kmthyLYIRrkr9lR3d5_9iHQBawVjbp8j7KWMD6qadJONMCyUxlUdy9NatpzvBryOMEvORuSaw9TJDi2eaPCYGDalNdxaYhavdo6dPxcGbRKESJ6o8wpguExheVzD-giyruQq-bEIB-2Wwo5b355vLOr7qC3r4vxn1MXYDyBRMIXuUNZCcv5GD-ToQuc6TdQrLHOHghXPWeJz7GGPhEZrepDEJpoaaGytokyfuonHUud0E_3oAc331crzTY6ACpKYs5YB5NZVbapWMbaaDc3XOuqm22opflWILhqHj4U&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUUgBCI8zQPJ2uglPgWKpsZ_kBqitzu5aoH2SFW4-1fFdopF2qVcLxlgm98StbWEYbaoywTwOd12v2hLUcfkbV_4FH0-9Ha53Sxx-Jfa3o51m2yEu3XiwLOUhyf02shBLcKsdLqXVTe6y3IxI5tO1Hrk5SrDgmGlzjoInMDHbvEdj9pjtk4LnyTLeDbPurCh87BYalA11DtyZngaKI-d0PCy4VnUwhkwPT07lBy2e53QxJjvSpmYbxDfIsDwEbS62mNkUq7vijwKLR766f2q0ppZ7jfsLnQf8w4eZgu7dJt94MokoKNxEvUoqThsMCg6NpsRM1g10bEdb-ZMz4cHq3PTrfh93O6h00V_8fIaP9Rw8P-XmSXqQjKsP1dUNTg9oGgaOyGO4w1-SWevR3gdGxCtRC0Lx_fX48z55mH-a6shmmFQNSn1PMBWWxPoX3v&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUIbe-xs0fRv1xAelzmmKA6asIlTBpiAVwpP7C311v4D2IYmhcm9aTnxm2qRsBt89jROgNQSedykhf-BmTMh4MMI8Nmwqo1-ClfzLG8fu9NVT2NvSvMI-BwbrxVsLWGKo19vgrurF96mQwj2MCEJFCi7DuZ3Sml6bHnMLkb61BZqmoGKXKmXDOjLxCEXhZ6ojJtT9_CeqhRGwoXYdwQ1K9yyk4G8qyk6C1O1grKCcqdsSyj7OPol1SL-HSd4n4bH3Zc50YkRxfet7EtO7d09MLvC-aOfd2vOOBSD2yQgRn9GPj7xPvVQSOF3GRt8OCJT_s2Gt5jJsVYJ-Qzo9BRhIVCsiIz7NosadFIpDsJEuEwygy22wNdOorWrTEOtOF-9cAtD3Ghe8HRt0JJq_2mZdcMo1FF_HgNiZCJmgEElkQtLfadCbI17lkPhYL5vR9z&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    instagram_handle: "caretteofficiel",
-    verified: true,
-    google_rating: 4.3,
-    description: "Installé sur la place du Trocadéro depuis 1927, le salon de thé Carette est une légende vivante du 16ème arrondissement. Sous ses arcades iconiques, dans un décor raffiné teinté de rose poudré et de dorures, se presse le Tout-Paris chic pour déguster les pâtisseries historiques de la maison. C'est le paradis absolu du « tea-time » à la française. Si les prix sont ceux de la Rive Droite mondaine, la qualité des produits justifie le déplacement. Un grand classique indéboulonnable.",
-    insider_tip: "• C'est la queue le week-end, préférez y aller le matin en semaine ou le soir (ça ferme tard, c'est idéal pour un dessert post-dîner !).\n• Leur chocolat chaud à l'ancienne est épais et incroyablement régressif, c'est l'un des meilleurs de la capitale (et cher !).\n• Les mini-sandwichs viennois salés sont une madeleine de Proust pour beaucoup de Parisiens.\n• Assyez-vous en terrasse sous les arcades pour observer le balai incessant de la Place du Trocadéro.",
-    expert_catchline: "Une institution parisienne mythique réputée pour son chocolat chaud et son Paris-Carette.",
-    specials: {
-        cuisine: ["Pâtisseries Françaises", "Paris-Carette", "Chocolat Chaud", "Club Sandwich"],
-        drinks: ["Chocolat Chaud Épais", "Thés raffinés", "Café Crème"],
-        must_eat: "Le Paris-Carette ou les fameux petits sandwichs ronds.",
-        must_drink: "Le Chocolat Chaud à l'ancienne."
+  id: "poi-carette",
+  slug: "carette",
+  name: "Carette",
+  category: "restaurant",
+  subcategory: [],
+  location: {
+    address: "4 Pl. du Trocadéro et du 11 Novembre, 75016 Paris, France",
+    arrondissement: 16,
+    lat: 48.86370729999999,
+    lng: 2.2872082,
+    nearest_metro: "Trocadéro",
+    metro_lines: ["6", "9"],
+    google_id: "ChIJXQvlQftv5kcROZUkVMlEAdo"
+  },
+  moods: {
+    chill: 85,
+    festif: 30,
+    culturel: 95
+  },
+  practical: {
+    opening_hours_raw: "lundi: 07:30 – 23:30 | mardi: 07:30 – 23:30 | mercredi: 07:30 – 23:30 | jeudi: 07:30 – 23:30 | vendredi: 07:30 – 23:30 | samedi: 07:30 – 23:30 | dimanche: 07:30 – 23:30",
+    reservation_policy: "sans_resa",
+    wifi: false,
+    terrace: true,
+    ferme_tard: false,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "https://www.carette-paris.fr/",
+      label: "VOIR LE SITE"
     }
+  },
+  pricing: {
+    certification: "gold",
+    avg_budget: 35,
+    is_free: false,
+    last_updated: "2026-03-27",
+    verified_at: "2026-03-27",
+    menu_items: [
+      {
+        category: "Petit-Déjeuner & Brunch",
+        items: [
+          { name: "Chocolat Chaud Carette", price: "11€", description: "Onctueux à souhait, chantilly maison", highlight: true },
+          { name: "Œufs Brouillés Nature", price: "15€", description: "Parfaitement coulants" },
+          { name: "Œufs Brouillés au Saumon Fumé", price: "25.50€" },
+          { name: "Pancakes aux Fruits Frais", price: "18€" },
+          { name: "Le Petit-Déjeuner Carette", price: "32€", description: "Complet : boisson chaude, jus, viennoiseries, œufs" }
+        ]
+      },
+      {
+        category: "Salades & Clubs",
+        items: [
+          { name: "Club Sandwich Poulet", price: "22€", description: "Pain de mie toasté, frites maison", highlight: true },
+          { name: "Salade Carette", price: "26€", description: "Homard, avocats, tomates" },
+          { name: "Salade Végétarienne", price: "19.50€" },
+          { name: "Croque-Monsieur au Comté", price: "17€" }
+        ]
+      },
+      {
+        category: "Pâtisseries Icônes",
+        items: [
+          { name: "Le Macaron XXL", price: "10€", description: "Framboise, chocolat ou pistache", highlight: true },
+          { name: "Paris-Brest", price: "12€" },
+          { name: "Saint-Honoré", price: "12€" },
+          { name: "Éclair au Chocolat", price: "9.50€" },
+          { name: "Assortiment de 5 Mini Macarons", price: "15€" }
+        ]
+      },
+      {
+        category: "Sélection de Thés",
+        items: [
+          { name: "Thé Mélange Carette", price: "9€" },
+          { name: "Thé Vert à la Menthe Fraîche", price: "9.50€" },
+          { name: "Jus d'Orange Pressé", price: "8.50€" },
+          { name: "Expresso", price: "5€" }
+        ]
+      }
+    ]
+  },
+  description: `Institution indétrônable de la place du Trocadéro depuis 1927, Carette est bien plus qu'une simple pâtisserie. C'est un salon de thé bourgeois où le temps semble s'être arrêté, avec ses serveurs en habit et ses nappes blanches. On y vient du monde entier pour son chocolat chaud légendaire et ses macarons, mais aussi pour son ambiance unique qui mêle habitués du quartier et voyageurs de passage dans un cadre Art Déco pur jus.`,
+  expert_catchline: `Le mythe du salon de thé parisien sur la place du Trocadéro.`,
+  insider_tip: `• **Le Chocolat Chaud** : Ne faites pas l'impasse, c'est l'un des meilleurs de Paris. Demandez le supplément chantilly, elle est exceptionnelle.
+  • **Sans Réservation** : Prévoyez de l'attente le week-end, la queue peut être longue devant l'établissement. Privilégiez les matinées en semaine.
+  • **La Vitrine** : Avant de vous installer, allez admirer la vitrine de pâtisseries à l'intérieur, c'est là que se fait le choix le plus difficile de la journée.`,
+  specials: {
+    cuisine: ["Salon de Thé", "Pâtisserie", "Français"],
+    drinks: ["Chocolat Chaud Signature", "Thés d'exception"],
+    must_eat: "Cuisine de Pâtissier. Le Macaron XXL à la Framboise.",
+  },
+  images: {
+    hero: "AU_ZVEHXQfvtv5kcROZUkVMlEAdo",
+    gallery: ["AU_ZVEGlIWmS0liDnUJOplMWi3IdV_IlZRsgzskSXTYZyemOPdnKx4gTLWr9I27E-fgAcr4X22kD-zVqjVd_4wIGi87i4C-0zwstvE_NPXP_KHoLKbbvB9PXX8aLj_fAHd4ApXT1LerqXtDVoAlB3LUMNB7v9dyWohyyYMNWZkzksbRbxJxf46vjymotAll7WpRdA2tVJzv0ydJHCklXUuWYrbCH9xNIPSUt1hYMwSZt4x7uPwM_2g-weI9jw1KVofsP7XR0DkYtnhD_UoabFbJhpnfp3vBhH5HcE8xevFw1CKo9hQ","AU_ZVEEFJOgQQ7xGIsGxF4m_C9sqGMAPnQcIyzdda9H2n3c5EcGxgA0PKihNT48LEzAP4fOH4v7GTNGLfgkPA9R43cXoXF2yJ2MDEzdmeGUWv7RdgH-U_VFZRIUwF0XZ29-4kJ5qytgZtP8YFuCjD5WeCAFHJMxYz9bcUqOS536OYP_iF-AqnPnqS6CTD7amgkoh_4yGbnlUyesNNiSEdAJqRtWSzEXI9Ij2kzYHnQrYEzZ9LuuFRm2eBSfhgpeV395AViEVZgf9hTdkhrxjEJHB9AQ28ahOXKxeagXGQIoxun3V9gswJHJ9sI72HSvgNO3XdW-YUYEmiQPJfCarZlffPK6Wc5KrG3ZVeV90pdaWp45FhCjJNVin5T90R7S3YQJO0-Bwonq4YGaKHl6G-WWTYrvKsTVvnuJFK5Nc6TRrHyy4yw"]
+  },
+  verified: true,
+  google_rating: 4,
+  michelin_stars: 0,
+  real_talk: {
+    text: "Carette, c'est le Paris de carte postale qui existe pour de vrai. C'est bruyant, les tables sont serrées, mais quand on goûte au chocolat chaud ou au Saint-Honoré, on oublie tout le reste. C'est l'adresse de repli parfaite après une balade au Trocadéro.",
+    must_eat: "Chocolat Chaud",
+    le_secret: "On peut acheter les macarons à emporter sur le côté pour éviter la queue du salon de thé.",
+    le_son: "Un bourdonnement de conversations polyglottes et le tintement des cuillères sur la porcelaine.",
+    le_must: "Le petit-déjeuner complet un matin de semaine sous les arcades."
+  }
 };
+
+export default carette;

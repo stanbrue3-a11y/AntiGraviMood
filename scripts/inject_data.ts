@@ -25,22 +25,41 @@ async function injectData() {
         return;
     }
 
-    const report = JSON.parse(fs.readFileSync(REPORT_PATH, 'utf-8'));
+    const args = process.argv.slice(2);
+    const targetSlugArg = args.find(arg => arg.startsWith('--slug='))?.split('=')[1];
+    const targetSlugs = targetSlugArg ? targetSlugArg.split(',') : [];
+
+    let report = JSON.parse(fs.readFileSync(REPORT_PATH, 'utf-8'));
+    
+    if (targetSlugs.length > 0) {
+        report = report.filter((p: any) => targetSlugs.includes(p.slug));
+    }
+
     console.log(`📍 ${report.length} lieux à injecter.`);
 
     for (const place of report) {
-        // Transformation : extraire pricing_pillar du root price_index si possible
-        // En vérité, le sync_to_supabase a déjà aplati les champs comme pint_price, main_dish_price etc.
-        // On injecte tel quel dans la table 'places'
+        // Nettoyage de l'objet pour l'injection
+        const payload = { ...place };
         
-        const { error } = await supabase
+        // Tentative d'injection standard
+        let { error } = await supabase
             .from('places')
-            .upsert(place, { onConflict: 'slug' });
+            .upsert(payload, { onConflict: 'slug' });
+
+        // Si erreur spécifique sur une colonne manquante (ex: michelin_stars)
+        if (error && error.message.includes('michelin_stars')) {
+            console.warn(`   ⚠️ Supabase : Colonne 'michelin_stars' manquante. Tentative sans cette colonne...`);
+            delete (payload as any).michelin_stars;
+            const retry = await supabase
+                .from('places')
+                .upsert(payload, { onConflict: 'slug' });
+            error = retry.error;
+        }
 
         if (error) {
             console.error(`   ❌ Error injecting ${place.slug}:`, error.message);
         } else {
-            process.stdout.write('.'); // Progrès discret
+            console.log(`   ✅ ${place.slug} injecté.`);
         }
     }
 

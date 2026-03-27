@@ -10,7 +10,7 @@ import { SurgicalPlace } from '../src/data/registry/type-definition';
 const REGISTRY_PATH = path.join(__dirname, '../src/data/registry/tree');
 const MIN_MENU_ITEMS = 15;
 const MIN_GALLERY_PHOTOS = 2;
-const ALLOWED_PATTERNS = [/Entrée/i, /Plat/i, /Dessert/i, /Douceur/i, /Formule/i, /Partager/i, /Cave/i, /Boisson/i, /Aperitivo/i, /Antipasti/i, /Pâte/i, /Dolci/i, /Tapassiette/i, /Côté/i, /Accompagnement/i, /Mo's/i, /Signature/i, /Supplément/i, /Topping/i, /Extra/i, /Spécialité/i];
+const ALLOWED_PATTERNS = [/Entrée/i, /Plat/i, /Dessert/i, /Douceur/i, /Formule/i, /Partager/i, /Cave/i, /Boisson/i, /Aperitivo/i, /Antipasti/i, /Pizz/i, /Pâte/i, /Dolci/i, /Tapassiette/i, /Côté/i, /Accompagnement/i, /Mo's/i, /Signature/i, /Supplément/i, /Topping/i, /Extra/i, /Spécialité/i, /Menu/i, /Étape/i, /Incontournable/i, /Voyage/i, /Fromage/i, /Jardin/i, /Sommelier/i, /Sommelière/i, /Sommelerie/i, /Écho/i, /Océan/i, /Littoral/i, /Côtier/i, /Dim Sum/i, /Mixologie/i, /Tacos/i, /Végétal/i, /Racine/i, /Pousse/i, /Ceviche/i, /Gilda/i, /Snack/i, /Brunch/i, /Prélude/i, /Secondi/i, /Primi/i, /Rôtisserie/i, /Vapeur/i, /Final/i, /Thé/i, /Postre/i, /Grill/i, /Classique/i, /Nouille/i, /Riz/i, /Club/i, /Salade/i, /Bouchée/i, /Spiritueux/i, /Pâtisserie/i, /Infusion/i];
 const FORBIDDEN_WORDS = [
     { word: "Carte", reason: "Forbidden nomenclature (Redundant with UI)" },
     { word: "Résistance", reason: "Forbidden nomenclature ('Plat de Résistance' is banned, use 'Plats')" }
