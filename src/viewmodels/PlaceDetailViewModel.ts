@@ -64,6 +64,7 @@ export interface PlaceDetailViewModel {
   hero: {
     title: string;
     images: (string | ImageSourcePropType)[];
+    michelin_stars?: number;
   };
 
   meta: {
@@ -137,7 +138,11 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     sections,
     primaryColor,
     isDark,
-    hero: { title: place.name, images: getPlaceImages(place) },
+    hero: { 
+      title: place.name, 
+      images: getPlaceImages(place),
+      michelin_stars: place.michelin_stars || undefined 
+    },
     meta: {
       moodLabel: metaView.mood_label,
       rating: place.google_rating || 0,

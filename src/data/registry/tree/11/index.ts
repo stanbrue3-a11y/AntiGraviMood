@@ -1,8 +1,8 @@
-import { caf_oberkampf } from './--proximit-/caf-oberkampf';
-import { cafe_industrie } from './--proximit-/cafe-industrie';
-import { le_centenaire } from './--proximit-/le-centenaire';
-import { le_grand_breguet } from './--proximit-/le-grand-breguet';
-import { yukga } from './--proximit-/yukga';
+import { caf_oberkampf } from './proximite/caf-oberkampf';
+import { cafe_industrie } from './proximite/cafe-industrie';
+import { le_centenaire } from './proximite/le-centenaire';
+import { le_grand_breguet } from './proximite/le-grand-breguet';
+import { yukga } from './proximite/yukga';
 import { fulgurances } from './alexandre-dumas/fulgurances';
 import { biondi } from './amelot/biondi';
 import { clown_bar } from './amelot/clown-bar';
@@ -93,7 +93,7 @@ import { brasserieMartin } from './saint-ambroise/brasserie-martin';
 import { chulita } from './parmentier/chulita';
 import { doubleDragon } from './saint-maur/double-dragon';
 import { bistrotPaulBert } from './paul-bert/paul-bert';
-import { passerini } from './--proximit-/passerini';
+import { passerini } from './proximite/passerini';
 import { leGoyavier } from './saint-bernard/goyavier';
 import { blanca } from './folie-mericourt/blanca';
 import { vaisseau } from './faidherbe/vaisseau';
@@ -127,6 +127,9 @@ import { auberge_pyrenees_cevennes } from './folie-mericourt/auberge-pyrenees-ce
 // --- AUTO-GENERATED MOELLE (75011) ---
 import { sababa_le_gout_de_la_paix } from './auto/sababa-le-gout-de-la-paix';
 import { zhao_bastille } from './auto/zhao-bastille';
+import { a_la_renaissance } from './auto/a-la-renaissance';
+import { present } from './auto/present';
+import { masaikuta } from './auto/masaikuta';
 
 export const arrondissement_11Places = [
     caf_oberkampf,
@@ -256,5 +259,8 @@ export const arrondissement_11Places = [
     auberge_pyrenees_cevennes,
     // --- AUTO-GENERATED MOELLE ---
     sababa_le_gout_de_la_paix,
-    zhao_bastille
+    zhao_bastille,
+    a_la_renaissance,
+    present,
+    masaikuta
 ];

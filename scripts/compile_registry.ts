@@ -80,7 +80,8 @@ CREATE TABLE IF NOT EXISTS places (
     nearest_metro TEXT,
     metro_line_json TEXT,
     vibes_json TEXT,
-    google_id TEXT
+    google_id TEXT,
+    michelin_stars INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS moments (
@@ -262,7 +263,8 @@ allPlaces.forEach((p, index) => {
     jsonValue(processImagesForDB(p.images)), jsonValue(processImagesForDB(p.images)?.gallery || []),
     jsonValue(null), jsonValue({ insider_tip: p.insider_tip, specials: p.specials, expert_catchline: p.expert_catchline }),
     valueOrNull(p.description), valueOrNull(p.insider_tip), valueOrNull(p.location.nearest_metro),
-    jsonValue(p.location.metro_lines), jsonValue([]), valueOrNull(p.location.google_id)
+    jsonValue(p.location.metro_lines), jsonValue([]), valueOrNull(p.location.google_id),
+    valueOrNull(p.michelin_stars)
   ];
 
   sqlOutput += `INSERT INTO places VALUES (${values.join(', ')});\n`;

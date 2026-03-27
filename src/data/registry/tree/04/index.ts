@@ -1,8 +1,8 @@
-import { lafayette_anticipations } from './--proximit-/lafayette-anticipations';
-import { latelier_brancusi } from './--proximit-/latelier-brancusi';
-import { maison_de_victor_hugo } from './--proximit-/maison-de-victor-hugo';
-import { maison_europenne_de_la_photographie } from './--proximit-/maison-europenne-de-la-photographie';
-import { pavillon_de_l_arsenal } from './--proximit-/pavillon-de-l-arsenal';
+import { lafayette_anticipations } from './proximite/lafayette-anticipations';
+import { latelier_brancusi } from './proximite/latelier-brancusi';
+import { maison_de_victor_hugo } from './proximite/maison-de-victor-hugo';
+import { maison_europenne_de_la_photographie } from './proximite/maison-europenne-de-la-photographie';
+import { pavillon_de_l_arsenal } from './proximite/pavillon-de-l-arsenal';
 import { le_feria } from './saint-paul---chemin-vert/le-feria';
 import { place_des_vosges } from './saint-paul---chemin-vert/place-des-vosges';
 

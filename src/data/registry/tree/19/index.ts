@@ -1,4 +1,4 @@
-import { le_centquatre } from './--proximit-/le-centquatre';
+import { le_centquatre } from './proximite/le-centquatre';
 import { buttes_chaumont } from './buttes-chaumont/buttes-chaumont';
 import { le_pavillon_des_canaux } from './laumi-re/le-pavillon-des-canaux';
 import { cite_des_sciences } from './porte-de-la-villette/cite-des-sciences';

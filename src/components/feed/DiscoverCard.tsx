@@ -168,6 +168,19 @@ export const DiscoverCard = React.memo(
               </View>
             </View>
 
+            {/* Michelin Badge Overlay */}
+            {place.michelin_stars && place.michelin_stars > 0 && (
+              <View style={[styles.michelinBadge, { backgroundColor: accentColor, flexDirection: 'row', alignItems: 'center' }]}>
+                <Text style={[styles.michelinText, { marginRight: 2 }]}>
+                  {place.michelin_stars}
+                </Text>
+                <Ionicons name="star" size={12} color="#fff" style={{ marginRight: 4 }} />
+                <Text style={styles.michelinText}>
+                  Michelin
+                </Text>
+              </View>
+            )}
+
             {/* Bottom Text Overlay */}
             <View style={styles.textOverlay}>
               <Text style={styles.name} numberOfLines={2}>
@@ -281,6 +294,24 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     textTransform: 'capitalize',
     flexShrink: 1,
+  },
+  michelinBadge: {
+    position: 'absolute',
+    top: 12,
+    right: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  michelinText: {
+    color: '#000', // Noir pour lisibilité sur fond mood color (orange/bleu/violet clair)
+    fontSize: 12,
+    fontWeight: 'bold',
   },
 
   // Mood Badge Styles (Copied from MomentItem)

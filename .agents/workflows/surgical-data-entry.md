@@ -1,117 +1,83 @@
 ---
-description: Protocole strict de création et de validation des fiches lieux (Standard Industriel 2026 - Moelle Totale)
+description: Protocole strict de crÃ©ation et de validation des fiches lieux (Standard Industriel 2026 - Moelle Totale)
 ---
 
-# Protocole Chirurgical de Création de Fiche Lieu (V10.3 - Unité de Lieu)
+# Protocole Chirurgical de CrÃ©ation de Fiche Lieu (V11.0 - UnitÃ© de Lieu)
 
-## 🚨 RÈGLE ABSOLUE
+## ðŸš¨ RÃˆGLE ABSOLUE
 
 > **L'AUTOMATISATION EST LA SEULE GARANTIE.**
-> Aucun badge ne doit être laissé au hasard. Le Scribe V9.0 pré-remplit les badges via l'API Google.
-> Toute modification manuelle d'un badge auto-détecté doit être justifiée par une preuve visuelle.
+> Aucun badge ne doit Ãªtre laissÃ© au hasard. Le Scribe V9.0 prÃ©-remplit les badges via l'API Google.
+> Toute modification manuelle d'un badge auto-dÃ©tectÃ© doit Ãªtre justifiÃ©e par une preuve visuelle.
+> **LE WIFI EST DÃ‰SORMAIS PROSCRIT (NE PLUS EN PARLER).**
 
 ---
 
-## PHASE 0 — LE ROBOT SCRIBE (CAPTURE INITIALE) 🤖⚓
+## PHASE 0 â€” LE ROBOT SCRIBE (CAPTURE INITIALE) ðŸ¤–âš“
 
-### 0.1 L'ANCRAGE & LES MÉTADONNÉES
-Utiliser systématiquement le script d'automatisation. **INTERDICTION** de chercher par nom seul pour les chaînes ou noms communs :
+### 0.1 L'ANCRAGE & LES MÃ‰TADONNÃ‰ES
+Utiliser systÃ©matiquement le script d'automatisation avec **l'adresse exacte** :
 ```bash
 npx tsx scripts/industrial_add.ts "[NOM DU LIEU] [ADRESSE EXACTE] Paris"
 ```
-**Ce que le robot verrouille désormais (V9.0) :**
-- `google_id` : Unique et ancré à l'adresse.
-- **Arborescence 01-20** : Les fichiers doivent être rangés dans des dossiers à deux chiffres (ex: `01`, `02`... jusqu'à `20`). **INTERDICTION** d'utiliser les noms `1`, `2`, `3` pour éviter les doublons structurels.
-- `terrace` : **Auto-détecté** via `outdoor_seating` de Google Maps.
-- `ferme_tard` : **Auto-verrouillé** si les horaires dépassent 00:00.
-- `reservation_policy` : **Auto-détecté** via la présence de liens 'TheFork' ou 'Zenchef'.
-- `hero` + `gallery` : Quota strict de 3 photos HD.
+**Ce que le robot verrouille dÃ©sormais (V9.0) :**
+- `google_id` : Unique et ancrÃ© Ã  l'adresse.
+- `terrace` : **Auto-dÃ©tectÃ©** via `outdoor_seating` de Google Maps.
+- `ferme_tard` : **Auto-verrouillÃ©** si les horaires dÃ©passent 00:00.
+- `reservation_policy` : **Auto-dÃ©tectÃ©** via la prÃ©sence de liens 'TheFork' ou 'Zenchef'.
+- `hero` + `gallery` : Quota strict de 3 photos HD Google (Remplacement des images AI par le Scribe).
+- **Étalonnage Visuel** : Si une photo Google est floue ou contient des visages trop marqués, relancer l'ancrage ou choisir manuellement une référence plus "premium" dans la galerie Google.
 
 ---
 
-## PHASE 1 — OPÉRATION MOELLE (REMPLISSAGE DU TS) 🦴💸
+## PHASE 1 â€” OPÃ‰RATION MOELLE (REMPLISSAGE DU TS) ðŸ¦´ðŸ’¸
 
-### 1.1 LE DOGME DU PRIX MÉDIAN (ENRICH ENGINE 2026)
-Le champ `dish_price` est désormais **CALCULÉ AUTOMATIQUEMENT** par `enrich_data.ts` lors de la synchronisation.
-- **Ton unique obligation** : Saisir le `menu_items` de façon exhaustive.
-- **Quota de Satiété** : Minimum **15 à 20 items de menu** pour tout lieu ayant une carte riche.
-- **Précision Monétaire** : La médiane finale est arrondie à **1 décimale** au maximum (ex: 18.3€).
-- **Exclusion Biais** : Bien nommer les catégories (ex: "Entrées", "Plats de Résistance", "Douceurs") pour que le script identifie les "vrais plats".
+### 1.1 LE DOGME DU PRIX MÃ‰DIAN (ENRICH ENGINE 2026)
+- **Ton unique obligation** : Saisir le `menu_items` de faÃ§on exhaustive (30+ items pour Lot #28).
+- **Exclusion Biais** : Bien nommer les catÃ©gories. **Banni : "Plat de RÃ©sistance"**, utiliser **"Plats"**.
 
-### 1.2 LES MOODS QUALITATIFS (BIO-MIMÉTISME)
-Ne jamais mettre 50/50. Analyser les avis Google réels pour ajuster :
-- **Chill** (< 20% si bruyant/vibrant) : Zen, intime, calme.
-- **Festif** (> 70% si bouillon/brasserie) : Effervescence, volume sonore, énergie.
-- **Culturel** (> 60% si décor iconique) : Histoire, architecture (ex: Art Déco), concept fort.
+### 1.2 LES MOODS QUALITATIFS (BIO-MIMÃ‰TISME)
+Ne jamais mettre 50/50. Analyser les avis Google rÃ©els.
 
-### 1.3 L'APPARTÉ DE L'INITIÉ (TRIPLE BULLET) 🎯
-Le champ `insider_tip` doit obligatoirement suivre le format **Triple Bullet** (`•`) avec des infos "vérité terrain" :
-- `•` **Timing Stratégique** (ex: "Arriver avant 12h15 pour éviter la queue").
-- `•` **Combo Gagnant / Moelle** (ex: "Le combo Os à Moelle + Bière du moment est imbattable").
-- `•` **Détail Secret / Ambiance** (ex: "Demander la table du fond pour plus d'intimité").
+### 1.3 L'APPARTÃ‰ DE L'INITIÃ‰ (TRIPLE BULLET) ðŸŽ¯
+Utiliser systÃ©matiquement les **template literals (backticks)** pour Ã©viter les erreurs de parsing multi-lignes.
 
-### 1.4 ON MANGE QUOI ICI ? (SPECIALS) 🍜🥧
-La section `specials` ne doit jamais être vide :
-- `cuisine` : Liste de 3 à 5 tags (ex: ["Française", "Bouillon", "Traditionnelle"]).
-- `must_eat` : **Doit commencer par le type de cuisine.** Format : "[Type de cuisine]. [Plat 1] & [Plat 2]". (Ex: "Bouillon traditionnel. Bœuf Bourguignon & Œuf Mayo").
-- `drinks` : Lister 2-3 types de boissons phares (ex: ["Vin de table", "Kir", "Café"]).
-
-### 1.5 LES 5 BADGES ÉLITE (FILTRAGE UNIQUE & COHÉRENCE) 💎🛡️
-Seuls ces 5 badges ont une valeur de filtrage. **AUDIT DE COHÉRENCE OBLIGATOIRE** :
-- **Résa conseillée** : `reservation_policy: "resa_conseillee"`. (Vérifier si le lieu est souvent complet).
-- **Terrasse** : `terrace: true`. (**Vérification visuelle systématique** sur Google Photos).
-- **Viande d'exception** : `viande_exception: true`. (Vérifier si viande maturée ou sourcée).
-- **Ferme tard** : `ferme_tard: true`. (**Cohérence Horaires** : Obligatoire si fermeture ≥ 00h00).
-- **Étoilé** : Renseigner `michelin_stars: 1 | 2 | 3`. (Vérifier le guide Michelin).
-
-### 1.6 L'AUDIT D'IDENTITÉ (VERROUILLAGE BATCH) 🧬
-Pour les envois par lot (ex: "Toutes les tavernes Zhao"), effectuer une relecture comparative :
-- `google_id` : Doit être **différent** pour chaque fichier.
-- `location` : Les coordonnées ne doivent pas être identiques (sauf adresse partagée type foodcourt).
-- `photos` : Les IDs et références doivent être uniques au lieu physique.
+### 1.4 ON MANGE QUOI ICI ? (SPECIALS) ðŸ�œðŸ¥§
+- `must_eat` : **DOIT COMMENCER PAR LE TYPE DE CUISINE.** 
+  Format : `"[Type de cuisine]. [Plat 1] & [Plat 2]"` (Ex: "Cuisine Basque. Magret & PÃ¢tÃ©").
 
 ---
 
-## PHASE 2 — SYNCHRONISATION INDUSTRIELLE 🛰️⚡️
+## PHASE 2 â€” SYNCHRONISATION INDUSTRIELLE ðŸ›°ï¸�âš¡ï¸�
 
-### 2.0 L'AUDIT DE CONFORMITÉ (OBLIGATOIRE) 🛡️
-Avant toute synchronisation, il est **STRICTEMENT OBLIGATOIRE** de lancer l'audit global :
+### 2.0 L'AUDIT DE CONFORMITÃ‰ (OBLIGATOIRE) ðŸ›¡ï¸�
 ```bash
 npm run audit-registry
 ```
-**Si l'audit échoue (Exit Code 1) :**
-- Analyser les infractions (Collisions IDs, Menu anémique, Photos manquantes).
-- Corriger les fichiers `.ts` concernés.
-- Relancer l'audit jusqu'à obtenir le message : `✅ AUDIT RÉUSSI`.
+**Si infractions (Parsing Error / LibellÃ© Proscrit / Menu AnÃ©mique) :**
+- Corriger AVANT toute synchronisation.
 
-### 2.1 LE SCAN DYNAMIQUE
-Le système scanne désormais toute l'arborescence `src/data/registry/tree/` dynamiquement. 
-**IL EST INTERDIT de modifier manuellement `src/data/registry/index.ts`.**
-
-### 2.2 COMMANDE DE DÉPLOIEMENT
-Lancer la synchronisation ciblée :
+### 2.1 DÃ‰PLOIEMENT CHIRURGICAL ðŸš€
+Ne jamais recompiler tout le registre pour un petit lot. Utiliser le flag strict :
 ```bash
-npm run industrial-sync --slug=[slug-du-lieu]
+npx tsx scripts/sync_to_supabase.ts --slug=slug1,slug2...
+npx tsx scripts/migrate_media.ts --slug=slug1,slug2...
+npx tsx scripts/inject_data.ts
+npx tsx scripts/enrich_data.ts --slug=slug1,slug2...
 ```
-**Vérification de sortie :**
-- `📍 1 lieux à injecter` (PostgreSQL Supabase).
-- `💰 [slug] Médiane Plats : XX.XX€` (Validation Logic V8.7).
 
 ---
 
-## 📋 CHECKLIST DE VALIDATION "MOELLE"
+## ðŸ“‹ CHECKLIST DE VALIDATION "MOELLE TOTALE"
 
 ```
-[ ] Phase 0 (Robot Scribe) effectuée avec **Adresse Exacte** (Ancrage)
-[ ] Fichier .ts créé avec slug "chirurgical"
-[ ] Unicité des IDs vérifiée ( google_id unique pour chaque lieu d'un batch )
-[ ] Menu : 20+ items saisis avec prix exacts (Respect des catégories enseigne)
-[ ] Photos : Quota de 3 visuels authentiques (Hero + 2 Gallery) respecté
-[ ] Moods : Analyse textuelle des avis effectuée (Pas de 50/50)
-[ ] Description : 3 phrases riches et immersives (Effervescence, Décor)
-[ ] On mange quoi ici : Commençant par le type de cuisine (ex: "Bouillon.")
-[ ] Badges Élite : Terrasse, Résa, Viande d'exception, Ferme tard, Étoilé
-[ ] Audit de Cohérence : Badges alignés sur Horaires/Visuels (ex: 00h00 = Ferme tard)
-[ ] Insider Tip : Format 3 puces (•) respecté et actionnable
-[ ] Sync : Commande industrial-sync lancée et Médiane confirmée
+[ ] Phase 0 (Robot Scribe) effectuÃ©e avec Adresse Exacte
+[ ] Photos : 3 visuels rÃ©els via Google (ZÃ©ro image AI)
+[ ] Menu : 30+ items saisis (SatiÃ©tÃ© garantie)
+[ ] CatÃ©gories : ZÃ©ro libellÃ© proscrit (Ex: "Plats" au lieu de "RÃ©sistance")
+[ ] Multi-ligne : Emploi des backticks (``) pour insider_tip
+[ ] On mange quoi ici : CommenÃ§ant par le type de cuisine (ex: "Cuisine Basque.")
+[ ] Badges Ã‰lite : Terrasse (VÃ©rification visuelle), RÃ©sa, Ferme tard (Horaires)
+[ ] WiFi : SupprimÃ© / Absent du fichier
+[ ] Sync : CiblÃ©e via --slug= (VÃ©rification mÃ©diane Logic v8.7)
 ```

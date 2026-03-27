@@ -72,6 +72,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
         'cocktail_price',
         'coffee_price',
         'main_dish_price',
+        'michelin_stars',
         // No Categories JSON, No Social, No Editorial, No Vibe, No AI Insights
         'pricing_json', // Required for Happy Hour parsing inside the MiniBadge
       ])

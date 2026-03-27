@@ -95,7 +95,9 @@ export const PlaceHero = React.memo(() => {
       </View>
 
       <View style={styles.heroContent} pointerEvents="none">
-        <Text style={styles.heroTitle}>{viewModel.hero.title}</Text>
+        <Text style={styles.heroTitle}>
+          {viewModel.hero.title} {viewModel.hero.michelin_stars ? '★'.repeat(viewModel.hero.michelin_stars) : ''}
+        </Text>
       </View>
     </View>
   );

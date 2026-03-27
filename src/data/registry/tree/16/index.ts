@@ -1,12 +1,12 @@
-import { carette_trocadero } from './--proximit-/carette-trocadero';
-import { cite_architecture_patrimoine } from './--proximit-/cite-architecture-patrimoine';
-import { fondation_louis_vuitton } from './--proximit-/fondation-louis-vuitton';
-import { jardin_acclimatation } from './--proximit-/jardin-acclimatation';
-import { maison_de_balzac } from './--proximit-/maison-de-balzac';
-import { musee_de_lhomme } from './--proximit-/musee-de-lhomme';
-import { musee_guimet } from './--proximit-/musee-guimet';
-import { musee_marmottan_monet } from './--proximit-/musee-marmottan-monet';
-import { palais_galliera } from './--proximit-/palais-galliera';
+import { carette_trocadero } from './proximite/carette-trocadero';
+import { cite_architecture_patrimoine } from './proximite/cite-architecture-patrimoine';
+import { fondation_louis_vuitton } from './proximite/fondation-louis-vuitton';
+import { jardin_acclimatation } from './proximite/jardin-acclimatation';
+import { maison_de_balzac } from './proximite/maison-de-balzac';
+import { musee_de_lhomme } from './proximite/musee-de-lhomme';
+import { musee_guimet } from './proximite/musee-guimet';
+import { musee_marmottan_monet } from './proximite/musee-marmottan-monet';
+import { palais_galliera } from './proximite/palais-galliera';
 import { palais_de_tokyo } from './i-na/palais-de-tokyo';
 
 // Lot L (Phase 23)

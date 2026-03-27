@@ -118,5 +118,5 @@ export const dersou: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    michelin_stars: 0 // Featured in Guide but no star (Bib/Selection)
+    michelin_stars: null,
 };

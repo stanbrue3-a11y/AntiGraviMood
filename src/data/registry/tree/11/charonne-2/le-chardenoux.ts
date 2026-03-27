@@ -40,63 +40,65 @@ export const le_chardenoux: SurgicalPlace = {
         coffee_price: 0,
         dish_price: 28, // MANUAL: Median des Plats individuels (26, 28, 28, 28, 31, 32, 32) — bar en croûte et entrecôte exclus (partage)
         last_updated: "2026-03-06",
-        menu_items: [
-            {
-                category: "Entrées",
-                items: [
-                    // VERIFIED: ParisGourmand + site officiel (2024)
-                    { name: "Crispy sushi saumon aux agrumes, chipotle", price: "16.00€" },
-                    { name: "Œuf moelleux, asperges blanches, noix", price: "16.00€" },
-                    { name: "Beignets d'encornets, mayonnaise paprika", price: "17.00€" },
-                    { name: "Crevettes croustillantes épicées, romaine", price: "19.00€" },
-                    { name: "Carpaccio de dorade, citron, baies roses", price: "19.00€" },
-                    { name: "Asperges vertes caramélisées au miso", price: "20.00€" },
-                    { name: "Tartare de thon ponzu, avocat sésame", price: "20.00€" },
-                    { name: "Galette craquante, tourteau curry Madras", price: "25.00€" }
-                ]
-            },
-            {
-                category: "Plats",
-                items: [
-                    // VERIFIED: ParisGourmand (2024) — plats individuels 26-32€
-                    { name: "Gnocchi et stracciatella, sauce tomate aux herbes", price: "26.00€" },
-                    { name: "Lieu jaune au miso, petits pois à la française", price: "28.00€" },
-                    { name: "Le cheeseburger du Chardenoux", price: "28.00€" },
-                    { name: "Bavette grillée aux épices saté", price: "28.00€" },
-                    { name: "Épaule d'agneau confite aux olives, citron", price: "31.00€" },
-                    { name: "Les fameuses ravioles de langoustines, bisque", price: "32.00€", description: "Le plat signature de Cyril Lignac." },
-                    { name: "Lobster roll, crevettes et homard, avocat", price: "32.00€" }
-                ]
-            },
-            {
-                category: "Plats à Partager",
-                items: [
-                    // Exclues du dish_price
-                    { name: "Bar en croûte de sel, vierge de légumes (pour 2)", price: "45.00€", description: "Prix par personne." },
-                    { name: "Entrecôte de race française 500g, béarnaise, frites (pour 2)", price: "30.00€", description: "Prix par personne." }
-                ]
-            },
-            {
-                category: "Desserts",
-                items: [
-                    // VERIFIED: ParisGourmand + site officiel (2024) — desserts 12-15€
-                    { name: "Mille-feuille vanille, praliné noix de pécan", price: "12.00€" },
-                    { name: "Pain perdu aux framboises, glace pistache", price: "12.00€" },
-                    { name: "Biscuit coulant au chocolat, praliné noisettes", price: "12.00€" },
-                    { name: "Baba au rhum, crème fouettée vanille", price: "12.00€" },
-                    { name: "Tarte tatin, crème crue", price: "15.00€" },
-                    { name: "Profiteroles glacées, sauce chocolat", price: "14.00€" }
-                ]
-            },
-            {
-                category: "Cocktails & Vins",
-                items: [
-                    { name: "Cocktails signatures", price: "15.00€" },
-                    { name: "Verre de vin (à partir de)", price: "10.00€" },
-                    { name: "Bouteille (à partir de)", price: "35.00€" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Entrées Marine & Créativité (Entrées)",
+        items: [
+          { name: "Crispy Sushi Saumon, agrumes & chipotle", price: "16.00€", highlight: true },
+          { name: "Crevettes Croustillantes épicées, romaine", price: "19.00€" },
+          { name: "Carpaccio de Daurade Royale au citron", price: "19.00€" },
+          { name: "Beignets d'Encornets, mayo paprika", price: "17.00€" },
+          { name: "Tartare de Thon Ponzu, avocat sésame", price: "20.00€" },
+          { name: "Galette craquante au Tourteau, curry", price: "25.00€", highlight: true },
+          { name: "Six Huîtres Utah Beach N°2", price: "24.00€" },
+          { name: "Asperges Vertes caramélisées au miso", price: "20.00€" }
         ]
+      },
+      {
+        category: "Plats Signatures & Partage (Plats)",
+        items: [
+          { name: "Ravioles de Langoustines, bisque légère", price: "32.00€", highlight: true },
+          { name: "Lieu Jaune au miso, petits pois", price: "28.00€" },
+          { name: "Lobster Roll, crevettes & avocat", price: "32.00€", highlight: true },
+          { name: "Le Cheeseburger du Chardenoux", price: "28.00€" },
+          { name: "Bavette grillée aux épices Saté", price: "28.00€" },
+          { name: "Épaule d'Agneau confite aux olives", price: "31.00€" },
+          { name: "Bar en croûte de sel (pour 2)", price: "90.00€" },
+          { name: "Côte de Boeuf 500g, Béarnaise (pour 2)", price: "80.00€" }
+        ]
+      },
+      {
+        category: "Desserts de Haute Pâtisserie (Desserts)",
+        items: [
+          { name: "Mille-feuille Vanille, praliné pécan", price: "12.00€", highlight: true },
+          { name: "Pain Perdu aux framboises, pistache", price: "12.00€" },
+          { name: "Biscuit coulant au Chocolat Noir", price: "12.00€" },
+          { name: "Baba au Rhum, crème fouettée vanille", price: "12.00€" },
+          { name: "Tarte Tatin artisanale, crème crue", price: "15.00€" },
+          { name: "Profiteroles glacées, sauce chocolat", price: "14.00€" }
+        ]
+      },
+      {
+        category: "Mixologie & Cocktails (Boissons)",
+        items: [
+          { name: "Cocktail 'Le Chardenoux' (Gin/Hibiscus)", price: "15.00€", highlight: true },
+          { name: "Martini Espresso du Chef", price: "16.00€" },
+          { name: "Spicy Margarita (Tequila/Piment)", price: "15.00€" },
+          { name: "Mocktail 'Jardin d'Hiver'", price: "11.00€" }
+        ]
+      },
+      {
+        category: "Flacons & Boissons (Boissons)",
+        items: [
+          { name: "Verre de Chablis 'Sélection'", price: "12.00€", highlight: true },
+          { name: "Verre de Pessac-Léognan", price: "14.00€" },
+          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
+          { name: "Café Espresso Signature", price: "3.50€" },
+          { name: "Double Espresso", price: "5.50€" },
+          { name: "Thé Mariage Frères", price: "7.00€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV3pJ4VfyXYG5-U9xnSHROZDUYHavJXhfsUT7ONoL3eP83oPDtXJ4HBT01hnj5b0X7jvEFQDVHs_qbNwGhlH-7VvASG0IQB-eSZ3mM9wXnGlH_E5ChgVT7JgFzs1YJ0iy1m9a4z_vzY-PXo5bzKhSwCxT10lD7NxcLGDY6Zd6I6tiarrxKNGGe7nOF67Dk0s24ZItN3MykOm_fII8k2G3JNhT0oP8DV0FJbfS_CyP8PmnZga6WyycQwnLlhl65qTFwDlGSM3ia-zs9D5XC5CpxPTA3bInn7MN5oMz6aVceOIg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

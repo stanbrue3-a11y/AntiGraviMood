@@ -189,6 +189,7 @@ export const PlaceSchema = z.object({
   google_user_ratings_total: z.number().optional(),
 
   verified: z.boolean().default(false),
+  michelin_stars: z.number().int().min(1).max(3).optional().nullable(),
 });
 
 // --- EXPORT TYPES VIA INFERENCE ---

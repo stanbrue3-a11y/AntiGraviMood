@@ -41,67 +41,63 @@ export const clamato: SurgicalPlace = {
         dish_price: 35, // MANUAL: Équivalent d'un plat complet (Assiettes à partager, 2-3 par personne).
         force_manual_dish_price: true,
         last_updated: "2026-03-07",
-        menu_items: [
-            {
-                category: "Les Incontournables & Grignotages (Standard Moelle 2025)",
-                items: [
-                    { name: "Rillette de bonite", price: "7.00€", description: "L'amuse-bouche marin classique, parfait pour commencer." },
-                    { name: "Tarama d'œuf de cabillaud fumé au zaatar", price: "8.00€", description: "Une onctuosité folle relevée par les épices." },
-                    { name: "Bulots de Dieppe, aïoli à l'ail rôti", price: "9.00€", description: "Générationnel, l'aïoli est d'une précision chirurgicale." },
-                    { name: "Coques de Roscoff, beurre au vinaigre fumé", price: "9.00€", description: "L'acidité fumée qui claque en bouche." },
-                    { name: "Accras de morue sauce chien", price: "11.00€", description: "Croustillants, cœur fondant, sauce percutante." },
-                    { name: "Oursins de Galice (les 3)", price: "15.00€", description: "L'iode pur, à déguster à la petite cuillère." },
-                    { name: "Huîtres Marennes Oléron N°3 (les 6)", price: "18.00€" },
-                    { name: "Huîtres Utah Beach N°2 (les 6)", price: "20.00€" },
-                    { name: "Huîtres plates de Belon (les 6)", price: "24.00€" },
-                    { name: "Bigorneaux au court-bouillon", price: "7.00€" },
-                    { name: "Croquette de lieu jaune, sauce Huancaína", price: "8.00€" }
-                ]
-            },
-            {
-                category: "Le Cru & Les Assiettes Moyennes (Crudos)",
-                items: [
-                    { name: "Ceviche de mulet noir, courge musquée, coriandre", price: "14.00€", description: "Équilibre parfait entre le gras du poisson et l'acidité du leche de tigre." },
-                    { name: "Carpaccio de mulet, huile de sésame, piment", price: "14.50€" },
-                    { name: "Maigre de ligne, poire et chou-rave", price: "15.00€", description: "Une association terre-mer audacieuse et fraîche." },
-                    { name: "Saint-Jacques crues, cédrat et clémentine", price: "16.00€", description: "La douceur de la Saint-Jacques dynamisée par les agrumes." },
-                    { name: "Thon blanc, échalotes et groseille", price: "16.00€" },
-                    { name: "Tartare de thon rouge, stracciatella, anchois", price: "18.00€" },
-                    { name: "Truite de Banka, sauce matelote et lard fumé", price: "18.00€" },
-                    { name: "Daurade royale, navet kabu et huile de poireau", price: "17.00€" }
-                ]
-            },
-            {
-                category: "Les Grandes Assiettes (Plats à partager)",
-                items: [
-                    { name: "Poulpe grillé, pommes grenailles, aïoli", price: "29.00€", description: "Tendreté absolue, un classique immuable de la maison." },
-                    { name: "Lotte rôtie, jus de viande, champignons sauvages", price: "34.00€" },
-                    { name: "Bar entier d'Oléron, sauce béarnaise", price: "39.00€", description: "Cuit à la perfection, pour deux personnes." },
-                    { name: "Saint-Jacques snackées, beurre blanc truffé", price: "24.00€" },
-                    { name: "Seiche à la plancha, encre et piment", price: "21.00€" },
-                    { name: "Mulet entier au sel, légumes de saison", price: "36.00€" },
-                    { name: "Plateau panaché (crabes, bulots, oursins, coques, huîtres)", price: "65.00€", description: "Le plateau signature hyper iodé de l'écailler." }
-                ]
-            },
-            {
-                category: "Desserts & Douceurs",
-                items: [
-                    { name: "Tartelette au sirop d'érable, crème fouettée", price: "8.00€", description: "L'incontournable dessert signature, cultissime, passage obligé." },
-                    { name: "Glace au sarrasin, caramel beurre salé", price: "7.00€" },
-                    { name: "Calamansi curd, biscuit noisette", price: "9.00€" },
-                    { name: "Clementine et sorbet herbes", price: "8.00€" }
-                ]
-            },
-            {
-                category: "Drinks & Signature Cocktails",
-                items: [
-                    { name: "Clamato Bloody Mary", price: "12.00€", description: "Le cocktail signature, parfait avec les huîtres." },
-                    { name: "Michelada (Bière, jus de tomate, épices)", price: "10.00€" },
-                    { name: "Cidre fermier brut (le verre)", price: "6.00€" },
-                    { name: "Pet-Nat (sélection du moment)", price: "9.00€" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Banc de l'Écailler (Entrées & Plats)",
+        items: [
+          { name: "Huîtres Marennes Oléron N°3 (les 6)", price: "18.00€", highlight: true },
+          { name: "Huîtres Utah Beach N°2 (les 6)", price: "20.00€" },
+          { name: "Huîtres Plates de Belon N°0 (les 6)", price: "28.00€" },
+          { name: "Oursins de Galice sauvage (l'unité)", price: "6.00€", highlight: true },
+          { name: "Bulots de Dieppe, aïoli maison", price: "9.00€" },
+          { name: "Bigorneaux au court-bouillon", price: "7.00€" },
+          { name: "Crevettes Grises à décortiquer", price: "8.50€" },
+          { name: "Plateau Royal (Assortiment complet)", price: "75.00€", highlight: true }
         ]
+      },
+      {
+        category: "Assiettes à Partager (Entrées & Plats)",
+        items: [
+          { name: "Tarama d'œuf de cabillaud au Zaatar", price: "8.00€" },
+          { name: "Ceviche de Mulet Noir, piment & coriandre", price: "14.00€", highlight: true },
+          { name: "Cru de Maigre, poire & chou-rave", price: "15.00€" },
+          { name: "Carpaccio de Saint-Jacques au Cédrat", price: "17.00€" },
+          { name: "Accras de Morue 'Clamato' (x6)", price: "11.00€" },
+          { name: "Poulpe grillé, pommes grenailles", price: "29.00€", highlight: true },
+          { name: "Seiches à la plancha, ail & persil", price: "19.00€" },
+          { name: "Lotte rôtie, jus de viande percutant", price: "32.00€" }
+        ]
+      },
+      {
+        category: "Desserts Signature (Desserts)",
+        items: [
+          { name: "Tartelette au Sirop d'Érable (Culte)", price: "9.00€", highlight: true },
+          { name: "Glace au Sarrasin torréfié", price: "7.00€" },
+          { name: "Sorbet Herbes fraîches & Citron", price: "7.00€" },
+          { name: "Mousse Chocolat noir & Fleur de sel", price: "10.00€" }
+        ]
+      },
+      {
+        category: "Mixologie Marime (Boissons)",
+        items: [
+          { name: "Clamato Bloody Mary (Signature)", price: "12.00€", highlight: true },
+          { name: "Michelada (Bière & Sauce épicée)", price: "10.00€" },
+          { name: "Pisco Sour à la péruvienne", price: "13.00€" },
+          { name: "Mocktail 'Iode & Gingembre'", price: "9.50€" }
+        ]
+      },
+      {
+        category: "Cave Nature & Bulles (Boissons)",
+        items: [
+          { name: "Verre de Muscadet Sèvre-et-Maine", price: "8.00€", highlight: true },
+          { name: "Pet'Nat 'La Bulle Moderne' (Verre)", price: "10.00€" },
+          { name: "Bouteille Vin Blanc 'Vivant'", price: "38.00€" },
+          { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
+          { name: "Cidre Brut Artisanal (Verre)", price: "7.00€" },
+          { name: "Café Espresso (Lomi)", price: "3.00€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW9fcwhhyzTiHXywtWNIaNViOmZXBZnpgt9ChW2xs6bFzOIU3P1tlD8Swm7g5FioyccGdIohK3kKqK27_dtGuroHH_-eum7x5pdFPvIOfpgGj3kJ4rS7ZKtcUF08rtaqczZW5pFF-ZUywdfILY8WmRjc-G-r_jNfHe_voZx2JQ5rdsVmottu5k5QAqlq32aMM_7OOnvQuyRYIJlkq3EnZw5ZV5KqWsfonVSJ5I4TCQjl5LSXy-h5MsSDB0Wn3wRp4fESaM_-IRDfJQhiYCEhgJgcQ0MlZvwaK4vttQ40NkPrbt3yu9xGHxjbhqjbewl1YNDBRfEuD4o1pKs3fzRDorSIX62LLcAYvK_EErVhNEmwGSDG_q7OUcw11lC9ISy98y0eS4ajPGFUW80YdJ-Hwmfjdocw38ehzBW-VTKezpxDeveROv_jXWHb-hRsswp&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

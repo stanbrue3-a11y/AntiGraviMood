@@ -42,34 +42,61 @@ export const septime: SurgicalPlace = {
         menu_type: "fixed",
         force_manual_dish_price: true,
         last_updated: "2024-03-08",
-        menu_items: [
-            {
-                category: "Menus Dégustation (Carte Blanche)",
-                items: [
-                    { name: "Menu Dîner (7 étapes)", price: "135.00€", description: "Une progression créative et saisonnière en 7 services." },
-                    { name: "Menu Déjeuner (5 étapes)", price: "85.00€", description: "Disponible au déjeuner uniquement." },
-                    { name: "Accord Mets & Vins - Dîner", price: "75.00€" },
-                    { name: "Accord Mets & Vins - Déjeuner", price: "60.00€" }
-                ]
-            },
-            {
-                category: "Exemples de Séquences (Variable)",
-                items: [
-                    { name: "Asperges blanches, ail des ours & jaune d'œuf confit", price: "Inclus" },
-                    { name: "Lieu jaune de ligne, beurre blanc foin & poireaux", price: "Inclus" },
-                    { name: "Canette rôtie, betteraves & jus au foin", price: "Inclus" },
-                    { name: "Pigeon au BBQ, oseille & anchois", price: "Inclus" },
-                    { name: "Tartelette aux fraises des bois & crème de sureau", price: "Inclus" },
-                    { name: "Gris de Lille, condiment coing & herbes amères", price: "Inclus" },
-                    { name: "Mousse au chocolat fumé & sel de Maldon", price: "Inclus" },
-                    { name: "Pain au levain & Beurre de baratte au sel de mer", price: "Inclus" },
-                    { name: "Eau micro-filtrée (pétillante ou plate)", price: "4.50€" },
-                    { name: "Mignardises de la Maison", price: "Inclus" },
-                    { name: "Café de spécialité torréfié par nos soins", price: "4.00€" },
-                    { name: "Infusion de plantes du jardin", price: "4.00€" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Menus Dégustation (Carte Blanche)",
+        items: [
+          { name: "Menu Dîner (7 étapes)", price: "135.00€", description: "Progression créative et saisonnière.", highlight: true },
+          { name: "Menu Déjeuner (5 étapes)", price: "85.00€", description: "Uniquement au déjeuner.", highlight: true },
+          { name: "Accord Mets & Vins - Dîner (5 verres)", price: "75.00€" },
+          { name: "Accord Mets & Vins - Déjeuner (3 verres)", price: "60.00€" }
         ]
+      },
+      {
+        category: "Séquences du Moment (Exemples Plats)",
+        items: [
+          { name: "Asperges blanches, ail des ours & jaune d'œuf", price: "0.00€", highlight: true },
+          { name: "Lieu jaune de ligne, beurre blanc foin", price: "0.00€", highlight: true },
+          { name: "Canette rôtie au BBQ, betteraves", price: "0.00€" },
+          { name: "Pigeon de chez M. Trouillet, oseille", price: "0.00€" },
+          { name: "Trou Normand revisité (Pomme/Céleri)", price: "0.00€" },
+          { name: "Mousse au chocolat fumé & sel de Maldon", price: "0.00€" },
+          { name: "Tartelette fraises des bois, sureau", price: "0.00€" },
+          { name: "Sélection de fromages affinés (Supplément)", price: "15.00€" }
+        ]
+      },
+      {
+        category: "La Cave Nature (Boissons)",
+        items: [
+          { name: "Verre de Vin Nature du jour", price: "12.00€", highlight: true },
+          { name: "Pet'Nat 'Bulles de Vie' (Verre)", price: "14.00€" },
+          { name: "Champagne Jacques Lassalle (Verre)", price: "22.00€" },
+          { name: "Cidre de Glace (Verre)", price: "11.00€" },
+          { name: "Bouteille Septime 'Cuvée Maison'", price: "45.00€" },
+          { name: "Grand Cru Bourgogne (Bouteille)", price: "120.00€" }
+        ]
+      },
+      {
+        category: "Caféterie & Infusions (Boissons)",
+        items: [
+          { name: "Café de Spécialité (Torréfié maison)", price: "4.00€", highlight: true },
+          { name: "Infusion de plantes du jardin", price: "4.00€" },
+          { name: "Thé Vert Genmaicha", price: "6.00€" },
+          { name: "Double Espresso", price: "6.00€" },
+          { name: "Décaféiné à l'eau", price: "4.50€" }
+        ]
+      },
+      {
+        category: "Eaux & Softs (Boissons)",
+        items: [
+          { name: "Eau micro-filtrée Septime (75cl)", price: "4.50€" },
+          { name: "Jus de fruits frais (Sourcing direct)", price: "8.00€" },
+          { name: "Kombucha Maison 'Verveine'", price: "9.00€", highlight: true },
+          { name: "Limonade Artisanale", price: "7.00€" },
+          { name: "Badoit (75cl)", price: "6.50€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVoWY8rpDqKEPd9pWh_xUNdz65Vr4S0YiBJ5uUjPWYVdifTL60C-OQTd2cqb3uamBZe2exLgcEcp4licpiUC_hdvCFn3kdvBbgzGVNeIeDf2laLIie_D14VeGS4a5Q3nvP6jihwKRMJZq-dNLuE2xC39eRVWuYgyYws5ho8LRRcGV4CVNnTVPDqndtoEc5F26JoEHXkYoxLhTHCGDUo-GnTkperwoYILaFx8p7wWM9VfyK9SER6BxQZHwUo5JPDUt_kBzUCeVN6Au6-xQ-HJP06iwXf4GR_ky398LBMDAQan_1EobJCC1cCJSvk-ZnCyojiZqiQcc-TooRy9U6HbXwCq4JExj0IUpff3ZwuSbpSe8NzZVMR_oUpx8N36WaiER9BIL735YEjesMSG4amqIfqq2P2vd1yaXvi1Vtmg4g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -52,12 +52,15 @@ export class DataService {
       try {
         logger.log('🧠 [DataService] Cloud-First Ignition Start...');
 
-        // 1. Repository Hydration (Supabase for Places)
-        const placesRepo = new SupabasePlacesRepository();
-
-        // 2. Local fallback for Moments (Keep it for now as requested)
         const db = await this._kernel.attach();
         await MigrationRunner.run(db);
+
+        // 1. Repository Hydration (Local Mode by default in dev for agility)
+        const isDev = __DEV__ || !!process.env.EXPO_PUBLIC_USE_LOCAL_DB;
+        console.warn(`🏗️ [DataService] ENGINE MODE: ${isDev ? 'LOCAL SQLITE' : 'CLOUD SUPABASE'}`);
+        
+        const placesRepo = isDev ? new (require('../repositories/SQLitePlacesRepository').SQLitePlacesRepository)(db) : new SupabasePlacesRepository();
+        
         const momentsRepo = new SQLiteMomentsRepository(db);
 
         // 3. Atomic Assignment

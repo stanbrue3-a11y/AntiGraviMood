@@ -1,7 +1,7 @@
-import { batofar } from './--proximit-/batofar';
-import { djoon } from './--proximit-/djoon';
-import { nuba } from './--proximit-/nuba';
-import { petit_bain } from './--proximit-/petit-bain';
+import { batofar } from './proximite/batofar';
+import { djoon } from './proximite/djoon';
+import { nuba } from './proximite/nuba';
+import { petit_bain } from './proximite/petit-bain';
 import { wanderlust } from './gare-d-austerlitz/wanderlust';
 import { lancetta } from './place-d-italie/lancetta';
 import { le_val_royal } from './port-royal/le-val-royal';
@@ -19,7 +19,6 @@ import { au_petit_marguery } from './auto/au-petit-marguery';
 import { le_bambou } from './auto/le-bambou';
 import { restaurant_lao_lane_xang } from './auto/restaurant-lao-lane-xang';
 import { la_felicita } from './auto/la-felicita';
-import { l_amiral } from './auto/l-amiral';
 import { il_etait_un_square_burger_paris } from './auto/il-etait-un-square-burger-paris';
 import { ngoc_xuyen_saigon } from './auto/ngoc-xuyen-saigon';
 import { l_age_d_or } from './auto/l-age-d-or';
@@ -45,7 +44,6 @@ export const arrondissement_13Places = [
     le_bambou,
     restaurant_lao_lane_xang,
     la_felicita,
-    l_amiral,
     il_etait_un_square_burger_paris,
     ngoc_xuyen_saigon,
     l_age_d_or

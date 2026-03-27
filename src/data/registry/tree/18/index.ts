@@ -1,7 +1,7 @@
-import { halle_saint_pierre } from './--proximit-/halle-saint-pierre';
-import { la_station } from './--proximit-/la-station';
-import { musee_de_montmartre } from './--proximit-/musee-de-montmartre';
-import { pizza_del_mondo } from './--proximit-/pizza-del-mondo';
+import { halle_saint_pierre } from './proximite/halle-saint-pierre';
+import { la_station } from './proximite/la-station';
+import { musee_de_montmartre } from './proximite/musee-de-montmartre';
+import { pizza_del_mondo } from './proximite/pizza-del-mondo';
 import { la_rughetta } from './abbesses/la-rughetta';
 import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
 import { la_marmite } from './pigalle/la-marmite';
@@ -12,7 +12,6 @@ import { bon_jo } from './auto/bon-jo';
 import { bouillon_pigalle } from './auto/bouillon-pigalle';
 import { brasserie_barbes } from './auto/brasserie-barbes';
 import { chantoiseau } from './auto/chantoiseau';
-import { l_alimentari_18 } from './auto/l-alimentari-18';
 import { l_ete_en_pente_douce } from './auto/l-ete-en-pente-douce';
 import { la_boite_aux_lettres } from './auto/la-boite-aux-lettres';
 import { la_mascotte_montmartre } from './auto/la-mascotte-montmartre';
@@ -24,6 +23,8 @@ import { le_vieux_chalet } from './auto/le-vieux-chalet';
 import { le_vrai_paris } from './auto/le-vrai-paris';
 import { popine_sacre_coeur } from './auto/popine-sacre-coeur';
 import { sacree_fleur_montmartre } from './auto/sacree-fleur-montmartre';
+import { l_arcane } from './auto/l-arcane';
+import { le_maquis } from './cloys/le-maquis';
 
 export const arrondissement_18Places = [
     halle_saint_pierre,
@@ -39,7 +40,6 @@ export const arrondissement_18Places = [
     bouillon_pigalle,
     brasserie_barbes,
     chantoiseau,
-    l_alimentari_18,
     l_ete_en_pente_douce,
     la_boite_aux_lettres,
     la_mascotte_montmartre,
@@ -50,5 +50,7 @@ export const arrondissement_18Places = [
     le_vieux_chalet,
     le_vrai_paris,
     popine_sacre_coeur,
-    sacree_fleur_montmartre
+    sacree_fleur_montmartre,
+    l_arcane,
+    le_maquis
 ];

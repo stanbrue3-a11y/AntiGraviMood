@@ -1,7 +1,7 @@
-import { poi_59_rivoli } from './--proximit-/59-rivoli';
-import { bourse_de_commerce } from './--proximit-/bourse-de-commerce';
-import { fondation_cartier } from './--proximit-/fondation-cartier';
-import { muse_de_lorangerie } from './--proximit-/muse-de-lorangerie';
+import { poi_59_rivoli } from './proximite/59-rivoli';
+import { bourse_de_commerce } from './proximite/bourse-de-commerce';
+import { fondation_cartier } from './proximite/fondation-cartier';
+import { muse_de_lorangerie } from './proximite/muse-de-lorangerie';
 import { anticafe_louvre } from './palais-royal/anticafe-louvre';
 import { jardin_du_palais_royal } from './palais-royal/jardin-du-palais-royal';
 import { cafe_kitsune } from './palais-royal---mus-e-du-louvre/cafe-kitsune';

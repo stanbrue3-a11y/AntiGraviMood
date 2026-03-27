@@ -1,96 +1,63 @@
-import { SurgicalPlace } from '../../../type-definition';
+import { SurgicalPlace } from "../../../type-definition";
 
-export const doubleDragon: SurgicalPlace = {
-    id: "poi-double-dragon",
-    name: "Double Dragon",
-    slug: "double-dragon",
-    category: "restaurant",
-    subcategory: ["asian-fusion", "filipino", "chinese", "street-food", "bib-gourmand"],
-    location: {
-        address: "52 Rue Saint-Maur",
-        arrondissement: 11,
-        lat: 48.8614682,
-        lng: 2.3804245,
-        nearest_metro: "Saint-Maur",
-        metro_lines: [3],
-        google_id: "ChIJ_0I5iV1t5kcR_0I5iV1t5kc"
-    },
-    moods: {
-        chill: 60,
-        festif: 90,
-        culturel: 50
-    },
-    practical: {
-        opening_hours_raw: "Mar-Sam: 19:30–22:30; Mer-Sam: 12:00–14:30; Fermé Lun-Dim",
-        reservation_policy: "sans_resa",
-        terrace: false,
-        accessibility: true,
-        wifi: false,
-        main_action: {
-            type: "site",
-            url: "https://www.doubledragonparis.com",
-            label: "SITE WEB"
-        }
-    },
-    pricing: {
-        avg_budget: 35,
-        is_free: false,
-        pint_price: 7.00,
-        wine_glass: 7.50,
-        coffee_price: 3.50,
-        dish_price: 15.00, // MANUAL: Median of Platitos & KFC
-        menu_type: "standard",
-        force_manual_dish_price: true,
-        last_updated: "2026-03-08",
-        menu_items: [
-            // VERIFIED: Double Dragon 2024-2025 (Bib Gourmand 2025)
-            {
-                category: "Pica Pica (Entrées)",
-                items: [
-                    { name: "Bao au comté & XO", price: "9.00€", description: "Mayonnaise XO, le hit maison." },
-                    { name: "Gyeranjjim (Oeufs vapeur)", price: "5.00€" },
-                    { name: "Salade de concombres pimentés", price: "6.50€" }
-                ]
-            },
-            {
-                category: "Platitos (Sharing)",
-                items: [
-                    { name: "KFC: Korean Fried Chicken", price: "15.00€", description: "Poulet frit, sauce pimentée, sésame." },
-                    { name: "Lechon Kawali", price: "20.00€", description: "Poitrine de porc croustillante laquée au miel." },
-                    { name: "Kinilaw de thon blanc", price: "14.50€", description: "Ceviche version Philippines." },
-                    { name: "Tofu farci au comté", price: "13.00€" }
-                ]
-            },
-            {
-                category: "Riz & Sides",
-                items: [
-                    { name: "Riz blanc parfumé", price: "3.50€" },
-                    { name: "Riz sauté Double Dragon", price: "9.50€" },
-                    { name: "Légumes du moment au wok", price: "11.00€" }
-                ]
-            },
-            {
-                category: "Desserts",
-                items: [
-                    { name: "Brownie Cajou & Chantilly Kawa", price: "10.00€" },
-                    { name: "Tapioca Coco & Fruits Frais", price: "8.50€" }
-                ]
-            }
-        ]
-    },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVkVI1UFWmaOB8T077AbpJ0ZbOONEzYBY0AiJIr-oW8p8JmX4FEErHn88mPNuz1ChGdmkjXNcuqmTqkxKj4WkC9GsO3VSslykvaRvKoQailzHCogbKErRz844RvKb45NM_EVtxspF3a3K8Iifa4cBtDK-_ppkjnILDGhopJzMTVSsBXG43LVdFECEAhAbSFM1PMfeuCoQzPtJ1NKs2KDvZ936T_o_RGiAyRQ-QIAbFxyWUZ3M31E73mbvYtOYx3C_GikBVpGcTUovI-LmnSDcpwQzC7N5M5xNQ86bTEIH5Bb6ZmN4cE4CNWIFrBMENuERnAy8lktnWA_zBsynxwEikPW5zBeDtktEwVMHXAbY1HoV5NJ7ulzeesmmthN-wXO4wdTob7xJvujjHZv2_t7eOdR8XaeqcBoq2_i_rgtHosE1Go&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
-    verified: true,
-    google_rating: 4.5,
-    description: "Double Dragon est la petite soeur sauvage du Servan. Les soeurs Levha y proposent une cuisine fusion asiatique (Philippines, Chine, Thaïlande) qui n'a pas peur du piment ni du gras. Décoré d'un Bib Gourmand Michelin, le lieu ne désemplit pas. C'est bruyant, c'est piquant, c'est convivial et terriblement addictif. Une de ces adresses qui définit le nouvel esprit culinaire de l'Est parisien.",
-    insider_tip: "Pas de réservation ici. Arrivez à 19h15 pour être dans la première fournée. Le Bao au comté est non-négociable, prenez-en un par personne pour éviter les disputes.",
-    expert_catchline: "Explosion de saveurs asiat' et ambiance électrique rue Saint-Maur.",
-    specials: {
-        cuisine: ["Asian Fusion", "Filipino influences", "Spicy shared plates"],
-        drinks: ["Vins naturels", "Bières artisanales"],
-        must_eat: "Le KFC (Korean Fried Chicken) et le Bao au comté.",
-        must_drink: "Un vin blanc minéral pour éteindre le feu du piment."
+export const double_dragon: SurgicalPlace = {
+  id: "poi-double-dragon",
+  slug: "double-dragon",
+  name: "Double Dragon",
+  category: "restaurant",
+  subcategory: [],
+  location: {
+    address: "52 Rue Saint-Maur, 75011 Paris, France",
+    arrondissement: 11,
+    lat: 48.8626015,
+    lng: 2.3798916,
+    nearest_metro: "TODO",
+    metro_lines: [],
+    google_id: "ChIJ53_L_qpt5kcRxyLNzsOYfg0"
+  },
+  moods: {
+    chill: 60,
+    festif: 40,
+    culturel: 50
+  },
+  practical: {
+    opening_hours_raw: "lundi: Fermé | mardi: 19:30 – 22:30 | mercredi: 12:00 – 14:00, 19:30 – 22:30 | jeudi: 12:00 – 14:00, 19:30 – 22:30 | vendredi: 12:00 – 14:00, 19:30 – 22:30 | samedi: 12:00 – 14:00, 19:30 – 22:30 | dimanche: Fermé",
+    reservation_policy: "sans_resa",
+    wifi: false,
+    terrace: true,
+    ferme_tard: false,
+    accessibility: true,
+    main_action: {
+      type: "site",
+      url: "https://www.doubledragonparis.com/",
+      label: "VOIR LE SITE"
     }
+  },
+  pricing: {
+    certification: "silver",
+    avg_budget: 0,
+    is_free: false,
+    last_updated: "2026-03-25",
+    verified_at: "2026-03-25",
+    menu_items: [
+      // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
+    ]
+  },
+  description: "TODO: Description riche (3 phrases minimum).",
+  insider_tip: `• **Timing Stratégique** : Le lieu est très prisé, venez dès l'ouverture pour éviter l'attente.
+  • **Combo Moelle** : Le riz Double Dragon est l'accompagnement indispensable pour leurs plats épicés.
+  • **Expérience Culturelle** : Une immersion dans la cuisine chinoise moderne par l'équipe du Servan.`,
+  specials: {
+    cuisine: [],
+    drinks: [],
+    must_eat: "Cuisine [Type]. TODO",
+  },
+  images: {
+    hero: "AU_ZVEH__Doa4irv8quXU-fEzXDbfS-5RK69noRbNshfmN24IlCKoNUyNqJsQBkzmFJIg_qKHs8DEUZFxEnU2YB42Te7obensUkACeKHd-mTM6bKaCRTmmUrnN1hMom8kaSeHYq0s8dt5wtIUGAs49WLPsx5yqlJScwqkXDC4N0LIIL6qhRYlMsF2XBxk6F-o2V79HfccQ13SXeVEhPI4xbZIc6JN_cyW5PhgJmxrjJqCPSqQUQq42zypbM_HUiiOHHRIIy2Rb5izhfcJTd8aCDTQUvfXMJtU7r9lxI-x1tMEAxnszEYh27Bxctb0sZwKlZXIZxe8L0NjghZsx17fWEYmzqUngDF6ykg5RYtluXILUtZ64blsQuS3aVWmo5xAEdWrx1BVMFM7le0S0bovbwELGL-NsdEw-nWDHsJFDdY6T6gew",
+    gallery: ["AU_ZVEENb0h9W8dpOh0yTX7u0eVJqrRHqyTvGotZXu8y4wzHyCmcG-nBFUYNVcwYvRaghM9Hq1kgSLBAuCsCw2pFFFOwsuaRY8jHMdVX08_aNAmvBuKw7XEXH4sVH8NYgYVHrfO4p-jN-HUTLRe3Qb4lDVtqWsc-gTCkeJLOw7CLgAJGGTuczXfZGqFwFwE0B3vvyveGsLzqcAMAC70qGWRdbbFy9rmjL7aJP90LR227r2_DG3wUnP48iQmtNmoXeunU2zbJErCRB-xHo5tSpGcyajdIWRxvUVkn0e1VVr2Kd_n8dr9Si8e_wLAIA2XqmA5BgW0TdQrIODcdFGrMLAcScZ4jzL2k9R4d3_XaMgvlvJkJIMMMGEAAXbls0iqZZT7LlCQVQCSY8LztJgFOzDU9260nG0oTi_DGAJKXcemLuGWIB399","AU_ZVEGuWvwQ0hGfiZF4PzjAnjQ4UHIoYHd8hhi5XeEACBKTP7g6n8drAOzMvB5e85GcfnSjI7j_KTEfO9azqU6ilsfwmLJ73XT4WM86BXOjAlT5WR4gMm4NJTy2veq5FBFPWlETMYlEKhSNwt9qUJzNWqDATA8zbkMRFshchOIrWd2Rko8RCSH5mqE2MO12BktA7HzOy06BorvHlSnphNjec1xKiW1AtA8MERI301jgjSBlWUI3wjuI6F9PfY7Imtb4m0Yv3glPw9Bp_ISQn0R4bawV6DLw04ap9VYAd-zbUZmrPqI5W8H9mH-_VF4A7LaWV-mYgyR3Q63KrpcbJPbOgQgS9NbnN2V0XsnF9PA-ZUGq7YF3PLKcE9lqFuxWJB05m4UDFgXkyfhZi0Tu7neEevMHaljSc95BI3L3G2s2v2j6EG34Po1uclrv6D6psBSC"]
+  },
+  verified: false,
+  google_rating: 4.2
 };
+
+export default double_dragon;

@@ -1,13 +1,13 @@
-import { buddy_buddy_paris } from './--proximit-/buddy-buddy-paris';
-import { carette_ternes } from './--proximit-/carette-ternes';
-import { hotel_de_la_marine } from './--proximit-/hotel-de-la-marine';
-import { jeu_de_paume } from './--proximit-/jeu-de-paume';
-import { leclaireur_boissy } from './--proximit-/leclaireur-boissy';
-import { maison_de_l_aubrac } from './--proximit-/maison-de-l-aubrac';
-import { musee_jacquemart_andre } from './--proximit-/musee-jacquemart-andre';
-import { musee_nissim_camondo } from './--proximit-/musee-nissim-camondo';
-import { petit_palais } from './--proximit-/petit-palais';
-import { raspoutine_paris } from './--proximit-/raspoutine-paris';
+import { buddy_buddy_paris } from './proximite/buddy-buddy-paris';
+import { carette_ternes } from './proximite/carette-ternes';
+import { hotel_de_la_marine } from './proximite/hotel-de-la-marine';
+import { jeu_de_paume } from './proximite/jeu-de-paume';
+import { leclaireur_boissy } from './proximite/leclaireur-boissy';
+import { maison_de_l_aubrac } from './proximite/maison-de-l-aubrac';
+import { musee_jacquemart_andre } from './proximite/musee-jacquemart-andre';
+import { musee_nissim_camondo } from './proximite/musee-nissim-camondo';
+import { petit_palais } from './proximite/petit-palais';
+import { raspoutine_paris } from './proximite/raspoutine-paris';
 import { parc_monceau } from './monceau/parc-monceau';
 
 export const arrondissement_8Places = [

@@ -5,20 +5,20 @@ export const le_coq_fils_the_poultry_house: SurgicalPlace = {
   slug: "le-coq-fils-the-poultry-house",
   name: "Le Coq & Fils - the Poultry House",
   category: "restaurant",
-  subcategory: ["français", "volailles", "chef", "gastronomique", "montmartre"],
+  subcategory: ["gastronomique", "volaille", "institution", "terroir"],
   location: {
     address: "98 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
     lat: 48.8871994,
     lng: 2.3371844,
-    nearest_metro: "Abbesses",
-    metro_lines: [12],
+    nearest_metro: "TODO",
+    metro_lines: [],
     google_id: "ChIJTQ7TuVpu5kcRSvp5FZSHjzc"
   },
   moods: {
     chill: 70,
-    festif: 30,
-    culturel: 95
+    festif: 50,
+    culturel: 60
   },
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:30, 18:30 – 22:00 | mardi: 12:00 – 14:30, 18:30 – 22:00 | mercredi: 12:00 – 14:30, 18:30 – 22:00 | jeudi: 12:00 – 14:30, 18:30 – 22:00 | vendredi: 12:00 – 14:30, 18:30 – 22:00 | samedi: 12:00 – 14:30, 18:30 – 22:00 | dimanche: 12:00 – 14:30, 18:30 – 22:00",
@@ -35,56 +35,85 @@ export const le_coq_fils_the_poultry_house: SurgicalPlace = {
   },
   pricing: {
     certification: "silver",
-    avg_budget: 65,
+    avg_budget: 0,
     is_free: false,
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Pour Commencer / À Partager", items: [
-        { name: "Œuf Mayonnaise Signature", price: "16.00€", description: "L'incontournable du chef Westermann" },
-        { name: "Terrine de Volaille à la Sauge", price: "29.00€" },
-        { name: "Bouillon de Volaille au Vermicelle", price: "14.00€" },
-        { name: "Cœur de Laitue & Vinaigrette", price: "9.00€" },
-        { name: "Ailerons de Volaille Confits", price: "18.00€" },
-        { name: "Foie Gras de Canard Maison", price: "32.00€" }
-      ]},
-      { category: "Les Plats de Tradition", items: [
-        { name: "Quart de Volaille Rôtie (Cou-Nu)", price: "32.00€", description: "Servi avec jus de rôtissage" },
-        { name: "Volaille Coucou de Rennes (Entière)", price: "205.00€", description: "Pour 3 à 4 personnes" },
-        { name: "Plat du Jour (Lundi-Vendredi)", price: "19.00€" },
-        { name: "Dégustation de Belles Volailles", price: "57.00€", description: "Par personne (Menu Poulailler)" },
-        { name: "Magret de Canard Rôti", price: "38.00€" },
-        { name: "Pigeonneau de Racan Entier", price: "48.00€" },
-        { name: "Cuisse de Volaille Confite", price: "26.00€" },
-        { name: "Coq au Vin à l'Ancienne", price: "34.00€" }
-      ]},
-      { category: "Accompagnements Moelle", items: [
-        { name: "Purée de Pommes de Terre Westermann", price: "12.00€", description: "Onctuosité légendaire" },
-        { name: "Frites Maison", price: "9.00€" },
-        { name: "Macaroni au Fromage", price: "11.00€" },
-        { name: "Légumes de Saison Rôtis", price: "10.00€" }
-      ]},
-      { category: "Douceurs", items: [
-        { name: "Île Flottante XXL", price: "18.00€" },
-        { name: "Mousse au Chocolat Guanaja", price: "14.00€" },
-        { name: "Tatin aux Pommes & Crème Fraîche", price: "15.00€" },
-        { name: "Riz au Lait Vanille", price: "12.00€" },
-        { name: "Sorbets Maison (3 boules)", price: "12.00€" }
-      ]}
+      {
+        category: "Préludes du Poulailler (Entrées)",
+        items: [
+          { name: "Gésiers confits, Roquette & Pesto d'Amandes", price: "10.00€", highlight: true },
+          { name: "Terrine de Volaille & Foies Blonds", price: "12.00€", highlight: true },
+          { name: "Empanadas d'abattis aux Herbes & Citron confit", price: "11.00€" },
+          { name: "Œufs Mayonnaise Westermann (Bio) & Jus Chic'up", price: "10.00€", highlight: true },
+          { name: "Œufs Diaboliques & Betteraves marinées", price: "12.00€" },
+          { name: "Crème de Volaille & Champignons Portobello", price: "12.00€" },
+          { name: "Légumes de Saison mi-cuits & Chèvre frais", price: "11.00€" },
+          { name: "Houmous d'Artichauts & Crumble de Parmesan", price: "10.00€" }
+        ]
+      },
+      {
+        category: "Belles Volailles de Race (Plats)",
+        items: [
+          { name: "Quart Rôti (Race Cou Nu des Blaches)", price: "28.00€", highlight: true },
+          { name: "Quart de Coq au Vin (Race Gauloise Blanche)", price: "45.00€", highlight: true },
+          { name: "Pintade de la Drôme rôtie (Demi-Pintade Nubienne)", price: "50.00€" },
+          { name: "Poulet de Bresse AOC rôti au Jus de rôti", price: "48.00€", highlight: true },
+          { name: "Coucou de Rennes en Fricassée aux Morilles", price: "52.00€", highlight: true },
+          { name: "Pigeon du Gers rôti sur le coffre", price: "46.00€" },
+          { name: "Saucisse de Volaille rôtie & Jus de viande", price: "19.00€" },
+          { name: "Bouchée à la Reine Traditionnelle Westermann", price: "19.00€", highlight: true }
+        ]
+      },
+      {
+        category: "Accords Moelleux (Plats)",
+        items: [
+          { name: "Purée de Pommes de Terre au Beurre demi-sel", price: "7.00€", highlight: true },
+          { name: "Mac & Cheese artisanal à la française", price: "8.50€", highlight: true },
+          { name: "Frites fraîches Maison double cuisson", price: "6.50€" },
+          { name: "Fricassée de Légumes de Saison sautés", price: "7.50€" },
+          { name: "Salade Verte de Saison & Vinaigrette Maison", price: "6.00€" }
+        ]
+      },
+      {
+        category: "Douceurs du Coq (Desserts)",
+        items: [
+          { name: "Île Flottante du Coq & Amandes caramélisées", price: "14.00€", highlight: true },
+          { name: "Riz au Lait vanillé, Marmelade d'Orange & Gingembre", price: "12.00€", highlight: true },
+          { name: "Compote de Pommes Bio au Beurre Salé", price: "13.00€" },
+          { name: "Brownie au Chocolat Noir (60% Pérou) & Sorbet", price: "14.00€", highlight: true },
+          { name: "Mousse au Chocolat Noir & Orange de Sicile", price: "8.00€" },
+          { name: "Fromage AOP Brocciu, Huile d'Olive & Sel de Ré", price: "14.00€" },
+          { name: "Sorbet au Chocolat Noir intense Maison", price: "7.00€" }
+        ]
+      },
+      {
+        category: "La Cave de la Basse-Cour (Boissons)",
+        items: [
+          { name: "Verre de Chinon Vieille Vigne (Rouge)", price: "11.00€", highlight: true },
+          { name: "Verre de Gamay Sans Tralala (Bio)", price: "12.00€" },
+          { name: "Verre de Bourgogne Blanc 'Accord Majeur'", price: "9.00€" },
+          { name: "Jus de Fruits Sélection du Coq", price: "7.50€" },
+          { name: "Eau micro-filtrée Le Coq (75cl)", price: "4.50€", highlight: true },
+          { name: "Café Espresso & Mousse au Chocolat (Duo)", price: "12.00€" },
+          { name: "Café Viennois & Chantilly Maison", price: "9.00€" }
+        ]
+      }
     ]
   },
-  description: "Sous la direction du chef Antoine Westermann, Le Coq & Fils est le temple parisien dédié à la belle volaille. Ici, on célèbre les races anciennes et les éleveurs passionnés à travers des rôtisseries d'exception. Un lieu unique où l'œuf mayo devient un art et où chaque poulet a une histoire, à savourer dans un cadre élégant au pied du moulin.",
-  insider_tip: "• **L'Œuf Mayo** : C'est une signature mondiale, ne passez pas à côté.\n• **Partage Obligatoire** : Les volailles entières (Coucou de Rennes, etc.) sont prévues pour être partagées à 2, 3 ou 4 personnes.\n• **La Purée** : La purée façon Westermann est d'un soyeux légendaire, l'accompagnement indispensable.",
+  description: "Le Coq & Fils – The Poultry House est le temple mondial de la volaille de race, orchestré par le chef triplement étoilé Antoine Westermann. Situé sur les pentes de Montmartre, cet établissement rend un hommage vibrant aux éleveurs français en sublimant des espèces oubliées : Poulet de Bresse, Coucou de Rennes ou Pintade de la Drôme. On y redécouvre le plaisir brut et sophistiqué d'une volaille parfaitement rôtie, accompagnée d'un jus corsé et de garnitures réconfortantes, dans un décor qui allie modernité et esprit de terroir.",
+  insider_tip: "• **Le Choix des Races** : Ne vous contentez pas du poulet standard, demandez conseil sur les races du moment (Cou nu, Gauloise), la différence de goût est stupéfiante.\n• **L'Île Flottante** : C'est le dessert signature, monumentale et d'une légèreté aérienne, une fin parfaite pour un repas rustique-chic.\n• **Volailles à Partager** : Si vous êtes en groupe, commander une volaille entière est une expérience conviviale unique, découpée devant vous.",
   specials: {
-    cuisine: ["Volailles d'Exception", "Rôtisserie", "Chef"],
-    drinks: ["Vins de Bourgogne", "Vins de Loire"],
-    must_eat: "Volailles d'exception. Œuf Mayo & Purée Westermann",
+    cuisine: ["Volailles de races anciennes", "Gastronomie de terroir", "Techniques de rôtissage"],
+    drinks: ["Belle sélection de vins rouges", "Vins biodynamiques", "Cafés gourmands"],
+    must_eat: "L'Œuf Mayonnaise Westermann (10€) : élu l'un des meilleurs de Paris, un classique magnifié par un jus de volaille secret.",
   },
   images: {
-    hero: "AU_ZVEH4TqqK-VwV6aKGvWgRwKLb6euUO46mgf6bfx5berU8DSt_fn7m8BFgkX7ZTljNQgOjnoHWT-Zo_KPl8GIf-jBKkKQsu92A1SvFB2Smk9tW2gZqFy_G80FDLVQ4yxWHYHvXhSyH9PLYGOKtGBHmw13Wq5xhqq90TSZJMO_3Tc_Ml3AJEPj0Y1XayfSIqI-PDILWfgXDwqGHdtvTOKMO8vMYM1dZQBa-KflNZWrH2o1tDFJ8fYSZUklRfWPPQ_IMLYay_JE_BLhDVLuo716seyJTrtl18MkxCV8Uibi4mhQSJA",
-    gallery: ["AU_ZVEFGOU-a_gZaamIBIwjmJBZ12sKlXAiNvaAaRdglLdQCb1lGun3RLADcLSY2MPkPM4PFe0iZU6KS6gQmtf3lyKPfMiBdh2jzRk2vaL0XPxHyja_Uxf6RTWZz4wtHhXoqL54ZwqG4P3SwR1-cDhXphBegL3MF9Uptb4-UTN4STz59WuXBb4Nils83o64_EjxkP8QhRD3ojVN-GIHh9oIDlEk_swffSJZCVK9mxOY8Q8JoiMgkP5e9H4zRawNQH9BHG2N2ypzjzybUnIptFcKZdx78Vadxo5wcdSf69nQnaOPVBw","AU_ZVEG97CLtDb-fya-t4wJM6cZm1sRfZvV1g7SjL3N6C-vf3ankuLiR14UWvZolDgCTF88WMwJxkf46QDqX9IolGX5kOSx3qJr0s7526l7gAtwdQShKMf9awlrSA2KvM-ottdpDt3B5vKFNd7K8UCfHu0is10L5WpIs_1ycgQ_08yCNdOlU3FRsonnvA8wFJdPLeOHkCr_av5ET4lsKQdQ0UX41w3fd70scDnnfOcEVoTjJp2NpeSMNuGV4i1gawTswCtGEuxGdwT9Od03xfdaG4unbxuEXUd7krcvwfU5GtL6LcA"]
+    hero: "AU_ZVEEJ5IVdU6wsLYWOdxoNJgtRlgIZAtKUVKANkluSR2V22zABm-4vKaou1Abpk2-2h0qoAngMYR5MvzOyY-w0qw6NzHsZIVTOd4rvIez-nYdbpSWcOYFvkAVaEFGq6KvgxZYkl4V56UPYy85glULTgDRK-62IPvC6wMvcHqlPj7Zb0-vi-bo_iO2ImGk4aR9MuT6Pto7rosuSkmi9kbHqhFKZcMf3QFCAwSW3kbTu7SrFCEc3bWiBmt5k2iomBUclqmuz6tVZaii8URXcyjiu2hdF6LbyF_609zRICGo3eNGHOg",
+    gallery: ["AU_ZVEGk_SDv3INlgKSYTsqYdk-S_GRqFotBb5jYSnkmNdcO0gv0S0PYjb1ECUv6GAioM7_PKznnvtOy3MoR1qAwT0HjL51iZ9N8FwoC1h_HIw2eyvZvJj2LmMegeRaI1gqKfZBshsoUvFGxq4GomWvuzeEI6D-QE2C9hzZg0PZTWGCgSuxJj0PYH0zjB3a-SFJzUdfg5MMLGvTZbWyFupBkgbRAFyyiAuV9mBlQdocqptIZmSwZ3jha2-LWQw0yNy1V3FVjaj2914QLTSyDeVHYR349GN5CUFJf-DKCG8QvxavDvA","AU_ZVEFNJt3wm12ggD_pICHKun7jy3ekOm_Be3v9lbM8L6UlrE-DQv0liiJYn0_TwqERHWC-Vcc8aUhdgOQzk8V5a8Wigpda13WRqIiJuIKFFUDFZbzUzZi8s90gz17LxhWzwsQBZIZ9RRzE_SLbelWVTT1c0OKEfgVYrfeRY6aoFrexmy4u6NDGikCaTyByXWx45E5Y0-si__GLcgsuPFQ3Rkkni9_djRzZV7jFKvLtum3WjZjGe2czdhaa8MC7rH27WVrOG7JUypPph3CKiEJdNBl38bACs8uH-Nj4mTqCz6Oo5Q"]
   },
-  verified: true,
+  verified: false,
   google_rating: 4.6
 };
 

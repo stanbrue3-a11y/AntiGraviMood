@@ -26,7 +26,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
     const { data, error } = await supabase
       .from('places')
-      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, media, index_price, google_rating');
+      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, media, index_price, google_rating, michelin_stars');
 
     if (error) throw error;
     
@@ -52,7 +52,8 @@ export class SupabasePlacesRepository implements IPlacesRepository {
           type: 'generic',
           menu_items: []
       } as any,
-      google_rating: row.google_rating
+      google_rating: row.google_rating,
+      michelin_stars: row.michelin_stars
     } as PlaceSkeleton));
   }
 
@@ -247,7 +248,8 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         expert_catchline: row.real_talk?.expert_catchline || undefined,
       },
       google_rating: row.google_rating,
-      verified: row.verified
+      verified: row.verified,
+      michelin_stars: row.michelin_stars
     } as Place;
   }
 }

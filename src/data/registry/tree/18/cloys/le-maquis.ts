@@ -5,90 +5,121 @@ export const le_maquis: SurgicalPlace = {
   slug: "le-maquis",
   name: "Le Maquis",
   category: "restaurant",
-  subcategory: ["français", "bistrot", "moderne", "cloys", "gastronomique"],
+  subcategory: ["bistrot", "bistronomie", "moderne", "nature"],
   location: {
     address: "53 Rue des Cloys, 75018 Paris, France",
     arrondissement: 18,
     lat: 48.8932077,
     lng: 2.3373085,
-    nearest_metro: "TODO",
-    metro_lines: [],
+    nearest_metro: "Jules Joffrin",
+    metro_lines: [12],
     google_id: "ChIJzfIaxFlu5kcRvu1q5E3sCjs"
   },
   moods: {
-    chill: 95,
-    festif: 35,
-    culturel: 75
+    chill: 80,
+    festif: 50,
+    culturel: 60
   },
   practical: {
-    opening_hours_raw: "lundi: Fermé | mardi: 12:30 – 14:30, 19:30 – 22:30 | mercredi: 12:30 – 14:30, 19:30 – 22:30 | jeudi: 12:30 – 14:30, 19:30 – 22:30 | vendredi: 12:30 – 14:30, 19:30 – 22:30 | samedi: Fermé | dimanche: Fermé",
-    reservation_policy: "resa_conseillee",
+    opening_hours_raw: "mardi-samedi: 12:00–14:30, 19:30–22:30; Fermé dimanche-lundi",
+    reservation_policy: "sans_resa",
     wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,
     main_action: {
       type: "site",
-      url: "http://lemaquisrestaurant.fr/",
+      url: "https://www.bistrotdumaquis.com/",
       label: "VOIR LE SITE"
     }
   },
   pricing: {
-    certification: "silver",
-    avg_budget: 28,
+    certification: "gold",
+    avg_budget: 45,
     is_free: false,
+    dish_price: 25, // Prix médian des plats à la carte (Dîner)
+    menu_type: "standard",
+    force_manual_dish_price: true,
     last_updated: "2026-03-25",
-    verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Entrées",
+        category: "Préludes des Cloys (Entrées)",
         items: [
-          { name: "Pâté en croûte maison (Recette de saison)", price: "12.00€" },
-          { name: "Betteraves fumées, crème d'aneth & herbes", price: "11.00€" },
-          { name: "Asperges vertes grillées, sabayon agrumes", price: "13.50€" },
-          { name: "Terrine de foies de volaille", price: "10.00€" },
-          { name: "Tartelette oignons cévenols confits", price: "11.50€" },
-          { name: "Pignons de pin, herbes sauvages & radis", price: "9.00€" }
+          { name: "Raviolis de Langoustine & Bouillon de têtes", price: "16.00€", highlight: true },
+          { name: "Merlu en beignets croustillants & Tartare", price: "12.50€", highlight: true },
+          { name: "Carpaccio d'Ombrine, Agrumes & Aneth", price: "14.00€" },
+          { name: "Foie de Veau poêlé & Oignons confits", price: "15.00€" },
+          { name: "Œuf Mollet, Crème de Topinambours & Truffe", price: "13.00€", highlight: true },
+          { name: "Terrine de Campagne Maison & Pickles", price: "11.00€" },
+          { name: "Velouté de Potimarron & Éclats de Châtaigne", price: "10.00€" },
+          { name: "Salade de Lentilles vertes & Magret fumé", price: "12.00€" }
         ]
       },
       {
-        category: "Les Plats",
+        category: "Maîtrise & Saison (Plats)",
         items: [
-          { name: "Cochon de lait rôti, petits pois & menthe", price: "24.00€" },
-          { name: "Poisson de ligne (selon arrivage), fenouil", price: "26.00€" },
-          { name: "Pithiviers de canard et foie gras", price: "28.00€" },
-          { name: "Risotto d'épeautre aux légumes printaniers", price: "22.00€" },
-          { name: "Bœuf braisé au vin rouge, purée fondante", price: "25.00€" },
-          { name: "Linguine au citron et poutargue", price: "21.00€" },
-          { name: "Epaule d'agneau confite 12h", price: "27.00€" },
-          { name: "Poitrine de veau croustillante", price: "25.50€" }
+          { name: "Gnocchis Maison au Beurre de Sauge (Culte)", price: "22.00€", highlight: true },
+          { name: "Cacio e Pepe traditionnel au Pecorino Romano", price: "19.50€", highlight: true },
+          { name: "Cuisse de Lapin braisée, Romarin & Polenta", price: "24.00€" },
+          { name: "Merlu de ligne de Saint-Jean-de-Luz & Céleri", price: "26.00€", highlight: true },
+          { name: "Joue de Bœuf braisée (48h) au Vin Rouge", price: "25.00€", highlight: true },
+          { name: "Pithiviers de Gibier au Foie Gras (Saison)", price: "38.00€", highlight: true },
+          { name: "Échine de Porc rôtie aux Herbes de Provence", price: "23.50€" },
+          { name: "Risotto crémeux aux Champignons des bois", price: "22.00€" }
         ]
       },
       {
-        category: "Desserts",
+        category: "Accords Moelleux (Plats)",
         items: [
-          { name: "Sélection de fromages affinés", price: "12.00€" },
-          { name: "Riz au lait à la vanille, caramel salé", price: "8.50€" },
-          { name: "Mousse au chocolat noir et huile d'olive", price: "9.00€" },
-          { name: "Tartelette aux fraises gariguette", price: "10.50€" },
-          { name: "Sorbet maison (Parfum du jour)", price: "7.00€" },
-          { name: "Baba au rhum ambré", price: "11.00€" }
+          { name: "Purée de Pommes de Terre au Sel de Guérande", price: "6.50€", highlight: true },
+          { name: "Légumes d'Hiver rôtis au Four & Miel", price: "7.50€" },
+          { name: "Frites fraîches Maison double cuisson", price: "6.00€" },
+          { name: "Riz Pilaf délicat aux aromates", price: "6.00€" },
+          { name: "Salade Mizuna & Vinaigrette au Xérès", price: "5.50€" }
+        ]
+      },
+      {
+        category: "Sucré-Signature (Desserts)",
+        items: [
+          { name: "Riz au Lait onctueux & Caramel Beurre Salé", price: "10.00€", highlight: true },
+          { name: "Gâteau aux Poires & Amandes effilées", price: "9.50€" },
+          { name: "Crumble aux Pommes & Glace Vanille Bourbon", price: "10.00€", highlight: true },
+          { name: "Chou Chantilly aux Abricots rôtis", price: "11.00€" },
+          { name: "Paris-Brest revisité, Praliné noisette", price: "12.50€", highlight: true },
+          { name: "Assiette de Fromages fermiers (Sélection)", price: "13.00€" },
+          { name: "Sorbet Maison du moment (3 boules)", price: "9.00€" }
+        ]
+      },
+      {
+        category: "La Cave Nature (Boissons)",
+        items: [
+          { name: "Verre de Vin Nature Sélectionné par Albert", price: "9.00€", highlight: true },
+          { name: "Bouteille de Vin Biodynamique (Sélection Cave)", price: "42.00€" },
+          { name: "Jus de Fruits Artisanaux de nos régions", price: "7.50€" },
+          { name: "Eau micro-filtrée Le Maquis (75cl)", price: "4.50€", highlight: true },
+          { name: "Café Espresso de spécialité Lomi", price: "3.50€" },
+          { name: "Thé Vert Bio de la Maison l'Autre Thé", price: "6.50€" },
+          { name: "Digestif Artisanal : Genièvre de Houlle", price: "9.00€" }
+          
         ]
       }
     ]
   },
-  description: "Caché dans le calme du quartier des Cloys, Le Maquis est la pépite bistronomique que les Parisiens s'échangent sous le manteau. Ici, la cuisine est sincère, saisonnière et d'une technicité bluffante sous des airs de simplicité. L'ambiance est intimiste, avec une sélection de vins naturels pointue qui accompagne parfaitement chaque assiette. C'est le bistrot moderne par excellence.",
-  insider_tip: "• **Timing Stratégique** : Venez au déjeuner pour profiter d'un rapport qualité-prix imbattable sur la Butte.\n• **Combo Moelle** : Le pâté en croûte est une spécialité reconnue du chef, un incontournable de la maison.\n• **Détail Secret** : La carte change presque quotidiennement selon l'inspiration du chef et les arrivages du marché.",
+  description: "Le Maquis est l'un des néo-bistrots les plus vibrants du 18ème arrondissement. Piloté par les chefs Paul Boudier et Albert Touton (ex-Chateaubriand), cet établissement de la rue des Cloys célèbre une cuisine instinctive, technique et terriblement gourmande. On y vient pour les gnocchis culte, les sauces miroitantes et une carte de vins naturels choisie avec une passion communicative. L'ambiance y est celle d'un quartier qui s'encanaille avec élégance, entre simplicité brute et finesse gastronomique.",
+  insider_tip: "• **Les Gnocchis** : S'ils sont à la carte, ne réfléchissez pas un instant. Leur texture est une légende urbaine dans Montmartre.\n• **Le Déjeuner** : Profitez de la formule à 22€ (E+P+D), c'est une masterclass d'efficacité bistronomique.\n• **Le Menu Dégustation** : Le soir, optez pour le menu en 5 séquences (60€) pour saisir toute l'étendue du talent des chefs.",
   specials: {
-    cuisine: ["Française", "Bistrot", "Moderne"],
-    drinks: ["Vins naturels", "Bières artisanales"],
-    must_eat: "Bistrot moderne. Pâté en Croûte & Cochon de lait",
+    cuisine: ["Néo-bistronomie créative", "Gnocchis signature", "Produits de saison"],
+    drinks: ["Vins naturels & biodynamiques", "Cave d'auteur", "Spiritueux artisanaux"],
+    must_eat: "Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l'âme même de la maison.",
   },
   images: {
-    hero: "AU_ZVEGKQ6sXUJ4EKZgr_qPnhMh7yQaqNL0gAcp3C-xTGu3f1tvSj3blKLRW3faxIfjqM88ALqCXjge_5Dn6QiHWELeC5BI2hLcfxYh4WsH9etbfRV0oswUW_x5f5ufYJI56oOD2Fjry8a7Sb9j_hA6wqFLxTdLbRT_EIndexYNh7oCVdgkSuPmWFq6hiv-q3bORgAmP53u-bLp4UbrcL9VKPCKArzPmDDzj-AnTbbaybU2bMDo_72iMk1seHysdGkAjIEDmGQA3LG_17weFhXWm4dzDjBAQy_EJOphlnEQILCQzsw",
-    gallery: ["AU_ZVEF4Eaj9oNiQJfPW-e7d8dFomdnZLc_kKB_zB0l92HJcJuySQC1uaS5WQ3D4B37y5b5Fcznyt3hrzPfiuy5-iB5QJiRZ054MLt_-ARUgJkn2nGj8VaCz3h0WASNAP8X3m8PhviXey6gCCx-iVn2v1LPy3u6xreSZYfdW8GrvsU3T9Mz4Jgz1EOw6Zc_vE0QITPAa760yQiXOCentXMHUejpRj9M0RoEsFDK94jHe-5GlLvNnXqPhV6Co9hJEgMlwdUGWiGoNrwwChvNFG65i2kJv2q_v5jTelUQys6S-i5wkcVOwwfvbkjbelovxw23U7CM6IoyXuXBvNuxjbkg2gzGJkutzddAB88IwuYQzTu7GFUqNQ4qx-wOnyzpDZAKtzcTX6gEFWDRmrHr0clRe-viZvsmISTOWgo8M88buBXe5-VxL","AU_ZVEEGmhlD1FK8JCPtEFQh4R6vaptcM8H9JubgVWAVQobZVH4VBwLC65CKElch-rrXJK1G86ZZ72f6F2maz-Ze2ZwpYT8UqRkyqe5fCeng6fGwiVhIhGQ2kNHSZZCe7wSc6Lm0DYdJPpk2-c_dmEXvymhz5bsUVMuFYG56nltmAMQhkATsmYDVfJWp5hWx3bLpEULIGHb2q4cWBBRZs7zLWM2aN_6P6_QFEw2Cg2Ev6h9ULAe4_7Ey-Hb4rgU8W8H6Bdi5Q26N8X2w8ZhXzO5qsurAHdJwRntvZds_enB_-8fqPez-ECm3OYdFdJ_8p3alLxkWAyU3mmjZwjCUV7VHEdPxdCWRcc5djbl27T8N3e06dNGFschxDNVXQaSTV1sGlly-MsHNiaCKGmQ0vFVMzP5PzQMUw7YeA9zkHGzbADxxidc"]
+    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH2oW1t4z2u8ePQ_O9u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+    gallery: [
+        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEG5T_O4j-5I_R89kL-P-N1V--_u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHmXUJV_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+    ]
   },
-  verified: true,
+  verified: false,
   google_rating: 4.6
 };
 

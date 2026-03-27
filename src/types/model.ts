@@ -105,6 +105,7 @@ export interface PlaceRow {
   real_talk_json: string | null;
   description: string | null;
   insider_tip: string | null;
+  michelin_stars: number | null;
 }
 
 /**
@@ -131,6 +132,7 @@ export interface PlaceSkeleton {
   pricing: Pricing;
   google_rating?: number;
   google_user_ratings_total?: number;
+  michelin_stars?: number;
 }
 
 // User & Moments

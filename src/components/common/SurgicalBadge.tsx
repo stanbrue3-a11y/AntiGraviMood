@@ -13,6 +13,18 @@ interface SurgicalBadgeProps {
  * "Haussmannian" style: Rounded corners, border, pictogram.
  */
 export const SurgicalBadge = React.memo(({ icon, label, color }: SurgicalBadgeProps) => {
+  // Special handling for Michelin: "1★ Michelin" -> [1] [Star] [MICHELIN]
+  if (label.includes('★ Michelin')) {
+    const stars = label.split('★')[0];
+    return (
+      <View style={[styles.container, { borderColor: color + '40', backgroundColor: color + '08' }]}>
+        <Text style={[styles.label, { color: color, marginRight: -4 }]}>{stars}</Text>
+        <Ionicons name={icon} size={14} color={color} />
+        <Text style={[styles.label, { color: color }]}>MICHELIN</Text>
+      </View>
+    );
+  }
+
   return (
     <View style={[styles.container, { borderColor: color + '40', backgroundColor: color + '08' }]}>
       <Ionicons name={icon} size={16} color={color} />

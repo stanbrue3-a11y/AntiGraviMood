@@ -107,7 +107,7 @@ export const usePlacesStore = create<PlacesState>()(
         })),
     }),
     {
-      name: 'moodmap-places-storage-v11', // 💥 CACHE BUSTER v11 (V2 Pure Model Architecture)
+      name: 'moodmap-places-storage-v12', // 💥 CACHE BUSTER v12 (Michelin integration)
       storage: createJSONStorage(() => AsyncStorage),
       partialize: (state) => ({ likedPlaceIds: state.likedPlaceIds }),
     },

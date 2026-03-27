@@ -86,7 +86,6 @@ export const magma: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    michelin_stars: 0, // Listed but not starred yet?
     description: "Le chef Ryuya Ono livre une partition d'une justesse rare. Magma est un laboratoire où la technique française s'efface devant la pureté japonaise du produit. Une cuisine anti-gaspi, agile et émouvante, servie dans un cadre intimiste.",
     insider_tip: "L'ormeau (abalone) à l'oreille de cochon est le plat signature à ne pas manquer si disponible. L'accord saké est particulièrement bien pensé et apporte une dimension supplémentaire aux plats de mer.",
     expert_catchline: "La rigueur japonaise rencontre le terroir français dans un magma d'émotions.",

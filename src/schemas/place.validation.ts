@@ -227,6 +227,7 @@ export const SurgicalPlaceSchema = z.object({
   verified: z.boolean(),
   google_rating: z.number().optional(),
   instagram_handle: z.string().optional(),
+  michelin_stars: z.number().int().min(1).max(3).optional().nullable(),
 });
 
 export type SurgicalPlaceValidation = z.infer<typeof SurgicalPlaceSchema>;

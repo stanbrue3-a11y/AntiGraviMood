@@ -43,61 +43,60 @@ export const bistrotPaulBert: SurgicalPlace = {
         force_manual_dish_price: true,
         last_updated: "2026-03-08",
         menu_items: [
-            // VERIFIED: Bistrot Paul Bert 2024-2025
             {
-                category: "Formules & Menus",
+                category: "Formules & Menus (Plats)",
                 items: [
-                    { name: "Formule Déjeuner (Entrée + Plat ou Plat + Dessert)", price: "22.00€", description: "Le meilleur rapport qualité-prix du quartier le midi." },
-                    { name: "Menu Complet (Entrée + Plat + Dessert)", price: "41.00€", description: "L'expérience Paul Bert intégrale." }
+                    { name: "Formule Déjeuner (Entrée + Plat)", price: "22.00€", highlight: true },
+                    { name: "Menu complet (Entrée + Plat + Dessert)", price: "41.00€", highlight: true }
                 ]
             },
             {
-                category: "Les Entrées du Moment",
+                category: "Entrées du Terroir (Entrées)",
                 items: [
-                    { name: "Terrine de campagne maison", price: "10.00€", description: "Rustique, généreuse, servie avec des cornichons." },
-                    { name: "Oeufs durs mayonnaise à l'ail des ours", price: "10.00€", description: "Le grand classique indémodable du bistrot." },
-                    { name: "Hure de cochon maison", price: "10.00€" },
-                    { name: "Carpaccio de daurade, fruit de la passion", price: "18.00€" },
-                    { name: "Foie gras de canard mi-cuit, compotée de coings", price: "25.00€" },
-                    { name: "Salade de museau de bœuf", price: "12.00€" },
-                    { name: "Poireaux vinaigrette aux noisettes", price: "9.00€" },
-                    { name: "Couteaux à la plancha, beurre persillé", price: "14.00€" }
+                    { name: "Terrine de Campagne Maison", price: "10.00€" },
+                    { name: "Poireaux Vinaigrette & Noisettes", price: "9.00€", highlight: true },
+                    { name: "Oeuf Mayo à l'ail des ours", price: "10.00€" },
+                    { name: "Couteaux à la plancha, beurre persillé", price: "14.00€" },
+                    { name: "Foie Gras de Canard mi-cuit", price: "25.00€" },
+                    { name: "Hure de Cochon artisanale", price: "10.00€" },
+                    { name: "Salade de Museau de Boeuf", price: "12.00€" },
+                    { name: "Six Huîtres de pleine mer (N°3)", price: "18.00€" }
                 ]
             },
             {
-                category: "Les Les Plats (Authentique)",
+                category: "Plats de Tradition (Plats)",
                 items: [
-                    { name: "Filet de bœuf au poivre de Sarawak & frites maison", price: "44.00€", description: "Le plat signature mythique, cuisson saignante vivement conseillée." },
-                    { name: "Tartare de bœuf au couteau & frites", price: "28.00€", description: "Assaisonnement classique, viande sourcée d'exception." },
-                    { name: "Aile de raie à la grenobloise", price: "30.00€", description: "Beurre noisette et câpres, une institution." },
-                    { name: "Sole du Guilvinec meunière (selon arrivage)", price: "48.00€" },
-                    { name: "Hachis Parmentier traditionnel", price: "24.00€" },
+                    { name: "Filet de Boeuf au poivre de Sarawak & frites", price: "44.00€", highlight: true },
+                    { name: "Tartare de Boeuf au couteau & frites", price: "28.00€" },
+                    { name: "Aile de Raie à la Grenobloise", price: "30.00€", highlight: true },
+                    { name: "Sole Meunière du Guilvinec", price: "48.00€" },
                     { name: "Andouillette AAAAA, sauce moutarde", price: "26.00€" },
-                    { name: "Côte de bœuf pour deux, Béarnaise & frites", price: "85.00€" },
-                    { name: "Épaule d'agneau confite (pour 2)", price: "70.00€" },
-                    { name: "Tête de veau sauce gribiche", price: "28.00€" }
+                    { name: "Tête de Veau sauce Gribiche", price: "28.00€" },
+                    { name: "Hachis Parmentier de canard", price: "24.00€" },
+                    { name: "Côte de Boeuf (pour deux), Béarnaise", price: "85.00€" }
                 ]
             },
             {
-                category: "Fromages & Desserts Cultes",
+                category: "Fromages & Desserts Cultes (Desserts)",
                 items: [
-                    { name: "Paris-Brest Signature", price: "12.00€", description: "Considéré par les puristes comme le meilleur de Paris, praliné intense." },
-                    { name: "Ile flottante aux pralines roses", price: "10.00€" },
-                    { name: "Soufflé au chocolat (20 min d'attente)", price: "14.00€", description: "Aérien, intense en cacao, un classique qui demande patience." },
-                    { name: "Tarte fine aux pommes, glace vanille", price: "12.00€" },
-                    { name: "Soufflé au Grand Marnier", price: "15.00€" },
-                    { name: "Baba au rhum ambré", price: "13.00€" },
-                    { name: "Assiette de fromages Jean-Yves Bordier", price: "18.00€" },
-                    { name: "Saint-Nectaire fermier", price: "10.00€" }
+                    { name: "Paris-Brest Signature (Le meilleur de Paris)", price: "12.00€", highlight: true },
+                    { name: "Soufflé au Grand Marnier", price: "15.00€", highlight: true },
+                    { name: "Soufflé au Chocolat amer", price: "14.00€" },
+                    { name: "Ile Flottante aux pralines roses", price: "10.00€" },
+                    { name: "Baba au Rhum Ambré", price: "13.00€" },
+                    { name: "Plateau de Fromages Jean-Yves Bordier", price: "18.00€" }
                 ]
             },
             {
-                category: "Boissons & Cave",
+                category: "Cave & Boissons (Boissons)",
                 items: [
-                    { name: "Verre de vin (sélection ardoise)", price: "7.00€" },
-                    { name: "Pression Paul Bert", price: "8.00€" },
-                    { name: "Café Espresso", price: "3.00€" },
-                    { name: "Infusion herbes fraîches", price: "5.00€" }
+                    { name: "Verre de Vin Blanc (Sélection)", price: "7.00€", highlight: true },
+                    { name: "Verre de Vin Rouge (Ardoise)", price: "8.00€" },
+                    { name: "Pression Paul Bert (Lager)", price: "8.00€" },
+                    { name: "Eau Minérale Evian/Badoit (75cl)", price: "6.50€" },
+                    { name: "Café Espresso (Torréfié)", price: "3.00€" },
+                    { name: "Infusion Herbes Fraîches", price: "5.00€" },
+                    { name: "Digestif (Bas Armagnac)", price: "12.00€" }
                 ]
             }
         ]

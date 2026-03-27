@@ -40,77 +40,63 @@ export const clown_bar: SurgicalPlace = {
         coffee_price: 2.50,
         dish_price: 33, // MANUAL: Plats principaux autour de 28-33€
         last_updated: "2026-03-07",
-        menu_items: [
-            {
-                category: "Les Menus (Évolutif)",
-                items: [
-                    { name: "Formule Déjeuner (Entrée-Plat-Dessert) - En Semaine", price: "32.00€", description: "Une formule midi iconique pour s'offrir la bistronomie du Clown Bar à prix doux." },
-                    { name: "Menu 'Carte Blanche' (6 temps)", price: "85.00€", description: "Laissez-vous guider par le chef pour une expérience complète." }
-                ]
-            },
-            {
-                category: "Entrées & Grignotages",
-                items: [
-                    { name: "Pressé de tête de cochon", price: "10.00€" },
-                    { name: "Burrata, poire, betterave", price: "14.00€" },
-                    { name: "Sériole crue, radis, yuzu", price: "15.00€" },
-                    { name: "Encornet, chou romanesco, poivre vert", price: "16.00€" },
-                    { name: "Cervelle de veau, beurre blanc, câpres", price: "18.00€", description: "Un grand classique canaille de la maison." },
-                    { name: "Huitres de Bretagne (les 6)", price: "24.00€" },
-                    { name: "Sardines marinées, citron & huile d'olive", price: "12.00€" },
-                    { name: "Radis de la ferme, beurre demi-sel & pain au levain", price: "8.00€" },
-                    { name: "Asperges vertes de Provence, sauce gribiche", price: "14.50€" },
-                    { name: "Cromesquis de joue de bœuf épicées", price: "12.00€" },
-                    { name: "Foie gras de canard maison, chutney de figues", price: "19.00€" }
-                ]
-            },
-            {
-                category: "L'Essentiel (Plats Principaux)",
-                items: [
-                    { name: "Gnocchi maison, champignons, crème de parmesan", price: "24.00€" },
-                    { name: "Lieu Jaune de ligne, pak choï, moules", price: "28.00€" },
-                    { name: "Barbue snackée, artichauts, beurre blanc", price: "30.00€" },
-                    { name: "Pigeon de Mesquer, oignon grelot, radicchio, chataîgne", price: "33.00€" },
-                    { name: "Pithiviers de canard et foie gras, date & citron", price: "33.00€", description: "Le chef d'œuvre intemporel de la maison, un classique de la gastronomie française." },
-                    { name: "Cabillaud rôti, coco de Paimpol, pesto d'herbes", price: "29.00€" },
-                    { name: "Épaule d'agneau de lait confite, légumes de saison", price: "32.00€" },
-                    { name: "Risotto d'épeautre bio, courge rôtie & sauge", price: "22.50€" },
-                    { name: "Poitrine de cochon croustillante, purée de panais", price: "26.00€" },
-                    { name: "Monkfish (Lotte), jus de viande & poireaux brûlés", price: "31.00€" }
-                ]
-            },
-            {
-                category: "Desserts & Fromages",
-                items: [
-                    { name: "Gouda vieux de la Maison Sanders, chutney", price: "10.00€" },
-                    { name: "Comté 24 mois affiné, noix & miel", price: "12.00€" },
-                    { name: "Crème brûlée, glace hysope", price: "12.00€" },
-                    { name: "Tartelette aux figues, glace au citron thym", price: "12.00€" },
-                    { name: "Millefeuille monté minute, caramel beurre salé", price: "12.00€" },
-                    { name: "Chocolat chaud, glace à la vanille d'Ouganda, noisette", price: "12.00€" },
-                    { name: "Glace maison turbinée (2 boules au choix)", price: "8.00€" },
-                    { name: "Sorbet plein fruit de saison", price: "7.50€" }
-                ]
-            },
-            {
-                category: "Vins Naturels au Verre",
-                items: [
-                    { name: "Pet-Nat (Bulles - Sélection du jour)", price: "10.00€" },
-                    { name: "Blanc : Chenin de Loire, Domaine de l'Ecu", price: "9.00€" },
-                    { name: "Rouge : Gamay du Beaujolais, Lapierre", price: "8.50€" },
-                    { name: "Orange : Macération Alsace, Christian Binner", price: "11.50€" }
-                ]
-            },
-            {
-                category: "Boissons Sèches",
-                items: [
-                    { name: "Jus de fruits artisanal (Pomme-Coing)", price: "6.00€" },
-                    { name: "Limonade artisanale à la fleur de sureau", price: "5.50€" },
-                    { name: "Infusion de plantes fraîches du jardin", price: "4.50€" },
-                    { name: "Café de spécialité (Espresso)", price: "2.50€" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Les Menus d'Exception (Menus)",
+        items: [
+          { name: "Formule Déjeuner (Entrée-Plat-Dessert) - Semaine", price: "32.00€", description: "La bistronomie du Clown Bar à prix doux.", highlight: true },
+          { name: "Menu 'Carte Blanche' (6 temps)", price: "85.00€", description: "L'expérience complète guidée par le chef.", highlight: true }
         ]
+      },
+      {
+        category: "Entrées & Grignotages Canailles (Entrées)",
+        items: [
+          { name: "Cervelle de Veau, beurre blanc & câpres", price: "18.00€", highlight: true },
+          { name: "Pressé de Tête de Cochon", price: "10.00€" },
+          { name: "Sériole crue, radis & yuzu", price: "15.00€" },
+          { name: "Encornet, chou romanesco & poivre vert", price: "16.00€" },
+          { name: "Burrata, poire & betterave", price: "14.50€" },
+          { name: "Huitres de Bretagne (les 6)", price: "24.00€" },
+          { name: "Sardines marinées & citron", price: "12.00€" },
+          { name: "Cromesquis de joue de bœuf épicées", price: "12.00€" }
+        ]
+      },
+      {
+        category: "Plats de Mémoire & Création (Plats)",
+        items: [
+          { name: "Pithiviers de Canard & Foie Gras", price: "35.00€", description: "Le chef-d'œuvre intemporel de la maison.", highlight: true },
+          { name: "Pigeon de Mesquer, oignon & radicchio", price: "33.00€", highlight: true },
+          { name: "Lieu Jaune de ligne, pak choï & moules", price: "28.00€" },
+          { name: "Barbue snackée, artichauts & beurre blanc", price: "30.00€" },
+          { name: "Cabillaud rôti, coco de Paimpol & herbes", price: "29.00€" },
+          { name: "Épaule d'agneau de lait confite", price: "32.00€" },
+          { name: "Gnocchi maison & crème de parmesan", price: "24.00€" },
+          { name: "Risotto d'épeautre bio & courge rôtie", price: "22.50€" }
+        ]
+      },
+      {
+        category: "Douceurs & Pépites Fromagères (Desserts)",
+        items: [
+          { name: "Millefeuille monté minute, caramel salé", price: "12.00€", highlight: true },
+          { name: "Tartelette aux figues & glace citron-thym", price: "12.00€" },
+          { name: "Crème brûlée & glace hysope", price: "12.00€" },
+          { name: "Chocolat chaud & glace vanille Ouganda", price: "12.00€" },
+          { name: "Comté 24 mois affiné & miel", price: "12.00€" },
+          { name: "Gouda vieux de la Maison Sanders", price: "10.00€" }
+        ]
+      },
+      {
+        category: "La Cave de Vins Natures & Softs (Boissons)",
+        items: [
+          { name: "Verre de Vin Nature (Sélection du jour)", price: "9.00€", highlight: true },
+          { name: "Bouteille de Pet-Nat (Bulles)", price: "45.00€" },
+          { name: "Limonade artisanale au sureau", price: "5.50€", highlight: true },
+          { name: "Jus de fruits artisanal (Pomme-Coing)", price: "6.00€" },
+          { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
+          { name: "Café de spécialité (Espresso)", price: "2.50€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXQegTdi9zYHK4Y2Vr9c89t2tpKvGD0AABtfPmy5r_eMODYgLIpuYZsDwN0RUZAi3Di77W-3eKriV7cMEcaiBQeWywiYXvS-9yVyL50NRT2LCdVcSlpL9U4FIiq1qiAPXIs9B-WOAM0idKKjpOTrTE6mSo4RTsGadMoTVBI9w9yA5J5XTpxFBgWWnJZkhpyQBfnDejmKPQjpvWdI2sedkVi-dIIBsIBx5mi4AbMa0SzF7-2V1bDReBQ0lRffziTkFla-XNteu4ezNrHhV0T2skO0AgXNCBPxZV7S-2Uh2B2cg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

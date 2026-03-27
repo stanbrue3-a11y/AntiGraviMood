@@ -1,7 +1,7 @@
-import { cafe_mairie_6 } from './--proximit-/cafe-mairie-6';
-import { joayo_luxembourg } from './--proximit-/joayo-luxembourg';
-import { les_editeurs } from './--proximit-/les-editeurs';
-import { relais_entrecote_montparnasse } from './--proximit-/relais-entrecote-montparnasse';
+import { cafe_mairie_6 } from './proximite/cafe-mairie-6';
+import { joayo_luxembourg } from './proximite/joayo-luxembourg';
+import { les_editeurs } from './proximite/les-editeurs';
+import { relais_entrecote_montparnasse } from './proximite/relais-entrecote-montparnasse';
 import { jardin_du_luxembourg } from './od-on---luxembourg--rer-/jardin-du-luxembourg';
 import { cafe_de_flore } from './saint-germain-des-pr-s/cafe-de-flore';
 import { deux_magots } from './saint-germain-des-pr-s/deux-magots';

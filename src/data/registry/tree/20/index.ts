@@ -1,4 +1,4 @@
-import { aux_folies } from './--proximit-/aux-folies';
+import { aux_folies } from './proximite/aux-folies';
 import { la_bellevilloise } from './m-nilmontant/la-bellevilloise';
 import { dilia } from './menilmontant/dilia';
 

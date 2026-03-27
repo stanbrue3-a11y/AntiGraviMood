@@ -279,7 +279,12 @@ export class PlaceMapper {
       google_rating: row.rating || undefined,
       google_user_ratings_total: row.user_ratings_total || undefined,
       verified: row.verified === 1,
+      michelin_stars: row.michelin_stars || undefined,
     };
+
+    if (place.michelin_stars) {
+      console.warn(`🎯 [Mapper] Found Michelin Star: ${place.name} -> ${place.michelin_stars}`);
+    }
 
     // Final Verification against the Master Contract 📜
     const result = PlaceSchema.safeParse(place);
@@ -333,7 +338,12 @@ export class PlaceMapper {
       pricing: pricing,
       google_rating: row.rating || undefined,
       google_user_ratings_total: row.user_ratings_total || undefined,
+      michelin_stars: row.michelin_stars || undefined,
     };
+
+    if (skeleton.michelin_stars) {
+      console.warn(`🦴 [Skeleton] Found Michelin Star: ${skeleton.name} -> ${skeleton.michelin_stars}`);
+    }
 
     return skeleton;
   }

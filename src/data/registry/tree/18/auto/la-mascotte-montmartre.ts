@@ -5,23 +5,23 @@ export const la_mascotte_montmartre: SurgicalPlace = {
   slug: "la-mascotte-montmartre",
   name: "La Mascotte Montmartre",
   category: "restaurant",
-  subcategory: ["fruits de mer", "brasserie", "français", "historique", "écailler"],
+  subcategory: ["brasserie", "fruits-de-mer", "institution", "historique"],
   location: {
     address: "52 Rue des Abbesses, 75018 Paris, France",
     arrondissement: 18,
-    lat: 48.8857022,
-    lng: 2.335517,
+    lat: 48.8844874,
+    lng: 2.338426,
     nearest_metro: "Abbesses",
     metro_lines: [12],
-    google_id: "ChIJVVXp9k9u5kcRRBfM2_21H3s"
+    google_id: "ChIJZ3j_ZClVu5kcRsvXJ_CQNDvY"
   },
   moods: {
-    chill: 30,
-    festif: 80,
-    culturel: 75
+    chill: 70,
+    festif: 60,
+    culturel: 90
   },
   practical: {
-    opening_hours_raw: "lundi: 07:00 – 00:00 | mardi: 07:00 – 00:00 | mercredi: 07:00 – 00:00 | jeudi: 07:00 – 00:00 | vendredi: 07:00 – 00:00 | samedi: 07:00 – 00:00 | dimanche: 07:00 – 00:00",
+    opening_hours_raw: "lundi-dimanche: 08:00–00:00 (Service continu)",
     reservation_policy: "sans_resa",
     wifi: false,
     terrace: true,
@@ -29,64 +29,107 @@ export const la_mascotte_montmartre: SurgicalPlace = {
     accessibility: true,
     main_action: {
       type: "site",
-      url: "https://la-mascotte-montmartre.com/",
+      url: "http://www.la-mascotte-montmartre.com/",
       label: "VOIR LE SITE"
     }
   },
   pricing: {
-    certification: "silver",
-    avg_budget: 45,
+    certification: "gold",
+    avg_budget: 55,
     is_free: false,
+    dish_price: 39, // Prix de l'assiette de fruits de mer
+    menu_type: "standard",
+    force_manual_dish_price: true,
     last_updated: "2026-03-25",
-    verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées & Antipasti",
+        category: "Préludes de la Mer (Entrées)",
         items: [
-          { name: "Plateau d'huîtres Fines de Claire N°3 (x6)", price: "18.00€" },
-          { name: "Oursins de roche (à la pièce)", price: "6.50€" },
-          { name: "Tartare de thon aux agrumes", price: "16.00€" },
-          { name: "Bulots et mayonnaise maison", price: "12.00€" },
-          { name: "Soupe de poisson de roche", price: "15.00€" }
+          { name: "Crevettes Bio nacrées Sauce Ponzu", price: "23.00€", highlight: true },
+          { name: "Foie Gras de Canard, Condiment Kumquat", price: "26.00€", highlight: true },
+          { name: "Sardines Millésime 2024 'Mademoiselle Perle'", price: "16.00€" },
+          { name: "Cassolette d'Escargots de Bourgogne (x12)", price: "24.00€" },
+          { name: "Soupe à l'Oignon Gratinée Traditionnelle", price: "14.50€" },
+          { name: "Tartare de Thon Alalunga & Avocat", price: "19.00€", highlight: true },
+          { name: "Salade de Poulpe de Roche à la Provençale", price: "21.00€" },
+          { name: "Terrine de la Maison & Cornichons Malossol", price: "12.00€" }
         ]
       },
       {
-        category: "Les Plats de Tradition",
+        category: "Le Banc de l'Écailler (Plats)",
         items: [
-          { name: "Calamars à la plancha", price: "21.00€" },
-          { name: "Sole meunière belle-meunière", price: "42.00€" },
-          { name: "Plateau de fruits de mer 'Le Mascotte'", price: "75.00€" },
-          { name: "Saint-Jacques snackées, risotto", price: "32.00€" },
-          { name: "Andouillette AAAAA, frites maison", price: "24.00€" },
-          { name: "Bar entier grillé au fenouil", price: "34.00€" },
-          { name: "Choucroute de la mer Mascotte", price: "29.00€" }
+          { name: "Sole de Loctudy Meunière (Belle pièce)", price: "59.00€", highlight: true },
+          { name: "Plateau 'Royal Mascotte' (Prestige Mer)", price: "157.00€", highlight: true },
+          { name: "L'Assiette de Fruits de Mer (Sélection)", price: "39.00€", highlight: true },
+          { name: "Tour des Parcs à Huîtres (24 pièces)", price: "75.00€" },
+          { name: "Homard Canadien à la Plancha (500g)", price: "75.00€", highlight: true },
+          { name: "Fish & Chips façon Mascotte & Sauce Tartare", price: "29.00€" },
+          { name: "Thon mi-cuit au Sésame & Wakame", price: "28.00€" },
+          { name: "Noix de Saint-Jacques poêlées, Crème coraillée", price: "34.00€" }
         ]
       },
       {
-        category: "Les Desserts",
+        category: "Tradition & Terroir (Plats)",
         items: [
-          { name: "Ile flottante géante", price: "9.00€" },
-          { name: "Tarte tatin, crème crue", price: "10.00€" },
-          { name: "Profiteroles au chocolat chaud", price: "11.00€" },
-          { name: "Sorbet artisanal (2 boules)", price: "8.00€" },
-          { name: "Assiette de fromages affinés", price: "12.00€" }
+          { name: "Tartare de Bœuf d'Aubrac haché minute", price: "29.00€", highlight: true },
+          { name: "Entrecôte d'Aubrac (300g) Jus de viande & Frites", price: "44.00€" },
+          { name: "Blanquette de Joue de Veau & Riz Pilaf", price: "32.00€", highlight: true },
+          { name: "Magret de Canard au Miel & Épices douces", price: "30.00€" },
+          { name: "Burger Mascotte, Sauce St-Nectaire & Bacon", price: "26.00€" }
+        ]
+      },
+      {
+        category: "Accords Moelleux (Plats)",
+        items: [
+          { name: "Frites Maison à la graisse de bœuf", price: "7.00€", highlight: true },
+          { name: "Teppanyaki de Légumes croquants", price: "8.50€" },
+          { name: "Riz Pilaf aux aromates", price: "6.50€" },
+          { name: "Purée onctueuse au Beurre demi-sel d'Isigny", price: "7.50€" },
+          { name: "Salade de Jeunes Pousses & Vinaigrette", price: "6.00€" }
+        ]
+      },
+      {
+        category: "Douceurs de la Butte (Desserts)",
+        items: [
+          { name: "Crêpes flambées au Grand Marnier (Minute)", price: "16.00€", highlight: true },
+          { name: "Riz au Lait, Granola Maison & Caramel Salé", price: "12.00€", highlight: true },
+          { name: "Paris-Brest à la Crème Pralinée intense", price: "16.00€" },
+          { name: "Mousse au Chocolat & Crumble Noisette", price: "14.00€", highlight: true },
+          { name: "Tarte Tatin & Crème d'Isigny AOP", price: "14.50€" },
+          { name: "Assiette de Fruits Frais de Saison", price: "15.00€" },
+          { name: "Le Café Gourmand de la Mascotte (3 pièces)", price: "15.00€", highlight: true }
+        ]
+      },
+      {
+        category: "La Cave des Abbesses (Boissons)",
+        items: [
+          { name: "Coupe de Champagne Louis Dehu", price: "16.00€", highlight: true },
+          { name: "Bouteille de Chablis 1er Cru (Sélection)", price: "62.00€" },
+          { name: "Le Spritz de Montmartre (Signature)", price: "15.00€", highlight: true },
+          { name: "Verre de Muscadet Sèvre & Maine sur Lie", price: "8.50€" },
+          { name: "Jus de Fruits Alain Milliat (Sélection)", price: "7.50€" },
+          { name: "Eau micro-filtrée Mascotte (75cl)", price: "4.50€", highlight: true },
+          { name: "Café Espresso de spécialité Terres de Café", price: "3.50€" }
         ]
       }
     ]
   },
-  description: "Véritable institution de la rue des Abbesses depuis 1889, La Mascotte est l'âme du Montmartre historique. Son décor Art Déco immuable, son célèbre banc d'écailler et son effervescence typiquement parisienne en font une adresse incontournable. On y vient pour la fraîcheur absolue des fruits de mer et l'ambiance chaleureuse d'une brasserie qui a traversé les siècles sans perdre de son éclat.",
-  insider_tip: "• **Timing Stratégique** : Pour profiter du banc d'écailler au calme, privilégiez le service de midi en semaine dès l'ouverture.\n• **Combo Moelle** : Le plateau de fruits de mer accompagné d'un verre de Muscadet Sèvre-et-Maine est le passage obligé pour les puristes.\n• **Détail Secret** : Demandez une place près du bar pour observer le travail magistral des écaillers, un spectacle rare et fascinant de précision.",
+  description: "La Mascotte est l'âme gastronomique des Abbesses depuis 1889. Cette brasserie historique, spécialiste incontestée des fruits de mer et des produits du terroir, est une véritable institution montmartroise. Dans un cadre Art Déco magnifiquement préservé, on y savoure les plus beaux plateaux d'écailler de la capitale, des rôtisseries de bœuf d'Aubrac et des desserts flambés devant vous. Service continu, accueil chaleureux et produits d'une fraîcheur absolue font de ce lieu le refuge des habitués et des esthètes de la Butte.",
+  insider_tip: "• **Le Banc de l'Écailler** : Les huîtres sont d'une qualité rare, sourcées directement chez les meilleurs producteurs. L'assiette de fruits de mer est le parfait compromis.\n• **Service Continu** : Très précieux à Montmartre, vous pouvez y manger une sole meunière à 16h sans aucun problème.\n• ** Spritz de Montmartre** : Leur version signature est particulièrement rafraîchissante sur la terrasse face à l'église des Abbesses.",
   specials: {
-    cuisine: ["Française", "Fruits de mer", "Brasserie"],
-    drinks: ["Vins blancs", "Muscadet", "Café"],
-    must_eat: "Cuisine française. Plateau de fruits de mer & Sole meunière",
+    cuisine: ["Brasserie de mer & de terroir", "Plateaux d'écailler d'exception", "Service continu historique"],
+    drinks: ["Belle carte de Champagnes", "Cocktails signature", "Grands crus au verre"],
+    must_eat: "La Sole Meunière (59€) : une pièce de Loctudy magistrale, préparée dans les règles de l'art.",
   },
   images: {
-    hero: "AU_ZVEEWVT_cgj3HFJEmpFY5bVbST9U1jG31H09qrd4rtvyc7GSDEqzzDTKTKV7tLfZVA9BvwlW43AdvUfRyuzHmzl8YD9V426lf0XJlwIGlanO2U40PEqkJaOXlrPh7CP0V5fDcM9Gh_gzO2d3svNUw7iuixqlnT6vASl_4dIu_m93yE7rzJZId2G1YElXY5YmqhtcE-r45C9rcFdSMuJdP9OSwOWvXAewK4qglmfHSXMvk6gvCK8xlIGl2-YyTWCBygs9l4PP9VTfnNEaqKioyCEp3fJzA7lqQxKU78VqB5fyJ1aT6h8Uldc5Yb0uuY_QLFbrJ4BbzqJw8e8gexQ5-7qtbMR2p_anHwaHrRLHBYPTXs37YrDJQHYVgZ7P1lUX6zq7zTC-chuU6D9lLCR7Ko8CHeF-tA5IKc5fG5rXMS3fJyds",
-    gallery: ["AU_ZVEHuI94eAX6ASr6CcUeB2_rAI_sgnvOI8r4ArvTGT0iGYV2RHG9Il5GL_j-5K293DdjOk227lvnkncDI3MFLNg__WMuPX9oAULEbxcE3qylhGF1jAnM047qveJgETxzWtAEEk75qV5kprXYcH8s5WdFEeVjc18HToO64St-WUmh-yGbUixZ3pYrlGG6ZP8g7M4hdJ3X50-NrzN4jTfAR0w-yKn-Y4BjYzS9CyYfq_njVIfNSzXFeVkbAOKmSzT5xQJcNCSknak82Z9kAiUcqJPgksShSTC_sBo-Z-86phua9yg", "AU_ZVEGpAHx6PiAiOUqfvy4phO7RlQJVWDBKedNqAuafqrqoZN6d4PZRakCwXXCRqHlpn6bkTgIoYLV9oa6M-ONozH7QwRCg0AyIH3GfCNUpr70KetdTPB85XtZnGs6MAhTq4e7X7LFA5-o5bu6B8TmZfGAq0nVWXrkwkZZQCYwsF9kP_g8xq0Pc1cl_Eh6ktK0fsNkxZI3q_fAxI5Jj5NN4FCI7PR9Xy5QXTQd9xuY4nAyTrbYOBlFq1Fvd5QjIFIfnwbJpV9Qs9CXaI0YrcHzW7wSDcQZJdbM8_zAdAcehHXK5FQ"]
+    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+    gallery: [
+        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+    ]
   },
-  verified: true,
-  google_rating: 4.3
+  verified: false,
+  google_rating: 4.5
 };
 
 export default la_mascotte_montmartre;

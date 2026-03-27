@@ -40,67 +40,68 @@ export const le_servan: SurgicalPlace = {
         coffee_price: 3.50,
         dish_price: 30, // Median des Plats: 28, 28, 30, 38, 45 → médiane = 30€
         last_updated: "2026-03-07",
-        menu_items: [
-            {
-                category: "Les Menus (Évolutif Quotidien)",
-                items: [
-                    { name: "Menu Dégustation (À l'aveugle)", price: "55.00€" },
-                    { name: "Menu Déjeuner (Entrée, Plat, Dessert)", price: "35.00€" },
-                    { name: "Accord Mets & Vins Nature (3 verres)", price: "30.00€" },
-                    { name: "Accord Mets & Vins Nature (5 verres)", price: "45.00€" }
-                ]
-            },
-            {
-                category: "Exemples de Petites Assiettes (Entrées)",
-                items: [
-                    { name: "Hors-d'œuvre du jour", price: "12.00€" },
-                    { name: "Cœurs de canard au piment doux", price: "12.00€", description: "Une signature percutante des sœurs Levha." },
-                    { name: "Ceviche du moment, agrumes et piment", price: "15.00€" },
-                    { name: "Raviolis de porc et langoustine au beurre de soja", price: "16.00€" },
-                    { name: "Encornets sautés, ail noir et herbes fraîches", price: "17.00€" },
-                    { name: "Tartare de bœuf, mayonnaise épicée, chips de sarrasin", price: "18.00€" },
-                    { name: "Pig ears with Szechuan pepper & chili crisp", price: "14.00€" },
-                    { name: "Tomato Tartelette, ricotta & chili chutney", price: "13.00€" },
-                    { name: "Bone Marrow, herb crust & sourdough", price: "15.00€" },
-                    { name: "Mackerel Crudo, calamansi & ginger", price: "16.00€" }
-                ]
-            },
-            {
-                category: "Exemples de Plats Principaux",
-                items: [
-                    { name: "Paleron de bœuf braisé au tamarin", price: "28.00€" },
-                    { name: "Pot-au-feu de Saint-Jacques", price: "28.00€" },
-                    { name: "Maigre de ligne, bouillon asiatique", price: "30.00€" },
-                    { name: "Pigeon rôti, jus corsé (pour 1 personne)", price: "38.00€" },
-                    { name: "Ris de veau croustillant, jus réduit pimenté", price: "45.00€" },
-                    { name: "Duck baked in brioche, five-spice jus", price: "36.00€" },
-                    { name: "Crispy-skin Pork Belly, bok choy & soy", price: "29.00€" },
-                    { name: "Sweetbreads (Ris de Veau), brown butter & lemon", price: "42.00€" },
-                    { name: "Sea Bass, fennel & kale, saffron bisque", price: "34.00€" },
-                    { name: "Lobster Raviolis, saffron butter & peanut", price: "38.00€" }
-                ]
-            },
-            {
-                category: "Desserts & Pâtisseries",
-                items: [
-                    { name: "Glace sésame noir", price: "8.00€" },
-                    { name: "Tarte meringuée au citron (Revisitée)", price: "12.00€" },
-                    { name: "Chocolat crémeux, praliné cacahuète", price: "13.00€" },
-                    { name: "Poire pochée au sirop d'épices, crème crue", price: "12.00€" },
-                    { name: "Selection of Artisan Cheeses", price: "14.00€" },
-                    { name: "Mango Pomelo Sago (Modern interpretation)", price: "11.00€" }
-                ]
-            },
-            {
-                category: "Sélection de Vins Naturels",
-                items: [
-                    { name: "Verre de Blanc (Vibrant & Frais)", price: "9.50€" },
-                    { name: "Verre de Rouge (Fruit & Caractère)", price: "10.00€" },
-                    { name: "Verre d'Orange (Macération)", price: "12.00€" },
-                    { name: "Bouteille de Pet-Nat (Sélection)", price: "45.00€" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Les Menus d'Épure (Menus)",
+        items: [
+          { name: "Menu Dégustation (À l'aveugle)", price: "55.00€", highlight: true },
+          { name: "Menu Déjeuner (Entrée, Plat, Dessert)", price: "35.00€", highlight: true },
+          { name: "Accord Mets & Vins Nature (3 verres)", price: "30.00€" },
+          { name: "Accord Mets & Vins Nature (5 verres)", price: "45.00€" }
         ]
+      },
+      {
+        category: "Petites Assiettes Perçantes (Entrées)",
+        items: [
+          { name: "Cœurs de Canard au piment doux", price: "12.00€", highlight: true },
+          { name: "Raviolis de Porc & Langoustine, beurre de soja", price: "16.00€", highlight: true },
+          { name: "Ceviche du moment, agrumes & piment", price: "15.00€" },
+          { name: "Encornets sautés, ail noir & herbes", price: "17.00€" },
+          { name: "Tartare de Bœuf, mayo épicée & sarrasin", price: "18.00€" },
+          { name: "Oreilles de Cochon au poivre du Sichuan", price: "14.50€" },
+          { name: "Tartelette Tomate, ricotta & chutney piment", price: "13.00€" },
+          { name: "Os à Moelle, croûte d'herbes & levain", price: "15.00€" },
+          { name: "Maquereau Crudo, calamansi & gingembre", price: "16.00€" },
+          { name: "Hors-d'œuvre du jour (Saison)", price: "12.00€" }
+        ]
+      },
+      {
+        category: "Plats de Convive & Créations (Plats)",
+        items: [
+          { name: "Paleron de Bœuf braisé au tamarin", price: "28.00€", highlight: true },
+          { name: "Pot-au-feu de Saint-Jacques", price: "28.00€" },
+          { name: "Maigre de ligne, bouillon asiatique", price: "30.00€" },
+          { name: "Ris de Veau croustillant, jus pimenté", price: "45.00€", highlight: true },
+          { name: "Canard en Brioche, jus aux cinq épices", price: "36.00€" },
+          { name: "Poitrine de Cochon croustillante & bok choy", price: "29.00€" },
+          { name: "Bar de ligne, fenouil, chou kale & safran", price: "34.00€" },
+          { name: "Raviolis de Homard, beurre safrané & cacahuète", price: "38.00€" },
+          { name: "Pigeon rôti, jus corsé (Entier)", price: "38.00€" }
+        ]
+      },
+      {
+        category: "Douceurs & Fins de Repas (Desserts)",
+        items: [
+          { name: "Tarte meringuée au Citron (Revisitée)", price: "12.00€", highlight: true },
+          { name: "Chocolat crémeux & praliné cacahuète", price: "13.00€" },
+          { name: "Poire pochée aux épices & crème crue", price: "12.00€" },
+          { name: "Mango Pomelo Sago (Interpretation moderne)", price: "11.00€" },
+          { name: "Glace Sésame noir maison (2 boules)", price: "8.50€" },
+          { name: "Sélection de Fromages affinés artisanaux", price: "14.00€" }
+        ]
+      },
+      {
+        category: "La Cave Nature & Vibrante (Boissons)",
+        items: [
+          { name: "Verre de Vin Blanc (Vibrant & Frais)", price: "9.50€", highlight: true },
+          { name: "Verre de Vin Rouge (Fruit & Caractère)", price: "10.00€" },
+          { name: "Verre d'Orange (Macération)", price: "12.00€", highlight: true },
+          { name: "Bouteille de Pet-Nat (Sélection)", price: "48.00€" },
+          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
+          { name: "Café Espresso Terres de Café", price: "3.50€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXhlP-gJZKZ_KNIw9cWTR03sZtpbRa7RdoB3yTwZ2rnLGsnORGQifHBDqP5hidQlOXoRZIpL-qlwiCqyFrmZZc3JJeCU4sXE3I2zpT4uAw9RVlYMXnJE-FlUoME4ypVVwLBllYmqqx7dz1wqjOkHtK99J6mpoPL1tAIKlYew8BCN6pp9Ml_OSB6ubr2jrKZm-arCtrwiqU2O-CBmmZ7F8lFboLs16k36AjDqwDHXVUIgcr50osSLeK5DWI4KeJMyMHOep1OJlvHaaAE0-bDkndnTdxjZVdfYPlBWPx0dSVfpFNYf52omSUT9Iw0tM1Gz0BPwuiCEvE7d8jSZERAFO3phjY6-K3mMf61LwE-5FDL-pFiHcnDV0mP21VsBe6s-cn_BqcsNzr8Ahl5yuaQB6foFnjtKQ4u3wnNp_4mBar1qrRa&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

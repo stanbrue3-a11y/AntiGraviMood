@@ -44,48 +44,65 @@ export const le_chateaubriand: SurgicalPlace = {
         force_manual_dish_price: true,
         menu_type: 'fixed',
         last_updated: "2026-03-07",
-        menu_items: [
-            {
-                category: "Plats (Menus Dégustation)",
-                items: [
-                    { name: "Menu Dîner (Tous les soirs)", price: "95.00€", description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour." },
-                    { name: "Menu Déjeuner (Samedi uniquement)", price: "65.00€" }
-                ]
-            },
-            {
-                category: "Inspirations Historiques & Signatures",
-                items: [
-                    { name: "Ceviche de mulet, lait de tigre & herbes", price: "Inclus" },
-                    { name: "Asperges, sabayon au beurre noisette", price: "Inclus" },
-                    { name: "Cabillaud, émulsion de crustacés & algues", price: "Inclus" },
-                    { name: "Pigeon rôti, condiment framboise & radicchio", price: "Inclus" },
-                    { name: "Tocino de Cielo (dessert iconique)", price: "Inclus" },
-                    { name: "Glace à l'estragon & fraises fraîches", price: "Inclus" },
-                    { name: "Fromages affinés de chez Beillevaire", price: "Inclus" },
-                    { name: "Bouillon de seiche, encre & coriandre", price: "Inclus" },
-                    { name: "Ris de veau aux girolles & cerises", price: "Inclus" },
-                    { name: "Carpaccio de bœuf, parmesan & roquette sauvage", price: "Inclus" },
-                    { name: "Lotte fumée, émulsion de pomme de terre & caviar", price: "Inclus" },
-                    { name: "Maquereau mariné, concombre & aneth", price: "Inclus" },
-                    { name: "Fleurs de courgette farcies, ricotta & citron", price: "Inclus" },
-                    { name: "Agneau de lait de Castille, jus corsé & olive", price: "Inclus" },
-                    { name: "Sorbet citron-basilic & meringue craquante", price: "Inclus" },
-                    { name: "Ganache chocolat amer & fleur de sel", price: "Inclus" },
-                    { name: "Sauté de champignons sauvages & œuf parfait", price: "Inclus" },
-                    { name: "Pain de campagne artisanal & Beurre de baratte", price: "Inclus" },
-                    { name: "Eau micro-filtrée (pétillante ou plate)", price: "5.00€" },
-                    { name: "Café de spécialité torréfié maison", price: "4.00€" },
-                    { name: "Sélection d'infusions biologiques", price: "4.00€" },
-                    { name: "Mignardises de la Cave (Financiers & Macarons)", price: "Inclus" },
-                    { name: "Huitres de pleine mer (Sélection du moment)", price: "Inclus" },
-                    { name: "Saint-Jacques à la flamme, condiment agrumes", price: "Inclus" },
-                    { name: "Tartelette aux noix de Grenoble, caramel amer", price: "Inclus" },
-                    { name: "Caille rôtie au feu de bois, raisins & miel", price: "Inclus" },
-                    { name: "Soupe de poissons de roche, rouille & croûtons", price: "Inclus" },
-                    { name: "Glace au sarrasin grillé & huile de noisette", price: "Inclus" }
-                ]
-            }
+    menu_items: [
+      {
+        category: "Plats (Menus Dégustation)",
+        items: [
+          { name: "Menu Dîner (Tous les soirs)", price: "95.00€", description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour.", highlight: true },
+          { name: "Menu Déjeuner (Samedi uniquement)", price: "65.00€", highlight: true }
         ]
+      },
+      {
+        category: "Inspirations Historiques (Entrées)",
+        items: [
+          { name: "Ceviche de mulet, lait de tigre & herbes", price: "Inclus" },
+          { name: "Asperges, sabayon au beurre noisette", price: "Inclus" },
+          { name: "Bouillon de seiche, encre & coriandre", price: "Inclus" },
+          { name: "Maquereau mariné, concombre & aneth", price: "Inclus" },
+          { name: "Huitres de pleine mer (Sélection du moment)", price: "Inclus" },
+          { name: "Saint-Jacques à la flamme, agrumes", price: "Inclus" },
+          { name: "Carpaccio de bœuf, parmesan & roquette", price: "Inclus" },
+          { name: "Fleurs de courgette farcies, ricotta", price: "Inclus" }
+        ]
+      },
+      {
+        category: "Pièces de Résistance (Plats)",
+        items: [
+          { name: "Cabillaud, émulsion de crustacés & algues", price: "Inclus" },
+          { name: "Pigeon rôti, condiment framboise & radicchio", price: "Inclus" },
+          { name: "Ris de veau aux girolles & cerises", price: "Inclus" },
+          { name: "Lotte fumée, émulsion de pomme de terre", price: "Inclus" },
+          { name: "Agneau de lait de Castille, jus corsé", price: "Inclus" },
+          { name: "Caille rôtie au feu de bois, miel", price: "Inclus" },
+          { name: "Soupe de poissons de roche, rouille", price: "Inclus" },
+          { name: "Sauté de champignons sauvages & œuf parfait", price: "Inclus" },
+          { name: "Pain de campagne artisanal & Beurre de baratte", price: "Inclus" }
+        ]
+      },
+      {
+        category: "Douceurs & Pâtisseries (Desserts)",
+        items: [
+          { name: "Tocino de Cielo (Dessert iconique)", price: "Inclus", highlight: true },
+          { name: "Glace à l'estragon & fraises fraîches", price: "Inclus" },
+          { name: "Sorbet citron-basilic & meringue", price: "Inclus" },
+          { name: "Ganache chocolat amer & fleur de sel", price: "Inclus" },
+          { name: "Glace au sarrasin grillé & huile de noisette", price: "Inclus" },
+          { name: "Tartelette aux noix de Grenoble", price: "Inclus" },
+          { name: "Mignardises de la Cave (Financiers)", price: "Inclus" },
+          { name: "Fromages affinés de chez Beillevaire", price: "Inclus" }
+        ]
+      },
+      {
+        category: "La Cave Nature & Softs (Boissons)",
+        items: [
+          { name: "Accord Mets & Vins (Supplément)", price: "40.00€", highlight: true },
+          { name: "Verre de Vin Nature (Sélection)", price: "12.00€" },
+          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
+          { name: "Café de spécialité torréfié maison", price: "4.00€" },
+          { name: "Sélection d'infusions biologiques", price: "4.00€" }
+        ]
+      }
+    ]
     },
     images: {
         hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUiiV2KEeYZlLKAVxjqLFj88BHAbvcC4oHVtmVdWO95gI9oEOVX31dC6eNLIgihYz_pQ2BVXMXy7hXOSucgKjMBRK2SEeWyd5E1M3ft7hAfZUi71yn94t6QhHcIG-dQsrKCOM85XN2k2FwWXnRVOOWRyPA_bKbaDf15UU7p353xgwN2ZLAJ0xWUry6TpV4RWDPdxOdk_OVDTQDR8UXF8_mxOprD8tA5vGjAI9JLceE_EhKBMMoZvPHn93kcrlQwX-hr3HoJE7GrJMvXhn-sGsw5tEqJq-_cQH6Sxy6MfjgNBVkr4yMjJcaF17cu5Qng7uTxc7MC5HCYYeSNXIOL7bcGkQ7tMEdkTfzRIAxun4zRm3Da_IA4GXkLOrb3ssh1gVZbbooNt9FZRdKjdsMsNNnMM_7ADjKomShtkZSWdLMDSA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

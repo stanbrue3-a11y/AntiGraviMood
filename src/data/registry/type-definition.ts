@@ -159,6 +159,15 @@ export interface SurgicalPlace {
     instagram_handle?: string;
     michelin_stars?: number; // 1, 2, or 3 stars
 
+    // Real Talk (Surgical 2026 Standard) 🧬
+    real_talk?: {
+        text: string;         // General vibe summary
+        must_eat: string;     // The signature dish
+        le_secret: string;    // Insider tip / hidden detail
+        le_son: string;       // Acoustic vibe
+        le_must: string;      // The main reason to go
+    };
+
     // Data Provenance 🧬
     source?: 'expert_human' | 'research_ai' | 'to_be_verified';
 }

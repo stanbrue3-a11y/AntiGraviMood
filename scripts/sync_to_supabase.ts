@@ -120,7 +120,8 @@ async function runShadowSync() {
                 },
                 
                 google_rating: place.google_rating || null,
-                verified: place.verified || false
+                verified: place.verified || false,
+                michelin_stars: place.michelin_stars || null
             };
 
             report.push(pgRow);
