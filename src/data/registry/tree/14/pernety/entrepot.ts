@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const entrepot: SurgicalPlace = {
     id: "poi-entrepot",
-    name: "L'Entrepôt",
+    name: "L’Entrepôt",
     slug: "l-entrepot",
     category: "restaurant",
     subcategory: ["bistrot", "culturel", "jardin", "cinema"],

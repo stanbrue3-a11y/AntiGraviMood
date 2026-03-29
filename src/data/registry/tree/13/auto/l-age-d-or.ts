@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_age_d_or: SurgicalPlace = {
   id: "poi-l-age-d-or",
   slug: "l-age-d-or",
-  name: "L'Âge d'Or",
+  name: "L’Âge d’Or",
   category: "restaurant",
   subcategory: ["bistrot", "culturel", "bio", "fait-maison"],
   location: {

@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const bistrotACote: SurgicalPlace = {
     id: "poi-bistrot-a-cote",
-    name: "Au Bistrot d'à Côté",
+    name: "Au Bistrot d’à Côté",
     slug: "au-bistrot-a-cote",
     category: "restaurant",
     subcategory: ["bistrot", "terroir", "charme", "traditionnel"],

@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const o_mexico: SurgicalPlace = {
   id: "poi-o-mexico",
   slug: "o-mexico",
-  name: "O'Mexico",
+  name: "O’Mexico",
   category: "restaurant",
   subcategory: [],
   location: {

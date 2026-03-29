@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const acolyte_insolite: SurgicalPlace = {
     id: "poi-acolyte-insolite",
-    name: "L'Acolyte de l'Insolite",
+    name: "L’Acolyte de l’Insolite",
     slug: "acolyte-insolite",
     category: "restaurant",
     subcategory: ["fusion", "tapas", "atypique", "restaurant"],

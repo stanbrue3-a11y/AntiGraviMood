@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const aujourdhuiDemain: SurgicalPlace = {
     id: "poi-aujourdhui-demain",
-    name: "Aujourd'hui Demain",
+    name: "Aujourd’hui Demain",
     slug: "aujourdhui-demain",
     category: "restaurant",
     subcategory: ["vegan", "concept store", "brunch", "coffeeshop"],

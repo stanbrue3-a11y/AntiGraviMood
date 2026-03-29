@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const ordonnance: SurgicalPlace = {
     id: "poi-ordonnance-75014",
-    name: "L'Ordonnance",
+    name: "L’Ordonnance",
     slug: "l-ordonnance-paris-14",
     category: "restaurant",
     subcategory: ["bistronomie", "contemporain", "raffiné", "marché", "intimiste"],

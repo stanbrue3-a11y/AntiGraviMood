@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const l_ecailler_du_bistrot: SurgicalPlace = {
     id: "poi-l-ecailler-du-bistrot",
-    name: "L'Écailler du Bistrot",
+    name: "L’Écailler du Bistrot",
     slug: "l-ecailler-du-bistrot",
     category: "restaurant",
     subcategory: ["fruits de mer", "bistrot", "poisson", "restaurant"],

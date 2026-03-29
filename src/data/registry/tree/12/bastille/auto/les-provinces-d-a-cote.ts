@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../../type-definition";
 export const les_provinces_d_a_cote: SurgicalPlace = {
   id: "poi-les-provinces-d-a-cote",
   slug: "les-provinces-d-a-cote",
-  name: "Les Provinces d'à coté",
+  name: "Les Provinces d’à coté",
   category: "restaurant",
   subcategory: [],
   location: {

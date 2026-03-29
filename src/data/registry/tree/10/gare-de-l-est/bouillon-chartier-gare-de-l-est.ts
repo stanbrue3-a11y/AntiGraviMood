@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   id: "poi-bouillon-chartier-gare-de-l-est",
   slug: "bouillon-chartier-gare-de-l-est",
-  name: "Bouillon Chartier Gare de l'Est",
+  name: "Bouillon Chartier Gare de l’Est",
   category: "restaurant",
   subcategory: ["français", "bouillon", "traditionnel", "voyage", "belle-epoque"],
   location: {

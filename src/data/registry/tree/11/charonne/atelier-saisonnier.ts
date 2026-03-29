@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const atelier_saisonnier: SurgicalPlace = {
     id: "poi-atelier-saisonnier",
-    name: "L'Atelier Saisonnier",
+    name: "L’Atelier Saisonnier",
     slug: "atelier-saisonnier",
     category: "restaurant",
     subcategory: ["brunch", "bistrot", "fait maison", "vins natures", "restaurant"],

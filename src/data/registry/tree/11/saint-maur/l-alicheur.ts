@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const lAlicheur: SurgicalPlace = {
     id: "poi-l-alicheur",
-    name: "L'Alicheur",
+    name: "L’Alicheur",
     slug: "l-alicheur",
     category: "restaurant",
     subcategory: ["Cambodgien", "Vietnamien", "Healthy", "Asian Fusion"],

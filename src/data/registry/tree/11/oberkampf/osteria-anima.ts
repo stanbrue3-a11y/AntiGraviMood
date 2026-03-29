@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const osteria_anima: SurgicalPlace = {
     id: "poi-osteria-anima",
-    name: "L'Osteria dell'anima",
+    name: "L’Osteria dell’anima",
     slug: "osteria-anima",
     category: "restaurant",
     subcategory: ["italien", "pâtes", "restaurant"],

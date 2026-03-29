@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_ourcine: SurgicalPlace = {
   id: "poi-l-ourcine",
   slug: "l-ourcine",
-  name: "L'Ourcine",
+  name: "L’Ourcine",
   category: "restaurant",
   subcategory: [],
   location: {

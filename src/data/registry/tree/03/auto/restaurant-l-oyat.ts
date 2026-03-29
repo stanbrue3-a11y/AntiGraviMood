@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const restaurant_l_oyat: SurgicalPlace = {
   id: "poi-restaurant-l-oyat",
   slug: "restaurant-l-oyat",
-  name: "Restaurant L'Oyat",
+  name: "Restaurant L’Oyat",
   category: "restaurant",
   subcategory: [],
   location: {

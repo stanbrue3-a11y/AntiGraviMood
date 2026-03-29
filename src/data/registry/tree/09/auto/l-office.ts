@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_office: SurgicalPlace = {
   id: "poi-l-office",
   slug: "l-office",
-  name: "L'Office",
+  name: "L’Office",
   category: "restaurant",
   subcategory: ["bistrot", "bistronomie", "chic", "terroir"],
   location: {

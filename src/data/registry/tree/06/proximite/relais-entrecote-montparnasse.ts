@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const relais_entrecote_montparnasse: SurgicalPlace = {
     id: "poi-304",
-    name: "Le Relais de l'Entrecôte",
+    name: "Le Relais de l’Entrecôte",
     slug: "relais-entrecote-montparnasse",
     category: "restaurant",
     subcategory: ["viande", "bistro", "institution", "restaurant"],

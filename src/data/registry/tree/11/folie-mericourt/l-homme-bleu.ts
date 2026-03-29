@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const l_homme_bleu: SurgicalPlace = {
     id: "poi-l-homme-bleu",
-    name: "L'Homme Bleu",
+    name: "L’Homme Bleu",
     slug: "l-homme-bleu",
     category: "restaurant",
     subcategory: ["marocain", "couscous", "tajine", "restaurant"],

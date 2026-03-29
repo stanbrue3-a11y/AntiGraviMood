@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const imprevu: SurgicalPlace = {
     id: "poi-imprevu-alesia",
-    name: "L'Imprévu",
+    name: "L’Imprévu",
     slug: "l-imprevu-paris-14",
     category: "restaurant",
     subcategory: ["bistrot", "terrasse", "brasserie", "quartier", "moderne", "nocturne"],

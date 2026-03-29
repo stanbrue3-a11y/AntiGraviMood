@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../../type-definition";
 export const le_poisson_d_aligre: SurgicalPlace = {
   id: "poi-le-poisson-d-aligre",
   slug: "le-poisson-d-aligre",
-  name: "Le poisson d'Aligre",
+  name: "Le poisson d’Aligre",
   category: "restaurant",
   subcategory: [],
   location: {

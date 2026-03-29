@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const lassiette: SurgicalPlace = {
     id: "poi-lassiette-75014",
-    name: "L'Assiette",
+    name: "L’Assiette",
     slug: "l-assiette-paris-14",
     category: "restaurant",
     subcategory: ["institution", "bistronomie", "terroir", "traditionnel", "gastronomique"],

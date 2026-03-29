@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const auberge_du_bonheur: SurgicalPlace = {
   id: "poi-auberge-du-bonheur",
   slug: "auberge-du-bonheur",
-  name: "L'Auberge du Bonheur",
+  name: "L’Auberge du Bonheur",
   category: "restaurant",
   subcategory: ["traditionnel", "jardin", "bucolique", "bois-de-bonlogne"],
   location: {

@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const leSotLyLaisse: SurgicalPlace = {
     id: "poi-le-sot-ly-laisse",
-    name: "Sot l'y Laisse",
+    name: "Sot l’y Laisse",
     slug: "le-sot-ly-laisse",
     category: "restaurant",
     subcategory: ["franco-japanese", "bistronomic", "traditional", "fine-dining"],

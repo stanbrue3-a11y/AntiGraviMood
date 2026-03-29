@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_avant_poste_nouvellement_les_resistants_la_table: SurgicalPlace = {
   id: "poi-l-avant-poste-nouvellement-les-resistants-la-table",
   slug: "l-avant-poste-nouvellement-les-resistants-la-table",
-  name: "L'Avant-Poste (nouvellement Les Résistants - La Table)",
+  name: "L’Avant-Poste (nouvellement Les Résistants - La Table)",
   category: "restaurant",
   subcategory: [],
   location: {

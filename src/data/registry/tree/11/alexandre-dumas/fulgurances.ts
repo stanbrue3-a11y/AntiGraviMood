@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const fulgurances: SurgicalPlace = {
     id: "poi-fulgurances",
-    name: "Fulgurances, l'Adresse",
+    name: "Fulgurances, l’Adresse",
     slug: "fulgurances",
     category: "restaurant",
     subcategory: ["bistronomique", "chef éphémère", "créatif", "restaurant"],

@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_ete_en_pente_douce: SurgicalPlace = {
   id: "poi-l-ete-en-pente-douce",
   slug: "l-ete-en-pente-douce",
-  name: "L'Été en Pente Douce",
+  name: "L’Été en Pente Douce",
   category: "restaurant",
   subcategory: ["français", "cuisine-du-marché", "terrasse", "montmartre"],
   location: {

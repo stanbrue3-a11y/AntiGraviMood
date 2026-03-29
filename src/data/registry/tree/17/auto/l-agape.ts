@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_agape: SurgicalPlace = {
   id: "poi-l-agape",
   slug: "l-agape",
-  name: "L'Agapé",
+  name: "L’Agapé",
   category: "restaurant",
   subcategory: ["Gastronomique", "Michelin-starred", "Cuisine française"],
   location: {

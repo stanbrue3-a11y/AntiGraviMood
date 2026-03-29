@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const neige_d_ete: SurgicalPlace = {
   id: "poi-neige-d-ete",
   slug: "neige-d-ete",
-  name: "Neige d'Été",
+  name: "Neige d’Été",
   category: "restaurant",
   subcategory: ["gastronomique", "etoile", "franco-japonais", "contemporain"],
   location: {

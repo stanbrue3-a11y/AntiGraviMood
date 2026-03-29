@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const lAmiPierre: SurgicalPlace = {
     id: "poi-l-ami-pierre",
-    name: "A l'ami Pierre",
+    name: "A l’ami Pierre",
     slug: "l-ami-pierre",
     category: "restaurant",
     subcategory: ["bistrot", "french", "traditional", "neighborhood-gem"],

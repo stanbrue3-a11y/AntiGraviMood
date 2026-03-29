@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const le_p_tit_canon: SurgicalPlace = {
   id: "poi-le-p-tit-canon",
   slug: "le-p-tit-canon",
-  name: "Le P'tit Canon",
+  name: "Le P’tit Canon",
   category: "restaurant",
   subcategory: ["traditional-bistro", "neighborhood-gem", "wine-bar", "institution", "bonne-franquette"],
   location: {

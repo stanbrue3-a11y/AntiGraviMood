@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const essentiel_boulangerie: SurgicalPlace = {
     id: "poi-lessentiel-boulangerie-14",
-    name: "Boulangerie L'Essentiel",
+    name: "Boulangerie L’Essentiel",
     slug: "boulangerie-l-essentiel-paris-14",
     category: "café",
     subcategory: ["boulangerie", "patisserie", "artisanal", "bio", "sandwicherie", "petit-dejeuner"],

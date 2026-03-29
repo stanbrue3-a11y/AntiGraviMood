@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../type-definition';
 
 export const track119: SurgicalPlace = {
     id: "poi-track-119",
-    name: "Track 119 (Deb's Street Food)",
+    name: "Track 119 (Deb’s Street Food)",
     slug: "track-119",
     category: "restaurant",
     subcategory: ["indian", "pakistani", "street-food", "food-court"],

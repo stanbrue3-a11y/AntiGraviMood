@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const empreinte: SurgicalPlace = {
     id: "poi-empreinte-75014",
-    name: "L'Empreinte",
+    name: "L’Empreinte",
     slug: "l-empreinte-paris-14",
     category: "restaurant",
     subcategory: ["bistronomie", "moderne", "marche", "gastronomique", "cosy"],

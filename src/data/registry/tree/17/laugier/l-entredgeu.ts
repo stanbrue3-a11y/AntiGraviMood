@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_entredgeu: SurgicalPlace = {
   id: "poi-l-entredgeu",
   slug: "l-entredgeu",
-  name: "L'entredgeu",
+  name: "L’entredgeu",
   category: "restaurant",
   subcategory: ["traditional-bistro", "neo-bistro", "chic-bourgeois", "institution"],
   location: {

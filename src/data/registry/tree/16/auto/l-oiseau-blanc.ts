@@ -3,7 +3,7 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_oiseau_blanc: SurgicalPlace = {
   id: "poi-l-oiseau-blanc",
   slug: "l-oiseau-blanc",
-  name: "L'Oiseau Blanc",
+  name: "L’Oiseau Blanc",
   category: "restaurant",
   subcategory: [],
   location: {

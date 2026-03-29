@@ -2,7 +2,7 @@ import { SurgicalPlace } from "../../../type-definition";
 
 export const opportun: SurgicalPlace = {
     id: "poi-opportun-75014",
-    name: "L'Opportun",
+    name: "L’Opportun",
     slug: "l-opportun-paris-14",
     category: "restaurant",
     subcategory: ["lyonnais", "bouchon", "traditionnel", "vin-nature", "terrasse", "authentique"],
