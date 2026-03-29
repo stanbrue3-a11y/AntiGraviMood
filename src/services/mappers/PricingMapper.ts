@@ -45,7 +45,8 @@ export class PricingMapper {
   ): PricingView {
     const drinkType = PriceEngine.resolveDrinkType(place.category, place.subcategories || [], activeCategories);
     const drinkInfo = PriceEngine.getInfo(drinkType);
-    const resolved = PriceEngine.resolveReferencePrice(pricing, drinkType);
+    const sanitizedPricing = { ...pricing, hh_time: pricing.hh_time ?? undefined };
+    const resolved = PriceEngine.resolveReferencePrice(sanitizedPricing as any, drinkType);
 
     const metrics = CrabCalculator.getMetrics(pricing, drinkType);
     const anchor = this.getSmartAnchor(pricing, { ...place, pricing }, activeCategories);
@@ -75,25 +76,18 @@ export class PricingMapper {
     const sign = metrics.deviationPercent > 0 ? '+' : '';
 
 
-    // --- CONTEXTUAL SORTING (Standard Industriel 2026) ---
+    // --- CONTEXTUAL SORTING (V2 Architecture) ---
     if (menu && menu.length > 1) {
       const isBarContext = drinkType === 'pint' || drinkType === 'cocktail' || drinkType === 'wine';
+
+      const categoryOrder: Record<string, number> = isBarContext
+        ? { drink: 5, sharing: 4, starter: 3, main: 2, dessert: 1, tasting_menu: 0, other: 0 }
+        : { main: 5, starter: 4, tasting_menu: 3, sharing: 2, dessert: 1, drink: 0, other: 0 };
+
       menu = [...menu].sort((a, b) => {
-        const catA = a.category.toLowerCase();
-        const catB = b.category.toLowerCase();
-
-        const barKeywords = ['bar', 'drink', 'boisson', 'vin', 'cocktail', 'pint', 'happy hour', 'hh', 'champagne', 'bière', 'pression'];
-        const foodKeywords = ['plat', 'cuisine', 'entrée', 'dessert', 'food', 'snack', 'planche', 'resto', 'pâtes', 'burger', 'italien', 'bistrot', 'suggestion'];
-
-        if (isBarContext) {
-          const scoreA = barKeywords.some(kw => catA.includes(kw)) ? 2 : (foodKeywords.some(kw => catA.includes(kw)) ? -1 : 0);
-          const scoreB = barKeywords.some(kw => catB.includes(kw)) ? 2 : (foodKeywords.some(kw => catB.includes(kw)) ? -1 : 0);
-          return scoreB - scoreA;
-        } else {
-          const scoreA = foodKeywords.some(kw => catA.includes(kw)) ? 2 : (barKeywords.some(kw => catA.includes(kw)) ? -1 : 0);
-          const scoreB = foodKeywords.some(kw => catB.includes(kw)) ? 2 : (barKeywords.some(kw => catB.includes(kw)) ? -1 : 0);
-          return scoreB - scoreA;
-        }
+        const scoreA = categoryOrder[(a as any).category_type] ?? 0;
+        const scoreB = categoryOrder[(b as any).category_type] ?? 0;
+        return scoreB - scoreA;
       });
     }
 
@@ -123,7 +117,7 @@ export class PricingMapper {
         description: anchor.description || getDescription(),
       },
       confidence: CrabCalculator.getConfidenceMetrics(pricing.last_updated),
-      menu,
+      menu: menu as PricingView['menu'],
     };
   }
 }

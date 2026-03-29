@@ -72,12 +72,16 @@ export const PricingSchema = z.object({
   menu_items: z
     .array(
       z.object({
-        category: z.string(),
+        category: z.string().optional(), // Legacy compat
+        category_type: z.string().optional(), // V2: starter|main|dessert|drink|sharing|tasting_menu|other
+        display_label: z.string().optional(), // V2: Free-form display name
         items: z.array(
           z.object({
             name: z.string(),
-            price: z.string(),
+            price: z.string().optional(), // Legacy compat (formatted string)
+            price_cents: z.number().optional(), // V2: price in cents (2400 = 24€)
             description: z.string().optional(),
+            is_highlight: z.boolean().optional(),
           }),
         ),
       }),

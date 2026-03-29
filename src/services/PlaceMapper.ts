@@ -170,10 +170,14 @@ export class PlaceMapper {
 
       menu_items: (pricingData.menu_items || []).map((cat: any) => ({
         category: cat.display_label || cat.category || cat.category_type || 'Menu',
+        category_type: cat.category_type,
+        display_label: cat.display_label,
         items: (cat.items || []).map((item: any) => ({
           name: item.name,
-          price: item.price_cents ? `${item.price_cents / 100}€` : item.price,
+          price: item.price_cents ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€` : item.price,
+          price_cents: item.price_cents,
           description: item.description || undefined,
+          is_highlight: item.is_highlight || false,
         })),
       })),
     };
@@ -394,10 +398,14 @@ export class PlaceMapper {
         (pricingData.menu_items || []).length > 0
           ? (pricingData.menu_items || []).map((cat: any) => ({
               category: cat.display_label || cat.category || cat.category_type || 'Menu',
+              category_type: cat.category_type,
+              display_label: cat.display_label,
               items: (cat.items || []).map((item: any) => ({
                 name: item.name,
-                price: item.price_cents ? `${item.price_cents / 100}€` : item.price,
+                price: item.price_cents ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€` : item.price,
+                price_cents: item.price_cents,
                 description: item.description || undefined,
+                is_highlight: item.is_highlight || false,
               })),
             }))
           : place.pricing.menu_items,

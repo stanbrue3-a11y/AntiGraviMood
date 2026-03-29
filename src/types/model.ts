@@ -53,8 +53,9 @@ export interface PricingView {
     color: string;
   };
   menu: {
-    category: string;
-    items: { name: string; price: string; highlight?: boolean }[];
+    category: string; // Resolved display name (display_label or legacy category)
+    category_type?: string; // V2 semantic type
+    items: { name: string; price: string; price_cents?: number; is_highlight?: boolean }[];
   }[];
 }
 

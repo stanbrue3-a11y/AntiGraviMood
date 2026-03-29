@@ -57,7 +57,7 @@ export const MOCK_PLACE_ROW: PlaceRow = {
   pricing_json: JSON.stringify({
     dish_price: 18,
     hh_pint: 5,
-    menu_items: [{ category: 'Drinks', items: [{ name: 'Pint', price: '7€' }] }],
+    menu_items: [{ category: 'Drinks', category_type: 'drink', display_label: 'Drinks', items: [{ name: 'Pint', price: '7€', price_cents: 700 }] }],
   }),
   media_json: JSON.stringify({
     hero_image: 'https://example.com/hero.jpg',
@@ -117,7 +117,7 @@ export const MOCK_PLACE: Place = {
     hh_pint: 5,
     category_percentile: 50,
     value_score: 80,
-    menu_items: [{ category: 'Drinks', items: [{ name: 'Pint', price: '7€' }] }],
+    menu_items: [{ category: 'Drinks', category_type: 'drink', display_label: 'Drinks', items: [{ name: 'Pint', price: '7€', price_cents: 700 }] }],
   },
   practical_info: {
     primary_status: 'sans_resa',
