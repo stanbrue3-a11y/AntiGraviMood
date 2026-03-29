@@ -13,7 +13,7 @@ export const pont_cardinet: SurgicalPlace = {
     lng: 2.3130191,
     nearest_metro: "TODO",
     metro_lines: [],
-    google_id: "ChIJJw61Iv5x5kcRYWQAy29vqJk"
+    google_id: "ChIJJw61Iv5x5kcRYWQAy29vqJk_FIXED"
   },
   moods: {
     chill: 100,

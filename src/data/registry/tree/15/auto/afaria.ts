@@ -5,7 +5,7 @@ export const afaria: SurgicalPlace = {
   slug: "afaria",
   name: "Afaria",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bistrot", "sud-ouest", "traditionnel", "terroir"],
   location: {
     address: "15 Rue Desnouettes, 75015 Paris, France",
     arrondissement: 15,
@@ -22,7 +22,8 @@ export const afaria: SurgicalPlace = {
   },
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 14:00, 19:00 – 22:00 | mercredi: 12:00 – 14:00, 19:00 – 22:00 | jeudi: 12:00 – 14:00, 19:00 – 22:00 | vendredi: 12:00 – 14:00, 19:00 – 22:00 | samedi: 12:00 – 14:00, 19:00 – 22:00 | dimanche: Fermé",
-    reservation_policy: "resa_conseillee",
+    reservation_policy: "sans_resa",
+    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,
@@ -36,8 +37,8 @@ export const afaria: SurgicalPlace = {
     certification: "silver",
     avg_budget: 0,
     is_free: false,
-    last_updated: "2026-03-27",
-    verified_at: "2026-03-27",
+    last_updated: "2026-03-29",
+    verified_at: "2026-03-29",
     menu_items: [
       {
         category: "Pour Commencer / À Partager",
@@ -96,16 +97,19 @@ export const afaria: SurgicalPlace = {
       }
     ]
   },
-  description: "Afaria est une ode vibrante au Sud-Ouest, nichée dans le 15e arrondissement. Sous l'impulsion de la cheffe Ludivine Merlin, cet établissement propose une cuisine de terroir magnifiée par une touche de modernité. Entre les magrets rôtis aux sarments de vigne et les terrines d'artichaut raffinées, chaque plat raconte une histoire de produits sourcés et de passion culinaire. L'ambiance y est chaleureuse, évoquant les grandes tablées basques dans un décor élégant et convivial.",
-  insider_tip: "• **Timing Stratégique** : Visez le déjeuner en semaine pour profiter des formules à 25€, un rapport qualité-prix imbattable pour ce niveau de cuisine.\n  • **Combo Moelle** : Ne passez pas à côté des pieds de cochon croustillants suivis du magret de canard à partager.\n  • **Expérience Culturelle** : La bibliothèque gourmande à l'entrée et l'accent chantant de l'équipe vous transportent directement dans les Landes.",
+  description: `Afaria est une ode vibrante au Sud-Ouest, nichée dans le 15e arrondissement. Sous l'impulsion de la cheffe Ludivine Merlin, cet établissement propose une cuisine de terroir magnifiée par une touche de modernité. Entre les magrets rôtis aux sarments de vigne et les terrines d'artichaut raffinées, chaque plat raconte une histoire de produits sourcés et de passion culinaire. L'ambiance y est chaleureuse, évoquant les grandes tablées basques dans un décor élégant et convivial.`,
+  expert_catchline: `Cuisine du Sud-Ouest. Magret rôti aux sarments de vigne & Axoa de veau.`,
+  insider_tip: `• **Le Bon Plan** : Visez le déjeuner en semaine pour profiter des formules à 25€, un rapport qualité-prix imbattable pour ce niveau de cuisine.
+• **Le Festin** : Ne passez pas à côté des pieds de cochon croustillants suivis du magret de canard à partager.
+• **L'Ambiance** : La bibliothèque gourmande à l'entrée et l'accent chantant de l'équipe vous transportent directement dans les Landes.`,
   specials: {
     cuisine: ["Sud-Ouest", "Bistrot", "Landais"],
     drinks: ["Vins du Béarn", "Armagnac"],
     must_eat: "Cuisine Basque. Le magret de canard rôti aux sarments de vigne.",
   },
   images: {
-    hero: "AU_ZVEFM1CCL7JPhEQsW7udeOWjGm4fSpU2lQq9bMAkuQis8VakCymcuYCeUTRgiaeVThAIDEUGTY5NvDCS19fr1RXKrFt2-FUS55jCldSim54P6JJ99IGNLT27hz1RJeo21yaAloeCTV9Bv84il49c0VfUzkcwzT-UqGFE4cSFzg597RlTNVf2TUqPzah7MbTk6YgjpqquqdAQsERP0hkVo4V65IRVsd3aanHXPbTD-LxL2uLs2_Sj4yuuVQQLnVuacmoIBeiocYQNriYqlZeF66jmmLLeXZXpSyHtPU2pXfjOg0w",
-    gallery: ["AU_ZVEFeYGLrOrYB9SLZQycdvXZedXbTLzUebYILqldJqZjm01aQZWUhDUSph3UuIrfWHFSWOkUYVTgWlK98o3meuoRKlMfVntAXX8GA0kkQo3VVE84Wqb_3f5T5r_4vKyNEsQhDv3nEbqgkwP85QYiqfkqYF1D1Leb6aR_-mz7ziuBgO4KCkmgGjQHBi6Z_GMeE-PaYAIBNkP9V0l5RRX08hOAIu5epCEozhZsTkREWF8acWUQj-DAVi1dfOZwSXyJaO4BXo3fjZv3rHMVT1LW0ylNKG_Ffgj-j0lAwgDEjzWJ2OA","AU_ZVEHEt1s5Bv5fcEEO_M7JiMHow3b8kF2UrwFAlOqVNgl3ocCuKQpH8jZRv4sw3ftyPUsZziixt8qNSen8ApGAQ_vNFLTQqS12uJ8FLmEdmBzystuNt9CktbajjQkLbrzhglJeApZpvPjJpu7iPQxEAKAN7A5ToxZUhDVZ4P5Cd10vP1bLpiSwxo_AKFLJZ_kHTVup4U87Fhq1tSencf0W1qDyYHWfvO5tkwSxI1hNyoGi6dSvW5Ff0o4JJ2VoI7TgXWnXN0LDKTd2DNoNXrTXTAZhjpdlYCKwlrcK9om2tRJkDB333CrXzBS30WuK5S-MB8fjW94HksW7t5aazv-QaGoAW6crQ_x5AfUqacKDfFBLIhgnB8ohit7IrupyKKm2gRJT3IMA3Z3aJLG_amVEdumbq5cRw1zfvLKL3_EdT-w_qaAxv3h1PqqmxzLnFPlL"]
+    hero: "AU_ZVEHF04LdM3fZxmiE-37ckeBb6GQ4r6xLQaeBgBnNGHrzkr990hY2FskIQhIlGRjDpnJPs-Q6wr4dJZPSzcA78lcUKyOoM8Uezj_EtAOcvh0h3k3Ih6-pg9vKE8hLdFHcw5AEsgCxo7zxmpG2NehLN1AhAST94hAZIcZmrFVi8Ih77k6BQqXnRTgBXo5MI3HBF-fmC_L9AW2pT0AioGC9yODb_ZAzyMs2n0sOiN1iHK4Gl4Vl-eoeVlGmbGRvGNnuhVuajiWA2PgXqRK6MIwkwRcJnMXRQjqymY3VDC1FjkFqsg",
+    gallery: ["AU_ZVEGp5jg5v-UATJZ7a1swzQyS8YCUe7_xRoQ-zNG4Br_P-lLhds7_QwmCQ2AdJRYGfqBZUUqWvQazDO24Ok60OBKQgt0v_EbbrJ-zFHOe0ztGRmTVv8tgtu4lvGoRZ8GclTqziaJOXM0nRkgVz2MRPbDtQuqktelQUjIXynpECXgs17GN_6EhGmu_ttVUL6dB_PvvDqmJKZcm8o6IHZrLOnJrQD7JBXEcH_fsXHfWep8gGWhSYOly49u_P_ubmXSbkGeQE0V0XEYzU8V2ujy9HjZwO8UjKjdfY47lYJC0CccxJQ","AU_ZVEGZTSDHayl5FgBpOckwD-kmm4Px30k7sUHrHQinavXStXWHOFye-p7WueEqB0OgUhEYdqzWDCVouTXCWVba1aSw0PG79N2a1NXqCh1RZQIsAfS4NFwts5a9KuZouLloLVTpsIw4IdIwCi2wqiYeCAIKNdVcE2GKs7JeR1HueMG2C8PM5pQxR-9nQeYTKAbqGVuhSwfyMpv1KFKalf8wUpc_Iic7-snwUFnR9lJRvY4nQjhH214r95rZ0CMZal2JBp1iT1SyTdOa7nva2a8wjZKjGmMI6-pYlh4pp9MkNolQoO7hONva5cAWajle3TmEyGZL-w4x9SNX_-R1_Js9dFviP3J_0LHlEhWsJAY-HhySmAl6Y3WHzMq3Rxs_iICpV7x8r_5FvSFxpjVoBncjTdTjDEPZ2vnorAfNEndde9MvAviHs3Q4jYRn2-iSJcG2"]
   },
   verified: true,
   google_rating: 4.7

@@ -41,15 +41,25 @@ async function migrateMedia() {
         : {};
 
     const args = process.argv.slice(2);
-    const targetSlug = args.find(arg => arg.startsWith('--slug='))?.split('=')[1];
+    // Support both --slug= and --slugs= (with comma-separated values)
+    const slugArg = args.find(arg => arg.startsWith('--slug=') || arg.startsWith('--slugs='))?.split('=')[1];
 
-    const targetSlugs = targetSlug ? targetSlug.split(',') : [];
+    const targetSlugs = slugArg ? slugArg.split(',').map(s => s.trim()) : [];
 
     const placesToMigrate = targetSlugs.length > 0
         ? report.filter((p: any) => targetSlugs.includes(p.slug))
         : report;
 
-    console.log(`📍 Cibles identifiées : ${placesToMigrate.length} lieux${targetSlug ? ` [CIBLÉ: ${targetSlug}]` : ''}.`);
+    if (targetSlugs.length > 0) {
+        console.log(`🎯 MODE CIBLÉ : ${targetSlugs.length} slug(s) demandé(s) → ${placesToMigrate.length} trouvé(s).`);
+        if (placesToMigrate.length === 0) {
+            console.log(`⚠️  Aucun lieu trouvé pour les slugs: ${targetSlugs.join(', ')}`);
+            console.log(`   Vérifiez que sync_to_supabase.ts a été lancé avant.`);
+            return;
+        }
+    } else {
+        console.log(`📍 MODE GLOBAL : ${placesToMigrate.length} lieux à traiter.`);
+    }
 
     for (const place of placesToMigrate) {
         const { id, media } = place;

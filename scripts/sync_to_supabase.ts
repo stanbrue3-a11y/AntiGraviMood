@@ -38,6 +38,7 @@ console.log(`✅ ${allPlaces.length} lieux chargés dynamiquement.`);
 
 const args = process.argv.slice(2);
 const targetSlug = args.find(arg => arg.startsWith('--slug='))?.split('=')[1];
+const targetArrondissement = args.find(arg => arg.startsWith('--arrondissement='))?.split('=')[1];
 
 const REPORT_PATH = path.join(__dirname, '../../temp_screenshots/shadow_sync_report.json');
 
@@ -50,9 +51,14 @@ const REPORT_PATH = path.join(__dirname, '../../temp_screenshots/shadow_sync_rep
 async function runShadowSync() {
     const targetSlugs = targetSlug ? targetSlug.split(',') : [];
     
-    const placesToProcess = targetSlugs.length > 0 
+    let placesToProcess = targetSlugs.length > 0 
         ? allPlaces.filter(p => targetSlugs.includes(p.slug))
         : allPlaces;
+
+    if (targetArrondissement) {
+        const arr = parseInt(targetArrondissement);
+        placesToProcess = placesToProcess.filter(p => p.location.arrondissement === arr);
+    }
 
     console.log('🛰️  SHADOW SYNC: Simulation de migration Supabase');
     console.log('='.repeat(50));
@@ -74,8 +80,78 @@ async function runShadowSync() {
 
             // 2. Calculs PriceEngine (Le Cerveau)
             const pricing = place.pricing;
+
+            // --- Calcul du Plat Médian (Standard Industriel V12.0) ---
+            const calculateMedianDishPrice = (menuItems: any[] | undefined): number | null => {
+                if (!menuItems || menuItems.length === 0) return null;
+
+                const dishCategories = [
+                    'plats', 'pizzas', 'burgers', 'signature', 'couscous', 'bibimbaps', 'grillades', 
+                    'pâtes', 'bowls', 'tradition', 'main courses', 'les plats', 'spécialités', 
+                    'viandes', 'poissons', 'planches', 'boards', 'boxes', 'primi', 'secondi', 'piatti',
+                    'galettes', 'crêpes', 'dumplings', 'baos', 'cups', 'wok', 'curries', 'ramens', 
+                    'bentos', 'sushis', 'rolls', 'shakshukas', 'assiettes', 'sharing', 'brunch', 
+                    'breakfast', 'petit-déjeuner', 'déjeuner', 'lunch', 'salades', 'sandwiches', 'tacos',
+                    'plat', 'main', 'résistance', 'course', 'traditionnel', 'curry', 'bowl', 'burger', 'pizza', 'pizze', 'pasta',
+                    'poisson', 'viande', 'noodle', 'bo bun', 'ramen', 'udon', 'galette',
+                    'crêpe salée', 'incontournable', 'ardoise', 'légende', 'classique', 'océan', 'empreinte',
+                    'crapaud', 'arrivage', 'écailler', 'cocotte', 'maison', 'mezzé', 'taco', 'burrito', 'quesadilla',
+                    'tajine', 'mijoté', 'brochette', 'spécialité', 'suggestion', 'box', 'planche',
+                    'pâtisserie', 'gâteau', 'viennoiserie', 'satiété', 'saison', 'carte', 'cuisine', 'moment', 'bistronomie',
+                    'fusion', 'lyonnaiseries', 'poulet'
+                ];
+
+                const exclusionKeywords = [
+                    'entrée', 'entree', 'starter', 'dessert', 'formule', 'boisson', 'cocktail', 
+                    'vin', 'bière', 'biere', 'café', 'cafe', 'accompagnement', 'garniture', 
+                    'petit', 'apéro', 'apero', 'amuse', 'enfant', 'accord', 'supplément', 'supplement',
+                    'auspice', 'prélude', 'douceur', 'mignardise', 'amuse-bouche', 'appetizer', 'sucrée', 'sucré', 'digestif', 'fromage', 'side'
+                ];
+
+                const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes', 'snacks'];
+                let prices: number[] = [];
+                let foundMainDish = false;
+
+                menuItems.forEach(cat => {
+                    const categoryName = cat.category.toLowerCase();
+                    const isMainDish = dishCategories.some(dc => categoryName.includes(dc));
+                    const isExcluded = exclusionKeywords.some(ek => categoryName.includes(ek));
+
+                    if (isMainDish && !isExcluded) {
+                        cat.items.forEach((item: any) => {
+                            const priceStr = String(item.price).replace('€', '').replace(',', '.').trim();
+                            const priceNum = parseFloat(priceStr);
+                            if (!isNaN(priceNum) && priceNum >= 7) { 
+                                prices.push(priceNum); 
+                                foundMainDish = true; 
+                            }
+                        });
+                    }
+                });
+
+                if (!foundMainDish || prices.length < 3) {
+                    menuItems.forEach(cat => {
+                        const categoryName = cat.category.toLowerCase();
+                        if (secondaryCategories.some(sc => categoryName.includes(sc)) || categoryName.includes('tapas')) {
+                            cat.items.forEach((item: any) => {
+                                const priceStr = String(item.price).replace('€', '').replace(',', '.').trim();
+                                const priceNum = parseFloat(priceStr);
+                                if (!isNaN(priceNum) && priceNum >= 4) { prices.push(priceNum); }
+                            });
+                        }
+                    });
+                }
+
+                if (prices.length === 0) return null;
+                prices.sort((a, b) => a - b);
+                const mid = Math.floor(prices.length / 2);
+                return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
+            };
+
+            const autoDishPrice = pricing.dish_price || calculateMedianDishPrice(pricing.menu_items);
             const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategory || []);
-            const resolved = PriceEngine.resolveReferencePrice(pricing as any, drinkType);
+            const pricingForEngine = { ...pricing, dish_price: autoDishPrice };
+            const resolved = PriceEngine.resolveReferencePrice(pricingForEngine as any, drinkType);
             
             // 3. Transformation en ligne PostgreSQL (L'ébauche)
             const pgRow = {
@@ -98,7 +174,7 @@ async function runShadowSync() {
                 cocktail_price: pricing.cocktail_price || null,
                 wine_glass_price: pricing.wine_glass || null,
                 coffee_price: pricing.coffee_price || null,
-                main_dish_price: pricing.dish_price || null,
+                main_dish_price: autoDishPrice || null,
                 hh_pint_price: pricing.hh_pint || null,
                 index_price: resolved.price,
                 
@@ -115,8 +191,10 @@ async function runShadowSync() {
                 },
                 real_talk: {
                     ...place.specials,
+                    cuisine_type: place.specials.cuisine ? place.specials.cuisine[0] : null,
                     expert_catchline: place.expert_catchline,
-                    insider_tip: place.insider_tip
+                    insider_tip: place.insider_tip,
+                    ...(place.real_talk || {})
                 },
                 
                 google_rating: place.google_rating || null,

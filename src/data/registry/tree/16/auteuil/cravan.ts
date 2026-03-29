@@ -1,35 +1,34 @@
 import { SurgicalPlace } from "../../../type-definition";
 
 export const cravan: SurgicalPlace = {
-  id: "poi-cravan",
-  slug: "cravan",
-  name: "Cravan",
+  id: "poi-cravan-16",
+  name: "CRAVAN",
+  slug: "cravan-paris-16e",
   category: "restaurant",
-  subcategory: ["bar_cocktail", "coffeeshop"],
+  subcategory: ["cocktail-bar", "élégant", "historique", "guimard"],
   location: {
-    address: "17 Rue de la Fontaine, 75016 Paris, France",
+    address: "17 Rue Jean de la Fontaine, 75016 Paris",
     arrondissement: 16,
-    lat: 48.8517527,
-    lng: 2.2741913,
-    nearest_metro: "Ranelagh",
-    metro_lines: ["9"],
-    google_id: "ChIJb7E-xzdv5kcRk4Xj0fS_L7w"
+    lat: 48.8516434,
+    lng: 2.273866,
+    nearest_metro: "Ranelagh / Jasmin",
+    metro_lines: [9],
+    google_id: "ChIJy6Q5-Xt75kcRBwOzxoT5aNo"
   },
   moods: {
     chill: 95,
-    festif: 65,
-    culturel: 85
+    festif: 30,
+    culturel: 95
   },
   practical: {
-    opening_hours_raw: "mardi: 08:30 – 00:00 | mercredi: 08:30 – 00:00 | jeudi: 08:30 – 00:00 | vendredi: 08:30 – 00:00 | samedi: 09:00 – 00:00 | dimanche: 09:00 – 23:00 | lundi: Fermé",
+    opening_hours_raw: "Mer-Sam: 18h-23h | Dim-Mar: Fermé",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: true,
-    ferme_tard: true,
+    ferme_tard: false,
     accessibility: true,
     main_action: {
       type: "site",
-      url: "https://cravanparis.com/",
+      url: "https://www.cravanparis.com/",
       label: "VOIR LE SITE"
     }
   },
@@ -41,67 +40,90 @@ export const cravan: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Petites Bouchées (Gildas)",
+        category: "L'Art du Cocktail (Signatures)",
         items: [
-          { name: "La Gilda Classique", price: "7€", description: "Olive, anchois, piment Guindilla", highlight: true },
-          { name: "Gilda au Maquereau Fumé", price: "8€" },
-          { name: "Gilda Végétale", price: "6€" },
-          { name: "Amandes Grillées & Sel", price: "5€" }
+          { name: "Cravan Cocktail", price: "16€", description: "Gin, vermouth sec, zeste de citron", highlight: true },
+          { name: "Yellow Cocktail", price: "17€", description: "Gin, Suze, Chartreuse jaune" },
+          { name: "Red Cocktail", price: "17€", description: "Campari, vermouth rouge, touche de mezcal" },
+          { name: "Martini de la Maison", price: "16€", description: "Service glacé, olive de luxe" },
+          { name: "Negroni Vieilli", price: "18€", description: "Amertume équilibrée et suave" },
+          { name: "Mocktail 'La Fontaine'", price: "12€", description: "Herbes fraîches, agrumes et eau pétillante" }
         ]
       },
       {
-        category: "Plats & Rolls",
+        category: "Petites Assiettes (Entrées)",
         items: [
-          { name: "Lobster Roll Signature", price: "29€", description: "Brioche toastée, homard bleu", highlight: true },
-          { name: "Paté en Croûte de Maison", price: "15€" },
-          { name: "Burrata & Huile d'Argan", price: "17€" },
-          { name: "Sourdough Sandwich Comté 24m", price: "14€" },
-          { name: "Bowl de Saison (Végétal)", price: "18€" }
+          { name: "Lobster Roll Cravan", price: "32€", description: "Homard breton, brioche beurrée et ciboulette", highlight: true },
+          { name: "Croque-Madame à la Truffe", price: "24€", description: "Pain au levain, comté affiné et truffe noire" },
+          { name: "Huîtres N°3 (x6)", price: "21€", description: "Fraîcheur absolue de l'Atlantique" },
+          { name: "Tartare de Bœuf au Couteau", price: "22€", description: "Préparé minute, servi avec pain noir" },
+          { name: "Caviar Beluga (30g)", price: "120€", description: "Servi avec blinis et crème aigre" },
+          { name: "Radis au Beurre Demi-Sel", price: "9€", description: "Beurre de baratte et sel de mer" },
+          { name: "Terrine Maison de Campagne", price: "14€" },
+          { name: "Céviche de Bar Sauvage", price: "19€", description: "Agrumes et piment doux" },
+          { name: "Burrata Crémeuse", price: "15€", description: "Huile d'olive d'exception" }
         ]
       },
       {
-        category: "Mixologie Signature",
+        category: "Choses Sérieuses (Plats)",
         items: [
-          { name: "Cocktail 'Royal Basilic'", price: "22€", description: "Champagne, basilic frais", highlight: true },
-          { name: "Cravan Negroni", price: "18€" },
-          { name: "Yellow Cocktail", price: "17€", description: "Gin, Suze, Chartreuse" },
-          { name: "Picon Bière Maison", price: "12€" }
+          { name: "Salade de Homard Bleu", price: "36€", description: "Avocat et pamplemousse rose" },
+          { name: "Frites Maison au Romarin", price: "8€", description: "Coupées au couteau, croustillantes" },
+          { name: "Planche de Charcuterie", price: "19€", description: "Sélection de petits producteurs" },
+          { name: "Fromages Affinés (x3)", price: "16€", description: "Comté 24 mois, chèvre et bleu" },
+          { name: "Tempura de Légumes", price: "14€", description: "Sauce soja gingembre" },
+          { name: "Club Sandwich Poulet", price: "21€" },
+          { name: "Saucisson Brioché", price: "15€", description: "Servi chaud avec moutarde forte" }
         ]
       },
       {
-        category: "Café & Douceurs",
+        category: "Finales (Desserts)",
         items: [
-          { name: "Tarte au Citron Meringuée", price: "10€" },
-          { name: "Tiramisu du Moment", price: "10€" },
-          { name: "Cake au Citron & Pavot", price: "7€" },
-          { name: "Café Filtre de Spécialité", price: "6€" },
-          { name: "Double Expresso", price: "5€" }
+          { name: "Tarte Tatin de la Maison", price: "12€", description: "Pommes caramélisées, crème épaisse", highlight: true },
+          { name: "Chocolate Cake Dense", price: "11€", description: "Chocolat noir 70%, fleur de sel" },
+          { name: "Madeleines Chaudes (x4)", price: "9€", description: "Sortant du four" },
+          { name: "Sorbet Citron & Vodka", price: "10€" }
+        ]
+      },
+      {
+        category: "Sélection de Cave",
+        items: [
+          { name: "Coupe de Champagne Bollinger", price: "22€" },
+          { name: "Vin Nature (Blanc/Rouge)", price: "12€", description: "Sélection vivante du moment" },
+          { name: "Expresso Pur Arabica", price: "4€" },
+          { name: "Thé Vert du Japon", price: "8€" },
+          { name: "Limonade Artisanale", price: "7€" }
         ]
       }
     ]
   },
-  description: `Cravan est un ovni magnifique au cœur de l'avenue de la Fontaine. Installé dans un monument historique de style Art Nouveau signé Hector Guimard, ce bar à cocktails et coffeeshop de quartier a redéfini les standards de la mixologie parisienne. Le décor d'origine, avec ses boiseries et ses céramiques, crée un cadre intemporel où l'on déguste des breuvages millimétrés et une 'bar food' de haute volée.`,
-  expert_catchline: `L'excellence de la mixologie dans un chef-d'œuvre Art Nouveau.`,
-  insider_tip: `• **Le Comptoir** : Asseyez-vous au bar pour admirer la précision des barmen, c'est un spectacle en soi.
-  • **Le Matin** : C'est l'un des meilleurs spots du quartier pour un café de spécialité dans un cadre historique sublime.
-  • **Les Gildas** : Ne passez pas à côté de ces petites piques espagnoles, elles sont le compagnon idéal de leurs cocktails secs.`,
+  description: "CRAVAN est un joyau architectural et gustatif niché dans un édifice classé d'Hector Guimard. Ce bar-restaurant hors du temps célèbre l'art de la mixologie précise et d'une cuisine de comptoir élégante. Avec son décor Art Nouveau d'origine (1911), ses boiseries et ses céramiques somptueuses, CRAVAN offre une immersion rare dans le Paris de la Belle Époque. C'est le rendez-vous secret des esthètes du 16ème, où l'on déguste un Lobster Roll d'exception accompagné d'un cocktail millimétré.",
+  expert_catchline: "La perfection de la mixologie dans un écrin Guimard classé.",
+  insider_tip: `• **Le Décor** : Ne manquez pas de contempler les détails Art Nouveau du bar, classé Monument Historique.
+  • **Le Must-Eat** : Le Lobster Roll est considéré comme l'un des meilleurs de Paris, un passage obligé.
+  • **Sans Résa** : Le lieu ne prend pas de réservations, venez dès l'ouverture à 18h pour sécuriser une table.`,
   specials: {
-    cuisine: ["Mixologie", "Petits Plats"],
-    drinks: ["Cocktails d'auteur", "Vins de macération"],
-    must_eat: "Cuisine de Bar. Le Lobster Roll dans sa brioche dorée.",
+    cuisine: ["Cuisine de Comptoir", "Élégant"],
+    drinks: ["Cocktails Signatures", "Champagnes de Vignerons"],
+    must_eat: "Cuisine de Comptoir. Lobster Roll & Croque-Madame à la Truffe.",
+    must_drink: "Cravan Cocktail"
   },
   images: {
-    hero: "AU_ZVEHHFu18nkHmqgsOt7pP1SJE1wkuniaZHRmzOC_ETc-OGvCYtLs8je1gqhIKiWrG0ZIHB3dv92nlx4bSWfpzNdBjaEditO-Htc6wqrZOY4H7gtm62Ku2GWdHQPZ_3TsNN_kqvUZNWi3ZUyfa4UiMsoL0S5xrt_rkaVEgYGUpXYOLNKN8xSWSCRX0ZBQNWzTviYS-yGyGo9-rP51wgD6rb-cJIZsxACAbhSmT_20kv2xNKOehAT5Vy0DFLZocd2tW4GSDLhwXRiIxiAEW48jsJAPCojpaDQ234sSWvyFUCnghbw",
-    gallery: ["AU_ZVEEwtUwy82tJvgDRO8b9hAIZ3FD-cSzbYxlnplA8-ONjKCHOpILMCaGsWTQf20SWgfvZsmzYv4zEf0xJe311w6YDoAHdI6vN0sckGac0PRh2GdyM9AVJFe0oBo-BInY8Lt_i4J6VQKcrWUotRnQUt_qVOBTuLvt9ccfckE5_HQryGiVzcKRjbxdF4d5KBUpwrlaVoyhQbdfflUC5sSS_-y4_nTcIwoxa2QPZyPabucc0FpJ8ioqmyCxE3K7tiDLzhr5nHcBhyUFErhVJwoXdIJMONvTO2NeF7ZypL0tzxRCcDQ","AU_ZVEHs0Sem5YogrEhy_QAcrxjYkCtSLbWpuHT6ekI2PeGkL4JZl4tx-vKS_Ivpo4gqw7KcxIx3_S27kJI8rS47y7eRtZR-cYJLoVDQjNfnBSzVVKUl2-gPSSycx9Py8fbizzbnKFAw5YbxegFI6nryGexqqm62A2fFaZHj9P1J21l7TurMHnJgSyq59bmVidnYoSF_Y9F9FkuvyvYmpJGfNNL63fLbsgp6qTMtFOELUT-O0jmWmzgFtVjh0BI31w6U1104mWu3j0YXD4rfCYKwCBURZdBkMBI0pjGhCfv5tuU7aQ"]
+    hero: "AU_ZVEEA4QVzG7DqCLOatKghTO0wICh-Fok1BG04raVVLc8TIqYFOHjPOPxSPryBm1MqRuqqsixopbnBLxqXFkrKHD7TfavdKZmfEOHJCEgeRi6VmAtbq2_8uNUPpntf83xvPXmkeeZyncVKb-qsDLZJiH2GnOwmxPRKXf6v9xKB9v2Kg-9DspPQywYi-AAZg3yEVHzs_i-AahWeklhXLKXrNWBgdXqYAvsrOpdGZwI2vFHN4M5jcY-VRuHPHTvNk7K_9kjOPrccBtYcn7QF35rFNf3DHfkRk86GQzCqmywcwOgueqYcR87ngJw34yjUMN-WUZ6Kzb9ewubh0sjWHhYBVBbZPYOxhalFv0Yoto4QnE2wOcT8zmmss3vGw1uH9Fl_0gvCLANevjEXGe7c-q8KBSJ3_s974lxbuZCRrviMDjccijvI",
+    gallery: [
+      "AU_ZVEFb9HceyHFmus4gqSg22_AwpZ56RGTBDWpH-5eXAlxYsuIYCKjeYNceBIaNZ4J_2SX9cX91M5RDNzkCw4LnkPBWiQcSXB_UJQsIR_w6scmkaigtxiZn9yJ6e_pExEzUnFV_r065jby18mtFqZQCe2y2d72YjXgrSyr0-KdsUxMqM_ha00gOUcD8F7CvLrKPk7hRsEencw0EjS8J-1lJyCjfnuMwuWfUZ7fE-s2_XQ04u7ut5Ge4Jw7JB-gPwa1g9H9GAad_9gARychbDspopUmlXWNJsVUeapRqbcWq8Vxc5-1omD0-S1KQ2EYxBAoarLRKAQHOfyJ3F2BIstIXmnSjjWQFM354zaHXZlv6jal1YiprzFrtu-A2FiR4CKdzZFPfgyQnKQnLzNi81jkMfZorbaurtIyVaoxdXkoYJXo",
+      "AU_ZVEFyceqab9SjdewLNNLfMrdtdrehnG9cAurKemrb98SBHPfgRtlV2Td_t57QDYNPm62XHhXFWyMSVYVJ9iF_Slmt_lz_y_EwNcUcXihR5JsdKODXnn6fuMCNO-KJ6bk24h8Dy97CdC-t4XsQt-Pi5GcDNxT30qNn1pXRWBJyNHQ-wIx153Wu3H908ZGpjoFVAWkLciXzruGEw7Cdf3dYz13s_k2cqMBTAQckT2-_qTP5spymxdCwKrW-8U0GfWllxUKpzM_P3ISARn1OEus0ITiMjJ07i17c-vaXpx4x41eHPUeB9YyEFc5MZRd9M_K66xM-h78XorXelssNwFYjxNFfFs6an5ksNijvTNiKcNWhGJvO786AGfaGO3u0uOLBfyxlG3IVBJhM0NvSHatc-WvcMpMZ-GPXZQMnRaZBgjYe7g"
+    ]
   },
   verified: true,
-  google_rating: 4.4,
+  google_rating: 4.6,
+  instagram_handle: "cravanparis",
   real_talk: {
-    text: "Cravan, c'est pour les puristes. Franck Audoux a créé un lieu où le superflu n'existe pas. Les cocktails sont limpides, les goûts sont tranchés. C'est l'anti-bling par excellence dans un quartier qui en a parfois trop. Un vrai coup de cœur pour l'esthétique et la rigueur.",
-    must_eat: "Lobster Roll",
-    le_secret: "La petite terrasse sur le trottoir, parfaite pour observer la vie de Passy un cocktail à la main.",
-    le_son: "Un jazz feutré ou du silence respectueux du décor.",
-    le_must: "Le cocktail 'Yellow' pour les amateurs d'amertume maîtrisée."
+    text: "Un saut dans le passé sans aucune poussière. Le décor Guimard est à couper le souffle, et le niveau des cocktails est stratosphérique. C'est l'élégance absolue, sans en faire trop.",
+    must_eat: "Cuisine de Comptoir. Lobster Roll.",
+    le_secret: "La petite terrasse sur la rue étroite est parfaite pour un cocktail incognito au coucher du soleil.",
+    le_son: "Jazz feutré et brouhaha feutré, très sélect.",
+    le_must: "S'asseoir au comptoir pour observer la précision chirurgicale de la préparation des cocktails."
   }
 };
 

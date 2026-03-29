@@ -1,29 +1,28 @@
 import { SurgicalPlace } from "../../../type-definition";
 
 export const carette: SurgicalPlace = {
-  id: "poi-carette",
+  id: "poi-carette-16",
   slug: "carette",
   name: "Carette",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["salon-de-thé", "pâtisserie", "brunch", "trocadero"],
   location: {
-    address: "4 Pl. du Trocadéro et du 11 Novembre, 75016 Paris, France",
+    address: "4 Pl. du Trocadéro et du 11 Novembre, 75016 Paris",
     arrondissement: 16,
-    lat: 48.86370729999999,
+    lat: 48.8637073,
     lng: 2.2872082,
     nearest_metro: "Trocadéro",
-    metro_lines: ["6", "9"],
+    metro_lines: [6, 9],
     google_id: "ChIJXQvlQftv5kcROZUkVMlEAdo"
   },
   moods: {
     chill: 85,
-    festif: 30,
+    festif: 20,
     culturel: 95
   },
   practical: {
-    opening_hours_raw: "lundi: 07:30 – 23:30 | mardi: 07:30 – 23:30 | mercredi: 07:30 – 23:30 | jeudi: 07:30 – 23:30 | vendredi: 07:30 – 23:30 | samedi: 07:30 – 23:30 | dimanche: 07:30 – 23:30",
+    opening_hours_raw: "Lun-Dim: 07h30-23h30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,
@@ -43,66 +42,79 @@ export const carette: SurgicalPlace = {
       {
         category: "Petit-Déjeuner & Brunch",
         items: [
-          { name: "Chocolat Chaud Carette", price: "11€", description: "Onctueux à souhait, chantilly maison", highlight: true },
-          { name: "Œufs Brouillés Nature", price: "15€", description: "Parfaitement coulants" },
-          { name: "Œufs Brouillés au Saumon Fumé", price: "25.50€" },
-          { name: "Pancakes aux Fruits Frais", price: "18€" },
-          { name: "Le Petit-Déjeuner Carette", price: "32€", description: "Complet : boisson chaude, jus, viennoiseries, œufs" }
+          { name: "Chocolat Chaud Carette", price: "11€", description: "Onctueux, recette secrète avec chantilly maison", highlight: true },
+          { name: "Œufs Brouillés Nature", price: "15€", description: "Baveux et onctueux à souhait" },
+          { name: "Œufs Brouillés au Saumon", price: "25.50€", description: "Saumon fumé de qualité supérieure" },
+          { name: "Pancakes aux Fruits", price: "18€", description: "Sirop d'érable et fruits de saison" },
+          { name: "Petit-Déjeuner complet", price: "32€", description: "Boisson chaude, jus frais, viennoiseries, œufs" },
+          { name: "Omelette aux Herbes", price: "16.50€" },
+          { name: "Pain Perdu Minute", price: "14.00€", description: "Caramel beurre salé" },
+          { name: "Salade de Fruits frais", price: "12.00€" }
         ]
       },
       {
-        category: "Salades & Clubs",
+        category: "Dégustation Salée",
         items: [
-          { name: "Club Sandwich Poulet", price: "22€", description: "Pain de mie toasté, frites maison", highlight: true },
-          { name: "Salade Carette", price: "26€", description: "Homard, avocats, tomates" },
-          { name: "Salade Végétarienne", price: "19.50€" },
-          { name: "Croque-Monsieur au Comté", price: "17€" }
+          { name: "Club Sandwich Poulet", price: "22€", description: "Le classique, pain de mie toasté et frites", highlight: true },
+          { name: "Club Sandwich Saumon", price: "26€", description: "Saumon fumé et crème acidulée" },
+          { name: "Croque-Monsieur Comté", price: "17€", description: "Pain de mie artisanal et jambon de Paris" },
+          { name: "Salade Carette Homard", price: "36€", description: "Demi homard, avocat, pamplemousse" },
+          { name: "Quiche Lorraine", price: "14.50€", description: "Servie avec une petite salade verte" },
+          { name: "Feuilleté aux Champignons", price: "16.00€" },
+          { name: "Salade César Poulet", price: "21.00€" }
         ]
       },
       {
         category: "Pâtisseries Icônes",
         items: [
-          { name: "Le Macaron XXL", price: "10€", description: "Framboise, chocolat ou pistache", highlight: true },
-          { name: "Paris-Brest", price: "12€" },
-          { name: "Saint-Honoré", price: "12€" },
-          { name: "Éclair au Chocolat", price: "9.50€" },
-          { name: "Assortiment de 5 Mini Macarons", price: "15€" }
+          { name: "Macaron XXL Framboise", price: "10€", description: "Énorme macaron garni de framboises fraîches", highlight: true },
+          { name: "Saint-Honoré Vanille", price: "12€", description: "Crème chiboust et caramel craquant" },
+          { name: "Paris-Brest Praliné", price: "12€", description: "Crème mousseline noisette intense" },
+          { name: "Éclair au Chocolat", price: "9.50€", description: "Ganache noire 70%" },
+          { name: "Tarte au Citron Meringuée", price: "11.00€" },
+          { name: "Mille-feuille Vanille", price: "12.50€" },
+          { name: "Mont-Blanc (Saison)", price: "13.00€" },
+          { name: "Duo de Macarons classiques", price: "6.00€" }
         ]
       },
       {
-        category: "Sélection de Thés",
+        category: "Sélection Samovar",
         items: [
-          { name: "Thé Mélange Carette", price: "9€" },
-          { name: "Thé Vert à la Menthe Fraîche", price: "9.50€" },
+          { name: "Thé Mélange Carette", price: "9€", description: "Thé noir parfumé aux agrumes" },
+          { name: "Thé Vert à la Menthe", price: "9.50€", description: "Feuilles de menthe fraîche" },
           { name: "Jus d'Orange Pressé", price: "8.50€" },
-          { name: "Expresso", price: "5€" }
+          { name: "Café Allongé", price: "6.00€" },
+          { name: "Expresso", price: "5€" },
+          { name: "Limonade Maison", price: "8.50€" }
         ]
       }
     ]
   },
-  description: `Institution indétrônable de la place du Trocadéro depuis 1927, Carette est bien plus qu'une simple pâtisserie. C'est un salon de thé bourgeois où le temps semble s'être arrêté, avec ses serveurs en habit et ses nappes blanches. On y vient du monde entier pour son chocolat chaud légendaire et ses macarons, mais aussi pour son ambiance unique qui mêle habitués du quartier et voyageurs de passage dans un cadre Art Déco pur jus.`,
-  expert_catchline: `Le mythe du salon de thé parisien sur la place du Trocadéro.`,
-  insider_tip: `• **Le Chocolat Chaud** : Ne faites pas l'impasse, c'est l'un des meilleurs de Paris. Demandez le supplément chantilly, elle est exceptionnelle.
-  • **Sans Réservation** : Prévoyez de l'attente le week-end, la queue peut être longue devant l'établissement. Privilégiez les matinées en semaine.
-  • **La Vitrine** : Avant de vous installer, allez admirer la vitrine de pâtisseries à l'intérieur, c'est là que se fait le choix le plus difficile de la journée.`,
+  description: "Institution mythique de la place du Trocadéro depuis 1927, Carette est le temple des gourmets parisiens. Sous ses arcades Art Déco, ce salon de thé bourgeois perpétue l'excellence française avec ses nappes blanches, ses serveurs en habit et son chocolat chaud onctueux, souvent cité comme le meilleur de Paris. Qu'il s'agisse d'un brunch dominical, d'un macaron XXL ou d'un moment de détente face à la Tour Eiffel, Carette reste l'adresse intemporelle où le raffinement rencontre la gourmandise pure.",
+  expert_catchline: "Le mythe du salon de thé parisien sur la place du Trocadéro.",
+  insider_tip: "Ne faites aucune concession sur le chocolat chaud avec chantilly, c'est l'âme de la maison. Évitez les heures de pointe le week-end, l'attente peut être longue sous les arcades.",
   specials: {
     cuisine: ["Salon de Thé", "Pâtisserie", "Français"],
     drinks: ["Chocolat Chaud Signature", "Thés d'exception"],
-    must_eat: "Cuisine de Pâtissier. Le Macaron XXL à la Framboise.",
+    must_eat: "Cuisine de Pâtissier. Chocolat Chaud Carette & Macaron XXL Framboise.",
+    must_drink: "Chocolat Chaud Maison"
   },
   images: {
-    hero: "AU_ZVEHXQfvtv5kcROZUkVMlEAdo",
-    gallery: ["AU_ZVEGlIWmS0liDnUJOplMWi3IdV_IlZRsgzskSXTYZyemOPdnKx4gTLWr9I27E-fgAcr4X22kD-zVqjVd_4wIGi87i4C-0zwstvE_NPXP_KHoLKbbvB9PXX8aLj_fAHd4ApXT1LerqXtDVoAlB3LUMNB7v9dyWohyyYMNWZkzksbRbxJxf46vjymotAll7WpRdA2tVJzv0ydJHCklXUuWYrbCH9xNIPSUt1hYMwSZt4x7uPwM_2g-weI9jw1KVofsP7XR0DkYtnhD_UoabFbJhpnfp3vBhH5HcE8xevFw1CKo9hQ","AU_ZVEEFJOgQQ7xGIsGxF4m_C9sqGMAPnQcIyzdda9H2n3c5EcGxgA0PKihNT48LEzAP4fOH4v7GTNGLfgkPA9R43cXoXF2yJ2MDEzdmeGUWv7RdgH-U_VFZRIUwF0XZ29-4kJ5qytgZtP8YFuCjD5WeCAFHJMxYz9bcUqOS536OYP_iF-AqnPnqS6CTD7amgkoh_4yGbnlUyesNNiSEdAJqRtWSzEXI9Ij2kzYHnQrYEzZ9LuuFRm2eBSfhgpeV395AViEVZgf9hTdkhrxjEJHB9AQ28ahOXKxeagXGQIoxun3V9gswJHJ9sI72HSvgNO3XdW-YUYEmiQPJfCarZlffPK6Wc5KrG3ZVeV90pdaWp45FhCjJNVin5T90R7S3YQJO0-Bwonq4YGaKHl6G-WWTYrvKsTVvnuJFK5Nc6TRrHyy4yw"]
+    hero: "AU_ZVEGz2OYpcSwzNsTReqsQObtr7FSTqaFGKnzG9oXdFa4qvECcuN6EP_5cwsXp44NlOQDFgxNBEB73ADBm3wvF-sotcU7EGInkhn6c4ih35tp6A0QE3usPkbCCt-isAIitzGmZHPJxl22l-6woc8fvPAoai3pAGw_bjuHaRoXd1cjGSFoyZCkWpcj6EOXaP1Ye_pif_UjL8gaoBdCKfzWTApvmBVMrn_ZGZ3bu2W1m3zM5zgacVHaGE8mlT5kIhKL8l7S8lqpKSOTCXFgpooXDfci7Goo0Sf9A7R0SW49ZcavXttZVMiEPK4yG9vYd8Siiec3KdKFXoDWlZFom5M37homgphfY8LPn16oPR2Jl66x4mabs1Bo4_48eaZjqcQof0hZb1jtXnJiwMkJ6SQkpg7bWUyh3tY5S_ovP6P2XtuSRyr4",
+    gallery: [
+      "AU_ZVEFcpkbzeySTOns6utcVQVQ_9koWCTFHyNLuZ5419VNRnm5fCfr5jLQnM_UBEYV72xqnPDeh0mmCPTwgF8R_tvNe78wP0KIFPs4rutQQF9FC2_zJtleO8X_055oAGRYinc0_vTE4l59eO-4NvRMmac15QRYEUUrE_HMNAduK2MqvccgytArrfB-BaKhLNJvfs6AYtIEfbas81PfcO-8rWG94hfITcM69v3h41SX-RzHc5SyqOk9nJm9WYMm-jSwd6u_0sxVHP_QnI1myq0msD-_h49Y0JZOSvfQpaWmHa_ceJOUSAwUuh7TtC_UdsB-JxYbiG3toMv4XwrXnfmGETZ33_HBoGlXGkCkloBQcSEAZNMHhNx1l2-4jZNTXKwDeBtd0SwpJXXZHzrIvaMDigbUfLp6JDX1XcSdg_Uol2ykqwg",
+      "AU_ZVEE13qtIwyAMfKY2Di-cM_KDQgua_Am75Cf_S7JFa3H3o1f0nYn3BsuHG4HrGBpN0W-54Ep9UttWI5YgRciVO2vdo7EqKKKyhQNBT2vA6evbYsp_T_s4bVTNCSuXjTgNDZzkhVcaaqZzwGVhk1Tfp6A66nUjouvt8zlkqDDDXQJJm93cf6be56mSeZ1soOchKe9Y6lkzk9UpR-VsaWy-xVKsqF1nIdvXv4abevmv4oEoxl1Wur2Nm535wfzZCGcmlqYbZdNQXlTvfPKd0qK9JORpe__oJy52MzGFdmEaba4Us6zZWn45-3qsOvoB0Bc8twHt9-uhFolTfPsBzkiyvmOGRINQQVuG3n-QlC6HCFJLCtMOGhqyQQoYLSptei0IQY27rY-r9W64wnHNnj7q3X-w4AvptiHNKWFcCbz5VYyZ_9YtLEsyIMKqkjQGGWKx"
+    ]
   },
   verified: true,
   google_rating: 4,
-  michelin_stars: 0,
+  instagram_handle: "caretteofficiel",
   real_talk: {
-    text: "Carette, c'est le Paris de carte postale qui existe pour de vrai. C'est bruyant, les tables sont serrées, mais quand on goûte au chocolat chaud ou au Saint-Honoré, on oublie tout le reste. C'est l'adresse de repli parfaite après une balade au Trocadéro.",
-    must_eat: "Chocolat Chaud",
-    le_secret: "On peut acheter les macarons à emporter sur le côté pour éviter la queue du salon de thé.",
-    le_son: "Un bourdonnement de conversations polyglottes et le tintement des cuillères sur la porcelaine.",
-    le_must: "Le petit-déjeuner complet un matin de semaine sous les arcades."
+    text: "Carette, c'est le luxe sans l'ostentation. Un bourdonnement joyeux sous les lustres, des pâtisseries monumentales et un service qui a encore du panache. C'est l'ADN pur du Trocadéro.",
+    must_eat: "Cuisine de Pâtissier. Le Macaron XXL.",
+    le_secret: "La terrasse est chauffée, ce qui permet de profiter de l'air de la place même en hiver avec un thé fumant.",
+    le_son: "Le tintement de la porcelaine et des éclats de rire élégants.",
+    le_must: "Le petit-déjeuner complet un matin de semaine, quand Paris s'éveille doucement."
   }
 };
 

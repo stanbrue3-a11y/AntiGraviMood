@@ -253,16 +253,21 @@ async function enrich() {
                 opening_hours: registryPlace.practical?.opening_hours || place.practical_info?.opening_hours || "",
                 opening_hours_raw: registryPlace.practical?.opening_hours_raw || place.practical_info?.opening_hours_raw || "",
                 reservation_policy: registryPlace.practical?.reservation_policy || place.practical_info?.reservation_policy || null,
-                wifi: registryPlace.practical?.wifi ?? place.practical_info?.wifi ?? false,
                 accessibility: registryPlace.practical?.accessibility ?? place.practical_info?.accessibility ?? false,
                 action_url: registryPlace.practical?.main_action?.url || place.practical_info?.action_url || "",
                 action_type: registryPlace.practical?.main_action?.type || place.practical_info?.action_type || "site"
             };
+            // REMOVE WIFI (BANNED)
+            delete (updates.practical_info as any).wifi;
 
-            // Mapping Media (Hero & Gallery)
+            // Mapping Media (Hero & Gallery) - PROTECT MIGRATED URLS
+            const currentMedia = place.media || {};
+            const registryMedia = registryPlace.images || {};
+            
             updates.media = {
-                hero: registryPlace.images?.hero || place.media?.hero || "",
-                gallery: registryPlace.images?.gallery || place.media?.gallery || []
+                hero_image: currentMedia.hero_image?.includes('supabase') ? currentMedia.hero_image : (registryMedia.hero || currentMedia.hero_image),
+                google_photos: currentMedia.google_photos?.some((p: string) => p.includes('supabase')) ? currentMedia.google_photos : (registryMedia.gallery || currentMedia.google_photos || []),
+                instagram_handle: registryPlace.instagram_handle || place.media?.instagram_handle || null
             };
         }
 
@@ -277,10 +282,8 @@ async function enrich() {
         if (place.category === 'restaurant' || (place.subcategories && place.subcategories.length > 0)) {
             let currentMustEat = realTalk.must_eat || '';
             const isPrefixed = currentMustEat.startsWith('Cuisine');
-            const needsFix = currentMustEat.startsWith('Cuisine Crêperie') || currentMustEat.startsWith('Cuisine Dim Sum');
 
-            if (currentMustEat && (!isPrefixed || needsFix)) {
-                if (needsFix) currentMustEat = currentMustEat.replace(/^Cuisine .*?\. /, '');
+            if (currentMustEat && !isPrefixed) {
                 let style = '';
                 const candidates = place.subcategories || [];
                 const primary = candidates.find((c: string) => ADJECTIVE_MAP[c.toLowerCase()]);
@@ -291,9 +294,13 @@ async function enrich() {
                 }
                 if (style) {
                     realTalk.must_eat = `${style}${currentMustEat}`;
-                    updates.real_talk = realTalk;
                 }
             }
+            // Ensure cuisine_type is also set in real_talk for "On mange quoi ici"
+            if (!realTalk.cuisine_type && place.subcategories && place.subcategories.length > 0) {
+                realTalk.cuisine_type = place.subcategories[0];
+            }
+            updates.real_talk = realTalk;
         }
 
         // --- 4. EXECUTE UPDATE ---

@@ -5,7 +5,7 @@ export const girafe: SurgicalPlace = {
   slug: "girafe",
   name: "Girafe",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["seafood", "élégant", "vue-tour-eiffel", "trocadero"],
   location: {
     address: "1 Pl. du Trocadéro et du 11 Novembre, 75016 Paris, France",
     arrondissement: 16,
@@ -16,94 +16,108 @@ export const girafe: SurgicalPlace = {
     google_id: "ChIJw7pLvsNv5kcRnYS9wwGfwsI"
   },
   moods: {
-    chill: 40,
+    chill: 20,
     festif: 85,
     culturel: 60
   },
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:30, 18:00 – 02:00 | mardi: 12:00 – 14:30, 18:00 – 02:00 | mercredi: 12:00 – 14:30, 18:00 – 02:00 | jeudi: 12:00 – 14:30, 18:00 – 02:00 | vendredi: 12:00 – 14:30, 18:00 – 02:00 | samedi: 12:00 – 14:30, 19:00 – 03:00 | dimanche: 12:00 – 14:30, 19:00 – 02:00",
-    reservation_policy: "resa_obligatoire",
+    reservation_policy: "sans_resa",
     wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,
     main_action: {
       type: "site",
-      url: "https://girafe-restaurant.com/",
-      label: "RÉSERVER"
+      url: "https://girafe-restaurant.com/?utm_source=Yext&utm_medium=GMB&y_source=1_MjU3NjI3ODUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      label: "VOIR LE SITE"
     }
   },
   pricing: {
-    certification: "gold",
-    avg_budget: 120,
+    certification: "silver",
+    avg_budget: 0,
     is_free: false,
     last_updated: "2026-03-27",
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Entrées de la Mer",
+        category: "Le Banc de l'Écailler",
         items: [
-          { name: "Huîtres Gillaudeau (la demi-douzaine)", price: "36€", description: "Spéciales n°3, fleur de sel" },
-          { name: "Carpaccio de Saint-Jacques", price: "28€", description: "Agrumes et huile de vanille", highlight: true },
-          { name: "Tarama de la Maison", price: "14€", description: "Blinis maison tout chauds" },
-          { name: "Tataki de Thon", price: "26€", description: "Huile de sésame et gingembre" },
-          { name: "Crevettes Obsiblue", price: "32€", description: "Juste saisies, citron vert" }
+          { name: "Huîtres Gillardeau N°3 (x6)", price: "36€", description: "La chair ferme et noisettée" },
+          { name: "Crevettes Obsiblue (x4)", price: "32€", description: "Rares, juste saisies au citron vert", highlight: true },
+          { name: "Bulots de Granville", price: "14€", description: "Cuisson minute, aïoli maison" },
+          { name: "Oursins d'Islande", price: "24€", description: "Selon arrivage, iodés et crémeux" },
+          { name: "Plateau Girafe (2 pers)", price: "110€", description: "Assortiment complet de l'écailler" },
+          { name: "Langoustines Royales", price: "45€", description: "4 pièces magnifiques" }
         ]
       },
       {
-        category: "Plats Signatures",
+        category: "Premières Brises (Entrées)",
         items: [
-          { name: "Linguine à la Homard", price: "48€", description: "Jus de carcasse corsé", highlight: true },
-          { name: "Sole de Petit Bateau", price: "55€", description: "Meunière ou grillée, 400g-500g" },
-          { name: "Turbot Rôti", price: "52€", description: "Purée de topinambour et beurre noisette" },
-          { name: "Pavé de Bar à la Plancha", price: "42€", description: "Légumes de saison sautés" },
-          { name: "Spaghetti aux Truffes Noires", price: "45€" }
+          { name: "Carpaccio de Saint-Jacques", price: "28€", description: "Huile de vanille et agrumes", highlight: true },
+          { name: "Tarama de la Maison", price: "14€", description: "Blinis au sarrasin servis chauds" },
+          { name: "Tataki de Thon", price: "26€", description: "Sésame torréfié et ponzu" },
+          { name: "Salade de Homard Bleu", price: "38€", description: "Pamplemousse rose et avocat" },
+          { name: "Tempura de Crevettes", price: "22€", description: "Sauce spicy mayo maison" },
+          { name: "Foie Gras de Canard", price: "24€", description: "Chutney de figues et brioche toastée" },
+          { name: "Burrata des Pouilles", price: "21€", description: "Tomates anciennes et basilic sacré" }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category: "Le Grand Large (Plats)",
         items: [
-          { name: "Éclair XXL au Chocolat", price: "18€", description: "Le classique de la maison", highlight: true },
-          { name: "Mille-feuille Vanille", price: "16€" },
-          { name: "Pavlova aux Fruits Rouges", price: "15€" },
-          { name: "Glaces & Sorbets Artisanaux", price: "12€" }
+          { name: "Linguine au Homard", price: "48€", description: "Demi-homard, bisque corsée et herbes", highlight: true },
+          { name: "Sole de Petit Bateau", price: "55€", description: "400-500g, grillée ou meunière" },
+          { name: "Turbot Rôti à l'Arrête", price: "52€", description: "Beurre noisette et câpres géantes" },
+          { name: "Pavé de Bar Plancha", price: "42€", description: "Émulsion de citronnelle et gingembre" },
+          { name: "Friture Rouge Girafe", price: "36€", description: "Rougets, calamars et gambas frits" },
+          { name: "Thon Rossini Océanique", price: "46€", description: "Thon rouge et escalope de foie gras poêlée" },
+          { name: "Saint-Jacques à la Plancha", price: "39€", description: "Risotto crémeux aux herbes" },
+          { name: "Poulpe Grillé Cruel", price: "34€", description: "Condiment olives noires et tomates fumées" }
         ]
       },
       {
-        category: "Cave & Cocktails",
+        category: "Terre & Végétal",
         items: [
-          { name: "Cocktail 'Lady Girafe'", price: "22€", description: "Gin, fraise, basilic" },
-          { name: "Coupe de Ruinart Bleu de Blancs", price: "28€" },
-          { name: "Bouteille de Chablis 1er Cru", price: "95€" },
-          { name: "Eau Minérale (75cl)", price: "10€" },
-          { name: "Expresso", price: "7€" }
+          { name: "Filet de Bœuf Simmental", price: "45€", description: "Jus corsé, purée de pommes de terre à la truffe" },
+          { name: "Risotto aux Champignons", price: "28€", description: "Cèpes et éclats de noisettes" }
+        ]
+      },
+      {
+        category: "Final en Douceur",
+        items: [
+          { name: "Éclair XXL Chocolat", price: "18€", description: "La signature sucrée emblématique", highlight: true },
+          { name: "Mille-feuille Vanille", price: "16€", description: "Feuilletage inversé croustillant" },
+          { name: "Pavlova Fruits Rouges", price: "15€", description: "Légèreté absolue" },
+          { name: "Ananas Rôti Passion", price: "14€" },
+          { name: "Sélection de Glaces", price: "12€" }
+        ]
+      },
+      {
+        category: "Bar de Prestige",
+        items: [
+          { name: "Cocktail Lady Girafe", price: "22€", description: "Gin premium, fraise, basilic frais" },
+          { name: "Coupe Ruinart Blanc de Blancs", price: "28€" },
+          { name: "Expresso", price: "7€" },
+          { name: "Thé Vert Mariage Frères", price: "10€" }
         ]
       }
     ]
   },
-  description: `Girafe est sans doute le restaurant le plus instagrammable de Paris, mais c'est aussi une table marine de haut vol. Installé au cœur de la Cité de l'Architecture et du Patrimoine, l'établissement dispose d'une terrasse spectaculaire avec une vue plongeante sur la Tour Eiffel. La décoration années 30 signée Joseph Dirand crée une atmosphère chic et feutrée, parfaite pour déguster des produits de la mer d'une fraîcheur absolue.`,
-  expert_catchline: `Le plus beau face-à-face avec la Dame de Fer autour d'un plateau de fruits de mer.`,
-  insider_tip: `• **Le Balcon** : C'est la place la plus convoitée de Paris. Réservez des semaines à l'avance et précisez 'en terrasse' pour avoir la Tour Eiffel en arrière-plan.
-  • **Le Soir** : Attendez l'heure pile pour voir la Tour Eiffel scintiller, c'est le moment magique de Girafe.
-  • **Le Homard** : Les linguines au homard sont la valeur sûre de la carte, généreuses et parfaitement exécutées.`,
+  description: `Girafe est le joyau iodé du 16ème arrondissement, niché au cœur de la Cité de l'Architecture et du Patrimoine. Son décor années 30, signé Joseph Dirand, offre un écrin luxueux à une cuisine marine d'exception. Mais le véritable spectacle se joue sur la terrasse : un balcon suspendu offrant le face-à-face le plus spectaculaire de Paris avec la Tour Eiffel. Une expérience hors du temps où l'élégance parisienne rencontre la fraîcheur absolue du grand large.`,
+  insider_tip: `Réservez impérativement en 'terrasse' pour la vue. Le soir, attendez le début de chaque heure pour voir la Tour Eiffel scintiller pendant que vous dégustez vos linguines au homard.`,
   specials: {
-    cuisine: ["Seafood", "Français"],
-    drinks: ["Grands Crus", "Champagnes de prestige"],
-    must_eat: "Cuisine Marine. Les Linguine au Homard.",
+    cuisine: ["Seafood", "Élégant"],
+    drinks: ["Champagnes de Prestige", "Grands Crus de Loire"],
+    must_eat: "Cuisine Marine. Linguine au Homard & Éclair XXL au Chocolat.",
+    must_drink: "Ruinart Blanc de Blancs"
   },
   images: {
-    hero: "AU_ZVEGE0kYlq2pf7P5GCtTM7uGe6Zv-Lvw5tovZIdTwPhBrg7pwFkBbDN2_Tu6eH0-qSR5N3I5-pPDmGoCi6vn2s5-jAJmOh3EA5AL0hta5dfOTW-1XHKM4dbwpK1feTLz9S-ZIYEre-iun0rZJ9TY4SCR2reM7cRssd8Rpdai4s5PYD8Pu94zbxjlyzAPKVRuru2nMIF3YHbvf3C_isnqB1Br_rvA1o9ytPJf-FFR3LFsyCzqaVhnJKqrW---vnuySSJqIY8iH-gR0xVQySqMUAhDsRgKjoBVdqh0NjwE8bj76mA",
-    gallery: ["AU_ZVEGlIWmS0liDnUJOplMWi3IdV_IlZRsgzskSXTYZyemOPdnKx4gTLWr9I27E-fgAcr4X22kD-zVqjVd_4wIGi87i4C-0zwstvE_NPXP_KHoLKbbvB9PXX8aLj_fAHd4ApXT1LerqXtDVoAlB3LUMNB7v9dyWohyyYMNWZkzksbRbxJxf46vjymotAll7WpRdA2tVJzv0ydJHCklXUuWYrbCH9xNIPSUt1hYMwSZt4x7uPwM_2g-weI9jw1KVofsP7XR0DkYtnhD_UoabFbJhpnfp3vBhH5HcE8xevFw1CKo9hQ","AU_ZVEEFJOgQQ7xGIsGxF4m_C9sqGMAPnQcIyzdda9H2n3c5EcGxgA0PKihNT48LEzAP4fOH4v7GTNGLfgkPA9R43cXoXF2yJ2MDEzdmeGUWv7RdgH-U_VFZRIUwF0XZ29-4kJ5qytgZtP8YFuCjD5WeCAFHJMxYz9bcUqOS536OYP_iF-AqnPnqS6CTD7amgkoh_4yGbnlUyesNNiSEdAJqRtWSzEXI9Ij2kzYHnQrYEzZ9LuuFRm2eBSfhgpeV395AViEVZgf9hTdkhrxjEJHB9AQ28ahOXKxeagXGQIoxun3V9gswJHJ9sI72HSvgNO3XdW-YUYEmiQPJfCarZlffPK6Wc5KrG3ZVeV90pdaWp45FhCjJNVin5T90R7S3YQJO0-Bwonq4YGaKHl6G-WWTYrvKsTVvnuJFK5Nc6TRrHyy4yw"]
+    hero: "AU_ZVEGdsriscYKgC1TR8YdDmS36oMIMRxDoq7_Xn5KZO9K3HnjYu14YMeHbpi9yMZnAs_ambRQpSjF9FGm_yDoCoUpUpqp2YpkmRoy8b0iBoMnJvog1EXDgXmHPpX0kU9-X9tA6nKjAFyg03ZtdEsaveK2N-lA7lnSGYNq5ubIEcI33WTkfWuxJ005qJ_T4DpMX_Sb-Dw0y7YUQZcxN48R0dl8L5f812VMSAuCS7QuHvm20YMh-D5vZThulbPoBar6SN1OxgkzDQn9LIflL2neQ0RGJX3lXOcY1qV8pHFGfJeJHlQ",
+    gallery: ["AU_ZVEEy5YXM8LZrhoN_1UpK57rSLv4AYYkVwmfSyAZ1qjwmqKlUmKMQWC-qKQWtJ1QlPXPBtBPqpx5sl3xapXJMM79qcIBWIUP-tCkxpGg_rtmmWPuHhrtEQyj18wSHdfVNrm2VeX3X8gVmL3XUCTz4Bd0SIN5jmUY8ddd3To1b8EfXJgPgFx2A3BscKbNQlBiNtNAGsXkvV4YHyec3Dqs9XGHAFWkdBxY8tE74DqQCpEx2i-5K2O27sbJhWgWC5HovUEgG6bylhAO_krbvCz8qxqjCTncYJoFmrR6fV29QPVeHXw","AU_ZVEEk9dGXnCmmukzy5lhd3tZE46auy4WC003GEINaR7hsACI0qyd8XTsXD_tme50H43M6acEouOVRlNWIwCthq5q3WcEsCtXZv6VvaZov0wy3IHtaNWbo8_8kVkWHftxqCJC8zoxkWHGX11g9vEZBfbMN63txp-iMfHaIF-wH8D8Ld9PkI3Nn6vR3h6N3_DMB6aaIaOU73JN78iZXSeguBb5n19-QnuASYYyw3uk3ggchcprJSCJDo7WT83U7ERemekLzrG_4_FKWsaXiJ6O8AyyL3sPyI286JIUfj_uvCCOrY475CoEf3iUxtM3KjqYafrYa8m5NrVZv3eKLTJSM8x6JhuqAP7bo4k5hYnVwRP39h0maRhnCSJuaFXE04K2ZPyyE_KjwGtL7Uld601HTKEprGofhFFpQPuoAvCsb9SVr9A"]
   },
   verified: true,
-  google_rating: 3.9,
-  real_talk: {
-    text: "Girafe, on y vient pour la vue, on y reste pour le poisson. Joseph Dirand a fait un travail de dingue sur l'ambiance. C'est le spot de drague ultime mais aussi une vraie bonne table de la mer. Attention, le service peut être un peu speed les soirs d'affluence.",
-    must_eat: "Linguine au Homard",
-    le_secret: "La terrasse est chauffée en hiver, ce qui permet de profiter de la vue même par 5 degrés.",
-    le_son: "Un brouhaha chic, dynamique, très parisien.",
-    le_must: "Le plateau de fruits de mer Impérial à partager au soleil couchant."
-  }
+  google_rating: 3.9
 };
 
 export default girafe;

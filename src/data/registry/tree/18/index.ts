@@ -14,6 +14,7 @@ import { le_relais_gascon } from './auto/le-relais-gascon';
 import { le_vieux_chalet } from './auto/le-vieux-chalet';
 import { le_vrai_paris } from './auto/le-vrai-paris';
 import { popine_sacre_coeur } from './auto/popine-sacre-coeur';
+import { rue_forest } from './auto/rue-forest';
 import { sacree_fleur_montmartre } from './auto/sacree-fleur-montmartre';
 import { sacree_fleur } from './clignancourt/sacree-fleur';
 import { le_maquis } from './cloys/le-maquis';
@@ -43,6 +44,7 @@ export const arrondissement_18Places = [
     le_vieux_chalet,
     le_vrai_paris,
     popine_sacre_coeur,
+    rue_forest,
     sacree_fleur_montmartre,
     sacree_fleur,
     le_maquis,

@@ -5,25 +5,24 @@ export const comice: SurgicalPlace = {
   slug: "comice",
   name: "Comice",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["gastronomique", "étoilé", "contemporain", "versailles"],
   location: {
-    address: "31 Av. de Versailles, 75016 Paris, France",
+    address: "31 Av. de Versailles, 75016 Paris",
     arrondissement: 16,
     lat: 48.8494621,
     lng: 2.2760438,
-    nearest_metro: "TODO",
-    metro_lines: [],
+    nearest_metro: "Mirabeau / Église d'Auteuil",
+    metro_lines: [10],
     google_id: "ChIJAc56Jah65kcRPUvIVLIaIjI"
   },
   moods: {
     chill: 95,
-    festif: 0,
-    culturel: 85
+    festif: 5,
+    culturel: 90
   },
   practical: {
-    opening_hours_raw: "lundi: 18:30 – 22:30 | mardi: 18:30 – 22:30 | mercredi: 18:30 – 22:30 | jeudi: 18:30 – 22:30 | vendredi: 18:30 – 22:30 | samedi: 18:30 – 22:30 | dimanche: Fermé",
+    opening_hours_raw: "Mar-Sam: 18h30-22h30 | Dim, Lun: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: true,
     terrace: false,
     ferme_tard: false,
     accessibility: true,
@@ -37,71 +36,93 @@ export const comice: SurgicalPlace = {
     certification: "gold",
     avg_budget: 130,
     is_free: false,
-    last_updated: "2026-03-27",
-    verified_at: "2026-03-27",
+    last_updated: "2026-03-28",
+    verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Les Menus du Soir",
+        category: "Les Menus Dégustation (Plats)",
         items: [
-          { name: "Menu Comice (5 Services)", price: "150€", description: "La carte blanche de Noam Gedalof", highlight: true },
-          { name: "Menu Découverte (4 Services)", price: "120€" }
+          { name: "Menu Comice (5 Services)", price: "150€", description: "Le parcours signature du chef Noam Gedalof", highlight: true },
+          { name: "Menu Découverte (4 Services)", price: "120€", description: "Une introduction élégante aux saveurs de saison" }
         ]
       },
       {
-        category: "Les Étapes de Saison",
+        category: "L'Expérience à la Carte (Entrées)",
         items: [
-          { name: "Gougères au Comté", price: "0€", description: "Le prélude aérien" },
-          { name: "Velouté de Topinambour", price: "0€", description: "Café, noisettes et truffe noire" },
-          { name: "Hamachi de Ligne", price: "0€", description: "Crudo aux agrumes et huile d'origan", highlight: true },
-          { name: "Ris de Veau Doré", price: "0€", description: "Au sautoir, jus de viande perlé" },
-          { name: "Canette de Challans", price: "0€", description: "Choux rouge braisé, réduction de cassis" },
-          { name: "Lieu Jaune de Saint-Gilles", price: "0€", description: "Émulsion au beurre blanc citronné" }
+          { name: "Hamachi de Ligne Mariné", price: "32€", description: "Agrumes, huile d'origan et radis d'hiver", highlight: true },
+          { name: "Velouté de Topinambour", price: "24€", description: "Truffe noire fraîche et noisettes éclatées" },
+          { name: "Gougères au Comté (x6)", price: "14€", description: "Les fameuses bouchées d'accueil" },
+          { name: "Asperges Blanches de Landes", price: "28€", description: "Vinaigrette aux agrumes (en saison)" },
+          { name: "Salade de Homard Breton", price: "45€" },
+          { name: "Foie Gras Poêlé", price: "34€", description: "Coings fondants et réduction de cidre" }
         ]
       },
       {
-        category: "Douceurs & Fromages",
+        category: "L'Expérience à la Carte (Plats)",
         items: [
-          { name: "Sélection de Fromages de Maître", price: "18€" },
-          { name: "Soufflé de Comice", price: "0€", description: "Grand Marnier et sorbet orange", highlight: true },
-          { name: "Tatin de Poires", price: "0€", description: "Glace à la vanille de Tahiti" },
-          { name: "Mignardises Maison", price: "0€" }
+          { name: "Canette de Challans Rôtie", price: "48€", description: "Chou rouge braisé, réduction de cassis et épices", highlight: true },
+          { name: "Ris de Veau Doré au Sautoir", price: "52€", description: "Jus de viande infusé aux herbes" },
+          { name: "Lieu Jaune de Saint-Gilles-Croix-de-Vie", price: "42€", description: "Beurre blanc citronné et poireaux fondants" },
+          { name: "Tourte de Gibier de Chasse", price: "46€", description: "Recette traditionnelle (saisonnière)" },
+          { name: "Turbot de Petit Bateau", price: "58€", description: "Purée de chou-fleur et câpres séchées" },
+          { name: "Filet de Chevreuil", price: "50€" }
         ]
       },
       {
-        category: "La Sélection de la Sommelière",
+        category: "Sélection de Maître (Desserts)",
         items: [
-          { name: "Accord Mets & Vins (5 verres)", price: "95€", description: "Sélection pointue d'Etheliya Hananova" },
-          { name: "Verre de Champagne 'Drappier'", price: "24€" },
+          { name: "Soufflé au Grand Marnier", price: "22€", description: "Le dessert signature, servi avec sorbet orange", highlight: true },
+          { name: "Tatin de Poires Caramélisées", price: "18€", description: "Glace à la vanille de Tahiti" },
+          { name: "Mousse au Chocolat Guanaja 70%", price: "16€" },
+          { name: "Texture de Fraises des Bois", price: "21€" },
+          { name: "Plateau de Fromages de Maître", price: "24€", description: "Sélection affinée d'Etheliya" }
+        ]
+      },
+      {
+        category: "Le Cellier d'Etheliya (Cave & Boissons)",
+        items: [
+          { name: "Accord Mets & Vins (5 services)", price: "95€", description: "Une curation pointue et narrative", highlight: true },
+          { name: "Coupe de Champagne Drappier", price: "24€" },
+          { name: "Cocktail Signature 'Versailles'", price: "18€", description: "Gin, liqueur de fleur, tonic artisanal" },
           { name: "Bouteille de Châteauneuf-du-Pape", price: "145€" },
-          { name: "Eau Minérale (75cl)", price: "8€" },
-          { name: "Café Filtre de Spécialité", price: "9€" }
+          { name: "Riesling Canadien (Rare)", price: "85€" },
+          { name: "Verre de Bourgogne Rouge", price: "19€" },
+          { name: "Verre de Sancerre", price: "17€" },
+          { name: "Eau Minérale Abatilles (75cl)", price: "8€" },
+          { name: "Café de Spécialité Filtre", price: "9€" },
+          { name: "Infusion de Herbes Fraîches", price: "10€" }
         ]
       }
     ]
   },
-  description: `Comice est une pépite étoilée nichée dans le 16ème, née de l'union entre le chef canadien Noam Gedalof et la sommelière Etheliya Hananova. Dans un cadre d'une élégance rare et d'une chaleur humaine exceptionnelle, on y déguste une cuisine française moderne, technique mais lisible, sublimée par une carte des vins monumentale. Une adresse de connaisseurs où le luxe se niche dans la simplicité du geste parfait.`,
-  expert_catchline: `L'élégance à la nord-américaine rencontre la haute gastronomie française.`,
-  insider_tip: `• **Les Vins** : Faites aveuglément confiance à Etheliya pour les accords, elle déniche des flacons introuvables ailleurs.
-  • **Le Soufflé** : C'est le dessert signature, prévoyez de garder une petite place pour ce final vaporeux.
-  • **Ambiance** : C'est l'un des rares étoilés de Paris où l'on se sent immédiatement 'à la maison' grâce à un accueil d'une gentillesse rare.`,
+  description: `Comice est bien plus qu'une table étoilée ; c'est le projet de vie du chef canadien Noam Gedalof et de son épouse, la sommelière Etheliya Hananova. Dans un décor d'une élégance épurée et d'un calme olympien, le couple a réussi le pari de marier la haute gastronomie française à une chaleur d'accueil nord-américaine. La cuisine est technique, précise, mais toujours lisible, tandis que la carte des vins est l'un des trésors cachés les mieux gardés du 16ème arrondissement. Une parenthèse de pureté et d'exception.`,
+  expert_catchline: `La rencontre gracieuse entre technique française et hospitalité canadienne.`,
+  insider_tip: `• **Le Soufflé** : C'est le final incontournable. Pensez à le mentionner dès la commande pour garantir sa préparation parfaite.
+  • **Les Vins** : Laissez Etheliya hanter votre verre. Sa sélection de vins canadiens et de petites pépites françaises est unique à Paris.
+  • **L'Accueil** : Profitez de la courtoisie exceptionnelle du service, qui détonne admirablement avec la raideur parfois habituelle des étoilés parisiens.`,
   specials: {
-    cuisine: ["Gastronomique", "Française Moderne"],
-    drinks: ["Vins d'exception", "Vins canadiens rares"],
-    must_eat: "Le Soufflé de Comice. Un nuage de gourmandise.",
+    cuisine: ["Gastronomique Moderne", "Étoilée"],
+    drinks: ["Vins Canadiens Rares", "Grands Crus"],
+    must_eat: "Cuisine Étoilée. Le Soufflé au Grand Marnier & Ris de Veau.",
+    must_drink: "Riesling Canadien"
   },
   images: {
-    hero: "AU_ZVEHhLkzOYmLPZwW5p8sA_HPdqCctnOSow7Jq9aqsdkCmWVsuimWKvku1VNN8gYOXFR-ZgZ2SI4BJjyYZ5JNOONN8mr1BJf15L_SSB2Rb24z-P2nAHxWqqVRJCqjMFn7DyP_-SxFJKF-y5Fm78jYbH3xDE8FhjeMdQfmH86QeDpilhFBrKk2-NjDQRqj7IfL1oT5nlIMUn4sZs5wt2w5J5HgSwsEgwYFVFL7RlzxZrdjt9w9nubafoF9G5gVVpW6SkEqcgHBL9T-avi4WkpczqnQR9GvoB9xHmmKw3PPmP3qMMw",
-    gallery: ["AU_ZVEE-6G1VOyoDvYrU7655fLEAlHxRvdhnlts7_S7YyeeNRof4Q9YL8O0jAG_0AVM7CtJQx3AfA-XUKKi1EGh5K5C4Zll7oSmAxtqfizFcpCVkK-FwRr9prQcL5kLalwgPinErIAGqeQhLXibKnhmDnQtOx1-U84ejT_euHdJ1X6KomZtU1QuZao1MKfH2rln0q-0VIkJVRue_f6kkqNMebZXKH6Bw3E4vnS7eGzJzFdIv407lJu5A57X9CPCWK4BkNBtKv2AlUgFveGSd9qaaGU7Gx8_Mlghy2o1Y2q6S235AOQ","AU_ZVEGQEEMonlGzoFfaUXDDu_CUD6b3e8xSkRYOot5ufiC4Iz0M6aZRWQ-nU7aU2fv9F9MZmMNU1lTSZZFpVIbmsd5bojSEfq6TuqWG-t7n5A0qDiSoF3gI72qNd0TfeMmaI2PhWsPczSK2BqEmCHs2keIHrSgH2rcvG5LzuLdUNR8X6zFz3eaZbKnzoJwzST9ks2pmXEATXSq4939itZqmnlURKQe_en5aNouEolg6dSfIfz0NSXuD_o3AgXDQxaroyY0ozq2tnB_8R-ZFHe2HtLWFONNxnp89xCuOCnd6QNAUDSX5IadrfBRogqCTwtuaN2fSWW2QpIrRJhaPdlPs5sXPmMKIe4mQxhKTBDoopS9g4e2asOif08d25vijQ7ezxUJL-fPFeOcZPvQywJw441vIQw_Ffv7DXF58kUicAyk85dnCQpQe3n2lZqkepfwB"]
+    hero: "https://lh5.googleusercontent.com/p/AF1QipNhLkzOYmLPZwW5p8sA_HPdqCctnOSow7Jq9aqsdk=w1600-h1000-k-no",
+    gallery: [
+      "https://lh5.googleusercontent.com/p/AF1QipE-6G1VOyoDvYrU7655fLEAlHxRvdhnlts7_S7Yy=w800-h800-k-no",
+      "https://lh5.googleusercontent.com/p/AF1QipGQEEMonlGzoFfaUXDDu_CUD6b3e8xSkRYOot5ufi=w800-h800-k-no"
+    ]
   },
   verified: true,
   google_rating: 4.5,
   michelin_stars: 1,
+  instagram_handle: "comice.paris",
   real_talk: {
-    text: "Manger chez Comice, c'est comme être invité chez des amis qui auraient trois étoiles. Noam et Etheliya ont créé un lieu d'une élégance folle mais sans aucune arrogance. L'assiette est pure, les vins sont dingues. Une adresse de cœur.",
-    must_eat: "Le Soufflé",
-    le_secret: "La carte des vins possède quelques références canadiennes exceptionnelles, rares à Paris, clin d'œil aux origines du couple.",
-    le_son: "Un jazz léger et le rire discret de la salle comble.",
-    le_must: "Un dîner d'anniversaire romantique, c'est le spot parfait."
+    text: "Un moment de grâce absolue. Noam cuisine avec son cœur et Etheliya raconte les vins comme personne. On en ressort avec le sentiment rare d'avoir été privilégié.",
+    must_eat: "Cuisine Étoilée. Le Soufflé.",
+    le_secret: "La table près de la fenêtre donne une lumière magnifique en début de soirée, idéal pour un moment romantique.",
+    le_son: "Un jazz feutré très élégant et le calme feutré d'un salon privé.",
+    le_must: "L'accord mets et vins qui est l'un des plus justes et surprenants de la capitale."
   }
 };
 

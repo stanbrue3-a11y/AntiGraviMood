@@ -37,8 +37,8 @@ export const le_beurre_noisette: SurgicalPlace = {
     certification: "silver",
     avg_budget: 0,
     is_free: false,
-    last_updated: "2026-03-25",
-    verified_at: "2026-03-25",
+    last_updated: "2026-03-29",
+    verified_at: "2026-03-29",
     menu_items: [
       {
         category: "Préludes du Marché (Entrées)",
@@ -102,16 +102,19 @@ export const le_beurre_noisette: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Beurre Noisette est l'archétype du grand bistrot parisien où la technique gastronomique se met au service de la convivialité. Le chef Thierry Blanqui, passé par les plus grandes cuisines (Ledoyen, Tour d'Argent), propose une cuisine de marché créative et généreuse. L'endroit est chaleureux, boisé, et respire la passion du terroir. C'est l'adresse de référence dans le 15ème pour un repas d'une qualité exceptionnelle à prix de bistrot.",
-  insider_tip: "• **Le Riz au Lait** : Il est légendaire. Servi avec un caramel au beurre salé addictif, c'est l'un des meilleurs de Paris.\n• **La Formule** : Le menu dégustation en 6 services (68€) est une démonstration de force culinaire à réserver pour les grandes occasions.\n• **La Purée** : Ne manquez pas l'option purée à l'huile de noisette, un clin d'œil au nom du restaurant et un pur délice.",
+  description: `Le Beurre Noisette est l'archétype du grand bistrot parisien où la technique gastronomique se met au service de la convivialité. Le chef Thierry Blanqui, passé par les plus grandes cuisines (Ledoyen, Tour d'Argent), propose une cuisine de marché créative et généreuse. L'endroit est chaleureux, boisé, et respire la passion du terroir. C'est l'adresse de référence dans le 15ème pour un repas d'une qualité exceptionnelle à prix de bistrot.`,
+  expert_catchline: `Bistronomie française. Le célébrissime Riz au Lait & Pâté en Croûte.`,
+  insider_tip: `• **Le Coup de Cœur** : Le Riz au Lait est légendaire. Servi avec un caramel au beurre salé addictif, c'est l'un des meilleurs de Paris.
+• **Top Rapport Qualité/Prix** : Le menu dégustation en 6 services (68€) est une démonstration de force culinaire à réserver pour les grandes occasions.
+• **La Petite Touche** : Ne manquez pas l'option purée à l'huile de noisette, un clin d'œil au nom du restaurant et un pur délice.`,
   specials: {
     cuisine: ["Bistronomie de haut vol", "Riz au Lait culte", "Produits de saison"],
     drinks: ["Vins de vignerons indépendants", "Bières locales", "Spiritueux artisanaux"],
-    must_eat: "Le Pâté en Croûte de sarrasin au canard : un équilibre parfait entre croquant et fondant.",
+    must_eat: "Cuisine bistronomique. Le Pâté en Croûte de sarrasin au canard et le Riz au Lait.",
   },
   images: {
-    hero: "AU_ZVEGHPn4seV0r35YKa3J1Lv74Ut32Zg5cp_-vJC_zCpaQkjC5FhWjgJJysBpAT2r58JztR2jrnN0j5H68Y_tLt0EYq5vAHDItbDp8CpqHqPCuOQwEQpPM5nCQcMk865vAUYHv8M1Q4WccnA1uyYeoYVogBzkUXnGmZ46xY747uuYwV62pM4uqbQHMVyj3YAQxDHkSmOIEQPRRC-ZYqwaYewze1VSS3mDYJRhl4-3MU3nVKoNkKke9vKPCMFHYkWZ3H_Q-mPyV3bFK9haTb16SHoG0x3NaMF0aDYTIfTPMV8PH5w",
-    gallery: ["AU_ZVEHfXWJM_Wh2ALHC646IEqFZPs9oXcA8bw0rxajhcGDtUvT2zcFXdzvuh6mrxUk9iaGqN6hHL9Z7M-xHyTpuEBbjmYHyGRjPyj9yBNOWytgQTjdFzzw5JjSdn_d5FaAI04xtmJ59aWTIQuA8S78p4Hy468AnwiARC_7kXueELLVloK0CaYdv0gZ_k7QAWMunms0I7UJPUKuysNIB-MwipWiGkuBCJyKIRiEveh7v-b4-t78mgyFU_OialK7pRbZYS9D3MehOEAt_h5VjJvc0aFWk-13qZ5GrY3KCx1ZevV0qCA","AU_ZVEEkFsrJ2GUS9_UdOQHOgcTnNfzZ4ioLzxJqk68P_ItI8FTgzVsH2KsjNFYUNN04h_1VYxm2BE8Qi6S16VE4PmpswV8nKbiiQ7PunXY1a1HeZVriwIRTqXROVKxcIVM1h6jXryyPrQocvx2nwRv_DyRvpsnJV1Xqc0Cj541bssrBwZLRrsl08nT3EkNI3vxsJRT7bF9cQ4NlTBhAnPj6XP8x_2rw1Ful0nApn2vOG4Uhopka0J4DN7VVbz9mtzij-6dJqGm3HM2-LVSRtuWfXTjo0TCtWR5tji3ENvsD3zu8lZgHGZ-4pTQKl2pGkVXcIflEFwYjj9qQe5fkDWjzrW0tYUVcM2UGxDD7VddJkpZx9TAuqkBPAaRn4l0amBmZKyaFrH2EhhOQlitA2HYF_d6IH1YoemFeHhl3ftw9j5TJUGXp_yOrxMawxFmw5vUE"]
+    hero: "AU_ZVEHUHO5qa6zXHiR7omecDQnXOJPp8-mbfFwRHU5D7Cyg-gWXi9tRwDBowRjlJss-4wfdI6t5khkW23uYjeTBRG6OLRDX0pPyJUnrML_vpbPROJdZtt_QicxGmmpvUjxoWtyn0g318juW27zZ7AyDiVfk9Eab-Pj_Dj3iqZoV_gU8T2KQ8g-okVNdMArcyVjFWMUTF__RgRIvlik-FWiUZbL1Klei93UTm0lfRTLQGwXtcdsoj0oGtEquqJmbDMWxArXleQ4jhwuBz6Ero_wGp-BofkRx2KXcxra1DQc63T2Ltw",
+    gallery: ["AU_ZVEE_825jDnaUEqAoHedDiXDEEvrc3P6zXsOTNHTUwHbQIdDUq42YP1Hm9Hygt8I8kG542oUJ4F_liLaU_8BUtxRwnj4nhyHXKsJTh06P4WsPxqJhiYRg5nfvgfzQ5hqapk2dskdmL_p5hOUpDp2uqsifxxYeK1elPKQPjaGZl5KjM1uJjOCK8KPTwBdVzswd4L4qZ5oxsrl7mdGBzEVmefcn239m40YoYr6_SrrBBuppNjHMGODo1dHeofNCa1RkD1tP8hs8rDY5j6QIj8CDMMgwYnld8OmELXuRu1VyRbA3sg","AU_ZVEGLKsn3LZA2EvHSiB60fnpfM4PJ2-INZlkbUT3xtFmWOpyvB9KFoTQSIAM62zG_xAu3HKHy0UTB7gPX-vTf7d0fi0egbV8O2CUCI7LcQjOBTYDZ_DKkSQHFqm6h6EUpJG-sTkWpt1D9-pJUTPIOPEV84HhvUN6-2SGwGtaYGLYXgFkKRQvvPhvJd640tDapd2Q4bTL59qvQnDIoDwGgbk-yY2a4WsDTwzPdtHUX2DfhgrzVfqBpmd56KjtFv_qHI7mR8pTgMM-kLtSMg3bJRtOGgJAs1y-Zsh5DyLIYP04YmmJSMvXyDeOTXcpo3nsOXAWG26GwqSN_z2RwQ75G132okAEQM6cT5h-04RpIydV6c54ZffsmWDWLL6dbPlT42IFE6fWEg2_wcFpFWMOG2o5mLXHRGjeUTKAJcYImBTCC_aeeORh5oBtpFtWUmF8n"]
   },
   verified: false,
   google_rating: 4.6

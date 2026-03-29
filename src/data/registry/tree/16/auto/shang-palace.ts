@@ -23,7 +23,7 @@ export const shang_palace: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:00, 18:30 – 22:00 | mardi: Fermé | mercredi: Fermé | jeudi: 12:00 – 14:00, 18:30 – 22:00 | vendredi: 12:00 – 14:00, 18:30 – 22:00 | samedi: 12:00 – 14:00, 18:30 – 22:00 | dimanche: 12:00 – 14:00, 18:30 – 22:00",
     reservation_policy: "resa_obligatoire",
-    wifi: true,
+    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

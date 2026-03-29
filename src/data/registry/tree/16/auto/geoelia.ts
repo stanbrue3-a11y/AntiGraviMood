@@ -1,29 +1,28 @@
 import { SurgicalPlace } from "../../../type-definition";
 
 export const geoelia: SurgicalPlace = {
-  id: "poi-geoelia",
+  id: "poi-geoelia-16",
   slug: "geoelia",
   name: "Geoélia",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["gastronomique", "terroir", "végétal-engagé", "passy"],
   location: {
-    address: "125 Rue de la Tour, 75116 Paris, France",
+    address: "125 Rue de la Tour, 75116 Paris",
     arrondissement: 16,
     lat: 48.863265,
     lng: 2.2744685,
-    nearest_metro: "TODO",
-    metro_lines: [],
+    nearest_metro: "La Pompe",
+    metro_lines: [9],
     google_id: "ChIJI15J0wVl5kcRJ15AKiwqxfM"
   },
   moods: {
-    chill: 90,
+    chill: 95,
     festif: 0,
-    culturel: 85
+    culturel: 90
   },
   practical: {
-    opening_hours_raw: "lundi: 12:00 – 13:30, 19:00 – 21:00 | mardi: 12:00 – 13:30, 19:00 – 21:00 | mercredi: 12:00 – 13:30, 19:00 – 21:00 | jeudi: 12:00 – 13:30, 19:00 – 21:00 | vendredi: 12:00 – 13:30, 19:00 – 21:00 | samedi: Fermé | dimanche: Fermé",
+    opening_hours_raw: "Lun-Ven: 12h-13h30, 19h-21h | Sam-Dim: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,
@@ -44,66 +43,77 @@ export const geoelia: SurgicalPlace = {
         category: "Les Menus Immersion",
         items: [
           { name: "Menu en 7 Temps", price: "160€", description: "L'expression totale du terroir par Camille Saint-M'leux", highlight: true },
-          { name: "Menu en 5 Temps", price: "125€" },
-          { name: "Menu Déjeuner (3 Temps)", price: "65€", description: "Uniquement servi le midi en semaine" }
+          { name: "Menu en 5 Temps", price: "125€", description: "Une partition végétale et marine équilibrée" },
+          { name: "Menu Déjeuner", price: "65€", description: "3 temps, le meilleur rapport qualité/prix du quartier" }
         ]
       },
       {
-        category: "Les Étapes du Terroir",
+        category: "Les Échos de la Terre (Dégustation)",
         items: [
-          { name: "Poireau de Sables", price: "0€", description: "Cuit au charbon, condiment praliné noisette" },
-          { name: "Betterave Crapaudine", price: "0€", description: "En croûte de sel, jus de réglisse", highlight: true },
-          { name: "Omble Chevalier", price: "0€", description: "Vapeur douce, émulsion de foin" },
-          { name: "Volaille de la Cour d'Armoise", price: "0€", description: "Le suprême rôti, la cuisse en civet" },
-          { name: "Agneau de Lait des Pyrénées", price: "0€", description: "L'épaule confite, ail des ours" },
-          { name: "Champignon de Paris", price: "0€", description: "En textures, du cru au torréfié" }
+          { name: "Poireau de Sable au Charbon", price: "0€", description: "Textures fumées, praliné noisette sauvage" },
+          { name: "Betterave Crapaudine Salée", price: "0€", description: "Croûte de sel, réglisse et herbes potagères", highlight: true },
+          { name: "Omble Chevalier de Rivière", price: "0€", description: "Cuit au foin, émulsion légère d'oseille" },
+          { name: "Volaille de la Cour d'Armoise", price: "0€", description: "Le suprême rôti, jus corsé à l'origan" },
+          { name: "Agneau de Lait des Pyrénées", price: "0€", description: "Épaule confite 24h, ail des ours et navets boulangère" },
+          { name: "Champignon de Paris en textures", price: "0€", description: "Cru, torréfié, en bouillon et en mousse" },
+          { name: "Carotte de chez mon Maraîcher", price: "0€", description: "Terreuse, gingembre et fanes frites" },
+          { name: "Bar Sauvage de Petite Pêche", price: "0€", description: "Saisi à la nacre, beurre de ciboule" },
+          { name: "Sourdough Maison & Beurre baratté", price: "0€", description: "Pain au levain naturel 48h" },
+          { name: "Amuse-Bouche Potager", price: "0€", description: "Soupe froide de saison et écume d'herbes" }
         ]
       },
       {
-        category: "Finales & Échos",
+        category: "Finales Terre-Air (Desserts)",
         items: [
-          { name: "Chèvre Frais & Herbes Folles", price: "18€" },
-          { name: "Rhubarbe & Sureau", price: "0€", description: "Sorbet maraîcher, meringue légère" },
-          { name: "Chocolat & Sarrasin", price: "0€", description: "Ganache fumée, croustillant breton" },
-          { name: "Mignardises de Saison", price: "0€" }
+          { name: "Chèvre Frais de la Ferme", price: "18€", description: "Herbes folles du jardin et miel de forêt" },
+          { name: "Rhubarbe Sureau & Yaourt", price: "0€", description: "Fraîcheur acide, sorbet sauvage et meringue", highlight: true },
+          { name: "Chocolat Noir & Sarrasin", price: "0€", description: "Ganache fumée au bois d'olivier et croustillant breton" },
+          { name: "Poire Confite à la Verveine", price: "0€", description: "Jus de poire réduit et amandes fraîches" },
+          { name: "Abricot & Thym Citronné", price: "0€" },
+          { name: "Mignardises de Camille", price: "0€", description: "Petits fours du moment" }
         ]
       },
       {
-        category: "La Sommelerie",
+        category: "La Sommelerie Engagée",
         items: [
-          { name: "Accord Mets & Vins 'Empreinte'", price: "85€" },
-          { name: "Accord Sans Alcool 'Botannique'", price: "65€" },
-          { name: "Verre de Muscadet Sèvre-et-Maine", price: "14€" },
-          { name: "Bouteille de Morgon (Vignes de 80 ans)", price: "75€" },
-          { name: "Thé Vert Genmaicha", price: "12€" },
+          { name: "Accord Mets & Vins 'Empreinte'", price: "85€", description: "Vignerons indépendants et bio" },
+          { name: "Accord 'Botannique' (Sans alcool)", price: "65€", description: "Infusions d'herbes et eaux aromatisées" },
+          { name: "Coupe de Champagne Extra-Brut", price: "24€" },
+          { name: "Verre de Muscadet Granit", price: "14€" },
+          { name: "Bouteille de Morgon Nature", price: "72€" },
+          { name: "Thé Vert Genmaicha de Prestige", price: "12€" },
+          { name: "Café Micro-Torréfaction", price: "10€" },
           { name: "Eau de Source Filtrée", price: "7€" }
         ]
       }
     ]
   },
-  description: `Geoélia est la révélation gastronomique de Camille Saint-M'leux dans le 16ème. Fraîchement étoilé en 2026, ce restaurant prône une cuisine de terroir ultra-précise, où le végétal prend souvent la tête d'affiche sans jamais oublier la gourmandise. Dans un cadre zen et élégant, chaque plat raconte une histoire de producteur, sublimée par une technique moderne et audacieuse.`,
-  expert_catchline: `Le nouveau visage du terroir parisien : végétal, technique et étoilé.`,
-  insider_tip: `• **Le Pouvoir du Végétal** : Laissez-vous surprendre par les plats à base de légumes (comme la Betterave), ils sont souvent plus impressionnants que les viandes.
-  • **Le Midi** : Le menu à 65€ est l'un des meilleurs rapports qualité/prix étoilés de l'arrondissement.
-  • **La Table Face à la Fenêtre** : Idéale pour profiter de la lumière naturelle de la rue de la Pompe.`,
+  description: "Geoélia est la révélation étoilée de Camille Saint-M'leux, nichée dans le calme de la rue de la Tour. Le chef y prône une gastronomie de terroir ultra-précise, où le végétal s'élève au rang de pièce maîtresse. Chaque plat est un hommage vibrant aux petits producteurs, sublimé par une technique minimaliste et audacieuse. Dans un cadre épuré, aux tons naturels et à l'acoustique travaillée, Geoélia offre une parenthèse zen et précieuse où la sincérité culinaire est la seule règle.",
+  expert_catchline: "La poésie brute du terroir à la table étoilée de Camille Saint-M'leux.",
+  insider_tip: "Ne faites pas l'impasse sur la Betterave Crapaudine, c'est elle qui a fait la réputation du chef. Le menu déjeuner est une pépite à 65€ pour s'initier à la haute gastronomie engagée.",
   specials: {
-    cuisine: ["Gastronomique", "Français moderniste"],
-    drinks: ["Vins Nature/Bio", "Infusions Maison"],
-    must_eat: "La Betterave Crapaudine en croûte de sel. Une leçon de goût.",
+    cuisine: ["Gastronomique Terroir", "Moderne"],
+    drinks: ["Vins Nature", "Accords Botanniques"],
+    must_eat: "Cuisine Terroir. Betterave Crapaudine en croûte de sel & Rhubarbe-Sureau.",
+    must_drink: "Accord Botannique Sans Alcool"
   },
   images: {
-    hero: "AU_ZVEFPzX6zpCurEhvFZ1NpH-kxL68EdG84oviFX7AXmLoEVuEsGjWGFhVJDs1r628XIow6Xogteyx9blbhNswVcQiOiyzJgysSVPwnAR0_oMQ5hx8iakF9QboFroutQEBZKxsHrVef6mD1u91f0FTWiFSYL-eWU4fb2p2YXsPbqGpKDivkGf-dOp2jfwccZV_XWEs6wWZCg5oJ57ds16r_ZC2AiPshGWw4tOUGa46pn30m6CQgXasz6bdJnOQfK4IDJlKZn7_95ce6S9NzjzYLwWmvHs6cT0psLJzi2H2ZSPIm0jC2x_PJZuyu_QGIBWnHcsn430erHVQQkcLVjOrJCNtvU1K5EyAZjIkOl0RGqBfnVV1pOwjPQM8AvEZTs9OrydkjxYuGDn0myB_gn6LAORZL4u9Q7aIkeQhYuJzhjGvvSNsiyKURupjlvmMxDy10",
-    gallery: ["AU_ZVEHtKml0NBzQNcD0dezEM0ul13hZij_Bt0oKAb2A3OvmyeCCxACzfYzlfiACWaNO5OPP8wTxxdkfdF1xgFnxPgJ22_0RNX0JsySdtIzVbw4HSZKz5MfTM-9hDITrZ-zaYPQJioibtlDMOG0-beF6uoaUeUv-wUknw18P-99ZKILwsfBPN_O4UXPNXaQkbJqSvz7QrliCpRnj8SjcbiqsYfmfuPBwdPv_R0_jOvFmPwow_Fy1ySglHyHIExMp5pZq1iibk2phtestQlTNgbRtKPB_LgNxzn4i0DjIdfmMRlCy3g","AU_ZVEHM2iXICWXkni8RfeIPAeWD_ndy7Ny8OqpKhOMO8Y0R3ICk62anhrmmbOQlbX4k_93Shrn5m5aptqFHXovWxtYjpqrJvOMwrN6XOqs54QD4ra4wYOlY41qYSf0O6vqtp4moYRQzDHAd-3JjXOiKmdjFkQJi9dUAZl4IYj7CJJyA6gQViEcb78Q-WmWneL3JQd2Ssr0J_iY72uJtiLHqglqF34Kdbs3IYW4seNXsfSoJJvwuDVsM9P05T1KfKn4YrA9lADQMkLfyti-DdvcO9RDkCHT2TZPHXX474U0o2OMdmmOcjpQnMzuSxGfqKWrtffGCbNCj46sKqYjO5UedMBKFiEHcm9sbqwG9URaJWGN8XzabptZxb29Q43iPEZSizfaIrJAAYWDKagk_8wx-uFmRTDWtTrYsn5SIYwObAzfyZK7hYBnKWyt023YQgA"]
+    hero: "AU_ZVEFmILqtKa-4tl-PYTqazv3wj18DWEjRaa60n-_XD2VdhWeiyMhDlyv3uHmXg0Dxr2Pfk7W-DwQME2CjwCpmvzmiOn3yy3NuRHeVA9ve200YGH17rjePZda0lvdlBuhqshzFcuDGHOOZ3TXAUD6ua0rUg3g5bzIYXXiFiP2ye7q2_1L27hFvB3horp1Q9xuxeckClQHs6WYG-qgWEPqxNdF6bMpUGJwmjyQbDuODvSIShPdYZ_C2sAHzUIw_P-R5gOzDez_p1tleu6tk1a_7QA93oQDS1rJJPjKlDLg46vr0PBPSt-r_eT7-IY-y4uzBbGoBJUlVlaSMiXnzW12-SA35uH88HCFkzamNKs5II8D7QYEEjSTsDVG1hUNeXc0RfeIrjsD0jljwgwyZzchJp7ywen4c5L61cC3l0IOO6hwymRpA4IhwS1ufrZ4QIzN0",
+    gallery: [
+      "AU_ZVEGo_moYYwoRgPu9PgGq80HEliQ09th4ilj48hYfo-nI8fcGmTuFJcdImPKAMC99b1BHvKftZJyO_zbRx6uLs7s7yj9zdyKa4pvXrzUMeI-HDEeObhgJ4Jb0VUa7YlJZz0D0lPSII1RPBrwdXf3dQ5dWjIpdOPN3hEBMgZB_xWwVNrEHV3nLVDkroeXonOB4H38K4SmGcfR17D46aTSM1rE5GbHd038SGOYvynvtrRH5HZ1xPhj6ZzHwM-H8Y2myxO80RPveWogUKOz_gogHMtXLRuKECcYjOVlyv2_smqD6OA",
+      "AU_ZVEFeNLEHyj6ZNht9h5ntwuLLGkiBxMjRHkhmaRc1HsjAThXspnUxFpWhZN_QdQp_Dgbu5avq37ZqQ7o2UQxXL9Yi2dmQz-s_Y-EeIWN3AxwZBtzAgXAP1J-1_O_bECbB5bVSKH4KZJNfDdbMJUB2aIsjnroVQtrvVvVVofE_AYFqQzCU4qtEGFV8c9o6WURowdm3EP-pE4b7Rz3d9Qh9sM11VquOf7ylJsX3AR0ScUTuSGjfyt8ua63GtzK6NlUj9dkjcN7kSpgCX5hiMvOr_AF6LIgMuSq6UKLy6hc_K0S0dK41l_PS2OIlL25hACPOPgvKVzGo_7imF1hQGwyvEKa54k_yQWNeAgIxGmnQ_Vbc1Vq4b1P1MEqnW2nnTx0bju_1WWlIH_8aNpQoHxSDAp_e3SddOLCIe_zD-f4ZaW-cCPK5Epge3-1_NGm_rg"
+    ]
   },
   verified: true,
   google_rating: 5,
   michelin_stars: 1,
+  instagram_handle: "geoelia_paris",
   real_talk: {
-    text: "Geoélia, c'est calme, c'est beau et c'est surtout très bon. Camille Saint-M'leux est un technicien hors pair qui ne cherche pas à épater la galerie mais à servir le produit. Une adresse qui va monter très haut.",
-    must_eat: "Betterave Crapaudine",
-    le_secret: "Demandez à goûter leurs infusions maison en fin de repas, elles sont réalisées avec des herbes fraîches sourcées chez les mêmes maraîchers que les plats.",
-    le_son: "Une acoustique hyper travaillée, parfait pour un dîner confidentiel.",
-    le_must: "L'intelligence du menu en 5 temps qui est parfaitement équilibré sans lourdeur."
+    text: "Un lieu qui apaise instantanément. Camille n'est pas là pour épater mais pour nourrir l'esprit avec les meilleurs produits du terroir. C'est brillant, technique et d'une sincérité désarmante.",
+    must_eat: "Cuisine Terroir. Betterave Crapaudine.",
+    le_secret: "L'infusion de fin de repas réalisée avec les herbes sourcées chez les mêmes maraîchers que pour les plats.",
+    le_son: "Un silence élégant et feutré, propice à la confidence.",
+    le_must: "Dîner face à la baie vitrée pour profiter de la douceur du quartier Passy."
   }
 };
 

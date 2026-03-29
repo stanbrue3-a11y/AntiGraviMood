@@ -1,29 +1,28 @@
 import { SurgicalPlace } from "../../../type-definition";
 
 export const andia: SurgicalPlace = {
-  id: "poi-andia",
-  slug: "andia",
+  id: "poi-andia-16",
   name: "ANDIA",
+  slug: "andia",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["latino", "festif", "terrasse", "muette"],
   location: {
-    address: "19 Chau. de la Muette, 75016 Paris, France",
+    address: "19 Chau. de la Muette, 75016 Paris",
     arrondissement: 16,
     lat: 48.8581596,
     lng: 2.2722369,
-    nearest_metro: "TODO",
-    metro_lines: [],
+    nearest_metro: "La Muette",
+    metro_lines: [9],
     google_id: "ChIJ6RIysFRl5kcRgTQU1vLwwWg"
   },
   moods: {
-    chill: 50,
+    chill: 30,
     festif: 95,
-    culturel: 60
+    culturel: 40
   },
   practical: {
-    opening_hours_raw: "lundi: 12:00 – 14:30, 19:00 – 01:00 | mardi: 12:00 – 14:30, 19:00 – 01:00 | mercredi: 12:00 – 14:30, 19:00 – 01:00 | jeudi: 12:00 – 14:30, 19:00 – 02:00 | vendredi: 12:00 – 14:30, 19:00 – 02:00 | samedi: 12:00 – 15:00, 19:00 – 03:00 | dimanche: 12:00 – 15:00, 19:00 – 01:00",
+    opening_hours_raw: "Lun-Mer: 12h-14h30, 19h-01h | Jeu-Ven: 12h-14h30, 19h-02h | Sam: 12h-15h, 19h-03h | Dim: 12h-15h, 19h-01h",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: true,
     ferme_tard: true,
     accessibility: true,
@@ -41,67 +40,95 @@ export const andia: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Para Picar & Tacos",
+        category: "Para Picar (À Partager)",
         items: [
-          { name: "Tequeños au Fromage (x4)", price: "15€", description: "Beignets croustillants, sauce aji verde" },
-          { name: "Beef Tacos (x3)", price: "19€", description: "Bœuf confit, oignons rouges, coriandre", highlight: true },
-          { name: "Guacamole Maison & Tortillas", price: "14€" },
-          { name: "Empanadas au Poulet", price: "16€" }
+          { name: "Guacamole Andia", price: "14€", description: "Avocat mûr, oignon rouge, coriandre et chips de maïs", highlight: true },
+          { name: "Tequeños au Fromage", price: "15€", description: "Bâtonnets de fromage frits, sauce aji verde" },
+          { name: "Empanadas de Pollo", price: "16€", description: "Chausson frit au poulet effiloché et épices" },
+          { name: "Beef Tacos (x3)", price: "19€", description: "Bœuf confit, oignon rouge, coriandre" },
+          { name: "Tacos de Crevettes", price: "18€", description: "Crevettes marinées, chou rouge et mayo pimentée" },
+          { name: "Calamars Fritos", price: "17€", description: "Beignets de calamars, sauce tartare andine" },
+          { name: "Tostadas de Thon", price: "16€", description: "Tortilla craquante, tartare de thon et sésame" }
         ]
       },
       {
         category: "Raw Bar & Ceviches",
         items: [
-          { name: "Ceviche Clasico", price: "24€", description: "Bar, lait de tigre, patate douce", highlight: true },
-          { name: "Ceviche de Thon à la Truffe", price: "28€" },
-          { name: "Tiradito de Saint-Jacques", price: "26€", description: "Fruit de la passion et piment doux" },
-          { name: "Poke Bowl Salmon", price: "22€" }
+          { name: "Ceviche Classico", price: "24€", description: "Bar sauvage, lait de tigre, patate douce, choclo", highlight: true },
+          { name: "Ceviche Thon & Truffe", price: "28€", description: "Thon rouge, huile de truffe, soja et citron vert" },
+          { name: "Tiradito Saint-Jacques", price: "26€", description: "Tranches fines, fruit de la passion, piment doux" },
+          { name: "Ceviche Veggie", price: "19€", description: "Cœur de palmier, avocat, mangue et lait de tigre coco" },
+          { name: "Salmon Poke Andia", price: "22€", description: "Saumon mariné, riz noir, edamames, algues" },
+          { name: "Carpaccio de Poulpe", price: "21€", description: "Olives noires, citron confit et huile d'olive" }
         ]
       },
       {
-        category: "Asador & Grill",
+        category: "Asador (Grillades)",
         items: [
-          { name: "Thon Grillé à l'Andine", price: "38€", description: "Légumes sautés au wok", highlight: true },
-          { name: "Anticucho de Poulet Marinée", price: "22€", description: "Brochettes péruviennes" },
-          { name: "Entrecôte Black Angus (300g)", price: "42€" },
-          { name: "Poulpe Grillé Chimichurri", price: "36€" },
-          { name: "Burger Andia", price: "28€" }
+          { name: "Poulpe Grillé Chimichurri", price: "36€", description: "Cuit au charbon, écrasé de pommes de terre", highlight: true },
+          { name: "Anticucho de Poulet", price: "22€", description: "Brochettes marinées à l'aji panca" },
+          { name: "Entrecôte Black Angus (300g)", price: "42€", description: "Origine Argentine, sauce salsa roja" },
+          { name: "Thon Rouge Grillé", price: "38€", description: "Saisi à la plancha, légumes de saison au wok" },
+          { name: "Lomo Saltado", price: "34€", description: "Filet de bœuf sauté, oignons, tomates et frites" },
+          { name: "Burger Andia", price: "28€", description: "Pain brioché, bœuf 180g, cheddar, aji verde" },
+          { name: "Côtelettes d'Agneau", price: "39€", description: "Marinade aux herbes des Andes" }
         ]
       },
       {
-        category: "Postres & Cocktails",
+        category: "Acompanantes (Sides)",
         items: [
-          { name: "Churros & Sauce Chocolat", price: "12€", highlight: true },
-          { name: "Pavlova Tropicale", price: "14€" },
-          { name: "Cocktail 'Pisco Sour' Classique", price: "16€" },
-          { name: "Andia Margarita", price: "17€" },
-          { name: "Expresso", price: "4€" }
+          { name: "Riz à la Mexicaine", price: "8€" },
+          { name: "Haricots Noirs", price: "7€" },
+          { name: "Frites Maison", price: "7€" },
+          { name: "Légumes Grillés", price: "9€" },
+          { name: "Maïs Grillé au Beurre", price: "8€" }
+        ]
+      },
+      {
+        category: "Postres (Douceurs)",
+        items: [
+          { name: "Churros Classicos", price: "12€", description: "Sauce chocolat chaud et dulce de leche", highlight: true },
+          { name: "Pavlova Tropicale", price: "14€", description: "Meringue, mangue, passion et coco" },
+          { name: "Gâteau Très Lait", price: "11€", description: "Le classique Tres Leches mexicain" },
+          { name: "Sorbet Exotique Maison", price: "9€" }
+        ]
+      },
+      {
+        category: "Spiritueux & Co",
+        items: [
+          { name: "Pisco Sour Classique", price: "16€", description: "Pisco, citron vert, sucre et blanc d'œuf" },
+          { name: "Andia Margarita", price: "17€", description: "Tequila Blanco, agave, citron vert et sel tajin" },
+          { name: "Expresso", price: "4€" },
+          { name: "Thé Vert à la Menthe", price: "7€" }
         ]
       }
     ]
   },
-  description: `Occupant l'ancienne gare de la Muette, ANDIA est un voyage spectaculaire vers les hauts plateaux andins. Sous une verrière monumentale ou dans son jardin luxuriant, le restaurant propose une immersion totale : ambiance jungle-luxe, playlist tribale et cuisine fusion fusionnant les saveurs du Pérou, du Mexique et du Brésil. C'est le lieu de fête par excellence du quartier, où le dépaysement est garanti dès l'entrée.`,
-  expert_catchline: `L'aventure andine dans une gare historique du 16ème arrondissement.`,
-  insider_tip: `• **Le Jardin** : C'est l'un des espaces extérieurs les plus dépaysants de Paris. En été, on se croirait à Tulum.
-  • **Le Bar à Ceviche** : Installez-vous au comptoir pour voir la préparation minute des poissons crus, c'est saisissant de fraîcheur.
-  • **After-Dinner** : Le lieu monte en puissance après 22h, idéal pour ceux qui veulent combiner dîner et fête.`,
+  description: "Installé dans le cadre grandiose de l'ancienne gare de la Muette, ANDIA est un sanctuaire festif dédié à la cuisine latino-américaine. Sous une immense verrière végétale, le lieu vibre aux rythmes tribaux et propose un voyage sensoriel du Pérou au Mexique. Entre ceviches percutants, viandes grillées au charbon de bois et cocktails exotiques, c'est l'adresse incontournable pour un dîner vibrant qui s'étire jusqu'au bout de la nuit.",
+  expert_catchline: "L'aventure fusion latino dans une gare historique métamorphosée.",
+  insider_tip: "Réservez une table sous la verrière pour l'effet 'WOW' garanti. En fin de semaine, le lieu se transforme en club chic dès 22h30.",
   specials: {
-    cuisine: ["Andine Fusion", "Péruvien"],
-    drinks: ["Pisco Sour", "Cocktails Exotiques"],
-    must_eat: "Cuisine Andine. Le Ceviche Clasico avec son lait de tigre percutant.",
+    cuisine: ["Andine", "Latino-Fusion"],
+    drinks: ["Pisco Sour", "Margarita Tajin"],
+    must_eat: "Cuisine Andine. Ceviche Classico & Poulpe Grillé au Chimichurri.",
+    must_drink: "Pisco Sour Maison"
   },
   images: {
-    hero: "AU_ZVEFcm2rbFsrpMZ9YNWzX3ReaKK8qOT4Ntd_eYAQDI8VfMLxh01eERqtm_jlK5Zx5fLTvoSZyWLCX7wCzUYr214wLv2Xbp5-BQfi09W8-zRzToyUXNTaltIE5Z8Iuvv-jaa7J1UvUdDQrH0Kc3SJQK-z-XO5ZLqenzYgAC7AOBVs6kGBKY-eRRt0z2AyTCcGpL-Vlo2bLyXzfWo8zYCdNJXHQ-p7iuItBPlLUJoH3EQ6imfdp1s-iYOO5PamCWLoum7fvb5pQnsW4tCuaxPb6yyDupzUUrVoWaW3yESh12h5O3w6hLPJE3TRA4jr5fox0Ok_7eE02phAVX_2hOXUcKefwZywtKmobbaan_zy1H4gsgyATBSk2jjSJ28cRJq-O5-W2StdQW5aqTRRlgAlRCTvtObQ6hUMbXEmvs4U96SsyNss",
-    gallery: ["AU_ZVEFf3zAu-OT7X1nNPmJfB7_a1FjH_ErsYarAGoiLPRCtqK7QXBh7vHGry_C4cIgZuujj7IFGdEEs0mNmaWio8p_Vy-8cdubkYaSCrxSgShy5_w44ZL6473IcU0CYnxKj-p_2QxIjm3CN6xsJ0xPeO7WdKVLy-ulDC97fluKrsl2HREqsH1sh3IPeqzHRKaT18e5F21DOukEOsnSZ7QTygImWqd5gLZvG-BarjN75VCR3eBDvrTJL0MD2qGrbmP2xGy0073FKbR1Zzn2Y9ebrQmtuIc9c9sx-1MSf5_XaBRB6lB7GoO0Mv0NzlfnhXRiUgGLK9ZZ4OxfmFFMY5tMSegHJy2BVikzyOW_IO73Oj0rz4ez9Yt2vIoxUB-nIcPSvY5DtfrH00iFNNlsFKGNzIQiWH85wetj8VOOz_kEhkeTRxs3xkn6Vn_0yURUyNe4D","AU_ZVEHd9Q-erhb0510jKqrmnzG4S-SGuz8v7xMLeRzZYK-sKOhBv6n4BNQSvz-9dRw_Gatp9wMcnbphv0IEHCU2Cp_vfCaVtY-qiW1T_E8ZZZd6GgOv_BzbOr5hY6mKopPhZ1uNsA_SMJCcCNOwpCQytSMF6_w3YlQV0Y4drCIvURo2xtBdiiC5fXk-BxpWTL3Wj8pfcPJ57c8YkohzRTexAu66wlAEFLMlkvJx7j-qreAieKVbJNhB48cvCCP-OQ3Wh2qtyO21ZrPctGbDFJ1l5zYqZXoBQuhyvPt60XKZD57alw"]
+    hero: "AU_ZVEGOoWa9N23PWmfDt3OLJyEvtJlhT0KFqg2weGFlZpyR__MkHTB11I1Wc1fz_-WBfAGGkFUeTKncwK0soJL71xdaIW2TmHvhVkiiqNpzxp-ZIQMd1BcCDiVn5WfTE1B9FmWIqJhiDac3PFlQfqhWj6Q-y4lXtqwCRJX2wrDZzmpuljdi7c_C_GTjzGtiURhHbYw2kkqSU2TLMP1JlCsCQ-5SMPUQ76JdcDORZaoys5zt1hxaKxbdo-H1nUvDZz2RjusBXcCaBWAq6NU2Dy606_8iyq5nuIMiahXtOOtn-vcaahDyDwziyge6ftubkPX4FP9eY4_5caSL6uhCAIxDMNhgND9PpstyMRhYKsIz6wHKMChBVZkJni5Ps9V7p9Xl3wO2n04AbF-kuvtVG7JdbstsE2HCRgc1wNqLpVcpWnEJaco",
+    gallery: [
+      "AU_ZVEE4xg1sgYCfjt1B3iH3pApnYC5QzgNecFuCvUlmY7p0mgkjs_9F9BzmLBieK8Q4FbF7T605XHrE47D72SkVkeQhJUDsceee8gFQSsT1hqMNnAHVn2w13JvsD_ThCPUFXmT69AT1phWRgLARkU-2_Du6xCj_qxANUPES7k-a6mG7nRNI21MiYrXkzH-HNFW5MUHUlM5TyzrOR0bfHpRpmhUb8V-20_fySeO8J4DcIxxrYt3sJC-FnXUSZLcbqRSPzDCtmIn4gz98ywsxn5KT7Onzp5a2NbvV8FECuUckFUjEo6TJ9-ltH96W9wtOSBExw61RzFaFjF5FUBcVnMKg9xok2JacynLPfDoyX9ZA1mwvMeNojsDN6UMKnJvwuRk3Sfdk6RjZefo2D2eQguX94IyHrjFQa-YipnpA_C3zSsmB0RAuthm7uLELi3ULEI2l",
+      "AU_ZVEEJkTEk4Xm4W6EnzGTTNg4noEjASwfJMb37vS1kLneFQLLIBcpkyHG0bGe5JqJD6Ws3IIXunxcK1VNZoqstsBpV9749Tjp7BkY7VJJul-2dEKWI6ZZRprjaEa8GfDno7Ru1jy3aa8l2TFaFg4waYGbEqleNJGpPLdjgNfp0VqY6h6AQI6wNf-PMo9AcThrfdzqdpG4MJxfzI1wxu6esHrEREUcMRDVTptknT0dqRRe0Nm5sRBSI7nbohNq1MPqJX5nkmHwHY5d7K9DHPJLbbHpRBMoDmezE6jSePsjb6p3KbA"
+    ]
   },
   verified: true,
   google_rating: 4.3,
+  instagram_handle: "andia_paris",
   real_talk: {
-    text: "ANDIA, c'est l'un des rares endroits du 16ème où l'on oublie totalement qu'on est à Paris. Le décor de la verrière est fou. Ce n'est pas le Pérou authentique menu ouvrier, mais c'est une version luxe et festive très réussie. On y vient pour voir et être vu, dans un nuage de fumée de grillade et de musique latino.",
-    must_eat: "Ceviche Clasico",
-    le_secret: "La gare possède une zone VIP mazzanine pour ceux qui veulent vraiment de l'intimité tout en restant dans le bruit de la fête.",
-    le_son: "Reggaeton chic, Afro-house et sons tribaux.",
-    le_must: "Partager un plateau de tacos avec une série de Margaritas glacées."
+    text: "Une jungle chic nichée dans une gare désaffectée. C'est bruyant, c'est beau, et l'assiette tient la route avec des saveurs latines bien exécutées.",
+    must_eat: "Cuisine Andine. Ceviche Classico.",
+    le_secret: "La terrasse jardin en été est un véritable havre de paix tropical.",
+    le_son: "Reggaeton chic, Afro-house et percussions en live.",
+    le_must: "L'arrivée spectaculaire sous la coupole en début de soirée."
   }
 };
 

@@ -17,7 +17,11 @@ const FORBIDDEN_WORDS = [
 ];
 
 async function auditRegistry() {
-    console.log("🔍 DÉBUT DE L'AUDIT DE MOELLE...");
+    const args = process.argv.slice(2);
+    const targetSlugArg = args.find(arg => arg.startsWith('--slug='));
+    const targetSlugs = targetSlugArg ? targetSlugArg.split('=')[1].split(',') : [];
+
+    console.log(`🔍 DÉBUT DE L'AUDIT DE MOELLE${targetSlugs.length > 0 ? ` (CIBLÉ: ${targetSlugs.join(', ')})` : ' (GLOBAL)'}...`);
     
     const files = getAllFiles(REGISTRY_PATH).filter(f => f.endsWith('.ts'));
     const googleIds = new Map<string, string>();
@@ -58,6 +62,11 @@ async function auditRegistry() {
                 slugs.set(slug, context);
             }
 
+            // Si on est en mode ciblé, on s'arrête là pour les fiches non concernées (on a juste validé l'anti-collision global)
+            if (targetSlugs.length > 0 && slug && !targetSlugs.includes(slug)) {
+                continue;
+            }
+
             // 2. Quota Photo
             if (!place.images.hero) {
                 errors.push(`📸 [${context}] : Hero image manquante.`);
@@ -96,10 +105,13 @@ async function auditRegistry() {
                     }
                 }
 
-                // 3.2 Vérification des Prix (€ obligatoire)
+                // 3.2 Vérification des Prix (€ obligatoire et numérique pur)
                 cat.items?.forEach(item => {
                     if (!item.price.includes('€')) {
                         errors.push(`💰 [${context}] : Symbole € manquant pour l'item "${item.name}" (Prix: "${item.price}").`);
+                    }
+                    if (!/^[\d,\.]+ ?€$/.test(item.price.trim()) && item.price !== "0€") {
+                        errors.push(`💥 [${context}] : Prix non-numérique détecté ("${item.price}"). L'application mobile crashera (NaN). Exigez un nombre (ex: "24€").`);
                     }
                 });
 
@@ -108,6 +120,14 @@ async function auditRegistry() {
             
             if (totalItems < MIN_MENU_ITEMS) {
                 errors.push(`🍗 [${context}] : Menu anémique (${totalItems}/${MIN_MENU_ITEMS} items).`);
+            }
+            
+            // 3.3 Filtres de Base et SQLite Crashes
+            if (!place.subcategory || place.subcategory.length === 0) {
+                errors.push(`👻 [${context}] : 'subcategory' est vide []. Le lieu sera masqué de la DeepSearch. Ajoutez un tag (ex: 'bistrot').`);
+            }
+            if (place.name.includes("'")) {
+                errors.push(`🗡️ [${context}] : Apostrophe droite détectée dans "${place.name}". Elle corrompt SQLite. Utilisez l'apostrophe typographique ( L’ ).`);
             }
 
             // 4. GPS & Horaires
