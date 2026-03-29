@@ -47,41 +47,45 @@ export const automne: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Menu Découverte (Dîner & Week-end)",
+                category_type: "tasting_menu",
+                display_label: "Menu Découverte (Dîner & Week-end)",
                 items: [
-                    { name: "Menu en 5 étapes", price: "110.00€", description: "Le voyage gastronomique structuré par Nobuyuki Akishige." },
-                    { name: "Menu en 7 étapes", price: "145.00€", description: "L'expérience complète du chef avec des produits nobles." },
-                    { name: "Accord Mets & Vins (5 verres)", price: "45.00€" },
-                    { name: "Accord Mets & Vins (7 verres)", price: "65.00€" }
+                    { name: "Menu en 5 étapes", price_cents: 11000, description: "Le voyage gastronomique structuré par Nobuyuki Akishige." },
+                    { name: "Menu en 7 étapes", price_cents: 14500, description: "L'expérience complète du chef avec des produits nobles." },
+                    { name: "Accord Mets & Vins (5 verres)", price_cents: 4500 },
+                    { name: "Accord Mets & Vins (7 verres)", price_cents: 6500 }
                 ]
             },
             {
-                category: "Menu Déjeuner (Mercredi au Vendredi)",
+                category_type: "tasting_menu",
+                display_label: "Menu Déjeuner (Mercredi au Vendredi)",
                 items: [
-                    { name: "Menu complet", price: "75.00€", description: "Amuse bouche, entrée, plat au choix, dessert et mignardises." }
+                    { name: "Menu complet", price_cents: 7500, description: "Amuse bouche, entrée, plat au choix, dessert et mignardises." }
                 ]
             },
 
             {
-                category: "Inspirations (Séquences Automne)",
+                category_type: "other",
+                display_label: "Inspirations (Séquences Automne)",
                 items: [
-                    { name: "Saint-Jacques de Dieppe & légumes de saison", price: "Inclus" },
-                    { name: "Asperges blanches, oseille & amandes fraîches", price: "Inclus" },
-                    { name: "Maigre de ligne, courgettes & couteaux de plongée", price: "Inclus" },
-                    { name: "Jardinière de légumes, émulsion barigoule", price: "Inclus" },
-                    { name: "Tartelette de foie gras au pain d'épice & muscat", price: "Inclus" },
-                    { name: "Ris de veau croustillant & champignons pied bleu", price: "Inclus" },
-                    { name: "Selle de chevreuil rôtie (en saison de chasse)", price: "Inclus" },
-                    { name: "Blanc manger à l'estragon & sorbet huile d'olive", price: "Inclus" },
-                    { name: "Gelée de thé jasmin, crème chocolat blanc & mangue", price: "Inclus" }
+                    { name: "Saint-Jacques de Dieppe & légumes de saison", price_cents: 0 },
+                    { name: "Asperges blanches, oseille & amandes fraîches", price_cents: 0 },
+                    { name: "Maigre de ligne, courgettes & couteaux de plongée", price_cents: 0 },
+                    { name: "Jardinière de légumes, émulsion barigoule", price_cents: 0 },
+                    { name: "Tartelette de foie gras au pain d'épice & muscat", price_cents: 0 },
+                    { name: "Ris de veau croustillant & champignons pied bleu", price_cents: 0 },
+                    { name: "Selle de chevreuil rôtie (en saison de chasse)", price_cents: 0 },
+                    { name: "Blanc manger à l'estragon & sorbet huile d'olive", price_cents: 0 },
+                    { name: "Gelée de thé jasmin, crème chocolat blanc & mangue", price_cents: 0 }
                 ]
             },
             {
-                category: "Boissons & Extras",
+                category_type: "drink",
+                display_label: "Boissons & Extras",
                 items: [
-                    { name: "Eau minérale (75cl)", price: "6.00€" },
-                    { name: "Café de spécialité", price: "5.00€" },
-                    { name: "Mignardises de fin de repas", price: "Inclus" }
+                    { name: "Eau minérale (75cl)", price_cents: 600 },
+                    { name: "Café de spécialité", price_cents: 500 },
+                    { name: "Mignardises de fin de repas", price_cents: 0 }
                 ]
             }
         ]

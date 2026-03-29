@@ -49,59 +49,65 @@ export const le_grand_breguet: SurgicalPlace = {
         "smart_tip": "Formule déjeuner 100% bio imbattable dès 10€. Coworking gratuit l'après-midi. Ambiance cantine bio le midi et bar à tapas le soir.",
         "menu_items": [
             {
-                "category": "Formules Midi (100% Bio)",
+                "category_type": "tasting_menu",
+                "display_label": "Formules Midi (100% Bio)",
                 // SOURCE: qqf.fr + parisbouge.com + Uber Eats 2025
                 "items": [
-                    { "name": "Entrée + Plat bio", "price": "10€" },
-                    { "name": "Plat + Dessert bio", "price": "10€" },
-                    { "name": "Formule complète bio (entrée+plat+dessert)", "price": "17€" }
+                    { "name": "Entrée + Plat bio", "price_cents": 1000 },
+                    { "name": "Plat + Dessert bio", "price_cents": 1000 },
+                    { "name": "Formule complète bio (entrée+plat+dessert)", "price_cents": 1700 }
                 ]
             },
             {
-                "category": "Plats à la carte (Cantine)",
+                "category_type": "main",
+                "display_label": "Plats à la carte (Cantine)",
                 // SOURCE: Uber Eats 2025 + mapstr signatures
                 "items": [
-                    { "name": "Bol 1 bio végé du jour", "price": "10€" },
-                    { "name": "Bol protéiné bio", "price": "11€" },
-                    { "name": "Duo de crudités bio", "price": "3€" },
-                    { "name": "Plat chaud bio signature", "price": "10€" }
+                    { "name": "Bol 1 bio végé du jour", "price_cents": 1000 },
+                    { "name": "Bol protéiné bio", "price_cents": 1100 },
+                    { "name": "Duo de crudités bio", "price_cents": 300 },
+                    { "name": "Plat chaud bio signature", "price_cents": 1000 }
                 ]
             },
             {
-                "category": "Boissons Sans Alcool (Bio)",
+                "category_type": "drink",
+                "display_label": "Boissons Sans Alcool (Bio)",
                 // SOURCE: legrandbreguet.com + Uber Eats 2025
                 "items": [
-                    { "name": "Citronnade maison bio", "price": "4€" },
-                    { "name": "Jus Pomme-Carotte bio", "price": "4€" },
-                    { "name": "ChariTea Mate", "price": "4,50€" },
-                    { "name": "ChariTea Black", "price": "4,50€" },
-                    { "name": "Café artisanal bio", "price": "2,50€" }
+                    { "name": "Citronnade maison bio", "price_cents": 400 },
+                    { "name": "Jus Pomme-Carotte bio", "price_cents": 400 },
+                    { "name": "ChariTea Mate", "price_cents": 450 },
+                    { "name": "ChariTea Black", "price_cents": 450 },
+                    { "name": "Café artisanal bio", "price_cents": 250 }
                 ]
             },
             {
-                "category": "Alcools & Cocktails (Bio)",
+                "category_type": "drink",
+                "display_label": "Alcools & Cocktails (Bio)",
                 // SOURCE: SchloukMap + site officiel "Carte des Boissons"
                 "items": [
-                    { "name": "Pinte de bière bio (pression)", "price": "7€" },
-                    { "name": "Breguet Mule (Vodka/Ginger Beer)", "price": "10€" },
-                    { "name": "Vodka infusée au basilic", "price": "9€" },
-                    { "name": "Verre de vin nature bio", "price": "6€" },
-                    { "name": "Bière bio bouteille", "price": "6€" }
+                    { "name": "Pinte de bière bio (pression)", "price_cents": 700 },
+                    { "name": "Breguet Mule (Vodka/Ginger Beer)", "price_cents": 1000 },
+                    { "name": "Vodka infusée au basilic", "price_cents": 900 },
+                    { "name": "Verre de vin nature bio", "price_cents": 600 },
+                    { "name": "Bière bio bouteille", "price_cents": 600 }
                 ]
             },
             {
-                "category": "Desserts",
+                "category_type": "dessert",
+                "display_label": "Desserts",
                 // SOURCE: Uber Eats + Timeout
                 "items": [
-                    { "name": "Succulent au chocolat", "price": "3€" },
-                    { "name": "Gâteau végan bio", "price": "4€" }
+                    { "name": "Succulent au chocolat", "price_cents": 300 },
+                    { "name": "Gâteau végan bio", "price_cents": 400 }
                 ]
             },
             {
-                "category": "Brunch (Samedi)",
+                "category_type": "other",
+                "display_label": "Brunch (Samedi)",
                 // SOURCE: Maison Bréguet / Canteen verified brunch info
                 "items": [
-                    { "name": "Formule Bréguet Brunch (Buffet + Œufs)", "price": "32€" }
+                    { "name": "Formule Bréguet Brunch (Buffet + Œufs)", "price_cents": 3200 }
                 ]
             }
         ],

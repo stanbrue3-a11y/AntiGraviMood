@@ -49,32 +49,35 @@ export const maison_de_l_aubrac: SurgicalPlace = {
         "smart_tip": "Le service ultra-tardif (jusqu'à 7h du matin en fin de semaine) en fait le refuge ultime pour une viande d'exception après minuit.",
         "menu_items": [
             {
-                "category": "Entrées",
+                "category_type": "starter",
+                "display_label": "Entrées",
                 "items": [
-                    { "name": "Œufs mimosa bio", "price": "9,00€" },
-                    { "name": "Soupe à l'oignon gratinée", "price": "14,00€" },
-                    { "name": "Os à moelle au sel de Guérande", "price": "16,00€" },
-                    { "name": "Croquettes d'Aligot à la truffe", "price": "12,00€" },
-                    { "name": "Foie gras de canard maison", "price": "26,00€" }
+                    { "name": "Œufs mimosa bio", "price_cents": 900 },
+                    { "name": "Soupe à l'oignon gratinée", "price_cents": 1400 },
+                    { "name": "Os à moelle au sel de Guérande", "price_cents": 1600 },
+                    { "name": "Croquettes d'Aligot à la truffe", "price_cents": 1200 },
+                    { "name": "Foie gras de canard maison", "price_cents": 2600 }
                 ]
             },
             {
-                "category": "Viandes d'Aubrac",
+                "category_type": "main",
+                "display_label": "Viandes d'Aubrac",
                 "items": [
-                    { "name": "Steak au poivre (200g)", "price": "29,00€" },
-                    { "name": "Faux-filet de l'Aubrac (300g)", "price": "34,00€" },
-                    { "name": "Cheeseburger de l'Aubrac", "price": "24,00€" },
-                    { "name": "Lasagne de bœuf d'Aubrac", "price": "26,00€" },
-                    { "name": "Côte de bœuf (1kg, pour 2)", "price": "110,00€" }
+                    { "name": "Steak au poivre (200g)", "price_cents": 2900 },
+                    { "name": "Faux-filet de l'Aubrac (300g)", "price_cents": 3400 },
+                    { "name": "Cheeseburger de l'Aubrac", "price_cents": 2400 },
+                    { "name": "Lasagne de bœuf d'Aubrac", "price_cents": 2600 },
+                    { "name": "Côte de bœuf (1kg, pour 2)", "price_cents": 11000 }
                 ]
             },
             {
-                "category": "Côté Cave & Dessert",
+                "category_type": "dessert",
+                "display_label": "Côté Cave & Dessert",
                 "items": [
-                    { "name": "Verre de vin (Sélection)", "price": "9,00€" },
+                    { "name": "Verre de vin (Sélection)", "price_cents": 900 },
                     { "name": "Aligot Maison", "price": "Accompagnement" },
-                    { "name": "Fondant au chocolat cœur coulant", "price": "14,00€" },
-                    { "name": "Brioche façon pain perdu", "price": "12,00€" }
+                    { "name": "Fondant au chocolat cœur coulant", "price_cents": 1400 },
+                    { "name": "Brioche façon pain perdu", "price_cents": 1200 }
                 ]
             }
         ],

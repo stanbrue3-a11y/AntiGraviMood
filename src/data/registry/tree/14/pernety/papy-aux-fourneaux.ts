@@ -40,36 +40,39 @@ export const papy_aux_fourneaux: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Cocottes à Partager",
+                category_type: "sharing",
+                display_label: "Cocottes à Partager",
                 items: [
-                    { name: "Sauté de Veau à la Corse, Olives & Ail", price: "21.90€", description: "Servi en cocotte de fonte au centre de la table." },
-                    { name: "Paleron de 15h, Charolais du Bourbonnais", price: "26.00€" },
-                    { name: "Poisson du jour, Bisque de Crabe & Pastis", price: "20.90€" },
-                    { name: "Croustillants de Pont L'Evêque AOP & Miel", price: "10.00€" },
-                    { name: "Volaille de Vendée aux Pleurotes", price: "19.50€" },
-                    { name: "Potée de Jarret de Cochon Bio aux Lentilles", price: "21.00€" },
-                    { name: "Tartiflette de Légumes au Reblochon Fermier", price: "19.50€" }
+                    { name: "Sauté de Veau à la Corse, Olives & Ail", price_cents: 2190, description: "Servi en cocotte de fonte au centre de la table." },
+                    { name: "Paleron de 15h, Charolais du Bourbonnais", price_cents: 2600 },
+                    { name: "Poisson du jour, Bisque de Crabe & Pastis", price_cents: 2090 },
+                    { name: "Croustillants de Pont L'Evêque AOP & Miel", price_cents: 1000 },
+                    { name: "Volaille de Vendée aux Pleurotes", price_cents: 1950 },
+                    { name: "Potée de Jarret de Cochon Bio aux Lentilles", price_cents: 2100 },
+                    { name: "Tartiflette de Légumes au Reblochon Fermier", price_cents: 1950 }
                 ]
             },
             {
-                category: "Entrées de Papy",
+                category_type: "starter",
+                display_label: "Entrées de Papy",
                 items: [
-                    { name: "Oeufs Bio 'Jolie Cocotte' au Comté", price: "6.50€" },
-                    { name: "Velouté de Carottes au Cumin & Raclette", price: "10.00€" },
-                    { name: "Assiette de Couteaux en Persillade", price: "8.50€" },
-                    { name: "Velouté de Potimarron & Chips de Lard", price: "7.50€" },
-                    { name: "Tranché de Galabar & Pomme Rôtie", price: "7.00€" },
-                    { name: "Assiette de Fromages AOP (Comté 18 mois)", price: "8.00€" }
+                    { name: "Oeufs Bio 'Jolie Cocotte' au Comté", price_cents: 650 },
+                    { name: "Velouté de Carottes au Cumin & Raclette", price_cents: 1000 },
+                    { name: "Assiette de Couteaux en Persillade", price_cents: 850 },
+                    { name: "Velouté de Potimarron & Chips de Lard", price_cents: 750 },
+                    { name: "Tranché de Galabar & Pomme Rôtie", price_cents: 700 },
+                    { name: "Assiette de Fromages AOP (Comté 18 mois)", price_cents: 800 }
                 ]
             },
             {
-                category: "Douceurs de Famille",
+                category_type: "dessert",
+                display_label: "Douceurs de Famille",
                 items: [
-                    { name: "Brioche Perdue au Caramel Beurre Salé", price: "9.50€" },
-                    { name: "Tarte Bourdaloue à la Pistache", price: "9.90€" },
-                    { name: "Crème Brûlée à la Fève de Tonka", price: "8.00€" },
-                    { name: "Flan Pâtissier à la Vanille de Madagascar", price: "9.90€" },
-                    { name: "Poires Pochées au Vin Rouge & Amandes", price: "7.00€" }
+                    { name: "Brioche Perdue au Caramel Beurre Salé", price_cents: 950 },
+                    { name: "Tarte Bourdaloue à la Pistache", price_cents: 990 },
+                    { name: "Crème Brûlée à la Fève de Tonka", price_cents: 800 },
+                    { name: "Flan Pâtissier à la Vanille de Madagascar", price_cents: 990 },
+                    { name: "Poires Pochées au Vin Rouge & Amandes", price_cents: 700 }
                 ]
             }
         ]

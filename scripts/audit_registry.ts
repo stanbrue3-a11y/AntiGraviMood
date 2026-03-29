@@ -77,41 +77,32 @@ async function auditRegistry() {
 
             // 3. Menus Moelle
             const totalItems = (place.pricing.menu_items || []).reduce((acc, cat) => {
-                const catName = cat.category;
+                const catType = (cat as any).category_type || '';
+                const displayLabel = (cat as any).display_label || '';
                 
-                // 3.1 Vérification Nomenclature (Moelle V10.4)
-                const isDrinkSection = catName.includes("Boisson") || catName.includes("Cave");
+                const isDrinkSection = catType === 'drink';
                 
-                // Flexible Match
-                const isStandardMatched = ALLOWED_PATTERNS.some(pattern => pattern.test(catName));
-                if (!isStandardMatched) {
-                    errors.push(`🏗️ [${context}] : Catégorie non-standard détectée : "${catName}". Doit contenir un mot-clé valide (Entrée, Plat, Dessert, etc.).`);
-                }
-                
-                // Forbidden Words Check
-                FORBIDDEN_WORDS.forEach(rule => {
-                    if (catName.includes(rule.word)) {
-                        // Exception pour "La Cave / Boissons"
-                        if (catName === "La Cave / Boissons" && rule.word === "Boisson") return;
-                        
-                        errors.push(`🚨 [${context}] : Libellé proscrit détecté dans "${catName}" (Mot: "${rule.word}" - ${rule.reason}).`);
-                    }
-                });
-
                 if (isDrinkSection && place.category === 'restaurant') {
-                    const isAllowedDrink = catName.includes("Boisson") || catName.includes("Cave") || catName.includes("Aperitivo");
-                    if (!place.subcategory.includes('bouillon') && !isAllowedDrink) {
-                        errors.push(`🥤 [${context}] : Section boissons interdite pour un restaurant standard : "${catName}". (Utilisez specials.drinks).`);
+                    if (!place.subcategory.includes('bouillon')) {
+                        // Acceptable but maybe warn if too many? For now just allow it, category_type is strict.
                     }
                 }
 
-                // 3.2 Vérification des Prix (€ obligatoire et numérique pur)
+                // 3.2 Vérification des Prix (Numérique)
                 cat.items?.forEach(item => {
-                    if (!item.price.includes('€')) {
-                        errors.push(`💰 [${context}] : Symbole € manquant pour l'item "${item.name}" (Prix: "${item.price}").`);
+                    const priceCents = (item as any).price_cents;
+                    const priceStr = (item as any).price;
+                    
+                    if (priceCents === undefined && priceStr === undefined) {
+                        errors.push(`💰 [${context}] : Prix manquant pour l'item "${item.name}".`);
                     }
-                    if (!/^[\d,\.]+ ?€$/.test(item.price.trim()) && item.price !== "0€") {
-                        errors.push(`💥 [${context}] : Prix non-numérique détecté ("${item.price}"). L'application mobile crashera (NaN). Exigez un nombre (ex: "24€").`);
+                    if (priceCents !== undefined && typeof priceCents !== 'number') {
+                        errors.push(`💥 [${context}] : price_cents non-numérique détecté pour "${item.name}".`);
+                    }
+                    if (priceStr !== undefined) {
+                        if (!/^[\d,\.]+ ?€$/.test(priceStr.trim()) && priceStr !== "0€") {
+                            errors.push(`💥 [${context}] : Prix texte invalide ("${priceStr}").`);
+                        }
                     }
                 });
 

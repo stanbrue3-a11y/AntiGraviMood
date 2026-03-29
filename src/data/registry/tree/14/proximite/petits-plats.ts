@@ -40,35 +40,38 @@ export const petitsPlats: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de Saison",
+                category_type: "main",
+                display_label: "Les Plats de Saison",
                 items: [
-                    { name: "Cuisse de Canard Confite, Pommes Sautées", price: "21.00€" },
-                    { name: "Saucisse de Morteau et ses Lentilles", price: "18.50€" },
-                    { name: "Filet de Bar à la Plancha, Purée Maison", price: "23.00€" },
-                    { name: "Bavette d'Aloyau, Sauce Poivre", price: "22.50€" },
-                    { name: "Risotto Crémeux aux Champignons", price: "19.00€" },
-                    { name: "Parmentier de Canard Confit", price: "20.50€" },
-                    { name: "Plat du Jour (à l'ardoise)", price: "17.00€" }
+                    { name: "Cuisse de Canard Confite, Pommes Sautées", price_cents: 2100 },
+                    { name: "Saucisse de Morteau et ses Lentilles", price_cents: 1850 },
+                    { name: "Filet de Bar à la Plancha, Purée Maison", price_cents: 2300 },
+                    { name: "Bavette d'Aloyau, Sauce Poivre", price_cents: 2250 },
+                    { name: "Risotto Crémeux aux Champignons", price_cents: 1900 },
+                    { name: "Parmentier de Canard Confit", price_cents: 2050 },
+                    { name: "Plat du Jour (à l'ardoise)", price_cents: 1700 }
                 ]
             },
             {
-                category: "Entrées du Terroir",
+                category_type: "starter",
+                display_label: "Entrées du Terroir",
                 items: [
-                    { name: "Terrine de Campagne Maison", price: "9.50€" },
-                    { name: "Oeuf Cocotte au Foie Gras", price: "12.00€" },
-                    { name: "Velouté de Potiron et Éclats de Noisettes", price: "8.50€" },
-                    { name: "Salade de Lentilles et Gésiers Confits", price: "11.00€" },
-                    { name: "Poireaux Vinaigrette Tradition", price: "8.00€" }
+                    { name: "Terrine de Campagne Maison", price_cents: 950 },
+                    { name: "Oeuf Cocotte au Foie Gras", price_cents: 1200 },
+                    { name: "Velouté de Potiron et Éclats de Noisettes", price_cents: 850 },
+                    { name: "Salade de Lentilles et Gésiers Confits", price_cents: 1100 },
+                    { name: "Poireaux Vinaigrette Tradition", price_cents: 800 }
                 ]
             },
             {
-                category: "Desserts Gourmands",
+                category_type: "dessert",
+                display_label: "Desserts Gourmands",
                 items: [
-                    { name: "Mousse au Chocolat à discrétion", price: "8.50€" },
-                    { name: "Crème Brûlée à la Vanille de Bourbon", price: "9.00€" },
-                    { name: "Tatin Maison et sa Boule de Glace", price: "10.00€" },
-                    { name: "Ile Flottante sur Crème Anglaise", price: "7.50€" },
-                    { name: "Sélection de Fromages Affinés", price: "11.00€" }
+                    { name: "Mousse au Chocolat à discrétion", price_cents: 850 },
+                    { name: "Crème Brûlée à la Vanille de Bourbon", price_cents: 900 },
+                    { name: "Tatin Maison et sa Boule de Glace", price_cents: 1000 },
+                    { name: "Ile Flottante sur Crème Anglaise", price_cents: 750 },
+                    { name: "Sélection de Fromages Affinés", price_cents: 1100 }
                 ]
             }
         ]

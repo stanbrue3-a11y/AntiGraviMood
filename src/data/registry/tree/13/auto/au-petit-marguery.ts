@@ -42,59 +42,64 @@ export const au_petit_marguery: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Menus & Formules : Plats Gastronomiques",
+        category_type: "main",
+        display_label: "Les Menus & Formules : Plats Gastronomiques",
         items: [
-          { name: "Menu Petit Marguery (E+P+D)", price: "29.00€", highlight: true },
-          { name: "Menu Bonne Conscience (E+P ou P+D)", price: "23.00€" },
-          { name: "iMenu Tout Inclus (Vin, Eau, Café)", price: "49.00€", highlight: true },
-          { name: "Menu Enfant (P+D+Boisson)", price: "17.00€" }
+          { name: "Menu Petit Marguery (E+P+D)", price_cents: 2900, is_highlight: true },
+          { name: "Menu Bonne Conscience (E+P ou P+D)", price_cents: 2300 },
+          { name: "iMenu Tout Inclus (Vin, Eau, Café)", price_cents: 4900, is_highlight: true },
+          { name: "Menu Enfant (P+D+Boisson)", price_cents: 1700 }
         ]
       },
       {
-        category: "Entrées : Traditions & Saisons",
+        category_type: "starter",
+        display_label: "Entrées : Traditions & Saisons",
         items: [
-          { name: "Œuf mimosa à la Parisienne", price: "9.00€" },
-          { name: "Velouté de champignons de saison", price: "9.00€" },
-          { name: "Tartare de betterave & Stracciatella", price: "9.00€" },
-          { name: "Terrine de campagne maison 'Marguery'", price: "10.00€", highlight: true },
-          { name: "Foie Gras de Canard Mi-cuit", price: "16.00€" },
-          { name: "Mille-feuille d'aubergines & Ricotta", price: "9.00€" },
-          { name: "Croustillant de Pied de Porc", price: "12.00€" }
+          { name: "Œuf mimosa à la Parisienne", price_cents: 900 },
+          { name: "Velouté de champignons de saison", price_cents: 900 },
+          { name: "Tartare de betterave & Stracciatella", price_cents: 900 },
+          { name: "Terrine de campagne maison 'Marguery'", price_cents: 1000, is_highlight: true },
+          { name: "Foie Gras de Canard Mi-cuit", price_cents: 1600 },
+          { name: "Mille-feuille d'aubergines & Ricotta", price_cents: 900 },
+          { name: "Croustillant de Pied de Porc", price_cents: 1200 }
         ]
       },
       {
-        category: "Plats : Haute Tradition Bourgeoise",
+        category_type: "main",
+        display_label: "Plats : Haute Tradition Bourgeoise",
         items: [
-          { name: "Lièvre à la Royale (Recette Sénateur Couteaux)", price: "38.00€", highlight: true },
-          { name: "Bas Carré de Veau de l'Aveyron", price: "19.00€" },
-          { name: "Filet de Bar rôti, caviar d'aubergine", price: "19.00€" },
-          { name: "Ris de Veau Français dorés au sautoir", price: "36.00€", highlight: true },
-          { name: "Secreto de Porc Ibérique grillé", price: "19.00€" },
-          { name: "Tartare de Bœuf du Limousin au couteau", price: "23.00€" },
-          { name: "Coquillettes gourmandes (Jambon, Truffe)", price: "18.00€" },
-          { name: "Brandade de Morue à la Nîmoise", price: "19.50€" }
+          { name: "Lièvre à la Royale (Recette Sénateur Couteaux)", price_cents: 3800, is_highlight: true },
+          { name: "Bas Carré de Veau de l'Aveyron", price_cents: 1900 },
+          { name: "Filet de Bar rôti, caviar d'aubergine", price_cents: 1900 },
+          { name: "Ris de Veau Français dorés au sautoir", price_cents: 3600, is_highlight: true },
+          { name: "Secreto de Porc Ibérique grillé", price_cents: 1900 },
+          { name: "Tartare de Bœuf du Limousin au couteau", price_cents: 2300 },
+          { name: "Coquillettes gourmandes (Jambon, Truffe)", price_cents: 1800 },
+          { name: "Brandade de Morue à la Nîmoise", price_cents: 1950 }
         ]
       },
       {
-        category: "Desserts : Les Incontournables",
+        category_type: "dessert",
+        display_label: "Desserts : Les Incontournables",
         items: [
-          { name: "Soufflé au Grand-Marnier (Spécialité)", price: "12.00€", highlight: true },
-          { name: "Baba au Rhum & Chantilly maison", price: "10.00€" },
-          { name: "Crème Brûlée à la vanille bourbon", price: "9.00€" },
-          { name: "Pavlova aux fruits de saison", price: "12.00€" },
-          { name: "Profiteroles au chocolat chaud", price: "11.00€" },
-          { name: "Assiette de Fromages affinés", price: "12.00€" }
+          { name: "Soufflé au Grand-Marnier (Spécialité)", price_cents: 1200, is_highlight: true },
+          { name: "Baba au Rhum & Chantilly maison", price_cents: 1000 },
+          { name: "Crème Brûlée à la vanille bourbon", price_cents: 900 },
+          { name: "Pavlova aux fruits de saison", price_cents: 1200 },
+          { name: "Profiteroles au chocolat chaud", price_cents: 1100 },
+          { name: "Assiette de Fromages affinés", price_cents: 1200 }
         ]
       },
       {
-        category: "Vins & Boissons",
+        category_type: "drink",
+        display_label: "Vins & Boissons",
         items: [
-          { name: "Verre de Bordeaux (Sélection)", price: "8.50€" },
-          { name: "Verre de Chardonnay", price: "7.50€" },
-          { name: "Bouteille de vin (À partir de)", price: "24.00€" },
-          { name: "Coupe de Champagne", price: "14.00€" },
-          { name: "Eau Minérale Evian/Badoit (1L)", price: "7.00€" },
-          { name: "Café & Mignardises", price: "5.50€" }
+          { name: "Verre de Bordeaux (Sélection)", price_cents: 850 },
+          { name: "Verre de Chardonnay", price_cents: 750 },
+          { name: "Bouteille de vin (À partir de)", price_cents: 2400 },
+          { name: "Coupe de Champagne", price_cents: 1400 },
+          { name: "Eau Minérale Evian/Badoit (1L)", price_cents: 700 },
+          { name: "Café & Mignardises", price_cents: 550 }
         ]
       }
     ]

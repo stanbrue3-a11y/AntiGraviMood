@@ -40,44 +40,48 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Formules & Menus",
+        category_type: "tasting_menu",
+        display_label: "Les Formules & Menus",
         items: [
-          { name: "Menu Déjeuner (2 plats)", price: "65€" },
-          { name: "Menu Déjeuner (3 plats)", price: "85€" },
-          { name: "Menu Signature (4 séquences)", price: "135€" },
-          { name: "Menu Tentation (5 séquences)", price: "175€" },
-          { name: "Menu Dégustation (8 séquences)", price: "200€" },
-          { name: "Accord Vins (Menu Signature)", price: "50€" },
-          { name: "Accord Vins (Menu Dégustation)", price: "80€" }
+          { name: "Menu Déjeuner (2 plats)", price_cents: 6500 },
+          { name: "Menu Déjeuner (3 plats)", price_cents: 8500 },
+          { name: "Menu Signature (4 séquences)", price_cents: 13500 },
+          { name: "Menu Tentation (5 séquences)", price_cents: 17500 },
+          { name: "Menu Dégustation (8 séquences)", price_cents: 20000 },
+          { name: "Accord Vins (Menu Signature)", price_cents: 5000 },
+          { name: "Accord Vins (Menu Dégustation)", price_cents: 8000 }
         ]
       },
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Raviole en imprimé d'herbes, jus de feuille d'épineux", price: "38€" },
-          { name: "Crème de cresson de fontaine, œuf de poule bio", price: "32€" },
-          { name: "Carpaccio de Saint-Jacques au citron de Menton", price: "36€" },
-          { name: "Asperges Blanches, sauce mousseline légère", price: "34€" }
+          { name: "Raviole en imprimé d'herbes, jus de feuille d'épineux", price_cents: 3800 },
+          { name: "Crème de cresson de fontaine, œuf de poule bio", price_cents: 3200 },
+          { name: "Carpaccio de Saint-Jacques au citron de Menton", price_cents: 3600 },
+          { name: "Asperges Blanches, sauce mousseline légère", price_cents: 3400 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Saint-Pierre piqué de citron confit, beurre d'algue acidulé", price: "62€" },
-          { name: "Homard des Côtes Européennes, conchiglioni glacé", price: "72€" },
-          { name: "Langoustines en bouillon d'artichaut barigoule", price: "59€" },
-          { name: "Bar de ligne rôti, asperges vertes du Pertuis", price: "58€" },
-          { name: "Pigeonneau de Monsieur Miéral à la lavande", price: "54€" },
-          { name: "Ris de Veau doré au sautoir, pommes rattes", price: "68€" }
+          { name: "Saint-Pierre piqué de citron confit, beurre d'algue acidulé", price_cents: 6200 },
+          { name: "Homard des Côtes Européennes, conchiglioni glacé", price_cents: 7200 },
+          { name: "Langoustines en bouillon d'artichaut barigoule", price_cents: 5900 },
+          { name: "Bar de ligne rôti, asperges vertes du Pertuis", price_cents: 5800 },
+          { name: "Pigeonneau de Monsieur Miéral à la lavande", price_cents: 5400 },
+          { name: "Ris de Veau doré au sautoir, pommes rattes", price_cents: 6800 }
         ]
       },
       {
-        category: "Les Desserts",
+        category_type: "dessert",
+        display_label: "Les Desserts",
         items: [
-          { name: "Choco-Mint : moelleux Manjari mi-cuisson", price: "24€" },
-          { name: "Fraises des Bois, crème madame vanille de Tahiti", price: "24€" },
-          { name: "Sablé Breton et sorbet fraise Gariguette", price: "22€" },
-          { name: "Soufflé au Grand Marnier, glace vanille", price: "20€" }
+          { name: "Choco-Mint : moelleux Manjari mi-cuisson", price_cents: 2400 },
+          { name: "Fraises des Bois, crème madame vanille de Tahiti", price_cents: 2400 },
+          { name: "Sablé Breton et sorbet fraise Gariguette", price_cents: 2200 },
+          { name: "Soufflé au Grand Marnier, glace vanille", price_cents: 2000 }
         ]
       }
     ]

@@ -40,36 +40,39 @@ export const le_verre_siffleur: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Bistronomie au Siffleur",
+                category_type: "other",
+                display_label: "Bistronomie au Siffleur",
                 items: [
-                    { name: "Suprême de Volaille Fermière Rôtie, Jus Corsé", price: "18.50€" },
-                    { name: "Pièce du Boucher Grillée, Frites Fraîches", price: "21.00€" },
-                    { name: "Burger Siffleur (Poulet Pané & Sauce Maison)", price: "17.50€" },
-                    { name: "Tartare de Boeuf d'Alésia", price: "17.00€" },
-                    { name: "Filet de Daurade Royale, Trio de Légumes", price: "20.00€" },
-                    { name: "Risotto Crémeux au Safran & Parmesan", price: "18.00€" },
-                    { name: "Linguine à la Tomate Cerise & Roquette", price: "16.50€" },
-                    { name: "Panné de Veau à la Milanaise", price: "19.50€" }
+                    { name: "Suprême de Volaille Fermière Rôtie, Jus Corsé", price_cents: 1850 },
+                    { name: "Pièce du Boucher Grillée, Frites Fraîches", price_cents: 2100 },
+                    { name: "Burger Siffleur (Poulet Pané & Sauce Maison)", price_cents: 1750 },
+                    { name: "Tartare de Boeuf d'Alésia", price_cents: 1700 },
+                    { name: "Filet de Daurade Royale, Trio de Légumes", price_cents: 2000 },
+                    { name: "Risotto Crémeux au Safran & Parmesan", price_cents: 1800 },
+                    { name: "Linguine à la Tomate Cerise & Roquette", price_cents: 1650 },
+                    { name: "Panné de Veau à la Milanaise", price_cents: 1950 }
                 ]
             },
             {
-                category: "Entrées du Moment",
+                category_type: "starter",
+                display_label: "Entrées du Moment",
                 items: [
-                    { name: "Tatin de Boudin Noir aux Pommes", price: "8.50€" },
-                    { name: "Poêlée de Calamars Sauce Piperade", price: "8.00€" },
-                    { name: "Tartare d'Avocat & Crevettes Marine", price: "9.00€" },
-                    { name: "Terrine de Campagne du Boucher", price: "8.00€" },
-                    { name: "L'Oeuf Mayonnaise aux Herbes", price: "7.00€" }
+                    { name: "Tatin de Boudin Noir aux Pommes", price_cents: 850 },
+                    { name: "Poêlée de Calamars Sauce Piperade", price_cents: 800 },
+                    { name: "Tartare d'Avocat & Crevettes Marine", price_cents: 900 },
+                    { name: "Terrine de Campagne du Boucher", price_cents: 800 },
+                    { name: "L'Oeuf Mayonnaise aux Herbes", price_cents: 700 }
                 ]
             },
             {
-                category: "Desserts Maison",
+                category_type: "dessert",
+                display_label: "Desserts Maison",
                 items: [
-                    { name: "Clafoutis aux Fruits Rouges, Sorbet", price: "8.50€" },
-                    { name: "Riz au Lait au Caramel Beurre Salé", price: "8.00€" },
-                    { name: "Crème Brûlée à la Vanille", price: "9.00€" },
-                    { name: "Mousse au Chocolat Noire Intense", price: "8.00€" },
-                    { name: "Café Gourmand (3 douceurs)", price: "9.00€" }
+                    { name: "Clafoutis aux Fruits Rouges, Sorbet", price_cents: 850 },
+                    { name: "Riz au Lait au Caramel Beurre Salé", price_cents: 800 },
+                    { name: "Crème Brûlée à la Vanille", price_cents: 900 },
+                    { name: "Mousse au Chocolat Noire Intense", price_cents: 800 },
+                    { name: "Café Gourmand (3 douceurs)", price_cents: 900 }
                 ]
             }
         ]

@@ -49,75 +49,82 @@ export const la_rughetta: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Antipasti",
+                category_type: "other",
+                display_label: "Antipasti",
                 items: [
-                    { name: "Insalata Tricolore", price: "4.00€" },
-                    { name: "Tomates Mozzarella di Bufala", price: "7.00€" },
-                    { name: "Antipasti Rughetta (Légumes marinés)", price: "8.00€" },
-                    { name: "Carpaccio Rughetta", price: "8.00€" },
-                    { name: "Parma Mozzarella", price: "8.00€" },
-                    { name: "Assortiment de fromages italiens", price: "9.00€" },
-                    { name: "Assortiment de charcuteries", price: "10.00€" }
+                    { name: "Insalata Tricolore", price_cents: 400 },
+                    { name: "Tomates Mozzarella di Bufala", price_cents: 700 },
+                    { name: "Antipasti Rughetta (Légumes marinés)", price_cents: 800 },
+                    { name: "Carpaccio Rughetta", price_cents: 800 },
+                    { name: "Parma Mozzarella", price_cents: 800 },
+                    { name: "Assortiment de fromages italiens", price_cents: 900 },
+                    { name: "Assortiment de charcuteries", price_cents: 1000 }
                 ]
             },
             {
-                category: "Pâtes Fraîches",
+                category_type: "other",
+                display_label: "Pâtes Fraîches",
                 items: [
-                    { name: "Spaghetti Bolognese", price: "13.00€" },
-                    { name: "Tagliatelle Carbonara", price: "14.00€" },
-                    { name: "Lasagne al forno", price: "14.00€" },
-                    { name: "Tagliatelle ai funghi", price: "14.00€" },
-                    { name: "Penne al Arrabiata", price: "14.00€" },
-                    { name: "Tagliolini Rughetta", price: "15.00€" },
-                    { name: "Gnocchi al pesto", price: "15.00€" },
-                    { name: "Penne Siciliana", price: "16.00€" },
-                    { name: "Raviolone crema e basilico", price: "16.00€" }
+                    { name: "Spaghetti Bolognese", price_cents: 1300 },
+                    { name: "Tagliatelle Carbonara", price_cents: 1400 },
+                    { name: "Lasagne al forno", price_cents: 1400 },
+                    { name: "Tagliatelle ai funghi", price_cents: 1400 },
+                    { name: "Penne al Arrabiata", price_cents: 1400 },
+                    { name: "Tagliolini Rughetta", price_cents: 1500 },
+                    { name: "Gnocchi al pesto", price_cents: 1500 },
+                    { name: "Penne Siciliana", price_cents: 1600 },
+                    { name: "Raviolone crema e basilico", price_cents: 1600 }
                 ]
             },
             {
-                category: "Pizzas",
+                category_type: "main",
+                display_label: "Pizzas",
                 items: [
-                    { name: "Margherita", price: "11.00€" },
-                    { name: "Napoletana", price: "13.50€" },
-                    { name: "Diavola", price: "14.50€" },
-                    { name: "4 Fromages (Quattro formaggi)", price: "15.00€" }
+                    { name: "Margherita", price_cents: 1100 },
+                    { name: "Napoletana", price_cents: 1350 },
+                    { name: "Diavola", price_cents: 1450 },
+                    { name: "4 Fromages (Quattro formaggi)", price_cents: 1500 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Mousse au chocolat maison", price: "7.00€" },
-                    { name: "Panna Cotta (coulis fraise ou caramel)", price: "8.00€" },
-                    { name: "Pizza au Nutella (pour 2)", price: "9.50€" },
-                    { name: "Tiramisu maison", price: "9.50€" }
+                    { name: "Mousse au chocolat maison", price_cents: 700 },
+                    { name: "Panna Cotta (coulis fraise ou caramel)", price_cents: 800 },
+                    { name: "Pizza au Nutella (pour 2)", price_cents: 950 },
+                    { name: "Tiramisu maison", price_cents: 950 }
                 ]
             },
             {
-                category: "Glaces & Coupes",
+                category_type: "other",
+                display_label: "Glaces & Coupes",
                 items: [
-                    { name: "Gelato (3 boules, parfums au choix)", price: "7.00€" },
-                    { name: "Sorbet (3 boules, parfums au choix)", price: "7.00€" },
-                    { name: "Coupe Amarena", price: "8.00€" },
-                    { name: "Coupe Biancaneve", price: "8.00€" },
-                    { name: "Affogato al caffè", price: "8.00€" }
+                    { name: "Gelato (3 boules, parfums au choix)", price_cents: 700 },
+                    { name: "Sorbet (3 boules, parfums au choix)", price_cents: 700 },
+                    { name: "Coupe Amarena", price_cents: 800 },
+                    { name: "Coupe Biancaneve", price_cents: 800 },
+                    { name: "Affogato al caffè", price_cents: 800 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Café Espresso", price: "2.50€" },
-                    { name: "Bouteille d'eau (1/2L)", price: "3.50€" },
-                    { name: "Bouteille d'eau (1L)", price: "5.00€" }
+                    { name: "Café Espresso", price_cents: 250 },
+                    { name: "Bouteille d'eau (1/2L)", price_cents: 350 },
+                    { name: "Bouteille d'eau (1L)", price_cents: 500 }
                 ]
             },
             {
-                category: "Vins & Bulles",
+                category_type: "drink",
+                display_label: "Vins & Bulles",
                 items: [
-                    { name: "Prosecco (Flûte)", price: "7.00€" },
-                    { name: "Champagne Gauthier (Coupe)", price: "10.00€" },
-                    { name: "Prosecco (Bouteille)", price: "39.00€" },
-                    { name: "Champagne Gauthier (Bouteille)", price: "65.00€" },
-                    { name: "Champagne Ruinart (Bouteille)", price: "95.00€" }
+                    { name: "Prosecco (Flûte)", price_cents: 700 },
+                    { name: "Champagne Gauthier (Coupe)", price_cents: 1000 },
+                    { name: "Prosecco (Bouteille)", price_cents: 3900 },
+                    { name: "Champagne Gauthier (Bouteille)", price_cents: 6500 },
+                    { name: "Champagne Ruinart (Bouteille)", price_cents: 9500 }
                 ]
             }
         ]

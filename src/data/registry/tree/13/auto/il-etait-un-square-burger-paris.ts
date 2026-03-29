@@ -42,50 +42,55 @@ export const il_etait_un_square_burger_paris: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées Maison",
+        category_type: "starter",
+        display_label: "Entrées Maison",
         items: [
-          { name: "Œuf Mayo Maison", price: "5.00€" },
-          { name: "Petite Salade Crétoise", price: "5.00€" },
-          { name: "Petite Salade de Chèvre Chaud", price: "7.00€" },
-          { name: "Tranche de pain Gourmande", price: "8.00€" },
-          { name: "Foie Gras Maison & Muscat", price: "12.00€" }
+          { name: "Œuf Mayo Maison", price_cents: 500 },
+          { name: "Petite Salade Crétoise", price_cents: 500 },
+          { name: "Petite Salade de Chèvre Chaud", price_cents: 700 },
+          { name: "Tranche de pain Gourmande", price_cents: 800 },
+          { name: "Foie Gras Maison & Muscat", price_cents: 1200 }
         ]
       },
       {
-        category: "Burgers Gourmet (Plats)",
+        category_type: "main",
+        display_label: "Burgers Gourmet (Plats)",
         items: [
-          { name: "Le Burger Montagnard", price: "16.00€", highlight: true },
-          { name: "Hamburger Français (Œuf au plat)", price: "15.00€" },
-          { name: "Le Cheddar Burger", price: "16.00€" },
-          { name: "Le Cajun (Épicé)", price: "16.00€" },
-          { name: "Le Falafel Burger (Végé)", price: "16.00€" },
-          { name: "Le Parisien", price: "16.00€" }
+          { name: "Le Burger Montagnard", price_cents: 1600, is_highlight: true },
+          { name: "Hamburger Français (Œuf au plat)", price_cents: 1500 },
+          { name: "Le Cheddar Burger", price_cents: 1600 },
+          { name: "Le Cajun (Épicé)", price_cents: 1600 },
+          { name: "Le Falafel Burger (Végé)", price_cents: 1600 },
+          { name: "Le Parisien", price_cents: 1600 }
         ]
       },
       {
-        category: "Tartares & Plats",
+        category_type: "main",
+        display_label: "Tartares & Plats",
         items: [
-          { name: "Tartare Thaï au couteau", price: "17.00€" },
-          { name: "Tartare Classique", price: "15.00€" },
-          { name: "Grande Salade de Saison", price: "14.00€" }
+          { name: "Tartare Thaï au couteau", price_cents: 1700 },
+          { name: "Tartare Classique", price_cents: 1500 },
+          { name: "Grande Salade de Saison", price_cents: 1400 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Moelleux Chocolat Maison", price: "8.00€" },
-          { name: "Tiramisu du moment", price: "7.50€" },
-          { name: "Café Gourmand", price: "9.00€" }
+          { name: "Moelleux Chocolat Maison", price_cents: 800 },
+          { name: "Tiramisu du moment", price_cents: 750 },
+          { name: "Café Gourmand", price_cents: 900 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Bière Pression (25cl)", price: "4.50€" },
-          { name: "Bière Pression (50cl)", price: "8.00€" },
-          { name: "Verre de Vin Bio", price: "6.00€" },
-          { name: "Coca-Cola / Perrier", price: "4.00€" },
-          { name: "Café / Allongé", price: "2.50€" }
+          { name: "Bière Pression (25cl)", price_cents: 450 },
+          { name: "Bière Pression (50cl)", price_cents: 800 },
+          { name: "Verre de Vin Bio", price_cents: 600 },
+          { name: "Coca-Cola / Perrier", price_cents: 400 },
+          { name: "Café / Allongé", price_cents: 250 }
         ]
       }
     ]

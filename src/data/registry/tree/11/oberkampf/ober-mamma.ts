@@ -43,65 +43,70 @@ export const ober_mamma: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Antipasti & Fritti",
+                category_type: "other",
+                display_label: "Antipasti & Fritti",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Stracciatella fondante", price: "8.00€" },
-                    { name: "Poireau rôti, stracciatella, yaourt moutarde, noisettes", price: "8.50€" },
-                    { name: "Insalata di cetrioli e melone", price: "8.50€" },
-                    { name: "Petite Assiette Antipasti", price: "8.90€" },
-                    { name: "Crocchette di melanzana, pecorino et menthe", price: "9.50€" },
-                    { name: "Parmigiana di melanzane", price: "9.50€" },
-                    { name: "Focaccia barese e prosciutto San Daniele", price: "9.50€" },
-                    { name: "Arancini al tartufo (Truffe fraîche, mozza)", price: "10.50€" },
-                    { name: "Tiradito di branzino e stracciatella (Carpaccio bar)", price: "12.00€" },
-                    { name: "Grande Assiette Antipasti a partager", price: "12.50€" }
+                    { name: "Stracciatella fondante", price_cents: 800 },
+                    { name: "Poireau rôti, stracciatella, yaourt moutarde, noisettes", price_cents: 850 },
+                    { name: "Insalata di cetrioli e melone", price_cents: 850 },
+                    { name: "Petite Assiette Antipasti", price_cents: 890 },
+                    { name: "Crocchette di melanzana, pecorino et menthe", price_cents: 950 },
+                    { name: "Parmigiana di melanzane", price_cents: 950 },
+                    { name: "Focaccia barese e prosciutto San Daniele", price_cents: 950 },
+                    { name: "Arancini al tartufo (Truffe fraîche, mozza)", price_cents: 1050 },
+                    { name: "Tiradito di branzino e stracciatella (Carpaccio bar)", price_cents: 1200 },
+                    { name: "Grande Assiette Antipasti a partager", price_cents: 1250 }
                 ]
             },
             {
-                category: "Pizzas Napolitaines (Cuit au feu de bois)",
+                category_type: "main",
+                display_label: "Pizzas Napolitaines (Cuit au feu de bois)",
                 items: [
-                    { name: "Margherita Vraie", price: "6.90€", description: "Le classique absolu à prix choc." },
-                    { name: "4 Formaggi", price: "8.90€" },
-                    { name: "Diavola (Épicée)", price: "8.50€" },
-                    { name: "Speck al Tartuffo (Jambon Speck, fondue de truffes)", price: "8.50€" },
-                    { name: "Pizza Rocca (Ø 32cm)", price: "10.00€" },
-                    { name: "Pizza Big Mamma (Mozzarella di bufala, jambon parme)", price: "12.00€" },
-                    { name: "Dancing Queen (Blanche, Fior di latte, Jambon, Champignons)", price: "15.00€" }
+                    { name: "Margherita Vraie", price_cents: 690, description: "Le classique absolu à prix choc." },
+                    { name: "4 Formaggi", price_cents: 890 },
+                    { name: "Diavola (Épicée)", price_cents: 850 },
+                    { name: "Speck al Tartuffo (Jambon Speck, fondue de truffes)", price_cents: 850 },
+                    { name: "Pizza Rocca (Ø 32cm)", price_cents: 1000 },
+                    { name: "Pizza Big Mamma (Mozzarella di bufala, jambon parme)", price_cents: 1200 },
+                    { name: "Dancing Queen (Blanche, Fior di latte, Jambon, Champignons)", price_cents: 1500 }
                 ]
             },
             {
-                category: "Primi (Pâtes Fraîches & Risotto)",
+                category_type: "other",
+                display_label: "Primi (Pâtes Fraîches & Risotto)",
                 items: [
-                    { name: "Spaghettone allo scarpariello", price: "13.50€" },
-                    { name: "Spaghettone all'arrabbiata", price: "13.50€" },
-                    { name: "The great carbonara", price: "16.00€", description: "La carbonara romaine dans les règles de l'art." },
-                    { name: "Risotto ai funghi, onctueux parmesan", price: "17.00€" },
-                    { name: "Burratelli alla stracciatella", price: "18.50€" },
-                    { name: "Spaghettone alle vongole (Palourdes fraîches)", price: "19.00€" },
-                    { name: "Spaghetti alla puttanesca con branzino", price: "19.00€" },
-                    { name: "Mafaldine à la truffe fraîche", price: "20.00€", description: "La pasta à la crème de truffe signature du groupe." }
+                    { name: "Spaghettone allo scarpariello", price_cents: 1350 },
+                    { name: "Spaghettone all'arrabbiata", price_cents: 1350 },
+                    { name: "The great carbonara", price_cents: 1600, description: "La carbonara romaine dans les règles de l'art." },
+                    { name: "Risotto ai funghi, onctueux parmesan", price_cents: 1700 },
+                    { name: "Burratelli alla stracciatella", price_cents: 1850 },
+                    { name: "Spaghettone alle vongole (Palourdes fraîches)", price_cents: 1900 },
+                    { name: "Spaghetti alla puttanesca con branzino", price_cents: 1900 },
+                    { name: "Mafaldine à la truffe fraîche", price_cents: 2000, description: "La pasta à la crème de truffe signature du groupe." }
                 ]
             },
             {
-                category: "Dolci (Desserts & Glaces Artisanales)",
+                category_type: "dessert",
+                display_label: "Dolci (Desserts & Glaces Artisanales)",
                 items: [
-                    { name: "Gelato al cioccolato ou pistacchio", price: "7.50€" },
-                    { name: "Il Tigramisu", price: "8.00€", description: "Servi généreusement à la louche et à la cuillère à table." },
-                    { name: "Panna cotta ai frutti esotici, vanille Madagascar", price: "8.50€" },
-                    { name: "Mousse al cioccolato, praliné, fleur de sel", price: "9.00€" },
-                    { name: "Nocciolamisu (Tiramisu noisette)", price: "9.00€" },
-                    { name: "Banoffee pie revisitée", price: "9.00€" },
-                    { name: "Profiterole géante al pistacchio, chocolat chaud", price: "12.00€" }
+                    { name: "Gelato al cioccolato ou pistacchio", price_cents: 750 },
+                    { name: "Il Tigramisu", price_cents: 800, description: "Servi généreusement à la louche et à la cuillère à table." },
+                    { name: "Panna cotta ai frutti esotici, vanille Madagascar", price_cents: 850 },
+                    { name: "Mousse al cioccolato, praliné, fleur de sel", price_cents: 900 },
+                    { name: "Nocciolamisu (Tiramisu noisette)", price_cents: 900 },
+                    { name: "Banoffee pie revisitée", price_cents: 900 },
+                    { name: "Profiterole géante al pistacchio, chocolat chaud", price_cents: 1200 }
                 ]
             },
             {
-                category: "Cocktails du Bar & Boissons",
+                category_type: "drink",
+                display_label: "Cocktails du Bar & Boissons",
                 items: [
-                    { name: "San Pellegrino", price: "4.00€" },
-                    { name: "Chinotto Lurisia", price: "5.00€" },
-                    { name: "Summer Spritz", price: "10.00€" },
-                    { name: "Big Boy (Safran ou Balsamico)", price: "13.00€" }
+                    { name: "San Pellegrino", price_cents: 400 },
+                    { name: "Chinotto Lurisia", price_cents: 500 },
+                    { name: "Summer Spritz", price_cents: 1000 },
+                    { name: "Big Boy (Safran ou Balsamico)", price_cents: 1300 }
                 ]
             }
         ]

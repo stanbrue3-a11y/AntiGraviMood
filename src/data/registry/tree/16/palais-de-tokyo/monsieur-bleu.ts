@@ -41,54 +41,58 @@ export const monsieur_bleu: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Premières Lueurs (Entrées)",
+        category_type: "starter",
+        display_label: "Les Premières Lueurs (Entrées)",
         items: [
-          { name: "Rock Shrimps Tempura", price: "21€", description: "Légère et croustillante, mayo épicée", highlight: true },
-          { name: "Burrata des Pouilles", price: "25€", description: "Tomates anciennes de plein champ", highlight: true },
-          { name: "Tarama Maison au Caviar", price: "28€", description: "Pain toasté et herbes fraîches" },
-          { name: "Saumon Mariné Gravalax", price: "24€", description: "Aneth, baies de genièvre et crème fraîche" },
-          { name: "Escargots de Bourgogne (x6)", price: "18€", description: "Beurre persillé à l'ancienne" },
-          { name: "Carpaccio de Bœuf Black Angus", price: "22€", description: "Parmesan, roquette et pignons grillés" },
-          { name: "Velouté de Potiron", price: "17€", description: "Éclats de châtaignes et truffe d'été" },
-          { name: "Salade de Homard Bleu", price: "39€", description: "Vinaigrette d'agrumes et jeunes légumes" },
-          { name: "Artichauts de Bretagne", price: "19€", description: "Vinaigrette aux noisettes et parmesan" }
+          { name: "Rock Shrimps Tempura", price_cents: 2100, description: "Légère et croustillante, mayo épicée", is_highlight: true },
+          { name: "Burrata des Pouilles", price_cents: 2500, description: "Tomates anciennes de plein champ", is_highlight: true },
+          { name: "Tarama Maison au Caviar", price_cents: 2800, description: "Pain toasté et herbes fraîches" },
+          { name: "Saumon Mariné Gravalax", price_cents: 2400, description: "Aneth, baies de genièvre et crème fraîche" },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 1800, description: "Beurre persillé à l'ancienne" },
+          { name: "Carpaccio de Bœuf Black Angus", price_cents: 2200, description: "Parmesan, roquette et pignons grillés" },
+          { name: "Velouté de Potiron", price_cents: 1700, description: "Éclats de châtaignes et truffe d'été" },
+          { name: "Salade de Homard Bleu", price_cents: 3900, description: "Vinaigrette d'agrumes et jeunes légumes" },
+          { name: "Artichauts de Bretagne", price_cents: 1900, description: "Vinaigrette aux noisettes et parmesan" }
         ]
       },
       {
-        category: "L'Étoffe des Grands (Plats)",
+        category_type: "main",
+        display_label: "L'Étoffe des Grands (Plats)",
         items: [
-          { name: "Poulpe Grillé", price: "40€", description: "Purée de pois chiches crémeuse, jus corsé", highlight: true },
-          { name: "Tagliatelle à la Truffe Noire", price: "45€", description: "Parmesan 24 mois, crème de truffe onctueuse", highlight: true },
-          { name: "Filet de Bœuf Simmental", price: "48€", description: "Sauce au poivre, frites maison croustillantes" },
-          { name: "Ravioles de Langoustines", price: "42€", description: "Bouillon de crustacés et cerfeuil" },
-          { name: "Bar de Ligne Grillé", price: "38€", description: "Sauce vierge aux olives et légumes vapeur" },
-          { name: "Risotto au Safran & Gambas", price: "36€", description: "Gambas impériales juste saisies" },
-          { name: "Cœur de Cabillaud Vapeur", price: "34€", description: "Purée fondante et beurre de yuzu" },
-          { name: "Pluma de Pata Negra", price: "44€", description: "Pommes rattes rissolées au lard" },
-          { name: "Tartare de Bœuf 'Monsieur Bleu'", price: "32€", description: "Coupé au couteau, condiment secret" },
-          { name: "Sole Meunière d'Océan", price: "55€", description: "Pêche du jour, environ 400g" }
+          { name: "Poulpe Grillé", price_cents: 4000, description: "Purée de pois chiches crémeuse, jus corsé", is_highlight: true },
+          { name: "Tagliatelle à la Truffe Noire", price_cents: 4500, description: "Parmesan 24 mois, crème de truffe onctueuse", is_highlight: true },
+          { name: "Filet de Bœuf Simmental", price_cents: 4800, description: "Sauce au poivre, frites maison croustillantes" },
+          { name: "Ravioles de Langoustines", price_cents: 4200, description: "Bouillon de crustacés et cerfeuil" },
+          { name: "Bar de Ligne Grillé", price_cents: 3800, description: "Sauce vierge aux olives et légumes vapeur" },
+          { name: "Risotto au Safran & Gambas", price_cents: 3600, description: "Gambas impériales juste saisies" },
+          { name: "Cœur de Cabillaud Vapeur", price_cents: 3400, description: "Purée fondante et beurre de yuzu" },
+          { name: "Pluma de Pata Negra", price_cents: 4400, description: "Pommes rattes rissolées au lard" },
+          { name: "Tartare de Bœuf 'Monsieur Bleu'", price_cents: 3200, description: "Coupé au couteau, condiment secret" },
+          { name: "Sole Meunière d'Océan", price_cents: 5500, description: "Pêche du jour, environ 400g" }
         ]
       },
       {
-        category: "Final en Apothéose (Desserts)",
+        category_type: "dessert",
+        display_label: "Final en Apothéose (Desserts)",
         items: [
-          { name: "Mille-feuille Vanille", price: "19€", description: "Crème légère et caramel au beurre salé", highlight: true },
-          { name: "Fondant Chocolat Noir", price: "16€", description: "Cœur coulant 70% et glace vanille" },
-          { name: "Pavlova Agrumes", price: "15€", description: "Meringue craquante et sorbet citron" },
-          { name: "Brioche Perdue de mon Enfance", price: "17€", description: "Caramel onctueux et chantilly" },
-          { name: "Fraises & Crème de Mascarpone", price: "18€", description: "Saison uniquement" },
-          { name: "Selection de Fromages Affinés", price: "18€" }
+          { name: "Mille-feuille Vanille", price_cents: 1900, description: "Crème légère et caramel au beurre salé", is_highlight: true },
+          { name: "Fondant Chocolat Noir", price_cents: 1600, description: "Cœur coulant 70% et glace vanille" },
+          { name: "Pavlova Agrumes", price_cents: 1500, description: "Meringue craquante et sorbet citron" },
+          { name: "Brioche Perdue de mon Enfance", price_cents: 1700, description: "Caramel onctueux et chantilly" },
+          { name: "Fraises & Crème de Mascarpone", price_cents: 1800, description: "Saison uniquement" },
+          { name: "Selection de Fromages Affinés", price_cents: 1800 }
         ]
       },
       {
-        category: "La Cave Bleue (Vins & Spiritueux)",
+        category_type: "drink",
+        display_label: "La Cave Bleue (Vins & Spiritueux)",
         items: [
-          { name: "Cocktail Bleu de Paris", price: "20€", description: "Gin premium, violette et touche de citron" },
-          { name: "Coupe de Moët & Chandon Reserve", price: "24€" },
-          { name: "Verre de Chablis 'Brocard'", price: "16€" },
-          { name: "Double Expresso Pavillon", price: "8€" },
-          { name: "Thé Glacé Maison", price: "9.50€" },
-          { name: "Eau Filtrée Plate/Gazeuse", price: "8.00€" }
+          { name: "Cocktail Bleu de Paris", price_cents: 2000, description: "Gin premium, violette et touche de citron" },
+          { name: "Coupe de Moët & Chandon Reserve", price_cents: 2400 },
+          { name: "Verre de Chablis 'Brocard'", price_cents: 1600 },
+          { name: "Double Expresso Pavillon", price_cents: 800 },
+          { name: "Thé Glacé Maison", price_cents: 950 },
+          { name: "Eau Filtrée Plate/Gazeuse", price_cents: 800 }
         ]
       }
     ]

@@ -43,44 +43,48 @@ export const brutos: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Brésil & Asado (Entrées & Tapas)",
+                category_type: "starter",
+                display_label: "Brésil & Asado (Entrées & Tapas)",
                 items: [
-                    { name: "Dés de Tapioca frits, sauce goyave piment doux", price: "9.00€" },
-                    { name: "Caviar d'aubergine fumée en toast, grenade, noix du Brésil", price: "7.00€" },
-                    { name: "Asperges vertes à la braise, sauce Gribiche", price: "11.00€" },
-                    { name: "Os à moelle braisé, noisettes concassées", price: "12.00€" },
-                    { name: "Morcilla maison et piments guindilla", price: "10.00€" },
-                    { name: "Pasteis au potimarron et épices", price: "10.00€" },
-                    { name: "Croquettes de boeuf fumé, sauce pimentée", price: "11.00€" },
-                    { name: "Betteraves braisées au feu de bois", price: "9.00€" }
+                    { name: "Dés de Tapioca frits, sauce goyave piment doux", price_cents: 900 },
+                    { name: "Caviar d'aubergine fumée en toast, grenade, noix du Brésil", price_cents: 700 },
+                    { name: "Asperges vertes à la braise, sauce Gribiche", price_cents: 1100 },
+                    { name: "Os à moelle braisé, noisettes concassées", price_cents: 1200 },
+                    { name: "Morcilla maison et piments guindilla", price_cents: 1000 },
+                    { name: "Pasteis au potimarron et épices", price_cents: 1000 },
+                    { name: "Croquettes de boeuf fumé, sauce pimentée", price_cents: 1100 },
+                    { name: "Betteraves braisées au feu de bois", price_cents: 900 }
                 ]
             },
             {
-                category: "Au feu de bois (Plats)",
+                category_type: "main",
+                display_label: "Au feu de bois (Plats)",
                 items: [
-                    { name: "Asado de tira Black Angus, chimichurri, frites maison", price: "29.00€", description: "La spécialité de la maison." },
-                    { name: "Côte de Cochon de lait de Clavisy, abricots grillés", price: "28.00€" },
-                    { name: "Lieu jaune, beurre blanc aux crustacés", price: "32.00€" },
-                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l'ail", price: "28.00€", description: "Uniquement le dimanche midi." },
-                    { name: "Ris de veau à la braise, sauce chimichurri", price: "34.00€" },
-                    { name: "Echine de cochon noir de Bigorre", price: "30.00€" },
-                    { name: "Picanha de boeuf Angus (pour 2)", price: "68.00€", description: "La pièce emblématique du Brésil." }
+                    { name: "Asado de tira Black Angus, chimichurri, frites maison", price_cents: 2900, description: "La spécialité de la maison." },
+                    { name: "Côte de Cochon de lait de Clavisy, abricots grillés", price_cents: 2800 },
+                    { name: "Lieu jaune, beurre blanc aux crustacés", price_cents: 3200 },
+                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l'ail", price_cents: 2800, description: "Uniquement le dimanche midi." },
+                    { name: "Ris de veau à la braise, sauce chimichurri", price_cents: 3400 },
+                    { name: "Echine de cochon noir de Bigorre", price_cents: 3000 },
+                    { name: "Picanha de boeuf Angus (pour 2)", price_cents: 6800, description: "La pièce emblématique du Brésil." }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Banane croustillante, dulce de leche, crème crue, coco fraîche", price: "8.00€" },
-                    { name: "Pudim (crème caramel brésilienne)", price: "9.00€" },
-                    { name: "Gâteau chocolat du Brésil, clémentines", price: "11.00€" }
+                    { name: "Banane croustillante, dulce de leche, crème crue, coco fraîche", price_cents: 800 },
+                    { name: "Pudim (crème caramel brésilienne)", price_cents: 900 },
+                    { name: "Gâteau chocolat du Brésil, clémentines", price_cents: 1100 }
                 ]
             },
             {
-                category: "Cocktails & Vins",
+                category_type: "drink",
+                display_label: "Cocktails & Vins",
                 items: [
-                    { name: "Caïpirinha classique (le totem)", price: "12.00€" },
-                    { name: "Negroni au mezcal signature", price: "12.00€" },
-                    { name: "Verre de vin nature (rouge Ardèche)", price: "6.50€" }
+                    { name: "Caïpirinha classique (le totem)", price_cents: 1200 },
+                    { name: "Negroni au mezcal signature", price_cents: 1200 },
+                    { name: "Verre de vin nature (rouge Ardèche)", price_cents: 650 }
                 ]
             }
         ]

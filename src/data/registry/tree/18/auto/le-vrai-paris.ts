@@ -41,39 +41,42 @@ export const le_vrai_paris: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Os à moelle rôti, gros sel", price: "12.00€" },
-          { name: "Escargots de Bourgogne (x6)", price: "14.50€" },
-          { name: "Soupe à l'oignon gratinée", price: "11.00€" },
-          { name: "Salade de chèvre chaud", price: "13.00€" },
-          { name: "Foie gras de canard maison", price: "18.50€" },
-          { name: "Œuf cocotte aux morilles", price: "15.00€" }
+          { name: "Os à moelle rôti, gros sel", price_cents: 1200 },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 1450 },
+          { name: "Soupe à l'oignon gratinée", price_cents: 1100 },
+          { name: "Salade de chèvre chaud", price_cents: 1300 },
+          { name: "Foie gras de canard maison", price_cents: 1850 },
+          { name: "Œuf cocotte aux morilles", price_cents: 1500 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Confit de canard du Sud-Ouest", price: "21.00€" },
-          { name: "Steak frites, sauce au poivre", price: "26.00€" },
-          { name: "Risotto aux champignons sauvages", price: "19.00€" },
-          { name: "Pavé de saumon à l'oseille", price: "22.50€" },
-          { name: "Burger du Vrai Paris", price: "19.50€" },
-          { name: "Tartare de boeuf au couteau", price: "18.00€" },
-          { name: "Blanquette de veau à l'ancienne", price: "22.00€" },
-          { name: "Magret de canard au miel", price: "24.00€" },
-          { name: "Cassoulet maison", price: "23.50€" }
+          { name: "Confit de canard du Sud-Ouest", price_cents: 2100 },
+          { name: "Steak frites, sauce au poivre", price_cents: 2600 },
+          { name: "Risotto aux champignons sauvages", price_cents: 1900 },
+          { name: "Pavé de saumon à l'oseille", price_cents: 2250 },
+          { name: "Burger du Vrai Paris", price_cents: 1950 },
+          { name: "Tartare de boeuf au couteau", price_cents: 1800 },
+          { name: "Blanquette de veau à l'ancienne", price_cents: 2200 },
+          { name: "Magret de canard au miel", price_cents: 2400 },
+          { name: "Cassoulet maison", price_cents: 2350 }
         ]
       },
       {
-        category: "Les Desserts",
+        category_type: "dessert",
+        display_label: "Les Desserts",
         items: [
-          { name: "Crème brûlée à la vanille bourbon", price: "9.50€" },
-          { name: "Mousse au chocolat maison", price: "8.00€" },
-          { name: "Tarte au citron meringuée", price: "9.00€" },
-          { name: "Café gourmand", price: "11.00€" },
-          { name: "Coupe de glaces artisanales", price: "7.00€" },
-          { name: "Île flottante et son caramel", price: "9.00€" }
+          { name: "Crème brûlée à la vanille bourbon", price_cents: 950 },
+          { name: "Mousse au chocolat maison", price_cents: 800 },
+          { name: "Tarte au citron meringuée", price_cents: 900 },
+          { name: "Café gourmand", price_cents: 1100 },
+          { name: "Coupe de glaces artisanales", price_cents: 700 },
+          { name: "Île flottante et son caramel", price_cents: 900 }
         ]
       }
     ]

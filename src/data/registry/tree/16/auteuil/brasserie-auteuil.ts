@@ -40,62 +40,67 @@ export const brasserie_auteuil: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Antipasti (À Partager)",
+        category_type: "sharing",
+        display_label: "Antipasti (À Partager)",
         items: [
-          { name: "Mezzés d'Auteuil", price: "20.50€", description: "Houmous, burrata, croquettes à la truffe, légumes grillés", highlight: true },
-          { name: "Burrata Crémeuse", price: "14.50€", description: "Pesto de basilic et pignons de pin" },
-          { name: "Croquettes de Risotto", price: "12.50€", description: "Cœur fondant à la truffe d'été" },
-          { name: "Calamars Fritti", price: "13.00€", description: "Zeste de citron vert et sauce tartare" },
-          { name: "Planche Italienne", price: "19.00€", description: "Prosciutto, mortadelle, coppa et olives" },
-          { name: "Bruschetta Tomate Basilic", price: "11.00€", description: "Frottée à l'ail et huile d'olive" },
-          { name: "Stracciatella & Focaccia", price: "15.00€", description: "Le cœur de la mozza, huile de truffe" },
-          { name: "Carpaccio de Bœuf", price: "16.00€", description: "Parmesan, roquette et câpres" }
+          { name: "Mezzés d'Auteuil", price_cents: 2050, description: "Houmous, burrata, croquettes à la truffe, légumes grillés", is_highlight: true },
+          { name: "Burrata Crémeuse", price_cents: 1450, description: "Pesto de basilic et pignons de pin" },
+          { name: "Croquettes de Risotto", price_cents: 1250, description: "Cœur fondant à la truffe d'été" },
+          { name: "Calamars Fritti", price_cents: 1300, description: "Zeste de citron vert et sauce tartare" },
+          { name: "Planche Italienne", price_cents: 1900, description: "Prosciutto, mortadelle, coppa et olives" },
+          { name: "Bruschetta Tomate Basilic", price_cents: 1100, description: "Frottée à l'ail et huile d'olive" },
+          { name: "Stracciatella & Focaccia", price_cents: 1500, description: "Le cœur de la mozza, huile de truffe" },
+          { name: "Carpaccio de Bœuf", price_cents: 1600, description: "Parmesan, roquette et câpres" }
         ]
       },
       {
-        category: "Pizzas au Feu de Bois",
+        category_type: "main",
+        display_label: "Pizzas au Feu de Bois",
         items: [
-          { name: "Pizza Truffe & Mascarpone", price: "22.00€", description: "La spécialité incontournable de la maison", highlight: true },
-          { name: "Pizza Regina Classica", price: "16.50€", description: "Jambon blanc de Paris, champignons frais" },
-          { name: "Pizza Piccante", price: "18.50€", description: "Salami piquant, piment et mozzarella fior di latte" },
-          { name: "Pizza Végétarienne", price: "17.50€", description: "Artichauts, poivrons, courgettes et pesto" },
-          { name: "Margherita Bio", price: "14.50€", description: "Tomates San Marzano, mozza et basilic" },
-          { name: "Pizza 4 Fromaggi", price: "19.50€", description: "Gorgonzola, fontina, provolone et mozza" },
-          { name: "Pizza Bresaola", price: "20.50€", description: "Bœuf séché, copeaux de parmesan et roquette" }
+          { name: "Pizza Truffe & Mascarpone", price_cents: 2200, description: "La spécialité incontournable de la maison", is_highlight: true },
+          { name: "Pizza Regina Classica", price_cents: 1650, description: "Jambon blanc de Paris, champignons frais" },
+          { name: "Pizza Piccante", price_cents: 1850, description: "Salami piquant, piment et mozzarella fior di latte" },
+          { name: "Pizza Végétarienne", price_cents: 1750, description: "Artichauts, poivrons, courgettes et pesto" },
+          { name: "Margherita Bio", price_cents: 1450, description: "Tomates San Marzano, mozza et basilic" },
+          { name: "Pizza 4 Fromaggi", price_cents: 1950, description: "Gorgonzola, fontina, provolone et mozza" },
+          { name: "Pizza Bresaola", price_cents: 2050, description: "Bœuf séché, copeaux de parmesan et roquette" }
         ]
       },
       {
-        category: "Primi & Secondi (Plats)",
+        category_type: "main",
+        display_label: "Primi & Secondi (Plats)",
         items: [
-          { name: "Linguine aux Gambas", price: "24.50€", description: "Flambées au pastis, sauce tomate épicée", highlight: true },
-          { name: "Aubergines Parmigiana", price: "18.50€", description: "Gratinées à la mozzarella et aubergines fondantes" },
-          { name: "Salade César Auteuil", price: "19.50€", description: "Poulet croustillant, romaine, sauce anchois" },
-          { name: "Pavé de Saumon Rôti", price: "23.00€", description: "Légumes d'été et vierge de légumes" },
-          { name: "Burger Auteuil Gorgonzola", price: "21.50€", description: "Pain brioché, bœuf 180g, crème de bleu" },
-          { name: "Rigatoni à la Truffe", price: "26.50€", description: "Crème de truffe légère et noisettes" },
-          { name: "Escalope Milanaise", price: "25.00€", description: "Veau pané, linguine tomate" },
-          { name: "Tartare de Bœuf Italien", price: "22.00€", description: "Coupé au couteau, pesto et parmesan" }
+          { name: "Linguine aux Gambas", price_cents: 2450, description: "Flambées au pastis, sauce tomate épicée", is_highlight: true },
+          { name: "Aubergines Parmigiana", price_cents: 1850, description: "Gratinées à la mozzarella et aubergines fondantes" },
+          { name: "Salade César Auteuil", price_cents: 1950, description: "Poulet croustillant, romaine, sauce anchois" },
+          { name: "Pavé de Saumon Rôti", price_cents: 2300, description: "Légumes d'été et vierge de légumes" },
+          { name: "Burger Auteuil Gorgonzola", price_cents: 2150, description: "Pain brioché, bœuf 180g, crème de bleu" },
+          { name: "Rigatoni à la Truffe", price_cents: 2650, description: "Crème de truffe légère et noisettes" },
+          { name: "Escalope Milanaise", price_cents: 2500, description: "Veau pané, linguine tomate" },
+          { name: "Tartare de Bœuf Italien", price_cents: 2200, description: "Coupé au couteau, pesto et parmesan" }
         ]
       },
       {
-        category: "Desserts & Gourmandises",
+        category_type: "dessert",
+        display_label: "Desserts & Gourmandises",
         items: [
-          { name: "Tiramisu Maison", price: "9.50€", description: "Recette traditionnelle au café", highlight: true },
-          { name: "Brioche Perdue", price: "10.50€", description: "Caramel beurre salé et glace vanille" },
-          { name: "Mousse au Chocolat XXL", price: "11.50€" },
-          { name: "Panna Cotta Mangue", price: "9.00€" },
-          { name: "Affogato al Caffè", price: "8.50€" }
+          { name: "Tiramisu Maison", price_cents: 950, description: "Recette traditionnelle au café", is_highlight: true },
+          { name: "Brioche Perdue", price_cents: 1050, description: "Caramel beurre salé et glace vanille" },
+          { name: "Mousse au Chocolat XXL", price_cents: 1150 },
+          { name: "Panna Cotta Mangue", price_cents: 900 },
+          { name: "Affogato al Caffè", price_cents: 850 }
         ]
       },
       {
-        category: "Aperitivo & Cocktails",
+        category_type: "drink",
+        display_label: "Aperitivo & Cocktails",
         items: [
-          { name: "Auteuil Spritz", price: "14.00€", description: "Lero Lero, Prosecco, fruit de la passion" },
-          { name: "Moscow Mule Auteuil", price: "15.00€" },
-          { name: "Pinte Blonde Auteuil", price: "9.00€" },
-          { name: "Verre de Chianti Docg", price: "11.00€" },
-          { name: "Expresso", price: "3.50€" },
-          { name: "Thé Glacé Maison", price: "7.50€" }
+          { name: "Auteuil Spritz", price_cents: 1400, description: "Lero Lero, Prosecco, fruit de la passion" },
+          { name: "Moscow Mule Auteuil", price_cents: 1500 },
+          { name: "Pinte Blonde Auteuil", price_cents: 900 },
+          { name: "Verre de Chianti Docg", price_cents: 1100 },
+          { name: "Expresso", price_cents: 350 },
+          { name: "Thé Glacé Maison", price_cents: 750 }
         ]
       }
     ]

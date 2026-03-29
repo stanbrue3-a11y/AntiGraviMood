@@ -46,34 +46,38 @@ export const chulita: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Chulita Paris 2024-2025 (Torteria Mexicana)
             {
-                category: "Les Tortas (Sandwichs Mexicains)",
+                category_type: "other",
+                display_label: "Les Tortas (Sandwichs Mexicains)",
                 items: [
-                    { name: "Torta Barbacoa", price: "12.00€", description: "Joue & langue de boeuf confites 6h, haricots, avocat." },
-                    { name: "Torta Cochinita", price: "11.50€", description: "Porc mariné à l'achiote et orange, oignons pickles." },
-                    { name: "Torta Milanesa de Pollo", price: "12.50€", description: "Poulet pané, fromage fondu, chipotle mayo." },
-                    { name: "Torta Veggie de Saison", price: "11.00€", description: "Légumes grillés, fromage frais, guacamole." }
+                    { name: "Torta Barbacoa", price_cents: 1200, description: "Joue & langue de boeuf confites 6h, haricots, avocat." },
+                    { name: "Torta Cochinita", price_cents: 1150, description: "Porc mariné à l'achiote et orange, oignons pickles." },
+                    { name: "Torta Milanesa de Pollo", price_cents: 1250, description: "Poulet pané, fromage fondu, chipotle mayo." },
+                    { name: "Torta Veggie de Saison", price_cents: 1100, description: "Légumes grillés, fromage frais, guacamole." }
                 ]
             },
             {
-                category: "Street Food & Sides",
+                category_type: "other",
+                display_label: "Street Food & Sides",
                 items: [
-                    { name: "Guacamole & Chips Noirs", price: "7.50€" },
-                    { name: "Aguachile (Ceviche Mexicain)", price: "14.00€" },
-                    { name: "Quesadilla du moment", price: "9.00€" }
+                    { name: "Guacamole & Chips Noirs", price_cents: 750 },
+                    { name: "Aguachile (Ceviche Mexicain)", price_cents: 1400 },
+                    { name: "Quesadilla du moment", price_cents: 900 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Churros & Dulce de Leche", price: "6.50€" }
+                    { name: "Churros & Dulce de Leche", price_cents: 650 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Agua Fresca Hibiscus", price: "4.50€" },
-                    { name: "Jarritos (Sodas Mexicains)", price: "5.00€" },
-                    { name: "Mezcal Sour", price: "11.00€" }
+                    { name: "Agua Fresca Hibiscus", price_cents: 450 },
+                    { name: "Jarritos (Sodas Mexicains)", price_cents: 500 },
+                    { name: "Mezcal Sour", price_cents: 1100 }
                 ]
             }
         ]

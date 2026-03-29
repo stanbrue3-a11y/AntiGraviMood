@@ -44,62 +44,68 @@ export const cafe_du_coin: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Menu à Tiroirs (Déjeuner - Saison 2025)",
+                category_type: "tasting_menu",
+                display_label: "Menu à Tiroirs (Déjeuner - Saison 2025)",
                 items: [
-                    { name: "Formule midi (E+P ou P+D)", price: "20.00€", description: "Le menu du midi change quotidiennement selon le marché." },
-                    { name: "Menu complet midi (E+P+D)", price: "24.00€", description: "L'option gourmande et équilibrée." },
-                    { name: "Plat du jour seul", price: "16.00€" }
+                    { name: "Formule midi (E+P ou P+D)", price_cents: 2000, description: "Le menu du midi change quotidiennement selon le marché." },
+                    { name: "Menu complet midi (E+P+D)", price_cents: 2400, description: "L'option gourmande et équilibrée." },
+                    { name: "Plat du jour seul", price_cents: 1600 }
                 ]
             },
             {
-                category: "Pizzettes Croustillantes (Tapas du Soir)",
+                category_type: "sharing",
+                display_label: "Pizzettes Croustillantes (Tapas du Soir)",
                 items: [
-                    { name: "Pizzette Mortadelle Truffée / Ricotta", price: "8.00€", description: "La star incontestée, fondante et parfumée." },
-                    { name: "Pizzette Gorgonzola / Fleur de courgette / Dukkah", price: "8.00€" },
-                    { name: "Pizzette Mozzarella Fumée / Zaatar", price: "7.00€" },
-                    { name: "Pizzette Cacio e Pepe", price: "6.00€" },
-                    { name: "Pizzette Taleggio / Œuf / Guanciale", price: "8.00€" },
-                    { name: "Pizzette Tomate / Morteau / Moutarde / Pickles", price: "7.00€" },
-                    { name: "Pizzette Anchois / Olives", price: "5.00€" }
+                    { name: "Pizzette Mortadelle Truffée / Ricotta", price_cents: 800, description: "La star incontestée, fondante et parfumée." },
+                    { name: "Pizzette Gorgonzola / Fleur de courgette / Dukkah", price_cents: 800 },
+                    { name: "Pizzette Mozzarella Fumée / Zaatar", price_cents: 700 },
+                    { name: "Pizzette Cacio e Pepe", price_cents: 600 },
+                    { name: "Pizzette Taleggio / Œuf / Guanciale", price_cents: 800 },
+                    { name: "Pizzette Tomate / Morteau / Moutarde / Pickles", price_cents: 700 },
+                    { name: "Pizzette Anchois / Olives", price_cents: 500 }
                 ]
             },
             {
-                category: "Plats (Déjeuner)",
+                category_type: "main",
+                display_label: "Plats (Déjeuner)",
                 items: [
-                    { name: "Morue, caponata de légumes fondants", price: "18.00€" },
-                    { name: "Caille rôtie, purée de PDT", price: "20.00€" }
+                    { name: "Morue, caponata de légumes fondants", price_cents: 1800 },
+                    { name: "Caille rôtie, purée de PDT", price_cents: 2000 }
                 ]
             },
             {
-                category: "Petites Assiettes de Partage (Tapas)",
+                category_type: "sharing",
+                display_label: "Petites Assiettes de Partage (Tapas)",
                 items: [
-                    { name: "Haricots verts, cerises, basilic & sureau", price: "7.00€" },
-                    { name: "Tartare de poisson, raifort, fenouil & épeautre frit", price: "12.00€" },
-                    { name: "Éperlans frits, sauce tartare", price: "8.00€" },
-                    { name: "Tarama, radis et sumac", price: "8.00€" },
-                    { name: "Anchois de Cantabrie, beurre demi-sel", price: "10.00€" },
-                    { name: "Saucisson artisanal", price: "10.00€" },
-                    { name: "Croquettes de poisson maison", price: "9.00€" },
-                    { name: "Sardines entières grillées", price: "12.00€" }
+                    { name: "Haricots verts, cerises, basilic & sureau", price_cents: 700 },
+                    { name: "Tartare de poisson, raifort, fenouil & épeautre frit", price_cents: 1200 },
+                    { name: "Éperlans frits, sauce tartare", price_cents: 800 },
+                    { name: "Tarama, radis et sumac", price_cents: 800 },
+                    { name: "Anchois de Cantabrie, beurre demi-sel", price_cents: 1000 },
+                    { name: "Saucisson artisanal", price_cents: 1000 },
+                    { name: "Croquettes de poisson maison", price_cents: 900 },
+                    { name: "Sardines entières grillées", price_cents: 1200 }
                 ]
             },
             {
-                category: "Desserts Maison",
+                category_type: "dessert",
+                display_label: "Desserts Maison",
                 items: [
-                    { name: "Ganache chocolat, glace gwell maison", price: "8.00€" },
-                    { name: "Tarte noisette et poire", price: "7.00€" },
-                    { name: "Financier du jour à la pistache", price: "5.00€" },
-                    { name: "Panacotta à la fleur d'oranger", price: "7.00€" }
+                    { name: "Ganache chocolat, glace gwell maison", price_cents: 800 },
+                    { name: "Tarte noisette et poire", price_cents: 700 },
+                    { name: "Financier du jour à la pistache", price_cents: 500 },
+                    { name: "Panacotta à la fleur d'oranger", price_cents: 700 }
                 ]
             },
             {
-                category: "Vins Natures 'Prix Ouvrier'",
+                category_type: "drink",
+                display_label: "Vins Natures 'Prix Ouvrier'",
                 items: [
-                    { name: "Verre de vin nature (Sélection du moment)", price: "4.00€", description: "Le meilleur deal du 11ème sur le vin nature." },
-                    { name: "Loire Chenin (le verre)", price: "7.00€" },
-                    { name: "Verre nature sélection supérieure", price: "7.50€" },
-                    { name: "Bouteille nature (à partir de)", price: "27.00€" },
-                    { name: "Magnum nature (selon cave)", price: "55.00€" }
+                    { name: "Verre de vin nature (Sélection du moment)", price_cents: 400, description: "Le meilleur deal du 11ème sur le vin nature." },
+                    { name: "Loire Chenin (le verre)", price_cents: 700 },
+                    { name: "Verre nature sélection supérieure", price_cents: 750 },
+                    { name: "Bouteille nature (à partir de)", price_cents: 2700 },
+                    { name: "Magnum nature (selon cave)", price_cents: 5500 }
                 ]
             }
         ]

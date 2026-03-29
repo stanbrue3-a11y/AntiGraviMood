@@ -41,35 +41,38 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Cuisses de grenouilles en persillade", price: "14€" },
-          { name: "Cassolette d'escargots à la normande", price: "13€" },
-          { name: "Foie gras et compotée d'échalotes maison", price: "20€" },
-          { name: "Mini-tartare de bœuf préparé", price: "12€" },
-          { name: "Rillettes maison de maquereaux fumés", price: "10€" },
-          { name: "Soupe à l'oignon gratinée", price: "10€" }
+          { name: "Cuisses de grenouilles en persillade", price_cents: 1400 },
+          { name: "Cassolette d'escargots à la normande", price_cents: 1300 },
+          { name: "Foie gras et compotée d'échalotes maison", price_cents: 2000 },
+          { name: "Mini-tartare de bœuf préparé", price_cents: 1200 },
+          { name: "Rillettes maison de maquereaux fumés", price_cents: 1000 },
+          { name: "Soupe à l'oignon gratinée", price_cents: 1000 }
         ]
       },
       {
-        category: "Plats",
+        category_type: "main",
+        display_label: "Plats",
         items: [
-          { name: "Filet de bœuf (200 g) - Sauce Poivre", price: "29€" },
-          { name: "Entrecôte (300 g) - Sauce Échalote", price: "29€" },
-          { name: "Tartare de bœuf charolais (180 g)", price: "20€" },
-          { name: "Travers de porc au miel et au thym", price: "23€" },
-          { name: "Magret de canard, sauce cassis", price: "25€" },
-          { name: "Pavé de saumon grillé et ratatouille", price: "24€" },
-          { name: "Côte de bœuf 1kg (pour 2)", price: "69€" }
+          { name: "Filet de bœuf (200 g) - Sauce Poivre", price_cents: 2900 },
+          { name: "Entrecôte (300 g) - Sauce Échalote", price_cents: 2900 },
+          { name: "Tartare de bœuf charolais (180 g)", price_cents: 2000 },
+          { name: "Travers de porc au miel et au thym", price_cents: 2300 },
+          { name: "Magret de canard, sauce cassis", price_cents: 2500 },
+          { name: "Pavé de saumon grillé et ratatouille", price_cents: 2400 },
+          { name: "Côte de bœuf 1kg (pour 2)", price_cents: 6900 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Brioche façon pain perdu", price: "10€" },
-          { name: "Crème brûlée traditionnelle", price: "10€" },
-          { name: "Tarte Tatin flambée au Calvados", price: "10€" },
-          { name: "Moelleux au chocolat maison", price: "10€" }
+          { name: "Brioche façon pain perdu", price_cents: 1000 },
+          { name: "Crème brûlée traditionnelle", price_cents: 1000 },
+          { name: "Tarte Tatin flambée au Calvados", price_cents: 1000 },
+          { name: "Moelleux au chocolat maison", price_cents: 1000 }
         ]
       }
     ]

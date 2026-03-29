@@ -26,63 +26,68 @@ export const tontine: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Petites Assiettes & Partage (Franco-Asian)",
+                category_type: "other",
+                display_label: "Petites Assiettes & Partage (Franco-Asian)",
                 items: [
-                    { name: "Oignons de Roscoff brûlés", price: "9.00€", description: "Beurre de miso, noisettes." },
-                    { name: "Tataki de Bonite aux herbes", price: "12.00€", description: "Sauce ponzu, radis daikon." },
-                    { name: "Radis Beurre & Mousse d'Anchois", price: "8.50€" },
-                    { name: "Couteaux à la citronnelle & piment", price: "12.00€", description: "Vapeur de couteaux, beurre de piment maison." },
-                    { name: "Noix de St-Jacques au beurre de tamarin", price: "15.00€", description: "Servies avec chanterelles et herbes thaï." },
-                    { name: "Sardines marinées au Miso & Gingembre", price: "9.50€" },
-                    { name: "Omelette aux herbes & Nuoc-Mam", price: "8.50€" },
-                    { name: "Tataki de bœuf au poivre de Kampot", price: "14.00€" },
-                    { name: "Pickles de légumes bio", price: "5.00€" },
-                    { name: "Bouillon de poulet au galanga", price: "7.00€" }
+                    { name: "Oignons de Roscoff brûlés", price_cents: 900, description: "Beurre de miso, noisettes." },
+                    { name: "Tataki de Bonite aux herbes", price_cents: 1200, description: "Sauce ponzu, radis daikon." },
+                    { name: "Radis Beurre & Mousse d'Anchois", price_cents: 850 },
+                    { name: "Couteaux à la citronnelle & piment", price_cents: 1200, description: "Vapeur de couteaux, beurre de piment maison." },
+                    { name: "Noix de St-Jacques au beurre de tamarin", price_cents: 1500, description: "Servies avec chanterelles et herbes thaï." },
+                    { name: "Sardines marinées au Miso & Gingembre", price_cents: 950 },
+                    { name: "Omelette aux herbes & Nuoc-Mam", price_cents: 850 },
+                    { name: "Tataki de bœuf au poivre de Kampot", price_cents: 1400 },
+                    { name: "Pickles de légumes bio", price_cents: 500 },
+                    { name: "Bouillon de poulet au galanga", price_cents: 700 }
                 ]
             },
             {
-                category: "Les Plats du Moment",
+                category_type: "main",
+                display_label: "Les Plats du Moment",
                 items: [
-                    { name: "Paleron de Bœuf braisé au soja", price: "26.00€" },
-                    { name: "Maquereau grillé à la flamme", price: "24.00€" },
-                    { name: "Gnocchi de riz sautés Fusion", price: "22.00€" },
-                    { name: "Cuisse de poulet laquée au caramel", price: "19.50€", description: "Caramel de nuoc-mam, riz gluant, kaffir lime." },
-                    { name: "Aile de Raie à la vapeur & Gingembre", price: "22.50€", description: "Échalotes frites, sauce soja légère." },
-                    { name: "Couscous Végétal aux épices douces", price: "17.00€" },
-                    { name: "Pêche du jour au BBQ Coréen", price: "24.00€" },
-                    { name: "Plat du Marché (Change tous les jours)", price: "18.00€" }
+                    { name: "Paleron de Bœuf braisé au soja", price_cents: 2600 },
+                    { name: "Maquereau grillé à la flamme", price_cents: 2400 },
+                    { name: "Gnocchi de riz sautés Fusion", price_cents: 2200 },
+                    { name: "Cuisse de poulet laquée au caramel", price_cents: 1950, description: "Caramel de nuoc-mam, riz gluant, kaffir lime." },
+                    { name: "Aile de Raie à la vapeur & Gingembre", price_cents: 2250, description: "Échalotes frites, sauce soja légère." },
+                    { name: "Couscous Végétal aux épices douces", price_cents: 1700 },
+                    { name: "Pêche du jour au BBQ Coréen", price_cents: 2400 },
+                    { name: "Plat du Marché (Change tous les jours)", price_cents: 1800 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Gateau Chocolat & Piment", price: "10.00€" },
-                    { name: "Tapioca Coco & Fruits Exotiques", price: "8.00€" },
-                    { name: "Panna Cotta Citronnelle", price: "9.00€" },
-                    { name: "Sorbet Poire & Shiso", price: "7.00€" }
+                    { name: "Gateau Chocolat & Piment", price_cents: 1000 },
+                    { name: "Tapioca Coco & Fruits Exotiques", price_cents: 800 },
+                    { name: "Panna Cotta Citronnelle", price_cents: 900 },
+                    { name: "Sorbet Poire & Shiso", price_cents: 700 }
                 ]
             },
             {
-                category: "Sélection de Vins Naturels (Vin Vivant)",
+                category_type: "drink",
+                display_label: "Sélection de Vins Naturels (Vin Vivant)",
                 items: [
-                    { name: "Verre de Vin Blanc Nature", price: "8.50€" },
-                    { name: "Verre de Vin Rouge Nature", price: "8.50€" },
-                    { name: "Verre de Macération (Orange)", price: "9.50€" },
-                    { name: "Beaujolais Nouveau Artisanal (Bouteille)", price: "34.00€" },
-                    { name: "Cuvée Spéciale Yann Durieux", price: "95.00€", description: "Pour les amateurs de raretés." },
-                    { name: "Pet-Nat (Pétillant Naturel)", price: "40.00€" },
-                    { name: "Champagne Jacques Selosse", price: "515.00€", description: "La légende des vins de Champagne." },
-                    { name: "Bière Artisanale IPA (33cl)", price: "7.50€" }
+                    { name: "Verre de Vin Blanc Nature", price_cents: 850 },
+                    { name: "Verre de Vin Rouge Nature", price_cents: 850 },
+                    { name: "Verre de Macération (Orange)", price_cents: 950 },
+                    { name: "Beaujolais Nouveau Artisanal (Bouteille)", price_cents: 3400 },
+                    { name: "Cuvée Spéciale Yann Durieux", price_cents: 9500, description: "Pour les amateurs de raretés." },
+                    { name: "Pet-Nat (Pétillant Naturel)", price_cents: 4000 },
+                    { name: "Champagne Jacques Selosse", price_cents: 51500, description: "La légende des vins de Champagne." },
+                    { name: "Bière Artisanale IPA (33cl)", price_cents: 750 }
                 ]
             },
             {
-                category: "Tontine Cocktails & Digestifs",
+                category_type: "drink",
+                display_label: "Tontine Cocktails & Digestifs",
                 items: [
-                    { name: "Cocktail Signature Pandan & Gin", price: "13.00€" },
-                    { name: "Sichuan Negroni", price: "12.00€" },
-                    { name: "Infusion Maison Hibiscus & Gingembre", price: "5.50€" },
-                    { name: "Café Filtre de Terroir", price: "4.00€" },
-                    { name: "Cognac de Propriété", price: "10.00€" }
+                    { name: "Cocktail Signature Pandan & Gin", price_cents: 1300 },
+                    { name: "Sichuan Negroni", price_cents: 1200 },
+                    { name: "Infusion Maison Hibiscus & Gingembre", price_cents: 550 },
+                    { name: "Café Filtre de Terroir", price_cents: 400 },
+                    { name: "Cognac de Propriété", price_cents: 1000 }
                 ]
             }
         ]

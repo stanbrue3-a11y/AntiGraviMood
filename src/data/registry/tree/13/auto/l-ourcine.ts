@@ -42,42 +42,46 @@ export const l_ourcine: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Créations du Marché",
+        category_type: "main",
+        display_label: "Les Plats : Créations du Marché",
         items: [
-          { name: "Joue de bœuf fondante au jus", price: "21.00€" },
-          { name: "Faux-filet rôti, oignon confit", price: "24.00€" },
-          { name: "Noix de St-Jacques snackées", price: "25.00€" },
-          { name: "Dos de lieu jaune au beurre foin", price: "22.00€" },
-          { name: "Magret de canard rôti au miel", price: "23.00€" },
-          { name: "Dos de cabillaud à la plancha", price: "21.00€" }
+          { name: "Joue de bœuf fondante au jus", price_cents: 2100 },
+          { name: "Faux-filet rôti, oignon confit", price_cents: 2400 },
+          { name: "Noix de St-Jacques snackées", price_cents: 2500 },
+          { name: "Dos de lieu jaune au beurre foin", price_cents: 2200 },
+          { name: "Magret de canard rôti au miel", price_cents: 2300 },
+          { name: "Dos de cabillaud à la plancha", price_cents: 2100 }
         ]
       },
       {
-        category: "Entrées : Retour de l'Océan & Terre",
+        category_type: "starter",
+        display_label: "Entrées : Retour de l'Océan & Terre",
         items: [
-          { name: "Bisque d'homard, crème estragon", price: "12.00€" },
-          { name: "Raviole de langoustine au thym", price: "14.00€" },
-          { name: "Carpaccio de St-Jacques agrumes", price: "15.00€" },
-          { name: "Velouté de châtaigne & œuf parfait", price: "9.00€" },
-          { name: "Pressé de kakoo fermier", price: "10.00€" }
+          { name: "Bisque d'homard, crème estragon", price_cents: 1200 },
+          { name: "Raviole de langoustine au thym", price_cents: 1400 },
+          { name: "Carpaccio de St-Jacques agrumes", price_cents: 1500 },
+          { name: "Velouté de châtaigne & œuf parfait", price_cents: 900 },
+          { name: "Pressé de kakoo fermier", price_cents: 1000 }
         ]
       },
       {
-        category: "Douceurs : Signatures Sucrées",
+        category_type: "dessert",
+        display_label: "Douceurs : Signatures Sucrées",
         items: [
-          { name: "Baba aux oranges & épices", price: "9.00€" },
-          { name: "Cheesecake mangue & fruits rouges", price: "8.00€" },
-          { name: "Panna cotta aux épices douces", price: "7.50€" },
-          { name: "Traditionnels pots de crème vanille", price: "7.00€" }
+          { name: "Baba aux oranges & épices", price_cents: 900 },
+          { name: "Cheesecake mangue & fruits rouges", price_cents: 800 },
+          { name: "Panna cotta aux épices douces", price_cents: 750 },
+          { name: "Traditionnels pots de crème vanille", price_cents: 700 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Verre de Chardonnay (Sélect)", price: "7.00€" },
-          { name: "Bière artisanale locale (33cl)", price: "7.50€" },
-          { name: "Café expresso torréfié", price: "2.80€" },
-          { name: "Eau minérale (Bouteille)", price: "5.00€" }
+          { name: "Verre de Chardonnay (Sélect)", price_cents: 700 },
+          { name: "Bière artisanale locale (33cl)", price_cents: 750 },
+          { name: "Café expresso torréfié", price_cents: 280 },
+          { name: "Eau minérale (Bouteille)", price_cents: 500 }
         ]
       }
     ]

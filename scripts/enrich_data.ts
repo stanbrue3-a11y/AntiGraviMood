@@ -146,18 +146,17 @@ async function enrich() {
 
         menuItems.forEach((cat: any) => {
             const prices = cat.items
-              .map((i: any) => parseFloat(i.price.replace('€', '').replace(',', '.')))
+              .map((i: any) => i.price_cents ? i.price_cents / 100 : parseFloat((i.price || '').replace('€', '').replace(',', '.')))
               .filter((p: number) => !isNaN(p) && p > 0);
             
             // Éveil des Formules (Fix Moulin de la Vierge / Pont Aven)
-            // On cherche "Formule" ou "Menu" ou "Satiété" dans le NOM de l'item
             const formulaPrices = cat.items
               .filter((i: any) => {
                 const n = i.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
                 return n.includes('formule') || n.includes('menu') || n.includes('satiete');
               })
-              .map((i: any) => parseFloat(i.price.replace('€', '').replace(',', '.')))
-              .filter((p: number) => !isNaN(p));
+              .map((i: any) => i.price_cents ? i.price_cents / 100 : parseFloat((i.price || '').replace('€', '').replace(',', '.')))
+              .filter((p: number) => !isNaN(p) && p > 0);
             
             let catMedian = calculateMedian(prices);
             let relevantPrices = prices;
@@ -167,7 +166,17 @@ async function enrich() {
               relevantPrices = formulaPrices; // Satiety Filtering: only formulas matter here
             }
 
-            let type = classifyCategory(cat.category, catMedian);
+            // Map V2 category_type directly to UnitType
+            const mapType: Record<string, UnitType> = {
+                'starter': 'STARTER',
+                'main': 'MAIN',
+                'dessert': 'DESSERT',
+                'drink': 'DRINK',
+                'sharing': 'TAPAS',
+                'tasting_menu': 'MENU',
+                'other': 'UNKNOWN'
+            };
+            let type = mapType[cat.category_type || 'other'] || 'UNKNOWN';
             
             // Correction Gastro-Sharing (Orgueil Fix) / Tapas
             const budget = registryPlace?.pricing?.avg_budget || 0;
@@ -180,7 +189,7 @@ async function enrich() {
             }
 
             if (!sectionMap.has(type)) sectionMap.set(type, []);
-            sectionMap.get(type)!.push({ category: cat.category, items: cat.items, median: catMedian, relevantPrices });
+            sectionMap.get(type)!.push({ category: cat.display_label || type, items: cat.items, median: catMedian, relevantPrices });
         });
 
         // Reconstruction du Menu Normalisé (UI Moderne & Sexy)

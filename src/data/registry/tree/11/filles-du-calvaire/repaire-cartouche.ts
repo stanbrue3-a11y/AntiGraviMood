@@ -42,42 +42,46 @@ export const repaire_cartouche: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules & Menus",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus",
                 items: [
                     // VERIFIED: Sites & Articles 2024-2025
-                    { name: "Menu Déjeuner (semaine)", price: "30.00€" },
-                    { name: "Brunch du Dimanche", price: "54.00€", description: "Le fameux poulet rôti frites du dimanche." }
+                    { name: "Menu Déjeuner (semaine)", price_cents: 3000 },
+                    { name: "Brunch du Dimanche", price_cents: 5400, description: "Le fameux poulet rôti frites du dimanche." }
                 ]
             },
             {
-                category: "Spécialités de la maison (Entrées)",
+                category_type: "starter",
+                display_label: "Spécialités de la maison (Entrées)",
                 items: [
-                    { name: "Pâté en croûte de Rodolphe Paquin", price: "18.00€", description: "La légende de la maison." },
-                    { name: "Terrine de boudin noir", price: "16.00€" },
-                    { name: "Terrine de lièvre (Saison)", price: "17.00€" },
-                    { name: "Pâté de campagne maison", price: "12.00€" },
-                    { name: "Salade d'oreilles de cochon", price: "15.00€" },
-                    { name: "Huîtres N°3 (les 6)", price: "18.00€" }
+                    { name: "Pâté en croûte de Rodolphe Paquin", price_cents: 1800, description: "La légende de la maison." },
+                    { name: "Terrine de boudin noir", price_cents: 1600 },
+                    { name: "Terrine de lièvre (Saison)", price_cents: 1700 },
+                    { name: "Pâté de campagne maison", price_cents: 1200 },
+                    { name: "Salade d'oreilles de cochon", price_cents: 1500 },
+                    { name: "Huîtres N°3 (les 6)", price_cents: 1800 }
                 ]
             },
             {
-                category: "Gibiers & Viandes (Plats)",
+                category_type: "main",
+                display_label: "Gibiers & Viandes (Plats)",
                 items: [
-                    { name: "Lièvre à la Royale (en saison)", price: "45.00€" },
-                    { name: "Côte de veau de Normandie au cidre", price: "35.00€" },
-                    { name: "Parmentier de sanglier", price: "28.00€" },
-                    { name: "Gigot d'agneau rôti à l'ail en chemise", price: "32.00€" },
-                    { name: "Sole meunière poêlée au beurre", price: "42.00€" }
+                    { name: "Lièvre à la Royale (en saison)", price_cents: 4500 },
+                    { name: "Côte de veau de Normandie au cidre", price_cents: 3500 },
+                    { name: "Parmentier de sanglier", price_cents: 2800 },
+                    { name: "Gigot d'agneau rôti à l'ail en chemise", price_cents: 3200 },
+                    { name: "Sole meunière poêlée au beurre", price_cents: 4200 }
                 ]
             },
             {
-                category: "Fromages & Desserts",
+                category_type: "dessert",
+                display_label: "Fromages & Desserts",
                 items: [
-                    { name: "Assiette de fromages affinés", price: "12.00€" },
-                    { name: "Clafoutis aux pommes", price: "10.00€" },
-                    { name: "Mousse au chocolat noir et gingembre", price: "11.00€" },
-                    { name: "Tarte Tatin maison", price: "11.00€" },
-                    { name: "Eau micro-filtrée (75cl)", price: "4.50€" }
+                    { name: "Assiette de fromages affinés", price_cents: 1200 },
+                    { name: "Clafoutis aux pommes", price_cents: 1000 },
+                    { name: "Mousse au chocolat noir et gingembre", price_cents: 1100 },
+                    { name: "Tarte Tatin maison", price_cents: 1100 },
+                    { name: "Eau micro-filtrée (75cl)", price_cents: 450 }
                 ]
             }
         ]

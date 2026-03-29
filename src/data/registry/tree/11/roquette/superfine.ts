@@ -42,64 +42,69 @@ export const superfine: SurgicalPlace = {
         last_updated: "2026-03-09",
         menu_items: [
             {
-                category: "Sexy Street Food (Les Incontournables)",
+                category_type: "other",
+                display_label: "Sexy Street Food (Les Incontournables)",
                 items: [
-                    { name: "Superdog", price: "13.00€", description: "Saucisse volaille, oignons Guinness, relish curcuma, cheddar gratiné." },
-                    { name: "Eggplant Katsu Burger", price: "12.00€", description: "Ketchup miso, chou blanc fermenté, brioche toastée." },
-                    { name: "Puff Pizza Ricotta & Harissa", price: "13.00€", description: "Pâte aérienne, sauce beurre-harissa, miel." },
-                    { name: "Puff Pizza Pepperoni", price: "15.00€", description: "Crème de ricotta, provolone, pepperoni piquant." },
-                    { name: "Pasta al Ragù Bianco", price: "14.50€", description: "Pâtes fraîches, ragù blanc, espuma parmesan." },
-                    { name: "Crispy Po'Boy", price: "14.00€", description: "Crevettes frites, sauce cajun, pickles maison." },
-                    { name: "Fried Chicken & Hot Honey", price: "12.50€" },
-                    { name: "Cheeseburger Superfine", price: "13.00€" }
+                    { name: "Superdog", price_cents: 1300, description: "Saucisse volaille, oignons Guinness, relish curcuma, cheddar gratiné." },
+                    { name: "Eggplant Katsu Burger", price_cents: 1200, description: "Ketchup miso, chou blanc fermenté, brioche toastée." },
+                    { name: "Puff Pizza Ricotta & Harissa", price_cents: 1300, description: "Pâte aérienne, sauce beurre-harissa, miel." },
+                    { name: "Puff Pizza Pepperoni", price_cents: 1500, description: "Crème de ricotta, provolone, pepperoni piquant." },
+                    { name: "Pasta al Ragù Bianco", price_cents: 1450, description: "Pâtes fraîches, ragù blanc, espuma parmesan." },
+                    { name: "Crispy Po'Boy", price_cents: 1400, description: "Crevettes frites, sauce cajun, pickles maison." },
+                    { name: "Fried Chicken & Hot Honey", price_cents: 1250 },
+                    { name: "Cheeseburger Superfine", price_cents: 1300 }
                 ]
             },
             {
-                category: "Bites & Sides (À partager)",
+                category_type: "sharing",
+                display_label: "Bites & Sides (À partager)",
                 items: [
-                    { name: "Shiitake Mushroom Skewers", price: "9.00€", description: "Brochettes de shiitake laquées soja-gingembre." },
-                    { name: "Reimagined Caesar Salad", price: "9.00€" },
-                    { name: "Dirty Fries Superfine", price: "7.00€" },
-                    { name: "Pickles de légumes de saison", price: "5.00€" },
-                    { name: "Croquettes de Cochon & Mayo fumée", price: "8.50€" },
-                    { name: "Burrata, Huile de Basilic & Noisettes", price: "11.00€" },
-                    { name: "Maïs Grillé, Beurre de Miso & Furikake", price: "7.50€" }
+                    { name: "Shiitake Mushroom Skewers", price_cents: 900, description: "Brochettes de shiitake laquées soja-gingembre." },
+                    { name: "Reimagined Caesar Salad", price_cents: 900 },
+                    { name: "Dirty Fries Superfine", price_cents: 700 },
+                    { name: "Pickles de légumes de saison", price_cents: 500 },
+                    { name: "Croquettes de Cochon & Mayo fumée", price_cents: 850 },
+                    { name: "Burrata, Huile de Basilic & Noisettes", price_cents: 1100 },
+                    { name: "Maïs Grillé, Beurre de Miso & Furikake", price_cents: 750 }
                 ]
             },
             {
-                category: "Cocktails Signature (L'Alchimie)",
+                category_type: "drink",
+                display_label: "Cocktails Signature (L'Alchimie)",
                 items: [
-                    { name: "Absinthe Gimlet", price: "14.00€", description: "Absinthe, amaretto blanc, citron, sauge." },
-                    { name: "Not A Bloody Mary", price: "14.00€", description: "Mezcal, dashi, ananas, céleri, harissa." },
-                    { name: "White Forest Martini", price: "14.00€", description: "Gin, vodka, sake, liqueur de sapin, estragon." },
-                    { name: "PB&B Milkshake (Boozy)", price: "13.50€", description: "Bourbon, peanut butter, banane, vanille, chantilly fumée." },
-                    { name: "Butter Not Texture", price: "14.00€", description: "Gin, shochu d'orge, sarrasin, butternut." },
-                    { name: "Fortunella Spritz", price: "12.00€" },
-                    { name: "New College (Cognac & Olive)", price: "14.00€" },
-                    { name: "Super-Negroni (Barrel aged)", price: "13.00€" },
-                    { name: "Mezcal Mule", price: "12.00€" },
-                    { name: "Espresso Martini Superfine", price: "12.00€" }
+                    { name: "Absinthe Gimlet", price_cents: 1400, description: "Absinthe, amaretto blanc, citron, sauge." },
+                    { name: "Not A Bloody Mary", price_cents: 1400, description: "Mezcal, dashi, ananas, céleri, harissa." },
+                    { name: "White Forest Martini", price_cents: 1400, description: "Gin, vodka, sake, liqueur de sapin, estragon." },
+                    { name: "PB&B Milkshake (Boozy)", price_cents: 1350, description: "Bourbon, peanut butter, banane, vanille, chantilly fumée." },
+                    { name: "Butter Not Texture", price_cents: 1400, description: "Gin, shochu d'orge, sarrasin, butternut." },
+                    { name: "Fortunella Spritz", price_cents: 1200 },
+                    { name: "New College (Cognac & Olive)", price_cents: 1400 },
+                    { name: "Super-Negroni (Barrel aged)", price_cents: 1300 },
+                    { name: "Mezcal Mule", price_cents: 1200 },
+                    { name: "Espresso Martini Superfine", price_cents: 1200 }
                 ]
             },
             {
-                category: "Softs & Mocktails",
+                category_type: "other",
+                display_label: "Softs & Mocktails",
                 items: [
-                    { name: "Mocktail Curry & Amande", price: "10.00€" },
-                    { name: "Mocktail Cardamome & Café", price: "10.00€" },
-                    { name: "Limonade artisanale (citron-gingembre)", price: "6.00€" },
-                    { name: "Thé Glacé Maison (pêche-verveine)", price: "6.00€" },
-                    { name: "Cola Baladin (Artisanal)", price: "5.50€" }
+                    { name: "Mocktail Curry & Amande", price_cents: 1000 },
+                    { name: "Mocktail Cardamome & Café", price_cents: 1000 },
+                    { name: "Limonade artisanale (citron-gingembre)", price_cents: 600 },
+                    { name: "Thé Glacé Maison (pêche-verveine)", price_cents: 600 },
+                    { name: "Cola Baladin (Artisanal)", price_cents: 550 }
                 ]
             },
             {
-                category: "Beers & Natural Wines",
+                category_type: "other",
+                display_label: "Beers & Natural Wines",
                 items: [
-                    { name: "Pression : Guinness (33cl)", price: "8.00€" },
-                    { name: "Pression : NEIPA Cloudy Job (33cl)", price: "8.00€" },
-                    { name: "Can : Fauve Craft Beer (33cl)", price: "9.00€" },
-                    { name: "Vin Naturel Rouge (Verre)", price: "8.50€" },
-                    { name: "Vin Naturel Orange (Verre)", price: "9.50€" },
-                    { name: "Bouteille Vin Naturel (à partir de)", price: "38.00€" }
+                    { name: "Pression : Guinness (33cl)", price_cents: 800 },
+                    { name: "Pression : NEIPA Cloudy Job (33cl)", price_cents: 800 },
+                    { name: "Can : Fauve Craft Beer (33cl)", price_cents: 900 },
+                    { name: "Vin Naturel Rouge (Verre)", price_cents: 850 },
+                    { name: "Vin Naturel Orange (Verre)", price_cents: 950 },
+                    { name: "Bouteille Vin Naturel (à partir de)", price_cents: 3800 }
                 ]
             }
         ]

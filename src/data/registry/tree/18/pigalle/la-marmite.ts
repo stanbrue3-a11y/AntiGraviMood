@@ -64,67 +64,75 @@ export const la_marmite: SurgicalPlace = {
         // VERIFIED: site officiel lamarmiteparis.fr — menu complet avec prix
         "menu_items": [
             {
-                "category": "Cafés",
+                "category_type": "other",
+                "display_label": "Cafés",
                 "items": [
-                    { "name": "Café", "price": "2,20€" },
-                    { "name": "Café allongé", "price": "2,50€" },
-                    { "name": "Café crème", "price": "4,00€" },
-                    { "name": "Cappuccino", "price": "4,50€" },
-                    { "name": "Café / Café allongé après 18h", "price": "3,50€" }
+                    { "name": "Café", "price_cents": 220 },
+                    { "name": "Café allongé", "price_cents": 250 },
+                    { "name": "Café crème", "price_cents": 400 },
+                    { "name": "Cappuccino", "price_cents": 450 },
+                    { "name": "Café / Café allongé après 18h", "price_cents": 350 }
                 ]
             },
             {
-                "category": "Cocktails",
+                "category_type": "drink",
+                "display_label": "Cocktails",
                 "items": [
-                    { "name": "Cocktails alcoolisés (Apérol Spritz, Gin Fizz, Mojito...)", "price": "8,00€" },
-                    { "name": "Cocktails sans alcool", "price": "6,00€" },
-                    { "name": "Tous cocktails en Happy Hour (16h-23h)", "price": "5,00€" }
+                    { "name": "Cocktails alcoolisés (Apérol Spritz, Gin Fizz, Mojito...)", "price_cents": 800 },
+                    { "name": "Cocktails sans alcool", "price_cents": 600 },
+                    { "name": "Tous cocktails en Happy Hour (16h-23h)", "price_cents": 500 }
                 ]
             },
             {
-                "category": "Bières",
+                "category_type": "other",
+                "display_label": "Bières",
                 "items": [
-                    { "name": "Pinte Kanterbrau (Happy Hour)", "price": "5,00€" }
+                    { "name": "Pinte Kanterbrau (Happy Hour)", "price_cents": 500 }
                 ]
             },
             {
-                "category": "Happy Hour (16h-23h)",
+                "category_type": "drink",
+                "display_label": "Happy Hour (16h-23h)",
                 "items": [
-                    { "name": "Coupe de Champagne", "price": "6,00€" },
-                    { "name": "Tous les cocktails", "price": "5,00€" },
-                    { "name": "Pinte Kanterbrau", "price": "5,00€" }
+                    { "name": "Coupe de Champagne", "price_cents": 600 },
+                    { "name": "Tous les cocktails", "price_cents": 500 },
+                    { "name": "Pinte Kanterbrau", "price_cents": 500 }
                 ]
             },
             {
-                "category": "Eaux minérales",
+                "category_type": "other",
+                "display_label": "Eaux minérales",
                 "items": [
-                    { "name": "Perrier 33cl", "price": "4,00€" },
-                    { "name": "Evian 25cl", "price": "3,50€" },
-                    { "name": "Evian 50cl", "price": "4,50€" },
-                    { "name": "Badoit", "price": "4,50€" }
+                    { "name": "Perrier 33cl", "price_cents": 400 },
+                    { "name": "Evian 25cl", "price_cents": 350 },
+                    { "name": "Evian 50cl", "price_cents": 450 },
+                    { "name": "Badoit", "price_cents": 450 }
                 ]
             },
             {
-                "category": "Pâtes",
+                "category_type": "other",
+                "display_label": "Pâtes",
                 "items": [
-                    { "name": "Spaghetti bolognaise", "price": "13,50€" },
-                    { "name": "Lasagnes bolognaises", "price": "13,50€" },
-                    { "name": "Tagliatelles au saumon", "price": "12,50€" },
-                    { "name": "Tagliatelles carbonara", "price": "12,50€" },
-                    { "name": "Penne aux 3 fromages", "price": "12,00€" }
+                    { "name": "Spaghetti bolognaise", "price_cents": 1350 },
+                    { "name": "Lasagnes bolognaises", "price_cents": 1350 },
+                    { "name": "Tagliatelles au saumon", "price_cents": 1250 },
+                    { "name": "Tagliatelles carbonara", "price_cents": 1250 },
+                    { "name": "Penne aux 3 fromages", "price_cents": 1200 }
                 ]
             },
             {
-                "category": "Plats",
+                "category_type": "main",
+                "display_label": "Plats",
                 "items": [
-                    { "name": "Plat du jour", "price": "14,50€" },
-                    { "name": "Formule express midi (entrée+plat ou plat+dessert)", "price": "19,50€", "description": "VERIFIED: Google review valéry (3 mois)" }
+                    { "name": "Plat du jour", "price_cents": 1450 },
+                    { "name": "Formule express midi (entrée+plat ou plat+dessert)", "price_cents": 1950, "description": "VERIFIED: Google review valéry (3 mois)" }
                 ]
             },
             {
-                "category": "Menu Enfant",
+                "category_type": "tasting_menu",
+                "display_label": "Menu Enfant",
                 "items": [
-                    { "name": "Plat + Dessert (Nuggets frites ou Spaghetti bolo + 2 boules glace)", "price": "13,00€" }
+                    { "name": "Plat + Dessert (Nuggets frites ou Spaghetti bolo + 2 boules glace)", "price_cents": 1300 }
                 ]
             }
         ],

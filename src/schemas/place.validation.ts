@@ -92,12 +92,16 @@ export const PlacePricingSchema = z
     menu_items: z
       .array(
         z.object({
-          category: z.string().optional().nullable(),
+          category_type: z.enum(['starter', 'main', 'dessert', 'sharing', 'drink', 'tasting_menu', 'other']),
+          display_label: z.string(),
           items: z.array(
             z.object({
               name: z.string(),
-              price: z.union([z.string(), z.number()]).transform(String),
+              price_cents: z.number().optional().nullable(),
+              price: z.union([z.string(), z.number()]).transform(String).optional().nullable(),
               description: z.string().optional().nullable(),
+              is_highlight: z.boolean().optional().nullable(),
+              format: z.enum(['assiette', 'verre', 'bouteille', 'planche']).optional().nullable()
             }),
           ),
         }),

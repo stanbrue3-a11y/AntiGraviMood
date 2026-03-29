@@ -39,38 +39,41 @@ export const sokcho: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Entrées & Tapas Japonais",
+        category_type: "starter",
+        display_label: "Entrées & Tapas Japonais",
         items: [
-          { name: "Tataki de bœuf Wagyu", price: "18.00€", description: "Fines tranches saisies, sauce ponzu" },
-          { name: "Gyoza au bœuf (x5)", price: "10.00€" },
-          { name: "Salade d'algues Wakame", price: "7.00€" },
-          { name: "Edamame fleur de sel", price: "6.00€" },
-          { name: "Carpaccio de Sériole au Yuzu", price: "16.00€" },
-          { name: "Tartare de Saumon & Avocat", price: "14.50€" }
+          { name: "Tataki de bœuf Wagyu", price_cents: 1800, description: "Fines tranches saisies, sauce ponzu" },
+          { name: "Gyoza au bœuf (x5)", price_cents: 1000 },
+          { name: "Salade d'algues Wakame", price_cents: 700 },
+          { name: "Edamame fleur de sel", price_cents: 600 },
+          { name: "Carpaccio de Sériole au Yuzu", price_cents: 1600 },
+          { name: "Tartare de Saumon & Avocat", price_cents: 1450 }
         ]
       },
       {
-        category: "La Sélection du Boucher (Plats Grill)",
+        category_type: "main",
+        display_label: "La Sélection du Boucher (Plats Grill)",
         items: [
-          { name: "Faux-filet Wagyu Japonais (100g)", price: "45.00€", description: "Persillage exceptionnel A4/A5" },
-          { name: "Entrecôte Wagyu Australie (200g)", price: "52.00€" },
-          { name: "Bavette d'aloyau Black Angus", price: "24.00€" },
-          { name: "Magret de canard laqué au Miso", price: "26.00€" },
-          { name: "Filet de Saumon Teriyaki", price: "22.00€" },
-          { name: "Mixed Grill Sokcho (Sélection)", price: "38.00€" },
-          { name: "Bœuf au fromage (x3)", price: "12.00€" },
-          { name: "Poulet Teriyaki", price: "19.50€" }
+          { name: "Faux-filet Wagyu Japonais (100g)", price_cents: 4500, description: "Persillage exceptionnel A4/A5" },
+          { name: "Entrecôte Wagyu Australie (200g)", price_cents: 5200 },
+          { name: "Bavette d'aloyau Black Angus", price_cents: 2400 },
+          { name: "Magret de canard laqué au Miso", price_cents: 2600 },
+          { name: "Filet de Saumon Teriyaki", price_cents: 2200 },
+          { name: "Mixed Grill Sokcho (Sélection)", price_cents: 3800 },
+          { name: "Bœuf au fromage (x3)", price_cents: 1200 },
+          { name: "Poulet Teriyaki", price_cents: 1950 }
         ]
       },
       {
-        category: "Accompagnements & Desserts",
+        category_type: "dessert",
+        display_label: "Accompagnements & Desserts",
         items: [
-          { name: "Riz sauté à l'ail et ciboulette", price: "6.50€" },
-          { name: "Légumes de saison grillés au Teppan", price: "8.00€" },
-          { name: "Purée de pomme de terre au Wasabi", price: "7.50€" },
-          { name: "Mochi glacé (x3)", price: "9.00€" },
-          { name: "Cheesecake au Thé Vert Matcha", price: "10.00€" },
-          { name: "Fondant au Chocolat & Sésame noir", price: "9.50€" }
+          { name: "Riz sauté à l'ail et ciboulette", price_cents: 650 },
+          { name: "Légumes de saison grillés au Teppan", price_cents: 800 },
+          { name: "Purée de pomme de terre au Wasabi", price_cents: 750 },
+          { name: "Mochi glacé (x3)", price_cents: 900 },
+          { name: "Cheesecake au Thé Vert Matcha", price_cents: 1000 },
+          { name: "Fondant au Chocolat & Sésame noir", price_cents: 950 }
         ]
       }
     ]

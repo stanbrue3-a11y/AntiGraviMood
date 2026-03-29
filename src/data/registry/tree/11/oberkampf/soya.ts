@@ -45,30 +45,33 @@ export const soya: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Soya Cantine Bio 2024-2025
             {
-                category: "Entrées Véganes",
+                category_type: "starter",
+                display_label: "Entrées Véganes",
                 items: [
-                    { name: "Houmous au Dukkah & gomasio", price: "9.00€" },
-                    { name: "Tartare d'algues fraîches", price: "10.00€" },
-                    { name: "Mozza'Cajou (mozzarella de cajou maison)", price: "12.00€" },
-                    { name: "Rouleaux de Printemps (x2)", price: "9.00€" }
+                    { name: "Houmous au Dukkah & gomasio", price_cents: 900 },
+                    { name: "Tartare d'algues fraîches", price_cents: 1000 },
+                    { name: "Mozza'Cajou (mozzarella de cajou maison)", price_cents: 1200 },
+                    { name: "Rouleaux de Printemps (x2)", price_cents: 900 }
                 ]
             },
             {
-                category: "Les Plats",
+                category_type: "main",
+                display_label: "Les Plats",
                 items: [
-                    { name: "Grand Mezze de Soya", price: "22.00€", description: "L'assiette signature : houmous, caviar de légumes, makis, falafels, crudités." },
-                    { name: "Lasagne Végétale au pesto de cajou", price: "19.00€" },
-                    { name: "Bi Bim Bap 100% végétal", price: "19.00€" },
-                    { name: "Curry Masala au lait de coco", price: "19.00€" },
-                    { name: "Maxi Salade complète", price: "18.00€" }
+                    { name: "Grand Mezze de Soya", price_cents: 2200, description: "L'assiette signature : houmous, caviar de légumes, makis, falafels, crudités." },
+                    { name: "Lasagne Végétale au pesto de cajou", price_cents: 1900 },
+                    { name: "Bi Bim Bap 100% végétal", price_cents: 1900 },
+                    { name: "Curry Masala au lait de coco", price_cents: 1900 },
+                    { name: "Maxi Salade complète", price_cents: 1800 }
                 ]
             },
             {
-                category: "Douceurs Bio",
+                category_type: "dessert",
+                display_label: "Douceurs Bio",
                 items: [
-                    { name: "Moelleux chocolat noir & fleur de sel", price: "8.50€" },
-                    { name: "Crumble aux fruits de saison", price: "8.50€" },
-                    { name: "Brunch Buffet (Dimanche uniquement)", price: "35.00€" }
+                    { name: "Moelleux chocolat noir & fleur de sel", price_cents: 850 },
+                    { name: "Crumble aux fruits de saison", price_cents: 850 },
+                    { name: "Brunch Buffet (Dimanche uniquement)", price_cents: 3500 }
                 ]
             }
         ]

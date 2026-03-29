@@ -42,56 +42,61 @@ export const tang_gourmet: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Rôtisserie Emblématique : Plats à la coupe",
+        category_type: "main",
+        display_label: "Rôtisserie Emblématique : Plats à la coupe",
         items: [
-          { name: "Canard Laqué Entier (Sauce 5 épices)", price: "24.50€", highlight: true },
-          { name: "Demi Canard Laqué", price: "12.50€" },
-          { name: "Porc Laqué (Char Siu) - 500g", price: "13.50€", highlight: true },
-          { name: "Porc Croustillant (Poitrine frite) - 500g", price: "14.00€" },
-          { name: "Canard rôti à la Cantonaise (Portion)", price: "10.80€" }
+          { name: "Canard Laqué Entier (Sauce 5 épices)", price_cents: 2450, is_highlight: true },
+          { name: "Demi Canard Laqué", price_cents: 1250 },
+          { name: "Porc Laqué (Char Siu) - 500g", price_cents: 1350, is_highlight: true },
+          { name: "Porc Croustillant (Poitrine frite) - 500g", price_cents: 1400 },
+          { name: "Canard rôti à la Cantonaise (Portion)", price_cents: 1080 }
         ]
       },
       {
-        category: "Plats Traiteur & Satiété",
+        category_type: "main",
+        display_label: "Plats Traiteur & Satiété",
         items: [
-          { name: "Riz Canard Laqué (Plat complet)", price: "14.50€", highlight: true },
-          { name: "Riz Porc Laqué", price: "14.50€" },
-          { name: "Riz Cantonais Classique (Portion 400g)", price: "14.50€" },
-          { name: "Pad Thaï Crevettes Traiteur", price: "14.50€" },
-          { name: "Nouilles sautées aux Légumes (400g)", price: "14.50€" },
-          { name: "Bœuf aux Oignons & Riz blanc", price: "13.50€" },
-          { name: "Poulet au Curry Coco & Riz", price: "13.50€" }
+          { name: "Riz Canard Laqué (Plat complet)", price_cents: 1450, is_highlight: true },
+          { name: "Riz Porc Laqué", price_cents: 1450 },
+          { name: "Riz Cantonais Classique (Portion 400g)", price_cents: 1450 },
+          { name: "Pad Thaï Crevettes Traiteur", price_cents: 1450 },
+          { name: "Nouilles sautées aux Légumes (400g)", price_cents: 1450 },
+          { name: "Bœuf aux Oignons & Riz blanc", price_cents: 1350 },
+          { name: "Poulet au Curry Coco & Riz", price_cents: 1350 }
         ]
       },
       {
-        category: "Bouchées Vapeur & Brioches : Entrées Dim Sum",
+        category_type: "starter",
+        display_label: "Bouchées Vapeur & Brioches : Entrées Dim Sum",
         items: [
-          { name: "Bao Zi au Porc Laqué (Grosse brioche)", price: "3.50€", highlight: true },
-          { name: "Bao Zi au Porc Haché", price: "3.50€" },
-          { name: "Ha Kao (Raviolis crevettes x4)", price: "8.50€" },
-          { name: "Siu Mai (Bouchées porc/crevettes x4)", price: "8.00€" },
-          { name: "Nems au Porc Traiteur (x5)", price: "8.50€" },
-          { name: "Rouleaux de Printemps Frais (x2)", price: "7.00€" }
+          { name: "Bao Zi au Porc Laqué (Grosse brioche)", price_cents: 350, is_highlight: true },
+          { name: "Bao Zi au Porc Haché", price_cents: 350 },
+          { name: "Ha Kao (Raviolis crevettes x4)", price_cents: 850 },
+          { name: "Siu Mai (Bouchées porc/crevettes x4)", price_cents: 800 },
+          { name: "Nems au Porc Traiteur (x5)", price_cents: 850 },
+          { name: "Rouleaux de Printemps Frais (x2)", price_cents: 700 }
         ]
       },
       {
-        category: "Sandwichs & Snacking Asia : Plats sur le pouce",
+        category_type: "main",
+        display_label: "Sandwichs & Snacking Asia : Plats sur le pouce",
         items: [
-          { name: "Bánh Mì Spécial Tang (Pâté, Porc)", price: "8.50€" },
-          { name: "Bánh Mì au Poulet Citronnelle", price: "8.50€" },
-          { name: "Samoussa au Bœuf (la pièce)", price: "2.50€" },
-          { name: "Beignet de Crevette (la pièce)", price: "2.80€" }
+          { name: "Bánh Mì Spécial Tang (Pâté, Porc)", price_cents: 850 },
+          { name: "Bánh Mì au Poulet Citronnelle", price_cents: 850 },
+          { name: "Samoussa au Bœuf (la pièce)", price_cents: 250 },
+          { name: "Beignet de Crevette (la pièce)", price_cents: 280 }
         ]
       },
       {
-        category: "Douceurs & Boissons Asia",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons Asia",
         items: [
-          { name: "Perle de Coco (x2)", price: "4.50€" },
-          { name: "Nougat Chinois au Sésame", price: "4.00€" },
-          { name: "Gelée de Herbes (Boîte)", price: "3.50€" },
-          { name: "Boisson au Soja (Brique)", price: "2.50€" },
-          { name: "Thé Vert Oolong (Canette)", price: "3.50€" },
-          { name: "Jus de Lychee Frais", price: "4.50€" }
+          { name: "Perle de Coco (x2)", price_cents: 450 },
+          { name: "Nougat Chinois au Sésame", price_cents: 400 },
+          { name: "Gelée de Herbes (Boîte)", price_cents: 350 },
+          { name: "Boisson au Soja (Brique)", price_cents: 250 },
+          { name: "Thé Vert Oolong (Canette)", price_cents: 350 },
+          { name: "Jus de Lychee Frais", price_cents: 450 }
         ]
       }
     ]

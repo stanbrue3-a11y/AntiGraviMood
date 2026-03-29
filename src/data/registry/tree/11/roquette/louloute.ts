@@ -43,58 +43,63 @@ export const louloute: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Apéritifs / Tapas (dès 17h30)",
+                category_type: "sharing",
+                display_label: "Apéritifs / Tapas (dès 17h30)",
                 items: [
                     // VERIFIED: louloute.paris (2024-2025)
-                    { name: "Guacamole, crudités à dipper", price: "9.00€" },
-                    { name: "Falafels (pois chiches, fèves, gouda cumin, sauce tahini harissa)", price: "9.00€" },
-                    { name: "Frites de polenta, ketchup maison", price: "8.00€" },
-                    { name: "Taquitos (poulet, tomates, aromates, cream cheese)", price: "12.00€" },
-                    { name: "Cromesquis de Mont d'Or", price: "11.00€" },
-                    { name: "Croquettes canard confit (style Korokke), sauce aigre-douce", price: "12.00€" },
-                    { name: "Crevettes très croustillantes, shiso, chutney abricot gingembre", price: "13.00€" }
+                    { name: "Guacamole, crudités à dipper", price_cents: 900 },
+                    { name: "Falafels (pois chiches, fèves, gouda cumin, sauce tahini harissa)", price_cents: 900 },
+                    { name: "Frites de polenta, ketchup maison", price_cents: 800 },
+                    { name: "Taquitos (poulet, tomates, aromates, cream cheese)", price_cents: 1200 },
+                    { name: "Cromesquis de Mont d'Or", price_cents: 1100 },
+                    { name: "Croquettes canard confit (style Korokke), sauce aigre-douce", price_cents: 1200 },
+                    { name: "Crevettes très croustillantes, shiso, chutney abricot gingembre", price_cents: 1300 }
                 ]
             },
             {
-                category: "Assiettes à partager (dès 18h30)",
+                category_type: "sharing",
+                display_label: "Assiettes à partager (dès 18h30)",
                 items: [
-                    { name: "Croustillant de chèvre, figues fraîches, miel, grenade", price: "11.00€" },
-                    { name: "Bruschetta (ail, tomates Datterino, basilic, courgettes snackées)", price: "11.00€" },
-                    { name: "Salade de freekeh, feta, figues, fruits secs, noisettes, pignons", price: "12.00€" },
-                    { name: "Beignets de fleurs de courgettes, mozzarella, anchois", price: "13.00€" },
-                    { name: "3 tortillas, houmous, cèpes grillés, poivrons, pesto", price: "13.00€" },
-                    { name: "Plateau de 3 pitas au kefta, sauce tahini", price: "14.00€" },
-                    { name: "Tartare de Bœuf, œuf de caille, bergamote, paille de patates", price: "15.00€" },
-                    { name: "Ceviche de Cabillaud, radis, gingembre, citron", price: "15.00€" },
-                    { name: "2 Bao buns O'fish, sauce tartare", price: "14.00€" },
-                    { name: "Poulpe snacké à la Levantine, batata harra coriandre", price: "16.00€" },
-                    { name: "Parmigiana d'aubergine aux boulettes, salade d'herbes", price: "15.00€" },
-                    { name: "Bœuf 'Tiger's tears' style, riz thaï", price: "17.00€" }
+                    { name: "Croustillant de chèvre, figues fraîches, miel, grenade", price_cents: 1100 },
+                    { name: "Bruschetta (ail, tomates Datterino, basilic, courgettes snackées)", price_cents: 1100 },
+                    { name: "Salade de freekeh, feta, figues, fruits secs, noisettes, pignons", price_cents: 1200 },
+                    { name: "Beignets de fleurs de courgettes, mozzarella, anchois", price_cents: 1300 },
+                    { name: "3 tortillas, houmous, cèpes grillés, poivrons, pesto", price_cents: 1300 },
+                    { name: "Plateau de 3 pitas au kefta, sauce tahini", price_cents: 1400 },
+                    { name: "Tartare de Bœuf, œuf de caille, bergamote, paille de patates", price_cents: 1500 },
+                    { name: "Ceviche de Cabillaud, radis, gingembre, citron", price_cents: 1500 },
+                    { name: "2 Bao buns O'fish, sauce tartare", price_cents: 1400 },
+                    { name: "Poulpe snacké à la Levantine, batata harra coriandre", price_cents: 1600 },
+                    { name: "Parmigiana d'aubergine aux boulettes, salade d'herbes", price_cents: 1500 },
+                    { name: "Bœuf 'Tiger's tears' style, riz thaï", price_cents: 1700 }
                 ]
             },
             {
-                category: "Grands plats du jour",
+                category_type: "main",
+                display_label: "Grands plats du jour",
                 items: [
-                    { name: "Plat du jour (viande ou poisson, change quotidiennement)", price: "19.00€" },
-                    { name: "Plat du jour végétarien", price: "15.00€" }
+                    { name: "Plat du jour (viande ou poisson, change quotidiennement)", price_cents: 1900 },
+                    { name: "Plat du jour végétarien", price_cents: 1500 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Tiramisu fraises, poivre, basilic", price: "8.00€" },
-                    { name: "Fondant pur chocolat, piment, glace à l'eau de rose", price: "8.00€" },
-                    { name: "Tiramisu café", price: "8.00€" },
-                    { name: "Profiteroles au chocolat", price: "8.00€" },
-                    { name: "Pandoro perdu au zeste d'orange", price: "8.00€" }
+                    { name: "Tiramisu fraises, poivre, basilic", price_cents: 800 },
+                    { name: "Fondant pur chocolat, piment, glace à l'eau de rose", price_cents: 800 },
+                    { name: "Tiramisu café", price_cents: 800 },
+                    { name: "Profiteroles au chocolat", price_cents: 800 },
+                    { name: "Pandoro perdu au zeste d'orange", price_cents: 800 }
                 ]
             },
             {
-                category: "Vins & Cocktails",
+                category_type: "drink",
+                display_label: "Vins & Cocktails",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "9.00€" },
-                    { name: "Cocktail création du barman", price: "12.00€" },
-                    { name: "Guinness pression", price: "8.00€" }
+                    { name: "Verre de vin nature (à partir de)", price_cents: 900 },
+                    { name: "Cocktail création du barman", price_cents: 1200 },
+                    { name: "Guinness pression", price_cents: 800 }
                 ]
             }
         ]

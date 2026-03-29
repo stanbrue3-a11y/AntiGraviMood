@@ -43,63 +43,68 @@ export const le_verre_vole: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes de la Cave (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes de la Cave (Entrées)",
         items: [
-          { name: "Boudin Noir Maison & Purée onctueuse", price: "17.00€", highlight: true },
-          { name: "Burrata des Pouilles & Huile d'Olive Extra", price: "14.50€", highlight: true },
-          { name: "Carpaccio de Bresaola & Copeaux de Parmesan", price: "12.00€" },
-          { name: "Caviar d'Aubergines & Anchois Fumés", price: "11.00€", highlight: true },
-          { name: "Terrine de Campagne Maison & Cornichons", price: "10.00€" },
-          { name: "Sardines Millésimées (Boîte) & Beurre Salé", price: "13.00€" },
-          { name: "Œufs Cocotte aux Champignons de Paris", price: "11.50€" },
-          { name: "Salade de Lentilles vertes & Feta AOP", price: "9.50€" }
+          { name: "Boudin Noir Maison & Purée onctueuse", price_cents: 1700, is_highlight: true },
+          { name: "Burrata des Pouilles & Huile d'Olive Extra", price_cents: 1450, is_highlight: true },
+          { name: "Carpaccio de Bresaola & Copeaux de Parmesan", price_cents: 1200 },
+          { name: "Caviar d'Aubergines & Anchois Fumés", price_cents: 1100, is_highlight: true },
+          { name: "Terrine de Campagne Maison & Cornichons", price_cents: 1000 },
+          { name: "Sardines Millésimées (Boîte) & Beurre Salé", price_cents: 1300 },
+          { name: "Œufs Cocotte aux Champignons de Paris", price_cents: 1150 },
+          { name: "Salade de Lentilles vertes & Feta AOP", price_cents: 950 }
         ]
       },
       {
-        category: "Cuisine de Marché (Plats)",
+        category_type: "main",
+        display_label: "Cuisine de Marché (Plats)",
         items: [
-          { name: "Saucisse au couteau (Ferme de Meyrinhac) & Purée", price: "19.00€", highlight: true },
-          { name: "Pavé de Cabillaud de Plouguerneau rôti", price: "24.00€" },
-          { name: "Merlu de la Cotinière à la plancha, Jus de viande", price: "25.00€", highlight: true },
-          { name: "Carré de Cochon du Perche pané Panko", price: "22.50€", highlight: true },
-          { name: "Tartare de Bœuf Charolais au couteau", price: "21.00€" },
-          { name: "Gnocchis Maison à la Sauge & Burrata fondante", price: "18.50€", highlight: true },
-          { name: "Épaule d'Agneau confite (12h) & Légumes", price: "28.00€" },
-          { name: "Risotto aux Légumes Oubliés & Parmesan", price: "19.50€" }
+          { name: "Saucisse au couteau (Ferme de Meyrinhac) & Purée", price_cents: 1900, is_highlight: true },
+          { name: "Pavé de Cabillaud de Plouguerneau rôti", price_cents: 2400 },
+          { name: "Merlu de la Cotinière à la plancha, Jus de viande", price_cents: 2500, is_highlight: true },
+          { name: "Carré de Cochon du Perche pané Panko", price_cents: 2250, is_highlight: true },
+          { name: "Tartare de Bœuf Charolais au couteau", price_cents: 2100 },
+          { name: "Gnocchis Maison à la Sauge & Burrata fondante", price_cents: 1850, is_highlight: true },
+          { name: "Épaule d'Agneau confite (12h) & Légumes", price_cents: 2800 },
+          { name: "Risotto aux Légumes Oubliés & Parmesan", price_cents: 1950 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre Signature", price: "7.00€", highlight: true },
-          { name: "Légumes de Saison rôtis au four", price: "8.50€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette", price: "6.00€" },
-          { name: "Frites Maison Double Cuisson (Graisse de bœuf)", price: "6.50€" },
-          { name: "Riz Pilaf aux Herbes Fraîches", price: "6.50€" }
+          { name: "Purée de Pommes de Terre Signature", price_cents: 700, is_highlight: true },
+          { name: "Légumes de Saison rôtis au four", price_cents: 850 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette", price_cents: 600 },
+          { name: "Frites Maison Double Cuisson (Graisse de bœuf)", price_cents: 650 },
+          { name: "Riz Pilaf aux Herbes Fraîches", price_cents: 650 }
         ]
       },
       {
-        category: "Douceurs de la Butte (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs de la Butte (Desserts)",
         items: [
-          { name: "Riz au Lait vanillé & Caramel Beurre Salé", price: "9.00€", highlight: true },
-          { name: "Mousse au Chocolat Noir & Éclats de Cacahuètes", price: "8.50€", highlight: true },
-          { name: "Sorbet aux Agrumes Maison (3 boules)", price: "8.00€" },
-          { name: "Tarte Tatin & Crème Fraîche d'Isigny", price: "9.50€", highlight: true },
-          { name: "Plateau de Fromages (Sélection du caviste)", price: "12.00€" },
-          { name: "Gâteau de Savoie & Compotée de fruits", price: "8.50€" },
-          { name: "Café Gourmand (Duo de mini-desserts)", price: "11.00€" }
+          { name: "Riz au Lait vanillé & Caramel Beurre Salé", price_cents: 900, is_highlight: true },
+          { name: "Mousse au Chocolat Noir & Éclats de Cacahuètes", price_cents: 850, is_highlight: true },
+          { name: "Sorbet aux Agrumes Maison (3 boules)", price_cents: 800 },
+          { name: "Tarte Tatin & Crème Fraîche d'Isigny", price_cents: 950, is_highlight: true },
+          { name: "Plateau de Fromages (Sélection du caviste)", price_cents: 1200 },
+          { name: "Gâteau de Savoie & Compotée de fruits", price_cents: 850 },
+          { name: "Café Gourmand (Duo de mini-desserts)", price_cents: 1100 }
         ]
       },
       {
-        category: "La Sélection du Sommelier (Boissons)",
+        category_type: "drink",
+        display_label: "La Sélection du Sommelier (Boissons)",
         items: [
-          { name: "Verre de Vin Naturel (Sélection du jour)", price: "8.50€", highlight: true },
-          { name: "Bouteille de Beaujolais (Marcel Lapierre)", price: "38.00€", highlight: true },
-          { name: "Bouteille de Chenin (Domaine de la Taille aux Loups)", price: "45.00€" },
-          { name: "Jus de Fruits Artisanaux Alain Milliat", price: "7.50€" },
-          { name: "Bière Artisanale Deck & Donohue (33cl)", price: "7.00€" },
-          { name: "Eau micro-filtrée Le Verre Volé (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité (Torréfaction locale)", price: "3.50€" }
+          { name: "Verre de Vin Naturel (Sélection du jour)", price_cents: 850, is_highlight: true },
+          { name: "Bouteille de Beaujolais (Marcel Lapierre)", price_cents: 3800, is_highlight: true },
+          { name: "Bouteille de Chenin (Domaine de la Taille aux Loups)", price_cents: 4500 },
+          { name: "Jus de Fruits Artisanaux Alain Milliat", price_cents: 750 },
+          { name: "Bière Artisanale Deck & Donohue (33cl)", price_cents: 700 },
+          { name: "Eau micro-filtrée Le Verre Volé (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité (Torréfaction locale)", price_cents: 350 }
         ]
       }
     ]

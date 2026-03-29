@@ -40,39 +40,42 @@ export const empreinte: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Empreinte (Plats)",
+                category_type: "main",
+                display_label: "L'Empreinte (Plats)",
                 items: [
-                    { name: "Ris de Veau Croustillant Sauce Foie Gras", price: "39.00€", description: "Écrasé de PDT et pleurotes de saison." },
-                    { name: "Tartare de Boeuf au couteau du Chef", price: "24.00€" },
-                    { name: "Magret de Canard Miel & Romarin", price: "24.00€" },
-                    { name: "Filet de Bar, Sauce Hollandaise", price: "24.00€" },
-                    { name: "Noix de St-Jacques Poêlées, Passion", price: "29.00€" },
-                    { name: "Filet de Boeuf Poêlé, Jus de Viande", price: "29.00€" },
-                    { name: "Assiette Végétarienne du Marché", price: "24.00€" }
+                    { name: "Ris de Veau Croustillant Sauce Foie Gras", price_cents: 3900, description: "Écrasé de PDT et pleurotes de saison." },
+                    { name: "Tartare de Boeuf au couteau du Chef", price_cents: 2400 },
+                    { name: "Magret de Canard Miel & Romarin", price_cents: 2400 },
+                    { name: "Filet de Bar, Sauce Hollandaise", price_cents: 2400 },
+                    { name: "Noix de St-Jacques Poêlées, Passion", price_cents: 2900 },
+                    { name: "Filet de Boeuf Poêlé, Jus de Viande", price_cents: 2900 },
+                    { name: "Assiette Végétarienne du Marché", price_cents: 2400 }
                 ]
             },
             {
-                category: "Entrées de Saison",
+                category_type: "starter",
+                display_label: "Entrées de Saison",
                 items: [
-                    { name: "Brick de Saint-Marcellin au Miel", price: "12.00€" },
-                    { name: "Foie Gras de Canard Maison", price: "19.00€" },
-                    { name: "Nage de Couteaux à la Crème Persillée", price: "15.00€" },
-                    { name: "Terrine de Râbles de Lapin au Foie Gras", price: "15.00€" },
-                    { name: "Salade d'Écrevisses au Curry & Avocat", price: "15.00€" },
-                    { name: "Tartare de Veau à la Pistache", price: "17.00€" },
-                    { name: "Saumon Gravlax, Mousse Citron Vert", price: "15.00€" },
-                    { name: "Feuilleté d'Escargots de Bourgogne", price: "17.00€" }
+                    { name: "Brick de Saint-Marcellin au Miel", price_cents: 1200 },
+                    { name: "Foie Gras de Canard Maison", price_cents: 1900 },
+                    { name: "Nage de Couteaux à la Crème Persillée", price_cents: 1500 },
+                    { name: "Terrine de Râbles de Lapin au Foie Gras", price_cents: 1500 },
+                    { name: "Salade d'Écrevisses au Curry & Avocat", price_cents: 1500 },
+                    { name: "Tartare de Veau à la Pistache", price_cents: 1700 },
+                    { name: "Saumon Gravlax, Mousse Citron Vert", price_cents: 1500 },
+                    { name: "Feuilleté d'Escargots de Bourgogne", price_cents: 1700 }
                 ]
             },
             {
-                category: "Douceurs Finales",
+                category_type: "dessert",
+                display_label: "Douceurs Finales",
                 items: [
-                    { name: "Tarte Tatin revisitée par le Chef", price: "10.00€" },
-                    { name: "Pavlova aux Fruits Frais", price: "10.00€" },
-                    { name: "Tarte au Citron de l'Empreinte", price: "10.00€" },
-                    { name: "Crème Brûlée à la Fève de Tonka", price: "10.00€" },
-                    { name: "Fondant au Chocolat, vanille", price: "10.00€" },
-                    { name: "Camembert aux Noix et Calvados", price: "11.00€" }
+                    { name: "Tarte Tatin revisitée par le Chef", price_cents: 1000 },
+                    { name: "Pavlova aux Fruits Frais", price_cents: 1000 },
+                    { name: "Tarte au Citron de l'Empreinte", price_cents: 1000 },
+                    { name: "Crème Brûlée à la Fève de Tonka", price_cents: 1000 },
+                    { name: "Fondant au Chocolat, vanille", price_cents: 1000 },
+                    { name: "Camembert aux Noix et Calvados", price_cents: 1100 }
                 ]
             }
         ]

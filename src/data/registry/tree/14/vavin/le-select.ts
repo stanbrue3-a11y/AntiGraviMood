@@ -40,39 +40,42 @@ export const le_select: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Grands Classiques du Select",
+                category_type: "other",
+                display_label: "Les Grands Classiques du Select",
                 items: [
-                    { name: "Tartare de Boeuf Aubrac au couteau", price: "24.50€" },
-                    { name: "Confit de Canard des Landes, frites maison", price: "26.00€" },
-                    { name: "Andouillette 5A à la Chablisienne", price: "22.50€" },
-                    { name: "Onglet de Boeuf Sauce Poivre", price: "28.00€" },
-                    { name: "Pavé de Saumon, Sauce Béarnaise", price: "21.00€" },
-                    { name: "Filet de Bar à l'Huile d'Olive", price: "28.00€" },
-                    { name: "Magret de Canard, Sauce Périgourdine", price: "29.00€" },
-                    { name: "Risotto aux Champignons des bois", price: "19.50€" },
-                    { name: "Salade César au Poulet Fermier", price: "18.50€" }
+                    { name: "Tartare de Boeuf Aubrac au couteau", price_cents: 2450 },
+                    { name: "Confit de Canard des Landes, frites maison", price_cents: 2600 },
+                    { name: "Andouillette 5A à la Chablisienne", price_cents: 2250 },
+                    { name: "Onglet de Boeuf Sauce Poivre", price_cents: 2800 },
+                    { name: "Pavé de Saumon, Sauce Béarnaise", price_cents: 2100 },
+                    { name: "Filet de Bar à l'Huile d'Olive", price_cents: 2800 },
+                    { name: "Magret de Canard, Sauce Périgourdine", price_cents: 2900 },
+                    { name: "Risotto aux Champignons des bois", price_cents: 1950 },
+                    { name: "Salade César au Poulet Fermier", price_cents: 1850 }
                 ]
             },
             {
-                category: "Entrées de Brasserie",
+                category_type: "starter",
+                display_label: "Entrées de Brasserie",
                 items: [
-                    { name: "Oeuf Mayo Tradition (Championnat)", price: "8.50€" },
-                    { name: "Escargots de Bourgogne de chez Metzger", price: "14.50€" },
-                    { name: "Saumon Fumé & Blinis Maison", price: "18.00€" },
-                    { name: "Foie Gras de Canard, Toasts Chauds", price: "19.50€" },
-                    { name: "Harengs Pommes à l'Huile", price: "12.00€" },
-                    { name: "Tataki de Thon et Saumon", price: "16.00€" },
-                    { name: "Assiette de Planche de Charcuterie Conquet", price: "17.30€" }
+                    { name: "Oeuf Mayo Tradition (Championnat)", price_cents: 850 },
+                    { name: "Escargots de Bourgogne de chez Metzger", price_cents: 1450 },
+                    { name: "Saumon Fumé & Blinis Maison", price_cents: 1800 },
+                    { name: "Foie Gras de Canard, Toasts Chauds", price_cents: 1950 },
+                    { name: "Harengs Pommes à l'Huile", price_cents: 1200 },
+                    { name: "Tataki de Thon et Saumon", price_cents: 1600 },
+                    { name: "Assiette de Planche de Charcuterie Conquet", price_cents: 1730 }
                 ]
             },
             {
-                category: "Douceurs & Desserts",
+                category_type: "dessert",
+                display_label: "Douceurs & Desserts",
                 items: [
-                    { name: "Tarte Tatin caramélisée, crème fraîche", price: "11.50€" },
-                    { name: "Crème Brûlée à la Vanille Bourbon", price: "9.50€" },
-                    { name: "Profiteroles au Chocolat Chaud", price: "12.50€" },
-                    { name: "Baba au Rhum Ambré", price: "12.00€" },
-                    { name: "Tarte Citron façon Select", price: "10.50€" }
+                    { name: "Tarte Tatin caramélisée, crème fraîche", price_cents: 1150 },
+                    { name: "Crème Brûlée à la Vanille Bourbon", price_cents: 950 },
+                    { name: "Profiteroles au Chocolat Chaud", price_cents: 1250 },
+                    { name: "Baba au Rhum Ambré", price_cents: 1200 },
+                    { name: "Tarte Citron façon Select", price_cents: 1050 }
                 ]
             }
         ]

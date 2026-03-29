@@ -43,35 +43,38 @@ export const saut_du_crapaud: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Antojitos & Entrées",
+                category_type: "starter",
+                display_label: "Antojitos & Entrées",
                 items: [
-                    { name: "Ceviche de poisson blanc (Le vrai)", price: "8.00€" },
-                    { name: "Guacamole maison & totopos", price: "6.00€" },
-                    { name: "La Ceviche de la Tia", price: "10.00€" },
-                    { name: "Œuf parfait à l'origan", price: "10.00€" },
-                    { name: "Boudin noir Christian Para", price: "10.00€" },
-                    { name: "Tartare de tomates d'antan", price: "8.00€" }
+                    { name: "Ceviche de poisson blanc (Le vrai)", price_cents: 800 },
+                    { name: "Guacamole maison & totopos", price_cents: 600 },
+                    { name: "La Ceviche de la Tia", price_cents: 1000 },
+                    { name: "Œuf parfait à l'origan", price_cents: 1000 },
+                    { name: "Boudin noir Christian Para", price_cents: 1000 },
+                    { name: "Tartare de tomates d'antan", price_cents: 800 }
                 ]
             },
             {
-                category: "Plats du Crapaud",
+                category_type: "main",
+                display_label: "Plats du Crapaud",
                 items: [
-                    { name: "Burger du Crapaud, frites maison", price: "20.00€" },
-                    { name: "Pavé de thon rouge mi-cuit", price: "21.00€" },
-                    { name: "Bœuf mi-cuit façon sashimi", price: "20.00€" },
-                    { name: "Magret de canard façon wok", price: "20.00€" },
-                    { name: "Poisson du marché, salsa verde", price: "19.50€" },
-                    { name: "Plat du Midi (Unique)", price: "15.50€" },
-                    { name: "Formule Midi (E+P+D)", price: "24.50€" }
+                    { name: "Burger du Crapaud, frites maison", price_cents: 2000 },
+                    { name: "Pavé de thon rouge mi-cuit", price_cents: 2100 },
+                    { name: "Bœuf mi-cuit façon sashimi", price_cents: 2000 },
+                    { name: "Magret de canard façon wok", price_cents: 2000 },
+                    { name: "Poisson du marché, salsa verde", price_cents: 1950 },
+                    { name: "Plat du Midi (Unique)", price_cents: 1550 },
+                    { name: "Formule Midi (E+P+D)", price_cents: 2450 }
                 ]
             },
             {
-                category: "Postres (Desserts)",
+                category_type: "dessert",
+                display_label: "Postres (Desserts)",
                 items: [
-                    { name: "Ananas rôti aux épices douces", price: "9.50€" },
-                    { name: "Mousse au chocolat 72% de cacao", price: "9.50€" },
-                    { name: "Crumble aux fruits de saison", price: "9.00€" },
-                    { name: "Café Gourmand", price: "9.00€" }
+                    { name: "Ananas rôti aux épices douces", price_cents: 950 },
+                    { name: "Mousse au chocolat 72% de cacao", price_cents: 950 },
+                    { name: "Crumble aux fruits de saison", price_cents: 900 },
+                    { name: "Café Gourmand", price_cents: 900 }
                 ]
             }
         ]

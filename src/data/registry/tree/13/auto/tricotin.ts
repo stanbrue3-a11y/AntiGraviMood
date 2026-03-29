@@ -41,34 +41,37 @@ export const tricotin: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Rôtisseries & Soupes",
+        category_type: "main",
+        display_label: "Les Plats : Rôtisseries & Soupes",
         items: [
-          { name: "Soupe nouilles & porc laqué", price: "14.90€" },
-          { name: "Soupe nouilles & canard laqué", price: "18.90€" },
-          { name: "Canard laqué grillé sec (5 parfums)", price: "9.30€" },
-          { name: "Travers de porc sel et poivre", price: "8.70€" },
-          { name: "Porc sauté sauce aigre-douce", price: "8.20€" },
-          { name: "Bœuf sauté sauce saté", price: "8.50€" }
+          { name: "Soupe nouilles & porc laqué", price_cents: 1490 },
+          { name: "Soupe nouilles & canard laqué", price_cents: 1890 },
+          { name: "Canard laqué grillé sec (5 parfums)", price_cents: 930 },
+          { name: "Travers de porc sel et poivre", price_cents: 870 },
+          { name: "Porc sauté sauce aigre-douce", price_cents: 820 },
+          { name: "Bœuf sauté sauce saté", price_cents: 850 }
         ]
       },
       {
-        category: "Entrées & Vapeurs",
+        category_type: "starter",
+        display_label: "Entrées & Vapeurs",
         items: [
-          { name: "Brioches au porc laqué (2 pièces)", price: "4.70€" },
-          { name: "Crêpe de riz au rôti de porc", price: "8.50€" },
-          { name: "Nems maison (4 pièces)", price: "7.50€" },
-          { name: "Raviolis aux crevettes (Ha Kao)", price: "6.80€" },
-          { name: "Wontons frits", price: "7.00€" },
-          { name: "Salade de méduse", price: "9.50€" }
+          { name: "Brioches au porc laqué (2 pièces)", price_cents: 470 },
+          { name: "Crêpe de riz au rôti de porc", price_cents: 850 },
+          { name: "Nems maison (4 pièces)", price_cents: 750 },
+          { name: "Raviolis aux crevettes (Ha Kao)", price_cents: 680 },
+          { name: "Wontons frits", price_cents: 700 },
+          { name: "Salade de méduse", price_cents: 950 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Bière Tsingtao (33cl)", price: "5.50€" },
-          { name: "Thé chaud (Théière)", price: "4.00€" },
-          { name: "Jus de lychee", price: "4.50€" },
-          { name: "Café filtre vietnamien", price: "5.00€" }
+          { name: "Bière Tsingtao (33cl)", price_cents: 550 },
+          { name: "Thé chaud (Théière)", price_cents: 400 },
+          { name: "Jus de lychee", price_cents: 450 },
+          { name: "Café filtre vietnamien", price_cents: 500 }
         ]
       }
     ]

@@ -40,59 +40,63 @@ export const radioeat: SurgicalPlace = {
     verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Premières Ondes (Entrées)",
+        category_type: "starter",
+        display_label: "Premières Ondes (Entrées)",
         items: [
-          { name: "Burrata Crémeuse", price: "14.50€", description: "Betteraves rôties et huile de noisette", highlight: true },
-          { name: "Céviche de Daurade Royale", price: "16€", description: "Lait de coco, citron vert et piment" },
-          { name: "Velouté de Saison", price: "11€", description: "Légumes du marché et éclats de châtaignes" },
-          { name: "Tataki de Bœuf", price: "15.50€", description: "Sauce ponzu et herbes thaï" },
-          { name: "Œuf Parfait 64°", price: "12.50€", description: "Crème de champignons et noisettes grillées" },
-          { name: "Gyozas Maison (x5)", price: "13€", description: "Porc et gingembre, sauce soja sucrée" },
-          { name: "Salade de Lentilles Beluga", price: "11.50€" },
-          { name: "Carpaccio de Saint-Jacques", price: "17€" }
+          { name: "Burrata Crémeuse", price_cents: 1450, description: "Betteraves rôties et huile de noisette", is_highlight: true },
+          { name: "Céviche de Daurade Royale", price_cents: 1600, description: "Lait de coco, citron vert et piment" },
+          { name: "Velouté de Saison", price_cents: 1100, description: "Légumes du marché et éclats de châtaignes" },
+          { name: "Tataki de Bœuf", price_cents: 1550, description: "Sauce ponzu et herbes thaï" },
+          { name: "Œuf Parfait 64°", price_cents: 1250, description: "Crème de champignons et noisettes grillées" },
+          { name: "Gyozas Maison (x5)", price_cents: 1300, description: "Porc et gingembre, sauce soja sucrée" },
+          { name: "Salade de Lentilles Beluga", price_cents: 1150 },
+          { name: "Carpaccio de Saint-Jacques", price_cents: 1700 }
         ]
       },
       {
-        category: "Le Grand Direct (Plats)",
+        category_type: "main",
+        display_label: "Le Grand Direct (Plats)",
         items: [
-          { name: "Filet de Cabillaud Vapeur", price: "26€", description: "Riz noir vénéré et émulsion citronnelle", highlight: true },
-          { name: "Entrecôte Simmental (300g)", price: "34€", description: "Frites maison et sauce béarnaise" },
-          { name: "Risotto Impérial aux Gambas", price: "28.50€", description: "Bisque de crustacés et cerfeuil" },
-          { name: "Burger Radioeat Original", price: "22.50€", description: "Pain brioché, bœuf 180g, cheddar affiné" },
-          { name: "Suprême de Volaille Jaune", price: "24€", description: "Purée fondante et jus corsé" },
-          { name: "Linguine à la Truffe d'Automne", price: "29€", description: "Crème de parmesan 24 mois" },
-          { name: "Tataki de Thon Rouge", price: "27€", description: "Mousseline d'avocat et wakamé" },
-          { name: "Aubergine Miso Rôtie", price: "19.50€", description: "Végétarien, riz basmati et graines de courge" },
-          { name: "Tartare de Bœuf au Couteau", price: "21€", description: "Préparé selon l'humeur du chef" },
-          { name: "Sèche à la Plancha", price: "25€" },
-          { name: "Pavé de Saumon Label Rouge", price: "26.50€" },
-          { name: "Brochettes de Poulet Yakitori", price: "22€" }
+          { name: "Filet de Cabillaud Vapeur", price_cents: 2600, description: "Riz noir vénéré et émulsion citronnelle", is_highlight: true },
+          { name: "Entrecôte Simmental (300g)", price_cents: 3400, description: "Frites maison et sauce béarnaise" },
+          { name: "Risotto Impérial aux Gambas", price_cents: 2850, description: "Bisque de crustacés et cerfeuil" },
+          { name: "Burger Radioeat Original", price_cents: 2250, description: "Pain brioché, bœuf 180g, cheddar affiné" },
+          { name: "Suprême de Volaille Jaune", price_cents: 2400, description: "Purée fondante et jus corsé" },
+          { name: "Linguine à la Truffe d'Automne", price_cents: 2900, description: "Crème de parmesan 24 mois" },
+          { name: "Tataki de Thon Rouge", price_cents: 2700, description: "Mousseline d'avocat et wakamé" },
+          { name: "Aubergine Miso Rôtie", price_cents: 1950, description: "Végétarien, riz basmati et graines de courge" },
+          { name: "Tartare de Bœuf au Couteau", price_cents: 2100, description: "Préparé selon l'humeur du chef" },
+          { name: "Sèche à la Plancha", price_cents: 2500 },
+          { name: "Pavé de Saumon Label Rouge", price_cents: 2650 },
+          { name: "Brochettes de Poulet Yakitori", price_cents: 2200 }
         ]
       },
       {
-        category: "Finales Culturelles (Desserts)",
+        category_type: "dessert",
+        display_label: "Finales Culturelles (Desserts)",
         items: [
-          { name: "Mousse au Chocolat 70%", price: "9.50€", description: "Éclats de fleur de sel", highlight: true },
-          { name: "Pavlova aux Fruits de Saison", price: "10.50€", description: "Meringue craquante et sorbet maison" },
-          { name: "Cheesecake Citron Vert", price: "11€", description: "Croustillant spéculoos" },
-          { name: "Pain Perdu Minute", price: "12€", description: "Caramel beurre salé et glace vanille" },
-          { name: "Assortiment de Sorbets", price: "9€" },
-          { name: "Café Gourmand Radioeat", price: "11.50€" },
-          { name: "Tartelette Citron Meringuée", price: "10€" }
+          { name: "Mousse au Chocolat 70%", price_cents: 950, description: "Éclats de fleur de sel", is_highlight: true },
+          { name: "Pavlova aux Fruits de Saison", price_cents: 1050, description: "Meringue craquante et sorbet maison" },
+          { name: "Cheesecake Citron Vert", price_cents: 1100, description: "Croustillant spéculoos" },
+          { name: "Pain Perdu Minute", price_cents: 1200, description: "Caramel beurre salé et glace vanille" },
+          { name: "Assortiment de Sorbets", price_cents: 900 },
+          { name: "Café Gourmand Radioeat", price_cents: 1150 },
+          { name: "Tartelette Citron Meringuée", price_cents: 1000 }
         ]
       },
       {
-        category: "La Radio (Boissons & Cave)",
+        category_type: "drink",
+        display_label: "La Radio (Boissons & Cave)",
         items: [
-          { name: "Cocktail Studio 104", price: "14.50€", description: "Gin, St-Germain, concombre, soda", highlight: true },
-          { name: "Coupe de Champagne Brut", price: "14€" },
-          { name: "Verre de Sancerre Blanc", price: "11€" },
-          { name: "Pinte de Bière Artisanale", price: "9.50€" },
-          { name: "Expresso Pur Arabica", price: "3.50€" },
-          { name: "Thé Mariage Frères", price: "7€" },
-          { name: "Jus de Fruits Frais", price: "8€" },
-          { name: "Limonade Maison au Gingembre", price: "7.50€" },
-          { name: "Double Expresso", price: "5.50€" }
+          { name: "Cocktail Studio 104", price_cents: 1450, description: "Gin, St-Germain, concombre, soda", is_highlight: true },
+          { name: "Coupe de Champagne Brut", price_cents: 1400 },
+          { name: "Verre de Sancerre Blanc", price_cents: 1100 },
+          { name: "Pinte de Bière Artisanale", price_cents: 950 },
+          { name: "Expresso Pur Arabica", price_cents: 350 },
+          { name: "Thé Mariage Frères", price_cents: 700 },
+          { name: "Jus de Fruits Frais", price_cents: 800 },
+          { name: "Limonade Maison au Gingembre", price_cents: 750 },
+          { name: "Double Expresso", price_cents: 550 }
         ]
       }
     ]

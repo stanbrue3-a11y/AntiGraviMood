@@ -43,58 +43,63 @@ export const clamato: SurgicalPlace = {
         last_updated: "2026-03-07",
     menu_items: [
       {
-        category: "Banc de l'Écailler (Entrées & Plats)",
+        category_type: "starter",
+        display_label: "Banc de l'Écailler (Entrées & Plats)",
         items: [
-          { name: "Huîtres Marennes Oléron N°3 (les 6)", price: "18.00€", highlight: true },
-          { name: "Huîtres Utah Beach N°2 (les 6)", price: "20.00€" },
-          { name: "Huîtres Plates de Belon N°0 (les 6)", price: "28.00€" },
-          { name: "Oursins de Galice sauvage (l'unité)", price: "6.00€", highlight: true },
-          { name: "Bulots de Dieppe, aïoli maison", price: "9.00€" },
-          { name: "Bigorneaux au court-bouillon", price: "7.00€" },
-          { name: "Crevettes Grises à décortiquer", price: "8.50€" },
-          { name: "Plateau Royal (Assortiment complet)", price: "75.00€", highlight: true }
+          { name: "Huîtres Marennes Oléron N°3 (les 6)", price_cents: 1800, is_highlight: true },
+          { name: "Huîtres Utah Beach N°2 (les 6)", price_cents: 2000 },
+          { name: "Huîtres Plates de Belon N°0 (les 6)", price_cents: 2800 },
+          { name: "Oursins de Galice sauvage (l'unité)", price_cents: 600, is_highlight: true },
+          { name: "Bulots de Dieppe, aïoli maison", price_cents: 900 },
+          { name: "Bigorneaux au court-bouillon", price_cents: 700 },
+          { name: "Crevettes Grises à décortiquer", price_cents: 850 },
+          { name: "Plateau Royal (Assortiment complet)", price_cents: 7500, is_highlight: true }
         ]
       },
       {
-        category: "Assiettes à Partager (Entrées & Plats)",
+        category_type: "starter",
+        display_label: "Assiettes à Partager (Entrées & Plats)",
         items: [
-          { name: "Tarama d'œuf de cabillaud au Zaatar", price: "8.00€" },
-          { name: "Ceviche de Mulet Noir, piment & coriandre", price: "14.00€", highlight: true },
-          { name: "Cru de Maigre, poire & chou-rave", price: "15.00€" },
-          { name: "Carpaccio de Saint-Jacques au Cédrat", price: "17.00€" },
-          { name: "Accras de Morue 'Clamato' (x6)", price: "11.00€" },
-          { name: "Poulpe grillé, pommes grenailles", price: "29.00€", highlight: true },
-          { name: "Seiches à la plancha, ail & persil", price: "19.00€" },
-          { name: "Lotte rôtie, jus de viande percutant", price: "32.00€" }
+          { name: "Tarama d'œuf de cabillaud au Zaatar", price_cents: 800 },
+          { name: "Ceviche de Mulet Noir, piment & coriandre", price_cents: 1400, is_highlight: true },
+          { name: "Cru de Maigre, poire & chou-rave", price_cents: 1500 },
+          { name: "Carpaccio de Saint-Jacques au Cédrat", price_cents: 1700 },
+          { name: "Accras de Morue 'Clamato' (x6)", price_cents: 1100 },
+          { name: "Poulpe grillé, pommes grenailles", price_cents: 2900, is_highlight: true },
+          { name: "Seiches à la plancha, ail & persil", price_cents: 1900 },
+          { name: "Lotte rôtie, jus de viande percutant", price_cents: 3200 }
         ]
       },
       {
-        category: "Desserts Signature (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts Signature (Desserts)",
         items: [
-          { name: "Tartelette au Sirop d'Érable (Culte)", price: "9.00€", highlight: true },
-          { name: "Glace au Sarrasin torréfié", price: "7.00€" },
-          { name: "Sorbet Herbes fraîches & Citron", price: "7.00€" },
-          { name: "Mousse Chocolat noir & Fleur de sel", price: "10.00€" }
+          { name: "Tartelette au Sirop d'Érable (Culte)", price_cents: 900, is_highlight: true },
+          { name: "Glace au Sarrasin torréfié", price_cents: 700 },
+          { name: "Sorbet Herbes fraîches & Citron", price_cents: 700 },
+          { name: "Mousse Chocolat noir & Fleur de sel", price_cents: 1000 }
         ]
       },
       {
-        category: "Mixologie Marime (Boissons)",
+        category_type: "drink",
+        display_label: "Mixologie Marime (Boissons)",
         items: [
-          { name: "Clamato Bloody Mary (Signature)", price: "12.00€", highlight: true },
-          { name: "Michelada (Bière & Sauce épicée)", price: "10.00€" },
-          { name: "Pisco Sour à la péruvienne", price: "13.00€" },
-          { name: "Mocktail 'Iode & Gingembre'", price: "9.50€" }
+          { name: "Clamato Bloody Mary (Signature)", price_cents: 1200, is_highlight: true },
+          { name: "Michelada (Bière & Sauce épicée)", price_cents: 1000 },
+          { name: "Pisco Sour à la péruvienne", price_cents: 1300 },
+          { name: "Mocktail 'Iode & Gingembre'", price_cents: 950 }
         ]
       },
       {
-        category: "Cave Nature & Bulles (Boissons)",
+        category_type: "drink",
+        display_label: "Cave Nature & Bulles (Boissons)",
         items: [
-          { name: "Verre de Muscadet Sèvre-et-Maine", price: "8.00€", highlight: true },
-          { name: "Pet'Nat 'La Bulle Moderne' (Verre)", price: "10.00€" },
-          { name: "Bouteille Vin Blanc 'Vivant'", price: "38.00€" },
-          { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
-          { name: "Cidre Brut Artisanal (Verre)", price: "7.00€" },
-          { name: "Café Espresso (Lomi)", price: "3.00€" }
+          { name: "Verre de Muscadet Sèvre-et-Maine", price_cents: 800, is_highlight: true },
+          { name: "Pet'Nat 'La Bulle Moderne' (Verre)", price_cents: 1000 },
+          { name: "Bouteille Vin Blanc 'Vivant'", price_cents: 3800 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 450 },
+          { name: "Cidre Brut Artisanal (Verre)", price_cents: 700 },
+          { name: "Café Espresso (Lomi)", price_cents: 300 }
         ]
       }
     ]

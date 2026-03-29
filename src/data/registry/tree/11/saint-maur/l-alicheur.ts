@@ -26,58 +26,63 @@ export const lAlicheur: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Pâtes de Riz (Vapeur & Sans Gluten)",
+                category_type: "other",
+                display_label: "Pâtes de Riz (Vapeur & Sans Gluten)",
                 items: [
-                    { name: "Pâtes de riz Bœuf Emincé", price: "14.00€", description: "Sauce Alicheur maison, herbes fraîches." },
-                    { name: "Pâtes de riz Poulet Coco-Curry", price: "14.00€" },
-                    { name: "Pâtes de riz Tofu & Sésame (V)", price: "14.00€" },
-                    { name: "Pâtes de riz Crevettes & Olive Oil", price: "14.00€" },
-                    { name: "Pâtes de riz Porc Grillé", price: "14.00€" },
-                    { name: "Double Portion de Légumes", price: "4.50€" }
+                    { name: "Pâtes de riz Bœuf Emincé", price_cents: 1400, description: "Sauce Alicheur maison, herbes fraîches." },
+                    { name: "Pâtes de riz Poulet Coco-Curry", price_cents: 1400 },
+                    { name: "Pâtes de riz Tofu & Sésame (V)", price_cents: 1400 },
+                    { name: "Pâtes de riz Crevettes & Olive Oil", price_cents: 1400 },
+                    { name: "Pâtes de riz Porc Grillé", price_cents: 1400 },
+                    { name: "Double Portion de Légumes", price_cents: 450 }
                 ]
             },
             {
-                category: "Soupes Citronnelle & Bouillons",
+                category_type: "other",
+                display_label: "Soupes Citronnelle & Bouillons",
                 items: [
-                    { name: "Soupe Blé Bœuf Emincé", price: "14.00€" },
-                    { name: "Soupe Blé Poulet Fermier", price: "14.00€" },
-                    { name: "Soupe Blé Crevettes", price: "14.00€" },
-                    { name: "Soupe Blé Tofu & Shiitake (V)", price: "14.00€" },
-                    { name: "Bouillon Citronnelle & Coriandre", price: "6.00€" },
-                    { name: "Soupe Signature Poisson Blanc", price: "16.00€" }
+                    { name: "Soupe Blé Bœuf Emincé", price_cents: 1400 },
+                    { name: "Soupe Blé Poulet Fermier", price_cents: 1400 },
+                    { name: "Soupe Blé Crevettes", price_cents: 1400 },
+                    { name: "Soupe Blé Tofu & Shiitake (V)", price_cents: 1400 },
+                    { name: "Bouillon Citronnelle & Coriandre", price_cents: 600 },
+                    { name: "Soupe Signature Poisson Blanc", price_cents: 1600 }
                 ]
             },
             {
-                category: "Entrées & Sides (No Frying)",
+                category_type: "starter",
+                display_label: "Entrées & Sides (No Frying)",
                 items: [
-                    { name: "Nems aux Légumes (x3)", price: "7.50€" },
-                    { name: "Rouleaux de Printemps Crevette", price: "8.50€" },
-                    { name: "Salade de Papaye Verte", price: "9.50€" },
-                    { name: "Légumes Grillés de Saison", price: "6.50€" },
-                    { name: "Tartine Alicheur Poulet", price: "7.00€" },
-                    { name: "Sandwich Bœuf & Herbes", price: "6.50€" },
-                    { name: "Petit Bol de Riz Parfumé", price: "3.50€" }
+                    { name: "Nems aux Légumes (x3)", price_cents: 750 },
+                    { name: "Rouleaux de Printemps Crevette", price_cents: 850 },
+                    { name: "Salade de Papaye Verte", price_cents: 950 },
+                    { name: "Légumes Grillés de Saison", price_cents: 650 },
+                    { name: "Tartine Alicheur Poulet", price_cents: 700 },
+                    { name: "Sandwich Bœuf & Herbes", price_cents: 650 },
+                    { name: "Petit Bol de Riz Parfumé", price_cents: 350 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Flan au Lait de Coco", price: "5.50€" },
-                    { name: "Perles de Tapioca & Jacquier", price: "6.50€" },
-                    { name: "Salade de Fruits Exotiques", price: "6.00€" },
-                    { name: "Gateau de Riz à la Banane", price: "5.50€" }
+                    { name: "Flan au Lait de Coco", price_cents: 550 },
+                    { name: "Perles de Tapioca & Jacquier", price_cents: 650 },
+                    { name: "Salade de Fruits Exotiques", price_cents: 600 },
+                    { name: "Gateau de Riz à la Banane", price_cents: 550 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Singha Beer (33cl)", price: "4.50€" },
-                    { name: "Infusion Gingembre Maison (Chaud/Froid)", price: "5.00€" },
-                    { name: "Jus de Mangue Artisanal", price: "4.50€" },
-                    { name: "Pepsi Max / 7up (33cl)", price: "3.00€" },
-                    { name: "Eau Minérale (50cl)", price: "2.50€" },
-                    { name: "Thé Vert au Jasmin (Chaud)", price: "4.00€" },
-                    { name: "Café Robusta Traditionnel", price: "3.00€" }
+                    { name: "Singha Beer (33cl)", price_cents: 450 },
+                    { name: "Infusion Gingembre Maison (Chaud/Froid)", price_cents: 500 },
+                    { name: "Jus de Mangue Artisanal", price_cents: 450 },
+                    { name: "Pepsi Max / 7up (33cl)", price_cents: 300 },
+                    { name: "Eau Minérale (50cl)", price_cents: 250 },
+                    { name: "Thé Vert au Jasmin (Chaud)", price_cents: 400 },
+                    { name: "Café Robusta Traditionnel", price_cents: 300 }
                 ]
             }
         ]

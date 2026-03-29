@@ -41,65 +41,71 @@ export const girafe: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Le Banc de l'Écailler",
+        category_type: "other",
+        display_label: "Le Banc de l'Écailler",
         items: [
-          { name: "Huîtres Gillardeau N°3 (x6)", price: "36€", description: "La chair ferme et noisettée" },
-          { name: "Crevettes Obsiblue (x4)", price: "32€", description: "Rares, juste saisies au citron vert", highlight: true },
-          { name: "Bulots de Granville", price: "14€", description: "Cuisson minute, aïoli maison" },
-          { name: "Oursins d'Islande", price: "24€", description: "Selon arrivage, iodés et crémeux" },
-          { name: "Plateau Girafe (2 pers)", price: "110€", description: "Assortiment complet de l'écailler" },
-          { name: "Langoustines Royales", price: "45€", description: "4 pièces magnifiques" }
+          { name: "Huîtres Gillardeau N°3 (x6)", price_cents: 3600, description: "La chair ferme et noisettée" },
+          { name: "Crevettes Obsiblue (x4)", price_cents: 3200, description: "Rares, juste saisies au citron vert", is_highlight: true },
+          { name: "Bulots de Granville", price_cents: 1400, description: "Cuisson minute, aïoli maison" },
+          { name: "Oursins d'Islande", price_cents: 2400, description: "Selon arrivage, iodés et crémeux" },
+          { name: "Plateau Girafe (2 pers)", price_cents: 11000, description: "Assortiment complet de l'écailler" },
+          { name: "Langoustines Royales", price_cents: 4500, description: "4 pièces magnifiques" }
         ]
       },
       {
-        category: "Premières Brises (Entrées)",
+        category_type: "starter",
+        display_label: "Premières Brises (Entrées)",
         items: [
-          { name: "Carpaccio de Saint-Jacques", price: "28€", description: "Huile de vanille et agrumes", highlight: true },
-          { name: "Tarama de la Maison", price: "14€", description: "Blinis au sarrasin servis chauds" },
-          { name: "Tataki de Thon", price: "26€", description: "Sésame torréfié et ponzu" },
-          { name: "Salade de Homard Bleu", price: "38€", description: "Pamplemousse rose et avocat" },
-          { name: "Tempura de Crevettes", price: "22€", description: "Sauce spicy mayo maison" },
-          { name: "Foie Gras de Canard", price: "24€", description: "Chutney de figues et brioche toastée" },
-          { name: "Burrata des Pouilles", price: "21€", description: "Tomates anciennes et basilic sacré" }
+          { name: "Carpaccio de Saint-Jacques", price_cents: 2800, description: "Huile de vanille et agrumes", is_highlight: true },
+          { name: "Tarama de la Maison", price_cents: 1400, description: "Blinis au sarrasin servis chauds" },
+          { name: "Tataki de Thon", price_cents: 2600, description: "Sésame torréfié et ponzu" },
+          { name: "Salade de Homard Bleu", price_cents: 3800, description: "Pamplemousse rose et avocat" },
+          { name: "Tempura de Crevettes", price_cents: 2200, description: "Sauce spicy mayo maison" },
+          { name: "Foie Gras de Canard", price_cents: 2400, description: "Chutney de figues et brioche toastée" },
+          { name: "Burrata des Pouilles", price_cents: 2100, description: "Tomates anciennes et basilic sacré" }
         ]
       },
       {
-        category: "Le Grand Large (Plats)",
+        category_type: "main",
+        display_label: "Le Grand Large (Plats)",
         items: [
-          { name: "Linguine au Homard", price: "48€", description: "Demi-homard, bisque corsée et herbes", highlight: true },
-          { name: "Sole de Petit Bateau", price: "55€", description: "400-500g, grillée ou meunière" },
-          { name: "Turbot Rôti à l'Arrête", price: "52€", description: "Beurre noisette et câpres géantes" },
-          { name: "Pavé de Bar Plancha", price: "42€", description: "Émulsion de citronnelle et gingembre" },
-          { name: "Friture Rouge Girafe", price: "36€", description: "Rougets, calamars et gambas frits" },
-          { name: "Thon Rossini Océanique", price: "46€", description: "Thon rouge et escalope de foie gras poêlée" },
-          { name: "Saint-Jacques à la Plancha", price: "39€", description: "Risotto crémeux aux herbes" },
-          { name: "Poulpe Grillé Cruel", price: "34€", description: "Condiment olives noires et tomates fumées" }
+          { name: "Linguine au Homard", price_cents: 4800, description: "Demi-homard, bisque corsée et herbes", is_highlight: true },
+          { name: "Sole de Petit Bateau", price_cents: 5500, description: "400-500g, grillée ou meunière" },
+          { name: "Turbot Rôti à l'Arrête", price_cents: 5200, description: "Beurre noisette et câpres géantes" },
+          { name: "Pavé de Bar Plancha", price_cents: 4200, description: "Émulsion de citronnelle et gingembre" },
+          { name: "Friture Rouge Girafe", price_cents: 3600, description: "Rougets, calamars et gambas frits" },
+          { name: "Thon Rossini Océanique", price_cents: 4600, description: "Thon rouge et escalope de foie gras poêlée" },
+          { name: "Saint-Jacques à la Plancha", price_cents: 3900, description: "Risotto crémeux aux herbes" },
+          { name: "Poulpe Grillé Cruel", price_cents: 3400, description: "Condiment olives noires et tomates fumées" }
         ]
       },
       {
-        category: "Terre & Végétal",
+        category_type: "other",
+        display_label: "Terre & Végétal",
         items: [
-          { name: "Filet de Bœuf Simmental", price: "45€", description: "Jus corsé, purée de pommes de terre à la truffe" },
-          { name: "Risotto aux Champignons", price: "28€", description: "Cèpes et éclats de noisettes" }
+          { name: "Filet de Bœuf Simmental", price_cents: 4500, description: "Jus corsé, purée de pommes de terre à la truffe" },
+          { name: "Risotto aux Champignons", price_cents: 2800, description: "Cèpes et éclats de noisettes" }
         ]
       },
       {
-        category: "Final en Douceur",
+        category_type: "dessert",
+        display_label: "Final en Douceur",
         items: [
-          { name: "Éclair XXL Chocolat", price: "18€", description: "La signature sucrée emblématique", highlight: true },
-          { name: "Mille-feuille Vanille", price: "16€", description: "Feuilletage inversé croustillant" },
-          { name: "Pavlova Fruits Rouges", price: "15€", description: "Légèreté absolue" },
-          { name: "Ananas Rôti Passion", price: "14€" },
-          { name: "Sélection de Glaces", price: "12€" }
+          { name: "Éclair XXL Chocolat", price_cents: 1800, description: "La signature sucrée emblématique", is_highlight: true },
+          { name: "Mille-feuille Vanille", price_cents: 1600, description: "Feuilletage inversé croustillant" },
+          { name: "Pavlova Fruits Rouges", price_cents: 1500, description: "Légèreté absolue" },
+          { name: "Ananas Rôti Passion", price_cents: 1400 },
+          { name: "Sélection de Glaces", price_cents: 1200 }
         ]
       },
       {
-        category: "Bar de Prestige",
+        category_type: "other",
+        display_label: "Bar de Prestige",
         items: [
-          { name: "Cocktail Lady Girafe", price: "22€", description: "Gin premium, fraise, basilic frais" },
-          { name: "Coupe Ruinart Blanc de Blancs", price: "28€" },
-          { name: "Expresso", price: "7€" },
-          { name: "Thé Vert Mariage Frères", price: "10€" }
+          { name: "Cocktail Lady Girafe", price_cents: 2200, description: "Gin premium, fraise, basilic frais" },
+          { name: "Coupe Ruinart Blanc de Blancs", price_cents: 2800 },
+          { name: "Expresso", price_cents: 700 },
+          { name: "Thé Vert Mariage Frères", price_cents: 1000 }
         ]
       }
     ]

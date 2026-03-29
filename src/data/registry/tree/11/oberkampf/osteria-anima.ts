@@ -42,44 +42,48 @@ export const osteria_anima: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Antipasti & Entrées",
+                category_type: "starter",
+                display_label: "Antipasti & Entrées",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Focaccia artisanale", price: "8.00€" },
-                    { name: "Crème de Tomate maison", price: "9.00€" },
-                    { name: "Burrata onctueuse des pouilles", price: "12.00€" },
-                    { name: "Asperges au Parmesan (Saison)", price: "13.00€" },
-                    { name: "Carpaccio de bœuf", price: "14.50€" },
-                    { name: "Salade de Roquette au Parmesan", price: "14.00€" },
-                    { name: "Poulpe et petit Orzo", price: "16.00€" }
+                    { name: "Focaccia artisanale", price_cents: 800 },
+                    { name: "Crème de Tomate maison", price_cents: 900 },
+                    { name: "Burrata onctueuse des pouilles", price_cents: 1200 },
+                    { name: "Asperges au Parmesan (Saison)", price_cents: 1300 },
+                    { name: "Carpaccio de bœuf", price_cents: 1450 },
+                    { name: "Salade de Roquette au Parmesan", price_cents: 1400 },
+                    { name: "Poulpe et petit Orzo", price_cents: 1600 }
                 ]
             },
             {
-                category: "Les Pizzas (Spécialités complémentaires)",
+                category_type: "main",
+                display_label: "Les Pizzas (Spécialités complémentaires)",
                 items: [
-                    { name: "Margherita", price: "15.00€" },
-                    { name: "Bufala", price: "17.00€" },
-                    { name: "Diavola", price: "18.00€" }
+                    { name: "Margherita", price_cents: 1500 },
+                    { name: "Bufala", price_cents: 1700 },
+                    { name: "Diavola", price_cents: 1800 }
                 ]
             },
             {
-                category: "Pâtes Fraîches Artisanales (Signature)",
+                category_type: "other",
+                display_label: "Pâtes Fraîches Artisanales (Signature)",
                 items: [
-                    { name: "Pâtes Cacio e Pepe", price: "18.00€", description: "Minimalisme romain : Fromage Pecorino & poivre de qualité." },
-                    { name: "La Vraie Carbonara", price: "19.00€" },
-                    { name: "Gnocchi maison", price: "19.00€" },
-                    { name: "Lasagne Traditionnelle au four", price: "20.00€" },
-                    { name: "Pappardelle au ragout de bœuf lent", price: "22.00€" },
-                    { name: "Pâtes fraîches aux fruits de mer", price: "24.00€", description: "Le grand classique de la maison, garni de crustacés." }
+                    { name: "Pâtes Cacio e Pepe", price_cents: 1800, description: "Minimalisme romain : Fromage Pecorino & poivre de qualité." },
+                    { name: "La Vraie Carbonara", price_cents: 1900 },
+                    { name: "Gnocchi maison", price_cents: 1900 },
+                    { name: "Lasagne Traditionnelle au four", price_cents: 2000 },
+                    { name: "Pappardelle au ragout de bœuf lent", price_cents: 2200 },
+                    { name: "Pâtes fraîches aux fruits de mer", price_cents: 2400, description: "Le grand classique de la maison, garni de crustacés." }
                 ]
             },
             {
-                category: "Desserts (Dolci) & Boissons",
+                category_type: "dessert",
+                display_label: "Desserts (Dolci) & Boissons",
                 items: [
-                    { name: "Pudding au Caramel", price: "8.50€" },
-                    { name: "Tiramisu de L'Osteria", price: "10.00€" },
-                    { name: "Bière Extraomnes / Montestella", price: "8.00€" },
-                    { name: "Limoncello (Digeo)", price: "6.00€" }
+                    { name: "Pudding au Caramel", price_cents: 850 },
+                    { name: "Tiramisu de L'Osteria", price_cents: 1000 },
+                    { name: "Bière Extraomnes / Montestella", price_cents: 800 },
+                    { name: "Limoncello (Digeo)", price_cents: 600 }
                 ]
             }
         ]

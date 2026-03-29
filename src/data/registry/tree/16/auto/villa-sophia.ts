@@ -40,64 +40,69 @@ export const villa_sophia: SurgicalPlace = {
     verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Antipasti & Entrées",
+        category_type: "starter",
+        display_label: "Antipasti & Entrées",
         items: [
-          { name: "Cœur de Burrata Crémeuse", price: "14.50€", description: "Roquette et tomates datterino", highlight: true },
-          { name: "Antipasto Villa Sophia", price: "18.00€", description: "Bresaola, jambon de Parme 24 mois, artichauts" },
-          { name: "Focaccia Romarin & Fleur de Sel", price: "9.00€" },
-          { name: "Vitello Tonnato Tradition", price: "16.50€" },
-          { name: "Calars Frits & Mayonnaise Basilic", price: "15.00€" },
-          { name: "Bruschetta à la Tomate Fraîche", price: "11.00€" },
-          { name: "Salade d'Artichauts Cruso", price: "13.50€" },
-          { name: "Soupe de Minestrone Maison", price: "12.00€" }
+          { name: "Cœur de Burrata Crémeuse", price_cents: 1450, description: "Roquette et tomates datterino", is_highlight: true },
+          { name: "Antipasto Villa Sophia", price_cents: 1800, description: "Bresaola, jambon de Parme 24 mois, artichauts" },
+          { name: "Focaccia Romarin & Fleur de Sel", price_cents: 900 },
+          { name: "Vitello Tonnato Tradition", price_cents: 1650 },
+          { name: "Calars Frits & Mayonnaise Basilic", price_cents: 1500 },
+          { name: "Bruschetta à la Tomate Fraîche", price_cents: 1100 },
+          { name: "Salade d'Artichauts Cruso", price_cents: 1350 },
+          { name: "Soupe de Minestrone Maison", price_cents: 1200 }
         ]
       },
       {
-        category: "Pizzas au Feu de Bois (Plats)",
+        category_type: "main",
+        display_label: "Pizzas au Feu de Bois (Plats)",
         items: [
-          { name: "Pizza Tartufo (Truffe Noire)", price: "24.00€", description: "Crème de truffe, mozza di bufala, champignons", highlight: true },
-          { name: "Pizza Regina Sophia", price: "16.50€", description: "Tomate, mozza, jambon, champignons de Paris" },
-          { name: "Pizza Margherita Classica", price: "14.00€" },
-          { name: "Pizza Piccante (Ventrina)", price: "17.50€" },
-          { name: "Pizza Quattro Formaggi", price: "18.00€" },
-          { name: "Pizza Calzone Traditionnel", price: "17.00€" },
-          { name: "Pizza San Daniele 24 mois", price: "19.50€" }
+          { name: "Pizza Tartufo (Truffe Noire)", price_cents: 2400, description: "Crème de truffe, mozza di bufala, champignons", is_highlight: true },
+          { name: "Pizza Regina Sophia", price_cents: 1650, description: "Tomate, mozza, jambon, champignons de Paris" },
+          { name: "Pizza Margherita Classica", price_cents: 1400 },
+          { name: "Pizza Piccante (Ventrina)", price_cents: 1750 },
+          { name: "Pizza Quattro Formaggi", price_cents: 1800 },
+          { name: "Pizza Calzone Traditionnel", price_cents: 1700 },
+          { name: "Pizza San Daniele 24 mois", price_cents: 1950 }
         ]
       },
       {
-        category: "Primi & Secondi (Plats)",
+        category_type: "main",
+        display_label: "Primi & Secondi (Plats)",
         items: [
-          { name: "Linguine alle Vongole (Palourdes)", price: "24.50€", description: "Ail, persil et vin blanc frais", highlight: true },
-          { name: "Penne à l'Arrabbiata", price: "18.00€" },
-          { name: "Risotto Impérial aux Gambas", price: "28.00€" },
-          { name: "Tagliatelle Bolognese Maison", price: "19.50€" },
-          { name: "Escalope de Veau Milanaise", price: "26.00€" },
-          { name: "Saltimbocca alla Romana", price: "25.50€" },
-          { name: "Filet de Daurade à la Livornese", price: "27.00€" }
+          { name: "Linguine alle Vongole (Palourdes)", price_cents: 2450, description: "Ail, persil et vin blanc frais", is_highlight: true },
+          { name: "Penne à l'Arrabbiata", price_cents: 1800 },
+          { name: "Risotto Impérial aux Gambas", price_cents: 2800 },
+          { name: "Tagliatelle Bolognese Maison", price_cents: 1950 },
+          { name: "Escalope de Veau Milanaise", price_cents: 2600 },
+          { name: "Saltimbocca alla Romana", price_cents: 2550 },
+          { name: "Filet de Daurade à la Livornese", price_cents: 2700 }
         ]
       },
       {
-        category: "Desserts & Gourmandises",
+        category_type: "dessert",
+        display_label: "Desserts & Gourmandises",
         items: [
-          { name: "Tiramisu Maison Incontournable", price: "9.50€", description: "Mascarpone onctueux et café fort", highlight: true },
-          { name: "Panna Cotta aux Fruits Rouges", price: "8.50€" },
-          { name: "Affogato al Caffè (Vannile)", price: "9.00€" },
-          { name: "Calzone au Nutella (A Partager)", price: "14.00€" },
-          { name: "Assortiment de Glaces Italiennes", price: "8.00€" },
-          { name: "Gorgonzola & Pain Grillé", price: "10.00€" }
+          { name: "Tiramisu Maison Incontournable", price_cents: 950, description: "Mascarpone onctueux et café fort", is_highlight: true },
+          { name: "Panna Cotta aux Fruits Rouges", price_cents: 850 },
+          { name: "Affogato al Caffè (Vannile)", price_cents: 900 },
+          { name: "Calzone au Nutella (A Partager)", price_cents: 1400 },
+          { name: "Assortiment de Glaces Italiennes", price_cents: 800 },
+          { name: "Gorgonzola & Pain Grillé", price_cents: 1000 }
         ]
       },
       {
-        category: "Bar & Spiritueux (Boissons)",
+        category_type: "drink",
+        display_label: "Bar & Spiritueux (Boissons)",
         items: [
-          { name: "Spritz Classico (Aperol)", price: "12.00€", highlight: true },
-          { name: "Verre de Chianti Riserva", price: "11.00€" },
-          { name: "Bouteille de Prosecco DOC", price: "34.00€" },
-          { name: "Expresso Pur Arabica Segafredo", price: "3.00€" },
-          { name: "Cappuccino à la Mousse Fine", price: "5.50€" },
-          { name: "Limoncello de Sorrento", price: "9.00€" },
-          { name: "Eau Minérale San Pellegrino", price: "7.50€" },
-          { name: "Jus de Tomate Epicé", price: "8.00€" }
+          { name: "Spritz Classico (Aperol)", price_cents: 1200, is_highlight: true },
+          { name: "Verre de Chianti Riserva", price_cents: 1100 },
+          { name: "Bouteille de Prosecco DOC", price_cents: 3400 },
+          { name: "Expresso Pur Arabica Segafredo", price_cents: 300 },
+          { name: "Cappuccino à la Mousse Fine", price_cents: 550 },
+          { name: "Limoncello de Sorrento", price_cents: 900 },
+          { name: "Eau Minérale San Pellegrino", price_cents: 750 },
+          { name: "Jus de Tomate Epicé", price_cents: 800 }
         ]
       }
     ]

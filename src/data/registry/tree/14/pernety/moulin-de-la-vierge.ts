@@ -43,42 +43,46 @@ export const moulin_de_la_vierge: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Pains d'Antan (Cuits au feu de bois)",
+                category_type: "other",
+                display_label: "Pains d'Antan (Cuits au feu de bois)",
                 items: [
-                    { name: "Pain de Campagne Bio (le kg)", price: "5.50€" },
-                    { name: "Baguette de tradition", price: "1.35€" },
-                    { name: "Pain aux céréales anciennes", price: "4.80€" },
-                    { name: "Pain de seigle pur", price: "5.20€" }
+                    { name: "Pain de Campagne Bio (le kg)", price_cents: 550 },
+                    { name: "Baguette de tradition", price_cents: 135 },
+                    { name: "Pain aux céréales anciennes", price_cents: 480 },
+                    { name: "Pain de seigle pur", price_cents: 520 }
                 ]
             },
             {
-                category: "Viennoiseries (Douceurs)",
+                category_type: "dessert",
+                display_label: "Viennoiseries (Douceurs)",
                 items: [
-                    { name: "Croissant pur beurre", price: "1.30€" },
-                    { name: "Pain au chocolat", price: "1.40€" },
-                    { name: "Chausson aux pommes maison", price: "2.40€" },
-                    { name: "Brioche à tête", price: "2.10€" },
-                    { name: "Pain aux raisins", price: "2.20€" }
+                    { name: "Croissant pur beurre", price_cents: 130 },
+                    { name: "Pain au chocolat", price_cents: 140 },
+                    { name: "Chausson aux pommes maison", price_cents: 240 },
+                    { name: "Brioche à tête", price_cents: 210 },
+                    { name: "Pain aux raisins", price_cents: 220 }
                 ]
             },
             {
-                category: "Pâtisseries & Salon de Thé",
+                category_type: "other",
+                display_label: "Pâtisseries & Salon de Thé",
                 items: [
-                    { name: "Millefeuille à l'ancienne", price: "5.80€" },
-                    { name: "Éclair au chocolat noir", price: "4.50€" },
-                    { name: "Tartelette aux fraises Gariguette", price: "6.20€" },
-                    { name: "Paris-Brest individuel", price: "5.90€" },
-                    { name: "Flan pâtissier onctueux", price: "4.00€" }
+                    { name: "Millefeuille à l'ancienne", price_cents: 580 },
+                    { name: "Éclair au chocolat noir", price_cents: 450 },
+                    { name: "Tartelette aux fraises Gariguette", price_cents: 620 },
+                    { name: "Paris-Brest individuel", price_cents: 590 },
+                    { name: "Flan pâtissier onctueux", price_cents: 400 }
                 ]
             },
             {
-                category: "Salé & Lunch (Plats)",
+                category_type: "main",
+                display_label: "Salé & Lunch (Plats)",
                 items: [
-                    { name: "Formule Déjeuner (Sandwich+Boisson+Dessert)", price: "12.50€" },
-                    { name: "Menu Quiche (Quiche+Boisson+Dessert)", price: "12.00€" },
-                    { name: "Sandwich jambon-beurre artisanal", price: "5.50€" },
-                    { name: "Quiche Lorraine individuelle", price: "5.20€" },
-                    { name: "Salade de saison", price: "8.50€" }
+                    { name: "Formule Déjeuner (Sandwich+Boisson+Dessert)", price_cents: 1250 },
+                    { name: "Menu Quiche (Quiche+Boisson+Dessert)", price_cents: 1200 },
+                    { name: "Sandwich jambon-beurre artisanal", price_cents: 550 },
+                    { name: "Quiche Lorraine individuelle", price_cents: 520 },
+                    { name: "Salade de saison", price_cents: 850 }
                 ]
             }
         ]

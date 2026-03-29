@@ -45,33 +45,36 @@ export const korus: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Menus Dégustation",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation",
                 items: [
-                    { name: "Menu TEMPO (Déjeuner)", price: "45.00€", description: "Menu découverte en 4 temps servi le midi." },
-                    { name: "Menu OPUS (Dîner)", price: "79.00€", description: "Menu dégustation en 6 temps, l'expérience signature." },
-                    { name: "Menu CHORUS (Dîner)", price: "97.00€", description: "Le grand voyage en 8 temps pour l'ensemble de la table." },
-                    { name: "Accord Mets & Vins (Tempo)", price: "30.00€", description: "3 verres en accord avec le menu déjeuner." },
-                    { name: "Accord Mets & Vins (Opus/Chorus)", price: "55.00€", description: "Sélection pointue du sommelier pour le dîner." }
+                    { name: "Menu TEMPO (Déjeuner)", price_cents: 4500, description: "Menu découverte en 4 temps servi le midi." },
+                    { name: "Menu OPUS (Dîner)", price_cents: 7900, description: "Menu dégustation en 6 temps, l'expérience signature." },
+                    { name: "Menu CHORUS (Dîner)", price_cents: 9700, description: "Le grand voyage en 8 temps pour l'ensemble de la table." },
+                    { name: "Accord Mets & Vins (Tempo)", price_cents: 3000, description: "3 verres en accord avec le menu déjeuner." },
+                    { name: "Accord Mets & Vins (Opus/Chorus)", price_cents: 5500, description: "Sélection pointue du sommelier pour le dîner." }
                 ]
             },
             {
-                category: "Exemples de Créations du Chef (Selon arrivage)",
+                category_type: "other",
+                display_label: "Exemples de Créations du Chef (Selon arrivage)",
                 items: [
-                    { name: "Tartare de Haddock", price: "18.00€", description: "Radis croquants, herbes fraîches, émulsion légère" },
-                    { name: "Thon Cru mariné", price: "21.00€", description: "Condiments de saison, huile de sésame torréfié" },
-                    { name: "Crabe effiloché", price: "22.00€", description: "Gelée de pomme verte, céleri branche" },
-                    { name: "Coeur de Canard snacké", price: "25.00€", description: "Jus réduit corsé, purée soyeuse" },
-                    { name: "Raie au beurre noisette", price: "32.00€", description: "Câpres, citron confit, tombée d'épinards" },
-                    { name: "Paleron de Boeuf", price: "36.00€", description: "Cuisson basse température, sauce cacao, légumes racines" },
-                    { name: "Bavette Angus", price: "34.00€", description: "Échalotes confites, pommes grenailles rôties" }
+                    { name: "Tartare de Haddock", price_cents: 1800, description: "Radis croquants, herbes fraîches, émulsion légère" },
+                    { name: "Thon Cru mariné", price_cents: 2100, description: "Condiments de saison, huile de sésame torréfié" },
+                    { name: "Crabe effiloché", price_cents: 2200, description: "Gelée de pomme verte, céleri branche" },
+                    { name: "Coeur de Canard snacké", price_cents: 2500, description: "Jus réduit corsé, purée soyeuse" },
+                    { name: "Raie au beurre noisette", price_cents: 3200, description: "Câpres, citron confit, tombée d'épinards" },
+                    { name: "Paleron de Boeuf", price_cents: 3600, description: "Cuisson basse température, sauce cacao, légumes racines" },
+                    { name: "Bavette Angus", price_cents: 3400, description: "Échalotes confites, pommes grenailles rôties" }
                 ]
             },
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
-                    { name: "Assiette de fromages affinés", price: "12.00€", description: "Sélection du fromager, chutney maison" },
-                    { name: "Déclinaison autour de la poire", price: "14.00€", description: "Poire rôtie, glace vanille, tuile croustillante" },
-                    { name: "Chocolat grand cru", price: "15.00€", description: "Crémeux chocolat, praliné noisette, glace au grué" }
+                    { name: "Assiette de fromages affinés", price_cents: 1200, description: "Sélection du fromager, chutney maison" },
+                    { name: "Déclinaison autour de la poire", price_cents: 1400, description: "Poire rôtie, glace vanille, tuile croustillante" },
+                    { name: "Chocolat grand cru", price_cents: 1500, description: "Crémeux chocolat, praliné noisette, glace au grué" }
                 ]
             }
         ]

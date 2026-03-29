@@ -40,40 +40,44 @@ export const oxte: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Ceviche de daurade royale, hibiscus et betterave", price: "32€" },
-          { name: "Lotte de Roscoff, chachoyotas et beurre blanc foie de lotte", price: "42€" },
-          { name: "Boeuf maturé fumé, masa et piment ancho", price: "45€" },
-          { name: "Pigeon avec mole Oxte et poireaux confits", price: "48€" },
-          { name: "Poulpe grillé, boudin noir et recado negro", price: "38€" },
-          { name: "Poisson du jour, mole de carotte et raisin", price: "36€" }
+          { name: "Ceviche de daurade royale, hibiscus et betterave", price_cents: 3200 },
+          { name: "Lotte de Roscoff, chachoyotas et beurre blanc foie de lotte", price_cents: 4200 },
+          { name: "Boeuf maturé fumé, masa et piment ancho", price_cents: 4500 },
+          { name: "Pigeon avec mole Oxte et poireaux confits", price_cents: 4800 },
+          { name: "Poulpe grillé, boudin noir et recado negro", price_cents: 3800 },
+          { name: "Poisson du jour, mole de carotte et raisin", price_cents: 3600 }
         ]
       },
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Tostadita de crabe, avocat et lime", price: "22€" },
-          { name: "Gordita de canard confit, salsa verde", price: "18€" },
-          { name: "Bouillon de maïs parfumé à l'épazote", price: "15€" },
-          { name: "Aguachile de crevettes, concombre et coriandre", price: "24€" }
+          { name: "Tostadita de crabe, avocat et lime", price_cents: 2200 },
+          { name: "Gordita de canard confit, salsa verde", price_cents: 1800 },
+          { name: "Bouillon de maïs parfumé à l'épazote", price_cents: 1500 },
+          { name: "Aguachile de crevettes, concombre et coriandre", price_cents: 2400 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Gâteau de maïs moelleux, piloncillo et chocolat", price: "16€" },
-          { name: "Avocat, mezcal et sorbet citron vert", price: "14€" },
-          { name: "Ganache chocolat mexicain, piment et fleur de sel", price: "15€" }
+          { name: "Gâteau de maïs moelleux, piloncillo et chocolat", price_cents: 1600 },
+          { name: "Avocat, mezcal et sorbet citron vert", price_cents: 1400 },
+          { name: "Ganache chocolat mexicain, piment et fleur de sel", price_cents: 1500 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Marguerita signature (Tequila reposado)", price: "16€" },
-          { name: "Mezcal dégustation (Le verre)", price: "14€" },
-          { name: "Verre de vin blanc (Sauvignon)", price: "12€" },
-          { name: "Café mexicain d'altitude", price: "5€" }
+          { name: "Marguerita signature (Tequila reposado)", price_cents: 1600 },
+          { name: "Mezcal dégustation (Le verre)", price_cents: 1400 },
+          { name: "Verre de vin blanc (Sauvignon)", price_cents: 1200 },
+          { name: "Café mexicain d'altitude", price_cents: 500 }
         ]
       }
     ]

@@ -39,35 +39,38 @@ export const hanoi_quan: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Entrées & Snacks (Khai Vị)",
+        category_type: "starter",
+        display_label: "Entrées & Snacks (Khai Vị)",
         items: [
-          { name: "Nems au Porc (x4)", price: "6.50€", description: "Croustillants et faits maison" },
-          { name: "Nems au Poulet (x4)", price: "6.50€" },
-          { name: "Rouleaux de Printemps (x2)", price: "6.00€", description: "Crevettes, porc, herbes fraîches" },
-          { name: "Salade de Mangue fraîche", price: "7.50€", description: "Épicée et acidulée" }
+          { name: "Nems au Porc (x4)", price_cents: 650, description: "Croustillants et faits maison" },
+          { name: "Nems au Poulet (x4)", price_cents: 650 },
+          { name: "Rouleaux de Printemps (x2)", price_cents: 600, description: "Crevettes, porc, herbes fraîches" },
+          { name: "Salade de Mangue fraîche", price_cents: 750, description: "Épicée et acidulée" }
         ]
       },
       {
-        category: "Les Plats (Món Chính)",
+        category_type: "main",
+        display_label: "Les Plats (Món Chính)",
         items: [
-          { name: "Phở Bœuf Ha Noi", price: "13.50€", description: "Bouillon mijoté 12h, herbes" },
-          { name: "Phở Poulet", price: "12.80€" },
-          { name: "Bo Bun Nem Porc & Bœuf", price: "14.50€", description: "Le classique complet" },
-          { name: "Bo Bun Nem Poulet", price: "14.50€" },
-          { name: "Bo Bun Nem Crevettes", price: "15.50€" },
-          { name: "Bo Bun Végétarien", price: "13.50€" },
-          { name: "Riz Bœuf à la citronnelle", price: "14.50€", description: "Accompagné de salade mangue" },
-          { name: "Riz Poulet grillé", price: "13.80€" },
-          { name: "Poké Bowl Saumon frais", price: "14.00€" },
-          { name: "Poké Bowl Poulet Teriyaki", price: "13.50€" }
+          { name: "Phở Bœuf Ha Noi", price_cents: 1350, description: "Bouillon mijoté 12h, herbes" },
+          { name: "Phở Poulet", price_cents: 1280 },
+          { name: "Bo Bun Nem Porc & Bœuf", price_cents: 1450, description: "Le classique complet" },
+          { name: "Bo Bun Nem Poulet", price_cents: 1450 },
+          { name: "Bo Bun Nem Crevettes", price_cents: 1550 },
+          { name: "Bo Bun Végétarien", price_cents: 1350 },
+          { name: "Riz Bœuf à la citronnelle", price_cents: 1450, description: "Accompagné de salade mangue" },
+          { name: "Riz Poulet grillé", price_cents: 1380 },
+          { name: "Poké Bowl Saumon frais", price_cents: 1400 },
+          { name: "Poké Bowl Poulet Teriyaki", price_cents: 1350 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Litchis au sirop", price: "5.50€" },
-          { name: "Boules Coco (x2)", price: "5.00€", description: "Cœur haricot mungo" },
-          { name: "Perles du Japon au lait de coco", price: "6.00€" }
+          { name: "Litchis au sirop", price_cents: 550 },
+          { name: "Boules Coco (x2)", price_cents: 500, description: "Cœur haricot mungo" },
+          { name: "Perles du Japon au lait de coco", price_cents: 600 }
         ]
       }
     ]

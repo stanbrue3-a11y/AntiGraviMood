@@ -42,57 +42,62 @@ export const ducky_s: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Menus Combo (Plats)",
+        category_type: "main",
+        display_label: "Les Menus Combo (Plats)",
         items: [
-          { name: "Menu 2 Gua Bao + Frites + Boisson", price: "11.90€", highlight: true },
-          { name: "Menu Canard Laqué (Plat + Boisson)", price: "13.90€" },
-          { name: "Menu Porc Laqué (Plat + Boisson)", price: "13.90€" },
-          { name: "Menu Poulet Citronnelle (Plat + Boisson)", price: "12.90€" },
-          { name: "Menu Végétarien (Gua Bao Tofu + Boisson)", price: "11.50€" }
+          { name: "Menu 2 Gua Bao + Frites + Boisson", price_cents: 1190, is_highlight: true },
+          { name: "Menu Canard Laqué (Plat + Boisson)", price_cents: 1390 },
+          { name: "Menu Porc Laqué (Plat + Boisson)", price_cents: 1390 },
+          { name: "Menu Poulet Citronnelle (Plat + Boisson)", price_cents: 1290 },
+          { name: "Menu Végétarien (Gua Bao Tofu + Boisson)", price_cents: 1150 }
         ]
       },
       {
-        category: "Gua Bao : Les Plats / Burgers Asiat'",
+        category_type: "main",
+        display_label: "Gua Bao : Les Plats / Burgers Asiat'",
         items: [
-          { name: "Gua Bao Canard Laqué Solo", price: "5.50€", highlight: true },
-          { name: "Gua Bao Porc Laqué Solo", price: "5.50€" },
-          { name: "Gua Bao Poulet Citronnelle", price: "5.50€" },
-          { name: "Gua Bao Tofu Bio", price: "5.00€" },
-          { name: "Gua Bao Crevette Panko", price: "6.00€" }
+          { name: "Gua Bao Canard Laqué Solo", price_cents: 550, is_highlight: true },
+          { name: "Gua Bao Porc Laqué Solo", price_cents: 550 },
+          { name: "Gua Bao Poulet Citronnelle", price_cents: 550 },
+          { name: "Gua Bao Tofu Bio", price_cents: 500 },
+          { name: "Gua Bao Crevette Panko", price_cents: 600 }
         ]
       },
       {
-        category: "Rôtisserie & Plats Signature",
+        category_type: "main",
+        display_label: "Rôtisserie & Plats Signature",
         items: [
-          { name: "Canard Laqué Entier (À partager)", price: "30.00€", highlight: true },
-          { name: "Demi Canard Laqué", price: "16.00€" },
-          { name: "Porc Laqué (Char Siu) - Portion", price: "11.00€" },
-          { name: "Plat de Riz au Canard Laqué", price: "12.00€" },
-          { name: "Wok de Nouilles au Poulet", price: "11.50€" },
-          { name: "Cuisses de Canard Confites façon Asie", price: "14.50€" }
+          { name: "Canard Laqué Entier (À partager)", price_cents: 3000, is_highlight: true },
+          { name: "Demi Canard Laqué", price_cents: 1600 },
+          { name: "Porc Laqué (Char Siu) - Portion", price_cents: 1100 },
+          { name: "Plat de Riz au Canard Laqué", price_cents: 1200 },
+          { name: "Wok de Nouilles au Poulet", price_cents: 1150 },
+          { name: "Cuisses de Canard Confites façon Asie", price_cents: 1450 }
         ]
       },
       {
-        category: "Dim Sum & Accompagnements",
+        category_type: "other",
+        display_label: "Dim Sum & Accompagnements",
         items: [
-          { name: "Nems au Porc Maison (x4)", price: "6.00€" },
-          { name: "Nems Végétariens (x4)", price: "5.50€" },
-          { name: "Ha Kao (Crevettes x4)", price: "7.00€" },
-          { name: "Siu Mai (Porc/Crevette x4)", price: "7.00€" },
-          { name: "Frites de Patate Douce Maison", price: "5.50€", highlight: true },
-          { name: "Gyoza Grillés Poulet (x5)", price: "6.50€" },
-          { name: "Salade de Chou Croquante", price: "4.50€" }
+          { name: "Nems au Porc Maison (x4)", price_cents: 600 },
+          { name: "Nems Végétariens (x4)", price_cents: 550 },
+          { name: "Ha Kao (Crevettes x4)", price_cents: 700 },
+          { name: "Siu Mai (Porc/Crevette x4)", price_cents: 700 },
+          { name: "Frites de Patate Douce Maison", price_cents: 550, is_highlight: true },
+          { name: "Gyoza Grillés Poulet (x5)", price_cents: 650 },
+          { name: "Salade de Chou Croquante", price_cents: 450 }
         ]
       },
       {
-        category: "Douceurs & Boissons",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons",
         items: [
-          { name: "Mochi Glacé (Parfum au choix)", price: "3.50€" },
-          { name: "Perles de Coco au Lait de Coco", price: "5.50€" },
-          { name: "Gâteau Banane & Coco", price: "5.50€" },
-          { name: "Bière Tsingtao (Bouteille)", price: "5.00€" },
-          { name: "Lait de Soja Maison", price: "3.50€" },
-          { name: "Thé Glacé Maison (Citron)", price: "4.50€" }
+          { name: "Mochi Glacé (Parfum au choix)", price_cents: 350 },
+          { name: "Perles de Coco au Lait de Coco", price_cents: 550 },
+          { name: "Gâteau Banane & Coco", price_cents: 550 },
+          { name: "Bière Tsingtao (Bouteille)", price_cents: 500 },
+          { name: "Lait de Soja Maison", price_cents: 350 },
+          { name: "Thé Glacé Maison (Citron)", price_cents: 450 }
         ]
       }
     ]

@@ -40,57 +40,62 @@ export const corail_restaurant: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "L'Éveil des Sens (Entrées)",
+        category_type: "starter",
+        display_label: "L'Éveil des Sens (Entrées)",
         items: [
-          { name: "Carpaccio de Saint-Jacques", price: "22€", description: "Huile de corail, zeste de citron vert", highlight: true },
-          { name: "Velouté de Crustacés", price: "18€", description: "Mousse d'estragon et croutons à l'ail" },
-          { name: "Tartare de Thon Albacore", price: "21€", description: "Gingembre frais et avocat crémeux" },
-          { name: "Salade de Homard Bleu", price: "28€", description: "Pamplemousse et jeunes pousses" },
-          { name: "Friture de Petits Poissons", price: "16€", description: "Inspiration méditerranéenne, sauce tartare" },
-          { name: "Huitres Gillardeau N°3 (x6)", price: "24€", description: "Servies avec vinaigre d'échalote" },
-          { name: "Asperges Vertes & Bottarga", price: "19€", description: "Poutargue râpée et œuf parfait" }
+          { name: "Carpaccio de Saint-Jacques", price_cents: 2200, description: "Huile de corail, zeste de citron vert", is_highlight: true },
+          { name: "Velouté de Crustacés", price_cents: 1800, description: "Mousse d'estragon et croutons à l'ail" },
+          { name: "Tartare de Thon Albacore", price_cents: 2100, description: "Gingembre frais et avocat crémeux" },
+          { name: "Salade de Homard Bleu", price_cents: 2800, description: "Pamplemousse et jeunes pousses" },
+          { name: "Friture de Petits Poissons", price_cents: 1600, description: "Inspiration méditerranéenne, sauce tartare" },
+          { name: "Huitres Gillardeau N°3 (x6)", price_cents: 2400, description: "Servies avec vinaigre d'échalote" },
+          { name: "Asperges Vertes & Bottarga", price_cents: 1900, description: "Poutargue râpée et œuf parfait" }
         ]
       },
       {
-        category: "Les Trésors de l'Océan (Plats)",
+        category_type: "main",
+        display_label: "Les Trésors de l'Océan (Plats)",
         items: [
-          { name: "Filet de Bar de Ligne", price: "34€", description: "Émulsion de beurre blanc au yuzu", highlight: true },
-          { name: "Sole Meunière Entière", price: "48€", description: "Saisie au beurre noisette, purée au sel de mer" },
-          { name: "Risotto Noir aux Seiches", price: "26€", description: "Encre de seiche et petits pois frais" },
-          { name: "Poulpe de Roche Grillé", price: "32€", description: "Légumes racines confits, sauce vierge" },
-          { name: "Lieu Jaune en Croûte d'Herbes", price: "29€", description: "Fondue de poireaux safranée" },
-          { name: "Homard Entier à la Plancha", price: "65€", description: "Beurre de corail épicé" },
-          { name: "Noix de Saint-Jacques Poêlées", price: "36€", description: "Crème de chou-fleur et noisettes torréfiées" },
-          { name: "Turbot de Mer de Sable", price: "52€", description: "Jus de coquillages et mini navets" }
+          { name: "Filet de Bar de Ligne", price_cents: 3400, description: "Émulsion de beurre blanc au yuzu", is_highlight: true },
+          { name: "Sole Meunière Entière", price_cents: 4800, description: "Saisie au beurre noisette, purée au sel de mer" },
+          { name: "Risotto Noir aux Seiches", price_cents: 2600, description: "Encre de seiche et petits pois frais" },
+          { name: "Poulpe de Roche Grillé", price_cents: 3200, description: "Légumes racines confits, sauce vierge" },
+          { name: "Lieu Jaune en Croûte d'Herbes", price_cents: 2900, description: "Fondue de poireaux safranée" },
+          { name: "Homard Entier à la Plancha", price_cents: 6500, description: "Beurre de corail épicé" },
+          { name: "Noix de Saint-Jacques Poêlées", price_cents: 3600, description: "Crème de chou-fleur et noisettes torréfiées" },
+          { name: "Turbot de Mer de Sable", price_cents: 5200, description: "Jus de coquillages et mini navets" }
         ]
       },
       {
-        category: "Terre & Végétal",
+        category_type: "other",
+        display_label: "Terre & Végétal",
         items: [
-          { name: "Faux-Filet Dry Aged", price: "42€", description: "Bœuf normand, frites de patate douce" },
-          { name: "Suprême de Volaille Jaune", price: "28€", description: "Gnocchis à la sauge et jus de viande" },
-          { name: "Gnocchis Potager", price: "24€", description: "Légumes de saison sautés, parmesan 24 mois" }
+          { name: "Faux-Filet Dry Aged", price_cents: 4200, description: "Bœuf normand, frites de patate douce" },
+          { name: "Suprême de Volaille Jaune", price_cents: 2800, description: "Gnocchis à la sauge et jus de viande" },
+          { name: "Gnocchis Potager", price_cents: 2400, description: "Légumes de saison sautés, parmesan 24 mois" }
         ]
       },
       {
-        category: "Douceurs Marines (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs Marines (Desserts)",
         items: [
-          { name: "Soufflé au Grand Marnier", price: "14€", description: "Aérien, servi dès la sortie du four", highlight: true },
-          { name: "Millefeuille Vanille Bourbon", price: "12€", description: "Crème légère et caramel salé" },
-          { name: "Tarte Citron Déstructurée", price: "11€", description: "Meringue italienne et basilic" },
-          { name: "Sorbet Citron Vert & Vodka", price: "10€" },
-          { name: "Assiette de Fromages Affinés", price: "15€" }
+          { name: "Soufflé au Grand Marnier", price_cents: 1400, description: "Aérien, servi dès la sortie du four", is_highlight: true },
+          { name: "Millefeuille Vanille Bourbon", price_cents: 1200, description: "Crème légère et caramel salé" },
+          { name: "Tarte Citron Déstructurée", price_cents: 1100, description: "Meringue italienne et basilic" },
+          { name: "Sorbet Citron Vert & Vodka", price_cents: 1000 },
+          { name: "Assiette de Fromages Affinés", price_cents: 1500 }
         ]
       },
       {
-        category: "Cave & Bar",
+        category_type: "drink",
+        display_label: "Cave & Bar",
         items: [
-          { name: "Sancerre 'Les Romains'", price: "14€", description: "Verre - Accord parfait seafood" },
-          { name: "Cocktail Signature 'Corail'", price: "16€", description: "Gin, fleur de sureau, pamplemousse" },
-          { name: "Whisky Nikka from the Barrel", price: "18€" },
-          { name: "Champagne Ruinart Brut (Coupe)", price: "22€" },
-          { name: "Expresso Pur Arabica", price: "5€" },
-          { name: "Infusion Verveine Fraîche", price: "7€" }
+          { name: "Sancerre 'Les Romains'", price_cents: 1400, description: "Verre - Accord parfait seafood" },
+          { name: "Cocktail Signature 'Corail'", price_cents: 1600, description: "Gin, fleur de sureau, pamplemousse" },
+          { name: "Whisky Nikka from the Barrel", price_cents: 1800 },
+          { name: "Champagne Ruinart Brut (Coupe)", price_cents: 2200 },
+          { name: "Expresso Pur Arabica", price_cents: 500 },
+          { name: "Infusion Verveine Fraîche", price_cents: 700 }
         ]
       }
     ]

@@ -40,58 +40,62 @@ export const le_cassenoix: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Pâté en croûte maison", price: "14€" },
-          { name: "Boudin blanc grillé et pommes", price: "12€" },
-          { name: "Mousse de foie de volaille", price: "8€" },
-          { name: "Soupe de petits pois glacée", price: "10€" },
-          { name: "Foie gras poêlé et coings", price: "16€" },
-          { name: "Maquereau mariné au vin blanc", price: "11€" },
-          { name: "Œufs mimosa à la truffe", price: "9€" },
-          { name: "Tartare de thon et feta", price: "13€" },
-          { name: "Salade de museau de porc", price: "9€" },
-          { name: "Poireaux vinaigrette et noisettes", price: "8€" }
+          { name: "Pâté en croûte maison", price_cents: 1400 },
+          { name: "Boudin blanc grillé et pommes", price_cents: 1200 },
+          { name: "Mousse de foie de volaille", price_cents: 800 },
+          { name: "Soupe de petits pois glacée", price_cents: 1000 },
+          { name: "Foie gras poêlé et coings", price_cents: 1600 },
+          { name: "Maquereau mariné au vin blanc", price_cents: 1100 },
+          { name: "Œufs mimosa à la truffe", price_cents: 900 },
+          { name: "Tartare de thon et feta", price_cents: 1300 },
+          { name: "Salade de museau de porc", price_cents: 900 },
+          { name: "Poireaux vinaigrette et noisettes", price_cents: 800 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Menu Casse-Noix (E+P+D)", price: "44€" },
-          { name: "Menu Dégustation (8+ pers)", price: "50€" },
-          { name: "Épaule de porc Ibaïona rôtie", price: "26€" },
-          { name: "Petit salé aux lentilles", price: "22€" },
-          { name: "Ballotine de lapin aux carottes", price: "24€" },
-          { name: " Quasi de veau de lait poêlé", price: "28€" },
-          { name: "Dos de cabillaud, jus passion", price: "25€" },
-          { name: "Entrecôte Simmental grillée", price: "32€" },
-          { name: "Joue de bœuf braisée au vin rouge", price: "24€" },
-          { name: "Parmentier de canard confit", price: "22€" },
-          { name: "Filet de bar à la plancha", price: "26€" },
-          { name: "Ris de veau aux morilles", price: "38€" },
-          { name: "Sauté de dinde aux champignons", price: "20€" }
+          { name: "Menu Casse-Noix (E+P+D)", price_cents: 4400 },
+          { name: "Menu Dégustation (8+ pers)", price_cents: 5000 },
+          { name: "Épaule de porc Ibaïona rôtie", price_cents: 2600 },
+          { name: "Petit salé aux lentilles", price_cents: 2200 },
+          { name: "Ballotine de lapin aux carottes", price_cents: 2400 },
+          { name: " Quasi de veau de lait poêlé", price_cents: 2800 },
+          { name: "Dos de cabillaud, jus passion", price_cents: 2500 },
+          { name: "Entrecôte Simmental grillée", price_cents: 3200 },
+          { name: "Joue de bœuf braisée au vin rouge", price_cents: 2400 },
+          { name: "Parmentier de canard confit", price_cents: 2200 },
+          { name: "Filet de bar à la plancha", price_cents: 2600 },
+          { name: "Ris de veau aux morilles", price_cents: 3800 },
+          { name: "Sauté de dinde aux champignons", price_cents: 2000 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Île flottante à la vanille", price: "10€" },
-          { name: "Gâteau au chocolat et framboises", price: "11€" },
-          { name: "Riz au lait crémeux", price: "9€" },
-          { name: "Tarte fine aux pommes", price: "10€" },
-          { name: "Crème brûlée à la fève tonka", price: "9€" },
-          { name: "Assiette de fromages affinés", price: "12€" },
-          { name: "Baba au rhum ambré", price: "12€" },
-          { name: "Sorbet artisanal (3 boules)", price: "9€" },
-          { name: "Pruneaux à l'armagnac", price: "10€" }
+          { name: "Île flottante à la vanille", price_cents: 1000 },
+          { name: "Gâteau au chocolat et framboises", price_cents: 1100 },
+          { name: "Riz au lait crémeux", price_cents: 900 },
+          { name: "Tarte fine aux pommes", price_cents: 1000 },
+          { name: "Crème brûlée à la fève tonka", price_cents: 900 },
+          { name: "Assiette de fromages affinés", price_cents: 1200 },
+          { name: "Baba au rhum ambré", price_cents: 1200 },
+          { name: "Sorbet artisanal (3 boules)", price_cents: 900 },
+          { name: "Pruneaux à l'armagnac", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de vin de pays", price: "7€" },
-          { name: "Café ou décaféiné", price: "3€" },
-          { name: "Digestif du chef", price: "9€" }
+          { name: "Verre de vin de pays", price_cents: 700 },
+          { name: "Café ou décaféiné", price_cents: 300 },
+          { name: "Digestif du chef", price_cents: 900 }
         ]
       }
     ]

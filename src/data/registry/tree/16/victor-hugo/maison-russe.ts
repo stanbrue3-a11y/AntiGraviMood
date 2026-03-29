@@ -40,59 +40,64 @@ export const maison_revka: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "L'Or Noir (Caviar)",
+        category_type: "other",
+        display_label: "L'Or Noir (Caviar)",
         items: [
-          { name: "Caviar Beluga (50g)", price: "240€", description: "Le summum du luxe slave, servi avec blinis", highlight: true },
-          { name: "Caviar Baeri (30g)", price: "85€", description: "Notes boisées et iodées" },
-          { name: "Caviar Oscilètre (30g)", price: "110€", description: "Grain ferme, saveurs de noisette" },
-          { name: "Tarama au Caviar", price: "24€", description: "Servi avec toasts briochés" }
+          { name: "Caviar Beluga (50g)", price_cents: 24000, description: "Le summum du luxe slave, servi avec blinis", is_highlight: true },
+          { name: "Caviar Baeri (30g)", price_cents: 8500, description: "Notes boisées et iodées" },
+          { name: "Caviar Oscilètre (30g)", price_cents: 11000, description: "Grain ferme, saveurs de noisette" },
+          { name: "Tarama au Caviar", price_cents: 2400, description: "Servi avec toasts briochés" }
         ]
       },
       {
-        category: "Incontournables Slave (Entrées)",
+        category_type: "starter",
+        display_label: "Incontournables Slave (Entrées)",
         items: [
-          { name: "Cœur de Saumon Fumé", price: "34€", description: "Impérial, crème de raifort", highlight: true },
-          { name: "Pirojkis à la Viande (x2)", price: "18€", description: "Petits chaussons typiques, jus corsé" },
-          { name: "Salade Olivier Classique", price: "22€", description: "Pommes de terre, volaille, petits pois et mayo maison" },
-          { name: "Borscht Revka", price: "21€", description: "Soupe traditionnelle à la betterave et crème aigre" },
-          { name: "Carpaccio de Sériole yuzu", price: "28€", description: "Sériole tranchée finement, huile de citronnelle" },
-          { name: "Œuf Mollet au Caviar", price: "29€", description: "Sur lit de crème fraîche épaisse" },
-          { name: "Foie Gras au Porto", price: "32€", description: "Gelée de coing et pain noir" }
+          { name: "Cœur de Saumon Fumé", price_cents: 3400, description: "Impérial, crème de raifort", is_highlight: true },
+          { name: "Pirojkis à la Viande (x2)", price_cents: 1800, description: "Petits chaussons typiques, jus corsé" },
+          { name: "Salade Olivier Classique", price_cents: 2200, description: "Pommes de terre, volaille, petits pois et mayo maison" },
+          { name: "Borscht Revka", price_cents: 2100, description: "Soupe traditionnelle à la betterave et crème aigre" },
+          { name: "Carpaccio de Sériole yuzu", price_cents: 2800, description: "Sériole tranchée finement, huile de citronnelle" },
+          { name: "Œuf Mollet au Caviar", price_cents: 2900, description: "Sur lit de crème fraîche épaisse" },
+          { name: "Foie Gras au Porto", price_cents: 3200, description: "Gelée de coing et pain noir" }
         ]
       },
       {
-        category: "Grands Plats Slaves",
+        category_type: "main",
+        display_label: "Grands Plats Slaves",
         items: [
-          { name: "Bœuf Strogonoff", price: "58€", description: "Filet de bœuf émincé, sauce onctueuse aux champignons", highlight: true },
-          { name: "Coulibiac de Saumon", price: "48€", description: "Saumon en croûte feuilletée, riz, épinards et œuf" },
-          { name: "Poulet à la Kiev", price: "46€", description: "Suprême farci au beurre d'herbes et frites maison" },
-          { name: "Linguine au Homard", price: "75€", description: "Demie homard bleu et caviar baeri", highlight: true },
-          { name: "Sashimi de Bar Revka", price: "36€", description: "Vinaigrette truffée et fleurs comestibles" },
-          { name: "Sole Meunière du Tsar", price: "55€", description: "Filets levés, purée au caviar" },
-          { name: "Entrecôte Wagyu (200g)", price: "85€", description: "Provenance Australie, sauce chimichurri slave" },
-          { name: "Risotto Noir Gambas", price: "39€", description: "Gambas impériales, huile de corail" }
+          { name: "Bœuf Strogonoff", price_cents: 5800, description: "Filet de bœuf émincé, sauce onctueuse aux champignons", is_highlight: true },
+          { name: "Coulibiac de Saumon", price_cents: 4800, description: "Saumon en croûte feuilletée, riz, épinards et œuf" },
+          { name: "Poulet à la Kiev", price_cents: 4600, description: "Suprême farci au beurre d'herbes et frites maison" },
+          { name: "Linguine au Homard", price_cents: 7500, description: "Demie homard bleu et caviar baeri", is_highlight: true },
+          { name: "Sashimi de Bar Revka", price_cents: 3600, description: "Vinaigrette truffée et fleurs comestibles" },
+          { name: "Sole Meunière du Tsar", price_cents: 5500, description: "Filets levés, purée au caviar" },
+          { name: "Entrecôte Wagyu (200g)", price_cents: 8500, description: "Provenance Australie, sauce chimichurri slave" },
+          { name: "Risotto Noir Gambas", price_cents: 3900, description: "Gambas impériales, huile de corail" }
         ]
       },
       {
-        category: "Final en Apothéose (Desserts)",
+        category_type: "dessert",
+        display_label: "Final en Apothéose (Desserts)",
         items: [
-          { name: "Pavlova Fruits Rouges", price: "22€", description: "Meringue fondante et généreuse", highlight: true },
-          { name: "Saint-Honoré Vanille", price: "19€", description: "Caramel croquant et crème légère" },
-          { name: "Mille-feuille Minute", price: "21€", description: "Vanille Bourbon, format à partager" },
-          { name: "Chouquette Impériale", price: "18€", description: "Servies par 6, crème vanille et caviar (optionnel)" },
-          { name: "Sorbets Maison Slavons", price: "12€", description: "Litchi, framboise et vodka" },
-          { name: "Chocolat Signature", price: "14€", description: "Ganache noire, éclats de sarrasin" }
+          { name: "Pavlova Fruits Rouges", price_cents: 2200, description: "Meringue fondante et généreuse", is_highlight: true },
+          { name: "Saint-Honoré Vanille", price_cents: 1900, description: "Caramel croquant et crème légère" },
+          { name: "Mille-feuille Minute", price_cents: 2100, description: "Vanille Bourbon, format à partager" },
+          { name: "Chouquette Impériale", price_cents: 1800, description: "Servies par 6, crème vanille et caviar (optionnel)" },
+          { name: "Sorbets Maison Slavons", price_cents: 1200, description: "Litchi, framboise et vodka" },
+          { name: "Chocolat Signature", price_cents: 1400, description: "Ganache noire, éclats de sarrasin" }
         ]
       },
       {
-        category: "L'Art de la Vodka & Cave",
+        category_type: "drink",
+        display_label: "L'Art de la Vodka & Cave",
         items: [
-          { name: "Vodka Beluga Gold Line", price: "28€", description: "Shot de 4cl - Service glacé" },
-          { name: "Cocktail Moskovskaya", price: "22€", description: "Vodka infusion thé, framboise, citron" },
-          { name: "Ruinart Brut (Coupé)", price: "22€" },
-          { name: "Saint-Julien (Verre)", price: "24€" },
-          { name: "Double Expresso Pavillon", price: "8€" },
-          { name: "Thé Samovar de luxe", price: "12€" }
+          { name: "Vodka Beluga Gold Line", price_cents: 2800, description: "Shot de 4cl - Service glacé" },
+          { name: "Cocktail Moskovskaya", price_cents: 2200, description: "Vodka infusion thé, framboise, citron" },
+          { name: "Ruinart Brut (Coupé)", price_cents: 2200 },
+          { name: "Saint-Julien (Verre)", price_cents: 2400 },
+          { name: "Double Expresso Pavillon", price_cents: 800 },
+          { name: "Thé Samovar de luxe", price_cents: 1200 }
         ]
       }
     ]

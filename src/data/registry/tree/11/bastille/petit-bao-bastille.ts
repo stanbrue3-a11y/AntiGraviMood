@@ -44,43 +44,47 @@ export const petitBaoBastille: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Signatures (Baos & Dim Sum)",
+                category_type: "other",
+                display_label: "Les Signatures (Baos & Dim Sum)",
                 items: [
-                    { name: "Charsiu Bao (x2)", price: "9.00€", description: "Brioche vapeur au porc laqué caramélisé." },
-                    { name: "Baozi Shanghai Classic (x2)", price: "8.50€", description: "Porc, ciboule, gingembre." },
-                    { name: "Chicken Bao (x2)", price: "9.00€", description: "Poulet, shiitake, poivre noir." },
-                    { name: "Xiao Long Bao (x4)", price: "9.50€", description: "Raviolis à la soupe brûlante de porc." },
-                    { name: "Pan-fried Pork Mini Bao (x3)", price: "10.00€", description: "Croustillants, jus brûlant." },
-                    { name: "Siu Mai (x3)", price: "7.00€", description: "Bouchées porc & crevettes." },
-                    { name: "Cheesy Bao (x1)", price: "6.00€", description: "Bao frit, fromage & oignons caramélisés." }
+                    { name: "Charsiu Bao (x2)", price_cents: 900, description: "Brioche vapeur au porc laqué caramélisé." },
+                    { name: "Baozi Shanghai Classic (x2)", price_cents: 850, description: "Porc, ciboule, gingembre." },
+                    { name: "Chicken Bao (x2)", price_cents: 900, description: "Poulet, shiitake, poivre noir." },
+                    { name: "Xiao Long Bao (x4)", price_cents: 950, description: "Raviolis à la soupe brûlante de porc." },
+                    { name: "Pan-fried Pork Mini Bao (x3)", price_cents: 1000, description: "Croustillants, jus brûlant." },
+                    { name: "Siu Mai (x3)", price_cents: 700, description: "Bouchées porc & crevettes." },
+                    { name: "Cheesy Bao (x1)", price_cents: 600, description: "Bao frit, fromage & oignons caramélisés." }
                 ]
             },
             {
-                category: "Wok & Plats",
+                category_type: "main",
+                display_label: "Wok & Plats",
                 items: [
-                    { name: "Aubergines Chinoise Fondantes", price: "15.00€", description: "Aubergines fondantes à la sauce soja secrète." },
-                    { name: "Poulet Sweet & Sour sur riz", price: "16.00€", description: "Poulet frit croustillant, sauce acidulée." },
-                    { name: "Boeuf Loc Lac", price: "18.00€" },
-                    { name: "OG Chao Fan", price: "14.50€", description: "Riz sauté aux œufs, shiitake & sauce XO maison." },
-                    { name: "Veggie Ho Fun", price: "14.00€", description: "Nouilles de riz larges, tofu & légumes." },
-                    { name: "Nouilles de Shanghai", price: "10.00€", description: "Nouilles fraîches maison, soja & échalotes frites." }
+                    { name: "Aubergines Chinoise Fondantes", price_cents: 1500, description: "Aubergines fondantes à la sauce soja secrète." },
+                    { name: "Poulet Sweet & Sour sur riz", price_cents: 1600, description: "Poulet frit croustillant, sauce acidulée." },
+                    { name: "Boeuf Loc Lac", price_cents: 1800 },
+                    { name: "OG Chao Fan", price_cents: 1450, description: "Riz sauté aux œufs, shiitake & sauce XO maison." },
+                    { name: "Veggie Ho Fun", price_cents: 1400, description: "Nouilles de riz larges, tofu & légumes." },
+                    { name: "Nouilles de Shanghai", price_cents: 1000, description: "Nouilles fraîches maison, soja & échalotes frites." }
                 ]
             },
             {
-                category: "The Underpool (Signatures Cocktails)",
+                category_type: "drink",
+                display_label: "The Underpool (Signatures Cocktails)",
                 items: [
-                    { name: "Crystal Lotus", price: "13.00€", description: "Gin, lotus blanc, touche florale." },
-                    { name: "Rose Prune", price: "14.00€", description: "Pisco infusé vanille, Umeshu." },
-                    { name: "Sichuan Mule", price: "13.00€", description: "Vodka, poivre de Sichuan, ginger beer." },
-                    { name: "Underpool Negroni", price: "15.00€" }
+                    { name: "Crystal Lotus", price_cents: 1300, description: "Gin, lotus blanc, touche florale." },
+                    { name: "Rose Prune", price_cents: 1400, description: "Pisco infusé vanille, Umeshu." },
+                    { name: "Sichuan Mule", price_cents: 1300, description: "Vodka, poivre de Sichuan, ginger beer." },
+                    { name: "Underpool Negroni", price_cents: 1500 }
                 ]
             },
             {
-                category: "Douceurs (Desserts)",
+                category_type: "dessert",
+                display_label: "Douceurs (Desserts)",
                 items: [
-                    { name: "Peanut Bao", price: "6.00€", description: "Le bao sucré au coeur cacahuète & caramel." },
-                    { name: "Mini Bao Choco", price: "6.50€", description: "Ganache chocolat noir fondante." },
-                    { name: "Mango Sago", price: "7.00€", description: "Perles de tapioca & mangue fraîche." }
+                    { name: "Peanut Bao", price_cents: 600, description: "Le bao sucré au coeur cacahuète & caramel." },
+                    { name: "Mini Bao Choco", price_cents: 650, description: "Ganache chocolat noir fondante." },
+                    { name: "Mango Sago", price_cents: 700, description: "Perles de tapioca & mangue fraîche." }
                 ]
             }
         ]

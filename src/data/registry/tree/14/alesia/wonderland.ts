@@ -43,47 +43,51 @@ export const wonderland: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Pâtisseries Trompe-l'œil (Douceurs)",
+                category_type: "dessert",
+                display_label: "Pâtisseries Trompe-l'œil (Douceurs)",
                 items: [
-                    { name: "Le Fantasia (Signature)", price: "8.40€" },
-                    { name: "Le Cactus (Trompe-l'œil)", price: "8.10€" },
-                    { name: "Le Moaï (Chocolat & Noisette)", price: "7.90€" },
-                    { name: "Le Champi (Fruit de la passion)", price: "8.20€" },
-                    { name: "La Noix (Caramel & Noix)", price: "7.80€" },
-                    { name: "La Jacinthe (Fleurs & Mûres)", price: "8.40€" },
-                    { name: "Le Coquelicot (Fruits Rouges)", price: "8.30€" }
+                    { name: "Le Fantasia (Signature)", price_cents: 840 },
+                    { name: "Le Cactus (Trompe-l'œil)", price_cents: 810 },
+                    { name: "Le Moaï (Chocolat & Noisette)", price_cents: 790 },
+                    { name: "Le Champi (Fruit de la passion)", price_cents: 820 },
+                    { name: "La Noix (Caramel & Noix)", price_cents: 780 },
+                    { name: "La Jacinthe (Fleurs & Mûres)", price_cents: 840 },
+                    { name: "Le Coquelicot (Fruits Rouges)", price_cents: 830 }
                 ]
             },
             {
-                category: "Gâteaux de Voyage (Douceurs)",
+                category_type: "dessert",
+                display_label: "Gâteaux de Voyage (Douceurs)",
                 items: [
-                    { name: "Banana Bread moelleux", price: "10.90€" },
-                    { name: "Cake Peanut (Beurre de cacahuète)", price: "9.50€" },
-                    { name: "Marbré Chocolat-Vanille", price: "7.00€" },
-                    { name: "Carapek (Caramel & Pécan)", price: "8.80€" },
-                    { name: "Gâteau Nantais (2/3 pers)", price: "8.50€" },
-                    { name: "Cookie Chocolat Noir (Takeaway)", price: "3.00€" },
-                    { name: "Cookie Noix de Macadamia", price: "3.00€" }
+                    { name: "Banana Bread moelleux", price_cents: 1090 },
+                    { name: "Cake Peanut (Beurre de cacahuète)", price_cents: 950 },
+                    { name: "Marbré Chocolat-Vanille", price_cents: 700 },
+                    { name: "Carapek (Caramel & Pécan)", price_cents: 880 },
+                    { name: "Gâteau Nantais (2/3 pers)", price_cents: 850 },
+                    { name: "Cookie Chocolat Noir (Takeaway)", price_cents: 300 },
+                    { name: "Cookie Noix de Macadamia", price_cents: 300 }
                 ]
             },
             {
-                category: "Viennoiseries (Douceurs)",
+                category_type: "dessert",
+                display_label: "Viennoiseries (Douceurs)",
                 items: [
-                    { name: "Pain au Chocolat pur beurre", price: "1.40€" },
-                    { name: "Croissant Wonderland", price: "1.30€" },
-                    { name: "Chausson aux Pommes caramélisé", price: "2.40€" },
-                    { name: "Brioche Sucre Fine", price: "2.10€" },
-                    { name: "Baguette de tradition bio", price: "1.30€" }
+                    { name: "Pain au Chocolat pur beurre", price_cents: 140 },
+                    { name: "Croissant Wonderland", price_cents: 130 },
+                    { name: "Chausson aux Pommes caramélisé", price_cents: 240 },
+                    { name: "Brioche Sucre Fine", price_cents: 210 },
+                    { name: "Baguette de tradition bio", price_cents: 130 }
                 ]
             },
             {
-                category: "Salé & Lunch (Plats)",
+                category_type: "main",
+                display_label: "Salé & Lunch (Plats)",
                 items: [
-                    { name: "Bowl Végétarien du Chef", price: "14.50€" },
-                    { name: "Menu Quiche (Quiche & Dessert)", price: "14.00€" },
-                    { name: "Quiche de saison & salade", price: "12.00€" },
-                    { name: "Wrap Poulet Curry", price: "9.50€" },
-                    { name: "Salade de Pâtes au Pesto", price: "10.00€" }
+                    { name: "Bowl Végétarien du Chef", price_cents: 1450 },
+                    { name: "Menu Quiche (Quiche & Dessert)", price_cents: 1400 },
+                    { name: "Quiche de saison & salade", price_cents: 1200 },
+                    { name: "Wrap Poulet Curry", price_cents: 950 },
+                    { name: "Salade de Pâtes au Pesto", price_cents: 1000 }
                 ]
             }
         ]

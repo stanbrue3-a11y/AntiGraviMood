@@ -48,81 +48,87 @@ export const rigmarole: SurgicalPlace = {
             // MENUS (Source: lerigmarole.com + LeFooding + LesRestos)
             // ═══════════════════════════════════════════
             {
-                category: "Menus Dégustation (Déjeuner)",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation (Déjeuner)",
                 items: [
                     // VERIFIED: Site officiel lerigmarole.com
-                    { name: "Menu Surprise du Chef (7 brochettes + 2 petits plats + pickles + dessert)", price: "50.00€", description: "Le format signature, succession de brochettes au binchotan." },
+                    { name: "Menu Surprise du Chef (7 brochettes + 2 petits plats + pickles + dessert)", price_cents: 5000, description: "Le format signature, succession de brochettes au binchotan." },
                     // VERIFIED: LeFooding (2024)
-                    { name: "Menu Dégustation (~13 plats, accord omakase)", price: "75.00€", description: "Le grand menu complet du déjeuner." },
+                    { name: "Menu Dégustation (~13 plats, accord omakase)", price_cents: 7500, description: "Le grand menu complet du déjeuner." },
                     // VERIFIED: LeFooding + LesRestos
-                    { name: "Menu Brochettes (9 brochettes chef's choice)", price: "45.00€" }
+                    { name: "Menu Brochettes (9 brochettes chef's choice)", price_cents: 4500 }
                 ]
             },
             {
-                category: "Privatisation / Table d'Hôte (Soirée sur réservation)",
+                category_type: "other",
+                display_label: "Privatisation / Table d'Hôte (Soirée sur réservation)",
                 items: [
                     // VERIFIED: Site officiel lerigmarole.com
-                    { name: "Menu Privé 12 passages (8-16 couverts minimum)", price: "160.00€", description: "Menu exhaustif sur mesure avec préférences et restrictions." }
+                    { name: "Menu Privé 12 passages (8-16 couverts minimum)", price_cents: 16000, description: "Menu exhaustif sur mesure avec préférences et restrictions." }
                 ]
             },
             // ═══════════════════════════════════════════
             // BROCHETTES YAKITORI AU BINCHOTAN (Source: LeFooding + TimeOut + 50Best + LesRestos)
             // ═══════════════════════════════════════════
             {
-                category: "Brochettes Yakitori au Binchotan (à la carte)",
+                category_type: "other",
+                display_label: "Brochettes Yakitori au Binchotan (à la carte)",
                 items: [
                     // VERIFIED: 50Best + LeFooding — fourchette 5-9€ la pièce / duo
-                    { name: "Yakitori cuisse de poulet, zeste de clémentine", price: "7.00€" },
-                    { name: "Blanc de volaille, basilic et citron confit", price: "7.00€" },
-                    { name: "Poitrine de porc yakitori, bambou", price: "8.00€" },
-                    { name: "Aorte et cœur grillés", price: "6.00€" },
-                    { name: "Brochette de légumes de saison", price: "5.00€" },
-                    { name: "Demi-pigeon grillé (en saison)", price: "18.00€" }
+                    { name: "Yakitori cuisse de poulet, zeste de clémentine", price_cents: 700 },
+                    { name: "Blanc de volaille, basilic et citron confit", price_cents: 700 },
+                    { name: "Poitrine de porc yakitori, bambou", price_cents: 800 },
+                    { name: "Aorte et cœur grillés", price_cents: 600 },
+                    { name: "Brochette de légumes de saison", price_cents: 500 },
+                    { name: "Demi-pigeon grillé (en saison)", price_cents: 1800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS À LA CARTE (Source: LeFooding + LesRestos + TimeOut + 50Best)
             // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: LeFooding (2024) — fourchette 8-39€
-                    { name: "Spaghetti à la poutargue (fait main)", price: "24.00€", description: "Les pâtes maison sont la seconde spécialité du chef." },
-                    { name: "Ravioli ricotta, bouillon dashi", price: "22.00€" },
-                    { name: "Pâtes fraîches au homard (en saison)", price: "39.00€" },
-                    { name: "Bar tartare", price: "18.00€" },
-                    { name: "Maquereau grillé au binchotan", price: "16.00€" },
-                    { name: "Seiche grillée, yaourt épicé", price: "18.00€" },
-                    { name: "Polpette de porc, purée d'épinards", price: "14.00€" },
-                    { name: "Beignets de butternut", price: "12.00€" },
-                    { name: "Poireaux grillés", price: "10.00€" },
-                    { name: "Courgettes rôties au binchotan", price: "10.00€" }
+                    { name: "Spaghetti à la poutargue (fait main)", price_cents: 2400, description: "Les pâtes maison sont la seconde spécialité du chef." },
+                    { name: "Ravioli ricotta, bouillon dashi", price_cents: 2200 },
+                    { name: "Pâtes fraîches au homard (en saison)", price_cents: 3900 },
+                    { name: "Bar tartare", price_cents: 1800 },
+                    { name: "Maquereau grillé au binchotan", price_cents: 1600 },
+                    { name: "Seiche grillée, yaourt épicé", price_cents: 1800 },
+                    { name: "Polpette de porc, purée d'épinards", price_cents: 1400 },
+                    { name: "Beignets de butternut", price_cents: 1200 },
+                    { name: "Poireaux grillés", price_cents: 1000 },
+                    { name: "Courgettes rôties au binchotan", price_cents: 1000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // DESSERTS (Source: LesRestos + TimeOut)
             // ═══════════════════════════════════════════
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
                     // VERIFIED: LesRestos (2024)
-                    { name: "Far aux dattes", price: "10.00€" },
-                    { name: "Fondant au chocolat, glace à l'orge grillé", price: "12.00€" }
+                    { name: "Far aux dattes", price_cents: 1000 },
+                    { name: "Fondant au chocolat, glace à l'orge grillé", price_cents: 1200 }
                 ]
             },
             // ═══════════════════════════════════════════
             // VINS & BOISSONS (Source: LeFooding + Avis Google)
             // ═══════════════════════════════════════════
             {
-                category: "Vins Natures & Boissons",
+                category_type: "drink",
+                display_label: "Vins Natures & Boissons",
                 items: [
                     // VERIFIED: LeFooding (2024) — "5€ le verre à 70€ la bouteille"
-                    { name: "Sauvignon de Loire (verre)", price: "5.00€" },
-                    { name: "Blanc des Côtes-du-Jura (verre)", price: "9.00€" },
-                    { name: "Gamay de l'Ardèche (verre)", price: "7.00€" },
-                    { name: "Rouge autrichien nature (verre)", price: "9.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "28.00€" },
-                    { name: "Bouteille premium", price: "70.00€" }
+                    { name: "Sauvignon de Loire (verre)", price_cents: 500 },
+                    { name: "Blanc des Côtes-du-Jura (verre)", price_cents: 900 },
+                    { name: "Gamay de l'Ardèche (verre)", price_cents: 700 },
+                    { name: "Rouge autrichien nature (verre)", price_cents: 900 },
+                    { name: "Bouteille nature (à partir de)", price_cents: 2800 },
+                    { name: "Bouteille premium", price_cents: 7000 }
                 ]
             }
         ]

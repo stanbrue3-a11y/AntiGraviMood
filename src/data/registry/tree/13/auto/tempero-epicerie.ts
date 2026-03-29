@@ -42,40 +42,44 @@ export const tempero_epicerie: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Cocottes & Sauts",
+        category_type: "main",
+        display_label: "Les Plats : Cocottes & Sauts",
         items: [
-          { name: "Poitrine de porc confite", price: "20.00€" },
-          { name: "Poulet grillé fermier", price: "20.00€" },
-          { name: "Cabillaud vapeur & légumes", price: "20.50€" },
-          { name: "Risotto d'épeautre aux champignons", price: "19.00€" },
-          { name: "Plat du jour (Ardoise)", price: "18.00€" }
+          { name: "Poitrine de porc confite", price_cents: 2000 },
+          { name: "Poulet grillé fermier", price_cents: 2000 },
+          { name: "Cabillaud vapeur & légumes", price_cents: 2050 },
+          { name: "Risotto d'épeautre aux champignons", price_cents: 1900 },
+          { name: "Plat du jour (Ardoise)", price_cents: 1800 }
         ]
       },
       {
-        category: "Entrées : Grignotages & Veloutés",
+        category_type: "starter",
+        display_label: "Entrées : Grignotages & Veloutés",
         items: [
-          { name: "Velouté de butternut de saison", price: "9.00€" },
-          { name: "Œuf mollet & crème herbacée", price: "9.50€" },
-          { name: "Rillette de hareng fumé maison", price: "9.00€" },
-          { name: "Pain au levain & beurre demi-sel", price: "4.00€" },
-          { name: "Assiette de fromages affinés", price: "12.00€" }
+          { name: "Velouté de butternut de saison", price_cents: 900 },
+          { name: "Œuf mollet & crème herbacée", price_cents: 950 },
+          { name: "Rillette de hareng fumé maison", price_cents: 900 },
+          { name: "Pain au levain & beurre demi-sel", price_cents: 400 },
+          { name: "Assiette de fromages affinés", price_cents: 1200 }
         ]
       },
       {
-        category: "Douceurs : Fins de Repas",
+        category_type: "dessert",
+        display_label: "Douceurs : Fins de Repas",
         items: [
-          { name: "Riz au lait coco & mangue", price: "8.00€" },
-          { name: "Medivnyk (Gâteau au miel)", price: "8.00€" },
-          { name: "Meringue italienne aux fruits", price: "7.50€" }
+          { name: "Riz au lait coco & mangue", price_cents: 800 },
+          { name: "Medivnyk (Gâteau au miel)", price_cents: 800 },
+          { name: "Meringue italienne aux fruits", price_cents: 750 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Verre de vin nature (Sélection)", price: "6.50€" },
-          { name: "Bière artisanale locale (33cl)", price: "7.00€" },
-          { name: "Jus de fruits frais pressés", price: "5.00€" },
-          { name: "Café de spécialité", price: "2.50€" }
+          { name: "Verre de vin nature (Sélection)", price_cents: 650 },
+          { name: "Bière artisanale locale (33cl)", price_cents: 700 },
+          { name: "Jus de fruits frais pressés", price_cents: 500 },
+          { name: "Café de spécialité", price_cents: 250 }
         ]
       }
     ]

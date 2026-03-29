@@ -42,58 +42,63 @@ export const chez_mamane: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées Traditionnelles (Maghreb)",
+        category_type: "starter",
+        display_label: "Entrées Traditionnelles (Maghreb)",
         items: [
-          { name: "Salade Méchouia Maison", price: "7.50€", highlight: true },
-          { name: "Soupe Chorba (Algérienne)", price: "8.50€", highlight: true },
-          { name: "Bourek Viande Hachée (x2)", price: "8.00€" },
-          { name: "Bourek Fromage & Persil (x2)", price: "7.00€" },
-          { name: "Salade de Pois Chiches au Cumin", price: "6.50€" },
-          { name: "Assiette de Kémia (Assortiment)", price: "9.50€" }
+          { name: "Salade Méchouia Maison", price_cents: 750, is_highlight: true },
+          { name: "Soupe Chorba (Algérienne)", price_cents: 850, is_highlight: true },
+          { name: "Bourek Viande Hachée (x2)", price_cents: 800 },
+          { name: "Bourek Fromage & Persil (x2)", price_cents: 700 },
+          { name: "Salade de Pois Chiches au Cumin", price_cents: 650 },
+          { name: "Assiette de Kémia (Assortiment)", price_cents: 950 }
         ]
       },
       {
-        category: "Spécialités de Couscous (Plats)",
+        category_type: "main",
+        display_label: "Spécialités de Couscous (Plats)",
         items: [
-          { name: "Couscous Royal (Agneau, Poulet, Merguez, Boulettes)", price: "19.50€", highlight: true },
-          { name: "Couscous Agneau (Épaule fondante)", price: "17.00€" },
-          { name: "Couscous Poulet Fermier", price: "15.00€" },
-          { name: "Couscous Boulettes (Kéfta maison)", price: "15.50€" },
-          { name: "Couscous Brochettes de Bœuf", price: "16.50€" },
-          { name: "Couscous Merguez (Véritables)", price: "14.50€" },
-          { name: "Couscous Végétarien Gourmand", price: "13.00€" },
-          { name: "Couscous Côtelette de Mouton", price: "17.50€" }
+          { name: "Couscous Royal (Agneau, Poulet, Merguez, Boulettes)", price_cents: 1950, is_highlight: true },
+          { name: "Couscous Agneau (Épaule fondante)", price_cents: 1700 },
+          { name: "Couscous Poulet Fermier", price_cents: 1500 },
+          { name: "Couscous Boulettes (Kéfta maison)", price_cents: 1550 },
+          { name: "Couscous Brochettes de Bœuf", price_cents: 1650 },
+          { name: "Couscous Merguez (Véritables)", price_cents: 1450 },
+          { name: "Couscous Végétarien Gourmand", price_cents: 1300 },
+          { name: "Couscous Côtelette de Mouton", price_cents: 1750 }
         ]
       },
       {
-        category: "Mijotés & Tajines (Plats)",
+        category_type: "main",
+        display_label: "Mijotés & Tajines (Plats)",
         items: [
-          { name: "Tajine Agneau Pruneaux & Amandes", price: "18.50€", highlight: true },
-          { name: "Tajine Poulet Citron Confit & Olives", price: "16.50€" },
-          { name: "Tajine Kefta aux Œufs pochets", price: "15.50€" },
-          { name: "Marmite Tunisienne (Épicée)", price: "17.00€" }
+          { name: "Tajine Agneau Pruneaux & Amandes", price_cents: 1850, is_highlight: true },
+          { name: "Tajine Poulet Citron Confit & Olives", price_cents: 1650 },
+          { name: "Tajine Kefta aux Œufs pochets", price_cents: 1550 },
+          { name: "Marmite Tunisienne (Épicée)", price_cents: 1700 }
         ]
       },
       {
-        category: "Extras & Accompagnements",
+        category_type: "other",
+        display_label: "Extras & Accompagnements",
         items: [
-          { name: "Supplément Merguez (la pièce)", price: "2.50€" },
-          { name: "Supplément Boulette (la pièce)", price: "3.00€" },
-          { name: "Bol de Raisins Secs & Pois Chiches", price: "3.50€" },
-          { name: "Semoule Fine Beurre (Supplément)", price: "4.50€" }
+          { name: "Supplément Merguez (la pièce)", price_cents: 250 },
+          { name: "Supplément Boulette (la pièce)", price_cents: 300 },
+          { name: "Bol de Raisins Secs & Pois Chiches", price_cents: 350 },
+          { name: "Semoule Fine Beurre (Supplément)", price_cents: 450 }
         ]
       },
       {
-        category: "Douceurs & Boissons d'Orient",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons d'Orient",
         items: [
-          { name: "Pâtisserie Orientale (à la pièce)", price: "3.50€" },
-          { name: "Assiette de 3 Pâtisseries", price: "9.50€" },
-          { name: "Salade d'Oranges Cannelle & Fleur d'Oranger", price: "6.50€" },
-          { name: "Thé à la Menthe Fraîche (Pot)", price: "4.50€", highlight: true },
-          { name: "Café à la mode de Constantine", price: "3.00€" },
-          { name: "Boulaouane Rouge (75cl)", price: "19.00€" },
-          { name: "Guerrouane Gris (Cuvée Excellence)", price: "21.00€" },
-          { name: "Vichy Célestins (Bouteille)", price: "5.50€" }
+          { name: "Pâtisserie Orientale (à la pièce)", price_cents: 350 },
+          { name: "Assiette de 3 Pâtisseries", price_cents: 950 },
+          { name: "Salade d'Oranges Cannelle & Fleur d'Oranger", price_cents: 650 },
+          { name: "Thé à la Menthe Fraîche (Pot)", price_cents: 450, is_highlight: true },
+          { name: "Café à la mode de Constantine", price_cents: 300 },
+          { name: "Boulaouane Rouge (75cl)", price_cents: 1900 },
+          { name: "Guerrouane Gris (Cuvée Excellence)", price_cents: 2100 },
+          { name: "Vichy Célestins (Bouteille)", price_cents: 550 }
         ]
       }
     ]

@@ -40,43 +40,47 @@ export const restaurant_le_faham: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Formules & Menus",
+        category_type: "tasting_menu",
+        display_label: "Les Formules & Menus",
         items: [
-          { name: "Menu Découverte (1 personne)", price: "54€" },
-          { name: "Menu Lunch (3 plats)", price: "74€" },
-          { name: "Menu Insulaire (4 séquences)", price: "118€" },
-          { name: "Menu Velours (6 séquences)", price: "162€" },
-          { name: "Accord Mets & Vins (Insulaire)", price: "55€" },
-          { name: "Accord Mets & Vins (Velours)", price: "80€" }
+          { name: "Menu Découverte (1 personne)", price_cents: 5400 },
+          { name: "Menu Lunch (3 plats)", price_cents: 7400 },
+          { name: "Menu Insulaire (4 séquences)", price_cents: 11800 },
+          { name: "Menu Velours (6 séquences)", price_cents: 16200 },
+          { name: "Accord Mets & Vins (Insulaire)", price_cents: 5500 },
+          { name: "Accord Mets & Vins (Velours)", price_cents: 8000 }
         ]
       },
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Sarcives au miel de forêt, condiment gingembre-citron", price: "28€" },
-          { name: "Samoussa de canard aux épices douces", price: "22€" },
-          { name: "Tartare de thon à la mangue et piment oiseau", price: "24€" },
-          { name: "Bouchon réunionnais traditionnel, porc et combava", price: "15€" }
+          { name: "Sarcives au miel de forêt, condiment gingembre-citron", price_cents: 2800 },
+          { name: "Samoussa de canard aux épices douces", price_cents: 2200 },
+          { name: "Tartare de thon à la mangue et piment oiseau", price_cents: 2400 },
+          { name: "Bouchon réunionnais traditionnel, porc et combava", price_cents: 1500 }
         ]
       },
       {
-        category: "Les Plats (Océan & Terre)",
+        category_type: "main",
+        display_label: "Les Plats (Océan & Terre)",
         items: [
-          { name: "Légine de l'Océan Indien, riz safrané, rougail", price: "45€" },
-          { name: "Camarons rôtis au curry massalé", price: "42€" },
-          { name: "Cochon de lait confit, écrasé de patate douce", price: "38€" },
-          { name: "Massalé de agneau de 7 heures, légumes d'antan", price: "40€" },
-          { name: "Cari de Poulet fermier de la Réunion", price: "35€" }
+          { name: "Légine de l'Océan Indien, riz safrané, rougail", price_cents: 4500 },
+          { name: "Camarons rôtis au curry massalé", price_cents: 4200 },
+          { name: "Cochon de lait confit, écrasé de patate douce", price_cents: 3800 },
+          { name: "Massalé de agneau de 7 heures, légumes d'antan", price_cents: 4000 },
+          { name: "Cari de Poulet fermier de la Réunion", price_cents: 3500 }
         ]
       },
       {
-        category: "Les Desserts",
+        category_type: "dessert",
+        display_label: "Les Desserts",
         items: [
-          { name: "Gâteau Patate au Faham (Dessert Signature)", price: "18€" },
-          { name: "Le Baba au Rhum Arrangé 'Le Faham'", price: "20€" },
-          { name: "Mille-Feuille à la vanille Bourbon", price: "16€" },
-          { name: "Rhum Arrangé de la Maison Rangama", price: "12€" },
-          { name: "Café Bourbon Pointu de la Réunion", price: "8€" }
+          { name: "Gâteau Patate au Faham (Dessert Signature)", price_cents: 1800 },
+          { name: "Le Baba au Rhum Arrangé 'Le Faham'", price_cents: 2000 },
+          { name: "Mille-Feuille à la vanille Bourbon", price_cents: 1600 },
+          { name: "Rhum Arrangé de la Maison Rangama", price_cents: 1200 },
+          { name: "Café Bourbon Pointu de la Réunion", price_cents: 800 }
         ]
       }
     ]

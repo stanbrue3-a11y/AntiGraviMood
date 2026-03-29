@@ -43,63 +43,68 @@ export const condesa: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes Indra (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes Indra (Entrées)",
         items: [
-          { name: "Cromesquis d'Artichaut & Piment fumé", price: "0.00€", highlight: true },
-          { name: "Travail autour du Céleri, Tofu & Bonite", price: "0.00€", highlight: true },
-          { name: "Saint-Jacques à l'émulsion de Café", price: "0.00€" },
-          { name: "Agnolotti Maison, Bouillon Fève Tonka & Maïs", price: "0.00€", highlight: true },
-          { name: "Expérience de Champignons fumés au Bois de Cerisier", price: "0.00€" },
-          { name: "Tartare de Bar & Agrumes Mexicains", price: "0.00€" },
-          { name: "Mini Tacos de Homard & Vanille (Surprise)", price: "0.00€" },
-          { name: "Bouillon d'Algues Kombu & Infusion d'Herbes", price: "0.00€" }
+          { name: "Cromesquis d'Artichaut & Piment fumé", price_cents: 0, is_highlight: true },
+          { name: "Travail autour du Céleri, Tofu & Bonite", price_cents: 0, is_highlight: true },
+          { name: "Saint-Jacques à l'émulsion de Café", price_cents: 0 },
+          { name: "Agnolotti Maison, Bouillon Fève Tonka & Maïs", price_cents: 0, is_highlight: true },
+          { name: "Expérience de Champignons fumés au Bois de Cerisier", price_cents: 0 },
+          { name: "Tartare de Bar & Agrumes Mexicains", price_cents: 0 },
+          { name: "Mini Tacos de Homard & Vanille (Surprise)", price_cents: 0 },
+          { name: "Bouillon d'Algues Kombu & Infusion d'Herbes", price_cents: 0 }
         ]
       },
       {
-        category: "Expéditions Gastronomiques (Plats)",
+        category_type: "main",
+        display_label: "Expéditions Gastronomiques (Plats)",
         items: [
-          { name: "Canette de Kriaxera & Céleri-rave en trois façons", price: "0.00€", highlight: true },
-          { name: "Veau mariné aux Algues & Salicornes croustillantes", price: "0.00€", highlight: true },
-          { name: "Dos de Cabillaud de ligne & Grand Mole Blanc", price: "0.00€" },
-          { name: "Pigeon de Vendée rôti au Café & Cacao", price: "0.00€", highlight: true },
-          { name: "Homard Bleu de Bretagne & Beurre de corail", price: "0.00€" },
-          { name: "Ris de Veau laqué au Piment Ancho & Jus corsé", price: "0.00€" },
-          { name: "Tamal de Maïs frais & Truffe noire de saison", price: "0.00€" },
-          { name: "Pêche du jour, Beurre d'Hibiscus & Betterave", price: "0.00€" }
+          { name: "Canette de Kriaxera & Céleri-rave en trois façons", price_cents: 0, is_highlight: true },
+          { name: "Veau mariné aux Algues & Salicornes croustillantes", price_cents: 0, is_highlight: true },
+          { name: "Dos de Cabillaud de ligne & Grand Mole Blanc", price_cents: 0 },
+          { name: "Pigeon de Vendée rôti au Café & Cacao", price_cents: 0, is_highlight: true },
+          { name: "Homard Bleu de Bretagne & Beurre de corail", price_cents: 0 },
+          { name: "Ris de Veau laqué au Piment Ancho & Jus corsé", price_cents: 0 },
+          { name: "Tamal de Maïs frais & Truffe noire de saison", price_cents: 0 },
+          { name: "Pêche du jour, Beurre d'Hibiscus & Betterave", price_cents: 0 }
         ]
       },
       {
-        category: "Accords de la Terre (Plats)",
+        category_type: "main",
+        display_label: "Accords de la Terre (Plats)",
         items: [
-          { name: "Purée de Maïs doux onctueuse au sel fumé", price: "0.00€", highlight: true },
-          { name: "Haricots Verts façon risotto & Parmesan", price: "0.00€" },
-          { name: "Légumes du Mexique rôtis au Four à bois", price: "0.00€" },
-          { name: "Riz Sauvage croquant au Thé Vert", price: "0.00€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette Mole Vert", price: "0.00€" }
+          { name: "Purée de Maïs doux onctueuse au sel fumé", price_cents: 0, is_highlight: true },
+          { name: "Haricots Verts façon risotto & Parmesan", price_cents: 0 },
+          { name: "Légumes du Mexique rôtis au Four à bois", price_cents: 0 },
+          { name: "Riz Sauvage croquant au Thé Vert", price_cents: 0 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette Mole Vert", price_cents: 0 }
         ]
       },
       {
-        category: "Douceurs & Métissage (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs & Métissage (Desserts)",
         items: [
-          { name: "Ganache Chocolat Noir & Piment Pasilla", price: "0.00€", highlight: true },
-          { name: "Sorbet Goyave rose & Citron vert", price: "0.00€", highlight: true },
-          { name: "Maïs en dessert : Crème, Glace & Tuile", price: "0.00€", highlight: true },
-          { name: "Nage d'Ananas frais, Coco & Coriandre", price: "0.00€" },
-          { name: "Pastilla croustillante aux Pistaches d'Iran", price: "0.00€" },
-          { name: "Fromages affinés & Chutney de mangue au piment", price: "0.00€" },
-          { name: "Mignardises signatures du Chef Indra", price: "0.00€" }
+          { name: "Ganache Chocolat Noir & Piment Pasilla", price_cents: 0, is_highlight: true },
+          { name: "Sorbet Goyave rose & Citron vert", price_cents: 0, is_highlight: true },
+          { name: "Maïs en dessert : Crème, Glace & Tuile", price_cents: 0, is_highlight: true },
+          { name: "Nage d'Ananas frais, Coco & Coriandre", price_cents: 0 },
+          { name: "Pastilla croustillante aux Pistaches d'Iran", price_cents: 0 },
+          { name: "Fromages affinés & Chutney de mangue au piment", price_cents: 0 },
+          { name: "Mignardises signatures du Chef Indra", price_cents: 0 }
         ]
       },
       {
-        category: "La Cave de La Condesa (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de La Condesa (Boissons)",
         items: [
-          { name: "Mezcal 100% Espadín 'La Palabra' (Shot)", price: "14.00€", highlight: true },
-          { name: "Verre de Vin Nature Sélection Sommelier", price: "12.00€" },
-          { name: "Accord Mets & Vins 'Expédition' (5 verres)", price: "65.00€", highlight: true },
-          { name: "Thé Vert d'Ombre japonais rare", price: "9.50€" },
-          { name: "Café de plantation mexicaine sélectionné", price: "6.00€" },
-          { name: "Eau micro-filtrée La Condesa (75cl)", price: "5.00€" },
-          { name: "Infusion Hibiscus sauvage (Agua de Jamaica)", price: "7.00€", highlight: true }
+          { name: "Mezcal 100% Espadín 'La Palabra' (Shot)", price_cents: 1400, is_highlight: true },
+          { name: "Verre de Vin Nature Sélection Sommelier", price_cents: 1200 },
+          { name: "Accord Mets & Vins 'Expédition' (5 verres)", price_cents: 6500, is_highlight: true },
+          { name: "Thé Vert d'Ombre japonais rare", price_cents: 950 },
+          { name: "Café de plantation mexicaine sélectionné", price_cents: 600 },
+          { name: "Eau micro-filtrée La Condesa (75cl)", price_cents: 500 },
+          { name: "Infusion Hibiscus sauvage (Agua de Jamaica)", price_cents: 700, is_highlight: true }
         ]
       }
     ]

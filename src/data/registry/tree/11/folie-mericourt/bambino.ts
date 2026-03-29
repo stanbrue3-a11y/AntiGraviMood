@@ -45,38 +45,42 @@ export const bambino: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Bambino 2024-2025 (Shared Plates & Pizza)
             {
-                category: "Petites Assiettes (Sharing)",
+                category_type: "other",
+                display_label: "Petites Assiettes (Sharing)",
                 items: [
-                    { name: "Houmous, huile de piment, pain pita", price: "9.00€" },
-                    { name: "Labneh, za'atar, grenade", price: "8.50€" },
-                    { name: "Halloumi grillé, miel & origan", price: "11.00€" },
-                    { name: "Tartare de thon, citron vert, gingembre", price: "14.50€" },
-                    { name: "Arancini au safran (x3)", price: "12.00€" },
-                    { name: "Focaccia maison, sel de Maldon", price: "5.50€" }
+                    { name: "Houmous, huile de piment, pain pita", price_cents: 900 },
+                    { name: "Labneh, za'atar, grenade", price_cents: 850 },
+                    { name: "Halloumi grillé, miel & origan", price_cents: 1100 },
+                    { name: "Tartare de thon, citron vert, gingembre", price_cents: 1450 },
+                    { name: "Arancini au safran (x3)", price_cents: 1200 },
+                    { name: "Focaccia maison, sel de Maldon", price_cents: 550 }
                 ]
             },
             {
-                category: "Pizzas au Feu de Bois",
+                category_type: "main",
+                display_label: "Pizzas au Feu de Bois",
                 items: [
-                    { name: "Margherita (Tomate, Mozza, Basilic)", price: "13.00€" },
-                    { name: "Bambinita (Burrata, N'duja, Miel)", price: "19.00€" },
-                    { name: "Diavola (Salami piquant)", price: "16.50€" },
-                    { name: "Verdura (Légumes de saison)", price: "15.50€" }
+                    { name: "Margherita (Tomate, Mozza, Basilic)", price_cents: 1300 },
+                    { name: "Bambinita (Burrata, N'duja, Miel)", price_cents: 1900 },
+                    { name: "Diavola (Salami piquant)", price_cents: 1650 },
+                    { name: "Verdura (Légumes de saison)", price_cents: 1550 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Tiramisu Signature", price: "9.00€" },
-                    { name: "Mousse Chocolat & Huile d'Olive", price: "8.50€" }
+                    { name: "Tiramisu Signature", price_cents: 900 },
+                    { name: "Mousse Chocolat & Huile d'Olive", price_cents: 850 }
                 ]
             },
             {
-                category: "Vins & Cocktails",
+                category_type: "drink",
+                display_label: "Vins & Cocktails",
                 items: [
-                    { name: "Negroni", price: "12.00€" },
-                    { name: "Vin Naturel (Verre)", price: "7.50€" },
-                    { name: "Bière Artisanale (Pinte)", price: "8.00€" }
+                    { name: "Negroni", price_cents: 1200 },
+                    { name: "Vin Naturel (Verre)", price_cents: 750 },
+                    { name: "Bière Artisanale (Pinte)", price_cents: 800 }
                 ]
             }
         ]

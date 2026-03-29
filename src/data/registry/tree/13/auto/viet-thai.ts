@@ -42,55 +42,60 @@ export const viet_thai: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Plateaux Découverte & Partage",
+        category_type: "main",
+        display_label: "Plateaux Découverte & Partage",
         items: [
-          { name: "Plateau Gourmand Viet Thai (Assortiment)", price: "20.90€", highlight: true },
-          { name: "Plateau Vapeur (Ha Kao, Siu Mai, Banh Cuon)", price: "18.50€" },
-          { name: "Plateau de Brochettes mixtes (x6)", price: "16.50€" }
+          { name: "Plateau Gourmand Viet Thai (Assortiment)", price_cents: 2090, is_highlight: true },
+          { name: "Plateau Vapeur (Ha Kao, Siu Mai, Banh Cuon)", price_cents: 1850 },
+          { name: "Plateau de Brochettes mixtes (x6)", price_cents: 1650 }
         ]
       },
       {
-        category: "Entrées : Le Duel Thaï vs Viet",
+        category_type: "starter",
+        display_label: "Entrées : Le Duel Thaï vs Viet",
         items: [
-          { name: "Nems au Porc Maison (x4)", price: "5.90€", highlight: true },
-          { name: "Nems au Poulet (x4)", price: "5.90€" },
-          { name: "Salade de Bœuf à la Citronnelle", price: "12.90€", highlight: true },
-          { name: "Salade de Bœuf Thaï (Mi-cuit)", price: "13.90€" },
-          { name: "Raviolis aux Crevettes (Ha Kao x4)", price: "7.50€" },
-          { name: "Rouleaux de Printemps Frais (x2)", price: "6.50€" },
-          { name: "Samoussa au Bœuf (x3)", price: "6.00€" }
+          { name: "Nems au Porc Maison (x4)", price_cents: 590, is_highlight: true },
+          { name: "Nems au Poulet (x4)", price_cents: 590 },
+          { name: "Salade de Bœuf à la Citronnelle", price_cents: 1290, is_highlight: true },
+          { name: "Salade de Bœuf Thaï (Mi-cuit)", price_cents: 1390 },
+          { name: "Raviolis aux Crevettes (Ha Kao x4)", price_cents: 750 },
+          { name: "Rouleaux de Printemps Frais (x2)", price_cents: 650 },
+          { name: "Samoussa au Bœuf (x3)", price_cents: 600 }
         ]
       },
       {
-        category: "Plats : Spécialités Vietnamiennes",
+        category_type: "main",
+        display_label: "Plats : Spécialités Vietnamiennes",
         items: [
-          { name: "Phở Spéciale Maison (Dac Biet)", price: "13.50€", highlight: true },
-          { name: "Bo Bun Royal (Bœuf & Nems)", price: "13.00€" },
-          { name: "Bœuf Loc Lac au Riz Tomaté", price: "14.00€" },
-          { name: "Soupe de Nouilles au Canard (5 parfums)", price: "14.50€" },
-          { name: "Marmite de Bœuf au Gingembre", price: "15.00€" }
+          { name: "Phở Spéciale Maison (Dac Biet)", price_cents: 1350, is_highlight: true },
+          { name: "Bo Bun Royal (Bœuf & Nems)", price_cents: 1300 },
+          { name: "Bœuf Loc Lac au Riz Tomaté", price_cents: 1400 },
+          { name: "Soupe de Nouilles au Canard (5 parfums)", price_cents: 1450 },
+          { name: "Marmite de Bœuf au Gingembre", price_cents: 1500 }
         ]
       },
       {
-        category: "Plats : Saveurs de Thaïlande",
+        category_type: "main",
+        display_label: "Plats : Saveurs de Thaïlande",
         items: [
-          { name: "Pad Thaï au Poulet (Traditionnel)", price: "10.90€", highlight: true },
-          { name: "Curry Vert au Lait de Coco & Crevettes", price: "14.50€" },
-          { name: "Poulet sauté aux Noix de Cajou", price: "13.00€" },
-          { name: "Gambas grillées à la mode de Bangkok", price: "18.50€" },
-          { name: "Larme du Tigre (Bœuf émincé grillé)", price: "17.50€" }
+          { name: "Pad Thaï au Poulet (Traditionnel)", price_cents: 1090, is_highlight: true },
+          { name: "Curry Vert au Lait de Coco & Crevettes", price_cents: 1450 },
+          { name: "Poulet sauté aux Noix de Cajou", price_cents: 1300 },
+          { name: "Gambas grillées à la mode de Bangkok", price_cents: 1850 },
+          { name: "Larme du Tigre (Bœuf émincé grillé)", price_cents: 1750 }
         ]
       },
       {
-        category: "Douceurs & Boissons Asia",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons Asia",
         items: [
-          { name: "Perle de Coco chaude (x2)", price: "5.00€" },
-          { name: "Banane au Lait de Coco & Tapioca", price: "6.50€" },
-          { name: "Gingembre Confis", price: "4.50€" },
-          { name: "Bière Singha (Thaïlande)", price: "6.00€" },
-          { name: "Thé Glacé à la Citronnelle", price: "5.00€", highlight: true },
-          { name: "Lait de Soja Artisanal", price: "4.00€" },
-          { name: "Café Vietnamien glacé", price: "5.50€" }
+          { name: "Perle de Coco chaude (x2)", price_cents: 500 },
+          { name: "Banane au Lait de Coco & Tapioca", price_cents: 650 },
+          { name: "Gingembre Confis", price_cents: 450 },
+          { name: "Bière Singha (Thaïlande)", price_cents: 600 },
+          { name: "Thé Glacé à la Citronnelle", price_cents: 500, is_highlight: true },
+          { name: "Lait de Soja Artisanal", price_cents: 400 },
+          { name: "Café Vietnamien glacé", price_cents: 550 }
         ]
       }
     ]

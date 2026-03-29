@@ -42,65 +42,71 @@ export const ngoc_xuyen_saigon: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées Signatures",
+        category_type: "starter",
+        display_label: "Entrées Signatures",
         items: [
-          { name: "Nems au Poulet (Chả giò)", price: "8.50€", highlight: true },
-          { name: "Rouleaux de Printemps au Bœuf (Bò cuốn)", price: "8.50€" },
-          { name: "Bánh cuốn (Raviolis vapeur porc/champignons)", price: "8.50€", highlight: true },
-          { name: "Gỏi cuốn (Rouleaux de printemps crevettes)", price: "8.50€" },
-          { name: "Salade de Papaye verte (Som Tam style)", price: "9.50€" },
-          { name: "Ailes de Poulet frites au Nuoc Mam", price: "9.00€" }
+          { name: "Nems au Poulet (Chả giò)", price_cents: 850, is_highlight: true },
+          { name: "Rouleaux de Printemps au Bœuf (Bò cuốn)", price_cents: 850 },
+          { name: "Bánh cuốn (Raviolis vapeur porc/champignons)", price_cents: 850, is_highlight: true },
+          { name: "Gỏi cuốn (Rouleaux de printemps crevettes)", price_cents: 850 },
+          { name: "Salade de Papaye verte (Som Tam style)", price_cents: 950 },
+          { name: "Ailes de Poulet frites au Nuoc Mam", price_cents: 900 }
         ]
       },
       {
-        category: "Soupes Royales & Légendaires (Plats)",
+        category_type: "main",
+        display_label: "Soupes Royales & Légendaires (Plats)",
         items: [
-          { name: "Bun Bo Hue (Soupe de Hué - Bœuf & Porc)", price: "17.50€", highlight: true },
-          { name: "Phở Đặc Biệt (Phở Spécial Bœuf complet)", price: "17.00€", highlight: true },
-          { name: "Phở Bœuf Cru / Cuit", price: "17.00€" },
-          { name: "Phở au Poulet Fermier", price: "17.00€" },
-          { name: "Soupe Saïgonnaise (Mì/Hủ tiếu)", price: "17.50€" },
-          { name: "Bo Bun Classique (Bœuf & Nems)", price: "17.00€" }
+          { name: "Bun Bo Hue (Soupe de Hué - Bœuf & Porc)", price_cents: 1750, is_highlight: true },
+          { name: "Phở Đặc Biệt (Phở Spécial Bœuf complet)", price_cents: 1700, is_highlight: true },
+          { name: "Phở Bœuf Cru / Cuit", price_cents: 1700 },
+          { name: "Phở au Poulet Fermier", price_cents: 1700 },
+          { name: "Soupe Saïgonnaise (Mì/Hủ tiếu)", price_cents: 1750 },
+          { name: "Bo Bun Classique (Bœuf & Nems)", price_cents: 1700 }
         ]
       },
       {
-        category: "Spécialités de Saison & Hebdomadaires",
+        category_type: "other",
+        display_label: "Spécialités de Saison & Hebdomadaires",
         items: [
-          { name: "Mardi : Bun Mang Ga (Poulet & Bambou)", price: "17.50€" },
-          { name: "Mercredi : Banh Canh Cua (Soupe Crabe & Pied de Porc)", price: "19.00€" },
-          { name: "Jeudi : Bun Rieu (Vermicelles au Crabe)", price: "18.50€" },
-          { name: "Ven/Sam : Bun Mam (Soupe Saumure de Poisson)", price: "19.00€", highlight: true },
-          { name: "Dimanche : Curry de Poulet à la Vietnamienne", price: "17.50€" }
+          { name: "Mardi : Bun Mang Ga (Poulet & Bambou)", price_cents: 1750 },
+          { name: "Mercredi : Banh Canh Cua (Soupe Crabe & Pied de Porc)", price_cents: 1900 },
+          { name: "Jeudi : Bun Rieu (Vermicelles au Crabe)", price_cents: 1850 },
+          { name: "Ven/Sam : Bun Mam (Soupe Saumure de Poisson)", price_cents: 1900, is_highlight: true },
+          { name: "Dimanche : Curry de Poulet à la Vietnamienne", price_cents: 1750 }
         ]
       },
       {
-        category: "Plats de Riz Traditonnels",
+        category_type: "main",
+        display_label: "Plats de Riz Traditonnels",
         items: [
-          { name: "Com Tam Ba Bao (Riz aux 3 Trésors)", price: "17.50€", highlight: true },
-          { name: "Com Ga (Riz au poulet grillé)", price: "14.50€" },
-          { name: "Bœuf au Gingembre & Riz blanc", price: "16.50€" },
-          { name: "Porc au Caramel à la mode de Hué", price: "15.50€" }
+          { name: "Com Tam Ba Bao (Riz aux 3 Trésors)", price_cents: 1750, is_highlight: true },
+          { name: "Com Ga (Riz au poulet grillé)", price_cents: 1450 },
+          { name: "Bœuf au Gingembre & Riz blanc", price_cents: 1650 },
+          { name: "Porc au Caramel à la mode de Hué", price_cents: 1550 }
         ]
       },
       {
-        category: "Douceurs & Milkshakes",
+        category_type: "dessert",
+        display_label: "Douceurs & Milkshakes",
         items: [
-          { name: "Haricot Rouge Lait de Coco (Chè đậu đỏ)", price: "7.50€" },
-          { name: "Trois Couleurs (Chè ba màu)", price: "7.50€" },
-          { name: "Délice de Maïs chaud", price: "8.00€" },
-          { name: "Milkshake Corossol", price: "10.00€", highlight: true },
-          { name: "Milkshake Durian (L'authentique)", price: "10.00€" },
-          { name: "Milkshake Avocat", price: "10.00€" }
+          { name: "Haricot Rouge Lait de Coco (Chè đậu đỏ)", price_cents: 750 },
+          { name: "Trois Couleurs (Chè ba màu)", price_cents: 750 },
+          { name: "Délice de Maïs chaud", price_cents: 800 },
+          { name: "Milkshake Corossol", price_cents: 1000, is_highlight: true },
+          { name: "Milkshake Durian (L'authentique)", price_cents: 1000 },
+          { name: "Milkshake Avocat", price_cents: 1000 }
         ]
       },
       {
-        category: "Boissons d'Asie",
+        category_type: "drink",
+        display_label: "Boissons d'Asie",
         items: [
-          { name: "Jus de Sucre de Canne (Pressé minute)", price: "5.50€", highlight: true },
-          { name: "Café Filtré Vietnamien (Lait concentré)", price: "5.50€" },
-          { name: "Bière Saigon / 33 Export", price: "6.00€" },
-          { name: "Thé au Jasmin (Théière)", price: "4.50€" },
-          { name: "Jus de Coco avec pulpe", price: "5.00€" }
+          { name: "Jus de Sucre de Canne (Pressé minute)", price_cents: 550, is_highlight: true },
+          { name: "Café Filtré Vietnamien (Lait concentré)", price_cents: 550 },
+          { name: "Bière Saigon / 33 Export", price_cents: 600 },
+          { name: "Thé au Jasmin (Théière)", price_cents: 450 },
+          { name: "Jus de Coco avec pulpe", price_cents: 500 }
         ]
       }
     ]

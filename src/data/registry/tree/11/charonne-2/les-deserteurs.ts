@@ -43,28 +43,30 @@ export const les_deserteurs: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Menus Uniques (À l'aveugle)",
+                category_type: "tasting_menu",
+                display_label: "Les Menus Uniques (À l'aveugle)",
                 items: [
-                    { name: "Menu Déjeuner 3 temps (Entrée-Plat-Dessert)", price: "35.00€" },
-                    { name: "Menu Déjeuner 2 temps (Entrée-Plat ou Plat-Dessert)", price: "28.00€" },
-                    { name: "Menu Dégustation 4 temps (Soir)", price: "45.00€" },
-                    { name: "Menu Dégustation 6 temps (Soir)", price: "60.00€", description: "L'expérience complète du chef Daniel Baratier à l'aveugle." },
-                    { name: "Plateau de fromages affinés (Supplément)", price: "12.00€" },
-                    { name: "Accord Mets & Vins (4 verres)", price: "30.00€" },
-                    { name: "Accord Mets & Vins (6 verres)", price: "45.00€" }
+                    { name: "Menu Déjeuner 3 temps (Entrée-Plat-Dessert)", price_cents: 3500 },
+                    { name: "Menu Déjeuner 2 temps (Entrée-Plat ou Plat-Dessert)", price_cents: 2800 },
+                    { name: "Menu Dégustation 4 temps (Soir)", price_cents: 4500 },
+                    { name: "Menu Dégustation 6 temps (Soir)", price_cents: 6000, description: "L'expérience complète du chef Daniel Baratier à l'aveugle." },
+                    { name: "Plateau de fromages affinés (Supplément)", price_cents: 1200 },
+                    { name: "Accord Mets & Vins (4 verres)", price_cents: 3000 },
+                    { name: "Accord Mets & Vins (6 verres)", price_cents: 4500 }
                 ]
             },
             {
-                category: "Inspirations (Saveurs Déserteurs)",
+                category_type: "other",
+                display_label: "Inspirations (Saveurs Déserteurs)",
                 items: [
-                    { name: "Betterave aigre-doux, estragon du Mexique", price: "Inclus" },
-                    { name: "Ravioles d'oignons de paille, amandes de Noto", price: "Inclus" },
-                    { name: "Thon blanc basque snacké, purée potiron-miso", price: "Inclus" },
-                    { name: "Rouget barbet, mousseline de chou-fleur & rouille", price: "Inclus" },
-                    { name: "Asperges, anchoïade & pimprenelle", price: "Inclus" },
-                    { name: "Pigeonneau de Barbarie, carotte & oseille", price: "Inclus" },
-                    { name: "Paris-Brest déstructuré, noisettes & shiso", price: "Inclus" },
-                    { name: "Le dessert 'Triple C' (Caramel, Cacahuète, Chocolat)", price: "Inclus" }
+                    { name: "Betterave aigre-doux, estragon du Mexique", price_cents: 0 },
+                    { name: "Ravioles d'oignons de paille, amandes de Noto", price_cents: 0 },
+                    { name: "Thon blanc basque snacké, purée potiron-miso", price_cents: 0 },
+                    { name: "Rouget barbet, mousseline de chou-fleur & rouille", price_cents: 0 },
+                    { name: "Asperges, anchoïade & pimprenelle", price_cents: 0 },
+                    { name: "Pigeonneau de Barbarie, carotte & oseille", price_cents: 0 },
+                    { name: "Paris-Brest déstructuré, noisettes & shiso", price_cents: 0 },
+                    { name: "Le dessert 'Triple C' (Caramel, Cacahuète, Chocolat)", price_cents: 0 }
                 ]
             }
         ]

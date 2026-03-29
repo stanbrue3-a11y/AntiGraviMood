@@ -42,40 +42,44 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Pizzas au Feu de Bois",
+        category_type: "main",
+        display_label: "Les Plats : Pizzas au Feu de Bois",
         items: [
-          { name: "Pizza Margherita (Tomate, Mozza)", price: "9.90€" },
-          { name: "Pizza Regina (Jambon, Champignons)", price: "13.90€" },
-          { name: "Pizza Calzone (Chaussons farci)", price: "12.90€" },
-          { name: "Pizza Quattro Formaggi", price: "14.90€" },
-          { name: "Pizza Tartufo (Extra Truffe)", price: "16.90€" },
-          { name: "Pizza Pesto e Bufala", price: "13.90€" }
+          { name: "Pizza Margherita (Tomate, Mozza)", price_cents: 990 },
+          { name: "Pizza Regina (Jambon, Champignons)", price_cents: 1390 },
+          { name: "Pizza Calzone (Chaussons farci)", price_cents: 1290 },
+          { name: "Pizza Quattro Formaggi", price_cents: 1490 },
+          { name: "Pizza Tartufo (Extra Truffe)", price_cents: 1690 },
+          { name: "Pizza Pesto e Bufala", price_cents: 1390 }
         ]
       },
       {
-        category: "Les Plats : Pasta & Lasagnes",
+        category_type: "main",
+        display_label: "Les Plats : Pasta & Lasagnes",
         items: [
-          { name: "Linguini Carbonara (Guanciale)", price: "12.90€" },
-          { name: "Rigatoni Caruso (Crème, Jambon)", price: "12.90€" },
-          { name: "Lasagnes Al Forno (Maison)", price: "13.50€" },
-          { name: "Penne All'Arrabbiata", price: "11.50€" }
+          { name: "Linguini Carbonara (Guanciale)", price_cents: 1290 },
+          { name: "Rigatoni Caruso (Crème, Jambon)", price_cents: 1290 },
+          { name: "Lasagnes Al Forno (Maison)", price_cents: 1350 },
+          { name: "Penne All'Arrabbiata", price_cents: 1150 }
         ]
       },
       {
-        category: "Douceurs : Desserts Maison",
+        category_type: "dessert",
+        display_label: "Douceurs : Desserts Maison",
         items: [
-          { name: "Tiramisu traditionnel", price: "7.50€" },
-          { name: "Panna Cotta aux fruits rouges", price: "6.50€" },
-          { name: "Pizza au Nutella (À partager)", price: "9.00€" }
+          { name: "Tiramisu traditionnel", price_cents: 750 },
+          { name: "Panna Cotta aux fruits rouges", price_cents: 650 },
+          { name: "Pizza au Nutella (À partager)", price_cents: 900 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Verre de Chianti", price: "5.50€" },
-          { name: "Bière Peroni (33cl)", price: "6.00€" },
-          { name: "San Pellegrino (50cl)", price: "4.50€" },
-          { name: "Coca Cola / Zero (33cl)", price: "4.00€" }
+          { name: "Verre de Chianti", price_cents: 550 },
+          { name: "Bière Peroni (33cl)", price_cents: 600 },
+          { name: "San Pellegrino (50cl)", price_cents: 450 },
+          { name: "Coca Cola / Zero (33cl)", price_cents: 400 }
         ]
       }
     ]

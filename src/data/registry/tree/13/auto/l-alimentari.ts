@@ -42,58 +42,63 @@ export const l_alimentari: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Antipasti : L'Art du Partage",
+        category_type: "other",
+        display_label: "Antipasti : L'Art du Partage",
         items: [
-          { name: "Burrata crémeuse & Tomates confites", price: "14.50€", highlight: true },
-          { name: "Assiette d'Antipasti de saison (Légumes grillés)", price: "17.00€" },
-          { name: "Planche de Charcuteries fines (Parme, Speck)", price: "18.50€" },
-          { name: "Focaccia maison au Romarin", price: "6.00€" },
-          { name: "Bresaola, roquette et copeaux de Grana", price: "15.00€" },
-          { name: "Bruschetta à la Tomate et Basilic", price: "9.50€" }
+          { name: "Burrata crémeuse & Tomates confites", price_cents: 1450, is_highlight: true },
+          { name: "Assiette d'Antipasti de saison (Légumes grillés)", price_cents: 1700 },
+          { name: "Planche de Charcuteries fines (Parme, Speck)", price_cents: 1850 },
+          { name: "Focaccia maison au Romarin", price_cents: 600 },
+          { name: "Bresaola, roquette et copeaux de Grana", price_cents: 1500 },
+          { name: "Bruschetta à la Tomate et Basilic", price_cents: 950 }
         ]
       },
       {
-        category: "Pizzas Rouges (Plats - Base Tomate)",
+        category_type: "main",
+        display_label: "Pizzas Rouges (Plats - Base Tomate)",
         items: [
-          { name: "Margherita (Mozza, Basilic)", price: "12.00€", highlight: true },
-          { name: "Regina (Jambon, Champignons)", price: "16.50€" },
-          { name: "Spianata (Pimentée, Oignons rouges)", price: "16.00€" },
-          { name: "Napolitaine (Anchois, Câpres, Olives)", price: "16.00€" },
-          { name: "Quatre Fromages Italienne", price: "15.50€" },
-          { name: "Calzone Classique", price: "17.00€" },
-          { name: "Vegetariana du Marché", price: "15.50€" }
+          { name: "Margherita (Mozza, Basilic)", price_cents: 1200, is_highlight: true },
+          { name: "Regina (Jambon, Champignons)", price_cents: 1650 },
+          { name: "Spianata (Pimentée, Oignons rouges)", price_cents: 1600 },
+          { name: "Napolitaine (Anchois, Câpres, Olives)", price_cents: 1600 },
+          { name: "Quatre Fromages Italienne", price_cents: 1550 },
+          { name: "Calzone Classique", price_cents: 1700 },
+          { name: "Vegetariana du Marché", price_cents: 1550 }
         ]
       },
       {
-        category: "Pizzas Blanches & Gourmet (Plats)",
+        category_type: "main",
+        display_label: "Pizzas Blanches & Gourmet (Plats)",
         items: [
-          { name: "Mortadella (Pistache, Stracciatella)", price: "18.00€", highlight: true },
-          { name: "Speck & Gorgonzola", price: "18.00€" },
-          { name: "Tartufo (Crème de Truffe)", price: "18.00€" },
-          { name: "Capretta (Chèvre frais, Pesto)", price: "16.00€" },
-          { name: "Pizza Burrata entière", price: "17.00€" },
-          { name: "N'duja & Courgettes", price: "16.00€" }
+          { name: "Mortadella (Pistache, Stracciatella)", price_cents: 1800, is_highlight: true },
+          { name: "Speck & Gorgonzola", price_cents: 1800 },
+          { name: "Tartufo (Crème de Truffe)", price_cents: 1800 },
+          { name: "Capretta (Chèvre frais, Pesto)", price_cents: 1600 },
+          { name: "Pizza Burrata entière", price_cents: 1700 },
+          { name: "N'duja & Courgettes", price_cents: 1600 }
         ]
       },
       {
-        category: "Pâtes Fraîches (Le Jour Même)",
+        category_type: "other",
+        display_label: "Pâtes Fraîches (Le Jour Même)",
         items: [
-          { name: "Linguine al Pomodoro fresco", price: "15.00€" },
-          { name: "Cacio e Pepe (Pecorino, Poivre)", price: "16.50€", highlight: true },
-          { name: "Spaghetti alle Vongole (Palourdes)", price: "19.00€" },
-          { name: "Penne à la Norma (Aubergines)", price: "16.00€" }
+          { name: "Linguine al Pomodoro fresco", price_cents: 1500 },
+          { name: "Cacio e Pepe (Pecorino, Poivre)", price_cents: 1650, is_highlight: true },
+          { name: "Spaghetti alle Vongole (Palourdes)", price_cents: 1900 },
+          { name: "Penne à la Norma (Aubergines)", price_cents: 1600 }
         ]
       },
       {
-        category: "Dolci & Boissons",
+        category_type: "drink",
+        display_label: "Dolci & Boissons",
         items: [
-          { name: "Tiramisu Maison (La Recette)", price: "7.50€", highlight: true },
-          { name: "Panna Cotta aux fruits rouges", price: "6.50€" },
-          { name: "Mousse au Chocolat intensive", price: "6.50€" },
-          { name: "Bière Italienne Menabrea", price: "6.50€" },
-          { name: "Verre de Chianti (DOCG)", price: "7.00€" },
-          { name: "Spritz Classique (Aperitivo)", price: "9.50€", highlight: true },
-          { name: "Limonata San Pellegrino", price: "4.50€" }
+          { name: "Tiramisu Maison (La Recette)", price_cents: 750, is_highlight: true },
+          { name: "Panna Cotta aux fruits rouges", price_cents: 650 },
+          { name: "Mousse au Chocolat intensive", price_cents: 650 },
+          { name: "Bière Italienne Menabrea", price_cents: 650 },
+          { name: "Verre de Chianti (DOCG)", price_cents: 700 },
+          { name: "Spritz Classique (Aperitivo)", price_cents: 950, is_highlight: true },
+          { name: "Limonata San Pellegrino", price_cents: 450 }
         ]
       }
     ]

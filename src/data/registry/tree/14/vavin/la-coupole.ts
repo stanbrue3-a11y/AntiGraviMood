@@ -43,42 +43,46 @@ export const la_coupole: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Grands Classiques de La Coupole",
+                category_type: "other",
+                display_label: "Les Grands Classiques de La Coupole",
                 items: [
-                    { name: "Curry d'agneau à l'indienne (Mythique depuis 1927)", price: "25.50€", description: "Servi à la voiture, riz basmati & chutney." },
-                    { name: "Choucroute Royale (Saucisse Francfort, échine, jarret)", price: "25.50€" },
-                    { name: "Choucroute de la Mer (Haddock, saumon, gambas)", price: "28.00€" },
-                    { name: "Filet de bar rôti, légumes de saison", price: "26.00€" },
-                    { name: "Tartare de bœuf charolais, frites fraîches", price: "21.00€" },
-                    { name: "Confit de canard du Sud-Ouest", price: "23.00€" },
-                    { name: "Suprême de volaille aux champignons", price: "22.00€" }
+                    { name: "Curry d'agneau à l'indienne (Mythique depuis 1927)", price_cents: 2550, description: "Servi à la voiture, riz basmati & chutney." },
+                    { name: "Choucroute Royale (Saucisse Francfort, échine, jarret)", price_cents: 2550 },
+                    { name: "Choucroute de la Mer (Haddock, saumon, gambas)", price_cents: 2800 },
+                    { name: "Filet de bar rôti, légumes de saison", price_cents: 2600 },
+                    { name: "Tartare de bœuf charolais, frites fraîches", price_cents: 2100 },
+                    { name: "Confit de canard du Sud-Ouest", price_cents: 2300 },
+                    { name: "Suprême de volaille aux champignons", price_cents: 2200 }
                 ]
             },
             {
-                category: "Écailler & Banc de Fruits de Mer",
+                category_type: "other",
+                display_label: "Écailler & Banc de Fruits de Mer",
                 items: [
-                    { name: "Petit Plateau (Huîtres, crevettes, bulots)", price: "39.00€" },
-                    { name: "Grand Plateau La Coupole", price: "79.00€" },
-                    { name: "Huîtres Fines de Claire N°3 (les 6)", price: "18.60€" },
-                    { name: "Bulots, mayonnaise maison", price: "10.80€" },
-                    { name: "Crevettes roses Label Rouge", price: "15.00€" }
+                    { name: "Petit Plateau (Huîtres, crevettes, bulots)", price_cents: 3900 },
+                    { name: "Grand Plateau La Coupole", price_cents: 7900 },
+                    { name: "Huîtres Fines de Claire N°3 (les 6)", price_cents: 1860 },
+                    { name: "Bulots, mayonnaise maison", price_cents: 1080 },
+                    { name: "Crevettes roses Label Rouge", price_cents: 1500 }
                 ]
             },
             {
-                category: "Formules Parisiennes",
+                category_type: "tasting_menu",
+                display_label: "Formules Parisiennes",
                 items: [
-                    { name: "Menu Boulevard (E+P ou P+D) - Midi", price: "19.90€" },
-                    { name: "Menu Tradition (Entrée + Plat + Dessert)", price: "34.00€" }
+                    { name: "Menu Boulevard (E+P ou P+D) - Midi", price_cents: 1990 },
+                    { name: "Menu Tradition (Entrée + Plat + Dessert)", price_cents: 3400 }
                 ]
             },
             {
-                category: "Desserts Historiques",
+                category_type: "dessert",
+                display_label: "Desserts Historiques",
                 items: [
-                    { name: "Baba au rhum ambré, chantilly", price: "11.50€" },
-                    { name: "Millefeuille à la vanille Bourbon", price: "11.50€" },
-                    { name: "Profiteroles au chocolat chaud Valrhona", price: "12.50€" },
-                    { name: "Crème brûlée à la cassonade", price: "10.00€" },
-                    { name: "Tarte Tatin, crème fraîche", price: "11.00€" }
+                    { name: "Baba au rhum ambré, chantilly", price_cents: 1150 },
+                    { name: "Millefeuille à la vanille Bourbon", price_cents: 1150 },
+                    { name: "Profiteroles au chocolat chaud Valrhona", price_cents: 1250 },
+                    { name: "Crème brûlée à la cassonade", price_cents: 1000 },
+                    { name: "Tarte Tatin, crème fraîche", price_cents: 1100 }
                 ]
             }
         ]

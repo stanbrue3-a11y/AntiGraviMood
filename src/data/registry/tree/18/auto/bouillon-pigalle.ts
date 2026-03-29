@@ -40,33 +40,42 @@ export const bouillon_pigalle: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Entrées Populaire", items: [
-        { name: "Œuf Mayonnaise (Champion du Monde)", price: "2.50€", description: "L'incontournable classique parfaitement exécuté" },
-        { name: "Poireaux Vinaigrette & Noisettes", price: "3.40€" },
-        { name: "Os à Moelle Grillé", price: "4.50€", description: "Gros sel et pain de campagne" },
-        { name: "Céleri Rémoulade Muscadet", price: "2.80€" },
-        { name: "Sardines à l'Huile & Beurre", price: "4.80€" },
-        { name: "Terrine de Campagne Maison", price: "4.20€" },
-        { name: "Bulots et Mayonnaise Maison", price: "6.50€" },
-        { name: "Soupe à l'Oignon Gratinée", price: "3.90€" }
+      {
+        category_type: "starter",
+        display_label: "Entrées Populaire",
+        items: [
+        { name: "Œuf Mayonnaise (Champion du Monde)", price_cents: 250, description: "L'incontournable classique parfaitement exécuté" },
+        { name: "Poireaux Vinaigrette & Noisettes", price_cents: 340 },
+        { name: "Os à Moelle Grillé", price_cents: 450, description: "Gros sel et pain de campagne" },
+        { name: "Céleri Rémoulade Muscadet", price_cents: 280 },
+        { name: "Sardines à l'Huile & Beurre", price_cents: 480 },
+        { name: "Terrine de Campagne Maison", price_cents: 420 },
+        { name: "Bulots et Mayonnaise Maison", price_cents: 650 },
+        { name: "Soupe à l'Oignon Gratinée", price_cents: 390 }
       ]},
-      { category: "Plats de Tradition", items: [
-        { name: "Saucisse au Couteau & Purée", price: "9.60€", description: "Véritable purée maison au beurre, jus de viande" },
-        { name: "Petit-salé aux Lentilles", price: "11.80€" },
-        { name: "Blanquette de Veau à l'Ancienne", price: "12.50€" },
-        { name: "Confit de Canard & Pommes Sarladaises", price: "13.50€" },
-        { name: "Steak Frites Sauce Poivre", price: "12.80€" },
-        { name: "Brandade de Morue Gratinée", price: "10.50€" },
-        { name: "Gratin de Macaronis au Jambon", price: "9.00€" },
-        { name: "Pot-au-Feu Traditionnel", price: "11.50€" }
+      {
+        category_type: "main",
+        display_label: "Plats de Tradition",
+        items: [
+        { name: "Saucisse au Couteau & Purée", price_cents: 960, description: "Véritable purée maison au beurre, jus de viande" },
+        { name: "Petit-salé aux Lentilles", price_cents: 1180 },
+        { name: "Blanquette de Veau à l'Ancienne", price_cents: 1250 },
+        { name: "Confit de Canard & Pommes Sarladaises", price_cents: 1350 },
+        { name: "Steak Frites Sauce Poivre", price_cents: 1280 },
+        { name: "Brandade de Morue Gratinée", price_cents: 1050 },
+        { name: "Gratin de Macaronis au Jambon", price_cents: 900 },
+        { name: "Pot-au-Feu Traditionnel", price_cents: 1150 }
       ]},
-      { category: "Desserts Maison", items: [
-        { name: "Riz au lait au Caramel Beurre Salé", price: "3.50€" },
-        { name: "Mousse au Chocolat (Pot de 100g)", price: "4.50€" },
-        { name: "Île Flottante à la Praline Rose", price: "3.80€" },
-        { name: "Éclair Géant au Chocolat", price: "4.50€" },
-        { name: "Baba au Rhum Ambré", price: "5.50€" },
-        { name: "Profiterole au Chocolat Chaud", price: "5.20€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts Maison",
+        items: [
+        { name: "Riz au lait au Caramel Beurre Salé", price_cents: 350 },
+        { name: "Mousse au Chocolat (Pot de 100g)", price_cents: 450 },
+        { name: "Île Flottante à la Praline Rose", price_cents: 380 },
+        { name: "Éclair Géant au Chocolat", price_cents: 450 },
+        { name: "Baba au Rhum Ambré", price_cents: 550 },
+        { name: "Profiterole au Chocolat Chaud", price_cents: 520 }
       ]}
     ]
   },

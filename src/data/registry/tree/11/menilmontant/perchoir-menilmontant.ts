@@ -45,29 +45,32 @@ export const perchoirMenilmontant: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Vecchio @ Le Perchoir Ménilmontant 2024-2025
             {
-                category: "Antipasti",
+                category_type: "other",
+                display_label: "Antipasti",
                 items: [
-                    { name: "Mozzarella di Bufala fumée", price: "16.00€" },
-                    { name: "Meatballs (boulettes sauce tomate)", price: "15.00€" },
-                    { name: "Crudo de Gambero Rosso & Caviar", price: "42.00€" },
-                    { name: "Broccolini sautés à l'ail", price: "13.00€" }
+                    { name: "Mozzarella di Bufala fumée", price_cents: 1600 },
+                    { name: "Meatballs (boulettes sauce tomate)", price_cents: 1500 },
+                    { name: "Crudo de Gambero Rosso & Caviar", price_cents: 4200 },
+                    { name: "Broccolini sautés à l'ail", price_cents: 1300 }
                 ]
             },
             {
-                category: "Primi & Secondi (Plats)",
+                category_type: "main",
+                display_label: "Primi & Secondi (Plats)",
                 items: [
-                    { name: "Spicy Fusilli Alla Vodka (pour deux)", price: "44.00€" },
-                    { name: "Linguine Alle Vongole", price: "27.00€" },
-                    { name: "Chicken Parm (Poulet à la Parmigiana)", price: "34.00€" },
-                    { name: "Paccheri Alfredo à la truffe fraîche", price: "35.00€" },
-                    { name: "Costata (Entrecôte 1.2kg) à partager", price: "85.00€" }
+                    { name: "Spicy Fusilli Alla Vodka (pour deux)", price_cents: 4400 },
+                    { name: "Linguine Alle Vongole", price_cents: 2700 },
+                    { name: "Chicken Parm (Poulet à la Parmigiana)", price_cents: 3400 },
+                    { name: "Paccheri Alfredo à la truffe fraîche", price_cents: 3500 },
+                    { name: "Costata (Entrecôte 1.2kg) à partager", price_cents: 8500 }
                 ]
             },
             {
-                category: "Dolci",
+                category_type: "other",
+                display_label: "Dolci",
                 items: [
-                    { name: "Vecchio Tiramisù maison", price: "11.00€" },
-                    { name: "Tortina Caprese au chocolat", price: "11.00€" }
+                    { name: "Vecchio Tiramisù maison", price_cents: 1100 },
+                    { name: "Tortina Caprese au chocolat", price_cents: 1100 }
                 ]
             }
         ]

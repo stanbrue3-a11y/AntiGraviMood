@@ -40,37 +40,40 @@ export const dome_montparnasse: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Arrivage de l'Océan",
+                category_type: "other",
+                display_label: "L'Arrivage de l'Océan",
                 items: [
-                    { name: "La Célèbre Bouillabaisse du Dôme", price: "72.00€", description: "Servie en deux services, la référence absolue à Paris." },
-                    { name: "Sole de Sables Meunière (env. 500g)", price: "64.00€" },
-                    { name: "Turbot Grillé, sauce hollandaise", price: "58.00€" },
-                    { name: "Bar de Ligne en croûte de sel (pour 2)", price: "135.00€" },
-                    { name: "Saint-Jacques à la Provençale", price: "48.00€" },
-                    { name: "Friture de Joëls, sauce tartare", price: "18.00€" },
-                    { name: "Carpaccio de Langoustines au citron vert", price: "38.00€" },
-                    { name: "Soles frites façon 'Dôme'", price: "55.00€" }
+                    { name: "La Célèbre Bouillabaisse du Dôme", price_cents: 7200, description: "Servie en deux services, la référence absolue à Paris." },
+                    { name: "Sole de Sables Meunière (env. 500g)", price_cents: 6400 },
+                    { name: "Turbot Grillé, sauce hollandaise", price_cents: 5800 },
+                    { name: "Bar de Ligne en croûte de sel (pour 2)", price_cents: 13500 },
+                    { name: "Saint-Jacques à la Provençale", price_cents: 4800 },
+                    { name: "Friture de Joëls, sauce tartare", price_cents: 1800 },
+                    { name: "Carpaccio de Langoustines au citron vert", price_cents: 3800 },
+                    { name: "Soles frites façon 'Dôme'", price_cents: 5500 }
                 ]
             },
             {
-                category: "Entrées d'Exception",
+                category_type: "starter",
+                display_label: "Entrées d'Exception",
                 items: [
-                    { name: "Demi-homard froid, sauce mayonnaise", price: "42.00€" },
-                    { name: "Salade de Homard tiède aux légumes", price: "48.00€" },
-                    { name: "Saumon Fumé par nos soins", price: "28.00€" },
-                    { name: "Soupe de Poissons de roche, rouille et croûtons", price: "21.00€" },
-                    { name: "Douzaine d'Huîtres Belon N°00", price: "52.00€" },
-                    { name: "Tartare de Saumon aux herbes fraîches", price: "26.00€" }
+                    { name: "Demi-homard froid, sauce mayonnaise", price_cents: 4200 },
+                    { name: "Salade de Homard tiède aux légumes", price_cents: 4800 },
+                    { name: "Saumon Fumé par nos soins", price_cents: 2800 },
+                    { name: "Soupe de Poissons de roche, rouille et croûtons", price_cents: 2100 },
+                    { name: "Douzaine d'Huîtres Belon N°00", price_cents: 5200 },
+                    { name: "Tartare de Saumon aux herbes fraîches", price_cents: 2600 }
                 ]
             },
             {
-                category: "Final de Haute Volée",
+                category_type: "other",
+                display_label: "Final de Haute Volée",
                 items: [
-                    { name: "Millefeuille Maison 'Le Dôme'", price: "18.00€", description: "Réputé comme l'un des meilleurs de la capitale." },
-                    { name: "Crêpes Suzette au Grand Marnier", price: "22.00€" },
-                    { name: "Soufflé chaud au Chocolat noir", price: "19.00€" },
-                    { name: "Sorbet Citron arrosé à la Vodka", price: "15.00€" },
-                    { name: "Plateau de Fromages affinés", price: "18.00€" }
+                    { name: "Millefeuille Maison 'Le Dôme'", price_cents: 1800, description: "Réputé comme l'un des meilleurs de la capitale." },
+                    { name: "Crêpes Suzette au Grand Marnier", price_cents: 2200 },
+                    { name: "Soufflé chaud au Chocolat noir", price_cents: 1900 },
+                    { name: "Sorbet Citron arrosé à la Vodka", price_cents: 1500 },
+                    { name: "Plateau de Fromages affinés", price_cents: 1800 }
                 ]
             }
         ]

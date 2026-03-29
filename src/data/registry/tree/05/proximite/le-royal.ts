@@ -50,45 +50,49 @@ export const le_royal: SurgicalPlace = {
         "smart_tip": "Happy Hour marathon (16h-02h) et spécialité de Croque à la Truffe.",
         "menu_items": [
             {
-                "category": "Sélection Happy Hour (16h-02h)",
+                "category_type": "drink",
+                "display_label": "Sélection Happy Hour (16h-02h)",
                 // SOURCE: MisterGoodBeer + Menu Boissons 2026
                 "items": [
-                    { "name": "Pinte de Pelforth", "price": "4,50€" },
-                    { "name": "Pinte de Lagunitas IPA (Pression)", "price": "6,50€" },
-                    { "name": "Cocktails classiques (Mojito, Negroni, Moscow Mule)", "price": "5€" },
-                    { "name": "Verre de Vin Blanc", "price": "4€" },
-                    { "name": "Americano Maison", "price": "8€" }
+                    { "name": "Pinte de Pelforth", "price_cents": 450 },
+                    { "name": "Pinte de Lagunitas IPA (Pression)", "price_cents": 650 },
+                    { "name": "Cocktails classiques (Mojito, Negroni, Moscow Mule)", "price_cents": 500 },
+                    { "name": "Verre de Vin Blanc", "price_cents": 400 },
+                    { "name": "Americano Maison", "price_cents": 800 }
                 ]
             },
             {
-                "category": "Malts & Spiritueux",
+                "category_type": "other",
+                "display_label": "Malts & Spiritueux",
                 // SOURCE: Carte des alcools consolidée
                 "items": [
-                    { "name": "Aberlour 15 ans Single Malt", "price": "12€" },
-                    { "name": "Oban 14 ans / Talisker 10 ans", "price": "11€" },
-                    { "name": "Nikka Pure Malt (Japon)", "price": "12€" },
-                    { "name": "Vieux Rhum sélectionné", "price": "9€" }
+                    { "name": "Aberlour 15 ans Single Malt", "price_cents": 1200 },
+                    { "name": "Oban 14 ans / Talisker 10 ans", "price_cents": 1100 },
+                    { "name": "Nikka Pure Malt (Japon)", "price_cents": 1200 },
+                    { "name": "Vieux Rhum sélectionné", "price_cents": 900 }
                 ]
             },
             {
-                "category": "Pépites de la Brasserie",
+                "category_type": "other",
+                "display_label": "Pépites de la Brasserie",
                 // SOURCE: Menu leroyalbarparis.fr Sep 2025
                 "items": [
-                    { "name": "Croque Royal à la Truffe (Comté/Jambon Prince de Paris)", "price": "20€" },
-                    { "name": "Burrata des Pouilles (150g), Pêches rôties & Pesto Framboise", "price": "17€" },
-                    { "name": "Gravlax de Saumon Bömlö, Vinaigrette Agrumes", "price": "17,50€" },
-                    { "name": "Tataki de Thon mariné, Sésame & Gingembre", "price": "20€" },
-                    { "name": "Burger VG (Halloumi, Légumes rôtis & Yaourt herbes)", "price": "17€" },
-                    { "name": "Bourguignon de joue de bœuf confite au vin rouge", "price": "18€" }
+                    { "name": "Croque Royal à la Truffe (Comté/Jambon Prince de Paris)", "price_cents": 2000 },
+                    { "name": "Burrata des Pouilles (150g), Pêches rôties & Pesto Framboise", "price_cents": 1700 },
+                    { "name": "Gravlax de Saumon Bömlö, Vinaigrette Agrumes", "price_cents": 1750 },
+                    { "name": "Tataki de Thon mariné, Sésame & Gingembre", "price_cents": 2000 },
+                    { "name": "Burger VG (Halloumi, Légumes rôtis & Yaourt herbes)", "price_cents": 1700 },
+                    { "name": "Bourguignon de joue de bœuf confite au vin rouge", "price_cents": 1800 }
                 ]
             },
             {
-                "category": "Douceurs",
+                "category_type": "dessert",
+                "display_label": "Douceurs",
                 // SOURCE: TheFork 2025
                 "items": [
-                    { "name": "Brioche perdue, Caramel & Sorbet pêche", "price": "8€" },
-                    { "name": "Fondant baulois au chocolat & Glace vanille", "price": "8€" },
-                    { "name": "Lemon Curd & Crumble aux amandes", "price": "7,50€" }
+                    { "name": "Brioche perdue, Caramel & Sorbet pêche", "price_cents": 800 },
+                    { "name": "Fondant baulois au chocolat & Glace vanille", "price_cents": 800 },
+                    { "name": "Lemon Curd & Crumble aux amandes", "price_cents": 750 }
                 ]
             }
         ],

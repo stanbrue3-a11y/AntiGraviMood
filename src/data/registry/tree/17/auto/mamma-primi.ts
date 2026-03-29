@@ -40,43 +40,47 @@ export const mamma_primi: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Burrata crémeuse des Pouilles", price: "14€" },
-          { name: "Focaccia chaude au romarin", price: "6€" },
-          { name: "Arancini au safran et scarmoza", price: "9€" },
-          { name: "Prosciutto di Parma 24 mois", price: "12€" },
-          { name: "Suppli al telefono", price: "8€" }
+          { name: "Burrata crémeuse des Pouilles", price_cents: 1400 },
+          { name: "Focaccia chaude au romarin", price_cents: 600 },
+          { name: "Arancini au safran et scarmoza", price_cents: 900 },
+          { name: "Prosciutto di Parma 24 mois", price_cents: 1200 },
+          { name: "Suppli al telefono", price_cents: 800 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Pâtes à la truffe du Molise (Signature)", price: "22€" },
-          { name: "Pizza Regina Margherita", price: "15€" },
-          { name: "Pizza Double G (Tête de cochon et piment)", price: "17€" },
-          { name: "Tortellini à la ricotta et citron", price: "18€" },
-          { name: "Saltimbocca alla romana", price: "24€" }
+          { name: "Pâtes à la truffe du Molise (Signature)", price_cents: 2200 },
+          { name: "Pizza Regina Margherita", price_cents: 1500 },
+          { name: "Pizza Double G (Tête de cochon et piment)", price_cents: 1700 },
+          { name: "Tortellini à la ricotta et citron", price_cents: 1800 },
+          { name: "Saltimbocca alla romana", price_cents: 2400 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Tiramisu géant à la cuillère", price: "10€" },
-          { name: "Pizza au Nutella et noisettes", price: "12€" },
-          { name: "Panna cotta aux fruits rouges", price: "8€" },
-          { name: "Glaces artisanales à l'italienne", price: "7€" },
-          { name: "Affogato al caffe", price: "6€" }
+          { name: "Tiramisu géant à la cuillère", price_cents: 1000 },
+          { name: "Pizza au Nutella et noisettes", price_cents: 1200 },
+          { name: "Panna cotta aux fruits rouges", price_cents: 800 },
+          { name: "Glaces artisanales à l'italienne", price_cents: 700 },
+          { name: "Affogato al caffe", price_cents: 600 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Spritz Classico", price: "11€" },
-          { name: "Verre de Chianti", price: "7.5€" },
-          { name: "Limonade maison au basilic", price: "5€" },
-          { name: "Negroni vieilli en barrique", price: "13€" },
-          { name: "Bière Peroni", price: "6.5€" }
+          { name: "Spritz Classico", price_cents: 1100 },
+          { name: "Verre de Chianti", price_cents: 750 },
+          { name: "Limonade maison au basilic", price_cents: 500 },
+          { name: "Negroni vieilli en barrique", price_cents: 1300 },
+          { name: "Bière Peroni", price_cents: 650 }
         ]
       }
     ]

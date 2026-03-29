@@ -45,38 +45,42 @@ export const brasserieMartin: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Brasserie Martin 2024-2025 (Nouvelle Garde)
             {
-                category: "Les Entrées (Wallet-friendly)",
+                category_type: "starter",
+                display_label: "Les Entrées (Wallet-friendly)",
                 items: [
-                    { name: "Oeuf Mayo de compète", price: "2.50€", description: "Le classique indémodable." },
-                    { name: "Poireaux vinaigrette & noisettes", price: "7.00€" },
-                    { name: "Saucisson truffé de la maison Montalet", price: "10.00€" },
-                    { name: "Pâté en croûte au canard & foie gras", price: "14.00€" }
+                    { name: "Oeuf Mayo de compète", price_cents: 250, description: "Le classique indémodable." },
+                    { name: "Poireaux vinaigrette & noisettes", price_cents: 700 },
+                    { name: "Saucisson truffé de la maison Montalet", price_cents: 1000 },
+                    { name: "Pâté en croûte au canard & foie gras", price_cents: 1400 }
                 ]
             },
             {
-                category: "La Rotisserie & Plats",
+                category_type: "main",
+                display_label: "La Rotisserie & Plats",
                 items: [
-                    { name: "Poulet Fermier de l'Allier rôti", price: "16.00€", description: "Jus de viande corsé, frites maison." },
-                    { name: "Demi-poulet rôti à partager", price: "31.00€" },
-                    { name: "Pièce du boucher (Bavette), sauce béarnaise", price: "18.50€" },
-                    { name: "Saucisse au couteau, purée maison", price: "14.00€" },
-                    { name: "Gnocchi maison, sauce tomate & citron", price: "15.00€" }
+                    { name: "Poulet Fermier de l'Allier rôti", price_cents: 1600, description: "Jus de viande corsé, frites maison." },
+                    { name: "Demi-poulet rôti à partager", price_cents: 3100 },
+                    { name: "Pièce du boucher (Bavette), sauce béarnaise", price_cents: 1850 },
+                    { name: "Saucisse au couteau, purée maison", price_cents: 1400 },
+                    { name: "Gnocchi maison, sauce tomate & citron", price_cents: 1500 }
                 ]
             },
             {
-                category: "Desserts Maousses",
+                category_type: "dessert",
+                display_label: "Desserts Maousses",
                 items: [
-                    { name: "Paris-Brest XL", price: "9.00€", description: "Le dessert culte de la Nouvelle Garde." },
-                    { name: "Tarte Pécan Chocolat", price: "8.50€" },
-                    { name: "Crème Brûlée à la vanille bourbon", price: "7.50€" }
+                    { name: "Paris-Brest XL", price_cents: 900, description: "Le dessert culte de la Nouvelle Garde." },
+                    { name: "Tarte Pécan Chocolat", price_cents: 850 },
+                    { name: "Crème Brûlée à la vanille bourbon", price_cents: 750 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Bière Martin (Pinte Artisanale)", price: "6.50€" },
-                    { name: "Vin de la maison (Verre)", price: "5.50€" },
-                    { name: "Cocktail Spritz", price: "9.50€" }
+                    { name: "Bière Martin (Pinte Artisanale)", price_cents: 650 },
+                    { name: "Vin de la maison (Verre)", price_cents: 550 },
+                    { name: "Cocktail Spritz", price_cents: 950 }
                 ]
             }
         ]

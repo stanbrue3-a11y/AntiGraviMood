@@ -45,40 +45,44 @@ export const lissit: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Lissit 2025 Standard (Bib Gourmand)
             {
-                category: "Assiettes à Partager (Maison)",
+                category_type: "sharing",
+                display_label: "Assiettes à Partager (Maison)",
                 items: [
-                    { name: "Pâté en croûte du moment", price: "12.00€", description: "Charcuterie 100% faite maison." },
-                    { name: "Terrine de campagne & Pickles", price: "9.50€" },
-                    { name: "Endive gratinée au bleu d'Auvergne", price: "11.00€" },
-                    { name: "Saucisse au couteau & purée maison", price: "16.00€" },
-                    { name: "Tripes à la romaine & gnocchis", price: "14.50€" },
-                    { name: "Vaille hachée & condiments", price: "13.00€" },
-                    { name: "Tatin boudin noir & poire", price: "12.50€" },
-                    { name: "Burrata fumée, noisettes", price: "14.00€" }
+                    { name: "Pâté en croûte du moment", price_cents: 1200, description: "Charcuterie 100% faite maison." },
+                    { name: "Terrine de campagne & Pickles", price_cents: 950 },
+                    { name: "Endive gratinée au bleu d'Auvergne", price_cents: 1100 },
+                    { name: "Saucisse au couteau & purée maison", price_cents: 1600 },
+                    { name: "Tripes à la romaine & gnocchis", price_cents: 1450 },
+                    { name: "Vaille hachée & condiments", price_cents: 1300 },
+                    { name: "Tatin boudin noir & poire", price_cents: 1250 },
+                    { name: "Burrata fumée, noisettes", price_cents: 1400 }
                 ]
             },
             {
-                category: "Plats Traditionnels (Weekly)",
+                category_type: "main",
+                display_label: "Plats Traditionnels (Weekly)",
                 items: [
-                    { name: "Cassoulet au confit de canard", price: "19.00€", description: "Généreux, haricots de Tarbes." },
-                    { name: "Volaille farcie aux herbes", price: "18.50€" },
-                    { name: "Pêche du jour, beurre blanc", price: "17.00€" }
+                    { name: "Cassoulet au confit de canard", price_cents: 1900, description: "Généreux, haricots de Tarbes." },
+                    { name: "Volaille farcie aux herbes", price_cents: 1850 },
+                    { name: "Pêche du jour, beurre blanc", price_cents: 1700 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Fromage affiné (Alexis)", price: "8.50€" },
-                    { name: "Mousse au chocolat & sel fumé", price: "9.00€" },
-                    { name: "Fruit de saison rôti, sablé", price: "8.50€" }
+                    { name: "Fromage affiné (Alexis)", price_cents: 850 },
+                    { name: "Mousse au chocolat & sel fumé", price_cents: 900 },
+                    { name: "Fruit de saison rôti, sablé", price_cents: 850 }
                 ]
             },
             {
-                category: "Cave & Vermouths",
+                category_type: "drink",
+                display_label: "Cave & Vermouths",
                 items: [
-                    { name: "Verre de Vin Nature", price: "9.00€", description: "Sélection tournante de pépites." },
-                    { name: "Vermouth artisanal", price: "8.50€" },
-                    { name: "Cocktail Signature", price: "13.00€" }
+                    { name: "Verre de Vin Nature", price_cents: 900, description: "Sélection tournante de pépites." },
+                    { name: "Vermouth artisanal", price_cents: 850 },
+                    { name: "Cocktail Signature", price_cents: 1300 }
                 ]
             }
         ]

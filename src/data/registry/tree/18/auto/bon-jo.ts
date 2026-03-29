@@ -40,24 +40,30 @@ export const bon_jo: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Savory Brunch (Plats)", items: [
-        { name: "Baked Eggs Spinach & Cheese", price: "14.50€", description: "Œufs au four, épinards, fromage fondant, pain grillé" },
-        { name: "Salmon Toast Avocado", price: "16.50€", description: "Saumon fumé, avocat écrasé, crème d'aneth" },
-        { name: "BLT Bagel Scallion", price: "13.00€", description: "Bacon, laitue, tomate, cream cheese aux oignons verts" },
-        { name: "Eggs Royale Benedict", price: "17.00€", description: "Œufs pochés, saumon, sauce hollandaise maison" },
-        { name: "Shakshuka Tradition", price: "15.00€", description: "Tomates épicées, œufs pochés, feta, coriandre" },
-        { name: "Breakfast Burrito XXL", price: "14.00€" },
-        { name: "Halloumi Veggie Wrap", price: "13.50€" },
-        { name: "Classic Avocado Toast", price: "12.50€" }
+      {
+        category_type: "main",
+        display_label: "Savory Brunch (Plats)",
+        items: [
+        { name: "Baked Eggs Spinach & Cheese", price_cents: 1450, description: "Œufs au four, épinards, fromage fondant, pain grillé" },
+        { name: "Salmon Toast Avocado", price_cents: 1650, description: "Saumon fumé, avocat écrasé, crème d'aneth" },
+        { name: "BLT Bagel Scallion", price_cents: 1300, description: "Bacon, laitue, tomate, cream cheese aux oignons verts" },
+        { name: "Eggs Royale Benedict", price_cents: 1700, description: "Œufs pochés, saumon, sauce hollandaise maison" },
+        { name: "Shakshuka Tradition", price_cents: 1500, description: "Tomates épicées, œufs pochés, feta, coriandre" },
+        { name: "Breakfast Burrito XXL", price_cents: 1400 },
+        { name: "Halloumi Veggie Wrap", price_cents: 1350 },
+        { name: "Classic Avocado Toast", price_cents: 1250 }
       ]},
-      { category: "Sweet & Pastries (Desserts)", items: [
-        { name: "French Toast Banana Caramel", price: "11.50€", description: "Pain perdu brioché, banane rôtie, sauce caramel" },
-        { name: "Hazelnut Blintzes", price: "10.50€" },
-        { name: "NY Cheesecake Berry Coulis", price: "8.50€" },
-        { name: "Tarte Citron Meringuée", price: "7.00€" },
-        { name: "Granola Maison & Fruits", price: "9.50€" },
-        { name: "Double Chocolate Cookie", price: "3.50€" },
-        { name: "Blueberry Muffin", price: "4.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Sweet & Pastries (Desserts)",
+        items: [
+        { name: "French Toast Banana Caramel", price_cents: 1150, description: "Pain perdu brioché, banane rôtie, sauce caramel" },
+        { name: "Hazelnut Blintzes", price_cents: 1050 },
+        { name: "NY Cheesecake Berry Coulis", price_cents: 850 },
+        { name: "Tarte Citron Meringuée", price_cents: 700 },
+        { name: "Granola Maison & Fruits", price_cents: 950 },
+        { name: "Double Chocolate Cookie", price_cents: 350 },
+        { name: "Blueberry Muffin", price_cents: 400 }
       ]}
     ]
   },

@@ -42,41 +42,45 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules Midi",
+                category_type: "tasting_menu",
+                display_label: "Formules Midi",
                 items: [
                     // VERIFIED: Relevé 2024
-                    { name: "Menu Déjeuner du marché", price: "26.00€", description: "Formule abordable le midi (Entrée/Plat/Dessert varie selon l'arrivage)." }
+                    { name: "Menu Déjeuner du marché", price_cents: 2600, description: "Formule abordable le midi (Entrée/Plat/Dessert varie selon l'arrivage)." }
                 ]
             },
             {
-                category: "Mer & Huîtres",
+                category_type: "other",
+                display_label: "Mer & Huîtres",
                 items: [
-                    { name: "Douzaine d'huîtres Perles Noires n°3", price: "38.00€" },
-                    { name: "Spéciales d'Utah Beach n°2 (les 6)", price: "22.00€" },
-                    { name: "Huîtres Plates du Belon (les 6)", price: "24.00€" },
-                    { name: "Langoustines du Guilvinec rôties au beurre d'algues", price: "15.00€" },
-                    { name: "Carpaccio de lieu jaune de ligne, agrumes", price: "13.00€" },
-                    { name: "Couteaux à la plancha aux épices", price: "14.50€" }
+                    { name: "Douzaine d'huîtres Perles Noires n°3", price_cents: 3800 },
+                    { name: "Spéciales d'Utah Beach n°2 (les 6)", price_cents: 2200 },
+                    { name: "Huîtres Plates du Belon (les 6)", price_cents: 2400 },
+                    { name: "Langoustines du Guilvinec rôties au beurre d'algues", price_cents: 1500 },
+                    { name: "Carpaccio de lieu jaune de ligne, agrumes", price_cents: 1300 },
+                    { name: "Couteaux à la plancha aux épices", price_cents: 1450 }
                 ]
             },
             {
-                category: "Plats Marins & de Viande",
+                category_type: "main",
+                display_label: "Plats Marins & de Viande",
                 items: [
-                    { name: "Demi-homard bleu au Kari Gosse, frites maison", price: "46.00€", description: "La spécialité de la maison depuis 25 ans." },
-                    { name: "Sole Meunière de Petit Bateau (entière)", price: "44.00€" },
-                    { name: "Noix de St-Jacques à la plancha, purée de céleri", price: "34.00€" },
-                    { name: "Dos de lieu jaune de ligne, fondue de poireaux", price: "28.00€" },
-                    { name: "Brandade de morue au beurre demi-sel", price: "25.00€" },
-                    { name: "Filet de bœuf au poivre de Sarawak, frites maison", price: "38.00€" }
+                    { name: "Demi-homard bleu au Kari Gosse, frites maison", price_cents: 4600, description: "La spécialité de la maison depuis 25 ans." },
+                    { name: "Sole Meunière de Petit Bateau (entière)", price_cents: 4400 },
+                    { name: "Noix de St-Jacques à la plancha, purée de céleri", price_cents: 3400 },
+                    { name: "Dos de lieu jaune de ligne, fondue de poireaux", price_cents: 2800 },
+                    { name: "Brandade de morue au beurre demi-sel", price_cents: 2500 },
+                    { name: "Filet de bœuf au poivre de Sarawak, frites maison", price_cents: 3800 }
                 ]
             },
             {
-                category: "Desserts Classiques",
+                category_type: "dessert",
+                display_label: "Desserts Classiques",
                 items: [
-                    { name: "Paris-Brest de l'Écailler", price: "9.00€" },
-                    { name: "Pomme au four, caramel au beurre salé", price: "9.00€" },
-                    { name: "Tarte Tatin, crème crue de Normandie", price: "10.00€" },
-                    { name: "Tarte aux poires Bourdaloue", price: "9.00€" }
+                    { name: "Paris-Brest de l'Écailler", price_cents: 900 },
+                    { name: "Pomme au four, caramel au beurre salé", price_cents: 900 },
+                    { name: "Tarte Tatin, crème crue de Normandie", price_cents: 1000 },
+                    { name: "Tarte aux poires Bourdaloue", price_cents: 900 }
                 ]
             }
         ]

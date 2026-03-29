@@ -40,38 +40,41 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Starters & Shared Plates",
+                category_type: "starter",
+                display_label: "Starters & Shared Plates",
                 items: [
-                    { name: "Planche Mixte (Charcuteries & Fromages)", price: "26.00€" },
-                    { name: "Foie Gras de Canard, Chutney de Saison", price: "21.00€" },
-                    { name: "Crème de Saint-Jacques au St Marcellin", price: "8.00€" },
-                    { name: "Gaspacho Andalou & Quenelle Guacamole", price: "7.00€" },
-                    { name: "Gratinée à l'Oignon Traditionnelle", price: "7.00€" },
-                    { name: "Carpaccio de Boeuf au Miel", price: "12.00€" },
-                    { name: "Tentacules de Poulpe Caramélisés", price: "14.00€" }
+                    { name: "Planche Mixte (Charcuteries & Fromages)", price_cents: 2600 },
+                    { name: "Foie Gras de Canard, Chutney de Saison", price_cents: 2100 },
+                    { name: "Crème de Saint-Jacques au St Marcellin", price_cents: 800 },
+                    { name: "Gaspacho Andalou & Quenelle Guacamole", price_cents: 700 },
+                    { name: "Gratinée à l'Oignon Traditionnelle", price_cents: 700 },
+                    { name: "Carpaccio de Boeuf au Miel", price_cents: 1200 },
+                    { name: "Tentacules de Poulpe Caramélisés", price_cents: 1400 }
                 ]
             },
             {
-                category: "Les Plats de la Scène",
+                category_type: "main",
+                display_label: "Les Plats de la Scène",
                 items: [
-                    { name: "Belle Entrecôte (300g) Sauce Béarnaise", price: "22.00€" },
-                    { name: "Filets de Bar, Sauce Vierge, Ecrasé de PDT", price: "18.00€" },
-                    { name: "Suprême de Poulet aux Cèpes & Truffe", price: "14.00€" },
-                    { name: "Timbale de Légumes de Saison", price: "16.00€" },
-                    { name: "Bar de Ligne, Emulsion Bergamote", price: "20.00€" },
-                    { name: "Veau Fondant au Serrano", price: "22.00€" },
-                    { name: "Risotto crémeux aux champignons", price: "18.00€" },
-                    { name: "Burger Jazz au Comté", price: "19.00€" }
+                    { name: "Belle Entrecôte (300g) Sauce Béarnaise", price_cents: 2200 },
+                    { name: "Filets de Bar, Sauce Vierge, Ecrasé de PDT", price_cents: 1800 },
+                    { name: "Suprême de Poulet aux Cèpes & Truffe", price_cents: 1400 },
+                    { name: "Timbale de Légumes de Saison", price_cents: 1600 },
+                    { name: "Bar de Ligne, Emulsion Bergamote", price_cents: 2000 },
+                    { name: "Veau Fondant au Serrano", price_cents: 2200 },
+                    { name: "Risotto crémeux aux champignons", price_cents: 1800 },
+                    { name: "Burger Jazz au Comté", price_cents: 1900 }
                 ]
             },
             {
-                category: "Desserts Final",
+                category_type: "dessert",
+                display_label: "Desserts Final",
                 items: [
-                    { name: "Café Gourmand (4 mignardises)", price: "7.00€" },
-                    { name: "Cheesecake Maison aux Fruits Rouges", price: "7.00€" },
-                    { name: "Crème Brûlée à l'Anis Étoilée", price: "7.00€" },
-                    { name: "Dôme Vanille-Amande & Hibiscus", price: "9.00€" },
-                    { name: "Pavé Chocolat Guanaja 70%", price: "9.00€" }
+                    { name: "Café Gourmand (4 mignardises)", price_cents: 700 },
+                    { name: "Cheesecake Maison aux Fruits Rouges", price_cents: 700 },
+                    { name: "Crème Brûlée à l'Anis Étoilée", price_cents: 700 },
+                    { name: "Dôme Vanille-Amande & Hibiscus", price_cents: 900 },
+                    { name: "Pavé Chocolat Guanaja 70%", price_cents: 900 }
                 ]
             }
         ]

@@ -42,50 +42,54 @@ export const moonshiner: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Cocktails Signatures 'Terroirs de France' (Saison 2025)",
+                category_type: "drink",
+                display_label: "Les Cocktails Signatures 'Terroirs de France' (Saison 2025)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Menu Itinéraire
-                    { name: "Bœuf bourguignon (Cocktail Signature)", price: "14.00€", description: "Inspiré des terroirs français, étonnant et salin, une balade gourmande." },
-                    { name: "Saté (Création épicée)", price: "14.00€", description: "Notes de cacahuète grillée et de piment léger." },
-                    { name: "Cidre & Genièvre", price: "14.00€", description: "Notes herbacées, fraîches et pétillantes, l'hommage au Nord." },
-                    { name: "Truffe & Noisette", price: "15.00€", description: "Un cocktail opulent et terreux." },
-                    { name: "Mirabelle & Sapin", price: "14.00€", description: "L'itinéraire Lorrain, forestier et fruité." },
-                    { name: "Herbiers des Alpes", price: "14.00€" },
-                    { name: "Punch du jour (Saison)", price: "6.00€", description: "L'option la moins chère pour bien démarrer, toujours frais." }
+                    { name: "Bœuf bourguignon (Cocktail Signature)", price_cents: 1400, description: "Inspiré des terroirs français, étonnant et salin, une balade gourmande." },
+                    { name: "Saté (Création épicée)", price_cents: 1400, description: "Notes de cacahuète grillée et de piment léger." },
+                    { name: "Cidre & Genièvre", price_cents: 1400, description: "Notes herbacées, fraîches et pétillantes, l'hommage au Nord." },
+                    { name: "Truffe & Noisette", price_cents: 1500, description: "Un cocktail opulent et terreux." },
+                    { name: "Mirabelle & Sapin", price_cents: 1400, description: "L'itinéraire Lorrain, forestier et fruité." },
+                    { name: "Herbiers des Alpes", price_cents: 1400 },
+                    { name: "Punch du jour (Saison)", price_cents: 600, description: "L'option la moins chère pour bien démarrer, toujours frais." }
                 ]
             },
             {
-                category: "Les Barrel-Aged & Classiques Modernes",
+                category_type: "other",
+                display_label: "Les Barrel-Aged & Classiques Modernes",
                 items: [
-                    { name: "Vieux Carré (Barrel-Aged)", price: "13.00€", description: "Un grand classique américain de Rye et Cognac, vieilli en fût par nos soins." },
-                    { name: "Negroni vieilli en fût de chêne", price: "13.00€" },
-                    { name: "Boulevardier Signature", price: "12.00€" },
-                    { name: "Old Fashioned sur mesure (Bourbon ou Rye)", price: "12.00€" },
-                    { name: "Smokey Island (Islay Whisky based)", price: "14.00€" },
-                    { name: "Moscow Mule Ginger maison", price: "12.00€" },
-                    { name: "Cocktail Classique au choix (Demande au bartender)", price: "12.00€" }
+                    { name: "Vieux Carré (Barrel-Aged)", price_cents: 1300, description: "Un grand classique américain de Rye et Cognac, vieilli en fût par nos soins." },
+                    { name: "Negroni vieilli en fût de chêne", price_cents: 1300 },
+                    { name: "Boulevardier Signature", price_cents: 1200 },
+                    { name: "Old Fashioned sur mesure (Bourbon ou Rye)", price_cents: 1200 },
+                    { name: "Smokey Island (Islay Whisky based)", price_cents: 1400 },
+                    { name: "Moscow Mule Ginger maison", price_cents: 1200 },
+                    { name: "Cocktail Classique au choix (Demande au bartender)", price_cents: 1200 }
                 ]
             },
             {
-                category: "L'Univers du Whisky (85+ Références)",
+                category_type: "other",
+                display_label: "L'Univers du Whisky (85+ Références)",
                 items: [
-                    { name: "Sélection de Bourbons (Verre, à partir de)", price: "12.00€" },
-                    { name: "Sélection de Scotch Single Malt (à partir de)", price: "14.00€" },
-                    { name: "Whiskies Japonais (à partir de)", price: "16.00€" },
-                    { name: "Lagavulin 16 ans", price: "18.00€" },
-                    { name: "Nikka from the Barrel", price: "15.00€" },
-                    { name: "Hibiki Harmony", price: "19.00€" }
+                    { name: "Sélection de Bourbons (Verre, à partir de)", price_cents: 1200 },
+                    { name: "Sélection de Scotch Single Malt (à partir de)", price_cents: 1400 },
+                    { name: "Whiskies Japonais (à partir de)", price_cents: 1600 },
+                    { name: "Lagavulin 16 ans", price_cents: 1800 },
+                    { name: "Nikka from the Barrel", price_cents: 1500 },
+                    { name: "Hibiki Harmony", price_cents: 1900 }
                 ]
             },
             {
-                category: "Bières, Vins & Snacks Pizzeria",
+                category_type: "drink",
+                display_label: "Bières, Vins & Snacks Pizzeria",
                 items: [
-                    { name: "Pinte de Bière Pression Lager", price: "6.00€" },
-                    { name: "IPA Artisanale (33cl)", price: "8.00€" },
-                    { name: "Verre de vin (Sélection ardoise)", price: "7.00€" },
-                    { name: "Cidre Bouteille Artisanal", price: "7.00€" },
-                    { name: "Pizza Da Vito (Au restaurant avant d'entrer)", price: "14.00€", description: "La Margarita classique de Da Vito." },
-                    { name: "Planche de charcuterie italienne", price: "16.00€" }
+                    { name: "Pinte de Bière Pression Lager", price_cents: 600 },
+                    { name: "IPA Artisanale (33cl)", price_cents: 800 },
+                    { name: "Verre de vin (Sélection ardoise)", price_cents: 700 },
+                    { name: "Cidre Bouteille Artisanal", price_cents: 700 },
+                    { name: "Pizza Da Vito (Au restaurant avant d'entrer)", price_cents: 1400, description: "La Margarita classique de Da Vito." },
+                    { name: "Planche de charcuterie italienne", price_cents: 1600 }
                 ]
             }
         ]

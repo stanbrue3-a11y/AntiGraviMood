@@ -40,31 +40,40 @@ export const brasserie_barbes: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Entrées & To Share", items: [
-        { name: "Burrata Crémeuse & Focaccia", price: "12.00€", description: "Basilic frais et huile d'olive vierge" },
-        { name: "Houmous Maison & Pain Pita", price: "9.00€" },
-        { name: "Arancini à la Trill (3pcs)", price: "11.00€", description: "Cœur coulant fromage, huile de truffe" },
-        { name: "Carpaccio de Bœuf au Parmesan", price: "14.00€" },
-        { name: "Salade de Kale & Grenade", price: "13.00€" },
-        { name: "Tempura de Légumes de Saison", price: "10.50€" },
-        { name: "Assiette de Jambon de Parme", price: "15.00€" }
+      {
+        category_type: "starter",
+        display_label: "Entrées & To Share",
+        items: [
+        { name: "Burrata Crémeuse & Focaccia", price_cents: 1200, description: "Basilic frais et huile d'olive vierge" },
+        { name: "Houmous Maison & Pain Pita", price_cents: 900 },
+        { name: "Arancini à la Trill (3pcs)", price_cents: 1100, description: "Cœur coulant fromage, huile de truffe" },
+        { name: "Carpaccio de Bœuf au Parmesan", price_cents: 1400 },
+        { name: "Salade de Kale & Grenade", price_cents: 1300 },
+        { name: "Tempura de Légumes de Saison", price_cents: 1050 },
+        { name: "Assiette de Jambon de Parme", price_cents: 1500 }
       ]},
-      { category: "Plats Brasserie", items: [
-        { name: "Classic Burger Barbès", price: "19.00€", description: "Bœuf français, cheddar affiné, frites maison" },
-        { name: "Fish & Chips à la Londonienne", price: "18.00€" },
-        { name: "Risotto aux Herbes & Champignons", price: "17.50€" },
-        { name: "Tartare de Bœuf Traditionnel", price: "19.00€" },
-        { name: "Demi-Poulet Fermier Rôti", price: "18.50€", description: "Jus de viande et purée maison" },
-        { name: "Bavette d'Aloyau Grillée", price: "22.00€", description: "Frites et sauce échalote" },
-        { name: "Linguine aux Gambas & Piment", price: "21.00€" },
-        { name: "Saumon Snacké & Légumes Croquants", price: "20.50€" }
+      {
+        category_type: "main",
+        display_label: "Plats Brasserie",
+        items: [
+        { name: "Classic Burger Barbès", price_cents: 1900, description: "Bœuf français, cheddar affiné, frites maison" },
+        { name: "Fish & Chips à la Londonienne", price_cents: 1800 },
+        { name: "Risotto aux Herbes & Champignons", price_cents: 1750 },
+        { name: "Tartare de Bœuf Traditionnel", price_cents: 1900 },
+        { name: "Demi-Poulet Fermier Rôti", price_cents: 1850, description: "Jus de viande et purée maison" },
+        { name: "Bavette d'Aloyau Grillée", price_cents: 2200, description: "Frites et sauce échalote" },
+        { name: "Linguine aux Gambas & Piment", price_cents: 2100 },
+        { name: "Saumon Snacké & Légumes Croquants", price_cents: 2050 }
       ]},
-      { category: "Desserts Maison", items: [
-        { name: "Tiramisu Signature Barbès", price: "9.00€" },
-        { name: "Cheesecake aux Fruits Rouges", price: "9.50€" },
-        { name: "Moelleux au Chocolat Fondant", price: "8.50€" },
-        { name: "Café très Gourmand", price: "10.50€" },
-        { name: "Glaces Artisanales (2 boules)", price: "7.50€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts Maison",
+        items: [
+        { name: "Tiramisu Signature Barbès", price_cents: 900 },
+        { name: "Cheesecake aux Fruits Rouges", price_cents: 950 },
+        { name: "Moelleux au Chocolat Fondant", price_cents: 850 },
+        { name: "Café très Gourmand", price_cents: 1050 },
+        { name: "Glaces Artisanales (2 boules)", price_cents: 750 }
       ]}
     ]
   },

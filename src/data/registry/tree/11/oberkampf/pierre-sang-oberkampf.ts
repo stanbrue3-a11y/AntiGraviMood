@@ -45,48 +45,54 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Plats (Déjeuner)",
+                category_type: "main",
+                display_label: "Plats (Déjeuner)",
                 items: [
-                    { name: "Plat du jour", price: "19.00€" }
+                    { name: "Plat du jour", price_cents: 1900 }
                 ]
             },
             {
-                category: "Formules (Déjeuner)",
+                category_type: "tasting_menu",
+                display_label: "Formules (Déjeuner)",
                 items: [
-                    { name: "Menu 2 Temps (Entrée/Plat)", price: "25.00€" },
-                    { name: "Menu 3 Temps (Entrée/Plat/Dessert)", price: "33.00€" }
+                    { name: "Menu 2 Temps (Entrée/Plat)", price_cents: 2500 },
+                    { name: "Menu 3 Temps (Entrée/Plat/Dessert)", price_cents: 3300 }
                 ]
             },
             {
-                category: "L'Expérience à l'Aveugle (Soir & Week-end)",
+                category_type: "other",
+                display_label: "L'Expérience à l'Aveugle (Soir & Week-end)",
                 items: [
-                    { name: "Menu Freestyle (Entrée, Plat, Fromages, Dessert)", price: "46.50€" },
-                    { name: "Menu Découverte 6 temps (Amuse-bouche, 2 entrées, plat, fromages, dessert)", price: "55.50€" }
+                    { name: "Menu Freestyle (Entrée, Plat, Fromages, Dessert)", price_cents: 4650 },
+                    { name: "Menu Découverte 6 temps (Amuse-bouche, 2 entrées, plat, fromages, dessert)", price_cents: 5550 }
                 ]
             },
             {
-                category: "Accords Mets & Vins",
+                category_type: "drink",
+                display_label: "Accords Mets & Vins",
                 items: [
-                    { name: "Accord 4 verres (Sur Freestyle)", price: "35.00€" },
-                    { name: "Accord 6 verres (Sur Découverte)", price: "45.00€" }
+                    { name: "Accord 4 verres (Sur Freestyle)", price_cents: 3500 },
+                    { name: "Accord 6 verres (Sur Découverte)", price_cents: 4500 }
                 ]
             },
             {
-                category: "Cave & Vins au verre",
+                category_type: "drink",
+                display_label: "Cave & Vins au verre",
                 items: [
-                    { name: "Côteaux du Layon, Domaine de la Bergerie (10cl)", price: "6.00€" },
-                    { name: "Vouvray Brut Vincent Carême (Bouteille 75cl)", price: "42.00€" },
-                    { name: "Champagne Laurent-Perrier (Bouteille 75cl)", price: "75.00€" }
+                    { name: "Côteaux du Layon, Domaine de la Bergerie (10cl)", price_cents: 600 },
+                    { name: "Vouvray Brut Vincent Carême (Bouteille 75cl)", price_cents: 4200 },
+                    { name: "Champagne Laurent-Perrier (Bouteille 75cl)", price_cents: 7500 }
                 ]
             },
             {
-                category: "Autres Boissons",
+                category_type: "drink",
+                display_label: "Autres Boissons",
                 items: [
-                    { name: "Bière Artisanale BapBap Original (33cl)", price: "7.00€" },
-                    { name: "Plum Wine / Chamisul Soju (8cl)", price: "4.50€" },
-                    { name: "Eaux Microfiltrées FRESH (75cl)", price: "2.50€" },
-                    { name: "Thé Noir Glacé Uma Gingembre et Cédrat", price: "4.50€" },
-                    { name: "Café Expresso", price: "2.50€" }
+                    { name: "Bière Artisanale BapBap Original (33cl)", price_cents: 700 },
+                    { name: "Plum Wine / Chamisul Soju (8cl)", price_cents: 450 },
+                    { name: "Eaux Microfiltrées FRESH (75cl)", price_cents: 250 },
+                    { name: "Thé Noir Glacé Uma Gingembre et Cédrat", price_cents: 450 },
+                    { name: "Café Expresso", price_cents: 250 }
                 ]
             }
         ]

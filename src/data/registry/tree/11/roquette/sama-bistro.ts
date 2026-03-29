@@ -45,38 +45,42 @@ export const samaBistro: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Sama Bistro Paris 2024-2025
             {
-                category: "Plats (Formules Déjeuner)",
+                category_type: "main",
+                display_label: "Plats (Formules Déjeuner)",
                 items: [
-                    { name: "Entrée + Plat + Dessert", price: "27.00€" },
-                    { name: "Entrée + Plat ou Plat + Dessert", price: "23.00€" }
+                    { name: "Entrée + Plat + Dessert", price_cents: 2700 },
+                    { name: "Entrée + Plat ou Plat + Dessert", price_cents: 2300 }
                 ]
             },
             {
-                category: "Petites Assiettes à Partager",
+                category_type: "sharing",
+                display_label: "Petites Assiettes à Partager",
                 items: [
-                    { name: "Pain Tannour au zaatar", price: "4.50€" },
-                    { name: "Feuilleté Batata, ail & crème", price: "9.00€" },
-                    { name: "Halloumi grillé, confit de coing & zaatar", price: "11.00€" },
-                    { name: "Brochettes Taouk, chapelure pistache", price: "11.00€" },
-                    { name: "Kafta de canard sur houmous", price: "12.00€" },
-                    { name: "Warak enab (feuilles de vigne) à l'agneau", price: "16.00€" },
-                    { name: "Falafels maison & tarator", price: "9.50€" },
-                    { name: "Houmous classique revisité", price: "8.00€" },
-                    { name: "Labné à la menthe séchée", price: "7.50€" }
+                    { name: "Pain Tannour au zaatar", price_cents: 450 },
+                    { name: "Feuilleté Batata, ail & crème", price_cents: 900 },
+                    { name: "Halloumi grillé, confit de coing & zaatar", price_cents: 1100 },
+                    { name: "Brochettes Taouk, chapelure pistache", price_cents: 1100 },
+                    { name: "Kafta de canard sur houmous", price_cents: 1200 },
+                    { name: "Warak enab (feuilles de vigne) à l'agneau", price_cents: 1600 },
+                    { name: "Falafels maison & tarator", price_cents: 950 },
+                    { name: "Houmous classique revisité", price_cents: 800 },
+                    { name: "Labné à la menthe séchée", price_cents: 750 }
                 ]
             },
             {
-                category: "Brunch Libanais (Weekend)",
+                category_type: "other",
+                display_label: "Brunch Libanais (Weekend)",
                 items: [
-                    { name: "Formule Terwi'a (Menu complet)", price: "34.00€" }
+                    { name: "Formule Terwi'a (Menu complet)", price_cents: 3400 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Awaymettes (beignets sirop orange)", price: "9.00€" },
-                    { name: "Poire pochée à l'arak", price: "9.00€" },
-                    { name: "Flan Libanais à la fleur d'oranger", price: "8.50€" }
+                    { name: "Awaymettes (beignets sirop orange)", price_cents: 900 },
+                    { name: "Poire pochée à l'arak", price_cents: 900 },
+                    { name: "Flan Libanais à la fleur d'oranger", price_cents: 850 }
                 ]
             }
         ]

@@ -40,34 +40,37 @@ export const severo: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Art de la Viande (Maturée sur place)",
+                category_type: "main",
+                display_label: "L'Art de la Viande (Maturée sur place)",
                 items: [
-                    { name: "Faux-Filet de Boeuf (300g)", price: "38.00€", description: "Maturé 60 jours, servi avec frites maison." },
-                    { name: "Pavé de Coeur de Filet", price: "42.00€" },
-                    { name: "Entrecôte Maturée (pour 2, ~800g)", price: "110.00€" },
-                    { name: "Bavette d'Aloyau, échalotes confites", price: "28.00€" },
-                    { name: "Steak Tartare au couteau de William", price: "26.00€" },
-                    { name: "Côte de Boeuf d'Exception (prix au kg)", price: "120.00€" },
-                    { name: "Pièce du Boucher selon arrivage", price: "32.00€" }
+                    { name: "Faux-Filet de Boeuf (300g)", price_cents: 3800, description: "Maturé 60 jours, servi avec frites maison." },
+                    { name: "Pavé de Coeur de Filet", price_cents: 4200 },
+                    { name: "Entrecôte Maturée (pour 2, ~800g)", price_cents: 11000 },
+                    { name: "Bavette d'Aloyau, échalotes confites", price_cents: 2800 },
+                    { name: "Steak Tartare au couteau de William", price_cents: 2600 },
+                    { name: "Côte de Boeuf d'Exception (prix au kg)", price_cents: 12000 },
+                    { name: "Pièce du Boucher selon arrivage", price_cents: 3200 }
                 ]
             },
             {
-                category: "Entrées de Caractère",
+                category_type: "starter",
+                display_label: "Entrées de Caractère",
                 items: [
-                    { name: "Jambon Cru Noir de Bigorre", price: "18.00€" },
-                    { name: "Pâté de Campagne de William Bernet", price: "12.00€" },
-                    { name: "Os à Moelle Grillé", price: "14.50€" },
-                    { name: "Lard de Colonnata", price: "12.00€" },
-                    { name: "Boudin Noir Artisanal", price: "16.00€" }
+                    { name: "Jambon Cru Noir de Bigorre", price_cents: 1800 },
+                    { name: "Pâté de Campagne de William Bernet", price_cents: 1200 },
+                    { name: "Os à Moelle Grillé", price_cents: 1450 },
+                    { name: "Lard de Colonnata", price_cents: 1200 },
+                    { name: "Boudin Noir Artisanal", price_cents: 1600 }
                 ]
             },
             {
-                category: "Accompagnements & Desserts",
+                category_type: "dessert",
+                display_label: "Accompagnements & Desserts",
                 items: [
-                    { name: "Frites Maison (cuites à la graisse de boeuf)", price: "0.00€", description: "Inclus avec la viande." },
-                    { name: "Mousse au Chocolat Noir intense", price: "9.50€" },
-                    { name: "Pruneaux à l'Armagnac", price: "11.00€" },
-                    { name: "Saint-Marcellin de la Mère Richard", price: "12.00€" }
+                    { name: "Frites Maison (cuites à la graisse de boeuf)", price_cents: 0, description: "Inclus avec la viande." },
+                    { name: "Mousse au Chocolat Noir intense", price_cents: 950 },
+                    { name: "Pruneaux à l'Armagnac", price_cents: 1100 },
+                    { name: "Saint-Marcellin de la Mère Richard", price_cents: 1200 }
                 ]
             }
         ]

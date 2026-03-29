@@ -37,43 +37,47 @@ export const zhao_grands_boulevards: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Entrées & Raviolis (Jiaozi)",
+        category_type: "starter",
+        display_label: "Entrées & Raviolis (Jiaozi)",
         items: [
-          { name: "Salade de Tofu frité", price: "4.80€" },
-          { name: "Algues marinées au sésame", price: "4.50€" },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price: "4.20€" },
-          { name: "Oreilles de porc pimentées", price: "5.50€" },
-          { name: "Concombre frappé à l'ail", price: "4.50€" },
-          { name: "Raviolis Porc & Chou (8 pièces)", price: "12.00€" },
-          { name: "Raviolis Poulet & Champignon (8 pièces)", price: "12.00€" },
-          { name: "Raviolis Végétariens (8 pièces)", price: "11.50€" },
-          { name: "Assiette dégustation (12 pièces)", price: "16.00€" }
+          { name: "Salade de Tofu frité", price_cents: 480 },
+          { name: "Algues marinées au sésame", price_cents: 450 },
+          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Oreilles de porc pimentées", price_cents: 550 },
+          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
+          { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
+          { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
+          { name: "Assiette dégustation (12 pièces)", price_cents: 1600 }
         ]
       },
       {
-        category: "Burgers Chinois (Mo's)",
+        category_type: "main",
+        display_label: "Burgers Chinois (Mo's)",
         items: [
-          { name: "Mo au Porc mijoté", price: "6.50€", description: "Pain pita croustillant" },
-          { name: "Mo au Bœuf au curry", price: "7.00€" },
-          { name: "Mo au Canard laqué", price: "7.50€" },
-          { name: "Mo Végétarien", price: "6.00€" }
+          { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
+          { name: "Mo au Bœuf au curry", price_cents: 700 },
+          { name: "Mo au Canard laqué", price_cents: 750 },
+          { name: "Mo Végétarien", price_cents: 600 }
         ]
       },
       {
-        category: "Les Plats (Biang Biang)",
+        category_type: "main",
+        display_label: "Les Plats (Biang Biang)",
         items: [
-          { name: "Biang Biang au Bœuf mijoté", price: "12.80€", description: "Nouilles larges maison, épices" },
-          { name: "Biang Biang au Porc haché", price: "11.50€" },
-          { name: "Biang Biang Poulet croustillant", price: "13.00€" },
-          { name: "Biang Biang Tomate & Œuf", price: "10.80€", description: "Option végétarienne iconique" },
-          { name: "Biang Biang Canard laqué", price: "14.50€" }
+          { name: "Biang Biang au Bœuf mijoté", price_cents: 1280, description: "Nouilles larges maison, épices" },
+          { name: "Biang Biang au Porc haché", price_cents: 1150 },
+          { name: "Biang Biang Poulet croustillant", price_cents: 1300 },
+          { name: "Biang Biang Tomate & Œuf", price_cents: 1080, description: "Option végétarienne iconique" },
+          { name: "Biang Biang Canard laqué", price_cents: 1450 }
         ]
       },
       {
-        category: "Desserts & Douceurs Maison",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs Maison",
         items: [
-          { name: "Mochi glacé (2)", price: "4.50€" },
-          { name: "Perles de coco", price: "4.80€" },
+          { name: "Mochi glacé (2)", price_cents: 450 },
+          { name: "Perles de coco", price_cents: 480 },
         ]
       }
     ]

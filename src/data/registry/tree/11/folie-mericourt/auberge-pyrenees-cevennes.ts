@@ -42,66 +42,71 @@ export const auberge_pyrenees_cevennes: SurgicalPlace = {
         last_updated: "2026-03-09",
         menu_items: [
             {
-                category: "Menus & Formules Industrielles",
+                category_type: "tasting_menu",
+                display_label: "Menus & Formules Industrielles",
                 items: [
-                    { name: "Formule Déjeuner (Semaine)", price: "29.00€", description: "Entrée/Plat ou Plat/Dessert à l'ardoise." },
-                    { name: "Menu de l'Auberge (3 plats)", price: "39.00€" },
-                    { name: "Menu Dégustation (6 temps)", price: "79.00€", description: "L'immersion totale dans le terroir." },
-                    { name: "Accord Mets & Vins (6 verres)", price: "36.00€" }
+                    { name: "Formule Déjeuner (Semaine)", price_cents: 2900, description: "Entrée/Plat ou Plat/Dessert à l'ardoise." },
+                    { name: "Menu de l'Auberge (3 plats)", price_cents: 3900 },
+                    { name: "Menu Dégustation (6 temps)", price_cents: 7900, description: "L'immersion totale dans le terroir." },
+                    { name: "Accord Mets & Vins (6 verres)", price_cents: 3600 }
                 ]
             },
             {
-                category: "Entrées du Terroir",
+                category_type: "starter",
+                display_label: "Entrées du Terroir",
                 items: [
-                    { name: "Pâté en croûte au Canard et Foie Gras", price: "23.00€", description: "Fait maison selon la tradition." },
-                    { name: "6 Escargots de Bourgogne de belle taille", price: "16.00€" },
-                    { name: "Oeuf Bio Poché, crème de champignons", price: "14.50€" },
-                    { name: "Foie gras de Canard mi-cuit, chutney", price: "23.00€" },
-                    { name: "Harengs Doux, pommes à l'huile", price: "14.00€" },
-                    { name: "Salade Frisée aux Lardons et Croûtons", price: "14.00€" },
-                    { name: "Soupe à l'oignon gratinée au Comté", price: "13.50€" },
-                    { name: "Oeufs Durs Bio Mayonnaise (Standard Moelle)", price: "9.50€" },
-                    { name: "Assiette de Cochonnailles Artisanales", price: "19.00€" },
-                    { name: "Velouté de Potiron & crème crue", price: "12.00€" }
+                    { name: "Pâté en croûte au Canard et Foie Gras", price_cents: 2300, description: "Fait maison selon la tradition." },
+                    { name: "6 Escargots de Bourgogne de belle taille", price_cents: 1600 },
+                    { name: "Oeuf Bio Poché, crème de champignons", price_cents: 1450 },
+                    { name: "Foie gras de Canard mi-cuit, chutney", price_cents: 2300 },
+                    { name: "Harengs Doux, pommes à l'huile", price_cents: 1400 },
+                    { name: "Salade Frisée aux Lardons et Croûtons", price_cents: 1400 },
+                    { name: "Soupe à l'oignon gratinée au Comté", price_cents: 1350 },
+                    { name: "Oeufs Durs Bio Mayonnaise (Standard Moelle)", price_cents: 950 },
+                    { name: "Assiette de Cochonnailles Artisanales", price_cents: 1900 },
+                    { name: "Velouté de Potiron & crème crue", price_cents: 1200 }
                 ]
             },
             {
-                category: "Les Plats (Signatures)",
+                category_type: "main",
+                display_label: "Les Plats (Signatures)",
                 items: [
-                    { name: "Cassoulet de l'Auberge", price: "37.00€", description: "Mijoté des heures, le plat culte de la maison." },
-                    { name: "Blanquette de Veau à l'ancienne, Riz Basmati", price: "32.00€" },
-                    { name: "Ris de Veau Poêlés, Champignons & Purée", price: "49.00€" },
-                    { name: "Entrecôte Normande (400g), Frites Maison", price: "45.00€" },
-                    { name: "Saucisse au Couteau & Purée de bintje", price: "26.00€" },
-                    { name: "Risotto aux Gambas rôties au Tandoori", price: "31.00€" },
-                    { name: "Lotte rôtie au beurre de sauge", price: "34.00€" },
-                    { name: "Carré d'Agneau de sept heures", price: "38.00€" },
-                    { name: "Petit Salé aux Lentilles vertes du Puy", price: "28.00€" },
-                    { name: "Civet de Sanglier (Saisonnier)", price: "32.00€" }
+                    { name: "Cassoulet de l'Auberge", price_cents: 3700, description: "Mijoté des heures, le plat culte de la maison." },
+                    { name: "Blanquette de Veau à l'ancienne, Riz Basmati", price_cents: 3200 },
+                    { name: "Ris de Veau Poêlés, Champignons & Purée", price_cents: 4900 },
+                    { name: "Entrecôte Normande (400g), Frites Maison", price_cents: 4500 },
+                    { name: "Saucisse au Couteau & Purée de bintje", price_cents: 2600 },
+                    { name: "Risotto aux Gambas rôties au Tandoori", price_cents: 3100 },
+                    { name: "Lotte rôtie au beurre de sauge", price_cents: 3400 },
+                    { name: "Carré d'Agneau de sept heures", price_cents: 3800 },
+                    { name: "Petit Salé aux Lentilles vertes du Puy", price_cents: 2800 },
+                    { name: "Civet de Sanglier (Saisonnier)", price_cents: 3200 }
                 ]
             },
             {
-                category: "Desserts d'Antan",
+                category_type: "dessert",
+                display_label: "Desserts d'Antan",
                 items: [
-                    { name: "Soufflé Chaud au Grand Marnier", price: "14.50€" },
-                    { name: "Mille-feuille tradition", price: "12.00€" },
-                    { name: "Profiteroles au chocolat chaud", price: "12.00€" },
-                    { name: "Crème Brulée à la vanille Bourbon", price: "10.00€" },
-                    { name: "Baba au Rhum Ambré", price: "13.00€" },
-                    { name: "Ile Flottante, amandes grillées", price: "10.00€" },
-                    { name: "Mousse au Chocolat (Grand Bol)", price: "11.00€" },
-                    { name: "Plateau de Fromages de chez Beillevaire", price: "15.00€" },
-                    { name: "Glace Artisanale (3 boules)", price: "9.00€" },
-                    { name: "Poire Pochée au Vin de Bordeaux", price: "12.00€" }
+                    { name: "Soufflé Chaud au Grand Marnier", price_cents: 1450 },
+                    { name: "Mille-feuille tradition", price_cents: 1200 },
+                    { name: "Profiteroles au chocolat chaud", price_cents: 1200 },
+                    { name: "Crème Brulée à la vanille Bourbon", price_cents: 1000 },
+                    { name: "Baba au Rhum Ambré", price_cents: 1300 },
+                    { name: "Ile Flottante, amandes grillées", price_cents: 1000 },
+                    { name: "Mousse au Chocolat (Grand Bol)", price_cents: 1100 },
+                    { name: "Plateau de Fromages de chez Beillevaire", price_cents: 1500 },
+                    { name: "Glace Artisanale (3 boules)", price_cents: 900 },
+                    { name: "Poire Pochée au Vin de Bordeaux", price_cents: 1200 }
                 ]
             },
             {
-                category: "Digos & Digestifs",
+                category_type: "other",
+                display_label: "Digos & Digestifs",
                 items: [
-                    { name: "Armagnac Hors d'Âge", price: "14.00€" },
-                    { name: "Cognac Pierre de Segonzac", price: "14.00€" },
-                    { name: "Calvados Pays d'Auge", price: "12.00€" },
-                    { name: "Vieille Prune de Souillac", price: "12.50€" }
+                    { name: "Armagnac Hors d'Âge", price_cents: 1400 },
+                    { name: "Cognac Pierre de Segonzac", price_cents: 1400 },
+                    { name: "Calvados Pays d'Auge", price_cents: 1200 },
+                    { name: "Vieille Prune de Souillac", price_cents: 1250 }
                 ]
             }
         ]

@@ -42,36 +42,39 @@ export const osteria_ferrara: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Antipasti",
+                category_type: "other",
+                display_label: "Antipasti",
                 items: [
-                    { name: "Burrata des Pouilles, haricots verts, amandes", price: "15.00€" },
-                    { name: "Tarte à la tomate, ricotta salata, fleurs de courgette", price: "16.00€" },
-                    { name: "Vitello tonnato classique", price: "18.00€" },
-                    { name: "Jambon de Parme affiné 24 mois", price: "14.50€" },
-                    { name: "Focaccia maison à l'origan et sel noir", price: "6.00€" },
-                    { name: "Carpaccio de thon rouge, câpres et citron", price: "19.00€" }
+                    { name: "Burrata des Pouilles, haricots verts, amandes", price_cents: 1500 },
+                    { name: "Tarte à la tomate, ricotta salata, fleurs de courgette", price_cents: 1600 },
+                    { name: "Vitello tonnato classique", price_cents: 1800 },
+                    { name: "Jambon de Parme affiné 24 mois", price_cents: 1450 },
+                    { name: "Focaccia maison à l'origan et sel noir", price_cents: 600 },
+                    { name: "Carpaccio de thon rouge, câpres et citron", price_cents: 1900 }
                 ]
             },
             {
-                category: "Primi & Secondi (Plats)",
+                category_type: "main",
+                display_label: "Primi & Secondi (Plats)",
                 items: [
-                    { name: "Mezzi paccheri aux langoustines crues", price: "24.00€" },
-                    { name: "Ris d'agneau, fenouil rôti, jus citron/thym", price: "24.00€" },
-                    { name: "Calamarata ragoût de saucisse au vin rouge", price: "22.00€" },
-                    { name: "Pêche du jour, légumes croquants", price: "28.00€" },
-                    { name: "Raviolis del plin à la piémontaise", price: "26.00€" },
-                    { name: "Linguine alle vongole", price: "25.00€" },
-                    { name: "Tagliatelle au ragoût de canard et cacao", price: "24.00€" },
-                    { name: "Caille rôtie farcie à la pancetta", price: "27.00€" }
+                    { name: "Mezzi paccheri aux langoustines crues", price_cents: 2400 },
+                    { name: "Ris d'agneau, fenouil rôti, jus citron/thym", price_cents: 2400 },
+                    { name: "Calamarata ragoût de saucisse au vin rouge", price_cents: 2200 },
+                    { name: "Pêche du jour, légumes croquants", price_cents: 2800 },
+                    { name: "Raviolis del plin à la piémontaise", price_cents: 2600 },
+                    { name: "Linguine alle vongole", price_cents: 2500 },
+                    { name: "Tagliatelle au ragoût de canard et cacao", price_cents: 2400 },
+                    { name: "Caille rôtie farcie à la pancetta", price_cents: 2700 }
                 ]
             },
             {
-                category: "Dolci",
+                category_type: "other",
+                display_label: "Dolci",
                 items: [
-                    { name: "Tiramisu de la maison", price: "10.00€" },
-                    { name: "Cannolo sicilien, ricotta et granité pastèque", price: "10.00€" },
-                    { name: "Soupe de pêches plates, glace verveine", price: "10.00€" },
-                    { name: "Panna cotta au coulis de fruits de saison", price: "9.50€" }
+                    { name: "Tiramisu de la maison", price_cents: 1000 },
+                    { name: "Cannolo sicilien, ricotta et granité pastèque", price_cents: 1000 },
+                    { name: "Soupe de pêches plates, glace verveine", price_cents: 1000 },
+                    { name: "Panna cotta au coulis de fruits de saison", price_cents: 950 }
                 ]
             }
         ]

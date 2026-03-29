@@ -43,44 +43,48 @@ export const augustin: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Entrées (Sourcing Direct)",
+                category_type: "starter",
+                display_label: "Entrées (Sourcing Direct)",
                 items: [
-                    { name: "Terrine de lapin de chez 'Pépé', compotée d'oignons rouges", price: "14.00€" },
-                    { name: "Tartare de dorade royale aux agrumes & aneth", price: "14.00€" },
-                    { name: "Six escargots de Bourgogne au beurre persillé Maison", price: "14.00€" },
-                    { name: "Velouté de châtaignes, éclats de noisettes, croûtons", price: "14.00€" },
-                    { name: "Burratina des Pouilles, huile de basilic", price: "14.00€" },
-                    { name: "Salade de haricots verts, amandes & fêta", price: "12.00€" }
+                    { name: "Terrine de lapin de chez 'Pépé', compotée d'oignons rouges", price_cents: 1400 },
+                    { name: "Tartare de dorade royale aux agrumes & aneth", price_cents: 1400 },
+                    { name: "Six escargots de Bourgogne au beurre persillé Maison", price_cents: 1400 },
+                    { name: "Velouté de châtaignes, éclats de noisettes, croûtons", price_cents: 1400 },
+                    { name: "Burratina des Pouilles, huile de basilic", price_cents: 1400 },
+                    { name: "Salade de haricots verts, amandes & fêta", price_cents: 1200 }
                 ]
             },
             {
-                category: "Les Plats (Bistronomie du Chef)",
+                category_type: "main",
+                display_label: "Les Plats (Bistronomie du Chef)",
                 items: [
-                    { name: "Côte de Cochon du Cantal, purée à la truffe noire", price: "32.00€", description: "Le plat emblématique du bistrot." },
-                    { name: "Filet de bar rôti à la plancha, légumes oubliés", price: "24.00€" },
-                    { name: "Pavé de cabillaud sauvage, risotto crémeux aux petits pois", price: "24.00€" },
-                    { name: "Tartare de bœuf charolais préparé au couteau", price: "24.00€" },
-                    { name: "Quasi de veau fermier déglacé au porto", price: "24.00€" },
-                    { name: "Magret de canard rôti au miel & épices", price: "24.00€" },
-                    { name: "Risotto Arborio aux champignons des bois (Végé)", price: "22.00€" }
+                    { name: "Côte de Cochon du Cantal, purée à la truffe noire", price_cents: 3200, description: "Le plat emblématique du bistrot." },
+                    { name: "Filet de bar rôti à la plancha, légumes oubliés", price_cents: 2400 },
+                    { name: "Pavé de cabillaud sauvage, risotto crémeux aux petits pois", price_cents: 2400 },
+                    { name: "Tartare de bœuf charolais préparé au couteau", price_cents: 2400 },
+                    { name: "Quasi de veau fermier déglacé au porto", price_cents: 2400 },
+                    { name: "Magret de canard rôti au miel & épices", price_cents: 2400 },
+                    { name: "Risotto Arborio aux champignons des bois (Végé)", price_cents: 2200 }
                 ]
             },
             {
-                category: "Formules & Menus Gourmets",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus Gourmets",
                 items: [
-                    { name: "Menu Carte Complet (E+P+D)", price: "42.00€" },
-                    { name: "Formule Déjeuner (E+P ou P+D)", price: "34.00€" },
-                    { name: "Assiette de fromages affinés par nos soins", price: "15.00€" }
+                    { name: "Menu Carte Complet (E+P+D)", price_cents: 4200 },
+                    { name: "Formule Déjeuner (E+P ou P+D)", price_cents: 3400 },
+                    { name: "Assiette de fromages affinés par nos soins", price_cents: 1500 }
                 ]
             },
             {
-                category: "Desserts Signature",
+                category_type: "dessert",
+                display_label: "Desserts Signature",
                 items: [
-                    { name: "Vacherin glacé aux framboises fraîches", price: "12.00€" },
-                    { name: "Moelleux au chocolat Guanaja, glace vanille", price: "14.00€" },
-                    { name: "Authentique Baba au rhum 'Augustin'", price: "12.00€" },
-                    { name: "Riz au lait grand-mère au caramel beurre salé", price: "12.00€" },
-                    { name: "Ile flottante à la fève tonka", price: "10.00€" }
+                    { name: "Vacherin glacé aux framboises fraîches", price_cents: 1200 },
+                    { name: "Moelleux au chocolat Guanaja, glace vanille", price_cents: 1400 },
+                    { name: "Authentique Baba au rhum 'Augustin'", price_cents: 1200 },
+                    { name: "Riz au lait grand-mère au caramel beurre salé", price_cents: 1200 },
+                    { name: "Ile flottante à la fève tonka", price_cents: 1000 }
                 ]
             }
         ]

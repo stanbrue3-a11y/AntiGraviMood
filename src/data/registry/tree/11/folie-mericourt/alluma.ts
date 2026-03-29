@@ -42,42 +42,46 @@ export const alluma: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formules & Menus (Midi & Soir)",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus (Midi & Soir)",
                 items: [
                     // VERIFIED: Site officiel + ParisBouge (2024-2025)
-                    { name: "Menu Déjeuner (E+P ou P+D)", price: "23.00€" },
-                    { name: "Menu Déjeuner Complet (E+P+D)", price: "25.00€" },
-                    { name: "Menu Dégustation (6 temps, dîner)", price: "55.00€", description: "Le voyage complet du chef Liran Tal." },
-                    { name: "Menu Dégustation Étendu (8 temps)", price: "79.00€" }
+                    { name: "Menu Déjeuner (E+P ou P+D)", price_cents: 2300 },
+                    { name: "Menu Déjeuner Complet (E+P+D)", price_cents: 2500 },
+                    { name: "Menu Dégustation (6 temps, dîner)", price_cents: 5500, description: "Le voyage complet du chef Liran Tal." },
+                    { name: "Menu Dégustation Étendu (8 temps)", price_cents: 7900 }
                 ]
             },
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
                     // VERIFIED: Mises à jour récentes menus
-                    { name: "Céleri Cacio e Pepe", price: "14.00€" },
-                    { name: "Courge Butternut au beurre blanc à l'harissa", price: "12.00€" },
-                    { name: "Betteraves Brûlées & Burrata", price: "15.00€" },
-                    { name: "Crudo de Poisson, salade d'agrumes, olives", price: "16.00€" }
+                    { name: "Céleri Cacio e Pepe", price_cents: 1400 },
+                    { name: "Courge Butternut au beurre blanc à l'harissa", price_cents: 1200 },
+                    { name: "Betteraves Brûlées & Burrata", price_cents: 1500 },
+                    { name: "Crudo de Poisson, salade d'agrumes, olives", price_cents: 1600 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Plats 24-32€
-                    { name: "Poisson Grillé, fenouil rôti, miel et za'atar", price: "28.00€" },
-                    { name: "Poulpe au Charbon", price: "32.00€" },
-                    { name: "Magret de Canard", price: "29.00€" },
-                    { name: "Ravioli aux Pommes de Terre", price: "24.00€" },
-                    { name: "Agneau à trois formes", price: "30.00€" }
+                    { name: "Poisson Grillé, fenouil rôti, miel et za'atar", price_cents: 2800 },
+                    { name: "Poulpe au Charbon", price_cents: 3200 },
+                    { name: "Magret de Canard", price_cents: 2900 },
+                    { name: "Ravioli aux Pommes de Terre", price_cents: 2400 },
+                    { name: "Agneau à trois formes", price_cents: 3000 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Namelaka au Chocolat, glace crème de sésame", price: "12.00€" },
-                    { name: "Mascarpone aux Cheveux d'Ange", price: "13.00€" },
-                    { name: "Pavlova aux Agrumes", price: "12.00€" }
+                    { name: "Namelaka au Chocolat, glace crème de sésame", price_cents: 1200 },
+                    { name: "Mascarpone aux Cheveux d'Ange", price_cents: 1300 },
+                    { name: "Pavlova aux Agrumes", price_cents: 1200 }
                 ]
             }
         ]

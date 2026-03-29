@@ -40,42 +40,46 @@ export const le_17_45: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Planche Mixte (Sélection de 6 produits)", price: "24€" },
-          { name: "Grande Planche de la Maison (10 produits)", price: "38€" },
-          { name: "Planche 100% Fromage (Artisanal)", price: "22€" },
-          { name: "Planche 100% Charcuterie (Artisanale)", price: "22€" },
-          { name: "Camembert rôti au miel et romarin", price: "14€" },
-          { name: "Burrata crémeuse et huile de truffe", price: "12€" }
+          { name: "Planche Mixte (Sélection de 6 produits)", price_cents: 2400 },
+          { name: "Grande Planche de la Maison (10 produits)", price_cents: 3800 },
+          { name: "Planche 100% Fromage (Artisanal)", price_cents: 2200 },
+          { name: "Planche 100% Charcuterie (Artisanale)", price_cents: 2200 },
+          { name: "Camembert rôti au miel et romarin", price_cents: 1400 },
+          { name: "Burrata crémeuse et huile de truffe", price_cents: 1200 }
         ]
       },
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Tomme fermière (Portion)", price: "4.5€" },
-          { name: "Camembert au Calvados (Portion)", price: "4.5€" },
-          { name: "Saucisson artisanal (Jésus de Lyon)", price: "5€" },
-          { name: "Coppa de Corse (Portion)", price: "5.5€" },
-          { name: "Jambon Serrano affiné 18 mois", price: "6€" },
-          { name: "Terrine de campagne maison", price: "6.5€" },
-          { name: "Houmous et gressins", price: "6€" }
+          { name: "Tomme fermière (Portion)", price_cents: 450 },
+          { name: "Camembert au Calvados (Portion)", price_cents: 450 },
+          { name: "Saucisson artisanal (Jésus de Lyon)", price_cents: 500 },
+          { name: "Coppa de Corse (Portion)", price_cents: 550 },
+          { name: "Jambon Serrano affiné 18 mois", price_cents: 600 },
+          { name: "Terrine de campagne maison", price_cents: 650 },
+          { name: "Houmous et gressins", price_cents: 600 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Moelleux au chocolat et crème anglaise", price: "8€" },
-          { name: "Cheesecake aux coulis de fruits rouges", price: "8€" }
+          { name: "Moelleux au chocolat et crème anglaise", price_cents: 800 },
+          { name: "Cheesecake aux coulis de fruits rouges", price_cents: 800 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de vin rouge (AOC Morgon)", price: "7€" },
-          { name: "Verre de vin blanc (Chardonnay)", price: "6.5€" },
-          { name: "Pinte de bière artisanale (Lager)", price: "8€" },
-          { name: "Cocktail Spritz", price: "10€" }
+          { name: "Verre de vin rouge (AOC Morgon)", price_cents: 700 },
+          { name: "Verre de vin blanc (Chardonnay)", price_cents: 650 },
+          { name: "Pinte de bière artisanale (Lager)", price_cents: 800 },
+          { name: "Cocktail Spritz", price_cents: 1000 }
         ]
       }
     ]

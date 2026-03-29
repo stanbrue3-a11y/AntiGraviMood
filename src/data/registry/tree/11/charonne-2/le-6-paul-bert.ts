@@ -42,61 +42,66 @@ export const le_6_paul_bert: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formules & Menus (Plats)",
+                category_type: "main",
+                display_label: "Formules & Menus (Plats)",
                 items: [
-                    { name: "Menu Déjeuner (E+P+D)", price: "26.00€", highlight: true },
-                    { name: "Menu-Carte Dîner (4 temps)", price: "44.00€", highlight: true },
-                    { name: "Expérience Dégustation (5 services)", price: "75.00€" },
-                    { name: "Accord Mets & Vins (4 verres)", price: "35.00€" }
+                    { name: "Menu Déjeuner (E+P+D)", price_cents: 2600, is_highlight: true },
+                    { name: "Menu-Carte Dîner (4 temps)", price_cents: 4400, is_highlight: true },
+                    { name: "Expérience Dégustation (5 services)", price_cents: 7500 },
+                    { name: "Accord Mets & Vins (4 verres)", price_cents: 3500 }
                 ]
             },
             {
-                category: "Entrées du Marché (Entrées)",
+                category_type: "starter",
+                display_label: "Entrées du Marché (Entrées)",
                 items: [
-                    { name: "Œuf parfait, chakchouka & herbes", price: "12.00€", highlight: true },
-                    { name: "Maquereau mariné, mandarine Corse", price: "14.00€" },
-                    { name: "Carpaccio de Saint-Jacques au citron", price: "16.00€" },
-                    { name: "Salade de PDT, cœurs de canard grillés", price: "15.00€" },
-                    { name: "Langue de Bœuf, condiment ravigote", price: "13.00€" },
-                    { name: "Cocos de Paimpol, jus de palourdes", price: "12.00€" },
-                    { name: "Gnocchis à l'aneth et hareng fumé", price: "15.00€" },
-                    { name: "Terrine de Campagne artisanale", price: "11.00€" }
+                    { name: "Œuf parfait, chakchouka & herbes", price_cents: 1200, is_highlight: true },
+                    { name: "Maquereau mariné, mandarine Corse", price_cents: 1400 },
+                    { name: "Carpaccio de Saint-Jacques au citron", price_cents: 1600 },
+                    { name: "Salade de PDT, cœurs de canard grillés", price_cents: 1500 },
+                    { name: "Langue de Bœuf, condiment ravigote", price_cents: 1300 },
+                    { name: "Cocos de Paimpol, jus de palourdes", price_cents: 1200 },
+                    { name: "Gnocchis à l'aneth et hareng fumé", price_cents: 1500 },
+                    { name: "Terrine de Campagne artisanale", price_cents: 1100 }
                 ]
             },
             {
-                category: "Plats Bistronomiques (Plats)",
+                category_type: "main",
+                display_label: "Plats Bistronomiques (Plats)",
                 items: [
-                    { name: "Paleron de Bœuf poêlé (servi rouge)", price: "27.00€", highlight: true },
-                    { name: "Lotte rôtie, beurre blanc agrumes", price: "28.00€" },
-                    { name: "Échine de Porc Fermier croustillante", price: "26.00€", highlight: true },
-                    { name: "Pintade de Challans au salsifis", price: "27.00€" },
-                    { name: "Lingot de Volaille, purée panais", price: "26.00€" },
-                    { name: "Poisson de ligne, émulsion iodée", price: "29.00€" },
-                    { name: "Cocotte de Légumes, truffe noire", price: "24.00€" },
-                    { name: "Aile de Raie au beurre noisette", price: "26.00€" }
+                    { name: "Paleron de Bœuf poêlé (servi rouge)", price_cents: 2700, is_highlight: true },
+                    { name: "Lotte rôtie, beurre blanc agrumes", price_cents: 2800 },
+                    { name: "Échine de Porc Fermier croustillante", price_cents: 2600, is_highlight: true },
+                    { name: "Pintade de Challans au salsifis", price_cents: 2700 },
+                    { name: "Lingot de Volaille, purée panais", price_cents: 2600 },
+                    { name: "Poisson de ligne, émulsion iodée", price_cents: 2900 },
+                    { name: "Cocotte de Légumes, truffe noire", price_cents: 2400 },
+                    { name: "Aile de Raie au beurre noisette", price_cents: 2600 }
                 ]
             },
             {
-                category: "Desserts & Gourmandises (Desserts)",
+                category_type: "dessert",
+                display_label: "Desserts & Gourmandises (Desserts)",
                 items: [
-                    { name: "Mousse Chocolat noir 70%, sel fumé", price: "10.00€", highlight: true },
-                    { name: "Parfait Glacé Yaourt & Citron Menton", price: "10.00€" },
-                    { name: "Mille-feuille minute à la Vanille", price: "12.00€" },
-                    { name: "Pavlova aux fruits de saison", price: "11.00€" },
-                    { name: "Pot de Crème au chocolat amer", price: "10.00€" },
-                    { name: "Assiette de Fromages affinés", price: "12.00€" }
+                    { name: "Mousse Chocolat noir 70%, sel fumé", price_cents: 1000, is_highlight: true },
+                    { name: "Parfait Glacé Yaourt & Citron Menton", price_cents: 1000 },
+                    { name: "Mille-feuille minute à la Vanille", price_cents: 1200 },
+                    { name: "Pavlova aux fruits de saison", price_cents: 1100 },
+                    { name: "Pot de Crème au chocolat amer", price_cents: 1000 },
+                    { name: "Assiette de Fromages affinés", price_cents: 1200 }
                 ]
             },
             {
-                category: "Cave de Natures & Esprits (Boissons)",
+                category_type: "drink",
+                display_label: "Cave de Natures & Esprits (Boissons)",
                 items: [
-                    { name: "Verre de Vin Nature Blanc (Sélection)", price: "8.00€", highlight: true },
-                    { name: "Verre de Vin Nature Rouge (Quille)", price: "9.00€" },
-                    { name: "Vouvray 'Pétillant Naturel' (Verre)", price: "10.00€" },
-                    { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
-                    { name: "Café Espresso Terres de Café", price: "3.00€" },
-                    { name: "Thé Vert Bio", price: "5.00€" },
-                    { name: "Digestif Maison (Infusion alcoolisée)", price: "9.00€" }
+                    { name: "Verre de Vin Nature Blanc (Sélection)", price_cents: 800, is_highlight: true },
+                    { name: "Verre de Vin Nature Rouge (Quille)", price_cents: 900 },
+                    { name: "Vouvray 'Pétillant Naturel' (Verre)", price_cents: 1000 },
+                    { name: "Eau micro-filtrée (75cl)", price_cents: 450 },
+                    { name: "Café Espresso Terres de Café", price_cents: 300 },
+                    { name: "Thé Vert Bio", price_cents: 500 },
+                    { name: "Digestif Maison (Infusion alcoolisée)", price_cents: 900 }
                 ]
             }
         ]

@@ -42,34 +42,37 @@ export const l_homme_bleu: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Tajines Maison",
+                category_type: "other",
+                display_label: "Tajines Maison",
                 items: [
                     // VERIFIED: Site officiel (2024-2025)
-                    { name: "Tajine S'Ixudra (Végétarien)", price: "18.00€", description: "Petits légumes de saison avec un œuf poché." },
-                    { name: "Tajine S'Uyazid (Poulet, légumes, citron confit)", price: "21.00€" },
-                    { name: "Tajine Mtewem (Boulettes, poulet, pois chiches)", price: "21.50€" },
-                    { name: "Tajine S'Uxarfi (Agneau, légumes, citron confit)", price: "21.50€" },
-                    { name: "Tajine Lham Lahlou (Agneau, pruneaux, amandes)", price: "22.00€" },
-                    { name: "Tajine S'Ihut (Poissons sauvages du moment)", price: "22.00€" }
+                    { name: "Tajine S'Ixudra (Végétarien)", price_cents: 1800, description: "Petits légumes de saison avec un œuf poché." },
+                    { name: "Tajine S'Uyazid (Poulet, légumes, citron confit)", price_cents: 2100 },
+                    { name: "Tajine Mtewem (Boulettes, poulet, pois chiches)", price_cents: 2150 },
+                    { name: "Tajine S'Uxarfi (Agneau, légumes, citron confit)", price_cents: 2150 },
+                    { name: "Tajine Lham Lahlou (Agneau, pruneaux, amandes)", price_cents: 2200 },
+                    { name: "Tajine S'Ihut (Poissons sauvages du moment)", price_cents: 2200 }
                 ]
             },
             {
-                category: "Couscous Maison (Seksu)",
+                category_type: "other",
+                display_label: "Couscous Maison (Seksu)",
                 items: [
                     // VERIFIED: Mises à jour récentes (2024-2025)
-                    { name: "Seksu S'ixudra (Couscous Végétarien)", price: "17.50€" },
-                    { name: "Seksu Merguez", price: "19.50€" },
-                    { name: "Seksu S'uyazid (Poulet et merguez)", price: "20.00€" },
-                    { name: "Seksu S'iberdien n'izimer (Côtelettes d'agneau)", price: "22.50€" },
-                    { name: "Seksu Homme Bleu (Couscous Royal : brochette, boulette, côtelette, merguez)", price: "23.00€" },
-                    { name: "Seksu Tfaya (Agneau ou Poulet, raisins, miel)", price: "24.00€" }
+                    { name: "Seksu S'ixudra (Couscous Végétarien)", price_cents: 1750 },
+                    { name: "Seksu Merguez", price_cents: 1950 },
+                    { name: "Seksu S'uyazid (Poulet et merguez)", price_cents: 2000 },
+                    { name: "Seksu S'iberdien n'izimer (Côtelettes d'agneau)", price_cents: 2250 },
+                    { name: "Seksu Homme Bleu (Couscous Royal : brochette, boulette, côtelette, merguez)", price_cents: 2300 },
+                    { name: "Seksu Tfaya (Agneau ou Poulet, raisins, miel)", price_cents: 2400 }
                 ]
             },
             {
-                category: "Pâtisseries & Desserts",
+                category_type: "dessert",
+                display_label: "Pâtisseries & Desserts",
                 items: [
-                    { name: "Thé à la menthe", price: "3.50€" },
-                    { name: "Assortiment de pâtisseries marocaines", price: "9.00€" }
+                    { name: "Thé à la menthe", price_cents: 350 },
+                    { name: "Assortiment de pâtisseries marocaines", price_cents: 900 }
                 ]
             }
         ]

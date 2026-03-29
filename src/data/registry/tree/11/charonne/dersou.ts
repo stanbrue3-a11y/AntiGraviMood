@@ -28,63 +28,68 @@ export const dersou: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Menus Dégustation & Lunch",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation & Lunch",
                 items: [
-                    { name: "Menu Dîner 6 étapes", price: "95.00€", description: "L'expérience signature du chef avec pairing cocktail." },
-                    { name: "Menu Dîner 7 étapes", price: "110.00€", description: "L'immersion totale, service prolongé." },
-                    { name: "Lunch Menu (3 étapes)", price: "28.00€", description: "Servi en semaine, retour de marché." },
-                    { name: "Lunch Menu (5 étapes)", price: "45.00€", description: "La version gastronomique du déjeuner." },
-                    { name: "Accord Cocktails (6 verres)", price: "40.00€" }
+                    { name: "Menu Dîner 6 étapes", price_cents: 9500, description: "L'expérience signature du chef avec pairing cocktail." },
+                    { name: "Menu Dîner 7 étapes", price_cents: 11000, description: "L'immersion totale, service prolongé." },
+                    { name: "Lunch Menu (3 étapes)", price_cents: 2800, description: "Servi en semaine, retour de marché." },
+                    { name: "Lunch Menu (5 étapes)", price_cents: 4500, description: "La version gastronomique du déjeuner." },
+                    { name: "Accord Cocktails (6 verres)", price_cents: 4000 }
                 ]
             },
             {
-                category: "Petites Assiettes (Lunch / A la Carte)",
+                category_type: "other",
+                display_label: "Petites Assiettes (Lunch / A la Carte)",
                 items: [
-                    { name: "Huître d'Arcachon N2, crème crue & citron", price: "3.50€" },
-                    { name: "Sardines de Bolinche marinées, brioche", price: "8.50€" },
-                    { name: "Pommes Dauphine au Brillat Savarin", price: "7.50€" },
-                    { name: "Tartelette aux Chanterelles & ail des ours", price: "15.00€" },
-                    { name: "Sashimi de Sériole, sauce ponzu", price: "19.00€" },
-                    { name: "Carpaccio de Bœuf Wagyu, sésame grillé", price: "22.00€" },
-                    { name: "Tataki de Thon Rouge, vinaigrette soja-gingembre", price: "18.00€" },
-                    { name: "Croquette de Porc Noir, moutarde au miel", price: "9.00€" },
-                    { name: "Asperges Vertes Grillées, parmesan & zestes", price: "14.00€" },
-                    { name: "Pickles Maison de Saison", price: "5.00€" },
-                    { name: "Terrine de Campagne au poivre long", price: "11.00€" }
+                    { name: "Huître d'Arcachon N2, crème crue & citron", price_cents: 350 },
+                    { name: "Sardines de Bolinche marinées, brioche", price_cents: 850 },
+                    { name: "Pommes Dauphine au Brillat Savarin", price_cents: 750 },
+                    { name: "Tartelette aux Chanterelles & ail des ours", price_cents: 1500 },
+                    { name: "Sashimi de Sériole, sauce ponzu", price_cents: 1900 },
+                    { name: "Carpaccio de Bœuf Wagyu, sésame grillé", price_cents: 2200 },
+                    { name: "Tataki de Thon Rouge, vinaigrette soja-gingembre", price_cents: 1800 },
+                    { name: "Croquette de Porc Noir, moutarde au miel", price_cents: 900 },
+                    { name: "Asperges Vertes Grillées, parmesan & zestes", price_cents: 1400 },
+                    { name: "Pickles Maison de Saison", price_cents: 500 },
+                    { name: "Terrine de Campagne au poivre long", price_cents: 1100 }
                 ]
             },
             {
-                category: "Les Plats",
+                category_type: "main",
+                display_label: "Les Plats",
                 items: [
-                    { name: "Filet de Lotte à la grenobloise", price: "33.00€", description: "Chanterelles jaunes et beurre noisette." },
-                    { name: "Turbot au BBQ, bok choy, sauce matelote", price: "38.00€" },
-                    { name: "Suprême de Pintade rôtie, jus corsé", price: "37.00€" },
-                    { name: "Flatbread Agneau de lait BBQ", price: "18.00€" },
-                    { name: "Dashi Curry Vegetarien, légumes racines", price: "24.00€" },
-                    { name: "Calamar à la Plancha, encre et chorizo", price: "28.00€" },
-                    { name: "Entrecôte Maturée (300g), sauce béarnaise Dersou", price: "42.00€" },
-                    { name: "Riz sauté au Kimchi & œuf bio", price: "16.00€" }
+                    { name: "Filet de Lotte à la grenobloise", price_cents: 3300, description: "Chanterelles jaunes et beurre noisette." },
+                    { name: "Turbot au BBQ, bok choy, sauce matelote", price_cents: 3800 },
+                    { name: "Suprême de Pintade rôtie, jus corsé", price_cents: 3700 },
+                    { name: "Flatbread Agneau de lait BBQ", price_cents: 1800 },
+                    { name: "Dashi Curry Vegetarien, légumes racines", price_cents: 2400 },
+                    { name: "Calamar à la Plancha, encre et chorizo", price_cents: 2800 },
+                    { name: "Entrecôte Maturée (300g), sauce béarnaise Dersou", price_cents: 4200 },
+                    { name: "Riz sauté au Kimchi & œuf bio", price_cents: 1600 }
                 ]
             },
             {
-                category: "Douceurs & Fromages",
+                category_type: "dessert",
+                display_label: "Douceurs & Fromages",
                 items: [
-                    { name: "Assiette de trois fromages affinés", price: "15.00€" },
-                    { name: "Tarte poire & amande", price: "13.00€" },
-                    { name: "Glace Orange Sanguine, bavaroise fromage blanc", price: "12.00€" },
-                    { name: "Ganache Chocolat Noir & Sel de Mer", price: "11.00€" },
-                    { name: "Sorbet Maison (Parfum du jour)", price: "6.00€" }
+                    { name: "Assiette de trois fromages affinés", price_cents: 1500 },
+                    { name: "Tarte poire & amande", price_cents: 1300 },
+                    { name: "Glace Orange Sanguine, bavaroise fromage blanc", price_cents: 1200 },
+                    { name: "Ganache Chocolat Noir & Sel de Mer", price_cents: 1100 },
+                    { name: "Sorbet Maison (Parfum du jour)", price_cents: 600 }
                 ]
             },
             {
-                category: "Signature Cocktails",
+                category_type: "drink",
+                display_label: "Signature Cocktails",
                 items: [
-                    { name: "Dersou Mule (Vodka, Ginger, Lime)", price: "14.00€" },
-                    { name: "Old Fashioned Japonais (Nikka Whisky)", price: "16.00€" },
-                    { name: "Gin & Shiso Tonic", price: "14.00€" },
-                    { name: "Pisco Sour à la Cardamome", price: "15.00€" },
-                    { name: "Mescal & Chili Smokey Drink", price: "16.00€" },
-                    { name: "Mocktail Virgin Yuzu", price: "9.00€" }
+                    { name: "Dersou Mule (Vodka, Ginger, Lime)", price_cents: 1400 },
+                    { name: "Old Fashioned Japonais (Nikka Whisky)", price_cents: 1600 },
+                    { name: "Gin & Shiso Tonic", price_cents: 1400 },
+                    { name: "Pisco Sour à la Cardamome", price_cents: 1500 },
+                    { name: "Mescal & Chili Smokey Drink", price_cents: 1600 },
+                    { name: "Mocktail Virgin Yuzu", price_cents: 900 }
                 ]
             }
         ]

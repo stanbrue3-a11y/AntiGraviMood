@@ -40,38 +40,41 @@ export const imprevu: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de l'Imprévu",
+                category_type: "main",
+                display_label: "Les Plats de l'Imprévu",
                 items: [
-                    { name: "Asian Flank Steak & Noodles", price: "22.90€" },
-                    { name: "Wok de Crevettes aux Légumes", price: "22.90€" },
-                    { name: "Pavé de Saumon Grillé, Purée Maison", price: "23.00€" },
-                    { name: "Tartare de Saumon-Avocat Frais", price: "20.00€" },
-                    { name: "Croque-Madame Campagnard & Salade", price: "17.00€" },
-                    { name: "Linguine aux Gambas & Tomates", price: "18.90€" },
-                    { name: "Salade Pêcheur (Saumon & Crevettes)", price: "20.00€" },
-                    { name: "Omelette Truffe et Fromage", price: "18.00€" }
+                    { name: "Asian Flank Steak & Noodles", price_cents: 2290 },
+                    { name: "Wok de Crevettes aux Légumes", price_cents: 2290 },
+                    { name: "Pavé de Saumon Grillé, Purée Maison", price_cents: 2300 },
+                    { name: "Tartare de Saumon-Avocat Frais", price_cents: 2000 },
+                    { name: "Croque-Madame Campagnard & Salade", price_cents: 1700 },
+                    { name: "Linguine aux Gambas & Tomates", price_cents: 1890 },
+                    { name: "Salade Pêcheur (Saumon & Crevettes)", price_cents: 2000 },
+                    { name: "Omelette Truffe et Fromage", price_cents: 1800 }
                 ]
             },
             {
-                category: "Starters & Tapas Maison",
+                category_type: "starter",
+                display_label: "Starters & Tapas Maison",
                 items: [
-                    { name: "Tarama Truffé et Pain Toasté", price: "14.00€" },
-                    { name: "Burrata, Tomates et Jambon de Pays", price: "16.00€" },
-                    { name: "Camembert d'Isigny Rôti au Miel", price: "14.00€" },
-                    { name: "6 Escargots de Bourgogne", price: "16.00€" },
-                    { name: "Guacamole Maison & Chips Tortilla", price: "13.00€" },
-                    { name: "Planche Mixte de Charcuterie & Fromage", price: "25.00€" },
-                    { name: "Os à Moelle Grillé", price: "10.00€" }
+                    { name: "Tarama Truffé et Pain Toasté", price_cents: 1400 },
+                    { name: "Burrata, Tomates et Jambon de Pays", price_cents: 1600 },
+                    { name: "Camembert d'Isigny Rôti au Miel", price_cents: 1400 },
+                    { name: "6 Escargots de Bourgogne", price_cents: 1600 },
+                    { name: "Guacamole Maison & Chips Tortilla", price_cents: 1300 },
+                    { name: "Planche Mixte de Charcuterie & Fromage", price_cents: 2500 },
+                    { name: "Os à Moelle Grillé", price_cents: 1000 }
                 ]
             },
             {
-                category: "Brunch & Crêpes",
+                category_type: "other",
+                display_label: "Brunch & Crêpes",
                 items: [
-                    { name: "Avocado Toast & Oeuf Poché", price: "15.00€" },
-                    { name: "Pancakes Egg, Bacon & Sirop d'Erable", price: "15.00€" },
-                    { name: "Pain Perdu Maison de l'Imprévu", price: "12.00€" },
-                    { name: "Crêpe Caramel Beurre Salé Maison", price: "7.50€" },
-                    { name: "Crêpe Nutella-Banane", price: "9.00€" }
+                    { name: "Avocado Toast & Oeuf Poché", price_cents: 1500 },
+                    { name: "Pancakes Egg, Bacon & Sirop d'Erable", price_cents: 1500 },
+                    { name: "Pain Perdu Maison de l'Imprévu", price_cents: 1200 },
+                    { name: "Crêpe Caramel Beurre Salé Maison", price_cents: 750 },
+                    { name: "Crêpe Nutella-Banane", price_cents: 900 }
                 ]
             }
         ]

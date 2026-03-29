@@ -43,68 +43,74 @@ export const braisenville: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes au Feu (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes au Feu (Entrées)",
         items: [
-          { name: "Millefeuille Coing, Patate Douce & Vin Jaune", price: "11.00€", highlight: true },
-          { name: "Émulsion de Ratte du Touquet, Noix & Cresson", price: "12.00€" },
-          { name: "Betterave Fumée, Glace au Chèvre & Shizo", price: "11.00€", highlight: true },
-          { name: "Œuf 63°, Topinambour, Chorizo & Estragon", price: "11.00€" },
-          { name: "Foie Gras Grillé, Kaki & Sauce Porto", price: "18.00€", highlight: true },
-          { name: "Carpaccio de Langoustine & Sauce Hareng", price: "14.00€" },
-          { name: "Burrata Fumée à la Braise & Huile d'Herbes", price: "13.50€", highlight: true },
-          { name: "Quenelles de Turbot & Sauce à l'Oseille", price: "14.00€" }
+          { name: "Millefeuille Coing, Patate Douce & Vin Jaune", price_cents: 1100, is_highlight: true },
+          { name: "Émulsion de Ratte du Touquet, Noix & Cresson", price_cents: 1200 },
+          { name: "Betterave Fumée, Glace au Chèvre & Shizo", price_cents: 1100, is_highlight: true },
+          { name: "Œuf 63°, Topinambour, Chorizo & Estragon", price_cents: 1100 },
+          { name: "Foie Gras Grillé, Kaki & Sauce Porto", price_cents: 1800, is_highlight: true },
+          { name: "Carpaccio de Langoustine & Sauce Hareng", price_cents: 1400 },
+          { name: "Burrata Fumée à la Braise & Huile d'Herbes", price_cents: 1350, is_highlight: true },
+          { name: "Quenelles de Turbot & Sauce à l'Oseille", price_cents: 1400 }
         ]
       },
       {
-        category: "La Braise Marine (Plats)",
+        category_type: "main",
+        display_label: "La Braise Marine (Plats)",
         items: [
-          { name: "Chipiron, Sabayon Yuzu & Fenouil", price: "13.00€", highlight: true },
-          { name: "Poulpe Grillé, Houmous Chaud & Jus de Veau", price: "15.00€", highlight: true },
-          { name: "Saint-Jacques, Poireaux Confits & Sarrasin", price: "15.00€", highlight: true },
-          { name: "Bar de Ligne Grillé & Beurre d'Ail des Ours", price: "16.00€" },
-          { name: "Tataki de Thon Rouge à la Flamme", price: "14.50€" },
-          { name: "Gambas Sauvages à la Braise & Citron Brûlé", price: "15.50€" }
+          { name: "Chipiron, Sabayon Yuzu & Fenouil", price_cents: 1300, is_highlight: true },
+          { name: "Poulpe Grillé, Houmous Chaud & Jus de Veau", price_cents: 1500, is_highlight: true },
+          { name: "Saint-Jacques, Poireaux Confits & Sarrasin", price_cents: 1500, is_highlight: true },
+          { name: "Bar de Ligne Grillé & Beurre d'Ail des Ours", price_cents: 1600 },
+          { name: "Tataki de Thon Rouge à la Flamme", price_cents: 1450 },
+          { name: "Gambas Sauvages à la Braise & Citron Brûlé", price_cents: 1550 }
         ]
       },
       {
-        category: "La Braise Terrestre (Plats)",
+        category_type: "main",
+        display_label: "La Braise Terrestre (Plats)",
         items: [
-          { name: "Filet Mignon de Cochon & Chocolat Blanc/Panais", price: "14.00€", highlight: true },
-          { name: "Onglet d'Angus (UK) & Sauce Chimichurri", price: "13.00€", highlight: true },
-          { name: "Côte de Bœuf Angus (1kg) à partager", price: "76.00€", highlight: true },
-          { name: "Picanha de Bœuf Grillée au Charbon de Bois", price: "15.50€" },
-          { name: "Épaule d'Agneau Confite 12h puis Grillée", price: "16.50€", highlight: true },
-          { name: "Canette des Dombes, Navets & Fruits Rouges", price: "15.00€" },
-          { name: "Ris de Veau Croustillant à la Braise", price: "19.00€", highlight: true }
+          { name: "Filet Mignon de Cochon & Chocolat Blanc/Panais", price_cents: 1400, is_highlight: true },
+          { name: "Onglet d'Angus (UK) & Sauce Chimichurri", price_cents: 1300, is_highlight: true },
+          { name: "Côte de Bœuf Angus (1kg) à partager", price_cents: 7600, is_highlight: true },
+          { name: "Picanha de Bœuf Grillée au Charbon de Bois", price_cents: 1550 },
+          { name: "Épaule d'Agneau Confite 12h puis Grillée", price_cents: 1650, is_highlight: true },
+          { name: "Canette des Dombes, Navets & Fruits Rouges", price_cents: 1500 },
+          { name: "Ris de Veau Croustillant à la Braise", price_cents: 1900, is_highlight: true }
         ]
       },
       {
-        category: "Accompagnements Braisés",
+        category_type: "other",
+        display_label: "Accompagnements Braisés",
         items: [
-          { name: "Patates Braves & Sauce Fumée Maison", price: "7.00€", highlight: true },
-          { name: "Légumes de Saison Grillés à la Minute", price: "11.00€" },
-          { name: "Purée de Pois Chiches Onctueuse au Tahini", price: "8.50€" },
-          { name: "Mousseline de Panais au Beurre Noisette", price: "7.50€" }
+          { name: "Patates Braves & Sauce Fumée Maison", price_cents: 700, is_highlight: true },
+          { name: "Légumes de Saison Grillés à la Minute", price_cents: 1100 },
+          { name: "Purée de Pois Chiches Onctueuse au Tahini", price_cents: 850 },
+          { name: "Mousseline de Panais au Beurre Noisette", price_cents: 750 }
         ]
       },
       {
-        category: "Finals en Douceur (Desserts)",
+        category_type: "dessert",
+        display_label: "Finals en Douceur (Desserts)",
         items: [
-          { name: "Ganache Chocolat & Émulsion Fève Tonka", price: "11.00€", highlight: true },
-          { name: "Émulsion Mangue, Passion & Glace Coco", price: "12.00€", highlight: true },
-          { name: "Poires Pochées, Lavande & Mousse Chocolat", price: "12.00€" },
-          { name: "Sorbet Citron Vert & Menthe Fraîche", price: "8.50€" },
-          { name: "Sablé aux Noix Caramélisées & Fleur de Sel", price: "9.50€" },
-          { name: "Comté 30 mois d'Affinage & Coniture", price: "9.00€" }
+          { name: "Ganache Chocolat & Émulsion Fève Tonka", price_cents: 1100, is_highlight: true },
+          { name: "Émulsion Mangue, Passion & Glace Coco", price_cents: 1200, is_highlight: true },
+          { name: "Poires Pochées, Lavande & Mousse Chocolat", price_cents: 1200 },
+          { name: "Sorbet Citron Vert & Menthe Fraîche", price_cents: 850 },
+          { name: "Sablé aux Noix Caramélisées & Fleur de Sel", price_cents: 950 },
+          { name: "Comté 30 mois d'Affinage & Coniture", price_cents: 900 }
         ]
       },
       {
-        category: "Nectars & Cuvées (Boissons)",
+        category_type: "drink",
+        display_label: "Nectars & Cuvées (Boissons)",
         items: [
-          { name: "Verre de Vin Rouge (Sélection Braise)", price: "9.50€", highlight: true },
-          { name: "Cocktail Signature 'Braisenvillois'", price: "12.50€", highlight: true },
-          { name: "Verre de Vin Blanc Minéral", price: "8.50€" },
-          { name: "Thé Glacé Maison à la Pêche Rôtie", price: "6.00€" }
+          { name: "Verre de Vin Rouge (Sélection Braise)", price_cents: 950, is_highlight: true },
+          { name: "Cocktail Signature 'Braisenvillois'", price_cents: 1250, is_highlight: true },
+          { name: "Verre de Vin Blanc Minéral", price_cents: 850 },
+          { name: "Thé Glacé Maison à la Pêche Rôtie", price_cents: 600 }
         ]
       }
     ]

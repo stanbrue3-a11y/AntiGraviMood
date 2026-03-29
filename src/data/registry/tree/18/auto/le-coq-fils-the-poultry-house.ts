@@ -41,63 +41,68 @@ export const le_coq_fils_the_poultry_house: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes du Poulailler (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes du Poulailler (Entrées)",
         items: [
-          { name: "Gésiers confits, Roquette & Pesto d'Amandes", price: "10.00€", highlight: true },
-          { name: "Terrine de Volaille & Foies Blonds", price: "12.00€", highlight: true },
-          { name: "Empanadas d'abattis aux Herbes & Citron confit", price: "11.00€" },
-          { name: "Œufs Mayonnaise Westermann (Bio) & Jus Chic'up", price: "10.00€", highlight: true },
-          { name: "Œufs Diaboliques & Betteraves marinées", price: "12.00€" },
-          { name: "Crème de Volaille & Champignons Portobello", price: "12.00€" },
-          { name: "Légumes de Saison mi-cuits & Chèvre frais", price: "11.00€" },
-          { name: "Houmous d'Artichauts & Crumble de Parmesan", price: "10.00€" }
+          { name: "Gésiers confits, Roquette & Pesto d'Amandes", price_cents: 1000, is_highlight: true },
+          { name: "Terrine de Volaille & Foies Blonds", price_cents: 1200, is_highlight: true },
+          { name: "Empanadas d'abattis aux Herbes & Citron confit", price_cents: 1100 },
+          { name: "Œufs Mayonnaise Westermann (Bio) & Jus Chic'up", price_cents: 1000, is_highlight: true },
+          { name: "Œufs Diaboliques & Betteraves marinées", price_cents: 1200 },
+          { name: "Crème de Volaille & Champignons Portobello", price_cents: 1200 },
+          { name: "Légumes de Saison mi-cuits & Chèvre frais", price_cents: 1100 },
+          { name: "Houmous d'Artichauts & Crumble de Parmesan", price_cents: 1000 }
         ]
       },
       {
-        category: "Belles Volailles de Race (Plats)",
+        category_type: "main",
+        display_label: "Belles Volailles de Race (Plats)",
         items: [
-          { name: "Quart Rôti (Race Cou Nu des Blaches)", price: "28.00€", highlight: true },
-          { name: "Quart de Coq au Vin (Race Gauloise Blanche)", price: "45.00€", highlight: true },
-          { name: "Pintade de la Drôme rôtie (Demi-Pintade Nubienne)", price: "50.00€" },
-          { name: "Poulet de Bresse AOC rôti au Jus de rôti", price: "48.00€", highlight: true },
-          { name: "Coucou de Rennes en Fricassée aux Morilles", price: "52.00€", highlight: true },
-          { name: "Pigeon du Gers rôti sur le coffre", price: "46.00€" },
-          { name: "Saucisse de Volaille rôtie & Jus de viande", price: "19.00€" },
-          { name: "Bouchée à la Reine Traditionnelle Westermann", price: "19.00€", highlight: true }
+          { name: "Quart Rôti (Race Cou Nu des Blaches)", price_cents: 2800, is_highlight: true },
+          { name: "Quart de Coq au Vin (Race Gauloise Blanche)", price_cents: 4500, is_highlight: true },
+          { name: "Pintade de la Drôme rôtie (Demi-Pintade Nubienne)", price_cents: 5000 },
+          { name: "Poulet de Bresse AOC rôti au Jus de rôti", price_cents: 4800, is_highlight: true },
+          { name: "Coucou de Rennes en Fricassée aux Morilles", price_cents: 5200, is_highlight: true },
+          { name: "Pigeon du Gers rôti sur le coffre", price_cents: 4600 },
+          { name: "Saucisse de Volaille rôtie & Jus de viande", price_cents: 1900 },
+          { name: "Bouchée à la Reine Traditionnelle Westermann", price_cents: 1900, is_highlight: true }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre au Beurre demi-sel", price: "7.00€", highlight: true },
-          { name: "Mac & Cheese artisanal à la française", price: "8.50€", highlight: true },
-          { name: "Frites fraîches Maison double cuisson", price: "6.50€" },
-          { name: "Fricassée de Légumes de Saison sautés", price: "7.50€" },
-          { name: "Salade Verte de Saison & Vinaigrette Maison", price: "6.00€" }
+          { name: "Purée de Pommes de Terre au Beurre demi-sel", price_cents: 700, is_highlight: true },
+          { name: "Mac & Cheese artisanal à la française", price_cents: 850, is_highlight: true },
+          { name: "Frites fraîches Maison double cuisson", price_cents: 650 },
+          { name: "Fricassée de Légumes de Saison sautés", price_cents: 750 },
+          { name: "Salade Verte de Saison & Vinaigrette Maison", price_cents: 600 }
         ]
       },
       {
-        category: "Douceurs du Coq (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs du Coq (Desserts)",
         items: [
-          { name: "Île Flottante du Coq & Amandes caramélisées", price: "14.00€", highlight: true },
-          { name: "Riz au Lait vanillé, Marmelade d'Orange & Gingembre", price: "12.00€", highlight: true },
-          { name: "Compote de Pommes Bio au Beurre Salé", price: "13.00€" },
-          { name: "Brownie au Chocolat Noir (60% Pérou) & Sorbet", price: "14.00€", highlight: true },
-          { name: "Mousse au Chocolat Noir & Orange de Sicile", price: "8.00€" },
-          { name: "Fromage AOP Brocciu, Huile d'Olive & Sel de Ré", price: "14.00€" },
-          { name: "Sorbet au Chocolat Noir intense Maison", price: "7.00€" }
+          { name: "Île Flottante du Coq & Amandes caramélisées", price_cents: 1400, is_highlight: true },
+          { name: "Riz au Lait vanillé, Marmelade d'Orange & Gingembre", price_cents: 1200, is_highlight: true },
+          { name: "Compote de Pommes Bio au Beurre Salé", price_cents: 1300 },
+          { name: "Brownie au Chocolat Noir (60% Pérou) & Sorbet", price_cents: 1400, is_highlight: true },
+          { name: "Mousse au Chocolat Noir & Orange de Sicile", price_cents: 800 },
+          { name: "Fromage AOP Brocciu, Huile d'Olive & Sel de Ré", price_cents: 1400 },
+          { name: "Sorbet au Chocolat Noir intense Maison", price_cents: 700 }
         ]
       },
       {
-        category: "La Cave de la Basse-Cour (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de la Basse-Cour (Boissons)",
         items: [
-          { name: "Verre de Chinon Vieille Vigne (Rouge)", price: "11.00€", highlight: true },
-          { name: "Verre de Gamay Sans Tralala (Bio)", price: "12.00€" },
-          { name: "Verre de Bourgogne Blanc 'Accord Majeur'", price: "9.00€" },
-          { name: "Jus de Fruits Sélection du Coq", price: "7.50€" },
-          { name: "Eau micro-filtrée Le Coq (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso & Mousse au Chocolat (Duo)", price: "12.00€" },
-          { name: "Café Viennois & Chantilly Maison", price: "9.00€" }
+          { name: "Verre de Chinon Vieille Vigne (Rouge)", price_cents: 1100, is_highlight: true },
+          { name: "Verre de Gamay Sans Tralala (Bio)", price_cents: 1200 },
+          { name: "Verre de Bourgogne Blanc 'Accord Majeur'", price_cents: 900 },
+          { name: "Jus de Fruits Sélection du Coq", price_cents: 750 },
+          { name: "Eau micro-filtrée Le Coq (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso & Mousse au Chocolat (Duo)", price_cents: 1200 },
+          { name: "Café Viennois & Chantilly Maison", price_cents: 900 }
         ]
       }
     ]

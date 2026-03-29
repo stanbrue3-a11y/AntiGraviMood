@@ -41,33 +41,36 @@ export const la_traversee: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "À Partager (Soir)",
+        category_type: "sharing",
+        display_label: "À Partager (Soir)",
         items: [
-          { name: "Haricots verts frits, sauce tartare", price: "7€" },
-          { name: "Scotch egg maison", price: "9€" },
-          { name: "Croquettes de haddock", price: "8€" },
-          { name: "Tacos d'épaule d'agneau", price: "12€" },
-          { name: "Arancini au céleri et n'duja", price: "10€" },
-          { name: "Keftas de bœuf Aubrac", price: "11€" },
-          { name: "Poulpe grillé, houmous & paprika", price: "14€" },
-          { name: "Burrata crémeuse, pestou & noisettes", price: "10€" },
-          { name: "Planche de charcuterie artisanale", price: "16€" }
+          { name: "Haricots verts frits, sauce tartare", price_cents: 700 },
+          { name: "Scotch egg maison", price_cents: 900 },
+          { name: "Croquettes de haddock", price_cents: 800 },
+          { name: "Tacos d'épaule d'agneau", price_cents: 1200 },
+          { name: "Arancini au céleri et n'duja", price_cents: 1000 },
+          { name: "Keftas de bœuf Aubrac", price_cents: 1100 },
+          { name: "Poulpe grillé, houmous & paprika", price_cents: 1400 },
+          { name: "Burrata crémeuse, pestou & noisettes", price_cents: 1000 },
+          { name: "Planche de charcuterie artisanale", price_cents: 1600 }
         ]
       },
       {
-        category: "Plats (Midi)",
+        category_type: "main",
+        display_label: "Plats (Midi)",
         items: [
-          { name: "Maigre mariné au citron confit et figues", price: "17€" },
-          { name: "Velouté de topinambour, lard grillé", price: "15€" },
-          { name: "Plat du jour Bistronomique", price: "12€" },
-          { name: "Formule Entrée + Plat + Dessert", price: "20€" }
+          { name: "Maigre mariné au citron confit et figues", price_cents: 1700 },
+          { name: "Velouté de topinambour, lard grillé", price_cents: 1500 },
+          { name: "Plat du jour Bistronomique", price_cents: 1200 },
+          { name: "Formule Entrée + Plat + Dessert", price_cents: 2000 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Mousse au chocolat Caramelia & Combava", price: "9€" },
-          { name: "Dessert du moment", price: "8€" }
+          { name: "Mousse au chocolat Caramelia & Combava", price_cents: 900 },
+          { name: "Dessert du moment", price_cents: 800 }
         ]
       }
     ]

@@ -43,70 +43,75 @@ export const guillaume_grasso: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Antipasti & Fritti (Entrées)",
+        category_type: "starter",
+        display_label: "Antipasti & Fritti (Entrées)",
         items: [
-          { name: "Montanara (Pizza frite, tomate, parmesan)", price: "9.00€", highlight: true },
-          { name: "Frittatina di Pasta (Béchamel, jambon, petits pois)", price: "7.50€", highlight: true },
-          { name: "Arancino Rosso (Riz, tomates, mozzarella)", price: "7.00€" },
-          { name: "Crocché di Patate (Pomme de terre, provola)", price: "6.50€" },
-          { name: "Tagliere di Salumi Napoletani", price: "16.00€" },
-          { name: "Burrata Pugliese (125g) & Roquette", price: "12.00€" },
-          { name: "Bruschetta Classica al Pomodoro", price: "8.50€" },
-          { name: "Insalata Caprese (Mozzarella di Bufala)", price: "14.50€" }
+          { name: "Montanara (Pizza frite, tomate, parmesan)", price_cents: 900, is_highlight: true },
+          { name: "Frittatina di Pasta (Béchamel, jambon, petits pois)", price_cents: 750, is_highlight: true },
+          { name: "Arancino Rosso (Riz, tomates, mozzarella)", price_cents: 700 },
+          { name: "Crocché di Patate (Pomme de terre, provola)", price_cents: 650 },
+          { name: "Tagliere di Salumi Napoletani", price_cents: 1600 },
+          { name: "Burrata Pugliese (125g) & Roquette", price_cents: 1200 },
+          { name: "Bruschetta Classica al Pomodoro", price_cents: 850 },
+          { name: "Insalata Caprese (Mozzarella di Bufala)", price_cents: 1450 }
         ]
       },
       {
-        category: "Pizze Classiche (Plats)",
+        category_type: "main",
+        display_label: "Pizze Classiche (Plats)",
         items: [
-          { name: "Margherita (Tomate, Mozzarella, Basilic)", price: "11.00€", highlight: true },
-          { name: "Marinara (Tomate, Ail, Origan)", price: "8.50€", highlight: true },
-          { name: "Cosacca (Tomate, Pecorino Romano)", price: "9.50€" },
-          { name: "Napoletana (Tomate, Anchois, Câpres, Olives)", price: "13.50€" },
-          { name: "Provola e Pepe (Tomate, Provola fumée, Poivre)", price: "13.00€", highlight: true },
-          { name: "Diavola (Tomate, Salami piquant, Mozzarella)", price: "14.00€" },
-          { name: "Capricciosa (Artichauts, Champignons, Jambon)", price: "15.50€" },
-          { name: "Quattro Formaggi (Sélection de fromages italiens)", price: "15.00€" },
-          { name: "Prosciutto e Funghi (Jambon Blanc, Champignons)", price: "14.50€" },
-          { name: "Siciliana (Aubergines frites, Tomate, Provola)", price: "15.00€" }
+          { name: "Margherita (Tomate, Mozzarella, Basilic)", price_cents: 1100, is_highlight: true },
+          { name: "Marinara (Tomate, Ail, Origan)", price_cents: 850, is_highlight: true },
+          { name: "Cosacca (Tomate, Pecorino Romano)", price_cents: 950 },
+          { name: "Napoletana (Tomate, Anchois, Câpres, Olives)", price_cents: 1350 },
+          { name: "Provola e Pepe (Tomate, Provola fumée, Poivre)", price_cents: 1300, is_highlight: true },
+          { name: "Diavola (Tomate, Salami piquant, Mozzarella)", price_cents: 1400 },
+          { name: "Capricciosa (Artichauts, Champignons, Jambon)", price_cents: 1550 },
+          { name: "Quattro Formaggi (Sélection de fromages italiens)", price_cents: 1500 },
+          { name: "Prosciutto e Funghi (Jambon Blanc, Champignons)", price_cents: 1450 },
+          { name: "Siciliana (Aubergines frites, Tomate, Provola)", price_cents: 1500 }
         ]
       },
       {
-        category: "Pizze Speciali & Stagione (Plats)",
+        category_type: "main",
+        display_label: "Pizze Speciali & Stagione (Plats)",
         items: [
-          { name: "Vesuvio (Tomates cerises, Bufala, Nduja)", price: "17.00€", highlight: true },
-          { name: "Parma (Mozzarella, Jambon de Parme 24 mois)", price: "18.50€", highlight: true },
-          { name: "Bresaola (Mozzarella, Bresaola punta d'anca, Roquette)", price: "19.00€" },
-          { name: "Végétarienne (Légumes grillés de saison)", price: "15.50€" },
-          { name: "Ripieno / Calzone (Ricotta, Salami, Mozzarella)", price: "14.00€" },
-          { name: "Emilia Romagna (Mortadelle, Pistache, Stracciatella)", price: "19.50€", highlight: true },
-          { name: "Provola e Bresaola (Base blanche, Provola, Citron)", price: "18.00€" },
-          { name: "Bianca al Tartufo (Crème de truffe, Champignons)", price: "21.00€" },
-          { name: "Pistacchiosa (Crème de pistache, Speck, Mozzarella)", price: "20.00€" },
-          { name: "Pesto di Basilico (Pesto maison, Pignons, Roquette)", price: "17.50€" }
+          { name: "Vesuvio (Tomates cerises, Bufala, Nduja)", price_cents: 1700, is_highlight: true },
+          { name: "Parma (Mozzarella, Jambon de Parme 24 mois)", price_cents: 1850, is_highlight: true },
+          { name: "Bresaola (Mozzarella, Bresaola punta d'anca, Roquette)", price_cents: 1900 },
+          { name: "Végétarienne (Légumes grillés de saison)", price_cents: 1550 },
+          { name: "Ripieno / Calzone (Ricotta, Salami, Mozzarella)", price_cents: 1400 },
+          { name: "Emilia Romagna (Mortadelle, Pistache, Stracciatella)", price_cents: 1950, is_highlight: true },
+          { name: "Provola e Bresaola (Base blanche, Provola, Citron)", price_cents: 1800 },
+          { name: "Bianca al Tartufo (Crème de truffe, Champignons)", price_cents: 2100 },
+          { name: "Pistacchiosa (Crème de pistache, Speck, Mozzarella)", price_cents: 2000 },
+          { name: "Pesto di Basilico (Pesto maison, Pignons, Roquette)", price_cents: 1750 }
         ]
       },
       {
-        category: "Dolci Artigianali (Desserts)",
+        category_type: "dessert",
+        display_label: "Dolci Artigianali (Desserts)",
         items: [
-          { name: "Tiramisù Classico (Recette secrète)", price: "7.50€", highlight: true },
-          { name: "Panna Cotta à la Vanille de Madagascar", price: "6.50€" },
-          { name: "Babà al Rum (Tradition napolitaine)", price: "8.00€", highlight: true },
-          { name: "Cannolo Siciliano alla Ricotta", price: "7.00€" },
-          { name: "Affogato al Caffè (Vanille & Espresso)", price: "7.50€" },
-          { name: "Coppe di Gelato (3 boules artisanales)", price: "8.50€" },
-          { name: "Cheesecake au Limoncello de Sorrente", price: "9.00€" }
+          { name: "Tiramisù Classico (Recette secrète)", price_cents: 750, is_highlight: true },
+          { name: "Panna Cotta à la Vanille de Madagascar", price_cents: 650 },
+          { name: "Babà al Rum (Tradition napolitaine)", price_cents: 800, is_highlight: true },
+          { name: "Cannolo Siciliano alla Ricotta", price_cents: 700 },
+          { name: "Affogato al Caffè (Vanille & Espresso)", price_cents: 750 },
+          { name: "Coppe di Gelato (3 boules artisanales)", price_cents: 850 },
+          { name: "Cheesecake au Limoncello de Sorrente", price_cents: 900 }
         ]
       },
       {
-        category: "La Cave Italienne (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Italienne (Boissons)",
         items: [
-          { name: "Verre de Gragnano 'Ottouve' (Rouge pétillant)", price: "8.00€", highlight: true },
-          { name: "Verre de Falanghina (Blanc de Campanie)", price: "7.50€" },
-          { name: "Bouteille Lacryma Christi del Vesuvio", price: "38.00€" },
-          { name: "Bière Moretti alla Spina (50cl)", price: "9.50€" },
-          { name: "Chinotto Lurisia (33cl)", price: "6.00€" },
-          { name: "Spritz Veneziano (Aperol/Prosecco)", price: "9.00€", highlight: true },
-          { name: "Negroni Gin del Professore", price: "11.00€" }
+          { name: "Verre de Gragnano 'Ottouve' (Rouge pétillant)", price_cents: 800, is_highlight: true },
+          { name: "Verre de Falanghina (Blanc de Campanie)", price_cents: 750 },
+          { name: "Bouteille Lacryma Christi del Vesuvio", price_cents: 3800 },
+          { name: "Bière Moretti alla Spina (50cl)", price_cents: 950 },
+          { name: "Chinotto Lurisia (33cl)", price_cents: 600 },
+          { name: "Spritz Veneziano (Aperol/Prosecco)", price_cents: 900, is_highlight: true },
+          { name: "Negroni Gin del Professore", price_cents: 1100 }
         ]
       }
     ]

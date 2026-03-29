@@ -45,48 +45,53 @@ export const deux: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Formules Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Semaine)",
                 items: [
-                    { name: "Plat du jour seul", price: "18.00€" },
-                    { name: "Entrée + Plat (ou P+D)", price: "21.00€" },
-                    { name: "Entrée + Plat + Dessert", price: "25.00€" }
+                    { name: "Plat du jour seul", price_cents: 1800 },
+                    { name: "Entrée + Plat (ou P+D)", price_cents: 2100 },
+                    { name: "Entrée + Plat + Dessert", price_cents: 2500 }
                 ]
             },
             {
-                category: "Formules Déjeuner (Samedi)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Samedi)",
                 items: [
-                    { name: "Plat du jour seul", price: "20.00€" },
-                    { name: "Entrée + Plat (ou P+D)", price: "26.00€" },
-                    { name: "Entrée + Plat + Dessert", price: "30.00€" }
+                    { name: "Plat du jour seul", price_cents: 2000 },
+                    { name: "Entrée + Plat (ou P+D)", price_cents: 2600 },
+                    { name: "Entrée + Plat + Dessert", price_cents: 3000 }
                 ]
             },
             {
-                category: "Apéritifs & Entrées",
+                category_type: "starter",
+                display_label: "Apéritifs & Entrées",
                 items: [
-                    { name: "Jambon Porc Ibaiama (60g)", price: "18.00€", description: "Louis Ospital, Sud-Ouest." },
-                    { name: "Panisses & sauce yaourt au zaatar", price: "12.00€" },
-                    { name: "Velouté de lentilles corail & courge", price: "13.00€" },
-                    { name: "Tatin d'oignons confits au miso", price: "14.00€" },
-                    { name: "Œuf poché & crémeux céleri-pomme de terre", price: "15.00€", description: "Servi avec des diots fumés de Savoie." }
+                    { name: "Jambon Porc Ibaiama (60g)", price_cents: 1800, description: "Louis Ospital, Sud-Ouest." },
+                    { name: "Panisses & sauce yaourt au zaatar", price_cents: 1200 },
+                    { name: "Velouté de lentilles corail & courge", price_cents: 1300 },
+                    { name: "Tatin d'oignons confits au miso", price_cents: 1400 },
+                    { name: "Œuf poché & crémeux céleri-pomme de terre", price_cents: 1500, description: "Servi avec des diots fumés de Savoie." }
                 ]
             },
             {
-                category: "Les Plats",
+                category_type: "main",
+                display_label: "Les Plats",
                 items: [
-                    { name: "Gnocchis poêlés & crème de Vacherin", price: "24.00€" },
-                    { name: "Poisson du moment (arrivage)", price: "27.00€" },
-                    { name: "Ribs de porc braisés au miel de Savoie", price: "28.00€" },
-                    { name: "Blanquette de veau à l'ancienne", price: "29.00€" },
-                    { name: "Cocotte de joue & queue de bœuf (pour 2)", price: "68.00€", description: "Façon Bourguignon, 34€ par personne." }
+                    { name: "Gnocchis poêlés & crème de Vacherin", price_cents: 2400 },
+                    { name: "Poisson du moment (arrivage)", price_cents: 2700 },
+                    { name: "Ribs de porc braisés au miel de Savoie", price_cents: 2800 },
+                    { name: "Blanquette de veau à l'ancienne", price_cents: 2900 },
+                    { name: "Cocotte de joue & queue de bœuf (pour 2)", price_cents: 6800, description: "Façon Bourguignon, 34€ par personne." }
                 ]
             },
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
-                    { name: "Fromages du moment (Savoie x Sud-Ouest)", price: "12.00€" },
-                    { name: "Cheesecake basque à la vanille", price: "11.00€" },
-                    { name: "Mousse au chocolat fleur de sel", price: "11.00€" },
-                    { name: "Baba à la Chartreuse", price: "12.00€" }
+                    { name: "Fromages du moment (Savoie x Sud-Ouest)", price_cents: 1200 },
+                    { name: "Cheesecake basque à la vanille", price_cents: 1100 },
+                    { name: "Mousse au chocolat fleur de sel", price_cents: 1100 },
+                    { name: "Baba à la Chartreuse", price_cents: 1200 }
                 ]
             }
         ]

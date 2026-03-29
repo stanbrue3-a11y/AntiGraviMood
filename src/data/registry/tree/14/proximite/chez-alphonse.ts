@@ -38,31 +38,34 @@ export const chez_alphonse: SurgicalPlace = {
         "smart_tip": "Menu Ardoise imbattable (31€). Les portions sont généreuses, idéal pour un gros appétit de quartier.",
         "menu_items": [
             {
-                "category": "Entrées (Saison)",
+                "category_type": "starter",
+                "display_label": "Entrées (Saison)",
                 "items": [
-                    { "name": "Oeuf poché bio aux poireaux vinaigrette", "price": "9€" },
-                    { "name": "Ravioles deux fromages, crème truffée", "price": "9€" },
-                    { "name": "Beignets de crevettes maison", "price": "14€" },
-                    { "name": "Velouté de potimarron & châtaignes", "price": "9€" }
+                    { "name": "Oeuf poché bio aux poireaux vinaigrette", "price_cents": 900 },
+                    { "name": "Ravioles deux fromages, crème truffée", "price_cents": 900 },
+                    { "name": "Beignets de crevettes maison", "price_cents": 1400 },
+                    { "name": "Velouté de potimarron & châtaignes", "price_cents": 900 }
                 ]
             },
             {
-                "category": "Les Plats",
+                "category_type": "main",
+                "display_label": "Les Plats",
                 "items": [
-                    { "name": "Cuisse de canard confite, écrasé de PDT", "price": "19€", "description": "La spécialité maison, fondante à souhait." },
-                    { "name": "Araignée de boeuf, sauce poivre vert", "price": "26€" },
-                    { "name": "Lieu jaune poêlé, jus Arqua Pazza", "price": "18€" },
-                    { "name": "Noix de quasi de veau, jus corsé", "price": "23€" },
-                    { "name": "Cabillaud rôti, petits légumes du moment", "price": "23€" }
+                    { "name": "Cuisse de canard confite, écrasé de PDT", "price_cents": 1900, "description": "La spécialité maison, fondante à souhait." },
+                    { "name": "Araignée de boeuf, sauce poivre vert", "price_cents": 2600 },
+                    { "name": "Lieu jaune poêlé, jus Arqua Pazza", "price_cents": 1800 },
+                    { "name": "Noix de quasi de veau, jus corsé", "price_cents": 2300 },
+                    { "name": "Cabillaud rôti, petits légumes du moment", "price_cents": 2300 }
                 ]
             },
             {
-                "category": "Desserts & Fromages",
+                "category_type": "dessert",
+                "display_label": "Desserts & Fromages",
                 "items": [
-                    { "name": "Cheesecake léger, glace yaourt", "price": "9€" },
-                    { "name": "Tiramisu traditionnel au café", "price": "9€" },
-                    { "name": "Mi-cuit chocolat noir pur origine", "price": "9€" },
-                    { "name": "Assiette de fromages affinés du 14e", "price": "9€" }
+                    { "name": "Cheesecake léger, glace yaourt", "price_cents": 900 },
+                    { "name": "Tiramisu traditionnel au café", "price_cents": 900 },
+                    { "name": "Mi-cuit chocolat noir pur origine", "price_cents": 900 },
+                    { "name": "Assiette de fromages affinés du 14e", "price_cents": 900 }
                 ]
             }
         ],

@@ -47,65 +47,70 @@ export const vantre: SurgicalPlace = {
             // FORMULE DÉJEUNER (Source: NovaCircle + LeFooding + GaultMillau + Postcard)
             // ═══════════════════════════════════════════
             {
-                category: "Formule Déjeuner (Lundi-Vendredi)",
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner (Lundi-Vendredi)",
                 items: [
                     // VERIFIED: NovaCircle + Postcard (2024) — 28-29.50€
-                    { name: "Entrée + Plat ou Plat + Dessert", price: "28.00€" },
-                    { name: "Entrée + Plat + Dessert", price: "29.50€" }
+                    { name: "Entrée + Plat ou Plat + Dessert", price_cents: 2800 },
+                    { name: "Entrée + Plat + Dessert", price_cents: 2950 }
                 ]
             },
             // ═══════════════════════════════════════════
             // ENTRÉES (Source: NovaCircle + Yonder + LeFooding)
             // ═══════════════════════════════════════════
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
                     // VERIFIED: NovaCircle (2024) — entrées 8-12€
-                    { name: "Terrine de campagne maison", price: "10.00€" },
-                    { name: "Huîtres de saison", price: "12.00€" },
-                    { name: "Carpaccio de poisson, agrumes", price: "12.00€" },
-                    { name: "Gnocchi aux artichauts et ricotta fumée", price: "11.00€" },
-                    { name: "Moules au gingembre et coriandre", price: "10.00€" },
-                    { name: "Salade de tomates, basilic, ricotta", price: "8.00€" }
+                    { name: "Terrine de campagne maison", price_cents: 1000 },
+                    { name: "Huîtres de saison", price_cents: 1200 },
+                    { name: "Carpaccio de poisson, agrumes", price_cents: 1200 },
+                    { name: "Gnocchi aux artichauts et ricotta fumée", price_cents: 1100 },
+                    { name: "Moules au gingembre et coriandre", price_cents: 1000 },
+                    { name: "Salade de tomates, basilic, ricotta", price_cents: 800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS (Source: NovaCircle + Yonder + Worlds50Best + LeFooding)
             // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Yonder + NovaCircle (2024) — plats 24-28€
-                    { name: "Selle d'agneau farcie aux épinards", price: "28.00€" },
-                    { name: "Bar de ligne, légumes du moment", price: "26.00€" },
-                    { name: "Boeuf Wellington (en saison)", price: "28.00€" },
-                    { name: "Tête de porc grillée", price: "24.00€", description: "Un classique audacieux du chef." },
-                    { name: "Pigeon en pâté-croûte, foie gras", price: "28.00€" },
-                    { name: "Dorade, pommes de terre, fenouil grillé, salicorne", price: "26.00€" },
-                    { name: "Tagliatelles aux courgettes, basilic, tomates", price: "24.00€" }
+                    { name: "Selle d'agneau farcie aux épinards", price_cents: 2800 },
+                    { name: "Bar de ligne, légumes du moment", price_cents: 2600 },
+                    { name: "Boeuf Wellington (en saison)", price_cents: 2800 },
+                    { name: "Tête de porc grillée", price_cents: 2400, description: "Un classique audacieux du chef." },
+                    { name: "Pigeon en pâté-croûte, foie gras", price_cents: 2800 },
+                    { name: "Dorade, pommes de terre, fenouil grillé, salicorne", price_cents: 2600 },
+                    { name: "Tagliatelles aux courgettes, basilic, tomates", price_cents: 2400 }
                 ]
             },
             // ═══════════════════════════════════════════
             // DESSERTS (Source: NovaCircle + Yonder)
             // ═══════════════════════════════════════════
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
                     // VERIFIED: NovaCircle (2024) — desserts ~8€
-                    { name: "Brownie au chocolat", price: "8.00€" },
-                    { name: "Sablé pistache, cerises, glace pistache", price: "9.00€" },
-                    { name: "Dessert du jour", price: "8.00€" }
+                    { name: "Brownie au chocolat", price_cents: 800 },
+                    { name: "Sablé pistache, cerises, glace pistache", price_cents: 900 },
+                    { name: "Dessert du jour", price_cents: 800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // LA CAVE MONUMENTALE — 3000-6000 BOUTEILLES (Source: GaultMillau + Michelin + LeBey + Airial)
             // ═══════════════════════════════════════════
             {
-                category: "Cave (3000+ références, gérée par Marco Pelletier)",
+                category_type: "drink",
+                display_label: "Cave (3000+ références, gérée par Marco Pelletier)",
                 items: [
-                    { name: "Verre de vin nature / bio", price: "7.00€" },
-                    { name: "Bouteille (entrée de cave)", price: "28.00€" },
-                    { name: "Grands crus et raretés (jusqu'à)", price: "500.00€", description: "Une cave légendaire de 3000 à 6000 bouteilles pour les amateurs." }
+                    { name: "Verre de vin nature / bio", price_cents: 700 },
+                    { name: "Bouteille (entrée de cave)", price_cents: 2800 },
+                    { name: "Grands crus et raretés (jusqu'à)", price_cents: 50000, description: "Une cave légendaire de 3000 à 6000 bouteilles pour les amateurs." }
                 ]
             }
         ]

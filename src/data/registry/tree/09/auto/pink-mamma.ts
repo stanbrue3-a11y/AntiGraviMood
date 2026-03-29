@@ -43,68 +43,74 @@ export const pink_mamma: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Antipasti (Entrées)",
+        category_type: "starter",
+        display_label: "Antipasti (Entrées)",
         items: [
-          { name: "Pulled Pork Dips (Fritures de porc effiloché)", price: "8.00€", highlight: true },
-          { name: "Focaccia e Prosciutto San Daniele DOP", price: "8.00€" },
-          { name: "Gorgonzola for Lovers, Poires & Noix", price: "9.00€" },
-          { name: "Arancini à la Truffe & Cœur Fondant", price: "10.00€", highlight: true },
-          { name: "Carpaccio de Bœuf, Grenade & Orange", price: "15.00€", highlight: true },
-          { name: "Polpette de Bœuf & Sauce San Marzano", price: "19.00€" },
-          { name: "Calamar Fritti & Sauce Tartare Maison", price: "12.00€" },
-          { name: "Zuppa di Castagne (Châtaigne & Courge)", price: "8.00€" },
-          { name: "So the Moon (Gravelax de Saumon & Blinis)", price: "10.00€" }
+          { name: "Pulled Pork Dips (Fritures de porc effiloché)", price_cents: 800, is_highlight: true },
+          { name: "Focaccia e Prosciutto San Daniele DOP", price_cents: 800 },
+          { name: "Gorgonzola for Lovers, Poires & Noix", price_cents: 900 },
+          { name: "Arancini à la Truffe & Cœur Fondant", price_cents: 1000, is_highlight: true },
+          { name: "Carpaccio de Bœuf, Grenade & Orange", price_cents: 1500, is_highlight: true },
+          { name: "Polpette de Bœuf & Sauce San Marzano", price_cents: 1900 },
+          { name: "Calamar Fritti & Sauce Tartare Maison", price_cents: 1200 },
+          { name: "Zuppa di Castagne (Châtaigne & Courge)", price_cents: 800 },
+          { name: "So the Moon (Gravelax de Saumon & Blinis)", price_cents: 1000 }
         ]
       },
       {
-        category: "La Burrata di Puglia",
+        category_type: "other",
+        display_label: "La Burrata di Puglia",
         items: [
-          { name: "Burrata Verde (Olives Taggiasche & Estragon)", price: "8.00€", highlight: true },
-          { name: "Burrata Autunno (Champignons & Châtaignes)", price: "8.00€" },
-          { name: "Burrata Mare (Anchois Marinés & Poutargue)", price: "8.00€" },
-          { name: "Big Burrata Mix (Dégustation x3)", price: "22.00€", highlight: true },
-          { name: "Burrata Classique à l'Huile d'Olive Extra Vierge", price: "7.00€" }
+          { name: "Burrata Verde (Olives Taggiasche & Estragon)", price_cents: 800, is_highlight: true },
+          { name: "Burrata Autunno (Champignons & Châtaignes)", price_cents: 800 },
+          { name: "Burrata Mare (Anchois Marinés & Poutargue)", price_cents: 800 },
+          { name: "Big Burrata Mix (Dégustation x3)", price_cents: 2200, is_highlight: true },
+          { name: "Burrata Classique à l'Huile d'Olive Extra Vierge", price_cents: 700 }
         ]
       },
       {
-        category: "La Pasta della Casa (Plats)",
+        category_type: "main",
+        display_label: "La Pasta della Casa (Plats)",
         items: [
-          { name: "Pâtes à la Truffe Fraîche et Mascarpone", price: "20.00€", highlight: true },
-          { name: "Pasta Fusilli Carbonara Classica", price: "18.50€", highlight: true },
-          { name: "Lasagne Maison à la Bolognaise", price: "17.00€" },
-          { name: "Mafalde à la Crème de Truffe Noire", price: "21.00€", highlight: true },
-          { name: "Linguine aux Coques & Bottarga", price: "19.50€" },
-          { name: "Gnocchi au Pesto de Basilic Frais", price: "16.00€" },
-          { name: "Ravioli à la Ricotta di Bufala & Épinards", price: "17.50€" }
+          { name: "Pâtes à la Truffe Fraîche et Mascarpone", price_cents: 2000, is_highlight: true },
+          { name: "Pasta Fusilli Carbonara Classica", price_cents: 1850, is_highlight: true },
+          { name: "Lasagne Maison à la Bolognaise", price_cents: 1700 },
+          { name: "Mafalde à la Crème de Truffe Noire", price_cents: 2100, is_highlight: true },
+          { name: "Linguine aux Coques & Bottarga", price_cents: 1950 },
+          { name: "Gnocchi au Pesto de Basilic Frais", price_cents: 1600 },
+          { name: "Ravioli à la Ricotta di Bufala & Épinards", price_cents: 1750 }
         ]
       },
       {
-        category: "La Braceria (Grillades & Plats)",
+        category_type: "main",
+        display_label: "La Braceria (Grillades & Plats)",
         items: [
-          { name: "Bistecca alla Fiorentina (T-Bone 800g)", price: "58.00€", highlight: true },
-          { name: "Tomahawk di Manzo (1.3kg à partager)", price: "84.00€", highlight: true },
-          { name: "Tagliata de Bœuf, Roquette & Parmesan", price: "26.00€", highlight: true },
-          { name: "Filet de Bœuf au Feu de Bois", price: "32.00€" },
-          { name: "Saucisse Italienne Grillée & Fenouil", price: "18.00€" }
+          { name: "Bistecca alla Fiorentina (T-Bone 800g)", price_cents: 5800, is_highlight: true },
+          { name: "Tomahawk di Manzo (1.3kg à partager)", price_cents: 8400, is_highlight: true },
+          { name: "Tagliata de Bœuf, Roquette & Parmesan", price_cents: 2600, is_highlight: true },
+          { name: "Filet de Bœuf au Feu de Bois", price_cents: 3200 },
+          { name: "Saucisse Italienne Grillée & Fenouil", price_cents: 1800 }
         ]
       },
       {
-        category: "Dolci & Caffè (Desserts)",
+        category_type: "dessert",
+        display_label: "Dolci & Caffè (Desserts)",
         items: [
-          { name: "Tiramisu Mythique (Servi à la cuillère)", price: "8.50€", highlight: true },
-          { name: "Passionmisu (Mangue, Passion & Matcha)", price: "9.00€" },
-          { name: "Flaming Crème Brûlée à l'Italienne", price: "9.50€", highlight: true },
-          { name: "Panna Cotta aux Fruits Rouges de Saison", price: "7.50€" },
-          { name: "Gelato Artigianale Stracciatella", price: "6.50€" },
-          { name: "Sorbetto al Limone di Sicilia", price: "6.00€" },
-          { name: "Espresso Napoletano (Gran Espresso)", price: "2.50€" }
+          { name: "Tiramisu Mythique (Servi à la cuillère)", price_cents: 850, is_highlight: true },
+          { name: "Passionmisu (Mangue, Passion & Matcha)", price_cents: 900 },
+          { name: "Flaming Crème Brûlée à l'Italienne", price_cents: 950, is_highlight: true },
+          { name: "Panna Cotta aux Fruits Rouges de Saison", price_cents: 750 },
+          { name: "Gelato Artigianale Stracciatella", price_cents: 650 },
+          { name: "Sorbetto al Limone di Sicilia", price_cents: 600 },
+          { name: "Espresso Napoletano (Gran Espresso)", price_cents: 250 }
         ]
       },
       {
-        category: "Cocktails & Spritz (Boissons)",
+        category_type: "drink",
+        display_label: "Cocktails & Spritz (Boissons)",
         items: [
-          { name: "Spritz Classico (Aperol, Prosecco)", price: "10.00€", highlight: true },
-          { name: "Bellini Spritz Cocktail Signature", price: "12.00€", highlight: true }
+          { name: "Spritz Classico (Aperol, Prosecco)", price_cents: 1000, is_highlight: true },
+          { name: "Bellini Spritz Cocktail Signature", price_cents: 1200, is_highlight: true }
         ]
       }
     ]

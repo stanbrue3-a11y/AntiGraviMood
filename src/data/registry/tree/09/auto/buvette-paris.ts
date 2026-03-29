@@ -43,65 +43,70 @@ export const buvette_paris: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Brunch & Matinées (Entrées)",
+        category_type: "starter",
+        display_label: "Brunch & Matinées (Entrées)",
         items: [
-          { name: "Œufs Brouillés Jambon de Bayonne & Parmesan", price: "16.00€", highlight: true },
-          { name: "Œufs Brouillés Saumon Fumé & Câpres", price: "18.00€", highlight: true },
-          { name: "Œufs Brouillés Chèvre & Tomates Confites", price: "15.00€" },
-          { name: "Gaufre Maison 'Waffle Sandwich' (Bacon, Œuf)", price: "15.00€", highlight: true },
-          { name: "Gaufre Maison & Confiture ou Nutella", price: "13.00€" },
-          { name: "Pain Perdu au Cognac & Crème Épaisse", price: "14.00€", highlight: true },
-          { name: "Scones Maison, Beurre & Marmelade", price: "5.00€" },
-          { name: "Madeleines à la Vanille (les 3)", price: "4.00€" }
+          { name: "Œufs Brouillés Jambon de Bayonne & Parmesan", price_cents: 1600, is_highlight: true },
+          { name: "Œufs Brouillés Saumon Fumé & Câpres", price_cents: 1800, is_highlight: true },
+          { name: "Œufs Brouillés Chèvre & Tomates Confites", price_cents: 1500 },
+          { name: "Gaufre Maison 'Waffle Sandwich' (Bacon, Œuf)", price_cents: 1500, is_highlight: true },
+          { name: "Gaufre Maison & Confiture ou Nutella", price_cents: 1300 },
+          { name: "Pain Perdu au Cognac & Crème Épaisse", price_cents: 1400, is_highlight: true },
+          { name: "Scones Maison, Beurre & Marmelade", price_cents: 500 },
+          { name: "Madeleines à la Vanille (les 3)", price_cents: 400 }
         ]
       },
       {
-        category: "Cuisine de Marché (Plats)",
+        category_type: "main",
+        display_label: "Cuisine de Marché (Plats)",
         items: [
-          { name: "Coq au Vin Signature & Gratin Dauphinois", price: "21.00€", highlight: true },
-          { name: "Parmentier de Bœuf & Purée Onctueuse", price: "15.00€" },
-          { name: "Parmentier de Canard, Purée & Céleri", price: "21.00€", highlight: true },
-          { name: "Brandade de Morue sur Fondue de Poireaux", price: "18.00€", highlight: true },
-          { name: "Rillettes de Saumon Frais au Citron", price: "19.00€" },
-          { name: "Os à Moelle, Ail Confit & Champignons", price: "17.00€", highlight: true },
-          { name: "Salade de Lentilles du Puy Maison", price: "11.00€" },
-          { name: "Pâté en Croûte Artisanal & Pickles", price: "14.50€" }
+          { name: "Coq au Vin Signature & Gratin Dauphinois", price_cents: 2100, is_highlight: true },
+          { name: "Parmentier de Bœuf & Purée Onctueuse", price_cents: 1500 },
+          { name: "Parmentier de Canard, Purée & Céleri", price_cents: 2100, is_highlight: true },
+          { name: "Brandade de Morue sur Fondue de Poireaux", price_cents: 1800, is_highlight: true },
+          { name: "Rillettes de Saumon Frais au Citron", price_cents: 1900 },
+          { name: "Os à Moelle, Ail Confit & Champignons", price_cents: 1700, is_highlight: true },
+          { name: "Salade de Lentilles du Puy Maison", price_cents: 1100 },
+          { name: "Pâté en Croûte Artisanal & Pickles", price_cents: 1450 }
         ]
       },
       {
-        category: "Croque & Tartines (Plats)",
+        category_type: "main",
+        display_label: "Croque & Tartines (Plats)",
         items: [
-          { name: "Croque Madame (Cr'Q Mme) & Œuf au Plat", price: "15.50€", highlight: true },
-          { name: "Croque Monsieur Classique & Jambon Blanc", price: "13.00€" },
-          { name: "Tartine Pesto de Noix & Fromage", price: "13.00€" },
-          { name: "Tartine Pesto de Fèves & Menthe", price: "12.00€" },
-          { name: "Tartine Mousse de Foie de Volaille", price: "12.00€" },
-          { name: "Tartine Pesto de Bayonne & Roquette", price: "13.00€" },
-          { name: "Tartine Boudin Noir & Pommes Caramélisées", price: "14.00€", highlight: true },
-          { name: "Tartine Aligot & Jambon Cru", price: "15.00€" }
+          { name: "Croque Madame (Cr'Q Mme) & Œuf au Plat", price_cents: 1550, is_highlight: true },
+          { name: "Croque Monsieur Classique & Jambon Blanc", price_cents: 1300 },
+          { name: "Tartine Pesto de Noix & Fromage", price_cents: 1300 },
+          { name: "Tartine Pesto de Fèves & Menthe", price_cents: 1200 },
+          { name: "Tartine Mousse de Foie de Volaille", price_cents: 1200 },
+          { name: "Tartine Pesto de Bayonne & Roquette", price_cents: 1300 },
+          { name: "Tartine Boudin Noir & Pommes Caramélisées", price_cents: 1400, is_highlight: true },
+          { name: "Tartine Aligot & Jambon Cru", price_cents: 1500 }
         ]
       },
       {
-        category: "Douceurs Gourmandes (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs Gourmandes (Desserts)",
         items: [
-          { name: "Fondant au Chocolat & Crème d'Isigny", price: "7.00€", highlight: true },
-          { name: "Tarte Tatin Maison & Crème Fraîche", price: "8.50€", highlight: true },
-          { name: "Mousse au Chocolat Noir Intense", price: "7.50€" },
-          { name: "Sorbet Citron Jaune & Menthe Fraîche", price: "6.50€" },
-          { name: "Fromage de Chèvre Fermier & Miel", price: "9.50€" },
-          { name: "Cookie aux Pépites de Chocolat Maison", price: "4.50€" }
+          { name: "Fondant au Chocolat & Crème d'Isigny", price_cents: 700, is_highlight: true },
+          { name: "Tarte Tatin Maison & Crème Fraîche", price_cents: 850, is_highlight: true },
+          { name: "Mousse au Chocolat Noir Intense", price_cents: 750 },
+          { name: "Sorbet Citron Jaune & Menthe Fraîche", price_cents: 650 },
+          { name: "Fromage de Chèvre Fermier & Miel", price_cents: 950 },
+          { name: "Cookie aux Pépites de Chocolat Maison", price_cents: 450 }
         ]
       },
       {
-        category: "La Cave de la Gastrothèque (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de la Gastrothèque (Boissons)",
         items: [
-          { name: "Coupe de Champagne Pierre Gimonnet 1er Cru", price: "14.00€", highlight: true },
-          { name: "Verre de Vin Blanc (Sélection Loire)", price: "8.50€" },
-          { name: "Verre de Vin Rouge (Sélection Terroir)", price: "9.00€" },
-          { name: "Cocktail Mimosa (Brunch Signature)", price: "11.00€", highlight: true },
-          { name: "Café Latte de Spécialité", price: "5.50€" },
-          { name: "Jus de Pamplemousse Frais Pressé", price: "6.50€", highlight: true },
-          { name: "Eau Micro-filtrée Buvette (75cl)", price: "4.50€" }
+          { name: "Coupe de Champagne Pierre Gimonnet 1er Cru", price_cents: 1400, is_highlight: true },
+          { name: "Verre de Vin Blanc (Sélection Loire)", price_cents: 850 },
+          { name: "Verre de Vin Rouge (Sélection Terroir)", price_cents: 900 },
+          { name: "Cocktail Mimosa (Brunch Signature)", price_cents: 1100, is_highlight: true },
+          { name: "Café Latte de Spécialité", price_cents: 550 },
+          { name: "Jus de Pamplemousse Frais Pressé", price_cents: 650, is_highlight: true },
+          { name: "Eau Micro-filtrée Buvette (75cl)", price_cents: 450 }
         ]
       }
     ]

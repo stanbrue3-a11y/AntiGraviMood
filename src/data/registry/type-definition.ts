@@ -100,10 +100,18 @@ export interface Pricing {
     hh_wine?: number;
     hh_time?: string;        // "18h-20h" or "lun-ven 18h-20h"
 
-    // Full menu (Strictly factual)
+    // Full menu (Strictly factual - V2)
     menu_items?: {
-        category: string;
-        items: { name: string; price: string; description?: string; highlight?: boolean }[];
+        category_type: 'starter' | 'main' | 'dessert' | 'sharing' | 'drink' | 'tasting_menu' | 'other';
+        display_label: string;
+        items: { 
+            name: string; 
+            price_cents?: number; 
+            price?: string; // KEEP FOR LOCAL MIGRATION COMPATIBILITY TEMPORARILY
+            description?: string; 
+            is_highlight?: boolean; 
+            format?: 'assiette' | 'verre' | 'bouteille' | 'planche';
+        }[];
     }[];
     smart_tip?: string;
 

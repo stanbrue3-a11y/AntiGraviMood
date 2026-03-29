@@ -26,59 +26,64 @@ export const breizhCafePaulBert: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Amuses-Galettes (Entrées Salées)",
+                category_type: "starter",
+                display_label: "Amuses-Galettes (Entrées Salées)",
                 items: [
-                    { name: "Amuse-Galette Chorizo & Comté", price: "8.70€" },
-                    { name: "Amuse-Galette Camembert & Miel", price: "8.70€", description: "Confiture de figues, noix." },
-                    { name: "Amuse-Galette Poisson Fumé", price: "12.00€", description: "Crème citronnée, ciboulette." },
-                    { name: "Galette au Beurre d'Algues Bordier", price: "7.40€" },
-                    { name: "Salade Verte, Vinaigrette au Cidre", price: "4.10€" },
-                    { name: "Salade Wasabi & Sarrasin Soufflé", price: "4.10€" }
+                    { name: "Amuse-Galette Chorizo & Comté", price_cents: 870 },
+                    { name: "Amuse-Galette Camembert & Miel", price_cents: 870, description: "Confiture de figues, noix." },
+                    { name: "Amuse-Galette Poisson Fumé", price_cents: 1200, description: "Crème citronnée, ciboulette." },
+                    { name: "Galette au Beurre d'Algues Bordier", price_cents: 740 },
+                    { name: "Salade Verte, Vinaigrette au Cidre", price_cents: 410 },
+                    { name: "Salade Wasabi & Sarrasin Soufflé", price_cents: 410 }
                 ]
             },
             {
-                category: "Galettes Spécialités (100% Sarrasin Bio)",
+                category_type: "other",
+                display_label: "Galettes Spécialités (100% Sarrasin Bio)",
                 items: [
-                    { name: "Galette à la Raclette au Lait Cru", price: "18.00€", description: "Pommes de terre, jambon blanc, oignons." },
-                    { name: "Galette Saucisse de Bretagne", price: "16.00€", description: "Saucisse artisanale, salade verte." },
-                    { name: "Galette Reblochon & Lardons", price: "22.00€" },
-                    { name: "Galette Complète au Jambon Cru", price: "16.00€", description: "Œuf miroir, Comté, jambon sec." },
-                    { name: "Galette Complète au Chorizo", price: "16.00€" },
-                    { name: "Galette aux Légumes de Saison", price: "18.00€", description: "Légumes rôtis, pesto de sarrasin." },
-                    { name: "Galette Andouille de Guéméné", price: "18.50€", description: "Oignons confits au cidre, moutarde à l'ancienne." },
-                    { name: "Galette Saumon Fumé Bio", price: "21.50€", description: "Crème fraîche, aneth, citron." },
-                    { name: "Galette Forestière", price: "17.00€", description: "Champignons de Paris, crème, jambon, Comté." }
+                    { name: "Galette à la Raclette au Lait Cru", price_cents: 1800, description: "Pommes de terre, jambon blanc, oignons." },
+                    { name: "Galette Saucisse de Bretagne", price_cents: 1600, description: "Saucisse artisanale, salade verte." },
+                    { name: "Galette Reblochon & Lardons", price_cents: 2200 },
+                    { name: "Galette Complète au Jambon Cru", price_cents: 1600, description: "Œuf miroir, Comté, jambon sec." },
+                    { name: "Galette Complète au Chorizo", price_cents: 1600 },
+                    { name: "Galette aux Légumes de Saison", price_cents: 1800, description: "Légumes rôtis, pesto de sarrasin." },
+                    { name: "Galette Andouille de Guéméné", price_cents: 1850, description: "Oignons confits au cidre, moutarde à l'ancienne." },
+                    { name: "Galette Saumon Fumé Bio", price_cents: 2150, description: "Crème fraîche, aneth, citron." },
+                    { name: "Galette Forestière", price_cents: 1700, description: "Champignons de Paris, crème, jambon, Comté." }
                 ]
             },
             {
-                category: "Breizh Rolls (Croustillants & Originaux)",
+                category_type: "other",
+                display_label: "Breizh Rolls (Croustillants & Originaux)",
                 items: [
-                    { name: "Breizh Roll Champignons & Shiitaké", price: "16.00€" },
-                    { name: "Breizh Roll Artichaut & Algues Wakame", price: "16.00€" },
-                    { name: "Breizh Roll Lobster & Avocat", price: "24.00€", description: "Le roll luxe au homard bleu." }
+                    { name: "Breizh Roll Champignons & Shiitaké", price_cents: 1600 },
+                    { name: "Breizh Roll Artichaut & Algues Wakame", price_cents: 1600 },
+                    { name: "Breizh Roll Lobster & Avocat", price_cents: 2400, description: "Le roll luxe au homard bleu." }
                 ]
             },
             {
-                category: "Crêpes Desserts (Froment Bio)",
+                category_type: "dessert",
+                display_label: "Crêpes Desserts (Froment Bio)",
                 items: [
-                    { name: "Crêpe Beurre-Sucre (Bordier)", price: "6.50€" },
-                    { name: "Crêpe Pommes Caramélisées", price: "10.50€", description: "Crumble de sarrasin, caramel beurre salé." },
-                    { name: "Crêpe Suzette Tradition", price: "12.00€", description: "Flambée au Grand Marnier." },
-                    { name: "Crêpe Poire au Cidre & Chocolat", price: "11.50€", description: "Glace vanille de Madagascar." },
-                    { name: "Crêpe Frangipane & Amandes", price: "9.50€" },
-                    { name: "Crêpe au Miel & Citron", price: "7.50€" }
+                    { name: "Crêpe Beurre-Sucre (Bordier)", price_cents: 650 },
+                    { name: "Crêpe Pommes Caramélisées", price_cents: 1050, description: "Crumble de sarrasin, caramel beurre salé." },
+                    { name: "Crêpe Suzette Tradition", price_cents: 1200, description: "Flambée au Grand Marnier." },
+                    { name: "Crêpe Poire au Cidre & Chocolat", price_cents: 1150, description: "Glace vanille de Madagascar." },
+                    { name: "Crêpe Frangipane & Amandes", price_cents: 950 },
+                    { name: "Crêpe au Miel & Citron", price_cents: 750 }
                 ]
             },
             {
-                category: "Artisanal Ciders & Softs",
+                category_type: "other",
+                display_label: "Artisanal Ciders & Softs",
                 items: [
-                    { name: "Cidre Pression Barbé (Bio)", price: "6.00€" },
-                    { name: "Cidre Brut Artisanal (Bouteille)", price: "16.00€" },
-                    { name: "Cidre Doux de Producteur", price: "15.00€" },
-                    { name: "Poiré Domfront (Effervescent)", price: "18.00€" },
-                    { name: "Jus de Pomme Artisanal", price: "5.50€" },
-                    { name: "Lait Ribot Traditionnel", price: "4.50€" },
-                    { name: "Verre de Muscadet (Sevre & Maine)", price: "7.00€" }
+                    { name: "Cidre Pression Barbé (Bio)", price_cents: 600 },
+                    { name: "Cidre Brut Artisanal (Bouteille)", price_cents: 1600 },
+                    { name: "Cidre Doux de Producteur", price_cents: 1500 },
+                    { name: "Poiré Domfront (Effervescent)", price_cents: 1800 },
+                    { name: "Jus de Pomme Artisanal", price_cents: 550 },
+                    { name: "Lait Ribot Traditionnel", price_cents: 450 },
+                    { name: "Verre de Muscadet (Sevre & Maine)", price_cents: 700 }
                 ]
             }
         ]

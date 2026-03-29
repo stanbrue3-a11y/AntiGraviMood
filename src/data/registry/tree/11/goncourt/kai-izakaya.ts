@@ -45,34 +45,37 @@ export const kaiIzakaya: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Kai Izakaya 2025 Standard (Asian Tapas & Brunch)
             {
-                category: "Tapas & Small Plates",
+                category_type: "main",
+                display_label: "Tapas & Small Plates",
                 items: [
-                    { name: "Takoyaki (x4)", price: "7.90€", description: "Beignets de poulpe japonais." },
-                    { name: "Gyoza (Poulet ou Veggie)", price: "7.00€" },
-                    { name: "Karaage", price: "9.50€", description: "Poulet frit croustillant façon japonaise." },
-                    { name: "Agedashi Tofu", price: "9.00€" },
-                    { name: "Arabiki", price: "7.90€", description: "Saucisses japonaises grillées." },
-                    { name: "Ebi Fry", price: "9.00€" },
-                    { name: "Salade de Choux", price: "6.90€" }
+                    { name: "Takoyaki (x4)", price_cents: 790, description: "Beignets de poulpe japonais." },
+                    { name: "Gyoza (Poulet ou Veggie)", price_cents: 700 },
+                    { name: "Karaage", price_cents: 950, description: "Poulet frit croustillant façon japonaise." },
+                    { name: "Agedashi Tofu", price_cents: 900 },
+                    { name: "Arabiki", price_cents: 790, description: "Saucisses japonaises grillées." },
+                    { name: "Ebi Fry", price_cents: 900 },
+                    { name: "Salade de Choux", price_cents: 690 }
                 ]
             },
             {
-                category: "Les Plats (Donburi & Udon)",
+                category_type: "main",
+                display_label: "Les Plats (Donburi & Udon)",
                 items: [
-                    { name: "Udon Carbonara", price: "14.90€", description: "La fusion culte de la maison." },
-                    { name: "Udon Satay Coco", price: "14.90€" },
-                    { name: "Donburi Karaage", price: "13.90€" },
-                    { name: "Donburi Dan Dan", price: "13.90€" },
-                    { name: "Soupe Satay Veggie", price: "13.90€" }
+                    { name: "Udon Carbonara", price_cents: 1490, description: "La fusion culte de la maison." },
+                    { name: "Udon Satay Coco", price_cents: 1490 },
+                    { name: "Donburi Karaage", price_cents: 1390 },
+                    { name: "Donburi Dan Dan", price_cents: 1390 },
+                    { name: "Soupe Satay Veggie", price_cents: 1390 }
                 ]
             },
             {
-                category: "Desserts & Brunch Vibes",
+                category_type: "dessert",
+                display_label: "Desserts & Brunch Vibes",
                 items: [
-                    { name: "Croffle Matcha", price: "8.90€", description: "Hybride croissant-gaufre, glace matcha." },
-                    { name: "Mango Sticky Rice", price: "9.50€" },
-                    { name: "Taiyaki Anko", price: "6.00€" },
-                    { name: "Daifuku Azuki", price: "6.90€" }
+                    { name: "Croffle Matcha", price_cents: 890, description: "Hybride croissant-gaufre, glace matcha." },
+                    { name: "Mango Sticky Rice", price_cents: 950 },
+                    { name: "Taiyaki Anko", price_cents: 600 },
+                    { name: "Daifuku Azuki", price_cents: 690 }
                 ]
             }
         ]

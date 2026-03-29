@@ -42,65 +42,70 @@ export const biondi: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Déjeuner (Semaine)", price: "23.50€", description: "Entrée, plat et dessert." },
-                    { name: "Formule Déjeuner (Samedi)", price: "27.50€", description: "Menu du samedi midi." }
+                    { name: "Formule Déjeuner (Semaine)", price_cents: 2350, description: "Entrée, plat et dessert." },
+                    { name: "Formule Déjeuner (Samedi)", price_cents: 2750, description: "Menu du samedi midi." }
                 ]
             },
             {
-                category: "Les Entrées à Partager",
+                category_type: "starter",
+                display_label: "Les Entrées à Partager",
                 items: [
-                    { name: "Croquetas de jambon Iberico, mayo aïoli", price: "14.00€" },
-                    { name: "Empanadas de Lomo, pousses de salade, jus de viande", price: "14.00€" },
-                    { name: "Ceviche de maigre de ligne, avocat, maïs toasté", price: "17.00€" },
-                    { name: "Jambon de bœuf mature Holstein, crème agrumes", price: "18.00€" },
-                    { name: "Poulpe à la braise, chou fleur, mayo kalamata, citron vert", price: "18.00€" },
-                    { name: "Empanadas de fromage Beaufort, épinards", price: "18.00€" },
-                    { name: "Asperges blanches, œuf mollet, mousse de chorizo", price: "20.00€" },
-                    { name: "Empanadas de carne (bœuf), agua de tomate", price: "20.00€" },
-                    { name: "Carpaccio de Wagyu, mousse parmesan, câpres frits", price: "20.00€" },
-                    { name: "Ris de veau à la braise, girolles, truffe", price: "20.00€" },
-                    { name: "Os à moelle, viande confite, brioche", price: "23.00€" },
-                    { name: "Ceviche de thon rouge, crème avocat, grenade", price: "25.00€" },
-                    { name: "Jambon ibérique bellota bellota", price: "28.00€" },
-                    { name: "Foie gras mi-cuit, coulis de betterave, figues, fruits rouges", price: "36.00€" },
-                    { name: "Caviar Osciètre 50gr (Kaviari), blinis, crème crue", price: "95.00€" }
+                    { name: "Croquetas de jambon Iberico, mayo aïoli", price_cents: 1400 },
+                    { name: "Empanadas de Lomo, pousses de salade, jus de viande", price_cents: 1400 },
+                    { name: "Ceviche de maigre de ligne, avocat, maïs toasté", price_cents: 1700 },
+                    { name: "Jambon de bœuf mature Holstein, crème agrumes", price_cents: 1800 },
+                    { name: "Poulpe à la braise, chou fleur, mayo kalamata, citron vert", price_cents: 1800 },
+                    { name: "Empanadas de fromage Beaufort, épinards", price_cents: 1800 },
+                    { name: "Asperges blanches, œuf mollet, mousse de chorizo", price_cents: 2000 },
+                    { name: "Empanadas de carne (bœuf), agua de tomate", price_cents: 2000 },
+                    { name: "Carpaccio de Wagyu, mousse parmesan, câpres frits", price_cents: 2000 },
+                    { name: "Ris de veau à la braise, girolles, truffe", price_cents: 2000 },
+                    { name: "Os à moelle, viande confite, brioche", price_cents: 2300 },
+                    { name: "Ceviche de thon rouge, crème avocat, grenade", price_cents: 2500 },
+                    { name: "Jambon ibérique bellota bellota", price_cents: 2800 },
+                    { name: "Foie gras mi-cuit, coulis de betterave, figues, fruits rouges", price_cents: 3600 },
+                    { name: "Caviar Osciètre 50gr (Kaviari), blinis, crème crue", price_cents: 9500 }
                 ]
             },
             {
-                category: "Plats & Suggestions du Chef",
+                category_type: "main",
+                display_label: "Plats & Suggestions du Chef",
                 items: [
-                    { name: "Maigre à la plancha, chou kale, émulsion raifort", price: "28.00€" },
-                    { name: "Volaille croustillante, déclinaison de céleri, foie gras", price: "28.00€" },
-                    { name: "Bar à la plancha, pak choi, girolles, émulsion d'ail", price: "30.00€" },
-                    { name: "Milanesa de filet bœuf Angus, mayo chipotle", price: "40.00€" },
-                    { name: "Volaille croustillante, grenailles, champignons de bois, vin jaune", price: "40.00€" },
-                    { name: "Turbot à la plancha, crème champagne et caviar", price: "44.00€" }
+                    { name: "Maigre à la plancha, chou kale, émulsion raifort", price_cents: 2800 },
+                    { name: "Volaille croustillante, déclinaison de céleri, foie gras", price_cents: 2800 },
+                    { name: "Bar à la plancha, pak choi, girolles, émulsion d'ail", price_cents: 3000 },
+                    { name: "Milanesa de filet bœuf Angus, mayo chipotle", price_cents: 4000 },
+                    { name: "Volaille croustillante, grenailles, champignons de bois, vin jaune", price_cents: 4000 },
+                    { name: "Turbot à la plancha, crème champagne et caviar", price_cents: 4400 }
                 ]
             },
             {
-                category: "Viandes d'Exception à la Braise (Argentine)",
+                category_type: "main",
+                display_label: "Viandes d'Exception à la Braise (Argentine)",
                 items: [
-                    { name: "Hampe de bœuf (Angus)", price: "32.00€" },
-                    { name: "Churrasco de las Pampas (Entrecôte)", price: "33.00€" },
-                    { name: "Faux filet (Angus)", price: "36.00€" },
-                    { name: "Churrasco de las Pampas (Entrecôte Angus Premium)", price: "39.00€" },
-                    { name: "Bife de lomo (Filet bœuf Angus)", price: "45.00€" },
-                    { name: "Double entrecôte (Holstein) à partager", price: "75.00€" },
-                    { name: "Côte de bœuf à la braise maturée 4 sem. (Pour 2)", price: "95.00€" },
-                    { name: "Côte de bœuf complète sélection (Holstein) maturée 4 sem.", price: "125.00€" },
-                    { name: "Côte de bœuf (Kød) maturée 5 semaines", price: "135.00€" },
-                    { name: "Côte de bœuf Galice maturée 8 semaines", price: "155.00€" }
+                    { name: "Hampe de bœuf (Angus)", price_cents: 3200 },
+                    { name: "Churrasco de las Pampas (Entrecôte)", price_cents: 3300 },
+                    { name: "Faux filet (Angus)", price_cents: 3600 },
+                    { name: "Churrasco de las Pampas (Entrecôte Angus Premium)", price_cents: 3900 },
+                    { name: "Bife de lomo (Filet bœuf Angus)", price_cents: 4500 },
+                    { name: "Double entrecôte (Holstein) à partager", price_cents: 7500 },
+                    { name: "Côte de bœuf à la braise maturée 4 sem. (Pour 2)", price_cents: 9500 },
+                    { name: "Côte de bœuf complète sélection (Holstein) maturée 4 sem.", price_cents: 12500 },
+                    { name: "Côte de bœuf (Kød) maturée 5 semaines", price_cents: 13500 },
+                    { name: "Côte de bœuf Galice maturée 8 semaines", price_cents: 15500 }
                 ]
             },
             {
-                category: "Les Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Les Desserts & Fromages",
                 items: [
-                    { name: "Choco cacao, crumble", price: "8.00€" },
-                    { name: "Déclinaison de dulce de leche, tuile à l'orange", price: "9.00€" },
-                    { name: "Sélection de fromages fermiers de Cyril Hardouin", price: "15.00€" }
+                    { name: "Choco cacao, crumble", price_cents: 800 },
+                    { name: "Déclinaison de dulce de leche, tuile à l'orange", price_cents: 900 },
+                    { name: "Sélection de fromages fermiers de Cyril Hardouin", price_cents: 1500 }
                 ]
             }
         ]

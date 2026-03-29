@@ -42,55 +42,60 @@ export const le_temps_des_cerises: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées du Terroir",
+        category_type: "starter",
+        display_label: "Entrées du Terroir",
         items: [
-          { name: "Salade de Joue de Porc confite", price: "7.50€", highlight: true },
-          { name: "Terrine Maison Polonaise", price: "6.50€" },
-          { name: "Rillettes de Poisson du moment", price: "7.00€" },
-          { name: "Œufs Cocotte à la crème", price: "6.00€" },
-          { name: "Velouté de légumes de saison", price: "5.50€" }
+          { name: "Salade de Joue de Porc confite", price_cents: 750, is_highlight: true },
+          { name: "Terrine Maison Polonaise", price_cents: 650 },
+          { name: "Rillettes de Poisson du moment", price_cents: 700 },
+          { name: "Œufs Cocotte à la crème", price_cents: 600 },
+          { name: "Velouté de légumes de saison", price_cents: 550 }
         ]
       },
       {
-        category: "Plats (Français)",
+        category_type: "main",
+        display_label: "Plats (Français)",
         items: [
-          { name: "Super Cassoulet du Chef", price: "22.50€", highlight: true },
-          { name: "Petit Salé aux Lentilles", price: "15.50€" },
-          { name: "Joues de Cochon braisées", price: "16.50€" },
-          { name: "Boudin Noir à la Normande", price: "16.50€" },
-          { name: "Cuisse de Canard confite (Pot au feu)", price: "17.00€" },
-          { name: "Pavé de Lieu Jaune au four", price: "18.00€" },
-          { name: "Assiette Végétarienne de la Butte", price: "14.50€" }
+          { name: "Super Cassoulet du Chef", price_cents: 2250, is_highlight: true },
+          { name: "Petit Salé aux Lentilles", price_cents: 1550 },
+          { name: "Joues de Cochon braisées", price_cents: 1650 },
+          { name: "Boudin Noir à la Normande", price_cents: 1650 },
+          { name: "Cuisse de Canard confite (Pot au feu)", price_cents: 1700 },
+          { name: "Pavé de Lieu Jaune au four", price_cents: 1800 },
+          { name: "Assiette Végétarienne de la Butte", price_cents: 1450 }
         ]
       },
       {
-        category: "Formules & Satiété",
+        category_type: "tasting_menu",
+        display_label: "Formules & Satiété",
         items: [
-          { name: "Formule Midi (E+P+D)", price: "19.00€", highlight: true },
-          { name: "Formule Midi (E+P ou P+D)", price: "16.00€" },
-          { name: "Menu Soir Complet", price: "31.00€" },
-          { name: "Formule Soir (E+P ou P+D)", price: "24.50€" },
-          { name: "Plat du Jour Étudiant (Samedi)", price: "1.00€" }
+          { name: "Formule Midi (E+P+D)", price_cents: 1900, is_highlight: true },
+          { name: "Formule Midi (E+P ou P+D)", price_cents: 1600 },
+          { name: "Menu Soir Complet", price_cents: 3100 },
+          { name: "Formule Soir (E+P ou P+D)", price_cents: 2450 },
+          { name: "Plat du Jour Étudiant (Samedi)", price_cents: 100 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Mousse au Chocolat maison", price: "6.00€" },
-          { name: "Île Flottante aux pralines", price: "5.50€" },
-          { name: "Tarte Tatin de la Butte", price: "7.00€" },
-          { name: "Fromage Blanc au miel", price: "5.00€" },
-          { name: "Baba au Rhum classique", price: "7.50€" }
+          { name: "Mousse au Chocolat maison", price_cents: 600 },
+          { name: "Île Flottante aux pralines", price_cents: 550 },
+          { name: "Tarte Tatin de la Butte", price_cents: 700 },
+          { name: "Fromage Blanc au miel", price_cents: 500 },
+          { name: "Baba au Rhum classique", price_cents: 750 }
         ]
       },
       {
-        category: "La Cave / Boissons",
+        category_type: "drink",
+        display_label: "La Cave / Boissons",
         items: [
-          { name: "Verre de Vin Naturel", price: "5.50€" },
-          { name: "Pinte de Bière Artisanale", price: "7.00€" },
-          { name: "Limonade du Village", price: "4.50€" },
-          { name: "Café Équitable", price: "1.80€" },
-          { name: "Thé Bio Jardins de Gaïa", price: "4.00€" }
+          { name: "Verre de Vin Naturel", price_cents: 550 },
+          { name: "Pinte de Bière Artisanale", price_cents: 700 },
+          { name: "Limonade du Village", price_cents: 450 },
+          { name: "Café Équitable", price_cents: 180 },
+          { name: "Thé Bio Jardins de Gaïa", price_cents: 400 }
         ]
       }
     ]

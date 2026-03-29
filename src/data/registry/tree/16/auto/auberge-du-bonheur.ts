@@ -40,57 +40,61 @@ export const auberge_du_bonheur: SurgicalPlace = {
     verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Fraîcheur du Jardin (Entrées)",
+        category_type: "starter",
+        display_label: "Fraîcheur du Jardin (Entrées)",
         items: [
-          { name: "Salade de Haricots Verts & Champignons", price: "14.00€", description: "Huile de noisette et échalotes ciselées", highlight: true },
-          { name: "Cœur de Saumon Fumé Classique", price: "18.50€", description: "Crème d'Isigny et pain grillé" },
-          { name: "Symphonie de Légumes Croquants", price: "13.00€", description: "Vinaigrette aux herbes du bois" },
-          { name: "Terrine Maison au Poivre Vert", price: "15.00€", description: "Condiments et pain de campagne" },
-          { name: "Œuf Mollet Cocotte", price: "12.50€", description: "Crème de parmesan et mouillettes" },
-          { name: "Velouté de Potiron & Châtaignes", price: "11.00€" },
-          { name: "Carpaccio de Bœuf au Basilic", price: "16.00€" },
-          { name: "Artichaut Entier Vinaigrette", price: "12.00€" }
+          { name: "Salade de Haricots Verts & Champignons", price_cents: 1400, description: "Huile de noisette et échalotes ciselées", is_highlight: true },
+          { name: "Cœur de Saumon Fumé Classique", price_cents: 1850, description: "Crème d'Isigny et pain grillé" },
+          { name: "Symphonie de Légumes Croquants", price_cents: 1300, description: "Vinaigrette aux herbes du bois" },
+          { name: "Terrine Maison au Poivre Vert", price_cents: 1500, description: "Condiments et pain de campagne" },
+          { name: "Œuf Mollet Cocotte", price_cents: 1250, description: "Crème de parmesan et mouillettes" },
+          { name: "Velouté de Potiron & Châtaignes", price_cents: 1100 },
+          { name: "Carpaccio de Bœuf au Basilic", price_cents: 1600 },
+          { name: "Artichaut Entier Vinaigrette", price_cents: 1200 }
         ]
       },
       {
-        category: "Plats de Campagne (Plats)",
+        category_type: "main",
+        display_label: "Plats de Campagne (Plats)",
         items: [
-          { name: "Épaule d'Agneau de Lait Confite", price: "32.00€", description: "Jus au thym et purée de pommes de terre", highlight: true },
-          { name: "Côte de Bœuf Grillée (pour deux)", price: "85.00€", description: "Frites maison et sauce béarnaise" },
-          { name: "Filet de Bar à la Plancha", price: "28.50€", description: "Émulsion citronnée et légumes sautés" },
-          { name: "Magret de Canard au Miel", price: "26.00€", description: "Polenta crémeuse et fruits rôtis" },
-          { name: "Tartare de Bœuf Tradition", price: "22.50€", description: "Préparé minute selon votre goût" },
-          { name: "Sole Meunière du Marché", price: "48.00€" },
-          { name: "Risotto d'Automne aux Truffes", price: "34.00€" },
-          { name: "Pavé de Veau aux Morilles", price: "36.00€" },
-          { name: "Penne à la Bottarga", price: "24.50€" },
-          { name: "Suprême de Pintade Fermière", price: "25.50€" },
-          { name: "Daurade Royale Grillée Entière", price: "38.00€" },
-          { name: "Plat Végétarien de Saison", price: "20.00€" }
+          { name: "Épaule d'Agneau de Lait Confite", price_cents: 3200, description: "Jus au thym et purée de pommes de terre", is_highlight: true },
+          { name: "Côte de Bœuf Grillée (pour deux)", price_cents: 8500, description: "Frites maison et sauce béarnaise" },
+          { name: "Filet de Bar à la Plancha", price_cents: 2850, description: "Émulsion citronnée et légumes sautés" },
+          { name: "Magret de Canard au Miel", price_cents: 2600, description: "Polenta crémeuse et fruits rôtis" },
+          { name: "Tartare de Bœuf Tradition", price_cents: 2250, description: "Préparé minute selon votre goût" },
+          { name: "Sole Meunière du Marché", price_cents: 4800 },
+          { name: "Risotto d'Automne aux Truffes", price_cents: 3400 },
+          { name: "Pavé de Veau aux Morilles", price_cents: 3600 },
+          { name: "Penne à la Bottarga", price_cents: 2450 },
+          { name: "Suprême de Pintade Fermière", price_cents: 2550 },
+          { name: "Daurade Royale Grillée Entière", price_cents: 3800 },
+          { name: "Plat Végétarien de Saison", price_cents: 2000 }
         ]
       },
       {
-        category: "Douceurs Bucoliques (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs Bucoliques (Desserts)",
         items: [
-          { name: "Tatin Maison & Crème Fraîche", price: "11.00€", description: "Le grand classique de l'Auberge", highlight: true },
-          { name: "Mousse au Chocolat Dense", price: "9.50€", description: "Un goût d'enfance" },
-          { name: "Profiteroles Classiques (x3)", price: "12.50€", description: "Chocolat chaud onctueux" },
-          { name: "Assiette de Fraises Melba", price: "13.00€", description: "En saison, chantilly maison" },
-          { name: "Ile Flottante Tradition", price: "9.00€" },
-          { name: "Plateau de Fromages Affinés", price: "15.00€" }
+          { name: "Tatin Maison & Crème Fraîche", price_cents: 1100, description: "Le grand classique de l'Auberge", is_highlight: true },
+          { name: "Mousse au Chocolat Dense", price_cents: 950, description: "Un goût d'enfance" },
+          { name: "Profiteroles Classiques (x3)", price_cents: 1250, description: "Chocolat chaud onctueux" },
+          { name: "Assiette de Fraises Melba", price_cents: 1300, description: "En saison, chantilly maison" },
+          { name: "Ile Flottante Tradition", price_cents: 900 },
+          { name: "Plateau de Fromages Affinés", price_cents: 1500 }
         ]
       },
       {
-        category: "La Cave de l'Auberge (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de l'Auberge (Boissons)",
         items: [
-          { name: "Verre de Bordeaux Supérieur", price: "10.00€", highlight: true },
-          { name: "Coupe de Champagne Laurent-Perrier", price: "16.00€" },
-          { name: "Bouteille de Rosé de Provence", price: "38.00€" },
-          { name: "Expresso Pur Arabica", price: "3.50€" },
-          { name: "Grand Café Crème", price: "5.50€" },
-          { name: "Thé de Spécialité", price: "7.00€" },
-          { name: "Jus de Fruits Pressés", price: "9.00€" },
-          { name: "Digestif Cognac VSOP", price: "14.50€" }
+          { name: "Verre de Bordeaux Supérieur", price_cents: 1000, is_highlight: true },
+          { name: "Coupe de Champagne Laurent-Perrier", price_cents: 1600 },
+          { name: "Bouteille de Rosé de Provence", price_cents: 3800 },
+          { name: "Expresso Pur Arabica", price_cents: 350 },
+          { name: "Grand Café Crème", price_cents: 550 },
+          { name: "Thé de Spécialité", price_cents: 700 },
+          { name: "Jus de Fruits Pressés", price_cents: 900 },
+          { name: "Digestif Cognac VSOP", price_cents: 1450 }
         ]
       }
     ]

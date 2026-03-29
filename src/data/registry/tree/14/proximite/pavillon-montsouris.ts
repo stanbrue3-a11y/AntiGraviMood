@@ -43,35 +43,38 @@ export const pavillon_montsouris: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Entrées Signature",
+                category_type: "starter",
+                display_label: "Entrées Signature",
                 items: [
-                    { name: "Foie gras de canard maison, chutney de saison", price: "22.00€" },
-                    { name: "Effiloché de tourteau au citron vert", price: "24.00€" },
-                    { name: "Asperges blanches, sauce mousseline", price: "19.00€" },
-                    { name: "Œuf mollet bio, crème de champignons", price: "16.00€" },
-                    { name: "Gravelax de saumon à l'aneth", price: "18.00€" }
+                    { name: "Foie gras de canard maison, chutney de saison", price_cents: 2200 },
+                    { name: "Effiloché de tourteau au citron vert", price_cents: 2400 },
+                    { name: "Asperges blanches, sauce mousseline", price_cents: 1900 },
+                    { name: "Œuf mollet bio, crème de champignons", price_cents: 1600 },
+                    { name: "Gravelax de saumon à l'aneth", price_cents: 1800 }
                 ]
             },
             {
-                category: "L'Arrivage du Chef (Plats)",
+                category_type: "main",
+                display_label: "L'Arrivage du Chef (Plats)",
                 items: [
-                    { name: "Dos de cabillaud rôti, petits légumes", price: "32.00€" },
-                    { name: "Daurade royale à la plancha", price: "34.00€" },
-                    { name: "Filet de bœuf, sauce bordelaise", price: "38.00€" },
-                    { name: "Selle d'agneau rôtie aux herbes", price: "36.00€" },
-                    { name: "Risotto crémeux aux légumes oubliés", price: "26.00€" },
-                    { name: "Poisson de ligne selon arrivage", price: "35.00€" },
-                    { name: "Menu Carte (E+P+D)", price: "51.00€" }
+                    { name: "Dos de cabillaud rôti, petits légumes", price_cents: 3200 },
+                    { name: "Daurade royale à la plancha", price_cents: 3400 },
+                    { name: "Filet de bœuf, sauce bordelaise", price_cents: 3800 },
+                    { name: "Selle d'agneau rôtie aux herbes", price_cents: 3600 },
+                    { name: "Risotto crémeux aux légumes oubliés", price_cents: 2600 },
+                    { name: "Poisson de ligne selon arrivage", price_cents: 3500 },
+                    { name: "Menu Carte (E+P+D)", price_cents: 5100 }
                 ]
             },
             {
-                category: "Douceurs & Desserts",
+                category_type: "dessert",
+                display_label: "Douceurs & Desserts",
                 items: [
-                    { name: "Soufflé chaud au Grand Marnier", price: "14.00€" },
-                    { name: "Millefeuille vanille de Madagascar", price: "12.00€" },
-                    { name: "Tarte fine aux pommes et cannelle", price: "11.00€" },
-                    { name: "Baba au rhum ambré", price: "13.00€" },
-                    { name: "Plateau de fromages affinés", price: "15.00€" }
+                    { name: "Soufflé chaud au Grand Marnier", price_cents: 1400 },
+                    { name: "Millefeuille vanille de Madagascar", price_cents: 1200 },
+                    { name: "Tarte fine aux pommes et cannelle", price_cents: 1100 },
+                    { name: "Baba au rhum ambré", price_cents: 1300 },
+                    { name: "Plateau de fromages affinés", price_cents: 1500 }
                 ]
             }
         ]

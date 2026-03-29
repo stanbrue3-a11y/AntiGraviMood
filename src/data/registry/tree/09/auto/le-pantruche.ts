@@ -43,63 +43,68 @@ export const le_pantruche: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes Victor Massé (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes Victor Massé (Entrées)",
         items: [
-          { name: "Ravioles de Pieds de Moutons & Épinards", price: "15.00€", highlight: true },
-          { name: "Carpaccio de Poulpe de Roche & Agrumes", price: "16.00€", highlight: true },
-          { name: "Porc confit & Artichauts Barigoule", price: "14.00€" },
-          { name: "Pressé de Gésiers et Cuisses de Canard", price: "13.50€" },
-          { name: "Œuf Mollet & Crème de Champignons de Paris", price: "12.00€", highlight: true },
-          { name: "Terrine de Foie Gras Maison au poivre", price: "18.00€" },
-          { name: "Velouté de Saison & Éclats de Châtaignes", price: "11.00€" },
-          { name: "Huîtres Fines de Claire n°3 (x6)", price: "17.00€" }
+          { name: "Ravioles de Pieds de Moutons & Épinards", price_cents: 1500, is_highlight: true },
+          { name: "Carpaccio de Poulpe de Roche & Agrumes", price_cents: 1600, is_highlight: true },
+          { name: "Porc confit & Artichauts Barigoule", price_cents: 1400 },
+          { name: "Pressé de Gésiers et Cuisses de Canard", price_cents: 1350 },
+          { name: "Œuf Mollet & Crème de Champignons de Paris", price_cents: 1200, is_highlight: true },
+          { name: "Terrine de Foie Gras Maison au poivre", price_cents: 1800 },
+          { name: "Velouté de Saison & Éclats de Châtaignes", price_cents: 1100 },
+          { name: "Huîtres Fines de Claire n°3 (x6)", price_cents: 1700 }
         ]
       },
       {
-        category: "Signatures & Traditions (Plats)",
+        category_type: "main",
+        display_label: "Signatures & Traditions (Plats)",
         items: [
-          { name: "Côte de Cochon fermière rôtie au sautoir", price: "29.00€", highlight: true },
-          { name: "Filet de Canette rôti, Sauce aux fruits rouges", price: "27.00€", highlight: true },
-          { name: "Poisson du jour à la plancha, Beurre blanc", price: "26.00€" },
-          { name: "Épaule d'Agneau braisée au Romarin", price: "28.00€", highlight: true },
-          { name: "Ris de Veau à l'ancienne & Champignons", price: "36.00€", highlight: true },
-          { name: "Parmentier de Queue de Bœuf au vin rouge", price: "24.00€" },
-          { name: "Risotto aux Herbes fraîches & Parmesan", price: "22.00€" },
-          { name: "Onglet de Bœuf Sauce Échalote", price: "26.50€" }
+          { name: "Côte de Cochon fermière rôtie au sautoir", price_cents: 2900, is_highlight: true },
+          { name: "Filet de Canette rôti, Sauce aux fruits rouges", price_cents: 2700, is_highlight: true },
+          { name: "Poisson du jour à la plancha, Beurre blanc", price_cents: 2600 },
+          { name: "Épaule d'Agneau braisée au Romarin", price_cents: 2800, is_highlight: true },
+          { name: "Ris de Veau à l'ancienne & Champignons", price_cents: 3600, is_highlight: true },
+          { name: "Parmentier de Queue de Bœuf au vin rouge", price_cents: 2400 },
+          { name: "Risotto aux Herbes fraîches & Parmesan", price_cents: 2200 },
+          { name: "Onglet de Bœuf Sauce Échalote", price_cents: 2650 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pomme de Terre mythique au beurre", price: "7.00€", highlight: true },
-          { name: "Légumes du Marché glacés au jus", price: "7.50€" },
-          { name: "Frites fraîches Maison double cuisson", price: "6.50€" },
-          { name: "Riz Pilaf parfumé aux épices douces", price: "6.00€" },
-          { name: "Petite Salade Mesclun bien assaisonnée", price: "5.50€" }
+          { name: "Purée de Pomme de Terre mythique au beurre", price_cents: 700, is_highlight: true },
+          { name: "Légumes du Marché glacés au jus", price_cents: 750 },
+          { name: "Frites fraîches Maison double cuisson", price_cents: 650 },
+          { name: "Riz Pilaf parfumé aux épices douces", price_cents: 600 },
+          { name: "Petite Salade Mesclun bien assaisonnée", price_cents: 550 }
         ]
       },
       {
-        category: "Soufflés & Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Soufflés & Douceurs (Desserts)",
         items: [
-          { name: "Soufflé au Grand Marnier (Le Légendaire)", price: "12.00€", highlight: true },
-          { name: "Chou à la Crème Vanillée & Praliné Maison", price: "10.00€", highlight: true },
-          { name: "Pressé de Pomme au Sureau & Ganache Chocolat", price: "10.50€" },
-          { name: "Tarte Tatin Pomme-Coing & Crème Fraîche", price: "11.00€" },
-          { name: "Riz au Lait & Caramel Beurre Salé", price: "9.50€" },
-          { name: "Plateau de Fromages affinés Sélection", price: "13.50€" },
-          { name: "Sorbet Citron-Basilic (3 boules)", price: "9.00€" }
+          { name: "Soufflé au Grand Marnier (Le Légendaire)", price_cents: 1200, is_highlight: true },
+          { name: "Chou à la Crème Vanillée & Praliné Maison", price_cents: 1000, is_highlight: true },
+          { name: "Pressé de Pomme au Sureau & Ganache Chocolat", price_cents: 1050 },
+          { name: "Tarte Tatin Pomme-Coing & Crème Fraîche", price_cents: 1100 },
+          { name: "Riz au Lait & Caramel Beurre Salé", price_cents: 950 },
+          { name: "Plateau de Fromages affinés Sélection", price_cents: 1350 },
+          { name: "Sorbet Citron-Basilic (3 boules)", price_cents: 900 }
         ]
       },
       {
-        category: "Sélection de la Sommelière (Boissons)",
+        category_type: "drink",
+        display_label: "Sélection de la Sommelière (Boissons)",
         items: [
-          { name: "Verre de Côtes-du-Rhône Jean-Luc Colombo", price: "7.00€", highlight: true },
-          { name: "Bouteille de Gringet AOP Savoie Rare", price: "95.00€" },
-          { name: "Bouteille de Morgon 3.14 Jean Foillard", price: "142.00€" },
-          { name: "Verre de Marsannay Sylvain Pataille", price: "12.00€" },
-          { name: "Jus de Fruits artisanaux Sélection", price: "7.50€" },
-          { name: "Eau micro-filtrée Le Pantruche (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité Lomi", price: "3.50€" }
+          { name: "Verre de Côtes-du-Rhône Jean-Luc Colombo", price_cents: 700, is_highlight: true },
+          { name: "Bouteille de Gringet AOP Savoie Rare", price_cents: 9500 },
+          { name: "Bouteille de Morgon 3.14 Jean Foillard", price_cents: 14200 },
+          { name: "Verre de Marsannay Sylvain Pataille", price_cents: 1200 },
+          { name: "Jus de Fruits artisanaux Sélection", price_cents: 750 },
+          { name: "Eau micro-filtrée Le Pantruche (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité Lomi", price_cents: 350 }
         ]
       }
     ]

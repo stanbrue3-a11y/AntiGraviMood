@@ -43,63 +43,68 @@ export const cuisine: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées de Marché",
+        category_type: "starter",
+        display_label: "Entrées de Marché",
         items: [
-          { name: "Xio Maï à l'Oursin, Châtaigne & Émulsion", price: "12.00€", highlight: true },
-          { name: "Ormeau & Os à Moelle, Sauce Bordelaise au Cacao", price: "15.00€", highlight: true },
-          { name: "Joue de Bœuf en Bourguignon & Oignons de Roscoff", price: "13.50€" },
-          { name: "Asperges Blanches, Sabayon Miso & Sésame", price: "11.00€", highlight: true },
-          { name: "Thon Rouge en Carpaccio & Algues Kombu", price: "14.50€" },
-          { name: "Tartare de Veau de Lait & Huître Creuse", price: "14.00€" },
-          { name: "Ris de Veau Croustillant & Jus Corsé au Xérès", price: "16.00€", highlight: true },
-          { name: "Poireaux Brûlés & Crème de Sésame Noir", price: "10.00€" }
+          { name: "Xio Maï à l'Oursin, Châtaigne & Émulsion", price_cents: 1200, is_highlight: true },
+          { name: "Ormeau & Os à Moelle, Sauce Bordelaise au Cacao", price_cents: 1500, is_highlight: true },
+          { name: "Joue de Bœuf en Bourguignon & Oignons de Roscoff", price_cents: 1350 },
+          { name: "Asperges Blanches, Sabayon Miso & Sésame", price_cents: 1100, is_highlight: true },
+          { name: "Thon Rouge en Carpaccio & Algues Kombu", price_cents: 1450 },
+          { name: "Tartare de Veau de Lait & Huître Creuse", price_cents: 1400 },
+          { name: "Ris de Veau Croustillant & Jus Corsé au Xérès", price_cents: 1600, is_highlight: true },
+          { name: "Poireaux Brûlés & Crème de Sésame Noir", price_cents: 1000 }
         ]
       },
       {
-        category: "Plats Fusion (Franco-Japonais)",
+        category_type: "main",
+        display_label: "Plats Fusion (Franco-Japonais)",
         items: [
-          { name: "Demi-Pigeon de Normandie façon Karaage", price: "28.00€", highlight: true },
-          { name: "Magret de Canard aux Cerises & Épices Douces", price: "26.00€" },
-          { name: "Bar de Ligne Grillé & Légumes Bio du Moment", price: "27.50€", highlight: true },
-          { name: "Dos de Cabillaud de Pêche Durable & Yuzu", price: "25.00€" },
-          { name: "Filet de Bœuf Mariné & Mousseline de Céleri", price: "29.00€", highlight: true },
-          { name: "Poulpe Braisé, Kimchi Maison & Riz Noir", price: "24.50€", highlight: true },
-          { name: "Saint-Jacques Poêlées, Sarrasin & Beurre Blanc", price: "26.00€" },
-          { name: "Pluma Ibérique Grillée & Sauce Ponzu", price: "25.50€" }
+          { name: "Demi-Pigeon de Normandie façon Karaage", price_cents: 2800, is_highlight: true },
+          { name: "Magret de Canard aux Cerises & Épices Douces", price_cents: 2600 },
+          { name: "Bar de Ligne Grillé & Légumes Bio du Moment", price_cents: 2750, is_highlight: true },
+          { name: "Dos de Cabillaud de Pêche Durable & Yuzu", price_cents: 2500 },
+          { name: "Filet de Bœuf Mariné & Mousseline de Céleri", price_cents: 2900, is_highlight: true },
+          { name: "Poulpe Braisé, Kimchi Maison & Riz Noir", price_cents: 2450, is_highlight: true },
+          { name: "Saint-Jacques Poêlées, Sarrasin & Beurre Blanc", price_cents: 2600 },
+          { name: "Pluma Ibérique Grillée & Sauce Ponzu", price_cents: 2550 }
         ]
       },
       {
-        category: "Petites Assiettes à Partager",
+        category_type: "sharing",
+        display_label: "Petites Assiettes à Partager",
         items: [
-          { name: "Croquettes de Poisson & Mayonnaise Wasabi", price: "9.50€", highlight: true },
-          { name: "Edamame au Sel de Mer & Piment", price: "6.00€" },
-          { name: "Tempura de Légumes de Saison & Sauce Tentsuyu", price: "11.00€" },
-          { name: "Gyoza Maison au Porc Fermier (x5)", price: "10.50€", highlight: true },
-          { name: "Sashimi de la Pêche du Jour (Sélection)", price: "14.00€" },
-          { name: "Tataki de Bœuf & Échalotes Confites", price: "13.00€", highlight: true },
-          { name: "Arancini à la Japonaise (Riz Sushi & Miso)", price: "8.50€" },
-          { name: "Plateau de Fromages de Producteurs Bio", price: "12.00€" }
+          { name: "Croquettes de Poisson & Mayonnaise Wasabi", price_cents: 950, is_highlight: true },
+          { name: "Edamame au Sel de Mer & Piment", price_cents: 600 },
+          { name: "Tempura de Légumes de Saison & Sauce Tentsuyu", price_cents: 1100 },
+          { name: "Gyoza Maison au Porc Fermier (x5)", price_cents: 1050, is_highlight: true },
+          { name: "Sashimi de la Pêche du Jour (Sélection)", price_cents: 1400 },
+          { name: "Tataki de Bœuf & Échalotes Confites", price_cents: 1300, is_highlight: true },
+          { name: "Arancini à la Japonaise (Riz Sushi & Miso)", price_cents: 850 },
+          { name: "Plateau de Fromages de Producteurs Bio", price_cents: 1200 }
         ]
       },
       {
-        category: "Desserts de Saison",
+        category_type: "dessert",
+        display_label: "Desserts de Saison",
         items: [
-          { name: "White Chocolate & Matcha Fondant", price: "10.00€", highlight: true },
-          { name: "Ganache Chocolat Noir & Éclats de Cacao", price: "9.50€" },
-          { name: "Tartelette aux Fruits de Saison (Artisanale)", price: "9.00€" },
-          { name: "Sorbet Maison (Citron-Gingembre)", price: "7.50€", highlight: true },
-          { name: "Moelleux à la Châtaigne & Crème Fouettée", price: "9.00€" },
-          { name: "Mousse Yuzu, Meringue & Menthe", price: "8.50€" }
+          { name: "White Chocolate & Matcha Fondant", price_cents: 1000, is_highlight: true },
+          { name: "Ganache Chocolat Noir & Éclats de Cacao", price_cents: 950 },
+          { name: "Tartelette aux Fruits de Saison (Artisanale)", price_cents: 900 },
+          { name: "Sorbet Maison (Citron-Gingembre)", price_cents: 750, is_highlight: true },
+          { name: "Moelleux à la Châtaigne & Crème Fouettée", price_cents: 900 },
+          { name: "Mousse Yuzu, Meringue & Menthe", price_cents: 850 }
         ]
       },
       {
-        category: "Vins Naturels & Bulles (Boissons)",
+        category_type: "drink",
+        display_label: "Vins Naturels & Bulles (Boissons)",
         items: [
-          { name: "Verre de Vin Blanc Nature (Sélection Loire)", price: "8.00€", highlight: true },
-          { name: "Verre de Vin Rouge Bio (Sélection Bourgogne)", price: "9.00€" },
-          { name: "Pétillant Naturel 'Pet-Nat' (Bouteille)", price: "38.00€", highlight: true },
-          { name: "Sake Artisanal Junmai (Verre)", price: "11.00€" },
-          { name: "Jus de Fruits Bio Pressé à Froid", price: "6.50€" }
+          { name: "Verre de Vin Blanc Nature (Sélection Loire)", price_cents: 800, is_highlight: true },
+          { name: "Verre de Vin Rouge Bio (Sélection Bourgogne)", price_cents: 900 },
+          { name: "Pétillant Naturel 'Pet-Nat' (Bouteille)", price_cents: 3800, is_highlight: true },
+          { name: "Sake Artisanal Junmai (Verre)", price_cents: 1100 },
+          { name: "Jus de Fruits Bio Pressé à Froid", price_cents: 650 }
         ]
       }
     ]

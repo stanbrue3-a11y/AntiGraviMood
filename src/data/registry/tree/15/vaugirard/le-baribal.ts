@@ -47,66 +47,71 @@ export const le_baribal: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
-                    { name: "Oeuf mayonnaise", price: "6.00€" },
-                    { name: "Harengs pommes à l'huile", price: "8.00€" },
-                    { name: "Soupe à l'oignon gratinée au Cantal", price: "9.70€" },
-                    { name: "Os à moelle", price: "10.60€" },
-                    { name: "6 gros escargots en persillade", price: "11.00€" },
-                    { name: "Saumon fumé et ses blinis", price: "11.00€" },
-                    { name: "Foie gras de canard et son chutney", price: "11.00€" }
+                    { name: "Oeuf mayonnaise", price_cents: 600 },
+                    { name: "Harengs pommes à l'huile", price_cents: 800 },
+                    { name: "Soupe à l'oignon gratinée au Cantal", price_cents: 970 },
+                    { name: "Os à moelle", price_cents: 1060 },
+                    { name: "6 gros escargots en persillade", price_cents: 1100 },
+                    { name: "Saumon fumé et ses blinis", price_cents: 1100 },
+                    { name: "Foie gras de canard et son chutney", price_cents: 1100 }
                 ]
             },
             {
-                category: "Viandes",
+                category_type: "main",
+                display_label: "Viandes",
                 items: [
-                    { name: "Burger du 82 avec lard", price: "16.00€" },
-                    { name: "Tartare de boeuf", price: "18.00€" },
-                    { name: "Tête de veau, sauce gribiche", price: "18.00€" },
-                    { name: "Andouillette AAAAA", price: "18.00€" },
-                    { name: "Onglet de boeuf échalotes", price: "18.90€" },
-                    { name: "Saucisse aligot Thérondels", price: "19.00€" },
-                    { name: "Foie de veau persillé", price: "19.00€" },
-                    { name: "Rognons de veau, sauce moutarde", price: "19.00€" },
-                    { name: "Côtes d'agneau, sauce pistou", price: "19.00€" },
-                    { name: "Magret de canard sauce miel", price: "21.00€" },
-                    { name: "Tartare du Baribal (moelle)", price: "21.00€" },
-                    { name: "Entrecôte (300g) béarnaise", price: "23.80€" },
-                    { name: "Ris de veau, crème champignon", price: "26.00€" },
-                    { name: "Côte de boeuf 1 kg", price: "63.00€" }
+                    { name: "Burger du 82 avec lard", price_cents: 1600 },
+                    { name: "Tartare de boeuf", price_cents: 1800 },
+                    { name: "Tête de veau, sauce gribiche", price_cents: 1800 },
+                    { name: "Andouillette AAAAA", price_cents: 1800 },
+                    { name: "Onglet de boeuf échalotes", price_cents: 1890 },
+                    { name: "Saucisse aligot Thérondels", price_cents: 1900 },
+                    { name: "Foie de veau persillé", price_cents: 1900 },
+                    { name: "Rognons de veau, sauce moutarde", price_cents: 1900 },
+                    { name: "Côtes d'agneau, sauce pistou", price_cents: 1900 },
+                    { name: "Magret de canard sauce miel", price_cents: 2100 },
+                    { name: "Tartare du Baribal (moelle)", price_cents: 2100 },
+                    { name: "Entrecôte (300g) béarnaise", price_cents: 2380 },
+                    { name: "Ris de veau, crème champignon", price_cents: 2600 },
+                    { name: "Côte de boeuf 1 kg", price_cents: 6300 }
                 ]
             },
             {
-                category: "Poissons",
+                category_type: "main",
+                display_label: "Poissons",
                 items: [
-                    { name: "Fish burger, sauce tartare", price: "18.50€" },
-                    { name: "Gambas flambées au Jack", price: "19.00€" },
-                    { name: "Saumon vapeur, fondue de poireaux", price: "19.00€" },
-                    { name: "Filet de bar grillé, sauce pistou", price: "19.00€" },
-                    { name: "Thon grillé, sauce beurre persillé", price: "22.00€" },
-                    { name: "Daurade grillée, beurre citronné", price: "22.00€" }
+                    { name: "Fish burger, sauce tartare", price_cents: 1850 },
+                    { name: "Gambas flambées au Jack", price_cents: 1900 },
+                    { name: "Saumon vapeur, fondue de poireaux", price_cents: 1900 },
+                    { name: "Filet de bar grillé, sauce pistou", price_cents: 1900 },
+                    { name: "Thon grillé, sauce beurre persillé", price_cents: 2200 },
+                    { name: "Daurade grillée, beurre citronné", price_cents: 2200 }
                 ]
             },
             {
-                category: "Salades",
+                category_type: "other",
+                display_label: "Salades",
                 items: [
-                    { name: "César du Baribal", price: "17.00€" },
-                    { name: "Italienne", price: "18.00€" },
-                    { name: "Océane", price: "19.00€" },
-                    { name: "Périgourdine", price: "19.00€" }
+                    { name: "César du Baribal", price_cents: 1700 },
+                    { name: "Italienne", price_cents: 1800 },
+                    { name: "Océane", price_cents: 1900 },
+                    { name: "Périgourdine", price_cents: 1900 }
                 ]
             },
             {
-                category: "Desserts & Boissons",
+                category_type: "dessert",
+                display_label: "Desserts & Boissons",
                 items: [
-                    { name: "Mousse au chocolat", price: "7.00€" },
-                    { name: "Tarte citron meringuée", price: "7.50€" },
-                    { name: "Tarte Tatin", price: "7.50€" },
-                    { name: "Crème brûlée", price: "8.00€" },
-                    { name: "Profiterole géante", price: "11.00€" },
-                    { name: "Café gourmand", price: "11.50€" },
-                    { name: "Pression 25cl (Kanterbrau)", price: "3.50€" }
+                    { name: "Mousse au chocolat", price_cents: 700 },
+                    { name: "Tarte citron meringuée", price_cents: 750 },
+                    { name: "Tarte Tatin", price_cents: 750 },
+                    { name: "Crème brûlée", price_cents: 800 },
+                    { name: "Profiterole géante", price_cents: 1100 },
+                    { name: "Café gourmand", price_cents: 1150 },
+                    { name: "Pression 25cl (Kanterbrau)", price_cents: 350 }
                 ]
             }
         ]

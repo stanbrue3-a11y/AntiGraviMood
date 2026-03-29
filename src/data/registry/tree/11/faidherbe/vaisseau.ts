@@ -45,37 +45,40 @@ export const vaisseau: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Vaisseau by Adrien Cachot 2024-2025
             {
-                category: "Menus Dégustation (Carte Blanche)",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation (Carte Blanche)",
                 items: [
-                    { name: "Le 'Menu Quoi' (Déjeuner)", price: "60.00€", description: "Menu surprise en plusieurs étapes." },
-                    { name: "Le 'Menu N'importe quoi' (Dîner)", price: "120.00€", description: "L'expérience complète Adrien Cachot." },
-                    { name: "Le 'Menu Grand n'importe quoi'", price: "180.00€", description: "Immersion totale sans limites." }
+                    { name: "Le 'Menu Quoi' (Déjeuner)", price_cents: 6000, description: "Menu surprise en plusieurs étapes." },
+                    { name: "Le 'Menu N'importe quoi' (Dîner)", price_cents: 12000, description: "L'expérience complète Adrien Cachot." },
+                    { name: "Le 'Menu Grand n'importe quoi'", price_cents: 18000, description: "Immersion totale sans limites." }
                 ]
             },
             {
-                category: "Accords Mets & Boissons",
+                category_type: "drink",
+                display_label: "Accords Mets & Boissons",
                 items: [
-                    { name: "Accord Boissons (Déjeuner)", price: "40.00€" },
-                    { name: "Accord Boissons (Dîner)", price: "80.00€" },
-                    { name: "Accord 'Grand n'importe quoi'", price: "100.00€" }
+                    { name: "Accord Boissons (Déjeuner)", price_cents: 4000 },
+                    { name: "Accord Boissons (Dîner)", price_cents: 8000 },
+                    { name: "Accord 'Grand n'importe quoi'", price_cents: 10000 }
                 ]
             },
             {
-                category: "Inspirations (Séquences Adrien Cachot)",
+                category_type: "other",
+                display_label: "Inspirations (Séquences Adrien Cachot)",
                 items: [
-                    { name: "Mochi Cacio e Pepe", price: "Inclus", description: "Réinterprétation culte mêlant textures japonaises et saveurs romaines." },
-                    { name: "Gaspach-eau de tomates & piment", price: "Inclus" },
-                    { name: "Cervelle de veau Karaage & gribiche", price: "Inclus" },
-                    { name: "Os à moelle & anchois de la Maison Dehesa", price: "Inclus" },
-                    { name: "Bulots au persil plat & ail noir", price: "Inclus" },
-                    { name: "Lentilles beluga & Caviar Osciètre", price: "Inclus" },
-                    { name: "Ris de veau à la réglisse & purée de blettes", price: "Inclus" },
-                    { name: "Anguille fumée & betterave laquée", price: "Inclus" },
-                    { name: "Coeur de pigeon, sang et hibiscus", price: "Inclus" },
-                    { name: "Mont-Blanc aux champignons de Paris", price: "Inclus" },
-                    { name: "Dessert à la levure de boulanger & miel", price: "Inclus" },
-                    { name: "Eau micro-filtrée", price: "Inclus" },
-                    { name: "Mignardises insolentes", price: "Inclus" }
+                    { name: "Mochi Cacio e Pepe", price_cents: 0, description: "Réinterprétation culte mêlant textures japonaises et saveurs romaines." },
+                    { name: "Gaspach-eau de tomates & piment", price_cents: 0 },
+                    { name: "Cervelle de veau Karaage & gribiche", price_cents: 0 },
+                    { name: "Os à moelle & anchois de la Maison Dehesa", price_cents: 0 },
+                    { name: "Bulots au persil plat & ail noir", price_cents: 0 },
+                    { name: "Lentilles beluga & Caviar Osciètre", price_cents: 0 },
+                    { name: "Ris de veau à la réglisse & purée de blettes", price_cents: 0 },
+                    { name: "Anguille fumée & betterave laquée", price_cents: 0 },
+                    { name: "Coeur de pigeon, sang et hibiscus", price_cents: 0 },
+                    { name: "Mont-Blanc aux champignons de Paris", price_cents: 0 },
+                    { name: "Dessert à la levure de boulanger & miel", price_cents: 0 },
+                    { name: "Eau micro-filtrée", price_cents: 0 },
+                    { name: "Mignardises insolentes", price_cents: 0 }
                 ]
             }
         ]

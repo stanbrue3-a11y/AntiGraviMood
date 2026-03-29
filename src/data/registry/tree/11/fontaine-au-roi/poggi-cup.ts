@@ -26,58 +26,62 @@ export const poggiCup: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Savory Cups (Salé)",
+                category_type: "other",
+                display_label: "Savory Cups (Salé)",
                 items: [
-                    { name: "Poggi Classic (Best-seller)", price: "12.00€", description: "Crumble parmesan, oignons, lard fumé, mousse emmental." },
-                    { name: "Poggi Étudiant", price: "7.50€", description: "Poulet, PDT confites, oignons frits, mousse emmental." },
-                    { name: "Poggi Kefta", price: "14.00€", description: "Boulettes de bœuf, sauce blanche herbes, chips." },
-                    { name: "Poggi Fish", price: "12.00€", description: "Saumon gravlax, houmous, tahini & feta." },
-                    { name: "Poggi Beef", price: "12.00€", description: "Bœuf effiloché, carottes rôties, ail & persil." },
-                    { name: "Poggi Veggie (V)", price: "12.00€", description: "Boulgour, grenade, leeks fondants, yaourt-harissa." },
-                    { name: "Poggi Pasta", price: "10.00€", description: "Pâtes, jambon ou poulet, mousse huile de truffe." },
-                    { name: "Poggi Winter (Seasonal)", price: "11.50€", description: "Bresaola, pesto roquette, mousse Reblochon." },
-                    { name: "Poggi Black", price: "13.00€", description: "Charbon végétal, champignons, Saint-Félicien." },
-                    { name: "Poggi Butternut & Burrata", price: "11.00€" },
-                    { name: "Poggi Autumn", price: "12.00€", description: "Butternut, champignons, Comté, noisettes." },
-                    { name: "Spring Vegan Cup", price: "11.50€", description: "Pois chiches, asperges, houmous." }
+                    { name: "Poggi Classic (Best-seller)", price_cents: 1200, description: "Crumble parmesan, oignons, lard fumé, mousse emmental." },
+                    { name: "Poggi Étudiant", price_cents: 750, description: "Poulet, PDT confites, oignons frits, mousse emmental." },
+                    { name: "Poggi Kefta", price_cents: 1400, description: "Boulettes de bœuf, sauce blanche herbes, chips." },
+                    { name: "Poggi Fish", price_cents: 1200, description: "Saumon gravlax, houmous, tahini & feta." },
+                    { name: "Poggi Beef", price_cents: 1200, description: "Bœuf effiloché, carottes rôties, ail & persil." },
+                    { name: "Poggi Veggie (V)", price_cents: 1200, description: "Boulgour, grenade, leeks fondants, yaourt-harissa." },
+                    { name: "Poggi Pasta", price_cents: 1000, description: "Pâtes, jambon ou poulet, mousse huile de truffe." },
+                    { name: "Poggi Winter (Seasonal)", price_cents: 1150, description: "Bresaola, pesto roquette, mousse Reblochon." },
+                    { name: "Poggi Black", price_cents: 1300, description: "Charbon végétal, champignons, Saint-Félicien." },
+                    { name: "Poggi Butternut & Burrata", price_cents: 1100 },
+                    { name: "Poggi Autumn", price_cents: 1200, description: "Butternut, champignons, Comté, noisettes." },
+                    { name: "Spring Vegan Cup", price_cents: 1150, description: "Pois chiches, asperges, houmous." }
                 ]
             },
             {
-                category: "Sweet Cups (Sucré)",
+                category_type: "dessert",
+                display_label: "Sweet Cups (Sucré)",
                 items: [
-                    { name: "Poggi Tiramisu Praliné", price: "6.50€", description: "Espuma mascarpone, crunchy praliné." },
-                    { name: "Poggi Lemon & Noisette", price: "6.50€", description: "Crème citron, streusel noisette, guimauve chaux." },
-                    { name: "Poggi Strawberry & Basil", price: "7.00€", description: "Fraise fraîche, chantilly amande, basilic." },
-                    { name: "Brioche Pain Perdu Cup", price: "7.50€", description: "Caramel beurre salé, ganache chocolat blanc." },
-                    { name: "Poggi Chocolat & Peanuts", price: "7.50€", description: "Crumble, caramel, cacahuètes grillées." },
-                    { name: "Poggi Apple & Cinnamon", price: "7.50€" },
-                    { name: "Fruit Salad Passion", price: "5.50€" },
-                    { name: "Poggi Yoghurt & Blueberries", price: "5.50€" },
-                    { name: "Poggi Poire Vanille", price: "6.50€" }
+                    { name: "Poggi Tiramisu Praliné", price_cents: 650, description: "Espuma mascarpone, crunchy praliné." },
+                    { name: "Poggi Lemon & Noisette", price_cents: 650, description: "Crème citron, streusel noisette, guimauve chaux." },
+                    { name: "Poggi Strawberry & Basil", price_cents: 700, description: "Fraise fraîche, chantilly amande, basilic." },
+                    { name: "Brioche Pain Perdu Cup", price_cents: 750, description: "Caramel beurre salé, ganache chocolat blanc." },
+                    { name: "Poggi Chocolat & Peanuts", price_cents: 750, description: "Crumble, caramel, cacahuètes grillées." },
+                    { name: "Poggi Apple & Cinnamon", price_cents: 750 },
+                    { name: "Fruit Salad Passion", price_cents: 550 },
+                    { name: "Poggi Yoghurt & Blueberries", price_cents: 550 },
+                    { name: "Poggi Poire Vanille", price_cents: 650 }
                 ]
             },
             {
-                category: "Bakery & Cookies",
+                category_type: "other",
+                display_label: "Bakery & Cookies",
                 items: [
-                    { name: "Cookie Triple Chocolat", price: "3.60€" },
-                    { name: "Cookie Sea Salt & Chocolat Noir", price: "3.50€" },
-                    { name: "Cookie White Choc & Raspberry", price: "3.60€" },
-                    { name: "Muffin Double Choco", price: "3.95€" },
-                    { name: "Muffin Blueberry", price: "3.95€" },
-                    { name: "Muffin Cocoa", price: "3.95€" }
+                    { name: "Cookie Triple Chocolat", price_cents: 360 },
+                    { name: "Cookie Sea Salt & Chocolat Noir", price_cents: 350 },
+                    { name: "Cookie White Choc & Raspberry", price_cents: 360 },
+                    { name: "Muffin Double Choco", price_cents: 395 },
+                    { name: "Muffin Blueberry", price_cents: 395 },
+                    { name: "Muffin Cocoa", price_cents: 395 }
                 ]
             },
             {
-                category: "Drinks & Formulas",
+                category_type: "other",
+                display_label: "Drinks & Formulas",
                 items: [
-                    { name: "Organic Lemon'aid Passion", price: "4.80€" },
-                    { name: "Organic Lemon'aid Lime", price: "4.80€" },
-                    { name: "Fair-trade Cola", price: "4.50€" },
-                    { name: "Still Water (50cl)", price: "2.50€" },
-                    { name: "Sparkling Water (50cl)", price: "2.50€" },
-                    { name: "Formula Poggi + Drink", price: "14.90€" },
-                    { name: "Formula Complet (Poggi + Cookie + Drink)", price: "16.90€" },
-                    { name: "Formula Gourmand (Poggi + Sweet + Drink)", price: "19.00€" }
+                    { name: "Organic Lemon'aid Passion", price_cents: 480 },
+                    { name: "Organic Lemon'aid Lime", price_cents: 480 },
+                    { name: "Fair-trade Cola", price_cents: 450 },
+                    { name: "Still Water (50cl)", price_cents: 250 },
+                    { name: "Sparkling Water (50cl)", price_cents: 250 },
+                    { name: "Formula Poggi + Drink", price_cents: 1490 },
+                    { name: "Formula Complet (Poggi + Cookie + Drink)", price_cents: 1690 },
+                    { name: "Formula Gourmand (Poggi + Sweet + Drink)", price_cents: 1900 }
                 ]
             }
         ]

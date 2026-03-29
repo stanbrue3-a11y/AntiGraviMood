@@ -43,51 +43,57 @@ export const goguette: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Menu Goguette (Formule Midi)",
+                category_type: "tasting_menu",
+                display_label: "Menu Goguette (Formule Midi)",
                 items: [
                     // VERIFIED: Musiam-Paris + lacarte.menu (2024-2025)
-                    { name: "Menu Goguette (Plat + Dessert + Boisson fraîche)", price: "21.50€", description: "Formule complète avec choix de plat." }
+                    { name: "Menu Goguette (Plat + Dessert + Boisson fraîche)", price_cents: 2150, description: "Formule complète avec choix de plat." }
                 ]
             },
             {
-                category: "Entrées & Soupes",
+                category_type: "starter",
+                display_label: "Entrées & Soupes",
                 items: [
-                    { name: "Soupe du moment", price: "6.50€" },
-                    { name: "Tarte courgette, tomate et chèvre", price: "9.00€" },
-                    { name: "Salade pâtes Risoni", price: "8.00€" }
+                    { name: "Soupe du moment", price_cents: 650 },
+                    { name: "Tarte courgette, tomate et chèvre", price_cents: 900 },
+                    { name: "Salade pâtes Risoni", price_cents: 800 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
-                    { name: "Filet de daurade, ratatouille et sauce vierge", price: "17.00€" },
-                    { name: "Suprême de volaille, pommes grenailles, jus au romarin", price: "17.00€" },
-                    { name: "Goguette Burger, sauce pickles, frites", price: "17.00€" },
-                    { name: "Poulet façon basquaise, riz pilaf", price: "17.00€" },
-                    { name: "Tortiglioni, tomate, basilic et Grana Padano", price: "15.00€" },
-                    { name: "Tarte méditerranéenne, salade verte", price: "14.00€" }
+                    { name: "Filet de daurade, ratatouille et sauce vierge", price_cents: 1700 },
+                    { name: "Suprême de volaille, pommes grenailles, jus au romarin", price_cents: 1700 },
+                    { name: "Goguette Burger, sauce pickles, frites", price_cents: 1700 },
+                    { name: "Poulet façon basquaise, riz pilaf", price_cents: 1700 },
+                    { name: "Tortiglioni, tomate, basilic et Grana Padano", price_cents: 1500 },
+                    { name: "Tarte méditerranéenne, salade verte", price_cents: 1400 }
                 ]
             },
             {
-                category: "Accompagnements",
+                category_type: "other",
+                display_label: "Accompagnements",
                 items: [
-                    { name: "Poêlée de légumes", price: "6.00€" },
-                    { name: "Pommes frites", price: "6.00€" },
-                    { name: "Petit pain nature Solène (70g)", price: "0.80€" }
+                    { name: "Poêlée de légumes", price_cents: 600 },
+                    { name: "Pommes frites", price_cents: 600 },
+                    { name: "Petit pain nature Solène (70g)", price_cents: 80 }
                 ]
             },
             {
-                category: "Assiettes du Soir (selon le chef)",
+                category_type: "other",
+                display_label: "Assiettes du Soir (selon le chef)",
                 items: [
-                    { name: "Petites assiettes à partager (prix moyen)", price: "18.00€", description: "Brouillades, poissons crûs, légumes de saison selon l'humeur du chef." },
-                    { name: "Assiette de charcuteries et fromages", price: "16.00€" }
+                    { name: "Petites assiettes à partager (prix moyen)", price_cents: 1800, description: "Brouillades, poissons crûs, légumes de saison selon l'humeur du chef." },
+                    { name: "Assiette de charcuteries et fromages", price_cents: 1600 }
                 ]
             },
             {
-                category: "Vins Natures",
+                category_type: "drink",
+                display_label: "Vins Natures",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "9.00€" },
-                    { name: "Bouteille de vin nature (à partir de)", price: "30.00€" }
+                    { name: "Verre de vin nature (à partir de)", price_cents: 900 },
+                    { name: "Bouteille de vin nature (à partir de)", price_cents: 3000 }
                 ]
             }
         ]

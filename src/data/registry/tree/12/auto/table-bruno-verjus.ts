@@ -43,57 +43,62 @@ export const table_bruno_verjus: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Menus & Découvertes (Plats)",
+        category_type: "main",
+        display_label: "Menus & Découvertes (Plats)",
         items: [
-          { name: "Menu 'Couleurs du Jour' (Déjeuner)", price: "240.00€", description: "Séquences créatives selon arrivage.", highlight: true },
-          { name: "Expérience 'Tasting Journey' (Dîner)", price: "400.00€", description: "L'immersion totale en 15+ étapes.", highlight: true },
-          { name: "Accord Mets & Vins 'Découverte'", price: "150.00€" },
-          { name: "Accord Mets & Vins 'Prestige'", price: "300.00€" },
-          { name: "Menu Végétarien (Sur demande 48h)", price: "250.00€" }
+          { name: "Menu 'Couleurs du Jour' (Déjeuner)", price_cents: 24000, description: "Séquences créatives selon arrivage.", is_highlight: true },
+          { name: "Expérience 'Tasting Journey' (Dîner)", price_cents: 40000, description: "L'immersion totale en 15+ étapes.", is_highlight: true },
+          { name: "Accord Mets & Vins 'Découverte'", price_cents: 15000 },
+          { name: "Accord Mets & Vins 'Prestige'", price_cents: 30000 },
+          { name: "Menu Végétarien (Sur demande 48h)", price_cents: 25000 }
         ]
       },
       {
-        category: "Séquences Signature (Plats)",
+        category_type: "main",
+        display_label: "Séquences Signature (Plats)",
         items: [
-          { name: "Grosse Crevette 'Carabinero' mi-cuite", price: "0.00€", highlight: true },
-          { name: "Sardines de Saint-Gilles, citron confit", price: "0.00€", highlight: true },
-          { name: "Huîtres Utah Beach, cervelle de veau", price: "0.00€" },
-          { name: "Homard de casier, beurre de corail", price: "0.00€" },
-          { name: "Rouget de roche grillé sur peau", price: "0.00€" },
-          { name: "Poularde Gauloise rôtie en patience", price: "0.00€" },
-          { name: "Turbot sauvage & asperges de Mallemort", price: "0.00€" },
-          { name: "Ris de Veau fumé au foin", price: "0.00€" }
+          { name: "Grosse Crevette 'Carabinero' mi-cuite", price_cents: 0, is_highlight: true },
+          { name: "Sardines de Saint-Gilles, citron confit", price_cents: 0, is_highlight: true },
+          { name: "Huîtres Utah Beach, cervelle de veau", price_cents: 0 },
+          { name: "Homard de casier, beurre de corail", price_cents: 0 },
+          { name: "Rouget de roche grillé sur peau", price_cents: 0 },
+          { name: "Poularde Gauloise rôtie en patience", price_cents: 0 },
+          { name: "Turbot sauvage & asperges de Mallemort", price_cents: 0 },
+          { name: "Ris de Veau fumé au foin", price_cents: 0 }
         ]
       },
       {
-        category: "Douceurs & Créations (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs & Créations (Desserts)",
         items: [
-          { name: "Tartelette Chocolat, sel & caviar Ossetra", price: "0.00€", highlight: true },
-          { name: "Madeleines tièdes à l'huile d'olive de Kardamili", price: "0.00€" },
-          { name: "Fraises des bois, crème de cameline", price: "0.00€" },
-          { name: "Glace au lait cru & miel de forêt", price: "0.00€" }
+          { name: "Tartelette Chocolat, sel & caviar Ossetra", price_cents: 0, is_highlight: true },
+          { name: "Madeleines tièdes à l'huile d'olive de Kardamili", price_cents: 0 },
+          { name: "Fraises des bois, crème de cameline", price_cents: 0 },
+          { name: "Glace au lait cru & miel de forêt", price_cents: 0 }
         ]
       },
       {
-        category: "La Cave de Bruno (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Bruno (Boissons)",
         items: [
-          { name: "Verre de Vin 'Arbois' (Sélection)", price: "18.00€", highlight: true },
-          { name: "Verre de Meursault 'Prestige'", price: "35.00€" },
-          { name: "Champagne Jacquesson (Verre)", price: "25.00€" },
-          { name: "Bouteille Collection Jura (à partir de)", price: "95.00€" },
-          { name: "Vin de Paille (Digestif)", price: "22.00€" },
-          { name: "Cognac Grande Champagne Heritage", price: "28.00€" }
+          { name: "Verre de Vin 'Arbois' (Sélection)", price_cents: 1800, is_highlight: true },
+          { name: "Verre de Meursault 'Prestige'", price_cents: 3500 },
+          { name: "Champagne Jacquesson (Verre)", price_cents: 2500 },
+          { name: "Bouteille Collection Jura (à partir de)", price_cents: 9500 },
+          { name: "Vin de Paille (Digestif)", price_cents: 2200 },
+          { name: "Cognac Grande Champagne Heritage", price_cents: 2800 }
         ]
       },
       {
-        category: "Boissons & Spécialités (Boissons)",
+        category_type: "drink",
+        display_label: "Boissons & Spécialités (Boissons)",
         items: [
-          { name: "Eau micro-filtrée Table (75cl)", price: "6.00€" },
-          { name: "Infusion de plantes fraîches", price: "8.00€" },
-          { name: "Café de Terroir torréfié minutieusement", price: "6.00€", highlight: true },
-          { name: "Jus de Légumes 'Minute'", price: "12.00€" },
-          { name: "Kombucha Grand Cru", price: "14.00€" },
-          { name: "Nectar de fruits Alain Milliat", price: "9.00€" }
+          { name: "Eau micro-filtrée Table (75cl)", price_cents: 600 },
+          { name: "Infusion de plantes fraîches", price_cents: 800 },
+          { name: "Café de Terroir torréfié minutieusement", price_cents: 600, is_highlight: true },
+          { name: "Jus de Légumes 'Minute'", price_cents: 1200 },
+          { name: "Kombucha Grand Cru", price_cents: 1400 },
+          { name: "Nectar de fruits Alain Milliat", price_cents: 900 }
         ]
       }
     ]

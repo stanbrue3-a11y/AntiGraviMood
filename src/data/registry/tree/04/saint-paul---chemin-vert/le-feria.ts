@@ -46,58 +46,63 @@ export const le_feria: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Drinks & Apéro",
+                category_type: "other",
+                display_label: "Drinks & Apéro",
                 items: [
-                    { name: "Pinte de bière", price: "6.00€" },
-                    { name: "Shots (unité)", price: "4.00€" },
-                    { name: "Coca Cola (33cl)", price: "4.00€" },
-                    { name: "Lipton Ice Tea (33cl)", price: "4.00€" }
+                    { name: "Pinte de bière", price_cents: 600 },
+                    { name: "Shots (unité)", price_cents: 400 },
+                    { name: "Coca Cola (33cl)", price_cents: 400 },
+                    { name: "Lipton Ice Tea (33cl)", price_cents: 400 }
                 ]
             },
             {
-                category: "Tapas pour accompagner",
+                category_type: "sharing",
+                display_label: "Tapas pour accompagner",
                 items: [
-                    { name: "Egg toast (Foie gras, champignons)", price: "9.00€" },
-                    { name: "Burratina (Huile de truffe, roquette)", price: "9.00€" },
-                    { name: "Saumon Gravlax", price: "9.00€" },
-                    { name: "Falafels et légumes rôtis", price: "9.00€" },
-                    { name: "Oeufs cocotte, saumon fumé", price: "9.00€" },
-                    { name: "Nems de poulet", price: "10.50€" }
+                    { name: "Egg toast (Foie gras, champignons)", price_cents: 900 },
+                    { name: "Burratina (Huile de truffe, roquette)", price_cents: 900 },
+                    { name: "Saumon Gravlax", price_cents: 900 },
+                    { name: "Falafels et légumes rôtis", price_cents: 900 },
+                    { name: "Oeufs cocotte, saumon fumé", price_cents: 900 },
+                    { name: "Nems de poulet", price_cents: 1050 }
                 ]
             },
             {
-                category: "Pizzas à partager",
+                category_type: "main",
+                display_label: "Pizzas à partager",
                 items: [
-                    { name: "Margherita", price: "11.90€" },
-                    { name: "Diavola (Spianata piquante)", price: "15.70€" },
-                    { name: "La 'Hulk' (Pesto verde, stracciatella)", price: "16.70€" },
-                    { name: "Tartufo (Crème de truffe, copeaux)", price: "24.90€" }
+                    { name: "Margherita", price_cents: 1190 },
+                    { name: "Diavola (Spianata piquante)", price_cents: 1570 },
+                    { name: "La 'Hulk' (Pesto verde, stracciatella)", price_cents: 1670 },
+                    { name: "Tartufo (Crème de truffe, copeaux)", price_cents: 2490 }
                 ]
             },
             {
-                category: "Brasserie & Plats",
+                category_type: "main",
+                display_label: "Brasserie & Plats",
                 items: [
-                    { name: "Salade Falafels et rôtis", price: "13.00€" },
-                    { name: "Salade César", price: "13.00€" },
-                    { name: "Poke bowl (Saumon, avocat, mangue)", price: "13.00€" },
-                    { name: "Suprême de poulet", price: "13.00€" },
-                    { name: "Feria Burger", price: "13.00€" },
-                    { name: "Poisson cuit sur peau", price: "13.00€" },
-                    { name: "Cassolette de boulettes, linguine", price: "13.00€" },
-                    { name: "Poulet fermier rôti, purée patate douce", price: "14.00€" },
-                    { name: "Tartare de boeuf, frites fraîches", price: "14.50€" },
-                    { name: "Onglet de boeuf rôti", price: "16.50€" }
+                    { name: "Salade Falafels et rôtis", price_cents: 1300 },
+                    { name: "Salade César", price_cents: 1300 },
+                    { name: "Poke bowl (Saumon, avocat, mangue)", price_cents: 1300 },
+                    { name: "Suprême de poulet", price_cents: 1300 },
+                    { name: "Feria Burger", price_cents: 1300 },
+                    { name: "Poisson cuit sur peau", price_cents: 1300 },
+                    { name: "Cassolette de boulettes, linguine", price_cents: 1300 },
+                    { name: "Poulet fermier rôti, purée patate douce", price_cents: 1400 },
+                    { name: "Tartare de boeuf, frites fraîches", price_cents: 1450 },
+                    { name: "Onglet de boeuf rôti", price_cents: 1650 }
                 ]
             },
             {
-                category: "Desserts & Brunch",
+                category_type: "dessert",
+                display_label: "Desserts & Brunch",
                 items: [
-                    { name: "Crêpes au sucre", price: "5.50€" },
-                    { name: "Cheesecake en pot, Nutella", price: "7.00€" },
-                    { name: "Pain perdu, fruits rouges", price: "7.00€" },
-                    { name: "Tiramisu", price: "7.50€" },
-                    { name: "Crème brûlée", price: "7.50€" },
-                    { name: "Brunch Buffet à Volonté (Week-end)", price: "31.00€" }
+                    { name: "Crêpes au sucre", price_cents: 550 },
+                    { name: "Cheesecake en pot, Nutella", price_cents: 700 },
+                    { name: "Pain perdu, fruits rouges", price_cents: 700 },
+                    { name: "Tiramisu", price_cents: 750 },
+                    { name: "Crème brûlée", price_cents: 750 },
+                    { name: "Brunch Buffet à Volonté (Week-end)", price_cents: 3100 }
                 ]
             }
         ]

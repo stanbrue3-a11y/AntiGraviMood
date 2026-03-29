@@ -40,30 +40,39 @@ export const le_vieux_chalet: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Les Entrées de Tradition", items: [
-        { name: "Soupe à l'Oignon Maison Gratinée", price: "9.50€" },
-        { name: "Escargots de Bourgogne (x6)", price: "12.50€", description: "Beurre persillé et ail" },
-        { name: "Terrine du Chef & Cornichons", price: "8.50€" },
-        { name: "Salade de Chèvre chaud sur Toast", price: "11.00€" },
-        { name: "Méli-mélo de Tomates Mozzarella", price: "10.50€" },
-        { name: "Os à Moelle à la Fleur de Sel", price: "9.50€" }
+      {
+        category_type: "starter",
+        display_label: "Les Entrées de Tradition",
+        items: [
+        { name: "Soupe à l'Oignon Maison Gratinée", price_cents: 950 },
+        { name: "Escargots de Bourgogne (x6)", price_cents: 1250, description: "Beurre persillé et ail" },
+        { name: "Terrine du Chef & Cornichons", price_cents: 850 },
+        { name: "Salade de Chèvre chaud sur Toast", price_cents: 1100 },
+        { name: "Méli-mélo de Tomates Mozzarella", price_cents: 1050 },
+        { name: "Os à Moelle à la Fleur de Sel", price_cents: 950 }
       ]},
-      { category: "Les Plats Gourmands", items: [
-        { name: "Bœuf Bourguignon à l'Ancienne", price: "18.50€" },
-        { name: "Confit de Canard du Sud-Ouest", price: "19.50€" },
-        { name: "Sole Meunière Citronnée", price: "28.00€" },
-        { name: "Magret de Canard au Miel & Épices", price: "21.00€" },
-        { name: "Blanquette de Veau au Riz Pilaf", price: "17.50€" },
-        { name: "Faux-filet Grillé (250g)", price: "22.50€" },
-        { name: "Truite Meunière aux Amandes", price: "18.00€" },
-        { name: "Plateau de Fromages de Nos Régions", price: "14.50€" }
+      {
+        category_type: "main",
+        display_label: "Les Plats Gourmands",
+        items: [
+        { name: "Bœuf Bourguignon à l'Ancienne", price_cents: 1850 },
+        { name: "Confit de Canard du Sud-Ouest", price_cents: 1950 },
+        { name: "Sole Meunière Citronnée", price_cents: 2800 },
+        { name: "Magret de Canard au Miel & Épices", price_cents: 2100 },
+        { name: "Blanquette de Veau au Riz Pilaf", price_cents: 1750 },
+        { name: "Faux-filet Grillé (250g)", price_cents: 2250 },
+        { name: "Truite Meunière aux Amandes", price_cents: 1800 },
+        { name: "Plateau de Fromages de Nos Régions", price_cents: 1450 }
       ]},
-      { category: "Les Douceurs Maison", items: [
-        { name: "Tatin Maison & Crème Fraîche", price: "8.50€" },
-        { name: "Crème Brûlée à la Cassonade", price: "7.50€" },
-        { name: "Mousse au Chocolat Noir 70%", price: "6.50€" },
-        { name: "Profiteroles au Chocolat chaud", price: "9.50€" },
-        { name: "Café très Gourmand", price: "10.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Les Douceurs Maison",
+        items: [
+        { name: "Tatin Maison & Crème Fraîche", price_cents: 850 },
+        { name: "Crème Brûlée à la Cassonade", price_cents: 750 },
+        { name: "Mousse au Chocolat Noir 70%", price_cents: 650 },
+        { name: "Profiteroles au Chocolat chaud", price_cents: 950 },
+        { name: "Café très Gourmand", price_cents: 1000 }
       ]}
     ]
   },

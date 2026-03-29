@@ -48,29 +48,32 @@ export const rim_cafe: SurgicalPlace = {
         "smart_tip": "Le Happy Hour de 16h à 20h est l'un des meilleurs plans du quartier Saint-Michel pour un spritz en terrasse.",
         "menu_items": [
             {
-                "category": "Antipasti & Bruschettas",
+                "category_type": "starter",
+                "display_label": "Antipasti & Bruschettas",
                 "items": [
-                    { "name": "Mix de Bruschetta", "price": "12,00€" },
-                    { "name": "Burrata crémeuse et tomates d'Antan", "price": "14,00€" },
-                    { "name": "Planche de charcuterie italienne", "price": "18,00€" }
+                    { "name": "Mix de Bruschetta", "price_cents": 1200 },
+                    { "name": "Burrata crémeuse et tomates d'Antan", "price_cents": 1400 },
+                    { "name": "Planche de charcuterie italienne", "price_cents": 1800 }
                 ]
             },
             {
-                "category": "Pizzas au Feu de Bois",
+                "category_type": "main",
+                "display_label": "Pizzas au Feu de Bois",
                 "items": [
-                    { "name": "Margherita", "price": "13,00€" },
-                    { "name": "Regina", "price": "15,00€" },
-                    { "name": "Tartufo (Crème de truffe)", "price": "19,00€" },
-                    { "name": "Rim Café (Spécialité)", "price": "17,00€" }
+                    { "name": "Margherita", "price_cents": 1300 },
+                    { "name": "Regina", "price_cents": 1500 },
+                    { "name": "Tartufo (Crème de truffe)", "price_cents": 1900 },
+                    { "name": "Rim Café (Spécialité)", "price_cents": 1700 }
                 ]
             },
             {
-                "category": "Pasta & Risotto",
+                "category_type": "main",
+                "display_label": "Pasta & Risotto",
                 "items": [
-                    { "name": "Gnocchi alla crema di pistacchi", "price": "17,00€" },
-                    { "name": "Rigatoni à la truffe", "price": "21,00€" },
-                    { "name": "Lasagne bolognaise maison", "price": "16,00€" },
-                    { "name": "Risotto aux Gambas", "price": "22,00€" }
+                    { "name": "Gnocchi alla crema di pistacchi", "price_cents": 1700 },
+                    { "name": "Rigatoni à la truffe", "price_cents": 2100 },
+                    { "name": "Lasagne bolognaise maison", "price_cents": 1600 },
+                    { "name": "Risotto aux Gambas", "price_cents": 2200 }
                 ]
             }
         ],

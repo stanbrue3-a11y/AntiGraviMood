@@ -40,66 +40,72 @@ export const andia: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Para Picar (À Partager)",
+        category_type: "sharing",
+        display_label: "Para Picar (À Partager)",
         items: [
-          { name: "Guacamole Andia", price: "14€", description: "Avocat mûr, oignon rouge, coriandre et chips de maïs", highlight: true },
-          { name: "Tequeños au Fromage", price: "15€", description: "Bâtonnets de fromage frits, sauce aji verde" },
-          { name: "Empanadas de Pollo", price: "16€", description: "Chausson frit au poulet effiloché et épices" },
-          { name: "Beef Tacos (x3)", price: "19€", description: "Bœuf confit, oignon rouge, coriandre" },
-          { name: "Tacos de Crevettes", price: "18€", description: "Crevettes marinées, chou rouge et mayo pimentée" },
-          { name: "Calamars Fritos", price: "17€", description: "Beignets de calamars, sauce tartare andine" },
-          { name: "Tostadas de Thon", price: "16€", description: "Tortilla craquante, tartare de thon et sésame" }
+          { name: "Guacamole Andia", price_cents: 1400, description: "Avocat mûr, oignon rouge, coriandre et chips de maïs", is_highlight: true },
+          { name: "Tequeños au Fromage", price_cents: 1500, description: "Bâtonnets de fromage frits, sauce aji verde" },
+          { name: "Empanadas de Pollo", price_cents: 1600, description: "Chausson frit au poulet effiloché et épices" },
+          { name: "Beef Tacos (x3)", price_cents: 1900, description: "Bœuf confit, oignon rouge, coriandre" },
+          { name: "Tacos de Crevettes", price_cents: 1800, description: "Crevettes marinées, chou rouge et mayo pimentée" },
+          { name: "Calamars Fritos", price_cents: 1700, description: "Beignets de calamars, sauce tartare andine" },
+          { name: "Tostadas de Thon", price_cents: 1600, description: "Tortilla craquante, tartare de thon et sésame" }
         ]
       },
       {
-        category: "Raw Bar & Ceviches",
+        category_type: "other",
+        display_label: "Raw Bar & Ceviches",
         items: [
-          { name: "Ceviche Classico", price: "24€", description: "Bar sauvage, lait de tigre, patate douce, choclo", highlight: true },
-          { name: "Ceviche Thon & Truffe", price: "28€", description: "Thon rouge, huile de truffe, soja et citron vert" },
-          { name: "Tiradito Saint-Jacques", price: "26€", description: "Tranches fines, fruit de la passion, piment doux" },
-          { name: "Ceviche Veggie", price: "19€", description: "Cœur de palmier, avocat, mangue et lait de tigre coco" },
-          { name: "Salmon Poke Andia", price: "22€", description: "Saumon mariné, riz noir, edamames, algues" },
-          { name: "Carpaccio de Poulpe", price: "21€", description: "Olives noires, citron confit et huile d'olive" }
+          { name: "Ceviche Classico", price_cents: 2400, description: "Bar sauvage, lait de tigre, patate douce, choclo", is_highlight: true },
+          { name: "Ceviche Thon & Truffe", price_cents: 2800, description: "Thon rouge, huile de truffe, soja et citron vert" },
+          { name: "Tiradito Saint-Jacques", price_cents: 2600, description: "Tranches fines, fruit de la passion, piment doux" },
+          { name: "Ceviche Veggie", price_cents: 1900, description: "Cœur de palmier, avocat, mangue et lait de tigre coco" },
+          { name: "Salmon Poke Andia", price_cents: 2200, description: "Saumon mariné, riz noir, edamames, algues" },
+          { name: "Carpaccio de Poulpe", price_cents: 2100, description: "Olives noires, citron confit et huile d'olive" }
         ]
       },
       {
-        category: "Asador (Grillades)",
+        category_type: "other",
+        display_label: "Asador (Grillades)",
         items: [
-          { name: "Poulpe Grillé Chimichurri", price: "36€", description: "Cuit au charbon, écrasé de pommes de terre", highlight: true },
-          { name: "Anticucho de Poulet", price: "22€", description: "Brochettes marinées à l'aji panca" },
-          { name: "Entrecôte Black Angus (300g)", price: "42€", description: "Origine Argentine, sauce salsa roja" },
-          { name: "Thon Rouge Grillé", price: "38€", description: "Saisi à la plancha, légumes de saison au wok" },
-          { name: "Lomo Saltado", price: "34€", description: "Filet de bœuf sauté, oignons, tomates et frites" },
-          { name: "Burger Andia", price: "28€", description: "Pain brioché, bœuf 180g, cheddar, aji verde" },
-          { name: "Côtelettes d'Agneau", price: "39€", description: "Marinade aux herbes des Andes" }
+          { name: "Poulpe Grillé Chimichurri", price_cents: 3600, description: "Cuit au charbon, écrasé de pommes de terre", is_highlight: true },
+          { name: "Anticucho de Poulet", price_cents: 2200, description: "Brochettes marinées à l'aji panca" },
+          { name: "Entrecôte Black Angus (300g)", price_cents: 4200, description: "Origine Argentine, sauce salsa roja" },
+          { name: "Thon Rouge Grillé", price_cents: 3800, description: "Saisi à la plancha, légumes de saison au wok" },
+          { name: "Lomo Saltado", price_cents: 3400, description: "Filet de bœuf sauté, oignons, tomates et frites" },
+          { name: "Burger Andia", price_cents: 2800, description: "Pain brioché, bœuf 180g, cheddar, aji verde" },
+          { name: "Côtelettes d'Agneau", price_cents: 3900, description: "Marinade aux herbes des Andes" }
         ]
       },
       {
-        category: "Acompanantes (Sides)",
+        category_type: "other",
+        display_label: "Acompanantes (Sides)",
         items: [
-          { name: "Riz à la Mexicaine", price: "8€" },
-          { name: "Haricots Noirs", price: "7€" },
-          { name: "Frites Maison", price: "7€" },
-          { name: "Légumes Grillés", price: "9€" },
-          { name: "Maïs Grillé au Beurre", price: "8€" }
+          { name: "Riz à la Mexicaine", price_cents: 800 },
+          { name: "Haricots Noirs", price_cents: 700 },
+          { name: "Frites Maison", price_cents: 700 },
+          { name: "Légumes Grillés", price_cents: 900 },
+          { name: "Maïs Grillé au Beurre", price_cents: 800 }
         ]
       },
       {
-        category: "Postres (Douceurs)",
+        category_type: "dessert",
+        display_label: "Postres (Douceurs)",
         items: [
-          { name: "Churros Classicos", price: "12€", description: "Sauce chocolat chaud et dulce de leche", highlight: true },
-          { name: "Pavlova Tropicale", price: "14€", description: "Meringue, mangue, passion et coco" },
-          { name: "Gâteau Très Lait", price: "11€", description: "Le classique Tres Leches mexicain" },
-          { name: "Sorbet Exotique Maison", price: "9€" }
+          { name: "Churros Classicos", price_cents: 1200, description: "Sauce chocolat chaud et dulce de leche", is_highlight: true },
+          { name: "Pavlova Tropicale", price_cents: 1400, description: "Meringue, mangue, passion et coco" },
+          { name: "Gâteau Très Lait", price_cents: 1100, description: "Le classique Tres Leches mexicain" },
+          { name: "Sorbet Exotique Maison", price_cents: 900 }
         ]
       },
       {
-        category: "Spiritueux & Co",
+        category_type: "other",
+        display_label: "Spiritueux & Co",
         items: [
-          { name: "Pisco Sour Classique", price: "16€", description: "Pisco, citron vert, sucre et blanc d'œuf" },
-          { name: "Andia Margarita", price: "17€", description: "Tequila Blanco, agave, citron vert et sel tajin" },
-          { name: "Expresso", price: "4€" },
-          { name: "Thé Vert à la Menthe", price: "7€" }
+          { name: "Pisco Sour Classique", price_cents: 1600, description: "Pisco, citron vert, sucre et blanc d'œuf" },
+          { name: "Andia Margarita", price_cents: 1700, description: "Tequila Blanco, agave, citron vert et sel tajin" },
+          { name: "Expresso", price_cents: 400 },
+          { name: "Thé Vert à la Menthe", price_cents: 700 }
         ]
       }
     ]

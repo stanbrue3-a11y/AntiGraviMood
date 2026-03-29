@@ -45,48 +45,52 @@ export const acme: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "L'Univers Margot Delacroix (Menus Dégustation)",
+                category_type: "tasting_menu",
+                display_label: "L'Univers Margot Delacroix (Menus Dégustation)",
                 items: [
-                    { name: "Menu Déjeuner (E+P+D)", price: "33.00€", description: "Entrée, plat et dessert (ou fromage) au choix de la cheffe." },
-                    { name: "Menu 'L'Ode au Végétal' 5 Temps", price: "51.00€", description: "4 étapes salées et un dessert signature (Midi & Soir)." },
-                    { name: "Menu 'L'Ode au Végétal' 6 Temps", price: "60.00€", description: "4 étapes salées, fromage ou pré-dessert, et dessert signature." },
-                    { name: "Accord Mets & Vins (4 verres)", price: "40.00€" },
-                    { name: "Accord Mets & Boissons Sans Alcool", price: "30.00€", description: "Infusions froides, kéfirs et jus travaillés." }
+                    { name: "Menu Déjeuner (E+P+D)", price_cents: 3300, description: "Entrée, plat et dessert (ou fromage) au choix de la cheffe." },
+                    { name: "Menu 'L'Ode au Végétal' 5 Temps", price_cents: 5100, description: "4 étapes salées et un dessert signature (Midi & Soir)." },
+                    { name: "Menu 'L'Ode au Végétal' 6 Temps", price_cents: 6000, description: "4 étapes salées, fromage ou pré-dessert, et dessert signature." },
+                    { name: "Accord Mets & Vins (4 verres)", price_cents: 4000 },
+                    { name: "Accord Mets & Boissons Sans Alcool", price_cents: 3000, description: "Infusions froides, kéfirs et jus travaillés." }
                 ]
             },
             {
-                category: "Exemples de Créations Florales & Graphiques (2025)",
+                category_type: "other",
+                display_label: "Exemples de Créations Florales & Graphiques (2025)",
                 items: [
-                    { name: "Poireaux crayons au barbecue, dashi & katsuobushi", price: "14.00€", description: "Une explosion d'umami équilibrée par le brûlé." },
-                    { name: "Stracciatella, betteraves multicolores, aneth & ponzu", price: "13.00€" },
-                    { name: "Radis & Courgettes au pesto de noisettes & sorbet herbes", price: "12.00€" },
-                    { name: "Tatin de céleri-rave, jus végétal corsé", price: "18.00€", description: "Un plat signature déroutant, terreux et délicat." },
-                    { name: "Lieu jaune de ligne, embeurrée de chou & agrumes", price: "26.00€" },
-                    { name: "Volaille fermière rôtie aux bourgeons de sapin", price: "24.00€" },
-                    { name: "Gnocchis à la sauge et beurre noisette", price: "16.00€" },
-                    { name: "Carotte confite, miso de pain rassis", price: "14.00€" },
-                    { name: "Sériole marinée, condiment citron vert et tagète", price: "16.00€" },
-                    { name: "Navet Kabu glacé, émulsion foin", price: "12.00€" }
+                    { name: "Poireaux crayons au barbecue, dashi & katsuobushi", price_cents: 1400, description: "Une explosion d'umami équilibrée par le brûlé." },
+                    { name: "Stracciatella, betteraves multicolores, aneth & ponzu", price_cents: 1300 },
+                    { name: "Radis & Courgettes au pesto de noisettes & sorbet herbes", price_cents: 1200 },
+                    { name: "Tatin de céleri-rave, jus végétal corsé", price_cents: 1800, description: "Un plat signature déroutant, terreux et délicat." },
+                    { name: "Lieu jaune de ligne, embeurrée de chou & agrumes", price_cents: 2600 },
+                    { name: "Volaille fermière rôtie aux bourgeons de sapin", price_cents: 2400 },
+                    { name: "Gnocchis à la sauge et beurre noisette", price_cents: 1600 },
+                    { name: "Carotte confite, miso de pain rassis", price_cents: 1400 },
+                    { name: "Sériole marinée, condiment citron vert et tagète", price_cents: 1600 },
+                    { name: "Navet Kabu glacé, émulsion foin", price_cents: 1200 }
                 ]
             },
             {
-                category: "Douceurs & Affinages",
+                category_type: "dessert",
+                display_label: "Douceurs & Affinages",
                 items: [
-                    { name: "Cheesecake à la rose & chèvre frais (Signature)", price: "11.00€", description: "Mélisse, brisures de meringue et fleurs comestibles." },
-                    { name: "Pomme confite, cardamome & caramel d'algues", price: "10.00€" },
-                    { name: "Panna cotta crémeuse, agrumes & fleurs", price: "10.00€" },
-                    { name: "Sélection de fromages affinés d'Ile-de-France", price: "12.00€" },
-                    { name: "Mignardises florales (Guimauve mélisse, pâte de fruit coing)", price: "Inclus" }
+                    { name: "Cheesecake à la rose & chèvre frais (Signature)", price_cents: 1100, description: "Mélisse, brisures de meringue et fleurs comestibles." },
+                    { name: "Pomme confite, cardamome & caramel d'algues", price_cents: 1000 },
+                    { name: "Panna cotta crémeuse, agrumes & fleurs", price_cents: 1000 },
+                    { name: "Sélection de fromages affinés d'Ile-de-France", price_cents: 1200 },
+                    { name: "Mignardises florales (Guimauve mélisse, pâte de fruit coing)", price_cents: 0 }
                 ]
             },
             {
-                category: "Douceurs Maison & Vins Libres",
+                category_type: "dessert",
+                display_label: "Douceurs Maison & Vins Libres",
                 items: [
-                    { name: "Kéfir de fruits du moment", price: "6.00€" },
-                    { name: "Infusion froide verveine-menthe", price: "5.50€" },
-                    { name: "Verre de vin nature (sélection)", price: "11.00€" },
-                    { name: "Café de spécialité (Terres de Café)", price: "4.50€" },
-                    { name: "Thé grand cru", price: "6.00€" }
+                    { name: "Kéfir de fruits du moment", price_cents: 600 },
+                    { name: "Infusion froide verveine-menthe", price_cents: 550 },
+                    { name: "Verre de vin nature (sélection)", price_cents: 1100 },
+                    { name: "Café de spécialité (Terres de Café)", price_cents: 450 },
+                    { name: "Thé grand cru", price_cents: 600 }
                 ]
             }
         ]

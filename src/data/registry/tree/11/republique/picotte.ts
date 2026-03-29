@@ -42,40 +42,44 @@ export const picotte: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formules & Menus",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus",
                 items: [
                     // VERIFIED: Source TheFork (2024-2025)
-                    { name: "Menu Déjeuner", price: "27.00€", description: "La carte blanche du déjeuner (change chaque semaine)" },
-                    { name: "MENU PICOTTE (E+P+D, Soir)", price: "49.00€", description: "Menu 3 temps le soir." }
+                    { name: "Menu Déjeuner", price_cents: 2700, description: "La carte blanche du déjeuner (change chaque semaine)" },
+                    { name: "MENU PICOTTE (E+P+D, Soir)", price_cents: 4900, description: "Menu 3 temps le soir." }
                 ]
             },
             {
-                category: "Entrées (Tour de France)",
+                category_type: "starter",
+                display_label: "Entrées (Tour de France)",
                 items: [
                     // VERIFIED: Mises à jour récentes (2024-2025)
-                    { name: "Carpaccio de Saint Jacques, chou fleur, vinaigrette capucine", price: "15.00€" },
-                    { name: "Œuf Bio Parfait, hollandaise pistache, oca du Pérou", price: "14.00€" },
-                    { name: "Endive braisée, jambon blanc maison, béchamel pain d'épice", price: "13.00€" },
-                    { name: "Toast de Morbier, beurre sapin, condiment ail noir", price: "14.00€" },
-                    { name: "Tartiflette revisitée (disque de pomme de terre, siphon reblochon)", price: "14.00€" }
+                    { name: "Carpaccio de Saint Jacques, chou fleur, vinaigrette capucine", price_cents: 1500 },
+                    { name: "Œuf Bio Parfait, hollandaise pistache, oca du Pérou", price_cents: 1400 },
+                    { name: "Endive braisée, jambon blanc maison, béchamel pain d'épice", price_cents: 1300 },
+                    { name: "Toast de Morbier, beurre sapin, condiment ail noir", price_cents: 1400 },
+                    { name: "Tartiflette revisitée (disque de pomme de terre, siphon reblochon)", price_cents: 1400 }
                 ]
             },
             {
-                category: "Plats (Tour de France)",
+                category_type: "main",
+                display_label: "Plats (Tour de France)",
                 items: [
                     // VERIFIED: Plats 25-33€
-                    { name: "Longe de Porc Duroc grillée, toffailles, mousseline patate douce", price: "28.00€" },
-                    { name: "Pêche du jour rôtie (sauce vin rouge, anguille fumée, épinards)", price: "29.00€" },
-                    { name: "Cannelloni de Poireau farci aux lentilles et noix", price: "25.00€", description: "Plat végétarien." },
-                    { name: "La Bouillabaisse de Picotte (poissons rôtis, rouille, pommes de terre)", price: "33.00€" }
+                    { name: "Longe de Porc Duroc grillée, toffailles, mousseline patate douce", price_cents: 2800 },
+                    { name: "Pêche du jour rôtie (sauce vin rouge, anguille fumée, épinards)", price_cents: 2900 },
+                    { name: "Cannelloni de Poireau farci aux lentilles et noix", price_cents: 2500, description: "Plat végétarien." },
+                    { name: "La Bouillabaisse de Picotte (poissons rôtis, rouille, pommes de terre)", price_cents: 3300 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Flan Antillais, crème coco et goyave", price: "11.00€" },
-                    { name: "Chichi frégi, ganache chocolat noir, espuma banane", price: "12.00€" },
-                    { name: "Nonnettes de Reims", price: "11.00€" }
+                    { name: "Flan Antillais, crème coco et goyave", price_cents: 1100 },
+                    { name: "Chichi frégi, ganache chocolat noir, espuma banane", price_cents: 1200 },
+                    { name: "Nonnettes de Reims", price_cents: 1100 }
                 ]
             }
         ]

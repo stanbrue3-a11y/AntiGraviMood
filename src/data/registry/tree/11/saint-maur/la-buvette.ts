@@ -43,29 +43,31 @@ export const la_buvette: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Grignotis (3€ - 8€)",
+                category_type: "sharing",
+                display_label: "Grignotis (3€ - 8€)",
                 items: [
-                    { name: "Olives de Kalamata", price: "4.50€" },
-                    { name: "Amandes fumées", price: "4.00€" },
-                    { name: "Beurre bordier & pain au levain", price: "6.00€" },
-                    { name: "Pickled Eggs (Œufs marinés)", price: "4.50€" },
-                    { name: "Sardines à l'huile", price: "8.00€" }
+                    { name: "Olives de Kalamata", price_cents: 450 },
+                    { name: "Amandes fumées", price_cents: 400 },
+                    { name: "Beurre bordier & pain au levain", price_cents: 600 },
+                    { name: "Pickled Eggs (Œufs marinés)", price_cents: 450 },
+                    { name: "Sardines à l'huile", price_cents: 800 }
                 ]
             },
             {
-                category: "Assiettes Signature (10€ - 18€)",
+                category_type: "other",
+                display_label: "Assiettes Signature (10€ - 18€)",
                 items: [
                     // VERIFIED: Source 2024-2025 menus
-                    { name: "Haricots blancs, huile d'olive & zeste d'orange", price: "12.00€", description: "Le plat culte de Camille." },
-                    { name: "Burrata des Pouilles, huile de basilic", price: "16.00€" },
-                    { name: "Terrine de foies de volaille maison", price: "15.00€" },
-                    { name: "Andouille au lard de Vire", price: "14.00€" },
-                    { name: "Jambon blanc à l'os", price: "13.00€" },
-                    { name: "Bresaola & roquette", price: "16.00€" },
-                    { name: "Rillettes d'oie", price: "14.00€" },
-                    { name: "Tomme aux orties", price: "12.00€" },
-                    { name: "Comté 24 mois affiné", price: "14.00€" },
-                    { name: "Chèvre frais & miel", price: "11.00€" }
+                    { name: "Haricots blancs, huile d'olive & zeste d'orange", price_cents: 1200, description: "Le plat culte de Camille." },
+                    { name: "Burrata des Pouilles, huile de basilic", price_cents: 1600 },
+                    { name: "Terrine de foies de volaille maison", price_cents: 1500 },
+                    { name: "Andouille au lard de Vire", price_cents: 1400 },
+                    { name: "Jambon blanc à l'os", price_cents: 1300 },
+                    { name: "Bresaola & roquette", price_cents: 1600 },
+                    { name: "Rillettes d'oie", price_cents: 1400 },
+                    { name: "Tomme aux orties", price_cents: 1200 },
+                    { name: "Comté 24 mois affiné", price_cents: 1400 },
+                    { name: "Chèvre frais & miel", price_cents: 1100 }
                 ]
             }
         ]

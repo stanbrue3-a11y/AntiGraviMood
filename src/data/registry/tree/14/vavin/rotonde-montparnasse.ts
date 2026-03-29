@@ -40,39 +40,42 @@ export const rotonde_montparnasse: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Écailler de la Rotonde",
+                category_type: "other",
+                display_label: "L'Écailler de la Rotonde",
                 items: [
-                    { name: "Plateau La Rotonde (pour 2 personnes)", price: "98.00€" },
-                    { name: "Assiette du Mareyeur", price: "42.00€" },
-                    { name: "Huîtres Marennes d'Oléron N°3 (les 6)", price: "24.00€" },
-                    { name: "Tourteau frais entier", price: "32.00€" },
-                    { name: "Langoustines de casier (les 5)", price: "36.00€" },
-                    { name: "Bulots et Crevettes roses", price: "21.00€" }
+                    { name: "Plateau La Rotonde (pour 2 personnes)", price_cents: 9800 },
+                    { name: "Assiette du Mareyeur", price_cents: 4200 },
+                    { name: "Huîtres Marennes d'Oléron N°3 (les 6)", price_cents: 2400 },
+                    { name: "Tourteau frais entier", price_cents: 3200 },
+                    { name: "Langoustines de casier (les 5)", price_cents: 3600 },
+                    { name: "Bulots et Crevettes roses", price_cents: 2100 }
                 ]
             },
             {
-                category: "Les Grands Classiques",
+                category_type: "other",
+                display_label: "Les Grands Classiques",
                 items: [
-                    { name: "Foie Gras de Canard Maison", price: "26.00€" },
-                    { name: "Soupe à l'Oignon Gratinée", price: "14.50€" },
-                    { name: "Sole de Petit Bateau Meunière", price: "54.00€" },
-                    { name: "Côte de Boeuf (env. 1kg pour 2)", price: "115.00€" },
-                    { name: "Confit de Canard et Pommes Sarladaises", price: "28.00€" },
-                    { name: "Tartare de Boeuf Charolais au couteau", price: "26.50€" },
-                    { name: "Magret de Canard au Miel et Epices", price: "34.00€" },
-                    { name: "Blanquette de Veau à l'ancienne", price: "32.00€" },
-                    { name: "Filet de Bar grillé, légumes de saison", price: "38.00€" },
-                    { name: "Ravioles de Royans crème de parmesan", price: "24.00€" }
+                    { name: "Foie Gras de Canard Maison", price_cents: 2600 },
+                    { name: "Soupe à l'Oignon Gratinée", price_cents: 1450 },
+                    { name: "Sole de Petit Bateau Meunière", price_cents: 5400 },
+                    { name: "Côte de Boeuf (env. 1kg pour 2)", price_cents: 11500 },
+                    { name: "Confit de Canard et Pommes Sarladaises", price_cents: 2800 },
+                    { name: "Tartare de Boeuf Charolais au couteau", price_cents: 2650 },
+                    { name: "Magret de Canard au Miel et Epices", price_cents: 3400 },
+                    { name: "Blanquette de Veau à l'ancienne", price_cents: 3200 },
+                    { name: "Filet de Bar grillé, légumes de saison", price_cents: 3800 },
+                    { name: "Ravioles de Royans crème de parmesan", price_cents: 2400 }
                 ]
             },
             {
-                category: "Douceurs de la Rive Gauche",
+                category_type: "dessert",
+                display_label: "Douceurs de la Rive Gauche",
                 items: [
-                    { name: "Profiteroles Classiques de La Rotonde", price: "14.50€" },
-                    { name: "Ile Flottante aux Pralines Roses", price: "12.00€" },
-                    { name: "Tarte Tatin et Crème Fraîche", price: "13.50€" },
-                    { name: "Baba au Rhum Géant", price: "15.00€" },
-                    { name: "Mousse au Chocolat à discrétion", price: "12.50€" }
+                    { name: "Profiteroles Classiques de La Rotonde", price_cents: 1450 },
+                    { name: "Ile Flottante aux Pralines Roses", price_cents: 1200 },
+                    { name: "Tarte Tatin et Crème Fraîche", price_cents: 1350 },
+                    { name: "Baba au Rhum Géant", price_cents: 1500 },
+                    { name: "Mousse au Chocolat à discrétion", price_cents: 1250 }
                 ]
             }
         ]

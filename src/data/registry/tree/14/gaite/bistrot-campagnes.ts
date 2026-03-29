@@ -40,35 +40,38 @@ export const bistrotCampagnes: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de nos Terroirs",
+                category_type: "main",
+                display_label: "Les Plats de nos Terroirs",
                 items: [
-                    { name: "Andouillette de Troyes AAAAA, Frites Maison", price: "21.00€" },
-                    { name: "Confit de Canard du Sud-Ouest, Pommes Sarladaises", price: "22.50€" },
-                    { name: "Petit Salé aux Lentilles du Puy", price: "19.50€" },
-                    { name: "Blanquette de Veau à l'Ancienne", price: "23.00€" },
-                    { name: "Pot-au-Feu Traditionnel au Paleron de Boeuf", price: "20.50€" },
-                    { name: "Souris d'Agneau de Sept Heures au Romarin", price: "24.00€" },
-                    { name: "Saucisse de Toulouse Grillée, Purée", price: "18.50€" }
+                    { name: "Andouillette de Troyes AAAAA, Frites Maison", price_cents: 2100 },
+                    { name: "Confit de Canard du Sud-Ouest, Pommes Sarladaises", price_cents: 2250 },
+                    { name: "Petit Salé aux Lentilles du Puy", price_cents: 1950 },
+                    { name: "Blanquette de Veau à l'Ancienne", price_cents: 2300 },
+                    { name: "Pot-au-Feu Traditionnel au Paleron de Boeuf", price_cents: 2050 },
+                    { name: "Souris d'Agneau de Sept Heures au Romarin", price_cents: 2400 },
+                    { name: "Saucisse de Toulouse Grillée, Purée", price_cents: 1850 }
                 ]
             },
             {
-                category: "Entrées Rustiques",
+                category_type: "starter",
+                display_label: "Entrées Rustiques",
                 items: [
-                    { name: "Terrine Maison au Poivre Vert", price: "9.50€" },
-                    { name: "Oeufs Cocotte au Roquefort", price: "11.00€" },
-                    { name: "Soupe à l'Oignon Gratinée au Cantal", price: "10.00€" },
-                    { name: "Salade de Lardons et de Croutons", price: "12.00€" },
-                    { name: "Os à Moelle à la Fleur de Sel", price: "13.00€" }
+                    { name: "Terrine Maison au Poivre Vert", price_cents: 950 },
+                    { name: "Oeufs Cocotte au Roquefort", price_cents: 1100 },
+                    { name: "Soupe à l'Oignon Gratinée au Cantal", price_cents: 1000 },
+                    { name: "Salade de Lardons et de Croutons", price_cents: 1200 },
+                    { name: "Os à Moelle à la Fleur de Sel", price_cents: 1300 }
                 ]
             },
             {
-                category: "Douceurs de Nos Campagnes",
+                category_type: "dessert",
+                display_label: "Douceurs de Nos Campagnes",
                 items: [
-                    { name: "Mousse au Chocolat à la louche", price: "8.50€" },
-                    { name: "Crème Renversée au Caramel", price: "7.50€" },
-                    { name: "Ile Flottante aux Pralines Roses", price: "8.00€" },
-                    { name: "Tatin Tiède et son Pot de Crème", price: "9.50€" },
-                    { name: "Plateau de Fromages de Région", price: "11.50€" }
+                    { name: "Mousse au Chocolat à la louche", price_cents: 850 },
+                    { name: "Crème Renversée au Caramel", price_cents: 750 },
+                    { name: "Ile Flottante aux Pralines Roses", price_cents: 800 },
+                    { name: "Tatin Tiède et son Pot de Crème", price_cents: 950 },
+                    { name: "Plateau de Fromages de Région", price_cents: 1150 }
                 ]
             }
         ]

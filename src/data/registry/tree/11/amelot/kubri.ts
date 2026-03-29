@@ -42,48 +42,53 @@ export const kubri: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formules & Menus",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus",
                 items: [
                     // VERIFIED: Mises à jour récentes (2024-2025)
-                    { name: "Formule Déjeuner", price: "25.00€", description: "Salade ou chou/kibbeh + plat + dessert ou accompagnement + boisson chaude" }
+                    { name: "Formule Déjeuner", price_cents: 2500, description: "Salade ou chou/kibbeh + plat + dessert ou accompagnement + boisson chaude" }
                 ]
             },
             {
-                category: "Dips & Petits Mezze",
+                category_type: "other",
+                display_label: "Dips & Petits Mezze",
                 items: [
-                    { name: "Kubri Hummus (zaatar, dukka)", price: "9.00€" },
-                    { name: "Baba Ghanouj fumé, salsa de noix", price: "11.00€" },
-                    { name: "Beef Pesto Hummus (filet de bœuf)", price: "14.00€" },
-                    { name: "Labneh fouetté, broccolini grillé, feta", price: "12.00€" }
+                    { name: "Kubri Hummus (zaatar, dukka)", price_cents: 900 },
+                    { name: "Baba Ghanouj fumé, salsa de noix", price_cents: 1100 },
+                    { name: "Beef Pesto Hummus (filet de bœuf)", price_cents: 1400 },
+                    { name: "Labneh fouetté, broccolini grillé, feta", price_cents: 1200 }
                 ]
             },
             {
-                category: "Mezze (à partager)",
+                category_type: "sharing",
+                display_label: "Mezze (à partager)",
                 items: [
                     // VERIFIED: Plats 9-16€
-                    { name: "Halloumi Kataif Rolls, miel pimenté", price: "13.00€", description: "Le plat signature absolu." },
-                    { name: "Kubri Fried Chicken, toum citron", price: "15.00€" },
-                    { name: "Tartare d'agneau, kammouné, radis rose", price: "16.00€" },
-                    { name: "Poulpe Imsabaha", price: "16.00€" },
-                    { name: "Falafel Chips, salsa tomate & jalapeño", price: "10.00€" }
+                    { name: "Halloumi Kataif Rolls, miel pimenté", price_cents: 1300, description: "Le plat signature absolu." },
+                    { name: "Kubri Fried Chicken, toum citron", price_cents: 1500 },
+                    { name: "Tartare d'agneau, kammouné, radis rose", price_cents: 1600 },
+                    { name: "Poulpe Imsabaha", price_cents: 1600 },
+                    { name: "Falafel Chips, salsa tomate & jalapeño", price_cents: 1000 }
                 ]
             },
             {
-                category: "Tabak & Sofra (Plats principaux)",
+                category_type: "main",
+                display_label: "Tabak & Sofra (Plats principaux)",
                 items: [
                     // VERIFIED: Plats 25-26€ (jusqu'à la côte de bœuf)
-                    { name: "Lala Roasted Chicken (toum, labneh citron noir)", price: "25.00€" },
-                    { name: "Veau Laqué à la mélasse de dattes", price: "26.00€" },
-                    { name: "Shortrib de bœuf, épices chawarma, confit tomate", price: "26.00€" },
-                    { name: "Tajen de Daurade", price: "25.00€" }
+                    { name: "Lala Roasted Chicken (toum, labneh citron noir)", price_cents: 2500 },
+                    { name: "Veau Laqué à la mélasse de dattes", price_cents: 2600 },
+                    { name: "Shortrib de bœuf, épices chawarma, confit tomate", price_cents: 2600 },
+                    { name: "Tajen de Daurade", price_cents: 2500 }
                 ]
             },
             {
-                category: "Desserts (Helo)",
+                category_type: "dessert",
+                display_label: "Desserts (Helo)",
                 items: [
-                    { name: "Nammoura Amande-Citron", price: "9.00€" },
-                    { name: "Halwa Glacé (amande, pistache, chocolat noir)", price: "9.00€" },
-                    { name: "Gâteau Pistache (ashta, compotée de cerises noires)", price: "9.00€" }
+                    { name: "Nammoura Amande-Citron", price_cents: 900 },
+                    { name: "Halwa Glacé (amande, pistache, chocolat noir)", price_cents: 900 },
+                    { name: "Gâteau Pistache (ashta, compotée de cerises noires)", price_cents: 900 }
                 ]
             }
         ]

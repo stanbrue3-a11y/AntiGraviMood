@@ -41,60 +41,65 @@ export const tse_yang: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "L'Art des Vapeurs (Dim Sum)",
+        category_type: "other",
+        display_label: "L'Art des Vapeurs (Dim Sum)",
         items: [
-          { name: "Ha Kao aux Crevettes", price: "14€", description: "Pâte de riz translucide, 4 pièces" },
-          { name: "Siu Mai Porc & Crevettes", price: "12€", description: "4 pièces traditionnelles" },
-          { name: "Bouchées aux Saint-Jacques", price: "18€", description: "Vapeur délicate, corail fondu", highlight: true },
-          { name: "Xiaolongbao de Shanghai", price: "16€", description: "Bouillon brûlant à l'intérieur" },
-          { name: "Raviolis Pékinois Grillés", price: "15€", description: "Porc et ciboules, saisis à la poêle" },
-          { name: "Nems au Poulet & Crabe", price: "14€", description: "Croustillants, servis avec salade et menthe" },
-          { name: "Brioches Cha Siu Bao", price: "13€", description: "Pain vapeur au porc laqué sucré-salé" },
-          { name: "Raviolis Végétaux Zen", price: "12€", description: "Champignons noirs et pousses de bambou" },
-          { name: "Crevettes à la Vapeur & Ail", price: "17€", description: "Servis sur lit de vermicelles" }
+          { name: "Ha Kao aux Crevettes", price_cents: 1400, description: "Pâte de riz translucide, 4 pièces" },
+          { name: "Siu Mai Porc & Crevettes", price_cents: 1200, description: "4 pièces traditionnelles" },
+          { name: "Bouchées aux Saint-Jacques", price_cents: 1800, description: "Vapeur délicate, corail fondu", is_highlight: true },
+          { name: "Xiaolongbao de Shanghai", price_cents: 1600, description: "Bouillon brûlant à l'intérieur" },
+          { name: "Raviolis Pékinois Grillés", price_cents: 1500, description: "Porc et ciboules, saisis à la poêle" },
+          { name: "Nems au Poulet & Crabe", price_cents: 1400, description: "Croustillants, servis avec salade et menthe" },
+          { name: "Brioches Cha Siu Bao", price_cents: 1300, description: "Pain vapeur au porc laqué sucré-salé" },
+          { name: "Raviolis Végétaux Zen", price_cents: 1200, description: "Champignons noirs et pousses de bambou" },
+          { name: "Crevettes à la Vapeur & Ail", price_cents: 1700, description: "Servis sur lit de vermicelles" }
         ]
       },
       {
-        category: "Grands Classiques Tse Yang",
+        category_type: "other",
+        display_label: "Grands Classiques Tse Yang",
         items: [
-          { name: "Canard Laqué Pékinois", price: "55€", description: "Présenté en deux services (Peau puis Chair)", highlight: true },
-          { name: "Homard Bleu au Gingembre", price: "72€", description: "Wok intense, oignons nouveaux et soja" },
-          { name: "Boeuf aux Oignons & Sésame", price: "32€", description: "Emincé de filet, sauce soja sombre" },
-          { name: "Sole Sel & Poivre", price: "48€", description: "Entière, saisie à haute température" },
-          { name: "Poulet Kung Pao", price: "28€", description: "Cacahuètes grillées et piments séchés" },
-          { name: "Travers de Porc Aigre-Doux", price: "29€", description: "Inspiration hongkongaise, ananas frais" },
-          { name: "Canard Croustillant Aromatique", price: "38€", description: "Servi avec crêpes déchiquetées" },
-          { name: "Filet de Boeuf Poivre Noir", price: "36€", description: "Sauce onctueuse et poivrons croquants" },
-          { name: "Agneau à la Plaque Chauffante", price: "34€", description: "Cumin et coriandre fraîche" }
+          { name: "Canard Laqué Pékinois", price_cents: 5500, description: "Présenté en deux services (Peau puis Chair)", is_highlight: true },
+          { name: "Homard Bleu au Gingembre", price_cents: 7200, description: "Wok intense, oignons nouveaux et soja" },
+          { name: "Boeuf aux Oignons & Sésame", price_cents: 3200, description: "Emincé de filet, sauce soja sombre" },
+          { name: "Sole Sel & Poivre", price_cents: 4800, description: "Entière, saisie à haute température" },
+          { name: "Poulet Kung Pao", price_cents: 2800, description: "Cacahuètes grillées et piments séchés" },
+          { name: "Travers de Porc Aigre-Doux", price_cents: 2900, description: "Inspiration hongkongaise, ananas frais" },
+          { name: "Canard Croustillant Aromatique", price_cents: 3800, description: "Servi avec crêpes déchiquetées" },
+          { name: "Filet de Boeuf Poivre Noir", price_cents: 3600, description: "Sauce onctueuse et poivrons croquants" },
+          { name: "Agneau à la Plaque Chauffante", price_cents: 3400, description: "Cumin et coriandre fraîche" }
         ]
       },
       {
-        category: "Le Potager Chinois",
+        category_type: "other",
+        display_label: "Le Potager Chinois",
         items: [
-          { name: "Pak Choi à l'Ail", price: "16€", description: "Saisi au wok, ail frit" },
-          { name: "Aubergines Yu Xiang", price: "18€", description: "Sauce pimentée et aigre-douce", highlight: true },
-          { name: "Brocolis Sauce Huître", price: "15€" },
-          { name: "Haricots Verts du Sichuan", price: "17€", description: "Sautés au porc et condiments salés" }
+          { name: "Pak Choi à l'Ail", price_cents: 1600, description: "Saisi au wok, ail frit" },
+          { name: "Aubergines Yu Xiang", price_cents: 1800, description: "Sauce pimentée et aigre-douce", is_highlight: true },
+          { name: "Brocolis Sauce Huître", price_cents: 1500 },
+          { name: "Haricots Verts du Sichuan", price_cents: 1700, description: "Sautés au porc et condiments salés" }
         ]
       },
       {
-        category: "Riz & Nouilles",
+        category_type: "other",
+        display_label: "Riz & Nouilles",
         items: [
-          { name: "Riz Cantonais Imperial", price: "18€", description: "Crevettes et porc laqué" },
-          { name: "Nouilles Sautées Soja", price: "16€", description: "Légumes croquants du moment" },
-          { name: "Vermicelles Singapour", price: "22€", description: "Curry jaune, crevettes et porc" },
-          { name: "Riz Gluant Lotus", price: "14€", description: "Vapeur, parfumé aux châtaignes d'eau" }
+          { name: "Riz Cantonais Imperial", price_cents: 1800, description: "Crevettes et porc laqué" },
+          { name: "Nouilles Sautées Soja", price_cents: 1600, description: "Légumes croquants du moment" },
+          { name: "Vermicelles Singapour", price_cents: 2200, description: "Curry jaune, crevettes et porc" },
+          { name: "Riz Gluant Lotus", price_cents: 1400, description: "Vapeur, parfumé aux châtaignes d'eau" }
         ]
       },
       {
-        category: "Final & Douceurs",
+        category_type: "dessert",
+        display_label: "Final & Douceurs",
         items: [
-          { name: "Perles de Coco Vapeur", price: "10€", description: "Cœur haricot mungo" },
-          { name: "Nems au Chocolat", price: "12€", description: "Glace vanille, fusion unique", highlight: true },
-          { name: "Sorbet Litchi Maison", price: "9€" },
-          { name: "Thé Vert Jasmin Supérieur", price: "9€" },
-          { name: "Gingembre Confit", price: "8€" },
-          { name: "Saké Shochu Premium", price: "14€" }
+          { name: "Perles de Coco Vapeur", price_cents: 1000, description: "Cœur haricot mungo" },
+          { name: "Nems au Chocolat", price_cents: 1200, description: "Glace vanille, fusion unique", is_highlight: true },
+          { name: "Sorbet Litchi Maison", price_cents: 900 },
+          { name: "Thé Vert Jasmin Supérieur", price_cents: 900 },
+          { name: "Gingembre Confit", price_cents: 800 },
+          { name: "Saké Shochu Premium", price_cents: 1400 }
         ]
       }
     ]

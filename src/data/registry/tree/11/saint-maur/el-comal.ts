@@ -46,35 +46,39 @@ export const elComal: SurgicalPlace = {
         menu_items: [
             // VERIFIED: El Comal 2025 Standard (Mexican)
             {
-                category: "Tacos (Maïs maison)",
+                category_type: "other",
+                display_label: "Tacos (Maïs maison)",
                 items: [
-                    { name: "Taco Al Pastor", price: "4.50€", description: "Porc mariné, ananas, oignons, coriandre." },
-                    { name: "Taco Carnitas", price: "4.50€", description: "Porc confit, la tradition de Michoacán." },
-                    { name: "Taco Tinga de Pollo", price: "4.50€", description: "Poulet effiloché à la tomate et piment chipotle." },
-                    { name: "Taco Veggie (Champignons/Fromage)", price: "4.50€" }
+                    { name: "Taco Al Pastor", price_cents: 450, description: "Porc mariné, ananas, oignons, coriandre." },
+                    { name: "Taco Carnitas", price_cents: 450, description: "Porc confit, la tradition de Michoacán." },
+                    { name: "Taco Tinga de Pollo", price_cents: 450, description: "Poulet effiloché à la tomate et piment chipotle." },
+                    { name: "Taco Veggie (Champignons/Fromage)", price_cents: 450 }
                 ]
             },
             {
-                category: "Spécialités El Comal",
+                category_type: "other",
+                display_label: "Spécialités El Comal",
                 items: [
-                    { name: "Queka (Grande Quesadilla)", price: "13.00€", description: "Tortilla de blé, fromage fondu, garniture au choix." },
-                    { name: "Burrito Signature", price: "12.50€" },
-                    { name: "Gringa", price: "13.50€", description: "Tacos Al Pastor avec fromage fondu dans une tortilla de blé." }
+                    { name: "Queka (Grande Quesadilla)", price_cents: 1300, description: "Tortilla de blé, fromage fondu, garniture au choix." },
+                    { name: "Burrito Signature", price_cents: 1250 },
+                    { name: "Gringa", price_cents: 1350, description: "Tacos Al Pastor avec fromage fondu dans une tortilla de blé." }
                 ]
             },
             {
-                category: "Formules Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Semaine)",
                 items: [
-                    { name: "Menu 3 Tacos + Boisson", price: "13.50€" },
-                    { name: "Menu Burrito/Queka + Boisson", price: "14.50€" }
+                    { name: "Menu 3 Tacos + Boisson", price_cents: 1350 },
+                    { name: "Menu Burrito/Queka + Boisson", price_cents: 1450 }
                 ]
             },
             {
-                category: "Boissons Typiques",
+                category_type: "drink",
+                display_label: "Boissons Typiques",
                 items: [
-                    { name: "Aqua de Jamaica (Hibiscus)", price: "4.00€" },
-                    { name: "Jarritos (plusieurs goûts)", price: "4.50€" },
-                    { name: "Bière Corona / Modelo", price: "5.50€" }
+                    { name: "Aqua de Jamaica (Hibiscus)", price_cents: 400 },
+                    { name: "Jarritos (plusieurs goûts)", price_cents: 450 },
+                    { name: "Bière Corona / Modelo", price_cents: 550 }
                 ]
             }
         ]

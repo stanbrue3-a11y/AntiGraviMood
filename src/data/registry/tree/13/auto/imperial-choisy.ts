@@ -41,35 +41,38 @@ export const imperial_choisy: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Rôtisseries & Sauts",
+        category_type: "main",
+        display_label: "Les Plats : Rôtisseries & Sauts",
         items: [
-          { name: "Riz aux 2 rôtisseries (Porc & Canard)", price: "14.50€" },
-          { name: "Riz blanc au porc laqué Charsiu", price: "12.00€" },
-          { name: "Riz blanc au canard laqué", price: "13.50€" },
-          { name: "Travers de porc à la Pékinoise", price: "12.50€" },
-          { name: "Travers de porc sel et poivre", price: "12.50€" },
-          { name: "Bœuf sauté au satay", price: "11.00€" },
-          { name: "Bœuf sauté aux oignons", price: "11.00€" },
-          { name: "Crevettes au sel et au poivre", price: "12.50€" }
+          { name: "Riz aux 2 rôtisseries (Porc & Canard)", price_cents: 1450 },
+          { name: "Riz blanc au porc laqué Charsiu", price_cents: 1200 },
+          { name: "Riz blanc au canard laqué", price_cents: 1350 },
+          { name: "Travers de porc à la Pékinoise", price_cents: 1250 },
+          { name: "Travers de porc sel et poivre", price_cents: 1250 },
+          { name: "Bœuf sauté au satay", price_cents: 1100 },
+          { name: "Bœuf sauté aux oignons", price_cents: 1100 },
+          { name: "Crevettes au sel et au poivre", price_cents: 1250 }
         ]
       },
       {
-        category: "Entrées & Potages Historiques",
+        category_type: "starter",
+        display_label: "Entrées & Potages Historiques",
         items: [
-          { name: "Salade de méduse & œufs de cent ans", price: "12.00€" },
-          { name: "Potage Pékinois (Porc, crevettes, œuf)", price: "7.50€" },
-          { name: "Potage aux asperges et au crabe", price: "7.50€" },
-          { name: "Potage de maïs au poulet", price: "7.00€" },
-          { name: "Nems au porc (4 pièces)", price: "8.50€" }
+          { name: "Salade de méduse & œufs de cent ans", price_cents: 1200 },
+          { name: "Potage Pékinois (Porc, crevettes, œuf)", price_cents: 750 },
+          { name: "Potage aux asperges et au crabe", price_cents: 750 },
+          { name: "Potage de maïs au poulet", price_cents: 700 },
+          { name: "Nems au porc (4 pièces)", price_cents: 850 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Bière Tsingtao (33cl)", price: "5.50€" },
-          { name: "Thé au jasmin (Théière)", price: "4.50€" },
-          { name: "Soda (Coke, Sprite, etc.)", price: "4.00€" },
-          { name: "Jus de lychee", price: "4.50€" }
+          { name: "Bière Tsingtao (33cl)", price_cents: 550 },
+          { name: "Thé au jasmin (Théière)", price_cents: 450 },
+          { name: "Soda (Coke, Sprite, etc.)", price_cents: 400 },
+          { name: "Jus de lychee", price_cents: 450 }
         ]
       }
     ]

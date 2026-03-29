@@ -40,34 +40,37 @@ export const moulinVert: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Excellence du Moulin (Plats)",
+                category_type: "main",
+                display_label: "L'Excellence du Moulin (Plats)",
                 items: [
-                    { name: "Filet de Boeuf grillé, Sauce Béarnaise", price: "42.00€" },
-                    { name: "Noisette d'Agneau en Croûte d'Herbes", price: "36.00€" },
-                    { name: "Homard Bleu décortiqué à l'Armoricaine", price: "48.00€" },
-                    { name: "Ris de Veau dorés au Sautoir, Morilles", price: "45.00€" },
-                    { name: "Bar de Ligne cuit à la Vapeur Douce", price: "38.00€" },
-                    { name: "Risotto Noir aux Gambas et Calamars", price: "34.00€" },
-                    { name: "Suggestion Gastronomique du Chef", price: "37.50€" }
+                    { name: "Filet de Boeuf grillé, Sauce Béarnaise", price_cents: 4200 },
+                    { name: "Noisette d'Agneau en Croûte d'Herbes", price_cents: 3600 },
+                    { name: "Homard Bleu décortiqué à l'Armoricaine", price_cents: 4800 },
+                    { name: "Ris de Veau dorés au Sautoir, Morilles", price_cents: 4500 },
+                    { name: "Bar de Ligne cuit à la Vapeur Douce", price_cents: 3800 },
+                    { name: "Risotto Noir aux Gambas et Calamars", price_cents: 3400 },
+                    { name: "Suggestion Gastronomique du Chef", price_cents: 3750 }
                 ]
             },
             {
-                category: "Entrées Signature",
+                category_type: "starter",
+                display_label: "Entrées Signature",
                 items: [
-                    { name: "Foie Gras de Canard Maison, Chutney de Mangue", price: "24.00€" },
-                    { name: "Saint-Jacques à la Nage de Safran", price: "22.00€" },
-                    { name: "Tartare de Saumon aux Baies Roses", price: "18.00€" },
-                    { name: "Velouté de Châtaignes et son Émulsion", price: "16.00€" },
-                    { name: "Escargots de Bourgogne (les 12)", price: "21.00€" }
+                    { name: "Foie Gras de Canard Maison, Chutney de Mangue", price_cents: 2400 },
+                    { name: "Saint-Jacques à la Nage de Safran", price_cents: 2200 },
+                    { name: "Tartare de Saumon aux Baies Roses", price_cents: 1800 },
+                    { name: "Velouté de Châtaignes et son Émulsion", price_cents: 1600 },
+                    { name: "Escargots de Bourgogne (les 12)", price_cents: 2100 }
                 ]
             },
             {
-                category: "Douceurs de l'Auberge",
+                category_type: "dessert",
+                display_label: "Douceurs de l'Auberge",
                 items: [
-                    { name: "Profiteroles au Chocolat Chaud Maison", price: "12.00€" },
-                    { name: "Soufflé Glacé au Grand Marnier", price: "14.00€" },
-                    { name: "Tarte Sablée aux Figues Rôties", price: "13.00€" },
-                    { name: "Délice au Chocolat Noir et Praliné", price: "15.00€" }
+                    { name: "Profiteroles au Chocolat Chaud Maison", price_cents: 1200 },
+                    { name: "Soufflé Glacé au Grand Marnier", price_cents: 1400 },
+                    { name: "Tarte Sablée aux Figues Rôties", price_cents: 1300 },
+                    { name: "Délice au Chocolat Noir et Praliné", price_cents: 1500 }
                 ]
             }
         ]

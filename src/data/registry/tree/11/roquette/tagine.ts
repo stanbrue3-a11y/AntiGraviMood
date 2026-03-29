@@ -45,38 +45,42 @@ export const leTagine: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Le Tagine Paris 2024-2025
             {
-                category: "Entrées Traditionnelles",
+                category_type: "starter",
+                display_label: "Entrées Traditionnelles",
                 items: [
-                    { name: "Pastilla au Pigeonneau", price: "26.00€", description: "Le grand classique sucré-salé, d'une finesse rare." },
-                    { name: "Méchouïa (Salade de tomates et poivrons grillés)", price: "15.00€" },
-                    { name: "Merguez grillées & salade marocaine", price: "15.00€" },
-                    { name: "Brick à l'œuf de poule de Marans", price: "12.00€" }
+                    { name: "Pastilla au Pigeonneau", price_cents: 2600, description: "Le grand classique sucré-salé, d'une finesse rare." },
+                    { name: "Méchouïa (Salade de tomates et poivrons grillés)", price_cents: 1500 },
+                    { name: "Merguez grillées & salade marocaine", price_cents: 1500 },
+                    { name: "Brick à l'œuf de poule de Marans", price_cents: 1200 }
                 ]
             },
             {
-                category: "Les Tagines (Cuisinés en poterie)",
+                category_type: "other",
+                display_label: "Les Tagines (Cuisinés en poterie)",
                 items: [
-                    { name: "Tagine d'Agneau aux olives et citrons confits", price: "27.00€" },
-                    { name: "Tagine de Poulet fermier aux poires & miel", price: "25.00€" },
-                    { name: "Tagine de Saumon aux légumes frais", price: "34.00€" },
-                    { name: "Tagine d'Agneau aux raisins secs & amandes", price: "27.00€" }
+                    { name: "Tagine d'Agneau aux olives et citrons confits", price_cents: 2700 },
+                    { name: "Tagine de Poulet fermier aux poires & miel", price_cents: 2500 },
+                    { name: "Tagine de Saumon aux légumes frais", price_cents: 3400 },
+                    { name: "Tagine d'Agneau aux raisins secs & amandes", price_cents: 2700 }
                 ]
             },
             {
-                category: "Les Couscous (Graines roulées main)",
+                category_type: "other",
+                display_label: "Les Couscous (Graines roulées main)",
                 items: [
-                    { name: "Couscous Méchoui (Gigot d'agneau de lait)", price: "34.00€" },
-                    { name: "Couscous Royal (3 viandes : Poulet, Agneau, Merguez)", price: "34.00€" },
-                    { name: "Couscous Merguez (x3)", price: "24.00€" },
-                    { name: "Couscous Légumes frais", price: "22.00€" }
+                    { name: "Couscous Méchoui (Gigot d'agneau de lait)", price_cents: 3400 },
+                    { name: "Couscous Royal (3 viandes : Poulet, Agneau, Merguez)", price_cents: 3400 },
+                    { name: "Couscous Merguez (x3)", price_cents: 2400 },
+                    { name: "Couscous Légumes frais", price_cents: 2200 }
                 ]
             },
             {
-                category: "Desserts & Thé",
+                category_type: "dessert",
+                display_label: "Desserts & Thé",
                 items: [
-                    { name: "Pâtisseries marocaines maison (l'assiette)", price: "12.00€" },
-                    { name: "Salade d'oranges à la cannelle", price: "9.00€" },
-                    { name: "Thé à la menthe traditionnel (verre)", price: "4.50€" }
+                    { name: "Pâtisseries marocaines maison (l'assiette)", price_cents: 1200 },
+                    { name: "Salade d'oranges à la cannelle", price_cents: 900 },
+                    { name: "Thé à la menthe traditionnel (verre)", price_cents: 450 }
                 ]
             }
         ]

@@ -44,34 +44,37 @@ export const le_pure_cafe: SurgicalPlace = {
         "last_updated": "2024-03-08",
         "menu_items": [
             {
-                "category": "L'Ardoise du Déjeuner",
+                "category_type": "other",
+                "display_label": "L'Ardoise du Déjeuner",
                 "items": [
-                    { "name": "Plat du Jour", "price": "11.50€" },
-                    { "name": "Pure Burger & Frites maison", "price": "15.00€" },
-                    { "name": "Fish N' Chips, sauce tartare", "price": "15.00€" },
-                    { "name": "Suprême de Canette des Dombes rôti", "price": "15.00€" },
-                    { "name": "Ceviche de Truite, vinaigrette mangue", "price": "15.00€" },
-                    { "name": "Pavé de Colin en papillote", "price": "15.00€" },
-                    { "name": "Assiette Végétarienne de saison", "price": "13.50€" }
+                    { "name": "Plat du Jour", "price_cents": 1150 },
+                    { "name": "Pure Burger & Frites maison", "price_cents": 1500 },
+                    { "name": "Fish N' Chips, sauce tartare", "price_cents": 1500 },
+                    { "name": "Suprême de Canette des Dombes rôti", "price_cents": 1500 },
+                    { "name": "Ceviche de Truite, vinaigrette mangue", "price_cents": 1500 },
+                    { "name": "Pavé de Colin en papillote", "price_cents": 1500 },
+                    { "name": "Assiette Végétarienne de saison", "price_cents": 1350 }
                 ]
             },
             {
-                "category": "Carte du Soir (Bistro Classics)",
+                "category_type": "other",
+                "display_label": "Carte du Soir (Bistro Classics)",
                 "items": [
-                    { "name": "Steak Frites, sauce au poivre", "price": "19.00€" },
-                    { "name": "Tartare de Bœuf préparé", "price": "18.00€" },
-                    { "name": "Pavé de Saumon à l'unilatérale", "price": "20.00€" },
-                    { "name": "Salade César au poulet croustillant", "price": "16.50€" }
+                    { "name": "Steak Frites, sauce au poivre", "price_cents": 1900 },
+                    { "name": "Tartare de Bœuf préparé", "price_cents": 1800 },
+                    { "name": "Pavé de Saumon à l'unilatérale", "price_cents": 2000 },
+                    { "name": "Salade César au poulet croustillant", "price_cents": 1650 }
                 ]
             },
             {
-                "category": "Entrées & Desserts",
+                "category_type": "starter",
+                "display_label": "Entrées & Desserts",
                 "items": [
-                    { "name": "Œuf dur Mayonnaise", "price": "5.80€" },
-                    { "name": "Rillettes de canard maison", "price": "8.00€" },
-                    { "name": "Mousse au Chocolat noir", "price": "7.50€" },
-                    { "name": "Crème Brûlée vanille", "price": "8.00€" },
-                    { "name": "Tarte Tatin & glace vanille", "price": "8.50€" }
+                    { "name": "Œuf dur Mayonnaise", "price_cents": 580 },
+                    { "name": "Rillettes de canard maison", "price_cents": 800 },
+                    { "name": "Mousse au Chocolat noir", "price_cents": 750 },
+                    { "name": "Crème Brûlée vanille", "price_cents": 800 },
+                    { "name": "Tarte Tatin & glace vanille", "price_cents": 850 }
                 ]
             }
         ]

@@ -39,38 +39,41 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Œufs mayonnaise", price: "2.70€" },
-          { name: "Avocat vinaigrette", price: "3.80€" },
-          { name: "Harengs pommes à l'huile", price: "4.50€" },
-          { name: "Potage de légumes du jour", price: "3.20€" },
-          { name: "Pâté de campagne au poivre", price: "3.90€" },
-          { name: "Snails (Escargots x6)", price: "6.80€" }
+          { name: "Œufs mayonnaise", price_cents: 270 },
+          { name: "Avocat vinaigrette", price_cents: 380 },
+          { name: "Harengs pommes à l'huile", price_cents: 450 },
+          { name: "Potage de légumes du jour", price_cents: 320 },
+          { name: "Pâté de campagne au poivre", price_cents: 390 },
+          { name: "Snails (Escargots x6)", price_cents: 680 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Sole rôtie beurre noisette", price: "12.80€" },
-          { name: "Saucisse de Toulouse purée", price: "10.20€" },
-          { name: "Bœuf bourguignon coquillettes", price: "12.20€" },
-          { name: "Choucroute alsacienne", price: "11.80€" },
-          { name: "Sauté de volaille, riz pilaf", price: "10.40€" },
-          { name: "Tête de veau sauce gribiche", price: "12.40€" },
-          { name: "Faux-filet frites maison", price: "13.20€" },
-          { name: "Pavé de lieu jaune au four", price: "11.60€" }
+          { name: "Sole rôtie beurre noisette", price_cents: 1280 },
+          { name: "Saucisse de Toulouse purée", price_cents: 1020 },
+          { name: "Bœuf bourguignon coquillettes", price_cents: 1220 },
+          { name: "Choucroute alsacienne", price_cents: 1180 },
+          { name: "Sauté de volaille, riz pilaf", price_cents: 1040 },
+          { name: "Tête de veau sauce gribiche", price_cents: 1240 },
+          { name: "Faux-filet frites maison", price_cents: 1320 },
+          { name: "Pavé de lieu jaune au four", price_cents: 1160 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Chou chantilly", price: "3.20€" },
-          { name: "Crème brûlée vanille", price: "3.90€" },
-          { name: "Pot de mousse chocolat", price: "3.70€" },
-          { name: "Riz au lait grand-mère", price: "2.80€" },
-          { name: "Coupe de sorbets", price: "4.20€" },
-          { name: "L'assiette de fromages", price: "4.80€" }
+          { name: "Chou chantilly", price_cents: 320 },
+          { name: "Crème brûlée vanille", price_cents: 390 },
+          { name: "Pot de mousse chocolat", price_cents: 370 },
+          { name: "Riz au lait grand-mère", price_cents: 280 },
+          { name: "Coupe de sorbets", price_cents: 420 },
+          { name: "L'assiette de fromages", price_cents: 480 }
         ]
       }
     ]

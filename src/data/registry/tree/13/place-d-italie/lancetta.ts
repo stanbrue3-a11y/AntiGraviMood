@@ -45,52 +45,57 @@ export const lancetta: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Antipasti",
+                category_type: "other",
+                display_label: "Antipasti",
                 items: [
-                    { name: "Mozzarella bufala, pesto di basilico", price: "9.00€" },
-                    { name: "Antipasto verduro", price: "9.00€" },
-                    { name: "Piatti di parma (Assiette jambon de Parme)", price: "9.50€" },
-                    { name: "Burratina", price: "11.00€" },
-                    { name: "Trio di bruschetta casareccia", price: "13.50€" },
-                    { name: "Involtini di melanzane", price: "13.50€" },
-                    { name: "Fiori di zucchina in pastella", price: "14.00€" }
+                    { name: "Mozzarella bufala, pesto di basilico", price_cents: 900 },
+                    { name: "Antipasto verduro", price_cents: 900 },
+                    { name: "Piatti di parma (Assiette jambon de Parme)", price_cents: 950 },
+                    { name: "Burratina", price_cents: 1100 },
+                    { name: "Trio di bruschetta casareccia", price_cents: 1350 },
+                    { name: "Involtini di melanzane", price_cents: 1350 },
+                    { name: "Fiori di zucchina in pastella", price_cents: 1400 }
                 ]
             },
             {
-                category: "Pizzas (Feu de bois)",
+                category_type: "main",
+                display_label: "Pizzas (Feu de bois)",
                 items: [
-                    { name: "Margherita", price: "12.50€" },
-                    { name: "4 Formaggi", price: "15.50€" }
+                    { name: "Margherita", price_cents: 1250 },
+                    { name: "4 Formaggi", price_cents: 1550 }
                 ]
             },
             {
-                category: "Pâtes & Gnocchis",
+                category_type: "other",
+                display_label: "Pâtes & Gnocchis",
                 items: [
-                    { name: "Penne puttanesca", price: "15.00€" },
-                    { name: "Linguine al limone (Pignons, citron, crème)", price: "15.00€" },
-                    { name: "Tagliatelle verdure", price: "15.50€" },
-                    { name: "Gnocchi ai formaggi", price: "15.50€" },
-                    { name: "Penne modica (Pesto de noix, gorgonzola)", price: "16.00€" },
-                    { name: "Gnocchi Veloci (Speck, champignon, crème)", price: "16.00€" },
-                    { name: "Fusilli calabrese", price: "17.00€" },
-                    { name: "Penne salmone", price: "17.50€" },
-                    { name: "Fusilli dello chef (Veau haché, champignons)", price: "17.50€" },
-                    { name: "Linguine alle vongole", price: "18.50€" },
-                    { name: "Tagliatelle di bronte (Gambas, pesto pistache)", price: "18.50€" },
-                    { name: "Tagliatelle tartufate (Crème de truffe, Parme)", price: "19.00€" },
-                    { name: "Linguine frutti di mare", price: "19.50€" }
+                    { name: "Penne puttanesca", price_cents: 1500 },
+                    { name: "Linguine al limone (Pignons, citron, crème)", price_cents: 1500 },
+                    { name: "Tagliatelle verdure", price_cents: 1550 },
+                    { name: "Gnocchi ai formaggi", price_cents: 1550 },
+                    { name: "Penne modica (Pesto de noix, gorgonzola)", price_cents: 1600 },
+                    { name: "Gnocchi Veloci (Speck, champignon, crème)", price_cents: 1600 },
+                    { name: "Fusilli calabrese", price_cents: 1700 },
+                    { name: "Penne salmone", price_cents: 1750 },
+                    { name: "Fusilli dello chef (Veau haché, champignons)", price_cents: 1750 },
+                    { name: "Linguine alle vongole", price_cents: 1850 },
+                    { name: "Tagliatelle di bronte (Gambas, pesto pistache)", price_cents: 1850 },
+                    { name: "Tagliatelle tartufate (Crème de truffe, Parme)", price_cents: 1900 },
+                    { name: "Linguine frutti di mare", price_cents: 1950 }
                 ]
             },
             {
-                category: "Viandes (Secondi Piatti)",
+                category_type: "main",
+                display_label: "Viandes (Secondi Piatti)",
                 items: [
-                    { name: "Scaloppina alla crema di tartufo", price: "23.50€" }
+                    { name: "Scaloppina alla crema di tartufo", price_cents: 2350 }
                 ]
             },
             {
-                category: "Dolci (Desserts)",
+                category_type: "dessert",
+                display_label: "Dolci (Desserts)",
                 items: [
-                    { name: "Cannoli siciliani", price: "9.00€" }
+                    { name: "Cannoli siciliani", price_cents: 900 }
                 ]
             }
         ]

@@ -39,62 +39,69 @@ export const la_taverne_de_zhao: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Incontournables (Plats Mo - Sandwiches Xi'an)",
+        category_type: "main",
+        display_label: "Les Incontournables (Plats Mo - Sandwiches Xi'an)",
         items: [
-          { name: "MO Traditionnel (Porc mijoté)", price: "7.50€", description: "Pain maison croustillant, viande fondante" },
-          { name: "MO - JI (Poulet)", price: "7.50€" },
-          { name: "MO Végé", price: "7.50€", description: "Tofu & légumes" }
+          { name: "MO Traditionnel (Porc mijoté)", price_cents: 750, description: "Pain maison croustillant, viande fondante" },
+          { name: "MO - JI (Poulet)", price_cents: 750 },
+          { name: "MO Végé", price_cents: 750, description: "Tofu & légumes" }
         ]
       },
       {
-        category: "Pâtes Fraîches (Plats Biang Biang & Handmade)",
+        category_type: "main",
+        display_label: "Pâtes Fraîches (Plats Biang Biang & Handmade)",
         items: [
-          { name: "Pâte Biangbiang Bœuf Braisé", price: "13.80€", description: "Larges nouilles tirées à la main" },
-          { name: "Pâte Biangbiang Porc", price: "13.80€" },
-          { name: "Pâte Biangbiang Tomate & Œuf", price: "12.80€" },
-          { name: "Pâte Biangbiang Mixte (Bœuf & Tomate)", price: "13.80€" },
-          { name: "Pâte Biangbiang Mixte (Porc & Tomate)", price: "13.80€" },
-          { name: "Nouilles Froides Liangpi Classiques", price: "11.80€", description: "Idéal en été" },
-          { name: "Nouilles Froides Liangpi Sauce XO", price: "12.80€" }
+          { name: "Pâte Biangbiang Bœuf Braisé", price_cents: 1380, description: "Larges nouilles tirées à la main" },
+          { name: "Pâte Biangbiang Porc", price_cents: 1380 },
+          { name: "Pâte Biangbiang Tomate & Œuf", price_cents: 1280 },
+          { name: "Pâte Biangbiang Mixte (Bœuf & Tomate)", price_cents: 1380 },
+          { name: "Pâte Biangbiang Mixte (Porc & Tomate)", price_cents: 1380 },
+          { name: "Nouilles Froides Liangpi Classiques", price_cents: 1180, description: "Idéal en été" },
+          { name: "Nouilles Froides Liangpi Sauce XO", price_cents: 1280 }
         ]
       },
       {
-        category: "Raviolis (Plats Artisanaux)",
+        category_type: "main",
+        display_label: "Raviolis (Plats Artisanaux)",
         items: [
-          { name: "Classic Fried Dumplings (6pc)", price: "7.80€" },
-          { name: "Steam Chicken Dumplings (6pc)", price: "7.80€" },
-          { name: "Vegetable Fried Dumplings (6pc)", price: "7.80€" },
-          { name: "Xiao Long Bao (4pc)", price: "8.50€" }
+          { name: "Classic Fried Dumplings (6pc)", price_cents: 780 },
+          { name: "Steam Chicken Dumplings (6pc)", price_cents: 780 },
+          { name: "Vegetable Fried Dumplings (6pc)", price_cents: 780 },
+          { name: "Xiao Long Bao (4pc)", price_cents: 850 }
         ]
       },
       {
-        category: "Entrées Froides (Cold Appetizers)",
+        category_type: "starter",
+        display_label: "Entrées Froides (Cold Appetizers)",
         items: [
-          { name: "Platycodon (Racine croquante)", price: "7.80€" },
-          { name: "Black Forest (Champignons)", price: "6.80€" },
-          { name: "Salad Kelp (Algues)", price: "6.80€" },
-          { name: "Spicy Beef", price: "7.80€" }
+          { name: "Platycodon (Racine croquante)", price_cents: 780 },
+          { name: "Black Forest (Champignons)", price_cents: 680 },
+          { name: "Salad Kelp (Algues)", price_cents: 680 },
+          { name: "Spicy Beef", price_cents: 780 }
         ]
       },
       {
-        category: "Marmites (Plats)",
+        category_type: "main",
+        display_label: "Marmites (Plats)",
         items: [
-          { name: "Clay Pot Rice Noodles", price: "13.80€" },
-          { name: "Clay Pot Sweet Potato Noodles", price: "13.80€" },
-          { name: "Clay Pot Chinese Udon", price: "13.80€" }
+          { name: "Clay Pot Rice Noodles", price_cents: 1380 },
+          { name: "Clay Pot Sweet Potato Noodles", price_cents: 1380 },
+          { name: "Clay Pot Chinese Udon", price_cents: 1380 }
         ]
       },
       {
-        category: "Spécialités & Poulet Sauté",
+        category_type: "other",
+        display_label: "Spécialités & Poulet Sauté",
         items: [
-          { name: "ZHAO's Fried Chicken", price: "8.50€" }
+          { name: "ZHAO's Fried Chicken", price_cents: 850 }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs",
         items: [
-          { name: "Riz Noir, Mangue & Lait de Coco", price: "7.00€" },
-          { name: "Perles de Coco", price: "6.00€" }
+          { name: "Riz Noir, Mangue & Lait de Coco", price_cents: 700 },
+          { name: "Perles de Coco", price_cents: 600 }
         ]
       },
     ]

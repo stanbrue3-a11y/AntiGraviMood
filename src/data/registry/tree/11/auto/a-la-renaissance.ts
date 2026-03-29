@@ -43,62 +43,67 @@ export const a_la_renaissance: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Petites Assiettes & Entrées (Entrées)",
+        category_type: "starter",
+        display_label: "Petites Assiettes & Entrées (Entrées)",
         items: [
-          { name: "Œuf Mayo 'Renaissance' (Culte)", price: "8.00€", highlight: true },
-          { name: "Terrine de Campagne & Pickles", price: "10.00€" },
-          { name: "Croquettes de Cochon (x4)", price: "12.00€", highlight: true },
-          { name: "Poireaux Vinaigrette & Noisettes", price: "9.50€" },
-          { name: "Tarama Maison & Pain grillé", price: "9.00€" },
-          { name: "Radis Beurre & Sel de Maldon", price: "7.00€" },
-          { name: "Petite Salade de saison", price: "8.50€" },
-          { name: "Frites Maison & Mayo ail", price: "7.00€" }
+          { name: "Œuf Mayo 'Renaissance' (Culte)", price_cents: 800, is_highlight: true },
+          { name: "Terrine de Campagne & Pickles", price_cents: 1000 },
+          { name: "Croquettes de Cochon (x4)", price_cents: 1200, is_highlight: true },
+          { name: "Poireaux Vinaigrette & Noisettes", price_cents: 950 },
+          { name: "Tarama Maison & Pain grillé", price_cents: 900 },
+          { name: "Radis Beurre & Sel de Maldon", price_cents: 700 },
+          { name: "Petite Salade de saison", price_cents: 850 },
+          { name: "Frites Maison & Mayo ail", price_cents: 700 }
         ]
       },
       {
-        category: "Plats de Convive (Plats)",
+        category_type: "main",
+        display_label: "Plats de Convive (Plats)",
         items: [
-          { name: "Le Burger Renaissance (Cheddar/Bacon)", price: "22.00€", highlight: true },
-          { name: "Steak au Poivre & Frites Maison", price: "28.00€", highlight: true },
-          { name: "Poisson du Marché, beurre blanc", price: "26.00€" },
-          { name: "Tartare de Bœuf au couteau", price: "24.00€" },
-          { name: "Salade Caesar 'Luxueuse'", price: "21.00€" },
-          { name: "Gnocchi à la crème de sauge", price: "19.00€" },
-          { name: "Longe de Veau rôtie, jus corsé", price: "27.00€" },
-          { name: "Demi-Poulet fermier rôti", price: "25.00€" }
+          { name: "Le Burger Renaissance (Cheddar/Bacon)", price_cents: 2200, is_highlight: true },
+          { name: "Steak au Poivre & Frites Maison", price_cents: 2800, is_highlight: true },
+          { name: "Poisson du Marché, beurre blanc", price_cents: 2600 },
+          { name: "Tartare de Bœuf au couteau", price_cents: 2400 },
+          { name: "Salade Caesar 'Luxueuse'", price_cents: 2100 },
+          { name: "Gnocchi à la crème de sauge", price_cents: 1900 },
+          { name: "Longe de Veau rôtie, jus corsé", price_cents: 2700 },
+          { name: "Demi-Poulet fermier rôti", price_cents: 2500 }
         ]
       },
       {
-        category: "Desserts Maison (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts Maison (Desserts)",
         items: [
-          { name: "Mousse au Chocolat (À partager ou pas)", price: "9.00€", highlight: true },
-          { name: "Cheesecake New-Yorkais", price: "10.00€" },
-          { name: "Tartelette aux fruits de saison", price: "11.00€" },
-          { name: "Crème Brûlée à la Vanille de Tahiti", price: "9.50€" },
-          { name: "Assiette de Fromages (Sélection)", price: "12.00€" },
-          { name: "Boule de Sorbet artisanal", price: "4.50€" }
+          { name: "Mousse au Chocolat (À partager ou pas)", price_cents: 900, is_highlight: true },
+          { name: "Cheesecake New-Yorkais", price_cents: 1000 },
+          { name: "Tartelette aux fruits de saison", price_cents: 1100 },
+          { name: "Crème Brûlée à la Vanille de Tahiti", price_cents: 950 },
+          { name: "Assiette de Fromages (Sélection)", price_cents: 1200 },
+          { name: "Boule de Sorbet artisanal", price_cents: 450 }
         ]
       },
       {
-        category: "Quixotic Cocktails & Spirits (Boissons)",
+        category_type: "drink",
+        display_label: "Quixotic Cocktails & Spirits (Boissons)",
         items: [
-          { name: "Negroni de la Roquette", price: "14.50€", highlight: true },
-          { name: "Pornstar Martini Signature", price: "15.00€" },
-          { name: "Moscow Mule Artisanal", price: "13.00€" },
-          { name: "Old Fashioned (Bourbon/Peel)", price: "16.00€" },
-          { name: "Mocktail 'Renaissance' (Frais)", price: "11.00€" }
+          { name: "Negroni de la Roquette", price_cents: 1450, is_highlight: true },
+          { name: "Pornstar Martini Signature", price_cents: 1500 },
+          { name: "Moscow Mule Artisanal", price_cents: 1300 },
+          { name: "Old Fashioned (Bourbon/Peel)", price_cents: 1600 },
+          { name: "Mocktail 'Renaissance' (Frais)", price_cents: 1100 }
         ]
       },
       {
-        category: "La Cave & Softs (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave & Softs (Boissons)",
         items: [
-          { name: "Verre de Vin Nature (Sélection)", price: "8.50€", highlight: true },
-          { name: "Demi-Pinte Craft Beer (Draft)", price: "6.00€" },
-          { name: "Pinte de Lager (Draft)", price: "9.50€" },
-          { name: "Café Lomi Espresso", price: "3.00€" },
-          { name: "Double Espresso", price: "5.00€" },
-          { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
-          { name: "Jus de fruits frais", price: "7.00€" }
+          { name: "Verre de Vin Nature (Sélection)", price_cents: 850, is_highlight: true },
+          { name: "Demi-Pinte Craft Beer (Draft)", price_cents: 600 },
+          { name: "Pinte de Lager (Draft)", price_cents: 950 },
+          { name: "Café Lomi Espresso", price_cents: 300 },
+          { name: "Double Espresso", price_cents: 500 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 450 },
+          { name: "Jus de fruits frais", price_cents: 700 }
         ]
       }
     ]

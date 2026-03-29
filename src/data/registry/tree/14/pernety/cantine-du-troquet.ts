@@ -39,39 +39,42 @@ export const cantineTroquet: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Plats du Sud-Ouest",
+                category_type: "main",
+                display_label: "Plats du Sud-Ouest",
                 items: [
-                    { name: "Couteaux à la Plancha, Ail et Persil", price: "18.00€" },
-                    { name: "Cochon de Lait Croustillant de chez Ospital", price: "28.00€" },
-                    { name: "Pavé de Thon Snacké, Pimientos de Padron", price: "27.00€" },
-                    { name: "Boudin Noir de Christian Parra, Purée", price: "24.00€" },
-                    { name: "Entrecôte Maturée, Frites Maison", price: "34.00€" },
-                    { name: "Tartare de Boeuf au Piment d'Espelette", price: "25.00€" },
-                    { name: "Épaule d'Agneau Confite (pour 2)", price: "72.00€" },
-                    { name: "Merlu de Ligne à l'Espagnole", price: "26.00€" },
-                    { name: "Poitrine de Veau rôtie au Romarin", price: "29.00€" }
+                    { name: "Couteaux à la Plancha, Ail et Persil", price_cents: 1800 },
+                    { name: "Cochon de Lait Croustillant de chez Ospital", price_cents: 2800 },
+                    { name: "Pavé de Thon Snacké, Pimientos de Padron", price_cents: 2700 },
+                    { name: "Boudin Noir de Christian Parra, Purée", price_cents: 2400 },
+                    { name: "Entrecôte Maturée, Frites Maison", price_cents: 3400 },
+                    { name: "Tartare de Boeuf au Piment d'Espelette", price_cents: 2500 },
+                    { name: "Épaule d'Agneau Confite (pour 2)", price_cents: 7200 },
+                    { name: "Merlu de Ligne à l'Espagnole", price_cents: 2600 },
+                    { name: "Poitrine de Veau rôtie au Romarin", price_cents: 2900 }
                 ]
             },
             {
-                category: "Entrées Canailles",
+                category_type: "starter",
+                display_label: "Entrées Canailles",
                 items: [
-                    { name: "Oeuf Cocotte au Jambon Ibaïama", price: "14.00€" },
-                    { name: "Terrine de Campagne Maison", price: "11.00€" },
-                    { name: "Os à Moelle à la Fleur de Sel", price: "13.00€" },
-                    { name: "Salade de Lentilles et Gésiers", price: "12.50€" },
-                    { name: "Croquettes de Cochon Maison", price: "15.00€" },
-                    { name: "Encornets sautés au Chorizo", price: "17.00€" },
-                    { name: "Asperges des Landes (en saison)", price: "16.00€" }
+                    { name: "Oeuf Cocotte au Jambon Ibaïama", price_cents: 1400 },
+                    { name: "Terrine de Campagne Maison", price_cents: 1100 },
+                    { name: "Os à Moelle à la Fleur de Sel", price_cents: 1300 },
+                    { name: "Salade de Lentilles et Gésiers", price_cents: 1250 },
+                    { name: "Croquettes de Cochon Maison", price_cents: 1500 },
+                    { name: "Encornets sautés au Chorizo", price_cents: 1700 },
+                    { name: "Asperges des Landes (en saison)", price_cents: 1600 }
                 ]
             },
             {
-                category: "Plats de Fromages & Douceurs",
+                category_type: "main",
+                display_label: "Plats de Fromages & Douceurs",
                 items: [
-                    { name: "Ossau-Iraty et sa Confiture de Cerises noires", price: "12.00€" },
-                    { name: "Gâteau Basque à la Crème de Christian", price: "10.00€" },
-                    { name: "Riz au Lait Onctueux au Caramel", price: "9.50€" },
-                    { name: "Mousse au Chocolat pour les Gourmands", price: "11.00€" },
-                    { name: "Baba au Rhum Artisanal", price: "12.00€" }
+                    { name: "Ossau-Iraty et sa Confiture de Cerises noires", price_cents: 1200 },
+                    { name: "Gâteau Basque à la Crème de Christian", price_cents: 1000 },
+                    { name: "Riz au Lait Onctueux au Caramel", price_cents: 950 },
+                    { name: "Mousse au Chocolat pour les Gourmands", price_cents: 1100 },
+                    { name: "Baba au Rhum Artisanal", price_cents: 1200 }
                 ]
             }
         ]

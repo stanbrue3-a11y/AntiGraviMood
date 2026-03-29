@@ -45,60 +45,65 @@ export const jamrock: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Jamrock 2025 Standard (Modern Jamaican Canteen)
             {
-                category: "Jamrock Pica-Pica (Starters)",
+                category_type: "starter",
+                display_label: "Jamrock Pica-Pica (Starters)",
                 items: [
-                    { name: "Jamrock Patties (Beef & Cheese) x2", price: "7.00€", description: "L'icône street food jamaïcaine, pâte épicée au curcuma." },
-                    { name: "Jamrock Patties (Veggie) x2", price: "7.00€", description: "Légumes curry, pâte fondante." },
-                    { name: "Chicken Wings Tamarind & Ginger (x4)", price: "5.00€", description: "Ailes marinées puis laquées au tamarin, équilibre sucré-acide." },
-                    { name: "Fish Fritters (Stamp & Go) x4", price: "5.00€", description: "Beignets de morue pimentés, typiques des petits-déjeuners de l'île." },
-                    { name: "Grilled Corn on the Cob", price: "6.00€", description: "Maïs grillé, coco râpée, mayo jerk maison." },
-                    { name: "Shrimp Mango Salsa", price: "9.00€" },
-                    { name: "Fried Plantains (Aloko style)", price: "5.00€", description: "Bananes pesées, servies avec une salsa mangue épicée." },
-                    { name: "Festivals (Corn fritters) x3", price: "5.00€", description: "Beignets de maïs légèrement sucrés, parfaits pour calmer le Jerk." },
-                    { name: "Sweet Potato Fries & Lime Mayo", price: "5.00€" }
+                    { name: "Jamrock Patties (Beef & Cheese) x2", price_cents: 700, description: "L'icône street food jamaïcaine, pâte épicée au curcuma." },
+                    { name: "Jamrock Patties (Veggie) x2", price_cents: 700, description: "Légumes curry, pâte fondante." },
+                    { name: "Chicken Wings Tamarind & Ginger (x4)", price_cents: 500, description: "Ailes marinées puis laquées au tamarin, équilibre sucré-acide." },
+                    { name: "Fish Fritters (Stamp & Go) x4", price_cents: 500, description: "Beignets de morue pimentés, typiques des petits-déjeuners de l'île." },
+                    { name: "Grilled Corn on the Cob", price_cents: 600, description: "Maïs grillé, coco râpée, mayo jerk maison." },
+                    { name: "Shrimp Mango Salsa", price_cents: 900 },
+                    { name: "Fried Plantains (Aloko style)", price_cents: 500, description: "Bananes pesées, servies avec une salsa mangue épicée." },
+                    { name: "Festivals (Corn fritters) x3", price_cents: 500, description: "Beignets de maïs légèrement sucrés, parfaits pour calmer le Jerk." },
+                    { name: "Sweet Potato Fries & Lime Mayo", price_cents: 500 }
                 ]
             },
             {
-                category: "Modern Jamaican Mains (Les Plats)",
+                category_type: "main",
+                display_label: "Modern Jamaican Mains (Les Plats)",
                 items: [
-                    { name: "Jerk Chicken Signature (Combo)", price: "17.00€", description: "Mariné 24h, grillé au barbecue, servi avec riz & pois, achar et sauce pimentée." },
-                    { name: "Jerk Veggie (Enoki & Chou-fleur)", price: "16.00€", description: "L'option végétarienne ultra-umami avec sauce jerk fumée." },
-                    { name: "Escovitch Fish (Whole Bream)", price: "19.00€", description: "Daurade entière frite, marinade vinaigrée aux oignons et piments." },
-                    { name: "Oxtail Style Beef Confit", price: "18.00€", description: "Paleron de bœuf confit façon queue de bœuf jamaïcaine, jus corsé." },
-                    { name: "Ital Curry (Vegan Bowl)", price: "15.00€", description: "Légumes du moment au lait de coco, curcuma et piment bonnet écossais." },
-                    { name: "Jerk Pork Plate", price: "17.00€", description: "Échine de porc grillée façon jamaïcaine." },
-                    { name: "Jamrock Beef Burger (Bacon & Cheddar)", price: "17.50€" },
-                    { name: "Jamrock Veggie Burger", price: "17.50€" },
-                    { name: "Wrap Jerk Chicken (Midi)", price: "11.50€" },
-                    { name: "Salade Jerk & Avocat", price: "14.50€" }
+                    { name: "Jerk Chicken Signature (Combo)", price_cents: 1700, description: "Mariné 24h, grillé au barbecue, servi avec riz & pois, achar et sauce pimentée." },
+                    { name: "Jerk Veggie (Enoki & Chou-fleur)", price_cents: 1600, description: "L'option végétarienne ultra-umami avec sauce jerk fumée." },
+                    { name: "Escovitch Fish (Whole Bream)", price_cents: 1900, description: "Daurade entière frite, marinade vinaigrée aux oignons et piments." },
+                    { name: "Oxtail Style Beef Confit", price_cents: 1800, description: "Paleron de bœuf confit façon queue de bœuf jamaïcaine, jus corsé." },
+                    { name: "Ital Curry (Vegan Bowl)", price_cents: 1500, description: "Légumes du moment au lait de coco, curcuma et piment bonnet écossais." },
+                    { name: "Jerk Pork Plate", price_cents: 1700, description: "Échine de porc grillée façon jamaïcaine." },
+                    { name: "Jamrock Beef Burger (Bacon & Cheddar)", price_cents: 1750 },
+                    { name: "Jamrock Veggie Burger", price_cents: 1750 },
+                    { name: "Wrap Jerk Chicken (Midi)", price_cents: 1150 },
+                    { name: "Salade Jerk & Avocat", price_cents: 1450 }
                 ]
             },
             {
-                category: "Sides & Extras",
+                category_type: "other",
+                display_label: "Sides & Extras",
                 items: [
-                    { name: "Rice & Peas (Riz coco & haricots)", price: "5.00€" },
-                    { name: "Vegetable Julienne (Pickles)", price: "4.00€" },
-                    { name: "Homemade Jerk Sauce Extra", price: "1.50€" },
-                    { name: "Coco Bread Basket", price: "3.50€" }
+                    { name: "Rice & Peas (Riz coco & haricots)", price_cents: 500 },
+                    { name: "Vegetable Julienne (Pickles)", price_cents: 400 },
+                    { name: "Homemade Jerk Sauce Extra", price_cents: 150 },
+                    { name: "Coco Bread Basket", price_cents: 350 }
                 ]
             },
             {
-                category: "Sweet Treats (Desserts)",
+                category_type: "dessert",
+                display_label: "Sweet Treats (Desserts)",
                 items: [
-                    { name: "Rhum Cake Perdu", price: "8.00€", description: "Caramel pimenté, glace vanille maison, une tuerie locale." },
-                    { name: "Sweet Potato Cake & Canne à sucre", price: "6.00€" },
-                    { name: "Jamaican Biscuit & Mousse Chocolat 70%", price: "7.00€" },
-                    { name: "Coco Mousse insert Mangue fraîche", price: "8.00€" }
+                    { name: "Rhum Cake Perdu", price_cents: 800, description: "Caramel pimenté, glace vanille maison, une tuerie locale." },
+                    { name: "Sweet Potato Cake & Canne à sucre", price_cents: 600 },
+                    { name: "Jamaican Biscuit & Mousse Chocolat 70%", price_cents: 700 },
+                    { name: "Coco Mousse insert Mangue fraîche", price_cents: 800 }
                 ]
             },
             {
-                category: "Jamaican Drinks & Vibes",
+                category_type: "other",
+                display_label: "Jamaican Drinks & Vibes",
                 items: [
-                    { name: "Homemade Jamaican Limeade", price: "5.50€", description: "La citronnade traditionnelle, désaltérante." },
-                    { name: "Sorrel (Hibiscus & Ginger)", price: "6.50€", description: "Infusion d'hibiscus iconique des Caraïbes." },
-                    { name: "Cocktails Signature au Rhum Jamaïcain", price: "10.00€" },
-                    { name: "Bières Red Stripe (Import)", price: "7.00€" },
-                    { name: "Café Blue Mountain (Expresso)", price: "4.00€" }
+                    { name: "Homemade Jamaican Limeade", price_cents: 550, description: "La citronnade traditionnelle, désaltérante." },
+                    { name: "Sorrel (Hibiscus & Ginger)", price_cents: 650, description: "Infusion d'hibiscus iconique des Caraïbes." },
+                    { name: "Cocktails Signature au Rhum Jamaïcain", price_cents: 1000 },
+                    { name: "Bières Red Stripe (Import)", price_cents: 700 },
+                    { name: "Café Blue Mountain (Expresso)", price_cents: 400 }
                 ]
             }
         ]

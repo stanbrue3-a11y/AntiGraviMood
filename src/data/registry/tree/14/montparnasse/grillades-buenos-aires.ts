@@ -43,33 +43,36 @@ export const grilladesBuenosAires: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de Terroir",
+                category_type: "main",
+                display_label: "Les Plats de Terroir",
                 items: [
-                    { name: "Bife de Lomo (Filet de bœuf, 250g)", price: "38.00€", description: "Le summum de la tendreté argentine." },
-                    { name: "Ojo de Bife (Noix d'entrecôte, 300g)", price: "32.00€" },
-                    { name: "Bife de Cuadril (Cœur de rumsteck)", price: "26.00€" },
-                    { name: "Bife de Chorizo (Faux-filet, 300g)", price: "29.00€" },
-                    { name: "Asado de Tira (Plat de côtes)", price: "24.00€" },
-                    { name: "Entraña (Hampe savoureuse)", price: "25.00€" }
+                    { name: "Bife de Lomo (Filet de bœuf, 250g)", price_cents: 3800, description: "Le summum de la tendreté argentine." },
+                    { name: "Ojo de Bife (Noix d'entrecôte, 300g)", price_cents: 3200 },
+                    { name: "Bife de Cuadril (Cœur de rumsteck)", price_cents: 2600 },
+                    { name: "Bife de Chorizo (Faux-filet, 300g)", price_cents: 2900 },
+                    { name: "Asado de Tira (Plat de côtes)", price_cents: 2400 },
+                    { name: "Entraña (Hampe savoureuse)", price_cents: 2500 }
                 ]
             },
             {
-                category: "Entradas (Tradition)",
+                category_type: "other",
+                display_label: "Entradas (Tradition)",
                 items: [
-                    { name: "Empanadas de carne (les 2)", price: "12.00€", description: "Faites maison selon la recette familiale." },
-                    { name: "Mollejas de Ternera (Ris de veau grillés)", price: "18.00€" },
-                    { name: "Chorizo Argentino", price: "10.00€" },
-                    { name: "Morcilla (Boudin noir)", price: "9.50€" },
-                    { name: "Provoleta au grill", price: "11.00€" }
+                    { name: "Empanadas de carne (les 2)", price_cents: 1200, description: "Faites maison selon la recette familiale." },
+                    { name: "Mollejas de Ternera (Ris de veau grillés)", price_cents: 1800 },
+                    { name: "Chorizo Argentino", price_cents: 1000 },
+                    { name: "Morcilla (Boudin noir)", price_cents: 950 },
+                    { name: "Provoleta au grill", price_cents: 1100 }
                 ]
             },
             {
-                category: "Guarniciones & Postres",
+                category_type: "other",
+                display_label: "Guarniciones & Postres",
                 items: [
-                    { name: "Papas Fritas a la provenzal (ail & persil)", price: "6.00€" },
-                    { name: "Ensalada mixta", price: "7.00€" },
-                    { name: "Panqueque con Dulce de Leche", price: "9.50€" },
-                    { name: "Don Pedro (Glace vanille, whisky, noix)", price: "11.00€" }
+                    { name: "Papas Fritas a la provenzal (ail & persil)", price_cents: 600 },
+                    { name: "Ensalada mixta", price_cents: 700 },
+                    { name: "Panqueque con Dulce de Leche", price_cents: 950 },
+                    { name: "Don Pedro (Glace vanille, whisky, noix)", price_cents: 1100 }
                 ]
             }
         ]

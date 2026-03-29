@@ -43,63 +43,68 @@ export const l_office: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes de la Rue Richer (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes de la Rue Richer (Entrées)",
         items: [
-          { name: "Mini Tacos de Boeuf de Salers & Chimichurri", price: "13.00€", highlight: true },
-          { name: "Coppa artisanale & Citron vert", price: "12.00€" },
-          { name: "Daurade marinée au Ponzu & Crème citronnée", price: "15.00€", highlight: true },
-          { name: "Crème de Chou-fleur & Vanille (Végétarien)", price: "13.00€" },
-          { name: "Petits Baos au Bœuf, Mayo Citron Vert", price: "13.00€" },
-          { name: "Gaspacho Tomate Orange & Ricotta", price: "11.00€" },
-          { name: "Keftas de Boeuf de Salers / Ketchup Poivron", price: "13.00€" },
-          { name: "Ravioles Brousse de brebis (Petite portion)", price: "14.00€" }
+          { name: "Mini Tacos de Boeuf de Salers & Chimichurri", price_cents: 1300, is_highlight: true },
+          { name: "Coppa artisanale & Citron vert", price_cents: 1200 },
+          { name: "Daurade marinée au Ponzu & Crème citronnée", price_cents: 1500, is_highlight: true },
+          { name: "Crème de Chou-fleur & Vanille (Végétarien)", price_cents: 1300 },
+          { name: "Petits Baos au Bœuf, Mayo Citron Vert", price_cents: 1300 },
+          { name: "Gaspacho Tomate Orange & Ricotta", price_cents: 1100 },
+          { name: "Keftas de Boeuf de Salers / Ketchup Poivron", price_cents: 1300 },
+          { name: "Ravioles Brousse de brebis (Petite portion)", price_cents: 1400 }
         ]
       },
       {
-        category: "Pièces de Conviction (Plats)",
+        category_type: "main",
+        display_label: "Pièces de Conviction (Plats)",
         items: [
-          { name: "Filet de Bœuf Wellington (Plat Signature)", price: "39.00€", highlight: true },
-          { name: "Quasi de Veau & Beurre Café de Paris", price: "28.00€", highlight: true },
-          { name: "Pêche du jour & Mousseline de Vitelottes", price: "29.00€" },
-          { name: "Ravioles Brousse de brebis, Citron confit (Plat)", price: "24.00€", highlight: true },
-          { name: "Bœuf Bourguignon Traditionnel L'Office", price: "26.00€" },
-          { name: "Ris de Veau dorés & Jus de viande corsé", price: "36.00€", highlight: true },
-          { name: "Parmentier de Canard aux Épices douces", price: "25.00€" },
-          { name: "Risotto de saison aux Champignons des bois", price: "23.00€" }
+          { name: "Filet de Bœuf Wellington (Plat Signature)", price_cents: 3900, is_highlight: true },
+          { name: "Quasi de Veau & Beurre Café de Paris", price_cents: 2800, is_highlight: true },
+          { name: "Pêche du jour & Mousseline de Vitelottes", price_cents: 2900 },
+          { name: "Ravioles Brousse de brebis, Citron confit (Plat)", price_cents: 2400, is_highlight: true },
+          { name: "Bœuf Bourguignon Traditionnel L'Office", price_cents: 2600 },
+          { name: "Ris de Veau dorés & Jus de viande corsé", price_cents: 3600, is_highlight: true },
+          { name: "Parmentier de Canard aux Épices douces", price_cents: 2500 },
+          { name: "Risotto de saison aux Champignons des bois", price_cents: 2300 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pomme de terre Ratte de pays", price: "7.00€", highlight: true },
-          { name: "Légumes Racines rôtis au Four", price: "7.50€" },
-          { name: "Épinards frais saisis au beurre Noisette", price: "6.50€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette Maison", price: "6.00€" },
-          { name: "Frites Maison double cuisson", price: "6.50€" }
+          { name: "Purée de Pomme de terre Ratte de pays", price_cents: 700, is_highlight: true },
+          { name: "Légumes Racines rôtis au Four", price_cents: 750 },
+          { name: "Épinards frais saisis au beurre Noisette", price_cents: 650 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette Maison", price_cents: 600 },
+          { name: "Frites Maison double cuisson", price_cents: 650 }
         ]
       },
       {
-        category: "Desserts de Tradition (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts de Tradition (Desserts)",
         items: [
-          { name: "Cheesecake Mandarine brûlée", price: "13.00€", highlight: true },
-          { name: "Tarte soufflée au Chocolat & Tonka", price: "14.00€", highlight: true },
-          { name: "Ganache Chocolat Blanc & Cèpes (Signature)", price: "13.00€", highlight: true },
-          { name: "Pastilla aux Pistaches d'Iran & Rose", price: "13.00€" },
-          { name: "Assortiment de Trois Fromages affinés", price: "13.00€" },
-          { name: "Pavlova aux Fruits Exotiques & Shiso", price: "12.50€" },
-          { name: "Mousse au Chocolat Noir 70%", price: "10.00€" }
+          { name: "Cheesecake Mandarine brûlée", price_cents: 1300, is_highlight: true },
+          { name: "Tarte soufflée au Chocolat & Tonka", price_cents: 1400, is_highlight: true },
+          { name: "Ganache Chocolat Blanc & Cèpes (Signature)", price_cents: 1300, is_highlight: true },
+          { name: "Pastilla aux Pistaches d'Iran & Rose", price_cents: 1300 },
+          { name: "Assortiment de Trois Fromages affinés", price_cents: 1300 },
+          { name: "Pavlova aux Fruits Exotiques & Shiso", price_cents: 1250 },
+          { name: "Mousse au Chocolat Noir 70%", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave de l'Office (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de l'Office (Boissons)",
         items: [
-          { name: "Verre de Vin Nature Sélection Benjamin", price: "9.50€", highlight: true },
-          { name: "Bouteille de Grand Cru Rare (Sélection Cave)", price: "95.00€" },
-          { name: "Cocktail Negroni Office", price: "12.00€", highlight: true },
-          { name: "Thé Vert à la fève Tonka préparé minute", price: "6.50€" },
-          { name: "Café Espresso de spécialité Lomi", price: "3.50€" },
-          { name: "Eau micro-filtrée Office (75cl)", price: "4.50€" },
-          { name: "Spritz Maison (Aperol/Prosecco/Secret)", price: "10.00€" }
+          { name: "Verre de Vin Nature Sélection Benjamin", price_cents: 950, is_highlight: true },
+          { name: "Bouteille de Grand Cru Rare (Sélection Cave)", price_cents: 9500 },
+          { name: "Cocktail Negroni Office", price_cents: 1200, is_highlight: true },
+          { name: "Thé Vert à la fève Tonka préparé minute", price_cents: 650 },
+          { name: "Café Espresso de spécialité Lomi", price_cents: 350 },
+          { name: "Eau micro-filtrée Office (75cl)", price_cents: 450 },
+          { name: "Spritz Maison (Aperol/Prosecco/Secret)", price_cents: 1000 }
         ]
       }
     ]

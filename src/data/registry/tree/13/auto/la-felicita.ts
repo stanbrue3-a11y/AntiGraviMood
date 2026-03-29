@@ -41,43 +41,47 @@ export const la_felicita: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Pizzas (Four à bois)",
+        category_type: "main",
+        display_label: "Les Plats : Pizzas (Four à bois)",
         items: [
-          { name: "Margherita (Mozzarella, basilic)", price: "13.50€" },
-          { name: "Regina (Jambon, champignons)", price: "15.50€" },
-          { name: "Diavola (Salame piccante)", price: "17.50€" },
-          { name: "Quattri Formaggi (4 fromages)", price: "17.50€" },
-          { name: "Bianca à la Truffe & Mortadelle", price: "21.50€" },
-          { name: "Parma (Jambon cru, parmesan)", price: "18.50€" },
-          { name: "La Burrata (Burrata & Serrano)", price: "14€" }
+          { name: "Margherita (Mozzarella, basilic)", price_cents: 1350 },
+          { name: "Regina (Jambon, champignons)", price_cents: 1550 },
+          { name: "Diavola (Salame piccante)", price_cents: 1750 },
+          { name: "Quattri Formaggi (4 fromages)", price_cents: 1750 },
+          { name: "Bianca à la Truffe & Mortadelle", price_cents: 2150 },
+          { name: "Parma (Jambon cru, parmesan)", price_cents: 1850 },
+          { name: "La Burrata (Burrata & Serrano)", price_cents: 1400 }
         ]
       },
       {
-        category: "Les Plats : Pasta Fresca",
+        category_type: "main",
+        display_label: "Les Plats : Pasta Fresca",
         items: [
-          { name: "Linguine Carbonara Maison", price: "16.90€" },
-          { name: "Linguine au Pesto & Burrata", price: "17.50€" },
-          { name: "Fettucine Truffe & Jambon", price: "21.50€" },
-          { name: "Fettucine Butternut & Burrata", price: "17.90€" },
-          { name: "Pasta Rosso (Pesto rosso, basilic)", price: "12€" }
+          { name: "Linguine Carbonara Maison", price_cents: 1690 },
+          { name: "Linguine au Pesto & Burrata", price_cents: 1750 },
+          { name: "Fettucine Truffe & Jambon", price_cents: 2150 },
+          { name: "Fettucine Butternut & Burrata", price_cents: 1790 },
+          { name: "Pasta Rosso (Pesto rosso, basilic)", price_cents: 1200 }
         ]
       },
       {
-        category: "Dolci",
+        category_type: "other",
+        display_label: "Dolci",
         items: [
-          { name: "Tiramisu della Nonna", price: "8€" },
-          { name: "Moelleux au chocolat", price: "7.50€" },
-          { name: "Panacotta aux fruits rouges", price: "7€" }
+          { name: "Tiramisu della Nonna", price_cents: 800 },
+          { name: "Moelleux au chocolat", price_cents: 750 },
+          { name: "Panacotta aux fruits rouges", price_cents: 700 }
         ]
       },
       {
-        category: "Boissons & Aperitivo",
+        category_type: "drink",
+        display_label: "Boissons & Aperitivo",
         items: [
-          { name: "Spritz Classique", price: "9€" },
-          { name: "Negroni", price: "11€" },
-          { name: "Verre de Montepulciano", price: "6.50€" },
-          { name: "Bière blonde artisanale (33cl)", price: "7€" },
-          { name: "Coca-Cola / Soda (33cl)", price: "4.50€" }
+          { name: "Spritz Classique", price_cents: 900 },
+          { name: "Negroni", price_cents: 1100 },
+          { name: "Verre de Montepulciano", price_cents: 650 },
+          { name: "Bière blonde artisanale (33cl)", price_cents: 700 },
+          { name: "Coca-Cola / Soda (33cl)", price_cents: 450 }
         ]
       }
     ]

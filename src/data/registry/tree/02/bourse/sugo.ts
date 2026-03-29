@@ -38,48 +38,52 @@ export const sugo: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
         {
-            category: "Antipasti",
+            category_type: "other",
+            display_label: "Antipasti",
             items: [
-                { name: "Carciofini (Artichauts des Pouilles, olives Taggiasche)", price: "10.00€" },
-                { name: "Mozzarella di Bufala (Tomates séchées des Pouilles)", price: "10.00€" },
-                { name: "Polpette (Boulettes de veau, sauce Sugo, parmesan)", price: "12.00€" },
-                { name: "Salade Betterave Ricotta (Vinaigrette orange)", price: "9.00€" },
-                { name: "Velouté Courge (Butternut, mascarpone, noisettes)", price: "8.00€" }
+                { name: "Carciofini (Artichauts des Pouilles, olives Taggiasche)", price_cents: 1000 },
+                { name: "Mozzarella di Bufala (Tomates séchées des Pouilles)", price_cents: 1000 },
+                { name: "Polpette (Boulettes de veau, sauce Sugo, parmesan)", price_cents: 1200 },
+                { name: "Salade Betterave Ricotta (Vinaigrette orange)", price_cents: 900 },
+                { name: "Velouté Courge (Butternut, mascarpone, noisettes)", price_cents: 800 }
             ]
         },
         {
-            category: "Pâtes Fraîches (Permanent - Prix midi / soir)",
+            category_type: "other",
+            display_label: "Pâtes Fraîches (Permanent - Prix midi / soir)",
             items: [
-                { name: "Sugo (Sauce tomate sarde cuite 4h, ail)", price: "12.00€" },
-                { name: "Sugo (Prix Soir)", price: "15.00€" },
-                { name: "Cacio e Pepe (Pecorino Romano, poivre torréfié)", price: "15.00€" },
-                { name: "Cacio e Pepe (Prix Soir)", price: "17.00€" },
-                { name: "Pesto (Basilic, amandes de Sicile, Pecorino)", price: "15.00€" },
-                { name: "Pesto (Prix Soir)", price: "17.00€" },
-                { name: "Amatriciana (Tomate sarde, guanciale, Pecorino)", price: "15.00€" },
-                { name: "Amatriciana (Prix Soir)", price: "17.00€" },
-                { name: "Ragù (Effiloché de boeuf, tomate sarde, Gremolada)", price: "15.00€" },
-                { name: "Ragù (Prix Soir)", price: "18.00€" }
+                { name: "Sugo (Sauce tomate sarde cuite 4h, ail)", price_cents: 1200 },
+                { name: "Sugo (Prix Soir)", price_cents: 1500 },
+                { name: "Cacio e Pepe (Pecorino Romano, poivre torréfié)", price_cents: 1500 },
+                { name: "Cacio e Pepe (Prix Soir)", price_cents: 1700 },
+                { name: "Pesto (Basilic, amandes de Sicile, Pecorino)", price_cents: 1500 },
+                { name: "Pesto (Prix Soir)", price_cents: 1700 },
+                { name: "Amatriciana (Tomate sarde, guanciale, Pecorino)", price_cents: 1500 },
+                { name: "Amatriciana (Prix Soir)", price_cents: 1700 },
+                { name: "Ragù (Effiloché de boeuf, tomate sarde, Gremolada)", price_cents: 1500 },
+                { name: "Ragù (Prix Soir)", price_cents: 1800 }
             ]
         },
         {
-            category: "Le Semainier (Spécialités - Prix Soir)",
+            category_type: "other",
+            display_label: "Le Semainier (Spécialités - Prix Soir)",
             items: [
-                { name: "Lundi : Puttanesca (Tomates, olives, câpres, anchois)", price: "18.00€" },
-                { name: "Mardi : Carbonara (Pecorino, oeuf, Guanciale)", price: "18.00€" },
-                { name: "Mercredi : Burro Salvia Limone (Beurre, sauge, citron)", price: "18.00€" },
-                { name: "Jeudi : Lasagna (Ragu de boeuf Angus, béchamel)", price: "18.00€" },
-                { name: "Vendredi : Salsiccia (Aubergines et saucisse artisanale)", price: "18.00€" },
-                { name: "Samedi : Ruggine (Pesto, sauce Sugo, olives Ligure)", price: "18.00€" },
-                { name: "Dimanche : Carciofi (Crème d'artichaut, guanciale)", price: "18.00€" }
+                { name: "Lundi : Puttanesca (Tomates, olives, câpres, anchois)", price_cents: 1800 },
+                { name: "Mardi : Carbonara (Pecorino, oeuf, Guanciale)", price_cents: 1800 },
+                { name: "Mercredi : Burro Salvia Limone (Beurre, sauge, citron)", price_cents: 1800 },
+                { name: "Jeudi : Lasagna (Ragu de boeuf Angus, béchamel)", price_cents: 1800 },
+                { name: "Vendredi : Salsiccia (Aubergines et saucisse artisanale)", price_cents: 1800 },
+                { name: "Samedi : Ruggine (Pesto, sauce Sugo, olives Ligure)", price_cents: 1800 },
+                { name: "Dimanche : Carciofi (Crème d'artichaut, guanciale)", price_cents: 1800 }
             ]
         },
         {
-            category: "Dolci (Desserts)",
+            category_type: "dessert",
+            display_label: "Dolci (Desserts)",
             items: [
-                { name: "Tiramisu (Mascarpone crémeux, café, chocolat)", price: "7.00€" },
-                { name: "Torta Caprese (Fondant chocolat Valrhona, amandes)", price: "7.00€" },
-                { name: "Panna Cotta (Fleur d'oranger, praliné pistache)", price: "6.00€" }
+                { name: "Tiramisu (Mascarpone crémeux, café, chocolat)", price_cents: 700 },
+                { name: "Torta Caprese (Fondant chocolat Valrhona, amandes)", price_cents: 700 },
+                { name: "Panna Cotta (Fleur d'oranger, praliné pistache)", price_cents: 600 }
             ]
         }
     ]

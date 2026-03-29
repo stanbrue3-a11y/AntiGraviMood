@@ -45,29 +45,32 @@ export const gramme_11: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Gramme 11 (2025 Menu & Brunch)
             {
-                category: "Le Brunch & Le Midi",
+                category_type: "other",
+                display_label: "Le Brunch & Le Midi",
                 items: [
-                    { name: "Bowl Saisonnier (Végé/Carné)", price: "18.00€", description: "Légumes rôtis, céréales anciennes, pickles maison." },
-                    { name: "Gramme's Banh Mi", price: "16.00€", description: "Pain brioché, porc effiloché aux épices, légumes croquants." },
-                    { name: "Pancakes Salés au Kimchi", price: "17.00€", description: "Œuf au plat, avocat, sauce gochujang." },
-                    { name: "Plateau Lunch (E+P+D)", price: "28.00€" }
+                    { name: "Bowl Saisonnier (Végé/Carné)", price_cents: 1800, description: "Légumes rôtis, céréales anciennes, pickles maison." },
+                    { name: "Gramme's Banh Mi", price_cents: 1600, description: "Pain brioché, porc effiloché aux épices, légumes croquants." },
+                    { name: "Pancakes Salés au Kimchi", price_cents: 1700, description: "Œuf au plat, avocat, sauce gochujang." },
+                    { name: "Plateau Lunch (E+P+D)", price_cents: 2800 }
                 ]
             },
             {
-                category: "Grignotages & Sides",
+                category_type: "sharing",
+                display_label: "Grignotages & Sides",
                 items: [
-                    { name: "Poireaux brûlés au miso", price: "12.00€" },
-                    { name: "Soupe Dashi & Noisettes", price: "10.00€" },
-                    { name: "Pickles Maison", price: "6.00€" }
+                    { name: "Poireaux brûlés au miso", price_cents: 1200 },
+                    { name: "Soupe Dashi & Noisettes", price_cents: 1000 },
+                    { name: "Pickles Maison", price_cents: 600 }
                 ]
             },
             {
-                category: "Coffee & Pastries (Fait Maison)",
+                category_type: "other",
+                display_label: "Coffee & Pastries (Fait Maison)",
                 items: [
-                    { name: "Cookie Chocolat & Fleur de Sel", price: "4.50€" },
-                    { name: "Banana Bread toasté", price: "6.50€" },
-                    { name: "Flat White", price: "5.00€" },
-                    { name: "Homemade Granola Bowl", price: "12.00€" }
+                    { name: "Cookie Chocolat & Fleur de Sel", price_cents: 450 },
+                    { name: "Banana Bread toasté", price_cents: 650 },
+                    { name: "Flat White", price_cents: 500 },
+                    { name: "Homemade Granola Bowl", price_cents: 1200 }
                 ]
             }
         ]

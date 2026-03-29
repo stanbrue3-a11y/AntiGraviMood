@@ -43,62 +43,67 @@ export const godaille: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées de Partage & Tradition (Entrées)",
+        category_type: "starter",
+        display_label: "Entrées de Partage & Tradition (Entrées)",
         items: [
-          { name: "Œufs Mimosa à la ventrèche fumée", price: "8.50€", highlight: true },
-          { name: "Os à moelle gratiné, gros sel & pain grillé", price: "12.00€", highlight: true },
-          { name: "Carpaccio de Bar aux agrumes & aneth", price: "14.50€" },
-          { name: "Croque-monsieur forestier à la truffe d'été", price: "13.00€" },
-          { name: "Velouté de Potiron & éclats de châtaignes", price: "9.00€" },
-          { name: "Terrine de Campagne artisanale", price: "10.00€" },
-          { name: "Burrata crémeuse & pesto de basilic", price: "15.00€" },
-          { name: "Fritures d'Éperlans & sauce tartare", price: "11.50€" }
+          { name: "Œufs Mimosa à la ventrèche fumée", price_cents: 850, is_highlight: true },
+          { name: "Os à moelle gratiné, gros sel & pain grillé", price_cents: 1200, is_highlight: true },
+          { name: "Carpaccio de Bar aux agrumes & aneth", price_cents: 1450 },
+          { name: "Croque-monsieur forestier à la truffe d'été", price_cents: 1300 },
+          { name: "Velouté de Potiron & éclats de châtaignes", price_cents: 900 },
+          { name: "Terrine de Campagne artisanale", price_cents: 1000 },
+          { name: "Burrata crémeuse & pesto de basilic", price_cents: 1500 },
+          { name: "Fritures d'Éperlans & sauce tartare", price_cents: 1150 }
         ]
       },
       {
-        category: "Plats de Saison (Plats)",
+        category_type: "main",
+        display_label: "Plats de Saison (Plats)",
         items: [
-          { name: "Le Burger Godaille (Comté 18 mois, oignons)", price: "21.00€", highlight: true },
-          { name: "Pâtes à la crème de truffe d'été & parmesan", price: "24.00€", highlight: true },
-          { name: "Cabillaud vapeur, beurre blanc & mousseline", price: "25.00€" },
-          { name: "Côte de Bœuf maturée (pour 2 pers.)", price: "72.00€" },
-          { name: "Échine de Cochon braisée, jus au thym", price: "22.50€" },
-          { name: "Suprême de Volaille jaune, petits légumes", price: "23.00€" },
-          { name: "Poisson de ligne selon arrivage", price: "26.00€" },
-          { name: "Risotto crémeux aux champignons des bois", price: "20.00€" }
+          { name: "Le Burger Godaille (Comté 18 mois, oignons)", price_cents: 2100, is_highlight: true },
+          { name: "Pâtes à la crème de truffe d'été & parmesan", price_cents: 2400, is_highlight: true },
+          { name: "Cabillaud vapeur, beurre blanc & mousseline", price_cents: 2500 },
+          { name: "Côte de Bœuf maturée (pour 2 pers.)", price_cents: 7200 },
+          { name: "Échine de Cochon braisée, jus au thym", price_cents: 2250 },
+          { name: "Suprême de Volaille jaune, petits légumes", price_cents: 2300 },
+          { name: "Poisson de ligne selon arrivage", price_cents: 2600 },
+          { name: "Risotto crémeux aux champignons des bois", price_cents: 2000 }
         ]
       },
       {
-        category: "Gourmandises & Fins de Repas (Desserts)",
+        category_type: "dessert",
+        display_label: "Gourmandises & Fins de Repas (Desserts)",
         items: [
-          { name: "Riz au lait onctueux, Vanille de Tahiti", price: "9.00€", highlight: true },
-          { name: "Fondant au Chocolat noir, glace vanille", price: "10.00€", highlight: true },
-          { name: "Tarte fine aux Pommes du Limousin", price: "11.00€" },
-          { name: "Île flottante à la praline rose", price: "8.50€" },
-          { name: "Profiteroles minute, sauce chocolat chaud", price: "12.00€" },
-          { name: "Assiette de Fromages affinés d'Aligre", price: "13.00€" }
+          { name: "Riz au lait onctueux, Vanille de Tahiti", price_cents: 900, is_highlight: true },
+          { name: "Fondant au Chocolat noir, glace vanille", price_cents: 1000, is_highlight: true },
+          { name: "Tarte fine aux Pommes du Limousin", price_cents: 1100 },
+          { name: "Île flottante à la praline rose", price_cents: 850 },
+          { name: "Profiteroles minute, sauce chocolat chaud", price_cents: 1200 },
+          { name: "Assiette de Fromages affinés d'Aligre", price_cents: 1300 }
         ]
       },
       {
-        category: "La Cave sélectionnée (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave sélectionnée (Boissons)",
         items: [
-          { name: "Verre de Côtes du Rhône 'Vieilles Vignes'", price: "7.50€", highlight: true },
-          { name: "Verre de Petit Chablis 'Mineral'", price: "9.50€" },
-          { name: "Bouteille Morgon 'Marcel Lapierre'", price: "45.00€" },
-          { name: "Verre de Vin Nature du moment", price: "8.50€", highlight: true },
-          { name: "Coupe de Champagne Brut", price: "14.50€" }
+          { name: "Verre de Côtes du Rhône 'Vieilles Vignes'", price_cents: 750, is_highlight: true },
+          { name: "Verre de Petit Chablis 'Mineral'", price_cents: 950 },
+          { name: "Bouteille Morgon 'Marcel Lapierre'", price_cents: 4500 },
+          { name: "Verre de Vin Nature du moment", price_cents: 850, is_highlight: true },
+          { name: "Coupe de Champagne Brut", price_cents: 1450 }
         ]
       },
       {
-        category: "Boissons & Caféterie (Boissons)",
+        category_type: "drink",
+        display_label: "Boissons & Caféterie (Boissons)",
         items: [
-          { name: "Demi de Blonde (Pression)", price: "5.50€" },
-          { name: "Pinte de Pale Ale Artisanale", price: "9.50€" },
-          { name: "Limonade Artisanale 'La Parisienne'", price: "6.00€" },
-          { name: "Eau plate/gazeuse filtrée (75cl)", price: "4.50€" },
-          { name: "Café Espresso Terres de Café", price: "2.80€" },
-          { name: "Grand Café Crème", price: "5.00€" },
-          { name: "Thé Bio Mariage Frères", price: "6.50€" }
+          { name: "Demi de Blonde (Pression)", price_cents: 550 },
+          { name: "Pinte de Pale Ale Artisanale", price_cents: 950 },
+          { name: "Limonade Artisanale 'La Parisienne'", price_cents: 600 },
+          { name: "Eau plate/gazeuse filtrée (75cl)", price_cents: 450 },
+          { name: "Café Espresso Terres de Café", price_cents: 280 },
+          { name: "Grand Café Crème", price_cents: 500 },
+          { name: "Thé Bio Mariage Frères", price_cents: 650 }
         ]
       }
     ]

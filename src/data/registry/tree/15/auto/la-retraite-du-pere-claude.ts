@@ -40,58 +40,62 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Foie gras de canard maison", price: "18€" },
-          { name: "Boudin noir du Père Claude", price: "14€" },
-          { name: "Escargots de Bourgogne (x6)", price: "12€" },
-          { name: "Saumon mariné à l'aneth", price: "15€" },
-          { name: "Salade de museau tiède", price: "10€" },
-          { name: "Os à moelle grillé au four", price: "12€" },
-          { name: "Terrine de campagne artisanale", price: "9€" },
-          { name: "Poireaux coupés au couteau", price: "10€" },
-          { name: "Œufs en meurette tradition", price: "12€" },
-          { name: "Croustillant de pied de porc", price: "14€" }
+          { name: "Foie gras de canard maison", price_cents: 1800 },
+          { name: "Boudin noir du Père Claude", price_cents: 1400 },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 1200 },
+          { name: "Saumon mariné à l'aneth", price_cents: 1500 },
+          { name: "Salade de museau tiède", price_cents: 1000 },
+          { name: "Os à moelle grillé au four", price_cents: 1200 },
+          { name: "Terrine de campagne artisanale", price_cents: 900 },
+          { name: "Poireaux coupés au couteau", price_cents: 1000 },
+          { name: "Œufs en meurette tradition", price_cents: 1200 },
+          { name: "Croustillant de pied de porc", price_cents: 1400 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Poulet fermier rôti à la broche", price: "22€" },
-          { name: "La célèbre purée du Père Claude", price: "8€" },
-          { name: "Côte de bœuf rôtie (pour 2)", price: "75€" },
-          { name: "Rognons de veau à la moutarde", price: "26€" },
-          { name: "Petit salé aux lentilles du Berry", price: "23€" },
-          { name: "Dos de cabillaud à l'ail doux", price: "25€" },
-          { name: "Blanquette de veau à l'ancienne", price: "24€" },
-          { name: "Entrecôte grillée maître d'hôtel", price: "32€" },
-          { name: "Andouillette AAAAA grillée", price: "22€" },
-          { name: "Civet de sanglier grand-mère", price: "28€" },
-          { name: "Pavé de saumon à l'oseille", price: "24€" },
-          { name: "Gigot d'agneau ail et romarin", price: "27€" },
-          { name: "Pot-au-feu traditionnel", price: "25€" }
+          { name: "Poulet fermier rôti à la broche", price_cents: 2200 },
+          { name: "La célèbre purée du Père Claude", price_cents: 800 },
+          { name: "Côte de bœuf rôtie (pour 2)", price_cents: 7500 },
+          { name: "Rognons de veau à la moutarde", price_cents: 2600 },
+          { name: "Petit salé aux lentilles du Berry", price_cents: 2300 },
+          { name: "Dos de cabillaud à l'ail doux", price_cents: 2500 },
+          { name: "Blanquette de veau à l'ancienne", price_cents: 2400 },
+          { name: "Entrecôte grillée maître d'hôtel", price_cents: 3200 },
+          { name: "Andouillette AAAAA grillée", price_cents: 2200 },
+          { name: "Civet de sanglier grand-mère", price_cents: 2800 },
+          { name: "Pavé de saumon à l'oseille", price_cents: 2400 },
+          { name: "Gigot d'agneau ail et romarin", price_cents: 2700 },
+          { name: "Pot-au-feu traditionnel", price_cents: 2500 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Riz au lait à la vanille bourbon", price: "10€" },
-          { name: "Île flottante monumentale", price: "11€" },
-          { name: "Tarte Tatin et crème crue", price: "12€" },
-          { name: "Mousse au chocolat à discrétion", price: "10€" },
-          { name: "Profiteroles au chocolat chaud", price: "11€" },
-          { name: "Baba au rhum de la Retraite", price: "12€" },
-          { name: "Plateau de fromages de nos régions", price: "14€" },
-          { name: "Crème caramel de mon enfance", price: "9€" },
-          { name: "Sorbets du moment (3 boules)", price: "10€" }
+          { name: "Riz au lait à la vanille bourbon", price_cents: 1000 },
+          { name: "Île flottante monumentale", price_cents: 1100 },
+          { name: "Tarte Tatin et crème crue", price_cents: 1200 },
+          { name: "Mousse au chocolat à discrétion", price_cents: 1000 },
+          { name: "Profiteroles au chocolat chaud", price_cents: 1100 },
+          { name: "Baba au rhum de la Retraite", price_cents: 1200 },
+          { name: "Plateau de fromages de nos régions", price_cents: 1400 },
+          { name: "Crème caramel de mon enfance", price_cents: 900 },
+          { name: "Sorbets du moment (3 boules)", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Brouilly Château de la Chaize", price: "8€" },
-          { name: "Bouteille d'eau de source", price: "5€" },
-          { name: "Café expresso ou allongé", price: "3€" }
+          { name: "Verre de Brouilly Château de la Chaize", price_cents: 800 },
+          { name: "Bouteille d'eau de source", price_cents: 500 },
+          { name: "Café expresso ou allongé", price_cents: 300 }
         ]
       }
     ]

@@ -43,64 +43,69 @@ export const le_grand_pan: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Antipasti & Charcuteries (Entrées)",
+        category_type: "starter",
+        display_label: "Antipasti & Charcuteries (Entrées)",
         items: [
-          { name: "Os à Moelle rôti au gros sel", price: "12.00€", highlight: true },
-          { name: "Terrine de Campagne Maison & Cornichons", price: "9.00€", highlight: true },
-          { name: "Poireaux Vinaigrette & Éclats de Noisettes", price: "10.00€" },
-          { name: "Salade de Museau de Cochon", price: "11.00€" },
-          { name: "Ardoise de Charcuterie Ibaïama (Poids variable)", price: "18.00€", highlight: true },
-          { name: "Velouté de Légumes de Saison", price: "8.50€" },
-          { name: "Œuf Poché, Crème de Châtaignes & Bacon", price: "13.00€" },
-          { name: "Croquettes de Cochon & Mayo pimentée (x4)", price: "12.50€" }
+          { name: "Os à Moelle rôti au gros sel", price_cents: 1200, is_highlight: true },
+          { name: "Terrine de Campagne Maison & Cornichons", price_cents: 900, is_highlight: true },
+          { name: "Poireaux Vinaigrette & Éclats de Noisettes", price_cents: 1000 },
+          { name: "Salade de Museau de Cochon", price_cents: 1100 },
+          { name: "Ardoise de Charcuterie Ibaïama (Poids variable)", price_cents: 1800, is_highlight: true },
+          { name: "Velouté de Légumes de Saison", price_cents: 850 },
+          { name: "Œuf Poché, Crème de Châtaignes & Bacon", price_cents: 1300 },
+          { name: "Croquettes de Cochon & Mayo pimentée (x4)", price_cents: 1250 }
         ]
       },
       {
-        category: "Pièces du Boucher & Traditions (Plats)",
+        category_type: "main",
+        display_label: "Pièces du Boucher & Traditions (Plats)",
         items: [
-          { name: "Côte de Bœuf Limousine (1kg, pour 2 pers)", price: "85.00€", highlight: true },
-          { name: "Onglet de Bœuf aux Échalotes confites", price: "26.00€", highlight: true },
-          { name: "Basse-côte de Galice maturée", price: "34.00€" },
-          { name: "Pluma de Cochon Ibérique à la Plancha", price: "29.00€", highlight: true },
-          { name: "Ris de Veau doré au sautoir, sauce Grenobloise", price: "38.00€", highlight: true },
-          { name: "Rognons de Veau à la moutarde violette", price: "24.00€" },
-          { name: "Agneau de Corrèze rôti au thym", price: "32.00€" },
-          { name: "Parmentier de Canard & Petite Salade", price: "22.00€" }
+          { name: "Côte de Bœuf Limousine (1kg, pour 2 pers)", price_cents: 8500, is_highlight: true },
+          { name: "Onglet de Bœuf aux Échalotes confites", price_cents: 2600, is_highlight: true },
+          { name: "Basse-côte de Galice maturée", price_cents: 3400 },
+          { name: "Pluma de Cochon Ibérique à la Plancha", price_cents: 2900, is_highlight: true },
+          { name: "Ris de Veau doré au sautoir, sauce Grenobloise", price_cents: 3800, is_highlight: true },
+          { name: "Rognons de Veau à la moutarde violette", price_cents: 2400 },
+          { name: "Agneau de Corrèze rôti au thym", price_cents: 3200 },
+          { name: "Parmentier de Canard & Petite Salade", price_cents: 2200 }
         ]
       },
       {
-        category: "Accompagnements (Plats)",
+        category_type: "main",
+        display_label: "Accompagnements (Plats)",
         items: [
-          { name: "Purée de Pomme de Terre onctueuse au beurre", price: "6.00€", highlight: true },
-          { name: "Frites fraîches Maison (double cuisson)", price: "6.00€", highlight: true },
-          { name: "Poêlée de Légumes du Marché", price: "7.00€" },
-          { name: "Gratin de Macaronis à l'ancienne", price: "7.50€" },
-          { name: "Salade Mesclun bien assaisonnée", price: "5.00€" }
+          { name: "Purée de Pomme de Terre onctueuse au beurre", price_cents: 600, is_highlight: true },
+          { name: "Frites fraîches Maison (double cuisson)", price_cents: 600, is_highlight: true },
+          { name: "Poêlée de Légumes du Marché", price_cents: 700 },
+          { name: "Gratin de Macaronis à l'ancienne", price_cents: 750 },
+          { name: "Salade Mesclun bien assaisonnée", price_cents: 500 }
         ]
       },
       {
-        category: "Douceurs du Pan (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs du Pan (Desserts)",
         items: [
-          { name: "Riz au Lait crémeux à la Vanille", price: "9.00€", highlight: true },
-          { name: "Mousse au Chocolat noir 70%", price: "8.50€" },
-          { name: "Tarte Tatin tiède & Crème fraîche", price: "10.00€", highlight: true },
-          { name: "Sablé Cacahuète, Ganache Chocolat & Sel", price: "9.50€" },
-          { name: "Fraises Gariguette & Chantilly Maison", price: "11.00€" },
-          { name: "Assiette de Fromages (Vieux Comté & Ossau Iraty)", price: "12.50€" }
+          { name: "Riz au Lait crémeux à la Vanille", price_cents: 900, is_highlight: true },
+          { name: "Mousse au Chocolat noir 70%", price_cents: 850 },
+          { name: "Tarte Tatin tiède & Crème fraîche", price_cents: 1000, is_highlight: true },
+          { name: "Sablé Cacahuète, Ganache Chocolat & Sel", price_cents: 950 },
+          { name: "Fraises Gariguette & Chantilly Maison", price_cents: 1100 },
+          { name: "Assiette de Fromages (Vieux Comté & Ossau Iraty)", price_cents: 1250 }
         ]
       },
       {
-        category: "La Cave de Benoît (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Benoît (Boissons)",
         items: [
-          { name: "Verre d'Irouléguy Domaine Brana", price: "9.00€", highlight: true },
-          { name: "Verre de Saumur Blanc 'Lydie'", price: "8.50€" },
-          { name: "Bouteille de Pic-Saint-Loup 'L'Hortus'", price: "45.00€" },
-          { name: "Bouteille de Côte d'Auvergne 'Légendaire'", price: "42.00€" },
-          { name: "Demi-Pinte de Bière Artisanale (Pression)", price: "6.50€" },
-          { name: "Jus de Pomme fermier artisanal", price: "6.00€" },
-          { name: "Eau micro-filtrée Table (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso Lomi Selection", price: "3.50€" },
-          { name: "Double Espresso", price: "5.50€" }
+          { name: "Verre d'Irouléguy Domaine Brana", price_cents: 900, is_highlight: true },
+          { name: "Verre de Saumur Blanc 'Lydie'", price_cents: 850 },
+          { name: "Bouteille de Pic-Saint-Loup 'L'Hortus'", price_cents: 4500 },
+          { name: "Bouteille de Côte d'Auvergne 'Légendaire'", price_cents: 4200 },
+          { name: "Demi-Pinte de Bière Artisanale (Pression)", price_cents: 650 },
+          { name: "Jus de Pomme fermier artisanal", price_cents: 600 },
+          { name: "Eau micro-filtrée Table (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso Lomi Selection", price_cents: 350 },
+          { name: "Double Espresso", price_cents: 550 }
         ]
       }
     ]

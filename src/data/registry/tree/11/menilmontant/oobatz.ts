@@ -45,39 +45,43 @@ export const oobatz: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Oobatz 2025 Standard (Naturally Leavened Pizzeria)
             {
-                category: "Pizzas Artisanales (Pâte Fermentée)",
+                category_type: "main",
+                display_label: "Pizzas Artisanales (Pâte Fermentée)",
                 items: [
-                    { name: "Marguerita Oobatz", price: "16.00€", description: "Sauce tomate maison, mozzarella, basilic frais." },
-                    { name: "Diavola Fermentée", price: "20.00€", description: "Salami piquant, piment, origan." },
-                    { name: "Verdure d'Été / Saison", price: "18.00€", description: "Légumes de saison rôtis, herbes fraîches." },
-                    { name: "Pizza Salsiccia", price: "22.00€", description: "Saucisse italienne, fenouil, pecorino." },
-                    { name: "Pizza Polpette", price: "23.00€", description: "Boulettes de viande maison, tomate, parmesan." },
-                    { name: "Pizza Blanche Asparagus", price: "24.00€", description: "Asperges, agrumes, crème de ricotta." },
-                    { name: "Pizza Carte Blanche (Chef Choice)", price: "26.00€", description: "L'inspiration du moment de Dan Pearson." }
+                    { name: "Marguerita Oobatz", price_cents: 1600, description: "Sauce tomate maison, mozzarella, basilic frais." },
+                    { name: "Diavola Fermentée", price_cents: 2000, description: "Salami piquant, piment, origan." },
+                    { name: "Verdure d'Été / Saison", price_cents: 1800, description: "Légumes de saison rôtis, herbes fraîches." },
+                    { name: "Pizza Salsiccia", price_cents: 2200, description: "Saucisse italienne, fenouil, pecorino." },
+                    { name: "Pizza Polpette", price_cents: 2300, description: "Boulettes de viande maison, tomate, parmesan." },
+                    { name: "Pizza Blanche Asparagus", price_cents: 2400, description: "Asperges, agrumes, crème de ricotta." },
+                    { name: "Pizza Carte Blanche (Chef Choice)", price_cents: 2600, description: "L'inspiration du moment de Dan Pearson." }
                 ]
             },
             {
-                category: "Sides & Entrées",
+                category_type: "starter",
+                display_label: "Sides & Entrées",
                 items: [
-                    { name: "Side Salad Oobatz", price: "8.00€", description: "Vinaigrette maison, herbes amères." },
-                    { name: "Assiette de légumes rôtis", price: "12.00€" }
+                    { name: "Side Salad Oobatz", price_cents: 800, description: "Vinaigrette maison, herbes amères." },
+                    { name: "Assiette de légumes rôtis", price_cents: 1200 }
                 ]
             },
             {
-                category: "Desserts Signatures",
+                category_type: "dessert",
+                display_label: "Desserts Signatures",
                 items: [
-                    { name: "Pizzookie (Warm Cookie & Pizza Dough)", price: "10.00€", description: "Dough hybride, pépites de chocolat, servi chaud." },
-                    { name: "Pana Cotta Saison", price: "8.00€" },
-                    { name: "Glace Maison (Boule)", price: "6.00€" }
+                    { name: "Pizzookie (Warm Cookie & Pizza Dough)", price_cents: 1000, description: "Dough hybride, pépites de chocolat, servi chaud." },
+                    { name: "Pana Cotta Saison", price_cents: 800 },
+                    { name: "Glace Maison (Boule)", price_cents: 600 }
                 ]
             },
             {
-                category: "Vins Natures & Boissons",
+                category_type: "drink",
+                display_label: "Vins Natures & Boissons",
                 items: [
-                    { name: "Verre de Vin Nature sélectionné", price: "7.00€" },
-                    { name: "Bouteille de Vin (à partir de)", price: "36.00€" },
-                    { name: "Draft Beer (33cl)", price: "6.00€" },
-                    { name: "Soft Artisanal", price: "12.00€", description: "Limonades et kéfirs premium." }
+                    { name: "Verre de Vin Nature sélectionné", price_cents: 700 },
+                    { name: "Bouteille de Vin (à partir de)", price_cents: 3600 },
+                    { name: "Draft Beer (33cl)", price_cents: 600 },
+                    { name: "Soft Artisanal", price_cents: 1200, description: "Limonades et kéfirs premium." }
                 ]
             }
         ]

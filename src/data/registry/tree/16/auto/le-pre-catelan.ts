@@ -41,41 +41,45 @@ export const le_pre_catelan: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Signature",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Signature",
         items: [
-          { name: "Le Menu du Pré (Dégustation complète)", price: "380€", description: "L'expression totale de la cuisine de Frédéric Anton" },
-          { name: "Le Menu Orsay", price: "310€", description: "Sélection de saisons en 12 étapes" },
-          { name: "Un Déjeuner au Pré", price: "175€", description: "Menu déjeuner (uniquement en semaine)" }
+          { name: "Le Menu du Pré (Dégustation complète)", price_cents: 38000, description: "L'expression totale de la cuisine de Frédéric Anton" },
+          { name: "Le Menu Orsay", price_cents: 31000, description: "Sélection de saisons en 12 étapes" },
+          { name: "Un Déjeuner au Pré", price_cents: 17500, description: "Menu déjeuner (uniquement en semaine)" }
         ]
       },
       {
-        category: "Les Plats de Légende",
+        category_type: "main",
+        display_label: "Les Plats de Légende",
         items: [
-          { name: "Langoustine en Ravioli", price: "120€", description: "Au foie gras de canard, fine gelée à la feuille d'or", highlight: true },
-          { name: "L'Aubergine au Caviar", price: "115€", description: "Crème d'avocat et curry léger" },
-          { name: "Le Petit Pois en Tartelette", price: "85€", description: "Menthe fraîche et oignons nouveaux" },
-          { name: "Le Saumon Fumé", price: "95€", description: "Au bois de cerisier, crème de raifort" },
-          { name: "L'Asperge Blanche de pays", price: "90€", description: "Mousseline légère et herbes potagères" },
-          { name: "Le Pigeonneau Poché", price: "135€", description: "Sauce salmis, purée de pommes de terre onctueuse" },
-          { name: "Le Ris de Veau Croustillant", price: "145€", description: "Jus corsé, petits légumes de saison" }
+          { name: "Langoustine en Ravioli", price_cents: 12000, description: "Au foie gras de canard, fine gelée à la feuille d'or", is_highlight: true },
+          { name: "L'Aubergine au Caviar", price_cents: 11500, description: "Crème d'avocat et curry léger" },
+          { name: "Le Petit Pois en Tartelette", price_cents: 8500, description: "Menthe fraîche et oignons nouveaux" },
+          { name: "Le Saumon Fumé", price_cents: 9500, description: "Au bois de cerisier, crème de raifort" },
+          { name: "L'Asperge Blanche de pays", price_cents: 9000, description: "Mousseline légère et herbes potagères" },
+          { name: "Le Pigeonneau Poché", price_cents: 13500, description: "Sauce salmis, purée de pommes de terre onctueuse" },
+          { name: "Le Ris de Veau Croustillant", price_cents: 14500, description: "Jus corsé, petits légumes de saison" }
         ]
       },
       {
-        category: "Douceurs & Fromages",
+        category_type: "dessert",
+        display_label: "Douceurs & Fromages",
         items: [
-          { name: "Plateau de Fromages affinés", price: "45€" },
-          { name: "La Pomme", price: "35€", description: "Soufflée croustillante, crème glacée caramel" },
-          { name: "Le Chocolat", price: "38€", description: "En texture, sorbet cacao amer" },
-          { name: "Citron Meyer", price: "32€", description: "Glace au basilic, meringue légère" }
+          { name: "Plateau de Fromages affinés", price_cents: 4500 },
+          { name: "La Pomme", price_cents: 3500, description: "Soufflée croustillante, crème glacée caramel" },
+          { name: "Le Chocolat", price_cents: 3800, description: "En texture, sorbet cacao amer" },
+          { name: "Citron Meyer", price_cents: 3200, description: "Glace au basilic, meringue légère" }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Coupe de Champagne Millésimé", price: "45€" },
-          { name: "Accord Mets & Vins (Sélection Sommelier)", price: "180€" },
-          { name: "Bouteille de Chablis 1er Cru", price: "120€" },
-          { name: "Expresso Pur Arabica", price: "15€" }
+          { name: "Coupe de Champagne Millésimé", price_cents: 4500 },
+          { name: "Accord Mets & Vins (Sélection Sommelier)", price_cents: 18000 },
+          { name: "Bouteille de Chablis 1er Cru", price_cents: 12000 },
+          { name: "Expresso Pur Arabica", price_cents: 1500 }
         ]
       }
     ]

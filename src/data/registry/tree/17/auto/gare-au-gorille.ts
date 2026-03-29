@@ -40,43 +40,47 @@ export const gare_au_gorille: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Poireaux brûlés, noisettes et vinaigrette", price: "12€" },
-          { name: "Tataki de bonite, soja et gingembre", price: "14€" },
-          { name: "Terrine de campagne maison", price: "11€" },
-          { name: "Croquettes de cochon, crème gribiche", price: "10€" },
-          { name: "Asperges vertes, œuf parfait et crème d'ail", price: "15€" }
+          { name: "Poireaux brûlés, noisettes et vinaigrette", price_cents: 1200 },
+          { name: "Tataki de bonite, soja et gingembre", price_cents: 1400 },
+          { name: "Terrine de campagne maison", price_cents: 1100 },
+          { name: "Croquettes de cochon, crème gribiche", price_cents: 1000 },
+          { name: "Asperges vertes, œuf parfait et crème d'ail", price_cents: 1500 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Longe de veau rôtie, artichauts barigoule", price: "28€" },
-          { name: "Cabillaud nacré, petits pois et menthe", price: "26€" },
-          { name: "Risnotto de petit épeautre, champignons de Paris", price: "22€" },
-          { name: "Pigeon rôti, betteraves et jus corsé", price: "32€" },
-          { name: "Épaule d'agneau confite, purée de panais", price: "29€" }
+          { name: "Longe de veau rôtie, artichauts barigoule", price_cents: 2800 },
+          { name: "Cabillaud nacré, petits pois et menthe", price_cents: 2600 },
+          { name: "Risnotto de petit épeautre, champignons de Paris", price_cents: 2200 },
+          { name: "Pigeon rôti, betteraves et jus corsé", price_cents: 3200 },
+          { name: "Épaule d'agneau confite, purée de panais", price_cents: 2900 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Ganache chocolat noir, fleur de sel", price: "9€" },
-          { name: "Tarte tatin, crème crue", price: "10€" },
-          { name: "Sélection de fromages affinés", price: "12€" },
-          { name: "Sorbets maison aux fruits de saison", price: "8€" },
-          { name: "Mousse de riz au lait, caramel beurre salé", price: "9€" }
+          { name: "Ganache chocolat noir, fleur de sel", price_cents: 900 },
+          { name: "Tarte tatin, crème crue", price_cents: 1000 },
+          { name: "Sélection de fromages affinés", price_cents: 1200 },
+          { name: "Sorbets maison aux fruits de saison", price_cents: 800 },
+          { name: "Mousse de riz au lait, caramel beurre salé", price_cents: 900 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de vin (sélection nature)", price: "8€" },
-          { name: "Bouteille de vin (dès)", price: "35€" },
-          { name: "Bière artisanale IPA", price: "7€" },
-          { name: "Café de spécialité", price: "3.5€" },
-          { name: "Eau micro-filtrée", price: "4€" }
+          { name: "Verre de vin (sélection nature)", price_cents: 800 },
+          { name: "Bouteille de vin (dès)", price_cents: 3500 },
+          { name: "Bière artisanale IPA", price_cents: 700 },
+          { name: "Café de spécialité", price_cents: 350 },
+          { name: "Eau micro-filtrée", price_cents: 400 }
         ]
       }
     ]

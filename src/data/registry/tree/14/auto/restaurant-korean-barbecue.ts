@@ -40,33 +40,45 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
     is_free: false,
     last_updated: "2026-03-24",
     menu_items: [
-      { category: "Entrées", items: [
-        { name: "Raviolis Grillés (Gyozas)", price: "6.50€" },
-        { name: "Kimchi Maison", price: "4.50€" },
-        { name: "Salade d'Algues", price: "5.00€" },
-        { name: "Galettes aux Poireaux (Pajeon)", price: "8.50€" },
-        { name: "Soupe Miso", price: "3.50€" },
-        { name: "Edamame", price: "4.50€" }
+      {
+        category_type: "starter",
+        display_label: "Entrées",
+        items: [
+        { name: "Raviolis Grillés (Gyozas)", price_cents: 650 },
+        { name: "Kimchi Maison", price_cents: 450 },
+        { name: "Salade d'Algues", price_cents: 500 },
+        { name: "Galettes aux Poireaux (Pajeon)", price_cents: 850 },
+        { name: "Soupe Miso", price_cents: 350 },
+        { name: "Edamame", price_cents: 450 }
       ]},
-      { category: "Barbecue (Plats Grillés)", items: [
-        { name: "Bœuf Mariné (Bulgogi)", price: "18.50€" },
-        { name: "Poitrine de Porc (Samgyeopsal)", price: "17.50€" },
-        { name: "Poulet Mariné Sauce Soja", price: "17.00€" },
-        { name: "Travers de Porc Épicé", price: "19.00€" },
-        { name: "Canard Mariné", price: "19.50€" },
-        { name: "Faux-filet de Bœuf", price: "22.00€" }
+      {
+        category_type: "main",
+        display_label: "Barbecue (Plats Grillés)",
+        items: [
+        { name: "Bœuf Mariné (Bulgogi)", price_cents: 1850 },
+        { name: "Poitrine de Porc (Samgyeopsal)", price_cents: 1750 },
+        { name: "Poulet Mariné Sauce Soja", price_cents: 1700 },
+        { name: "Travers de Porc Épicé", price_cents: 1900 },
+        { name: "Canard Mariné", price_cents: 1950 },
+        { name: "Faux-filet de Bœuf", price_cents: 2200 }
       ]},
-      { category: "Plats & Marmites", items: [
-        { name: "Bibimbap Bœuf (Hot Stone)", price: "16.50€" },
-        { name: "Bibimbap Végétarien", price: "15.00€" },
-        { name: "Kimchi Jjigae", price: "17.00€" },
-        { name: "Galbitang (Soupe Bœuf)", price: "18.00€" },
-        { name: "Hoedeopbap (Poisson Cru)", price: "19.00€" }
+      {
+        category_type: "main",
+        display_label: "Plats & Marmites",
+        items: [
+        { name: "Bibimbap Bœuf (Hot Stone)", price_cents: 1650 },
+        { name: "Bibimbap Végétarien", price_cents: 1500 },
+        { name: "Kimchi Jjigae", price_cents: 1700 },
+        { name: "Galbitang (Soupe Bœuf)", price_cents: 1800 },
+        { name: "Hoedeopbap (Poisson Cru)", price_cents: 1900 }
       ]},
-      { category: "Desserts", items: [
-        { name: "Mochi Glacé (x2)", price: "6.00€" },
-        { name: "Glace Thé Vert", price: "5.50€" },
-        { name: "Glace Gingembre", price: "5.50€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts",
+        items: [
+        { name: "Mochi Glacé (x2)", price_cents: 600 },
+        { name: "Glace Thé Vert", price_cents: 550 },
+        { name: "Glace Gingembre", price_cents: 550 }
       ]}
     ]
   },

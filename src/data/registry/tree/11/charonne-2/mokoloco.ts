@@ -43,46 +43,51 @@ export const mokoloco: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Petites Assiettes à Partager (Entrées)",
+                category_type: "starter",
+                display_label: "Petites Assiettes à Partager (Entrées)",
                 items: [
                     // VERIFIED: Le Fooding + Umai + lacarte.menu (2024-2025) — Chef Minsoo Kim
-                    { name: "Snack 'Barbajuan'", price: "12.00€" },
-                    { name: "Briouate au foie de volaille", price: "13.00€" },
-                    { name: "Egg Jjim (flan coréen vapeur)", price: "14.00€" },
-                    { name: "Sardines chalumées", price: "14.00€" },
-                    { name: "Mulet cru, condiments coréens", price: "16.00€" },
-                    { name: "Thon blanc cru, condiments saisonniers", price: "16.00€" },
-                    { name: "Beignets de pommes de terre, sauce pimentée", price: "12.00€" }
+                    { name: "Snack 'Barbajuan'", price_cents: 1200 },
+                    { name: "Briouate au foie de volaille", price_cents: 1300 },
+                    { name: "Egg Jjim (flan coréen vapeur)", price_cents: 1400 },
+                    { name: "Sardines chalumées", price_cents: 1400 },
+                    { name: "Mulet cru, condiments coréens", price_cents: 1600 },
+                    { name: "Thon blanc cru, condiments saisonniers", price_cents: 1600 },
+                    { name: "Beignets de pommes de terre, sauce pimentée", price_cents: 1200 }
                 ]
             },
             {
-                category: "Plats (à partager ou individuels)",
+                category_type: "main",
+                display_label: "Plats (à partager ou individuels)",
                 items: [
-                    { name: "Madame Butterfly (Crevettes frites pointues)", price: "22.00€" },
-                    { name: "Rouget de ligne rôti, réduction corsée", price: "24.00€" },
-                    { name: "Pkaïla (ragoût d'épinards traditionnel)", price: "20.00€" },
-                    { name: "Fricassé tunisien revisité", price: "18.00€" },
-                    { name: "Tajine aux boulettes de kefta", price: "22.00€" }
+                    { name: "Madame Butterfly (Crevettes frites pointues)", price_cents: 2200 },
+                    { name: "Rouget de ligne rôti, réduction corsée", price_cents: 2400 },
+                    { name: "Pkaïla (ragoût d'épinards traditionnel)", price_cents: 2000 },
+                    { name: "Fricassé tunisien revisité", price_cents: 1800 },
+                    { name: "Tajine aux boulettes de kefta", price_cents: 2200 }
                 ]
             },
             {
-                category: "Menu Dégustation",
+                category_type: "tasting_menu",
+                display_label: "Menu Dégustation",
                 items: [
-                    { name: "Menu Dégustation du Soir (5-6 assiettes)", price: "38.00€", description: "Le chef compose pour vous. Meilleur rapport Q/P." }
+                    { name: "Menu Dégustation du Soir (5-6 assiettes)", price_cents: 3800, description: "Le chef compose pour vous. Meilleur rapport Q/P." }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Dessert de saison du chef", price: "12.00€" },
-                    { name: "Dessert signature (selon résidence)", price: "10.00€" }
+                    { name: "Dessert de saison du chef", price_cents: 1200 },
+                    { name: "Dessert signature (selon résidence)", price_cents: 1000 }
                 ]
             },
             {
-                category: "Vins Natures",
+                category_type: "drink",
+                display_label: "Vins Natures",
                 items: [
-                    { name: "Verre de vin nature (à partir de)", price: "8.00€" },
-                    { name: "Pet'Nat fruité (bouteille)", price: "32.00€" }
+                    { name: "Verre de vin nature (à partir de)", price_cents: 800 },
+                    { name: "Pet'Nat fruité (bouteille)", price_cents: 3200 }
                 ]
             }
         ]

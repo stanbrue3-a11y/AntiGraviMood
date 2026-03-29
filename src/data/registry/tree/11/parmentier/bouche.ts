@@ -43,40 +43,44 @@ export const bouche: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Tapassiettes - Les Incontournables",
+                category_type: "sharing",
+                display_label: "Tapassiettes - Les Incontournables",
                 items: [
-                    { name: "Chou frisé au BBQ, dattes, tahini, cacahuètes", price: "18.00€", description: "Le plat signature, cuit longuement." },
-                    { name: "Fromage suisse au nid d'abeille", price: "12.00€" },
-                    { name: "Çiğ köfte (version végétalienne), sucrine et herbes", price: "13.00€" },
-                    { name: "Mousse de foie de volaille, gelée de poire au Timut", price: "13.00€" },
-                    { name: "Chiacciata (pain italien maison)", price: "9.00€" }
+                    { name: "Chou frisé au BBQ, dattes, tahini, cacahuètes", price_cents: 1800, description: "Le plat signature, cuit longuement." },
+                    { name: "Fromage suisse au nid d'abeille", price_cents: 1200 },
+                    { name: "Çiğ köfte (version végétalienne), sucrine et herbes", price_cents: 1300 },
+                    { name: "Mousse de foie de volaille, gelée de poire au Timut", price_cents: 1300 },
+                    { name: "Chiacciata (pain italien maison)", price_cents: 900 }
                 ]
             },
             {
-                category: "Tapassiettes - Mer & Terre",
+                category_type: "sharing",
+                display_label: "Tapassiettes - Mer & Terre",
                 items: [
-                    { name: "Praires au beurre d'ail noir & katsuobushi", price: "14.00€" },
-                    { name: "Lomo ibérique (planche)", price: "13.00€" },
-                    { name: "Moules en escabèche maison", price: "10.00€" },
-                    { name: "Sopressata artisanale", price: "8.00€" },
-                    { name: "Gnolottis poireaux & scarmorza, bouillon champignon", price: "14.00€" },
-                    { name: "Pommes de terre tapées, paprika fumé, sauce ranch", price: "7.00€" }
+                    { name: "Praires au beurre d'ail noir & katsuobushi", price_cents: 1400 },
+                    { name: "Lomo ibérique (planche)", price_cents: 1300 },
+                    { name: "Moules en escabèche maison", price_cents: 1000 },
+                    { name: "Sopressata artisanale", price_cents: 800 },
+                    { name: "Gnolottis poireaux & scarmorza, bouillon champignon", price_cents: 1400 },
+                    { name: "Pommes de terre tapées, paprika fumé, sauce ranch", price_cents: 700 }
                 ]
             },
             {
-                category: "Gourmandises",
+                category_type: "other",
+                display_label: "Gourmandises",
                 items: [
-                    { name: "Tarte à la clémentine & mousse au chocolat", price: "10.00€" },
-                    { name: "Cheesecake basque, coulis de myrtille sauvage", price: "11.00€" },
-                    { name: "Ice cream sandwich (sésame & cacao)", price: "10.00€" }
+                    { name: "Tarte à la clémentine & mousse au chocolat", price_cents: 1000 },
+                    { name: "Cheesecake basque, coulis de myrtille sauvage", price_cents: 1100 },
+                    { name: "Ice cream sandwich (sésame & cacao)", price_cents: 1000 }
                 ]
             },
             {
-                category: "Cave & Vins Natures",
+                category_type: "drink",
+                display_label: "Cave & Vins Natures",
                 items: [
-                    { name: "Verre de vin 'sur le fruit' (blanc/rouge)", price: "9.00€" },
-                    { name: "Verre de Pet Nat (effervescent naturel)", price: "11.00€" },
-                    { name: "Bouteille nature (sélection du moment)", price: "40.00€", description: "À partir de 40€" }
+                    { name: "Verre de vin 'sur le fruit' (blanc/rouge)", price_cents: 900 },
+                    { name: "Verre de Pet Nat (effervescent naturel)", price_cents: 1100 },
+                    { name: "Bouteille nature (sélection du moment)", price_cents: 4000, description: "À partir de 40€" }
                 ]
             }
         ]

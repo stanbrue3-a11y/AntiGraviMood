@@ -40,52 +40,56 @@ export const carette: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Petit-Déjeuner & Brunch",
+        category_type: "other",
+        display_label: "Petit-Déjeuner & Brunch",
         items: [
-          { name: "Chocolat Chaud Carette", price: "11€", description: "Onctueux, recette secrète avec chantilly maison", highlight: true },
-          { name: "Œufs Brouillés Nature", price: "15€", description: "Baveux et onctueux à souhait" },
-          { name: "Œufs Brouillés au Saumon", price: "25.50€", description: "Saumon fumé de qualité supérieure" },
-          { name: "Pancakes aux Fruits", price: "18€", description: "Sirop d'érable et fruits de saison" },
-          { name: "Petit-Déjeuner complet", price: "32€", description: "Boisson chaude, jus frais, viennoiseries, œufs" },
-          { name: "Omelette aux Herbes", price: "16.50€" },
-          { name: "Pain Perdu Minute", price: "14.00€", description: "Caramel beurre salé" },
-          { name: "Salade de Fruits frais", price: "12.00€" }
+          { name: "Chocolat Chaud Carette", price_cents: 1100, description: "Onctueux, recette secrète avec chantilly maison", is_highlight: true },
+          { name: "Œufs Brouillés Nature", price_cents: 1500, description: "Baveux et onctueux à souhait" },
+          { name: "Œufs Brouillés au Saumon", price_cents: 2550, description: "Saumon fumé de qualité supérieure" },
+          { name: "Pancakes aux Fruits", price_cents: 1800, description: "Sirop d'érable et fruits de saison" },
+          { name: "Petit-Déjeuner complet", price_cents: 3200, description: "Boisson chaude, jus frais, viennoiseries, œufs" },
+          { name: "Omelette aux Herbes", price_cents: 1650 },
+          { name: "Pain Perdu Minute", price_cents: 1400, description: "Caramel beurre salé" },
+          { name: "Salade de Fruits frais", price_cents: 1200 }
         ]
       },
       {
-        category: "Dégustation Salée",
+        category_type: "tasting_menu",
+        display_label: "Dégustation Salée",
         items: [
-          { name: "Club Sandwich Poulet", price: "22€", description: "Le classique, pain de mie toasté et frites", highlight: true },
-          { name: "Club Sandwich Saumon", price: "26€", description: "Saumon fumé et crème acidulée" },
-          { name: "Croque-Monsieur Comté", price: "17€", description: "Pain de mie artisanal et jambon de Paris" },
-          { name: "Salade Carette Homard", price: "36€", description: "Demi homard, avocat, pamplemousse" },
-          { name: "Quiche Lorraine", price: "14.50€", description: "Servie avec une petite salade verte" },
-          { name: "Feuilleté aux Champignons", price: "16.00€" },
-          { name: "Salade César Poulet", price: "21.00€" }
+          { name: "Club Sandwich Poulet", price_cents: 2200, description: "Le classique, pain de mie toasté et frites", is_highlight: true },
+          { name: "Club Sandwich Saumon", price_cents: 2600, description: "Saumon fumé et crème acidulée" },
+          { name: "Croque-Monsieur Comté", price_cents: 1700, description: "Pain de mie artisanal et jambon de Paris" },
+          { name: "Salade Carette Homard", price_cents: 3600, description: "Demi homard, avocat, pamplemousse" },
+          { name: "Quiche Lorraine", price_cents: 1450, description: "Servie avec une petite salade verte" },
+          { name: "Feuilleté aux Champignons", price_cents: 1600 },
+          { name: "Salade César Poulet", price_cents: 2100 }
         ]
       },
       {
-        category: "Pâtisseries Icônes",
+        category_type: "other",
+        display_label: "Pâtisseries Icônes",
         items: [
-          { name: "Macaron XXL Framboise", price: "10€", description: "Énorme macaron garni de framboises fraîches", highlight: true },
-          { name: "Saint-Honoré Vanille", price: "12€", description: "Crème chiboust et caramel craquant" },
-          { name: "Paris-Brest Praliné", price: "12€", description: "Crème mousseline noisette intense" },
-          { name: "Éclair au Chocolat", price: "9.50€", description: "Ganache noire 70%" },
-          { name: "Tarte au Citron Meringuée", price: "11.00€" },
-          { name: "Mille-feuille Vanille", price: "12.50€" },
-          { name: "Mont-Blanc (Saison)", price: "13.00€" },
-          { name: "Duo de Macarons classiques", price: "6.00€" }
+          { name: "Macaron XXL Framboise", price_cents: 1000, description: "Énorme macaron garni de framboises fraîches", is_highlight: true },
+          { name: "Saint-Honoré Vanille", price_cents: 1200, description: "Crème chiboust et caramel craquant" },
+          { name: "Paris-Brest Praliné", price_cents: 1200, description: "Crème mousseline noisette intense" },
+          { name: "Éclair au Chocolat", price_cents: 950, description: "Ganache noire 70%" },
+          { name: "Tarte au Citron Meringuée", price_cents: 1100 },
+          { name: "Mille-feuille Vanille", price_cents: 1250 },
+          { name: "Mont-Blanc (Saison)", price_cents: 1300 },
+          { name: "Duo de Macarons classiques", price_cents: 600 }
         ]
       },
       {
-        category: "Sélection Samovar",
+        category_type: "other",
+        display_label: "Sélection Samovar",
         items: [
-          { name: "Thé Mélange Carette", price: "9€", description: "Thé noir parfumé aux agrumes" },
-          { name: "Thé Vert à la Menthe", price: "9.50€", description: "Feuilles de menthe fraîche" },
-          { name: "Jus d'Orange Pressé", price: "8.50€" },
-          { name: "Café Allongé", price: "6.00€" },
-          { name: "Expresso", price: "5€" },
-          { name: "Limonade Maison", price: "8.50€" }
+          { name: "Thé Mélange Carette", price_cents: 900, description: "Thé noir parfumé aux agrumes" },
+          { name: "Thé Vert à la Menthe", price_cents: 950, description: "Feuilles de menthe fraîche" },
+          { name: "Jus d'Orange Pressé", price_cents: 850 },
+          { name: "Café Allongé", price_cents: 600 },
+          { name: "Expresso", price_cents: 500 },
+          { name: "Limonade Maison", price_cents: 850 }
         ]
       }
     ]

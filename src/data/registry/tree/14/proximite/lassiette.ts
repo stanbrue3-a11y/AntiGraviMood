@@ -40,36 +40,39 @@ export const lassiette: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Incontournables de David Rathgeber",
+                category_type: "other",
+                display_label: "Les Incontournables de David Rathgeber",
                 items: [
-                    { name: "Cassoulet Artisanal de L'Assiette", price: "38.00€", description: "Confit de canard, saucisse de Toulouse, couenne et haricots lingots." },
-                    { name: "Ris de Veau Doré au Sutoir", price: "52.00€" },
-                    { name: "Andouillette AAAAA de chez Duval", price: "32.00€" },
-                    { name: "Parmentier de Queue de Boeuf", price: "34.00€" },
-                    { name: "Poitrine de Cochon Fondante", price: "29.00€" },
-                    { name: "Dos de Cabillaud Cuisson Basse Température", price: "36.00€" },
-                    { name: "Épaule d'Agneau de Lait (pour 2)", price: "95.00€" }
+                    { name: "Cassoulet Artisanal de L'Assiette", price_cents: 3800, description: "Confit de canard, saucisse de Toulouse, couenne et haricots lingots." },
+                    { name: "Ris de Veau Doré au Sutoir", price_cents: 5200 },
+                    { name: "Andouillette AAAAA de chez Duval", price_cents: 3200 },
+                    { name: "Parmentier de Queue de Boeuf", price_cents: 3400 },
+                    { name: "Poitrine de Cochon Fondante", price_cents: 2900 },
+                    { name: "Dos de Cabillaud Cuisson Basse Température", price_cents: 3600 },
+                    { name: "Épaule d'Agneau de Lait (pour 2)", price_cents: 9500 }
                 ]
             },
             {
-                category: "Entrées de Saison",
+                category_type: "starter",
+                display_label: "Entrées de Saison",
                 items: [
-                    { name: "Bouillon de Poule à la Truffe", price: "18.00€" },
-                    { name: "Calamars à la Plancha, Chorizo", price: "22.00€" },
-                    { name: "Foie Gras Chantilly de David", price: "24.00€" },
-                    { name: "Asperges Vertes de Provence (en saison)", price: "21.00€" },
-                    { name: "Escargots de Bourgogne en Coquille (les 6)", price: "18.00€" },
-                    { name: "Pâté en Croûte Maison", price: "26.00€" }
+                    { name: "Bouillon de Poule à la Truffe", price_cents: 1800 },
+                    { name: "Calamars à la Plancha, Chorizo", price_cents: 2200 },
+                    { name: "Foie Gras Chantilly de David", price_cents: 2400 },
+                    { name: "Asperges Vertes de Provence (en saison)", price_cents: 2100 },
+                    { name: "Escargots de Bourgogne en Coquille (les 6)", price_cents: 1800 },
+                    { name: "Pâté en Croûte Maison", price_cents: 2600 }
                 ]
             },
             {
-                category: "Desserts & Gourmandises",
+                category_type: "dessert",
+                display_label: "Desserts & Gourmandises",
                 items: [
-                    { name: "Crème Caramel à la Vanille de Tahiti", price: "12.00€" },
-                    { name: "Tarte Tatin Géante", price: "14.50€" },
-                    { name: "Paris-Brest Signature", price: "15.00€" },
-                    { name: "Mousse au Chocolat Noir intense", price: "13.00€" },
-                    { name: "Assiette de Fromages de chez Sanders", price: "18.00€" }
+                    { name: "Crème Caramel à la Vanille de Tahiti", price_cents: 1200 },
+                    { name: "Tarte Tatin Géante", price_cents: 1450 },
+                    { name: "Paris-Brest Signature", price_cents: 1500 },
+                    { name: "Mousse au Chocolat Noir intense", price_cents: 1300 },
+                    { name: "Assiette de Fromages de chez Sanders", price_cents: 1800 }
                 ]
             }
         ]

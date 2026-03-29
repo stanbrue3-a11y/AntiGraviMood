@@ -43,67 +43,73 @@ export const il_cuoco_galante: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Antipasti & Créations (Entrées)",
+        category_type: "starter",
+        display_label: "Antipasti & Créations (Entrées)",
         items: [
-          { name: "Vitello Tonnato, Carotte & Câpres rôtis", price: "14.00€", highlight: true },
-          { name: "Burrata di Puglia, Petits pois & Menthe", price: "12.00€", highlight: true },
-          { name: "Supion poêlé au Pesto de Menthe & Roquette", price: "14.00€" },
-          { name: "Croquettes au Parmesan & Crème de Citron", price: "11.00€" },
-          { name: "Asperges Blanches alla Parmigiana & Sarrasin", price: "14.00€", highlight: true },
-          { name: "Carpaccio de Bœuf au Sel d'Agrumes", price: "15.50€" },
-          { name: "Polpette della Nonna à la Tomate San Marzano", price: "12.50€" },
-          { name: "Velouté de Saison & Foccacia Maison", price: "10.00€" }
+          { name: "Vitello Tonnato, Carotte & Câpres rôtis", price_cents: 1400, is_highlight: true },
+          { name: "Burrata di Puglia, Petits pois & Menthe", price_cents: 1200, is_highlight: true },
+          { name: "Supion poêlé au Pesto de Menthe & Roquette", price_cents: 1400 },
+          { name: "Croquettes au Parmesan & Crème de Citron", price_cents: 1100 },
+          { name: "Asperges Blanches alla Parmigiana & Sarrasin", price_cents: 1400, is_highlight: true },
+          { name: "Carpaccio de Bœuf au Sel d'Agrumes", price_cents: 1550 },
+          { name: "Polpette della Nonna à la Tomate San Marzano", price_cents: 1250 },
+          { name: "Velouté de Saison & Foccacia Maison", price_cents: 1000 }
         ]
       },
       {
-        category: "Pâtes Fraîches Maison (Primi)",
+        category_type: "other",
+        display_label: "Pâtes Fraîches Maison (Primi)",
         items: [
-          { name: "Bottoni à la Joue de Bœuf confite & Parmesan", price: "24.00€", highlight: true },
-          { name: "Spaghetti à l'Encre & Bisque de Langoustine", price: "24.00€", highlight: true },
-          { name: "Pappardelle alla Vaccinara (Queue de Bœuf 48h)", price: "26.00€", highlight: true },
-          { name: "Spaghetti au Pesto de Roquette & Ail des Ours", price: "21.00€" },
-          { name: "Ravioli à la Ricotta, Épinards & Truffe Noire", price: "28.00€" },
-          { name: "Gnocchi Maison au Beurre d'Estragon", price: "22.50€" }
+          { name: "Bottoni à la Joue de Bœuf confite & Parmesan", price_cents: 2400, is_highlight: true },
+          { name: "Spaghetti à l'Encre & Bisque de Langoustine", price_cents: 2400, is_highlight: true },
+          { name: "Pappardelle alla Vaccinara (Queue de Bœuf 48h)", price_cents: 2600, is_highlight: true },
+          { name: "Spaghetti au Pesto de Roquette & Ail des Ours", price_cents: 2100 },
+          { name: "Ravioli à la Ricotta, Épinards & Truffe Noire", price_cents: 2800 },
+          { name: "Gnocchi Maison au Beurre d'Estragon", price_cents: 2250 }
         ]
       },
       {
-        category: "Piatti della Casa (Plats)",
+        category_type: "main",
+        display_label: "Piatti della Casa (Plats)",
         items: [
-          { name: "Tagliata d'Onglet de Veau & Pommes de terre rôties", price: "26.00€", highlight: true },
-          { name: "Bar rôti Acqua Pazza & Mousseline de fèves", price: "26.00€", highlight: true },
-          { name: "Poulpe croustillant & Crème de fèves de luxe", price: "27.50€" },
-          { name: "Filet de Bœuf au Poivre Vert & Réduction de Gavi", price: "32.00€" }
+          { name: "Tagliata d'Onglet de Veau & Pommes de terre rôties", price_cents: 2600, is_highlight: true },
+          { name: "Bar rôti Acqua Pazza & Mousseline de fèves", price_cents: 2600, is_highlight: true },
+          { name: "Poulpe croustillant & Crème de fèves de luxe", price_cents: 2750 },
+          { name: "Filet de Bœuf au Poivre Vert & Réduction de Gavi", price_cents: 3200 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Pommes de Terre rôties au Romarin & Ail", price: "7.00€" },
-          { name: "Caponata Sicilienne Traditionnelle Maison", price: "8.50€", highlight: true },
-          { name: "Salade de Jeunes Pousses & Vinaigrette Balsamique", price: "6.00€" },
-          { name: "Légumes du Marché grillés au four à bois", price: "7.50€" }
+          { name: "Pommes de Terre rôties au Romarin & Ail", price_cents: 700 },
+          { name: "Caponata Sicilienne Traditionnelle Maison", price_cents: 850, is_highlight: true },
+          { name: "Salade de Jeunes Pousses & Vinaigrette Balsamique", price_cents: 600 },
+          { name: "Légumes du Marché grillés au four à bois", price_cents: 750 }
         ]
       },
       {
-        category: "Dolci & Formaggi (Desserts)",
+        category_type: "dessert",
+        display_label: "Dolci & Formaggi (Desserts)",
         items: [
-          { name: "Le Tiramisu 'Minute' de la Casa", price: "11.00€", highlight: true },
-          { name: "Panna Cotta à la Fraise (Sans Gélatine)", price: "10.00€", highlight: true },
-          { name: "Bruto ma Buono: Limoncello & Amande", price: "10.00€" },
-          { name: "Assiette de Fromages Italiens Affinés (Sélection)", price: "14.50€" },
-          { name: "Sorbet Citron de Sicile & Zestes", price: "9.00€" }
+          { name: "Le Tiramisu 'Minute' de la Casa", price_cents: 1100, is_highlight: true },
+          { name: "Panna Cotta à la Fraise (Sans Gélatine)", price_cents: 1000, is_highlight: true },
+          { name: "Bruto ma Buono: Limoncello & Amande", price_cents: 1000 },
+          { name: "Assiette de Fromages Italiens Affinés (Sélection)", price_cents: 1450 },
+          { name: "Sorbet Citron de Sicile & Zestes", price_cents: 900 }
         ]
       },
       {
-        category: "La Cantina del Cuoco (Boissons)",
+        category_type: "drink",
+        display_label: "La Cantina del Cuoco (Boissons)",
         items: [
-          { name: "Verre de Catarratto 'Tule' (Bio)", price: "7.00€", highlight: true },
-          { name: "Verre de Nero d'Avola 'Principe' (Bio)", price: "7.50€" },
-          { name: "Bouteille de Barolo DOCG (Sélection)", price: "68.00€", highlight: true },
-          { name: "Cocktail Spritz Artisanal au Select", price: "11.00€" },
-          { name: "Eau micro-filtrée Cuoco (75cl)", price: "4.50€" },
-          { name: "Café Espresso Italien Torréfaction Brune", price: "3.50€" },
-          { name: "Digestif Limoncello Maison", price: "7.00€" }
+          { name: "Verre de Catarratto 'Tule' (Bio)", price_cents: 700, is_highlight: true },
+          { name: "Verre de Nero d'Avola 'Principe' (Bio)", price_cents: 750 },
+          { name: "Bouteille de Barolo DOCG (Sélection)", price_cents: 6800, is_highlight: true },
+          { name: "Cocktail Spritz Artisanal au Select", price_cents: 1100 },
+          { name: "Eau micro-filtrée Cuoco (75cl)", price_cents: 450 },
+          { name: "Café Espresso Italien Torréfaction Brune", price_cents: 350 },
+          { name: "Digestif Limoncello Maison", price_cents: 700 }
         ]
       }
     ]

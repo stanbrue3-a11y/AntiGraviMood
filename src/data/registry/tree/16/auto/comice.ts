@@ -40,57 +40,62 @@ export const comice: SurgicalPlace = {
     verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Les Menus Dégustation (Plats)",
+        category_type: "main",
+        display_label: "Les Menus Dégustation (Plats)",
         items: [
-          { name: "Menu Comice (5 Services)", price: "150€", description: "Le parcours signature du chef Noam Gedalof", highlight: true },
-          { name: "Menu Découverte (4 Services)", price: "120€", description: "Une introduction élégante aux saveurs de saison" }
+          { name: "Menu Comice (5 Services)", price_cents: 15000, description: "Le parcours signature du chef Noam Gedalof", is_highlight: true },
+          { name: "Menu Découverte (4 Services)", price_cents: 12000, description: "Une introduction élégante aux saveurs de saison" }
         ]
       },
       {
-        category: "L'Expérience à la Carte (Entrées)",
+        category_type: "starter",
+        display_label: "L'Expérience à la Carte (Entrées)",
         items: [
-          { name: "Hamachi de Ligne Mariné", price: "32€", description: "Agrumes, huile d'origan et radis d'hiver", highlight: true },
-          { name: "Velouté de Topinambour", price: "24€", description: "Truffe noire fraîche et noisettes éclatées" },
-          { name: "Gougères au Comté (x6)", price: "14€", description: "Les fameuses bouchées d'accueil" },
-          { name: "Asperges Blanches de Landes", price: "28€", description: "Vinaigrette aux agrumes (en saison)" },
-          { name: "Salade de Homard Breton", price: "45€" },
-          { name: "Foie Gras Poêlé", price: "34€", description: "Coings fondants et réduction de cidre" }
+          { name: "Hamachi de Ligne Mariné", price_cents: 3200, description: "Agrumes, huile d'origan et radis d'hiver", is_highlight: true },
+          { name: "Velouté de Topinambour", price_cents: 2400, description: "Truffe noire fraîche et noisettes éclatées" },
+          { name: "Gougères au Comté (x6)", price_cents: 1400, description: "Les fameuses bouchées d'accueil" },
+          { name: "Asperges Blanches de Landes", price_cents: 2800, description: "Vinaigrette aux agrumes (en saison)" },
+          { name: "Salade de Homard Breton", price_cents: 4500 },
+          { name: "Foie Gras Poêlé", price_cents: 3400, description: "Coings fondants et réduction de cidre" }
         ]
       },
       {
-        category: "L'Expérience à la Carte (Plats)",
+        category_type: "main",
+        display_label: "L'Expérience à la Carte (Plats)",
         items: [
-          { name: "Canette de Challans Rôtie", price: "48€", description: "Chou rouge braisé, réduction de cassis et épices", highlight: true },
-          { name: "Ris de Veau Doré au Sautoir", price: "52€", description: "Jus de viande infusé aux herbes" },
-          { name: "Lieu Jaune de Saint-Gilles-Croix-de-Vie", price: "42€", description: "Beurre blanc citronné et poireaux fondants" },
-          { name: "Tourte de Gibier de Chasse", price: "46€", description: "Recette traditionnelle (saisonnière)" },
-          { name: "Turbot de Petit Bateau", price: "58€", description: "Purée de chou-fleur et câpres séchées" },
-          { name: "Filet de Chevreuil", price: "50€" }
+          { name: "Canette de Challans Rôtie", price_cents: 4800, description: "Chou rouge braisé, réduction de cassis et épices", is_highlight: true },
+          { name: "Ris de Veau Doré au Sautoir", price_cents: 5200, description: "Jus de viande infusé aux herbes" },
+          { name: "Lieu Jaune de Saint-Gilles-Croix-de-Vie", price_cents: 4200, description: "Beurre blanc citronné et poireaux fondants" },
+          { name: "Tourte de Gibier de Chasse", price_cents: 4600, description: "Recette traditionnelle (saisonnière)" },
+          { name: "Turbot de Petit Bateau", price_cents: 5800, description: "Purée de chou-fleur et câpres séchées" },
+          { name: "Filet de Chevreuil", price_cents: 5000 }
         ]
       },
       {
-        category: "Sélection de Maître (Desserts)",
+        category_type: "dessert",
+        display_label: "Sélection de Maître (Desserts)",
         items: [
-          { name: "Soufflé au Grand Marnier", price: "22€", description: "Le dessert signature, servi avec sorbet orange", highlight: true },
-          { name: "Tatin de Poires Caramélisées", price: "18€", description: "Glace à la vanille de Tahiti" },
-          { name: "Mousse au Chocolat Guanaja 70%", price: "16€" },
-          { name: "Texture de Fraises des Bois", price: "21€" },
-          { name: "Plateau de Fromages de Maître", price: "24€", description: "Sélection affinée d'Etheliya" }
+          { name: "Soufflé au Grand Marnier", price_cents: 2200, description: "Le dessert signature, servi avec sorbet orange", is_highlight: true },
+          { name: "Tatin de Poires Caramélisées", price_cents: 1800, description: "Glace à la vanille de Tahiti" },
+          { name: "Mousse au Chocolat Guanaja 70%", price_cents: 1600 },
+          { name: "Texture de Fraises des Bois", price_cents: 2100 },
+          { name: "Plateau de Fromages de Maître", price_cents: 2400, description: "Sélection affinée d'Etheliya" }
         ]
       },
       {
-        category: "Le Cellier d'Etheliya (Cave & Boissons)",
+        category_type: "drink",
+        display_label: "Le Cellier d'Etheliya (Cave & Boissons)",
         items: [
-          { name: "Accord Mets & Vins (5 services)", price: "95€", description: "Une curation pointue et narrative", highlight: true },
-          { name: "Coupe de Champagne Drappier", price: "24€" },
-          { name: "Cocktail Signature 'Versailles'", price: "18€", description: "Gin, liqueur de fleur, tonic artisanal" },
-          { name: "Bouteille de Châteauneuf-du-Pape", price: "145€" },
-          { name: "Riesling Canadien (Rare)", price: "85€" },
-          { name: "Verre de Bourgogne Rouge", price: "19€" },
-          { name: "Verre de Sancerre", price: "17€" },
-          { name: "Eau Minérale Abatilles (75cl)", price: "8€" },
-          { name: "Café de Spécialité Filtre", price: "9€" },
-          { name: "Infusion de Herbes Fraîches", price: "10€" }
+          { name: "Accord Mets & Vins (5 services)", price_cents: 9500, description: "Une curation pointue et narrative", is_highlight: true },
+          { name: "Coupe de Champagne Drappier", price_cents: 2400 },
+          { name: "Cocktail Signature 'Versailles'", price_cents: 1800, description: "Gin, liqueur de fleur, tonic artisanal" },
+          { name: "Bouteille de Châteauneuf-du-Pape", price_cents: 14500 },
+          { name: "Riesling Canadien (Rare)", price_cents: 8500 },
+          { name: "Verre de Bourgogne Rouge", price_cents: 1900 },
+          { name: "Verre de Sancerre", price_cents: 1700 },
+          { name: "Eau Minérale Abatilles (75cl)", price_cents: 800 },
+          { name: "Café de Spécialité Filtre", price_cents: 900 },
+          { name: "Infusion de Herbes Fraîches", price_cents: 1000 }
         ]
       }
     ]

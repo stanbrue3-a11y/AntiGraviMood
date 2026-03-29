@@ -45,41 +45,45 @@ export const petit_nuage: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Formules Déjeuner (Contenu variable)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Contenu variable)",
                 items: [
-                    { name: "Formule E + P (ou P + D)", price: "24.00€" },
-                    { name: "Formule Complète (E + P + D)", price: "29.00€" },
-                    { name: "Entrée seule", price: "9.00€" },
-                    { name: "Plat seul", price: "19.00€" },
-                    { name: "Dessert seul", price: "9.00€" }
+                    { name: "Formule E + P (ou P + D)", price_cents: 2400 },
+                    { name: "Formule Complète (E + P + D)", price_cents: 2900 },
+                    { name: "Entrée seule", price_cents: 900 },
+                    { name: "Plat seul", price_cents: 1900 },
+                    { name: "Dessert seul", price_cents: 900 }
                 ]
             },
             {
-                category: "Tapassiettes du Soir (Salé)",
+                category_type: "sharing",
+                display_label: "Tapassiettes du Soir (Salé)",
                 items: [
-                    { name: "Cheese Naan truffé", price: "9.00€", description: "Le best-seller du soir." },
-                    { name: "Gyozas de bœuf braisé", price: "15.00€" },
-                    { name: "Gnocchis de patates douces", price: "15.00€" },
-                    { name: "Carpaccio de Dorade (selon arrivage)", price: "21.00€" },
-                    { name: "Ballotine de pintade farcie", price: "19.00€" },
-                    { name: "Faux-filet de bœuf Normand", price: "24.00€" },
-                    { name: "Celerisotto", price: "15.00€" }
+                    { name: "Cheese Naan truffé", price_cents: 900, description: "Le best-seller du soir." },
+                    { name: "Gyozas de bœuf braisé", price_cents: 1500 },
+                    { name: "Gnocchis de patates douces", price_cents: 1500 },
+                    { name: "Carpaccio de Dorade (selon arrivage)", price_cents: 2100 },
+                    { name: "Ballotine de pintade farcie", price_cents: 1900 },
+                    { name: "Faux-filet de bœuf Normand", price_cents: 2400 },
+                    { name: "Celerisotto", price_cents: 1500 }
                 ]
             },
             {
-                category: "Douceurs Fin de Repas",
+                category_type: "dessert",
+                display_label: "Douceurs Fin de Repas",
                 items: [
-                    { name: "Fontainebleau aux fruits de saison", price: "11.00€" },
-                    { name: "Tarte Tatin maison", price: "11.00€" },
-                    { name: "Mousse au chocolat noir 72%", price: "11.00€" }
+                    { name: "Fontainebleau aux fruits de saison", price_cents: 1100 },
+                    { name: "Tarte Tatin maison", price_cents: 1100 },
+                    { name: "Mousse au chocolat noir 72%", price_cents: 1100 }
                 ]
             },
             {
-                category: "Cocktails Signatures",
+                category_type: "drink",
+                display_label: "Cocktails Signatures",
                 items: [
-                    { name: "Petit Nuage (Gin Hendrick's)", price: "13.00€" },
-                    { name: "Mayday (Rhum Sailor Jerry)", price: "12.00€" },
-                    { name: "Jamaican Mule", price: "11.00€" }
+                    { name: "Petit Nuage (Gin Hendrick's)", price_cents: 1300 },
+                    { name: "Mayday (Rhum Sailor Jerry)", price_cents: 1200 },
+                    { name: "Jamaican Mule", price_cents: 1100 }
                 ]
             }
         ]

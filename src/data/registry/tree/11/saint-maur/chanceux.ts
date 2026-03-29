@@ -42,65 +42,72 @@ export const chanceux: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Petit-Déjeuner & Espresso Bar (jusqu'à 12h)",
+                category_type: "other",
+                display_label: "Petit-Déjeuner & Espresso Bar (jusqu'à 12h)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Tartine baguette fraîche, beurre et confiture maison", price: "5.00€" },
-                    { name: "Chèvre frais mariné", price: "7.00€" },
-                    { name: "Granola maison, fromage blanc et purée de fruits", price: "9.00€" },
-                    { name: "Oeuf coque, mouillettes, beurre sarrasin, Cantal", price: "11.00€" }
+                    { name: "Tartine baguette fraîche, beurre et confiture maison", price_cents: 500 },
+                    { name: "Chèvre frais mariné", price_cents: 700 },
+                    { name: "Granola maison, fromage blanc et purée de fruits", price_cents: 900 },
+                    { name: "Oeuf coque, mouillettes, beurre sarrasin, Cantal", price_cents: 1100 }
                 ]
             },
             {
-                category: "Café de Spécialité & Pâtisseries",
+                category_type: "other",
+                display_label: "Café de Spécialité & Pâtisseries",
                 items: [
-                    { name: "Viennoiseries du jour", price: "3.50€" },
-                    { name: "Cookie du jour", price: "4.00€" },
-                    { name: "Lemon cake", price: "5.00€" },
-                    { name: "Banana bread", price: "5.00€" },
-                    { name: "Muxu aux noisettes", price: "5.00€" },
-                    { name: "Gâteaux chocolat et tahini (sans gluten)", price: "5.00€" }
+                    { name: "Viennoiseries du jour", price_cents: 350 },
+                    { name: "Cookie du jour", price_cents: 400 },
+                    { name: "Lemon cake", price_cents: 500 },
+                    { name: "Banana bread", price_cents: 500 },
+                    { name: "Muxu aux noisettes", price_cents: 500 },
+                    { name: "Gâteaux chocolat et tahini (sans gluten)", price_cents: 500 }
                 ]
             },
             {
-                category: "Déjeuner (12h - 15h) : Les Entrées",
+                category_type: "starter",
+                display_label: "Déjeuner (12h - 15h) : Les Entrées",
                 items: [
-                    { name: "Œuf dur, mayonnaise à l'estragon", price: "7.00€" },
-                    { name: "Truite gravlax maison, aneth, crème crue", price: "7.00€" },
-                    { name: "Terrine de cochon noir de Bigorre, pickles maison", price: "8.00€" }
+                    { name: "Œuf dur, mayonnaise à l'estragon", price_cents: 700 },
+                    { name: "Truite gravlax maison, aneth, crème crue", price_cents: 700 },
+                    { name: "Terrine de cochon noir de Bigorre, pickles maison", price_cents: 800 }
                 ]
             },
             {
-                category: "Déjeuner : Sandwichs Chauds & Froids",
+                category_type: "other",
+                display_label: "Déjeuner : Sandwichs Chauds & Froids",
                 items: [
-                    { name: "Bun jambon ou Bun tuna mix", price: "12.00€" },
-                    { name: "Mushroom melt (pain rye, champignons rôtis, gorgonzola)", price: "14.00€" },
-                    { name: "Pickled beef (pain rye, pastrami, fromage suisse, moutarde miel)", price: "15.00€", description: "L'arme de destruction massive du midi." }
+                    { name: "Bun jambon ou Bun tuna mix", price_cents: 1200 },
+                    { name: "Mushroom melt (pain rye, champignons rôtis, gorgonzola)", price_cents: 1400 },
+                    { name: "Pickled beef (pain rye, pastrami, fromage suisse, moutarde miel)", price_cents: 1500, description: "L'arme de destruction massive du midi." }
                 ]
             },
             {
-                category: "Déjeuner : Les Plats",
+                category_type: "main",
+                display_label: "Déjeuner : Les Plats",
                 items: [
-                    { name: "Couscous bowl (panisse, légumes rôtis/crus, tzatziki)", price: "17.00€" },
-                    { name: "Risotto potimarron, roquette, tuile parmesan sauge", price: "17.00€" },
-                    { name: "Épaule d'agneau confite, purée, jus d'agneau", price: "17.50€" },
-                    { name: "Ragoût de confit de canard, tagliatelles, jaune d'œuf", price: "18.50€" }
+                    { name: "Couscous bowl (panisse, légumes rôtis/crus, tzatziki)", price_cents: 1700 },
+                    { name: "Risotto potimarron, roquette, tuile parmesan sauge", price_cents: 1700 },
+                    { name: "Épaule d'agneau confite, purée, jus d'agneau", price_cents: 1750 },
+                    { name: "Ragoût de confit de canard, tagliatelles, jaune d'œuf", price_cents: 1850 }
                 ]
             },
             {
-                category: "Dîner & Soirée (Soirs J/V/S/D)",
+                category_type: "other",
+                display_label: "Dîner & Soirée (Soirs J/V/S/D)",
                 items: [
-                    { name: "Gravelax de truite maison grand format", price: "10.00€" },
-                    { name: "Falafels maison au labneh", price: "17.00€" },
-                    { name: "Saucisse, crème champignons, purée beurre salé, pickles", price: "18.00€" },
-                    { name: "Crumble aux fruits de saison, flocons sarrasin", price: "7.00€" },
-                    { name: "Mont d'Or chaud à partager", price: "44.00€", description: "L'option conviviale gourmande des soirs froids." }
+                    { name: "Gravelax de truite maison grand format", price_cents: 1000 },
+                    { name: "Falafels maison au labneh", price_cents: 1700 },
+                    { name: "Saucisse, crème champignons, purée beurre salé, pickles", price_cents: 1800 },
+                    { name: "Crumble aux fruits de saison, flocons sarrasin", price_cents: 700 },
+                    { name: "Mont d'Or chaud à partager", price_cents: 4400, description: "L'option conviviale gourmande des soirs froids." }
                 ]
             },
             {
-                category: "Brunch du Dimanche",
+                category_type: "other",
+                display_label: "Brunch du Dimanche",
                 items: [
-                    { name: "Brunch Complet du Dimanche (par personne)", price: "32.00€", description: "Inclus viennoiseries, plats chauds, boissons." }
+                    { name: "Brunch Complet du Dimanche (par personne)", price_cents: 3200, description: "Inclus viennoiseries, plats chauds, boissons." }
                 ]
             }
         ]

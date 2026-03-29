@@ -41,45 +41,49 @@ export const blanc: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Dégustation",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Dégustation",
         items: [
-          { name: "Le Menu Blanc", price: "360€", description: "L'expérience signature complète de Shinichi Sato", highlight: true },
-          { name: "Menu Perle", price: "290€" },
-          { name: "Table du Chef", price: "450€", description: "Face aux cuisines, menu exclusif" },
-          { name: "Menu Déjeuner", price: "180€", description: "Uniquement servi le midi" }
+          { name: "Le Menu Blanc", price_cents: 36000, description: "L'expérience signature complète de Shinichi Sato", is_highlight: true },
+          { name: "Menu Perle", price_cents: 29000 },
+          { name: "Table du Chef", price_cents: 45000, description: "Face aux cuisines, menu exclusif" },
+          { name: "Menu Déjeuner", price_cents: 18000, description: "Uniquement servi le midi" }
         ]
       },
       {
-        category: "Les Étapes du Blanc",
+        category_type: "other",
+        display_label: "Les Étapes du Blanc",
         items: [
-          { name: "Beurre aux Algues & Pain Maison", price: "0€", description: "Le prélude iconique" },
-          { name: "Asperge Blanche & Caviar", price: "0€", description: "Pureté et iode" },
-          { name: "Ormeaux de l'Île de Groix", price: "0€", description: "Cuisson lente, condiment ail noir" },
-          { name: "Turbot de Ligne", price: "0€", description: "Nacre parfaite, émulsion de coquillages" },
-          { name: "Bœuf de Galice au Charbon", price: "0€", description: "Accompagné de cecina, une intensité rare", highlight: true },
-          { name: "Côte de Veau de Lait", price: "0€", description: "Au Château-Chalon, morilles étuvées" },
-          { name: "Pigeonneau de Racan", price: "0€", description: "Sur le coffre, abats en toast" }
+          { name: "Beurre aux Algues & Pain Maison", price_cents: 0, description: "Le prélude iconique" },
+          { name: "Asperge Blanche & Caviar", price_cents: 0, description: "Pureté et iode" },
+          { name: "Ormeaux de l'Île de Groix", price_cents: 0, description: "Cuisson lente, condiment ail noir" },
+          { name: "Turbot de Ligne", price_cents: 0, description: "Nacre parfaite, émulsion de coquillages" },
+          { name: "Bœuf de Galice au Charbon", price_cents: 0, description: "Accompagné de cecina, une intensité rare", is_highlight: true },
+          { name: "Côte de Veau de Lait", price_cents: 0, description: "Au Château-Chalon, morilles étuvées" },
+          { name: "Pigeonneau de Racan", price_cents: 0, description: "Sur le coffre, abats en toast" }
         ]
       },
       {
-        category: "Finitions & Douceurs",
+        category_type: "dessert",
+        display_label: "Finitions & Douceurs",
         items: [
-          { name: "Sorbet Shiso", price: "0€", description: "Nettoyage du palais" },
-          { name: "Soufflé Minute à la Vanille", price: "0€" },
-          { name: "Textures de Fruits de Saison", price: "0€" },
-          { name: "Mignardises Haute Couture", price: "0€" }
+          { name: "Sorbet Shiso", price_cents: 0, description: "Nettoyage du palais" },
+          { name: "Soufflé Minute à la Vanille", price_cents: 0 },
+          { name: "Textures de Fruits de Saison", price_cents: 0 },
+          { name: "Mignardises Haute Couture", price_cents: 0 }
         ]
       },
       {
-        category: "La Sélection Sommelier",
+        category_type: "other",
+        display_label: "La Sélection Sommelier",
         items: [
-          { name: "Accord Mets & Vins 'Découverte'", price: "150€" },
-          { name: "Coupe de Champagne Blanc de Blancs", price: "35€" },
-          { name: "Bouteille de Meursault (Sélection)", price: "160€" },
-          { name: "Bouteille de Gevrey-Chambertin", price: "220€" },
-          { name: "Thé Vert Gyokuro 'Prestige'", price: "18€" },
-          { name: "Eau Filtrée 'Blanc'", price: "8€" },
-          { name: "Expresso Pur Origine", price: "12€" }
+          { name: "Accord Mets & Vins 'Découverte'", price_cents: 15000 },
+          { name: "Coupe de Champagne Blanc de Blancs", price_cents: 3500 },
+          { name: "Bouteille de Meursault (Sélection)", price_cents: 16000 },
+          { name: "Bouteille de Gevrey-Chambertin", price_cents: 22000 },
+          { name: "Thé Vert Gyokuro 'Prestige'", price_cents: 1800 },
+          { name: "Eau Filtrée 'Blanc'", price_cents: 800 },
+          { name: "Expresso Pur Origine", price_cents: 1200 }
         ]
       }
     ]

@@ -40,34 +40,37 @@ export const triplettaGaite: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Le Pizze Classiche",
+                category_type: "other",
+                display_label: "Le Pizze Classiche",
                 items: [
-                    { name: "Margherita (Pomodoro, Mozzarella, Basilico)", price: "13.00€" },
-                    { name: "Marinara (Pomodoro, Aglio, Origano)", price: "10.00€" },
-                    { name: "Bufala (Pomodoro, Mozzarella di Bufala)", price: "16.00€" },
-                    { name: "Napoletana (Pomodoro, Acciughe, Capperi)", price: "15.00€" },
-                    { name: "Regina (Pomodoro, Mozzarella, Jambon, Champignons)", price: "16.50€" }
+                    { name: "Margherita (Pomodoro, Mozzarella, Basilico)", price_cents: 1300 },
+                    { name: "Marinara (Pomodoro, Aglio, Origano)", price_cents: 1000 },
+                    { name: "Bufala (Pomodoro, Mozzarella di Bufala)", price_cents: 1600 },
+                    { name: "Napoletana (Pomodoro, Acciughe, Capperi)", price_cents: 1500 },
+                    { name: "Regina (Pomodoro, Mozzarella, Jambon, Champignons)", price_cents: 1650 }
                 ]
             },
             {
-                category: "Le Speciali di Tripletta",
+                category_type: "other",
+                display_label: "Le Speciali di Tripletta",
                 items: [
-                    { name: "Tripletta (Pomodoro, Mozzarella, N'duja, Spianata)", price: "18.00€" },
-                    { name: "Truffe (Mozzarella, Crème de Truffe, Champignons)", price: "19.50€" },
-                    { name: "Mortadella (Mozzarella, Mortadelle, Pesto de Pistoles)", price: "18.50€" },
-                    { name: "Burratina (Pomodoro, Burrata entière)", price: "19.00€" },
-                    { name: "Veggie (Mozzarella, Légumes Grillés)", price: "16.00€" }
+                    { name: "Tripletta (Pomodoro, Mozzarella, N'duja, Spianata)", price_cents: 1800 },
+                    { name: "Truffe (Mozzarella, Crème de Truffe, Champignons)", price_cents: 1950 },
+                    { name: "Mortadella (Mozzarella, Mortadelle, Pesto de Pistoles)", price_cents: 1850 },
+                    { name: "Burratina (Pomodoro, Burrata entière)", price_cents: 1900 },
+                    { name: "Veggie (Mozzarella, Légumes Grillés)", price_cents: 1600 }
                 ]
             },
             {
-                category: "Antipasti & Dolci",
+                category_type: "other",
+                display_label: "Antipasti & Dolci",
                 items: [
-                    { name: "Burrata Pugliese aux Tomates Cerises", price: "14.50€" },
-                    { name: "Planche de Charcuteries Italiennes", price: "17.00€" },
-                    { name: "Focaccia Maison à l'Huile d'Olive", price: "7.00€" },
-                    { name: "Tiramisu della Nonna", price: "8.50€" },
-                    { name: "Panna Cotta aux Fruits Rouges", price: "7.50€" },
-                    { name: "Calzone à la Pâte à Tartiner", price: "9.50€" }
+                    { name: "Burrata Pugliese aux Tomates Cerises", price_cents: 1450 },
+                    { name: "Planche de Charcuteries Italiennes", price_cents: 1700 },
+                    { name: "Focaccia Maison à l'Huile d'Olive", price_cents: 700 },
+                    { name: "Tiramisu della Nonna", price_cents: 850 },
+                    { name: "Panna Cotta aux Fruits Rouges", price_cents: 750 },
+                    { name: "Calzone à la Pâte à Tartiner", price_cents: 950 }
                 ]
             }
         ]

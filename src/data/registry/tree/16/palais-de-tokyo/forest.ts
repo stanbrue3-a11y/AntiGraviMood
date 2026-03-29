@@ -40,54 +40,58 @@ export const forest: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Premières Pousses",
+        category_type: "other",
+        display_label: "Premières Pousses",
         items: [
-          { name: "Pain & Beurre au Shiso", price: "8€", description: "Fait maison, croûte épaisse", highlight: true },
-          { name: "Hummus de Betterave & Hibiscus", price: "12€", description: "Couleur éclatante, saveur terreuse" },
-          { name: "Céviche de Daurade", price: "18€", description: "Poivre de Selim et agrumes" },
-          { name: "Aubergine Laquée au Miso", price: "16€", description: "Fondante et fumée, la signature", highlight: true },
-          { name: "Carpaccio de Navet", price: "14€", description: "Condiment citron et noisettes" },
-          { name: "Falafel de Haricots Cornilles", price: "13€", description: "Inspiration d'Afrique de l'Ouest" },
-          { name: "Croquettes de Plantain", price: "11€", description: "Cœur fromage pimenté" },
-          { name: "Sashimi de Thon au Néré", price: "19€", description: "Piment fumé et graines fermentées" },
-          { name: "Tempura de Fleurs de Courgette", price: "15€", description: "Farcies au labneh maison" }
+          { name: "Pain & Beurre au Shiso", price_cents: 800, description: "Fait maison, croûte épaisse", is_highlight: true },
+          { name: "Hummus de Betterave & Hibiscus", price_cents: 1200, description: "Couleur éclatante, saveur terreuse" },
+          { name: "Céviche de Daurade", price_cents: 1800, description: "Poivre de Selim et agrumes" },
+          { name: "Aubergine Laquée au Miso", price_cents: 1600, description: "Fondante et fumée, la signature", is_highlight: true },
+          { name: "Carpaccio de Navet", price_cents: 1400, description: "Condiment citron et noisettes" },
+          { name: "Falafel de Haricots Cornilles", price_cents: 1300, description: "Inspiration d'Afrique de l'Ouest" },
+          { name: "Croquettes de Plantain", price_cents: 1100, description: "Cœur fromage pimenté" },
+          { name: "Sashimi de Thon au Néré", price_cents: 1900, description: "Piment fumé et graines fermentées" },
+          { name: "Tempura de Fleurs de Courgette", price_cents: 1500, description: "Farcies au labneh maison" }
         ]
       },
       {
-        category: "Racines & Cœurs",
+        category_type: "other",
+        display_label: "Racines & Cœurs",
         items: [
-          { name: "Poulet Frit Mosugo", price: "24€", description: "Épices secrètes de Mory Sacko", highlight: true },
-          { name: "Lieu Jaune de Ligne", price: "28€", description: "Sauce gombo et citronnelle" },
-          { name: "Risotto de Fonio", price: "22€", description: "Champignons sauvages et huile d'argan" },
-          { name: "Boeuf Braisé au Café", price: "32€", description: "Jus corsé, carottes fondantes" },
-          { name: "Tataki de Bœuf au Piment", price: "26€", description: "Piment Néré et oignons grillés" },
-          { name: "Dorade Grillée Suya", price: "27€", description: "Épices torréfiées nigérianes" },
-          { name: "Agneau Confite au Miso", price: "34€", description: "Épaule fondante pour deux" },
-          { name: "Burger Forest Wagyu", price: "29€", description: "Pain sarrasin, cheddar fumé" },
-          { name: "Gnocchis de Patate Douce", price: "23€", description: "Sauge et beurre noisette" },
-          { name: "Octopus à la Flamme", price: "31€", description: "Crème de maïs et piment doux" }
+          { name: "Poulet Frit Mosugo", price_cents: 2400, description: "Épices secrètes de Mory Sacko", is_highlight: true },
+          { name: "Lieu Jaune de Ligne", price_cents: 2800, description: "Sauce gombo et citronnelle" },
+          { name: "Risotto de Fonio", price_cents: 2200, description: "Champignons sauvages et huile d'argan" },
+          { name: "Boeuf Braisé au Café", price_cents: 3200, description: "Jus corsé, carottes fondantes" },
+          { name: "Tataki de Bœuf au Piment", price_cents: 2600, description: "Piment Néré et oignons grillés" },
+          { name: "Dorade Grillée Suya", price_cents: 2700, description: "Épices torréfiées nigérianes" },
+          { name: "Agneau Confite au Miso", price_cents: 3400, description: "Épaule fondante pour deux" },
+          { name: "Burger Forest Wagyu", price_cents: 2900, description: "Pain sarrasin, cheddar fumé" },
+          { name: "Gnocchis de Patate Douce", price_cents: 2300, description: "Sauge et beurre noisette" },
+          { name: "Octopus à la Flamme", price_cents: 3100, description: "Crème de maïs et piment doux" }
         ]
       },
       {
-        category: "Final en Forêt",
+        category_type: "other",
+        display_label: "Final en Forêt",
         items: [
-          { name: "Mousse Chocolat & Maldon", price: "12€", description: "Texture aérienne, fleur de sel" },
-          { name: "Ananas Rôti aux Épices", price: "11€", description: "Sirop de poivre long", highlight: true },
-          { name: "Sorbet Herbes Fraîches", price: "9€", description: "Basilic, menthe et coriandre" },
-          { name: "Plateau de Fromages Affinés", price: "14€", description: "Sélection de la maison" },
-          { name: "Pavlova Fruits Exotiques", price: "13€", description: "Passion, mangue et coco" },
-          { name: "Cookies Miso-Chocolat", price: "8€", description: "Sortis du four" }
+          { name: "Mousse Chocolat & Maldon", price_cents: 1200, description: "Texture aérienne, fleur de sel" },
+          { name: "Ananas Rôti aux Épices", price_cents: 1100, description: "Sirop de poivre long", is_highlight: true },
+          { name: "Sorbet Herbes Fraîches", price_cents: 900, description: "Basilic, menthe et coriandre" },
+          { name: "Plateau de Fromages Affinés", price_cents: 1400, description: "Sélection de la maison" },
+          { name: "Pavlova Fruits Exotiques", price_cents: 1300, description: "Passion, mangue et coco" },
+          { name: "Cookies Miso-Chocolat", price_cents: 800, description: "Sortis du four" }
         ]
       },
       {
-        category: "Infusions & Éclats",
+        category_type: "other",
+        display_label: "Infusions & Éclats",
         items: [
-          { name: "Jungle Flow (Mocktail)", price: "14€", description: "Gingembre, curcuma, eau pétillante" },
-          { name: "Forest Moon (Cocktail)", price: "17€", description: "Vodka, basilic, concombre" },
-          { name: "Vin Nature (au verre)", price: "12€", description: "Sélection vivante" },
-          { name: "Infusion Maison", price: "8€", description: "Plantes fraîches du jardin" },
-          { name: "Expresso Bio", price: "5€" },
-          { name: "Thé Vert Japonais", price: "8€", description: "Sencha de prestige" }
+          { name: "Jungle Flow (Mocktail)", price_cents: 1400, description: "Gingembre, curcuma, eau pétillante" },
+          { name: "Forest Moon (Cocktail)", price_cents: 1700, description: "Vodka, basilic, concombre" },
+          { name: "Vin Nature (au verre)", price_cents: 1200, description: "Sélection vivante" },
+          { name: "Infusion Maison", price_cents: 800, description: "Plantes fraîches du jardin" },
+          { name: "Expresso Bio", price_cents: 500 },
+          { name: "Thé Vert Japonais", price_cents: 800, description: "Sencha de prestige" }
         ]
       }
     ]

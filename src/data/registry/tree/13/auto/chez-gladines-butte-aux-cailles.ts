@@ -42,60 +42,65 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Salades Géantes (Plats - Saladiers)",
+        category_type: "main",
+        display_label: "Les Salades Géantes (Plats - Saladiers)",
         items: [
-          { name: "Salade 5 Diamants (Complète)", price: "15.50€", highlight: true },
-          { name: "Salade Complète (Cantal, Jambon, Œuf)", price: "12.00€" },
-          { name: "Salade de Gésiers de Volaille", price: "11.00€" },
-          { name: "Salade de Foie de Volaille", price: "11.00€" },
-          { name: "Salade Ventrèche (Lardons basques)", price: "11.00€" },
-          { name: "Salade St Germain (Cantal, Chèvre)", price: "12.00€" },
-          { name: "Salade Lardons & Chèvre Chaud", price: "13.00€" }
+          { name: "Salade 5 Diamants (Complète)", price_cents: 1550, is_highlight: true },
+          { name: "Salade Complète (Cantal, Jambon, Œuf)", price_cents: 1200 },
+          { name: "Salade de Gésiers de Volaille", price_cents: 1100 },
+          { name: "Salade de Foie de Volaille", price_cents: 1100 },
+          { name: "Salade Ventrèche (Lardons basques)", price_cents: 1100 },
+          { name: "Salade St Germain (Cantal, Chèvre)", price_cents: 1200 },
+          { name: "Salade Lardons & Chèvre Chaud", price_cents: 1300 }
         ]
       },
       {
-        category: "Entrées & Charcuteries Basques",
+        category_type: "starter",
+        display_label: "Entrées & Charcuteries Basques",
         items: [
-          { name: "Assiette Mixte (Charcuterie & Fromage)", price: "18.50€", highlight: true },
-          { name: "Pâté Basque au Piment d'Espelette", price: "7.00€" },
-          { name: "Jambon de Pays (Assiette)", price: "7.00€" },
-          { name: "Escargots à la Cassolette Basque (x12)", price: "10.50€", highlight: true },
-          { name: "Escargots au Roquefort (x12)", price: "11.00€" },
-          { name: "Saucisse Sèche Artisanale", price: "7.00€" },
-          { name: "Chorizo Grillé", price: "7.00€" }
+          { name: "Assiette Mixte (Charcuterie & Fromage)", price_cents: 1850, is_highlight: true },
+          { name: "Pâté Basque au Piment d'Espelette", price_cents: 700 },
+          { name: "Jambon de Pays (Assiette)", price_cents: 700 },
+          { name: "Escargots à la Cassolette Basque (x12)", price_cents: 1050, is_highlight: true },
+          { name: "Escargots au Roquefort (x12)", price_cents: 1100 },
+          { name: "Saucisse Sèche Artisanale", price_cents: 700 },
+          { name: "Chorizo Grillé", price_cents: 700 }
         ]
       },
       {
-        category: "Plats : Spécialités du Sud-Ouest",
+        category_type: "main",
+        display_label: "Plats : Spécialités du Sud-Ouest",
         items: [
-          { name: "Escalope de Veau Montagnarde (Culte)", price: "18.00€", highlight: true },
-          { name: "Poulet Basquaise au Riz", price: "14.50€", highlight: true },
-          { name: "Axoa de Veau Artisanal", price: "16.50€" },
-          { name: "Pipérade au Jambon Poêlé", price: "13.00€" },
-          { name: "Chipirons à la Biscaïna", price: "11.90€" },
-          { name: "Omelette Basque (Piments/Tomates)", price: "10.50€" },
-          { name: "Bavette à l'Échalote & Frites", price: "16.50€" },
-          { name: "Andouillette AAAAA grillée", price: "15.50€" }
+          { name: "Escalope de Veau Montagnarde (Culte)", price_cents: 1800, is_highlight: true },
+          { name: "Poulet Basquaise au Riz", price_cents: 1450, is_highlight: true },
+          { name: "Axoa de Veau Artisanal", price_cents: 1650 },
+          { name: "Pipérade au Jambon Poêlé", price_cents: 1300 },
+          { name: "Chipirons à la Biscaïna", price_cents: 1190 },
+          { name: "Omelette Basque (Piments/Tomates)", price_cents: 1050 },
+          { name: "Bavette à l'Échalote & Frites", price_cents: 1650 },
+          { name: "Andouillette AAAAA grillée", price_cents: 1550 }
         ]
       },
       {
-        category: "Fromages & Douceurs",
+        category_type: "dessert",
+        display_label: "Fromages & Douceurs",
         items: [
-          { name: "Gâteau Basque à la Cerise Noire", price: "7.50€", highlight: true },
-          { name: "Brebis & Confiture d'Itxassou", price: "8.50€" },
-          { name: "Crème Brûlée Maison", price: "6.50€" },
-          { name: "Mousse au Chocolat (Grand Bol)", price: "6.00€" },
-          { name: "Profiteroles Maison (x3)", price: "8.50€" }
+          { name: "Gâteau Basque à la Cerise Noire", price_cents: 750, is_highlight: true },
+          { name: "Brebis & Confiture d'Itxassou", price_cents: 850 },
+          { name: "Crème Brûlée Maison", price_cents: 650 },
+          { name: "Mousse au Chocolat (Grand Bol)", price_cents: 600 },
+          { name: "Profiteroles Maison (x3)", price_cents: 850 }
         ]
       },
       {
-        category: "Cave & Boissons",
+        category_type: "drink",
+        display_label: "Cave & Boissons",
         items: [
-          { name: "Pichet de Vin Rouge (50cl)", price: "8.50€" },
-          { name: "Pinte de Bière Pression", price: "7.50€" },
-          { name: "Cidre Basque Artisanal (75cl)", price: "14.00€" },
-          { name: "Apéritif Patxaran", price: "6.50€" },
-          { name: "Verre d'Irouléguy", price: "7.00€" }
+          { name: "Pichet de Vin Rouge (50cl)", price_cents: 850 },
+          { name: "Pinte de Bière Pression", price_cents: 750 },
+          { name: "Cidre Basque Artisanal (75cl)", price_cents: 1400 },
+          { name: "Apéritif Patxaran", price_cents: 650 },
+          { name: "Verre d'Irouléguy", price_cents: 700 }
         ]
       }
     ]

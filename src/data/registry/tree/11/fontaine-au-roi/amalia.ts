@@ -48,44 +48,48 @@ export const amalia: SurgicalPlace = {
             // MENUS (Source: site officiel 2025)
             // ═══════════════════════════════════════════
             {
-                category: "Menus Dégustation",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation",
                 items: [
-                    { name: "Grand Menu AMÂLIA", price: "145.00€", description: "Expérience complète en plusieurs étapes." },
-                    { name: "Menu Végétarien", price: "120.00€", description: "Déclinaison végétale du grand menu." },
-                    { name: "Menu Déjeuner (Semaine)", price: "60.00€", description: "Formule midi rapide." },
-                    { name: "Menu Déjeuner (Week-end)", price: "90.00€", description: "Menu complet en 3 temps." },
-                    { name: "Accord Mets & Vins (Grand Menu)", price: "80.00€" },
-                    { name: "Accord Mets & Vins (Végétarien)", price: "70.00€" }
+                    { name: "Grand Menu AMÂLIA", price_cents: 14500, description: "Expérience complète en plusieurs étapes." },
+                    { name: "Menu Végétarien", price_cents: 12000, description: "Déclinaison végétale du grand menu." },
+                    { name: "Menu Déjeuner (Semaine)", price_cents: 6000, description: "Formule midi rapide." },
+                    { name: "Menu Déjeuner (Week-end)", price_cents: 9000, description: "Menu complet en 3 temps." },
+                    { name: "Accord Mets & Vins (Grand Menu)", price_cents: 8000 },
+                    { name: "Accord Mets & Vins (Végétarien)", price_cents: 7000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // À LA CARTE - DÉJEUNER (Source: GaultMillau/Guide Michelin)
             // ═══════════════════════════════════════════
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
-                    { name: "Cappuccino d'araignée de mer, agrumes, amandes", price: "25.00€" },
-                    { name: "Tartare de veau fumé, cacahuètes, glace oursin", price: "28.00€" },
-                    { name: "Gnocchis au beurre de tabasco, coques marinière", price: "26.00€" },
-                    { name: "Spaghettoni au citron, sauce huître épicée", price: "32.00€" }
+                    { name: "Cappuccino d'araignée de mer, agrumes, amandes", price_cents: 2500 },
+                    { name: "Tartare de veau fumé, cacahuètes, glace oursin", price_cents: 2800 },
+                    { name: "Gnocchis au beurre de tabasco, coques marinière", price_cents: 2600 },
+                    { name: "Spaghettoni au citron, sauce huître épicée", price_cents: 3200 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
-                    { name: "Barbue rôtie, tomates datterino fumées, olives", price: "38.00€" },
-                    { name: "Cuisse de canard challandais, poivron, abricot", price: "34.00€" },
-                    { name: "Ris de veau croustillant, condiment anchois", price: "42.00€" },
-                    { name: "Turbot sauvage, artichauts, jus de coquillages", price: "45.00€" }
+                    { name: "Barbue rôtie, tomates datterino fumées, olives", price_cents: 3800 },
+                    { name: "Cuisse de canard challandais, poivron, abricot", price_cents: 3400 },
+                    { name: "Ris de veau croustillant, condiment anchois", price_cents: 4200 },
+                    { name: "Turbot sauvage, artichauts, jus de coquillages", price_cents: 4500 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Sorbet gingembre, nuage citron, Espelette", price: "15.00€" },
-                    { name: "Feuille à feuille ananas rôti, pomme de terre", price: "18.00€" },
-                    { name: "Rhubarbe, fraises, fontainebleau, coquelicot", price: "18.00€" },
-                    { name: "Chocolat grand cru, noisettes du Piémont", price: "17.00€" }
+                    { name: "Sorbet gingembre, nuage citron, Espelette", price_cents: 1500 },
+                    { name: "Feuille à feuille ananas rôti, pomme de terre", price_cents: 1800 },
+                    { name: "Rhubarbe, fraises, fontainebleau, coquelicot", price_cents: 1800 },
+                    { name: "Chocolat grand cru, noisettes du Piémont", price_cents: 1700 }
                 ]
             }
         ]

@@ -42,64 +42,70 @@ export const khao_thai: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Formules (Plats)",
+        category_type: "main",
+        display_label: "Les Formules (Plats)",
         items: [
-          { name: "Formule Midi (E+P ou P+D)", price: "17.00€", highlight: true },
-          { name: "Formule Midi Complète (E+P+D)", price: "21.00€" },
-          { name: "Menu Dégustation Khao Thaï", price: "36.00€", highlight: true },
-          { name: "Plat du Jour + Riz", price: "15.00€" }
+          { name: "Formule Midi (E+P ou P+D)", price_cents: 1700, is_highlight: true },
+          { name: "Formule Midi Complète (E+P+D)", price_cents: 2100 },
+          { name: "Menu Dégustation Khao Thaï", price_cents: 3600, is_highlight: true },
+          { name: "Plat du Jour + Riz", price_cents: 1500 }
         ]
       },
       {
-        category: "Entrées : Saveurs du Siam",
+        category_type: "starter",
+        display_label: "Entrées : Saveurs du Siam",
         items: [
-          { name: "Nems au Poulet (x4)", price: "9.50€" },
-          { name: "Nems aux Crevettes (x4)", price: "10.50€" },
-          { name: "Salade de Papaye Verte (Som Tam)", price: "11.00€", highlight: true },
-          { name: "Salade de Bœuf Épicée (Yam Neua)", price: "13.00€" },
-          { name: "Brochettes de Poulet Saté (x4)", price: "12.00€" },
-          { name: "Raviolis Vapeur aux Crevettes", price: "11.00€" },
-          { name: "Soupe Tom Yam Gung (Indispensable)", price: "12.50€", highlight: true }
+          { name: "Nems au Poulet (x4)", price_cents: 950 },
+          { name: "Nems aux Crevettes (x4)", price_cents: 1050 },
+          { name: "Salade de Papaye Verte (Som Tam)", price_cents: 1100, is_highlight: true },
+          { name: "Salade de Bœuf Épicée (Yam Neua)", price_cents: 1300 },
+          { name: "Brochettes de Poulet Saté (x4)", price_cents: 1200 },
+          { name: "Raviolis Vapeur aux Crevettes", price_cents: 1100 },
+          { name: "Soupe Tom Yam Gung (Indispensable)", price_cents: 1250, is_highlight: true }
         ]
       },
       {
-        category: "Plats : Pad Thaï & Nouilles",
+        category_type: "main",
+        display_label: "Plats : Pad Thaï & Nouilles",
         items: [
-          { name: "Pad Thaï aux Crevettes (Signature)", price: "17.00€", highlight: true },
-          { name: "Pad Thaï au Poulet", price: "16.00€" },
-          { name: "Pad Thaï au Bœuf", price: "17.00€" },
-          { name: "Nouilles Sautées aux Légumes", price: "14.50€" }
+          { name: "Pad Thaï aux Crevettes (Signature)", price_cents: 1700, is_highlight: true },
+          { name: "Pad Thaï au Poulet", price_cents: 1600 },
+          { name: "Pad Thaï au Bœuf", price_cents: 1700 },
+          { name: "Nouilles Sautées aux Légumes", price_cents: 1450 }
         ]
       },
       {
-        category: "Plats : Currys & Spécialités",
+        category_type: "main",
+        display_label: "Plats : Currys & Spécialités",
         items: [
-          { name: "Massaman Neua (Curry Cacahuète)", price: "17.50€", highlight: true },
-          { name: "Bœuf au Curry Panang", price: "18.00€" },
-          { name: "Poulet au Curry Vert & Bambou", price: "17.00€" },
-          { name: "Le Tigre qui Pleure (Bœuf Grillé)", price: "24.00€", highlight: true },
-          { name: "Bœuf au Basilic Thaï (Pad Kra Prao)", price: "18.00€" },
-          { name: "Crevettes au Gingembre Frais", price: "22.00€" },
-          { name: "Canard Laqué au Curry Rouge", price: "21.00€" }
+          { name: "Massaman Neua (Curry Cacahuète)", price_cents: 1750, is_highlight: true },
+          { name: "Bœuf au Curry Panang", price_cents: 1800 },
+          { name: "Poulet au Curry Vert & Bambou", price_cents: 1700 },
+          { name: "Le Tigre qui Pleure (Bœuf Grillé)", price_cents: 2400, is_highlight: true },
+          { name: "Bœuf au Basilic Thaï (Pad Kra Prao)", price_cents: 1800 },
+          { name: "Crevettes au Gingembre Frais", price_cents: 2200 },
+          { name: "Canard Laqué au Curry Rouge", price_cents: 2100 }
         ]
       },
       {
-        category: "Douceurs & Desserts",
+        category_type: "dessert",
+        display_label: "Douceurs & Desserts",
         items: [
-          { name: "Riz Gluant à la Mangue & Coco", price: "11.00€", highlight: true },
-          { name: "Nem au Chocolat & Banane", price: "8.50€" },
-          { name: "Flan Thaï au Lait de Coco", price: "8.00€" },
-          { name: "Coupe de Fruits Exotiques", price: "7.50€" }
+          { name: "Riz Gluant à la Mangue & Coco", price_cents: 1100, is_highlight: true },
+          { name: "Nem au Chocolat & Banane", price_cents: 850 },
+          { name: "Flan Thaï au Lait de Coco", price_cents: 800 },
+          { name: "Coupe de Fruits Exotiques", price_cents: 750 }
         ]
       },
       {
-        category: "Boissons d'Ailleurs",
+        category_type: "drink",
+        display_label: "Boissons d'Ailleurs",
         items: [
-          { name: "Bière Singha (Bouteille)", price: "6.50€" },
-          { name: "Bière Chang (Bouteille)", price: "6.50€" },
-          { name: "Jus de Coco Frais", price: "5.50€" },
-          { name: "Thé Vert au Jasmin", price: "4.50€" },
-          { name: "Verre de Vin Blanc (Sauvignon)", price: "6.50€" }
+          { name: "Bière Singha (Bouteille)", price_cents: 650 },
+          { name: "Bière Chang (Bouteille)", price_cents: 650 },
+          { name: "Jus de Coco Frais", price_cents: 550 },
+          { name: "Thé Vert au Jasmin", price_cents: 450 },
+          { name: "Verre de Vin Blanc (Sauvignon)", price_cents: 650 }
         ]
       }
     ]

@@ -46,60 +46,65 @@ export const le_chateaubriand: SurgicalPlace = {
         last_updated: "2026-03-07",
     menu_items: [
       {
-        category: "Plats (Menus Dégustation)",
+        category_type: "main",
+        display_label: "Plats (Menus Dégustation)",
         items: [
-          { name: "Menu Dîner (Tous les soirs)", price: "95.00€", description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour.", highlight: true },
-          { name: "Menu Déjeuner (Samedi uniquement)", price: "65.00€", highlight: true }
+          { name: "Menu Dîner (Tous les soirs)", price_cents: 9500, description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour.", is_highlight: true },
+          { name: "Menu Déjeuner (Samedi uniquement)", price_cents: 6500, is_highlight: true }
         ]
       },
       {
-        category: "Inspirations Historiques (Entrées)",
+        category_type: "starter",
+        display_label: "Inspirations Historiques (Entrées)",
         items: [
-          { name: "Ceviche de mulet, lait de tigre & herbes", price: "Inclus" },
-          { name: "Asperges, sabayon au beurre noisette", price: "Inclus" },
-          { name: "Bouillon de seiche, encre & coriandre", price: "Inclus" },
-          { name: "Maquereau mariné, concombre & aneth", price: "Inclus" },
-          { name: "Huitres de pleine mer (Sélection du moment)", price: "Inclus" },
-          { name: "Saint-Jacques à la flamme, agrumes", price: "Inclus" },
-          { name: "Carpaccio de bœuf, parmesan & roquette", price: "Inclus" },
-          { name: "Fleurs de courgette farcies, ricotta", price: "Inclus" }
+          { name: "Ceviche de mulet, lait de tigre & herbes", price_cents: 0 },
+          { name: "Asperges, sabayon au beurre noisette", price_cents: 0 },
+          { name: "Bouillon de seiche, encre & coriandre", price_cents: 0 },
+          { name: "Maquereau mariné, concombre & aneth", price_cents: 0 },
+          { name: "Huitres de pleine mer (Sélection du moment)", price_cents: 0 },
+          { name: "Saint-Jacques à la flamme, agrumes", price_cents: 0 },
+          { name: "Carpaccio de bœuf, parmesan & roquette", price_cents: 0 },
+          { name: "Fleurs de courgette farcies, ricotta", price_cents: 0 }
         ]
       },
       {
-        category: "Pièces de Résistance (Plats)",
+        category_type: "main",
+        display_label: "Pièces de Résistance (Plats)",
         items: [
-          { name: "Cabillaud, émulsion de crustacés & algues", price: "Inclus" },
-          { name: "Pigeon rôti, condiment framboise & radicchio", price: "Inclus" },
-          { name: "Ris de veau aux girolles & cerises", price: "Inclus" },
-          { name: "Lotte fumée, émulsion de pomme de terre", price: "Inclus" },
-          { name: "Agneau de lait de Castille, jus corsé", price: "Inclus" },
-          { name: "Caille rôtie au feu de bois, miel", price: "Inclus" },
-          { name: "Soupe de poissons de roche, rouille", price: "Inclus" },
-          { name: "Sauté de champignons sauvages & œuf parfait", price: "Inclus" },
-          { name: "Pain de campagne artisanal & Beurre de baratte", price: "Inclus" }
+          { name: "Cabillaud, émulsion de crustacés & algues", price_cents: 0 },
+          { name: "Pigeon rôti, condiment framboise & radicchio", price_cents: 0 },
+          { name: "Ris de veau aux girolles & cerises", price_cents: 0 },
+          { name: "Lotte fumée, émulsion de pomme de terre", price_cents: 0 },
+          { name: "Agneau de lait de Castille, jus corsé", price_cents: 0 },
+          { name: "Caille rôtie au feu de bois, miel", price_cents: 0 },
+          { name: "Soupe de poissons de roche, rouille", price_cents: 0 },
+          { name: "Sauté de champignons sauvages & œuf parfait", price_cents: 0 },
+          { name: "Pain de campagne artisanal & Beurre de baratte", price_cents: 0 }
         ]
       },
       {
-        category: "Douceurs & Pâtisseries (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs & Pâtisseries (Desserts)",
         items: [
-          { name: "Tocino de Cielo (Dessert iconique)", price: "Inclus", highlight: true },
-          { name: "Glace à l'estragon & fraises fraîches", price: "Inclus" },
-          { name: "Sorbet citron-basilic & meringue", price: "Inclus" },
-          { name: "Ganache chocolat amer & fleur de sel", price: "Inclus" },
-          { name: "Glace au sarrasin grillé & huile de noisette", price: "Inclus" },
-          { name: "Tartelette aux noix de Grenoble", price: "Inclus" },
-          { name: "Mignardises de la Cave (Financiers)", price: "Inclus" },
-          { name: "Fromages affinés de chez Beillevaire", price: "Inclus" }
+          { name: "Tocino de Cielo (Dessert iconique)", price_cents: 0, is_highlight: true },
+          { name: "Glace à l'estragon & fraises fraîches", price_cents: 0 },
+          { name: "Sorbet citron-basilic & meringue", price_cents: 0 },
+          { name: "Ganache chocolat amer & fleur de sel", price_cents: 0 },
+          { name: "Glace au sarrasin grillé & huile de noisette", price_cents: 0 },
+          { name: "Tartelette aux noix de Grenoble", price_cents: 0 },
+          { name: "Mignardises de la Cave (Financiers)", price_cents: 0 },
+          { name: "Fromages affinés de chez Beillevaire", price_cents: 0 }
         ]
       },
       {
-        category: "La Cave Nature & Softs (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Nature & Softs (Boissons)",
         items: [
-          { name: "Accord Mets & Vins (Supplément)", price: "40.00€", highlight: true },
-          { name: "Verre de Vin Nature (Sélection)", price: "12.00€" },
-          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
-          { name: "Café de spécialité torréfié maison", price: "4.00€" },
-          { name: "Sélection d'infusions biologiques", price: "4.00€" }
+          { name: "Accord Mets & Vins (Supplément)", price_cents: 4000, is_highlight: true },
+          { name: "Verre de Vin Nature (Sélection)", price_cents: 1200 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 500 },
+          { name: "Café de spécialité torréfié maison", price_cents: 400 },
+          { name: "Sélection d'infusions biologiques", price_cents: 400 }
         ]
       }
     ]

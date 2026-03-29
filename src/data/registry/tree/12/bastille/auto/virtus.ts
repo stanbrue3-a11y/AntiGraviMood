@@ -42,54 +42,59 @@ export const virtus: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Déjeuner (Entrée, Plat, Dessert)",
+        category_type: "starter",
+        display_label: "Déjeuner (Entrée, Plat, Dessert)",
         items: [
-          { name: "Menu 3 Temps (E + P + D)", price: "45.00€", highlight: true },
-          { name: "Menu 5 Temps (Carte Blanche)", price: "75.00€", highlight: true }
+          { name: "Menu 3 Temps (E + P + D)", price_cents: 4500, is_highlight: true },
+          { name: "Menu 5 Temps (Carte Blanche)", price_cents: 7500, is_highlight: true }
         ]
       },
       {
-        category: "Dîner Dégustation (Entrée, Plat, Dessert)",
+        category_type: "starter",
+        display_label: "Dîner Dégustation (Entrée, Plat, Dessert)",
         items: [
-          { name: "Menu Dégustation en 7 Services", price: "115.00€", highlight: true },
-          { name: "Accord Mets & Vins (5 verres)", price: "65.00€" },
-          { name: "Accord Mets & Vins Prestige", price: "95.00€" }
+          { name: "Menu Dégustation en 7 Services", price_cents: 11500, is_highlight: true },
+          { name: "Accord Mets & Vins (5 verres)", price_cents: 6500 },
+          { name: "Accord Mets & Vins Prestige", price_cents: 9500 }
         ]
       },
       {
-        category: "Créations du Moment (Plats)",
+        category_type: "main",
+        display_label: "Créations du Moment (Plats)",
         items: [
-          { name: "Amuse-Bouche : Tartelette Iode & Herbes", price: "0.00€" },
-          { name: "Saint-Jacques de plongée, cerfeuil tubéreux", price: "0.00€", highlight: true },
-          { name: "Ris de Veau doré au sautoir, morilles", price: "0.00€" },
-          { name: "Pigeon de Mesquer, betterave & hibiscus", price: "0.00€" },
-          { name: "Lieu Jaune de ligne, émulsion coques", price: "0.00€" },
-          { name: "Pré-Dessert : Granité Agrumes & Poivre", price: "0.00€" },
-          { name: "Chocolat Grand Cru, noisettes du Piémont", price: "0.00€" },
-          { name: "Mignardises de la Maison", price: "0.00€" }
+          { name: "Amuse-Bouche : Tartelette Iode & Herbes", price_cents: 0 },
+          { name: "Saint-Jacques de plongée, cerfeuil tubéreux", price_cents: 0, is_highlight: true },
+          { name: "Ris de Veau doré au sautoir, morilles", price_cents: 0 },
+          { name: "Pigeon de Mesquer, betterave & hibiscus", price_cents: 0 },
+          { name: "Lieu Jaune de ligne, émulsion coques", price_cents: 0 },
+          { name: "Pré-Dessert : Granité Agrumes & Poivre", price_cents: 0 },
+          { name: "Chocolat Grand Cru, noisettes du Piémont", price_cents: 0 },
+          { name: "Mignardises de la Maison", price_cents: 0 }
         ]
       },
       {
-        category: "Sélection Sommelier (Boissons)",
+        category_type: "drink",
+        display_label: "Sélection Sommelier (Boissons)",
         items: [
-          { name: "Champagne J. Lassalle 'Préférence'", price: "18.00€", highlight: true },
-          { name: "Chablis 1er Cru 'Montmains'", price: "16.00€" },
-          { name: "Puligny-Montrachet (Verre)", price: "24.00€" },
-          { name: "Gevrey-Chambertin (Verre)", price: "22.00€" },
-          { name: "Sancerre 'Les Romains' (Bouteille)", price: "65.00€" },
-          { name: "Saint-Julien 'Château Gloria' (Bout.)", price: "110.00€" },
-          { name: "Condrieu 'La Doriane' (Bouteille)", price: "145.00€" },
-          { name: "Vin de Constance (Digestif)", price: "15.00€" }
+          { name: "Champagne J. Lassalle 'Préférence'", price_cents: 1800, is_highlight: true },
+          { name: "Chablis 1er Cru 'Montmains'", price_cents: 1600 },
+          { name: "Puligny-Montrachet (Verre)", price_cents: 2400 },
+          { name: "Gevrey-Chambertin (Verre)", price_cents: 2200 },
+          { name: "Sancerre 'Les Romains' (Bouteille)", price_cents: 6500 },
+          { name: "Saint-Julien 'Château Gloria' (Bout.)", price_cents: 11000 },
+          { name: "Condrieu 'La Doriane' (Bouteille)", price_cents: 14500 },
+          { name: "Vin de Constance (Digestif)", price_cents: 1500 }
         ]
       },
       {
-        category: "Softs & Infusions (Boissons)",
+        category_type: "drink",
+        display_label: "Softs & Infusions (Boissons)",
         items: [
-          { name: "Eau Micro-filtrée (75cl)", price: "5.00€" },
-          { name: "Jus de Raisin Artisanal", price: "8.00€" },
-          { name: "Thé Vert Gyokuro (Cérémonie)", price: "9.00€" },
-          { name: "Infusion Herbes Fraîches du Jardin", price: "7.00€" },
-          { name: "Café de Terroir (Ethiopie)", price: "6.00€" }
+          { name: "Eau Micro-filtrée (75cl)", price_cents: 500 },
+          { name: "Jus de Raisin Artisanal", price_cents: 800 },
+          { name: "Thé Vert Gyokuro (Cérémonie)", price_cents: 900 },
+          { name: "Infusion Herbes Fraîches du Jardin", price_cents: 700 },
+          { name: "Café de Terroir (Ethiopie)", price_cents: 600 }
         ]
       }
     ]

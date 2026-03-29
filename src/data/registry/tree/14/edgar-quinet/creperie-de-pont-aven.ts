@@ -43,43 +43,47 @@ export const creperie_de_pont_aven: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Galettes de Sarrasin BIO (Simples & Végé)",
+                category_type: "other",
+                display_label: "Galettes de Sarrasin BIO (Simples & Végé)",
                 items: [
-                    { name: "Beurre 1/2 sel BIO", price: "6.50€" },
-                    { name: "Oeuf BIO", price: "7.00€" },
-                    { name: "Jambon & Fromage", price: "8.00€" },
-                    { name: "Galette Gast (Fromage, champignons, oignons)", price: "9.50€" },
-                    { name: "Galette Vegi (Légumes de saison, fromage)", price: "10.00€" }
+                    { name: "Beurre 1/2 sel BIO", price_cents: 650 },
+                    { name: "Oeuf BIO", price_cents: 700 },
+                    { name: "Jambon & Fromage", price_cents: 800 },
+                    { name: "Galette Gast (Fromage, champignons, oignons)", price_cents: 950 },
+                    { name: "Galette Vegi (Légumes de saison, fromage)", price_cents: 1000 }
                 ]
             },
             {
-                category: "Galettes Spéciales (Signatures)",
+                category_type: "other",
+                display_label: "Galettes Spéciales (Signatures)",
                 items: [
-                    { name: "Pont-Aven (Saumon, épinards, crème, citron)", price: "11.50€" },
-                    { name: "Gwazenn (Noix de St-Jacques, champignons, crème)", price: "12.50€" },
-                    { name: "Korkidu (Camembert, pommes poêlées, Andouille de Guémené)", price: "11.00€" },
-                    { name: "Roué (Foie gras, miel, confit d'oignon, noix)", price: "13.50€" },
-                    { name: "Galette Kloug (Poulet curry, champignons, crème)", price: "9.70€" },
-                    { name: "Galette Bergère (Chèvre, miel, noix, salade)", price: "10.50€" },
-                    { name: "Galette Scandinave (Saumon fumé, crème ciboulette)", price: "12.00€" }
+                    { name: "Pont-Aven (Saumon, épinards, crème, citron)", price_cents: 1150 },
+                    { name: "Gwazenn (Noix de St-Jacques, champignons, crème)", price_cents: 1250 },
+                    { name: "Korkidu (Camembert, pommes poêlées, Andouille de Guémené)", price_cents: 1100 },
+                    { name: "Roué (Foie gras, miel, confit d'oignon, noix)", price_cents: 1350 },
+                    { name: "Galette Kloug (Poulet curry, champignons, crème)", price_cents: 970 },
+                    { name: "Galette Bergère (Chèvre, miel, noix, salade)", price_cents: 1050 },
+                    { name: "Galette Scandinave (Saumon fumé, crème ciboulette)", price_cents: 1200 }
                 ]
             },
             {
-                category: "Formules Satiété (Le Dogme)",
+                category_type: "tasting_menu",
+                display_label: "Formules Satiété (Le Dogme)",
                 items: [
-                    { name: "Formule Midi (Galette + Crêpe + Bolée de Cidre)", price: "13.80€", description: "L'unité de satiété standard MOELLE 2026." },
-                    { name: "Formule Express", price: "11.00€" }
+                    { name: "Formule Midi (Galette + Crêpe + Bolée de Cidre)", price_cents: 1380, description: "L'unité de satiété standard MOELLE 2026." },
+                    { name: "Formule Express", price_cents: 1100 }
                 ]
             },
             {
-                category: "Crêpes Froment BIO (Sucrées)",
+                category_type: "dessert",
+                display_label: "Crêpes Froment BIO (Sucrées)",
                 items: [
-                    { name: "Caramel au beurre salé maison", price: "5.50€" },
-                    { name: "Crêpe Charly (Spéculoos, glace vanille, chantilly)", price: "7.50€" },
-                    { name: "Beurre & Sucre Cassonade", price: "3.50€" },
-                    { name: "Crème de Citron maison", price: "5.00€" },
-                    { name: "Crème d'Orange maison", price: "5.00€" },
-                    { name: "Chocolat maison", price: "5.00€" }
+                    { name: "Caramel au beurre salé maison", price_cents: 550 },
+                    { name: "Crêpe Charly (Spéculoos, glace vanille, chantilly)", price_cents: 750 },
+                    { name: "Beurre & Sucre Cassonade", price_cents: 350 },
+                    { name: "Crème de Citron maison", price_cents: 500 },
+                    { name: "Crème d'Orange maison", price_cents: 500 },
+                    { name: "Chocolat maison", price_cents: 500 }
                 ]
             }
         ]

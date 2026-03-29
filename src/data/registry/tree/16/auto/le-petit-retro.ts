@@ -40,57 +40,61 @@ export const le_petit_retro: SurgicalPlace = {
     verified_at: "2026-03-28",
     menu_items: [
       {
-        category: "Classiques du Bistrot (Entrées)",
+        category_type: "starter",
+        display_label: "Classiques du Bistrot (Entrées)",
         items: [
-          { name: "Saucisse au Couteau & Purée Maison", price: "22.80€", description: "La spécialité fondante de la maison", highlight: true },
-          { name: "Œufs en Meurette Tradition", price: "14.50€", description: "Vin rouge, lardons et croûtons dorés" },
-          { name: "Os à Moelle Grillé", price: "12.00€", description: "Gros sel et pain de campagne grillé" },
-          { name: "Tartare de Saumon Frais", price: "16.50€", description: "Ciboulette et échalotes confites" },
-          { name: "Soupe à l'Oignon Gratinée", price: "11.00€", description: "Un classique immuable" },
-          { name: "Terrine de Campagne Maison", price: "13.00€" },
-          { name: "Salade de Lentilles & Hareng", price: "12.50€" },
-          { name: "Gougères de Bienvenue", price: "9.00€" }
+          { name: "Saucisse au Couteau & Purée Maison", price_cents: 2280, description: "La spécialité fondante de la maison", is_highlight: true },
+          { name: "Œufs en Meurette Tradition", price_cents: 1450, description: "Vin rouge, lardons et croûtons dorés" },
+          { name: "Os à Moelle Grillé", price_cents: 1200, description: "Gros sel et pain de campagne grillé" },
+          { name: "Tartare de Saumon Frais", price_cents: 1650, description: "Ciboulette et échalotes confites" },
+          { name: "Soupe à l'Oignon Gratinée", price_cents: 1100, description: "Un classique immuable" },
+          { name: "Terrine de Campagne Maison", price_cents: 1300 },
+          { name: "Salade de Lentilles & Hareng", price_cents: 1250 },
+          { name: "Gougères de Bienvenue", price_cents: 900 }
         ]
       },
       {
-        category: "Plats de Tradition (Plats)",
+        category_type: "main",
+        display_label: "Plats de Tradition (Plats)",
         items: [
-          { name: "Blanquette de Veau à l'Ancienne", price: "24.00€", description: "Riz pilaf et petits légumes fondants", highlight: true },
-          { name: "Cœur de Filet de Bœuf", price: "36.00€", description: "Sauce au poivre et frites maison" },
-          { name: "Noix de Saint-Jacques d'Erquy", price: "29.50€", description: "Émulsion au beurre blanc citronné" },
-          { name: "Tartare de Bœuf Préparé", price: "21.00€", description: "Coupé au couteau, assaisonnement classique" },
-          { name: "Filet de Bar Grillé", price: "27.00€", description: "Légumes braisés et huile vierge" },
-          { name: "Émincé d'Onglet à l'Échalote", price: "23.50€" },
-          { name: "Rognons de Veau à la Moutarde", price: "26.00€" },
-          { name: "Risotto Crémeux aux Champignons", price: "19.00€" },
-          { name: "Andouillette de Troyes AAAAA", price: "22.50€" },
-          { name: "Cuisse de Canard Confite", price: "21.50€" },
-          { name: "Pavé de Thon à la Plancha", price: "25.00€" },
-          { name: "Plat du Jour du Marché", price: "19.50€" }
+          { name: "Blanquette de Veau à l'Ancienne", price_cents: 2400, description: "Riz pilaf et petits légumes fondants", is_highlight: true },
+          { name: "Cœur de Filet de Bœuf", price_cents: 3600, description: "Sauce au poivre et frites maison" },
+          { name: "Noix de Saint-Jacques d'Erquy", price_cents: 2950, description: "Émulsion au beurre blanc citronné" },
+          { name: "Tartare de Bœuf Préparé", price_cents: 2100, description: "Coupé au couteau, assaisonnement classique" },
+          { name: "Filet de Bar Grillé", price_cents: 2700, description: "Légumes braisés et huile vierge" },
+          { name: "Émincé d'Onglet à l'Échalote", price_cents: 2350 },
+          { name: "Rognons de Veau à la Moutarde", price_cents: 2600 },
+          { name: "Risotto Crémeux aux Champignons", price_cents: 1900 },
+          { name: "Andouillette de Troyes AAAAA", price_cents: 2250 },
+          { name: "Cuisse de Canard Confite", price_cents: 2150 },
+          { name: "Pavé de Thon à la Plancha", price_cents: 2500 },
+          { name: "Plat du Jour du Marché", price_cents: 1950 }
         ]
       },
       {
-        category: "Choses Douces (Desserts)",
+        category_type: "dessert",
+        display_label: "Choses Douces (Desserts)",
         items: [
-          { name: "Île Flottante XXL", price: "9.50€", description: "Crème anglaise onctueuse et amandes", highlight: true },
-          { name: "Mousse au Chocolat Guanaja", price: "10.00€", description: "Fleur de sel et biscuit sablé" },
-          { name: "Baba au Rhum Ambré", price: "12.00€", description: "Crème montée à la vanille" },
-          { name: "Tatin de Pommes Individuelle", price: "11.00€", description: "Crème fraîche épaisse" },
-          { name: "Profiteroles au Chocolat chaud", price: "12.50€" },
-          { name: "Assortiment de Fromages Affinés", price: "14.00€" }
+          { name: "Île Flottante XXL", price_cents: 950, description: "Crème anglaise onctueuse et amandes", is_highlight: true },
+          { name: "Mousse au Chocolat Guanaja", price_cents: 1000, description: "Fleur de sel et biscuit sablé" },
+          { name: "Baba au Rhum Ambré", price_cents: 1200, description: "Crème montée à la vanille" },
+          { name: "Tatin de Pommes Individuelle", price_cents: 1100, description: "Crème fraîche épaisse" },
+          { name: "Profiteroles au Chocolat chaud", price_cents: 1250 },
+          { name: "Assortiment de Fromages Affinés", price_cents: 1400 }
         ]
       },
       {
-        category: "La Cave du Bistrot (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave du Bistrot (Boissons)",
         items: [
-          { name: "Brouilly en pot (46cl)", price: "21.00€", highlight: true },
-          { name: "Verre de Chablis", price: "11.00€" },
-          { name: "Coupe de Champagne Maison", price: "13.00€" },
-          { name: "Pinte de Bière de Paris", price: "9.00€" },
-          { name: "Expresso Pur Arabica", price: "3.20€" },
-          { name: "Thé Vert du Palais des Thés", price: "6.50€" },
-          { name: "Eau Minérale (75cl)", price: "7.00€" },
-          { name: "Digestif Vieille Prune", price: "12.00€" }
+          { name: "Brouilly en pot (46cl)", price_cents: 2100, is_highlight: true },
+          { name: "Verre de Chablis", price_cents: 1100 },
+          { name: "Coupe de Champagne Maison", price_cents: 1300 },
+          { name: "Pinte de Bière de Paris", price_cents: 900 },
+          { name: "Expresso Pur Arabica", price_cents: 320 },
+          { name: "Thé Vert du Palais des Thés", price_cents: 650 },
+          { name: "Eau Minérale (75cl)", price_cents: 700 },
+          { name: "Digestif Vieille Prune", price_cents: 1200 }
         ]
       }
     ]

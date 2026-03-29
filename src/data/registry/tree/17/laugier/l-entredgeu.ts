@@ -41,40 +41,44 @@ export const l_entredgeu: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Tarte tatin d'oignons et sa petite crème", price: "12.00€" },
-          { name: "Carpaccio de la pêche du jour mariné", price: "14.00€" },
-          { name: "Escargots à la bourguignonne décorés", price: "12.00€" },
-          { name: "Velouté de choux-fleur au comté", price: "11.00€" },
-          { name: "Terrine de campagne maison", price: "10.00€" }
+          { name: "Tarte tatin d'oignons et sa petite crème", price_cents: 1200 },
+          { name: "Carpaccio de la pêche du jour mariné", price_cents: 1400 },
+          { name: "Escargots à la bourguignonne décorés", price_cents: 1200 },
+          { name: "Velouté de choux-fleur au comté", price_cents: 1100 },
+          { name: "Terrine de campagne maison", price_cents: 1000 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Souris d'agneau braisée de 7 heures", price: "28.00€" },
-          { name: "Cuisse de canard confite, pommes sautées", price: "26.00€" },
-          { name: "Dorade royale à la sauce dieppoise", price: "28.00€" },
-          { name: "Ravioles de gambas au bouillon", price: "27.00€" },
-          { name: "Côte de bœuf braisée au charbon (2 pers.)", price: "75.00€" },
-          { name: "Pavé de cabillaud, risotto safrané", price: "29.00€" }
+          { name: "Souris d'agneau braisée de 7 heures", price_cents: 2800 },
+          { name: "Cuisse de canard confite, pommes sautées", price_cents: 2600 },
+          { name: "Dorade royale à la sauce dieppoise", price_cents: 2800 },
+          { name: "Ravioles de gambas au bouillon", price_cents: 2700 },
+          { name: "Côte de bœuf braisée au charbon (2 pers.)", price_cents: 7500 },
+          { name: "Pavé de cabillaud, risotto safrané", price_cents: 2900 }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs",
         items: [
-          { name: "Soufflé à la vanille, coulis au chocolat", price: "12.00€" },
-          { name: "Paris-Brest à la cacahuète pralinée", price: "10.00€" },
-          { name: "Carpaccio d'ananas frais et sorbet coco", price: "9.00€" },
-          { name: "Mousse au chocolat noir intense", price: "9.00€" }
+          { name: "Soufflé à la vanille, coulis au chocolat", price_cents: 1200 },
+          { name: "Paris-Brest à la cacahuète pralinée", price_cents: 1000 },
+          { name: "Carpaccio d'ananas frais et sorbet coco", price_cents: 900 },
+          { name: "Mousse au chocolat noir intense", price_cents: 900 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Vin Bio (Sourcing Direct)", price: "9.00€" },
-          { name: "Expresso Pur Arabica", price: "2.50€" }
+          { name: "Verre de Vin Bio (Sourcing Direct)", price_cents: 900 },
+          { name: "Expresso Pur Arabica", price_cents: 250 }
         ]
       }
     ]

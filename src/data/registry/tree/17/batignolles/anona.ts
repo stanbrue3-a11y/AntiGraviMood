@@ -40,44 +40,48 @@ export const anona: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Formules & Menus",
+        category_type: "tasting_menu",
+        display_label: "Les Formules & Menus",
         items: [
-          { name: "Menu Initiation (Matinée/Midi)", price: "65€" },
-          { name: "Menu Signature (Soirée)", price: "120€" },
-          { name: "Menu Dégustation Anona", price: "155€" },
-          { name: "Accord Boissons Sans Alcool", price: "45€" },
-          { name: "Accord Vins Bio & Engagés", price: "60€" }
+          { name: "Menu Initiation (Matinée/Midi)", price_cents: 6500 },
+          { name: "Menu Signature (Soirée)", price_cents: 12000 },
+          { name: "Menu Dégustation Anona", price_cents: 15500 },
+          { name: "Accord Boissons Sans Alcool", price_cents: 4500 },
+          { name: "Accord Vins Bio & Engagés", price_cents: 6000 }
         ]
       },
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Le Maïs : bœuf Wagyu, maïs habañero, tortilla croustillante", price: "19€" },
-          { name: "Le Canard Mulard : à la moutarde, en raviole, figues", price: "22€" },
-          { name: "Les Couteaux : vinaigrette à l'huile de graines de courge", price: "17€" },
-          { name: "La Carotte des Sables (Vegan) : cuite au jus de carotte", price: "24€" },
-          { name: "Asperges Blanches, sabayon agrumes et oxalis", price: "21€" },
-          { name: "Betterave rôtie au feu de bois, brebis de l'Aveyron", price: "18€" }
+          { name: "Le Maïs : bœuf Wagyu, maïs habañero, tortilla croustillante", price_cents: 1900 },
+          { name: "Le Canard Mulard : à la moutarde, en raviole, figues", price_cents: 2200 },
+          { name: "Les Couteaux : vinaigrette à l'huile de graines de courge", price_cents: 1700 },
+          { name: "La Carotte des Sables (Vegan) : cuite au jus de carotte", price_cents: 2400 },
+          { name: "Asperges Blanches, sabayon agrumes et oxalis", price_cents: 2100 },
+          { name: "Betterave rôtie au feu de bois, brebis de l'Aveyron", price_cents: 1800 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Le Cabillaud : pané, chou rouge et kale, pomme de terre", price: "38€" },
-          { name: "Le Pigeon : rôti sur l'os et cuisse confite à la noisette", price: "38€" },
-          { name: "Le Cochon Montalet : noix d'entrecôte rôtie, haricots coco", price: "49€" },
-          { name: "Poisson de Petit Bateau, émulsion d'arêtes grillées", price: "36€" },
-          { name: "Céleri-Rave en croûte de sel, truffe noire d'hiver", price: "35€" },
-          { name: "Risotto de petit épeautre, champignons des bois", price: "32€" }
+          { name: "Le Cabillaud : pané, chou rouge et kale, pomme de terre", price_cents: 3800 },
+          { name: "Le Pigeon : rôti sur l'os et cuisse confite à la noisette", price_cents: 3800 },
+          { name: "Le Cochon Montalet : noix d'entrecôte rôtie, haricots coco", price_cents: 4900 },
+          { name: "Poisson de Petit Bateau, émulsion d'arêtes grillées", price_cents: 3600 },
+          { name: "Céleri-Rave en croûte de sel, truffe noire d'hiver", price_cents: 3500 },
+          { name: "Risotto de petit épeautre, champignons des bois", price_cents: 3200 }
         ]
       },
       {
-        category: "Les Desserts",
+        category_type: "dessert",
+        display_label: "Les Desserts",
         items: [
-          { name: "Dessert du Chariot selon l'humeur du Chef", price: "14€" },
-          { name: "Le Soufflé Anona : création de saison", price: "16€" },
-          { name: "Mignardises de la Maison Spiwack", price: "10€" },
-          { name: "Poire Confite, sorbet verveine du jardin", price: "14€" }
+          { name: "Dessert du Chariot selon l'humeur du Chef", price_cents: 1400 },
+          { name: "Le Soufflé Anona : création de saison", price_cents: 1600 },
+          { name: "Mignardises de la Maison Spiwack", price_cents: 1000 },
+          { name: "Poire Confite, sorbet verveine du jardin", price_cents: 1400 }
         ]
       }
     ]

@@ -40,44 +40,48 @@ export const l_agape: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Asperges vertes de Provence, sabayon léger", price: "59€" },
-          { name: "Tagliatelles de seiche au naturel", price: "52€" },
-          { name: "Raviolo de courgette fumée et sa fleur", price: "49€" },
-          { name: "Tartare de boeuf Blonde d'Aquitaine au couteau", price: "76€" },
-          { name: "Foie gras de canard mi-cuit, chutney de saison", price: "52€" },
-          { name: "Langoustines du Guilvinec juste saisies", price: "74€" }
+          { name: "Asperges vertes de Provence, sabayon léger", price_cents: 5900 },
+          { name: "Tagliatelles de seiche au naturel", price_cents: 5200 },
+          { name: "Raviolo de courgette fumée et sa fleur", price_cents: 4900 },
+          { name: "Tartare de boeuf Blonde d'Aquitaine au couteau", price_cents: 7600 },
+          { name: "Foie gras de canard mi-cuit, chutney de saison", price_cents: 5200 },
+          { name: "Langoustines du Guilvinec juste saisies", price_cents: 7400 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Poisson de nos côtes bretonnes, légumes racines", price: "69€" },
-          { name: "Agneau de lait Manex, jus corsé au thym", price: "72€" },
-          { name: "Caneton de Challans rôti, navets glacés", price: "92€" },
-          { name: "Homard bleu de Roscoff, beurre de corail", price: "95€" },
-          { name: "Ris de veau rôtis, purée de panais", price: "76€" },
-          { name: "Filet de turbot, émulsion de coquillages", price: "82€" }
+          { name: "Poisson de nos côtes bretonnes, légumes racines", price_cents: 6900 },
+          { name: "Agneau de lait Manex, jus corsé au thym", price_cents: 7200 },
+          { name: "Caneton de Challans rôti, navets glacés", price_cents: 9200 },
+          { name: "Homard bleu de Roscoff, beurre de corail", price_cents: 9500 },
+          { name: "Ris de veau rôtis, purée de panais", price_cents: 7600 },
+          { name: "Filet de turbot, émulsion de coquillages", price_cents: 8200 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Comté Bernard Antony (Affinage exceptionnel)", price: "21€" },
-          { name: "Mille-feuille vanille Taha'a, caramel onctueux", price: "32€" },
-          { name: "Fraises Gariguette au poivre de Timut", price: "22€" },
-          { name: "Chocolat grand cru Agapé, texture croquante", price: "32€" },
-          { name: "Soufflé chaud au Grand Marnier", price: "28€" }
+          { name: "Comté Bernard Antony (Affinage exceptionnel)", price_cents: 2100 },
+          { name: "Mille-feuille vanille Taha'a, caramel onctueux", price_cents: 3200 },
+          { name: "Fraises Gariguette au poivre de Timut", price_cents: 2200 },
+          { name: "Chocolat grand cru Agapé, texture croquante", price_cents: 3200 },
+          { name: "Soufflé chaud au Grand Marnier", price_cents: 2800 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Coupe de Champagne Brut", price: "18€" },
-          { name: "Verre de Chablis Domaine William Fèvre", price: "16€" },
-          { name: "Café de spécialité & mignardises", price: "8€" },
-          { name: "Infusion d'herbes fraîches", price: "9€" }
+          { name: "Coupe de Champagne Brut", price_cents: 1800 },
+          { name: "Verre de Chablis Domaine William Fèvre", price_cents: 1600 },
+          { name: "Café de spécialité & mignardises", price_cents: 800 },
+          { name: "Infusion d'herbes fraîches", price_cents: 900 }
         ]
       }
     ]

@@ -42,43 +42,48 @@ export const a_table: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules",
+                category_type: "tasting_menu",
+                display_label: "Formules",
                 items: [
                     // VERIFIED: Source TheFork & Site officiel
-                    { name: "Formule Déjeuner", price: "24.00€", description: "Entrée + Plat ou Plat + Dessert" },
-                    { name: "Brunch Complet (Dimanche)", price: "34.00€" }
+                    { name: "Formule Déjeuner", price_cents: 2400, description: "Entrée + Plat ou Plat + Dessert" },
+                    { name: "Brunch Complet (Dimanche)", price_cents: 3400 }
                 ]
             },
             {
-                category: "Entrées & Planches",
+                category_type: "starter",
+                display_label: "Entrées & Planches",
                 items: [
-                    { name: "Œufs mayo façon César", price: "9.00€" },
-                    { name: "Carpaccio de bar", price: "13.00€" },
-                    { name: "Croque à la truffe et pastrami", price: "18.00€" }
+                    { name: "Œufs mayo façon César", price_cents: 900 },
+                    { name: "Carpaccio de bar", price_cents: 1300 },
+                    { name: "Croque à la truffe et pastrami", price_cents: 1800 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
-                    { name: "Mi-cuit de saumon, mousseline chou-fleur, beurre blanc", price: "28.00€" },
-                    { name: "Demi-magret de canard cuit basse température", price: "25.00€" },
-                    { name: "Gnocchis à la crème de truffe", price: "22.00€" },
-                    { name: "Noix d'entrecôte argentine (300g)", price: "38.00€" }
+                    { name: "Mi-cuit de saumon, mousseline chou-fleur, beurre blanc", price_cents: 2800 },
+                    { name: "Demi-magret de canard cuit basse température", price_cents: 2500 },
+                    { name: "Gnocchis à la crème de truffe", price_cents: 2200 },
+                    { name: "Noix d'entrecôte argentine (300g)", price_cents: 3800 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Dessert du jour", price: "9.00€" },
-                    { name: "Fondant au chocolat", price: "10.00€" }
+                    { name: "Dessert du jour", price_cents: 900 },
+                    { name: "Fondant au chocolat", price_cents: 1000 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Pinte de bière (approximation quartier)", price: "6.50€" },
-                    { name: "Verre de vin (à partir de)", price: "7.00€" },
-                    { name: "Cocktail classique", price: "10.00€" }
+                    { name: "Pinte de bière (approximation quartier)", price_cents: 650 },
+                    { name: "Verre de vin (à partir de)", price_cents: 700 },
+                    { name: "Cocktail classique", price_cents: 1000 }
                 ]
             }
         ]

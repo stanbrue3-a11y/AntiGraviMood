@@ -40,36 +40,39 @@ export const la_regalade: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Créations du Moment",
+                category_type: "other",
+                display_label: "Les Créations du Moment",
                 items: [
-                    { name: "Poitrine de Cochon Fermier Moelleuse de chez Ospital", price: "26.00€", description: "Couenne croustillante, haricots de Paimpol et chorizo." },
-                    { name: "Risotto Crémeux à l'Encre de Seiche", price: "24.00€" },
-                    { name: "Cabillaud Rôti sur la peau, Gnocchis à l'encre", price: "27.00€" },
-                    { name: "Suprême de Volaille Jaune des Landes", price: "27.00€" },
-                    { name: "Paleron de Boeuf braisé au Vin Noir", price: "27.00€" },
-                    { name: "Tartare de Boeuf au Couteau & Frites", price: "24.00€" },
-                    { name: "Carbonara de Céleri façon Risotto", price: "22.50€" }
+                    { name: "Poitrine de Cochon Fermier Moelleuse de chez Ospital", price_cents: 2600, description: "Couenne croustillante, haricots de Paimpol et chorizo." },
+                    { name: "Risotto Crémeux à l'Encre de Seiche", price_cents: 2400 },
+                    { name: "Cabillaud Rôti sur la peau, Gnocchis à l'encre", price_cents: 2700 },
+                    { name: "Suprême de Volaille Jaune des Landes", price_cents: 2700 },
+                    { name: "Paleron de Boeuf braisé au Vin Noir", price_cents: 2700 },
+                    { name: "Tartare de Boeuf au Couteau & Frites", price_cents: 2400 },
+                    { name: "Carbonara de Céleri façon Risotto", price_cents: 2250 }
                 ]
             },
             {
-                category: "L'Héritage Régalade (Entrées)",
+                category_type: "starter",
+                display_label: "L'Héritage Régalade (Entrées)",
                 items: [
-                    { name: "Terrine de Campagne offerte à l'arrivée", price: "0.00€", description: "Le geste emblématique de la maison." },
-                    { name: "Royale de Foie Gras de Canard, Bouillon Champignons", price: "18.00€" },
-                    { name: "Poêlée d'Escargots et Champignons au Chorizo", price: "15.00€" },
-                    { name: "Vitello Tonnato de La Régalade", price: "14.00€" },
-                    { name: "Soupe Crémeuse de Choux-Fleurs au Parmesan", price: "15.00€" },
-                    { name: "Rôtis d'Escargots à l'Oeuf Poché", price: "14.50€" }
+                    { name: "Terrine de Campagne offerte à l'arrivée", price_cents: 0, description: "Le geste emblématique de la maison." },
+                    { name: "Royale de Foie Gras de Canard, Bouillon Champignons", price_cents: 1800 },
+                    { name: "Poêlée d'Escargots et Champignons au Chorizo", price_cents: 1500 },
+                    { name: "Vitello Tonnato de La Régalade", price_cents: 1400 },
+                    { name: "Soupe Crémeuse de Choux-Fleurs au Parmesan", price_cents: 1500 },
+                    { name: "Rôtis d'Escargots à l'Oeuf Poché", price_cents: 1450 }
                 ]
             },
             {
-                category: "Signatures Sucrées",
+                category_type: "dessert",
+                display_label: "Signatures Sucrées",
                 items: [
-                    { name: "Le Fameux Riz au Lait de Grand-Mère", price: "12.00€", description: "Servi dans son grand saladier avec caramel laitier." },
-                    { name: "Soufflé Chaud au Grand Marnier", price: "12.00€" },
-                    { name: "Guimauve Maison, Chocolat Noir & Coco", price: "11.00€" },
-                    { name: "Tarte Fine aux Pommes et Vanille", price: "12.00€" },
-                    { name: "Cheesecake Maison à la Mangue & Passion", price: "12.00€" }
+                    { name: "Le Fameux Riz au Lait de Grand-Mère", price_cents: 1200, description: "Servi dans son grand saladier avec caramel laitier." },
+                    { name: "Soufflé Chaud au Grand Marnier", price_cents: 1200 },
+                    { name: "Guimauve Maison, Chocolat Noir & Coco", price_cents: 1100 },
+                    { name: "Tarte Fine aux Pommes et Vanille", price_cents: 1200 },
+                    { name: "Cheesecake Maison à la Mangue & Passion", price_cents: 1200 }
                 ]
             }
         ]

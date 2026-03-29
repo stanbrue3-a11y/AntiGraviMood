@@ -39,46 +39,50 @@ export const bulot_bulot: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Huîtres de Blainville-sur-mer n°3 (x6)", price: "18.00€" },
-          { name: "Huîtres de Blainville-sur-mer n°3 (x12)", price: "34.00€" },
-          { name: "Portion de Bulots sauce aïoli", price: "9.50€" },
-          { name: "Crevettes roses Bio de Madagascar", price: "12.00€" },
-          { name: "Tourteau entier de Bretagne", price: "22.00€" },
-          { name: "Langoustines fraîches (selon arrivage)", price: "19.00€" },
-          { name: "Plateau Bulot Bulot (Assortiment)", price: "45.00€" }
+          { name: "Huîtres de Blainville-sur-mer n°3 (x6)", price_cents: 1800 },
+          { name: "Huîtres de Blainville-sur-mer n°3 (x12)", price_cents: 3400 },
+          { name: "Portion de Bulots sauce aïoli", price_cents: 950 },
+          { name: "Crevettes roses Bio de Madagascar", price_cents: 1200 },
+          { name: "Tourteau entier de Bretagne", price_cents: 2200 },
+          { name: "Langoustines fraîches (selon arrivage)", price_cents: 1900 },
+          { name: "Plateau Bulot Bulot (Assortiment)", price_cents: 4500 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Lobster Roll Classique (Homard breton)", price: "24.00€" },
-          { name: "Lobster Roll Spicy (Pimenté)", price: "24.50€" },
-          { name: "Roll à la Chair de Tourteau", price: "19.00€" },
-          { name: "Roll aux Crevettes Grises", price: "16.00€" },
-          { name: "Fish & Chips de lieu noir", price: "17.50€" },
-          { name: "Dos de cabillaud à la vapeur, algues", price: "21.00€" },
-          { name: "Tartare de thon rouge aux câpres", price: "18.50€" }
+          { name: "Lobster Roll Classique (Homard breton)", price_cents: 2400 },
+          { name: "Lobster Roll Spicy (Pimenté)", price_cents: 2450 },
+          { name: "Roll à la Chair de Tourteau", price_cents: 1900 },
+          { name: "Roll aux Crevettes Grises", price_cents: 1600 },
+          { name: "Fish & Chips de lieu noir", price_cents: 1750 },
+          { name: "Dos de cabillaud à la vapeur, algues", price_cents: 2100 },
+          { name: "Tartare de thon rouge aux câpres", price_cents: 1850 }
         ]
       },
       {
-        category: "Assiettes à Partager",
+        category_type: "sharing",
+        display_label: "Assiettes à Partager",
         items: [
-          { name: "Taramasalata maison aux œufs de cabillaud", price: "8.50€" },
-          { name: "Rillettes de Lieu Jaune fumé", price: "9.00€" },
-          { name: "Accras de Morue croustillants (x6)", price: "10.00€" },
-          { name: "Couteaux à la plancha ail et persil", price: "12.50€" },
-          { name: "Légumes de saison rôtis", price: "6.00€" },
-          { name: "Frites maison à la fleur de sel", price: "5.50€" }
+          { name: "Taramasalata maison aux œufs de cabillaud", price_cents: 850 },
+          { name: "Rillettes de Lieu Jaune fumé", price_cents: 900 },
+          { name: "Accras de Morue croustillants (x6)", price_cents: 1000 },
+          { name: "Couteaux à la plancha ail et persil", price_cents: 1250 },
+          { name: "Légumes de saison rôtis", price_cents: 600 },
+          { name: "Frites maison à la fleur de sel", price_cents: 550 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Fondant au chocolat noir", price: "8.00€" },
-          { name: "Riz au lait de grand-mère", price: "7.00€" },
-          { name: "Sorbet Citron & Romarin", price: "6.50€" }
+          { name: "Fondant au chocolat noir", price_cents: 800 },
+          { name: "Riz au lait de grand-mère", price_cents: 700 },
+          { name: "Sorbet Citron & Romarin", price_cents: 650 }
         ]
       }
     ]

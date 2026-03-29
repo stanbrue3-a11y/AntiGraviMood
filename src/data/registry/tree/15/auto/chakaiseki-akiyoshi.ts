@@ -43,62 +43,67 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes au Thé (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes au Thé (Entrées)",
         items: [
-          { name: "Kumidashi (Eau chaude purifiée de bienvenue)", price: "0.00€", highlight: true },
-          { name: "Sakizuke (Légumes de saison marinés au vinaigre de riz)", price: "0.00€", highlight: true },
-          { name: "Mukozuke (Fine découpe de Daurade Royale)", price: "0.00€", highlight: true },
-          { name: "Bouillon de Langoustine & Écorces de Yuzu", price: "0.00€" },
-          { name: "Carpaccio de Poisson blanc au Ponzu artisanal", price: "0.00€" },
-          { name: "Tempura d'Asperges vertes & Fleur de sel", price: "0.00€" },
-          { name: "Salade de 14 Légumes au Kumquat & Wasabi", price: "0.00€" },
-          { name: "Tataki de Thon Rouge fumé minute", price: "0.00€" }
+          { name: "Kumidashi (Eau chaude purifiée de bienvenue)", price_cents: 0, is_highlight: true },
+          { name: "Sakizuke (Légumes de saison marinés au vinaigre de riz)", price_cents: 0, is_highlight: true },
+          { name: "Mukozuke (Fine découpe de Daurade Royale)", price_cents: 0, is_highlight: true },
+          { name: "Bouillon de Langoustine & Écorces de Yuzu", price_cents: 0 },
+          { name: "Carpaccio de Poisson blanc au Ponzu artisanal", price_cents: 0 },
+          { name: "Tempura d'Asperges vertes & Fleur de sel", price_cents: 0 },
+          { name: "Salade de 14 Légumes au Kumquat & Wasabi", price_cents: 0 },
+          { name: "Tataki de Thon Rouge fumé minute", price_cents: 0 }
         ]
       },
       {
-        category: "Séquences Kaiseki & Traditions (Plats)",
+        category_type: "main",
+        display_label: "Séquences Kaiseki & Traditions (Plats)",
         items: [
-          { name: "Poisson du jour grillé au charbon Binchotan", price: "0.00€", highlight: true },
-          { name: "Truite de nos rivières au sel, grillade lente", price: "0.00€", highlight: true },
-          { name: "Daurade Japonaise cuite à la vapeur de Saké", price: "0.00€" },
-          { name: "Sushi de Maquereau grillé (Aburi Saba)", price: "0.00€", highlight: true },
-          { name: "Filet de Bœuf Wagyu A5 grillé (Supplément)", price: "45.00€" },
-          { name: "Riz Niigata cuit au charbon de bois", price: "0.00€", highlight: true },
-          { name: "Petit pot de Légumes d'hiver braisés au Dashi", price: "0.00€" },
-          { name: "Soupe Miso blanc de Kyoto (Saikyo Miso)", price: "0.00€" }
+          { name: "Poisson du jour grillé au charbon Binchotan", price_cents: 0, is_highlight: true },
+          { name: "Truite de nos rivières au sel, grillade lente", price_cents: 0, is_highlight: true },
+          { name: "Daurade Japonaise cuite à la vapeur de Saké", price_cents: 0 },
+          { name: "Sushi de Maquereau grillé (Aburi Saba)", price_cents: 0, is_highlight: true },
+          { name: "Filet de Bœuf Wagyu A5 grillé (Supplément)", price_cents: 4500 },
+          { name: "Riz Niigata cuit au charbon de bois", price_cents: 0, is_highlight: true },
+          { name: "Petit pot de Légumes d'hiver braisés au Dashi", price_cents: 0 },
+          { name: "Soupe Miso blanc de Kyoto (Saikyo Miso)", price_cents: 0 }
         ]
       },
       {
-        category: "Accords & Accompagnements (Plats)",
+        category_type: "main",
+        display_label: "Accords & Accompagnements (Plats)",
         items: [
-          { name: "Pickles Tsukemono faits maison", price: "0.00€", highlight: true },
-          { name: "Algues Nori croustillantes de haute qualité", price: "0.00€" },
-          { name: "Wasabi frais du Japon râpé minute", price: "0.00€" },
-          { name: "Sauce Ponzu artisanale du Chef", price: "0.00€" },
-          { name: "Garniture au gingembre Myoga", price: "0.00€" }
+          { name: "Pickles Tsukemono faits maison", price_cents: 0, is_highlight: true },
+          { name: "Algues Nori croustillantes de haute qualité", price_cents: 0 },
+          { name: "Wasabi frais du Japon râpé minute", price_cents: 0 },
+          { name: "Sauce Ponzu artisanale du Chef", price_cents: 0 },
+          { name: "Garniture au gingembre Myoga", price_cents: 0 }
         ]
       },
       {
-        category: "Douceurs de la Maison de Thé (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs de la Maison de Thé (Desserts)",
         items: [
-          { name: "Daifuku à la Fraise fraîche & haricot rouge", price: "0.00€", highlight: true },
-          { name: "Omogashi (Douceur traditionnelle raffinée)", price: "0.00€", highlight: true },
-          { name: "Sakura Mochi en feuille de cerisier glacée", price: "0.00€" },
-          { name: "Sorbet au Gingembre frais & Citron vert", price: "0.00€" },
-          { name: "Gelée de fruits exotiques au Shiso pourpre", price: "0.00€" },
-          { name: "Financier au Thé Vert Matcha du Piémont", price: "0.00€" }
+          { name: "Daifuku à la Fraise fraîche & haricot rouge", price_cents: 0, is_highlight: true },
+          { name: "Omogashi (Douceur traditionnelle raffinée)", price_cents: 0, is_highlight: true },
+          { name: "Sakura Mochi en feuille de cerisier glacée", price_cents: 0 },
+          { name: "Sorbet au Gingembre frais & Citron vert", price_cents: 0 },
+          { name: "Gelée de fruits exotiques au Shiso pourpre", price_cents: 0 },
+          { name: "Financier au Thé Vert Matcha du Piémont", price_cents: 0 }
         ]
       },
       {
-        category: "L'Art du Matcha & Sakés (Boissons)",
+        category_type: "drink",
+        display_label: "L'Art du Matcha & Sakés (Boissons)",
         items: [
-          { name: "Matcha de cérémonie Uji (Kyoto) préparé minute", price: "12.00€", highlight: true },
-          { name: "Thé Genmaicha (Vert & Riz grillé)", price: "8.50€" },
-          { name: "Thé Sobacha (Sarrasin grillé)", price: "7.50€" },
-          { name: "Verre de Saké Junmai Daiginjo 'Kokuu'", price: "18.00€", highlight: true },
-          { name: "Saké Pétillant Shichiken", price: "22.00€" },
-          { name: "Verre de Meursault (Accord Vins)", price: "24.00€" },
-          { name: "Eau micro-filtrée Akiyoshi", price: "5.50€" }
+          { name: "Matcha de cérémonie Uji (Kyoto) préparé minute", price_cents: 1200, is_highlight: true },
+          { name: "Thé Genmaicha (Vert & Riz grillé)", price_cents: 850 },
+          { name: "Thé Sobacha (Sarrasin grillé)", price_cents: 750 },
+          { name: "Verre de Saké Junmai Daiginjo 'Kokuu'", price_cents: 1800, is_highlight: true },
+          { name: "Saké Pétillant Shichiken", price_cents: 2200 },
+          { name: "Verre de Meursault (Accord Vins)", price_cents: 2400 },
+          { name: "Eau micro-filtrée Akiyoshi", price_cents: 550 }
         ]
       }
     ]

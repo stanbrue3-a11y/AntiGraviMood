@@ -42,63 +42,68 @@ export const pho_banh_cuon_14: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Soupes Phở",
+        category_type: "main",
+        display_label: "Les Plats : Soupes Phở",
         items: [
-          { name: "Phở bœuf spécial (Complet)", price: "12.50€", highlight: true },
-          { name: "Phở bœuf cru & cuit (Normal)", price: "12.20€" },
-          { name: "Phở bœuf cru (Tái)", price: "12.20€" },
-          { name: "Phở bœuf cuit (Chin)", price: "12.20€" },
-          { name: "Phở au poulet (Gà)", price: "12.40€" },
-          { name: "Phở aux boulettes de bœuf (Bò Viên)", price: "12.50€" },
-          { name: "Soupe de nouilles sans viande", price: "9.00€" }
+          { name: "Phở bœuf spécial (Complet)", price_cents: 1250, is_highlight: true },
+          { name: "Phở bœuf cru & cuit (Normal)", price_cents: 1220 },
+          { name: "Phở bœuf cru (Tái)", price_cents: 1220 },
+          { name: "Phở bœuf cuit (Chin)", price_cents: 1220 },
+          { name: "Phở au poulet (Gà)", price_cents: 1240 },
+          { name: "Phở aux boulettes de bœuf (Bò Viên)", price_cents: 1250 },
+          { name: "Soupe de nouilles sans viande", price_cents: 900 }
         ]
       },
       {
-        category: "Vermicelles & Riz (Plats)",
+        category_type: "main",
+        display_label: "Vermicelles & Riz (Plats)",
         items: [
-          { name: "Bò bún chả giò (Bœuf & Nems)", price: "15.90€", highlight: true },
-          { name: "Bò bún végétarien (Nems Végé)", price: "15.90€" },
-          { name: "Bún chả Hà Nội (Porc grillé)", price: "16.50€" },
-          { name: "Riz au bœuf Loc Lac", price: "15.50€" },
-          { name: "Riz au poulet à la citronnelle", price: "14.50€" }
+          { name: "Bò bún chả giò (Bœuf & Nems)", price_cents: 1590, is_highlight: true },
+          { name: "Bò bún végétarien (Nems Végé)", price_cents: 1590 },
+          { name: "Bún chả Hà Nội (Porc grillé)", price_cents: 1650 },
+          { name: "Riz au bœuf Loc Lac", price_cents: 1550 },
+          { name: "Riz au poulet à la citronnelle", price_cents: 1450 }
         ]
       },
       {
-        category: "Spécialités & Entrées",
+        category_type: "starter",
+        display_label: "Spécialités & Entrées",
         items: [
-          { name: "Bánh cuốn (Crêpes de riz farcies x4)", price: "11.90€", highlight: true },
-          { name: "Nems au porc (Chả giò x5)", price: "9.90€" },
-          { name: "Nems au poulet (x5)", price: "9.90€" },
-          { name: "Nems végétariens (x5)", price: "9.90€" },
-          { name: "Rouleaux de printemps (x2)", price: "6.50€" },
-          { name: "Salade de papaye verte au bœuf séché", price: "8.50€" },
-          { name: "Raviolis vietnamiens au porc vapeur", price: "9.00€" },
-          { name: "Crevettes frites croustillantes", price: "14.50€" },
-          { name: "Papillote aux crevettes", price: "11.90€" },
-          { name: "Samoussa au bœuf", price: "9.90€" }
+          { name: "Bánh cuốn (Crêpes de riz farcies x4)", price_cents: 1190, is_highlight: true },
+          { name: "Nems au porc (Chả giò x5)", price_cents: 990 },
+          { name: "Nems au poulet (x5)", price_cents: 990 },
+          { name: "Nems végétariens (x5)", price_cents: 990 },
+          { name: "Rouleaux de printemps (x2)", price_cents: 650 },
+          { name: "Salade de papaye verte au bœuf séché", price_cents: 850 },
+          { name: "Raviolis vietnamiens au porc vapeur", price_cents: 900 },
+          { name: "Crevettes frites croustillantes", price_cents: 1450 },
+          { name: "Papillote aux crevettes", price_cents: 1190 },
+          { name: "Samoussa au bœuf", price_cents: 990 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Bánh Lột (Pâtes de riz coco)", price: "6.80€" },
-          { name: "Dâu Đỏ (Haricots rouges coco)", price: "6.80€" },
-          { name: "Sương Sa (Gelée d'herbes coco)", price: "6.80€" },
-          { name: "Chè Chuối (Banane lait de coco)", price: "6.80€" },
-          { name: "Sâm bổ lượng (Soupe rafraîchissante)", price: "6.80€" },
-          { name: "Chè Đậu (Riz gluant & haricots)", price: "6.80€" }
+          { name: "Bánh Lột (Pâtes de riz coco)", price_cents: 680 },
+          { name: "Dâu Đỏ (Haricots rouges coco)", price_cents: 680 },
+          { name: "Sương Sa (Gelée d'herbes coco)", price_cents: 680 },
+          { name: "Chè Chuối (Banane lait de coco)", price_cents: 680 },
+          { name: "Sâm bổ lượng (Soupe rafraîchissante)", price_cents: 680 },
+          { name: "Chè Đậu (Riz gluant & haricots)", price_cents: 680 }
         ]
       },
       {
-        category: "Boissons & Cave",
+        category_type: "drink",
+        display_label: "Boissons & Cave",
         items: [
-          { name: "Café vietnamien glacé au lait", price: "5.50€", highlight: true },
-          { name: "Thé au jasmin (Théière)", price: "4.50€" },
-          { name: "Bière de Saigon (33cl)", price: "6.00€" },
-          { name: "Bière d'Hanoï (33cl)", price: "6.00€" },
-          { name: "Bière '33' Export Vietnam", price: "6.00€" },
-          { name: "Jus de coco frais avec pulpe", price: "5.50€" },
-          { name: "Jus de Lychee", price: "5.00€" }
+          { name: "Café vietnamien glacé au lait", price_cents: 550, is_highlight: true },
+          { name: "Thé au jasmin (Théière)", price_cents: 450 },
+          { name: "Bière de Saigon (33cl)", price_cents: 600 },
+          { name: "Bière d'Hanoï (33cl)", price_cents: 600 },
+          { name: "Bière '33' Export Vietnam", price_cents: 600 },
+          { name: "Jus de coco frais avec pulpe", price_cents: 550 },
+          { name: "Jus de Lychee", price_cents: 500 }
         ]
       }
     ]

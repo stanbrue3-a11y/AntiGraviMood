@@ -43,73 +43,79 @@ export const la_mascotte_montmartre: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes de la Mer (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes de la Mer (Entrées)",
         items: [
-          { name: "Crevettes Bio nacrées Sauce Ponzu", price: "23.00€", highlight: true },
-          { name: "Foie Gras de Canard, Condiment Kumquat", price: "26.00€", highlight: true },
-          { name: "Sardines Millésime 2024 'Mademoiselle Perle'", price: "16.00€" },
-          { name: "Cassolette d'Escargots de Bourgogne (x12)", price: "24.00€" },
-          { name: "Soupe à l'Oignon Gratinée Traditionnelle", price: "14.50€" },
-          { name: "Tartare de Thon Alalunga & Avocat", price: "19.00€", highlight: true },
-          { name: "Salade de Poulpe de Roche à la Provençale", price: "21.00€" },
-          { name: "Terrine de la Maison & Cornichons Malossol", price: "12.00€" }
+          { name: "Crevettes Bio nacrées Sauce Ponzu", price_cents: 2300, is_highlight: true },
+          { name: "Foie Gras de Canard, Condiment Kumquat", price_cents: 2600, is_highlight: true },
+          { name: "Sardines Millésime 2024 'Mademoiselle Perle'", price_cents: 1600 },
+          { name: "Cassolette d'Escargots de Bourgogne (x12)", price_cents: 2400 },
+          { name: "Soupe à l'Oignon Gratinée Traditionnelle", price_cents: 1450 },
+          { name: "Tartare de Thon Alalunga & Avocat", price_cents: 1900, is_highlight: true },
+          { name: "Salade de Poulpe de Roche à la Provençale", price_cents: 2100 },
+          { name: "Terrine de la Maison & Cornichons Malossol", price_cents: 1200 }
         ]
       },
       {
-        category: "Le Banc de l'Écailler (Plats)",
+        category_type: "main",
+        display_label: "Le Banc de l'Écailler (Plats)",
         items: [
-          { name: "Sole de Loctudy Meunière (Belle pièce)", price: "59.00€", highlight: true },
-          { name: "Plateau 'Royal Mascotte' (Prestige Mer)", price: "157.00€", highlight: true },
-          { name: "L'Assiette de Fruits de Mer (Sélection)", price: "39.00€", highlight: true },
-          { name: "Tour des Parcs à Huîtres (24 pièces)", price: "75.00€" },
-          { name: "Homard Canadien à la Plancha (500g)", price: "75.00€", highlight: true },
-          { name: "Fish & Chips façon Mascotte & Sauce Tartare", price: "29.00€" },
-          { name: "Thon mi-cuit au Sésame & Wakame", price: "28.00€" },
-          { name: "Noix de Saint-Jacques poêlées, Crème coraillée", price: "34.00€" }
+          { name: "Sole de Loctudy Meunière (Belle pièce)", price_cents: 5900, is_highlight: true },
+          { name: "Plateau 'Royal Mascotte' (Prestige Mer)", price_cents: 15700, is_highlight: true },
+          { name: "L'Assiette de Fruits de Mer (Sélection)", price_cents: 3900, is_highlight: true },
+          { name: "Tour des Parcs à Huîtres (24 pièces)", price_cents: 7500 },
+          { name: "Homard Canadien à la Plancha (500g)", price_cents: 7500, is_highlight: true },
+          { name: "Fish & Chips façon Mascotte & Sauce Tartare", price_cents: 2900 },
+          { name: "Thon mi-cuit au Sésame & Wakame", price_cents: 2800 },
+          { name: "Noix de Saint-Jacques poêlées, Crème coraillée", price_cents: 3400 }
         ]
       },
       {
-        category: "Tradition & Terroir (Plats)",
+        category_type: "main",
+        display_label: "Tradition & Terroir (Plats)",
         items: [
-          { name: "Tartare de Bœuf d'Aubrac haché minute", price: "29.00€", highlight: true },
-          { name: "Entrecôte d'Aubrac (300g) Jus de viande & Frites", price: "44.00€" },
-          { name: "Blanquette de Joue de Veau & Riz Pilaf", price: "32.00€", highlight: true },
-          { name: "Magret de Canard au Miel & Épices douces", price: "30.00€" },
-          { name: "Burger Mascotte, Sauce St-Nectaire & Bacon", price: "26.00€" }
+          { name: "Tartare de Bœuf d'Aubrac haché minute", price_cents: 2900, is_highlight: true },
+          { name: "Entrecôte d'Aubrac (300g) Jus de viande & Frites", price_cents: 4400 },
+          { name: "Blanquette de Joue de Veau & Riz Pilaf", price_cents: 3200, is_highlight: true },
+          { name: "Magret de Canard au Miel & Épices douces", price_cents: 3000 },
+          { name: "Burger Mascotte, Sauce St-Nectaire & Bacon", price_cents: 2600 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Frites Maison à la graisse de bœuf", price: "7.00€", highlight: true },
-          { name: "Teppanyaki de Légumes croquants", price: "8.50€" },
-          { name: "Riz Pilaf aux aromates", price: "6.50€" },
-          { name: "Purée onctueuse au Beurre demi-sel d'Isigny", price: "7.50€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette", price: "6.00€" }
+          { name: "Frites Maison à la graisse de bœuf", price_cents: 700, is_highlight: true },
+          { name: "Teppanyaki de Légumes croquants", price_cents: 850 },
+          { name: "Riz Pilaf aux aromates", price_cents: 650 },
+          { name: "Purée onctueuse au Beurre demi-sel d'Isigny", price_cents: 750 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette", price_cents: 600 }
         ]
       },
       {
-        category: "Douceurs de la Butte (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs de la Butte (Desserts)",
         items: [
-          { name: "Crêpes flambées au Grand Marnier (Minute)", price: "16.00€", highlight: true },
-          { name: "Riz au Lait, Granola Maison & Caramel Salé", price: "12.00€", highlight: true },
-          { name: "Paris-Brest à la Crème Pralinée intense", price: "16.00€" },
-          { name: "Mousse au Chocolat & Crumble Noisette", price: "14.00€", highlight: true },
-          { name: "Tarte Tatin & Crème d'Isigny AOP", price: "14.50€" },
-          { name: "Assiette de Fruits Frais de Saison", price: "15.00€" },
-          { name: "Le Café Gourmand de la Mascotte (3 pièces)", price: "15.00€", highlight: true }
+          { name: "Crêpes flambées au Grand Marnier (Minute)", price_cents: 1600, is_highlight: true },
+          { name: "Riz au Lait, Granola Maison & Caramel Salé", price_cents: 1200, is_highlight: true },
+          { name: "Paris-Brest à la Crème Pralinée intense", price_cents: 1600 },
+          { name: "Mousse au Chocolat & Crumble Noisette", price_cents: 1400, is_highlight: true },
+          { name: "Tarte Tatin & Crème d'Isigny AOP", price_cents: 1450 },
+          { name: "Assiette de Fruits Frais de Saison", price_cents: 1500 },
+          { name: "Le Café Gourmand de la Mascotte (3 pièces)", price_cents: 1500, is_highlight: true }
         ]
       },
       {
-        category: "La Cave des Abbesses (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave des Abbesses (Boissons)",
         items: [
-          { name: "Coupe de Champagne Louis Dehu", price: "16.00€", highlight: true },
-          { name: "Bouteille de Chablis 1er Cru (Sélection)", price: "62.00€" },
-          { name: "Le Spritz de Montmartre (Signature)", price: "15.00€", highlight: true },
-          { name: "Verre de Muscadet Sèvre & Maine sur Lie", price: "8.50€" },
-          { name: "Jus de Fruits Alain Milliat (Sélection)", price: "7.50€" },
-          { name: "Eau micro-filtrée Mascotte (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité Terres de Café", price: "3.50€" }
+          { name: "Coupe de Champagne Louis Dehu", price_cents: 1600, is_highlight: true },
+          { name: "Bouteille de Chablis 1er Cru (Sélection)", price_cents: 6200 },
+          { name: "Le Spritz de Montmartre (Signature)", price_cents: 1500, is_highlight: true },
+          { name: "Verre de Muscadet Sèvre & Maine sur Lie", price_cents: 850 },
+          { name: "Jus de Fruits Alain Milliat (Sélection)", price_cents: 750 },
+          { name: "Eau micro-filtrée Mascotte (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité Terres de Café", price_cents: 350 }
         ]
       }
     ]

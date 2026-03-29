@@ -41,34 +41,37 @@ export const essentiel_boulangerie: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Formules Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner",
                 items: [
-                    { name: "Menu complet (Sandwich + Boisson + Dessert)", price: "10.50€" },
-                    { name: "Menu Salade (Salade + Boisson + Dessert)", price: "12.30€" },
-                    { name: "Menu Duo (Sandwich + Dessert)", price: "8.80€" },
-                    { name: "Menu Salade Duo (Salade + Boisson)", price: "9.80€" },
-                    { name: "Menu Expresso (Café + Croissant/Pain Choco)", price: "2.60€" }
+                    { name: "Menu complet (Sandwich + Boisson + Dessert)", price_cents: 1050 },
+                    { name: "Menu Salade (Salade + Boisson + Dessert)", price_cents: 1230 },
+                    { name: "Menu Duo (Sandwich + Dessert)", price_cents: 880 },
+                    { name: "Menu Salade Duo (Salade + Boisson)", price_cents: 980 },
+                    { name: "Menu Expresso (Café + Croissant/Pain Choco)", price_cents: 260 }
                 ]
             },
             {
-                category: "Le Salé Artisanal",
+                category_type: "other",
+                display_label: "Le Salé Artisanal",
                 items: [
-                    { name: "Le Parigot (Jambon Beurre Tradition)", price: "4.90€" },
-                    { name: "Sandwich Signature l'Essentiel", price: "6.00€" },
-                    { name: "Salade La Gauloise généreuse", price: "7.80€" },
-                    { name: "Quiche Lorraine à l'ancienne", price: "4.20€" }
+                    { name: "Le Parigot (Jambon Beurre Tradition)", price_cents: 490 },
+                    { name: "Sandwich Signature l'Essentiel", price_cents: 600 },
+                    { name: "Salade La Gauloise généreuse", price_cents: 780 },
+                    { name: "Quiche Lorraine à l'ancienne", price_cents: 420 }
                 ]
             },
             {
-                category: "Pâtisseries & Boulangerie",
+                category_type: "other",
+                display_label: "Pâtisseries & Boulangerie",
                 items: [
-                    { name: "L'Essentiel (Pâtisserie Signature)", price: "5.00€" },
-                    { name: "Flan à la Vanille de Madagascar", price: "4.10€" },
-                    { name: "Tarte Citron Meringuée", price: "4.50€" },
-                    { name: "Paris-Brest de Champion", price: "5.50€" },
-                    { name: "Croissant au Beurre AOP", price: "1.20€" },
-                    { name: "Tourte de Meule Bio (600g)", price: "4.80€" },
-                    { name: "Le Versot (Pain Signature 1kg)", price: "6.50€" }
+                    { name: "L'Essentiel (Pâtisserie Signature)", price_cents: 500 },
+                    { name: "Flan à la Vanille de Madagascar", price_cents: 410 },
+                    { name: "Tarte Citron Meringuée", price_cents: 450 },
+                    { name: "Paris-Brest de Champion", price_cents: 550 },
+                    { name: "Croissant au Beurre AOP", price_cents: 120 },
+                    { name: "Tourte de Meule Bio (600g)", price_cents: 480 },
+                    { name: "Le Versot (Pain Signature 1kg)", price_cents: 650 }
                 ]
             }
         ]

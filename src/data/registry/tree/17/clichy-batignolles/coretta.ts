@@ -41,42 +41,46 @@ export const coretta: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Entrées & À Partager",
+        category_type: "starter",
+        display_label: "Entrées & À Partager",
         items: [
-          { name: "Yellowtail crudo, tomates anciennes, framboises", price: "16.00€" },
-          { name: "Moules de Bouchot, toast brioché, poireaux fondants", price: "14.00€" },
-          { name: "Tempura d'Asperges, Calamars grillés, sauce wasabi", price: "15.00€" },
-          { name: "Bruschetta de pain de campagne, Stracciatella", price: "14.00€" },
-          { name: "Gazpacho de tomates Ananas Zebra, crevettes marinées", price: "13.00€" }
+          { name: "Yellowtail crudo, tomates anciennes, framboises", price_cents: 1600 },
+          { name: "Moules de Bouchot, toast brioché, poireaux fondants", price_cents: 1400 },
+          { name: "Tempura d'Asperges, Calamars grillés, sauce wasabi", price_cents: 1500 },
+          { name: "Bruschetta de pain de campagne, Stracciatella", price_cents: 1400 },
+          { name: "Gazpacho de tomates Ananas Zebra, crevettes marinées", price_cents: 1300 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Lotte rôtie à la Soubressade, risotto safrané", price: "32.00€" },
-          { name: "Ris de veau crousti-fondants, caviar de courgettes", price: "34.00€" },
-          { name: "Carré de Porc Ibérique, haricots verts", price: "32.00€" },
-          { name: "Truite grillée, chou-fleur multicolore", price: "29.00€" },
-          { name: "Poulpe tendrissime, condiments sud-américains", price: "31.00€" },
-          { name: "Poisson du Jour selon arrivage", price: "28.00€" },
-          { name: "Poitrine de Porc confite lentement", price: "27.00€" }
+          { name: "Lotte rôtie à la Soubressade, risotto safrané", price_cents: 3200 },
+          { name: "Ris de veau crousti-fondants, caviar de courgettes", price_cents: 3400 },
+          { name: "Carré de Porc Ibérique, haricots verts", price_cents: 3200 },
+          { name: "Truite grillée, chou-fleur multicolore", price_cents: 2900 },
+          { name: "Poulpe tendrissime, condiments sud-américains", price_cents: 3100 },
+          { name: "Poisson du Jour selon arrivage", price_cents: 2800 },
+          { name: "Poitrine de Porc confite lentement", price_cents: 2700 }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs",
         items: [
-          { name: "Brioche à la Cannelle culte, caramel beurre salé", price: "13.00€" },
-          { name: "Framboises Tulameen, ganache chocolat Guanaja", price: "12.00€" },
-          { name: "Rhubarbe confite, fraises des Landes, sorbet sureau", price: "13.00€" },
-          { name: "Forêt Noire déstructurée, sorbet cerise, glace maïs", price: "12.00€" }
+          { name: "Brioche à la Cannelle culte, caramel beurre salé", price_cents: 1300 },
+          { name: "Framboises Tulameen, ganache chocolat Guanaja", price_cents: 1200 },
+          { name: "Rhubarbe confite, fraises des Landes, sorbet sureau", price_cents: 1300 },
+          { name: "Forêt Noire déstructurée, sorbet cerise, glace maïs", price_cents: 1200 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Rosé Côtes de Provence", price: "8.00€" },
-          { name: "Bouteille d'Eau Minérale (75cl)", price: "6.00€" },
-          { name: "Sélection de Vins au flacon", price: "30.00€" }
+          { name: "Verre de Rosé Côtes de Provence", price_cents: 800 },
+          { name: "Bouteille d'Eau Minérale (75cl)", price_cents: 600 },
+          { name: "Sélection de Vins au flacon", price_cents: 3000 }
         ]
       }
     ]

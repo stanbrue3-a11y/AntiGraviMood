@@ -27,72 +27,77 @@ export const eastMamma: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Antipasti & Buoni Prodotti",
+                category_type: "other",
+                display_label: "Antipasti & Buoni Prodotti",
                 items: [
-                    { name: "Burrata al Pesto (250g)", price: "14.00€", description: "Le classique Big Mamma, crémeuse à souhait." },
-                    { name: "Mezze Italiani & Flatbread", price: "16.00€", description: "Assortiment à partager : olives, légumes grillés, dips." },
-                    { name: "Mortadella e parmigiano", price: "7.00€", description: "Fines tranches de mortadelle de Bologne." },
-                    { name: "Prosciutto di Parma DOP 24 mois", price: "9.00€" },
-                    { name: "Arancini à la Carbonara", price: "9.50€", description: "Cœur coulant, guanciale croustillant." },
-                    { name: "Arancini al Tartufo", price: "10.50€", description: "La version luxe à la truffe noire." },
-                    { name: "Focaccia barese", price: "8.50€", description: "Tomates cerises, origan et huile d'olive." },
-                    { name: "Porro Arrosto", price: "8.50€", description: "Poireaux rôtis, sauce stracciatella." },
-                    { name: "Carpaccino di Manzo", price: "12.00€", description: "Fines tranches de bœuf, parmesan, roquette." },
-                    { name: "Bresaola e Grissini", price: "10.00€" },
-                    { name: "Speck del Trentino", price: "9.00€" },
-                    { name: "Focaccia Maison Nature", price: "3.50€" }
+                    { name: "Burrata al Pesto (250g)", price_cents: 1400, description: "Le classique Big Mamma, crémeuse à souhait." },
+                    { name: "Mezze Italiani & Flatbread", price_cents: 1600, description: "Assortiment à partager : olives, légumes grillés, dips." },
+                    { name: "Mortadella e parmigiano", price_cents: 700, description: "Fines tranches de mortadelle de Bologne." },
+                    { name: "Prosciutto di Parma DOP 24 mois", price_cents: 900 },
+                    { name: "Arancini à la Carbonara", price_cents: 950, description: "Cœur coulant, guanciale croustillant." },
+                    { name: "Arancini al Tartufo", price_cents: 1050, description: "La version luxe à la truffe noire." },
+                    { name: "Focaccia barese", price_cents: 850, description: "Tomates cerises, origan et huile d'olive." },
+                    { name: "Porro Arrosto", price_cents: 850, description: "Poireaux rôtis, sauce stracciatella." },
+                    { name: "Carpaccino di Manzo", price_cents: 1200, description: "Fines tranches de bœuf, parmesan, roquette." },
+                    { name: "Bresaola e Grissini", price_cents: 1000 },
+                    { name: "Speck del Trentino", price_cents: 900 },
+                    { name: "Focaccia Maison Nature", price_cents: 350 }
                 ]
             },
             {
-                category: "Primi Piatti (Pasta Fresca)",
+                category_type: "main",
+                display_label: "Primi Piatti (Pasta Fresca)",
                 items: [
-                    { name: "Cacio e Pepe", price: "16.00€", description: "Servies directement dans la meule de pecorino." },
-                    { name: "Truffle Pasta (Signature)", price: "18.50€", description: "Crème de truffe noire, copeaux frais." },
-                    { name: "Busiate all'Arrabbiata", price: "13.50€", description: "Sauce tomate épicée, stracciatella." },
-                    { name: "Gnocchi alla Sorrentina", price: "15.00€", description: "Tomate, mozzarella filante, basilic." },
-                    { name: "Ravioli del Plin", price: "17.50€", description: "Farce bœuf et porc, beurre et sauge." },
-                    { name: "Spaghetti all'Amatriciana", price: "15.50€", description: "Guanciale, tomate, pecorino." },
-                    { name: "Lasagna al Forno", price: "16.50€", description: "La recette de la Mamma." }
+                    { name: "Cacio e Pepe", price_cents: 1600, description: "Servies directement dans la meule de pecorino." },
+                    { name: "Truffle Pasta (Signature)", price_cents: 1850, description: "Crème de truffe noire, copeaux frais." },
+                    { name: "Busiate all'Arrabbiata", price_cents: 1350, description: "Sauce tomate épicée, stracciatella." },
+                    { name: "Gnocchi alla Sorrentina", price_cents: 1500, description: "Tomate, mozzarella filante, basilic." },
+                    { name: "Ravioli del Plin", price_cents: 1750, description: "Farce bœuf et porc, beurre et sauge." },
+                    { name: "Spaghetti all'Amatriciana", price_cents: 1550, description: "Guanciale, tomate, pecorino." },
+                    { name: "Lasagna al Forno", price_cents: 1650, description: "La recette de la Mamma." }
                 ]
             },
             {
-                category: "Le Pizza Napoletana",
+                category_type: "main",
+                display_label: "Le Pizza Napoletana",
                 items: [
-                    { name: "Mammargherita", price: "12.00€", description: "Fior di latte, tomate San Marzano, basilic." },
-                    { name: "Regina Instagram", price: "14.50€", description: "Jambon aux herbes, champignons, mozza." },
-                    { name: "Notorious B.I.Cheese", price: "14.00€", description: "Gorgonzola, parmigiano, mozza, poivre." },
-                    { name: "Moment of Truffe", price: "18.00€", description: "La pizza royale à la truffe." },
-                    { name: "Diavola", price: "15.50€", description: "Salami piquant, olives, piments." },
-                    { name: "Double Cheese & Pepperoni", price: "16.00€" },
-                    { name: "Marinara (V)", price: "9.50€", description: "Tomate, ail, origan, sans mozza." },
-                    { name: "Mariachi", price: "15.00€", description: "Nduja, burrata, miel pimenté." },
-                    { name: "Veggie Forever", price: "14.00€", description: "Légumes de saison rôtis." },
-                    { name: "Pizza du Moment", price: "17.00€" }
+                    { name: "Mammargherita", price_cents: 1200, description: "Fior di latte, tomate San Marzano, basilic." },
+                    { name: "Regina Instagram", price_cents: 1450, description: "Jambon aux herbes, champignons, mozza." },
+                    { name: "Notorious B.I.Cheese", price_cents: 1400, description: "Gorgonzola, parmigiano, mozza, poivre." },
+                    { name: "Moment of Truffe", price_cents: 1800, description: "La pizza royale à la truffe." },
+                    { name: "Diavola", price_cents: 1550, description: "Salami piquant, olives, piments." },
+                    { name: "Double Cheese & Pepperoni", price_cents: 1600 },
+                    { name: "Marinara (V)", price_cents: 950, description: "Tomate, ail, origan, sans mozza." },
+                    { name: "Mariachi", price_cents: 1500, description: "Nduja, burrata, miel pimenté." },
+                    { name: "Veggie Forever", price_cents: 1400, description: "Légumes de saison rôtis." },
+                    { name: "Pizza du Moment", price_cents: 1700 }
                 ]
             },
             {
-                category: "Dolci",
+                category_type: "other",
+                display_label: "Dolci",
                 items: [
-                    { name: "Il Tigramisù", price: "7.00€", description: "Servi à la grosse cuillère, mythique." },
-                    { name: "Mousse Sweet Mousse", price: "7.00€" },
-                    { name: "Panna Cotta aux fruits rouges", price: "6.50€" },
-                    { name: "Gelato Artigianale (2 boules)", price: "6.00€" },
-                    { name: "Chocolate-Praline Cookie", price: "4.50€" }
+                    { name: "Il Tigramisù", price_cents: 700, description: "Servi à la grosse cuillère, mythique." },
+                    { name: "Mousse Sweet Mousse", price_cents: 700 },
+                    { name: "Panna Cotta aux fruits rouges", price_cents: 650 },
+                    { name: "Gelato Artigianale (2 boules)", price_cents: 600 },
+                    { name: "Chocolate-Praline Cookie", price_cents: 450 }
                 ]
             },
             {
-                category: "Drinks & Cocktails",
+                category_type: "drink",
+                display_label: "Drinks & Cocktails",
                 items: [
-                    { name: "Britney Spritz", price: "10.00€" },
-                    { name: "Negronight Call", price: "10.00€" },
-                    { name: "Gin Routine", price: "10.00€" },
-                    { name: "Mojito di Pedro", price: "10.00€" },
-                    { name: "Sex on the Couch", price: "10.00€" },
-                    { name: "Big Mamma Mule", price: "11.00€" },
-                    { name: "San Pellegrino (50cl)", price: "2.50€" },
-                    { name: "Acqua Panna (50cl)", price: "2.50€" },
-                    { name: "Coca Cola (33cl)", price: "3.50€" },
-                    { name: "Vino Rosso della Casa (Verre)", price: "7.00€" }
+                    { name: "Britney Spritz", price_cents: 1000 },
+                    { name: "Negronight Call", price_cents: 1000 },
+                    { name: "Gin Routine", price_cents: 1000 },
+                    { name: "Mojito di Pedro", price_cents: 1000 },
+                    { name: "Sex on the Couch", price_cents: 1000 },
+                    { name: "Big Mamma Mule", price_cents: 1100 },
+                    { name: "San Pellegrino (50cl)", price_cents: 250 },
+                    { name: "Acqua Panna (50cl)", price_cents: 250 },
+                    { name: "Coca Cola (33cl)", price_cents: 350 },
+                    { name: "Vino Rosso della Casa (Verre)", price_cents: 700 }
                 ]
             }
         ]

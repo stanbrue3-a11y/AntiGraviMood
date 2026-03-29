@@ -41,63 +41,68 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes Historiques (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes Historiques (Entrées)",
         items: [
-          { name: "Terrine de Foie Gras de Canard & Chutney", price: "26.00€", highlight: true },
-          { name: "Escargots de Bourgogne en coquille (x9)", price: "19.00€", highlight: true },
-          { name: "Cuisses de Grenouille à la Provençale", price: "19.00€" },
-          { name: "Gratinée à l'Oignon Traditionnelle", price: "14.00€" },
-          { name: "Assiette de Saumon fumé & Blinis Maison", price: "24.00€" },
-          { name: "Entrée du jour du Marché", price: "12.00€" },
-          { name: "Carpaccio de Bœuf, Copeaux de Grana & Basilic", price: "18.00€" },
-          { name: "Burrata crémeuse & Tomates d'Antan au pesto", price: "17.00€" }
+          { name: "Terrine de Foie Gras de Canard & Chutney", price_cents: 2600, is_highlight: true },
+          { name: "Escargots de Bourgogne en coquille (x9)", price_cents: 1900, is_highlight: true },
+          { name: "Cuisses de Grenouille à la Provençale", price_cents: 1900 },
+          { name: "Gratinée à l'Oignon Traditionnelle", price_cents: 1400 },
+          { name: "Assiette de Saumon fumé & Blinis Maison", price_cents: 2400 },
+          { name: "Entrée du jour du Marché", price_cents: 1200 },
+          { name: "Carpaccio de Bœuf, Copeaux de Grana & Basilic", price_cents: 1800 },
+          { name: "Burrata crémeuse & Tomates d'Antan au pesto", price_cents: 1700 }
         ]
       },
       {
-        category: "Classiques de la Galette (Plats)",
+        category_type: "main",
+        display_label: "Classiques de la Galette (Plats)",
         items: [
-          { name: "Confit de Cuisse de Canard & Pommes grenailles", price: "26.00€", highlight: true },
-          { name: "Sole Meunière (400g), Épinards & Pommes vapeur", price: "45.00€", highlight: true },
-          { name: "Pavé de Saumon à la plancha, Julienne de légumes", price: "24.00€" },
-          { name: "Le traditionnel Coq au Vin & Tagliatelles fraîches", price: "24.00€", highlight: true },
-          { name: "Filet de Bœuf Français (Sauce Poivre ou Béarnaise)", price: "38.00€" },
-          { name: "Côte de Bœuf 1.2kg (pour 2 personnes)", price: "95.00€", highlight: true },
-          { name: "Risotto aux Gambas & Asperges vertes", price: "28.00€" },
-          { name: "Suprême de Volaille jaune & Crème de Morilles", price: "29.00€" }
+          { name: "Confit de Cuisse de Canard & Pommes grenailles", price_cents: 2600, is_highlight: true },
+          { name: "Sole Meunière (400g), Épinards & Pommes vapeur", price_cents: 4500, is_highlight: true },
+          { name: "Pavé de Saumon à la plancha, Julienne de légumes", price_cents: 2400 },
+          { name: "Le traditionnel Coq au Vin & Tagliatelles fraîches", price_cents: 2400, is_highlight: true },
+          { name: "Filet de Bœuf Français (Sauce Poivre ou Béarnaise)", price_cents: 3800 },
+          { name: "Côte de Bœuf 1.2kg (pour 2 personnes)", price_cents: 9500, is_highlight: true },
+          { name: "Risotto aux Gambas & Asperges vertes", price_cents: 2800 },
+          { name: "Suprême de Volaille jaune & Crème de Morilles", price_cents: 2900 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre onctueuse au Burret", price: "7.50€", highlight: true },
-          { name: "Pommes Grenailles sautées à l'Ail & Persil", price: "7.00€" },
-          { name: "Épinards frais à la crème de Normandie", price: "6.50€" },
-          { name: "Julienne de Légumes de saison croquants", price: "7.00€" },
-          { name: "Frites Maison double cuisson croustillantes", price: "6.00€" }
+          { name: "Purée de Pommes de Terre onctueuse au Burret", price_cents: 750, is_highlight: true },
+          { name: "Pommes Grenailles sautées à l'Ail & Persil", price_cents: 700 },
+          { name: "Épinards frais à la crème de Normandie", price_cents: 650 },
+          { name: "Julienne de Légumes de saison croquants", price_cents: 700 },
+          { name: "Frites Maison double cuisson croustillantes", price_cents: 600 }
         ]
       },
       {
-        category: "Sucré-Signature (Desserts)",
+        category_type: "dessert",
+        display_label: "Sucré-Signature (Desserts)",
         items: [
-          { name: "Tarte Tatin & sa boule de Glace Vanille", price: "14.00€", highlight: true },
-          { name: "Crème Brûlée à la Vanille de Madagascar", price: "12.00€", highlight: true },
-          { name: "Profiteroles Artisanales & Sauce Chocolat chaud", price: "14.00€", highlight: true },
-          { name: "Mousse au Chocolat à la cuillère (XXL)", price: "12.00€" },
-          { name: "Crêpes Suzette flambées au Grand Marnier", price: "15.00€", highlight: true },
-          { name: "Dessert du jour Maison", price: "11.00€" },
-          { name: "Café Gourmand (Sélection de 3 douceurs)", price: "15.00€" }
+          { name: "Tarte Tatin & sa boule de Glace Vanille", price_cents: 1400, is_highlight: true },
+          { name: "Crème Brûlée à la Vanille de Madagascar", price_cents: 1200, is_highlight: true },
+          { name: "Profiteroles Artisanales & Sauce Chocolat chaud", price_cents: 1400, is_highlight: true },
+          { name: "Mousse au Chocolat à la cuillère (XXL)", price_cents: 1200 },
+          { name: "Crêpes Suzette flambées au Grand Marnier", price_cents: 1500, is_highlight: true },
+          { name: "Dessert du jour Maison", price_cents: 1100 },
+          { name: "Café Gourmand (Sélection de 3 douceurs)", price_cents: 1500 }
         ]
       },
       {
-        category: "La Cave du Moulin (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave du Moulin (Boissons)",
         items: [
-          { name: "Verre de Vin de Pays Sélection", price: "7.50€", highlight: true },
-          { name: "Bouteille de Chablis (Domaine des Malandes)", price: "48.00€" },
-          { name: "Bouteille de Saint-Émilion Grand Cru (Cuvée Rare)", price: "95.00€", highlight: true },
-          { name: "Cocktail Spritz du Moulin au St-Germain", price: "12.00€" },
-          { name: "Jus de Fruits Artisanaux Alain Milliat", price: "7.50€" },
-          { name: "Eau micro-filtrée Moulin de la Galette (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité Terres de Café", price: "3.50€" }
+          { name: "Verre de Vin de Pays Sélection", price_cents: 750, is_highlight: true },
+          { name: "Bouteille de Chablis (Domaine des Malandes)", price_cents: 4800 },
+          { name: "Bouteille de Saint-Émilion Grand Cru (Cuvée Rare)", price_cents: 9500, is_highlight: true },
+          { name: "Cocktail Spritz du Moulin au St-Germain", price_cents: 1200 },
+          { name: "Jus de Fruits Artisanaux Alain Milliat", price_cents: 750 },
+          { name: "Eau micro-filtrée Moulin de la Galette (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité Terres de Café", price_cents: 350 }
         ]
       }
     ]

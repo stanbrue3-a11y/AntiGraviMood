@@ -45,31 +45,34 @@ export const geosmine: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Menus 'Carte Blanche' (Dégustation)",
+                category_type: "tasting_menu",
+                display_label: "Menus 'Carte Blanche' (Dégustation)",
                 items: [
-                    { name: "Menu Déjeuner 5 Temps", price: "80.00€", description: "Inspirations de saison (Du mercredi au samedi)" },
-                    { name: "Menu Déjeuner 8 Temps", price: "120.00€", description: "L'expérience prolongée du midi" },
-                    { name: "Menu Dîner 11 Étapes", price: "140.00€", description: "Le grand voyage pensé par le chef Maxime Bouttier" }
+                    { name: "Menu Déjeuner 5 Temps", price_cents: 8000, description: "Inspirations de saison (Du mercredi au samedi)" },
+                    { name: "Menu Déjeuner 8 Temps", price_cents: 12000, description: "L'expérience prolongée du midi" },
+                    { name: "Menu Dîner 11 Étapes", price_cents: 14000, description: "Le grand voyage pensé par le chef Maxime Bouttier" }
                 ]
             },
             {
-                category: "Extraits / À la carte (Selon arrivage)",
+                category_type: "other",
+                display_label: "Extraits / À la carte (Selon arrivage)",
                 items: [
-                    { name: "Tarama", price: "14.00€", description: "Oignons frits, huile d'olive vierge" },
-                    { name: "Huîtres grillées", price: "18.00€", description: "Condiment tagète et beurre noisette" },
-                    { name: "Asperges blanches", price: "24.00€", description: "Rémoulade d'algues et sabayon" },
-                    { name: "Bottoni", price: "25.00€", description: "Sauge, volaille et pistache" },
-                    { name: "Poissons d'arrivage", price: "35.00€", description: "Choux de Bruxelles, main de Bouddha et beurre blanc" },
-                    { name: "Agneau (pour 2)", price: "74.00€", description: "Pleurotes grises, coriandre, jus au sang (37€ par personne)" },
-                    { name: "Ris de veau croustillant", price: "42.00€", description: "Noisettes et jus de viande texturé" }
+                    { name: "Tarama", price_cents: 1400, description: "Oignons frits, huile d'olive vierge" },
+                    { name: "Huîtres grillées", price_cents: 1800, description: "Condiment tagète et beurre noisette" },
+                    { name: "Asperges blanches", price_cents: 2400, description: "Rémoulade d'algues et sabayon" },
+                    { name: "Bottoni", price_cents: 2500, description: "Sauge, volaille et pistache" },
+                    { name: "Poissons d'arrivage", price_cents: 3500, description: "Choux de Bruxelles, main de Bouddha et beurre blanc" },
+                    { name: "Agneau (pour 2)", price_cents: 7400, description: "Pleurotes grises, coriandre, jus au sang (37€ par personne)" },
+                    { name: "Ris de veau croustillant", price_cents: 4200, description: "Noisettes et jus de viande texturé" }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Chocolat", price: "17.00€", description: "Vanille, fleur de sel, praliné" },
-                    { name: "Agrumes de Bachès", price: "15.00€", description: "Meringue japonaise, sorbet shiso" },
-                    { name: "Dessert autour du topinambour", price: "16.00€", description: "Caramel au beurre salé et poire" }
+                    { name: "Chocolat", price_cents: 1700, description: "Vanille, fleur de sel, praliné" },
+                    { name: "Agrumes de Bachès", price_cents: 1500, description: "Meringue japonaise, sorbet shiso" },
+                    { name: "Dessert autour du topinambour", price_cents: 1600, description: "Caramel au beurre salé et poire" }
                 ]
             }
         ]

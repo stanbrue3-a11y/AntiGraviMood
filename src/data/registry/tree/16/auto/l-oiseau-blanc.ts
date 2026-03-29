@@ -41,43 +41,47 @@ export const l_oiseau_blanc: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Le Voyage Culinaire (Menus)",
+        category_type: "tasting_menu",
+        display_label: "Le Voyage Culinaire (Menus)",
         items: [
-          { name: "Menu Dégustation", price: "425€", description: "L'expérience David Bizet en 7 services face à la Tour Eiffel", highlight: true },
-          { name: "Menu Déjeuner", price: "185€", description: "Entrée, Plat, Dessert (Servi du lundi au vendredi)" },
-          { name: "Accord Mets & Vins 'Aventure'", price: "195€" },
-          { name: "Accord 'Grande Réserve'", price: "350€" }
+          { name: "Menu Dégustation", price_cents: 42500, description: "L'expérience David Bizet en 7 services face à la Tour Eiffel", is_highlight: true },
+          { name: "Menu Déjeuner", price_cents: 18500, description: "Entrée, Plat, Dessert (Servi du lundi au vendredi)" },
+          { name: "Accord Mets & Vins 'Aventure'", price_cents: 19500 },
+          { name: "Accord 'Grande Réserve'", price_cents: 35000 }
         ]
       },
       {
-        category: "Les Étapes de l'Envol",
+        category_type: "other",
+        display_label: "Les Étapes de l'Envol",
         items: [
-          { name: "Prélude Gourmand", price: "0€", description: "Série d'amuse-bouches autour des céréales" },
-          { name: "Tomate de pleine terre", price: "0€", description: "En eau glacée, herbes du jardin" },
-          { name: "Langoustine Royale", price: "0€", description: "Celle du Guilvinec, fumée et nacrée", highlight: true },
-          { name: "Turbot de ligne", price: "0€", description: "Cuit sur l'arête, condiment algues et bergamote" },
-          { name: "Bar de Petit Bateau", price: "0€", description: "Écailles croustillantes, jus de coquillages" },
-          { name: "Poulet de Bresse en deux services", price: "0€", description: "La signature du chef, cuit au foin", highlight: true },
-          { name: "Ris de Veau de Lait", price: "0€", description: "Laqué au réglisse, déclinaison de carottes" }
+          { name: "Prélude Gourmand", price_cents: 0, description: "Série d'amuse-bouches autour des céréales" },
+          { name: "Tomate de pleine terre", price_cents: 0, description: "En eau glacée, herbes du jardin" },
+          { name: "Langoustine Royale", price_cents: 0, description: "Celle du Guilvinec, fumée et nacrée", is_highlight: true },
+          { name: "Turbot de ligne", price_cents: 0, description: "Cuit sur l'arête, condiment algues et bergamote" },
+          { name: "Bar de Petit Bateau", price_cents: 0, description: "Écailles croustillantes, jus de coquillages" },
+          { name: "Poulet de Bresse en deux services", price_cents: 0, description: "La signature du chef, cuit au foin", is_highlight: true },
+          { name: "Ris de Veau de Lait", price_cents: 0, description: "Laqué au réglisse, déclinaison de carottes" }
         ]
       },
       {
-        category: "Final & Douceurs",
+        category_type: "dessert",
+        display_label: "Final & Douceurs",
         items: [
-          { name: "Fromages Affinés", price: "35€", description: "Sélection de la maison Quatrehomme" },
-          { name: "L'Oiseau Blanc au Chocolat", price: "0€", description: "Dessert signature rendant hommage à l'aviation", highlight: true },
-          { name: "Riz au Lait & Caramel", price: "0€", description: "Le souvenir d'enfance réinventé" },
-          { name: "Mignardises de l'Atelier", price: "0€" }
+          { name: "Fromages Affinés", price_cents: 3500, description: "Sélection de la maison Quatrehomme" },
+          { name: "L'Oiseau Blanc au Chocolat", price_cents: 0, description: "Dessert signature rendant hommage à l'aviation", is_highlight: true },
+          { name: "Riz au Lait & Caramel", price_cents: 0, description: "Le souvenir d'enfance réinventé" },
+          { name: "Mignardises de l'Atelier", price_cents: 0 }
         ]
       },
       {
-        category: "Cave & Cocktails",
+        category_type: "drink",
+        display_label: "Cave & Cocktails",
         items: [
-          { name: "Coupe de Champagne Peninsula", price: "32€" },
-          { name: "Cocktail 'Kléber 1927'", price: "28€" },
-          { name: "Bouteille de Puligny-Montrachet", price: "210€" },
-          { name: "Eau Minérale (75cl)", price: "12€" },
-          { name: "Expresso Pur Origine", price: "10€" }
+          { name: "Coupe de Champagne Peninsula", price_cents: 3200 },
+          { name: "Cocktail 'Kléber 1927'", price_cents: 2800 },
+          { name: "Bouteille de Puligny-Montrachet", price_cents: 21000 },
+          { name: "Eau Minérale (75cl)", price_cents: 1200 },
+          { name: "Expresso Pur Origine", price_cents: 1000 }
         ]
       }
     ]

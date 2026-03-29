@@ -42,62 +42,67 @@ export const le_mazette: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Street Food du Pont (Plats)",
+        category_type: "main",
+        display_label: "Street Food du Pont (Plats)",
         items: [
-          { name: "Mazette Burger (Boeuf, cheddar, oignons)", price: "14.50€", highlight: true },
-          { name: "Beyond Meat Burger (Végétarien)", price: "15.00€" },
-          { name: "Tacos Poulet Tinga (x3)", price: "12.00€", highlight: true },
-          { name: "Tacos Al Pastor (Porc & Ananas)", price: "12.50€" },
-          { name: "Hot Dog Gérant (Saucisse fumée)", price: "9.50€" },
-          { name: "Fish & Chips de la Seine", price: "16.00€" },
-          { name: "Pizza Scudetto (Marguerita)", price: "13.00€" },
-          { name: "Pizza Spicy (Salami piquante)", price: "15.00€" }
+          { name: "Mazette Burger (Boeuf, cheddar, oignons)", price_cents: 1450, is_highlight: true },
+          { name: "Beyond Meat Burger (Végétarien)", price_cents: 1500 },
+          { name: "Tacos Poulet Tinga (x3)", price_cents: 1200, is_highlight: true },
+          { name: "Tacos Al Pastor (Porc & Ananas)", price_cents: 1250 },
+          { name: "Hot Dog Gérant (Saucisse fumée)", price_cents: 950 },
+          { name: "Fish & Chips de la Seine", price_cents: 1600 },
+          { name: "Pizza Scudetto (Marguerita)", price_cents: 1300 },
+          { name: "Pizza Spicy (Salami piquante)", price_cents: 1500 }
         ]
       },
       {
-        category: "Finger Food & Partage (Entrées)",
+        category_type: "starter",
+        display_label: "Finger Food & Partage (Entrées)",
         items: [
-          { name: "Frites Maison (Double cuisson)", price: "5.50€" },
-          { name: "Frites au Parmesan & Truffe", price: "8.50€", highlight: true },
-          { name: "Nachos y Guacamole maison", price: "10.00€" },
-          { name: "Tenders de Poulet croustillants", price: "11.00€" },
-          { name: "Houmous au Zaatar & Pain Pita", price: "8.00€" },
-          { name: "Planche de Charcuteries fines", price: "18.00€" },
-          { name: "Planche de Fromages AOP", price: "17.00€" },
-          { name: "Assiette de Falafels (x6)", price: "9.00€" }
+          { name: "Frites Maison (Double cuisson)", price_cents: 550 },
+          { name: "Frites au Parmesan & Truffe", price_cents: 850, is_highlight: true },
+          { name: "Nachos y Guacamole maison", price_cents: 1000 },
+          { name: "Tenders de Poulet croustillants", price_cents: 1100 },
+          { name: "Houmous au Zaatar & Pain Pita", price_cents: 800 },
+          { name: "Planche de Charcuteries fines", price_cents: 1800 },
+          { name: "Planche de Fromages AOP", price_cents: 1700 },
+          { name: "Assiette de Falafels (x6)", price_cents: 900 }
         ]
       },
       {
-        category: "Pression & Craft Beers (Boissons)",
+        category_type: "drink",
+        display_label: "Pression & Craft Beers (Boissons)",
         items: [
-          { name: "Pinte Mazette Lager (4.5%)", price: "8.50€", highlight: true },
-          { name: "Pinte IPA Locale (La Goutte d'Or)", price: "9.50€" },
-          { name: "Pinte Blanche (Wheat Beer)", price: "9.00€" },
-          { name: "Demi Lager", price: "5.00€" },
-          { name: "Bouteille Craft Saison (33cl)", price: "7.50€" },
-          { name: "Cidre Artisanal (Pinte)", price: "8.50€" }
+          { name: "Pinte Mazette Lager (4.5%)", price_cents: 850, is_highlight: true },
+          { name: "Pinte IPA Locale (La Goutte d'Or)", price_cents: 950 },
+          { name: "Pinte Blanche (Wheat Beer)", price_cents: 900 },
+          { name: "Demi Lager", price_cents: 500 },
+          { name: "Bouteille Craft Saison (33cl)", price_cents: 750 },
+          { name: "Cidre Artisanal (Pinte)", price_cents: 850 }
         ]
       },
       {
-        category: "Cocktails de Scène (Boissons)",
+        category_type: "drink",
+        display_label: "Cocktails de Scène (Boissons)",
         items: [
-          { name: "Moscow Mule Signature", price: "12.00€", highlight: true },
-          { name: "Spritz Aperol (Format XXL)", price: "11.00€" },
-          { name: "Dark & Stormy", price: "12.50€" },
-          { name: "Gin Tonic (Arduenna Gin)", price: "13.00€" },
-          { name: "Mocktail 'Sunny Boat'", price: "9.00€" },
-          { name: "Shot de Tequila / Mezcal", price: "6.00€" }
+          { name: "Moscow Mule Signature", price_cents: 1200, is_highlight: true },
+          { name: "Spritz Aperol (Format XXL)", price_cents: 1100 },
+          { name: "Dark & Stormy", price_cents: 1250 },
+          { name: "Gin Tonic (Arduenna Gin)", price_cents: 1300 },
+          { name: "Mocktail 'Sunny Boat'", price_cents: 900 },
+          { name: "Shot de Tequila / Mezcal", price_cents: 600 }
         ]
       },
       {
-        category: "Softs & Énergie (Boissons)",
+        category_type: "drink",
+        display_label: "Softs & Énergie (Boissons)",
         items: [
-          { name: "Cola Artisanal (33cl)", price: "5.50€" },
-          { name: "Limonade Maison", price: "5.00€" },
-          { name: "Jus d'Orange pressé", price: "6.00€" },
-          { name: "Eau Minérale (50cl)", price: "4.50€" },
-          { name: "Café Espresso", price: "2.50€" },
-          { name: "Thé Glacé Maison (Pêche/Mate)", price: "6.50€" }
+          { name: "Cola Artisanal (33cl)", price_cents: 550 },
+          { name: "Limonade Maison", price_cents: 500 },
+          { name: "Jus d'Orange pressé", price_cents: 600 },
+          { name: "Eau Minérale (50cl)", price_cents: 450 },
+          { name: "Café Espresso", price_cents: 250 },
+          { name: "Thé Glacé Maison (Pêche/Mate)", price_cents: 650 }
         ]
       }
     ]

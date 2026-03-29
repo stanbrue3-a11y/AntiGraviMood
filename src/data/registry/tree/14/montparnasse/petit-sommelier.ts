@@ -40,38 +40,41 @@ export const petitSommelier: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Entrées du Sommelier",
+                category_type: "starter",
+                display_label: "Entrées du Sommelier",
                 items: [
-                    { name: "Pâté en Croûte Maison (Cochon, Veau, Boudin Noir)", price: "16.90€" },
-                    { name: "Foie Gras de Canard Marbré", price: "22.90€" },
-                    { name: "6 Huîtres N°3 Joël Dupuch (Arcachon)", price: "19.90€" },
-                    { name: "Planche du Petit Sommelier (Charcuteries fines)", price: "14.90€" },
-                    { name: "Saumon Label Rouge Gravlax à l'aneth", price: "11.90€" },
-                    { name: "Os à Moelle Gratinée", price: "13.50€" },
-                    { name: "Cuisses de Grenouilles en Fricassée", price: "14.90€" }
+                    { name: "Pâté en Croûte Maison (Cochon, Veau, Boudin Noir)", price_cents: 1690 },
+                    { name: "Foie Gras de Canard Marbré", price_cents: 2290 },
+                    { name: "6 Huîtres N°3 Joël Dupuch (Arcachon)", price_cents: 1990 },
+                    { name: "Planche du Petit Sommelier (Charcuteries fines)", price_cents: 1490 },
+                    { name: "Saumon Label Rouge Gravlax à l'aneth", price_cents: 1190 },
+                    { name: "Os à Moelle Gratinée", price_cents: 1350 },
+                    { name: "Cuisses de Grenouilles en Fricassée", price_cents: 1490 }
                 ]
             },
             {
-                category: "Les Plats de Tradition",
+                category_type: "main",
+                display_label: "Les Plats de Tradition",
                 items: [
-                    { name: "Le Boeuf Bourguignon Grande Tradition (12h de cuisson)", price: "24.90€" },
-                    { name: "Ris de Veau aux Trompettes de la Mort", price: "55.00€" },
-                    { name: "Poulpe Grillé à la Plancha, Riz Noir", price: "26.90€" },
-                    { name: "Vol-au-Vent de Pintade Fermière au Vin Jaune", price: "22.90€" },
-                    { name: "Tartare de Boeuf au couteau, frites fraîches", price: "21.90€" },
-                    { name: "Entrecôte Aberdeen Angus (Argentine)", price: "39.90€" },
-                    { name: "Côte de Boeuf Normande (pour 2, ~1.2kg)", price: "110.00€" },
-                    { name: "Pêche du jour confite à l'huile d'olive", price: "22.90€" }
+                    { name: "Le Boeuf Bourguignon Grande Tradition (12h de cuisson)", price_cents: 2490 },
+                    { name: "Ris de Veau aux Trompettes de la Mort", price_cents: 5500 },
+                    { name: "Poulpe Grillé à la Plancha, Riz Noir", price_cents: 2690 },
+                    { name: "Vol-au-Vent de Pintade Fermière au Vin Jaune", price_cents: 2290 },
+                    { name: "Tartare de Boeuf au couteau, frites fraîches", price_cents: 2190 },
+                    { name: "Entrecôte Aberdeen Angus (Argentine)", price_cents: 3990 },
+                    { name: "Côte de Boeuf Normande (pour 2, ~1.2kg)", price_cents: 11000 },
+                    { name: "Pêche du jour confite à l'huile d'olive", price_cents: 2290 }
                 ]
             },
             {
-                category: "Final en Douceur",
+                category_type: "dessert",
+                display_label: "Final en Douceur",
                 items: [
-                    { name: "Millefeuille Érable et Fleur d'Oranger", price: "13.90€" },
-                    { name: "Baba au Rhum Traditionnel", price: "12.90€" },
-                    { name: "Crème Brûlée Sauge & Passion", price: "12.90€" },
-                    { name: "Mousse Chocolat Liégeois au miel", price: "12.90€" },
-                    { name: "Assiette de Fromages Affinés", price: "18.90€" }
+                    { name: "Millefeuille Érable et Fleur d'Oranger", price_cents: 1390 },
+                    { name: "Baba au Rhum Traditionnel", price_cents: 1290 },
+                    { name: "Crème Brûlée Sauge & Passion", price_cents: 1290 },
+                    { name: "Mousse Chocolat Liégeois au miel", price_cents: 1290 },
+                    { name: "Assiette de Fromages Affinés", price_cents: 1890 }
                 ]
             }
         ]

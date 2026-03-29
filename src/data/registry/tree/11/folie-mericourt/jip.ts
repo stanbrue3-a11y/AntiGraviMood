@@ -45,26 +45,28 @@ export const jip: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Jip 2025 Standard (Franco-Korean Tasting)
             {
-                category: "Formule Unique (Weekly Rotation)",
+                category_type: "tasting_menu",
+                display_label: "Formule Unique (Weekly Rotation)",
                 items: [
-                    { name: "Menu Jip (3 temps)", price: "35.00€", description: "Entrée, Plat, Dessert (Finition Franco-Coréenne)." },
-                    { name: "Option Dessert supplémentaire", price: "8.00€" }
+                    { name: "Menu Jip (3 temps)", price_cents: 3500, description: "Entrée, Plat, Dessert (Finition Franco-Coréenne)." },
+                    { name: "Option Dessert supplémentaire", price_cents: 800 }
                 ]
             },
             {
-                category: "Exemples de Saveurs (Chef Esu Lee)",
+                category_type: "other",
+                display_label: "Exemples de Saveurs (Chef Esu Lee)",
                 items: [
-                    { name: "Bibimbap revisité (Saison)", price: "Inclus", description: "Technique française, ingrédients coréens." },
-                    { name: "Bouillon de seiche & Kimchi blanc", price: "Inclus" },
-                    { name: "Porc Kurobuta snacké au feu", price: "Inclus" },
-                    { name: "Sashimi de poisson blanc, Gochujang & prune", price: "Inclus" },
-                    { name: "Mandu (raviolis) Champignon & patate douce", price: "Inclus" },
-                    { name: "Noodles style Tteokbokki, crème Parmesan", price: "Inclus" },
-                    { name: "Champignons Eryngii, piment Jalapeño & béarnaise", price: "Inclus" },
-                    { name: "Ragoût de poulpe & sabayon oignon nouveau", price: "Inclus" },
-                    { name: "Pâtes Jjajangmyeon au bœuf & épinards", price: "Inclus" },
-                    { name: "Ganache Sésame Noir & Miso", price: "Inclus" },
-                    { name: "Sorbet Mandarine & perles de Tapioca", price: "Inclus" }
+                    { name: "Bibimbap revisité (Saison)", price_cents: 0, description: "Technique française, ingrédients coréens." },
+                    { name: "Bouillon de seiche & Kimchi blanc", price_cents: 0 },
+                    { name: "Porc Kurobuta snacké au feu", price_cents: 0 },
+                    { name: "Sashimi de poisson blanc, Gochujang & prune", price_cents: 0 },
+                    { name: "Mandu (raviolis) Champignon & patate douce", price_cents: 0 },
+                    { name: "Noodles style Tteokbokki, crème Parmesan", price_cents: 0 },
+                    { name: "Champignons Eryngii, piment Jalapeño & béarnaise", price_cents: 0 },
+                    { name: "Ragoût de poulpe & sabayon oignon nouveau", price_cents: 0 },
+                    { name: "Pâtes Jjajangmyeon au bœuf & épinards", price_cents: 0 },
+                    { name: "Ganache Sésame Noir & Miso", price_cents: 0 },
+                    { name: "Sorbet Mandarine & perles de Tapioca", price_cents: 0 }
                 ]
             }
         ]

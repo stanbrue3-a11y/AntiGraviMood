@@ -43,62 +43,67 @@ export const neige_d_ete: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Signatures & Éveil des Sens (Entrées)",
+        category_type: "starter",
+        display_label: "Signatures & Éveil des Sens (Entrées)",
         items: [
-          { name: "Carpaccio de Saint-Jacques à la Truffe noire", price: "0.00€", highlight: true },
-          { name: "Foie gras de canard poêlé & Vinaigrette Yuzu", price: "0.00€", highlight: true },
-          { name: "Tartare de Bœuf au Caviar Osciètre", price: "0.00€" },
-          { name: "Velouté de Topinambour & Éclats de Foie gras", price: "0.00€" },
-          { name: "Ormeaux sauvages à la japonaise (Dashi)", price: "0.00€", highlight: true },
-          { name: "Gambas de Palamos snackées, sel fumé", price: "0.00€" },
-          { name: "Bouillon Dashi raffiné aux herbes folles", price: "0.00€" },
-          { name: "Gyoza de Homard Bleu artisanaux (x3)", price: "0.00€" }
+          { name: "Carpaccio de Saint-Jacques à la Truffe noire", price_cents: 0, is_highlight: true },
+          { name: "Foie gras de canard poêlé & Vinaigrette Yuzu", price_cents: 0, is_highlight: true },
+          { name: "Tartare de Bœuf au Caviar Osciètre", price_cents: 0 },
+          { name: "Velouté de Topinambour & Éclats de Foie gras", price_cents: 0 },
+          { name: "Ormeaux sauvages à la japonaise (Dashi)", price_cents: 0, is_highlight: true },
+          { name: "Gambas de Palamos snackées, sel fumé", price_cents: 0 },
+          { name: "Bouillon Dashi raffiné aux herbes folles", price_cents: 0 },
+          { name: "Gyoza de Homard Bleu artisanaux (x3)", price_cents: 0 }
         ]
       },
       {
-        category: "Haute Mer & Terre (Plats)",
+        category_type: "main",
+        display_label: "Haute Mer & Terre (Plats)",
         items: [
-          { name: "Homard Bleu de casier rôti à la Citronnelle", price: "0.00€", highlight: true },
-          { name: "Turbot sauvage étuvé aux Algues Kombu", price: "0.00€", highlight: true },
-          { name: "Pigeon de Vendée rôti sur le coffre", price: "0.00€", highlight: true },
-          { name: "Filet de Bœuf Limousin fumé au foin", price: "0.00€" },
-          { name: "Ris de Veau doré, laqué au soja & mirin", price: "0.00€" },
-          { name: "Canard de Challans aux épices fines", price: "0.00€" },
-          { name: "Lotte rôtie & Émulsion de Coquillages", price: "0.00€" },
-          { name: "Omble Chevalier de nos lacs, Sauce vin blanc", price: "0.00€" }
+          { name: "Homard Bleu de casier rôti à la Citronnelle", price_cents: 0, is_highlight: true },
+          { name: "Turbot sauvage étuvé aux Algues Kombu", price_cents: 0, is_highlight: true },
+          { name: "Pigeon de Vendée rôti sur le coffre", price_cents: 0, is_highlight: true },
+          { name: "Filet de Bœuf Limousin fumé au foin", price_cents: 0 },
+          { name: "Ris de Veau doré, laqué au soja & mirin", price_cents: 0 },
+          { name: "Canard de Challans aux épices fines", price_cents: 0 },
+          { name: "Lotte rôtie & Émulsion de Coquillages", price_cents: 0 },
+          { name: "Omble Chevalier de nos lacs, Sauce vin blanc", price_cents: 0 }
         ]
       },
       {
-        category: "Accompagner l'Instant (Plats)",
+        category_type: "main",
+        display_label: "Accompagner l'Instant (Plats)",
         items: [
-          { name: "Purée de Céleri-rave onctueuse", price: "0.00€", highlight: true },
-          { name: "Légumes racines glacés au jus de viande", price: "0.00€" },
-          { name: "Riz Niigata sélectionné par le Chef", price: "0.00€" },
-          { name: "Émulsion légère au Beurre de Kombu", price: "0.00€" },
-          { name: "Pickles de Daikon fait maison", price: "0.00€" }
+          { name: "Purée de Céleri-rave onctueuse", price_cents: 0, is_highlight: true },
+          { name: "Légumes racines glacés au jus de viande", price_cents: 0 },
+          { name: "Riz Niigata sélectionné par le Chef", price_cents: 0 },
+          { name: "Émulsion légère au Beurre de Kombu", price_cents: 0 },
+          { name: "Pickles de Daikon fait maison", price_cents: 0 }
         ]
       },
       {
-        category: "Douceurs Délicates (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs Délicates (Desserts)",
         items: [
-          { name: "Soufflé minute au Grand Marnier", price: "0.00€", highlight: true },
-          { name: "Tartelette Chocolat noir & Sésame noir", price: "0.00€" },
-          { name: "Sorbet Shiso & Citron vert", price: "0.00€", highlight: true },
-          { name: "Fraises des bois & Rhubarbe croquante", price: "0.00€" },
-          { name: "Glace au Thé Hojicha fumé", price: "0.00€" },
-          { name: "Financier tiède à la Noisette du Piémont", price: "0.00€" }
+          { name: "Soufflé minute au Grand Marnier", price_cents: 0, is_highlight: true },
+          { name: "Tartelette Chocolat noir & Sésame noir", price_cents: 0 },
+          { name: "Sorbet Shiso & Citron vert", price_cents: 0, is_highlight: true },
+          { name: "Fraises des bois & Rhubarbe croquante", price_cents: 0 },
+          { name: "Glace au Thé Hojicha fumé", price_cents: 0 },
+          { name: "Financier tiède à la Noisette du Piémont", price_cents: 0 }
         ]
       },
       {
-        category: "Sélection de la Sommelière (Boissons)",
+        category_type: "drink",
+        display_label: "Sélection de la Sommelière (Boissons)",
         items: [
-          { name: "Coupe de Champagne Duval-Leroy 'Prestige'", price: "18.00€", highlight: true },
-          { name: "Verre de Chablis 1er Cru 'Montmains'", price: "16.00€" },
-          { name: "Bouteille Margaux Château Palmer (Sélection)", price: "240.00€" },
-          { name: "Saké Junmai Daiginjo 'HeavenSake'", price: "14.50€", highlight: true },
-          { name: "Thé Matcha de cérémonie préparé minute", price: "9.50€" },
-          { name: "Infusion de Gingembre frais & Miel", price: "7.00€" },
-          { name: "Eau minérale premium (75cl)", price: "6.00€" }
+          { name: "Coupe de Champagne Duval-Leroy 'Prestige'", price_cents: 1800, is_highlight: true },
+          { name: "Verre de Chablis 1er Cru 'Montmains'", price_cents: 1600 },
+          { name: "Bouteille Margaux Château Palmer (Sélection)", price_cents: 24000 },
+          { name: "Saké Junmai Daiginjo 'HeavenSake'", price_cents: 1450, is_highlight: true },
+          { name: "Thé Matcha de cérémonie préparé minute", price_cents: 950 },
+          { name: "Infusion de Gingembre frais & Miel", price_cents: 700 },
+          { name: "Eau minérale premium (75cl)", price_cents: 600 }
         ]
       }
     ]

@@ -42,41 +42,45 @@ export const sukhothai: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Curry & Wok",
+        category_type: "main",
+        display_label: "Les Plats : Curry & Wok",
         items: [
-          { name: "Curry vert au lait de coco", price: "12.90€" },
-          { name: "Poulet au Curry Massaman", price: "15.90€" },
-          { name: "Pad Thaï aux crevettes", price: "16.00€" },
-          { name: "Bœuf grillé sauce épicée", price: "18.00€" },
-          { name: "Poulet sauté au basilic", price: "14.50€" },
-          { name: "Canard au curry rouge", price: "14.00€" }
+          { name: "Curry vert au lait de coco", price_cents: 1290 },
+          { name: "Poulet au Curry Massaman", price_cents: 1590 },
+          { name: "Pad Thaï aux crevettes", price_cents: 1600 },
+          { name: "Bœuf grillé sauce épicée", price_cents: 1800 },
+          { name: "Poulet sauté au basilic", price_cents: 1450 },
+          { name: "Canard au curry rouge", price_cents: 1400 }
         ]
       },
       {
-        category: "Entrées : Salades & Fritures",
+        category_type: "starter",
+        display_label: "Entrées : Salades & Fritures",
         items: [
-          { name: "Salade de papaye verte", price: "11.00€" },
-          { name: "Nems thaï végétariens", price: "9.00€" },
-          { name: "Salade de bœuf épicé (Laab)", price: "13.00€" },
-          { name: "Brochettes de poulet Satay", price: "12.90€" },
-          { name: "Soupe de Crevettes Lemon-grass", price: "9.90€" }
+          { name: "Salade de papaye verte", price_cents: 1100 },
+          { name: "Nems thaï végétariens", price_cents: 900 },
+          { name: "Salade de bœuf épicé (Laab)", price_cents: 1300 },
+          { name: "Brochettes de poulet Satay", price_cents: 1290 },
+          { name: "Soupe de Crevettes Lemon-grass", price_cents: 990 }
         ]
       },
       {
-        category: "Douceurs : Thaï Desserts",
+        category_type: "dessert",
+        display_label: "Douceurs : Thaï Desserts",
         items: [
-          { name: "Riz gluant à la mangue fraiche", price: "9.50€" },
-          { name: "Flan thaï au lait de coco", price: "6.50€" },
-          { name: "Perles de coco à la vapeur", price: "6.00€" }
+          { name: "Riz gluant à la mangue fraiche", price_cents: 950 },
+          { name: "Flan thaï au lait de coco", price_cents: 650 },
+          { name: "Perles de coco à la vapeur", price_cents: 600 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Bière Singha (33cl)", price: "6.00€" },
-          { name: "Thé glacé thaï maison", price: "5.00€" },
-          { name: "Jus de coco frais", price: "5.50€" },
-          { name: "Infusion citronnelle", price: "4.50€" }
+          { name: "Bière Singha (33cl)", price_cents: 600 },
+          { name: "Thé glacé thaï maison", price_cents: 500 },
+          { name: "Jus de coco frais", price_cents: 550 },
+          { name: "Infusion citronnelle", price_cents: 450 }
         ]
       }
     ]

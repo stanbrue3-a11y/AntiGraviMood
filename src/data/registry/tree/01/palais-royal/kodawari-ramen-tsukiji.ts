@@ -39,42 +39,46 @@ export const kodawari_ramen_tsukiji: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Entrées de la Criée",
+        category_type: "starter",
+        display_label: "Entrées de la Criée",
         items: [
-          { name: "Namero de féra du Lac Léman", price: "9.50€", description: "Haché de poisson frais, miso, gingembre" },
-          { name: "Gyoza Kodawari de la mer (x5)", price: "9.00€" },
-          { name: "Edamame au sel de mer d'Okinawa", price: "5.50€" },
-          { name: "Sashimi de Dorade Royale", price: "12.00€" },
-          { name: "Crabe en mue croustillant", price: "11.50€" }
+          { name: "Namero de féra du Lac Léman", price_cents: 950, description: "Haché de poisson frais, miso, gingembre" },
+          { name: "Gyoza Kodawari de la mer (x5)", price_cents: 900 },
+          { name: "Edamame au sel de mer d'Okinawa", price_cents: 550 },
+          { name: "Sashimi de Dorade Royale", price_cents: 1200 },
+          { name: "Crabe en mue croustillant", price_cents: 1150 }
         ]
       },
       {
-        category: "Ramen Signature (Bouillons de Mer)",
+        category_type: "other",
+        display_label: "Ramen Signature (Bouillons de Mer)",
         items: [
-          { name: "Paitan de Dorade Royale", price: "16.50€", description: "Bouillon épais et crémeux de dorade, chashu de poulet" },
-          { name: "Shio de Dorade Royale", price: "15.50€", description: "Bouillon clair, finesse marine" },
-          { name: "Sardine Bomb (Niboshi)", price: "18.00€", description: "Bouillon intense à la sardine de Bretagne" },
-          { name: "Ramen de Homard (Spécial)", price: "24.00€" },
-          { name: "Abura Soba de la mer (sans bouillon)", price: "17.00€" },
-          { name: "Ramen Végétalien aux algues", price: "15.00€" }
+          { name: "Paitan de Dorade Royale", price_cents: 1650, description: "Bouillon épais et crémeux de dorade, chashu de poulet" },
+          { name: "Shio de Dorade Royale", price_cents: 1550, description: "Bouillon clair, finesse marine" },
+          { name: "Sardine Bomb (Niboshi)", price_cents: 1800, description: "Bouillon intense à la sardine de Bretagne" },
+          { name: "Ramen de Homard (Spécial)", price_cents: 2400 },
+          { name: "Abura Soba de la mer (sans bouillon)", price_cents: 1700 },
+          { name: "Ramen Végétalien aux algues", price_cents: 1500 }
         ]
       },
       {
-        category: "Suppléments & Toppings",
+        category_type: "other",
+        display_label: "Suppléments & Toppings",
         items: [
-          { name: "Extra Ajitama (Œuf mollet mariné)", price: "2.50€" },
-          { name: "Extra Chashu de porc Label Rouge", price: "4.00€" }
+          { name: "Extra Ajitama (Œuf mollet mariné)", price_cents: 250 },
+          { name: "Extra Chashu de porc Label Rouge", price_cents: 400 }
         ]
       },
       {
-        category: "Douceurs Marine & Japonaises",
+        category_type: "dessert",
+        display_label: "Douceurs Marine & Japonaises",
         items: [
-          { name: "Taiyaki au haricot rouge Azuki", price: "7.50€", description: "Gaufre en forme de poisson, un classique" },
-          { name: "Cheesecake au Thé Vert Matcha & Framboise", price: "8.50€" },
-          { name: "Daifuku du moment (Mochi artisanal)", price: "6.00€" },
-          { name: "Gelée de Yuzu rafraîchissante", price: "6.50€" },
-          { name: "Crème brûlée au Sésame Noir", price: "8.00€" },
-          { name: "Taiyaki Glacé (Vanille / Matcha)", price: "9.00€" }
+          { name: "Taiyaki au haricot rouge Azuki", price_cents: 750, description: "Gaufre en forme de poisson, un classique" },
+          { name: "Cheesecake au Thé Vert Matcha & Framboise", price_cents: 850 },
+          { name: "Daifuku du moment (Mochi artisanal)", price_cents: 600 },
+          { name: "Gelée de Yuzu rafraîchissante", price_cents: 650 },
+          { name: "Crème brûlée au Sésame Noir", price_cents: 800 },
+          { name: "Taiyaki Glacé (Vanille / Matcha)", price_cents: 900 }
         ]
       }
     ]

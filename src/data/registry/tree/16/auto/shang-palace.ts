@@ -41,41 +41,45 @@ export const shang_palace: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Dégustation",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Dégustation",
         items: [
-          { name: "Menu Émeraude", price: "178€", description: "Le parcours classique du chef Tony Xu", highlight: true },
-          { name: "Menu Découverte (Midi)", price: "88€", description: "Une introduction à la haute cuisine cantonaise" },
-          { name: "Menu Dégustation Signature", price: "248€", description: "Le sommet de la gastronomie de Hong Kong à Paris" }
+          { name: "Menu Émeraude", price_cents: 17800, description: "Le parcours classique du chef Tony Xu", is_highlight: true },
+          { name: "Menu Découverte (Midi)", price_cents: 8800, description: "Une introduction à la haute cuisine cantonaise" },
+          { name: "Menu Dégustation Signature", price_cents: 24800, description: "Le sommet de la gastronomie de Hong Kong à Paris" }
         ]
       },
       {
-        category: "Spécialités Cantonaises (Dim Sum & Rôtisserie)",
+        category_type: "other",
+        display_label: "Spécialités Cantonaises (Dim Sum & Rôtisserie)",
         items: [
-          { name: "Canard Laqué à la Pékinoise", price: "168€", description: "En deux services (Peau croustillante puis chair sautée)", highlight: true },
-          { name: "Siu Mai au Porc & Crevettes", price: "18€", description: "Vapeurs artisanales d'une finesse rare" },
-          { name: "Ha Kao (Crevettes)", price: "20€" },
-          { name: "Bao au Porc Laqué", price: "16€" },
-          { name: "Travers de Porc au Miel", price: "32€", description: "Rôtis à la perfection" }
+          { name: "Canard Laqué à la Pékinoise", price_cents: 16800, description: "En deux services (Peau croustillante puis chair sautée)", is_highlight: true },
+          { name: "Siu Mai au Porc & Crevettes", price_cents: 1800, description: "Vapeurs artisanales d'une finesse rare" },
+          { name: "Ha Kao (Crevettes)", price_cents: 2000 },
+          { name: "Bao au Porc Laqué", price_cents: 1600 },
+          { name: "Travers de Porc au Miel", price_cents: 3200, description: "Rôtis à la perfection" }
         ]
       },
       {
-        category: "Plats de Signature",
+        category_type: "main",
+        display_label: "Plats de Signature",
         items: [
-          { name: "Crevettes impériales sautées", price: "48€", description: "À la sauce XO maison" },
-          { name: "Filet de Bœuf au Poivre Noir", price: "52€" },
-          { name: "Riz Sauté à la Cantonaise", price: "28€", description: "Le classique, version palace" },
-          { name: "Légumes de Saison sautés à l'ail", price: "24€" }
+          { name: "Crevettes impériales sautées", price_cents: 4800, description: "À la sauce XO maison" },
+          { name: "Filet de Bœuf au Poivre Noir", price_cents: 5200 },
+          { name: "Riz Sauté à la Cantonaise", price_cents: 2800, description: "Le classique, version palace" },
+          { name: "Légumes de Saison sautés à l'ail", price_cents: 2400 }
         ]
       },
       {
-        category: "Cave à Thés & Boissons",
+        category_type: "drink",
+        display_label: "Cave à Thés & Boissons",
         items: [
-          { name: "Thé Pu-Erh Millésimé", price: "25€", description: "Le digestif parfait pour la cuisine grasse" },
-          { name: "Thé Oolong de Haute Montagne", price: "18€" },
-          { name: "Verre de Riesling 'Trimbach'", price: "22€" },
-          { name: "Cocktail 'Jardin d'Iéna'", price: "26€" },
-          { name: "Eau Minérale (75cl)", price: "12€" },
-          { name: "Café de Tradition", price: "10€" }
+          { name: "Thé Pu-Erh Millésimé", price_cents: 2500, description: "Le digestif parfait pour la cuisine grasse" },
+          { name: "Thé Oolong de Haute Montagne", price_cents: 1800 },
+          { name: "Verre de Riesling 'Trimbach'", price_cents: 2200 },
+          { name: "Cocktail 'Jardin d'Iéna'", price_cents: 2600 },
+          { name: "Eau Minérale (75cl)", price_cents: 1200 },
+          { name: "Café de Tradition", price_cents: 1000 }
         ]
       }
     ]

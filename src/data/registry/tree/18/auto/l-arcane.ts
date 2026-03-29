@@ -43,63 +43,68 @@ export const l_arcane: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes de l'Arcane (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes de l'Arcane (Entrées)",
         items: [
-          { name: "Œuf à 63°, Asperges & Effilochée de Tourteau", price: "0.00€", highlight: true },
-          { name: "Saumon juste nacré, Émulsion Citronnelle & Gingembre", price: "0.00€", highlight: true },
-          { name: "Surprise de Tomate, Burrata & Gaspacho Noire de Crimée", price: "0.00€" },
-          { name: "Cromesquis d'Artichaut & Crème de Truffe", price: "0.00€", highlight: true },
-          { name: "Carpaccio de Saint-Jacques au Yuzu & Radis noir", price: "0.00€" },
-          { name: "Velouté de Topinambours & Éclats de Noisettes", price: "0.00€" },
-          { name: "Ravioles de Foie Gras de Canard & Bouillon au Bois", price: "0.00€", highlight: true },
-          { name: "Asperges Vertes & Sabayon aux Agrumes", price: "0.00€" }
+          { name: "Œuf à 63°, Asperges & Effilochée de Tourteau", price_cents: 0, is_highlight: true },
+          { name: "Saumon juste nacré, Émulsion Citronnelle & Gingembre", price_cents: 0, is_highlight: true },
+          { name: "Surprise de Tomate, Burrata & Gaspacho Noire de Crimée", price_cents: 0 },
+          { name: "Cromesquis d'Artichaut & Crème de Truffe", price_cents: 0, is_highlight: true },
+          { name: "Carpaccio de Saint-Jacques au Yuzu & Radis noir", price_cents: 0 },
+          { name: "Velouté de Topinambours & Éclats de Noisettes", price_cents: 0 },
+          { name: "Ravioles de Foie Gras de Canard & Bouillon au Bois", price_cents: 0, is_highlight: true },
+          { name: "Asperges Vertes & Sabayon aux Agrumes", price_cents: 0 }
         ]
       },
       {
-        category: "Séquences Gastronomiques (Plats)",
+        category_type: "main",
+        display_label: "Séquences Gastronomiques (Plats)",
         items: [
-          { name: "Caille d'Anjou rôtie & Petits pois à la française", price: "0.00€", highlight: true },
-          { name: "Lapin de Vendée, Jeunes poireaux & Polenta crémeuse", price: "0.00€", highlight: true },
-          { name: "Chaud-froid de Black Angus & Girolles d'été", price: "0.00€" },
-          { name: "Canard de Challans rôti au sang & Betteraves", price: "0.00€", highlight: true },
-          { name: "Saint-Pierre de ligne, Fenouil confit & Citron", price: "0.00€" },
-          { name: "Ris de Veau laqué au Réglisse & Échalotes rôties", price: "0.00€", highlight: true },
-          { name: "Filet de Bœuf Simmental & Jus de viande corsé", price: "0.00€" },
-          { name: "Risotto Acquerello & Vieux Parmesan (24 mois)", price: "0.00€" }
+          { name: "Caille d'Anjou rôtie & Petits pois à la française", price_cents: 0, is_highlight: true },
+          { name: "Lapin de Vendée, Jeunes poireaux & Polenta crémeuse", price_cents: 0, is_highlight: true },
+          { name: "Chaud-froid de Black Angus & Girolles d'été", price_cents: 0 },
+          { name: "Canard de Challans rôti au sang & Betteraves", price_cents: 0, is_highlight: true },
+          { name: "Saint-Pierre de ligne, Fenouil confit & Citron", price_cents: 0 },
+          { name: "Ris de Veau laqué au Réglisse & Échalotes rôties", price_cents: 0, is_highlight: true },
+          { name: "Filet de Bœuf Simmental & Jus de viande corsé", price_cents: 0 },
+          { name: "Risotto Acquerello & Vieux Parmesan (24 mois)", price_cents: 0 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre Ratte onctueuse", price: "0.00€", highlight: true },
-          { name: "Mousseline de Céleri-rave au Beurre Noisette", price: "0.00€" },
-          { name: "Légumes Racines rôtis au Four à bois", price: "0.00€" },
-          { name: "Épinards frais tombés au Beurre", price: "0.00€" },
-          { name: "Petite Salade de Pousses & Herbes aromatiques", price: "0.00€" }
+          { name: "Purée de Pommes de Terre Ratte onctueuse", price_cents: 0, is_highlight: true },
+          { name: "Mousseline de Céleri-rave au Beurre Noisette", price_cents: 0 },
+          { name: "Légumes Racines rôtis au Four à bois", price_cents: 0 },
+          { name: "Épinards frais tombés au Beurre", price_cents: 0 },
+          { name: "Petite Salade de Pousses & Herbes aromatiques", price_cents: 0 }
         ]
       },
       {
-        category: "Épilogues Sucrés (Desserts)",
+        category_type: "dessert",
+        display_label: "Épilogues Sucrés (Desserts)",
         items: [
-          { name: "Pêches jaunes & Granité à la Verveine", price: "0.00€", highlight: true },
-          { name: "Soupe de Fraises & Sablé Breton Citron-Basilic", price: "0.00€", highlight: true },
-          { name: "Panna Cotta Pistache & Griottes acidulées", price: "0.00€" },
-          { name: "Soufflé chaud au Citron de Menton", price: "0.00€", highlight: true },
-          { name: "Ganache Chocolat Grand Cru 80% & Sel fumé", price: "0.00€" },
-          { name: "Trio de Fromages affinés par Sanders", price: "0.00€" },
-          { name: "Mignardises signatures de la Maison", price: "0.00€" }
+          { name: "Pêches jaunes & Granité à la Verveine", price_cents: 0, is_highlight: true },
+          { name: "Soupe de Fraises & Sablé Breton Citron-Basilic", price_cents: 0, is_highlight: true },
+          { name: "Panna Cotta Pistache & Griottes acidulées", price_cents: 0 },
+          { name: "Soufflé chaud au Citron de Menton", price_cents: 0, is_highlight: true },
+          { name: "Ganache Chocolat Grand Cru 80% & Sel fumé", price_cents: 0 },
+          { name: "Trio de Fromages affinés par Sanders", price_cents: 0 },
+          { name: "Mignardises signatures de la Maison", price_cents: 0 }
         ]
       },
       {
-        category: "La Cave Étoilée (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Étoilée (Boissons)",
         items: [
-          { name: "Verre de Vin Blanc Sélectionné (Accord)", price: "14.00€", highlight: true },
-          { name: "Verre de Vin Rouge Grand Cru", price: "18.00€" },
-          { name: "Bouteille de Champagne de Vigneron (Selection)", price: "85.00€", highlight: true },
-          { name: "Accord Mets & Vins 'Découverte' (4 verres)", price: "45.00€", highlight: true },
-          { name: "Eau micro-filtrée L'Arcane (75cl)", price: "5.00€" },
-          { name: "Café de spécialité Terres de Café", price: "4.50€" },
-          { name: "Infusion aux Herbes du jardin", price: "6.00€" }
+          { name: "Verre de Vin Blanc Sélectionné (Accord)", price_cents: 1400, is_highlight: true },
+          { name: "Verre de Vin Rouge Grand Cru", price_cents: 1800 },
+          { name: "Bouteille de Champagne de Vigneron (Selection)", price_cents: 8500, is_highlight: true },
+          { name: "Accord Mets & Vins 'Découverte' (4 verres)", price_cents: 4500, is_highlight: true },
+          { name: "Eau micro-filtrée L'Arcane (75cl)", price_cents: 500 },
+          { name: "Café de spécialité Terres de Café", price_cents: 450 },
+          { name: "Infusion aux Herbes du jardin", price_cents: 600 }
         ]
       }
     ]

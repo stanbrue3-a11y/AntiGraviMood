@@ -42,55 +42,60 @@ export const mondol_kiri: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées (Khmères)",
+        category_type: "starter",
+        display_label: "Entrées (Khmères)",
         items: [
-          { name: "Salade d'Ananas aux Crevettes", price: "9.50€", highlight: true },
-          { name: "Raviolis à la vapeur (Knom Krok)", price: "8.50€" },
-          { name: "Rouleaux de Printemps Maison", price: "7.00€" },
-          { name: "Satay de Bœuf Grillé (x3)", price: "9.00€" },
-          { name: "Salade de Papaye Verte (Épicée)", price: "8.50€" },
-          { name: "Ailes de Poulet Farcies", price: "10.00€" }
+          { name: "Salade d'Ananas aux Crevettes", price_cents: 950, is_highlight: true },
+          { name: "Raviolis à la vapeur (Knom Krok)", price_cents: 850 },
+          { name: "Rouleaux de Printemps Maison", price_cents: 700 },
+          { name: "Satay de Bœuf Grillé (x3)", price_cents: 900 },
+          { name: "Salade de Papaye Verte (Épicée)", price_cents: 850 },
+          { name: "Ailes de Poulet Farcies", price_cents: 1000 }
         ]
       },
       {
-        category: "Spécialités de la Maison (Plats)",
+        category_type: "main",
+        display_label: "Spécialités de la Maison (Plats)",
         items: [
-          { name: "Amok de Poisson (Traditionnel)", price: "14.50€", highlight: true },
-          { name: "Curry Rouge au Canard & Litchis", price: "15.00€" },
-          { name: "Lok Lak (Bœuf sauté au poivre)", price: "14.00€" },
-          { name: "Mekong Prawns (Sauce Coco)", price: "16.50€" },
-          { name: "Poulet au Curry Jaune & Bambou", price: "13.50€" },
-          { name: "Saumon Grillé à la Khmère", price: "15.50€" },
-          { name: "Tofu sauté aux Légumes Croquants", price: "12.50€" }
+          { name: "Amok de Poisson (Traditionnel)", price_cents: 1450, is_highlight: true },
+          { name: "Curry Rouge au Canard & Litchis", price_cents: 1500 },
+          { name: "Lok Lak (Bœuf sauté au poivre)", price_cents: 1400 },
+          { name: "Mekong Prawns (Sauce Coco)", price_cents: 1650 },
+          { name: "Poulet au Curry Jaune & Bambou", price_cents: 1350 },
+          { name: "Saumon Grillé à la Khmère", price_cents: 1550 },
+          { name: "Tofu sauté aux Légumes Croquants", price_cents: 1250 }
         ]
       },
       {
-        category: "Formules & Menus Découverte",
+        category_type: "tasting_menu",
+        display_label: "Formules & Menus Découverte",
         items: [
-          { name: "Menu Découverte (2 pers.)", price: "42.00€", highlight: true },
-          { name: "Formule Midi (E+P)", price: "14.00€" },
-          { name: "Formule Midi (E+P+D)", price: "17.50€" }
+          { name: "Menu Découverte (2 pers.)", price_cents: 4200, is_highlight: true },
+          { name: "Formule Midi (E+P)", price_cents: 1400 },
+          { name: "Formule Midi (E+P+D)", price_cents: 1750 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Flan au Lait de Coco & Taro", price: "6.50€" },
-          { name: "Mangue Fraîche & Riz Gluant", price: "8.50€" },
-          { name: "Banane au Lait de Coco", price: "6.00€" },
-          { name: "Gingembre Confis Maison", price: "4.50€" },
-          { name: "Perles du Japon aux fruits", price: "6.50€" }
+          { name: "Flan au Lait de Coco & Taro", price_cents: 650 },
+          { name: "Mangue Fraîche & Riz Gluant", price_cents: 850 },
+          { name: "Banane au Lait de Coco", price_cents: 600 },
+          { name: "Gingembre Confis Maison", price_cents: 450 },
+          { name: "Perles du Japon aux fruits", price_cents: 650 }
         ]
       },
       {
-        category: "La Cave / Boissons",
+        category_type: "drink",
+        display_label: "La Cave / Boissons",
         items: [
-          { name: "Bière Angkor (Cambodge)", price: "6.50€", highlight: true },
-          { name: "Thé Vert Jasmin Artisanal", price: "4.50€" },
-          { name: "Jus de Coco Frais (Entier)", price: "7.00€" },
-          { name: "Café à la mode de Phnom Penh", price: "3.50€" },
-          { name: "Infusion Gingembre Frais", price: "4.50€" },
-          { name: "Verre de Vin Blanc (Viognier)", price: "6.00€" }
+          { name: "Bière Angkor (Cambodge)", price_cents: 650, is_highlight: true },
+          { name: "Thé Vert Jasmin Artisanal", price_cents: 450 },
+          { name: "Jus de Coco Frais (Entier)", price_cents: 700 },
+          { name: "Café à la mode de Phnom Penh", price_cents: 350 },
+          { name: "Infusion Gingembre Frais", price_cents: 450 },
+          { name: "Verre de Vin Blanc (Viognier)", price_cents: 600 }
         ]
       }
     ]

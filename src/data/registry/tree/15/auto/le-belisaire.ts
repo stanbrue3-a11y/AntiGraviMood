@@ -40,58 +40,62 @@ export const le_belisaire: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Pour Commencer / Les Entrées de l'Ardoise",
+        category_type: "starter",
+        display_label: "Pour Commencer / Les Entrées de l'Ardoise",
         items: [
-          { name: "Foie gras poêlé aux fruits de saison", price: "18€" },
-          { name: "Risotto crémeux aux langoustines", price: "22€" },
-          { name: "Ravioles de jeunes poireaux aux moules", price: "16€" },
-          { name: "Huîtres à la japonaise (x6)", price: "24€" },
-          { name: "Velouté de crustacés au gingembre", price: "14€" },
-          { name: "Salade de tourteau et avocat", price: "20€" },
-          { name: "Carpaccio de St-Jacques au citron vert", price: "19€" },
-          { name: "Terrine de poule au pot de Thierry Blanqui", price: "13€" },
-          { name: "Maquereau mariné au cidre breton", price: "12€" },
-          { name: "Œuf parfait, crème de chou-fleur", price: "11€" }
+          { name: "Foie gras poêlé aux fruits de saison", price_cents: 1800 },
+          { name: "Risotto crémeux aux langoustines", price_cents: 2200 },
+          { name: "Ravioles de jeunes poireaux aux moules", price_cents: 1600 },
+          { name: "Huîtres à la japonaise (x6)", price_cents: 2400 },
+          { name: "Velouté de crustacés au gingembre", price_cents: 1400 },
+          { name: "Salade de tourteau et avocat", price_cents: 2000 },
+          { name: "Carpaccio de St-Jacques au citron vert", price_cents: 1900 },
+          { name: "Terrine de poule au pot de Thierry Blanqui", price_cents: 1300 },
+          { name: "Maquereau mariné au cidre breton", price_cents: 1200 },
+          { name: "Œuf parfait, crème de chou-fleur", price_cents: 1100 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Dos de cabillaud rôti au beurre demi-sel", price: "28€" },
-          { name: "Homard à la parisienne (entier)", price: "55€" },
-          { name: "Filet de daurade rôti, tombée de fenouil", price: "27€" },
-          { name: "Dos de merlu à la plancha, vierge de légumes", price: "26€" },
-          { name: "Lièvre à la royale (en saison)", price: "42€" },
-          { name: "Bavette d'aloyau, frites maison au couteau", price: "24€" },
-          { name: "Quasi de veau de lait, girolles fraîches", price: "32€" },
-          { name: "Pigeon de Mesquer rôti, purée de dattes", price: "34€" },
-          { name: "Ris de veau croustillant, jus de viande corsé", price: "38€" },
-          { name: "Suggestion du Marché (Ardoise du jour)", price: "25€" },
-          { name: "L'Ardoise Complète (Entrée + Plat + Dessert)", price: "45€" },
-          { name: "Formule Ardoise (Entrée + Plat ou Plat + Dessert)", price: "40€" },
-          { name: "Menu Découverte (Carte Blanche en 5 services)", price: "60€" }
+          { name: "Dos de cabillaud rôti au beurre demi-sel", price_cents: 2800 },
+          { name: "Homard à la parisienne (entier)", price_cents: 5500 },
+          { name: "Filet de daurade rôti, tombée de fenouil", price_cents: 2700 },
+          { name: "Dos de merlu à la plancha, vierge de légumes", price_cents: 2600 },
+          { name: "Lièvre à la royale (en saison)", price_cents: 4200 },
+          { name: "Bavette d'aloyau, frites maison au couteau", price_cents: 2400 },
+          { name: "Quasi de veau de lait, girolles fraîches", price_cents: 3200 },
+          { name: "Pigeon de Mesquer rôti, purée de dattes", price_cents: 3400 },
+          { name: "Ris de veau croustillant, jus de viande corsé", price_cents: 3800 },
+          { name: "Suggestion du Marché (Ardoise du jour)", price_cents: 2500 },
+          { name: "L'Ardoise Complète (Entrée + Plat + Dessert)", price_cents: 4500 },
+          { name: "Formule Ardoise (Entrée + Plat ou Plat + Dessert)", price_cents: 4000 },
+          { name: "Menu Découverte (Carte Blanche en 5 services)", price_cents: 6000 }
         ]
       },
       {
-        category: "Les Douceurs & Fromages",
+        category_type: "dessert",
+        display_label: "Les Douceurs & Fromages",
         items: [
-          { name: "Clafoutis fondant pommes et poires", price: "12€" },
-          { name: "Tarte chocolat caramel beurre salé", price: "11€" },
-          { name: "Soufflé au Grand Marnier (15 min)", price: "14€" },
-          { name: "Far breton revisité aux pruneaux", price: "10€" },
-          { name: "Plateau de fromages de nos provinces", price: "15€" },
-          { name: "Kouign-Amann minute, glace vanille", price: "12€" },
-          { name: "Sorbet artisanal maison (3 boules)", price: "9€" },
-          { name: "Millefeuille à la vanille de Madagascar", price: "13€" },
-          { name: "Mousse au chocolat noir 72%, fleur de sel", price: "10€" }
+          { name: "Clafoutis fondant pommes et poires", price_cents: 1200 },
+          { name: "Tarte chocolat caramel beurre salé", price_cents: 1100 },
+          { name: "Soufflé au Grand Marnier (15 min)", price_cents: 1400 },
+          { name: "Far breton revisité aux pruneaux", price_cents: 1000 },
+          { name: "Plateau de fromages de nos provinces", price_cents: 1500 },
+          { name: "Kouign-Amann minute, glace vanille", price_cents: 1200 },
+          { name: "Sorbet artisanal maison (3 boules)", price_cents: 900 },
+          { name: "Millefeuille à la vanille de Madagascar", price_cents: 1300 },
+          { name: "Mousse au chocolat noir 72%, fleur de sel", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Muscadet Sèvre et Maine", price: "9€" },
-          { name: "Bouteille de cidre artisanal du Morbihan", price: "18€" },
-          { name: "Café de spécialité torréfié à Paris", price: "4€" }
+          { name: "Verre de Muscadet Sèvre et Maine", price_cents: 900 },
+          { name: "Bouteille de cidre artisanal du Morbihan", price_cents: 1800 },
+          { name: "Café de spécialité torréfié à Paris", price_cents: 400 }
         ]
       }
     ]

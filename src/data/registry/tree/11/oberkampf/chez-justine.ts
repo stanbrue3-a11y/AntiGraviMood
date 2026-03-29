@@ -42,51 +42,56 @@ export const chez_justine: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules Déjeuner (En semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (En semaine)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Midi (Entrée/Plat ou Plat/Dessert)", price: "16.00€", description: "Formule abordable évoluant selon l'humeur du chef." },
-                    { name: "La Formule Brunch Animé (Week-end seul)", price: "25.00€" }
+                    { name: "Formule Midi (Entrée/Plat ou Plat/Dessert)", price_cents: 1600, description: "Formule abordable évoluant selon l'humeur du chef." },
+                    { name: "La Formule Brunch Animé (Week-end seul)", price_cents: 2500 }
                 ]
             },
             {
-                category: "Les Grandes Salades & Burgers (Le Midi)",
+                category_type: "main",
+                display_label: "Les Grandes Salades & Burgers (Le Midi)",
                 items: [
-                    { name: "Burger Maison (Classique ou Végétarien), frites", price: "16.00€" },
-                    { name: "Cheeseburger Double Smash", price: "19.00€" },
-                    { name: "Salades / Bowls Fraîcheurs du moment", price: "15.00€" }
+                    { name: "Burger Maison (Classique ou Végétarien), frites", price_cents: 1600 },
+                    { name: "Cheeseburger Double Smash", price_cents: 1900 },
+                    { name: "Salades / Bowls Fraîcheurs du moment", price_cents: 1500 }
                 ]
             },
             {
-                category: "Les Viandes au Pur Brasero",
+                category_type: "main",
+                display_label: "Les Viandes au Pur Brasero",
                 items: [
-                    { name: "Planche de Charcuteries Artisanales", price: "11.00€" },
-                    { name: "Poulpe grillé au feu de bois", price: "24.00€" },
-                    { name: "Magret de Canard fumé", price: "18.00€" },
-                    { name: "Côte de bœuf cuite à la braise (Pour 2)", price: "75.00€" }
+                    { name: "Planche de Charcuteries Artisanales", price_cents: 1100 },
+                    { name: "Poulpe grillé au feu de bois", price_cents: 2400 },
+                    { name: "Magret de Canard fumé", price_cents: 1800 },
+                    { name: "Côte de bœuf cuite à la braise (Pour 2)", price_cents: 7500 }
                 ]
             },
             {
-                category: "Les Pizzas au Feu de Bois",
+                category_type: "main",
+                display_label: "Les Pizzas au Feu de Bois",
                 items: [
-                    { name: "Marinara (Sauce tomate, ail, origan, basilic)", price: "11.00€" },
-                    { name: "Margherita D.O.P", price: "13.00€" },
-                    { name: "Napoli (Anchois, tomates, mozzarella)", price: "15.00€" },
-                    { name: "Tonnara (Thon, oignons rouges)", price: "15.00€" },
-                    { name: "Brooklyn (Pepperoni)", price: "16.00€" },
-                    { name: "Prosciutto et Funghi", price: "16.00€" },
-                    { name: "Vegetariana", price: "16.00€" },
-                    { name: "Tripletta (Piquante & Charcuterie)", price: "17.00€" },
-                    { name: "Justine (Signature Maison)", price: "17.00€" },
-                    { name: "Tartufo Carciofi (Truffe et Artichaut)", price: "18.00€" }
+                    { name: "Marinara (Sauce tomate, ail, origan, basilic)", price_cents: 1100 },
+                    { name: "Margherita D.O.P", price_cents: 1300 },
+                    { name: "Napoli (Anchois, tomates, mozzarella)", price_cents: 1500 },
+                    { name: "Tonnara (Thon, oignons rouges)", price_cents: 1500 },
+                    { name: "Brooklyn (Pepperoni)", price_cents: 1600 },
+                    { name: "Prosciutto et Funghi", price_cents: 1600 },
+                    { name: "Vegetariana", price_cents: 1600 },
+                    { name: "Tripletta (Piquante & Charcuterie)", price_cents: 1700 },
+                    { name: "Justine (Signature Maison)", price_cents: 1700 },
+                    { name: "Tartufo Carciofi (Truffe et Artichaut)", price_cents: 1800 }
                 ]
             },
             {
-                category: "Desserts & Boissons",
+                category_type: "dessert",
+                display_label: "Desserts & Boissons",
                 items: [
-                    { name: "Dessert signature du moment", price: "8.00€" },
-                    { name: "Cocktail Happy Hour", price: "7.00€" },
-                    { name: "Pinte de Bière Pression", price: "7.00€" }
+                    { name: "Dessert signature du moment", price_cents: 800 },
+                    { name: "Cocktail Happy Hour", price_cents: 700 },
+                    { name: "Pinte de Bière Pression", price_cents: 700 }
                 ]
             }
         ]

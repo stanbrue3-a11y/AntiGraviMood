@@ -42,57 +42,62 @@ export const sinorama: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées & Vapeurs (Dim Sum)",
+        category_type: "starter",
+        display_label: "Entrées & Vapeurs (Dim Sum)",
         items: [
-          { name: "Pâtés Impériaux au Poulet (x4)", price: "9.60€", highlight: true },
-          { name: "Raviolis Pékinois à la Poêle (x8)", price: "9.60€" },
-          { name: "Pattes de Poulet sauce Soja Noir", price: "9.60€" },
-          { name: "Raviolis de Crevettes Frits (x4)", price: "9.60€" },
-          { name: "Ha Cao (Vapeur Crevettes)", price: "8.50€" },
-          { name: "Siu Mai (Vapeur Porc & Crevettes)", price: "8.50€" },
-          { name: "Brioches à la Vapeur (Steamed Buns)", price: "9.00€" }
+          { name: "Pâtés Impériaux au Poulet (x4)", price_cents: 960, is_highlight: true },
+          { name: "Raviolis Pékinois à la Poêle (x8)", price_cents: 960 },
+          { name: "Pattes de Poulet sauce Soja Noir", price_cents: 960 },
+          { name: "Raviolis de Crevettes Frits (x4)", price_cents: 960 },
+          { name: "Ha Cao (Vapeur Crevettes)", price_cents: 850 },
+          { name: "Siu Mai (Vapeur Porc & Crevettes)", price_cents: 850 },
+          { name: "Brioches à la Vapeur (Steamed Buns)", price_cents: 900 }
         ]
       },
       {
-        category: "La Rôtisserie (Plats)",
+        category_type: "main",
+        display_label: "La Rôtisserie (Plats)",
         items: [
-          { name: "Canard Laqué Dégustation (3 services)", price: "40.00€", highlight: true },
-          { name: "Canard Laqué Cantonais (Désossé)", price: "21.60€" },
-          { name: "Travers de Porc au Sel & Poivre", price: "18.50€" },
-          { name: "Porc Laqué (Char Siu) Maison", price: "17.50€" },
-          { name: "Poulet du Chef à la Vapeur", price: "15.60€" }
+          { name: "Canard Laqué Dégustation (3 services)", price_cents: 4000, is_highlight: true },
+          { name: "Canard Laqué Cantonais (Désossé)", price_cents: 2160 },
+          { name: "Travers de Porc au Sel & Poivre", price_cents: 1850 },
+          { name: "Porc Laqué (Char Siu) Maison", price_cents: 1750 },
+          { name: "Poulet du Chef à la Vapeur", price_cents: 1560 }
         ]
       },
       {
-        category: "Sautés au Wok (Plats)",
+        category_type: "main",
+        display_label: "Sautés au Wok (Plats)",
         items: [
-          { name: "Pâte de Riz Sauté au Bœuf", price: "18.00€", highlight: true },
-          { name: "Bœuf aux Poivres de Tasmanie", price: "20.40€" },
-          { name: "Haricots Fins sauce XO", price: "18.60€" },
-          { name: "Nouilles Sautées aux Crevettes", price: "18.00€" },
-          { name: "Riz Sauté au Bœuf & Oignons", price: "17.40€" },
-          { name: "Bœuf sauce Saté & Légumes", price: "16.80€" },
-          { name: "Marmite de Tofu à la Cantonaise", price: "16.50€" }
+          { name: "Pâte de Riz Sauté au Bœuf", price_cents: 1800, is_highlight: true },
+          { name: "Bœuf aux Poivres de Tasmanie", price_cents: 2040 },
+          { name: "Haricots Fins sauce XO", price_cents: 1860 },
+          { name: "Nouilles Sautées aux Crevettes", price_cents: 1800 },
+          { name: "Riz Sauté au Bœuf & Oignons", price_cents: 1740 },
+          { name: "Bœuf sauce Saté & Légumes", price_cents: 1680 },
+          { name: "Marmite de Tofu à la Cantonaise", price_cents: 1650 }
         ]
       },
       {
-        category: "Soupes & Bouillons (Plats)",
+        category_type: "main",
+        display_label: "Soupes & Bouillons (Plats)",
         items: [
-          { name: "Soupe aux Raviolis de Crevettes", price: "17.40€" },
-          { name: "Soupe de Nouilles au Canard Laqué", price: "16.00€" },
-          { name: "Soupe Wonton au Porc Épicée", price: "15.50€" }
+          { name: "Soupe aux Raviolis de Crevettes", price_cents: 1740 },
+          { name: "Soupe de Nouilles au Canard Laqué", price_cents: 1600 },
+          { name: "Soupe Wonton au Porc Épicée", price_cents: 1550 }
         ]
       },
       {
-        category: "Douceurs & Infusions",
+        category_type: "dessert",
+        display_label: "Douceurs & Infusions",
         items: [
-          { name: "Perles de Coco Vapeur (x3)", price: "6.50€" },
-          { name: "Nougat Chinois au Sésame", price: "5.50€" },
-          { name: "Gingembre Confit au Sirop", price: "5.00€" },
-          { name: "Thé Pu-Erh Millésimé (Pot)", price: "7.50€" },
-          { name: "Chrysanthème Infusion Bio", price: "5.50€" },
-          { name: "Bière Tsingtao (64cl)", price: "8.00€" },
-          { name: "Trio de Sorbets Exotiques", price: "7.00€" }
+          { name: "Perles de Coco Vapeur (x3)", price_cents: 650 },
+          { name: "Nougat Chinois au Sésame", price_cents: 550 },
+          { name: "Gingembre Confit au Sirop", price_cents: 500 },
+          { name: "Thé Pu-Erh Millésimé (Pot)", price_cents: 750 },
+          { name: "Chrysanthème Infusion Bio", price_cents: 550 },
+          { name: "Bière Tsingtao (64cl)", price_cents: 800 },
+          { name: "Trio de Sorbets Exotiques", price_cents: 700 }
         ]
       }
     ]

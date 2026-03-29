@@ -49,33 +49,36 @@ export const qui_plume_la_lune: SurgicalPlace = {
             // MENUS DÉJEUNER (Source: site officiel + TheFork + ParisSecret)
             // ═══════════════════════════════════════════
             {
-                category: "Menu Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Menu Déjeuner",
                 items: [
                     // VERIFIED: Site officiel + TheFork (2024)
-                    { name: "Menu Théodore (amuse-bouche + entrée-plat ou plat-dessert + mignardise)", price: "45.00€", description: "Le menu midi accessible." }
+                    { name: "Menu Théodore (amuse-bouche + entrée-plat ou plat-dessert + mignardise)", price_cents: 4500, description: "Le menu midi accessible." }
                 ]
             },
             // ═══════════════════════════════════════════
             // MENUS DÉGUSTATION (Source: site officiel quiplumelalune.fr)
             // ═══════════════════════════════════════════
             {
-                category: "Menus Dégustation (Soir)",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation (Soir)",
                 items: [
                     // VERIFIED: Site officiel (2024)
-                    { name: "Menu 3 temps", price: "70.00€", description: "Entrée, Plat, Dessert." },
-                    { name: "Menu Angèle (4 plats + desserts)", price: "110.00€", description: "Le voyage gastronomique autour du produit." },
-                    { name: "Menu Lucie (5 plats + desserts)", price: "150.00€", description: "L'expérience complète saisonnière." },
-                    { name: "Menu Claude M. (produits d'exception)", price: "250.00€", description: "Homard, truffe, caviar et pièces nobles." }
+                    { name: "Menu 3 temps", price_cents: 7000, description: "Entrée, Plat, Dessert." },
+                    { name: "Menu Angèle (4 plats + desserts)", price_cents: 11000, description: "Le voyage gastronomique autour du produit." },
+                    { name: "Menu Lucie (5 plats + desserts)", price_cents: 15000, description: "L'expérience complète saisonnière." },
+                    { name: "Menu Claude M. (produits d'exception)", price_cents: 25000, description: "Homard, truffe, caviar et pièces nobles." }
                 ]
             },
             {
-                category: "Signatures de Saison (Incluses dans les menus)",
+                category_type: "tasting_menu",
+                display_label: "Signatures de Saison (Incluses dans les menus)",
                 items: [
-                    { name: "Lotte nacrée, pimiento de Piquillo & combawa", price: "0.00€" },
-                    { name: "Boeuf de Charolles maturé, artichaut & jus corsé", price: "0.00€" },
-                    { name: "Foie gras de canard poêlé, porto & cassis marinés", price: "0.00€" },
-                    { name: "Saint-Jacques, bouillon d'herbes & cresson", price: "0.00€" },
-                    { name: "Mousse chocolat sauvage & herbes folles", price: "0.00€" }
+                    { name: "Lotte nacrée, pimiento de Piquillo & combawa", price_cents: 0 },
+                    { name: "Boeuf de Charolles maturé, artichaut & jus corsé", price_cents: 0 },
+                    { name: "Foie gras de canard poêlé, porto & cassis marinés", price_cents: 0 },
+                    { name: "Saint-Jacques, bouillon d'herbes & cresson", price_cents: 0 },
+                    { name: "Mousse chocolat sauvage & herbes folles", price_cents: 0 }
                 ]
             },
 
@@ -83,32 +86,35 @@ export const qui_plume_la_lune: SurgicalPlace = {
             // FROMAGES & DESSERTS (Source: site officiel + TheFork)
             // ═══════════════════════════════════════════
             {
-                category: "Fromages & Desserts",
+                category_type: "dessert",
+                display_label: "Fromages & Desserts",
                 items: [
                     // VERIFIED: Site officiel (2024)
-                    { name: "Assiette de fromages (supplément)", price: "30.00€" },
-                    { name: "Farandole de desserts (incluse dans le menu)", price: "0.00€" }
+                    { name: "Assiette de fromages (supplément)", price_cents: 3000 },
+                    { name: "Farandole de desserts (incluse dans le menu)", price_cents: 0 }
                 ]
             },
             // ═══════════════════════════════════════════
             // ACCORDS METS & VINS (Source: site officiel + TheFork)
             // ═══════════════════════════════════════════
             {
-                category: "Accords Mets & Vins",
+                category_type: "drink",
+                display_label: "Accords Mets & Vins",
                 items: [
                     // VERIFIED: Site officiel (2024)
-                    { name: "Accord 3 verres", price: "45.00€" },
-                    { name: "Accord Garance (5 verres)", price: "75.00€" },
-                    { name: "Accord Léopoldine (6 verres)", price: "90.00€" }
+                    { name: "Accord 3 verres", price_cents: 4500 },
+                    { name: "Accord Garance (5 verres)", price_cents: 7500 },
+                    { name: "Accord Léopoldine (6 verres)", price_cents: 9000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // MENU ENFANT
             // ═══════════════════════════════════════════
             {
-                category: "Menu Enfant",
+                category_type: "tasting_menu",
+                display_label: "Menu Enfant",
                 items: [
-                    { name: "Menu Enfant (moins de 10 ans)", price: "35.00€" }
+                    { name: "Menu Enfant (moins de 10 ans)", price_cents: 3500 }
                 ]
             }
         ]

@@ -41,42 +41,46 @@ export const bellefeuille: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Dégustation",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Dégustation",
         items: [
-          { name: "Menu en 6 Étapes", price: "250€", description: "Le voyage complet dans l'univers de Grégory Garimbay" },
-          { name: "Menu en 4 Étapes", price: "200€" },
-          { name: "Menu en 3 Étapes", price: "170€" },
-          { name: "Menu Diamant Noir (Saison Truffe)", price: "320€", description: "5 services dédiés à la truffe noire" }
+          { name: "Menu en 6 Étapes", price_cents: 25000, description: "Le voyage complet dans l'univers de Grégory Garimbay" },
+          { name: "Menu en 4 Étapes", price_cents: 20000 },
+          { name: "Menu en 3 Étapes", price_cents: 17000 },
+          { name: "Menu Diamant Noir (Saison Truffe)", price_cents: 32000, description: "5 services dédiés à la truffe noire" }
         ]
       },
       {
-        category: "La Nature & Le Jardin",
+        category_type: "other",
+        display_label: "La Nature & Le Jardin",
         items: [
-          { name: "Araignée de Mer de casier", price: "65€", description: "Au caviar, bouillon de carcasse infusé", highlight: true },
-          { name: "Courge du Potager", price: "55€", description: "Au riz noir de Camargue, condiment fumé" },
-          { name: "Langoustine de Bretagne", price: "75€", description: "Juste saisie, beurre de corail" },
-          { name: "Légumes de Saison", price: "48€", description: "Cuisinés en différentes textures, fleurs du jardin" },
-          { name: "Turbot de Ligne", price: "85€", description: "À la nacre, émulsion au pin" },
-          { name: "Veau de Lait", price: "80€", description: "Quasi rôti, jus perlé, racines de saison" },
-          { name: "Canette de Challans", price: "78€", description: "Poitrine fondante, cerise et hibiscus" }
+          { name: "Araignée de Mer de casier", price_cents: 6500, description: "Au caviar, bouillon de carcasse infusé", is_highlight: true },
+          { name: "Courge du Potager", price_cents: 5500, description: "Au riz noir de Camargue, condiment fumé" },
+          { name: "Langoustine de Bretagne", price_cents: 7500, description: "Juste saisie, beurre de corail" },
+          { name: "Légumes de Saison", price_cents: 4800, description: "Cuisinés en différentes textures, fleurs du jardin" },
+          { name: "Turbot de Ligne", price_cents: 8500, description: "À la nacre, émulsion au pin" },
+          { name: "Veau de Lait", price_cents: 8000, description: "Quasi rôti, jus perlé, racines de saison" },
+          { name: "Canette de Challans", price_cents: 7800, description: "Poitrine fondante, cerise et hibiscus" }
         ]
       },
       {
-        category: "Les Douceurs Botaniques",
+        category_type: "dessert",
+        display_label: "Les Douceurs Botaniques",
         items: [
-          { name: "Chocolat & Aiguilles de Pin", price: "32€", description: "Une signature végétale et intense" },
-          { name: "Miel du Saint James", price: "28€", description: "Glacé, pollen frais et agrumes" },
-          { name: "Soufflé Passion", price: "30€", description: "Cœur coulant, sorbet gingembre" },
-          { name: "Sélection de Fromages de Maître", price: "34€" }
+          { name: "Chocolat & Aiguilles de Pin", price_cents: 3200, description: "Une signature végétale et intense" },
+          { name: "Miel du Saint James", price_cents: 2800, description: "Glacé, pollen frais et agrumes" },
+          { name: "Soufflé Passion", price_cents: 3000, description: "Cœur coulant, sorbet gingembre" },
+          { name: "Sélection de Fromages de Maître", price_cents: 3400 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Sancerre (Domaine Vacheron)", price: "22€" },
-          { name: "Cocktail Signature 'Bellefeuille'", price: "28€" },
-          { name: "Thé Rare (Sélection)", price: "14€" },
-          { name: "Expresso Bio", price: "9€" }
+          { name: "Verre de Sancerre (Domaine Vacheron)", price_cents: 2200 },
+          { name: "Cocktail Signature 'Bellefeuille'", price_cents: 2800 },
+          { name: "Thé Rare (Sélection)", price_cents: 1400 },
+          { name: "Expresso Bio", price_cents: 900 }
         ]
       }
     ]

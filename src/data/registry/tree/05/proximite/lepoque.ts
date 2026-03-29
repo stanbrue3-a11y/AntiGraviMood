@@ -43,39 +43,42 @@ export const lepoque: SurgicalPlace = {
         "smart_tip": "La formule soir à 31,80€ est le pivot de cette table. Le midi, l'offre à 15,80€ (E+P ou P+D) est une anomalie de prix pour une telle qualité de produit frais.",
         "menu_items": [
             {
-                "category": "Plats de Tradition",
+                "category_type": "main",
+                "display_label": "Plats de Tradition",
                 "items": [
-                    { "name": "Souris d'Agneau de 7h", "price": "25,00€", "description": "Spécialité confite fondante, cuisson lente maîtrisée." },
-                    { "name": "Cassoulet Artisanal", "price": "17,50€" },
-                    { "name": "Pièce du Boucher (VBF)", "price": "23,00€", "description": "Accompagnée de frites maison coupées sur place." },
-                    { "name": "Tartare Traditionnel", "price": "17,00€" },
-                    { "name": "Burger Gourmet L'Époque", "price": "16,00€" }
+                    { "name": "Souris d'Agneau de 7h", "price_cents": 2500, "description": "Spécialité confite fondante, cuisson lente maîtrisée." },
+                    { "name": "Cassoulet Artisanal", "price_cents": 1750 },
+                    { "name": "Pièce du Boucher (VBF)", "price_cents": 2300, "description": "Accompagnée de frites maison coupées sur place." },
+                    { "name": "Tartare Traditionnel", "price_cents": 1700 },
+                    { "name": "Burger Gourmet L'Époque", "price_cents": 1600 }
                 ]
             },
             {
-                "category": "Entrées & Desserts",
+                "category_type": "starter",
+                "display_label": "Entrées & Desserts",
                 "items": [
-                    { "name": "Crumble de Boudin Noir", "price": "11,00€" },
-                    { "name": "Escargots de Bourgogne (12)", "price": "18,00€" },
-                    { "name": "Terrine de Foie Gras Maison", "price": "18,50€" },
-                    { "name": "Brioche Perdue Maison", "price": "10,00€" },
-                    { "name": "Mousse au Chocolat", "price": "8,00€" }
+                    { "name": "Crumble de Boudin Noir", "price_cents": 1100 },
+                    { "name": "Escargots de Bourgogne (12)", "price_cents": 1800 },
+                    { "name": "Terrine de Foie Gras Maison", "price_cents": 1850 },
+                    { "name": "Brioche Perdue Maison", "price_cents": 1000 },
+                    { "name": "Mousse au Chocolat", "price_cents": 800 }
                 ]
             },
             {
-                "category": "Cave & Bar",
+                "category_type": "drink",
+                "display_label": "Cave & Bar",
                 "items": [
-                    { "name": "Verre de Vin AOC (Maison)", "price": "5,50€" },
-                    { "name": "Verre de Sancerre AOP", "price": "10,00€" },
-                    { "name": "Bouteille Pic Saint-Loup", "price": "38,00€" },
-                    { "name": "Stella Pression (Pinte 50cl)", "price": "6,50€" },
-                    { "name": "Grimbergen (Pinte 50cl)", "price": "8,50€" },
-                    { "name": "Picon Bière (50cl)", "price": "9,00€" },
-                    { "name": "Cocktails", "price": "9,00€" },
-                    { "name": "Expresso / Noisette", "price": "2,50€" },
-                    { "name": "Soda / Jus de fruits", "price": "5,00€" },
-                    { "name": "Calvados / Cognac", "price": "10,00€" },
-                    { "name": "Kir Royal au Champagne", "price": "11,00€" }
+                    { "name": "Verre de Vin AOC (Maison)", "price_cents": 550 },
+                    { "name": "Verre de Sancerre AOP", "price_cents": 1000 },
+                    { "name": "Bouteille Pic Saint-Loup", "price_cents": 3800 },
+                    { "name": "Stella Pression (Pinte 50cl)", "price_cents": 650 },
+                    { "name": "Grimbergen (Pinte 50cl)", "price_cents": 850 },
+                    { "name": "Picon Bière (50cl)", "price_cents": 900 },
+                    { "name": "Cocktails", "price_cents": 900 },
+                    { "name": "Expresso / Noisette", "price_cents": 250 },
+                    { "name": "Soda / Jus de fruits", "price_cents": 500 },
+                    { "name": "Calvados / Cognac", "price_cents": 1000 },
+                    { "name": "Kir Royal au Champagne", "price_cents": 1100 }
                 ]
             }
         ],

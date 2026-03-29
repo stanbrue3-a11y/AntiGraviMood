@@ -43,62 +43,67 @@ export const tanguy: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Galettes de Blé Noir (Plats)",
+        category_type: "main",
+        display_label: "Galettes de Blé Noir (Plats)",
         items: [
-          { name: "La Complète de TANGUY (Jambon Prince de Paris, Œuf, Tomme)", price: "10.50€", highlight: true },
-          { name: "Andouille de Guémené, Tomme de Priziac & Oignons confits", price: "15.50€", highlight: true },
-          { name: "Saucisse Artisanale (Maison Beucher), Crème Moutardée & Œuf", price: "15.50€", highlight: true },
-          { name: "Poitrine Fumée au bois de hêtre, Œuf & Tomme", price: "12.50€" },
-          { name: "Galette Simple au Beurre Cru Thierry Lemarchand", price: "3.00€" },
-          { name: "Galette à l'Œuf Bio Breizh'on egg (Miroir)", price: "4.00€" },
-          { name: "Galette Jambon Prince de Paris & Sel de Guérande", price: "9.00€" },
-          { name: "Galette Tomme au lait de vache biologique", price: "9.00€" }
+          { name: "La Complète de TANGUY (Jambon Prince de Paris, Œuf, Tomme)", price_cents: 1050, is_highlight: true },
+          { name: "Andouille de Guémené, Tomme de Priziac & Oignons confits", price_cents: 1550, is_highlight: true },
+          { name: "Saucisse Artisanale (Maison Beucher), Crème Moutardée & Œuf", price_cents: 1550, is_highlight: true },
+          { name: "Poitrine Fumée au bois de hêtre, Œuf & Tomme", price_cents: 1250 },
+          { name: "Galette Simple au Beurre Cru Thierry Lemarchand", price_cents: 300 },
+          { name: "Galette à l'Œuf Bio Breizh'on egg (Miroir)", price_cents: 400 },
+          { name: "Galette Jambon Prince de Paris & Sel de Guérande", price_cents: 900 },
+          { name: "Galette Tomme au lait de vache biologique", price_cents: 900 }
         ]
       },
       {
-        category: "Créations Gourmandes (Plats)",
+        category_type: "main",
+        display_label: "Créations Gourmandes (Plats)",
         items: [
-          { name: "Truite Fumée de Bretagne & Crème de Ciboulette", price: "14.00€", highlight: true },
-          { name: "Boudin Noir Artisanal & Oignons de Roscoff confits", price: "13.50€" },
-          { name: "Fromage de Chèvre au Lait Cru & Miel du Pays", price: "12.00€" },
-          { name: "Galette Végétarienne : Légumes Rôtis & Graines", price: "11.50€", highlight: true },
-          { name: "Sardines Millésimées à l'huile d'olive & Algues", price: "14.50€" }
+          { name: "Truite Fumée de Bretagne & Crème de Ciboulette", price_cents: 1400, is_highlight: true },
+          { name: "Boudin Noir Artisanal & Oignons de Roscoff confits", price_cents: 1350 },
+          { name: "Fromage de Chèvre au Lait Cru & Miel du Pays", price_cents: 1200 },
+          { name: "Galette Végétarienne : Légumes Rôtis & Graines", price_cents: 1150, is_highlight: true },
+          { name: "Sardines Millésimées à l'huile d'olive & Algues", price_cents: 1450 }
         ]
       },
       {
-        category: "Crêpes de Froment (Desserts)",
+        category_type: "dessert",
+        display_label: "Crêpes de Froment (Desserts)",
         items: [
-          { name: "Sucre de Canne Bio & Beurre demi-sel Cru", price: "4.00€", highlight: true },
-          { name: "Caramel Beurre Salé Maison (L'onctueux)", price: "6.50€", highlight: true },
-          { name: "Chocolat fondu Maison & Noisettes grillées", price: "8.50€", highlight: true },
-          { name: "Pommes Caramélisées & Émietté de Palet Breton", price: "8.50€" },
-          { name: "Citron Jaune Frais & Sucre de Canne Bio", price: "4.50€" },
-          { name: "Miel de Bretagne sauvage & Éclats de Noix", price: "7.00€" },
-          { name: "Grand Marnier Flambée à la minute", price: "9.50€" },
-          { name: "Confiture de Fraise de Plougastel (Artisanale)", price: "5.50€" }
+          { name: "Sucre de Canne Bio & Beurre demi-sel Cru", price_cents: 400, is_highlight: true },
+          { name: "Caramel Beurre Salé Maison (L'onctueux)", price_cents: 650, is_highlight: true },
+          { name: "Chocolat fondu Maison & Noisettes grillées", price_cents: 850, is_highlight: true },
+          { name: "Pommes Caramélisées & Émietté de Palet Breton", price_cents: 850 },
+          { name: "Citron Jaune Frais & Sucre de Canne Bio", price_cents: 450 },
+          { name: "Miel de Bretagne sauvage & Éclats de Noix", price_cents: 700 },
+          { name: "Grand Marnier Flambée à la minute", price_cents: 950 },
+          { name: "Confiture de Fraise de Plougastel (Artisanale)", price_cents: 550 }
         ]
       },
       {
-        category: "Douceurs Bretonnes (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs Bretonnes (Desserts)",
         items: [
-          { name: "Far Breton aux Pruneaux Maison (La tranche)", price: "6.00€", highlight: true },
-          { name: "Kouign-Amann Tiède & Glace Vanille Madagascar", price: "8.50€", highlight: true },
-          { name: "Sorbet Cidre & Pomme Fraîche (3 boules)", price: "7.50€" },
-          { name: "Palet Breton Artisanal (À l'unité)", price: "2.00€" },
-          { name: "Yaourt Fermier au Lait Entier de Bretagne", price: "4.50€" }
+          { name: "Far Breton aux Pruneaux Maison (La tranche)", price_cents: 600, is_highlight: true },
+          { name: "Kouign-Amann Tiède & Glace Vanille Madagascar", price_cents: 850, is_highlight: true },
+          { name: "Sorbet Cidre & Pomme Fraîche (3 boules)", price_cents: 750 },
+          { name: "Palet Breton Artisanal (À l'unité)", price_cents: 200 },
+          { name: "Yaourt Fermier au Lait Entier de Bretagne", price_cents: 450 }
         ]
       },
       {
-        category: "Cidres & Cuvées (Boissons)",
+        category_type: "drink",
+        display_label: "Cidres & Cuvées (Boissons)",
         items: [
-          { name: "Bolée de Cidre Artisanal (Brut ou Doux)", price: "4.50€", highlight: true },
-          { name: "Bouteille de Cidre de Cornouaille AOP", price: "18.00€", highlight: true },
-          { name: "Bouteille de Cidre du Cotentin (Extra-Brut)", price: "22.00€" },
-          { name: "Jus de Pomme Trouble Fermier de Bretagne", price: "5.50€" },
-          { name: "Chouchen Artisanal du Pays Vannetais", price: "7.00€" },
-          { name: "Bière Bretonne Ambrée Coreff (33cl)", price: "6.50€" },
-          { name: "Eau micro-filtrée Tanguy (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité Terres de Café", price: "3.50€" }
+          { name: "Bolée de Cidre Artisanal (Brut ou Doux)", price_cents: 450, is_highlight: true },
+          { name: "Bouteille de Cidre de Cornouaille AOP", price_cents: 1800, is_highlight: true },
+          { name: "Bouteille de Cidre du Cotentin (Extra-Brut)", price_cents: 2200 },
+          { name: "Jus de Pomme Trouble Fermier de Bretagne", price_cents: 550 },
+          { name: "Chouchen Artisanal du Pays Vannetais", price_cents: 700 },
+          { name: "Bière Bretonne Ambrée Coreff (33cl)", price_cents: 650 },
+          { name: "Eau micro-filtrée Tanguy (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité Terres de Café", price_cents: 350 }
         ]
       }
     ]

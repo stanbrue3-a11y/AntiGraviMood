@@ -45,30 +45,33 @@ export const confluence: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Confluence 2025 Standard (French-Asian Fusion)
             {
-                category: "Entrées (Small Plates / Starters)",
+                category_type: "starter",
+                display_label: "Entrées (Small Plates / Starters)",
                 items: [
-                    { name: "Crème de pois chiches & coco", price: "12.00€", description: "Poitrine de porc croustillante, salade d'agrumes, pickles." },
-                    { name: "Nems de Saucisse Moto", price: "14.00€", description: "Crème au bleu, salade croquante, pickles maison." },
-                    { name: "Ceviche de bar au calamansi", price: "16.00€" },
-                    { name: "Carpaccio de bœuf façon Shabu-Shabu", price: "15.00€" }
+                    { name: "Crème de pois chiches & coco", price_cents: 1200, description: "Poitrine de porc croustillante, salade d'agrumes, pickles." },
+                    { name: "Nems de Saucisse Moto", price_cents: 1400, description: "Crème au bleu, salade croquante, pickles maison." },
+                    { name: "Ceviche de bar au calamansi", price_cents: 1600 },
+                    { name: "Carpaccio de bœuf façon Shabu-Shabu", price_cents: 1500 }
                 ]
             },
             {
-                category: "Plats Signatures (Main Courses)",
+                category_type: "main",
+                display_label: "Plats Signatures (Main Courses)",
                 items: [
-                    { name: "Cabillaud Tom Cakod", price: "24.00€", description: "Lait de coco, galanga, riz gluant, emulsion coco." },
-                    { name: "Noix de Saint-Jacques au beurre pistache", price: "28.00€", description: "Emulsion légumes, tempura de chou-fleur." },
-                    { name: "Côte d'Agneau Shashu", price: "32.00€", description: "Croûte pistache/herbes, purée patate douce violette." },
-                    { name: "Risotto d'épeautre aux champignons Shiitaké", price: "22.00€" },
-                    { name: "Plat du jour (Midi)", price: "19.00€" }
+                    { name: "Cabillaud Tom Cakod", price_cents: 2400, description: "Lait de coco, galanga, riz gluant, emulsion coco." },
+                    { name: "Noix de Saint-Jacques au beurre pistache", price_cents: 2800, description: "Emulsion légumes, tempura de chou-fleur." },
+                    { name: "Côte d'Agneau Shashu", price_cents: 3200, description: "Croûte pistache/herbes, purée patate douce violette." },
+                    { name: "Risotto d'épeautre aux champignons Shiitaké", price_cents: 2200 },
+                    { name: "Plat du jour (Midi)", price_cents: 1900 }
                 ]
             },
             {
-                category: "Desserts Créatifs",
+                category_type: "dessert",
+                display_label: "Desserts Créatifs",
                 items: [
-                    { name: "Poire pochée Citronnelle", price: "10.00€", description: "Servie avec crumble croquant." },
-                    { name: "Riz Gluant Coco & Ananas rôtis", price: "12.00€" },
-                    { name: "Gâteau Chocolat & Gingembre confit", price: "11.00€" }
+                    { name: "Poire pochée Citronnelle", price_cents: 1000, description: "Servie avec crumble croquant." },
+                    { name: "Riz Gluant Coco & Ananas rôtis", price_cents: 1200 },
+                    { name: "Gâteau Chocolat & Gingembre confit", price_cents: 1100 }
                 ]
             }
         ]

@@ -45,37 +45,41 @@ export const track119: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Deb's Street Food @ Track 119 (Indian/Pakistani)
             {
-                category: "Street Food Snacks",
+                category_type: "sharing",
+                display_label: "Street Food Snacks",
                 items: [
-                    { name: "Pani Puri (x6)", price: "7.50€", description: "Billes croustillantes à l'eau épicée." },
-                    { name: "Samosas Pomme de Terre/Pois", price: "6.00€" },
-                    { name: "Pakoras Légumes", price: "6.50€" }
+                    { name: "Pani Puri (x6)", price_cents: 750, description: "Billes croustillantes à l'eau épicée." },
+                    { name: "Samosas Pomme de Terre/Pois", price_cents: 600 },
+                    { name: "Pakoras Légumes", price_cents: 650 }
                 ]
             },
             {
-                category: "Indian Mains (Curries & Bowls)",
+                category_type: "other",
+                display_label: "Indian Mains (Curries & Bowls)",
                 items: [
-                    { name: "Chicken Keema", price: "13.00€", description: "Poulet haché épicé, herbes fraîches." },
-                    { name: "Dal Makhani", price: "11.50€" },
-                    { name: "Butter Chicken", price: "14.50€" },
-                    { name: "Biryani Agneau", price: "15.00€" }
+                    { name: "Chicken Keema", price_cents: 1300, description: "Poulet haché épicé, herbes fraîches." },
+                    { name: "Dal Makhani", price_cents: 1150 },
+                    { name: "Butter Chicken", price_cents: 1450 },
+                    { name: "Biryani Agneau", price_cents: 1500 }
                 ]
             },
             {
-                category: "Creative Naans (L'Audace)",
+                category_type: "other",
+                display_label: "Creative Naans (L'Audace)",
                 items: [
-                    { name: "Naan Camembert", price: "7.00€", description: "Fusion franco-indienne ultime." },
-                    { name: "Naan Gorgonzola/Miel", price: "7.50€" },
-                    { name: "Naan Garlic & Herbs", price: "4.50€" },
-                    { name: "Naan Nature", price: "3.50€" }
+                    { name: "Naan Camembert", price_cents: 700, description: "Fusion franco-indienne ultime." },
+                    { name: "Naan Gorgonzola/Miel", price_cents: 750 },
+                    { name: "Naan Garlic & Herbs", price_cents: 450 },
+                    { name: "Naan Nature", price_cents: 350 }
                 ]
             },
             {
-                category: "Sweet Treats & Lassi",
+                category_type: "other",
+                display_label: "Sweet Treats & Lassi",
                 items: [
-                    { name: "Mango Lassi", price: "5.50€" },
-                    { name: "Gulab Jamun (x2)", price: "5.00€" },
-                    { name: "Kulfi Maison", price: "6.00€" }
+                    { name: "Mango Lassi", price_cents: 550 },
+                    { name: "Gulab Jamun (x2)", price_cents: 500 },
+                    { name: "Kulfi Maison", price_cents: 600 }
                 ]
             }
         ]

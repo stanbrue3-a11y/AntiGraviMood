@@ -41,43 +41,47 @@ export const restaurant_lao_lane_xang: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Nems végétariens", price: "5€" },
-          { name: "Crêpes de riz aux crevettes", price: "6€" },
-          { name: "Salade de riz croustillant", price: "8€" },
-          { name: "Soupe épicée de crevettes", price: "7€" },
-          { name: "Bœuf séché traditionnel", price: "8.40€" },
-          { name: "Salade de papaye verte", price: "8€" }
+          { name: "Nems végétariens", price_cents: 500 },
+          { name: "Crêpes de riz aux crevettes", price_cents: 600 },
+          { name: "Salade de riz croustillant", price_cents: 800 },
+          { name: "Soupe épicée de crevettes", price_cents: 700 },
+          { name: "Bœuf séché traditionnel", price_cents: 840 },
+          { name: "Salade de papaye verte", price_cents: 800 }
         ]
       },
       {
-        category: "Plats",
+        category_type: "main",
+        display_label: "Plats",
         items: [
-          { name: "Steak Lao (Entrecôte grillée)", price: "13€" },
-          { name: "Bar entier à la vapeur", price: "20€" },
-          { name: "Crevettes frites au lait de coco", price: "11€" },
-          { name: "Canard laqué au curry rouge", price: "11€" },
-          { name: "Curry de porc caramélisé", price: "8.20€" },
-          { name: "Maquereau entier aux herbes", price: "14.80€" }
+          { name: "Steak Lao (Entrecôte grillée)", price_cents: 1300 },
+          { name: "Bar entier à la vapeur", price_cents: 2000 },
+          { name: "Crevettes frites au lait de coco", price_cents: 1100 },
+          { name: "Canard laqué au curry rouge", price_cents: 1100 },
+          { name: "Curry de porc caramélisé", price_cents: 820 },
+          { name: "Maquereau entier aux herbes", price_cents: 1480 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Riz gluant à la mangue fraîche", price: "7€" },
-          { name: "Flan au lait de coco", price: "4€" },
-          { name: "Riz gluant noir au flan", price: "4€" },
-          { name: "Gélatines au lait de coco", price: "3€" }
+          { name: "Riz gluant à la mangue fraîche", price_cents: 700 },
+          { name: "Flan au lait de coco", price_cents: 400 },
+          { name: "Riz gluant noir au flan", price_cents: 400 },
+          { name: "Gélatines au lait de coco", price_cents: 300 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Thé glacé thaï (Maison)", price: "4.50€" },
-          { name: "Bière Singha (33cl)", price: "5.80€" },
-          { name: "Bière Beerlao (33cl)", price: "6€" },
-          { name: "Jus de coco frais", price: "5€" }
+          { name: "Thé glacé thaï (Maison)", price_cents: 450 },
+          { name: "Bière Singha (33cl)", price_cents: 580 },
+          { name: "Bière Beerlao (33cl)", price_cents: 600 },
+          { name: "Jus de coco frais", price_cents: 500 }
         ]
       }
     ]

@@ -42,57 +42,62 @@ export const le_baron_rouge: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Vins au Tonneau : Sélection Tradition (Boissons)",
+        category_type: "drink",
+        display_label: "Les Vins au Tonneau : Sélection Tradition (Boissons)",
         items: [
-          { name: "Merlot Ardéchois (Le Litre)", price: "4.50€", highlight: true },
-          { name: "Touraine Rouge (Le Litre)", price: "5.50€" },
-          { name: "Touraine Blanc (Le Litre)", price: "6.50€" },
-          { name: "Morgon Bio au Tonneau (Le Litre)", price: "10.00€" },
-          { name: "Côtes du Rhône (Le Litre)", price: "7.00€" }
+          { name: "Merlot Ardéchois (Le Litre)", price_cents: 450, is_highlight: true },
+          { name: "Touraine Rouge (Le Litre)", price_cents: 550 },
+          { name: "Touraine Blanc (Le Litre)", price_cents: 650 },
+          { name: "Morgon Bio au Tonneau (Le Litre)", price_cents: 1000 },
+          { name: "Côtes du Rhône (Le Litre)", price_cents: 700 }
         ]
       },
       {
-        category: "Vins au Verre & Pichets (Boissons)",
+        category_type: "drink",
+        display_label: "Vins au Verre & Pichets (Boissons)",
         items: [
-          { name: "Verre de Morgon Vieilles Vignes", price: "3.50€", highlight: true },
-          { name: "Verre de Sancerre Blanc", price: "4.50€" },
-          { name: "Verre de Muscadet Sèvre & Maine", price: "3.20€" },
-          { name: "Verre de Bordeaux Supérieur", price: "3.80€" },
-          { name: "Pichet de Rosé de Provence (25cl)", price: "4.50€" },
-          { name: "Pichet de Rouge de Table (50cl)", price: "8.00€" },
-          { name: "Bière Pression Artisanale (25cl)", price: "4.00€" }
+          { name: "Verre de Morgon Vieilles Vignes", price_cents: 350, is_highlight: true },
+          { name: "Verre de Sancerre Blanc", price_cents: 450 },
+          { name: "Verre de Muscadet Sèvre & Maine", price_cents: 320 },
+          { name: "Verre de Bordeaux Supérieur", price_cents: 380 },
+          { name: "Pichet de Rosé de Provence (25cl)", price_cents: 450 },
+          { name: "Pichet de Rouge de Table (50cl)", price_cents: 800 },
+          { name: "Bière Pression Artisanale (25cl)", price_cents: 400 }
         ]
       },
       {
-        category: "Rôtisserie Marine : Entrées & Plateaux (Saison : Sept-Avril)",
+        category_type: "starter",
+        display_label: "Rôtisserie Marine : Entrées & Plateaux (Saison : Sept-Avril)",
         items: [
-          { name: "Assiette de 6 Huîtres de Bretagne", price: "12.00€", highlight: true },
-          { name: "Assiette de 12 Huîtres de Bretagne", price: "22.00€" },
-          { name: "Pain de Seigle & Beurre Demi-Sel", price: "2.50€" },
-          { name: "Vinaigre à l'échalote maison", price: "0.50€" }
+          { name: "Assiette de 6 Huîtres de Bretagne", price_cents: 1200, is_highlight: true },
+          { name: "Assiette de 12 Huîtres de Bretagne", price_cents: 2200 },
+          { name: "Pain de Seigle & Beurre Demi-Sel", price_cents: 250 },
+          { name: "Vinaigre à l'échalote maison", price_cents: 50 }
         ]
       },
       {
-        category: "Planches & Grignotages (Plats)",
+        category_type: "main",
+        display_label: "Planches & Grignotages (Plats)",
         items: [
-          { name: "Planche Mixte (Charcuterie & Fromage)", price: "11.00€", highlight: true },
-          { name: "Planche de Charcuterie Fine", price: "11.00€" },
-          { name: "Planche de Fromages Affinés", price: "11.00€" },
-          { name: "Assiette de Saucisson Sec", price: "6.50€" },
-          { name: "Terrine de Campagne Maison", price: "7.00€" },
-          { name: "Rillettes d'Oie du Terroir", price: "7.50€" },
-          { name: "Olives de Lucques & Cornichons", price: "4.50€" },
-          { name: "Bocal de Foie Gras de Canard", price: "18.00€" }
+          { name: "Planche Mixte (Charcuterie & Fromage)", price_cents: 1100, is_highlight: true },
+          { name: "Planche de Charcuterie Fine", price_cents: 1100 },
+          { name: "Planche de Fromages Affinés", price_cents: 1100 },
+          { name: "Assiette de Saucisson Sec", price_cents: 650 },
+          { name: "Terrine de Campagne Maison", price_cents: 700 },
+          { name: "Rillettes d'Oie du Terroir", price_cents: 750 },
+          { name: "Olives de Lucques & Cornichons", price_cents: 450 },
+          { name: "Bocal de Foie Gras de Canard", price_cents: 1800 }
         ]
       },
       {
-        category: "Petites Faims & Douceurs",
+        category_type: "dessert",
+        display_label: "Petites Faims & Douceurs",
         items: [
-          { name: "Sandwich Mixte (Pain de campagne)", price: "6.50€" },
-          { name: "Tartine de Jambon de Pays", price: "5.50€" },
-          { name: "Cantaltou (Fromage à l'unité)", price: "4.50€" },
-          { name: "Fromage de Chèvre Fermier", price: "4.50€" },
-          { name: "Café Espresso", price: "2.00€" }
+          { name: "Sandwich Mixte (Pain de campagne)", price_cents: 650 },
+          { name: "Tartine de Jambon de Pays", price_cents: 550 },
+          { name: "Cantaltou (Fromage à l'unité)", price_cents: 450 },
+          { name: "Fromage de Chèvre Fermier", price_cents: 450 },
+          { name: "Café Espresso", price_cents: 200 }
         ]
       }
     ]

@@ -45,31 +45,34 @@ export const martin: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Martin Boire et Manger 2024-2025 (Petites assiettes & Vins)
             {
-                category: "Grignotages & Charcuteries",
+                category_type: "sharing",
+                display_label: "Grignotages & Charcuteries",
                 items: [
-                    { name: "Olives de Kalamata", price: "5.00€" },
-                    { name: "Saucisson de la Maison Montalet", price: "9.00€" },
-                    { name: "Pain & Beurre demi-sel", price: "4.00€" },
-                    { name: "Terrine Maison", price: "11.00€" }
+                    { name: "Olives de Kalamata", price_cents: 500 },
+                    { name: "Saucisson de la Maison Montalet", price_cents: 900 },
+                    { name: "Pain & Beurre demi-sel", price_cents: 400 },
+                    { name: "Terrine Maison", price_cents: 1100 }
                 ]
             },
             {
-                category: "Assiettes à Partager (Selon Saison)",
+                category_type: "sharing",
+                display_label: "Assiettes à Partager (Selon Saison)",
                 items: [
-                    { name: "Huîtres n°3 (x6)", price: "18.00€" },
-                    { name: "Burrata, huile de basilic, tomates cerises", price: "14.00€" },
-                    { name: "Croquettes de morue & aïoli", price: "12.00€" },
-                    { name: "Poireaux vinaigrette & noisettes torréfiées", price: "10.00€" },
-                    { name: "Gambas snackées au piment d'Espelette", price: "16.00€" },
-                    { name: "Abats du jour (Cœur de canard ou Ris de veau)", price: "15.00€" },
-                    { name: "Tataki de bœuf, sauce soja & sésame", price: "17.00€" }
+                    { name: "Huîtres n°3 (x6)", price_cents: 1800 },
+                    { name: "Burrata, huile de basilic, tomates cerises", price_cents: 1400 },
+                    { name: "Croquettes de morue & aïoli", price_cents: 1200 },
+                    { name: "Poireaux vinaigrette & noisettes torréfiées", price_cents: 1000 },
+                    { name: "Gambas snackées au piment d'Espelette", price_cents: 1600 },
+                    { name: "Abats du jour (Cœur de canard ou Ris de veau)", price_cents: 1500 },
+                    { name: "Tataki de bœuf, sauce soja & sésame", price_cents: 1700 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Mousse au chocolat & fleur de sel", price: "8.00€" },
-                    { name: "Plateau de fromages affinés", price: "14.00€" }
+                    { name: "Mousse au chocolat & fleur de sel", price_cents: 800 },
+                    { name: "Plateau de fromages affinés", price_cents: 1400 }
                 ]
             }
         ]

@@ -39,38 +39,41 @@ export const le_rempart_bastille: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Œufs mayonnaise 'Rempart'", price: "6.50€", description: "L'indémodable de la maison" },
-          { name: "Os à moelle rôti au sel de Guérande", price: "11.00€" },
-          { name: "Soupe à l'oignon gratinée", price: "9.50€" },
-          { name: "Burrata crémeuse et tomates d'antan", price: "12.50€" },
-          { name: "Escargots de Bourgogne (x6)", price: "9.00€" },
-          { name: "Planche de charcuterie fine", price: "18.00€" }
+          { name: "Œufs mayonnaise 'Rempart'", price_cents: 650, description: "L'indémodable de la maison" },
+          { name: "Os à moelle rôti au sel de Guérande", price_cents: 1100 },
+          { name: "Soupe à l'oignon gratinée", price_cents: 950 },
+          { name: "Burrata crémeuse et tomates d'antan", price_cents: 1250 },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 900 },
+          { name: "Planche de charcuterie fine", price_cents: 1800 }
         ]
       },
       {
-        category: "Les Les Plats",
+        category_type: "main",
+        display_label: "Les Les Plats",
         items: [
-          { name: "Tartare de bœuf tradition frites maison", price: "17.50€" },
-          { name: "Burger du Rempart (Cheddar, oignons confits)", price: "18.50€" },
-          { name: "Confit de canard du Sud-Ouest", price: "19.00€" },
-          { name: "Entrecôte grillée sauce au poivre", price: "24.00€" },
-          { name: "Fish & Chips sauce tartare", price: "17.00€" },
-          { name: "Salade César au poulet croustillant", price: "16.50€" },
-          { name: "Risotto aux champignons des bois", price: "18.00€" },
-          { name: "Tagliatelles à la crème de truffe", price: "20.00€" }
+          { name: "Tartare de bœuf tradition frites maison", price_cents: 1750 },
+          { name: "Burger du Rempart (Cheddar, oignons confits)", price_cents: 1850 },
+          { name: "Confit de canard du Sud-Ouest", price_cents: 1900 },
+          { name: "Entrecôte grillée sauce au poivre", price_cents: 2400 },
+          { name: "Fish & Chips sauce tartare", price_cents: 1700 },
+          { name: "Salade César au poulet croustillant", price_cents: 1650 },
+          { name: "Risotto aux champignons des bois", price_cents: 1800 },
+          { name: "Tagliatelles à la crème de truffe", price_cents: 2000 }
         ]
       },
       {
-        category: "Douceurs & Desserts",
+        category_type: "dessert",
+        display_label: "Douceurs & Desserts",
         items: [
-          { name: "Tiramisu maison au café", price: "8.50€" },
-          { name: "Crème brûlée à la vanille Bourbon", price: "8.00€" },
-          { name: "Mousse au chocolat noir", price: "7.50€" },
-          { name: "Profiteroles au chocolat chaud", price: "9.50€" },
-          { name: "Tarte Tatin et sa crème fraîche", price: "9.00€" },
-          { name: "Café gourmand du Rempart", price: "10.50€" }
+          { name: "Tiramisu maison au café", price_cents: 850 },
+          { name: "Crème brûlée à la vanille Bourbon", price_cents: 800 },
+          { name: "Mousse au chocolat noir", price_cents: 750 },
+          { name: "Profiteroles au chocolat chaud", price_cents: 950 },
+          { name: "Tarte Tatin et sa crème fraîche", price_cents: 900 },
+          { name: "Café gourmand du Rempart", price_cents: 1050 }
         ]
       }
     ]

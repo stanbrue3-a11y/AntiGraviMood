@@ -40,26 +40,35 @@ export const l_ete_en_pente_douce: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Plats de Tradition", items: [
-        { name: "Quiche Maison au Saumon & Épinards", price: "15.50€", description: "Servie avec une salade verte croquante" },
-        { name: "Salade de l'Été (XXL)", price: "16.50€", description: "Légumes grillés, feta, pignons, herbes fraîches" },
-        { name: "Parmentier de Canard Confit", price: "19.50€" },
-        { name: "Pavé de Cabillaud Rôti", price: "21.00€", description: "Écrasé de pommes de terre, huile de piment doux" },
-        { name: "Sauté d'Agneau aux Olives", price: "22.50€" },
-        { name: "Lasagnes Maison Aubergines & Moza", price: "17.00€" },
-        { name: "Quiche Chèvre & Miel", price: "15.50€" },
-        { name: "Salade César Montmartre", price: "16.00€" }
+      {
+        category_type: "main",
+        display_label: "Plats de Tradition",
+        items: [
+        { name: "Quiche Maison au Saumon & Épinards", price_cents: 1550, description: "Servie avec une salade verte croquante" },
+        { name: "Salade de l'Été (XXL)", price_cents: 1650, description: "Légumes grillés, feta, pignons, herbes fraîches" },
+        { name: "Parmentier de Canard Confit", price_cents: 1950 },
+        { name: "Pavé de Cabillaud Rôti", price_cents: 2100, description: "Écrasé de pommes de terre, huile de piment doux" },
+        { name: "Sauté d'Agneau aux Olives", price_cents: 2250 },
+        { name: "Lasagnes Maison Aubergines & Moza", price_cents: 1700 },
+        { name: "Quiche Chèvre & Miel", price_cents: 1550 },
+        { name: "Salade César Montmartre", price_cents: 1600 }
       ]},
-      { category: "Petites Faims (Entrées)", items: [
-        { name: "Soupe du Jour Artisanale", price: "9.50€" },
-        { name: "Assiette de Charcuterie Fine", price: "14.00€" },
-        { name: "Houmous Maison & Pain Grillé", price: "8.50€" },
-        { name: "Terrine de Campagne", price: "9.00€" }
+      {
+        category_type: "starter",
+        display_label: "Petites Faims (Entrées)",
+        items: [
+        { name: "Soupe du Jour Artisanale", price_cents: 950 },
+        { name: "Assiette de Charcuterie Fine", price_cents: 1400 },
+        { name: "Houmous Maison & Pain Grillé", price_cents: 850 },
+        { name: "Terrine de Campagne", price_cents: 900 }
       ]},
-      { category: "Desserts Maison", items: [
-        { name: "Tatin du Petit Muller", price: "9.50€", description: "Pommes caramélisées, crème fraîche épaisse" },
-        { name: "Moelleux Chocolat Cœur Fondant", price: "8.50€" },
-        { name: "Céline aux Fruits Rouges", price: "9.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts Maison",
+        items: [
+        { name: "Tatin du Petit Muller", price_cents: 950, description: "Pommes caramélisées, crème fraîche épaisse" },
+        { name: "Moelleux Chocolat Cœur Fondant", price_cents: 850 },
+        { name: "Céline aux Fruits Rouges", price_cents: 900 }
       ]}
     ]
   },

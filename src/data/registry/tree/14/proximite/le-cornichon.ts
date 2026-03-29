@@ -43,31 +43,34 @@ export const le_cornichon: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Menus du Moment (Standard Industriel)",
+                category_type: "tasting_menu",
+                display_label: "Menus du Moment (Standard Industriel)",
                 items: [
-                    { name: "Menu MIDI (Entrée + Plat + Dessert)", price: "35.00€" },
-                    { name: "Menu MIDI (Entrée + Plat)", price: "34.00€", description: "L'option déjeuner standard." },
-                    { name: "Menu SOIR (Entrée + Plat + Dessert)", price: "42.00€" },
-                    { name: "Menu SOIR (Entrée + Plat)", price: "41.00€" }
+                    { name: "Menu MIDI (Entrée + Plat + Dessert)", price_cents: 3500 },
+                    { name: "Menu MIDI (Entrée + Plat)", price_cents: 3400, description: "L'option déjeuner standard." },
+                    { name: "Menu SOIR (Entrée + Plat + Dessert)", price_cents: 4200 },
+                    { name: "Menu SOIR (Entrée + Plat)", price_cents: 4100 }
                 ]
             },
             {
-                category: "Exemples de Plats (Selon Arrivage)",
+                category_type: "main",
+                display_label: "Exemples de Plats (Selon Arrivage)",
                 items: [
-                    { name: "Épaule de porc de 12h, purée de panais", price: "Incl. Menu" },
-                    { name: "Cabillaud nacré, émulsion de coquillages", price: "Incl. Menu" },
-                    { name: "Poitrine de cochon croustillante", price: "Incl. Menu" },
-                    { name: "Velouté de potiron & châtaignes", price: "Incl. Menu" },
-                    { name: "Carpaccio de Saint-Jacques", price: "Incl. Menu" },
-                    { name: "Chou craquelin vanille Bourbon", price: "Incl. Menu" }
+                    { name: "Épaule de porc de 12h, purée de panais", price_cents: 0 },
+                    { name: "Cabillaud nacré, émulsion de coquillages", price_cents: 0 },
+                    { name: "Poitrine de cochon croustillante", price_cents: 0 },
+                    { name: "Velouté de potiron & châtaignes", price_cents: 0 },
+                    { name: "Carpaccio de Saint-Jacques", price_cents: 0 },
+                    { name: "Chou craquelin vanille Bourbon", price_cents: 0 }
                 ]
             },
             {
-                category: "À Partager (Apéritif)",
+                category_type: "sharing",
+                display_label: "À Partager (Apéritif)",
                 items: [
-                    { name: "Petites sardines à l'huile d'olive artisanales", price: "10.00€" },
-                    { name: "Socca minute croustillante à la fleur de sel", price: "7.00€" },
-                    { name: "½ Fuet Catalan artisanal", price: "10.00€" }
+                    { name: "Petites sardines à l'huile d'olive artisanales", price_cents: 1000 },
+                    { name: "Socca minute croustillante à la fleur de sel", price_cents: 700 },
+                    { name: "½ Fuet Catalan artisanal", price_cents: 1000 }
                 ]
             }
         ]

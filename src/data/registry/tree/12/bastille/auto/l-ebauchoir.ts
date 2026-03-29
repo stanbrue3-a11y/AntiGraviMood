@@ -42,56 +42,61 @@ export const l_ebauchoir: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Formules Déjeuner (Semaine - Plats)",
+        category_type: "main",
+        display_label: "Formules Déjeuner (Semaine - Plats)",
         items: [
-          { name: "Entrée + Plat du jour", price: "18.00€", highlight: true },
-          { name: "Plat du jour + Dessert", price: "18.00€" },
-          { name: "Entrée + Plat + Dessert", price: "21.00€", highlight: true }
+          { name: "Entrée + Plat du jour", price_cents: 1800, is_highlight: true },
+          { name: "Plat du jour + Dessert", price_cents: 1800 },
+          { name: "Entrée + Plat + Dessert", price_cents: 2100, is_highlight: true }
         ]
       },
       {
-        category: "Entrées : Créations de Saison",
+        category_type: "starter",
+        display_label: "Entrées : Créations de Saison",
         items: [
-          { name: "Filets de Hareng marinés, pommes à l'huile", price: "9.50€", highlight: true },
-          { name: "Houmous de lentilles vertes, pickles d'oignons", price: "10.00€" },
-          { name: "Terrine de Campagne maison & Condiments", price: "11.00€" },
-          { name: "Œuf Parfait, crème de topinambour", price: "12.50€" },
-          { name: "Carpaccio de Saint-Jacques, citron vert", price: "14.50€" },
-          { name: "Velouté de légumes oubliés au beurre noisette", price: "9.00€" }
+          { name: "Filets de Hareng marinés, pommes à l'huile", price_cents: 950, is_highlight: true },
+          { name: "Houmous de lentilles vertes, pickles d'oignons", price_cents: 1000 },
+          { name: "Terrine de Campagne maison & Condiments", price_cents: 1100 },
+          { name: "Œuf Parfait, crème de topinambour", price_cents: 1250 },
+          { name: "Carpaccio de Saint-Jacques, citron vert", price_cents: 1450 },
+          { name: "Velouté de légumes oubliés au beurre noisette", price_cents: 900 }
         ]
       },
       {
-        category: "Plats Signatures : Terre & Mer",
+        category_type: "main",
+        display_label: "Plats Signatures : Terre & Mer",
         items: [
-          { name: "Travers de Porc rôtis au miel et épices douces", price: "26.00€", highlight: true },
-          { name: "Poulpe de Galice grillé, écrasé de vitelotte", price: "29.00€", highlight: true },
-          { name: "Cabillaud de ligne, bisque de homard corsée", price: "28.00€" },
-          { name: "Épaule d'Agneau confite 12h, légumes racine", price: "27.50€" },
-          { name: "Pseudo-risotto d'épautre, champignons des bois", price: "24.00€" },
-          { name: "Onglet de Bœuf Angus, frites maison au couteau", price: "27.00€" },
-          { name: "Magret de Canard, réduction de Porto", price: "26.50€" }
+          { name: "Travers de Porc rôtis au miel et épices douces", price_cents: 2600, is_highlight: true },
+          { name: "Poulpe de Galice grillé, écrasé de vitelotte", price_cents: 2900, is_highlight: true },
+          { name: "Cabillaud de ligne, bisque de homard corsée", price_cents: 2800 },
+          { name: "Épaule d'Agneau confite 12h, légumes racine", price_cents: 2750 },
+          { name: "Pseudo-risotto d'épautre, champignons des bois", price_cents: 2400 },
+          { name: "Onglet de Bœuf Angus, frites maison au couteau", price_cents: 2700 },
+          { name: "Magret de Canard, réduction de Porto", price_cents: 2650 }
         ]
       },
       {
-        category: "Fromages & Desserts Mythiques",
+        category_type: "dessert",
+        display_label: "Fromages & Desserts Mythiques",
         items: [
-          { name: "Gâteau de Riz Grand-Mère (Signature Indétrônable)", price: "9.50€", highlight: true },
-          { name: "Mousse au Chocolat noir 70%, fleur de sel", price: "9.00€" },
-          { name: "Tarte tatin aux pommes Boskoop, crème crue", price: "10.50€" },
-          { name: "Baba au Rhum, crème fouettée vanille", price: "11.00€" },
-          { name: "Assiette de fromages de la Maison Quatrehomme", price: "12.00€" },
-          { name: "Sorbet maison (3 boules au choix)", price: "8.50€" }
+          { name: "Gâteau de Riz Grand-Mère (Signature Indétrônable)", price_cents: 950, is_highlight: true },
+          { name: "Mousse au Chocolat noir 70%, fleur de sel", price_cents: 900 },
+          { name: "Tarte tatin aux pommes Boskoop, crème crue", price_cents: 1050 },
+          { name: "Baba au Rhum, crème fouettée vanille", price_cents: 1100 },
+          { name: "Assiette de fromages de la Maison Quatrehomme", price_cents: 1200 },
+          { name: "Sorbet maison (3 boules au choix)", price_cents: 850 }
         ]
       },
       {
-        category: "Sélection de la Cave (Boissons)",
+        category_type: "drink",
+        display_label: "Sélection de la Cave (Boissons)",
         items: [
-          { name: "Verre de Crozes-Hermitage Rouge", price: "9.50€" },
-          { name: "Verre de Chablis (Sélection Domaine)", price: "11.00€" },
-          { name: "Verre de Languedoc Nature", price: "8.50€" },
-          { name: "Pichet de vin de pays (25cl)", price: "9.00€" },
-          { name: "Café de spécialité torréfié à Paris", price: "3.20€" },
-          { name: "Eau micro-filtrée (75cl)", price: "4.50€" }
+          { name: "Verre de Crozes-Hermitage Rouge", price_cents: 950 },
+          { name: "Verre de Chablis (Sélection Domaine)", price_cents: 1100 },
+          { name: "Verre de Languedoc Nature", price_cents: 850 },
+          { name: "Pichet de vin de pays (25cl)", price_cents: 900 },
+          { name: "Café de spécialité torréfié à Paris", price_cents: 320 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 450 }
         ]
       }
     ]

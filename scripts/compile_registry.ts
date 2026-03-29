@@ -117,47 +117,14 @@ function getNormalizedPrice(p: SurgicalPlace, effectivePricing: any): number {
 function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
   if (!menuItems || menuItems.length === 0) return null;
 
-  // Industrial keywords for main courses in the 11th's diverse landscape
-  const dishCategories = [
-    'plats', 'pizzas', 'burgers', 'signature', 'couscous', 'bibimbaps', 'grillades', 
-    'pâtes', 'bowls', 'tradition', 'main courses', 'les plats', 'spécialités', 
-    'viandes', 'poissons', 'planches', 'boards', 'boxes', 'primi', 'secondi', 'piatti',
-    'galettes', 'crêpes', 'dumplings', 'baos', 'cups', 'wok', 'curries', 'ramens', 
-    'bentos', 'sushis', 'rolls', 'shakshukas', 'assiettes', 'sharing', 'brunch', 
-    'breakfast', 'petit-déjeuner', 'déjeuner', 'lunch', 'salades', 'sandwiches', 'tacos',
-    // Hardened Keywords (Phase 19/20)
-    'plat', 'main', 'résistance', 'course', 'traditionnel', 'curry', 'bowl', 'burger', 'pizza', 'pizze', 'pasta',
-    'poisson', 'viande', 'noodle', 'bo bun', 'ramen', 'udon', 'galette',
-    'crêpe salée', 'incontournable', 'ardoise', 'légende', 'classique', 'océan', 'empreinte',
-    'crapaud', 'arrivage', 'écailler', 'cocotte', 'maison', 'mezzé', 'taco', 'burrito', 'quesadilla',
-    'tajine', 'mijoté', 'brochette', 'spécialité', 'suggestion', 'box', 'planche',
-    'pâtisserie', 'gâteau', 'viennoiserie', 'satiété', 'saison', 'carte', 'cuisine', 'moment', 'bistronomie',
-    'fusion', 'lyonnaiseries', 'poulet'
-  ];
-
-  const exclusionKeywords = [
-    'entrée', 'entree', 'starter', 'dessert', 'formule', 'boisson', 'cocktail', 
-    'vin', 'bière', 'biere', 'café', 'cafe', 'accompagnement', 'garniture', 
-    'petit', 'apéro', 'apero', 'amuse', 'enfant', 'accord', 'supplément', 'supplement',
-    // Hardened Keywords (Phase 19/20)
-    'auspice', 'prélude', 'douceur', 'mignardise', 'amuse-bouche', 'appetizer', 'sucrée', 'sucré', 'digestif', 'fromage', 'side'
-  ];
-
-  const secondaryCategories = ['fromages', 'charcuteries', 'tapas', 'mezes', 'snacks'];
-
   let prices: number[] = [];
   let foundMainDish = false;
 
   menuItems.forEach(cat => {
-    const categoryName = cat.category.toLowerCase();
-    const isMainDish = dishCategories.some(dc => categoryName.includes(dc));
-    const isExcluded = exclusionKeywords.some(ek => categoryName.includes(ek));
-
-    if (isMainDish && !isExcluded) {
+    if (cat.category_type === 'main') {
       cat.items.forEach((item: any) => {
-        const priceStr = item.price.replace('€', '').replace(',', '.').trim();
-        const priceNum = parseFloat(priceStr);
-        // Minimum threshold for a "main" item depends on category, but 7€ is a safe floor for the 11th
+        const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
+        // Minimum threshold for a "main" item depends on category, but 7€ is a safe floor
         if (!isNaN(priceNum) && priceNum >= 7) { 
           prices.push(priceNum); 
           foundMainDish = true; 
@@ -168,11 +135,9 @@ function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
 
   if (!foundMainDish || prices.length < 3) {
     menuItems.forEach(cat => {
-      const categoryName = cat.category.toLowerCase();
-      if (secondaryCategories.some(sc => categoryName.includes(sc)) || categoryName.includes('tapas')) {
+      if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
         cat.items.forEach((item: any) => {
-          const priceStr = item.price.replace('€', '').replace(',', '.').trim();
-          const priceNum = parseFloat(priceStr);
+          const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
           if (!isNaN(priceNum) && priceNum >= 4) { 
             prices.push(priceNum); 
           }
@@ -223,7 +188,7 @@ allPlaces.forEach((p, index) => {
     if (!isFixedMenu && p.pricing.menu_items && p.pricing.menu_items.length > 0) {
       const allItems = p.pricing.menu_items!.flatMap(cat => cat.items);
       const pricedItems = allItems.filter(item => {
-          const priceNum = parseFloat(item.price?.replace('€', '').replace(',', '.') || '0');
+          const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
           return priceNum > 0;
       });
       if (pricedItems.length < 10) {

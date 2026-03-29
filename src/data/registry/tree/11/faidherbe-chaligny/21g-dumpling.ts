@@ -26,77 +26,85 @@ export const twentyOneGDumpling: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Xiao Long Bao (Vapeurs de Shanghai)",
+                category_type: "other",
+                display_label: "Xiao Long Bao (Vapeurs de Shanghai)",
                 items: [
-                    { name: "XLB Porc (Standard)", price: "12.00€", description: "Cœur bouillon bouillant, porc fermier." },
-                    { name: "XLB Poulet & Foie Gras", price: "13.50€", description: "Le luxe à la française en bouchée vapeur." },
-                    { name: "XLB Crevette & Citronnelle", price: "12.50€", description: "Eau de coco et herbes fraîches." },
-                    { name: "XLB Crabe & Porc", price: "14.50€" },
-                    { name: "XLB Poireau & Porc", price: "12.00€" }
+                    { name: "XLB Porc (Standard)", price_cents: 1200, description: "Cœur bouillon bouillant, porc fermier." },
+                    { name: "XLB Poulet & Foie Gras", price_cents: 1350, description: "Le luxe à la française en bouchée vapeur." },
+                    { name: "XLB Crevette & Citronnelle", price_cents: 1250, description: "Eau de coco et herbes fraîches." },
+                    { name: "XLB Crabe & Porc", price_cents: 1450 },
+                    { name: "XLB Poireau & Porc", price_cents: 1200 }
                 ]
             },
             {
-                category: "Wontons & Raviolis Grillés",
+                category_type: "other",
+                display_label: "Wontons & Raviolis Grillés",
                 items: [
-                    { name: "Wontons Porc & Crevette (Sauce Chili)", price: "11.50€" },
-                    { name: "Wontons Sauce Jade (Coriandre/Epinard)", price: "11.50€" },
-                    { name: "Guo Tie Poulet (Raviolis Grillés)", price: "11.00€", description: "Servis avec une sauce saté maison." },
-                    { name: "Veggie Dumplings (V)", price: "10.50€", description: "Chou chinois, shiitake, céleri." },
-                    { name: "Siu Mai de Canard Confit", price: "11.00€", description: "Sauce Hoi Sin et oignons frits." }
+                    { name: "Wontons Porc & Crevette (Sauce Chili)", price_cents: 1150 },
+                    { name: "Wontons Sauce Jade (Coriandre/Epinard)", price_cents: 1150 },
+                    { name: "Guo Tie Poulet (Raviolis Grillés)", price_cents: 1100, description: "Servis avec une sauce saté maison." },
+                    { name: "Veggie Dumplings (V)", price_cents: 1050, description: "Chou chinois, shiitake, céleri." },
+                    { name: "Siu Mai de Canard Confit", price_cents: 1100, description: "Sauce Hoi Sin et oignons frits." }
                 ]
             },
             {
-                category: "Gua Bao & Bao Burgers",
+                category_type: "main",
+                display_label: "Gua Bao & Bao Burgers",
                 items: [
-                    { name: "Gua Bao Porc Classique", price: "8.50€", description: "Poitrine fondante, cacahuètes, coriandre." },
-                    { name: "Gua Bao Poulet Frit", price: "8.50€" },
-                    { name: "Gua Bao Canard BBQ", price: "8.50€" },
-                    { name: "Bao Burger Beef Teriyaki", price: "13.50€" },
-                    { name: "Bao Burger Fried Portobello (V)", price: "13.00€", description: "Champignon pané, fromage, oignons glacés." }
+                    { name: "Gua Bao Porc Classique", price_cents: 850, description: "Poitrine fondante, cacahuètes, coriandre." },
+                    { name: "Gua Bao Poulet Frit", price_cents: 850 },
+                    { name: "Gua Bao Canard BBQ", price_cents: 850 },
+                    { name: "Bao Burger Beef Teriyaki", price_cents: 1350 },
+                    { name: "Bao Burger Fried Portobello (V)", price_cents: 1300, description: "Champignon pané, fromage, oignons glacés." }
                 ]
             },
             {
-                category: "Plats (Signatures)",
+                category_type: "main",
+                display_label: "Plats (Signatures)",
                 items: [
-                    { name: "Poitrine de Porc Dongpo", price: "16.00€", description: "Mijotée 4h, pak choi et riz blanc." },
-                    { name: "Taiwanese Fried Chicken Curry", price: "15.50€", description: "Sauce curry douce, œuf mariné." }
+                    { name: "Poitrine de Porc Dongpo", price_cents: 1600, description: "Mijotée 4h, pak choi et riz blanc." },
+                    { name: "Taiwanese Fried Chicken Curry", price_cents: 1550, description: "Sauce curry douce, œuf mariné." }
                 ]
             },
             {
-                category: "Riz & Nouilles (Petits Plats)",
+                category_type: "main",
+                display_label: "Riz & Nouilles (Petits Plats)",
                 items: [
-                    { name: "Riz Sauté aux Crevettes", price: "10.00€" },
-                    { name: "Noodles Sauce Cacahuète & Sésame", price: "8.50€" },
-                    { name: "Noodles Epicées (Chili oil)", price: "8.50€" }
+                    { name: "Riz Sauté aux Crevettes", price_cents: 1000 },
+                    { name: "Noodles Sauce Cacahuète & Sésame", price_cents: 850 },
+                    { name: "Noodles Epicées (Chili oil)", price_cents: 850 }
                 ]
             },
             {
-                category: "Accompagnements & Veggies",
+                category_type: "other",
+                display_label: "Accompagnements & Veggies",
                 items: [
-                    { name: "Aubergines Chinoises Fondantes", price: "7.50€" },
-                    { name: "Pak Choi Sauté Ail & Soja", price: "8.50€" },
-                    { name: "Riz Blanc", price: "3.00€" }
+                    { name: "Aubergines Chinoises Fondantes", price_cents: 750 },
+                    { name: "Pak Choi Sauté Ail & Soja", price_cents: 850 },
+                    { name: "Riz Blanc", price_cents: 300 }
                 ]
             },
             {
-                category: "Douceurs de Taipei",
+                category_type: "dessert",
+                display_label: "Douceurs de Taipei",
                 items: [
-                    { name: "Sago Mango & Pamplemousse", price: "7.00€", description: "Perles de tapioca au lait de coco." },
-                    { name: "Crème Brûlée au Sésame Noir", price: "9.00€" },
-                    { name: "Hong Kong Egg Waffle Gianduja", price: "10.00€", description: "Caramel beurre salé, peanuts." },
-                    { name: "Glace Sésame Noir", price: "6.50€" },
-                    { name: "Mochi Artisanal (Unité)", price: "3.50€" }
+                    { name: "Sago Mango & Pamplemousse", price_cents: 700, description: "Perles de tapioca au lait de coco." },
+                    { name: "Crème Brûlée au Sésame Noir", price_cents: 900 },
+                    { name: "Hong Kong Egg Waffle Gianduja", price_cents: 1000, description: "Caramel beurre salé, peanuts." },
+                    { name: "Glace Sésame Noir", price_cents: 650 },
+                    { name: "Mochi Artisanal (Unité)", price_cents: 350 }
                 ]
             },
             {
-                category: "Drinks & Bières",
+                category_type: "other",
+                display_label: "Drinks & Bières",
                 items: [
-                    { name: "Tsingtao Beer (33cl)", price: "6.00€" },
-                    { name: "Jus de Lychee", price: "4.00€" },
-                    { name: "Ginger Beer Fever-Tree", price: "4.50€" },
-                    { name: "Thé Glacé Maison (Citronnelle)", price: "5.50€" },
-                    { name: "Coca-Cola (33cl)", price: "3.00€" },
-                    { name: "San Pellegrino (50cl)", price: "3.00€" }
+                    { name: "Tsingtao Beer (33cl)", price_cents: 600 },
+                    { name: "Jus de Lychee", price_cents: 400 },
+                    { name: "Ginger Beer Fever-Tree", price_cents: 450 },
+                    { name: "Thé Glacé Maison (Citronnelle)", price_cents: 550 },
+                    { name: "Coca-Cola (33cl)", price_cents: 300 },
+                    { name: "San Pellegrino (50cl)", price_cents: 300 }
                 ]
             }
         ]

@@ -47,48 +47,52 @@ export const fulgurances: SurgicalPlace = {
             // MENUS RÉELS VÉRIFIÉS (Source: 2024-2025 Residency Cycle)
             // ═══════════════════════════════════════════
             {
-                category: "L'Univers du Chef en Résidence (Formules)",
+                category_type: "tasting_menu",
+                display_label: "L'Univers du Chef en Résidence (Formules)",
                 items: [
-                    { name: "Menu Déjeuner (entrée + plat)", price: "22.00€", description: "L'expression du midi, courte et percutante." },
-                    { name: "Menu Déjeuner complet (E+P+D)", price: "25.00€" },
-                    { name: "Menu Dîner (3 temps)", price: "44.00€", description: "La balade initiatique du soir." },
-                    { name: "Menu Dîner Dégustation (5-6 temps)", price: "75.00€", description: "Immersion totale dans l'univers du résident (selon chef)." },
-                    { name: "Accord Mets & Vins", price: "45.00€" }
+                    { name: "Menu Déjeuner (entrée + plat)", price_cents: 2200, description: "L'expression du midi, courte et percutante." },
+                    { name: "Menu Déjeuner complet (E+P+D)", price_cents: 2500 },
+                    { name: "Menu Dîner (3 temps)", price_cents: 4400, description: "La balade initiatique du soir." },
+                    { name: "Menu Dîner Dégustation (5-6 temps)", price_cents: 7500, description: "Immersion totale dans l'univers du résident (selon chef)." },
+                    { name: "Accord Mets & Vins", price_cents: 4500 }
                 ]
             },
             {
-                category: "Inspirations des Résidences (Items Historiques)",
+                category_type: "other",
+                display_label: "Inspirations des Résidences (Items Historiques)",
                 items: [
-                    { name: "Ceviche de mulet noir, hibiscus & coriandre", price: "Inclus" },
-                    { name: "Bouillon de canard, œuf mollet & moelle", price: "Inclus" },
-                    { name: "Brocoli brûlé, crème de tournesol & anchois", price: "Inclus" },
-                    { name: "Gnocchis à la sauge & noisettes du Piémont", price: "Inclus" },
-                    { name: "Cabillaud nacré, émulsion lait de coco & galanga", price: "Inclus" },
-                    { name: "Paleron de bœuf au barbecue, échalotes", price: "Inclus" },
-                    { name: "Longe de porc, courgettes grillées & anchois", price: "Inclus" },
-                    { name: "Tartare de thon, citron vert et piment", price: "Inclus" },
-                    { name: "Mousse de foie de volaille, gelée de pomme", price: "Inclus" },
-                    { name: "Salade de courge rôti, graines de courge & féta", price: "Inclus" },
-                    { name: "Risotto de petit-épeautre aux champignons", price: "Inclus" }
+                    { name: "Ceviche de mulet noir, hibiscus & coriandre", price_cents: 0 },
+                    { name: "Bouillon de canard, œuf mollet & moelle", price_cents: 0 },
+                    { name: "Brocoli brûlé, crème de tournesol & anchois", price_cents: 0 },
+                    { name: "Gnocchis à la sauge & noisettes du Piémont", price_cents: 0 },
+                    { name: "Cabillaud nacré, émulsion lait de coco & galanga", price_cents: 0 },
+                    { name: "Paleron de bœuf au barbecue, échalotes", price_cents: 0 },
+                    { name: "Longe de porc, courgettes grillées & anchois", price_cents: 0 },
+                    { name: "Tartare de thon, citron vert et piment", price_cents: 0 },
+                    { name: "Mousse de foie de volaille, gelée de pomme", price_cents: 0 },
+                    { name: "Salade de courge rôti, graines de courge & féta", price_cents: 0 },
+                    { name: "Risotto de petit-épeautre aux champignons", price_cents: 0 }
                 ]
             },
             {
-                category: "Douceurs Éphémères",
+                category_type: "dessert",
+                display_label: "Douceurs Éphémères",
                 items: [
-                    { name: "Ganache chocolat fumé & glace topinambour", price: "Inclus" },
-                    { name: "Tartelette rhubarbe & poivre de Timut", price: "Inclus" },
-                    { name: "Sorbet herbes fraîches & yaourt", price: "Inclus" },
-                    { name: "Mignardises du jour", price: "Inclus" }
+                    { name: "Ganache chocolat fumé & glace topinambour", price_cents: 0 },
+                    { name: "Tartelette rhubarbe & poivre de Timut", price_cents: 0 },
+                    { name: "Sorbet herbes fraîches & yaourt", price_cents: 0 },
+                    { name: "Mignardises du jour", price_cents: 0 }
                 ]
             },
             {
-                category: "Vins Natures & Cave Pointue",
+                category_type: "drink",
+                display_label: "Vins Natures & Cave Pointue",
                 items: [
-                    { name: "Verre de vin nature (Sully, Loire...)", price: "9.00€" },
-                    { name: "Bouteille de vin nature (à partir de)", price: "28.00€" },
-                    { name: "Eau micro-filtrée (Castalie)", price: "3.50€" },
-                    { name: "Café de spécialité", price: "4.50€" },
-                    { name: "Thé / Infusions", price: "4.50€" }
+                    { name: "Verre de vin nature (Sully, Loire...)", price_cents: 900 },
+                    { name: "Bouteille de vin nature (à partir de)", price_cents: 2800 },
+                    { name: "Eau micro-filtrée (Castalie)", price_cents: 350 },
+                    { name: "Café de spécialité", price_cents: 450 },
+                    { name: "Thé / Infusions", price_cents: 450 }
                 ]
             }
         ]

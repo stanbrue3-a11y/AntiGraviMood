@@ -42,54 +42,59 @@ export const auberge_de_la_butte: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées & Mezzés",
+        category_type: "starter",
+        display_label: "Entrées & Mezzés",
         items: [
-          { name: "Cuisses de Grenouilles persillées", price: "14.00€", highlight: true },
-          { name: "6 Escargots au beurre de pays", price: "9.00€" },
-          { name: "Millefeuille de Chèvre & Épinards", price: "10.00€" },
-          { name: "Burrata Campani & Tomates", price: "13.00€" },
-          { name: "Mezzé Maison (Assortiment)", price: "10.00€" },
-          { name: "Assiette de Charcuteries fines", price: "10.00€" }
+          { name: "Cuisses de Grenouilles persillées", price_cents: 1400, is_highlight: true },
+          { name: "6 Escargots au beurre de pays", price_cents: 900 },
+          { name: "Millefeuille de Chèvre & Épinards", price_cents: 1000 },
+          { name: "Burrata Campani & Tomates", price_cents: 1300 },
+          { name: "Mezzé Maison (Assortiment)", price_cents: 1000 },
+          { name: "Assiette de Charcuteries fines", price_cents: 1000 }
         ]
       },
       {
-        category: "Plats de Terroir (Viandes)",
+        category_type: "main",
+        display_label: "Plats de Terroir (Viandes)",
         items: [
-          { name: "Bœuf Bourguignon Tradition", price: "18.00€", highlight: true },
-          { name: "Magret de Canard au Miel", price: "20.00€" },
-          { name: "Bavette aux Échalotes", price: "18.00€" },
-          { name: "Cochon de Lait rôti au thym", price: "21.00€" },
-          { name: "Carré d'Agneau au Romarin", price: "20.00€" },
-          { name: "Tartare de Bœuf Charolais", price: "18.00€" }
+          { name: "Bœuf Bourguignon Tradition", price_cents: 1800, is_highlight: true },
+          { name: "Magret de Canard au Miel", price_cents: 2000 },
+          { name: "Bavette aux Échalotes", price_cents: 1800 },
+          { name: "Cochon de Lait rôti au thym", price_cents: 2100 },
+          { name: "Carré d'Agneau au Romarin", price_cents: 2000 },
+          { name: "Tartare de Bœuf Charolais", price_cents: 1800 }
         ]
       },
       {
-        category: "Pizzas au Feu de Bois (Plats)",
+        category_type: "main",
+        display_label: "Pizzas au Feu de Bois (Plats)",
         items: [
-          { name: "Pizza Reginella (Jambon/Champignons)", price: "16.00€" },
-          { name: "Quattro Formaggi (Bio)", price: "15.00€" },
-          { name: "Pizza Tutto Fuoco (Pimentée)", price: "15.00€" },
-          { name: "Pizza Salmone & Citron", price: "16.00€" },
-          { name: "Margherita Classica", price: "13.00€" }
+          { name: "Pizza Reginella (Jambon/Champignons)", price_cents: 1600 },
+          { name: "Quattro Formaggi (Bio)", price_cents: 1500 },
+          { name: "Pizza Tutto Fuoco (Pimentée)", price_cents: 1500 },
+          { name: "Pizza Salmone & Citron", price_cents: 1600 },
+          { name: "Margherita Classica", price_cents: 1300 }
         ]
       },
       {
-        category: "Côté Mer & Végé (Plats)",
+        category_type: "main",
+        display_label: "Côté Mer & Végé (Plats)",
         items: [
-          { name: "Daurade Royale Grillée", price: "20.00€" },
-          { name: "Pavé de Saumon à l'Olivier", price: "18.00€" },
-          { name: "Gambas Géantes à la Plancha", price: "22.00€" },
-          { name: "Suggestion Végétarienne du Jour", price: "17.00€" }
+          { name: "Daurade Royale Grillée", price_cents: 2000 },
+          { name: "Pavé de Saumon à l'Olivier", price_cents: 1800 },
+          { name: "Gambas Géantes à la Plancha", price_cents: 2200 },
+          { name: "Suggestion Végétarienne du Jour", price_cents: 1700 }
         ]
       },
       {
-        category: "Salades & Douceurs",
+        category_type: "dessert",
+        display_label: "Salades & Douceurs",
         items: [
-          { name: "Salade de Poulpe à la Gallega", price: "16.00€" },
-          { name: "Salade Niçoise au Thon frais", price: "13.00€" },
-          { name: "Tarte Tatin de l'Auberge", price: "8.50€" },
-          { name: "Mousse Chocolat à la louche", price: "7.00€" },
-          { name: "Café Gourmand de la Butte", price: "9.50€" }
+          { name: "Salade de Poulpe à la Gallega", price_cents: 1600 },
+          { name: "Salade Niçoise au Thon frais", price_cents: 1300 },
+          { name: "Tarte Tatin de l'Auberge", price_cents: 850 },
+          { name: "Mousse Chocolat à la louche", price_cents: 700 },
+          { name: "Café Gourmand de la Butte", price_cents: 950 }
         ]
       }
     ]

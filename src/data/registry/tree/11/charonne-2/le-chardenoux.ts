@@ -42,60 +42,65 @@ export const le_chardenoux: SurgicalPlace = {
         last_updated: "2026-03-06",
     menu_items: [
       {
-        category: "Entrées Marine & Créativité (Entrées)",
+        category_type: "starter",
+        display_label: "Entrées Marine & Créativité (Entrées)",
         items: [
-          { name: "Crispy Sushi Saumon, agrumes & chipotle", price: "16.00€", highlight: true },
-          { name: "Crevettes Croustillantes épicées, romaine", price: "19.00€" },
-          { name: "Carpaccio de Daurade Royale au citron", price: "19.00€" },
-          { name: "Beignets d'Encornets, mayo paprika", price: "17.00€" },
-          { name: "Tartare de Thon Ponzu, avocat sésame", price: "20.00€" },
-          { name: "Galette craquante au Tourteau, curry", price: "25.00€", highlight: true },
-          { name: "Six Huîtres Utah Beach N°2", price: "24.00€" },
-          { name: "Asperges Vertes caramélisées au miso", price: "20.00€" }
+          { name: "Crispy Sushi Saumon, agrumes & chipotle", price_cents: 1600, is_highlight: true },
+          { name: "Crevettes Croustillantes épicées, romaine", price_cents: 1900 },
+          { name: "Carpaccio de Daurade Royale au citron", price_cents: 1900 },
+          { name: "Beignets d'Encornets, mayo paprika", price_cents: 1700 },
+          { name: "Tartare de Thon Ponzu, avocat sésame", price_cents: 2000 },
+          { name: "Galette craquante au Tourteau, curry", price_cents: 2500, is_highlight: true },
+          { name: "Six Huîtres Utah Beach N°2", price_cents: 2400 },
+          { name: "Asperges Vertes caramélisées au miso", price_cents: 2000 }
         ]
       },
       {
-        category: "Plats Signatures & Partage (Plats)",
+        category_type: "main",
+        display_label: "Plats Signatures & Partage (Plats)",
         items: [
-          { name: "Ravioles de Langoustines, bisque légère", price: "32.00€", highlight: true },
-          { name: "Lieu Jaune au miso, petits pois", price: "28.00€" },
-          { name: "Lobster Roll, crevettes & avocat", price: "32.00€", highlight: true },
-          { name: "Le Cheeseburger du Chardenoux", price: "28.00€" },
-          { name: "Bavette grillée aux épices Saté", price: "28.00€" },
-          { name: "Épaule d'Agneau confite aux olives", price: "31.00€" },
-          { name: "Bar en croûte de sel (pour 2)", price: "90.00€" },
-          { name: "Côte de Boeuf 500g, Béarnaise (pour 2)", price: "80.00€" }
+          { name: "Ravioles de Langoustines, bisque légère", price_cents: 3200, is_highlight: true },
+          { name: "Lieu Jaune au miso, petits pois", price_cents: 2800 },
+          { name: "Lobster Roll, crevettes & avocat", price_cents: 3200, is_highlight: true },
+          { name: "Le Cheeseburger du Chardenoux", price_cents: 2800 },
+          { name: "Bavette grillée aux épices Saté", price_cents: 2800 },
+          { name: "Épaule d'Agneau confite aux olives", price_cents: 3100 },
+          { name: "Bar en croûte de sel (pour 2)", price_cents: 9000 },
+          { name: "Côte de Boeuf 500g, Béarnaise (pour 2)", price_cents: 8000 }
         ]
       },
       {
-        category: "Desserts de Haute Pâtisserie (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts de Haute Pâtisserie (Desserts)",
         items: [
-          { name: "Mille-feuille Vanille, praliné pécan", price: "12.00€", highlight: true },
-          { name: "Pain Perdu aux framboises, pistache", price: "12.00€" },
-          { name: "Biscuit coulant au Chocolat Noir", price: "12.00€" },
-          { name: "Baba au Rhum, crème fouettée vanille", price: "12.00€" },
-          { name: "Tarte Tatin artisanale, crème crue", price: "15.00€" },
-          { name: "Profiteroles glacées, sauce chocolat", price: "14.00€" }
+          { name: "Mille-feuille Vanille, praliné pécan", price_cents: 1200, is_highlight: true },
+          { name: "Pain Perdu aux framboises, pistache", price_cents: 1200 },
+          { name: "Biscuit coulant au Chocolat Noir", price_cents: 1200 },
+          { name: "Baba au Rhum, crème fouettée vanille", price_cents: 1200 },
+          { name: "Tarte Tatin artisanale, crème crue", price_cents: 1500 },
+          { name: "Profiteroles glacées, sauce chocolat", price_cents: 1400 }
         ]
       },
       {
-        category: "Mixologie & Cocktails (Boissons)",
+        category_type: "drink",
+        display_label: "Mixologie & Cocktails (Boissons)",
         items: [
-          { name: "Cocktail 'Le Chardenoux' (Gin/Hibiscus)", price: "15.00€", highlight: true },
-          { name: "Martini Espresso du Chef", price: "16.00€" },
-          { name: "Spicy Margarita (Tequila/Piment)", price: "15.00€" },
-          { name: "Mocktail 'Jardin d'Hiver'", price: "11.00€" }
+          { name: "Cocktail 'Le Chardenoux' (Gin/Hibiscus)", price_cents: 1500, is_highlight: true },
+          { name: "Martini Espresso du Chef", price_cents: 1600 },
+          { name: "Spicy Margarita (Tequila/Piment)", price_cents: 1500 },
+          { name: "Mocktail 'Jardin d'Hiver'", price_cents: 1100 }
         ]
       },
       {
-        category: "Flacons & Boissons (Boissons)",
+        category_type: "drink",
+        display_label: "Flacons & Boissons (Boissons)",
         items: [
-          { name: "Verre de Chablis 'Sélection'", price: "12.00€", highlight: true },
-          { name: "Verre de Pessac-Léognan", price: "14.00€" },
-          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
-          { name: "Café Espresso Signature", price: "3.50€" },
-          { name: "Double Espresso", price: "5.50€" },
-          { name: "Thé Mariage Frères", price: "7.00€" }
+          { name: "Verre de Chablis 'Sélection'", price_cents: 1200, is_highlight: true },
+          { name: "Verre de Pessac-Léognan", price_cents: 1400 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 500 },
+          { name: "Café Espresso Signature", price_cents: 350 },
+          { name: "Double Espresso", price_cents: 550 },
+          { name: "Thé Mariage Frères", price_cents: 700 }
         ]
       }
     ]

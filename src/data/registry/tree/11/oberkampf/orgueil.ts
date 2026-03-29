@@ -44,40 +44,44 @@ export const orgueil: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Bistro - Les Produits & Le Végétal",
+                category_type: "other",
+                display_label: "Bistro - Les Produits & Le Végétal",
                 items: [
-                    { name: "Pâté en croûte de saison", price: "13.00€", description: "Veau, porc et fruits secs" },
-                    { name: "Terrine du moment", price: "12.00€", description: "Accompagnée de pickles" },
-                    { name: "Poireaux brûlés", price: "11.00€", description: "Sauce gribiche et noisettes" },
-                    { name: "Betteraves fumées au bois", price: "12.00€", description: "Crème de raifort et aneth" },
-                    { name: "Gnocchis à la parisienne", price: "14.00€", description: "Beurre de sauge et parmesan" }
+                    { name: "Pâté en croûte de saison", price_cents: 1300, description: "Veau, porc et fruits secs" },
+                    { name: "Terrine du moment", price_cents: 1200, description: "Accompagnée de pickles" },
+                    { name: "Poireaux brûlés", price_cents: 1100, description: "Sauce gribiche et noisettes" },
+                    { name: "Betteraves fumées au bois", price_cents: 1200, description: "Crème de raifort et aneth" },
+                    { name: "Gnocchis à la parisienne", price_cents: 1400, description: "Beurre de sauge et parmesan" }
                 ]
             },
             {
-                category: "Bistro - Mer & Terre",
+                category_type: "other",
+                display_label: "Bistro - Mer & Terre",
                 items: [
-                    { name: "Seiche à la plancha", price: "14.00€", description: "Teriyaki, purée de pommes de terre au citron Beldi" },
-                    { name: "Croquetas de porc", price: "11.00€", description: "Sésame, cream cheese et sauce pimentée" },
-                    { name: "Agneau confit de 12h", price: "16.00€", description: "Salicorne, darphins à la noisette" },
-                    { name: "Côte de boeuf (pour 2)", price: "85.00€", description: "Sélectionnée par le boucher, frites maison" },
-                    { name: "Poisson du marché au barbecue", price: "24.00€", description: "Légumes de saison rôtis" }
+                    { name: "Seiche à la plancha", price_cents: 1400, description: "Teriyaki, purée de pommes de terre au citron Beldi" },
+                    { name: "Croquetas de porc", price_cents: 1100, description: "Sésame, cream cheese et sauce pimentée" },
+                    { name: "Agneau confit de 12h", price_cents: 1600, description: "Salicorne, darphins à la noisette" },
+                    { name: "Côte de boeuf (pour 2)", price_cents: 8500, description: "Sélectionnée par le boucher, frites maison" },
+                    { name: "Poisson du marché au barbecue", price_cents: 2400, description: "Légumes de saison rôtis" }
                 ]
             },
             {
-                category: "Speakeasy (Table gastronomique)",
+                category_type: "other",
+                display_label: "Speakeasy (Table gastronomique)",
                 items: [
-                    { name: "Menu Dégustation (5 temps)", price: "55.00€", description: "Cuisine libre et instinctive du Chef Spinnler (Midi J-D / Soir L-M)" },
-                    { name: "Menu Dégustation (7 temps)", price: "74.00€", description: "Le voyage complet en immersion totale (Soir M-S)" },
-                    { name: "Accord Mets & Vins (5 verres)", price: "45.00€" },
-                    { name: "Accord Mets & Spiritueux", price: "50.00€" }
+                    { name: "Menu Dégustation (5 temps)", price_cents: 5500, description: "Cuisine libre et instinctive du Chef Spinnler (Midi J-D / Soir L-M)" },
+                    { name: "Menu Dégustation (7 temps)", price_cents: 7400, description: "Le voyage complet en immersion totale (Soir M-S)" },
+                    { name: "Accord Mets & Vins (5 verres)", price_cents: 4500 },
+                    { name: "Accord Mets & Spiritueux", price_cents: 5000 }
                 ]
             },
             {
-                category: "Gourmandises",
+                category_type: "other",
+                display_label: "Gourmandises",
                 items: [
-                    { name: "Brownie au chocolat", price: "10.00€", description: "Citron vert, chocolat pétillant" },
-                    { name: "Tarte Tatin signature", price: "10.00€", description: "Glace au romarin" },
-                    { name: "Brioche perdue au labneh", price: "9.00€", description: "Caramel beurre salé" }
+                    { name: "Brownie au chocolat", price_cents: 1000, description: "Citron vert, chocolat pétillant" },
+                    { name: "Tarte Tatin signature", price_cents: 1000, description: "Glace au romarin" },
+                    { name: "Brioche perdue au labneh", price_cents: 900, description: "Caramel beurre salé" }
                 ]
             }
         ]

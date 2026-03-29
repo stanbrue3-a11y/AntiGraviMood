@@ -42,56 +42,61 @@ export const o_mexico: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées (Antojitos)",
+        category_type: "starter",
+        display_label: "Entrées (Antojitos)",
         items: [
-          { name: "Nachos O'Mexico (Complet)", price: "9.90€", highlight: true },
-          { name: "Quesadillas au Poulet", price: "9.90€" },
-          { name: "Queso Flameado au Chorizo", price: "9.90€" },
-          { name: "Tacos de Pollo (x2)", price: "9.90€" },
-          { name: "Guacamole Maison & Totopos", price: "8.50€" },
-          { name: "Calamars à la Romaine", price: "9.00€" }
+          { name: "Nachos O'Mexico (Complet)", price_cents: 990, is_highlight: true },
+          { name: "Quesadillas au Poulet", price_cents: 990 },
+          { name: "Queso Flameado au Chorizo", price_cents: 990 },
+          { name: "Tacos de Pollo (x2)", price_cents: 990 },
+          { name: "Guacamole Maison & Totopos", price_cents: 850 },
+          { name: "Calamars à la Romaine", price_cents: 900 }
         ]
       },
       {
-        category: "Spécialités (Plats)",
+        category_type: "main",
+        display_label: "Spécialités (Plats)",
         items: [
-          { name: "Enchilada Mexicana (Bœuf)", price: "15.90€", highlight: true },
-          { name: "Chili Con Carne Traditionnel", price: "15.90€" },
-          { name: "Enchiladas Suizas (Poulet)", price: "15.90€" },
-          { name: "Fajitas au Poulet Grillé", price: "19.90€" },
-          { name: "Pollo con Piña (Oaxaca style)", price: "19.90€" },
-          { name: "Enchilada Végétarienne", price: "15.90€" },
-          { name: "Burrito Grande (Bœuf ou Poulet)", price: "16.50€" },
-          { name: "Chimichanga Frit au Fromage", price: "16.00€" }
+          { name: "Enchilada Mexicana (Bœuf)", price_cents: 1590, is_highlight: true },
+          { name: "Chili Con Carne Traditionnel", price_cents: 1590 },
+          { name: "Enchiladas Suizas (Poulet)", price_cents: 1590 },
+          { name: "Fajitas au Poulet Grillé", price_cents: 1990 },
+          { name: "Pollo con Piña (Oaxaca style)", price_cents: 1990 },
+          { name: "Enchilada Végétarienne", price_cents: 1590 },
+          { name: "Burrito Grande (Bœuf ou Poulet)", price_cents: 1650 },
+          { name: "Chimichanga Frit au Fromage", price_cents: 1600 }
         ]
       },
       {
-        category: "Formules Midi",
+        category_type: "tasting_menu",
+        display_label: "Formules Midi",
         items: [
-          { name: "Menu Complet Midi (E+P+D)", price: "15.90€", highlight: true },
-          { name: "Formule Rapido (P+D ou E+P)", price: "13.90€" },
-          { name: "Plat du Jour Mexicain", price: "11.50€" }
+          { name: "Menu Complet Midi (E+P+D)", price_cents: 1590, is_highlight: true },
+          { name: "Formule Rapido (P+D ou E+P)", price_cents: 1390 },
+          { name: "Plat du Jour Mexicain", price_cents: 1150 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Flan de la Abuela (Caramel)", price: "6.50€" },
-          { name: "Banana Split O'Mexico", price: "7.50€" },
-          { name: "Dame Blanche Classique", price: "6.50€" },
-          { name: "Salade de Fruits Exotiques", price: "6.00€" },
-          { name: "Café de Olla (Épices)", price: "3.50€" }
+          { name: "Flan de la Abuela (Caramel)", price_cents: 650 },
+          { name: "Banana Split O'Mexico", price_cents: 750 },
+          { name: "Dame Blanche Classique", price_cents: 650 },
+          { name: "Salade de Fruits Exotiques", price_cents: 600 },
+          { name: "Café de Olla (Épices)", price_cents: 350 }
         ]
       },
       {
-        category: "La Cave / Boissons",
+        category_type: "drink",
+        display_label: "La Cave / Boissons",
         items: [
-          { name: "Margarita Classique (Verre)", price: "8.50€", highlight: true },
-          { name: "Bière Desperados (33cl)", price: "6.00€" },
-          { name: "Corona Extra / Sol", price: "6.50€" },
-          { name: "Jarritos (Parfum au choix)", price: "5.50€" },
-          { name: "Tequila Shot (Reposado)", price: "6.00€" },
-          { name: "Vin Rouge Mexicain (Verre)", price: "6.00€" }
+          { name: "Margarita Classique (Verre)", price_cents: 850, is_highlight: true },
+          { name: "Bière Desperados (33cl)", price_cents: 600 },
+          { name: "Corona Extra / Sol", price_cents: 650 },
+          { name: "Jarritos (Parfum au choix)", price_cents: 550 },
+          { name: "Tequila Shot (Reposado)", price_cents: 600 },
+          { name: "Vin Rouge Mexicain (Verre)", price_cents: 600 }
         ]
       }
     ]

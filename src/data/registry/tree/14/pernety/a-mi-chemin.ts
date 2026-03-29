@@ -40,34 +40,37 @@ export const aMiChemin: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Fusion Franco-Tunisienne",
+                category_type: "other",
+                display_label: "Fusion Franco-Tunisienne",
                 items: [
-                    { name: "Couscous Royal aux 7 Légumes", price: "24.00€" },
-                    { name: "Tajine de Veau aux Pruneaux et Amandes", price: "22.50€" },
-                    { name: "Poisson du Jour à la Chouchouka", price: "21.00€" },
-                    { name: "Brick à l'Oeuf Traditionnelle", price: "9.50€" },
-                    { name: "Souris d'Agneau confite au Miel", price: "26.00€" },
-                    { name: "Couscous Végétarien Gourmand", price: "18.50€" },
-                    { name: "Sauté de Seiches à la Tunisienne", price: "21.50€" }
+                    { name: "Couscous Royal aux 7 Légumes", price_cents: 2400 },
+                    { name: "Tajine de Veau aux Pruneaux et Amandes", price_cents: 2250 },
+                    { name: "Poisson du Jour à la Chouchouka", price_cents: 2100 },
+                    { name: "Brick à l'Oeuf Traditionnelle", price_cents: 950 },
+                    { name: "Souris d'Agneau confite au Miel", price_cents: 2600 },
+                    { name: "Couscous Végétarien Gourmand", price_cents: 1850 },
+                    { name: "Sauté de Seiches à la Tunisienne", price_cents: 2150 }
                 ]
             },
             {
-                category: "Entrées Métissées",
+                category_type: "starter",
+                display_label: "Entrées Métissées",
                 items: [
-                    { name: "Houmous Crémeux Maison", price: "8.50€" },
-                    { name: "Kemia de l'Artisan (Sélection d'entrées)", price: "16.00€" },
-                    { name: "Chorba de Tradition au Blé Vert", price: "10.00€" },
-                    { name: "Salade Méchouia au Thon Frais", price: "12.00€" },
-                    { name: "Merguez Artisanales Grillées", price: "11.00€" }
+                    { name: "Houmous Crémeux Maison", price_cents: 850 },
+                    { name: "Kemia de l'Artisan (Sélection d'entrées)", price_cents: 1600 },
+                    { name: "Chorba de Tradition au Blé Vert", price_cents: 1000 },
+                    { name: "Salade Méchouia au Thon Frais", price_cents: 1200 },
+                    { name: "Merguez Artisanales Grillées", price_cents: 1100 }
                 ]
             },
             {
-                category: "Douceurs d'Orient",
+                category_type: "dessert",
+                display_label: "Douceurs d'Orient",
                 items: [
-                    { name: "Coupe de Pâtisseries fines du Maghreb", price: "9.50€" },
-                    { name: "Orange à la Cannelle et Eau de Rose", price: "8.50€" },
-                    { name: "Thé à la Menthe Fraîche (le pot)", price: "6.00€" },
-                    { name: "Crème à la Cardamome et Pistaches", price: "9.00€" }
+                    { name: "Coupe de Pâtisseries fines du Maghreb", price_cents: 950 },
+                    { name: "Orange à la Cannelle et Eau de Rose", price_cents: 850 },
+                    { name: "Thé à la Menthe Fraîche (le pot)", price_cents: 600 },
+                    { name: "Crème à la Cardamome et Pistaches", price_cents: 900 }
                 ]
             }
         ]

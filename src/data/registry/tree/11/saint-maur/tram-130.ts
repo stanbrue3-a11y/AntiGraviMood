@@ -45,30 +45,33 @@ export const tram130: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Trâm 130 Paris 2024-2025
             {
-                category: "Pour Commencer (Appetizers)",
+                category_type: "starter",
+                display_label: "Pour Commencer (Appetizers)",
                 items: [
-                    { name: "Croquettes Aubergine, Miso & Comté", price: "10.00€" },
-                    { name: "Ailes de poulet laquées nuoc-mâm & citron vert", price: "12.00€" },
-                    { name: "Tomate entière marinée au bouillon dashi", price: "14.00€" },
-                    { name: "Tartare de boeuf façon vietnamienne sur os à moëlle", price: "23.00€" }
+                    { name: "Croquettes Aubergine, Miso & Comté", price_cents: 1000 },
+                    { name: "Ailes de poulet laquées nuoc-mâm & citron vert", price_cents: 1200 },
+                    { name: "Tomate entière marinée au bouillon dashi", price_cents: 1400 },
+                    { name: "Tartare de boeuf façon vietnamienne sur os à moëlle", price_cents: 2300 }
                 ]
             },
             {
-                category: "Les Plats",
+                category_type: "main",
+                display_label: "Les Plats",
                 items: [
-                    { name: "Risotto d'orzo crémeux, tourteau & bisque", price: "32.00€" },
-                    { name: "Ris de veau laqués façon Char Siu", price: "35.00€" },
-                    { name: "Crêpe Banh Xèo revisitée (Végé)", price: "20.00€", description: "Oignons, champignons, salade de fenouil, fromage frais." },
-                    { name: "Pâtes fraîches, ragù de joue de boeuf à la citronnelle", price: "26.00€" },
-                    { name: "Curry jaune aux légumes de saison", price: "22.00€" }
+                    { name: "Risotto d'orzo crémeux, tourteau & bisque", price_cents: 3200 },
+                    { name: "Ris de veau laqués façon Char Siu", price_cents: 3500 },
+                    { name: "Crêpe Banh Xèo revisitée (Végé)", price_cents: 2000, description: "Oignons, champignons, salade de fenouil, fromage frais." },
+                    { name: "Pâtes fraîches, ragù de joue de boeuf à la citronnelle", price_cents: 2600 },
+                    { name: "Curry jaune aux légumes de saison", price_cents: 2200 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Basque Cheesecake signature", price: "8.00€" },
-                    { name: "Crème brûlée au Matcha", price: "8.00€" },
-                    { name: "Gâteau à la poire, fève tonka & praliné", price: "9.00€" }
+                    { name: "Basque Cheesecake signature", price_cents: 800 },
+                    { name: "Crème brûlée au Matcha", price_cents: 800 },
+                    { name: "Gâteau à la poire, fève tonka & praliné", price_cents: 900 }
                 ]
             }
         ]

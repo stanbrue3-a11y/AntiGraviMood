@@ -43,40 +43,44 @@ export const dilia: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Le Déjeuner (Jeudi - Dimanche)",
+                category_type: "other",
+                display_label: "Le Déjeuner (Jeudi - Dimanche)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Déjeuner (Entrée-Plat-Dessert)", price: "28.00€", description: "Exceptionnel rapport qualité/prix de quartier." },
-                    { name: "La Carte Blanche Midi (Menu Dégustation 5 Passages)", price: "55.00€" }
+                    { name: "Formule Déjeuner (Entrée-Plat-Dessert)", price_cents: 2800, description: "Exceptionnel rapport qualité/prix de quartier." },
+                    { name: "La Carte Blanche Midi (Menu Dégustation 5 Passages)", price_cents: 5500 }
                 ]
             },
             {
-                category: "Les Menus Dégustation (Soir)",
+                category_type: "tasting_menu",
+                display_label: "Les Menus Dégustation (Soir)",
                 items: [
-                    { name: "Carte Blanche (Menu 6 Passages)", price: "65.00€", description: "L'expérience Dilia en 6 temps. (Accord Vins +42€)." },
-                    { name: "Carte Blanche (Menu 8 Passages)", price: "86.00€" },
-                    { name: "Carte Blanche (Menu 9 Passages)", price: "98.00€", description: "Le grand jeu italo-parisien. (Accord Vins +63€)." }
+                    { name: "Carte Blanche (Menu 6 Passages)", price_cents: 6500, description: "L'expérience Dilia en 6 temps. (Accord Vins +42€)." },
+                    { name: "Carte Blanche (Menu 8 Passages)", price_cents: 8600 },
+                    { name: "Carte Blanche (Menu 9 Passages)", price_cents: 9800, description: "Le grand jeu italo-parisien. (Accord Vins +63€)." }
                 ]
             },
             {
-                category: "Exemple de Reconstitution Parfaite (Menu 6 Passages)",
+                category_type: "tasting_menu",
+                display_label: "Exemple de Reconstitution Parfaite (Menu 6 Passages)",
                 items: [
-                    { name: "1er temps : Bulot, asperge blanche et herbe fraîche", price: "0.00€", description: "Inclus dans le menu." },
-                    { name: "2ème temps : Sardine marinée, petit pois, lard colonnata", price: "0.00€", description: "Inclus dans le menu." },
-                    { name: "3ème temps : Tortellini d'artichauts, brodo limpide", price: "0.00€", description: "Inclus dans le menu." },
-                    { name: "4ème temps : Lieu jaune, fève, oignon nouveau, beurre blanc safran", price: "0.00€", description: "Inclus dans le menu." },
-                    { name: "5ème temps : Pigeon de nid rôti, crème d'algue, betterave, cime di rapa", price: "0.00€", description: "Inclus dans le menu." },
-                    { name: "6ème temps : Dacquoise amande, bergamote, câpre, marjolaine", price: "0.00€", description: "Inclus dans le menu." }
+                    { name: "1er temps : Bulot, asperge blanche et herbe fraîche", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "2ème temps : Sardine marinée, petit pois, lard colonnata", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "3ème temps : Tortellini d'artichauts, brodo limpide", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "4ème temps : Lieu jaune, fève, oignon nouveau, beurre blanc safran", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "5ème temps : Pigeon de nid rôti, crème d'algue, betterave, cime di rapa", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "6ème temps : Dacquoise amande, bergamote, câpre, marjolaine", price_cents: 0, description: "Inclus dans le menu." }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Verre de vin (Sélection Nature & Biodynamie)", price: "6.00€" },
-                    { name: "Bouteille de vin (À partir de)", price: "29.00€" },
-                    { name: "Coupe de Champagne", price: "12.00€" },
-                    { name: "Bouteille d'eau minérale", price: "6.00€" },
-                    { name: "Café d'excellence", price: "3.00€" }
+                    { name: "Verre de vin (Sélection Nature & Biodynamie)", price_cents: 600 },
+                    { name: "Bouteille de vin (À partir de)", price_cents: 2900 },
+                    { name: "Coupe de Champagne", price_cents: 1200 },
+                    { name: "Bouteille d'eau minérale", price_cents: 600 },
+                    { name: "Café d'excellence", price_cents: 300 }
                 ]
             }
         ]

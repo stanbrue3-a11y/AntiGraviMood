@@ -47,72 +47,77 @@ export const rang: SurgicalPlace = {
             // FORMULE MIDI (Source: Deliveroo + RestaurantGuru)
             // ═══════════════════════════════════════════
             {
-                category: "Formule Midi",
+                category_type: "tasting_menu",
+                display_label: "Formule Midi",
                 items: [
                     // VERIFIED: Deliveroo (2024) — formule avec riz et naan
-                    { name: "Formule Midi (Chicken Korma ou Butter Chicken + riz + naan)", price: "18.00€" }
+                    { name: "Formule Midi (Chicken Korma ou Butter Chicken + riz + naan)", price_cents: 1800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // ENTRÉES (Source: Deliveroo + RestaurantGuru + site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
                     // VERIFIED: Deliveroo + RestaurantGuru (2024)
-                    { name: "Samosa (x2, farcis aux légumes frais)", price: "9.50€" },
-                    { name: "Gobhi Khatta Meetha (chou-fleur croustillant)", price: "11.00€" },
-                    { name: "Mix Veg Pakora (beignets de légumes)", price: "11.00€" },
-                    { name: "Chicken Tikka (blanc de poulet mariné)", price: "11.00€" },
-                    { name: "Canapés apéritifs (6 pièces croustillantes)", price: "11.00€" }
+                    { name: "Samosa (x2, farcis aux légumes frais)", price_cents: 950 },
+                    { name: "Gobhi Khatta Meetha (chou-fleur croustillant)", price_cents: 1100 },
+                    { name: "Mix Veg Pakora (beignets de légumes)", price_cents: 1100 },
+                    { name: "Chicken Tikka (blanc de poulet mariné)", price_cents: 1100 },
+                    { name: "Canapés apéritifs (6 pièces croustillantes)", price_cents: 1100 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS (Source: Deliveroo + RestaurantGuru)
             // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Deliveroo + RestaurantGuru (2024) — plats 21-25€
-                    { name: "Butter Chicken", price: "23.00€", description: "Le grand classique, crémeux à souhait." },
-                    { name: "Poulet Chettinad", price: "24.00€" },
-                    { name: "Poulet Palak (poulet aux épinards)", price: "21.00€" },
-                    { name: "Agneau Korma aux pistaches", price: "25.00€" },
-                    { name: "Keema Paratha (curry d'agneau haché)", price: "24.00€" },
-                    { name: "Palak Paneer (épinards au fromage maison)", price: "24.00€" },
-                    { name: "Paneer Butter Masala", price: "21.00€" },
-                    { name: "Pao Bhaji (curry de légumes frais)", price: "23.00€" },
-                    { name: "Aubergines grillées de Hyderabad", price: "23.00€" },
-                    { name: "Kashmiri Koftas (boulettes végétaliennes)", price: "24.00€" },
-                    { name: "Poulet Biryani", price: "23.00€" },
-                    { name: "Agneau Biryani", price: "23.00€" }
+                    { name: "Butter Chicken", price_cents: 2300, description: "Le grand classique, crémeux à souhait." },
+                    { name: "Poulet Chettinad", price_cents: 2400 },
+                    { name: "Poulet Palak (poulet aux épinards)", price_cents: 2100 },
+                    { name: "Agneau Korma aux pistaches", price_cents: 2500 },
+                    { name: "Keema Paratha (curry d'agneau haché)", price_cents: 2400 },
+                    { name: "Palak Paneer (épinards au fromage maison)", price_cents: 2400 },
+                    { name: "Paneer Butter Masala", price_cents: 2100 },
+                    { name: "Pao Bhaji (curry de légumes frais)", price_cents: 2300 },
+                    { name: "Aubergines grillées de Hyderabad", price_cents: 2300 },
+                    { name: "Kashmiri Koftas (boulettes végétaliennes)", price_cents: 2400 },
+                    { name: "Poulet Biryani", price_cents: 2300 },
+                    { name: "Agneau Biryani", price_cents: 2300 }
                 ]
             },
             // ═══════════════════════════════════════════
             // ACCOMPAGNEMENTS / NAANS (Source: Deliveroo + RestaurantGuru)
             // ═══════════════════════════════════════════
             {
-                category: "Naans & Accompagnements",
+                category_type: "other",
+                display_label: "Naans & Accompagnements",
                 items: [
                     // VERIFIED: Deliveroo + RestaurantGuru (2024)
-                    { name: "Naan nature", price: "5.00€" },
-                    { name: "Garlic Naan", price: "5.00€" },
-                    { name: "Cheese Naan", price: "5.00€" },
-                    { name: "Garlic Cheese Naan", price: "5.00€" },
-                    { name: "Paratha (pain plat feuilleté)", price: "5.00€" },
-                    { name: "Riz Basmati", price: "4.00€" },
-                    { name: "Dal (lentilles)", price: "15.00€" }
+                    { name: "Naan nature", price_cents: 500 },
+                    { name: "Garlic Naan", price_cents: 500 },
+                    { name: "Cheese Naan", price_cents: 500 },
+                    { name: "Garlic Cheese Naan", price_cents: 500 },
+                    { name: "Paratha (pain plat feuilleté)", price_cents: 500 },
+                    { name: "Riz Basmati", price_cents: 400 },
+                    { name: "Dal (lentilles)", price_cents: 1500 }
                 ]
             },
             // ═══════════════════════════════════════════
             // BOISSONS / COCKTAILS (Source: site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "Cocktails & Boissons",
+                category_type: "drink",
+                display_label: "Cocktails & Boissons",
                 items: [
                     // VERIFIED: Site officiel — cocktails élaborés
-                    { name: "Cocktail signature (carte dédiée)", price: "14.00€" },
-                    { name: "Lassi maison", price: "6.00€" }
+                    { name: "Cocktail signature (carte dédiée)", price_cents: 1400 },
+                    { name: "Lassi maison", price_cents: 600 }
                 ]
             }
         ]

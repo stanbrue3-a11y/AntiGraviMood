@@ -43,43 +43,47 @@ export const louie_louie: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Antipasti",
+                category_type: "other",
+                display_label: "Antipasti",
                 items: [
                     // VERIFIED: Uber Eats + Site officiel (2024-2025)
-                    { name: "Burrata crémeuse, câpres, poivre", price: "10.00€" }
+                    { name: "Burrata crémeuse, câpres, poivre", price_cents: 1000 }
                 ]
             },
             {
-                category: "Pizzas",
+                category_type: "main",
+                display_label: "Pizzas",
                 items: [
-                    { name: "Margherita", price: "11.90€", description: "Sauce tomate, fior di latte, basilic frais." },
-                    { name: "Gorgonzola", price: "15.00€", description: "Crème, gorgonzola, mozzarella." },
-                    { name: "Muertadel", price: "16.00€", description: "Fior di latte, mortadelle pistache, burrata, guindillas." },
-                    { name: "Dirty South", price: "16.00€", description: "Saucisse piquante, oignons rouges, sauce Ranch." },
-                    { name: "Parmigiana", price: "17.00€", description: "Sauce tomate, aubergine, parmesan, mozzarella." },
-                    { name: "Santo Gordo", price: "17.00€" },
-                    { name: "Old Fashioned", price: "17.00€" },
-                    { name: "4 Fromages", price: "17.00€" },
-                    { name: "Spicy Honey", price: "18.00€", description: "Miel pimenté, nduja." },
-                    { name: "Surf & Turf", price: "18.00€", description: "Tomate, anchois, Nduja, mozzarella di bufala." },
-                    { name: "Legalize Pastrami", price: "19.00€", description: "Pastrami, moutarde, pickles." },
-                    { name: "Cosmic Ninja", price: "20.00€" }
+                    { name: "Margherita", price_cents: 1190, description: "Sauce tomate, fior di latte, basilic frais." },
+                    { name: "Gorgonzola", price_cents: 1500, description: "Crème, gorgonzola, mozzarella." },
+                    { name: "Muertadel", price_cents: 1600, description: "Fior di latte, mortadelle pistache, burrata, guindillas." },
+                    { name: "Dirty South", price_cents: 1600, description: "Saucisse piquante, oignons rouges, sauce Ranch." },
+                    { name: "Parmigiana", price_cents: 1700, description: "Sauce tomate, aubergine, parmesan, mozzarella." },
+                    { name: "Santo Gordo", price_cents: 1700 },
+                    { name: "Old Fashioned", price_cents: 1700 },
+                    { name: "4 Fromages", price_cents: 1700 },
+                    { name: "Spicy Honey", price_cents: 1800, description: "Miel pimenté, nduja." },
+                    { name: "Surf & Turf", price_cents: 1800, description: "Tomate, anchois, Nduja, mozzarella di bufala." },
+                    { name: "Legalize Pastrami", price_cents: 1900, description: "Pastrami, moutarde, pickles." },
+                    { name: "Cosmic Ninja", price_cents: 2000 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Tiramisu", price: "8.00€" },
-                    { name: "Baba au Rhum", price: "8.00€" }
+                    { name: "Tiramisu", price_cents: 800 },
+                    { name: "Baba au Rhum", price_cents: 800 }
                 ]
             },
             {
-                category: "Boissons & Cocktails",
+                category_type: "drink",
+                display_label: "Boissons & Cocktails",
                 items: [
-                    { name: "Cola Baladin", price: "6.00€" },
-                    { name: "IPA Rupture (Bière artisanale)", price: "8.00€" },
-                    { name: "Cocktail Création (Old Fashioned, etc.)", price: "11.00€" },
-                    { name: "Verre de vin nature (à partir de)", price: "7.00€" }
+                    { name: "Cola Baladin", price_cents: 600 },
+                    { name: "IPA Rupture (Bière artisanale)", price_cents: 800 },
+                    { name: "Cocktail Création (Old Fashioned, etc.)", price_cents: 1100 },
+                    { name: "Verre de vin nature (à partir de)", price_cents: 700 }
                 ]
             }
         ]

@@ -42,57 +42,62 @@ export const pho_tai: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées (Vapeur & Croustillant)",
+        category_type: "starter",
+        display_label: "Entrées (Vapeur & Croustillant)",
         items: [
-          { name: "Bánh Cuốn (Raviolis Vietnamiens)", price: "8.50€", highlight: true },
-          { name: "Nems au Porc (x4)", price: "7.50€" },
-          { name: "Ha Cao (Vapeur Crevettes)", price: "7.80€" },
-          { name: "Beignets de Crevettes", price: "9.00€" },
-          { name: "Salade de Poulet au Gingembre", price: "8.80€" },
-          { name: "Crêpe Vietnamienne (Bánh Xèo)", price: "10.50€" }
+          { name: "Bánh Cuốn (Raviolis Vietnamiens)", price_cents: 850, is_highlight: true },
+          { name: "Nems au Porc (x4)", price_cents: 750 },
+          { name: "Ha Cao (Vapeur Crevettes)", price_cents: 780 },
+          { name: "Beignets de Crevettes", price_cents: 900 },
+          { name: "Salade de Poulet au Gingembre", price_cents: 880 },
+          { name: "Crêpe Vietnamienne (Bánh Xèo)", price_cents: 1050 }
         ]
       },
       {
-        category: "Légendes du Phở (Plats)",
+        category_type: "main",
+        display_label: "Légendes du Phở (Plats)",
         items: [
-          { name: "Phở Spécial (Phở Đặc Biệt)", price: "12.50€", highlight: true },
-          { name: "Phở au Bœuf Cru (Phở Tái)", price: "11.50€" },
-          { name: "Phở au Poulet (Phở Gà)", price: "11.00€" },
-          { name: "Phở aux Boulettes de Bœuf", price: "11.50€" },
-          { name: "Phở Végétarien au Tofu", price: "11.00€" }
+          { name: "Phở Spécial (Phở Đặc Biệt)", price_cents: 1250, is_highlight: true },
+          { name: "Phở au Bœuf Cru (Phở Tái)", price_cents: 1150 },
+          { name: "Phở au Poulet (Phở Gà)", price_cents: 1100 },
+          { name: "Phở aux Boulettes de Bœuf", price_cents: 1150 },
+          { name: "Phở Végétarien au Tofu", price_cents: 1100 }
         ]
       },
       {
-        category: "Bo Buns & Nouilles (Plats)",
+        category_type: "main",
+        display_label: "Bo Buns & Nouilles (Plats)",
         items: [
-          { name: "Bo Bun Royal (Nems & Bœuf)", price: "12.80€", highlight: true },
-          { name: "Bo Bun Classic (Bœuf)", price: "10.80€" },
-          { name: "Bo Bun Végétarien (Nems Végé)", price: "11.50€" },
-          { name: "Mì Xào (Nouilles sautées Poulet)", price: "11.80€" },
-          { name: "Bún Chả Ha Noi", price: "13.50€" }
+          { name: "Bo Bun Royal (Nems & Bœuf)", price_cents: 1280, is_highlight: true },
+          { name: "Bo Bun Classic (Bœuf)", price_cents: 1080 },
+          { name: "Bo Bun Végétarien (Nems Végé)", price_cents: 1150 },
+          { name: "Mì Xào (Nouilles sautées Poulet)", price_cents: 1180 },
+          { name: "Bún Chả Ha Noi", price_cents: 1350 }
         ]
       },
       {
-        category: " Riz & Spécialités (Plats)",
+        category_type: "main",
+        display_label: " Riz & Spécialités (Plats)",
         items: [
-          { name: "Riz aux Brochettes de Bœuf", price: "11.80€" },
-          { name: "Riz Poulet & Porc Citronnelle", price: "11.80€" },
-          { name: "Riz aux Grosses Crevettes", price: "16.50€" },
-          { name: "Porc au Caramel à la mode de Hué", price: "12.50€" },
-          { name: "Canard à la Mangue Fraîche", price: "14.50€" },
-          { name: "Crevettes Poivre Vert & Coco", price: "15.00€" }
+          { name: "Riz aux Brochettes de Bœuf", price_cents: 1180 },
+          { name: "Riz Poulet & Porc Citronnelle", price_cents: 1180 },
+          { name: "Riz aux Grosses Crevettes", price_cents: 1650 },
+          { name: "Porc au Caramel à la mode de Hué", price_cents: 1250 },
+          { name: "Canard à la Mangue Fraîche", price_cents: 1450 },
+          { name: "Crevettes Poivre Vert & Coco", price_cents: 1500 }
         ]
       },
       {
-        category: "Douceurs & Boissons Asia",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons Asia",
         items: [
-          { name: "Trois Couleurs (Chè Ba Màu)", price: "6.50€", highlight: true },
-          { name: "Banane au Lait de Coco Chaud", price: "6.00€" },
-          { name: "Café Glacé à la Vietnamienne", price: "4.50€" },
-          { name: "Thé à l'Artichaut (Dactilo)", price: "4.00€" },
-          { name: "Lait de Soja Maison (Froid)", price: "4.00€" },
-          { name: "Bière '33' Export (Vietnam)", price: "6.00€" },
-          { name: "Jus de Lychee Frais", price: "5.00€" }
+          { name: "Trois Couleurs (Chè Ba Màu)", price_cents: 650, is_highlight: true },
+          { name: "Banane au Lait de Coco Chaud", price_cents: 600 },
+          { name: "Café Glacé à la Vietnamienne", price_cents: 450 },
+          { name: "Thé à l'Artichaut (Dactilo)", price_cents: 400 },
+          { name: "Lait de Soja Maison (Froid)", price_cents: 400 },
+          { name: "Bière '33' Export (Vietnam)", price_cents: 600 },
+          { name: "Jus de Lychee Frais", price_cents: 500 }
         ]
       }
     ]

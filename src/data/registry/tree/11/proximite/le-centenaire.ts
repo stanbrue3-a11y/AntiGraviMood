@@ -50,58 +50,64 @@ export const le_centenaire: SurgicalPlace = {
         "smart_tip": "HH 17h-00h : pinte 5,80€ et cocktails classiques 7€. Planche mixte gargantuesque à partager.",
         "menu_items": [
             {
-                "category": "Plats",
+                "category_type": "main",
+                "display_label": "Plats",
                 "items": [
-                    { name: "Terrine de campagne maison & pickles", price: "7.00€" },
-                    { name: "Soupe à l'Oignon traditionnelle gratinée", price: "12.00€" },
-                    { name: "Fricassée de grenouilles ail & persil", price: "16.00€" },
-                    { name: "Escargots de Bourgogne (6 pcs)", price: "8.00€" },
-                    { name: "Salade Amelot (légumes grillés & artichaut)", price: "17.00€" }
+                    { name: "Terrine de campagne maison & pickles", price_cents: 700 },
+                    { name: "Soupe à l'Oignon traditionnelle gratinée", price_cents: 1200 },
+                    { name: "Fricassée de grenouilles ail & persil", price_cents: 1600 },
+                    { name: "Escargots de Bourgogne (6 pcs)", price_cents: 800 },
+                    { name: "Salade Amelot (légumes grillés & artichaut)", price_cents: 1700 }
                 ]
             },
             {
-                category: "Plats Brasserie",
-                items: [
-                    { name: "Linguine All Arrabiata, Burrata & Parmesan", price: "17.00€" },
-                    { name: "Croque Monsieur à la truffe, frites & salade", price: "18.00€" },
-                    { name: "Fish & Chips maison, sauce tartare", price: "18.00€" },
-                    { name: "Entrecôte grillée (300g), frites maison", price: "29.00€" },
-                    { name: "Saucisse d'Auvergne au couteau & Aligot", price: "19.00€" },
-                    { name: "Confit de Canard, pommes Sarladaises", price: "21.00€" },
-                    { name: "Tartare de Bœuf Salers, frites maison", price: "19.00€" },
-                    { name: "L'Américain Cheeseburger Black Angus", price: "17.00€" }
+        category_type: "main",
+        display_label: "Plats Brasserie",
+        items: [
+                    { name: "Linguine All Arrabiata, Burrata & Parmesan", price_cents: 1700 },
+                    { name: "Croque Monsieur à la truffe, frites & salade", price_cents: 1800 },
+                    { name: "Fish & Chips maison, sauce tartare", price_cents: 1800 },
+                    { name: "Entrecôte grillée (300g), frites maison", price_cents: 2900 },
+                    { name: "Saucisse d'Auvergne au couteau & Aligot", price_cents: 1900 },
+                    { name: "Confit de Canard, pommes Sarladaises", price_cents: 2100 },
+                    { name: "Tartare de Bœuf Salers, frites maison", price_cents: 1900 },
+                    { name: "L'Américain Cheeseburger Black Angus", price_cents: 1700 }
                 ]
             },
             {
-                category: "Grandes Salades",
-                items: [
-                    { name: "La César (Poulet croustillant, Parmesan, Œuf mollet)", price: "19.00€" },
-                    { name: "L'Italienne (Burrata, Légumes grillés, Pesto)", price: "21.00€" },
-                    { name: "L'Auvergnate (Jambon cru, St Nectaire, Noix)", price: "19.00€" }
+        category_type: "starter",
+        display_label: "Grandes Salades",
+        items: [
+                    { name: "La César (Poulet croustillant, Parmesan, Œuf mollet)", price_cents: 1900 },
+                    { name: "L'Italienne (Burrata, Légumes grillés, Pesto)", price_cents: 2100 },
+                    { name: "L'Auvergnate (Jambon cru, St Nectaire, Noix)", price_cents: 1900 }
                 ]
             },
             {
-                "category": "Desserts",
+                "category_type": "dessert",
+                "display_label": "Desserts",
                 "items": [
-                    { name: "Crème brûlée à la vanille bourbon", price: "8.00€" },
-                    { name: "Brownie chocolat & noix", price: "8.00€" },
-                    { name: "Salade d'agrumes à la menthe fraîche", price: "8.00€" },
-                    { name: "Café gourmand (sélection du jour)", price: "12.00€" }
+                    { name: "Crème brûlée à la vanille bourbon", price_cents: 800 },
+                    { name: "Brownie chocolat & noix", price_cents: 800 },
+                    { name: "Salade d'agrumes à la menthe fraîche", price_cents: 800 },
+                    { name: "Café gourmand (sélection du jour)", price_cents: 1200 }
                 ]
             },
             {
-                "category": "Bières (HH)",
+                "category_type": "other",
+                "display_label": "Bières (HH)",
                 "items": [
-                    { "name": "Pinte blonde (HH)", "price": "5,80€" },
-                    { "name": "Pinte blonde", "price": "8,40€" }
+                    { "name": "Pinte blonde (HH)", "price_cents": 580 },
+                    { "name": "Pinte blonde", "price_cents": 840 }
                 ]
             },
             {
-                "category": "Cocktails",
+                "category_type": "drink",
+                "display_label": "Cocktails",
                 "items": [
-                    { "name": "Cocktail classique (HH)", "price": "7€" },
-                    { "name": "Cocktail classique", "price": "9€" },
-                    { "name": "Cocktail signature", "price": "14€" }
+                    { "name": "Cocktail classique (HH)", "price_cents": 700 },
+                    { "name": "Cocktail classique", "price_cents": 900 },
+                    { "name": "Cocktail signature", "price_cents": 1400 }
                 ]
             }
         ],

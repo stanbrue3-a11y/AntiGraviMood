@@ -42,57 +42,62 @@ export const lao_viet: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Salades & Entrées (Lao/Viet)",
+        category_type: "starter",
+        display_label: "Salades & Entrées (Lao/Viet)",
         items: [
-          { name: "Nem Lao (Riz croustillant à la laotienne)", price: "10.50€", highlight: true },
-          { name: "Pha Khung (Salade de crevettes grillées)", price: "11.50€" },
-          { name: "Goi Cuon (Rouleaux de printemps crevettes)", price: "8.50€" },
-          { name: "Saucisses Laotiennes à la citronnelle", price: "9.50€" },
-          { name: "Salade de Papaye au Crabe Salé", price: "9.50€" },
-          { name: "Raviolis aux Crevettes Vapeur (x4)", price: "8.50€" },
-          { name: "Nem Nuong (Boulettes de porc grillées)", price: "10.00€" }
+          { name: "Nem Lao (Riz croustillant à la laotienne)", price_cents: 1050, is_highlight: true },
+          { name: "Pha Khung (Salade de crevettes grillées)", price_cents: 1150 },
+          { name: "Goi Cuon (Rouleaux de printemps crevettes)", price_cents: 850 },
+          { name: "Saucisses Laotiennes à la citronnelle", price_cents: 950 },
+          { name: "Salade de Papaye au Crabe Salé", price_cents: 950 },
+          { name: "Raviolis aux Crevettes Vapeur (x4)", price_cents: 850 },
+          { name: "Nem Nuong (Boulettes de porc grillées)", price_cents: 1000 }
         ]
       },
       {
-        category: "Mijotés & Curry (Plats)",
+        category_type: "main",
+        display_label: "Mijotés & Curry (Plats)",
         items: [
-          { name: "Mok Pa (Poisson à la mode Lao)", price: "15.50€", highlight: true },
-          { name: "Curry au Coco & Poulet (Rouge ou Vert)", price: "14.00€" },
-          { name: "Gambas sautées au Poivre Vert", price: "17.50€" },
-          { name: "Bœuf séché à la Citronnelle", price: "14.50€" },
-          { name: "Riz au Porc Caramel Tradition", price: "13.50€" },
-          { name: "Aubergines sautées au Tofu", price: "12.50€" }
+          { name: "Mok Pa (Poisson à la mode Lao)", price_cents: 1550, is_highlight: true },
+          { name: "Curry au Coco & Poulet (Rouge ou Vert)", price_cents: 1400 },
+          { name: "Gambas sautées au Poivre Vert", price_cents: 1750 },
+          { name: "Bœuf séché à la Citronnelle", price_cents: 1450 },
+          { name: "Riz au Porc Caramel Tradition", price_cents: 1350 },
+          { name: "Aubergines sautées au Tofu", price_cents: 1250 }
         ]
       },
       {
-        category: "Grillades & Nouilles (Plats)",
+        category_type: "main",
+        display_label: "Grillades & Nouilles (Plats)",
         items: [
-          { name: "Neua Isan (Bœuf grillé citronnelle)", price: "14.50€", highlight: true },
-          { name: "Bo Bun Cha Gio (Bœuf & Nems)", price: "12.50€" },
-          { name: "Banh Canh (Soupe de nouilles Lao)", price: "13.50€" },
-          { name: "Pâtes de Riz sautées aux Crevettes", price: "14.00€" },
-          { name: "Bo Lui (Bœuf à rouler soi-même)", price: "18.50€" }
+          { name: "Neua Isan (Bœuf grillé citronnelle)", price_cents: 1450, is_highlight: true },
+          { name: "Bo Bun Cha Gio (Bœuf & Nems)", price_cents: 1250 },
+          { name: "Banh Canh (Soupe de nouilles Lao)", price_cents: 1350 },
+          { name: "Pâtes de Riz sautées aux Crevettes", price_cents: 1400 },
+          { name: "Bo Lui (Bœuf à rouler soi-même)", price_cents: 1850 }
         ]
       },
       {
-        category: "Formules & Menus",
+        category_type: "tasting_menu",
+        display_label: "Formules & Menus",
         items: [
-          { name: "Formule Midi (E+P)", price: "12.00€", highlight: true },
-          { name: "Menu Découverte Complet", price: "22.00€" },
-          { name: "Menu Végétarien (E+P+D)", price: "14.50€" },
-          { name: "Menu Express (Livraison)", price: "30.00€" }
+          { name: "Formule Midi (E+P)", price_cents: 1200, is_highlight: true },
+          { name: "Menu Découverte Complet", price_cents: 2200 },
+          { name: "Menu Végétarien (E+P+D)", price_cents: 1450 },
+          { name: "Menu Express (Livraison)", price_cents: 3000 }
         ]
       },
       {
-        category: "Fraîcheur & Cave",
+        category_type: "drink",
+        display_label: "Fraîcheur & Cave",
         items: [
-          { name: "Flan au Lait de Coco Maison", price: "6.50€" },
-          { name: "Perles de Coco (x3)", price: "6.00€" },
-          { name: "Beignets de Bananes Flambés", price: "7.50€" },
-          { name: "Bière Beerlao (Laos)", price: "7.00€", highlight: true },
-          { name: "Thé Glacé Maison à la Menthe", price: "4.50€" },
-          { name: "Jus de Mangue Fraîche", price: "5.50€" },
-          { name: "Verre de Vin Rosé (Côtes de Provence)", price: "6.00€" }
+          { name: "Flan au Lait de Coco Maison", price_cents: 650 },
+          { name: "Perles de Coco (x3)", price_cents: 600 },
+          { name: "Beignets de Bananes Flambés", price_cents: 750 },
+          { name: "Bière Beerlao (Laos)", price_cents: 700, is_highlight: true },
+          { name: "Thé Glacé Maison à la Menthe", price_cents: 450 },
+          { name: "Jus de Mangue Fraîche", price_cents: 550 },
+          { name: "Verre de Vin Rosé (Côtes de Provence)", price_cents: 600 }
         ]
       }
     ]

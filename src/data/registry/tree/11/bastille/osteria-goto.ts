@@ -45,57 +45,62 @@ export const osteriaGoto: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Osteria Gòto 2025 Standard (Venetian Italian)
             {
-                category: "Cicchetti (Entrées/Tapas)",
+                category_type: "starter",
+                display_label: "Cicchetti (Entrées/Tapas)",
                 items: [
-                    { name: "Sardine en saor (Oignon, pignons, raisins)", price: "8.00€", description: "L'emblème de Venise, marinade aigre-douce parfaite." },
-                    { name: "Baccalà mantecato sur crostini", price: "12.00€", description: "Mousse de morue fouettée à l'huile d'olive, ultra-fondante." },
-                    { name: "Polpetta de thon & câpres", price: "12.00€" },
-                    { name: "Crostino Asperges & Pecorino", price: "9.00€" },
-                    { name: "Crostino Lardo di Colonnata", price: "8.00€" },
-                    { name: "Anchois marinés, poivre rose", price: "10.00€" },
-                    { name: "Fritture de petits poissons", price: "14.00€" },
-                    { name: "Gamberi au citron vert & menthe", price: "16.00€" }
+                    { name: "Sardine en saor (Oignon, pignons, raisins)", price_cents: 800, description: "L'emblème de Venise, marinade aigre-douce parfaite." },
+                    { name: "Baccalà mantecato sur crostini", price_cents: 1200, description: "Mousse de morue fouettée à l'huile d'olive, ultra-fondante." },
+                    { name: "Polpetta de thon & câpres", price_cents: 1200 },
+                    { name: "Crostino Asperges & Pecorino", price_cents: 900 },
+                    { name: "Crostino Lardo di Colonnata", price_cents: 800 },
+                    { name: "Anchois marinés, poivre rose", price_cents: 1000 },
+                    { name: "Fritture de petits poissons", price_cents: 1400 },
+                    { name: "Gamberi au citron vert & menthe", price_cents: 1600 }
                 ]
             },
             {
-                category: "Primi Piatti (Pâtes Maison)",
+                category_type: "other",
+                display_label: "Primi Piatti (Pâtes Maison)",
                 items: [
-                    { name: "Gnocchi maison aux quatre fromages & sauge", price: "22.00€", description: "Beurre de sauge et mélange de fromages italiens affinés." },
-                    { name: "Maccheroni à la Carbonara (La Vraie)", price: "26.00€", description: "Guanciale craquant, pecorino romano, œuf, poivre noir." },
-                    { name: "Tagliatelle au ragoût de canard", price: "24.00€" },
-                    { name: "Bigoli in salsa (Anchois & Oignons)", price: "20.00€" },
-                    { name: "Risotto à l'encre de seiche", price: "28.00€" },
-                    { name: "Lasagne ouverte à la bolognaise", price: "22.00€" }
+                    { name: "Gnocchi maison aux quatre fromages & sauge", price_cents: 2200, description: "Beurre de sauge et mélange de fromages italiens affinés." },
+                    { name: "Maccheroni à la Carbonara (La Vraie)", price_cents: 2600, description: "Guanciale craquant, pecorino romano, œuf, poivre noir." },
+                    { name: "Tagliatelle au ragoût de canard", price_cents: 2400 },
+                    { name: "Bigoli in salsa (Anchois & Oignons)", price_cents: 2000 },
+                    { name: "Risotto à l'encre de seiche", price_cents: 2800 },
+                    { name: "Lasagne ouverte à la bolognaise", price_cents: 2200 }
                 ]
             },
             {
-                category: "Secondi & Contorni",
+                category_type: "other",
+                display_label: "Secondi & Contorni",
                 items: [
-                    { name: "Poulpe confit au barbecue, crème de pois chiches", price: "32.00€", description: "Tendreté absolue, fumé délicat." },
-                    { name: "Fritura Mistica (Mix de la mer)", price: "30.00€" },
-                    { name: "Polenta grillée au potiron confit", price: "8.00€" },
-                    { name: "Légumes de saison grillés à l'huile d'olive", price: "10.00€" },
-                    { name: "Onigiri de seiche (Fusion Gòto)", price: "12.00€" }
+                    { name: "Poulpe confit au barbecue, crème de pois chiches", price_cents: 3200, description: "Tendreté absolue, fumé délicat." },
+                    { name: "Fritura Mistica (Mix de la mer)", price_cents: 3000 },
+                    { name: "Polenta grillée au potiron confit", price_cents: 800 },
+                    { name: "Légumes de saison grillés à l'huile d'olive", price_cents: 1000 },
+                    { name: "Onigiri de seiche (Fusion Gòto)", price_cents: 1200 }
                 ]
             },
             {
-                category: "Dolce & Caffetteria",
+                category_type: "other",
+                display_label: "Dolce & Caffetteria",
                 items: [
-                    { name: "Tiramisu Maison (Secret Gòto)", price: "9.00€", description: "Le classique, onctueux et équilibré." },
-                    { name: "Cannolo Aperto (Ricotta & Pistache)", price: "9.00€" },
-                    { name: "Panna Cotta à la fève tonka", price: "9.00€" },
-                    { name: "Affogato al Caffè", price: "7.00€" },
-                    { name: "Espresso Italo", price: "2.50€" }
+                    { name: "Tiramisu Maison (Secret Gòto)", price_cents: 900, description: "Le classique, onctueux et équilibré." },
+                    { name: "Cannolo Aperto (Ricotta & Pistache)", price_cents: 900 },
+                    { name: "Panna Cotta à la fève tonka", price_cents: 900 },
+                    { name: "Affogato al Caffè", price_cents: 700 },
+                    { name: "Espresso Italo", price_cents: 250 }
                 ]
             },
             {
-                category: "Vins Natures d'Exception (Sélection)",
+                category_type: "drink",
+                display_label: "Vins Natures d'Exception (Sélection)",
                 items: [
-                    { name: "Lambrusco dell'Emilia 'Camillo Donati' (Verre)", price: "9.00€" },
-                    { name: "Verre de vin nature (Blanc/Rouge sélection)", price: "8.50€" },
-                    { name: "Spritz Vénitien (Select/Aperol)", price: "10.00€" },
-                    { name: "Americano Gòto", price: "11.00€" },
-                    { name: "Bouteille de Prosecco Brut", price: "38.00€" }
+                    { name: "Lambrusco dell'Emilia 'Camillo Donati' (Verre)", price_cents: 900 },
+                    { name: "Verre de vin nature (Blanc/Rouge sélection)", price_cents: 850 },
+                    { name: "Spritz Vénitien (Select/Aperol)", price_cents: 1000 },
+                    { name: "Americano Gòto", price_cents: 1100 },
+                    { name: "Bouteille de Prosecco Brut", price_cents: 3800 }
                 ]
             }
         ]

@@ -45,29 +45,32 @@ export const recoin: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Recoin Paris 2024-2025
             {
-                category: "Formule Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner (Semaine)",
                 items: [
-                    { name: "Entrée + Plat ou Plat + Dessert", price: "23.50€" },
-                    { name: "Menu Complet (E+P+D)", price: "27.00€" }
+                    { name: "Entrée + Plat ou Plat + Dessert", price_cents: 2350 },
+                    { name: "Menu Complet (E+P+D)", price_cents: 2700 }
                 ]
             },
             {
-                category: "Assiettes à partager (Soir)",
+                category_type: "sharing",
+                display_label: "Assiettes à partager (Soir)",
                 items: [
-                    { name: "Radis, beurre demi-sel & pain au levain", price: "7.00€" },
-                    { name: "Terrine de cochon maison", price: "11.00€" },
-                    { name: "Poireaux brûlés, vinaigrette noisette", price: "12.00€" },
-                    { name: "Gravlax de truite au raifort", price: "15.00€" },
-                    { name: "Crosnes au beurre & citron", price: "12.00€" },
-                    { name: "Pièce de boeuf, jus corsé & purée maison", price: "24.00€" }
+                    { name: "Radis, beurre demi-sel & pain au levain", price_cents: 700 },
+                    { name: "Terrine de cochon maison", price_cents: 1100 },
+                    { name: "Poireaux brûlés, vinaigrette noisette", price_cents: 1200 },
+                    { name: "Gravlax de truite au raifort", price_cents: 1500 },
+                    { name: "Crosnes au beurre & citron", price_cents: 1200 },
+                    { name: "Pièce de boeuf, jus corsé & purée maison", price_cents: 2400 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Mousse au chocolat & fleur de sel", price: "9.00€" },
-                    { name: "Panna cotta à la verveine", price: "8.50€" },
-                    { name: "Fruit de saison rôti & glace vanille", price: "9.50€" }
+                    { name: "Mousse au chocolat & fleur de sel", price_cents: 900 },
+                    { name: "Panna cotta à la verveine", price_cents: 850 },
+                    { name: "Fruit de saison rôti & glace vanille", price_cents: 950 }
                 ]
             }
         ]

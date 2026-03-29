@@ -42,58 +42,63 @@ export const anco: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées Créatives",
+        category_type: "starter",
+        display_label: "Entrées Créatives",
         items: [
-          { name: "Ceviche de Maigre, leche de tigre passion", price: "14.00€", highlight: true },
-          { name: "Oeuf Parfait, crème de topinambour, noisettes", price: "12.00€" },
-          { name: "Pressé de Foie Gras maison, chutney coing", price: "18.00€", highlight: true },
-          { name: "Burrata des Pouilles, betteraves rôties", price: "13.00€" },
-          { name: "Tartare de Thon, ponzu & radis noir", price: "15.00€" },
-          { name: "Velouté de Potimarron, châtaignes grillées", price: "11.00€" }
+          { name: "Ceviche de Maigre, leche de tigre passion", price_cents: 1400, is_highlight: true },
+          { name: "Oeuf Parfait, crème de topinambour, noisettes", price_cents: 1200 },
+          { name: "Pressé de Foie Gras maison, chutney coing", price_cents: 1800, is_highlight: true },
+          { name: "Burrata des Pouilles, betteraves rôties", price_cents: 1300 },
+          { name: "Tartare de Thon, ponzu & radis noir", price_cents: 1500 },
+          { name: "Velouté de Potimarron, châtaignes grillées", price_cents: 1100 }
         ]
       },
       {
-        category: "Plats de Signature (La Terre & Mer)",
+        category_type: "main",
+        display_label: "Plats de Signature (La Terre & Mer)",
         items: [
-          { name: "Quasi de Veau, purée onctueuse, jus corsé", price: "26.00€", highlight: true },
-          { name: "Maigre de Ligne, risotto d'épeautre", price: "28.00€" },
-          { name: "Risotto de saison aux Truffes Noires", price: "24.00€", highlight: true },
-          { name: "Filet de Boeuf Simmental, frites maison", price: "32.00€" },
-          { name: "Cabillaud à la vapeur douce, légumes racines", price: "27.00€" },
-          { name: "Gnocchi maison, crème de parmesan & sauge", price: "21.00€" },
-          { name: "Pigeon rôti, cuisse confite, blettes", price: "34.00€" },
-          { name: "Suggestion du Chef (Arrivage Quotidien)", price: "28.00€" }
+          { name: "Quasi de Veau, purée onctueuse, jus corsé", price_cents: 2600, is_highlight: true },
+          { name: "Maigre de Ligne, risotto d'épeautre", price_cents: 2800 },
+          { name: "Risotto de saison aux Truffes Noires", price_cents: 2400, is_highlight: true },
+          { name: "Filet de Boeuf Simmental, frites maison", price_cents: 3200 },
+          { name: "Cabillaud à la vapeur douce, légumes racines", price_cents: 2700 },
+          { name: "Gnocchi maison, crème de parmesan & sauge", price_cents: 2100 },
+          { name: "Pigeon rôti, cuisse confite, blettes", price_cents: 3400 },
+          { name: "Suggestion du Chef (Arrivage Quotidien)", price_cents: 2800 }
         ]
       },
       {
-        category: "Accompagnements (Sides)",
+        category_type: "other",
+        display_label: "Accompagnements (Sides)",
         items: [
-          { name: "Frites Maison coupées au couteau", price: "6.00€" },
-          { name: "Purée de Pommes de Terre au beurre", price: "5.50€" },
-          { name: "Légumes verts sautés à l'ail", price: "6.50€" },
-          { name: "Salade de mesclun, vinaigrette miel", price: "5.00€" }
+          { name: "Frites Maison coupées au couteau", price_cents: 600 },
+          { name: "Purée de Pommes de Terre au beurre", price_cents: 550 },
+          { name: "Légumes verts sautés à l'ail", price_cents: 650 },
+          { name: "Salade de mesclun, vinaigrette miel", price_cents: 500 }
         ]
       },
       {
-        category: "Desserts Gourmands",
+        category_type: "dessert",
+        display_label: "Desserts Gourmands",
         items: [
-          { name: "Sablé Breton, crème citron, meringue", price: "9.00€", highlight: true },
-          { name: "Ganache Chocolat Noir, fleur de sel", price: "10.00€" },
-          { name: "Baba au Rhum, crème fouettée vanille", price: "11.00€", highlight: true },
-          { name: "Pavlova aux Fruits Exotiques", price: "10.50€" },
-          { name: "Assiette de Fromages affinés", price: "12.00€" },
-          { name: "Sorbet Maison (3 boules)", price: "8.50€" }
+          { name: "Sablé Breton, crème citron, meringue", price_cents: 900, is_highlight: true },
+          { name: "Ganache Chocolat Noir, fleur de sel", price_cents: 1000 },
+          { name: "Baba au Rhum, crème fouettée vanille", price_cents: 1100, is_highlight: true },
+          { name: "Pavlova aux Fruits Exotiques", price_cents: 1050 },
+          { name: "Assiette de Fromages affinés", price_cents: 1200 },
+          { name: "Sorbet Maison (3 boules)", price_cents: 850 }
         ]
       },
       {
-        category: "La Cave de l'Anco (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de l'Anco (Boissons)",
         items: [
-          { name: "Verre de Côtes du Rhône", price: "7.00€" },
-          { name: "Verre de Bourgogne Blanc", price: "8.50€" },
-          { name: "Bouteille de Chablis 1er Cru", price: "48.00€" },
-          { name: "Bouteille de Pic Saint Loup", price: "36.00€" },
-          { name: "Café de Spécialité", price: "2.80€" },
-          { name: "Infusion Bio", price: "4.50€" }
+          { name: "Verre de Côtes du Rhône", price_cents: 700 },
+          { name: "Verre de Bourgogne Blanc", price_cents: 850 },
+          { name: "Bouteille de Chablis 1er Cru", price_cents: 4800 },
+          { name: "Bouteille de Pic Saint Loup", price_cents: 3600 },
+          { name: "Café de Spécialité", price_cents: 280 },
+          { name: "Infusion Bio", price_cents: 450 }
         ]
       }
     ]

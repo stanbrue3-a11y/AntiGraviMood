@@ -40,44 +40,47 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "L'Odyssée Gastronomique (Menu Unique)",
+        category_type: "tasting_menu",
+        display_label: "L'Odyssée Gastronomique (Menu Unique)",
         items: [
-          { name: "Menu Dégustation Don Juan II", price: "240€", description: "Le parcours complet sur la Seine en 6 étapes par le chef Frédéric Anton", highlight: true }
+          { name: "Menu Dégustation Don Juan II", price_cents: 24000, description: "Le parcours complet sur la Seine en 6 étapes par le chef Frédéric Anton", is_highlight: true }
         ]
       },
       {
-        category: "Les Étapes du Voyage",
+        category_type: "other",
+        display_label: "Les Étapes du Voyage",
         items: [
-          { name: "Le Crabe Royal", price: "0€", description: "Parfumé au Curry, crème d'avocat et herbes fraîches" },
-          { name: "Langoustine en Ravioli", price: "0€", description: "Crème de Parmesan légère et truffe d'été (selon saison)", highlight: true },
-          { name: "Le Cabillaud de Ligne", price: "0€", description: "Cuit à la nacre, émulsion d'agrumes et carottes oubliées" },
-          { name: "Volaille de Ferme au Foie Gras", price: "0€", description: "Saisie au sautoir, morilles et asperges vertes croquantes" },
-          { name: "Soufflé Chaud au Chocolat", price: "0€", description: "Glace à la pistache d'Iran, un final intense et fondant", highlight: true },
-          { name: "Amuse-Bouche : Sablé Parmesan", price: "0€", description: "Texture sablée et cœur fondant" },
-          { name: "Gaspacho de Melon", price: "0€", description: "Fraîcheur d'accueil (Saison)" },
-          { name: "Service de Pains Artisans", price: "0€", description: "Sourdough et baguette tradition" },
-          { name: "Beurre de Baratte", price: "0€", description: "Doux et demi-sel de Guérande" },
-          { name: "Mignardises de la Seine", price: "0€", description: "Sélection de chocolats et macarons maison" }
+          { name: "Le Crabe Royal", price_cents: 0, description: "Parfumé au Curry, crème d'avocat et herbes fraîches" },
+          { name: "Langoustine en Ravioli", price_cents: 0, description: "Crème de Parmesan légère et truffe d'été (selon saison)", is_highlight: true },
+          { name: "Le Cabillaud de Ligne", price_cents: 0, description: "Cuit à la nacre, émulsion d'agrumes et carottes oubliées" },
+          { name: "Volaille de Ferme au Foie Gras", price_cents: 0, description: "Saisie au sautoir, morilles et asperges vertes croquantes" },
+          { name: "Soufflé Chaud au Chocolat", price_cents: 0, description: "Glace à la pistache d'Iran, un final intense et fondant", is_highlight: true },
+          { name: "Amuse-Bouche : Sablé Parmesan", price_cents: 0, description: "Texture sablée et cœur fondant" },
+          { name: "Gaspacho de Melon", price_cents: 0, description: "Fraîcheur d'accueil (Saison)" },
+          { name: "Service de Pains Artisans", price_cents: 0, description: "Sourdough et baguette tradition" },
+          { name: "Beurre de Baratte", price_cents: 0, description: "Doux et demi-sel de Guérande" },
+          { name: "Mignardises de la Seine", price_cents: 0, description: "Sélection de chocolats et macarons maison" }
         ]
       },
       {
-        category: "La Cave du Capitaine",
+        category_type: "drink",
+        display_label: "La Cave du Capitaine",
         items: [
-          { name: "Accord Mets & Vins Premium", price: "120€", description: "6 verres sélectionnés par notre sommelier", highlight: true },
-          { name: "Coupe de Champagne Bollinger", price: "28€", description: "Bulles fines d'accueil" },
-          { name: "Cocktail Signature 'Pont Debilly'", price: "25€", description: "Gin, St-Germain, concombre et lime" },
-          { name: "Bouteille de Chablis 'Sélection Anton'", price: "95€" },
-          { name: "Bouteille de Meursault 'Luxe'", price: "180€" },
-          { name: "Sancerre Blanc de Loire", price: "85€" },
-          { name: "Saint-Estèphe Cru Bourgeois", price: "90€" },
-          { name: "Cognac XO Rare", price: "24€" },
-          { name: "Armagnac Hors d'Age", price: "22€" },
-          { name: "Cocktail 'Rive Gauche'", price: "24€" },
-          { name: "Mocktail 'Seine'", price: "18€", description: "Jus de pomme filtré, cannelle et badiane" },
-          { name: "Jus d'Orange Pressé Minute", price: "12€" },
-          { name: "Eau Minérale Abatilles (75cl)", price: "10€" },
-          { name: "Café Micro-Torréfaction", price: "12€" },
-          { name: "Infusion de Fleurs Fraîches", price: "12€" }
+          { name: "Accord Mets & Vins Premium", price_cents: 12000, description: "6 verres sélectionnés par notre sommelier", is_highlight: true },
+          { name: "Coupe de Champagne Bollinger", price_cents: 2800, description: "Bulles fines d'accueil" },
+          { name: "Cocktail Signature 'Pont Debilly'", price_cents: 2500, description: "Gin, St-Germain, concombre et lime" },
+          { name: "Bouteille de Chablis 'Sélection Anton'", price_cents: 9500 },
+          { name: "Bouteille de Meursault 'Luxe'", price_cents: 18000 },
+          { name: "Sancerre Blanc de Loire", price_cents: 8500 },
+          { name: "Saint-Estèphe Cru Bourgeois", price_cents: 9000 },
+          { name: "Cognac XO Rare", price_cents: 2400 },
+          { name: "Armagnac Hors d'Age", price_cents: 2200 },
+          { name: "Cocktail 'Rive Gauche'", price_cents: 2400 },
+          { name: "Mocktail 'Seine'", price_cents: 1800, description: "Jus de pomme filtré, cannelle et badiane" },
+          { name: "Jus d'Orange Pressé Minute", price_cents: 1200 },
+          { name: "Eau Minérale Abatilles (75cl)", price_cents: 1000 },
+          { name: "Café Micro-Torréfaction", price_cents: 1200 },
+          { name: "Infusion de Fleurs Fraîches", price_cents: 1200 }
         ]
       }
     ]

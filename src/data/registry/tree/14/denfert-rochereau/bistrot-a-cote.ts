@@ -43,35 +43,38 @@ export const bistrotACote: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Ardoise du Jour",
+                category_type: "other",
+                display_label: "L'Ardoise du Jour",
                 items: [
-                    { name: "Cuisse de canard confite, pommes sautées", price: "21.00€" },
-                    { name: "Filet de bœuf au poivre, frites maison", price: "26.00€" },
-                    { name: "Dos de cabillaud à la plancha", price: "23.00€" },
-                    { name: "Blanquette de veau à l'ancienne", price: "22.50€" },
-                    { name: "Tartare de bœuf préparé, frites", price: "19.50€" },
-                    { name: "Parmentier de Canard aux petits oignons", price: "21.50€" },
-                    { name: "Andouillette AAAAA, sauce moutarde", price: "19.50€" }
+                    { name: "Cuisse de canard confite, pommes sautées", price_cents: 2100 },
+                    { name: "Filet de bœuf au poivre, frites maison", price_cents: 2600 },
+                    { name: "Dos de cabillaud à la plancha", price_cents: 2300 },
+                    { name: "Blanquette de veau à l'ancienne", price_cents: 2250 },
+                    { name: "Tartare de bœuf préparé, frites", price_cents: 1950 },
+                    { name: "Parmentier de Canard aux petits oignons", price_cents: 2150 },
+                    { name: "Andouillette AAAAA, sauce moutarde", price_cents: 1950 }
                 ]
             },
             {
-                category: "Entrées de Saison",
+                category_type: "starter",
+                display_label: "Entrées de Saison",
                 items: [
-                    { name: "Terrine de campagne artisanale", price: "9.50€" },
-                    { name: "Oeuf cocotte au foie gras", price: "11.00€" },
-                    { name: "Salade de gésiers confits", price: "10.50€" },
-                    { name: "Velouté de potiron aux éclats de noisettes", price: "9.50€" },
-                    { name: "Cassolette d'escargots au beurre aillé", price: "12.00€" }
+                    { name: "Terrine de campagne artisanale", price_cents: 950 },
+                    { name: "Oeuf cocotte au foie gras", price_cents: 1100 },
+                    { name: "Salade de gésiers confits", price_cents: 1050 },
+                    { name: "Velouté de potiron aux éclats de noisettes", price_cents: 950 },
+                    { name: "Cassolette d'escargots au beurre aillé", price_cents: 1200 }
                 ]
             },
             {
-                category: "Desserts Maison",
+                category_type: "dessert",
+                display_label: "Desserts Maison",
                 items: [
-                    { name: "Tarte Tatin et sa crème fraîche", price: "9.00€" },
-                    { name: "Mousse au chocolat noir", price: "8.00€" },
-                    { name: "Île flottante à la vanille bourbon", price: "8.50€" },
-                    { name: "Baba au Rhum Ambré", price: "10.00€" },
-                    { name: "Crème Brûlée à la Cassonade", price: "8.50€" }
+                    { name: "Tarte Tatin et sa crème fraîche", price_cents: 900 },
+                    { name: "Mousse au chocolat noir", price_cents: 800 },
+                    { name: "Île flottante à la vanille bourbon", price_cents: 850 },
+                    { name: "Baba au Rhum Ambré", price_cents: 1000 },
+                    { name: "Crème Brûlée à la Cassonade", price_cents: 850 }
                 ]
             }
         ]

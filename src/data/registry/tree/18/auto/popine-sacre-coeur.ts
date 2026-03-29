@@ -40,30 +40,39 @@ export const popine_sacre_coeur: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Pizze Napoletane (Plats)", items: [
-        { name: "Margherita Extra", price: "13.00€", description: "Tomate San Marzano, mozzarella di bufala, basilic" },
-        { name: "Regina Popine", price: "18.00€", description: "Tomate, mozzarella, jambon cuit, champignons de Paris" },
-        { name: "Diavola Bianca", price: "18.00€", description: "Mozzarella, spianata piccante, provola fumée" },
-        { name: "Mortadella e Pistacchio", price: "19.00€", description: "Pesto de pistache, mozzarella, mortadelle" },
-        { name: "Vesuvio (Signature)", price: "20.00€", description: "Base tomate, jambon, champignons, œuf coulant" },
-        { name: "Boscaiola", price: "18.00€", description: "Mozzarella, saucisse italienne, champignons" },
-        { name: "Quattro Formaggi", price: "17.00€" },
-        { name: "Melanzana Verde", price: "17.00€" },
-        { name: "Provola e Pepe", price: "15.00€" },
-        { name: "Marinara Classica", price: "11.00€" }
+      {
+        category_type: "main",
+        display_label: "Pizze Napoletane (Plats)",
+        items: [
+        { name: "Margherita Extra", price_cents: 1300, description: "Tomate San Marzano, mozzarella di bufala, basilic" },
+        { name: "Regina Popine", price_cents: 1800, description: "Tomate, mozzarella, jambon cuit, champignons de Paris" },
+        { name: "Diavola Bianca", price_cents: 1800, description: "Mozzarella, spianata piccante, provola fumée" },
+        { name: "Mortadella e Pistacchio", price_cents: 1900, description: "Pesto de pistache, mozzarella, mortadelle" },
+        { name: "Vesuvio (Signature)", price_cents: 2000, description: "Base tomate, jambon, champignons, œuf coulant" },
+        { name: "Boscaiola", price_cents: 1800, description: "Mozzarella, saucisse italienne, champignons" },
+        { name: "Quattro Formaggi", price_cents: 1700 },
+        { name: "Melanzana Verde", price_cents: 1700 },
+        { name: "Provola e Pepe", price_cents: 1500 },
+        { name: "Marinara Classica", price_cents: 1100 }
       ]},
-      { category: "Antipasti & Ricotta (Entrées)", items: [
-        { name: "Ricotta Fraîche (1 Piattino)", price: "7.00€" },
-        { name: "Ricotta Fraîche (3 Piattini)", price: "19.00€" },
-        { name: "Burrata Di Andria IGP", price: "12.00€" },
-        { name: "Bresaola della Valtellina", price: "19.00€" },
-        { name: "Arancini au Ragù", price: "9.50€" },
-        { name: "Pain Focaccia Maison", price: "6.50€" }
+      {
+        category_type: "starter",
+        display_label: "Antipasti & Ricotta (Entrées)",
+        items: [
+        { name: "Ricotta Fraîche (1 Piattino)", price_cents: 700 },
+        { name: "Ricotta Fraîche (3 Piattini)", price_cents: 1900 },
+        { name: "Burrata Di Andria IGP", price_cents: 1200 },
+        { name: "Bresaola della Valtellina", price_cents: 1900 },
+        { name: "Arancini au Ragù", price_cents: 950 },
+        { name: "Pain Focaccia Maison", price_cents: 650 }
       ]},
-      { category: "Desserts Maison", items: [
-        { name: "Tiramisu al Caffe", price: "8.00€" },
-        { name: "Cheesecake Maison", price: "8.00€" },
-        { name: "Dolcetini (Assortiment)", price: "11.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts Maison",
+        items: [
+        { name: "Tiramisu al Caffe", price_cents: 800 },
+        { name: "Cheesecake Maison", price_cents: 800 },
+        { name: "Dolcetini (Assortiment)", price_cents: 1100 }
       ]}
     ]
   },

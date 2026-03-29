@@ -42,39 +42,42 @@ export const jones: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Petites Assiettes (Entrées & Tapas)",
+                category_type: "starter",
+                display_label: "Les Petites Assiettes (Entrées & Tapas)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Arancini croustillants cacio e pepe", price: "9.00€", description: "Le classique italien frit, parfait pour ouvrir l'appétit." },
-                    { name: "Pamplemousse avec Brocciu et pistache", price: "12.00€" },
-                    { name: "Salade Caesar, radis, radicchio rouge et rose, suprêmes d'orange", price: "12.00€" },
-                    { name: "Hareng, crème d'anguille et betteraves", price: "14.00€" },
-                    { name: "Asperges vertes et crème d'anguille", price: "15.00€" },
-                    { name: "Bonite, ricotta fumée et sarrasin", price: "15.00€" },
-                    { name: "Burrata d'exception & poutargue", price: "16.00€", description: "L'iode de la poutargue vient percer le gras de la burrata." }
+                    { name: "Arancini croustillants cacio e pepe", price_cents: 900, description: "Le classique italien frit, parfait pour ouvrir l'appétit." },
+                    { name: "Pamplemousse avec Brocciu et pistache", price_cents: 1200 },
+                    { name: "Salade Caesar, radis, radicchio rouge et rose, suprêmes d'orange", price_cents: 1200 },
+                    { name: "Hareng, crème d'anguille et betteraves", price_cents: 1400 },
+                    { name: "Asperges vertes et crème d'anguille", price_cents: 1500 },
+                    { name: "Bonite, ricotta fumée et sarrasin", price_cents: 1500 },
+                    { name: "Burrata d'exception & poutargue", price_cents: 1600, description: "L'iode de la poutargue vient percer le gras de la burrata." }
                 ]
             },
             {
-                category: "Pâtes & Plats Principaux",
+                category_type: "main",
+                display_label: "Pâtes & Plats Principaux",
                 items: [
-                    { name: "Bucatini alla puttanesca", price: "17.00€" },
-                    { name: "Spaghetti Cacio e Pepe", price: "18.00€", description: "Pecorino Romano et poivre noir, émulsion parfaite." },
-                    { name: "Raviolis Ricotta cacio e pepe", price: "19.00€" },
-                    { name: "Saint-Jacques snackées, noisettes et panais", price: "22.00€" },
-                    { name: "Onglet de bœuf de Galice", price: "24.00€" },
-                    { name: "Veau avec palourdes et brocolis", price: "24.00€" }
+                    { name: "Bucatini alla puttanesca", price_cents: 1700 },
+                    { name: "Spaghetti Cacio e Pepe", price_cents: 1800, description: "Pecorino Romano et poivre noir, émulsion parfaite." },
+                    { name: "Raviolis Ricotta cacio e pepe", price_cents: 1900 },
+                    { name: "Saint-Jacques snackées, noisettes et panais", price_cents: 2200 },
+                    { name: "Onglet de bœuf de Galice", price_cents: 2400 },
+                    { name: "Veau avec palourdes et brocolis", price_cents: 2400 }
                 ]
             },
             {
-                category: "Fromages, Desserts & Vins Natures",
+                category_type: "dessert",
+                display_label: "Fromages, Desserts & Vins Natures",
                 items: [
-                    { name: "Assiette de fromages affinés", price: "9.00€" },
-                    { name: "Gâteau chaud aux coings", price: "8.00€" },
-                    { name: "Tiramisu somptueux", price: "9.00€" },
-                    { name: "Chocolat, fromage blanc et café", price: "9.00€" },
-                    { name: "Sorbet Poire-Oseille, poire pochée et pecorino", price: "10.00€" },
-                    { name: "Verre de vin nature (Sélection caviste)", price: "7.00€", description: "Sélection pointue et vivante, changeante chaque soir." },
-                    { name: "Bouteille de vin nature (à partir de)", price: "32.00€" }
+                    { name: "Assiette de fromages affinés", price_cents: 900 },
+                    { name: "Gâteau chaud aux coings", price_cents: 800 },
+                    { name: "Tiramisu somptueux", price_cents: 900 },
+                    { name: "Chocolat, fromage blanc et café", price_cents: 900 },
+                    { name: "Sorbet Poire-Oseille, poire pochée et pecorino", price_cents: 1000 },
+                    { name: "Verre de vin nature (Sélection caviste)", price_cents: 700, description: "Sélection pointue et vivante, changeante chaque soir." },
+                    { name: "Bouteille de vin nature (à partir de)", price_cents: 3200 }
                 ]
             }
         ]

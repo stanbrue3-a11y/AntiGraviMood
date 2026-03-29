@@ -43,64 +43,69 @@ export const le_galopin: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Signatures du Chef Simmonet (Entrées)",
+        category_type: "starter",
+        display_label: "Signatures du Chef Simmonet (Entrées)",
         items: [
-          { name: "Tartelette Oignon, Œufs de Truite & Poutargue", price: "16.00€", highlight: true },
-          { name: "Saint-Jacques de plongée, Butternut & Pavé", price: "19.00€", highlight: true },
-          { name: "Œuf Parfait, Pleurotes au Miso & Kalamata", price: "14.50€", highlight: true },
-          { name: "Carpaccio de Bœuf Wagyu & Huile de Sésame", price: "22.00€" },
-          { name: "Sashimi de Mulet Ikejime & Algues Dulce", price: "18.00€", highlight: true },
-          { name: "Velouté de Topinambour & Éclats de Châtaigne", price: "12.00€" },
-          { name: "Betterave Fumée & Ricotta de Bufflonne fumée", price: "13.50€" },
-          { name: "Radis Daikon Mariné & Vinaigrette Ponzu", price: "11.00€" }
+          { name: "Tartelette Oignon, Œufs de Truite & Poutargue", price_cents: 1600, is_highlight: true },
+          { name: "Saint-Jacques de plongée, Butternut & Pavé", price_cents: 1900, is_highlight: true },
+          { name: "Œuf Parfait, Pleurotes au Miso & Kalamata", price_cents: 1450, is_highlight: true },
+          { name: "Carpaccio de Bœuf Wagyu & Huile de Sésame", price_cents: 2200 },
+          { name: "Sashimi de Mulet Ikejime & Algues Dulce", price_cents: 1800, is_highlight: true },
+          { name: "Velouté de Topinambour & Éclats de Châtaigne", price_cents: 1200 },
+          { name: "Betterave Fumée & Ricotta de Bufflonne fumée", price_cents: 1350 },
+          { name: "Radis Daikon Mariné & Vinaigrette Ponzu", price_cents: 1100 }
         ]
       },
       {
-        category: "Expériences Marines & Terrestres (Plats)",
+        category_type: "main",
+        display_label: "Expériences Marines & Terrestres (Plats)",
         items: [
-          { name: "Merlu de Ligne à l'Algue Dulce & Fumet Coco", price: "29.00€", highlight: true },
-          { name: "Ris de Veau au Jus Corsé, Sage & Ciboulette", price: "34.00€", highlight: true },
-          { name: "Pigeon de Vendée rôti sur le coffre au Sang", price: "38.00€", highlight: true },
-          { name: "Filet de Bœuf Aubrac & Huile de Sésame Noir", price: "32.00€" },
-          { name: "Cabillaud au Miso Blanc & Légumes Croquants", price: "30.00€" },
-          { name: "Agneau de Lait des Pyrénées & Ail Noir", price: "35.00€", highlight: true },
-          { name: "Risotto aux Champignons des Bois & Truffe", price: "28.00€" },
-          { name: "Pêche du Jour (Ikejime) & Beurre Blanc Yuzu", price: "31.00€", highlight: true }
+          { name: "Merlu de Ligne à l'Algue Dulce & Fumet Coco", price_cents: 2900, is_highlight: true },
+          { name: "Ris de Veau au Jus Corsé, Sage & Ciboulette", price_cents: 3400, is_highlight: true },
+          { name: "Pigeon de Vendée rôti sur le coffre au Sang", price_cents: 3800, is_highlight: true },
+          { name: "Filet de Bœuf Aubrac & Huile de Sésame Noir", price_cents: 3200 },
+          { name: "Cabillaud au Miso Blanc & Légumes Croquants", price_cents: 3000 },
+          { name: "Agneau de Lait des Pyrénées & Ail Noir", price_cents: 3500, is_highlight: true },
+          { name: "Risotto aux Champignons des Bois & Truffe", price_cents: 2800 },
+          { name: "Pêche du Jour (Ikejime) & Beurre Blanc Yuzu", price_cents: 3100, is_highlight: true }
         ]
       },
       {
-        category: "Accords Végétaux (Accompagnements)",
+        category_type: "other",
+        display_label: "Accords Végétaux (Accompagnements)",
         items: [
-          { name: "Mousseline de Pommes de Terre au Sésame", price: "7.50€", highlight: true },
-          { name: "Carottes Fanes Rôties au Miel & Gingembre", price: "8.00€" },
-          { name: "Julienne de Légumes à la Japonaise (Pickles)", price: "7.00€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette Yuzu", price: "6.50€" },
-          { name: "Riz Gohan de Qualité Supérieure", price: "6.00€" }
+          { name: "Mousseline de Pommes de Terre au Sésame", price_cents: 750, is_highlight: true },
+          { name: "Carottes Fanes Rôties au Miel & Gingembre", price_cents: 800 },
+          { name: "Julienne de Légumes à la Japonaise (Pickles)", price_cents: 700 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette Yuzu", price_cents: 650 },
+          { name: "Riz Gohan de Qualité Supérieure", price_cents: 600 }
         ]
       },
       {
-        category: "Épilogues Sucrés (Desserts)",
+        category_type: "dessert",
+        display_label: "Épilogues Sucrés (Desserts)",
         items: [
-          { name: "Courge Shiatsu, Crumble Maïs & Caramel", price: "12.00€", highlight: true },
-          { name: "Ganache Chocolat Noir 75% & Sorbet Banane", price: "11.00€", highlight: true },
-          { name: "Riz au Lait Vanillé & Praliné Sésame Noir", price: "10.00€" },
-          { name: "Financier aux Amandes & Sorbet Shizo Vert", price: "11.50€", highlight: true },
-          { name: "Fromages Affinés (Maison Quatrehomme)", price: "14.00€" },
-          { name: "Glace à l'Huile d'Olive & Sel de Guérande", price: "9.00€" },
-          { name: "Tartelette aux Fruits de Saison & Verveine", price: "10.50€" }
+          { name: "Courge Shiatsu, Crumble Maïs & Caramel", price_cents: 1200, is_highlight: true },
+          { name: "Ganache Chocolat Noir 75% & Sorbet Banane", price_cents: 1100, is_highlight: true },
+          { name: "Riz au Lait Vanillé & Praliné Sésame Noir", price_cents: 1000 },
+          { name: "Financier aux Amandes & Sorbet Shizo Vert", price_cents: 1150, is_highlight: true },
+          { name: "Fromages Affinés (Maison Quatrehomme)", price_cents: 1400 },
+          { name: "Glace à l'Huile d'Olive & Sel de Guérande", price_cents: 900 },
+          { name: "Tartelette aux Fruits de Saison & Verveine", price_cents: 1050 }
         ]
       },
       {
-        category: "La Cave du Galopin (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave du Galopin (Boissons)",
         items: [
-          { name: "Verre de Saké Artisanal (Sélection du Chef)", price: "12.00€", highlight: true },
-          { name: "Verre de Vin Naturel (Blanc des Vignerons)", price: "9.50€", highlight: true },
-          { name: "Verre de Vin Naturel (Rouge Terroir)", price: "9.00€" },
-          { name: "Bouteille de Vin Vivant (Vignerons Amis)", price: "45.00€" },
-          { name: "Jus de Fruits Frais Pressés (Minute)", price: "7.50€" },
-          { name: "Eau Micro-filtrée Le Galopin (75cl)", price: "4.50€", highlight: true },
-          { name: "Thé Vert Matcha de Cérémonie", price: "8.00€" },
-          { name: "Café Espresso Terres de Café (Spécialité)", price: "3.50€" }
+          { name: "Verre de Saké Artisanal (Sélection du Chef)", price_cents: 1200, is_highlight: true },
+          { name: "Verre de Vin Naturel (Blanc des Vignerons)", price_cents: 950, is_highlight: true },
+          { name: "Verre de Vin Naturel (Rouge Terroir)", price_cents: 900 },
+          { name: "Bouteille de Vin Vivant (Vignerons Amis)", price_cents: 4500 },
+          { name: "Jus de Fruits Frais Pressés (Minute)", price_cents: 750 },
+          { name: "Eau Micro-filtrée Le Galopin (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Thé Vert Matcha de Cérémonie", price_cents: 800 },
+          { name: "Café Espresso Terres de Café (Spécialité)", price_cents: 350 }
         ]
       }
     ]

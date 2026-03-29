@@ -40,37 +40,40 @@ export const cerisaie: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Spécialités du Sud-Ouest Signées Cyril Lalanne",
+                category_type: "other",
+                display_label: "Spécialités du Sud-Ouest Signées Cyril Lalanne",
                 items: [
-                    { name: "Cassoulet aux Haricots Tarbais (Le Vrai)", price: "28.00€", description: "Mijoté longuement, la signature incontestée de la maison." },
-                    { name: "Cochon Noir de Bigorre et Fèves de Printemps", price: "26.00€" },
-                    { name: "Pot au Feu de Canard et Cochon Noir (pour 2)", price: "56.00€" },
-                    { name: "Magret d'Oie des Landes, Polenta Crémeuse", price: "24.50€" },
-                    { name: "Cuisse de Canard Confite et Piperade Basque", price: "22.00€" },
-                    { name: "Manchon de Canard & Chorizo Confits", price: "21.00€" },
-                    { name: "Piquillos farcis à la morue, Bisque", price: "18.00€" },
-                    { name: "Chipirons Poêlés au Riz", price: "24.00€" }
+                    { name: "Cassoulet aux Haricots Tarbais (Le Vrai)", price_cents: 2800, description: "Mijoté longuement, la signature incontestée de la maison." },
+                    { name: "Cochon Noir de Bigorre et Fèves de Printemps", price_cents: 2600 },
+                    { name: "Pot au Feu de Canard et Cochon Noir (pour 2)", price_cents: 5600 },
+                    { name: "Magret d'Oie des Landes, Polenta Crémeuse", price_cents: 2450 },
+                    { name: "Cuisse de Canard Confite et Piperade Basque", price_cents: 2200 },
+                    { name: "Manchon de Canard & Chorizo Confits", price_cents: 2100 },
+                    { name: "Piquillos farcis à la morue, Bisque", price_cents: 1800 },
+                    { name: "Chipirons Poêlés au Riz", price_cents: 2400 }
                 ]
             },
             {
-                category: "Premières Saveurs & Fromages",
+                category_type: "dessert",
+                display_label: "Premières Saveurs & Fromages",
                 items: [
-                    { name: "Terrine de Foie Gras de Canard Maison", price: "19.50€" },
-                    { name: "Terrine de Porc Noir de Bigorre", price: "12.00€" },
-                    { name: "Bouillon de Canard aux Truffes Noires", price: "7.00€" },
-                    { name: "Asperges des Landes au Citron Confit", price: "14.50€" },
-                    { name: "Fromage de Bethmale servi à la gelée de coing", price: "9.50€" },
-                    { name: "Laguiole Affiné", price: "9.00€" }
+                    { name: "Terrine de Foie Gras de Canard Maison", price_cents: 1950 },
+                    { name: "Terrine de Porc Noir de Bigorre", price_cents: 1200 },
+                    { name: "Bouillon de Canard aux Truffes Noires", price_cents: 700 },
+                    { name: "Asperges des Landes au Citron Confit", price_cents: 1450 },
+                    { name: "Fromage de Bethmale servi à la gelée de coing", price_cents: 950 },
+                    { name: "Laguiole Affiné", price_cents: 900 }
                 ]
             },
             {
-                category: "Douceurs des Pyrénées",
+                category_type: "dessert",
+                display_label: "Douceurs des Pyrénées",
                 items: [
-                    { name: "Sablé Doré Fraise-Rhubarbe (Crumble)", price: "9.50€" },
-                    { name: "Baba à l'Armagnac, Crème Fouettée Vanille", price: "11.00€" },
-                    { name: "Tarte Fondante au Chocolat Noir", price: "9.00€" },
-                    { name: "Petit Pot de Crème Chocolat & Noisette", price: "8.50€" },
-                    { name: "Glace au Roquefort (Pour audacieux)", price: "9.00€" }
+                    { name: "Sablé Doré Fraise-Rhubarbe (Crumble)", price_cents: 950 },
+                    { name: "Baba à l'Armagnac, Crème Fouettée Vanille", price_cents: 1100 },
+                    { name: "Tarte Fondante au Chocolat Noir", price_cents: 900 },
+                    { name: "Petit Pot de Crème Chocolat & Noisette", price_cents: 850 },
+                    { name: "Glace au Roquefort (Pour audacieux)", price_cents: 900 }
                 ]
             }
         ]

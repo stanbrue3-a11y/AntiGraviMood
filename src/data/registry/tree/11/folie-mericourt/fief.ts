@@ -45,29 +45,32 @@ export const fief: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "L'Expérience Gastronomique (Comptoir d'Hôtes)",
+                category_type: "other",
+                display_label: "L'Expérience Gastronomique (Comptoir d'Hôtes)",
                 items: [
-                    { name: "Menu Dégustation en 10 Temps", price: "170.00€", description: "Servi exclusivement au comptoir à 20h, immersion totale avec le chef." },
-                    { name: "Accord Mets & Vins 'Découverte'", price: "80.00€", description: "6 verres de vins de vignerons français." },
-                    { name: "Accord Mets & Vins 'Exception'", price: "145.00€", description: "6 verres de cuvées rares et prestigieuses." },
-                    { name: "Accord Sans Alcool", price: "65.00€", description: "6 boissons d'exception infusées/fermentées (100% FR)." }
+                    { name: "Menu Dégustation en 10 Temps", price_cents: 17000, description: "Servi exclusivement au comptoir à 20h, immersion totale avec le chef." },
+                    { name: "Accord Mets & Vins 'Découverte'", price_cents: 8000, description: "6 verres de vins de vignerons français." },
+                    { name: "Accord Mets & Vins 'Exception'", price_cents: 14500, description: "6 verres de cuvées rares et prestigieuses." },
+                    { name: "Accord Sans Alcool", price_cents: 6500, description: "6 boissons d'exception infusées/fermentées (100% FR)." }
                 ]
             },
             {
-                category: "La Salle de Restaurant (5 temps)",
+                category_type: "tasting_menu",
+                display_label: "La Salle de Restaurant (5 temps)",
                 items: [
-                    { name: "Menu Omnivore Conscient", price: "95.00€", description: "Dégustation en 5 étapes célébrant le terroir français." },
-                    { name: "Menu Amour Végétal", price: "90.00€", description: "Version 100% végétale et gastronomique en 5 étapes." }
+                    { name: "Menu Omnivore Conscient", price_cents: 9500, description: "Dégustation en 5 étapes célébrant le terroir français." },
+                    { name: "Menu Amour Végétal", price_cents: 9000, description: "Version 100% végétale et gastronomique en 5 étapes." }
                 ]
             },
             {
-                category: "Signatures - Fait Ici En France",
+                category_type: "other",
+                display_label: "Signatures - Fait Ici En France",
                 items: [
-                    { name: "Sturgeon Soufflé", price: "32.00€", description: "Esturgeon fumé, lait de Neuvic et caviar." },
-                    { name: "Tartelette d'oignons brûlés", price: "18.00€", description: "Truffe noire et kale croustillant." },
-                    { name: "Poisson de ligne au poivre du Gers", price: "38.00€", description: "Légumes racines, émulsion au mélilot." },
-                    { name: "Dessert autour de la Figue & Huile d'olive", price: "16.00€" },
-                    { name: "Cafief (Infusion de céréales)", price: "6.00€", description: "Alternative locale au café : orge, sarrasin et chicorée." }
+                    { name: "Sturgeon Soufflé", price_cents: 3200, description: "Esturgeon fumé, lait de Neuvic et caviar." },
+                    { name: "Tartelette d'oignons brûlés", price_cents: 1800, description: "Truffe noire et kale croustillant." },
+                    { name: "Poisson de ligne au poivre du Gers", price_cents: 3800, description: "Légumes racines, émulsion au mélilot." },
+                    { name: "Dessert autour de la Figue & Huile d'olive", price_cents: 1600 },
+                    { name: "Cafief (Infusion de céréales)", price_cents: 600, description: "Alternative locale au café : orge, sarrasin et chicorée." }
                 ]
             }
         ]

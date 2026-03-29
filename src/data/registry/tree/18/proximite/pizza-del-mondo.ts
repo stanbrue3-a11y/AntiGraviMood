@@ -47,48 +47,52 @@ export const pizza_del_mondo: SurgicalPlace = {
         "smart_tip": "La pizza 'Del Mondo' (viande hachée, merguez) est l'un des meilleurs rapports qualité-prix du quartier pour un repas sur le pouce.",
         "menu_items": [
             {
-                "category": "Pizzas Maison (Four à Pierre)",
+                "category_type": "main",
+                "display_label": "Pizzas Maison (Four à Pierre)",
                 "items": [
-                    { "name": "Margherita", "price": "12,00€" },
-                    { "name": "Del Mondo (viande hachée, merguez, œuf)", "price": "12,50€" },
-                    { "name": "Regina (jambon, champignons)", "price": "14,50€" },
-                    { "name": "Umberto (jambon, œuf)", "price": "14,00€" },
-                    { "name": "Napoletano (anchois, câpres, olives)", "price": "14,50€" },
-                    { "name": "Américain (poivron, salami)", "price": "14,50€" },
-                    { "name": "Quatre Fromages", "price": "15,50€" },
-                    { "name": "Calzone (jambon, champignons, œuf)", "price": "15,00€" },
-                    { "name": "Chorizo", "price": "15,00€" },
-                    { "name": "Hawaï (jambon, ananas)", "price": "15,00€" },
-                    { "name": "Quatre Saisons", "price": "15,50€" },
-                    { "name": "Pescatore", "price": "15,50€" },
-                    { "name": "Poulet", "price": "16,00€" },
-                    { "name": "Campione", "price": "16,00€" },
-                    { "name": "Salmone", "price": "16,50€" }
+                    { "name": "Margherita", "price_cents": 1200 },
+                    { "name": "Del Mondo (viande hachée, merguez, œuf)", "price_cents": 1250 },
+                    { "name": "Regina (jambon, champignons)", "price_cents": 1450 },
+                    { "name": "Umberto (jambon, œuf)", "price_cents": 1400 },
+                    { "name": "Napoletano (anchois, câpres, olives)", "price_cents": 1450 },
+                    { "name": "Américain (poivron, salami)", "price_cents": 1450 },
+                    { "name": "Quatre Fromages", "price_cents": 1550 },
+                    { "name": "Calzone (jambon, champignons, œuf)", "price_cents": 1500 },
+                    { "name": "Chorizo", "price_cents": 1500 },
+                    { "name": "Hawaï (jambon, ananas)", "price_cents": 1500 },
+                    { "name": "Quatre Saisons", "price_cents": 1550 },
+                    { "name": "Pescatore", "price_cents": 1550 },
+                    { "name": "Poulet", "price_cents": 1600 },
+                    { "name": "Campione", "price_cents": 1600 },
+                    { "name": "Salmone", "price_cents": 1650 }
                 ]
             },
             {
-                "category": "Pâtes",
+                "category_type": "other",
+                "display_label": "Pâtes",
                 "items": [
-                    { "name": "Napoletana", "price": "13,50€" },
-                    { "name": "Bolognaise maison", "price": "14,50€" },
-                    { "name": "Carbonara", "price": "15,50€" }
+                    { "name": "Napoletana", "price_cents": 1350 },
+                    { "name": "Bolognaise maison", "price_cents": 1450 },
+                    { "name": "Carbonara", "price_cents": 1550 }
                 ]
             },
             {
-                "category": "Desserts Maison",
+                "category_type": "dessert",
+                "display_label": "Desserts Maison",
                 "items": [
-                    { "name": "Mousse au chocolat", "price": "5,50€" },
-                    { "name": "Tiramisu Maison", "price": "6,50€" }
+                    { "name": "Mousse au chocolat", "price_cents": 550 },
+                    { "name": "Tiramisu Maison", "price_cents": 650 }
                 ]
             },
             {
-                "category": "Boissons",
+                "category_type": "drink",
+                "display_label": "Boissons",
                 "items": [
-                    { "name": "Café", "price": "2,00€" },
-                    { "name": "Soft", "price": "4,00€" },
-                    { "name": "Verre de vin", "price": "5,00€" },
-                    { "name": "Pain à l'ail", "price": "6,50€" },
-                    { "name": "Pain à l'ail avec mozzarella", "price": "8,50€" }
+                    { "name": "Café", "price_cents": 200 },
+                    { "name": "Soft", "price_cents": 400 },
+                    { "name": "Verre de vin", "price_cents": 500 },
+                    { "name": "Pain à l'ail", "price_cents": 650 },
+                    { "name": "Pain à l'ail avec mozzarella", "price_cents": 850 }
                 ]
             }
         ],

@@ -44,37 +44,41 @@ export const eunoe: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Déjeuner (Menu changeant chaque semaine)",
+                category_type: "tasting_menu",
+                display_label: "Déjeuner (Menu changeant chaque semaine)",
                 items: [
-                    { name: "Formule Déjeuner (Entrée, Plat, Dessert)", price: "26.00€" },
-                    { name: "Entrée + Plat ou Plat + Dessert", price: "21.00€" },
-                    { name: "Plat du jour", price: "15.00€" }
+                    { name: "Formule Déjeuner (Entrée, Plat, Dessert)", price_cents: 2600 },
+                    { name: "Entrée + Plat ou Plat + Dessert", price_cents: 2100 },
+                    { name: "Plat du jour", price_cents: 1500 }
                 ]
             },
             {
-                category: "Dîner - Entrées",
+                category_type: "starter",
+                display_label: "Dîner - Entrées",
                 items: [
-                    { name: "Gravelax de dorade", price: "15.00€", description: "Vinaigrette au fruit de la passion et herbes fraîches" },
-                    { name: "Courgette violon cuite et crue", price: "14.00€", description: "Condiments à l'aubergine brûlée et piperade" },
-                    { name: "Tataki de bœuf de Salers", price: "16.00€", description: "Sauce ponzu, pickles de légumes de saison" },
-                    { name: "Poireaux vinaigrette revisités", price: "13.00€", description: "Émulsion sésame, noisettes torréfiées" }
+                    { name: "Gravelax de dorade", price_cents: 1500, description: "Vinaigrette au fruit de la passion et herbes fraîches" },
+                    { name: "Courgette violon cuite et crue", price_cents: 1400, description: "Condiments à l'aubergine brûlée et piperade" },
+                    { name: "Tataki de bœuf de Salers", price_cents: 1600, description: "Sauce ponzu, pickles de légumes de saison" },
+                    { name: "Poireaux vinaigrette revisités", price_cents: 1300, description: "Émulsion sésame, noisettes torréfiées" }
                 ]
             },
             {
-                category: "Dîner - Plats (Binchotan)",
+                category_type: "main",
+                display_label: "Dîner - Plats (Binchotan)",
                 items: [
-                    { name: "Rumsteck de bœuf au barbecue", price: "28.00€", description: "Jus corsé, pommes de terre grenailles et légumes" },
-                    { name: "Bar de ligne au charbon", price: "37.00€", description: "Bisque de homard, émulsion iodée et légumes de saison" },
-                    { name: "Agneau confit", price: "32.00€", description: "Risotto d'épeautre, jus réduit aux herbes" },
-                    { name: "Risotto végétarien de saison", price: "25.00€", description: "Légumes racines glacés, parmesan affiné" }
+                    { name: "Rumsteck de bœuf au barbecue", price_cents: 2800, description: "Jus corsé, pommes de terre grenailles et légumes" },
+                    { name: "Bar de ligne au charbon", price_cents: 3700, description: "Bisque de homard, émulsion iodée et légumes de saison" },
+                    { name: "Agneau confit", price_cents: 3200, description: "Risotto d'épeautre, jus réduit aux herbes" },
+                    { name: "Risotto végétarien de saison", price_cents: 2500, description: "Légumes racines glacés, parmesan affiné" }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Pêche pochée à la verveine", price: "11.00€", description: "Chantilly au mascarpone et crumble de thé noir" },
-                    { name: "Rare Cheesecake au pamplemousse", price: "12.00€", description: "Limoncello, meringue au citron" },
-                    { name: "Tartelette chocolat praliné", price: "11.00€", description: "Glace vanille maison" }
+                    { name: "Pêche pochée à la verveine", price_cents: 1100, description: "Chantilly au mascarpone et crumble de thé noir" },
+                    { name: "Rare Cheesecake au pamplemousse", price_cents: 1200, description: "Limoncello, meringue au citron" },
+                    { name: "Tartelette chocolat praliné", price_cents: 1100, description: "Glace vanille maison" }
                 ]
             }
         ]

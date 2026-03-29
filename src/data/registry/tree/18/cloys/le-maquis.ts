@@ -43,63 +43,68 @@ export const le_maquis: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes des Cloys (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes des Cloys (Entrées)",
         items: [
-          { name: "Raviolis de Langoustine & Bouillon de têtes", price: "16.00€", highlight: true },
-          { name: "Merlu en beignets croustillants & Tartare", price: "12.50€", highlight: true },
-          { name: "Carpaccio d'Ombrine, Agrumes & Aneth", price: "14.00€" },
-          { name: "Foie de Veau poêlé & Oignons confits", price: "15.00€" },
-          { name: "Œuf Mollet, Crème de Topinambours & Truffe", price: "13.00€", highlight: true },
-          { name: "Terrine de Campagne Maison & Pickles", price: "11.00€" },
-          { name: "Velouté de Potimarron & Éclats de Châtaigne", price: "10.00€" },
-          { name: "Salade de Lentilles vertes & Magret fumé", price: "12.00€" }
+          { name: "Raviolis de Langoustine & Bouillon de têtes", price_cents: 1600, is_highlight: true },
+          { name: "Merlu en beignets croustillants & Tartare", price_cents: 1250, is_highlight: true },
+          { name: "Carpaccio d'Ombrine, Agrumes & Aneth", price_cents: 1400 },
+          { name: "Foie de Veau poêlé & Oignons confits", price_cents: 1500 },
+          { name: "Œuf Mollet, Crème de Topinambours & Truffe", price_cents: 1300, is_highlight: true },
+          { name: "Terrine de Campagne Maison & Pickles", price_cents: 1100 },
+          { name: "Velouté de Potimarron & Éclats de Châtaigne", price_cents: 1000 },
+          { name: "Salade de Lentilles vertes & Magret fumé", price_cents: 1200 }
         ]
       },
       {
-        category: "Maîtrise & Saison (Plats)",
+        category_type: "main",
+        display_label: "Maîtrise & Saison (Plats)",
         items: [
-          { name: "Gnocchis Maison au Beurre de Sauge (Culte)", price: "22.00€", highlight: true },
-          { name: "Cacio e Pepe traditionnel au Pecorino Romano", price: "19.50€", highlight: true },
-          { name: "Cuisse de Lapin braisée, Romarin & Polenta", price: "24.00€" },
-          { name: "Merlu de ligne de Saint-Jean-de-Luz & Céleri", price: "26.00€", highlight: true },
-          { name: "Joue de Bœuf braisée (48h) au Vin Rouge", price: "25.00€", highlight: true },
-          { name: "Pithiviers de Gibier au Foie Gras (Saison)", price: "38.00€", highlight: true },
-          { name: "Échine de Porc rôtie aux Herbes de Provence", price: "23.50€" },
-          { name: "Risotto crémeux aux Champignons des bois", price: "22.00€" }
+          { name: "Gnocchis Maison au Beurre de Sauge (Culte)", price_cents: 2200, is_highlight: true },
+          { name: "Cacio e Pepe traditionnel au Pecorino Romano", price_cents: 1950, is_highlight: true },
+          { name: "Cuisse de Lapin braisée, Romarin & Polenta", price_cents: 2400 },
+          { name: "Merlu de ligne de Saint-Jean-de-Luz & Céleri", price_cents: 2600, is_highlight: true },
+          { name: "Joue de Bœuf braisée (48h) au Vin Rouge", price_cents: 2500, is_highlight: true },
+          { name: "Pithiviers de Gibier au Foie Gras (Saison)", price_cents: 3800, is_highlight: true },
+          { name: "Échine de Porc rôtie aux Herbes de Provence", price_cents: 2350 },
+          { name: "Risotto crémeux aux Champignons des bois", price_cents: 2200 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre au Sel de Guérande", price: "6.50€", highlight: true },
-          { name: "Légumes d'Hiver rôtis au Four & Miel", price: "7.50€" },
-          { name: "Frites fraîches Maison double cuisson", price: "6.00€" },
-          { name: "Riz Pilaf délicat aux aromates", price: "6.00€" },
-          { name: "Salade Mizuna & Vinaigrette au Xérès", price: "5.50€" }
+          { name: "Purée de Pommes de Terre au Sel de Guérande", price_cents: 650, is_highlight: true },
+          { name: "Légumes d'Hiver rôtis au Four & Miel", price_cents: 750 },
+          { name: "Frites fraîches Maison double cuisson", price_cents: 600 },
+          { name: "Riz Pilaf délicat aux aromates", price_cents: 600 },
+          { name: "Salade Mizuna & Vinaigrette au Xérès", price_cents: 550 }
         ]
       },
       {
-        category: "Sucré-Signature (Desserts)",
+        category_type: "dessert",
+        display_label: "Sucré-Signature (Desserts)",
         items: [
-          { name: "Riz au Lait onctueux & Caramel Beurre Salé", price: "10.00€", highlight: true },
-          { name: "Gâteau aux Poires & Amandes effilées", price: "9.50€" },
-          { name: "Crumble aux Pommes & Glace Vanille Bourbon", price: "10.00€", highlight: true },
-          { name: "Chou Chantilly aux Abricots rôtis", price: "11.00€" },
-          { name: "Paris-Brest revisité, Praliné noisette", price: "12.50€", highlight: true },
-          { name: "Assiette de Fromages fermiers (Sélection)", price: "13.00€" },
-          { name: "Sorbet Maison du moment (3 boules)", price: "9.00€" }
+          { name: "Riz au Lait onctueux & Caramel Beurre Salé", price_cents: 1000, is_highlight: true },
+          { name: "Gâteau aux Poires & Amandes effilées", price_cents: 950 },
+          { name: "Crumble aux Pommes & Glace Vanille Bourbon", price_cents: 1000, is_highlight: true },
+          { name: "Chou Chantilly aux Abricots rôtis", price_cents: 1100 },
+          { name: "Paris-Brest revisité, Praliné noisette", price_cents: 1250, is_highlight: true },
+          { name: "Assiette de Fromages fermiers (Sélection)", price_cents: 1300 },
+          { name: "Sorbet Maison du moment (3 boules)", price_cents: 900 }
         ]
       },
       {
-        category: "La Cave Nature (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Nature (Boissons)",
         items: [
-          { name: "Verre de Vin Nature Sélectionné par Albert", price: "9.00€", highlight: true },
-          { name: "Bouteille de Vin Biodynamique (Sélection Cave)", price: "42.00€" },
-          { name: "Jus de Fruits Artisanaux de nos régions", price: "7.50€" },
-          { name: "Eau micro-filtrée Le Maquis (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Espresso de spécialité Lomi", price: "3.50€" },
-          { name: "Thé Vert Bio de la Maison l'Autre Thé", price: "6.50€" },
-          { name: "Digestif Artisanal : Genièvre de Houlle", price: "9.00€" }
+          { name: "Verre de Vin Nature Sélectionné par Albert", price_cents: 900, is_highlight: true },
+          { name: "Bouteille de Vin Biodynamique (Sélection Cave)", price_cents: 4200 },
+          { name: "Jus de Fruits Artisanaux de nos régions", price_cents: 750 },
+          { name: "Eau micro-filtrée Le Maquis (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso de spécialité Lomi", price_cents: 350 },
+          { name: "Thé Vert Bio de la Maison l'Autre Thé", price_cents: 650 },
+          { name: "Digestif Artisanal : Genièvre de Houlle", price_cents: 900 }
           
         ]
       }

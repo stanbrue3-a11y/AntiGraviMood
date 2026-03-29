@@ -40,34 +40,37 @@ export const bistrotDuDome: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Art des Poissons",
+                category_type: "main",
+                display_label: "L'Art des Poissons",
                 items: [
-                    { name: "Sole Meunière Façon Dôme (selon poids)", price: "48.00€" },
-                    { name: "Pavé de Turbot à la Plancha, Purée de Céleri", price: "38.00€" },
-                    { name: "Bouillabaisse 'Petit Bateau' Individuelle", price: "42.00€" },
-                    { name: "Filet de Bar Bio au Sel de Guérande", price: "32.00€" },
-                    { name: "Noix de Saint-Jacques Snackées, Risotto", price: "35.00€" },
-                    { name: "Brandade de Morue Fraîche à l'Huile d'Olive", price: "28.00€" },
-                    { name: "Thon Rouge en Tataki aux Sésames", price: "30.00€" }
+                    { name: "Sole Meunière Façon Dôme (selon poids)", price_cents: 4800 },
+                    { name: "Pavé de Turbot à la Plancha, Purée de Céleri", price_cents: 3800 },
+                    { name: "Bouillabaisse 'Petit Bateau' Individuelle", price_cents: 4200 },
+                    { name: "Filet de Bar Bio au Sel de Guérande", price_cents: 3200 },
+                    { name: "Noix de Saint-Jacques Snackées, Risotto", price_cents: 3500 },
+                    { name: "Brandade de Morue Fraîche à l'Huile d'Olive", price_cents: 2800 },
+                    { name: "Thon Rouge en Tataki aux Sésames", price_cents: 3000 }
                 ]
             },
             {
-                category: "Préludes Marins (Entrées)",
+                category_type: "starter",
+                display_label: "Préludes Marins (Entrées)",
                 items: [
-                    { name: "Soupe de Poissons de Roche et sa Rouille", price: "18.00€" },
-                    { name: "Huîtres Fines de Claire n°3 (les 6)", price: "19.50€" },
-                    { name: "Calamars à la Romaine, Sauce Tartare", price: "16.00€" },
-                    { name: "Saumon Fumé d'Écosse 'Maison'", price: "22.00€" },
-                    { name: "Carpaccio de Saint-Jacques au Citron Vert", price: "24.00€" }
+                    { name: "Soupe de Poissons de Roche et sa Rouille", price_cents: 1800 },
+                    { name: "Huîtres Fines de Claire n°3 (les 6)", price_cents: 1950 },
+                    { name: "Calamars à la Romaine, Sauce Tartare", price_cents: 1600 },
+                    { name: "Saumon Fumé d'Écosse 'Maison'", price_cents: 2200 },
+                    { name: "Carpaccio de Saint-Jacques au Citron Vert", price_cents: 2400 }
                 ]
             },
             {
-                category: "Douceurs Classiques",
+                category_type: "dessert",
+                display_label: "Douceurs Classiques",
                 items: [
-                    { name: "Millefeuille à la Vanille de Tahiti", price: "14.00€" },
-                    { name: "Soufflé au Grand Marnier (Signé)", price: "16.00€" },
-                    { name: "Baba au Rhum Ambré et sa Crème Fouettée", price: "12.00€" },
-                    { name: "Sorbets Maison Fraîcheur du Jour", price: "10.00€" }
+                    { name: "Millefeuille à la Vanille de Tahiti", price_cents: 1400 },
+                    { name: "Soufflé au Grand Marnier (Signé)", price_cents: 1600 },
+                    { name: "Baba au Rhum Ambré et sa Crème Fouettée", price_cents: 1200 },
+                    { name: "Sorbets Maison Fraîcheur du Jour", price_cents: 1000 }
                 ]
             }
         ]

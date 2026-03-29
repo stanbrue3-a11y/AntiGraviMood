@@ -40,36 +40,39 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Brasserie Maison",
+                category_type: "other",
+                display_label: "Brasserie Maison",
                 items: [
-                    { name: "Tartare de Boeuf Charolais 'Rendez-Vous'", price: "17.50€" },
-                    { name: "Hamburger Maison au Cantal", price: "18.00€" },
-                    { name: "Poulet Fermier Rôti, Frites Maison", price: "18.50€" },
-                    { name: "Saucisse au couteau de l'Aveyron", price: "16.50€" },
-                    { name: "Tartare de Saumon Frais aux Herbes", price: "19.00€" },
-                    { name: "Entrecôte Grillée (300g), Sauce Poivre", price: "22.00€" },
-                    { name: "Linguine à la Tomate et Basilic Frais", price: "15.50€" },
-                    { name: "Plat du Semainier (du jour)", price: "15.00€" }
+                    { name: "Tartare de Boeuf Charolais 'Rendez-Vous'", price_cents: 1750 },
+                    { name: "Hamburger Maison au Cantal", price_cents: 1800 },
+                    { name: "Poulet Fermier Rôti, Frites Maison", price_cents: 1850 },
+                    { name: "Saucisse au couteau de l'Aveyron", price_cents: 1650 },
+                    { name: "Tartare de Saumon Frais aux Herbes", price_cents: 1900 },
+                    { name: "Entrecôte Grillée (300g), Sauce Poivre", price_cents: 2200 },
+                    { name: "Linguine à la Tomate et Basilic Frais", price_cents: 1550 },
+                    { name: "Plat du Semainier (du jour)", price_cents: 1500 }
                 ]
             },
             {
-                category: "Salades & Planches (Happy Hour)",
+                category_type: "sharing",
+                display_label: "Salades & Planches (Happy Hour)",
                 items: [
-                    { name: "Salade César au Poulet Croustillant", price: "14.20€" },
-                    { name: "Salade Niçoise au Thon Frais", price: "14.50€" },
-                    { name: "Oeuf Cocotte à la Tomate Confite", price: "11.50€" },
-                    { name: "Asperges Rôties au Parmesan", price: "7.50€" },
-                    { name: "Grande Planche Mixte Rendez-Vous", price: "24.00€" },
-                    { name: "Tapas du moment (l'unité)", price: "6.00€" }
+                    { name: "Salade César au Poulet Croustillant", price_cents: 1420 },
+                    { name: "Salade Niçoise au Thon Frais", price_cents: 1450 },
+                    { name: "Oeuf Cocotte à la Tomate Confite", price_cents: 1150 },
+                    { name: "Asperges Rôties au Parmesan", price_cents: 750 },
+                    { name: "Grande Planche Mixte Rendez-Vous", price_cents: 2400 },
+                    { name: "Tapas du moment (l'unité)", price_cents: 600 }
                 ]
             },
             {
-                category: "Desserts & Glaces",
+                category_type: "dessert",
+                display_label: "Desserts & Glaces",
                 items: [
-                    { name: "Nougat Glacé Maison aux Fruits Secs", price: "6.80€" },
-                    { name: "Coulant au Chocolat Coeur Fondant", price: "8.00€" },
-                    { name: "Tarte du Jour", price: "7.50€" },
-                    { name: "Glaces Artisanales (2 boules)", price: "7.00€" }
+                    { name: "Nougat Glacé Maison aux Fruits Secs", price_cents: 680 },
+                    { name: "Coulant au Chocolat Coeur Fondant", price_cents: 800 },
+                    { name: "Tarte du Jour", price_cents: 750 },
+                    { name: "Glaces Artisanales (2 boules)", price_cents: 700 }
                 ]
             }
         ]

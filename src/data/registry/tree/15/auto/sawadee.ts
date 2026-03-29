@@ -40,58 +40,62 @@ export const sawadee: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Nems aux légumes (x4)", price: "8€" },
-          { name: "Samoussas au bœuf (x4)", price: "9€" },
-          { name: "Brochettes Satay (Poulet)", price: "10€" },
-          { name: "Salade de papaye verte (Som Tam)", price: "12€" },
-          { name: "Tom Yam Kung (Soupe crevettes)", price: "13€" },
-          { name: "Tom Kha Kai (Poulet coco)", price: "12€" },
-          { name: "Beignets de crevettes", price: "11€" },
-          { name: "Salade de bœuf grillé (Yam Nuea)", price: "14€" },
-          { name: "Raviolis vapeurs (Dim Sum)", price: "9€" },
-          { name: "Assortiment d'entrées (2 pers)", price: "22€" }
+          { name: "Nems aux légumes (x4)", price_cents: 800 },
+          { name: "Samoussas au bœuf (x4)", price_cents: 900 },
+          { name: "Brochettes Satay (Poulet)", price_cents: 1000 },
+          { name: "Salade de papaye verte (Som Tam)", price_cents: 1200 },
+          { name: "Tom Yam Kung (Soupe crevettes)", price_cents: 1300 },
+          { name: "Tom Kha Kai (Poulet coco)", price_cents: 1200 },
+          { name: "Beignets de crevettes", price_cents: 1100 },
+          { name: "Salade de bœuf grillé (Yam Nuea)", price_cents: 1400 },
+          { name: "Raviolis vapeurs (Dim Sum)", price_cents: 900 },
+          { name: "Assortiment d'entrées (2 pers)", price_cents: 2200 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Pad Thaï Crevettes", price: "16€" },
-          { name: "Pad Thaï Poulet", price: "15€" },
-          { name: "Curry Vert au Poulet (Gaeng Keow)", price: "17€" },
-          { name: "Curry Rouge au Bœuf", price: "18€" },
-          { name: "Curry Masaman à l'Agneau", price: "19€" },
-          { name: "Bœuf au basilic thaï (Pad Kra Pao)", price: "18€" },
-          { name: "Canard laqué au miel", price: "20€" },
-          { name: "Larmes du Tigre (Bœuf mariné)", price: "24€" },
-          { name: "Poisson cuit à la vapeur (Lime)", price: "22€" },
-          { name: "Porc au caramel et gingembre", price: "16€" },
-          { name: "Légumes sautés au wok", price: "14€" },
-          { name: "Riz sauté à l'ananas", price: "15€" },
-          { name: "Nouilles sautées aux légumes", price: "14€" }
+          { name: "Pad Thaï Crevettes", price_cents: 1600 },
+          { name: "Pad Thaï Poulet", price_cents: 1500 },
+          { name: "Curry Vert au Poulet (Gaeng Keow)", price_cents: 1700 },
+          { name: "Curry Rouge au Bœuf", price_cents: 1800 },
+          { name: "Curry Masaman à l'Agneau", price_cents: 1900 },
+          { name: "Bœuf au basilic thaï (Pad Kra Pao)", price_cents: 1800 },
+          { name: "Canard laqué au miel", price_cents: 2000 },
+          { name: "Larmes du Tigre (Bœuf mariné)", price_cents: 2400 },
+          { name: "Poisson cuit à la vapeur (Lime)", price_cents: 2200 },
+          { name: "Porc au caramel et gingembre", price_cents: 1600 },
+          { name: "Légumes sautés au wok", price_cents: 1400 },
+          { name: "Riz sauté à l'ananas", price_cents: 1500 },
+          { name: "Nouilles sautées aux légumes", price_cents: 1400 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Flanc au lait de coco", price: "8€" },
-          { name: "Riz gluand à la mangue fraiche", price: "10€" },
-          { name: "Perles de coco à la vapeur", price: "7€" },
-          { name: "Banane au lait de coco", price: "7€" },
-          { name: "Lychees au sirop", price: "6€" },
-          { name: "Sorbet Citron Vert", price: "7€" },
-          { name: "Coupe de fruits exotiques", price: "9€" },
-          { name: "Tapioca au maïs", price: "8€" },
-          { name: "Mochi glacé (x2)", price: "8€" }
+          { name: "Flanc au lait de coco", price_cents: 800 },
+          { name: "Riz gluand à la mangue fraiche", price_cents: 1000 },
+          { name: "Perles de coco à la vapeur", price_cents: 700 },
+          { name: "Banane au lait de coco", price_cents: 700 },
+          { name: "Lychees au sirop", price_cents: 600 },
+          { name: "Sorbet Citron Vert", price_cents: 700 },
+          { name: "Coupe de fruits exotiques", price_cents: 900 },
+          { name: "Tapioca au maïs", price_cents: 800 },
+          { name: "Mochi glacé (x2)", price_cents: 800 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Bière Singha (33cl)", price: "6€" },
-          { name: "Thé thaï glacé maison", price: "5€" },
-          { name: "Café ou thé jasmin", price: "3€" }
+          { name: "Bière Singha (33cl)", price_cents: 600 },
+          { name: "Thé thaï glacé maison", price_cents: 500 },
+          { name: "Café ou thé jasmin", price_cents: 300 }
         ]
       }
     ]

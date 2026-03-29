@@ -40,29 +40,38 @@ export const le_relais_gascon: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Salades Géantes (Plats)", items: [
-        { name: "Salade Gascon", price: "18.50€", description: "Magrets fumés, bloc de foie gras, pommes de terre sautées à l'ail" },
-        { name: "Salade du Chef", price: "15.90€", description: "Blancs de volaille, emmental, pommes de terre ail" },
-        { name: "Salade du Sud-Ouest", price: "16.90€", description: "Gésiers confits, lardons, croutons, pommes de terre ail" },
-        { name: "Salade Montmartre", price: "18.60€", description: "Jambon de pays, burrata, avocat, maïs, pommes de terre ail" },
-        { name: "Salade Océane", price: "18.50€", description: "Saumon fumé, crevettes, avocat, pommes de terre ail" },
-        { name: "Salade du Béarnais", price: "16.50€", description: "Chèvre chaud, lardons, croutons, pommes de terre ail" },
-        { name: "Salade Fraîcheur", price: "16.90€", description: "Œuf frit, jambon cru, lardons, pommes de terre ail" },
-        { name: "Salade Végétarienne", price: "15.90€", description: "Maïs, betteraves, carottes, olives, pommes de terre ail" },
-        { name: "Salade Gourmande", price: "16.90€", description: "Thon, œuf dur, haricots verts, poivrons, pommes de terre" }
+      {
+        category_type: "starter",
+        display_label: "Salades Géantes (Plats)",
+        items: [
+        { name: "Salade Gascon", price_cents: 1850, description: "Magrets fumés, bloc de foie gras, pommes de terre sautées à l'ail" },
+        { name: "Salade du Chef", price_cents: 1590, description: "Blancs de volaille, emmental, pommes de terre ail" },
+        { name: "Salade du Sud-Ouest", price_cents: 1690, description: "Gésiers confits, lardons, croutons, pommes de terre ail" },
+        { name: "Salade Montmartre", price_cents: 1860, description: "Jambon de pays, burrata, avocat, maïs, pommes de terre ail" },
+        { name: "Salade Océane", price_cents: 1850, description: "Saumon fumé, crevettes, avocat, pommes de terre ail" },
+        { name: "Salade du Béarnais", price_cents: 1650, description: "Chèvre chaud, lardons, croutons, pommes de terre ail" },
+        { name: "Salade Fraîcheur", price_cents: 1690, description: "Œuf frit, jambon cru, lardons, pommes de terre ail" },
+        { name: "Salade Végétarienne", price_cents: 1590, description: "Maïs, betteraves, carottes, olives, pommes de terre ail" },
+        { name: "Salade Gourmande", price_cents: 1690, description: "Thon, œuf dur, haricots verts, poivrons, pommes de terre" }
       ]},
-      { category: "Plats & Tradition", items: [
-        { name: "Confit de Canard Moelleux", price: "18.50€", description: "Servi avec pommes à l'ail et haricots verts" },
-        { name: "Magret de Canard au Miel", price: "20.50€" },
-        { name: "Cassoulet Gascon Maison", price: "19.00€" },
-        { name: "Bœuf Bourguignon Tradition", price: "17.00€" },
-        { name: "Tartiflette au Reblochon", price: "16.50€" },
-        { name: "Entrecôte Grillée (250g)", price: "22.50€" }
+      {
+        category_type: "main",
+        display_label: "Plats & Tradition",
+        items: [
+        { name: "Confit de Canard Moelleux", price_cents: 1850, description: "Servi avec pommes à l'ail et haricots verts" },
+        { name: "Magret de Canard au Miel", price_cents: 2050 },
+        { name: "Cassoulet Gascon Maison", price_cents: 1900 },
+        { name: "Bœuf Bourguignon Tradition", price_cents: 1700 },
+        { name: "Tartiflette au Reblochon", price_cents: 1650 },
+        { name: "Entrecôte Grillée (250g)", price_cents: 2250 }
       ]},
-      { category: "Desserts Maison", items: [
-        { name: "Profiteroles Maison", price: "8.50€" },
-        { name: "Tatin Gasconne", price: "7.50€" },
-        { name: "Mousse au Chocolat", price: "6.50€" }
+      {
+        category_type: "dessert",
+        display_label: "Desserts Maison",
+        items: [
+        { name: "Profiteroles Maison", price_cents: 850 },
+        { name: "Tatin Gasconne", price_cents: 750 },
+        { name: "Mousse au Chocolat", price_cents: 650 }
       ]}
     ]
   },

@@ -45,31 +45,34 @@ export const lAmiPierre: SurgicalPlace = {
         menu_items: [
             // VERIFIED: L'Ami Pierre Paris 2024-2025
             {
-                category: "Entrées du Bistrot",
+                category_type: "starter",
+                display_label: "Entrées du Bistrot",
                 items: [
-                    { name: "Os à moëlle rôti", price: "8.00€" },
-                    { name: "Couteaux à la Sétoise", price: "11.00€" },
-                    { name: "Filets de hareng, pommes à l'huile", price: "8.00€" },
-                    { name: "Terrine de campagne maison", price: "9.00€" }
+                    { name: "Os à moëlle rôti", price_cents: 800 },
+                    { name: "Couteaux à la Sétoise", price_cents: 1100 },
+                    { name: "Filets de hareng, pommes à l'huile", price_cents: 800 },
+                    { name: "Terrine de campagne maison", price_cents: 900 }
                 ]
             },
             {
-                category: "Plats Traditionnels",
+                category_type: "main",
+                display_label: "Plats Traditionnels",
                 items: [
-                    { name: "Andouillette de Bretagne, moutarde à l'ancienne", price: "19.00€" },
-                    { name: "Spaghetti bicolores aux coques", price: "17.00€" },
-                    { name: "Entrecôte de Normandie (300g), Béarnaise", price: "28.00€" },
-                    { name: "Faut-filet au poivre, frites maison", price: "24.00€" },
-                    { name: "Poisson du marché selon arrivage", price: "22.00€" }
+                    { name: "Andouillette de Bretagne, moutarde à l'ancienne", price_cents: 1900 },
+                    { name: "Spaghetti bicolores aux coques", price_cents: 1700 },
+                    { name: "Entrecôte de Normandie (300g), Béarnaise", price_cents: 2800 },
+                    { name: "Faut-filet au poivre, frites maison", price_cents: 2400 },
+                    { name: "Poisson du marché selon arrivage", price_cents: 2200 }
                 ]
             },
             {
-                category: "Desserts Classiques",
+                category_type: "dessert",
+                display_label: "Desserts Classiques",
                 items: [
-                    { name: "Mi-cuit au chocolat, crème anglaise", price: "8.00€" },
-                    { name: "Tarte Tatin maison", price: "8.00€" },
-                    { name: "Crème brûlée à la vanille bourbon", price: "8.00€" },
-                    { name: "Assiette de fromages", price: "9.50€" }
+                    { name: "Mi-cuit au chocolat, crème anglaise", price_cents: 800 },
+                    { name: "Tarte Tatin maison", price_cents: 800 },
+                    { name: "Crème brûlée à la vanille bourbon", price_cents: 800 },
+                    { name: "Assiette de fromages", price_cents: 950 }
                 ]
             }
         ]

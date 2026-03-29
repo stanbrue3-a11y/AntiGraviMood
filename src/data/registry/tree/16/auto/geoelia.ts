@@ -40,50 +40,54 @@ export const geoelia: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Immersion",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Immersion",
         items: [
-          { name: "Menu en 7 Temps", price: "160€", description: "L'expression totale du terroir par Camille Saint-M'leux", highlight: true },
-          { name: "Menu en 5 Temps", price: "125€", description: "Une partition végétale et marine équilibrée" },
-          { name: "Menu Déjeuner", price: "65€", description: "3 temps, le meilleur rapport qualité/prix du quartier" }
+          { name: "Menu en 7 Temps", price_cents: 16000, description: "L'expression totale du terroir par Camille Saint-M'leux", is_highlight: true },
+          { name: "Menu en 5 Temps", price_cents: 12500, description: "Une partition végétale et marine équilibrée" },
+          { name: "Menu Déjeuner", price_cents: 6500, description: "3 temps, le meilleur rapport qualité/prix du quartier" }
         ]
       },
       {
-        category: "Les Échos de la Terre (Dégustation)",
+        category_type: "tasting_menu",
+        display_label: "Les Échos de la Terre (Dégustation)",
         items: [
-          { name: "Poireau de Sable au Charbon", price: "0€", description: "Textures fumées, praliné noisette sauvage" },
-          { name: "Betterave Crapaudine Salée", price: "0€", description: "Croûte de sel, réglisse et herbes potagères", highlight: true },
-          { name: "Omble Chevalier de Rivière", price: "0€", description: "Cuit au foin, émulsion légère d'oseille" },
-          { name: "Volaille de la Cour d'Armoise", price: "0€", description: "Le suprême rôti, jus corsé à l'origan" },
-          { name: "Agneau de Lait des Pyrénées", price: "0€", description: "Épaule confite 24h, ail des ours et navets boulangère" },
-          { name: "Champignon de Paris en textures", price: "0€", description: "Cru, torréfié, en bouillon et en mousse" },
-          { name: "Carotte de chez mon Maraîcher", price: "0€", description: "Terreuse, gingembre et fanes frites" },
-          { name: "Bar Sauvage de Petite Pêche", price: "0€", description: "Saisi à la nacre, beurre de ciboule" },
-          { name: "Sourdough Maison & Beurre baratté", price: "0€", description: "Pain au levain naturel 48h" },
-          { name: "Amuse-Bouche Potager", price: "0€", description: "Soupe froide de saison et écume d'herbes" }
+          { name: "Poireau de Sable au Charbon", price_cents: 0, description: "Textures fumées, praliné noisette sauvage" },
+          { name: "Betterave Crapaudine Salée", price_cents: 0, description: "Croûte de sel, réglisse et herbes potagères", is_highlight: true },
+          { name: "Omble Chevalier de Rivière", price_cents: 0, description: "Cuit au foin, émulsion légère d'oseille" },
+          { name: "Volaille de la Cour d'Armoise", price_cents: 0, description: "Le suprême rôti, jus corsé à l'origan" },
+          { name: "Agneau de Lait des Pyrénées", price_cents: 0, description: "Épaule confite 24h, ail des ours et navets boulangère" },
+          { name: "Champignon de Paris en textures", price_cents: 0, description: "Cru, torréfié, en bouillon et en mousse" },
+          { name: "Carotte de chez mon Maraîcher", price_cents: 0, description: "Terreuse, gingembre et fanes frites" },
+          { name: "Bar Sauvage de Petite Pêche", price_cents: 0, description: "Saisi à la nacre, beurre de ciboule" },
+          { name: "Sourdough Maison & Beurre baratté", price_cents: 0, description: "Pain au levain naturel 48h" },
+          { name: "Amuse-Bouche Potager", price_cents: 0, description: "Soupe froide de saison et écume d'herbes" }
         ]
       },
       {
-        category: "Finales Terre-Air (Desserts)",
+        category_type: "dessert",
+        display_label: "Finales Terre-Air (Desserts)",
         items: [
-          { name: "Chèvre Frais de la Ferme", price: "18€", description: "Herbes folles du jardin et miel de forêt" },
-          { name: "Rhubarbe Sureau & Yaourt", price: "0€", description: "Fraîcheur acide, sorbet sauvage et meringue", highlight: true },
-          { name: "Chocolat Noir & Sarrasin", price: "0€", description: "Ganache fumée au bois d'olivier et croustillant breton" },
-          { name: "Poire Confite à la Verveine", price: "0€", description: "Jus de poire réduit et amandes fraîches" },
-          { name: "Abricot & Thym Citronné", price: "0€" },
-          { name: "Mignardises de Camille", price: "0€", description: "Petits fours du moment" }
+          { name: "Chèvre Frais de la Ferme", price_cents: 1800, description: "Herbes folles du jardin et miel de forêt" },
+          { name: "Rhubarbe Sureau & Yaourt", price_cents: 0, description: "Fraîcheur acide, sorbet sauvage et meringue", is_highlight: true },
+          { name: "Chocolat Noir & Sarrasin", price_cents: 0, description: "Ganache fumée au bois d'olivier et croustillant breton" },
+          { name: "Poire Confite à la Verveine", price_cents: 0, description: "Jus de poire réduit et amandes fraîches" },
+          { name: "Abricot & Thym Citronné", price_cents: 0 },
+          { name: "Mignardises de Camille", price_cents: 0, description: "Petits fours du moment" }
         ]
       },
       {
-        category: "La Sommelerie Engagée",
+        category_type: "other",
+        display_label: "La Sommelerie Engagée",
         items: [
-          { name: "Accord Mets & Vins 'Empreinte'", price: "85€", description: "Vignerons indépendants et bio" },
-          { name: "Accord 'Botannique' (Sans alcool)", price: "65€", description: "Infusions d'herbes et eaux aromatisées" },
-          { name: "Coupe de Champagne Extra-Brut", price: "24€" },
-          { name: "Verre de Muscadet Granit", price: "14€" },
-          { name: "Bouteille de Morgon Nature", price: "72€" },
-          { name: "Thé Vert Genmaicha de Prestige", price: "12€" },
-          { name: "Café Micro-Torréfaction", price: "10€" },
-          { name: "Eau de Source Filtrée", price: "7€" }
+          { name: "Accord Mets & Vins 'Empreinte'", price_cents: 8500, description: "Vignerons indépendants et bio" },
+          { name: "Accord 'Botannique' (Sans alcool)", price_cents: 6500, description: "Infusions d'herbes et eaux aromatisées" },
+          { name: "Coupe de Champagne Extra-Brut", price_cents: 2400 },
+          { name: "Verre de Muscadet Granit", price_cents: 1400 },
+          { name: "Bouteille de Morgon Nature", price_cents: 7200 },
+          { name: "Thé Vert Genmaicha de Prestige", price_cents: 1200 },
+          { name: "Café Micro-Torréfaction", price_cents: 1000 },
+          { name: "Eau de Source Filtrée", price_cents: 700 }
         ]
       }
     ]

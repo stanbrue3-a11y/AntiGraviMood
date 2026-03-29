@@ -42,34 +42,37 @@ export const joayo_luxembourg: SurgicalPlace = {
         "smart_tip": "Le rapport qualité-quantité est imbattable grâce aux 'Banchans' (accompagnements) et au riz servis à volonté avec les BBQs. Pour les petits budgets, le Bibimbap à 17€ est extrêmement généreux.",
         "menu_items": [
             {
-                "category": "Barbecue Coréen (Riz & Banchans Illimités)",
+                "category_type": "main",
+                "display_label": "Barbecue Coréen (Riz & Banchans Illimités)",
                 "items": [
-                    { "name": "Bœuf Mariné (200g)", "price": "23,00€", "description": "Bulgogi classique." },
-                    { "name": "Poulet Mariné Pimenté (200g)", "price": "22,00€" },
-                    { "name": "Porc Mariné Pimenté (200g)", "price": "22,00€" },
-                    { "name": "Canard Mariné (200g)", "price": "24,00€" },
-                    { "name": "Entrecôte Marinée (200g)", "price": "25,00€" },
-                    { "name": "Calamar Mariné Pimenté (150g)", "price": "23,00€" },
-                    { "name": "BBQ Végétarien (Tofu & Champignons)", "price": "22,00€" }
+                    { "name": "Bœuf Mariné (200g)", "price_cents": 2300, "description": "Bulgogi classique." },
+                    { "name": "Poulet Mariné Pimenté (200g)", "price_cents": 2200 },
+                    { "name": "Porc Mariné Pimenté (200g)", "price_cents": 2200 },
+                    { "name": "Canard Mariné (200g)", "price_cents": 2400 },
+                    { "name": "Entrecôte Marinée (200g)", "price_cents": 2500 },
+                    { "name": "Calamar Mariné Pimenté (150g)", "price_cents": 2300 },
+                    { "name": "BBQ Végétarien (Tofu & Champignons)", "price_cents": 2200 }
                 ]
             },
             {
-                "category": "Bibimbaps & Plats",
+                "category_type": "main",
+                "display_label": "Bibimbaps & Plats",
                 "items": [
-                    { "name": "Bibimbap Bœuf", "price": "17,00€", "description": "Servi en bol de pierre chaud." },
-                    { "name": "Bibimbap Tofu", "price": "17,00€" },
-                    { "name": "Japchae Bœuf", "price": "19,00€", "description": "Vermicelles de patate douce sautés." },
-                    { "name": "Kimbap Bœuf", "price": "14,00€" }
+                    { "name": "Bibimbap Bœuf", "price_cents": 1700, "description": "Servi en bol de pierre chaud." },
+                    { "name": "Bibimbap Tofu", "price_cents": 1700 },
+                    { "name": "Japchae Bœuf", "price_cents": 1900, "description": "Vermicelles de patate douce sautés." },
+                    { "name": "Kimbap Bœuf", "price_cents": 1400 }
                 ]
             },
             {
-                "category": "Entrées & Boissons",
+                "category_type": "starter",
+                "display_label": "Entrées & Boissons",
                 "items": [
-                    { "name": "Mandu (Raviolis grillés - 6pcs)", "price": "9,50€" },
-                    { "name": "Kimchi maison", "price": "6,00€" },
-                    { "name": "Soju (Tous parfums - 32cl)", "price": "16,00€" },
-                    { "name": "Bière Cass Coréenne (33cl)", "price": "6,50€" },
-                    { "name": "Bière Kloud (33cl)", "price": "6,80€" }
+                    { "name": "Mandu (Raviolis grillés - 6pcs)", "price_cents": 950 },
+                    { "name": "Kimchi maison", "price_cents": 600 },
+                    { "name": "Soju (Tous parfums - 32cl)", "price_cents": 1600 },
+                    { "name": "Bière Cass Coréenne (33cl)", "price_cents": 650 },
+                    { "name": "Bière Kloud (33cl)", "price_cents": 680 }
                 ]
             }
         ],

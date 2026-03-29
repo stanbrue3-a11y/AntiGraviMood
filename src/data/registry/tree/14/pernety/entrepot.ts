@@ -43,32 +43,35 @@ export const entrepot: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats de Saison",
+                category_type: "main",
+                display_label: "Les Plats de Saison",
                 items: [
-                    { name: "Pavé de saumon rôti, purée de panais", price: "24.00€" },
-                    { name: "Risotto aux champignons & truffe", price: "20.00€" },
-                    { name: "Suprême de volaille fermière", price: "22.50€" },
-                    { name: "Burger de L'Entrepôt", price: "19.50€" },
-                    { name: "Tataki de bœuf au sésame", price: "23.00€" },
-                    { name: "Pennes à l'arrabbiata & burrata", price: "18.50€" }
+                    { name: "Pavé de saumon rôti, purée de panais", price_cents: 2400 },
+                    { name: "Risotto aux champignons & truffe", price_cents: 2000 },
+                    { name: "Suprême de volaille fermière", price_cents: 2250 },
+                    { name: "Burger de L'Entrepôt", price_cents: 1950 },
+                    { name: "Tataki de bœuf au sésame", price_cents: 2300 },
+                    { name: "Pennes à l'arrabbiata & burrata", price_cents: 1850 }
                 ]
             },
             {
-                category: "Entrées & Tapas",
+                category_type: "starter",
+                display_label: "Entrées & Tapas",
                 items: [
-                    { name: "Os à moelle au sel de Guérande", price: "12.00€" },
-                    { name: "Salade d'écrevisses au pesto", price: "14.50€" },
-                    { name: "Burrata crémeuse", price: "14.00€" },
-                    { name: "Accras de morue (les 6 pièces)", price: "10.00€" },
-                    { name: "Planche de charcuterie ibérique", price: "18.00€" }
+                    { name: "Os à moelle au sel de Guérande", price_cents: 1200 },
+                    { name: "Salade d'écrevisses au pesto", price_cents: 1450 },
+                    { name: "Burrata crémeuse", price_cents: 1400 },
+                    { name: "Accras de morue (les 6 pièces)", price_cents: 1000 },
+                    { name: "Planche de charcuterie ibérique", price_cents: 1800 }
                 ]
             },
             {
-                category: "Desserts & Brunch",
+                category_type: "dessert",
+                display_label: "Desserts & Brunch",
                 items: [
-                    { name: "Tiramisu Nutella-Spéculoos", price: "9.50€" },
-                    { name: "Mousse au chocolat noir 70%", price: "9.00€" },
-                    { name: "Brunch Complet (Dimanche)", price: "32.00€" }
+                    { name: "Tiramisu Nutella-Spéculoos", price_cents: 950 },
+                    { name: "Mousse au chocolat noir 70%", price_cents: 900 },
+                    { name: "Brunch Complet (Dimanche)", price_cents: 3200 }
                 ]
             }
         ]

@@ -42,56 +42,61 @@ export const hawai: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Traiteur & Entrées (À la pièce)",
+        category_type: "starter",
+        display_label: "Traiteur & Entrées (À la pièce)",
         items: [
-          { name: "Nems au Porc mythiques (x6)", price: "7.90€", highlight: true },
-          { name: "Rouleaux de Printemps (x2)", price: "6.60€" },
-          { name: "Samoussas au Bœuf (x4)", price: "7.00€" },
-          { name: "Bánh Cuốn (Vapeur Viet)", price: "7.70€" },
-          { name: "Beignets de Crevettes (x5)", price: "8.50€" },
-          { name: "Bouchées à la Vapeur (Assortiment)", price: "8.00€" }
+          { name: "Nems au Porc mythiques (x6)", price_cents: 790, is_highlight: true },
+          { name: "Rouleaux de Printemps (x2)", price_cents: 660 },
+          { name: "Samoussas au Bœuf (x4)", price_cents: 700 },
+          { name: "Bánh Cuốn (Vapeur Viet)", price_cents: 770 },
+          { name: "Beignets de Crevettes (x5)", price_cents: 850 },
+          { name: "Bouchées à la Vapeur (Assortiment)", price_cents: 800 }
         ]
       },
       {
-        category: "Soupes & Bouillons (Plats)",
+        category_type: "main",
+        display_label: "Soupes & Bouillons (Plats)",
         items: [
-          { name: "Soupe de Raviolis aux Crevettes", price: "11.00€", highlight: true },
-          { name: "Phở Classique au Bœuf", price: "10.50€" },
-          { name: "Soupe de Nouilles au Poulet", price: "10.00€" },
-          { name: "Mì Hoành Thánh (Soupe Wonton)", price: "11.00€" },
-          { name: "Soupe Spéciale Hawai (Mixte)", price: "12.50€" }
+          { name: "Soupe de Raviolis aux Crevettes", price_cents: 1100, is_highlight: true },
+          { name: "Phở Classique au Bœuf", price_cents: 1050 },
+          { name: "Soupe de Nouilles au Poulet", price_cents: 1000 },
+          { name: "Mì Hoành Thánh (Soupe Wonton)", price_cents: 1100 },
+          { name: "Soupe Spéciale Hawai (Mixte)", price_cents: 1250 }
         ]
       },
       {
-        category: "Composés & Satiété (Plats)",
+        category_type: "main",
+        display_label: "Composés & Satiété (Plats)",
         items: [
-          { name: "Bo Bun Classic (Bœuf & Nems)", price: "8.90€", highlight: true },
-          { name: "Riz aux Trois Trésors (Porc, Œuf, Viande)", price: "11.50€" },
-          { name: "Nouilles Sautées au Poulet", price: "10.50€" },
-          { name: "Riz Cantonais Hawai (Complet)", price: "9.50€" },
-          { name: "Bœuf aux Oignons & Riz blanc", price: "10.80€" },
-          { name: "Poulet Citronnelle & Riz", price: "10.50€" }
+          { name: "Bo Bun Classic (Bœuf & Nems)", price_cents: 890, is_highlight: true },
+          { name: "Riz aux Trois Trésors (Porc, Œuf, Viande)", price_cents: 1150 },
+          { name: "Nouilles Sautées au Poulet", price_cents: 1050 },
+          { name: "Riz Cantonais Hawai (Complet)", price_cents: 950 },
+          { name: "Bœuf aux Oignons & Riz blanc", price_cents: 1080 },
+          { name: "Poulet Citronnelle & Riz", price_cents: 1050 }
         ]
       },
       {
-        category: "Vitrine Traiteur (Spécialités)",
+        category_type: "other",
+        display_label: "Vitrine Traiteur (Spécialités)",
         items: [
-          { name: "Porc Laqué au Miel (Portion)", price: "9.50€" },
-          { name: "Canard Laqué à la découpe", price: "11.50€" },
-          { name: "Travers de Porc Sel & Poivre", price: "10.00€" },
-          { name: "Salade de Choux au Poulet", price: "6.50€" }
+          { name: "Porc Laqué au Miel (Portion)", price_cents: 950 },
+          { name: "Canard Laqué à la découpe", price_cents: 1150 },
+          { name: "Travers de Porc Sel & Poivre", price_cents: 1000 },
+          { name: "Salade de Choux au Poulet", price_cents: 650 }
         ]
       },
       {
-        category: "Douceurs & Boissons",
+        category_type: "dessert",
+        display_label: "Douceurs & Boissons",
         items: [
-          { name: "Perles de Coco Maison", price: "4.50€" },
-          { name: "Gelée aux Herbes & Lait de Coco", price: "5.50€" },
-          { name: "Bière Tsingtao (33cl)", price: "4.50€" },
-          { name: "Limonade Artisanal (Asian Style)", price: "3.50€" },
-          { name: "Thé Vert Chaud (Pot)", price: "4.00€" },
-          { name: "Jus de Coco avec pulpe", price: "4.50€" },
-          { name: "Lait de Soja Froid", price: "3.00€" }
+          { name: "Perles de Coco Maison", price_cents: 450 },
+          { name: "Gelée aux Herbes & Lait de Coco", price_cents: 550 },
+          { name: "Bière Tsingtao (33cl)", price_cents: 450 },
+          { name: "Limonade Artisanal (Asian Style)", price_cents: 350 },
+          { name: "Thé Vert Chaud (Pot)", price_cents: 400 },
+          { name: "Jus de Coco avec pulpe", price_cents: 450 },
+          { name: "Lait de Soja Froid", price_cents: 300 }
         ]
       }
     ]

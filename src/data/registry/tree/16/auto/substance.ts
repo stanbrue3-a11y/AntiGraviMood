@@ -41,42 +41,46 @@ export const substance: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Les Menus Dégustation",
+        category_type: "tasting_menu",
+        display_label: "Les Menus Dégustation",
         items: [
-          { name: "Menu Substance (9 services)", price: "188€", description: "L'expérience gastronomique ultime du soir" },
-          { name: "Menu Vibration (7 services)", price: "158€" },
-          { name: "Menu Instant Végétal (6 services)", price: "138€" },
-          { name: "Menu Essentiel (Midi)", price: "98€" },
-          { name: "Menu du Marché (Midi, 3 services)", price: "68€" }
+          { name: "Menu Substance (9 services)", price_cents: 18800, description: "L'expérience gastronomique ultime du soir" },
+          { name: "Menu Vibration (7 services)", price_cents: 15800 },
+          { name: "Menu Instant Végétal (6 services)", price_cents: 13800 },
+          { name: "Menu Essentiel (Midi)", price_cents: 9800 },
+          { name: "Menu du Marché (Midi, 3 services)", price_cents: 6800 }
         ]
       },
       {
-        category: "Les Incontournables",
+        category_type: "other",
+        display_label: "Les Incontournables",
         items: [
-          { name: "Gnocchi de Salsifis", price: "45€", description: "Beurre noisette et café, une signature Matthias Marc", highlight: true },
-          { name: "Poisson de Ligne & Jura", price: "52€", description: "Sauce au Vin Jaune, morilles fraîches" },
-          { name: "Le Bœuf de nos Terroirs", price: "55€", description: "Maturation longue, jus corsé à l'ail noir" },
-          { name: "Pigeon de chez Mear", price: "58€", description: "Cuisiné sur le coffre, betterave et cassis" },
-          { name: "Lieu Jaune de petits bateaux", price: "48€", description: "Émulsion de sapin, poireaux brûlés" },
-          { name: "Tartare de Veau & Huître", price: "38€", description: "Iode et terre, condiment citron" }
+          { name: "Gnocchi de Salsifis", price_cents: 4500, description: "Beurre noisette et café, une signature Matthias Marc", is_highlight: true },
+          { name: "Poisson de Ligne & Jura", price_cents: 5200, description: "Sauce au Vin Jaune, morilles fraîches" },
+          { name: "Le Bœuf de nos Terroirs", price_cents: 5500, description: "Maturation longue, jus corsé à l'ail noir" },
+          { name: "Pigeon de chez Mear", price_cents: 5800, description: "Cuisiné sur le coffre, betterave et cassis" },
+          { name: "Lieu Jaune de petits bateaux", price_cents: 4800, description: "Émulsion de sapin, poireaux brûlés" },
+          { name: "Tartare de Veau & Huître", price_cents: 3800, description: "Iode et terre, condiment citron" }
         ]
       },
       {
-        category: "Fromages & Desserts",
+        category_type: "dessert",
+        display_label: "Fromages & Desserts",
         items: [
-          { name: "Comté Vieilli (Jura)", price: "22€", description: "Servi avec une pointe de miel de sapin" },
-          { name: "Le Chocolat & Topinambour", price: "24€", description: "Une association audacieuse et terreuse" },
-          { name: "Agrumes de Saison", price: "20€", description: "Sorbet herbes fraîches, meringue italienne" },
-          { name: "Baba au Rhum revisité", price: "22€", description: "Chantilly vanille Bourbon" }
+          { name: "Comté Vieilli (Jura)", price_cents: 2200, description: "Servi avec une pointe de miel de sapin" },
+          { name: "Le Chocolat & Topinambour", price_cents: 2400, description: "Une association audacieuse et terreuse" },
+          { name: "Agrumes de Saison", price_cents: 2000, description: "Sorbet herbes fraîches, meringue italienne" },
+          { name: "Baba au Rhum revisité", price_cents: 2200, description: "Chantilly vanille Bourbon" }
         ]
       },
       {
-        category: "La Cave (Spécialité Jura)",
+        category_type: "drink",
+        display_label: "La Cave (Spécialité Jura)",
         items: [
-          { name: "Verre de Vin Jaune (Domaine Rolet)", price: "24€" },
-          { name: "Verre de Savagnin", price: "18€" },
-          { name: "Accord Mets & Vins (7 étapes)", price: "110€" },
-          { name: "Expresso Torréfaction Artisanale", price: "7€" }
+          { name: "Verre de Vin Jaune (Domaine Rolet)", price_cents: 2400 },
+          { name: "Verre de Savagnin", price_cents: 1800 },
+          { name: "Accord Mets & Vins (7 étapes)", price_cents: 11000 },
+          { name: "Expresso Torréfaction Artisanale", price_cents: 700 }
         ]
       }
     ]

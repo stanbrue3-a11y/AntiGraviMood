@@ -42,50 +42,53 @@ export const mokonuts: SurgicalPlace = {
         last_updated: "2026-03-07",
     menu_items: [
       {
-        category: "Pâtisseries & Cookies Cultes (Desserts)",
+        category_type: "dessert",
+        display_label: "Pâtisseries & Cookies Cultes (Desserts)",
         items: [
-          { name: "Cookie Sésame noir & Chocolat", price: "4.00€", description: "Le best-seller iconique de Moko.", highlight: true },
-          { name: "Cookie Avoine, miso & sésame noir", price: "4.00€" },
-          { name: "Cookie Chocolat blanc & olive noire", price: "4.00€" },
-          { name: "Cookie Chocolat au lait & Noisettes", price: "4.00€" },
-          { name: "Cookie Tahini & Chocolat noir", price: "4.00€" },
-          { name: "Cookie Peanut Butter & Sea Salt", price: "4.00€" },
-          { name: "Cookie Rye (Seigle) & Coquelicot", price: "4.00€" },
-          { name: "Tarte Fraise & Basilic", price: "11.00€", highlight: true },
-          { name: "Tarte au Citron Meyer & Meringue", price: "10.00€" },
-          { name: "Ricotta & Blood Orange Cake", price: "9.00€" },
-          { name: "Fig Tart with Black Sesame", price: "10.00€" },
-          { name: "Apple Plum Chiffon Cake", price: "8.50€" }
+          { name: "Cookie Sésame noir & Chocolat", price_cents: 400, description: "Le best-seller iconique de Moko.", is_highlight: true },
+          { name: "Cookie Avoine, miso & sésame noir", price_cents: 400 },
+          { name: "Cookie Chocolat blanc & olive noire", price_cents: 400 },
+          { name: "Cookie Chocolat au lait & Noisettes", price_cents: 400 },
+          { name: "Cookie Tahini & Chocolat noir", price_cents: 400 },
+          { name: "Cookie Peanut Butter & Sea Salt", price_cents: 400 },
+          { name: "Cookie Rye (Seigle) & Coquelicot", price_cents: 400 },
+          { name: "Tarte Fraise & Basilic", price_cents: 1100, is_highlight: true },
+          { name: "Tarte au Citron Meyer & Meringue", price_cents: 1000 },
+          { name: "Ricotta & Blood Orange Cake", price_cents: 900 },
+          { name: "Fig Tart with Black Sesame", price_cents: 1000 },
+          { name: "Apple Plum Chiffon Cake", price_cents: 850 }
         ]
       },
       {
-        category: "Plats de Saison (Midi) (Plats)",
+        category_type: "main",
+        display_label: "Plats de Saison (Midi) (Plats)",
         items: [
-          { name: "Labneh maison, za'atar & pain pita", price: "10.00€", highlight: true },
-          { name: "Thon blanc saisis & aubergine fumée", price: "16.00€", highlight: true },
-          { name: "Œuf mollet, chanterelles & haricots", price: "15.00€" },
-          { name: "Orecchiette au homard breton & bisque", price: "32.00€" },
-          { name: "Filet mignon de porc & asperges", price: "28.00€" },
-          { name: "Quasi de veau rôti, borlotti & sauge", price: "30.00€" },
-          { name: "Lieu jaune de ligne, fenouil & olives", price: "27.00€" },
-          { name: "Caille grillée & légumes racines", price: "26.00€" },
-          { name: "Risotto d'épeautre aux herbes", price: "24.00€" },
-          { name: "Mackerel Crudo, green sauce & radish", price: "14.00€" },
-          { name: "Seared Hake, pil-pil sauce & endive", price: "21.00€" },
-          { name: "Fried Egg, asparagus & bitter lettuces", price: "12.00€" },
-          { name: "Coques (Clams), garlic-herb butter", price: "12.00€" }
+          { name: "Labneh maison, za'atar & pain pita", price_cents: 1000, is_highlight: true },
+          { name: "Thon blanc saisis & aubergine fumée", price_cents: 1600, is_highlight: true },
+          { name: "Œuf mollet, chanterelles & haricots", price_cents: 1500 },
+          { name: "Orecchiette au homard breton & bisque", price_cents: 3200 },
+          { name: "Filet mignon de porc & asperges", price_cents: 2800 },
+          { name: "Quasi de veau rôti, borlotti & sauge", price_cents: 3000 },
+          { name: "Lieu jaune de ligne, fenouil & olives", price_cents: 2700 },
+          { name: "Caille grillée & légumes racines", price_cents: 2600 },
+          { name: "Risotto d'épeautre aux herbes", price_cents: 2400 },
+          { name: "Mackerel Crudo, green sauce & radish", price_cents: 1400 },
+          { name: "Seared Hake, pil-pil sauce & endive", price_cents: 2100 },
+          { name: "Fried Egg, asparagus & bitter lettuces", price_cents: 1200 },
+          { name: "Coques (Clams), garlic-herb butter", price_cents: 1200 }
         ]
       },
       {
-        category: "Boissons Artisanales & Café (Boissons)",
+        category_type: "drink",
+        display_label: "Boissons Artisanales & Café (Boissons)",
         items: [
-          { name: "Limonade maison à la fleur d'oranger", price: "5.50€", highlight: true },
-          { name: "Verre de Vin Nature (Sélection)", price: "13.00€", highlight: true },
-          { name: "Kéfir de fruits maison", price: "6.00€" },
-          { name: "Thé Sobacha (Sarrasin grillé)", price: "5.00€" },
-          { name: "Café Filtre (Specialty Coffee)", price: "4.50€" },
-          { name: "Café Espresso Lomi", price: "2.50€" },
-          { name: "Chocolat Chaud (Valrhona)", price: "6.00€" }
+          { name: "Limonade maison à la fleur d'oranger", price_cents: 550, is_highlight: true },
+          { name: "Verre de Vin Nature (Sélection)", price_cents: 1300, is_highlight: true },
+          { name: "Kéfir de fruits maison", price_cents: 600 },
+          { name: "Thé Sobacha (Sarrasin grillé)", price_cents: 500 },
+          { name: "Café Filtre (Specialty Coffee)", price_cents: 450 },
+          { name: "Café Espresso Lomi", price_cents: 250 },
+          { name: "Chocolat Chaud (Valrhona)", price_cents: 600 }
         ]
       }
     ]

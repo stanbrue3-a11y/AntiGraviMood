@@ -42,64 +42,70 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Droit de Cuisson & Concept : Service (Plat)",
+        category_type: "main",
+        display_label: "Droit de Cuisson & Concept : Service (Plat)",
         items: [
-          { name: "Droit de Cuisson (Pièce choisie en vitrine)", price: "12.00€", highlight: true },
-          { name: "Préparation Boucher & Accompagnement", price: "0.00€" }
+          { name: "Droit de Cuisson (Pièce choisie en vitrine)", price_cents: 1200, is_highlight: true },
+          { name: "Préparation Boucher & Accompagnement", price_cents: 0 }
         ]
       },
       {
-        category: "Entrées & Canaille : L'Art du Boucher",
+        category_type: "starter",
+        display_label: "Entrées & Canaille : L'Art du Boucher",
         items: [
-          { name: "Os à Moëlle au sel de Guérande", price: "9.80€", highlight: true },
-          { name: "Croustillant de pied de cochon maison", price: "11.80€", highlight: true },
-          { name: "Planche de Saucisson sec artisanal", price: "5.00€" },
-          { name: "Carpaccio de Bœuf charolais", price: "9.80€" },
-          { name: "Terrine du moment au piment d'Espelette", price: "8.50€" },
-          { name: "Assiette de Jambon Noir de Bigorre", price: "14.00€" }
+          { name: "Os à Moëlle au sel de Guérande", price_cents: 980, is_highlight: true },
+          { name: "Croustillant de pied de cochon maison", price_cents: 1180, is_highlight: true },
+          { name: "Planche de Saucisson sec artisanal", price_cents: 500 },
+          { name: "Carpaccio de Bœuf charolais", price_cents: 980 },
+          { name: "Terrine du moment au piment d'Espelette", price_cents: 850 },
+          { name: "Assiette de Jambon Noir de Bigorre", price_cents: 1400 }
         ]
       },
       {
-        category: "Plats : Les Grandes Pièces de Viande",
+        category_type: "main",
+        display_label: "Plats : Les Grandes Pièces de Viande",
         items: [
-          { name: "Onglet 'Grosse Faim' (300g)", price: "19.50€", highlight: true },
-          { name: "Ris de Veau dorés au sautoir", price: "32.00€", highlight: true },
-          { name: "Côte de Bœuf Maturée (Pour 2 pers - le kg)", price: "75.00€" },
-          { name: "Faux-filet de Race Normande", price: "24.00€" },
-          { name: "Steak Tartare maison préparé minute", price: "18.50€" },
-          { name: "Bœuf Bourguignon tradition (Mijoté)", price: "17.00€" },
-          { name: "Andouillette AAAAA, sauce moutarde", price: "16.50€" },
-          { name: "Côtelettes d'Agneau de lait", price: "22.00€" }
+          { name: "Onglet 'Grosse Faim' (300g)", price_cents: 1950, is_highlight: true },
+          { name: "Ris de Veau dorés au sautoir", price_cents: 3200, is_highlight: true },
+          { name: "Côte de Bœuf Maturée (Pour 2 pers - le kg)", price_cents: 7500 },
+          { name: "Faux-filet de Race Normande", price_cents: 2400 },
+          { name: "Steak Tartare maison préparé minute", price_cents: 1850 },
+          { name: "Bœuf Bourguignon tradition (Mijoté)", price_cents: 1700 },
+          { name: "Andouillette AAAAA, sauce moutarde", price_cents: 1650 },
+          { name: "Côtelettes d'Agneau de lait", price_cents: 2200 }
         ]
       },
       {
-        category: "Garnitures & Sauces (Plats)",
+        category_type: "main",
+        display_label: "Garnitures & Sauces (Plats)",
         items: [
-          { name: "Pommes Grenaille sautées au gras de bœuf", price: "0.00€" },
-          { name: "Purée de Pommes de Terre maison", price: "0.00€" },
-          { name: "Salade de saison bien assaisonnée", price: "0.00€" },
-          { name: "Sauce Béarnaise montée minute", price: "2.50€" },
-          { name: "Sauce au Poivre Vert", price: "2.00€" },
-          { name: "Sauce Roquefort", price: "2.00€" }
+          { name: "Pommes Grenaille sautées au gras de bœuf", price_cents: 0 },
+          { name: "Purée de Pommes de Terre maison", price_cents: 0 },
+          { name: "Salade de saison bien assaisonnée", price_cents: 0 },
+          { name: "Sauce Béarnaise montée minute", price_cents: 250 },
+          { name: "Sauce au Poivre Vert", price_cents: 200 },
+          { name: "Sauce Roquefort", price_cents: 200 }
         ]
       },
       {
-        category: "Douceurs & Desserts",
+        category_type: "dessert",
+        display_label: "Douceurs & Desserts",
         items: [
-          { name: "Le Parfait glacé à la Vanille", price: "8.50€", highlight: true },
-          { name: "Île Flottante, crème anglaise onctueuse", price: "7.50€" },
-          { name: "Mousse au Chocolat intensive", price: "7.00€" },
-          { name: "Dessert du Marché (Saison)", price: "8.00€" }
+          { name: "Le Parfait glacé à la Vanille", price_cents: 850, is_highlight: true },
+          { name: "Île Flottante, crème anglaise onctueuse", price_cents: 750 },
+          { name: "Mousse au Chocolat intensive", price_cents: 700 },
+          { name: "Dessert du Marché (Saison)", price_cents: 800 }
         ]
       },
       {
-        category: "Boissons & Vins Nature",
+        category_type: "drink",
+        display_label: "Boissons & Vins Nature",
         items: [
-          { name: "Verre de Rouge 'Le P'tit Pinard'", price: "6.50€" },
-          { name: "Bouteille de vin Nature (Sélection)", price: "28.00€" },
-          { name: "Bière Artisanale du 12ème", price: "7.00€" },
-          { name: "Jus de fruits Alain Milliat", price: "6.00€" },
-          { name: "Café Espresso Bio", price: "2.20€" }
+          { name: "Verre de Rouge 'Le P'tit Pinard'", price_cents: 650 },
+          { name: "Bouteille de vin Nature (Sélection)", price_cents: 2800 },
+          { name: "Bière Artisanale du 12ème", price_cents: 700 },
+          { name: "Jus de fruits Alain Milliat", price_cents: 600 },
+          { name: "Café Espresso Bio", price_cents: 220 }
         ]
       }
     ]

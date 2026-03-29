@@ -46,38 +46,42 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
         "smart_tip": "La Pinsa Margherita à 13€ est le meilleur rapport qualité/prix pour découvrir cette pâte 30% moins calorique.",
         "menu_items": [
             {
-                "category": "Antipasti",
+                "category_type": "starter",
+                "display_label": "Antipasti",
                 "items": [
-                    { "name": "Burrata nature (125g)", "price": "10,00€" },
-                    { "name": "Burrata à la truffe", "price": "11,50€" },
-                    { "name": "Bruschetta Pomodoro", "price": "8,00€" },
-                    { "name": "Planche mixte charcuterie & fromage", "price": "18,00€" }
+                    { "name": "Burrata nature (125g)", "price_cents": 1000 },
+                    { "name": "Burrata à la truffe", "price_cents": 1150 },
+                    { "name": "Bruschetta Pomodoro", "price_cents": 800 },
+                    { "name": "Planche mixte charcuterie & fromage", "price_cents": 1800 }
                 ]
             },
             {
-                "category": "Pinsas Classiques",
+                "category_type": "other",
+                "display_label": "Pinsas Classiques",
                 "items": [
-                    { "name": "Margherita (Tomate, Mozza, Basilic)", "price": "13,00€" },
-                    { "name": "Regina (Champignons, Jambon de pays)", "price": "16,00€" },
-                    { "name": "Quatre Fromages", "price": "17,50€" },
-                    { "name": "Genovese (Pesto, Tomates cerises)", "price": "15,50€" },
-                    { "name": "Mortadella Bomba", "price": "16,00€" }
+                    { "name": "Margherita (Tomate, Mozza, Basilic)", "price_cents": 1300 },
+                    { "name": "Regina (Champignons, Jambon de pays)", "price_cents": 1600 },
+                    { "name": "Quatre Fromages", "price_cents": 1750 },
+                    { "name": "Genovese (Pesto, Tomates cerises)", "price_cents": 1550 },
+                    { "name": "Mortadella Bomba", "price_cents": 1600 }
                 ]
             },
             {
-                "category": "Boissons & Cocktails",
+                "category_type": "drink",
+                "display_label": "Boissons & Cocktails",
                 "items": [
-                    { "name": "Aperol Spritz", "price": "11,00€" },
-                    { "name": "Pinte Moretti (50cl)", "price": "8,00€" },
-                    { "name": "Verre de Montepulciano d'Abruzzo", "price": "7,00€" },
-                    { "name": "Expresso", "price": "2,50€" }
+                    { "name": "Aperol Spritz", "price_cents": 1100 },
+                    { "name": "Pinte Moretti (50cl)", "price_cents": 800 },
+                    { "name": "Verre de Montepulciano d'Abruzzo", "price_cents": 700 },
+                    { "name": "Expresso", "price_cents": 250 }
                 ]
             },
             {
-                "category": "Desserts",
+                "category_type": "dessert",
+                "display_label": "Desserts",
                 "items": [
-                    { "name": "Tiramisu Maison", "price": "8,00€" },
-                    { "name": "Pinsa Nutella", "price": "9,50€" }
+                    { "name": "Tiramisu Maison", "price_cents": 800 },
+                    { "name": "Pinsa Nutella", "price_cents": 950 }
                 ]
             }
         ],

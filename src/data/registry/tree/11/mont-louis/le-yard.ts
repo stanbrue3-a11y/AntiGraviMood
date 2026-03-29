@@ -47,62 +47,67 @@ export const le_yard: SurgicalPlace = {
             // FORMULES DÉJEUNER (Source: TheFork + Yonder + LeBlogadora)
             // ═══════════════════════════════════════════
             {
-                category: "Formules Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Semaine)",
                 items: [
                     // VERIFIED: TheFork (2024) — 23€ et 28€
-                    { name: "Menu Midi : Plat seul", price: "23.00€" },
-                    { name: "Menu Midi : Entrée + Plat ou Plat + Dessert", price: "28.00€" }
+                    { name: "Menu Midi : Plat seul", price_cents: 2300 },
+                    { name: "Menu Midi : Entrée + Plat ou Plat + Dessert", price_cents: 2800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // ENTRÉES / PETITES ASSIETTES (Source: TheFork + LeBlogadora + Yonder)
             // ═══════════════════════════════════════════
             {
-                category: "Entrées / Petits Plats à Partager",
+                category_type: "starter",
+                display_label: "Entrées / Petits Plats à Partager",
                 items: [
                     // VERIFIED: TheFork (2024) — entrées 8-12€
-                    { name: "Huîtres, pomme Granny Smith et aneth", price: "12.00€" },
-                    { name: "Brocoli croustillant, sweet chili", price: "8.00€" },
-                    { name: "Croquettes de boeuf bourguignon", price: "10.00€" },
-                    { name: "Assiette de fromages affinés", price: "12.00€" },
-                    { name: "Terrine du moment", price: "10.00€" }
+                    { name: "Huîtres, pomme Granny Smith et aneth", price_cents: 1200 },
+                    { name: "Brocoli croustillant, sweet chili", price_cents: 800 },
+                    { name: "Croquettes de boeuf bourguignon", price_cents: 1000 },
+                    { name: "Assiette de fromages affinés", price_cents: 1200 },
+                    { name: "Terrine du moment", price_cents: 1000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS (Source: TheFork + Yonder + LeBlogadora)
             // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: TheFork + Yonder (2024) — plats 18-30€
-                    { name: "Gnocchi, sauce aux champignons", price: "18.00€" },
-                    { name: "Poitrine de porc confite", price: "22.00€" },
-                    { name: "Bar de ligne poêlé, légumes de saison", price: "24.00€" },
-                    { name: "Entrecôte grillée, sauce maison", price: "28.00€" },
-                    { name: "Côte de boeuf à partager (pour 2)", price: "130.00€", description: "La pièce star, à commander en avance." }
+                    { name: "Gnocchi, sauce aux champignons", price_cents: 1800 },
+                    { name: "Poitrine de porc confite", price_cents: 2200 },
+                    { name: "Bar de ligne poêlé, légumes de saison", price_cents: 2400 },
+                    { name: "Entrecôte grillée, sauce maison", price_cents: 2800 },
+                    { name: "Côte de boeuf à partager (pour 2)", price_cents: 13000, description: "La pièce star, à commander en avance." }
                 ]
             },
             // ═══════════════════════════════════════════
             // DESSERTS (Source: TheFork)
             // ═══════════════════════════════════════════
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
                     // VERIFIED: TheFork (2024) — desserts ~7-8€
-                    { name: "Crémeux au chocolat", price: "8.00€" },
-                    { name: "Riz au lait", price: "7.00€" },
-                    { name: "Crème brûlée", price: "8.00€" }
+                    { name: "Crémeux au chocolat", price_cents: 800 },
+                    { name: "Riz au lait", price_cents: 700 },
+                    { name: "Crème brûlée", price_cents: 800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // VINS NATURES — 250+ RÉFÉRENCES (Source: Culinaries + TheFork)
             // ═══════════════════════════════════════════
             {
-                category: "Vins Natures (250+ références en cave)",
+                category_type: "drink",
+                display_label: "Vins Natures (250+ références en cave)",
                 items: [
-                    { name: "Verre de vin nature (sélection du jour)", price: "7.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "25.00€" },
-                    { name: "Dégustation dominicale (thématique, le dimanche)", price: "30.00€", description: "Chaque dimanche, dégustation à thème avec rencontre vigneronne." }
+                    { name: "Verre de vin nature (sélection du jour)", price_cents: 700 },
+                    { name: "Bouteille nature (à partir de)", price_cents: 2500 },
+                    { name: "Dégustation dominicale (thématique, le dimanche)", price_cents: 3000, description: "Chaque dimanche, dégustation à thème avec rencontre vigneronne." }
                 ]
             }
         ]

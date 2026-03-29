@@ -53,63 +53,68 @@ export const chez_maman: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Plats et Viandes",
+                category_type: "main",
+                display_label: "Plats et Viandes",
                 items: [
-                    { name: "Entrecôte XL - 300g", price: "24.90€" },
-                    { name: "Esclope de veau à la crème", price: "19.90€" },
-                    { name: "Bavette d’aloyau", price: "16.90€" },
-                    { name: "Steak de bœuf", price: "15.20€" },
-                    { name: "Poulet rôti", price: "14.90€" },
-                    { name: "Véritable andouillette 5A", price: "19.40€" },
-                    { name: "Magret de canard", price: "18.90€" },
-                    { name: "Confit de canard", price: "18.90€" },
-                    { name: "Pavé saumon", price: "18.90€" }
+                    { name: "Entrecôte XL - 300g", price_cents: 2490 },
+                    { name: "Esclope de veau à la crème", price_cents: 1990 },
+                    { name: "Bavette d’aloyau", price_cents: 1690 },
+                    { name: "Steak de bœuf", price_cents: 1520 },
+                    { name: "Poulet rôti", price_cents: 1490 },
+                    { name: "Véritable andouillette 5A", price_cents: 1940 },
+                    { name: "Magret de canard", price_cents: 1890 },
+                    { name: "Confit de canard", price_cents: 1890 },
+                    { name: "Pavé saumon", price_cents: 1890 }
                 ]
             },
             {
-                category: "Burgers et Tartares",
+                category_type: "main",
+                display_label: "Burgers et Tartares",
                 items: [
-                    { name: "Burger Maman (Bœuf charolais, lard, fromage)", price: "18.50€" },
-                    { name: "Le dindo burger (Escalope panée)", price: "17.90€" },
-                    { name: "Burger végétarien", price: "16.90€" },
-                    { name: "Tartare de boeuf charolais", price: "18.20€" },
-                    { name: "Tartare de canard", price: "18.20€" },
-                    { name: "Tartare de saumon", price: "18.20€" },
-                    { name: "Croque-Monsieur frites", price: "12.20€" },
-                    { name: "Croque-madame frites", price: "13.40€" }
+                    { name: "Burger Maman (Bœuf charolais, lard, fromage)", price_cents: 1850 },
+                    { name: "Le dindo burger (Escalope panée)", price_cents: 1790 },
+                    { name: "Burger végétarien", price_cents: 1690 },
+                    { name: "Tartare de boeuf charolais", price_cents: 1820 },
+                    { name: "Tartare de canard", price_cents: 1820 },
+                    { name: "Tartare de saumon", price_cents: 1820 },
+                    { name: "Croque-Monsieur frites", price_cents: 1220 },
+                    { name: "Croque-madame frites", price_cents: 1340 }
                 ]
             },
             {
-                category: "Entrées et Planches",
+                category_type: "starter",
+                display_label: "Entrées et Planches",
                 items: [
-                    { name: "Planche mixte (Charcuterie et fromage)", price: "19.80€" },
-                    { name: "Planche de charcuterie", price: "17.90€" },
-                    { name: "Planche de fromage", price: "15.90€" },
-                    { name: "Foie gras entier et figue séchée - 25g", price: "9.90€" },
-                    { name: "Œuf poché au bleu", price: "9.90€" },
-                    { name: "Filets de harengs", price: "8.70€" },
-                    { name: "Pâté", price: "5.80€" },
-                    { name: "Rillettes", price: "5.70€" },
-                    { name: "Salade de gésiers", price: "12.20€" }
+                    { name: "Planche mixte (Charcuterie et fromage)", price_cents: 1980 },
+                    { name: "Planche de charcuterie", price_cents: 1790 },
+                    { name: "Planche de fromage", price_cents: 1590 },
+                    { name: "Foie gras entier et figue séchée - 25g", price_cents: 990 },
+                    { name: "Œuf poché au bleu", price_cents: 990 },
+                    { name: "Filets de harengs", price_cents: 870 },
+                    { name: "Pâté", price_cents: 580 },
+                    { name: "Rillettes", price_cents: 570 },
+                    { name: "Salade de gésiers", price_cents: 1220 }
                 ]
             },
             {
-                category: "Bières et Vins (hors HH)",
+                category_type: "drink",
+                display_label: "Bières et Vins (hors HH)",
                 items: [
-                    { name: "Pinte Paris Blonde 50cl", price: "6.10€" },
-                    { name: "Pinte Couvente Abbaye 50cl", price: "7.10€" },
-                    { name: "Pinte Blanche Moulin d'ascq Bio 50cl", price: "7.90€" },
-                    { name: "Pinte IPA Légennaire 50cl", price: "8.60€" },
-                    { name: "Verre Bordeaux Superieur 14cl", price: "4.90€" },
-                    { name: "Verre Brouilly AOP 14cl", price: "5.50€" }
+                    { name: "Pinte Paris Blonde 50cl", price_cents: 610 },
+                    { name: "Pinte Couvente Abbaye 50cl", price_cents: 710 },
+                    { name: "Pinte Blanche Moulin d'ascq Bio 50cl", price_cents: 790 },
+                    { name: "Pinte IPA Légennaire 50cl", price_cents: 860 },
+                    { name: "Verre Bordeaux Superieur 14cl", price_cents: 490 },
+                    { name: "Verre Brouilly AOP 14cl", price_cents: 550 }
                 ]
             },
             {
-                category: "Boissons Chaudes",
+                category_type: "drink",
+                display_label: "Boissons Chaudes",
                 items: [
-                    { name: "Café expresso", price: "2.30€" },
-                    { name: "Café allongé", price: "2.50€" },
-                    { name: "Cappuccino", price: "5.00€" }
+                    { name: "Café expresso", price_cents: 230 },
+                    { name: "Café allongé", price_cents: 250 },
+                    { name: "Cappuccino", price_cents: 500 }
                 ]
             }
         ]

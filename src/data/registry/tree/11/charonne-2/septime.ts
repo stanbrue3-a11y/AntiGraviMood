@@ -44,56 +44,61 @@ export const septime: SurgicalPlace = {
         last_updated: "2024-03-08",
     menu_items: [
       {
-        category: "Menus Dégustation (Carte Blanche)",
+        category_type: "tasting_menu",
+        display_label: "Menus Dégustation (Carte Blanche)",
         items: [
-          { name: "Menu Dîner (7 étapes)", price: "135.00€", description: "Progression créative et saisonnière.", highlight: true },
-          { name: "Menu Déjeuner (5 étapes)", price: "85.00€", description: "Uniquement au déjeuner.", highlight: true },
-          { name: "Accord Mets & Vins - Dîner (5 verres)", price: "75.00€" },
-          { name: "Accord Mets & Vins - Déjeuner (3 verres)", price: "60.00€" }
+          { name: "Menu Dîner (7 étapes)", price_cents: 13500, description: "Progression créative et saisonnière.", is_highlight: true },
+          { name: "Menu Déjeuner (5 étapes)", price_cents: 8500, description: "Uniquement au déjeuner.", is_highlight: true },
+          { name: "Accord Mets & Vins - Dîner (5 verres)", price_cents: 7500 },
+          { name: "Accord Mets & Vins - Déjeuner (3 verres)", price_cents: 6000 }
         ]
       },
       {
-        category: "Séquences du Moment (Exemples Plats)",
+        category_type: "main",
+        display_label: "Séquences du Moment (Exemples Plats)",
         items: [
-          { name: "Asperges blanches, ail des ours & jaune d'œuf", price: "0.00€", highlight: true },
-          { name: "Lieu jaune de ligne, beurre blanc foin", price: "0.00€", highlight: true },
-          { name: "Canette rôtie au BBQ, betteraves", price: "0.00€" },
-          { name: "Pigeon de chez M. Trouillet, oseille", price: "0.00€" },
-          { name: "Trou Normand revisité (Pomme/Céleri)", price: "0.00€" },
-          { name: "Mousse au chocolat fumé & sel de Maldon", price: "0.00€" },
-          { name: "Tartelette fraises des bois, sureau", price: "0.00€" },
-          { name: "Sélection de fromages affinés (Supplément)", price: "15.00€" }
+          { name: "Asperges blanches, ail des ours & jaune d'œuf", price_cents: 0, is_highlight: true },
+          { name: "Lieu jaune de ligne, beurre blanc foin", price_cents: 0, is_highlight: true },
+          { name: "Canette rôtie au BBQ, betteraves", price_cents: 0 },
+          { name: "Pigeon de chez M. Trouillet, oseille", price_cents: 0 },
+          { name: "Trou Normand revisité (Pomme/Céleri)", price_cents: 0 },
+          { name: "Mousse au chocolat fumé & sel de Maldon", price_cents: 0 },
+          { name: "Tartelette fraises des bois, sureau", price_cents: 0 },
+          { name: "Sélection de fromages affinés (Supplément)", price_cents: 1500 }
         ]
       },
       {
-        category: "La Cave Nature (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Nature (Boissons)",
         items: [
-          { name: "Verre de Vin Nature du jour", price: "12.00€", highlight: true },
-          { name: "Pet'Nat 'Bulles de Vie' (Verre)", price: "14.00€" },
-          { name: "Champagne Jacques Lassalle (Verre)", price: "22.00€" },
-          { name: "Cidre de Glace (Verre)", price: "11.00€" },
-          { name: "Bouteille Septime 'Cuvée Maison'", price: "45.00€" },
-          { name: "Grand Cru Bourgogne (Bouteille)", price: "120.00€" }
+          { name: "Verre de Vin Nature du jour", price_cents: 1200, is_highlight: true },
+          { name: "Pet'Nat 'Bulles de Vie' (Verre)", price_cents: 1400 },
+          { name: "Champagne Jacques Lassalle (Verre)", price_cents: 2200 },
+          { name: "Cidre de Glace (Verre)", price_cents: 1100 },
+          { name: "Bouteille Septime 'Cuvée Maison'", price_cents: 4500 },
+          { name: "Grand Cru Bourgogne (Bouteille)", price_cents: 12000 }
         ]
       },
       {
-        category: "Caféterie & Infusions (Boissons)",
+        category_type: "drink",
+        display_label: "Caféterie & Infusions (Boissons)",
         items: [
-          { name: "Café de Spécialité (Torréfié maison)", price: "4.00€", highlight: true },
-          { name: "Infusion de plantes du jardin", price: "4.00€" },
-          { name: "Thé Vert Genmaicha", price: "6.00€" },
-          { name: "Double Espresso", price: "6.00€" },
-          { name: "Décaféiné à l'eau", price: "4.50€" }
+          { name: "Café de Spécialité (Torréfié maison)", price_cents: 400, is_highlight: true },
+          { name: "Infusion de plantes du jardin", price_cents: 400 },
+          { name: "Thé Vert Genmaicha", price_cents: 600 },
+          { name: "Double Espresso", price_cents: 600 },
+          { name: "Décaféiné à l'eau", price_cents: 450 }
         ]
       },
       {
-        category: "Eaux & Softs (Boissons)",
+        category_type: "drink",
+        display_label: "Eaux & Softs (Boissons)",
         items: [
-          { name: "Eau micro-filtrée Septime (75cl)", price: "4.50€" },
-          { name: "Jus de fruits frais (Sourcing direct)", price: "8.00€" },
-          { name: "Kombucha Maison 'Verveine'", price: "9.00€", highlight: true },
-          { name: "Limonade Artisanale", price: "7.00€" },
-          { name: "Badoit (75cl)", price: "6.50€" }
+          { name: "Eau micro-filtrée Septime (75cl)", price_cents: 450 },
+          { name: "Jus de fruits frais (Sourcing direct)", price_cents: 800 },
+          { name: "Kombucha Maison 'Verveine'", price_cents: 900, is_highlight: true },
+          { name: "Limonade Artisanale", price_cents: 700 },
+          { name: "Badoit (75cl)", price_cents: 650 }
         ]
       }
     ]

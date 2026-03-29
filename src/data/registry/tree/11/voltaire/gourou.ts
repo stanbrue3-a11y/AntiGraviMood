@@ -42,62 +42,67 @@ export const gourou: SurgicalPlace = {
         last_updated: "2026-03-09",
         menu_items: [
             {
-                category: "Les Menus & Formules",
+                category_type: "tasting_menu",
+                display_label: "Les Menus & Formules",
                 items: [
-                    { name: "Gourou Solo (Entrée + Plat + Naan)", price: "19.50€", description: "Le voyage complet pour une personne." },
-                    { name: "Gourou à Deux (2 Entrées + 2 Plats + Riz Pulao)", price: "42.00€" },
-                    { name: "Formule Midi (Plat + Riz Pulao)", price: "16.50€" }
+                    { name: "Gourou Solo (Entrée + Plat + Naan)", price_cents: 1950, description: "Le voyage complet pour une personne." },
+                    { name: "Gourou à Deux (2 Entrées + 2 Plats + Riz Pulao)", price_cents: 4200 },
+                    { name: "Formule Midi (Plat + Riz Pulao)", price_cents: 1650 }
                 ]
             },
             {
-                category: "Les Naans (Pains Traditionnels)",
+                category_type: "other",
+                display_label: "Les Naans (Pains Traditionnels)",
                 items: [
-                    { name: "Plain Naan (Nature)", price: "3.00€" },
-                    { name: "Garlic Naan (Ail & Coriandre)", price: "3.50€" },
-                    { name: "Cheese Naan (Vache qui rit)", price: "4.50€" },
-                    { name: "Cheese & Garlic Naan", price: "5.00€" },
-                    { name: "Keema Naan (Agneau haché)", price: "5.50€" },
-                    { name: "Peshawari Naan (Fruits sec, noix de coco, miel)", price: "5.50€" }
+                    { name: "Plain Naan (Nature)", price_cents: 300 },
+                    { name: "Garlic Naan (Ail & Coriandre)", price_cents: 350 },
+                    { name: "Cheese Naan (Vache qui rit)", price_cents: 450 },
+                    { name: "Cheese & Garlic Naan", price_cents: 500 },
+                    { name: "Keema Naan (Agneau haché)", price_cents: 550 },
+                    { name: "Peshawari Naan (Fruits sec, noix de coco, miel)", price_cents: 550 }
                 ]
             },
             {
-                category: "Street Food & Petites Assiettes (Entrées)",
+                category_type: "starter",
+                display_label: "Street Food & Petites Assiettes (Entrées)",
                 items: [
-                    { name: "Vada Pav (Burger de Bombay)", price: "8.00€", description: "Le banger street-food de Bombay." },
-                    { name: "Chicken Curry Samosas (les 2)", price: "6.50€" },
-                    { name: "Aloo Samosas (Végétariens, les 2)", price: "6.50€" },
-                    { name: "Masala Vadai (Falafels de lentilles corail)", price: "6.50€" },
-                    { name: "Paneers Frits (Homemade Indian Cheese)", price: "6.50€" },
-                    { name: "Kachumber Salad (Concombre, Tomate, Cumin)", price: "6.00€" },
-                    { name: "Beignets de Gambas Tempura", price: "8.00€" },
-                    { name: "Chanas Chaat (Salade de pois chiches)", price: "6.00€" },
-                    { name: "Bhel Puri (Riz soufflé, légumes, tamarin)", price: "6.00€" }
+                    { name: "Vada Pav (Burger de Bombay)", price_cents: 800, description: "Le banger street-food de Bombay." },
+                    { name: "Chicken Curry Samosas (les 2)", price_cents: 650 },
+                    { name: "Aloo Samosas (Végétariens, les 2)", price_cents: 650 },
+                    { name: "Masala Vadai (Falafels de lentilles corail)", price_cents: 650 },
+                    { name: "Paneers Frits (Homemade Indian Cheese)", price_cents: 650 },
+                    { name: "Kachumber Salad (Concombre, Tomate, Cumin)", price_cents: 600 },
+                    { name: "Beignets de Gambas Tempura", price_cents: 800 },
+                    { name: "Chanas Chaat (Salade de pois chiches)", price_cents: 600 },
+                    { name: "Bhel Puri (Riz soufflé, légumes, tamarin)", price_cents: 600 }
                 ]
             },
             {
-                category: "Curries Signature (Les Plats)",
+                category_type: "main",
+                display_label: "Curries Signature (Les Plats)",
                 items: [
-                    { name: "Butter Chicken (Doux & Crémeux)", price: "13.50€", description: "Poulet mariné, sauce tomate au beurre et amandes." },
-                    { name: "Murgh Korma (Safran & Pistache)", price: "13.50€" },
-                    { name: "Curry d'Agneau (Boulettes artisanales)", price: "15.50€" },
-                    { name: "Ghost Palak (Agneau & Épinards frais)", price: "15.50€" },
-                    { name: "Chemmen Molee (Gambas & Lait de Coco)", price: "15.00€" },
-                    { name: "Saag Paneer (Fromage maison & Épinards)", price: "12.50€" },
-                    { name: "Dhal Palak (Lentilles corail, coco & cardamome)", price: "12.50€" },
-                    { name: "Chanas Curry (Pois chiches & Aubergines au Tandoor)", price: "13.50€" },
-                    { name: "Vegetable Biryani", price: "14.50€" }
+                    { name: "Butter Chicken (Doux & Crémeux)", price_cents: 1350, description: "Poulet mariné, sauce tomate au beurre et amandes." },
+                    { name: "Murgh Korma (Safran & Pistache)", price_cents: 1350 },
+                    { name: "Curry d'Agneau (Boulettes artisanales)", price_cents: 1550 },
+                    { name: "Ghost Palak (Agneau & Épinards frais)", price_cents: 1550 },
+                    { name: "Chemmen Molee (Gambas & Lait de Coco)", price_cents: 1500 },
+                    { name: "Saag Paneer (Fromage maison & Épinards)", price_cents: 1250 },
+                    { name: "Dhal Palak (Lentilles corail, coco & cardamome)", price_cents: 1250 },
+                    { name: "Chanas Curry (Pois chiches & Aubergines au Tandoor)", price_cents: 1350 },
+                    { name: "Vegetable Biryani", price_cents: 1450 }
                 ]
             },
             {
-                category: "Sweet & Drinks",
+                category_type: "other",
+                display_label: "Sweet & Drinks",
                 items: [
-                    { name: "Mango Lassi (Yogourt à la mangue Alphonso)", price: "5.50€" },
-                    { name: "Rose Lassi (Parfumé à la rose)", price: "5.00€" },
-                    { name: "Gulab Jamun (Boulettes au sirop & cardamome)", price: "6.00€" },
-                    { name: "Gâteau de semoule à la pistache", price: "6.50€" },
-                    { name: "Chaï Latte (Thé noir épicé & lait)", price: "4.50€" },
-                    { name: "Bière Indienne : Kingfisher (33cl)", price: "6.00€" },
-                    { name: "IPA Artisanale de Paris", price: "7.50€" }
+                    { name: "Mango Lassi (Yogourt à la mangue Alphonso)", price_cents: 550 },
+                    { name: "Rose Lassi (Parfumé à la rose)", price_cents: 500 },
+                    { name: "Gulab Jamun (Boulettes au sirop & cardamome)", price_cents: 600 },
+                    { name: "Gâteau de semoule à la pistache", price_cents: 650 },
+                    { name: "Chaï Latte (Thé noir épicé & lait)", price_cents: 450 },
+                    { name: "Bière Indienne : Kingfisher (33cl)", price_cents: 600 },
+                    { name: "IPA Artisanale de Paris", price_cents: 750 }
                 ]
             }
         ]

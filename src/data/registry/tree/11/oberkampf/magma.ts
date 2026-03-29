@@ -45,35 +45,38 @@ export const magma: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Magma 2025 Standard (Fixed Tasting Menu)
             {
-                category: "Lunch Formulas (Midi)",
+                category_type: "other",
+                display_label: "Lunch Formulas (Midi)",
                 items: [
-                    { name: "Menu Déjeuner (3 temps) - Semaine", price: "38.00€", description: "Entrée, Plat, Dessert selon arrivage." },
-                    { name: "Menu Déjeuner (3 temps) - Weekend", price: "50.00€" }
+                    { name: "Menu Déjeuner (3 temps) - Semaine", price_cents: 3800, description: "Entrée, Plat, Dessert selon arrivage." },
+                    { name: "Menu Déjeuner (3 temps) - Weekend", price_cents: 5000 }
                 ]
             },
             {
-                category: "Dinner Tasting Menus (Soir)",
+                category_type: "tasting_menu",
+                display_label: "Dinner Tasting Menus (Soir)",
                 items: [
-                    { name: "Menu Dégustation (6 temps)", price: "80.00€", description: "L'essentiel de la vision de Ryuya Ono." },
-                    { name: "Menu Dégustation (9 temps)", price: "120.00€", description: "L'expérience Magma complète." },
-                    { name: "Accords Mets & Vins (9 temps)", price: "90.00€" },
-                    { name: "Accords Mets & Sakés (9 temps)", price: "70.00€" }
+                    { name: "Menu Dégustation (6 temps)", price_cents: 8000, description: "L'essentiel de la vision de Ryuya Ono." },
+                    { name: "Menu Dégustation (9 temps)", price_cents: 12000, description: "L'expérience Magma complète." },
+                    { name: "Accords Mets & Vins (9 temps)", price_cents: 9000 },
+                    { name: "Accords Mets & Sakés (9 temps)", price_cents: 7000 }
                 ]
             },
             {
-                category: "Inspirations (Séquences Ryuya Ono)",
+                category_type: "other",
+                display_label: "Inspirations (Séquences Ryuya Ono)",
                 items: [
-                    { name: "Abalone & Oreille de cochon", price: "Inclus", description: "Fenouil, chanterelles, sauce thé vert (Signature)." },
-                    { name: "Truite marinée & champignons de Paris", price: "Inclus" },
-                    { name: "Lieu jaune de ligne au Bincho-tan", price: "Inclus" },
-                    { name: "Omble chevalier fumé, bouillon dashi", price: "Inclus" },
-                    { name: "Quasi de veau de lait, réglisse & blettes", price: "Inclus" },
-                    { name: "Pigeon fermier rôti sur le coffre", price: "Inclus" },
-                    { name: "Meringue aux tomates cerises & sorbet pêche", price: "Inclus" },
-                    { name: "Chocolat Tonka, sablé noisette & glace sésame", price: "Inclus" },
-                    { name: "Mont-Blanc crèmeux au goût de courge", price: "Inclus" },
-                    { name: "Eau micro-filtrée", price: "Inclus" },
-                    { name: "Mignardises de fin de repas", price: "Inclus" }
+                    { name: "Abalone & Oreille de cochon", price_cents: 0, description: "Fenouil, chanterelles, sauce thé vert (Signature)." },
+                    { name: "Truite marinée & champignons de Paris", price_cents: 0 },
+                    { name: "Lieu jaune de ligne au Bincho-tan", price_cents: 0 },
+                    { name: "Omble chevalier fumé, bouillon dashi", price_cents: 0 },
+                    { name: "Quasi de veau de lait, réglisse & blettes", price_cents: 0 },
+                    { name: "Pigeon fermier rôti sur le coffre", price_cents: 0 },
+                    { name: "Meringue aux tomates cerises & sorbet pêche", price_cents: 0 },
+                    { name: "Chocolat Tonka, sablé noisette & glace sésame", price_cents: 0 },
+                    { name: "Mont-Blanc crèmeux au goût de courge", price_cents: 0 },
+                    { name: "Eau micro-filtrée", price_cents: 0 },
+                    { name: "Mignardises de fin de repas", price_cents: 0 }
                 ]
             }
         ]

@@ -43,30 +43,33 @@ export const cafeRendezVous: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Bistronomie de Saison",
+                category_type: "other",
+                display_label: "Bistronomie de Saison",
                 items: [
-                    { name: "Blanquette de veau à l'ancienne", price: "21.00€" },
-                    { name: "Saucisse d'Auvergne & Aligot", price: "19.50€" },
-                    { name: "Poisson frais du jour, riz aux herbes", price: "22.00€" },
-                    { name: "Burger au Bleu d'Auvergne", price: "18.50€" },
-                    { name: "Tartare de Bœuf boucher", price: "17.50€" }
+                    { name: "Blanquette de veau à l'ancienne", price_cents: 2100 },
+                    { name: "Saucisse d'Auvergne & Aligot", price_cents: 1950 },
+                    { name: "Poisson frais du jour, riz aux herbes", price_cents: 2200 },
+                    { name: "Burger au Bleu d'Auvergne", price_cents: 1850 },
+                    { name: "Tartare de Bœuf boucher", price_cents: 1750 }
                 ]
             },
             {
-                category: "Entrées & Tapas",
+                category_type: "starter",
+                display_label: "Entrées & Tapas",
                 items: [
-                    { name: "Oeuf cocotte à la tomate confite", price: "11.50€" },
-                    { name: "Asperges rôties au parmesan", price: "7.50€" },
-                    { name: "Planche de tapas à partager", price: "18.00€" },
-                    { name: "Soupe à l'oignon gratinée", price: "9.50€" }
+                    { name: "Oeuf cocotte à la tomate confite", price_cents: 1150 },
+                    { name: "Asperges rôties au parmesan", price_cents: 750 },
+                    { name: "Planche de tapas à partager", price_cents: 1800 },
+                    { name: "Soupe à l'oignon gratinée", price_cents: 950 }
                 ]
             },
             {
-                category: "Douceurs Maison",
+                category_type: "dessert",
+                display_label: "Douceurs Maison",
                 items: [
-                    { name: "French Toast au caramel beurre salé", price: "9.00€" },
-                    { name: "Tiramisu du Rendez-Vous", price: "8.50€" },
-                    { name: "Île flottante généreuse", price: "7.50€" }
+                    { name: "French Toast au caramel beurre salé", price_cents: 900 },
+                    { name: "Tiramisu du Rendez-Vous", price_cents: 850 },
+                    { name: "Île flottante généreuse", price_cents: 750 }
                 ]
             }
         ]

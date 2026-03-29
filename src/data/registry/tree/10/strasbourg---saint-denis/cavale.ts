@@ -46,74 +46,80 @@ export const cavale: SurgicalPlace = {
         last_updated: "2026-03-05",
         menu_items: [
             {
-                category: "Pour Commencer (Entrées / Tapas)",
+                category_type: "starter",
+                display_label: "Pour Commencer (Entrées / Tapas)",
                 items: [
-                    { name: "Croquetas de truffade et coppa (3 pièces)", price: "10.00€" },
-                    { name: "Accra de cabillaud et patate douce (6 pièces)", price: "11.00€" },
-                    { name: "Oeuf mayo à la chapelure d'herbes", price: "10.00€" },
-                    { name: "Terrine de Steph", price: "12.00€" },
-                    { name: "Ceviche de thon", price: "12.00€" },
-                    { name: "Gros nem de feta croustillant", price: "11.00€" }
+                    { name: "Croquetas de truffade et coppa (3 pièces)", price_cents: 1000 },
+                    { name: "Accra de cabillaud et patate douce (6 pièces)", price_cents: 1100 },
+                    { name: "Oeuf mayo à la chapelure d'herbes", price_cents: 1000 },
+                    { name: "Terrine de Steph", price_cents: 1200 },
+                    { name: "Ceviche de thon", price_cents: 1200 },
+                    { name: "Gros nem de feta croustillant", price_cents: 1100 }
                 ]
             },
             {
-                category: "Salades & Bowls",
+                category_type: "other",
+                display_label: "Salades & Bowls",
                 items: [
-                    { name: "Bun (nouilles chinoises, nems poulet)", price: "19.00€" },
-                    { name: "Mama (saumon mariné et fumé, agrumes)", price: "20.00€" },
-                    { name: "Capra (chèvre pané, fruits secs, jambon)", price: "19.00€" },
-                    { name: "Cobb (poulet croustillant, bacon)", price: "20.00€" },
-                    { name: "Trotro (lentille verte, patate douce, halloumi)", price: "19.00€" },
-                    { name: "Bowl de la semaine", price: "20.00€" }
+                    { name: "Bun (nouilles chinoises, nems poulet)", price_cents: 1900 },
+                    { name: "Mama (saumon mariné et fumé, agrumes)", price_cents: 2000 },
+                    { name: "Capra (chèvre pané, fruits secs, jambon)", price_cents: 1900 },
+                    { name: "Cobb (poulet croustillant, bacon)", price_cents: 2000 },
+                    { name: "Trotro (lentille verte, patate douce, halloumi)", price_cents: 1900 },
+                    { name: "Bowl de la semaine", price_cents: 2000 }
                 ]
             },
             {
-                category: "À Partager & Grignotages",
+                category_type: "sharing",
+                display_label: "À Partager & Grignotages",
                 items: [
-                    { name: "Planche de charcuterie", price: "20.00€" },
-                    { name: "Planche de fromages affinés", price: "20.00€" },
-                    { name: "Planche Mixte", price: "23.00€" },
-                    { name: "Le Croque (jambon, crème de truffe d'été)", price: "9.00€" },
-                    { name: "Camembert rôti, noix de pécan, sirop d'érable", price: "10.00€" },
-                    { name: "Castaniù (frites, cantal fondu, lard fumé)", price: "9.00€" },
-                    { name: "Assiette de frites", price: "6.00€" },
-                    { name: "Frites de patate douce", price: "8.00€" }
+                    { name: "Planche de charcuterie", price_cents: 2000 },
+                    { name: "Planche de fromages affinés", price_cents: 2000 },
+                    { name: "Planche Mixte", price_cents: 2300 },
+                    { name: "Le Croque (jambon, crème de truffe d'été)", price_cents: 900 },
+                    { name: "Camembert rôti, noix de pécan, sirop d'érable", price_cents: 1000 },
+                    { name: "Castaniù (frites, cantal fondu, lard fumé)", price_cents: 900 },
+                    { name: "Assiette de frites", price_cents: 600 },
+                    { name: "Frites de patate douce", price_cents: 800 }
                 ]
             },
             {
-                category: "Plats (Poissons, Veggies, Viandes)",
+                category_type: "main",
+                display_label: "Plats (Poissons, Veggies, Viandes)",
                 items: [
-                    { name: "Mi-cuit de thon", price: "24.00€" },
-                    { name: "Lasagne butternut/artichaut", price: "21.00€" },
-                    { name: "Pavé de saumon", price: "24.00€" },
-                    { name: "Gambas snackées", price: "24.00€" },
-                    { name: "Mafaldine", price: "23.00€" },
-                    { name: "Magret de canard", price: "24.00€" },
-                    { name: "Poitrine de cochon Normand", price: "23.00€" },
-                    { name: "Bavette", price: "23.00€" },
-                    { name: "Suprême de volaille fermière", price: "24.00€" }
+                    { name: "Mi-cuit de thon", price_cents: 2400 },
+                    { name: "Lasagne butternut/artichaut", price_cents: 2100 },
+                    { name: "Pavé de saumon", price_cents: 2400 },
+                    { name: "Gambas snackées", price_cents: 2400 },
+                    { name: "Mafaldine", price_cents: 2300 },
+                    { name: "Magret de canard", price_cents: 2400 },
+                    { name: "Poitrine de cochon Normand", price_cents: 2300 },
+                    { name: "Bavette", price_cents: 2300 },
+                    { name: "Suprême de volaille fermière", price_cents: 2400 }
                 ]
             },
             {
-                category: "Burgers & Hot Dog",
+                category_type: "main",
+                display_label: "Burgers & Hot Dog",
                 items: [
-                    { name: "Le Cavale (Steak haché, Saint-Nectaire)", price: "20.00€" },
-                    { name: "Le Gros cochon (Porc confit, cheddar)", price: "20.00€" },
-                    { name: "Le Guezmer Vege (Merguez veggie)", price: "20.00€" }
+                    { name: "Le Cavale (Steak haché, Saint-Nectaire)", price_cents: 2000 },
+                    { name: "Le Gros cochon (Porc confit, cheddar)", price_cents: 2000 },
+                    { name: "Le Guezmer Vege (Merguez veggie)", price_cents: 2000 }
                 ]
             },
             {
-                category: "Pour Finir (Desserts & Fromages)",
+                category_type: "dessert",
+                display_label: "Pour Finir (Desserts & Fromages)",
                 items: [
-                    { name: "Fromage au choix", price: "6.00€" },
-                    { name: "Assiette 3 fromages", price: "12.00€" },
-                    { name: "Mookie (Crème anglaise praliné, glace)", price: "11.00€" },
-                    { name: "Millefeuille", price: "10.00€" },
-                    { name: "Riz au lait de coco", price: "11.00€" },
-                    { name: "Des fruits, des fruits, des fruits", price: "10.00€" },
-                    { name: "Brioche perdue", price: "10.00€" },
-                    { name: "Mont blanc", price: "11.00€" },
-                    { name: "Café gourmand", price: "10.00€" }
+                    { name: "Fromage au choix", price_cents: 600 },
+                    { name: "Assiette 3 fromages", price_cents: 1200 },
+                    { name: "Mookie (Crème anglaise praliné, glace)", price_cents: 1100 },
+                    { name: "Millefeuille", price_cents: 1000 },
+                    { name: "Riz au lait de coco", price_cents: 1100 },
+                    { name: "Des fruits, des fruits, des fruits", price_cents: 1000 },
+                    { name: "Brioche perdue", price_cents: 1000 },
+                    { name: "Mont blanc", price_cents: 1100 },
+                    { name: "Café gourmand", price_cents: 1000 }
                 ]
             }
         ]

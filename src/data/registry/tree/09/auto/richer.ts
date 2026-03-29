@@ -43,66 +43,71 @@ export const richer: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées de Bistrot",
+        category_type: "starter",
+        display_label: "Entrées de Bistrot",
         items: [
-          { name: "Velouté de Pois Cassés, Panais & Cumin", price: "9.50€", highlight: true },
-          { name: "Burrata Crémeuse, Tapenade & Toasts", price: "12.00€", highlight: true },
-          { name: "Terrine de Porc & Lapin Maison", price: "11.00€" },
-          { name: "Poireaux Brûlés, Sabayon aux Agrumes", price: "10.50€" },
-          { name: "Tartare de Bar, Pomme Verte & Aneth", price: "13.00€", highlight: true },
-          { name: "Œuf Parfait, Crème de Champignons", price: "11.50€", highlight: true },
-          { name: "Velouté de Panais & Huile de Truffe Noir", price: "10.00€" },
-          { name: "Sardines Grillées, Marinade Citron & Herbes", price: "12.50€" }
+          { name: "Velouté de Pois Cassés, Panais & Cumin", price_cents: 950, is_highlight: true },
+          { name: "Burrata Crémeuse, Tapenade & Toasts", price_cents: 1200, is_highlight: true },
+          { name: "Terrine de Porc & Lapin Maison", price_cents: 1100 },
+          { name: "Poireaux Brûlés, Sabayon aux Agrumes", price_cents: 1050 },
+          { name: "Tartare de Bar, Pomme Verte & Aneth", price_cents: 1300, is_highlight: true },
+          { name: "Œuf Parfait, Crème de Champignons", price_cents: 1150, is_highlight: true },
+          { name: "Velouté de Panais & Huile de Truffe Noir", price_cents: 1000 },
+          { name: "Sardines Grillées, Marinade Citron & Herbes", price_cents: 1250 }
         ]
       },
       {
-        category: "Plats de Saison",
+        category_type: "main",
+        display_label: "Plats de Saison",
         items: [
-          { name: "Éffiloché de Cochon Confit au Cidre & Purée", price: "27.00€", highlight: true },
-          { name: "Filet de Bar de Ligne & Ail des Ours", price: "29.00€", highlight: true },
-          { name: "Magret de Canard Rôti & Pois Gourmands", price: "28.00€" },
-          { name: "Morue aux Olives Kalamata & Aubergines", price: "26.50€" },
-          { name: "Veau du Pays Basque & Sauce Barbecue", price: "31.00€", highlight: true },
-          { name: "Agneau Rôti aux Herbes & Légumes Oubliés", price: "30.00€", highlight: true },
-          { name: "Risotto de Gambas Sauvages & Safran", price: "28.50€" },
-          { name: "Ravioles de Royans, Crème de Noix & Comté", price: "24.00€" }
+          { name: "Éffiloché de Cochon Confit au Cidre & Purée", price_cents: 2700, is_highlight: true },
+          { name: "Filet de Bar de Ligne & Ail des Ours", price_cents: 2900, is_highlight: true },
+          { name: "Magret de Canard Rôti & Pois Gourmands", price_cents: 2800 },
+          { name: "Morue aux Olives Kalamata & Aubergines", price_cents: 2650 },
+          { name: "Veau du Pays Basque & Sauce Barbecue", price_cents: 3100, is_highlight: true },
+          { name: "Agneau Rôti aux Herbes & Légumes Oubliés", price_cents: 3000, is_highlight: true },
+          { name: "Risotto de Gambas Sauvages & Safran", price_cents: 2850 },
+          { name: "Ravioles de Royans, Crème de Noix & Comté", price_cents: 2400 }
         ]
       },
       {
-        category: "Charcuteries & Grignotages (Entrées)",
+        category_type: "starter",
+        display_label: "Charcuteries & Grignotages (Entrées)",
         items: [
-          { name: "Jambon Serrano Affinage 18 mois", price: "14.00€", highlight: true },
-          { name: "Chorizo Ibérique Pata Negra (Bella)", price: "13.00€" },
-          { name: "Saucisson Artisanal de Montagne", price: "9.50€" },
-          { name: "Planche de Fromages Affinés (Sélection)", price: "14.00€", highlight: true },
-          { name: "Jambon de Paris 'Prince de Paris'", price: "10.50€" },
-          { name: "Olives Lucques Marinées au Piment d'Espelette", price: "6.00€" },
-          { name: "Rillettes d'Oie Maison & Pain de Campagne", price: "9.00€" },
-          { name: "Croque du Richer au Cochon Confit", price: "15.00€", highlight: true }
+          { name: "Jambon Serrano Affinage 18 mois", price_cents: 1400, is_highlight: true },
+          { name: "Chorizo Ibérique Pata Negra (Bella)", price_cents: 1300 },
+          { name: "Saucisson Artisanal de Montagne", price_cents: 950 },
+          { name: "Planche de Fromages Affinés (Sélection)", price_cents: 1400, is_highlight: true },
+          { name: "Jambon de Paris 'Prince de Paris'", price_cents: 1050 },
+          { name: "Olives Lucques Marinées au Piment d'Espelette", price_cents: 600 },
+          { name: "Rillettes d'Oie Maison & Pain de Campagne", price_cents: 900 },
+          { name: "Croque du Richer au Cochon Confit", price_cents: 1500, is_highlight: true }
         ]
       },
       {
-        category: "Desserts du Pâtissier",
+        category_type: "dessert",
+        display_label: "Desserts du Pâtissier",
         items: [
-          { name: "Mousse au Chocolat, Cardamome & Fleur de Sel", price: "10.00€", highlight: true },
-          { name: "Banana Bread, Sorbet Banane & Sablé Cacao", price: "10.00€", highlight: true },
-          { name: "Merveilleux Chocolat & Noisettes Grillées", price: "10.00€" },
-          { name: "Glace à l'Italienne Maison (Pistache ou Vanille)", price: "8.00€" },
-          { name: "Sorbet Poire & Menthe Fraîche", price: "8.00€" },
-          { name: "Moelleux à la Poire & Coulis Caramel", price: "9.50€" },
-          { name: "Gâteau au Café & Éclats de Noisettes", price: "9.00€", highlight: true }
+          { name: "Mousse au Chocolat, Cardamome & Fleur de Sel", price_cents: 1000, is_highlight: true },
+          { name: "Banana Bread, Sorbet Banane & Sablé Cacao", price_cents: 1000, is_highlight: true },
+          { name: "Merveilleux Chocolat & Noisettes Grillées", price_cents: 1000 },
+          { name: "Glace à l'Italienne Maison (Pistache ou Vanille)", price_cents: 800 },
+          { name: "Sorbet Poire & Menthe Fraîche", price_cents: 800 },
+          { name: "Moelleux à la Poire & Coulis Caramel", price_cents: 950 },
+          { name: "Gâteau au Café & Éclats de Noisettes", price_cents: 900, is_highlight: true }
         ]
       },
       {
-        category: "Vins & Nectars (Boissons)",
+        category_type: "drink",
+        display_label: "Vins & Nectars (Boissons)",
         items: [
-          { name: "Verre de Vin Blanc Biodynamique (Sélection)", price: "8.00€", highlight: true },
-          { name: "Verre de Vin Rouge de Terroir (Haute-Vallée)", price: "8.50€" },
-          { name: "Bouteille de Vin Nature (Notre Coup de Cœur)", price: "42.00€", highlight: true },
-          { name: "Jus de Fruits Artisanal (Pomme du Verger)", price: "6.50€" },
-          { name: "Café Expresso Bio (Torréfaction Locale)", price: "3.50€" },
-          { name: "Thé Vert Maison aux Agrumes", price: "5.50€" },
-          { name: "Eau Micro-filtrée Gazeuse (75cl)", price: "4.00€" }
+          { name: "Verre de Vin Blanc Biodynamique (Sélection)", price_cents: 800, is_highlight: true },
+          { name: "Verre de Vin Rouge de Terroir (Haute-Vallée)", price_cents: 850 },
+          { name: "Bouteille de Vin Nature (Notre Coup de Cœur)", price_cents: 4200, is_highlight: true },
+          { name: "Jus de Fruits Artisanal (Pomme du Verger)", price_cents: 650 },
+          { name: "Café Expresso Bio (Torréfaction Locale)", price_cents: 350 },
+          { name: "Thé Vert Maison aux Agrumes", price_cents: 550 },
+          { name: "Eau Micro-filtrée Gazeuse (75cl)", price_cents: 400 }
         ]
       }
     ]

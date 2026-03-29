@@ -42,67 +42,73 @@ export const le_poisson_d_aligre: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Formules du Marché (Déjeuner - Plats)",
+        category_type: "main",
+        display_label: "Les Formules du Marché (Déjeuner - Plats)",
         items: [
-          { name: "Formule E + P ou P + D", price: "19.00€", highlight: true },
-          { name: "Menu Complet (E + P + D)", price: "23.50€", highlight: true }
+          { name: "Formule E + P ou P + D", price_cents: 1900, is_highlight: true },
+          { name: "Menu Complet (E + P + D)", price_cents: 2350, is_highlight: true }
         ]
       },
       {
-        category: "Entrées Iodées & Cru",
+        category_type: "starter",
+        display_label: "Entrées Iodées & Cru",
         items: [
-          { name: "Ceviche de Sar au gingembre", price: "15.00€", highlight: true },
-          { name: "Accras de Morue maison (x6)", price: "15.00€" },
-          { name: "Assiette de Bulots & Crevettes", price: "15.50€" },
-          { name: "Carpaccio de Daurade Royale", price: "16.00€" },
-          { name: "Poulpe grillé à la plancha, piquillos", price: "17.00€", highlight: true },
-          { name: "Calamars à la Romaine croustillants", price: "15.00€" },
-          { name: "Soupe de Poissons de roche artisanale", price: "12.00€" }
+          { name: "Ceviche de Sar au gingembre", price_cents: 1500, is_highlight: true },
+          { name: "Accras de Morue maison (x6)", price_cents: 1500 },
+          { name: "Assiette de Bulots & Crevettes", price_cents: 1550 },
+          { name: "Carpaccio de Daurade Royale", price_cents: 1600 },
+          { name: "Poulpe grillé à la plancha, piquillos", price_cents: 1700, is_highlight: true },
+          { name: "Calamars à la Romaine croustillants", price_cents: 1500 },
+          { name: "Soupe de Poissons de roche artisanale", price_cents: 1200 }
         ]
       },
       {
-        category: "Poissons Frais à la Plancha (Plats)",
+        category_type: "main",
+        display_label: "Poissons Frais à la Plancha (Plats)",
         items: [
-          { name: "Pavé de Cabillaud sauvage", price: "31.00€", highlight: true },
-          { name: "Filet de Daurade Grise de ligne", price: "31.00€" },
-          { name: "Calamars frais entiers sautés", price: "33.00€", highlight: true },
-          { name: "Filet de Bar de ligne", price: "38.50€" },
-          { name: "Steak d'Espadon fondant", price: "23.00€" },
-          { name: "Steak de Thon Rouge 'Marmara'", price: "28.00€" },
-          { name: "Brochettes de Saint-Jacques & Lotte", price: "33.00€" },
-          { name: "Filet de Saint-Pierre sauvage", price: "45.00€" },
-          { name: "Sole entière Belle-Meunière (500g)", price: "49.00€" },
-          { name: "Parillade de Poissons & Crustacés", price: "48.00€" }
+          { name: "Pavé de Cabillaud sauvage", price_cents: 3100, is_highlight: true },
+          { name: "Filet de Daurade Grise de ligne", price_cents: 3100 },
+          { name: "Calamars frais entiers sautés", price_cents: 3300, is_highlight: true },
+          { name: "Filet de Bar de ligne", price_cents: 3850 },
+          { name: "Steak d'Espadon fondant", price_cents: 2300 },
+          { name: "Steak de Thon Rouge 'Marmara'", price_cents: 2800 },
+          { name: "Brochettes de Saint-Jacques & Lotte", price_cents: 3300 },
+          { name: "Filet de Saint-Pierre sauvage", price_cents: 4500 },
+          { name: "Sole entière Belle-Meunière (500g)", price_cents: 4900 },
+          { name: "Parillade de Poissons & Crustacés", price_cents: 4800 }
         ]
       },
       {
-        category: "Garnitures & Accompagnements",
+        category_type: "other",
+        display_label: "Garnitures & Accompagnements",
         items: [
-          { name: "Riz Basmati parfumé", price: "0.00€" },
-          { name: "Légumes du marché sautés", price: "0.00€" },
-          { name: "Salade de mesclun fraîche", price: "0.00€" },
-          { name: "Ratatouille maison aux herbes", price: "5.50€" },
-          { name: "Pommes Vapeur à l'aneth", price: "5.00€" }
+          { name: "Riz Basmati parfumé", price_cents: 0 },
+          { name: "Légumes du marché sautés", price_cents: 0 },
+          { name: "Salade de mesclun fraîche", price_cents: 0 },
+          { name: "Ratatouille maison aux herbes", price_cents: 550 },
+          { name: "Pommes Vapeur à l'aneth", price_cents: 500 }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs",
         items: [
-          { name: "Crème Brûlée Vanille de Madagascar", price: "9.50€", highlight: true },
-          { name: "Fondant au Chocolat cœur coulant", price: "8.00€" },
-          { name: "Panna Cotta aux fruits de la passion", price: "7.50€" },
-          { name: "Coupe Mont-Blanc (Marron/Crème)", price: "7.00€" },
-          { name: "Café Gourmand (3 mini desserts)", price: "12.00€" },
-          { name: "Sorbet Citron Vert / Framboise", price: "7.00€" }
+          { name: "Crème Brûlée Vanille de Madagascar", price_cents: 950, is_highlight: true },
+          { name: "Fondant au Chocolat cœur coulant", price_cents: 800 },
+          { name: "Panna Cotta aux fruits de la passion", price_cents: 750 },
+          { name: "Coupe Mont-Blanc (Marron/Crème)", price_cents: 700 },
+          { name: "Café Gourmand (3 mini desserts)", price_cents: 1200 },
+          { name: "Sorbet Citron Vert / Framboise", price_cents: 700 }
         ]
       },
       {
-        category: "Vins Blancs des Marées (Boissons)",
+        category_type: "drink",
+        display_label: "Vins Blancs des Marées (Boissons)",
         items: [
-          { name: "Verre de Muscadet Sèvre & Maine", price: "6.50€" },
-          { name: "Verre de Petit Chablis", price: "8.50€" },
-          { name: "Bouteille de Sancerre Blanc", price: "34.00€" },
-          { name: "Café Lavazza", price: "2.50€" }
+          { name: "Verre de Muscadet Sèvre & Maine", price_cents: 650 },
+          { name: "Verre de Petit Chablis", price_cents: 850 },
+          { name: "Bouteille de Sancerre Blanc", price_cents: 3400 },
+          { name: "Café Lavazza", price_cents: 250 }
         ]
       }
     ]

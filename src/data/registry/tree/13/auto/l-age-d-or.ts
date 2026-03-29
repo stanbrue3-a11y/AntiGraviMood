@@ -42,60 +42,65 @@ export const l_age_d_or: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Cuisine de Saison (Plats)",
+        category_type: "main",
+        display_label: "Cuisine de Saison (Plats)",
         items: [
-          { name: "Burger de L'Âge d'Or (Bœuf ou Végé)", price: "16.50€", highlight: true },
-          { name: "Kare Raisu (Curry Japonais Bio)", price: "15.00€", highlight: true },
-          { name: "Mafé Sénégalais au Poulet Fermier", price: "15.50€" },
-          { name: "Tartare au couteau Yukwe (Kréen)", price: "17.00€" },
-          { name: "Entrecôte du Perche & Frites Maison", price: "24.00€" },
-          { name: "Parmentier de Canard Confit", price: "17.50€" },
-          { name: "Filet de Dorade Grise, émulsion citron", price: "18.00€" },
-          { name: "Chili Con Carne Maison (Épicé)", price: "15.50€" }
+          { name: "Burger de L'Âge d'Or (Bœuf ou Végé)", price_cents: 1650, is_highlight: true },
+          { name: "Kare Raisu (Curry Japonais Bio)", price_cents: 1500, is_highlight: true },
+          { name: "Mafé Sénégalais au Poulet Fermier", price_cents: 1550 },
+          { name: "Tartare au couteau Yukwe (Kréen)", price_cents: 1700 },
+          { name: "Entrecôte du Perche & Frites Maison", price_cents: 2400 },
+          { name: "Parmentier de Canard Confit", price_cents: 1750 },
+          { name: "Filet de Dorade Grise, émulsion citron", price_cents: 1800 },
+          { name: "Chili Con Carne Maison (Épicé)", price_cents: 1550 }
         ]
       },
       {
-        category: "Entrées & Salades (Plats)",
+        category_type: "starter",
+        display_label: "Entrées & Salades (Plats)",
         items: [
-          { name: "Œufs Cocotte au Chorizo Bio", price: "9.50€" },
-          { name: "Salade de Chèvre Chaud du Perche", price: "14.50€" },
-          { name: "Velouté de Potiron & Graines toastées", price: "8.00€" },
-          { name: "Salade César façon L'Âge d'Or", price: "15.00€" }
+          { name: "Œufs Cocotte au Chorizo Bio", price_cents: 950 },
+          { name: "Salade de Chèvre Chaud du Perche", price_cents: 1450 },
+          { name: "Velouté de Potiron & Graines toastées", price_cents: 800 },
+          { name: "Salade César façon L'Âge d'Or", price_cents: 1500 }
         ]
       },
       {
-        category: "Tapas & Partage (Plats - Soir)",
+        category_type: "main",
+        display_label: "Tapas & Partage (Plats - Soir)",
         items: [
-          { name: "Samosas Maison Boeuf (x5)", price: "9.50€", highlight: true },
-          { name: "Planche Ibérico'Perche (Mixte)", price: "22.00€", highlight: true },
-          { name: "Planche de Fromages Bio Affinés", price: "16.50€" },
-          { name: "Houmous Maison & Pain Grillé", price: "7.50€" },
-          { name: "Croquettes de Mozzarella Panko", price: "8.50€" },
-          { name: "Nems aux Légumes Croquants (x4)", price: "8.00€" },
-          { name: "Bol de Frites Maison & Sauce Secrète", price: "6.50€" }
+          { name: "Samosas Maison Boeuf (x5)", price_cents: 950, is_highlight: true },
+          { name: "Planche Ibérico'Perche (Mixte)", price_cents: 2200, is_highlight: true },
+          { name: "Planche de Fromages Bio Affinés", price_cents: 1650 },
+          { name: "Houmous Maison & Pain Grillé", price_cents: 750 },
+          { name: "Croquettes de Mozzarella Panko", price_cents: 850 },
+          { name: "Nems aux Légumes Croquants (x4)", price_cents: 800 },
+          { name: "Bol de Frites Maison & Sauce Secrète", price_cents: 650 }
         ]
       },
       {
-        category: "Douceurs (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs (Desserts)",
         items: [
-          { name: "Fondant Chocolat Noir & Chantilly", price: "8.50€", highlight: true },
-          { name: "Skyr Bio, Miel & Granola maison", price: "7.50€" },
-          { name: "Tarte Tatin Artisanal", price: "8.50€" },
-          { name: "Mochi Glacés (x3 - Parfum au choix)", price: "9.00€" },
-          { name: "Dessert du Jour aux Fruits de saison", price: "7.50€" }
+          { name: "Fondant Chocolat Noir & Chantilly", price_cents: 850, is_highlight: true },
+          { name: "Skyr Bio, Miel & Granola maison", price_cents: 750 },
+          { name: "Tarte Tatin Artisanal", price_cents: 850 },
+          { name: "Mochi Glacés (x3 - Parfum au choix)", price_cents: 900 },
+          { name: "Dessert du Jour aux Fruits de saison", price_cents: 750 }
         ]
       },
       {
-        category: "Boissons & Cocktails",
+        category_type: "drink",
+        display_label: "Boissons & Cocktails",
         items: [
-          { name: "Cocktail 'La Nuit Sera Calme'", price: "11.50€", highlight: true },
-          { name: "Cocktail 'Paris au mois d'août'", price: "11.50€" },
-          { name: "Pinte Deck & Donohue (Locale)", price: "8.50€" },
-          { name: "Verre de Vin Nature (Sélection)", price: "7.00€" },
-          { name: "Jus de Pomme Bio du Perche", price: "5.00€" },
-          { name: "Ginger Beer Maison (25cl)", price: "5.50€" },
-          { name: "Café Costadoro Bio Italie", price: "2.80€" },
-          { name: "Thé Artisanal Lydia Gautier", price: "4.80€" }
+          { name: "Cocktail 'La Nuit Sera Calme'", price_cents: 1150, is_highlight: true },
+          { name: "Cocktail 'Paris au mois d'août'", price_cents: 1150 },
+          { name: "Pinte Deck & Donohue (Locale)", price_cents: 850 },
+          { name: "Verre de Vin Nature (Sélection)", price_cents: 700 },
+          { name: "Jus de Pomme Bio du Perche", price_cents: 500 },
+          { name: "Ginger Beer Maison (25cl)", price_cents: 550 },
+          { name: "Café Costadoro Bio Italie", price_cents: 280 },
+          { name: "Thé Artisanal Lydia Gautier", price_cents: 480 }
         ]
       }
     ]

@@ -41,63 +41,68 @@ export const caillebotte: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Préludes de Saison (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes de Saison (Entrées)",
         items: [
-          { name: "Terrine de Raie, Câpres & Citron confit", price: "13.00€", highlight: true },
-          { name: "Ravioles de Jarret de Veau & Bouillon corsé", price: "14.50€", highlight: true },
-          { name: "Poulpe de Roche poêlé & Houmous onctueux", price: "15.00€" },
-          { name: "Velouté de Courge Butternut & Noisettes", price: "11.00€" },
-          { name: "Œuf Parfait, Crème de Parmesan & Tuile dentelle", price: "13.50€", highlight: true },
-          { name: "Maquereau mariné au Vin Blanc & Pickles", price: "12.50€" },
-          { name: "Carpaccio de Bœuf de Salers & Huile de Noisette", price: "14.00€" },
-          { name: "Saladine de Tourteau à la Mangue & Coriandre", price: "16.00€" }
+          { name: "Terrine de Raie, Câpres & Citron confit", price_cents: 1300, is_highlight: true },
+          { name: "Ravioles de Jarret de Veau & Bouillon corsé", price_cents: 1450, is_highlight: true },
+          { name: "Poulpe de Roche poêlé & Houmous onctueux", price_cents: 1500 },
+          { name: "Velouté de Courge Butternut & Noisettes", price_cents: 1100 },
+          { name: "Œuf Parfait, Crème de Parmesan & Tuile dentelle", price_cents: 1350, is_highlight: true },
+          { name: "Maquereau mariné au Vin Blanc & Pickles", price_cents: 1250 },
+          { name: "Carpaccio de Bœuf de Salers & Huile de Noisette", price_cents: 1400 },
+          { name: "Saladine de Tourteau à la Mangue & Coriandre", price_cents: 1600 }
         ]
       },
       {
-        category: "Maîtrise & Terroir (Plats)",
+        category_type: "main",
+        display_label: "Maîtrise & Terroir (Plats)",
         items: [
-          { name: "Échine de Cochon fermier rôtie, Jus de viande", price: "25.00€", highlight: true },
-          { name: "Barbue de Ligne à la nacre, Légumes oubliés", price: "28.00€", highlight: true },
-          { name: "Pigeon de Vendée rôti sur le coffre (Michelin)", price: "34.00€", highlight: true },
-          { name: "Quasi de Veau, Artichauts poivrade & Sauge", price: "27.00€" },
-          { name: "Dos de Cabillaud au Chorizo & Bouillabaisse de légumes", price: "26.00€" },
-          { name: "Ris de Veau doré au sautoir, Meunière (Prestige)", price: "38.00€", highlight: true },
-          { name: "Gnocchis de Ricotta Maison, Beurre de Sauge", price: "22.50€" },
-          { name: "Lotte rôtie & Émulsion à la Verveine citronnée", price: "29.00€" }
+          { name: "Échine de Cochon fermier rôtie, Jus de viande", price_cents: 2500, is_highlight: true },
+          { name: "Barbue de Ligne à la nacre, Légumes oubliés", price_cents: 2800, is_highlight: true },
+          { name: "Pigeon de Vendée rôti sur le coffre (Michelin)", price_cents: 3400, is_highlight: true },
+          { name: "Quasi de Veau, Artichauts poivrade & Sauge", price_cents: 2700 },
+          { name: "Dos de Cabillaud au Chorizo & Bouillabaisse de légumes", price_cents: 2600 },
+          { name: "Ris de Veau doré au sautoir, Meunière (Prestige)", price_cents: 3800, is_highlight: true },
+          { name: "Gnocchis de Ricotta Maison, Beurre de Sauge", price_cents: 2250 },
+          { name: "Lotte rôtie & Émulsion à la Verveine citronnée", price_cents: 2900 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pomme de Terre au Beurre demi-sel", price: "6.50€", highlight: true },
-          { name: "Frites fraîches Maison double cuisson", price: "6.00€" },
-          { name: "Légumes Racines glacés au miel de fleurs", price: "7.00€" },
-          { name: "Riz Sauvage Noir Sélectionné", price: "6.50€" },
-          { name: "Petite Salade d'Herbes fraîches & Vinaigrette", price: "5.50€" }
+          { name: "Purée de Pomme de Terre au Beurre demi-sel", price_cents: 650, is_highlight: true },
+          { name: "Frites fraîches Maison double cuisson", price_cents: 600 },
+          { name: "Légumes Racines glacés au miel de fleurs", price_cents: 700 },
+          { name: "Riz Sauvage Noir Sélectionné", price_cents: 650 },
+          { name: "Petite Salade d'Herbes fraîches & Vinaigrette", price_cents: 550 }
         ]
       },
       {
-        category: "Sucré-Signature (Desserts)",
+        category_type: "dessert",
+        display_label: "Sucré-Signature (Desserts)",
         items: [
-          { name: "Riz au Lait culte, Caramel & Brisures de sablé", price: "11.00€", highlight: true },
-          { name: "Ganache Chocolat Noir & Fève Tonka", price: "10.50€" },
-          { name: "Pomme confite, Glace Vanille-Estragon", price: "10.00€", highlight: true },
-          { name: "Rhubarbe confite & Crumble d'Avoine", price: "11.50€" },
-          { name: "Pêches confites, Granola & Sorbet Yaourt", price: "11.00€" },
-          { name: "Assiette de Fromages (Vieux Comté & Saint-Nectaire)", price: "13.00€" },
-          { name: "Sorbet Maison de saison (3 boules)", price: "9.00€" }
+          { name: "Riz au Lait culte, Caramel & Brisures de sablé", price_cents: 1100, is_highlight: true },
+          { name: "Ganache Chocolat Noir & Fève Tonka", price_cents: 1050 },
+          { name: "Pomme confite, Glace Vanille-Estragon", price_cents: 1000, is_highlight: true },
+          { name: "Rhubarbe confite & Crumble d'Avoine", price_cents: 1150 },
+          { name: "Pêches confites, Granola & Sorbet Yaourt", price_cents: 1100 },
+          { name: "Assiette de Fromages (Vieux Comté & Saint-Nectaire)", price_cents: 1300 },
+          { name: "Sorbet Maison de saison (3 boules)", price_cents: 900 }
         ]
       },
       {
-        category: "La Cave de Franck (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Franck (Boissons)",
         items: [
-          { name: "Verre de Bourgogne Manuel Olivier", price: "10.00€", highlight: true },
-          { name: "Bouteille Beaujolais Villages Alex Foillard", price: "34.00€" },
-          { name: "Jus de Fruits Artisanaux Sélection", price: "7.50€" },
-          { name: "Eau micro-filtrée Caillebotte (75cl)", price: "4.50€" },
-          { name: "Café Espresso Terres de Café", price: "3.50€" },
-          { name: "Thé Vert Sencha de haute qualité", price: "6.50€" },
-          { name: "Cocktail Spritz Caillebotte au St-Germain", price: "11.00€", highlight: true }
+          { name: "Verre de Bourgogne Manuel Olivier", price_cents: 1000, is_highlight: true },
+          { name: "Bouteille Beaujolais Villages Alex Foillard", price_cents: 3400 },
+          { name: "Jus de Fruits Artisanaux Sélection", price_cents: 750 },
+          { name: "Eau micro-filtrée Caillebotte (75cl)", price_cents: 450 },
+          { name: "Café Espresso Terres de Café", price_cents: 350 },
+          { name: "Thé Vert Sencha de haute qualité", price_cents: 650 },
+          { name: "Cocktail Spritz Caillebotte au St-Germain", price_cents: 1100, is_highlight: true }
         ]
       }
     ]

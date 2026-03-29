@@ -48,39 +48,43 @@ export const yukga: SurgicalPlace = {
         "smart_tip": "Le menu du midi à 15€ (Entrée + Plat) est une aubaine absolue. Pour les groupes, le plateau Barbecue à 22€/pers est le meilleur compromis qualité-prix.",
         "menu_items": [
             {
-                "category": "Entrées & Tapas Coréennes",
+                "category_type": "starter",
+                "display_label": "Entrées & Tapas Coréennes",
                 "items": [
-                    { "name": "Raviolis au poulet (8 pcs)", "price": "11,00€" },
-                    { "name": "Crêpe Coréenne (Kimchi ou Seafood)", "price": "15,00€" },
-                    { "name": "Poulet frit pimenté", "price": "16,00€" },
-                    { "name": "Japchae (Vermicelles)", "price": "11,00€" }
+                    { "name": "Raviolis au poulet (8 pcs)", "price_cents": 1100 },
+                    { "name": "Crêpe Coréenne (Kimchi ou Seafood)", "price_cents": 1500 },
+                    { "name": "Poulet frit pimenté", "price_cents": 1600 },
+                    { "name": "Japchae (Vermicelles)", "price_cents": 1100 }
                 ]
             },
             {
-                "category": "Barbecue Coréen (Grill)",
+                "category_type": "main",
+                "display_label": "Barbecue Coréen (Grill)",
                 "items": [
-                    { "name": "Plateau Mixte (Bœuf, Porc, Poulet)", "price": "22,00€" },
-                    { "name": "Boeuf Bulgogi (Mariné)", "price": "19,00€" },
-                    { "name": "Travers de Porc au Fromage", "price": "19,50€" },
-                    { "name": "Menu Wagyu Australien (400g + Accompagnements)", "price": "148,00€" }
+                    { "name": "Plateau Mixte (Bœuf, Porc, Poulet)", "price_cents": 2200 },
+                    { "name": "Boeuf Bulgogi (Mariné)", "price_cents": 1900 },
+                    { "name": "Travers de Porc au Fromage", "price_cents": 1950 },
+                    { "name": "Menu Wagyu Australien (400g + Accompagnements)", "price_cents": 14800 }
                 ]
             },
             {
-                "category": "Plats & Bibimbaps",
+                "category_type": "main",
+                "display_label": "Plats & Bibimbaps",
                 "items": [
-                    { "name": "Bibimbap Classique (Bœuf)", "price": "17,00€" },
-                    { "name": "Dolsot Bibimbap (Bol chaud - Saumon/Tofu)", "price": "18,00€" },
-                    { "name": "Kimchi Jjigae (Ragoût porc & kimchi)", "price": "17,00€" }
+                    { "name": "Bibimbap Classique (Bœuf)", "price_cents": 1700 },
+                    { "name": "Dolsot Bibimbap (Bol chaud - Saumon/Tofu)", "price_cents": 1800 },
+                    { "name": "Kimchi Jjigae (Ragoût porc & kimchi)", "price_cents": 1700 }
                 ]
             },
             {
-                "category": "Boissons & Alcools",
+                "category_type": "drink",
+                "display_label": "Boissons & Alcools",
                 "items": [
-                    { "name": "Soju Classique (Bouteille)", "price": "15,00€" },
-                    { "name": "Bière Coréenne (Cass / Hite - 33cl)", "price": "6,50€" },
-                    { "name": "Jus Coréens (Raisin, Aloe Vera, Pastèque)", "price": "4,50€" },
-                    { "name": "Thés Coréens (Yuzu, Gingembre, Citron)", "price": "4,00€" },
-                    { "name": "Coca / Coca Zéro / Ice Tea", "price": "4,00€" }
+                    { "name": "Soju Classique (Bouteille)", "price_cents": 1500 },
+                    { "name": "Bière Coréenne (Cass / Hite - 33cl)", "price_cents": 650 },
+                    { "name": "Jus Coréens (Raisin, Aloe Vera, Pastèque)", "price_cents": 450 },
+                    { "name": "Thés Coréens (Yuzu, Gingembre, Citron)", "price_cents": 400 },
+                    { "name": "Coca / Coca Zéro / Ice Tea", "price_cents": 400 }
                 ]
             }
         ],

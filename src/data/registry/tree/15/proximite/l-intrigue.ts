@@ -46,35 +46,38 @@ export const l_intrigue: SurgicalPlace = {
         "smart_tip": "Le 'Happy Hour' (16h-20h) fait chuter la pinte d'IPA à 7,50€. Pour les familles, le brunch dominical à 32€ (15€ pour les enfants) est un excellent calcul sur la Place Étienne Pernet.",
         "menu_items": [
             {
-                "category": "La Partie Bar & Mixologie",
+                "category_type": "other",
+                "display_label": "La Partie Bar & Mixologie",
                 "items": [
-                    { "name": "Cocktail Mimosa", "price": "12,00€", "description": "Champagne et jus d'orange frais." },
-                    { "name": "Bissapolitain Maison", "price": "12,00€", "description": "Création signature à base de fleurs d'hibiscus." },
-                    { "name": "Bellini Passion", "price": "12,00€" },
-                    { "name": "Verre de Chardonnay / Pinot Noir", "price": "5,00€", "description": "Sélection 12cl." },
-                    { "name": "Tequila Volcan De Mi Tierra", "price": "12,00€" },
-                    { "name": "Pinte IPA (Happy Hour)", "price": "7,50€" }
+                    { "name": "Cocktail Mimosa", "price_cents": 1200, "description": "Champagne et jus d'orange frais." },
+                    { "name": "Bissapolitain Maison", "price_cents": 1200, "description": "Création signature à base de fleurs d'hibiscus." },
+                    { "name": "Bellini Passion", "price_cents": 1200 },
+                    { "name": "Verre de Chardonnay / Pinot Noir", "price_cents": 500, "description": "Sélection 12cl." },
+                    { "name": "Tequila Volcan De Mi Tierra", "price_cents": 1200 },
+                    { "name": "Pinte IPA (Happy Hour)", "price_cents": 750 }
                 ]
             },
             {
-                "category": "La Partie Brasserie & Plats",
+                "category_type": "main",
+                "display_label": "La Partie Brasserie & Plats",
                 "items": [
-                    { "name": "Burger de L'Intrigue", "price": "17,90€", "description": "Classic simple. Double à 22,90€." },
-                    { "name": "Confit de Canard", "price": "19,70€", "description": "Servi avec pommes de terre grenailles." },
-                    { "name": "Filet de Bar à la plancha", "price": "21,70€" },
-                    { "name": "Pavé de Veau", "price": "21,90€" },
-                    { "name": "Poke Bowl", "price": "19,20€" },
-                    { "name": "Planche Mixte (Charcuterie/Fromage)", "price": "20,00€" },
-                    { "name": "Tataki de Thon", "price": "12,00€", "description": "Entrée signature." },
-                    { "name": "Oeuf Cocotte truffé", "price": "9,50€" }
+                    { "name": "Burger de L'Intrigue", "price_cents": 1790, "description": "Classic simple. Double à 22,90€." },
+                    { "name": "Confit de Canard", "price_cents": 1970, "description": "Servi avec pommes de terre grenailles." },
+                    { "name": "Filet de Bar à la plancha", "price_cents": 2170 },
+                    { "name": "Pavé de Veau", "price_cents": 2190 },
+                    { "name": "Poke Bowl", "price_cents": 1920 },
+                    { "name": "Planche Mixte (Charcuterie/Fromage)", "price_cents": 2000 },
+                    { "name": "Tataki de Thon", "price_cents": 1200, "description": "Entrée signature." },
+                    { "name": "Oeuf Cocotte truffé", "price_cents": 950 }
                 ]
             },
             {
-                "category": "Desserts Artisans",
+                "category_type": "dessert",
+                "display_label": "Desserts Artisans",
                 "items": [
-                    { "name": "Paris-Brest de L'Intrigue", "price": "10,80€" },
-                    { "name": "Nems au Chocolat", "price": "9,50€" },
-                    { "name": "Tiramisu Maison", "price": "9,50€" }
+                    { "name": "Paris-Brest de L'Intrigue", "price_cents": 1080 },
+                    { "name": "Nems au Chocolat", "price_cents": 950 },
+                    { "name": "Tiramisu Maison", "price_cents": 950 }
                 ]
             }
         ],

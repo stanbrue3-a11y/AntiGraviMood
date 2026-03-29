@@ -43,61 +43,66 @@ export const present: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Petites Assiettes à Partager (Entrées)",
+        category_type: "starter",
+        display_label: "Petites Assiettes à Partager (Entrées)",
         items: [
-          { name: "Smashed Potatoes & Mayo au Miso", price: "9.50€", highlight: true },
-          { name: "Hummus de saison & Huile de Paprika", price: "8.50€" },
-          { name: "Tacos de Pleurotes façon Al Pastor", price: "12.00€", highlight: true },
-          { name: "Kimchi Artisanal Maison", price: "5.50€" },
-          { name: "Chou-fleur rôti & Tahini", price: "9.00€" },
-          { name: "Focaccia Toastée & Pesto d'Herbes", price: "7.50€" },
-          { name: "Bowl de pickles maison", price: "4.50€" },
-          { name: "Croquettes de Patate Douce (x3)", price: "11.00€" }
+          { name: "Smashed Potatoes & Mayo au Miso", price_cents: 950, is_highlight: true },
+          { name: "Hummus de saison & Huile de Paprika", price_cents: 850 },
+          { name: "Tacos de Pleurotes façon Al Pastor", price_cents: 1200, is_highlight: true },
+          { name: "Kimchi Artisanal Maison", price_cents: 550 },
+          { name: "Chou-fleur rôti & Tahini", price_cents: 900 },
+          { name: "Focaccia Toastée & Pesto d'Herbes", price_cents: 750 },
+          { name: "Bowl de pickles maison", price_cents: 450 },
+          { name: "Croquettes de Patate Douce (x3)", price_cents: 1100 }
         ]
       },
       {
-        category: "Plats Gourmands & Végétaux (Plats)",
+        category_type: "main",
+        display_label: "Plats Gourmands & Végétaux (Plats)",
         items: [
-          { name: "The OG Burger (Steak végétal/Cheddar végan)", price: "19.00€", highlight: true },
-          { name: "Bowl 'Présent' (Céréales/Légumes rôtis/Sauce cacahuète)", price: "17.00€" },
-          { name: "Schnitzel de Seitan & Purée onctueuse", price: "20.50€", highlight: true },
-          { name: "Pasta à la crème de Courge & Sauge", price: "18.50€" },
-          { name: "Steak de Courge musquée grillée", price: "17.50€" },
-          { name: "Lasagnes Végétales à la bolognaise de soja", price: "18.00€" },
-          { name: "Curry de Pois Chiches & Lait de Coco", price: "16.50€" },
-          { name: "Grande Salade de Saison", price: "16.00€" }
+          { name: "The OG Burger (Steak végétal/Cheddar végan)", price_cents: 1900, is_highlight: true },
+          { name: "Bowl 'Présent' (Céréales/Légumes rôtis/Sauce cacahuète)", price_cents: 1700 },
+          { name: "Schnitzel de Seitan & Purée onctueuse", price_cents: 2050, is_highlight: true },
+          { name: "Pasta à la crème de Courge & Sauge", price_cents: 1850 },
+          { name: "Steak de Courge musquée grillée", price_cents: 1750 },
+          { name: "Lasagnes Végétales à la bolognaise de soja", price_cents: 1800 },
+          { name: "Curry de Pois Chiches & Lait de Coco", price_cents: 1650 },
+          { name: "Grande Salade de Saison", price_cents: 1600 }
         ]
       },
       {
-        category: "Douceurs & Desserts (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs & Desserts (Desserts)",
         items: [
-          { name: "Cheesecake Végan à la Myrtille", price: "9.50€", highlight: true },
-          { name: "Brownie double chocolat & Fleur de sel", price: "8.50€" },
-          { name: "Cookie moelleux (Pépites choco)", price: "4.50€" },
-          { name: "Banana Bread grillé & Beurre de Noix", price: "7.50€" },
-          { name: "Chia Pudding aux fruits exotiques", price: "8.00€" },
-          { name: "Affogato végan (Espresso & Vanille)", price: "7.00€" }
+          { name: "Cheesecake Végan à la Myrtille", price_cents: 950, is_highlight: true },
+          { name: "Brownie double chocolat & Fleur de sel", price_cents: 850 },
+          { name: "Cookie moelleux (Pépites choco)", price_cents: 450 },
+          { name: "Banana Bread grillé & Beurre de Noix", price_cents: 750 },
+          { name: "Chia Pudding aux fruits exotiques", price_cents: 800 },
+          { name: "Affogato végan (Espresso & Vanille)", price_cents: 700 }
         ]
       },
       {
-        category: "Boissons Créatives & Natures (Boissons)",
+        category_type: "drink",
+        display_label: "Boissons Créatives & Natures (Boissons)",
         items: [
-          { name: "Verre de Vin Nature (Blanc/Rouge/Orange)", price: "9.00€", highlight: true },
-          { name: "Mocktail 'Solar' (Agrumes/Gingembre)", price: "10.00€", highlight: true },
-          { name: "Kombucha Artisanal en pression", price: "7.00€" },
-          { name: "Limonade Maison au Basilic", price: "6.50€" },
-          { name: "Bière Artisanale (Canette 33cl)", price: "8.50€" }
+          { name: "Verre de Vin Nature (Blanc/Rouge/Orange)", price_cents: 900, is_highlight: true },
+          { name: "Mocktail 'Solar' (Agrumes/Gingembre)", price_cents: 1000, is_highlight: true },
+          { name: "Kombucha Artisanal en pression", price_cents: 700 },
+          { name: "Limonade Maison au Basilic", price_cents: 650 },
+          { name: "Bière Artisanale (Canette 33cl)", price_cents: 850 }
         ]
       },
       {
-        category: "Caféterie de Spécialité (Boissons)",
+        category_type: "drink",
+        display_label: "Caféterie de Spécialité (Boissons)",
         items: [
-          { name: "Espresso (Lomi Selection)", price: "3.00€" },
-          { name: "Oat Flat White", price: "5.50€", highlight: true },
-          { name: "Matcha Latte (Quality A)", price: "6.50€" },
-          { name: "Chaï Latte Maison", price: "6.00€" },
-          { name: "Eau filtrée Septime (75cl)", price: "4.50€" },
-          { name: "Thé Bio (Earl Grey/Vert)", price: "5.50€" }
+          { name: "Espresso (Lomi Selection)", price_cents: 300 },
+          { name: "Oat Flat White", price_cents: 550, is_highlight: true },
+          { name: "Matcha Latte (Quality A)", price_cents: 650 },
+          { name: "Chaï Latte Maison", price_cents: 600 },
+          { name: "Eau filtrée Septime (75cl)", price_cents: 450 },
+          { name: "Thé Bio (Earl Grey/Vert)", price_cents: 550 }
         ]
       }
     ]

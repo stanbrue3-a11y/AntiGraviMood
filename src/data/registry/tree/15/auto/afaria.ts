@@ -41,58 +41,62 @@ export const afaria: SurgicalPlace = {
     verified_at: "2026-03-29",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Terrine d'artichaut au lard fumé", price: "13€" },
-          { name: "Cappuccino de langoustines", price: "12€" },
-          { name: "Escalope de foie gras poêlé", price: "13€" },
-          { name: "Velouté de topinambours, rillettes corail", price: "11€" },
-          { name: "Moelleux de courge butternut", price: "13€" },
-          { name: "Œuf croustilliant, magret fumé", price: "12€" },
-          { name: "Croquettes de pieds de cochon", price: "13€" },
-          { name: "Croustillant de gambas au basilic", price: "14€" },
-          { name: "Salade de gésiers confits", price: "12€" },
-          { name: "Os à moelle rôti à la fleur de sel", price: "12€" }
+          { name: "Terrine d'artichaut au lard fumé", price_cents: 1300 },
+          { name: "Cappuccino de langoustines", price_cents: 1200 },
+          { name: "Escalope de foie gras poêlé", price_cents: 1300 },
+          { name: "Velouté de topinambours, rillettes corail", price_cents: 1100 },
+          { name: "Moelleux de courge butternut", price_cents: 1300 },
+          { name: "Œuf croustilliant, magret fumé", price_cents: 1200 },
+          { name: "Croquettes de pieds de cochon", price_cents: 1300 },
+          { name: "Croustillant de gambas au basilic", price_cents: 1400 },
+          { name: "Salade de gésiers confits", price_cents: 1200 },
+          { name: "Os à moelle rôti à la fleur de sel", price_cents: 1200 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Formule Midi (E + P ou P + D)", price: "25€" },
-          { name: "Menu Afaria (E + P + D)", price: "29€" },
-          { name: "Magret rôti aux sarments (pour 2)", price: "44€" },
-          { name: "Dos de cabillaud rôti, fèves", price: "22€" },
-          { name: "Quasi de veau à la crème de thym", price: "23€" },
-          { name: "Noix de St Jacques, risotto truffe", price: "28€" },
-          { name: "Caille farcie au cochon", price: "26€" },
-          { name: "Paleron de bœuf en pot-au-feu", price: "23€" },
-          { name: "Confit de canard du Sud-Ouest", price: "21€" },
-          { name: "Axoa de veau traditionnel", price: "20€" },
-          { name: "Ris d'agneau aux girolles", price: "25€" },
-          { name: "Pavé de sandre, sauce beurre rouge", price: "24€" },
-          { name: "Légumes de saison rôtis au miel", price: "18€" }
+          { name: "Formule Midi (E + P ou P + D)", price_cents: 2500 },
+          { name: "Menu Afaria (E + P + D)", price_cents: 2900 },
+          { name: "Magret rôti aux sarments (pour 2)", price_cents: 4400 },
+          { name: "Dos de cabillaud rôti, fèves", price_cents: 2200 },
+          { name: "Quasi de veau à la crème de thym", price_cents: 2300 },
+          { name: "Noix de St Jacques, risotto truffe", price_cents: 2800 },
+          { name: "Caille farcie au cochon", price_cents: 2600 },
+          { name: "Paleron de bœuf en pot-au-feu", price_cents: 2300 },
+          { name: "Confit de canard du Sud-Ouest", price_cents: 2100 },
+          { name: "Axoa de veau traditionnel", price_cents: 2000 },
+          { name: "Ris d'agneau aux girolles", price_cents: 2500 },
+          { name: "Pavé de sandre, sauce beurre rouge", price_cents: 2400 },
+          { name: "Légumes de saison rôtis au miel", price_cents: 1800 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Millefeuille crème au citron", price: "10€" },
-          { name: "Profiteroles vanille, caramel salé", price: "9€" },
-          { name: "Dôme mousse chocolat passion", price: "10€" },
-          { name: "Brioche façon pain perdu", price: "10€" },
-          { name: "Tiramisu poire et chocolat", price: "9€" },
-          { name: "Moelleux tiède au chocolat", price: "10€" },
-          { name: "Tarte tatin à l'ananas", price: "10€" },
-          { name: "Plateau de fromages des Pyrénées", price: "12€" },
-          { name: "Pavlova aux fruits exotiques", price: "10€" }
+          { name: "Millefeuille crème au citron", price_cents: 1000 },
+          { name: "Profiteroles vanille, caramel salé", price_cents: 900 },
+          { name: "Dôme mousse chocolat passion", price_cents: 1000 },
+          { name: "Brioche façon pain perdu", price_cents: 1000 },
+          { name: "Tiramisu poire et chocolat", price_cents: 900 },
+          { name: "Moelleux tiède au chocolat", price_cents: 1000 },
+          { name: "Tarte tatin à l'ananas", price_cents: 1000 },
+          { name: "Plateau de fromages des Pyrénées", price_cents: 1200 },
+          { name: "Pavlova aux fruits exotiques", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Bouteille d'eau minérale", price: "6€" },
-          { name: "Verre de vin du Sud-Ouest", price: "7€" },
-          { name: "Café Richard", price: "3€" }
+          { name: "Bouteille d'eau minérale", price_cents: 600 },
+          { name: "Verre de vin du Sud-Ouest", price_cents: 700 },
+          { name: "Café Richard", price_cents: 300 }
         ]
       }
     ]

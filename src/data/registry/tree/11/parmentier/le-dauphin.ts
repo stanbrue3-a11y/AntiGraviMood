@@ -45,24 +45,26 @@ export const leDauphin: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Le Dauphin Paris 2024-2025
             {
-                category: "Tapassiettes (Sélection du Chef)",
+                category_type: "sharing",
+                display_label: "Tapassiettes (Sélection du Chef)",
                 items: [
-                    { name: "Sashimi de bonite, sauce soja fumée", price: "18.00€" },
-                    { name: "Croquettes de jambon ibérique", price: "14.00€" },
-                    { name: "Tartare de thon & radis", price: "19.00€" },
-                    { name: "Poulpe grillé, purée de pois chiches", price: "22.00€" },
-                    { name: "Carpaccio de bœuf au parmesan", price: "17.00€" },
-                    { name: "Joue de bœuf braisée au vin rouge", price: "24.00€" },
-                    { name: "Asperges vertes grillées, sabayon agrumes", price: "15.00€" },
-                    { name: "Tartine de moelle, herbes fraîches", price: "12.00€" }
+                    { name: "Sashimi de bonite, sauce soja fumée", price_cents: 1800 },
+                    { name: "Croquettes de jambon ibérique", price_cents: 1400 },
+                    { name: "Tartare de thon & radis", price_cents: 1900 },
+                    { name: "Poulpe grillé, purée de pois chiches", price_cents: 2200 },
+                    { name: "Carpaccio de bœuf au parmesan", price_cents: 1700 },
+                    { name: "Joue de bœuf braisée au vin rouge", price_cents: 2400 },
+                    { name: "Asperges vertes grillées, sabayon agrumes", price_cents: 1500 },
+                    { name: "Tartine de moelle, herbes fraîches", price_cents: 1200 }
                 ]
             },
             {
-                category: "Douceurs",
+                category_type: "dessert",
+                display_label: "Douceurs",
                 items: [
-                    { name: "Ganache chocolat & huile d'olive", price: "9.00€" },
-                    { name: "Panna cotta aux agrumes", price: "8.50€" },
-                    { name: "Glace maison au lait d'amande", price: "7.00€" }
+                    { name: "Ganache chocolat & huile d'olive", price_cents: 900 },
+                    { name: "Panna cotta aux agrumes", price_cents: 850 },
+                    { name: "Glace maison au lait d'amande", price_cents: 700 }
                 ]
             }
         ]

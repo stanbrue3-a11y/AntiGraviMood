@@ -40,36 +40,39 @@ export const opportun: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Lyonnaiseries de l'Opportun",
+                category_type: "other",
+                display_label: "Les Lyonnaiseries de l'Opportun",
                 items: [
-                    { name: "Tablier de Sapeur 'Maison'", price: "22.50€", description: "Le chef d'oeuvre lyonnais pané et frit." },
-                    { name: "Quenelle de Brochet à la cuillère, sauce Nantua", price: "24.00€" },
-                    { name: "Andouillette de chez Bobosse tirée à la ficelle", price: "21.00€" },
-                    { name: "Saucisson chaud brioché et sa lentille verte", price: "18.50€" },
-                    { name: "Tête de Veau sauce gribiche", price: "24.50€" },
-                    { name: "Rosette de Lyon artisanale", price: "9.00€" },
-                    { name: "Ris de Veau aux Petits Oignons", price: "32.00€" },
-                    { name: "Onglet à l'Échalote confite", price: "26.00€" }
+                    { name: "Tablier de Sapeur 'Maison'", price_cents: 2250, description: "Le chef d'oeuvre lyonnais pané et frit." },
+                    { name: "Quenelle de Brochet à la cuillère, sauce Nantua", price_cents: 2400 },
+                    { name: "Andouillette de chez Bobosse tirée à la ficelle", price_cents: 2100 },
+                    { name: "Saucisson chaud brioché et sa lentille verte", price_cents: 1850 },
+                    { name: "Tête de Veau sauce gribiche", price_cents: 2450 },
+                    { name: "Rosette de Lyon artisanale", price_cents: 900 },
+                    { name: "Ris de Veau aux Petits Oignons", price_cents: 3200 },
+                    { name: "Onglet à l'Échalote confite", price_cents: 2600 }
                 ]
             },
             {
-                category: "Entrées du Bouchon",
+                category_type: "starter",
+                display_label: "Entrées du Bouchon",
                 items: [
-                    { name: "Gâteau de Foies de Volaille maison", price: "12.50€" },
-                    { name: "Oeufs en Meurette (les vrais)", price: "14.50€" },
-                    { name: "Salade Lyonnaise (Lardons, Croutons, Oeuf Poché)", price: "13.50€" },
-                    { name: "Pâté en Croûte Richelieu", price: "14.00€" },
-                    { name: "Ravioles du Royans en gratin", price: "12.00€" }
+                    { name: "Gâteau de Foies de Volaille maison", price_cents: 1250 },
+                    { name: "Oeufs en Meurette (les vrais)", price_cents: 1450 },
+                    { name: "Salade Lyonnaise (Lardons, Croutons, Oeuf Poché)", price_cents: 1350 },
+                    { name: "Pâté en Croûte Richelieu", price_cents: 1400 },
+                    { name: "Ravioles du Royans en gratin", price_cents: 1200 }
                 ]
             },
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
-                    { name: "Cervelle de Canut maison", price: "9.50€" },
-                    { name: "Saint-Marcellin coulant de la Mère Richard", price: "11.00€" },
-                    { name: "Tarte à la Praline Rose de Lyon", price: "9.50€" },
-                    { name: "Ile Flottante aux amandes grillées", price: "8.50€" },
-                    { name: "Baba au Rhum de Serge", price: "12.00€" }
+                    { name: "Cervelle de Canut maison", price_cents: 950 },
+                    { name: "Saint-Marcellin coulant de la Mère Richard", price_cents: 1100 },
+                    { name: "Tarte à la Praline Rose de Lyon", price_cents: 950 },
+                    { name: "Ile Flottante aux amandes grillées", price_cents: 850 },
+                    { name: "Baba au Rhum de Serge", price_cents: 1200 }
                 ]
             }
         ]

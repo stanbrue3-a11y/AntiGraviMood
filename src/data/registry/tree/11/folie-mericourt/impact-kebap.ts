@@ -45,36 +45,40 @@ export const impactKebap: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Impact Berliner Kebap 2025 Standard
             {
-                category: "Les Kebaps (Pains ou Wraps)",
+                category_type: "other",
+                display_label: "Les Kebaps (Pains ou Wraps)",
                 items: [
-                    { name: "Le Berliner Döner", price: "8.00€", description: "Poulet mariné, légumes grillés, feta, jus de citron." },
-                    { name: "Le Berliner Dürüm", price: "8.50€", description: "Version wrap galette, plus léger." },
-                    { name: "Le Classic Döner", price: "7.00€", description: "Simple, efficace, sans légumes grillés." },
-                    { name: "Le Vegan Kebap (Seitan)", price: "9.00€", description: "Seitan mariné maison, feta vegan." }
+                    { name: "Le Berliner Döner", price_cents: 800, description: "Poulet mariné, légumes grillés, feta, jus de citron." },
+                    { name: "Le Berliner Dürüm", price_cents: 850, description: "Version wrap galette, plus léger." },
+                    { name: "Le Classic Döner", price_cents: 700, description: "Simple, efficace, sans légumes grillés." },
+                    { name: "Le Vegan Kebap (Seitan)", price_cents: 900, description: "Seitan mariné maison, feta vegan." }
                 ]
             },
             {
-                category: "Formules (Frites + Boisson)",
+                category_type: "drink",
+                display_label: "Formules (Frites + Boisson)",
                 items: [
-                    { name: "Menu Döner", price: "13.00€" },
-                    { name: "Menu Dürüm", price: "13.50€" },
-                    { name: "Menu Vegan", price: "14.50€" }
+                    { name: "Menu Döner", price_cents: 1300 },
+                    { name: "Menu Dürüm", price_cents: 1350 },
+                    { name: "Menu Vegan", price_cents: 1450 }
                 ]
             },
             {
-                category: "Sides & Extra",
+                category_type: "other",
+                display_label: "Sides & Extra",
                 items: [
-                    { name: "Frites Maison (Double cuisson)", price: "4.00€" },
-                    { name: "Suppléments Légumes Grillés", price: "1.50€" },
-                    { name: "Extra Feta / Halloumi", price: "2.00€" }
+                    { name: "Frites Maison (Double cuisson)", price_cents: 400 },
+                    { name: "Suppléments Légumes Grillés", price_cents: 150 },
+                    { name: "Extra Feta / Halloumi", price_cents: 200 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Bière Turque (Efes)", price: "5.00€" },
-                    { name: "Ayran frais", price: "3.50€" },
-                    { name: "Softs", price: "3.00€" }
+                    { name: "Bière Turque (Efes)", price_cents: 500 },
+                    { name: "Ayran frais", price_cents: 350 },
+                    { name: "Softs", price_cents: 300 }
                 ]
             }
         ]

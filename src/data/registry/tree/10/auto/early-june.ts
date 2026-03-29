@@ -43,61 +43,66 @@ export const early_june: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Petites Assiettes de Saison (Plats)",
+        category_type: "main",
+        display_label: "Petites Assiettes de Saison (Plats)",
         items: [
-          { name: "Gnocchis Maison à la Sauge & Parmesan", price: "15.00€", highlight: true },
-          { name: "Ceviche de Dorade Royale, Agrumes & Piment", price: "18.00€", highlight: true },
-          { name: "Tataki de Bœuf, Huile de Sésame & Radis Noir", price: "16.50€" },
-          { name: "Asperges Vertes & Sabayon au Miso", price: "14.00€", highlight: true },
-          { name: "Maquereau de Ligne grillé & Fenouil croquant", price: "17.00€" },
-          { name: "Betteraves Rôties & Labneh au Zaatar", price: "13.00€" },
-          { name: "Crudo de Saint-Jacques & Vinaigrette Yuzu", price: "19.00€", highlight: true },
-          { name: "Burrata Fumée & Huile de feuilles de figuier", price: "15.50€" }
+          { name: "Gnocchis Maison à la Sauge & Parmesan", price_cents: 1500, is_highlight: true },
+          { name: "Ceviche de Dorade Royale, Agrumes & Piment", price_cents: 1800, is_highlight: true },
+          { name: "Tataki de Bœuf, Huile de Sésame & Radis Noir", price_cents: 1650 },
+          { name: "Asperges Vertes & Sabayon au Miso", price_cents: 1400, is_highlight: true },
+          { name: "Maquereau de Ligne grillé & Fenouil croquant", price_cents: 1700 },
+          { name: "Betteraves Rôties & Labneh au Zaatar", price_cents: 1300 },
+          { name: "Crudo de Saint-Jacques & Vinaigrette Yuzu", price_cents: 1900, is_highlight: true },
+          { name: "Burrata Fumée & Huile de feuilles de figuier", price_cents: 1550 }
         ]
       },
       {
-        category: "Grands Partages (Plats)",
+        category_type: "main",
+        display_label: "Grands Partages (Plats)",
         items: [
-          { name: "Épaule d'Agneau de 12h (Pour 2-3 personnes)", price: "45.00€", highlight: true },
-          { name: "Poisson Entier du Jour à la Plancha (Prix/kg)", price: "38.00€" },
-          { name: "Côte de Bœuf Maturée (1kg) & Moelle", price: "85.00€", highlight: true },
-          { name: "Volaille Fermière au Foin & Jus Corsé", price: "32.00€" },
-          { name: "Risotto à la Truffe Noire & Champignons", price: "24.00€", highlight: true }
+          { name: "Épaule d'Agneau de 12h (Pour 2-3 personnes)", price_cents: 4500, is_highlight: true },
+          { name: "Poisson Entier du Jour à la Plancha (Prix/kg)", price_cents: 3800 },
+          { name: "Côte de Bœuf Maturée (1kg) & Moelle", price_cents: 8500, is_highlight: true },
+          { name: "Volaille Fermière au Foin & Jus Corsé", price_cents: 3200 },
+          { name: "Risotto à la Truffe Noire & Champignons", price_cents: 2400, is_highlight: true }
         ]
       },
       {
-        category: "Accords Moelleux (Accompagnements)",
+        category_type: "other",
+        display_label: "Accords Moelleux (Accompagnements)",
         items: [
-          { name: "Pain au Levain Naturel & Beurre demi-sel", price: "4.50€", highlight: true },
-          { name: "Pickles Maison Façon Early June", price: "6.00€" },
-          { name: "Pommes Grenailles au Romarin & Fleur de sel", price: "7.50€" },
-          { name: "Salade de Jeunes Pousses & Vinaigrette Cidre", price: "6.50€" },
-          { name: "Olives de Kalamata marinées aux Herbes", price: "5.50€" }
+          { name: "Pain au Levain Naturel & Beurre demi-sel", price_cents: 450, is_highlight: true },
+          { name: "Pickles Maison Façon Early June", price_cents: 600 },
+          { name: "Pommes Grenailles au Romarin & Fleur de sel", price_cents: 750 },
+          { name: "Salade de Jeunes Pousses & Vinaigrette Cidre", price_cents: 650 },
+          { name: "Olives de Kalamata marinées aux Herbes", price_cents: 550 }
         ]
       },
       {
-        category: "Douceurs de Jean Poulmarch (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs de Jean Poulmarch (Desserts)",
         items: [
-          { name: "Financier Minute aux Amandes Grillées", price: "8.00€", highlight: true },
-          { name: "Riz au Lait & Praliné Noisette Maison", price: "9.50€", highlight: true },
-          { name: "Cheesecake à la Fraise & Shizo Frais", price: "10.50€" },
-          { name: "Ganache Chocolat Noir 70% & Sel Fumé", price: "9.00€", highlight: true },
-          { name: "Sorbet Fleur d'Oranger Maison (3 boules)", price: "8.50€" },
-          { name: "Assiette de Fromages Affinés & Confiture", price: "12.00€" },
-          { name: "Tartelette aux Fruits du Moment (Saison)", price: "9.50€" }
+          { name: "Financier Minute aux Amandes Grillées", price_cents: 800, is_highlight: true },
+          { name: "Riz au Lait & Praliné Noisette Maison", price_cents: 950, is_highlight: true },
+          { name: "Cheesecake à la Fraise & Shizo Frais", price_cents: 1050 },
+          { name: "Ganache Chocolat Noir 70% & Sel Fumé", price_cents: 900, is_highlight: true },
+          { name: "Sorbet Fleur d'Oranger Maison (3 boules)", price_cents: 850 },
+          { name: "Assiette de Fromages Affinés & Confiture", price_cents: 1200 },
+          { name: "Tartelette aux Fruits du Moment (Saison)", price_cents: 950 }
         ]
       },
       {
-        category: "Vins Vivants & Macérations (Boissons)",
+        category_type: "drink",
+        display_label: "Vins Vivants & Macérations (Boissons)",
         items: [
-          { name: "Verre de Vin Orange (Macération)", price: "9.50€", highlight: true },
-          { name: "Verre de Blanc Pétillant (Pet Nat)", price: "8.50€" },
-          { name: "Verre de Rouge 'Glouglou' (Vin de Soif)", price: "7.50€" },
-          { name: "Bouteille de Vin Nature (Sélection du Chef)", price: "32.00€", highlight: true },
-          { name: "Kombucha Maison Gingembre & Citron Vert", price: "6.50€" },
-          { name: "Jus de Pomme Trouble Fermier", price: "5.50€" },
-          { name: "Eau Micro-filtrée Early June (75cl)", price: "4.50€", highlight: true },
-          { name: "Café Filtre (Origine Unique - Specialty)", price: "4.00€" }
+          { name: "Verre de Vin Orange (Macération)", price_cents: 950, is_highlight: true },
+          { name: "Verre de Blanc Pétillant (Pet Nat)", price_cents: 850 },
+          { name: "Verre de Rouge 'Glouglou' (Vin de Soif)", price_cents: 750 },
+          { name: "Bouteille de Vin Nature (Sélection du Chef)", price_cents: 3200, is_highlight: true },
+          { name: "Kombucha Maison Gingembre & Citron Vert", price_cents: 650 },
+          { name: "Jus de Pomme Trouble Fermier", price_cents: 550 },
+          { name: "Eau Micro-filtrée Early June (75cl)", price_cents: 450, is_highlight: true },
+          { name: "Café Filtre (Origine Unique - Specialty)", price_cents: 400 }
         ]
       }
     ]

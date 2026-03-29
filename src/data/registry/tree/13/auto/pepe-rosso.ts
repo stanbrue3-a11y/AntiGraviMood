@@ -42,41 +42,45 @@ export const pepe_rosso: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Plats : Pasta & Secondi",
+        category_type: "main",
+        display_label: "Les Plats : Pasta & Secondi",
         items: [
-          { name: "Penne All'Arrabbiata (Piquantes)", price: "13.00€" },
-          { name: "Spaghetti Carbonara (Vraie recette)", price: "14.50€" },
-          { name: "Escalope Milanaise (Veau)", price: "18.50€" },
-          { name: "Risotto aux Cèpes parfumés", price: "16.00€" },
-          { name: "Linguine aux palourdes", price: "17.50€" }
+          { name: "Penne All'Arrabbiata (Piquantes)", price_cents: 1300 },
+          { name: "Spaghetti Carbonara (Vraie recette)", price_cents: 1450 },
+          { name: "Escalope Milanaise (Veau)", price_cents: 1850 },
+          { name: "Risotto aux Cèpes parfumés", price_cents: 1600 },
+          { name: "Linguine aux palourdes", price_cents: 1750 }
         ]
       },
       {
-        category: "Les Plats : Pizzas",
+        category_type: "main",
+        display_label: "Les Plats : Pizzas",
         items: [
-          { name: "Pizza Margherita Classica", price: "11.00€" },
-          { name: "Pizza Napolitaine (Anchois, Câpres)", price: "12.50€" },
-          { name: "Pizza Orientale (Merguez, Œuf)", price: "14.00€" },
-          { name: "Pizza 4 Saisons (Artichauts, Champignons)", price: "14.50€" },
-          { name: "Pizza Bianca au chèvre miel", price: "15.00€" }
+          { name: "Pizza Margherita Classica", price_cents: 1100 },
+          { name: "Pizza Napolitaine (Anchois, Câpres)", price_cents: 1250 },
+          { name: "Pizza Orientale (Merguez, Œuf)", price_cents: 1400 },
+          { name: "Pizza 4 Saisons (Artichauts, Champignons)", price_cents: 1450 },
+          { name: "Pizza Bianca au chèvre miel", price_cents: 1500 }
         ]
       },
       {
-        category: "Douceurs : Classiques Italiens",
+        category_type: "dessert",
+        display_label: "Douceurs : Classiques Italiens",
         items: [
-          { name: "Tiramisu maison au café", price: "7.00€" },
-          { name: "Mousse au chocolat noir", price: "6.50€" },
-          { name: "Affogato al caffè", price: "6.00€" },
-          { name: "Panna Cotta à la vanille", price: "6.50€" }
+          { name: "Tiramisu maison au café", price_cents: 700 },
+          { name: "Mousse au chocolat noir", price_cents: 650 },
+          { name: "Affogato al caffè", price_cents: 600 },
+          { name: "Panna Cotta à la vanille", price_cents: 650 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Verre de Montepulciano", price: "6.00€" },
-          { name: "Bière Birra Moretti (33cl)", price: "5.50€" },
-          { name: "Limoncello de sorrento", price: "5.00€" },
-          { name: "Eau minérale plate ou gaz (50cl)", price: "4.50€" }
+          { name: "Verre de Montepulciano", price_cents: 600 },
+          { name: "Bière Birra Moretti (33cl)", price_cents: 550 },
+          { name: "Limoncello de sorrento", price_cents: 500 },
+          { name: "Eau minérale plate ou gaz (50cl)", price_cents: 450 }
         ]
       }
     ]

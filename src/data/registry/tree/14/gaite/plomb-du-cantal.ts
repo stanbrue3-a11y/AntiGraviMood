@@ -40,38 +40,41 @@ export const plombDuCantal: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Spécialités de l'Aubrac",
+                category_type: "other",
+                display_label: "Spécialités de l'Aubrac",
                 items: [
-                    { name: "Aligot Traditionnel Monté en direct", price: "18.50€", description: "La spécialité maison, servie avec saucisse fraîche." },
-                    { name: "Truffade Dorée à la Tome", price: "19.50€" },
-                    { name: "Saucisse fraîche d'Auvergne & Aligot", price: "20.00€" },
-                    { name: "Chou Farci à l'Aveyronnaise", price: "19.00€" },
-                    { name: "Tripoux d'Auvergne (les 3)", price: "21.00€" },
-                    { name: "Pavé de Boeuf de l'Aubrac (250g)", price: "24.50€" },
-                    { name: "Entrecôte Nature (330g)", price: "26.00€" },
-                    { name: "Côte de Boeuf (500g) pour amateurs", price: "34.00€" },
-                    { name: "Magret de Canard Entier (380g)", price: "28.00€" }
+                    { name: "Aligot Traditionnel Monté en direct", price_cents: 1850, description: "La spécialité maison, servie avec saucisse fraîche." },
+                    { name: "Truffade Dorée à la Tome", price_cents: 1950 },
+                    { name: "Saucisse fraîche d'Auvergne & Aligot", price_cents: 2000 },
+                    { name: "Chou Farci à l'Aveyronnaise", price_cents: 1900 },
+                    { name: "Tripoux d'Auvergne (les 3)", price_cents: 2100 },
+                    { name: "Pavé de Boeuf de l'Aubrac (250g)", price_cents: 2450 },
+                    { name: "Entrecôte Nature (330g)", price_cents: 2600 },
+                    { name: "Côte de Boeuf (500g) pour amateurs", price_cents: 3400 },
+                    { name: "Magret de Canard Entier (380g)", price_cents: 2800 }
                 ]
             },
             {
-                category: "Entrées & Fromages",
+                category_type: "starter",
+                display_label: "Entrées & Fromages",
                 items: [
-                    { name: "Planche de Charcuterie d'Auvergne", price: "17.00€" },
-                    { name: "Salade de Canard Fumé", price: "14.50€" },
-                    { name: "Jambon Cru de Montagne", price: "12.00€" },
-                    { name: "Assiette de 5 Fromages AOP", price: "13.50€" },
-                    { name: "Cabécou AOP (les 2)", price: "8.50€" },
-                    { name: "Terrine de Campagne Maison", price: "9.00€" }
+                    { name: "Planche de Charcuterie d'Auvergne", price_cents: 1700 },
+                    { name: "Salade de Canard Fumé", price_cents: 1450 },
+                    { name: "Jambon Cru de Montagne", price_cents: 1200 },
+                    { name: "Assiette de 5 Fromages AOP", price_cents: 1350 },
+                    { name: "Cabécou AOP (les 2)", price_cents: 850 },
+                    { name: "Terrine de Campagne Maison", price_cents: 900 }
                 ]
             },
             {
-                category: "Desserts Traditionnels",
+                category_type: "dessert",
+                display_label: "Desserts Traditionnels",
                 items: [
-                    { name: "Tarte aux Myrtilles Sauvages", price: "8.50€" },
-                    { name: "Coupe de Glace (3 boules)", price: "9.00€" },
-                    { name: "Mousse au Chocolat", price: "7.50€" },
-                    { name: "Crème Brûlée Vanille", price: "8.00€" },
-                    { name: "Baba au Rhum", price: "9.50€" }
+                    { name: "Tarte aux Myrtilles Sauvages", price_cents: 850 },
+                    { name: "Coupe de Glace (3 boules)", price_cents: 900 },
+                    { name: "Mousse au Chocolat", price_cents: 750 },
+                    { name: "Crème Brûlée Vanille", price_cents: 800 },
+                    { name: "Baba au Rhum", price_cents: 950 }
                 ]
             }
         ]

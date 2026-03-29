@@ -42,28 +42,31 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
         smart_tip: "Pas besoin de choisir, l'institution ne sert qu'un seul menu salade-viande-frites à 29€. Gardez absolument une place pour les profiteroles.",
         menu_items: [
             {
-                category: "La Formule Unique",
+                category_type: "tasting_menu",
+                display_label: "La Formule Unique",
                 items: [
-                    { name: "Salade + Contre-filet + Frites à volonté", price: "29,00€", description: "Salade aux noix, fines tranches de contre-filet, sauce secrète maison." }
+                    { name: "Salade + Contre-filet + Frites à volonté", price_cents: 2900, description: "Salade aux noix, fines tranches de contre-filet, sauce secrète maison." }
                 ]
             },
             {
-                category: "Desserts Maison",
+                category_type: "dessert",
+                display_label: "Desserts Maison",
                 items: [
-                    { name: "Profiteroles au chocolat fondant", price: "9,50€" },
-                    { name: "Gâteau du Relais (Tout Chocolat)", price: "7,50€" },
-                    { name: "Vacherin du Relais", price: "8,50€" },
-                    { name: "Crème Brûlée", price: "7,00€" }
+                    { name: "Profiteroles au chocolat fondant", price_cents: 950 },
+                    { name: "Gâteau du Relais (Tout Chocolat)", price_cents: 750 },
+                    { name: "Vacherin du Relais", price_cents: 850 },
+                    { name: "Crème Brûlée", price_cents: 700 }
                 ]
             },
             {
-                category: "Carte des Boissons",
+                category_type: "drink",
+                display_label: "Carte des Boissons",
                 items: [
-                    { name: "Vin de la Propriété (Bouteille)", price: "19,00€" },
-                    { name: "Vin du Relais (Verre 15cl)", price: "6,00€" },
-                    { name: "Bière Pression (25cl)", price: "5,00€" },
-                    { name: "Softs (Coca, Perrier, Jus)", price: "4,50€" },
-                    { name: "Eaux (Evian/San Pe - 1L)", price: "7,00€" }
+                    { name: "Vin de la Propriété (Bouteille)", price_cents: 1900 },
+                    { name: "Vin du Relais (Verre 15cl)", price_cents: 600 },
+                    { name: "Bière Pression (25cl)", price_cents: 500 },
+                    { name: "Softs (Coca, Perrier, Jus)", price_cents: 450 },
+                    { name: "Eaux (Evian/San Pe - 1L)", price_cents: 700 }
                 ]
             }
         ],

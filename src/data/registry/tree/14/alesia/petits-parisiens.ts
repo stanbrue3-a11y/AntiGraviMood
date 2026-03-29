@@ -40,35 +40,38 @@ export const petitsParisiens: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "La Cuisine de Arnaud Baptiste",
+                category_type: "other",
+                display_label: "La Cuisine de Arnaud Baptiste",
                 items: [
-                    { name: "Poitrine de Veau rôtie aux Épices", price: "28.00€" },
-                    { name: "Paleron de Boeuf Braisé au vin rouge", price: "27.00€" },
-                    { name: "Pêche du Jour au Beurre Noisette", price: "26.00€" },
-                    { name: "Volaille Fermière rôtie au Foin", price: "25.00€" },
-                    { name: "Tartare de Boeuf au Couteau, condiment huître", price: "24.00€" },
-                    { name: "Gnocchi Maison aux Herbes de Saison", price: "22.00€" },
-                    { name: "Filet de Maquereau snacké, vierge de légumes", price: "23.00€" }
+                    { name: "Poitrine de Veau rôtie aux Épices", price_cents: 2800 },
+                    { name: "Paleron de Boeuf Braisé au vin rouge", price_cents: 2700 },
+                    { name: "Pêche du Jour au Beurre Noisette", price_cents: 2600 },
+                    { name: "Volaille Fermière rôtie au Foin", price_cents: 2500 },
+                    { name: "Tartare de Boeuf au Couteau, condiment huître", price_cents: 2400 },
+                    { name: "Gnocchi Maison aux Herbes de Saison", price_cents: 2200 },
+                    { name: "Filet de Maquereau snacké, vierge de légumes", price_cents: 2300 }
                 ]
             },
             {
-                category: "Entrées du Bistrot",
+                category_type: "starter",
+                display_label: "Entrées du Bistrot",
                 items: [
-                    { name: "Os à Moelle Gratiné, pain de campagne", price: "12.00€" },
-                    { name: "Pâté en Croûte de Tradition", price: "16.00€" },
-                    { name: "Leeks Vinaigrette Revisités (Poireaux)", price: "11.00€" },
-                    { name: "Oeuf Cocotte aux Champignons des bois", price: "12.50€" },
-                    { name: "Carpaccio de Langue de Boeuf", price: "13.00€" }
+                    { name: "Os à Moelle Gratiné, pain de campagne", price_cents: 1200 },
+                    { name: "Pâté en Croûte de Tradition", price_cents: 1600 },
+                    { name: "Leeks Vinaigrette Revisités (Poireaux)", price_cents: 1100 },
+                    { name: "Oeuf Cocotte aux Champignons des bois", price_cents: 1250 },
+                    { name: "Carpaccio de Langue de Boeuf", price_cents: 1300 }
                 ]
             },
             {
-                category: "Final en Douceur",
+                category_type: "dessert",
+                display_label: "Final en Douceur",
                 items: [
-                    { name: "Tartelette Chocolat et Caramel", price: "11.00€" },
-                    { name: "Mousse au Riz au Lait de Grand-Mère", price: "9.50€" },
-                    { name: "Baba au Rhum Ambré et sa chantilly", price: "12.00€" },
-                    { name: "Profiterole au Chocolat Chaud", price: "11.00€" },
-                    { name: "Ardoise de Fromages de nos Régions", price: "12.00€" }
+                    { name: "Tartelette Chocolat et Caramel", price_cents: 1100 },
+                    { name: "Mousse au Riz au Lait de Grand-Mère", price_cents: 950 },
+                    { name: "Baba au Rhum Ambré et sa chantilly", price_cents: 1200 },
+                    { name: "Profiterole au Chocolat Chaud", price_cents: 1100 },
+                    { name: "Ardoise de Fromages de nos Régions", price_cents: 1200 }
                 ]
             }
         ]

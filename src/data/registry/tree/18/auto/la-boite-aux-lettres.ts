@@ -40,31 +40,40 @@ export const la_boite_aux_lettres: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Pour Commencer / À Partager", items: [
-        { name: "Œuf Mayonnaise Maison", price: "6.00€" },
-        { name: "Terrine de Campagne", price: "8.00€" },
-        { name: "Velouté de Patate Douce", price: "7.00€" },
-        { name: "Chou-fleur Rôti à la Fêta", price: "8.00€" },
-        { name: "Salade de Lentilles", price: "9.00€" },
-        { name: "Option Pour les Indécis (Entrées)", price: "12.00€" }
+      {
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
+        items: [
+        { name: "Œuf Mayonnaise Maison", price_cents: 600 },
+        { name: "Terrine de Campagne", price_cents: 800 },
+        { name: "Velouté de Patate Douce", price_cents: 700 },
+        { name: "Chou-fleur Rôti à la Fêta", price_cents: 800 },
+        { name: "Salade de Lentilles", price_cents: 900 },
+        { name: "Option Pour les Indécis (Entrées)", price_cents: 1200 }
       ]},
-      { category: "Les Plats", items: [
-        { name: "Pavé de Bœuf Sauce Poivre", price: "24.00€", description: "Servi avec frites maison" },
-        { name: "Suprême de Volaille Albufera", price: "21.00€" },
-        { name: "Lieu Jaune à la Bergamote", price: "22.00€" },
-        { name: "Burger de la BAL", price: "17.00€", description: "Frites et salade" },
-        { name: "Saucisse à l'Échalote", price: "16.00€" },
-        { name: "Rigatoni Verde (Végé)", price: "18.00€" },
-        { name: "Tartare de Bœuf Tradition", price: "19.00€" },
-        { name: "Cabillaud Rôti & Mousseline", price: "23.00€" }
+      {
+        category_type: "main",
+        display_label: "Les Plats",
+        items: [
+        { name: "Pavé de Bœuf Sauce Poivre", price_cents: 2400, description: "Servi avec frites maison" },
+        { name: "Suprême de Volaille Albufera", price_cents: 2100 },
+        { name: "Lieu Jaune à la Bergamote", price_cents: 2200 },
+        { name: "Burger de la BAL", price_cents: 1700, description: "Frites et salade" },
+        { name: "Saucisse à l'Échalote", price_cents: 1600 },
+        { name: "Rigatoni Verde (Végé)", price_cents: 1800 },
+        { name: "Tartare de Bœuf Tradition", price_cents: 1900 },
+        { name: "Cabillaud Rôti & Mousseline", price_cents: 2300 }
       ]},
-      { category: "Douceurs", items: [
-        { name: "Tiramisu de la BAL", price: "8.00€" },
-        { name: "Pain Perdu Gourmand", price: "7.00€" },
-        { name: "Velouté Mangue-Passion", price: "9.00€" },
-        { name: "Chou Chantilly Praliné", price: "8.00€" },
-        { name: "Fromages du Moment", price: "10.00€" },
-        { name: "Option Pour les Indécis (Desserts)", price: "12.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Douceurs",
+        items: [
+        { name: "Tiramisu de la BAL", price_cents: 800 },
+        { name: "Pain Perdu Gourmand", price_cents: 700 },
+        { name: "Velouté Mangue-Passion", price_cents: 900 },
+        { name: "Chou Chantilly Praliné", price_cents: 800 },
+        { name: "Fromages du Moment", price_cents: 1000 },
+        { name: "Option Pour les Indécis (Desserts)", price_cents: 1200 }
       ]}
     ]
   },

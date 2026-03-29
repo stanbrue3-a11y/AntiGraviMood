@@ -40,40 +40,43 @@ export const zeyer: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Incontournables du Zeyer",
+                category_type: "other",
+                display_label: "Les Incontournables du Zeyer",
                 items: [
-                    { name: "Le Burger Zeyer au Cantal & Poitrine Fumée", price: "24.00€" },
-                    { name: "Tartare de Boeuf préparé à la demande", price: "22.00€" },
-                    { name: "Faux-filet poêlé, Sauce Marchand de Vin", price: "26.00€" },
-                    { name: "Cuisse de Canard Confite, Pommes Sautées", price: "23.00€" },
-                    { name: "Poulet Fermier Rôti, Mousseline de PDT", price: "23.00€" },
-                    { name: "Cassolette de Rognons de Veau Grand-Mère", price: "24.00€" },
-                    { name: "Andouillette AAAAA grillée, Sauce Moutarde", price: "25.00€" },
-                    { name: "Souris d'Agneau confite au Romarin", price: "24.00€" },
-                    { name: "Magret de Canard à l'Orange", price: "26.50€" }
+                    { name: "Le Burger Zeyer au Cantal & Poitrine Fumée", price_cents: 2400 },
+                    { name: "Tartare de Boeuf préparé à la demande", price_cents: 2200 },
+                    { name: "Faux-filet poêlé, Sauce Marchand de Vin", price_cents: 2600 },
+                    { name: "Cuisse de Canard Confite, Pommes Sautées", price_cents: 2300 },
+                    { name: "Poulet Fermier Rôti, Mousseline de PDT", price_cents: 2300 },
+                    { name: "Cassolette de Rognons de Veau Grand-Mère", price_cents: 2400 },
+                    { name: "Andouillette AAAAA grillée, Sauce Moutarde", price_cents: 2500 },
+                    { name: "Souris d'Agneau confite au Romarin", price_cents: 2400 },
+                    { name: "Magret de Canard à l'Orange", price_cents: 2650 }
                 ]
             },
             {
-                category: "Produits de la Mer & Entrées",
+                category_type: "starter",
+                display_label: "Produits de la Mer & Entrées",
                 items: [
-                    { name: "Plateau de Fruits de Mer Signature", price: "73.00€" },
-                    { name: "Médaillons de Lotte Poêlés au Curry", price: "32.00€" },
-                    { name: "6 Gros Escargots au Beurre d'Ail", price: "13.50€" },
-                    { name: "Foie Gras Maison, Chutney de Fruits", price: "21.00€" },
-                    { name: "Filets de Hareng Marinés, Pommes à l'Huile", price: "11.00€" },
-                    { name: "Poireaux Vinaigrette et Oeufs Mimosa", price: "11.00€" },
-                    { name: "Tartare de Saumon aux Herbes Fraîches", price: "13.00€" },
-                    { name: "Oeufs Durs Mayonnaise Tradition", price: "7.00€" }
+                    { name: "Plateau de Fruits de Mer Signature", price_cents: 7300 },
+                    { name: "Médaillons de Lotte Poêlés au Curry", price_cents: 3200 },
+                    { name: "6 Gros Escargots au Beurre d'Ail", price_cents: 1350 },
+                    { name: "Foie Gras Maison, Chutney de Fruits", price_cents: 2100 },
+                    { name: "Filets de Hareng Marinés, Pommes à l'Huile", price_cents: 1100 },
+                    { name: "Poireaux Vinaigrette et Oeufs Mimosa", price_cents: 1100 },
+                    { name: "Tartare de Saumon aux Herbes Fraîches", price_cents: 1300 },
+                    { name: "Oeufs Durs Mayonnaise Tradition", price_cents: 700 }
                 ]
             },
             {
-                category: "Desserts & Gourmandises",
+                category_type: "dessert",
+                display_label: "Desserts & Gourmandises",
                 items: [
-                    { name: "Profiteroles au Chocolat Chaud", price: "10.50€" },
-                    { name: "Tarte Tatin et Crème d'Isigny", price: "9.50€" },
-                    { name: "Crème Brûlée à la Vanille Bourbon", price: "9.00€" },
-                    { name: "Mousse au Chocolat à l'Ancienne", price: "8.50€" },
-                    { name: "Glaces & Sorbets Berthillon (3 boules)", price: "12.00€" }
+                    { name: "Profiteroles au Chocolat Chaud", price_cents: 1050 },
+                    { name: "Tarte Tatin et Crème d'Isigny", price_cents: 950 },
+                    { name: "Crème Brûlée à la Vanille Bourbon", price_cents: 900 },
+                    { name: "Mousse au Chocolat à l'Ancienne", price_cents: 850 },
+                    { name: "Glaces & Sorbets Berthillon (3 boules)", price_cents: 1200 }
                 ]
             }
         ]

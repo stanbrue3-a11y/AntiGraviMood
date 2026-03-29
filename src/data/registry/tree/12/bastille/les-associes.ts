@@ -66,42 +66,47 @@ export const les_associes: SurgicalPlace = {
         // VERIFIED: eater.space + RestaurantGuru — menu complet
         "menu_items": [
             {
-                "category": "Entrées",
+                "category_type": "starter",
+                "display_label": "Entrées",
                 "items": [
-                    { "name": "Tartare de tomate & mozzarella di Buffala au pistou", "price": "8,50€" },
-                    { "name": "Croustillant nems au poulet & samosas végétariens", "price": "7,50€" },
-                    { "name": "Assiette de saumon fumé de Norvège avec toast", "price": "7,00€" }
+                    { "name": "Tartare de tomate & mozzarella di Buffala au pistou", "price_cents": 850 },
+                    { "name": "Croustillant nems au poulet & samosas végétariens", "price_cents": 750 },
+                    { "name": "Assiette de saumon fumé de Norvège avec toast", "price_cents": 700 }
                 ]
             },
             {
-                "category": "Plats",
+                "category_type": "main",
+                "display_label": "Plats",
                 "items": [
-                    { "name": "American Burger pur bœuf, frites maison", "price": "15,00€" },
-                    { "name": "Filet de cabillaud rôti à la poêle, petits légumes, pistou", "price": "15,00€" },
-                    { "name": "Côte de bœuf, sauce béarnaise, pommes salardaises", "price": "19,50€" },
-                    { "name": "Assiette de tapas", "price": "10,00€" }
+                    { "name": "American Burger pur bœuf, frites maison", "price_cents": 1500 },
+                    { "name": "Filet de cabillaud rôti à la poêle, petits légumes, pistou", "price_cents": 1500 },
+                    { "name": "Côte de bœuf, sauce béarnaise, pommes salardaises", "price_cents": 1950 },
+                    { "name": "Assiette de tapas", "price_cents": 1000 }
                 ]
             },
             {
-                "category": "Desserts",
+                "category_type": "dessert",
+                "display_label": "Desserts",
                 "items": [
-                    { "name": "Mi-cuit au chocolat tendre à cœur", "price": "6,50€" },
-                    { "name": "Tarte Tatin, pomme Golden & quenelle de crème", "price": "6,50€" },
-                    { "name": "Brioche façon pain perdu, caramel laitier & parfum glacé", "price": "6,50€" }
+                    { "name": "Mi-cuit au chocolat tendre à cœur", "price_cents": 650 },
+                    { "name": "Tarte Tatin, pomme Golden & quenelle de crème", "price_cents": 650 },
+                    { "name": "Brioche façon pain perdu, caramel laitier & parfum glacé", "price_cents": 650 }
                 ]
             },
             {
-                "category": "Bières",
+                "category_type": "other",
+                "display_label": "Bières",
                 "items": [
-                    { "name": "Pinte", "price": "7,00€" },
-                    { "name": "Pinte Happy Hour (15h-00h)", "price": "5,00€" }
+                    { "name": "Pinte", "price_cents": 700 },
+                    { "name": "Pinte Happy Hour (15h-00h)", "price_cents": 500 }
                 ]
             },
             {
-                "category": "Happy Hour (15h-00h)",
+                "category_type": "drink",
+                "display_label": "Happy Hour (15h-00h)",
                 "items": [
-                    { "name": "Pinte", "price": "5,00€" },
-                    { "name": "Vin blanc / rosé (verre)", "price": "3,00€" }
+                    { "name": "Pinte", "price_cents": 500 },
+                    { "name": "Vin blanc / rosé (verre)", "price_cents": 300 }
                 ]
             }
         ],

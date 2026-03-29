@@ -44,39 +44,43 @@ export const alkaram: SurgicalPlace = {
         "smart_tip": "L'option sandwich/emporter (Chawarma à 7,50€) est imbattable pour le déjeuner. Sur place, la moyenne par personne avec mezzés tourne autour de 25€.",
         "menu_items": [
             {
-                "category": "Mezzés Froids",
+                "category_type": "other",
+                "display_label": "Mezzés Froids",
                 "items": [
-                    { "name": "Hommos Classique", "price": "8,00€", "description": "Purée de pois chiches à la crème de sésame." },
-                    { "name": "Hommos Beyrouti", "price": "9,00€", "description": "Version relevée avec ail et persil." },
-                    { "name": "Hommos Viande", "price": "10,50€", "description": "Relevé avec des émincés de viande poêlés." },
-                    { "name": "Moutabal (Caviar d'aubergine)", "price": "8,00€", "description": "Aubergine grillée, crème de sésame." },
-                    { "name": "Taboulé Libanais", "price": "8,00€", "description": "Persil, blé concassé, tomate, menthe, oignon, citron." }
+                    { "name": "Hommos Classique", "price_cents": 800, "description": "Purée de pois chiches à la crème de sésame." },
+                    { "name": "Hommos Beyrouti", "price_cents": 900, "description": "Version relevée avec ail et persil." },
+                    { "name": "Hommos Viande", "price_cents": 1050, "description": "Relevé avec des émincés de viande poêlés." },
+                    { "name": "Moutabal (Caviar d'aubergine)", "price_cents": 800, "description": "Aubergine grillée, crème de sésame." },
+                    { "name": "Taboulé Libanais", "price_cents": 800, "description": "Persil, blé concassé, tomate, menthe, oignon, citron." }
                 ]
             },
             {
-                "category": "Mezzés Chauds",
+                "category_type": "other",
+                "display_label": "Mezzés Chauds",
                 "items": [
-                    { "name": "Falafels (4 pièces)", "price": "8,40€", "description": "Boulettes frites de fèves et pois chiches." },
-                    { "name": "Kebbé Boulettes (4 pièces)", "price": "8,40€", "description": "Viande farcie au bourghoul et pignons de pin." }
+                    { "name": "Falafels (4 pièces)", "price_cents": 840, "description": "Boulettes frites de fèves et pois chiches." },
+                    { "name": "Kebbé Boulettes (4 pièces)", "price_cents": 840, "description": "Viande farcie au bourghoul et pignons de pin." }
                 ]
             },
             {
-                "category": "Grillades & Assiettes",
+                "category_type": "other",
+                "display_label": "Grillades & Assiettes",
                 "items": [
-                    { "name": "Chawarma (Bœuf mariné)", "price": "25,00€", "description": "Sur place. Viande de bœuf mariné, émincé et grillé." },
-                    { "name": "Chiche Taouk (Poulet mariné)", "price": "23,50€" },
-                    { "name": "Sandwich Chawarma (Emporter)", "price": "7,50€" }
+                    { "name": "Chawarma (Bœuf mariné)", "price_cents": 2500, "description": "Sur place. Viande de bœuf mariné, émincé et grillé." },
+                    { "name": "Chiche Taouk (Poulet mariné)", "price_cents": 2350 },
+                    { "name": "Sandwich Chawarma (Emporter)", "price_cents": 750 }
                 ]
             },
             {
-                "category": "Boissons & Vins",
+                "category_type": "drink",
+                "display_label": "Boissons & Vins",
                 "items": [
-                    { "name": "Verre de Vin Ksara Libanais", "price": "8,00€" },
-                    { "name": "Arak (Boisson libanaise anisée 8cl)", "price": "7,00€" },
-                    { "name": "Bière Libanaise (33cl)", "price": "6,00€" },
-                    { "name": "Laban Ayran (Yaourt liquide salé)", "price": "6,00€" },
-                    { "name": "Café Expresso", "price": "2,60€" },
-                    { "name": "Café Blanc (Eau de fleur d'oranger)", "price": "3,80€" }
+                    { "name": "Verre de Vin Ksara Libanais", "price_cents": 800 },
+                    { "name": "Arak (Boisson libanaise anisée 8cl)", "price_cents": 700 },
+                    { "name": "Bière Libanaise (33cl)", "price_cents": 600 },
+                    { "name": "Laban Ayran (Yaourt liquide salé)", "price_cents": 600 },
+                    { "name": "Café Expresso", "price_cents": 260 },
+                    { "name": "Café Blanc (Eau de fleur d'oranger)", "price_cents": 380 }
                 ]
             }
         ],

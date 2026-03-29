@@ -45,44 +45,49 @@ export const passerini: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Passerini 2024-2025 (Michelin Guide)
             {
-                category: "Formules Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Semaine)",
                 items: [
-                    { name: "Entrée + Pasta", price: "34.00€" },
-                    { name: "Entrée + Pasta + Dessert", price: "42.00€" },
-                    { name: "Entrée + Main Course", price: "37.00€" },
-                    { name: "Entrée + Main Course + Dessert", price: "45.00€" },
-                    { name: "Menu Complet (E+P+M+D)", price: "52.00€" }
+                    { name: "Entrée + Pasta", price_cents: 3400 },
+                    { name: "Entrée + Pasta + Dessert", price_cents: 4200 },
+                    { name: "Entrée + Main Course", price_cents: 3700 },
+                    { name: "Entrée + Main Course + Dessert", price_cents: 4500 },
+                    { name: "Menu Complet (E+P+M+D)", price_cents: 5200 }
                 ]
             },
             {
-                category: "Antipasti (Entrées)",
+                category_type: "starter",
+                display_label: "Antipasti (Entrées)",
                 items: [
-                    { name: "Trippa alla Romana", price: "22.00€", description: "Tripes à la romaine, menthe et pecorino." },
-                    { name: "Carpaccio de poisson de ligne", price: "24.00€" },
-                    { name: "Artichauts frits & crème de parmesan", price: "20.00€" }
+                    { name: "Trippa alla Romana", price_cents: 2200, description: "Tripes à la romaine, menthe et pecorino." },
+                    { name: "Carpaccio de poisson de ligne", price_cents: 2400 },
+                    { name: "Artichauts frits & crème de parmesan", price_cents: 2000 }
                 ]
             },
             {
-                category: "Primi (Pâtes Maison)",
+                category_type: "other",
+                display_label: "Primi (Pâtes Maison)",
                 items: [
-                    { name: "Tagliatelle au ragoût de canard", price: "28.00€" },
-                    { name: "Ravioli del giorno", price: "31.00€", description: "Fait main chaque matin." },
-                    { name: "Gnudi ricotta & épinards, beurre de sauge", price: "27.00€" }
+                    { name: "Tagliatelle au ragoût de canard", price_cents: 2800 },
+                    { name: "Ravioli del giorno", price_cents: 3100, description: "Fait main chaque matin." },
+                    { name: "Gnudi ricotta & épinards, beurre de sauge", price_cents: 2700 }
                 ]
             },
             {
-                category: "Secondi (Plats)",
+                category_type: "main",
+                display_label: "Secondi (Plats)",
                 items: [
-                    { name: "Pigeon entier rôti & abats", price: "38.00€" },
-                    { name: "Poisson de roche grillé, sauce aux herbes", price: "34.00€" },
-                    { name: "Epaule d'agneau de lait (à partager)", price: "80.00€" }
+                    { name: "Pigeon entier rôti & abats", price_cents: 3800 },
+                    { name: "Poisson de roche grillé, sauce aux herbes", price_cents: 3400 },
+                    { name: "Epaule d'agneau de lait (à partager)", price_cents: 8000 }
                 ]
             },
             {
-                category: "Dolci",
+                category_type: "other",
+                display_label: "Dolci",
                 items: [
-                    { name: "Tiramisu Passerini", price: "12.00€" },
-                    { name: "Gelato artisanal minute", price: "10.00€" }
+                    { name: "Tiramisu Passerini", price_cents: 1200 },
+                    { name: "Gelato artisanal minute", price_cents: 1000 }
                 ]
             }
         ]

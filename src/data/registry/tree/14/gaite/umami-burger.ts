@@ -43,41 +43,45 @@ export const umami_burger: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Umami Burgers (Signatures)",
+                category_type: "main",
+                display_label: "Umami Burgers (Signatures)",
                 items: [
-                    { name: "Umami Burger (Steak de bœuf, oignons caramélisés, cheddar, ketchup Umami)", price: "16.00€" },
-                    { name: "Umami Patty Melt (Smashed bread, provolone, oignons caramélisés)", price: "12.00€" },
-                    { name: "Green Bird (Poulet frit bio, avocat, fromage vert, sauce goddess)", price: "16.00€" },
-                    { name: "Breaded Cod Burger (Filet de cabillaud pané, tartare citron vert)", price: "14.00€" },
-                    { name: "The Truffle Burger (Truffle aioli, truffle oil)", price: "18.00€" },
-                    { name: "Sunny Side Burger (Oeuf au plat, bacon, sauce Umami)", price: "17.00€" }
+                    { name: "Umami Burger (Steak de bœuf, oignons caramélisés, cheddar, ketchup Umami)", price_cents: 1600 },
+                    { name: "Umami Patty Melt (Smashed bread, provolone, oignons caramélisés)", price_cents: 1200 },
+                    { name: "Green Bird (Poulet frit bio, avocat, fromage vert, sauce goddess)", price_cents: 1600 },
+                    { name: "Breaded Cod Burger (Filet de cabillaud pané, tartare citron vert)", price_cents: 1400 },
+                    { name: "The Truffle Burger (Truffle aioli, truffle oil)", price_cents: 1800 },
+                    { name: "Sunny Side Burger (Oeuf au plat, bacon, sauce Umami)", price_cents: 1700 }
                 ]
             },
             {
-                category: "Accompagnements (Sides & Starters)",
+                category_type: "starter",
+                display_label: "Accompagnements (Sides & Starters)",
                 items: [
-                    { name: "Thin Fries (Frites fines)", price: "3.50€" },
-                    { name: "Sweet Potato Fries (Patates douces)", price: "4.50€" },
-                    { name: "Onion Rings (Beignets d'oignons)", price: "5.50€" },
-                    { name: "Manly Fries (Bacon bits, cheddar fondu, oignons frits)", price: "6.00€" },
-                    { name: "Truffle Fries (Frites à la truffe)", price: "7.00€" },
-                    { name: "Chicken Wings (x6)", price: "10.00€" }
+                    { name: "Thin Fries (Frites fines)", price_cents: 350 },
+                    { name: "Sweet Potato Fries (Patates douces)", price_cents: 450 },
+                    { name: "Onion Rings (Beignets d'oignons)", price_cents: 550 },
+                    { name: "Manly Fries (Bacon bits, cheddar fondu, oignons frits)", price_cents: 600 },
+                    { name: "Truffle Fries (Frites à la truffe)", price_cents: 700 },
+                    { name: "Chicken Wings (x6)", price_cents: 1000 }
                 ]
             },
             {
-                category: "Desserts & Shakes",
+                category_type: "dessert",
+                display_label: "Desserts & Shakes",
                 items: [
-                    { name: "Vanilla Shake (Milkshake vanille Bourbon)", price: "8.00€" },
-                    { name: "Chocolate Shake", price: "8.00€" },
-                    { name: "Cookie Dough Sandwich", price: "7.00€" },
-                    { name: "New York Cheesecake", price: "9.00€" }
+                    { name: "Vanilla Shake (Milkshake vanille Bourbon)", price_cents: 800 },
+                    { name: "Chocolate Shake", price_cents: 800 },
+                    { name: "Cookie Dough Sandwich", price_cents: 700 },
+                    { name: "New York Cheesecake", price_cents: 900 }
                 ]
             },
             {
-                category: "Saturday & Sunday Brunch",
+                category_type: "other",
+                display_label: "Saturday & Sunday Brunch",
                 items: [
-                    { name: "Saturday Brunch (Buffet à volonté + Burger)", price: "35.00€" },
-                    { name: "Sunday Brunch (Le Grand Buffet Umami)", price: "42.00€" }
+                    { name: "Saturday Brunch (Buffet à volonté + Burger)", price_cents: 3500 },
+                    { name: "Sunday Brunch (Le Grand Buffet Umami)", price_cents: 4200 }
                 ]
             }
         ]

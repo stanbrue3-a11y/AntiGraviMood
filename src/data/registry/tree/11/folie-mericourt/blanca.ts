@@ -45,35 +45,39 @@ export const blanca: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Blanca Paris 2024-2025
             {
-                category: "Formule Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner (Semaine)",
                 items: [
-                    { name: "Entrée + Plat", price: "18.50€" },
-                    { name: "Entrée + Plat + Dessert", price: "22.50€" }
+                    { name: "Entrée + Plat", price_cents: 1850 },
+                    { name: "Entrée + Plat + Dessert", price_cents: 2250 }
                 ]
             },
             {
-                category: "Empanadas & Entrées",
+                category_type: "starter",
+                display_label: "Empanadas & Entrées",
                 items: [
-                    { name: "Empanada de Carne (x1)", price: "5.50€" },
-                    { name: "Empanada de Humita (Maïs, Fromage)", price: "5.00€" },
-                    { name: "Croquetas de Jamon", price: "10.00€" },
-                    { name: "Ceviche de thon, guacamole & maïs grillé", price: "16.00€" }
+                    { name: "Empanada de Carne (x1)", price_cents: 550 },
+                    { name: "Empanada de Humita (Maïs, Fromage)", price_cents: 500 },
+                    { name: "Croquetas de Jamon", price_cents: 1000 },
+                    { name: "Ceviche de thon, guacamole & maïs grillé", price_cents: 1600 }
                 ]
             },
             {
-                category: "Les Plats (Cuisine de Feu)",
+                category_type: "main",
+                display_label: "Les Plats (Cuisine de Feu)",
                 items: [
-                    { name: "Entraña (Bifteck de hampe) Argentin", price: "25.00€", description: "Servi avec frites et chimichurri aux algues." },
-                    { name: "Entrecôte Angus Argentine (300g)", price: "34.00€" },
-                    { name: "Lieu jaune grillé, girolles & coques", price: "28.00€" },
-                    { name: "Pluma Ibérique au BBQ", price: "29.00€" }
+                    { name: "Entraña (Bifteck de hampe) Argentin", price_cents: 2500, description: "Servi avec frites et chimichurri aux algues." },
+                    { name: "Entrecôte Angus Argentine (300g)", price_cents: 3400 },
+                    { name: "Lieu jaune grillé, girolles & coques", price_cents: 2800 },
+                    { name: "Pluma Ibérique au BBQ", price_cents: 2900 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Flan au Dulce de Leche", price: "9.00€", description: "Le classique absolu, onctueux et régressif." },
-                    { name: "Tarte Chocolat & Piment", price: "9.50€" }
+                    { name: "Flan au Dulce de Leche", price_cents: 900, description: "Le classique absolu, onctueux et régressif." },
+                    { name: "Tarte Chocolat & Piment", price_cents: 950 }
                 ]
             }
         ]

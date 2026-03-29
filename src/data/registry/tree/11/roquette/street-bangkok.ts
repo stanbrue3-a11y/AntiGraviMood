@@ -27,66 +27,72 @@ export const streetBangkokBastille: SurgicalPlace = {
         index_price: 13.00, // Pad Thai
         menu_items: [
             {
-                category: "Grillades & BBQ Thaï (Flamme & Braise)",
+                category_type: "other",
+                display_label: "Grillades & BBQ Thaï (Flamme & Braise)",
                 items: [
-                    { name: "Sate Gai (x3) - Entrée", price: "11.00€", description: "Brochettes de poulet coco-curry-curcuma." },
-                    { name: "BBQ Ribs Secret Sauce", price: "18.50€", description: "Travers de porc laqués, sauce ail secrète." },
-                    { name: "Tigre Qui Pleure", price: "19.50€", description: "Bœuf mariné citronnelle & huile d'échalote." },
-                    { name: "Gai Yang (Cuisse de Poulet)", price: "17.00€", description: "Désossée, laquée et grillée à la flamme." },
-                    { name: "Sate Gai (Plat)", price: "15.50€" },
-                    { name: "Mix 2 Viandes (Poulet & Porc)", price: "28.00€" },
-                    { name: "Crying Beef Salad", price: "18.00€" }
+                    { name: "Sate Gai (x3) - Entrée", price_cents: 1100, description: "Brochettes de poulet coco-curry-curcuma." },
+                    { name: "BBQ Ribs Secret Sauce", price_cents: 1850, description: "Travers de porc laqués, sauce ail secrète." },
+                    { name: "Tigre Qui Pleure", price_cents: 1950, description: "Bœuf mariné citronnelle & huile d'échalote." },
+                    { name: "Gai Yang (Cuisse de Poulet)", price_cents: 1700, description: "Désossée, laquée et grillée à la flamme." },
+                    { name: "Sate Gai (Plat)", price_cents: 1550 },
+                    { name: "Mix 2 Viandes (Poulet & Porc)", price_cents: 2800 },
+                    { name: "Crying Beef Salad", price_cents: 1800 }
                 ]
             },
             {
-                category: "Le Wok (Saisis à Haute Température)",
+                category_type: "other",
+                display_label: "Le Wok (Saisis à Haute Température)",
                 items: [
-                    { name: "Pad Thaï Crevettes", price: "16.50€", description: "Noodles de riz, tamarin, cacahuètes, crevettes." },
-                    { name: "Pad Thaï Poulet", price: "15.50€" },
-                    { name: "Pad Ka Prao Poulet Gai Yang", price: "17.50€", description: "Basilic sacré, piment, ail, œuf frit." },
-                    { name: "Pad Ka Prao Tofu (V)", price: "15.00€" },
-                    { name: "Pad See Ew Bœuf", price: "16.50€", description: "Larges nouilles de riz, brocoli chinois." },
-                    { name: "Fried Rice Crab", price: "19.00€" }
+                    { name: "Pad Thaï Crevettes", price_cents: 1650, description: "Noodles de riz, tamarin, cacahuètes, crevettes." },
+                    { name: "Pad Thaï Poulet", price_cents: 1550 },
+                    { name: "Pad Ka Prao Poulet Gai Yang", price_cents: 1750, description: "Basilic sacré, piment, ail, œuf frit." },
+                    { name: "Pad Ka Prao Tofu (V)", price_cents: 1500 },
+                    { name: "Pad See Ew Bœuf", price_cents: 1650, description: "Larges nouilles de riz, brocoli chinois." },
+                    { name: "Fried Rice Crab", price_cents: 1900 }
                 ]
             },
             {
-                category: "Curries Onctueux (Lait de Coco & Épices)",
+                category_type: "other",
+                display_label: "Curries Onctueux (Lait de Coco & Épices)",
                 items: [
-                    { name: "Red Curry Gai Yang", price: "18.50€", description: "Lait de coco, feuilles de kaffir, poulet grillé." },
-                    { name: "Panang Curry Crevettes", price: "19.00€" },
-                    { name: "Green Curry Tofu & Aubergines", price: "16.00€" },
-                    { name: "Massaman Beef", price: "18.50€", description: "Mijoté, pommes de terre, cacahuètes." }
+                    { name: "Red Curry Gai Yang", price_cents: 1850, description: "Lait de coco, feuilles de kaffir, poulet grillé." },
+                    { name: "Panang Curry Crevettes", price_cents: 1900 },
+                    { name: "Green Curry Tofu & Aubergines", price_cents: 1600 },
+                    { name: "Massaman Beef", price_cents: 1850, description: "Mijoté, pommes de terre, cacahuètes." }
                 ]
             },
             {
-                category: "Som Tam & Sides",
+                category_type: "other",
+                display_label: "Som Tam & Sides",
                 items: [
-                    { name: "Som Tam (Salade Papaye Verte)", price: "9.50€", description: "Piment, citron vert, cacahuètes." },
-                    { name: "Tom Kha Kai (Soupe Coco)", price: "6.50€" },
-                    { name: "Salade de Concombre Sésame", price: "5.50€" },
-                    { name: "Hot Pickles Maison", price: "4.50€" },
-                    { name: "Jasmin Rice", price: "3.50€" },
-                    { name: "Sticky Rice", price: "4.00€" },
-                    { name: "Légumes Sautés au Wok", price: "7.00€" }
+                    { name: "Som Tam (Salade Papaye Verte)", price_cents: 950, description: "Piment, citron vert, cacahuètes." },
+                    { name: "Tom Kha Kai (Soupe Coco)", price_cents: 650 },
+                    { name: "Salade de Concombre Sésame", price_cents: 550 },
+                    { name: "Hot Pickles Maison", price_cents: 450 },
+                    { name: "Jasmin Rice", price_cents: 350 },
+                    { name: "Sticky Rice", price_cents: 400 },
+                    { name: "Légumes Sautés au Wok", price_cents: 700 }
                 ]
             },
             {
-                category: "Cocktails & Softs Signature",
+                category_type: "drink",
+                display_label: "Cocktails & Softs Signature",
                 items: [
-                    { name: "Khao Mule (Cocktail)", price: "12.00€", description: "Vodka, gingembre, piment, citronnelle." },
-                    { name: "Bangkok Garden", price: "13.00€", description: "Gin, basilic thaï, concombre." },
-                    { name: "Limonade Gingembre Maison", price: "5.50€" },
-                    { name: "Bière Singha (33cl)", price: "6.50€" },
-                    { name: "Thé Glacé Thaï (Lait de coco)", price: "6.00€" },
-                    { name: "Jus de Coco Frais", price: "6.50€" }
+                    { name: "Khao Mule (Cocktail)", price_cents: 1200, description: "Vodka, gingembre, piment, citronnelle." },
+                    { name: "Bangkok Garden", price_cents: 1300, description: "Gin, basilic thaï, concombre." },
+                    { name: "Limonade Gingembre Maison", price_cents: 550 },
+                    { name: "Bière Singha (33cl)", price_cents: 650 },
+                    { name: "Thé Glacé Thaï (Lait de coco)", price_cents: 600 },
+                    { name: "Jus de Coco Frais", price_cents: 650 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Mango Sticky Rice", price: "9.00€" },
-                    { name: "Banane Frite au Miel", price: "7.50€" },
-                    { name: "Mochi Glacé (x2)", price: "6.00€" }
+                    { name: "Mango Sticky Rice", price_cents: 900 },
+                    { name: "Banane Frite au Miel", price_cents: 750 },
+                    { name: "Mochi Glacé (x2)", price_cents: 600 }
                 ]
             }
         ]

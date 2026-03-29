@@ -40,43 +40,47 @@ export const bistrot_flonflon: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Croque-monsieur brioché à la truffe", price: "14€" },
-          { name: "Œufs mimosa du Flonflon", price: "8€" },
-          { name: "Os à moelle gratiné au sel fumé", price: "12€" },
-          { name: "Encornets à la plancha, chorizo", price: "15€" },
-          { name: "Poireaux vinaigrette et noisettes", price: "9€" }
+          { name: "Croque-monsieur brioché à la truffe", price_cents: 1400 },
+          { name: "Œufs mimosa du Flonflon", price_cents: 800 },
+          { name: "Os à moelle gratiné au sel fumé", price_cents: 1200 },
+          { name: "Encornets à la plancha, chorizo", price_cents: 1500 },
+          { name: "Poireaux vinaigrette et noisettes", price_cents: 900 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Cote de bœuf maturée (pour 2)", price: "75€" },
-          { name: "Saucisse-purée de notre enfance", price: "19€" },
-          { name: "Cabillaud au beurre citronné", price: "24€" },
-          { name: "Parmentier de canard confit", price: "22€" },
-          { name: "Plat du jour (Ardoise)", price: "20€" }
+          { name: "Cote de bœuf maturée (pour 2)", price_cents: 7500 },
+          { name: "Saucisse-purée de notre enfance", price_cents: 1900 },
+          { name: "Cabillaud au beurre citronné", price_cents: 2400 },
+          { name: "Parmentier de canard confit", price_cents: 2200 },
+          { name: "Plat du jour (Ardoise)", price_cents: 2000 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Mousse au chocolat à partager", price: "10€" },
-          { name: "Baba au rhum géant", price: "12€" },
-          { name: "Tarte tatin aux pommes", price: "9€" },
-          { name: "Profiteroles sauce chocolat chaud", price: "11€" },
-          { name: "Assiette de fromages canailles", price: "12€" }
+          { name: "Mousse au chocolat à partager", price_cents: 1000 },
+          { name: "Baba au rhum géant", price_cents: 1200 },
+          { name: "Tarte tatin aux pommes", price_cents: 900 },
+          { name: "Profiteroles sauce chocolat chaud", price_cents: 1100 },
+          { name: "Assiette de fromages canailles", price_cents: 1200 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Verre de Morgon", price: "8€" },
-          { name: "Cocktail Spritz du Chef", price: "10€" },
-          { name: "Bière à la pression", price: "7€" },
-          { name: "Digestif du patron", price: "9€" },
-          { name: "Café serré", price: "2.5€" }
+          { name: "Verre de Morgon", price_cents: 800 },
+          { name: "Cocktail Spritz du Chef", price_cents: 1000 },
+          { name: "Bière à la pression", price_cents: 700 },
+          { name: "Digestif du patron", price_cents: 900 },
+          { name: "Café serré", price_cents: 250 }
         ]
       }
     ]

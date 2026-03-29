@@ -42,39 +42,43 @@ export const erso: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Formules Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner",
                 items: [
                     // VERIFIED: Mises à jour 2024/2025 Lebey "Meilleur Bistrot"
-                    { name: "Menu Déjeuner (E+P ou P+D)", price: "23.00€" },
-                    { name: "Menu Déjeuner Complet (E+P+D)", price: "29.00€" }
+                    { name: "Menu Déjeuner (E+P ou P+D)", price_cents: 2300 },
+                    { name: "Menu Déjeuner Complet (E+P+D)", price_cents: 2900 }
                 ]
             },
             {
-                category: "Entrées (Soir)",
+                category_type: "starter",
+                display_label: "Entrées (Soir)",
                 items: [
-                    { name: "Asperges blanches au barbecue", price: "15.00€" },
-                    { name: "Ravioles de Pélardon", price: "14.00€" },
-                    { name: "Millefeuille de champignon, mousseline miso", price: "15.00€" },
-                    { name: "Maigre, tarama de sardines, ponzu", price: "15.00€" }
+                    { name: "Asperges blanches au barbecue", price_cents: 1500 },
+                    { name: "Ravioles de Pélardon", price_cents: 1400 },
+                    { name: "Millefeuille de champignon, mousseline miso", price_cents: 1500 },
+                    { name: "Maigre, tarama de sardines, ponzu", price_cents: 1500 }
                 ]
             },
             {
-                category: "Plats (Soir)",
+                category_type: "main",
+                display_label: "Plats (Soir)",
                 items: [
                     // VERIFIED: Plats 28-35€
-                    { name: "Barbue meunière, sabayon ail des ours", price: "35.00€" },
-                    { name: "Carré de veau, gnocchis de patate douce", price: "35.00€" },
-                    { name: "Épaule d'agneau braisée, mousseline chou-rave", price: "28.00€" },
-                    { name: "Daurade royale, fumet fumé, sabayon herbacé", price: "28.00€" },
-                    { name: "Pithiviers, palet butternut, betterave fumée", price: "28.00€", description: "Végétarien" }
+                    { name: "Barbue meunière, sabayon ail des ours", price_cents: 3500 },
+                    { name: "Carré de veau, gnocchis de patate douce", price_cents: 3500 },
+                    { name: "Épaule d'agneau braisée, mousseline chou-rave", price_cents: 2800 },
+                    { name: "Daurade royale, fumet fumé, sabayon herbacé", price_cents: 2800 },
+                    { name: "Pithiviers, palet butternut, betterave fumée", price_cents: 2800, description: "Végétarien" }
                 ]
             },
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
-                    { name: "Gianduja, pomme crue-gingembre", price: "11.00€" },
-                    { name: "Génoise chocolat, glace piment d'Espelette", price: "12.00€" },
-                    { name: "Sélection de fromages (Taka & Vermot)", price: "14.00€" }
+                    { name: "Gianduja, pomme crue-gingembre", price_cents: 1100 },
+                    { name: "Génoise chocolat, glace piment d'Espelette", price_cents: 1200 },
+                    { name: "Sélection de fromages (Taka & Vermot)", price_cents: 1400 }
                 ]
             }
         ]

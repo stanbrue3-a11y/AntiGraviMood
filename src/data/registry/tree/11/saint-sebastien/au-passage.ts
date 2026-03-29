@@ -47,63 +47,68 @@ export const au_passage: SurgicalPlace = {
             // FORMULE MIDI (Source: RestoAParis + ParisGourmand)
             // ═══════════════════════════════════════════
             {
-                category: "Formule Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner",
                 items: [
                     // VERIFIED: RestoAparis (2024) — 19.50€
-                    { name: "Plat du jour", price: "19.50€", description: "Formule midi simple et directe." }
+                    { name: "Plat du jour", price_cents: 1950, description: "Formule midi simple et directe." }
                 ]
             },
             // ═══════════════════════════════════════════
             // TAPAS DU MARCHÉ (Source: LeFooding + ParisBouge + ParisFrivole)
             // ═══════════════════════════════════════════
             {
-                category: "Tapas du Marché (Le Soir)",
+                category_type: "sharing",
+                display_label: "Tapas du Marché (Le Soir)",
                 items: [
                     // VERIFIED: ParisBouge (2024) — tapas 7-14€
-                    { name: "Saucisson tranché et cornichons", price: "7.00€" },
-                    { name: "Rillettes maison", price: "8.00€" },
-                    { name: "Anchois marinés", price: "7.00€" },
-                    { name: "Tartare de thon, agrumes", price: "14.00€" },
-                    { name: "Carpaccio de rouget, chou-rave", price: "13.00€" },
-                    { name: "Poulpe à la plancha", price: "14.00€" },
-                    { name: "Parfait de foie de volaille", price: "10.00€" },
-                    { name: "Crabe, poireaux fumés", price: "14.00€" },
-                    { name: "Lotte, fenouil et pêche", price: "14.00€" },
-                    { name: "Légumes grillés de saison", price: "9.00€" }
+                    { name: "Saucisson tranché et cornichons", price_cents: 700 },
+                    { name: "Rillettes maison", price_cents: 800 },
+                    { name: "Anchois marinés", price_cents: 700 },
+                    { name: "Tartare de thon, agrumes", price_cents: 1400 },
+                    { name: "Carpaccio de rouget, chou-rave", price_cents: 1300 },
+                    { name: "Poulpe à la plancha", price_cents: 1400 },
+                    { name: "Parfait de foie de volaille", price_cents: 1000 },
+                    { name: "Crabe, poireaux fumés", price_cents: 1400 },
+                    { name: "Lotte, fenouil et pêche", price_cents: 1400 },
+                    { name: "Légumes grillés de saison", price_cents: 900 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS PRINCIPAUX (Source: LeFooding + ParisGourmand)
             // ═══════════════════════════════════════════
             {
-                category: "Plats Principaux",
+                category_type: "main",
+                display_label: "Plats Principaux",
                 items: [
                     // VERIFIED: LeFooding (2024) — plats plus conséquents 18-24€
-                    { name: "Épaule d'agneau confite (à partager)", price: "24.00€" },
-                    { name: "Côte de bœuf (au kg, certains soirs)", price: "80.00€", description: "Par kilo, à partager en tablée." },
-                    { name: "Poisson du jour grillé", price: "18.00€" }
+                    { name: "Épaule d'agneau confite (à partager)", price_cents: 2400 },
+                    { name: "Côte de bœuf (au kg, certains soirs)", price_cents: 8000, description: "Par kilo, à partager en tablée." },
+                    { name: "Poisson du jour grillé", price_cents: 1800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // DESSERTS (Source: RestoAParis)
             // ═══════════════════════════════════════════
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Dessert du jour", price: "8.00€" },
-                    { name: "Assiette de fromages affinés", price: "10.00€" }
+                    { name: "Dessert du jour", price_cents: 800 },
+                    { name: "Assiette de fromages affinés", price_cents: 1000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // VINS D'AUTEURS — 250 RÉFÉRENCES (Source: LeFooding + Raisin + ParisFrivole)
             // ═══════════════════════════════════════════
             {
-                category: "Vins d'Auteurs (250 références)",
+                category_type: "drink",
+                display_label: "Vins d'Auteurs (250 références)",
                 items: [
                     // VERIFIED: Plusieurs sources — verres dès 6€
-                    { name: "Verre de vin nature (sélection du soir)", price: "6.00€" },
-                    { name: "Verre premium / cuvée rare", price: "12.00€" },
-                    { name: "Bouteille nature (à partir de)", price: "25.00€" }
+                    { name: "Verre de vin nature (sélection du soir)", price_cents: 600 },
+                    { name: "Verre premium / cuvée rare", price_cents: 1200 },
+                    { name: "Bouteille nature (à partir de)", price_cents: 2500 }
                 ]
             }
         ]

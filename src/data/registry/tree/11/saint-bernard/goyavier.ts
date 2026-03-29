@@ -45,38 +45,42 @@ export const leGoyavier: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Le Goyavier 2024-2025 (Spécialités de l'Ile de la Réunion)
             {
-                category: "Les Entrées Créoles",
+                category_type: "starter",
+                display_label: "Les Entrées Créoles",
                 items: [
-                    { name: "Bouchons (x4)", price: "8.50€", description: "Bouchées vapeur au porc, spécialité locale." },
-                    { name: "Samoussas variés (x5)", price: "9.00€" },
-                    { name: "Bonbons piment", price: "8.00€" },
-                    { name: "Accras de morue", price: "9.50€" }
+                    { name: "Bouchons (x4)", price_cents: 850, description: "Bouchées vapeur au porc, spécialité locale." },
+                    { name: "Samoussas variés (x5)", price_cents: 900 },
+                    { name: "Bonbons piment", price_cents: 800 },
+                    { name: "Accras de morue", price_cents: 950 }
                 ]
             },
             {
-                category: "Les Plats Authentiques (Caris & Rougails)",
+                category_type: "main",
+                display_label: "Les Plats Authentiques (Caris & Rougails)",
                 items: [
-                    { name: "Rougail Saucisses", price: "22.00€", description: "Le classique : sauccisses fumées, tomates, oignons, gingembre." },
-                    { name: "Cari Porc aux pommes de terre", price: "22.00€" },
-                    { name: "Cari Poulet à la réunionnaise", price: "22.00€" },
-                    { name: "Massalé Cabri", price: "24.00€", description: "Chèvre mijoté aux épices massalé." },
-                    { name: "Cari Crevettes au combava", price: "23.00€" }
+                    { name: "Rougail Saucisses", price_cents: 2200, description: "Le classique : sauccisses fumées, tomates, oignons, gingembre." },
+                    { name: "Cari Porc aux pommes de terre", price_cents: 2200 },
+                    { name: "Cari Poulet à la réunionnaise", price_cents: 2200 },
+                    { name: "Massalé Cabri", price_cents: 2400, description: "Chèvre mijoté aux épices massalé." },
+                    { name: "Cari Crevettes au combava", price_cents: 2300 }
                 ]
             },
             {
-                category: "Douceurs des Iles",
+                category_type: "dessert",
+                display_label: "Douceurs des Iles",
                 items: [
-                    { name: "Gâteau Patate", price: "9.00€", description: "Gâteau traditionnel à la patate douce et vanille." },
-                    { name: "Blanc-manger coco", price: "8.50€" },
-                    { name: "Ananas frais au sirop de rhum", price: "9.50€" }
+                    { name: "Gâteau Patate", price_cents: 900, description: "Gâteau traditionnel à la patate douce et vanille." },
+                    { name: "Blanc-manger coco", price_cents: 850 },
+                    { name: "Ananas frais au sirop de rhum", price_cents: 950 }
                 ]
             },
             {
-                category: "Boissons & Rhums",
+                category_type: "drink",
+                display_label: "Boissons & Rhums",
                 items: [
-                    { name: "Bière Bourbon 'Dodo'", price: "7.50€" },
-                    { name: "Punch Coco maison", price: "8.50€" },
-                    { name: "Rhum Arrangé (Verre)", price: "9.00€" }
+                    { name: "Bière Bourbon 'Dodo'", price_cents: 750 },
+                    { name: "Punch Coco maison", price_cents: 850 },
+                    { name: "Rhum Arrangé (Verre)", price_cents: 900 }
                 ]
             }
         ]

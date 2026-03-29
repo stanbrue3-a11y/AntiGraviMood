@@ -40,34 +40,37 @@ export const leDuc: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Art des Poissons",
+                category_type: "main",
+                display_label: "L'Art des Poissons",
                 items: [
-                    { name: "Carpaccio de Bar au Citron Vert et Huile d'Olive", price: "48.00€" },
-                    { name: "Tartare de Bar 'Le Duc' (Signé Minchelli)", price: "52.00€" },
-                    { name: "Sashimi de Thon Rouge d'Exception", price: "55.00€" },
-                    { name: "Dorade Royale Crue à la Fleur de Sel", price: "46.00€" },
-                    { name: "Sole Meunière Façon Le Duc (entière)", price: "85.00€" },
-                    { name: "Turbot Grillé aux Herbes (pour 2)", price: "180.00€" },
-                    { name: "Pâtes au Homard de Bretagne", price: "75.00€" }
+                    { name: "Carpaccio de Bar au Citron Vert et Huile d'Olive", price_cents: 4800 },
+                    { name: "Tartare de Bar 'Le Duc' (Signé Minchelli)", price_cents: 5200 },
+                    { name: "Sashimi de Thon Rouge d'Exception", price_cents: 5500 },
+                    { name: "Dorade Royale Crue à la Fleur de Sel", price_cents: 4600 },
+                    { name: "Sole Meunière Façon Le Duc (entière)", price_cents: 8500 },
+                    { name: "Turbot Grillé aux Herbes (pour 2)", price_cents: 18000 },
+                    { name: "Pâtes au Homard de Bretagne", price_cents: 7500 }
                 ]
             },
             {
-                category: "Entrées de la Mer",
+                category_type: "starter",
+                display_label: "Entrées de la Mer",
                 items: [
-                    { name: "Huîtres Belon n°00 (les 6)", price: "36.00€" },
-                    { name: "Palourdes Farcies à la façon du chef", price: "28.00€" },
-                    { name: "Soupe de Poissons de Roche", price: "24.00€" },
-                    { name: "Salade de Homard Tiède", price: "62.00€" },
-                    { name: "Friture de Petits Poissons", price: "22.00€" }
+                    { name: "Huîtres Belon n°00 (les 6)", price_cents: 3600 },
+                    { name: "Palourdes Farcies à la façon du chef", price_cents: 2800 },
+                    { name: "Soupe de Poissons de Roche", price_cents: 2400 },
+                    { name: "Salade de Homard Tiède", price_cents: 6200 },
+                    { name: "Friture de Petits Poissons", price_cents: 2200 }
                 ]
             },
             {
-                category: "Douceurs Classiques",
+                category_type: "dessert",
+                display_label: "Douceurs Classiques",
                 items: [
-                    { name: "Soufflé au Grand Marnier (Signé)", price: "22.00€" },
-                    { name: "Sorbet Citron Arrosé de Vodka", price: "18.00€" },
-                    { name: "Mille-Feuille à la Vanille de Tahiti", price: "20.00€" },
-                    { name: "Ardoise de Fromages de chez Cantin", price: "24.00€" }
+                    { name: "Soufflé au Grand Marnier (Signé)", price_cents: 2200 },
+                    { name: "Sorbet Citron Arrosé de Vodka", price_cents: 1800 },
+                    { name: "Mille-Feuille à la Vanille de Tahiti", price_cents: 2000 },
+                    { name: "Ardoise de Fromages de chez Cantin", price_cents: 2400 }
                 ]
             }
         ]

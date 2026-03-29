@@ -42,63 +42,69 @@ export const brasserie_rosie: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Formules (Le Midi en Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Les Formules (Le Midi en Semaine)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Déjeuner (E/P ou P/D)", price: "19.50€", description: "En semaine uniquement, de 11h30 à 17h." },
-                    { name: "Le Menu Brasserie Complet (E/P/D)", price: "39.50€" }
+                    { name: "Formule Déjeuner (E/P ou P/D)", price_cents: 1950, description: "En semaine uniquement, de 11h30 à 17h." },
+                    { name: "Le Menu Brasserie Complet (E/P/D)", price_cents: 3950 }
                 ]
             },
             {
-                category: "L'Écailler & Fruits de Mer",
+                category_type: "other",
+                display_label: "L'Écailler & Fruits de Mer",
                 items: [
-                    { name: "Happy Oysters (3 huîtres + 1 verre blanc)", price: "13.00€" },
-                    { name: "Crevettes (environ 100g)", price: "10.00€" },
-                    { name: "Bigorneaux (environ 300g)", price: "12.50€" },
-                    { name: "Gambas Label Rouge (par 6)", price: "14.50€" },
-                    { name: "1/2 Homard Froid, Mayonnaise", price: "22.50€" },
-                    { name: "Homard Entier, Mayonnaise maison", price: "45.00€" }
+                    { name: "Happy Oysters (3 huîtres + 1 verre blanc)", price_cents: 1300 },
+                    { name: "Crevettes (environ 100g)", price_cents: 1000 },
+                    { name: "Bigorneaux (environ 300g)", price_cents: 1250 },
+                    { name: "Gambas Label Rouge (par 6)", price_cents: 1450 },
+                    { name: "1/2 Homard Froid, Mayonnaise", price_cents: 2250 },
+                    { name: "Homard Entier, Mayonnaise maison", price_cents: 4500 }
                 ]
             },
             {
-                category: "Hors-d'œuvre & Entrées",
+                category_type: "starter",
+                display_label: "Hors-d'œuvre & Entrées",
                 items: [
-                    { name: "Œuf mayonnaise", price: "4.50€" },
-                    { name: "Poireaux vinaigrette", price: "6.50€" },
-                    { name: "Soupe à l'oignon gratinée à la parisienne", price: "8.50€" },
-                    { name: "6 escargots de Bourgogne Label Rouge", price: "9.50€" },
-                    { name: "Terrine des amis par Maison Brosset", price: "11.00€" }
+                    { name: "Œuf mayonnaise", price_cents: 450 },
+                    { name: "Poireaux vinaigrette", price_cents: 650 },
+                    { name: "Soupe à l'oignon gratinée à la parisienne", price_cents: 850 },
+                    { name: "6 escargots de Bourgogne Label Rouge", price_cents: 950 },
+                    { name: "Terrine des amis par Maison Brosset", price_cents: 1100 }
                 ]
             },
             {
-                category: "Plats Principaux Fait-Maison",
+                category_type: "main",
+                display_label: "Plats Principaux Fait-Maison",
                 items: [
-                    { name: "Saucisse purée au jus", price: "15.50€" },
-                    { name: "Ravioles du Royans Label Rouge, crème Parmesan", price: "16.00€" },
-                    { name: "Tartare de bœuf au couteau, frites", price: "17.00€" },
-                    { name: "Suprême de volaille", price: "18.00€" },
-                    { name: "Cordon bleu de Rosalie, coquillettes", price: "18.00€" },
-                    { name: "Coquillettes à la truffe et jambon blanc", price: "18.50€", description: "Le best-seller absolu et ultra-réconfortant de la maison." },
-                    { name: "Pavé de saumon écossais rôti, fondue de poireaux", price: "19.00€" }
+                    { name: "Saucisse purée au jus", price_cents: 1550 },
+                    { name: "Ravioles du Royans Label Rouge, crème Parmesan", price_cents: 1600 },
+                    { name: "Tartare de bœuf au couteau, frites", price_cents: 1700 },
+                    { name: "Suprême de volaille", price_cents: 1800 },
+                    { name: "Cordon bleu de Rosalie, coquillettes", price_cents: 1800 },
+                    { name: "Coquillettes à la truffe et jambon blanc", price_cents: 1850, description: "Le best-seller absolu et ultra-réconfortant de la maison." },
+                    { name: "Pavé de saumon écossais rôti, fondue de poireaux", price_cents: 1900 }
                 ]
             },
             {
-                category: "Desserts (L'artisanat pur)",
+                category_type: "dessert",
+                display_label: "Desserts (L'artisanat pur)",
                 items: [
-                    { name: "Crème brûlée à la vanille Bourbon", price: "9.50€" },
-                    { name: "Île flottante", price: "9.50€" },
-                    { name: "Le fameux Paris-Brest", price: "11.50€" },
-                    { name: "Soufflé au chocolat", price: "12.50€" }
+                    { name: "Crème brûlée à la vanille Bourbon", price_cents: 950 },
+                    { name: "Île flottante", price_cents: 950 },
+                    { name: "Le fameux Paris-Brest", price_cents: 1150 },
+                    { name: "Soufflé au chocolat", price_cents: 1250 }
                 ]
             },
             {
-                category: "Coupes Glacées",
+                category_type: "other",
+                display_label: "Coupes Glacées",
                 items: [
-                    { name: "Coupes 2 boules", price: "8.50€" },
-                    { name: "Coupes 3 boules", price: "10.50€" },
-                    { name: "Café ou Chocolat Liégeois", price: "12.50€" },
-                    { name: "Coupe Nocciolata", price: "12.50€" },
-                    { name: "Dame Blanche", price: "12.50€" }
+                    { name: "Coupes 2 boules", price_cents: 850 },
+                    { name: "Coupes 3 boules", price_cents: 1050 },
+                    { name: "Café ou Chocolat Liégeois", price_cents: 1250 },
+                    { name: "Coupe Nocciolata", price_cents: 1250 },
+                    { name: "Dame Blanche", price_cents: 1250 }
                 ]
             }
         ]

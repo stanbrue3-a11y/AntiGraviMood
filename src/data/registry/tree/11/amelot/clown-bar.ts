@@ -42,58 +42,63 @@ export const clown_bar: SurgicalPlace = {
         last_updated: "2026-03-07",
     menu_items: [
       {
-        category: "Les Menus d'Exception (Menus)",
+        category_type: "tasting_menu",
+        display_label: "Les Menus d'Exception (Menus)",
         items: [
-          { name: "Formule Déjeuner (Entrée-Plat-Dessert) - Semaine", price: "32.00€", description: "La bistronomie du Clown Bar à prix doux.", highlight: true },
-          { name: "Menu 'Carte Blanche' (6 temps)", price: "85.00€", description: "L'expérience complète guidée par le chef.", highlight: true }
+          { name: "Formule Déjeuner (Entrée-Plat-Dessert) - Semaine", price_cents: 3200, description: "La bistronomie du Clown Bar à prix doux.", is_highlight: true },
+          { name: "Menu 'Carte Blanche' (6 temps)", price_cents: 8500, description: "L'expérience complète guidée par le chef.", is_highlight: true }
         ]
       },
       {
-        category: "Entrées & Grignotages Canailles (Entrées)",
+        category_type: "starter",
+        display_label: "Entrées & Grignotages Canailles (Entrées)",
         items: [
-          { name: "Cervelle de Veau, beurre blanc & câpres", price: "18.00€", highlight: true },
-          { name: "Pressé de Tête de Cochon", price: "10.00€" },
-          { name: "Sériole crue, radis & yuzu", price: "15.00€" },
-          { name: "Encornet, chou romanesco & poivre vert", price: "16.00€" },
-          { name: "Burrata, poire & betterave", price: "14.50€" },
-          { name: "Huitres de Bretagne (les 6)", price: "24.00€" },
-          { name: "Sardines marinées & citron", price: "12.00€" },
-          { name: "Cromesquis de joue de bœuf épicées", price: "12.00€" }
+          { name: "Cervelle de Veau, beurre blanc & câpres", price_cents: 1800, is_highlight: true },
+          { name: "Pressé de Tête de Cochon", price_cents: 1000 },
+          { name: "Sériole crue, radis & yuzu", price_cents: 1500 },
+          { name: "Encornet, chou romanesco & poivre vert", price_cents: 1600 },
+          { name: "Burrata, poire & betterave", price_cents: 1450 },
+          { name: "Huitres de Bretagne (les 6)", price_cents: 2400 },
+          { name: "Sardines marinées & citron", price_cents: 1200 },
+          { name: "Cromesquis de joue de bœuf épicées", price_cents: 1200 }
         ]
       },
       {
-        category: "Plats de Mémoire & Création (Plats)",
+        category_type: "main",
+        display_label: "Plats de Mémoire & Création (Plats)",
         items: [
-          { name: "Pithiviers de Canard & Foie Gras", price: "35.00€", description: "Le chef-d'œuvre intemporel de la maison.", highlight: true },
-          { name: "Pigeon de Mesquer, oignon & radicchio", price: "33.00€", highlight: true },
-          { name: "Lieu Jaune de ligne, pak choï & moules", price: "28.00€" },
-          { name: "Barbue snackée, artichauts & beurre blanc", price: "30.00€" },
-          { name: "Cabillaud rôti, coco de Paimpol & herbes", price: "29.00€" },
-          { name: "Épaule d'agneau de lait confite", price: "32.00€" },
-          { name: "Gnocchi maison & crème de parmesan", price: "24.00€" },
-          { name: "Risotto d'épeautre bio & courge rôtie", price: "22.50€" }
+          { name: "Pithiviers de Canard & Foie Gras", price_cents: 3500, description: "Le chef-d'œuvre intemporel de la maison.", is_highlight: true },
+          { name: "Pigeon de Mesquer, oignon & radicchio", price_cents: 3300, is_highlight: true },
+          { name: "Lieu Jaune de ligne, pak choï & moules", price_cents: 2800 },
+          { name: "Barbue snackée, artichauts & beurre blanc", price_cents: 3000 },
+          { name: "Cabillaud rôti, coco de Paimpol & herbes", price_cents: 2900 },
+          { name: "Épaule d'agneau de lait confite", price_cents: 3200 },
+          { name: "Gnocchi maison & crème de parmesan", price_cents: 2400 },
+          { name: "Risotto d'épeautre bio & courge rôtie", price_cents: 2250 }
         ]
       },
       {
-        category: "Douceurs & Pépites Fromagères (Desserts)",
+        category_type: "dessert",
+        display_label: "Douceurs & Pépites Fromagères (Desserts)",
         items: [
-          { name: "Millefeuille monté minute, caramel salé", price: "12.00€", highlight: true },
-          { name: "Tartelette aux figues & glace citron-thym", price: "12.00€" },
-          { name: "Crème brûlée & glace hysope", price: "12.00€" },
-          { name: "Chocolat chaud & glace vanille Ouganda", price: "12.00€" },
-          { name: "Comté 24 mois affiné & miel", price: "12.00€" },
-          { name: "Gouda vieux de la Maison Sanders", price: "10.00€" }
+          { name: "Millefeuille monté minute, caramel salé", price_cents: 1200, is_highlight: true },
+          { name: "Tartelette aux figues & glace citron-thym", price_cents: 1200 },
+          { name: "Crème brûlée & glace hysope", price_cents: 1200 },
+          { name: "Chocolat chaud & glace vanille Ouganda", price_cents: 1200 },
+          { name: "Comté 24 mois affiné & miel", price_cents: 1200 },
+          { name: "Gouda vieux de la Maison Sanders", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave de Vins Natures & Softs (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Vins Natures & Softs (Boissons)",
         items: [
-          { name: "Verre de Vin Nature (Sélection du jour)", price: "9.00€", highlight: true },
-          { name: "Bouteille de Pet-Nat (Bulles)", price: "45.00€" },
-          { name: "Limonade artisanale au sureau", price: "5.50€", highlight: true },
-          { name: "Jus de fruits artisanal (Pomme-Coing)", price: "6.00€" },
-          { name: "Eau micro-filtrée (75cl)", price: "4.50€" },
-          { name: "Café de spécialité (Espresso)", price: "2.50€" }
+          { name: "Verre de Vin Nature (Sélection du jour)", price_cents: 900, is_highlight: true },
+          { name: "Bouteille de Pet-Nat (Bulles)", price_cents: 4500 },
+          { name: "Limonade artisanale au sureau", price_cents: 550, is_highlight: true },
+          { name: "Jus de fruits artisanal (Pomme-Coing)", price_cents: 600 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 450 },
+          { name: "Café de spécialité (Espresso)", price_cents: 250 }
         ]
       }
     ]

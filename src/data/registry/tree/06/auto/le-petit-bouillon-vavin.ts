@@ -39,43 +39,47 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Œuf mayonnaise", price: "2.30€", description: "Le champion du monde" },
-          { name: "Os à moelle grillé, fleur de sel", price: "4.60€", description: "Servi avec ses toasts" },
-          { name: "Hareng et son écrasé de pommes de terre", price: "4.80€" },
-          { name: "Belle terrine de foie de volaille maison", price: "4.60€" },
-          { name: "Gratinée à l'oignon", price: "3.90€", description: "Classique parisien" },
-          { name: "Salade de gésiers de volaille confits", price: "3.90€" }
+          { name: "Œuf mayonnaise", price_cents: 230, description: "Le champion du monde" },
+          { name: "Os à moelle grillé, fleur de sel", price_cents: 460, description: "Servi avec ses toasts" },
+          { name: "Hareng et son écrasé de pommes de terre", price_cents: 480 },
+          { name: "Belle terrine de foie de volaille maison", price_cents: 460 },
+          { name: "Gratinée à l'oignon", price_cents: 390, description: "Classique parisien" },
+          { name: "Salade de gésiers de volaille confits", price_cents: 390 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Bœuf bourguignon aux pommes vapeur", price: "14.90€", description: "Mijoté avec amour" },
-          { name: "Saucisse au couteau Purée", price: "9.20€", description: "Jus de viande lié" },
-          { name: "Lieu noir en papillote, légumes basquaise", price: "13.50€" },
-          { name: "Côte de cochon à l'estragon", price: "12.80€" },
-          { name: "Tartare de bœuf haché minute", price: "11.20€", description: "Frites fraîches" },
-          { name: "Poulet Label Rouge Rôti", price: "10.80€" }
+          { name: "Bœuf bourguignon aux pommes vapeur", price_cents: 1490, description: "Mijoté avec amour" },
+          { name: "Saucisse au couteau Purée", price_cents: 920, description: "Jus de viande lié" },
+          { name: "Lieu noir en papillote, légumes basquaise", price_cents: 1350 },
+          { name: "Côte de cochon à l'estragon", price_cents: 1280 },
+          { name: "Tartare de bœuf haché minute", price_cents: 1120, description: "Frites fraîches" },
+          { name: "Poulet Label Rouge Rôti", price_cents: 1080 }
         ]
       },
       {
-        category: "La Cave / Boissons",
+        category_type: "drink",
+        display_label: "La Cave / Boissons",
         items: [
-          { name: "Kir", price: "2.80€", description: "Cassis, Mûre ou Pêche" },
-          { name: "Beaujolais Rouge (Bouteille)", price: "35.00€" },
-          { name: "Café", price: "1.80€" },
-          { name: "Bière Pression 25cl", price: "3.50€" }
+          { name: "Kir", price_cents: 280, description: "Cassis, Mûre ou Pêche" },
+          { name: "Beaujolais Rouge (Bouteille)", price_cents: 3500 },
+          { name: "Café", price_cents: 180 },
+          { name: "Bière Pression 25cl", price_cents: 350 }
         ]
       },
       {
-        category: "Les Desserts",
+        category_type: "dessert",
+        display_label: "Les Desserts",
         items: [
-          { name: "Profiteroles au chocolat maison", price: "5.80€" },
-          { name: "Île flottante", price: "4.80€" },
-          { name: "Baba au rhum", price: "5.40€" },
-          { name: "Tarte Tatin", price: "5.50€", description: "Crème d'Isigny" }
+          { name: "Profiteroles au chocolat maison", price_cents: 580 },
+          { name: "Île flottante", price_cents: 480 },
+          { name: "Baba au rhum", price_cents: 540 },
+          { name: "Tarte Tatin", price_cents: 550, description: "Crème d'Isigny" }
         ]
       }
     ]

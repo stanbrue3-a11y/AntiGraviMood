@@ -41,42 +41,46 @@ export const le_p_tit_canon: SurgicalPlace = {
     verified_at: "2026-03-27",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Œufs mayonnaise bio", price: "7.00€" },
-          { name: "Escargots de la Maison de l'Escargot (x12)", price: "18.00€" },
-          { name: "Salade de poireaux vinaigrette", price: "7.50€" },
-          { name: "Filets de harengs, pommes à l'huile tièdes", price: "8.50€" },
-          { name: "Terrine de porc et ses cornichons", price: "8.50€" },
-          { name: "Bâtonnets de mozzarella", price: "9.00€" }
+          { name: "Œufs mayonnaise bio", price_cents: 700 },
+          { name: "Escargots de la Maison de l'Escargot (x12)", price_cents: 1800 },
+          { name: "Salade de poireaux vinaigrette", price_cents: 750 },
+          { name: "Filets de harengs, pommes à l'huile tièdes", price_cents: 850 },
+          { name: "Terrine de porc et ses cornichons", price_cents: 850 },
+          { name: "Bâtonnets de mozzarella", price_cents: 900 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Tartare de bœuf au couteau, frites", price: "20.00€" },
-          { name: "Bacon Cheeseburger, frites maison", price: "22.00€" },
-          { name: "Saucisse purée, jus de viande corsé", price: "22.00€" },
-          { name: "Andouillette 5A, sauce moutarde", price: "24.00€" },
-          { name: "Cassoulet traditionnel maison", price: "23.00€" },
-          { name: "Cuisse de canard confite, pommes de terre sautées", price: "26.00€" }
+          { name: "Tartare de bœuf au couteau, frites", price_cents: 2000 },
+          { name: "Bacon Cheeseburger, frites maison", price_cents: 2200 },
+          { name: "Saucisse purée, jus de viande corsé", price_cents: 2200 },
+          { name: "Andouillette 5A, sauce moutarde", price_cents: 2400 },
+          { name: "Cassoulet traditionnel maison", price_cents: 2300 },
+          { name: "Cuisse de canard confite, pommes de terre sautées", price_cents: 2600 }
         ]
       },
       {
-        category: "Desserts & Douceurs",
+        category_type: "dessert",
+        display_label: "Desserts & Douceurs",
         items: [
-          { name: "Mousse au chocolat maison", price: "8.00€" },
-          { name: "Tarte aux pommes et glace vanille", price: "11.00€" },
-          { name: "Baba au Rhum traditionnel", price: "11.00€" },
-          { name: "Assiette de fromages affinés", price: "10.00€" }
+          { name: "Mousse au chocolat maison", price_cents: 800 },
+          { name: "Tarte aux pommes et glace vanille", price_cents: 1100 },
+          { name: "Baba au Rhum traditionnel", price_cents: 1100 },
+          { name: "Assiette de fromages affinés", price_cents: 1000 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Saumur-Champigny - Paul Filliatreau", price: "28.00€" },
-          { name: "Champagne Gimmonet Gonnet (Bouteille)", price: "80.00€" },
-          { name: "Verre de Pic-Saint-Loup 2022", price: "7.50€" }
+          { name: "Saumur-Champigny - Paul Filliatreau", price_cents: 2800 },
+          { name: "Champagne Gimmonet Gonnet (Bouteille)", price_cents: 8000 },
+          { name: "Verre de Pic-Saint-Loup 2022", price_cents: 750 }
         ]
       }
     ]

@@ -43,47 +43,51 @@ export const pianovins: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "L'Expérience Pianovins (Déjeuner)",
+                category_type: "drink",
+                display_label: "L'Expérience Pianovins (Déjeuner)",
                 items: [
                     // VERIFIED: Emmanuel Sudres 2024-2025
-                    { name: "Menu Déjeuner 'Le Marché' (3 temps)", price: "35.00€", description: "Entrée, Plat, Dessert selon l'inspiration du jour et les arrivages du marché." },
-                    { name: "Accords Mets & Vins Déjeuner (2 verres)", price: "22.00€" }
+                    { name: "Menu Déjeuner 'Le Marché' (3 temps)", price_cents: 3500, description: "Entrée, Plat, Dessert selon l'inspiration du jour et les arrivages du marché." },
+                    { name: "Accords Mets & Vins Déjeuner (2 verres)", price_cents: 2200 }
                 ]
             },
             {
-                category: "L'Immersion Gastronomique (Dîner)",
+                category_type: "other",
+                display_label: "L'Immersion Gastronomique (Dîner)",
                 items: [
-                    { name: "Menu 'Pianovins' en 5 services", price: "75.00€", description: "Menu Dégustation à l'aveugle, l'évolution gastronomique complète." },
-                    { name: "Menu 'Grande Balade' en 8 services", price: "95.00€", description: "Le voyage ultime en 8 étapes (selon disponibilité)." },
-                    { name: "Accords Mets & Vins Dîner (5 verres)", price: "45.00€" }
+                    { name: "Menu 'Pianovins' en 5 services", price_cents: 7500, description: "Menu Dégustation à l'aveugle, l'évolution gastronomique complète." },
+                    { name: "Menu 'Grande Balade' en 8 services", price_cents: 9500, description: "Le voyage ultime en 8 étapes (selon disponibilité)." },
+                    { name: "Accords Mets & Vins Dîner (5 verres)", price_cents: 4500 }
                 ]
             },
             {
-                category: "Inspirations & Signatures (Exemples 2025)",
+                category_type: "other",
+                display_label: "Inspirations & Signatures (Exemples 2025)",
                 items: [
-                    { name: "Soupe de patate douce, huile de café & cardamome", price: "Inclus", description: "Un classique de la douceur pianique." },
-                    { name: "Œuf parfait, racine de cerfeuil tubéreux & noisettes", price: "Inclus" },
-                    { name: "Carpaccio de Saint-Jacques, émulsion gingembre-citronnelle", price: "Inclus" },
-                    { name: "Lieu jaune de ligne, heliantis et salicorne", price: "Inclus" },
-                    { name: "Filet de canette, purée de panais, jus corsé au miel", price: "Inclus" },
-                    { name: "Carré de porc de montagne, oignon rouge confit", price: "Inclus" },
-                    { name: "Saint-Nectaire fermier affiné, confiture de vieux garçon", price: "Inclus" },
-                    { name: "Clementine en textures, sorbet thym-citron", price: "Inclus" },
-                    { name: "Ganache chocolat grand cru, sarrasin grillé", price: "Inclus" },
-                    { name: "Mise en bouche du moment", price: "Inclus" },
-                    { name: "Beurre de baratte Jean-Yves Bordier", price: "Inclus" },
-                    { name: "Pain artisanal de la boulangerie voisine", price: "Inclus" },
-                    { name: "Palette de mignardises", price: "Inclus" },
-                    { name: "Eau micro-filtrée (Castalie)", price: "Inclus" }
+                    { name: "Soupe de patate douce, huile de café & cardamome", price_cents: 0, description: "Un classique de la douceur pianique." },
+                    { name: "Œuf parfait, racine de cerfeuil tubéreux & noisettes", price_cents: 0 },
+                    { name: "Carpaccio de Saint-Jacques, émulsion gingembre-citronnelle", price_cents: 0 },
+                    { name: "Lieu jaune de ligne, heliantis et salicorne", price_cents: 0 },
+                    { name: "Filet de canette, purée de panais, jus corsé au miel", price_cents: 0 },
+                    { name: "Carré de porc de montagne, oignon rouge confit", price_cents: 0 },
+                    { name: "Saint-Nectaire fermier affiné, confiture de vieux garçon", price_cents: 0 },
+                    { name: "Clementine en textures, sorbet thym-citron", price_cents: 0 },
+                    { name: "Ganache chocolat grand cru, sarrasin grillé", price_cents: 0 },
+                    { name: "Mise en bouche du moment", price_cents: 0 },
+                    { name: "Beurre de baratte Jean-Yves Bordier", price_cents: 0 },
+                    { name: "Pain artisanal de la boulangerie voisine", price_cents: 0 },
+                    { name: "Palette de mignardises", price_cents: 0 },
+                    { name: "Eau micro-filtrée (Castalie)", price_cents: 0 }
                 ]
             },
             {
-                category: "La Sélection Cave Pointue",
+                category_type: "drink",
+                display_label: "La Sélection Cave Pointue",
                 items: [
-                    { name: "Verre de vin (Sélection Eric Mancio)", price: "12.00€" },
-                    { name: "Coupe de Champagne (Maison sélectionnée)", price: "16.00€" },
-                    { name: "Verre de vin blanc 'Cuvée d'Exception'", price: "15.00€" },
-                    { name: "Café de spécialité & mignardises", price: "7.00€" }
+                    { name: "Verre de vin (Sélection Eric Mancio)", price_cents: 1200 },
+                    { name: "Coupe de Champagne (Maison sélectionnée)", price_cents: 1600 },
+                    { name: "Verre de vin blanc 'Cuvée d'Exception'", price_cents: 1500 },
+                    { name: "Café de spécialité & mignardises", price_cents: 700 }
                 ]
             }
         ]

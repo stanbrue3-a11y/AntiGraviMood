@@ -45,36 +45,40 @@ export const tarantula: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Tarántula Paris 2024-2025
             {
-                category: "Antojitos (Petites Assiettes)",
+                category_type: "other",
+                display_label: "Antojitos (Petites Assiettes)",
                 items: [
-                    { name: "Tacos de champignons sauvages 'hallucinogènes'", price: "12.00€" },
-                    { name: "Oignon Roscoff rôti au piment jaune", price: "14.00€" },
-                    { name: "Tuna Crudo, sauce chilaca", price: "18.00€" },
-                    { name: "Empanada croustillante de Chicharrón", price: "11.00€" }
+                    { name: "Tacos de champignons sauvages 'hallucinogènes'", price_cents: 1200 },
+                    { name: "Oignon Roscoff rôti au piment jaune", price_cents: 1400 },
+                    { name: "Tuna Crudo, sauce chilaca", price_cents: 1800 },
+                    { name: "Empanada croustillante de Chicharrón", price_cents: 1100 }
                 ]
             },
             {
-                category: "Platos Fuertes (Plats à partager)",
+                category_type: "main",
+                display_label: "Platos Fuertes (Plats à partager)",
                 items: [
-                    { name: "Demi-poulet rôti au beurre de piment japone", price: "28.00€" },
-                    { name: "Entrecôte (500g) sauce Café de Paris Mexicana", price: "52.00€", description: "Idéal pour deux." },
-                    { name: "Tacos Cantinero (boeuf braisé lentement)", price: "24.00€" },
-                    { name: "Lieu jaune, salsa verde & herbes fraîches", price: "26.00€" }
+                    { name: "Demi-poulet rôti au beurre de piment japone", price_cents: 2800 },
+                    { name: "Entrecôte (500g) sauce Café de Paris Mexicana", price_cents: 5200, description: "Idéal pour deux." },
+                    { name: "Tacos Cantinero (boeuf braisé lentement)", price_cents: 2400 },
+                    { name: "Lieu jaune, salsa verde & herbes fraîches", price_cents: 2600 }
                 ]
             },
             {
-                category: "Postres (Desserts)",
+                category_type: "dessert",
+                display_label: "Postres (Desserts)",
                 items: [
-                    { name: "Flan au caramel, huile d'olive & romarin frit", price: "10.00€", description: "Le dessert signature incontournable." },
-                    { name: "Gâteau de maïs, crème de Mezcal", price: "9.50€" }
+                    { name: "Flan au caramel, huile d'olive & romarin frit", price_cents: 1000, description: "Le dessert signature incontournable." },
+                    { name: "Gâteau de maïs, crème de Mezcal", price_cents: 950 }
                 ]
             },
             {
-                category: "Bebidas",
+                category_type: "other",
+                display_label: "Bebidas",
                 items: [
-                    { name: "Margarita Maison", price: "13.00€" },
-                    { name: "Verre de Mezcal sélection", price: "9.00€" },
-                    { name: "Soda UMÀ Green Tea / Lemonade", price: "7.00€" }
+                    { name: "Margarita Maison", price_cents: 1300 },
+                    { name: "Verre de Mezcal sélection", price_cents: 900 },
+                    { name: "Soda UMÀ Green Tea / Lemonade", price_cents: 700 }
                 ]
             }
         ]

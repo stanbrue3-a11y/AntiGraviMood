@@ -43,47 +43,52 @@ export const melt_oberkampf: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
-                category: "Viandes Fumées (Au Poids)",
+                category_type: "main",
+                display_label: "Viandes Fumées (Au Poids)",
                 items: [
                     // VERIFIED: Uber Eats + Site officiel (2024-2025)
-                    { name: "Brisket (200g)", price: "18.90€", description: "Poitrine de bœuf Black Angus, fumée 15h, fondante." },
-                    { name: "Pulled Pork (200g)", price: "18.00€", description: "Épaule de cochon effilochée." }
+                    { name: "Brisket (200g)", price_cents: 1890, description: "Poitrine de bœuf Black Angus, fumée 15h, fondante." },
+                    { name: "Pulled Pork (200g)", price_cents: 1800, description: "Épaule de cochon effilochée." }
                 ]
             },
             {
-                category: "Sandwichs & Buns",
+                category_type: "other",
+                display_label: "Sandwichs & Buns",
                 items: [
-                    { name: "Brisket Sandwich", price: "20.90€", description: "Brisket fumé 15h, bun artisanal, sauce BBQ, pickles maison." },
-                    { name: "Beef Cheek Bun", price: "18.90€", description: "Joue de bœuf fumée 10h et confite 5h." },
-                    { name: "Black Angus Burger", price: "16.50€", description: "Double steak Black Angus, double cheddar, fancy sauce." },
-                    { name: "Pulled Pork Sandwich", price: "14.00€", description: "Sauce BBQ et coleslaw." },
-                    { name: "Fried Chicken Sandwich", price: "13.00€", description: "Poulet frit croustillant." }
+                    { name: "Brisket Sandwich", price_cents: 2090, description: "Brisket fumé 15h, bun artisanal, sauce BBQ, pickles maison." },
+                    { name: "Beef Cheek Bun", price_cents: 1890, description: "Joue de bœuf fumée 10h et confite 5h." },
+                    { name: "Black Angus Burger", price_cents: 1650, description: "Double steak Black Angus, double cheddar, fancy sauce." },
+                    { name: "Pulled Pork Sandwich", price_cents: 1400, description: "Sauce BBQ et coleslaw." },
+                    { name: "Fried Chicken Sandwich", price_cents: 1300, description: "Poulet frit croustillant." }
                 ]
             },
             {
-                category: "Sides",
+                category_type: "other",
+                display_label: "Sides",
                 items: [
-                    { name: "Brisket chili cheese smash", price: "10.50€" },
-                    { name: "Smash potatoes", price: "5.50€" },
-                    { name: "Sweet potato rôtie", price: "6.50€" },
-                    { name: "Cornbread", price: "4.00€" },
-                    { name: "Coleslaw maison", price: "4.50€" },
-                    { name: "Mac & Cheese", price: "7.00€" }
+                    { name: "Brisket chili cheese smash", price_cents: 1050 },
+                    { name: "Smash potatoes", price_cents: 550 },
+                    { name: "Sweet potato rôtie", price_cents: 650 },
+                    { name: "Cornbread", price_cents: 400 },
+                    { name: "Coleslaw maison", price_cents: 450 },
+                    { name: "Mac & Cheese", price_cents: 700 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Cookie géant chocolat", price: "5.00€" },
-                    { name: "Pecan Pie", price: "7.00€" }
+                    { name: "Cookie géant chocolat", price_cents: 500 },
+                    { name: "Pecan Pie", price_cents: 700 }
                 ]
             },
             {
-                category: "Boissons",
+                category_type: "drink",
+                display_label: "Boissons",
                 items: [
-                    { name: "Pinte de bière artisanale (Pale Ale)", price: "8.00€" },
-                    { name: "Soft américain (Dr Pepper, Root Beer)", price: "4.50€" },
-                    { name: "Verre de vin (à partir de)", price: "6.00€" }
+                    { name: "Pinte de bière artisanale (Pale Ale)", price_cents: 800 },
+                    { name: "Soft américain (Dr Pepper, Root Beer)", price_cents: 450 },
+                    { name: "Verre de vin (à partir de)", price_cents: 600 }
                 ]
             }
         ]

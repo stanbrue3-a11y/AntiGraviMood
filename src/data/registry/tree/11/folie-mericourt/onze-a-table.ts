@@ -47,79 +47,85 @@ export const onze_a_table: SurgicalPlace = {
             // BRUNCH DU DIMANCHE (Source: OuBruncher + site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "Brunch du Dimanche (10h-16h)",
+                category_type: "other",
+                display_label: "Brunch du Dimanche (10h-16h)",
                 items: [
                     // VERIFIED: OuBruncher (2024)
-                    { name: "Brunch complet (salé + sucré)", price: "34.00€", description: "Brunch généreux avec large choix salé et sucré." }
+                    { name: "Brunch complet (salé + sucré)", price_cents: 3400, description: "Brunch généreux avec large choix salé et sucré." }
                 ]
             },
             // ═══════════════════════════════════════════
             // ENTRÉES (Source: site officiel onzeatable.paris)
             // ═══════════════════════════════════════════
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
                     // VERIFIED: Site officiel (2024)
-                    { name: "Œufs mayo façon César", price: "9.00€" },
-                    { name: "Champignons farcis", price: "10.00€" },
-                    { name: "Soupe à l'oignon", price: "10.00€" },
-                    { name: "Velouté de butternut", price: "12.00€" },
-                    { name: "Carpaccio de bar", price: "13.00€" },
-                    { name: "Foie gras de canard mi-cuit maison", price: "18.00€" }
+                    { name: "Œufs mayo façon César", price_cents: 900 },
+                    { name: "Champignons farcis", price_cents: 1000 },
+                    { name: "Soupe à l'oignon", price_cents: 1000 },
+                    { name: "Velouté de butternut", price_cents: 1200 },
+                    { name: "Carpaccio de bar", price_cents: 1300 },
+                    { name: "Foie gras de canard mi-cuit maison", price_cents: 1800 }
                 ]
             },
             // ═══════════════════════════════════════════
             // À PARTAGER / APÉRO (Source: site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "À Partager / Apéro",
+                category_type: "sharing",
+                display_label: "À Partager / Apéro",
                 items: [
-                    { name: "Croque à la truffe", price: "18.00€" },
-                    { name: "Planche de charcuteries", price: "19.00€" },
-                    { name: "Planche mixte (charcuterie + fromage)", price: "20.00€" }
+                    { name: "Croque à la truffe", price_cents: 1800 },
+                    { name: "Planche de charcuteries", price_cents: 1900 },
+                    { name: "Planche mixte (charcuterie + fromage)", price_cents: 2000 }
                 ]
             },
             // ═══════════════════════════════════════════
             // PLATS (Source: site officiel onzeatable.paris)
             // ═══════════════════════════════════════════
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Site officiel (2024) — plats 20-37€
-                    { name: "Tartare de bœuf", price: "20.00€" },
-                    { name: "Spaghetti à la crème de truffe", price: "21.00€" },
-                    { name: "Burger de bœuf effiloché", price: "23.00€" },
-                    { name: "Tataki de thon crispy", price: "27.00€" },
-                    { name: "Effiloché d'épaule d'agneau confite", price: "28.00€" },
-                    { name: "Dos de saumon laqué au soja", price: "29.00€" },
-                    { name: "Noix de Saint-Jacques", price: "35.00€" },
-                    { name: "Noix d'entrecôte d'Argentine 250g", price: "37.00€" }
+                    { name: "Tartare de bœuf", price_cents: 2000 },
+                    { name: "Spaghetti à la crème de truffe", price_cents: 2100 },
+                    { name: "Burger de bœuf effiloché", price_cents: 2300 },
+                    { name: "Tataki de thon crispy", price_cents: 2700 },
+                    { name: "Effiloché d'épaule d'agneau confite", price_cents: 2800 },
+                    { name: "Dos de saumon laqué au soja", price_cents: 2900 },
+                    { name: "Noix de Saint-Jacques", price_cents: 3500 },
+                    { name: "Noix d'entrecôte d'Argentine 250g", price_cents: 3700 }
                 ]
             },
             // ═══════════════════════════════════════════
             // DESSERTS & FROMAGES (Source: site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
                     // VERIFIED: Site officiel (2024) — desserts 10-13€
-                    { name: "Brioche façon pain perdu", price: "10.00€" },
-                    { name: "Crème brûlée", price: "10.00€" },
-                    { name: "Tartelette au citron meringuée", price: "10.00€" },
-                    { name: "Fondant au chocolat", price: "11.00€" },
-                    { name: "Assortiment de 3 fromages", price: "11.00€" },
-                    { name: "Café gourmand", price: "13.00€" }
+                    { name: "Brioche façon pain perdu", price_cents: 1000 },
+                    { name: "Crème brûlée", price_cents: 1000 },
+                    { name: "Tartelette au citron meringuée", price_cents: 1000 },
+                    { name: "Fondant au chocolat", price_cents: 1100 },
+                    { name: "Assortiment de 3 fromages", price_cents: 1100 },
+                    { name: "Café gourmand", price_cents: 1300 }
                 ]
             },
             // ═══════════════════════════════════════════
             // VINS — VIGNERONS INDÉPENDANTS (Source: site officiel)
             // ═══════════════════════════════════════════
             {
-                category: "Vins (Vignerons Indépendants)",
+                category_type: "drink",
+                display_label: "Vins (Vignerons Indépendants)",
                 items: [
-                    { name: "Verre de vin (sélection du moment)", price: "8.00€" },
-                    { name: "Bouteille (à partir de)", price: "28.00€" },
-                    { name: "Cocktails créations", price: "13.00€" }
+                    { name: "Verre de vin (sélection du moment)", price_cents: 800 },
+                    { name: "Bouteille (à partir de)", price_cents: 2800 },
+                    { name: "Cocktails créations", price_cents: 1300 }
                 ]
             }
         ]

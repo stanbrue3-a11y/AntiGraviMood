@@ -43,39 +43,43 @@ export const grappoli: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Antipasti (Le partage à l'italienne)",
+                category_type: "other",
+                display_label: "Antipasti (Le partage à l'italienne)",
                 items: [
-                    { name: "Burrata des Pouilles & Tomates cerises", price: "13.50€" },
-                    { name: "Vitello Tonnato traditionnel", price: "16.00€" },
-                    { name: "Beignets de Mozzarella (Fritters)", price: "11.50€" },
-                    { name: "Planche de charcuterie transalpine", price: "19.00€" },
-                    { name: "Focaccia romarin & fleur de sel", price: "6.00€" }
+                    { name: "Burrata des Pouilles & Tomates cerises", price_cents: 1350 },
+                    { name: "Vitello Tonnato traditionnel", price_cents: 1600 },
+                    { name: "Beignets de Mozzarella (Fritters)", price_cents: 1150 },
+                    { name: "Planche de charcuterie transalpine", price_cents: 1900 },
+                    { name: "Focaccia romarin & fleur de sel", price_cents: 600 }
                 ]
             },
             {
-                category: "Pizze au feu de bois",
+                category_type: "other",
+                display_label: "Pizze au feu de bois",
                 items: [
-                    { name: "Pizze Grappoli (Parme, Roquette, Tomate, Mozza)", price: "18.50€" },
-                    { name: "Margherita di Buffala Classica", price: "14.50€" },
-                    { name: "Diavola (Salami piquant, N'duja)", price: "16.50€" },
-                    { name: "Tartufo (Crème de truffe, Champignons)", price: "19.50€" }
+                    { name: "Pizze Grappoli (Parme, Roquette, Tomate, Mozza)", price_cents: 1850 },
+                    { name: "Margherita di Buffala Classica", price_cents: 1450 },
+                    { name: "Diavola (Salami piquant, N'duja)", price_cents: 1650 },
+                    { name: "Tartufo (Crème de truffe, Champignons)", price_cents: 1950 }
                 ]
             },
             {
-                category: "Pasta Fresca & Secondi",
+                category_type: "main",
+                display_label: "Pasta Fresca & Secondi",
                 items: [
-                    { name: "Linguine à la Vongole (Palourdes)", price: "21.00€" },
-                    { name: "Spaghetti alla Carbonara (Guanciale)", price: "17.50€" },
-                    { name: "Penne alla Norma (Aubergines, Ricotta)", price: "16.00€" },
-                    { name: "Escalope de Veau Milanaise", price: "22.50€" }
+                    { name: "Linguine à la Vongole (Palourdes)", price_cents: 2100 },
+                    { name: "Spaghetti alla Carbonara (Guanciale)", price_cents: 1750 },
+                    { name: "Penne alla Norma (Aubergines, Ricotta)", price_cents: 1600 },
+                    { name: "Escalope de Veau Milanaise", price_cents: 2250 }
                 ]
             },
             {
-                category: "Dolci",
+                category_type: "other",
+                display_label: "Dolci",
                 items: [
-                    { name: "Tiramisu della Nonna", price: "8.50€" },
-                    { name: "Panna Cotta aux fruits rouges", price: "7.50€" },
-                    { name: "Profiterole Géante au chocolat chaud", price: "10.00€" }
+                    { name: "Tiramisu della Nonna", price_cents: 850 },
+                    { name: "Panna Cotta aux fruits rouges", price_cents: 750 },
+                    { name: "Profiterole Géante au chocolat chaud", price_cents: 1000 }
                 ]
             }
         ]

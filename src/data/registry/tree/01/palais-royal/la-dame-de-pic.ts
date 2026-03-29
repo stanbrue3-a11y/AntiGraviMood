@@ -40,47 +40,51 @@ export const la_dame_de_pic: SurgicalPlace = {
     last_updated: "2026-03-23",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Les Berlingots iconiques (Soba et café)", price: "45.00€", description: "Cœur coulant au Brillat-Savarin" },
-          { name: "Betterave plurielle (Longuemare)", price: "32.00€", description: "Infusée au café et poivron" },
-          { name: "Huître Marennes d'Oléron fumée", price: "38.00€", description: "Bois de cerisier et mélisse" },
-          { name: "Tourteau de casier au géranium", price: "42.00€", description: "Petits pois et fraises vertes" },
-          { name: "Caviar Baeri et glace plancton", price: "65.00€" },
-          { name: "Soupe de l'Himalaya aux lentilles", price: "28.00€" }
+          { name: "Les Berlingots iconiques (Soba et café)", price_cents: 4500, description: "Cœur coulant au Brillat-Savarin" },
+          { name: "Betterave plurielle (Longuemare)", price_cents: 3200, description: "Infusée au café et poivron" },
+          { name: "Huître Marennes d'Oléron fumée", price_cents: 3800, description: "Bois de cerisier et mélisse" },
+          { name: "Tourteau de casier au géranium", price_cents: 4200, description: "Petits pois et fraises vertes" },
+          { name: "Caviar Baeri et glace plancton", price_cents: 6500 },
+          { name: "Soupe de l'Himalaya aux lentilles", price_cents: 2800 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Pigeon de la Drôme fumé au café", price: "62.00€", description: "Accompagné de petits pois" },
-          { name: "Lotte de petits bateaux (Tasmanie)", price: "58.00€", description: "Poivre et asperges blanches" },
-          { name: "Wagyu Japonais A5 (Supplément)", price: "50.00€" },
-          { name: "Sériole de ligne à la bergamote", price: "54.00€" },
-          { name: "Saint-Jacques de la Baie de Seine", price: "56.00€" },
-          { name: "Ris de veau croustillant au combawa", price: "64.00€" },
-          { name: "Bar de ligne au poivre blanc", price: "60.00€" },
-          { name: "Volaille de Bresse à la truffe", price: "68.00€" }
+          { name: "Pigeon de la Drôme fumé au café", price_cents: 6200, description: "Accompagné de petits pois" },
+          { name: "Lotte de petits bateaux (Tasmanie)", price_cents: 5800, description: "Poivre et asperges blanches" },
+          { name: "Wagyu Japonais A5 (Supplément)", price_cents: 5000 },
+          { name: "Sériole de ligne à la bergamote", price_cents: 5400 },
+          { name: "Saint-Jacques de la Baie de Seine", price_cents: 5600 },
+          { name: "Ris de veau croustillant au combawa", price_cents: 6400 },
+          { name: "Bar de ligne au poivre blanc", price_cents: 6000 },
+          { name: "Volaille de Bresse à la truffe", price_cents: 6800 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Millefeuille Blanc au poivre Cubèbe", price: "24.00€", description: "La signature d'Anne-Sophie Pic" },
-          { name: "Chocolat de la Drôme et genévrier", price: "22.00€" },
-          { name: "Rhubarbe et Mélisse en textures", price: "20.00€" },
-          { name: "Fraise Gariguette et Shiso", price: "22.00€" },
-          { name: "Miel de forêt et glace onctueuse", price: "18.00€" },
-          { name: "Café gourmand (5 mignardises)", price: "25.00€" }
+          { name: "Millefeuille Blanc au poivre Cubèbe", price_cents: 2400, description: "La signature d'Anne-Sophie Pic" },
+          { name: "Chocolat de la Drôme et genévrier", price_cents: 2200 },
+          { name: "Rhubarbe et Mélisse en textures", price_cents: 2000 },
+          { name: "Fraise Gariguette et Shiso", price_cents: 2200 },
+          { name: "Miel de forêt et glace onctueuse", price_cents: 1800 },
+          { name: "Café gourmand (5 mignardises)", price_cents: 2500 }
         ]
       },
       {
-        category: "La Cave / Boissons",
+        category_type: "drink",
+        display_label: "La Cave / Boissons",
         items: [
-          { name: "Accord Mets & Vins (Séquence Plaisir)", price: "95.00€" },
-          { name: "Accord Mets & Boissons sans alcool", price: "75.00€" },
-          { name: "Coupe de Champagne ASP", price: "28.00€" },
-          { name: "Sélection de Thés Rares", price: "12.00€" }
+          { name: "Accord Mets & Vins (Séquence Plaisir)", price_cents: 9500 },
+          { name: "Accord Mets & Boissons sans alcool", price_cents: 7500 },
+          { name: "Coupe de Champagne ASP", price_cents: 2800 },
+          { name: "Sélection de Thés Rares", price_cents: 1200 }
         ]
       }
     ]

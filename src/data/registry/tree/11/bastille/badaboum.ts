@@ -46,31 +46,34 @@ export const badaboum: SurgicalPlace = {
         "last_updated": "2024-03-08",
         "menu_items": [
             {
-                "category": "Cocktails Signature",
+                "category_type": "drink",
+                "display_label": "Cocktails Signature",
                 "items": [
-                    { "name": "Gin Thé-Nic (Gin, Thé, Tonic)", "price": "14.00€" },
-                    { "name": "Bloody Porto (Vodka, Porto, Tomate)", "price": "14.00€" },
-                    { "name": "Badaboum Mule", "price": "13.00€" },
-                    { "name": "Spritz Maison", "price": "12.00€" }
+                    { "name": "Gin Thé-Nic (Gin, Thé, Tonic)", "price_cents": 1400 },
+                    { "name": "Bloody Porto (Vodka, Porto, Tomate)", "price_cents": 1400 },
+                    { "name": "Badaboum Mule", "price_cents": 1300 },
+                    { "name": "Spritz Maison", "price_cents": 1200 }
                 ]
             },
             {
-                "category": "Bières Pression",
+                "category_type": "other",
+                "display_label": "Bières Pression",
                 "items": [
-                    { "name": "Pinte de Blonde (Bud)", "price": "9.00€" },
-                    { "name": "Demi de Blonde (Bud)", "price": "5.00€" },
-                    { "name": "Pinte IPA Artisanale", "price": "10.00€" },
-                    { "name": "Super 8 (Tap)", "price": "9.50€" }
+                    { "name": "Pinte de Blonde (Bud)", "price_cents": 900 },
+                    { "name": "Demi de Blonde (Bud)", "price_cents": 500 },
+                    { "name": "Pinte IPA Artisanale", "price_cents": 1000 },
+                    { "name": "Super 8 (Tap)", "price_cents": 950 }
                 ]
             },
             {
-                "category": "Finger Food (Cantine)",
+                "category_type": "other",
+                "display_label": "Finger Food (Cantine)",
                 "items": [
-                    { "name": "Frites Maison / Potatoes", "price": "6.00€" },
-                    { "name": "Planche de Charcuterie artisanale", "price": "16.00€" },
-                    { "name": "Planche de Fromages affinés", "price": "16.00€" },
-                    { "name": "Planche Mixte XXL", "price": "22.00€" },
-                    { "name": "Tacos du moment (3 pcs)", "price": "12.00€" }
+                    { "name": "Frites Maison / Potatoes", "price_cents": 600 },
+                    { "name": "Planche de Charcuterie artisanale", "price_cents": 1600 },
+                    { "name": "Planche de Fromages affinés", "price_cents": 1600 },
+                    { "name": "Planche Mixte XXL", "price_cents": 2200 },
+                    { "name": "Tacos du moment (3 pcs)", "price_cents": 1200 }
                 ]
             }
         ]

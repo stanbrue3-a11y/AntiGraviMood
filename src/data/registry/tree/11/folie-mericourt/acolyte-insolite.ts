@@ -42,42 +42,46 @@ export const acolyte_insolite: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Les Assiettes Insolites (Entrées & Tapas)",
+                category_type: "starter",
+                display_label: "Les Assiettes Insolites (Entrées & Tapas)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Assiette de frites maison", price: "3.00€" },
-                    { name: "Assiette de Melon à l'italienne", price: "5.00€" },
-                    { name: "Antipasti de légumes confits", price: "8.00€" },
-                    { name: "Foie Gras Maison", price: "14.00€" },
-                    { name: "Takoyaki fusion (spécialité japonaise poulpe)", price: "12.00€" },
-                    { name: "Asperges au Parmesan", price: "10.00€" }
+                    { name: "Assiette de frites maison", price_cents: 300 },
+                    { name: "Assiette de Melon à l'italienne", price_cents: 500 },
+                    { name: "Antipasti de légumes confits", price_cents: 800 },
+                    { name: "Foie Gras Maison", price_cents: 1400 },
+                    { name: "Takoyaki fusion (spécialité japonaise poulpe)", price_cents: 1200 },
+                    { name: "Asperges au Parmesan", price_cents: 1000 }
                 ]
             },
             {
-                category: "Les Salades & Sandwichs Garni",
+                category_type: "other",
+                display_label: "Les Salades & Sandwichs Garni",
                 items: [
-                    { name: "Le Provençal (Sandwich travaillé)", price: "9.00€" },
-                    { name: "Salade Crétoise", price: "12.00€" },
-                    { name: "Salade Igp", price: "13.00€" }
+                    { name: "Le Provençal (Sandwich travaillé)", price_cents: 900 },
+                    { name: "Salade Crétoise", price_cents: 1200 },
+                    { name: "Salade Igp", price_cents: 1300 }
                 ]
             },
             {
-                category: "Les Les Plats (Hybrides)",
+                category_type: "main",
+                display_label: "Les Les Plats (Hybrides)",
                 items: [
-                    { name: "Pizza Fusion", price: "14.00€" },
-                    { name: "Udon au poulet, touches japonaises", price: "15.00€" },
-                    { name: "Tartare de Bœuf préparé minute, frites", price: "16.00€" },
-                    { name: "Risotto onctueux au Poisson blanc", price: "18.00€" },
-                    { name: "Magret de Canard, jus réduit", price: "19.00€" },
-                    { name: "Saint-Jacques snackées", price: "22.00€" }
+                    { name: "Pizza Fusion", price_cents: 1400 },
+                    { name: "Udon au poulet, touches japonaises", price_cents: 1500 },
+                    { name: "Tartare de Bœuf préparé minute, frites", price_cents: 1600 },
+                    { name: "Risotto onctueux au Poisson blanc", price_cents: 1800 },
+                    { name: "Magret de Canard, jus réduit", price_cents: 1900 },
+                    { name: "Saint-Jacques snackées", price_cents: 2200 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Tiramisu maison", price: "7.00€" },
-                    { name: "Fondant au chocolat", price: "7.00€" },
-                    { name: "Pâtisserie du jour", price: "8.00€" }
+                    { name: "Tiramisu maison", price_cents: 700 },
+                    { name: "Fondant au chocolat", price_cents: 700 },
+                    { name: "Pâtisserie du jour", price_cents: 800 }
                 ]
             }
         ]

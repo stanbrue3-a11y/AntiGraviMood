@@ -45,25 +45,27 @@ export const machizo: SurgicalPlace = {
         menu_items: [
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Format Carte Blanche / Omakase
             {
-                category: "Menus Dégustation",
+                category_type: "tasting_menu",
+                display_label: "Menus Dégustation",
                 items: [
-                    { name: "Menu Dégustation 4 Temps", price: "68.00€", description: "2 Entrées, 1 Plat, 1 Dessert" },
-                    { name: "Menu Dégustation 5 Temps", price: "75.00€", description: "Carte blanche au chef Taka" },
-                    { name: "Menu Dégustation 7 Temps", price: "85.00€", description: "L'expérience complète Machizo" },
-                    { name: "Accord Mets & Vins", price: "45.00€", description: "4 verres sélectionnés pour le menu 4 ou 5 temps" },
-                    { name: "Accord Mets & Vins Premium", price: "60.00€", description: "5 verres sélectionnés pour le menu 7 temps" }
+                    { name: "Menu Dégustation 4 Temps", price_cents: 6800, description: "2 Entrées, 1 Plat, 1 Dessert" },
+                    { name: "Menu Dégustation 5 Temps", price_cents: 7500, description: "Carte blanche au chef Taka" },
+                    { name: "Menu Dégustation 7 Temps", price_cents: 8500, description: "L'expérience complète Machizo" },
+                    { name: "Accord Mets & Vins", price_cents: 4500, description: "4 verres sélectionnés pour le menu 4 ou 5 temps" },
+                    { name: "Accord Mets & Vins Premium", price_cents: 6000, description: "5 verres sélectionnés pour le menu 7 temps" }
                 ]
             },
             {
-                category: "Exemples de Créations du Moment (Omakase)",
+                category_type: "other",
+                display_label: "Exemples de Créations du Moment (Omakase)",
                 items: [
-                    { name: "Flan de foie gras", price: "24.00€", description: "Prix Lebey 2024 du meilleur foie gras : Flan onctueux, bouillon dashi et champignons" },
-                    { name: "Saint-Jacques snackées", price: "22.00€", description: "Purée de topinambour, yuzu kosho et émulsion au beurre noisette" },
-                    { name: "Sashimi de sériole", price: "19.00€", description: "Sauce ponzu maison, radis daikon et huile de sésame grillé" },
-                    { name: "Pigeon de Racan rôti", price: "38.00€", description: "Cuisson sur le coffre, jus corsé au miso rouge et légumes racines" },
-                    { name: "Lieu jaune de ligne", price: "34.00€", description: "Asperges blanches, émulsion au saké et algues nori" },
-                    { name: "Tartelette au matcha", price: "12.00€", description: "Pâte sablée, ganache matcha et glace au sésame noir" },
-                    { name: "Mousse au chocolat guanaja", price: "11.00€", description: "Tuile croustillante et confit de yuzu" }
+                    { name: "Flan de foie gras", price_cents: 2400, description: "Prix Lebey 2024 du meilleur foie gras : Flan onctueux, bouillon dashi et champignons" },
+                    { name: "Saint-Jacques snackées", price_cents: 2200, description: "Purée de topinambour, yuzu kosho et émulsion au beurre noisette" },
+                    { name: "Sashimi de sériole", price_cents: 1900, description: "Sauce ponzu maison, radis daikon et huile de sésame grillé" },
+                    { name: "Pigeon de Racan rôti", price_cents: 3800, description: "Cuisson sur le coffre, jus corsé au miso rouge et légumes racines" },
+                    { name: "Lieu jaune de ligne", price_cents: 3400, description: "Asperges blanches, émulsion au saké et algues nori" },
+                    { name: "Tartelette au matcha", price_cents: 1200, description: "Pâte sablée, ganache matcha et glace au sésame noir" },
+                    { name: "Mousse au chocolat guanaja", price_cents: 1100, description: "Tuile croustillante et confit de yuzu" }
                 ]
             }
         ]

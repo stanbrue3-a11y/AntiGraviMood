@@ -43,41 +43,45 @@ export const baladna: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Plats Signatures (Plaisir Libanais)",
+                category_type: "main",
+                display_label: "Les Plats Signatures (Plaisir Libanais)",
                 items: [
-                    { name: "Plat Baladna (3 brochettes : agneau, poulet, kebbé)", price: "18.50€", description: "L'assortiment complet des grillades maison." },
-                    { name: "Chawarma (Émincé de viande marinée aux épices)", price: "16.00€" },
-                    { name: "Rougets frits à la libanaise", price: "16.50€" },
-                    { name: "Kebbé au four (Viande hachée farcie, blé concassé)", price: "14.50€" },
-                    { name: "Kafta (Brochettes de viande hachée persillée)", price: "15.00€" },
-                    { name: "Chich Taouk (Dés de poulet marinés)", price: "15.50€" }
+                    { name: "Plat Baladna (3 brochettes : agneau, poulet, kebbé)", price_cents: 1850, description: "L'assortiment complet des grillades maison." },
+                    { name: "Chawarma (Émincé de viande marinée aux épices)", price_cents: 1600 },
+                    { name: "Rougets frits à la libanaise", price_cents: 1650 },
+                    { name: "Kebbé au four (Viande hachée farcie, blé concassé)", price_cents: 1450 },
+                    { name: "Kafta (Brochettes de viande hachée persillée)", price_cents: 1500 },
+                    { name: "Chich Taouk (Dés de poulet marinés)", price_cents: 1550 }
                 ]
             },
             {
-                category: "Mezzés Chauds & Froids",
+                category_type: "other",
+                display_label: "Mezzés Chauds & Froids",
                 items: [
-                    { name: "Houmous Classique (Purée de pois chiches)", price: "7.00€" },
-                    { name: "Moutabbal (Caviar d'aubergine fumé)", price: "7.50€" },
-                    { name: "Taboulé Libanais (Persil, tomate, bourghoul)", price: "7.50€" },
-                    { name: "Falafel maison (les 4 pièces)", price: "7.00€" },
-                    { name: "Batata Harra (Pommes de terre sautées à l'ail)", price: "6.50€" },
-                    { name: "Samboussek (Chausson viande ou fromage)", price: "2.50€" },
-                    { name: "Assiette variée de 5 Mezzés", price: "14.50€" }
+                    { name: "Houmous Classique (Purée de pois chiches)", price_cents: 700 },
+                    { name: "Moutabbal (Caviar d'aubergine fumé)", price_cents: 750 },
+                    { name: "Taboulé Libanais (Persil, tomate, bourghoul)", price_cents: 750 },
+                    { name: "Falafel maison (les 4 pièces)", price_cents: 700 },
+                    { name: "Batata Harra (Pommes de terre sautées à l'ail)", price_cents: 650 },
+                    { name: "Samboussek (Chausson viande ou fromage)", price_cents: 250 },
+                    { name: "Assiette variée de 5 Mezzés", price_cents: 1450 }
                 ]
             },
             {
-                category: "Douceurs d'Orient",
+                category_type: "dessert",
+                display_label: "Douceurs d'Orient",
                 items: [
-                    { name: "Baklawa (Pâte feuilletée, miel, pistache)", price: "6.00€" },
-                    { name: "Mouhalabié (Flan libanais à la fleur d'oranger)", price: "6.50€" },
-                    { name: "Loukoum Traditionnel", price: "4.00€" }
+                    { name: "Baklawa (Pâte feuilletée, miel, pistache)", price_cents: 600 },
+                    { name: "Mouhalabié (Flan libanais à la fleur d'oranger)", price_cents: 650 },
+                    { name: "Loukoum Traditionnel", price_cents: 400 }
                 ]
             },
             {
-                category: "Formules",
+                category_type: "tasting_menu",
+                display_label: "Formules",
                 items: [
-                    { name: "Menu Midi Express (E+P ou P+D)", price: "14.90€" },
-                    { name: "Menu Soir Complet (Mezzés + Plat + Dessert)", price: "29.90€" }
+                    { name: "Menu Midi Express (E+P ou P+D)", price_cents: 1490 },
+                    { name: "Menu Soir Complet (Mezzés + Plat + Dessert)", price_cents: 2990 }
                 ]
             }
         ]

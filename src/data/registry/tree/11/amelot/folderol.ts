@@ -45,31 +45,34 @@ export const folderol: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Folderol 2025 Standard (Glaces Artisanales & Vins Natures)
             {
-                category: "Glaces & Sorbets (Parfums Ephémères)",
+                category_type: "other",
+                display_label: "Glaces & Sorbets (Parfums Ephémères)",
                 items: [
-                    { name: "Boule Simple (To Go)", price: "4.50€", description: "L'unité." },
-                    { name: "Boule Simple (Sur Place)", price: "6.50€", description: "Inclut le service en salle." },
-                    { name: "Deux Boules (To Go)", price: "8.00€" },
-                    { name: "Deux Boules (Sur Place)", price: "10.00€" },
-                    { name: "Demi-Litre à emporter", price: "16.00€" },
-                    { name: "Glace Maison Nature (Unité)", price: "4.50€" },
-                    { name: "Topping Signature (Praliné, Sauce Chocolat)", price: "2.50€" }
+                    { name: "Boule Simple (To Go)", price_cents: 450, description: "L'unité." },
+                    { name: "Boule Simple (Sur Place)", price_cents: 650, description: "Inclut le service en salle." },
+                    { name: "Deux Boules (To Go)", price_cents: 800 },
+                    { name: "Deux Boules (Sur Place)", price_cents: 1000 },
+                    { name: "Demi-Litre à emporter", price_cents: 1600 },
+                    { name: "Glace Maison Nature (Unité)", price_cents: 450 },
+                    { name: "Topping Signature (Praliné, Sauce Chocolat)", price_cents: 250 }
                 ]
             },
             {
-                category: "Cakes Glacés (Sur Commande)",
+                category_type: "other",
+                display_label: "Cakes Glacés (Sur Commande)",
                 items: [
-                    { name: "Petit Gâteau Glacé (2-4 pers)", price: "38.00€" },
-                    { name: "Moyen Gâteau Glacé (5-7 pers)", price: "56.00€" },
-                    { name: "Grand Gâteau Glacé (8-10 pers)", price: "75.00€" }
+                    { name: "Petit Gâteau Glacé (2-4 pers)", price_cents: 3800 },
+                    { name: "Moyen Gâteau Glacé (5-7 pers)", price_cents: 5600 },
+                    { name: "Grand Gâteau Glacé (8-10 pers)", price_cents: 7500 }
                 ]
             },
             {
-                category: "Vins & Caves",
+                category_type: "drink",
+                display_label: "Vins & Caves",
                 items: [
-                    { name: "Sélection de Vins Natures au verre", price: "9.00€", description: "Vins de vignerons indépendants, sélection tournante." },
-                    { name: "Bouteille de vin au comptoir (à partir de)", price: "22.00€" },
-                    { name: "Droit de bouchon (To stay)", price: "10.00€" }
+                    { name: "Sélection de Vins Natures au verre", price_cents: 900, description: "Vins de vignerons indépendants, sélection tournante." },
+                    { name: "Bouteille de vin au comptoir (à partir de)", price_cents: 2200 },
+                    { name: "Droit de bouchon (To stay)", price_cents: 1000 }
                 ]
             }
         ]

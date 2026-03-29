@@ -40,39 +40,42 @@ export const chez_papa_montparnasse: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Incontournables de Papa",
+                category_type: "other",
+                display_label: "Les Incontournables de Papa",
                 items: [
-                    { name: "Confit de Canard de Papa", price: "19.10€", description: "Le grand classique avec pommes sautées 'Papa'." },
-                    { name: "L'Escalope de Veau Campagnarde", price: "20.40€" },
-                    { name: "Cassoulet Artisanal Maison", price: "24.50€" },
-                    { name: "L'Axoa de Veau au Piment d'Espelette", price: "18.90€" },
-                    { name: "Magret de Canard au Miel", price: "16.90€" },
-                    { name: "L'Aligot et sa Saucisse de Toulouse", price: "19.90€" },
-                    { name: "Burger Cantalou (Cantal & Bacon)", price: "17.60€" },
-                    { name: "Bavette Rouergate", price: "19.40€" },
-                    { name: "Tartare de Canard au Foie Gras chaud", price: "24.50€" }
+                    { name: "Confit de Canard de Papa", price_cents: 1910, description: "Le grand classique avec pommes sautées 'Papa'." },
+                    { name: "L'Escalope de Veau Campagnarde", price_cents: 2040 },
+                    { name: "Cassoulet Artisanal Maison", price_cents: 2450 },
+                    { name: "L'Axoa de Veau au Piment d'Espelette", price_cents: 1890 },
+                    { name: "Magret de Canard au Miel", price_cents: 1690 },
+                    { name: "L'Aligot et sa Saucisse de Toulouse", price_cents: 1990 },
+                    { name: "Burger Cantalou (Cantal & Bacon)", price_cents: 1760 },
+                    { name: "Bavette Rouergate", price_cents: 1940 },
+                    { name: "Tartare de Canard au Foie Gras chaud", price_cents: 2450 }
                 ]
             },
             {
-                category: "Mises en Bouche & Salades Gargantuesques",
+                category_type: "other",
+                display_label: "Mises en Bouche & Salades Gargantuesques",
                 items: [
-                    { name: "Salade Super 'Papa' (la plus complète)", price: "18.50€" },
-                    { name: "Salade Landaise au Foie Gras", price: "19.50€" },
-                    { name: "Escargots au Bleu de Brebis (les 12)", price: "16.00€" },
-                    { name: "Planche de Foie Gras Entier 'Papa'", price: "19.70€" },
-                    { name: "Oeufs Pochés au Bleu de Brebis", price: "10.50€" },
-                    { name: "Planche Mixte du Sud-Ouest", price: "28.50€" },
-                    { name: "Rillons de Canard", price: "8.90€" }
+                    { name: "Salade Super 'Papa' (la plus complète)", price_cents: 1850 },
+                    { name: "Salade Landaise au Foie Gras", price_cents: 1950 },
+                    { name: "Escargots au Bleu de Brebis (les 12)", price_cents: 1600 },
+                    { name: "Planche de Foie Gras Entier 'Papa'", price_cents: 1970 },
+                    { name: "Oeufs Pochés au Bleu de Brebis", price_cents: 1050 },
+                    { name: "Planche Mixte du Sud-Ouest", price_cents: 2850 },
+                    { name: "Rillons de Canard", price_cents: 890 }
                 ]
             },
             {
-                category: "Douceurs du Sud-Ouest",
+                category_type: "dessert",
+                display_label: "Douceurs du Sud-Ouest",
                 items: [
-                    { name: "Tatin flambée au Bas Armagnac", price: "8.90€" },
-                    { name: "Gâteau Basque à la cerise noire", price: "8.10€" },
-                    { name: "Croustade de Pommes au caramel", price: "7.50€" },
-                    { name: "Le Vrai Pain Perdu de Papa", price: "8.60€" },
-                    { name: "Mousse au Chocolat généreuse", price: "6.20€" }
+                    { name: "Tatin flambée au Bas Armagnac", price_cents: 890 },
+                    { name: "Gâteau Basque à la cerise noire", price_cents: 810 },
+                    { name: "Croustade de Pommes au caramel", price_cents: 750 },
+                    { name: "Le Vrai Pain Perdu de Papa", price_cents: 860 },
+                    { name: "Mousse au Chocolat généreuse", price_cents: 620 }
                 ]
             }
         ]

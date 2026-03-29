@@ -43,44 +43,48 @@ export const la_manifattura: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Pizzas Traditionnelles (Napoletana)",
+                category_type: "main",
+                display_label: "Pizzas Traditionnelles (Napoletana)",
                 items: [
-                    { name: "Margherita (Tomate, mozzarella di bufala, basilic)", price: "12.00€" },
-                    { name: "Bufala 'La vraie'", price: "16.00€" },
-                    { name: "Regina (Jambon cuit, champignons)", price: "18.00€" },
-                    { name: "Diavola 'piccante'", price: "18.00€" },
-                    { name: "Burratissima (Tomate, burrata fraîche, basilic)", price: "19.00€" },
-                    { name: "La Manifattura (Mozza fior di latte, gorgonzola, noix, miel)", price: "20.00€" },
-                    { name: "Quattro Formaggi (4 Fromages italiens)", price: "18.00€" },
-                    { name: "Calzone Classico", price: "17.00€" }
+                    { name: "Margherita (Tomate, mozzarella di bufala, basilic)", price_cents: 1200 },
+                    { name: "Bufala 'La vraie'", price_cents: 1600 },
+                    { name: "Regina (Jambon cuit, champignons)", price_cents: 1800 },
+                    { name: "Diavola 'piccante'", price_cents: 1800 },
+                    { name: "Burratissima (Tomate, burrata fraîche, basilic)", price_cents: 1900 },
+                    { name: "La Manifattura (Mozza fior di latte, gorgonzola, noix, miel)", price_cents: 2000 },
+                    { name: "Quattro Formaggi (4 Fromages italiens)", price_cents: 1800 },
+                    { name: "Calzone Classico", price_cents: 1700 }
                 ]
             },
             {
-                category: "Pizzas Gourmandes (Signatures)",
+                category_type: "main",
+                display_label: "Pizzas Gourmandes (Signatures)",
                 items: [
-                    { name: "C.P.2019 'Championne de Paris 2019'", price: "25.00€", description: "La pizza primée, ingrédients d'exception." },
-                    { name: "Tartufo & Parma (Crème de truffe, jambon de Parme)", price: "25.00€" },
-                    { name: "Tricolore (Pesto de basilic, di bufala, jambon di Parma, burrata)", price: "25.00€" },
-                    { name: "Guagliò (Bresaola de Wagyu, pecorino, roquette)", price: "25.00€" }
+                    { name: "C.P.2019 'Championne de Paris 2019'", price_cents: 2500, description: "La pizza primée, ingrédients d'exception." },
+                    { name: "Tartufo & Parma (Crème de truffe, jambon de Parme)", price_cents: 2500 },
+                    { name: "Tricolore (Pesto de basilic, di bufala, jambon di Parma, burrata)", price_cents: 2500 },
+                    { name: "Guagliò (Bresaola de Wagyu, pecorino, roquette)", price_cents: 2500 }
                 ]
             },
             {
-                category: "Antipasti & Pasta Fresca",
+                category_type: "main",
+                display_label: "Antipasti & Pasta Fresca",
                 items: [
-                    { name: "Burratina des Pouilles (125g)", price: "10.00€" },
-                    { name: "Stracciatella fumée au bois", price: "12.00€" },
-                    { name: "Linguine Sciue Sciue (Tomates fraîches, ail, basilic)", price: "12.00€" },
-                    { name: "Authentica Carbonara (Guanciale, pecorino, jaune d'oeuf)", price: "18.00€" },
-                    { name: "Gnocchi alla Sorrentina (Four à bois)", price: "15.00€" }
+                    { name: "Burratina des Pouilles (125g)", price_cents: 1000 },
+                    { name: "Stracciatella fumée au bois", price_cents: 1200 },
+                    { name: "Linguine Sciue Sciue (Tomates fraîches, ail, basilic)", price_cents: 1200 },
+                    { name: "Authentica Carbonara (Guanciale, pecorino, jaune d'oeuf)", price_cents: 1800 },
+                    { name: "Gnocchi alla Sorrentina (Four à bois)", price_cents: 1500 }
                 ]
             },
             {
-                category: "Dolci Artigianali",
+                category_type: "other",
+                display_label: "Dolci Artigianali",
                 items: [
-                    { name: "Tiramisu Classico della Casa", price: "9.00€" },
-                    { name: "Baba napolitain au Limoncello", price: "9.00€" },
-                    { name: "Profiteroles à l'italienne (Chocolat chaud)", price: "9.00€" },
-                    { name: "Panna Cotta aux fruits rouges", price: "8.00€" }
+                    { name: "Tiramisu Classico della Casa", price_cents: 900 },
+                    { name: "Baba napolitain au Limoncello", price_cents: 900 },
+                    { name: "Profiteroles à l'italienne (Chocolat chaud)", price_cents: 900 },
+                    { name: "Panna Cotta aux fruits rouges", price_cents: 800 }
                 ]
             }
         ]

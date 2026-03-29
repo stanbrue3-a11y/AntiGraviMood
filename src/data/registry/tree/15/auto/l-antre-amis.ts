@@ -41,48 +41,52 @@ export const l_antre_amis: SurgicalPlace = {
     verified_at: "2026-03-29",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Carte blanche du chef en 5 temps", price: "96€", description: "Accompagnée de son accord mets et vins", highlight: true },
-          { name: "Terrine de foie gras au Bas Armagnac", price: "24€" },
-          { name: "Carpaccio de noix-de-Saint-Jacques, citron et noisettes", price: "28€" },
-          { name: "Jardin de légumes printaniers", price: "18€", description: "Crème d'épinards, petites crevettes roses de Madagascar" },
-          { name: "9 Escargots de Bourgogne Extra Gros", price: "16€" },
-          { name: "Langoustines croustillantes au basilic", price: "22€", highlight: true },
-          { name: "Carpaccio de Poulpe de Roche", price: "24€", description: "Huile d'olive et citron" },
-          { name: "Sardinillas 'La Brujula'", price: "12€" },
-          { name: "Chiffonnade d'épaule Ibérique", price: "19€", description: "Région Extramadura beurre et cornichons" }
+          { name: "Carte blanche du chef en 5 temps", price_cents: 9600, description: "Accompagnée de son accord mets et vins", is_highlight: true },
+          { name: "Terrine de foie gras au Bas Armagnac", price_cents: 2400 },
+          { name: "Carpaccio de noix-de-Saint-Jacques, citron et noisettes", price_cents: 2800 },
+          { name: "Jardin de légumes printaniers", price_cents: 1800, description: "Crème d'épinards, petites crevettes roses de Madagascar" },
+          { name: "9 Escargots de Bourgogne Extra Gros", price_cents: 1600 },
+          { name: "Langoustines croustillantes au basilic", price_cents: 2200, is_highlight: true },
+          { name: "Carpaccio de Poulpe de Roche", price_cents: 2400, description: "Huile d'olive et citron" },
+          { name: "Sardinillas 'La Brujula'", price_cents: 1200 },
+          { name: "Chiffonnade d'épaule Ibérique", price_cents: 1900, description: "Région Extramadura beurre et cornichons" }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Coeur de faux-filet mature", price: "32€", description: "Pommes frites maison" },
-          { name: "Suprême de volaille aux morilles", price: "28€", description: "Gnocchi de pommes-de-terre et crémée de vin jaune" },
-          { name: "Côte de bœuf Angus maturée (pour 2)", price: "80€", highlight: true },
-          { name: "Merlan de Saint-Gilles-Croix-de-Vie", price: "26€", description: "Fricassée de champignons et asperges vertes" },
-          { name: "Pavé de veau de chez 'Hugo Desnoyer'", price: "35€", highlight: true },
-          { name: "Risotto crémeux aux morilles fraîches", price: "24€" },
-          { name: "Filet de boeuf Rossini façon Chateaubriand", price: "42€" },
-          { name: "Sole meunière des Côtes Bretonnes", price: "45€" },
-          { name: "Risotto de Noix de Saint-Jacques", price: "28€" }
+          { name: "Coeur de faux-filet mature", price_cents: 3200, description: "Pommes frites maison" },
+          { name: "Suprême de volaille aux morilles", price_cents: 2800, description: "Gnocchi de pommes-de-terre et crémée de vin jaune" },
+          { name: "Côte de bœuf Angus maturée (pour 2)", price_cents: 8000, is_highlight: true },
+          { name: "Merlan de Saint-Gilles-Croix-de-Vie", price_cents: 2600, description: "Fricassée de champignons et asperges vertes" },
+          { name: "Pavé de veau de chez 'Hugo Desnoyer'", price_cents: 3500, is_highlight: true },
+          { name: "Risotto crémeux aux morilles fraîches", price_cents: 2400 },
+          { name: "Filet de boeuf Rossini façon Chateaubriand", price_cents: 4200 },
+          { name: "Sole meunière des Côtes Bretonnes", price_cents: 4500 },
+          { name: "Risotto de Noix de Saint-Jacques", price_cents: 2800 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Mousse au chocolat soufflée", price: "14€", description: "Praliné noisettes, griottes à l'amaretto" },
-          { name: "Ananas rôti", price: "14€", description: "Émulsion à la noix de coco, crumble et sorbet exotique" },
-          { name: "Riz au lait à la vanille de Madagascar", price: "12€", description: "Caramel au beurre salé, noisettes et noix de pécan", highlight: true },
-          { name: "Assiette de fromages affinés", price: "16€" }
+          { name: "Mousse au chocolat soufflée", price_cents: 1400, description: "Praliné noisettes, griottes à l'amaretto" },
+          { name: "Ananas rôti", price_cents: 1400, description: "Émulsion à la noix de coco, crumble et sorbet exotique" },
+          { name: "Riz au lait à la vanille de Madagascar", price_cents: 1200, description: "Caramel au beurre salé, noisettes et noix de pécan", is_highlight: true },
+          { name: "Assiette de fromages affinés", price_cents: 1600 }
         ]
       },
       {
-        category: "La Cave",
+        category_type: "drink",
+        display_label: "La Cave",
         items: [
-          { name: "Champagne Billecart-Salmon", price: "90€" },
-          { name: "Champagne J-L Vergnon", price: "75€" },
-          { name: "Champagne Langlet Taittinger", price: "85€" }
+          { name: "Champagne Billecart-Salmon", price_cents: 9000 },
+          { name: "Champagne J-L Vergnon", price_cents: 7500 },
+          { name: "Champagne Langlet Taittinger", price_cents: 8500 }
         ]
       }
     ]

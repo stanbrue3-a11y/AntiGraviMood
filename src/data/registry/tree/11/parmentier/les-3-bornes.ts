@@ -42,32 +42,35 @@ export const les_3_bornes: SurgicalPlace = {
         last_updated: "2026-03-07",
         menu_items: [
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
                     // VERIFIED: Mises à jour récentes d'hiver (2025/2026)
-                    { name: "Carpaccio tiède de tête de veau caramélisée, gribiche", price: "11.00€" },
-                    { name: "Tarama fumé maison, œufs de truite", price: "12.00€" },
-                    { name: "Raviole de langoustines, condiments wasabi", price: "16.00€" },
-                    { name: "Velouté de butternut, œuf parfait", price: "12.00€" }
+                    { name: "Carpaccio tiède de tête de veau caramélisée, gribiche", price_cents: 1100 },
+                    { name: "Tarama fumé maison, œufs de truite", price_cents: 1200 },
+                    { name: "Raviole de langoustines, condiments wasabi", price_cents: 1600 },
+                    { name: "Velouté de butternut, œuf parfait", price_cents: 1200 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Plats 20-31€
-                    { name: "Pastilla de volaille tandoori, patate douce", price: "21.00€" },
-                    { name: "Confit de canette des Dombes, jus miel", price: "23.00€" },
-                    { name: "Lotte rôtie & risotto aux épinards", price: "27.00€" },
-                    { name: "Poitrine de cochon, oca du Pérou, patate douce", price: "25.00€" },
-                    { name: "Feuille à feuille de faux-filet, shiitake", price: "31.00€" }
+                    { name: "Pastilla de volaille tandoori, patate douce", price_cents: 2100 },
+                    { name: "Confit de canette des Dombes, jus miel", price_cents: 2300 },
+                    { name: "Lotte rôtie & risotto aux épinards", price_cents: 2700 },
+                    { name: "Poitrine de cochon, oca du Pérou, patate douce", price_cents: 2500 },
+                    { name: "Feuille à feuille de faux-filet, shiitake", price_cents: 3100 }
                 ]
             },
             {
-                category: "Desserts & Fromages",
+                category_type: "dessert",
+                display_label: "Desserts & Fromages",
                 items: [
-                    { name: "Soufflé poire et chocolat", price: "11.00€" },
-                    { name: "Pavlova mangue passion", price: "11.00€" },
-                    { name: "Assiette de fromages, confiture, salade aux noix", price: "13.00€" }
+                    { name: "Soufflé poire et chocolat", price_cents: 1100 },
+                    { name: "Pavlova mangue passion", price_cents: 1100 },
+                    { name: "Assiette de fromages, confiture, salade aux noix", price_cents: 1300 }
                 ]
             }
         ]

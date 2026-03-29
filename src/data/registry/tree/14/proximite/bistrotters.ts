@@ -40,35 +40,38 @@ export const bistrotters: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'ardoise des Bistrotters",
+                category_type: "other",
+                display_label: "L'ardoise des Bistrotters",
                 items: [
-                    { name: "Cuisse de Canard Confite Maison", price: "22.50€" },
-                    { name: "Filet de Boeuf Aubrac, sauce poivre", price: "28.00€" },
-                    { name: "Dos de Cabillaud en croûte d'herbes", price: "24.00€" },
-                    { name: "Saucisse de Toulouse grillée et Aligot", price: "19.50€" },
-                    { name: "Poitrine de Veau rôtie aux petits oignons", price: "24.00€" },
-                    { name: "Tartare de Boeuf au couteau préparé", price: "21.00€" },
-                    { name: "Risso de Légumes de l'Ardoise", price: "18.50€" }
+                    { name: "Cuisse de Canard Confite Maison", price_cents: 2250 },
+                    { name: "Filet de Boeuf Aubrac, sauce poivre", price_cents: 2800 },
+                    { name: "Dos de Cabillaud en croûte d'herbes", price_cents: 2400 },
+                    { name: "Saucisse de Toulouse grillée et Aligot", price_cents: 1950 },
+                    { name: "Poitrine de Veau rôtie aux petits oignons", price_cents: 2400 },
+                    { name: "Tartare de Boeuf au couteau préparé", price_cents: 2100 },
+                    { name: "Risso de Légumes de l'Ardoise", price_cents: 1850 }
                 ]
             },
             {
-                category: "Entrées Gourmandes",
+                category_type: "starter",
+                display_label: "Entrées Gourmandes",
                 items: [
-                    { name: "Os à Moelle Gratiné au Sel de Guérande", price: "10.00€" },
-                    { name: "Oeuf Cocotte au Maroilles (Pépite !)", price: "11.50€" },
-                    { name: "Ardoise de Charcuteries de pays", price: "14.00€" },
-                    { name: "Entrée du Marché (à l'ardoise)", price: "9.50€" },
-                    { name: "Salade de Crottin de Chavignol chaud", price: "12.00€" }
+                    { name: "Os à Moelle Gratiné au Sel de Guérande", price_cents: 1000 },
+                    { name: "Oeuf Cocotte au Maroilles (Pépite !)", price_cents: 1150 },
+                    { name: "Ardoise de Charcuteries de pays", price_cents: 1400 },
+                    { name: "Entrée du Marché (à l'ardoise)", price_cents: 950 },
+                    { name: "Salade de Crottin de Chavignol chaud", price_cents: 1200 }
                 ]
             },
             {
-                category: "Desserts de Tradition",
+                category_type: "dessert",
+                display_label: "Desserts de Tradition",
                 items: [
-                    { name: "Le fameux Riz au Lait de Bistrotters", price: "9.00€" },
-                    { name: "Tatin Maison et Crème Fraîche", price: "10.00€" },
-                    { name: "Mousse au Chocolat Noir intense", price: "8.50€" },
-                    { name: "Baba au Rhum du Chef", price: "11.00€" },
-                    { name: "Fromages de nos Provinces", price: "12.00€" }
+                    { name: "Le fameux Riz au Lait de Bistrotters", price_cents: 900 },
+                    { name: "Tatin Maison et Crème Fraîche", price_cents: 1000 },
+                    { name: "Mousse au Chocolat Noir intense", price_cents: 850 },
+                    { name: "Baba au Rhum du Chef", price_cents: 1100 },
+                    { name: "Fromages de nos Provinces", price_cents: 1200 }
                 ]
             }
         ]

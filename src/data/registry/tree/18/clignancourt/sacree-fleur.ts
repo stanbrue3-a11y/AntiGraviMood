@@ -39,46 +39,49 @@ export const sacree_fleur: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Les Entrées",
+        category_type: "starter",
+        display_label: "Les Entrées",
         items: [
-          { name: "Soupe à l’oignon gratinée", price: "9.50€" },
-          { name: "Os à moelle rôti à la fleur de sel", price: "10.00€" },
-          { name: "Escargots de Bourgogne (x6)", price: "9.00€" },
-          { name: "Escargots de Bourgogne (x12)", price: "17.00€" },
-          { name: "Terrine de campagne maison", price: "8.50€" },
-          { name: "Salade de chèvre chaud au miel", price: "11.00€" },
-          { name: "Gambas flambées au Pastis", price: "13.00€" },
-          { name: "Cassolette d'escargots aux noisettes", price: "12.00€" }
+          { name: "Soupe à l’oignon gratinée", price_cents: 950 },
+          { name: "Os à moelle rôti à la fleur de sel", price_cents: 1000 },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 900 },
+          { name: "Escargots de Bourgogne (x12)", price_cents: 1700 },
+          { name: "Terrine de campagne maison", price_cents: 850 },
+          { name: "Salade de chèvre chaud au miel", price_cents: 1100 },
+          { name: "Gambas flambées au Pastis", price_cents: 1300 },
+          { name: "Cassolette d'escargots aux noisettes", price_cents: 1200 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Bavette d'aloyau (200g) à l'échalote", price: "19.50€" },
-          { name: "Entrecôte (300g) d'Aubrac", price: "26.00€" },
-          { name: "Faux-filet grillé au poivre", price: "22.50€" },
-          { name: "Magret de canard entier au miel", price: "24.00€" },
-          { name: "Steak Tartare aux couteaux (180g)", price: "18.50€" },
-          { name: "Le Burger de la Sacrée Fleur", price: "19.00€" },
-          { name: "Cœur de Rumsteck sauce Roquefort", price: "21.00€" },
-          { name: "Côte de Bœuf pour deux (1kg)", price: "68.00€" },
-          { name: "Andouillette de Troyes AAAAA", price: "18.00€" },
-          { name: "Souris d'agneau confite au thym", price: "23.00€" },
-          { name: "Pavé de saumon à l'aneth", price: "20.00€" },
-          { name: "Risotto végétarien aux truffes", price: "18.50€" }
+          { name: "Bavette d'aloyau (200g) à l'échalote", price_cents: 1950 },
+          { name: "Entrecôte (300g) d'Aubrac", price_cents: 2600 },
+          { name: "Faux-filet grillé au poivre", price_cents: 2250 },
+          { name: "Magret de canard entier au miel", price_cents: 2400 },
+          { name: "Steak Tartare aux couteaux (180g)", price_cents: 1850 },
+          { name: "Le Burger de la Sacrée Fleur", price_cents: 1900 },
+          { name: "Cœur de Rumsteck sauce Roquefort", price_cents: 2100 },
+          { name: "Côte de Bœuf pour deux (1kg)", price_cents: 6800 },
+          { name: "Andouillette de Troyes AAAAA", price_cents: 1800 },
+          { name: "Souris d'agneau confite au thym", price_cents: 2300 },
+          { name: "Pavé de saumon à l'aneth", price_cents: 2000 },
+          { name: "Risotto végétarien aux truffes", price_cents: 1850 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Tarte Tatin et sa crème fraîche", price: "9.00€" },
-          { name: "Crème brûlée à la vanille Bio", price: "8.50€" },
-          { name: "Mousse au chocolat maison", price: "7.50€" },
-          { name: "Île flottante et caramel beurre salé", price: "8.00€" },
-          { name: "Profiteroles au chocolat chaud", price: "10.00€" },
-          { name: "Café gourmand Sacrée Fleur", price: "11.00€" },
-          { name: "Sorbet Citron arrosé Vodka", price: "9.50€" },
-          { name: "Plateau de fromages affinés", price: "12.00€" }
+          { name: "Tarte Tatin et sa crème fraîche", price_cents: 900 },
+          { name: "Crème brûlée à la vanille Bio", price_cents: 850 },
+          { name: "Mousse au chocolat maison", price_cents: 750 },
+          { name: "Île flottante et caramel beurre salé", price_cents: 800 },
+          { name: "Profiteroles au chocolat chaud", price_cents: 1000 },
+          { name: "Café gourmand Sacrée Fleur", price_cents: 1100 },
+          { name: "Sorbet Citron arrosé Vodka", price_cents: 950 },
+          { name: "Plateau de fromages affinés", price_cents: 1200 }
         ]
       }
     ]

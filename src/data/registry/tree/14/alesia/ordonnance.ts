@@ -40,35 +40,38 @@ export const ordonnance: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Les Les Plats",
+                category_type: "main",
+                display_label: "Les Les Plats",
                 items: [
-                    { name: "Dos de Cabillaud de Ligne, Risotto au Safran", price: "26.00€" },
-                    { name: "Pseudo-Bourguignon de Joue de Boeuf Confite", price: "24.00€" },
-                    { name: "Poitrine de Veau Croustillante, Purée Maison", price: "27.00€" },
-                    { name: "Suprême de Volaille Jaune aux Champignons", price: "23.00€" },
-                    { name: "Daurade Royale à la Plancha, Légumes du Moment", price: "25.00€" },
-                    { name: "Tagliatelles Fraîches à la Crème de Truffe", price: "22.00€" },
-                    { name: "Suggestion de l'Ardoise (Selon Marché)", price: "24.50€" }
+                    { name: "Dos de Cabillaud de Ligne, Risotto au Safran", price_cents: 2600 },
+                    { name: "Pseudo-Bourguignon de Joue de Boeuf Confite", price_cents: 2400 },
+                    { name: "Poitrine de Veau Croustillante, Purée Maison", price_cents: 2700 },
+                    { name: "Suprême de Volaille Jaune aux Champignons", price_cents: 2300 },
+                    { name: "Daurade Royale à la Plancha, Légumes du Moment", price_cents: 2500 },
+                    { name: "Tagliatelles Fraîches à la Crème de Truffe", price_cents: 2200 },
+                    { name: "Suggestion de l'Ardoise (Selon Marché)", price_cents: 2450 }
                 ]
             },
             {
-                category: "Entrées Créatives",
+                category_type: "starter",
+                display_label: "Entrées Créatives",
                 items: [
-                    { name: "Oeuf Parfait à 64°, Velouté de Saison", price: "12.00€" },
-                    { name: "Ceviche de Maquereau au Citron Vert", price: "14.00€" },
-                    { name: "Tartare de Betterave et Chèvre Frais", price: "11.00€" },
-                    { name: "Escalope de Foie Gras Poêlée", price: "18.00€" },
-                    { name: "Terrine de Campagne de l'Ordonnance", price: "10.00€" }
+                    { name: "Oeuf Parfait à 64°, Velouté de Saison", price_cents: 1200 },
+                    { name: "Ceviche de Maquereau au Citron Vert", price_cents: 1400 },
+                    { name: "Tartare de Betterave et Chèvre Frais", price_cents: 1100 },
+                    { name: "Escalope de Foie Gras Poêlée", price_cents: 1800 },
+                    { name: "Terrine de Campagne de l'Ordonnance", price_cents: 1000 }
                 ]
             },
             {
-                category: "Le Coin des Douceurs",
+                category_type: "dessert",
+                display_label: "Le Coin des Douceurs",
                 items: [
-                    { name: "Moelleux au Chocolat, Sorbet Framboise", price: "9.50€" },
-                    { name: "Tarte Tatin Maison, Crème Fraîche", price: "10.00€" },
-                    { name: "Crème Brûlée à la Pistache de Sicile", price: "9.00€" },
-                    { name: "Sabayon aux Fruits Frais", price: "11.00€" },
-                    { name: "Assiette de Trois Fromages Affinés", price: "12.00€" }
+                    { name: "Moelleux au Chocolat, Sorbet Framboise", price_cents: 950 },
+                    { name: "Tarte Tatin Maison, Crème Fraîche", price_cents: 1000 },
+                    { name: "Crème Brûlée à la Pistache de Sicile", price_cents: 900 },
+                    { name: "Sabayon aux Fruits Frais", price_cents: 1100 },
+                    { name: "Assiette de Trois Fromages Affinés", price_cents: 1200 }
                 ]
             }
         ]

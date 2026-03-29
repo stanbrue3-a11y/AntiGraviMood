@@ -43,63 +43,68 @@ export const masaikuta: SurgicalPlace = {
     last_updated: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées Finesse & Iode (Entrées)",
+        category_type: "starter",
+        display_label: "Entrées Finesse & Iode (Entrées)",
         items: [
-          { name: "Carpaccio de Daurade, sauce Ponzu maison", price: "16.00€", highlight: true },
-          { name: "Saint-Jacques snackées, émulsion d'algues", price: "18.00€", highlight: true },
-          { name: "Bouillon Dashi clair, tofu & gingembre", price: "9.00€" },
-          { name: "Tartare de Thon Rouge, avocat & sésame", price: "17.00€" },
-          { name: "Tempura de Légumes de saison (x4)", price: "14.00€" },
-          { name: "Aubergine grillée au Miso sucré (Nasu Dengaku)", price: "12.00€" },
-          { name: "Gyoza artisanaux au Porc & Chou (x5)", price: "11.00€" },
-          { name: "Salade d'Algues Hijiki & Edamame", price: "8.50€" }
+          { name: "Carpaccio de Daurade, sauce Ponzu maison", price_cents: 1600, is_highlight: true },
+          { name: "Saint-Jacques snackées, émulsion d'algues", price_cents: 1800, is_highlight: true },
+          { name: "Bouillon Dashi clair, tofu & gingembre", price_cents: 900 },
+          { name: "Tartare de Thon Rouge, avocat & sésame", price_cents: 1700 },
+          { name: "Tempura de Légumes de saison (x4)", price_cents: 1400 },
+          { name: "Aubergine grillée au Miso sucré (Nasu Dengaku)", price_cents: 1200 },
+          { name: "Gyoza artisanaux au Porc & Chou (x5)", price_cents: 1100 },
+          { name: "Salade d'Algues Hijiki & Edamame", price_cents: 850 }
         ]
       },
       {
-        category: "Plats d'Exquise Tradition (Plats)",
+        category_type: "main",
+        display_label: "Plats d'Exquise Tradition (Plats)",
         items: [
-          { name: "Cabillaud à la vapeur de Saké, légumes croquants", price: "28.00€", highlight: true },
-          { name: "Canard rôti aux épices japonaises & Teriyaki", price: "32.00€", highlight: true },
-          { name: "Filet de Bœuf façon Tataki, sauce Wafu", price: "34.00€" },
-          { name: "Bœuf Wagyu A5 (Supplément 50g)", price: "45.00€" },
-          { name: "Risotto de Petit Épeautre, Shiitake & Nori", price: "24.00€" },
-          { name: "Saumon Label Rouge Teriyaki, riz Niigata", price: "26.00€" },
-          { name: "Tofu soyeux frit, dashi & katsuobushi", price: "21.00€" },
-          { name: "Porc fermier katsu, sauce tonkatsu maison", price: "25.00€" }
+          { name: "Cabillaud à la vapeur de Saké, légumes croquants", price_cents: 2800, is_highlight: true },
+          { name: "Canard rôti aux épices japonaises & Teriyaki", price_cents: 3200, is_highlight: true },
+          { name: "Filet de Bœuf façon Tataki, sauce Wafu", price_cents: 3400 },
+          { name: "Bœuf Wagyu A5 (Supplément 50g)", price_cents: 4500 },
+          { name: "Risotto de Petit Épeautre, Shiitake & Nori", price_cents: 2400 },
+          { name: "Saumon Label Rouge Teriyaki, riz Niigata", price_cents: 2600 },
+          { name: "Tofu soyeux frit, dashi & katsuobushi", price_cents: 2100 },
+          { name: "Porc fermier katsu, sauce tonkatsu maison", price_cents: 2500 }
         ]
       },
       {
-        category: "Desserts & Saveurs Zen (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts & Saveurs Zen (Desserts)",
         items: [
-          { name: "Mochi Glacé Artisanal (Yuzu / Matcha / Sésame)", price: "8.50€", highlight: true },
-          { name: "Tartelette Chocolat noir & Sésame noir", price: "11.00€", highlight: true },
-          { name: "Gelée de Yuzu & Fruits frais de saison", price: "9.50€" },
-          { name: "Crème brûlée au Thé Hojicha", price: "10.00€" },
-          { name: "Dorayaki minute à la pâte d'Azuki", price: "12.00€" },
-          { name: "Sorbet Shiso & Citron vert", price: "7.00€" }
+          { name: "Mochi Glacé Artisanal (Yuzu / Matcha / Sésame)", price_cents: 850, is_highlight: true },
+          { name: "Tartelette Chocolat noir & Sésame noir", price_cents: 1100, is_highlight: true },
+          { name: "Gelée de Yuzu & Fruits frais de saison", price_cents: 950 },
+          { name: "Crème brûlée au Thé Hojicha", price_cents: 1000 },
+          { name: "Dorayaki minute à la pâte d'Azuki", price_cents: 1200 },
+          { name: "Sorbet Shiso & Citron vert", price_cents: 700 }
         ]
       },
       {
-        category: "La Cave de Sakés & Vins (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Sakés & Vins (Boissons)",
         items: [
-          { name: "Saké Junmai 'Nature' (Verre 12cl)", price: "14.00€", highlight: true },
-          { name: "Saké Gingo fruité (Verre 12cl)", price: "16.00€" },
-          { name: "Bouteille Saké Premium (72cl)", price: "85.00€" },
-          { name: "Verre de Sancerre Blanc 'Florès'", price: "13.00€", highlight: true },
-          { name: "Verre de Bourgogne Rouge 'Pinot Noir'", price: "11.00€" },
-          { name: "Champagne de Vigeron (Coupe)", price: "18.00€" }
+          { name: "Saké Junmai 'Nature' (Verre 12cl)", price_cents: 1400, is_highlight: true },
+          { name: "Saké Gingo fruité (Verre 12cl)", price_cents: 1600 },
+          { name: "Bouteille Saké Premium (72cl)", price_cents: 8500 },
+          { name: "Verre de Sancerre Blanc 'Florès'", price_cents: 1300, is_highlight: true },
+          { name: "Verre de Bourgogne Rouge 'Pinot Noir'", price_cents: 1100 },
+          { name: "Champagne de Vigeron (Coupe)", price_cents: 1800 }
         ]
       },
       {
-        category: "Thés de Cérémonie & Softs (Boissons)",
+        category_type: "drink",
+        display_label: "Thés de Cérémonie & Softs (Boissons)",
         items: [
-          { name: "Thé Vert Sencha Supérieur (Théière)", price: "8.50€", highlight: true },
-          { name: "Thé Matcha Kirara préparé au chasen", price: "9.50€" },
-          { name: "Thé Genmaicha (Riz soufflé)", price: "7.50€" },
-          { name: "Infusion Gingembre & Miel", price: "6.50€" },
-          { name: "Eau micro-filtrée (75cl)", price: "5.00€" },
-          { name: "Café Espresso Terres de Café", price: "3.50€" },
-          { name: "Jus de Yuzu frais & Eau pétillante", price: "9.00€" }
+          { name: "Thé Vert Sencha Supérieur (Théière)", price_cents: 850, is_highlight: true },
+          { name: "Thé Matcha Kirara préparé au chasen", price_cents: 950 },
+          { name: "Thé Genmaicha (Riz soufflé)", price_cents: 750 },
+          { name: "Infusion Gingembre & Miel", price_cents: 650 },
+          { name: "Eau micro-filtrée (75cl)", price_cents: 500 },
+          { name: "Café Espresso Terres de Café", price_cents: 350 },
+          { name: "Jus de Yuzu frais & Eau pétillante", price_cents: 900 }
         ]
       }
     ]

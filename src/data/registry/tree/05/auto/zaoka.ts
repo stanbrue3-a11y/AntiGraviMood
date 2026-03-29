@@ -40,55 +40,59 @@ export const zaoka: SurgicalPlace = {
     verified_at: "2026-03-29",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Poulet Frit Taïwanais (Popcorn Chicken)", price: "9€", description: "Sel, poivre et basilic frit", highlight: true },
-          { name: "Salade de Concombres Frappés", price: "6€", description: "Vinaigre noir et huile de sésame" },
-          { name: "Edamame Grillés", price: "5€", description: "Fleur de sel et sésame torréfié" },
-          { name: "Tempura de Légumes de Saison", price: "8€" },
-          { name: "Gyoza Grillés au Porc (x5)", price: "8€" },
-          { name: "Gyoza Végétariens (x5)", price: "8€" },
-          { name: "Champignons Enoki Croustillants", price: "7€" },
-          { name: "Tofu Frit Sauce Aigre-Douce", price: "7€" }
+          { name: "Poulet Frit Taïwanais (Popcorn Chicken)", price_cents: 900, description: "Sel, poivre et basilic frit", is_highlight: true },
+          { name: "Salade de Concombres Frappés", price_cents: 600, description: "Vinaigre noir et huile de sésame" },
+          { name: "Edamame Grillés", price_cents: 500, description: "Fleur de sel et sésame torréfié" },
+          { name: "Tempura de Légumes de Saison", price_cents: 800 },
+          { name: "Gyoza Grillés au Porc (x5)", price_cents: 800 },
+          { name: "Gyoza Végétariens (x5)", price_cents: 800 },
+          { name: "Champignons Enoki Croustillants", price_cents: 700 },
+          { name: "Tofu Frit Sauce Aigre-Douce", price_cents: 700 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Gua Bao Classique", price: "12€", description: "Porc braisé, coriandre, cacahuètes rémoises et moutarde marinée", highlight: true },
-          { name: "Gua Bao Poulet Frit", price: "13€", description: "Poulet croustillant, chou mariné, sauce secrète" },
-          { name: "Gua Bao Champignon Shiitake", price: "12€", description: "Option végétarienne aux champignons rôtis" },
-          { name: "Gua Bao au Bœuf Épicé", price: "14€", description: "Émincé de bœuf au cumin" },
-          { name: "Lu Rou Fan (Bol de Riz au Porc)", price: "14€", description: "Porc mijoté, œuf mariné sur riz parfumé", highlight: true },
-          { name: "Ji Rou Fan (Bol de Riz au Poulet)", price: "14€", description: "Poulet effiloché, sauce soja douce" },
-          { name: "Soupe de Nouilles au Bœuf (Niu Rou Mian)", price: "16€", description: "Bouillon riche, bœuf fondant et pak choï" },
-          { name: "Nouilles Froides au Sésame (Liang Mian)", price: "13€", description: "Sauce cacahuète et concombre julienne" },
-          { name: "Rice Burger au Porc", price: "15€" },
-          { name: "Rice Burger au Poulet", price: "15€" },
-          { name: "Assiette Découverte Taïwan", price: "18€", description: "Mix de spécialités du jour" },
-          { name: "Nouilles Dan Dan", price: "14€", description: "Porc haché épicé et ciboule" }
+          { name: "Gua Bao Classique", price_cents: 1200, description: "Porc braisé, coriandre, cacahuètes rémoises et moutarde marinée", is_highlight: true },
+          { name: "Gua Bao Poulet Frit", price_cents: 1300, description: "Poulet croustillant, chou mariné, sauce secrète" },
+          { name: "Gua Bao Champignon Shiitake", price_cents: 1200, description: "Option végétarienne aux champignons rôtis" },
+          { name: "Gua Bao au Bœuf Épicé", price_cents: 1400, description: "Émincé de bœuf au cumin" },
+          { name: "Lu Rou Fan (Bol de Riz au Porc)", price_cents: 1400, description: "Porc mijoté, œuf mariné sur riz parfumé", is_highlight: true },
+          { name: "Ji Rou Fan (Bol de Riz au Poulet)", price_cents: 1400, description: "Poulet effiloché, sauce soja douce" },
+          { name: "Soupe de Nouilles au Bœuf (Niu Rou Mian)", price_cents: 1600, description: "Bouillon riche, bœuf fondant et pak choï" },
+          { name: "Nouilles Froides au Sésame (Liang Mian)", price_cents: 1300, description: "Sauce cacahuète et concombre julienne" },
+          { name: "Rice Burger au Porc", price_cents: 1500 },
+          { name: "Rice Burger au Poulet", price_cents: 1500 },
+          { name: "Assiette Découverte Taïwan", price_cents: 1800, description: "Mix de spécialités du jour" },
+          { name: "Nouilles Dan Dan", price_cents: 1400, description: "Porc haché épicé et ciboule" }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Bao Sucré au Taro", price: "6€", description: "Pâte fondante à l'igname" },
-          { name: "Mochi Artisanal (x2)", price: "5€", description: "Sésame noir ou cacahuète", highlight: true },
-          { name: "Panna Cotta au Jasmin", price: "7€" },
-          { name: "Glace au Lait et Perles de Tapioca", price: "8€" }
+          { name: "Bao Sucré au Taro", price_cents: 600, description: "Pâte fondante à l'igname" },
+          { name: "Mochi Artisanal (x2)", price_cents: 500, description: "Sésame noir ou cacahuète", is_highlight: true },
+          { name: "Panna Cotta au Jasmin", price_cents: 700 },
+          { name: "Glace au Lait et Perles de Tapioca", price_cents: 800 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Bubble Tea Classique", price: "6.5€", description: "Thé noir, lait, perles de tapioca" },
-          { name: "Bubble Tea Matcha", price: "7€" },
-          { name: "Thé Oolong Froid", price: "5€" },
-          { name: "Bière Taïwan Beer", price: "6€", description: "La classique de Taipei" },
-          { name: "Bière Asahi", price: "5.5€" },
-          { name: "Jus d'Aloe Vera", price: "4€" },
-          { name: "Limonade Yuzu", price: "5€" },
-          { name: "Expresso", price: "2.5€" }
+          { name: "Bubble Tea Classique", price_cents: 650, description: "Thé noir, lait, perles de tapioca" },
+          { name: "Bubble Tea Matcha", price_cents: 700 },
+          { name: "Thé Oolong Froid", price_cents: 500 },
+          { name: "Bière Taïwan Beer", price_cents: 600, description: "La classique de Taipei" },
+          { name: "Bière Asahi", price_cents: 550 },
+          { name: "Jus d'Aloe Vera", price_cents: 400 },
+          { name: "Limonade Yuzu", price_cents: 500 },
+          { name: "Expresso", price_cents: 250 }
         ]
       }
     ]

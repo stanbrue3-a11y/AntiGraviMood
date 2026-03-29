@@ -41,42 +41,46 @@ export const le_bambou: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Entrées",
+        category_type: "starter",
+        display_label: "Entrées",
         items: [
-          { name: "Nems au porc (4 pièces)", price: "8.99€" },
-          { name: "Rouleaux de printemps (crevettes & porc)", price: "6.00€" },
-          { name: "Salade de papaye aux crevettes", price: "8.00€" },
-          { name: "Raviolis vietnamiens au porc", price: "9.49€" },
-          { name: "Crevettes croustillantes", price: "15€" },
-          { name: "Poulet en feuilles de pandan", price: "16€" }
+          { name: "Nems au porc (4 pièces)", price_cents: 899 },
+          { name: "Rouleaux de printemps (crevettes & porc)", price_cents: 600 },
+          { name: "Salade de papaye aux crevettes", price_cents: 800 },
+          { name: "Raviolis vietnamiens au porc", price_cents: 949 },
+          { name: "Crevettes croustillantes", price_cents: 1500 },
+          { name: "Poulet en feuilles de pandan", price_cents: 1600 }
         ]
       },
       {
-        category: "Spécialités Soupes & Riz",
+        category_type: "other",
+        display_label: "Spécialités Soupes & Riz",
         items: [
-          { name: "Phở đặc biệt (Soupe Spéciale)", price: "13.99€" },
-          { name: "Riz au bœuf Loc Lac", price: "13.99€" },
-          { name: "Vermicelles au bœuf & Nems", price: "13.49€" },
-          { name: "Riz au porc grillé", price: "12.99€" },
-          { name: "Boulettes de porc grillé & Vermicelles", price: "14.99€" },
-          { name: "Riz aux trois trésors", price: "13.99€" }
+          { name: "Phở đặc biệt (Soupe Spéciale)", price_cents: 1399 },
+          { name: "Riz au bœuf Loc Lac", price_cents: 1399 },
+          { name: "Vermicelles au bœuf & Nems", price_cents: 1349 },
+          { name: "Riz au porc grillé", price_cents: 1299 },
+          { name: "Boulettes de porc grillé & Vermicelles", price_cents: 1499 },
+          { name: "Riz aux trois trésors", price_cents: 1399 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Riz gluant mangue & lait de coco", price: "13€" },
-          { name: "Tarte au citron meringue & combava", price: "13€" },
-          { name: "Tarte aux figues & shiso", price: "13€" }
+          { name: "Riz gluant mangue & lait de coco", price_cents: 1300 },
+          { name: "Tarte au citron meringue & combava", price_cents: 1300 },
+          { name: "Tarte aux figues & shiso", price_cents: 1300 }
         ]
       },
       {
-        category: "Boissons",
+        category_type: "drink",
+        display_label: "Boissons",
         items: [
-          { name: "Thé au jasmin (Théière)", price: "5€" },
-          { name: "Bière Saigon (33cl)", price: "5.50€" },
-          { name: "Bière Tsingtao (33cl)", price: "5.50€" },
-          { name: "Lait de soja maison", price: "4.50€" }
+          { name: "Thé au jasmin (Théière)", price_cents: 500 },
+          { name: "Bière Saigon (33cl)", price_cents: 550 },
+          { name: "Bière Tsingtao (33cl)", price_cents: 550 },
+          { name: "Lait de soja maison", price_cents: 450 }
         ]
       }
     ]

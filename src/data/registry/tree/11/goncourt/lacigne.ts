@@ -45,40 +45,45 @@ export const lacigne: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Lacigne 2025 Seasonal (Japanese Fusion)
             {
-                category: "Formules & Menus",
+                category_type: "tasting_menu",
+                display_label: "Formules & Menus",
                 items: [
-                    { name: "Formule Déjeuner (E+P+Mochi)", price: "22.00€", description: "Le meilleur deal du quartier." },
-                    { name: "Menu Omakase (Dîner)", price: "45.00€", description: "Carte blanche du chef Daisuke Kikuchi." }
+                    { name: "Formule Déjeuner (E+P+Mochi)", price_cents: 2200, description: "Le meilleur deal du quartier." },
+                    { name: "Menu Omakase (Dîner)", price_cents: 4500, description: "Carte blanche du chef Daisuke Kikuchi." }
                 ]
             },
             {
-                category: "L'Art du Mochi (Pâtisserie)",
+                category_type: "other",
+                display_label: "L'Art du Mochi (Pâtisserie)",
                 items: [
-                    { name: "Mochi Matcha Azuki", price: "5.50€", description: "Mochi frais, texture nuageuse." },
-                    { name: "Mochi Framboise Litchi", price: "5.50€" },
-                    { name: "Mochi Soja vert grillé & Umeboshi", price: "6.00€" },
-                    { name: "Boîte de 6 Mochis (Take-away)", price: "30.00€" }
+                    { name: "Mochi Matcha Azuki", price_cents: 550, description: "Mochi frais, texture nuageuse." },
+                    { name: "Mochi Framboise Litchi", price_cents: 550 },
+                    { name: "Mochi Soja vert grillé & Umeboshi", price_cents: 600 },
+                    { name: "Boîte de 6 Mochis (Take-away)", price_cents: 3000 }
                 ]
             },
             {
-                category: "Plats (Donburi)",
+                category_type: "main",
+                display_label: "Plats (Donburi)",
                 items: [
-                    { name: "Donburi du jour", price: "16.00€" }
+                    { name: "Donburi du jour", price_cents: 1600 }
                 ]
             },
             {
-                category: "Entrées & Soupes",
+                category_type: "starter",
+                display_label: "Entrées & Soupes",
                 items: [
-                    { name: "Entrée de saison (Sashimi/Tofu)", price: "9.00€" },
-                    { name: "Soupe Miso artisanale", price: "4.50€" }
+                    { name: "Entrée de saison (Sashimi/Tofu)", price_cents: 900 },
+                    { name: "Soupe Miso artisanale", price_cents: 450 }
                 ]
             },
             {
-                category: "Thés & Cafés",
+                category_type: "other",
+                display_label: "Thés & Cafés",
                 items: [
-                    { name: "Matcha Latte (Ceremonial)", price: "6.50€" },
-                    { name: "Sencha Supérieur", price: "5.50€" },
-                    { name: "Café de spécialité", price: "4.50€" }
+                    { name: "Matcha Latte (Ceremonial)", price_cents: 650 },
+                    { name: "Sencha Supérieur", price_cents: 550 },
+                    { name: "Café de spécialité", price_cents: 450 }
                 ]
             }
         ]

@@ -38,34 +38,37 @@ export const mr_chow: SurgicalPlace = {
     last_updated: "2026-03-22",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Wontons pochés crevettes (x5)", price: "8.50€", description: "Juteux et parfumés" },
-          { name: "Shrimp Toast", price: "13.50€", description: "Légendaire toast aux crevettes" },
-          { name: "Popcorn Fried Chicken", price: "13.00€", description: "Poulet frit ultra crispy" },
-          { name: "Smashed Cucumber sesame", price: "4.50€", description: "Concombre écrasé" },
-          { name: "Aubergines Hong Shao", price: "12.50€", description: "Aubergines fondantes façon HK" },
-          { name: "Jiaozi Porc & Chou (x5)", price: "9.00€" },
-          { name: "Har Gow Crevettes (x4)", price: "9.50€" }
+          { name: "Wontons pochés crevettes (x5)", price_cents: 850, description: "Juteux et parfumés" },
+          { name: "Shrimp Toast", price_cents: 1350, description: "Légendaire toast aux crevettes" },
+          { name: "Popcorn Fried Chicken", price_cents: 1300, description: "Poulet frit ultra crispy" },
+          { name: "Smashed Cucumber sesame", price_cents: 450, description: "Concombre écrasé" },
+          { name: "Aubergines Hong Shao", price_cents: 1250, description: "Aubergines fondantes façon HK" },
+          { name: "Jiaozi Porc & Chou (x5)", price_cents: 900 },
+          { name: "Har Gow Crevettes (x4)", price_cents: 950 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Biang Biang Noodles Boeuf", price: "14.50€", description: "Pâtes larges tirées main" },
-          { name: "Creamy Dandan Noodles", price: "14.50€", description: "Sauce sésame & piment" },
-          { name: "Biang Biang Noodles Agneau Confit", price: "15.50€", description: "Agneau ultra fondant" },
-          { name: "Biang Biang Noodles Poulet", price: "14.00€" },
-          { name: "Veggie Noodles Sesame", price: "13.50€" },
-          { name: "Fried Rice Mr Chow", price: "12.50€" }
+          { name: "Biang Biang Noodles Boeuf", price_cents: 1450, description: "Pâtes larges tirées main" },
+          { name: "Creamy Dandan Noodles", price_cents: 1450, description: "Sauce sésame & piment" },
+          { name: "Biang Biang Noodles Agneau Confit", price_cents: 1550, description: "Agneau ultra fondant" },
+          { name: "Biang Biang Noodles Poulet", price_cents: 1400 },
+          { name: "Veggie Noodles Sesame", price_cents: 1350 },
+          { name: "Fried Rice Mr Chow", price_cents: 1250 }
         ]
       },
       {
-        category: "Desserts",
+        category_type: "dessert",
+        display_label: "Desserts",
         items: [
-          { name: "Bao au Chocolat fondu", price: "5.50€", description: "Cœur coulant" },
-          { name: "Mango Sago Dessert", price: "7.00€", description: "Mangue & perles de sagou" },
-          { name: "Mochi Glacé Passion (x2)", price: "6.00€" }
+          { name: "Bao au Chocolat fondu", price_cents: 550, description: "Cœur coulant" },
+          { name: "Mango Sago Dessert", price_cents: 700, description: "Mangue & perles de sagou" },
+          { name: "Mochi Glacé Passion (x2)", price_cents: 600 }
         ]
       }
     ]

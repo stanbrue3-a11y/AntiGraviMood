@@ -46,36 +46,39 @@ export const caf_oberkampf: SurgicalPlace = {
         "last_updated": "2024-03-08",
         "menu_items": [
             {
-                "category": "Plats (Brunch)",
+                "category_type": "main",
+                "display_label": "Plats (Brunch)",
                 "items": [
-                    { "name": "Lost in Shakshuka", "price": "14.50€", "description": "L'incontournable : sauce tomate épicée, œufs pochés, herbes fraîches, pita." },
-                    { "name": "Avocado Toast au Za'atar", "price": "13.50€" },
-                    { "name": "Grilled Cheese (Sourdough & Cheddar)", "price": "12.00€" },
-                    { "name": "Halloumi Toast aux herbes", "price": "13.50€" },
-                    { "name": "Soft Scrambled Eggs on Toast", "price": "11.00€" },
-                    { "name": "Granola Maison & Yaourt Grec", "price": "9.50€" },
-                    { "name": "Porridge d'avoine aux fruits de saison", "price": "9.00€" }
+                    { "name": "Lost in Shakshuka", "price_cents": 1450, "description": "L'incontournable : sauce tomate épicée, œufs pochés, herbes fraîches, pita." },
+                    { "name": "Avocado Toast au Za'atar", "price_cents": 1350 },
+                    { "name": "Grilled Cheese (Sourdough & Cheddar)", "price_cents": 1200 },
+                    { "name": "Halloumi Toast aux herbes", "price_cents": 1350 },
+                    { "name": "Soft Scrambled Eggs on Toast", "price_cents": 1100 },
+                    { "name": "Granola Maison & Yaourt Grec", "price_cents": 950 },
+                    { "name": "Porridge d'avoine aux fruits de saison", "price_cents": 900 }
                 ]
             },
             {
-                "category": "Treats & Sides",
+                "category_type": "other",
+                "display_label": "Treats & Sides",
                 "items": [
-                    { "name": "Banana Bread toasté (beurre salé)", "price": "6.00€" },
-                    { "name": "Cookie Chocolat & Tahini", "price": "4.50€" },
-                    { "name": "Cake Citron Pavot", "price": "5.50€" },
-                    { "name": "Halloumi grillé (side)", "price": "4.50€" },
-                    { "name": "Avocat frais (side)", "price": "4.00€" }
+                    { "name": "Banana Bread toasté (beurre salé)", "price_cents": 600 },
+                    { "name": "Cookie Chocolat & Tahini", "price_cents": 450 },
+                    { "name": "Cake Citron Pavot", "price_cents": 550 },
+                    { "name": "Halloumi grillé (side)", "price_cents": 450 },
+                    { "name": "Avocat frais (side)", "price_cents": 400 }
                 ]
             },
             {
-                "category": "Specialty Coffee & Drinks",
+                "category_type": "other",
+                "display_label": "Specialty Coffee & Drinks",
                 "items": [
-                    { "name": "Espresso / Allongé", "price": "3.00€" },
-                    { "name": "Flat White", "price": "4.50€" },
-                    { "name": "Latte / Cappuccino", "price": "5.00€" },
-                    { "name": "Matcha Latte", "price": "6.00€" },
-                    { "name": "Chai Latte Maison", "price": "5.50€" },
-                    { "name": "Fresh Orange Juice", "price": "5.50€" }
+                    { "name": "Espresso / Allongé", "price_cents": 300 },
+                    { "name": "Flat White", "price_cents": 450 },
+                    { "name": "Latte / Cappuccino", "price_cents": 500 },
+                    { "name": "Matcha Latte", "price_cents": 600 },
+                    { "name": "Chai Latte Maison", "price_cents": 550 },
+                    { "name": "Fresh Orange Juice", "price_cents": 550 }
                 ]
             }
         ]

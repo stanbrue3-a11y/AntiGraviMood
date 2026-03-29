@@ -45,31 +45,34 @@ export const reyna: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Reyna 2025 Standard (Filipino Fusion Bistronomy)
             {
-                category: "Small Plates (À partager)",
+                category_type: "main",
+                display_label: "Small Plates (À partager)",
                 items: [
-                    { name: "Hainan Burrata", price: "16.00€", description: "Kecap manis, gingembre, piment, herbes." },
-                    { name: "Patis Caramel Wings (x3)", price: "11.00€", description: "Poulet frit laqué au nuoc mam." },
-                    { name: "Tuna Kinilaw", price: "18.00€", description: "Ceviche philippin, calamansi, coco." },
-                    { name: "Grilled Hispi Cabbage", price: "14.00€", description: "Mayo gochujang, copeaux de boutargue." },
-                    { name: "Sisig Traditionnel", price: "15.00€" },
-                    { name: "Kare-Kare Aubergine", price: "13.00€", description: "Sauce arachide, bagoong butter." },
-                    { name: "Green Asparagus Bagoong", price: "14.00€" }
+                    { name: "Hainan Burrata", price_cents: 1600, description: "Kecap manis, gingembre, piment, herbes." },
+                    { name: "Patis Caramel Wings (x3)", price_cents: 1100, description: "Poulet frit laqué au nuoc mam." },
+                    { name: "Tuna Kinilaw", price_cents: 1800, description: "Ceviche philippin, calamansi, coco." },
+                    { name: "Grilled Hispi Cabbage", price_cents: 1400, description: "Mayo gochujang, copeaux de boutargue." },
+                    { name: "Sisig Traditionnel", price_cents: 1500 },
+                    { name: "Kare-Kare Aubergine", price_cents: 1300, description: "Sauce arachide, bagoong butter." },
+                    { name: "Green Asparagus Bagoong", price_cents: 1400 }
                 ]
             },
             {
-                category: "Plats Signatures",
+                category_type: "main",
+                display_label: "Plats Signatures",
                 items: [
-                    { name: "Pork Belly Bicol Express", price: "21.00€", description: "Poitrine fondante, sauce épicée piment/coco." },
-                    { name: "Fried Chicken Adobo", price: "19.00€", description: "Yaourt à l'ail, glaçage soja-balsamique." },
-                    { name: "Beef Braisé Special", price: "24.00€" }
+                    { name: "Pork Belly Bicol Express", price_cents: 2100, description: "Poitrine fondante, sauce épicée piment/coco." },
+                    { name: "Fried Chicken Adobo", price_cents: 1900, description: "Yaourt à l'ail, glaçage soja-balsamique." },
+                    { name: "Beef Braisé Special", price_cents: 2400 }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Calamansi Cheesecake", price: "8.00€", description: "Le dessert culte, acidulé et onctueux." },
-                    { name: "Pavlova Fruits Exotiques", price: "9.00€" },
-                    { name: "Leche Flan au café", price: "8.00€" }
+                    { name: "Calamansi Cheesecake", price_cents: 800, description: "Le dessert culte, acidulé et onctueux." },
+                    { name: "Pavlova Fruits Exotiques", price_cents: 900 },
+                    { name: "Leche Flan au café", price_cents: 800 }
                 ]
             }
         ]

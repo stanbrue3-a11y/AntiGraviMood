@@ -45,35 +45,39 @@ export const ama: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Ama 2025 Standard (Tibetan)
             {
-                category: "Les Momos (Raviolis Tibétains)",
+                category_type: "other",
+                display_label: "Les Momos (Raviolis Tibétains)",
                 items: [
-                    { name: "Momos Boeuf (x8)", price: "11.00€", description: "Vapeur ou grillés, avec sauce piquante maison." },
-                    { name: "Momos Poulet (x8)", price: "11.00€" },
-                    { name: "Momos Légumes (x8)", price: "10.00€" },
-                    { name: "Momos Fromage & Epinards (x8)", price: "12.00€" }
+                    { name: "Momos Boeuf (x8)", price_cents: 1100, description: "Vapeur ou grillés, avec sauce piquante maison." },
+                    { name: "Momos Poulet (x8)", price_cents: 1100 },
+                    { name: "Momos Légumes (x8)", price_cents: 1000 },
+                    { name: "Momos Fromage & Epinards (x8)", price_cents: 1200 }
                 ]
             },
             {
-                category: "Plats Signatures",
+                category_type: "main",
+                display_label: "Plats Signatures",
                 items: [
-                    { name: "Shaptra", price: "16.00€", description: "Boeuf sauté au gingembre et piments, servi avec du pain tibétain." },
-                    { name: "Thenthuk", price: "14.50€", description: "Soupe de nouilles tirées à la main, légumes et viande." },
-                    { name: "Gyathuk", price: "15.00€", description: "Nouilles sautées à la tibétaine." }
+                    { name: "Shaptra", price_cents: 1600, description: "Boeuf sauté au gingembre et piments, servi avec du pain tibétain." },
+                    { name: "Thenthuk", price_cents: 1450, description: "Soupe de nouilles tirées à la main, légumes et viande." },
+                    { name: "Gyathuk", price_cents: 1500, description: "Nouilles sautées à la tibétaine." }
                 ]
             },
             {
-                category: "Accompagnements",
+                category_type: "other",
+                display_label: "Accompagnements",
                 items: [
-                    { name: "Tingmo (Pain vapeur)", price: "3.50€" },
-                    { name: "Salade Tibétaine", price: "6.00€" }
+                    { name: "Tingmo (Pain vapeur)", price_cents: 350 },
+                    { name: "Salade Tibétaine", price_cents: 600 }
                 ]
             },
             {
-                category: "Desserts & Thés",
+                category_type: "dessert",
+                display_label: "Desserts & Thés",
                 items: [
-                    { name: "Tsampa au miel", price: "7.00€" },
-                    { name: "Thé Tibétain (au beurre salé)", price: "4.50€" },
-                    { name: "Lassi Maison", price: "5.50€" }
+                    { name: "Tsampa au miel", price_cents: 700 },
+                    { name: "Thé Tibétain (au beurre salé)", price_cents: 450 },
+                    { name: "Lassi Maison", price_cents: 550 }
                 ]
             }
         ]

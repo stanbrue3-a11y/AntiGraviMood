@@ -45,33 +45,36 @@ export const epopee: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Épopée 2025 (Cuisine Franco-Japonaise de Yurika Kitano)
             {
-                category: "Formules Déjeuner (Semaine)",
+                category_type: "tasting_menu",
+                display_label: "Formules Déjeuner (Semaine)",
                 items: [
-                    { name: "Menu E+P ou P+D", price: "24.00€", description: "Entrée/Plat ou Plat/Dessert selon le marché." },
-                    { name: "Menu complet E+P+D", price: "29.00€", description: "L'expérience complète du midi." }
+                    { name: "Menu E+P ou P+D", price_cents: 2400, description: "Entrée/Plat ou Plat/Dessert selon le marché." },
+                    { name: "Menu complet E+P+D", price_cents: 2900, description: "L'expérience complète du midi." }
                 ]
             },
             {
-                category: "Expérience du Soir (Carte Blanche)",
+                category_type: "other",
+                display_label: "Expérience du Soir (Carte Blanche)",
                 items: [
-                    { name: "Menu Dégustation (5 temps)", price: "55.00€", description: "Le voyage signature de la cheffe Yurika Kitano." },
-                    { name: "Sélection de Vins Natures", price: "0.00€", description: "Carte pointue gérée par Thomas Legrand." }
+                    { name: "Menu Dégustation (5 temps)", price_cents: 5500, description: "Le voyage signature de la cheffe Yurika Kitano." },
+                    { name: "Sélection de Vins Natures", price_cents: 0, description: "Carte pointue gérée par Thomas Legrand." }
                 ]
             },
             {
-                category: "Exemples de Plats Signature (Yurika Kitano)",
+                category_type: "main",
+                display_label: "Exemples de Plats Signature (Yurika Kitano)",
                 items: [
-                    { name: "Choux de Bruxelles frits, crème crue & œufs de truite", price: "Inclus" },
-                    { name: "Chou-fleur rôti, sauce anchois & herbes", price: "Inclus" },
-                    { name: "Bavette de bœuf maturée, condiment échalote", price: "Inclus" },
-                    { name: "Poulpe snacké, mousseline de céleri & noisettes", price: "Inclus" },
-                    { name: "Légumes de saison à la vapeur, houmous de pois chiches", price: "Inclus" },
-                    { name: "Crudo de bar & émulsion de yuzu", price: "Inclus" },
-                    { name: "Magret de canard, jus corsé & miso rouge", price: "Inclus" },
-                    { name: "Millefeuille de racine de persil & bergamote", price: "Inclus" },
-                    { name: "Pudding de Kabocha (courge japonaise)", price: "Inclus" },
-                    { name: "Mont Blanc aux marrons d'Ardèche", price: "Inclus" },
-                    { name: "Mousse de sésame noir & framboises fraîches", price: "Inclus" }
+                    { name: "Choux de Bruxelles frits, crème crue & œufs de truite", price_cents: 0 },
+                    { name: "Chou-fleur rôti, sauce anchois & herbes", price_cents: 0 },
+                    { name: "Bavette de bœuf maturée, condiment échalote", price_cents: 0 },
+                    { name: "Poulpe snacké, mousseline de céleri & noisettes", price_cents: 0 },
+                    { name: "Légumes de saison à la vapeur, houmous de pois chiches", price_cents: 0 },
+                    { name: "Crudo de bar & émulsion de yuzu", price_cents: 0 },
+                    { name: "Magret de canard, jus corsé & miso rouge", price_cents: 0 },
+                    { name: "Millefeuille de racine de persil & bergamote", price_cents: 0 },
+                    { name: "Pudding de Kabocha (courge japonaise)", price_cents: 0 },
+                    { name: "Mont Blanc aux marrons d'Ardèche", price_cents: 0 },
+                    { name: "Mousse de sésame noir & framboises fraîches", price_cents: 0 }
                 ]
             }
         ]

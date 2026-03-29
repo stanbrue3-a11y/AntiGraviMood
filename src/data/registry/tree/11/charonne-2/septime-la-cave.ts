@@ -26,54 +26,58 @@ export const septimeLaCave: SurgicalPlace = {
         last_updated: "2026-03-08",
         menu_items: [
             {
-                category: "Petites Assiettes à Partager (Tapas)",
+                category_type: "sharing",
+                display_label: "Petites Assiettes à Partager (Tapas)",
                 items: [
-                    { name: "Pain, Beurre Fumé & Truffes Noires", price: "10.00€", description: "Le toast iconique de la Cave." },
-                    { name: "Jambon de Bœur, Citron & Huile d'Olive", price: "9.00€" },
-                    { name: "Asperges Blanches & Mayonnaise au Capre", price: "8.00€" },
-                    { name: "Carottes Fanes, Ail des Ours & Zaatar", price: "7.50€" },
-                    { name: "Anchois & Mozzarella di Bufala", price: "8.50€" },
-                    { name: "Foie Gras & Anguille Fumée", price: "12.00€" },
-                    { name: "Planche de Charcuterie Artisanale", price: "15.00€" },
-                    { name: "Saucisson d'Ardèche & Beurre Bordier", price: "7.50€" },
-                    { name: "Pancetta de Terroir", price: "7.00€" },
-                    { name: "Comté 24 mois & Chutney de Figues", price: "11.00€" },
-                    { name: "Poireaux Vinaigrette Mimosa", price: "8.00€" },
-                    { name: "Olives de Lucques & Kalamata", price: "5.50€" },
-                    { name: "Pastrami & Huile de Laurier", price: "9.00€" },
-                    { name: "Rillettes de Canard Maison", price: "8.50€" }
+                    { name: "Pain, Beurre Fumé & Truffes Noires", price_cents: 1000, description: "Le toast iconique de la Cave." },
+                    { name: "Jambon de Bœur, Citron & Huile d'Olive", price_cents: 900 },
+                    { name: "Asperges Blanches & Mayonnaise au Capre", price_cents: 800 },
+                    { name: "Carottes Fanes, Ail des Ours & Zaatar", price_cents: 750 },
+                    { name: "Anchois & Mozzarella di Bufala", price_cents: 850 },
+                    { name: "Foie Gras & Anguille Fumée", price_cents: 1200 },
+                    { name: "Planche de Charcuterie Artisanale", price_cents: 1500 },
+                    { name: "Saucisson d'Ardèche & Beurre Bordier", price_cents: 750 },
+                    { name: "Pancetta de Terroir", price_cents: 700 },
+                    { name: "Comté 24 mois & Chutney de Figues", price_cents: 1100 },
+                    { name: "Poireaux Vinaigrette Mimosa", price_cents: 800 },
+                    { name: "Olives de Lucques & Kalamata", price_cents: 550 },
+                    { name: "Pastrami & Huile de Laurier", price_cents: 900 },
+                    { name: "Rillettes de Canard Maison", price_cents: 850 }
                 ]
             },
             {
-                category: "Sélection de Vins Naturels (Au Verre)",
+                category_type: "drink",
+                display_label: "Sélection de Vins Naturels (Au Verre)",
                 items: [
-                    { name: "Verre de Vin Blanc Nature", price: "5.50€" },
-                    { name: "Verre de Vin Rouge Nature", price: "5.50€" },
-                    { name: "Verre de Macération (Orange)", price: "6.50€" },
-                    { name: "Verre de Bulles Naturelles", price: "7.50€" }
+                    { name: "Verre de Vin Blanc Nature", price_cents: 550 },
+                    { name: "Verre de Vin Rouge Nature", price_cents: 550 },
+                    { name: "Verre de Macération (Orange)", price_cents: 650 },
+                    { name: "Verre de Bulles Naturelles", price_cents: 750 }
                 ]
             },
             {
-                category: "Vins de Vignerons (Sélection Cave)",
+                category_type: "drink",
+                display_label: "Vins de Vignerons (Sélection Cave)",
                 items: [
-                    { name: "Domaine Ganevat (Jura)", price: "Shop Price", description: "Vins d'exception, nous consulter." },
-                    { name: "Pfifferling - L'Anglore", price: "Shop Price" },
-                    { name: "Domaine Mosse (Anjou)", price: "Shop Price" },
-                    { name: "Radikon (Frioul)", price: "Shop Price" },
-                    { name: "Belluard (Savoie)", price: "Shop Price" },
-                    { name: "Puzelat - Clos du Tue-Bœuf", price: "Shop Price" },
-                    { name: "Alexandre Bain (Loire)", price: "Shop Price" },
-                    { name: "Droit de Bouchon (Sur place)", price: "7.00€", description: "Prix boutique + 7€ pour consommation sur place." }
+                    { name: "Domaine Ganevat (Jura)", price_cents: 0, description: "Vins d'exception, nous consulter." },
+                    { name: "Pfifferling - L'Anglore", price_cents: 0 },
+                    { name: "Domaine Mosse (Anjou)", price_cents: 0 },
+                    { name: "Radikon (Frioul)", price_cents: 0 },
+                    { name: "Belluard (Savoie)", price_cents: 0 },
+                    { name: "Puzelat - Clos du Tue-Bœuf", price_cents: 0 },
+                    { name: "Alexandre Bain (Loire)", price_cents: 0 },
+                    { name: "Droit de Bouchon (Sur place)", price_cents: 700, description: "Prix boutique + 7€ pour consommation sur place." }
                 ]
             },
             {
-                category: "Final Touches & Softs",
+                category_type: "other",
+                display_label: "Final Touches & Softs",
                 items: [
-                    { name: "Terrine de Campagne Maison", price: "8.50€" },
-                    { name: "Couteaux Graphiques au Beurre d'Herbes", price: "12.00€" },
-                    { name: "Verre de Vin Doux Naturel", price: "8.50€" },
-                    { name: "Eau de Chateldon (75cl)", price: "6.50€" },
-                    { name: "Café de Spécialité (L'Arbre à Café)", price: "3.50€" }
+                    { name: "Terrine de Campagne Maison", price_cents: 850 },
+                    { name: "Couteaux Graphiques au Beurre d'Herbes", price_cents: 1200 },
+                    { name: "Verre de Vin Doux Naturel", price_cents: 850 },
+                    { name: "Eau de Chateldon (75cl)", price_cents: 650 },
+                    { name: "Café de Spécialité (L'Arbre à Café)", price_cents: 350 }
                 ]
             }
         ]

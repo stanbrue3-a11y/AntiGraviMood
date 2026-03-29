@@ -40,43 +40,47 @@ export const closerie_des_lilas: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "L'Écailler & Crustacés",
+                category_type: "other",
+                display_label: "L'Écailler & Crustacés",
                 items: [
-                    { name: "Plateau Royal Closerie (Homard, Tourteau, Huîtres, Langoustines)", price: "115.00€" },
-                    { name: "Plateau Dégustation", price: "54.00€" },
-                    { name: "Huîtres Gillardeau N°3 (les 6)", price: "34.00€" },
-                    { name: "Huîtres Brittany N°1 (les 6)", price: "23.40€" },
-                    { name: "Langoustines Royales fraîches", price: "38.00€" }
+                    { name: "Plateau Royal Closerie (Homard, Tourteau, Huîtres, Langoustines)", price_cents: 11500 },
+                    { name: "Plateau Dégustation", price_cents: 5400 },
+                    { name: "Huîtres Gillardeau N°3 (les 6)", price_cents: 3400 },
+                    { name: "Huîtres Brittany N°1 (les 6)", price_cents: 2340 },
+                    { name: "Langoustines Royales fraîches", price_cents: 3800 }
                 ]
             },
             {
-                category: "Légendes Hemingway",
+                category_type: "other",
+                display_label: "Légendes Hemingway",
                 items: [
-                    { name: "Le Célèbre Filet de Boeuf Hemingway", price: "52.00€", description: "Flambé au poivre, la signature historique du lieu." },
-                    { name: "Tartare de Boeuf Classique Closerie", price: "32.00€" },
-                    { name: "Quenelle de Brochet Sauce Nantua", price: "48.00€" },
-                    { name: "Sole Meunière de nos Côtes (500g)", price: "58.00€" },
-                    { name: "Ris de Veau doré au sautoir", price: "52.00€" },
-                    { name: "Pavé de Cabillaud à la vapeur, vierge de légumes", price: "42.00€" },
-                    { name: "Riz de Veau aux Morilles", price: "54.00€" },
-                    { name: "Epaule d'Agneau confite 7 heures", price: "45.00€" }
+                    { name: "Le Célèbre Filet de Boeuf Hemingway", price_cents: 5200, description: "Flambé au poivre, la signature historique du lieu." },
+                    { name: "Tartare de Boeuf Classique Closerie", price_cents: 3200 },
+                    { name: "Quenelle de Brochet Sauce Nantua", price_cents: 4800 },
+                    { name: "Sole Meunière de nos Côtes (500g)", price_cents: 5800 },
+                    { name: "Ris de Veau doré au sautoir", price_cents: 5200 },
+                    { name: "Pavé de Cabillaud à la vapeur, vierge de légumes", price_cents: 4200 },
+                    { name: "Riz de Veau aux Morilles", price_cents: 5400 },
+                    { name: "Epaule d'Agneau confite 7 heures", price_cents: 4500 }
                 ]
             },
             {
-                category: "Douceurs & Classiques",
+                category_type: "dessert",
+                display_label: "Douceurs & Classiques",
                 items: [
-                    { name: "Profiteroles au Chocolat Chaud", price: "16.00€" },
-                    { name: "Crêpes Suzette flambées en salle", price: "22.00€" },
-                    { name: "Millefeuille à la Vanille Bourbon", price: "18.00€" },
-                    { name: "Soufflé au Grand Marnier", price: "21.00€" },
-                    { name: "Baba au Rhum Ambré 'Closerie'", price: "19.00€" }
+                    { name: "Profiteroles au Chocolat Chaud", price_cents: 1600 },
+                    { name: "Crêpes Suzette flambées en salle", price_cents: 2200 },
+                    { name: "Millefeuille à la Vanille Bourbon", price_cents: 1800 },
+                    { name: "Soufflé au Grand Marnier", price_cents: 2100 },
+                    { name: "Baba au Rhum Ambré 'Closerie'", price_cents: 1900 }
                 ]
             },
             {
-                category: "Cocktails Signature",
+                category_type: "drink",
+                display_label: "Cocktails Signature",
                 items: [
-                    { name: "Hemingway Special (Rhum, Pamplemousse, Marasquin)", price: "22.00€" },
-                    { name: "Jazz à la Closerie", price: "21.00€" }
+                    { name: "Hemingway Special (Rhum, Pamplemousse, Marasquin)", price_cents: 2200 },
+                    { name: "Jazz à la Closerie", price_cents: 2100 }
                 ]
             }
         ]

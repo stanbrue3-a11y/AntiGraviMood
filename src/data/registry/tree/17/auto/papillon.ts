@@ -40,43 +40,47 @@ export const papillon: SurgicalPlace = {
     verified_at: "2026-03-31",
     menu_items: [
       {
-        category: "Pour Commencer / À Partager",
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Caviars d'aubergine, sésame et miso", price: "16€" },
-          { name: "Radis beurrés et pain au levain", price: "12€" },
-          { name: "Velouté de châtaignes, mousse de lard", price: "18€" },
-          { name: "Pâté en croûte du moment", price: "21€" },
-          { name: "Huîtres n°3 en gelée de mer", price: "24€" }
+          { name: "Caviars d'aubergine, sésame et miso", price_cents: 1600 },
+          { name: "Radis beurrés et pain au levain", price_cents: 1200 },
+          { name: "Velouté de châtaignes, mousse de lard", price_cents: 1800 },
+          { name: "Pâté en croûte du moment", price_cents: 2100 },
+          { name: "Huîtres n°3 en gelée de mer", price_cents: 2400 }
         ]
       },
       {
-        category: "Les Plats",
+        category_type: "main",
+        display_label: "Les Plats",
         items: [
-          { name: "Canard sauvage rôtie aux olives de Lucques", price: "38€" },
-          { name: "Bar de ligne, fenouil et beurre blanc", price: "36€" },
-          { name: "Paupiette de chou aux légumes d'hiver", price: "28€" },
-          { name: "quasi de veau, carottes fanes glacées", price: "35€" },
-          { name: "Pigeonneau de Vendée en crapaudine", price: "42€" }
+          { name: "Canard sauvage rôtie aux olives de Lucques", price_cents: 3800 },
+          { name: "Bar de ligne, fenouil et beurre blanc", price_cents: 3600 },
+          { name: "Paupiette de chou aux légumes d'hiver", price_cents: 2800 },
+          { name: "quasi de veau, carottes fanes glacées", price_cents: 3500 },
+          { name: "Pigeonneau de Vendée en crapaudine", price_cents: 4200 }
         ]
       },
       {
-        category: "Douceurs",
+        category_type: "dessert",
+        display_label: "Douceurs",
         items: [
-          { name: "Le soufflé au Grand Marnier", price: "15€" },
-          { name: "Chocolat grand cru, tuile croustillante", price: "14€" },
-          { name: "Poire pochée au poivre de Timut", price: "12€" },
-          { name: "Assiette de fromages du 17e", price: "16€" },
-          { name: "Baba au rhum ambré", price: "14€" }
+          { name: "Le soufflé au Grand Marnier", price_cents: 1500 },
+          { name: "Chocolat grand cru, tuile croustillante", price_cents: 1400 },
+          { name: "Poire pochée au poivre de Timut", price_cents: 1200 },
+          { name: "Assiette de fromages du 17e", price_cents: 1600 },
+          { name: "Baba au rhum ambré", price_cents: 1400 }
         ]
       },
       {
-        category: "La Cave & Boissons",
+        category_type: "drink",
+        display_label: "La Cave & Boissons",
         items: [
-          { name: "Coupe de Champagne", price: "16€" },
-          { name: "Verre de Meursault", price: "18€" },
-          { name: "Cocktail signature (le Butterfly)", price: "15€" },
-          { name: "Infusion d'herbes fraîches", price: "7€" },
-          { name: "Vittel (50cl)", price: "6€" }
+          { name: "Coupe de Champagne", price_cents: 1600 },
+          { name: "Verre de Meursault", price_cents: 1800 },
+          { name: "Cocktail signature (le Butterfly)", price_cents: 1500 },
+          { name: "Infusion d'herbes fraîches", price_cents: 700 },
+          { name: "Vittel (50cl)", price_cents: 600 }
         ]
       }
     ]

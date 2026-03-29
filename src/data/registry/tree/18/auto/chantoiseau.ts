@@ -40,31 +40,40 @@ export const chantoiseau: SurgicalPlace = {
     last_updated: "2026-03-25",
     verified_at: "2026-03-25",
     menu_items: [
-      { category: "Pour Commencer / À Partager", items: [
-        { name: "Crème de Châtaigne & Mandarine", price: "14.00€", description: "Jus de mandarine, crème crue fumée" },
-        { name: "Tourteau Frais Décortiqué", price: "19.00€", description: "Mayonnaise pamplemousse, radis noir" },
-        { name: "Carpaccio de Saint-Jacques", price: "18.00€", description: "Huile de basilic, agrumes" },
-        { name: "Asperges Vertes Grillées", price: "15.00€" },
-        { name: "Os à Moelle & Herbes", price: "12.00€" },
-        { name: "Terrine de Campagne Maison", price: "11.00€" }
+      {
+        category_type: "starter",
+        display_label: "Pour Commencer / À Partager",
+        items: [
+        { name: "Crème de Châtaigne & Mandarine", price_cents: 1400, description: "Jus de mandarine, crème crue fumée" },
+        { name: "Tourteau Frais Décortiqué", price_cents: 1900, description: "Mayonnaise pamplemousse, radis noir" },
+        { name: "Carpaccio de Saint-Jacques", price_cents: 1800, description: "Huile de basilic, agrumes" },
+        { name: "Asperges Vertes Grillées", price_cents: 1500 },
+        { name: "Os à Moelle & Herbes", price_cents: 1200 },
+        { name: "Terrine de Campagne Maison", price_cents: 1100 }
       ]},
-      { category: "Les Plats", items: [
-        { name: "Longe de Porc Rôtie", price: "26.00€", description: "Gnocchi maison, asperges, jus vert" },
-        { name: "Bar Confit aux Algues", price: "35.00€", description: "Heliantis, épinards citronnés" },
-        { name: "Blanquette de Veau Tradition", price: "28.00€", description: "Version légère et moderne" },
-        { name: "Risotto au Safran & Coquillages", price: "32.00€" },
-        { name: "Canette de Challans", price: "34.00€", description: "Légumes racines, jus corsé" },
-        { name: "Pavé de Lieu Jaune", price: "27.00€" },
-        { name: "Agneau de Lait des Pyrénées", price: "36.00€" },
-        { name: "Plat Végétarien du Moment", price: "22.00€" }
+      {
+        category_type: "main",
+        display_label: "Les Plats",
+        items: [
+        { name: "Longe de Porc Rôtie", price_cents: 2600, description: "Gnocchi maison, asperges, jus vert" },
+        { name: "Bar Confit aux Algues", price_cents: 3500, description: "Heliantis, épinards citronnés" },
+        { name: "Blanquette de Veau Tradition", price_cents: 2800, description: "Version légère et moderne" },
+        { name: "Risotto au Safran & Coquillages", price_cents: 3200 },
+        { name: "Canette de Challans", price_cents: 3400, description: "Légumes racines, jus corsé" },
+        { name: "Pavé de Lieu Jaune", price_cents: 2700 },
+        { name: "Agneau de Lait des Pyrénées", price_cents: 3600 },
+        { name: "Plat Végétarien du Moment", price_cents: 2200 }
       ]},
-      { category: "Douceurs", items: [
-        { name: "Tartelette Citron & Citronnelle", price: "11.00€", description: "Panacotta vanille" },
-        { name: "Savarin Verveine & Citron", price: "11.00€", description: "Chantilly chocolat blanc" },
-        { name: "Mousse Chocolat Grand Cru", price: "10.00€" },
-        { name: "Brioche Perdue & Caramel", price: "12.00€" },
-        { name: "Sorbet Maison Saisonnier", price: "9.00€" },
-        { name: "Sélection de Fromages Affinés", price: "14.00€" }
+      {
+        category_type: "dessert",
+        display_label: "Douceurs",
+        items: [
+        { name: "Tartelette Citron & Citronnelle", price_cents: 1100, description: "Panacotta vanille" },
+        { name: "Savarin Verveine & Citron", price_cents: 1100, description: "Chantilly chocolat blanc" },
+        { name: "Mousse Chocolat Grand Cru", price_cents: 1000 },
+        { name: "Brioche Perdue & Caramel", price_cents: 1200 },
+        { name: "Sorbet Maison Saisonnier", price_cents: 900 },
+        { name: "Sélection de Fromages Affinés", price_cents: 1400 }
       ]}
     ]
   },

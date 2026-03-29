@@ -42,43 +42,48 @@ export const le_villaret: SurgicalPlace = {
         last_updated: "2026-03-06",
         menu_items: [
             {
-                category: "Formule Déjeuner",
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner",
                 items: [
-                    { name: "Menu Midi", price: "35.00€" }
+                    { name: "Menu Midi", price_cents: 3500 }
                 ]
             },
             {
-                category: "Entrées",
+                category_type: "starter",
+                display_label: "Entrées",
                 items: [
-                    { name: "Queue de bœuf au foie gras", price: "18.00€" },
-                    { name: "Tête de veau, sauce gribiche", price: "16.00€" },
-                    { name: "Ris de veau doré", price: "18.00€" },
-                    { name: "Saumon fumé maison, focaccia herbes", price: "22.00€" },
-                    { name: "Pâté en croûte (Ris de veau, Porc, Foie gras)", price: "25.00€" },
-                    { name: "Cervelle d'agneau et petits légumes", price: "18.00€" }
+                    { name: "Queue de bœuf au foie gras", price_cents: 1800 },
+                    { name: "Tête de veau, sauce gribiche", price_cents: 1600 },
+                    { name: "Ris de veau doré", price_cents: 1800 },
+                    { name: "Saumon fumé maison, focaccia herbes", price_cents: 2200 },
+                    { name: "Pâté en croûte (Ris de veau, Porc, Foie gras)", price_cents: 2500 },
+                    { name: "Cervelle d'agneau et petits légumes", price_cents: 1800 }
                 ]
             },
             {
-                category: "Plats",
+                category_type: "main",
+                display_label: "Plats",
                 items: [
-                    { name: "Faux-filet de boeuf Blonde d'Aquitaine", price: "42.00€" },
-                    { name: "Fricassée de rognons à la truffe", price: "52.00€" },
-                    { name: "Épaule d'agneau de Lozère (pour 2)", price: "95.00€", description: "Pièce de partage — exclue du dish_price." }
+                    { name: "Faux-filet de boeuf Blonde d'Aquitaine", price_cents: 4200 },
+                    { name: "Fricassée de rognons à la truffe", price_cents: 5200 },
+                    { name: "Épaule d'agneau de Lozère (pour 2)", price_cents: 9500, description: "Pièce de partage — exclue du dish_price." }
                 ]
             },
             {
-                category: "Desserts",
+                category_type: "dessert",
+                display_label: "Desserts",
                 items: [
-                    { name: "Baba au rhum, gingembre et clémentine", price: "15.00€" },
-                    { name: "Dessert du jour", price: "15.00€" }
+                    { name: "Baba au rhum, gingembre et clémentine", price_cents: 1500 },
+                    { name: "Dessert du jour", price_cents: 1500 }
                 ]
             },
             {
-                category: "Cave (1000+ références, dominante Bourgogne)",
+                category_type: "drink",
+                display_label: "Cave (1000+ références, dominante Bourgogne)",
                 items: [
-                    { name: "Verre de vin (à partir de)", price: "10.00€" },
-                    { name: "Bouteille (à partir de)", price: "35.00€" },
-                    { name: "Grands Bourgognes (armoire vitrée)", price: "120.00€" }
+                    { name: "Verre de vin (à partir de)", price_cents: 1000 },
+                    { name: "Bouteille (à partir de)", price_cents: 3500 },
+                    { name: "Grands Bourgognes (armoire vitrée)", price_cents: 12000 }
                 ]
             }
         ]

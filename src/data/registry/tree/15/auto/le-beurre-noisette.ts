@@ -41,63 +41,68 @@ export const le_beurre_noisette: SurgicalPlace = {
     verified_at: "2026-03-29",
     menu_items: [
       {
-        category: "Préludes du Marché (Entrées)",
+        category_type: "starter",
+        display_label: "Préludes du Marché (Entrées)",
         items: [
-          { name: "Velouté de Haricots Tarbais & Foie Gras", price: "16.00€", highlight: true },
-          { name: "Crème de Fenouil glacée & Pomme verte", price: "15.00€" },
-          { name: "Pâté en Croûte de Sarrasin au Canard", price: "18.00€", highlight: true },
-          { name: "Salade de Haricots Verts & Homard Bleu", price: "19.50€", highlight: true },
-          { name: "Œuf Parfait, Crème de Cèpes & Mouillettes", price: "15.50€" },
-          { name: "Terrine de Foie de Volaille faite Maison", price: "12.00€" },
-          { name: "Tartare de Bar, Mangue & Coriandre", price: "17.00€" },
-          { name: "Escargots de Bourgogne au Beurre Persillé", price: "14.50€" }
+          { name: "Velouté de Haricots Tarbais & Foie Gras", price_cents: 1600, is_highlight: true },
+          { name: "Crème de Fenouil glacée & Pomme verte", price_cents: 1500 },
+          { name: "Pâté en Croûte de Sarrasin au Canard", price_cents: 1800, is_highlight: true },
+          { name: "Salade de Haricots Verts & Homard Bleu", price_cents: 1950, is_highlight: true },
+          { name: "Œuf Parfait, Crème de Cèpes & Mouillettes", price_cents: 1550 },
+          { name: "Terrine de Foie de Volaille faite Maison", price_cents: 1200 },
+          { name: "Tartare de Bar, Mangue & Coriandre", price_cents: 1700 },
+          { name: "Escargots de Bourgogne au Beurre Persillé", price_cents: 1450 }
         ]
       },
       {
-        category: "Haute Bistronomie (Plats)",
+        category_type: "main",
+        display_label: "Haute Bistronomie (Plats)",
         items: [
-          { name: "Poitrine de Canette rôtie, Jus corsé", price: "28.00€", highlight: true },
-          { name: "Dos de Cabillaud demi-sel au Chorizo", price: "26.00€", highlight: true },
-          { name: "Brandade de Haddock au Chou Vert", price: "24.00€" },
-          { name: "Noix de Ris de Veau rissolées au sauteur", price: "35.00€", highlight: true },
-          { name: "Gnocchi au Vert, Ail des Ours & Parmesan", price: "25.00€" },
-          { name: "Épaule d'Agneau de 7 heures (Confite)", price: "29.00€", highlight: true },
-          { name: "Filet de Bœuf au Poivre Noir & Cognac", price: "32.00€" },
-          { name: "Risotto de Petit Épeautre aux Légumes", price: "22.50€" }
+          { name: "Poitrine de Canette rôtie, Jus corsé", price_cents: 2800, is_highlight: true },
+          { name: "Dos de Cabillaud demi-sel au Chorizo", price_cents: 2600, is_highlight: true },
+          { name: "Brandade de Haddock au Chou Vert", price_cents: 2400 },
+          { name: "Noix de Ris de Veau rissolées au sauteur", price_cents: 3500, is_highlight: true },
+          { name: "Gnocchi au Vert, Ail des Ours & Parmesan", price_cents: 2500 },
+          { name: "Épaule d'Agneau de 7 heures (Confite)", price_cents: 2900, is_highlight: true },
+          { name: "Filet de Bœuf au Poivre Noir & Cognac", price_cents: 3200 },
+          { name: "Risotto de Petit Épeautre aux Légumes", price_cents: 2250 }
         ]
       },
       {
-        category: "Accords Moelleux (Plats)",
+        category_type: "main",
+        display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre à l'Huile de Noisette", price: "7.00€", highlight: true },
-          { name: "Légumes du Moment rôtis au Four", price: "7.50€" },
-          { name: "Gratin Dauphinois Traditionnel", price: "8.00€", highlight: true },
-          { name: "Salade de Jeunes Pousses & Vinaigrette", price: "6.00€" },
-          { name: "Frites Maison coupées au couteau", price: "6.50€" }
+          { name: "Purée de Pommes de Terre à l'Huile de Noisette", price_cents: 700, is_highlight: true },
+          { name: "Légumes du Moment rôtis au Four", price_cents: 750 },
+          { name: "Gratin Dauphinois Traditionnel", price_cents: 800, is_highlight: true },
+          { name: "Salade de Jeunes Pousses & Vinaigrette", price_cents: 600 },
+          { name: "Frites Maison coupées au couteau", price_cents: 650 }
         ]
       },
       {
-        category: "Desserts de Tradition (Desserts)",
+        category_type: "dessert",
+        display_label: "Desserts de Tradition (Desserts)",
         items: [
-          { name: "Riz au Lait & Caramel Beurre Salé", price: "11.00€", highlight: true },
-          { name: "Baba au Rhum Ambré, Crème Vanille", price: "13.00€", highlight: true },
-          { name: "Sablé Breton, Fraises & Rhubarbe", price: "12.50€" },
-          { name: "Cappuccino Chocolat Caraïbes (70%)", price: "12.00€", highlight: true },
-          { name: "Roulé Meringué au Citron Jaune", price: "11.50€" },
-          { name: "Nage d'Ananas frais aux Épices", price: "10.00€" },
-          { name: "Plateau de Fromages affinés (Sélection)", price: "14.50€" }
+          { name: "Riz au Lait & Caramel Beurre Salé", price_cents: 1100, is_highlight: true },
+          { name: "Baba au Rhum Ambré, Crème Vanille", price_cents: 1300, is_highlight: true },
+          { name: "Sablé Breton, Fraises & Rhubarbe", price_cents: 1250 },
+          { name: "Cappuccino Chocolat Caraïbes (70%)", price_cents: 1200, is_highlight: true },
+          { name: "Roulé Meringué au Citron Jaune", price_cents: 1150 },
+          { name: "Nage d'Ananas frais aux Épices", price_cents: 1000 },
+          { name: "Plateau de Fromages affinés (Sélection)", price_cents: 1450 }
         ]
       },
       {
-        category: "La Cave de Thierry (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave de Thierry (Boissons)",
         items: [
-          { name: "Verre de Chardonnay Sélection Pierre", price: "8.50€", highlight: true },
-          { name: "Verre de Pic-Saint-Loup 'L'Ermitage'", price: "9.50€" },
-          { name: "Bouteille de Sancerre (Domaine Vacheron)", price: "52.00€" },
-          { name: "Bière Artisanale du 15ème (33cl)", price: "7.50€" },
-          { name: "Jus de fruits Alain Milliat (25cl)", price: "7.00€" },
-          { name: "Eau micro-filtrée Le Beurre Noisette", price: "4.50€", highlight: true },
-          { name: "Café Espresso Terre de Café", price: "3.50€" }
+          { name: "Verre de Chardonnay Sélection Pierre", price_cents: 850, is_highlight: true },
+          { name: "Verre de Pic-Saint-Loup 'L'Ermitage'", price_cents: 950 },
+          { name: "Bouteille de Sancerre (Domaine Vacheron)", price_cents: 5200 },
+          { name: "Bière Artisanale du 15ème (33cl)", price_cents: 750 },
+          { name: "Jus de fruits Alain Milliat (25cl)", price_cents: 700 },
+          { name: "Eau micro-filtrée Le Beurre Noisette", price_cents: 450, is_highlight: true },
+          { name: "Café Espresso Terre de Café", price_cents: 350 }
         ]
       }
     ]

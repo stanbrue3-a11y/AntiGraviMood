@@ -43,42 +43,46 @@ export const mosugo: SurgicalPlace = {
         last_updated: "2026-03-10",
         menu_items: [
             {
-                category: "Poulet Frit & Signature",
+                category_type: "other",
+                display_label: "Poulet Frit & Signature",
                 items: [
-                    { name: "Poulet Frit Signature (Panko, sauce Bulldog)", price: "10.50€", description: "Le fameux poulet frit de Mory Sacko." },
-                    { name: "Fried Plantain (Banane plantain frite au panko)", price: "10.50€" },
-                    { name: "Chicken & Waffle", price: "13.50€", description: "Gaufres maison, poulet frit, sirop d'érable." },
-                    { name: "Plantain & Waffle (Version végétarienne)", price: "13.50€" },
-                    { name: "Mosugo Chicken Burger (Pretzel bun, miso mayo)", price: "13.50€" },
-                    { name: "Mosugo Veggie Burger (Butternut frite)", price: "13.50€" },
-                    { name: "Burger Teriyaki (Bun Mamiche, poulet frit)", price: "13.00€" }
+                    { name: "Poulet Frit Signature (Panko, sauce Bulldog)", price_cents: 1050, description: "Le fameux poulet frit de Mory Sacko." },
+                    { name: "Fried Plantain (Banane plantain frite au panko)", price_cents: 1050 },
+                    { name: "Chicken & Waffle", price_cents: 1350, description: "Gaufres maison, poulet frit, sirop d'érable." },
+                    { name: "Plantain & Waffle (Version végétarienne)", price_cents: 1350 },
+                    { name: "Mosugo Chicken Burger (Pretzel bun, miso mayo)", price_cents: 1350 },
+                    { name: "Mosugo Veggie Burger (Butternut frite)", price_cents: 1350 },
+                    { name: "Burger Teriyaki (Bun Mamiche, poulet frit)", price_cents: 1300 }
                 ]
             },
             {
-                category: "Menus (Unités de Satiété)",
+                category_type: "tasting_menu",
+                display_label: "Menus (Unités de Satiété)",
                 items: [
-                    { name: "Menu Fried Découverte (Poulet frit + Accompagnement)", price: "14.90€" },
-                    { name: "Menu Slim (Burger + Accompagnement + Boisson)", price: "21.50€" },
-                    { name: "Menu Big (Burger + Fried + Accompagnement + Boisson)", price: "31.50€" }
+                    { name: "Menu Fried Découverte (Poulet frit + Accompagnement)", price_cents: 1490 },
+                    { name: "Menu Slim (Burger + Accompagnement + Boisson)", price_cents: 2150 },
+                    { name: "Menu Big (Burger + Fried + Accompagnement + Boisson)", price_cents: 3150 }
                 ]
             },
             {
-                category: "Accompagnements (Sides)",
+                category_type: "other",
+                display_label: "Accompagnements (Sides)",
                 items: [
-                    { name: "Alocco (Bananes plantains frites)", price: "5.50€" },
-                    { name: "Frites de Patate Douce & sauce Cajun", price: "5.00€" },
-                    { name: "Sucrine grillée, vinaigrette abricot-harissa", price: "5.50€" },
-                    { name: "Pommes de Terre Grenailles aux épices cajun", price: "5.50€" }
+                    { name: "Alocco (Bananes plantains frites)", price_cents: 550 },
+                    { name: "Frites de Patate Douce & sauce Cajun", price_cents: 500 },
+                    { name: "Sucrine grillée, vinaigrette abricot-harissa", price_cents: 550 },
+                    { name: "Pommes de Terre Grenailles aux épices cajun", price_cents: 550 }
                 ]
             },
             {
-                category: "Desserts & Douceurs Maison",
+                category_type: "dessert",
+                display_label: "Desserts & Douceurs Maison",
                 items: [
-                    { name: "Mobroockie (Chocolat Tanzanie & Miso caramel)", price: "5.50€" },
-                    { name: "Pavlova de Saison (Kiwi & Yaourt grec)", price: "6.00€" },
-                    { name: "Jus de Bissap Maison", price: "4.50€" },
-                    { name: "Jus de Gingembre Maison", price: "4.50€" },
-                    { name: "Bière artisanale Mosugo", price: "6.50€" }
+                    { name: "Mobroockie (Chocolat Tanzanie & Miso caramel)", price_cents: 550 },
+                    { name: "Pavlova de Saison (Kiwi & Yaourt grec)", price_cents: 600 },
+                    { name: "Jus de Bissap Maison", price_cents: 450 },
+                    { name: "Jus de Gingembre Maison", price_cents: 450 },
+                    { name: "Bière artisanale Mosugo", price_cents: 650 }
                 ]
             }
         ]

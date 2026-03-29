@@ -45,40 +45,44 @@ export const aujourdhuiDemain: SurgicalPlace = {
         menu_items: [
             // VERIFIED: Aujourd'hui Demain 2025 Standard (Vegan Comfort Food)
             {
-                category: "Les Incontournables (Main Plats)",
+                category_type: "main",
+                display_label: "Les Incontournables (Main Plats)",
                 items: [
-                    { name: "Mac n Cheese Carbonara", price: "14.90€", description: "Leur best-seller, crémeux et bluffant." },
-                    { name: "Classic Cheddar Burger", price: "18.90€", description: "Steak végétal, cheddar fondu, frites." },
-                    { name: "Croque-Monsieur Forever", price: "17.90€", description: "Béchamel végétale maison, généreux." },
-                    { name: "Filet Très Très Très Mignon", price: "20.90€", description: "Alternative au filet, écrasé de PDT." },
-                    { name: "Bistro Burger", price: "20.00€" },
-                    { name: "Fish and Peas", price: "17.00€" },
-                    { name: "Spring No Mozza", price: "16.90€" }
+                    { name: "Mac n Cheese Carbonara", price_cents: 1490, description: "Leur best-seller, crémeux et bluffant." },
+                    { name: "Classic Cheddar Burger", price_cents: 1890, description: "Steak végétal, cheddar fondu, frites." },
+                    { name: "Croque-Monsieur Forever", price_cents: 1790, description: "Béchamel végétale maison, généreux." },
+                    { name: "Filet Très Très Très Mignon", price_cents: 2090, description: "Alternative au filet, écrasé de PDT." },
+                    { name: "Bistro Burger", price_cents: 2000 },
+                    { name: "Fish and Peas", price_cents: 1700 },
+                    { name: "Spring No Mozza", price_cents: 1690 }
                 ]
             },
             {
-                category: "Sides & Starters",
+                category_type: "starter",
+                display_label: "Sides & Starters",
                 items: [
-                    { name: "Patatas Truffe", price: "7.00€", description: "Frites, huile de truffe, sel fumé." },
-                    { name: "Chili Cheese Fries", price: "8.50€" }
+                    { name: "Patatas Truffe", price_cents: 700, description: "Frites, huile de truffe, sel fumé." },
+                    { name: "Chili Cheese Fries", price_cents: 850 }
                 ]
             },
             {
-                category: "Pâtisseries & Sweets",
+                category_type: "other",
+                display_label: "Pâtisseries & Sweets",
                 items: [
-                    { name: "Brownie Chocolat Caramel", price: "7.00€" },
-                    { name: "Flan Chocolat Vanille", price: "7.00€" },
-                    { name: "Cookie Artisanal", price: "4.00€" },
-                    { name: "Rolling Bun (Saison)", price: "4.50€" }
+                    { name: "Brownie Chocolat Caramel", price_cents: 700 },
+                    { name: "Flan Chocolat Vanille", price_cents: 700 },
+                    { name: "Cookie Artisanal", price_cents: 400 },
+                    { name: "Rolling Bun (Saison)", price_cents: 450 }
                 ]
             },
             {
-                category: "Boissons & Coffeeshop",
+                category_type: "drink",
+                display_label: "Boissons & Coffeeshop",
                 items: [
-                    { name: "Latte Sésame noir", price: "5.50€" },
-                    { name: "Homemade Bissap", price: "4.00€" },
-                    { name: "Ginger Beer Artisanale", price: "5.50€" },
-                    { name: "Purple Limo Mocktail", price: "7.00€" }
+                    { name: "Latte Sésame noir", price_cents: 550 },
+                    { name: "Homemade Bissap", price_cents: 400 },
+                    { name: "Ginger Beer Artisanale", price_cents: 550 },
+                    { name: "Purple Limo Mocktail", price_cents: 700 }
                 ]
             }
         ]

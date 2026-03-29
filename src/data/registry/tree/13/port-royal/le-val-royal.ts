@@ -49,34 +49,37 @@ export const le_val_royal: SurgicalPlace = {
         "smart_tip": "Happy Hour record (3,80€ la pinte) jusqu'à 02h du matin. Menu étudiant à 9,50€ imbattable.",
         "menu_items": [
             {
-                "category": "Happy Hour (15h-02h)",
+                "category_type": "drink",
+                "display_label": "Happy Hour (15h-02h)",
                 "items": [
-                    { "name": "Pinte de Blonde (Pression)", "price": "3,80€" },
-                    { "name": "Cocktails Classiques", "price": "5,80€" },
-                    { "name": "Verre de Vin", "price": "3,50€" },
-                    { "name": "Ricard (2cl)", "price": "4,30€" },
-                    { "name": "Softs (HH)", "price": "3,00€" }
+                    { "name": "Pinte de Blonde (Pression)", "price_cents": 380 },
+                    { "name": "Cocktails Classiques", "price_cents": 580 },
+                    { "name": "Verre de Vin", "price_cents": 350 },
+                    { "name": "Ricard (2cl)", "price_cents": 430 },
+                    { "name": "Softs (HH)", "price_cents": 300 }
                 ]
             },
             {
-                "category": "Cuisine du Val",
+                "category_type": "other",
+                "display_label": "Cuisine du Val",
                 "items": [
-                    { "name": "Croque Monsieur Maison & Frites", "price": "9,80€" },
-                    { "name": "Œuf Cocotte du Val", "price": "6,00€" },
-                    { "name": "Entrecôte de Bœuf Grillée (240g)", "price": "18,00€" },
-                    { "name": "Pavé de Saumon à l'oseille", "price": "13,80€" },
-                    { "name": "Taglio Del Macellaio", "price": "15,00€" },
-                    { "name": "Menu Étudiant (Plat + Boisson)", "price": "9,50€" },
-                    { "name": "Pasta Box (Petite/Moyenne/Maxi)", "price": "4.5/8/9.5€" }
+                    { "name": "Croque Monsieur Maison & Frites", "price_cents": 980 },
+                    { "name": "Œuf Cocotte du Val", "price_cents": 600 },
+                    { "name": "Entrecôte de Bœuf Grillée (240g)", "price_cents": 1800 },
+                    { "name": "Pavé de Saumon à l'oseille", "price_cents": 1380 },
+                    { "name": "Taglio Del Macellaio", "price_cents": 1500 },
+                    { "name": "Menu Étudiant (Plat + Boisson)", "price_cents": 950 },
+                    { "name": "Pasta Box (Petite/Moyenne/Maxi)", "price_cents": 450 }
                 ]
             },
             {
-                "category": "Omelettes & Desserts",
+                "category_type": "dessert",
+                "display_label": "Omelettes & Desserts",
                 "items": [
-                    { "name": "Omelette Nature & Salade", "price": "12,00€" },
-                    { "name": "Omelette Fromage", "price": "14,00€" },
-                    { "name": "Tarte Tatin Maison", "price": "7,00€" },
-                    { "name": "Crème Brûlée Vanille", "price": "7,00€" }
+                    { "name": "Omelette Nature & Salade", "price_cents": 1200 },
+                    { "name": "Omelette Fromage", "price_cents": 1400 },
+                    { "name": "Tarte Tatin Maison", "price_cents": 700 },
+                    { "name": "Crème Brûlée Vanille", "price_cents": 700 }
                 ]
             }
         ],

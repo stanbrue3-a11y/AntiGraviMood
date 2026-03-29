@@ -48,43 +48,47 @@ export const cafe_industrie: SurgicalPlace = {
         "smart_tip": "Le menu midi Express à 16€ (E+P ou P+D) est imbattable dans le quartier. Pour le soir, arrivez tôt car la terrasse est prise d'assaut.",
         "menu_items": [
             {
-                "category": "Formules Midi (Semaine)",
+                "category_type": "tasting_menu",
+                "display_label": "Formules Midi (Semaine)",
                 "items": [
-                    { "name": "Formule E + P + D", "price": "19.00€" },
-                    { "name": "Formule E + P ou P + D", "price": "16.00€" },
-                    { "name": "Petit Déjeuner Parisien", "price": "8.00€" }
+                    { "name": "Formule E + P + D", "price_cents": 1900 },
+                    { "name": "Formule E + P ou P + D", "price_cents": 1600 },
+                    { "name": "Petit Déjeuner Parisien", "price_cents": 800 }
                 ]
             },
             {
-                "category": "Entrées & Grignotages",
+                "category_type": "starter",
+                "display_label": "Entrées & Grignotages",
                 "items": [
-                    { "name": "Duo d'Œufs Bio Mayo", "price": "6.00€" },
-                    { "name": "Soupe à l'oignon gratinée", "price": "8.50€" },
-                    { "name": "6 Gros Escargots de Bourgogne", "price": "10.00€" },
-                    { "name": "Os à moelle grillé, fleur de sel", "price": "9.50€" },
-                    { "name": "Gros poireau crayon, vinaigrette noisette", "price": "7.50€" }
+                    { "name": "Duo d'Œufs Bio Mayo", "price_cents": 600 },
+                    { "name": "Soupe à l'oignon gratinée", "price_cents": 850 },
+                    { "name": "6 Gros Escargots de Bourgogne", "price_cents": 1000 },
+                    { "name": "Os à moelle grillé, fleur de sel", "price_cents": 950 },
+                    { "name": "Gros poireau crayon, vinaigrette noisette", "price_cents": 750 }
                 ]
             },
             {
-                "category": "Les Plats",
+                "category_type": "main",
+                "display_label": "Les Plats",
                 "items": [
-                    { "name": "Onglet de bœuf grillé aux échalotes", "price": "19.00€" },
-                    { "name": "Filet de bœuf, sauce au poivre noir", "price": "26.00€" },
-                    { "name": "Tartare de bœuf maison, frites", "price": "18.00€" },
-                    { "name": "Magret de canard entier, miel & épices", "price": "22.00€" },
-                    { "name": "Confit de canard du Sud-Ouest", "price": "17.00€" },
-                    { "name": "Filet de bar poêlé, beurre blanc", "price": "19.00€" },
-                    { "name": "Linguine à la Bolognaise maison", "price": "14.00€" },
-                    { "name": "Blanquette de veau à l'ancienne", "price": "18.50€" }
+                    { "name": "Onglet de bœuf grillé aux échalotes", "price_cents": 1900 },
+                    { "name": "Filet de bœuf, sauce au poivre noir", "price_cents": 2600 },
+                    { "name": "Tartare de bœuf maison, frites", "price_cents": 1800 },
+                    { "name": "Magret de canard entier, miel & épices", "price_cents": 2200 },
+                    { "name": "Confit de canard du Sud-Ouest", "price_cents": 1700 },
+                    { "name": "Filet de bar poêlé, beurre blanc", "price_cents": 1900 },
+                    { "name": "Linguine à la Bolognaise maison", "price_cents": 1400 },
+                    { "name": "Blanquette de veau à l'ancienne", "price_cents": 1850 }
                 ]
             },
             {
-                "category": "Desserts Classiques",
+                "category_type": "dessert",
+                "display_label": "Desserts Classiques",
                 "items": [
-                    { "name": "Crème brûlée à la cassonade", "price": "7.50€" },
-                    { "name": "Moelleux au chocolat, crème anglaise", "price": "6.00€" },
-                    { "name": "Tiramisu traditionnel", "price": "6.50€" },
-                    { "name": "Baba au rhum, chantilly fraîche", "price": "8.00€" }
+                    { "name": "Crème brûlée à la cassonade", "price_cents": 750 },
+                    { "name": "Moelleux au chocolat, crème anglaise", "price_cents": 600 },
+                    { "name": "Tiramisu traditionnel", "price_cents": 650 },
+                    { "name": "Baba au rhum, chantilly fraîche", "price_cents": 800 }
                 ]
             }
         ],

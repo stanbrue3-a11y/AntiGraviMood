@@ -42,57 +42,62 @@ export const le_train_bleu: SurgicalPlace = {
     verified_at: "2026-03-25",
     menu_items: [
       {
-        category: "Les Menus d'Apparat (Formules)",
+        category_type: "tasting_menu",
+        display_label: "Les Menus d'Apparat (Formules)",
         items: [
-          { name: "Menu Voyageur (E + P + D)", price: "52.00€", highlight: true },
-          { name: "Menu Train Bleu (Dégustation 5 temps)", price: "115.00€", highlight: true }
+          { name: "Menu Voyageur (E + P + D)", price_cents: 5200, is_highlight: true },
+          { name: "Menu Train Bleu (Dégustation 5 temps)", price_cents: 11500, is_highlight: true }
         ]
       },
       {
-        category: "Entrées de Prestige",
+        category_type: "starter",
+        display_label: "Entrées de Prestige",
         items: [
-          { name: "Foie Gras de Canard maison, brioche", price: "32.00€", highlight: true },
-          { name: "Saumon Fumé d'Écosse, crème d'aneth", price: "29.00€" },
-          { name: "Escargots de Bourgogne (x12)", price: "34.00€" },
-          { name: "Soupe à l'Oignon gratinée au Comté", price: "15.00€" },
-          { name: "Pâté en Croûte Richelieu", price: "24.00€" },
-          { name: "Carpaccio de Saint-Jacques, truffe", price: "28.00€" }
+          { name: "Foie Gras de Canard maison, brioche", price_cents: 3200, is_highlight: true },
+          { name: "Saumon Fumé d'Écosse, crème d'aneth", price_cents: 2900 },
+          { name: "Escargots de Bourgogne (x12)", price_cents: 3400 },
+          { name: "Soupe à l'Oignon gratinée au Comté", price_cents: 1500 },
+          { name: "Pâté en Croûte Richelieu", price_cents: 2400 },
+          { name: "Carpaccio de Saint-Jacques, truffe", price_cents: 2800 }
         ]
       },
       {
-        category: "Plats Signature (L'Art de Vivre)",
+        category_type: "main",
+        display_label: "Plats Signature (L'Art de Vivre)",
         items: [
-          { name: "Gigot d'Agneau de pays (découpé voiture)", price: "42.00€", highlight: true },
-          { name: "Filet de Bœuf façon Rossini", price: "48.00€", highlight: true },
-          { name: "Sole de petit bateau Meunière", price: "58.00€" },
-          { name: "Risotto aux Gambas & Bisque corsée", price: "36.00€" },
-          { name: "Steak au Poivre Flambé en salle", price: "44.00€", highlight: true },
-          { name: "Quasi de Veau aux Morilles", price: "46.00€" },
-          { name: "Lotte rôtie au thym citronné", price: "39.00€" },
-          { name: "Légumes de Saison en cocotte", price: "28.00€" }
+          { name: "Gigot d'Agneau de pays (découpé voiture)", price_cents: 4200, is_highlight: true },
+          { name: "Filet de Bœuf façon Rossini", price_cents: 4800, is_highlight: true },
+          { name: "Sole de petit bateau Meunière", price_cents: 5800 },
+          { name: "Risotto aux Gambas & Bisque corsée", price_cents: 3600 },
+          { name: "Steak au Poivre Flambé en salle", price_cents: 4400, is_highlight: true },
+          { name: "Quasi de Veau aux Morilles", price_cents: 4600 },
+          { name: "Lotte rôtie au thym citronné", price_cents: 3900 },
+          { name: "Légumes de Saison en cocotte", price_cents: 2800 }
         ]
       },
       {
-        category: "Fromages & Douceurs",
+        category_type: "dessert",
+        display_label: "Fromages & Douceurs",
         items: [
-          { name: "Plateau de Fromages affinés", price: "18.00€" },
-          { name: "Baba au Rhum Royal, crème fouettée", price: "18.00€", highlight: true },
-          { name: "Soufflé au Grand Marnier", price: "19.00€", highlight: true },
-          { name: "Tarte Tatin aux Pommes caramélisées", price: "16.00€" },
-          { name: "Mille-feuille Vanille Bourbon", price: "17.00€" },
-          { name: "Sorbet & Glace Artisanale (3 boules)", price: "12.00€" }
+          { name: "Plateau de Fromages affinés", price_cents: 1800 },
+          { name: "Baba au Rhum Royal, crème fouettée", price_cents: 1800, is_highlight: true },
+          { name: "Soufflé au Grand Marnier", price_cents: 1900, is_highlight: true },
+          { name: "Tarte Tatin aux Pommes caramélisées", price_cents: 1600 },
+          { name: "Mille-feuille Vanille Bourbon", price_cents: 1700 },
+          { name: "Sorbet & Glace Artisanale (3 boules)", price_cents: 1200 }
         ]
       },
       {
-        category: "La Cave Légendaire (Boissons)",
+        category_type: "drink",
+        display_label: "La Cave Légendaire (Boissons)",
         items: [
-          { name: "Coupe de Champagne Brut", price: "22.00€", highlight: true },
-          { name: "Verre de Chablis 1er Cru", price: "16.00€" },
-          { name: "Verre de Saint-Émilion Grand Cru", price: "18.00€" },
-          { name: "Bouteille de Sancerre", price: "48.00€" },
-          { name: "Bouteille de Margaux", price: "120.00€" },
-          { name: "Digestif Cognac XO (Verre)", price: "25.00€" },
-          { name: "Café Espresso & Mignardises", price: "6.50€" }
+          { name: "Coupe de Champagne Brut", price_cents: 2200, is_highlight: true },
+          { name: "Verre de Chablis 1er Cru", price_cents: 1600 },
+          { name: "Verre de Saint-Émilion Grand Cru", price_cents: 1800 },
+          { name: "Bouteille de Sancerre", price_cents: 4800 },
+          { name: "Bouteille de Margaux", price_cents: 12000 },
+          { name: "Digestif Cognac XO (Verre)", price_cents: 2500 },
+          { name: "Café Espresso & Mignardises", price_cents: 650 }
         ]
       }
     ]
