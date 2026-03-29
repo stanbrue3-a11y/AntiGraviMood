@@ -23,7 +23,6 @@ export const mondol_kiri: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 14:30, 19:00 – 23:00 | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 23:00 | vendredi: 12:00 – 14:30, 19:00 – 23:00 | samedi: 12:00 – 15:00, 19:00 – 23:00 | dimanche: 12:00 – 15:00, 19:00 – 22:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

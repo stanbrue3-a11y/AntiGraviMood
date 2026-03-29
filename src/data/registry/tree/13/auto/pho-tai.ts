@@ -23,7 +23,6 @@ export const pho_tai: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 15:00, 18:45 – 22:15 | mercredi: 12:00 – 15:00, 18:45 – 22:15 | jeudi: 12:00 – 15:00, 18:45 – 22:15 | vendredi: 12:00 – 15:00, 18:45 – 22:15 | samedi: 12:00 – 15:00, 18:30 – 22:15 | dimanche: 12:00 – 15:00, 18:45 – 22:15",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

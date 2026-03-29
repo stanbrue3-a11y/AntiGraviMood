@@ -112,7 +112,6 @@ export const twentyOneGDumpling: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa", // Souvent complet, file d'attente
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: true,
         opening_hours_raw: "Lundi-Jeudi: 12:00–14:30, 19:00–22:30\nVendredi: 12:00–14:30, 19:00–23:00\nSamedi: 12:00–15:00, 19:00–23:00\nDimanche: 12:00–15:00, 19:00–22:30",

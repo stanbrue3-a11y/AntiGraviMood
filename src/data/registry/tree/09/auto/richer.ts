@@ -23,7 +23,6 @@ export const richer: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 08:00–00:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: true,
     accessibility: true,

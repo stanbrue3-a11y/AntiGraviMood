@@ -23,7 +23,6 @@ export const l_ourcine: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 14:30, 19:00 – 22:00 | mercredi: 12:00 – 14:30, 19:00 – 22:00 | jeudi: 12:00 – 14:30, 19:00 – 22:00 | vendredi: 12:00 – 14:30, 19:00 – 22:00 | samedi: 12:00 – 14:30, 19:00 – 22:00 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

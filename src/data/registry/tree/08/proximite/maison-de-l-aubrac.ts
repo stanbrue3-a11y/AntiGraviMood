@@ -27,7 +27,6 @@ export const maison_de_l_aubrac: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": true,
         "terrace": true,
         "opening_hours_raw": "Lundi: 12:00–01:00\nMardi: 12:00–01:00\nMercredi: 12:00–06:00\nJeudi: 12:00–07:00\nVendredi: 12:00–07:00\nSamedi: 12:00–07:00\nDimanche: 12:00–01:00",
         "main_action": {

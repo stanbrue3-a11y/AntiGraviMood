@@ -26,7 +26,6 @@ export const le_feria: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://feria-cafe.fr/",

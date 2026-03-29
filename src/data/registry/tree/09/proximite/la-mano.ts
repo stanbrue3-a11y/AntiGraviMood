@@ -23,7 +23,6 @@ export const la_mano: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: 23:45 – 06:00 | jeudi: 23:45 – 06:00 | vendredi: 23:45 – 06:00 | samedi: 23:45 – 06:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

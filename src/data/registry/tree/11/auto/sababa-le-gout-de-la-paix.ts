@@ -23,7 +23,6 @@ export const sababa_le_gout_de_la_paix: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 22:30 | vendredi: 12:00 – 14:30, 19:00 – 22:30 | samedi: 12:00 – 15:00, 19:00 – 23:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

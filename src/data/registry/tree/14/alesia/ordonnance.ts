@@ -25,7 +25,6 @@ export const ordonnance: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.facebook.com/lordonnanceparis/", // Pas de site web officiel direct parfois pour ces petits bistros

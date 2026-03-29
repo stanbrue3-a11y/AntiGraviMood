@@ -21,7 +21,6 @@ export const joayo_luxembourg: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": true,
         "terrace": false,
         "opening_hours_raw": "Lundi-Dimanche: 12:00-14:30, 19:00-22:30",
         "main_action": {

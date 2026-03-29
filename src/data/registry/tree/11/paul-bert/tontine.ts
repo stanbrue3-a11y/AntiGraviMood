@@ -95,7 +95,6 @@ export const tontine: SurgicalPlace = {
     practical: {
         reservation_policy: "resa_conseillee",
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: true,
         opening_hours_raw: "Mar-Sam: 19:00–23:00 (Fermé Dim/Lun)",

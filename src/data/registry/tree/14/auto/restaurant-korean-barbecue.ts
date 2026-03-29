@@ -23,7 +23,6 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:15, 19:00 – 23:00 | mardi: 12:00 – 14:15, 19:00 – 23:00 | mercredi: 12:00 – 14:15, 19:00 – 23:00 | jeudi: 12:00 – 14:15, 19:00 – 23:00 | vendredi: 12:00 – 14:15, 19:00 – 23:00 | samedi: 12:00 – 14:30, 18:30 – 23:00 | dimanche: 12:00 – 14:30, 19:00 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

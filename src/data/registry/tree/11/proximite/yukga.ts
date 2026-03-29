@@ -27,7 +27,6 @@ export const yukga: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": false,
         "terrace": false,
         "opening_hours_raw": "Lundi-Jeudi: 12:00-14:30, 19:00-22:30\nVendredi-Samedi: 12:00-14:30, 19:00-23:00\nDimanche: 12:00-14:30, 19:00-22:30",
         "main_action": {

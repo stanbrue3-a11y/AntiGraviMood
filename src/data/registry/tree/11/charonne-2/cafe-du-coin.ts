@@ -26,7 +26,6 @@ export const cafe_du_coin: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://cafeducoinparis.net/",

@@ -23,7 +23,6 @@ export const restaurant_le_faham: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:30 – 21:30 | mardi: 19:30 – 21:30 | mercredi: 12:00 – 13:30, 19:30 – 21:30 | jeudi: 12:00 – 13:30, 19:30 – 21:30 | vendredi: 12:00 – 13:30, 19:30 – 21:30 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

@@ -25,7 +25,6 @@ export const superfine: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.instagram.com/superfine.paris/",

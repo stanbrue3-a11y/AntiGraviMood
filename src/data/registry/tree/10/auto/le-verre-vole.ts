@@ -23,7 +23,6 @@ export const le_verre_vole: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 12:30–14:30, 19:30–01:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: true,
     accessibility: true,

@@ -23,7 +23,6 @@ export const mallory_gabsi: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:30 – 13:15, 19:30 – 21:15 | mardi: 12:30 – 13:15, 19:30 – 21:15 | mercredi: 12:30 – 13:15, 19:30 – 21:15 | jeudi: 12:30 – 13:15, 19:30 – 21:15 | vendredi: 12:30 – 13:15, 19:30 – 21:15 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

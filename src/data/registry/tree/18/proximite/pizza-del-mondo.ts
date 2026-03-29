@@ -26,7 +26,6 @@ export const pizza_del_mondo: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": false,
-        "wifi": false,
         "terrace": false,
         "opening_hours_raw": "Lundi-Mardi: 17:00-00:00\nMercredi-Jeudi: 12:00-15:00, 17:00-00:00\nVendredi-Samedi: 12:00-01:00\nDimanche: 12:00-00:00",
         "main_action": {

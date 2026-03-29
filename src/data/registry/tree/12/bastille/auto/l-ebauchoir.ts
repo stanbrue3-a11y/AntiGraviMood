@@ -23,7 +23,6 @@ export const l_ebauchoir: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 12:00–14:30, 20:00–22:30 | lundi: 20:00–22:30 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

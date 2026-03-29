@@ -25,7 +25,6 @@ export const impactKebap: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.impact-kebap.fr",

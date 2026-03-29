@@ -25,7 +25,6 @@ export const la_buvette: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.labuvette.paris/",

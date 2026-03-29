@@ -25,7 +25,6 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://lecaillerdubistrot.fr/",

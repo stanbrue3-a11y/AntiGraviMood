@@ -25,7 +25,6 @@ export const le_6_paul_bert: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.instagram.com/le6paulbert/",

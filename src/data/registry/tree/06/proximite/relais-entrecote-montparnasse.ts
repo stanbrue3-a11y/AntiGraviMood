@@ -20,7 +20,6 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: false,
         opening_hours_raw: "Lundi au Dimanche: 12h00-14h30, 19h00-23h00",
         main_action: {
             type: "site",

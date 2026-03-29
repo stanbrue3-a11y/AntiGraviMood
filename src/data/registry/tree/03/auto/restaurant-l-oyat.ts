@@ -23,7 +23,6 @@ export const restaurant_l_oyat: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 14:00, 19:30 – 23:00 | mercredi: 12:00 – 14:00, 19:30 – 23:00 | jeudi: 12:00 – 14:00, 19:30 – 23:00 | vendredi: 12:00 – 14:00, 19:30 – 23:00 | samedi: 12:00 – 14:00, 19:30 – 23:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

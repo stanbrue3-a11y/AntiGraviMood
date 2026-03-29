@@ -23,7 +23,6 @@ export const ngoc_xuyen_saigon: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Non renseigné",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

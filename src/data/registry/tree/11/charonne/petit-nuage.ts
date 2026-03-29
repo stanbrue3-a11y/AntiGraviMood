@@ -25,7 +25,6 @@ export const petit_nuage: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://petitnuageparis.fr/",

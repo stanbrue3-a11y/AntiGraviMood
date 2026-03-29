@@ -23,7 +23,6 @@ export const la_traversee: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:00 – 02:00 | mardi: 12:00 – 15:00, 19:00 – 02:00 | mercredi: 12:00 – 15:00, 19:00 – 02:00 | jeudi: 12:00 – 15:00, 19:00 – 02:00 | vendredi: 12:00 – 15:00, 19:00 – 02:00 | samedi: 12:00 – 15:00, 19:00 – 03:00 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

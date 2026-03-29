@@ -25,7 +25,6 @@ export const septime: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.septime-charonne.fr/",

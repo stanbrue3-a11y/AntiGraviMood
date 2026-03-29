@@ -23,7 +23,6 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Ouvert tous les jours: 12:00–15:00, 19:00–23:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

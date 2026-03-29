@@ -25,7 +25,6 @@ export const leTagine: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.letagine-restaurant.com",

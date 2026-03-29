@@ -25,7 +25,6 @@ export const creperie_de_pont_aven: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://creperiedepontaven.fr/",

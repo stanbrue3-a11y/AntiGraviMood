@@ -23,7 +23,6 @@ export const braisenville: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 19:00–23:00 | lundi-dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

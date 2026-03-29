@@ -23,7 +23,6 @@ export const le_saint_sebastien: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 18:30 – 23:00 | mardi: 18:30 – 23:00 | mercredi: 18:30 – 23:00 | jeudi: 18:30 – 23:00 | vendredi: 18:30 – 23:00 | samedi: 18:30 – 23:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

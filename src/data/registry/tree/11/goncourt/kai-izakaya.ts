@@ -25,7 +25,6 @@ export const kaiIzakaya: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.thefork.fr/restaurant/kai-izakaya-r835251",

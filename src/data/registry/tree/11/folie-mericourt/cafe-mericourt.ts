@@ -98,7 +98,6 @@ export const cafeMericourt: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: false,
         terrace: true,
         vegan_friendly: true,
         opening_hours_raw: "Lun-Ven: 08:30–16:00\nSam-Dim: 09:30–17:00",

@@ -23,7 +23,6 @@ export const sacree_fleur: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 11:30 – 14:00, 18:30 – 22:00 | mardi: 11:30 – 14:00, 18:30 – 22:00 | mercredi: 11:30 – 14:00, 18:30 – 22:00 | jeudi: 11:30 – 14:00, 18:30 – 22:00 | vendredi: 11:30 – 14:00, 18:30 – 22:00 | samedi: 18:30 – 22:00 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

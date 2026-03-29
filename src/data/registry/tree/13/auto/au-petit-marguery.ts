@@ -23,7 +23,6 @@ export const au_petit_marguery: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Non renseigné",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

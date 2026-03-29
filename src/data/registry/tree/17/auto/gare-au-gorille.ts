@@ -23,7 +23,6 @@ export const gare_au_gorille: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:15 – 14:00, 19:30 – 22:00 | mardi: 12:15 – 14:00, 19:30 – 22:00 | mercredi: 12:15 – 14:00, 19:30 – 22:00 | jeudi: 12:15 – 14:00, 19:30 – 22:00 | vendredi: 12:15 – 14:00, 19:30 – 22:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

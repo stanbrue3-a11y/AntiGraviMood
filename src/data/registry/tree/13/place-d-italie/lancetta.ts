@@ -26,7 +26,6 @@ export const lancetta: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://lancetta.eatbu.com",

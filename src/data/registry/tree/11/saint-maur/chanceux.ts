@@ -25,7 +25,6 @@ export const chanceux: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.instagram.com/chanceux.paris/",

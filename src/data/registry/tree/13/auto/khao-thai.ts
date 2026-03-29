@@ -23,7 +23,6 @@ export const khao_thai: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Ouvert tous les jours: 12:00–14:30, 19:00–22:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

@@ -26,7 +26,6 @@ export const le_yard: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.culinaries.fr/yard-mont-louis/",

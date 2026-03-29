@@ -23,7 +23,6 @@ export const chantoiseau: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:00 – 21:30 | mardi: 12:00 – 13:30, 19:00 – 21:30 | mercredi: 12:00 – 13:30, 19:00 – 21:30 | jeudi: 12:00 – 13:30, 19:00 – 21:30 | vendredi: 12:00 – 13:30, 19:00 – 21:30 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const anona: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:30 – 21:45 | mardi: 12:00 – 14:15, 19:30 – 21:45 | mercredi: 12:00 – 14:15, 19:30 – 21:45 | jeudi: 12:00 – 14:15, 19:30 – 21:45 | vendredi: 12:00 – 14:15, 19:30 – 21:45 | samedi: 12:00 – 14:15, 19:30 – 21:45 | dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

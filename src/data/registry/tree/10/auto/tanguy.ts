@@ -23,7 +23,6 @@ export const tanguy: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 12:00–14:30, 19:00–22:30, dimanche: 12:00–16:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

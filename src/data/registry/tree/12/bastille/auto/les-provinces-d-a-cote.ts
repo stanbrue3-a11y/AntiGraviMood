@@ -23,7 +23,6 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi: 11:30–14:00 | mercredi-samedi: 11:30–14:00, 18:30–22:30 | dimanche: 11:30–15:00 | lundi: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

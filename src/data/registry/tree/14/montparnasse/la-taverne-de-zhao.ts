@@ -23,7 +23,6 @@ export const la_taverne_de_zhao: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:30, 19:00 – 22:30 | mardi: 12:00 – 14:30, 19:00 – 22:30 | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 22:30 | vendredi: 12:00 – 22:30 | samedi: 12:00 – 22:30 | dimanche: 12:00 – 22:30",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: false,
     accessibility: true,
     main_action: {

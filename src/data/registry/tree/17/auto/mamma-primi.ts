@@ -23,7 +23,6 @@ export const mamma_primi: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:00, 18:15 – 22:00 | mardi: 12:00 – 14:00, 18:15 – 22:00 | mercredi: 12:00 – 14:00, 18:15 – 22:00 | jeudi: 12:00 – 14:00, 18:00 – 22:45 | vendredi: 12:00 – 14:00, 18:00 – 22:45 | samedi: 12:00 – 15:30, 18:00 – 22:45 | dimanche: 12:00 – 15:30, 18:15 – 22:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

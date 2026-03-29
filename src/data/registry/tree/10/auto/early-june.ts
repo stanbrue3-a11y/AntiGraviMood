@@ -23,7 +23,6 @@ export const early_june: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mercredi-dimanche: 18:00–00:00 (Cuisine jusqu'à 23h)",
     reservation_policy: "sans_resa", // Sauf groupes > 4
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

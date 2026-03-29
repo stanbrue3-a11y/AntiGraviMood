@@ -25,7 +25,6 @@ export const caf_oberkampf: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
-        "wifi": false,
         "terrace": false,
         "opening_hours_raw": "Lun-Ven: 08:30–16:00; Sam-Dim: 09:30–17:00",
         "main_action": {

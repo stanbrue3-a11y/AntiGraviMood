@@ -27,7 +27,6 @@ export const cafe_industrie: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": false,
         "terrace": true,
         "opening_hours_raw": "Lundi-Dimanche: 09:00-02:00",
         "main_action": {

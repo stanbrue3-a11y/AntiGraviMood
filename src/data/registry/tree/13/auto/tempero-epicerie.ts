@@ -23,7 +23,6 @@ export const tempero_epicerie: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 09:00 – 15:00 | mardi: 09:00 – 15:00 | mercredi: 09:00 – 15:00 | jeudi: 09:30 – 16:00, 19:30 – 22:30 | vendredi: 09:30 – 16:00, 19:30 – 22:30 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

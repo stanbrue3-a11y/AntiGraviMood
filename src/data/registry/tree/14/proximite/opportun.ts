@@ -25,7 +25,6 @@ export const opportun: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.lopportun.com/",

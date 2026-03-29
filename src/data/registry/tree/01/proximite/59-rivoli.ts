@@ -21,7 +21,6 @@ export const poi_59_rivoli: SurgicalPlace = {
     "practical": {
         "reservation_policy": null,
         "accessibility": false,
-        "wifi": false,
         "opening_hours_raw": "",
         "main_action": {
             "type": "site",

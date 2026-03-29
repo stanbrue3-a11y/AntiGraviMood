@@ -23,7 +23,6 @@ export const mr_chow: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Lundi: 12:00–14:30, 19:00–22:15 | Mardi: 12:00–14:30, 19:00–22:15 | Mercredi: 12:00–14:30, 19:00–22:15 | Jeudi: 12:00–14:30, 19:00–22:15 | Vendredi: 12:00–14:30, 19:00–22:15 | Samedi: 12:00–14:30, 19:00–22:15 | Dimanche: 12:00–14:30, 19:00–22:15",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: true,
     accessibility: true,
     main_action: {

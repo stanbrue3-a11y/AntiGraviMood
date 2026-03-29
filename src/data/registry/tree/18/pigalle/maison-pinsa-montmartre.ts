@@ -24,7 +24,6 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": true,
         "opening_hours_raw": "Lundi: 12:00–14:30, 19:00–22:30\nMardi: 12:00–14:30, 19:00–22:30\nMercredi: 12:00–14:30, 19:00–22:30\nJeudi: 12:00–14:30, 19:00–22:30\nVendredi: 12:00–14:30, 19:00–23:00\nSamedi: 12:00–23:00\nDimanche: 12:00–22:30",
         "main_action": {
             "type": "site",

@@ -25,7 +25,6 @@ export const maison_sota: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.maison-sota.com/",

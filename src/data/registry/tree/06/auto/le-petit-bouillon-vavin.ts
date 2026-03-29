@@ -23,7 +23,6 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 00:00 | mardi: 12:00 – 00:00 | mercredi: 12:00 – 00:00 | jeudi: 12:00 – 00:00 | vendredi: 12:00 – 00:00 | samedi: 12:00 – 00:00 | dimanche: 12:00 – 00:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

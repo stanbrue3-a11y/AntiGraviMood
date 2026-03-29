@@ -25,7 +25,6 @@ export const brasserie_rosie: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://brasseriesalamode.com/brasserie-rosie",

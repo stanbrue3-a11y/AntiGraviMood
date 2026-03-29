@@ -21,7 +21,6 @@ export const cafe_nouvelle_mairie: SurgicalPlace = {
     "practical": {
         "reservation_policy": null,
         "accessibility": false,
-        "wifi": false,
         "opening_hours_raw": "",
         "action_type": "site",
         "action_url": ""

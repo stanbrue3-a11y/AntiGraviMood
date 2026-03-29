@@ -23,7 +23,6 @@ export const l_alimentari: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 12:00–14:30, 19:30–23:00 | dimanche: 12:00–15:00 | lundi: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

@@ -26,7 +26,6 @@ export const cavale: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.castaniu-family.fr/restaurant-brasserie-cavale-paris/",

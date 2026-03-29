@@ -25,7 +25,6 @@ export const aujourdhuiDemain: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://aujourdhui-demain.com/reservation/",

@@ -25,7 +25,6 @@ export const aMiChemin: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "http://www.restaurant-amichemin.fr/",

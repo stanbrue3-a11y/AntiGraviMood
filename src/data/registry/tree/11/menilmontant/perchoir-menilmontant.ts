@@ -25,7 +25,6 @@ export const perchoirMenilmontant: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://leperchoir.fr",

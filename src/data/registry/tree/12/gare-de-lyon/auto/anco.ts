@@ -23,7 +23,6 @@ export const anco: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-vendredi: 12:00–14:30, 19:30–22:30 | samedi: 19:30–22:30 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

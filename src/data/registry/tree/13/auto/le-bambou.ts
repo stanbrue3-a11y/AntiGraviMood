@@ -23,7 +23,6 @@ export const le_bambou: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 11:30 – 15:30, 18:30 – 22:30 | mercredi: 11:30 – 15:30, 18:30 – 22:30 | jeudi: 11:30 – 15:30, 18:30 – 22:30 | vendredi: 11:30 – 15:30, 18:30 – 22:30 | samedi: 11:30 – 15:30, 18:30 – 22:30 | dimanche: 11:30 – 15:30, 18:30 – 22:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

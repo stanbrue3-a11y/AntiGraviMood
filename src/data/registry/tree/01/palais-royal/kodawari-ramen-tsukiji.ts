@@ -23,7 +23,6 @@ export const kodawari_ramen_tsukiji: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 11:45 – 23:00 | mardi: 11:45 – 23:00 | mercredi: 11:45 – 23:00 | jeudi: 11:45 – 23:00 | vendredi: 11:45 – 23:00 | samedi: 11:45 – 23:00 | dimanche: 11:45 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

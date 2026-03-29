@@ -25,7 +25,6 @@ export const petitSommelier: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "http://www.lepetitsommelier.paris/",

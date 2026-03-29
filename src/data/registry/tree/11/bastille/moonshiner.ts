@@ -25,7 +25,6 @@ export const moonshiner: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://moonshinerbar.fr/",

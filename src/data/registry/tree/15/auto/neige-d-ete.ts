@@ -23,7 +23,6 @@ export const neige_d_ete: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:30 – 21:00 | mardi: 19:30 – 21:00 | mercredi: 19:30 – 21:00 | jeudi: 19:30 – 21:00 | vendredi: 19:30 – 21:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

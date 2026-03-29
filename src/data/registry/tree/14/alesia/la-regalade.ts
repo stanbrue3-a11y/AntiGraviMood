@@ -25,7 +25,6 @@ export const la_regalade: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "https://Origins-14.com/",

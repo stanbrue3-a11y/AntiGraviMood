@@ -97,7 +97,6 @@ export const pauseCafe: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: true,
         terrace: true,
         vegan_friendly: true,
         opening_hours_raw: "Lun-Sam: 08:00–02:00\nDim: 09:00–21:00",

@@ -23,7 +23,6 @@ export const pho_banh_cuon_14: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 09:00 – 23:00 | mardi: 09:00 – 23:00 | mercredi: 09:00 – 23:00 | jeudi: 09:00 – 23:00 | vendredi: 09:00 – 23:00 | samedi: 09:00 – 23:00 | dimanche: 09:00 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

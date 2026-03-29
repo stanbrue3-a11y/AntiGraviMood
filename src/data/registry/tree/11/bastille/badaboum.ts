@@ -25,7 +25,6 @@ export const badaboum: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
-        "wifi": false,
         "opening_hours_raw": "Mercredi-Jeudi: 19:00–02:00, Vendredi-Samedi: 19:00–06:00",
         "main_action": {
             "type": "site",

@@ -23,7 +23,6 @@ export const pepe_rosso: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:30, 19:30 – 22:30 | mardi: 12:00 – 14:30, 19:30 – 22:30 | mercredi: 12:00 – 14:30, 19:30 – 22:30 | jeudi: 12:00 – 14:30, 19:30 – 22:30 | vendredi: 12:00 – 14:30, 19:30 – 22:30 | samedi: 19:30 – 22:30 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

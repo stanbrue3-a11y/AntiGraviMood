@@ -25,7 +25,6 @@ export const moulin_de_la_vierge: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.lemoulindelavierge.com/",

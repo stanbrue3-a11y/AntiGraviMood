@@ -23,7 +23,6 @@ export const l_agape: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:00, 20:00 – 22:00 | mardi: 12:00 – 14:00, 20:00 – 22:00 | mercredi: 12:00 – 14:00, 20:00 – 22:00 | jeudi: 12:00 – 14:00, 20:00 – 22:00 | vendredi: 12:00 – 14:00, 20:00 – 22:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

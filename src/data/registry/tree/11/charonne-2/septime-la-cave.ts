@@ -85,7 +85,6 @@ export const septimeLaCave: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: false,
         opening_hours_raw: "Lundi-Dimanche: 16:00–23:00",

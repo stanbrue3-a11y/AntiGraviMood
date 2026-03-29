@@ -35,6 +35,7 @@ async function main() {
         if (!placeId) {
             console.log(`🚀 RECHERCHE CHIRURGICALE (v2.1) : "${query}"`);
             console.log('='.repeat(60));
+            console.warn('💡 INFO FACTURATION : Cette recherche va consommer ~0.02$ (Text Search + Details).');
 
             // 1. FIND PLACE (Get Place ID and Basic Geometry)
             const findUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(query)}&inputtype=textquery&fields=place_id,name,geometry,rating,photos,formatted_address&key=${GOOGLE_KEY}`;
@@ -48,9 +49,37 @@ async function main() {
             const candidate = searchRes.data.candidates[0];
             placeId = candidate.place_id;
             candidateName = candidate.name;
+
+            // --- NOUVELLE MESURE DE PROTECTION ANTI-DOUBLON (ANTI-COÛT) ---
+            const duplicateCheck = (dir: string): string | null => {
+                const items = fs.readdirSync(dir);
+                for (const item of items) {
+                    const fullP = path.join(dir, item);
+                    if (fs.statSync(fullP).isDirectory()) {
+                        const found = duplicateCheck(fullP);
+                        if (found) return found;
+                    } else if (item.endsWith('.ts')) {
+                        const content = fs.readFileSync(fullP, 'utf-8');
+                        if (content.includes(placeId!)) return fullP;
+                    }
+                }
+                return null;
+            };
+
+            const registryRoot = path.join(__dirname, '../src/data/registry/tree');
+            const duplicateFile = duplicateCheck(registryRoot);
+            
+            if (duplicateFile && !isForced) {
+                console.error(`🛑 ARRÊT DE SÉCURITÉ : Ce lieu (${placeId}) existe déjà dans :`);
+                console.error(`   👉 ${duplicateFile}`);
+                console.error('   Utilisez --force pour ignorer cette sécurité.');
+                process.exit(1);
+            }
+
             console.log(`✅ Lieu Identifié : ${candidateName} (${placeId})`);
         } else {
             console.log(`🚀 ANCRAGE DIRECT PAR PLACE ID : "${placeId}"`);
+            console.warn('💡 INFO FACTURATION : Cet appel va consommer ~0.017$ (Details).');
         }
 
         // 2. GET DETAILS (Hours, Website, Photos)

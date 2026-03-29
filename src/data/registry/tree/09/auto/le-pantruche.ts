@@ -23,7 +23,6 @@ export const le_pantruche: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-vendredi: 12:30–14:00, 19:30–22:30; Fermé samedi-dimanche",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const mano_a_mano_pizza_restaurant: SurgicalPlace = {
   practical: {
     opening_hours_raw: "Non renseigné",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

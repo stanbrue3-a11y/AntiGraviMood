@@ -30,7 +30,6 @@ export const les_associes: SurgicalPlace = {
         "reservation_policy": "resa_conseillee",
         "accessibility": false,
         // NOT CONFIRMED: aucune source ne mentionne le WiFi
-        "wifi": false,
         // VERIFIED: Privateaser — "deux terrasses dont une couverte"
         "terrace": true,
         // VERIFIED: Google Maps API weekday_text — 07h-02h tous les jours

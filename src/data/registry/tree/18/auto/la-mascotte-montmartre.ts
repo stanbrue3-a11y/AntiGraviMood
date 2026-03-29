@@ -23,7 +23,6 @@ export const la_mascotte_montmartre: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 08:00–00:00 (Service continu)",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

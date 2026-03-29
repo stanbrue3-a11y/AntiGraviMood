@@ -25,7 +25,6 @@ export const chulita: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.instagram.com/chulitaparis",

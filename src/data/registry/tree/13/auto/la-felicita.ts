@@ -23,7 +23,6 @@ export const la_felicita: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 08:30 – 23:30 | mardi: 08:30 – 00:00 | mercredi: 08:30 – 00:00 | jeudi: 08:30 – 00:00 | vendredi: 08:30 – 01:30 | samedi: 12:00 – 01:30 | dimanche: 12:00 – 23:30",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

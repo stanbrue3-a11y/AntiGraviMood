@@ -25,7 +25,6 @@ export const ama: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.ama-restaurant.com",

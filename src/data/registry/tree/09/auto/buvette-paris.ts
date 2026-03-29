@@ -23,7 +23,6 @@ export const buvette_paris: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 09:00–00:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

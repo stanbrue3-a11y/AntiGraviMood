@@ -23,7 +23,6 @@ export const substance: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 13:30, 19:00 – 21:00 | mardi: 12:00 – 13:30, 19:00 – 21:00 | mercredi: 12:00 – 13:30, 19:00 – 21:00 | jeudi: 12:00 – 13:30, 19:00 – 21:00 | vendredi: 12:00 – 13:30, 19:00 – 21:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

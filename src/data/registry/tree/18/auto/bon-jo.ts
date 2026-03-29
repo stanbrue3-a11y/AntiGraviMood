@@ -23,7 +23,6 @@ export const bon_jo: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 09:30 – 16:00 | mardi: 09:30 – 16:00 | mercredi: 09:30 – 16:00 | jeudi: 09:30 – 16:00 | vendredi: 09:30 – 16:00 | samedi: 09:30 – 16:30 | dimanche: 09:30 – 16:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

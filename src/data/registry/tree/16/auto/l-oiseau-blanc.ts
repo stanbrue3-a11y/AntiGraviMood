@@ -23,7 +23,6 @@ export const l_oiseau_blanc: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:00, 19:00 – 22:00 | mardi: 12:00 – 14:00, 19:00 – 22:00 | mercredi: 12:00 – 14:00, 19:00 – 22:00 | jeudi: 12:00 – 14:00, 19:00 – 22:00 | vendredi: 12:00 – 14:00, 19:00 – 22:00 | samedi: 12:00 – 14:00, 19:00 – 22:00 | dimanche: 12:00 – 14:00, 19:00 – 22:00",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

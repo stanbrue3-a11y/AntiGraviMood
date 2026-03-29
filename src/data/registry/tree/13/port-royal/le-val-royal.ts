@@ -25,7 +25,6 @@ export const le_val_royal: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
-        "wifi": true,
         "terrace": true,
         "opening_hours_raw": "Lundi-Samedi: 07h00–02h00\nDimanche: 16h00–02h00",
         "main_action": {

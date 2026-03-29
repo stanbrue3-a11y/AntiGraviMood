@@ -23,7 +23,6 @@ export const sukhothai: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 11:45 – 14:30, 18:45 – 22:30 | mardi: 11:45 – 14:30, 18:45 – 22:30 | mercredi: 11:45 – 14:30, 18:45 – 22:30 | jeudi: 11:45 – 14:30, 18:45 – 22:30 | vendredi: 11:45 – 14:30, 18:45 – 22:30 | samedi: 11:45 – 14:30, 18:45 – 22:30 | dimanche: 11:45 – 14:30, 18:45 – 22:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

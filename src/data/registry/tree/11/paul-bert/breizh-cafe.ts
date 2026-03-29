@@ -91,7 +91,6 @@ export const breizhCafePaulBert: SurgicalPlace = {
     practical: {
         reservation_policy: "resa_conseillee",
         accessibility: true,
-        wifi: false,
         terrace: true,
         vegan_friendly: true,
         opening_hours_raw: "Lundi-Dimanche: 11:00–22:00",

@@ -23,7 +23,6 @@ export const chez_mamane: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 16:00 – 02:00 | mardi: 16:00 – 02:00 | mercredi: 16:00 – 02:00 | jeudi: 16:00 – 02:00 | vendredi: 16:00 – 02:00 | samedi: 16:00 – 03:00 | dimanche: 16:00 – 02:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

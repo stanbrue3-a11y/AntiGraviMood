@@ -25,7 +25,6 @@ export const elComal: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.facebook.com/elcomalparis",

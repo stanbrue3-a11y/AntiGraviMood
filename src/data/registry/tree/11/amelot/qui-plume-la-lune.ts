@@ -26,7 +26,6 @@ export const qui_plume_la_lune: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "book",
             url: "http://www.quiplumelalune.fr/",

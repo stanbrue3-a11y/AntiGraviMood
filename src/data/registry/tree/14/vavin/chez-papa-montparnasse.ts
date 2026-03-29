@@ -25,7 +25,6 @@ export const chez_papa_montparnasse: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "http://www.chez-papa.com/",

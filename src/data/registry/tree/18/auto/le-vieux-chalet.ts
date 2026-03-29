@@ -23,7 +23,6 @@ export const le_vieux_chalet: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 22:30 | vendredi: 12:00 – 14:30, 19:00 – 22:30 | samedi: 12:00 – 14:30, 19:00 – 22:30 | dimanche: 12:30 – 14:30, 19:30 – 21:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mercredi-dimanche: 12:00–14:30, 20:00–23:00; Fermé lundi-mardi",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

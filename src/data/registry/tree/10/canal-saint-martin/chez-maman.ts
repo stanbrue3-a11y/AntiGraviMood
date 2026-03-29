@@ -26,7 +26,6 @@ export const chez_maman: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://chezmamanparis.fr/"

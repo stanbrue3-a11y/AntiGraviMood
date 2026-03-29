@@ -23,7 +23,6 @@ export const le_galopin: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 19:30–22:30, samedi: 12:30–14:30",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

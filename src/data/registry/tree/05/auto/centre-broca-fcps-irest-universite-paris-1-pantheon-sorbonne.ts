@@ -23,7 +23,6 @@ export const centre_broca_fcps_irest_universite_paris_1_pantheon_sorbonne: Surgi
   practical: {
     opening_hours_raw: "lundi: 07:30 – 20:00 | mardi: 07:30 – 20:00 | mercredi: 07:30 – 20:00 | jeudi: 07:30 – 20:00 | vendredi: 07:30 – 20:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const le_beurre_noisette: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:00 – 13:45, 19:00 – 21:45 | mercredi: 12:00 – 13:45, 19:00 – 21:45 | jeudi: 12:00 – 13:45, 19:00 – 21:45 | vendredi: 12:00 – 13:45, 19:00 – 21:45 | samedi: 19:00 – 21:45 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

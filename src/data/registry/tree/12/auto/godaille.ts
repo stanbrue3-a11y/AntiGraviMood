@@ -23,7 +23,6 @@ export const godaille: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 12:15 – 14:00, 19:15 – 22:00 | mercredi: 12:15 – 14:00, 19:15 – 22:00 | jeudi: 12:15 – 14:00, 19:15 – 22:00 | vendredi: 12:15 – 14:00, 19:15 – 22:00 | samedi: 12:15 – 14:00, 19:15 – 22:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

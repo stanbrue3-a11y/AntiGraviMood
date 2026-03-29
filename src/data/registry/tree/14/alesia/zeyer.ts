@@ -25,7 +25,6 @@ export const zeyer: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "https://www.brasserielezeyer.com/",

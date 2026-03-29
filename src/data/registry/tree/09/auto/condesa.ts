@@ -23,7 +23,6 @@ export const condesa: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 19:30–21:30; jeudi-vendredi: 12:15–13:30; Fermé dimanche-lundi",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

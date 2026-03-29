@@ -25,7 +25,6 @@ export const plombDuCantal: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://leplombducantal-gaite.fr/",

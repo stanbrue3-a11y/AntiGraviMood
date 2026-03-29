@@ -23,7 +23,6 @@ export const le_rempart_bastille: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 07:00 – 00:00 | mardi: 07:00 – 00:00 | mercredi: 07:00 – 00:00 | jeudi: 07:00 – 00:00 | vendredi: 07:00 – 00:00 | samedi: 07:00 – 01:00 | dimanche: 07:00 – 00:00",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

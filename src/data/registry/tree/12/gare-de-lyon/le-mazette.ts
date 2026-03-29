@@ -23,7 +23,6 @@ export const le_mazette: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: 18:00 – 01:00 | jeudi: 18:00 – 01:00 | vendredi: 18:00 – 04:00 | samedi: 18:00 – 04:00 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

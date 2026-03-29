@@ -23,7 +23,6 @@ export const le_train_bleu: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 11:15–14:30, 19:00–22:30",
     reservation_policy: "resa_obligatoire",
-    wifi: true,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const comptoir_sur_mer: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 17:00 – 22:00 | mardi: Fermé | mercredi: Fermé | jeudi: 12:00 – 15:00, 17:00 – 20:00 | vendredi: 12:00 – 15:00, 17:00 – 20:00 | samedi: 12:00 – 20:00 | dimanche: 12:00 – 20:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

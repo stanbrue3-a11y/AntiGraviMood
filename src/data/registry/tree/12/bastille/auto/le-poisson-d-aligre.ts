@@ -23,7 +23,6 @@ export const le_poisson_d_aligre: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-samedi: 12:00–15:00, 19:00–23:00 | dimanche: 12:00–15:30, 19:00–22:00",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

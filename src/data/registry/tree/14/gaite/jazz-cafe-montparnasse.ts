@@ -25,7 +25,6 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "https://jazzcafemontparnasse.fr/",

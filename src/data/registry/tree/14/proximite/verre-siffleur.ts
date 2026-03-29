@@ -25,7 +25,6 @@ export const le_verre_siffleur: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://le-verre-siffleur-paris.fr/",

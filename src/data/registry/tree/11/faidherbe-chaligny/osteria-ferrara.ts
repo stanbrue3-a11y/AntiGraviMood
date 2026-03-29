@@ -25,7 +25,6 @@ export const osteria_ferrara: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.osteriaferrara.com/",

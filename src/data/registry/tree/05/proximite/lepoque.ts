@@ -20,7 +20,6 @@ export const lepoque: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": false,
-        "wifi": true,
         "opening_hours_raw": "Mardi-Mercredi: 12:00-14:30, 18:30-22:00\nJeudi-Lundi: 07:00-01:00",
         "main_action": {
             "type": "site",

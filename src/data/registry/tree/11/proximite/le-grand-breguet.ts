@@ -27,7 +27,6 @@ export const le_grand_breguet: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": false,
-        "wifi": true,
         "terrace": true,
         "opening_hours_raw": "lundi: 08:30–00:00, mardi: 08:30–00:00, mercredi: 08:30–00:00, jeudi: 08:30–01:30, vendredi: 08:30–01:30, samedi: 09:00–01:30, dimanche: Fermé",
         "main_action": {

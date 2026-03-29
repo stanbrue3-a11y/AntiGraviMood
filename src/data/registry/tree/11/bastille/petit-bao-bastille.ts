@@ -25,7 +25,6 @@ export const petitBaoBastille: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.baofamily.co/restaurants/bao-express",

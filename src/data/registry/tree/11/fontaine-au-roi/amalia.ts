@@ -26,7 +26,6 @@ export const amalia: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "book",
             url: "https://amaliarestaurant.com/",

@@ -100,7 +100,6 @@ export const streetBangkokBastille: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: false,
         terrace: true,
         vegan_friendly: true,
         opening_hours_raw: "Lundi-Dimanche: 12:00–01:00",

@@ -23,7 +23,6 @@ export const pink_mamma: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 12:00–14:30, 18:45–22:45",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: true,
     accessibility: true,

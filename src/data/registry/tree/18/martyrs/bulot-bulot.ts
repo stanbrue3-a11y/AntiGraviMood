@@ -23,7 +23,6 @@ export const bulot_bulot: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 18:30 – 23:00 | mardi: 18:30 – 23:00 | mercredi: 18:30 – 23:00 | jeudi: 18:30 – 23:00 | vendredi: 18:30 – 00:00 | samedi: 12:00 – 00:00 | dimanche: 12:00 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

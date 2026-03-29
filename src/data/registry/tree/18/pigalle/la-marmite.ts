@@ -29,7 +29,6 @@ export const la_marmite: SurgicalPlace = {
         "reservation_policy": "sans_resa",
         "accessibility": false,
         // NOT CONFIRMED: aucune source ne mentionne le WiFi
-        "wifi": false,
         // VERIFIED: Privateaser — "spacieuse terrasse"
         "terrace": true,
         // VERIFIED: Google Maps API weekday_text — 10h30-02h tous les jours

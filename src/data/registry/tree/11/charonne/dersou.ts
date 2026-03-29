@@ -97,7 +97,6 @@ export const dersou: SurgicalPlace = {
     practical: {
         reservation_policy: "resa_conseillee",
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: false,
         opening_hours_raw: "Mar-Sam: 12:00–14:30, 19:30–23:00\nDim-Lun: Fermé",

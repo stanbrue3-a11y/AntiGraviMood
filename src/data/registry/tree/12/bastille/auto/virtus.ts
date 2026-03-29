@@ -23,7 +23,6 @@ export const virtus: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 12:15–14:00, 19:30–21:30 | lundi-dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: true,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

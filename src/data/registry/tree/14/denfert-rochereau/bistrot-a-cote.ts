@@ -25,7 +25,6 @@ export const bistrotACote: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.facebook.com/AuBistrotdaCoteParis/",

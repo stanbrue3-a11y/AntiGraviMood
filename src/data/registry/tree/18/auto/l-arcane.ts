@@ -23,7 +23,6 @@ export const l_arcane: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi-samedi: 12:00–14:00, 19:30–22:00; Fermé dimanche-lundi",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

@@ -23,7 +23,6 @@ export const sinorama: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 15:00, 18:30 – 23:00 | mardi: 12:00 – 15:00, 18:30 – 23:00 | mercredi: 12:00 – 15:00, 18:30 – 23:00 | jeudi: 12:00 – 15:00, 18:30 – 23:00 | vendredi: 12:00 – 15:00, 18:30 – 23:45 | samedi: 12:00 – 16:00, 18:30 – 23:45 | dimanche: 12:00 – 16:00, 18:30 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

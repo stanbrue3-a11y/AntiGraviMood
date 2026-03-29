@@ -23,7 +23,6 @@ export const masaikuta: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: 19:00 – 21:30 | mercredi: 12:00 – 14:00, 19:00 – 21:30 | jeudi: 12:00 – 14:00, 19:00 – 21:30 | vendredi: 12:00 – 14:00, 19:00 – 21:30 | samedi: 12:00 – 14:00, 19:00 – 21:30 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

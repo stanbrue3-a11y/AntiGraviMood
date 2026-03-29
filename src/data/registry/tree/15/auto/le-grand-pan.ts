@@ -23,7 +23,6 @@ export const le_grand_pan: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:00, 19:30 – 23:00 | mardi: 12:00 – 14:00, 19:30 – 23:00 | mercredi: 12:00 – 14:00, 19:30 – 23:00 | jeudi: 12:00 – 14:00, 19:30 – 23:00 | vendredi: 12:00 – 14:00, 19:30 – 23:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

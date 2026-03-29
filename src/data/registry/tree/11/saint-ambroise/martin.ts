@@ -25,7 +25,6 @@ export const martin: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.luckymiam.com/martin-boire-et-manger/", // Best available link

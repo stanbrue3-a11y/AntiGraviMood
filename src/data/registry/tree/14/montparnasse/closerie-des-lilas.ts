@@ -25,7 +25,6 @@ export const closerie_des_lilas: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "https://www.closeriedeslilas.fr/",

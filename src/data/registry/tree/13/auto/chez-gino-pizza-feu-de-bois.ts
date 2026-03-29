@@ -23,7 +23,6 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 10:30 – 15:00, 18:00 – 23:00 | mardi: 10:30 – 15:00, 18:00 – 23:00 | mercredi: 10:30 – 15:00, 18:00 – 23:00 | jeudi: 10:30 – 15:00, 18:00 – 23:00 | vendredi: 10:30 – 15:00, 18:00 – 23:00 | samedi: 10:30 – 15:00, 18:00 – 23:00 | dimanche: 10:30 – 15:00, 18:00 – 23:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

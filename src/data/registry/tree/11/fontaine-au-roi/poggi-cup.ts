@@ -89,7 +89,6 @@ export const poggiCup: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa",
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: true,
         opening_hours_raw: "Lun-Ven: 11:30–15:00, 18:30–22:00\nSam: 12:00–22:30",

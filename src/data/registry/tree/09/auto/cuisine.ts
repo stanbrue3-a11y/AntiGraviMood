@@ -23,7 +23,6 @@ export const cuisine: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-vendredi: 12:00–14:00, 19:30–22:00 | samedi-dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

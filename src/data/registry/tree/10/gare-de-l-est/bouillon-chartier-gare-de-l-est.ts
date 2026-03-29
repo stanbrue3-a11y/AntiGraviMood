@@ -23,7 +23,6 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 11:30 – 00:00 | mardi: 11:30 – 00:00 | mercredi: 11:30 – 00:00 | jeudi: 11:30 – 00:00 | vendredi: 11:30 – 00:00 | samedi: 11:30 – 00:00 | dimanche: 11:30 – 00:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: false,
     ferme_tard: true,
     accessibility: true,

@@ -23,7 +23,6 @@ export const tang_gourmet: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 10:00 – 20:00 | mardi: 10:00 – 20:00 | mercredi: 10:00 – 20:00 | jeudi: 10:00 – 20:00 | vendredi: 10:00 – 20:00 | samedi: 10:00 – 20:00 | dimanche: 10:00 – 20:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

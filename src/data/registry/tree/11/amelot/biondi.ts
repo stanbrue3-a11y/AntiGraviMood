@@ -25,7 +25,6 @@ export const biondi: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.biondi-restaurant.fr/",

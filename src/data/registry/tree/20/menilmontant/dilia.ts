@@ -26,7 +26,6 @@ export const dilia: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: true,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.dilia.fr/",

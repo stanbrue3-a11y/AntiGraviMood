@@ -25,7 +25,6 @@ export const erso: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: true,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://www.erso-restaurant.fr/",

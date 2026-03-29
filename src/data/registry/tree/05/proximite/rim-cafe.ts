@@ -27,7 +27,6 @@ export const rim_cafe: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": false,
         "terrace": true,
         "opening_hours_raw": "Lundi: 11:00–00:00\nMardi: 11:00–00:00\nMercredi: 11:00–00:00\nJeudi: 11:00–00:00\nVendredi: 11:00–00:00\nSamedi: 11:00–00:00\nDimanche: 11:00–00:00",
         "main_action": {

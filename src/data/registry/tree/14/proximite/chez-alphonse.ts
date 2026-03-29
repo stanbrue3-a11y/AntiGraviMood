@@ -20,7 +20,6 @@ export const chez_alphonse: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": false,
         "terrace": true,
         "opening_hours_raw": "Lundi au Vendredi: 08:00–00:00\nSamedi et Dimanche: 09:00–00:00",
         "main_action": {

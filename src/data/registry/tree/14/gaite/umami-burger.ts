@@ -25,7 +25,6 @@ export const umami_burger: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://umamiburgerparis.com/",

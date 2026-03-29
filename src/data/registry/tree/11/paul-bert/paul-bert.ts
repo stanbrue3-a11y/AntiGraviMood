@@ -25,7 +25,6 @@ export const bistrotPaulBert: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.facebook.com/Bistrot-Paul-Bert-153664324653603/",

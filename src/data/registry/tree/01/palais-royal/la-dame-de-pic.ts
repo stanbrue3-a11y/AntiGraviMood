@@ -23,7 +23,6 @@ export const la_dame_de_pic: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: Fermé | jeudi: 12:00–13:30, 19:00–21:00 | vendredi: 12:00–13:30, 19:00–21:00 | samedi: 12:00–13:30, 19:00–21:00 | dimanche: 12:00–13:30, 19:00–21:00",
     reservation_policy: "resa_conseillee",
-    wifi: true,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

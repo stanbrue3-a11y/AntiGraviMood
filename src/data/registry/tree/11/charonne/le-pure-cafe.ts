@@ -25,7 +25,6 @@ export const le_pure_cafe: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
-        "wifi": false,
         "terrace": true,
         "opening_hours_raw": "Lundi-Vendredi: 07:30–02:00, Samedi-Dimanche: 08:30–02:00",
         "main_action": {

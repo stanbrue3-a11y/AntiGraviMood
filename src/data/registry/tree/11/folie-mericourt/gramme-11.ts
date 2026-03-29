@@ -25,7 +25,6 @@ export const gramme_11: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://grammeparis.fr/",

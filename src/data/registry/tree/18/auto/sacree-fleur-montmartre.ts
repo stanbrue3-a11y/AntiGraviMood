@@ -23,7 +23,6 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 18:00 – 22:00 | mardi: 18:00 – 22:00 | mercredi: 18:00 – 22:00 | jeudi: 18:00 – 22:00 | vendredi: 18:00 – 22:00 | samedi: 18:00 – 22:00 | dimanche: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: false,
     ferme_tard: false,
     accessibility: true,

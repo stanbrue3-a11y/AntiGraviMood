@@ -23,7 +23,6 @@ export const bellefeuille: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 19:30 – 21:30 | mardi: 19:30 – 21:30 | mercredi: 19:30 – 21:30 | jeudi: 19:30 – 21:30 | vendredi: 19:30 – 21:30 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "resa_obligatoire",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

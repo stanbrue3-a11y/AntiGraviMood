@@ -27,7 +27,6 @@ export const le_royal: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": true,
-        "wifi": true,
         "terrace": true,
         "opening_hours_raw": "lundi: 07:00–02:00, mardi: 07:00–02:00, mercredi: 07:00–02:00, jeudi: 07:00–02:00, vendredi: 07:00–02:00, samedi: 07:00–02:00, dimanche: 07:00–02:00",
         "main_action": {

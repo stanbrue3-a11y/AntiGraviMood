@@ -25,7 +25,6 @@ export const pierre_sang_gambey: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://pierresang.com/gambey/",

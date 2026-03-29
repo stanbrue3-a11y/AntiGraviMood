@@ -23,7 +23,6 @@ export const caillebotte: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:30 – 15:00, 19:30 – 23:30 | mardi: 12:30 – 15:00, 19:30 – 23:30 | mercredi: 12:30 – 15:00, 19:30 – 23:30 | jeudi: 12:30 – 15:00, 19:30 – 23:30 | vendredi: 12:30 – 15:00, 19:30 – 23:30 | samedi: 12:30 – 15:00, 19:30 – 23:30 | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

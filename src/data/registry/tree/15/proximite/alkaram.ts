@@ -20,7 +20,6 @@ export const alkaram: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": false,
         "terrace": false,
         "opening_hours_raw": "Mardi-Samedi: 12:00-14:30, 19:00-23:00\nDimanche-Lundi: Fermé",
         "main_action": {

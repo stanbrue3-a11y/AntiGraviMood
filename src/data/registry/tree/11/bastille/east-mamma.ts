@@ -105,7 +105,6 @@ export const eastMamma: SurgicalPlace = {
     practical: {
         reservation_policy: "sans_resa", // Politique Big Mamma historique
         accessibility: true,
-        wifi: false,
         terrace: false,
         vegan_friendly: true,
         opening_hours_raw: "Lundi-Vendredi: 12:00–14:30, 19:00–22:45\nSamedi-Dimanche: 12:00–15:30, 19:00–23:00",

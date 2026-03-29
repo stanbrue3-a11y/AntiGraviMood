@@ -25,7 +25,6 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.lecafedurendezvous.com/",

@@ -25,7 +25,6 @@ export const wonderland: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "https://www.wonderland-patisserie-paris.com/",

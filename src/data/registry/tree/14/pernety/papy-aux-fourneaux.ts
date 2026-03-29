@@ -25,7 +25,6 @@ export const papy_aux_fourneaux: SurgicalPlace = {
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "book",
             url: "https://www.papyauxfourneaux.fr/",

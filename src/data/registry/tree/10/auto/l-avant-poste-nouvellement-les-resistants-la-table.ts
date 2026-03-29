@@ -23,7 +23,6 @@ export const l_avant_poste_nouvellement_les_resistants_la_table: SurgicalPlace =
   practical: {
     opening_hours_raw: "Non renseigné",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

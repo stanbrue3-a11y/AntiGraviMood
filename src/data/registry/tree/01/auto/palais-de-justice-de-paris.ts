@@ -23,7 +23,6 @@ export const palais_de_justice_de_paris: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 09:00 – 17:00 | mardi: 09:00 – 17:00 | mercredi: 09:00 – 17:00 | jeudi: 09:00 – 17:00 | vendredi: 09:00 – 17:00 | samedi: Fermé | dimanche: Fermé",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

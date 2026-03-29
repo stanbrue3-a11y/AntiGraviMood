@@ -21,7 +21,6 @@ export const l_intrigue: SurgicalPlace = {
     "practical": {
         "reservation_policy": "resa_conseillee",
         "accessibility": true,
-        "wifi": true,
         "terrace": true,
         "opening_hours_raw": "Lundi-Dimanche: 07:00-00:00",
         "main_action": {

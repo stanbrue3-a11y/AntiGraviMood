@@ -23,7 +23,6 @@ export const restaurant_a_mi_chemin_paris_14_eme: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: Fermé | mardi: Fermé | mercredi: 12:00 – 14:00, 19:00 – 22:00 | jeudi: 12:00 – 14:00, 19:00 – 22:00 | vendredi: 12:00 – 14:00, 19:00 – 22:30 | samedi: 11:30 – 15:00, 19:00 – 22:30 | dimanche: 11:30 – 15:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

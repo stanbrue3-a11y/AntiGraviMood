@@ -25,7 +25,6 @@ export const les_deserteurs: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "tel:+33148069585",

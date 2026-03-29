@@ -25,7 +25,6 @@ export const geosmine: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: false,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://geosmine.com/",

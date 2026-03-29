@@ -23,7 +23,6 @@ export const le_dalou: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi-dimanche: 07:00–02:00",
     reservation_policy: "sans_resa",
-    wifi: true,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

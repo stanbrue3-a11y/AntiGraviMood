@@ -23,7 +23,6 @@ export const le_vrai_paris: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 07:00 – 02:00 | mardi: 07:00 – 02:00 | mercredi: 07:00 – 02:00 | jeudi: 07:00 – 02:00 | vendredi: 07:00 – 02:00 | samedi: 07:00 – 03:00 | dimanche: 07:00 – 02:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

@@ -25,7 +25,6 @@ export const imprevu: SurgicalPlace = {
         reservation_policy: "sans_resa",
         terrace: true,
         accessibility: true,
-        wifi: true,
         main_action: {
             type: "site",
             url: "https://www.limprevu-06.fr/",

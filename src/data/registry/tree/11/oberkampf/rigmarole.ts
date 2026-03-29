@@ -26,7 +26,6 @@ export const rigmarole: SurgicalPlace = {
         reservation_policy: "resa_obligatoire",
         terrace: false,
         accessibility: true,
-        wifi: false,
         main_action: {
             type: "site",
             url: "http://lerigmarole.com/",

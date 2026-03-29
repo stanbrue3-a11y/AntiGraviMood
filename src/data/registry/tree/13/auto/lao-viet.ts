@@ -23,7 +23,6 @@ export const lao_viet: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 12:00 – 14:30, 18:00 – 22:00 | mardi: Fermé | mercredi: 12:00 – 14:30, 18:00 – 22:00 | jeudi: 12:00 – 14:30, 18:00 – 22:00 | vendredi: 12:00 – 14:30, 18:00 – 22:00 | samedi: 12:00 – 14:30, 18:00 – 22:00 | dimanche: 12:00 – 14:30, 18:00 – 22:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: false,
     accessibility: true,

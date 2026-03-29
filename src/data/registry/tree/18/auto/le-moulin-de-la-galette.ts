@@ -23,7 +23,6 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 08:00 – 00:00 | mardi: 08:00 – 00:00 | mercredi: 08:00 – 00:00 | jeudi: 08:00 – 00:00 | vendredi: 08:00 – 00:00 | samedi: 08:00 – 00:00 | dimanche: 08:00 – 00:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

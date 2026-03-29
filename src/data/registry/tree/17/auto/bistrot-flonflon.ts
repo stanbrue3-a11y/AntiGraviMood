@@ -23,7 +23,6 @@ export const bistrot_flonflon: SurgicalPlace = {
   practical: {
     opening_hours_raw: "mardi: 12:00–14:30, 19:30–22:30 | mercredi: 12:00–14:30, 19:30–22:30 | jeudi: 12:00–14:30, 19:30–22:30 | vendredi: 12:00–14:30, 19:30–22:30 | samedi: 19:30–22:30 | dimanche: Fermé | lundi: Fermé",
     reservation_policy: "resa_conseillee",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

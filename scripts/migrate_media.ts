@@ -41,24 +41,29 @@ async function migrateMedia() {
         : {};
 
     const args = process.argv.slice(2);
-    // Support both --slug= and --slugs= (with comma-separated values)
+    const hasAll = args.includes('--all');
     const slugArg = args.find(arg => arg.startsWith('--slug=') || arg.startsWith('--slugs='))?.split('=')[1];
-
     const targetSlugs = slugArg ? slugArg.split(',').map(s => s.trim()) : [];
+
+    if (!hasAll && targetSlugs.length === 0) {
+        console.error('⚠️  SÉCURITÉ ANTI-FACTURATION ACTIVÉE');
+        console.error('------------------------------------------------------------');
+        console.error('Usage :');
+        console.error('  --slug=mon-resto      : Migre un seul lieu (Recommandé)');
+        console.error('  --all                 : Scanne TOUT le registre (COÛTEUX !)');
+        console.error('------------------------------------------------------------');
+        process.exit(1);
+    }
 
     const placesToMigrate = targetSlugs.length > 0
         ? report.filter((p: any) => targetSlugs.includes(p.slug))
         : report;
 
-    if (targetSlugs.length > 0) {
-        console.log(`🎯 MODE CIBLÉ : ${targetSlugs.length} slug(s) demandé(s) → ${placesToMigrate.length} trouvé(s).`);
-        if (placesToMigrate.length === 0) {
-            console.log(`⚠️  Aucun lieu trouvé pour les slugs: ${targetSlugs.join(', ')}`);
-            console.log(`   Vérifiez que sync_to_supabase.ts a été lancé avant.`);
-            return;
-        }
+    if (hasAll) {
+        console.warn('🚨 ATTENTION : Mode global activé. Les photos manquantes seront téléchargées via l\'API Google (0,007$/photo).');
+        console.log(`📍 TRAITEMENT DE ${placesToMigrate.length} LIEUX...`);
     } else {
-        console.log(`📍 MODE GLOBAL : ${placesToMigrate.length} lieux à traiter.`);
+        console.log(`🎯 MODE CIBLÉ : ${targetSlugs.length} slug(s) demandé(s) → ${placesToMigrate.length} trouvé(s).`);
     }
 
     for (const place of placesToMigrate) {
@@ -69,12 +74,19 @@ async function migrateMedia() {
         
         // 1. Migrate Hero
         const isGoogleHero = media.hero_image && (media.hero_image.includes('google') || media.hero_image.startsWith('AU_'));
+        
         if (isGoogleHero) {
-            const newHeroUrl = await uploadToSupabase(media.hero_image, `${id}/hero.jpg`);
-            if (newHeroUrl) {
-                mapping[media.hero_image] = newHeroUrl;
-                media.hero_image = newHeroUrl;
-                console.log(`   ✅ Hero migré : ${newHeroUrl}`);
+            // CHECK CACHE FIRST
+            if (mapping[media.hero_image]) {
+                console.log(`   ⏭️  Hero déjà migré (Cache) : ${mapping[media.hero_image]}`);
+                media.hero_image = mapping[media.hero_image];
+            } else {
+                const newHeroUrl = await uploadToSupabase(media.hero_image, `${id}/hero.jpg`);
+                if (newHeroUrl) {
+                    mapping[media.hero_image] = newHeroUrl;
+                    media.hero_image = newHeroUrl;
+                    console.log(`   ✅ Hero migré : ${newHeroUrl}`);
+                }
             }
         }
 
@@ -83,12 +95,19 @@ async function migrateMedia() {
             for (let i = 0; i < media.google_photos.length; i++) {
                 const galleryUrl = media.google_photos[i];
                 const isGoogleGallery = galleryUrl && (galleryUrl.includes('google') || galleryUrl.startsWith('AU_'));
+                
                 if (isGoogleGallery) {
-                    const newUrl = await uploadToSupabase(galleryUrl, `${id}/gallery_${i}.jpg`);
-                    if (newUrl) {
-                        mapping[galleryUrl] = newUrl;
-                        media.google_photos[i] = newUrl;
-                        console.log(`   ✅ Gallery[${i}] migré : ${newUrl}`);
+                    // CHECK CACHE FIRST
+                    if (mapping[galleryUrl]) {
+                        console.log(`   ⏭️  Gallery[${i}] déjà migré (Cache) : ${mapping[galleryUrl]}`);
+                        media.google_photos[i] = mapping[galleryUrl];
+                    } else {
+                        const newUrl = await uploadToSupabase(galleryUrl, `${id}/gallery_${i}.jpg`);
+                        if (newUrl) {
+                            mapping[galleryUrl] = newUrl;
+                            media.google_photos[i] = newUrl;
+                            console.log(`   ✅ Gallery[${i}] migré : ${newUrl}`);
+                        }
                     }
                 }
             }

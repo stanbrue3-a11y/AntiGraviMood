@@ -23,7 +23,6 @@ export const brasserie_barbes: SurgicalPlace = {
   practical: {
     opening_hours_raw: "lundi: 09:00 – 02:00 | mardi: 09:00 – 02:00 | mercredi: 09:00 – 02:00 | jeudi: 09:00 – 02:00 | vendredi: 09:00 – 02:00 | samedi: 09:00 – 03:00 | dimanche: 09:00 – 02:00",
     reservation_policy: "sans_resa",
-    wifi: false,
     terrace: true,
     ferme_tard: true,
     accessibility: true,

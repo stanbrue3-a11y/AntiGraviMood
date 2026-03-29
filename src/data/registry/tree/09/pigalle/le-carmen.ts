@@ -24,7 +24,6 @@ export const le_carmen: SurgicalPlace = {
     "practical": {
         "reservation_policy": null,
         "accessibility": false,
-        "wifi": false,
         "opening_hours_raw": "",
         "action_type": "site",
         "action_url": ""
