@@ -8,12 +8,14 @@ import { SurgicalPlace } from '../src/data/registry/type-definition';
  */
 
 const REGISTRY_PATH = path.join(__dirname, '../src/data/registry/tree');
-const MIN_MENU_ITEMS = 15;
-const MIN_GALLERY_PHOTOS = 2;
-const ALLOWED_PATTERNS = [/Entrée/i, /Plat/i, /Dessert/i, /Douceur/i, /Formule/i, /Partager/i, /Cave/i, /Boisson/i, /Aperitivo/i, /Antipasti/i, /Pizz/i, /Pâte/i, /Dolci/i, /Tapassiette/i, /Côté/i, /Accompagnement/i, /Mo's/i, /Signature/i, /Supplément/i, /Topping/i, /Extra/i, /Spécialité/i, /Menu/i, /Étape/i, /Incontournable/i, /Voyage/i, /Fromage/i, /Jardin/i, /Sommelier/i, /Sommelière/i, /Sommelerie/i, /Écho/i, /Océan/i, /Littoral/i, /Côtier/i, /Dim Sum/i, /Mixologie/i, /Tacos/i, /Végétal/i, /Racine/i, /Pousse/i, /Ceviche/i, /Gilda/i, /Snack/i, /Brunch/i, /Prélude/i, /Secondi/i, /Primi/i, /Rôtisserie/i, /Vapeur/i, /Final/i, /Thé/i, /Postre/i, /Grill/i, /Classique/i, /Nouille/i, /Riz/i, /Club/i, /Salade/i, /Bouchée/i, /Spiritueux/i, /Pâtisserie/i, /Infusion/i];
+const MIN_MENU_ITEMS = 30; // Moelle V2.1 Requirement (Satiété Totale)
+const MIN_GALLERY_PHOTOS = 3;
+const MANDATORY_LABELS = ["Entrées", "Plats", "Desserts", "Boissons", "À Partager", "Formules", "Accompagnements"];
+const ALLOWED_SUBCATEGORIES = ["bistrot", "restaurant", "éthiopien", "thaï", "vietnamien", "italien", "gastronomique", "street-food", "authentique", "partage", "viande", "traditionnel", "français", "bar à vin", "pizzeria", "japonais", "bistronomie"];
 const FORBIDDEN_WORDS = [
-    { word: "Carte", reason: "Forbidden nomenclature (Redundant with UI)" },
-    { word: "Résistance", reason: "Forbidden nomenclature ('Plat de Résistance' is banned, use 'Plats')" }
+    { word: "Carte", reason: "Nomenclature interdite (Redondant avec l'UI)" },
+    { word: "Résistance", reason: "Nomenclature interdite ('Plat de Résistance' banni, utilisez 'Plats')" },
+    { word: "Nos", reason: "Libellé interdit (Pas de 'Nos Entrées', juste 'Entrées')" }
 ];
 
 async function auditRegistry() {
@@ -35,10 +37,16 @@ async function auditRegistry() {
         const context = basename;
         try {
             const module = await import(file);
-            const place: SurgicalPlace = module.default;
+            let place: SurgicalPlace = module.default;
+            
+            // Si pas d'export default, on cherche le premier export qui ressemble à une SurgicalPlace
+            if (!place) {
+                const exports = Object.values(module);
+                place = exports.find((e: any) => e && e.id && e.location) as SurgicalPlace;
+            }
 
-            if (!place || !place.id || !place.location) {
-                // Ce n'est probablement pas une SurgicalPlace, skip sans erreur si c'est un fichier helper
+            if (!place) {
+                errors.push(`🚨 CRITIQUE [${context}] : Aucun export valide trouvé. Utilisez 'export default' ou un export nommé conforme.`);
                 continue;
             }
 
@@ -67,42 +75,32 @@ async function auditRegistry() {
                 continue;
             }
 
-            // 2. Quota Photo
+            // 2. Photo Quota (Hero + Gallery)
+            const totalPhotos = (place.images.hero ? 1 : 0) + (place.images.gallery?.length || 0);
             if (!place.images.hero) {
                 errors.push(`📸 [${context}] : Hero image manquante.`);
             }
-            if (!place.images.gallery || place.images.gallery.length < MIN_GALLERY_PHOTOS) {
-                errors.push(`📸 [${context}] : Galerie insuffisante (${place.images.gallery?.length || 0}/${MIN_GALLERY_PHOTOS} requis).`);
+            if (totalPhotos < MIN_GALLERY_PHOTOS) {
+                errors.push(`📸 [${context}] : Nombre total d'images insuffisant (${totalPhotos}/${MIN_GALLERY_PHOTOS} requises).`);
             }
 
             // 3. Menus Moelle
             const totalItems = (place.pricing.menu_items || []).reduce((acc, cat) => {
                 const catType = (cat as any).category_type || '';
-                const displayLabel = (cat as any).display_label || '';
                 
-                const isDrinkSection = catType === 'drink';
-                
-                if (isDrinkSection && place.category === 'restaurant') {
-                    if (!place.subcategory.includes('bouillon')) {
-                        // Acceptable but maybe warn if too many? For now just allow it, category_type is strict.
-                    }
-                }
-
-                // 3.2 Vérification des Prix (Numérique)
+                // 3.2 Vérification des Prix (Numérique STRICT price_cents)
                 cat.items?.forEach(item => {
                     const priceCents = (item as any).price_cents;
                     const priceStr = (item as any).price;
                     
-                    if (priceCents === undefined && priceStr === undefined) {
-                        errors.push(`💰 [${context}] : Prix manquant pour l'item "${item.name}".`);
-                    }
-                    if (priceCents !== undefined && typeof priceCents !== 'number') {
-                        errors.push(`💥 [${context}] : price_cents non-numérique détecté pour "${item.name}".`);
-                    }
-                    if (priceStr !== undefined) {
-                        if (!/^[\d,\.]+ ?€$/.test(priceStr.trim()) && priceStr !== "0€") {
-                            errors.push(`💥 [${context}] : Prix texte invalide ("${priceStr}").`);
+                    if (priceCents === undefined) {
+                        if (priceStr !== undefined) {
+                            errors.push(`💰 [${context}] : Format obsolète détecté pour "${item.name}" ("${priceStr}"). Utilisez price_cents.`);
+                        } else {
+                            errors.push(`💰 [${context}] : Prix manquant pour l'item "${item.name}".`);
                         }
+                    } else if (typeof priceCents !== 'number') {
+                        errors.push(`💥 [${context}] : price_cents non-numérique détecté pour "${item.name}".`);
                     }
                 });
 
@@ -110,15 +108,35 @@ async function auditRegistry() {
             }, 0);
             
             if (totalItems < MIN_MENU_ITEMS) {
-                errors.push(`🍗 [${context}] : Menu anémique (${totalItems}/${MIN_MENU_ITEMS} items).`);
+                errors.push(`🍗 [${context}] : Menu anémique (${totalItems}/${MIN_MENU_ITEMS} items). Allez chercher la Satiété Totale (30+) !`);
             }
+
+            // 3.4 Vérification des Labels Cliniques
+            (place.pricing.menu_items || []).forEach(cat => {
+                if (!MANDATORY_LABELS.includes(cat.display_label)) {
+                    errors.push(`🏷️ [${context}] : Label interdit "${cat.display_label}". Utilisez uniquement : ${MANDATORY_LABELS.join(', ')}.`);
+                }
+                FORBIDDEN_WORDS.forEach(forbidden => {
+                    if (cat.display_label.includes(forbidden.word)) {
+                        errors.push(`🚫 [${context}] : Mot interdit "${forbidden.word}" dans le label. ${forbidden.reason}`);
+                    }
+                });
+            });
             
-            // 3.3 Filtres de Base et SQLite Crashes
             if (!place.subcategory || place.subcategory.length === 0) {
-                errors.push(`👻 [${context}] : 'subcategory' est vide []. Le lieu sera masqué de la DeepSearch. Ajoutez un tag (ex: 'bistrot').`);
+                errors.push(`👻 [${context}] : 'subcategory' est vide []. DeepSearch aveugle.`);
+            } else {
+                place.subcategory.forEach(tag => {
+                    if (!ALLOWED_SUBCATEGORIES.includes(tag)) {
+                        errors.push(`🚫 [${context}] : Tag inconnu "${tag}". Utilisez la liste blanche du workflow.`);
+                    }
+                });
             }
             if (place.name.includes("'")) {
-                errors.push(`🗡️ [${context}] : Apostrophe droite détectée dans "${place.name}". Elle corrompt SQLite. Utilisez l'apostrophe typographique ( L’ ).`);
+                errors.push(`🗡️ [${context}] : Apostrophe droite détectée dans "${place.name}". Utilisez l'apostrophe typographique ( ’ ).`);
+            }
+            if ((place.practical as any).wifi !== undefined) {
+                errors.push(`📡 [${context}] : Champ 'wifi' proscrit dans le Standard 2026. Supprimez-le.`);
             }
 
             // 4. GPS & Horaires

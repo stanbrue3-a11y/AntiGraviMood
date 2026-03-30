@@ -1,4 +1,4 @@
-/**
+ /**
  * 🏎️ PRICE ENGINE - INDUSTRIAL 2026 STANDARD
  * Single source of truth for all pricing logic in MoodMap.
  * Handles DrinkType resolution, Benchmark comparisons, and Happy Hour weighting.

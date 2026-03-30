@@ -141,6 +141,15 @@ async function main() {
 
         const slug = details.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
         
+        // --- SÉCURITÉ NOMENCLATURE 2026 (Anti-Crash) ---
+        // 1. Apostrophes typographiques obligatoires dans le 'name'
+        const safeName = details.name.replace(/'/g, "’");
+        // 2. Export-Name (Interdiction de commencer par un chiffre)
+        let exportName = slug.replace(/-/g, '_');
+        if (/^\d/.test(exportName)) {
+            exportName = `place__${exportName}`;
+        }
+        
         // GLOBAL SLUG SEARCH
         function findExistingFile(dir: string, currentSlug: string): string | null {
             if (!fs.existsSync(dir)) return null;
@@ -164,11 +173,20 @@ async function main() {
         const filePath = existingFilePath || path.join(targetDir, `${slug}.ts`);
 
         // 4. SMART MERGE LOGIC (Moelle V11.3)
-        let menuItems = "[\n      // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici\n    ]";
+        let menuItems = `[
+      {
+        category_type: "main",
+        display_label: "Les Incontournables",
+        items: [
+           { name: "Plat Signature", price_cents: 2400, description: "Description du plat" },
+           // TODO: Saisir 20+ items ici (Satiété garantie)
+        ]
+      }
+    ]`;
         let description = "TODO: Description riche (3 phrases minimum).";
         let tip = "• **Timing Stratégique** : TODO\n  • **Combo Moelle** : TODO\n  • **Expérience Culturelle** : TODO";
-        let subcategories = "[]";
-        let specials = `{\n    cuisine: [],\n    drinks: [],\n    must_eat: "Cuisine [Type]. TODO",\n  }`;
+        let subcategories = '["restaurant"]';
+        let specials = `{\n    cuisine: ["Française"], // TODO\n    drinks: [],\n    must_eat: "Cuisine [Type]. TODO",\n  }`;
         let moods = `{\n    chill: 60,\n    festif: 40,\n    culturel: 50\n  }`;
         let verified = "false";
 
@@ -188,8 +206,8 @@ async function main() {
 
             if (menuMatch) {
                 menuItems = menuMatch[1];
-                // Auto-Correction Moelle V11.3 : Add € if missing
-                menuItems = menuItems.replace(/price: "(\d+(?:\.\d+)?)"/g, 'price: "$1€"');
+                // Auto-Correction Moelle V12.0 : Convert old format to price_cents if needed (simple heuristic)
+                menuItems = menuItems.replace(/price: "(\d+)(?:,\d+)?€"/g, (m, p) => `price_cents: ${parseInt(p) * 100}`);
             }
             if (descMatch) description = descMatch[1].replace(/"/g, '\\"');
             if (tipMatch) tip = tipMatch[1].replace(/"/g, '\\"');
@@ -198,16 +216,16 @@ async function main() {
             if (moodMatch) moods = moodMatch[1];
             if (verMatch) verified = verMatch[1];
 
-            console.log(`✅ Menu et Description extraits avec succès (Auto-correction € appliquée).`);
+            console.log(`✅ Menu et Description extraits avec succès.`);
         }
 
         // 5. GENERATE FINAL TEMPLATE
         const template = `import { SurgicalPlace } from "../../../type-definition";
 
-export const ${slug.replace(/-/g, '_')}: SurgicalPlace = {
+export const ${exportName}: SurgicalPlace = {
   id: "poi-${slug}",
   slug: "${slug}",
-  name: "${details.name}",
+  name: "${safeName}",
   category: "restaurant",
   subcategory: ${subcategories},
   location: {
@@ -223,7 +241,6 @@ export const ${slug.replace(/-/g, '_')}: SurgicalPlace = {
   practical: {
     opening_hours_raw: "${hours}",
     reservation_policy: "${reservationPolicy}",
-    wifi: false,
     terrace: true,
     ferme_tard: ${isLate},
     accessibility: true,
@@ -252,7 +269,7 @@ export const ${slug.replace(/-/g, '_')}: SurgicalPlace = {
   google_rating: ${rating}
 };
 
-export default ${slug.replace(/-/g, '_')};
+export default ${exportName};
 `;
 
         if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
