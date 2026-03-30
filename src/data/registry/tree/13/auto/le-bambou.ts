@@ -5,7 +5,7 @@ export const le_bambou: SurgicalPlace = {
   slug: "le-bambou",
   name: "Le Bambou",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["vietnamien"],
   location: {
     address: "70 Rue Baudricourt, 75013 Paris, France",
     arrondissement: 13,

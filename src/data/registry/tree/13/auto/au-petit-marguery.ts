@@ -5,7 +5,7 @@ export const au_petit_marguery: SurgicalPlace = {
   slug: "au-petit-marguery",
   name: "Au Petit Marguery",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["traditionnell"],
   location: {
     address: "9 Bd de Port-Royal, 75013 Paris, France",
     arrondissement: 13,

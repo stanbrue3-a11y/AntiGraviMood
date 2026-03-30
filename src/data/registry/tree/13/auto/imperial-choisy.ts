@@ -5,7 +5,7 @@ export const imperial_choisy: SurgicalPlace = {
   slug: "imperial-choisy",
   name: "Impérial Choisy 美丽都",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cantonais"],
   location: {
     address: "32 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

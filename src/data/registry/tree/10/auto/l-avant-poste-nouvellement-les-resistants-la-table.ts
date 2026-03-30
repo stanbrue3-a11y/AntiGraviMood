@@ -5,7 +5,7 @@ export const l_avant_poste_nouvellement_les_resistants_la_table: SurgicalPlace =
   slug: "l-avant-poste-nouvellement-les-resistants-la-table",
   name: "L’Avant-Poste (nouvellement Les Résistants - La Table)",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "7 Rue de la Fidélité, 75010 Paris, France",
     arrondissement: 10,

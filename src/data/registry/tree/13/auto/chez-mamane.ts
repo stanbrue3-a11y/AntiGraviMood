@@ -5,7 +5,7 @@ export const chez_mamane: SurgicalPlace = {
   slug: "chez-mamane",
   name: "Chez Mamane",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["maghrébin"],
   location: {
     address: "27 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,

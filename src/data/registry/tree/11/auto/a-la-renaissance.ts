@@ -5,7 +5,7 @@ export const a_la_renaissance: SurgicalPlace = {
   slug: "a-la-renaissance",
   name: "A La Renaissance",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["burger"],
   location: {
     address: "87 Rue de la Roquette, 75011 Paris, France",
     arrondissement: 11,

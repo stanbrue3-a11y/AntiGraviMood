@@ -5,7 +5,7 @@ export const rue_forest: SurgicalPlace = {
   slug: "rue-forest",
   name: "Rue Forest",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "Rue Forest, 75018 Paris, France",
     arrondissement: 18,

@@ -5,7 +5,7 @@ export const l_oiseau_blanc: SurgicalPlace = {
   slug: "l-oiseau-blanc",
   name: "L’Oiseau Blanc",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "19 Av. Kléber, 75116 Paris, France",
     arrondissement: 16,

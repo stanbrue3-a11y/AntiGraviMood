@@ -5,7 +5,7 @@ export const sababa_le_gout_de_la_paix: SurgicalPlace = {
   slug: "sababa-le-gout-de-la-paix",
   name: "Sababa - Le goût de la paix",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "14 Ave Parmentier, 75011 Paris, France",
     arrondissement: 11,

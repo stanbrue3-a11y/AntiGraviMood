@@ -5,7 +5,7 @@ export const restaurant_l_oyat: SurgicalPlace = {
   slug: "restaurant-l-oyat",
   name: "Restaurant L’Oyat",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "11 Rue Notre Dame de Nazareth, 75003 Paris, France",
     arrondissement: 3,

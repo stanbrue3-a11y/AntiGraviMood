@@ -5,7 +5,7 @@ export const tang_gourmet: SurgicalPlace = {
   slug: "tang-gourmet",
   name: "Tang Gourmet",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bistrot"],
   location: {
     address: "188 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

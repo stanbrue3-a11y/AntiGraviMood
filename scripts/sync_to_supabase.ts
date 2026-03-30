@@ -82,42 +82,7 @@ async function runShadowSync() {
             const pricing = place.pricing;
 
             // --- Calcul du Plat Médian (Standard Industriel V12.0) ---
-            const calculateMedianDishPrice = (menuItems: any[] | undefined): number | null => {
-                if (!menuItems || menuItems.length === 0) return null;
-
-                let prices: number[] = [];
-                let foundMainDish = false;
-
-                menuItems.forEach(cat => {
-                    if (cat.category_type === 'main') {
-                        cat.items.forEach((item: any) => {
-                            const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-                            if (!isNaN(priceNum) && priceNum >= 7) { 
-                                prices.push(priceNum); 
-                                foundMainDish = true; 
-                            }
-                        });
-                    }
-                });
-
-                if (!foundMainDish || prices.length < 3) {
-                    menuItems.forEach(cat => {
-                        if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
-                            cat.items.forEach((item: any) => {
-                                const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-                                if (!isNaN(priceNum) && priceNum >= 4) { prices.push(priceNum); }
-                            });
-                        }
-                    });
-                }
-
-                if (prices.length === 0) return null;
-                prices.sort((a, b) => a - b);
-                const mid = Math.floor(prices.length / 2);
-                return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
-            };
-
-            const autoDishPrice = pricing.dish_price || calculateMedianDishPrice(pricing.menu_items);
+            const autoDishPrice = pricing.dish_price || PriceEngine.calculateMedianDishPrice(pricing.menu_items);
             const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategory || []);
             const pricingForEngine = { ...pricing, dish_price: autoDishPrice };
             const resolved = PriceEngine.resolveReferencePrice(pricingForEngine as any, drinkType);
@@ -129,7 +94,7 @@ async function runShadowSync() {
                 name: place.name,
                 category: place.category,
                 subcategories: place.subcategory,
-                dominant_mood: place.moods.festif > 70 ? 'festif' : place.moods.culturel > 70 ? 'culturel' : 'chill',
+                dominant_mood: place.moods.festif > place.moods.chill && place.moods.festif > place.moods.culturel ? 'festif' : place.moods.culturel > place.moods.chill && place.moods.culturel > place.moods.festif ? 'culturel' : 'chill',
                 
                 address: place.location.address,
                 arrondissement: place.location.arrondissement,

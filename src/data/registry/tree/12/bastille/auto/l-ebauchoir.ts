@@ -5,7 +5,7 @@ export const l_ebauchoir: SurgicalPlace = {
   slug: "l-ebauchoir",
   name: "L’Ébauchoir",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "43-45 Rue de Cîteaux, 75012 Paris, France",
     arrondissement: 12,

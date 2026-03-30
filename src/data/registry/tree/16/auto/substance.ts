@@ -5,7 +5,7 @@ export const substance: SurgicalPlace = {
   slug: "substance",
   name: "Substance",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["les"],
   location: {
     address: "18 Rue de Chaillot, 75116 Paris, France",
     arrondissement: 16,

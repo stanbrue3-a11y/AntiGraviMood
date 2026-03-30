@@ -5,7 +5,7 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
   slug: "chez-gladines-butte-aux-cailles",
   name: "Chez Gladines Butte aux Cailles",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["basqu"],
   location: {
     address: "30 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,

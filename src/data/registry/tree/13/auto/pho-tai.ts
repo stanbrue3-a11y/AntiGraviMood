@@ -5,7 +5,7 @@ export const pho_tai: SurgicalPlace = {
   slug: "pho-tai",
   name: "Phở Tài",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["vietnamien"],
   location: {
     address: "13 Rue Philibert Lucot, 75013 Paris, France",
     arrondissement: 13,

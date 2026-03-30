@@ -5,7 +5,7 @@ export const anco: SurgicalPlace = {
   slug: "anco",
   name: "ANCO",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["créativ"],
   location: {
     address: "108 Rue de Bercy, 75012 Paris, France",
     arrondissement: 12,

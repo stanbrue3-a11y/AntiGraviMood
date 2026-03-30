@@ -5,7 +5,7 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
   slug: "sacree-fleur-montmartre",
   name: "Sacrée Fleur Montmartre",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["carné"],
   location: {
     address: "50 Rue de Clignancourt, 75018 Paris, France",
     arrondissement: 18,

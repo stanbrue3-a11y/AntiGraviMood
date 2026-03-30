@@ -5,7 +5,7 @@ export const la_felicita: SurgicalPlace = {
   slug: "la-felicita",
   name: "La Felicità",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["italien"],
   location: {
     address: "5 Parv. Alan Turing, 75013 Paris, France",
     arrondissement: 13,

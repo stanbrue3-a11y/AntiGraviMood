@@ -5,7 +5,7 @@ export const pho_banh_cuon_14: SurgicalPlace = {
   slug: "pho-banh-cuon-14",
   name: "Phở Bánh Cuốn 14",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["vietnamien"],
   location: {
     address: "129 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

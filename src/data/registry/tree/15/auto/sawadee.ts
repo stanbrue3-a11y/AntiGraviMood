@@ -5,7 +5,7 @@ export const sawadee: SurgicalPlace = {
   slug: "sawadee",
   name: "Sawadee",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["thaï"],
   location: {
     address: "53 Av. Emile Zola, 75015 Paris, France",
     arrondissement: 15,

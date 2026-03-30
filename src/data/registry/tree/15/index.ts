@@ -1,9 +1,11 @@
 import { afaria } from './auto/afaria';
 import { chakaiseki_akiyoshi } from './auto/chakaiseki-akiyoshi';
 import { guillaume_grasso } from './auto/guillaume-grasso';
+import { l_accolade } from './auto/l-accolade';
 import { l_antre_amis } from './auto/l-antre-amis';
 import { l_os_a_moelle } from './auto/l-os-a-moelle';
 import { la_retraite_du_pere_claude } from './auto/la-retraite-du-pere-claude';
+import { la_veraison } from './auto/la-veraison';
 import { le_belisaire } from './auto/le-belisaire';
 import { le_beurre_noisette } from './auto/le-beurre-noisette';
 import { le_cassenoix } from './auto/le-cassenoix';
@@ -19,9 +21,11 @@ export const arrondissement_15Places = [
     afaria,
     chakaiseki_akiyoshi,
     guillaume_grasso,
+    l_accolade,
     l_antre_amis,
     l_os_a_moelle,
     la_retraite_du_pere_claude,
+    la_veraison,
     le_belisaire,
     le_beurre_noisette,
     le_cassenoix,

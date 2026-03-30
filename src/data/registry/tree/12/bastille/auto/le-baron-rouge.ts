@@ -5,7 +5,7 @@ export const le_baron_rouge: SurgicalPlace = {
   slug: "le-baron-rouge",
   name: "Le Baron Rouge",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["apéro"],
   location: {
     address: "1 Rue Théophile Roussel, 75012 Paris, France",
     arrondissement: 12,

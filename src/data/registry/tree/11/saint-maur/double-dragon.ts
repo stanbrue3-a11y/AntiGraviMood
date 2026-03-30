@@ -5,7 +5,7 @@ export const double_dragon: SurgicalPlace = {
   slug: "double-dragon",
   name: "Double Dragon",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "52 Rue Saint-Maur, 75011 Paris, France",
     arrondissement: 11,

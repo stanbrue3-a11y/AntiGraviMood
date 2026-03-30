@@ -5,7 +5,7 @@ export const restaurant_lao_lane_xang: SurgicalPlace = {
   slug: "restaurant-lao-lane-xang",
   name: "Restaurant Lao Lane Xang",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["laotienn"],
   location: {
     address: "102 Av. d'Ivry, 75013 Paris, France",
     arrondissement: 13,

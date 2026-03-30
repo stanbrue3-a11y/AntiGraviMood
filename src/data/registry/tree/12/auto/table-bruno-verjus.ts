@@ -5,7 +5,7 @@ export const table_bruno_verjus: SurgicalPlace = {
   slug: "table-bruno-verjus",
   name: "Table Bruno Verjus",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["japonais"],
   location: {
     address: "3 R. de Prague, 75012 Paris, France",
     arrondissement: 12,

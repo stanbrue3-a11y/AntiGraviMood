@@ -138,6 +138,45 @@ export class PriceEngine {
     }
 
     /**
+     * Calcule le prix médian du plat (Standard Industriel V12.0)
+     * Single Source of Truth importée par TOUS les scripts de compilation.
+     */
+    static calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
+        if (!menuItems || menuItems.length === 0) return null;
+
+        let prices: number[] = [];
+        let foundMainDish = false;
+
+        menuItems.forEach(cat => {
+            if (cat.category_type === 'main') {
+                (cat.items || []).forEach((item: any) => {
+                    const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
+                    if (!isNaN(priceNum) && priceNum >= 7) { 
+                        prices.push(priceNum); 
+                        foundMainDish = true; 
+                    }
+                });
+            }
+        });
+
+        if (!foundMainDish || prices.length < 3) {
+            menuItems.forEach(cat => {
+                if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
+                    (cat.items || []).forEach((item: any) => {
+                        const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
+                        if (!isNaN(priceNum) && priceNum >= 4) { prices.push(priceNum); }
+                    });
+                }
+            });
+        }
+
+        if (prices.length === 0) return null;
+        prices.sort((a, b) => a - b);
+        const mid = Math.floor(prices.length / 2);
+        return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
+    }
+
+    /**
    * Returns the canonical reference price for a given type.
    * Handles HH weighting (Long HH > 3h = HH price is the reference).
    */

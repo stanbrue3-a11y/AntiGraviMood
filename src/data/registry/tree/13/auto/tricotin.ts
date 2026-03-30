@@ -5,7 +5,7 @@ export const tricotin: SurgicalPlace = {
   slug: "tricotin",
   name: "Tricotin",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["chinois"],
   location: {
     address: "15 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

@@ -5,7 +5,7 @@ export const la_traversee: SurgicalPlace = {
   slug: "la-traversee",
   name: "La Traversée",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "2 Rue Ramey, 75018 Paris, France",
     arrondissement: 18,

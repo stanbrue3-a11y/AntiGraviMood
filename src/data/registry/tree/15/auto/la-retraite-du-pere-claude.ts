@@ -5,7 +5,7 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
   slug: "la-retraite-du-pere-claude",
   name: "La Retraite du Père Claude",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "89 Rue de la Convention, 75015 Paris, France",
     arrondissement: 15,

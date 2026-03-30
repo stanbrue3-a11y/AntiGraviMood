@@ -5,7 +5,7 @@ export const la_mano: SurgicalPlace = {
   slug: "la-mano",
   name: "La Mano",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "10 Rue Papillon, 75009 Paris, France",
     arrondissement: 9,

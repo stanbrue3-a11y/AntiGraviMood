@@ -5,7 +5,7 @@ export const godaille: SurgicalPlace = {
   slug: "godaille",
   name: "Godaille",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["les"],
   location: {
     address: "9 Rue Antoine Vollon, 75012 Paris, France",
     arrondissement: 12,

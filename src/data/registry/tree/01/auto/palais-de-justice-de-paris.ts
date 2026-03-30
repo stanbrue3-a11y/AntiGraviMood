@@ -5,7 +5,7 @@ export const palais_de_justice_de_paris: SurgicalPlace = {
   slug: "palais-de-justice-de-paris",
   name: "Palais de Justice de Paris",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "08 Bd du Palais, 75001 Paris, France",
     arrondissement: 1,

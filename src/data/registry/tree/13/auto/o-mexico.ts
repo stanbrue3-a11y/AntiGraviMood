@@ -5,7 +5,7 @@ export const o_mexico: SurgicalPlace = {
   slug: "o-mexico",
   name: "O’Mexico",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["mexicain"],
   location: {
     address: "20 Rue du Père Guérin, 75013 Paris, France",
     arrondissement: 13,

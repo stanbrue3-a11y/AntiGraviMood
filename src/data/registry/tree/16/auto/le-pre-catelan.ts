@@ -5,7 +5,7 @@ export const le_pre_catelan: SurgicalPlace = {
   slug: "le-pre-catelan",
   name: "Le Pré Catelan",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "Bois de Boulogne, 75016 Paris, France",
     arrondissement: 16,

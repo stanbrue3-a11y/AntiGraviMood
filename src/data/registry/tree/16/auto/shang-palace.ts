@@ -5,7 +5,7 @@ export const shang_palace: SurgicalPlace = {
   slug: "shang-palace",
   name: "Shang Palace",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "10 Av. d'Iéna, 75116 Paris, France",
     arrondissement: 16,

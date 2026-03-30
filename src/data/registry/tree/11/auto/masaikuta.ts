@@ -5,7 +5,7 @@ export const masaikuta: SurgicalPlace = {
   slug: "masaikuta",
   name: "Masaikuta",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "26 bis Rue de la Fontaine au Roi, 75011 Paris, France",
     arrondissement: 11,

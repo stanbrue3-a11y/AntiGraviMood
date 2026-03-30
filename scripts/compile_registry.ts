@@ -114,43 +114,7 @@ function getNormalizedPrice(p: SurgicalPlace, effectivePricing: any): number {
   return PriceEngine.getReferencePrice(effectivePricing, drinkType) || 0;
 }
 
-function calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
-  if (!menuItems || menuItems.length === 0) return null;
-
-  let prices: number[] = [];
-  let foundMainDish = false;
-
-  menuItems.forEach(cat => {
-    if (cat.category_type === 'main') {
-      cat.items.forEach((item: any) => {
-        const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-        // Minimum threshold for a "main" item depends on category, but 7€ is a safe floor
-        if (!isNaN(priceNum) && priceNum >= 7) { 
-          prices.push(priceNum); 
-          foundMainDish = true; 
-        }
-      });
-    }
-  });
-
-  if (!foundMainDish || prices.length < 3) {
-    menuItems.forEach(cat => {
-      if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
-        cat.items.forEach((item: any) => {
-          const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-          if (!isNaN(priceNum) && priceNum >= 4) { 
-            prices.push(priceNum); 
-          }
-        });
-      }
-    });
-  }
-
-  if (prices.length === 0) return null;
-  prices.sort((a, b) => a - b);
-  const mid = Math.floor(prices.length / 2);
-  return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
-}
+// calculateMedianDishPrice importé depuis PriceEngine
 
 function processImagesForDB(images: any) {
   if (!images) return null;
@@ -171,7 +135,7 @@ allPlaces.forEach((p, index) => {
     errorCount++;
     return;
   }
-  const medianDishPrice = calculateMedianDishPrice(p.pricing?.menu_items);
+  const medianDishPrice = PriceEngine.calculateMedianDishPrice(p.pricing?.menu_items);
   const finalDishPrice = p.pricing?.force_manual_dish_price ? p.pricing.dish_price : (medianDishPrice ?? p.pricing?.dish_price);
   const effectivePricing = { ...p.pricing, dish_price: finalDishPrice };
 

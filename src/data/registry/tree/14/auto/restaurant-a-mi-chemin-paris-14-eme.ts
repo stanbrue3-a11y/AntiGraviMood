@@ -5,7 +5,7 @@ export const restaurant_a_mi_chemin_paris_14_eme: SurgicalPlace = {
   slug: "restaurant-a-mi-chemin-paris-14-eme",
   name: "restaurant A MI-CHEMIN Paris 14 ème",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "31 Rue Boulard, 75014 Paris, France",
     arrondissement: 14,

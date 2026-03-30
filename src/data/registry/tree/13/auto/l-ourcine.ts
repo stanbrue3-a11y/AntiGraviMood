@@ -5,7 +5,7 @@ export const l_ourcine: SurgicalPlace = {
   slug: "l-ourcine",
   name: "L’Ourcine",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "92 Rue Broca, 75013 Paris, France",
     arrondissement: 13,

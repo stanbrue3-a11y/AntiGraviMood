@@ -5,7 +5,7 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
   slug: "chez-gino-pizza-feu-de-bois",
   name: "Chez Gino Pizza Feu de Bois",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["italien"],
   location: {
     address: "80 Rue Dunois, 75013 Paris, France",
     arrondissement: 13,

@@ -5,7 +5,7 @@ export const tempero_epicerie: SurgicalPlace = {
   slug: "tempero-epicerie",
   name: "TEMPERO EPICERIE",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "24 Prom. Claude Lévi-Strauss, 75013 Paris, France",
     arrondissement: 13,

@@ -5,7 +5,7 @@ export const hawai: SurgicalPlace = {
   slug: "hawai",
   name: "Hawai",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["traiteur"],
   location: {
     address: "87 Av. d'Ivry, 75013 Paris, France",
     arrondissement: 13,

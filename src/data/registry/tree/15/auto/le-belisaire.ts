@@ -5,7 +5,7 @@ export const le_belisaire: SurgicalPlace = {
   slug: "le-belisaire",
   name: "Le Bélisaire",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bistronomi"],
   location: {
     address: "2 Rue Marmontel, 75015 Paris, France",
     arrondissement: 15,

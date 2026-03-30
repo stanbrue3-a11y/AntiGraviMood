@@ -5,7 +5,7 @@ export const blanc: SurgicalPlace = {
   slug: "blanc",
   name: "Blanc",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "52 Rue de Longchamp, 75116 Paris, France",
     arrondissement: 16,

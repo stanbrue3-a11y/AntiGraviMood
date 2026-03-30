@@ -5,7 +5,7 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
   slug: "les-provinces-d-a-cote",
   name: "Les Provinces d’à coté",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["japonais"],
   location: {
     address: "20 Rue d'Aligre, 75012 Paris, France",
     arrondissement: 12,

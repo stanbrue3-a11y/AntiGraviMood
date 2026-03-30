@@ -5,7 +5,7 @@ export const sinorama: SurgicalPlace = {
   slug: "sinorama",
   name: "Sinorama 大家樂",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cantonais"],
   location: {
     address: "23 Rue du Dr Magnan, 75013 Paris, France",
     arrondissement: 13,

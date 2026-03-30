@@ -5,7 +5,7 @@ export const le_poisson_d_aligre: SurgicalPlace = {
   slug: "le-poisson-d-aligre",
   name: "Le poisson d’Aligre",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["poisson"],
   location: {
     address: "Marché Beauvau, Pl. d'Aligre, 75012 Paris, France",
     arrondissement: 12,

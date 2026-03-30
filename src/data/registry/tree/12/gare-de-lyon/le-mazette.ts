@@ -5,7 +5,7 @@ export const le_mazette: SurgicalPlace = {
   slug: "le-mazette",
   name: "Le Mazette",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["vib"],
   location: {
     address: "69 Port de la Rapée, 75012 Paris, France",
     arrondissement: 12,

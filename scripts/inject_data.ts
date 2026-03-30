@@ -37,29 +37,31 @@ async function injectData() {
 
     console.log(`📍 ${report.length} lieux à injecter.`);
 
-    for (const place of report) {
-        // Nettoyage de l'objet pour l'injection
-        const payload = { ...place };
+    // 🚀 L'hyper-drive (Upsert en chunk de 100 au lieu de ligne par ligne)
+    const BATCH_SIZE = 100;
+    for (let i = 0; i < report.length; i += BATCH_SIZE) {
+        let batch = report.slice(i, i + BATCH_SIZE);
         
-        // Tentative d'injection standard
         let { error } = await supabase
             .from('places')
-            .upsert(payload, { onConflict: 'slug' });
+            .upsert(batch, { onConflict: 'slug' });
 
-        // Si erreur spécifique sur une colonne manquante (ex: michelin_stars)
+        // Fallback si la base de données distante n'est pas à jour
         if (error && error.message.includes('michelin_stars')) {
-            console.warn(`   ⚠️ Supabase : Colonne 'michelin_stars' manquante. Tentative sans cette colonne...`);
-            delete (payload as any).michelin_stars;
-            const retry = await supabase
-                .from('places')
-                .upsert(payload, { onConflict: 'slug' });
+            console.warn(`   ⚠️ Supabase : Colonne 'michelin_stars' manquante. Retrait pour le lot en cours...`);
+            batch = batch.map((p: any) => {
+                const copy = { ...p };
+                delete copy.michelin_stars;
+                return copy;
+            });
+            const retry = await supabase.from('places').upsert(batch, { onConflict: 'slug' });
             error = retry.error;
         }
 
         if (error) {
-            console.error(`   ❌ Error injecting ${place.slug}:`, error.message);
+            console.error(`   ❌ Erreur fatale sur le lot [${i} -> ${i + batch.length}] :`, error.message);
         } else {
-            console.log(`   ✅ ${place.slug} injecté.`);
+            console.log(`   🚀✅ Lot injecté : ${batch.length} lieux en un seul appel réseau !`);
         }
     }
 

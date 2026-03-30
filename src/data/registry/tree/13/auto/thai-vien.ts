@@ -5,7 +5,7 @@ export const thai_vien: SurgicalPlace = {
   slug: "thai-vien",
   name: "Thaï-Vien",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "56 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

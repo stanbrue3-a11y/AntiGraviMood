@@ -5,7 +5,7 @@ export const lao_viet: SurgicalPlace = {
   slug: "lao-viet",
   name: "Lao Viet",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["lao"],
   location: {
     address: "24 Bd Masséna, 75013 Paris, France",
     arrondissement: 13,

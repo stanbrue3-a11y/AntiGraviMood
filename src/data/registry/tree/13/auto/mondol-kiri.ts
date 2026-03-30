@@ -5,7 +5,7 @@ export const mondol_kiri: SurgicalPlace = {
   slug: "mondol-kiri",
   name: "Mondol Kiri",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cambodgienn"],
   location: {
     address: "159 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,

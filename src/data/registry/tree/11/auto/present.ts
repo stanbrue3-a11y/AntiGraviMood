@@ -5,7 +5,7 @@ export const present: SurgicalPlace = {
   slug: "present",
   name: "Présent",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["les"],
   location: {
     address: "13bis Ave Parmentier, 75011 Paris, France",
     arrondissement: 11,

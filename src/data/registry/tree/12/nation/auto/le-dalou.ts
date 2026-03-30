@@ -5,7 +5,7 @@ export const le_dalou: SurgicalPlace = {
   slug: "le-dalou",
   name: "Le Dalou",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["brasseri"],
   location: {
     address: "30 Pl. de la Nation, 75012 Paris, France",
     arrondissement: 12,

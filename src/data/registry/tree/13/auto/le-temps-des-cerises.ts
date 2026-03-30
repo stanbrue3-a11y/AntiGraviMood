@@ -5,7 +5,7 @@ export const le_temps_des_cerises: SurgicalPlace = {
   slug: "le-temps-des-cerises",
   name: "Le Temps des Cerises",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "18-20 Rue de la Butte aux Cailles, 75013 Paris, France",
     arrondissement: 13,

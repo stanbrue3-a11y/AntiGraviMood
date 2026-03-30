@@ -5,7 +5,7 @@ export const centre_broca_fcps_irest_universite_paris_1_pantheon_sorbonne: Surgi
   slug: "centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne",
   name: "Centre Broca (FCPS & IREST) - Université Paris 1 Panthéon-Sorbonne",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "21 Rue Broca, 75005 Paris, France",
     arrondissement: 5,

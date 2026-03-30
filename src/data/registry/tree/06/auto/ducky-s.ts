@@ -5,7 +5,7 @@ export const ducky_s: SurgicalPlace = {
   slug: "ducky-s",
   name: "Ducky’s",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["street"],
   location: {
     address: "157 Bd du Montparnasse, 75006 Paris, France",
     arrondissement: 6,

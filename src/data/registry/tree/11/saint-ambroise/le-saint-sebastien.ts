@@ -5,7 +5,7 @@ export const le_saint_sebastien: SurgicalPlace = {
   slug: "le-saint-sebastien",
   name: "Le Saint Sébastien",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "42 Rue Saint-Sébastien, 75011 Paris, France",
     arrondissement: 11,

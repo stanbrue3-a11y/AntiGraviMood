@@ -5,7 +5,7 @@ export const le_bonheur_de_cardinet: SurgicalPlace = {
   slug: "le-bonheur-de-cardinet",
   name: "Le bonheur de Cardinet",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "138 Rue Cardinet, 75017 Paris, France",
     arrondissement: 17,

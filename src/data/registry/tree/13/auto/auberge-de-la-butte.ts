@@ -5,7 +5,7 @@ export const auberge_de_la_butte: SurgicalPlace = {
   slug: "auberge-de-la-butte",
   name: "Auberge de la Butte",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["pizzas"],
   location: {
     address: "8 Rue de la Butte aux Cailles, 75013 Paris, France",
     arrondissement: 13,

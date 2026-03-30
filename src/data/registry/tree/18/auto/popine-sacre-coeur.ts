@@ -5,7 +5,7 @@ export const popine_sacre_coeur: SurgicalPlace = {
   slug: "popine-sacre-coeur",
   name: "Popine Sacré Coeur",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["pizzas"],
   location: {
     address: "10 Rue Dancourt, 75018 Paris, France",
     arrondissement: 18,

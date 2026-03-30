@@ -5,7 +5,7 @@ export const bellefeuille: SurgicalPlace = {
   slug: "bellefeuille",
   name: "Bellefeuille",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["araigné"],
   location: {
     address: "5 Pl. du Chancelier Adenauer, 75116 Paris, France",
     arrondissement: 16,

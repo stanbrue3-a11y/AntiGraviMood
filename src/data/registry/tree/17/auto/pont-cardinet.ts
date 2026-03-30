@@ -5,7 +5,7 @@ export const pont_cardinet: SurgicalPlace = {
   slug: "pont-cardinet",
   name: "Pont Cardinet",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "Rue Cardinet, 75017 Paris, France",
     arrondissement: 17,

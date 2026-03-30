@@ -35,6 +35,34 @@ async function main() {
         if (!placeId) {
             console.log(`🚀 RECHERCHE CHIRURGICALE (v2.1) : "${query}"`);
             console.log('='.repeat(60));
+
+            // --- BOUCLIER PRÉ-REQUÊTE 0.00$ (Anti-Doublon par Nom) ---
+            const querySlug = query.split(',')[0].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+            const registryRoot = path.join(__dirname, '../src/data/registry/tree');
+            
+            function findFileBySlug(dir: string, slugToFind: string): string | null {
+                if (!fs.existsSync(dir)) return null;
+                for (const item of fs.readdirSync(dir)) {
+                    const fullP = path.join(dir, item);
+                    if (fs.statSync(fullP).isDirectory()) {
+                        const found = findFileBySlug(fullP, slugToFind);
+                        if (found) return found;
+                    } else if (item === `${slugToFind}.ts` || item === `${slugToFind}.tsx`) {
+                        return fullP;
+                    }
+                }
+                return null;
+            }
+
+            const existingPreFetch = findFileBySlug(registryRoot, querySlug);
+            if (existingPreFetch && !isForced) {
+                console.warn(`🛡️  BOUCLIER PRÉ-REQUÊTE ACTIVÉ : Vous avez économisé 0.02 $.`);
+                console.error(`🛑 Ce lieu ("${querySlug}") semble déjà exister ici :`);
+                console.error(`   👉 ${existingPreFetch}`);
+                console.error('   Utilisez --force pour ignorer, ou utilisez son ID directement.');
+                process.exit(1);
+            }
+
             console.warn('💡 INFO FACTURATION : Cette recherche va consommer ~0.02$ (Text Search + Details).');
 
             // 1. FIND PLACE (Get Place ID and Basic Geometry)
@@ -66,7 +94,6 @@ async function main() {
                 return null;
             };
 
-            const registryRoot = path.join(__dirname, '../src/data/registry/tree');
             const duplicateFile = duplicateCheck(registryRoot);
             
             if (duplicateFile && !isForced) {

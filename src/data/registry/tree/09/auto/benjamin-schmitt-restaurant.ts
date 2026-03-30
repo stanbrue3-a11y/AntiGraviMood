@@ -5,7 +5,7 @@ export const benjamin_schmitt_restaurant: SurgicalPlace = {
   slug: "benjamin-schmitt-restaurant",
   name: "Benjamin Schmitt Restaurant",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "41 Rue Catherine de la Rochefoucauld, 75009 Paris, France",
     arrondissement: 9,

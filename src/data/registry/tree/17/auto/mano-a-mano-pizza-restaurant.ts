@@ -5,7 +5,7 @@ export const mano_a_mano_pizza_restaurant: SurgicalPlace = {
   slug: "mano-a-mano-pizza-restaurant",
   name: "Mano a Mano Pizza Restaurant",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "8 Rue Jouffroy d'Abbans, 75017 Paris, France",
     arrondissement: 17,

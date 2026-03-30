@@ -5,7 +5,7 @@ export const bambini_paris: SurgicalPlace = {
   slug: "bambini-paris",
   name: "Bambini Paris",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["cuisin"],
   location: {
     address: "Palais De Tokyo, 13 Av. du Président Wilson, 75116 Paris, France",
     arrondissement: 16,

@@ -5,7 +5,7 @@ export const le_cassenoix: SurgicalPlace = {
   slug: "le-cassenoix",
   name: "Le CasseNoix",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["bar à vin"],
   location: {
     address: "56bis Rue de la Fédération, 75015 Paris, France",
     arrondissement: 15,

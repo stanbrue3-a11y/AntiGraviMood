@@ -5,7 +5,7 @@ export const virtus: SurgicalPlace = {
   slug: "virtus",
   name: "Restaurant Virtus",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["gastronomi"],
   location: {
     address: "29 Rue de Cotte, 75012 Paris, France",
     arrondissement: 12,

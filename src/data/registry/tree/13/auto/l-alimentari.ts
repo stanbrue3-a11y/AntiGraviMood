@@ -5,7 +5,7 @@ export const l_alimentari: SurgicalPlace = {
   slug: "l-alimentari",
   name: "L’Alimentari",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["italien"],
   location: {
     address: "6 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,

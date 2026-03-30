@@ -5,7 +5,7 @@ export const le_train_bleu: SurgicalPlace = {
   slug: "le-train-bleu",
   name: "Le Train Bleu",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["gastronomi"],
   location: {
     address: "Gare de Lyon, Pl. Louis Armand hall 1, 75012 Paris, France",
     arrondissement: 12,

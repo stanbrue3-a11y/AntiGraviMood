@@ -5,7 +5,7 @@ export const khao_thai: SurgicalPlace = {
   slug: "khao-thai",
   name: "Khao Thaï",
   category: "restaurant",
-  subcategory: [],
+  subcategory: ["thaï"],
   location: {
     address: "10 Rue des Gobelins, 75013 Paris, France",
     arrondissement: 13,
