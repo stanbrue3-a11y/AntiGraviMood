@@ -4,7 +4,7 @@ export const moonshiner: SurgicalPlace = {
     id: "poi-moonshiner",
     name: "Moonshiner",
     slug: "moonshiner",
-    category: "bar",
+    category: "restaurant",
     subcategory: ['français'],
     location: {
         address: "5 Rue Sedaine",

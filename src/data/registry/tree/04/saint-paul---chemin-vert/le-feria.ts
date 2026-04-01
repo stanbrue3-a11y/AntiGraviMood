@@ -4,7 +4,7 @@ export const le_feria: SurgicalPlace = {
     id: "poi-le-feria",
     name: "Féria Café",
     slug: "le-feria",
-    category: "bar", // Categorized as Bar so PriceEngine prioritizes the pint
+    category: "restaurant", // Categorized as Bar so PriceEngine prioritizes the pint
     subcategory: ['français'],
     location: {
         address: "4 Rue du Bourg Tibourg",

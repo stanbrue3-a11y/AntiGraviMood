@@ -26,7 +26,7 @@ export const l_attirail_cafe: SurgicalPlace = {
     "practical": {
         "reservation_policy": "sans_resa",
         "accessibility": false,
-        "wifi": true, // VERIFIED: TimeToBar listing mentions WiFi
+        "wifi_gratuit": true, // VERIFIED: TimeToBar listing mentions WiFi
         "terrace": true, // VERIFIED: Multiple sources (Mapstr, PetitFuté, Google reviews)
         "opening_hours_raw": "Lundi-Dimanche: 15h00 - 02h00", // VERIFIED: Google Maps API (weekday_text)
         "action_type": "site",

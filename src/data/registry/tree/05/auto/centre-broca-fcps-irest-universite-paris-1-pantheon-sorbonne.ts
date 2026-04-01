@@ -53,7 +53,10 @@ export const centre_broca_fcps_irest_universite_paris_1_pantheon_sorbonne: Surgi
   },
   images: {
     hero: "REF_MISSING",
-    gallery: []
+    gallery: [
+      "REF_MISSING",
+      "REF_MISSING"
+    ]
   },
   verified: false,
   google_rating: 3.5

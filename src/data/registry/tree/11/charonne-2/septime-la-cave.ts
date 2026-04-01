@@ -4,7 +4,7 @@ export const septimeLaCave: SurgicalPlace = {
     id: "poi-septime-la-cave",
     name: "Septime La Cave",
     slug: "septime-la-cave",
-    category: "bar",
+    category: "restaurant",
     subcategory: ['français'],
     location: {
         address: "3 Rue Basfroi, 75011 Paris",

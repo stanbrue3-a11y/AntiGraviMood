@@ -4,7 +4,7 @@ export const bambino: SurgicalPlace = {
     id: "poi-bambino",
     name: "Bambino",
     slug: "bambino",
-    category: "bar",
+    category: "restaurant",
     subcategory: ['français', 'pizzeria'],
     location: {
         address: "25 Rue de la Folie Méricourt",
