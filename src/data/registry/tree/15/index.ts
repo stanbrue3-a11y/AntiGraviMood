@@ -24,7 +24,6 @@ import { sharma_ji } from './auto/sharma-ji';
 import { stephane_martin } from './auto/stephane-martin';
 import { alkaram } from './proximite/alkaram';
 import { l_intrigue } from './proximite/l-intrigue';
-import { musee_bourdelle } from './proximite/musee-bourdelle';
 import { le_baribal } from './vaugirard/le-baribal';
 
 export const arrondissement_15Places = [
@@ -54,6 +53,5 @@ export const arrondissement_15Places = [
     stephane_martin,
     alkaram,
     l_intrigue,
-    musee_bourdelle,
     le_baribal
 ];

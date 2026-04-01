@@ -38,7 +38,7 @@ export const zhao_opera: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "Entrées & Raviolis (Jiaozi)",
+        display_label: "Entrées",
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
@@ -53,7 +53,7 @@ export const zhao_opera: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo’s)",
+        display_label: "Plats",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -63,7 +63,7 @@ export const zhao_opera: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Les Plats (Biang Biang)",
+        display_label: "Plats",
         items: [
           { name: "Biang Biang au Bœuf mijoté", price_cents: 1280, description: "Nouilles larges maison, épices" },
           { name: "Biang Biang au Porc haché", price_cents: 1150 },
@@ -74,7 +74,7 @@ export const zhao_opera: SurgicalPlace = {
       },
       {
         category_type: "dessert",
-        display_label: "Desserts & Douceurs Maison",
+        display_label: "Desserts",
         items: [
           { name: "Mochi glacé (2)", price_cents: 450 },
           { name: "Perles de coco", price_cents: 480 },

@@ -42,7 +42,6 @@ import { imprevu } from './proximite/imprevu';
 import { lassiette } from './proximite/lassiette';
 import { le_cornichon } from './proximite/le-cornichon';
 import { opportun } from './proximite/opportun';
-import { parc_montsouris } from './proximite/parc-montsouris';
 import { pavillon_montsouris } from './proximite/pavillon-montsouris';
 import { petitsPlats } from './proximite/petits-plats';
 import { severo } from './proximite/severo';
@@ -99,7 +98,6 @@ export const arrondissement_14Places = [
     lassiette,
     le_cornichon,
     opportun,
-    parc_montsouris,
     pavillon_montsouris,
     petitsPlats,
     severo,

@@ -11,8 +11,6 @@ import { pink_mamma } from './auto/pink-mamma';
 import { richer } from './auto/richer';
 import { le_carmen } from './pigalle/le-carmen';
 import { la_mano } from './proximite/la-mano';
-import { musee_gustave_moreau } from './proximite/musee-gustave-moreau';
-import { musee_vie_romantique } from './proximite/musee-vie-romantique';
 
 export const arrondissement_9Places = [
     benjamin_schmitt_restaurant,
@@ -27,7 +25,5 @@ export const arrondissement_9Places = [
     pink_mamma,
     richer,
     le_carmen,
-    la_mano,
-    musee_gustave_moreau,
-    musee_vie_romantique
+    la_mano
 ];

@@ -50,7 +50,7 @@ export const kubri: SurgicalPlace = {
             },
             {
                 category_type: "other",
-                display_label: "Dips & Petits Mezze",
+                display_label: "Entrées",
                 items: [
                     { name: "Kubri Hummus (zaatar, dukka)", price_cents: 900 },
                     { name: "Baba Ghanouj fumé, salsa de noix", price_cents: 1100 },
@@ -60,7 +60,7 @@ export const kubri: SurgicalPlace = {
             },
             {
                 category_type: "sharing",
-                display_label: "Mezze (à partager)",
+                display_label: "À Partager",
                 items: [
                     // VERIFIED: Plats 9-16€
                     { name: "Halloumi Kataif Rolls, miel pimenté", price_cents: 1300, description: "Le plat signature absolu." },
@@ -72,7 +72,7 @@ export const kubri: SurgicalPlace = {
             },
             {
                 category_type: "main",
-                display_label: "Tabak & Sofra (Plats principaux)",
+                display_label: "Plats",
                 items: [
                     // VERIFIED: Plats 25-26€ (jusqu'à la côte de bœuf)
                     { name: "Lala Roasted Chicken (toum, labneh citron noir)", price_cents: 2500 },
@@ -83,7 +83,7 @@ export const kubri: SurgicalPlace = {
             },
             {
                 category_type: "dessert",
-                display_label: "Desserts (Helo)",
+                display_label: "Desserts",
                 items: [
                     { name: "Nammoura Amande-Citron", price_cents: 900 },
                     { name: "Halwa Glacé (amande, pistache, chocolat noir)", price_cents: 900 },

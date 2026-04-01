@@ -22,9 +22,7 @@ import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
 import { bulot_bulot } from './martyrs/bulot-bulot';
 import { la_marmite } from './pigalle/la-marmite';
 import { maison_pinsa_montmartre } from './pigalle/maison-pinsa-montmartre';
-import { halle_saint_pierre } from './proximite/halle-saint-pierre';
 import { la_station } from './proximite/la-station';
-import { musee_de_montmartre } from './proximite/musee-de-montmartre';
 import { pizza_del_mondo } from './proximite/pizza-del-mondo';
 
 export const arrondissement_18Places = [
@@ -52,8 +50,6 @@ export const arrondissement_18Places = [
     bulot_bulot,
     la_marmite,
     maison_pinsa_montmartre,
-    halle_saint_pierre,
     la_station,
-    musee_de_montmartre,
     pizza_del_mondo
 ];

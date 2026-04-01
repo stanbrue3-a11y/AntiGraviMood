@@ -38,7 +38,7 @@ export const zhao_bastille: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "Entrées & Raviolis (Jiaozi)",
+        display_label: "Entrées",
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
@@ -53,7 +53,7 @@ export const zhao_bastille: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo’s)",
+        display_label: "Plats",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -63,7 +63,7 @@ export const zhao_bastille: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Les Plats (Biang Biang)",
+        display_label: "Plats",
         items: [
           { name: "Biang Biang au Bœuf mijoté", price_cents: 1280, description: "Nouilles larges maison, épices" },
           { name: "Biang Biang au Porc haché", price_cents: 1150 },
@@ -74,7 +74,7 @@ export const zhao_bastille: SurgicalPlace = {
       },
       {
         category_type: "dessert",
-        display_label: "Desserts & Douceurs Maison",
+        display_label: "Desserts",
         items: [
           { name: "Mochi glacé (2)", price_cents: 450 },
           { name: "Perles de coco", price_cents: 480 },
@@ -84,9 +84,11 @@ export const zhao_bastille: SurgicalPlace = {
   },
   description: "En plein cœur de la rue de la Roquette, cette taverne capte toute l’énergie électrique du quartier. Plus vibrante que ses sœurs, elle est le point de ralliement des amateurs de saveurs percutantes. Les Biang Biang y sont servies avec un rythme effréné dans un décor urbain qui colle à l'esprit nocturne de Bastille.",
   insider_tip: "• C’est l’adresse idéale pour un repas rapide avant de sortir dans les bars de la Roquette.\n• Les tables sont plus serrées ici, ce qui renforce l’ambiance conviviale et dynamique du lieu.\n• Demandez les Biang Biang Poulet croustillant, c’est le ’comfort food' par excellence pour affronter la nuit parisienne.",
+  expert_catchline: "Xi’an à Bastille : nouilles Biang Biang et Rou Jia Mo. Street food épicée et moderne !",
   specials: {
     cuisine: ["Chinoise", "Xi’an", "Nouilles"],
-    must_eat: "Cuisine chinoise. Biang Biang Poulet & Mo Bœuf",
+    drinks: ["Thés chinois", "Bières artisanales"],
+    must_eat: "Cuisine Chinoise (Xi’an). Nouilles Biang Biang et Rou Jia Mo. Un voyage épicé et authentique sur la Route de la Soie.",
   },
   images: {
     hero: "AU_ZVEE_DAg6LufPHUinB9iD0CRwn-KIDT9uTjrFPppuBpswgW0sdLCriYjmfAVN6XbvAy3oT7-R3iCd5ro2YyXaSDyI3fpxnGbXQUTyCUg4eGQqMUmw7VUysJKq6i0-XQO4Gc4KBUQ776m7sGUSLRi-ybnnwfZcqL7RI2bUAmHwrWS42XUh3slOLWu_utOkfXE1Z3pKuaX63mBtz9Z3Ey1_vDXubLHlMUDGWe2OPJlMYeaUxQ6RP34y0GSv7tWJYbkpLoOnzM4MFJFGfe6YA2FRXm8Sl-8DUiL9pYp8sh3wHTy0PQ",

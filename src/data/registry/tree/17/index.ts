@@ -19,9 +19,6 @@ import { l_entredgeu } from './laugier/l-entredgeu';
 import { le_p_tit_canon } from './legendre/le-p-tit-canon';
 import { bloom_cafe } from './proximite/bloom-cafe';
 import { dose_batignolles } from './proximite/dose-batignolles';
-import { le_bal_paris } from './proximite/le-bal-paris';
-import { parc_martin_luther_king } from './proximite/parc-martin-luther-king';
-import { square_des_batignolles } from './proximite/square-des-batignolles';
 import { terres_de_cafe_batignolles } from './proximite/terres-de-cafe-batignolles';
 
 export const arrondissement_17Places = [
@@ -46,8 +43,5 @@ export const arrondissement_17Places = [
     le_p_tit_canon,
     bloom_cafe,
     dose_batignolles,
-    le_bal_paris,
-    parc_martin_luther_king,
-    square_des_batignolles,
     terres_de_cafe_batignolles
 ];

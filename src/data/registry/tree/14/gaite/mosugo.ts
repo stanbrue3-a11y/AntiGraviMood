@@ -75,7 +75,7 @@ export const mosugo: SurgicalPlace = {
             },
             {
                 category_type: "dessert",
-                display_label: "Desserts & Douceurs Maison",
+                display_label: "Desserts",
                 items: [
                     { name: "Mobroockie (Chocolat Tanzanie & Miso caramel)", price_cents: 550 },
                     { name: "Pavlova de Saison (Kiwi & Yaourt grec)", price_cents: 600 },

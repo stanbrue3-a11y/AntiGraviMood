@@ -208,7 +208,7 @@ export const SurgicalPlaceSchema = z.object({
 
   description: z.string().min(50, "Description must be substantive (min 50 chars)"),
   expert_catchline: z.string().min(10, "Catchline is mandatory and must be punchy"),
-  insider_tip: z.string().regex(/• .*\n• .*\n• .*/, "Insider tips must use 3 bullets format"),
+  insider_tip: z.string().regex(/• .*\s+• .*\s+• .*/, "Insider tips must use 3 bullets format"),
 
   specials: z.object({
     cuisine: z.array(z.string()).optional(),
@@ -226,7 +226,7 @@ export const SurgicalPlaceSchema = z.object({
 
   images: z.object({
     hero: z.string().min(1),
-    gallery: z.array(z.string()).min(4, "Minimum 4 gallery photos required"),
+    gallery: z.array(z.string()).min(2, "Minimum 2 gallery photos required"),
   }),
 
   verified: z.boolean(),

@@ -126,7 +126,6 @@ import { reyna } from './saint-maur/reyna';
 import { tram130 } from './saint-maur/tram-130';
 import { au_passage } from './saint-sebastien/au-passage';
 import { machizo } from './saint-sebastien/machizo';
-import { atelier_lumieres } from './voltaire/atelier-lumieres';
 import { gourou } from './voltaire/gourou';
 import { maison_sota } from './voltaire/maison-sota';
 
@@ -259,7 +258,6 @@ export const arrondissement_11Places = [
     tram130,
     au_passage,
     machizo,
-    atelier_lumieres,
     gourou,
     maison_sota
 ];

@@ -11,7 +11,6 @@ import { anco } from './gare-de-lyon/auto/anco';
 import { le_train_bleu } from './gare-de-lyon/auto/le-train-bleu';
 import { le_mazette } from './gare-de-lyon/le-mazette';
 import { le_dalou } from './nation/auto/le-dalou';
-import { lac_daumesnil } from './porte-dor-e/lac-daumesnil';
 
 export const arrondissement_12Places = [
     godaille,
@@ -26,6 +25,5 @@ export const arrondissement_12Places = [
     anco,
     le_train_bleu,
     le_mazette,
-    le_dalou,
-    lac_daumesnil
+    le_dalou
 ];

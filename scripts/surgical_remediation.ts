@@ -53,12 +53,24 @@ async function remediateFile(filePath: string) {
     return `subcategory: [${[...new Set(fixedTags)].join(', ')}]`;
   });
 
-  // 3. MENU CATEGORY TYPE INJECTION (The Substance Bridge) 🥩
-  content = content.replace(/\{(\s+)items:\s*\[/g, (match, space) => {
-    // Check if category_type already exists
-    if (match.includes('category_type')) return match;
-    return `{${space}category_type: "main",\n${space}display_label: "Plats",\n${space}items: [`;
+  // 3. MENU CATEGORY NORMALIZATION (The Label Guard) 🏷️
+  const LABEL_MAP: Record<string, string> = {
+    'Entrées & Raviolis (Jiaozi)': 'Entrées',
+    'Burgers Chinois (Mo’s)': 'Plats',
+    'Les Plats (Biang Biang)': 'Plats',
+    'Desserts & Douceurs Maison': 'Desserts',
+    'Dips & Petits Mezze': 'Entrées',
+    'Mezze (à partager)': 'À Partager',
+    'Tabak & Sofra (Plats principaux)': 'Plats',
+    'Desserts (Helo)': 'Desserts'
+  };
+
+  content = content.replace(/display_label:\s*["']([^"']+)["']/g, (match, label) => {
+    if (LABEL_MAP[label]) return `display_label: "${LABEL_MAP[label]}"`;
+    return match;
   });
+
+  // 4. MENU CATEGORY TYPE INJECTION (The Substance Bridge) 🥩
 
   // 4. PRICE STRING TO CENTS COERCION (The Value Vault) 💸
   content = content.replace(/price:\s*["'](\d+)[€,]*(\d+)?["']/g, (match, euro, cents) => {
@@ -75,7 +87,12 @@ async function remediateFile(filePath: string) {
   }
 
   // 6. CATEGORY ENFORCEMENT (The Restaurant Purge) 🛑
-  if (content.includes("category: 'museum'") || content.includes("category: 'parc'") || content.includes("category: 'monument'")) {
+  const nonRestaurants = ['museum', 'parc', 'monument', 'exhibition', 'culture'];
+  const hasNonRestaurantCategory = nonRestaurants.some(cat => 
+    new RegExp(`["']?category["']?:\\s*["']${cat}["']`, 'i').test(content)
+  );
+
+  if (hasNonRestaurantCategory) {
       const fileName = path.basename(filePath);
       const archiveDir = path.join(__dirname, '../src/data/registry/archived_non_restaurants');
       if (!fs.existsSync(archiveDir)) fs.mkdirSync(archiveDir, { recursive: true });
