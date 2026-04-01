@@ -5,7 +5,7 @@ export const chanceux: SurgicalPlace = {
     name: "Chanceux",
     slug: "chanceux",
     category: "restaurant",
-    subcategory: ["bistronomie", "tapas", "brunch", "restaurant"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "57 Rue Saint-Maur",
         arrondissement: 11,
@@ -42,7 +42,7 @@ export const chanceux: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "Petit-Déjeuner & Espresso Bar (jusqu'à 12h)",
+                display_label: "Petit-Déjeuner & Espresso Bar (jusqu’à 12h)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
                     { name: "Tartine baguette fraîche, beurre et confiture maison", price_cents: 500 },
@@ -67,7 +67,7 @@ export const chanceux: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Déjeuner (12h - 15h) : Les Entrées",
                 items: [
-                    { name: "Œuf dur, mayonnaise à l'estragon", price_cents: 700 },
+                    { name: "Œuf dur, mayonnaise à l’estragon", price_cents: 700 },
                     { name: "Truite gravlax maison, aneth, crème crue", price_cents: 700 },
                     { name: "Terrine de cochon noir de Bigorre, pickles maison", price_cents: 800 }
                 ]
@@ -78,7 +78,7 @@ export const chanceux: SurgicalPlace = {
                 items: [
                     { name: "Bun jambon ou Bun tuna mix", price_cents: 1200 },
                     { name: "Mushroom melt (pain rye, champignons rôtis, gorgonzola)", price_cents: 1400 },
-                    { name: "Pickled beef (pain rye, pastrami, fromage suisse, moutarde miel)", price_cents: 1500, description: "L'arme de destruction massive du midi." }
+                    { name: "Pickled beef (pain rye, pastrami, fromage suisse, moutarde miel)", price_cents: 1500, description: "L’arme de destruction massive du midi." }
                 ]
             },
             {
@@ -87,8 +87,8 @@ export const chanceux: SurgicalPlace = {
                 items: [
                     { name: "Couscous bowl (panisse, légumes rôtis/crus, tzatziki)", price_cents: 1700 },
                     { name: "Risotto potimarron, roquette, tuile parmesan sauge", price_cents: 1700 },
-                    { name: "Épaule d'agneau confite, purée, jus d'agneau", price_cents: 1750 },
-                    { name: "Ragoût de confit de canard, tagliatelles, jaune d'œuf", price_cents: 1850 }
+                    { name: "Épaule d’agneau confite, purée, jus d'agneau", price_cents: 1750 },
+                    { name: "Ragoût de confit de canard, tagliatelles, jaune d’œuf", price_cents: 1850 }
                 ]
             },
             {
@@ -99,7 +99,7 @@ export const chanceux: SurgicalPlace = {
                     { name: "Falafels maison au labneh", price_cents: 1700 },
                     { name: "Saucisse, crème champignons, purée beurre salé, pickles", price_cents: 1800 },
                     { name: "Crumble aux fruits de saison, flocons sarrasin", price_cents: 700 },
-                    { name: "Mont d'Or chaud à partager", price_cents: 4400, description: "L'option conviviale gourmande des soirs froids." }
+                    { name: "Mont d’Or chaud à partager", price_cents: 4400, description: "L’option conviviale gourmande des soirs froids." }
                 ]
             },
             {
@@ -121,13 +121,13 @@ export const chanceux: SurgicalPlace = {
     instagram_handle: "chanceux.paris",
     verified: true,
     google_rating: 4.6,
-    description: "Une petite merveille de quartier hybride sur la rue Saint-Maur : épicerie, coffee shop le matin (merveilleux granola), cantine bistronomique le midi (avec ses fameux melts) et bar à tapas à prix doux en fin de semaine. La comfort food est ici élevée au rang d'art du quotidien.",
-    insider_tip: "• Les horaires sont trompeurs : Chanceux est un vrai coffee-shop diurne du lundi au mercredi et ne devient un restaurant du soir qu'à partir du jeudi.\n• Leurs sandwichs chauds (\"Melt\") du midi avec un croisement de fromages fondants et pastrami sont d'authentiques tueries.\n• Excellente alternative pour le petit-déjeuner ou le télétravail léger grâce au WiFi gratuit le matin.",
-    expert_catchline: "Superbe adresse hybride diurne/nocturne misant sur une comfort-food ultra généreuse. L'âme du 11ème.",
+    description: "Une petite merveille de quartier hybride sur la rue Saint-Maur : épicerie, coffee shop le matin (merveilleux granola), cantine bistronomique le midi (avec ses fameux melts) et bar à tapas à prix doux en fin de semaine. La comfort food est ici élevée au rang d’art du quotidien.",
+    insider_tip: "• Les horaires sont trompeurs : Chanceux est un vrai coffee-shop diurne du lundi au mercredi et ne devient un restaurant du soir qu’à partir du jeudi.\n• Leurs sandwichs chauds (\"Melt\") du midi avec un croisement de fromages fondants et pastrami sont d’authentiques tueries.\n• Excellente alternative pour le petit-déjeuner ou le télétravail léger grâce au WiFi gratuit le matin.",
+    expert_catchline: "Superbe adresse hybride diurne/nocturne misant sur une comfort-food ultra généreuse. L’âme du 11ème.",
     specials: {
-        cuisine: ["Le Pickled Beef sandwich (Pastrami)", "Mont d'Or chaud à partager", "Ragoût de canard"],
+        cuisine: ["Le Pickled Beef sandwich (Pastrami)", "Mont d’Or chaud à partager", "Ragoût de canard"],
         drinks: ["Café de spécialité le matin", "Vins natures le soir"],
         must_eat: "Le Pickled Beef le midi : du gros pastrami relevé par un fromage suisse texturé dans un pain rye hyper moelleux.",
-        must_drink: "Un flat white exécuté dans les règles de l'art le matin, pour démarrer du bon pied."
+        must_drink: "Un flat white exécuté dans les règles de l’art le matin, pour démarrer du bon pied."
     }
 };

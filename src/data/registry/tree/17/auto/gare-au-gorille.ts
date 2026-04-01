@@ -5,7 +5,7 @@ export const gare_au_gorille: SurgicalPlace = {
   slug: "gare-au-gorille",
   name: "Gare au Gorille",
   category: "restaurant",
-  subcategory: ["Bistronomique", "Cuisine française", "Cave à vins"],
+  subcategory: ['français'],
   location: {
     address: "68 Rue des Dames, 75017 Paris, France",
     arrondissement: 17,
@@ -46,7 +46,7 @@ export const gare_au_gorille: SurgicalPlace = {
           { name: "Tataki de bonite, soja et gingembre", price_cents: 1400 },
           { name: "Terrine de campagne maison", price_cents: 1100 },
           { name: "Croquettes de cochon, crème gribiche", price_cents: 1000 },
-          { name: "Asperges vertes, œuf parfait et crème d'ail", price_cents: 1500 }
+          { name: "Asperges vertes, œuf parfait et crème d’ail", price_cents: 1500 }
         ]
       },
       {
@@ -57,7 +57,7 @@ export const gare_au_gorille: SurgicalPlace = {
           { name: "Cabillaud nacré, petits pois et menthe", price_cents: 2600 },
           { name: "Risnotto de petit épeautre, champignons de Paris", price_cents: 2200 },
           { name: "Pigeon rôti, betteraves et jus corsé", price_cents: 3200 },
-          { name: "Épaule d'agneau confite, purée de panais", price_cents: 2900 }
+          { name: "Épaule d’agneau confite, purée de panais", price_cents: 2900 }
         ]
       },
       {
@@ -84,13 +84,13 @@ export const gare_au_gorille: SurgicalPlace = {
       }
     ]
   },
-  description: `À deux pas de la place de Clichy, Gare au Gorille s'est imposé comme l'un des fleurons de la bistronomie parisienne. Dans une ancienne forge aux murs de briques et charpentes métalliques, on déguste une cuisine d'auteur brute et précise. Les assiettes, souvent à partager ou non, célèbrent le produit local avec un penchant assumé pour les vins propres.`,
+  description: `À deux pas de la place de Clichy, Gare au Gorille s’est imposé comme l’un des fleurons de la bistronomie parisienne. Dans une ancienne forge aux murs de briques et charpentes métalliques, on déguste une cuisine d'auteur brute et précise. Les assiettes, souvent à partager ou non, célèbrent le produit local avec un penchant assumé pour les vins propres.`,
   insider_tip: `• **Timing Stratégique** : Arrivez tôt le soir pour profiter du calme avant le rush des habitués du quartier.
   • **Combo Moelle** : Ne passez pas à côté des croquettes de cochon, véritables signatures de la maison.
-  • **Côté Verre** : Laissez-vous guider par les recommandations de l'équipe pour découvrir des vignerons natures confidentiels.`,
-  expert_catchline: "L'excellence de la bistronomie brute dans un décor industriel.",
+  • **Côté Verre** : Laissez-vous guider par les recommandations de l’équipe pour découvrir des vignerons natures confidentiels.`,
+  expert_catchline: "L’excellence de la bistronomie brute dans un décor industriel.",
   specials: {
-    cuisine: ["Bistrot d'auteur"],
+    cuisine: ["Bistrot d’auteur"],
     drinks: ["Vins Natures"],
     must_eat: "Cuisine de bistrot. La longe de veau rôtie et artichauts barigoule.",
   },

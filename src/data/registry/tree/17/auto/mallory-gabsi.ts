@@ -5,7 +5,7 @@ export const mallory_gabsi: SurgicalPlace = {
   slug: "mallory-gabsi",
   name: "Mallory Gabsi",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Moderne", "Créatif"],
+  subcategory: ['français'],
   location: {
     address: "28 Rue des Acacias, 75017 Paris, France",
     arrondissement: 17,
@@ -65,9 +65,9 @@ export const mallory_gabsi: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats",
         items: [
-          { name: "Rouget de Roche grillé au foin, jus d'arêtes", price_cents: 6000 },
+          { name: "Rouget de Roche grillé au foin, jus d’arêtes", price_cents: 6000 },
           { name: "Canard / Betteraves / Haricot Noir et épices", price_cents: 7000 },
-          { name: "Saint-Jacques à la truffe noire d'hiver", price_cents: 5500 },
+          { name: "Saint-Jacques à la truffe noire d’hiver", price_cents: 5500 },
           { name: "Pigeon de Vendée, laqué au miel de fleurs", price_cents: 6500 },
           { name: "Filet de Bœuf Wagyu grillé, jus corsé", price_cents: 8500 }
         ]
@@ -86,9 +86,9 @@ export const mallory_gabsi: SurgicalPlace = {
   },
   description: `Mallory Gabsi propose une expérience gastronomique instinctive et poétique au cœur du 17e. Récipiendaire d'une étoile Michelin à seulement 26 ans, le jeune prodige belge déploie une cuisine spectaculaire où le terroir français rencontre des influences contemporaines audacieuses. Le cadre, intimiste et tamisé, sert de théâtre à des assiettes graphiques aux saveurs tranchées.`,
   insider_tip: `• **Plat Signature** : La langoustine au foin, une claque olfactive et gustative qui a fait la renommée du chef.
-  • **Timing** : Le menu déjeuner à 75€ est l'une des meilleures portes d'entrée au monde de la haute gastronomie étoilée à Paris.
-  • **Vibe** : C'est le lieu idéal pour une célébration intime ; le service est d'une précision chirurgicale sans être guindé.`,
-  expert_catchline: "L'étoffe d'un futur géant : Mallory Gabsi réinvente les codes de la gastronomie parisienne.",
+  • **Timing** : Le menu déjeuner à 75€ est l’une des meilleures portes d'entrée au monde de la haute gastronomie étoilée à Paris.
+  • **Vibe** : C’est le lieu idéal pour une célébration intime ; le service est d'une précision chirurgicale sans être guindé.`,
+  expert_catchline: "L’étoffe d'un futur géant : Mallory Gabsi réinvente les codes de la gastronomie parisienne.",
   specials: {
     cuisine: ["Gastronomique"],
     drinks: ["Accords Mets & Vins", "Sins Alcool Premium"],

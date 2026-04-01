@@ -5,7 +5,7 @@ export const anco: SurgicalPlace = {
   slug: "anco",
   name: "ANCO",
   category: "restaurant",
-  subcategory: ["créativ"],
+  subcategory: ['français'],
   location: {
     address: "108 Rue de Bercy, 75012 Paris, France",
     arrondissement: 12,
@@ -57,7 +57,7 @@ export const anco: SurgicalPlace = {
         display_label: "Plats de Signature (La Terre & Mer)",
         items: [
           { name: "Quasi de Veau, purée onctueuse, jus corsé", price_cents: 2600, is_highlight: true },
-          { name: "Maigre de Ligne, risotto d'épeautre", price_cents: 2800 },
+          { name: "Maigre de Ligne, risotto d’épeautre", price_cents: 2800 },
           { name: "Risotto de saison aux Truffes Noires", price_cents: 2400, is_highlight: true },
           { name: "Filet de Boeuf Simmental, frites maison", price_cents: 3200 },
           { name: "Cabillaud à la vapeur douce, légumes racines", price_cents: 2700 },
@@ -72,7 +72,7 @@ export const anco: SurgicalPlace = {
         items: [
           { name: "Frites Maison coupées au couteau", price_cents: 600 },
           { name: "Purée de Pommes de Terre au beurre", price_cents: 550 },
-          { name: "Légumes verts sautés à l'ail", price_cents: 650 },
+          { name: "Légumes verts sautés à l’ail", price_cents: 650 },
           { name: "Salade de mesclun, vinaigrette miel", price_cents: 500 }
         ]
       },
@@ -90,7 +90,7 @@ export const anco: SurgicalPlace = {
       },
       {
         category_type: "drink",
-        display_label: "La Cave de l'Anco (Boissons)",
+        display_label: "La Cave de l’Anco (Boissons)",
         items: [
           { name: "Verre de Côtes du Rhône", price_cents: 700 },
           { name: "Verre de Bourgogne Blanc", price_cents: 850 },
@@ -102,14 +102,14 @@ export const anco: SurgicalPlace = {
       }
     ]
   },
-  description: "Anco est une adresse audacieuse nichée entre Bercy et la Gare de Lyon, offrant un cadre industriel et chaleureux. Le chef y propose une cuisine bistronomique de saison, précise et créative, où les produits du terroir sont sublimés par des techniques modernes. Avec sa cuisine ouverte et sa sélection de vins pointue, c'est l'endroit idéal pour un dîner élégant avant un spectacle à l'Accor Arena ou pour un déjeuner d'affaires raffiné.",
+  description: "Anco est une adresse audacieuse nichée entre Bercy et la Gare de Lyon, offrant un cadre industriel et chaleureux. Le chef y propose une cuisine bistronomique de saison, précise et créative, où les produits du terroir sont sublimés par des techniques modernes. Avec sa cuisine ouverte et sa sélection de vins pointue, c’est l’endroit idéal pour un dîner élégant avant un spectacle à l’Accor Arena ou pour un déjeuner d'affaires raffiné.",
   insider_tip: `• **Avant-Concert** : Sa localisation en fait le spot parfait pour dîner tôt avant un événement à Bercy, pensez à réserver.
   • **Le Risotto** : Le risotto d'épeautre est une merveille de texture, souvent revisité selon les saisons.
-  • **Vins Nature** : N'hésitez pas à solliciter l'équipe pour découvrir leurs dernières pépites en vins natures et biodynamiques.`,
+  • **Vins Nature** : N’hésitez pas à solliciter l'équipe pour découvrir leurs dernières pépites en vins natures et biodynamiques.`,
   specials: {
     cuisine: ["Bistronomique", "Française Modernisée"],
     drinks: ["Vins Natures", "Cave de Propriétaires"],
-    must_eat: "Cuisine Créative. Ceviche de Maigre & Risotto d'Épeautre",
+    must_eat: "Cuisine Créative. Ceviche de Maigre & Risotto d’Épeautre",
   },
   images: {
     hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",

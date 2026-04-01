@@ -5,7 +5,7 @@ export const l_accolade: SurgicalPlace = {
   slug: "l-accolade",
   name: "L’Accolade",
   category: "restaurant",
-  subcategory: ["bistronomie", "français"],
+  subcategory: ['bistronomie', 'français'],
   location: {
     address: "208 Rue de la Croix Nivert, 75015 Paris, France",
     arrondissement: 15,
@@ -45,7 +45,7 @@ export const l_accolade: SurgicalPlace = {
           { name: "Menu Dégustation", price_cents: 6500, description: "Amuse-bouches, 2 entrées, 2 plats, 2 desserts. Changement selon les saisons.", is_highlight: true },
           { name: "Menu Midi (Entrée + Plat ou Plat + Dessert)", price_cents: 2800 },
           { name: "Menu Midi Complet", price_cents: 3500 },
-          { name: "L'Accord Mets & Vins (Menu Dégustation)", price_cents: 4500 }
+          { name: "L’Accord Mets & Vins (Menu Dégustation)", price_cents: 4500 }
         ]
       },
       {
@@ -76,7 +76,7 @@ export const l_accolade: SurgicalPlace = {
       },
       {
         category_type: "sharing",
-        display_label: "L'Assiette de Fromages",
+        display_label: "L’Assiette de Fromages",
         items: [
           { name: "Assortiment de Fromages Affinés", price_cents: 1400, description: "Sélection du marché, confiture de cerise noire" },
           { name: "Demi Saint-Nectaire Fermier", price_cents: 900 }
@@ -109,11 +109,11 @@ export const l_accolade: SurgicalPlace = {
       }
     ]
   },
-  description: `À un jet de pierre de la rue du Commerce se cache L’Accolade, une pépite bistronomique de quartier pilotée par le chef Nicolas Tardivel (ancien prof de sport reconverti). Dans une salle minimaliste et chaleureuse, le ton est donné : menu resserré, produits ultra-frais sourcés à Rungis et carte qui valse au rythme des saisons. Sans frou-frou mais avec une précision chirurgicale, les assiettes racontent l'amour du terroir français bousculé par de discrètes fulgurances (ail noir, yuzu, miso). Une adresse intimiste que les habitants du 15ème se murmurent à l'oreille.`,
+  description: `À un jet de pierre de la rue du Commerce se cache L’Accolade, une pépite bistronomique de quartier pilotée par le chef Nicolas Tardivel (ancien prof de sport reconverti). Dans une salle minimaliste et chaleureuse, le ton est donné : menu resserré, produits ultra-frais sourcés à Rungis et carte qui valse au rythme des saisons. Sans frou-frou mais avec une précision chirurgicale, les assiettes racontent l’amour du terroir français bousculé par de discrètes fulgurances (ail noir, yuzu, miso). Une adresse intimiste que les habitants du 15ème se murmurent à l'oreille.`,
   expert_catchline: `Bistronomie chirurgicale et poitrine de porc de légende.`,
   insider_tip: `• **Le Menu Dégustation** : C’est la véritable arme secrète du lieu (65€ pour un voyage en 6 temps), à préciser lors de la résa.
   • **Le Must-Have** : Demandez s'il reste du mille-feuille en arrivant, il part extrêmement vite.
-  • **La Table Stratégique** : Le petit coin banquette au fond pour fuir l'agitation de la Croix-Nivert.`,
+  • **La Table Stratégique** : Le petit coin banquette au fond pour fuir l’agitation de la Croix-Nivert.`,
   specials: {
     cuisine: ["Bistronomie Française"],
     must_eat: `Bistronomie de haut vol. Poitrine de porc confite 12h & Mille-feuille croquant.`

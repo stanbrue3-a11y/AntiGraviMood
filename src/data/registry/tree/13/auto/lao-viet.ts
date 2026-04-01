@@ -5,7 +5,7 @@ export const lao_viet: SurgicalPlace = {
   slug: "lao-viet",
   name: "Lao Viet",
   category: "restaurant",
-  subcategory: ["lao"],
+  subcategory: ['français'],
   location: {
     address: "24 Bd Masséna, 75013 Paris, France",
     arrondissement: 13,
@@ -101,7 +101,7 @@ export const lao_viet: SurgicalPlace = {
       }
     ]
   },
-  description: "Lao Viet est une perle discrète située sur le Boulevard Masséna, offrant un voyage culinaire aux confins du Laos et du Vietnam. Ce restaurant familial se distingue par la finesse de ses épices et l'authenticité de ses recettes, notamment le Nem Lao (riz croustillant) qui est considéré comme l'un des meilleurs de Paris. L'accueil est chaleureux, presque comme à la maison, et la cuisine, généreuse et parfumée, séduit aussi bien les néophytes que les fins connaisseurs des saveurs d'Asie du Sud-Est.",
+  description: "Lao Viet est une perle discrète située sur le Boulevard Masséna, offrant un voyage culinaire aux confins du Laos et du Vietnam. Ce restaurant familial se distingue par la finesse de ses épices et l’authenticité de ses recettes, notamment le Nem Lao (riz croustillant) qui est considéré comme l’un des meilleurs de Paris. L’accueil est chaleureux, presque comme à la maison, et la cuisine, généreuse et parfumée, séduit aussi bien les néophytes que les fins connaisseurs des saveurs d'Asie du Sud-Est.",
   insider_tip: `• **Le Rite du Nem Lao** : Ne le mangez pas seul, c'est un plat de partage. Mélangez bien le riz croustillant avec la menthe et les herbes fraîches fournies pour un équilibre parfait.
   • **Spécialité Rare** : Le Mok Pa (poisson cuit en papillote de feuille de bananier) est une rareté laotienne qui demande une maîtrise parfaite de la vapeur et des herbes aromatiques.
   • **Le Secret des Habitués** : La formule midi à 12€ est un secret jalousement gardé par les travailleurs du quartier. Arrivez tôt, le restaurant se remplit vite de locaux.`,

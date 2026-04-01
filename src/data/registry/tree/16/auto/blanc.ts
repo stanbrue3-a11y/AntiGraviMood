@@ -5,7 +5,7 @@ export const blanc: SurgicalPlace = {
   slug: "blanc",
   name: "Blanc",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "52 Rue de Longchamp, 75116 Paris, France",
     arrondissement: 16,
@@ -43,7 +43,7 @@ export const blanc: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Menus Dégustation",
         items: [
-          { name: "Le Menu Blanc", price_cents: 36000, description: "L'expérience signature complète de Shinichi Sato", is_highlight: true },
+          { name: "Le Menu Blanc", price_cents: 36000, description: "L’expérience signature complète de Shinichi Sato", is_highlight: true },
           { name: "Menu Perle", price_cents: 29000 },
           { name: "Table du Chef", price_cents: 45000, description: "Face aux cuisines, menu exclusif" },
           { name: "Menu Déjeuner", price_cents: 18000, description: "Uniquement servi le midi" }
@@ -55,7 +55,7 @@ export const blanc: SurgicalPlace = {
         items: [
           { name: "Beurre aux Algues & Pain Maison", price_cents: 0, description: "Le prélude iconique" },
           { name: "Asperge Blanche & Caviar", price_cents: 0, description: "Pureté et iode" },
-          { name: "Ormeaux de l'Île de Groix", price_cents: 0, description: "Cuisson lente, condiment ail noir" },
+          { name: "Ormeaux de l’Île de Groix", price_cents: 0, description: "Cuisson lente, condiment ail noir" },
           { name: "Turbot de Ligne", price_cents: 0, description: "Nacre parfaite, émulsion de coquillages" },
           { name: "Bœuf de Galice au Charbon", price_cents: 0, description: "Accompagné de cecina, une intensité rare", is_highlight: true },
           { name: "Côte de Veau de Lait", price_cents: 0, description: "Au Château-Chalon, morilles étuvées" },
@@ -76,12 +76,12 @@ export const blanc: SurgicalPlace = {
         category_type: "other",
         display_label: "La Sélection Sommelier",
         items: [
-          { name: "Accord Mets & Vins 'Découverte'", price_cents: 15000 },
+          { name: "Accord Mets & Vins ’Découverte'", price_cents: 15000 },
           { name: "Coupe de Champagne Blanc de Blancs", price_cents: 3500 },
           { name: "Bouteille de Meursault (Sélection)", price_cents: 16000 },
           { name: "Bouteille de Gevrey-Chambertin", price_cents: 22000 },
-          { name: "Thé Vert Gyokuro 'Prestige'", price_cents: 1800 },
-          { name: "Eau Filtrée 'Blanc'", price_cents: 800 },
+          { name: "Thé Vert Gyokuro ’Prestige'", price_cents: 1800 },
+          { name: "Eau Filtrée ’Blanc'", price_cents: 800 },
           { name: "Expresso Pur Origine", price_cents: 1200 }
         ]
       }
@@ -90,8 +90,8 @@ export const blanc: SurgicalPlace = {
   description: `Blanc est le sanctuaire gastronomique du chef japonais Shinichi Sato. Dans un décor épuré et minimaliste, le chef (ancien double étoilé du Passage 53) repousse les limites de la précision. Chaque plat est une leçon de pureté, privilégiant le produit brut sublimé par une technique franco-japonaise sans faille. Une expérience zen, silencieuse et intensément mémorable.`,
   expert_catchline: `La perfection japonaise au service de la grande tradition française.`,
   insider_tip: `• **Le Bœuf de Galice** : C'est le plat signature absolu de Sato, la cuisson au charbon de bois atteint ici un niveau de maîtrise inégalé.
-  • **Discrétion Automnale** : Le décor est très sobre, presque clinique, pour ne laisser place qu'à l'assiette. Idéal pour les puristes du goût.
-  • **Réservation** : Les places sont rares et la Table du Chef est très demandée, réservez plusieurs semaines à l'avance.`,
+  • **Discrétion Automnale** : Le décor est très sobre, presque clinique, pour ne laisser place qu’à l'assiette. Idéal pour les puristes du goût.
+  • **Réservation** : Les places sont rares et la Table du Chef est très demandée, réservez plusieurs semaines à l’avance.`,
   specials: {
     cuisine: ["Français", "Japonais"],
     drinks: ["Vin", "Sake"],
@@ -105,9 +105,9 @@ export const blanc: SurgicalPlace = {
   google_rating: 4.5,
   michelin_stars: 2,
   real_talk: {
-    text: "Chez Blanc, on ne discute pas, on contemple. Shinichi Sato est un obsédé du détail. Tout est immaculé, du décor à la nacre du turbot. C'est l'un des rares lieux où le silence fait partie du menu.",
+    text: "Chez Blanc, on ne discute pas, on contemple. Shinichi Sato est un obsédé du détail. Tout est immaculé, du décor à la nacre du turbot. C’est l'un des rares lieux où le silence fait partie du menu.",
     must_eat: "Bœuf de Galice au Charbon",
-    le_secret: "La cave de sakés incroyables qui changent la vision qu'on peut avoir des accords de gastronomie française.",
+    le_secret: "La cave de sakés incroyables qui changent la vision qu’on peut avoir des accords de gastronomie française.",
     le_son: "Le silence, ponctuel, majestueux.",
     le_must: "Pour les puristes qui considèrent la gastronomie comme un art sacré."
   }

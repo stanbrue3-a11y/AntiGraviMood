@@ -38,8 +38,8 @@ export const aux_folies: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Ancienne guinguette puis cabaret où Édith Piaf et Maurice Chevalier ont fait leurs débuts, Aux Folies est l'épicentre social de Belleville. Sa terrasse tentaculaire, qui déborde sur la rue Denoyez et ses graffitis, est un spectacle permanent. C'est un lieu de mixité totale où se côtoient habitués kabyles, étudiants fauchés et bobos inspirés. L'enseigne au néon rouge brille comme un phare dans la nuit parisienne. On y boit son café à 1,60€ au soleil ou sa bière à 4€ dans le brouhaha, savourant l'un des derniers bastions du Paris populaire et insoumis.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Ancienne guinguette puis cabaret où Édith Piaf et Maurice Chevalier ont fait leurs débuts, Aux Folies est l’épicentre social de Belleville. Sa terrasse tentaculaire, qui déborde sur la rue Denoyez et ses graffitis, est un spectacle permanent. C’est un lieu de mixité totale où se côtoient habitués kabyles, étudiants fauchés et bobos inspirés. L’enseigne au néon rouge brille comme un phare dans la nuit parisienne. On y boit son café à 1,60€ au soleil ou sa bière à 4€ dans le brouhaha, savourant l'un des derniers bastions du Paris populaire et insoumis.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

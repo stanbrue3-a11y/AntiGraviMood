@@ -5,7 +5,7 @@ export const augustin: SurgicalPlace = {
     name: "Augustin",
     slug: "augustin-bistrot-14",
     category: "restaurant",
-    subcategory: ["bistronomique", "français", "moderne", "produits de saison", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "79 Rue Daguerre, 75014 Paris",
         arrondissement: 14,
@@ -45,7 +45,7 @@ export const augustin: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Entrées (Sourcing Direct)",
                 items: [
-                    { name: "Terrine de lapin de chez 'Pépé', compotée d'oignons rouges", price_cents: 1400 },
+                    { name: "Terrine de lapin de chez ’Pépé’, compotée d’oignons rouges", price_cents: 1400 },
                     { name: "Tartare de dorade royale aux agrumes & aneth", price_cents: 1400 },
                     { name: "Six escargots de Bourgogne au beurre persillé Maison", price_cents: 1400 },
                     { name: "Velouté de châtaignes, éclats de noisettes, croûtons", price_cents: 1400 },
@@ -81,7 +81,7 @@ export const augustin: SurgicalPlace = {
                 items: [
                     { name: "Vacherin glacé aux framboises fraîches", price_cents: 1200 },
                     { name: "Moelleux au chocolat Guanaja, glace vanille", price_cents: 1400 },
-                    { name: "Authentique Baba au rhum 'Augustin'", price_cents: 1200 },
+                    { name: "Authentique Baba au rhum ’Augustin'", price_cents: 1200 },
                     { name: "Riz au lait grand-mère au caramel beurre salé", price_cents: 1200 },
                     { name: "Ile flottante à la fève tonka", price_cents: 1000 }
                 ]
@@ -97,9 +97,9 @@ export const augustin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Augustin est le joyau chic du quartier Daguerre. Sous la houlette du chef Vincent Deyres, ce bistrot réinvente les codes de la gastronomie française avec une modernité rafraîchissante. Le décor est feutré, l'accueil soigné, et chaque assiette est un tableau où le produit noble est roi. C'est l'adresse idéale pour un dîner intimiste ou un déjeuner d'affaires au calme, loin du tumulte des grandes brasseries montparnassiennes.",
-    insider_tip: "Le menu à 42€ est d'un équilibre remarquable, laissez-vous guider par les suggestions du chef qui changent tous les mois. La purée à la truffe qui accompagne le cochon est une expérience en soi.",
-    expert_catchline: "La bistronomie d'exception du quartier Daguerre : raffinement, saisonnalité et justesse.",
+    description: "Augustin est le joyau chic du quartier Daguerre. Sous la houlette du chef Vincent Deyres, ce bistrot réinvente les codes de la gastronomie française avec une modernité rafraîchissante. Le décor est feutré, l’accueil soigné, et chaque assiette est un tableau où le produit noble est roi. C’est l’adresse idéale pour un dîner intimiste ou un déjeuner d'affaires au calme, loin du tumulte des grandes brasseries montparnassiennes.",
+    insider_tip: "Le menu à 42€ est d’un équilibre remarquable, laissez-vous guider par les suggestions du chef qui changent tous les mois. La purée à la truffe qui accompagne le cochon est une expérience en soi.",
+    expert_catchline: "La bistronomie d’exception du quartier Daguerre : raffinement, saisonnalité et justesse.",
     specials: {
         cuisine: ["Bistronomie", "Cuisine de Saison", "Sourcing direct"],
         drinks: ["Cave à vins pointue", "Champagnes de niche"],

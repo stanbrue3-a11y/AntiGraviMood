@@ -5,7 +5,7 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
   slug: "chez-gladines-butte-aux-cailles",
   name: "Chez Gladines Butte aux Cailles",
   category: "restaurant",
-  subcategory: ["basqu"],
+  subcategory: ['français'],
   location: {
     address: "30 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,
@@ -58,7 +58,7 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
         display_label: "Entrées & Charcuteries Basques",
         items: [
           { name: "Assiette Mixte (Charcuterie & Fromage)", price_cents: 1850, is_highlight: true },
-          { name: "Pâté Basque au Piment d'Espelette", price_cents: 700 },
+          { name: "Pâté Basque au Piment d’Espelette", price_cents: 700 },
           { name: "Jambon de Pays (Assiette)", price_cents: 700 },
           { name: "Escargots à la Cassolette Basque (x12)", price_cents: 1050, is_highlight: true },
           { name: "Escargots au Roquefort (x12)", price_cents: 1100 },
@@ -76,7 +76,7 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
           { name: "Pipérade au Jambon Poêlé", price_cents: 1300 },
           { name: "Chipirons à la Biscaïna", price_cents: 1190 },
           { name: "Omelette Basque (Piments/Tomates)", price_cents: 1050 },
-          { name: "Bavette à l'Échalote & Frites", price_cents: 1650 },
+          { name: "Bavette à l’Échalote & Frites", price_cents: 1650 },
           { name: "Andouillette AAAAA grillée", price_cents: 1550 }
         ]
       },
@@ -85,7 +85,7 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
         display_label: "Fromages & Douceurs",
         items: [
           { name: "Gâteau Basque à la Cerise Noire", price_cents: 750, is_highlight: true },
-          { name: "Brebis & Confiture d'Itxassou", price_cents: 850 },
+          { name: "Brebis & Confiture d’Itxassou", price_cents: 850 },
           { name: "Crème Brûlée Maison", price_cents: 650 },
           { name: "Mousse au Chocolat (Grand Bol)", price_cents: 600 },
           { name: "Profiteroles Maison (x3)", price_cents: 850 }
@@ -99,13 +99,13 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
           { name: "Pinte de Bière Pression", price_cents: 750 },
           { name: "Cidre Basque Artisanal (75cl)", price_cents: 1400 },
           { name: "Apéritif Patxaran", price_cents: 650 },
-          { name: "Verre d'Irouléguy", price_cents: 700 }
+          { name: "Verre d’Irouléguy", price_cents: 700 }
         ]
       }
     ]
   },
-  description: "Chez Gladines est l'institution indétrônable de la Butte-aux-Cailles, célèbre pour ses salades servies dans des saladiers géants et son ambiance survoltée de tablée basque. Ici, la convivialité prime sur le calme, les nappes à carreaux voient défiler des portions gargantuesques d'axoa ou d'escalope montagnarde. C'est l'adresse idéale pour un festin entre amis où l'on finit inévitablement par discuter avec ses voisins de table, un pichet de rouge à la main.",
-  insider_tip: "• **Le Défi Salade** : La '5 Diamants' est un défi physique. Ne prévoyez rien d'intense après ce repas.\n• **No Resa** : Préparez-vous à attendre sur le trottoir le week-end, l'ambiance commence déjà là.\n• **Le Must-Eat** : L'escalope montagnarde avec son fromage fondu et son jambon est un monument local.",
+  description: "Chez Gladines est l’institution indétrônable de la Butte-aux-Cailles, célèbre pour ses salades servies dans des saladiers géants et son ambiance survoltée de tablée basque. Ici, la convivialité prime sur le calme, les nappes à carreaux voient défiler des portions gargantuesques d’axoa ou d’escalope montagnarde. C’est l’adresse idéale pour un festin entre amis où l'on finit inévitablement par discuter avec ses voisins de table, un pichet de rouge à la main.",
+  insider_tip: "• **Le Défi Salade** : La ’5 Diamants’ est un défi physique. Ne prévoyez rien d’intense après ce repas.\n• **No Resa** : Préparez-vous à attendre sur le trottoir le week-end, l’ambiance commence déjà là.\n• **Le Must-Eat** : L’escalope montagnarde avec son fromage fondu et son jambon est un monument local.",
   specials: {
     cuisine: ["Sud-Ouest", "Basque"],
     drinks: ["Vin en pichet", "Cidre", "Patxaran"],

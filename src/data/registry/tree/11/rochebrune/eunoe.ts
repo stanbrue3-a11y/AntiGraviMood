@@ -5,7 +5,7 @@ export const eunoe: SurgicalPlace = {
     name: "Eunoé",
     slug: "eunoe",
     category: "restaurant",
-    subcategory: ["bistronomique", "francais", "japonais", "restaurant"],
+    subcategory: ['français', 'japonais'],
     location: {
         address: "6 Rue Rochebrune",
         arrondissement: 11,
@@ -56,7 +56,7 @@ export const eunoe: SurgicalPlace = {
                 display_label: "Dîner - Entrées",
                 items: [
                     { name: "Gravelax de dorade", price_cents: 1500, description: "Vinaigrette au fruit de la passion et herbes fraîches" },
-                    { name: "Courgette violon cuite et crue", price_cents: 1400, description: "Condiments à l'aubergine brûlée et piperade" },
+                    { name: "Courgette violon cuite et crue", price_cents: 1400, description: "Condiments à l’aubergine brûlée et piperade" },
                     { name: "Tataki de bœuf de Salers", price_cents: 1600, description: "Sauce ponzu, pickles de légumes de saison" },
                     { name: "Poireaux vinaigrette revisités", price_cents: 1300, description: "Émulsion sésame, noisettes torréfiées" }
                 ]
@@ -67,7 +67,7 @@ export const eunoe: SurgicalPlace = {
                 items: [
                     { name: "Rumsteck de bœuf au barbecue", price_cents: 2800, description: "Jus corsé, pommes de terre grenailles et légumes" },
                     { name: "Bar de ligne au charbon", price_cents: 3700, description: "Bisque de homard, émulsion iodée et légumes de saison" },
-                    { name: "Agneau confit", price_cents: 3200, description: "Risotto d'épeautre, jus réduit aux herbes" },
+                    { name: "Agneau confit", price_cents: 3200, description: "Risotto d’épeautre, jus réduit aux herbes" },
                     { name: "Risotto végétarien de saison", price_cents: 2500, description: "Légumes racines glacés, parmesan affiné" }
                 ]
             },
@@ -91,13 +91,13 @@ export const eunoe: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Un brillant néo-bistrot impulsé par le chef Ryuji Sato et le sommelier Félix Perrotte. La philosophie d'Eunoé repose sur des produits bruts français twistés par une technique japonaise irreprochable, notamment des cuissons parfaites au barbecue binchotan. Le menu du midi (26€ complet) est un petit miracle, tandis que le soir se révèle plus audacieux.",
-    insider_tip: "• Le rapport qualité-prix de la formule déjeuner à 26€ est l'un des meilleurs du quartier, foncez.\n• Le soir, la cuisson au barbecue binchotan est reine : le Bar de ligne ou le Rumsteck sont souvent impressionnants.\n• Laissez le sommelier Félix Perrotte vous guider les yeux fermés sur la carte des vins.",
+    description: "Un brillant néo-bistrot impulsé par le chef Ryuji Sato et le sommelier Félix Perrotte. La philosophie d’Eunoé repose sur des produits bruts français twistés par une technique japonaise irreprochable, notamment des cuissons parfaites au barbecue binchotan. Le menu du midi (26€ complet) est un petit miracle, tandis que le soir se révèle plus audacieux.",
+    insider_tip: "• Le rapport qualité-prix de la formule déjeuner à 26€ est l’un des meilleurs du quartier, foncez.\n• Le soir, la cuisson au barbecue binchotan est reine : le Bar de ligne ou le Rumsteck sont souvent impressionnants.\n• Laissez le sommelier Félix Perrotte vous guider les yeux fermés sur la carte des vins.",
     expert_catchline: "Néo-bistrot franco-japonais où les produits bruts français rencontrent la précision du barbecue binchotan.",
     specials: {
         cuisine: ["Cuisson au Binchotan", "Gravelax de dorade", "Rumsteck de Salers", "Pêche pochée à la verveine"],
         drinks: ["Sélection pointue de vins nature et biodynamiques", "Accords originaux du sommelier"],
-        must_eat: "N'importe quel produit magnifié au grill binchotan (souvent du poisson ou du boeuf de Salers).",
+        must_eat: "N’importe quel produit magnifié au grill binchotan (souvent du poisson ou du boeuf de Salers).",
         must_drink: "Faites confiance à Félix Perrotte pour dénicher la pépite hors des sentiers battus."
     }
 };

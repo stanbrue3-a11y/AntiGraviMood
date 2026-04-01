@@ -5,7 +5,7 @@ export const bistrot_flonflon: SurgicalPlace = {
   slug: "bistrot-flonflon",
   name: "Bistrot Flonflon",
   category: "restaurant",
-  subcategory: ["Bistrot", "Cuisine française", "Festif"],
+  subcategory: ['français'],
   location: {
     address: "2 Rue Brunel, 75017 Paris, France",
     arrondissement: 17,
@@ -84,7 +84,7 @@ export const bistrot_flonflon: SurgicalPlace = {
       }
     ]
   },
-  description: `À deux pas de l'Étoile, Flonflon est le nouveau refuge des bons vivants. Inspiré par l'esprit des guinguettes parisiennes, ce bistrot réinvente les classiques de la cuisine bourgeoise avec un twist festif. Ici, le service est décontracté, les vins coulent à flots et on n'hésite pas à finir la soirée en chanson au son des flonflons.`,
+  description: `À deux pas de l’Étoile, Flonflon est le nouveau refuge des bons vivants. Inspiré par l’esprit des guinguettes parisiennes, ce bistrot réinvente les classiques de la cuisine bourgeoise avec un twist festif. Ici, le service est décontracté, les vins coulent à flots et on n'hésite pas à finir la soirée en chanson au son des flonflons.`,
   insider_tip: `• **Timing Stratégique** : Visez le jeudi soir pour une ambiance maximale où le Tout-Paris se presse.
   • **Combo Moelle** : Le croque à la truffe est addictif, commandez-en un pour deux avant de passer aux choses sérieuses.
   • **Côté Verre** : La carte des vins de vignerons est une pépite, avec des références canailles à prix doux.`,

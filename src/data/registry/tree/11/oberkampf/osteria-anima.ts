@@ -5,7 +5,7 @@ export const osteria_anima: SurgicalPlace = {
     name: "L’Osteria dell’anima",
     slug: "osteria-anima",
     category: "restaurant",
-    subcategory: ["italien", "pâtes", "restaurant"],
+    subcategory: ['italien', 'français'],
     location: {
         address: "37 Rue Oberkampf",
         arrondissement: 11,
@@ -80,7 +80,7 @@ export const osteria_anima: SurgicalPlace = {
                 display_label: "Desserts (Dolci) & Boissons",
                 items: [
                     { name: "Pudding au Caramel", price_cents: 850 },
-                    { name: "Tiramisu de L'Osteria", price_cents: 1000 },
+                    { name: "Tiramisu de L’Osteria", price_cents: 1000 },
                     { name: "Bière Extraomnes / Montestella", price_cents: 800 },
                     { name: "Limoncello (Digeo)", price_cents: 600 }
                 ]
@@ -97,13 +97,13 @@ export const osteria_anima: SurgicalPlace = {
     instagram_handle: "", // Not well known/prominent. Emphasize standard practical interaction.
     verified: true,
     google_rating: 4.6,
-    description: "Une discrète Osteria nichée au cœur de la rue Oberkampf qui résiste aux modes avec brio. C'est l'un des rares temples totalement dédiés à la confection manuelle des pâtes fraîches, dans une salle au cadre rudimentaire mais hyper romantique.",
+    description: "Une discrète Osteria nichée au cœur de la rue Oberkampf qui résiste aux modes avec brio. C’est l'un des rares temples totalement dédiés à la confection manuelle des pâtes fraîches, dans une salle au cadre rudimentaire mais hyper romantique.",
     insider_tip: "• La devanture ne paie pas de mine, mais le lieu est très intime et petit : une réservation par téléphone est chaudement recommandée.\n• Regardez vers la cuisine ouverte : on y façonne les pâtes toute la journée à la main.\n• Si vous êtes deux, prenez une assiette de Cacio e Pepe et une assiette Fruit de Mer, et partagez.",
-    expert_catchline: "L'artisanat brut de la pâte fraîche italienne, servie copieusement dans une salle minuscule et vivante.",
+    expert_catchline: "L’artisanat brut de la pâte fraîche italienne, servie copieusement dans une salle minuscule et vivante.",
     specials: {
         cuisine: ["Pâtes aux fruits de mer fraîches", "Cacio e Pepe"],
         drinks: ["Montepulciano rouge"],
-        must_eat: "L'énorme assiette fumante de Pâtes fraîches enrobées d'ail, d'huile d'olive, de palourdes et fruits de mer.",
+        must_eat: "L’énorme assiette fumante de Pâtes fraîches enrobées d’ail, d’huile d'olive, de palourdes et fruits de mer.",
         must_drink: "Un chaleureux vin Toscan à prix doux pour escorter les glucides."
     }
 };

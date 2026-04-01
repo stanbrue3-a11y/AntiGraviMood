@@ -5,9 +5,9 @@ export const tanguy: SurgicalPlace = {
   slug: "tanguy",
   name: "Tanguy",
   category: "restaurant",
-  subcategory: ["creperie", "terroir", "breton", "institution"],
+  subcategory: ['français'],
   location: {
-    address: "15 Rue de l'Échiquier, 75010 Paris, France",
+    address: "15 Rue de l’Échiquier, 75010 Paris, France",
     arrondissement: 10,
     lat: 48.871212,
     lng: 2.348654,
@@ -50,7 +50,7 @@ export const tanguy: SurgicalPlace = {
           { name: "Saucisse Artisanale (Maison Beucher), Crème Moutardée & Œuf", price_cents: 1550, is_highlight: true },
           { name: "Poitrine Fumée au bois de hêtre, Œuf & Tomme", price_cents: 1250 },
           { name: "Galette Simple au Beurre Cru Thierry Lemarchand", price_cents: 300 },
-          { name: "Galette à l'Œuf Bio Breizh'on egg (Miroir)", price_cents: 400 },
+          { name: "Galette à l’Œuf Bio Breizh'on egg (Miroir)", price_cents: 400 },
           { name: "Galette Jambon Prince de Paris & Sel de Guérande", price_cents: 900 },
           { name: "Galette Tomme au lait de vache biologique", price_cents: 900 }
         ]
@@ -63,7 +63,7 @@ export const tanguy: SurgicalPlace = {
           { name: "Boudin Noir Artisanal & Oignons de Roscoff confits", price_cents: 1350 },
           { name: "Fromage de Chèvre au Lait Cru & Miel du Pays", price_cents: 1200 },
           { name: "Galette Végétarienne : Légumes Rôtis & Graines", price_cents: 1150, is_highlight: true },
-          { name: "Sardines Millésimées à l'huile d'olive & Algues", price_cents: 1450 }
+          { name: "Sardines Millésimées à l’huile d'olive & Algues", price_cents: 1450 }
         ]
       },
       {
@@ -71,7 +71,7 @@ export const tanguy: SurgicalPlace = {
         display_label: "Crêpes de Froment (Desserts)",
         items: [
           { name: "Sucre de Canne Bio & Beurre demi-sel Cru", price_cents: 400, is_highlight: true },
-          { name: "Caramel Beurre Salé Maison (L'onctueux)", price_cents: 650, is_highlight: true },
+          { name: "Caramel Beurre Salé Maison (L’onctueux)", price_cents: 650, is_highlight: true },
           { name: "Chocolat fondu Maison & Noisettes grillées", price_cents: 850, is_highlight: true },
           { name: "Pommes Caramélisées & Émietté de Palet Breton", price_cents: 850 },
           { name: "Citron Jaune Frais & Sucre de Canne Bio", price_cents: 450 },
@@ -87,7 +87,7 @@ export const tanguy: SurgicalPlace = {
           { name: "Far Breton aux Pruneaux Maison (La tranche)", price_cents: 600, is_highlight: true },
           { name: "Kouign-Amann Tiède & Glace Vanille Madagascar", price_cents: 850, is_highlight: true },
           { name: "Sorbet Cidre & Pomme Fraîche (3 boules)", price_cents: 750 },
-          { name: "Palet Breton Artisanal (À l'unité)", price_cents: 200 },
+          { name: "Palet Breton Artisanal (À l’unité)", price_cents: 200 },
           { name: "Yaourt Fermier au Lait Entier de Bretagne", price_cents: 450 }
         ]
       },
@@ -107,12 +107,12 @@ export const tanguy: SurgicalPlace = {
       }
     ]
   },
-  description: "Tanguy est l'ambassade du terroir breton au cœur du 10ème arrondissement. Loin des crêperies touristiques, Gwendal Tanguy propose des galettes de blé noir 100% bio IGP Bretagne, battues à la main, d'une finesse et d'un croustillant incomparables. Ici, chaque produit est sourcé avec ferveur : jambon Prince de Paris, andouille de Guémené Rivalan-Quidu, beurres crus de Thierry Lemarchand. Dans un cadre épuré et moderne, on redécouvre la noblesse de la crêpe, accompagnée d'une sélection pointue de cidres artisanaux de petits producteurs bretons.",
-  insider_tip: "• **La Pâte Battue à la Main** : C'est le secret de leur légèreté incroyable, la texture de la galette est unique à Paris.\n• **L'Andouille de Guémené** : Ne passez pas à côté, c'est la Rolls de l'andouille, transcendée par les oignons confits au chouchen.\n• **Cidre de Dégustation** : Osez les cidres extra-brut ou les cuvées de garde, ils rivalisent avec les plus grands vins blancs.",
+  description: "Tanguy est l’ambassade du terroir breton au cœur du 10ème arrondissement. Loin des crêperies touristiques, Gwendal Tanguy propose des galettes de blé noir 100% bio IGP Bretagne, battues à la main, d’une finesse et d’un croustillant incomparables. Ici, chaque produit est sourcé avec ferveur : jambon Prince de Paris, andouille de Guémené Rivalan-Quidu, beurres crus de Thierry Lemarchand. Dans un cadre épuré et moderne, on redécouvre la noblesse de la crêpe, accompagnée d'une sélection pointue de cidres artisanaux de petits producteurs bretons.",
+  insider_tip: "• **La Pâte Battue à la Main** : C’est le secret de leur légèreté incroyable, la texture de la galette est unique à Paris.\n• **L’Andouille de Guémené** : Ne passez pas à côté, c’est la Rolls de l'andouille, transcendée par les oignons confits au chouchen.\n• **Cidre de Dégustation** : Osez les cidres extra-brut ou les cuvées de garde, ils rivalisent avec les plus grands vins blancs.",
   specials: {
-    cuisine: ["Crêperie de terroir d'excellence", "Blé noir 100% Bio IGP Bretagne", "Produits bretons ultra-sourcés"],
+    cuisine: ["Crêperie de terroir d’excellence", "Blé noir 100% Bio IGP Bretagne", "Produits bretons ultra-sourcés"],
     drinks: ["Plus de 20 références de cidres artisanaux", "Chouchens de vignerons", "Bières locales"],
-    must_eat: "La Complète de TANGUY (10.50€) : la simplicité absolue magnifiée par des produits d'exception.",
+    must_eat: "La Complète de TANGUY (10.50€) : la simplicité absolue magnifiée par des produits d’exception.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

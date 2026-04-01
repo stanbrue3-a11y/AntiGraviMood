@@ -5,7 +5,7 @@ export const substance: SurgicalPlace = {
   slug: "substance",
   name: "Substance",
   category: "restaurant",
-  subcategory: ["les"],
+  subcategory: ['français'],
   location: {
     address: "18 Rue de Chaillot, 75116 Paris, France",
     arrondissement: 16,
@@ -43,7 +43,7 @@ export const substance: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Menus Dégustation",
         items: [
-          { name: "Menu Substance (9 services)", price_cents: 18800, description: "L'expérience gastronomique ultime du soir" },
+          { name: "Menu Substance (9 services)", price_cents: 18800, description: "L’expérience gastronomique ultime du soir" },
           { name: "Menu Vibration (7 services)", price_cents: 15800 },
           { name: "Menu Instant Végétal (6 services)", price_cents: 13800 },
           { name: "Menu Essentiel (Midi)", price_cents: 9800 },
@@ -56,7 +56,7 @@ export const substance: SurgicalPlace = {
         items: [
           { name: "Gnocchi de Salsifis", price_cents: 4500, description: "Beurre noisette et café, une signature Matthias Marc", is_highlight: true },
           { name: "Poisson de Ligne & Jura", price_cents: 5200, description: "Sauce au Vin Jaune, morilles fraîches" },
-          { name: "Le Bœuf de nos Terroirs", price_cents: 5500, description: "Maturation longue, jus corsé à l'ail noir" },
+          { name: "Le Bœuf de nos Terroirs", price_cents: 5500, description: "Maturation longue, jus corsé à l’ail noir" },
           { name: "Pigeon de chez Mear", price_cents: 5800, description: "Cuisiné sur le coffre, betterave et cassis" },
           { name: "Lieu Jaune de petits bateaux", price_cents: 4800, description: "Émulsion de sapin, poireaux brûlés" },
           { name: "Tartare de Veau & Huître", price_cents: 3800, description: "Iode et terre, condiment citron" }
@@ -84,11 +84,11 @@ export const substance: SurgicalPlace = {
       }
     ]
   },
-  description: `Porté par l'énergie du chef Matthias Marc (originaire du Jura), Substance est une table vibrante qui bouscule les codes du 16e arrondissement. Entre cuisine d'auteur ultra-créative et hommages appuyés aux racines francomtoises (vin jaune, sapin, fumé), l'expérience est rythmée, moderne et décomplexée. La cuisine ouverte permet d'admirer le ballet millimétré de la brigade.`,
+  description: `Porté par l’énergie du chef Matthias Marc (originaire du Jura), Substance est une table vibrante qui bouscule les codes du 16e arrondissement. Entre cuisine d’auteur ultra-créative et hommages appuyés aux racines francomtoises (vin jaune, sapin, fumé), l’expérience est rythmée, moderne et décomplexée. La cuisine ouverte permet d’admirer le ballet millimétré de la brigade.`,
   expert_catchline: `La gastronomie haute tension aux accents du Jura.`,
   insider_tip: `• **L'ADN Jurassien** : Ne passez pas à côté des vins du Jura, Substance possède l'une des plus belles sélections de Paris, parfaite pour accompagner le Vin Jaune.
-  • **Le Menu du Marché** : À 68€ le midi, c'est l'un des meilleurs rapports qualité-prix pour un étoilé dans ce quartier.
-  • **Vibrations** : L'ambiance est plus dynamique et sonore qu'un étoilé classique, idéal pour un dîner 'foodie' entre amis ou un business lunch moderne.`,
+  • **Le Menu du Marché** : À 68€ le midi, c’est l'un des meilleurs rapports qualité-prix pour un étoilé dans ce quartier.
+  • **Vibrations** : L’ambiance est plus dynamique et sonore qu’un étoilé classique, idéal pour un dîner ’foodie' entre amis ou un business lunch moderne.`,
   specials: {
     cuisine: ["Français", "Moderne"],
     drinks: ["Vin", "Cocktail"],
@@ -102,11 +102,11 @@ export const substance: SurgicalPlace = {
   google_rating: 4.5,
   michelin_stars: 1,
   real_talk: {
-    text: "Substance, c'est de l'émotion pure. Ça va vite, c'est précis, et les saveurs sont franches. Matthias Marc (et maintenant Flavio Lucarini) réussit à rendre la haute gastronomie accessible et ultra-fun.",
+    text: "Substance, c’est de l’émotion pure. Ça va vite, c’est précis, et les saveurs sont franches. Matthias Marc (et maintenant Flavio Lucarini) réussit à rendre la haute gastronomie accessible et ultra-fun.",
     must_eat: "Gnocchi de Salsifis au Café",
-    le_secret: "La sélection de vins au verre est pointue, n'hésitez pas à demander un accord atypique.",
-    le_son: "Le bruit joyeux d'une cuisine ouverte en plein rush.",
-    le_must: "Pour ceux qui aiment voir le travail des chefs et qui cherchent une table qui 'bouge' dans le 16e."
+    le_secret: "La sélection de vins au verre est pointue, n’hésitez pas à demander un accord atypique.",
+    le_son: "Le bruit joyeux d’une cuisine ouverte en plein rush.",
+    le_must: "Pour ceux qui aiment voir le travail des chefs et qui cherchent une table qui ’bouge' dans le 16e."
   }
 };
 

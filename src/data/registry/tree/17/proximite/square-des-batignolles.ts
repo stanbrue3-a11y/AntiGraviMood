@@ -38,8 +38,8 @@ export const square_des_batignolles: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Créé sous Napoléon III, le Square des Batignolles est un petit bijou de jardin à l'anglaise. Avec sa cascade, sa rivière, ses canards et ses ginkgo bilobas centenaires, il dégage une atmosphère bucolique et romantique en plein cœur du 17ème populaire. C'est le jardin de quartier par excellence, où les enfants courent autour du kiosque et où les amoureux s'isolent sur les bancs de fer forgé au milieu d'une végétation luxuriante et soignée.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Créé sous Napoléon III, le Square des Batignolles est un petit bijou de jardin à l’anglaise. Avec sa cascade, sa rivière, ses canards et ses ginkgo bilobas centenaires, il dégage une atmosphère bucolique et romantique en plein cœur du 17ème populaire. C’est le jardin de quartier par excellence, où les enfants courent autour du kiosque et où les amoureux s’isolent sur les bancs de fer forgé au milieu d'une végétation luxuriante et soignée.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

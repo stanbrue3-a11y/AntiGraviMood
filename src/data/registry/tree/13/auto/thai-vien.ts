@@ -5,7 +5,7 @@ export const thai_vien: SurgicalPlace = {
   slug: "thai-vien",
   name: "Thaï-Vien",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "56 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -100,9 +100,9 @@ export const thai_vien: SurgicalPlace = {
       }
     ]
   },
-  description: "Thaï-Vienne est un pilier de la gastronomie d'Asie du Sud-Est sur l'Avenue de Choisy, offrant un pont savoureux entre les traditions laotiennes et thaïlandaises. Réputé pour son Loc Lac d'une tendreté exemplaire et ses salades de riz croustillant (Nem Thadeua), le restaurant cultive une authenticité rare dans un décor sobre et soigné. La cuisine y est vive, épicée à la demande, et menée avec une exigence qui en fait l'une des adresses les plus respectées par la communauté locale depuis des années.",
+  description: "Thaï-Vienne est un pilier de la gastronomie d’Asie du Sud-Est sur l’Avenue de Choisy, offrant un pont savoureux entre les traditions laotiennes et thaïlandaises. Réputé pour son Loc Lac d’une tendreté exemplaire et ses salades de riz croustillant (Nem Thadeua), le restaurant cultive une authenticité rare dans un décor sobre et soigné. La cuisine y est vive, épicée à la demande, et menée avec une exigence qui en fait l'une des adresses les plus respectées par la communauté locale depuis des années.",
   insider_tip: `• **Le Rite du Loc Lac** : C'est le plat phare de la maison. La viande est marinée avec une précision chirurgicale pour fondre littéralement en bouche.
-  • **Le Secret du Riz Croustillant** : Leur Nem Thadeua est une explosion de textures. Demandez-le 'bien relevé' pour retrouver les saveurs authentiques du Laos.
+  • **Le Secret du Riz Croustillant** : Leur Nem Thadeua est une explosion de textures. Demandez-le ’bien relevé' pour retrouver les saveurs authentiques du Laos.
   • **Fraîcheur Drink** : Le Thé Glacé Thaï (couleur orange) est préparé maison et constitue le parfait contrepoint aux épices des currys rouges.`,
   specials: {
     cuisine: ["Thaïlandaise", "Laotienne", "Vietnamienne"],

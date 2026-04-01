@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const pavillon_de_l_arsenal: SurgicalPlace = {
     "id": "poi-121",
-    "name": "Pavillon de l'Arsenal",
+    "name": "Pavillon de l’Arsenal",
     "slug": "pavillon-de-l-arsenal",
     "category": "museum",
     "subcategory": [
@@ -38,8 +38,8 @@ export const pavillon_de_l_arsenal: SurgicalPlace = {
         "festif": 3,
         "culturel": 8
     },
-    "description": "Le centre d'information sur l'architecture et l'urbanisme de Paris est un lieu fascinant pour comprendre comment la ville s'est construite et comment elle évolue. Sa maquette géante de Paris est un aimant à regards, tout comme ses expositions thématiques sur le logement ou les jardins urbains. Situé dans un ancien arsenal, c'est une étape indispensable pour tout amoureux de Paname et de ses secrets de construction.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Le centre d’information sur l’architecture et l’urbanisme de Paris est un lieu fascinant pour comprendre comment la ville s’est construite et comment elle évolue. Sa maquette géante de Paris est un aimant à regards, tout comme ses expositions thématiques sur le logement ou les jardins urbains. Situé dans un ancien arsenal, c’est une étape indispensable pour tout amoureux de Paname et de ses secrets de construction.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

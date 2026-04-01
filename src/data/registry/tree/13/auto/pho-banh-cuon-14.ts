@@ -5,7 +5,7 @@ export const pho_banh_cuon_14: SurgicalPlace = {
   slug: "pho-banh-cuon-14",
   name: "Phở Bánh Cuốn 14",
   category: "restaurant",
-  subcategory: ["vietnamien"],
+  subcategory: ['vietnamien'],
   location: {
     address: "129 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -86,7 +86,7 @@ export const pho_banh_cuon_14: SurgicalPlace = {
         items: [
           { name: "Bánh Lột (Pâtes de riz coco)", price_cents: 680 },
           { name: "Dâu Đỏ (Haricots rouges coco)", price_cents: 680 },
-          { name: "Sương Sa (Gelée d'herbes coco)", price_cents: 680 },
+          { name: "Sương Sa (Gelée d’herbes coco)", price_cents: 680 },
           { name: "Chè Chuối (Banane lait de coco)", price_cents: 680 },
           { name: "Sâm bổ lượng (Soupe rafraîchissante)", price_cents: 680 },
           { name: "Chè Đậu (Riz gluant & haricots)", price_cents: 680 }
@@ -99,8 +99,8 @@ export const pho_banh_cuon_14: SurgicalPlace = {
           { name: "Café vietnamien glacé au lait", price_cents: 550, is_highlight: true },
           { name: "Thé au jasmin (Théière)", price_cents: 450 },
           { name: "Bière de Saigon (33cl)", price_cents: 600 },
-          { name: "Bière d'Hanoï (33cl)", price_cents: 600 },
-          { name: "Bière '33' Export Vietnam", price_cents: 600 },
+          { name: "Bière d’Hanoï (33cl)", price_cents: 600 },
+          { name: "Bière ’33' Export Vietnam", price_cents: 600 },
           { name: "Jus de coco frais avec pulpe", price_cents: 550 },
           { name: "Jus de Lychee", price_cents: 500 }
         ]
@@ -108,7 +108,7 @@ export const pho_banh_cuon_14: SurgicalPlace = {
     ]
   },
   description: "Phở Bánh Cuốn 14 est une légende vivante du 13ème arrondissement. Célèbre pour avoir démocratisé la soupe Phở à Paris, cet établissement ne désemplit jamais. On y vient pour la profondeur de son bouillon, la finesse de ses Bánh cuốn et son atmosphère survoltée qui transporte instantanément à Hanoï.",
-  insider_tip: "• **Commande Signature** : Le Phở Spécial est un passage obligé, mais ne faites pas l'impasse sur les Bánh cuốn (crêpes de riz), la spécialité de la maison.\n• **Astuce Évitement** : La queue sur le trottoir est une constante, essayez de venir vers 11h30 ou 16h pour un moment plus calme.\n• **Détail Authentique** : N'oubliez pas d'arroser votre soupe de citron vert et de basilic thaï avant de déguster.",
+  insider_tip: "• **Commande Signature** : Le Phở Spécial est un passage obligé, mais ne faites pas l’impasse sur les Bánh cuốn (crêpes de riz), la spécialité de la maison.\n• **Astuce Évitement** : La queue sur le trottoir est une constante, essayez de venir vers 11h30 ou 16h pour un moment plus calme.\n• **Détail Authentique** : N’oubliez pas d’arroser votre soupe de citron vert et de basilic thaï avant de déguster.",
   specials: {
     cuisine: ["Vietnamienne", "Asiatique"],
     drinks: ["Café vietnamien", "Bière Saigon"],

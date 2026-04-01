@@ -5,9 +5,9 @@ export const imprevu: SurgicalPlace = {
     name: "L’Imprévu",
     slug: "l-imprevu-paris-14",
     category: "restaurant",
-    subcategory: ["bistrot", "terrasse", "brasserie", "quartier", "moderne", "nocturne"],
+    subcategory: ['français', 'terrasse'],
     location: {
-        address: "13 Rue d'Alésia, 75014 Paris, France",
+        address: "13 Rue d’Alésia, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.8286469,
         lng: 2.333464,
@@ -40,7 +40,7 @@ export const imprevu: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "Les Plats de l'Imprévu",
+                display_label: "Les Plats de l’Imprévu",
                 items: [
                     { name: "Asian Flank Steak & Noodles", price_cents: 2290 },
                     { name: "Wok de Crevettes aux Légumes", price_cents: 2290 },
@@ -58,7 +58,7 @@ export const imprevu: SurgicalPlace = {
                 items: [
                     { name: "Tarama Truffé et Pain Toasté", price_cents: 1400 },
                     { name: "Burrata, Tomates et Jambon de Pays", price_cents: 1600 },
-                    { name: "Camembert d'Isigny Rôti au Miel", price_cents: 1400 },
+                    { name: "Camembert d’Isigny Rôti au Miel", price_cents: 1400 },
                     { name: "6 Escargots de Bourgogne", price_cents: 1600 },
                     { name: "Guacamole Maison & Chips Tortilla", price_cents: 1300 },
                     { name: "Planche Mixte de Charcuterie & Fromage", price_cents: 2500 },
@@ -70,8 +70,8 @@ export const imprevu: SurgicalPlace = {
                 display_label: "Brunch & Crêpes",
                 items: [
                     { name: "Avocado Toast & Oeuf Poché", price_cents: 1500 },
-                    { name: "Pancakes Egg, Bacon & Sirop d'Erable", price_cents: 1500 },
-                    { name: "Pain Perdu Maison de l'Imprévu", price_cents: 1200 },
+                    { name: "Pancakes Egg, Bacon & Sirop d’Erable", price_cents: 1500 },
+                    { name: "Pain Perdu Maison de l’Imprévu", price_cents: 1200 },
                     { name: "Crêpe Caramel Beurre Salé Maison", price_cents: 750 },
                     { name: "Crêpe Nutella-Banane", price_cents: 900 }
                 ]
@@ -86,13 +86,13 @@ export const imprevu: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.1,
-    description: "L'Imprévu est le caméléon gourmand de la rue d'Alésia. Que ce soit pour un brunch tardif, un déjeuner aux accents asiatiques ou une soirée tapas-cocktails sur sa terrasse toujours animée, l'établissement s'adapte à tous les moments de la vie parisienne. Son décor moderne, son accueil chaleureux et sa carte éclectique en font un lieu de passage privilégié pour ceux qui aiment la diversité. C'est l'endroit où l'on s'arrête par hasard et d'où l'on repart avec l'envie de revenir, séduit par la justesse des saveurs et la décontraction du service.",
+    description: "L’Imprévu est le caméléon gourmand de la rue d’Alésia. Que ce soit pour un brunch tardif, un déjeuner aux accents asiatiques ou une soirée tapas-cocktails sur sa terrasse toujours animée, l’établissement s’adapte à tous les moments de la vie parisienne. Son décor moderne, son accueil chaleureux et sa carte éclectique en font un lieu de passage privilégié pour ceux qui aiment la diversité. C’est l’endroit où l’on s’arrête par hasard et d’où l’on repart avec l’envie de revenir, séduit par la justesse des saveurs et la décontraction du service.",
     insider_tip: "Leur sélection de tapas est idéale pour accompagner les cocktails en début de soirée. En hiver, ne manquez pas leur raclette à volonté, un moment de pure convivialité montagnarde en plein 14ème.",
-    expert_catchline: "Le bistrot éclectique et vibrant de la rue d'Alésia.",
+    expert_catchline: "Le bistrot éclectique et vibrant de la rue d’Alésia.",
     specials: {
         cuisine: ["Bistrot Moderne", "Fusion Asian", "Brunch"],
         drinks: ["Cocktails Créatifs", "Vins au Verre"],
-        must_eat: "L'Asian Flank Steak et les Pancakes bacon-sirop.",
+        must_eat: "L’Asian Flank Steak et les Pancakes bacon-sirop.",
         must_drink: "Un cocktail signature en terrasse."
     },
     source: "expert_human"

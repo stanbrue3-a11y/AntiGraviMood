@@ -5,9 +5,9 @@ export const l_agape: SurgicalPlace = {
   slug: "l-agape",
   name: "L’Agapé",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Cuisine française"],
+  subcategory: ['français'],
   location: {
-    address: "51 Rue Jouffroy d'Abbans, 75017 Paris, France",
+    address: "51 Rue Jouffroy d’Abbans, 75017 Paris, France",
     arrondissement: 17,
     lat: 48.8848539,
     lng: 2.3069514,
@@ -45,7 +45,7 @@ export const l_agape: SurgicalPlace = {
           { name: "Asperges vertes de Provence, sabayon léger", price_cents: 5900 },
           { name: "Tagliatelles de seiche au naturel", price_cents: 5200 },
           { name: "Raviolo de courgette fumée et sa fleur", price_cents: 4900 },
-          { name: "Tartare de boeuf Blonde d'Aquitaine au couteau", price_cents: 7600 },
+          { name: "Tartare de boeuf Blonde d’Aquitaine au couteau", price_cents: 7600 },
           { name: "Foie gras de canard mi-cuit, chutney de saison", price_cents: 5200 },
           { name: "Langoustines du Guilvinec juste saisies", price_cents: 7400 }
         ]
@@ -67,7 +67,7 @@ export const l_agape: SurgicalPlace = {
         display_label: "Douceurs",
         items: [
           { name: "Comté Bernard Antony (Affinage exceptionnel)", price_cents: 2100 },
-          { name: "Mille-feuille vanille Taha'a, caramel onctueux", price_cents: 3200 },
+          { name: "Mille-feuille vanille Taha’a, caramel onctueux", price_cents: 3200 },
           { name: "Fraises Gariguette au poivre de Timut", price_cents: 2200 },
           { name: "Chocolat grand cru Agapé, texture croquante", price_cents: 3200 },
           { name: "Soufflé chaud au Grand Marnier", price_cents: 2800 }
@@ -80,16 +80,16 @@ export const l_agape: SurgicalPlace = {
           { name: "Coupe de Champagne Brut", price_cents: 1800 },
           { name: "Verre de Chablis Domaine William Fèvre", price_cents: 1600 },
           { name: "Café de spécialité & mignardises", price_cents: 800 },
-          { name: "Infusion d'herbes fraîches", price_cents: 900 }
+          { name: "Infusion d’herbes fraîches", price_cents: 900 }
         ]
       }
     ]
   },
-  description: `L'Agapé est une ode à la pureté du produit et à l'élégance du geste. Sous la direction de Laurent Lapaire, ce restaurant étoilé du quartier Jouffroy d'Abbans propose une expérience gastronomique d'une rare finesse. Le décor est sobre, laissant toute la place à une cuisine qui sublime les saisons avec une précision japonaise dans les cuissons et les assaisonnements.`,
-  insider_tip: `• **Timing Stratégique** : Le déjeuner "Estival" à 54€ est une porte d'entrée magistrale pour découvrir l'univers étoilé à prix doux.
+  description: `L’Agapé est une ode à la pureté du produit et à l’élégance du geste. Sous la direction de Laurent Lapaire, ce restaurant étoilé du quartier Jouffroy d’Abbans propose une expérience gastronomique d’une rare finesse. Le décor est sobre, laissant toute la place à une cuisine qui sublime les saisons avec une précision japonaise dans les cuissons et les assaisonnements.`,
+  insider_tip: `• **Timing Stratégique** : Le déjeuner "Estival" à 54€ est une porte d’entrée magistrale pour découvrir l'univers étoilé à prix doux.
   • **Combo Moelle** : Ne manquez pas les tagliatelles de seiche, signature technique et gustative absolue de la maison.
-  • **Expérience Culturelle** : La sélection de fromages de chez Bernard Antony est l'une des meilleures de Paris ; une étape obligatoire pour les amateurs.`,
-  expert_catchline: "L'harmonie parfaite entre la rigueur gastronomique et l'émotion du produit brut.",
+  • **Expérience Culturelle** : La sélection de fromages de chez Bernard Antony est l’une des meilleures de Paris ; une étape obligatoire pour les amateurs.`,
+  expert_catchline: "L’harmonie parfaite entre la rigueur gastronomique et l'émotion du produit brut.",
   specials: {
     cuisine: ["Gastronomique"],
     drinks: ["Grands Crus", "Champagnes"],

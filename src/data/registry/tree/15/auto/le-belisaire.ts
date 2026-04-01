@@ -5,7 +5,7 @@ export const le_belisaire: SurgicalPlace = {
   slug: "le-belisaire",
   name: "Le Bélisaire",
   category: "restaurant",
-  subcategory: ["bistronomi"],
+  subcategory: ['français'],
   location: {
     address: "2 Rue Marmontel, 75015 Paris, France",
     arrondissement: 15,
@@ -41,7 +41,7 @@ export const le_belisaire: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "Pour Commencer / Les Entrées de l'Ardoise",
+        display_label: "Pour Commencer / Les Entrées de l’Ardoise",
         items: [
           { name: "Foie gras poêlé aux fruits de saison", price_cents: 1800 },
           { name: "Risotto crémeux aux langoustines", price_cents: 2200 },
@@ -64,12 +64,12 @@ export const le_belisaire: SurgicalPlace = {
           { name: "Filet de daurade rôti, tombée de fenouil", price_cents: 2700 },
           { name: "Dos de merlu à la plancha, vierge de légumes", price_cents: 2600 },
           { name: "Lièvre à la royale (en saison)", price_cents: 4200 },
-          { name: "Bavette d'aloyau, frites maison au couteau", price_cents: 2400 },
+          { name: "Bavette d’aloyau, frites maison au couteau", price_cents: 2400 },
           { name: "Quasi de veau de lait, girolles fraîches", price_cents: 3200 },
           { name: "Pigeon de Mesquer rôti, purée de dattes", price_cents: 3400 },
           { name: "Ris de veau croustillant, jus de viande corsé", price_cents: 3800 },
           { name: "Suggestion du Marché (Ardoise du jour)", price_cents: 2500 },
-          { name: "L'Ardoise Complète (Entrée + Plat + Dessert)", price_cents: 4500 },
+          { name: "L’Ardoise Complète (Entrée + Plat + Dessert)", price_cents: 4500 },
           { name: "Formule Ardoise (Entrée + Plat ou Plat + Dessert)", price_cents: 4000 },
           { name: "Menu Découverte (Carte Blanche en 5 services)", price_cents: 6000 }
         ]
@@ -100,8 +100,8 @@ export const le_belisaire: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Bélisaire est une escale gastronomique authentique nichée dans une rue calme du 15e arrondissement. Le chef breton Matthieu Garrel y sublime les produits de la mer et de sa région d'origine avec une technique irréprochable et un amour du produit brut. La carte, inscrite sur une grande ardoise, change au gré des marées et des saisons, offrant une expérience bistronomique d'une grande sincérité. L'accueil y est chaleureux, presque familial, faisant de ce lieu une adresse chérie par les initiés en quête de vérité culinaire.",
-  insider_tip: "• **Timing Stratégique** : Arriver dès l'ouverture du service pour avoir le choix sur l'ardoise, les plats phares comme le risotto de langoustines partent vite.\n  • **Combo Moelle** : Le Menu Découverte à 60€ est une véritable démonstration de force du chef, parfait pour une immersion totale dans sa cuisine iodée.\n  • **Détail Secret** : N'hésitez pas à demander le Kouign-Amann même s'il n'est pas affiché, c'est parfois la surprise du chef en fin de semaine.",
+  description: "Le Bélisaire est une escale gastronomique authentique nichée dans une rue calme du 15e arrondissement. Le chef breton Matthieu Garrel y sublime les produits de la mer et de sa région d’origine avec une technique irréprochable et un amour du produit brut. La carte, inscrite sur une grande ardoise, change au gré des marées et des saisons, offrant une expérience bistronomique d’une grande sincérité. L’accueil y est chaleureux, presque familial, faisant de ce lieu une adresse chérie par les initiés en quête de vérité culinaire.",
+  insider_tip: "• **Timing Stratégique** : Arriver dès l’ouverture du service pour avoir le choix sur l’ardoise, les plats phares comme le risotto de langoustines partent vite.\n  • **Combo Moelle** : Le Menu Découverte à 60€ est une véritable démonstration de force du chef, parfait pour une immersion totale dans sa cuisine iodée.\n  • **Détail Secret** : N’hésitez pas à demander le Kouign-Amann même s’il n’est pas affiché, c'est parfois la surprise du chef en fin de semaine.",
   specials: {
     cuisine: ["Français", "Bistronomie", "Bretonne"],
     drinks: ["Muscadet", "Cidre", "Vins de Loire"],

@@ -5,7 +5,7 @@ export const il_cuoco_galante: SurgicalPlace = {
   slug: "il-cuoco-galante",
   name: "Il Cuoco Galante",
   category: "restaurant",
-  subcategory: ["italien", "gastronomique", "pates-fraiches", "raffine"],
+  subcategory: ['italien', 'français'],
   location: {
     address: "36 Rue Condorcet, 75009 Paris, France",
     arrondissement: 9,
@@ -50,7 +50,7 @@ export const il_cuoco_galante: SurgicalPlace = {
           { name: "Supion poêlé au Pesto de Menthe & Roquette", price_cents: 1400 },
           { name: "Croquettes au Parmesan & Crème de Citron", price_cents: 1100 },
           { name: "Asperges Blanches alla Parmigiana & Sarrasin", price_cents: 1400, is_highlight: true },
-          { name: "Carpaccio de Bœuf au Sel d'Agrumes", price_cents: 1550 },
+          { name: "Carpaccio de Bœuf au Sel d’Agrumes", price_cents: 1550 },
           { name: "Polpette della Nonna à la Tomate San Marzano", price_cents: 1250 },
           { name: "Velouté de Saison & Foccacia Maison", price_cents: 1000 }
         ]
@@ -60,18 +60,18 @@ export const il_cuoco_galante: SurgicalPlace = {
         display_label: "Pâtes Fraîches Maison (Primi)",
         items: [
           { name: "Bottoni à la Joue de Bœuf confite & Parmesan", price_cents: 2400, is_highlight: true },
-          { name: "Spaghetti à l'Encre & Bisque de Langoustine", price_cents: 2400, is_highlight: true },
+          { name: "Spaghetti à l’Encre & Bisque de Langoustine", price_cents: 2400, is_highlight: true },
           { name: "Pappardelle alla Vaccinara (Queue de Bœuf 48h)", price_cents: 2600, is_highlight: true },
           { name: "Spaghetti au Pesto de Roquette & Ail des Ours", price_cents: 2100 },
           { name: "Ravioli à la Ricotta, Épinards & Truffe Noire", price_cents: 2800 },
-          { name: "Gnocchi Maison au Beurre d'Estragon", price_cents: 2250 }
+          { name: "Gnocchi Maison au Beurre d’Estragon", price_cents: 2250 }
         ]
       },
       {
         category_type: "main",
         display_label: "Piatti della Casa (Plats)",
         items: [
-          { name: "Tagliata d'Onglet de Veau & Pommes de terre rôties", price_cents: 2600, is_highlight: true },
+          { name: "Tagliata d’Onglet de Veau & Pommes de terre rôties", price_cents: 2600, is_highlight: true },
           { name: "Bar rôti Acqua Pazza & Mousseline de fèves", price_cents: 2600, is_highlight: true },
           { name: "Poulpe croustillant & Crème de fèves de luxe", price_cents: 2750 },
           { name: "Filet de Bœuf au Poivre Vert & Réduction de Gavi", price_cents: 3200 }
@@ -91,7 +91,7 @@ export const il_cuoco_galante: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Dolci & Formaggi (Desserts)",
         items: [
-          { name: "Le Tiramisu 'Minute' de la Casa", price_cents: 1100, is_highlight: true },
+          { name: "Le Tiramisu ’Minute' de la Casa", price_cents: 1100, is_highlight: true },
           { name: "Panna Cotta à la Fraise (Sans Gélatine)", price_cents: 1000, is_highlight: true },
           { name: "Bruto ma Buono: Limoncello & Amande", price_cents: 1000 },
           { name: "Assiette de Fromages Italiens Affinés (Sélection)", price_cents: 1450 },
@@ -102,8 +102,8 @@ export const il_cuoco_galante: SurgicalPlace = {
         category_type: "drink",
         display_label: "La Cantina del Cuoco (Boissons)",
         items: [
-          { name: "Verre de Catarratto 'Tule' (Bio)", price_cents: 700, is_highlight: true },
-          { name: "Verre de Nero d'Avola 'Principe' (Bio)", price_cents: 750 },
+          { name: "Verre de Catarratto ’Tule' (Bio)", price_cents: 700, is_highlight: true },
+          { name: "Verre de Nero d’Avola ’Principe’ (Bio)", price_cents: 750 },
           { name: "Bouteille de Barolo DOCG (Sélection)", price_cents: 6800, is_highlight: true },
           { name: "Cocktail Spritz Artisanal au Select", price_cents: 1100 },
           { name: "Eau micro-filtrée Cuoco (75cl)", price_cents: 450 },
@@ -113,12 +113,12 @@ export const il_cuoco_galante: SurgicalPlace = {
       }
     ]
   },
-  description: "Il Cuoco Galante est une destination de choix pour les amateurs de haute gastronomie italienne dans le 9ème. Ce 'cuisinier galant' propose une partition raffinée où les classiques transalpins sont réinterprétés avec une élégance moderne. La star incontestée reste la pâte fraîche, confectionnée chaque jour à la main avec une technicité remarquable. Dans un cadre feutré et chaleureux avec cuisine ouverte, chaque assiette raconte une histoire de terroir et de passion, faisant de cette adresse l'une des plus belles expressions de l'Italie à Paris.",
+  description: "Il Cuoco Galante est une destination de choix pour les amateurs de haute gastronomie italienne dans le 9ème. Ce ’cuisinier galant’ propose une partition raffinée où les classiques transalpins sont réinterprétés avec une élégance moderne. La star incontestée reste la pâte fraîche, confectionnée chaque jour à la main avec une technicité remarquable. Dans un cadre feutré et chaleureux avec cuisine ouverte, chaque assiette raconte une histoire de terroir et de passion, faisant de cette adresse l’une des plus belles expressions de l'Italie à Paris.",
   insider_tip: "• **Les Pâtes** : Le travail sur les pâtes fraîches est exceptionnel. Ne passez pas à côté des Bottoni ou des Pappardelle alla vaccinara.\n• **Le Tiramisu** : Il est monté à la commande, ce qui lui confère une légèreté et une fraîcheur incomparables.\n• **Le Menu Carte Blanche** : Pour 46€, le chef vous propose une immersion totale en 4 séquences, un rapport qualité-prix rare pour ce niveau de cuisine.",
   specials: {
     cuisine: ["Pâtes fraîches artisanales", "Gastronomie italienne", "Techniques modernes"],
     drinks: ["Vins italiens bio & nature", "Meilleurs crus de la Botte", "Digestifs artisanaux"],
-    must_eat: "Les Bottoni à la joue de bœuf confite : un concentré de gourmandise et de finesse dans une pâte d'une finesse absolue.",
+    must_eat: "Les Bottoni à la joue de bœuf confite : un concentré de gourmandise et de finesse dans une pâte d’une finesse absolue.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,9 +5,9 @@ export const le_poisson_d_aligre: SurgicalPlace = {
   slug: "le-poisson-d-aligre",
   name: "Le poisson d’Aligre",
   category: "restaurant",
-  subcategory: ["poisson"],
+  subcategory: ['français'],
   location: {
-    address: "Marché Beauvau, Pl. d'Aligre, 75012 Paris, France",
+    address: "Marché Beauvau, Pl. d’Aligre, 75012 Paris, France",
     arrondissement: 12,
     lat: 48.8492363,
     lng: 2.3778941,
@@ -69,8 +69,8 @@ export const le_poisson_d_aligre: SurgicalPlace = {
           { name: "Filet de Daurade Grise de ligne", price_cents: 3100 },
           { name: "Calamars frais entiers sautés", price_cents: 3300, is_highlight: true },
           { name: "Filet de Bar de ligne", price_cents: 3850 },
-          { name: "Steak d'Espadon fondant", price_cents: 2300 },
-          { name: "Steak de Thon Rouge 'Marmara'", price_cents: 2800 },
+          { name: "Steak d’Espadon fondant", price_cents: 2300 },
+          { name: "Steak de Thon Rouge ’Marmara'", price_cents: 2800 },
           { name: "Brochettes de Saint-Jacques & Lotte", price_cents: 3300 },
           { name: "Filet de Saint-Pierre sauvage", price_cents: 4500 },
           { name: "Sole entière Belle-Meunière (500g)", price_cents: 4900 },
@@ -85,7 +85,7 @@ export const le_poisson_d_aligre: SurgicalPlace = {
           { name: "Légumes du marché sautés", price_cents: 0 },
           { name: "Salade de mesclun fraîche", price_cents: 0 },
           { name: "Ratatouille maison aux herbes", price_cents: 550 },
-          { name: "Pommes Vapeur à l'aneth", price_cents: 500 }
+          { name: "Pommes Vapeur à l’aneth", price_cents: 500 }
         ]
       },
       {
@@ -112,10 +112,10 @@ export const le_poisson_d_aligre: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Poisson d'Aligre (ou La Table d'Aligre) est une escale iodée incontournable sur la Place d'Aligre. Sous une devanture bleu marine sobre se cache un restaurant qui ne jure que par la fraîcheur absolue, avec des arrivages directs de Bretagne. Ici, le produit est roi et se déguste simplement, sublimé par une cuisson à la plancha millimétrée. L'ambiance est feutrée, le service impeccable, idéal pour savourer un Saint-Pierre ou un bar de ligne après avoir arpenté le marché voisin.",
+  description: "Le Poisson d’Aligre (ou La Table d’Aligre) est une escale iodée incontournable sur la Place d’Aligre. Sous une devanture bleu marine sobre se cache un restaurant qui ne jure que par la fraîcheur absolue, avec des arrivages directs de Bretagne. Ici, le produit est roi et se déguste simplement, sublimé par une cuisson à la plancha millimétrée. L'ambiance est feutrée, le service impeccable, idéal pour savourer un Saint-Pierre ou un bar de ligne après avoir arpenté le marché voisin.",
   insider_tip: `• **Le Choix Plancha** : Les calamars sautés sont la signature de la maison, d'une tendreté exemplaire.
   • **Le Midi Malin** : Sa formule déjeuner à 19€ est une aubaine pour manger du poisson frais de cette qualité à Paris.
-  • **Fraîcheur Directe** : N'hésitez pas à demander le poisson du jour hors carte, selon les arrivages du matin au marché.`,
+  • **Fraîcheur Directe** : N’hésitez pas à demander le poisson du jour hors carte, selon les arrivages du matin au marché.`,
   specials: {
     cuisine: ["Poisson", "Fruits de Mer", "Française"],
     drinks: ["Muscadet", "Chablis"],

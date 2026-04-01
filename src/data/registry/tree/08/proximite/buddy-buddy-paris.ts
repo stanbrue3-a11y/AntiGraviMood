@@ -38,8 +38,8 @@ export const buddy_buddy_paris: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Le premier 'nut butter café' de France est un spot minimaliste et design qui révolutionne l'heure du café. Buddy Buddy propose des créations à base de leurs propres beurres de noisettes, cacahuètes et amandes artisanaux, torréfiés sur place. Latte au beurre de noisette, tartines gourmandes et pâtisseries végétales composent une carte saine et terriblement addictive. Un lieu qui respire la précision bruxelloise et la gourmandise moderne au cœur du chic 8ème arrondissement.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le premier ’nut butter café’ de France est un spot minimaliste et design qui révolutionne l’heure du café. Buddy Buddy propose des créations à base de leurs propres beurres de noisettes, cacahuètes et amandes artisanaux, torréfiés sur place. Latte au beurre de noisette, tartines gourmandes et pâtisseries végétales composent une carte saine et terriblement addictive. Un lieu qui respire la précision bruxelloise et la gourmandise moderne au cœur du chic 8ème arrondissement.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -5,7 +5,7 @@ export const a_la_renaissance: SurgicalPlace = {
   slug: "a-la-renaissance",
   name: "A La Renaissance",
   category: "restaurant",
-  subcategory: ["burger"],
+  subcategory: ['français'],
   location: {
     address: "87 Rue de la Roquette, 75011 Paris, France",
     arrondissement: 11,
@@ -45,7 +45,7 @@ export const a_la_renaissance: SurgicalPlace = {
         category_type: "starter",
         display_label: "Petites Assiettes & Entrées (Entrées)",
         items: [
-          { name: "Œuf Mayo 'Renaissance' (Culte)", price_cents: 800, is_highlight: true },
+          { name: "Œuf Mayo ’Renaissance' (Culte)", price_cents: 800, is_highlight: true },
           { name: "Terrine de Campagne & Pickles", price_cents: 1000 },
           { name: "Croquettes de Cochon (x4)", price_cents: 1200, is_highlight: true },
           { name: "Poireaux Vinaigrette & Noisettes", price_cents: 950 },
@@ -63,7 +63,7 @@ export const a_la_renaissance: SurgicalPlace = {
           { name: "Steak au Poivre & Frites Maison", price_cents: 2800, is_highlight: true },
           { name: "Poisson du Marché, beurre blanc", price_cents: 2600 },
           { name: "Tartare de Bœuf au couteau", price_cents: 2400 },
-          { name: "Salade Caesar 'Luxueuse'", price_cents: 2100 },
+          { name: "Salade Caesar ’Luxueuse'", price_cents: 2100 },
           { name: "Gnocchi à la crème de sauge", price_cents: 1900 },
           { name: "Longe de Veau rôtie, jus corsé", price_cents: 2700 },
           { name: "Demi-Poulet fermier rôti", price_cents: 2500 }
@@ -89,7 +89,7 @@ export const a_la_renaissance: SurgicalPlace = {
           { name: "Pornstar Martini Signature", price_cents: 1500 },
           { name: "Moscow Mule Artisanal", price_cents: 1300 },
           { name: "Old Fashioned (Bourbon/Peel)", price_cents: 1600 },
-          { name: "Mocktail 'Renaissance' (Frais)", price_cents: 1100 }
+          { name: "Mocktail ’Renaissance' (Frais)", price_cents: 1100 }
         ]
       },
       {
@@ -107,12 +107,12 @@ export const a_la_renaissance: SurgicalPlace = {
       }
     ]
   },
-  description: "À La Renaissance est un bistrot historique de la rue de la Roquette, brillamment repris par l'équipe de Quixotic Projects. L'endroit a conservé son âme de brasserie populaire tout en injectant une exigence moderne sur le sourcing et une expertise cocktail de haut vol. C'est le lieu hybride parfait, où l'on peut manger un burger d'anthologie ou un œuf mayo culte accompagné d'un Negroni parfaitement exécuté.",
-  insider_tip: "• **L'Œuf Mayo** : Il est régulièrement cité comme l'un des meilleurs de Paris — un impératif absolu.\n• **Vibration** : Le lieu est très animé le soir, idéal pour un dîner festif avant d'explorer les bars du quartier.\n• **Service Continu** : Très pratique pour manger un morceau de qualité à des heures décalées.",
+  description: "À La Renaissance est un bistrot historique de la rue de la Roquette, brillamment repris par l’équipe de Quixotic Projects. L’endroit a conservé son âme de brasserie populaire tout en injectant une exigence moderne sur le sourcing et une expertise cocktail de haut vol. C’est le lieu hybride parfait, où l’on peut manger un burger d’anthologie ou un œuf mayo culte accompagné d'un Negroni parfaitement exécuté.",
+  insider_tip: "• **L’Œuf Mayo** : Il est régulièrement cité comme l’un des meilleurs de Paris — un impératif absolu.\n• **Vibration** : Le lieu est très animé le soir, idéal pour un dîner festif avant d’explorer les bars du quartier.\n• **Service Continu** : Très pratique pour manger un morceau de qualité à des heures décalées.",
   specials: {
     cuisine: ["Burger Renaissance", "Œuf Mayo Culte", "Bistrot Moderne"],
     drinks: ["Cocktails Quixotic Projects", "Vins natures", "Bières artisanales"],
-    must_eat: "L'Œuf Mayo 'Renaissance' (8€) : une onctuosité parfaite, une pointe d'acidité, bref la perfection du genre.",
+    must_eat: "L’Œuf Mayo ’Renaissance’ (8€) : une onctuosité parfaite, une pointe d'acidité, bref la perfection du genre.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHL9Kjr2OpMIHP5XmEBjiE-XivmojvglOaZV7d5g-AcKq2veg0wzi8vpGzqZT_F_OUZSGk1Wv9CSEwcK0ZSTza8LRKbrHMKhJsrHDjfwAhj5GqeUu9B0yPnW9zS0bAGLGySjwt6tRVzk0lcQRwkxW4Wknsscl_QHYO743EpnLNQL6_zgv_4iVfRMNRIs2ktqZvqGKTj9l14sSl_QVRUBAVNSZLqbPrBCqR7PM0o0QCg2HziKfyBmkMUKqBLHk8K_cVX1VYttOiOejR8c0kxv5w-tUBc9WxCF6K609WPKrgj0w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

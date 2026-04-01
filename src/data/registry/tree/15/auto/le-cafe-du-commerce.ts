@@ -5,7 +5,7 @@ export const le_cafe_du_commerce: SurgicalPlace = {
   slug: "le-cafe-du-commerce",
   name: "Le Café du Commerce",
   category: "restaurant",
-  subcategory: ["brasserie", "traditionnel", "viande"],
+  subcategory: ['français'],
   location: {
     address: "51 Rue du Commerce, 75015 Paris, France",
     arrondissement: 15,
@@ -51,8 +51,8 @@ export const le_cafe_du_commerce: SurgicalPlace = {
         display_label: "Entrées de Brasserie",
         items: [
           { name: "6 Escargots de Bourgogne", price_cents: 1200, description: "Label Rouge, servis dans leur coquille" },
-          { name: "Œufs Mayonnaise 'Championnat de France'", price_cents: 650, description: "Un classique indémodable", is_highlight: true },
-          { name: "Soupe à l'Oignon Gratinée", price_cents: 950, description: "Croutons maison et Comté" },
+          { name: "Œufs Mayonnaise ’Championnat de France'", price_cents: 650, description: "Un classique indémodable", is_highlight: true },
+          { name: "Soupe à l’Oignon Gratinée", price_cents: 950, description: "Croutons maison et Comté" },
           { name: "Saumon Gravelax Maison", price_cents: 1350, description: "Crème d’aneth et blinis chauds" },
           { name: "Foie Gras de Canard Maison", price_cents: 1550, description: "Chutney de saison, pain brioché" },
           { name: "Poireaux Vinaigrette", price_cents: 750, description: "Éclats de noisettes torréfiées" },
@@ -69,7 +69,7 @@ export const le_cafe_du_commerce: SurgicalPlace = {
           { name: "Fish & Chips à la Française", price_cents: 1750, description: "Sauce tartare maison et frites" },
           { name: "Véritable Blanquette de Veau", price_cents: 2100, description: "Riz pilaf aux petits légumes" },
           { name: "Onglet de Bœuf aux Échalotes", price_cents: 2200, description: "Frites maison et salade verte" },
-          { name: "Souris d'Agneau de 7 Heures", price_cents: 2450, description: "Purée de pommes de terre à la fourchette" },
+          { name: "Souris d’Agneau de 7 Heures", price_cents: 2450, description: "Purée de pommes de terre à la fourchette" },
           { name: "Le Burger du Commerce", price_cents: 1850, description: "Steak frais, Cantal jeune, oignons rouges" },
           { name: "Filet de Bar Rôti", price_cents: 2350, description: "Écrasé de pommes de terre à l’huile d’olive" }
         ]
@@ -79,13 +79,13 @@ export const le_cafe_du_commerce: SurgicalPlace = {
         display_label: "Coin du Boucher (Pièces de Bœuf)",
         items: [
           { name: "Côte de Bœuf pour deux (1kg)", price_cents: 7400, description: "Origine France, sauce béarnaise et frites" },
-          { name: "Entrecôte Charolaise (300g)", price_cents: 2800, description: "Beurre maître d'hôtel" },
+          { name: "Entrecôte Charolaise (300g)", price_cents: 2800, description: "Beurre maître d’hôtel" },
           { name: "Rumsteck Grillé", price_cents: 2300, description: "Sauce au poivre vert" }
         ]
       },
       {
         category_type: "dessert",
-        display_label: "Douceurs de l'Atrium",
+        display_label: "Douceurs de l’Atrium",
         items: [
           { name: "Vacherin de la Brasserie", price_cents: 1050, description: "Glace vanille, marron, chantilly", is_highlight: true },
           { name: "Baba au Rhum", price_cents: 950, description: "Bocal de rhum à discrétion" },
@@ -109,11 +109,11 @@ export const le_cafe_du_commerce: SurgicalPlace = {
       }
     ]
   },
-  description: `Véritable institution du 15ème arrondissement nichée au cœur de la vibrante rue du Commerce, cette brasserie des années 20 est un joyau architectural sur trois étages. Organisée autour d'un atrium monumental sous une verrière lumineuse, elle offre un cadre spectaculaire où le temps semble s'être arrêté. On y déguste une cuisine de tradition française, honnête et généreuse, servie avec le ballet élégant des garçons de café. C'est l'essence même du Paris populaire et bourgeois réuni dans un lieu d'exception.`,
+  description: `Véritable institution du 15ème arrondissement nichée au cœur de la vibrante rue du Commerce, cette brasserie des années 20 est un joyau architectural sur trois étages. Organisée autour d’un atrium monumental sous une verrière lumineuse, elle offre un cadre spectaculaire où le temps semble s’être arrêté. On y déguste une cuisine de tradition française, honnête et généreuse, servie avec le ballet élégant des garçons de café. C’est l’essence même du Paris populaire et bourgeois réuni dans un lieu d'exception.`,
   expert_catchline: `Le tourbillon d'une brasserie mythique sous une verrière classée.`,
-  insider_tip: `• **Le Choix des Étages** : Pour profiter pleinement de la vue sur l'atrium, demandez une table au premier étage, c'est l'angle de vue le plus impressionnant.
+  insider_tip: `• **Le Choix des Étages** : Pour profiter pleinement de la vue sur l’atrium, demandez une table au premier étage, c'est l'angle de vue le plus impressionnant.
   • **Le Duo Incontournable** : Commencez par les œufs mayo (réputés parmi les meilleurs de Paris) et enchaînez sur le confit de canard, une valeur sûre ici.
-  • **Casting Idéal** : C'est le lieu parfait pour impressionner des amis de passage à Paris sans se ruiner, le cadre par rapport au prix est imbattable.`,
+  • **Casting Idéal** : C’est le lieu parfait pour impressionner des amis de passage à Paris sans se ruiner, le cadre par rapport au prix est imbattable.`,
   specials: {
     cuisine: ["Brasserie Parisienne Classique"],
     must_eat: `Cuisine de brasserie authentique. Confit de canard & Vacherin du Commerce.`

@@ -5,7 +5,7 @@ export const alluma: SurgicalPlace = {
     name: "Alluma",
     slug: "alluma",
     category: "restaurant",
-    subcategory: ["bistronomique", "méditerranéen", "levantin", "restaurant"],
+    subcategory: ['français', 'méditerranéen'],
     location: {
         address: "151 Rue Saint-Maur",
         arrondissement: 11,
@@ -57,9 +57,9 @@ export const alluma: SurgicalPlace = {
                 items: [
                     // VERIFIED: Mises à jour récentes menus
                     { name: "Céleri Cacio e Pepe", price_cents: 1400 },
-                    { name: "Courge Butternut au beurre blanc à l'harissa", price_cents: 1200 },
+                    { name: "Courge Butternut au beurre blanc à l’harissa", price_cents: 1200 },
                     { name: "Betteraves Brûlées & Burrata", price_cents: 1500 },
-                    { name: "Crudo de Poisson, salade d'agrumes, olives", price_cents: 1600 }
+                    { name: "Crudo de Poisson, salade d’agrumes, olives", price_cents: 1600 }
                 ]
             },
             {
@@ -67,7 +67,7 @@ export const alluma: SurgicalPlace = {
                 display_label: "Plats",
                 items: [
                     // VERIFIED: Plats 24-32€
-                    { name: "Poisson Grillé, fenouil rôti, miel et za'atar", price_cents: 2800 },
+                    { name: "Poisson Grillé, fenouil rôti, miel et za’atar", price_cents: 2800 },
                     { name: "Poulpe au Charbon", price_cents: 3200 },
                     { name: "Magret de Canard", price_cents: 2900 },
                     { name: "Ravioli aux Pommes de Terre", price_cents: 2400 },
@@ -79,7 +79,7 @@ export const alluma: SurgicalPlace = {
                 display_label: "Desserts",
                 items: [
                     { name: "Namelaka au Chocolat, glace crème de sésame", price_cents: 1200 },
-                    { name: "Mascarpone aux Cheveux d'Ange", price_cents: 1300 },
+                    { name: "Mascarpone aux Cheveux d’Ange", price_cents: 1300 },
                     { name: "Pavlova aux Agrumes", price_cents: 1200 }
                 ]
             }
@@ -95,13 +95,13 @@ export const alluma: SurgicalPlace = {
     instagram_handle: "allumaparis",
     verified: true,
     google_rating: 4.8,
-    description: "Une bistronomie méditerranéenne et levantine brillante signée Liran Tal (ex Gamin). Alluma propose une cuisine créative influencée par Tel-Aviv, mettant en valeur des produits de saison. Le menu dégustation du soir est une immersion totale, tandis que le déjeuner offre l'un des meilleurs rapports qualité-prix de la rue Saint-Maur.",
-    insider_tip: "• Le menu déjeuner complet à 25€ (E+P+D) est une affaire en or pour cette qualité.\n• Le menu dégustation du soir en 6 temps (55€) est indispensable pour comprendre la vision du chef.\n• Les mercredis et jeudis, c'est 'Carte Blanche' pour le chef.\n• Les vins sont axés natures et biodynamiques, avec des références arméniennes pointues.",
+    description: "Une bistronomie méditerranéenne et levantine brillante signée Liran Tal (ex Gamin). Alluma propose une cuisine créative influencée par Tel-Aviv, mettant en valeur des produits de saison. Le menu dégustation du soir est une immersion totale, tandis que le déjeuner offre l’un des meilleurs rapports qualité-prix de la rue Saint-Maur.",
+    insider_tip: "• Le menu déjeuner complet à 25€ (E+P+D) est une affaire en or pour cette qualité.\n• Le menu dégustation du soir en 6 temps (55€) est indispensable pour comprendre la vision du chef.\n• Les mercredis et jeudis, c’est ’Carte Blanche’ pour le chef.\n• Les vins sont axés natures et biodynamiques, avec des références arméniennes pointues.",
     expert_catchline: "La bistronomie franco-levantine la plus élégante du 11ème, menu canon à 25€ le midi.",
     specials: {
         cuisine: ["Crudo de poisson aux agrumes", "Poulpe au charbon", "Namelaka au chocolat, glace sésame"],
         drinks: ["Vins natures", "Vins arméniens", "Sélection pointue"],
         must_eat: "Le menu dégustation (55€) vaut largement le détour. À la carte, le poulpe au charbon (32€) et le crudo (16€) marquent les esprits.",
-        must_drink: "Laissez-vous guider sur un vin orange ou une cuvée d'Europe de l'Est pour matcher les épices."
+        must_drink: "Laissez-vous guider sur un vin orange ou une cuvée d’Europe de l'Est pour matcher les épices."
     }
 };

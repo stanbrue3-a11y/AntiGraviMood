@@ -5,7 +5,7 @@ export const poggiCup: SurgicalPlace = {
     name: "Poggi Cup (Fontaine au Roi)",
     slug: "poggi-cup",
     category: "restaurant",
-    subcategory: ["Street Food", "Healthy", "Cuisine en Gobelet", "Moderne"],
+    subcategory: ['français'],
     location: {
         address: "2 Rue de la Fontaine au Roi, 75011 Paris",
         arrondissement: 11,
@@ -74,8 +74,8 @@ export const poggiCup: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Drinks & Formulas",
                 items: [
-                    { name: "Organic Lemon'aid Passion", price_cents: 480 },
-                    { name: "Organic Lemon'aid Lime", price_cents: 480 },
+                    { name: "Organic Lemon’aid Passion", price_cents: 480 },
+                    { name: "Organic Lemon’aid Lime", price_cents: 480 },
                     { name: "Fair-trade Cola", price_cents: 450 },
                     { name: "Still Water (50cl)", price_cents: 250 },
                     { name: "Sparkling Water (50cl)", price_cents: 250 },
@@ -103,7 +103,7 @@ export const poggiCup: SurgicalPlace = {
     insider_tip: "• Mélangez bien votre Poggi Cup pour savourer toutes les couches en une seule bouchée.\n• Le Poggi Poisson (Gravlax) est particulièrement frais et réussi.\n• Formule étudiant à moins de 10€, une rareté pour cette qualité dans le quartier.\n• Leur Cookie Sea Salt est un pêché mignon très addictif.",
     specials: {
         cuisine: ["Déstructuré", "Healthy", "Bœuf Effiloché"],
-        drinks: ["Lemon'aid Passion", "Ginger Beer Maison", "Thé Glacé"],
+        drinks: ["Lemon’aid Passion", "Ginger Beer Maison", "Thé Glacé"],
         must_eat: "Le Poggi Classic et le Tiramisu praliné."
     },
     images: {

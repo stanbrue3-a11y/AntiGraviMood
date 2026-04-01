@@ -5,7 +5,7 @@ export const tse_yang: SurgicalPlace = {
   slug: "tse-yang",
   name: "Tse Yang",
   category: "restaurant",
-  subcategory: ["chinois", "gastronomique", "luxe", "passy"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "25 Av. Pierre 1er de Serbie, 75116 Paris, France",
     arrondissement: 16,
@@ -41,12 +41,12 @@ export const tse_yang: SurgicalPlace = {
     menu_items: [
       {
         category_type: "other",
-        display_label: "L'Art des Vapeurs (Dim Sum)",
+        display_label: "L’Art des Vapeurs (Dim Sum)",
         items: [
           { name: "Ha Kao aux Crevettes", price_cents: 1400, description: "Pâte de riz translucide, 4 pièces" },
           { name: "Siu Mai Porc & Crevettes", price_cents: 1200, description: "4 pièces traditionnelles" },
           { name: "Bouchées aux Saint-Jacques", price_cents: 1800, description: "Vapeur délicate, corail fondu", is_highlight: true },
-          { name: "Xiaolongbao de Shanghai", price_cents: 1600, description: "Bouillon brûlant à l'intérieur" },
+          { name: "Xiaolongbao de Shanghai", price_cents: 1600, description: "Bouillon brûlant à l’intérieur" },
           { name: "Raviolis Pékinois Grillés", price_cents: 1500, description: "Porc et ciboules, saisis à la poêle" },
           { name: "Nems au Poulet & Crabe", price_cents: 1400, description: "Croustillants, servis avec salade et menthe" },
           { name: "Brioches Cha Siu Bao", price_cents: 1300, description: "Pain vapeur au porc laqué sucré-salé" },
@@ -73,7 +73,7 @@ export const tse_yang: SurgicalPlace = {
         category_type: "other",
         display_label: "Le Potager Chinois",
         items: [
-          { name: "Pak Choi à l'Ail", price_cents: 1600, description: "Saisi au wok, ail frit" },
+          { name: "Pak Choi à l’Ail", price_cents: 1600, description: "Saisi au wok, ail frit" },
           { name: "Aubergines Yu Xiang", price_cents: 1800, description: "Sauce pimentée et aigre-douce", is_highlight: true },
           { name: "Brocolis Sauce Huître", price_cents: 1500 },
           { name: "Haricots Verts du Sichuan", price_cents: 1700, description: "Sautés au porc et condiments salés" }
@@ -86,7 +86,7 @@ export const tse_yang: SurgicalPlace = {
           { name: "Riz Cantonais Imperial", price_cents: 1800, description: "Crevettes et porc laqué" },
           { name: "Nouilles Sautées Soja", price_cents: 1600, description: "Légumes croquants du moment" },
           { name: "Vermicelles Singapour", price_cents: 2200, description: "Curry jaune, crevettes et porc" },
-          { name: "Riz Gluant Lotus", price_cents: 1400, description: "Vapeur, parfumé aux châtaignes d'eau" }
+          { name: "Riz Gluant Lotus", price_cents: 1400, description: "Vapeur, parfumé aux châtaignes d’eau" }
         ]
       },
       {
@@ -104,6 +104,7 @@ export const tse_yang: SurgicalPlace = {
     ]
   },
   description: `Tse Yang est la référence absolue de la haute gastronomie chinoise à Paris depuis 1980. Dans un cadre feutré de boiseries laquées et de porcelaines précieuses, le restaurant perpétue l'art du canard pékinois et des vapeurs impériaux. Une institution de Passy où le luxe se déguste avec une précision gastronomique rare, loin des clichés, pour une clientèle internationale exigeante.`,
+  expert_catchline: `Tse Yang est la référence absolue de la haute gastronomie chinoise à Paris depuis 1980.`,
   insider_tip: `Le canard laqué en deux services est un rituel immanquable. Pour une expérience plus intime, demandez une table dans les alcôves du fond.`,
   specials: {
     cuisine: ["Chinois Gastronomique", "Cantonais", "Pékinois"],

@@ -5,9 +5,9 @@ export const lAmiPierre: SurgicalPlace = {
     name: "A l’ami Pierre",
     slug: "l-ami-pierre",
     category: "restaurant",
-    subcategory: ["bistrot", "french", "traditional", "neighborhood-gem"],
+    subcategory: ['français'],
     location: {
-        address: "5 Rue de la Main d'Or",
+        address: "5 Rue de la Main d’Or",
         arrondissement: 11,
         lat: 48.8514931,
         lng: 2.3782317,
@@ -49,7 +49,7 @@ export const lAmiPierre: SurgicalPlace = {
                 items: [
                     { name: "Os à moëlle rôti", price_cents: 800 },
                     { name: "Couteaux à la Sétoise", price_cents: 1100 },
-                    { name: "Filets de hareng, pommes à l'huile", price_cents: 800 },
+                    { name: "Filets de hareng, pommes à l’huile", price_cents: 800 },
                     { name: "Terrine de campagne maison", price_cents: 900 }
                 ]
             },
@@ -57,7 +57,7 @@ export const lAmiPierre: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Plats Traditionnels",
                 items: [
-                    { name: "Andouillette de Bretagne, moutarde à l'ancienne", price_cents: 1900 },
+                    { name: "Andouillette de Bretagne, moutarde à l’ancienne", price_cents: 1900 },
                     { name: "Spaghetti bicolores aux coques", price_cents: 1700 },
                     { name: "Entrecôte de Normandie (300g), Béarnaise", price_cents: 2800 },
                     { name: "Faut-filet au poivre, frites maison", price_cents: 2400 },
@@ -82,13 +82,13 @@ export const lAmiPierre: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "L'Ami Pierre est l'exemple même du petit bistrot de quartier que l'on voudrait garder pour soi. Situé dans la calme rue de la Main d'Or, ce lieu respire l'authenticité avec son comptoir en zinc et ses nappes à carreaux. On y vient pour une cuisine française sincère, sans chichi, où les produits (notamment les viandes de Normandie) sont rois. Un accueil d'une gentillesse rare qui fait de chaque repas un moment suspendu.",
-    insider_tip: "Leurs frites maison sont une pure merveille, n'hésitez pas à demander un supplément. Le midi, la formule à 14€ est imbattable dans le quartier.",
-    expert_catchline: "Sincérité, générosité et tradition dans ce bistrot pépite de la Main d'Or.",
+    description: "L’Ami Pierre est l’exemple même du petit bistrot de quartier que l’on voudrait garder pour soi. Situé dans la calme rue de la Main d’Or, ce lieu respire l’authenticité avec son comptoir en zinc et ses nappes à carreaux. On y vient pour une cuisine française sincère, sans chichi, où les produits (notamment les viandes de Normandie) sont rois. Un accueil d'une gentillesse rare qui fait de chaque repas un moment suspendu.",
+    insider_tip: "Leurs frites maison sont une pure merveille, n’hésitez pas à demander un supplément. Le midi, la formule à 14€ est imbattable dans le quartier.",
+    expert_catchline: "Sincérité, générosité et tradition dans ce bistrot pépite de la Main d’Or.",
     specials: {
         cuisine: ["Bistrot traditionnel", "Cuisine de marché", "Viandes de terroir"],
         drinks: ["Petite sélection de vins de vignerons", "Apéritifs classiques"],
-        must_eat: "L'Andouillette de Bretagne ou l'Entrecôte Béarnaise.",
+        must_eat: "L’Andouillette de Bretagne ou l'Entrecôte Béarnaise.",
         must_drink: "Un petit rouge de soif servi au verre."
     }
 };

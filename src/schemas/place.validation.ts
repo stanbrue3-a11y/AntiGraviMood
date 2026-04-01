@@ -22,7 +22,11 @@ const FlexibleBoolean = z
   .optional()
   .default(false);
 
-const TagSchema = z.string();
+const TagSchema = z.enum([
+  'vietnamien', 'japonais', 'français', 'bar à vin', 'pizzeria', 
+  'bistronomie', 'italien', 'éthiopien', 'indien', 'pakistanais', 
+  'asiatique', 'méditerranéen', 'terrasse', "viande d'exception", "ferme tard"
+]);
 
 export const PlaceEditorialSchema = z
   .object({
@@ -46,7 +50,7 @@ export const PlaceEditorialSchema = z
       .union([
         z.string(),
         z.object({ start: z.string(), end: z.string() }),
-        z.boolean(), // Handle "true" or boolean from legacy
+        z.boolean(),
         z.null(),
       ])
       .optional()
@@ -54,9 +58,10 @@ export const PlaceEditorialSchema = z
 
     // Tags / Badges flags
     terrace: FlexibleBoolean,
-    terrasse: FlexibleBoolean, // Spelling var
-    wifi: FlexibleBoolean,
-    laptop_friendly: FlexibleBoolean, // Spelling var
+    terrasse: FlexibleBoolean,
+    viande_exception: FlexibleBoolean,
+    wifi: z.literal(false).catch(false).optional().default(false).describe("WiFi is strictly proscribed in Moelle 2026"),
+    laptop_friendly: FlexibleBoolean,
     vins_nature: FlexibleBoolean,
     shotgun: FlexibleBoolean,
     gratuit_moins_26: FlexibleBoolean,
@@ -67,7 +72,7 @@ export const PlaceEditorialSchema = z
     metro_lines: z
       .array(z.union([z.string(), z.number()]))
       .optional()
-      .nullable(), // Can be numbers in JSON
+      .nullable(),
     cuisine_type: z.string().optional().nullable(),
   })
   .passthrough();
@@ -75,7 +80,9 @@ export const PlaceEditorialSchema = z
 export const PlaceRealTalkSchema = z
   .object({
     insider_tip: z.string().optional().nullable().transform(nullToUndefined),
-    must_eat: z.string().optional().nullable().transform(nullToUndefined),
+    must_eat: z.string()
+      .regex(/^[A-Z][^.]+\. .*/, "must_eat must start with 'Cuisine [Type]. [Plat]' format")
+      .optional().nullable().transform(nullToUndefined),
     specials: z
       .object({
         cuisine: z.array(z.string()).optional(),
@@ -93,11 +100,13 @@ export const PlacePricingSchema = z
       .array(
         z.object({
           category_type: z.enum(['starter', 'main', 'dessert', 'sharing', 'drink', 'tasting_menu', 'other']),
-          display_label: z.string(),
+          display_label: z.enum([
+            "Entrées", "Plats", "Desserts", "Boissons", "À Partager", "Formules", "Accompagnements"
+          ]),
           items: z.array(
             z.object({
-              name: z.string(),
-              price_cents: z.number().optional().nullable(),
+              name: z.string().refine(s => !s.includes("'"), "Straight apostrophes (') are forbidden in menu items name. Use ’ (U+2019)."),
+              price_cents: z.number().int("Price must be in full cents (integer)"),
               price: z.union([z.string(), z.number()]).transform(String).optional().nullable(),
               description: z.string().optional().nullable(),
               is_highlight: z.boolean().optional().nullable(),
@@ -110,7 +119,6 @@ export const PlacePricingSchema = z
       .nullable()
       .default([]),
 
-    // Surgical Price Index (Fact-Only)
     // Surgical Price Index (Fact-Only)
     pint_price: z.number().optional().nullable(),
     wine_glass: z.number().optional().nullable(),
@@ -159,23 +167,14 @@ export type PlacePricing = z.infer<typeof PlacePricingSchema>;
  */
 export const SurgicalPlaceSchema = z.object({
   id: z.string().regex(/^poi-[a-z0-9-]+$/),
-  name: z.string().min(2),
+  name: z.string().min(2)
+    .refine(s => !s.includes("'"), "Straight apostrophes (') are forbidden in place name. Use ’ (U+2019)."),
   slug: z
     .string()
     .min(2)
     .regex(/^[a-z0-9-]+$/),
-  category: z.enum([
-    'bar',
-    'restaurant',
-    'café',
-    'club',
-    'museum',
-    'exhibition',
-    'parc',
-    'monument',
-    'culture',
-  ]),
-  subcategory: z.array(z.string()),
+  category: z.literal('restaurant').describe("Only 'restaurant' category is allowed in Standard Moelle 2026"),
+  subcategory: z.array(TagSchema).nonempty("subcategory cannot be empty"),
 
   location: z.object({
     address: z.string().min(5),
@@ -193,7 +192,7 @@ export const SurgicalPlaceSchema = z.object({
     .object({
       reservation_policy: z.enum(['sans_resa', 'resa_conseillee', 'resa_obligatoire']).nullable(),
       accessibility: z.boolean().default(false),
-      wifi: z.boolean().default(false),
+      wifi: z.literal(false).default(false),
       opening_hours_raw: z.string(),
       main_action: z.object({
         type: z.enum(['book', 'shotgun', 'site']),
@@ -202,18 +201,20 @@ export const SurgicalPlaceSchema = z.object({
       }).optional(),
       menu_url: z.string().url().optional().nullable(),
       terrace: z.boolean().optional(),
+      viande_exception: z.boolean().optional(),
       cuisine_type: z.string().optional().nullable(),
     })
     .passthrough(),
 
-  description: z.string().optional().nullable(),
-  expert_catchline: z.string().optional().nullable(),
-  insider_tip: z.string().optional().nullable(),
+  description: z.string().min(50, "Description must be substantive (min 50 chars)"),
+  expert_catchline: z.string().min(10, "Catchline is mandatory and must be punchy"),
+  insider_tip: z.string().regex(/• .*\n• .*\n• .*/, "Insider tips must use 3 bullets format"),
 
   specials: z.object({
     cuisine: z.array(z.string()).optional(),
     drinks: z.array(z.string()).optional(),
-    must_eat: z.string().optional(),
+    must_eat: z.string()
+      .regex(/^[A-Z][^.]+\. .*/, "must_eat must start with 'Cuisine [Type]. [Plat]' format"),
     expert_catchline: z.string().optional(),
   }),
 
@@ -225,7 +226,7 @@ export const SurgicalPlaceSchema = z.object({
 
   images: z.object({
     hero: z.string().min(1),
-    gallery: z.array(z.string()).optional(),
+    gallery: z.array(z.string()).min(4, "Minimum 4 gallery photos required"),
   }),
 
   verified: z.boolean(),

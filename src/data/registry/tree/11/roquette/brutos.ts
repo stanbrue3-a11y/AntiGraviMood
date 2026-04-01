@@ -5,7 +5,7 @@ export const brutos: SurgicalPlace = {
     name: "Brutos",
     slug: "brutos",
     category: "restaurant",
-    subcategory: ["viande", "bistronomique", "sud-américain", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "5 Rue du Général Renault",
         arrondissement: 11,
@@ -46,7 +46,7 @@ export const brutos: SurgicalPlace = {
                 display_label: "Brésil & Asado (Entrées & Tapas)",
                 items: [
                     { name: "Dés de Tapioca frits, sauce goyave piment doux", price_cents: 900 },
-                    { name: "Caviar d'aubergine fumée en toast, grenade, noix du Brésil", price_cents: 700 },
+                    { name: "Caviar d’aubergine fumée en toast, grenade, noix du Brésil", price_cents: 700 },
                     { name: "Asperges vertes à la braise, sauce Gribiche", price_cents: 1100 },
                     { name: "Os à moelle braisé, noisettes concassées", price_cents: 1200 },
                     { name: "Morcilla maison et piments guindilla", price_cents: 1000 },
@@ -62,7 +62,7 @@ export const brutos: SurgicalPlace = {
                     { name: "Asado de tira Black Angus, chimichurri, frites maison", price_cents: 2900, description: "La spécialité de la maison." },
                     { name: "Côte de Cochon de lait de Clavisy, abricots grillés", price_cents: 2800 },
                     { name: "Lieu jaune, beurre blanc aux crustacés", price_cents: 3200 },
-                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l'ail", price_cents: 2800, description: "Uniquement le dimanche midi." },
+                    { name: "Poulet fermier rôti du Dimanche, shallots, frites à l’ail", price_cents: 2800, description: "Uniquement le dimanche midi." },
                     { name: "Ris de veau à la braise, sauce chimichurri", price_cents: 3400 },
                     { name: "Echine de cochon noir de Bigorre", price_cents: 3000 },
                     { name: "Picanha de boeuf Angus (pour 2)", price_cents: 6800, description: "La pièce emblématique du Brésil." }
@@ -98,13 +98,13 @@ export const brutos: SurgicalPlace = {
     instagram_handle: "brutosparis",
     verified: true,
     google_rating: 4.3,
-    description: "Le temple parisien de la viande cuite à la flamme et de l'Asado argentin/brésilien. Chez Brutos, le feu de bois est le maître absolu. On y déguste des viandes d'exception (Black Angus, cochon de Clavisy) caramélisées à l'extérieur et fondantes à l'intérieur, sourcées chez les meilleurs producteurs, le tout arrosé de vins natures pointus et de caïpirinhas redoutables.",
-    insider_tip: "• Les frites qui accompagnent les viandes sont cuites dans la graisse de bœuf (façon belge), un délice absolu.\n• Ne manquez surtout pas les 'Dès de Tapioca' en entrée, la texture est addictive.\n• Le dimanche, l'ambiance change : le restaurant est ouvert uniquement le midi pour un poulet rôti dominical monumental.\n• Couvrez-vous d'un pull qui ne craint rien, l'odeur de fumée et de viande grillée vous imprégnera.",
-    expert_catchline: "L'Asado le plus hype de l'Est parisien. Viandes d'exception au feu de bois et jus de viande affolants.",
+    description: "Le temple parisien de la viande cuite à la flamme et de l’Asado argentin/brésilien. Chez Brutos, le feu de bois est le maître absolu. On y déguste des viandes d’exception (Black Angus, cochon de Clavisy) caramélisées à l’extérieur et fondantes à l'intérieur, sourcées chez les meilleurs producteurs, le tout arrosé de vins natures pointus et de caïpirinhas redoutables.",
+    insider_tip: "• Les frites qui accompagnent les viandes sont cuites dans la graisse de bœuf (façon belge), un délice absolu.\n• Ne manquez surtout pas les ’Dès de Tapioca’ en entrée, la texture est addictive.\n• Le dimanche, l’ambiance change : le restaurant est ouvert uniquement le midi pour un poulet rôti dominical monumental.\n• Couvrez-vous d’un pull qui ne craint rien, l’odeur de fumée et de viande grillée vous imprégnera.",
+    expert_catchline: "L’Asado le plus hype de l’Est parisien. Viandes d’exception au feu de bois et jus de viande affolants.",
     specials: {
         cuisine: ["Asado de Black Angus", "Tapioca frit piment/goyave", "Poulet du dimanche"],
         drinks: ["Caïpirinhas parfaites", "Quilles natures racées"],
-        must_eat: "L'Asado de tira de Black Angus : la découpe transversale des côtes selon la tradition sud-américaine assure un gras hyper croustillant.",
+        must_eat: "L’Asado de tira de Black Angus : la découpe transversale des côtes selon la tradition sud-américaine assure un gras hyper croustillant.",
         must_drink: "Débutez impérativement par leur Caïpirinha, peu sucrée et parfaitement équilibrée, avant de passer au rouge nature sur la viande."
     }
 };

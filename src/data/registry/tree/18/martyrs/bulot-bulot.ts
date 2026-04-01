@@ -5,7 +5,7 @@ export const bulot_bulot: SurgicalPlace = {
   slug: "bulot-bulot",
   name: "Bulot Bulot Seafood Bar",
   category: "restaurant",
-  subcategory: ["poisson", "fruits de mer", "crustacés", "martyrs", "insolite"],
+  subcategory: ['français'],
   location: {
     address: "83 Rue des Martyrs, 75018 Paris, France",
     arrondissement: 18,
@@ -86,8 +86,8 @@ export const bulot_bulot: SurgicalPlace = {
       }
     ]
   },
-  description: "À deux pas de Pigalle, Bulot Bulot est l'ambassade de la côte normande dans le 18e. Ici, pas de chichis : on s'installe au bar ou en terrasse pour déguster des huîtres ultra-fraîches, des bulots à l'aïoli et surtout leurs célèbres Lobster Rolls. L'ambiance est iodée, conviviale et délicieusement rétro. Une escale maritime indispensable en plein Paris.",
-  insider_tip: "• Pas de réservation : venez tôt pour choper une place en terrasse rue des Martyrs.\n• Le Lobster Roll Classique est le meilleur de la rive droite, testez-le absolument.\n• Accompagnez le tout d'un verre de Muscadet bien frais sélectionné par la maison.",
+  description: "À deux pas de Pigalle, Bulot Bulot est l’ambassade de la côte normande dans le 18e. Ici, pas de chichis : on s’installe au bar ou en terrasse pour déguster des huîtres ultra-fraîches, des bulots à l’aïoli et surtout leurs célèbres Lobster Rolls. L'ambiance est iodée, conviviale et délicieusement rétro. Une escale maritime indispensable en plein Paris.",
+  insider_tip: "• Pas de réservation : venez tôt pour choper une place en terrasse rue des Martyrs.\n• Le Lobster Roll Classique est le meilleur de la rive droite, testez-le absolument.\n• Accompagnez le tout d’un verre de Muscadet bien frais sélectionné par la maison.",
   specials: {
     cuisine: ["Seafood", "Poisson", "Poissons et fruits de mer"],
     drinks: ["Vins blancs de Loire", "Cidre fermier"],

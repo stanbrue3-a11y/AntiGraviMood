@@ -5,7 +5,7 @@ export const gourou: SurgicalPlace = {
     name: "Gourou",
     slug: "gourou",
     category: "restaurant",
-    subcategory: ["indien", "street-food", "moderne", "épices", "restaurant"],
+    subcategory: ['indien', 'français'],
     location: {
         address: "42 Rue Léon Frot",
         arrondissement: 11,
@@ -82,7 +82,7 @@ export const gourou: SurgicalPlace = {
                 items: [
                     { name: "Butter Chicken (Doux & Crémeux)", price_cents: 1350, description: "Poulet mariné, sauce tomate au beurre et amandes." },
                     { name: "Murgh Korma (Safran & Pistache)", price_cents: 1350 },
-                    { name: "Curry d'Agneau (Boulettes artisanales)", price_cents: 1550 },
+                    { name: "Curry d’Agneau (Boulettes artisanales)", price_cents: 1550 },
                     { name: "Ghost Palak (Agneau & Épinards frais)", price_cents: 1550 },
                     { name: "Chemmen Molee (Gambas & Lait de Coco)", price_cents: 1500 },
                     { name: "Saag Paneer (Fromage maison & Épinards)", price_cents: 1250 },
@@ -112,9 +112,9 @@ export const gourou: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Gourou est le nouveau souffle de la cuisine indienne dans le 11ème. Loin des clichés, ce néo-bistrot s'inspire de l'effervescence de Bombay pour proposer une 'Street Food' précise, colorée et 100% maison. Le décor est une immersion totale (Irani Café), les odeurs d'épices fraîches vous accueillent dès la porte et la bande-son Bollywood complète le voyage. Une adresse vibrante, moderne et redoutablement savoureuse.",
-    insider_tip: "• Testez impérativement le Vada Pav, le 'burger' culte de Bombay, rarissime à Paris dans cette qualité.\n• Leur Cheese Naan est fait à la commande et arrive fumant de vérité.\n• Le menu Solo à 19.50€ est d'une générosité rare : idéal pour une faim de loup.\n• Ambiance assez intimiste, parfait pour un date décontracté mais dépaysant.",
-    expert_catchline: "L'Inde version néo-bistrot : street-food explosive, déco d'Irani Café et épices millimétrées.",
+    description: "Gourou est le nouveau souffle de la cuisine indienne dans le 11ème. Loin des clichés, ce néo-bistrot s’inspire de l’effervescence de Bombay pour proposer une ’Street Food’ précise, colorée et 100% maison. Le décor est une immersion totale (Irani Café), les odeurs d’épices fraîches vous accueillent dès la porte et la bande-son Bollywood complète le voyage. Une adresse vibrante, moderne et redoutablement savoureuse.",
+    insider_tip: "• Testez impérativement le Vada Pav, le ’burger’ culte de Bombay, rarissime à Paris dans cette qualité.\n• Leur Cheese Naan est fait à la commande et arrive fumant de vérité.\n• Le menu Solo à 19.50€ est d’une générosité rare : idéal pour une faim de loup.\n• Ambiance assez intimiste, parfait pour un date décontracté mais dépaysant.",
+    expert_catchline: "L’Inde version néo-bistrot : street-food explosive, déco d'Irani Café et épices millimétrées.",
     specials: {
         cuisine: ["Vada Pav (Signature)", "Butter Chicken", "Peshawari Naan", "Ghost Palak"],
         drinks: ["Mango Lassi", "Bière Kingfisher", "Chaï Latte"],

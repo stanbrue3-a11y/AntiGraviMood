@@ -38,8 +38,8 @@ export const cafe_du_marche_7: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Le Café du Marché est le cœur battant de la rue Cler. Avec sa terrasse immense et toujours bondée, c'est l'endroit idéal pour s'imprégner de l'atmosphère bourgeoise et décontractée du 7ème arrondissement. On y vient pour un café matinal, un déjeuner de produits frais du marché ou un apéro qui s'étire. C'est une institution qui ne déçoit jamais, offrant un spectacle permanent sur la plus belle rue commerçante du quartier.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le Café du Marché est le cœur battant de la rue Cler. Avec sa terrasse immense et toujours bondée, c’est l’endroit idéal pour s’imprégner de l’atmosphère bourgeoise et décontractée du 7ème arrondissement. On y vient pour un café matinal, un déjeuner de produits frais du marché ou un apéro qui s’étire. C'est une institution qui ne déçoit jamais, offrant un spectacle permanent sur la plus belle rue commerçante du quartier.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

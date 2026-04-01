@@ -5,9 +5,9 @@ export const papy_aux_fourneaux: SurgicalPlace = {
     name: "Papy aux Fourneaux",
     slug: "papy-aux-fourneaux-paris",
     category: "restaurant",
-    subcategory: ["table-d-hotes", "convivial", "partage", "fait-maison", "terroir", "denfert"],
+    subcategory: ['français'],
     location: {
-        address: "70 Rue de l'Ouest, 75014 Paris, France",
+        address: "70 Rue de l’Ouest, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.834925,
         lng: 2.321896,
@@ -45,7 +45,7 @@ export const papy_aux_fourneaux: SurgicalPlace = {
                     { name: "Sauté de Veau à la Corse, Olives & Ail", price_cents: 2190, description: "Servi en cocotte de fonte au centre de la table." },
                     { name: "Paleron de 15h, Charolais du Bourbonnais", price_cents: 2600 },
                     { name: "Poisson du jour, Bisque de Crabe & Pastis", price_cents: 2090 },
-                    { name: "Croustillants de Pont L'Evêque AOP & Miel", price_cents: 1000 },
+                    { name: "Croustillants de Pont L’Evêque AOP & Miel", price_cents: 1000 },
                     { name: "Volaille de Vendée aux Pleurotes", price_cents: 1950 },
                     { name: "Potée de Jarret de Cochon Bio aux Lentilles", price_cents: 2100 },
                     { name: "Tartiflette de Légumes au Reblochon Fermier", price_cents: 1950 }
@@ -55,7 +55,7 @@ export const papy_aux_fourneaux: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Entrées de Papy",
                 items: [
-                    { name: "Oeufs Bio 'Jolie Cocotte' au Comté", price_cents: 650 },
+                    { name: "Oeufs Bio ’Jolie Cocotte' au Comté", price_cents: 650 },
                     { name: "Velouté de Carottes au Cumin & Raclette", price_cents: 1000 },
                     { name: "Assiette de Couteaux en Persillade", price_cents: 850 },
                     { name: "Velouté de Potimarron & Chips de Lard", price_cents: 750 },
@@ -84,11 +84,11 @@ export const papy_aux_fourneaux: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Papy aux Fourneaux réinvente le concept de la table d'hôtes avec une modernité et une chaleur désarmantes. Ici, pas d'assiettes individuelles dressées au millimètre, mais de grandes cocottes en fonte posées au centre de la table, invitant au partage et à la gourmandise. La cuisine est une déclaration d'amour aux produits français, sourcés directement auprès de petits producteurs. Le décor, mêlant vintage et industriel, crée une atmosphère de salon familial où l'on prend le temps de vivre. C'est l'adresse ultime pour un repas entre amis ou en famille qui finit toujours par se prolonger autour d'un bon dessert maison.",
-    insider_tip: "Le restaurant fonctionne sur le principe de la cocotte unique par table, idéal à partir de deux personnes. Ne faites pas l'impasse sur la brioche perdue, c'est le doudou culinaire de la maison.",
-    expert_catchline: "La convivialité régressive et généreuse d'un repas de famille.",
+    description: "Papy aux Fourneaux réinvente le concept de la table d’hôtes avec une modernité et une chaleur désarmantes. Ici, pas d’assiettes individuelles dressées au millimètre, mais de grandes cocottes en fonte posées au centre de la table, invitant au partage et à la gourmandise. La cuisine est une déclaration d’amour aux produits français, sourcés directement auprès de petits producteurs. Le décor, mêlant vintage et industriel, crée une atmosphère de salon familial où l’on prend le temps de vivre. C’est l’adresse ultime pour un repas entre amis ou en famille qui finit toujours par se prolonger autour d’un bon dessert maison.",
+    insider_tip: "Le restaurant fonctionne sur le principe de la cocotte unique par table, idéal à partir de deux personnes. Ne faites pas l’impasse sur la brioche perdue, c'est le doudou culinaire de la maison.",
+    expert_catchline: "La convivialité régressive et généreuse d’un repas de famille.",
     specials: {
-        cuisine: ["Table d'Hôtes", "Produits de Terroir"],
+        cuisine: ["Table d’Hôtes", "Produits de Terroir"],
         drinks: ["Vins de Producteurs", "Limonades Artisanales"],
         must_eat: "La Cocotte de Sauté de Veau et la Brioche Perdue.",
         must_drink: "Un vin de partage servi en carafe."

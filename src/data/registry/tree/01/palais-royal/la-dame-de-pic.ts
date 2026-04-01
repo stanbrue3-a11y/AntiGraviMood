@@ -5,7 +5,7 @@ export const la_dame_de_pic: SurgicalPlace = {
   slug: "la-dame-de-pic",
   name: "La Dame de Pic",
   category: "restaurant",
-  subcategory: ["gastronomique", "étoilé", "michelin", "louvre", "français", "moderne", "anne-sophie-pic"],
+  subcategory: ['français'],
   location: {
     address: "20 Rue du Louvre, 75001 Paris, France",
     arrondissement: 1,
@@ -44,10 +44,10 @@ export const la_dame_de_pic: SurgicalPlace = {
         items: [
           { name: "Les Berlingots iconiques (Soba et café)", price_cents: 4500, description: "Cœur coulant au Brillat-Savarin" },
           { name: "Betterave plurielle (Longuemare)", price_cents: 3200, description: "Infusée au café et poivron" },
-          { name: "Huître Marennes d'Oléron fumée", price_cents: 3800, description: "Bois de cerisier et mélisse" },
+          { name: "Huître Marennes d’Oléron fumée", price_cents: 3800, description: "Bois de cerisier et mélisse" },
           { name: "Tourteau de casier au géranium", price_cents: 4200, description: "Petits pois et fraises vertes" },
           { name: "Caviar Baeri et glace plancton", price_cents: 6500 },
-          { name: "Soupe de l'Himalaya aux lentilles", price_cents: 2800 }
+          { name: "Soupe de l’Himalaya aux lentilles", price_cents: 2800 }
         ]
       },
       {
@@ -68,7 +68,7 @@ export const la_dame_de_pic: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Desserts",
         items: [
-          { name: "Millefeuille Blanc au poivre Cubèbe", price_cents: 2400, description: "La signature d'Anne-Sophie Pic" },
+          { name: "Millefeuille Blanc au poivre Cubèbe", price_cents: 2400, description: "La signature d’Anne-Sophie Pic" },
           { name: "Chocolat de la Drôme et genévrier", price_cents: 2200 },
           { name: "Rhubarbe et Mélisse en textures", price_cents: 2000 },
           { name: "Fraise Gariguette et Shiso", price_cents: 2200 },
@@ -88,11 +88,11 @@ export const la_dame_de_pic: SurgicalPlace = {
       }
     ]
   },
-  description: "À quelques pas du Louvre, La Dame de Pic est l'ambassade parisienne de la cheffe Anne-Sophie Pic. Dans un cadre poudré et épuré, elle déploie une cuisine d'une sensibilité rare, jouant sur l'imprégnation et les arômes complexes. Chaque plat est une dentelle de saveurs, souvent sublimée par des accords parfumés inédits. Une expérience gastronomique d'une élégance absolue, étoilée au guide Michelin.",
-  insider_tip: "• Pensez à réserver plusieurs semaines à l'avance pour le dîner, le lieu est très convoité.\\n• Le Millefeuille Blanc est un passage obligé, c'est l'un des desserts les plus sophistiqués de Paris.\\n• La cheffe déménagera à la Fondation Cartier en 2026, profitez de l'écrin historique de la rue du Louvre tant qu'il en est temps.",
+  description: "À quelques pas du Louvre, La Dame de Pic est l’ambassade parisienne de la cheffe Anne-Sophie Pic. Dans un cadre poudré et épuré, elle déploie une cuisine d’une sensibilité rare, jouant sur l’imprégnation et les arômes complexes. Chaque plat est une dentelle de saveurs, souvent sublimée par des accords parfumés inédits. Une expérience gastronomique d'une élégance absolue, étoilée au guide Michelin.",
+  insider_tip: "• Pensez à réserver plusieurs semaines à l’avance pour le dîner, le lieu est très convoité.\\n• Le Millefeuille Blanc est un passage obligé, c’est l’un des desserts les plus sophistiqués de Paris.\\n• La cheffe déménagera à la Fondation Cartier en 2026, profitez de l’écrin historique de la rue du Louvre tant qu’il en est temps.",
   specials: {
     cuisine: ["Gastronomique", "Moderne", "Française"],
-    drinks: ["Vins d'exception", "Accords sans alcool"],
+    drinks: ["Vins d’exception", "Accords sans alcool"],
     must_eat: "Gastronomie moderne. Berlingots & Millefeuille Blanc",
   },
   images: {

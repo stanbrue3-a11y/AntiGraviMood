@@ -5,7 +5,7 @@ export const le_vrai_paris: SurgicalPlace = {
   slug: "le-vrai-paris",
   name: "Le vrai Paris",
   category: "restaurant",
-  subcategory: ["brasserie", "bistrot", "terrasse", "fleurie", "cuisine de terroir"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "33 Rue des Abbesses, 75018 Paris, France",
     arrondissement: 18,
@@ -45,7 +45,7 @@ export const le_vrai_paris: SurgicalPlace = {
         items: [
           { name: "Os à moelle rôti, gros sel", price_cents: 1200 },
           { name: "Escargots de Bourgogne (x6)", price_cents: 1450 },
-          { name: "Soupe à l'oignon gratinée", price_cents: 1100 },
+          { name: "Soupe à l’oignon gratinée", price_cents: 1100 },
           { name: "Salade de chèvre chaud", price_cents: 1300 },
           { name: "Foie gras de canard maison", price_cents: 1850 },
           { name: "Œuf cocotte aux morilles", price_cents: 1500 }
@@ -58,10 +58,10 @@ export const le_vrai_paris: SurgicalPlace = {
           { name: "Confit de canard du Sud-Ouest", price_cents: 2100 },
           { name: "Steak frites, sauce au poivre", price_cents: 2600 },
           { name: "Risotto aux champignons sauvages", price_cents: 1900 },
-          { name: "Pavé de saumon à l'oseille", price_cents: 2250 },
+          { name: "Pavé de saumon à l’oseille", price_cents: 2250 },
           { name: "Burger du Vrai Paris", price_cents: 1950 },
           { name: "Tartare de boeuf au couteau", price_cents: 1800 },
-          { name: "Blanquette de veau à l'ancienne", price_cents: 2200 },
+          { name: "Blanquette de veau à l’ancienne", price_cents: 2200 },
           { name: "Magret de canard au miel", price_cents: 2400 },
           { name: "Cassoulet maison", price_cents: 2350 }
         ]
@@ -80,8 +80,8 @@ export const le_vrai_paris: SurgicalPlace = {
       }
     ]
   },
-  description: "Bistrot parisien emblématique de la rue des Abbesses, Le Vrai Paris séduit par sa devanture fleurie spectaculaire et son atmosphère survoltée. On y déguste les grands classiques du terroir français dans un décor rétro soigné. Sa terrasse chauffée, idéalement placée, est l'un des meilleurs postes d'observation pour capturer l'esprit bohème et vibrant de Montmartre.",
-  insider_tip: "• **Timing Stratégique** : Pour un déjeuner en terrasse sans attente, privilégiez le service continu entre 15h et 18h.\n• **Combo Moelle** : Le Confit de Canard est ici une valeur sûre, particulièrement généreux et accompagné de frites maison croustillantes.\n• **Détail Secret** : La devanture fleurie change selon les saisons, n'oubliez pas votre appareil photo, c'est l'un des lieux les plus instagrammables de la Butte.",
+  description: "Bistrot parisien emblématique de la rue des Abbesses, Le Vrai Paris séduit par sa devanture fleurie spectaculaire et son atmosphère survoltée. On y déguste les grands classiques du terroir français dans un décor rétro soigné. Sa terrasse chauffée, idéalement placée, est l’un des meilleurs postes d’observation pour capturer l’esprit bohème et vibrant de Montmartre.",
+  insider_tip: "• **Timing Stratégique** : Pour un déjeuner en terrasse sans attente, privilégiez le service continu entre 15h et 18h.\n• **Combo Moelle** : Le Confit de Canard est ici une valeur sûre, particulièrement généreux et accompagné de frites maison croustillantes.\n• **Détail Secret** : La devanture fleurie change selon les saisons, n’oubliez pas votre appareil photo, c’est l’un des lieux les plus instagrammables de la Butte.",
   specials: {
     cuisine: ["Brasserie", "Bistrot", "Terroir"],
     drinks: ["Vins de pays", "Brouilly", "Bière pression"],

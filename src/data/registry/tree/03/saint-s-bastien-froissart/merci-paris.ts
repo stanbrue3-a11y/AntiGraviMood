@@ -40,7 +40,7 @@ export const merci_paris: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Merci est bien plus qu'un concept-store, c'est une destination. Situé dans un ancien atelier de tissus du Haut-Marais, on y accède par une cour pavée où trône toujours une petite Fiat 500 rouge (le spot photo incontournable). À l'intérieur, sous une verrière lumineuse, on découvre une sélection pointue de mode, de design et d'objets pour la maison, mise en scène comme dans un magazine. Mais Merci, c'est aussi un lieu de vie avec ses trois cafés, dont la fameuse Cantine Merci et le Café de la bibliothèque aux murs tapissés de 10 000 livres d'occasion.",
+    "description": "Merci est bien plus qu’un concept-store, c’est une destination. Situé dans un ancien atelier de tissus du Haut-Marais, on y accède par une cour pavée où trône toujours une petite Fiat 500 rouge (le spot photo incontournable). À l’intérieur, sous une verrière lumineuse, on découvre une sélection pointue de mode, de design et d’objets pour la maison, mise en scène comme dans un magazine. Mais Merci, c’est aussi un lieu de vie avec ses trois cafés, dont la fameuse Cantine Merci et le Café de la bibliothèque aux murs tapissés de 10 000 livres d'occasion.",
     "insider_tip": "Le Used Book Café est parfait pour lire entouré de milliers de livres. Très prisé le weekend.",
     "specials": {
         "cuisine": [],

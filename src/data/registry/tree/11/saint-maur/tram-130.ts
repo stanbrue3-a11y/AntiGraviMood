@@ -5,7 +5,7 @@ export const tram130: SurgicalPlace = {
     name: "Trâm 130",
     slug: "tram-130",
     category: "restaurant",
-    subcategory: ["bistronomic", "franco-vietnamese", "fusion", "creative"],
+    subcategory: ['français'],
     location: {
         address: "130 Rue Saint-Maur",
         arrondissement: 11,
@@ -57,7 +57,7 @@ export const tram130: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Les Plats",
                 items: [
-                    { name: "Risotto d'orzo crémeux, tourteau & bisque", price_cents: 3200 },
+                    { name: "Risotto d’orzo crémeux, tourteau & bisque", price_cents: 3200 },
                     { name: "Ris de veau laqués façon Char Siu", price_cents: 3500 },
                     { name: "Crêpe Banh Xèo revisitée (Végé)", price_cents: 2000, description: "Oignons, champignons, salade de fenouil, fromage frais." },
                     { name: "Pâtes fraîches, ragù de joue de boeuf à la citronnelle", price_cents: 2600 },
@@ -81,9 +81,9 @@ export const tram130: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Trâm 130 est l'une des ouvertures les plus excitantes du 11ème. La cheffe Priscilla Trâm y déploie une identité forte : une base classique française percutée par des saveurs vietnamiennes explosives. Ici, le jus de viande côtoie la citronnelle, et l'os à moëlle se pare d'herbes fraîches de Saïgon. Le tout dans un cadre de bistrot moderne, brut et vibrant.",
-    insider_tip: "Ne ratez pas leur Tartare sur os à moëlle, c'est le plat qui a fait leur réputation sur les réseaux et il est aussi bon qu'il est beau. Réservation indispensable car le lieu est pris d'assaut.",
-    expert_catchline: "L'éclatante fusion Franco-Viet de Priscilla Trâm : technique précise et saveurs percutantes.",
+    description: "Trâm 130 est l’une des ouvertures les plus excitantes du 11ème. La cheffe Priscilla Trâm y déploie une identité forte : une base classique française percutée par des saveurs vietnamiennes explosives. Ici, le jus de viande côtoie la citronnelle, et l’os à moëlle se pare d’herbes fraîches de Saïgon. Le tout dans un cadre de bistrot moderne, brut et vibrant.",
+    insider_tip: "Ne ratez pas leur Tartare sur os à moëlle, c’est le plat qui a fait leur réputation sur les réseaux et il est aussi bon qu’il est beau. Réservation indispensable car le lieu est pris d’assaut.",
+    expert_catchline: "L’éclatante fusion Franco-Viet de Priscilla Trâm : technique précise et saveurs percutantes.",
     specials: {
         cuisine: ["Bistronomie Franco-Viet", "Produits de saison", "Accords créatifs"],
         drinks: ["Sélection courte et efficace de vins natures", "Bière artisanale"],

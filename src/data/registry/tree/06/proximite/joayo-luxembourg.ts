@@ -10,7 +10,7 @@ export const joayo_luxembourg: SurgicalPlace = {
     "google_rating": 4.5,
     "instagram_handle": "joayoparis",
     "location": {
-        "address": "54 Rue d'Assas, 75006 Paris",
+        "address": "54 Rue d’Assas, 75006 Paris",
         "arrondissement": 6,
         "lat": 48.8464963,
         "lng": 2.3306421,
@@ -38,7 +38,7 @@ export const joayo_luxembourg: SurgicalPlace = {
         "index_price": 23, // BBQ Base
         "pint_price": 6.8, // Bières coréennes (Kloud)
         "soft_price": 4,
-        "smart_tip": "Le rapport qualité-quantité est imbattable grâce aux 'Banchans' (accompagnements) et au riz servis à volonté avec les BBQs. Pour les petits budgets, le Bibimbap à 17€ est extrêmement généreux.",
+        "smart_tip": "Le rapport qualité-quantité est imbattable grâce aux ’Banchans' (accompagnements) et au riz servis à volonté avec les BBQs. Pour les petits budgets, le Bibimbap à 17€ est extrêmement généreux.",
         "menu_items": [
             {
                 "category_type": "main",
@@ -82,13 +82,13 @@ export const joayo_luxembourg: SurgicalPlace = {
         "festif": 40,
         "culturel": 20
     },
-    "description": "Situé à deux pas du Jardin du Luxembourg, Joayo Luxembourg est l'une des adresses les plus authentiques de la rive gauche pour le Barbecue Coréen. Le décor, mariant briques apparentes et boiseries chaleureuses, crée une atmosphère de taverne séoulite moderne. Chaque table est équipée de son propre système de grillade intégré, permettant une immersion totale. La promesse du lieu tient dans la fraîcheur des marinades et la générosité des banchan (petits plats d'accompagnement typiques) qui ponctuent tout le repas.",
-    "insider_tip": "• Ne commandez pas trop d'entrées : le riz et les 4 types de banchans (souvent kimchi, pousses de soja, radis marine, algues) sont servis à volonté avec tous les barbecues.\n• Si vous n'êtes pas habitué à la cuisson sur grill, les serveurs sont très didactiques et n'hésitent pas à prendre les pinces pour vous montrer le timing parfait.\n• Évitez le créneau de 20h pile sans réservation, le lieu est très prisé par les étudiants de la faculté d'Assas voisine.",
+    "description": "Situé à deux pas du Jardin du Luxembourg, Joayo Luxembourg est l’une des adresses les plus authentiques de la rive gauche pour le Barbecue Coréen. Le décor, mariant briques apparentes et boiseries chaleureuses, crée une atmosphère de taverne séoulite moderne. Chaque table est équipée de son propre système de grillade intégré, permettant une immersion totale. La promesse du lieu tient dans la fraîcheur des marinades et la générosité des banchan (petits plats d'accompagnement typiques) qui ponctuent tout le repas.",
+    "insider_tip": "• Ne commandez pas trop d’entrées : le riz et les 4 types de banchans (souvent kimchi, pousses de soja, radis marine, algues) sont servis à volonté avec tous les barbecues.\n• Si vous n’êtes pas habitué à la cuisson sur grill, les serveurs sont très didactiques et n’hésitent pas à prendre les pinces pour vous montrer le timing parfait.\n• Évitez le créneau de 20h pile sans réservation, le lieu est très prisé par les étudiants de la faculté d'Assas voisine.",
     "specials": {
         "cuisine": ["Coréen", "Barbecue", "Bibimbap"],
         "drinks": ["Soju", "Bière", "Soft"],
         "must_eat": "Le Barbecue de Bœuf mariné & les Mandu maison.",
-        "expert_catchline": "L'immersion coréenne parfaite à Assas : BBQ généreux et banchans illimités."
+        "expert_catchline": "L’immersion coréenne parfaite à Assas : BBQ généreux et banchans illimités."
     },
     "images": {
         "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXAYz6vSlr7oZgf_27bNcuVpnt_LW9cl-e-xnuC3YBhwoZO6lwzFkiF-RQqBvWIMGPxlWg3ty3-PRC_V6UkIisYwLxCbyG-IdvntQ9PYgnwyc2_kJOyjuvpF_xLUk3PGov0ne6f0Of88s0CIC61V3ICbg1cL2T_feuqsCG4VPixRy35NqdEK6mOyuhp27OI_-uOz72OaAyIWXfNFMZfBmiubWWCOgRg3I2znSF1_DZLz9RlNdXoHoXcuFUOWIW1ejJb_xQLAvFwUujum8LNAiXO4n8oNlJ6qYpLOWq_jen2K-JMLgv5X4hJlxz8Lms3p8GbzYAjxlmffaEwqklaPBRFafuDyyWWDnLbGbNJOmF26dtAmOS_jngxWOW8LcCu4ckQ5LhvNWq_FlX-ZDsROerWzvgFYFV47URQtzyiiU9zagxJrBzRk1gC9SHcYn7bvJ66NycF452tY87x4gvY_kz3BdWUFQLlfimRtsD1UHTdfixdXLsVOtpiqy0sHwauZbsrQ3yrPQq2MwxB2REhZuWD9pOlyQ30ST7XQ9pvRGDUPj9Mhxb9ZOkuLXjtlrLCCb9K33mHNPK3Sw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",

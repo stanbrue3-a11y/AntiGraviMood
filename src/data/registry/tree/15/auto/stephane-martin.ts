@@ -44,6 +44,7 @@ export const stephane_martin: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

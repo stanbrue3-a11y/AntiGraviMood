@@ -5,7 +5,7 @@ export const sinorama: SurgicalPlace = {
   slug: "sinorama",
   name: "Sinorama 大家樂",
   category: "restaurant",
-  subcategory: ["cantonais"],
+  subcategory: ['français'],
   location: {
     address: "23 Rue du Dr Magnan, 75013 Paris, France",
     arrondissement: 13,
@@ -101,10 +101,10 @@ export const sinorama: SurgicalPlace = {
       }
     ]
   },
-  description: "Sinorama (大家樂) est une institution emblématique de la Dalle des Olympiades, véritable épicentre de la culture hongkongaise à Paris. Réputé pour son canard laqué servi en trois services et sa rôtisserie visible dès l'entrée, le restaurant attire une clientèle d'habitués en quête d'authenticité. La salle, vaste et animée, résonne du bruit des baguettes et des woks, offrant une immersion totale dans un bouillon de culture cantonaise. C'est l'un des rares endroits de Paris où l'on peut encore trouver des recettes traditionnelles inchangées depuis des décennies.",
-  insider_tip: `• **Le Rite du Canard** : Pour une expérience ultime, commandez le canard en 3 services (peau croustillante avec crêpes, chair sautée, et bouillon). C'est le standard d'excellence de la maison.
+  description: "Sinorama (大家樂) est une institution emblématique de la Dalle des Olympiades, véritable épicentre de la culture hongkongaise à Paris. Réputé pour son canard laqué servi en trois services et sa rôtisserie visible dès l’entrée, le restaurant attire une clientèle d’habitués en quête d’authenticité. La salle, vaste et animée, résonne du bruit des baguettes et des woks, offrant une immersion totale dans un bouillon de culture cantonaise. C’est l’un des rares endroits de Paris où l'on peut encore trouver des recettes traditionnelles inchangées depuis des décennies.",
+  insider_tip: `• **Le Rite du Canard** : Pour une expérience ultime, commandez le canard en 3 services (peau croustillante avec crêpes, chair sautée, et bouillon). C’est le standard d'excellence de la maison.
   • **Secret de Dalle** : Les étiquettes écrites à la main sur les murs indiquent souvent les arrivages de poissons frais ou les spécialités du jour non inscrites sur la carte plastifiée.
-  • **Noctambules bienvenus** : Le service continue souvent tard dans la nuit (jusqu'à 2h), ce qui en fait le refuge préféré des chefs et des travailleurs de nuit du quartier.`,
+  • **Noctambules bienvenus** : Le service continue souvent tard dans la nuit (jusqu’à 2h), ce qui en fait le refuge préféré des chefs et des travailleurs de nuit du quartier.`,
   specials: {
     cuisine: ["Cantonaise", "Hongkongaise", "Chinoise"],
     drinks: ["Thé Pu-Erh", "Bière Tsingtao"],

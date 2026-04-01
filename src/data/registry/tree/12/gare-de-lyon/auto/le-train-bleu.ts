@@ -5,7 +5,7 @@ export const le_train_bleu: SurgicalPlace = {
   slug: "le-train-bleu",
   name: "Le Train Bleu",
   category: "restaurant",
-  subcategory: ["gastronomi"],
+  subcategory: ['français'],
   location: {
     address: "Gare de Lyon, Pl. Louis Armand hall 1, 75012 Paris, France",
     arrondissement: 12,
@@ -42,7 +42,7 @@ export const le_train_bleu: SurgicalPlace = {
     menu_items: [
       {
         category_type: "tasting_menu",
-        display_label: "Les Menus d'Apparat (Formules)",
+        display_label: "Les Menus d’Apparat (Formules)",
         items: [
           { name: "Menu Voyageur (E + P + D)", price_cents: 5200, is_highlight: true },
           { name: "Menu Train Bleu (Dégustation 5 temps)", price_cents: 11500, is_highlight: true }
@@ -53,18 +53,18 @@ export const le_train_bleu: SurgicalPlace = {
         display_label: "Entrées de Prestige",
         items: [
           { name: "Foie Gras de Canard maison, brioche", price_cents: 3200, is_highlight: true },
-          { name: "Saumon Fumé d'Écosse, crème d'aneth", price_cents: 2900 },
+          { name: "Saumon Fumé d’Écosse, crème d'aneth", price_cents: 2900 },
           { name: "Escargots de Bourgogne (x12)", price_cents: 3400 },
-          { name: "Soupe à l'Oignon gratinée au Comté", price_cents: 1500 },
+          { name: "Soupe à l’Oignon gratinée au Comté", price_cents: 1500 },
           { name: "Pâté en Croûte Richelieu", price_cents: 2400 },
           { name: "Carpaccio de Saint-Jacques, truffe", price_cents: 2800 }
         ]
       },
       {
         category_type: "main",
-        display_label: "Plats Signature (L'Art de Vivre)",
+        display_label: "Plats Signature (L’Art de Vivre)",
         items: [
-          { name: "Gigot d'Agneau de pays (découpé voiture)", price_cents: 4200, is_highlight: true },
+          { name: "Gigot d’Agneau de pays (découpé voiture)", price_cents: 4200, is_highlight: true },
           { name: "Filet de Bœuf façon Rossini", price_cents: 4800, is_highlight: true },
           { name: "Sole de petit bateau Meunière", price_cents: 5800 },
           { name: "Risotto aux Gambas & Bisque corsée", price_cents: 3600 },
@@ -101,14 +101,14 @@ export const le_train_bleu: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Train Bleu est bien plus qu'un restaurant : c'est un monument historique situé au cœur de la Gare de Lyon. Inauguré en 1901 pour l'Exposition Universelle, son décor somptueux de fresques, dorures et mobiliers d'époque transporte les convives dans l'opulence de la Belle Époque. On y déguste une cuisine française classique et bourgeoise d'une qualité exceptionnelle, servie avec le panache d'antan, notamment les découpes et flambages effectués directement à table par un personnel en livrée.",
-  insider_tip: `• **Spectacle du Service** : Commandez le gigot d'agneau ou le steak au poivre pour admirer le savoir-faire des maîtres d'hôtel qui officient à la voiture de découpe ou procèdent au flambage devant vous.
+  description: "Le Train Bleu est bien plus qu’un restaurant : c’est un monument historique situé au cœur de la Gare de Lyon. Inauguré en 1901 pour l’Exposition Universelle, son décor somptueux de fresques, dorures et mobiliers d’époque transporte les convives dans l’opulence de la Belle Époque. On y déguste une cuisine française classique et bourgeoise d’une qualité exceptionnelle, servie avec le panache d’antan, notamment les découpes et flambages effectués directement à table par un personnel en livrée.",
+  insider_tip: `• **Spectacle du Service** : Commandez le gigot d’agneau ou le steak au poivre pour admirer le savoir-faire des maîtres d'hôtel qui officient à la voiture de découpe ou procèdent au flambage devant vous.
   • **Le Bar de Scène** : Derrière le restaurant se cache un bar plus confidentiel, parfait pour un cocktail dans un décor tout aussi grandiose.
-  • **Réservation Cruciale** : C'est l'une des tables les plus prisées de Paris, réservez plusieurs semaines à l'avance pour garantir votre voyage dans le temps.`,
+  • **Réservation Cruciale** : C’est l’une des tables les plus prisées de Paris, réservez plusieurs semaines à l’avance pour garantir votre voyage dans le temps.`,
   specials: {
     cuisine: ["Gastronomique Française", "Classique Spirit"],
     drinks: ["Champagne", "Grands Crus"],
-    must_eat: "Gastronomie. Gigot d'Agneau & Soufflé au Grand Marnier",
+    must_eat: "Gastronomie. Gigot d’Agneau & Soufflé au Grand Marnier",
   },
   images: {
     hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",

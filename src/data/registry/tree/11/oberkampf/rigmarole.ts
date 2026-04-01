@@ -5,7 +5,7 @@ export const rigmarole: SurgicalPlace = {
     name: "The Rigmarole",
     slug: "rigmarole",
     category: "restaurant",
-    subcategory: ["étoilé", "feu de bois", "japonais", "italien", "restaurant"],
+    subcategory: ['français', 'japonais', 'italien'],
     location: {
         address: "10 Rue du Grand Prieuré",
         arrondissement: 11,
@@ -55,12 +55,12 @@ export const rigmarole: SurgicalPlace = {
                     // VERIFIED: LeFooding (2024)
                     { name: "Menu Dégustation (~13 plats, accord omakase)", price_cents: 7500, description: "Le grand menu complet du déjeuner." },
                     // VERIFIED: LeFooding + LesRestos
-                    { name: "Menu Brochettes (9 brochettes chef's choice)", price_cents: 4500 }
+                    { name: "Menu Brochettes (9 brochettes chef’s choice)", price_cents: 4500 }
                 ]
             },
             {
                 category_type: "other",
-                display_label: "Privatisation / Table d'Hôte (Soirée sur réservation)",
+                display_label: "Privatisation / Table d’Hôte (Soirée sur réservation)",
                 items: [
                     // VERIFIED: Site officiel lerigmarole.com
                     { name: "Menu Privé 12 passages (8-16 couverts minimum)", price_cents: 16000, description: "Menu exhaustif sur mesure avec préférences et restrictions." }
@@ -96,7 +96,7 @@ export const rigmarole: SurgicalPlace = {
                     { name: "Bar tartare", price_cents: 1800 },
                     { name: "Maquereau grillé au binchotan", price_cents: 1600 },
                     { name: "Seiche grillée, yaourt épicé", price_cents: 1800 },
-                    { name: "Polpette de porc, purée d'épinards", price_cents: 1400 },
+                    { name: "Polpette de porc, purée d’épinards", price_cents: 1400 },
                     { name: "Beignets de butternut", price_cents: 1200 },
                     { name: "Poireaux grillés", price_cents: 1000 },
                     { name: "Courgettes rôties au binchotan", price_cents: 1000 }
@@ -111,7 +111,7 @@ export const rigmarole: SurgicalPlace = {
                 items: [
                     // VERIFIED: LesRestos (2024)
                     { name: "Far aux dattes", price_cents: 1000 },
-                    { name: "Fondant au chocolat, glace à l'orge grillé", price_cents: 1200 }
+                    { name: "Fondant au chocolat, glace à l’orge grillé", price_cents: 1200 }
                 ]
             },
             // ═══════════════════════════════════════════
@@ -124,7 +124,7 @@ export const rigmarole: SurgicalPlace = {
                     // VERIFIED: LeFooding (2024) — "5€ le verre à 70€ la bouteille"
                     { name: "Sauvignon de Loire (verre)", price_cents: 500 },
                     { name: "Blanc des Côtes-du-Jura (verre)", price_cents: 900 },
-                    { name: "Gamay de l'Ardèche (verre)", price_cents: 700 },
+                    { name: "Gamay de l’Ardèche (verre)", price_cents: 700 },
                     { name: "Rouge autrichien nature (verre)", price_cents: 900 },
                     { name: "Bouteille nature (à partir de)", price_cents: 2800 },
                     { name: "Bouteille premium", price_cents: 7000 }
@@ -142,12 +142,12 @@ export const rigmarole: SurgicalPlace = {
     instagram_handle: "lerigmarole",
     verified: true,
     google_rating: 4.7,
-    description: "Le Rigmarole est la fusion miraculeuse entre le yakitori japonais et la pasta italienne en plein cœur d'Oberkampf. Le chef Robert Compagnon et la sommelière Jessica Yang (couple à la ville) y orchestrent un ballet hypnotisant au-dessus du charbon binchotan. Ancien étoilé Michelin, le restaurant a choisi de rendre son étoile pour se concentrer sur un service plus intime et familial, désormais uniquement au déjeuner du mercredi au vendredi.",
-    insider_tip: "• Obtenir une place ici relève du miracle : les réservations ouvrent exactement 14 jours à l'avance pour ces 3 déjeuners seulement (Mer-Ven).\n• Réservez impérativement une place au comptoir en noyer pour voir les chefs danser avec les flammes du Binchotan — c'est le vrai spectacle.\n• Les spaghetti à la poutargue (24€) et les ravioli ricotta en dashi sont les stars cachées derrière les brochettes.\n• Si vous n'avez pas de place, consolez-vous avec les glaces démentielles de Folderol juste à côté (même propriétaires).\n• Le Sauvignon de Loire au verre (5€) est un deal stratosphérique pour cette adresse.",
+    description: "Le Rigmarole est la fusion miraculeuse entre le yakitori japonais et la pasta italienne en plein cœur d’Oberkampf. Le chef Robert Compagnon et la sommelière Jessica Yang (couple à la ville) y orchestrent un ballet hypnotisant au-dessus du charbon binchotan. Ancien étoilé Michelin, le restaurant a choisi de rendre son étoile pour se concentrer sur un service plus intime et familial, désormais uniquement au déjeuner du mercredi au vendredi.",
+    insider_tip: "• Obtenir une place ici relève du miracle : les réservations ouvrent exactement 14 jours à l’avance pour ces 3 déjeuners seulement (Mer-Ven).\n• Réservez impérativement une place au comptoir en noyer pour voir les chefs danser avec les flammes du Binchotan — c’est le vrai spectacle.\n• Les spaghetti à la poutargue (24€) et les ravioli ricotta en dashi sont les stars cachées derrière les brochettes.\n• Si vous n’avez pas de place, consolez-vous avec les glaces démentielles de Folderol juste à côté (même propriétaires).\n• Le Sauvignon de Loire au verre (5€) est un deal stratosphérique pour cette adresse.",
     expert_catchline: "Le meilleur yakitori-pasta de Paris au comptoir, sur charbon binchotan et avec des vins natures dès 5€.",
     specials: {
         cuisine: ["Yakitori cuisse de poulet", "Spaghetti poutargue", "Pâtes au homard", "Polpette de porc", "Demi-pigeon grillé"],
-        drinks: ["Vins natures dès 5€/verre", "Sauvignon de Loire", "Gamay de l'Ardèche", "Sélection de Sakés"],
+        drinks: ["Vins natures dès 5€/verre", "Sauvignon de Loire", "Gamay de l’Ardèche", "Sélection de Sakés"],
         must_eat: "Commandez le Menu Surprise (50€) pour avoir la vision complète du chef : 7 brochettes yakitori cuites au binchotan (poulet, porc, légumes, abats), 2 petits plats, pickles maison et un dessert. Les spaghetti à la poutargue (24€) sont un impératif si vous êtes à la carte.",
         must_drink: "Jessica Yang gère la salle et les vins avec une maîtrise rare. Sa cave nature va du verre de Sauvignon de Loire à 5€ aux bouteilles à 70€, avec des accords parfaits à chaque assiette."
     }

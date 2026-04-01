@@ -40,7 +40,7 @@ export const silencio: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Conçu par David Lynch lui-même, ce club privé est une œuvre d'art totale. Tout y est doré, sombre et étrange : le tunnel d'entrée, la salle de cinéma, le fumoir en forme de forêt pétrifiée. Avant minuit, c'est réservé aux membres (artistes, cinéphiles) ; après, le commun des mortels peut tenter d'entrer pour danser. L'ambiance est feutrée, mystérieuse, très 'Mulholland Drive'. C'est le club le plus esthétique et le plus snob de Paris.",
+    "description": "Conçu par David Lynch lui-même, ce club privé est une œuvre d’art totale. Tout y est doré, sombre et étrange : le tunnel d’entrée, la salle de cinéma, le fumoir en forme de forêt pétrifiée. Avant minuit, c’est réservé aux membres (artistes, cinéphiles) ; après, le commun des mortels peut tenter d’entrer pour danser. L’ambiance est feutrée, mystérieuse, très ’Mulholland Drive’. C'est le club le plus esthétique et le plus snob de Paris.",
     "insider_tip": "L entrée est réservée aux membres avant minuit. Tentez votre chance en étant impeccablement sapé.",
     "specials": {
         "cuisine": [],

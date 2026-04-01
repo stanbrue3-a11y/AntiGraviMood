@@ -5,7 +5,7 @@ export const o_mexico: SurgicalPlace = {
   slug: "o-mexico",
   name: "O’Mexico",
   category: "restaurant",
-  subcategory: ["mexicain"],
+  subcategory: ['méditerranéen'],
   location: {
     address: "20 Rue du Père Guérin, 75013 Paris, France",
     arrondissement: 13,
@@ -44,7 +44,7 @@ export const o_mexico: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées (Antojitos)",
         items: [
-          { name: "Nachos O'Mexico (Complet)", price_cents: 990, is_highlight: true },
+          { name: "Nachos O’Mexico (Complet)", price_cents: 990, is_highlight: true },
           { name: "Quesadillas au Poulet", price_cents: 990 },
           { name: "Queso Flameado au Chorizo", price_cents: 990 },
           { name: "Tacos de Pollo (x2)", price_cents: 990 },
@@ -80,7 +80,7 @@ export const o_mexico: SurgicalPlace = {
         display_label: "Douceurs (Desserts)",
         items: [
           { name: "Flan de la Abuela (Caramel)", price_cents: 650 },
-          { name: "Banana Split O'Mexico", price_cents: 750 },
+          { name: "Banana Split O’Mexico", price_cents: 750 },
           { name: "Dame Blanche Classique", price_cents: 650 },
           { name: "Salade de Fruits Exotiques", price_cents: 600 },
           { name: "Café de Olla (Épices)", price_cents: 350 }
@@ -100,14 +100,14 @@ export const o_mexico: SurgicalPlace = {
       }
     ]
   },
-  description: "O'Mexico est une escale colorée et chaleureuse située à deux pas de la Butte-aux-Cailles, proposant une immersion authentique dans la gastronomie mexicaine et Tex-Mex. Entre les murs ornés de sombreros et l'accueil chantant de la famille, on y déguste des classiques maîtrisés comme les enchiladas suizas ou le fameux chili con carne mijoté des heures. C'est l'adresse parfaite pour une soirée festive autour d'une margarita artisanale et de nachos partagés en toute simplicité.",
+  description: "O’Mexico est une escale colorée et chaleureuse située à deux pas de la Butte-aux-Cailles, proposant une immersion authentique dans la gastronomie mexicaine et Tex-Mex. Entre les murs ornés de sombreros et l’accueil chantant de la famille, on y déguste des classiques maîtrisés comme les enchiladas suizas ou le fameux chili con carne mijoté des heures. C’est l’adresse parfaite pour une soirée festive autour d’une margarita artisanale et de nachos partagés en toute simplicité.",
   insider_tip: `• **Le Combo Satiété** : Les fajitas arrivent sur plaque chauffante, l'odeur est irrésistible mais prévoyez de la place car la portion de riz et de tortillas est généreuse.
-  • **Spécialité Cachée** : Le Pollo con Piña (Poulet à l'ananas) est une recette rare à Paris, héritée directement de la province d'Oaxaca.
-  • **Vibe Midi** : Le menu à 15,90€ est l'un des meilleurs rapports qualité-prix du quartier pour un déjeuner complet et dépaysant.`,
+  • **Spécialité Cachée** : Le Pollo con Piña (Poulet à l’ananas) est une recette rare à Paris, héritée directement de la province d'Oaxaca.
+  • **Vibe Midi** : Le menu à 15,90€ est l’un des meilleurs rapports qualité-prix du quartier pour un déjeuner complet et dépaysant.`,
   specials: {
     cuisine: ["Mexicaine", "Tex-Mex"],
     drinks: ["Margarita", "Tequila", "Bière Mexicaine"],
-    must_eat: "Cuisine Mexicaine. Enchilada Mexicana & Nachos O'Mexico",
+    must_eat: "Cuisine Mexicaine. Enchilada Mexicana & Nachos O’Mexico",
   },
   images: {
     hero: "AU_ZVEGZxk-z2HATMWsZvcwDzmy-f9CjaD-hgPkXHW0bbOWhrZBz1mTxSqd9XFAlH_f4XNZzX3ZfcQDPbP_SIJgzeLaEqLCKl5ws2rwvr2by5WOJPh29LDQ5L5CAVtpi8iAQakEojOEQEIVD3_Nl--KmOTeokUvBbhAvY2iEMofoXMcRPtpYOnB-PV045B3Fi_HZCif82Hs9J2dWCjXrzZl_KJ0LOksnc9_o0ey9JKd_laVSs84WeZjJto9NjP4v8WJ_ku3GuTDvwkemKc2lErlCoGxIeQ1vo0_hkU1QIYIpbxguIQ",

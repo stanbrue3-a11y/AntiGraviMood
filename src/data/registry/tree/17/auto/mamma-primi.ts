@@ -5,7 +5,7 @@ export const mamma_primi: SurgicalPlace = {
   slug: "mamma-primi",
   name: "Mamma Primi",
   category: "restaurant",
-  subcategory: ["Italien", "Pizza", "Trattoria"],
+  subcategory: ['français'],
   location: {
     address: "18 Rue Boursault, 75017 Paris, France",
     arrondissement: 17,
@@ -67,7 +67,7 @@ export const mamma_primi: SurgicalPlace = {
           { name: "Tiramisu géant à la cuillère", price_cents: 1000 },
           { name: "Pizza au Nutella et noisettes", price_cents: 1200 },
           { name: "Panna cotta aux fruits rouges", price_cents: 800 },
-          { name: "Glaces artisanales à l'italienne", price_cents: 700 },
+          { name: "Glaces artisanales à l’italienne", price_cents: 700 },
           { name: "Affogato al caffe", price_cents: 600 }
         ]
       },
@@ -85,7 +85,7 @@ export const mamma_primi: SurgicalPlace = {
     ]
   },
   description: `Mamma Primi est la déclinaison florale et chaleureuse du groupe Big Mamma aux Batignolles. Entre les suspensions de fleurs séchées et la vaisselle colorée chinée en Italie, on y sert une cuisine généreuse faite maison. Le spot parfait pour une soirée festive entre amis autour d'une pile de pizzas au feu de bois et de cocktails italiens.`,
-  insider_tip: `• **Timing Stratégique** : Arrivez 15 minutes avant l'ouverture de la session du soir (18h15) pour espérer avoir une table sans trop d'attente (pas de résa).
+  insider_tip: `• **Timing Stratégique** : Arrivez 15 minutes avant l’ouverture de la session du soir (18h15) pour espérer avoir une table sans trop d'attente (pas de résa).
   • **Combo Moelle** : Les pâtes à la truffe sont un must-eat absolu, généreuses et parfaitement parfumées.
   • **Côté Verre** : Testez leur sélection de Spritz, toujours bien dosés et rafraîchissants.`,
   expert_catchline: "La folle trattoria italienne au cœur des Batignolles.",

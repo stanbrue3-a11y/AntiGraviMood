@@ -5,7 +5,7 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
   slug: "chakaiseki-akiyoshi",
   name: "Chakaiseki Akiyoshi",
   category: "restaurant",
-  subcategory: ["japonais", "kaiseki", "etoile", "the", "gastronomique"],
+  subcategory: ['japonais', 'français'],
   location: {
     address: "59 Rue Letellier, 75015 Paris, France",
     arrondissement: 15,
@@ -50,7 +50,7 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
           { name: "Mukozuke (Fine découpe de Daurade Royale)", price_cents: 0, is_highlight: true },
           { name: "Bouillon de Langoustine & Écorces de Yuzu", price_cents: 0 },
           { name: "Carpaccio de Poisson blanc au Ponzu artisanal", price_cents: 0 },
-          { name: "Tempura d'Asperges vertes & Fleur de sel", price_cents: 0 },
+          { name: "Tempura d’Asperges vertes & Fleur de sel", price_cents: 0 },
           { name: "Salade de 14 Légumes au Kumquat & Wasabi", price_cents: 0 },
           { name: "Tataki de Thon Rouge fumé minute", price_cents: 0 }
         ]
@@ -65,7 +65,7 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
           { name: "Sushi de Maquereau grillé (Aburi Saba)", price_cents: 0, is_highlight: true },
           { name: "Filet de Bœuf Wagyu A5 grillé (Supplément)", price_cents: 4500 },
           { name: "Riz Niigata cuit au charbon de bois", price_cents: 0, is_highlight: true },
-          { name: "Petit pot de Légumes d'hiver braisés au Dashi", price_cents: 0 },
+          { name: "Petit pot de Légumes d’hiver braisés au Dashi", price_cents: 0 },
           { name: "Soupe Miso blanc de Kyoto (Saikyo Miso)", price_cents: 0 }
         ]
       },
@@ -94,12 +94,12 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
       },
       {
         category_type: "drink",
-        display_label: "L'Art du Matcha & Sakés (Boissons)",
+        display_label: "L’Art du Matcha & Sakés (Boissons)",
         items: [
           { name: "Matcha de cérémonie Uji (Kyoto) préparé minute", price_cents: 1200, is_highlight: true },
           { name: "Thé Genmaicha (Vert & Riz grillé)", price_cents: 850 },
           { name: "Thé Sobacha (Sarrasin grillé)", price_cents: 750 },
-          { name: "Verre de Saké Junmai Daiginjo 'Kokuu'", price_cents: 1800, is_highlight: true },
+          { name: "Verre de Saké Junmai Daiginjo ’Kokuu'", price_cents: 1800, is_highlight: true },
           { name: "Saké Pétillant Shichiken", price_cents: 2200 },
           { name: "Verre de Meursault (Accord Vins)", price_cents: 2400 },
           { name: "Eau micro-filtrée Akiyoshi", price_cents: 550 }
@@ -107,12 +107,12 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
       }
     ]
   },
-  description: "Chakaiseki Akiyoshi est une enclave de sérénité absolue, premier restaurant hors du Japon entièrement dédié à l'art du Cha-kaiseki (repas précédant la cérémonie du thé). Étoilé au Guide Michelin, le chef propose une expérience méditative où chaque geste, de la cuisson du riz au charbon de bois à la préparation du matcha, est un rituel. Le décor Sukiya minimaliste et les saveurs d'une pureté rare transportent convives directement à Kyoto.",
-  insider_tip: "• **Le Comptoir** : Réservez au comptoir de la cérémonie du thé pour observer la précision millimétrée du chef.\n• **Le Rythme** : Prévoyez du temps. Le Cha-kaiseki est une expérience lente, rythmée par le calme et la contemplation.\n• **L'Accord Thé** : L'accord thés est magistral et offre une perspective différente de l'accord saké classique.",
+  description: "Chakaiseki Akiyoshi est une enclave de sérénité absolue, premier restaurant hors du Japon entièrement dédié à l’art du Cha-kaiseki (repas précédant la cérémonie du thé). Étoilé au Guide Michelin, le chef propose une expérience méditative où chaque geste, de la cuisson du riz au charbon de bois à la préparation du matcha, est un rituel. Le décor Sukiya minimaliste et les saveurs d'une pureté rare transportent convives directement à Kyoto.",
+  insider_tip: "• **Le Comptoir** : Réservez au comptoir de la cérémonie du thé pour observer la précision millimétrée du chef.\n• **Le Rythme** : Prévoyez du temps. Le Cha-kaiseki est une expérience lente, rythmée par le calme et la contemplation.\n• **L’Accord Thé** : L’accord thés est magistral et offre une perspective différente de l’accord saké classique.",
   specials: {
     cuisine: ["Cha-kaiseki traditionnel", "Cérémonie du thé", "Cuisson au charbon de bois"],
     drinks: ["Matcha de cérémonie", "Sakés Junmai Daiginjo", "Thés rares de Kyoto"],
-    must_eat: "Le Riz Niigata cuit au charbon de bois : la base sacrée du repas, d'une texture et d'un goût inoubliables.",
+    must_eat: "Le Riz Niigata cuit au charbon de bois : la base sacrée du repas, d’une texture et d'un goût inoubliables.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEoMMewCT-EK70qQP_WYrLQKVMw3Fm56jXC6z0OWjZuOv-JxwcLnwpLjnvTLcGO8qjxZ8FcSXo-l8En_eWxdf4khdbVQRbJq61OB2UnDCn4XCpGtw6ONXtupm5P75eHM_K2pJj3QinVhBUxpyR-1QOhH8RHlcBRQt_IweVWQgLSdeuxCoEX6DaDqXJAsP8XSrBBq4TUZiX5bvPPQBEOXY7bOcXpWPP89n0Ngvoz9Hhm2sTd1diBe9ulVT-Rf6-n8SOXgU3g1uw5TsYUhT-vxUswQgCdlkB1TQFdWdnIS1LPaoNbmDon9N0aQLMVsyu0KAoSliIsx7nfbNVFvH5ZBRjVenH9fR8gbZ1wttL_CmdpmbiR0i0Jc1M8idcXgW9049-0PXpiCdWfGRKJkLdqtidQqAVhWiS7w8JYCXTICuFmnVvprmvC2GccFXKSUg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

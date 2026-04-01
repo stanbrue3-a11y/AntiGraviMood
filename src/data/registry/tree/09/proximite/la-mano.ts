@@ -5,7 +5,7 @@ export const la_mano: SurgicalPlace = {
   slug: "la-mano",
   name: "La Mano",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "10 Rue Papillon, 75009 Paris, France",
     arrondissement: 9,
@@ -43,6 +43,7 @@ export const la_mano: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

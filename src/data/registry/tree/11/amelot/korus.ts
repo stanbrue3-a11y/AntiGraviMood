@@ -5,7 +5,7 @@ export const korus: SurgicalPlace = {
     name: "Korus",
     slug: "korus",
     category: "restaurant",
-    subcategory: ["bistronomique", "francais", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "73 Rue Amelot",
         arrondissement: 11,
@@ -48,8 +48,8 @@ export const korus: SurgicalPlace = {
                 display_label: "Menus Dégustation",
                 items: [
                     { name: "Menu TEMPO (Déjeuner)", price_cents: 4500, description: "Menu découverte en 4 temps servi le midi." },
-                    { name: "Menu OPUS (Dîner)", price_cents: 7900, description: "Menu dégustation en 6 temps, l'expérience signature." },
-                    { name: "Menu CHORUS (Dîner)", price_cents: 9700, description: "Le grand voyage en 8 temps pour l'ensemble de la table." },
+                    { name: "Menu OPUS (Dîner)", price_cents: 7900, description: "Menu dégustation en 6 temps, l’expérience signature." },
+                    { name: "Menu CHORUS (Dîner)", price_cents: 9700, description: "Le grand voyage en 8 temps pour l’ensemble de la table." },
                     { name: "Accord Mets & Vins (Tempo)", price_cents: 3000, description: "3 verres en accord avec le menu déjeuner." },
                     { name: "Accord Mets & Vins (Opus/Chorus)", price_cents: 5500, description: "Sélection pointue du sommelier pour le dîner." }
                 ]
@@ -62,7 +62,7 @@ export const korus: SurgicalPlace = {
                     { name: "Thon Cru mariné", price_cents: 2100, description: "Condiments de saison, huile de sésame torréfié" },
                     { name: "Crabe effiloché", price_cents: 2200, description: "Gelée de pomme verte, céleri branche" },
                     { name: "Coeur de Canard snacké", price_cents: 2500, description: "Jus réduit corsé, purée soyeuse" },
-                    { name: "Raie au beurre noisette", price_cents: 3200, description: "Câpres, citron confit, tombée d'épinards" },
+                    { name: "Raie au beurre noisette", price_cents: 3200, description: "Câpres, citron confit, tombée d’épinards" },
                     { name: "Paleron de Boeuf", price_cents: 3600, description: "Cuisson basse température, sauce cacao, légumes racines" },
                     { name: "Bavette Angus", price_cents: 3400, description: "Échalotes confites, pommes grenailles rôties" }
                 ]
@@ -87,13 +87,13 @@ export const korus: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Recommandé par le Guide Michelin, Korus est l'incarnation parfaite du néo-bistrot du 11ème arrondissement. Dans une salle intimiste aux murs grattés et au mobilier vintage, on y déguste une cuisine d'auteur vive et moderne, articulée autour de trois menus dégustation (Tempo, Opus, Chorus). Le sourcing des produits est irréprochable et la cave fait la part belle aux vins naturels de vignerons pointus.",
-    insider_tip: "• Excellent spot pour un dîner romantique ou entre amateurs de grande gastronomie décontractée.\n• Le menu Opus en 6 temps (79€) est le compromis idéal pour saisir l'univers du chef.\n• Demandez l'accord mets & vins, réputé pour ses découvertes parfois hors des sentiers battus (cidres millésimés, vins macérés).",
+    description: "Recommandé par le Guide Michelin, Korus est l’incarnation parfaite du néo-bistrot du 11ème arrondissement. Dans une salle intimiste aux murs grattés et au mobilier vintage, on y déguste une cuisine d'auteur vive et moderne, articulée autour de trois menus dégustation (Tempo, Opus, Chorus). Le sourcing des produits est irréprochable et la cave fait la part belle aux vins naturels de vignerons pointus.",
+    insider_tip: "• Excellent spot pour un dîner romantique ou entre amateurs de grande gastronomie décontractée.\n• Le menu Opus en 6 temps (79€) est le compromis idéal pour saisir l’univers du chef.\n• Demandez l'accord mets & vins, réputé pour ses découvertes parfois hors des sentiers battus (cidres millésimés, vins macérés).",
     expert_catchline: "Haute volée néo-bistronomique et vins natures dans un décor intimiste et brut.",
     specials: {
         cuisine: ["Menus Dégustation (Tempo, Opus, Chorus)", "Paleron de bœuf sauce cacao", "Tartare de haddock", "Plats très graphiques et sourcés"],
         drinks: ["Forte sélection de vins vivants / natures", "Petits rendements et vignerons rares"],
-        must_eat: "L'audacieux paleron de bœuf relevé par une étonnante sauce au cacao, signature de la maison.",
+        must_eat: "L’audacieux paleron de bœuf relevé par une étonnante sauce au cacao, signature de la maison.",
         must_drink: "Laissez le sommelier vous dénicher un vin orange ou un rouge léger de Loire en totale adéquation avec le plat."
     }
 };

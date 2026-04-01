@@ -5,7 +5,7 @@ export const l_entredgeu: SurgicalPlace = {
   slug: "l-entredgeu",
   name: "L’entredgeu",
   category: "restaurant",
-  subcategory: ["traditional-bistro", "neo-bistro", "chic-bourgeois", "institution"],
+  subcategory: ['français'],
   location: {
     address: "83 Rue Laugier, 75017 Paris, France",
     arrondissement: 17,
@@ -43,7 +43,7 @@ export const l_entredgeu: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées",
         items: [
-          { name: "Tarte tatin d'oignons et sa petite crème", price_cents: 1200 },
+          { name: "Tarte tatin d’oignons et sa petite crème", price_cents: 1200 },
           { name: "Carpaccio de la pêche du jour mariné", price_cents: 1400 },
           { name: "Escargots à la bourguignonne décorés", price_cents: 1200 },
           { name: "Velouté de choux-fleur au comté", price_cents: 1100 },
@@ -54,7 +54,7 @@ export const l_entredgeu: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats",
         items: [
-          { name: "Souris d'agneau braisée de 7 heures", price_cents: 2800 },
+          { name: "Souris d’agneau braisée de 7 heures", price_cents: 2800 },
           { name: "Cuisse de canard confite, pommes sautées", price_cents: 2600 },
           { name: "Dorade royale à la sauce dieppoise", price_cents: 2800 },
           { name: "Ravioles de gambas au bouillon", price_cents: 2700 },
@@ -68,7 +68,7 @@ export const l_entredgeu: SurgicalPlace = {
         items: [
           { name: "Soufflé à la vanille, coulis au chocolat", price_cents: 1200 },
           { name: "Paris-Brest à la cacahuète pralinée", price_cents: 1000 },
-          { name: "Carpaccio d'ananas frais et sorbet coco", price_cents: 900 },
+          { name: "Carpaccio d’ananas frais et sorbet coco", price_cents: 900 },
           { name: "Mousse au chocolat noir intense", price_cents: 900 }
         ]
       },
@@ -82,13 +82,13 @@ export const l_entredgeu: SurgicalPlace = {
       }
     ]
   },
-  expert_catchline: "Le temple du bistrot bourgeois où la tarte tatin d'oignons justifie à elle seule le déplacement dans le 17ème.",
-  description: "L'Entredgeu est une institution du 17ème, un bistrot bourgeois qui honore les classiques avec une précision chirurgicale.",
-  insider_tip: "• **Signature** : La tarte tatin d'oignons est légendaire, ne passez pas à côté.\n• **Confort** : Un cadre bourgeois très chaleureux, idéal pour les repas en famille.\n• **Réservation** : Indispensable plusieurs jours à l'avance pour le soir.",
+  expert_catchline: "Le temple du bistrot bourgeois où la tarte tatin d’oignons justifie à elle seule le déplacement dans le 17ème.",
+  description: "L’Entredgeu est une institution du 17ème, un bistrot bourgeois qui honore les classiques avec une précision chirurgicale.",
+  insider_tip: "• **Signature** : La tarte tatin d’oignons est légendaire, ne passez pas à côté.\n• **Confort** : Un cadre bourgeois très chaleureux, idéal pour les repas en famille.\n• **Réservation** : Indispensable plusieurs jours à l'avance pour le soir.",
   specials: {
     cuisine: ["Cuisine bourgeoise"],
     drinks: ["Vin", "Cocktail"],
-    must_eat: "Cuisine bourgeoise. La tarte tatin d'oignons et la souris d'agneau.",
+    must_eat: "Cuisine bourgeoise. La tarte tatin d’oignons et la souris d'agneau.",
   },
   images: {
     hero: "AU_ZVEFGp_EMTza2U-hoX7GQKbw9LHWfmqMtMQ53mYckSWJ9TbFnay0REIIYgg-iZiJLz69GSRJi3YROLjyfauYdvpBM6RKwN2mYrjHAuC--jLYfTtjXkDe9GB1ajhlJ4mzb1AXk96iBo848svuXFggiLiNo11Eh05OqE0NOYjepQAB5IprtvTyuovdeOQI1NWZjqrhqucFn9AJ-4BOGWh7Q4sG57ZF_mJPv_JsZ830XVI50zX02cQB_h3qKc1VpeA5p4ltLjPLSjQMMKNADMpRGTPfekD542t88gapVc8etD6wlVw",

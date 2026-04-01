@@ -5,7 +5,7 @@ export const zhao_opera: SurgicalPlace = {
   slug: "la-taverne-de-zhao-opera",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "sleek"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "16 Rue Saint-Augustin, 75002 Paris, France",
     arrondissement: 2,
@@ -42,9 +42,9 @@ export const zhao_opera: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_opera: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_opera: SurgicalPlace = {
       }
     ]
   },
-  description: "À deux pas de l'Opéra Garnier, cette taverne décline l'univers ZHAO dans une version épurée et moderne. C'est l'adresse idéale pour un déjeuner business authentique ou une pause Biang Biang élégante avant un spectacle. Le décor mêle tradition et modernité avec finesse.",
-  insider_tip: "• C'est l'adresse la plus 'chic' de la famille : idéale si vous voulez faire découvrir les saveurs de Xi'an dans un cadre soigné.\n• Les raviolis y sont particulièrement bien exécutés, ne passez pas à côté de la version Poulet & Champignon.\n• Si vous venez à deux, partagez un Mo et un plat de nouilles pour goûter à tout sans exploser votre budget.",
+  description: "À deux pas de l’Opéra Garnier, cette taverne décline l’univers ZHAO dans une version épurée et moderne. C’est l'adresse idéale pour un déjeuner business authentique ou une pause Biang Biang élégante avant un spectacle. Le décor mêle tradition et modernité avec finesse.",
+  insider_tip: "• C’est l’adresse la plus ’chic’ de la famille : idéale si vous voulez faire découvrir les saveurs de Xi’an dans un cadre soigné.\n• Les raviolis y sont particulièrement bien exécutés, ne passez pas à côté de la version Poulet & Champignon.\n• Si vous venez à deux, partagez un Mo et un plat de nouilles pour goûter à tout sans exploser votre budget.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
   images: {

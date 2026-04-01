@@ -5,7 +5,7 @@ export const cuisine: SurgicalPlace = {
   slug: "cuisine",
   name: "Cuisine",
   category: "restaurant",
-  subcategory: ["neobistrot", "fusion-japonaise", "vin-naturel", "assiettes-partage", "produits-bio"],
+  subcategory: ['français'],
   location: {
     address: "50 Rue Condorcet, 75009 Paris, France",
     arrondissement: 9,
@@ -45,7 +45,7 @@ export const cuisine: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées de Marché",
         items: [
-          { name: "Xio Maï à l'Oursin, Châtaigne & Émulsion", price_cents: 1200, is_highlight: true },
+          { name: "Xio Maï à l’Oursin, Châtaigne & Émulsion", price_cents: 1200, is_highlight: true },
           { name: "Ormeau & Os à Moelle, Sauce Bordelaise au Cacao", price_cents: 1500, is_highlight: true },
           { name: "Joue de Bœuf en Bourguignon & Oignons de Roscoff", price_cents: 1350 },
           { name: "Asperges Blanches, Sabayon Miso & Sésame", price_cents: 1100, is_highlight: true },
@@ -101,19 +101,19 @@ export const cuisine: SurgicalPlace = {
         items: [
           { name: "Verre de Vin Blanc Nature (Sélection Loire)", price_cents: 800, is_highlight: true },
           { name: "Verre de Vin Rouge Bio (Sélection Bourgogne)", price_cents: 900 },
-          { name: "Pétillant Naturel 'Pet-Nat' (Bouteille)", price_cents: 3800, is_highlight: true },
+          { name: "Pétillant Naturel ’Pet-Nat' (Bouteille)", price_cents: 3800, is_highlight: true },
           { name: "Sake Artisanal Junmai (Verre)", price_cents: 1100 },
           { name: "Jus de Fruits Bio Pressé à Froid", price_cents: 650 }
         ]
       }
     ]
   },
-  description: "Cuisine est un néobistrot d'auteur niché rue Condorcet, où la rigueur japonaise rencontre la gourmandise française. Chaque assiette est un voyage chromatique et gustatif, portée par des produits bios, issus de l'élevage fermier ou de la pêche durable. Le chef Taketo Matsumoto y insuffle une précision millimétrée, de l'ormeau à l'os à moelle signature au demi-pigeon façon karaage. Le cadre, aux accents rétro des années 60, invite à la confidence, tandis que la carte des vins naturels escorte avec brio cette partition culinaire unique et audacieuse.",
-  insider_tip: "• **L'Ormeau** : C'est l'un des rares endroits à Paris où l'on travaille l'ormeau avec une telle maestria, sa sauce bordelaise au cacao est phénoménale.\n• **Vins Naturels** : Laissez-vous guider par Benoit pour les accords, leur cave à manger regorge de flacons confidentiels.\n• **Petit Comité** : Le lieu est intimiste, privilégiez les réservations pour le dîner car les places au comptoir s'arrachent vite.",
+  description: "Cuisine est un néobistrot d’auteur niché rue Condorcet, où la rigueur japonaise rencontre la gourmandise française. Chaque assiette est un voyage chromatique et gustatif, portée par des produits bios, issus de l’élevage fermier ou de la pêche durable. Le chef Taketo Matsumoto y insuffle une précision millimétrée, de l’ormeau à l'os à moelle signature au demi-pigeon façon karaage. Le cadre, aux accents rétro des années 60, invite à la confidence, tandis que la carte des vins naturels escorte avec brio cette partition culinaire unique et audacieuse.",
+  insider_tip: "• **L’Ormeau** : C’est l’un des rares endroits à Paris où l’on travaille l’ormeau avec une telle maestria, sa sauce bordelaise au cacao est phénoménale.\n• **Vins Naturels** : Laissez-vous guider par Benoit pour les accords, leur cave à manger regorge de flacons confidentiels.\n• **Petit Comité** : Le lieu est intimiste, privilégiez les réservations pour le dîner car les places au comptoir s'arrachent vite.",
   specials: {
     cuisine: ["Bistronomie fusion Franco-Japonaise", "Produits biologiques et pêche durable", "Menu de marché créatif"],
     drinks: ["Belle sélection de vins naturels", "Sakes artisanaux Junmai", "Pétillants naturels (Pet-Nat)"],
-    must_eat: "L'Ormeau à l'os à moelle (15€) : une association terre-mer audacieuse avec une sauce bordelaise au cacao inattendue.",
+    must_eat: "L’Ormeau à l'os à moelle (15€) : une association terre-mer audacieuse avec une sauce bordelaise au cacao inattendue.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

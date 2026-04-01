@@ -5,7 +5,7 @@ export const ngoc_xuyen_saigon: SurgicalPlace = {
   slug: "ngoc-xuyen-saigon",
   name: "Ngoc Xuyen Saigon",
   category: "restaurant",
-  subcategory: ["vietnamien", "authentique", "pho", "soupe"],
+  subcategory: ['vietnamien', 'français'],
   location: {
     address: "4 Rue Caillaux, 75013 Paris, France",
     arrondissement: 13,
@@ -93,13 +93,13 @@ export const ngoc_xuyen_saigon: SurgicalPlace = {
           { name: "Trois Couleurs (Chè ba màu)", price_cents: 750 },
           { name: "Délice de Maïs chaud", price_cents: 800 },
           { name: "Milkshake Corossol", price_cents: 1000, is_highlight: true },
-          { name: "Milkshake Durian (L'authentique)", price_cents: 1000 },
+          { name: "Milkshake Durian (L’authentique)", price_cents: 1000 },
           { name: "Milkshake Avocat", price_cents: 1000 }
         ]
       },
       {
         category_type: "drink",
-        display_label: "Boissons d'Asie",
+        display_label: "Boissons d’Asie",
         items: [
           { name: "Jus de Sucre de Canne (Pressé minute)", price_cents: 550, is_highlight: true },
           { name: "Café Filtré Vietnamien (Lait concentré)", price_cents: 550 },
@@ -110,8 +110,8 @@ export const ngoc_xuyen_saigon: SurgicalPlace = {
       }
     ]
   },
-  description: "Ngoc Xuyen Saigon est une institution du quartier Tolbiac, célèbre pour la pureté de ses bouillons et l'authenticité de ses recettes familiales. Ici, pas de chichis, on vient pour la maîtrise technique du Pho et les spécialités quotidiennes qui attirent les connaisseurs de tout Paris. Une adresse où le temps semble s'arrêter devant un bol fumant.",
-  insider_tip: "• **Jus de Canne** : Ils le pressent minute, c'est le compagnon idéal pour équilibrer le piment du Bun Bo Hue.\n• **Calendrier Soupe** : Venez le jeudi pour leur vermicelle au crabe, une rareté à Paris exécutée à la perfection.\n• **Early Bird** : Fermeture à 17h ! C'est une adresse de déjeuner, ne prévoyez pas d'y dîner.",
+  description: "Ngoc Xuyen Saigon est une institution du quartier Tolbiac, célèbre pour la pureté de ses bouillons et l’authenticité de ses recettes familiales. Ici, pas de chichis, on vient pour la maîtrise technique du Pho et les spécialités quotidiennes qui attirent les connaisseurs de tout Paris. Une adresse où le temps semble s'arrêter devant un bol fumant.",
+  insider_tip: "• **Jus de Canne** : Ils le pressent minute, c’est le compagnon idéal pour équilibrer le piment du Bun Bo Hue.\n• **Calendrier Soupe** : Venez le jeudi pour leur vermicelle au crabe, une rareté à Paris exécutée à la perfection.\n• **Early Bird** : Fermeture à 17h ! C’est une adresse de déjeuner, ne prévoyez pas d’y dîner.",
   specials: {
     cuisine: ["Vietnamien", "Street Food"],
     drinks: ["Soft"],

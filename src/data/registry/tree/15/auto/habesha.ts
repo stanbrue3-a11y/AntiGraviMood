@@ -5,7 +5,7 @@ export const habesha: SurgicalPlace = {
   slug: "habesha",
   name: "Habesha",
   category: "restaurant",
-  subcategory: ["restaurant", "éthiopien", "authentique", "partage"],
+  subcategory: ['français', 'éthiopien'],
   location: {
     address: "19, rue Copreaux, 75015 Paris, France",
     arrondissement: 15,
@@ -48,7 +48,7 @@ export const habesha: SurgicalPlace = {
           { name: "Sambusas au Bœuf (x2)", price_cents: 650 },
           { name: "Sambusas Végétariens (x2)", price_cents: 550 },
           { name: "Entrée d’Avocat Citronnée", price_cents: 600 },
-          { name: "Hummus à l'Éthiopienne", price_cents: 550 },
+          { name: "Hummus à l’Éthiopienne", price_cents: 550 },
           { name: "Salade de Tomates au Gingembre", price_cents: 500 }
         ]
       },

@@ -5,7 +5,7 @@ export const l_office: SurgicalPlace = {
   slug: "l-office",
   name: "L’Office",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "chic", "terroir"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "3 Rue Richer, 75009 Paris, France",
     arrondissement: 9,
@@ -63,7 +63,7 @@ export const l_office: SurgicalPlace = {
           { name: "Quasi de Veau & Beurre Café de Paris", price_cents: 2800, is_highlight: true },
           { name: "Pêche du jour & Mousseline de Vitelottes", price_cents: 2900 },
           { name: "Ravioles Brousse de brebis, Citron confit (Plat)", price_cents: 2400, is_highlight: true },
-          { name: "Bœuf Bourguignon Traditionnel L'Office", price_cents: 2600 },
+          { name: "Bœuf Bourguignon Traditionnel L’Office", price_cents: 2600 },
           { name: "Ris de Veau dorés & Jus de viande corsé", price_cents: 3600, is_highlight: true },
           { name: "Parmentier de Canard aux Épices douces", price_cents: 2500 },
           { name: "Risotto de saison aux Champignons des bois", price_cents: 2300 }
@@ -87,7 +87,7 @@ export const l_office: SurgicalPlace = {
           { name: "Cheesecake Mandarine brûlée", price_cents: 1300, is_highlight: true },
           { name: "Tarte soufflée au Chocolat & Tonka", price_cents: 1400, is_highlight: true },
           { name: "Ganache Chocolat Blanc & Cèpes (Signature)", price_cents: 1300, is_highlight: true },
-          { name: "Pastilla aux Pistaches d'Iran & Rose", price_cents: 1300 },
+          { name: "Pastilla aux Pistaches d’Iran & Rose", price_cents: 1300 },
           { name: "Assortiment de Trois Fromages affinés", price_cents: 1300 },
           { name: "Pavlova aux Fruits Exotiques & Shiso", price_cents: 1250 },
           { name: "Mousse au Chocolat Noir 70%", price_cents: 1000 }
@@ -95,7 +95,7 @@ export const l_office: SurgicalPlace = {
       },
       {
         category_type: "drink",
-        display_label: "La Cave de l'Office (Boissons)",
+        display_label: "La Cave de l’Office (Boissons)",
         items: [
           { name: "Verre de Vin Nature Sélection Benjamin", price_cents: 950, is_highlight: true },
           { name: "Bouteille de Grand Cru Rare (Sélection Cave)", price_cents: 9500 },
@@ -108,12 +108,12 @@ export const l_office: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Office est l'un des pionniers de la néo-bistronomie dans le 9ème. Situé au cœur de la vibrante rue Richer, cet établissement allie un décor élégant et boisé à une cuisine d'une précision remarquable. Le chef y sublime les classiques bourgeois — comme le légendaire Bœuf Wellington — avec une touche contemporaine et des produits d'une fraîcheur irréprochable. L'atmosphère y est feutrée le soir, idéale pour une immersion dans le Paris gourmand et sophistiqué.",
-  insider_tip: "• **Le Wellington** : C'est le passage obligé. La croûte est parfaite et la viande fondante. Réservez-le à l'avance si possible.\n• **Le Midi** : La formule déjeuner à 25€ (E+P) est probablement l'un des meilleurs deals du quartier.\n• **La Cave** : Benjamin Pelatan a constitué une cave de plus de 150 références, laissez-vous guider, il y a de vraies pépites naturelles.",
+  description: "L’Office est l’un des pionniers de la néo-bistronomie dans le 9ème. Situé au cœur de la vibrante rue Richer, cet établissement allie un décor élégant et boisé à une cuisine d’une précision remarquable. Le chef y sublime les classiques bourgeois — comme le légendaire Bœuf Wellington — avec une touche contemporaine et des produits d’une fraîcheur irréprochable. L’atmosphère y est feutrée le soir, idéale pour une immersion dans le Paris gourmand et sophistiqué.",
+  insider_tip: "• **Le Wellington** : C’est le passage obligé. La croûte est parfaite et la viande fondante. Réservez-le à l’avance si possible.\n• **Le Midi** : La formule déjeuner à 25€ (E+P) est probablement l’un des meilleurs deals du quartier.\n• **La Cave** : Benjamin Pelatan a constitué une cave de plus de 150 références, laissez-vous guider, il y a de vraies pépites naturelles.",
   specials: {
-    cuisine: ["Bœuf Wellington d'exception", "Bistronomie de précision", "Produits de saison"],
+    cuisine: ["Bœuf Wellington d’exception", "Bistronomie de précision", "Produits de saison"],
     drinks: ["Plus de 150 références de vins", "Vins natures & biodynamiques", "Cocktails Maison"],
-    must_eat: "Le Filet de Bœuf Wellington (39€) : une croûte dorée croustillante abritant une viande d'une tendreté absolue, escorté de sa purée Ratte.",
+    must_eat: "Le Filet de Bœuf Wellington (39€) : une croûte dorée croustillante abritant une viande d’une tendreté absolue, escorté de sa purée Ratte.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH-i-6j-5I_R89kL-P-N1V--_u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

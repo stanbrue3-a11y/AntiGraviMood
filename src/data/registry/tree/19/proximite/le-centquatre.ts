@@ -39,8 +39,8 @@ export const le_centquatre: SurgicalPlace = {
         "festif": 24.3,
         "culturel": 8
     },
-    "description": "Installé dans les anciens pompes funèbres de Paris, le CENTQUATRE est devenu l'un des centres culturels les plus vibrants de la capitale. Sous ses grandes halles de verre et de fer, on croise des danseurs de hip-hop s'entraînant devant les miroirs, des circassiens et des expositions d'art contemporain monumentales. C'est un lieu hybride, populaire et exigeant, qui respire la vie et la création à chaque mètre carré.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Installé dans les anciens pompes funèbres de Paris, le CENTQUATRE est devenu l’un des centres culturels les plus vibrants de la capitale. Sous ses grandes halles de verre et de fer, on croise des danseurs de hip-hop s’entraînant devant les miroirs, des circassiens et des expositions d’art contemporain monumentales. C'est un lieu hybride, populaire et exigeant, qui respire la vie et la création à chaque mètre carré.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

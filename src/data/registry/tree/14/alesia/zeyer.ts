@@ -5,9 +5,9 @@ export const zeyer: SurgicalPlace = {
     name: "Le Zeyer",
     slug: "le-zeyer-paris",
     category: "restaurant",
-    subcategory: ["brasserie", "art-deco", "institution", "fruits-de-mer", "terrasse", "parisien"],
+    subcategory: ['français', 'terrasse'],
     location: {
-        address: "62 Rue d'Alésia, 75014 Paris, France",
+        address: "62 Rue d’Alésia, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.8279434,
         lng: 2.3283286,
@@ -49,8 +49,8 @@ export const zeyer: SurgicalPlace = {
                     { name: "Poulet Fermier Rôti, Mousseline de PDT", price_cents: 2300 },
                     { name: "Cassolette de Rognons de Veau Grand-Mère", price_cents: 2400 },
                     { name: "Andouillette AAAAA grillée, Sauce Moutarde", price_cents: 2500 },
-                    { name: "Souris d'Agneau confite au Romarin", price_cents: 2400 },
-                    { name: "Magret de Canard à l'Orange", price_cents: 2650 }
+                    { name: "Souris d’Agneau confite au Romarin", price_cents: 2400 },
+                    { name: "Magret de Canard à l’Orange", price_cents: 2650 }
                 ]
             },
             {
@@ -59,9 +59,9 @@ export const zeyer: SurgicalPlace = {
                 items: [
                     { name: "Plateau de Fruits de Mer Signature", price_cents: 7300 },
                     { name: "Médaillons de Lotte Poêlés au Curry", price_cents: 3200 },
-                    { name: "6 Gros Escargots au Beurre d'Ail", price_cents: 1350 },
+                    { name: "6 Gros Escargots au Beurre d’Ail", price_cents: 1350 },
                     { name: "Foie Gras Maison, Chutney de Fruits", price_cents: 2100 },
-                    { name: "Filets de Hareng Marinés, Pommes à l'Huile", price_cents: 1100 },
+                    { name: "Filets de Hareng Marinés, Pommes à l’Huile", price_cents: 1100 },
                     { name: "Poireaux Vinaigrette et Oeufs Mimosa", price_cents: 1100 },
                     { name: "Tartare de Saumon aux Herbes Fraîches", price_cents: 1300 },
                     { name: "Oeufs Durs Mayonnaise Tradition", price_cents: 700 }
@@ -72,9 +72,9 @@ export const zeyer: SurgicalPlace = {
                 display_label: "Desserts & Gourmandises",
                 items: [
                     { name: "Profiteroles au Chocolat Chaud", price_cents: 1050 },
-                    { name: "Tarte Tatin et Crème d'Isigny", price_cents: 950 },
+                    { name: "Tarte Tatin et Crème d’Isigny", price_cents: 950 },
                     { name: "Crème Brûlée à la Vanille Bourbon", price_cents: 900 },
-                    { name: "Mousse au Chocolat à l'Ancienne", price_cents: 850 },
+                    { name: "Mousse au Chocolat à l’Ancienne", price_cents: 850 },
                     { name: "Glaces & Sorbets Berthillon (3 boules)", price_cents: 1200 }
                 ]
             }
@@ -88,14 +88,14 @@ export const zeyer: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.0,
-    description: "Le Zeyer est l'âme d'Alésia depuis 1913. Cette brasserie monumentale, avec ses plafonds de verre gravé, ses fresques Art Déco et ses banquettes de molekine, est l'un des plus beaux exemples du style montparnassien préservé. On y vient pour la chaleur de l'accueil, le service continu impeccable et une cuisine bourgeoise qui ne déçoit jamais. C'est le lieu de rendez-vous intergénérationnel du 14ème, où les habitués côtoient les curieux sous les lueurs dorées des lustres d'époque, dans une atmosphère qui respire le Paris d'autrefois.",
-    insider_tip: "Ne manquez pas leur choucroute alsacienne, l'une des spécialités qui fait la renommée du lieu depuis des décennies. Pour les amateurs de douceur, les glaces Berthillon y sont servies dans les règles de l'art.",
-    expert_catchline: "Le joyau Art Déco d'Alésia, brasserie de tradition et de coeur.",
+    description: "Le Zeyer est l’âme d’Alésia depuis 1913. Cette brasserie monumentale, avec ses plafonds de verre gravé, ses fresques Art Déco et ses banquettes de molekine, est l’un des plus beaux exemples du style montparnassien préservé. On y vient pour la chaleur de l’accueil, le service continu impeccable et une cuisine bourgeoise qui ne déçoit jamais. C’est le lieu de rendez-vous intergénérationnel du 14ème, où les habitués côtoient les curieux sous les lueurs dorées des lustres d’époque, dans une atmosphère qui respire le Paris d’autrefois.",
+    insider_tip: "Ne manquez pas leur choucroute alsacienne, l’une des spécialités qui fait la renommée du lieu depuis des décennies. Pour les amateurs de douceur, les glaces Berthillon y sont servies dans les règles de l'art.",
+    expert_catchline: "Le joyau Art Déco d’Alésia, brasserie de tradition et de coeur.",
     specials: {
         cuisine: ["Brasserie Traditionnelle", "Fruits de Mer Frais"],
         drinks: ["Sélèction Berthillon", "Grands Crus au Verre"],
         must_eat: "Le Burger Zeyer au Cantal et la Choucroute.",
-        must_drink: "Un vin blanc sec avec le plateau d'écailler."
+        must_drink: "Un vin blanc sec avec le plateau d’écailler."
     },
     source: "expert_human"
 };

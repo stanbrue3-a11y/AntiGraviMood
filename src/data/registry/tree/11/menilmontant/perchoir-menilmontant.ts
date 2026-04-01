@@ -5,7 +5,7 @@ export const perchoirMenilmontant: SurgicalPlace = {
     name: "Le Perchoir Ménilmontant",
     slug: "perchoir-menilmontant",
     category: "restaurant",
-    subcategory: ["rooftop", "italian-american", "residency", "evening-vibe"],
+    subcategory: ['français'],
     location: {
         address: "14 Rue Crespin du Gast",
         arrondissement: 11,
@@ -21,7 +21,7 @@ export const perchoirMenilmontant: SurgicalPlace = {
         culturel: 50
     },
     practical: {
-        opening_hours_raw: "Mar-Sam: 19:30–02:00 (Cuisine jusqu'à 23:30); Fermé Dim-Lun",
+        opening_hours_raw: "Mar-Sam: 19:30–02:00 (Cuisine jusqu’à 23:30); Fermé Dim-Lun",
         reservation_policy: "resa_conseillee",
         terrace: true,
         accessibility: true,
@@ -50,7 +50,7 @@ export const perchoirMenilmontant: SurgicalPlace = {
                     { name: "Mozzarella di Bufala fumée", price_cents: 1600 },
                     { name: "Meatballs (boulettes sauce tomate)", price_cents: 1500 },
                     { name: "Crudo de Gambero Rosso & Caviar", price_cents: 4200 },
-                    { name: "Broccolini sautés à l'ail", price_cents: 1300 }
+                    { name: "Broccolini sautés à l’ail", price_cents: 1300 }
                 ]
             },
             {
@@ -80,9 +80,9 @@ export const perchoirMenilmontant: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.3,
-    description: "Le Perchoir Ménilmontant est devenu une institution du quartier, niché au 6ème étage d'un immeuble industriel. Si le rooftop du dessus est culte pour ses cocktails et sa vue, le restaurant propose actuellement 'Vecchio', une résidence italo-américaine vibrante. On y déguste des pâtes à la vodka et du poulet parmigiana comme à New York, dans une atmosphère électrique et festive. C'est le spot parfait pour un dîner qui se prolonge en musique.",
+    description: "Le Perchoir Ménilmontant est devenu une institution du quartier, niché au 6ème étage d’un immeuble industriel. Si le rooftop du dessus est culte pour ses cocktails et sa vue, le restaurant propose actuellement ’Vecchio’, une résidence italo-américaine vibrante. On y déguste des pâtes à la vodka et du poulet parmigiana comme à New York, dans une atmosphère électrique et festive. C'est le spot parfait pour un dîner qui se prolonge en musique.",
     insider_tip: "Arrivez tôt pour prendre un verre au rooftop (7ème étage) avant de descendre dîner au 6ème. Les portions de pâtes sont généreuses, idéalement pensées pour le partage.",
-    expert_catchline: "La 'dolce vita' italo-new-yorkaise sur les toits du 11ème.",
+    expert_catchline: "La ’dolce vita' italo-new-yorkaise sur les toits du 11ème.",
     specials: {
         cuisine: ["Italo-American", "Residency cooking", "Rooftop dining"],
         drinks: ["Cocktails créations signature", "Vins italiens"],

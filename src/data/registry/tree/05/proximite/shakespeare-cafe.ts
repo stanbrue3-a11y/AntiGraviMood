@@ -38,8 +38,8 @@ export const shakespeare_cafe: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Adossé à la librairie anglophone la plus célèbre du monde, ce café offre une vue imprenable sur Notre-Dame à travers ses grandes vitres. Entre les pâtisseries anglo-saxonnes (incroyable lemon pie!), les cafés d'exception et les livres qui traînent sur les tables, c'est le refuge parfait pour les amoureux des lettres. On y respire l'héritage de la Beat Generation dans une version moderne, lumineuse et délicieusement gourmande.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Adossé à la librairie anglophone la plus célèbre du monde, ce café offre une vue imprenable sur Notre-Dame à travers ses grandes vitres. Entre les pâtisseries anglo-saxonnes (incroyable lemon pie!), les cafés d’exception et les livres qui traînent sur les tables, c’est le refuge parfait pour les amoureux des lettres. On y respire l’héritage de la Beat Generation dans une version moderne, lumineuse et délicieusement gourmande.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

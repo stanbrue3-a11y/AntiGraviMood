@@ -5,7 +5,7 @@ export const present: SurgicalPlace = {
   slug: "present",
   name: "Présent",
   category: "restaurant",
-  subcategory: ["les"],
+  subcategory: ['français'],
   location: {
     address: "13bis Ave Parmentier, 75011 Paris, France",
     arrondissement: 11,
@@ -50,7 +50,7 @@ export const present: SurgicalPlace = {
           { name: "Tacos de Pleurotes façon Al Pastor", price_cents: 1200, is_highlight: true },
           { name: "Kimchi Artisanal Maison", price_cents: 550 },
           { name: "Chou-fleur rôti & Tahini", price_cents: 900 },
-          { name: "Focaccia Toastée & Pesto d'Herbes", price_cents: 750 },
+          { name: "Focaccia Toastée & Pesto d’Herbes", price_cents: 750 },
           { name: "Bowl de pickles maison", price_cents: 450 },
           { name: "Croquettes de Patate Douce (x3)", price_cents: 1100 }
         ]
@@ -60,7 +60,7 @@ export const present: SurgicalPlace = {
         display_label: "Plats Gourmands & Végétaux (Plats)",
         items: [
           { name: "The OG Burger (Steak végétal/Cheddar végan)", price_cents: 1900, is_highlight: true },
-          { name: "Bowl 'Présent' (Céréales/Légumes rôtis/Sauce cacahuète)", price_cents: 1700 },
+          { name: "Bowl ’Présent' (Céréales/Légumes rôtis/Sauce cacahuète)", price_cents: 1700 },
           { name: "Schnitzel de Seitan & Purée onctueuse", price_cents: 2050, is_highlight: true },
           { name: "Pasta à la crème de Courge & Sauge", price_cents: 1850 },
           { name: "Steak de Courge musquée grillée", price_cents: 1750 },
@@ -86,7 +86,7 @@ export const present: SurgicalPlace = {
         display_label: "Boissons Créatives & Natures (Boissons)",
         items: [
           { name: "Verre de Vin Nature (Blanc/Rouge/Orange)", price_cents: 900, is_highlight: true },
-          { name: "Mocktail 'Solar' (Agrumes/Gingembre)", price_cents: 1000, is_highlight: true },
+          { name: "Mocktail ’Solar' (Agrumes/Gingembre)", price_cents: 1000, is_highlight: true },
           { name: "Kombucha Artisanal en pression", price_cents: 700 },
           { name: "Limonade Maison au Basilic", price_cents: 650 },
           { name: "Bière Artisanale (Canette 33cl)", price_cents: 850 }
@@ -106,12 +106,12 @@ export const present: SurgicalPlace = {
       }
     ]
   },
-  description: "Présent est le prolongement gastronomique du concept-store Aujourd'hui Demain, situé dans le 11ème. Ce néo-bistro éthique propose une cuisine 100% végétale, créative et gourmande, loin des clichés. Dans un décor minimaliste et chaleureux, on y déguste des petites assiettes à partager, des burgers d'anthologie et une sélection pointue de vins natures et de boissons artisanales.",
-  insider_tip: "• **Le Burger** : Leur 'OG Burger' est une référence du genre à Paris, même pour les non-végétaliens.\n• **Vins Orange** : La sélection de vins orange est particulièrement bien sourcée, parfaite pour accompagner les épices du menu.\n• **Brunch** : Le week-end, le lieu se transforme pour un brunch complet et très prisé.",
+  description: "Présent est le prolongement gastronomique du concept-store Aujourd’hui Demain, situé dans le 11ème. Ce néo-bistro éthique propose une cuisine 100% végétale, créative et gourmande, loin des clichés. Dans un décor minimaliste et chaleureux, on y déguste des petites assiettes à partager, des burgers d'anthologie et une sélection pointue de vins natures et de boissons artisanales.",
+  insider_tip: "• **Le Burger** : Leur ’OG Burger' est une référence du genre à Paris, même pour les non-végétaliens.\n• **Vins Orange** : La sélection de vins orange est particulièrement bien sourcée, parfaite pour accompagner les épices du menu.\n• **Brunch** : Le week-end, le lieu se transforme pour un brunch complet et très prisé.",
   specials: {
     cuisine: ["Cuisine 100% Végétale", "Smashed Potatoes", "OG Burger"],
     drinks: ["Vins Natures", "Matcha Latte de haute qualité", "Mocktails signatures"],
-    must_eat: "Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l'extérieur, fondantes à l'intérieur, un régal absolu.",
+    must_eat: "Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l’extérieur, fondantes à l'intérieur, un régal absolu.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFvS1lPfx_JcTq03zp4WUwC0XwJc-3PWMcX9plf3erEvZNbmrVuJSidqVPTePjp-HSA2J4hQnA6CvxRbV7KNW20NHdqdUIp-fS5NAXQlAta-589SjDnTXzKSKl3apQBSMagrNPmTLAP5TQNvc9caH9CywB-E_ujGJJ46ehmfWPklPG7BuVG0d82sX9X2rZk3RbFnC87x9XQmeMKr2nTaTT-75fX5LSLOsFvnNzSCrddT0flGuwMB64s-KqUEafaI8LLEgkAiRB1aS7Z-UBRdaLKnRw7IfUssfzen-PH6TWcJg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,9 +5,9 @@ export const restaurant_lao_lane_xang: SurgicalPlace = {
   slug: "restaurant-lao-lane-xang",
   name: "Restaurant Lao Lane Xang",
   category: "restaurant",
-  subcategory: ["laotienn"],
+  subcategory: ['français'],
   location: {
-    address: "102 Av. d'Ivry, 75013 Paris, France",
+    address: "102 Av. d’Ivry, 75013 Paris, France",
     arrondissement: 13,
     lat: 48.8256088,
     lng: 2.3614423,
@@ -85,8 +85,8 @@ export const restaurant_lao_lane_xang: SurgicalPlace = {
       }
     ]
   },
-  description: "Lao Lane Xang 2 est l'une des tables les plus respectées du 13ème arrondissement. Proposant un voyage culinaire entre le Laos, la Thaïlande et le Vietnam, le lieu est célèbre pour son équilibre parfait entre épices et fraîcheur. Un cadre plus soigné que les cantines voisines, idéal pour découvrir des spécialités comme le riz croustillant ou le canard au curry.",
-  insider_tip: "• **Combo Moelle** : La salade de riz croustillant (Nam Khao) est un incontournable absolu pour commencer le repas.\n• **Expérience Culturelle** : Le service est efficace et la carte est extrêmement riche, laissez-vous tenter par le Steak Lao.\n• **Timing Stratégique** : Le restaurant est très populaire le soir, prévoyez d'arriver à l'ouverture pour éviter l'attente.",
+  description: "Lao Lane Xang 2 est l’une des tables les plus respectées du 13ème arrondissement. Proposant un voyage culinaire entre le Laos, la Thaïlande et le Vietnam, le lieu est célèbre pour son équilibre parfait entre épices et fraîcheur. Un cadre plus soigné que les cantines voisines, idéal pour découvrir des spécialités comme le riz croustillant ou le canard au curry.",
+  insider_tip: "• **Combo Moelle** : La salade de riz croustillant (Nam Khao) est un incontournable absolu pour commencer le repas.\n• **Expérience Culturelle** : Le service est efficace et la carte est extrêmement riche, laissez-vous tenter par le Steak Lao.\n• **Timing Stratégique** : Le restaurant est très populaire le soir, prévoyez d’arriver à l’ouverture pour éviter l’attente.",
   specials: {
     cuisine: ["Laotienne", "Thaïlandaise", "Asiatique"],
     drinks: ["Thé glacé thaï", "Bière Singha"],

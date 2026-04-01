@@ -38,8 +38,8 @@ export const parc_martin_luther_king: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Le Parc Martin Luther King est le nouveau poumon vert du 17ème, symbole d'un urbanisme contemporain et écologique. Sur ses 10 hectares, on découvre des plans d'eau luxuriants, des jardins partagés, un skatepark vibrant et de vastes pelouses où tout le monde se retrouve. Entre les immeubles design du nouveau Batignolles, c'est une bulle de nature urbaine où la biodiversité est reine. Un modèle de parc moderne, vivant et lumineux qui a transformé la vie du quartier.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le Parc Martin Luther King est le nouveau poumon vert du 17ème, symbole d’un urbanisme contemporain et écologique. Sur ses 10 hectares, on découvre des plans d’eau luxuriants, des jardins partagés, un skatepark vibrant et de vastes pelouses où tout le monde se retrouve. Entre les immeubles design du nouveau Batignolles, c’est une bulle de nature urbaine où la biodiversité est reine. Un modèle de parc moderne, vivant et lumineux qui a transformé la vie du quartier.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

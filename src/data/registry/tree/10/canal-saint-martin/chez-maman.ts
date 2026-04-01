@@ -5,7 +5,7 @@ export const chez_maman: SurgicalPlace = {
     name: "Chez Maman",
     slug: "chez-maman",
     category: "restaurant",
-    subcategory: ["brasserie", "bar"],
+    subcategory: ['français'],
     location: {
         address: "34 Av. de Laumière",
         arrondissement: 19,
@@ -101,7 +101,7 @@ export const chez_maman: SurgicalPlace = {
                 items: [
                     { name: "Pinte Paris Blonde 50cl", price_cents: 610 },
                     { name: "Pinte Couvente Abbaye 50cl", price_cents: 710 },
-                    { name: "Pinte Blanche Moulin d'ascq Bio 50cl", price_cents: 790 },
+                    { name: "Pinte Blanche Moulin d’ascq Bio 50cl", price_cents: 790 },
                     { name: "Pinte IPA Légennaire 50cl", price_cents: 860 },
                     { name: "Verre Bordeaux Superieur 14cl", price_cents: 490 },
                     { name: "Verre Brouilly AOP 14cl", price_cents: 550 }
@@ -125,9 +125,9 @@ export const chez_maman: SurgicalPlace = {
     instagram_handle: "chezmamanparis",
     verified: true,
     google_rating: 4.5,
-    description: "Située idéalement sur l'avenue de Laumière, cette brasserie traditionnelle offre un cadre hybride parfait entre le restaurant convivial et le bistrot de quartier. La décoration originale et colorée donne un vrai cachet au lieu, tandis que la grande terrasse permet de profiter des rayons du soleil. La carte généreuse navigue entre grands classiques de la cuisine bourgeoise et burgers gourmands, le tout servi par une équipe souriante et chaleureuse.",
-    insider_tip: "• La très grande terrasse idéalement exposée offre un ensoleillement optimal l'après-midi, parfait pour les fins de journée d'été.\n• Le service est souvent cité parmi les meilleurs du quartier pour sa bonne humeur authentique.\n• Il est particulièrement agréable de venir boire sa pinte blonde à 3€ pendant les 7 d'Happy Hour XXL",
-    expert_catchline: "Une brasserie colorée à l'accueil généreux et à la belle terrasse ensoleillée.",
+    description: "Située idéalement sur l’avenue de Laumière, cette brasserie traditionnelle offre un cadre hybride parfait entre le restaurant convivial et le bistrot de quartier. La décoration originale et colorée donne un vrai cachet au lieu, tandis que la grande terrasse permet de profiter des rayons du soleil. La carte généreuse navigue entre grands classiques de la cuisine bourgeoise et burgers gourmands, le tout servi par une équipe souriante et chaleureuse.",
+    insider_tip: "• La très grande terrasse idéalement exposée offre un ensoleillement optimal l’après-midi, parfait pour les fins de journée d’été.\n• Le service est souvent cité parmi les meilleurs du quartier pour sa bonne humeur authentique.\n• Il est particulièrement agréable de venir boire sa pinte blonde à 3€ pendant les 7 d’Happy Hour XXL",
+    expert_catchline: "Une brasserie colorée à l’accueil généreux et à la belle terrasse ensoleillée.",
     specials: {
         cuisine: ["Bœuf bourguignon", "Dindo burger", "Tartare de bœuf", "Entrecôte XL"],
         drinks: ["Pinte (6.10€, HH 3.00€)", "Verre de vin (4.90€)"],

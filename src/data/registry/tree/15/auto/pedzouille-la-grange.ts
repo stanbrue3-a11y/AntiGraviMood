@@ -5,7 +5,7 @@ export const pedzouille_la_grange: SurgicalPlace = {
   slug: "pedzouille-la-grange",
   name: "Pedzouille La Grange",
   category: "restaurant",
-  subcategory: ["rooftop", "français", "viande"],
+  subcategory: ['français'],
   location: {
     address: "4 Avenue de la Porte de la Plaine, 75015 Paris, France",
     arrondissement: 15,
@@ -63,30 +63,30 @@ export const pedzouille_la_grange: SurgicalPlace = {
         category_type: "main",
         display_label: "Le Coût de Fourchette (Plats)",
         items: [
-          { name: "Le Steak Barbare (Veau Bleu d'Auvergne)", price_cents: 2600, description: "Tartare de veau coupé au couteau, noisettes, condiments", is_highlight: true },
-          { name: "Ave Pedzouille ! (Poulet de Ferme)", price_cents: 2400, description: "Suprême de poulet, sauce à l'Ossau-Iraty, purée maison" },
-          { name: "Daurade l'Exploratrice", price_cents: 2800, description: "Filet rôti, légumes oubliés glacés, beurre aux herbes" },
+          { name: "Le Steak Barbare (Veau Bleu d’Auvergne)", price_cents: 2600, description: "Tartare de veau coupé au couteau, noisettes, condiments", is_highlight: true },
+          { name: "Ave Pedzouille ! (Poulet de Ferme)", price_cents: 2400, description: "Suprême de poulet, sauce à l’Ossau-Iraty, purée maison" },
+          { name: "Daurade l’Exploratrice", price_cents: 2800, description: "Filet rôti, légumes oubliés glacés, beurre aux herbes" },
           { name: "Côte de Bœuf Maturée (Pour deux)", price_cents: 8200, description: "Sélectionnée par notre boucher, frites maison, os à moelle (Prix pour 2)" },
-          { name: "L'Entrecôte de la Grange (300g)", price_cents: 3400, description: "Poivre en grains ou sauce Bleue, frites authentiques" },
+          { name: "L’Entrecôte de la Grange (300g)", price_cents: 3400, description: "Poivre en grains ou sauce Bleue, frites authentiques" },
           { name: "Burger des Champs", price_cents: 2200, description: "Bœuf français, Comté 18 mois, oignons confits, sauce Pedzouille" },
-          { name: "Risotto d'Épeautre (Végé)", price_cents: 2100, description: "Courge rôtie, copeaux de fromage de brebis, sauge" }
+          { name: "Risotto d’Épeautre (Végé)", price_cents: 2100, description: "Courge rôtie, copeaux de fromage de brebis, sauge" }
         ]
       },
       {
         category_type: "dessert",
         display_label: "La Récompense (Desserts)",
         items: [
-          { name: "Tarte Tatin de la Mère Grand", price_cents: 1000, description: "Pommes caramélisées, crème crue d'Isigny", is_highlight: true },
+          { name: "Tarte Tatin de la Mère Grand", price_cents: 1000, description: "Pommes caramélisées, crème crue d’Isigny", is_highlight: true },
           { name: "Mousse au Chocolat XXL", price_cents: 900, description: "Servie à la louche, noisettes caramélisées" },
           { name: "Pavlova aux Fruits Rouges", price_cents: 1100, description: "Meringue légère, chantilly à la vanille bourbon" },
-          { name: "Brioche Perdue au Caramel", price_cents: 1000, description: "Glace au lait d'amande, caramel beurre salé" }
+          { name: "Brioche Perdue au Caramel", price_cents: 1000, description: "Glace au lait d’amande, caramel beurre salé" }
         ]
       },
       {
         category_type: "drink",
         display_label: "Pour Arroser tout ça (Boissons)",
         items: [
-          { name: "Cocktail Signature 'L'Abreuvoir'", price_cents: 1400 },
+          { name: "Cocktail Signature ’L’Abreuvoir’", price_cents: 1400 },
           { name: "Verre de Vin Bio (Sélection)", price_cents: 700 },
           { name: "Pinte de Bière Artisanale", price_cents: 900 },
           { name: "Bouteille de vin rouge (Morgon)", price_cents: 3600 },
@@ -96,7 +96,7 @@ export const pedzouille_la_grange: SurgicalPlace = {
       }
     ]
   },
-  description: `Perché au 8ème étage avec une vue spectaculaire sur la Tour Eiffel, Pedzouille La Grange est une véritable auberge franchouillarde suspendue dans le ciel de Paris. Entre bois brut, tables d'hôtes et cloches de vaches, l'ambiance est rustique, joyeuse et résolument festive. On y vient pour la côte de bœuf maturée, le camembert flamboyant et l'énergie débordante d'une équipe qui ne se prend pas au sérieux. Un rooftop atypique où le terroir français rencontre le panorama parisien le plus iconique.`,
+  description: `Perché au 8ème étage avec une vue spectaculaire sur la Tour Eiffel, Pedzouille La Grange est une véritable auberge franchouillarde suspendue dans le ciel de Paris. Entre bois brut, tables d’hôtes et cloches de vaches, l’ambiance est rustique, joyeuse et résolument festive. On y vient pour la côte de bœuf maturée, le camembert flamboyant et l’énergie débordante d’une équipe qui ne se prend pas au sérieux. Un rooftop atypique où le terroir français rencontre le panorama parisien le plus iconique.`,
   expert_catchline: `L'auberge montagnarde perchée sur un toit du 15ème, face à la Dame de Fer.`,
   insider_tip: `• **Le Spot Tour Eiffel** : Les places en terrasse au bord de la rambarde sont les plus demandées, réservez tôt et précisez votre souhait.
   • **Le Must-Eat** : Le Camembert flambé au Calvados est un spectacle visuel et gustatif incontournable pour démarrer.

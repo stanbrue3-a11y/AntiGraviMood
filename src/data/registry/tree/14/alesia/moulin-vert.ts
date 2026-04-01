@@ -5,7 +5,7 @@ export const moulinVert: SurgicalPlace = {
     name: "Auberge du Moulin Vert",
     slug: "auberge-du-moulin-vert-paris-14",
     category: "restaurant",
-    subcategory: ["gastronomique", "terrasse", "historique", "raffiné", "jardin"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "33 Rue du Moulin Vert, 75014 Paris, France",
         arrondissement: 14,
@@ -40,11 +40,11 @@ export const moulinVert: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "L'Excellence du Moulin (Plats)",
+                display_label: "L’Excellence du Moulin (Plats)",
                 items: [
                     { name: "Filet de Boeuf grillé, Sauce Béarnaise", price_cents: 4200 },
-                    { name: "Noisette d'Agneau en Croûte d'Herbes", price_cents: 3600 },
-                    { name: "Homard Bleu décortiqué à l'Armoricaine", price_cents: 4800 },
+                    { name: "Noisette d’Agneau en Croûte d'Herbes", price_cents: 3600 },
+                    { name: "Homard Bleu décortiqué à l’Armoricaine", price_cents: 4800 },
                     { name: "Ris de Veau dorés au Sautoir, Morilles", price_cents: 4500 },
                     { name: "Bar de Ligne cuit à la Vapeur Douce", price_cents: 3800 },
                     { name: "Risotto Noir aux Gambas et Calamars", price_cents: 3400 },
@@ -64,7 +64,7 @@ export const moulinVert: SurgicalPlace = {
             },
             {
                 category_type: "dessert",
-                display_label: "Douceurs de l'Auberge",
+                display_label: "Douceurs de l’Auberge",
                 items: [
                     { name: "Profiteroles au Chocolat Chaud Maison", price_cents: 1200 },
                     { name: "Soufflé Glacé au Grand Marnier", price_cents: 1400 },
@@ -82,9 +82,9 @@ export const moulinVert: SurgicalPlace = {
     },
     verified: true,
     google_rating: 3.7,
-    description: "L'Auberge du Moulin Vert est une institution historique du 14ème arrondissement, offrant un cadre bucolique absolument unique avec son jardin de curé et sa terrasse ombragée. Si le passé de l'établissement fut parfois irrégulier, sa transformation récente en fait à nouveau une destination privilégiée pour ceux qui cherchent l'apaisement en ville. La cuisine, d'inspiration gastronomique classique, privilégie les belles pièces de viande et les poissons nobles, servis dans une verrière lumineuse qui donne sur la verdure.",
-    insider_tip: "Demandez impérativement une table dans le jardin si le temps le permet, c'est l'atout maître de la maison. Les ris de veau sont particulièrement soignés, un retour aux sources de la grande cuisine française.",
-    expert_catchline: "Un jardin d'Eden gastronomique caché dans le quartier d'Alésia.",
+    description: "L’Auberge du Moulin Vert est une institution historique du 14ème arrondissement, offrant un cadre bucolique absolument unique avec son jardin de curé et sa terrasse ombragée. Si le passé de l’établissement fut parfois irrégulier, sa transformation récente en fait à nouveau une destination privilégiée pour ceux qui cherchent l’apaisement en ville. La cuisine, d'inspiration gastronomique classique, privilégie les belles pièces de viande et les poissons nobles, servis dans une verrière lumineuse qui donne sur la verdure.",
+    insider_tip: "Demandez impérativement une table dans le jardin si le temps le permet, c’est l'atout maître de la maison. Les ris de veau sont particulièrement soignés, un retour aux sources de la grande cuisine française.",
+    expert_catchline: "Un jardin d’Eden gastronomique caché dans le quartier d'Alésia.",
     specials: {
         cuisine: ["Gastronomique Classique", "Brasserie de Standing"],
         drinks: ["Grands Crus classés", "Champagnes de Marque"],

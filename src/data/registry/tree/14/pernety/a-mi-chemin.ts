@@ -5,7 +5,7 @@ export const aMiChemin: SurgicalPlace = {
     name: "A Mi-Chemin",
     slug: "a-mi-chemin-paris-14",
     category: "restaurant",
-    subcategory: ["fusion", "tunisien", "cuisine-francaise", "insolite", "vin-nature"],
+    subcategory: ['français'],
     location: {
         address: "31 Rue Boulard, 75014 Paris, France",
         arrondissement: 14,
@@ -45,8 +45,8 @@ export const aMiChemin: SurgicalPlace = {
                     { name: "Couscous Royal aux 7 Légumes", price_cents: 2400 },
                     { name: "Tajine de Veau aux Pruneaux et Amandes", price_cents: 2250 },
                     { name: "Poisson du Jour à la Chouchouka", price_cents: 2100 },
-                    { name: "Brick à l'Oeuf Traditionnelle", price_cents: 950 },
-                    { name: "Souris d'Agneau confite au Miel", price_cents: 2600 },
+                    { name: "Brick à l’Oeuf Traditionnelle", price_cents: 950 },
+                    { name: "Souris d’Agneau confite au Miel", price_cents: 2600 },
                     { name: "Couscous Végétarien Gourmand", price_cents: 1850 },
                     { name: "Sauté de Seiches à la Tunisienne", price_cents: 2150 }
                 ]
@@ -56,7 +56,7 @@ export const aMiChemin: SurgicalPlace = {
                 display_label: "Entrées Métissées",
                 items: [
                     { name: "Houmous Crémeux Maison", price_cents: 850 },
-                    { name: "Kemia de l'Artisan (Sélection d'entrées)", price_cents: 1600 },
+                    { name: "Kemia de l’Artisan (Sélection d'entrées)", price_cents: 1600 },
                     { name: "Chorba de Tradition au Blé Vert", price_cents: 1000 },
                     { name: "Salade Méchouia au Thon Frais", price_cents: 1200 },
                     { name: "Merguez Artisanales Grillées", price_cents: 1100 }
@@ -64,7 +64,7 @@ export const aMiChemin: SurgicalPlace = {
             },
             {
                 category_type: "dessert",
-                display_label: "Douceurs d'Orient",
+                display_label: "Douceurs d’Orient",
                 items: [
                     { name: "Coupe de Pâtisseries fines du Maghreb", price_cents: 950 },
                     { name: "Orange à la Cannelle et Eau de Rose", price_cents: 850 },
@@ -82,9 +82,9 @@ export const aMiChemin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.0,
-    description: "A Mi-Chemin est une adresse unique, fruit de la rencontre entre Nordine Labiadh (tunisien) et sa femme Virginie (bretonne). Cette fusion donne naissance à une cuisine métissée d'une poésie absolue, où les épices orientales viennent s'encanailler avec les produits du marché parisien. Le décor est simple, intimiste, et le service d'une douceur extraordinaire. On y vient pour un voyage culinaire singulier où le couscous côtoie des flacons de vins naturels d'exception, créant un pont entre deux rives de la Méditerranée.",
-    insider_tip: "Ne manquez pas leur tajine, d'un équilibre parfait entre le sucré et le salé. Nordine est un conteur de saveurs, laissez-le vous guider dans son univers. Les places sont limitées, la réservation est indispensable.",
-    expert_catchline: "Le voyage poétique d'une fusion franco-tunisienne d'exception.",
+    description: "A Mi-Chemin est une adresse unique, fruit de la rencontre entre Nordine Labiadh (tunisien) et sa femme Virginie (bretonne). Cette fusion donne naissance à une cuisine métissée d’une poésie absolue, où les épices orientales viennent s’encanailler avec les produits du marché parisien. Le décor est simple, intimiste, et le service d’une douceur extraordinaire. On y vient pour un voyage culinaire singulier où le couscous côtoie des flacons de vins naturels d'exception, créant un pont entre deux rives de la Méditerranée.",
+    insider_tip: "Ne manquez pas leur tajine, d’un équilibre parfait entre le sucré et le salé. Nordine est un conteur de saveurs, laissez-le vous guider dans son univers. Les places sont limitées, la réservation est indispensable.",
+    expert_catchline: "Le voyage poétique d’une fusion franco-tunisienne d'exception.",
     specials: {
         cuisine: ["Fusion", "Tunisienne et Française"],
         drinks: ["Vins Naturels Curatés", "Thé à la Menthe Signature"],

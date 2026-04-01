@@ -5,7 +5,7 @@ export const plombDuCantal: SurgicalPlace = {
     name: "Le Plomb du Cantal",
     slug: "le-plomb-du-cantal-gaite",
     category: "restaurant",
-    subcategory: ["auvergnat", "traditionnel", "genereux", "terrasse", "institution", "parisien"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "3 Rue de la Gaîté, 75014 Paris, France",
         arrondissement: 14,
@@ -40,14 +40,14 @@ export const plombDuCantal: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "Spécialités de l'Aubrac",
+                display_label: "Spécialités de l’Aubrac",
                 items: [
                     { name: "Aligot Traditionnel Monté en direct", price_cents: 1850, description: "La spécialité maison, servie avec saucisse fraîche." },
                     { name: "Truffade Dorée à la Tome", price_cents: 1950 },
-                    { name: "Saucisse fraîche d'Auvergne & Aligot", price_cents: 2000 },
-                    { name: "Chou Farci à l'Aveyronnaise", price_cents: 1900 },
-                    { name: "Tripoux d'Auvergne (les 3)", price_cents: 2100 },
-                    { name: "Pavé de Boeuf de l'Aubrac (250g)", price_cents: 2450 },
+                    { name: "Saucisse fraîche d’Auvergne & Aligot", price_cents: 2000 },
+                    { name: "Chou Farci à l’Aveyronnaise", price_cents: 1900 },
+                    { name: "Tripoux d’Auvergne (les 3)", price_cents: 2100 },
+                    { name: "Pavé de Boeuf de l’Aubrac (250g)", price_cents: 2450 },
                     { name: "Entrecôte Nature (330g)", price_cents: 2600 },
                     { name: "Côte de Boeuf (500g) pour amateurs", price_cents: 3400 },
                     { name: "Magret de Canard Entier (380g)", price_cents: 2800 }
@@ -57,7 +57,7 @@ export const plombDuCantal: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Entrées & Fromages",
                 items: [
-                    { name: "Planche de Charcuterie d'Auvergne", price_cents: 1700 },
+                    { name: "Planche de Charcuterie d’Auvergne", price_cents: 1700 },
                     { name: "Salade de Canard Fumé", price_cents: 1450 },
                     { name: "Jambon Cru de Montagne", price_cents: 1200 },
                     { name: "Assiette de 5 Fromages AOP", price_cents: 1350 },
@@ -86,14 +86,14 @@ export const plombDuCantal: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.3,
-    description: "Le Plomb du Cantal est l'ambassade la plus authentique (et la plus généreuse) de l'Auvergne à Paris. Situé dans la bouillonnante rue de la Gaîté, ce restaurant est célèbre pour son aligot et sa truffade, étirés avec virtuosité sous les yeux des clients. Le décor est rustique, les assiettes débordent et l'ambiance est celle d'une fête de village à Laguiole. C'est l'endroit idéal pour les très grosses faims et les amateurs de gastronomie de terroir sans concession, servis dans une atmosphère bon enfant qui ne désemplit jamais.",
-    insider_tip: "Visez le service continu si vous voulez éviter la file d'attente monumentale aux heures de pointe. Les portions frolent le gargantuesque, donc ménagez vos efforts sur l'entrée si vous voulez voir la fin de votre plateau d'aligot.",
-    expert_catchline: "Le temple de l'aligot et de la truffade au coeur de la Gaîté.",
+    description: "Le Plomb du Cantal est l’ambassade la plus authentique (et la plus généreuse) de l’Auvergne à Paris. Situé dans la bouillonnante rue de la Gaîté, ce restaurant est célèbre pour son aligot et sa truffade, étirés avec virtuosité sous les yeux des clients. Le décor est rustique, les assiettes débordent et l’ambiance est celle d’une fête de village à Laguiole. C’est l'endroit idéal pour les très grosses faims et les amateurs de gastronomie de terroir sans concession, servis dans une atmosphère bon enfant qui ne désemplit jamais.",
+    insider_tip: "Visez le service continu si vous voulez éviter la file d’attente monumentale aux heures de pointe. Les portions frolent le gargantuesque, donc ménagez vos efforts sur l’entrée si vous voulez voir la fin de votre plateau d’aligot.",
+    expert_catchline: "Le temple de l’aligot et de la truffade au coeur de la Gaîté.",
     specials: {
         cuisine: ["Auvergnate", "Terroir"],
         drinks: ["Vins du Cantal", "Bière Artisanale"],
-        must_eat: "L'Aligot Saucisse, évidemment.",
-        must_drink: "Un verre de vin rouge de l'Aveyron."
+        must_eat: "L’Aligot Saucisse, évidemment.",
+        must_drink: "Un verre de vin rouge de l’Aveyron."
     },
     source: "expert_human"
 };

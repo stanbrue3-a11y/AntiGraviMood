@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const l_intrigue: SurgicalPlace = {
     "id": "poi-lintrigue-75015",
-    "name": "L'Intrigue",
+    "name": "L’Intrigue",
     "slug": "lintrigue-paris-15",
     "category": "restaurant",
     "subcategory": ["bar", "brasserie", "bar-a-cocktails", "brunch", "terrasse", "fait-maison", "happy-hour"],
@@ -42,14 +42,14 @@ export const l_intrigue: SurgicalPlace = {
         "wine_glass": 5,
         "coffee_price": 2.6,
         "planche_price": 20,
-        "smart_tip": "Le 'Happy Hour' (16h-20h) fait chuter la pinte d'IPA à 7,50€. Pour les familles, le brunch dominical à 32€ (15€ pour les enfants) est un excellent calcul sur la Place Étienne Pernet.",
+        "smart_tip": "Le ’Happy Hour’ (16h-20h) fait chuter la pinte d’IPA à 7,50€. Pour les familles, le brunch dominical à 32€ (15€ pour les enfants) est un excellent calcul sur la Place Étienne Pernet.",
         "menu_items": [
             {
                 "category_type": "other",
                 "display_label": "La Partie Bar & Mixologie",
                 "items": [
-                    { "name": "Cocktail Mimosa", "price_cents": 1200, "description": "Champagne et jus d'orange frais." },
-                    { "name": "Bissapolitain Maison", "price_cents": 1200, "description": "Création signature à base de fleurs d'hibiscus." },
+                    { "name": "Cocktail Mimosa", "price_cents": 1200, "description": "Champagne et jus d’orange frais." },
+                    { "name": "Bissapolitain Maison", "price_cents": 1200, "description": "Création signature à base de fleurs d’hibiscus." },
                     { "name": "Bellini Passion", "price_cents": 1200 },
                     { "name": "Verre de Chardonnay / Pinot Noir", "price_cents": 500, "description": "Sélection 12cl." },
                     { "name": "Tequila Volcan De Mi Tierra", "price_cents": 1200 },
@@ -60,7 +60,7 @@ export const l_intrigue: SurgicalPlace = {
                 "category_type": "main",
                 "display_label": "La Partie Brasserie & Plats",
                 "items": [
-                    { "name": "Burger de L'Intrigue", "price_cents": 1790, "description": "Classic simple. Double à 22,90€." },
+                    { "name": "Burger de L’Intrigue", "price_cents": 1790, "description": "Classic simple. Double à 22,90€." },
                     { "name": "Confit de Canard", "price_cents": 1970, "description": "Servi avec pommes de terre grenailles." },
                     { "name": "Filet de Bar à la plancha", "price_cents": 2170 },
                     { "name": "Pavé de Veau", "price_cents": 2190 },
@@ -74,7 +74,7 @@ export const l_intrigue: SurgicalPlace = {
                 "category_type": "dessert",
                 "display_label": "Desserts Artisans",
                 "items": [
-                    { "name": "Paris-Brest de L'Intrigue", "price_cents": 1080 },
+                    { "name": "Paris-Brest de L’Intrigue", "price_cents": 1080 },
                     { "name": "Nems au Chocolat", "price_cents": 950 },
                     { "name": "Tiramisu Maison", "price_cents": 950 }
                 ]
@@ -87,12 +87,12 @@ export const l_intrigue: SurgicalPlace = {
         "festif": 75,
         "culturel": 10
     },
-    "description": "L'Intrigue est le pivot social de la Place Étienne Pernet. Cette brasserie moderne a réussi le pari de l'hybridation : café de quartier dès 7h du matin, table bistronomique pour le déjeuner, et bar de nuit chaleureux aux cocktails précis. Le décor, feutré et boisé, tranche avec les établissements plus froids du quartier Félix Faure. Le 'Fait Maison' y est une règle stricte, appliquée aussi bien aux pâtisseries qu'aux jus de fruits du bar, faisant de l'endroit une valeur refuge constante, particulièrement pour ses brunchs saisonniers très prisés.",
-    "insider_tip": "• Ne vous laissez pas surprendre par l'efficacité du service : la cuisine envoie très vite, demandez explicitement de temporiser si vous voulez profiter de votre apéritif en terrasse.\n• C'est l'un des rares lieux du 15e réellement 'Bas Âge Friendly' : le personnel accueille poussettes et familles sans le moindre froncement de sourcil.\n• La playlist est particulièrement soignée, évoluant d'un fond paisible le midi vers une énergie plus marquée lors des soirées cocktails.",
+    "description": "L’Intrigue est le pivot social de la Place Étienne Pernet. Cette brasserie moderne a réussi le pari de l’hybridation : café de quartier dès 7h du matin, table bistronomique pour le déjeuner, et bar de nuit chaleureux aux cocktails précis. Le décor, feutré et boisé, tranche avec les établissements plus froids du quartier Félix Faure. Le ’Fait Maison’ y est une règle stricte, appliquée aussi bien aux pâtisseries qu’aux jus de fruits du bar, faisant de l'endroit une valeur refuge constante, particulièrement pour ses brunchs saisonniers très prisés.",
+    "insider_tip": "• Ne vous laissez pas surprendre par l’efficacité du service : la cuisine envoie très vite, demandez explicitement de temporiser si vous voulez profiter de votre apéritif en terrasse.\n• C’est l’un des rares lieux du 15e réellement ’Bas Âge Friendly’ : le personnel accueille poussettes et familles sans le moindre froncement de sourcil.\n• La playlist est particulièrement soignée, évoluant d'un fond paisible le midi vers une énergie plus marquée lors des soirées cocktails.",
     "specials": {
         "cuisine": ["French Market", "Burger Gourmet", "Option Végétarienne"],
         "drinks": ["Mixologie Signature", "Bières Artisanales", "Sélection de Tequilas"],
-        "must_eat": "Cuisine de marché 'Fait Maison' : du Burger brioché à l'Oeuf Cocotte truffé.",
+        "must_eat": "Cuisine de marché ’Fait Maison’ : du Burger brioché à l’Oeuf Cocotte truffé.",
         "expert_catchline": "Mixologie signature et sélection de Tequilas pointue dans un cadre feutré."
     },
     "images": {

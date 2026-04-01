@@ -5,7 +5,7 @@ export const moulin_de_la_vierge: SurgicalPlace = {
     name: "Le Moulin de la Vierge",
     slug: "le-moulin-de-la-vierge",
     category: "café",
-    subcategory: ["patisserie", "historique", "the", "art-nouveau"],
+    subcategory: ['français'],
     location: {
         address: "105 Rue Vercingétorix, 75014 Paris, France",
         arrondissement: 14,
@@ -28,7 +28,7 @@ export const moulin_de_la_vierge: SurgicalPlace = {
         main_action: {
             type: "site",
             url: "https://www.lemoulindelavierge.com/",
-            label: "PLUS D'INFOS"
+            label: "PLUS D’INFOS"
         }
     },
     pricing: {
@@ -43,7 +43,7 @@ export const moulin_de_la_vierge: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "Pains d'Antan (Cuits au feu de bois)",
+                display_label: "Pains d’Antan (Cuits au feu de bois)",
                 items: [
                     { name: "Pain de Campagne Bio (le kg)", price_cents: 550 },
                     { name: "Baguette de tradition", price_cents: 135 },
@@ -66,7 +66,7 @@ export const moulin_de_la_vierge: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Pâtisseries & Salon de Thé",
                 items: [
-                    { name: "Millefeuille à l'ancienne", price_cents: 580 },
+                    { name: "Millefeuille à l’ancienne", price_cents: 580 },
                     { name: "Éclair au chocolat noir", price_cents: 450 },
                     { name: "Tartelette aux fraises Gariguette", price_cents: 620 },
                     { name: "Paris-Brest individuel", price_cents: 590 },
@@ -94,13 +94,13 @@ export const moulin_de_la_vierge: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.1,
-    description: "Installé dans une magnifique boutique classée monument historique sur la rue Vercingétorix, Le Moulin de la Vierge est un voyage dans le temps. Avec son décor Art Nouveau et ses plafonds peints, c'est l'un des plus beaux écrins de boulangerie à Paris. On y vient pour les pains de campagne bio cuits au feu de bois selon des méthodes ancestrales, et l'on reste pour le charme suranné de son petit salon de thé où le temps semble s'être arrêté au début du siècle.",
-    insider_tip: "Ne manquez pas leur pain de campagne, un véritable monument de goût qui se conserve plusieurs jours. En été, la petite terrasse sur la zone piétonne de la rue de l'Ouest est un havre de paix absolu pour un café-croissant matinal.",
+    description: "Installé dans une magnifique boutique classée monument historique sur la rue Vercingétorix, Le Moulin de la Vierge est un voyage dans le temps. Avec son décor Art Nouveau et ses plafonds peints, c’est l’un des plus beaux écrins de boulangerie à Paris. On y vient pour les pains de campagne bio cuits au feu de bois selon des méthodes ancestrales, et l’on reste pour le charme suranné de son petit salon de thé où le temps semble s'être arrêté au début du siècle.",
+    insider_tip: "Ne manquez pas leur pain de campagne, un véritable monument de goût qui se conserve plusieurs jours. En été, la petite terrasse sur la zone piétonne de la rue de l’Ouest est un havre de paix absolu pour un café-croissant matinal.",
     expert_catchline: "Le pain de tradition dans un écrin de monument historique.",
     specials: {
         cuisine: ["Boulangerie Bio", "Pâtisserie Traditionnelle"],
         drinks: ["Café torréfié", "Thés de sélection"],
         must_eat: "Le pain de campagne au feu de bois et le millefeuille.",
-        must_drink: "Un chocolat chaud à l'ancienne sous les plafonds peints."
+        must_drink: "Un chocolat chaud à l’ancienne sous les plafonds peints."
     }
 };

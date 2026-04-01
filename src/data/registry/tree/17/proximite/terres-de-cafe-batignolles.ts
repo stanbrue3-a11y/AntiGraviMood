@@ -38,8 +38,8 @@ export const terres_de_cafe_batignolles: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "L'expertise de Terres de Café trouve son écrin aux Batignolles dans ce lieu épuré et moderne dédié à l'excellence caféinée. Ici, le café est traité comme un grand vin : terroir, torréfaction précise et préparation soignée selon vos goûts (V60, Chemex, Aeropress ou Espresso parfait). Chaque tasse raconte une histoire et les baristas sont là pour vous guider dans cet univers aromatique complexe et fascinant. Une escale indispensable pour tout amateur de 'specialty coffee' en quête de la tasse parfaite.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "L’expertise de Terres de Café trouve son écrin aux Batignolles dans ce lieu épuré et moderne dédié à l’excellence caféinée. Ici, le café est traité comme un grand vin : terroir, torréfaction précise et préparation soignée selon vos goûts (V60, Chemex, Aeropress ou Espresso parfait). Chaque tasse raconte une histoire et les baristas sont là pour vous guider dans cet univers aromatique complexe et fascinant. Une escale indispensable pour tout amateur de ’specialty coffee' en quête de la tasse parfaite.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -5,7 +5,7 @@ export const triplettaGaite: SurgicalPlace = {
     name: "Tripletta Gaité",
     slug: "tripletta-gaite-paris-14",
     category: "restaurant",
-    subcategory: ["pizza", "italien", "vibrant", "terrasse", "napolitain"],
+    subcategory: ['français', 'italien', 'terrasse'],
     location: {
         address: "1 Impasse de la Gaité, 75014 Paris, France",
         arrondissement: 14,
@@ -53,7 +53,7 @@ export const triplettaGaite: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Le Speciali di Tripletta",
                 items: [
-                    { name: "Tripletta (Pomodoro, Mozzarella, N'duja, Spianata)", price_cents: 1800 },
+                    { name: "Tripletta (Pomodoro, Mozzarella, N’duja, Spianata)", price_cents: 1800 },
                     { name: "Truffe (Mozzarella, Crème de Truffe, Champignons)", price_cents: 1950 },
                     { name: "Mortadella (Mozzarella, Mortadelle, Pesto de Pistoles)", price_cents: 1850 },
                     { name: "Burratina (Pomodoro, Burrata entière)", price_cents: 1900 },
@@ -66,7 +66,7 @@ export const triplettaGaite: SurgicalPlace = {
                 items: [
                     { name: "Burrata Pugliese aux Tomates Cerises", price_cents: 1450 },
                     { name: "Planche de Charcuteries Italiennes", price_cents: 1700 },
-                    { name: "Focaccia Maison à l'Huile d'Olive", price_cents: 700 },
+                    { name: "Focaccia Maison à l’Huile d'Olive", price_cents: 700 },
                     { name: "Tiramisu della Nonna", price_cents: 850 },
                     { name: "Panna Cotta aux Fruits Rouges", price_cents: 750 },
                     { name: "Calzone à la Pâte à Tartiner", price_cents: 950 }
@@ -82,8 +82,8 @@ export const triplettaGaite: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Tripletta Gaité est l'ambassade de la pizza napolitaine dans le quartier de la Gaité. Avec son four à bois imposant et sa décoration industrielle chaleureuse, le lieu dégage une énergie vibrante dès l'entrée. La pâte, longuement maturée, est une merveille de légèreté et de moelleux, garnie de produits sourcés directement en Italie. La terrasse, située dans une petite impasse calme, est une pépite rare dans ce quartier animé. C'est l'adresse idéale pour une pizza entre amis avant une séance de théâtre.",
-    insider_tip: "Demandez une table en terrasse si le temps le permet, l'impasse est très charmante. La pizza Tripletta avec sa N'duja (saucisse piquante calabraise) est un must pour les amateurs de sensations fortes.",
+    description: "Tripletta Gaité est l’ambassade de la pizza napolitaine dans le quartier de la Gaité. Avec son four à bois imposant et sa décoration industrielle chaleureuse, le lieu dégage une énergie vibrante dès l’entrée. La pâte, longuement maturée, est une merveille de légèreté et de moelleux, garnie de produits sourcés directement en Italie. La terrasse, située dans une petite impasse calme, est une pépite rare dans ce quartier animé. C’est l'adresse idéale pour une pizza entre amis avant une séance de théâtre.",
+    insider_tip: "Demandez une table en terrasse si le temps le permet, l’impasse est très charmante. La pizza Tripletta avec sa N'duja (saucisse piquante calabraise) est un must pour les amateurs de sensations fortes.",
     expert_catchline: "La pizza napolitaine pure et vibrante à Montparnasse.",
     specials: {
         cuisine: ["Napolitaine", "Italienne Contemporaine"],

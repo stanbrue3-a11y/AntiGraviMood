@@ -5,7 +5,7 @@ export const acolyte_insolite: SurgicalPlace = {
     name: "L’Acolyte de l’Insolite",
     slug: "acolyte-insolite",
     category: "restaurant",
-    subcategory: ["fusion", "tapas", "atypique", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "49 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -46,7 +46,7 @@ export const acolyte_insolite: SurgicalPlace = {
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
                     { name: "Assiette de frites maison", price_cents: 300 },
-                    { name: "Assiette de Melon à l'italienne", price_cents: 500 },
+                    { name: "Assiette de Melon à l’italienne", price_cents: 500 },
                     { name: "Antipasti de légumes confits", price_cents: 800 },
                     { name: "Foie Gras Maison", price_cents: 1400 },
                     { name: "Takoyaki fusion (spécialité japonaise poulpe)", price_cents: 1200 },
@@ -95,8 +95,8 @@ export const acolyte_insolite: SurgicalPlace = {
     instagram_handle: "lacolytedelinsolite",
     verified: true,
     google_rating: 4.8,
-    description: "Une adresse curieuse et discrète (quasi introuvable sans la cercher) frôlant l'insaisissable, avec un rating stupéfiant de 4.8. La cuisine s'amuse d'une hybridité totale : des grands classiques bistrot de viandes croisant par surprise des Takoyaki ou des Udons japonais.",
-    insider_tip: "• Les tarifs sont incroyablement doux pour le quartier (13€ la belle salade IGP, 9€ le sandwich ultra soigné).\n• L'endroit est fermé TOUT le week-end, prévoyez vos visites en semaine.\n• Demandez au chef s'il peut adapter le plat ou improviser, il s'amuse particulièrement avec les contraintes \"végétariennes\" ou hors carte.",
+    description: "Une adresse curieuse et discrète (quasi introuvable sans la cercher) frôlant l’insaisissable, avec un rating stupéfiant de 4.8. La cuisine s’amuse d’une hybridité totale : des grands classiques bistrot de viandes croisant par surprise des Takoyaki ou des Udons japonais.",
+    insider_tip: "• Les tarifs sont incroyablement doux pour le quartier (13€ la belle salade IGP, 9€ le sandwich ultra soigné).\n• L’endroit est fermé TOUT le week-end, prévoyez vos visites en semaine.\n• Demandez au chef s’il peut adapter le plat ou improviser, il s’amuse particulièrement avec les contraintes \"végétariennes\" ou hors carte.",
     expert_catchline: "Une table secrète aux influences surprenantes (franco-japonaises) qui truste un rating exceptionnel.",
     specials: {
         cuisine: ["Takoyaki", "Udon de poulet revisité", "Magret de canard"],

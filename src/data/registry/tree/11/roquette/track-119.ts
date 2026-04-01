@@ -5,7 +5,7 @@ export const track119: SurgicalPlace = {
     name: "Track 119 (Deb’s Street Food)",
     slug: "track-119",
     category: "restaurant",
-    subcategory: ["indian", "pakistani", "street-food", "food-court"],
+    subcategory: ['français'],
     location: {
         address: "119 Rue du Chemin Vert",
         arrondissement: 11,
@@ -47,7 +47,7 @@ export const track119: SurgicalPlace = {
                 category_type: "sharing",
                 display_label: "Street Food Snacks",
                 items: [
-                    { name: "Pani Puri (x6)", price_cents: 750, description: "Billes croustillantes à l'eau épicée." },
+                    { name: "Pani Puri (x6)", price_cents: 750, description: "Billes croustillantes à l’eau épicée." },
                     { name: "Samosas Pomme de Terre/Pois", price_cents: 600 },
                     { name: "Pakoras Légumes", price_cents: 650 }
                 ]
@@ -64,7 +64,7 @@ export const track119: SurgicalPlace = {
             },
             {
                 category_type: "other",
-                display_label: "Creative Naans (L'Audace)",
+                display_label: "Creative Naans (L’Audace)",
                 items: [
                     { name: "Naan Camembert", price_cents: 700, description: "Fusion franco-indienne ultime." },
                     { name: "Naan Gorgonzola/Miel", price_cents: 750 },
@@ -91,13 +91,13 @@ export const track119: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Niché dans le hub artistique de Track 119, Deb's Street Food est une explosion de saveurs indo-pakistanaises. Le lieu respire la culture, mêlant street-art, musique et gastronomie sans complexes. Le clou du spectacle ? Des naans revisités avec des fromages français comme le camembert.",
-    insider_tip: "Osez le Naan Gorgonzola/Miel, c'est une hérésie culinaire mais un pur délice gustatif. Accompagnez le tout d'un Mango Lassi bien onctueux pour calmer les épices du Keema.",
+    description: "Niché dans le hub artistique de Track 119, Deb’s Street Food est une explosion de saveurs indo-pakistanaises. Le lieu respire la culture, mêlant street-art, musique et gastronomie sans complexes. Le clou du spectacle ? Des naans revisités avec des fromages français comme le camembert.",
+    insider_tip: "Osez le Naan Gorgonzola/Miel, c’est une hérésie culinaire mais un pur délice gustatif. Accompagnez le tout d'un Mango Lassi bien onctueux pour calmer les épices du Keema.",
     expert_catchline: "La street-food indienne qui bouscule les codes rue du Chemin Vert.",
     specials: {
         cuisine: ["Indian Street Food", "Pakistani Specialties", "Fusion Naans"],
         drinks: ["Lassis Maison", "Bières Indiennes"],
-        must_eat: "Le Naan Camembert (l'insolite MOELLE).",
+        must_eat: "Le Naan Camembert (l’insolite MOELLE).",
         must_drink: "Un Chai Latte épicé."
     }
 };

@@ -5,7 +5,7 @@ export const superfine: SurgicalPlace = {
     name: "Superfine",
     slug: "superfine",
     category: "restaurant",
-    subcategory: ["dive-bar", "street-food", "cocktails", "vibrant", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "86 Rue de la Roquette",
         arrondissement: 11,
@@ -49,7 +49,7 @@ export const superfine: SurgicalPlace = {
                     { name: "Puff Pizza Ricotta & Harissa", price_cents: 1300, description: "Pâte aérienne, sauce beurre-harissa, miel." },
                     { name: "Puff Pizza Pepperoni", price_cents: 1500, description: "Crème de ricotta, provolone, pepperoni piquant." },
                     { name: "Pasta al Ragù Bianco", price_cents: 1450, description: "Pâtes fraîches, ragù blanc, espuma parmesan." },
-                    { name: "Crispy Po'Boy", price_cents: 1400, description: "Crevettes frites, sauce cajun, pickles maison." },
+                    { name: "Crispy Po’Boy", price_cents: 1400, description: "Crevettes frites, sauce cajun, pickles maison." },
                     { name: "Fried Chicken & Hot Honey", price_cents: 1250 },
                     { name: "Cheeseburger Superfine", price_cents: 1300 }
                 ]
@@ -69,13 +69,13 @@ export const superfine: SurgicalPlace = {
             },
             {
                 category_type: "drink",
-                display_label: "Cocktails Signature (L'Alchimie)",
+                display_label: "Cocktails Signature (L’Alchimie)",
                 items: [
                     { name: "Absinthe Gimlet", price_cents: 1400, description: "Absinthe, amaretto blanc, citron, sauge." },
                     { name: "Not A Bloody Mary", price_cents: 1400, description: "Mezcal, dashi, ananas, céleri, harissa." },
                     { name: "White Forest Martini", price_cents: 1400, description: "Gin, vodka, sake, liqueur de sapin, estragon." },
                     { name: "PB&B Milkshake (Boozy)", price_cents: 1350, description: "Bourbon, peanut butter, banane, vanille, chantilly fumée." },
-                    { name: "Butter Not Texture", price_cents: 1400, description: "Gin, shochu d'orge, sarrasin, butternut." },
+                    { name: "Butter Not Texture", price_cents: 1400, description: "Gin, shochu d’orge, sarrasin, butternut." },
                     { name: "Fortunella Spritz", price_cents: 1200 },
                     { name: "New College (Cognac & Olive)", price_cents: 1400 },
                     { name: "Super-Negroni (Barrel aged)", price_cents: 1300 },
@@ -114,13 +114,13 @@ export const superfine: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Nouveau bastion de la nuit roquette, Superfine a investi l'ancien Motel pour créer un 'dive bar' ultra-léché. Ici, le street food se veut 'sexy' (pizze soufflées, superdogs) et les cocktails s'aventurent dans des territoires audacieux (dashi, absinthe, sapin). DJ sets, acoustique soignée et ambiance électrique : l'adresse est déjà le nouveau QG de l'Est parisien branché.",
-    insider_tip: "• Ne passez pas à côté de la 'Puff Pizza' à la harissa et au miel, une tuerie absolue.\n• Le cocktail 'Not A Bloody Mary' est une masterclass de limpidité et de piquant.\n• Happy hour sur les pressions craft en début de soirée.\n• Les places au bar sont les meilleures pour observer les mixologues à l'œuvre.",
-    expert_catchline: "Le dive bar 2.0 de la Roquette : street food sexy et cocktails d'avant-garde dans une ambiance survoltée.",
+    description: "Nouveau bastion de la nuit roquette, Superfine a investi l’ancien Motel pour créer un ’dive bar’ ultra-léché. Ici, le street food se veut ’sexy’ (pizze soufflées, superdogs) et les cocktails s’aventurent dans des territoires audacieux (dashi, absinthe, sapin). DJ sets, acoustique soignée et ambiance électrique : l’adresse est déjà le nouveau QG de l'Est parisien branché.",
+    insider_tip: "• Ne passez pas à côté de la ’Puff Pizza’ à la harissa et au miel, une tuerie absolue.\n• Le cocktail ’Not A Bloody Mary’ est une masterclass de limpidité et de piquant.\n• Happy hour sur les pressions craft en début de soirée.\n• Les places au bar sont les meilleures pour observer les mixologues à l’œuvre.",
+    expert_catchline: "Le dive bar 2.0 de la Roquette : street food sexy et cocktails d’avant-garde dans une ambiance survoltée.",
     specials: {
         cuisine: ["Puff Pizza Ricotta & Harissa", "Superdog Guinness", "Eggplant Katsu Burger"],
         drinks: ["Absinthe Gimlet", "Natural Wine Selection", "Guinness on tap"],
-        must_eat: "La Puff Pizza Pepperoni, incroyable de légèreté, suivie d'un Superdog bien gratiné.",
-        must_drink: "L'Absinthe Gimlet pour son équilibre parfait entre fraîcheur et herbalité."
+        must_eat: "La Puff Pizza Pepperoni, incroyable de légèreté, suivie d’un Superdog bien gratiné.",
+        must_drink: "L’Absinthe Gimlet pour son équilibre parfait entre fraîcheur et herbalité."
     }
 };

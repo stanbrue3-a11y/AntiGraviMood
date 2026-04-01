@@ -38,8 +38,8 @@ export const coutume_babylone: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Pionnier de la vague du café de spécialité à Paris, Coutume Café a transformé l'ancien atelier de la rue de Babylone en un temple de la caféine moderne. La torréfaction se fait sur place, inondant le quartier d'un parfum enivrant. On y déguste des crus d'exception (filtres, flat whites, espressos) accompagnés d'un brunch créatif et sain. Le décor épuré, tout en transparence et en bois clair, invite à la concentration studieuse ou à la discussion passionnée autour d'une tasse parfaite.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Pionnier de la vague du café de spécialité à Paris, Coutume Café a transformé l’ancien atelier de la rue de Babylone en un temple de la caféine moderne. La torréfaction se fait sur place, inondant le quartier d’un parfum enivrant. On y déguste des crus d’exception (filtres, flat whites, espressos) accompagnés d’un brunch créatif et sain. Le décor épuré, tout en transparence et en bois clair, invite à la concentration studieuse ou à la discussion passionnée autour d’une tasse parfaite.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

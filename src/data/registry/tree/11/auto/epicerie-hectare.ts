@@ -5,7 +5,7 @@ export const epicerie_hectare: SurgicalPlace = {
   slug: "epicerie-hectare",
   name: "Epicerie Hectare",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "12 Rue Amelot, 75011 Paris, France",
     arrondissement: 11,
@@ -43,6 +43,7 @@ export const epicerie_hectare: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

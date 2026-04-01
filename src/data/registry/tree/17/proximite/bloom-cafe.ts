@@ -11,7 +11,7 @@ export const bloom_cafe: SurgicalPlace = {
     "verified": true,
     "google_rating": 4.5,
     "location": {
-        "address": "99 Rue Jouffroy d'Abbans",
+        "address": "99 Rue Jouffroy d’Abbans",
         "arrondissement": 17,
         "lat": 48.881949,
         "lng": 2.301809,
@@ -38,8 +38,8 @@ export const bloom_cafe: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Bloom Café est la pause zen et healthy des Batignolles. Un lieu baigné de lumière, décoré de plantes et de bois clair, où l'on vient pour un brunch de qualité servi tous les jours. Avocado toasts impeccables, acaï bowls colorés et cafés de spécialité composent une carte qui fait du bien au corps et à l'esprit. C'est l'endroit parfait pour se poser avec un livre ou discuter tranquillement entre deux rendez-vous, dans une atmosphère douce et résolument contemporaine.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Bloom Café est la pause zen et healthy des Batignolles. Un lieu baigné de lumière, décoré de plantes et de bois clair, où l’on vient pour un brunch de qualité servi tous les jours. Avocado toasts impeccables, acaï bowls colorés et cafés de spécialité composent une carte qui fait du bien au corps et à l’esprit. C’est l'endroit parfait pour se poser avec un livre ou discuter tranquillement entre deux rendez-vous, dans une atmosphère douce et résolument contemporaine.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

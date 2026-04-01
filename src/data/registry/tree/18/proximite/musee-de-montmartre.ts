@@ -39,8 +39,8 @@ export const musee_de_montmartre: SurgicalPlace = {
         "festif": 4,
         "culturel": 25
     },
-    "description": "Niché dans la plus vieille maison de la colline de Montmartre, ce musée est un enchantement total. Entre ses jardins inspirés des tableaux de Renoir et ses vues plongeantes sur les vignes du Clos Montmartre, le lieu respire l'esprit bohème de la Belle Époque. On y revit les heures de gloire du Bateau-Lavoir et d'Erik Satie dans une atmosphère bucolique et secrète, loin de l'agitation de la Place du Tertre.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Niché dans la plus vieille maison de la colline de Montmartre, ce musée est un enchantement total. Entre ses jardins inspirés des tableaux de Renoir et ses vues plongeantes sur les vignes du Clos Montmartre, le lieu respire l’esprit bohème de la Belle Époque. On y revit les heures de gloire du Bateau-Lavoir et d’Erik Satie dans une atmosphère bucolique et secrète, loin de l’agitation de la Place du Tertre.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

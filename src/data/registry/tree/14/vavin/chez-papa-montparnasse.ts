@@ -5,7 +5,7 @@ export const chez_papa_montparnasse: SurgicalPlace = {
     name: "Chez Papa Montparnasse",
     slug: "chez-papa-montparnasse",
     category: "restaurant",
-    subcategory: ["sud-ouest", "traditionnel", "genereux", "terrasse", "familial", "nocturne"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "138 Boulevard du Montparnasse, 75014 Paris, France",
         arrondissement: 14,
@@ -42,12 +42,12 @@ export const chez_papa_montparnasse: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Les Incontournables de Papa",
                 items: [
-                    { name: "Confit de Canard de Papa", price_cents: 1910, description: "Le grand classique avec pommes sautées 'Papa'." },
-                    { name: "L'Escalope de Veau Campagnarde", price_cents: 2040 },
+                    { name: "Confit de Canard de Papa", price_cents: 1910, description: "Le grand classique avec pommes sautées ’Papa'." },
+                    { name: "L’Escalope de Veau Campagnarde", price_cents: 2040 },
                     { name: "Cassoulet Artisanal Maison", price_cents: 2450 },
-                    { name: "L'Axoa de Veau au Piment d'Espelette", price_cents: 1890 },
+                    { name: "L’Axoa de Veau au Piment d'Espelette", price_cents: 1890 },
                     { name: "Magret de Canard au Miel", price_cents: 1690 },
-                    { name: "L'Aligot et sa Saucisse de Toulouse", price_cents: 1990 },
+                    { name: "L’Aligot et sa Saucisse de Toulouse", price_cents: 1990 },
                     { name: "Burger Cantalou (Cantal & Bacon)", price_cents: 1760 },
                     { name: "Bavette Rouergate", price_cents: 1940 },
                     { name: "Tartare de Canard au Foie Gras chaud", price_cents: 2450 }
@@ -57,10 +57,10 @@ export const chez_papa_montparnasse: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Mises en Bouche & Salades Gargantuesques",
                 items: [
-                    { name: "Salade Super 'Papa' (la plus complète)", price_cents: 1850 },
+                    { name: "Salade Super ’Papa' (la plus complète)", price_cents: 1850 },
                     { name: "Salade Landaise au Foie Gras", price_cents: 1950 },
                     { name: "Escargots au Bleu de Brebis (les 12)", price_cents: 1600 },
-                    { name: "Planche de Foie Gras Entier 'Papa'", price_cents: 1970 },
+                    { name: "Planche de Foie Gras Entier ’Papa'", price_cents: 1970 },
                     { name: "Oeufs Pochés au Bleu de Brebis", price_cents: 1050 },
                     { name: "Planche Mixte du Sud-Ouest", price_cents: 2850 },
                     { name: "Rillons de Canard", price_cents: 890 }
@@ -87,13 +87,13 @@ export const chez_papa_montparnasse: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.0,
-    description: "Chez Papa, c'est l'ambassade la plus conviviale du Sud-Ouest à Montparnasse. Oubliez la diététique et plongez dans une cuisine de terroir rustique, servie avec une générosité qui frise l'insolence. Ici, les salades sont servies dans des saladiers de famille et les plats de résistance pourraient nourrir une escouade de rugbymans. C'est l'adresse refuge par excellence pour ceux qui cherchent la chaleur d'un repas de village au cœur de la capitale, le tout dans une ambiance bon enfant où le rire et les bons appétits sont rois. Service continu et atmosphère sans chichis font de Chez Papa une valeur sûre, de jour comme de nuit.",
-    insider_tip: "Les portions sont réellement massives, n'hésitez pas à partager une 'Salade Gargantuesque' avant d'attaquer les plats chauds. L'aligot est filé à la demande, un spectacle à ne pas manquer pour les amateurs de fromage.",
+    description: "Chez Papa, c’est l’ambassade la plus conviviale du Sud-Ouest à Montparnasse. Oubliez la diététique et plongez dans une cuisine de terroir rustique, servie avec une générosité qui frise l’insolence. Ici, les salades sont servies dans des saladiers de famille et les plats de résistance pourraient nourrir une escouade de rugbymans. C’est l’adresse refuge par excellence pour ceux qui cherchent la chaleur d'un repas de village au cœur de la capitale, le tout dans une ambiance bon enfant où le rire et les bons appétits sont rois. Service continu et atmosphère sans chichis font de Chez Papa une valeur sûre, de jour comme de nuit.",
+    insider_tip: "Les portions sont réellement massives, n’hésitez pas à partager une ’Salade Gargantuesque’ avant d’attaquer les plats chauds. L’aligot est filé à la demande, un spectacle à ne pas manquer pour les amateurs de fromage.",
     expert_catchline: "La générosité brute et gourmande du Sud-Ouest à Vavin.",
     specials: {
         cuisine: ["Sud-Ouest", "Terroir Français"],
         drinks: ["Pacherenc", "Madiran de Producteur"],
-        must_eat: "L'Aligot Saucisse et la Tatin flambée.",
+        must_eat: "L’Aligot Saucisse et la Tatin flambée.",
         must_drink: "Un verre de vin des Côtes de Gascogne."
     },
     source: "expert_human"

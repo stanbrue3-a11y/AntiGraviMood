@@ -40,8 +40,8 @@ export const parc_monceau: SurgicalPlace = {
         "festif": 2,
         "culturel": 7.5
     },
-    "description": "Le parc le plus élégant et le plus 'proustien' de Paris. Entouré d'hôtels particuliers somptueux, on y accède par des grilles dorées. C'est un jardin de folies architecturales : une pyramide égyptienne, une colonnade corinthienne au bord d'un bassin (la Naumachie), un pont vénitien... C'est le jardin des enfants chics du 8ème et des nounous en uniforme. Idéal pour lire un livre sur un banc en se prenant pour un héros romantique.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le parc le plus élégant et le plus ’proustien’ de Paris. Entouré d’hôtels particuliers somptueux, on y accède par des grilles dorées. C’est un jardin de folies architecturales : une pyramide égyptienne, une colonnade corinthienne au bord d’un bassin (la Naumachie), un pont vénitien... C'est le jardin des enfants chics du 8ème et des nounous en uniforme. Idéal pour lire un livre sur un banc en se prenant pour un héros romantique.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

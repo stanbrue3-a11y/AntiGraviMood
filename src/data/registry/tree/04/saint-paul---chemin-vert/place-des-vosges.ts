@@ -41,8 +41,8 @@ export const place_des_vosges: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "La plus ancienne place de Paris (inaugurée en 1612 pour les fiançailles de Louis XIII) est aussi la plus harmonieuse. C'est un carré parfait de 36 pavillons de brique rouge et de pierre blanche, aux toits d'ardoise bleue, qui entourent le Square Louis XIII. C'est le cœur aristocratique du Marais. Victor Hugo y a vécu (sa maison se visite). Les arcades abritent des galeries d'art et des cafés chics. S'allonger sur l'herbe au centre de la place l'été, entouré de tant d'histoire et de symétrie, est un privilège royal accessible à tous.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "La plus ancienne place de Paris (inaugurée en 1612 pour les fiançailles de Louis XIII) est aussi la plus harmonieuse. C’est un carré parfait de 36 pavillons de brique rouge et de pierre blanche, aux toits d’ardoise bleue, qui entourent le Square Louis XIII. C’est le cœur aristocratique du Marais. Victor Hugo y a vécu (sa maison se visite). Les arcades abritent des galeries d’art et des cafés chics. S’allonger sur l’herbe au centre de la place l’été, entouré de tant d'histoire et de symétrie, est un privilège royal accessible à tous.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

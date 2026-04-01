@@ -40,7 +40,7 @@ export const la_bellevilloise: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Fondée en 1877 comme première coopérative ouvrière de Paris, la Bellevilloise est devenue un haut lieu culturel indépendant. Dans ses halles majestueuses plantées d'oliviers centenaires, on vient écouter du jazz lors du brunch dominical, découvrir une expo engagée ou danser lors des soirées clubbing. Un lieu chargé d'histoire sociale qui continue de faire vibrer l'est parisien avec une programmation éclectique et ouverte.",
+    "description": "Fondée en 1877 comme première coopérative ouvrière de Paris, la Bellevilloise est devenue un haut lieu culturel indépendant. Dans ses halles majestueuses plantées d’oliviers centenaires, on vient écouter du jazz lors du brunch dominical, découvrir une expo engagée ou danser lors des soirées clubbing. Un lieu chargé d’histoire sociale qui continue de faire vibrer l’est parisien avec une programmation éclectique et ouverte.",
     "insider_tip": "Le brunch du dimanche avec jazz live est magique, mais réservez 2 semaines à l avance.",
     "specials": {
         "cuisine": [],

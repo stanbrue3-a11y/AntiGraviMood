@@ -5,7 +5,7 @@ export const corail_restaurant: SurgicalPlace = {
   name: "Corail Restaurant",
   slug: "corail-restaurant",
   category: "restaurant",
-  subcategory: ["seafood", "élégant", "palais-de-tokyo"],
+  subcategory: ['français'],
   location: {
     address: "11 Av. du Président Wilson, 75116 Paris",
     arrondissement: 16,
@@ -41,26 +41,26 @@ export const corail_restaurant: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "L'Éveil des Sens (Entrées)",
+        display_label: "L’Éveil des Sens (Entrées)",
         items: [
           { name: "Carpaccio de Saint-Jacques", price_cents: 2200, description: "Huile de corail, zeste de citron vert", is_highlight: true },
-          { name: "Velouté de Crustacés", price_cents: 1800, description: "Mousse d'estragon et croutons à l'ail" },
+          { name: "Velouté de Crustacés", price_cents: 1800, description: "Mousse d’estragon et croutons à l'ail" },
           { name: "Tartare de Thon Albacore", price_cents: 2100, description: "Gingembre frais et avocat crémeux" },
           { name: "Salade de Homard Bleu", price_cents: 2800, description: "Pamplemousse et jeunes pousses" },
           { name: "Friture de Petits Poissons", price_cents: 1600, description: "Inspiration méditerranéenne, sauce tartare" },
-          { name: "Huitres Gillardeau N°3 (x6)", price_cents: 2400, description: "Servies avec vinaigre d'échalote" },
+          { name: "Huitres Gillardeau N°3 (x6)", price_cents: 2400, description: "Servies avec vinaigre d’échalote" },
           { name: "Asperges Vertes & Bottarga", price_cents: 1900, description: "Poutargue râpée et œuf parfait" }
         ]
       },
       {
         category_type: "main",
-        display_label: "Les Trésors de l'Océan (Plats)",
+        display_label: "Les Trésors de l’Océan (Plats)",
         items: [
           { name: "Filet de Bar de Ligne", price_cents: 3400, description: "Émulsion de beurre blanc au yuzu", is_highlight: true },
           { name: "Sole Meunière Entière", price_cents: 4800, description: "Saisie au beurre noisette, purée au sel de mer" },
           { name: "Risotto Noir aux Seiches", price_cents: 2600, description: "Encre de seiche et petits pois frais" },
           { name: "Poulpe de Roche Grillé", price_cents: 3200, description: "Légumes racines confits, sauce vierge" },
-          { name: "Lieu Jaune en Croûte d'Herbes", price_cents: 2900, description: "Fondue de poireaux safranée" },
+          { name: "Lieu Jaune en Croûte d’Herbes", price_cents: 2900, description: "Fondue de poireaux safranée" },
           { name: "Homard Entier à la Plancha", price_cents: 6500, description: "Beurre de corail épicé" },
           { name: "Noix de Saint-Jacques Poêlées", price_cents: 3600, description: "Crème de chou-fleur et noisettes torréfiées" },
           { name: "Turbot de Mer de Sable", price_cents: 5200, description: "Jus de coquillages et mini navets" }
@@ -90,8 +90,8 @@ export const corail_restaurant: SurgicalPlace = {
         category_type: "drink",
         display_label: "Cave & Bar",
         items: [
-          { name: "Sancerre 'Les Romains'", price_cents: 1400, description: "Verre - Accord parfait seafood" },
-          { name: "Cocktail Signature 'Corail'", price_cents: 1600, description: "Gin, fleur de sureau, pamplemousse" },
+          { name: "Sancerre ’Les Romains'", price_cents: 1400, description: "Verre - Accord parfait seafood" },
+          { name: "Cocktail Signature ’Corail'", price_cents: 1600, description: "Gin, fleur de sureau, pamplemousse" },
           { name: "Whisky Nikka from the Barrel", price_cents: 1800 },
           { name: "Champagne Ruinart Brut (Coupe)", price_cents: 2200 },
           { name: "Expresso Pur Arabica", price_cents: 500 },
@@ -100,9 +100,9 @@ export const corail_restaurant: SurgicalPlace = {
       }
     ]
   },
-  description: "Nichée dans l'enceinte prestigieuse du Palais de Tokyo, Corail est une ode spectaculaire à l'océan. Avec son décor minéral et épuré, ce restaurant propose une cuisine marine d'une grande finesse, où chaque produit est mis en valeur par des techniques modernes. Le chef décline une partition iodée allant du bar de ligne aux crustacés nobles, le tout dans une atmosphère chic et apaisée, à l'abri du tumulte parisien.",
+  description: "Nichée dans l’enceinte prestigieuse du Palais de Tokyo, Corail est une ode spectaculaire à l’océan. Avec son décor minéral et épuré, ce restaurant propose une cuisine marine d’une grande finesse, où chaque produit est mis en valeur par des techniques modernes. Le chef décline une partition iodée allant du bar de ligne aux crustacés nobles, le tout dans une atmosphère chic et apaisée, à l'abri du tumulte parisien.",
   expert_catchline: "La perle iodée et épurée du Palais de Tokyo.",
-  insider_tip: "Ne manquez pas le carpaccio de Saint-Jacques au corail, une explosion de fraîcheur. La terrasse est l'une des mieux gardées du quartier pour un déjeuner au soleil.",
+  insider_tip: "Ne manquez pas le carpaccio de Saint-Jacques au corail, une explosion de fraîcheur. La terrasse est l’une des mieux gardées du quartier pour un déjeuner au soleil.",
   specials: {
     cuisine: ["Seafood Moderne", "Océanique"],
     drinks: ["Vins Blancs de Loire", "Champagnes Millésimés"],
@@ -120,10 +120,10 @@ export const corail_restaurant: SurgicalPlace = {
   google_rating: 3.9,
   instagram_handle: "corail_restaurant",
   real_talk: {
-    text: "Un lieu qui respire la sérénité. L'assiette est précise, respectueuse du produit et très moderne. C'est l'adresse parfaite pour un déjeuner d'affaires élégant ou un dîner romantique après une expo.",
+    text: "Un lieu qui respire la sérénité. L’assiette est précise, respectueuse du produit et très moderne. C’est l’adresse parfaite pour un déjeuner d'affaires élégant ou un dîner romantique après une expo.",
     must_eat: "Cuisine Seafood. Carpaccio de Saint-Jacques.",
     le_secret: "La table près de la baie vitrée offre une lumière magnifique pour le déjeuner.",
-    le_son: "Jazz smooth et sons d'ambiance discrets.",
+    le_son: "Jazz smooth et sons d’ambiance discrets.",
     le_must: "Le filet de bar, dont la cuisson est toujours millimétrée."
   }
 };

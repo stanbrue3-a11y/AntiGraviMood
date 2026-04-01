@@ -5,7 +5,7 @@ export const pepe_rosso: SurgicalPlace = {
   slug: "pepe-rosso",
   name: "Pépé Rosso",
   category: "restaurant",
-  subcategory: ["trattoria"],
+  subcategory: ['français'],
   location: {
     address: "77 Rue de la Glacière, 75013 Paris, France",
     arrondissement: 13,
@@ -44,7 +44,7 @@ export const pepe_rosso: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats : Pasta & Secondi",
         items: [
-          { name: "Penne All'Arrabbiata (Piquantes)", price_cents: 1300 },
+          { name: "Penne All’Arrabbiata (Piquantes)", price_cents: 1300 },
           { name: "Spaghetti Carbonara (Vraie recette)", price_cents: 1450 },
           { name: "Escalope Milanaise (Veau)", price_cents: 1850 },
           { name: "Risotto aux Cèpes parfumés", price_cents: 1600 },
@@ -84,8 +84,8 @@ export const pepe_rosso: SurgicalPlace = {
       }
     ]
   },
-  description: "Pépé Rosso est une trattoria familiale nichée au cœur du quartier de la Glacière. Reconnue pour sa cuisine italienne généreuse et ses recettes traditionnelles exécutées sans fioritures, c'est l'adresse idéale pour retrouver le goût de l'Italie dans une ambiance intimiste. Les pâtes y sont al dente et l'accueil toujours souriant.",
-  insider_tip: "• **Choix du Maître** : Les Spaghetti Carbonara sont réalisées dans les règles de l'art, sans crème, un must pour les puristes.\n• **Détail Authentique** : Ne manquez pas le Tiramisu maison, souvent considéré comme l'un des meilleurs du quartier.\n• **Expérience Culturelle** : Une adresse prisée des habitués du 13e qui cherchent à s'éloigner des grands axes bruyants.",
+  description: "Pépé Rosso est une trattoria familiale nichée au cœur du quartier de la Glacière. Reconnue pour sa cuisine italienne généreuse et ses recettes traditionnelles exécutées sans fioritures, c’est l’adresse idéale pour retrouver le goût de l’Italie dans une ambiance intimiste. Les pâtes y sont al dente et l'accueil toujours souriant.",
+  insider_tip: "• **Choix du Maître** : Les Spaghetti Carbonara sont réalisées dans les règles de l’art, sans crème, un must pour les puristes.\n• **Détail Authentique** : Ne manquez pas le Tiramisu maison, souvent considéré comme l’un des meilleurs du quartier.\n• **Expérience Culturelle** : Une adresse prisée des habitués du 13e qui cherchent à s’éloigner des grands axes bruyants.",
   specials: {
     cuisine: ["Italienne", "Pizzas"],
     drinks: ["Vin de pays", "Limoncello"],

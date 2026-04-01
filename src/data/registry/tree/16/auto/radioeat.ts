@@ -5,7 +5,7 @@ export const radioeat: SurgicalPlace = {
   slug: "radioeat",
   name: "Radioeat",
   category: "restaurant",
-  subcategory: ["contemporain", "maison-de-la-radio", "vue-tour-eiffel", "passy"],
+  subcategory: ['français'],
   location: {
     address: "116 Av. du Président Kennedy, 75016 Paris",
     arrondissement: 16,
@@ -62,10 +62,10 @@ export const radioeat: SurgicalPlace = {
           { name: "Risotto Impérial aux Gambas", price_cents: 2850, description: "Bisque de crustacés et cerfeuil" },
           { name: "Burger Radioeat Original", price_cents: 2250, description: "Pain brioché, bœuf 180g, cheddar affiné" },
           { name: "Suprême de Volaille Jaune", price_cents: 2400, description: "Purée fondante et jus corsé" },
-          { name: "Linguine à la Truffe d'Automne", price_cents: 2900, description: "Crème de parmesan 24 mois" },
-          { name: "Tataki de Thon Rouge", price_cents: 2700, description: "Mousseline d'avocat et wakamé" },
+          { name: "Linguine à la Truffe d’Automne", price_cents: 2900, description: "Crème de parmesan 24 mois" },
+          { name: "Tataki de Thon Rouge", price_cents: 2700, description: "Mousseline d’avocat et wakamé" },
           { name: "Aubergine Miso Rôtie", price_cents: 1950, description: "Végétarien, riz basmati et graines de courge" },
-          { name: "Tartare de Bœuf au Couteau", price_cents: 2100, description: "Préparé selon l'humeur du chef" },
+          { name: "Tartare de Bœuf au Couteau", price_cents: 2100, description: "Préparé selon l’humeur du chef" },
           { name: "Sèche à la Plancha", price_cents: 2500 },
           { name: "Pavé de Saumon Label Rouge", price_cents: 2650 },
           { name: "Brochettes de Poulet Yakitori", price_cents: 2200 }
@@ -101,7 +101,7 @@ export const radioeat: SurgicalPlace = {
       }
     ]
   },
-  description: "Niché au premier étage de la Maison de la Radio et de la Musique, Radioeat est une brasserie contemporaine qui vibre au rythme de la création. Son design épuré, signé par l'architecte Stéphane Maupin, offre un cadre lumineux avec une vue imprenable sur la Seine et la Tour Eiffel. On y déguste une cuisine saine, créative et de saison, orchestrée par le chef Eric Wapler. C'est l'adresse idéale pour un déjeuner baigné de lumière ou un dîner avant un concert prestigieux, dans une ambiance culturelle et décontractée.",
+  description: "Niché au premier étage de la Maison de la Radio et de la Musique, Radioeat est une brasserie contemporaine qui vibre au rythme de la création. Son design épuré, signé par l’architecte Stéphane Maupin, offre un cadre lumineux avec une vue imprenable sur la Seine et la Tour Eiffel. On y déguste une cuisine saine, créative et de saison, orchestrée par le chef Eric Wapler. C’est l’adresse idéale pour un déjeuner baigné de lumière ou un dîner avant un concert prestigieux, dans une ambiance culturelle et décontractée.",
   expert_catchline: "La brasserie contemporaine et lumineuse de la Maison de la Radio.",
   insider_tip: "• **Vue Privilégiée** : Demandez une table près des baies vitrées pour admirer la Tour Eiffel tout en déjeunant.\n  • **Combo Concert** : Le restaurant est parfait pour une immersion totale avant ou après une émission publique ou un concert au Studio 104.\n  • **Brunch du Dimanche** : Très couru par les familles du 16ème, pensez à réserver tôt.",
   specials: {
@@ -121,11 +121,11 @@ export const radioeat: SurgicalPlace = {
   google_rating: 4.1,
   instagram_handle: "radioeatparis",
   real_talk: {
-    text: "Une institution musicale et gourmande. La lumière y est magique au coucher du soleil, et l'assiette est d'une grande finesse pour une brasserie de cette taille. C'est le carrefour des ondes et du goût.",
+    text: "Une institution musicale et gourmande. La lumière y est magique au coucher du soleil, et l’assiette est d’une grande finesse pour une brasserie de cette taille. C’est le carrefour des ondes et du goût.",
     must_eat: "Cuisine Contemporaine. Burrata.",
     le_secret: "La table près de la baie vitrée offre la meilleure vue sur la tour Eiffel scintillante.",
-    le_son: "Un mélange de jazz, d'électro soft et de bribes de musique classique s'échappant des studios.",
-    le_must: "Dîner juste avant un concert de l'Orchestre National de France."
+    le_son: "Un mélange de jazz, d’électro soft et de bribes de musique classique s'échappant des studios.",
+    le_must: "Dîner juste avant un concert de l’Orchestre National de France."
   }
 };
 

@@ -5,13 +5,13 @@ export const brasserie_auteuil: SurgicalPlace = {
   slug: "brasserie-auteuil",
   name: "Brasserie Auteuil",
   category: "restaurant",
-  subcategory: ["italien", "rooftop", "festif", "auteuil"],
+  subcategory: ['italien', 'français'],
   location: {
-    address: "78 Rue d'Auteuil, 75016 Paris",
+    address: "78 Rue d’Auteuil, 75016 Paris",
     arrondissement: 16,
     lat: 48.8471587,
     lng: 2.2612745,
-    nearest_metro: "Porte d'Auteuil",
+    nearest_metro: "Porte d’Auteuil",
     metro_lines: [10],
     google_id: "ChIJbXk0LzRv5kcRSX6M9P75Y4U"
   },
@@ -43,12 +43,12 @@ export const brasserie_auteuil: SurgicalPlace = {
         category_type: "sharing",
         display_label: "Antipasti (À Partager)",
         items: [
-          { name: "Mezzés d'Auteuil", price_cents: 2050, description: "Houmous, burrata, croquettes à la truffe, légumes grillés", is_highlight: true },
+          { name: "Mezzés d’Auteuil", price_cents: 2050, description: "Houmous, burrata, croquettes à la truffe, légumes grillés", is_highlight: true },
           { name: "Burrata Crémeuse", price_cents: 1450, description: "Pesto de basilic et pignons de pin" },
-          { name: "Croquettes de Risotto", price_cents: 1250, description: "Cœur fondant à la truffe d'été" },
+          { name: "Croquettes de Risotto", price_cents: 1250, description: "Cœur fondant à la truffe d’été" },
           { name: "Calamars Fritti", price_cents: 1300, description: "Zeste de citron vert et sauce tartare" },
           { name: "Planche Italienne", price_cents: 1900, description: "Prosciutto, mortadelle, coppa et olives" },
-          { name: "Bruschetta Tomate Basilic", price_cents: 1100, description: "Frottée à l'ail et huile d'olive" },
+          { name: "Bruschetta Tomate Basilic", price_cents: 1100, description: "Frottée à l’ail et huile d'olive" },
           { name: "Stracciatella & Focaccia", price_cents: 1500, description: "Le cœur de la mozza, huile de truffe" },
           { name: "Carpaccio de Bœuf", price_cents: 1600, description: "Parmesan, roquette et câpres" }
         ]
@@ -73,7 +73,7 @@ export const brasserie_auteuil: SurgicalPlace = {
           { name: "Linguine aux Gambas", price_cents: 2450, description: "Flambées au pastis, sauce tomate épicée", is_highlight: true },
           { name: "Aubergines Parmigiana", price_cents: 1850, description: "Gratinées à la mozzarella et aubergines fondantes" },
           { name: "Salade César Auteuil", price_cents: 1950, description: "Poulet croustillant, romaine, sauce anchois" },
-          { name: "Pavé de Saumon Rôti", price_cents: 2300, description: "Légumes d'été et vierge de légumes" },
+          { name: "Pavé de Saumon Rôti", price_cents: 2300, description: "Légumes d’été et vierge de légumes" },
           { name: "Burger Auteuil Gorgonzola", price_cents: 2150, description: "Pain brioché, bœuf 180g, crème de bleu" },
           { name: "Rigatoni à la Truffe", price_cents: 2650, description: "Crème de truffe légère et noisettes" },
           { name: "Escalope Milanaise", price_cents: 2500, description: "Veau pané, linguine tomate" },
@@ -105,7 +105,7 @@ export const brasserie_auteuil: SurgicalPlace = {
       }
     ]
   },
-  description: "Nichée dans l'ancienne gare de la Petite Ceinture, la Brasserie Auteuil est un véritable poumon végétal au cœur du 16ème sud. Son atout maître est un immense rooftop arboré, chauffé l'hiver et ensoleillé l'été, qui invite à l'aperitivo italien. Dans un décor d'inspiration toscane, entre lierre grimpant et bois clair, on y déguste une cuisine transalpine généreuse, des pizzas au feu de bois et des cocktails créatifs. C'est l'adresse idéale pour une pause décontractée et stylée, loin de l'agitation parisienne.",
+  description: "Nichée dans l’ancienne gare de la Petite Ceinture, la Brasserie Auteuil est un véritable poumon végétal au cœur du 16ème sud. Son atout maître est un immense rooftop arboré, chauffé l’hiver et ensoleillé l’été, qui invite à l’aperitivo italien. Dans un décor d’inspiration toscane, entre lierre grimpant et bois clair, on y déguste une cuisine transalpine généreuse, des pizzas au feu de bois et des cocktails créatifs. C’est l’adresse idéale pour une pause décontractée et stylée, loin de l'agitation parisienne.",
   expert_catchline: "Le plus grand rooftop végétalisé du 16ème dans une ancienne gare.",
   insider_tip: `• **L'Aperitivo** : Arrivez pour l'aperitivo afin de profiter de la lumière dorée sur le rooftop.
   • **Le Must** : La pizza à la truffe est une valeur sûre qui ne déçoit jamais.
@@ -127,7 +127,7 @@ export const brasserie_auteuil: SurgicalPlace = {
   google_rating: 4.1,
   instagram_handle: "brasserieauteuil",
   real_talk: {
-    text: "Le spot phare du sud du 16ème. C'est grand, c'est vert et l'ambiance rooftop est imbattable dans le quartier. On y vient pour la coolitude apparente et les cocktails bien dosés.",
+    text: "Le spot phare du sud du 16ème. C’est grand, c’est vert et l’ambiance rooftop est imbattable dans le quartier. On y vient pour la coolitude apparente et les cocktails bien dosés.",
     must_eat: "Cuisine de Brasserie. Pizza à la Truffe.",
     le_secret: "La bibliothèque au rez-de-chaussée est parfaite pour travailler au calme le matin.",
     le_son: "Deep house chill et sons ensoleillés.",

@@ -5,7 +5,7 @@ export const l_ebauchoir: SurgicalPlace = {
   slug: "l-ebauchoir",
   name: "L’Ébauchoir",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "43-45 Rue de Cîteaux, 75012 Paris, France",
     arrondissement: 12,
@@ -53,8 +53,8 @@ export const l_ebauchoir: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées : Créations de Saison",
         items: [
-          { name: "Filets de Hareng marinés, pommes à l'huile", price_cents: 950, is_highlight: true },
-          { name: "Houmous de lentilles vertes, pickles d'oignons", price_cents: 1000 },
+          { name: "Filets de Hareng marinés, pommes à l’huile", price_cents: 950, is_highlight: true },
+          { name: "Houmous de lentilles vertes, pickles d’oignons", price_cents: 1000 },
           { name: "Terrine de Campagne maison & Condiments", price_cents: 1100 },
           { name: "Œuf Parfait, crème de topinambour", price_cents: 1250 },
           { name: "Carpaccio de Saint-Jacques, citron vert", price_cents: 1450 },
@@ -68,8 +68,8 @@ export const l_ebauchoir: SurgicalPlace = {
           { name: "Travers de Porc rôtis au miel et épices douces", price_cents: 2600, is_highlight: true },
           { name: "Poulpe de Galice grillé, écrasé de vitelotte", price_cents: 2900, is_highlight: true },
           { name: "Cabillaud de ligne, bisque de homard corsée", price_cents: 2800 },
-          { name: "Épaule d'Agneau confite 12h, légumes racine", price_cents: 2750 },
-          { name: "Pseudo-risotto d'épautre, champignons des bois", price_cents: 2400 },
+          { name: "Épaule d’Agneau confite 12h, légumes racine", price_cents: 2750 },
+          { name: "Pseudo-risotto d’épautre, champignons des bois", price_cents: 2400 },
           { name: "Onglet de Bœuf Angus, frites maison au couteau", price_cents: 2700 },
           { name: "Magret de Canard, réduction de Porto", price_cents: 2650 }
         ]
@@ -100,8 +100,8 @@ export const l_ebauchoir: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Ébauchoir est un bistrot d'une authenticité rare qui fait vibrer le quartier d'Aligre depuis des décennies. Sous les lustres d'époque et dans une ambiance indétrônable de brasserie parisienne, on y savoure une cuisine qui respecte les saisons avec une exigence de produit admirable. Son gâteau de riz est une légende locale que les habitués commandent avant même de regarder la carte. Précis, généreux et constant, c'est l'essence même du bien-manger parisien.",
-  insider_tip: `• **Le Dessert Culte** : On ne repart pas sans avoir goûté le 'Gâteau de Riz Grand-Mère', véritable madeleine de Proust de l'établissement.
+  description: "L’Ébauchoir est un bistrot d’une authenticité rare qui fait vibrer le quartier d’Aligre depuis des décennies. Sous les lustres d’époque et dans une ambiance indétrônable de brasserie parisienne, on y savoure une cuisine qui respecte les saisons avec une exigence de produit admirable. Son gâteau de riz est une légende locale que les habitués commandent avant même de regarder la carte. Précis, généreux et constant, c’est l'essence même du bien-manger parisien.",
+  insider_tip: `• **Le Dessert Culte** : On ne repart pas sans avoir goûté le ’Gâteau de Riz Grand-Mère', véritable madeleine de Proust de l'établissement.
   • **Le Midi Stratégique** : Sa formule déjeuner est l'un des meilleurs rapports qualité-prix du secteur Bastille/Aligre.
   • **Réservation Cruciale** : Le lieu est souvent complet le soir dès le début de semaine ; anticipez de 48h.`,
   specials: {

@@ -5,7 +5,7 @@ export const pianovins: SurgicalPlace = {
     name: "Pianovins",
     slug: "pianovins",
     category: "restaurant",
-    subcategory: ["gastronomique", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "46 Rue Trousseau",
         arrondissement: 11,
@@ -43,19 +43,19 @@ export const pianovins: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "drink",
-                display_label: "L'Expérience Pianovins (Déjeuner)",
+                display_label: "L’Expérience Pianovins (Déjeuner)",
                 items: [
                     // VERIFIED: Emmanuel Sudres 2024-2025
-                    { name: "Menu Déjeuner 'Le Marché' (3 temps)", price_cents: 3500, description: "Entrée, Plat, Dessert selon l'inspiration du jour et les arrivages du marché." },
+                    { name: "Menu Déjeuner ’Le Marché' (3 temps)", price_cents: 3500, description: "Entrée, Plat, Dessert selon l’inspiration du jour et les arrivages du marché." },
                     { name: "Accords Mets & Vins Déjeuner (2 verres)", price_cents: 2200 }
                 ]
             },
             {
                 category_type: "other",
-                display_label: "L'Immersion Gastronomique (Dîner)",
+                display_label: "L’Immersion Gastronomique (Dîner)",
                 items: [
-                    { name: "Menu 'Pianovins' en 5 services", price_cents: 7500, description: "Menu Dégustation à l'aveugle, l'évolution gastronomique complète." },
-                    { name: "Menu 'Grande Balade' en 8 services", price_cents: 9500, description: "Le voyage ultime en 8 étapes (selon disponibilité)." },
+                    { name: "Menu ’Pianovins' en 5 services", price_cents: 7500, description: "Menu Dégustation à l’aveugle, l'évolution gastronomique complète." },
+                    { name: "Menu ’Grande Balade' en 8 services", price_cents: 9500, description: "Le voyage ultime en 8 étapes (selon disponibilité)." },
                     { name: "Accords Mets & Vins Dîner (5 verres)", price_cents: 4500 }
                 ]
             },
@@ -85,7 +85,7 @@ export const pianovins: SurgicalPlace = {
                 items: [
                     { name: "Verre de vin (Sélection Eric Mancio)", price_cents: 1200 },
                     { name: "Coupe de Champagne (Maison sélectionnée)", price_cents: 1600 },
-                    { name: "Verre de vin blanc 'Cuvée d'Exception'", price_cents: 1500 },
+                    { name: "Verre de vin blanc ’Cuvée d’Exception’", price_cents: 1500 },
                     { name: "Café de spécialité & mignardises", price_cents: 700 }
                 ]
             }
@@ -101,13 +101,13 @@ export const pianovins: SurgicalPlace = {
     instagram_handle: "pianovinsparis",
     verified: true,
     google_rating: 4.8,
-    description: "Une des plus grandes petites tables du quartier, dirigée par Michel Roncière en cuisine et Éric Mancio en salle (deux anciens de l'empire Guy Savoy). À l'écart des grandes artères, le duo exécute un récital gastronomique brillantissime et très technique au sein d'une salle sobre, sans jamais se prendre au sérieux.",
-    insider_tip: "• C'est la table parfaite pour une expérience hautement gastronomique (carrément digne de l'étoffe d'un étoilé) sans subir la lourdeur des protocoles mondains.\n• Excellent rapport qualité-prix au déjeuner avec une formule bluffante à 35€.\n• La salle est très contenue, réservation fortement recommandée.",
-    expert_catchline: "Haute volée gastronomique discrète par d'anciens cadres de chez Guy Savoy. Dressages bijoux.",
+    description: "Une des plus grandes petites tables du quartier, dirigée par Michel Roncière en cuisine et Éric Mancio en salle (deux anciens de l’empire Guy Savoy). À l’écart des grandes artères, le duo exécute un récital gastronomique brillantissime et très technique au sein d’une salle sobre, sans jamais se prendre au sérieux.",
+    insider_tip: "• C’est la table parfaite pour une expérience hautement gastronomique (carrément digne de l’étoffe d’un étoilé) sans subir la lourdeur des protocoles mondains.\n• Excellent rapport qualité-prix au déjeuner avec une formule bluffante à 35€.\n• La salle est très contenue, réservation fortement recommandée.",
+    expert_catchline: "Haute volée gastronomique discrète par d’anciens cadres de chez Guy Savoy. Dressages bijoux.",
     specials: {
         cuisine: ["Menu Dégustation Inventif en 5 services", "Plats très techniques, dressages orfèvres"],
         drinks: ["Large sélection de vins de propriétaires"],
         must_eat: "Laissez-vous guider par le Menu à 75€, chaque séquence est un choc de textures souvent très justement dosé.",
-        must_drink: "Signalez vos préférences à Éric, l'ancien sommelier de Guy Savoy a le don d'ouvrir les bonnes quilles pour faire chanter les assiettes."
+        must_drink: "Signalez vos préférences à Éric, l’ancien sommelier de Guy Savoy a le don d'ouvrir les bonnes quilles pour faire chanter les assiettes."
     }
 };

@@ -5,7 +5,7 @@ export const pauseCafe: SurgicalPlace = {
     name: "Le Pause Café",
     slug: "pause-cafe",
     category: "restaurant",
-    subcategory: ["Bistro", "Café", "Méditerranéen", "Institution"],
+    subcategory: ['français'],
     location: {
         address: "41 Rue de Charonne, 75011 Paris",
         arrondissement: 11,
@@ -51,7 +51,7 @@ export const pauseCafe: SurgicalPlace = {
                     { name: "Thon à la Plancha", price_cents: 1650 },
                     { name: "Tartare de Bœuf Tradition", price_cents: 1350 },
                     { name: "Parmentier de Canard", price_cents: 1250 },
-                    { name: "Entrecôte Belle de l'Ouest", price_cents: 1650 }
+                    { name: "Entrecôte Belle de l’Ouest", price_cents: 1650 }
                 ]
             },
             {
@@ -106,9 +106,9 @@ export const pauseCafe: SurgicalPlace = {
             label: "VOIR LE LIEU"
         }
     },
-    description: "Le Pause Café est une véritable institution de Bastille, rendue célèbre par le film 'Chacun cherche son chat'. Avec sa méga-terrasse qui ne désemplit jamais, c'est le point de ralliement du quartier depuis des décennies. À l'intérieur, le cadre rétro avec ses grandes banquettes en cuir invite à la flânerie. On y sert une cuisine de bistro honnête et généreuse, du petit-déjeuner matinal au dernier verre de 2h du mat.",
-    expert_catchline: "L'institution de la rue de Charonne : la terrasse mythique des rendez-vous de Bastille.",
-    insider_tip: "• La terrasse est chauffée l'hiver, ce qui en fait le spot de repli parfait pour observer le passage rue de Charonne.\n• Le tartare est l'un des plus réguliers du quartier, servi comme il se doit avec des frites maison.\n• C'est l'un des rares endroits du coin à garder un esprit 'brasserie de village' malgré la hype environnante.\n• Idéal pour un café-journal le matin avant que la foule n'arrive.",
+    description: "Le Pause Café est une véritable institution de Bastille, rendue célèbre par le film ’Chacun cherche son chat’. Avec sa méga-terrasse qui ne désemplit jamais, c’est le point de ralliement du quartier depuis des décennies. À l'intérieur, le cadre rétro avec ses grandes banquettes en cuir invite à la flânerie. On y sert une cuisine de bistro honnête et généreuse, du petit-déjeuner matinal au dernier verre de 2h du mat.",
+    expert_catchline: "L’institution de la rue de Charonne : la terrasse mythique des rendez-vous de Bastille.",
+    insider_tip: "• La terrasse est chauffée l’hiver, ce qui en fait le spot de repli parfait pour observer le passage rue de Charonne.\n• Le tartare est l’un des plus réguliers du quartier, servi comme il se doit avec des frites maison.\n• C’est l’un des rares endroits du coin à garder un esprit ’brasserie de village’ malgré la hype environnante.\n• Idéal pour un café-journal le matin avant que la foule n’arrive.",
     specials: {
         cuisine: ["Bistro Français", "Tartare", "Burgers"],
         drinks: ["Pression Blonde Pause", "Aperol Spritz", "Café Allongé"],

@@ -5,7 +5,7 @@ export const geosmine: SurgicalPlace = {
     name: "Géosmine",
     slug: "geosmine",
     category: "restaurant",
-    subcategory: ["gastronomique", "francais", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "71 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -45,10 +45,10 @@ export const geosmine: SurgicalPlace = {
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
                 category_type: "tasting_menu",
-                display_label: "Menus 'Carte Blanche' (Dégustation)",
+                display_label: "Menus ’Carte Blanche' (Dégustation)",
                 items: [
                     { name: "Menu Déjeuner 5 Temps", price_cents: 8000, description: "Inspirations de saison (Du mercredi au samedi)" },
-                    { name: "Menu Déjeuner 8 Temps", price_cents: 12000, description: "L'expérience prolongée du midi" },
+                    { name: "Menu Déjeuner 8 Temps", price_cents: 12000, description: "L’expérience prolongée du midi" },
                     { name: "Menu Dîner 11 Étapes", price_cents: 14000, description: "Le grand voyage pensé par le chef Maxime Bouttier" }
                 ]
             },
@@ -56,11 +56,11 @@ export const geosmine: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Extraits / À la carte (Selon arrivage)",
                 items: [
-                    { name: "Tarama", price_cents: 1400, description: "Oignons frits, huile d'olive vierge" },
+                    { name: "Tarama", price_cents: 1400, description: "Oignons frits, huile d’olive vierge" },
                     { name: "Huîtres grillées", price_cents: 1800, description: "Condiment tagète et beurre noisette" },
-                    { name: "Asperges blanches", price_cents: 2400, description: "Rémoulade d'algues et sabayon" },
+                    { name: "Asperges blanches", price_cents: 2400, description: "Rémoulade d’algues et sabayon" },
                     { name: "Bottoni", price_cents: 2500, description: "Sauge, volaille et pistache" },
-                    { name: "Poissons d'arrivage", price_cents: 3500, description: "Choux de Bruxelles, main de Bouddha et beurre blanc" },
+                    { name: "Poissons d’arrivage", price_cents: 3500, description: "Choux de Bruxelles, main de Bouddha et beurre blanc" },
                     { name: "Agneau (pour 2)", price_cents: 7400, description: "Pleurotes grises, coriandre, jus au sang (37€ par personne)" },
                     { name: "Ris de veau croustillant", price_cents: 4200, description: "Noisettes et jus de viande texturé" }
                 ]
@@ -87,13 +87,13 @@ export const geosmine: SurgicalPlace = {
     verified: true,
 
     google_rating: 4.7,
-    description: "Une étoile Michelin brutale, poétique et sans compromis décrochée par le jeune prodige Maxime Bouttier. Le lieu, sur deux étages en briques apparentes et matériaux bruts, donne le ton. Dans l'assiette (via un menu carte blanche époustouflant), les associations sont radicales, le produit est sourcé à l'extrême, et l'exécution technique frôle la perfection absolue.",
-    insider_tip: "• C'est l'une des tables les plus recherchées de Paris (1 étoile Michelin), anticipez la réservation plusieurs semaines à l'avance.\n• Préférez le menu en 11 étapes (140€) le soir pour mesurer l'étendue du talent de Maxime Bouttier.\n• La carte des vins est un terrain de jeu fabuleux, laissez le sommelier vous guider sur des pépites natures ou biodynamiques rares.",
+    description: "Une étoile Michelin brutale, poétique et sans compromis décrochée par le jeune prodige Maxime Bouttier. Le lieu, sur deux étages en briques apparentes et matériaux bruts, donne le ton. Dans l’assiette (via un menu carte blanche époustouflant), les associations sont radicales, le produit est sourcé à l’extrême, et l’exécution technique frôle la perfection absolue.",
+    insider_tip: "• C’est l’une des tables les plus recherchées de Paris (1 étoile Michelin), anticipez la réservation plusieurs semaines à l’avance.\n• Préférez le menu en 11 étapes (140€) le soir pour mesurer l'étendue du talent de Maxime Bouttier.\n• La carte des vins est un terrain de jeu fabuleux, laissez le sommelier vous guider sur des pépites natures ou biodynamiques rares.",
     expert_catchline: "Haute gastronomie brutaliste (1 étoile Michelin) menée de main de maître par le jeune prodige Maxime Bouttier.",
     specials: {
         cuisine: ["Menu Dégustation en 11 étapes", "Cuisine brutaliste et poétique", "Ris de veau croustillant", "Cuissons maîtrisées au cordeau"],
         drinks: ["Grands crus de Bourgogne", "Sélection pointue de vins natures", "Accords Mets & Vins sur-mesure"],
-        must_eat: "L'agneau servi avec des pleurotes grises et un jus au sang d'une intensité folle.",
+        must_eat: "L’agneau servi avec des pleurotes grises et un jus au sang d'une intensité folle.",
         must_drink: "Les accords mets & vins (souvent audacieux, incluant saké ou cidre) sont pensés comme une extension du plat."
     }
 };

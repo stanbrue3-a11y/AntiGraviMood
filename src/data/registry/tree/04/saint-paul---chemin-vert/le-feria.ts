@@ -5,7 +5,7 @@ export const le_feria: SurgicalPlace = {
     name: "Féria Café",
     slug: "le-feria",
     category: "bar", // Categorized as Bar so PriceEngine prioritizes the pint
-    subcategory: ["bar à cocktails", "brasserie", "pizza", "brunch", "happy hour", "festif"],
+    subcategory: ['français'],
     location: {
         address: "4 Rue du Bourg Tibourg",
         arrondissement: 4,
@@ -72,7 +72,7 @@ export const le_feria: SurgicalPlace = {
                 items: [
                     { name: "Margherita", price_cents: 1190 },
                     { name: "Diavola (Spianata piquante)", price_cents: 1570 },
-                    { name: "La 'Hulk' (Pesto verde, stracciatella)", price_cents: 1670 },
+                    { name: "La ’Hulk' (Pesto verde, stracciatella)", price_cents: 1670 },
                     { name: "Tartufo (Crème de truffe, copeaux)", price_cents: 2490 }
                 ]
             },
@@ -113,13 +113,13 @@ export const le_feria: SurgicalPlace = {
     instagram_handle: "feriacafe_paris",
     verified: true,
     google_rating: 4.3,
-    description: "Installé en plein cœur du Marais rue du Bourg Tibourg, le Féria est un formidable lieu hybride. Festif et bruyant le soir autour d'une pinte (la terrasse est littéralement prise d'assaut à la moindre éclaircie), il se révèle aussi être une sacrée cantine. L'adresse carbure à l'énergie, enchaînant cocktails, pizzas denses et un gargantuesque brunch dominical à volonté.",
-    insider_tip: "• Si vous cherchez de l'intimité pour un premier date calme, fuyez. Ici l'ambiance grimpe très vite en décibels dès 19h.\n• En semaine, attaquez-vous sans hésiter à la solide Pizza 'La Hulk' (Pesto verde & Stracciatella).\n• Pinte très honnête à 6€ en HH pour ce quartier hyper-central.",
+    description: "Installé en plein cœur du Marais rue du Bourg Tibourg, le Féria est un formidable lieu hybride. Festif et bruyant le soir autour d’une pinte (la terrasse est littéralement prise d’assaut à la moindre éclaircie), il se révèle aussi être une sacrée cantine. L’adresse carbure à l'énergie, enchaînant cocktails, pizzas denses et un gargantuesque brunch dominical à volonté.",
+    insider_tip: "• Si vous cherchez de l’intimité pour un premier date calme, fuyez. Ici l’ambiance grimpe très vite en décibels dès 19h.\n• En semaine, attaquez-vous sans hésiter à la solide Pizza ’La Hulk' (Pesto verde & Stracciatella).\n• Pinte très honnête à 6€ en HH pour ce quartier hyper-central.",
     expert_catchline: "Repaire hybride redoutable du Marais : pintes en terrasse le soir, et brunch XXL à volonté le week-end.",
     specials: {
         cuisine: ["Brunch à volonté (31€)", "Pizza Tartufo", "Egg toast Foie Gras", "Nems de Poulet"],
         drinks: ["Pinte blonde HH", "Shots", "Cocktails création"],
-        must_eat: "L'équipe du bar envoie une batterie de tapas bien sourcés pour l'apéro : mention spéciale aux nems de poulet (10,50€). Côté brasserie pure, on frappe au cœur des pizzas napolitaines ou sur l'artillerie lourde du grand brunch buffet.",
-        must_drink: "L'arsenal parfait pour le quartier : pintes à 6€ en HH, pichets et une redoutable carte de cocktails pour enflammer la soirée dans une ambiance très vivante."
+        must_eat: "L’équipe du bar envoie une batterie de tapas bien sourcés pour l’apéro : mention spéciale aux nems de poulet (10,50€). Côté brasserie pure, on frappe au cœur des pizzas napolitaines ou sur l’artillerie lourde du grand brunch buffet.",
+        must_drink: "L’arsenal parfait pour le quartier : pintes à 6€ en HH, pichets et une redoutable carte de cocktails pour enflammer la soirée dans une ambiance très vivante."
     }
 };

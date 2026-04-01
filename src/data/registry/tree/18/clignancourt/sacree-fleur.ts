@@ -5,7 +5,7 @@ export const sacree_fleur: SurgicalPlace = {
   slug: "sacree-fleur",
   name: "Sacrée Fleur",
   category: "restaurant",
-  subcategory: ["français", "steakhouse", "viande d'exception", "montmartre", "traditionnel"],
+  subcategory: ['français'],
   location: {
     address: "50 Rue de Clignancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -48,15 +48,15 @@ export const sacree_fleur: SurgicalPlace = {
           { name: "Terrine de campagne maison", price_cents: 850 },
           { name: "Salade de chèvre chaud au miel", price_cents: 1100 },
           { name: "Gambas flambées au Pastis", price_cents: 1300 },
-          { name: "Cassolette d'escargots aux noisettes", price_cents: 1200 }
+          { name: "Cassolette d’escargots aux noisettes", price_cents: 1200 }
         ]
       },
       {
         category_type: "main",
         display_label: "Les Plats",
         items: [
-          { name: "Bavette d'aloyau (200g) à l'échalote", price_cents: 1950 },
-          { name: "Entrecôte (300g) d'Aubrac", price_cents: 2600 },
+          { name: "Bavette d’aloyau (200g) à l'échalote", price_cents: 1950 },
+          { name: "Entrecôte (300g) d’Aubrac", price_cents: 2600 },
           { name: "Faux-filet grillé au poivre", price_cents: 2250 },
           { name: "Magret de canard entier au miel", price_cents: 2400 },
           { name: "Steak Tartare aux couteaux (180g)", price_cents: 1850 },
@@ -64,8 +64,8 @@ export const sacree_fleur: SurgicalPlace = {
           { name: "Cœur de Rumsteck sauce Roquefort", price_cents: 2100 },
           { name: "Côte de Bœuf pour deux (1kg)", price_cents: 6800 },
           { name: "Andouillette de Troyes AAAAA", price_cents: 1800 },
-          { name: "Souris d'agneau confite au thym", price_cents: 2300 },
-          { name: "Pavé de saumon à l'aneth", price_cents: 2000 },
+          { name: "Souris d’agneau confite au thym", price_cents: 2300 },
+          { name: "Pavé de saumon à l’aneth", price_cents: 2000 },
           { name: "Risotto végétarien aux truffes", price_cents: 1850 }
         ]
       },
@@ -85,8 +85,8 @@ export const sacree_fleur: SurgicalPlace = {
       }
     ]
   },
-  description: "À l'ombre du Sacré-Cœur, la Sacrée Fleur est le temple de la viande rouge dans le 18e. Cette brasserie intime et chaleureuse se spécialise dans les pièces de bœuf d'exception (Aubrac, Charolais) servies avec une générosité rare. L'accueil y est légendaire et l'ambiance évoque le Montmartre authentique, loin des pièges à touristes. Un incontournable pour les carnivores en quête de Moelle.",
-  insider_tip: "• La réservation est obligatoire le soir, le lieu est souvent complet plusieurs jours à l'avance.\n• Leur sauce au bleu est une institution, demandez-la pour accompagner votre entrecôte.\n• La côte de bœuf pour deux est spectaculaire, prévoyez une faim de loup.",
+  description: "À l’ombre du Sacré-Cœur, la Sacrée Fleur est le temple de la viande rouge dans le 18e. Cette brasserie intime et chaleureuse se spécialise dans les pièces de bœuf d’exception (Aubrac, Charolais) servies avec une générosité rare. L’accueil y est légendaire et l'ambiance évoque le Montmartre authentique, loin des pièges à touristes. Un incontournable pour les carnivores en quête de Moelle.",
+  insider_tip: "• La réservation est obligatoire le soir, le lieu est souvent complet plusieurs jours à l’avance.\n• Leur sauce au bleu est une institution, demandez-la pour accompagner votre entrecôte.\n• La côte de bœuf pour deux est spectaculaire, prévoyez une faim de loup.",
   specials: {
     cuisine: ["Française", "Steakhouse", "Viande"],
     drinks: ["Vins du Languedoc", "Vin de pays"],

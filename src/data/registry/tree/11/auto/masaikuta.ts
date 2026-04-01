@@ -5,7 +5,7 @@ export const masaikuta: SurgicalPlace = {
   slug: "masaikuta",
   name: "Masaikuta",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "26 bis Rue de la Fontaine au Roi, 75011 Paris, France",
     arrondissement: 11,
@@ -46,18 +46,18 @@ export const masaikuta: SurgicalPlace = {
         display_label: "Entrées Finesse & Iode (Entrées)",
         items: [
           { name: "Carpaccio de Daurade, sauce Ponzu maison", price_cents: 1600, is_highlight: true },
-          { name: "Saint-Jacques snackées, émulsion d'algues", price_cents: 1800, is_highlight: true },
+          { name: "Saint-Jacques snackées, émulsion d’algues", price_cents: 1800, is_highlight: true },
           { name: "Bouillon Dashi clair, tofu & gingembre", price_cents: 900 },
           { name: "Tartare de Thon Rouge, avocat & sésame", price_cents: 1700 },
           { name: "Tempura de Légumes de saison (x4)", price_cents: 1400 },
           { name: "Aubergine grillée au Miso sucré (Nasu Dengaku)", price_cents: 1200 },
           { name: "Gyoza artisanaux au Porc & Chou (x5)", price_cents: 1100 },
-          { name: "Salade d'Algues Hijiki & Edamame", price_cents: 850 }
+          { name: "Salade d’Algues Hijiki & Edamame", price_cents: 850 }
         ]
       },
       {
         category_type: "main",
-        display_label: "Plats d'Exquise Tradition (Plats)",
+        display_label: "Plats d’Exquise Tradition (Plats)",
         items: [
           { name: "Cabillaud à la vapeur de Saké, légumes croquants", price_cents: 2800, is_highlight: true },
           { name: "Canard rôti aux épices japonaises & Teriyaki", price_cents: 3200, is_highlight: true },
@@ -77,7 +77,7 @@ export const masaikuta: SurgicalPlace = {
           { name: "Tartelette Chocolat noir & Sésame noir", price_cents: 1100, is_highlight: true },
           { name: "Gelée de Yuzu & Fruits frais de saison", price_cents: 950 },
           { name: "Crème brûlée au Thé Hojicha", price_cents: 1000 },
-          { name: "Dorayaki minute à la pâte d'Azuki", price_cents: 1200 },
+          { name: "Dorayaki minute à la pâte d’Azuki", price_cents: 1200 },
           { name: "Sorbet Shiso & Citron vert", price_cents: 700 }
         ]
       },
@@ -85,11 +85,11 @@ export const masaikuta: SurgicalPlace = {
         category_type: "drink",
         display_label: "La Cave de Sakés & Vins (Boissons)",
         items: [
-          { name: "Saké Junmai 'Nature' (Verre 12cl)", price_cents: 1400, is_highlight: true },
+          { name: "Saké Junmai ’Nature' (Verre 12cl)", price_cents: 1400, is_highlight: true },
           { name: "Saké Gingo fruité (Verre 12cl)", price_cents: 1600 },
           { name: "Bouteille Saké Premium (72cl)", price_cents: 8500 },
-          { name: "Verre de Sancerre Blanc 'Florès'", price_cents: 1300, is_highlight: true },
-          { name: "Verre de Bourgogne Rouge 'Pinot Noir'", price_cents: 1100 },
+          { name: "Verre de Sancerre Blanc ’Florès'", price_cents: 1300, is_highlight: true },
+          { name: "Verre de Bourgogne Rouge ’Pinot Noir'", price_cents: 1100 },
           { name: "Champagne de Vigeron (Coupe)", price_cents: 1800 }
         ]
       },
@@ -108,12 +108,12 @@ export const masaikuta: SurgicalPlace = {
       }
     ]
   },
-  description: "Masaikuta est le joyau franco-japonais du chef Masahide Ikuta dans le 11ème. Entre épure nipponne et technique gastronomique française, le chef propose une partition d'une justesse folle : cabillaud vapeur de saké, bœuf wagyu A5 et desserts au matcha millimétrés. Le cadre minimaliste, boisé et serein, invite à une dégustation contemplative accompagnée d'une sélection de sakés d'exception.",
-  insider_tip: "• **Le Saké** : Ne faites pas l'impasse sur le saké Junmai conseillé pour accompagner le poisson, l'accord est magistral.\n• **Wagyu** : Si le budget le permet, le supplément Wagyu A5 offre une expérience de fondant inégalée.\n• **Sérénité** : C'est le lieu idéal pour un dîner calme et raffiné loin de l'agitation d'Oberkampf.",
+  description: "Masaikuta est le joyau franco-japonais du chef Masahide Ikuta dans le 11ème. Entre épure nipponne et technique gastronomique française, le chef propose une partition d’une justesse folle : cabillaud vapeur de saké, bœuf wagyu A5 et desserts au matcha millimétrés. Le cadre minimaliste, boisé et serein, invite à une dégustation contemplative accompagnée d’une sélection de sakés d’exception.",
+  insider_tip: "• **Le Saké** : Ne faites pas l’impasse sur le saké Junmai conseillé pour accompagner le poisson, l’accord est magistral.\n• **Wagyu** : Si le budget le permet, le supplément Wagyu A5 offre une expérience de fondant inégalée.\n• **Sérénité** : C’est le lieu idéal pour un dîner calme et raffiné loin de l’agitation d’Oberkampf.",
   specials: {
     cuisine: ["Gastronomie Franco-Japonaise", "Cabillaud Vapeur Saké", "Bœuf Wagyu A5"],
     drinks: ["Sakés Junmai rares", "Thé Matcha de cérémonie", "Vins de Loire"],
-    must_eat: "Le Cabillaud vapeur de saké (28€) : une texture d'une délicatesse absolue, servi avec des légumes croquants et un bouillon dashi profond.",
+    must_eat: "Le Cabillaud vapeur de saké (28€) : une texture d’une délicatesse absolue, servi avec des légumes croquants et un bouillon dashi profond.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHQYR81ArNGcT__EVwk1gGVnBlFQ_0M4JzWirB77L-B76BDWl3OlcMnKK31ljHCFVwlNyfcUvLD1cZcWanpL_a66p4HZ4vtUjvx2965iBaajwtVRHC29AR6j6YUZ2Jn0qldW5CyTllC5IOGbIwSvsuCixMeKPW6rET9rWMPLMkclVeIyw6Rj0FboasbWCPRiSQZ47cLdgPTkViZRopEMHnUnupifrhBafFBwuApHJlx09TvEcSucD9C4KuwkI8jRsIjwVCtAKyY-774GzBwmhSAn1AyUCiiwPf9mIpvS0J4wA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,7 +5,7 @@ export const mondol_kiri: SurgicalPlace = {
   slug: "mondol-kiri",
   name: "Mondol Kiri",
   category: "restaurant",
-  subcategory: ["cambodgienn"],
+  subcategory: ['français'],
   location: {
     address: "159 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -44,7 +44,7 @@ export const mondol_kiri: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées (Khmères)",
         items: [
-          { name: "Salade d'Ananas aux Crevettes", price_cents: 950, is_highlight: true },
+          { name: "Salade d’Ananas aux Crevettes", price_cents: 950, is_highlight: true },
           { name: "Raviolis à la vapeur (Knom Krok)", price_cents: 850 },
           { name: "Rouleaux de Printemps Maison", price_cents: 700 },
           { name: "Satay de Bœuf Grillé (x3)", price_cents: 900 },
@@ -99,14 +99,14 @@ export const mondol_kiri: SurgicalPlace = {
       }
     ]
   },
-  description: "Mondol Kiri est l'ambassadeur de la gastronomie cambodgienne dans le 13e arrondissement depuis 2010. Situé sur l'avenue de Choisy, ce restaurant cultive un art de vivre khmer tout en finesse, loin de l'agitation des grands bouillons. La spécialité, l'Amok de poisson cuit à la vapeur dans une feuille de bananier, est un chef-d'œuvre de douceur et d'équilibre. L'accueil y est d'une politesse rare, offrant une parenthèse apaisante et authentique aux amateurs de saveurs d'Asie du Sud-Est.",
-  insider_tip: `• **Le Trésor National** : Ne passez pas à côté de l'Amok, c'est le plat national cambodgien et il est ici exécuté selon une recette familiale ancestrale.
+  description: "Mondol Kiri est l’ambassadeur de la gastronomie cambodgienne dans le 13e arrondissement depuis 2010. Situé sur l’avenue de Choisy, ce restaurant cultive un art de vivre khmer tout en finesse, loin de l’agitation des grands bouillons. La spécialité, l’Amok de poisson cuit à la vapeur dans une feuille de bananier, est un chef-d’œuvre de douceur et d’équilibre. L’accueil y est d’une politesse rare, offrant une parenthèse apaisante et authentique aux amateurs de saveurs d’Asie du Sud-Est.",
+  insider_tip: `• **Le Trésor National** : Ne passez pas à côté de l’Amok, c'est le plat national cambodgien et il est ici exécuté selon une recette familiale ancestrale.
   • **Mariage Inattendu** : Le magret de canard aux litchis en curry rouge offre un contraste sucré-salé d'une modernité surprenante.
   • **Sérénité Requise** : Contrairement aux usines à soupe du quartier, on vient ici pour prendre son temps. Réservation conseillée le week-end car la salle est intimiste.`,
   specials: {
     cuisine: ["Cambodgienne"],
     drinks: ["Angkor Beer", "Thé Jasmin", "Jus de Coco"],
-    must_eat: "Cuisine Cambodgienne. Amok de Poisson & Salade d'Ananas",
+    must_eat: "Cuisine Cambodgienne. Amok de Poisson & Salade d’Ananas",
   },
   images: {
     hero: "AU_ZVEHUXNtMg-dXXAHWPBpaqYLqQBTIM7xLuc-13u7tDc64wIb_1ba7H4ZLjBQFjH0pV12voiYfvxfxCKKH95zxBh91gxMmT7p-h1zBRmBy8P8vdifUWnkW0_0Ap9U_a24vP9IiOoSHU62iXsepkF0Xp3jb-TYEViZxozdbY29X14h_cfpucbHaizn4Q1-41nW64BVDsvBxabYcOCekLcYnAJTZ6sxtQDHNcHCLl8XPIEdJXaprDHue2RrpnA-oSHwCqEzB8ukSX_WyfHD5Rn2OSJkbdBPUN8fShg3z7R4ps29-wQ",

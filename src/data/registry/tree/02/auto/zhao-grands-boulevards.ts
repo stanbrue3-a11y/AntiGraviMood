@@ -5,7 +5,7 @@ export const zhao_grands_boulevards: SurgicalPlace = {
   slug: "la-taverne-de-zhao-grands-boulevards",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "vibrant"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "166 Rue Montmartre, 75002 Paris, France",
     arrondissement: 2,
@@ -42,9 +42,9 @@ export const zhao_grands_boulevards: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_grands_boulevards: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_grands_boulevards: SurgicalPlace = {
       }
     ]
   },
-  description: "Située sur l'artère vibrante de la rue Montmartre, cette taverne est le point de ralliement des amateurs de Biang Biang en plein cœur des Grands Boulevards. L'ambiance y est électrique et urbaine, parfaite pour un déjeuner de quartier rapide ou un dîner avant une sortie cinéma dans le 2e.",
-  insider_tip: "• Arrivée conseillée dès 12h pour éviter le rush des bureaux alentours qui s'y pressent chaque midi.\n• Le service est ultra-rapide, idéal pour un repas de haute qualité chrono en main.\n• Ne repartez pas sans avoir goûté les Oreilles de porc pimentées, un délice croquant typique de Xi'an.",
+  description: "Située sur l’artère vibrante de la rue Montmartre, cette taverne est le point de ralliement des amateurs de Biang Biang en plein cœur des Grands Boulevards. L'ambiance y est électrique et urbaine, parfaite pour un déjeuner de quartier rapide ou un dîner avant une sortie cinéma dans le 2e.",
+  insider_tip: "• Arrivée conseillée dès 12h pour éviter le rush des bureaux alentours qui s’y pressent chaque midi.\n• Le service est ultra-rapide, idéal pour un repas de haute qualité chrono en main.\n• Ne repartez pas sans avoir goûté les Oreilles de porc pimentées, un délice croquant typique de Xi'an.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Poulet & Mo Bœuf",
   },
   images: {

@@ -39,7 +39,7 @@ export const muse_rodin: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "L'Hôtel Biron, où Rodin a vécu et travaillé, est sans doute l'un des plus beaux hôtels particuliers de Paris. Mais la magie opère surtout dans le jardin de sculptures de 3 hectares. Se promener au milieu des rosiers et découvrir le Penseur ou la Porte de l'Enfer en plein air, avec le dôme des Invalides en toile de fond, est un moment de grâce. L'intérieur du musée, baigné de lumière, présente les œuvres en plâtre, marbre et bronze dans leur cadre d'origine. Romantique à souhait.",
+    "description": "L’Hôtel Biron, où Rodin a vécu et travaillé, est sans doute l’un des plus beaux hôtels particuliers de Paris. Mais la magie opère surtout dans le jardin de sculptures de 3 hectares. Se promener au milieu des rosiers et découvrir le Penseur ou la Porte de l’Enfer en plein air, avec le dôme des Invalides en toile de fond, est un moment de grâce. L’intérieur du musée, baigné de lumière, présente les œuvres en plâtre, marbre et bronze dans leur cadre d’origine. Romantique à souhait.",
     "insider_tip": "Le jardin de sculptures est accessible pour 4€ (sans le musée).",
     "specials": {
         "cuisine": [],

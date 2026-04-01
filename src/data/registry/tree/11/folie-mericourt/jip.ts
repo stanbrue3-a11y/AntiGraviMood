@@ -5,7 +5,7 @@ export const jip: SurgicalPlace = {
     name: "Jip",
     slug: "jip",
     category: "restaurant",
-    subcategory: ["korean", "fusion", "franco-coreen", "bistronomie"],
+    subcategory: ['français', 'bistronomie'],
     location: {
         address: "112 Rue de la Roquette",
         arrondissement: 11,
@@ -80,9 +80,9 @@ export const jip: SurgicalPlace = {
     google_rating: 4.8,
     description: "Le nouveau terrain de jeu du chef Esu Lee (ex-Septime, ex-Cameleon). Jip est une ode à la fusion délicate, où les racines coréennes du chef dansent avec la rigueur des produits français. Une expérience épurée, minimaliste et techniquement bluffante.",
     insider_tip: "Le menu à 35€ est une affaire incroyable pour ce niveau de technicité. Ne manquez pas les accords avec les thés coréens ou les vins naturels sélectionnés avec soin.",
-    expert_catchline: "Bib Gourmand 2026. La poésie d'Esu Lee entre Séoul et Paris.",
+    expert_catchline: "Bib Gourmand 2026. La poésie d’Esu Lee entre Séoul et Paris.",
     specials: {
-        cuisine: ["Franco-Korean Fusion", "Seasonal Tasting Menu", "Chef's Counter vibes"],
+        cuisine: ["Franco-Korean Fusion", "Seasonal Tasting Menu", "Chef’s Counter vibes"],
         drinks: ["Selection de vins au verre", "Thés coréens"],
         must_eat: "Le menu 3 temps signature.",
         must_drink: "Un thé au gingembre maison pour finir."

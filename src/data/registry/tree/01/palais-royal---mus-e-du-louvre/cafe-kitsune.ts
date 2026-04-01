@@ -42,7 +42,7 @@ export const cafe_kitsune: SurgicalPlace = {
         "festif": 3,
         "culturel": 8.5
     },
-    "description": "La marque franco-japonaise de musique et de mode a réussi son pari caféiné. Que ce soit au Palais Royal (le plus beau, niché dans les jardins) ou ailleurs, l'expérience est la même : un design minimaliste et chic, un café latte au lait d'avoine parfait, et ces petits sablés en forme de renard ('kitsune' en japonais) iconiques. C'est le spot idéal pour une pause esthétique et savoureuse, assis sur un banc à regarder les passants stylés.",
+    "description": "La marque franco-japonaise de musique et de mode a réussi son pari caféiné. Que ce soit au Palais Royal (le plus beau, niché dans les jardins) ou ailleurs, l’expérience est la même : un design minimaliste et chic, un café latte au lait d’avoine parfait, et ces petits sablés en forme de renard (’kitsune’ en japonais) iconiques. C’est le spot idéal pour une pause esthétique et savoureuse, assis sur un banc à regarder les passants stylés.",
     "insider_tip": "Le meilleur Matcha Latte, à déguster sur un banc du Palais Royal.",
     "specials": {
         "cuisine": [],

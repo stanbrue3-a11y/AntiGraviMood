@@ -5,7 +5,7 @@ export const virtus: SurgicalPlace = {
   slug: "virtus",
   name: "Restaurant Virtus",
   category: "restaurant",
-  subcategory: ["gastronomi"],
+  subcategory: ['français'],
   location: {
     address: "29 Rue de Cotte, 75012 Paris, France",
     arrondissement: 12,
@@ -75,13 +75,13 @@ export const virtus: SurgicalPlace = {
         category_type: "drink",
         display_label: "Sélection Sommelier (Boissons)",
         items: [
-          { name: "Champagne J. Lassalle 'Préférence'", price_cents: 1800, is_highlight: true },
-          { name: "Chablis 1er Cru 'Montmains'", price_cents: 1600 },
+          { name: "Champagne J. Lassalle ’Préférence'", price_cents: 1800, is_highlight: true },
+          { name: "Chablis 1er Cru ’Montmains'", price_cents: 1600 },
           { name: "Puligny-Montrachet (Verre)", price_cents: 2400 },
           { name: "Gevrey-Chambertin (Verre)", price_cents: 2200 },
-          { name: "Sancerre 'Les Romains' (Bouteille)", price_cents: 6500 },
-          { name: "Saint-Julien 'Château Gloria' (Bout.)", price_cents: 11000 },
-          { name: "Condrieu 'La Doriane' (Bouteille)", price_cents: 14500 },
+          { name: "Sancerre ’Les Romains' (Bouteille)", price_cents: 6500 },
+          { name: "Saint-Julien ’Château Gloria' (Bout.)", price_cents: 11000 },
+          { name: "Condrieu ’La Doriane' (Bouteille)", price_cents: 14500 },
           { name: "Vin de Constance (Digestif)", price_cents: 1500 }
         ]
       },
@@ -98,13 +98,13 @@ export const virtus: SurgicalPlace = {
       }
     ]
   },
-  description: "Virtus est une table étoilée discrète et élégante située à deux pas du marché d'Aligre. Porté par le duo de chefs Chiho Kanzaki et Marcelo di Giacomo, le restaurant propose une partition culinaire d'une grande finesse, mêlant technicité japonaise et générosité argentine. Le décor épuré aux tons pastel et le service attentif créent une atmosphère sereine, idéale pour découvrir une cuisine centrée sur la pureté du produit et l'harmonie des saveurs.",
+  description: "Virtus est une table étoilée discrète et élégante située à deux pas du marché d’Aligre. Porté par le duo de chefs Chiho Kanzaki et Marcelo di Giacomo, le restaurant propose une partition culinaire d’une grande finesse, mêlant technicité japonaise et générosité argentine. Le décor épuré aux tons pastel et le service attentif créent une atmosphère sereine, idéale pour découvrir une cuisine centrée sur la pureté du produit et l’harmonie des saveurs.",
   insider_tip: `• **Le Déjeuner Imbattable** : Le menu déjeuner à 45€ est sans doute l'un des meilleurs rapports qualité-prix étoilés de la capitale.
-  • **Le Duo de Chefs** : L'alchimie entre Chiho et Marcelo se ressent dans chaque assiette, l'un apportant la précision, l'autre la vivacité.
+  • **Le Duo de Chefs** : L’alchimie entre Chiho et Marcelo se ressent dans chaque assiette, l'un apportant la précision, l'autre la vivacité.
   • **Cote des Vins** : Laissez-vous guider par le sommelier pour des accords audacieux avec des vignerons indépendants méconnus.`,
   specials: {
     cuisine: ["Gastronomique", "Moderne", "Étoilé Michelin"],
-    drinks: ["Grands Crus", "Vins d'Auteur"],
+    drinks: ["Grands Crus", "Vins d’Auteur"],
     must_eat: "Gastronomie. Saint-Jacques de plongée & Ris de Veau doré",
   },
   images: {

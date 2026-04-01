@@ -5,7 +5,7 @@ export const lAlicheur: SurgicalPlace = {
     name: "L’Alicheur",
     slug: "l-alicheur",
     category: "restaurant",
-    subcategory: ["Cambodgien", "Vietnamien", "Healthy", "Asian Fusion"],
+    subcategory: ['français'],
     location: {
         address: "96 Rue Saint-Maur, 75011 Paris",
         arrondissement: 11,
@@ -96,12 +96,12 @@ export const lAlicheur: SurgicalPlace = {
         main_action: {
             type: "site",
             url: "https://www.instagram.com/lalicheur_paris/",
-            label: "S'INFORMER"
+            label: "S’INFORMER"
         }
     },
-    description: "L'Alicheur est une pépite du quartier Parmentier dédiée à la cuisine asiatique 'thérapeutique' et saine. Ici, on oublie le gras : tout est cuit à la vapeur ou en bouillon, avec des ingrédients d'une fraîcheur absolue. Inspiré par les traditions khmères et vietnamiennes, c'est l'un des rares spots de Paris à proposer un menu presque entièrement sans gluten de manière naturelle. Une adresse précieuse pour les corps fatigués en quête d'umami.",
+    description: "L’Alicheur est une pépite du quartier Parmentier dédiée à la cuisine asiatique ’thérapeutique’ et saine. Ici, on oublie le gras : tout est cuit à la vapeur ou en bouillon, avec des ingrédients d’une fraîcheur absolue. Inspiré par les traditions khmères et vietnamiennes, c’est l’un des rares spots de Paris à proposer un menu presque entièrement sans gluten de manière naturelle. Une adresse précieuse pour les corps fatigués en quête d’umami.",
     expert_catchline: "La cantine asiatique saine et zen : cuissons vapeur et bouillons citronnelle guérisseurs.",
-    insider_tip: "• La sauce 'Alicheur' qui accompagne les pâtes de riz est addictive – demandez-en un peu plus si besoin.\n• C'est l'adresse idéale si vous voulez manger léger mais savoureux le midi.\n• Le bouillon à la citronnelle est un remède miracle contre les rhumes d'hiver.\n• Attention, le restaurant est fermé le weekend !",
+    insider_tip: "• La sauce ’Alicheur’ qui accompagne les pâtes de riz est addictive – demandez-en un peu plus si besoin.\n• C’est l’adresse idéale si vous voulez manger léger mais savoureux le midi.\n• Le bouillon à la citronnelle est un remède miracle contre les rhumes d’hiver.\n• Attention, le restaurant est fermé le weekend !",
     specials: {
         cuisine: ["Cambodgien", "Healthy", "Vapeur"],
         drinks: ["Infusion Gingembre", "Bière Singha", "Eaux Détox"],

@@ -38,8 +38,8 @@ export const petit_bain: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Bateau-salle de concert et centre culturel flottant, Petit Bain est reconnaissable à son architecture jaune vif et son jardin vertical. Bien plus qu'une simple péniche, c'est un lieu hybride qui accueille des concerts indie, des soirées clubbing et des ateliers. Son point fort reste son toit-terrasse (la Cantine) qui offre une vue imprenable sur la Seine et le quartier de la Bibliothèque François Mitterrand. On y déguste des bières artisanales et des tapas dans une ambiance de croisière urbaine décontractée, loin de l'agitation bitumée.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Bateau-salle de concert et centre culturel flottant, Petit Bain est reconnaissable à son architecture jaune vif et son jardin vertical. Bien plus qu’une simple péniche, c’est un lieu hybride qui accueille des concerts indie, des soirées clubbing et des ateliers. Son point fort reste son toit-terrasse (la Cantine) qui offre une vue imprenable sur la Seine et le quartier de la Bibliothèque François Mitterrand. On y déguste des bières artisanales et des tapas dans une ambiance de croisière urbaine décontractée, loin de l’agitation bitumée.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

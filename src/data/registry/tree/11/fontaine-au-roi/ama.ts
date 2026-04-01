@@ -5,7 +5,7 @@ export const ama: SurgicalPlace = {
     name: "Ama",
     slug: "ama",
     category: "restaurant",
-    subcategory: ["tibetan", "asian", "momos", "authentic"],
+    subcategory: ['français'],
     location: {
         address: "28 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -87,9 +87,9 @@ export const ama: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Une immersion authentique au Tibet au coeur du 11ème. Ama (qui signifie 'mère' en tibétain) propose une cuisine familiale et généreuse. Leurs momos, ces célèbres raviolis farcis, sont préparés chaque jour avec amour et servis avec une sauce piquante dont ils ont le secret. L'ambiance y est calme et spirituelle, parfaite pour une parenthèse loin du tumulte parisien.",
-    insider_tip: "Ne partez pas sans goûter le thé au beurre salé (Po Cha), c'est une expérience clivante mais incontournable pour comprendre la culture tibétaine.",
-    expert_catchline: "La poésie des momos tibétains et de la cuisine d'altitude.",
+    description: "Une immersion authentique au Tibet au coeur du 11ème. Ama (qui signifie ’mère’ en tibétain) propose une cuisine familiale et généreuse. Leurs momos, ces célèbres raviolis farcis, sont préparés chaque jour avec amour et servis avec une sauce piquante dont ils ont le secret. L’ambiance y est calme et spirituelle, parfaite pour une parenthèse loin du tumulte parisien.",
+    insider_tip: "Ne partez pas sans goûter le thé au beurre salé (Po Cha), c’est une expérience clivante mais incontournable pour comprendre la culture tibétaine.",
+    expert_catchline: "La poésie des momos tibétains et de la cuisine d’altitude.",
     specials: {
         cuisine: ["Tibetan Momos", "Hand-pulled Noodles", "Tingmo Bread"],
         drinks: ["Tibetan Butter Tea", "Homemade Lassi"],

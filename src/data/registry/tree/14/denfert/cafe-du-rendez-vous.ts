@@ -5,7 +5,7 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
     name: "Café du Rendez-Vous",
     slug: "cafe-du-rendez-vous",
     category: "café",
-    subcategory: ["bistrot", "terrasse", "brasserie", "denfert-rochereau", "parisien", "cocktails"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "2 Avenue du Général Leclerc, 75014 Paris, France",
         arrondissement: 14,
@@ -42,10 +42,10 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Brasserie Maison",
                 items: [
-                    { name: "Tartare de Boeuf Charolais 'Rendez-Vous'", price_cents: 1750 },
+                    { name: "Tartare de Boeuf Charolais ’Rendez-Vous'", price_cents: 1750 },
                     { name: "Hamburger Maison au Cantal", price_cents: 1800 },
                     { name: "Poulet Fermier Rôti, Frites Maison", price_cents: 1850 },
-                    { name: "Saucisse au couteau de l'Aveyron", price_cents: 1650 },
+                    { name: "Saucisse au couteau de l’Aveyron", price_cents: 1650 },
                     { name: "Tartare de Saumon Frais aux Herbes", price_cents: 1900 },
                     { name: "Entrecôte Grillée (300g), Sauce Poivre", price_cents: 2200 },
                     { name: "Linguine à la Tomate et Basilic Frais", price_cents: 1550 },
@@ -61,7 +61,7 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
                     { name: "Oeuf Cocotte à la Tomate Confite", price_cents: 1150 },
                     { name: "Asperges Rôties au Parmesan", price_cents: 750 },
                     { name: "Grande Planche Mixte Rendez-Vous", price_cents: 2400 },
-                    { name: "Tapas du moment (l'unité)", price_cents: 600 }
+                    { name: "Tapas du moment (l’unité)", price_cents: 600 }
                 ]
             },
             {
@@ -84,13 +84,13 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
     },
     verified: true,
     google_rating: 3.8,
-    description: "Posté à l'angle stratégique de la place Denfert-Rochereau, le Café du Rendez-Vous est le point de ralliement incontournable du quartier. Ce grand bistrot parisien, avec sa terrasse chauffée qui s'étire généreusement sur le trottoir, offre une animation constante du petit-déjeuner au dernier verre nocturne. L'ambiance y est cosmopolite, vibrante et décontractée, attirant aussi bien les voyageurs en transit que les habitués du 14ème. C'est le lieu idéal pour une pause rapide, un déjeuner de travail efficace ou un Happy Hour prolongé entre amis, le tout dans un décor de brasserie moderne et chaleureuse.",
-    insider_tip: "Leur Happy Hour est l'un des plus généreux du quartier, incluant des cocktails créatifs et des planches de produits sourcés. C'est aussi l'endroit parfait pour observer le tumulte parisien depuis la terrasse sans être pressé par le service.",
-    expert_catchline: "L'escale vibrante et conviviale face à Denfert-Rochereau.",
+    description: "Posté à l’angle stratégique de la place Denfert-Rochereau, le Café du Rendez-Vous est le point de ralliement incontournable du quartier. Ce grand bistrot parisien, avec sa terrasse chauffée qui s’étire généreusement sur le trottoir, offre une animation constante du petit-déjeuner au dernier verre nocturne. L’ambiance y est cosmopolite, vibrante et décontractée, attirant aussi bien les voyageurs en transit que les habitués du 14ème. C'est le lieu idéal pour une pause rapide, un déjeuner de travail efficace ou un Happy Hour prolongé entre amis, le tout dans un décor de brasserie moderne et chaleureuse.",
+    insider_tip: "Leur Happy Hour est l’un des plus généreux du quartier, incluant des cocktails créatifs et des planches de produits sourcés. C’est aussi l’endroit parfait pour observer le tumulte parisien depuis la terrasse sans être pressé par le service.",
+    expert_catchline: "L’escale vibrante et conviviale face à Denfert-Rochereau.",
     specials: {
         cuisine: ["Bistrot Français", "Tapas"],
         drinks: ["Large choix de Bières", "Cocktails Happy Hour"],
-        must_eat: "L'Hamburger maison au Cantal et les Oeufs Cocotte.",
+        must_eat: "L’Hamburger maison au Cantal et les Oeufs Cocotte.",
         must_drink: "Une bière pression rafraîchissante en terrasse."
     },
     source: "expert_human"

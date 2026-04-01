@@ -39,7 +39,7 @@ export const halle_saint_pierre: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Au pied du Sacré-Cœur, dans une ancienne halle de marché style Baltard, se trouve ce musée dédié à l'art brut et à l'art singulier. C'est le musée des artistes marginaux, des fous et des visionnaires. L'ambiance y est unique, loin des musées classiques aseptisés. Le café sous la verrière, entouré de livres d'art et de gâteaux maison, est un lieu de détente génial après avoir grimpé les marches de Montmartre.",
+    "description": "Au pied du Sacré-Cœur, dans une ancienne halle de marché style Baltard, se trouve ce musée dédié à l’art brut et à l’art singulier. C’est le musée des artistes marginaux, des fous et des visionnaires. L’ambiance y est unique, loin des musées classiques aseptisés. Le café sous la verrière, entouré de livres d’art et de gâteaux maison, est un lieu de détente génial après avoir grimpé les marches de Montmartre.",
     "insider_tip": "Art Brut et café librairie atypique au pied de Montmartre.",
     "specials": {
         "cuisine": [],

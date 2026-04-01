@@ -5,7 +5,7 @@ export const comptoir_sur_mer: SurgicalPlace = {
   slug: "comptoir-sur-mer",
   name: "Comptoir Sur Mer",
   category: "restaurant",
-  subcategory: ["fruits-de-mer", "bar-a-huitres", "bistrot", "institution"],
+  subcategory: ['français'],
   location: {
     address: "53 Rue de Lancry, 75010 Paris, France",
     arrondissement: 10,
@@ -41,12 +41,12 @@ export const comptoir_sur_mer: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "L'Écailler (Entrées & Huîtres)",
+        display_label: "L’Écailler (Entrées & Huîtres)",
         items: [
           { name: "6 Huîtres Utah Beach n°3 (Normandie)", price_cents: 1600, is_highlight: true },
           { name: "Huîtres Spéciales n°2 Utah Beach (Charnues)", price_cents: 1950, is_highlight: true },
           { name: "Huîtres de Blainville-sur-Mer n°3", price_cents: 1500 },
-          { name: "Huîtres d'Isigny n°3 (Baie des Veys)", price_cents: 1700 },
+          { name: "Huîtres d’Isigny n°3 (Baie des Veys)", price_cents: 1700 },
           { name: "Gillardeau n°4 (Prestige)", price_cents: 2400, is_highlight: true },
           { name: "Belon n°00 (Huître Plate de saison)", price_cents: 1800 },
           { name: "Fines de Claire n°3 Marennes-Oléron", price_cents: 1450 },
@@ -57,8 +57,8 @@ export const comptoir_sur_mer: SurgicalPlace = {
         category_type: "starter",
         display_label: "Coquillages & Crustacés (Entrées)",
         items: [
-          { name: "Palourdes d'Utah Beach au Naturel", price_cents: 1200, is_highlight: true },
-          { name: "Coques d'Utah Beach (Portion)", price_cents: 1000 },
+          { name: "Palourdes d’Utah Beach au Naturel", price_cents: 1200, is_highlight: true },
+          { name: "Coques d’Utah Beach (Portion)", price_cents: 1000 },
           { name: "Oursins Frais de Roche (Selon arrivage)", price_cents: 1200, is_highlight: true },
           { name: "Bulots & Mayonnaise Artisanale Maison", price_cents: 1100, is_highlight: true },
           { name: "Crevettes Grises à décortiquer", price_cents: 950 },
@@ -116,8 +116,8 @@ export const comptoir_sur_mer: SurgicalPlace = {
       }
     ]
   },
-  description: "Surmer (et son iconique Comptoir Mer rue de Lancry) est la référence absolue des produits de la mer dans le 10ème arrondissement. Orchestré par la cheffe Olive Davoux, ce lieu célèbre la pêche artisanale et responsable. Entre le bar à huîtres Utah Beach d'une fraîcheur insolente et les petites assiettes marines créatives (seiche plancha, ceviche de mulet), l'expérience est un voyage immédiat vers les côtes normandes et vendéennes. Décor brut, service décontracté et carte de vins naturels font de cette adresse le repaire des amateurs d'iode et de vérité.",
-  insider_tip: "• **Les Huîtres Utah Beach** : C'est la signature de la maison, sourcées avec une exigence rare. Elles sont d'un équilibre sucre/sel parfait.\n• **Le Comptoir de Lancry** : Privilégiez l'adresse historique pour un plateau de fruits de mer sur le pouce, l'ambiance y est plus authentique.\n• **Vins Blancs Naturels** : Demandez conseil sur les Muscadets travaillés en biodynamie, les accords avec les coquillages sont foudroyants.",
+  description: "Surmer (et son iconique Comptoir Mer rue de Lancry) est la référence absolue des produits de la mer dans le 10ème arrondissement. Orchestré par la cheffe Olive Davoux, ce lieu célèbre la pêche artisanale et responsable. Entre le bar à huîtres Utah Beach d’une fraîcheur insolente et les petites assiettes marines créatives (seiche plancha, ceviche de mulet), l’expérience est un voyage immédiat vers les côtes normandes et vendéennes. Décor brut, service décontracté et carte de vins naturels font de cette adresse le repaire des amateurs d’iode et de vérité.",
+  insider_tip: "• **Les Huîtres Utah Beach** : C’est la signature de la maison, sourcées avec une exigence rare. Elles sont d’un équilibre sucre/sel parfait.\n• **Le Comptoir de Lancry** : Privilégiez l’adresse historique pour un plateau de fruits de mer sur le pouce, l'ambiance y est plus authentique.\n• **Vins Blancs Naturels** : Demandez conseil sur les Muscadets travaillés en biodynamie, les accords avec les coquillages sont foudroyants.",
   specials: {
     cuisine: ["Seafood & Bar à huîtres", "Pêche artisanale responsable", "Arrivages quotidiens direct producteur"],
     drinks: ["Belle sélection de vins blancs nature", "Champagnes de vignerons", "Muscadets de garde"],

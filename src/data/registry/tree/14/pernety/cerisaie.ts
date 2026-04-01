@@ -5,7 +5,7 @@ export const cerisaie: SurgicalPlace = {
     name: "La Cerisaie",
     slug: "la-cerisaie-paris-14",
     category: "restaurant",
-    subcategory: ["sud-ouest", "bistrot", "gastronomique", "terroir", "intime", "authentique"],
+    subcategory: ['français'],
     location: {
         address: "70 Boulevard Edgar Quinet, 75014 Paris, France",
         arrondissement: 14,
@@ -45,7 +45,7 @@ export const cerisaie: SurgicalPlace = {
                     { name: "Cassoulet aux Haricots Tarbais (Le Vrai)", price_cents: 2800, description: "Mijoté longuement, la signature incontestée de la maison." },
                     { name: "Cochon Noir de Bigorre et Fèves de Printemps", price_cents: 2600 },
                     { name: "Pot au Feu de Canard et Cochon Noir (pour 2)", price_cents: 5600 },
-                    { name: "Magret d'Oie des Landes, Polenta Crémeuse", price_cents: 2450 },
+                    { name: "Magret d’Oie des Landes, Polenta Crémeuse", price_cents: 2450 },
                     { name: "Cuisse de Canard Confite et Piperade Basque", price_cents: 2200 },
                     { name: "Manchon de Canard & Chorizo Confits", price_cents: 2100 },
                     { name: "Piquillos farcis à la morue, Bisque", price_cents: 1800 },
@@ -69,7 +69,7 @@ export const cerisaie: SurgicalPlace = {
                 display_label: "Douceurs des Pyrénées",
                 items: [
                     { name: "Sablé Doré Fraise-Rhubarbe (Crumble)", price_cents: 950 },
-                    { name: "Baba à l'Armagnac, Crème Fouettée Vanille", price_cents: 1100 },
+                    { name: "Baba à l’Armagnac, Crème Fouettée Vanille", price_cents: 1100 },
                     { name: "Tarte Fondante au Chocolat Noir", price_cents: 900 },
                     { name: "Petit Pot de Crème Chocolat & Noisette", price_cents: 850 },
                     { name: "Glace au Roquefort (Pour audacieux)", price_cents: 900 }
@@ -85,12 +85,12 @@ export const cerisaie: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "La Cerisaie est l'un des secrets les mieux gardés (et les plus petits) de Montparnasse. Cyril Lalanne y officie avec une passion rare pour les produits de son Sud-Ouest natal. Dans une salle minuscule de 26 couverts où la proximité crée une convivialité immédiate, on déguste un cassoulet d'anthologie et des charcuteries de Porc Noir de Bigorre d'une qualité exceptionnelle. C'est une table de terroir pure, sans artifices, où chaque plat raconte une histoire de vignes et de montagnes. La réservation n'est pas une option, c'est une nécessité absolue pour goûter à cette cuisine de coeur.",
-    insider_tip: "Appelez au moins une semaine à l'avance pour le soir. Le menu ardoise change selon les arrivages du pays, mais le cassoulet est pratiquement toujours là. Ne partez pas sans avoir goûté au fromage de Bethmale.",
-    expert_catchline: "L'ambassade intime et magistrale du Sud-Ouest à Montparnasse.",
+    description: "La Cerisaie est l’un des secrets les mieux gardés (et les plus petits) de Montparnasse. Cyril Lalanne y officie avec une passion rare pour les produits de son Sud-Ouest natal. Dans une salle minuscule de 26 couverts où la proximité crée une convivialité immédiate, on déguste un cassoulet d’anthologie et des charcuteries de Porc Noir de Bigorre d’une qualité exceptionnelle. C’est une table de terroir pure, sans artifices, où chaque plat raconte une histoire de vignes et de montagnes. La réservation n’est pas une option, c'est une nécessité absolue pour goûter à cette cuisine de coeur.",
+    insider_tip: "Appelez au moins une semaine à l’avance pour le soir. Le menu ardoise change selon les arrivages du pays, mais le cassoulet est pratiquement toujours là. Ne partez pas sans avoir goûté au fromage de Bethmale.",
+    expert_catchline: "L’ambassade intime et magistrale du Sud-Ouest à Montparnasse.",
     specials: {
         cuisine: ["Sud-Ouest", "Terroir"],
-        drinks: ["Vins du Pays Basque", "Armagnacs d'Exception"],
+        drinks: ["Vins du Pays Basque", "Armagnacs d’Exception"],
         must_eat: "Le Cassoulet aux Haricots Tarbais.",
         must_drink: "Un Irouléguy ou un Madiran puissant."
     },

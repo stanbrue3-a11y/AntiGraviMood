@@ -5,7 +5,7 @@ export const monsieur_bleu: SurgicalPlace = {
   slug: "monsieur-bleu",
   name: "Monsieur Bleu",
   category: "restaurant",
-  subcategory: ["brasserie-chic", "élégant", "palais-de-tokyo", "vue-tour-eiffel"],
+  subcategory: ['français'],
   location: {
     address: "Palais De Tokyo, 20 Av. de New York, 75116 Paris, France",
     arrondissement: 16,
@@ -47,16 +47,16 @@ export const monsieur_bleu: SurgicalPlace = {
           { name: "Burrata des Pouilles", price_cents: 2500, description: "Tomates anciennes de plein champ", is_highlight: true },
           { name: "Tarama Maison au Caviar", price_cents: 2800, description: "Pain toasté et herbes fraîches" },
           { name: "Saumon Mariné Gravalax", price_cents: 2400, description: "Aneth, baies de genièvre et crème fraîche" },
-          { name: "Escargots de Bourgogne (x6)", price_cents: 1800, description: "Beurre persillé à l'ancienne" },
+          { name: "Escargots de Bourgogne (x6)", price_cents: 1800, description: "Beurre persillé à l’ancienne" },
           { name: "Carpaccio de Bœuf Black Angus", price_cents: 2200, description: "Parmesan, roquette et pignons grillés" },
-          { name: "Velouté de Potiron", price_cents: 1700, description: "Éclats de châtaignes et truffe d'été" },
-          { name: "Salade de Homard Bleu", price_cents: 3900, description: "Vinaigrette d'agrumes et jeunes légumes" },
+          { name: "Velouté de Potiron", price_cents: 1700, description: "Éclats de châtaignes et truffe d’été" },
+          { name: "Salade de Homard Bleu", price_cents: 3900, description: "Vinaigrette d’agrumes et jeunes légumes" },
           { name: "Artichauts de Bretagne", price_cents: 1900, description: "Vinaigrette aux noisettes et parmesan" }
         ]
       },
       {
         category_type: "main",
-        display_label: "L'Étoffe des Grands (Plats)",
+        display_label: "L’Étoffe des Grands (Plats)",
         items: [
           { name: "Poulpe Grillé", price_cents: 4000, description: "Purée de pois chiches crémeuse, jus corsé", is_highlight: true },
           { name: "Tagliatelle à la Truffe Noire", price_cents: 4500, description: "Parmesan 24 mois, crème de truffe onctueuse", is_highlight: true },
@@ -66,8 +66,8 @@ export const monsieur_bleu: SurgicalPlace = {
           { name: "Risotto au Safran & Gambas", price_cents: 3600, description: "Gambas impériales juste saisies" },
           { name: "Cœur de Cabillaud Vapeur", price_cents: 3400, description: "Purée fondante et beurre de yuzu" },
           { name: "Pluma de Pata Negra", price_cents: 4400, description: "Pommes rattes rissolées au lard" },
-          { name: "Tartare de Bœuf 'Monsieur Bleu'", price_cents: 3200, description: "Coupé au couteau, condiment secret" },
-          { name: "Sole Meunière d'Océan", price_cents: 5500, description: "Pêche du jour, environ 400g" }
+          { name: "Tartare de Bœuf ’Monsieur Bleu'", price_cents: 3200, description: "Coupé au couteau, condiment secret" },
+          { name: "Sole Meunière d’Océan", price_cents: 5500, description: "Pêche du jour, environ 400g" }
         ]
       },
       {
@@ -88,7 +88,7 @@ export const monsieur_bleu: SurgicalPlace = {
         items: [
           { name: "Cocktail Bleu de Paris", price_cents: 2000, description: "Gin premium, violette et touche de citron" },
           { name: "Coupe de Moët & Chandon Reserve", price_cents: 2400 },
-          { name: "Verre de Chablis 'Brocard'", price_cents: 1600 },
+          { name: "Verre de Chablis ’Brocard'", price_cents: 1600 },
           { name: "Double Expresso Pavillon", price_cents: 800 },
           { name: "Thé Glacé Maison", price_cents: 950 },
           { name: "Eau Filtrée Plate/Gazeuse", price_cents: 800 }
@@ -96,7 +96,8 @@ export const monsieur_bleu: SurgicalPlace = {
       }
     ]
   },
-  description: `Installé dans l'aile ouest monumentale du Palais de Tokyo, Monsieur Bleu est l'incarnation du chic parisien. Sous ses plafonds vertigineux et son décor Art Déco revisité par Joseph Dirand, ce restaurant offre un cadre spectaculaire et vibrant. Que ce soit sur sa magnifique terrasse face à la Tour Eiffel ou dans son grand salon feutré, on y savoure une cuisine française cosmopolite et exigeante. Un lieu vibrant, à la fois mondain et décontracté, où l'élégance se mêle à l'énergie créative du quartier d'Iéna.`,
+  description: `Installé dans l’aile ouest monumentale du Palais de Tokyo, Monsieur Bleu est l’incarnation du chic parisien. Sous ses plafonds vertigineux et son décor Art Déco revisité par Joseph Dirand, ce restaurant offre un cadre spectaculaire et vibrant. Que ce soit sur sa magnifique terrasse face à la Tour Eiffel ou dans son grand salon feutré, on y savoure une cuisine française cosmopolite et exigeante. Un lieu vibrant, à la fois mondain et décontracté, où l’élégance se mêle à l’énergie créative du quartier d'Iéna.`,
+  expert_catchline: `Installé dans l’aile ouest monumentale du Palais de Tokyo, Monsieur Bleu est l’incarnation du chic parisien.`,
   insider_tip: `Réservez une table près de la baie vitrée pour la lumière magique du soir, ou en terrasse dès les premiers rayons de soleil. Le mille-feuille est une signature indispensable pour conclure le dîner.`,
   specials: {
     cuisine: ["Brasserie Chic", "Français"],

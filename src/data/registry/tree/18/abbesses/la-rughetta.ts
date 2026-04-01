@@ -5,7 +5,7 @@ export const la_rughetta: SurgicalPlace = {
     name: "La Rughetta",
     slug: "la-rughetta",
     category: "restaurant",
-    subcategory: ["italien", "pizzeria"],
+    subcategory: ['italien', 'pizzeria'],
     location: {
         address: "41 Rue Lepic",
         arrondissement: 18,
@@ -111,8 +111,8 @@ export const la_rughetta: SurgicalPlace = {
                 display_label: "Boissons",
                 items: [
                     { name: "Café Espresso", price_cents: 250 },
-                    { name: "Bouteille d'eau (1/2L)", price_cents: 350 },
-                    { name: "Bouteille d'eau (1L)", price_cents: 500 }
+                    { name: "Bouteille d’eau (1/2L)", price_cents: 350 },
+                    { name: "Bouteille d’eau (1L)", price_cents: 500 }
                 ]
             },
             {
@@ -135,13 +135,13 @@ export const la_rughetta: SurgicalPlace = {
     instagram_handle: "larughettaparis",
     verified: true,
     google_rating: 4.7,
-    description: "Installée dans la très charmante rue Lepic, La Rughetta est une trattoria familiale où vit l'esprit authentique et chaleureux de l'Italie. Reconnue par une multitude d'habitués de Montmartre comme une adresse refuge incontournable au rapport qualité-prix bluffant, on y vient pour un service impeccable et bienveillant, typique de l'hospitalité italienne. Passé sa devanture accueillante, c'est un festival de parfums d'herbes aromatiques et de pâte à pain dorée qui attend les convives.",
-    insider_tip: "• Les portions s'y avèrent particulièrement copieuses, prévoyez un appétit solide pour attaquer leurs assiettes de pâtes ou laissez-vous tenter par le doggy bag.\n• Au regard de son emplacement (et de l'affluence de touristes), ses prix très modérés en font une adresse locale exceptionnelle et véritablement préservée.\n• Les pizzas au format géant et particulièrement garnies tombent quasiment toutes hors de l'assiette. La '4 fromages' y est régulièrement plébiscitée.",
-    expert_catchline: "Trattoria authentique et généreuse, une bulle d'Italie abordable au coeur de la rue Lepic.",
+    description: "Installée dans la très charmante rue Lepic, La Rughetta est une trattoria familiale où vit l’esprit authentique et chaleureux de l’Italie. Reconnue par une multitude d’habitués de Montmartre comme une adresse refuge incontournable au rapport qualité-prix bluffant, on y vient pour un service impeccable et bienveillant, typique de l’hospitalité italienne. Passé sa devanture accueillante, c’est un festival de parfums d'herbes aromatiques et de pâte à pain dorée qui attend les convives.",
+    insider_tip: "• Les portions s’y avèrent particulièrement copieuses, prévoyez un appétit solide pour attaquer leurs assiettes de pâtes ou laissez-vous tenter par le doggy bag.\n• Au regard de son emplacement (et de l’affluence de touristes), ses prix très modérés en font une adresse locale exceptionnelle et véritablement préservée.\n• Les pizzas au format géant et particulièrement garnies tombent quasiment toutes hors de l’assiette. La ’4 fromages’ y est régulièrement plébiscitée.",
+    expert_catchline: "Trattoria authentique et généreuse, une bulle d’Italie abordable au coeur de la rue Lepic.",
     specials: {
         cuisine: ["Pizza 4 fromages", "Tagliolini Rughetta", "Pizza au Nutella", "Pizza Diavola"],
         drinks: ["Prosecco (7€)", "Aperol Spritz"],
-        must_eat: "Cuisine italienne classique et très généreuse. L'endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d'accord.",
-        must_drink: "L'établissement dispose d'une très belle carte de vins italiens musclés. On peut également débuter son dîner par des valeurs sûres servies au comptoir comme le Prosecco (7€) ou de très bons Spritz."
+        must_eat: "Cuisine italienne classique et très généreuse. L’endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d'accord.",
+        must_drink: "L’établissement dispose d'une très belle carte de vins italiens musclés. On peut également débuter son dîner par des valeurs sûres servies au comptoir comme le Prosecco (7€) ou de très bons Spritz."
     }
 };

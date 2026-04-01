@@ -41,8 +41,8 @@ export const jardin_du_luxembourg: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Le 'Luco' pour les intimes. C'est le jardin du Sénat, mais c'est surtout le jardin des Parisiens. Il a deux visages : le côté grand style à la française autour du bassin central où les enfants poussent des voiliers en bois (une tradition depuis 1920), et le côté anglais plus sauvage et romantique vers l'ouest. C'est un musée à ciel ouvert (centaines de statues), un terrain de sport (tennis, échecs, tai-chi) et le lieu de drague intellectuelle favori des étudiants de la Sorbonne voisine.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le ’Luco’ pour les intimes. C’est le jardin du Sénat, mais c’est surtout le jardin des Parisiens. Il a deux visages : le côté grand style à la française autour du bassin central où les enfants poussent des voiliers en bois (une tradition depuis 1920), et le côté anglais plus sauvage et romantique vers l’ouest. C'est un musée à ciel ouvert (centaines de statues), un terrain de sport (tennis, échecs, tai-chi) et le lieu de drague intellectuelle favori des étudiants de la Sorbonne voisine.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [
             "Patrimoine"

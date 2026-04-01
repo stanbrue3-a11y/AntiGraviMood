@@ -38,8 +38,8 @@ export const serpent_plume: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Caché sous les arcades de la Place des Vosges, ce lieu est un voyage onirique. On descend un escalier pour découvrir une cave voûtée immense décorée comme l'appartement d'un dandy excentrique des années 70 : canapés en forme de serpent, sculptures aztèques, pyjamas en soie... C'est à la fois un restaurant, un bar à cocktails et un club. L'ambiance y est surréaliste, chic et un brin mystique. Boire un verre ici, c'est plonger dans un univers parallèle esthétique et fascinant, au cœur du quartier le plus historique de Paris.",
-    "insider_tip": "Il y a une boutique de pyjamas de luxe en haut. C'est la couverture.",
+    "description": "Caché sous les arcades de la Place des Vosges, ce lieu est un voyage onirique. On descend un escalier pour découvrir une cave voûtée immense décorée comme l’appartement d’un dandy excentrique des années 70 : canapés en forme de serpent, sculptures aztèques, pyjamas en soie... C’est à la fois un restaurant, un bar à cocktails et un club. L’ambiance y est surréaliste, chic et un brin mystique. Boire un verre ici, c’est plonger dans un univers parallèle esthétique et fascinant, au cœur du quartier le plus historique de Paris.",
+    "insider_tip": "Il y a une boutique de pyjamas de luxe en haut. C’est la couverture.",
     "specials": {
         "cuisine": [],
         "drinks": []

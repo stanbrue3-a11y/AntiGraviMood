@@ -11,7 +11,7 @@ export const nuba: SurgicalPlace = {
     "verified": true,
     "google_rating": 3.5,
     "location": {
-        "address": "36 Quai d'Austerlitz",
+        "address": "36 Quai d’Austerlitz",
         "arrondissement": 13,
         "lat": 48.841251,
         "lng": 2.369352,
@@ -38,8 +38,8 @@ export const nuba: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Perché sur le toit vert fluo de la Cité de la Mode et du Design, le Nüba est le rooftop festif par excellence du 13ème. Avec sa vue imprenable sur la Seine, sa décoration exotique et sa programmation entre house et disco, c'est un coin de vacances éternelles à Paris. On y vient pour danser à ciel ouvert sous les étoiles, le tout dans une énergie solaire et décomplexée qui en fait le spot préféré des étés parisiens.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Perché sur le toit vert fluo de la Cité de la Mode et du Design, le Nüba est le rooftop festif par excellence du 13ème. Avec sa vue imprenable sur la Seine, sa décoration exotique et sa programmation entre house et disco, c’est un coin de vacances éternelles à Paris. On y vient pour danser à ciel ouvert sous les étoiles, le tout dans une énergie solaire et décomplexée qui en fait le spot préféré des étés parisiens.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -5,13 +5,13 @@ export const lancetta: SurgicalPlace = {
     name: "Lancetta",
     slug: "lancetta",
     category: "restaurant",
-    subcategory: ["italien", "pizzeria", "pâtes"],
+    subcategory: ['italien', 'pizzeria', 'français'],
     location: {
         address: "26 Rue Bobillot",
         arrondissement: 13,
         lat: 48.8289618,
         lng: 2.3532545,
-        nearest_metro: "Place d'Italie",
+        nearest_metro: "Place d’Italie",
         metro_lines: [5, 6, 7],
         google_id: "ChIJASxHw1tx5kcRazhEw6tmluU"
     },
@@ -106,13 +106,13 @@ export const lancetta: SurgicalPlace = {
     instagram_handle: "lancetta_paris",
     verified: true,
     google_rating: 4.8,
-    description: "Installé en plein cœur du 13ème arrondissement historique près de la Place d'Italie, Lancetta est une véritable pépite italienne qui cultive le secret d'une trattoria authentique. Avec son ambiance chaleureuse, son rez-de-chaussée vibrant et sa salle à l'étage un peu plus intime, on y vient pour déguster une cuisine sincère et extrêmement soignée : pêle-mêle de pâtes minutieusement sourcées, d'antipasti généreux et de pizzas au feu de bois.",
-    insider_tip: "• Une salle à manger se trouve à l'étage, n'hésitez pas à la demander lors de votre réservation si vous souhaitez un cadre plus intimiste.\n• Le restaurant est fermé le dimanche et le lundi midi.\n• Pensez à garder une petite place pour les desserts, les habitués considèrent leurs Cannoli siciliens comme l'un des meilleurs de Paris.",
+    description: "Installé en plein cœur du 13ème arrondissement historique près de la Place d’Italie, Lancetta est une véritable pépite italienne qui cultive le secret d’une trattoria authentique. Avec son ambiance chaleureuse, son rez-de-chaussée vibrant et sa salle à l’étage un peu plus intime, on y vient pour déguster une cuisine sincère et extrêmement soignée : pêle-mêle de pâtes minutieusement sourcées, d'antipasti généreux et de pizzas au feu de bois.",
+    insider_tip: "• Une salle à manger se trouve à l’étage, n’hésitez pas à la demander lors de votre réservation si vous souhaitez un cadre plus intimiste.\n• Le restaurant est fermé le dimanche et le lundi midi.\n• Pensez à garder une petite place pour les desserts, les habitués considèrent leurs Cannoli siciliens comme l’un des meilleurs de Paris.",
     expert_catchline: "Superbe trattoria italienne confidentielle et chaleureuse du 13ème arrondissement.",
     specials: {
         cuisine: ["Tagliatelle à la truffe", "Fleurs de courgette en beignet", "Cannoli siciliens", "Linguine Frutti di Mare"],
         drinks: ["Spritz", "Vin italien"],
-        must_eat: "L'art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare.",
-        must_drink: "Sélection solide de vins italiens de petits producteurs et classiques Spritz pour l'aperitivo."
+        must_eat: "L’art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare.",
+        must_drink: "Sélection solide de vins italiens de petits producteurs et classiques Spritz pour l’aperitivo."
     }
 };

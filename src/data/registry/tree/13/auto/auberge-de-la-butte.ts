@@ -5,7 +5,7 @@ export const auberge_de_la_butte: SurgicalPlace = {
   slug: "auberge-de-la-butte",
   name: "Auberge de la Butte",
   category: "restaurant",
-  subcategory: ["pizzas"],
+  subcategory: ['français'],
   location: {
     address: "8 Rue de la Butte aux Cailles, 75013 Paris, France",
     arrondissement: 13,
@@ -60,7 +60,7 @@ export const auberge_de_la_butte: SurgicalPlace = {
           { name: "Magret de Canard au Miel", price_cents: 2000 },
           { name: "Bavette aux Échalotes", price_cents: 1800 },
           { name: "Cochon de Lait rôti au thym", price_cents: 2100 },
-          { name: "Carré d'Agneau au Romarin", price_cents: 2000 },
+          { name: "Carré d’Agneau au Romarin", price_cents: 2000 },
           { name: "Tartare de Bœuf Charolais", price_cents: 1800 }
         ]
       },
@@ -80,7 +80,7 @@ export const auberge_de_la_butte: SurgicalPlace = {
         display_label: "Côté Mer & Végé (Plats)",
         items: [
           { name: "Daurade Royale Grillée", price_cents: 2000 },
-          { name: "Pavé de Saumon à l'Olivier", price_cents: 1800 },
+          { name: "Pavé de Saumon à l’Olivier", price_cents: 1800 },
           { name: "Gambas Géantes à la Plancha", price_cents: 2200 },
           { name: "Suggestion Végétarienne du Jour", price_cents: 1700 }
         ]
@@ -91,17 +91,17 @@ export const auberge_de_la_butte: SurgicalPlace = {
         items: [
           { name: "Salade de Poulpe à la Gallega", price_cents: 1600 },
           { name: "Salade Niçoise au Thon frais", price_cents: 1300 },
-          { name: "Tarte Tatin de l'Auberge", price_cents: 850 },
+          { name: "Tarte Tatin de l’Auberge", price_cents: 850 },
           { name: "Mousse Chocolat à la louche", price_cents: 700 },
           { name: "Café Gourmand de la Butte", price_cents: 950 }
         ]
       }
     ]
   },
-  description: "L'Auberge de la Butte est un carrefour gourmand situé sur les hauteurs de la Butte-aux-Cailles. Ce restaurant hybride réussit le pari de marier une brasserie française traditionnelle (bourguignon, confit) avec une pizzeria de quartier respectée. Son décor boisé et sa terrasse ensoleillée en font une escale incontournable pour les familles et les habitués du 13e en quête d'une cuisine sincère et généreuse.",
+  description: "L’Auberge de la Butte est un carrefour gourmand situé sur les hauteurs de la Butte-aux-Cailles. Ce restaurant hybride réussit le pari de marier une brasserie française traditionnelle (bourguignon, confit) avec une pizzeria de quartier respectée. Son décor boisé et sa terrasse ensoleillée en font une escale incontournable pour les familles et les habitués du 13e en quête d'une cuisine sincère et généreuse.",
   insider_tip: `• **Le Combo Mixte** : Ne choisissez pas entre pizza et terroir, partagez une burrata en entrée avant de plonger dans le bœuf bourguignon.
-  • **Terrasse Royale** : Sa position à l'angle de la rue de la Butte-aux-Cailles offre l'un des meilleurs points d'observation pour humer l'ambiance du quartier.
-  • **Fermeture Tardive** : Rare pour un restaurant de ce type dans le quartier, l'Auberge sert tard tous les jours, idéal pour les dîners improvisés.`,
+  • **Terrasse Royale** : Sa position à l’angle de la rue de la Butte-aux-Cailles offre l’un des meilleurs points d’observation pour humer l'ambiance du quartier.
+  • **Fermeture Tardive** : Rare pour un restaurant de ce type dans le quartier, l’Auberge sert tard tous les jours, idéal pour les dîners improvisés.`,
   specials: {
     cuisine: ["Française", "Pizza", "Bistrot"],
     drinks: ["Vin au verre", "Bière pression"],

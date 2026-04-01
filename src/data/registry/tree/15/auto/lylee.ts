@@ -5,7 +5,7 @@ export const lylee: SurgicalPlace = {
   slug: "lylee",
   name: "Lylee",
   category: "restaurant",
-  subcategory: ["restaurant", "thaï", "street-food"],
+  subcategory: ['français', 'asiatique'],
   location: {
     address: "24 Rue de Beaugrenelle, 75015 Paris, France",
     arrondissement: 15,
@@ -49,7 +49,7 @@ export const lylee: SurgicalPlace = {
           { name: "Gyoza Grillés Poulet & Ciboule (x5)", price_cents: 800 },
           { name: "Salade de Bœuf Laotienne", price_cents: 850, description: "Menthe, coriandre, riz torréfié et citronnelle" },
           { name: "Salade de Papaye Som Tum", price_cents: 900 },
-          { name: "Assortiment d'Entrées à Partager", price_cents: 1450 }
+          { name: "Assortiment d’Entrées à Partager", price_cents: 1450 }
         ]
       },
       {
@@ -73,7 +73,7 @@ export const lylee: SurgicalPlace = {
         display_label: "Accompagnements",
         items: [
           { name: "Bol de Riz Parfumé au Jasmin", price_cents: 350 },
-          { name: "Riz Sauté à l'Ananas", price_cents: 550 },
+          { name: "Riz Sauté à l’Ananas", price_cents: 550 },
           { name: "Légumes de Saison Sautés au Wok", price_cents: 600 },
           { name: "Sauce Pimentée Chef Lylee", price_cents: 100 }
         ]
@@ -96,7 +96,7 @@ export const lylee: SurgicalPlace = {
         items: [
           { name: "Perles de Tapioca Coco & Banane", price_cents: 600 },
           { name: "Mangue Fraîche & Riz Gluant Coco", price_cents: 900, is_highlight: true },
-          { name: "Mochi Glacé (L'unité)", price_cents: 350 }
+          { name: "Mochi Glacé (L’unité)", price_cents: 350 }
         ]
       }
     ]

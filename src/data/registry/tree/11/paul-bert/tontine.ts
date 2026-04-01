@@ -5,7 +5,7 @@ export const tontine: SurgicalPlace = {
     name: "Tontine (Bistrot Permanent)",
     slug: "tontine",
     category: "restaurant",
-    subcategory: ["Fusion", "Asiatique", "Vins Natures", "Néo-Bistrot"],
+    subcategory: ['français'],
     location: {
         address: "6 Rue Paul Bert, 75011 Paris",
         arrondissement: 11,
@@ -31,7 +31,7 @@ export const tontine: SurgicalPlace = {
                 items: [
                     { name: "Oignons de Roscoff brûlés", price_cents: 900, description: "Beurre de miso, noisettes." },
                     { name: "Tataki de Bonite aux herbes", price_cents: 1200, description: "Sauce ponzu, radis daikon." },
-                    { name: "Radis Beurre & Mousse d'Anchois", price_cents: 850 },
+                    { name: "Radis Beurre & Mousse d’Anchois", price_cents: 850 },
                     { name: "Couteaux à la citronnelle & piment", price_cents: 1200, description: "Vapeur de couteaux, beurre de piment maison." },
                     { name: "Noix de St-Jacques au beurre de tamarin", price_cents: 1500, description: "Servies avec chanterelles et herbes thaï." },
                     { name: "Sardines marinées au Miso & Gingembre", price_cents: 950 },
@@ -104,13 +104,13 @@ export const tontine: SurgicalPlace = {
             label: "VOIR NEWS"
         }
     },
-    description: "Tontine (née au Perchoir et stabilisée rue Paul Bert) est un laboratoire culinaire où l'Orient rencontre l'Occident. Dans un décor brut et minimaliste, on y déguste une cuisine fusion audacieuse qui change au gré des résidences de chefs et des arrivages. Un spot pointu, très axé sur les vins natures et les saveurs umami, idéal pour les explorateurs de goût.",
-    expert_catchline: "L'avant-garde de la fusion asiat-parisienne dans un cadre brut et convivial.",
-    insider_tip: "• Surveillez leur compte Instagram : les résidences de chefs changent la donne culinaire tous les quelques mois.\n• Les oignons de Roscoff au miso sont une petite tuerie à partager absolument.\n• Ambiance tamisée le soir, très 'cool kids' de l'Est parisien.\n• Les vins sont choisis avec soin pour matcher les saveurs épicées ou fermentées.",
+    description: "Tontine (née au Perchoir et stabilisée rue Paul Bert) est un laboratoire culinaire où l’Orient rencontre l'Occident. Dans un décor brut et minimaliste, on y déguste une cuisine fusion audacieuse qui change au gré des résidences de chefs et des arrivages. Un spot pointu, très axé sur les vins natures et les saveurs umami, idéal pour les explorateurs de goût.",
+    expert_catchline: "L’avant-garde de la fusion asiat-parisienne dans un cadre brut et convivial.",
+    insider_tip: "• Surveillez leur compte Instagram : les résidences de chefs changent la donne culinaire tous les quelques mois.\n• Les oignons de Roscoff au miso sont une petite tuerie à partager absolument.\n• Ambiance tamisée le soir, très ’cool kids’ de l’Est parisien.\n• Les vins sont choisis avec soin pour matcher les saveurs épicées ou fermentées.",
     specials: {
         cuisine: ["Fusion Asiatique", "Vins Natures", "Udon de riz"],
         drinks: ["Vin Naturel", "Thé Genmaicha", "Bière Artisanale"],
-        must_eat: "L'omelette aux herbes thaï et les plats de bœuf braisé au soja."
+        must_eat: "L’omelette aux herbes thaï et les plats de bœuf braisé au soja."
     },
     images: {
         hero: "https://images.perchoir.fr/content/v1/589ca395b3db2b07d6d5a1b3/Tontine-Paris-11-Interior.jpg",

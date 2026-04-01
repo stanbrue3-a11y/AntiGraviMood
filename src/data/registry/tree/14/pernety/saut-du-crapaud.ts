@@ -5,7 +5,7 @@ export const saut_du_crapaud: SurgicalPlace = {
     name: "Le Saut du Crapaud",
     slug: "le-saut-du-crapaud",
     category: "restaurant",
-    subcategory: ["bistrot", "mexicain", "fusion", "quartier"],
+    subcategory: ['français', 'méditerranéen'],
     location: {
         address: "16 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -48,9 +48,9 @@ export const saut_du_crapaud: SurgicalPlace = {
                     { name: "Ceviche de poisson blanc (Le vrai)", price_cents: 800 },
                     { name: "Guacamole maison & totopos", price_cents: 600 },
                     { name: "La Ceviche de la Tia", price_cents: 1000 },
-                    { name: "Œuf parfait à l'origan", price_cents: 1000 },
+                    { name: "Œuf parfait à l’origan", price_cents: 1000 },
                     { name: "Boudin noir Christian Para", price_cents: 1000 },
-                    { name: "Tartare de tomates d'antan", price_cents: 800 }
+                    { name: "Tartare de tomates d’antan", price_cents: 800 }
                 ]
             },
             {
@@ -86,8 +86,8 @@ export const saut_du_crapaud: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Le Saut du Crapaud est la pépite fusion de la rue des Plantes. Sous la houlette du chef mexicain Marco Paz, ce bistrot de quartier dépoussière les codes en injectant des touches ensoleillées du Mexique dans le terroir français. L'ambiance y est vibrante, colorée, à l'image des assiettes qui swinguent entre un boudin noir d'orfèvre et un ceviche d'une fraîcheur absolue. C'est l'adresse idéale pour ceux qui s'ennuient des bistrots trop classiques et cherchent une étincelle de créativité sans chichis.",
-    insider_tip: "Ne faites pas l'impasse sur le Brunch du dimanche, c'est l'un des plus originaux du quartier. Leurs cocktails à base de Tequila et Mezcal (si vous demandez gentiment) sont également de petites merveilles pour débuter la soirée.",
+    description: "Le Saut du Crapaud est la pépite fusion de la rue des Plantes. Sous la houlette du chef mexicain Marco Paz, ce bistrot de quartier dépoussière les codes en injectant des touches ensoleillées du Mexique dans le terroir français. L’ambiance y est vibrante, colorée, à l’image des assiettes qui swinguent entre un boudin noir d’orfèvre et un ceviche d’une fraîcheur absolue. C’est l’adresse idéale pour ceux qui s’ennuient des bistrots trop classiques et cherchent une étincelle de créativité sans chichis.",
+    insider_tip: "Ne faites pas l’impasse sur le Brunch du dimanche, c’est l’un des plus originaux du quartier. Leurs cocktails à base de Tequila et Mezcal (si vous demandez gentiment) sont également de petites merveilles pour débuter la soirée.",
     expert_catchline: "Le bistrot fusion qui fait pétiller la rue des Plantes.",
     specials: {
         cuisine: ["Bistrot Fusion", "Franco-Mexicain"],

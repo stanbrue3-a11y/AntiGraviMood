@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const cafe_industrie: SurgicalPlace = {
     "id": "poi-cafe-industrie",
-    "name": "Café de l'Industrie",
+    "name": "Café de l’Industrie",
     "slug": "cafe-industrie",
     "category": "restaurant",
     "subcategory": [
@@ -44,7 +44,7 @@ export const cafe_industrie: SurgicalPlace = {
         "wine_glass": 5.5,
         "coffee_price": 2.5,
         "soft_price": 4.5,
-        "smart_tip": "Le menu midi Express à 16€ (E+P ou P+D) est imbattable dans le quartier. Pour le soir, arrivez tôt car la terrasse est prise d'assaut.",
+        "smart_tip": "Le menu midi Express à 16€ (E+P ou P+D) est imbattable dans le quartier. Pour le soir, arrivez tôt car la terrasse est prise d’assaut.",
         "menu_items": [
             {
                 "category_type": "tasting_menu",
@@ -59,8 +59,8 @@ export const cafe_industrie: SurgicalPlace = {
                 "category_type": "starter",
                 "display_label": "Entrées & Grignotages",
                 "items": [
-                    { "name": "Duo d'Œufs Bio Mayo", "price_cents": 600 },
-                    { "name": "Soupe à l'oignon gratinée", "price_cents": 850 },
+                    { "name": "Duo d’Œufs Bio Mayo", "price_cents": 600 },
+                    { "name": "Soupe à l’oignon gratinée", "price_cents": 850 },
                     { "name": "6 Gros Escargots de Bourgogne", "price_cents": 1000 },
                     { "name": "Os à moelle grillé, fleur de sel", "price_cents": 950 },
                     { "name": "Gros poireau crayon, vinaigrette noisette", "price_cents": 750 }
@@ -77,7 +77,7 @@ export const cafe_industrie: SurgicalPlace = {
                     { "name": "Confit de canard du Sud-Ouest", "price_cents": 1700 },
                     { "name": "Filet de bar poêlé, beurre blanc", "price_cents": 1900 },
                     { "name": "Linguine à la Bolognaise maison", "price_cents": 1400 },
-                    { "name": "Blanquette de veau à l'ancienne", "price_cents": 1850 }
+                    { "name": "Blanquette de veau à l’ancienne", "price_cents": 1850 }
                 ]
             },
             {
@@ -98,13 +98,13 @@ export const cafe_industrie: SurgicalPlace = {
         "festif": 60,
         "culturel": 70
     },
-    "description": "Véritable institution de la Bastille, le Café de l'Industrie déploie son charme rétro sur trois salles aux ambiances distinctes (boiseries, tapis Kilim, vieux tableaux). C'est le rendez-vous incontournable des habitués du quartier et des curieux en quête d'un Paris authentique et bohème. On y sert une cuisine française généreuse, sans chichis, dans une atmosphère qui rappelle les bistrots d'autrefois.",
-    "insider_tip": "• Les trois salles ont chacune leur caractère : demandez la salle 'historique' pour le maximum de cachet.\n• Le jus de Bissap maison est une petite tuerie rafraîchissante.\n• En été, la terrasse à l'angle de la rue Sedaine est l'un des meilleurs spots de 'people watching' du 11e.",
+    "description": "Véritable institution de la Bastille, le Café de l’Industrie déploie son charme rétro sur trois salles aux ambiances distinctes (boiseries, tapis Kilim, vieux tableaux). C’est le rendez-vous incontournable des habitués du quartier et des curieux en quête d’un Paris authentique et bohème. On y sert une cuisine française généreuse, sans chichis, dans une atmosphère qui rappelle les bistrots d'autrefois.",
+    "insider_tip": "• Les trois salles ont chacune leur caractère : demandez la salle ’historique’ pour le maximum de cachet.\n• Le jus de Bissap maison est une petite tuerie rafraîchissante.\n• En été, la terrasse à l’angle de la rue Sedaine est l’un des meilleurs spots de ’people watching' du 11e.",
     "specials": {
         "cuisine": ["Entrecôte", "Magret de Canard", "Plat du jour"],
         "drinks": ["Bissap", "Vins de Propriétaires"],
         "must_eat": "Le Filet de bœuf au poivre & le Gâteau au chocolat.",
-        "expert_catchline": "L'âme rétro de Bastille dans un décor de cinéma."
+        "expert_catchline": "L’âme rétro de Bastille dans un décor de cinéma."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWNR8T3YmaFWPsQ8TJX9hAJokoCE0L3CdG-fnx-B1CFhDODDoTd2UlEnmzy6HXVypvh9qPii-3ZURxKH72hYHxgbm6ccKnJXRd-wG90SornmSMp-yyw4u4tVyTyfmrPYaY9xGFDYK64LwP4KUNXA4FXwHZTCwVhpBjDtTfU33lhPCJITCWzJUuLNd5E2u512DWFH0DEJ8leiZCR-RGMOlkG1RSS9UQuA7WYu14maTcqM6vf3TaivJIW_eygnLLn7BU1XaBFKBsbXeYhqy6GssulYK408cXSV3N7WPaDuOcZB7WBXSnDuWSKjAEc_MPkrwh4ULF-_jgCu7AcXLz63Z3gg_OEH1Daxs8JrqNQ3Uu4OG04mDITHC7u5viIaRPdpfbPkZBqfYCpS99ogbQF8IMmfTc4TGhzMwnybUEtAkosZ_8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

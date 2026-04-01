@@ -5,7 +5,7 @@ export const entrepot: SurgicalPlace = {
     name: "L’Entrepôt",
     slug: "l-entrepot",
     category: "restaurant",
-    subcategory: ["bistrot", "culturel", "jardin", "cinema"],
+    subcategory: ['français'],
     location: {
         address: "7 Rue Francis de Pressensé",
         arrondissement: 14,
@@ -48,9 +48,9 @@ export const entrepot: SurgicalPlace = {
                     { name: "Pavé de saumon rôti, purée de panais", price_cents: 2400 },
                     { name: "Risotto aux champignons & truffe", price_cents: 2000 },
                     { name: "Suprême de volaille fermière", price_cents: 2250 },
-                    { name: "Burger de L'Entrepôt", price_cents: 1950 },
+                    { name: "Burger de L’Entrepôt", price_cents: 1950 },
                     { name: "Tataki de bœuf au sésame", price_cents: 2300 },
-                    { name: "Pennes à l'arrabbiata & burrata", price_cents: 1850 }
+                    { name: "Pennes à l’arrabbiata & burrata", price_cents: 1850 }
                 ]
             },
             {
@@ -58,7 +58,7 @@ export const entrepot: SurgicalPlace = {
                 display_label: "Entrées & Tapas",
                 items: [
                     { name: "Os à moelle au sel de Guérande", price_cents: 1200 },
-                    { name: "Salade d'écrevisses au pesto", price_cents: 1450 },
+                    { name: "Salade d’écrevisses au pesto", price_cents: 1450 },
                     { name: "Burrata crémeuse", price_cents: 1400 },
                     { name: "Accras de morue (les 6 pièces)", price_cents: 1000 },
                     { name: "Planche de charcuterie ibérique", price_cents: 1800 }
@@ -84,13 +84,13 @@ export const entrepot: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.2,
-    description: "Fondé en 1975 par Frédéric Mitterrand dans une ancienne imprimerie, L'Entrepôt est une véritable 'biosphère' culturelle. Ce lieu hybride unique à Paris réunit trois salles de cinéma Art et Essai, une galerie d'exposition, une salle de concert jazz et un restaurant niché sous une vaste verrière. Un havre de paix artistique où l'on vient aussi bien pour un film indépendant que pour une cuisine de saison dégustée dans son jardin secret, loin du tumulte urbain.",
-    insider_tip: "Ne manquez pas les séances 'Ciné-Bébé' pour les parents ou les concerts Lindy-Hop. La terrasse chauffée, sous serres en hiver, est un pur moment de magie toute l'année.",
-    expert_catchline: "L'institution hybride du 14ème : cinéma, jazz et jardin d'hiver.",
+    description: "Fondé en 1975 par Frédéric Mitterrand dans une ancienne imprimerie, L’Entrepôt est une véritable ’biosphère’ culturelle. Ce lieu hybride unique à Paris réunit trois salles de cinéma Art et Essai, une galerie d’exposition, une salle de concert jazz et un restaurant niché sous une vaste verrière. Un havre de paix artistique où l’on vient aussi bien pour un film indépendant que pour une cuisine de saison dégustée dans son jardin secret, loin du tumulte urbain.",
+    insider_tip: "Ne manquez pas les séances ’Ciné-Bébé’ pour les parents ou les concerts Lindy-Hop. La terrasse chauffée, sous serres en hiver, est un pur moment de magie toute l’année.",
+    expert_catchline: "L’institution hybride du 14ème : cinéma, jazz et jardin d'hiver.",
     specials: {
         cuisine: ["Bistronomie de saison", "Brunch dominical"],
         drinks: ["Vins naturels", "Cocktails classiques"],
-        must_eat: "L'os à moelle au sel de Guérande et le Tiramisu Nutella-Spéculoos.",
+        must_eat: "L’os à moelle au sel de Guérande et le Tiramisu Nutella-Spéculoos.",
         must_drink: "Un verre de vin rouge naturel sélectionné par Marie-Sophie Séba."
     }
 };

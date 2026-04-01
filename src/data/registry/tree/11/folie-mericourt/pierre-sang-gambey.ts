@@ -5,7 +5,7 @@ export const pierre_sang_gambey: SurgicalPlace = {
     name: "Pierre Sang on Gambey",
     slug: "pierre-sang-gambey",
     category: "restaurant",
-    subcategory: ["gastronomique", "fusion", "franco-coréen", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "6 Rue Gambey",
         arrondissement: 11,
@@ -45,7 +45,7 @@ export const pierre_sang_gambey: SurgicalPlace = {
                 category_type: "tasting_menu",
                 display_label: "Les Menus (Créations sans carte)",
                 items: [
-                    { name: "Menu Freestyle (Dejeuner/Soir - 4 services)", price_cents: 5150, description: "L'expression libre du chef selon les arrivages (Entrée/Plat/Fromage/Dessert)." },
+                    { name: "Menu Freestyle (Dejeuner/Soir - 4 services)", price_cents: 5150, description: "L’expression libre du chef selon les arrivages (Entrée/Plat/Fromage/Dessert)." },
                     { name: "Menu Découverte (Soir - 6 services)", price_cents: 6350, description: "Expérience complète de la cuisine fusion de Pierre Sang Boyer." }
                 ]
             },
@@ -56,7 +56,7 @@ export const pierre_sang_gambey: SurgicalPlace = {
                     { name: "Amuse-bouche : Champignons & crumble parmesan", price_cents: 0 },
                     { name: "Saumon fumé, navets pickles & sauce Kimchi", price_cents: 0 },
                     { name: "Poulpe frit, purée de vitelotte & miso", price_cents: 0 },
-                    { name: "Saint-Pierre, choux asiat' & condiment citron-réglisse", price_cents: 0 },
+                    { name: "Saint-Pierre, choux asiat’ & condiment citron-réglisse", price_cents: 0 },
                     { name: "Magret de canard, betterave & jus Gochujang", price_cents: 0 },
                     { name: "Comté affiné, sorbet Poivre de Timut", price_cents: 0 },
                     { name: "Dessert : Mangue, passion & sorbet coriandre", price_cents: 0 },
@@ -80,13 +80,13 @@ export const pierre_sang_gambey: SurgicalPlace = {
     instagram_handle: "pierre_sang",
     verified: true,
     google_rating: 4.7,
-    description: "Installé rue Gambey à côté de son restaurant phare, cette antenne de Pierre Sang se concentre sur l'intimité, avec des menus dégustation créatifs toujours portés la signature franco-coréenne de l'ancien Top Chef. Tout se déguste à l'aveugle, pour éduquer le palais dans une atmosphère extrêmement léchée.",
-    insider_tip: "• Mangez, puis devinez ! C'est le principe de Pierre Sang : on vous présente un plat, vous le dégustez, puis l'équipe vient valider votre pronostic sur les ingrédients.\n• La salle est petite et intimiste comparée au grand frère d'Oberkampf, prenez bien vos réservations à l'avance.\n• Idéal pour les repas en duo ; l'expérience de dégustation à l'aveugle devient un jeu.",
-    expert_catchline: "Dégustation à l'aveugle ludique et pointue, croisant le terroir français avec les racines coréennes.",
+    description: "Installé rue Gambey à côté de son restaurant phare, cette antenne de Pierre Sang se concentre sur l’intimité, avec des menus dégustation créatifs toujours portés la signature franco-coréenne de l’ancien Top Chef. Tout se déguste à l’aveugle, pour éduquer le palais dans une atmosphère extrêmement léchée.",
+    insider_tip: "• Mangez, puis devinez ! C’est le principe de Pierre Sang : on vous présente un plat, vous le dégustez, puis l’équipe vient valider votre pronostic sur les ingrédients.\n• La salle est petite et intimiste comparée au grand frère d’Oberkampf, prenez bien vos réservations à l’avance.\n• Idéal pour les repas en duo ; l’expérience de dégustation à l'aveugle devient un jeu.",
+    expert_catchline: "Dégustation à l’aveugle ludique et pointue, croisant le terroir français avec les racines coréennes.",
     specials: {
-        cuisine: ["Menu Découverte à l'aveugle", "Cuisine franco-coréenne décomplexée"],
-        drinks: ["Large sélection de vins d'auteur (+ de 130 ref)"],
-        must_eat: "L'accord est obligatoire, plongez les yeux fermés dans le Menu Découverte en 6 services.",
-        must_drink: "Laissez le sommelier de la maison faire l'accord Mets & Vins surprise pour 40€ la série de verres."
+        cuisine: ["Menu Découverte à l’aveugle", "Cuisine franco-coréenne décomplexée"],
+        drinks: ["Large sélection de vins d’auteur (+ de 130 ref)"],
+        must_eat: "L’accord est obligatoire, plongez les yeux fermés dans le Menu Découverte en 6 services.",
+        must_drink: "Laissez le sommelier de la maison faire l’accord Mets & Vins surprise pour 40€ la série de verres."
     }
 };

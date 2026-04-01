@@ -5,7 +5,7 @@ export const au_passage: SurgicalPlace = {
     name: "Au Passage",
     slug: "au-passage",
     category: "restaurant",
-    subcategory: ["bar à vins", "tapas", "bistronomique", "vins natures", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "1 bis Passage Saint-Sébastien",
         arrondissement: 11,
@@ -81,7 +81,7 @@ export const au_passage: SurgicalPlace = {
                 display_label: "Plats Principaux",
                 items: [
                     // VERIFIED: LeFooding (2024) — plats plus conséquents 18-24€
-                    { name: "Épaule d'agneau confite (à partager)", price_cents: 2400 },
+                    { name: "Épaule d’agneau confite (à partager)", price_cents: 2400 },
                     { name: "Côte de bœuf (au kg, certains soirs)", price_cents: 8000, description: "Par kilo, à partager en tablée." },
                     { name: "Poisson du jour grillé", price_cents: 1800 }
                 ]
@@ -102,7 +102,7 @@ export const au_passage: SurgicalPlace = {
             // ═══════════════════════════════════════════
             {
                 category_type: "drink",
-                display_label: "Vins d'Auteurs (250 références)",
+                display_label: "Vins d’Auteurs (250 références)",
                 items: [
                     // VERIFIED: Plusieurs sources — verres dès 6€
                     { name: "Verre de vin nature (sélection du soir)", price_cents: 600 },
@@ -122,12 +122,12 @@ export const au_passage: SurgicalPlace = {
     instagram_handle: "aupassage_paris",
     verified: true,
     google_rating: 4.5,
-    description: "Au Passage est le bar à vins et tapas culte du 11ème arrondissement, niché dans un passage piéton intime près de Saint-Sébastien. Le principe est simple : on commande des petites assiettes (tapas du marché ultra-créatives), on partage, et Jessica gère une cave de 250 vins d'auteurs natures et bio. L'ambiance est électrique le soir avec une clientèle de connaisseurs et de foodistas.",
-    insider_tip: "• Pas de réservation le soir : venez tôt (dès 19h) pour avoir une place au comptoir ou une table dans le passage.\n• Commandez 3 à 4 tapas par personne pour un repas complet — les portions sont généreuses.\n• Le poulpe à la plancha (14€) et le tartare de thon (14€) sont les valeurs sûres.\n• Si vous êtes un groupe, demandez la côte de boeuf au kg (80€) qui est servie certains soirs seulement — un coup de fil en avance est conseillé.\n• Les verres de vin nature démarrent à 6€, un prix d'appel rare pour cette qualité dans le quartier.",
+    description: "Au Passage est le bar à vins et tapas culte du 11ème arrondissement, niché dans un passage piéton intime près de Saint-Sébastien. Le principe est simple : on commande des petites assiettes (tapas du marché ultra-créatives), on partage, et Jessica gère une cave de 250 vins d’auteurs natures et bio. L'ambiance est électrique le soir avec une clientèle de connaisseurs et de foodistas.",
+    insider_tip: "• Pas de réservation le soir : venez tôt (dès 19h) pour avoir une place au comptoir ou une table dans le passage.\n• Commandez 3 à 4 tapas par personne pour un repas complet — les portions sont généreuses.\n• Le poulpe à la plancha (14€) et le tartare de thon (14€) sont les valeurs sûres.\n• Si vous êtes un groupe, demandez la côte de boeuf au kg (80€) qui est servie certains soirs seulement — un coup de fil en avance est conseillé.\n• Les verres de vin nature démarrent à 6€, un prix d’appel rare pour cette qualité dans le quartier.",
     expert_catchline: "Le QG nocturne du vin nature et des tapas du marché dans un passage secret du 11ème.",
     specials: {
-        cuisine: ["Poulpe à la plancha", "Tartare de thon", "Épaule d'agneau", "Tapas du marché créatives"],
-        drinks: ["250 vins d'auteurs natures", "Verres dès 6€", "Sélection bio et biodynamique"],
+        cuisine: ["Poulpe à la plancha", "Tartare de thon", "Épaule d’agneau", "Tapas du marché créatives"],
+        drinks: ["250 vins d’auteurs natures", "Verres dès 6€", "Sélection bio et biodynamique"],
         must_eat: "Les tapas changent chaque soir selon le marché. Les classiques qui reviennent souvent : le poulpe à la plancha (14€), le carpaccio de rouget au chou-rave (13€), et le parfait de foie de volaille (10€). En groupe, la côte de boeuf au kilo (80€) est un must.",
         must_drink: "La cave de 250 références natures est le nerf de guerre. Les verres du soir démarrent à 6€ — un rapport qualité-prix honnête et rare dans le 11ème."
     }

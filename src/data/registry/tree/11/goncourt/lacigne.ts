@@ -5,7 +5,7 @@ export const lacigne: SurgicalPlace = {
     name: "Lacigne",
     slug: "lacigne",
     category: "restaurant",
-    subcategory: ["japanese", "pastry", "mochis", "fusion"],
+    subcategory: ['français'],
     location: {
         address: "124 Avenue Parmentier",
         arrondissement: 11,
@@ -53,7 +53,7 @@ export const lacigne: SurgicalPlace = {
             },
             {
                 category_type: "other",
-                display_label: "L'Art du Mochi (Pâtisserie)",
+                display_label: "L’Art du Mochi (Pâtisserie)",
                 items: [
                     { name: "Mochi Matcha Azuki", price_cents: 550, description: "Mochi frais, texture nuageuse." },
                     { name: "Mochi Framboise Litchi", price_cents: 550 },
@@ -95,13 +95,13 @@ export const lacigne: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.9,
-    description: "Tenu par le chef Daisuke Kikuchi et son épouse Megumi, Lacigne est un sanctuaire de la pâtisserie et de la cuisine japonaise. Célèbre pour ses mochis artisanaux à la texture d'une finesse rare, le lieu propose aussi une formule déjeuner d'un rapport qualité-prix imbattable. Un écrin minimaliste sur l'Avenue Parmentier où la rigueur nippone rencontre la poésie sucrée.",
+    description: "Tenu par le chef Daisuke Kikuchi et son épouse Megumi, Lacigne est un sanctuaire de la pâtisserie et de la cuisine japonaise. Célèbre pour ses mochis artisanaux à la texture d’une finesse rare, le lieu propose aussi une formule déjeuner d’un rapport qualité-prix imbattable. Un écrin minimaliste sur l’Avenue Parmentier où la rigueur nippone rencontre la poésie sucrée.",
     insider_tip: "Les mochis partent très vite, surtout le Matcha Azuki. Arrivez tôt pour le déjeuner ou réservez votre boîte de mochis en avance via Instagram.",
-    expert_catchline: "L'excellence du mochi artisanal et de la cuisine nippone par Daisuke Kikuchi.",
+    expert_catchline: "L’excellence du mochi artisanal et de la cuisine nippone par Daisuke Kikuchi.",
     specials: {
         cuisine: ["Mochis artisanaux", "Donburi raffiné", "Omakase accessible"],
         drinks: ["Thé Matcha", "Sake de dégustation", "Café de spécialité"],
         must_eat: "Le mochi Framboise Litchi, un équilibre parfait.",
-        must_drink: "Un Matcha Latte préparé dans les règles de l'art."
+        must_drink: "Un Matcha Latte préparé dans les règles de l’art."
     }
 };

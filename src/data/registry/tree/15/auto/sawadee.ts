@@ -5,7 +5,7 @@ export const sawadee: SurgicalPlace = {
   slug: "sawadee",
   name: "Sawadee",
   category: "restaurant",
-  subcategory: ["thaï"],
+  subcategory: ['asiatique'],
   location: {
     address: "53 Av. Emile Zola, 75015 Paris, France",
     arrondissement: 15,
@@ -52,7 +52,7 @@ export const sawadee: SurgicalPlace = {
           { name: "Beignets de crevettes", price_cents: 1100 },
           { name: "Salade de bœuf grillé (Yam Nuea)", price_cents: 1400 },
           { name: "Raviolis vapeurs (Dim Sum)", price_cents: 900 },
-          { name: "Assortiment d'entrées (2 pers)", price_cents: 2200 }
+          { name: "Assortiment d’entrées (2 pers)", price_cents: 2200 }
         ]
       },
       {
@@ -63,14 +63,14 @@ export const sawadee: SurgicalPlace = {
           { name: "Pad Thaï Poulet", price_cents: 1500 },
           { name: "Curry Vert au Poulet (Gaeng Keow)", price_cents: 1700 },
           { name: "Curry Rouge au Bœuf", price_cents: 1800 },
-          { name: "Curry Masaman à l'Agneau", price_cents: 1900 },
+          { name: "Curry Masaman à l’Agneau", price_cents: 1900 },
           { name: "Bœuf au basilic thaï (Pad Kra Pao)", price_cents: 1800 },
           { name: "Canard laqué au miel", price_cents: 2000 },
           { name: "Larmes du Tigre (Bœuf mariné)", price_cents: 2400 },
           { name: "Poisson cuit à la vapeur (Lime)", price_cents: 2200 },
           { name: "Porc au caramel et gingembre", price_cents: 1600 },
           { name: "Légumes sautés au wok", price_cents: 1400 },
-          { name: "Riz sauté à l'ananas", price_cents: 1500 },
+          { name: "Riz sauté à l’ananas", price_cents: 1500 },
           { name: "Nouilles sautées aux légumes", price_cents: 1400 }
         ]
       },
@@ -101,9 +101,10 @@ export const sawadee: SurgicalPlace = {
     ]
   },
   description: `Sawadee est une institution thaïlandaise du 15e arrondissement, réputée pour sa cuisine authentique et son cadre au charme suranné. Depuis 1988, la famille propriétaire propose des classiques parfaitement exécutés, du Pad Thaï fumant aux fameuses Larmes du Tigre. Le décor boisé et les détails ornementaux créent une atmosphère sereine qui transporte immédiatement les convives loin de l'agitation parisienne.`,
+  expert_catchline: `Sawadee est une institution thaïlandaise du 15e arrondissement, réputée pour sa cuisine authentique et son cadre au charme suranné.`,
   insider_tip: `• **Timing Stratégique** : Le restaurant est souvent complet le soir, réservez par téléphone 24h à l'avance.
   • **Combo Moelle** : Les Larmes du Tigre accompagnées d'un riz gluant, un classique indémodable.
-  • **Expérience Culturelle** : Admirez la décoration traditionnelle qui n'a pas changé depuis 1988, une capsule temporelle thaïlandaise.`,
+  • **Expérience Culturelle** : Admirez la décoration traditionnelle qui n’a pas changé depuis 1988, une capsule temporelle thaïlandaise.`,
   specials: {
     cuisine: ["Thaïlandais", "Asiatique"],
     drinks: ["Thé Thaï", "Bière Singha"],

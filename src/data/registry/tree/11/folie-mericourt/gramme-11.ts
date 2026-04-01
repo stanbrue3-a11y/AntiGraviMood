@@ -5,7 +5,7 @@ export const gramme_11: SurgicalPlace = {
     name: "Gramme 11",
     slug: "gramme-11",
     category: "restaurant",
-    subcategory: ["cantine", "brunch", "coffee shop", "parisien"],
+    subcategory: ['français'],
     location: {
         address: "96 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -48,7 +48,7 @@ export const gramme_11: SurgicalPlace = {
                 display_label: "Le Brunch & Le Midi",
                 items: [
                     { name: "Bowl Saisonnier (Végé/Carné)", price_cents: 1800, description: "Légumes rôtis, céréales anciennes, pickles maison." },
-                    { name: "Gramme's Banh Mi", price_cents: 1600, description: "Pain brioché, porc effiloché aux épices, légumes croquants." },
+                    { name: "Gramme’s Banh Mi", price_cents: 1600, description: "Pain brioché, porc effiloché aux épices, légumes croquants." },
                     { name: "Pancakes Salés au Kimchi", price_cents: 1700, description: "Œuf au plat, avocat, sauce gochujang." },
                     { name: "Plateau Lunch (E+P+D)", price_cents: 2800 }
                 ]
@@ -80,13 +80,13 @@ export const gramme_11: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Gramme est bien plus qu'une cantine, c'est une véritable institution de la rue Jean-Pierre Timbaud. On y vient pour un brunch créatif le dimanche, ou pour un lunch sain et gourmand en semaine. Tout est fait maison avec des produits sourcés en circuit court : des banh mi revisités aux pancakes au kimchi, en passant par leur pâtisserie réconfortante. L'espace est chaleureux, boisé et respire la convivialité parisienne.",
+    description: "Gramme est bien plus qu’une cantine, c’est une véritable institution de la rue Jean-Pierre Timbaud. On y vient pour un brunch créatif le dimanche, ou pour un lunch sain et gourmand en semaine. Tout est fait maison avec des produits sourcés en circuit court : des banh mi revisités aux pancakes au kimchi, en passant par leur pâtisserie réconfortante. L’espace est chaleureux, boisé et respire la convivialité parisienne.",
     insider_tip: "• Les pâtisseries du dimanche changent chaque semaine, arrivez tôt pour le brunch ! (Pas de résa).\n• Le Banh Mi de chez Gramme est devenu une référence absolue dans le quartier.\n• Leurs pickles maison sont une petite addiction à ramener chez soi.",
     expert_catchline: "La néo-cantine iconique du 11ème, temple du brunch créatif et du fait-maison.",
     specials: {
         cuisine: ["Cuisine réconfortante", "Circuits courts", "Brunch créatif", "Banh Mi signature"],
         drinks: ["Café de spécialité (Lomi)", "Jus pressés", "Vins de soif"],
-        must_eat: "Le Gramme's Banh Mi, une relecture ultra-gourmande sur pain brioché.",
+        must_eat: "Le Gramme’s Banh Mi, une relecture ultra-gourmande sur pain brioché.",
         must_drink: "Un Flat White parfaitement exécuté avec les grains du torréfacteur Lomi."
     }
 };

@@ -5,7 +5,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
   slug: "le-petit-bouillon-vavin",
   name: "Le Petit Bouillon Vavin",
   category: "restaurant",
-  subcategory: ["français", "bouillon", "traditionnel", "vibrant", "art-deco"],
+  subcategory: ['français'],
   location: {
     address: "119 Bd du Montparnasse, 75006 Paris, France",
     arrondissement: 6,
@@ -45,7 +45,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
           { name: "Os à moelle grillé, fleur de sel", price_cents: 460, description: "Servi avec ses toasts" },
           { name: "Hareng et son écrasé de pommes de terre", price_cents: 480 },
           { name: "Belle terrine de foie de volaille maison", price_cents: 460 },
-          { name: "Gratinée à l'oignon", price_cents: 390, description: "Classique parisien" },
+          { name: "Gratinée à l’oignon", price_cents: 390, description: "Classique parisien" },
           { name: "Salade de gésiers de volaille confits", price_cents: 390 }
         ]
       },
@@ -56,7 +56,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
           { name: "Bœuf bourguignon aux pommes vapeur", price_cents: 1490, description: "Mijoté avec amour" },
           { name: "Saucisse au couteau Purée", price_cents: 920, description: "Jus de viande lié" },
           { name: "Lieu noir en papillote, légumes basquaise", price_cents: 1350 },
-          { name: "Côte de cochon à l'estragon", price_cents: 1280 },
+          { name: "Côte de cochon à l’estragon", price_cents: 1280 },
           { name: "Tartare de bœuf haché minute", price_cents: 1120, description: "Frites fraîches" },
           { name: "Poulet Label Rouge Rôti", price_cents: 1080 }
         ]
@@ -78,13 +78,13 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
           { name: "Profiteroles au chocolat maison", price_cents: 580 },
           { name: "Île flottante", price_cents: 480 },
           { name: "Baba au rhum", price_cents: 540 },
-          { name: "Tarte Tatin", price_cents: 550, description: "Crème d'Isigny" }
+          { name: "Tarte Tatin", price_cents: 550, description: "Crème d’Isigny" }
         ]
       }
     ]
   },
-  description: "Le Petit Bouillon Vavin est une enclave d'effervescence joyeuse au cœur du Montparnasse historique. Sous son haut plafond Art Déco, on revit l'âge d'or des brasseries populaires parisiennes : service en tablier blanc, nappes en papier et une cuisine française authentique servie à une vitesse record. C'est bruyant, c'est vivant, c'est Paris.",
-  insider_tip: "• Comme tout bon bouillon, l'endroit ne prend pas de réservations : vise les créneaux 'tôt' (12h/19h) pour éviter la queue sur le boulevard.\n• Ne rate surtout pas l'os à moelle, c'est l'un des meilleurs rapports qualité-prix du quartier.\n• Le service est si rapide que tu peux finir tes trois plats en moins de 45 minutes si tu es pressé.",
+  description: "Le Petit Bouillon Vavin est une enclave d’effervescence joyeuse au cœur du Montparnasse historique. Sous son haut plafond Art Déco, on revit l’âge d’or des brasseries populaires parisiennes : service en tablier blanc, nappes en papier et une cuisine française authentique servie à une vitesse record. C’est bruyant, c’est vivant, c'est Paris.",
+  insider_tip: "• Comme tout bon bouillon, l’endroit ne prend pas de réservations : vise les créneaux ’tôt’ (12h/19h) pour éviter la queue sur le boulevard.\n• Ne rate surtout pas l’os à moelle, c’est l'un des meilleurs rapports qualité-prix du quartier.\n• Le service est si rapide que tu peux finir tes trois plats en moins de 45 minutes si tu es pressé.",
   specials: {
     cuisine: ["Française", "Bouillon", "Traditionnelle"],
     drinks: ["Vin de table", "Kir", "Café"],

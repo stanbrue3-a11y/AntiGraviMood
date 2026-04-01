@@ -5,7 +5,7 @@ export const streetBangkokBastille: SurgicalPlace = {
     name: "Street Bangkok (Bastille)",
     slug: "street-bangkok-bastille",
     category: "restaurant",
-    subcategory: ["Thaïlandais", "Street Food", "BBQ Thaï", "Populaire"],
+    subcategory: ['français'],
     location: {
         address: "13 Rue de la Roquette, 75011 Paris",
         arrondissement: 11,
@@ -32,7 +32,7 @@ export const streetBangkokBastille: SurgicalPlace = {
                 items: [
                     { name: "Sate Gai (x3) - Entrée", price_cents: 1100, description: "Brochettes de poulet coco-curry-curcuma." },
                     { name: "BBQ Ribs Secret Sauce", price_cents: 1850, description: "Travers de porc laqués, sauce ail secrète." },
-                    { name: "Tigre Qui Pleure", price_cents: 1950, description: "Bœuf mariné citronnelle & huile d'échalote." },
+                    { name: "Tigre Qui Pleure", price_cents: 1950, description: "Bœuf mariné citronnelle & huile d’échalote." },
                     { name: "Gai Yang (Cuisse de Poulet)", price_cents: 1700, description: "Désossée, laquée et grillée à la flamme." },
                     { name: "Sate Gai (Plat)", price_cents: 1550 },
                     { name: "Mix 2 Viandes (Poulet & Porc)", price_cents: 2800 },
@@ -109,9 +109,9 @@ export const streetBangkokBastille: SurgicalPlace = {
             label: "COMMANDER"
         }
     },
-    description: "Le temple de la street food thaïlandaise à Bastille. On y vient pour les grillades au charbon de bois (Meat BBQ) qui embaument la rue de la Roquette, et pour l'énergie débordante du lieu. Inspiré par les marchés de nuits de Bangkok, le décor est brut, néonisé et sonore. C'est pimenté, c'est bruyant, c'est bon.",
+    description: "Le temple de la street food thaïlandaise à Bastille. On y vient pour les grillades au charbon de bois (Meat BBQ) qui embaument la rue de la Roquette, et pour l’énergie débordante du lieu. Inspiré par les marchés de nuits de Bangkok, le décor est brut, néonisé et sonore. C’est pimenté, c’est bruyant, c'est bon.",
     expert_catchline: "Le meilleur du BBQ thaï au charbon de bois et des currys explosifs à Bastille.",
-    insider_tip: "• Le Tigre qui pleure est la star absolue du lieu, demandez-le bien piquant si vous osez.\n• Ouvert jusqu'à 1h du matin, c'est le spot parfait pour un manger un vrai plat après quelques verres.\n• Le Pad Ka Prao est l'un des plus authentiques de Paris (attention au piment).\n• Goûtez leur thé glacé citronnelle maison pour éteindre le feu du curry.",
+    insider_tip: "• Le Tigre qui pleure est la star absolue du lieu, demandez-le bien piquant si vous osez.\n• Ouvert jusqu’à 1h du matin, c’est le spot parfait pour un manger un vrai plat après quelques verres.\n• Le Pad Ka Prao est l’un des plus authentiques de Paris (attention au piment).\n• Goûtez leur thé glacé citronnelle maison pour éteindre le feu du curry.",
     specials: {
         cuisine: ["Thaïlandais", "Street BBQ", "Pad Thaï"],
         drinks: ["Bière Singha", "Nam Manao", "Thé Citronnelle"],

@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const anticafe_louvre: SurgicalPlace = {
     "id": "poi-001",
-    "name": "L'Anticafé Louvre",
+    "name": "L’Anticafé Louvre",
     "slug": "anticafe-louvre",
     "category": "café",
     "subcategory": [
@@ -42,7 +42,7 @@ export const anticafe_louvre: SurgicalPlace = {
         "festif": 3,
         "culturel": 8.8
     },
-    "description": "À deux pas du musée le plus visité au monde, cet espace réinvente totalement le concept du café parisien : ici, on ne paie pas ses consommations, mais le temps passé. C'est une bulle de productivité et de calme idéale pour les nomades digitaux et les créatifs, qui offre un buffet à volonté (snacks, boissons chaudes et fraîches) dans un cadre lumineux et design. Loin du tumulte touristique assourdissant de la rue de Rivoli, c'est le refuge parfait pour travailler quelques heures, organiser un rendez-vous informel ou simplement se poser entre deux visites culturelles. Le concept de 'pay-per-time' libère l'esprit et permet de se concentrer sur l'essentiel, dans une atmosphère studieuse mais détendue.",
+    "description": "À deux pas du musée le plus visité au monde, cet espace réinvente totalement le concept du café parisien : ici, on ne paie pas ses consommations, mais le temps passé. C’est une bulle de productivité et de calme idéale pour les nomades digitaux et les créatifs, qui offre un buffet à volonté (snacks, boissons chaudes et fraîches) dans un cadre lumineux et design. Loin du tumulte touristique assourdissant de la rue de Rivoli, c’est le refuge parfait pour travailler quelques heures, organiser un rendez-vous informel ou simplement se poser entre deux visites culturelles. Le concept de ’pay-per-time’ libère l’esprit et permet de se concentrer sur l'essentiel, dans une atmosphère studieuse mais détendue.",
     "insider_tip": "Visez l angle de la terrasse pour observer le ballet du quartier tout en restant discret.",
     "specials": {
         "cuisine": [],

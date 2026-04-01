@@ -5,7 +5,7 @@ export const chantoiseau: SurgicalPlace = {
   slug: "chantoiseau",
   name: "Chantoiseau",
   category: "restaurant",
-  subcategory: ["français", "bistronomique", "moderne", "michelin", "montmartre"],
+  subcategory: ['français'],
   location: {
     address: "63 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
@@ -76,8 +76,8 @@ export const chantoiseau: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Une pépite bistronomique perchée sur la Butte. Chantoiseau propose une cuisine d'auteur, précise et saisonnière, dans un cadre épuré et chaleureux. Le chef magnifie des produits d'exception avec des associations audacieuses, faisant de cette adresse l'une des plus excitantes du 18e.",
-  insider_tip: "• **Menu Déjeuner** : À 23-34€, c'est l'un des meilleurs rapports qualité-prix de la ville pour ce niveau de technicité.\n• **Place de choix** : Les tables près de la vitrine offrent une lumière magnifique le midi.\n• **Accord Mets-Vins** : Laissez-vous guider, la sélection de vins nature et bio est pointue et surprenante.",
+  description: "Une pépite bistronomique perchée sur la Butte. Chantoiseau propose une cuisine d’auteur, précise et saisonnière, dans un cadre épuré et chaleureux. Le chef magnifie des produits d’exception avec des associations audacieuses, faisant de cette adresse l’une des plus excitantes du 18e.",
+  insider_tip: "• **Menu Déjeuner** : À 23-34€, c’est l'un des meilleurs rapports qualité-prix de la ville pour ce niveau de technicité.\n• **Place de choix** : Les tables près de la vitrine offrent une lumière magnifique le midi.\n• **Accord Mets-Vins** : Laissez-vous guider, la sélection de vins nature et bio est pointue et surprenante.",
   specials: {
     cuisine: ["Française Moderne", "Bistronomique"],
     drinks: ["Vins Nature", "Bio"],

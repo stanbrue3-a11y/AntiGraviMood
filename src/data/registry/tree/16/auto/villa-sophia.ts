@@ -5,7 +5,7 @@ export const villa_sophia: SurgicalPlace = {
   slug: "villa-sophia",
   name: "Villa Sophia",
   category: "restaurant",
-  subcategory: ["italien", "pizza", "bistrot-chic", "alma-marceau"],
+  subcategory: ['italien', 'français'],
   location: {
     address: "6 Rue Georges Bizet, 75116 Paris",
     arrondissement: 16,
@@ -49,7 +49,7 @@ export const villa_sophia: SurgicalPlace = {
           { name: "Vitello Tonnato Tradition", price_cents: 1650 },
           { name: "Calars Frits & Mayonnaise Basilic", price_cents: 1500 },
           { name: "Bruschetta à la Tomate Fraîche", price_cents: 1100 },
-          { name: "Salade d'Artichauts Cruso", price_cents: 1350 },
+          { name: "Salade d’Artichauts Cruso", price_cents: 1350 },
           { name: "Soupe de Minestrone Maison", price_cents: 1200 }
         ]
       },
@@ -71,7 +71,7 @@ export const villa_sophia: SurgicalPlace = {
         display_label: "Primi & Secondi (Plats)",
         items: [
           { name: "Linguine alle Vongole (Palourdes)", price_cents: 2450, description: "Ail, persil et vin blanc frais", is_highlight: true },
-          { name: "Penne à l'Arrabbiata", price_cents: 1800 },
+          { name: "Penne à l’Arrabbiata", price_cents: 1800 },
           { name: "Risotto Impérial aux Gambas", price_cents: 2800 },
           { name: "Tagliatelle Bolognese Maison", price_cents: 1950 },
           { name: "Escalope de Veau Milanaise", price_cents: 2600 },
@@ -107,14 +107,14 @@ export const villa_sophia: SurgicalPlace = {
       }
     ]
   },
-  description: "À deux pas du Triangle d'Or mais résolument ancrée dans le 16ème côté Chaillot, la Villa Sophia est une adresse italienne chaleureuse et lumineuse. Entre son décor de bistrot chic et son four à bois rutilant, on y trouve une convivialité rare dans le quartier. La cuisine, authentique et généreuse, fait la part belle aux classiques transalpins, des pizzas croustillantes aux pâtes parfaitement al dente. C'est le spot 'sympa' idéal pour un déjeuner d'affaires décontractée ou un dîner entre amis dans une ambiance solaire et élégante.",
+  description: "À deux pas du Triangle d’Or mais résolument ancrée dans le 16ème côté Chaillot, la Villa Sophia est une adresse italienne chaleureuse et lumineuse. Entre son décor de bistrot chic et son four à bois rutilant, on y trouve une convivialité rare dans le quartier. La cuisine, authentique et généreuse, fait la part belle aux classiques transalpins, des pizzas croustillantes aux pâtes parfaitement al dente. C’est le spot ’sympa’ idéal pour un déjeuner d’affaires décontractée ou un dîner entre amis dans une ambiance solaire et élégante.",
   expert_catchline: "Une table italienne solaire et généreuse au cœur de Chaillot.",
   insider_tip: "• **Le Four à Bois** : Les pizzas sont la grande force du lieu, profitez-en.\n  • **Terrasse Ensoleillée** : Aux beaux jours, la terrasse sur la rue de Chaillot est particulièrement agréable pour un Spritz.\n  • **Service Continu** : Très pratique pour manger tardivement ou prendre un café en journée.",
   specials: {
     cuisine: ["Italienne", "Bistrot Chic"],
     drinks: ["Spritz Classique", "Vins Toscans"],
     must_eat: "Cuisine Italienne. Pizza Tartufo & Linguine alle Vongole.",
-    must_drink: "Spritz à l'Aperol"
+    must_drink: "Spritz à l’Aperol"
   },
   images: {
     hero: "AU_ZVEFtv4GAqUyj8w1ZDBEi0sERWoE1sumeJoTyJcXb-6c8K4L3uRd0X-RqGGLm3DW5q-VSFhJcI3gG1DI8AXH3gpJKeU1b71pO8uVjvcz9M8CYNnLrlpwaPm_-rjz37ktO0Hwy9waS9viKuhLVfD7HiBREuuo3NcBBMNY6jnT615H6XjVCi0x9mGHHbhmBq28ZoVZ33jjuvkUsHe0aAyjsUTI7XWzLFxBobrw42VI-RYDuOjieo5w2Q338HIX9p_a4epcAVGo7SV4ngcx7PFJu8AcWkddC1GiKcf4vHBdxoV9AGg",
@@ -127,11 +127,11 @@ export const villa_sophia: SurgicalPlace = {
   google_rating: 4.2,
   instagram_handle: "villasophiaparis",
   real_talk: {
-    text: "Une trattoria chic qui ne triche pas. Le four à bois embaume la salle et l'accueil est d'une chaleur typiquement italienne. C'est l'adresse idéale pour une soirée décontractée et savoureuse.",
+    text: "Une trattoria chic qui ne triche pas. Le four à bois embaume la salle et l’accueil est d’une chaleur typiquement italienne. C’est l'adresse idéale pour une soirée décontractée et savoureuse.",
     must_eat: "Cuisine Italienne. Linguine aux Palourdes.",
-    le_secret: "La table près du four est la plus animée, parfaite pour voir le pizzaiolo à l'œuvre.",
+    le_secret: "La table près du four est la plus animée, parfaite pour voir le pizzaiolo à l’œuvre.",
     le_son: "Un mélange de chansons italiennes et de conversations animées.",
-    le_must: "Le tiramisu, l'un des plus onctueux du quartier."
+    le_must: "Le tiramisu, l’un des plus onctueux du quartier."
   }
 };
 

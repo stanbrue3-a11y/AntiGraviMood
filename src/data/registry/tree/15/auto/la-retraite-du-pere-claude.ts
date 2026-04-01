@@ -5,7 +5,7 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
   slug: "la-retraite-du-pere-claude",
   name: "La Retraite du Père Claude",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "89 Rue de la Convention, 75015 Paris, France",
     arrondissement: 15,
@@ -46,7 +46,7 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
           { name: "Foie gras de canard maison", price_cents: 1800 },
           { name: "Boudin noir du Père Claude", price_cents: 1400 },
           { name: "Escargots de Bourgogne (x6)", price_cents: 1200 },
-          { name: "Saumon mariné à l'aneth", price_cents: 1500 },
+          { name: "Saumon mariné à l’aneth", price_cents: 1500 },
           { name: "Salade de museau tiède", price_cents: 1000 },
           { name: "Os à moelle grillé au four", price_cents: 1200 },
           { name: "Terrine de campagne artisanale", price_cents: 900 },
@@ -64,13 +64,13 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
           { name: "Côte de bœuf rôtie (pour 2)", price_cents: 7500 },
           { name: "Rognons de veau à la moutarde", price_cents: 2600 },
           { name: "Petit salé aux lentilles du Berry", price_cents: 2300 },
-          { name: "Dos de cabillaud à l'ail doux", price_cents: 2500 },
-          { name: "Blanquette de veau à l'ancienne", price_cents: 2400 },
-          { name: "Entrecôte grillée maître d'hôtel", price_cents: 3200 },
+          { name: "Dos de cabillaud à l’ail doux", price_cents: 2500 },
+          { name: "Blanquette de veau à l’ancienne", price_cents: 2400 },
+          { name: "Entrecôte grillée maître d’hôtel", price_cents: 3200 },
           { name: "Andouillette AAAAA grillée", price_cents: 2200 },
           { name: "Civet de sanglier grand-mère", price_cents: 2800 },
-          { name: "Pavé de saumon à l'oseille", price_cents: 2400 },
-          { name: "Gigot d'agneau ail et romarin", price_cents: 2700 },
+          { name: "Pavé de saumon à l’oseille", price_cents: 2400 },
+          { name: "Gigot d’agneau ail et romarin", price_cents: 2700 },
           { name: "Pot-au-feu traditionnel", price_cents: 2500 }
         ]
       },
@@ -94,13 +94,13 @@ export const la_retraite_du_pere_claude: SurgicalPlace = {
         display_label: "La Cave & Boissons",
         items: [
           { name: "Verre de Brouilly Château de la Chaize", price_cents: 800 },
-          { name: "Bouteille d'eau de source", price_cents: 500 },
+          { name: "Bouteille d’eau de source", price_cents: 500 },
           { name: "Café expresso ou allongé", price_cents: 300 }
         ]
       }
     ]
   },
-  description: "La Retraite du Père Claude est une institution du 15e, célèbre pour sa cuisine de rôtisserie authentique et son ambiance de bistrot convivial. Sous l'œil bienveillant du chef Claude Perraudin, les poulets fermiers tournent sur de grandes broches verticales, embaumant la salle de parfums alléchants. La purée maison, onctueuse et généreuse, est devenue légendaire tout comme les escargots de Bourgogne et le boudin noir maison. C'est l'adresse idéale pour un repas réconfortant dans un cadre chaleureux et sans chichis.",
+  description: "La Retraite du Père Claude est une institution du 15e, célèbre pour sa cuisine de rôtisserie authentique et son ambiance de bistrot convivial. Sous l’œil bienveillant du chef Claude Perraudin, les poulets fermiers tournent sur de grandes broches verticales, embaumant la salle de parfums alléchants. La purée maison, onctueuse et généreuse, est devenue légendaire tout comme les escargots de Bourgogne et le boudin noir maison. C’est l’adresse idéale pour un repas réconfortant dans un cadre chaleureux et sans chichis.",
   insider_tip: "• **Timing Stratégique** : Arrivez tôt le soir pour voir le spectacle des poulets qui commencent leur rotation sur les broches.\n  • **Combo Moelle** : Le poulet rôti évidemment, accompagné de la purée monumentale, un duo inséparable.\n  • **Expérience Culturelle** : La rôtisserie apparente et les nappes à carreaux rouges créent une immersion immédiate dans le Paris éternel.",
   specials: {
     cuisine: ["Français", "Rôtisserie", "Tradition"],

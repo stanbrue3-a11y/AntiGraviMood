@@ -5,7 +5,7 @@ export const maison_revka: SurgicalPlace = {
   slug: "maison-revka",
   name: "Maison Revka",
   category: "restaurant",
-  subcategory: ["russe-chic", "slave", "jardin-hiver", "victor-hugo"],
+  subcategory: ['français'],
   location: {
     address: "59 Av. Raymond Poincaré, 75116 Paris",
     arrondissement: 16,
@@ -41,7 +41,7 @@ export const maison_revka: SurgicalPlace = {
     menu_items: [
       {
         category_type: "other",
-        display_label: "L'Or Noir (Caviar)",
+        display_label: "L’Or Noir (Caviar)",
         items: [
           { name: "Caviar Beluga (50g)", price_cents: 24000, description: "Le summum du luxe slave, servi avec blinis", is_highlight: true },
           { name: "Caviar Baeri (30g)", price_cents: 8500, description: "Notes boisées et iodées" },
@@ -68,7 +68,7 @@ export const maison_revka: SurgicalPlace = {
         items: [
           { name: "Bœuf Strogonoff", price_cents: 5800, description: "Filet de bœuf émincé, sauce onctueuse aux champignons", is_highlight: true },
           { name: "Coulibiac de Saumon", price_cents: 4800, description: "Saumon en croûte feuilletée, riz, épinards et œuf" },
-          { name: "Poulet à la Kiev", price_cents: 4600, description: "Suprême farci au beurre d'herbes et frites maison" },
+          { name: "Poulet à la Kiev", price_cents: 4600, description: "Suprême farci au beurre d’herbes et frites maison" },
           { name: "Linguine au Homard", price_cents: 7500, description: "Demie homard bleu et caviar baeri", is_highlight: true },
           { name: "Sashimi de Bar Revka", price_cents: 3600, description: "Vinaigrette truffée et fleurs comestibles" },
           { name: "Sole Meunière du Tsar", price_cents: 5500, description: "Filets levés, purée au caviar" },
@@ -90,7 +90,7 @@ export const maison_revka: SurgicalPlace = {
       },
       {
         category_type: "drink",
-        display_label: "L'Art de la Vodka & Cave",
+        display_label: "L’Art de la Vodka & Cave",
         items: [
           { name: "Vodka Beluga Gold Line", price_cents: 2800, description: "Shot de 4cl - Service glacé" },
           { name: "Cocktail Moskovskaya", price_cents: 2200, description: "Vodka infusion thé, framboise, citron" },
@@ -102,9 +102,9 @@ export const maison_revka: SurgicalPlace = {
       }
     ]
   },
-  description: "Maison Revka est l'écrin du luxe slave à Paris, un pavillon spectaculaire où l'opulence des datchas impériales rencontre l'élégance du 16ème. Dans un décor onirique de boiseries dorées, de velours profonds et d'un jardin d'hiver luxuriant, on y célèbre l'art de vivre russe à travers le caviar, le bœuf Strogonoff et les vodkas de collection. Une adresse envoûtante, orchestrée par Paris Society, qui s'est imposée comme le rendez-vous incontournable du glamour slave parisien.",
-  expert_catchline: "L'opulence d'une datcha impériale en plein cœur de Victor Hugo.",
-  insider_tip: "Le jardin d'hiver sous la verrière est l'endroit le plus convoité de Paris pour un dîner romantique. Le bœuf Strogonoff est un classique dont on ne se lasse pas.",
+  description: "Maison Revka est l’écrin du luxe slave à Paris, un pavillon spectaculaire où l’opulence des datchas impériales rencontre l’élégance du 16ème. Dans un décor onirique de boiseries dorées, de velours profonds et d’un jardin d’hiver luxuriant, on y célèbre l’art de vivre russe à travers le caviar, le bœuf Strogonoff et les vodkas de collection. Une adresse envoûtante, orchestrée par Paris Society, qui s’est imposée comme le rendez-vous incontournable du glamour slave parisien.",
+  expert_catchline: "L’opulence d'une datcha impériale en plein cœur de Victor Hugo.",
+  insider_tip: "Le jardin d’hiver sous la verrière est l'endroit le plus convoité de Paris pour un dîner romantique. Le bœuf Strogonoff est un classique dont on ne se lasse pas.",
   specials: {
     cuisine: ["Slave Moderne", "Russe"],
     drinks: ["Vodkas de Prestige", "Champagnes de Collection"],
@@ -122,9 +122,9 @@ export const maison_revka: SurgicalPlace = {
   google_rating: 4.1,
   instagram_handle: "maison_revka",
   real_talk: {
-    text: "Une expérience immersive totale. On oublie Paris dès qu'on franchit le seuil. C'est doré, c'est feutré et l'assiette impériale est à la hauteur du décor fou.",
+    text: "Une expérience immersive totale. On oublie Paris dès qu’on franchit le seuil. C’est doré, c’est feutré et l'assiette impériale est à la hauteur du décor fou.",
     must_eat: "Cuisine Slave. Bœuf Strogonoff.",
-    le_secret: "La boutique du rez-de-chaussée permet d'emporter un peu de cet univers slave chez soi.",
+    le_secret: "La boutique du rez-de-chaussée permet d’emporter un peu de cet univers slave chez soi.",
     le_son: "Piano-bar live et classiques russes revisités.",
     le_must: "Partager un caviar impérial sous les lustres du grand salon."
   }

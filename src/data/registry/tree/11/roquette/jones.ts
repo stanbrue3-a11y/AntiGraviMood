@@ -5,7 +5,7 @@ export const jones: SurgicalPlace = {
     name: "Jones",
     slug: "jones",
     category: "restaurant",
-    subcategory: ["bistronomie", "fusion", "italien", "restaurant"],
+    subcategory: ['bistronomie', 'français', 'italien'],
     location: {
         address: "43 Rue Godefroy Cavaignac",
         arrondissement: 11,
@@ -37,7 +37,7 @@ export const jones: SurgicalPlace = {
         pint_price: 0,
         wine_glass: 7.00,
         coffee_price: 0,
-        dish_price: 18, // MANUAL: Petites assiettes complexes (13-22€) format 'tapas bistronomique'
+        dish_price: 18, // MANUAL: Petites assiettes complexes (13-22€) format ’tapas bistronomique'
         last_updated: "2026-03-07",
         menu_items: [
             {
@@ -45,13 +45,13 @@ export const jones: SurgicalPlace = {
                 display_label: "Les Petites Assiettes (Entrées & Tapas)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Arancini croustillants cacio e pepe", price_cents: 900, description: "Le classique italien frit, parfait pour ouvrir l'appétit." },
+                    { name: "Arancini croustillants cacio e pepe", price_cents: 900, description: "Le classique italien frit, parfait pour ouvrir l’appétit." },
                     { name: "Pamplemousse avec Brocciu et pistache", price_cents: 1200 },
-                    { name: "Salade Caesar, radis, radicchio rouge et rose, suprêmes d'orange", price_cents: 1200 },
-                    { name: "Hareng, crème d'anguille et betteraves", price_cents: 1400 },
-                    { name: "Asperges vertes et crème d'anguille", price_cents: 1500 },
+                    { name: "Salade Caesar, radis, radicchio rouge et rose, suprêmes d’orange", price_cents: 1200 },
+                    { name: "Hareng, crème d’anguille et betteraves", price_cents: 1400 },
+                    { name: "Asperges vertes et crème d’anguille", price_cents: 1500 },
                     { name: "Bonite, ricotta fumée et sarrasin", price_cents: 1500 },
-                    { name: "Burrata d'exception & poutargue", price_cents: 1600, description: "L'iode de la poutargue vient percer le gras de la burrata." }
+                    { name: "Burrata d’exception & poutargue", price_cents: 1600, description: "L’iode de la poutargue vient percer le gras de la burrata." }
                 ]
             },
             {
@@ -91,13 +91,13 @@ export const jones: SurgicalPlace = {
     instagram_handle: "jonescaferestaurant",
     verified: true,
     google_rating: 4.5,
-    description: "Derrière sa devanture bleu nuit, Jones s'impose comme une pépite bistronomique infusée d'influences italiennes. Une salle chaleureuse (pierres grattées, vieux miroirs) accueille des assiettes millimétrées, pensées pour être partagées, où la maîtrise des sauces et des cuissons tutoie l'excellence.",
-    insider_tip: "• La carte est construite sous forme de petites et moyennes assiettes. Comptez 3 à 4 assiettes pour deux pour construire un grand dîner.\n• La sélection de vins natures est parmi les plus justes du quartier, laissez le sommelier choisir pour vous.\n• Attention : le restaurant n'est ouvert que le soir, et complètement fermé le mardi et le mercredi.",
-    expert_catchline: "Haute volée d'assiettes partagées italo-françaises et quilles natures acérées dans un bistrot vibrant.",
+    description: "Derrière sa devanture bleu nuit, Jones s’impose comme une pépite bistronomique infusée d’influences italiennes. Une salle chaleureuse (pierres grattées, vieux miroirs) accueille des assiettes millimétrées, pensées pour être partagées, où la maîtrise des sauces et des cuissons tutoie l’excellence.",
+    insider_tip: "• La carte est construite sous forme de petites et moyennes assiettes. Comptez 3 à 4 assiettes pour deux pour construire un grand dîner.\n• La sélection de vins natures est parmi les plus justes du quartier, laissez le sommelier choisir pour vous.\n• Attention : le restaurant n’est ouvert que le soir, et complètement fermé le mardi et le mercredi.",
+    expert_catchline: "Haute volée d’assiettes partagées italo-françaises et quilles natures acérées dans un bistrot vibrant.",
     specials: {
         cuisine: ["Raviolis cacio e pepe", "Arancini croustillants", "Tiramisu somptueux"],
         drinks: ["Vins vivants exclusifs", "Macération pointue"],
-        must_eat: "Les déclinaisons Cacio e Pepe, signature de la maison : de l'arancini à l'ouverture, jusqu'au spaghetti en plat de résistance.",
+        must_eat: "Les déclinaisons Cacio e Pepe, signature de la maison : de l’arancini à l’ouverture, jusqu’au spaghetti en plat de résistance.",
         must_drink: "Un rouge léger du Beaujolais ou une macération de Loire pour accompagner les notes intenses des assiettes."
     }
 };

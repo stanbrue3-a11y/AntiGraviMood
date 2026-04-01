@@ -5,7 +5,7 @@ export const amalia: SurgicalPlace = {
     name: "AMÂLIA",
     slug: "amalia",
     category: "restaurant",
-    subcategory: ["étoilé", "gastronomique", "italien", "dégustation", "restaurant"],
+    subcategory: ['français', 'italien'],
     location: {
         address: "32 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -65,7 +65,7 @@ export const amalia: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Entrées",
                 items: [
-                    { name: "Cappuccino d'araignée de mer, agrumes, amandes", price_cents: 2500 },
+                    { name: "Cappuccino d’araignée de mer, agrumes, amandes", price_cents: 2500 },
                     { name: "Tartare de veau fumé, cacahuètes, glace oursin", price_cents: 2800 },
                     { name: "Gnocchis au beurre de tabasco, coques marinière", price_cents: 2600 },
                     { name: "Spaghettoni au citron, sauce huître épicée", price_cents: 3200 }
@@ -104,13 +104,13 @@ export const amalia: SurgicalPlace = {
     michelin_stars: 1,
     verified: true,
     google_rating: 4.9,
-    description: "AMÂLIA est le restaurant étoilé Michelin (2025) des chefs italiens Eugenio Anfuso et Cecilia Spurio, dans l'ancien local du restaurant Robert. La cuisine est un mariage magistral entre technique française et âme italienne : spaghettoni citronnés sauce huître, barbue aux tomates fumées beurre vanillé, canard confit au jus de mezcal. C'est probablement la plus belle table du 11ème avec 4.9 étoiles Google.",
-    insider_tip: "• Le Grand Menu AMÂLIA à 145€ est l'expérience complète — comptez 225€ avec l'accord vins.\n• Le Menu Saison à 90€ offre un parcours plus court mais tout aussi précis.\n• Le déjeuner propose une carte à la volée avec des plats entre 25-45€ — l'occasion de goûter à moindre coût.\n• La réservation est OBLIGATOIRE et les créneaux sont limités — réservez tôt.\n• C'est un étoilé Michelin 2025 avec 4.9 étoiles Google — un exploit rare.",
-    expert_catchline: "L'étoilé Michelin 2025 franco-italien du 11ème : 4.9 étoiles Google, le sommet du quartier.",
+    description: "AMÂLIA est le restaurant étoilé Michelin (2025) des chefs italiens Eugenio Anfuso et Cecilia Spurio, dans l’ancien local du restaurant Robert. La cuisine est un mariage magistral entre technique française et âme italienne : spaghettoni citronnés sauce huître, barbue aux tomates fumées beurre vanillé, canard confit au jus de mezcal. C'est probablement la plus belle table du 11ème avec 4.9 étoiles Google.",
+    insider_tip: "• Le Grand Menu AMÂLIA à 145€ est l’expérience complète — comptez 225€ avec l’accord vins.\n• Le Menu Saison à 90€ offre un parcours plus court mais tout aussi précis.\n• Le déjeuner propose une carte à la volée avec des plats entre 25-45€ — l’occasion de goûter à moindre coût.\n• La réservation est OBLIGATOIRE et les créneaux sont limités — réservez tôt.\n• C'est un étoilé Michelin 2025 avec 4.9 étoiles Google — un exploit rare.",
+    expert_catchline: "L’étoilé Michelin 2025 franco-italien du 11ème : 4.9 étoiles Google, le sommet du quartier.",
     specials: {
         cuisine: ["Spaghettoni citronnés sauce huître", "Barbue aux olives Taggiasche", "Canard confit jus mezcal", "Araignée de mer cappuccino"],
         drinks: ["Accord mets-vins 80€", "Sélection franco-italienne", "Sommelier expert"],
         must_eat: "Le Grand Menu AMÂLIA (145€) est le parcours signature. Le dimanche midi, la carte offre des plats individuels entre 25-45€ — le deal du siècle pour un étoilé.",
-        must_drink: "L'accord mets-vins à 80€ est calibré pour chaque plat du menu — indispensable pour profiter pleinement de l'expérience."
+        must_drink: "L’accord mets-vins à 80€ est calibré pour chaque plat du menu — indispensable pour profiter pleinement de l'expérience."
     }
 };

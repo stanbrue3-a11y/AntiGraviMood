@@ -5,7 +5,7 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
   slug: "restaurant-korean-barbecue",
   name: "Restaurant Korean Barbecue",
   category: "restaurant",
-  subcategory: ["coréen", "barbecue", "grillades", "convivial"],
+  subcategory: ['français'],
   location: {
     address: "22 Rue Delambre, 75014 Paris, France",
     arrondissement: 14,
@@ -45,7 +45,7 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
         items: [
         { name: "Raviolis Grillés (Gyozas)", price_cents: 650 },
         { name: "Kimchi Maison", price_cents: 450 },
-        { name: "Salade d'Algues", price_cents: 500 },
+        { name: "Salade d’Algues", price_cents: 500 },
         { name: "Galettes aux Poireaux (Pajeon)", price_cents: 850 },
         { name: "Soupe Miso", price_cents: 350 },
         { name: "Edamame", price_cents: 450 }
@@ -81,8 +81,8 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Une adresse incontournable de la rue Delambre pour les amateurs de grillades coréennes authentiques. L'expérience est interactive : chaque table dispose de son propre grill encastré pour saisir vos viandes marinées selon vos envies. L'ambiance y est survoltée et conviviale, portée par le grésillement des braises et les parfums envoûtants de sésame et de soja.",
-  insider_tip: "• Timing Stratégique : Arriver dès 19h le week-end, la rue Delambre se remplit vite et le lieu ne prend pas de résas par téléphone aux heures de pointe. \n• Combo Gagnant / Moelle : Le Bulgogi de Bœuf (mariné 24h) accompagné d'un Soju bien frais est l'expérience ultime du lieu. \n• Détail Secret / Ambiance : Demandez une table avec aspiration forte si vous voulez éviter l'odeur de grillade sur vos vêtements, même si le charme est là.",
+  description: "Une adresse incontournable de la rue Delambre pour les amateurs de grillades coréennes authentiques. L’expérience est interactive : chaque table dispose de son propre grill encastré pour saisir vos viandes marinées selon vos envies. L'ambiance y est survoltée et conviviale, portée par le grésillement des braises et les parfums envoûtants de sésame et de soja.",
+  insider_tip: "• Timing Stratégique : Arriver dès 19h le week-end, la rue Delambre se remplit vite et le lieu ne prend pas de résas par téléphone aux heures de pointe. \n• Combo Gagnant / Moelle : Le Bulgogi de Bœuf (mariné 24h) accompagné d’un Soju bien frais est l’expérience ultime du lieu. \n• Détail Secret / Ambiance : Demandez une table avec aspiration forte si vous voulez éviter l’odeur de grillade sur vos vêtements, même si le charme est là.",
   specials: {
     cuisine: ["Coréenne", "Barbecue", "Grillades"],
     drinks: ["Soju", "Bière Hite", "Thé au Ginseng"],

@@ -5,7 +5,7 @@ export const girafe: SurgicalPlace = {
   slug: "girafe",
   name: "Girafe",
   category: "restaurant",
-  subcategory: ["seafood", "élégant", "vue-tour-eiffel", "trocadero"],
+  subcategory: ['français'],
   location: {
     address: "1 Pl. du Trocadéro et du 11 Novembre, 75016 Paris, France",
     arrondissement: 16,
@@ -41,13 +41,13 @@ export const girafe: SurgicalPlace = {
     menu_items: [
       {
         category_type: "other",
-        display_label: "Le Banc de l'Écailler",
+        display_label: "Le Banc de l’Écailler",
         items: [
           { name: "Huîtres Gillardeau N°3 (x6)", price_cents: 3600, description: "La chair ferme et noisettée" },
           { name: "Crevettes Obsiblue (x4)", price_cents: 3200, description: "Rares, juste saisies au citron vert", is_highlight: true },
           { name: "Bulots de Granville", price_cents: 1400, description: "Cuisson minute, aïoli maison" },
-          { name: "Oursins d'Islande", price_cents: 2400, description: "Selon arrivage, iodés et crémeux" },
-          { name: "Plateau Girafe (2 pers)", price_cents: 11000, description: "Assortiment complet de l'écailler" },
+          { name: "Oursins d’Islande", price_cents: 2400, description: "Selon arrivage, iodés et crémeux" },
+          { name: "Plateau Girafe (2 pers)", price_cents: 11000, description: "Assortiment complet de l’écailler" },
           { name: "Langoustines Royales", price_cents: 4500, description: "4 pièces magnifiques" }
         ]
       },
@@ -70,7 +70,7 @@ export const girafe: SurgicalPlace = {
         items: [
           { name: "Linguine au Homard", price_cents: 4800, description: "Demi-homard, bisque corsée et herbes", is_highlight: true },
           { name: "Sole de Petit Bateau", price_cents: 5500, description: "400-500g, grillée ou meunière" },
-          { name: "Turbot Rôti à l'Arrête", price_cents: 5200, description: "Beurre noisette et câpres géantes" },
+          { name: "Turbot Rôti à l’Arrête", price_cents: 5200, description: "Beurre noisette et câpres géantes" },
           { name: "Pavé de Bar Plancha", price_cents: 4200, description: "Émulsion de citronnelle et gingembre" },
           { name: "Friture Rouge Girafe", price_cents: 3600, description: "Rougets, calamars et gambas frits" },
           { name: "Thon Rossini Océanique", price_cents: 4600, description: "Thon rouge et escalope de foie gras poêlée" },
@@ -109,8 +109,9 @@ export const girafe: SurgicalPlace = {
       }
     ]
   },
-  description: `Girafe est le joyau iodé du 16ème arrondissement, niché au cœur de la Cité de l'Architecture et du Patrimoine. Son décor années 30, signé Joseph Dirand, offre un écrin luxueux à une cuisine marine d'exception. Mais le véritable spectacle se joue sur la terrasse : un balcon suspendu offrant le face-à-face le plus spectaculaire de Paris avec la Tour Eiffel. Une expérience hors du temps où l'élégance parisienne rencontre la fraîcheur absolue du grand large.`,
-  insider_tip: `Réservez impérativement en 'terrasse' pour la vue. Le soir, attendez le début de chaque heure pour voir la Tour Eiffel scintiller pendant que vous dégustez vos linguines au homard.`,
+  description: `Girafe est le joyau iodé du 16ème arrondissement, niché au cœur de la Cité de l’Architecture et du Patrimoine. Son décor années 30, signé Joseph Dirand, offre un écrin luxueux à une cuisine marine d’exception. Mais le véritable spectacle se joue sur la terrasse : un balcon suspendu offrant le face-à-face le plus spectaculaire de Paris avec la Tour Eiffel. Une expérience hors du temps où l'élégance parisienne rencontre la fraîcheur absolue du grand large.`,
+  expert_catchline: `Girafe est le joyau iodé du 16ème arrondissement, niché au cœur de la Cité de l’Architecture et du Patrimoine.`,
+  insider_tip: `Réservez impérativement en ’terrasse’ pour la vue. Le soir, attendez le début de chaque heure pour voir la Tour Eiffel scintiller pendant que vous dégustez vos linguines au homard.`,
   specials: {
     cuisine: ["Seafood", "Élégant"],
     drinks: ["Champagnes de Prestige", "Grands Crus de Loire"],

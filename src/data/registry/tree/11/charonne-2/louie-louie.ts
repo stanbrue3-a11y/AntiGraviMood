@@ -5,7 +5,7 @@ export const louie_louie: SurgicalPlace = {
     name: "Louie Louie",
     slug: "louie-louie",
     category: "restaurant",
-    subcategory: ["italien", "pizza", "cocktails", "restaurant"],
+    subcategory: ['italien', 'français'],
     location: {
         address: "78 Rue de Charonne",
         arrondissement: 11,
@@ -97,13 +97,13 @@ export const louie_louie: SurgicalPlace = {
     instagram_handle: "louielouie_paris",
     verified: true,
     google_rating: 4.5,
-    description: "Une des meilleures pizzerias néo-napolitaines de l'Est parisien, lovée dans la bouillonnante rue de Charonne. Pâte maturée longuement (bords gonflés et brûlés 'léopard'), produits sourcés en Italie (mortadelle pistache, fior di latte fondante) et vrais cocktails shakers minute.",
-    insider_tip: "• C'est rare à Paris : on boit extrêmement bien chez Louie Louie. Leurs cocktails de mixologie accompagnent les pizzas à la perfection, comme ce que l'on voit souvent à Brooklyn.\n• La salle du fond, sous la verrière, est la plus agréable pour dîner.\n• Ouvert en continu tous les jours, midi et soir, un havre de paix sûr.",
+    description: "Une des meilleures pizzerias néo-napolitaines de l’Est parisien, lovée dans la bouillonnante rue de Charonne. Pâte maturée longuement (bords gonflés et brûlés ’léopard’), produits sourcés en Italie (mortadelle pistache, fior di latte fondante) et vrais cocktails shakers minute.",
+    insider_tip: "• C’est rare à Paris : on boit extrêmement bien chez Louie Louie. Leurs cocktails de mixologie accompagnent les pizzas à la perfection, comme ce que l'on voit souvent à Brooklyn.\n• La salle du fond, sous la verrière, est la plus agréable pour dîner.\n• Ouvert en continu tous les jours, midi et soir, un havre de paix sûr.",
     expert_catchline: "Pizzas napolitaines impeccables et cocktails pointus dans la très hype rue de Charonne.",
     specials: {
-        cuisine: ["Pizza 'Muertadel' (Mortadelle/Burrata)", "Pizza Surf & Turf (Anchois/Nduja)", "Baba au Rhum"],
+        cuisine: ["Pizza ’Muertadel' (Mortadelle/Burrata)", "Pizza Surf & Turf (Anchois/Nduja)", "Baba au Rhum"],
         drinks: ["Cocktails Créations", "Vins natures italiens"],
-        must_eat: "La Muertadel pimente bien l'affaire avec ses 'guindillas' (petits piments verts) venus twister la douceur de la mortadelle.",
+        must_eat: "La Muertadel pimente bien l’affaire avec ses ’guindillas’ (petits piments verts) venus twister la douceur de la mortadelle.",
         must_drink: "Plutôt que le traditionnel combo Pizza/Bière, tapez dans leur carte de cocktails parfaitement dosés par de vrais bartenders."
     }
 };

@@ -5,7 +5,7 @@ export const cafeMericourt: SurgicalPlace = {
     name: "Café Méricourt",
     slug: "cafe-mericourt",
     category: "restaurant",
-    subcategory: ["Coffee Shop", "Brunch", "Australien", "Méditerranéen"],
+    subcategory: ['français'],
     location: {
         address: "22 Rue de la Folie Méricourt, 75011 Paris",
         arrondissement: 11,
@@ -31,7 +31,7 @@ export const cafeMericourt: SurgicalPlace = {
                 items: [
                     { name: "Shakshuka Traditionnelle", price_cents: 1450, description: "Œufs pochés, sauce tomate épicée, feta, herbes." },
                     { name: "Green Eggs & Feta", price_cents: 1350, description: "Œufs brouillés au pesto de herbes, feta, levain." },
-                    { name: "Avocado Toast au Zaatar", price_cents: 1300, description: "Pain au levain, avocat, huile d'olive, sésame." },
+                    { name: "Avocado Toast au Zaatar", price_cents: 1300, description: "Pain au levain, avocat, huile d’olive, sésame." },
                     { name: "Breakfast Bun (Iconique)", price_cents: 1250, description: "Bacon, œuf, avocat, salsa piquante, brioche." },
                     { name: "Congee Bowl", price_cents: 1100, description: "Riz mijoté, gingembre, œuf mariné, oignons frits." },
                     { name: "Green Bowl (V)", price_cents: 1200, description: "Légumes de saison, quinoa, sauce tahini." },
@@ -46,7 +46,7 @@ export const cafeMericourt: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Sweets & Pastries",
                 items: [
-                    { name: "Pancakes Fleur d'Oranger", price_cents: 1200, description: "Maple cream et ricotta au citron." },
+                    { name: "Pancakes Fleur d’Oranger", price_cents: 1200, description: "Maple cream et ricotta au citron." },
                     { name: "Cinnamon Roll (Maison)", price_cents: 550 },
                     { name: "Carrot Cake & Glaçage", price_cents: 650 },
                     { name: "Apple Crumble Tiède", price_cents: 750 },
@@ -107,9 +107,9 @@ export const cafeMericourt: SurgicalPlace = {
             label: "VOIR MENU"
         }
     },
-    description: "Le Café Méricourt est le petit frère du célèbre Café Oberkampf. Dans un espace plus vaste et lumineux, il déploie une carte de brunch aux accents méditerranéens et australiens. Les shakshukas y sont légendaires, tout comme le café de spécialité torréfié localement. C'est le spot idéal pour un petit-déjeuner tardif ou un déjeuner relax dans une atmosphère épurée et conviviale.",
+    description: "Le Café Méricourt est le petit frère du célèbre Café Oberkampf. Dans un espace plus vaste et lumineux, il déploie une carte de brunch aux accents méditerranéens et australiens. Les shakshukas y sont légendaires, tout comme le café de spécialité torréfié localement. C’est le spot idéal pour un petit-déjeuner tardif ou un déjeuner relax dans une atmosphère épurée et conviviale.",
     expert_catchline: "Le temple du brunch et de la shakshuka dans une ambiance coffee shop australienne.",
-    insider_tip: "• La shakshuka est le plat le plus demandé du lieu, et pour cause : elle est excellente.\n• Pas de réservations le weekend, attendez-vous à un peu de file d'attente sur le trottoir.\n• Leur jus vert Kale/Pomme est le refresh parfait pour lancer la journée.\n• Les pancakes à la fleur d'oranger sont d'une légèreté incroyable.",
+    insider_tip: "• La shakshuka est le plat le plus demandé du lieu, et pour cause : elle est excellente.\n• Pas de réservations le weekend, attendez-vous à un peu de file d’attente sur le trottoir.\n• Leur jus vert Kale/Pomme est le refresh parfait pour lancer la journée.\n• Les pancakes à la fleur d’oranger sont d’une légèreté incroyable.",
     specials: {
         cuisine: ["Shakshuka", "Brunch", "Pancakes"],
         drinks: ["Filter Coffee", "Flat White", "Green Juice"],

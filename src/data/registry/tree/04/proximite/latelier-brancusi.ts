@@ -39,8 +39,8 @@ export const latelier_brancusi: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Sur le parvis de Beaubourg, ce petit bâtiment bas passe souvent inaperçu. C'est pourtant la reconstruction fidèle de l'atelier du sculpteur Constantin Brancusi. À travers les vitres, on voit ses œuvres (L'Oiseau dans l'espace, Le Baiser) disposées exactement comme il le voulait, dans une lumière zénithale blanche et pure. C'est un lieu de silence et de contemplation absolue au milieu de l'agitation du centre Pompidou. L'entrée est gratuite, un cadeau caché.",
-    "insider_tip": "Reconstitution de l'atelier du sculpteur. Gratuit.",
+    "description": "Sur le parvis de Beaubourg, ce petit bâtiment bas passe souvent inaperçu. C’est pourtant la reconstruction fidèle de l’atelier du sculpteur Constantin Brancusi. À travers les vitres, on voit ses œuvres (L’Oiseau dans l’espace, Le Baiser) disposées exactement comme il le voulait, dans une lumière zénithale blanche et pure. C’est un lieu de silence et de contemplation absolue au milieu de l’agitation du centre Pompidou. L’entrée est gratuite, un cadeau caché.",
+    "insider_tip": "Reconstitution de l’atelier du sculpteur. Gratuit.",
     "specials": {
         "cuisine": [],
         "drinks": []

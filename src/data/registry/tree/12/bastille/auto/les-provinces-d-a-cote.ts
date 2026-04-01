@@ -5,9 +5,9 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
   slug: "les-provinces-d-a-cote",
   name: "Les Provinces d’à coté",
   category: "restaurant",
-  subcategory: ["japonais"],
+  subcategory: ['japonais'],
   location: {
-    address: "20 Rue d'Aligre, 75012 Paris, France",
+    address: "20 Rue d’Aligre, 75012 Paris, France",
     arrondissement: 12,
     lat: 48.8493394,
     lng: 2.3785534,
@@ -50,13 +50,13 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
       },
       {
         category_type: "starter",
-        display_label: "Entrées & Canaille : L'Art du Boucher",
+        display_label: "Entrées & Canaille : L’Art du Boucher",
         items: [
           { name: "Os à Moëlle au sel de Guérande", price_cents: 980, is_highlight: true },
           { name: "Croustillant de pied de cochon maison", price_cents: 1180, is_highlight: true },
           { name: "Planche de Saucisson sec artisanal", price_cents: 500 },
           { name: "Carpaccio de Bœuf charolais", price_cents: 980 },
-          { name: "Terrine du moment au piment d'Espelette", price_cents: 850 },
+          { name: "Terrine du moment au piment d’Espelette", price_cents: 850 },
           { name: "Assiette de Jambon Noir de Bigorre", price_cents: 1400 }
         ]
       },
@@ -64,14 +64,14 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats : Les Grandes Pièces de Viande",
         items: [
-          { name: "Onglet 'Grosse Faim' (300g)", price_cents: 1950, is_highlight: true },
+          { name: "Onglet ’Grosse Faim' (300g)", price_cents: 1950, is_highlight: true },
           { name: "Ris de Veau dorés au sautoir", price_cents: 3200, is_highlight: true },
           { name: "Côte de Bœuf Maturée (Pour 2 pers - le kg)", price_cents: 7500 },
           { name: "Faux-filet de Race Normande", price_cents: 2400 },
           { name: "Steak Tartare maison préparé minute", price_cents: 1850 },
           { name: "Bœuf Bourguignon tradition (Mijoté)", price_cents: 1700 },
           { name: "Andouillette AAAAA, sauce moutarde", price_cents: 1650 },
-          { name: "Côtelettes d'Agneau de lait", price_cents: 2200 }
+          { name: "Côtelettes d’Agneau de lait", price_cents: 2200 }
         ]
       },
       {
@@ -100,7 +100,7 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
         category_type: "drink",
         display_label: "Boissons & Vins Nature",
         items: [
-          { name: "Verre de Rouge 'Le P'tit Pinard'", price_cents: 650 },
+          { name: "Verre de Rouge ’Le P’tit Pinard’", price_cents: 650 },
           { name: "Bouteille de vin Nature (Sélection)", price_cents: 2800 },
           { name: "Bière Artisanale du 12ème", price_cents: 700 },
           { name: "Jus de fruits Alain Milliat", price_cents: 600 },
@@ -109,10 +109,10 @@ export const les_provinces_d_a_cote: SurgicalPlace = {
       }
     ]
   },
-  description: "Les Provinces d'à côté est une véritable ambassade de la viande située au cœur du marché d'Aligre. Mi-boucherie traditionnelle, mi-table d'hôte, le lieu propose une expérience radicale : choisir sa pièce de viande directement dans l'étal du boucher pour la faire griller à la perfection quelques mètres plus loin. Sous les carcasses suspendues et dans une odeur enivrante de jus de viande, on y redécouvre le goût du vrai produit dans une ambiance conviviale et sans artifice. Un incontournable pour les puristes carnivores.",
+  description: "Les Provinces d’à côté est une véritable ambassade de la viande située au cœur du marché d’Aligre. Mi-boucherie traditionnelle, mi-table d’hôte, le lieu propose une expérience radicale : choisir sa pièce de viande directement dans l'étal du boucher pour la faire griller à la perfection quelques mètres plus loin. Sous les carcasses suspendues et dans une odeur enivrante de jus de viande, on y redécouvre le goût du vrai produit dans une ambiance conviviale et sans artifice. Un incontournable pour les puristes carnivores.",
   insider_tip: `• **Le Choix du Boucher** : N'hésitez pas à demander conseil sur la maturation des côtes de bœuf, ils sont experts et passionnés.
-  • **Right of Cooking** : Le concept du 'droit de cuisson' permet de s'offrir des pièces de luxe à un prix restaurant défiant toute concurrence.
-  • **Le Pied de Cochon** : Leur croustillant de pied de cochon est l'un des meilleurs de la capitale, à ne pas rater.`,
+  • **Right of Cooking** : Le concept du ’droit de cuisson' permet de s'offrir des pièces de luxe à un prix restaurant défiant toute concurrence.
+  • **Le Pied de Cochon** : Leur croustillant de pied de cochon est l’un des meilleurs de la capitale, à ne pas rater.`,
   specials: {
     cuisine: ["Française", "Boucherie", "Carnivore"],
     drinks: ["Vins Nature", "Bières Artisanales"],

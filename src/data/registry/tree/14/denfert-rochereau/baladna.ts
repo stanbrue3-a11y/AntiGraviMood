@@ -5,7 +5,7 @@ export const baladna: SurgicalPlace = {
     name: "Baladna",
     slug: "baladna-paris-14",
     category: "restaurant",
-    subcategory: ["libanais", "méditerranéen", "grillades", "mezzés", "restaurant"],
+    subcategory: ['méditerranéen', 'français'],
     location: {
         address: "26 Pl. Denfert-Rochereau, 75014 Paris",
         arrondissement: 14,
@@ -45,7 +45,7 @@ export const baladna: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Les Plats Signatures (Plaisir Libanais)",
                 items: [
-                    { name: "Plat Baladna (3 brochettes : agneau, poulet, kebbé)", price_cents: 1850, description: "L'assortiment complet des grillades maison." },
+                    { name: "Plat Baladna (3 brochettes : agneau, poulet, kebbé)", price_cents: 1850, description: "L’assortiment complet des grillades maison." },
                     { name: "Chawarma (Émincé de viande marinée aux épices)", price_cents: 1600 },
                     { name: "Rougets frits à la libanaise", price_cents: 1650 },
                     { name: "Kebbé au four (Viande hachée farcie, blé concassé)", price_cents: 1450 },
@@ -58,20 +58,20 @@ export const baladna: SurgicalPlace = {
                 display_label: "Mezzés Chauds & Froids",
                 items: [
                     { name: "Houmous Classique (Purée de pois chiches)", price_cents: 700 },
-                    { name: "Moutabbal (Caviar d'aubergine fumé)", price_cents: 750 },
+                    { name: "Moutabbal (Caviar d’aubergine fumé)", price_cents: 750 },
                     { name: "Taboulé Libanais (Persil, tomate, bourghoul)", price_cents: 750 },
                     { name: "Falafel maison (les 4 pièces)", price_cents: 700 },
-                    { name: "Batata Harra (Pommes de terre sautées à l'ail)", price_cents: 650 },
+                    { name: "Batata Harra (Pommes de terre sautées à l’ail)", price_cents: 650 },
                     { name: "Samboussek (Chausson viande ou fromage)", price_cents: 250 },
                     { name: "Assiette variée de 5 Mezzés", price_cents: 1450 }
                 ]
             },
             {
                 category_type: "dessert",
-                display_label: "Douceurs d'Orient",
+                display_label: "Douceurs d’Orient",
                 items: [
                     { name: "Baklawa (Pâte feuilletée, miel, pistache)", price_cents: 600 },
-                    { name: "Mouhalabié (Flan libanais à la fleur d'oranger)", price_cents: 650 },
+                    { name: "Mouhalabié (Flan libanais à la fleur d’oranger)", price_cents: 650 },
                     { name: "Loukoum Traditionnel", price_cents: 400 }
                 ]
             },
@@ -94,13 +94,13 @@ export const baladna: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Surplombant la place Denfert-Rochereau, Baladna est une escale libanaise authentique qui refuse les compromis sur la qualité. Ici, les mezzés sont faits maison tous les matins et les grillades au feu de bois embaument la salle. L'ambiance est familiale, généreuse et invite au voyage culinaire entre Beyrouth et Paris. Une valeur sûre pour découvrir la finesse d'un vrai houmous et la tendreté des viandes marinées.",
-    insider_tip: "Ne manquez pas le Kebbé Nayé (agneau cru au blé concassé) pour les amateurs de sensations fortes, c'est l'un des plus frais de la capitale. La terrasse ensoleillée sur la place est un vrai bonheur au printemps.",
-    expert_catchline: "La quintessence du Liban à Denfert : mezzés d'une finesse rare et grillades parfumées.",
+    description: "Surplombant la place Denfert-Rochereau, Baladna est une escale libanaise authentique qui refuse les compromis sur la qualité. Ici, les mezzés sont faits maison tous les matins et les grillades au feu de bois embaument la salle. L’ambiance est familiale, généreuse et invite au voyage culinaire entre Beyrouth et Paris. Une valeur sûre pour découvrir la finesse d'un vrai houmous et la tendreté des viandes marinées.",
+    insider_tip: "Ne manquez pas le Kebbé Nayé (agneau cru au blé concassé) pour les amateurs de sensations fortes, c’est l'un des plus frais de la capitale. La terrasse ensoleillée sur la place est un vrai bonheur au printemps.",
+    expert_catchline: "La quintessence du Liban à Denfert : mezzés d’une finesse rare et grillades parfumées.",
     specials: {
         cuisine: ["Traditionnelle Libanaise", "Grillades au feu de bois", "Mezzés maison"],
         drinks: ["Arak traditionnel", "Vin libanais (Château Musar)"],
         must_eat: "Le Plat Baladna et le Houmous maison.",
-        must_drink: "Un verre d'Arak pour ouvrir l'appétit."
+        must_drink: "Un verre d’Arak pour ouvrir l'appétit."
     }
 };

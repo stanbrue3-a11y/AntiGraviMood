@@ -5,7 +5,7 @@ export const zhao_batignolles: SurgicalPlace = {
   slug: "la-taverne-de-zhao-batignolles",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "bobos"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "59 rue des Dames, 75017 Paris, France",
     arrondissement: 17,
@@ -42,9 +42,9 @@ export const zhao_batignolles: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_batignolles: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_batignolles: SurgicalPlace = {
       }
     ]
   },
-  description: "Dernière-née du groupe (juin 2025), la Taverne Batignolles s'installe dans l'un des quartiers les plus familiaux du 17e. Avec son décor urbain et soigné, elle propose une escapade authentique aux habitants du secteur. On y retrouve l'excellence des produits ZHAO dans un cadre accueillant.",
-  insider_tip: "• C'est l'adresse idéale si vous habitez le 17e et voulez un voyage culinaire sans quitter votre quartier.\n• Leur salle est conçue pour accueillir les tablées familiales du week-end, l'ambiance y est chaleureuse.\n• Ne ratez pas les Mo's en entrée, ils sont le format idéal pour un grignotage savoureux avec les enfants.",
+  description: "Dernière-née du groupe (juin 2025), la Taverne Batignolles s’installe dans l’un des quartiers les plus familiaux du 17e. Avec son décor urbain et soigné, elle propose une escapade authentique aux habitants du secteur. On y retrouve l’excellence des produits ZHAO dans un cadre accueillant.",
+  insider_tip: "• C’est l’adresse idéale si vous habitez le 17e et voulez un voyage culinaire sans quitter votre quartier.\n• Leur salle est conçue pour accueillir les tablées familiales du week-end, l’ambiance y est chaleureuse.\n• Ne ratez pas les Mo's en entrée, ils sont le format idéal pour un grignotage savoureux avec les enfants.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
   images: {

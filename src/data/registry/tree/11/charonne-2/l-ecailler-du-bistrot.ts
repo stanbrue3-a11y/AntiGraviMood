@@ -5,7 +5,7 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
     name: "L’Écailler du Bistrot",
     slug: "l-ecailler-du-bistrot",
     category: "restaurant",
-    subcategory: ["fruits de mer", "bistrot", "poisson", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "22 Rue Paul Bert",
         arrondissement: 11,
@@ -45,17 +45,17 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
                 display_label: "Formules Midi",
                 items: [
                     // VERIFIED: Relevé 2024
-                    { name: "Menu Déjeuner du marché", price_cents: 2600, description: "Formule abordable le midi (Entrée/Plat/Dessert varie selon l'arrivage)." }
+                    { name: "Menu Déjeuner du marché", price_cents: 2600, description: "Formule abordable le midi (Entrée/Plat/Dessert varie selon l’arrivage)." }
                 ]
             },
             {
                 category_type: "other",
                 display_label: "Mer & Huîtres",
                 items: [
-                    { name: "Douzaine d'huîtres Perles Noires n°3", price_cents: 3800 },
-                    { name: "Spéciales d'Utah Beach n°2 (les 6)", price_cents: 2200 },
+                    { name: "Douzaine d’huîtres Perles Noires n°3", price_cents: 3800 },
+                    { name: "Spéciales d’Utah Beach n°2 (les 6)", price_cents: 2200 },
                     { name: "Huîtres Plates du Belon (les 6)", price_cents: 2400 },
-                    { name: "Langoustines du Guilvinec rôties au beurre d'algues", price_cents: 1500 },
+                    { name: "Langoustines du Guilvinec rôties au beurre d’algues", price_cents: 1500 },
                     { name: "Carpaccio de lieu jaune de ligne, agrumes", price_cents: 1300 },
                     { name: "Couteaux à la plancha aux épices", price_cents: 1450 }
                 ]
@@ -76,7 +76,7 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
                 category_type: "dessert",
                 display_label: "Desserts Classiques",
                 items: [
-                    { name: "Paris-Brest de l'Écailler", price_cents: 900 },
+                    { name: "Paris-Brest de l’Écailler", price_cents: 900 },
                     { name: "Pomme au four, caramel au beurre salé", price_cents: 900 },
                     { name: "Tarte Tatin, crème crue de Normandie", price_cents: 1000 },
                     { name: "Tarte aux poires Bourdaloue", price_cents: 900 }
@@ -94,13 +94,13 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
     instagram_handle: "lecaillerdubistrot",
     verified: true,
     google_rating: 4.4,
-    description: "La petite soeur iodée du célébrissime Bistrot Paul Bert, juste à côté. L'Écailler du Bistrot sert une partition marine parisienne intemporelle : arrivages vertueux directs de Bretagne/Normandie, soles meunières faramineuses à partager et huîtres impériales, le tout dans un jus bistrotier d'un autre temps.",
+    description: "La petite soeur iodée du célébrissime Bistrot Paul Bert, juste à côté. L’Écailler du Bistrot sert une partition marine parisienne intemporelle : arrivages vertueux directs de Bretagne/Normandie, soles meunières faramineuses à partager et huîtres impériales, le tout dans un jus bistrotier d'un autre temps.",
     insider_tip: "• Les cuissons des poissons (barbue de ligne, turbot) sont réputées invraisemblables de justesse.\n• Le menu déjeuner à 26€ est un énorme plan qualitatif pour tester ceux qui le trouvent inabordable le soir.\n• Attention de ne pas confondre avec le Bistrot Paul Bert attenant.",
-    expert_catchline: "Soles meunières d'anthologie, homard au Kari Gosse, arrivage breton en direct. L'excellence iodée.",
+    expert_catchline: "Soles meunières d’anthologie, homard au Kari Gosse, arrivage breton en direct. L'excellence iodée.",
     specials: {
         cuisine: ["La Sole Meunière entière", "Les Plateaux de fruits de mer", "Le Demi-Homard bleu rôti"],
         drinks: ["Muscadets pointus & sauvignons tendus"],
-        must_eat: "L'inévitable Sole Meunière, beurrée, fondante mais ferme, comme on en rêve depuis notre enfance.",
-        must_drink: "Un grand vin blanc de Loire pour glisser délicatement sur la sole et affronter l'iode."
+        must_eat: "L’inévitable Sole Meunière, beurrée, fondante mais ferme, comme on en rêve depuis notre enfance.",
+        must_drink: "Un grand vin blanc de Loire pour glisser délicatement sur la sole et affronter l’iode."
     }
 };

@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const leclaireur_boissy: SurgicalPlace = {
     "id": "poi-182",
-    "name": "L'Eclaireur Boissy d'Anglas",
+    "name": "L’Eclaireur Boissy d'Anglas",
     "slug": "leclaireur-boissy",
     "category": "museum",
     "subcategory": [
@@ -11,7 +11,7 @@ export const leclaireur_boissy: SurgicalPlace = {
     "verified": true,
     "google_rating": 3.7,
     "location": {
-        "address": "10 Rue Boissy d'Anglas",
+        "address": "10 Rue Boissy d’Anglas",
         "arrondissement": 8,
         "lat": 48.868275,
         "lng": 2.321625,
@@ -38,8 +38,8 @@ export const leclaireur_boissy: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Plus qu une boutique, L’Eclaireur Boissy d’Anglas est un labyrinthe de design et de mode avant-gardiste. Pensé comme un cabinet de curiosités du futur, le lieu expose des pièces de créateurs (Fornasetti, Rick Owens, Ann Demeulemeester) au milieu d'une scénographie mouvante faite d écrans et de miroirs. Un lieu de pélérinage pour les amoureux de l'objet rare et de la création visuelle la plus pointue, où l'on déambule comme dans un musée de l'esthétique contemporaine.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Plus qu une boutique, L’Eclaireur Boissy d’Anglas est un labyrinthe de design et de mode avant-gardiste. Pensé comme un cabinet de curiosités du futur, le lieu expose des pièces de créateurs (Fornasetti, Rick Owens, Ann Demeulemeester) au milieu d’une scénographie mouvante faite d écrans et de miroirs. Un lieu de pélérinage pour les amoureux de l’objet rare et de la création visuelle la plus pointue, où l’on déambule comme dans un musée de l'esthétique contemporaine.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

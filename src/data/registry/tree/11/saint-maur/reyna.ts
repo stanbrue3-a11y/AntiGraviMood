@@ -5,7 +5,7 @@ export const reyna: SurgicalPlace = {
     name: "Reyna",
     slug: "reyna",
     category: "restaurant",
-    subcategory: ["filipino", "fusion", "bistronomie", "fried chicken"],
+    subcategory: ['français', 'bistronomie'],
     location: {
         address: "41 Rue de Montreuil",
         arrondissement: 11,
@@ -61,7 +61,7 @@ export const reyna: SurgicalPlace = {
                 display_label: "Plats Signatures",
                 items: [
                     { name: "Pork Belly Bicol Express", price_cents: 2100, description: "Poitrine fondante, sauce épicée piment/coco." },
-                    { name: "Fried Chicken Adobo", price_cents: 1900, description: "Yaourt à l'ail, glaçage soja-balsamique." },
+                    { name: "Fried Chicken Adobo", price_cents: 1900, description: "Yaourt à l’ail, glaçage soja-balsamique." },
                     { name: "Beef Braisé Special", price_cents: 2400 }
                 ]
             },
@@ -82,9 +82,9 @@ export const reyna: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "La 'Reine' de la fusion philippine par Erica Paredes. Une cuisine de tripes et de cœur qui bouscule les codes : ingrédients saisonniers français rencontrant les punchy saveurs de Manille.",
-    insider_tip: "La Hainan Burrata est l'entrée incontournable : un choc thermique et gustatif génial. Le lieu est petit et très prisé, réservations impératives.",
-    expert_catchline: "L'explosion des saveurs philippines revisitées avec élégance.",
+    description: "La ’Reine' de la fusion philippine par Erica Paredes. Une cuisine de tripes et de cœur qui bouscule les codes : ingrédients saisonniers français rencontrant les punchy saveurs de Manille.",
+    insider_tip: "La Hainan Burrata est l’entrée incontournable : un choc thermique et gustatif génial. Le lieu est petit et très prisé, réservations impératives.",
+    expert_catchline: "L’explosion des saveurs philippines revisitées avec élégance.",
     specials: {
         cuisine: ["Filipino Fusion", "Kare-Kare", "Lechon Kawali"],
         drinks: ["Natural Wines", "Asian Infusions"],

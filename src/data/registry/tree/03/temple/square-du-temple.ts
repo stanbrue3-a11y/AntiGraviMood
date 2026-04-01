@@ -40,8 +40,8 @@ export const square_du_temple: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Ce jardin paysager devant la mairie du 3ème arrondissement (Paris Centre) est le poumon vert du Haut-Marais. Construit sur l'emplacement de l'ancienne forteresse des Templiers (et de la prison de Louis XVI), c'est aujourd'hui un parc paisible avec une mare aux canards, une cascade artificielle et une pelouse libre d'accès. C'est le spot pique-nique chic des habitants du quartier, calme et parfaitement entretenu.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Ce jardin paysager devant la mairie du 3ème arrondissement (Paris Centre) est le poumon vert du Haut-Marais. Construit sur l’emplacement de l’ancienne forteresse des Templiers (et de la prison de Louis XVI), c’est aujourd’hui un parc paisible avec une mare aux canards, une cascade artificielle et une pelouse libre d’accès. C'est le spot pique-nique chic des habitants du quartier, calme et parfaitement entretenu.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

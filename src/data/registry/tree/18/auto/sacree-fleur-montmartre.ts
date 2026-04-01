@@ -5,7 +5,7 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
   slug: "sacree-fleur-montmartre",
   name: "Sacrée Fleur Montmartre",
   category: "restaurant",
-  subcategory: ["carné"],
+  subcategory: ['français'],
   location: {
     address: "50 Rue de Clignancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -44,11 +44,11 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
         display_label: "Entrées",
         items: [
           { name: "Cuisses de grenouilles en persillade", price_cents: 1400 },
-          { name: "Cassolette d'escargots à la normande", price_cents: 1300 },
-          { name: "Foie gras et compotée d'échalotes maison", price_cents: 2000 },
+          { name: "Cassolette d’escargots à la normande", price_cents: 1300 },
+          { name: "Foie gras et compotée d’échalotes maison", price_cents: 2000 },
           { name: "Mini-tartare de bœuf préparé", price_cents: 1200 },
           { name: "Rillettes maison de maquereaux fumés", price_cents: 1000 },
-          { name: "Soupe à l'oignon gratinée", price_cents: 1000 }
+          { name: "Soupe à l’oignon gratinée", price_cents: 1000 }
         ]
       },
       {
@@ -76,12 +76,12 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
       }
     ]
   },
-  description: "Sacré Fleur est une adresse sacrée pour les amateurs de viande à Montmartre. Situé au pied de la Butte, ce restaurant familial se spécialise dans les pièces de bœuf d'exception (Charolais) accompagnées de frites maison et de sauces traditionnelles. Une ambiance de bistrot parisien chaleureux et sans chichis.",
+  description: "Sacré Fleur est une adresse sacrée pour les amateurs de viande à Montmartre. Situé au pied de la Butte, ce restaurant familial se spécialise dans les pièces de bœuf d’exception (Charolais) accompagnées de frites maison et de sauces traditionnelles. Une ambiance de bistrot parisien chaleureux et sans chichis.",
   insider_tip: "• **Timing Stratégique** : Réservation impérative, le lieu est petit et très prisé des connaisseurs.\n• **Combo Moelle** : La Côte de bœuf est la star incontestée, idéale pour partager à deux.\n• **Détail Secret** : Ne repartez pas sans avoir goûté la Brioche façon pain perdu, un monument de gourmandise.",
   specials: {
     cuisine: ["Viandes", "Terroir"],
     drinks: ["Vins de Bordeaux", "Vins de la Vallée du Rhône"],
-    must_eat: "Cuisine carnée. Côte de bœuf d'1 Kg",
+    must_eat: "Cuisine carnée. Côte de bœuf d’1 Kg",
   },
   images: {
     hero: "AU_ZVEHaG4XhVeFIegfoStdfhBbPXntNxDNH6LXnmrOzei0V2rYHNkDHykemhdPq7d8WkrU_4eggwqjxFnwZJFC4Hm4fhqIoiInj-XHcwJG_CsLaL8qQnAprFavTe5MxehL_1E0jZMHgM2VHgvDvnmA3tZvSOd-gSGPHtul7zWJxluZmd6jVh01DKXo6vjKnQ-s9AOi98Jf-5PgdZL7spmuX35AQRSBVdLDo-ezOdZsrApSpZZwZwTxHQWX0jrK6ZFus8B4X2Xr8xhzeNlywvZhu938yh2hehXsNBvYQ1YyazXKVdw",

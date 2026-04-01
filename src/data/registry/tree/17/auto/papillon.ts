@@ -5,7 +5,7 @@ export const papillon: SurgicalPlace = {
   slug: "papillon",
   name: "Papillon",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Cuisine française", "Bistronomie chic"],
+  subcategory: ['français'],
   location: {
     address: "8 Rue Meissonier, 75017 Paris, France",
     arrondissement: 17,
@@ -42,7 +42,7 @@ export const papillon: SurgicalPlace = {
         category_type: "starter",
         display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Caviars d'aubergine, sésame et miso", price_cents: 1600 },
+          { name: "Caviars d’aubergine, sésame et miso", price_cents: 1600 },
           { name: "Radis beurrés et pain au levain", price_cents: 1200 },
           { name: "Velouté de châtaignes, mousse de lard", price_cents: 1800 },
           { name: "Pâté en croûte du moment", price_cents: 2100 },
@@ -55,7 +55,7 @@ export const papillon: SurgicalPlace = {
         items: [
           { name: "Canard sauvage rôtie aux olives de Lucques", price_cents: 3800 },
           { name: "Bar de ligne, fenouil et beurre blanc", price_cents: 3600 },
-          { name: "Paupiette de chou aux légumes d'hiver", price_cents: 2800 },
+          { name: "Paupiette de chou aux légumes d’hiver", price_cents: 2800 },
           { name: "quasi de veau, carottes fanes glacées", price_cents: 3500 },
           { name: "Pigeonneau de Vendée en crapaudine", price_cents: 4200 }
         ]
@@ -78,16 +78,16 @@ export const papillon: SurgicalPlace = {
           { name: "Coupe de Champagne", price_cents: 1600 },
           { name: "Verre de Meursault", price_cents: 1800 },
           { name: "Cocktail signature (le Butterfly)", price_cents: 1500 },
-          { name: "Infusion d'herbes fraîches", price_cents: 700 },
+          { name: "Infusion d’herbes fraîches", price_cents: 700 },
           { name: "Vittel (50cl)", price_cents: 600 }
         ]
       }
     ]
   },
-  description: `Papillon est l'écrin de Christophe Saintagne, ancien chef de file de l'écurie Ducasse. Ici, la gastronomie se dépouille de ses artifices pour revenir à l'essentiel : le goût juste et le produit magnifié. Le cadre minimaliste et élégant du quartier Wagram sert de théâtre à une partition culinaire d'une précision chirurgicale.`,
+  description: `Papillon est l’écrin de Christophe Saintagne, ancien chef de file de l’écurie Ducasse. Ici, la gastronomie se dépouille de ses artifices pour revenir à l’essentiel : le goût juste et le produit magnifié. Le cadre minimaliste et élégant du quartier Wagram sert de théâtre à une partition culinaire d’une précision chirurgicale.`,
   insider_tip: `• **Timing Stratégique** : Idéal pour un déjeuner d'affaires calme ou un dînner intimiste de haut vol.
   • **Combo Moelle** : Le pâté en croûte est une œuvre d'art, souvent imité mais jamais égalé ici.
-  • **Expérience Culturelle** : Christophe Saintagne redéfinit la simplicité luxe ; observez le dressage, c'est une leçon d'esthétisme.`,
+  • **Expérience Culturelle** : Christophe Saintagne redéfinit la simplicité luxe ; observez le dressage, c’est une leçon d'esthétisme.`,
   expert_catchline: "La haute couture culinaire sans le superflu.",
   specials: {
     cuisine: ["Gastronomie pure"],

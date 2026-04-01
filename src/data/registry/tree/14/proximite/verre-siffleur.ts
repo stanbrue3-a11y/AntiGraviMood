@@ -5,9 +5,9 @@ export const le_verre_siffleur: SurgicalPlace = {
     name: "Le Verre Siffleur",
     slug: "le-verre-siffleur-paris",
     category: "restaurant",
-    subcategory: ["bistrot", "vins", "terrasse", "quartier", "parisien", "moderne"],
+    subcategory: ['français', 'terrasse'],
     location: {
-        address: "73 Rue d'Alésia, 75014 Paris, France",
+        address: "73 Rue d’Alésia, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.8277017,
         lng: 2.3287746,
@@ -45,7 +45,7 @@ export const le_verre_siffleur: SurgicalPlace = {
                     { name: "Suprême de Volaille Fermière Rôtie, Jus Corsé", price_cents: 1850 },
                     { name: "Pièce du Boucher Grillée, Frites Fraîches", price_cents: 2100 },
                     { name: "Burger Siffleur (Poulet Pané & Sauce Maison)", price_cents: 1750 },
-                    { name: "Tartare de Boeuf d'Alésia", price_cents: 1700 },
+                    { name: "Tartare de Boeuf d’Alésia", price_cents: 1700 },
                     { name: "Filet de Daurade Royale, Trio de Légumes", price_cents: 2000 },
                     { name: "Risotto Crémeux au Safran & Parmesan", price_cents: 1800 },
                     { name: "Linguine à la Tomate Cerise & Roquette", price_cents: 1650 },
@@ -58,9 +58,9 @@ export const le_verre_siffleur: SurgicalPlace = {
                 items: [
                     { name: "Tatin de Boudin Noir aux Pommes", price_cents: 850 },
                     { name: "Poêlée de Calamars Sauce Piperade", price_cents: 800 },
-                    { name: "Tartare d'Avocat & Crevettes Marine", price_cents: 900 },
+                    { name: "Tartare d’Avocat & Crevettes Marine", price_cents: 900 },
                     { name: "Terrine de Campagne du Boucher", price_cents: 800 },
-                    { name: "L'Oeuf Mayonnaise aux Herbes", price_cents: 700 }
+                    { name: "L’Oeuf Mayonnaise aux Herbes", price_cents: 700 }
                 ]
             },
             {
@@ -84,14 +84,14 @@ export const le_verre_siffleur: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.1,
-    description: "Le Verre Siffleur est l'archétype du bistrot de quartier chaleureux où l'on se sent immédiatement chez soi. Situé sur la dynamique rue d'Alésia, il offre un cadre boisé et accueillant, prolongé par une agréable terrasse. La cuisine, sincère et faite maison, revisite les classiques français avec une pointe de modernité et une attention particulière portée à la fraîcheur des produits. C'est l'endroit parfait pour un déjeuner détendu, un apéritif prolongé autour d'un bon verre de vin ou un dîner sans chichis mais de grande qualité. L'équipe, souriante et efficace, finit de faire de ce lieu une valeur sûre du 14ème.",
+    description: "Le Verre Siffleur est l’archétype du bistrot de quartier chaleureux où l’on se sent immédiatement chez soi. Situé sur la dynamique rue d’Alésia, il offre un cadre boisé et accueillant, prolongé par une agréable terrasse. La cuisine, sincère et faite maison, revisite les classiques français avec une pointe de modernité et une attention particulière portée à la fraîcheur des produits. C’est l’endroit parfait pour un déjeuner détendu, un apéritif prolongé autour d’un bon verre de vin ou un dîner sans chichis mais de grande qualité. L’équipe, souriante et efficace, finit de faire de ce lieu une valeur sûre du 14ème.",
     insider_tip: "Le Tatin de boudin noir est une petite merveille qui surprendra même les plus réticents. Leur sélection de vins au verre est intelligemment pensée pour accompagner chaque étape du repas.",
-    expert_catchline: "Le bistrot de coeur et de goût de la rue d'Alésia.",
+    expert_catchline: "Le bistrot de coeur et de goût de la rue d’Alésia.",
     specials: {
         cuisine: ["Bistrot Français", "Plats Signature"],
         drinks: ["Large Séléction de Vins", "Cocktails Maison"],
         must_eat: "La Tatin de Boudin Noir et le Burger Siffleur.",
-        must_drink: "Un vin rouge souple sélectionné par l'ardoise."
+        must_drink: "Un vin rouge souple sélectionné par l’ardoise."
     },
     source: "expert_human"
 };

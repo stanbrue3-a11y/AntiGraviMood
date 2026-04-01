@@ -5,7 +5,7 @@ export const bistrotPaulBert: SurgicalPlace = {
     name: "Bistrot Paul Bert",
     slug: "bistrot-paul-bert",
     category: "restaurant",
-    subcategory: ["bistrot", "french", "traditional", "institution"],
+    subcategory: ['français'],
     location: {
         address: "18 Rue Paul Bert",
         arrondissement: 11,
@@ -56,7 +56,7 @@ export const bistrotPaulBert: SurgicalPlace = {
                 items: [
                     { name: "Terrine de Campagne Maison", price_cents: 1000 },
                     { name: "Poireaux Vinaigrette & Noisettes", price_cents: 900, is_highlight: true },
-                    { name: "Oeuf Mayo à l'ail des ours", price_cents: 1000 },
+                    { name: "Oeuf Mayo à l’ail des ours", price_cents: 1000 },
                     { name: "Couteaux à la plancha, beurre persillé", price_cents: 1400 },
                     { name: "Foie Gras de Canard mi-cuit", price_cents: 2500 },
                     { name: "Hure de Cochon artisanale", price_cents: 1000 },
@@ -111,13 +111,13 @@ export const bistrotPaulBert: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Bistrot Paul Bert est l'archétype du bistrot parisien. Entre ses banquettes en cuir, ses miroirs piqués et ses ardoises où s'inscrivent les arrivages du jour, le temps semble s'être arrêté. Ici, on célèbre la grande cuisine de tradition française : viandes sourcées avec soin, sauces onctueuses et desserts généreux. Une institution bruyante, vivante et indispensable où le Paris-Brest et l'entrecôte au poivre règnent en maîtres.",
-    insider_tip: "Ne faites pas l'impasse sur le dessert. Leur Paris-Brest est une légende urbaine à lui seul. Arrivez à l'heure car la salle se remplit instantanément de fidèles et de gourmets du monde entier.",
-    expert_catchline: "L'âme du bistrot parisien : service à l'ancienne, viandes d'exception et Paris-Brest de légende.",
+    description: "Le Bistrot Paul Bert est l’archétype du bistrot parisien. Entre ses banquettes en cuir, ses miroirs piqués et ses ardoises où s’inscrivent les arrivages du jour, le temps semble s’être arrêté. Ici, on célèbre la grande cuisine de tradition française : viandes sourcées avec soin, sauces onctueuses et desserts généreux. Une institution bruyante, vivante et indispensable où le Paris-Brest et l'entrecôte au poivre règnent en maîtres.",
+    insider_tip: "Ne faites pas l’impasse sur le dessert. Leur Paris-Brest est une légende urbaine à lui seul. Arrivez à l'heure car la salle se remplit instantanément de fidèles et de gourmets du monde entier.",
+    expert_catchline: "L’âme du bistrot parisien : service à l’ancienne, viandes d’exception et Paris-Brest de légende.",
     specials: {
         cuisine: ["Bistronomie traditionnelle", "Viandes de race", "Grandes sauces françaises"],
         drinks: ["Cave à vins monumentale", "Vins de vignerons"],
-        must_eat: "Le filet de boeuf au poivre de Sarawak et l'inoxydable Paris-Brest.",
-        must_drink: "Un Saint-Joseph ou un vin de la Loire choisi sur l'ardoise."
+        must_eat: "Le filet de boeuf au poivre de Sarawak et l’inoxydable Paris-Brest.",
+        must_drink: "Un Saint-Joseph ou un vin de la Loire choisi sur l’ardoise."
     }
 };

@@ -39,8 +39,8 @@ export const musee_gustave_moreau: SurgicalPlace = {
         "festif": 4,
         "culturel": 25
     },
-    "description": "Ancienne maison et ateliers du peintre symboliste Gustave Moreau, le clou de la visite est son monumental escalier en colimaçon qui semble s'envoler vers les cimes de l'imaginaire. Les murs sont recouverts du sol au plafond de milliers d'œuvres oniriques, créant une atmosphère de cabinet de curiosités géant.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Ancienne maison et ateliers du peintre symboliste Gustave Moreau, le clou de la visite est son monumental escalier en colimaçon qui semble s’envoler vers les cimes de l’imaginaire. Les murs sont recouverts du sol au plafond de milliers d’œuvres oniriques, créant une atmosphère de cabinet de curiosités géant.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

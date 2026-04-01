@@ -38,8 +38,8 @@ export const dose_batignolles: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Dose est bien plus qu'un simple café, c'est l'antre des puristes du grain aux Batignolles. Installé face au parc, ce coffee shop propose une torréfaction propre et une expertise rare sur chaque tasse. Du V60 au Flat White, chaque extraction est une leçon de goût. L'ambiance y est cool et studieuse, complétée par une offre de brunch gourmande et des jus frais pressés minute. C'est l'essence même du 'third wave coffee' appliqué avec passion dans un cadre de quartier chaleureux.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Dose est bien plus qu’un simple café, c’est l’antre des puristes du grain aux Batignolles. Installé face au parc, ce coffee shop propose une torréfaction propre et une expertise rare sur chaque tasse. Du V60 au Flat White, chaque extraction est une leçon de goût. L’ambiance y est cool et studieuse, complétée par une offre de brunch gourmande et des jus frais pressés minute. C’est l’essence même du ’third wave coffee' appliqué avec passion dans un cadre de quartier chaleureux.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

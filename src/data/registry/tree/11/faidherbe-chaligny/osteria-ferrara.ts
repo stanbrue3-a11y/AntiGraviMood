@@ -5,7 +5,7 @@ export const osteria_ferrara: SurgicalPlace = {
     name: "Osteria Ferrara",
     slug: "osteria-ferrara",
     category: "restaurant",
-    subcategory: ["italien", "pâtes", "convivial", "bistronomique"],
+    subcategory: ['italien', 'français'],
     location: {
         address: "7 Rue du Dahomey",
         arrondissement: 11,
@@ -48,7 +48,7 @@ export const osteria_ferrara: SurgicalPlace = {
                     { name: "Tarte à la tomate, ricotta salata, fleurs de courgette", price_cents: 1600 },
                     { name: "Vitello tonnato classique", price_cents: 1800 },
                     { name: "Jambon de Parme affiné 24 mois", price_cents: 1450 },
-                    { name: "Focaccia maison à l'origan et sel noir", price_cents: 600 },
+                    { name: "Focaccia maison à l’origan et sel noir", price_cents: 600 },
                     { name: "Carpaccio de thon rouge, câpres et citron", price_cents: 1900 }
                 ]
             },
@@ -57,7 +57,7 @@ export const osteria_ferrara: SurgicalPlace = {
                 display_label: "Primi & Secondi (Plats)",
                 items: [
                     { name: "Mezzi paccheri aux langoustines crues", price_cents: 2400 },
-                    { name: "Ris d'agneau, fenouil rôti, jus citron/thym", price_cents: 2400 },
+                    { name: "Ris d’agneau, fenouil rôti, jus citron/thym", price_cents: 2400 },
                     { name: "Calamarata ragoût de saucisse au vin rouge", price_cents: 2200 },
                     { name: "Pêche du jour, légumes croquants", price_cents: 2800 },
                     { name: "Raviolis del plin à la piémontaise", price_cents: 2600 },
@@ -87,13 +87,13 @@ export const osteria_ferrara: SurgicalPlace = {
     instagram_handle: "osteriaferrara",
     verified: true,
     google_rating: 4.4,
-    description: "Derrière sa devanture boisée, l'Osteria Ferrara cache la quintessence de la trattoria chic. Le chef Fabrizio Ferrara y dépoussière la gastronomie italienne avec un amour pur du produit brut. Loin du vacarme festif d'autres trattorias parisiennes, on vient ici se murmurer des secrets devant une Calamarata incandescente et un verre de vin pointu.",
-    insider_tip: "• Une institution discrète parfaite pour un très bon date avec l'Italie dans l'assiette.\n• Réservez au moins deux semaines à l'avance, la salle complète à chaque service.\n• Ne partez pas sans tester le Cannolo sicilien ultra croustillant.",
+    description: "Derrière sa devanture boisée, l’Osteria Ferrara cache la quintessence de la trattoria chic. Le chef Fabrizio Ferrara y dépoussière la gastronomie italienne avec un amour pur du produit brut. Loin du vacarme festif d'autres trattorias parisiennes, on vient ici se murmurer des secrets devant une Calamarata incandescente et un verre de vin pointu.",
+    insider_tip: "• Une institution discrète parfaite pour un très bon date avec l’Italie dans l’assiette.\n• Réservez au moins deux semaines à l’avance, la salle complète à chaque service.\n• Ne partez pas sans tester le Cannolo sicilien ultra croustillant.",
     expert_catchline: "Trattoria bourgeoise de très haute volée, pour manger les meilleures pâtes de Paris dans le calme absolu.",
     specials: {
         cuisine: ["Mezzi paccheri langoustines", "Cannolo Sicilien", "Vitello Tonnato"],
         drinks: ["Barolo", "Vins naturels italiens"],
-        must_eat: "La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l'image des Mezzi paccheri aux langoustines crues. Du brutal chic.",
+        must_eat: "La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l’image des Mezzi paccheri aux langoustines crues. Du brutal chic.",
         must_drink: "Magnifique cave italienne, beaucoup de belles quilles nord-italiennes."
     }
 };

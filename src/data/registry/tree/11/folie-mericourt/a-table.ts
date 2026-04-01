@@ -5,7 +5,7 @@ export const a_table: SurgicalPlace = {
     name: "À Table",
     slug: "a-table",
     category: "restaurant",
-    subcategory: ["bistronomique", "marché", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "10 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -65,7 +65,7 @@ export const a_table: SurgicalPlace = {
                     { name: "Mi-cuit de saumon, mousseline chou-fleur, beurre blanc", price_cents: 2800 },
                     { name: "Demi-magret de canard cuit basse température", price_cents: 2500 },
                     { name: "Gnocchis à la crème de truffe", price_cents: 2200 },
-                    { name: "Noix d'entrecôte argentine (300g)", price_cents: 3800 }
+                    { name: "Noix d’entrecôte argentine (300g)", price_cents: 3800 }
                 ]
             },
             {
@@ -97,11 +97,11 @@ export const a_table: SurgicalPlace = {
     instagram_handle: "onzeatable_paris",
     verified: true,
     google_rating: 4.7,
-    description: "Une excellente surprise de quartier rue de la Folie Méricourt. À Table (anciennement 'Onze à Table') joue la carte de la bistronomie de réconfort : une cuisine française modernisée, généreuse et très soignée visuellement. Les viandes (comme l'entrecôte argentine) y sont particulièrement bien traitées.",
-    insider_tip: "• Le restaurant sert en continu en fin de semaine et ferme à minuit, ce qui en fait un excellent plan pour les dîners tardifs dans le quartier.\n• Leur brunch du dimanche (34€) est de plus en plus populaire, pensez à réserver.\n• Si vous venez à l'apéro, commencez par partager le croque à la truffe et au pastrami (18€), diablement efficace.",
+    description: "Une excellente surprise de quartier rue de la Folie Méricourt. À Table (anciennement ’Onze à Table’) joue la carte de la bistronomie de réconfort : une cuisine française modernisée, généreuse et très soignée visuellement. Les viandes (comme l’entrecôte argentine) y sont particulièrement bien traitées.",
+    insider_tip: "• Le restaurant sert en continu en fin de semaine et ferme à minuit, ce qui en fait un excellent plan pour les dîners tardifs dans le quartier.\n• Leur brunch du dimanche (34€) est de plus en plus populaire, pensez à réserver.\n• Si vous venez à l’apéro, commencez par partager le croque à la truffe et au pastrami (18€), diablement efficace.",
     expert_catchline: "Une bistronomie de réconfort aux assiettes généreuses et au sourcing soigné, parfaite pour un dîner tardif.",
     specials: {
-        cuisine: ["Croque truffe & pastrami", "Noix d'entrecôte d'Argentine", "Œufs mayo façon César"],
+        cuisine: ["Croque truffe & pastrami", "Noix d’entrecôte d'Argentine", "Œufs mayo façon César"],
         drinks: ["Cocktails classiques bien dosés"],
         must_eat: "Le magret de canard en basse température (25€), fondant à cœur avec sa peau saisie.",
         must_drink: "Une pinte bien fraîche pour accompagner le fameux croque à la truffe et au pastrami."

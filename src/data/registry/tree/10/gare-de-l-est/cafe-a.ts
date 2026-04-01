@@ -15,7 +15,7 @@ export const cafe_a: SurgicalPlace = {
         "arrondissement": 10,
         "lat": 48.875386,
         "lng": 2.360012,
-        "nearest_metro": "Gare de l'Est",
+        "nearest_metro": "Gare de l’Est",
         "metro_lines": [
             4,
             5,
@@ -43,8 +43,8 @@ export const cafe_a: SurgicalPlace = {
         "festif": 4,
         "culturel": 7.5
     },
-    "description": "Installé dans l'ancien couvent des Récollets (actuelle Maison de l'Architecture), près de la Gare de l'Est, le Café A possède l'une des plus belles cours intérieures secrètes de Paris. On boit un verre sous les arcades ou allongé dans des transats sur le gravier blanc, à l'ombre de vieux arbres. C'est calme, vaste, et inattendu dans ce quartier dense. Un havre de paix architectural parfait pour les beaux jours.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Installé dans l’ancien couvent des Récollets (actuelle Maison de l’Architecture), près de la Gare de l’Est, le Café A possède l’une des plus belles cours intérieures secrètes de Paris. On boit un verre sous les arcades ou allongé dans des transats sur le gravier blanc, à l’ombre de vieux arbres. C'est calme, vaste, et inattendu dans ce quartier dense. Un havre de paix architectural parfait pour les beaux jours.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

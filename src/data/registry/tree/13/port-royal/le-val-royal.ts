@@ -45,7 +45,7 @@ export const le_val_royal: SurgicalPlace = {
         "hh_time": "15h-02h",
         "hh_pint": 3.8,
         "hh_cocktail": 5.8,
-        "smart_tip": "Happy Hour record (3,80€ la pinte) jusqu'à 02h du matin. Menu étudiant à 9,50€ imbattable.",
+        "smart_tip": "Happy Hour record (3,80€ la pinte) jusqu’à 02h du matin. Menu étudiant à 9,50€ imbattable.",
         "menu_items": [
             {
                 "category_type": "drink",
@@ -65,7 +65,7 @@ export const le_val_royal: SurgicalPlace = {
                     { "name": "Croque Monsieur Maison & Frites", "price_cents": 980 },
                     { "name": "Œuf Cocotte du Val", "price_cents": 600 },
                     { "name": "Entrecôte de Bœuf Grillée (240g)", "price_cents": 1800 },
-                    { "name": "Pavé de Saumon à l'oseille", "price_cents": 1380 },
+                    { "name": "Pavé de Saumon à l’oseille", "price_cents": 1380 },
                     { "name": "Taglio Del Macellaio", "price_cents": 1500 },
                     { "name": "Menu Étudiant (Plat + Boisson)", "price_cents": 950 },
                     { "name": "Pasta Box (Petite/Moyenne/Maxi)", "price_cents": 450 }
@@ -89,13 +89,13 @@ export const le_val_royal: SurgicalPlace = {
         "festif": 60,
         "culturel": 10
     },
-    "description": "Le véritable QG de Port-Royal. Entre les étudiants de la fac de médecine et les habitués du Val-de-Grâce, cette brasserie est une institution de la convivialité brute. On y vient pour la terrasse immense et chauffée, les prix défiant toute concurrence parisienne et l'accueil toujours impeccable.",
-    "insider_tip": "• Le secret du Val : leur Happy Hour court jusqu'à 2h du matin, une rareté totale sur le boulevard qui en fait le refuge ultime des fins de soirées fauchées.\n• Si vous saturez de la pinte, demandez leur couscous (servi avec générosité le vendredi) ou posez-vous dans la salle du fond avec votre laptop, c'est le spot de coworking gratuit le mieux gardé du quartier.\n• Pour les petits budgets, la Pasta Box à emporter démarre à 4,50€, imbattable pour le secteur.",
+    "description": "Le véritable QG de Port-Royal. Entre les étudiants de la fac de médecine et les habitués du Val-de-Grâce, cette brasserie est une institution de la convivialité brute. On y vient pour la terrasse immense et chauffée, les prix défiant toute concurrence parisienne et l’accueil toujours impeccable.",
+    "insider_tip": "• Le secret du Val : leur Happy Hour court jusqu’à 2h du matin, une rareté totale sur le boulevard qui en fait le refuge ultime des fins de soirées fauchées.\n• Si vous saturez de la pinte, demandez leur couscous (servi avec générosité le vendredi) ou posez-vous dans la salle du fond avec votre laptop, c'est le spot de coworking gratuit le mieux gardé du quartier.\n• Pour les petits budgets, la Pasta Box à emporter démarre à 4,50€, imbattable pour le secteur.",
     "specials": {
         "cuisine": ["Brasserie", "Français", "Couscous"],
         "drinks": ["Pinte Blonde HH", "Vins de Propriétaires", "Cocktails Classiques"],
         "must_eat": "Le Croque Monsieur extra-beurré ou le Menu Étudiant pour les budgets serrés.",
-        "expert_catchline": "Le meilleur rapport 'Heures de Soleil / Prix de la Pinte' de tout le sud parisien."
+        "expert_catchline": "Le meilleur rapport ’Heures de Soleil / Prix de la Pinte' de tout le sud parisien."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUweGRnq1YqS45Mq-6OgUmBxi6uK6Z1MiOhDdGdp0XnYHulXaY8rHSdoLFHHJcEjasvCdIqXewvSHdscxpH6uZ6lxj74humQzZ52_9NibTBmPIsKLR_UV7anuUdXR-tn30AlzMhcMv0764Sc0XPnSWXeSo7FiELnKUUh7I0jjs64TPVhtZ4X8_MqhRZWdeQXIYHnBeZjxQncjWwWz3j7KeTvBX798IM9X8fTL9DmrUhWW-HQNDKnF1YeMw2W8xTo6o7LU2wjm2iyNsdPnerd833snOwXHkuBkGkQ5a0yS9QQw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

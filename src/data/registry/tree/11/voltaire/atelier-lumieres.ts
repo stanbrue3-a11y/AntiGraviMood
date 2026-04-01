@@ -41,7 +41,7 @@ export const atelier_lumieres: SurgicalPlace = {
         "festif": 4,
         "culturel": 24.5
     },
-    "description": "La première 'imprimerie numérique' géante de Paris. Dans cette ancienne fonderie du XIXe siècle, les œuvres de Klimt, Van Gogh ou Dalí sont projetées en format XXL sur les murs de 10 mètres de haut et sur le sol, accompagnées d'une musique immersive. Ce n'est pas une exposition, c'est une plongée physique dans la peinture. On marche littéralement dans la couleur. C'est l'expérience artistique idéale pour ceux qui trouvent les musées classiques trop statiques.",
+    "description": "La première ’imprimerie numérique’ géante de Paris. Dans cette ancienne fonderie du XIXe siècle, les œuvres de Klimt, Van Gogh ou Dalí sont projetées en format XXL sur les murs de 10 mètres de haut et sur le sol, accompagnées d’une musique immersive. Ce n’est pas une exposition, c’est une plongée physique dans la peinture. On marche littéralement dans la couleur. C’est l’expérience artistique idéale pour ceux qui trouvent les musées classiques trop statiques.",
     "insider_tip": "Expérience immersive sonore et visuelle. Réservez impérativement en ligne.",
     "specials": {
         "cuisine": [],

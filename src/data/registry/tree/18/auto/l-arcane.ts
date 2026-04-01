@@ -5,7 +5,7 @@ export const l_arcane: SurgicalPlace = {
   slug: "l-arcane",
   name: "L’Arcane",
   category: "restaurant",
-  subcategory: ["gastronomique", "etoile", "chic", "moderne"],
+  subcategory: ['français'],
   location: {
     address: "39 Rue Lamarck, 75018 Paris, France",
     arrondissement: 18,
@@ -43,12 +43,12 @@ export const l_arcane: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "Préludes de l'Arcane (Entrées)",
+        display_label: "Préludes de l’Arcane (Entrées)",
         items: [
           { name: "Œuf à 63°, Asperges & Effilochée de Tourteau", price_cents: 0, is_highlight: true },
           { name: "Saumon juste nacré, Émulsion Citronnelle & Gingembre", price_cents: 0, is_highlight: true },
           { name: "Surprise de Tomate, Burrata & Gaspacho Noire de Crimée", price_cents: 0 },
-          { name: "Cromesquis d'Artichaut & Crème de Truffe", price_cents: 0, is_highlight: true },
+          { name: "Cromesquis d’Artichaut & Crème de Truffe", price_cents: 0, is_highlight: true },
           { name: "Carpaccio de Saint-Jacques au Yuzu & Radis noir", price_cents: 0 },
           { name: "Velouté de Topinambours & Éclats de Noisettes", price_cents: 0 },
           { name: "Ravioles de Foie Gras de Canard & Bouillon au Bois", price_cents: 0, is_highlight: true },
@@ -59,9 +59,9 @@ export const l_arcane: SurgicalPlace = {
         category_type: "main",
         display_label: "Séquences Gastronomiques (Plats)",
         items: [
-          { name: "Caille d'Anjou rôtie & Petits pois à la française", price_cents: 0, is_highlight: true },
+          { name: "Caille d’Anjou rôtie & Petits pois à la française", price_cents: 0, is_highlight: true },
           { name: "Lapin de Vendée, Jeunes poireaux & Polenta crémeuse", price_cents: 0, is_highlight: true },
-          { name: "Chaud-froid de Black Angus & Girolles d'été", price_cents: 0 },
+          { name: "Chaud-froid de Black Angus & Girolles d’été", price_cents: 0 },
           { name: "Canard de Challans rôti au sang & Betteraves", price_cents: 0, is_highlight: true },
           { name: "Saint-Pierre de ligne, Fenouil confit & Citron", price_cents: 0 },
           { name: "Ris de Veau laqué au Réglisse & Échalotes rôties", price_cents: 0, is_highlight: true },
@@ -100,20 +100,20 @@ export const l_arcane: SurgicalPlace = {
           { name: "Verre de Vin Blanc Sélectionné (Accord)", price_cents: 1400, is_highlight: true },
           { name: "Verre de Vin Rouge Grand Cru", price_cents: 1800 },
           { name: "Bouteille de Champagne de Vigneron (Selection)", price_cents: 8500, is_highlight: true },
-          { name: "Accord Mets & Vins 'Découverte' (4 verres)", price_cents: 4500, is_highlight: true },
-          { name: "Eau micro-filtrée L'Arcane (75cl)", price_cents: 500 },
+          { name: "Accord Mets & Vins ’Découverte' (4 verres)", price_cents: 4500, is_highlight: true },
+          { name: "Eau micro-filtrée L’Arcane (75cl)", price_cents: 500 },
           { name: "Café de spécialité Terres de Café", price_cents: 450 },
           { name: "Infusion aux Herbes du jardin", price_cents: 600 }
         ]
       }
     ]
   },
-  description: "L'Arcane est le sanctuaire étoilé de la rue Lamarck, où le chef Laurent Magnin déploie une gastronomie d'une finesse absolue. L'établissement se distingue par ses 'menus à l'aveugle', une invitation à la surprise totale où chaque séquence révèle la maîtrise parfaite des cuissons et la noblesse des produits de saison. Le cadre est intimiste, épuré et élégant, offrant une vue discrète sur les pentes de Montmartre, loin de l'agitation touristique, pour une expérience culinaire hors du temps.",
-  insider_tip: "• **Menu Surprise** : N'ayez pas peur de l'inconnu, le chef est un maître de l'équilibre. Signalez simplement vos allergies à l'avance.\n• **L'Emplacement** : Le restaurant est situé sur le versant plus calme de la Butte, idéal pour une soirée romantique et feutrée.\n• **Accords Vins** : L'accord mets-vins est particulièrement pertinent ici, les flacons sélectionnés soulignent magnifiquement la délicatesse des plats.",
+  description: "L’Arcane est le sanctuaire étoilé de la rue Lamarck, où le chef Laurent Magnin déploie une gastronomie d’une finesse absolue. L’établissement se distingue par ses ’menus à l’aveugle’, une invitation à la surprise totale où chaque séquence révèle la maîtrise parfaite des cuissons et la noblesse des produits de saison. Le cadre est intimiste, épuré et élégant, offrant une vue discrète sur les pentes de Montmartre, loin de l’agitation touristique, pour une expérience culinaire hors du temps.",
+  insider_tip: "• **Menu Surprise** : N’ayez pas peur de l’inconnu, le chef est un maître de l’équilibre. Signalez simplement vos allergies à l’avance.\n• **L’Emplacement** : Le restaurant est situé sur le versant plus calme de la Butte, idéal pour une soirée romantique et feutrée.\n• **Accords Vins** : L'accord mets-vins est particulièrement pertinent ici, les flacons sélectionnés soulignent magnifiquement la délicatesse des plats.",
   specials: {
     cuisine: ["Haute Gastronomie étoilée", "Menu surprise carte blanche", "Produits de saison"],
     drinks: ["Accords mets-vins de précision", "Sélection de Champagnes", "Vins de petits producteurs"],
-    must_eat: "L'Œuf à 63°, Asperges et Effilochée de Tourteau : une entrée d'une grande technicité, signature de l'élégance du chef.",
+    must_eat: "L’Œuf à 63°, Asperges et Effilochée de Tourteau : une entrée d’une grande technicité, signature de l’élégance du chef.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

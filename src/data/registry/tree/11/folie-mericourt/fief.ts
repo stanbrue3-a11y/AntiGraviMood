@@ -5,7 +5,7 @@ export const fief: SurgicalPlace = {
     name: "FIEF / Fait Ici En France",
     slug: "fief",
     category: "restaurant",
-    subcategory: ["étoilé", "gastronomique", "durable", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "44 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -45,12 +45,12 @@ export const fief: SurgicalPlace = {
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
                 category_type: "other",
-                display_label: "L'Expérience Gastronomique (Comptoir d'Hôtes)",
+                display_label: "L’Expérience Gastronomique (Comptoir d'Hôtes)",
                 items: [
                     { name: "Menu Dégustation en 10 Temps", price_cents: 17000, description: "Servi exclusivement au comptoir à 20h, immersion totale avec le chef." },
-                    { name: "Accord Mets & Vins 'Découverte'", price_cents: 8000, description: "6 verres de vins de vignerons français." },
-                    { name: "Accord Mets & Vins 'Exception'", price_cents: 14500, description: "6 verres de cuvées rares et prestigieuses." },
-                    { name: "Accord Sans Alcool", price_cents: 6500, description: "6 boissons d'exception infusées/fermentées (100% FR)." }
+                    { name: "Accord Mets & Vins ’Découverte'", price_cents: 8000, description: "6 verres de vins de vignerons français." },
+                    { name: "Accord Mets & Vins ’Exception'", price_cents: 14500, description: "6 verres de cuvées rares et prestigieuses." },
+                    { name: "Accord Sans Alcool", price_cents: 6500, description: "6 boissons d’exception infusées/fermentées (100% FR)." }
                 ]
             },
             {
@@ -66,9 +66,9 @@ export const fief: SurgicalPlace = {
                 display_label: "Signatures - Fait Ici En France",
                 items: [
                     { name: "Sturgeon Soufflé", price_cents: 3200, description: "Esturgeon fumé, lait de Neuvic et caviar." },
-                    { name: "Tartelette d'oignons brûlés", price_cents: 1800, description: "Truffe noire et kale croustillant." },
+                    { name: "Tartelette d’oignons brûlés", price_cents: 1800, description: "Truffe noire et kale croustillant." },
                     { name: "Poisson de ligne au poivre du Gers", price_cents: 3800, description: "Légumes racines, émulsion au mélilot." },
-                    { name: "Dessert autour de la Figue & Huile d'olive", price_cents: 1600 },
+                    { name: "Dessert autour de la Figue & Huile d’olive", price_cents: 1600 },
                     { name: "Cafief (Infusion de céréales)", price_cents: 600, description: "Alternative locale au café : orge, sarrasin et chicorée." }
                 ]
             }
@@ -86,12 +86,12 @@ export const fief: SurgicalPlace = {
 
     google_rating: 4.8,
     description: "FIEF (Fait Ici En France) est le restaurant étoilé au Guide Michelin du talentueux Victor Mercier. Ici, la démarche est radicale et militante : aucun produit importé (pas de café, pas de poivre, pas de chocolat) pour magnifier exclusivement les richesses de la métropole française. Dans un décor brut et élégant, le chef propose une gastronomie durable, technique et profondément ancrée dans nos territoires.",
-    insider_tip: "• Réservez le comptoir à 20h pour vivre l'expérience 'Grand Menu' (10 temps) face à la cuisine ouverte.\n• Testez le 'Cafief' en fin de repas : une infusion céréalière bluffante qui remplace le café traditionnel.\n• Le menu Amour Végétal est l'un des plus aboutis de Paris pour les amateurs de gastronomie végétale.\n• Pensez à réserver plusieurs semaines à l'avance pour le soir.",
-    expert_catchline: "L'étoile militante de Victor Mercier : une gastronomie 100% française, durable et époustouflante.",
+    insider_tip: "• Réservez le comptoir à 20h pour vivre l’expérience ’Grand Menu’ (10 temps) face à la cuisine ouverte.\n• Testez le ’Cafief’ en fin de repas : une infusion céréalière bluffante qui remplace le café traditionnel.\n• Le menu Amour Végétal est l’un des plus aboutis de Paris pour les amateurs de gastronomie végétale.\n• Pensez à réserver plusieurs semaines à l’avance pour le soir.",
+    expert_catchline: "L’étoile militante de Victor Mercier : une gastronomie 100% française, durable et époustouflante.",
     specials: {
         cuisine: ["Menu 10 Temps au comptoir", "Cuisine 100% française", "Infusions de céréales (Cafief)", "Techniques de fermentation"],
         drinks: ["Vins de vignerons hexagonaux", "Accords sans alcool artisanaux", "Spiritueux français"],
-        must_eat: "L'esturgeon soufflé avec sa sauce au lait fumé et caviar : un plat de haute volée qui illustre la perfection technique du chef.",
+        must_eat: "L’esturgeon soufflé avec sa sauce au lait fumé et caviar : un plat de haute volée qui illustre la perfection technique du chef.",
         must_drink: "Les accords sans alcool (infusions, kéfirs) sont pensés avec la même exigence que les plats."
     }
 };

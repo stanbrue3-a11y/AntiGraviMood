@@ -5,7 +5,7 @@ export const l_ete_en_pente_douce: SurgicalPlace = {
   slug: "l-ete-en-pente-douce",
   name: "L’Été en Pente Douce",
   category: "restaurant",
-  subcategory: ["français", "cuisine-du-marché", "terrasse", "montmartre"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "8 Rue Paul Albert, 75018 Paris, France",
     arrondissement: 18,
@@ -44,10 +44,10 @@ export const l_ete_en_pente_douce: SurgicalPlace = {
         display_label: "Plats de Tradition",
         items: [
         { name: "Quiche Maison au Saumon & Épinards", price_cents: 1550, description: "Servie avec une salade verte croquante" },
-        { name: "Salade de l'Été (XXL)", price_cents: 1650, description: "Légumes grillés, feta, pignons, herbes fraîches" },
+        { name: "Salade de l’Été (XXL)", price_cents: 1650, description: "Légumes grillés, feta, pignons, herbes fraîches" },
         { name: "Parmentier de Canard Confit", price_cents: 1950 },
         { name: "Pavé de Cabillaud Rôti", price_cents: 2100, description: "Écrasé de pommes de terre, huile de piment doux" },
-        { name: "Sauté d'Agneau aux Olives", price_cents: 2250 },
+        { name: "Sauté d’Agneau aux Olives", price_cents: 2250 },
         { name: "Lasagnes Maison Aubergines & Moza", price_cents: 1700 },
         { name: "Quiche Chèvre & Miel", price_cents: 1550 },
         { name: "Salade César Montmartre", price_cents: 1600 }
@@ -71,8 +71,8 @@ export const l_ete_en_pente_douce: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Situé sur la mythique rue Muller, ce bistrot bucolique offre l'une des terrasses les plus charmantes de Montmartre. Avec son ambiance de village et sa cuisine de marché fraîche et colorée, c'est le lieu idéal pour une halte apaisante après l'ascension des marches du Sacré-Cœur.",
-  insider_tip: "• **Timing Stratégique** : Visez le milieu d'après-midi pour une citronnade en terrasse ; la lumière qui filtre à travers les feuilles est sublime.\n• **Combo Moelle** : La Quiche Maison (une des meilleures du quartier) accompagnée d'une bière de la Goutte d'Or locale.\n• **Détail Secret** : La petite place Muller est bien plus calme que sa voisine la place du Tertre, idéal pour lire un livre en terrasse.",
+  description: "Situé sur la mythique rue Muller, ce bistrot bucolique offre l’une des terrasses les plus charmantes de Montmartre. Avec son ambiance de village et sa cuisine de marché fraîche et colorée, c’est le lieu idéal pour une halte apaisante après l’ascension des marches du Sacré-Cœur.",
+  insider_tip: "• **Timing Stratégique** : Visez le milieu d’après-midi pour une citronnade en terrasse ; la lumière qui filtre à travers les feuilles est sublime.\n• **Combo Moelle** : La Quiche Maison (une des meilleures du quartier) accompagnée d’une bière de la Goutte d’Or locale.\n• **Détail Secret** : La petite place Muller est bien plus calme que sa voisine la place du Tertre, idéal pour lire un livre en terrasse.",
   specials: {
     cuisine: ["Française", "Bistrot", "Provencale"],
     drinks: ["Citronnade Maison", "Bières Locales", "Vins Bio"],

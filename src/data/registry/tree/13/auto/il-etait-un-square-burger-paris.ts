@@ -5,7 +5,7 @@ export const il_etait_un_square_burger_paris: SurgicalPlace = {
   slug: "il-etait-un-square-burger-paris",
   name: "Il Était Un Square",
   category: "restaurant",
-  subcategory: ["burger", "tartare", "fait-maison", "bistro"],
+  subcategory: ['français'],
   location: {
     address: "54 Rue Corvisart, 75013 Paris, France",
     arrondissement: 13,
@@ -94,7 +94,7 @@ export const il_etait_un_square_burger_paris: SurgicalPlace = {
       }
     ]
   },
-  description: "Réputé comme l'un des meilleurs spots de burgers de la rive gauche, Il Était Un Square mise sur la qualité brute : viande d'exception, frites maison et mayonnaises travaillées. L'ambiance y est conviviale, presque villageoise malgré la proximité de la Place d'Italie. Une adresse de quartier qui ne déçoit jamais les amateurs de produits sourcés.",
+  description: "Réputé comme l’un des meilleurs spots de burgers de la rive gauche, Il Était Un Square mise sur la qualité brute : viande d’exception, frites maison et mayonnaises travaillées. L’ambiance y est conviviale, presque villageoise malgré la proximité de la Place d'Italie. Une adresse de quartier qui ne déçoit jamais les amateurs de produits sourcés.",
   insider_tip: "• **Frites Légendaires** : Elles sont coupées et cuites sur place, trempez-les absolument dans leur mayonnaise maison.\n• **Le Montagnard** : Si vous aimez le fromage, ne cherchez plus, c’est le burger signature with sa crème de reblochon onctueuse.\n• **No Resa** : Ils ne prennent pas de réservations, venez tôt (12h00 ou 19h00 pile) car le lieu se remplit instantanément.",
   specials: {
     cuisine: ["Burger", "Bistro"],

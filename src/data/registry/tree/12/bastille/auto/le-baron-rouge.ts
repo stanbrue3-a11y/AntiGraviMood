@@ -5,7 +5,7 @@ export const le_baron_rouge: SurgicalPlace = {
   slug: "le-baron-rouge",
   name: "Le Baron Rouge",
   category: "restaurant",
-  subcategory: ["apéro"],
+  subcategory: ['français'],
   location: {
     address: "1 Rue Théophile Roussel, 75012 Paris, France",
     arrondissement: 12,
@@ -71,7 +71,7 @@ export const le_baron_rouge: SurgicalPlace = {
           { name: "Assiette de 6 Huîtres de Bretagne", price_cents: 1200, is_highlight: true },
           { name: "Assiette de 12 Huîtres de Bretagne", price_cents: 2200 },
           { name: "Pain de Seigle & Beurre Demi-Sel", price_cents: 250 },
-          { name: "Vinaigre à l'échalote maison", price_cents: 50 }
+          { name: "Vinaigre à l’échalote maison", price_cents: 50 }
         ]
       },
       {
@@ -83,7 +83,7 @@ export const le_baron_rouge: SurgicalPlace = {
           { name: "Planche de Fromages Affinés", price_cents: 1100 },
           { name: "Assiette de Saucisson Sec", price_cents: 650 },
           { name: "Terrine de Campagne Maison", price_cents: 700 },
-          { name: "Rillettes d'Oie du Terroir", price_cents: 750 },
+          { name: "Rillettes d’Oie du Terroir", price_cents: 750 },
           { name: "Olives de Lucques & Cornichons", price_cents: 450 },
           { name: "Bocal de Foie Gras de Canard", price_cents: 1800 }
         ]
@@ -94,17 +94,17 @@ export const le_baron_rouge: SurgicalPlace = {
         items: [
           { name: "Sandwich Mixte (Pain de campagne)", price_cents: 650 },
           { name: "Tartine de Jambon de Pays", price_cents: 550 },
-          { name: "Cantaltou (Fromage à l'unité)", price_cents: 450 },
+          { name: "Cantaltou (Fromage à l’unité)", price_cents: 450 },
           { name: "Fromage de Chèvre Fermier", price_cents: 450 },
           { name: "Café Espresso", price_cents: 200 }
         ]
       }
     ]
   },
-  description: "Le Baron Rouge est un monument de la vie d'Aligre, un bar à vins authentique et populaire où le temps semble s'être arrêté. Entre les tonneaux empilés jusqu'au plafond et le comptoir en zinc, on y déguste des crus français sans prétention mais d'une efficacité redoutable. Le week-end, l'institution se transforme en fief des amateurs d'huîtres qui s'agglutinent sur le trottoir pour savourer le grand air marin au cœur de Paris. C'est le spot ultime pour un apéro brut, convivial et sans chichis.",
-  insider_tip: `• **Le Rite Dominicain** : Venez le dimanche matin pour les huîtres sur le trottoir, c'est l'essence même du quartier.
+  description: "Le Baron Rouge est un monument de la vie d’Aligre, un bar à vins authentique et populaire où le temps semble s’être arrêté. Entre les tonneaux empilés jusqu’au plafond et le comptoir en zinc, on y déguste des crus français sans prétention mais d’une efficacité redoutable. Le week-end, l’institution se transforme en fief des amateurs d’huîtres qui s’agglutinent sur le trottoir pour savourer le grand air marin au cœur de Paris. C'est le spot ultime pour un apéro brut, convivial et sans chichis.",
+  insider_tip: `• **Le Rite Dominicain** : Venez le dimanche matin pour les huîtres sur le trottoir, c’est l'essence même du quartier.
   • **Vin au Tonneau** : Apportez votre bouteille vide, vous pouvez la faire remplir directement au tonneau pour un prix imbattable.
-  • **Timing Stratégique** : Le lieu est petit et très prisé ; visez 17h00 en semaine pour avoir une chance de vous asseoir à l'intérieur.`,
+  • **Timing Stratégique** : Le lieu est petit et très prisé ; visez 17h00 en semaine pour avoir une chance de vous asseoir à l’intérieur.`,
   specials: {
     cuisine: ["Bar à Vins", "Terroir"],
     drinks: ["Vins au Tonneau", "Morgon", "Sancerre"],

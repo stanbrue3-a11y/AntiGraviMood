@@ -5,7 +5,7 @@ export const repaire_cartouche: SurgicalPlace = {
     name: "Le Repaire de Cartouche",
     slug: "repaire-cartouche",
     category: "restaurant",
-    subcategory: ["traditionnel", "viande", "bistrot", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "8 Boulevard des Filles du Calvaire",
         arrondissement: 11,
@@ -57,7 +57,7 @@ export const repaire_cartouche: SurgicalPlace = {
                     { name: "Terrine de boudin noir", price_cents: 1600 },
                     { name: "Terrine de lièvre (Saison)", price_cents: 1700 },
                     { name: "Pâté de campagne maison", price_cents: 1200 },
-                    { name: "Salade d'oreilles de cochon", price_cents: 1500 },
+                    { name: "Salade d’oreilles de cochon", price_cents: 1500 },
                     { name: "Huîtres N°3 (les 6)", price_cents: 1800 }
                 ]
             },
@@ -68,7 +68,7 @@ export const repaire_cartouche: SurgicalPlace = {
                     { name: "Lièvre à la Royale (en saison)", price_cents: 4500 },
                     { name: "Côte de veau de Normandie au cidre", price_cents: 3500 },
                     { name: "Parmentier de sanglier", price_cents: 2800 },
-                    { name: "Gigot d'agneau rôti à l'ail en chemise", price_cents: 3200 },
+                    { name: "Gigot d’agneau rôti à l'ail en chemise", price_cents: 3200 },
                     { name: "Sole meunière poêlée au beurre", price_cents: 4200 }
                 ]
             },
@@ -96,7 +96,7 @@ export const repaire_cartouche: SurgicalPlace = {
     verified: true,
     google_rating: 4.3,
     description: "Une institution viandarde et giboyeuse incontournable tenue par Rodolphe Paquin. Le Repaire de Cartouche est le temple du pâté en croûte à Paris et le QG des amateurs de classicisme français ultra-généreux. Un décor de bistrot de toujours, des terrines monumentales, et des sauces au vin rouge qui collent aux lèvres.",
-    insider_tip: "• Ne venez pas ici si vous n'aimez pas la viande : c'est le paradis du gibier (lièvre à la royale, grouse, biche en saison d'hiver).\n• Le pâté en croûte de Rodolphe Paquin est mythique, il DOIT figurer sur votre commande.\n• Le dimanche midi, c'est poulet rôti frites familial pour tout le monde (54€ avec le reste du menu).\n• Les portions sont homériques, prévoyez une balade digestive.",
+    insider_tip: "• Ne venez pas ici si vous n’aimez pas la viande : c’est le paradis du gibier (lièvre à la royale, grouse, biche en saison d’hiver).\n• Le pâté en croûte de Rodolphe Paquin est mythique, il DOIT figurer sur votre commande.\n• Le dimanche midi, c'est poulet rôti frites familial pour tout le monde (54€ avec le reste du menu).\n• Les portions sont homériques, prévoyez une balade digestive.",
     expert_catchline: "Le QG viandard incontesté du chef Rodolphe Paquin, temple parisien du pâté en croûte et du grand gibier.",
     specials: {
         cuisine: ["Pâté en croûte mythique", "Lièvre à la Royale", "Terrine de boudin noir", "Côte de veau rissolée"],

@@ -5,7 +5,7 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
     name: "Jazz Café Montparnasse",
     slug: "jazz-cafe-montparnasse",
     category: "restaurant",
-    subcategory: ["jazz", "concert", "bistrot", "musique", "culturel", "nocturne"],
+    subcategory: ['français'],
     location: {
         address: "13 Rue du Commandant René Mouchotte, 75014 Paris, France",
         arrondissement: 14,
@@ -46,7 +46,7 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
                     { name: "Foie Gras de Canard, Chutney de Saison", price_cents: 2100 },
                     { name: "Crème de Saint-Jacques au St Marcellin", price_cents: 800 },
                     { name: "Gaspacho Andalou & Quenelle Guacamole", price_cents: 700 },
-                    { name: "Gratinée à l'Oignon Traditionnelle", price_cents: 700 },
+                    { name: "Gratinée à l’Oignon Traditionnelle", price_cents: 700 },
                     { name: "Carpaccio de Boeuf au Miel", price_cents: 1200 },
                     { name: "Tentacules de Poulpe Caramélisés", price_cents: 1400 }
                 ]
@@ -71,7 +71,7 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
                 items: [
                     { name: "Café Gourmand (4 mignardises)", price_cents: 700 },
                     { name: "Cheesecake Maison aux Fruits Rouges", price_cents: 700 },
-                    { name: "Crème Brûlée à l'Anis Étoilée", price_cents: 700 },
+                    { name: "Crème Brûlée à l’Anis Étoilée", price_cents: 700 },
                     { name: "Dôme Vanille-Amande & Hibiscus", price_cents: 900 },
                     { name: "Pavé Chocolat Guanaja 70%", price_cents: 900 }
                 ]
@@ -86,13 +86,13 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.2,
-    description: "Le temple de la note bleue à Montparnasse. Le Jazz Café Montparnasse perpétue l'esprit légendaire des jazz clubs parisiens dans un cadre moderne, confortable et acoustiquement irréprochable. Ici, la musique ne se savoure pas seulement avec les oreilles, mais aussi avec une cuisine de bistrot généreuse et soignée. La scène accueille chaque soir des pointures internationales et des talents émergents, créant une atmosphère électrique où les verres s'entrechoquent au rythme du swing. C'est le lieu parfait pour une soirée hors du temps, entre improvisation culinaire et virtuosité musicale.",
-    insider_tip: "Les concerts débutent généralement à 21h, mais arrivez dès 18h30 pour l'apéritif dans la véranda, l'ambiance y est déjà magique. Pensez à réserver les tables en bord de scène pour une immersion totale.",
+    description: "Le temple de la note bleue à Montparnasse. Le Jazz Café Montparnasse perpétue l’esprit légendaire des jazz clubs parisiens dans un cadre moderne, confortable et acoustiquement irréprochable. Ici, la musique ne se savoure pas seulement avec les oreilles, mais aussi avec une cuisine de bistrot généreuse et soignée. La scène accueille chaque soir des pointures internationales et des talents émergents, créant une atmosphère électrique où les verres s’entrechoquent au rythme du swing. C’est le lieu parfait pour une soirée hors du temps, entre improvisation culinaire et virtuosité musicale.",
+    insider_tip: "Les concerts débutent généralement à 21h, mais arrivez dès 18h30 pour l’apéritif dans la véranda, l'ambiance y est déjà magique. Pensez à réserver les tables en bord de scène pour une immersion totale.",
     expert_catchline: "Gastronomie de bistrot et sets de jazz magistraux à Montparnasse.",
     specials: {
         cuisine: ["Bistronomie Française", "Planches à Partager"],
         drinks: ["Vins de Propriété", "Cocktails Classiques"],
-        must_eat: "L'Entrecôte sauce Béarnaise et le Pavé Chocolat Guanaja.",
+        must_eat: "L’Entrecôte sauce Béarnaise et le Pavé Chocolat Guanaja.",
         must_drink: "Un verre de vin rouge corsé pendant le deuxième set."
     },
     source: "expert_human"

@@ -5,7 +5,7 @@ export const chez_justine: SurgicalPlace = {
     name: "Chez Justine",
     slug: "chez-justine",
     category: "restaurant",
-    subcategory: ["pizzeria", "brasserie", "restaurant"],
+    subcategory: ['pizzeria', 'français'],
     location: {
         address: "96 Rue Oberkampf",
         arrondissement: 11,
@@ -45,7 +45,7 @@ export const chez_justine: SurgicalPlace = {
                 display_label: "Formules Déjeuner (En semaine)",
                 items: [
                     // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle) - Relevés 2024
-                    { name: "Formule Midi (Entrée/Plat ou Plat/Dessert)", price_cents: 1600, description: "Formule abordable évoluant selon l'humeur du chef." },
+                    { name: "Formule Midi (Entrée/Plat ou Plat/Dessert)", price_cents: 1600, description: "Formule abordable évoluant selon l’humeur du chef." },
                     { name: "La Formule Brunch Animé (Week-end seul)", price_cents: 2500 }
                 ]
             },
@@ -106,7 +106,7 @@ export const chez_justine: SurgicalPlace = {
     verified: true,
     google_rating: 4.4,
     description: "La pierre angulaire de la rue Oberkampf. À la fois néo-brasserie de quartier avec ses grandes tablées et ses viandes rôties au feu de bois, bar festif en fin de soirée, et surtout, redoutable pizzeria napolitaine à demeure.",
-    insider_tip: "• Les vendredis et samedis soir, c'est blindé et l'ambiance bascule en mode Before festif (jusqu'à 1h du matin).\n• Le midi, leur formule dej' à 16€ est une des affaires les plus solides du quartier Oberkampf.\n• Visez une pizza, elles sont étonnamment excellentes pour une brasserie généraliste, cuites dans un grand four à bois apparent.",
+    insider_tip: "• Les vendredis et samedis soir, c’est blindé et l’ambiance bascule en mode Before festif (jusqu’à 1h du matin).\n• Le midi, leur formule dej' à 16€ est une des affaires les plus solides du quartier Oberkampf.\n• Visez une pizza, elles sont étonnamment excellentes pour une brasserie généraliste, cuites dans un grand four à bois apparent.",
     expert_catchline: "Néo-brasserie au mix audacieux : viandes à la braise, DJ sets en fin de semaine et gigantesques pizzas napolitaines.",
     specials: {
         cuisine: ["Pizza Tripletta", "Côte de Bœuf au feu de bois"],

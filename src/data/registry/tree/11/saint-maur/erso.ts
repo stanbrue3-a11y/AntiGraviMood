@@ -5,7 +5,7 @@ export const erso: SurgicalPlace = {
     name: "Erso",
     slug: "erso",
     category: "restaurant",
-    subcategory: ["bistronomique", "marché", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "18 Rue Saint-Ambroise",
         arrondissement: 11,
@@ -66,7 +66,7 @@ export const erso: SurgicalPlace = {
                     // VERIFIED: Plats 28-35€
                     { name: "Barbue meunière, sabayon ail des ours", price_cents: 3500 },
                     { name: "Carré de veau, gnocchis de patate douce", price_cents: 3500 },
-                    { name: "Épaule d'agneau braisée, mousseline chou-rave", price_cents: 2800 },
+                    { name: "Épaule d’agneau braisée, mousseline chou-rave", price_cents: 2800 },
                     { name: "Daurade royale, fumet fumé, sabayon herbacé", price_cents: 2800 },
                     { name: "Pithiviers, palet butternut, betterave fumée", price_cents: 2800, description: "Végétarien" }
                 ]
@@ -76,7 +76,7 @@ export const erso: SurgicalPlace = {
                 display_label: "Desserts & Fromages",
                 items: [
                     { name: "Gianduja, pomme crue-gingembre", price_cents: 1100 },
-                    { name: "Génoise chocolat, glace piment d'Espelette", price_cents: 1200 },
+                    { name: "Génoise chocolat, glace piment d’Espelette", price_cents: 1200 },
                     { name: "Sélection de fromages (Taka & Vermot)", price_cents: 1400 }
                 ]
             }
@@ -91,8 +91,8 @@ export const erso: SurgicalPlace = {
     instagram_handle: "erso.paris",
     verified: true,
     google_rating: 4.9,
-    description: "Élu meilleur bistrot de Paris 2025 par le Lebey. Erso (la 'déferlante' en basque) a tout emporté sur son passage. En cuisine, le jeune chef Yann Placet dégaine une bistronomie incisive d'une précision diabolique sur les cuissons et les condiments. En salle, Marine Bert orchestre un service tout en velours pour accompagner de pures assiettes de terroir moderne.",
-    insider_tip: "• Le déjeuner est un hold-up gastronomique spectaculaire : 29€ les 3 services pour un tel niveau de cuisine, on trouve difficilement mieux à Paris.\n• La réservation le soir (où la carte est plus onéreuse et poussée) doit se faire plusieurs semaines à l'avance depuis leur prix Lebey.\n• Il y a toujours un focus puissant sur des fromages affinés de compétition de chez Taka & Vermot.",
+    description: "Élu meilleur bistrot de Paris 2025 par le Lebey. Erso (la ’déferlante’ en basque) a tout emporté sur son passage. En cuisine, le jeune chef Yann Placet dégaine une bistronomie incisive d’une précision diabolique sur les cuissons et les condiments. En salle, Marine Bert orchestre un service tout en velours pour accompagner de pures assiettes de terroir moderne.",
+    insider_tip: "• Le déjeuner est un hold-up gastronomique spectaculaire : 29€ les 3 services pour un tel niveau de cuisine, on trouve difficilement mieux à Paris.\n• La réservation le soir (où la carte est plus onéreuse et poussée) doit se faire plusieurs semaines à l’avance depuis leur prix Lebey.\n• Il y a toujours un focus puissant sur des fromages affinés de compétition de chez Taka & Vermot.",
     expert_catchline: "Élu Meilleur Bistrot 2025 (Lebey). Un triomphe bistronomique total, le menu déjeuner est une aubaine.",
     specials: {
         cuisine: ["Barbue meunière au sabayon", "Millefeuille de champignon (miso)", "Carré de veau parfait", "Fromages Taka & Vermot"],

@@ -6,7 +6,7 @@ export const musee_carnavalet: SurgicalPlace = {
     "slug": "musee-carnavalet",
     "category": "museum",
     "subcategory": [
-        "musée d'histoire"
+        "musée d’histoire"
     ],
     "verified": true,
     "google_rating": 4.7,
@@ -38,8 +38,8 @@ export const musee_carnavalet: SurgicalPlace = {
         "festif": 4,
         "culturel": 25
     },
-    "description": "Logé dans deux hôtels particuliers somptueux au cœur du Marais, ce musée raconte l'histoire de Paris depuis ses origines jusqu'à nos jours. Après une rénovation magistrale, le parcours est devenu une flânerie poétique à travers des décors d'époque reconstitués, des enseignes médiévales et des souvenirs de la Révolution. Le jardin intérieur est un havre de paix insoupçonnable, parfait pour une pause hors du temps.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Logé dans deux hôtels particuliers somptueux au cœur du Marais, ce musée raconte l’histoire de Paris depuis ses origines jusqu’à nos jours. Après une rénovation magistrale, le parcours est devenu une flânerie poétique à travers des décors d’époque reconstitués, des enseignes médiévales et des souvenirs de la Révolution. Le jardin intérieur est un havre de paix insoupçonnable, parfait pour une pause hors du temps.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

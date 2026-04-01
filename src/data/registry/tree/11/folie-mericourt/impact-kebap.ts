@@ -5,7 +5,7 @@ export const impactKebap: SurgicalPlace = {
     name: "Impact Berliner Kebap",
     slug: "impact-kebap",
     category: "restaurant",
-    subcategory: ["street-food", "berliner kebap", "turkish", "gourmet"],
+    subcategory: ['français'],
     location: {
         address: "119 Rue du Chemin Vert",
         arrondissement: 11,
@@ -21,7 +21,7 @@ export const impactKebap: SurgicalPlace = {
         culturel: 20
     },
     practical: {
-        opening_hours_raw: "Lun-Sam: 11:00–00:00 (Ven-Sam jusqu'à 01:00); Fermé Dim",
+        opening_hours_raw: "Lun-Sam: 11:00–00:00 (Ven-Sam jusqu’à 01:00); Fermé Dim",
         reservation_policy: "sans_resa",
         terrace: false,
         accessibility: true,
@@ -90,8 +90,8 @@ export const impactKebap: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "L'un des meilleurs Berliner Kebaps de la capitale. Impact ne fait pas de compromis : pain artisanal livré chaque matin, poulet mariné en direct de Rungis et légumes grillés à point. La touche spéciale ? Le mélange de feta, herbes fraîches et jus de citron qui vient 'impacter' la gourmandise du döner classique. Une institution street-food de la rue du Chemin Vert.",
-    insider_tip: "Demandez la sauce Chimichurri maison, elle apporte une acidité herbacée qui sublime la viande. Attention, l'endroit est minuscule, privilégiez le take-away aux heures de pointe.",
+    description: "L’un des meilleurs Berliner Kebaps de la capitale. Impact ne fait pas de compromis : pain artisanal livré chaque matin, poulet mariné en direct de Rungis et légumes grillés à point. La touche spéciale ? Le mélange de feta, herbes fraîches et jus de citron qui vient ’impacter’ la gourmandise du döner classique. Une institution street-food de la rue du Chemin Vert.",
+    insider_tip: "Demandez la sauce Chimichurri maison, elle apporte une acidité herbacée qui sublime la viande. Attention, l’endroit est minuscule, privilégiez le take-away aux heures de pointe.",
     expert_catchline: "Le Berliner Döner qui a redéfini le kebab dans le 11ème.",
     specials: {
         cuisine: ["Berliner Döner", "Seitan Mariné", "Légumes Grillés"],

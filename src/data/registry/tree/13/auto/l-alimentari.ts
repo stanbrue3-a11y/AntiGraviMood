@@ -5,7 +5,7 @@ export const l_alimentari: SurgicalPlace = {
   slug: "l-alimentari",
   name: "L’Alimentari",
   category: "restaurant",
-  subcategory: ["italien"],
+  subcategory: ['italien'],
   location: {
     address: "6 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,
@@ -42,10 +42,10 @@ export const l_alimentari: SurgicalPlace = {
     menu_items: [
       {
         category_type: "other",
-        display_label: "Antipasti : L'Art du Partage",
+        display_label: "Antipasti : L’Art du Partage",
         items: [
           { name: "Burrata crémeuse & Tomates confites", price_cents: 1450, is_highlight: true },
-          { name: "Assiette d'Antipasti de saison (Légumes grillés)", price_cents: 1700 },
+          { name: "Assiette d’Antipasti de saison (Légumes grillés)", price_cents: 1700 },
           { name: "Planche de Charcuteries fines (Parme, Speck)", price_cents: 1850 },
           { name: "Focaccia maison au Romarin", price_cents: 600 },
           { name: "Bresaola, roquette et copeaux de Grana", price_cents: 1500 },
@@ -74,7 +74,7 @@ export const l_alimentari: SurgicalPlace = {
           { name: "Tartufo (Crème de Truffe)", price_cents: 1800 },
           { name: "Capretta (Chèvre frais, Pesto)", price_cents: 1600 },
           { name: "Pizza Burrata entière", price_cents: 1700 },
-          { name: "N'duja & Courgettes", price_cents: 1600 }
+          { name: "N’duja & Courgettes", price_cents: 1600 }
         ]
       },
       {
@@ -102,7 +102,7 @@ export const l_alimentari: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Alimentari est une enclave sarde authentique nichée dans la pittoresque Rue des Cinq Diamants. À la fois épicerie fine et restaurant, l'établissement ravit la Butte-aux-Cailles avec ses pizzas à pâte fine et ses pâtes fraîches préparées avec un amour manifeste du produit. L'ambiance y est conviviale, typique des bistrots de quartier où l'on se serre sur la terrasse pour déguster un spritz ou une planche de charcuterie fine avant une pizza généreuse.",
+  description: "L’Alimentari est une enclave sarde authentique nichée dans la pittoresque Rue des Cinq Diamants. À la fois épicerie fine et restaurant, l’établissement ravit la Butte-aux-Cailles avec ses pizzas à pâte fine et ses pâtes fraîches préparées avec un amour manifeste du produit. L’ambiance y est conviviale, typique des bistrots de quartier où l'on se serre sur la terrasse pour déguster un spritz ou une planche de charcuterie fine avant une pizza généreuse.",
   insider_tip: `• **Le Trésor Pistache** : La pizza Mortadella avec sa crème de pistache et sa stracciatella est une explosion de gourmandise absolue.
   • **Fraîcheur Quotidienne** : N'hésitez pas à demander les suggestions de pâtes du jour, elles sont souvent meilleures que la carte fixe.
   • **Terrisse Stratégique** : Arrivez tôt (avant 20h) pour espérer décrocher une place en terrasse sur cette rue piétonne très prisée le soir.`,

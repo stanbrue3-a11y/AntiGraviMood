@@ -40,8 +40,8 @@ export const le_pavillon_des_canaux: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "La maison de vacances dont tout le monde rêve, posée au bord du Bassin de la Villette. Le concept est génial : c'est une vraie maison où l'on peut s'installer partout. Boire un café dans la cuisine, travailler dans le salon, papoter dans la chambre, ou même boire un cocktail dans la baignoire de la salle de bain ! La déco est chinée, colorée et chaleureuse. La grande terrasse au bord de l'eau est prise d'assaut l'été. C'est un tiers-lieu convivial qui mélange café, espace de travail et lieu culturel.",
-    "insider_tip": "La baignoire à l'étage est une vraie place assise (les chaussures restent dehors !).",
+    "description": "La maison de vacances dont tout le monde rêve, posée au bord du Bassin de la Villette. Le concept est génial : c’est une vraie maison où l’on peut s’installer partout. Boire un café dans la cuisine, travailler dans le salon, papoter dans la chambre, ou même boire un cocktail dans la baignoire de la salle de bain ! La déco est chinée, colorée et chaleureuse. La grande terrasse au bord de l’eau est prise d’assaut l’été. C’est un tiers-lieu convivial qui mélange café, espace de travail et lieu culturel.",
+    "insider_tip": "La baignoire à l’étage est une vraie place assise (les chaussures restent dehors !).",
     "specials": {
         "cuisine": [],
         "drinks": [

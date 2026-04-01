@@ -39,8 +39,8 @@ export const institut_monde_arabe: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Fruit du dialogue entre la culture arabe et l'architecture moderne de Jean Nouvel, l'IMA est une icône des bords de Seine. Sa façade de moucharabiehs métalliques, qui s'ouvrent et se ferment selon la lumière, est une merveille technologique. Le musée offre des collections d'une richesse rare sur les mondes arabes, tandis que le rooftop surplombe Notre-Dame et les toits de Paris avec une force visuelle inégalée.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Fruit du dialogue entre la culture arabe et l’architecture moderne de Jean Nouvel, l’IMA est une icône des bords de Seine. Sa façade de moucharabiehs métalliques, qui s’ouvrent et se ferment selon la lumière, est une merveille technologique. Le musée offre des collections d'une richesse rare sur les mondes arabes, tandis que le rooftop surplombe Notre-Dame et les toits de Paris avec une force visuelle inégalée.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

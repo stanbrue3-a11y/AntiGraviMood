@@ -5,7 +5,7 @@ export const buvette_paris: SurgicalPlace = {
   slug: "buvette-paris",
   name: "Buvette Paris",
   category: "restaurant",
-  subcategory: ["gastrobar", "brunch", "bistrot", "vin-naturel", "institution"],
+  subcategory: ['français'],
   location: {
     address: "28 Rue Henry Monnier, 75009 Paris, France",
     arrondissement: 9,
@@ -48,7 +48,7 @@ export const buvette_paris: SurgicalPlace = {
           { name: "Œufs Brouillés Jambon de Bayonne & Parmesan", price_cents: 1600, is_highlight: true },
           { name: "Œufs Brouillés Saumon Fumé & Câpres", price_cents: 1800, is_highlight: true },
           { name: "Œufs Brouillés Chèvre & Tomates Confites", price_cents: 1500 },
-          { name: "Gaufre Maison 'Waffle Sandwich' (Bacon, Œuf)", price_cents: 1500, is_highlight: true },
+          { name: "Gaufre Maison ’Waffle Sandwich' (Bacon, Œuf)", price_cents: 1500, is_highlight: true },
           { name: "Gaufre Maison & Confiture ou Nutella", price_cents: 1300 },
           { name: "Pain Perdu au Cognac & Crème Épaisse", price_cents: 1400, is_highlight: true },
           { name: "Scones Maison, Beurre & Marmelade", price_cents: 500 },
@@ -73,7 +73,7 @@ export const buvette_paris: SurgicalPlace = {
         category_type: "main",
         display_label: "Croque & Tartines (Plats)",
         items: [
-          { name: "Croque Madame (Cr'Q Mme) & Œuf au Plat", price_cents: 1550, is_highlight: true },
+          { name: "Croque Madame (Cr’Q Mme) & Œuf au Plat", price_cents: 1550, is_highlight: true },
           { name: "Croque Monsieur Classique & Jambon Blanc", price_cents: 1300 },
           { name: "Tartine Pesto de Noix & Fromage", price_cents: 1300 },
           { name: "Tartine Pesto de Fèves & Menthe", price_cents: 1200 },
@@ -87,7 +87,7 @@ export const buvette_paris: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Douceurs Gourmandes (Desserts)",
         items: [
-          { name: "Fondant au Chocolat & Crème d'Isigny", price_cents: 700, is_highlight: true },
+          { name: "Fondant au Chocolat & Crème d’Isigny", price_cents: 700, is_highlight: true },
           { name: "Tarte Tatin Maison & Crème Fraîche", price_cents: 850, is_highlight: true },
           { name: "Mousse au Chocolat Noir Intense", price_cents: 750 },
           { name: "Sorbet Citron Jaune & Menthe Fraîche", price_cents: 650 },
@@ -110,8 +110,8 @@ export const buvette_paris: SurgicalPlace = {
       }
     ]
   },
-  description: "Buvette Paris est la 'gastrothèque' culte du 9ème arrondissement, véritable pont entre l'énergie de New York et l'art de vivre français. Situé dans la charmante rue Henry Monnier, ce lieu hybride propose un service continu, du café matinal au cocktail tardif. On y vient pour ses célèbres œufs vapeur au brunch, ses croque-madame iconiques ou son coq au vin réconfortant. Le décor, mêlant briques apparentes, bois patiné et marbre, crée une atmosphère intime et vibrante où chaque détail célèbre le produit brut et le partage.",
-  insider_tip: "• **Le Croque Madame** : Appelé 'Cr'Q Mme' sur la carte, c'est le meilleur de SoPi, demandez-le bien doré.\n• **Sans Réservation** : Le lieu est victime de son succès, surtout le week-end. Arrivez avant 10h pour le brunch ou optez pour un déjeuner tardif en semaine.\n• **Le Coq au Vin** : Un plat de grand-mère magnifié, servi uniquement au dîner, parfait pour les soirées d'hiver.",
+  description: "Buvette Paris est la ’gastrothèque’ culte du 9ème arrondissement, véritable pont entre l’énergie de New York et l'art de vivre français. Situé dans la charmante rue Henry Monnier, ce lieu hybride propose un service continu, du café matinal au cocktail tardif. On y vient pour ses célèbres œufs vapeur au brunch, ses croque-madame iconiques ou son coq au vin réconfortant. Le décor, mêlant briques apparentes, bois patiné et marbre, crée une atmosphère intime et vibrante où chaque détail célèbre le produit brut et le partage.",
+  insider_tip: "• **Le Croque Madame** : Appelé ’Cr’Q Mme’ sur la carte, c’est le meilleur de SoPi, demandez-le bien doré.\n• **Sans Réservation** : Le lieu est victime de son succès, surtout le week-end. Arrivez avant 10h pour le brunch ou optez pour un déjeuner tardif en semaine.\n• **Le Coq au Vin** : Un plat de grand-mère magnifié, servi uniquement au dîner, parfait pour les soirées d’hiver.",
   specials: {
     cuisine: ["Gastrothèque Franco-Américaine", "Brunch iconique en service continu", "Cuisine de terroir modernisée"],
     drinks: ["Belle carte de vins naturels", "Champagnes de vignerons", "Cocktails de brunch classiques"],

@@ -11,7 +11,7 @@ export const la_station: SurgicalPlace = {
     "verified": true,
     "google_rating": 4.4,
     "location": {
-        "address": "29 Av. de la Prte d'Aubervilliers",
+        "address": "29 Av. de la Prte d’Aubervilliers",
         "arrondissement": 18,
         "lat": 48.901224,
         "lng": 2.369937,
@@ -38,8 +38,8 @@ export const la_station: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Née dans une ancienne gare de charbons à la lisière d'Aubervilliers, La Station est le projet fou du collectif MU. C'est une friche culturelle à l'état pur, où l'esthétique industrielle et bétonnée sert de décor à l'avant-garde musicale et artistique. Pendant les mois d'été, ses extérieurs se transforment en une immense aire de fête sauvage et inclusive. C'est un lieu qui refuse les codes du centre-ville pour offrir une liberté totale. On y vient pour l'imprévu, le son fort, et cette vibration brute qu'on ne trouve plus nulle part ailleurs.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Née dans une ancienne gare de charbons à la lisière d’Aubervilliers, La Station est le projet fou du collectif MU. C’est une friche culturelle à l’état pur, où l’esthétique industrielle et bétonnée sert de décor à l’avant-garde musicale et artistique. Pendant les mois d’été, ses extérieurs se transforment en une immense aire de fête sauvage et inclusive. C’est un lieu qui refuse les codes du centre-ville pour offrir une liberté totale. On y vient pour l’imprévu, le son fort, et cette vibration brute qu’on ne trouve plus nulle part ailleurs.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

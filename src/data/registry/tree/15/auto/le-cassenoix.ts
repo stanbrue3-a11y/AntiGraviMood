@@ -5,7 +5,7 @@ export const le_cassenoix: SurgicalPlace = {
   slug: "le-cassenoix",
   name: "Le CasseNoix",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "56bis Rue de la Fédération, 75015 Paris, France",
     arrondissement: 15,
@@ -86,7 +86,7 @@ export const le_cassenoix: SurgicalPlace = {
           { name: "Assiette de fromages affinés", price_cents: 1200 },
           { name: "Baba au rhum ambré", price_cents: 1200 },
           { name: "Sorbet artisanal (3 boules)", price_cents: 900 },
-          { name: "Pruneaux à l'armagnac", price_cents: 1000 }
+          { name: "Pruneaux à l’armagnac", price_cents: 1000 }
         ]
       },
       {
@@ -100,12 +100,12 @@ export const le_cassenoix: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Casse-Noix est une adresse de référence pour les amoureux de la cuisine bourgeoise et généreuse à deux pas de la Tour Eiffel. Pierre-Olivier Lenormand, ancien de chez Constant, y décline une carte qui fait honneur au terroir français avec une précision et une sincérité désarmantes. Le décor boisé et les étagères remplies de casse-noix créent une atmosphère hors du temps, propice aux longs déjeuners d'affaires ou aux dîners complices. C'est le bistrot parisien dans toute sa splendeur : authentique, soigné et profondément gourmand.",
-  insider_tip: "• **Timing Stratégique** : Le restaurant est très couru par les locaux et les habitués du quartier, la réservation est impérative plusieurs jours à l'avance le soir.\n  • **Combo Moelle** : Commencez par le Pâté en Croûte, poursuivez avec l'Épaule de Porc Ibaïona et terminez par l'Île flottante, monument de légèreté.\n  • **Expérience Culturelle** : Admirez la collection de casse-noix qui tapisse les murs, chaque pièce a son histoire et participe au charme singulier du lieu.",
+  description: "Le Casse-Noix est une adresse de référence pour les amoureux de la cuisine bourgeoise et généreuse à deux pas de la Tour Eiffel. Pierre-Olivier Lenormand, ancien de chez Constant, y décline une carte qui fait honneur au terroir français avec une précision et une sincérité désarmantes. Le décor boisé et les étagères remplies de casse-noix créent une atmosphère hors du temps, propice aux longs déjeuners d’affaires ou aux dîners complices. C'est le bistrot parisien dans toute sa splendeur : authentique, soigné et profondément gourmand.",
+  insider_tip: "• **Timing Stratégique** : Le restaurant est très couru par les locaux et les habitués du quartier, la réservation est impérative plusieurs jours à l’avance le soir.\n  • **Combo Moelle** : Commencez par le Pâté en Croûte, poursuivez avec l’Épaule de Porc Ibaïona et terminez par l’Île flottante, monument de légèreté.\n  • **Expérience Culturelle** : Admirez la collection de casse-noix qui tapisse les murs, chaque pièce a son histoire et participe au charme singulier du lieu.",
   specials: {
     cuisine: ["Français", "Bistrot", "Terroir"],
     drinks: ["Vins de France", "Digestifs"],
-    must_eat: "Bistrot Français. L'épaule de porc Ibaïona rôtie et sa purée aux olives.",
+    must_eat: "Bistrot Français. L’épaule de porc Ibaïona rôtie et sa purée aux olives.",
   },
   images: {
     hero: "AU_ZVEE0r5SNZDk5m8OmzdMQwgC0gQg3n2eZQ9aCq3ARo3IM6ihE8JqaTIKR2wfIxrJzhd4Min7B6fYph25UhyJTDq_ykA3Eh9I0Z6J1BnLz2RiMA_QXPk-Gf9IhH87LdjpeaoBai8Cq9ziQu_DVeHlLtVh6rpA3iTQvpNzUXZFxxX0EzGI1MN3Bq2GHnrT0GYHmGckYt5Cjb-GkEr-JzMIivzyu3tyC_S2g0WiPt9-FIZVgy6ihnSSvfWktj9GZz_LKWkCpabZziLdpJICopGCquJgkWVZNUR3XQ3PHFTheYCF9Zw",

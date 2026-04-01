@@ -5,7 +5,7 @@ export const vaisseau: SurgicalPlace = {
     name: "Vaisseau",
     slug: "vaisseau",
     category: "restaurant",
-    subcategory: ["gastronomic", "modern-french", "creative", "chef-table"],
+    subcategory: ['français'],
     location: {
         address: "35 Rue Faidherbe",
         arrondissement: 11,
@@ -47,9 +47,9 @@ export const vaisseau: SurgicalPlace = {
                 category_type: "tasting_menu",
                 display_label: "Menus Dégustation (Carte Blanche)",
                 items: [
-                    { name: "Le 'Menu Quoi' (Déjeuner)", price_cents: 6000, description: "Menu surprise en plusieurs étapes." },
-                    { name: "Le 'Menu N'importe quoi' (Dîner)", price_cents: 12000, description: "L'expérience complète Adrien Cachot." },
-                    { name: "Le 'Menu Grand n'importe quoi'", price_cents: 18000, description: "Immersion totale sans limites." }
+                    { name: "Le ’Menu Quoi' (Déjeuner)", price_cents: 6000, description: "Menu surprise en plusieurs étapes." },
+                    { name: "Le ’Menu N’importe quoi’ (Dîner)", price_cents: 12000, description: "L’expérience complète Adrien Cachot." },
+                    { name: "Le ’Menu Grand n’importe quoi’", price_cents: 18000, description: "Immersion totale sans limites." }
                 ]
             },
             {
@@ -58,7 +58,7 @@ export const vaisseau: SurgicalPlace = {
                 items: [
                     { name: "Accord Boissons (Déjeuner)", price_cents: 4000 },
                     { name: "Accord Boissons (Dîner)", price_cents: 8000 },
-                    { name: "Accord 'Grand n'importe quoi'", price_cents: 10000 }
+                    { name: "Accord ’Grand n’importe quoi’", price_cents: 10000 }
                 ]
             },
             {
@@ -88,9 +88,9 @@ export const vaisseau: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Vaisseau est le projet tant attendu d'Adrien Cachot, finaliste prodige de Top Chef. Dans un décor minimaliste quasi-monacal du 11ème, le chef livre une partition libre, sans barrières, où les produits mal aimés (abats, algues) côtoient la noblesse du geste. Élu meilleur restaurant de Paris 2025 par Time Out, Vaisseau est plus qu'un restaurant : c'est une expérience sensorielle, intellectuelle et gustative unique au monde.",
-    insider_tip: "Les réservations s'envolent en quelques secondes lors de l'ouverture des créneaux (généralement le 1er du mois à midi). Soyez plus rapide qu'un bot. Le menu 'N'importe quoi' est celui qui permet de saisir tout le génie de Cachot.",
-    expert_catchline: "L'ovni gastronomique d'Adrien Cachot : une cuisine libre, punk et d'une intelligence rare.",
+    description: "Vaisseau est le projet tant attendu d’Adrien Cachot, finaliste prodige de Top Chef. Dans un décor minimaliste quasi-monacal du 11ème, le chef livre une partition libre, sans barrières, où les produits mal aimés (abats, algues) côtoient la noblesse du geste. Élu meilleur restaurant de Paris 2025 par Time Out, Vaisseau est plus qu’un restaurant : c’est une expérience sensorielle, intellectuelle et gustative unique au monde.",
+    insider_tip: "Les réservations s’envolent en quelques secondes lors de l’ouverture des créneaux (généralement le 1er du mois à midi). Soyez plus rapide qu’un bot. Le menu ’N’importe quoi' est celui qui permet de saisir tout le génie de Cachot.",
+    expert_catchline: "L’ovni gastronomique d’Adrien Cachot : une cuisine libre, punk et d’une intelligence rare.",
     specials: {
         cuisine: ["Haute gastronomie libre", "Focus Abats", "Inspirations japonisantes"],
         drinks: ["Vins de macération", "Accords sans alcool créatifs"],

@@ -43,7 +43,7 @@ export const pizza_del_mondo: SurgicalPlace = {
         "wine_glass": 5,
         "coffee_price": 2,
         "soft_price": 4,
-        "smart_tip": "La pizza 'Del Mondo' (viande hachée, merguez) est l'un des meilleurs rapports qualité-prix du quartier pour un repas sur le pouce.",
+        "smart_tip": "La pizza ’Del Mondo’ (viande hachée, merguez) est l’un des meilleurs rapports qualité-prix du quartier pour un repas sur le pouce.",
         "menu_items": [
             {
                 "category_type": "main",
@@ -90,8 +90,8 @@ export const pizza_del_mondo: SurgicalPlace = {
                     { "name": "Café", "price_cents": 200 },
                     { "name": "Soft", "price_cents": 400 },
                     { "name": "Verre de vin", "price_cents": 500 },
-                    { "name": "Pain à l'ail", "price_cents": 650 },
-                    { "name": "Pain à l'ail avec mozzarella", "price_cents": 850 }
+                    { "name": "Pain à l’ail", "price_cents": 650 },
+                    { "name": "Pain à l’ail avec mozzarella", "price_cents": 850 }
                 ]
             }
         ],
@@ -102,13 +102,13 @@ export const pizza_del_mondo: SurgicalPlace = {
         "festif": 40,
         "culturel": 50
     },
-    "description": "Situé dans la charmante rue des Trois Frères, à quelques volées de marches du Sacré-Cœur, Pizza Del Mondo est l'archétype du petit italien de quartier sans prétention mais extrêmement généreux. Connu pour son ambiance intime et son accueil familial, l'établissement mise sur une cuisson au four à pierre pour des pizzas croustillantes. C'est l'escale idéale après une balade dans les ruelles de Montmartre, loin des pièges à touristes de la Place du Tertre.",
-    "insider_tip": "• La pâte est cuite au four à pierre, garantissant un croustillant parfait.\n• Ne soyez pas surpris par l'étroitesse du lieu, c'est ce qui fait son charme montmartrois.\n• Ils proposent souvent une formule 'Pizza pour deux' très avantageuse.",
+    "description": "Situé dans la charmante rue des Trois Frères, à quelques volées de marches du Sacré-Cœur, Pizza Del Mondo est l’archétype du petit italien de quartier sans prétention mais extrêmement généreux. Connu pour son ambiance intime et son accueil familial, l’établissement mise sur une cuisson au four à pierre pour des pizzas croustillantes. C’est l'escale idéale après une balade dans les ruelles de Montmartre, loin des pièges à touristes de la Place du Tertre.",
+    "insider_tip": "• La pâte est cuite au four à pierre, garantissant un croustillant parfait.\n• Ne soyez pas surpris par l’étroitesse du lieu, c’est ce qui fait son charme montmartrois.\n• Ils proposent souvent une formule ’Pizza pour deux' très avantageuse.",
     "specials": {
         "cuisine": ["Italien", "Pizza"],
         "drinks": ["Vins Italiens", "Softs"],
         "must_eat": "Pizza Del Mondo & Tiramisu Maison.",
-        "expert_catchline": "L'italien généreux et authentique caché au pied de la Butte."
+        "expert_catchline": "L’italien généreux et authentique caché au pied de la Butte."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWLCHDh7izuKqLyvbWfGKP04ihT2CQwXx-K_O-Qt8nN6KiCuzCmaRMV3byYlDQK_rjn2iXPE_CnVIxv84HynagilD4fG8dyLxIB661EE-WuAKeyQdCi2w4KEGO09WvjunNEMkvmMeXS0bcxp9XFZGmvWuQWNfUXWOAEinUqN2VQCC2czPRShzgGvB-p_eJ6wI77Ql51sEYVsqLrNrJB1StJ4LBPEeNuEfRN83Vns1vBtrNiHhrgKMhkdImnQPtI9JHfwUEfPJ3d-raOQRTbIux4MoFM5tMyvimjIsvrW4YVxI3k_PcoZPYj0eF_4joPUf97YEWVIOtxgf_PZH-_fjeHZxcio-XSZlUxrQtwpKKKHkLU6en3DyvH9fHSgCFpsYq4R5__FecEzyT7m30GEj_mIrilWxLe1Bre3jDGegTawbCvTc-xrFyqJLSzrt9mMotmsG4y8ddO8sH2TCTqrMIRulPKvczE5Q3Ri9LzBB9BYM0LhBlUly7eNWwO_HbIPlPOnAJJ0KJBth3_wOHqa8nVIwGchPAYbtsTFnHCLZ1OYv2gFFdTqfBTEPOCtSTUthxR52DrKXG6F3Tbg1AKsATyD5PdrA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

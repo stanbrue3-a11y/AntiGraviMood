@@ -5,7 +5,7 @@ export const le_cornichon: SurgicalPlace = {
     name: "Le Cornichon",
     slug: "le-cornichon-paris-14",
     category: "restaurant",
-    subcategory: ["néo-bistrot", "français", "moderne", "michelin bib gourmand", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "34 Rue Gassendi, 75014 Paris",
         arrondissement: 14,
@@ -46,7 +46,7 @@ export const le_cornichon: SurgicalPlace = {
                 display_label: "Menus du Moment (Standard Industriel)",
                 items: [
                     { name: "Menu MIDI (Entrée + Plat + Dessert)", price_cents: 3500 },
-                    { name: "Menu MIDI (Entrée + Plat)", price_cents: 3400, description: "L'option déjeuner standard." },
+                    { name: "Menu MIDI (Entrée + Plat)", price_cents: 3400, description: "L’option déjeuner standard." },
                     { name: "Menu SOIR (Entrée + Plat + Dessert)", price_cents: 4200 },
                     { name: "Menu SOIR (Entrée + Plat)", price_cents: 4100 }
                 ]
@@ -67,7 +67,7 @@ export const le_cornichon: SurgicalPlace = {
                 category_type: "sharing",
                 display_label: "À Partager (Apéritif)",
                 items: [
-                    { name: "Petites sardines à l'huile d'olive artisanales", price_cents: 1000 },
+                    { name: "Petites sardines à l’huile d'olive artisanales", price_cents: 1000 },
                     { name: "Socca minute croustillante à la fleur de sel", price_cents: 700 },
                     { name: "½ Fuet Catalan artisanal", price_cents: 1000 }
                 ]
@@ -83,13 +83,13 @@ export const le_cornichon: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Cornichon est l'un des néo-bistrots les plus accomplis du 14ème, régulièrement salué par le guide Michelin d'un Bib Gourmand. La cuisine y est franche, technique et d'une grande finesse, privilégiant les circuits ultra-courts et le respect des saisons. Le cadre est sobre et moderne, mettant toute la lumière sur l'assiette. C'est l'archétype du restaurant où l'on revient pour la justesse des cuissons et l'originalité des sauces.",
-    insider_tip: "Les formules déjeuner sont d'un rapport qualité-prix exceptionnel pour ce niveau de technicité. La socca croustillante en apéritif est un petit bonheur simple à ne pas négliger.",
+    description: "Le Cornichon est l’un des néo-bistrots les plus accomplis du 14ème, régulièrement salué par le guide Michelin d’un Bib Gourmand. La cuisine y est franche, technique et d’une grande finesse, privilégiant les circuits ultra-courts et le respect des saisons. Le cadre est sobre et moderne, mettant toute la lumière sur l’assiette. C’est l’archétype du restaurant où l’on revient pour la justesse des cuissons et l'originalité des sauces.",
+    insider_tip: "Les formules déjeuner sont d’un rapport qualité-prix exceptionnel pour ce niveau de technicité. La socca croustillante en apéritif est un petit bonheur simple à ne pas négliger.",
     expert_catchline: "Bistronomie de précision et sourcing durable : le Bib Gourmand incontournable du 14e.",
     specials: {
         cuisine: ["Néo-Bistrot", "Sourcing durable", "Bib Gourmand"],
-        drinks: ["Cave à vins naturels et biodynamiques", "Domaines d'exception"],
-        must_eat: "L'épaule de porc fondante et le chou croustillant vanille bourbon.",
-        must_drink: "Une pépite de vin nature conseillée par l'équipe."
+        drinks: ["Cave à vins naturels et biodynamiques", "Domaines d’exception"],
+        must_eat: "L’épaule de porc fondante et le chou croustillant vanille bourbon.",
+        must_drink: "Une pépite de vin nature conseillée par l’équipe."
     }
 };

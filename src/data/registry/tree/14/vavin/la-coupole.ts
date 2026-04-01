@@ -5,7 +5,7 @@ export const la_coupole: SurgicalPlace = {
     name: "La Coupole",
     slug: "la-coupole",
     category: "restaurant",
-    subcategory: ["brasserie", "français", "institution", "art déco", "fruits de mer", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "102 Boulevard du Montparnasse, 75014 Paris",
         arrondissement: 14,
@@ -45,7 +45,7 @@ export const la_coupole: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Les Grands Classiques de La Coupole",
                 items: [
-                    { name: "Curry d'agneau à l'indienne (Mythique depuis 1927)", price_cents: 2550, description: "Servi à la voiture, riz basmati & chutney." },
+                    { name: "Curry d’agneau à l'indienne (Mythique depuis 1927)", price_cents: 2550, description: "Servi à la voiture, riz basmati & chutney." },
                     { name: "Choucroute Royale (Saucisse Francfort, échine, jarret)", price_cents: 2550 },
                     { name: "Choucroute de la Mer (Haddock, saumon, gambas)", price_cents: 2800 },
                     { name: "Filet de bar rôti, légumes de saison", price_cents: 2600 },
@@ -95,13 +95,13 @@ export const la_coupole: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Plus qu'une brasserie, La Coupole est un temple de l'Art Déco et le cœur battant de l'histoire intellectuelle de Montparnasse. Sous ses célèbres piliers peints par les artistes de l'époque, on y déguste les grands classiques du répertoire français : choucroutes impériales, plateaux de fruits de mer somptueux et surtout son mythique curry d'agneau à l'indienne, servi à la voiture depuis 1927. Un spectacle permanent où le Paris d'hier rencontre celui d'aujourd'hui.",
-    insider_tip: "Ne manquez pas le curry d'agneau servi à la voiture, un rituel historique inchangé depuis l'ouverture en 1927. Pensez à lever les yeux pour admirer les chapiteaux décorés par les élèves de Fernand Léger.",
+    description: "Plus qu’une brasserie, La Coupole est un temple de l’Art Déco et le cœur battant de l’histoire intellectuelle de Montparnasse. Sous ses célèbres piliers peints par les artistes de l’époque, on y déguste les grands classiques du répertoire français : choucroutes impériales, plateaux de fruits de mer somptueux et surtout son mythique curry d’agneau à l’indienne, servi à la voiture depuis 1927. Un spectacle permanent où le Paris d’hier rencontre celui d’aujourd’hui.",
+    insider_tip: "Ne manquez pas le curry d’agneau servi à la voiture, un rituel historique inchangé depuis l'ouverture en 1927. Pensez à lever les yeux pour admirer les chapiteaux décorés par les élèves de Fernand Léger.",
     expert_catchline: "Le temple Art Déco de Montparnasse : choucroutes légendaires et curry mythique depuis 1927.",
     specials: {
-        cuisine: ["Brasserie traditionnelle", "Curry à l'indienne", "Choucroute royale"],
+        cuisine: ["Brasserie traditionnelle", "Curry à l’indienne", "Choucroute royale"],
         drinks: ["Grands classiques français", "Champagnes de prestige"],
-        must_eat: "Le Curry d'agneau à l'indienne (servi à la voiture) et la Choucroute de La Coupole.",
-        must_drink: "Une coupe de champagne pour célébrer l'ambiance des années folles."
+        must_eat: "Le Curry d’agneau à l'indienne (servi à la voiture) et la Choucroute de La Coupole.",
+        must_drink: "Une coupe de champagne pour célébrer l’ambiance des années folles."
     }
 };

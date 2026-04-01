@@ -5,7 +5,7 @@ export const kodawari_ramen_tsukiji: SurgicalPlace = {
   slug: "kodawari-ramen-tsukiji",
   name: "Kodawari Ramen (Tsukiji)",
   category: "restaurant",
-  subcategory: ["japonais", "ramen", "poisson", "palais-royal", "insolite"],
+  subcategory: ['japonais', 'français'],
   location: {
     address: "12 Rue de Richelieu, 75001 Paris, France",
     arrondissement: 1,
@@ -43,7 +43,7 @@ export const kodawari_ramen_tsukiji: SurgicalPlace = {
         items: [
           { name: "Namero de féra du Lac Léman", price_cents: 950, description: "Haché de poisson frais, miso, gingembre" },
           { name: "Gyoza Kodawari de la mer (x5)", price_cents: 900 },
-          { name: "Edamame au sel de mer d'Okinawa", price_cents: 550 },
+          { name: "Edamame au sel de mer d’Okinawa", price_cents: 550 },
           { name: "Sashimi de Dorade Royale", price_cents: 1200 },
           { name: "Crabe en mue croustillant", price_cents: 1150 }
         ]
@@ -82,8 +82,8 @@ export const kodawari_ramen_tsukiji: SurgicalPlace = {
       }
     ]
   },
-  description: "Franchir la porte du Kodawari Tsukiji, c'est quitter Paris pour se retrouver en plein cœur de l'ancien marché aux poissons de Tokyo. Entre les étals de faux poissons criants de vérité, la fumée des bouillons et les bruits de la criée, l'immersion est totale. On y déguste des ramen d'une finesse rare, basés sur des bouillons de mer complexes, loin des classiques porc/poulet. Une expérience sensorielle unique à Paris.",
-  insider_tip: "• Pas de réservation possible : arrivez 15-20 min avant l'ouverture de 11h45 ou préparez-vous à faire la queue (qui avance vite).\n• Le 'Sardine Bomb' est réservé aux amateurs de saveurs iodées très intenses.\n• Le décor est tellement immersif qu'il vaut à lui seul le détour culturel (90/100).",
+  description: "Franchir la porte du Kodawari Tsukiji, c’est quitter Paris pour se retrouver en plein cœur de l’ancien marché aux poissons de Tokyo. Entre les étals de faux poissons criants de vérité, la fumée des bouillons et les bruits de la criée, l’immersion est totale. On y déguste des ramen d'une finesse rare, basés sur des bouillons de mer complexes, loin des classiques porc/poulet. Une expérience sensorielle unique à Paris.",
+  insider_tip: "• Pas de réservation possible : arrivez 15-20 min avant l’ouverture de 11h45 ou préparez-vous à faire la queue (qui avance vite).\n• Le ’Sardine Bomb’ est réservé aux amateurs de saveurs iodées très intenses.\n• Le décor est tellement immersif qu'il vaut à lui seul le détour culturel (90/100).",
   specials: {
     cuisine: ["Japonaise", "Ramen", "Poisson"],
     drinks: ["Bière japonaise", "Thé vert rare"],

@@ -5,7 +5,7 @@ export const la_regalade: SurgicalPlace = {
     name: "La Régalade (Origins 14)",
     slug: "la-regalade-paris-14",
     category: "restaurant",
-    subcategory: ["bistronomie", "moderne", "marche", "institution", "terroir"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "49 Avenue Jean Moulin, 75014 Paris, France",
         arrondissement: 14,
@@ -43,8 +43,8 @@ export const la_regalade: SurgicalPlace = {
                 display_label: "Les Créations du Moment",
                 items: [
                     { name: "Poitrine de Cochon Fermier Moelleuse de chez Ospital", price_cents: 2600, description: "Couenne croustillante, haricots de Paimpol et chorizo." },
-                    { name: "Risotto Crémeux à l'Encre de Seiche", price_cents: 2400 },
-                    { name: "Cabillaud Rôti sur la peau, Gnocchis à l'encre", price_cents: 2700 },
+                    { name: "Risotto Crémeux à l’Encre de Seiche", price_cents: 2400 },
+                    { name: "Cabillaud Rôti sur la peau, Gnocchis à l’encre", price_cents: 2700 },
                     { name: "Suprême de Volaille Jaune des Landes", price_cents: 2700 },
                     { name: "Paleron de Boeuf braisé au Vin Noir", price_cents: 2700 },
                     { name: "Tartare de Boeuf au Couteau & Frites", price_cents: 2400 },
@@ -53,14 +53,14 @@ export const la_regalade: SurgicalPlace = {
             },
             {
                 category_type: "starter",
-                display_label: "L'Héritage Régalade (Entrées)",
+                display_label: "L’Héritage Régalade (Entrées)",
                 items: [
-                    { name: "Terrine de Campagne offerte à l'arrivée", price_cents: 0, description: "Le geste emblématique de la maison." },
+                    { name: "Terrine de Campagne offerte à l’arrivée", price_cents: 0, description: "Le geste emblématique de la maison." },
                     { name: "Royale de Foie Gras de Canard, Bouillon Champignons", price_cents: 1800 },
-                    { name: "Poêlée d'Escargots et Champignons au Chorizo", price_cents: 1500 },
+                    { name: "Poêlée d’Escargots et Champignons au Chorizo", price_cents: 1500 },
                     { name: "Vitello Tonnato de La Régalade", price_cents: 1400 },
                     { name: "Soupe Crémeuse de Choux-Fleurs au Parmesan", price_cents: 1500 },
-                    { name: "Rôtis d'Escargots à l'Oeuf Poché", price_cents: 1450 }
+                    { name: "Rôtis d’Escargots à l'Oeuf Poché", price_cents: 1450 }
                 ]
             },
             {
@@ -84,8 +84,8 @@ export const la_regalade: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "La Régalade est le berceau de la bistronomie parisienne. Fondée par Yves Camdeborde et aujourd'hui perpétuée sous le nom d'Origins 14, cette institution n'a rien perdu de sa superbe. Le concept reste inchangé : une généreuse terrine de campagne déposée sur table à l'arrivée, suivie d'une cuisine de marché inventive et sincère. C'est ici que s'est inventé un luxe démocratisé, où l'excellence culinaire se savoure dans une ambiance de bistrot vibrant et décontracté. Le riz au lait final, servi à discrétion dans son saladier familial, est devenu le symbole de cette générosité jamais démentie.",
-    insider_tip: "Ne mangez pas trop de pain avec la terrine d'accueil, les plats sont riches ! Le menu-carte en trois services est le meilleur moyen de découvrir toute l'étendue du talent de la brigade. Le riz au lait est une obligation morale.",
+    description: "La Régalade est le berceau de la bistronomie parisienne. Fondée par Yves Camdeborde et aujourd’hui perpétuée sous le nom d’Origins 14, cette institution n’a rien perdu de sa superbe. Le concept reste inchangé : une généreuse terrine de campagne déposée sur table à l’arrivée, suivie d’une cuisine de marché inventive et sincère. C’est ici que s’est inventé un luxe démocratisé, où l'excellence culinaire se savoure dans une ambiance de bistrot vibrant et décontracté. Le riz au lait final, servi à discrétion dans son saladier familial, est devenu le symbole de cette générosité jamais démentie.",
+    insider_tip: "Ne mangez pas trop de pain avec la terrine d’accueil, les plats sont riches ! Le menu-carte en trois services est le meilleur moyen de découvrir toute l'étendue du talent de la brigade. Le riz au lait est une obligation morale.",
     expert_catchline: "Le berceau historique de la bistronomie parisienne.",
     specials: {
         cuisine: ["Bistronomie", "Cuisine du Marché"],

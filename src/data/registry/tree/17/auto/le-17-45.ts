@@ -5,7 +5,7 @@ export const le_17_45: SurgicalPlace = {
   slug: "le-17-45",
   name: "Le 17.45 Batignolles",
   category: "restaurant",
-  subcategory: ["Planches à composer", "Bar à vin", "Apéro"],
+  subcategory: ['français'],
   location: {
     address: "45 Rue des Dames, 75017 Paris, France",
     arrondissement: 17,
@@ -83,11 +83,11 @@ export const le_17_45: SurgicalPlace = {
       }
     ]
   },
-  description: `Le 17.45 est le spécialiste des planches à composer selon vos envies. Situé dans la vivante Rue des Dames aux Batignolles, ce lieu est devenu le repaire incontournable des amateurs d'apéro dînatoire. On y choisit ses fromages et ses charcuteries à la pièce sur une fiche de commande, le tout provenant de petits producteurs passionnés. L'ambiance est jeune, décontractée et souvent très animée en fin de semaine.`,
-  insider_tip: `• **Timing Stratégique** : Arrivez dès l'ouverture à 17h45 (d'où le nom !) pour décrocher l'une des tables en terrasse très convoitées.
+  description: `Le 17.45 est le spécialiste des planches à composer selon vos envies. Situé dans la vivante Rue des Dames aux Batignolles, ce lieu est devenu le repaire incontournable des amateurs d’apéro dînatoire. On y choisit ses fromages et ses charcuteries à la pièce sur une fiche de commande, le tout provenant de petits producteurs passionnés. L’ambiance est jeune, décontractée et souvent très animée en fin de semaine.`,
+  insider_tip: `• **Timing Stratégique** : Arrivez dès l’ouverture à 17h45 (d'où le nom !) pour décrocher l'une des tables en terrasse très convoitées.
   • **Combo Moelle** : Le Camembert au Calvados marié à une Coppa de Corse est le duo gagnant pour une planche de caractère.
-  • **Expérience Culturelle** : Ici, on n'attend pas d'être servi, on compose sa planche soi-même avec le crayon de papier fourni ; un rituel convivial qui fait partie du charme.`,
-  expert_catchline: "L'art de l'apéro sur-mesure avec les meilleurs produits du terroir.",
+  • **Expérience Culturelle** : Ici, on n’attend pas d'être servi, on compose sa planche soi-même avec le crayon de papier fourni ; un rituel convivial qui fait partie du charme.`,
+  expert_catchline: "L’art de l'apéro sur-mesure avec les meilleurs produits du terroir.",
   specials: {
     cuisine: ["Planches", "Fromages & Charcuteries"],
     drinks: ["Vins de vignerons", "Bières artisanales"],

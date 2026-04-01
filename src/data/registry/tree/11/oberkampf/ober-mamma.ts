@@ -5,7 +5,7 @@ export const ober_mamma: SurgicalPlace = {
     name: "Ober Mamma",
     slug: "ober-mamma",
     category: "restaurant",
-    subcategory: ["italien", "festif", "restaurant"],
+    subcategory: ['italien', 'français'],
     location: {
         address: "107 Bd Richard-Lenoir",
         arrondissement: 11,
@@ -76,8 +76,8 @@ export const ober_mamma: SurgicalPlace = {
                 display_label: "Primi (Pâtes Fraîches & Risotto)",
                 items: [
                     { name: "Spaghettone allo scarpariello", price_cents: 1350 },
-                    { name: "Spaghettone all'arrabbiata", price_cents: 1350 },
-                    { name: "The great carbonara", price_cents: 1600, description: "La carbonara romaine dans les règles de l'art." },
+                    { name: "Spaghettone all’arrabbiata", price_cents: 1350 },
+                    { name: "The great carbonara", price_cents: 1600, description: "La carbonara romaine dans les règles de l’art." },
                     { name: "Risotto ai funghi, onctueux parmesan", price_cents: 1700 },
                     { name: "Burratelli alla stracciatella", price_cents: 1850 },
                     { name: "Spaghettone alle vongole (Palourdes fraîches)", price_cents: 1900 },
@@ -120,13 +120,13 @@ export const ober_mamma: SurgicalPlace = {
     instagram_handle: "bigmammagroup",
     verified: true,
     google_rating: 4.7,
-    description: "La trattoria géante et incandescente du groupe Big Mamma (la deuxième à succès après l'East Mamma). Ici, ça crie en italien, ça découpe du jambon San Daniele sur l'énorme comptoir à l'entrée, et les pizzas napolitaines cuisent au four à bois sous la verrière avec un grand arbre encastré.",
-    insider_tip: "• Pensez à lever les yeux : le majestueux bar en bois et toute l'architecture valent la photo. \n• L'attente peut être rude si vous n'avez pas réservé : venez dès l'ouverture de 18h15 pour être sûr de rentrer.\n• La Marguerita d'appel (6,90€) reste l'un des braquages gastronomiques de Paris niveau rapport qualité/prix.",
-    expert_catchline: "Tout le bruit, les saveurs et la démesure de l'Italie par le géant Big Mamma.",
+    description: "La trattoria géante et incandescente du groupe Big Mamma (la deuxième à succès après l’East Mamma). Ici, ça crie en italien, ça découpe du jambon San Daniele sur l’énorme comptoir à l’entrée, et les pizzas napolitaines cuisent au four à bois sous la verrière avec un grand arbre encastré.",
+    insider_tip: "• Pensez à lever les yeux : le majestueux bar en bois et toute l’architecture valent la photo. \n• L’attente peut être rude si vous n’avez pas réservé : venez dès l’ouverture de 18h15 pour être sûr de rentrer.\n• La Marguerita d’appel (6,90€) reste l'un des braquages gastronomiques de Paris niveau rapport qualité/prix.",
+    expert_catchline: "Tout le bruit, les saveurs et la démesure de l’Italie par le géant Big Mamma.",
     specials: {
         cuisine: ["Pizza napolitaine au four à bois", "Tiramisu servi à la louche"],
         drinks: ["Spritz géants explosifs"],
-        must_eat: "Difficile de ne pas céder pour l'opulente Pizza à la Truffe ou, au moment du dessert, l'incontournable Tiramisu posé au centre de la table.",
+        must_eat: "Difficile de ne pas céder pour l’opulente Pizza à la Truffe ou, au moment du dessert, l'incontournable Tiramisu posé au centre de la table.",
         must_drink: "Un Spritz aux fruits ou un des \"Big Boys\" mixés par leurs barmans survoltés."
     }
 };

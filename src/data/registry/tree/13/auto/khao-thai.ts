@@ -5,7 +5,7 @@ export const khao_thai: SurgicalPlace = {
   slug: "khao-thai",
   name: "Khao Thaï",
   category: "restaurant",
-  subcategory: ["thaï"],
+  subcategory: ['asiatique'],
   location: {
     address: "10 Rue des Gobelins, 75013 Paris, France",
     arrondissement: 13,
@@ -98,7 +98,7 @@ export const khao_thai: SurgicalPlace = {
       },
       {
         category_type: "drink",
-        display_label: "Boissons d'Ailleurs",
+        display_label: "Boissons d’Ailleurs",
         items: [
           { name: "Bière Singha (Bouteille)", price_cents: 650 },
           { name: "Bière Chang (Bouteille)", price_cents: 650 },
@@ -110,9 +110,9 @@ export const khao_thai: SurgicalPlace = {
     ]
   },
   description: "Khao Thaï Gobelins est une escale élégante qui transporte ses convives au cœur de Bangkok sans quitter le 13e. Réputé pour son cadre soigné et ses saveurs balancées, le restaurant propose une carte qui est un véritable hommage à la gastronomie siamoise. Du curry Massaman onctueux au légendaire Tigre qui Pleure, chaque plat est une invitation au voyage, préparé avec une rigueur qui lui vaut une place de choix parmi les institutions thaïlandaises du quartier.",
-  insider_tip: `• **Le Choix Royal** : Le 'Tigre qui Pleure' est ici particulièrement réussi, avec une viande tendrement marinée et une sauce tamarin addictive.
+  insider_tip: `• **Le Choix Royal** : Le ’Tigre qui Pleure' est ici particulièrement réussi, avec une viande tendrement marinée et une sauce tamarin addictive.
   • **Douceur Finale** : Ne repartez pas sans goûter au Mango Sticky Rice (riz gluant à la mangue), un dessert qui rivalise avec les meilleurs stands de street-food de Thong Lo.
-  • **Le Midi** : La formule à 17€ est un rapport qualité-prix imbattable pour un déjeuner d'affaires ou une pause gourmande.`,
+  • **Le Midi** : La formule à 17€ est un rapport qualité-prix imbattable pour un déjeuner d’affaires ou une pause gourmande.`,
   specials: {
     cuisine: ["Thaïlandaise"],
     drinks: ["Singha", "Chang"],

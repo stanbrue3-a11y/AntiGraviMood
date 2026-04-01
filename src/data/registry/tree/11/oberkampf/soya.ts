@@ -5,7 +5,7 @@ export const soya: SurgicalPlace = {
     name: "Soya Cantine Bio",
     slug: "soya",
     category: "restaurant",
-    subcategory: ["vegan", "organic", "fusion", "vegetarian", "healthy"],
+    subcategory: ['français'],
     location: {
         address: "20 Rue de la Pierre Levée",
         arrondissement: 11,
@@ -48,8 +48,8 @@ export const soya: SurgicalPlace = {
                 display_label: "Entrées Véganes",
                 items: [
                     { name: "Houmous au Dukkah & gomasio", price_cents: 900 },
-                    { name: "Tartare d'algues fraîches", price_cents: 1000 },
-                    { name: "Mozza'Cajou (mozzarella de cajou maison)", price_cents: 1200 },
+                    { name: "Tartare d’algues fraîches", price_cents: 1000 },
+                    { name: "Mozza’Cajou (mozzarella de cajou maison)", price_cents: 1200 },
                     { name: "Rouleaux de Printemps (x2)", price_cents: 900 }
                 ]
             },
@@ -57,7 +57,7 @@ export const soya: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Les Plats",
                 items: [
-                    { name: "Grand Mezze de Soya", price_cents: 2200, description: "L'assiette signature : houmous, caviar de légumes, makis, falafels, crudités." },
+                    { name: "Grand Mezze de Soya", price_cents: 2200, description: "L’assiette signature : houmous, caviar de légumes, makis, falafels, crudités." },
                     { name: "Lasagne Végétale au pesto de cajou", price_cents: 1900 },
                     { name: "Bi Bim Bap 100% végétal", price_cents: 1900 },
                     { name: "Curry Masala au lait de coco", price_cents: 1900 },
@@ -81,9 +81,9 @@ export const soya: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Soya est le pionnier de la cuisine bio et végane dans le 11ème. Installé dans un ancien atelier textile aux beaux volumes indus, ce restaurant prouve que la cuisine végétale peut être gourmande, généreuse et techniquement aboutie. Leur 'Grand Mezze' est un festival de couleurs et de textures, devenu le chouchou des habitants du quartier en quête d'un repas sain sans compromis sur le plaisir.",
-    insider_tip: "Leur brunch du dimanche est une institution absolue à Paris : buffet pantagruélique bio et végan. Réservation obligatoire au moins une semaine à l'avance pour espérer avoir une table.",
-    expert_catchline: "La référence de la 'Plant-Based' gourmande : organique, fait-maison et indémodable.",
+    description: "Soya est le pionnier de la cuisine bio et végane dans le 11ème. Installé dans un ancien atelier textile aux beaux volumes indus, ce restaurant prouve que la cuisine végétale peut être gourmande, généreuse et techniquement aboutie. Leur ’Grand Mezze’ est un festival de couleurs et de textures, devenu le chouchou des habitants du quartier en quête d’un repas sain sans compromis sur le plaisir.",
+    insider_tip: "Leur brunch du dimanche est une institution absolue à Paris : buffet pantagruélique bio et végan. Réservation obligatoire au moins une semaine à l’avance pour espérer avoir une table.",
+    expert_catchline: "La référence de la ’Plant-Based' gourmande : organique, fait-maison et indémodable.",
     specials: {
         cuisine: ["Vegan & Organic", "Gluten-Free Friendly", "Émergence indus"],
         drinks: ["Jus pressés à froid", "Vins bio et naturels"],

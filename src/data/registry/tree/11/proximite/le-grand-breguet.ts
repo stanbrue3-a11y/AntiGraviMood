@@ -45,7 +45,7 @@ export const le_grand_breguet: SurgicalPlace = {
         "wine_glass": 6,
         "coffee_price": 2.5,
         "dish_price": 10,
-        "smart_tip": "Formule déjeuner 100% bio imbattable dès 10€. Coworking gratuit l'après-midi. Ambiance cantine bio le midi et bar à tapas le soir.",
+        "smart_tip": "Formule déjeuner 100% bio imbattable dès 10€. Coworking gratuit l’après-midi. Ambiance cantine bio le midi et bar à tapas le soir.",
         "menu_items": [
             {
                 "category_type": "tasting_menu",
@@ -117,12 +117,12 @@ export const le_grand_breguet: SurgicalPlace = {
         "festif": 40,
         "culturel": 30
     },
-    "description": "Le Grand Bréguet est une 'cantine vivante' nichée au cœur du 11e, à deux pas de la Place de la Bastille. Véritable tiers-lieu 100% bio, l'espace alterne entre café studieux le matin (coworking gratuit), cantine saine le midi (formules dès 10€) et bar à tapas/vins nature le soir. On y trouve de grandes tables en bois, une terrasse spacieuse, un piano et même un baby-foot. L'engagement est total : 90% des produits sont issus de l'agriculture française et l'intégralité de la carte est biologique, y compris les spiritueux.",
-    "insider_tip": "C'est un établissement en self-service : on prend son plateau à la cantine et on débarrasse sa table (règle d'or du lieu). Pour le coworking, c'est gratuit de 08:30 à 12:00 et de 14:30 à 17:45 en semaine, avec prises et WiFi. Le soir, l'ambiance devient plus festive avec des bières bio et des cocktails signature comme le Breguet Mule.",
+    "description": "Le Grand Bréguet est une ’cantine vivante’ nichée au cœur du 11e, à deux pas de la Place de la Bastille. Véritable tiers-lieu 100% bio, l’espace alterne entre café studieux le matin (coworking gratuit), cantine saine le midi (formules dès 10€) et bar à tapas/vins nature le soir. On y trouve de grandes tables en bois, une terrasse spacieuse, un piano et même un baby-foot. L’engagement est total : 90% des produits sont issus de l’agriculture française et l'intégralité de la carte est biologique, y compris les spiritueux.",
+    "insider_tip": "C’est un établissement en self-service : on prend son plateau à la cantine et on débarrasse sa table (règle d’or du lieu). Pour le coworking, c’est gratuit de 08:30 à 12:00 et de 14:30 à 17:45 en semaine, avec prises et WiFi. Le soir, l'ambiance devient plus festive avec des bières bio et des cocktails signature comme le Breguet Mule.",
     "specials": {
         "cuisine": ["Bio", "Français", "Végétarien", "Vegan"],
         "drinks": ["Vins nature bio", "Bière bio pression (7€)", "Breguet Mule", "Café artisanal bio"],
-        "must_eat": "La formule midi à 10€ (entrée/plat ou plat/dessert 100% bio) est l'un des meilleurs rapports qualité/prix du quartier. Le 'Bol bio végé' et le 'Succulent au chocolat' sont les classiques de la maison. Pour l'afterwork, les tapas bio accompagnées d'un vin nature français.",
+        "must_eat": "La formule midi à 10€ (entrée/plat ou plat/dessert 100% bio) est l’un des meilleurs rapports qualité/prix du quartier. Le ’Bol bio végé’ et le ’Succulent au chocolat’ sont les classiques de la maison. Pour l’afterwork, les tapas bio accompagnées d’un vin nature français.",
         "expert_catchline": "Tiers-lieu 100% bio : cantine saine le midi, coworking studieux et bar festif le soir avec vins nature."
     },
     "images": {

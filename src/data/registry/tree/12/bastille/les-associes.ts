@@ -117,8 +117,8 @@ export const les_associes: SurgicalPlace = {
         "festif": 20,
         "culturel": 3
     },
-    "description": "Grande brasserie posée sur le boulevard de la Bastille, Les Associés joue la carte de la brasserie parisienne classique avec un twist afterwork. Deux terrasses (dont une couverte toute l'année), un intérieur spacieux, une cuisine française maison et un Happy Hour XXL qui s'étire de 15h jusqu'à minuit — le genre d'endroit où tu poses ton sac à la sortie du bureau et tu ne bouges plus de la soirée. La carte mélange burgers, tapas, plats de brasserie et un beau choix de desserts maison.",
-    "insider_tip": "Le Happy Hour va jusqu'à MINUIT — c'est l'un des plus longs du quartier Bastille. Pinte à 5€ et verre de vin à 3€ pendant 9 heures d'affilée. La terrasse couverte est un game-changer quand il pleut. Attention : un avis MisterGoodBeer signale que les prix HH ne seraient pas toujours appliqués — vérifie à l'arrivée.",
+    "description": "Grande brasserie posée sur le boulevard de la Bastille, Les Associés joue la carte de la brasserie parisienne classique avec un twist afterwork. Deux terrasses (dont une couverte toute l’année), un intérieur spacieux, une cuisine française maison et un Happy Hour XXL qui s’étire de 15h jusqu’à minuit — le genre d'endroit où tu poses ton sac à la sortie du bureau et tu ne bouges plus de la soirée. La carte mélange burgers, tapas, plats de brasserie et un beau choix de desserts maison.",
+    "insider_tip": "Le Happy Hour va jusqu’à MINUIT — c’est l’un des plus longs du quartier Bastille. Pinte à 5€ et verre de vin à 3€ pendant 9 heures d’affilée. La terrasse couverte est un game-changer quand il pleut. Attention : un avis MisterGoodBeer signale que les prix HH ne seraient pas toujours appliqués — vérifie à l’arrivée.",
     "specials": {
         "cuisine": [
             "American Burger frites maison (15€)",
@@ -134,7 +134,7 @@ export const les_associes: SurgicalPlace = {
             "Cocktails"
         ],
         "must_eat": "Le burger maison frites à 15€ ou la côte de bœuf sauce béarnaise à 19,50€. En dessert, le mi-cuit chocolat tendre à cœur à 6,50€ — un classique indétrônable.",
-        "expert_catchline": "Happy Hour de 9 heures (15h-00h), terrasse couverte, cuisine maison et l'addition qui reste douce — le QG afterwork du boulevard de la Bastille."
+        "expert_catchline": "Happy Hour de 9 heures (15h-00h), terrasse couverte, cuisine maison et l’addition qui reste douce — le QG afterwork du boulevard de la Bastille."
     },
     "images": {
         // VERIFIED: Google Maps API photo_reference

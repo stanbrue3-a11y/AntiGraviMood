@@ -40,7 +40,7 @@ export const buttes_chaumont: SurgicalPlace = {
         "festif": 5,
         "culturel": 7
     },
-    "description": "Le parc le plus escarpé, romantique et 'montagnard' de Paris. Construit sous Napoléon III sur d'anciennes carrières de gypse, c'est un chef-d'œuvre de paysage artificiel : fausses falaises, grotte avec cascade, pont suspendu par Gustave Eiffel et le fameux Temple de la Sibylle perché sur son piton rocheux qui offre une vue sublime sur Montmartre. C'est le spot préféré des parisiens pour les pique-niques en pente, les apéros qui s'éternisent et les joggings cardio (ça grimpe !).",
+    "description": "Le parc le plus escarpé, romantique et ’montagnard’ de Paris. Construit sous Napoléon III sur d’anciennes carrières de gypse, c’est un chef-d’œuvre de paysage artificiel : fausses falaises, grotte avec cascade, pont suspendu par Gustave Eiffel et le fameux Temple de la Sibylle perché sur son piton rocheux qui offre une vue sublime sur Montmartre. C’est le spot préféré des parisiens pour les pique-niques en pente, les apéros qui s’éternisent et les joggings cardio (ça grimpe !).",
     "insider_tip": "Prépare tes mollets, ça grimpe sec !",
     "specials": {
         "cuisine": [],

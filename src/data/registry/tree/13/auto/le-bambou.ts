@@ -5,7 +5,7 @@ export const le_bambou: SurgicalPlace = {
   slug: "le-bambou",
   name: "Le Bambou",
   category: "restaurant",
-  subcategory: ["vietnamien"],
+  subcategory: ['vietnamien'],
   location: {
     address: "70 Rue Baudricourt, 75013 Paris, France",
     arrondissement: 13,
@@ -84,8 +84,8 @@ export const le_bambou: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Bambou est une véritable institution du quartier chinois de Paris. Reconnu pour son Phở légendaire et son ambiance de cantine vrombissante, c'est l'adresse de référence pour ceux qui cherchent l'authenticité vietnamienne sans fioritures. Service ultra-rapide et saveurs percutantes garanties.",
-  insider_tip: "• **Timing Stratégique** : Arrivez tôt (11h45 ou 18h45) car la file d'attente s'allonge très vite sur le trottoir.\n• **Expérience Culturelle** : L'ambiance est bruyante et les tables sont serrées, c'est ce qui fait le charme du lieu.\n• **Combo Moelle** : Le Phở spécial est copieux, n'hésitez pas à demander du piment frais pour relever le bouillon.",
+  description: "Le Bambou est une véritable institution du quartier chinois de Paris. Reconnu pour son Phở légendaire et son ambiance de cantine vrombissante, c’est l’adresse de référence pour ceux qui cherchent l’authenticité vietnamienne sans fioritures. Service ultra-rapide et saveurs percutantes garanties.",
+  insider_tip: "• **Timing Stratégique** : Arrivez tôt (11h45 ou 18h45) car la file d’attente s’allonge très vite sur le trottoir.\n• **Expérience Culturelle** : L’ambiance est bruyante et les tables sont serrées, c’est ce qui fait le charme du lieu.\n• **Combo Moelle** : Le Phở spécial est copieux, n’hésitez pas à demander du piment frais pour relever le bouillon.",
   specials: {
     cuisine: ["Vietnamienne", "Asiatique"],
     drinks: ["Thé au jasmin", "Bière Saigon"],

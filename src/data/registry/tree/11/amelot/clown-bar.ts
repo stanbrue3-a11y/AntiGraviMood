@@ -5,7 +5,7 @@ export const clown_bar: SurgicalPlace = {
     name: "Clown Bar",
     slug: "clown-bar",
     category: "restaurant",
-    subcategory: ["bistronomie", "historique", "restaurant"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "114 Rue Amelot",
         arrondissement: 11,
@@ -42,10 +42,10 @@ export const clown_bar: SurgicalPlace = {
     menu_items: [
       {
         category_type: "tasting_menu",
-        display_label: "Les Menus d'Exception (Menus)",
+        display_label: "Les Menus d’Exception (Menus)",
         items: [
           { name: "Formule Déjeuner (Entrée-Plat-Dessert) - Semaine", price_cents: 3200, description: "La bistronomie du Clown Bar à prix doux.", is_highlight: true },
-          { name: "Menu 'Carte Blanche' (6 temps)", price_cents: 8500, description: "L'expérience complète guidée par le chef.", is_highlight: true }
+          { name: "Menu ’Carte Blanche' (6 temps)", price_cents: 8500, description: "L’expérience complète guidée par le chef.", is_highlight: true }
         ]
       },
       {
@@ -66,14 +66,14 @@ export const clown_bar: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats de Mémoire & Création (Plats)",
         items: [
-          { name: "Pithiviers de Canard & Foie Gras", price_cents: 3500, description: "Le chef-d'œuvre intemporel de la maison.", is_highlight: true },
+          { name: "Pithiviers de Canard & Foie Gras", price_cents: 3500, description: "Le chef-d’œuvre intemporel de la maison.", is_highlight: true },
           { name: "Pigeon de Mesquer, oignon & radicchio", price_cents: 3300, is_highlight: true },
           { name: "Lieu Jaune de ligne, pak choï & moules", price_cents: 2800 },
           { name: "Barbue snackée, artichauts & beurre blanc", price_cents: 3000 },
           { name: "Cabillaud rôti, coco de Paimpol & herbes", price_cents: 2900 },
-          { name: "Épaule d'agneau de lait confite", price_cents: 3200 },
+          { name: "Épaule d’agneau de lait confite", price_cents: 3200 },
           { name: "Gnocchi maison & crème de parmesan", price_cents: 2400 },
-          { name: "Risotto d'épeautre bio & courge rôtie", price_cents: 2250 }
+          { name: "Risotto d’épeautre bio & courge rôtie", price_cents: 2250 }
         ]
       },
       {
@@ -112,8 +112,8 @@ export const clown_bar: SurgicalPlace = {
     instagram_handle: "clownbar_paris",
     verified: true,
     google_rating: 4.5,
-    description: "L'ancien bar attenant au Cirque d'Hiver, classé aux monuments historiques (faillence Belle Époque de clowns), est devenu l'une des tables bistronomiques les plus prisées et avant-gardistes de la capitale.",
-    insider_tip: "• La carte change purement au gré des saisons, mais le Pithiviers est un indispensable de la maison en hiver.\n• Le menu déjeuner en semaine (32€ E/P/D) est la meilleure façon de tester l'adresse sans y laisser son PEL d'un soir.\n• Regardez bien le sublime bar en faïences centenaires.",
+    description: "L’ancien bar attenant au Cirque d’Hiver, classé aux monuments historiques (faillence Belle Époque de clowns), est devenu l’une des tables bistronomiques les plus prisées et avant-gardistes de la capitale.",
+    insider_tip: "• La carte change purement au gré des saisons, mais le Pithiviers est un indispensable de la maison en hiver.\n• Le menu déjeuner en semaine (32€ E/P/D) est la meilleure façon de tester l’adresse sans y laisser son PEL d'un soir.\n• Regardez bien le sublime bar en faïences centenaires.",
     expert_catchline: "Haute bistronomie dans un écrin Belle Époque somptueux classé monument historique.",
     specials: {
         cuisine: ["Pithiviers au foie gras", "Pigeon", "Ris de veau"],

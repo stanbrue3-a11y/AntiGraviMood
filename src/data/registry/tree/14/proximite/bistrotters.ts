@@ -5,7 +5,7 @@ export const bistrotters: SurgicalPlace = {
     name: "Bistrotters",
     slug: "bistrotters-paris-14",
     category: "restaurant",
-    subcategory: ["bistrot", "terroir", "pepite", "parisien", "authentique"],
+    subcategory: ['français'],
     location: {
         address: "9 Rue Decrès, 75014 Paris, France",
         arrondissement: 14,
@@ -40,15 +40,15 @@ export const bistrotters: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "L'ardoise des Bistrotters",
+                display_label: "L’ardoise des Bistrotters",
                 items: [
                     { name: "Cuisse de Canard Confite Maison", price_cents: 2250 },
                     { name: "Filet de Boeuf Aubrac, sauce poivre", price_cents: 2800 },
-                    { name: "Dos de Cabillaud en croûte d'herbes", price_cents: 2400 },
+                    { name: "Dos de Cabillaud en croûte d’herbes", price_cents: 2400 },
                     { name: "Saucisse de Toulouse grillée et Aligot", price_cents: 1950 },
                     { name: "Poitrine de Veau rôtie aux petits oignons", price_cents: 2400 },
                     { name: "Tartare de Boeuf au couteau préparé", price_cents: 2100 },
-                    { name: "Risso de Légumes de l'Ardoise", price_cents: 1850 }
+                    { name: "Risso de Légumes de l’Ardoise", price_cents: 1850 }
                 ]
             },
             {
@@ -58,7 +58,7 @@ export const bistrotters: SurgicalPlace = {
                     { name: "Os à Moelle Gratiné au Sel de Guérande", price_cents: 1000 },
                     { name: "Oeuf Cocotte au Maroilles (Pépite !)", price_cents: 1150 },
                     { name: "Ardoise de Charcuteries de pays", price_cents: 1400 },
-                    { name: "Entrée du Marché (à l'ardoise)", price_cents: 950 },
+                    { name: "Entrée du Marché (à l’ardoise)", price_cents: 950 },
                     { name: "Salade de Crottin de Chavignol chaud", price_cents: 1200 }
                 ]
             },
@@ -83,14 +83,14 @@ export const bistrotters: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Bistrotters est l'une de ces pépites parisiennes que l'on voudrait garder pour soi. Situé dans la tranquille rue Decrès, ce restaurant incarne le bistrot moderne dans ce qu'il a de plus noble : une cuisine de terroir généreuse, un accueil d'une gentillesse rare et une atmosphère chaleureuse faite de bois et de sourires. Tout ici est fait maison, de la terrine au dessert, avec un respect sacré du produit. C'est l'adresse idéale pour redécouvrir le plaisir simple d'un plat parfaitement mijoté dans un cadre authentique.",
-    insider_tip: "Goutez absolument à leur riz au lait, une légende locale qui vaut le détour à elle seule. L'ambiance le samedi soir est particulièrement conviviale, pensez à réserver car le lieu est petit.",
-    expert_catchline: "L'authenticité absolue du bistrot de quartier et de terroir.",
+    description: "Bistrotters est l’une de ces pépites parisiennes que l’on voudrait garder pour soi. Situé dans la tranquille rue Decrès, ce restaurant incarne le bistrot moderne dans ce qu’il a de plus noble : une cuisine de terroir généreuse, un accueil d’une gentillesse rare et une atmosphère chaleureuse faite de bois et de sourires. Tout ici est fait maison, de la terrine au dessert, avec un respect sacré du produit. C’est l’adresse idéale pour redécouvrir le plaisir simple d’un plat parfaitement mijoté dans un cadre authentique.",
+    insider_tip: "Goutez absolument à leur riz au lait, une légende locale qui vaut le détour à elle seule. L’ambiance le samedi soir est particulièrement conviviale, pensez à réserver car le lieu est petit.",
+    expert_catchline: "L’authenticité absolue du bistrot de quartier et de terroir.",
     specials: {
         cuisine: ["Bistrot de Terroir", "Cuisine Familiale"],
         drinks: ["Vins de Propriétaires", "Bières de Micro-Brasserie"],
         must_eat: "Le Confit de Canard et le Riz au Lait.",
-        must_drink: "Un vin rouge souple de l'Hérault."
+        must_drink: "Un vin rouge souple de l’Hérault."
     },
     source: "expert_human"
 };

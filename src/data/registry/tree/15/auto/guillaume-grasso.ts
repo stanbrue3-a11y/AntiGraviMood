@@ -5,7 +5,7 @@ export const guillaume_grasso: SurgicalPlace = {
   slug: "guillaume-grasso",
   name: "Guillaume Grasso",
   category: "restaurant",
-  subcategory: ["pizza", "italien", "napolitain", "authentique"],
+  subcategory: ['français', 'italien'],
   location: {
     address: "45 Rue Brancion, 75015 Paris, France",
     arrondissement: 15,
@@ -77,7 +77,7 @@ export const guillaume_grasso: SurgicalPlace = {
         items: [
           { name: "Vesuvio (Tomates cerises, Bufala, Nduja)", price_cents: 1700, is_highlight: true },
           { name: "Parma (Mozzarella, Jambon de Parme 24 mois)", price_cents: 1850, is_highlight: true },
-          { name: "Bresaola (Mozzarella, Bresaola punta d'anca, Roquette)", price_cents: 1900 },
+          { name: "Bresaola (Mozzarella, Bresaola punta d’anca, Roquette)", price_cents: 1900 },
           { name: "Végétarienne (Légumes grillés de saison)", price_cents: 1550 },
           { name: "Ripieno / Calzone (Ricotta, Salami, Mozzarella)", price_cents: 1400 },
           { name: "Emilia Romagna (Mortadelle, Pistache, Stracciatella)", price_cents: 1950, is_highlight: true },
@@ -104,7 +104,7 @@ export const guillaume_grasso: SurgicalPlace = {
         category_type: "drink",
         display_label: "La Cave Italienne (Boissons)",
         items: [
-          { name: "Verre de Gragnano 'Ottouve' (Rouge pétillant)", price_cents: 800, is_highlight: true },
+          { name: "Verre de Gragnano ’Ottouve' (Rouge pétillant)", price_cents: 800, is_highlight: true },
           { name: "Verre de Falanghina (Blanc de Campanie)", price_cents: 750 },
           { name: "Bouteille Lacryma Christi del Vesuvio", price_cents: 3800 },
           { name: "Bière Moretti alla Spina (50cl)", price_cents: 950 },
@@ -115,8 +115,8 @@ export const guillaume_grasso: SurgicalPlace = {
       }
     ]
   },
-  description: "Guillaume Grasso est le gardien du temple de la pizza napolitaine à Paris. Descendant de la famille fondatrice de l'Antica Pizzeria Da Michele à Naples, il pratique un art certifié par l'AVPN (Associazione Verace Pizza Napoletana). Ici, pas de croûte extravagante, mais une pâte fondante, une tomate San Marzano DOP et une cuisson éclair au four à bois. C'est l'expérience napolitaine la plus pure et la plus technique de la capitale.",
-  insider_tip: "• **La Marinara** : Si vous voulez tester la qualité technique absolue, prenez la Marinara. Sans fromage, tout repose sur l'équilibre pâte/tomate/origan. Magnifique.\n• **Fritti** : Ne sautez pas les entrées frites (Montanara ou Frittatina), elles sont faites dans les règles de l'art napolitain.\n• **Le Vin** : Accompagnez votre pizza d'un Gragnano bien frais, le vin rouge pétillant de la baie de Naples, c'est l'accord local parfait.",
+  description: "Guillaume Grasso est le gardien du temple de la pizza napolitaine à Paris. Descendant de la famille fondatrice de l’Antica Pizzeria Da Michele à Naples, il pratique un art certifié par l’AVPN (Associazione Verace Pizza Napoletana). Ici, pas de croûte extravagante, mais une pâte fondante, une tomate San Marzano DOP et une cuisson éclair au four à bois. C’est l'expérience napolitaine la plus pure et la plus technique de la capitale.",
+  insider_tip: "• **La Marinara** : Si vous voulez tester la qualité technique absolue, prenez la Marinara. Sans fromage, tout repose sur l’équilibre pâte/tomate/origan. Magnifique.\n• **Fritti** : Ne sautez pas les entrées frites (Montanara ou Frittatina), elles sont faites dans les règles de l’art napolitain.\n• **Le Vin** : Accompagnez votre pizza d’un Gragnano bien frais, le vin rouge pétillant de la baie de Naples, c’est l’accord local parfait.",
   specials: {
     cuisine: ["Vera Pizza Napoletana AVPN", "Frittatina di Pasta", "Pâte fondante"],
     drinks: ["Vins de Campanie (Gragnano)", "Chinotto Lurisia", "Spritz Authentique"],

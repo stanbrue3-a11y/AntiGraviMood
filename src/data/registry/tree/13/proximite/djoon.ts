@@ -38,8 +38,8 @@ export const djoon: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Le Djoon est le sanctuaire parisien de la house soulful et du disco. Sur deux niveaux dominant les quais de Seine, ce club à l'esprit new-yorkais attire les meilleurs danseurs de la capitale. Programmation afro-house, funky soul et sets pointus des résidents font vibrer le parquet sous les pieds d'un public connaisseur et ultra-bienveillant. Ici, on ne vient pas pour se montrer, mais pour se perdre dans le son et la danse jusqu au petit matin.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Le Djoon est le sanctuaire parisien de la house soulful et du disco. Sur deux niveaux dominant les quais de Seine, ce club à l’esprit new-yorkais attire les meilleurs danseurs de la capitale. Programmation afro-house, funky soul et sets pointus des résidents font vibrer le parquet sous les pieds d'un public connaisseur et ultra-bienveillant. Ici, on ne vient pas pour se montrer, mais pour se perdre dans le son et la danse jusqu au petit matin.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

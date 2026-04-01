@@ -5,7 +5,7 @@ export const tempero_epicerie: SurgicalPlace = {
   slug: "tempero-epicerie",
   name: "TEMPERO EPICERIE",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "24 Prom. Claude Lévi-Strauss, 75013 Paris, France",
     arrondissement: 13,
@@ -47,7 +47,7 @@ export const tempero_epicerie: SurgicalPlace = {
           { name: "Poitrine de porc confite", price_cents: 2000 },
           { name: "Poulet grillé fermier", price_cents: 2000 },
           { name: "Cabillaud vapeur & légumes", price_cents: 2050 },
-          { name: "Risotto d'épeautre aux champignons", price_cents: 1900 },
+          { name: "Risotto d’épeautre aux champignons", price_cents: 1900 },
           { name: "Plat du jour (Ardoise)", price_cents: 1800 }
         ]
       },
@@ -83,8 +83,8 @@ export const tempero_epicerie: SurgicalPlace = {
       }
     ]
   },
-  description: "Tempero Épicerie est la 'petite sœur' du restaurant Nosso d'Alessandra Montagne. Cette épicerie-cantine propose une cuisine vive, locale et aux accents brésiliens dans un cadre moderne et lumineux. On y vient pour les cocottes réconfortantes, les vins natures et l'atmosphère décontractée du quartier de la BNF.",
-  insider_tip: "• **Choix du Maître** : La poitrine de porc confite est un incontournable de la chef, d'une tendreté absolue.\n• **Expérience Culturelle** : Profitez-en pour faire vos courses d'épicerie fine et de vins natures avant de partir.\n• **Timing Stratégique** : Idéal pour un déjeuner de travail inspirant ou un début de soirée (le vendredi).",
+  description: "Tempero Épicerie est la ’petite sœur’ du restaurant Nosso d’Alessandra Montagne. Cette épicerie-cantine propose une cuisine vive, locale et aux accents brésiliens dans un cadre moderne et lumineux. On y vient pour les cocottes réconfortantes, les vins natures et l'atmosphère décontractée du quartier de la BNF.",
+  insider_tip: "• **Choix du Maître** : La poitrine de porc confite est un incontournable de la chef, d’une tendreté absolue.\n• **Expérience Culturelle** : Profitez-en pour faire vos courses d'épicerie fine et de vins natures avant de partir.\n• **Timing Stratégique** : Idéal pour un déjeuner de travail inspirant ou un début de soirée (le vendredi).",
   specials: {
     cuisine: ["Française", "Brésilienne", "Fusion"],
     drinks: ["Vin Nature", "Café de spécialité"],

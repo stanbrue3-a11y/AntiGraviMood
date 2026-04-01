@@ -5,7 +5,7 @@ export const leSotLyLaisse: SurgicalPlace = {
     name: "Sot l’y Laisse",
     slug: "le-sot-ly-laisse",
     category: "restaurant",
-    subcategory: ["franco-japanese", "bistronomic", "traditional", "fine-dining"],
+    subcategory: ['français'],
     location: {
         address: "70 Rue Alexandre Dumas",
         arrondissement: 11,
@@ -63,7 +63,7 @@ export const leSotLyLaisse: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Inspirations (Plats Signatures)",
                 items: [
-                    { name: "Fricassée de sot-l'y-laisse aux champignons", price_cents: 0, description: "Le plat culte du chef Eiji Doihara, poêlé minute." },
+                    { name: "Fricassée de sot-l’y-laisse aux champignons", price_cents: 0, description: "Le plat culte du chef Eiji Doihara, poêlé minute." },
                     { name: "Filet de bar poêlé à la barigoule, bouillon de volaille", price_cents: 0 },
                     { name: "Ris de veau sautés, sauce Périgueux & céleri", price_cents: 0 },
                     { name: "Thon Kuro Mago snacké, sésame noir", price_cents: 0 },
@@ -80,13 +80,13 @@ export const leSotLyLaisse: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Sot l'y Laisse est un joyau de la rue Alexandre Dumas. Le chef Eiji Doihara y pratique une cuisine française de haute volée, magnifiée par l'épure et la précision japonaises. Son plat signature, qui donne son nom au restaurant, est une ode aux textures et aux saveurs boisées. Le cadre est sobre, intime, mettant tout l'accent sur les assiettes d'une finesse rare.",
-    insider_tip: "Ne manquez pas leur menu déjeuner, sans doute l'un des meilleurs rapports qualité-prix gastronomiques du quartier. Pensez à réserver plusieurs jours à l'avance, le lieu étant petit et très prisé.",
-    expert_catchline: "L'art de la haute gastronomie française magnifié par la précision japonaise.",
+    description: "Le Sot l’y Laisse est un joyau de la rue Alexandre Dumas. Le chef Eiji Doihara y pratique une cuisine française de haute volée, magnifiée par l’épure et la précision japonaises. Son plat signature, qui donne son nom au restaurant, est une ode aux textures et aux saveurs boisées. Le cadre est sobre, intime, mettant tout l’accent sur les assiettes d'une finesse rare.",
+    insider_tip: "Ne manquez pas leur menu déjeuner, sans doute l’un des meilleurs rapports qualité-prix gastronomiques du quartier. Pensez à réserver plusieurs jours à l'avance, le lieu étant petit et très prisé.",
+    expert_catchline: "L’art de la haute gastronomie française magnifié par la précision japonaise.",
     specials: {
-        cuisine: ["Franco-Japonais", "Technique Bocuse", "Produits d'exception"],
+        cuisine: ["Franco-Japonais", "Technique Bocuse", "Produits d’exception"],
         drinks: ["Belle sélection de vins de Bourgogne", "Sakis sélectionnés"],
-        must_eat: "La fricassée de Sot-l'y-laisse bien sûr.",
+        must_eat: "La fricassée de Sot-l’y-laisse bien sûr.",
         must_drink: "Un saki pour accompagner les entrées de poisson."
     }
 };

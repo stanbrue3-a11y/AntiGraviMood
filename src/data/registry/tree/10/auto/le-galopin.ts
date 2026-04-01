@@ -5,7 +5,7 @@ export const le_galopin: SurgicalPlace = {
   slug: "le-galopin",
   name: "Le Galopin",
   category: "restaurant",
-  subcategory: ["gastronomique", "creatif", "fusion-japonaise", "institution"],
+  subcategory: ['français'],
   location: {
     address: "34 Rue Sainte-Marthe, 75010 Paris, France",
     arrondissement: 10,
@@ -59,7 +59,7 @@ export const le_galopin: SurgicalPlace = {
         category_type: "main",
         display_label: "Expériences Marines & Terrestres (Plats)",
         items: [
-          { name: "Merlu de Ligne à l'Algue Dulce & Fumet Coco", price_cents: 2900, is_highlight: true },
+          { name: "Merlu de Ligne à l’Algue Dulce & Fumet Coco", price_cents: 2900, is_highlight: true },
           { name: "Ris de Veau au Jus Corsé, Sage & Ciboulette", price_cents: 3400, is_highlight: true },
           { name: "Pigeon de Vendée rôti sur le coffre au Sang", price_cents: 3800, is_highlight: true },
           { name: "Filet de Bœuf Aubrac & Huile de Sésame Noir", price_cents: 3200 },
@@ -89,7 +89,7 @@ export const le_galopin: SurgicalPlace = {
           { name: "Riz au Lait Vanillé & Praliné Sésame Noir", price_cents: 1000 },
           { name: "Financier aux Amandes & Sorbet Shizo Vert", price_cents: 1150, is_highlight: true },
           { name: "Fromages Affinés (Maison Quatrehomme)", price_cents: 1400 },
-          { name: "Glace à l'Huile d'Olive & Sel de Guérande", price_cents: 900 },
+          { name: "Glace à l’Huile d'Olive & Sel de Guérande", price_cents: 900 },
           { name: "Tartelette aux Fruits de Saison & Verveine", price_cents: 1050 }
         ]
       },
@@ -109,12 +109,12 @@ export const le_galopin: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Galopin, niché sur l'emblématique place Sainte-Marthe, est une adresse incontournable de la gastronomie créative parisienne. Initialement lancé par les frères Tischenko, le lieu est désormais magnifié par le chef Julien Simmonet. Sa cuisine, fruit de voyages au Japon, sublime les techniques de conservation et d'extraction (Ikejime, fermentations) pour offrir un menu unique d'une précision chirurgicale. Entre influences nippones et terroir français, chaque plat est une œuvre d'art brute, servie dans un décor de bistrot authentique et chaleureux.",
-  insider_tip: "• **L'Influence Japonaise** : Ne manquez pas les poissons préparés selon la méthode Ikejime, la texture et la pureté du goût sont incomparables.\n• **La Place Sainte-Marthe** : En été, la terrasse sur cette place qui ressemble à un village est l'une des plus magiques de Paris.\n• **Saké Pairing** : Laissez-vous tenter par un verre de saké avec votre entrée, le chef Simmonet a une connaissance pointue des accords franco-japonais.",
+  description: "Le Galopin, niché sur l’emblématique place Sainte-Marthe, est une adresse incontournable de la gastronomie créative parisienne. Initialement lancé par les frères Tischenko, le lieu est désormais magnifié par le chef Julien Simmonet. Sa cuisine, fruit de voyages au Japon, sublime les techniques de conservation et d’extraction (Ikejime, fermentations) pour offrir un menu unique d’une précision chirurgicale. Entre influences nippones et terroir français, chaque plat est une œuvre d'art brute, servie dans un décor de bistrot authentique et chaleureux.",
+  insider_tip: "• **L’Influence Japonaise** : Ne manquez pas les poissons préparés selon la méthode Ikejime, la texture et la pureté du goût sont incomparables.\n• **La Place Sainte-Marthe** : En été, la terrasse sur cette place qui ressemble à un village est l'une des plus magiques de Paris.\n• **Saké Pairing** : Laissez-vous tenter par un verre de saké avec votre entrée, le chef Simmonet a une connaissance pointue des accords franco-japonais.",
   specials: {
     cuisine: ["Gastronomie créative fusion Japonaise", "Techniques Ikejime & Fermentations", "Produits de saison ultra-sourcés"],
-    drinks: ["Belle sélection de sakés artisanaux", "Vins naturels d'auteur", "Thés de cérémonie"],
-    must_eat: "Le Merlu à l'Algue Dulce & Fumet Coco (29€) : un plat signature qui résume parfaitement l'équilibre entre mer et exotisme.",
+    drinks: ["Belle sélection de sakés artisanaux", "Vins naturels d’auteur", "Thés de cérémonie"],
+    must_eat: "Le Merlu à l’Algue Dulce & Fumet Coco (29€) : un plat signature qui résume parfaitement l'équilibre entre mer et exotisme.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

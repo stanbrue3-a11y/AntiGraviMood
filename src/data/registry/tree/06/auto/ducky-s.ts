@@ -5,7 +5,7 @@ export const ducky_s: SurgicalPlace = {
   slug: "ducky-s",
   name: "Ducky’s",
   category: "restaurant",
-  subcategory: ["street"],
+  subcategory: ['français'],
   location: {
     address: "157 Bd du Montparnasse, 75006 Paris, France",
     arrondissement: 6,
@@ -53,7 +53,7 @@ export const ducky_s: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Gua Bao : Les Plats / Burgers Asiat'",
+        display_label: "Gua Bao : Les Plats / Burgers Asiat’",
         items: [
           { name: "Gua Bao Canard Laqué Solo", price_cents: 550, is_highlight: true },
           { name: "Gua Bao Porc Laqué Solo", price_cents: 550 },
@@ -101,10 +101,10 @@ export const ducky_s: SurgicalPlace = {
       }
     ]
   },
-  description: "Ducky's est l'adresse street-food par excellence lancée par la famille Ang (Tang Frères), apportant le savoir-faire de la rôtisserie traditionnelle dans un format urbain et moderne. Spécialisé dans le Gua Bao (le célèbre burger à la vapeur) et le canard laqué, l'établissement propose une cuisine rapide, savoureuse et accessible. C'est le spot idéal pour un déjeuner sur le pouce ou pour emporter les classiques de la gastronomie cantonaise revisités avec une touche contemporaine.",
+  description: "Ducky’s est l’adresse street-food par excellence lancée par la famille Ang (Tang Frères), apportant le savoir-faire de la rôtisserie traditionnelle dans un format urbain et moderne. Spécialisé dans le Gua Bao (le célèbre burger à la vapeur) et le canard laqué, l’établissement propose une cuisine rapide, savoureuse et accessible. C'est le spot idéal pour un déjeuner sur le pouce ou pour emporter les classiques de la gastronomie cantonaise revisités avec une touche contemporaine.",
   insider_tip: `• **Le Combo Ultime** : Le menu à 11.90€ avec deux Gua Bao est imbattable pour tester différentes rôtisseries (Canard et Porc).
   • **Secret Side** : Leurs frites de patate douce sont considérées comme parmi les meilleures du quartier, parfaitement croustillantes.
-  • **Le Canard de Fête** : Il est possible de commander un canard entier laqué à l'avance pour vos dîners à la maison, découpé selon les règles de l'art.`,
+  • **Le Canard de Fête** : Il est possible de commander un canard entier laqué à l’avance pour vos dîners à la maison, découpé selon les règles de l'art.`,
   specials: {
     cuisine: ["Street Food", "Chinoise", "Asiatique"],
     drinks: ["Tsingtao", "Thé Glacé Maison"],

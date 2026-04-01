@@ -5,7 +5,7 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
   slug: "restaurant-don-juan-ii-yachts-de-paris",
   name: "Restaurant Don Juan II - Yachts de Paris",
   category: "restaurant",
-  subcategory: ["gastronomique", "croisière-luxe", "étoilé", "seine"],
+  subcategory: ['français'],
   location: {
     address: "5 Port Debilly, 75016 Paris",
     arrondissement: 16,
@@ -41,7 +41,7 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
     menu_items: [
       {
         category_type: "tasting_menu",
-        display_label: "L'Odyssée Gastronomique (Menu Unique)",
+        display_label: "L’Odyssée Gastronomique (Menu Unique)",
         items: [
           { name: "Menu Dégustation Don Juan II", price_cents: 24000, description: "Le parcours complet sur la Seine en 6 étapes par le chef Frédéric Anton", is_highlight: true }
         ]
@@ -50,13 +50,13 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
         category_type: "other",
         display_label: "Les Étapes du Voyage",
         items: [
-          { name: "Le Crabe Royal", price_cents: 0, description: "Parfumé au Curry, crème d'avocat et herbes fraîches" },
-          { name: "Langoustine en Ravioli", price_cents: 0, description: "Crème de Parmesan légère et truffe d'été (selon saison)", is_highlight: true },
-          { name: "Le Cabillaud de Ligne", price_cents: 0, description: "Cuit à la nacre, émulsion d'agrumes et carottes oubliées" },
+          { name: "Le Crabe Royal", price_cents: 0, description: "Parfumé au Curry, crème d’avocat et herbes fraîches" },
+          { name: "Langoustine en Ravioli", price_cents: 0, description: "Crème de Parmesan légère et truffe d’été (selon saison)", is_highlight: true },
+          { name: "Le Cabillaud de Ligne", price_cents: 0, description: "Cuit à la nacre, émulsion d’agrumes et carottes oubliées" },
           { name: "Volaille de Ferme au Foie Gras", price_cents: 0, description: "Saisie au sautoir, morilles et asperges vertes croquantes" },
-          { name: "Soufflé Chaud au Chocolat", price_cents: 0, description: "Glace à la pistache d'Iran, un final intense et fondant", is_highlight: true },
+          { name: "Soufflé Chaud au Chocolat", price_cents: 0, description: "Glace à la pistache d’Iran, un final intense et fondant", is_highlight: true },
           { name: "Amuse-Bouche : Sablé Parmesan", price_cents: 0, description: "Texture sablée et cœur fondant" },
-          { name: "Gaspacho de Melon", price_cents: 0, description: "Fraîcheur d'accueil (Saison)" },
+          { name: "Gaspacho de Melon", price_cents: 0, description: "Fraîcheur d’accueil (Saison)" },
           { name: "Service de Pains Artisans", price_cents: 0, description: "Sourdough et baguette tradition" },
           { name: "Beurre de Baratte", price_cents: 0, description: "Doux et demi-sel de Guérande" },
           { name: "Mignardises de la Seine", price_cents: 0, description: "Sélection de chocolats et macarons maison" }
@@ -67,17 +67,17 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
         display_label: "La Cave du Capitaine",
         items: [
           { name: "Accord Mets & Vins Premium", price_cents: 12000, description: "6 verres sélectionnés par notre sommelier", is_highlight: true },
-          { name: "Coupe de Champagne Bollinger", price_cents: 2800, description: "Bulles fines d'accueil" },
-          { name: "Cocktail Signature 'Pont Debilly'", price_cents: 2500, description: "Gin, St-Germain, concombre et lime" },
-          { name: "Bouteille de Chablis 'Sélection Anton'", price_cents: 9500 },
-          { name: "Bouteille de Meursault 'Luxe'", price_cents: 18000 },
+          { name: "Coupe de Champagne Bollinger", price_cents: 2800, description: "Bulles fines d’accueil" },
+          { name: "Cocktail Signature ’Pont Debilly'", price_cents: 2500, description: "Gin, St-Germain, concombre et lime" },
+          { name: "Bouteille de Chablis ’Sélection Anton'", price_cents: 9500 },
+          { name: "Bouteille de Meursault ’Luxe'", price_cents: 18000 },
           { name: "Sancerre Blanc de Loire", price_cents: 8500 },
           { name: "Saint-Estèphe Cru Bourgeois", price_cents: 9000 },
           { name: "Cognac XO Rare", price_cents: 2400 },
-          { name: "Armagnac Hors d'Age", price_cents: 2200 },
-          { name: "Cocktail 'Rive Gauche'", price_cents: 2400 },
-          { name: "Mocktail 'Seine'", price_cents: 1800, description: "Jus de pomme filtré, cannelle et badiane" },
-          { name: "Jus d'Orange Pressé Minute", price_cents: 1200 },
+          { name: "Armagnac Hors d’Age", price_cents: 2200 },
+          { name: "Cocktail ’Rive Gauche'", price_cents: 2400 },
+          { name: "Mocktail ’Seine'", price_cents: 1800, description: "Jus de pomme filtré, cannelle et badiane" },
+          { name: "Jus d’Orange Pressé Minute", price_cents: 1200 },
           { name: "Eau Minérale Abatilles (75cl)", price_cents: 1000 },
           { name: "Café Micro-Torréfaction", price_cents: 1200 },
           { name: "Infusion de Fleurs Fraîches", price_cents: 1200 }
@@ -85,9 +85,9 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
       }
     ]
   },
-  description: "Seul navire de croisière gastronomique au monde à détenir une étoile Michelin, le Don Juan II est l'expérience ultime de la Seine. Sous la houlette du chef Frédéric Anton (Le Pré Catelan), ce yacht luxueux des Yachts de Paris propose un voyage itinérant de 2h30 au fil des monuments illuminés. Dans un décor de boiseries précieuses, de cuir et de cristal, la haute gastronomie s'invite à flot pour une soirée d'une élégance absolue, entre parenthèse enchantée et perfection culinaire.",
+  description: "Seul navire de croisière gastronomique au monde à détenir une étoile Michelin, le Don Juan II est l’expérience ultime de la Seine. Sous la houlette du chef Frédéric Anton (Le Pré Catelan), ce yacht luxueux des Yachts de Paris propose un voyage itinérant de 2h30 au fil des monuments illuminés. Dans un décor de boiseries précieuses, de cuir et de cristal, la haute gastronomie s’invite à flot pour une soirée d’une élégance absolue, entre parenthèse enchantée et perfection culinaire.",
   expert_catchline: "Le seul dîner croisière étoilé Michelin au monde, par Frédéric Anton.",
-  insider_tip: "L'embarquement se fait Port Debilly à 19h45 précises. Montez sur le pont supérieur entre deux plats pour admirer la Tour Eiffel scintillante, c'est le moment fort du voyage.",
+  insider_tip: "L’embarquement se fait Port Debilly à 19h45 précises. Montez sur le pont supérieur entre deux plats pour admirer la Tour Eiffel scintillante, c'est le moment fort du voyage.",
   specials: {
     cuisine: ["Gastronomique Française", "Étoilée"],
     drinks: ["Accords Mets & Vins", "Champagnes de Prestige"],
@@ -106,11 +106,11 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
   michelin_stars: 1,
   instagram_handle: "yachtsdeparis",
   real_talk: {
-    text: "Une bulle de luxe qui glisse sur l'eau. Frédéric Anton a réussi le pari fou de maintenir une étoile sur un bateau. C'est précis, c'est beau et on oublie totalement qu'on est en mouvement.",
+    text: "Une bulle de luxe qui glisse sur l’eau. Frédéric Anton a réussi le pari fou de maintenir une étoile sur un bateau. C’est précis, c’est beau et on oublie totalement qu'on est en mouvement.",
     must_eat: "Cuisine Étoilée. Langoustine en Ravioli.",
     le_secret: "Le bateau fait demi-tour près de la Statue de la Liberté parisienne, un angle de vue unique peu connu des touristes.",
     le_son: "Le clapotis léger de la Seine et un jazz feutré très élégant.",
-    le_must: "Déguster le soufflé au chocolat pile au moment où l'on passe sous le Pont Neuf illuminé."
+    le_must: "Déguster le soufflé au chocolat pile au moment où l’on passe sous le Pont Neuf illuminé."
   }
 };
 

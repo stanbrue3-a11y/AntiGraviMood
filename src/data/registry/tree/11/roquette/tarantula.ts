@@ -5,7 +5,7 @@ export const tarantula: SurgicalPlace = {
     name: "Tarántula",
     slug: "tarantula",
     category: "restaurant",
-    subcategory: ["mexican", "cantina", "modern", "natural-wine"],
+    subcategory: ['français'],
     location: {
         address: "13 bis Rue Keller",
         arrondissement: 11,
@@ -47,7 +47,7 @@ export const tarantula: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Antojitos (Petites Assiettes)",
                 items: [
-                    { name: "Tacos de champignons sauvages 'hallucinogènes'", price_cents: 1200 },
+                    { name: "Tacos de champignons sauvages ’hallucinogènes'", price_cents: 1200 },
                     { name: "Oignon Roscoff rôti au piment jaune", price_cents: 1400 },
                     { name: "Tuna Crudo, sauce chilaca", price_cents: 1800 },
                     { name: "Empanada croustillante de Chicharrón", price_cents: 1100 }
@@ -67,7 +67,7 @@ export const tarantula: SurgicalPlace = {
                 category_type: "dessert",
                 display_label: "Postres (Desserts)",
                 items: [
-                    { name: "Flan au caramel, huile d'olive & romarin frit", price_cents: 1000, description: "Le dessert signature incontournable." },
+                    { name: "Flan au caramel, huile d’olive & romarin frit", price_cents: 1000, description: "Le dessert signature incontournable." },
                     { name: "Gâteau de maïs, crème de Mezcal", price_cents: 950 }
                 ]
             },
@@ -88,13 +88,13 @@ export const tarantula: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Tarántula est la nouvelle sensation mexicaine de la rue Keller. Sous la houlette du chef Emmanuel Peña Treviño, cette cantina moderne délaisse les clichés pour proposer une cuisine du nord du Mexique (Norestense) hautement créative. Ambiance tamisée à la bougie, playlist pointue et sélection de vins natures : c'est le lieu parfait pour une soirée vibrante où les saveurs de piments fumés rencontrent des produits de terroir français sourcés avec soin.",
-    insider_tip: "Leur flan à l'huile d'olive et au romarin frit est devenu culte en quelques mois : ne terminez pas sans lui. Pour les amateurs de sensations fortes, demandez leur sélection de mezcals artisanaux.",
+    description: "Tarántula est la nouvelle sensation mexicaine de la rue Keller. Sous la houlette du chef Emmanuel Peña Treviño, cette cantina moderne délaisse les clichés pour proposer une cuisine du nord du Mexique (Norestense) hautement créative. Ambiance tamisée à la bougie, playlist pointue et sélection de vins natures : c’est le lieu parfait pour une soirée vibrante où les saveurs de piments fumés rencontrent des produits de terroir français sourcés avec soin.",
+    insider_tip: "Leur flan à l’huile d'olive et au romarin frit est devenu culte en quelques mois : ne terminez pas sans lui. Pour les amateurs de sensations fortes, demandez leur sélection de mezcals artisanaux.",
     expert_catchline: "La cantina mexicaine 2.0 : saveurs explosives, ambiance tamisée et vins natures.",
     specials: {
         cuisine: ["Modern Mexican (Norestense)", "Cuisine de partage", "Vins natures"],
-        drinks: ["Mezcals de petits producteurs", "Margaritas d'exception"],
-        must_eat: "Les Tacos de champignons sauvages et le Flan huile d'olive/romarin.",
+        drinks: ["Mezcals de petits producteurs", "Margaritas d’exception"],
+        must_eat: "Les Tacos de champignons sauvages et le Flan huile d’olive/romarin.",
         must_drink: "Une Margarita classique ou un verre de skin-contact wine."
     }
 };

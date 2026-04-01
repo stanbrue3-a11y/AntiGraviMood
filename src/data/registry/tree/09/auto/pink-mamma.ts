@@ -5,7 +5,7 @@ export const pink_mamma: SurgicalPlace = {
   slug: "pink-mamma",
   name: "Pink Mamma",
   category: "restaurant",
-  subcategory: ["italien", "trattoria", "grillades", "vibrant", "institution", "cocktail-bar"],
+  subcategory: ['italien', 'français'],
   location: {
     address: "20 Bis Rue de Douai, 75009 Paris, France",
     arrondissement: 9,
@@ -64,7 +64,7 @@ export const pink_mamma: SurgicalPlace = {
           { name: "Burrata Autunno (Champignons & Châtaignes)", price_cents: 800 },
           { name: "Burrata Mare (Anchois Marinés & Poutargue)", price_cents: 800 },
           { name: "Big Burrata Mix (Dégustation x3)", price_cents: 2200, is_highlight: true },
-          { name: "Burrata Classique à l'Huile d'Olive Extra Vierge", price_cents: 700 }
+          { name: "Burrata Classique à l’Huile d'Olive Extra Vierge", price_cents: 700 }
         ]
       },
       {
@@ -97,7 +97,7 @@ export const pink_mamma: SurgicalPlace = {
         items: [
           { name: "Tiramisu Mythique (Servi à la cuillère)", price_cents: 850, is_highlight: true },
           { name: "Passionmisu (Mangue, Passion & Matcha)", price_cents: 900 },
-          { name: "Flaming Crème Brûlée à l'Italienne", price_cents: 950, is_highlight: true },
+          { name: "Flaming Crème Brûlée à l’Italienne", price_cents: 950, is_highlight: true },
           { name: "Panna Cotta aux Fruits Rouges de Saison", price_cents: 750 },
           { name: "Gelato Artigianale Stracciatella", price_cents: 650 },
           { name: "Sorbetto al Limone di Sicilia", price_cents: 600 },
@@ -114,12 +114,12 @@ export const pink_mamma: SurgicalPlace = {
       }
     ]
   },
-  description: "Pink Mamma est la cathédrale transalpine spectaculaire du 9ème arrondissement. Répartie sur quatre étages baignés de lumière, cette trattoria du groupe Big Mamma rend hommage à Florence et à sa célèbre 'Braceria'. On y vient pour la vue imprenable sous la verrière du dernier étage, mais surtout pour ses viandes maturées grillées au feu de bois et ses pâtes à la truffe devenues légendaires. L'ambiance y est électrique, généreuse et résolument festive, complétée par un bar speakeasy caché au sous-sol pour finir la soirée en beauté.",
-  insider_tip: "• **La Verrière** : Pour une expérience visuelle optimale, demandez une table au dernier étage sous la verrière lors de votre réservation.\n• **Pâtes à la Truffe** : C'est le 'must' absolu de la maison, ultra-crémeux et généreux en truffe fraîche.\n• **No Entry** : Ne partez pas sans avoir déniché l'entrée secrète du bar à cocktails au sous-sol, caché derrière les portes d'une chambre froide.",
+  description: "Pink Mamma est la cathédrale transalpine spectaculaire du 9ème arrondissement. Répartie sur quatre étages baignés de lumière, cette trattoria du groupe Big Mamma rend hommage à Florence et à sa célèbre ’Braceria’. On y vient pour la vue imprenable sous la verrière du dernier étage, mais surtout pour ses viandes maturées grillées au feu de bois et ses pâtes à la truffe devenues légendaires. L’ambiance y est électrique, généreuse et résolument festive, complétée par un bar speakeasy caché au sous-sol pour finir la soirée en beauté.",
+  insider_tip: "• **La Verrière** : Pour une expérience visuelle optimale, demandez une table au dernier étage sous la verrière lors de votre réservation.\n• **Pâtes à la Truffe** : C’est le ’must’ absolu de la maison, ultra-crémeux et généreux en truffe fraîche.\n• **No Entry** : Ne partez pas sans avoir déniché l’entrée secrète du bar à cocktails au sous-sol, caché derrière les portes d’une chambre froide.",
   specials: {
     cuisine: ["Cuisine Florentine (Braceria)", "Pâtes fraîches maison", "Pizzas au feu de bois"],
     drinks: ["Cocktails créatifs au bar No Entry", "Vins italiens en direct des vignerons", "Sélection de Spritz"],
-    must_eat: "La Bistecca alla Fiorentina (58€) : une côte de bœuf d'exception cuite à la flamme, pour les vrais amateurs de viande.",
+    must_eat: "La Bistecca alla Fiorentina (58€) : une côte de bœuf d’exception cuite à la flamme, pour les vrais amateurs de viande.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH9z-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

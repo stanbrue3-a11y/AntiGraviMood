@@ -5,7 +5,7 @@ export const picotte: SurgicalPlace = {
     name: "Picotte",
     slug: "picotte",
     category: "restaurant",
-    subcategory: ["bistronomique", "terroir", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "42 Rue de Malte",
         arrondissement: 11,
@@ -56,7 +56,7 @@ export const picotte: SurgicalPlace = {
                     // VERIFIED: Mises à jour récentes (2024-2025)
                     { name: "Carpaccio de Saint Jacques, chou fleur, vinaigrette capucine", price_cents: 1500 },
                     { name: "Œuf Bio Parfait, hollandaise pistache, oca du Pérou", price_cents: 1400 },
-                    { name: "Endive braisée, jambon blanc maison, béchamel pain d'épice", price_cents: 1300 },
+                    { name: "Endive braisée, jambon blanc maison, béchamel pain d’épice", price_cents: 1300 },
                     { name: "Toast de Morbier, beurre sapin, condiment ail noir", price_cents: 1400 },
                     { name: "Tartiflette revisitée (disque de pomme de terre, siphon reblochon)", price_cents: 1400 }
                 ]
@@ -93,13 +93,13 @@ export const picotte: SurgicalPlace = {
     instagram_handle: "picotte.paris",
     verified: true,
     google_rating: 4.7,
-    description: "Un fantastique Tour de France culinaire à l'esprit bistronomique. Picotte ressuscite les grandes recettes régionales (tartiflette, bouillabaisse, pimentade antillaise, nonnettes) en leur appliquant les codes et le raffinement de la gastronomie moderne. La cheffe Marta Biagianti réussit le pari de faire de la cuisine de terroir un art subtil et contemporain.",
-    insider_tip: "• La carte change très régulièrement (le midi chaque semaine, le soir 4 fois par an) selon les vraies saisons.\n• La bouillabaisse revisitée de Picotte (33€) est magistrale et ultra-digeste.\n• Le menu compet du soir (E+P+D) à 49€ offre l'expérience parfaite.\n• Il y a toujours d'excellentes options végétariennes, sans gluten ou véganes (ex: le cannelloni de poireau).",
+    description: "Un fantastique Tour de France culinaire à l’esprit bistronomique. Picotte ressuscite les grandes recettes régionales (tartiflette, bouillabaisse, pimentade antillaise, nonnettes) en leur appliquant les codes et le raffinement de la gastronomie moderne. La cheffe Marta Biagianti réussit le pari de faire de la cuisine de terroir un art subtil et contemporain.",
+    insider_tip: "• La carte change très régulièrement (le midi chaque semaine, le soir 4 fois par an) selon les vraies saisons.\n• La bouillabaisse revisitée de Picotte (33€) est magistrale et ultra-digeste.\n• Le menu compet du soir (E+P+D) à 49€ offre l’expérience parfaite.\n• Il y a toujours d'excellentes options végétariennes, sans gluten ou véganes (ex: le cannelloni de poireau).",
     expert_catchline: "Le patrimoine culinaire régional français élevé au rang de bistronomie pointue et légère.",
     specials: {
         cuisine: ["Bouillabaisse revisitée", "Tartiflette contemporaine", "Longe de Porc Duroc", "Flan antillais"],
         drinks: ["Vins de vignerons locaux", "Petites appellations régionales"],
-        must_eat: "Laissez-vous surprendre par leurs revisites de plats ultra-classiques (comme l'œuf parfait ou le toast au Morbier) : c'est là que la technique moderne de la cheffe brille le plus.",
+        must_eat: "Laissez-vous surprendre par leurs revisites de plats ultra-classiques (comme l’œuf parfait ou le toast au Morbier) : c'est là que la technique moderne de la cheffe brille le plus.",
         must_drink: "Restez dans le thème du terroir avec un verre de Vin Jaune du Jura ou un rouge de Touraine."
     }
 };

@@ -5,7 +5,7 @@ export const bambino: SurgicalPlace = {
     name: "Bambino",
     slug: "bambino",
     category: "bar",
-    subcategory: ["author-bar", "pizzeria", "middle-eastern-fusion", "jazz-bar"],
+    subcategory: ['français', 'pizzeria'],
     location: {
         address: "25 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -48,7 +48,7 @@ export const bambino: SurgicalPlace = {
                 display_label: "Petites Assiettes (Sharing)",
                 items: [
                     { name: "Houmous, huile de piment, pain pita", price_cents: 900 },
-                    { name: "Labneh, za'atar, grenade", price_cents: 850 },
+                    { name: "Labneh, za’atar, grenade", price_cents: 850 },
                     { name: "Halloumi grillé, miel & origan", price_cents: 1100 },
                     { name: "Tartare de thon, citron vert, gingembre", price_cents: 1450 },
                     { name: "Arancini au safran (x3)", price_cents: 1200 },
@@ -60,7 +60,7 @@ export const bambino: SurgicalPlace = {
                 display_label: "Pizzas au Feu de Bois",
                 items: [
                     { name: "Margherita (Tomate, Mozza, Basilic)", price_cents: 1300 },
-                    { name: "Bambinita (Burrata, N'duja, Miel)", price_cents: 1900 },
+                    { name: "Bambinita (Burrata, N’duja, Miel)", price_cents: 1900 },
                     { name: "Diavola (Salami piquant)", price_cents: 1650 },
                     { name: "Verdura (Légumes de saison)", price_cents: 1550 }
                 ]
@@ -70,7 +70,7 @@ export const bambino: SurgicalPlace = {
                 display_label: "Desserts",
                 items: [
                     { name: "Tiramisu Signature", price_cents: 900 },
-                    { name: "Mousse Chocolat & Huile d'Olive", price_cents: 850 }
+                    { name: "Mousse Chocolat & Huile d’Olive", price_cents: 850 }
                 ]
             },
             {
@@ -90,8 +90,8 @@ export const bambino: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Inspiré par les bars à vin de Tel Aviv et les jazz kissa japonais, Bambino est un lieu hybride unique. Entre mur de vinyles, système son audiophile et cuisine ouverte au feu de bois, l'ambiance y est électrique. On y déguste des pizzas d'une finesse folle et des petites assiettes aux influences levantines dans un nuage de funk et de jazz.",
-    insider_tip: "Ne manquez pas le brunch du dimanche, plus calme mais tout aussi savoureux. Pour le soir, arrivez à l'ouverture (19h) car l'endroit ne prend pas de réservations et se remplit en 15 minutes.",
+    description: "Inspiré par les bars à vin de Tel Aviv et les jazz kissa japonais, Bambino est un lieu hybride unique. Entre mur de vinyles, système son audiophile et cuisine ouverte au feu de bois, l’ambiance y est électrique. On y déguste des pizzas d'une finesse folle et des petites assiettes aux influences levantines dans un nuage de funk et de jazz.",
+    insider_tip: "Ne manquez pas le brunch du dimanche, plus calme mais tout aussi savoureux. Pour le soir, arrivez à l’ouverture (19h) car l'endroit ne prend pas de réservations et se remplit en 15 minutes.",
     expert_catchline: "Vinyles, vin nature et pizzas au feu de bois dans un temple audiophile.",
     specials: {
         cuisine: ["Pizzas artisanales", "Levantine tapas", "Audiophile experience"],

@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const muse_de_lorangerie: SurgicalPlace = {
     "id": "poi-057",
-    "name": "Musée de l'Orangerie",
+    "name": "Musée de l’Orangerie",
     "slug": "muse-de-lorangerie",
     "category": "museum",
     "subcategory": [
@@ -40,7 +40,7 @@ export const muse_de_lorangerie: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Situé au bout du jardin des Tuileries, ce musée est l'écrin sur-mesure d'un chef-d'œuvre absolu : les Nymphéas de Monet. Les deux salles ovales, baignées de lumière naturelle zénithale, ont été conçues par le peintre lui-même pour immerger le spectateur dans ses paysages d'eau. C'est une expérience méditative unique au monde. Le musée abrite aussi la collection Walter-Guillaume (Renoir, Cézanne, Matisse, Picasso...), une concentration de chefs-d'œuvre impressionnistes et modernes dans un format à taille humaine.",
+    "description": "Situé au bout du jardin des Tuileries, ce musée est l’écrin sur-mesure d’un chef-d’œuvre absolu : les Nymphéas de Monet. Les deux salles ovales, baignées de lumière naturelle zénithale, ont été conçues par le peintre lui-même pour immerger le spectateur dans ses paysages d’eau. C’est une expérience méditative unique au monde. Le musée abrite aussi la collection Walter-Guillaume (Renoir, Cézanne, Matisse, Picasso...), une concentration de chefs-d'œuvre impressionnistes et modernes dans un format à taille humaine.",
     "insider_tip": "Les Nymphéas de Monet sont le clou du spectacle.",
     "specials": {
         "cuisine": [],

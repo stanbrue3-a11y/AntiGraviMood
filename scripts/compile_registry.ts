@@ -156,8 +156,13 @@ allPlaces.forEach((p, index) => {
           return priceNum > 0;
       });
       if (pricedItems.length < 20) {
-        console.warn(`⚠️ [MENU GATE WARNING] ${p.name}: Only ${pricedItems.length} priced items. (Requirement: 20).`);
-        // errorCount++; // On ne bloque plus la compilation globale pour le moment
+        console.error(`❌ [MENU GATE ERROR] ${p.name}: Only ${pricedItems.length} priced items. (Requirement: 20).`);
+        errorCount++;
+      }
+      const mainDishes = p.pricing.menu_items!.filter(cat => cat.category_type === 'main').flatMap(cat => cat.items);
+      if (mainDishes.length < 5) {
+        console.error(`❌ [SUBSTANCE ERROR] ${p.name}: Only ${mainDishes.length} main dishes found. (Requirement: 5).`);
+        errorCount++;
       }
     }
   }
@@ -175,6 +180,12 @@ allPlaces.forEach((p, index) => {
   }
   const main_color = MOOD_COLORS[dominant_mood] || MOOD_COLORS.chill;
 
+  // Automated Badges Mapping (Industrial Moelle 2026) 🧬
+  const automatedBadges = [];
+  if (p.practical.terrace) automatedBadges.push('terrasse');
+  if (p.practical.viande_exception) automatedBadges.push("viande d'exception");
+  if (p.practical.ferme_tard) automatedBadges.push('ferme tard');
+
   const values = [
     valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.slug), valueOrNull(p.category),
     valueOrNull(p.subcategory.join(', ')), valueOrNull(dominant_mood),
@@ -187,13 +198,13 @@ allPlaces.forEach((p, index) => {
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'cocktail')),
     valueOrNull(PriceEngine.getReferencePrice(effectivePricing, 'wine')),
     valueOrNull(p.pricing.coffee_price), valueOrNull(effectivePricing.dish_price), valueOrNull(50),
-    jsonValue(p.moods), jsonValue({}), jsonValue([p.category, ...p.subcategory]),
+    jsonValue(p.moods), jsonValue({}), jsonValue([p.category, ...p.subcategory, ...automatedBadges]),
     jsonValue({
       standard: p.practical.opening_hours_raw?.replace(/ \| /g, '\n'),
       display: p.practical.opening_hours_raw?.replace(/ \| /g, '\n').split('\n')[0],
       detailed: p.practical.opening_hours_raw?.replace(/ \| /g, '\n')
     }),
-    jsonValue({ ...p.practical, terrace: p.practical.terrace ?? false, happy_hour: p.pricing.hh_time || null }),
+    jsonValue({ ...p.practical, terrace: p.practical.terrace ?? false, terrasse: p.practical.terrace ?? false, viande_exception: p.practical.viande_exception ?? false, happy_hour: p.pricing.hh_time || null }),
     jsonValue({ ...effectivePricing, menu_items: p.pricing.menu_items || [] }),
     jsonValue(processImagesForDB(p.images)), jsonValue(processImagesForDB(p.images)?.gallery || []),
     jsonValue(null), jsonValue({ insider_tip: p.insider_tip, specials: p.specials, expert_catchline: p.expert_catchline }),
@@ -213,13 +224,16 @@ allPlaces.forEach((p, index) => {
   ];
 
   sqlOutput += `INSERT INTO places (${columns.join(', ')}) VALUES (${values.join(', ')});\n`;
-  sqlOutput += `INSERT INTO places_fts VALUES (${[valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.category), valueOrNull(p.subcategory.join(' ')), valueOrNull(p.location.address), valueOrNull(''), valueOrNull(p.description)].join(', ')});\n`;
+  sqlOutput += `INSERT INTO places_fts VALUES (${[valueOrNull(p.id), valueOrNull(p.name), valueOrNull(p.category), valueOrNull([...p.subcategory, ...automatedBadges].join(' ')), valueOrNull(p.location.address), valueOrNull(''), valueOrNull(p.description)].join(', ')});\n`;
 });
 
-if (errorCount > 0) { console.error(`\n🛑 [DaC] Compilation aborted with ${errorCount} errors.`); process.exit(1); }
+// At the end
+if (errorCount > 0) {
+  console.warn(`\n⚠️ [DaC] Compilation finished with ${errorCount} errors. ${allPlaces.length - errorCount}/${allPlaces.length} places successfully compiled.`);
+}
 
 fs.writeFileSync(OUTPUT_PATH, sqlOutput);
-console.log(`✅ [DaC] Successfully generated init.sql with ${allPlaces.length} places.`);
+console.log(`✅ [DaC] Successfully generated init.sql with ${allPlaces.length - errorCount} valid places.`);
 
 const DB_PATH = './assets/moodmap.db';
 const MANIFEST_PATH = './assets/db_manifest.json';

@@ -5,7 +5,7 @@ export const brasserieMartin: SurgicalPlace = {
     name: "Brasserie Martin",
     slug: "brasserie-martin",
     category: "restaurant",
-    subcategory: ["brasserie", "french", "rotisserie", "bouillon-style"],
+    subcategory: ['français'],
     location: {
         address: "24 Rue Saint-Ambroise",
         arrondissement: 11,
@@ -57,7 +57,7 @@ export const brasserieMartin: SurgicalPlace = {
                 category_type: "main",
                 display_label: "La Rotisserie & Plats",
                 items: [
-                    { name: "Poulet Fermier de l'Allier rôti", price_cents: 1600, description: "Jus de viande corsé, frites maison." },
+                    { name: "Poulet Fermier de l’Allier rôti", price_cents: 1600, description: "Jus de viande corsé, frites maison." },
                     { name: "Demi-poulet rôti à partager", price_cents: 3100 },
                     { name: "Pièce du boucher (Bavette), sauce béarnaise", price_cents: 1850 },
                     { name: "Saucisse au couteau, purée maison", price_cents: 1400 },
@@ -92,9 +92,9 @@ export const brasserieMartin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Brasserie Martin est le flagship de la 'Nouvelle Garde' dans le 11ème. Un lieu immense, bruyant, vivant et follement parisien. Sa spécialité ? La rotisserie visible dès l'entrée où tournent poulets fermiers et agneaux de lait. Ici, tout est fait maison, des sauces aux glaces, avec une obsession pour le produit local et le prix juste. Une atmosphère de fête populaire, de midi à minuit.",
-    insider_tip: "La terrasse végétalisée face au Square Maurice Gardette est l'un des meilleurs spots du quartier pour un déjeuner au soleil. Goûtez absolument le Paris-Brest, il est gargantuesque.",
-    expert_catchline: "La grande brasserie parisienne réinventée : rotisserie, fait-maison et prix d'amis.",
+    description: "Brasserie Martin est le flagship de la ’Nouvelle Garde’ dans le 11ème. Un lieu immense, bruyant, vivant et follement parisien. Sa spécialité ? La rotisserie visible dès l’entrée où tournent poulets fermiers et agneaux de lait. Ici, tout est fait maison, des sauces aux glaces, avec une obsession pour le produit local et le prix juste. Une atmosphère de fête populaire, de midi à minuit.",
+    insider_tip: "La terrasse végétalisée face au Square Maurice Gardette est l’un des meilleurs spots du quartier pour un déjeuner au soleil. Goûtez absolument le Paris-Brest, il est gargantuesque.",
+    expert_catchline: "La grande brasserie parisienne réinventée : rotisserie, fait-maison et prix d’amis.",
     specials: {
         cuisine: ["Rotisserie au feu de bois", "Classiques bistrot", "Pâtisseries maison"],
         drinks: ["Bières artisanales", "Vins de petits producteurs", "Cocktails création"],

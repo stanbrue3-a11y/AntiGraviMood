@@ -102,13 +102,13 @@ export const le_royal: SurgicalPlace = {
         "festif": 65,
         "culturel": 20
     },
-    "description": "Brasserie d'angle historique au carrefour du Val-de-Grâce. Le Royal se distingue par son sens du sourcing (Jambon Prince de Paris, Saumon Bömlö) et ses horaires de Happy Hour qui s'étirent jusqu'au bout de la nuit sur une grande terrasse chauffée.",
-    "insider_tip": "Le spot ultime : les tables en bordure de boulevard vers 18h pour le soleil couchant. Pour les noctambules, c'est l'un des rares lieux du quartier à servir un vrai plat (le Croque Truffe) jusqu'à 01h du matin dans une ambiance de brasserie parisienne pur jus.",
+    "description": "Brasserie d’angle historique au carrefour du Val-de-Grâce. Le Royal se distingue par son sens du sourcing (Jambon Prince de Paris, Saumon Bömlö) et ses horaires de Happy Hour qui s’étirent jusqu’au bout de la nuit sur une grande terrasse chauffée.",
+    "insider_tip": "Le spot ultime : les tables en bordure de boulevard vers 18h pour le soleil couchant. Pour les noctambules, c’est l’un des rares lieux du quartier à servir un vrai plat (le Croque Truffe) jusqu’à 01h du matin dans une ambiance de brasserie parisienne pur jus.",
     "specials": {
         "cuisine": ["Brasserie", "Gastro-Bistrot", "Italienne"],
         "drinks": ["Américano Maison", "Aberlour 15 ans", "Lagunitas IPA", "Vins au verre"],
         "must_eat": "Bistronomie canaille. Le Croque Royal à la Truffe avec son Comté affiné est le banger du lieu. En dessert, la Brioche Perdue rivalise avec les meilleures adresses du quartier.",
-        "expert_catchline": "L'institution de Port-Royal pour un apéro marathon et un croque-monsieur à la truffe d'exception."
+        "expert_catchline": "L’institution de Port-Royal pour un apéro marathon et un croque-monsieur à la truffe d'exception."
     },
     "images": {
         "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWX_gfjvqWOL3LlxUo6fGQBnlaZvI0OLSQS7q_5bHTrPdmuIdxHnx3MO6z-06kpZ4fRRODhh_5-DCoTzmR-s8XWYowO14VU-DZWEm52jGw-kdIYue-5JUeThygZ2oCPyng6xlqaEI904grFnQtUffwtIFkJTRJJAODUf__2KPQEea4WqtI8RBCVoCxeu9PTixxCZzzbwwdDT-o_s3v0SgZaiBb4HazTQ5nPOBta2R1ccEUyRrE8JYNKiKnsdW0v8gSTWNRY847Uclj0nox9BwTLP5bNjk4v8QM2IjBnUpGyOtuePZo&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",

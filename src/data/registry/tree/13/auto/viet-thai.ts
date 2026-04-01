@@ -5,7 +5,7 @@ export const viet_thai: SurgicalPlace = {
   slug: "viet-thai",
   name: "Viet Thai",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "201 - 203 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -99,9 +99,9 @@ export const viet_thai: SurgicalPlace = {
       }
     ]
   },
-  description: "Viet Thai est une escale incontournable pour les amateurs de dualité culinaire sur l'Avenue de Choisy. Ce restaurant familial marie avec brio les saveurs délicates du Vietnam et la vivacité épicée de la Thaïlande. Réputé pour son accueil chaleureux et ses plateaux découverte généreux, l'établissement offre une carte lisible et authentique où les classiques (Pad Thaï, Bo Bun) côtoient des plats de fête comme la Larme du Tigre ou les Gambas grillées.",
-  insider_tip: `• **Le Combo Découverte** : Si vous hésitez, le 'Plateau Gourmand Viet Thai' offre le meilleur tour d'horizon des entrées maison.
-  • **Spécialité Cachée** : Leur soupe au canard '5 parfums' est une merveille de réconfort, souvent moins citée que le Pho mais tout aussi maîtrisée.
+  description: "Viet Thai est une escale incontournable pour les amateurs de dualité culinaire sur l’Avenue de Choisy. Ce restaurant familial marie avec brio les saveurs délicates du Vietnam et la vivacité épicée de la Thaïlande. Réputé pour son accueil chaleureux et ses plateaux découverte généreux, l'établissement offre une carte lisible et authentique où les classiques (Pad Thaï, Bo Bun) côtoient des plats de fête comme la Larme du Tigre ou les Gambas grillées.",
+  insider_tip: `• **Le Combo Découverte** : Si vous hésitez, le ’Plateau Gourmand Viet Thai' offre le meilleur tour d'horizon des entrées maison.
+  • **Spécialité Cachée** : Leur soupe au canard ’5 parfums' est une merveille de réconfort, souvent moins citée que le Pho mais tout aussi maîtrisée.
   • **Rafraîchissement** : Le thé glacé citronnelle maison est préparé chaque jour, indispensable pour apaiser les feux du curry vert.`,
   specials: {
     cuisine: ["Vietnamienne", "Thaïlandaise"],

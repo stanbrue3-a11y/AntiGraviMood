@@ -3,9 +3,9 @@ import { SurgicalPlace } from "../../../type-definition";
 export const l_as_du_fallafel: SurgicalPlace = {
   id: "poi-l-as-du-fallafel",
   slug: "l-as-du-fallafel",
-  name: "L'As du Fallafel",
+  name: "L’As du Fallafel",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "34 Rue des Rosiers, 75004 Paris, France",
     arrondissement: 4,
@@ -44,6 +44,7 @@ export const l_as_du_fallafel: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

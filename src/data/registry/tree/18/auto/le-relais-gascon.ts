@@ -5,7 +5,7 @@ export const le_relais_gascon: SurgicalPlace = {
   slug: "le-relais-gascon",
   name: "Le Relais Gascon",
   category: "restaurant",
-  subcategory: ["français", "gascon", "sud-ouest", "salades-geantes", "montmartre"],
+  subcategory: ['français'],
   location: {
     address: "6 Rue des Abbesses, 75018 Paris, France",
     arrondissement: 18,
@@ -43,7 +43,7 @@ export const le_relais_gascon: SurgicalPlace = {
         category_type: "starter",
         display_label: "Salades Géantes (Plats)",
         items: [
-        { name: "Salade Gascon", price_cents: 1850, description: "Magrets fumés, bloc de foie gras, pommes de terre sautées à l'ail" },
+        { name: "Salade Gascon", price_cents: 1850, description: "Magrets fumés, bloc de foie gras, pommes de terre sautées à l’ail" },
         { name: "Salade du Chef", price_cents: 1590, description: "Blancs de volaille, emmental, pommes de terre ail" },
         { name: "Salade du Sud-Ouest", price_cents: 1690, description: "Gésiers confits, lardons, croutons, pommes de terre ail" },
         { name: "Salade Montmartre", price_cents: 1860, description: "Jambon de pays, burrata, avocat, maïs, pommes de terre ail" },
@@ -57,7 +57,7 @@ export const le_relais_gascon: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats & Tradition",
         items: [
-        { name: "Confit de Canard Moelleux", price_cents: 1850, description: "Servi avec pommes à l'ail et haricots verts" },
+        { name: "Confit de Canard Moelleux", price_cents: 1850, description: "Servi avec pommes à l’ail et haricots verts" },
         { name: "Magret de Canard au Miel", price_cents: 2050 },
         { name: "Cassoulet Gascon Maison", price_cents: 1900 },
         { name: "Bœuf Bourguignon Tradition", price_cents: 1700 },
@@ -74,8 +74,8 @@ export const le_relais_gascon: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Une institution montmartroise célèbre pour ses salades XXL servies dans des bols géants, accompagnées de pommes de terre sautées à l'ail. L'ambiance y est conviviale, rustique et chaleureuse, typique des bistrots de quartier où l'on vient pour la générosité des portions et l'accueil sans chichis.",
-  insider_tip: "• **Timing Stratégique** : Le soir, la file s'allonge vite sur le trottoir des Abbesses. Misez sur une arrivée à 19h15 pour éviter l'attente.\n• **Combo Moelle** : La Salade Gascon (avec foie gras) est l'expérience ultime du lieu. Attention : une salade suffit largement pour deux petits appétits.\n• **Vibe** : Si vous cherchez le calme, passez votre chemin. Ici, l'effervescence est la règle, surtout en terrasse les soirs d'été.",
+  description: "Une institution montmartroise célèbre pour ses salades XXL servies dans des bols géants, accompagnées de pommes de terre sautées à l’ail. L’ambiance y est conviviale, rustique et chaleureuse, typique des bistrots de quartier où l’on vient pour la générosité des portions et l'accueil sans chichis.",
+  insider_tip: "• **Timing Stratégique** : Le soir, la file s’allonge vite sur le trottoir des Abbesses. Misez sur une arrivée à 19h15 pour éviter l’attente.\n• **Combo Moelle** : La Salade Gascon (avec foie gras) est l’expérience ultime du lieu. Attention : une salade suffit largement pour deux petits appétits.\n• **Vibe** : Si vous cherchez le calme, passez votre chemin. Ici, l’effervescence est la règle, surtout en terrasse les soirs d’été.",
   specials: {
     cuisine: ["Française", "Sud-Ouest", "Brasserie"],
     drinks: ["Vins du Sud-Ouest", "Bières"],

@@ -5,7 +5,7 @@ export const tang_gourmet: SurgicalPlace = {
   slug: "tang-gourmet",
   name: "Tang Gourmet",
   category: "restaurant",
-  subcategory: ["bistrot"],
+  subcategory: ['français'],
   location: {
     address: "188 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -100,10 +100,10 @@ export const tang_gourmet: SurgicalPlace = {
       }
     ]
   },
-  description: "Tang Gourmet est le bras armé gastronomique des célèbres supermarchés Tang Frères. Situé stratégiquement sur l'Avenue de Choisy, ce traiteur-rôtisseur est une véritable fourmilière où l'on vient chercher le meilleur canard laqué du quartier, découpé sous vos yeux avec une dextérité fascinante. Entre les étals de Dim Sum vapeur et la rôtisserie dorée, l'établissement propose une immersion brute dans le 'street-food' cantonais de haut vol. Rapide, efficace et d'une fraîcheur irréprochable, c'est l'escale obligatoire pour un déjeuner sur le pouce ou un festin à emporter.",
-  insider_tip: `• **Le Maître Rôtisseur** : Demandez spécifiquement le 'bas du canard' si vous aimez la viande plus juteuse, ou le 'haut' pour la finesse de la peau laquée. 
+  description: "Tang Gourmet est le bras armé gastronomique des célèbres supermarchés Tang Frères. Situé stratégiquement sur l’Avenue de Choisy, ce traiteur-rôtisseur est une véritable fourmilière où l’on vient chercher le meilleur canard laqué du quartier, découpé sous vos yeux avec une dextérité fascinante. Entre les étals de Dim Sum vapeur et la rôtisserie dorée, l’établissement propose une immersion brute dans le ’street-food’ cantonais de haut vol. Rapide, efficace et d’une fraîcheur irréprochable, c’est l'escale obligatoire pour un déjeuner sur le pouce ou un festin à emporter.",
+  insider_tip: `• **Le Maître Rôtisseur** : Demandez spécifiquement le ’bas du canard’ si vous aimez la viande plus juteuse, ou le ’haut' pour la finesse de la peau laquée. 
   • **Le Bao Zi d'Or** : Leurs brioches vapeur au porc laqué (Bao Zi) sont parmi les plus généreuses de l'arrondissement. Un rapport qualité-prix imbattable pour un encas.
-  • **Flux Tendus** : Évitez le créneau 12h15-13h00 le samedi, la file d'attente s'allonge jusqu'au trottoir. Visez 11h30 pour avoir le premier choix sur la rôtisserie du jour.`,
+  • **Flux Tendus** : Évitez le créneau 12h15-13h00 le samedi, la file d’attente s’allonge jusqu’au trottoir. Visez 11h30 pour avoir le premier choix sur la rôtisserie du jour.`,
   specials: {
     cuisine: ["Cantonaise", "Traiteur Asian", "Rôtisserie"],
     drinks: ["Thé Oolong", "Lait de Soja"],

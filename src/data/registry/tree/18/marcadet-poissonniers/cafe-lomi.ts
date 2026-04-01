@@ -41,7 +41,7 @@ export const cafe_lomi: SurgicalPlace = {
         "festif": 2,
         "culturel": 8
     },
-    "description": "Au cœur de la Goutte d'Or, Lomi est une institution du café de spécialité. Torréfacteur reconnu (Champion de France de Roasting), leur coffee shop est brut, industriel et spacieux. On y vient pour déguster des crus d'exception, filtrés avec patience. L'espace au fond sert d'école de formation. C'est un lieu sérieux mais accueillant, où l'on croise les passionnés de caféine du monde entier venus en pèlerinage.",
+    "description": "Au cœur de la Goutte d’Or, Lomi est une institution du café de spécialité. Torréfacteur reconnu (Champion de France de Roasting), leur coffee shop est brut, industriel et spacieux. On y vient pour déguster des crus d’exception, filtrés avec patience. L’espace au fond sert d’école de formation. C’est un lieu sérieux mais accueillant, où l'on croise les passionnés de caféine du monde entier venus en pèlerinage.",
     "insider_tip": "Torréfaction sur place. Le temple du café de spécialité.",
     "specials": {
         "cuisine": [],

@@ -5,7 +5,7 @@ export const clamato: SurgicalPlace = {
     name: "Clamato",
     slug: "clamato",
     category: "restaurant",
-    subcategory: ["poisson", "bistronomie", "sans reservation", "restaurant"],
+    subcategory: ['français', 'bistronomie'],
     location: {
         address: "80 Rue de Charonne",
         arrondissement: 11,
@@ -43,12 +43,12 @@ export const clamato: SurgicalPlace = {
     menu_items: [
       {
         category_type: "starter",
-        display_label: "Banc de l'Écailler (Entrées & Plats)",
+        display_label: "Banc de l’Écailler (Entrées & Plats)",
         items: [
           { name: "Huîtres Marennes Oléron N°3 (les 6)", price_cents: 1800, is_highlight: true },
           { name: "Huîtres Utah Beach N°2 (les 6)", price_cents: 2000 },
           { name: "Huîtres Plates de Belon N°0 (les 6)", price_cents: 2800 },
-          { name: "Oursins de Galice sauvage (l'unité)", price_cents: 600, is_highlight: true },
+          { name: "Oursins de Galice sauvage (l’unité)", price_cents: 600, is_highlight: true },
           { name: "Bulots de Dieppe, aïoli maison", price_cents: 900 },
           { name: "Bigorneaux au court-bouillon", price_cents: 700 },
           { name: "Crevettes Grises à décortiquer", price_cents: 850 },
@@ -59,11 +59,11 @@ export const clamato: SurgicalPlace = {
         category_type: "starter",
         display_label: "Assiettes à Partager (Entrées & Plats)",
         items: [
-          { name: "Tarama d'œuf de cabillaud au Zaatar", price_cents: 800 },
+          { name: "Tarama d’œuf de cabillaud au Zaatar", price_cents: 800 },
           { name: "Ceviche de Mulet Noir, piment & coriandre", price_cents: 1400, is_highlight: true },
           { name: "Cru de Maigre, poire & chou-rave", price_cents: 1500 },
           { name: "Carpaccio de Saint-Jacques au Cédrat", price_cents: 1700 },
-          { name: "Accras de Morue 'Clamato' (x6)", price_cents: 1100 },
+          { name: "Accras de Morue ’Clamato' (x6)", price_cents: 1100 },
           { name: "Poulpe grillé, pommes grenailles", price_cents: 2900, is_highlight: true },
           { name: "Seiches à la plancha, ail & persil", price_cents: 1900 },
           { name: "Lotte rôtie, jus de viande percutant", price_cents: 3200 }
@@ -73,7 +73,7 @@ export const clamato: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Desserts Signature (Desserts)",
         items: [
-          { name: "Tartelette au Sirop d'Érable (Culte)", price_cents: 900, is_highlight: true },
+          { name: "Tartelette au Sirop d’Érable (Culte)", price_cents: 900, is_highlight: true },
           { name: "Glace au Sarrasin torréfié", price_cents: 700 },
           { name: "Sorbet Herbes fraîches & Citron", price_cents: 700 },
           { name: "Mousse Chocolat noir & Fleur de sel", price_cents: 1000 }
@@ -86,7 +86,7 @@ export const clamato: SurgicalPlace = {
           { name: "Clamato Bloody Mary (Signature)", price_cents: 1200, is_highlight: true },
           { name: "Michelada (Bière & Sauce épicée)", price_cents: 1000 },
           { name: "Pisco Sour à la péruvienne", price_cents: 1300 },
-          { name: "Mocktail 'Iode & Gingembre'", price_cents: 950 }
+          { name: "Mocktail ’Iode & Gingembre'", price_cents: 950 }
         ]
       },
       {
@@ -94,8 +94,8 @@ export const clamato: SurgicalPlace = {
         display_label: "Cave Nature & Bulles (Boissons)",
         items: [
           { name: "Verre de Muscadet Sèvre-et-Maine", price_cents: 800, is_highlight: true },
-          { name: "Pet'Nat 'La Bulle Moderne' (Verre)", price_cents: 1000 },
-          { name: "Bouteille Vin Blanc 'Vivant'", price_cents: 3800 },
+          { name: "Pet’Nat ’La Bulle Moderne’ (Verre)", price_cents: 1000 },
+          { name: "Bouteille Vin Blanc ’Vivant'", price_cents: 3800 },
           { name: "Eau micro-filtrée (75cl)", price_cents: 450 },
           { name: "Cidre Brut Artisanal (Verre)", price_cents: 700 },
           { name: "Café Espresso (Lomi)", price_cents: 300 }
@@ -114,12 +114,12 @@ export const clamato: SurgicalPlace = {
     verified: true,
     google_rating: 4.5,
     description: "Le petite frère marin du Septime (situé juste à côté). Le Clamato, inspiré des oyster bars de la côte est américaine, propose une carte exclusivement iodée hyper fraîche, conçue sous forme de petites assiettes à partager dans une ambiance enfiévrée.",
-    insider_tip: "• Attention : Pas de réservation possible ! Il faut venir tôt, donner son nom, et idéalement patienter au café d'en face ou à la cave du Septime.\n• Commandez le Bloody Mary maison, il est conçu spécifiquement pour accompagner la salinité des huîtres.\n• Ne partez surtout pas sans avoir commandé la célèbre tarte au sirop d'érable en dessert.",
-    expert_catchline: "L'Oyster bar de la galaxie Septime : iode pure, assiettes percutantes et aucune réservation.",
+    insider_tip: "• Attention : Pas de réservation possible ! Il faut venir tôt, donner son nom, et idéalement patienter au café d’en face ou à la cave du Septime.\n• Commandez le Bloody Mary maison, il est conçu spécifiquement pour accompagner la salinité des huîtres.\n• Ne partez surtout pas sans avoir commandé la célèbre tarte au sirop d'érable en dessert.",
+    expert_catchline: "L’Oyster bar de la galaxie Septime : iode pure, assiettes percutantes et aucune réservation.",
     specials: {
-        cuisine: ["Tarte au sirop d'érable", "Plateau panaché", "Ceviche du moment"],
+        cuisine: ["Tarte au sirop d’érable", "Plateau panaché", "Ceviche du moment"],
         drinks: ["Clamato Bloody Mary"],
-        must_eat: "La cultissime tarte au sirop d'érable surmontée de sa crème fouettée non sucrée, le contraste parfait pour finir.",
-        must_drink: "Le Bloody Mary maison, pour se mettre dans l'ambiance US East Coast iodée assumée."
+        must_eat: "La cultissime tarte au sirop d’érable surmontée de sa crème fouettée non sucrée, le contraste parfait pour finir.",
+        must_drink: "Le Bloody Mary maison, pour se mettre dans l’ambiance US East Coast iodée assumée."
     }
 };

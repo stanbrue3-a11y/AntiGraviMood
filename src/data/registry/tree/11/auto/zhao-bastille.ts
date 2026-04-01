@@ -5,7 +5,7 @@ export const zhao_bastille: SurgicalPlace = {
   slug: "la-taverne-de-zhao-bastille",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "vibrant"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "67 rue de la Roquette, 75011 Paris, France",
     arrondissement: 11,
@@ -42,9 +42,9 @@ export const zhao_bastille: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_bastille: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_bastille: SurgicalPlace = {
       }
     ]
   },
-  description: "En plein cœur de la rue de la Roquette, cette taverne capte toute l'énergie électrique du quartier. Plus vibrante que ses sœurs, elle est le point de ralliement des amateurs de saveurs percutantes. Les Biang Biang y sont servies avec un rythme effréné dans un décor urbain qui colle à l'esprit nocturne de Bastille.",
-  insider_tip: "• C'est l'adresse idéale pour un repas rapide avant de sortir dans les bars de la Roquette.\n• Les tables sont plus serrées ici, ce qui renforce l'ambiance conviviale et dynamique du lieu.\n• Demandez les Biang Biang Poulet croustillant, c'est le 'comfort food' par excellence pour affronter la nuit parisienne.",
+  description: "En plein cœur de la rue de la Roquette, cette taverne capte toute l’énergie électrique du quartier. Plus vibrante que ses sœurs, elle est le point de ralliement des amateurs de saveurs percutantes. Les Biang Biang y sont servies avec un rythme effréné dans un décor urbain qui colle à l'esprit nocturne de Bastille.",
+  insider_tip: "• C’est l’adresse idéale pour un repas rapide avant de sortir dans les bars de la Roquette.\n• Les tables sont plus serrées ici, ce qui renforce l’ambiance conviviale et dynamique du lieu.\n• Demandez les Biang Biang Poulet croustillant, c’est le ’comfort food' par excellence pour affronter la nuit parisienne.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Poulet & Mo Bœuf",
   },
   images: {

@@ -5,7 +5,7 @@ export const ordonnance: SurgicalPlace = {
     name: "L’Ordonnance",
     slug: "l-ordonnance-paris-14",
     category: "restaurant",
-    subcategory: ["bistronomie", "contemporain", "raffiné", "marché", "intimiste"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "51 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -48,7 +48,7 @@ export const ordonnance: SurgicalPlace = {
                     { name: "Suprême de Volaille Jaune aux Champignons", price_cents: 2300 },
                     { name: "Daurade Royale à la Plancha, Légumes du Moment", price_cents: 2500 },
                     { name: "Tagliatelles Fraîches à la Crème de Truffe", price_cents: 2200 },
-                    { name: "Suggestion de l'Ardoise (Selon Marché)", price_cents: 2450 }
+                    { name: "Suggestion de l’Ardoise (Selon Marché)", price_cents: 2450 }
                 ]
             },
             {
@@ -59,7 +59,7 @@ export const ordonnance: SurgicalPlace = {
                     { name: "Ceviche de Maquereau au Citron Vert", price_cents: 1400 },
                     { name: "Tartare de Betterave et Chèvre Frais", price_cents: 1100 },
                     { name: "Escalope de Foie Gras Poêlée", price_cents: 1800 },
-                    { name: "Terrine de Campagne de l'Ordonnance", price_cents: 1000 }
+                    { name: "Terrine de Campagne de l’Ordonnance", price_cents: 1000 }
                 ]
             },
             {
@@ -83,13 +83,13 @@ export const ordonnance: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "L'Ordonnance est un joyau bistronomique niché discrètement rue des Plantes. Ici, la cuisine est une affaire de précision et de respect absolue du produit. Le chef propose une carte courte qui change au gré des saisons et des arrivages du marché, garantissant une fraîcheur irréprochable. Le cadre est élégant sans être guindé, avec une atmosphère calme et intimiste qui se prête merveilleusement aux conversations. C'est l'adresse de quartier par excellence pour les amateurs de gastronomie française moderne et raffinée.",
-    insider_tip: "Le menu déjeuner est un secret de quartier d'un rapport qualité-prix bluffant. Ne passez pas à côté de l'oeuf parfait, une signature de la maison exécutée avec une maîtrise parfaite.",
-    expert_catchline: "La bistronomie d'une précision chirurgicale au cœur du 14ème.",
+    description: "L’Ordonnance est un joyau bistronomique niché discrètement rue des Plantes. Ici, la cuisine est une affaire de précision et de respect absolue du produit. Le chef propose une carte courte qui change au gré des saisons et des arrivages du marché, garantissant une fraîcheur irréprochable. Le cadre est élégant sans être guindé, avec une atmosphère calme et intimiste qui se prête merveilleusement aux conversations. C’est l’adresse de quartier par excellence pour les amateurs de gastronomie française moderne et raffinée.",
+    insider_tip: "Le menu déjeuner est un secret de quartier d’un rapport qualité-prix bluffant. Ne passez pas à côté de l'oeuf parfait, une signature de la maison exécutée avec une maîtrise parfaite.",
+    expert_catchline: "La bistronomie d’une précision chirurgicale au cœur du 14ème.",
     specials: {
         cuisine: ["Bistronomique Moderne", "Cuisine du Marché"],
         drinks: ["Sélection de Vins de Propriété", "Digestifs Artisanaux"],
-        must_eat: "L'Oeuf Parfait et la Joue de Boeuf confite.",
+        must_eat: "L’Oeuf Parfait et la Joue de Boeuf confite.",
         must_drink: "Un vin blanc sec de Loire pour accompagner le poisson."
     },
     source: "expert_human"

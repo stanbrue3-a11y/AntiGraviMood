@@ -5,7 +5,7 @@ export const caillebotte: SurgicalPlace = {
   slug: "caillebotte",
   name: "Caillebotte",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "moderne", "terroir"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "8 Rue Hippolyte Lebas, 75009 Paris, France",
     arrondissement: 9,
@@ -75,7 +75,7 @@ export const caillebotte: SurgicalPlace = {
           { name: "Frites fraîches Maison double cuisson", price_cents: 600 },
           { name: "Légumes Racines glacés au miel de fleurs", price_cents: 700 },
           { name: "Riz Sauvage Noir Sélectionné", price_cents: 650 },
-          { name: "Petite Salade d'Herbes fraîches & Vinaigrette", price_cents: 550 }
+          { name: "Petite Salade d’Herbes fraîches & Vinaigrette", price_cents: 550 }
         ]
       },
       {
@@ -85,7 +85,7 @@ export const caillebotte: SurgicalPlace = {
           { name: "Riz au Lait culte, Caramel & Brisures de sablé", price_cents: 1100, is_highlight: true },
           { name: "Ganache Chocolat Noir & Fève Tonka", price_cents: 1050 },
           { name: "Pomme confite, Glace Vanille-Estragon", price_cents: 1000, is_highlight: true },
-          { name: "Rhubarbe confite & Crumble d'Avoine", price_cents: 1150 },
+          { name: "Rhubarbe confite & Crumble d’Avoine", price_cents: 1150 },
           { name: "Pêches confites, Granola & Sorbet Yaourt", price_cents: 1100 },
           { name: "Assiette de Fromages (Vieux Comté & Saint-Nectaire)", price_cents: 1300 },
           { name: "Sorbet Maison de saison (3 boules)", price_cents: 900 }
@@ -106,12 +106,12 @@ export const caillebotte: SurgicalPlace = {
       }
     ]
   },
-  description: "Caillebotte est la petite sœur lumineuse du Pantruche, une annexe bistronomique où le chef Franck Baranger déploie une cuisine de marché d'une précision diabolique. Dans un cadre épuré mêlant bois blond et cuisine ouverte, on y déguste des assiettes racées, généreuses et techniquement irréprochables. C'est l'adresse phare du 9ème pour ceux qui cherchent la quintessence du néo-bistrot parisien : créativité, produits nobles et prix restés sages.",
-  insider_tip: "• **Le Riz au Lait** : Il est devenu culte dans tout le 9ème. Ne partez pas sans le goûter, sa texture et son caramel sont une référence.\n• **Le Déjeuner** : Profitez de la formule à 23€ en semaine, c'est l'un des meilleurs rapports qualité-prix de Paris.\n• **La Table du Chef** : Si vous pouvez, asseyez-vous face à la cuisine pour voir le ballet des cuisiniers, c'est un spectacle de précision.",
+  description: "Caillebotte est la petite sœur lumineuse du Pantruche, une annexe bistronomique où le chef Franck Baranger déploie une cuisine de marché d’une précision diabolique. Dans un cadre épuré mêlant bois blond et cuisine ouverte, on y déguste des assiettes racées, généreuses et techniquement irréprochables. C’est l’adresse phare du 9ème pour ceux qui cherchent la quintessence du néo-bistrot parisien : créativité, produits nobles et prix restés sages.",
+  insider_tip: "• **Le Riz au Lait** : Il est devenu culte dans tout le 9ème. Ne partez pas sans le goûter, sa texture et son caramel sont une référence.\n• **Le Déjeuner** : Profitez de la formule à 23€ en semaine, c’est l’un des meilleurs rapports qualité-prix de Paris.\n• **La Table du Chef** : Si vous pouvez, asseyez-vous face à la cuisine pour voir le ballet des cuisiniers, c’est un spectacle de précision.",
   specials: {
     cuisine: ["Bistronomie créative", "Cuisine ouverte", "Produits de saison"],
     drinks: ["Vins vivants & natures", "Sélection de Bourgogne", "Cocktails Maison"],
-    must_eat: "Le Riz au Lait (11€) : l'un des plus mythiques de la capitale, une gourmandise réconfortante et parfaitement équilibrée.",
+    must_eat: "Le Riz au Lait (11€) : l’un des plus mythiques de la capitale, une gourmandise réconfortante et parfaitement équilibrée.",
   },
   images: {
     hero: "AU_ZVEF8AoWPc7Yc9KzmUIqumwfdZjFtGqFgwLE4b1USioQBFAH0nPjsC3-baOmFkbQVEV_m0bvsPKofCas6EpkB4_TMndeVq8L2rbSnHspfLgXaUfq5fNa88WNSZ85RSrgrMWnIziaAsmmUtFwcJD8T_eoEZG13P7ziEVMSK81zKZq4SupW7hCpJ_335sU9EDRNya7eaIN-HiXTQSuKD2adf2yFogb3dplrle6DoWeSHTWtbdLFbanLe-KoIS2agAOBRNJamyBiZ1uaNydPj77jXKvk-RjVBEStmfkOStJiyRbvZs6JJH8E4ZjyZ3i2YgvNOnavG_0e3PYcr42Tdq3NWvQ5iHe4n-W7emaNW4UUD7nutcSOvCMr9ES7bY11MvheA5wNOIT0tCvEUkyHu5gqrSVjTQrS_OH6Iz1pkT90lk1DtVBG",

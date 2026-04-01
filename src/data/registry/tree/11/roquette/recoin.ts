@@ -5,7 +5,7 @@ export const recoin: SurgicalPlace = {
     name: "Recoin",
     slug: "recoin",
     category: "restaurant",
-    subcategory: ["bistronomic", "french", "modern-bistro", "neighborhood-gem"],
+    subcategory: ['français'],
     location: {
         address: "60 Rue Saint-Sabin",
         arrondissement: 11,
@@ -80,8 +80,8 @@ export const recoin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Recoin est un petit bijou de la rue Saint-Sabin. Ce bistrot de quartier, discret et chaleureux, propose une cuisine de marché créative et maîtrisée. Le midi, on y trouve des formules d'un rapport qualité-prix exemplaire, tandis que le soir, l'ambiance devient plus intime avec des assiettes à partager intelligentes. Une adresse qui privilégie le produit, le goût et la sincérité du service.",
-    insider_tip: "Passez le matin pour leur café de spécialité ou en fin d'après-midi pour un verre de vin nature en terrasse. Le lieu est petit, donc réservez si vous venez le midi avec un groupe.",
+    description: "Recoin est un petit bijou de la rue Saint-Sabin. Ce bistrot de quartier, discret et chaleureux, propose une cuisine de marché créative et maîtrisée. Le midi, on y trouve des formules d’un rapport qualité-prix exemplaire, tandis que le soir, l'ambiance devient plus intime avec des assiettes à partager intelligentes. Une adresse qui privilégie le produit, le goût et la sincérité du service.",
+    insider_tip: "Passez le matin pour leur café de spécialité ou en fin d’après-midi pour un verre de vin nature en terrasse. Le lieu est petit, donc réservez si vous venez le midi avec un groupe.",
     expert_catchline: "Le néo-bistro de quartier par excellence : frais, saisonnier et terriblement efficace.",
     specials: {
         cuisine: ["Bistronomie de saison", "Assiettes à partager", "Produits de proximité"],

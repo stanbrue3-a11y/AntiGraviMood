@@ -5,7 +5,7 @@ export const la_traversee: SurgicalPlace = {
   slug: "la-traversee",
   name: "La Traversée",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "2 Rue Ramey, 75018 Paris, France",
     arrondissement: 18,
@@ -46,8 +46,8 @@ export const la_traversee: SurgicalPlace = {
           { name: "Haricots verts frits, sauce tartare", price_cents: 700 },
           { name: "Scotch egg maison", price_cents: 900 },
           { name: "Croquettes de haddock", price_cents: 800 },
-          { name: "Tacos d'épaule d'agneau", price_cents: 1200 },
-          { name: "Arancini au céleri et n'duja", price_cents: 1000 },
+          { name: "Tacos d’épaule d'agneau", price_cents: 1200 },
+          { name: "Arancini au céleri et n’duja", price_cents: 1000 },
           { name: "Keftas de bœuf Aubrac", price_cents: 1100 },
           { name: "Poulpe grillé, houmous & paprika", price_cents: 1400 },
           { name: "Burrata crémeuse, pestou & noisettes", price_cents: 1000 },
@@ -74,8 +74,8 @@ export const la_traversee: SurgicalPlace = {
       }
     ]
   },
-  description: "La Traversée est un véritable bar à manger traversant entre la rue Ramey et la rue Clignancourt. Le midi, l'ambiance est bistronomique avec des formules accessibles et soignées. Le soir, le lieu se transforme en un spot convivial où l'on partage des assiettes créatives accompagnées de vins naturels à la tireuse.",
-  insider_tip: "• **Timing Stratégique** : Le Happy Hour (18h-20h) est le moment idéal pour démarrer la soirée avec un cocktail.\n• **Combo Moelle** : Les haricots verts frits sont addictifs, à commander d'office pour le grignotage.\n• **Expérience Culturelle** : Profitez de la sélection de vins bios servis à la tireuse, une rareté à Paris.",
+  description: "La Traversée est un véritable bar à manger traversant entre la rue Ramey et la rue Clignancourt. Le midi, l’ambiance est bistronomique avec des formules accessibles et soignées. Le soir, le lieu se transforme en un spot convivial où l'on partage des assiettes créatives accompagnées de vins naturels à la tireuse.",
+  insider_tip: "• **Timing Stratégique** : Le Happy Hour (18h-20h) est le moment idéal pour démarrer la soirée avec un cocktail.\n• **Combo Moelle** : Les haricots verts frits sont addictifs, à commander d’office pour le grignotage.\n• **Expérience Culturelle** : Profitez de la sélection de vins bios servis à la tireuse, une rareté à Paris.",
   specials: {
     cuisine: ["Bistronomie", "Fusion"],
     drinks: ["Vins naturels", "Bières artisanales", "Cocktails"],

@@ -5,7 +5,7 @@ export const epopee: SurgicalPlace = {
     name: "Épopée",
     slug: "epopee",
     category: "restaurant",
-    subcategory: ["gastronomique", "franco-japonais", "bistronomique", "vins naturels"],
+    subcategory: ['français'],
     location: {
         address: "52 Rue Léon Frot",
         arrondissement: 11,
@@ -48,7 +48,7 @@ export const epopee: SurgicalPlace = {
                 display_label: "Formules Déjeuner (Semaine)",
                 items: [
                     { name: "Menu E+P ou P+D", price_cents: 2400, description: "Entrée/Plat ou Plat/Dessert selon le marché." },
-                    { name: "Menu complet E+P+D", price_cents: 2900, description: "L'expérience complète du midi." }
+                    { name: "Menu complet E+P+D", price_cents: 2900, description: "L’expérience complète du midi." }
                 ]
             },
             {
@@ -72,7 +72,7 @@ export const epopee: SurgicalPlace = {
                     { name: "Magret de canard, jus corsé & miso rouge", price_cents: 0 },
                     { name: "Millefeuille de racine de persil & bergamote", price_cents: 0 },
                     { name: "Pudding de Kabocha (courge japonaise)", price_cents: 0 },
-                    { name: "Mont Blanc aux marrons d'Ardèche", price_cents: 0 },
+                    { name: "Mont Blanc aux marrons d’Ardèche", price_cents: 0 },
                     { name: "Mousse de sésame noir & framboises fraîches", price_cents: 0 }
                 ]
             }
@@ -84,13 +84,13 @@ export const epopee: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.9,
-    description: "Épopée est une perle rare située près de Charonne, née de l'union créative de la cheffe Yurika Kitano et du sommelier Thomas Legrand. Dans un cadre zen et minimaliste, la cuisine fusionne la technique française et la délicatesse japonaise avec une précision d'orfèvre. Les accords vins natures sont d'une justesse remarquable, faisant de chaque repas une véritable aventure sensorielle, sans l'ostentation des tables étoilées classiques.",
-    insider_tip: "• Le rapport qualité-prix au déjeuner (29€ pour 3 plats) est l'un des plus impressionnants de Paris.\n• Ne manquez pas les créations autour du miso et des fermentations maison.\n• Thomas Legrand est un sommelier passionné; laissez-vous guider sur des pépites qu'on ne trouve nulle part ailleurs.",
+    description: "Épopée est une perle rare située près de Charonne, née de l’union créative de la cheffe Yurika Kitano et du sommelier Thomas Legrand. Dans un cadre zen et minimaliste, la cuisine fusionne la technique française et la délicatesse japonaise avec une précision d’orfèvre. Les accords vins natures sont d’une justesse remarquable, faisant de chaque repas une véritable aventure sensorielle, sans l'ostentation des tables étoilées classiques.",
+    insider_tip: "• Le rapport qualité-prix au déjeuner (29€ pour 3 plats) est l’un des plus impressionnants de Paris.\n• Ne manquez pas les créations autour du miso et des fermentations maison.\n• Thomas Legrand est un sommelier passionné; laissez-vous guider sur des pépites qu'on ne trouve nulle part ailleurs.",
     expert_catchline: "La fusion parfaite de la précision japonaise et de la générosité française.",
     specials: {
-        cuisine: ["Cuisine Franco-Japonaise", "Produits de saison", "Techniques d'orfèvre", "Végétal sublimé"],
-        drinks: ["Vins natures d'exception", "Sélection de sakés artisanaux", "Conseils sommelier pointus"],
-        must_eat: "Le dessert au sésame noir, un monument d'équilibre et de texture.",
+        cuisine: ["Cuisine Franco-Japonaise", "Produits de saison", "Techniques d’orfèvre", "Végétal sublimé"],
+        drinks: ["Vins natures d’exception", "Sélection de sakés artisanaux", "Conseils sommelier pointus"],
+        must_eat: "Le dessert au sésame noir, un monument d’équilibre et de texture.",
         must_drink: "Un vin de macération choisi par Thomas pour ses notes complexes et sa longueur."
     }
 };

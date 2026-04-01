@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const maison_de_l_aubrac: SurgicalPlace = {
     "id": "poi-maison-de-l-aubrac",
-    "name": "La Maison de l'Aubrac",
+    "name": "La Maison de l’Aubrac",
     "slug": "maison-de-l-aubrac",
     "category": "restaurant",
     "subcategory": [
@@ -45,27 +45,27 @@ export const maison_de_l_aubrac: SurgicalPlace = {
         "wine_glass": 9,
         "coffee_price": 3.5,
         "soft_price": 6,
-        "smart_tip": "Le service ultra-tardif (jusqu'à 7h du matin en fin de semaine) en fait le refuge ultime pour une viande d'exception après minuit.",
+        "smart_tip": "Le service ultra-tardif (jusqu’à 7h du matin en fin de semaine) en fait le refuge ultime pour une viande d'exception après minuit.",
         "menu_items": [
             {
                 "category_type": "starter",
                 "display_label": "Entrées",
                 "items": [
                     { "name": "Œufs mimosa bio", "price_cents": 900 },
-                    { "name": "Soupe à l'oignon gratinée", "price_cents": 1400 },
+                    { "name": "Soupe à l’oignon gratinée", "price_cents": 1400 },
                     { "name": "Os à moelle au sel de Guérande", "price_cents": 1600 },
-                    { "name": "Croquettes d'Aligot à la truffe", "price_cents": 1200 },
+                    { "name": "Croquettes d’Aligot à la truffe", "price_cents": 1200 },
                     { "name": "Foie gras de canard maison", "price_cents": 2600 }
                 ]
             },
             {
                 "category_type": "main",
-                "display_label": "Viandes d'Aubrac",
+                "display_label": "Viandes d’Aubrac",
                 "items": [
                     { "name": "Steak au poivre (200g)", "price_cents": 2900 },
-                    { "name": "Faux-filet de l'Aubrac (300g)", "price_cents": 3400 },
-                    { "name": "Cheeseburger de l'Aubrac", "price_cents": 2400 },
-                    { "name": "Lasagne de bœuf d'Aubrac", "price_cents": 2600 },
+                    { "name": "Faux-filet de l’Aubrac (300g)", "price_cents": 3400 },
+                    { "name": "Cheeseburger de l’Aubrac", "price_cents": 2400 },
+                    { "name": "Lasagne de bœuf d’Aubrac", "price_cents": 2600 },
                     { "name": "Côte de bœuf (1kg, pour 2)", "price_cents": 11000 }
                 ]
             },
@@ -87,12 +87,12 @@ export const maison_de_l_aubrac: SurgicalPlace = {
         "festif": 80,
         "culturel": 10
     },
-    "description": "Véritable institution située à deux pas des Champs-Élysées, La Maison de l'Aubrac est le sanctuaire de la noda rouge. Ici, la viande provient directement de l'élevage familial en Aveyron, garantissant une traçabilité et une qualité exceptionnelles. Le cadre est élégant mais sans chichis, avec une cave impressionnante de plus de 800 références. C'est l'un des rares endroits de la capitale où l'on peut déguster un aligot filant à 4h du matin.",
-    "insider_tip": "• Pour les vrais amateurs, l'Aligot est un passage obligé : il est servi avec une générosité typique du terroir.\n• Si vous sortez tard, c'est LE spot sécure pour manger chaud et bien au milieu de la nuit.\n• La viande maturée (Dry Aged) est leur grande spécialité, n'hésitez pas à demander les arrivages du moment.",
+    "description": "Véritable institution située à deux pas des Champs-Élysées, La Maison de l’Aubrac est le sanctuaire de la noda rouge. Ici, la viande provient directement de l’élevage familial en Aveyron, garantissant une traçabilité et une qualité exceptionnelles. Le cadre est élégant mais sans chichis, avec une cave impressionnante de plus de 800 références. C’est l’un des rares endroits de la capitale où l’on peut déguster un aligot filant à 4h du matin.",
+    "insider_tip": "• Pour les vrais amateurs, l’Aligot est un passage obligé : il est servi avec une générosité typique du terroir.\n• Si vous sortez tard, c’est LE spot sécure pour manger chaud et bien au milieu de la nuit.\n• La viande maturée (Dry Aged) est leur grande spécialité, n’hésitez pas à demander les arrivages du moment.",
     "specials": {
         "cuisine": ["Français", "Viande", "Aubrac"],
         "drinks": ["Grands Vins", "Vieux Rhums"],
-        "must_eat": "Cuisine de l'Aubrac. L'onglet de bœuf ou le traditionnel Aligot filant servi à table.",
+        "must_eat": "Cuisine de l’Aubrac. L'onglet de bœuf ou le traditionnel Aligot filant servi à table.",
         "expert_catchline": "Le temple de la viande aveyronnaise ouvert quand tout le monde dort."
     },
     "images": {

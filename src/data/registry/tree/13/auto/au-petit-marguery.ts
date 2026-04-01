@@ -5,7 +5,7 @@ export const au_petit_marguery: SurgicalPlace = {
   slug: "au-petit-marguery",
   name: "Au Petit Marguery",
   category: "restaurant",
-  subcategory: ["traditionnell"],
+  subcategory: ['français'],
   location: {
     address: "9 Bd de Port-Royal, 75013 Paris, France",
     arrondissement: 13,
@@ -57,9 +57,9 @@ export const au_petit_marguery: SurgicalPlace = {
           { name: "Œuf mimosa à la Parisienne", price_cents: 900 },
           { name: "Velouté de champignons de saison", price_cents: 900 },
           { name: "Tartare de betterave & Stracciatella", price_cents: 900 },
-          { name: "Terrine de campagne maison 'Marguery'", price_cents: 1000, is_highlight: true },
+          { name: "Terrine de campagne maison ’Marguery'", price_cents: 1000, is_highlight: true },
           { name: "Foie Gras de Canard Mi-cuit", price_cents: 1600 },
-          { name: "Mille-feuille d'aubergines & Ricotta", price_cents: 900 },
+          { name: "Mille-feuille d’aubergines & Ricotta", price_cents: 900 },
           { name: "Croustillant de Pied de Porc", price_cents: 1200 }
         ]
       },
@@ -68,8 +68,8 @@ export const au_petit_marguery: SurgicalPlace = {
         display_label: "Plats : Haute Tradition Bourgeoise",
         items: [
           { name: "Lièvre à la Royale (Recette Sénateur Couteaux)", price_cents: 3800, is_highlight: true },
-          { name: "Bas Carré de Veau de l'Aveyron", price_cents: 1900 },
-          { name: "Filet de Bar rôti, caviar d'aubergine", price_cents: 1900 },
+          { name: "Bas Carré de Veau de l’Aveyron", price_cents: 1900 },
+          { name: "Filet de Bar rôti, caviar d’aubergine", price_cents: 1900 },
           { name: "Ris de Veau Français dorés au sautoir", price_cents: 3600, is_highlight: true },
           { name: "Secreto de Porc Ibérique grillé", price_cents: 1900 },
           { name: "Tartare de Bœuf du Limousin au couteau", price_cents: 2300 },
@@ -103,8 +103,8 @@ export const au_petit_marguery: SurgicalPlace = {
       }
     ]
   },
-  description: "Au Petit Marguery est une institution de la cuisine bourgeoise située sur le boulevard de Port-Royal. Dans un décor de bistrot Belle Époque, le restaurant célèbre les traditions françaises avec une rigueur exemplaire. Célèbre pour ses gibiers en saison et son soufflé au Grand-Marnier, c'est l'adresse idéale pour un repas hors du temps.",
-  insider_tip: "• **Choix du Maître** : Le Soufflé au Grand-Marnier est un incontournable absolu, commandez-le dès le début du repas car il est préparé à la minute.\n• **Expérience Culturelle** : La salle historique avec ses boiseries et ses banquettes rouges offre une plongée authentique dans le Paris de 1900.\n• **Timing Stratégique** : Le menu 'Petit Marguery' à 29€ est d'une générosité rare pour une qualité de produits aussi élevée.",
+  description: "Au Petit Marguery est une institution de la cuisine bourgeoise située sur le boulevard de Port-Royal. Dans un décor de bistrot Belle Époque, le restaurant célèbre les traditions françaises avec une rigueur exemplaire. Célèbre pour ses gibiers en saison et son soufflé au Grand-Marnier, c’est l'adresse idéale pour un repas hors du temps.",
+  insider_tip: "• **Choix du Maître** : Le Soufflé au Grand-Marnier est un incontournable absolu, commandez-le dès le début du repas car il est préparé à la minute.\n• **Expérience Culturelle** : La salle historique avec ses boiseries et ses banquettes rouges offre une plongée authentique dans le Paris de 1900.\n• **Timing Stratégique** : Le menu ’Petit Marguery’ à 29€ est d’une générosité rare pour une qualité de produits aussi élevée.",
   specials: {
     cuisine: ["Française", "Traditionnelle"],
     drinks: ["Vins fins", "Digestifs"],

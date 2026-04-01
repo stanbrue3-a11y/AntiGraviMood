@@ -38,7 +38,7 @@ export const partisan_cafe_artisanal: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Un immense espace industriel brut (béton, métal, grandes baies vitrées) qui tranche avec les petits cafés parisiens habituels. Ici, on torréfie sur place (la machine Giesen trône au fond), ça sent le grain grillé. C'est le paradis des freelances et des étudiants qui viennent travailler sur les grandes tables communes avec leur laptop, boostés par des litres de 'New Wave Coffee'. L'ambiance est sérieuse, urbaine et moderne, un morceau de Berlin ou Brooklyn à Arts et Métiers.",
+    "description": "Un immense espace industriel brut (béton, métal, grandes baies vitrées) qui tranche avec les petits cafés parisiens habituels. Ici, on torréfie sur place (la machine Giesen trône au fond), ça sent le grain grillé. C’est le paradis des freelances et des étudiants qui viennent travailler sur les grandes tables communes avec leur laptop, boostés par des litres de ’New Wave Coffee’. L'ambiance est sérieuse, urbaine et moderne, un morceau de Berlin ou Brooklyn à Arts et Métiers.",
     "insider_tip": "Torréfaction sur place. Ambiance industrielle et bruyante.",
     "specials": {
         "cuisine": [],

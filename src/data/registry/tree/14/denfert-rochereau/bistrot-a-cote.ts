@@ -5,7 +5,7 @@ export const bistrotACote: SurgicalPlace = {
     name: "Au Bistrot d’à Côté",
     slug: "au-bistrot-a-cote",
     category: "restaurant",
-    subcategory: ["bistrot", "terroir", "charme", "traditionnel"],
+    subcategory: ['français'],
     location: {
         address: "18 Rue Lalande",
         arrondissement: 14,
@@ -43,12 +43,12 @@ export const bistrotACote: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "L'Ardoise du Jour",
+                display_label: "L’Ardoise du Jour",
                 items: [
                     { name: "Cuisse de canard confite, pommes sautées", price_cents: 2100 },
                     { name: "Filet de bœuf au poivre, frites maison", price_cents: 2600 },
                     { name: "Dos de cabillaud à la plancha", price_cents: 2300 },
-                    { name: "Blanquette de veau à l'ancienne", price_cents: 2250 },
+                    { name: "Blanquette de veau à l’ancienne", price_cents: 2250 },
                     { name: "Tartare de bœuf préparé, frites", price_cents: 1950 },
                     { name: "Parmentier de Canard aux petits oignons", price_cents: 2150 },
                     { name: "Andouillette AAAAA, sauce moutarde", price_cents: 1950 }
@@ -62,7 +62,7 @@ export const bistrotACote: SurgicalPlace = {
                     { name: "Oeuf cocotte au foie gras", price_cents: 1100 },
                     { name: "Salade de gésiers confits", price_cents: 1050 },
                     { name: "Velouté de potiron aux éclats de noisettes", price_cents: 950 },
-                    { name: "Cassolette d'escargots au beurre aillé", price_cents: 1200 }
+                    { name: "Cassolette d’escargots au beurre aillé", price_cents: 1200 }
                 ]
             },
             {
@@ -86,13 +86,13 @@ export const bistrotACote: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Niché dans la calme rue Lalande, Au Bistrot d'à Côté est le type même du bistrot de charme dont Paris a le secret. Avec sa devanture rouge et son intérieur boisé, c'est une adresse qui cultive l'intimité et la sincérité. Le chef y propose une cuisine de terroir sans artifice, où le goût du produit brut est respecté, le tout servi avec une bienveillance qui fait du bien.",
-    insider_tip: "C'est l'endroit parfait pour un dîner romantique ou confidentiel loin de l'agitation de Denfert-Rochereau. La terrine maison est un modèle du genre, généreuse et goûteuse.",
-    expert_catchline: "L'intimité du vrai bistrot parisien près de Denfert.",
+    description: "Niché dans la calme rue Lalande, Au Bistrot d’à Côté est le type même du bistrot de charme dont Paris a le secret. Avec sa devanture rouge et son intérieur boisé, c’est une adresse qui cultive l’intimité et la sincérité. Le chef y propose une cuisine de terroir sans artifice, où le goût du produit brut est respecté, le tout servi avec une bienveillance qui fait du bien.",
+    insider_tip: "C’est l’endroit parfait pour un dîner romantique ou confidentiel loin de l’agitation de Denfert-Rochereau. La terrine maison est un modèle du genre, généreuse et goûteuse.",
+    expert_catchline: "L’intimité du vrai bistrot parisien près de Denfert.",
     specials: {
         cuisine: ["Bistrot Traditionnel", "Cuisine Familiale"],
         drinks: ["Sélection de Vignerons", "Vins de Pays"],
         must_eat: "La cuisse de canard confite et la tarte Tatin.",
-        must_drink: "Un verre de vin rouge gouleyant sélectionné par l'équipe."
+        must_drink: "Un verre de vin rouge gouleyant sélectionné par l’équipe."
     }
 };

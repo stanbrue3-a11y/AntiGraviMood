@@ -38,7 +38,7 @@ export const boot_caf: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Le plus petit café de Paris ? Probablement. Installé dans une ancienne cordonnerie dont il a gardé la façade bleue vintage et l'enseigne 'Cordonnerie', le Boot Café est un mouchoir de poche avec trois tables, des magazines colorés et des fleurs fraîches. On y sert un café de spécialité excellent (Fuglen, Five Elephant) et des gâteaux maison. C'est intimiste, photogénique à souhait et chaleureux. On s'y sent comme dans une maison de poupée pour coffee geeks.",
+    "description": "Le plus petit café de Paris ? Probablement. Installé dans une ancienne cordonnerie dont il a gardé la façade bleue vintage et l’enseigne ’Cordonnerie’, le Boot Café est un mouchoir de poche avec trois tables, des magazines colorés et des fleurs fraîches. On y sert un café de spécialité excellent (Fuglen, Five Elephant) et des gâteaux maison. C’est intimiste, photogénique à souhait et chaleureux. On s’y sent comme dans une maison de poupée pour coffee geeks.",
     "insider_tip": "Le banc bleu sur le trottoir pour la photo parfaite.",
     "specials": {
         "cuisine": [],

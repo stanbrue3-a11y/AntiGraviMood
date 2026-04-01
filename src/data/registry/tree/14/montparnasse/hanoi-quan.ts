@@ -5,7 +5,7 @@ export const hanoi_quan: SurgicalPlace = {
   slug: "hanoi-quan-montparnasse",
   name: "Hanoi Quan",
   category: "restaurant",
-  subcategory: ["vietnamien", "pho", "bo-bun", "cantine", "authentique"],
+  subcategory: ['vietnamien', 'français'],
   location: {
     address: "2 Place de Catalogne, 75014 Paris, France",
     arrondissement: 14,
@@ -74,8 +74,8 @@ export const hanoi_quan: SurgicalPlace = {
       }
     ]
   },
-  description: "Trônant sur la Place de Catalogne, Hanoi Quan est une escale vietnamienne authentique qui réchauffe le quartier Montparnasse. Son bouillon Phở, mijoté pendant des heures, et ses Bo Bun généreux en font une adresse incontournable pour les amateurs de saveurs du Mékong. L'ambiance y est décontractée, idéale pour un shoot de fraîcheur avant de prendre un train.",
-  insider_tip: "• Les Phở sont servis ici dans leur version la plus traditionnelle : n'hésitez pas à demander du piment frais supplémentaire pour un kick authentique.\n• Pour une option plus légère mais tout aussi noble, le Poké Bowl Saumon avec sa base de riz vinaigré est extrêmement frais.\n• C'est l'un des rares Viet du quartier à fermer à Minuit tous les jours : idéal pour les arrivées tardives à la Gare Montparnasse.",
+  description: "Trônant sur la Place de Catalogne, Hanoi Quan est une escale vietnamienne authentique qui réchauffe le quartier Montparnasse. Son bouillon Phở, mijoté pendant des heures, et ses Bo Bun généreux en font une adresse incontournable pour les amateurs de saveurs du Mékong. L’ambiance y est décontractée, idéale pour un shoot de fraîcheur avant de prendre un train.",
+  insider_tip: "• Les Phở sont servis ici dans leur version la plus traditionnelle : n’hésitez pas à demander du piment frais supplémentaire pour un kick authentique.\n• Pour une option plus légère mais tout aussi noble, le Poké Bowl Saumon avec sa base de riz vinaigré est extrêmement frais.\n• C’est l’un des rares Viet du quartier à fermer à Minuit tous les jours : idéal pour les arrivées tardives à la Gare Montparnasse.",
   specials: {
     cuisine: ["Vietnamienne", "Phở", "Bo Bun"],
     drinks: ["Bubble Tea", "Bière Singha"],

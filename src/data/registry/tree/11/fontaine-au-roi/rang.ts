@@ -5,7 +5,7 @@ export const rang: SurgicalPlace = {
     name: "RANG",
     slug: "rang",
     category: "restaurant",
-    subcategory: ["indien", "épices", "bistronomique", "cocktails", "restaurant"],
+    subcategory: ['indien', 'français'],
     location: {
         address: "50 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -80,7 +80,7 @@ export const rang: SurgicalPlace = {
                     { name: "Poulet Chettinad", price_cents: 2400 },
                     { name: "Poulet Palak (poulet aux épinards)", price_cents: 2100 },
                     { name: "Agneau Korma aux pistaches", price_cents: 2500 },
-                    { name: "Keema Paratha (curry d'agneau haché)", price_cents: 2400 },
+                    { name: "Keema Paratha (curry d’agneau haché)", price_cents: 2400 },
                     { name: "Palak Paneer (épinards au fromage maison)", price_cents: 2400 },
                     { name: "Paneer Butter Masala", price_cents: 2100 },
                     { name: "Pao Bhaji (curry de légumes frais)", price_cents: 2300 },
@@ -131,13 +131,13 @@ export const rang: SurgicalPlace = {
     instagram_handle: "rang_paris",
     verified: true,
     google_rating: 4.8,
-    description: "RANG est la meilleure cuisine indienne du 11ème — et probablement de tout Paris. Loin des buffets à volonté, ici chaque plat est un voyage dans les épices authentiques : le Butter Chicken est crémeux à la perfection, l'Agneau Korma aux pistaches fond en bouche, et les Aubergines grillées de Hyderabad explosent de saveurs. Le cadre est moderne et élégant, avec une carte cocktails travaillée.",
-    insider_tip: "• La formule midi à 18€ (Butter Chicken ou Korma + riz + naan) est l'un des meilleurs deals indiens de Paris.\n• Le Garlic Cheese Naan à 5€ est indispensable pour saucer les currys.\n• L'Agneau Korma aux pistaches (25€) est le plat le plus abouti — le parfum des pistaches avec l'agneau fondant est divin.\n• Les cocktails signatures sont faits sur mesure pour accompagner les épices — un vrai effort de mixologie.\n• Les portions sont généreuses : un plat + un naan suffisent largement pour une personne.",
+    description: "RANG est la meilleure cuisine indienne du 11ème — et probablement de tout Paris. Loin des buffets à volonté, ici chaque plat est un voyage dans les épices authentiques : le Butter Chicken est crémeux à la perfection, l’Agneau Korma aux pistaches fond en bouche, et les Aubergines grillées de Hyderabad explosent de saveurs. Le cadre est moderne et élégant, avec une carte cocktails travaillée.",
+    insider_tip: "• La formule midi à 18€ (Butter Chicken ou Korma + riz + naan) est l’un des meilleurs deals indiens de Paris.\n• Le Garlic Cheese Naan à 5€ est indispensable pour saucer les currys.\n• L’Agneau Korma aux pistaches (25€) est le plat le plus abouti — le parfum des pistaches avec l’agneau fondant est divin.\n• Les cocktails signatures sont faits sur mesure pour accompagner les épices — un vrai effort de mixologie.\n• Les portions sont généreuses : un plat + un naan suffisent largement pour une personne.",
     expert_catchline: "La meilleure cuisine indienne de Paris : épices authentiques, portions généreuses et cocktails sur mesure.",
     specials: {
         cuisine: ["Butter Chicken", "Agneau Korma pistaches", "Poulet Chettinad", "Aubergines Hyderabad", "Biryani"],
         drinks: ["Cocktails signatures", "Lassi maison", "Carte élaborée"],
-        must_eat: "L'Agneau Korma aux pistaches (25€) est la star absolue. En second, le Butter Chicken (23€) est une valeur sûre inébranlable. Pour les végétariens, le Palak Paneer (24€) et les Kashmiri Koftas (24€) sont excellents. Prenez TOUJOURS un Garlic Cheese Naan (5€).",
+        must_eat: "L’Agneau Korma aux pistaches (25€) est la star absolue. En second, le Butter Chicken (23€) est une valeur sûre inébranlable. Pour les végétariens, le Palak Paneer (24€) et les Kashmiri Koftas (24€) sont excellents. Prenez TOUJOURS un Garlic Cheese Naan (5€).",
         must_drink: "La carte cocktails est surprenante pour un restaurant indien — les signatures sont conçus pour épouser les épices. Le Lassi maison (6€) est un classique rafraîchissant."
     }
 };

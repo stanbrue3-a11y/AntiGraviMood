@@ -5,7 +5,7 @@ export const grappoli: SurgicalPlace = {
     name: "I Grappoli",
     slug: "i-grappoli",
     category: "restaurant",
-    subcategory: ["italien", "trattoria", "pizza", "terrasse"],
+    subcategory: ['italien', 'français', 'terrasse'],
     location: {
         address: "22 Pl. Denfert-Rochereau",
         arrondissement: 14,
@@ -43,7 +43,7 @@ export const grappoli: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "Antipasti (Le partage à l'italienne)",
+                display_label: "Antipasti (Le partage à l’italienne)",
                 items: [
                     { name: "Burrata des Pouilles & Tomates cerises", price_cents: 1350 },
                     { name: "Vitello Tonnato traditionnel", price_cents: 1600 },
@@ -58,7 +58,7 @@ export const grappoli: SurgicalPlace = {
                 items: [
                     { name: "Pizze Grappoli (Parme, Roquette, Tomate, Mozza)", price_cents: 1850 },
                     { name: "Margherita di Buffala Classica", price_cents: 1450 },
-                    { name: "Diavola (Salami piquant, N'duja)", price_cents: 1650 },
+                    { name: "Diavola (Salami piquant, N’duja)", price_cents: 1650 },
                     { name: "Tartufo (Crème de truffe, Champignons)", price_cents: 1950 }
                 ]
             },
@@ -92,7 +92,7 @@ export const grappoli: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "I Grappoli est l'adresse transalpine qui réchauffe la Place Denfert-Rochereau. Cette véritable trattoria de quartier brille par sa simplicité authentique et sa générosité. Avec sa grande terrasse ensoleillée, c'est le lieu idéal pour une immersion italienne, entre pizzas cuites au feu de bois et pâtes fraîches maison. L'ambiance y est vibrante, rappelant les déjeuners dominicaux en famille sous le soleil de Toscane.",
+    description: "I Grappoli est l’adresse transalpine qui réchauffe la Place Denfert-Rochereau. Cette véritable trattoria de quartier brille par sa simplicité authentique et sa générosité. Avec sa grande terrasse ensoleillée, c’est le lieu idéal pour une immersion italienne, entre pizzas cuites au feu de bois et pâtes fraîches maison. L’ambiance y est vibrante, rappelant les déjeuners dominicaux en famille sous le soleil de Toscane.",
     insider_tip: "Leur terrasse est un véritable aimant à soleil, arrivez tôt aux beaux jours. Ne manquez pas les beignets de mozzarella en entrée, un plaisir régressif parfait avec un Spritz.",
     expert_catchline: "La trattoria ensoleillée et sa terrasse mythique à Denfert.",
     specials: {

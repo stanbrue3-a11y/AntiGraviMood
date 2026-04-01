@@ -5,7 +5,7 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
   slug: "frederic-simonin-restaurant",
   name: "Frédéric Simonin",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Classique", "Produit"],
+  subcategory: ['français'],
   location: {
     address: "25 Rue Bayen, 75017 Paris, France",
     arrondissement: 17,
@@ -55,7 +55,7 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
         category_type: "starter",
         display_label: "Les Entrées",
         items: [
-          { name: "Raviole en imprimé d'herbes, jus de feuille d'épineux", price_cents: 3800 },
+          { name: "Raviole en imprimé d’herbes, jus de feuille d'épineux", price_cents: 3800 },
           { name: "Crème de cresson de fontaine, œuf de poule bio", price_cents: 3200 },
           { name: "Carpaccio de Saint-Jacques au citron de Menton", price_cents: 3600 },
           { name: "Asperges Blanches, sauce mousseline légère", price_cents: 3400 }
@@ -65,9 +65,9 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats",
         items: [
-          { name: "Saint-Pierre piqué de citron confit, beurre d'algue acidulé", price_cents: 6200 },
+          { name: "Saint-Pierre piqué de citron confit, beurre d’algue acidulé", price_cents: 6200 },
           { name: "Homard des Côtes Européennes, conchiglioni glacé", price_cents: 7200 },
-          { name: "Langoustines en bouillon d'artichaut barigoule", price_cents: 5900 },
+          { name: "Langoustines en bouillon d’artichaut barigoule", price_cents: 5900 },
           { name: "Bar de ligne rôti, asperges vertes du Pertuis", price_cents: 5800 },
           { name: "Pigeonneau de Monsieur Miéral à la lavande", price_cents: 5400 },
           { name: "Ris de Veau doré au sautoir, pommes rattes", price_cents: 6800 }
@@ -85,15 +85,15 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
       }
     ]
   },
-  description: `Frédéric Simonin, Meilleur Ouvrier de France, livre une partition gastronomique impeccable dans un écrin sobre et chic de la Plaine Monceau. Étoilée au Guide Michelin, sa table célèbre le produit brut avec une technique virtuose et des assaisonnements d'une justesse rare. C'est la quintessence du raffinement français : discret, souverain et profondément axé sur l'émotion gustative.`,
+  description: `Frédéric Simonin, Meilleur Ouvrier de France, livre une partition gastronomique impeccable dans un écrin sobre et chic de la Plaine Monceau. Étoilée au Guide Michelin, sa table célèbre le produit brut avec une technique virtuose et des assaisonnements d’une justesse rare. C’est la quintessence du raffinement français : discret, souverain et profondément axé sur l'émotion gustative.`,
   insider_tip: `• **Virtuosité** : Observez la précision des cuissons, c'est ce qui définit Simonin.
   • **Célébration** : Le menu Dégustation en 8 séquences est un voyage initiatique pour les amateurs de haute technique.
-  • **Lieu** : Idéal pour un déjeuner d'affaires de haut vol ou un dîner discret et intimiste.`,
-  expert_catchline: "La rigueur et le talent d'un Meilleur Ouvrier de France dans chaque assiette.",
+  • **Lieu** : Idéal pour un déjeuner d’affaires de haut vol ou un dîner discret et intimiste.`,
+  expert_catchline: "La rigueur et le talent d’un Meilleur Ouvrier de France dans chaque assiette.",
   specials: {
     cuisine: ["Gastronomique de produit"],
     drinks: ["Vins prestigieux", "Grands Crus"],
-    must_eat: "Cuisine gastronomique. Le Saint-Pierre au citron confit ou les langoustines au bouillon d'artichaut.",
+    must_eat: "Cuisine gastronomique. Le Saint-Pierre au citron confit ou les langoustines au bouillon d’artichaut.",
   },
   images: {
     hero: "AU_ZVEF19GJJ_tzNACKkAqRMgJY0UZQMKpb0zIX7JQapm0gRrUteoSk2w8rPnPELfG2Lon7Kr1bMO9nstHbretH43Mf5-hU2sM_T299qnmsn4NH0Bv478pNchs6sq_DEwbXhxlTrHsWPA_bWONPy3rTg3aEoD3r7YgeX5doEx-fWjOkdWtBWFz98hMOoW42w5yKswxE87x-ew0u5jvPtLhtMh9H8sNme8rHHoA_4xKQVfrsP_Ifc7MvZVGiuZ5OjXMaOmXfK5I1CIeff7OnOs6ot_6paNe6tgNntF0Sb92oBcOKejw",

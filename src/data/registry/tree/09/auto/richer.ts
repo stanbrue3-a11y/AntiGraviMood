@@ -5,7 +5,7 @@ export const richer: SurgicalPlace = {
   slug: "richer",
   name: "Le Richer",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "moderne", "terroir", "sans-reservation"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "2 Rue Richer, 75009 Paris, France",
     arrondissement: 9,
@@ -77,9 +77,9 @@ export const richer: SurgicalPlace = {
           { name: "Chorizo Ibérique Pata Negra (Bella)", price_cents: 1300 },
           { name: "Saucisson Artisanal de Montagne", price_cents: 950 },
           { name: "Planche de Fromages Affinés (Sélection)", price_cents: 1400, is_highlight: true },
-          { name: "Jambon de Paris 'Prince de Paris'", price_cents: 1050 },
-          { name: "Olives Lucques Marinées au Piment d'Espelette", price_cents: 600 },
-          { name: "Rillettes d'Oie Maison & Pain de Campagne", price_cents: 900 },
+          { name: "Jambon de Paris ’Prince de Paris'", price_cents: 1050 },
+          { name: "Olives Lucques Marinées au Piment d’Espelette", price_cents: 600 },
+          { name: "Rillettes d’Oie Maison & Pain de Campagne", price_cents: 900 },
           { name: "Croque du Richer au Cochon Confit", price_cents: 1500, is_highlight: true }
         ]
       },
@@ -90,7 +90,7 @@ export const richer: SurgicalPlace = {
           { name: "Mousse au Chocolat, Cardamome & Fleur de Sel", price_cents: 1000, is_highlight: true },
           { name: "Banana Bread, Sorbet Banane & Sablé Cacao", price_cents: 1000, is_highlight: true },
           { name: "Merveilleux Chocolat & Noisettes Grillées", price_cents: 1000 },
-          { name: "Glace à l'Italienne Maison (Pistache ou Vanille)", price_cents: 800 },
+          { name: "Glace à l’Italienne Maison (Pistache ou Vanille)", price_cents: 800 },
           { name: "Sorbet Poire & Menthe Fraîche", price_cents: 800 },
           { name: "Moelleux à la Poire & Coulis Caramel", price_cents: 950 },
           { name: "Gâteau au Café & Éclats de Noisettes", price_cents: 900, is_highlight: true }
@@ -111,12 +111,12 @@ export const richer: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Richer est une institution de la rue Richer, prisé pour sa bistronomie créative et son atmosphère infatigable. Ce lieu, qui ne prend pas de réservations, incarne parfaitement l'esprit des Grands Boulevards : une cuisine exigeante dans un cadre décontracté et authentique. Les plats, renouvelés au fil des saisons, marient technique française et touches modernes. Que ce soit pour un déjeuner d'affaires ou un dîner entre amis, Le Richer offre une expérience constante où le produit est roi.",
-  insider_tip: "• **Sans Réservation** : L'astuce est de venir dès l'ouverture ou après 21h30 pour éviter l'attente.\n• **Cochon Confit** : Leur éffiloché est un classique indémodable, à goûter absolument.\n• **Vins Bien Pensés** : La carte des vins, axée sur la biodynamie, recèle de pépites à prix doux, n'hésitez pas à demander conseil au sommelier.",
+  description: "Le Richer est une institution de la rue Richer, prisé pour sa bistronomie créative et son atmosphère infatigable. Ce lieu, qui ne prend pas de réservations, incarne parfaitement l’esprit des Grands Boulevards : une cuisine exigeante dans un cadre décontracté et authentique. Les plats, renouvelés au fil des saisons, marient technique française et touches modernes. Que ce soit pour un déjeuner d'affaires ou un dîner entre amis, Le Richer offre une expérience constante où le produit est roi.",
+  insider_tip: "• **Sans Réservation** : L’astuce est de venir dès l’ouverture ou après 21h30 pour éviter l’attente.\n• **Cochon Confit** : Leur éffiloché est un classique indémodable, à goûter absolument.\n• **Vins Bien Pensés** : La carte des vins, axée sur la biodynamie, recèle de pépites à prix doux, n'hésitez pas à demander conseil au sommelier.",
   specials: {
     cuisine: ["Bistronomie créative de saison", "Produits du terroir ultra-frais", "Cuisine française moderne"],
     drinks: ["Belle sélection biodynamique", "Vins de vignerons indépendants", "Boissons artisanales"],
-    must_eat: "L'éffiloché de Cochon Confit (27€) : une explosion de saveurs fondantes, marque de fabrique de la maison.",
+    must_eat: "L’éffiloché de Cochon Confit (27€) : une explosion de saveurs fondantes, marque de fabrique de la maison.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH7z-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,7 +5,7 @@ export const forest: SurgicalPlace = {
   slug: "forest",
   name: "Forest",
   category: "restaurant",
-  subcategory: ["créative", "afro-japonaise", "festif"],
+  subcategory: ['français'],
   location: {
     address: "11 Av. du Président Wilson, 75116 Paris",
     arrondissement: 16,
@@ -48,7 +48,7 @@ export const forest: SurgicalPlace = {
           { name: "Céviche de Daurade", price_cents: 1800, description: "Poivre de Selim et agrumes" },
           { name: "Aubergine Laquée au Miso", price_cents: 1600, description: "Fondante et fumée, la signature", is_highlight: true },
           { name: "Carpaccio de Navet", price_cents: 1400, description: "Condiment citron et noisettes" },
-          { name: "Falafel de Haricots Cornilles", price_cents: 1300, description: "Inspiration d'Afrique de l'Ouest" },
+          { name: "Falafel de Haricots Cornilles", price_cents: 1300, description: "Inspiration d’Afrique de l'Ouest" },
           { name: "Croquettes de Plantain", price_cents: 1100, description: "Cœur fromage pimenté" },
           { name: "Sashimi de Thon au Néré", price_cents: 1900, description: "Piment fumé et graines fermentées" },
           { name: "Tempura de Fleurs de Courgette", price_cents: 1500, description: "Farcies au labneh maison" }
@@ -60,7 +60,7 @@ export const forest: SurgicalPlace = {
         items: [
           { name: "Poulet Frit Mosugo", price_cents: 2400, description: "Épices secrètes de Mory Sacko", is_highlight: true },
           { name: "Lieu Jaune de Ligne", price_cents: 2800, description: "Sauce gombo et citronnelle" },
-          { name: "Risotto de Fonio", price_cents: 2200, description: "Champignons sauvages et huile d'argan" },
+          { name: "Risotto de Fonio", price_cents: 2200, description: "Champignons sauvages et huile d’argan" },
           { name: "Boeuf Braisé au Café", price_cents: 3200, description: "Jus corsé, carottes fondantes" },
           { name: "Tataki de Bœuf au Piment", price_cents: 2600, description: "Piment Néré et oignons grillés" },
           { name: "Dorade Grillée Suya", price_cents: 2700, description: "Épices torréfiées nigérianes" },
@@ -96,9 +96,9 @@ export const forest: SurgicalPlace = {
       }
     ]
   },
-  description: "Forest est l'expérience sauvage de Mory Sacko nichée au Palais de Tokyo. Entre béton brut et lierre grimpant, le chef de Top Chef décline une partition instinctive où l'Afrique, le Japon et la France fusionnent. Un lieu vibrant, éco-responsable, où la fermentation et les épices rares créent un voyage immobile face à la Dame de Fer.",
+  description: "Forest est l’expérience sauvage de Mory Sacko nichée au Palais de Tokyo. Entre béton brut et lierre grimpant, le chef de Top Chef décline une partition instinctive où l'Afrique, le Japon et la France fusionnent. Un lieu vibrant, éco-responsable, où la fermentation et les épices rares créent un voyage immobile face à la Dame de Fer.",
   expert_catchline: "La jungle gastronomique de Mory Sacko face à la Tour Eiffel.",
-  insider_tip: "Demandez une place en terrasse le soir pour profiter de la Tour Eiffel scintillante. L'aubergine au miso est un passage obligé, même pour les carnivores convaincus.",
+  insider_tip: "Demandez une place en terrasse le soir pour profiter de la Tour Eiffel scintillante. L’aubergine au miso est un passage obligé, même pour les carnivores convaincus.",
   specials: {
     cuisine: ["Créative", "Afro-Japonaise"],
     drinks: ["Mocktails Artisanaux", "Vins Nature"],
@@ -116,7 +116,7 @@ export const forest: SurgicalPlace = {
   google_rating: 4.1,
   instagram_handle: "forest.paris",
   real_talk: {
-    text: "Mory Sacko a créé une bulle hors du temps. C'est brut, c'est vert, et l'assiette bouscule les codes sans jamais être prétentieuse.",
+    text: "Mory Sacko a créé une bulle hors du temps. C’est brut, c’est vert, et l’assiette bouscule les codes sans jamais être prétentieuse.",
     must_eat: "Cuisine Créative. Aubergine au Miso.",
     le_secret: "Le mapping vidéo sur les murs bruts qui change selon les saisons.",
     le_son: "Afro-beat chill et sons organiques.",

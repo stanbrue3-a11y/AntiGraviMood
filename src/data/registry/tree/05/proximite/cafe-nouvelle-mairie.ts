@@ -38,8 +38,8 @@ export const cafe_nouvelle_mairie: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "La quintessence du bistrot de quartier parisien, celui dont on rêve quand on pense à la Rive Gauche. Face à une charmante petite place, sa terrasse est le spot idéal pour observer la vie du 5ème arrondissement. La sélection de vins nature est exceptionnelle, l'accueil est fraternel et les petites assiettes de saison sont d'une justesse absolue. C'est un lieu où l'on vient pour un café matinal et où l'on finit par dîner, capturé par sa douceur de vivre.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "La quintessence du bistrot de quartier parisien, celui dont on rêve quand on pense à la Rive Gauche. Face à une charmante petite place, sa terrasse est le spot idéal pour observer la vie du 5ème arrondissement. La sélection de vins nature est exceptionnelle, l’accueil est fraternel et les petites assiettes de saison sont d’une justesse absolue. C’est un lieu où l’on vient pour un café matinal et où l’on finit par dîner, capturé par sa douceur de vivre.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

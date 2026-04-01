@@ -5,7 +5,7 @@ export const brasserie_rosie: SurgicalPlace = {
     name: "Brasserie Rosie",
     slug: "brasserie-rosie",
     category: "restaurant",
-    subcategory: ["brasserie", "traditionnel", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "53 Rue du Faubourg Saint-Antoine",
         arrondissement: 11,
@@ -51,7 +51,7 @@ export const brasserie_rosie: SurgicalPlace = {
             },
             {
                 category_type: "other",
-                display_label: "L'Écailler & Fruits de Mer",
+                display_label: "L’Écailler & Fruits de Mer",
                 items: [
                     { name: "Happy Oysters (3 huîtres + 1 verre blanc)", price_cents: 1300 },
                     { name: "Crevettes (environ 100g)", price_cents: 1000 },
@@ -63,11 +63,11 @@ export const brasserie_rosie: SurgicalPlace = {
             },
             {
                 category_type: "starter",
-                display_label: "Hors-d'œuvre & Entrées",
+                display_label: "Hors-d’œuvre & Entrées",
                 items: [
                     { name: "Œuf mayonnaise", price_cents: 450 },
                     { name: "Poireaux vinaigrette", price_cents: 650 },
-                    { name: "Soupe à l'oignon gratinée à la parisienne", price_cents: 850 },
+                    { name: "Soupe à l’oignon gratinée à la parisienne", price_cents: 850 },
                     { name: "6 escargots de Bourgogne Label Rouge", price_cents: 950 },
                     { name: "Terrine des amis par Maison Brosset", price_cents: 1100 }
                 ]
@@ -87,7 +87,7 @@ export const brasserie_rosie: SurgicalPlace = {
             },
             {
                 category_type: "dessert",
-                display_label: "Desserts (L'artisanat pur)",
+                display_label: "Desserts (L’artisanat pur)",
                 items: [
                     { name: "Crème brûlée à la vanille Bourbon", price_cents: 950 },
                     { name: "Île flottante", price_cents: 950 },
@@ -118,13 +118,13 @@ export const brasserie_rosie: SurgicalPlace = {
     instagram_handle: "brasserierosie",
     verified: true,
     google_rating: 4.7,
-    description: "Une brasserie furieusement moderne qui ressuscite l'âme des grands bouillons parisiens avec un décor hyper travaillé (moquettes fleuries, banquettes velours rose) et un 100% fait main à prix justes.",
-    insider_tip: "• Les saloirs/boutiques privatisables au premier étage valent le coup d'œil.\n• Pour une brasserie aussi stylisée, le rapport qualité/prix (notamment la formule à 19,50€ le midi) est imbattable dans ce quartier.\n• Le Paris-Brest y est stratosphérique, il justifie presque le déplacement.",
+    description: "Une brasserie furieusement moderne qui ressuscite l’âme des grands bouillons parisiens avec un décor hyper travaillé (moquettes fleuries, banquettes velours rose) et un 100% fait main à prix justes.",
+    insider_tip: "• Les saloirs/boutiques privatisables au premier étage valent le coup d’œil.\n• Pour une brasserie aussi stylisée, le rapport qualité/prix (notamment la formule à 19,50€ le midi) est imbattable dans ce quartier.\n• Le Paris-Brest y est stratosphérique, il justifie presque le déplacement.",
     expert_catchline: "La néo-brasserie parfaite : déco dingue, 100% fait-maison, et coquillettes à la truffe en étendard.",
     specials: {
         cuisine: ["Coquillettes truffe/jambon", "Paris-Brest de folie"],
         drinks: ["Pinte de blonde rafraîchissante"],
-        must_eat: "Vous n'aurez d'autre choix que de sombrer devant les réjouissantes coquillettes à la crème de truffes (servies dans leur poêlon en cuivre).",
+        must_eat: "Vous n’aurez d'autre choix que de sombrer devant les réjouissantes coquillettes à la crème de truffes (servies dans leur poêlon en cuivre).",
         must_drink: "Restez sur de bons basiques traditionnels comme une pinte de bière artisanale."
     }
 };

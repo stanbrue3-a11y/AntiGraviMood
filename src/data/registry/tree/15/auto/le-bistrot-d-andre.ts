@@ -5,7 +5,7 @@ export const le_bistrot_d_andre: SurgicalPlace = {
   slug: "le-bistrot-d-andre",
   name: "Le Bistrot d’André",
   category: "restaurant",
-  subcategory: ["bistrot", "traditionnel", "français", "viande"],
+  subcategory: ['français'],
   location: {
     address: "232 Rue Saint-Charles, 75015 Paris, France",
     arrondissement: 15,
@@ -82,7 +82,7 @@ export const le_bistrot_d_andre: SurgicalPlace = {
         items: [
           { name: "Formule Midi (Entrée + Plat)", price_cents: 1850 },
           { name: "Formule Midi (Plat + Dessert)", price_cents: 1850 },
-          { name: "Formule Complète Midi", price_cents: 2150, description: "Entrée, Plat et Dessert au choix sur l'ardoise" }
+          { name: "Formule Complète Midi", price_cents: 2150, description: "Entrée, Plat et Dessert au choix sur l’ardoise" }
         ]
       },
       {
@@ -92,7 +92,7 @@ export const le_bistrot_d_andre: SurgicalPlace = {
           { name: "Profiteroles au Chocolat Chaud", price_cents: 950 },
           { name: "Tarte Tatin de la Mère André", price_cents: 900, is_highlight: true },
           { name: "Mousse au Chocolat à l’Ancienne", price_cents: 800 },
-          { name: "Carpaccio d'Ananas au Caramel", price_cents: 850 },
+          { name: "Carpaccio d’Ananas au Caramel", price_cents: 850 },
           { name: "Panna Cotta aux Fruits Rouges", price_cents: 800 },
           { name: "Tiramisu du Chef", price_cents: 850 }
         ]

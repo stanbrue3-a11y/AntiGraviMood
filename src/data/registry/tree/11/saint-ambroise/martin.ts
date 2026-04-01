@@ -5,7 +5,7 @@ export const martin: SurgicalPlace = {
     name: "Martin (Boire et Manger)",
     slug: "martin-boire-manger",
     category: "restaurant",
-    subcategory: ["néo-bistrot", "tapas", "bar à vins", "vins naturels"],
+    subcategory: ['français'],
     location: {
         address: "24 Bd du Temple",
         arrondissement: 11,
@@ -61,7 +61,7 @@ export const martin: SurgicalPlace = {
                     { name: "Burrata, huile de basilic, tomates cerises", price_cents: 1400 },
                     { name: "Croquettes de morue & aïoli", price_cents: 1200 },
                     { name: "Poireaux vinaigrette & noisettes torréfiées", price_cents: 1000 },
-                    { name: "Gambas snackées au piment d'Espelette", price_cents: 1600 },
+                    { name: "Gambas snackées au piment d’Espelette", price_cents: 1600 },
                     { name: "Abats du jour (Cœur de canard ou Ris de veau)", price_cents: 1500 },
                     { name: "Tataki de bœuf, sauce soja & sésame", price_cents: 1700 }
                 ]
@@ -82,13 +82,13 @@ export const martin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Martin est le repaire par excellence des amateurs de bons vivants au Boulevard du Temple. Dans un décor de bistrot parisien authentique avec son comptoir zinc et ses ardoises manuscrites, on y sert une cuisine de partage vibrante : produits de terroir, abats parfaitement cuisinés et assiettes créatives. L'ambiance y est électrique, portée par une sélection de vins naturels qui ne déçoit jamais.",
-    insider_tip: "• Venir tôt (avant 19h30) pour s'assurer une place au comptoir, l'endroit est souvent pris d'assaut.\n• Les abats (cœurs de volaille, pieds de cochon) sont ici d'une finesse exemplaire, même pour les non-initiés.\n• Ne manquez pas leur célèbre terrine maison.",
-    expert_catchline: "L'âme festive et gourmande du bistrot parisien moderne, entre petites assiettes et vins vivants.",
+    description: "Martin est le repaire par excellence des amateurs de bons vivants au Boulevard du Temple. Dans un décor de bistrot parisien authentique avec son comptoir zinc et ses ardoises manuscrites, on y sert une cuisine de partage vibrante : produits de terroir, abats parfaitement cuisinés et assiettes créatives. L’ambiance y est électrique, portée par une sélection de vins naturels qui ne déçoit jamais.",
+    insider_tip: "• Venir tôt (avant 19h30) pour s’assurer une place au comptoir, l’endroit est souvent pris d’assaut.\n• Les abats (cœurs de volaille, pieds de cochon) sont ici d'une finesse exemplaire, même pour les non-initiés.\n• Ne manquez pas leur célèbre terrine maison.",
+    expert_catchline: "L’âme festive et gourmande du bistrot parisien moderne, entre petites assiettes et vins vivants.",
     specials: {
         cuisine: ["Tapas de saison", "Abats raffinés", "Terrine Maison", "Charcuterie sourcée"],
         drinks: ["Large sélection de vins naturels", "Bières artisanales au fût"],
-        must_eat: "Les croquettes de morue à l'aïoli, croustillantes et généreuses.",
+        must_eat: "Les croquettes de morue à l’aïoli, croustillantes et généreuses.",
         must_drink: "Un vin orange macéré pour accompagner les assiettes de légumes ou les fromages."
     }
 };

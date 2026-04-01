@@ -144,7 +144,7 @@ export const la_marmite: SurgicalPlace = {
         "culturel": 5
     },
     "description": "Bistrot de quartier planté juste à la sortie du métro Pigalle, La Marmite joue la carte du bistrot parisien classique sans chichi. On y vient pour un déjeuner express avec la formule à 19,50€, pour le couscous du lundi qui fait venir les réguliers de tout le 18ème, ou simplement pour un Happy Hour de 7 heures (16h-23h) où tous les cocktails tombent à 5€. La terrasse spacieuse est le spot idéal pour observer le ballet permanent du boulevard de Clichy, entre touristes du Moulin Rouge et habitués du quartier.",
-    "insider_tip": "Le couscous n'est servi que le lundi — les habitués le savent et débarquent en masse, note le dans ton agenda. La formule express du midi (entrée+plat ou plat+dessert à 19,50€) est un rapport qualité-prix imbattable pour le quartier. Un avis Google récent recommande la soupe à l'oignon et la salade montmartroise comme alternatives aux classiques.",
+    "insider_tip": "Le couscous n’est servi que le lundi — les habitués le savent et débarquent en masse, note le dans ton agenda. La formule express du midi (entrée+plat ou plat+dessert à 19,50€) est un rapport qualité-prix imbattable pour le quartier. Un avis Google récent recommande la soupe à l'oignon et la salade montmartroise comme alternatives aux classiques.",
     "specials": {
         "cuisine": [
             "Couscous (le lundi)",
@@ -163,7 +163,7 @@ export const la_marmite: SurgicalPlace = {
             "Café (2,20€)",
             "Cappuccino (4,50€)"
         ],
-        "must_eat": "Le couscous le lundi (institution locale), la formule express midi à 19,50€ avec l'œuf mayonnaise maison en entrée et les lasagnes fondantes. Un habitué Google 5 étoiles jure par la crêpe caramel beurre salé en dessert.",
+        "must_eat": "Le couscous le lundi (institution locale), la formule express midi à 19,50€ avec l’œuf mayonnaise maison en entrée et les lasagnes fondantes. Un habitué Google 5 étoiles jure par la crêpe caramel beurre salé en dessert.",
         "expert_catchline": "Happy Hour de 7 heures (16h-23h), couscous le lundi, et la terrasse la plus vivante de Pigalle — le bistrot qui résiste au piège à touristes du boulevard."
     },
     "images": {

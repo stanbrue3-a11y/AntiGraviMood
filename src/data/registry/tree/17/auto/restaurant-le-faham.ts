@@ -5,7 +5,7 @@ export const restaurant_le_faham: SurgicalPlace = {
   slug: "restaurant-le-faham",
   name: "Le Faham",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Fusion", "Réunionnais", "Créatif"],
+  subcategory: ['français'],
   location: {
     address: "108 Rue Cardinet, 75017 Paris, France",
     arrondissement: 17,
@@ -64,10 +64,10 @@ export const restaurant_le_faham: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats (Océan & Terre)",
         items: [
-          { name: "Légine de l'Océan Indien, riz safrané, rougail", price_cents: 4500 },
+          { name: "Légine de l’Océan Indien, riz safrané, rougail", price_cents: 4500 },
           { name: "Camarons rôtis au curry massalé", price_cents: 4200 },
           { name: "Cochon de lait confit, écrasé de patate douce", price_cents: 3800 },
-          { name: "Massalé de agneau de 7 heures, légumes d'antan", price_cents: 4000 },
+          { name: "Massalé de agneau de 7 heures, légumes d’antan", price_cents: 4000 },
           { name: "Cari de Poulet fermier de la Réunion", price_cents: 3500 }
         ]
       },
@@ -76,7 +76,7 @@ export const restaurant_le_faham: SurgicalPlace = {
         display_label: "Les Desserts",
         items: [
           { name: "Gâteau Patate au Faham (Dessert Signature)", price_cents: 1800 },
-          { name: "Le Baba au Rhum Arrangé 'Le Faham'", price_cents: 2000 },
+          { name: "Le Baba au Rhum Arrangé ’Le Faham'", price_cents: 2000 },
           { name: "Mille-Feuille à la vanille Bourbon", price_cents: 1600 },
           { name: "Rhum Arrangé de la Maison Rangama", price_cents: 1200 },
           { name: "Café Bourbon Pointu de la Réunion", price_cents: 800 }
@@ -84,15 +84,15 @@ export const restaurant_le_faham: SurgicalPlace = {
       }
     ]
   },
-  description: `Le Faham est la table vibrante de la cheffe Kelly Rangama (Top Chef) et du pâtissier Jérôme Devreese. Récompensée d'une étoile Michelin, cette adresse unique signe une 'cuisine métisse' d'exception, fusionnant les saveurs de l'Île de la Réunion avec la haute technicité française. Un voyage sensoriel bercé par les effluves du faham (une orchidée endémique) et marqué par des contrastes audacieux : piment, gingembre et produits nobles s'y tutoient glorieusement.`,
+  description: `Le Faham est la table vibrante de la cheffe Kelly Rangama (Top Chef) et du pâtissier Jérôme Devreese. Récompensée d’une étoile Michelin, cette adresse unique signe une ’cuisine métisse’ d’exception, fusionnant les saveurs de l’Île de la Réunion avec la haute technicité française. Un voyage sensoriel bercé par les effluves du faham (une orchidée endémique) et marqué par des contrastes audacieux : piment, gingembre et produits nobles s’y tutoient glorieusement.`,
   insider_tip: `• **Signature** : Ne repartez pas sans avoir goûté les sarcives (porc laqué) ou le gâteau patate réinventé par Jérôme.
   • **Cocktail** : Testez les breuvages infusés au Faham, ils racontent l'histoire de la cheffe.
-  • **Ambiance** : C'est lumineux, moderne et chaleureux ; une bouffée d'air marin réunionnais en plein Paris.`,
-  expert_catchline: "L'éclat d'une cuisine métisse portée au sommet par Kelly Rangama.",
+  • **Ambiance** : C’est lumineux, moderne et chaleureux ; une bouffée d'air marin réunionnais en plein Paris.`,
+  expert_catchline: "L’éclat d'une cuisine métisse portée au sommet par Kelly Rangama.",
   specials: {
     cuisine: ["Fusion / Réunionnaise Gastronomique"],
-    drinks: ["Rhum Arrangé d'Exception", "Cocktails Exotiques"],
-    must_eat: "Cuisine fusion. Les sarcives au miel ou la légine de l'Océan Indien.",
+    drinks: ["Rhum Arrangé d’Exception", "Cocktails Exotiques"],
+    must_eat: "Cuisine fusion. Les sarcives au miel ou la légine de l’Océan Indien.",
   },
   images: {
     hero: "AU_ZVEEozWhFOgKogw0ycu5aPpCunIZl_DqAk5rSmlQIRM0kQMU5cvKJEC30AHbg5tlpba41A3QFFlhoeeP2vlWm7hRiNAF1m9IKomryGeW9mlg_HeNMHAPy0JqIyci4JF9BifCZywk28UEXrgGU2tPUkc24SZF3o4VRb9M8YnIR3Ocxu02NBuxfRLbLUe-09TKIcaHvyKMmP8xY-Dy0mec2Z9_VeAXQ68FeoIUIYiT2SkX03P68V4E_AKH4y4URCIC8PCv4xIZU7BFNUG4OiJjil7KwWzUs1HLM-7C6Dqnqp_E90Q",

@@ -5,7 +5,7 @@ export const twentyOneGDumpling: SurgicalPlace = {
     name: "21G Dumpling",
     slug: "21g-dumpling",
     category: "restaurant",
-    subcategory: ["Dim Sum", "Taïwanais", "Fait Maison", "Cantine"],
+    subcategory: ['français'],
     location: {
         address: "167 Rue du Faubourg Saint-Antoine, 75011 Paris",
         arrondissement: 11,
@@ -118,12 +118,12 @@ export const twentyOneGDumpling: SurgicalPlace = {
         main_action: {
             type: "site",
             url: "https://www.21gdumpling.com/",
-            label: "S'INFORMER"
+            label: "S’INFORMER"
         }
     },
-    description: "21G Dumpling est une adresse incontournable pour les amateurs de dim sum artisanaux. Son nom fait référence au poids parfait d'un Xiao Long Bao (le ravioli à bouillon). Entre Bastille et Faidherbe, cette cantine moderne propose une cuisine taïwanaise authentique, préparée à la vue de tous dans une cuisine ouverte.",
+    description: "21G Dumpling est une adresse incontournable pour les amateurs de dim sum artisanaux. Son nom fait référence au poids parfait d’un Xiao Long Bao (le ravioli à bouillon). Entre Bastille et Faidherbe, cette cantine moderne propose une cuisine taïwanaise authentique, préparée à la vue de tous dans une cuisine ouverte.",
     expert_catchline: "Les meilleurs Xiao Long Bao de Bastille, pesés au gramme près pour un bouillon parfait.",
-    insider_tip: "• Les Xiao Long Bao sont la raison d'être du lieu : commencez par eux.\n• Le Poulet Croustillant Taïwanais avec son basilic frit est un must-order pour les gourmands.\n• Pas de réservation le soir, arrivez tôt (avant 19h30) pour éviter l'attente.\n• Le Mochi au sésame noir est la touche finale idéale.",
+    insider_tip: "• Les Xiao Long Bao sont la raison d’être du lieu : commencez par eux.\n• Le Poulet Croustillant Taïwanais avec son basilic frit est un must-order pour les gourmands.\n• Pas de réservation le soir, arrivez tôt (avant 19h30) pour éviter l'attente.\n• Le Mochi au sésame noir est la touche finale idéale.",
     specials: {
         cuisine: ["Xiao Long Bao", "Taïwanais", "Nouilles Dan Dan"],
         drinks: ["Thé Glacé Maison", "Bière Tsingtao", "Bubble Tea"],

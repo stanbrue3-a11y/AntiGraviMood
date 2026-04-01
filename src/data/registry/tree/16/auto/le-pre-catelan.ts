@@ -5,7 +5,7 @@ export const le_pre_catelan: SurgicalPlace = {
   slug: "le-pre-catelan",
   name: "Le Pré Catelan",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "Bois de Boulogne, 75016 Paris, France",
     arrondissement: 16,
@@ -43,7 +43,7 @@ export const le_pre_catelan: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Menus Signature",
         items: [
-          { name: "Le Menu du Pré (Dégustation complète)", price_cents: 38000, description: "L'expression totale de la cuisine de Frédéric Anton" },
+          { name: "Le Menu du Pré (Dégustation complète)", price_cents: 38000, description: "L’expression totale de la cuisine de Frédéric Anton" },
           { name: "Le Menu Orsay", price_cents: 31000, description: "Sélection de saisons en 12 étapes" },
           { name: "Un Déjeuner au Pré", price_cents: 17500, description: "Menu déjeuner (uniquement en semaine)" }
         ]
@@ -52,11 +52,11 @@ export const le_pre_catelan: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats de Légende",
         items: [
-          { name: "Langoustine en Ravioli", price_cents: 12000, description: "Au foie gras de canard, fine gelée à la feuille d'or", is_highlight: true },
-          { name: "L'Aubergine au Caviar", price_cents: 11500, description: "Crème d'avocat et curry léger" },
+          { name: "Langoustine en Ravioli", price_cents: 12000, description: "Au foie gras de canard, fine gelée à la feuille d’or", is_highlight: true },
+          { name: "L’Aubergine au Caviar", price_cents: 11500, description: "Crème d’avocat et curry léger" },
           { name: "Le Petit Pois en Tartelette", price_cents: 8500, description: "Menthe fraîche et oignons nouveaux" },
           { name: "Le Saumon Fumé", price_cents: 9500, description: "Au bois de cerisier, crème de raifort" },
-          { name: "L'Asperge Blanche de pays", price_cents: 9000, description: "Mousseline légère et herbes potagères" },
+          { name: "L’Asperge Blanche de pays", price_cents: 9000, description: "Mousseline légère et herbes potagères" },
           { name: "Le Pigeonneau Poché", price_cents: 13500, description: "Sauce salmis, purée de pommes de terre onctueuse" },
           { name: "Le Ris de Veau Croustillant", price_cents: 14500, description: "Jus corsé, petits légumes de saison" }
         ]
@@ -83,15 +83,15 @@ export const le_pre_catelan: SurgicalPlace = {
       }
     ]
   },
-  description: `Institution nichée au cœur du Bois de Boulogne, Le Pré Catelan est le théâtre de la gastronomie triplement étoilée de Frédéric Anton. Dans un pavillon Napoléon III d'une élégance absolue, le chef orchestre une partition culinaire où la précision technique rencontre une esthétique visuelle époustouflante. C'est l'un des sommets mondiaux de la haute cuisine française, offrant un cadre bucolique unique à Paris.`,
+  description: `Institution nichée au cœur du Bois de Boulogne, Le Pré Catelan est le théâtre de la gastronomie triplement étoilée de Frédéric Anton. Dans un pavillon Napoléon III d’une élégance absolue, le chef orchestre une partition culinaire où la précision technique rencontre une esthétique visuelle époustouflante. C’est l'un des sommets mondiaux de la haute cuisine française, offrant un cadre bucolique unique à Paris.`,
   expert_catchline: `Le sommet absolu de la précision technique dans un pavillon impérial.`,
   insider_tip: `• **Le Déjeuner au Pré** : Pour découvrir l'excellence Anton à prix (relativement) accessible, le menu déjeuner à 175€ est une opportunité rare pour un 3 étoiles.
   • **Le Must-Seat** : Demandez une table près des larges baies vitrées pour profiter de la lumière naturelle et de la vue sur les jardins.
-  • **Dress Code** : L'élégance est de mise, veste obligatoire pour les messieurs (que le restaurant peut prêter si besoin).`,
+  • **Dress Code** : L’élégance est de mise, veste obligatoire pour les messieurs (que le restaurant peut prêter si besoin).`,
   specials: {
     cuisine: ["Français"],
     drinks: ["Vin", "Cocktail", "Bière"],
-    must_eat: "La Langoustine en Ravioli (feuille d'or). Une prouesse technique et visuelle.",
+    must_eat: "La Langoustine en Ravioli (feuille d’or). Une prouesse technique et visuelle.",
   },
   images: {
     hero: "AU_ZVEGhPvYvSXirpVoee1AuG7d34bsTQTM-FM3kivvMzLv8K8oWAX4JVmuaZEU_Kw8wq0VjgFiSUBIiykqUIOzFHV8AgHcvY2xO19rOu06S8VNbIBm1O9sWdk6lLVCIe6PBivDCcQdCW1q65H9Ib5NAkq3lppxibUKWZMXMQktn1nsXLRLbFRXJJr61hFkBnhMeA4SHAoi9VJ3gPNxkjbvwL6X3Rx3x7TNA7rZD9M83ZZzJnEB0QQNONZOy9B-MX-k3LIi8cTCzj43LLNGkyliWQJ4lSZP3F3rEjhGOwEG0wB7g7Q",
@@ -101,7 +101,7 @@ export const le_pre_catelan: SurgicalPlace = {
   google_rating: 4.6,
   michelin_stars: 3,
   real_talk: {
-    text: "Le Pré Catelan n'est pas juste un dîner, c'est une ascension. Frédéric Anton sculpte chaque assiette avec une rigueur de diamantaire. L'ambiance dans le pavillon est feutrée, majestueuse, presque hors du temps.",
+    text: "Le Pré Catelan n’est pas juste un dîner, c’est une ascension. Frédéric Anton sculpte chaque assiette avec une rigueur de diamantaire. L’ambiance dans le pavillon est feutrée, majestueuse, presque hors du temps.",
     must_eat: "Langoustine en Ravioli",
     le_secret: "La cave de cigares exceptionnelle pour finir la soirée en terrasse.",
     le_son: "Calme olympien, seulement interrompu par le chuchotement des jardins du Bois de Boulogne.",

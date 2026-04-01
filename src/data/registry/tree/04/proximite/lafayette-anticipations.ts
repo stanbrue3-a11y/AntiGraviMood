@@ -6,7 +6,7 @@ export const lafayette_anticipations: SurgicalPlace = {
     "slug": "lafayette-anticipations",
     "category": "museum",
     "subcategory": [
-        "fondation d'art"
+        "fondation d’art"
     ],
     "verified": true,
     "google_rating": 4.4,
@@ -39,8 +39,8 @@ export const lafayette_anticipations: SurgicalPlace = {
         "festif": 4,
         "culturel": 24.3
     },
-    "description": "Véritable laboratoire de création au cœur du Marais, cette fondation d'entreprise signée Rem Koolhaas est un espace mutant. Grâce à un jeu de planchers mobiles, le bâtiment s'adapte à chaque exposition d'art contemporain, de design ou de mode. Lafayette Anticipations est le lieu où l'on vient découvrir les artistes qui feront demain, dans une atmosphère de curiosité permanente et d'effervescence intellectuelle.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Véritable laboratoire de création au cœur du Marais, cette fondation d’entreprise signée Rem Koolhaas est un espace mutant. Grâce à un jeu de planchers mobiles, le bâtiment s’adapte à chaque exposition d’art contemporain, de design ou de mode. Lafayette Anticipations est le lieu où l’on vient découvrir les artistes qui feront demain, dans une atmosphère de curiosité permanente et d’effervescence intellectuelle.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

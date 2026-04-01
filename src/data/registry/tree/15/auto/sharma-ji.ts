@@ -5,7 +5,7 @@ export const sharma_ji: SurgicalPlace = {
   slug: "sharma-ji",
   name: "Sharma Ji",
   category: "restaurant",
-  subcategory: ["indien", "moderne", "bistronomie", "chic", "street-food"],
+  subcategory: ['indien', 'français', 'bistronomie'],
   location: {
     address: "16 Rue Frémicourt, 75015 Paris, France",
     arrondissement: 15,
@@ -57,9 +57,9 @@ export const sharma_ji: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats de Manoj",
         items: [
-          { name: "Lamb Ghee Roast", price_cents: 3800, description: "Épaule d'agneau confite, sauce au ghee et épices", is_highlight: true },
+          { name: "Lamb Ghee Roast", price_cents: 3800, description: "Épaule d’agneau confite, sauce au ghee et épices", is_highlight: true },
           { name: "Old Delhi Butter Chicken", price_cents: 2600 },
-          { name: "Dum Biryani d'Agneau", price_cents: 2900, description: "Cuit à l'étouffée sous une croûte de pain" },
+          { name: "Dum Biryani d’Agneau", price_cents: 2900, description: "Cuit à l’étouffée sous une croûte de pain" },
           { name: "Wadia Auntie Fish Masala", price_cents: 3200, description: "Poisson en feuille de bananier" },
           { name: "Paneer Saffron Korma", price_cents: 2400 },
           { name: "Kerala Prawn Curry", price_cents: 3100 },

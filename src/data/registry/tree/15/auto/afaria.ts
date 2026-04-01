@@ -5,7 +5,7 @@ export const afaria: SurgicalPlace = {
   slug: "afaria",
   name: "Afaria",
   category: "restaurant",
-  subcategory: ["bistrot", "sud-ouest", "traditionnel", "terroir"],
+  subcategory: ['français'],
   location: {
     address: "15 Rue Desnouettes, 75015 Paris, France",
     arrondissement: 15,
@@ -43,7 +43,7 @@ export const afaria: SurgicalPlace = {
         category_type: "starter",
         display_label: "Pour Commencer / À Partager",
         items: [
-          { name: "Terrine d'artichaut au lard fumé", price_cents: 1300 },
+          { name: "Terrine d’artichaut au lard fumé", price_cents: 1300 },
           { name: "Cappuccino de langoustines", price_cents: 1200 },
           { name: "Escalope de foie gras poêlé", price_cents: 1300 },
           { name: "Velouté de topinambours, rillettes corail", price_cents: 1100 },
@@ -69,7 +69,7 @@ export const afaria: SurgicalPlace = {
           { name: "Paleron de bœuf en pot-au-feu", price_cents: 2300 },
           { name: "Confit de canard du Sud-Ouest", price_cents: 2100 },
           { name: "Axoa de veau traditionnel", price_cents: 2000 },
-          { name: "Ris d'agneau aux girolles", price_cents: 2500 },
+          { name: "Ris d’agneau aux girolles", price_cents: 2500 },
           { name: "Pavé de sandre, sauce beurre rouge", price_cents: 2400 },
           { name: "Légumes de saison rôtis au miel", price_cents: 1800 }
         ]
@@ -84,7 +84,7 @@ export const afaria: SurgicalPlace = {
           { name: "Brioche façon pain perdu", price_cents: 1000 },
           { name: "Tiramisu poire et chocolat", price_cents: 900 },
           { name: "Moelleux tiède au chocolat", price_cents: 1000 },
-          { name: "Tarte tatin à l'ananas", price_cents: 1000 },
+          { name: "Tarte tatin à l’ananas", price_cents: 1000 },
           { name: "Plateau de fromages des Pyrénées", price_cents: 1200 },
           { name: "Pavlova aux fruits exotiques", price_cents: 1000 }
         ]
@@ -93,18 +93,18 @@ export const afaria: SurgicalPlace = {
         category_type: "drink",
         display_label: "La Cave & Boissons",
         items: [
-          { name: "Bouteille d'eau minérale", price_cents: 600 },
+          { name: "Bouteille d’eau minérale", price_cents: 600 },
           { name: "Verre de vin du Sud-Ouest", price_cents: 700 },
           { name: "Café Richard", price_cents: 300 }
         ]
       }
     ]
   },
-  description: `Afaria est une ode vibrante au Sud-Ouest, nichée dans le 15e arrondissement. Sous l'impulsion de la cheffe Ludivine Merlin, cet établissement propose une cuisine de terroir magnifiée par une touche de modernité. Entre les magrets rôtis aux sarments de vigne et les terrines d'artichaut raffinées, chaque plat raconte une histoire de produits sourcés et de passion culinaire. L'ambiance y est chaleureuse, évoquant les grandes tablées basques dans un décor élégant et convivial.`,
+  description: `Afaria est une ode vibrante au Sud-Ouest, nichée dans le 15e arrondissement. Sous l’impulsion de la cheffe Ludivine Merlin, cet établissement propose une cuisine de terroir magnifiée par une touche de modernité. Entre les magrets rôtis aux sarments de vigne et les terrines d’artichaut raffinées, chaque plat raconte une histoire de produits sourcés et de passion culinaire. L'ambiance y est chaleureuse, évoquant les grandes tablées basques dans un décor élégant et convivial.`,
   expert_catchline: `Cuisine du Sud-Ouest. Magret rôti aux sarments de vigne & Axoa de veau.`,
   insider_tip: `• **Le Bon Plan** : Visez le déjeuner en semaine pour profiter des formules à 25€, un rapport qualité-prix imbattable pour ce niveau de cuisine.
 • **Le Festin** : Ne passez pas à côté des pieds de cochon croustillants suivis du magret de canard à partager.
-• **L'Ambiance** : La bibliothèque gourmande à l'entrée et l'accent chantant de l'équipe vous transportent directement dans les Landes.`,
+• **L’Ambiance** : La bibliothèque gourmande à l’entrée et l’accent chantant de l’équipe vous transportent directement dans les Landes.`,
   specials: {
     cuisine: ["Sud-Ouest", "Bistrot", "Landais"],
     drinks: ["Vins du Béarn", "Armagnac"],

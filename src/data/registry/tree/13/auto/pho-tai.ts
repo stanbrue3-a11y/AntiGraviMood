@@ -5,7 +5,7 @@ export const pho_tai: SurgicalPlace = {
   slug: "pho-tai",
   name: "Phở Tài",
   category: "restaurant",
-  subcategory: ["vietnamien"],
+  subcategory: ['vietnamien'],
   location: {
     address: "13 Rue Philibert Lucot, 75013 Paris, France",
     arrondissement: 13,
@@ -93,18 +93,18 @@ export const pho_tai: SurgicalPlace = {
           { name: "Trois Couleurs (Chè Ba Màu)", price_cents: 650, is_highlight: true },
           { name: "Banane au Lait de Coco Chaud", price_cents: 600 },
           { name: "Café Glacé à la Vietnamienne", price_cents: 450 },
-          { name: "Thé à l'Artichaut (Dactilo)", price_cents: 400 },
+          { name: "Thé à l’Artichaut (Dactilo)", price_cents: 400 },
           { name: "Lait de Soja Maison (Froid)", price_cents: 400 },
-          { name: "Bière '33' Export (Vietnam)", price_cents: 600 },
+          { name: "Bière ’33' Export (Vietnam)", price_cents: 600 },
           { name: "Jus de Lychee Frais", price_cents: 500 }
         ]
       }
     ]
   },
-  description: "Phở Tài est une véritable institution nichée dans une petite rue calme du 13e, bien loin du tumulte commercial de l'avenue d'Italie. Ce restaurant, distingué par un Bib Gourmand Michelin, est considéré par beaucoup comme servant l'un des meilleurs Phở de la capitale. Le bouillon, mijoté pendant plus de 12 heures, est d'une clarté et d'une profondeur aromatique exceptionnelles. L'ambiance y est familiale, sans chichi, privilégiant la qualité absolue du produit et l'authenticité des recettes transmises de génération en génération.",
+  description: "Phở Tài est une véritable institution nichée dans une petite rue calme du 13e, bien loin du tumulte commercial de l’avenue d’Italie. Ce restaurant, distingué par un Bib Gourmand Michelin, est considéré par beaucoup comme servant l’un des meilleurs Phở de la capitale. Le bouillon, mijoté pendant plus de 12 heures, est d’une clarté et d’une profondeur aromatique exceptionnelles. L’ambiance y est familiale, sans chichi, privilégiant la qualité absolue du produit et l’authenticité des recettes transmises de génération en génération.",
   insider_tip: `• **Le Rite du Phở** : Commandez le Phở Tái (bœuf cru) et laissez la chaleur du bouillon cuire la viande à votre convenance pour une tendreté parfaite.
   • **Secret de Gourmet** : Leurs Bánh Cuốn (raviolis vapeur) sont préparés à la minute et rivalisent avec les meilleures adresses du quartier chinois.
-  • **Timing Idéal** : Victime de son succès, le restaurant ne prend pas de réservation. Arrivez dès 18h45 pour le service du soir afin d'éviter la file d'attente sur le trottoir.`,
+  • **Timing Idéal** : Victime de son succès, le restaurant ne prend pas de réservation. Arrivez dès 18h45 pour le service du soir afin d’éviter la file d'attente sur le trottoir.`,
   specials: {
     cuisine: ["Vietnamienne"],
     drinks: ["Café Vietnamien", "Bière 33 Export", "Thé Artichaut"],

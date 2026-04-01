@@ -38,8 +38,8 @@ export const musee_vie_romantique: SurgicalPlace = {
         "festif": 3,
         "culturel": 9
     },
-    "description": "Ancienne demeure du peintre Ary Scheffer, ce musée et son jardin bucolique sont l'incarnation du romantisme parisien. Sa serre transformée en salon de thé par Rose Bakery est le spot idéal pour un après-midi suspendu, entre fleurs anciennes et sculptures délicates. C'est calme, poétique, et d'une beauté fragile qui enchante dès que l'on franchit la grille.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Ancienne demeure du peintre Ary Scheffer, ce musée et son jardin bucolique sont l’incarnation du romantisme parisien. Sa serre transformée en salon de thé par Rose Bakery est le spot idéal pour un après-midi suspendu, entre fleurs anciennes et sculptures délicates. C’est calme, poétique, et d’une beauté fragile qui enchante dès que l'on franchit la grille.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

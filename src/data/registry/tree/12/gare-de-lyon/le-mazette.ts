@@ -5,7 +5,7 @@ export const le_mazette: SurgicalPlace = {
   slug: "le-mazette",
   name: "Le Mazette",
   category: "restaurant",
-  subcategory: ["vib"],
+  subcategory: ['français'],
   location: {
     address: "69 Port de la Rapée, 75012 Paris, France",
     arrondissement: 12,
@@ -73,7 +73,7 @@ export const le_mazette: SurgicalPlace = {
         display_label: "Pression & Craft Beers (Boissons)",
         items: [
           { name: "Pinte Mazette Lager (4.5%)", price_cents: 850, is_highlight: true },
-          { name: "Pinte IPA Locale (La Goutte d'Or)", price_cents: 950 },
+          { name: "Pinte IPA Locale (La Goutte d’Or)", price_cents: 950 },
           { name: "Pinte Blanche (Wheat Beer)", price_cents: 900 },
           { name: "Demi Lager", price_cents: 500 },
           { name: "Bouteille Craft Saison (33cl)", price_cents: 750 },
@@ -88,7 +88,7 @@ export const le_mazette: SurgicalPlace = {
           { name: "Spritz Aperol (Format XXL)", price_cents: 1100 },
           { name: "Dark & Stormy", price_cents: 1250 },
           { name: "Gin Tonic (Arduenna Gin)", price_cents: 1300 },
-          { name: "Mocktail 'Sunny Boat'", price_cents: 900 },
+          { name: "Mocktail ’Sunny Boat'", price_cents: 900 },
           { name: "Shot de Tequila / Mezcal", price_cents: 600 }
         ]
       },
@@ -98,7 +98,7 @@ export const le_mazette: SurgicalPlace = {
         items: [
           { name: "Cola Artisanal (33cl)", price_cents: 550 },
           { name: "Limonade Maison", price_cents: 500 },
-          { name: "Jus d'Orange pressé", price_cents: 600 },
+          { name: "Jus d’Orange pressé", price_cents: 600 },
           { name: "Eau Minérale (50cl)", price_cents: 450 },
           { name: "Café Espresso", price_cents: 250 },
           { name: "Thé Glacé Maison (Pêche/Mate)", price_cents: 650 }
@@ -106,10 +106,10 @@ export const le_mazette: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Mazette est un bateau-phare de la vie nocturne parisienne, amarré au Port de la Rapée. Ancien Concrete, ce lieu hybride propose une programmation éclectique mêlant clubbing, concerts live et ateliers culturels. Avec sa terrasse sur le pont offrant une vue imprenable sur la Seine et ses espaces intérieurs industriels, c'est le spot idéal pour danser jusqu'à l'aube ou chiller au bord de l'eau en fin de journée.",
-  insider_tip: `• **Terrasse Flottante** : Le pont supérieur est l'un des meilleurs rooftops de plein air sur l'eau à Paris.
+  description: "Le Mazette est un bateau-phare de la vie nocturne parisienne, amarré au Port de la Rapée. Ancien Concrete, ce lieu hybride propose une programmation éclectique mêlant clubbing, concerts live et ateliers culturels. Avec sa terrasse sur le pont offrant une vue imprenable sur la Seine et ses espaces intérieurs industriels, c’est le spot idéal pour danser jusqu’à l’aube ou chiller au bord de l'eau en fin de journée.",
+  insider_tip: `• **Terrasse Flottante** : Le pont supérieur est l’un des meilleurs rooftops de plein air sur l'eau à Paris.
   • **Programmation** : Vérifiez l'agenda sur leur Instagram, les soirées varient énormément entre house pétillante et techno pointue.
-  • **Accès Port** : L'accès par le port de la Rapée offre une balade agréable avant de monter à bord.`,
+  • **Accès Port** : L’accès par le port de la Rapée offre une balade agréable avant de monter à bord.`,
   specials: {
     cuisine: ["Finger Food", "Street Food de saison"],
     drinks: ["Cocktails Créatifs", "Bières Artisanales"],

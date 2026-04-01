@@ -5,7 +5,7 @@ export const magma: SurgicalPlace = {
     name: "Magma",
     slug: "magma",
     category: "restaurant",
-    subcategory: ["bistronomie", "franco-japonais", "gastronomique", "seasonal"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "9 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -55,8 +55,8 @@ export const magma: SurgicalPlace = {
                 category_type: "tasting_menu",
                 display_label: "Dinner Tasting Menus (Soir)",
                 items: [
-                    { name: "Menu Dégustation (6 temps)", price_cents: 8000, description: "L'essentiel de la vision de Ryuya Ono." },
-                    { name: "Menu Dégustation (9 temps)", price_cents: 12000, description: "L'expérience Magma complète." },
+                    { name: "Menu Dégustation (6 temps)", price_cents: 8000, description: "L’essentiel de la vision de Ryuya Ono." },
+                    { name: "Menu Dégustation (9 temps)", price_cents: 12000, description: "L’expérience Magma complète." },
                     { name: "Accords Mets & Vins (9 temps)", price_cents: 9000 },
                     { name: "Accords Mets & Sakés (9 temps)", price_cents: 7000 }
                 ]
@@ -88,9 +88,9 @@ export const magma: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Le chef Ryuya Ono livre une partition d'une justesse rare. Magma est un laboratoire où la technique française s'efface devant la pureté japonaise du produit. Une cuisine anti-gaspi, agile et émouvante, servie dans un cadre intimiste.",
-    insider_tip: "L'ormeau (abalone) à l'oreille de cochon est le plat signature à ne pas manquer si disponible. L'accord saké est particulièrement bien pensé et apporte une dimension supplémentaire aux plats de mer.",
-    expert_catchline: "La rigueur japonaise rencontre le terroir français dans un magma d'émotions.",
+    description: "Le chef Ryuya Ono livre une partition d’une justesse rare. Magma est un laboratoire où la technique française s'efface devant la pureté japonaise du produit. Une cuisine anti-gaspi, agile et émouvante, servie dans un cadre intimiste.",
+    insider_tip: "L’ormeau (abalone) à l’oreille de cochon est le plat signature à ne pas manquer si disponible. L’accord saké est particulièrement bien pensé et apporte une dimension supplémentaire aux plats de mer.",
+    expert_catchline: "La rigueur japonaise rencontre le terroir français dans un magma d’émotions.",
     specials: {
         cuisine: ["Franco-Japonais", "Omakase-style", "Anti-gaspi Gastronomy"],
         drinks: ["Sake Pairing", "Vins Vivants"],

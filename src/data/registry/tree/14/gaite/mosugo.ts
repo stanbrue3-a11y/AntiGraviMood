@@ -5,7 +5,7 @@ export const mosugo: SurgicalPlace = {
     name: "MOSUGO",
     slug: "mosugo-mory-sacko-14",
     category: "restaurant",
-    subcategory: ["street food", "afro-fusion", "poulet frit", "mory sacko", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "22 Rue Raymond Losserand, 75014 Paris",
         arrondissement: 14,
@@ -47,7 +47,7 @@ export const mosugo: SurgicalPlace = {
                 items: [
                     { name: "Poulet Frit Signature (Panko, sauce Bulldog)", price_cents: 1050, description: "Le fameux poulet frit de Mory Sacko." },
                     { name: "Fried Plantain (Banane plantain frite au panko)", price_cents: 1050 },
-                    { name: "Chicken & Waffle", price_cents: 1350, description: "Gaufres maison, poulet frit, sirop d'érable." },
+                    { name: "Chicken & Waffle", price_cents: 1350, description: "Gaufres maison, poulet frit, sirop d’érable." },
                     { name: "Plantain & Waffle (Version végétarienne)", price_cents: 1350 },
                     { name: "Mosugo Chicken Burger (Pretzel bun, miso mayo)", price_cents: 1350 },
                     { name: "Mosugo Veggie Burger (Butternut frite)", price_cents: 1350 },
@@ -95,9 +95,9 @@ export const mosugo: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Avec Mosugo, le chef étoilé Mory Sacko démocratise son univers afro-fusion à travers la street-food. Concentré sur le poulet frit (incroyablement croustillant et épicé), ce spot du 14ème propose des burgers au pain bretzel et des accompagnements qui font voyager, comme les l'alocco (bananes plantains). C'est une immersion rapide et savoureuse dans la signature culinaire de l'un des chefs les plus créatifs de sa génération.",
+    description: "Avec Mosugo, le chef étoilé Mory Sacko démocratise son univers afro-fusion à travers la street-food. Concentré sur le poulet frit (incroyablement croustillant et épicé), ce spot du 14ème propose des burgers au pain bretzel et des accompagnements qui font voyager, comme les l’alocco (bananes plantains). C’est une immersion rapide et savoureuse dans la signature culinaire de l’un des chefs les plus créatifs de sa génération.",
     insider_tip: "Prenez absolument les Alocco (bananes plantains) en accompagnement, elles sont parfaitement caramélisées. Si vous avez une grosse faim, le Menu Burger and Fried est une expérience totale du concept.",
-    expert_catchline: "Le poulet frit version haute couture : l'afro-fusion signée Mory Sacko accessible à tous.",
+    expert_catchline: "Le poulet frit version haute couture : l’afro-fusion signée Mory Sacko accessible à tous.",
     specials: {
         cuisine: ["Street Food Afro-Fusion", "Poulet Frit", "Mory Sacko signature"],
         drinks: ["Bissap maison", "Eaux détox"],

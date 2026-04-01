@@ -5,7 +5,7 @@ export const mokoloco: SurgicalPlace = {
     name: "Mokoloco",
     slug: "mokoloco",
     category: "restaurant",
-    subcategory: ["fusion", "coréen", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "74 Rue de Charonne",
         arrondissement: 11,
@@ -46,7 +46,7 @@ export const mokoloco: SurgicalPlace = {
                 display_label: "Petites Assiettes à Partager (Entrées)",
                 items: [
                     // VERIFIED: Le Fooding + Umai + lacarte.menu (2024-2025) — Chef Minsoo Kim
-                    { name: "Snack 'Barbajuan'", price_cents: 1200 },
+                    { name: "Snack ’Barbajuan'", price_cents: 1200 },
                     { name: "Briouate au foie de volaille", price_cents: 1300 },
                     { name: "Egg Jjim (flan coréen vapeur)", price_cents: 1400 },
                     { name: "Sardines chalumées", price_cents: 1400 },
@@ -61,7 +61,7 @@ export const mokoloco: SurgicalPlace = {
                 items: [
                     { name: "Madame Butterfly (Crevettes frites pointues)", price_cents: 2200 },
                     { name: "Rouget de ligne rôti, réduction corsée", price_cents: 2400 },
-                    { name: "Pkaïla (ragoût d'épinards traditionnel)", price_cents: 2000 },
+                    { name: "Pkaïla (ragoût d’épinards traditionnel)", price_cents: 2000 },
                     { name: "Fricassé tunisien revisité", price_cents: 1800 },
                     { name: "Tajine aux boulettes de kefta", price_cents: 2200 }
                 ]
@@ -86,7 +86,7 @@ export const mokoloco: SurgicalPlace = {
                 display_label: "Vins Natures",
                 items: [
                     { name: "Verre de vin nature (à partir de)", price_cents: 800 },
-                    { name: "Pet'Nat fruité (bouteille)", price_cents: 3200 }
+                    { name: "Pet’Nat fruité (bouteille)", price_cents: 3200 }
                 ]
             }
         ]
@@ -102,12 +102,12 @@ export const mokoloco: SurgicalPlace = {
     verified: true,
     google_rating: 4.6,
     description: "Le superbe laboratoire de résidence culinaire monté par Omar et Moko (les génies derrière Mokonuts). Actuellement dirigé par le chef coréen Minsoo Kim, Mokoloco envoie le soir une bistronomie fusion franco-coréenne saisissante, où les techniques classiques percutent les fermentations et les piments doux de Séoul.",
-    insider_tip: "• Mokoloco n'est désormais ouvert que le soir ! Et fermé le dimanche et le lundi.\n• Le menu dégustation à 38€ le soir est probablement le meilleur rapport qualité-prix de l'extrêmement hype rue de Charonne.\n• L'endroit est minuscule et charmant, la réservation est indispensable.",
+    insider_tip: "• Mokoloco n’est désormais ouvert que le soir ! Et fermé le dimanche et le lundi.\n• Le menu dégustation à 38€ le soir est probablement le meilleur rapport qualité-prix de l’extrêmement hype rue de Charonne.\n• L’endroit est minuscule et charmant, la réservation est indispensable.",
     expert_catchline: "La résidence culinaire de la galaxie Mokonuts, avec un rapport prix/plaisir redoutable le soir.",
     specials: {
         cuisine: ["Egg Jjim (Flan coréen)", "Menu dégustation abordable", "Fusions franco-coréennes"],
         drinks: ["Pétillants naturels", "Vins sains de vignerons indés"],
-        must_eat: "Laissez-vous tenter par le menu à 38€ pour balayer d'un coup le talent de Minsoo Kim.",
-        must_drink: "Un Pet'Nat fruité pour casser le sel et l'umami des piments coréens."
+        must_eat: "Laissez-vous tenter par le menu à 38€ pour balayer d’un coup le talent de Minsoo Kim.",
+        must_drink: "Un Pet’Nat fruité pour casser le sel et l'umami des piments coréens."
     }
 };

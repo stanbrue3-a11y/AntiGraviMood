@@ -5,7 +5,7 @@ export const leGoyavier: SurgicalPlace = {
     name: "Le Goyavier",
     slug: "le-goyavier",
     category: "restaurant",
-    subcategory: ["reunionnais", "creole", "exotic", "institution"],
+    subcategory: ['français'],
     location: {
         address: "4 Rue Saint-Bernard",
         arrondissement: 11,
@@ -77,7 +77,7 @@ export const leGoyavier: SurgicalPlace = {
                 category_type: "drink",
                 display_label: "Boissons & Rhums",
                 items: [
-                    { name: "Bière Bourbon 'Dodo'", price_cents: 750 },
+                    { name: "Bière Bourbon ’Dodo'", price_cents: 750 },
                     { name: "Punch Coco maison", price_cents: 850 },
                     { name: "Rhum Arrangé (Verre)", price_cents: 900 }
                 ]
@@ -90,9 +90,9 @@ export const leGoyavier: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Le Goyavier est le plus ancien restaurant réunionnais de Paris. Depuis 1988, la famille Payet y concocte une cuisine créole d'une authenticité rare. Décor coloré, accueil chaleureux et saveurs ensoleillées : c'est une véritable ambassade de l'Ile Intense au coeur du 11ème. Le point fort ? Des caris mijotés pendant des heures qui vous transportent directement à Saint-Denis ou Cilaos.",
-    insider_tip: "Commencez par un punch gingembre maison pour vous mettre dans l'ambiance. Si vous aimez le piment, demandez leur pâte 'piment oiseau' maison, mais allez-y avec précaution, elle ne plaisante pas.",
-    expert_catchline: "L'authenticité réunionnaise à Paris depuis 1988 : caris, rougails et punchs solaires.",
+    description: "Le Goyavier est le plus ancien restaurant réunionnais de Paris. Depuis 1988, la famille Payet y concocte une cuisine créole d’une authenticité rare. Décor coloré, accueil chaleureux et saveurs ensoleillées : c’est une véritable ambassade de l’Ile Intense au coeur du 11ème. Le point fort ? Des caris mijotés pendant des heures qui vous transportent directement à Saint-Denis ou Cilaos.",
+    insider_tip: "Commencez par un punch gingembre maison pour vous mettre dans l’ambiance. Si vous aimez le piment, demandez leur pâte ’piment oiseau’ maison, mais allez-y avec précaution, elle ne plaisante pas.",
+    expert_catchline: "L’authenticité réunionnaise à Paris depuis 1988 : caris, rougails et punchs solaires.",
     specials: {
         cuisine: ["Cuisine réunionnaise", "Creole specialties", "Slow-cooked stews"],
         drinks: ["Bière Bourbon Dodo", "Punchs artisanaux", "Rhums arrangés"],

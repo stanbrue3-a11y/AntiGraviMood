@@ -5,7 +5,7 @@ export const le_pantruche: SurgicalPlace = {
   slug: "le-pantruche",
   name: "Le Pantruche",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "retro-chic", "terroir"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "3 Rue Victor Massé, 75009 Paris, France",
     arrondissement: 9,
@@ -62,8 +62,8 @@ export const le_pantruche: SurgicalPlace = {
           { name: "Côte de Cochon fermière rôtie au sautoir", price_cents: 2900, is_highlight: true },
           { name: "Filet de Canette rôti, Sauce aux fruits rouges", price_cents: 2700, is_highlight: true },
           { name: "Poisson du jour à la plancha, Beurre blanc", price_cents: 2600 },
-          { name: "Épaule d'Agneau braisée au Romarin", price_cents: 2800, is_highlight: true },
-          { name: "Ris de Veau à l'ancienne & Champignons", price_cents: 3600, is_highlight: true },
+          { name: "Épaule d’Agneau braisée au Romarin", price_cents: 2800, is_highlight: true },
+          { name: "Ris de Veau à l’ancienne & Champignons", price_cents: 3600, is_highlight: true },
           { name: "Parmentier de Queue de Bœuf au vin rouge", price_cents: 2400 },
           { name: "Risotto aux Herbes fraîches & Parmesan", price_cents: 2200 },
           { name: "Onglet de Bœuf Sauce Échalote", price_cents: 2650 }
@@ -108,11 +108,11 @@ export const le_pantruche: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Pantruche est l'institution indétrônable du 9ème arrondissement. Dans un décor rétro-chic aux accents de bistrot des années 50, le chef Franck Baranger signe une cuisine bourgeoise modernisée avec un brio éclatant. Récompensé par un Bib Gourmand, le restaurant se distingue par sa régularité et ses plats signatures, comme l'inoubliable soufflé au Grand Marnier ou la côte de cochon fondante. C'est l'adresse idéale pour retrouver l'âme gourmande de Paris dans une ambiance chaleureuse et élégante.",
-  insider_tip: "• **Le Soufflé** : C'est la spécialité incontestée de la maison. Léger et parfaitement équilibré, il justifie à lui seul la visite.\n• **Le Midi** : La formule déjeuner à 25€ est une aubaine pour les gourmets cherchant l'excellence à prix serré.\n• **L'Ambiance** : Privilégiez les banquettes pour profiter pleinement de l'atmosphère feutrée et conviviale du lieu.",
+  description: "Le Pantruche est l’institution indétrônable du 9ème arrondissement. Dans un décor rétro-chic aux accents de bistrot des années 50, le chef Franck Baranger signe une cuisine bourgeoise modernisée avec un brio éclatant. Récompensé par un Bib Gourmand, le restaurant se distingue par sa régularité et ses plats signatures, comme l’inoubliable soufflé au Grand Marnier ou la côte de cochon fondante. C’est l’adresse idéale pour retrouver l’âme gourmande de Paris dans une ambiance chaleureuse et élégante.",
+  insider_tip: "• **Le Soufflé** : C’est la spécialité incontestée de la maison. Léger et parfaitement équilibré, il justifie à lui seul la visite.\n• **Le Midi** : La formule déjeuner à 25€ est une aubaine pour les gourmets cherchant l’excellence à prix serré.\n• **L’Ambiance** : Privilégiez les banquettes pour profiter pleinement de l'atmosphère feutrée et conviviale du lieu.",
   specials: {
     cuisine: ["Bistronomie bourgeoise", "Soufflé Grand Marnier culte", "Produits du terroir"],
-    drinks: ["Vins d'auteurs & biodynamiques", "Grands crus confidentiels", "Sélection de spiritueux"],
+    drinks: ["Vins d’auteurs & biodynamiques", "Grands crus confidentiels", "Sélection de spiritueux"],
     must_eat: "Le Soufflé au Grand Marnier (12€) : une prouesse de légèreté et de gourmandise, véritable totem de la gastronomie parisienne.",
   },
   images: {

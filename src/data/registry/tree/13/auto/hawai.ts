@@ -5,9 +5,9 @@ export const hawai: SurgicalPlace = {
   slug: "hawai",
   name: "Hawai",
   category: "restaurant",
-  subcategory: ["traiteur"],
+  subcategory: ['français'],
   location: {
-    address: "87 Av. d'Ivry, 75013 Paris, France",
+    address: "87 Av. d’Ivry, 75013 Paris, France",
     arrondissement: 13,
     lat: 48.824534,
     lng: 2.362806,
@@ -100,10 +100,10 @@ export const hawai: SurgicalPlace = {
       }
     ]
   },
-  description: "Hawaï est la cantine de référence de l'Avenue d'Ivry, un pilier du quartier chinois qui ne désemplit jamais. Si la salle est modeste, sa vitrine traiteur est une légende urbaine dans le 13e : on y vient de tout Paris pour ses nems ultra-croustillants et son porc laqué brillant. C'est l'essence même de la 'gastronomie de trottoir' : rapide, efficace, et d'une régularité métronomique dans la qualité. Une expérience brute et authentique de la vie de quartier.",
+  description: "Hawaï est la cantine de référence de l’Avenue d’Ivry, un pilier du quartier chinois qui ne désemplit jamais. Si la salle est modeste, sa vitrine traiteur est une légende urbaine dans le 13e : on y vient de tout Paris pour ses nems ultra-croustillants et son porc laqué brillant. C’est l’essence même de la ’gastronomie de trottoir’ : rapide, efficace, et d’une régularité métronomique dans la qualité. Une expérience brute et authentique de la vie de quartier.",
   insider_tip: `• **Le Graal du Nem** : Leurs nems sont considérés par les locaux comme faisant partie du top 3 du quartier. Prenez-en une portion en plus, ils se réchauffent parfaitement.
   • **Le Combo Traiteur** : Ne vous limitez pas à la carte assis ; regardez ce qui vient de sortir de la rôtisserie en vitrine, c'est là que se cachent les meilleures pièces de canard.
-  • **Efficacité Maximale** : Le service est l'un des plus rapides de l'arrondissement. Idéal pour un déjeuner 'flash' avant de faire ses courses chez Tang Frères juste à côté.`,
+  • **Efficacité Maximale** : Le service est l’un des plus rapides de l’arrondissement. Idéal pour un déjeuner ’flash' avant de faire ses courses chez Tang Frères juste à côté.`,
   specials: {
     cuisine: ["Vietnamienne", "Chinoise", "Traiteur Asian"],
     drinks: ["Bière Tsingtao", "Jus de Coco", "Thé Vert"],

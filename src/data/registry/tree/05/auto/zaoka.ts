@@ -5,7 +5,7 @@ export const zaoka: SurgicalPlace = {
   slug: "zaoka",
   name: "Zaoka",
   category: "restaurant",
-  subcategory: ["taïwanais", "street-food", "asian"],
+  subcategory: ['français'],
   location: {
     address: "3 Rue des Patriarches, 75005 Paris, France",
     arrondissement: 5,
@@ -75,7 +75,7 @@ export const zaoka: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Douceurs",
         items: [
-          { name: "Bao Sucré au Taro", price_cents: 600, description: "Pâte fondante à l'igname" },
+          { name: "Bao Sucré au Taro", price_cents: 600, description: "Pâte fondante à l’igname" },
           { name: "Mochi Artisanal (x2)", price_cents: 500, description: "Sésame noir ou cacahuète", is_highlight: true },
           { name: "Panna Cotta au Jasmin", price_cents: 700 },
           { name: "Glace au Lait et Perles de Tapioca", price_cents: 800 }
@@ -90,16 +90,16 @@ export const zaoka: SurgicalPlace = {
           { name: "Thé Oolong Froid", price_cents: 500 },
           { name: "Bière Taïwan Beer", price_cents: 600, description: "La classique de Taipei" },
           { name: "Bière Asahi", price_cents: 550 },
-          { name: "Jus d'Aloe Vera", price_cents: 400 },
+          { name: "Jus d’Aloe Vera", price_cents: 400 },
           { name: "Limonade Yuzu", price_cents: 500 },
           { name: "Expresso", price_cents: 250 }
         ]
       }
     ]
   },
-  description: `À deux pas de la rue Mouffetard, Zaoka vous embarque pour un aller sans retour vers les night markets de Taipei. Dans un cadre intimiste aux accents boisés, cette cantine taïwanaise maîtrise l'art de la fusion street-food avec une authenticité redoutable. Les baos vapeur sont d'un moelleux incomparable, renfermant des garnitures généreuses où la poitrine de porc mijotée vole souvent la vedette.`,
+  description: `À deux pas de la rue Mouffetard, Zaoka vous embarque pour un aller sans retour vers les night markets de Taipei. Dans un cadre intimiste aux accents boisés, cette cantine taïwanaise maîtrise l’art de la fusion street-food avec une authenticité redoutable. Les baos vapeur sont d’un moelleux incomparable, renfermant des garnitures généreuses où la poitrine de porc mijotée vole souvent la vedette.`,
   expert_catchline: `Cuisine taïwanaise. Gua Bao de compétition & Lu Rou Fan ultra-réconfortant.`,
-  insider_tip: `• **Le Décor** : L'ambiance est cosy et s'y prête parfaitement pour un dîner intimiste ou un déjeuner sur le pouce.
+  insider_tip: `• **Le Décor** : L’ambiance est cosy et s'y prête parfaitement pour un dîner intimiste ou un déjeuner sur le pouce.
   • **Le Must-Eat** : Le Gua Bao au porc mijoté avec ses éclats de cacahuètes, un monument de réconfort.
   • **Le Secret** : Combinez votre bao avec le poulet popcorn taïwanais pour une véritable expérience de night market.`,
   specials: {

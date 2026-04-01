@@ -5,7 +5,7 @@ export const fulgurances: SurgicalPlace = {
     name: "Fulgurances, l’Adresse",
     slug: "fulgurances",
     category: "restaurant",
-    subcategory: ["bistronomique", "chef éphémère", "créatif", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "10 Rue Alexandre Dumas",
         arrondissement: 11,
@@ -47,12 +47,12 @@ export const fulgurances: SurgicalPlace = {
             // ═══════════════════════════════════════════
             {
                 category_type: "tasting_menu",
-                display_label: "L'Univers du Chef en Résidence (Formules)",
+                display_label: "L’Univers du Chef en Résidence (Formules)",
                 items: [
-                    { name: "Menu Déjeuner (entrée + plat)", price_cents: 2200, description: "L'expression du midi, courte et percutante." },
+                    { name: "Menu Déjeuner (entrée + plat)", price_cents: 2200, description: "L’expression du midi, courte et percutante." },
                     { name: "Menu Déjeuner complet (E+P+D)", price_cents: 2500 },
                     { name: "Menu Dîner (3 temps)", price_cents: 4400, description: "La balade initiatique du soir." },
-                    { name: "Menu Dîner Dégustation (5-6 temps)", price_cents: 7500, description: "Immersion totale dans l'univers du résident (selon chef)." },
+                    { name: "Menu Dîner Dégustation (5-6 temps)", price_cents: 7500, description: "Immersion totale dans l’univers du résident (selon chef)." },
                     { name: "Accord Mets & Vins", price_cents: 4500 }
                 ]
             },
@@ -106,13 +106,13 @@ export const fulgurances: SurgicalPlace = {
     instagram_handle: "fulgurances",
     verified: true,
     google_rating: 4.7,
-    description: "Fulgurances est un concept unique à Paris : un restaurant-tremplin où des chefs émergents font des résidences de plusieurs mois, apportant chacun leur propre univers culinaire. Le résultat est une cuisine toujours créative, toujours différente, dans un cadre sobre et épuré. C'est l'anti-routine — chaque visite est une découverte.",
-    insider_tip: "• Le concept est unique en France : un nouveau chef tous les quelques mois. Chaque visite est différente.\n• Le menu midi à 22€ (E+P) est le deal absolu — de la cuisine créative de jeune chef pour le prix d'un bistrot.\n• Le menu dîner à 44€ (3 temps) ou 58€ (4 temps) offre l'expérience complète.\n• Consultez le site pour savoir quel chef est en résidence actuellement.\n• Les vins natures sont bien sélectionnés et changent aussi avec les chefs.",
+    description: "Fulgurances est un concept unique à Paris : un restaurant-tremplin où des chefs émergents font des résidences de plusieurs mois, apportant chacun leur propre univers culinaire. Le résultat est une cuisine toujours créative, toujours différente, dans un cadre sobre et épuré. C’est l'anti-routine — chaque visite est une découverte.",
+    insider_tip: "• Le concept est unique en France : un nouveau chef tous les quelques mois. Chaque visite est différente.\n• Le menu midi à 22€ (E+P) est le deal absolu — de la cuisine créative de jeune chef pour le prix d’un bistrot.\n• Le menu dîner à 44€ (3 temps) ou 58€ (4 temps) offre l'expérience complète.\n• Consultez le site pour savoir quel chef est en résidence actuellement.\n• Les vins natures sont bien sélectionnés et changent aussi avec les chefs.",
     expert_catchline: "Le restaurant-tremplin du 11ème : chefs émergents en résidence, menu midi à 22€.",
     specials: {
         cuisine: ["Carte qui change avec chaque chef", "Cuisine créative et saisonnière", "Options végétariennes fréquentes"],
         drinks: ["Vins natures", "Sélection adaptée au chef en résidence"],
-        must_eat: "Impossible de recommander un plat fixe — la carte change avec chaque chef. Le menu midi à 22€ est toujours le meilleur deal. Le soir, le menu complet à 58€ est l'expérience la plus aboutie.",
+        must_eat: "Impossible de recommander un plat fixe — la carte change avec chaque chef. Le menu midi à 22€ est toujours le meilleur deal. Le soir, le menu complet à 58€ est l’expérience la plus aboutie.",
         must_drink: "Les vins natures changent aussi — faites confiance au service pour les accords."
     }
 };

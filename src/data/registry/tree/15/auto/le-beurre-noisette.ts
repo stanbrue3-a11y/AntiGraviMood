@@ -5,7 +5,7 @@ export const le_beurre_noisette: SurgicalPlace = {
   slug: "le-beurre-noisette",
   name: "Le Beurre Noisette",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "traditionnel", "terroir"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "68 Rue Vasco de Gama, 75015 Paris, France",
     arrondissement: 15,
@@ -62,7 +62,7 @@ export const le_beurre_noisette: SurgicalPlace = {
           { name: "Brandade de Haddock au Chou Vert", price_cents: 2400 },
           { name: "Noix de Ris de Veau rissolées au sauteur", price_cents: 3500, is_highlight: true },
           { name: "Gnocchi au Vert, Ail des Ours & Parmesan", price_cents: 2500 },
-          { name: "Épaule d'Agneau de 7 heures (Confite)", price_cents: 2900, is_highlight: true },
+          { name: "Épaule d’Agneau de 7 heures (Confite)", price_cents: 2900, is_highlight: true },
           { name: "Filet de Bœuf au Poivre Noir & Cognac", price_cents: 3200 },
           { name: "Risotto de Petit Épeautre aux Légumes", price_cents: 2250 }
         ]
@@ -71,7 +71,7 @@ export const le_beurre_noisette: SurgicalPlace = {
         category_type: "main",
         display_label: "Accords Moelleux (Plats)",
         items: [
-          { name: "Purée de Pommes de Terre à l'Huile de Noisette", price_cents: 700, is_highlight: true },
+          { name: "Purée de Pommes de Terre à l’Huile de Noisette", price_cents: 700, is_highlight: true },
           { name: "Légumes du Moment rôtis au Four", price_cents: 750 },
           { name: "Gratin Dauphinois Traditionnel", price_cents: 800, is_highlight: true },
           { name: "Salade de Jeunes Pousses & Vinaigrette", price_cents: 600 },
@@ -87,7 +87,7 @@ export const le_beurre_noisette: SurgicalPlace = {
           { name: "Sablé Breton, Fraises & Rhubarbe", price_cents: 1250 },
           { name: "Cappuccino Chocolat Caraïbes (70%)", price_cents: 1200, is_highlight: true },
           { name: "Roulé Meringué au Citron Jaune", price_cents: 1150 },
-          { name: "Nage d'Ananas frais aux Épices", price_cents: 1000 },
+          { name: "Nage d’Ananas frais aux Épices", price_cents: 1000 },
           { name: "Plateau de Fromages affinés (Sélection)", price_cents: 1450 }
         ]
       },
@@ -96,7 +96,7 @@ export const le_beurre_noisette: SurgicalPlace = {
         display_label: "La Cave de Thierry (Boissons)",
         items: [
           { name: "Verre de Chardonnay Sélection Pierre", price_cents: 850, is_highlight: true },
-          { name: "Verre de Pic-Saint-Loup 'L'Ermitage'", price_cents: 950 },
+          { name: "Verre de Pic-Saint-Loup ’L’Ermitage’", price_cents: 950 },
           { name: "Bouteille de Sancerre (Domaine Vacheron)", price_cents: 5200 },
           { name: "Bière Artisanale du 15ème (33cl)", price_cents: 750 },
           { name: "Jus de fruits Alain Milliat (25cl)", price_cents: 700 },
@@ -106,11 +106,11 @@ export const le_beurre_noisette: SurgicalPlace = {
       }
     ]
   },
-  description: `Le Beurre Noisette est l'archétype du grand bistrot parisien où la technique gastronomique se met au service de la convivialité. Le chef Thierry Blanqui, passé par les plus grandes cuisines (Ledoyen, Tour d'Argent), propose une cuisine de marché créative et généreuse. L'endroit est chaleureux, boisé, et respire la passion du terroir. C'est l'adresse de référence dans le 15ème pour un repas d'une qualité exceptionnelle à prix de bistrot.`,
+  description: `Le Beurre Noisette est l’archétype du grand bistrot parisien où la technique gastronomique se met au service de la convivialité. Le chef Thierry Blanqui, passé par les plus grandes cuisines (Ledoyen, Tour d’Argent), propose une cuisine de marché créative et généreuse. L’endroit est chaleureux, boisé, et respire la passion du terroir. C’est l’adresse de référence dans le 15ème pour un repas d’une qualité exceptionnelle à prix de bistrot.`,
   expert_catchline: `Bistronomie française. Le célébrissime Riz au Lait & Pâté en Croûte.`,
-  insider_tip: `• **Le Coup de Cœur** : Le Riz au Lait est légendaire. Servi avec un caramel au beurre salé addictif, c'est l'un des meilleurs de Paris.
+  insider_tip: `• **Le Coup de Cœur** : Le Riz au Lait est légendaire. Servi avec un caramel au beurre salé addictif, c’est l'un des meilleurs de Paris.
 • **Top Rapport Qualité/Prix** : Le menu dégustation en 6 services (68€) est une démonstration de force culinaire à réserver pour les grandes occasions.
-• **La Petite Touche** : Ne manquez pas l'option purée à l'huile de noisette, un clin d'œil au nom du restaurant et un pur délice.`,
+• **La Petite Touche** : Ne manquez pas l’option purée à l’huile de noisette, un clin d’œil au nom du restaurant et un pur délice.`,
   specials: {
     cuisine: ["Bistronomie de haut vol", "Riz au Lait culte", "Produits de saison"],
     drinks: ["Vins de vignerons indépendants", "Bières locales", "Spiritueux artisanaux"],

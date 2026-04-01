@@ -5,7 +5,7 @@ export const oxte: SurgicalPlace = {
   slug: "oxte",
   name: "Oxte",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Mexicain moderne"],
+  subcategory: ['français'],
   location: {
     address: "5 Rue Troyon, 75017 Paris, France",
     arrondissement: 17,
@@ -56,7 +56,7 @@ export const oxte: SurgicalPlace = {
         items: [
           { name: "Tostadita de crabe, avocat et lime", price_cents: 2200 },
           { name: "Gordita de canard confit, salsa verde", price_cents: 1800 },
-          { name: "Bouillon de maïs parfumé à l'épazote", price_cents: 1500 },
+          { name: "Bouillon de maïs parfumé à l’épazote", price_cents: 1500 },
           { name: "Aguachile de crevettes, concombre et coriandre", price_cents: 2400 }
         ]
       },
@@ -76,16 +76,16 @@ export const oxte: SurgicalPlace = {
           { name: "Marguerita signature (Tequila reposado)", price_cents: 1600 },
           { name: "Mezcal dégustation (Le verre)", price_cents: 1400 },
           { name: "Verre de vin blanc (Sauvignon)", price_cents: 1200 },
-          { name: "Café mexicain d'altitude", price_cents: 500 }
+          { name: "Café mexicain d’altitude", price_cents: 500 }
         ]
       }
     ]
   },
-  description: `Oxte est le terrain d'expression étoilé du chef Enrique Casarrubias, qui marie avec brio la haute gastronomie française et les saveurs vibrantes de son Mexique natal. Dans un cadre intimiste à quelques pas de l'Arc de Triomphe, chaque plat raconte une histoire de métissage, où le mole traditionnel rencontre le turbot de ligne. Une cuisine colorée, épicée avec une finesse rare, et profondément authentique.`,
+  description: `Oxte est le terrain d’expression étoilé du chef Enrique Casarrubias, qui marie avec brio la haute gastronomie française et les saveurs vibrantes de son Mexique natal. Dans un cadre intimiste à quelques pas de l’Arc de Triomphe, chaque plat raconte une histoire de métissage, où le mole traditionnel rencontre le turbot de ligne. Une cuisine colorée, épicée avec une finesse rare, et profondément authentique.`,
   insider_tip: `• **Timing Stratégique** : Le menu déjeuner en 3 étapes à 69€ est une opportunité exceptionnelle de goûter à l'étoile Michelin dans un cadre plus détendu.
   • **Combo Moelle** : Le pigeon au mole Oxte est la pièce maîtresse du chef, une démonstration de force sur la profondeur des sauces mexicaines.
-  • **Expérience Culturelle** : Laissez-vous tenter par le dessert à l'avocat et mezcal, un audacieux mélange de textures et de fraîcheur qui surprendra vos certitudes.`,
-  expert_catchline: "L'éclat des saveurs mexicaines magnifié par la rigueur de la gastronomie française.",
+  • **Expérience Culturelle** : Laissez-vous tenter par le dessert à l’avocat et mezcal, un audacieux mélange de textures et de fraîcheur qui surprendra vos certitudes.`,
+  expert_catchline: "L’éclat des saveurs mexicaines magnifié par la rigueur de la gastronomie française.",
   specials: {
     cuisine: ["Mexicain gastronomique"],
     drinks: ["Tequilas premium", "Mezcals", "Vins"],

@@ -5,7 +5,7 @@ export const zhao_louvre: SurgicalPlace = {
   slug: "la-taverne-de-zhao-louvre",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "chic"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "22 rue Molière, 75001 Paris, France",
     arrondissement: 1,
@@ -42,9 +42,9 @@ export const zhao_louvre: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_louvre: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_louvre: SurgicalPlace = {
       }
     ]
   },
-  description: "À quelques pas du Louvre, cette taverne est sans doute la plus raffinée du groupe. Avec son décor qui mêle pierres apparentes et design contemporain, elle offre une parenthèse de sérénité au cœur du 1er arrondissement. On y déguste les spécialités de Xi'an avec une élégance rare.",
-  insider_tip: "• C'est l'adresse idéale si vous cherchez un déjeuner chic et authentique après une visite au Musée.\n• La salle est feutrée et bien insonorisée, ce qui en fait un spot parfait pour un rendez-vous calme.\n• Ne repartez pas sans avoir goûté le thé au jasmin, servi ici avec une attention particulière.",
+  description: "À quelques pas du Louvre, cette taverne est sans doute la plus raffinée du groupe. Avec son décor qui mêle pierres apparentes et design contemporain, elle offre une parenthèse de sérénité au cœur du 1er arrondissement. On y déguste les spécialités de Xi’an avec une élégance rare.",
+  insider_tip: "• C’est l'adresse idéale si vous cherchez un déjeuner chic et authentique après une visite au Musée.\n• La salle est feutrée et bien insonorisée, ce qui en fait un spot parfait pour un rendez-vous calme.\n• Ne repartez pas sans avoir goûté le thé au jasmin, servi ici avec une attention particulière.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
   images: {

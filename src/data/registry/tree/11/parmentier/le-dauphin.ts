@@ -5,7 +5,7 @@ export const leDauphin: SurgicalPlace = {
     name: "Le Dauphin",
     slug: "le-dauphin",
     category: "restaurant",
-    subcategory: ["tapas", "wine-bar", "french-sharing", "design-icon"],
+    subcategory: ['français'],
     location: {
         address: "131 Avenue Parmentier",
         arrondissement: 11,
@@ -61,9 +61,9 @@ export const leDauphin: SurgicalPlace = {
                 category_type: "dessert",
                 display_label: "Douceurs",
                 items: [
-                    { name: "Ganache chocolat & huile d'olive", price_cents: 900 },
+                    { name: "Ganache chocolat & huile d’olive", price_cents: 900 },
                     { name: "Panna cotta aux agrumes", price_cents: 850 },
-                    { name: "Glace maison au lait d'amande", price_cents: 700 }
+                    { name: "Glace maison au lait d’amande", price_cents: 700 }
                 ]
             }
         ]
@@ -74,8 +74,8 @@ export const leDauphin: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Dauphin est le petit frère surdoué du Chateaubriand. Dans un décor spectaculaire tout de marbre vêtu, conçu par l'architecte Rem Koolhaas, on y déguste le concept de 'Tapassiettes'. Ici, la haute cuisine se décline en petites portions à partager, avec une sélection de produits d'une qualité folle. C'est à la fois un bar à vin exigeant et une table de design où le chic parisien rencontre l'excellence culinaire.",
-    insider_tip: "Même s'il y a des tables, manger au grand bar central en marbre est l'expérience ultime ici. Laissez le sommelier choisir vos vins natures, leur cave est l'une des plus pointues de Paris.",
+    description: "Le Dauphin est le petit frère surdoué du Chateaubriand. Dans un décor spectaculaire tout de marbre vêtu, conçu par l’architecte Rem Koolhaas, on y déguste le concept de ’Tapassiettes’. Ici, la haute cuisine se décline en petites portions à partager, avec une sélection de produits d’une qualité folle. C’est à la fois un bar à vin exigeant et une table de design où le chic parisien rencontre l'excellence culinaire.",
+    insider_tip: "Même s’il y a des tables, manger au grand bar central en marbre est l’expérience ultime ici. Laissez le sommelier choisir vos vins natures, leur cave est l’une des plus pointues de Paris.",
     expert_catchline: "Le design rencontre la haute gastronomie en format partage.",
     specials: {
         cuisine: ["Modern French Tapas", "Wine Bar", "High Design"],

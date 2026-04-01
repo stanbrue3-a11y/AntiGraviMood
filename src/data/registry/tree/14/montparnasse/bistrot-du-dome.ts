@@ -5,7 +5,7 @@ export const bistrotDuDome: SurgicalPlace = {
     name: "Le Bistrot du Dôme",
     slug: "le-bistrot-du-dome-paris-14",
     category: "restaurant",
-    subcategory: ["seafood", "poissons", "élégant", "institution", "gastronomique"],
+    subcategory: ['français'],
     location: {
         address: "1 Rue Delambre, 75014 Paris, France",
         arrondissement: 14,
@@ -40,14 +40,14 @@ export const bistrotDuDome: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "L'Art des Poissons",
+                display_label: "L’Art des Poissons",
                 items: [
                     { name: "Sole Meunière Façon Dôme (selon poids)", price_cents: 4800 },
                     { name: "Pavé de Turbot à la Plancha, Purée de Céleri", price_cents: 3800 },
-                    { name: "Bouillabaisse 'Petit Bateau' Individuelle", price_cents: 4200 },
+                    { name: "Bouillabaisse ’Petit Bateau' Individuelle", price_cents: 4200 },
                     { name: "Filet de Bar Bio au Sel de Guérande", price_cents: 3200 },
                     { name: "Noix de Saint-Jacques Snackées, Risotto", price_cents: 3500 },
-                    { name: "Brandade de Morue Fraîche à l'Huile d'Olive", price_cents: 2800 },
+                    { name: "Brandade de Morue Fraîche à l’Huile d'Olive", price_cents: 2800 },
                     { name: "Thon Rouge en Tataki aux Sésames", price_cents: 3000 }
                 ]
             },
@@ -58,7 +58,7 @@ export const bistrotDuDome: SurgicalPlace = {
                     { name: "Soupe de Poissons de Roche et sa Rouille", price_cents: 1800 },
                     { name: "Huîtres Fines de Claire n°3 (les 6)", price_cents: 1950 },
                     { name: "Calamars à la Romaine, Sauce Tartare", price_cents: 1600 },
-                    { name: "Saumon Fumé d'Écosse 'Maison'", price_cents: 2200 },
+                    { name: "Saumon Fumé d’Écosse ’Maison’", price_cents: 2200 },
                     { name: "Carpaccio de Saint-Jacques au Citron Vert", price_cents: 2400 }
                 ]
             },
@@ -82,14 +82,14 @@ export const bistrotDuDome: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Bistrot du Dôme est le digne héritier du mythique restaurant Le Dôme, voisin et frère d'armes. Moins guindé mais tout aussi exigeant sur la qualité maritime, il offre un cadre élégant à la décoration nautique raffinée. La spécialité ici est sans conteste le poisson : arrivages quotidiens directs, cuissons millimétrées et saveurs iodées préservées. C'est l'endroit parfait pour déguster des huîtres d'exception ou une sole meunière légendaire dans une atmosphère de brasserie parisienne chic et feutrée.",
-    insider_tip: "La bouillabaisse est l'une des meilleures de la capitale, servie dans les règles de l'art. Pour le dessert, le millefeuille est une institution qu'il faut absolument avoir goûté une fois dans sa vie.",
-    expert_catchline: "L'élégance maritime et l'excellence du poisson à Montparnasse.",
+    description: "Le Bistrot du Dôme est le digne héritier du mythique restaurant Le Dôme, voisin et frère d’armes. Moins guindé mais tout aussi exigeant sur la qualité maritime, il offre un cadre élégant à la décoration nautique raffinée. La spécialité ici est sans conteste le poisson : arrivages quotidiens directs, cuissons millimétrées et saveurs iodées préservées. C’est l’endroit parfait pour déguster des huîtres d'exception ou une sole meunière légendaire dans une atmosphère de brasserie parisienne chic et feutrée.",
+    insider_tip: "La bouillabaisse est l’une des meilleures de la capitale, servie dans les règles de l’art. Pour le dessert, le millefeuille est une institution qu’il faut absolument avoir goûté une fois dans sa vie.",
+    expert_catchline: "L’élégance maritime et l'excellence du poisson à Montparnasse.",
     specials: {
         cuisine: ["Seafood de Luxe", "Gastronomie Marine"],
         drinks: ["Muscadet de Sèvre et Maine", "Chablis de Collection"],
         must_eat: "La Sole Meunière et la Soupe de Poissons.",
-        must_drink: "Un vin blanc minéral pour accompagner l'iode."
+        must_drink: "Un vin blanc minéral pour accompagner l’iode."
     },
     source: "expert_human"
 };

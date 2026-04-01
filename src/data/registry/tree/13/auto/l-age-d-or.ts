@@ -5,7 +5,7 @@ export const l_age_d_or: SurgicalPlace = {
   slug: "l-age-d-or",
   name: "L’Âge d’Or",
   category: "restaurant",
-  subcategory: ["bistrot", "culturel", "bio", "fait-maison"],
+  subcategory: ['français'],
   location: {
     address: "26 Rue du Dr Magnan, 75013 Paris, France",
     arrondissement: 13,
@@ -44,7 +44,7 @@ export const l_age_d_or: SurgicalPlace = {
         category_type: "main",
         display_label: "Cuisine de Saison (Plats)",
         items: [
-          { name: "Burger de L'Âge d'Or (Bœuf ou Végé)", price_cents: 1650, is_highlight: true },
+          { name: "Burger de L’Âge d'Or (Bœuf ou Végé)", price_cents: 1650, is_highlight: true },
           { name: "Kare Raisu (Curry Japonais Bio)", price_cents: 1500, is_highlight: true },
           { name: "Mafé Sénégalais au Poulet Fermier", price_cents: 1550 },
           { name: "Tartare au couteau Yukwe (Kréen)", price_cents: 1700 },
@@ -61,7 +61,7 @@ export const l_age_d_or: SurgicalPlace = {
           { name: "Œufs Cocotte au Chorizo Bio", price_cents: 950 },
           { name: "Salade de Chèvre Chaud du Perche", price_cents: 1450 },
           { name: "Velouté de Potiron & Graines toastées", price_cents: 800 },
-          { name: "Salade César façon L'Âge d'Or", price_cents: 1500 }
+          { name: "Salade César façon L’Âge d'Or", price_cents: 1500 }
         ]
       },
       {
@@ -69,7 +69,7 @@ export const l_age_d_or: SurgicalPlace = {
         display_label: "Tapas & Partage (Plats - Soir)",
         items: [
           { name: "Samosas Maison Boeuf (x5)", price_cents: 950, is_highlight: true },
-          { name: "Planche Ibérico'Perche (Mixte)", price_cents: 2200, is_highlight: true },
+          { name: "Planche Ibérico’Perche (Mixte)", price_cents: 2200, is_highlight: true },
           { name: "Planche de Fromages Bio Affinés", price_cents: 1650 },
           { name: "Houmous Maison & Pain Grillé", price_cents: 750 },
           { name: "Croquettes de Mozzarella Panko", price_cents: 850 },
@@ -92,8 +92,8 @@ export const l_age_d_or: SurgicalPlace = {
         category_type: "drink",
         display_label: "Boissons & Cocktails",
         items: [
-          { name: "Cocktail 'La Nuit Sera Calme'", price_cents: 1150, is_highlight: true },
-          { name: "Cocktail 'Paris au mois d'août'", price_cents: 1150 },
+          { name: "Cocktail ’La Nuit Sera Calme'", price_cents: 1150, is_highlight: true },
+          { name: "Cocktail ’Paris au mois d’août’", price_cents: 1150 },
           { name: "Pinte Deck & Donohue (Locale)", price_cents: 850 },
           { name: "Verre de Vin Nature (Sélection)", price_cents: 700 },
           { name: "Jus de Pomme Bio du Perche", price_cents: 500 },
@@ -104,12 +104,12 @@ export const l_age_d_or: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Âge d'Or n'est pas qu'un restaurant, c'est un carrefour culturel vibrant du 13e arrondissement. Alliant une cuisine locavore et bio (produits du Perche, viandes raisonnées) à une programmation artistique exigeante, le lieu respire la liberté et la créativité. On y vient pour un curry japonais le midi ou pour partager des planches de charcuteries pyrénéennes lors d'un concert le soir.",
-  insider_tip: "• **Vibe Culturelle** : Consultez leur programmation avant de venir, les soirées concerts transforment totalement l'atmosphère.\n• **Cuisine Fusion** : Ne soyez pas surpris par le mélange Mafé / Curry / Burger, chaque plat est une spécialité maîtrisée par l'équipe.\n• **Terrasse Calme** : La terrasse sur la rue Magnan est l'une des plus agréables et paisibles du quartier pour un verre en fin de journée.",
+  description: "L’Âge d’Or n’est pas qu’un restaurant, c’est un carrefour culturel vibrant du 13e arrondissement. Alliant une cuisine locavore et bio (produits du Perche, viandes raisonnées) à une programmation artistique exigeante, le lieu respire la liberté et la créativité. On y vient pour un curry japonais le midi ou pour partager des planches de charcuteries pyrénéennes lors d'un concert le soir.",
+  insider_tip: "• **Vibe Culturelle** : Consultez leur programmation avant de venir, les soirées concerts transforment totalement l’atmosphère.\n• **Cuisine Fusion** : Ne soyez pas surpris par le mélange Mafé / Curry / Burger, chaque plat est une spécialité maîtrisée par l’équipe.\n• **Terrasse Calme** : La terrasse sur la rue Magnan est l’une des plus agréables et paisibles du quartier pour un verre en fin de journée.",
   specials: {
     cuisine: ["Français", "Autre"],
     drinks: ["Cocktail", "Bière", "Vin"],
-    must_eat: "Cuisine Bistrot. Burger de L'Âge d'Or & Kare Raisu",
+    must_eat: "Cuisine Bistrot. Burger de L’Âge d'Or & Kare Raisu",
   },
   images: {
     hero: "AU_ZVEHKims1OMVmscHUST4R3rEhrHAML0a2PoyfUPwbic2f-U0HgCyOdQm7gB0F9sJLTCN-0mzNW1inFOUn6QDvtKicKBs8Sazgta7iQP0VvUNlIPT9BirurGW0GQPraw8-U8VwlsPtCPUrutr9am2A7svW4rPMCfqJZswmhi5IMb46RHeNCC8aKRIrbRbpYLy1oHDiIg5ba8mK2fQfW2wV76GfTtgNTfbT1Qm86cIeC5B6hkCncMSwtJAvDoBNPOH3pRocDNWcV2c8Cowz6g3F7J3PLPOW9Shg9yooEB2sE0aBYQ",

@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const cite_des_sciences: SurgicalPlace = {
     "id": "poi-031",
-    "name": "Cité des Sciences et de l'Industrie",
+    "name": "Cité des Sciences et de l’Industrie",
     "slug": "cite-des-sciences",
     "category": "museum",
     "subcategory": [
@@ -41,8 +41,8 @@ export const cite_des_sciences: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Un vaisseau spatial posé dans le parc de la Villette. C'est le plus grand musée scientifique d'Europe, mais c'est surtout un terrain de jeu génial. On y vient pour la Cité des Enfants (le meilleur endroit de Paris pour les petits), pour le Planétarium ultra-moderne, ou pour visiter le sous-marin Argonaute garé dehors. L'architecture industrielle et massive des années 80 est devenue culte. C'est un lieu où l'on apprend en touchant, en jouant et en expérimentant.",
-    "insider_tip": "Réserve la Cité des Enfants des semaines à l'avance.",
+    "description": "Un vaisseau spatial posé dans le parc de la Villette. C’est le plus grand musée scientifique d’Europe, mais c’est surtout un terrain de jeu génial. On y vient pour la Cité des Enfants (le meilleur endroit de Paris pour les petits), pour le Planétarium ultra-moderne, ou pour visiter le sous-marin Argonaute garé dehors. L’architecture industrielle et massive des années 80 est devenue culte. C’est un lieu où l'on apprend en touchant, en jouant et en expérimentant.",
+    "insider_tip": "Réserve la Cité des Enfants des semaines à l’avance.",
     "specials": {
         "cuisine": [],
         "drinks": []

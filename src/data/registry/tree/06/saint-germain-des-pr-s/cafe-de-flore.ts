@@ -40,7 +40,7 @@ export const cafe_de_flore: SurgicalPlace = {
         "festif": 4,
         "culturel": 8
     },
-    "description": "Le mythe parisien par excellence. S'asseoir à une table du Flore, c'est prendre place dans le fantôme de Sartre, Simone de Beauvoir ou Picasso. Le décor Art Déco, avec ses banquettes rouges et ses miroirs, n'a pas bougé. Oui, c'est touristique, oui, le chocolat chaud est cher, mais il est servi dans des pichets en argent par des garçons de café qui sont des personnages de roman. On y vient autant pour voir que pour être vu, pour lire le journal en terrasse ou simplement pour toucher du doigt l'histoire littéraire de Saint-Germain-des-Prés.",
+    "description": "Le mythe parisien par excellence. S’asseoir à une table du Flore, c’est prendre place dans le fantôme de Sartre, Simone de Beauvoir ou Picasso. Le décor Art Déco, avec ses banquettes rouges et ses miroirs, n’a pas bougé. Oui, c’est touristique, oui, le chocolat chaud est cher, mais il est servi dans des pichets en argent par des garçons de café qui sont des personnages de roman. On y vient autant pour voir que pour être vu, pour lire le journal en terrasse ou simplement pour toucher du doigt l’histoire littéraire de Saint-Germain-des-Prés.",
     "insider_tip": "Commandez le chocolat chaud, il est assez copieux pour deux.",
     "specials": {
         "cuisine": [
@@ -51,8 +51,8 @@ export const cafe_de_flore: SurgicalPlace = {
             "Café",
             "Vin"
         ],
-        "must_eat": "Le Chocolat Chaud 'Spécial Flore' et sa célèbre Omelette aux Fines Herbes.",
-        "expert_catchline": "L'iconique carte du Flore, entre classiques de brasserie et douceurs intemporelles."
+        "must_eat": "Le Chocolat Chaud ’Spécial Flore' et sa célèbre Omelette aux Fines Herbes.",
+        "expert_catchline": "L’iconique carte du Flore, entre classiques de brasserie et douceurs intemporelles."
     },
     "images": {
         "hero": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Caf%C3%A9_de_Flore.jpg",

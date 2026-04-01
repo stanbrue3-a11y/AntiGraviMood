@@ -5,7 +5,7 @@ export const jamrock: SurgicalPlace = {
     name: "Jamrock",
     slug: "jamrock",
     category: "restaurant",
-    subcategory: ["jamaican", "street food", "épicé", "caribéen"],
+    subcategory: ['français'],
     location: {
         address: "16 Rue de Candie",
         arrondissement: 11,
@@ -47,10 +47,10 @@ export const jamrock: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Jamrock Pica-Pica (Starters)",
                 items: [
-                    { name: "Jamrock Patties (Beef & Cheese) x2", price_cents: 700, description: "L'icône street food jamaïcaine, pâte épicée au curcuma." },
+                    { name: "Jamrock Patties (Beef & Cheese) x2", price_cents: 700, description: "L’icône street food jamaïcaine, pâte épicée au curcuma." },
                     { name: "Jamrock Patties (Veggie) x2", price_cents: 700, description: "Légumes curry, pâte fondante." },
                     { name: "Chicken Wings Tamarind & Ginger (x4)", price_cents: 500, description: "Ailes marinées puis laquées au tamarin, équilibre sucré-acide." },
-                    { name: "Fish Fritters (Stamp & Go) x4", price_cents: 500, description: "Beignets de morue pimentés, typiques des petits-déjeuners de l'île." },
+                    { name: "Fish Fritters (Stamp & Go) x4", price_cents: 500, description: "Beignets de morue pimentés, typiques des petits-déjeuners de l’île." },
                     { name: "Grilled Corn on the Cob", price_cents: 600, description: "Maïs grillé, coco râpée, mayo jerk maison." },
                     { name: "Shrimp Mango Salsa", price_cents: 900 },
                     { name: "Fried Plantains (Aloko style)", price_cents: 500, description: "Bananes pesées, servies avec une salsa mangue épicée." },
@@ -63,7 +63,7 @@ export const jamrock: SurgicalPlace = {
                 display_label: "Modern Jamaican Mains (Les Plats)",
                 items: [
                     { name: "Jerk Chicken Signature (Combo)", price_cents: 1700, description: "Mariné 24h, grillé au barbecue, servi avec riz & pois, achar et sauce pimentée." },
-                    { name: "Jerk Veggie (Enoki & Chou-fleur)", price_cents: 1600, description: "L'option végétarienne ultra-umami avec sauce jerk fumée." },
+                    { name: "Jerk Veggie (Enoki & Chou-fleur)", price_cents: 1600, description: "L’option végétarienne ultra-umami avec sauce jerk fumée." },
                     { name: "Escovitch Fish (Whole Bream)", price_cents: 1900, description: "Daurade entière frite, marinade vinaigrée aux oignons et piments." },
                     { name: "Oxtail Style Beef Confit", price_cents: 1800, description: "Paleron de bœuf confit façon queue de bœuf jamaïcaine, jus corsé." },
                     { name: "Ital Curry (Vegan Bowl)", price_cents: 1500, description: "Légumes du moment au lait de coco, curcuma et piment bonnet écossais." },
@@ -99,7 +99,7 @@ export const jamrock: SurgicalPlace = {
                 display_label: "Jamaican Drinks & Vibes",
                 items: [
                     { name: "Homemade Jamaican Limeade", price_cents: 550, description: "La citronnade traditionnelle, désaltérante." },
-                    { name: "Sorrel (Hibiscus & Ginger)", price_cents: 650, description: "Infusion d'hibiscus iconique des Caraïbes." },
+                    { name: "Sorrel (Hibiscus & Ginger)", price_cents: 650, description: "Infusion d’hibiscus iconique des Caraïbes." },
                     { name: "Cocktails Signature au Rhum Jamaïcain", price_cents: 1000 },
                     { name: "Bières Red Stripe (Import)", price_cents: 700 },
                     { name: "Café Blue Mountain (Expresso)", price_cents: 400 }
@@ -113,9 +113,9 @@ export const jamrock: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "L'immersion sensorielle dans l'âme jamaïcaine par Camille Le Breton. Une cuisine vibrante qui balance entre tradition (Jerk Chicken fumé) et street-food modernisée, le tout dans une ambiance reggae-chic.",
-    insider_tip: "Demandez le Sorrel maison pour accompagner votre Jerk Chicken. Le niveau de piment est ajustable, n'ayez pas peur des 'Festivals' (beignets de maïs) pour adoucir le feu.",
-    expert_catchline: "L'essence de la Jamaïque à Bastille, entre fumé et piment.",
+    description: "L’immersion sensorielle dans l'âme jamaïcaine par Camille Le Breton. Une cuisine vibrante qui balance entre tradition (Jerk Chicken fumé) et street-food modernisée, le tout dans une ambiance reggae-chic.",
+    insider_tip: "Demandez le Sorrel maison pour accompagner votre Jerk Chicken. Le niveau de piment est ajustable, n’ayez pas peur des ’Festivals’ (beignets de maïs) pour adoucir le feu.",
+    expert_catchline: "L’essence de la Jamaïque à Bastille, entre fumé et piment.",
     specials: {
         cuisine: ["Jerk Chicken fumé", "Curry de légumes Ital", "Bao Coco Bread"],
         drinks: ["Rhum Jamaïcain", "Sorrel Maison"],

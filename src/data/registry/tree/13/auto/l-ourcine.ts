@@ -5,7 +5,7 @@ export const l_ourcine: SurgicalPlace = {
   slug: "l-ourcine",
   name: "L’Ourcine",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "92 Rue Broca, 75013 Paris, France",
     arrondissement: 13,
@@ -54,9 +54,9 @@ export const l_ourcine: SurgicalPlace = {
       },
       {
         category_type: "starter",
-        display_label: "Entrées : Retour de l'Océan & Terre",
+        display_label: "Entrées : Retour de l’Océan & Terre",
         items: [
-          { name: "Bisque d'homard, crème estragon", price_cents: 1200 },
+          { name: "Bisque d’homard, crème estragon", price_cents: 1200 },
           { name: "Raviole de langoustine au thym", price_cents: 1400 },
           { name: "Carpaccio de St-Jacques agrumes", price_cents: 1500 },
           { name: "Velouté de châtaigne & œuf parfait", price_cents: 900 },
@@ -85,8 +85,8 @@ export const l_ourcine: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Ourcine est une adresse bistronomique d'exception au cœur du 13ème arrondissement. Derrière une façade discrète de la rue Broca se cache une cuisine de marché créative, généreuse et techniquement irréprochable. L'ambiance y est conviviale, typique des grands bistrots parisiens qui privilégient le produit et le goût.",
-  insider_tip: "• **Combo Moelle** : Le menu Carte (E+P+D) à 34€ est l'un des meilleurs rapports qualité-prix de la Rive Gauche.\n• **Détail Authentique** : La joue de bœuf est une spécialité de la maison, braisée pendant des heures pour une texture fondante.\n• **Timing Stratégique** : Réservation indispensable, même en semaine, car la salle est souvent complète dès l'ouverture.",
+  description: "L’Ourcine est une adresse bistronomique d’exception au cœur du 13ème arrondissement. Derrière une façade discrète de la rue Broca se cache une cuisine de marché créative, généreuse et techniquement irréprochable. L’ambiance y est conviviale, typique des grands bistrots parisiens qui privilégient le produit et le goût.",
+  insider_tip: "• **Combo Moelle** : Le menu Carte (E+P+D) à 34€ est l’un des meilleurs rapports qualité-prix de la Rive Gauche.\n• **Détail Authentique** : La joue de bœuf est une spécialité de la maison, braisée pendant des heures pour une texture fondante.\n• **Timing Stratégique** : Réservation indispensable, même en semaine, car la salle est souvent complète dès l'ouverture.",
   specials: {
     cuisine: ["Française", "Bistronomie"],
     drinks: ["Vins de vignerons", "Bières artisanales"],

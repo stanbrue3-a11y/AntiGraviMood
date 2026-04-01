@@ -5,7 +5,7 @@ export const braisenville: SurgicalPlace = {
   slug: "braisenville",
   name: "Braisenville",
   category: "restaurant",
-  subcategory: ["braise", "grillades", "bistronomie", "partage", "moderne"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "36 Rue Condorcet, 75009 Paris, France",
     arrondissement: 9,
@@ -51,8 +51,8 @@ export const braisenville: SurgicalPlace = {
           { name: "Œuf 63°, Topinambour, Chorizo & Estragon", price_cents: 1100 },
           { name: "Foie Gras Grillé, Kaki & Sauce Porto", price_cents: 1800, is_highlight: true },
           { name: "Carpaccio de Langoustine & Sauce Hareng", price_cents: 1400 },
-          { name: "Burrata Fumée à la Braise & Huile d'Herbes", price_cents: 1350, is_highlight: true },
-          { name: "Quenelles de Turbot & Sauce à l'Oseille", price_cents: 1400 }
+          { name: "Burrata Fumée à la Braise & Huile d’Herbes", price_cents: 1350, is_highlight: true },
+          { name: "Quenelles de Turbot & Sauce à l’Oseille", price_cents: 1400 }
         ]
       },
       {
@@ -62,7 +62,7 @@ export const braisenville: SurgicalPlace = {
           { name: "Chipiron, Sabayon Yuzu & Fenouil", price_cents: 1300, is_highlight: true },
           { name: "Poulpe Grillé, Houmous Chaud & Jus de Veau", price_cents: 1500, is_highlight: true },
           { name: "Saint-Jacques, Poireaux Confits & Sarrasin", price_cents: 1500, is_highlight: true },
-          { name: "Bar de Ligne Grillé & Beurre d'Ail des Ours", price_cents: 1600 },
+          { name: "Bar de Ligne Grillé & Beurre d’Ail des Ours", price_cents: 1600 },
           { name: "Tataki de Thon Rouge à la Flamme", price_cents: 1450 },
           { name: "Gambas Sauvages à la Braise & Citron Brûlé", price_cents: 1550 }
         ]
@@ -72,10 +72,10 @@ export const braisenville: SurgicalPlace = {
         display_label: "La Braise Terrestre (Plats)",
         items: [
           { name: "Filet Mignon de Cochon & Chocolat Blanc/Panais", price_cents: 1400, is_highlight: true },
-          { name: "Onglet d'Angus (UK) & Sauce Chimichurri", price_cents: 1300, is_highlight: true },
+          { name: "Onglet d’Angus (UK) & Sauce Chimichurri", price_cents: 1300, is_highlight: true },
           { name: "Côte de Bœuf Angus (1kg) à partager", price_cents: 7600, is_highlight: true },
           { name: "Picanha de Bœuf Grillée au Charbon de Bois", price_cents: 1550 },
-          { name: "Épaule d'Agneau Confite 12h puis Grillée", price_cents: 1650, is_highlight: true },
+          { name: "Épaule d’Agneau Confite 12h puis Grillée", price_cents: 1650, is_highlight: true },
           { name: "Canette des Dombes, Navets & Fruits Rouges", price_cents: 1500 },
           { name: "Ris de Veau Croustillant à la Braise", price_cents: 1900, is_highlight: true }
         ]
@@ -99,7 +99,7 @@ export const braisenville: SurgicalPlace = {
           { name: "Poires Pochées, Lavande & Mousse Chocolat", price_cents: 1200 },
           { name: "Sorbet Citron Vert & Menthe Fraîche", price_cents: 850 },
           { name: "Sablé aux Noix Caramélisées & Fleur de Sel", price_cents: 950 },
-          { name: "Comté 30 mois d'Affinage & Coniture", price_cents: 900 }
+          { name: "Comté 30 mois d’Affinage & Coniture", price_cents: 900 }
         ]
       },
       {
@@ -107,15 +107,15 @@ export const braisenville: SurgicalPlace = {
         display_label: "Nectars & Cuvées (Boissons)",
         items: [
           { name: "Verre de Vin Rouge (Sélection Braise)", price_cents: 950, is_highlight: true },
-          { name: "Cocktail Signature 'Braisenvillois'", price_cents: 1250, is_highlight: true },
+          { name: "Cocktail Signature ’Braisenvillois'", price_cents: 1250, is_highlight: true },
           { name: "Verre de Vin Blanc Minéral", price_cents: 850 },
           { name: "Thé Glacé Maison à la Pêche Rôtie", price_cents: 600 }
         ]
       }
     ]
   },
-  description: "Braisenville est l'adresse incontournable du 9ème pour les amateurs de cuissons authentiques au charbon de bois. Situé rue Condorcet, ce restaurant pionnier du partage propose des 'petites assiettes' gastronomiques où chaque produit est magnifié par le feu. Du poulpe grillé fondant à la côte de bœuf d'exception, la cuisine est à la fois brute et sophistiquée. Le décor industriel chic, avec sa cuisine ouverte, plonge les convives dans une expérience sensorielle vibrante, portée par une belle sélection de vins de vignerons.",
-  insider_tip: "• **Le Poulpe** : C'est le plat signature, d'une tendreté absolue grâce à sa cuisson lente suivie d'un passage vif sur la braise.\n• **Formule Partage** : Comptez 3 à 4 assiettes par personne pour une expérience complète du menu.\n• **Côté Rue** : En été, demandez une place près des grandes vitrines ouvertes pour profiter de l'animation de la rue Condorcet.",
+  description: "Braisenville est l’adresse incontournable du 9ème pour les amateurs de cuissons authentiques au charbon de bois. Situé rue Condorcet, ce restaurant pionnier du partage propose des ’petites assiettes’ gastronomiques où chaque produit est magnifié par le feu. Du poulpe grillé fondant à la côte de bœuf d'exception, la cuisine est à la fois brute et sophistiquée. Le décor industriel chic, avec sa cuisine ouverte, plonge les convives dans une expérience sensorielle vibrante, portée par une belle sélection de vins de vignerons.",
+  insider_tip: "• **Le Poulpe** : C’est le plat signature, d’une tendreté absolue grâce à sa cuisson lente suivie d’un passage vif sur la braise.\n• **Formule Partage** : Comptez 3 à 4 assiettes par personne pour une expérience complète du menu.\n• **Côté Rue** : En été, demandez une place près des grandes vitrines ouvertes pour profiter de l'animation de la rue Condorcet.",
   specials: {
     cuisine: ["Cuisson au charbon de bois (Braise)", "Assiettes de partage gastronomiques", "Produits de saison sourcés"],
     drinks: ["Cocktails créatifs maison", "Sélection pointue de vins de terroir", "Spiritueux artisanaux"],

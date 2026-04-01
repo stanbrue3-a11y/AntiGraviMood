@@ -5,7 +5,7 @@ export const la_taverne_de_zhao: SurgicalPlace = {
   slug: "la-taverne-de-zhao",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "xi-an", "nouilles", "street-food", "raviolis"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "11 Rue Delambre, 75014 Paris, France",
     arrondissement: 14,
@@ -39,7 +39,7 @@ export const la_taverne_de_zhao: SurgicalPlace = {
     menu_items: [
       {
         category_type: "main",
-        display_label: "Les Incontournables (Plats Mo - Sandwiches Xi'an)",
+        display_label: "Les Incontournables (Plats Mo - Sandwiches Xi’an)",
         items: [
           { name: "MO Traditionnel (Porc mijoté)", price_cents: 750, description: "Pain maison croustillant, viande fondante" },
           { name: "MO - JI (Poulet)", price_cents: 750 },
@@ -92,7 +92,7 @@ export const la_taverne_de_zhao: SurgicalPlace = {
         category_type: "other",
         display_label: "Spécialités & Poulet Sauté",
         items: [
-          { name: "ZHAO's Fried Chicken", price_cents: 850 }
+          { name: "ZHAO’s Fried Chicken", price_cents: 850 }
         ]
       },
       {
@@ -105,10 +105,10 @@ export const la_taverne_de_zhao: SurgicalPlace = {
       },
     ]
   },
-  description: "La Taverne de Zhao est une escale vibrante dédiée à la gastronomie de Xi'an. Ici, l'art du Biang Biang (nouilles tirées à la main) et du Mo (pain traditionnel) est élevé au rang de religion. L'ambiance 'taverne' invite au partage dans un décor boisé et authentique, à deux pas de la tour Montparnasse.",
-  insider_tip: "• **Timing Stratégique** : Visez le créneau de 12h pour éviter l'affluence des bureaux.\n• **Combo Moelle** : Les Biang Biang Bœuf sont une référence en termes de texture et de goût.\n• **Détail Secret** : Demandez le niveau de piment 'moyen' pour apprécier toute la complexité des épices de Xi'an.",
+  description: "La Taverne de Zhao est une escale vibrante dédiée à la gastronomie de Xi’an. Ici, l’art du Biang Biang (nouilles tirées à la main) et du Mo (pain traditionnel) est élevé au rang de religion. L’ambiance ’taverne’ invite au partage dans un décor boisé et authentique, à deux pas de la tour Montparnasse.",
+  insider_tip: "• **Timing Stratégique** : Visez le créneau de 12h pour éviter l’affluence des bureaux.\n• **Combo Moelle** : Les Biang Biang Bœuf sont une référence en termes de texture et de goût.\n• **Détail Secret** : Demandez le niveau de piment ’moyen’ pour apprécier toute la complexité des épices de Xi'an.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an"],
+    cuisine: ["Chinoise", "Xi’an"],
     drinks: ["Softs", "Thé"],
     must_eat: "Cuisine chinoise. Biang Biang Noodles Bœuf Braisé",
   },

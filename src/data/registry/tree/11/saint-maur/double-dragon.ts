@@ -5,7 +5,7 @@ export const double_dragon: SurgicalPlace = {
   slug: "double-dragon",
   name: "Double Dragon",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "52 Rue Saint-Maur, 75011 Paris, France",
     arrondissement: 11,
@@ -43,9 +43,9 @@ export const double_dragon: SurgicalPlace = {
     ]
   },
   description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: `• **Timing Stratégique** : Le lieu est très prisé, venez dès l'ouverture pour éviter l'attente.
+  insider_tip: `• **Timing Stratégique** : Le lieu est très prisé, venez dès l’ouverture pour éviter l'attente.
   • **Combo Moelle** : Le riz Double Dragon est l'accompagnement indispensable pour leurs plats épicés.
-  • **Expérience Culturelle** : Une immersion dans la cuisine chinoise moderne par l'équipe du Servan.`,
+  • **Expérience Culturelle** : Une immersion dans la cuisine chinoise moderne par l’équipe du Servan.`,
   specials: {
     cuisine: [],
     drinks: [],

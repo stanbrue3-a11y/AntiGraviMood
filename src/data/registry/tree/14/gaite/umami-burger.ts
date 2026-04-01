@@ -5,7 +5,7 @@ export const umami_burger: SurgicalPlace = {
     name: "Umami Burger",
     slug: "umami-burger-montparnasse",
     category: "restaurant",
-    subcategory: ["burger", "américain", "fusion", "californien", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "19 Rue du Commandant René Mouchotte, 75014 Paris",
         arrondissement: 14,
@@ -59,7 +59,7 @@ export const umami_burger: SurgicalPlace = {
                 items: [
                     { name: "Thin Fries (Frites fines)", price_cents: 350 },
                     { name: "Sweet Potato Fries (Patates douces)", price_cents: 450 },
-                    { name: "Onion Rings (Beignets d'oignons)", price_cents: 550 },
+                    { name: "Onion Rings (Beignets d’oignons)", price_cents: 550 },
                     { name: "Manly Fries (Bacon bits, cheddar fondu, oignons frits)", price_cents: 600 },
                     { name: "Truffle Fries (Frites à la truffe)", price_cents: 700 },
                     { name: "Chicken Wings (x6)", price_cents: 1000 }
@@ -94,13 +94,13 @@ export const umami_burger: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Première implantation européenne de la célèbre chaîne californienne, Umami Burger Paris apporte la science de la 'cinquième saveur' au cœur de Montparnasse. Installé dans le cadre grandiose de l'Hôtel Pullman, ce spot propose des burgers sophistiqués où chaque ingrédient est choisi pour booster l'Umami. Le décor est moderne, l'ambiance californienne et les recettes repoussent les limites du burger classique.",
-    insider_tip: "Si vous avez une faim de loup le week-end, les brunchs du samedi (35€) et dimanche (42€) sont imbattables avec leurs buffets et burgers à volonté. N'oubliez pas de tester les 'Manly Fries' pour une expérience calorique totale.",
-    expert_catchline: "La science de l'Umami venue de Californie : des burgers fusion sophistiqués dans un cadre monumental.",
+    description: "Première implantation européenne de la célèbre chaîne californienne, Umami Burger Paris apporte la science de la ’cinquième saveur’ au cœur de Montparnasse. Installé dans le cadre grandiose de l’Hôtel Pullman, ce spot propose des burgers sophistiqués où chaque ingrédient est choisi pour booster l’Umami. Le décor est moderne, l’ambiance californienne et les recettes repoussent les limites du burger classique.",
+    insider_tip: "Si vous avez une faim de loup le week-end, les brunchs du samedi (35€) et dimanche (42€) sont imbattables avec leurs buffets et burgers à volonté. N’oubliez pas de tester les ’Manly Fries’ pour une expérience calorique totale.",
+    expert_catchline: "La science de l’Umami venue de Californie : des burgers fusion sophistiqués dans un cadre monumental.",
     specials: {
         cuisine: ["Burger Gourmet", "Fusion Nippo-Américaine", "Umami flavor"],
         drinks: ["Milkshakes artisanaux", "Cocktails création"],
-        must_eat: "L'Umami Burger original et les Manly Fries.",
+        must_eat: "L’Umami Burger original et les Manly Fries.",
         must_drink: "Un milkshake vanille-bourbon pour le contraste sucré-salé."
     }
 };

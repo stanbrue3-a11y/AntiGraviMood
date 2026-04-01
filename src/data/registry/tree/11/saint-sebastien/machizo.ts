@@ -5,7 +5,7 @@ export const machizo: SurgicalPlace = {
     name: "Machizo",
     slug: "machizo",
     category: "restaurant",
-    subcategory: ["japonais", "francais", "bistronomique", "gastronomique", "restaurant"],
+    subcategory: ['japonais', 'français'],
     location: {
         address: "35 Rue Saint-Sébastien",
         arrondissement: 11,
@@ -49,7 +49,7 @@ export const machizo: SurgicalPlace = {
                 items: [
                     { name: "Menu Dégustation 4 Temps", price_cents: 6800, description: "2 Entrées, 1 Plat, 1 Dessert" },
                     { name: "Menu Dégustation 5 Temps", price_cents: 7500, description: "Carte blanche au chef Taka" },
-                    { name: "Menu Dégustation 7 Temps", price_cents: 8500, description: "L'expérience complète Machizo" },
+                    { name: "Menu Dégustation 7 Temps", price_cents: 8500, description: "L’expérience complète Machizo" },
                     { name: "Accord Mets & Vins", price_cents: 4500, description: "4 verres sélectionnés pour le menu 4 ou 5 temps" },
                     { name: "Accord Mets & Vins Premium", price_cents: 6000, description: "5 verres sélectionnés pour le menu 7 temps" }
                 ]
@@ -78,12 +78,12 @@ export const machizo: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.9,
-    description: "Un joyau d'intimité caché dans le 11ème arrondissement (26 couverts seulement). Le chef Taka fusionne l'hyper-précision technique japonaise avec le répertoire gastronomique français. Une cuisine instinctive et évolutive servie sous forme de menus dégustation à l'aveugle, avec un service chaleureux assuré par son épouse Kornelia en salle.",
-    insider_tip: "• Pensez à réserver très en avance (salle minuscule ouverte que le soir).\n• Le Flan de foie gras au dashi a remporté le prestigieux Prix Lebey 2024, c'est le plat signature absolu.\n• Optez pour le menu 7 temps, l'évolution des saveurs est pensée comme un véritable voyage.",
+    description: "Un joyau d’intimité caché dans le 11ème arrondissement (26 couverts seulement). Le chef Taka fusionne l’hyper-précision technique japonaise avec le répertoire gastronomique français. Une cuisine instinctive et évolutive servie sous forme de menus dégustation à l’aveugle, avec un service chaleureux assuré par son épouse Kornelia en salle.",
+    insider_tip: "• Pensez à réserver très en avance (salle minuscule ouverte que le soir).\n• Le Flan de foie gras au dashi a remporté le prestigieux Prix Lebey 2024, c’est le plat signature absolu.\n• Optez pour le menu 7 temps, l'évolution des saveurs est pensée comme un véritable voyage.",
     expert_catchline: "Haute gastronomie franco-japonaise en carte blanche dans un écrin minimaliste de 26 places.",
     specials: {
         cuisine: ["Flan de foie gras (Prix Lebey)", "Cuissons à la braise", "Omakase", "Pigeon de Racan"],
-        drinks: ["Accords Mets & Vins ultra pointus", "Sélection de Sakés", "Thés verts d'exception"],
+        drinks: ["Accords Mets & Vins ultra pointus", "Sélection de Sakés", "Thés verts d’exception"],
         must_eat: "Le flan de foie gras infusé au dashi. Une texture irréelle qui a secoué la critique gastronomique.",
         must_drink: "Laissez-vous guider sur les accords métis qui croisent vins natures français et sakés de petits producteurs."
     }

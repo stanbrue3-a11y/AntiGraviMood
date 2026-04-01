@@ -5,7 +5,7 @@ export const l_antre_amis: SurgicalPlace = {
   slug: "l-antre-amis",
   name: "L’Antre Amis",
   category: "restaurant",
-  subcategory: ["bistronomique", "gastronomique", "créatif", "français"],
+  subcategory: ['français'],
   location: {
     address: "9 Rue Bouchut, 75015 Paris, France",
     arrondissement: 15,
@@ -46,12 +46,12 @@ export const l_antre_amis: SurgicalPlace = {
           { name: "Carte blanche du chef en 5 temps", price_cents: 9600, description: "Accompagnée de son accord mets et vins", is_highlight: true },
           { name: "Terrine de foie gras au Bas Armagnac", price_cents: 2400 },
           { name: "Carpaccio de noix-de-Saint-Jacques, citron et noisettes", price_cents: 2800 },
-          { name: "Jardin de légumes printaniers", price_cents: 1800, description: "Crème d'épinards, petites crevettes roses de Madagascar" },
+          { name: "Jardin de légumes printaniers", price_cents: 1800, description: "Crème d’épinards, petites crevettes roses de Madagascar" },
           { name: "9 Escargots de Bourgogne Extra Gros", price_cents: 1600 },
           { name: "Langoustines croustillantes au basilic", price_cents: 2200, is_highlight: true },
-          { name: "Carpaccio de Poulpe de Roche", price_cents: 2400, description: "Huile d'olive et citron" },
-          { name: "Sardinillas 'La Brujula'", price_cents: 1200 },
-          { name: "Chiffonnade d'épaule Ibérique", price_cents: 1900, description: "Région Extramadura beurre et cornichons" }
+          { name: "Carpaccio de Poulpe de Roche", price_cents: 2400, description: "Huile d’olive et citron" },
+          { name: "Sardinillas ’La Brujula'", price_cents: 1200 },
+          { name: "Chiffonnade d’épaule Ibérique", price_cents: 1900, description: "Région Extramadura beurre et cornichons" }
         ]
       },
       {
@@ -62,7 +62,7 @@ export const l_antre_amis: SurgicalPlace = {
           { name: "Suprême de volaille aux morilles", price_cents: 2800, description: "Gnocchi de pommes-de-terre et crémée de vin jaune" },
           { name: "Côte de bœuf Angus maturée (pour 2)", price_cents: 8000, is_highlight: true },
           { name: "Merlan de Saint-Gilles-Croix-de-Vie", price_cents: 2600, description: "Fricassée de champignons et asperges vertes" },
-          { name: "Pavé de veau de chez 'Hugo Desnoyer'", price_cents: 3500, is_highlight: true },
+          { name: "Pavé de veau de chez ’Hugo Desnoyer'", price_cents: 3500, is_highlight: true },
           { name: "Risotto crémeux aux morilles fraîches", price_cents: 2400 },
           { name: "Filet de boeuf Rossini façon Chateaubriand", price_cents: 4200 },
           { name: "Sole meunière des Côtes Bretonnes", price_cents: 4500 },
@@ -73,7 +73,7 @@ export const l_antre_amis: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Douceurs",
         items: [
-          { name: "Mousse au chocolat soufflée", price_cents: 1400, description: "Praliné noisettes, griottes à l'amaretto" },
+          { name: "Mousse au chocolat soufflée", price_cents: 1400, description: "Praliné noisettes, griottes à l’amaretto" },
           { name: "Ananas rôti", price_cents: 1400, description: "Émulsion à la noix de coco, crumble et sorbet exotique" },
           { name: "Riz au lait à la vanille de Madagascar", price_cents: 1200, description: "Caramel au beurre salé, noisettes et noix de pécan", is_highlight: true },
           { name: "Assiette de fromages affinés", price_cents: 1600 }
@@ -90,11 +90,11 @@ export const l_antre_amis: SurgicalPlace = {
       }
     ]
   },
-  description: `À la frontière du 7ème et du 15ème arrondissement se love l'Antre Amis, une table discrète et élégante. Le chef propriétaire y déploie une cuisine d'auteur, sourcée directement à Rungis et magnifiée par une exécution redoutable. Le cadre haussmannien, feutré sans être guindé, est le théâtre de repas bistronomiques de haute volée où le produit brut est roi.`,
+  description: `À la frontière du 7ème et du 15ème arrondissement se love l’Antre Amis, une table discrète et élégante. Le chef propriétaire y déploie une cuisine d’auteur, sourcée directement à Rungis et magnifiée par une exécution redoutable. Le cadre haussmannien, feutré sans être guindé, est le théâtre de repas bistronomiques de haute volée où le produit brut est roi.`,
   expert_catchline: `Haute Bistronomie Française. L'incroyable Menu Carte Blanche en 5 temps.`,
-  insider_tip: `• **Le Bon Choix** : Osez le grand jeu avec le menu 'Carte Blanche' en 5 temps avec accords mets/vins, une véritable démonstration de l'étendue du talent de la cuisine.
+  insider_tip: `• **Le Bon Choix** : Osez le grand jeu avec le menu ’Carte Blanche' en 5 temps avec accords mets/vins, une véritable démonstration de l'étendue du talent de la cuisine.
 • **L’Apothéose** : Si vous prenez à la carte, le Pavé de veau de chez Hugo Desnoyer est une viande d'exception incontournable.
-• **L'Option Chill** : L'après-midi, la maison propose de formidables tapas haut de gamme (poulpe de roche, langoustines) pour un apéro dînatoire très exclusif.`,
+• **L’Option Chill** : L’après-midi, la maison propose de formidables tapas haut de gamme (poulpe de roche, langoustines) pour un apéro dînatoire très exclusif.`,
   specials: {
     cuisine: ["Bistronomique", "Créatif", "Gastronomie Française"],
     drinks: ["Plus de 150 vignerons", "850 références en cave"],

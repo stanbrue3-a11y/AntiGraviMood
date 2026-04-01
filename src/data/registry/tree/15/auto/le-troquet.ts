@@ -5,7 +5,7 @@ export const le_troquet: SurgicalPlace = {
   slug: "le-troquet",
   name: "Le Troquet",
   category: "restaurant",
-  subcategory: ["bistrot", "sud-ouest", "viande"],
+  subcategory: ['français'],
   location: {
     address: "21 Rue François Bonvin, 75015 Paris, France",
     arrondissement: 15,
@@ -42,7 +42,7 @@ export const le_troquet: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Formules du Troquet",
         items: [
-          { name: "Menu Bistrot (Entrée + Plat + Dessert)", price_cents: 4800, description: "La totale pour les bons vivants, selon l'ardoise du jour.", is_highlight: true },
+          { name: "Menu Bistrot (Entrée + Plat + Dessert)", price_cents: 4800, description: "La totale pour les bons vivants, selon l’ardoise du jour.", is_highlight: true },
           { name: "Menu Déjeuner", price_cents: 3200, description: "Entrée + Plat ou Plat + Dessert (Midi uniquement en semaine)" }
         ]
       },
@@ -55,7 +55,7 @@ export const le_troquet: SurgicalPlace = {
           { name: "Asperges Vertes des Landes", price_cents: 1600, description: "Œuf mollet, vinaigrette aux agrumes" },
           { name: "Carpaccio de Tête de Veau", price_cents: 1300, description: "Sauce gribiche, herbes fraîches" },
           { name: "Couteaux à la Plancha", price_cents: 1500, description: "Persillade, beurre noisette" },
-          { name: "Poireaux Vinaigrette Revisités", price_cents: 1100, description: "Vinaigrette à l'ancienne, noisettes torréfiées" }
+          { name: "Poireaux Vinaigrette Revisités", price_cents: 1100, description: "Vinaigrette à l’ancienne, noisettes torréfiées" }
         ]
       },
       {
@@ -75,7 +75,7 @@ export const le_troquet: SurgicalPlace = {
         category_type: "sharing",
         display_label: "Fromages Affinés",
         items: [
-          { name: "Assiette de Fromages d’Ossau-Iraty", price_cents: 1200, description: "Confiture de cerises noires d'Itxassou" },
+          { name: "Assiette de Fromages d’Ossau-Iraty", price_cents: 1200, description: "Confiture de cerises noires d’Itxassou" },
           { name: "Camembert Rôti au Four", price_cents: 1600, description: "Thym, miel, mouillettes" }
         ]
       },
@@ -94,7 +94,7 @@ export const le_troquet: SurgicalPlace = {
         category_type: "drink",
         display_label: "Coups à Boire (Cartes des Vins)",
         items: [
-          { name: "Verre de l'Amitié (Vin de Soif)", price_cents: 600 },
+          { name: "Verre de l’Amitié (Vin de Soif)", price_cents: 600 },
           { name: "Verre de Madiran", price_cents: 800 },
           { name: "Bouteille de Minervois", price_cents: 3500 },
           { name: "Bouteille de Saint-Joseph", price_cents: 4800 },
@@ -106,7 +106,7 @@ export const le_troquet: SurgicalPlace = {
       }
     ]
   },
-  description: `Une authentique pépite du 15ème arrondissement où l'âme bistrotier croise le Sud-Ouest avec panache. Avec ses nappes à carreaux vichy rouge et son zinc patiné, le Troquet de Marc Lèze respecte un dogme absolu : la glorification du gras, du bonbon de viande et du jus corsé. La côte de bœuf pour deux y est majestueuse, et le ris de veau fait pleurer les puristes. Le bruit des fourchettes résonne, les verres trinquent, c'est l'anti-fast-food par excellence.`,
+  description: `Une authentique pépite du 15ème arrondissement où l’âme bistrotier croise le Sud-Ouest avec panache. Avec ses nappes à carreaux vichy rouge et son zinc patiné, le Troquet de Marc Lèze respecte un dogme absolu : la glorification du gras, du bonbon de viande et du jus corsé. La côte de bœuf pour deux y est majestueuse, et le ris de veau fait pleurer les puristes. Le bruit des fourchettes résonne, les verres trinquent, c’est l'anti-fast-food par excellence.`,
   expert_catchline: `Le bistrot franchouillard culte du 15ème : générosité, viande et amour.`,
   insider_tip: `• **Dîner Canaille** : Ne manquez surtout pas le menu complet à 48€, dont le rapport qualité-prix-satiété est quasi imbattable à Paris.
   • **Le Must-Have** : S'il y a du Pâté en Croûte, commandez-le sans réfléchir. Suivez de près avec le Gâteau Basque.

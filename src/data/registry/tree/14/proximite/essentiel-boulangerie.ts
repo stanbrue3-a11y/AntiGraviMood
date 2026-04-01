@@ -5,9 +5,9 @@ export const essentiel_boulangerie: SurgicalPlace = {
     name: "Boulangerie L’Essentiel",
     slug: "boulangerie-l-essentiel-paris-14",
     category: "café",
-    subcategory: ["boulangerie", "patisserie", "artisanal", "bio", "sandwicherie", "petit-dejeuner"],
+    subcategory: ['français'],
     location: {
-        address: "Rue de l'Ouest / Rue d'Alésia, 75014 Paris, France",
+        address: "Rue de l’Ouest / Rue d'Alésia, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.831512,
         lng: 2.321456,
@@ -55,16 +55,16 @@ export const essentiel_boulangerie: SurgicalPlace = {
                 display_label: "Le Salé Artisanal",
                 items: [
                     { name: "Le Parigot (Jambon Beurre Tradition)", price_cents: 490 },
-                    { name: "Sandwich Signature l'Essentiel", price_cents: 600 },
+                    { name: "Sandwich Signature l’Essentiel", price_cents: 600 },
                     { name: "Salade La Gauloise généreuse", price_cents: 780 },
-                    { name: "Quiche Lorraine à l'ancienne", price_cents: 420 }
+                    { name: "Quiche Lorraine à l’ancienne", price_cents: 420 }
                 ]
             },
             {
                 category_type: "other",
                 display_label: "Pâtisseries & Boulangerie",
                 items: [
-                    { name: "L'Essentiel (Pâtisserie Signature)", price_cents: 500 },
+                    { name: "L’Essentiel (Pâtisserie Signature)", price_cents: 500 },
                     { name: "Flan à la Vanille de Madagascar", price_cents: 410 },
                     { name: "Tarte Citron Meringuée", price_cents: 450 },
                     { name: "Paris-Brest de Champion", price_cents: 550 },
@@ -83,9 +83,9 @@ export const essentiel_boulangerie: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Élue meilleure boulangerie d'Île-de-France en 2022, l'Essentiel porte bien son nom. Ici, on revient aux fondamentaux de la boulangerie française : levain naturel, farines bio et savoir-faire artisanal sans concession. Que ce soit pour leur pain Versot à la croûte généreuse, leurs viennoiseries pur beurre ou leurs pâtisseries fines, la qualité est constante et l'éthique de production irréprochable. C'est l'escale gourmande par excellence pour un petit-déjeuner vrai ou un déjeuner sur le pouce qui ne sacrifie jamais le goût à la rapidité.",
-    insider_tip: "Ne manquez pas leur flan à la vanille de Madagascar, d'une onctuosité rare. Le pain 'Versot' se conserve admirablement bien plusieurs jours, n'hésitez pas à en prendre une miche entière.",
-    expert_catchline: "L'excellence artisanale primée, au service du goût l'état pur.",
+    description: "Élue meilleure boulangerie d’Île-de-France en 2022, l’Essentiel porte bien son nom. Ici, on revient aux fondamentaux de la boulangerie française : levain naturel, farines bio et savoir-faire artisanal sans concession. Que ce soit pour leur pain Versot à la croûte généreuse, leurs viennoiseries pur beurre ou leurs pâtisseries fines, la qualité est constante et l’éthique de production irréprochable. C’est l’escale gourmande par excellence pour un petit-déjeuner vrai ou un déjeuner sur le pouce qui ne sacrifie jamais le goût à la rapidité.",
+    insider_tip: "Ne manquez pas leur flan à la vanille de Madagascar, d’une onctuosité rare. Le pain ’Versot’ se conserve admirablement bien plusieurs jours, n'hésitez pas à en prendre une miche entière.",
+    expert_catchline: "L’excellence artisanale primée, au service du goût l'état pur.",
     specials: {
         cuisine: ["Boulangerie Artisanale", "Pâtisserie Fine"],
         drinks: ["Café de Qualité", "Jus de Fruits Bio"],

@@ -5,7 +5,7 @@ export const le_petit_retro: SurgicalPlace = {
   slug: "le-petit-retro",
   name: "Le Petit Rétro",
   category: "restaurant",
-  subcategory: ["bistrot", "historique", "art-nouveau", "victor-hugo"],
+  subcategory: ['français'],
   location: {
     address: "5 Rue Mesnil, 75116 Paris",
     arrondissement: 16,
@@ -47,7 +47,7 @@ export const le_petit_retro: SurgicalPlace = {
           { name: "Œufs en Meurette Tradition", price_cents: 1450, description: "Vin rouge, lardons et croûtons dorés" },
           { name: "Os à Moelle Grillé", price_cents: 1200, description: "Gros sel et pain de campagne grillé" },
           { name: "Tartare de Saumon Frais", price_cents: 1650, description: "Ciboulette et échalotes confites" },
-          { name: "Soupe à l'Oignon Gratinée", price_cents: 1100, description: "Un classique immuable" },
+          { name: "Soupe à l’Oignon Gratinée", price_cents: 1100, description: "Un classique immuable" },
           { name: "Terrine de Campagne Maison", price_cents: 1300 },
           { name: "Salade de Lentilles & Hareng", price_cents: 1250 },
           { name: "Gougères de Bienvenue", price_cents: 900 }
@@ -57,12 +57,12 @@ export const le_petit_retro: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats de Tradition (Plats)",
         items: [
-          { name: "Blanquette de Veau à l'Ancienne", price_cents: 2400, description: "Riz pilaf et petits légumes fondants", is_highlight: true },
+          { name: "Blanquette de Veau à l’Ancienne", price_cents: 2400, description: "Riz pilaf et petits légumes fondants", is_highlight: true },
           { name: "Cœur de Filet de Bœuf", price_cents: 3600, description: "Sauce au poivre et frites maison" },
-          { name: "Noix de Saint-Jacques d'Erquy", price_cents: 2950, description: "Émulsion au beurre blanc citronné" },
+          { name: "Noix de Saint-Jacques d’Erquy", price_cents: 2950, description: "Émulsion au beurre blanc citronné" },
           { name: "Tartare de Bœuf Préparé", price_cents: 2100, description: "Coupé au couteau, assaisonnement classique" },
           { name: "Filet de Bar Grillé", price_cents: 2700, description: "Légumes braisés et huile vierge" },
-          { name: "Émincé d'Onglet à l'Échalote", price_cents: 2350 },
+          { name: "Émincé d’Onglet à l'Échalote", price_cents: 2350 },
           { name: "Rognons de Veau à la Moutarde", price_cents: 2600 },
           { name: "Risotto Crémeux aux Champignons", price_cents: 1900 },
           { name: "Andouillette de Troyes AAAAA", price_cents: 2250 },
@@ -99,9 +99,9 @@ export const le_petit_retro: SurgicalPlace = {
       }
     ]
   },
-  description: "Véritable capsule temporelle figée en 1904, Le Petit Rétro est l'un des derniers bistrots Art Nouveau de Paris. Avec son comptoir en étain, ses boiseries patinées et surtout ses céramiques somptueuses signées Charles-Édouard Haviland, le lieu est classé aux monuments historiques. On y vient pour l'atmosphère unique du Paris de la Belle Époque et pour une cuisine de bistrot sincère, généreuse et exécutée dans les règles de l'art. C'est l'adresse 'sympa' par excellence pour ceux qui cherchent l'âme du 16ème populaire et bourgeois.",
-  expert_catchline: "L'âme du bistrot parisien de la Belle Époque dans un décor classé.",
-  insider_tip: "• **Le Décor** : Prenez le temps d'admirer les fresques en faïence dans la salle du fond, elles sont d'origine et uniques à Paris.\n  • **Le Plat Signature** : La saucisse-purée est un monument de gourmandise, simple mais parfaite.\n  • **Réservation** : Le lieu est petit et très prisé par les habitués du quartier Victor Hugo, réservez pour être sûr d'avoir une table.",
+  description: "Véritable capsule temporelle figée en 1904, Le Petit Rétro est l’un des derniers bistrots Art Nouveau de Paris. Avec son comptoir en étain, ses boiseries patinées et surtout ses céramiques somptueuses signées Charles-Édouard Haviland, le lieu est classé aux monuments historiques. On y vient pour l’atmosphère unique du Paris de la Belle Époque et pour une cuisine de bistrot sincère, généreuse et exécutée dans les règles de l’art. C’est l’adresse ’sympa’ par excellence pour ceux qui cherchent l'âme du 16ème populaire et bourgeois.",
+  expert_catchline: "L’âme du bistrot parisien de la Belle Époque dans un décor classé.",
+  insider_tip: "• **Le Décor** : Prenez le temps d’admirer les fresques en faïence dans la salle du fond, elles sont d’origine et uniques à Paris.\n  • **Le Plat Signature** : La saucisse-purée est un monument de gourmandise, simple mais parfaite.\n  • **Réservation** : Le lieu est petit et très prisé par les habitués du quartier Victor Hugo, réservez pour être sûr d’avoir une table.",
   specials: {
     cuisine: ["Bistrot Traditionnel", "Française"],
     drinks: ["Vins de Propriété", "Digestifs Classiques"],
@@ -119,11 +119,11 @@ export const le_petit_retro: SurgicalPlace = {
   google_rating: 4.4,
   instagram_handle: "lepetitretro",
   real_talk: {
-    text: "Un saut dans le temps absolument délicieux. L'accueil est d'une courtoisie exemplaire, et l'assiette respecte scrupuleusement les codes du bon vieux bistrot parigot. Un joyau de quartier.",
+    text: "Un saut dans le temps absolument délicieux. L’accueil est d’une courtoisie exemplaire, et l’assiette respecte scrupuleusement les codes du bon vieux bistrot parigot. Un joyau de quartier.",
     must_eat: "Bistrot Traditionnel. Saucisse-Purée.",
-    le_secret: "La petite salle à l'entrée est parfaite pour observer le mouvement de la rue Mesnil.",
+    le_secret: "La petite salle à l’entrée est parfaite pour observer le mouvement de la rue Mesnil.",
     le_son: "Un brouhaha convivial de quartier, sans musique intrusive.",
-    le_must: "L'île flottante, véritable institution locale."
+    le_must: "L’île flottante, véritable institution locale."
   }
 };
 

@@ -5,7 +5,7 @@ export const andia: SurgicalPlace = {
   name: "ANDIA",
   slug: "andia",
   category: "restaurant",
-  subcategory: ["latino", "festif", "terrasse", "muette"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "19 Chau. de la Muette, 75016 Paris",
     arrondissement: 16,
@@ -61,7 +61,7 @@ export const andia: SurgicalPlace = {
           { name: "Tiradito Saint-Jacques", price_cents: 2600, description: "Tranches fines, fruit de la passion, piment doux" },
           { name: "Ceviche Veggie", price_cents: 1900, description: "Cœur de palmier, avocat, mangue et lait de tigre coco" },
           { name: "Salmon Poke Andia", price_cents: 2200, description: "Saumon mariné, riz noir, edamames, algues" },
-          { name: "Carpaccio de Poulpe", price_cents: 2100, description: "Olives noires, citron confit et huile d'olive" }
+          { name: "Carpaccio de Poulpe", price_cents: 2100, description: "Olives noires, citron confit et huile d’olive" }
         ]
       },
       {
@@ -69,12 +69,12 @@ export const andia: SurgicalPlace = {
         display_label: "Asador (Grillades)",
         items: [
           { name: "Poulpe Grillé Chimichurri", price_cents: 3600, description: "Cuit au charbon, écrasé de pommes de terre", is_highlight: true },
-          { name: "Anticucho de Poulet", price_cents: 2200, description: "Brochettes marinées à l'aji panca" },
+          { name: "Anticucho de Poulet", price_cents: 2200, description: "Brochettes marinées à l’aji panca" },
           { name: "Entrecôte Black Angus (300g)", price_cents: 4200, description: "Origine Argentine, sauce salsa roja" },
           { name: "Thon Rouge Grillé", price_cents: 3800, description: "Saisi à la plancha, légumes de saison au wok" },
           { name: "Lomo Saltado", price_cents: 3400, description: "Filet de bœuf sauté, oignons, tomates et frites" },
           { name: "Burger Andia", price_cents: 2800, description: "Pain brioché, bœuf 180g, cheddar, aji verde" },
-          { name: "Côtelettes d'Agneau", price_cents: 3900, description: "Marinade aux herbes des Andes" }
+          { name: "Côtelettes d’Agneau", price_cents: 3900, description: "Marinade aux herbes des Andes" }
         ]
       },
       {
@@ -102,7 +102,7 @@ export const andia: SurgicalPlace = {
         category_type: "other",
         display_label: "Spiritueux & Co",
         items: [
-          { name: "Pisco Sour Classique", price_cents: 1600, description: "Pisco, citron vert, sucre et blanc d'œuf" },
+          { name: "Pisco Sour Classique", price_cents: 1600, description: "Pisco, citron vert, sucre et blanc d’œuf" },
           { name: "Andia Margarita", price_cents: 1700, description: "Tequila Blanco, agave, citron vert et sel tajin" },
           { name: "Expresso", price_cents: 400 },
           { name: "Thé Vert à la Menthe", price_cents: 700 }
@@ -110,9 +110,9 @@ export const andia: SurgicalPlace = {
       }
     ]
   },
-  description: "Installé dans le cadre grandiose de l'ancienne gare de la Muette, ANDIA est un sanctuaire festif dédié à la cuisine latino-américaine. Sous une immense verrière végétale, le lieu vibre aux rythmes tribaux et propose un voyage sensoriel du Pérou au Mexique. Entre ceviches percutants, viandes grillées au charbon de bois et cocktails exotiques, c'est l'adresse incontournable pour un dîner vibrant qui s'étire jusqu'au bout de la nuit.",
-  expert_catchline: "L'aventure fusion latino dans une gare historique métamorphosée.",
-  insider_tip: "Réservez une table sous la verrière pour l'effet 'WOW' garanti. En fin de semaine, le lieu se transforme en club chic dès 22h30.",
+  description: "Installé dans le cadre grandiose de l’ancienne gare de la Muette, ANDIA est un sanctuaire festif dédié à la cuisine latino-américaine. Sous une immense verrière végétale, le lieu vibre aux rythmes tribaux et propose un voyage sensoriel du Pérou au Mexique. Entre ceviches percutants, viandes grillées au charbon de bois et cocktails exotiques, c’est l’adresse incontournable pour un dîner vibrant qui s’étire jusqu’au bout de la nuit.",
+  expert_catchline: "L’aventure fusion latino dans une gare historique métamorphosée.",
+  insider_tip: "Réservez une table sous la verrière pour l’effet ’WOW’ garanti. En fin de semaine, le lieu se transforme en club chic dès 22h30.",
   specials: {
     cuisine: ["Andine", "Latino-Fusion"],
     drinks: ["Pisco Sour", "Margarita Tajin"],
@@ -130,11 +130,11 @@ export const andia: SurgicalPlace = {
   google_rating: 4.3,
   instagram_handle: "andia_paris",
   real_talk: {
-    text: "Une jungle chic nichée dans une gare désaffectée. C'est bruyant, c'est beau, et l'assiette tient la route avec des saveurs latines bien exécutées.",
+    text: "Une jungle chic nichée dans une gare désaffectée. C’est bruyant, c’est beau, et l’assiette tient la route avec des saveurs latines bien exécutées.",
     must_eat: "Cuisine Andine. Ceviche Classico.",
     le_secret: "La terrasse jardin en été est un véritable havre de paix tropical.",
     le_son: "Reggaeton chic, Afro-house et percussions en live.",
-    le_must: "L'arrivée spectaculaire sous la coupole en début de soirée."
+    le_must: "L’arrivée spectaculaire sous la coupole en début de soirée."
   }
 };
 

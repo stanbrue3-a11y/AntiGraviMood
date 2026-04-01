@@ -5,10 +5,10 @@ export const dilia: SurgicalPlace = {
     name: "Dilia",
     slug: "dilia",
     category: "restaurant",
-    subcategory: ["bistronomie", "italien", "restaurant"],
+    subcategory: ['bistronomie', 'italien', 'français'],
     location: {
         // Technically just inside the 20th but hyper-proximate to 11th vibe
-        address: "1 Rue d'Eupatoria",
+        address: "1 Rue d’Eupatoria",
         arrondissement: 20,
         lat: 48.8686439,
         lng: 2.3862279,
@@ -54,7 +54,7 @@ export const dilia: SurgicalPlace = {
                 category_type: "tasting_menu",
                 display_label: "Les Menus Dégustation (Soir)",
                 items: [
-                    { name: "Carte Blanche (Menu 6 Passages)", price_cents: 6500, description: "L'expérience Dilia en 6 temps. (Accord Vins +42€)." },
+                    { name: "Carte Blanche (Menu 6 Passages)", price_cents: 6500, description: "L’expérience Dilia en 6 temps. (Accord Vins +42€)." },
                     { name: "Carte Blanche (Menu 8 Passages)", price_cents: 8600 },
                     { name: "Carte Blanche (Menu 9 Passages)", price_cents: 9800, description: "Le grand jeu italo-parisien. (Accord Vins +63€)." }
                 ]
@@ -65,9 +65,9 @@ export const dilia: SurgicalPlace = {
                 items: [
                     { name: "1er temps : Bulot, asperge blanche et herbe fraîche", price_cents: 0, description: "Inclus dans le menu." },
                     { name: "2ème temps : Sardine marinée, petit pois, lard colonnata", price_cents: 0, description: "Inclus dans le menu." },
-                    { name: "3ème temps : Tortellini d'artichauts, brodo limpide", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "3ème temps : Tortellini d’artichauts, brodo limpide", price_cents: 0, description: "Inclus dans le menu." },
                     { name: "4ème temps : Lieu jaune, fève, oignon nouveau, beurre blanc safran", price_cents: 0, description: "Inclus dans le menu." },
-                    { name: "5ème temps : Pigeon de nid rôti, crème d'algue, betterave, cime di rapa", price_cents: 0, description: "Inclus dans le menu." },
+                    { name: "5ème temps : Pigeon de nid rôti, crème d’algue, betterave, cime di rapa", price_cents: 0, description: "Inclus dans le menu." },
                     { name: "6ème temps : Dacquoise amande, bergamote, câpre, marjolaine", price_cents: 0, description: "Inclus dans le menu." }
                 ]
             },
@@ -78,8 +78,8 @@ export const dilia: SurgicalPlace = {
                     { name: "Verre de vin (Sélection Nature & Biodynamie)", price_cents: 600 },
                     { name: "Bouteille de vin (À partir de)", price_cents: 2900 },
                     { name: "Coupe de Champagne", price_cents: 1200 },
-                    { name: "Bouteille d'eau minérale", price_cents: 600 },
-                    { name: "Café d'excellence", price_cents: 300 }
+                    { name: "Bouteille d’eau minérale", price_cents: 600 },
+                    { name: "Café d’excellence", price_cents: 300 }
                 ]
             }
         ]
@@ -94,13 +94,13 @@ export const dilia: SurgicalPlace = {
     instagram_handle: "dilia_paris",
     verified: true,
     google_rating: 4.6,
-    description: "Derrière les murs d'un vieux rade de quartier sur les hauteurs de Ménilmontant se cache une des gastronomies franco-italiennes les plus pointues de l'Est parisien. Le soir, tout s'efface au profit d'un majestueux menu dégustation.",
-    insider_tip: "• Si le menu dégustation du soir à 65€ est exceptionnel, le déjeuner à 28€ est une aubaine inouïe. \n• En été, la petite place de l'église d'Eupatoria offre une terrasse digne d'un village du sud de l'Italie.\n• Pensez absolument à réserver, l'adresse est farouchement gardée par les locaux.",
-    expert_catchline: "Haute couture culinaire italo-française cachée dans l'ancien rade le plus charmant de Ménilmontant.",
+    description: "Derrière les murs d’un vieux rade de quartier sur les hauteurs de Ménilmontant se cache une des gastronomies franco-italiennes les plus pointues de l’Est parisien. Le soir, tout s’efface au profit d'un majestueux menu dégustation.",
+    insider_tip: "• Si le menu dégustation du soir à 65€ est exceptionnel, le déjeuner à 28€ est une aubaine inouïe. \n• En été, la petite place de l’église d’Eupatoria offre une terrasse digne d’un village du sud de l’Italie.\n• Pensez absolument à réserver, l’adresse est farouchement gardée par les locaux.",
+    expert_catchline: "Haute couture culinaire italo-française cachée dans l’ancien rade le plus charmant de Ménilmontant.",
     specials: {
         cuisine: ["Pâtes farcies maison", "Pigeon"],
         drinks: ["Barolo et grands crus italiens"],
-        must_eat: "Laissez-vous guider par la 'Carte Blanche 6 Passages', avec une tendresse particulière pour les incroyables Tortellinis maison servis dans un bouillon (Brodo) limpide.",
-        must_drink: "Rien d'autre que l'accord Mets/Vins (42€) tricoté par le sommelier à dominance nature."
+        must_eat: "Laissez-vous guider par la ’Carte Blanche 6 Passages', avec une tendresse particulière pour les incroyables Tortellinis maison servis dans un bouillon (Brodo) limpide.",
+        must_drink: "Rien d’autre que l'accord Mets/Vins (42€) tricoté par le sommelier à dominance nature."
     }
 };

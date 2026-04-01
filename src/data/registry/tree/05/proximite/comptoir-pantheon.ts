@@ -38,8 +38,8 @@ export const comptoir_pantheon: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Face à l'imposante silhouette du Panthéon, ce comptoir dégage une énergie typiquement parisienne. Entre le service rapide et efficace, la terrasse toujours animée et sa situation idéale, c'est l'endroit parfait pour une pause entre deux visites historiques. On y retrouve l'efficacité des grands bistrots de passage mixée à la qualité d'une institution du 5ème arrondissement, dans un cadre qui respire l'histoire à chaque angle de rue.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Face à l’imposante silhouette du Panthéon, ce comptoir dégage une énergie typiquement parisienne. Entre le service rapide et efficace, la terrasse toujours animée et sa situation idéale, c’est l’endroit parfait pour une pause entre deux visites historiques. On y retrouve l’efficacité des grands bistrots de passage mixée à la qualité d’une institution du 5ème arrondissement, dans un cadre qui respire l'histoire à chaque angle de rue.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -5,7 +5,7 @@ export const cravan: SurgicalPlace = {
   name: "CRAVAN",
   slug: "cravan-paris-16e",
   category: "restaurant",
-  subcategory: ["cocktail-bar", "élégant", "historique", "guimard"],
+  subcategory: ['français'],
   location: {
     address: "17 Rue Jean de la Fontaine, 75016 Paris",
     arrondissement: 16,
@@ -41,14 +41,14 @@ export const cravan: SurgicalPlace = {
     menu_items: [
       {
         category_type: "drink",
-        display_label: "L'Art du Cocktail (Signatures)",
+        display_label: "L’Art du Cocktail (Signatures)",
         items: [
           { name: "Cravan Cocktail", price_cents: 1600, description: "Gin, vermouth sec, zeste de citron", is_highlight: true },
           { name: "Yellow Cocktail", price_cents: 1700, description: "Gin, Suze, Chartreuse jaune" },
           { name: "Red Cocktail", price_cents: 1700, description: "Campari, vermouth rouge, touche de mezcal" },
           { name: "Martini de la Maison", price_cents: 1600, description: "Service glacé, olive de luxe" },
           { name: "Negroni Vieilli", price_cents: 1800, description: "Amertume équilibrée et suave" },
-          { name: "Mocktail 'La Fontaine'", price_cents: 1200, description: "Herbes fraîches, agrumes et eau pétillante" }
+          { name: "Mocktail ’La Fontaine'", price_cents: 1200, description: "Herbes fraîches, agrumes et eau pétillante" }
         ]
       },
       {
@@ -57,13 +57,13 @@ export const cravan: SurgicalPlace = {
         items: [
           { name: "Lobster Roll Cravan", price_cents: 3200, description: "Homard breton, brioche beurrée et ciboulette", is_highlight: true },
           { name: "Croque-Madame à la Truffe", price_cents: 2400, description: "Pain au levain, comté affiné et truffe noire" },
-          { name: "Huîtres N°3 (x6)", price_cents: 2100, description: "Fraîcheur absolue de l'Atlantique" },
+          { name: "Huîtres N°3 (x6)", price_cents: 2100, description: "Fraîcheur absolue de l’Atlantique" },
           { name: "Tartare de Bœuf au Couteau", price_cents: 2200, description: "Préparé minute, servi avec pain noir" },
           { name: "Caviar Beluga (30g)", price_cents: 12000, description: "Servi avec blinis et crème aigre" },
           { name: "Radis au Beurre Demi-Sel", price_cents: 900, description: "Beurre de baratte et sel de mer" },
           { name: "Terrine Maison de Campagne", price_cents: 1400 },
           { name: "Céviche de Bar Sauvage", price_cents: 1900, description: "Agrumes et piment doux" },
-          { name: "Burrata Crémeuse", price_cents: 1500, description: "Huile d'olive d'exception" }
+          { name: "Burrata Crémeuse", price_cents: 1500, description: "Huile d’olive d'exception" }
         ]
       },
       {
@@ -102,11 +102,11 @@ export const cravan: SurgicalPlace = {
       }
     ]
   },
-  description: "CRAVAN est un joyau architectural et gustatif niché dans un édifice classé d'Hector Guimard. Ce bar-restaurant hors du temps célèbre l'art de la mixologie précise et d'une cuisine de comptoir élégante. Avec son décor Art Nouveau d'origine (1911), ses boiseries et ses céramiques somptueuses, CRAVAN offre une immersion rare dans le Paris de la Belle Époque. C'est le rendez-vous secret des esthètes du 16ème, où l'on déguste un Lobster Roll d'exception accompagné d'un cocktail millimétré.",
+  description: "CRAVAN est un joyau architectural et gustatif niché dans un édifice classé d’Hector Guimard. Ce bar-restaurant hors du temps célèbre l’art de la mixologie précise et d’une cuisine de comptoir élégante. Avec son décor Art Nouveau d’origine (1911), ses boiseries et ses céramiques somptueuses, CRAVAN offre une immersion rare dans le Paris de la Belle Époque. C’est le rendez-vous secret des esthètes du 16ème, où l’on déguste un Lobster Roll d’exception accompagné d'un cocktail millimétré.",
   expert_catchline: "La perfection de la mixologie dans un écrin Guimard classé.",
   insider_tip: `• **Le Décor** : Ne manquez pas de contempler les détails Art Nouveau du bar, classé Monument Historique.
   • **Le Must-Eat** : Le Lobster Roll est considéré comme l'un des meilleurs de Paris, un passage obligé.
-  • **Sans Résa** : Le lieu ne prend pas de réservations, venez dès l'ouverture à 18h pour sécuriser une table.`,
+  • **Sans Résa** : Le lieu ne prend pas de réservations, venez dès l’ouverture à 18h pour sécuriser une table.`,
   specials: {
     cuisine: ["Cuisine de Comptoir", "Élégant"],
     drinks: ["Cocktails Signatures", "Champagnes de Vignerons"],
@@ -124,11 +124,11 @@ export const cravan: SurgicalPlace = {
   google_rating: 4.6,
   instagram_handle: "cravanparis",
   real_talk: {
-    text: "Un saut dans le passé sans aucune poussière. Le décor Guimard est à couper le souffle, et le niveau des cocktails est stratosphérique. C'est l'élégance absolue, sans en faire trop.",
+    text: "Un saut dans le passé sans aucune poussière. Le décor Guimard est à couper le souffle, et le niveau des cocktails est stratosphérique. C’est l'élégance absolue, sans en faire trop.",
     must_eat: "Cuisine de Comptoir. Lobster Roll.",
     le_secret: "La petite terrasse sur la rue étroite est parfaite pour un cocktail incognito au coucher du soleil.",
     le_son: "Jazz feutré et brouhaha feutré, très sélect.",
-    le_must: "S'asseoir au comptoir pour observer la précision chirurgicale de la préparation des cocktails."
+    le_must: "S’asseoir au comptoir pour observer la précision chirurgicale de la préparation des cocktails."
   }
 };
 

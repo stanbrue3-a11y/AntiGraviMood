@@ -5,7 +5,7 @@ export const l_homme_bleu: SurgicalPlace = {
     name: "L’Homme Bleu",
     slug: "l-homme-bleu",
     category: "restaurant",
-    subcategory: ["marocain", "couscous", "tajine", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "55 Bis Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -45,12 +45,12 @@ export const l_homme_bleu: SurgicalPlace = {
                 display_label: "Tajines Maison",
                 items: [
                     // VERIFIED: Site officiel (2024-2025)
-                    { name: "Tajine S'Ixudra (Végétarien)", price_cents: 1800, description: "Petits légumes de saison avec un œuf poché." },
-                    { name: "Tajine S'Uyazid (Poulet, légumes, citron confit)", price_cents: 2100 },
+                    { name: "Tajine S’Ixudra (Végétarien)", price_cents: 1800, description: "Petits légumes de saison avec un œuf poché." },
+                    { name: "Tajine S’Uyazid (Poulet, légumes, citron confit)", price_cents: 2100 },
                     { name: "Tajine Mtewem (Boulettes, poulet, pois chiches)", price_cents: 2150 },
-                    { name: "Tajine S'Uxarfi (Agneau, légumes, citron confit)", price_cents: 2150 },
+                    { name: "Tajine S’Uxarfi (Agneau, légumes, citron confit)", price_cents: 2150 },
                     { name: "Tajine Lham Lahlou (Agneau, pruneaux, amandes)", price_cents: 2200 },
-                    { name: "Tajine S'Ihut (Poissons sauvages du moment)", price_cents: 2200 }
+                    { name: "Tajine S’Ihut (Poissons sauvages du moment)", price_cents: 2200 }
                 ]
             },
             {
@@ -58,10 +58,10 @@ export const l_homme_bleu: SurgicalPlace = {
                 display_label: "Couscous Maison (Seksu)",
                 items: [
                     // VERIFIED: Mises à jour récentes (2024-2025)
-                    { name: "Seksu S'ixudra (Couscous Végétarien)", price_cents: 1750 },
+                    { name: "Seksu S’ixudra (Couscous Végétarien)", price_cents: 1750 },
                     { name: "Seksu Merguez", price_cents: 1950 },
-                    { name: "Seksu S'uyazid (Poulet et merguez)", price_cents: 2000 },
-                    { name: "Seksu S'iberdien n'izimer (Côtelettes d'agneau)", price_cents: 2250 },
+                    { name: "Seksu S’uyazid (Poulet et merguez)", price_cents: 2000 },
+                    { name: "Seksu S’iberdien n’izimer (Côtelettes d’agneau)", price_cents: 2250 },
                     { name: "Seksu Homme Bleu (Couscous Royal : brochette, boulette, côtelette, merguez)", price_cents: 2300 },
                     { name: "Seksu Tfaya (Agneau ou Poulet, raisins, miel)", price_cents: 2400 }
                 ]
@@ -86,13 +86,13 @@ export const l_homme_bleu: SurgicalPlace = {
     instagram_handle: "restaurant.lhommebleu",
     verified: true,
     google_rating: 4.6,
-    description: "L'institution de la rue Jean-Pierre Timbaud. L'Homme Bleu réalise parmi les meilleurs couscous et tajines de tout Paris dans un décor pur jus oriental chaleureux. Des bouillons ultra-parfumés, des semoules fines comme du sable, des viandes parfaitement cuites. Le spot idéal pour un dîner réconfortant ou un repas dominical.",
-    insider_tip: "• Le Couscous 'Homme Bleu' (Royal à 23€) est la valeur sûre pour les très grosses faims.\n• Le Tajine Lham Lahlou (agneau, pruneaux, 22€) ravira les fans de sucré-salé.\n• La salle est grande mais se remplit vite l'hiver — réservation quasiment obligatoire le week-end.\n• Très bon rapport qualité/prix/quantité, on repart souvent avec un doggy-bag.",
+    description: "L’institution de la rue Jean-Pierre Timbaud. L'Homme Bleu réalise parmi les meilleurs couscous et tajines de tout Paris dans un décor pur jus oriental chaleureux. Des bouillons ultra-parfumés, des semoules fines comme du sable, des viandes parfaitement cuites. Le spot idéal pour un dîner réconfortant ou un repas dominical.",
+    insider_tip: "• Le Couscous ’Homme Bleu’ (Royal à 23€) est la valeur sûre pour les très grosses faims.\n• Le Tajine Lham Lahlou (agneau, pruneaux, 22€) ravira les fans de sucré-salé.\n• La salle est grande mais se remplit vite l’hiver — réservation quasiment obligatoire le week-end.\n• Très bon rapport qualité/prix/quantité, on repart souvent avec un doggy-bag.",
     expert_catchline: "Couscous et tajines exceptionnels dans une ambiance chaleureuse. Une institution parisienne.",
     specials: {
-        cuisine: ["Couscous Homme Bleu (Royal)", "Tajine aux pruneaux", "Tajine S'Uxarfi (Agneau-citron confit)"],
+        cuisine: ["Couscous Homme Bleu (Royal)", "Tajine aux pruneaux", "Tajine S’Uxarfi (Agneau-citron confit)"],
         drinks: ["Thé à la menthe", "Vins du Maghreb"],
-        must_eat: "Le Couscous Royal rassemble tout ce qu'on aime, et les boulettes de viande sont fondantes à souhait.",
+        must_eat: "Le Couscous Royal rassemble tout ce qu’on aime, et les boulettes de viande sont fondantes à souhait.",
         must_drink: "Le rituel du thé à la menthe (3.50€) pour clôturer le repas est non négociable."
     }
 };

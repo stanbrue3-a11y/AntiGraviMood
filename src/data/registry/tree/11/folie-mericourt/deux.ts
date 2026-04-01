@@ -5,7 +5,7 @@ export const deux: SurgicalPlace = {
     name: "Deux Restaurant",
     slug: "deux",
     category: "restaurant",
-    subcategory: ["terroir", "bistronomique", "sud-ouest", "savoie", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "58 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -68,7 +68,7 @@ export const deux: SurgicalPlace = {
                     { name: "Jambon Porc Ibaiama (60g)", price_cents: 1800, description: "Louis Ospital, Sud-Ouest." },
                     { name: "Panisses & sauce yaourt au zaatar", price_cents: 1200 },
                     { name: "Velouté de lentilles corail & courge", price_cents: 1300 },
-                    { name: "Tatin d'oignons confits au miso", price_cents: 1400 },
+                    { name: "Tatin d’oignons confits au miso", price_cents: 1400 },
                     { name: "Œuf poché & crémeux céleri-pomme de terre", price_cents: 1500, description: "Servi avec des diots fumés de Savoie." }
                 ]
             },
@@ -79,7 +79,7 @@ export const deux: SurgicalPlace = {
                     { name: "Gnocchis poêlés & crème de Vacherin", price_cents: 2400 },
                     { name: "Poisson du moment (arrivage)", price_cents: 2700 },
                     { name: "Ribs de porc braisés au miel de Savoie", price_cents: 2800 },
-                    { name: "Blanquette de veau à l'ancienne", price_cents: 2900 },
+                    { name: "Blanquette de veau à l’ancienne", price_cents: 2900 },
                     { name: "Cocotte de joue & queue de bœuf (pour 2)", price_cents: 6800, description: "Façon Bourguignon, 34€ par personne." }
                 ]
             },
@@ -101,13 +101,13 @@ export const deux: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Deux Restaurant est le fruit de la collaboration entre deux chefs complices : Tiphaine Mollard (Savoie) et Romain Casas (Sud-Ouest). Dans ce bistrot de quartier chaleureux, les deux terroirs fusionnent avec intelligence pour proposer une cuisine de produit brute, généreuse et techniquement irréprochable. Un lieu de partage où la convivialité n'a d'égal que la qualité des sourcing.",
-    insider_tip: "• C'est l'un des meilleurs spots pour redécouvrir la Chartreuse (à travers leur baba signature).\n• Les ribs de porc au miel de Savoie sont d'une gourmandise absolue.\n• Le samedi midi, l'ambiance est parfaite pour un déjeuner de terroir prolongé.\n• Les fromages proviennent directement de petits producteurs des deux régions d'origine des chefs.",
+    description: "Deux Restaurant est le fruit de la collaboration entre deux chefs complices : Tiphaine Mollard (Savoie) et Romain Casas (Sud-Ouest). Dans ce bistrot de quartier chaleureux, les deux terroirs fusionnent avec intelligence pour proposer une cuisine de produit brute, généreuse et techniquement irréprochable. Un lieu de partage où la convivialité n’a d'égal que la qualité des sourcing.",
+    insider_tip: "• C’est l’un des meilleurs spots pour redécouvrir la Chartreuse (à travers leur baba signature).\n• Les ribs de porc au miel de Savoie sont d’une gourmandise absolue.\n• Le samedi midi, l’ambiance est parfaite pour un déjeuner de terroir prolongé.\n• Les fromages proviennent directement de petits producteurs des deux régions d’origine des chefs.",
     expert_catchline: "La fusion parfaite entre le Sud-Ouest et la Savoie dans un bistrot de haute volée.",
     specials: {
         cuisine: ["Gnocchis au Vacherin", "Ribs au miel de Savoie", "Jambon Ibaiama Louis Ospital", "Blanquette de veau"],
         drinks: ["Sélection de vins de Savoie", "Vins du Sud-Ouest rares", "Digestifs à la Chartreuse"],
-        must_eat: "L'œuf poché au crémeux de céleri et diots fumés : un pont gustatif parfait entre les deux terroirs des chefs.",
+        must_eat: "L’œuf poché au crémeux de céleri et diots fumés : un pont gustatif parfait entre les deux terroirs des chefs.",
         must_drink: "Un verre de vin blanc de Savoie (Chignin-Bergeron ou Roussette) pour accompagner les plats crémeux."
     }
 };

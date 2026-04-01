@@ -39,8 +39,8 @@ export const musee_maillol: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Musée intimiste niché dans l'hôtel particulier de la rue de Grenelle, le Musée Maillol présente l'œuvre sensuelle d'Aristide Maillol. Au-delà des courbes généreuses des sculptures de Dina Vierny, le musée accueille des expositions temporaires prestigieuses et souvent audacieuses. Sa cour intérieure et son escalier monumental en font un lieu de calme et d'élégance architecturale, idéal pour une pause culturelle raffinée au cœur du faubourg Saint-Germain.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Musée intimiste niché dans l’hôtel particulier de la rue de Grenelle, le Musée Maillol présente l’œuvre sensuelle d’Aristide Maillol. Au-delà des courbes généreuses des sculptures de Dina Vierny, le musée accueille des expositions temporaires prestigieuses et souvent audacieuses. Sa cour intérieure et son escalier monumental en font un lieu de calme et d'élégance architecturale, idéal pour une pause culturelle raffinée au cœur du faubourg Saint-Germain.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

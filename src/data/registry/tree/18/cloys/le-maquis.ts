@@ -5,7 +5,7 @@ export const le_maquis: SurgicalPlace = {
   slug: "le-maquis",
   name: "Le Maquis",
   category: "restaurant",
-  subcategory: ["bistrot", "bistronomie", "moderne", "nature"],
+  subcategory: ['français', 'bistronomie'],
   location: {
     address: "53 Rue des Cloys, 75018 Paris, France",
     arrondissement: 18,
@@ -47,7 +47,7 @@ export const le_maquis: SurgicalPlace = {
         items: [
           { name: "Raviolis de Langoustine & Bouillon de têtes", price_cents: 1600, is_highlight: true },
           { name: "Merlu en beignets croustillants & Tartare", price_cents: 1250, is_highlight: true },
-          { name: "Carpaccio d'Ombrine, Agrumes & Aneth", price_cents: 1400 },
+          { name: "Carpaccio d’Ombrine, Agrumes & Aneth", price_cents: 1400 },
           { name: "Foie de Veau poêlé & Oignons confits", price_cents: 1500 },
           { name: "Œuf Mollet, Crème de Topinambours & Truffe", price_cents: 1300, is_highlight: true },
           { name: "Terrine de Campagne Maison & Pickles", price_cents: 1100 },
@@ -74,7 +74,7 @@ export const le_maquis: SurgicalPlace = {
         display_label: "Accords Moelleux (Plats)",
         items: [
           { name: "Purée de Pommes de Terre au Sel de Guérande", price_cents: 650, is_highlight: true },
-          { name: "Légumes d'Hiver rôtis au Four & Miel", price_cents: 750 },
+          { name: "Légumes d’Hiver rôtis au Four & Miel", price_cents: 750 },
           { name: "Frites fraîches Maison double cuisson", price_cents: 600 },
           { name: "Riz Pilaf délicat aux aromates", price_cents: 600 },
           { name: "Salade Mizuna & Vinaigrette au Xérès", price_cents: 550 }
@@ -102,19 +102,19 @@ export const le_maquis: SurgicalPlace = {
           { name: "Jus de Fruits Artisanaux de nos régions", price_cents: 750 },
           { name: "Eau micro-filtrée Le Maquis (75cl)", price_cents: 450, is_highlight: true },
           { name: "Café Espresso de spécialité Lomi", price_cents: 350 },
-          { name: "Thé Vert Bio de la Maison l'Autre Thé", price_cents: 650 },
+          { name: "Thé Vert Bio de la Maison l’Autre Thé", price_cents: 650 },
           { name: "Digestif Artisanal : Genièvre de Houlle", price_cents: 900 }
           
         ]
       }
     ]
   },
-  description: "Le Maquis est l'un des néo-bistrots les plus vibrants du 18ème arrondissement. Piloté par les chefs Paul Boudier et Albert Touton (ex-Chateaubriand), cet établissement de la rue des Cloys célèbre une cuisine instinctive, technique et terriblement gourmande. On y vient pour les gnocchis culte, les sauces miroitantes et une carte de vins naturels choisie avec une passion communicative. L'ambiance y est celle d'un quartier qui s'encanaille avec élégance, entre simplicité brute et finesse gastronomique.",
-  insider_tip: "• **Les Gnocchis** : S'ils sont à la carte, ne réfléchissez pas un instant. Leur texture est une légende urbaine dans Montmartre.\n• **Le Déjeuner** : Profitez de la formule à 22€ (E+P+D), c'est une masterclass d'efficacité bistronomique.\n• **Le Menu Dégustation** : Le soir, optez pour le menu en 5 séquences (60€) pour saisir toute l'étendue du talent des chefs.",
+  description: "Le Maquis est l’un des néo-bistrots les plus vibrants du 18ème arrondissement. Piloté par les chefs Paul Boudier et Albert Touton (ex-Chateaubriand), cet établissement de la rue des Cloys célèbre une cuisine instinctive, technique et terriblement gourmande. On y vient pour les gnocchis culte, les sauces miroitantes et une carte de vins naturels choisie avec une passion communicative. L’ambiance y est celle d’un quartier qui s'encanaille avec élégance, entre simplicité brute et finesse gastronomique.",
+  insider_tip: "• **Les Gnocchis** : S’ils sont à la carte, ne réfléchissez pas un instant. Leur texture est une légende urbaine dans Montmartre.\n• **Le Déjeuner** : Profitez de la formule à 22€ (E+P+D), c’est une masterclass d’efficacité bistronomique.\n• **Le Menu Dégustation** : Le soir, optez pour le menu en 5 séquences (60€) pour saisir toute l'étendue du talent des chefs.",
   specials: {
     cuisine: ["Néo-bistronomie créative", "Gnocchis signature", "Produits de saison"],
-    drinks: ["Vins naturels & biodynamiques", "Cave d'auteur", "Spiritueux artisanaux"],
-    must_eat: "Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l'âme même de la maison.",
+    drinks: ["Vins naturels & biodynamiques", "Cave d’auteur", "Spiritueux artisanaux"],
+    must_eat: "Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l’âme même de la maison.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH2oW1t4z2u8ePQ_O9u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,7 +5,7 @@ export const le_chateaubriand: SurgicalPlace = {
     name: "Le Chateaubriand",
     slug: "le-chateaubriand",
     category: "restaurant",
-    subcategory: ["bistronomique", "gastronomique", "vins natures", "institution", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "129 Ave Parmentier",
         arrondissement: 11,
@@ -48,7 +48,7 @@ export const le_chateaubriand: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats (Menus Dégustation)",
         items: [
-          { name: "Menu Dîner (Tous les soirs)", price_cents: 9500, description: "Le menu culte d'Inaki Aizpitarte, changeant chaque jour.", is_highlight: true },
+          { name: "Menu Dîner (Tous les soirs)", price_cents: 9500, description: "Le menu culte d’Inaki Aizpitarte, changeant chaque jour.", is_highlight: true },
           { name: "Menu Déjeuner (Samedi uniquement)", price_cents: 6500, is_highlight: true }
         ]
       },
@@ -86,7 +86,7 @@ export const le_chateaubriand: SurgicalPlace = {
         display_label: "Douceurs & Pâtisseries (Desserts)",
         items: [
           { name: "Tocino de Cielo (Dessert iconique)", price_cents: 0, is_highlight: true },
-          { name: "Glace à l'estragon & fraises fraîches", price_cents: 0 },
+          { name: "Glace à l’estragon & fraises fraîches", price_cents: 0 },
           { name: "Sorbet citron-basilic & meringue", price_cents: 0 },
           { name: "Ganache chocolat amer & fleur de sel", price_cents: 0 },
           { name: "Glace au sarrasin grillé & huile de noisette", price_cents: 0 },
@@ -103,7 +103,7 @@ export const le_chateaubriand: SurgicalPlace = {
           { name: "Verre de Vin Nature (Sélection)", price_cents: 1200 },
           { name: "Eau micro-filtrée (75cl)", price_cents: 500 },
           { name: "Café de spécialité torréfié maison", price_cents: 400 },
-          { name: "Sélection d'infusions biologiques", price_cents: 400 }
+          { name: "Sélection d’infusions biologiques", price_cents: 400 }
         ]
       }
     ]
@@ -118,13 +118,13 @@ export const le_chateaubriand: SurgicalPlace = {
     instagram_handle: "lechateaubriand_",
     verified: true,
     google_rating: 4.3,
-    description: "Le pionnier absolu de la « bistronomie » parisienne. Piloté depuis plus de quinze ans par le fantasque chef basque Iñaki Aizpitarte, le Chateaubriand maintient son statut d'institution mondiale (régulièrement classé dans les 50 Best). Le décor est intemporel (boiseries sombres, miroirs, chaises de bistrot), le service décontracté mais affûté, et l’assiette joue les équilibristes sans jamais de filet de sécurité.",
-    insider_tip: "• Uniquement un Menu Dégustation aveugle le soir (pas de carte classique). \n• Réservation absolument indispensable des semaines à l'avance pour le premier service (19h).\n• Le deuxième service (à partir de 21h30) est parfois accessible aux walk-ins spontanés pour patienter avec un verre au bar, bien que ce soit risqué ! \n• Demandez toujours l'accord Mets & Vins pour découvrir l'une des caves nature les plus mythiques de Paris.",
-    expert_catchline: "L'institution mondiale de la bistronomie : menu aveugle disruptif et flacons nature légendaires.",
+    description: "Le pionnier absolu de la « bistronomie » parisienne. Piloté depuis plus de quinze ans par le fantasque chef basque Iñaki Aizpitarte, le Chateaubriand maintient son statut d’institution mondiale (régulièrement classé dans les 50 Best). Le décor est intemporel (boiseries sombres, miroirs, chaises de bistrot), le service décontracté mais affûté, et l’assiette joue les équilibristes sans jamais de filet de sécurité.",
+    insider_tip: "• Uniquement un Menu Dégustation aveugle le soir (pas de carte classique). \n• Réservation absolument indispensable des semaines à l’avance pour le premier service (19h).\n• Le deuxième service (à partir de 21h30) est parfois accessible aux walk-ins spontanés pour patienter avec un verre au bar, bien que ce soit risqué ! \n• Demandez toujours l’accord Mets & Vins pour découvrir l’une des caves nature les plus mythiques de Paris.",
+    expert_catchline: "L’institution mondiale de la bistronomie : menu aveugle disruptif et flacons nature légendaires.",
     specials: {
-        cuisine: ["Pigeon rôti au jus", "Lotte au BBQ", "Jaune d'Oeuf Confit en dessert"],
+        cuisine: ["Pigeon rôti au jus", "Lotte au BBQ", "Jaune d’Oeuf Confit en dessert"],
         drinks: ["Vins Naturels au verre", "Vins oranges", "Grands crus de Bourgogne "],
-        must_eat: "Une expérience \"Carte Blanche\" (95€). Préparez-vous à au moins 5 temps autour de la fulgurance des matières premières : viandes d'exception saisies au barbecue, bouillon capiteux et desserts iconiques (comme ce jaune d'oeuf ultra-confit lové dans un caramel).",
+        must_eat: "Une expérience \"Carte Blanche\" (95€). Préparez-vous à au moins 5 temps autour de la fulgurance des matières premières : viandes d’exception saisies au barbecue, bouillon capiteux et desserts iconiques (comme ce jaune d'oeuf ultra-confit lové dans un caramel).",
         must_drink: "Laissez le sommelier vous guider dans la bible des vins nature. Les accords (40€ de supplément) sont brillants."
     }
 };

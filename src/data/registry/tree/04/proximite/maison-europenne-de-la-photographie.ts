@@ -39,7 +39,7 @@ export const maison_europenne_de_la_photographie: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "La 'MEP' est le temple de la photo contemporaine à Paris. Située dans l'Hôtel Hénault de Cantobre (1706), elle offre un contraste saisissant entre ses murs classiques et sa programmation visuelle ultra-moderne et internationale. On y découvre les grands maîtres (Newton, Salgado) comme la jeune garde émergente. La bibliothèque est une mine d'or pour les passionnés. C'est un lieu élégant, calme et inspirant, idéalement situé pour commencer une tournée des galeries du Marais.",
+    "description": "La ’MEP’ est le temple de la photo contemporaine à Paris. Située dans l’Hôtel Hénault de Cantobre (1706), elle offre un contraste saisissant entre ses murs classiques et sa programmation visuelle ultra-moderne et internationale. On y découvre les grands maîtres (Newton, Salgado) comme la jeune garde émergente. La bibliothèque est une mine d’or pour les passionnés. C’est un lieu élégant, calme et inspirant, idéalement situé pour commencer une tournée des galeries du Marais.",
     "insider_tip": "La MEP, incontournable pour la photo contemporaine.",
     "specials": {
         "cuisine": [],

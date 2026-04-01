@@ -5,7 +5,7 @@ export const l_os_a_moelle: SurgicalPlace = {
   slug: "l-os-a-moelle",
   name: "L’Os à moelle",
   category: "restaurant",
-  subcategory: ["bistrot", "traditionnel", "français", "viande"],
+  subcategory: ['français'],
   location: {
     address: "3 Rue Vasco de Gama, 75015 Paris, France",
     arrondissement: 15,
@@ -44,10 +44,10 @@ export const l_os_a_moelle: SurgicalPlace = {
         display_label: "Nos Entrées",
         items: [
           { name: "Le fameux Os à Moelle", price_cents: 1200, description: "Rôti à la fleur de sel de Guérande, pain grillé", is_highlight: true },
-          { name: "Terrine de Campagne Maison", price_cents: 900, description: "Cornichons et confiture d'oignons" },
+          { name: "Terrine de Campagne Maison", price_cents: 900, description: "Cornichons et confiture d’oignons" },
           { name: "Poireaux Vinaigrette Revisités", price_cents: 800, description: "Œuf mollet, croûtons dorés" },
           { name: "Foie Gras de Canard Mi-Cuit", price_cents: 1600, description: "Chutney de saison, brioche toastée", is_highlight: true },
-          { name: "Gaspacho Andalou", price_cents: 800, description: "Légumes d'été frais et croquants" }
+          { name: "Gaspacho Andalou", price_cents: 800, description: "Légumes d’été frais et croquants" }
         ]
       },
       {
@@ -75,7 +75,7 @@ export const l_os_a_moelle: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Formules",
         items: [
-          { name: "Le Menu Dégustation", price_cents: 4500, description: "Le grand voyage en 6 services selon l'humeur du Chef", is_highlight: true },
+          { name: "Le Menu Dégustation", price_cents: 4500, description: "Le grand voyage en 6 services selon l’humeur du Chef", is_highlight: true },
           { name: "Formule Midi (Semaine)", price_cents: 2400, description: "Entrée + Plat ou Plat + Dessert" }
         ]
       },
@@ -91,11 +91,11 @@ export const l_os_a_moelle: SurgicalPlace = {
       }
     ]
   },
-  description: `Institution incontournable du 15ème arrondissement, L'Os à Moelle est le fleuron de la bistronomie de quartier imaginé par le chef Thierry Faucher. L'ambiance y est chaleureuse au milieu des grandes tablées et des murs patinés. On y célèbre le véritable terroir français, sans chichi mais avec une justesse technique irréprochable, avec en vedette des plats mythiques de viande et d'abats mijotés.`,
+  description: `Institution incontournable du 15ème arrondissement, L’Os à Moelle est le fleuron de la bistronomie de quartier imaginé par le chef Thierry Faucher. L’ambiance y est chaleureuse au milieu des grandes tablées et des murs patinés. On y célèbre le véritable terroir français, sans chichi mais avec une justesse technique irréprochable, avec en vedette des plats mythiques de viande et d'abats mijotés.`,
   expert_catchline: `Cantonade bistronomique. Le temple de l'os à moelle et des grands classiques français.`,
-  insider_tip: `• **L'Anexe d'en face** : S'il n'y a plus de place, traversez la rue pour découvrir "La Cave de l'Os à Moelle", qui propose une formule buffet exceptionnelle et sans fioritures dans les mêmes cuisines.
+  insider_tip: `• **L’Anexe d’en face** : S’il n’y a plus de place, traversez la rue pour découvrir "La Cave de l’Os à Moelle", qui propose une formule buffet exceptionnelle et sans fioritures dans les mêmes cuisines.
   • **Le Must-Eat** : Évidemment, l'énorme Os à Moelle rôti à la fleur de sel avec ses tranches de pain toastées.
-  • **Le Secret** : Le Menu Dégustation à 45€ (en 6 plats) est l'un des rapports qualité/prix les plus généreux de la rive gauche pour un tel niveau de cuisine.`,
+  • **Le Secret** : Le Menu Dégustation à 45€ (en 6 plats) est l’un des rapports qualité/prix les plus généreux de la rive gauche pour un tel niveau de cuisine.`,
   specials: {
     cuisine: ["Français", "Traditionnel", "Bistrot", "Viande"],
     drinks: ["Belle sélection de vins de vignerons indépendants"],
@@ -111,7 +111,7 @@ export const l_os_a_moelle: SurgicalPlace = {
   verified: true,
   google_rating: 4.5,
   real_talk: {
-    text: `Un monument pour les viandards et les amateurs de la bistronomie de Thierry Faucher. Convivialité XXL garantie avec des plats aussi généreux d'esprit que d'assiette.`,
+    text: `Un monument pour les viandards et les amateurs de la bistronomie de Thierry Faucher. Convivialité XXL garantie avec des plats aussi généreux d’esprit que d’assiette.`,
     must_eat: `Cuisine de bistrot. Leur légendaire Os à Moelle au sel de Guérande, immanquable.`,
     le_secret: `La formule déjeuner en semaine donne un super aperçu de cette maîtrise classique.`,
     le_son: `Le brouhaha joyeux typique des bons bistrots vitaux.`,

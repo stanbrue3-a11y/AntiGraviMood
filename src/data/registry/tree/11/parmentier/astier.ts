@@ -5,7 +5,7 @@ export const astier: SurgicalPlace = {
     name: "Astier",
     slug: "astier",
     category: "restaurant",
-    subcategory: ["bistrot", "terroir", "fromages", "vins", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "44 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -66,7 +66,7 @@ export const astier: SurgicalPlace = {
                 items: [
                     // VERIFIED: Site officiel (2024) — entrées 10-16€
                     { name: "Pâté en croûte de pintade et foie gras", price_cents: 1600 },
-                    { name: "Harengs marinés d'Astier, pommes grenaille", price_cents: 1200, description: "Le classique de la maison depuis 1956." },
+                    { name: "Harengs marinés d’Astier, pommes grenaille", price_cents: 1200, description: "Le classique de la maison depuis 1956." },
                     { name: "Cuisses de grenouilles en persillade", price_cents: 1400 },
                     { name: "Saint-Jacques en coquille (en saison)", price_cents: 1600 },
                     { name: "Œuf en meurette", price_cents: 1000 }
@@ -137,13 +137,13 @@ export const astier: SurgicalPlace = {
     instagram_handle: "restaurant_astier",
     verified: true,
     google_rating: 4.3,
-    description: "Astier est l'un des derniers vrais bistrots parisiens, une institution depuis 1956 sur la rue Jean-Pierre Timbaud. La cuisine est celle de la France profonde : pâté en croûte, harengs marinés, quasi de veau, pigeon rôti. Le tout servi dans un décor authentique avec nappes à carreaux et serveurs en tablier. Mais la vraie star, c'est le plateau de fromages affinés par la Maison Anthès — un monument à lui seul.",
-    insider_tip: "• Le plateau de fromages à 26€/personne est LA raison pour laquelle les gens reviennent : c'est un buffet d'affinés exceptionnels, probablement le meilleur rapport qualité-prix de Paris pour le fromage.\n• Le menu E+P+Fromages+Dessert à 45€ est le sweet spot absolu : 4 temps pour moins de 50€ dans un bistrot historique.\n• Les harengs marinés d'Astier (12€) sont un classique qui n'a pas bougé depuis 1956.\n• La cave de 400 références est excellente et les prix restent accessibles.",
-    expert_catchline: "L'institution bistrot de 1956 : pâté en croûte, pigeon rôti et le légendaire plateau de fromages.",
+    description: "Astier est l’un des derniers vrais bistrots parisiens, une institution depuis 1956 sur la rue Jean-Pierre Timbaud. La cuisine est celle de la France profonde : pâté en croûte, harengs marinés, quasi de veau, pigeon rôti. Le tout servi dans un décor authentique avec nappes à carreaux et serveurs en tablier. Mais la vraie star, c'est le plateau de fromages affinés par la Maison Anthès — un monument à lui seul.",
+    insider_tip: "• Le plateau de fromages à 26€/personne est LA raison pour laquelle les gens reviennent : c’est un buffet d’affinés exceptionnels, probablement le meilleur rapport qualité-prix de Paris pour le fromage.\n• Le menu E+P+Fromages+Dessert à 45€ est le sweet spot absolu : 4 temps pour moins de 50€ dans un bistrot historique.\n• Les harengs marinés d’Astier (12€) sont un classique qui n'a pas bougé depuis 1956.\n• La cave de 400 références est excellente et les prix restent accessibles.",
+    expert_catchline: "L’institution bistrot de 1956 : pâté en croûte, pigeon rôti et le légendaire plateau de fromages.",
     specials: {
-        cuisine: ["Pâté en croûte pintade-foie gras", "Harengs marinés d'Astier", "Demi-pigeonneau rôti", "Filet de boeuf Simmental"],
+        cuisine: ["Pâté en croûte pintade-foie gras", "Harengs marinés d’Astier", "Demi-pigeonneau rôti", "Filet de boeuf Simmental"],
         drinks: ["Cave de 400 références", "Grands Bourgognes", "Vins du Rhône accessibles"],
         must_eat: "Le menu à 45€ avec fromages est le meilleur deal de la maison. Les plats signatures : demi-pigeonneau de Pornic (32€), quenelle de daurade (22€), filet de boeuf Simmental (42€). Et surtout, ne JAMAIS skipper le plateau de fromages Anthès à 26€.",
-        must_drink: "La cave de 400 références est l'une des plus complètes du 11ème. Demandez conseil au sommelier pour un Bourgogne ou un Rhône qui se marie avec le plateau de fromages."
+        must_drink: "La cave de 400 références est l’une des plus complètes du 11ème. Demandez conseil au sommelier pour un Bourgogne ou un Rhône qui se marie avec le plateau de fromages."
     }
 };

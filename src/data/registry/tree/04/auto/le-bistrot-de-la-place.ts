@@ -5,7 +5,7 @@ export const le_bistrot_de_la_place: SurgicalPlace = {
   slug: "le-bistrot-de-la-place",
   name: "Le Bistrot de la Place",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "2 Pl. du Marché Sainte-Catherine, 75004 Paris, France",
     arrondissement: 4,
@@ -43,6 +43,7 @@ export const le_bistrot_de_la_place: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

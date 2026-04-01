@@ -5,7 +5,7 @@ export const le_villaret: SurgicalPlace = {
     name: "Le Villaret",
     slug: "le-villaret",
     category: "restaurant",
-    subcategory: ["bistronomique", "terroir", "vins", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "13 Rue Ternaux",
         arrondissement: 11,
@@ -56,16 +56,16 @@ export const le_villaret: SurgicalPlace = {
                     { name: "Ris de veau doré", price_cents: 1800 },
                     { name: "Saumon fumé maison, focaccia herbes", price_cents: 2200 },
                     { name: "Pâté en croûte (Ris de veau, Porc, Foie gras)", price_cents: 2500 },
-                    { name: "Cervelle d'agneau et petits légumes", price_cents: 1800 }
+                    { name: "Cervelle d’agneau et petits légumes", price_cents: 1800 }
                 ]
             },
             {
                 category_type: "main",
                 display_label: "Plats",
                 items: [
-                    { name: "Faux-filet de boeuf Blonde d'Aquitaine", price_cents: 4200 },
+                    { name: "Faux-filet de boeuf Blonde d’Aquitaine", price_cents: 4200 },
                     { name: "Fricassée de rognons à la truffe", price_cents: 5200 },
-                    { name: "Épaule d'agneau de Lozère (pour 2)", price_cents: 9500, description: "Pièce de partage — exclue du dish_price." }
+                    { name: "Épaule d’agneau de Lozère (pour 2)", price_cents: 9500, description: "Pièce de partage — exclue du dish_price." }
                 ]
             },
             {
@@ -97,13 +97,13 @@ export const le_villaret: SurgicalPlace = {
     instagram_handle: "levillaret",
     verified: true,
     google_rating: 4.4,
-    description: "Le Villaret est le bistrot gastronomique d'Olivier Gaslain, niché dans une ruequiète du 11ème. La carte est courte, ultra-saisonnière, et met en avant les produits nobles : rognons truffés, boeuf Blonde d'Aquitaine, agneau de Lozère. Mais le vrai trésor, c'est la cave : plus de 1000 références avec une dominante bourguignonne magistrale, présentées dans une armoire vitrée spectaculaire.",
-    insider_tip: "• La cave de 1000+ références est LE trésor caché — demandez à voir l'armoire vitrée qui contient les Bourgognes rares.\n• La fricassée de rognons à la truffe (52€) est le plat signature pour les amateurs.\n• Le menu midi à 35€ est le point d'entrée idéal pour découvrir le chef.\n• L'épaule d'agneau de Lozère (95€ pour 2) se partage et se commande à l'avance.",
+    description: "Le Villaret est le bistrot gastronomique d’Olivier Gaslain, niché dans une ruequiète du 11ème. La carte est courte, ultra-saisonnière, et met en avant les produits nobles : rognons truffés, boeuf Blonde d’Aquitaine, agneau de Lozère. Mais le vrai trésor, c’est la cave : plus de 1000 références avec une dominante bourguignonne magistrale, présentées dans une armoire vitrée spectaculaire.",
+    insider_tip: "• La cave de 1000+ références est LE trésor caché — demandez à voir l’armoire vitrée qui contient les Bourgognes rares.\n• La fricassée de rognons à la truffe (52€) est le plat signature pour les amateurs.\n• Le menu midi à 35€ est le point d’entrée idéal pour découvrir le chef.\n• L’épaule d’agneau de Lozère (95€ pour 2) se partage et se commande à l’avance.",
     expert_catchline: "Le bistrot du terroir noble : rognons truffés, agneau de Lozère et 1000 vins en armoire vitrée.",
     specials: {
-        cuisine: ["Fricassée de rognons à la truffe", "Faux-filet Blonde d'Aquitaine", "Épaule d'agneau Lozère", "Queue de boeuf au foie gras"],
+        cuisine: ["Fricassée de rognons à la truffe", "Faux-filet Blonde d’Aquitaine", "Épaule d’agneau Lozère", "Queue de boeuf au foie gras"],
         drinks: ["Cave 1000+ références", "Grands Bourgognes", "Armoire vitrée spectaculaire"],
-        must_eat: "La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d'Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
+        must_eat: "La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d’Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
         must_drink: "La cave est le nerf de guerre : 1000+ références, dominante Bourgogne et Rhône. Les verres démarrent à 10€ mais laissez-vous guider vers une bouteille — le rapport qualité-prix est honnête."
     }
 };

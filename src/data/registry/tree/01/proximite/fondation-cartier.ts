@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const fondation_cartier: SurgicalPlace = {
     "id": "poi-056",
-    "name": "Fondation Cartier pour l'art contemporain",
+    "name": "Fondation Cartier pour l’art contemporain",
     "slug": "fondation-cartier",
     "category": "museum",
     "subcategory": [
@@ -40,8 +40,8 @@ export const fondation_cartier: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Dans un bâtiment de verre et d'acier signé Jean Nouvel boulevard Raspail, la Fondation Cartier est une bulle de transparence. Le jardin, conçu comme une friche sauvage par l'artiste Lothar Baumgarten, est une œuvre à part entière. Les expos y sont souvent grandioses et populaires (Ron Mueck, David Lynch, les Yanomami). C'est un lieu qui décloisonne l'art contemporain, le rendant accessible, beau et en lien direct avec la nature urbaine.",
-    "insider_tip": "Le jardin sauvage est une œuvre d'art en soi.",
+    "description": "Dans un bâtiment de verre et d’acier signé Jean Nouvel boulevard Raspail, la Fondation Cartier est une bulle de transparence. Le jardin, conçu comme une friche sauvage par l’artiste Lothar Baumgarten, est une œuvre à part entière. Les expos y sont souvent grandioses et populaires (Ron Mueck, David Lynch, les Yanomami). C’est un lieu qui décloisonne l'art contemporain, le rendant accessible, beau et en lien direct avec la nature urbaine.",
+    "insider_tip": "Le jardin sauvage est une œuvre d’art en soi.",
     "specials": {
         "cuisine": [],
         "drinks": []

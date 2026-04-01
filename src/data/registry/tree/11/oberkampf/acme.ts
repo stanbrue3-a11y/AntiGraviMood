@@ -5,9 +5,9 @@ export const acme: SurgicalPlace = {
     name: "Acmé",
     slug: "acme",
     category: "restaurant",
-    subcategory: ["gastronomique", "créatif", "parisien", "restaurant"],
+    subcategory: ['français'],
     location: {
-        address: "16 Rue de l'Asile Popincourt",
+        address: "16 Rue de l’Asile Popincourt",
         arrondissement: 11,
         lat: 48.8596657,
         lng: 2.3734066,
@@ -45,11 +45,11 @@ export const acme: SurgicalPlace = {
             // MENU 100% EXHAUSTIF INJECTÉ (Standard Moelle)
             {
                 category_type: "tasting_menu",
-                display_label: "L'Univers Margot Delacroix (Menus Dégustation)",
+                display_label: "L’Univers Margot Delacroix (Menus Dégustation)",
                 items: [
                     { name: "Menu Déjeuner (E+P+D)", price_cents: 3300, description: "Entrée, plat et dessert (ou fromage) au choix de la cheffe." },
-                    { name: "Menu 'L'Ode au Végétal' 5 Temps", price_cents: 5100, description: "4 étapes salées et un dessert signature (Midi & Soir)." },
-                    { name: "Menu 'L'Ode au Végétal' 6 Temps", price_cents: 6000, description: "4 étapes salées, fromage ou pré-dessert, et dessert signature." },
+                    { name: "Menu ’L’Ode au Végétal’ 5 Temps", price_cents: 5100, description: "4 étapes salées et un dessert signature (Midi & Soir)." },
+                    { name: "Menu ’L’Ode au Végétal’ 6 Temps", price_cents: 6000, description: "4 étapes salées, fromage ou pré-dessert, et dessert signature." },
                     { name: "Accord Mets & Vins (4 verres)", price_cents: 4000 },
                     { name: "Accord Mets & Boissons Sans Alcool", price_cents: 3000, description: "Infusions froides, kéfirs et jus travaillés." }
                 ]
@@ -58,7 +58,7 @@ export const acme: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Exemples de Créations Florales & Graphiques (2025)",
                 items: [
-                    { name: "Poireaux crayons au barbecue, dashi & katsuobushi", price_cents: 1400, description: "Une explosion d'umami équilibrée par le brûlé." },
+                    { name: "Poireaux crayons au barbecue, dashi & katsuobushi", price_cents: 1400, description: "Une explosion d’umami équilibrée par le brûlé." },
                     { name: "Stracciatella, betteraves multicolores, aneth & ponzu", price_cents: 1300 },
                     { name: "Radis & Courgettes au pesto de noisettes & sorbet herbes", price_cents: 1200 },
                     { name: "Tatin de céleri-rave, jus végétal corsé", price_cents: 1800, description: "Un plat signature déroutant, terreux et délicat." },
@@ -75,9 +75,9 @@ export const acme: SurgicalPlace = {
                 display_label: "Douceurs & Affinages",
                 items: [
                     { name: "Cheesecake à la rose & chèvre frais (Signature)", price_cents: 1100, description: "Mélisse, brisures de meringue et fleurs comestibles." },
-                    { name: "Pomme confite, cardamome & caramel d'algues", price_cents: 1000 },
+                    { name: "Pomme confite, cardamome & caramel d’algues", price_cents: 1000 },
                     { name: "Panna cotta crémeuse, agrumes & fleurs", price_cents: 1000 },
-                    { name: "Sélection de fromages affinés d'Ile-de-France", price_cents: 1200 },
+                    { name: "Sélection de fromages affinés d’Ile-de-France", price_cents: 1200 },
                     { name: "Mignardises florales (Guimauve mélisse, pâte de fruit coing)", price_cents: 0 }
                 ]
             },
@@ -103,13 +103,13 @@ export const acme: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.9,
-    description: "Acmé est le projet personnel de la cheffe Margot Delacroix, une adresse intimiste et lumineuse où la cuisine française est repensée avec une grande délicatesse florale et graphique. Ici, pas de carte fixe mais des menus 'carte blanche' qui subliment le végétal et les produits de terroir avec des techniques de haute gastronomie (fermentation, brûlis, infusions), le tout dans une ambiance chaleureuse et décontractée.",
-    insider_tip: "• C'est l'un des meilleurs rapports qualité-prix gastronomiques du quartier (menu 5 temps à 51€).\n• Demandez l'accord sans alcool : la cheffe travaille des extractions de plantes fascinantes.\n• La tarte Tatin de céleri est une expérience gustative déroutante et géniale.\n• Les tables sont peu nombreuses, la réservation est impérative plusieurs jours à l'avance.",
+    description: "Acmé est le projet personnel de la cheffe Margot Delacroix, une adresse intimiste et lumineuse où la cuisine française est repensée avec une grande délicatesse florale et graphique. Ici, pas de carte fixe mais des menus ’carte blanche' qui subliment le végétal et les produits de terroir avec des techniques de haute gastronomie (fermentation, brûlis, infusions), le tout dans une ambiance chaleureuse et décontractée.",
+    insider_tip: "• C’est l’un des meilleurs rapports qualité-prix gastronomiques du quartier (menu 5 temps à 51€).\n• Demandez l’accord sans alcool : la cheffe travaille des extractions de plantes fascinantes.\n• La tarte Tatin de céleri est une expérience gustative déroutante et géniale.\n• Les tables sont peu nombreuses, la réservation est impérative plusieurs jours à l'avance.",
     expert_catchline: "Haute gastronomie florale, créative et abordable menée par la talentueuse cheffe Margot Delacroix.",
     specials: {
         cuisine: ["Menu Carte Blanche 5/6 temps", "Tatin de céleri", "Cuisine florale et graphique", "Produits de saison sourcés"],
         drinks: ["Vins de vignerons", "Cocktails signatures", "Infusions froides maison"],
-        must_eat: "L'assiette de poireaux crayons au dashi et katsuobushi : une démonstration de maîtrise du goût umami appliqué au végétal.",
+        must_eat: "L’assiette de poireaux crayons au dashi et katsuobushi : une démonstration de maîtrise du goût umami appliqué au végétal.",
         must_drink: "Le Kéfir de fruits maison, toujours surprenant et parfaitement équilibré pour accompagner les étapes salées."
     }
 };

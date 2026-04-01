@@ -44,11 +44,11 @@ export const le_pure_cafe: SurgicalPlace = {
         "menu_items": [
             {
                 "category_type": "other",
-                "display_label": "L'Ardoise du Déjeuner",
+                "display_label": "L’Ardoise du Déjeuner",
                 "items": [
                     { "name": "Plat du Jour", "price_cents": 1150 },
                     { "name": "Pure Burger & Frites maison", "price_cents": 1500 },
-                    { "name": "Fish N' Chips, sauce tartare", "price_cents": 1500 },
+                    { "name": "Fish N’ Chips, sauce tartare", "price_cents": 1500 },
                     { "name": "Suprême de Canette des Dombes rôti", "price_cents": 1500 },
                     { "name": "Ceviche de Truite, vinaigrette mangue", "price_cents": 1500 },
                     { "name": "Pavé de Colin en papillote", "price_cents": 1500 },
@@ -61,7 +61,7 @@ export const le_pure_cafe: SurgicalPlace = {
                 "items": [
                     { "name": "Steak Frites, sauce au poivre", "price_cents": 1900 },
                     { "name": "Tartare de Bœuf préparé", "price_cents": 1800 },
-                    { "name": "Pavé de Saumon à l'unilatérale", "price_cents": 2000 },
+                    { "name": "Pavé de Saumon à l’unilatérale", "price_cents": 2000 },
                     { "name": "Salade César au poulet croustillant", "price_cents": 1650 }
                 ]
             },
@@ -83,8 +83,8 @@ export const le_pure_cafe: SurgicalPlace = {
         "festif": 30,
         "culturel": 70
     },
-    "description": "Véritable décor de cinéma (immortalisé dans 'Before Sunset'), Le Pure Café est l'archétype du beau bistrot d'angle parisien. Avec son bar circulaire en bois, ses boiseries patinées et ses larges miroirs, il dégage une atmosphère intemporelle et chaleureuse. C'est l'endroit idéal pour un café matinal avec un livre, un déjeuner de quartier efficace ou un verre entre amis dans une ambiance feutrée et authentique.",
-    "insider_tip": "La table dans l'angle vitré est la plus prisée pour observer la vie de la rue Jean Macé. C'est exactement là que se déroule la scène culte du film.",
+    "description": "Véritable décor de cinéma (immortalisé dans ’Before Sunset’), Le Pure Café est l’archétype du beau bistrot d’angle parisien. Avec son bar circulaire en bois, ses boiseries patinées et ses larges miroirs, il dégage une atmosphère intemporelle et chaleureuse. C’est l'endroit idéal pour un café matinal avec un livre, un déjeuner de quartier efficace ou un verre entre amis dans une ambiance feutrée et authentique.",
+    "insider_tip": "La table dans l’angle vitré est la plus prisée pour observer la vie de la rue Jean Macé. C'est exactement là que se déroule la scène culte du film.",
     "expert_catchline": "Le bistrot cinématographique et intemporel de Charonne.",
     "specials": {
         "cuisine": ["French Bistro", "Burgers", "Salades"],

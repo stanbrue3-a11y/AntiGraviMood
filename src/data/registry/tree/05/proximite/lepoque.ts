@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const lepoque: SurgicalPlace = {
     "id": "poi-lepoque-75005",
-    "name": "L'Époque",
+    "name": "L’Époque",
     "slug": "lepoque-paris-5",
     "category": "restaurant",
     "subcategory": ["français", "traditionnel", "fait-maison"],
@@ -39,17 +39,17 @@ export const lepoque: SurgicalPlace = {
         "wine_glass": 5.5,
         "coffee_price": 2.5,
         "soft_price": 5,
-        "smart_tip": "La formule soir à 31,80€ est le pivot de cette table. Le midi, l'offre à 15,80€ (E+P ou P+D) est une anomalie de prix pour une telle qualité de produit frais.",
+        "smart_tip": "La formule soir à 31,80€ est le pivot de cette table. Le midi, l’offre à 15,80€ (E+P ou P+D) est une anomalie de prix pour une telle qualité de produit frais.",
         "menu_items": [
             {
                 "category_type": "main",
                 "display_label": "Plats de Tradition",
                 "items": [
-                    { "name": "Souris d'Agneau de 7h", "price_cents": 2500, "description": "Spécialité confite fondante, cuisson lente maîtrisée." },
+                    { "name": "Souris d’Agneau de 7h", "price_cents": 2500, "description": "Spécialité confite fondante, cuisson lente maîtrisée." },
                     { "name": "Cassoulet Artisanal", "price_cents": 1750 },
                     { "name": "Pièce du Boucher (VBF)", "price_cents": 2300, "description": "Accompagnée de frites maison coupées sur place." },
                     { "name": "Tartare Traditionnel", "price_cents": 1700 },
-                    { "name": "Burger Gourmet L'Époque", "price_cents": 1600 }
+                    { "name": "Burger Gourmet L’Époque", "price_cents": 1600 }
                 ]
             },
             {
@@ -88,13 +88,13 @@ export const lepoque: SurgicalPlace = {
         "festif": 20,
         "culturel": 75
     },
-    "description": "Une institution parisienne immuable située entre le Panthéon et la place de la Contrescarpe. Le décor Art Nouveau et Belle Époque, avec son comptoir ancien et ses nappes à carreaux, abrite une cuisine qui refuse tout compromis sur le 'Fait Maison'.",
-    "insider_tip": "• Cuisson Lente : La souris d'agneau de 7h est une masterclass de tendreté, elle justifie à elle seule le déplacement.\n• Acoustique : Pour un dîner confidentiel, privilégiez la salle du fond, bien plus feutrée que le dynamisme de la salle principale.\n• Gage de Qualité : Les frites sont réellement épluchées et coupées sur place, un détail qui trahit l'exigence de la maison.",
+    "description": "Une institution parisienne immuable située entre le Panthéon et la place de la Contrescarpe. Le décor Art Nouveau et Belle Époque, avec son comptoir ancien et ses nappes à carreaux, abrite une cuisine qui refuse tout compromis sur le ’Fait Maison'.",
+    "insider_tip": "• Cuisson Lente : La souris d’agneau de 7h est une masterclass de tendreté, elle justifie à elle seule le déplacement.\n• Acoustique : Pour un dîner confidentiel, privilégiez la salle du fond, bien plus feutrée que le dynamisme de la salle principale.\n• Gage de Qualité : Les frites sont réellement épluchées et coupées sur place, un détail qui trahit l'exigence de la maison.",
     "specials": {
         "cuisine": ["Traditionnelle", "Gastronomique", "Faits Maison"],
         "drinks": ["Vins AOC", "Bières Pression", "Digestifs"],
-        "must_eat": "Souris d'Agneau & Crumble de Boudin Noir.",
-        "expert_catchline": "Une institution parisienne immuable : des nappes à carreaux, une souris d'agneau de 7h et un accueil sincère."
+        "must_eat": "Souris d’Agneau & Crumble de Boudin Noir.",
+        "expert_catchline": "Une institution parisienne immuable : des nappes à carreaux, une souris d’agneau de 7h et un accueil sincère."
     },
     "images": {
         "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=ATCDNfV7qHMW0WLjoalp1gh-cZou6S3LNvWFO_pafcJVtIyd9xZHoWm4LedR5aNYOvOHgeFzwXs4Z4dm26vM7ZVcOI9mml4uFUeii2sghzoUA_BnbFybD1hotgJtb5XxcC1jiDC5sNYJF46caZzoulpBcg2QdBGZNL30DybgyINYobDsxA3-r2_iouAbAw7yzaO9PJT9Ds8L0vFhjH87RU447BwWPFl8zy7XVT9IJHrc4BOmh9KR-q4gb9WF8E4wEWAKOkGMzYfCExfFvxEP124Q5X1mDHgTrms-WGV1766VFqEszGRcg5Nbe7IC2ot9CGlFBcz__PozKDz2f4yQKaptsqqPRzwaMxZ7iiLchhm4wKILFXKnm0oFSAedack1GNJit8En4_Qg4snLQ9Wzte8UblCWHrRxl8OhKIT3PBdN43g0uQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",

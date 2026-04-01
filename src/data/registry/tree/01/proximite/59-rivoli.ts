@@ -6,7 +6,7 @@ export const poi_59_rivoli: SurgicalPlace = {
     "slug": "59-rivoli",
     "category": "museum",
     "subcategory": [
-        "résidence d'artistes"
+        "résidence d’artistes"
     ],
     "verified": true,
     "google_rating": 4.5,
@@ -40,8 +40,8 @@ export const poi_59_rivoli: SurgicalPlace = {
         "festif": 7.3,
         "culturel": 24
     },
-    "description": "Ancien squat d'artistes devenu officiel, le 59 Rivoli est une explosion de créativité brute sur six étages. Chaque atelier est un univers en soi, où l'on peut voir les artistes travailler en direct, discuter avec eux et même acheter une œuvre. La façade, toujours décorée de manière extravagante, est le reflet de l'effervescence qui règne à l'intérieur. C'est le Paris alternatif qui résiste avec panache au cœur de l'artère commerciale de la ville.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Ancien squat d’artistes devenu officiel, le 59 Rivoli est une explosion de créativité brute sur six étages. Chaque atelier est un univers en soi, où l’on peut voir les artistes travailler en direct, discuter avec eux et même acheter une œuvre. La façade, toujours décorée de manière extravagante, est le reflet de l’effervescence qui règne à l’intérieur. C’est le Paris alternatif qui résiste avec panache au cœur de l'artère commerciale de la ville.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

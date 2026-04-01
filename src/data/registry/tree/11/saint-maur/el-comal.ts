@@ -5,7 +5,7 @@ export const elComal: SurgicalPlace = {
     name: "El Comal",
     slug: "el-comal",
     category: "restaurant",
-    subcategory: ["mexican", "street-food", "tacos", "authentic"],
+    subcategory: ['français'],
     location: {
         address: "55 Rue Saint-Maur",
         arrondissement: 11,
@@ -90,13 +90,13 @@ export const elComal: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Élu par beaucoup comme le restaurant mexicain le plus authentique du quartier. Chez El Comal, pas de chichis : les tortillas de maïs sont faites maison au fur et à mesure, et les saveurs nous transportent directement à Mexico. Mention spéciale pour la Tinga de Pollo et l'accueil toujours souriant de l'équipe. Un petit bout de Mexique sur la rue Saint-Maur.",
-    insider_tip: "Ne passez pas à côté de l'Aqua de Jamaica maison, elle est parfaitement dosée et accompagne divinement les tacos pimentés.",
-    expert_catchline: "L'authenticité mexicaine brute et savoureuse rue Saint-Maur.",
+    description: "Élu par beaucoup comme le restaurant mexicain le plus authentique du quartier. Chez El Comal, pas de chichis : les tortillas de maïs sont faites maison au fur et à mesure, et les saveurs nous transportent directement à Mexico. Mention spéciale pour la Tinga de Pollo et l’accueil toujours souriant de l'équipe. Un petit bout de Mexique sur la rue Saint-Maur.",
+    insider_tip: "Ne passez pas à côté de l’Aqua de Jamaica maison, elle est parfaitement dosée et accompagne divinement les tacos pimentés.",
+    expert_catchline: "L’authenticité mexicaine brute et savoureuse rue Saint-Maur.",
     specials: {
         cuisine: ["Tacos artisanaux", "Tortillas de maïs maison", "Spécialités mexicaines"],
         drinks: ["Jarritos", "Hibiscus Water", "Mexican Beers"],
         must_eat: "Les Tacos Al Pastor (ananas/porc marinée).",
-        must_drink: "L'Aqua de Jamaica maison."
+        must_drink: "L’Aqua de Jamaica maison."
     }
 };

@@ -5,7 +5,7 @@ export const le_rempart_bastille: SurgicalPlace = {
   slug: "le-rempart-bastille",
   name: "Le Rempart Bastille",
   category: "restaurant",
-  subcategory: ["français", "brasserie", "bastille", "traditionnel", "terrasse"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "15 Rue Saint-Antoine, 75004 Paris, France",
     arrondissement: 4,
@@ -41,10 +41,10 @@ export const le_rempart_bastille: SurgicalPlace = {
         category_type: "starter",
         display_label: "Les Entrées",
         items: [
-          { name: "Œufs mayonnaise 'Rempart'", price_cents: 650, description: "L'indémodable de la maison" },
+          { name: "Œufs mayonnaise ’Rempart'", price_cents: 650, description: "L’indémodable de la maison" },
           { name: "Os à moelle rôti au sel de Guérande", price_cents: 1100 },
-          { name: "Soupe à l'oignon gratinée", price_cents: 950 },
-          { name: "Burrata crémeuse et tomates d'antan", price_cents: 1250 },
+          { name: "Soupe à l’oignon gratinée", price_cents: 950 },
+          { name: "Burrata crémeuse et tomates d’antan", price_cents: 1250 },
           { name: "Escargots de Bourgogne (x6)", price_cents: 900 },
           { name: "Planche de charcuterie fine", price_cents: 1800 }
         ]
@@ -77,12 +77,12 @@ export const le_rempart_bastille: SurgicalPlace = {
       }
     ]
   },
-  description: "Trônant fièrement à l'angle de la rue Saint-Antoine, Le Rempart est l'archétype de la grande brasserie parisienne qui ne dort jamais. Avec sa terrasse chauffée donnant sur l'effervescence de Bastille, c'est le spot idéal pour observer la faune urbaine tout en dégustant des classiques parfaitement exécutés. L'ambiance y est électrique, surtout en fin de semaine.",
-  insider_tip: "• La terrasse est l'une des meilleures de Bastille pour le 'people watching'.\n• Le samedi soir, la cuisine ferme plus tard (01h00), idéal pour un dîner post-spectacle à l'Opéra.\n• Leurs frites maison sont particulièrement réussies, n'hésitez pas à demander un supplément.",
+  description: "Trônant fièrement à l’angle de la rue Saint-Antoine, Le Rempart est l’archétype de la grande brasserie parisienne qui ne dort jamais. Avec sa terrasse chauffée donnant sur l’effervescence de Bastille, c’est le spot idéal pour observer la faune urbaine tout en dégustant des classiques parfaitement exécutés. L’ambiance y est électrique, surtout en fin de semaine.",
+  insider_tip: "• La terrasse est l’une des meilleures de Bastille pour le ’people watching’.\n• Le samedi soir, la cuisine ferme plus tard (01h00), idéal pour un dîner post-spectacle à l’Opéra.\n• Leurs frites maison sont particulièrement réussies, n’hésitez pas à demander un supplément.",
   specials: {
     cuisine: ["Française", "Brasserie", "Bastille"],
     drinks: ["Cocktails classiques", "Vin au verre"],
-    must_eat: "Cuisine française. L'Os à moelle & Le Burger du Rempart",
+    must_eat: "Cuisine française. L’Os à moelle & Le Burger du Rempart",
   },
   images: {
     hero: "AU_ZVEGS0jMDJS6mrf1ESCiqOMCfXMmtF68f8yFwQHVqSMq0ihNogEqoM8b4tRPFL3OB2tgcK10q1hTC-gBHw6xxUUIA-Wi3LsWjykUoPT36ruVfQD6FwaAaJVk37JVciz6Sh4Cy_fw6uILx3uwyudS4Iee-cmJGYDe3IRDhz9ZQcZaija7sQdY4pzEF6-QKxckO1oY9NIV1SPhFvTAviSCTzwYv4qQU-YDar_26oJoVzMrq5FERPIxNTbpWBgf1Squpmv5fmFA77uuVDUzSYjn2erqjL2tlSPELzPN4kDABbnmf8Q",

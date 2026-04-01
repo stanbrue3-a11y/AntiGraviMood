@@ -5,7 +5,7 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
   slug: "le-moulin-de-la-galette",
   name: "Le Moulin de la Galette",
   category: "restaurant",
-  subcategory: ["brasserie", "historique", "chic", "traditionnel"],
+  subcategory: ['français'],
   location: {
     address: "83 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
@@ -46,11 +46,11 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
           { name: "Terrine de Foie Gras de Canard & Chutney", price_cents: 2600, is_highlight: true },
           { name: "Escargots de Bourgogne en coquille (x9)", price_cents: 1900, is_highlight: true },
           { name: "Cuisses de Grenouille à la Provençale", price_cents: 1900 },
-          { name: "Gratinée à l'Oignon Traditionnelle", price_cents: 1400 },
+          { name: "Gratinée à l’Oignon Traditionnelle", price_cents: 1400 },
           { name: "Assiette de Saumon fumé & Blinis Maison", price_cents: 2400 },
           { name: "Entrée du jour du Marché", price_cents: 1200 },
           { name: "Carpaccio de Bœuf, Copeaux de Grana & Basilic", price_cents: 1800 },
-          { name: "Burrata crémeuse & Tomates d'Antan au pesto", price_cents: 1700 }
+          { name: "Burrata crémeuse & Tomates d’Antan au pesto", price_cents: 1700 }
         ]
       },
       {
@@ -72,7 +72,7 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
         display_label: "Accords Moelleux (Plats)",
         items: [
           { name: "Purée de Pommes de Terre onctueuse au Burret", price_cents: 750, is_highlight: true },
-          { name: "Pommes Grenailles sautées à l'Ail & Persil", price_cents: 700 },
+          { name: "Pommes Grenailles sautées à l’Ail & Persil", price_cents: 700 },
           { name: "Épinards frais à la crème de Normandie", price_cents: 650 },
           { name: "Julienne de Légumes de saison croquants", price_cents: 700 },
           { name: "Frites Maison double cuisson croustillantes", price_cents: 600 }
@@ -106,8 +106,8 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Moulin de la Galette est une icône vivante de l'histoire de Montmartre. Mentionné dès 1622 et immortalisé par Renoir, ce lieu mythique propose aujourd'hui une expérience de brasserie chic et intemporelle. Sous l'imposant moulin en bois, on déguste les grands classiques de la cuisine bourgeoise française — Coq au vin, Sole meunière, Escargots — dans un cadre qui respire l'âme bohème du XIXe siècle. Sa terrasse ombragée est l'un des secrets les mieux gardés de la Butte pour un déjeuner hors du temps.",
-  insider_tip: "• **La Table de Renoir** : Demandez une place en terrasse pour vous imprégner de l'atmosphère qui a inspiré le célèbre peintre.\n• **Le Coq au Vin** : C'est une recette inchangée, rustique et réconfortante, exactement ce qu'on attend d'une telle institution.\n• **Visite du Moulin** : Le moulin lui-même ne se visite pas de l'intérieur, mais le restaurant est le seul point d'accès pour l'admirer de si près.",
+  description: "Le Moulin de la Galette est une icône vivante de l’histoire de Montmartre. Mentionné dès 1622 et immortalisé par Renoir, ce lieu mythique propose aujourd’hui une expérience de brasserie chic et intemporelle. Sous l’imposant moulin en bois, on déguste les grands classiques de la cuisine bourgeoise française — Coq au vin, Sole meunière, Escargots — dans un cadre qui respire l’âme bohème du XIXe siècle. Sa terrasse ombragée est l’un des secrets les mieux gardés de la Butte pour un déjeuner hors du temps.",
+  insider_tip: "• **La Table de Renoir** : Demandez une place en terrasse pour vous imprégner de l’atmosphère qui a inspiré le célèbre peintre.\n• **Le Coq au Vin** : C’est une recette inchangée, rustique et réconfortante, exactement ce qu’on attend d’une telle institution.\n• **Visite du Moulin** : Le moulin lui-même ne se visite pas de l’intérieur, mais le restaurant est le seul point d’accès pour l’admirer de si près.",
   specials: {
     cuisine: ["Cuisine bourgeoise traditionnelle", "Plats signatures classiques", "Atmosphère historique"],
     drinks: ["Belle sélection de vins (150 réf)", "Cocktails classiques", "Cave à champagne"],

@@ -5,7 +5,7 @@ export const cavale: SurgicalPlace = {
     name: "Cavale",
     slug: "cavale",
     category: "restaurant",
-    subcategory: ["brasserie", "français", "bar"],
+    subcategory: ['français'],
     location: {
         address: "40 Rue des Petites Écuries",
         arrondissement: 10,
@@ -50,7 +50,7 @@ export const cavale: SurgicalPlace = {
                 items: [
                     { name: "Croquetas de truffade et coppa (3 pièces)", price_cents: 1000 },
                     { name: "Accra de cabillaud et patate douce (6 pièces)", price_cents: 1100 },
-                    { name: "Oeuf mayo à la chapelure d'herbes", price_cents: 1000 },
+                    { name: "Oeuf mayo à la chapelure d’herbes", price_cents: 1000 },
                     { name: "Terrine de Steph", price_cents: 1200 },
                     { name: "Ceviche de thon", price_cents: 1200 },
                     { name: "Gros nem de feta croustillant", price_cents: 1100 }
@@ -75,8 +75,8 @@ export const cavale: SurgicalPlace = {
                     { name: "Planche de charcuterie", price_cents: 2000 },
                     { name: "Planche de fromages affinés", price_cents: 2000 },
                     { name: "Planche Mixte", price_cents: 2300 },
-                    { name: "Le Croque (jambon, crème de truffe d'été)", price_cents: 900 },
-                    { name: "Camembert rôti, noix de pécan, sirop d'érable", price_cents: 1000 },
+                    { name: "Le Croque (jambon, crème de truffe d’été)", price_cents: 900 },
+                    { name: "Camembert rôti, noix de pécan, sirop d’érable", price_cents: 1000 },
                     { name: "Castaniù (frites, cantal fondu, lard fumé)", price_cents: 900 },
                     { name: "Assiette de frites", price_cents: 600 },
                     { name: "Frites de patate douce", price_cents: 800 }
@@ -130,13 +130,13 @@ export const cavale: SurgicalPlace = {
     instagram_handle: "cavale_paris",
     verified: true,
     google_rating: 4.8,
-    description: "Installée rue des Petites Écuries, Cavale est la brasserie moderne par excellence du 10ème arrondissement. Dotée d'une architecture singulière avec son plafond miroir, sa décoration léchée et sa terrasse couverte, le lieu vibre au rythme des bandes de copains qui s'y retrouvent pour de grandes tablées animées. Côté assiette, c'est une cuisine française créative, généreuse, et redoutablement efficace qui fait le pont entre classiques bistrotiers et street-food pointue.",
-    insider_tip: "• Si vous cherchez un dîner romantique et calme, fuyez : l'endroit est réputé pour son niveau sonore extrêmement festif (et bruyant) en soirée.\n• La terrasse couverte est équipée de chauffages et de couvertures en hiver, ce qui en fait un spot très prisé toute l'année.\n• Leurs \"tapas\" hybrides, comme les gros Nems de Feta (11€) ou le Castaniù (Frites, cantal fondu et lard fumé à 9€), sont exceptionnels pour accompagner l'apéro.",
-    expert_catchline: "Brasserie vibrante et bouillonnante du 10ème, où l'on dévore une cuisine ultra-généreuse dans un joyeux vacarme.",
+    description: "Installée rue des Petites Écuries, Cavale est la brasserie moderne par excellence du 10ème arrondissement. Dotée d’une architecture singulière avec son plafond miroir, sa décoration léchée et sa terrasse couverte, le lieu vibre au rythme des bandes de copains qui s’y retrouvent pour de grandes tablées animées. Côté assiette, c’est une cuisine française créative, généreuse, et redoutablement efficace qui fait le pont entre classiques bistrotiers et street-food pointue.",
+    insider_tip: "• Si vous cherchez un dîner romantique et calme, fuyez : l’endroit est réputé pour son niveau sonore extrêmement festif (et bruyant) en soirée.\n• La terrasse couverte est équipée de chauffages et de couvertures en hiver, ce qui en fait un spot très prisé toute l'année.\n• Leurs \"tapas\" hybrides, comme les gros Nems de Feta (11€) ou le Castaniù (Frites, cantal fondu et lard fumé à 9€), sont exceptionnels pour accompagner l’apéro.",
+    expert_catchline: "Brasserie vibrante et bouillonnante du 10ème, où l’on dévore une cuisine ultra-généreuse dans un joyeux vacarme.",
     specials: {
-        cuisine: ["Magret de canard au sirop d'érable", "Le Croque à la truffe d'été", "Gros nem de Feta croustillant", "Brioche Perdue"],
+        cuisine: ["Magret de canard au sirop d’érable", "Le Croque à la truffe d’été", "Gros nem de Feta croustillant", "Brioche Perdue"],
         drinks: ["Pinte de bière", "Cocktails création", "Vin de copains"],
-        must_eat: "Cuisine de brasserie percutante. Incontournables : les croquetas truffade, le magret de canard au sirop d'érable, et la fameuse brioche perdue en dessert.",
-        must_drink: "Large sélection de cocktails création, vins nature pointus et pintes fraîches. Le bar tourne à plein régime jusqu'à la fermeture."
+        must_eat: "Cuisine de brasserie percutante. Incontournables : les croquetas truffade, le magret de canard au sirop d’érable, et la fameuse brioche perdue en dessert.",
+        must_drink: "Large sélection de cocktails création, vins nature pointus et pintes fraîches. Le bar tourne à plein régime jusqu’à la fermeture."
     }
 };

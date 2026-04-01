@@ -5,7 +5,7 @@ export const onze_a_table: SurgicalPlace = {
     name: "Onze à Table",
     slug: "onze-a-table",
     category: "restaurant",
-    subcategory: ["bistrot", "fait maison", "brunch", "vins", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "10 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -63,7 +63,7 @@ export const onze_a_table: SurgicalPlace = {
                     // VERIFIED: Site officiel (2024)
                     { name: "Œufs mayo façon César", price_cents: 900 },
                     { name: "Champignons farcis", price_cents: 1000 },
-                    { name: "Soupe à l'oignon", price_cents: 1000 },
+                    { name: "Soupe à l’oignon", price_cents: 1000 },
                     { name: "Velouté de butternut", price_cents: 1200 },
                     { name: "Carpaccio de bar", price_cents: 1300 },
                     { name: "Foie gras de canard mi-cuit maison", price_cents: 1800 }
@@ -93,10 +93,10 @@ export const onze_a_table: SurgicalPlace = {
                     { name: "Spaghetti à la crème de truffe", price_cents: 2100 },
                     { name: "Burger de bœuf effiloché", price_cents: 2300 },
                     { name: "Tataki de thon crispy", price_cents: 2700 },
-                    { name: "Effiloché d'épaule d'agneau confite", price_cents: 2800 },
+                    { name: "Effiloché d’épaule d'agneau confite", price_cents: 2800 },
                     { name: "Dos de saumon laqué au soja", price_cents: 2900 },
                     { name: "Noix de Saint-Jacques", price_cents: 3500 },
-                    { name: "Noix d'entrecôte d'Argentine 250g", price_cents: 3700 }
+                    { name: "Noix d’entrecôte d'Argentine 250g", price_cents: 3700 }
                 ]
             },
             // ═══════════════════════════════════════════
@@ -139,13 +139,13 @@ export const onze_a_table: SurgicalPlace = {
     instagram_handle: "onzeatable",
     verified: true,
     google_rating: 4.7,
-    description: "Onze à Table est le bistrot fait maison parfait de la Folie Méricourt : une carte généreuse qui va du tartare de bœuf au tataki de thon crispy, en passant par une entrecôte d'Argentine et un foie gras mi-cuit maison. Le dimanche, le brunch copieux à 34€ attire tout le quartier. Le cadre est chaleureux et moderne, avec une carte de vins de vignerons indépendants.",
-    insider_tip: "• Le brunch du dimanche à 34€ est un rendez-vous incontournable du 11ème — venez tôt (dès 11h) pour avoir une table.\n• Le Tataki de thon crispy (27€) est le plat signature — la cuisson est parfaite.\n• Les Spaghetti à la crème de truffe (21€) sont une valeur sûre prix/plaisir.\n• La noix d'entrecôte d'Argentine (37€) est un beau morceau de 250g pour les amateurs de viande.\n• Le foie gras mi-cuit maison (18€) en entrée est fait sur place et change la donne vs les versions industrielles.",
+    description: "Onze à Table est le bistrot fait maison parfait de la Folie Méricourt : une carte généreuse qui va du tartare de bœuf au tataki de thon crispy, en passant par une entrecôte d’Argentine et un foie gras mi-cuit maison. Le dimanche, le brunch copieux à 34€ attire tout le quartier. Le cadre est chaleureux et moderne, avec une carte de vins de vignerons indépendants.",
+    insider_tip: "• Le brunch du dimanche à 34€ est un rendez-vous incontournable du 11ème — venez tôt (dès 11h) pour avoir une table.\n• Le Tataki de thon crispy (27€) est le plat signature — la cuisson est parfaite.\n• Les Spaghetti à la crème de truffe (21€) sont une valeur sûre prix/plaisir.\n• La noix d’entrecôte d'Argentine (37€) est un beau morceau de 250g pour les amateurs de viande.\n• Le foie gras mi-cuit maison (18€) en entrée est fait sur place et change la donne vs les versions industrielles.",
     expert_catchline: "Le bistrot fait maison du 11ème : du tartare au tataki, brunch copieux et vins de vignerons.",
     specials: {
-        cuisine: ["Tataki de thon crispy", "Entrecôte d'Argentine", "Tartare de bœuf", "Foie gras mi-cuit maison"],
+        cuisine: ["Tataki de thon crispy", "Entrecôte d’Argentine", "Tartare de bœuf", "Foie gras mi-cuit maison"],
         drinks: ["Vins de vignerons indépendants", "Cocktails créations", "Carte accessible"],
-        must_eat: "Le Tataki de thon crispy (27€) est incontournable. En viande, l'entrecôte d'Argentine 250g (37€) est un classique. Le foie gras mi-cuit maison (18€) vaut le détour en entrée. Le dimanche : brunch complet à 34€.",
+        must_eat: "Le Tataki de thon crispy (27€) est incontournable. En viande, l’entrecôte d'Argentine 250g (37€) est un classique. Le foie gras mi-cuit maison (18€) vaut le détour en entrée. Le dimanche : brunch complet à 34€.",
         must_drink: "La carte des vins est courte mais pointue — uniquement des vignerons indépendants. Les cocktails créations à 13€ surprennent aussi."
     }
 };

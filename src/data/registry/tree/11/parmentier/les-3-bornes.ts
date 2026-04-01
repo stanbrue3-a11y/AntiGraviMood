@@ -5,7 +5,7 @@ export const les_3_bornes: SurgicalPlace = {
     name: "Les 3 Bornés",
     slug: "les-3-bornes",
     category: "restaurant",
-    subcategory: ["bistronomique", "marché", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "71 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -84,13 +84,13 @@ export const les_3_bornes: SurgicalPlace = {
     instagram_handle: "les3bornes_paris",
     verified: true,
     google_rating: 4.7,
-    description: "La pépite intimiste et rassurante de la bouillonnante rue Jean-Pierre Timbaud. Aux 3 Bornés, le chef Kévin Borel orchestre une bistronomie d'auteur élégante et canaille : tête de veau caramélisée redoutable, canette confite et vrais jus de viande corsés. La carte, ultra-courte, se renouvelle en permanence selon le marché du matin.",
-    insider_tip: "• Attention à l'amplitude d'ouverture resserrée : restaurant du soir uniquement en semaine, avec un seul service dej le samedi.\n• Le menu entrée-plat revient autour de 35-40€, ce qui est extrêmement compétitif pour le niveau d'exécution technique du chef.\n• Allez-y les yeux fermés sur leurs sauces et jus : réductions intenses garanties. Ne passez pas à côté des abats quand il y en a.",
-    expert_catchline: "Une grande bistronomie parisienne cachée rue Jean-Pierre Timbaud, où les jus et cuissons frôlent l'étoile.",
+    description: "La pépite intimiste et rassurante de la bouillonnante rue Jean-Pierre Timbaud. Aux 3 Bornés, le chef Kévin Borel orchestre une bistronomie d’auteur élégante et canaille : tête de veau caramélisée redoutable, canette confite et vrais jus de viande corsés. La carte, ultra-courte, se renouvelle en permanence selon le marché du matin.",
+    insider_tip: "• Attention à l’amplitude d’ouverture resserrée : restaurant du soir uniquement en semaine, avec un seul service dej le samedi.\n• Le menu entrée-plat revient autour de 35-40€, ce qui est extrêmement compétitif pour le niveau d’exécution technique du chef.\n• Allez-y les yeux fermés sur leurs sauces et jus : réductions intenses garanties. Ne passez pas à côté des abats quand il y en a.",
+    expert_catchline: "Une grande bistronomie parisienne cachée rue Jean-Pierre Timbaud, où les jus et cuissons frôlent l’étoile.",
     specials: {
         cuisine: ["Tête de veau caramélisée", "Ravioles de langoustines", "Pâté en croûte de joue de bœuf", "Soufflé poire-chocolat"],
         drinks: ["Sélection pointue de vignerons indépendants"],
-        must_eat: "L'entrée signature : le carpaccio de tête de veau, tiède et croustillant, piqué au vif par une sauce gribiche de haute volée.",
-        must_drink: "Laissez la salle s'amuser avec des accords inattendus sur un Chenin de Loire ou un Côtes-du-Rhône friand."
+        must_eat: "L’entrée signature : le carpaccio de tête de veau, tiède et croustillant, piqué au vif par une sauce gribiche de haute volée.",
+        must_drink: "Laissez la salle s’amuser avec des accords inattendus sur un Chenin de Loire ou un Côtes-du-Rhône friand."
     }
 };

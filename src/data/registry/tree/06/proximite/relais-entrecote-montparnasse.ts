@@ -5,7 +5,7 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
     name: "Le Relais de l’Entrecôte",
     slug: "relais-entrecote-montparnasse",
     category: "restaurant",
-    subcategory: ["viande", "bistro", "institution", "restaurant"],
+    subcategory: ['français'],
     verified: true,
     google_rating: 4.4,
     instagram_handle: "relaisdelentrecote",
@@ -38,7 +38,7 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
         pint_price: 8,
         soft_price: 4.5,
         coffee_price: 2.5,
-        smart_tip: "Pas besoin de choisir, l'institution ne sert qu'un seul menu salade-viande-frites à 29€. Gardez absolument une place pour les profiteroles.",
+        smart_tip: "Pas besoin de choisir, l’institution ne sert qu'un seul menu salade-viande-frites à 29€. Gardez absolument une place pour les profiteroles.",
         menu_items: [
             {
                 category_type: "tasting_menu",
@@ -72,13 +72,13 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
         last_updated: "2026-03-02"
     },
     moods: { chill: 40, festif: 20, culturel: 80 },
-    description: "La mécanique est implacable et le succès inébranlable depuis des décennies. L'institution repose sur un dogme simple : un menu unique (salade aux noix, viande, sauce magique et frites à volonté). Les serveuses en tenue de soubrette noire et tablier blanc virevoltent dans un décor bistro rustique, assurant un service millimétré et chaleureux.",
-    expert_catchline: "L'unique formule magique : salade, faux-filet extra tendre, frites à discrétion et sauce confidentielle.",
-    insider_tip: "- Aucune réservation n'est acceptée. La file d'attente s'allonge sur le boulevard dès 18h45.\n- Dès que votre première portion est terminée, la serveuse débarque spontanément pour vous reservir une deuxième assiette de viande chaude et des frites craquantes (tout est inclus).\n- Le service est exceptionnellement rapide : idéal avant un train à Montparnasse.\n- Le Vin du Relais est un vin bio issu du propre vignoble de la famille, excellent rapport Q/P.",
+    description: "La mécanique est implacable et le succès inébranlable depuis des décennies. L’institution repose sur un dogme simple : un menu unique (salade aux noix, viande, sauce magique et frites à volonté). Les serveuses en tenue de soubrette noire et tablier blanc virevoltent dans un décor bistro rustique, assurant un service millimétré et chaleureux.",
+    expert_catchline: "L’unique formule magique : salade, faux-filet extra tendre, frites à discrétion et sauce confidentielle.",
+    insider_tip: "- Aucune réservation n’est acceptée. La file d’attente s’allonge sur le boulevard dès 18h45.\n- Dès que votre première portion est terminée, la serveuse débarque spontanément pour vous reservir une deuxième assiette de viande chaude et des frites craquantes (tout est inclus).\n- Le service est exceptionnellement rapide : idéal avant un train à Montparnasse.\n- Le Vin du Relais est un vin bio issu du propre vignoble de la famille, excellent rapport Q/P.",
     specials: {
         cuisine: ["Faux-filet", "Frites Allumettes", "Sauce Secrète"],
         drinks: ["Vin de la Propriété (Château de Saurs)", "Bordeaux"],
-        must_eat: "L'irréductible menu unique (29€) et les profiteroles géantes en dessert.",
+        must_eat: "L’irréductible menu unique (29€) et les profiteroles géantes en dessert.",
         expert_catchline: "Le temple de la viande où les frites dorées coulent à flots."
     },
     images: {

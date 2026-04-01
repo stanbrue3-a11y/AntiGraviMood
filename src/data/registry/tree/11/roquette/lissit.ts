@@ -5,7 +5,7 @@ export const lissit: SurgicalPlace = {
     name: "Lissit",
     slug: "lissit",
     category: "restaurant",
-    subcategory: ["french", "bistrot", "bib-gourmand", "natural wine"],
+    subcategory: ['français'],
     location: {
         address: "48 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -49,7 +49,7 @@ export const lissit: SurgicalPlace = {
                 items: [
                     { name: "Pâté en croûte du moment", price_cents: 1200, description: "Charcuterie 100% faite maison." },
                     { name: "Terrine de campagne & Pickles", price_cents: 950 },
-                    { name: "Endive gratinée au bleu d'Auvergne", price_cents: 1100 },
+                    { name: "Endive gratinée au bleu d’Auvergne", price_cents: 1100 },
                     { name: "Saucisse au couteau & purée maison", price_cents: 1600 },
                     { name: "Tripes à la romaine & gnocchis", price_cents: 1450 },
                     { name: "Vaille hachée & condiments", price_cents: 1300 },
@@ -92,13 +92,13 @@ export const lissit: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Une pépite récompensée par le Bib Gourmand 2026. Lissit (pour l'enfant du pays Alexis Lissitzky) est un lieu à part où la charcuterie maison règne en maître. La cheffe Claire Grumellon y déploie une cuisine de tradition, brute et sincère, qui magnifie le produit sans artifice. Une ambiance de natural wine bar chaleureux où l'on se sent immédiatement chez soi.",
-    insider_tip: "Alexis est un sommelier passionné ; demandez-lui sa sélection de vermouths ou de vins naturels hors-carte, c'est là que réside l'âme du lieu.",
-    expert_catchline: "Bib Gourmand 2026. L'art de la charcuterie maison et du vin vivant.",
+    description: "Une pépite récompensée par le Bib Gourmand 2026. Lissit (pour l’enfant du pays Alexis Lissitzky) est un lieu à part où la charcuterie maison règne en maître. La cheffe Claire Grumellon y déploie une cuisine de tradition, brute et sincère, qui magnifie le produit sans artifice. Une ambiance de natural wine bar chaleureux où l'on se sent immédiatement chez soi.",
+    insider_tip: "Alexis est un sommelier passionné ; demandez-lui sa sélection de vermouths ou de vins naturels hors-carte, c’est là que réside l'âme du lieu.",
+    expert_catchline: "Bib Gourmand 2026. L’art de la charcuterie maison et du vin vivant.",
     specials: {
         cuisine: ["Charcuterie Maison", "Tradition Modernisée", "Plats de Grand-Mère"],
         drinks: ["Natural Wines", "Vermouth Specialist", "Artisanal Cocktails"],
-        must_eat: "Le pâté en croûte maison (l'un des meilleurs du quartier).",
+        must_eat: "Le pâté en croûte maison (l’un des meilleurs du quartier).",
         must_drink: "Un vermouth artisanal sélectionné par Alexis."
     }
 };

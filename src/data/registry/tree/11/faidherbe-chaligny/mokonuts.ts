@@ -5,7 +5,7 @@ export const mokonuts: SurgicalPlace = {
     name: "Mokonuts",
     slug: "mokonuts",
     category: "restaurant",
-    subcategory: ["cafe", "bakery", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "5 Rue Saint-Bernard",
         arrondissement: 11,
@@ -62,7 +62,7 @@ export const mokonuts: SurgicalPlace = {
         category_type: "main",
         display_label: "Plats de Saison (Midi) (Plats)",
         items: [
-          { name: "Labneh maison, za'atar & pain pita", price_cents: 1000, is_highlight: true },
+          { name: "Labneh maison, za’atar & pain pita", price_cents: 1000, is_highlight: true },
           { name: "Thon blanc saisis & aubergine fumée", price_cents: 1600, is_highlight: true },
           { name: "Œuf mollet, chanterelles & haricots", price_cents: 1500 },
           { name: "Orecchiette au homard breton & bisque", price_cents: 3200 },
@@ -70,7 +70,7 @@ export const mokonuts: SurgicalPlace = {
           { name: "Quasi de veau rôti, borlotti & sauge", price_cents: 3000 },
           { name: "Lieu jaune de ligne, fenouil & olives", price_cents: 2700 },
           { name: "Caille grillée & légumes racines", price_cents: 2600 },
-          { name: "Risotto d'épeautre aux herbes", price_cents: 2400 },
+          { name: "Risotto d’épeautre aux herbes", price_cents: 2400 },
           { name: "Mackerel Crudo, green sauce & radish", price_cents: 1400 },
           { name: "Seared Hake, pil-pil sauce & endive", price_cents: 2100 },
           { name: "Fried Egg, asparagus & bitter lettuces", price_cents: 1200 },
@@ -81,7 +81,7 @@ export const mokonuts: SurgicalPlace = {
         category_type: "drink",
         display_label: "Boissons Artisanales & Café (Boissons)",
         items: [
-          { name: "Limonade maison à la fleur d'oranger", price_cents: 550, is_highlight: true },
+          { name: "Limonade maison à la fleur d’oranger", price_cents: 550, is_highlight: true },
           { name: "Verre de Vin Nature (Sélection)", price_cents: 1300, is_highlight: true },
           { name: "Kéfir de fruits maison", price_cents: 600 },
           { name: "Thé Sobacha (Sarrasin grillé)", price_cents: 500 },
@@ -103,12 +103,12 @@ export const mokonuts: SurgicalPlace = {
     verified: true,
     google_rating: 4.7,
     description: "Une échoppe hybride mythique tenue par le couple surdoué Moko (pour la pâtisserie japonaise-américaine) et Omar (pour la finesse levantine). Ouvert uniquement la semaine le midi : on y arrache des cookies divins ou on y déjeune des mets ultra-saisonnier.",
-    insider_tip: "• Attention : ouverture UNIQUEMENT la semaine et juste le midi. C'est l'un des déjeuners les plus convoités du 11e, réservez des semaines en avance !\n• Les légendaires Cookies de Moko sont cuits tout au long de la journée, réclamez-en un tiède à la sortie du four.\n• Le labneh au Za'atar est l'un des meilleurs que vous trouverez à l'ouest du Bosphore.",
+    insider_tip: "• Attention : ouverture UNIQUEMENT la semaine et juste le midi. C’est l’un des déjeuners les plus convoités du 11e, réservez des semaines en avance !\n• Les légendaires Cookies de Moko sont cuits tout au long de la journée, réclamez-en un tiède à la sortie du four.\n• Le labneh au Za’atar est l’un des meilleurs que vous trouverez à l’ouest du Bosphore.",
     expert_catchline: "Cuisine levantine de haute précision et, sans doute, les meilleurs cookies de Tout-Paris.",
     specials: {
         cuisine: ["Cookies Sésame Miso", "Labneh maison"],
-        drinks: ["Limonade Fleur d'oranger"],
-        must_eat: "L'obligation absolue d'engloutir en dessert le Cookie Miso / Sésame noir, reconnu internationalement comme l'extase absolue.",
-        must_drink: "Une très pointue citronnade maison fouettée à la fleur d'oranger."
+        drinks: ["Limonade Fleur d’oranger"],
+        must_eat: "L’obligation absolue d’engloutir en dessert le Cookie Miso / Sésame noir, reconnu internationalement comme l’extase absolue.",
+        must_drink: "Une très pointue citronnade maison fouettée à la fleur d’oranger."
     }
 };

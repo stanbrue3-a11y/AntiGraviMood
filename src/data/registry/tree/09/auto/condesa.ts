@@ -5,7 +5,7 @@ export const condesa: SurgicalPlace = {
   slug: "condesa",
   name: "La Condesa",
   category: "restaurant",
-  subcategory: ["gastronomique", "etoile", "mexicain-chic", "contemporain"],
+  subcategory: ['français'],
   location: {
     address: "13 Rue Rodier, 75009 Paris, France",
     arrondissement: 9,
@@ -45,14 +45,14 @@ export const condesa: SurgicalPlace = {
         category_type: "starter",
         display_label: "Préludes Indra (Entrées)",
         items: [
-          { name: "Cromesquis d'Artichaut & Piment fumé", price_cents: 0, is_highlight: true },
+          { name: "Cromesquis d’Artichaut & Piment fumé", price_cents: 0, is_highlight: true },
           { name: "Travail autour du Céleri, Tofu & Bonite", price_cents: 0, is_highlight: true },
-          { name: "Saint-Jacques à l'émulsion de Café", price_cents: 0 },
+          { name: "Saint-Jacques à l’émulsion de Café", price_cents: 0 },
           { name: "Agnolotti Maison, Bouillon Fève Tonka & Maïs", price_cents: 0, is_highlight: true },
           { name: "Expérience de Champignons fumés au Bois de Cerisier", price_cents: 0 },
           { name: "Tartare de Bar & Agrumes Mexicains", price_cents: 0 },
           { name: "Mini Tacos de Homard & Vanille (Surprise)", price_cents: 0 },
-          { name: "Bouillon d'Algues Kombu & Infusion d'Herbes", price_cents: 0 }
+          { name: "Bouillon d’Algues Kombu & Infusion d'Herbes", price_cents: 0 }
         ]
       },
       {
@@ -66,7 +66,7 @@ export const condesa: SurgicalPlace = {
           { name: "Homard Bleu de Bretagne & Beurre de corail", price_cents: 0 },
           { name: "Ris de Veau laqué au Piment Ancho & Jus corsé", price_cents: 0 },
           { name: "Tamal de Maïs frais & Truffe noire de saison", price_cents: 0 },
-          { name: "Pêche du jour, Beurre d'Hibiscus & Betterave", price_cents: 0 }
+          { name: "Pêche du jour, Beurre d’Hibiscus & Betterave", price_cents: 0 }
         ]
       },
       {
@@ -87,8 +87,8 @@ export const condesa: SurgicalPlace = {
           { name: "Ganache Chocolat Noir & Piment Pasilla", price_cents: 0, is_highlight: true },
           { name: "Sorbet Goyave rose & Citron vert", price_cents: 0, is_highlight: true },
           { name: "Maïs en dessert : Crème, Glace & Tuile", price_cents: 0, is_highlight: true },
-          { name: "Nage d'Ananas frais, Coco & Coriandre", price_cents: 0 },
-          { name: "Pastilla croustillante aux Pistaches d'Iran", price_cents: 0 },
+          { name: "Nage d’Ananas frais, Coco & Coriandre", price_cents: 0 },
+          { name: "Pastilla croustillante aux Pistaches d’Iran", price_cents: 0 },
           { name: "Fromages affinés & Chutney de mangue au piment", price_cents: 0 },
           { name: "Mignardises signatures du Chef Indra", price_cents: 0 }
         ]
@@ -97,10 +97,10 @@ export const condesa: SurgicalPlace = {
         category_type: "drink",
         display_label: "La Cave de La Condesa (Boissons)",
         items: [
-          { name: "Mezcal 100% Espadín 'La Palabra' (Shot)", price_cents: 1400, is_highlight: true },
+          { name: "Mezcal 100% Espadín ’La Palabra' (Shot)", price_cents: 1400, is_highlight: true },
           { name: "Verre de Vin Nature Sélection Sommelier", price_cents: 1200 },
-          { name: "Accord Mets & Vins 'Expédition' (5 verres)", price_cents: 6500, is_highlight: true },
-          { name: "Thé Vert d'Ombre japonais rare", price_cents: 950 },
+          { name: "Accord Mets & Vins ’Expédition' (5 verres)", price_cents: 6500, is_highlight: true },
+          { name: "Thé Vert d’Ombre japonais rare", price_cents: 950 },
           { name: "Café de plantation mexicaine sélectionné", price_cents: 600 },
           { name: "Eau micro-filtrée La Condesa (75cl)", price_cents: 500 },
           { name: "Infusion Hibiscus sauvage (Agua de Jamaica)", price_cents: 700, is_highlight: true }
@@ -108,12 +108,12 @@ export const condesa: SurgicalPlace = {
       }
     ]
   },
-  description: "La Condesa est le laboratoire hautement créatif du chef mexicain Indra Carrillo Perea. Étoilé au Guide Michelin, ce restaurant du 9ème arrondissement propose une immersion sensorielle où les techniques de la haute gastronomie française rencontrent les saveurs vibrantes et les ingrédients du Mexique. Chaque plat est une pièce d'orfèvrerie technique, servie dans un cadre épuré et élégant, faisant de La Condesa l'une des tables les plus passionnantes et précises de la capitale.",
-  insider_tip: "• **Le Menu Carte Blanche** : Ne cherchez pas la carte, laissez-vous porter par les menus surprises qui varient selon les arrivages et l'humeur du chef.\n• **L'Accord Mezcal** : Si vous êtes amateur, demandez à découvrir les mezcals de dégustation, l'accord avec certains plats mariniers est bluffant.\n• **La Table** : Le restaurant est petit et très prisé, les réservations se prennent plusieurs semaines à l'avance.",
+  description: "La Condesa est le laboratoire hautement créatif du chef mexicain Indra Carrillo Perea. Étoilé au Guide Michelin, ce restaurant du 9ème arrondissement propose une immersion sensorielle où les techniques de la haute gastronomie française rencontrent les saveurs vibrantes et les ingrédients du Mexique. Chaque plat est une pièce d’orfèvrerie technique, servie dans un cadre épuré et élégant, faisant de La Condesa l'une des tables les plus passionnantes et précises de la capitale.",
+  insider_tip: "• **Le Menu Carte Blanche** : Ne cherchez pas la carte, laissez-vous porter par les menus surprises qui varient selon les arrivages et l’humeur du chef.\n• **L’Accord Mezcal** : Si vous êtes amateur, demandez à découvrir les mezcals de dégustation, l’accord avec certains plats mariniers est bluffant.\n• **La Table** : Le restaurant est petit et très prisé, les réservations se prennent plusieurs semaines à l'avance.",
   specials: {
     cuisine: ["Haute Gastronomie Mexicaine", "Précision française", "Étoilé Michelin"],
-    drinks: ["Mezcals d'exception", "Vins natures & biodynamiques", "Accords créatifs"],
-    must_eat: "L'Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d'influences italiennes et mexicaines.",
+    drinks: ["Mezcals d’exception", "Vins natures & biodynamiques", "Accords créatifs"],
+    must_eat: "L’Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d'influences italiennes et mexicaines.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

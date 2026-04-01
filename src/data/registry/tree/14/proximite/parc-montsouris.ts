@@ -38,8 +38,8 @@ export const parc_montsouris: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Havre de paix de 15 hectares au sud de Paris, le parc Montsouris est un chef-d'œuvre du jardin à l'anglaise du XIXe siècle. Son lac peuplé de cygnes, ses arbres centenaires exotiques et ses pelouses vallonnées invitent à la flânerie romantique. Sous les cascades artificielles ou sur les ponts en fer forgé, le temps s'arrête. C'est le spot préféré des étudiants de la Cité Universitaire voisine et des familles du 14ème pour un pique-nique bucolique ou un jogging matinal inspirant.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Havre de paix de 15 hectares au sud de Paris, le parc Montsouris est un chef-d’œuvre du jardin à l’anglaise du XIXe siècle. Son lac peuplé de cygnes, ses arbres centenaires exotiques et ses pelouses vallonnées invitent à la flânerie romantique. Sous les cascades artificielles ou sur les ponts en fer forgé, le temps s’arrête. C'est le spot préféré des étudiants de la Cité Universitaire voisine et des familles du 14ème pour un pique-nique bucolique ou un jogging matinal inspirant.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

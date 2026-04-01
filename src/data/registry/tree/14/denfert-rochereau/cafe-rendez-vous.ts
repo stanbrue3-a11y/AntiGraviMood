@@ -5,7 +5,7 @@ export const cafeRendezVous: SurgicalPlace = {
     name: "Café du Rendez-Vous",
     slug: "cafe-rendez-vous",
     category: "restaurant",
-    subcategory: ["brasserie", "bistronomie", "terrasse", "institution"],
+    subcategory: ['français', 'bistronomie', 'terrasse'],
     location: {
         address: "2 Av. du Général Leclerc",
         arrondissement: 14,
@@ -45,10 +45,10 @@ export const cafeRendezVous: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Bistronomie de Saison",
                 items: [
-                    { name: "Blanquette de veau à l'ancienne", price_cents: 2100 },
-                    { name: "Saucisse d'Auvergne & Aligot", price_cents: 1950 },
+                    { name: "Blanquette de veau à l’ancienne", price_cents: 2100 },
+                    { name: "Saucisse d’Auvergne & Aligot", price_cents: 1950 },
                     { name: "Poisson frais du jour, riz aux herbes", price_cents: 2200 },
-                    { name: "Burger au Bleu d'Auvergne", price_cents: 1850 },
+                    { name: "Burger au Bleu d’Auvergne", price_cents: 1850 },
                     { name: "Tartare de Bœuf boucher", price_cents: 1750 }
                 ]
             },
@@ -59,7 +59,7 @@ export const cafeRendezVous: SurgicalPlace = {
                     { name: "Oeuf cocotte à la tomate confite", price_cents: 1150 },
                     { name: "Asperges rôties au parmesan", price_cents: 750 },
                     { name: "Planche de tapas à partager", price_cents: 1800 },
-                    { name: "Soupe à l'oignon gratinée", price_cents: 950 }
+                    { name: "Soupe à l’oignon gratinée", price_cents: 950 }
                 ]
             },
             {
@@ -82,13 +82,13 @@ export const cafeRendezVous: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.0,
-    description: "Le Café du Rendez-Vous est l'âme battante de la Place Denfert-Rochereau. Depuis plus de 30 ans, cette brasserie tenue par la famille Porte incarne le trait d'union parfait entre le bistrot parisien traditionnel et l'élégance contemporaine. Sa terrasse chauffée et vitrée, véritable poste d'observation sur le mouvement de la ville, ne désemplit jamais, du petit-déjeuner matinal au dernier cocktail de la nuit.",
-    insider_tip: "Profitez du Happy Hour de 17h à 21h pour découvrir leurs planches de tapas à prix doux. La terrasse est chauffée en hiver, ce qui en fait l'un des rares spots confortables dehors toute l'année à Denfert.",
+    description: "Le Café du Rendez-Vous est l’âme battante de la Place Denfert-Rochereau. Depuis plus de 30 ans, cette brasserie tenue par la famille Porte incarne le trait d’union parfait entre le bistrot parisien traditionnel et l’élégance contemporaine. Sa terrasse chauffée et vitrée, véritable poste d'observation sur le mouvement de la ville, ne désemplit jamais, du petit-déjeuner matinal au dernier cocktail de la nuit.",
+    insider_tip: "Profitez du Happy Hour de 17h à 21h pour découvrir leurs planches de tapas à prix doux. La terrasse est chauffée en hiver, ce qui en fait l’un des rares spots confortables dehors toute l'année à Denfert.",
     expert_catchline: "La terrasse institutionnelle et conviviale de Denfert.",
     specials: {
         cuisine: ["Bistronomie Saisonnière", "Happy Hour"],
         drinks: ["Cocktails Premium", "Bière de spécialité"],
-        must_eat: "L'œuf cocotte maison et le French Toast au caramel.",
+        must_eat: "L’œuf cocotte maison et le French Toast au caramel.",
         must_drink: "Une bière artisanale ou un cocktail signature en terrasse."
     }
 };

@@ -5,7 +5,7 @@ export const goguette: SurgicalPlace = {
     name: "Goguette",
     slug: "goguette",
     category: "restaurant",
-    subcategory: ["bistronomique", "cave à manger", "bar à vins", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "108 Rue Amelot",
         arrondissement: 11,
@@ -83,7 +83,7 @@ export const goguette: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Assiettes du Soir (selon le chef)",
                 items: [
-                    { name: "Petites assiettes à partager (prix moyen)", price_cents: 1800, description: "Brouillades, poissons crûs, légumes de saison selon l'humeur du chef." },
+                    { name: "Petites assiettes à partager (prix moyen)", price_cents: 1800, description: "Brouillades, poissons crûs, légumes de saison selon l’humeur du chef." },
                     { name: "Assiette de charcuteries et fromages", price_cents: 1600 }
                 ]
             },
@@ -108,12 +108,12 @@ export const goguette: SurgicalPlace = {
     verified: true,
     google_rating: 4.4,
     description: "Derrière sa discrète devanture de la rue Amelot, Goguette (mené par le chef Gianmarco Gorni, vu dans Top Chef) envoie une bistronomie délurée et percutante. Le soir, on y partage des assiettes canailles et créatives (souvent très riches en umami) au comptoir ou sur les tables hautes, en éclusant des quilles de vin nature.",
-    insider_tip: "• Merveilleuse cave à vins natures, n'hésitez pas à demander conseil à l'équipe, experte en 'jus vivants'.\n• L'ambiance monte d'un cran au fil de la soirée, avec une bande-son souvent très cool (hip-hop/soul), parfait pour les petits groupes.\n• Le menu change extrêmement souvent, ne vous fiez jamais à ce que vous lisez sur internet la veille.",
+    insider_tip: "• Merveilleuse cave à vins natures, n’hésitez pas à demander conseil à l’équipe, experte en ’jus vivants’.\n• L’ambiance monte d'un cran au fil de la soirée, avec une bande-son souvent très cool (hip-hop/soul), parfait pour les petits groupes.\n• Le menu change extrêmement souvent, ne vous fiez jamais à ce que vous lisez sur internet la veille.",
     expert_catchline: "Néo-bistrot canaille et vins natures par le très créatif chef Gianmarco Gorni.",
     specials: {
         cuisine: ["Bistronomie créative et changeante", "Assiettes à partager umami"],
         drinks: ["Sélection pointue de vins natures et biodynamiques"],
-        must_eat: "Faites confiance à l'inspiration du jour : Gianmarco Gorni a une maîtrise folle des assaisonnements et des jus corsés.",
-        must_drink: "Laissez-les vous faire goûter à l'aveugle un vin orange un peu fou."
+        must_eat: "Faites confiance à l’inspiration du jour : Gianmarco Gorni a une maîtrise folle des assaisonnements et des jus corsés.",
+        must_drink: "Laissez-les vous faire goûter à l’aveugle un vin orange un peu fou."
     }
 };

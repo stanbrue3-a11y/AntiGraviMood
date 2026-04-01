@@ -5,7 +5,7 @@ export const biondi: SurgicalPlace = {
     name: "Biondi",
     slug: "biondi",
     category: "restaurant",
-    subcategory: ["viande", "argentin", "grillades", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "118 Rue Amelot",
         arrondissement: 11,
@@ -76,7 +76,7 @@ export const biondi: SurgicalPlace = {
                 items: [
                     { name: "Maigre à la plancha, chou kale, émulsion raifort", price_cents: 2800 },
                     { name: "Volaille croustillante, déclinaison de céleri, foie gras", price_cents: 2800 },
-                    { name: "Bar à la plancha, pak choi, girolles, émulsion d'ail", price_cents: 3000 },
+                    { name: "Bar à la plancha, pak choi, girolles, émulsion d’ail", price_cents: 3000 },
                     { name: "Milanesa de filet bœuf Angus, mayo chipotle", price_cents: 4000 },
                     { name: "Volaille croustillante, grenailles, champignons de bois, vin jaune", price_cents: 4000 },
                     { name: "Turbot à la plancha, crème champagne et caviar", price_cents: 4400 }
@@ -84,7 +84,7 @@ export const biondi: SurgicalPlace = {
             },
             {
                 category_type: "main",
-                display_label: "Viandes d'Exception à la Braise (Argentine)",
+                display_label: "Viandes d’Exception à la Braise (Argentine)",
                 items: [
                     { name: "Hampe de bœuf (Angus)", price_cents: 3200 },
                     { name: "Churrasco de las Pampas (Entrecôte)", price_cents: 3300 },
@@ -103,7 +103,7 @@ export const biondi: SurgicalPlace = {
                 display_label: "Les Desserts & Fromages",
                 items: [
                     { name: "Choco cacao, crumble", price_cents: 800 },
-                    { name: "Déclinaison de dulce de leche, tuile à l'orange", price_cents: 900 },
+                    { name: "Déclinaison de dulce de leche, tuile à l’orange", price_cents: 900 },
                     { name: "Sélection de fromages fermiers de Cyril Hardouin", price_cents: 1500 }
                 ]
             }
@@ -119,13 +119,13 @@ export const biondi: SurgicalPlace = {
     instagram_handle: "biondi_paris",
     verified: true,
     google_rating: 4.4,
-    description: "Le temple parisien de l'Asado argentin. Au Biondi, le chef Fernando de Tomaso maîtrise le feu comme personne, cuisant à la braise des pièces de bœuf d'exception rigoureusement sourcées et maturées, de la Galice au Holstein, dans une salle brute aux allures de hacienda chaleureuse.",
-    insider_tip: "• C'est le rendez-vous des très gros viandards : venez à plusieurs pour faire honneur aux Côtes de Bœuf maturées 8 semaines à partager.\n• L'expérience du midi est redoutable financièrement (Menu à 23,50€ pour Entrée/Plat/Dessert) et permet de goûter la qualité d'exécution à bas coût.\n• L'odeur de feu de bois embaume la salle, une vraie marque de fabrique.",
+    description: "Le temple parisien de l’Asado argentin. Au Biondi, le chef Fernando de Tomaso maîtrise le feu comme personne, cuisant à la braise des pièces de bœuf d'exception rigoureusement sourcées et maturées, de la Galice au Holstein, dans une salle brute aux allures de hacienda chaleureuse.",
+    insider_tip: "• C’est le rendez-vous des très gros viandards : venez à plusieurs pour faire honneur aux Côtes de Bœuf maturées 8 semaines à partager.\n• L’expérience du midi est redoutable financièrement (Menu à 23,50€ pour Entrée/Plat/Dessert) et permet de goûter la qualité d’exécution à bas coût.\n• L'odeur de feu de bois embaume la salle, une vraie marque de fabrique.",
     expert_catchline: "Haute couture viandarde et maîtrise absolue du feu argentin. Le paradis carnivore.",
     specials: {
-        cuisine: ["Côte de Boeuf Maturée (jusqu'à 8 semaines)", "Empanadas de carne", "Churrasco de las Pampas"],
-        drinks: ["Malbecs pulpeux d'Argentine"],
-        must_eat: "L'Empanada de carne en entrée obligatoire, pour s'échauffer avant d'attaquer les fantastiques pièces de viande à la braise.",
+        cuisine: ["Côte de Boeuf Maturée (jusqu’à 8 semaines)", "Empanadas de carne", "Churrasco de las Pampas"],
+        drinks: ["Malbecs pulpeux d’Argentine"],
+        must_eat: "L’Empanada de carne en entrée obligatoire, pour s’échauffer avant d’attaquer les fantastiques pièces de viande à la braise.",
         must_drink: "Un Malbec argentin tannique et épicé, la seule règle valable pour affronter la côte de bœuf de Galice."
     }
 };

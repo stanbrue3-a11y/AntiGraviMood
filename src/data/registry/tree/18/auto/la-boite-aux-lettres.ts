@@ -5,7 +5,7 @@ export const la_boite_aux_lettres: SurgicalPlace = {
   slug: "la-boite-aux-lettres",
   name: "La Boîte aux Lettres",
   category: "restaurant",
-  subcategory: ["français", "bistrot", "terrasse", "convivial", "montmartre"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "108 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
@@ -58,7 +58,7 @@ export const la_boite_aux_lettres: SurgicalPlace = {
         { name: "Suprême de Volaille Albufera", price_cents: 2100 },
         { name: "Lieu Jaune à la Bergamote", price_cents: 2200 },
         { name: "Burger de la BAL", price_cents: 1700, description: "Frites et salade" },
-        { name: "Saucisse à l'Échalote", price_cents: 1600 },
+        { name: "Saucisse à l’Échalote", price_cents: 1600 },
         { name: "Rigatoni Verde (Végé)", price_cents: 1800 },
         { name: "Tartare de Bœuf Tradition", price_cents: 1900 },
         { name: "Cabillaud Rôti & Mousseline", price_cents: 2300 }
@@ -76,8 +76,8 @@ export const la_boite_aux_lettres: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Situé en haut de la rue Lepic, ce bistrot de quartier est une véritable institution montmartroise. Entre les murs couverts de mots doux et la terrasse animée, on y déguste une cuisine maison généreuse et sans prétention. L'ambiance y est électrique, portée par une équipe chaleureuse qui incarne l'esprit du vieux Montmartre.",
-  insider_tip: "• **Le Burger de la BAL** : Avec ses frites maison, c'est le réconfort absolu après une balade sur les hauteurs.\n• **Pour les Indécis** : L'option à 12€ pour goûter plusieurs entrées est une superbe idée de partage.\n• **Brunch du Dimanche** : Très populaire, pensez à réserver quelques jours à l'avance.",
+  description: "Situé en haut de la rue Lepic, ce bistrot de quartier est une véritable institution montmartroise. Entre les murs couverts de mots doux et la terrasse animée, on y déguste une cuisine maison généreuse et sans prétention. L’ambiance y est électrique, portée par une équipe chaleureuse qui incarne l'esprit du vieux Montmartre.",
+  insider_tip: "• **Le Burger de la BAL** : Avec ses frites maison, c’est le réconfort absolu après une balade sur les hauteurs.\n• **Pour les Indécis** : L’option à 12€ pour goûter plusieurs entrées est une superbe idée de partage.\n• **Brunch du Dimanche** : Très populaire, pensez à réserver quelques jours à l’avance.",
   specials: {
     cuisine: ["Française", "Bistrot", "Traditionnelle"],
     drinks: ["Vins de Propriétaires", "Cocktails Maison"],

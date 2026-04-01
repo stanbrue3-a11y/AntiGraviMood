@@ -71,7 +71,7 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
                 "items": [
                     { "name": "Aperol Spritz", "price_cents": 1100 },
                     { "name": "Pinte Moretti (50cl)", "price_cents": 800 },
-                    { "name": "Verre de Montepulciano d'Abruzzo", "price_cents": 700 },
+                    { "name": "Verre de Montepulciano d’Abruzzo", "price_cents": 700 },
                     { "name": "Expresso", "price_cents": 250 }
                 ]
             },
@@ -91,7 +91,7 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
         "festif": 60,
         "culturel": 10
     },
-    "description": "Niché au pied de Montmartre, Maison Pinsa est le temple de la Pinsa Romana, cette pizza ancestrale réinventée avec un mélange de trois farines pour une légèreté absolue. Le cadre est adorable, la décoration soignée avec des touches végétales et l'accueil toujours chaleureux. Un spot parfait pour un date ou un dîner entre amis après une balade dans le 18e.",
+    "description": "Niché au pied de Montmartre, Maison Pinsa est le temple de la Pinsa Romana, cette pizza ancestrale réinventée avec un mélange de trois farines pour une légèreté absolue. Le cadre est adorable, la décoration soignée avec des touches végétales et l’accueil toujours chaleureux. Un spot parfait pour un date ou un dîner entre amis après une balade dans le 18e.",
     "insider_tip": "• Ne passez pas à côté de la Pinsa Romana : sa pâte est bien plus digeste et croustillante que la Napolitaine classique.\n• Le cadre intérieur est petit mais ultra-chaleureux, idéal pour un moment intime.\n• Si vous êtes deux, une burrata à la truffe en entrée suivie de deux pinsas est le combo gagnant.",
     "specials": {
         "cuisine": ["Italien", "Pinsa", "Pizza"],

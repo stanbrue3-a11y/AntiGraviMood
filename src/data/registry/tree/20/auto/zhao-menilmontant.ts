@@ -5,7 +5,7 @@ export const zhao_menilmontant: SurgicalPlace = {
   slug: "la-taverne-de-zhao-menilmontant",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "quartier"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "42 rue de Ménilmontant, 75020 Paris, France",
     arrondissement: 20,
@@ -42,9 +42,9 @@ export const zhao_menilmontant: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_menilmontant: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_menilmontant: SurgicalPlace = {
       }
     ]
   },
-  description: "Dernière-née du groupe, la Taverne Ménilmontant apporte les saveurs de Xi'an dans l'est parisien. Le décor y est particulièrement chaleureux, parfaitement intégré à l'esprit populaire et artistique du 20e arrondissement. On y retrouve l'excellence des Biang Biang tirées à la main.",
-  insider_tip: "• Sa salle spacieuse en fait l'adresse la plus confortable du groupe pour les grandes tablées d'amis.\n• Ne ratez pas les raviolis Poulet & Champignon, la farce y est particulièrement savoureuse et juteuse.\n• C'est l'endroit idéal pour un déjeuner tardif le week-end, l'ambiance y est détendue et conviviale.",
+  description: "Dernière-née du groupe, la Taverne Ménilmontant apporte les saveurs de Xi’an dans l’est parisien. Le décor y est particulièrement chaleureux, parfaitement intégré à l’esprit populaire et artistique du 20e arrondissement. On y retrouve l'excellence des Biang Biang tirées à la main.",
+  insider_tip: "• Sa salle spacieuse en fait l’adresse la plus confortable du groupe pour les grandes tablées d’amis.\n• Ne ratez pas les raviolis Poulet & Champignon, la farce y est particulièrement savoureuse et juteuse.\n• C’est l’endroit idéal pour un déjeuner tardif le week-end, l’ambiance y est détendue et conviviale.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
   images: {

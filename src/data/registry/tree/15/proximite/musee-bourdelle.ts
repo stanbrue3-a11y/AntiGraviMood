@@ -39,8 +39,8 @@ export const musee_bourdelle: SurgicalPlace = {
         "festif": 3,
         "culturel": 25
     },
-    "description": "Situé à quelques pas de Montparnasse, le Musée Bourdelle préserve les ateliers de sculpture du maître Antoine Bourdelle dans un cadre de la Belle Époque saisissant. On y déambule entre des bronzes monumentaux et des plâtres herculéens, sous une lumière d'atelier magique. Le nouveau café-restaurant 'Le Rhodia', installé dans les appartements privés du sculpteur, est une pépite de sérénité.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Situé à quelques pas de Montparnasse, le Musée Bourdelle préserve les ateliers de sculpture du maître Antoine Bourdelle dans un cadre de la Belle Époque saisissant. On y déambule entre des bronzes monumentaux et des plâtres herculéens, sous une lumière d’atelier magique. Le nouveau café-restaurant ’Le Rhodia’, installé dans les appartements privés du sculpteur, est une pépite de sérénité.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -5,7 +5,7 @@ export const chulita: SurgicalPlace = {
     name: "Chulita",
     slug: "chulita",
     category: "restaurant",
-    subcategory: ["mexican", "torteria", "street-food", "fusion"],
+    subcategory: ['français'],
     location: {
         address: "41 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -49,7 +49,7 @@ export const chulita: SurgicalPlace = {
                 display_label: "Les Tortas (Sandwichs Mexicains)",
                 items: [
                     { name: "Torta Barbacoa", price_cents: 1200, description: "Joue & langue de boeuf confites 6h, haricots, avocat." },
-                    { name: "Torta Cochinita", price_cents: 1150, description: "Porc mariné à l'achiote et orange, oignons pickles." },
+                    { name: "Torta Cochinita", price_cents: 1150, description: "Porc mariné à l’achiote et orange, oignons pickles." },
                     { name: "Torta Milanesa de Pollo", price_cents: 1250, description: "Poulet pané, fromage fondu, chipotle mayo." },
                     { name: "Torta Veggie de Saison", price_cents: 1100, description: "Légumes grillés, fromage frais, guacamole." }
                 ]
@@ -87,13 +87,13 @@ export const chulita: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Chulita est la première véritable torteria de Paris. Oubliez les tacos, ici la star est la 'torta', ce sandwich mexicain généreux servi dans un pain telera rond et moelleux. Fondé par une équipe de passionnés, le lieu propose des recettes traditionnelles (Barbacoa, Cochinita) revisitées avec des produits de haute qualité. Un comptoir vibrant sur la rue Jean-Pierre Timbaud.",
-    insider_tip: "Le pain est incroyablement aérien mais il absorbe vite les jus. Mangez votre torta sur place pour profiter du contraste entre le pain toasté et la garniture fondante. Accompagnez le tout d'une Agua Fresca maison.",
+    description: "Chulita est la première véritable torteria de Paris. Oubliez les tacos, ici la star est la ’torta', ce sandwich mexicain généreux servi dans un pain telera rond et moelleux. Fondé par une équipe de passionnés, le lieu propose des recettes traditionnelles (Barbacoa, Cochinita) revisitées avec des produits de haute qualité. Un comptoir vibrant sur la rue Jean-Pierre Timbaud.",
+    insider_tip: "Le pain est incroyablement aérien mais il absorbe vite les jus. Mangez votre torta sur place pour profiter du contraste entre le pain toasté et la garniture fondante. Accompagnez le tout d’une Agua Fresca maison.",
     expert_catchline: "La révolution de la torta mexicaine au coeur du 11ème.",
     specials: {
         cuisine: ["Tortas artisanales", "Mexica street food", "Telera bread"],
         drinks: ["Agua Fresca", "Jarritos", "Mexican Cocktails"],
         must_eat: "La Torta Barbacoa, une profondeur de goût exceptionnelle.",
-        must_drink: "L'Agua Fresca Hibiscus, très désaltérante."
+        must_drink: "L’Agua Fresca Hibiscus, très désaltérante."
     }
 };

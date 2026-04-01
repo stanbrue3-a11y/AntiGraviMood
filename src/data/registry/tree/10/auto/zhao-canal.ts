@@ -5,7 +5,7 @@ export const zhao_canal: SurgicalPlace = {
   slug: "la-taverne-de-zhao-canal",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ["chinois", "noodles", "biang-biang", "authentique", "chill"],
+  subcategory: ['asiatique', 'français'],
   location: {
     address: "49 Rue des Vinaigriers, 75010 Paris, France",
     arrondissement: 10,
@@ -42,9 +42,9 @@ export const zhao_canal: SurgicalPlace = {
         items: [
           { name: "Salade de Tofu frité", price_cents: 480 },
           { name: "Algues marinées au sésame", price_cents: 450 },
-          { name: "Pommes de terre à la vinaigrette de Xi'an", price_cents: 420 },
+          { name: "Pommes de terre à la vinaigrette de Xi’an", price_cents: 420 },
           { name: "Oreilles de porc pimentées", price_cents: 550 },
-          { name: "Concombre frappé à l'ail", price_cents: 450 },
+          { name: "Concombre frappé à l’ail", price_cents: 450 },
           { name: "Raviolis Porc & Chou (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Poulet & Champignon (8 pièces)", price_cents: 1200 },
           { name: "Raviolis Végétariens (8 pièces)", price_cents: 1150 },
@@ -53,7 +53,7 @@ export const zhao_canal: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Burgers Chinois (Mo's)",
+        display_label: "Burgers Chinois (Mo’s)",
         items: [
           { name: "Mo au Porc mijoté", price_cents: 650, description: "Pain pita croustillant" },
           { name: "Mo au Bœuf au curry", price_cents: 700 },
@@ -82,10 +82,10 @@ export const zhao_canal: SurgicalPlace = {
       }
     ]
   },
-  description: "C'est ici que tout a commencé en 2011. La Taverne de Zhao Canal Saint-Martin est le berceau parisien des nouilles Biang Biang. Avec ses tables en bois et son ambiance factory ultra-chill, c'est l'adresse parfaite pour une pause authentique loin de l'agitation du boulevard.",
-  insider_tip: "• Arrivée conseillée avant 19h30 pour éviter l'attente car la salle est petite et très prisée des habitués du Canal.\n• Demandez le Mo au porc en entrée, c'est le mariage parfait avec les nouilles pimentées.\n• Les nouilles Biang Biang sont tirées à la main devant vous : un spectacle qui garantit une fraîcheur absolue.",
+  description: "C’est ici que tout a commencé en 2011. La Taverne de Zhao Canal Saint-Martin est le berceau parisien des nouilles Biang Biang. Avec ses tables en bois et son ambiance factory ultra-chill, c’est l’adresse parfaite pour une pause authentique loin de l'agitation du boulevard.",
+  insider_tip: "• Arrivée conseillée avant 19h30 pour éviter l’attente car la salle est petite et très prisée des habitués du Canal.\n• Demandez le Mo au porc en entrée, c'est le mariage parfait avec les nouilles pimentées.\n• Les nouilles Biang Biang sont tirées à la main devant vous : un spectacle qui garantit une fraîcheur absolue.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an", "Nouilles"],
+    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
   images: {

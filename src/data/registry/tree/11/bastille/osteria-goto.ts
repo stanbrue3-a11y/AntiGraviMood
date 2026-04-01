@@ -5,7 +5,7 @@ export const osteriaGoto: SurgicalPlace = {
     name: "Osteria Gòto",
     slug: "osteria-goto",
     category: "restaurant",
-    subcategory: ["italian", "venetian", "osteria", "natural wine"],
+    subcategory: ['français'],
     location: {
         address: "151 Boulevard Voltaire",
         arrondissement: 11,
@@ -47,8 +47,8 @@ export const osteriaGoto: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Cicchetti (Entrées/Tapas)",
                 items: [
-                    { name: "Sardine en saor (Oignon, pignons, raisins)", price_cents: 800, description: "L'emblème de Venise, marinade aigre-douce parfaite." },
-                    { name: "Baccalà mantecato sur crostini", price_cents: 1200, description: "Mousse de morue fouettée à l'huile d'olive, ultra-fondante." },
+                    { name: "Sardine en saor (Oignon, pignons, raisins)", price_cents: 800, description: "L’emblème de Venise, marinade aigre-douce parfaite." },
+                    { name: "Baccalà mantecato sur crostini", price_cents: 1200, description: "Mousse de morue fouettée à l’huile d'olive, ultra-fondante." },
                     { name: "Polpetta de thon & câpres", price_cents: 1200 },
                     { name: "Crostino Asperges & Pecorino", price_cents: 900 },
                     { name: "Crostino Lardo di Colonnata", price_cents: 800 },
@@ -65,7 +65,7 @@ export const osteriaGoto: SurgicalPlace = {
                     { name: "Maccheroni à la Carbonara (La Vraie)", price_cents: 2600, description: "Guanciale craquant, pecorino romano, œuf, poivre noir." },
                     { name: "Tagliatelle au ragoût de canard", price_cents: 2400 },
                     { name: "Bigoli in salsa (Anchois & Oignons)", price_cents: 2000 },
-                    { name: "Risotto à l'encre de seiche", price_cents: 2800 },
+                    { name: "Risotto à l’encre de seiche", price_cents: 2800 },
                     { name: "Lasagne ouverte à la bolognaise", price_cents: 2200 }
                 ]
             },
@@ -76,7 +76,7 @@ export const osteriaGoto: SurgicalPlace = {
                     { name: "Poulpe confit au barbecue, crème de pois chiches", price_cents: 3200, description: "Tendreté absolue, fumé délicat." },
                     { name: "Fritura Mistica (Mix de la mer)", price_cents: 3000 },
                     { name: "Polenta grillée au potiron confit", price_cents: 800 },
-                    { name: "Légumes de saison grillés à l'huile d'olive", price_cents: 1000 },
+                    { name: "Légumes de saison grillés à l’huile d'olive", price_cents: 1000 },
                     { name: "Onigiri de seiche (Fusion Gòto)", price_cents: 1200 }
                 ]
             },
@@ -93,9 +93,9 @@ export const osteriaGoto: SurgicalPlace = {
             },
             {
                 category_type: "drink",
-                display_label: "Vins Natures d'Exception (Sélection)",
+                display_label: "Vins Natures d’Exception (Sélection)",
                 items: [
-                    { name: "Lambrusco dell'Emilia 'Camillo Donati' (Verre)", price_cents: 900 },
+                    { name: "Lambrusco dell’Emilia ’Camillo Donati’ (Verre)", price_cents: 900 },
                     { name: "Verre de vin nature (Blanc/Rouge sélection)", price_cents: 850 },
                     { name: "Spritz Vénitien (Select/Aperol)", price_cents: 1000 },
                     { name: "Americano Gòto", price_cents: 1100 },
@@ -112,13 +112,13 @@ export const osteriaGoto: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Une immersion vénitienne brute sur le boulevard Voltaire. Gòto célèbre les 'Cicchetti' (tapas italiens) et les vins naturels dans une ambiance d'osteria authentique. Ici, le produit prime, servi sans chichi mais avec une science des terroirs italiens impeccable.",
+    description: "Une immersion vénitienne brute sur le boulevard Voltaire. Gòto célèbre les ’Cicchetti’ (tapas italiens) et les vins naturels dans une ambiance d’osteria authentique. Ici, le produit prime, servi sans chichi mais avec une science des terroirs italiens impeccable.",
     insider_tip: "Commandez plusieurs Cicchetti comme les sardines en saor ou la polenta au poisson pour un véritable aperitivo vénitien. Le Lambrusco de Camillo Donati est une petite merveille à découvrir.",
-    expert_catchline: "L'osteria vénitienne vibrante du Boulevard Voltaire.",
+    expert_catchline: "L’osteria vénitienne vibrante du Boulevard Voltaire.",
     specials: {
         cuisine: ["Venetian Specialties", "Cicchetti", "Hand-made Pasta"],
         drinks: ["Natural Italian Wines", "Bellini & Negroni house-style"],
         must_eat: "Le Baccalà Mantecato sur crostini.",
-        must_drink: "Un verre de Lambrusco dell'Emilia Frizzante."
+        must_drink: "Un verre de Lambrusco dell’Emilia Frizzante."
     }
 };

@@ -5,7 +5,7 @@ export const la_felicita: SurgicalPlace = {
   slug: "la-felicita",
   name: "La Felicità",
   category: "restaurant",
-  subcategory: ["italien"],
+  subcategory: ['italien'],
   location: {
     address: "5 Parv. Alan Turing, 75013 Paris, France",
     arrondissement: 13,
@@ -85,8 +85,8 @@ export const la_felicita: SurgicalPlace = {
       }
     ]
   },
-  description: "La Felicità est le vaisseau amiral du groupe Big Mamma à Station F. Ce food-market italien de 4500m² est un lieu hybride unique à Paris, mêlant plusieurs stands gourmands (Pizza, Pasta, Burger, Cocktails) dans un décor spectaculaire et végétalisé. C'est l'endroit parfait pour une sortie festive et décontractée en groupe.",
-  insider_tip: "• **Timing Stratégique** : Évitez les heures de pointe du week-end (20h-21h) car la queue pour les pizzas peut devenir interminable.\n• **Combo Moelle** : La Pizza à la Truffe est un classique indémodable du groupe, à savourer avec un spritz.\n• **Détail Secret** : N'oubliez pas de visiter les toilettes, elles font partie intégrante du décor déjanté du lieu.",
+  description: "La Felicità est le vaisseau amiral du groupe Big Mamma à Station F. Ce food-market italien de 4500m² est un lieu hybride unique à Paris, mêlant plusieurs stands gourmands (Pizza, Pasta, Burger, Cocktails) dans un décor spectaculaire et végétalisé. C’est l'endroit parfait pour une sortie festive et décontractée en groupe.",
+  insider_tip: "• **Timing Stratégique** : Évitez les heures de pointe du week-end (20h-21h) car la queue pour les pizzas peut devenir interminable.\n• **Combo Moelle** : La Pizza à la Truffe est un classique indémodable du groupe, à savourer avec un spritz.\n• **Détail Secret** : N’oubliez pas de visiter les toilettes, elles font partie intégrante du décor déjanté du lieu.",
   specials: {
     cuisine: ["Italienne", "Street-Food"],
     drinks: ["Spritz", "Vins Italiens", "Cocktails"],

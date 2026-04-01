@@ -5,7 +5,7 @@ export const septimeLaCave: SurgicalPlace = {
     name: "Septime La Cave",
     slug: "septime-la-cave",
     category: "bar",
-    subcategory: ["Bar à vin", "Tapas", "Vins Natures", "Gastro-Cave"],
+    subcategory: ['français'],
     location: {
         address: "3 Rue Basfroi, 75011 Paris",
         arrondissement: 11,
@@ -30,13 +30,13 @@ export const septimeLaCave: SurgicalPlace = {
                 display_label: "Petites Assiettes à Partager (Tapas)",
                 items: [
                     { name: "Pain, Beurre Fumé & Truffes Noires", price_cents: 1000, description: "Le toast iconique de la Cave." },
-                    { name: "Jambon de Bœur, Citron & Huile d'Olive", price_cents: 900 },
+                    { name: "Jambon de Bœur, Citron & Huile d’Olive", price_cents: 900 },
                     { name: "Asperges Blanches & Mayonnaise au Capre", price_cents: 800 },
                     { name: "Carottes Fanes, Ail des Ours & Zaatar", price_cents: 750 },
                     { name: "Anchois & Mozzarella di Bufala", price_cents: 850 },
                     { name: "Foie Gras & Anguille Fumée", price_cents: 1200 },
                     { name: "Planche de Charcuterie Artisanale", price_cents: 1500 },
-                    { name: "Saucisson d'Ardèche & Beurre Bordier", price_cents: 750 },
+                    { name: "Saucisson d’Ardèche & Beurre Bordier", price_cents: 750 },
                     { name: "Pancetta de Terroir", price_cents: 700 },
                     { name: "Comté 24 mois & Chutney de Figues", price_cents: 1100 },
                     { name: "Poireaux Vinaigrette Mimosa", price_cents: 800 },
@@ -59,8 +59,8 @@ export const septimeLaCave: SurgicalPlace = {
                 category_type: "drink",
                 display_label: "Vins de Vignerons (Sélection Cave)",
                 items: [
-                    { name: "Domaine Ganevat (Jura)", price_cents: 0, description: "Vins d'exception, nous consulter." },
-                    { name: "Pfifferling - L'Anglore", price_cents: 0 },
+                    { name: "Domaine Ganevat (Jura)", price_cents: 0, description: "Vins d’exception, nous consulter." },
+                    { name: "Pfifferling - L’Anglore", price_cents: 0 },
                     { name: "Domaine Mosse (Anjou)", price_cents: 0 },
                     { name: "Radikon (Frioul)", price_cents: 0 },
                     { name: "Belluard (Savoie)", price_cents: 0 },
@@ -74,10 +74,10 @@ export const septimeLaCave: SurgicalPlace = {
                 display_label: "Final Touches & Softs",
                 items: [
                     { name: "Terrine de Campagne Maison", price_cents: 850 },
-                    { name: "Couteaux Graphiques au Beurre d'Herbes", price_cents: 1200 },
+                    { name: "Couteaux Graphiques au Beurre d’Herbes", price_cents: 1200 },
                     { name: "Verre de Vin Doux Naturel", price_cents: 850 },
                     { name: "Eau de Chateldon (75cl)", price_cents: 650 },
-                    { name: "Café de Spécialité (L'Arbre à Café)", price_cents: 350 }
+                    { name: "Café de Spécialité (L’Arbre à Café)", price_cents: 350 }
                 ]
             }
         ]
@@ -94,13 +94,13 @@ export const septimeLaCave: SurgicalPlace = {
             label: "VOIR LE LIEU"
         }
     },
-    description: "L'antichambre du célébrissime Septime. Ici, on ne réserve pas, on vient pour l'atmosphère vibrante, les vins natures dénichés aux quatre coins de l'Europe et des grignotages de haute volée. Dans un espace exigu et chaleureux, on déguste des produits sourcés avec une précision chirurgicale (charcuteries ibériques, fromages affinés, petites assiettes créatives). C'est l'essence même de l'apéro parisien moderne.",
-    expert_catchline: "La cave naturelle de Septime : des vins d'exception et des tapas cultes sans réservation.",
-    insider_tip: "• Le Foie Gras à l'anguille fumée est un classique indémodable du groupe Septime.\n• Arrivez tôt (18h) pour espérer avoir une petite place au comptoir, car c'est toujours plein.\n• La sélection de vins Orange est souvent incroyable, laissez-vous guider par les cavistes.\n• Vous pouvez acheter vos bouteilles à emporter (-7€ de droit de bouchon).",
+    description: "L’antichambre du célébrissime Septime. Ici, on ne réserve pas, on vient pour l’atmosphère vibrante, les vins natures dénichés aux quatre coins de l’Europe et des grignotages de haute volée. Dans un espace exigu et chaleureux, on déguste des produits sourcés avec une précision chirurgicale (charcuteries ibériques, fromages affinés, petites assiettes créatives). C’est l’essence même de l'apéro parisien moderne.",
+    expert_catchline: "La cave naturelle de Septime : des vins d’exception et des tapas cultes sans réservation.",
+    insider_tip: "• Le Foie Gras à l’anguille fumée est un classique indémodable du groupe Septime.\n• Arrivez tôt (18h) pour espérer avoir une petite place au comptoir, car c'est toujours plein.\n• La sélection de vins Orange est souvent incroyable, laissez-vous guider par les cavistes.\n• Vous pouvez acheter vos bouteilles à emporter (-7€ de droit de bouchon).",
     specials: {
-        cuisine: ["Vins Natures", "Anguille Fumée", "Produits d'exception"],
-        drinks: ["Vins de Macération", "Pet'Nat", "Domaine Gauby"],
-        must_eat: "L'assiette foie gras / anguille et la terrine de porc noir."
+        cuisine: ["Vins Natures", "Anguille Fumée", "Produits d’exception"],
+        drinks: ["Vins de Macération", "Pet’Nat", "Domaine Gauby"],
+        must_eat: "L’assiette foie gras / anguille et la terrine de porc noir."
     },
     images: {
         hero: "https://septime-lacave.fr/wp-content/uploads/2021/05/Septime-La-Cave-Interieur.jpg",

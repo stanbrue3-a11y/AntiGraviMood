@@ -5,7 +5,7 @@ export const automne: SurgicalPlace = {
     name: "Automne",
     slug: "automne",
     category: "restaurant",
-    subcategory: ["étoilé", "gastronomique", "japonais", "vins natures", "restaurant"],
+    subcategory: ['français', 'japonais'],
     location: {
         address: "11 Rue Richard Lenoir",
         arrondissement: 11,
@@ -50,7 +50,7 @@ export const automne: SurgicalPlace = {
                 display_label: "Menu Découverte (Dîner & Week-end)",
                 items: [
                     { name: "Menu en 5 étapes", price_cents: 11000, description: "Le voyage gastronomique structuré par Nobuyuki Akishige." },
-                    { name: "Menu en 7 étapes", price_cents: 14500, description: "L'expérience complète du chef avec des produits nobles." },
+                    { name: "Menu en 7 étapes", price_cents: 14500, description: "L’expérience complète du chef avec des produits nobles." },
                     { name: "Accord Mets & Vins (5 verres)", price_cents: 4500 },
                     { name: "Accord Mets & Vins (7 verres)", price_cents: 6500 }
                 ]
@@ -71,10 +71,10 @@ export const automne: SurgicalPlace = {
                     { name: "Asperges blanches, oseille & amandes fraîches", price_cents: 0 },
                     { name: "Maigre de ligne, courgettes & couteaux de plongée", price_cents: 0 },
                     { name: "Jardinière de légumes, émulsion barigoule", price_cents: 0 },
-                    { name: "Tartelette de foie gras au pain d'épice & muscat", price_cents: 0 },
+                    { name: "Tartelette de foie gras au pain d’épice & muscat", price_cents: 0 },
                     { name: "Ris de veau croustillant & champignons pied bleu", price_cents: 0 },
                     { name: "Selle de chevreuil rôtie (en saison de chasse)", price_cents: 0 },
-                    { name: "Blanc manger à l'estragon & sorbet huile d'olive", price_cents: 0 },
+                    { name: "Blanc manger à l’estragon & sorbet huile d'olive", price_cents: 0 },
                     { name: "Gelée de thé jasmin, crème chocolat blanc & mangue", price_cents: 0 }
                 ]
             },
@@ -100,13 +100,13 @@ export const automne: SurgicalPlace = {
     michelin_stars: 1,
     verified: true,
     google_rating: 4.6,
-    description: "Couronné d'une étoile Michelin, Automne est l'écrin du chef japonais Nobuyuki Akishige. Il y déploie une gastronomie française d'une technicité redoutable, magnifiée par la délicatesse et la précision de sa culture natale. Le cadre est feutré et sobre, concentrant toute l'attention sur des assiettes bluffantes, sublimées par une cave nature d'exception dirigée par le sommelier Ulysse Hivroz.",
-    insider_tip: "• C'est l'adresse parfaite pour un dîner d'affaires haut de gamme ou un repas romantique où le calme et le service impeccable priment.\n• Allez-y pendant la saison de la chasse (automne/hiver) : le chef excelle dans la préparation du gibier (Selle de chevreuil) avec une subtilité rare.\n• Le menu déjeuner à 75€ du mercredi au vendredi est un excellent deal pour une table étoilée de ce calibre.",
+    description: "Couronné d’une étoile Michelin, Automne est l’écrin du chef japonais Nobuyuki Akishige. Il y déploie une gastronomie française d’une technicité redoutable, magnifiée par la délicatesse et la précision de sa culture natale. Le cadre est feutré et sobre, concentrant toute l’attention sur des assiettes bluffantes, sublimées par une cave nature d’exception dirigée par le sommelier Ulysse Hivroz.",
+    insider_tip: "• C’est l’adresse parfaite pour un dîner d’affaires haut de gamme ou un repas romantique où le calme et le service impeccable priment.\n• Allez-y pendant la saison de la chasse (automne/hiver) : le chef excelle dans la préparation du gibier (Selle de chevreuil) avec une subtilité rare.\n• Le menu déjeuner à 75€ du mercredi au vendredi est un excellent deal pour une table étoilée de ce calibre.",
     expert_catchline: "Haute couture gastronomique sous perfusion japonaise dans un écrin étoilé.",
     specials: {
         cuisine: ["Ris de veau croustillant", "Gibier en saison", "Tartelette de foie gras"],
-        drinks: ["Cave nature d'auteur", "Accords de 45€ à 65€"],
-        must_eat: "Laissez-vous guider par le Menu en 7 temps (145€). L'assiette star reste son ris de veau croustillant au printemps, ou ses formidables cuissons de gibier racé en hiver.",
-        must_drink: "L'accord mets et vins (jusqu'à 65€) est conseillé car le sommelier déniche des quilles nature souvent introuvables par ailleurs."
+        drinks: ["Cave nature d’auteur", "Accords de 45€ à 65€"],
+        must_eat: "Laissez-vous guider par le Menu en 7 temps (145€). L’assiette star reste son ris de veau croustillant au printemps, ou ses formidables cuissons de gibier racé en hiver.",
+        must_drink: "L’accord mets et vins (jusqu'à 65€) est conseillé car le sommelier déniche des quilles nature souvent introuvables par ailleurs."
     }
 };

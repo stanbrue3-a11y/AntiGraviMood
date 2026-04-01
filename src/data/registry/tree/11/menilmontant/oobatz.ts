@@ -5,7 +5,7 @@ export const oobatz: SurgicalPlace = {
     name: "Oobatz",
     slug: "oobatz",
     category: "restaurant",
-    subcategory: ["pizzeria", "pâte fermentée", "vins naturels", "artisanal"],
+    subcategory: ['pizzeria', 'français'],
     location: {
         address: "4bis Av. Jean Aicard",
         arrondissement: 11,
@@ -49,11 +49,11 @@ export const oobatz: SurgicalPlace = {
                 items: [
                     { name: "Marguerita Oobatz", price_cents: 1600, description: "Sauce tomate maison, mozzarella, basilic frais." },
                     { name: "Diavola Fermentée", price_cents: 2000, description: "Salami piquant, piment, origan." },
-                    { name: "Verdure d'Été / Saison", price_cents: 1800, description: "Légumes de saison rôtis, herbes fraîches." },
+                    { name: "Verdure d’Été / Saison", price_cents: 1800, description: "Légumes de saison rôtis, herbes fraîches." },
                     { name: "Pizza Salsiccia", price_cents: 2200, description: "Saucisse italienne, fenouil, pecorino." },
                     { name: "Pizza Polpette", price_cents: 2300, description: "Boulettes de viande maison, tomate, parmesan." },
                     { name: "Pizza Blanche Asparagus", price_cents: 2400, description: "Asperges, agrumes, crème de ricotta." },
-                    { name: "Pizza Carte Blanche (Chef Choice)", price_cents: 2600, description: "L'inspiration du moment de Dan Pearson." }
+                    { name: "Pizza Carte Blanche (Chef Choice)", price_cents: 2600, description: "L’inspiration du moment de Dan Pearson." }
                 ]
             },
             {
@@ -91,9 +91,9 @@ export const oobatz: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "La pizzeria culte de Dan Pearson, ex-chef du Rigmarole. Ici, la pizza est un art de la fermentation : pâte légère, croustillante et garnitures sourcées à l'extrême. Une expérience brute et vibrante.",
-    insider_tip: "Ne passez pas à côté du Pizzookie, le dessert signature hybride pizza-cookie servi chaud. Prévoyez de réserver pile 14 jours à l'avance à 10h, les places s'arrachent.",
-    expert_catchline: "L'art de la pizza fermentée par un virtuose du Rigmarole.",
+    description: "La pizzeria culte de Dan Pearson, ex-chef du Rigmarole. Ici, la pizza est un art de la fermentation : pâte légère, croustillante et garnitures sourcées à l’extrême. Une expérience brute et vibrante.",
+    insider_tip: "Ne passez pas à côté du Pizzookie, le dessert signature hybride pizza-cookie servi chaud. Prévoyez de réserver pile 14 jours à l’avance à 10h, les places s'arrachent.",
+    expert_catchline: "L’art de la pizza fermentée par un virtuose du Rigmarole.",
     specials: {
         cuisine: ["Pizzas à longue fermentation", "Garnitures ultra-saisonnières", "Pizzookie"],
         drinks: ["Natural Wines", "Craft Softs"],

@@ -39,8 +39,8 @@ export const hotel_de_la_marine: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Ancré sur la place de la Concorde, l'Hôtel de la Marine est un joyau du XVIIIe siècle. Cet ancien Garde-Meuble de la Couronne a rouvert ses portes après une restauration pharaonique, révélant des appartements d'apparat aux dorures et miroirs éblouissants. La visite est immersive, grâce à un casque sonore de haute technologie qui nous transporte à la cour de Louis XV. Un voyage impérial au centre de Paris, couronné par une vue imprenable sur les obélisques et le jardin des Tuileries.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Ancré sur la place de la Concorde, l’Hôtel de la Marine est un joyau du XVIIIe siècle. Cet ancien Garde-Meuble de la Couronne a rouvert ses portes après une restauration pharaonique, révélant des appartements d'apparat aux dorures et miroirs éblouissants. La visite est immersive, grâce à un casque sonore de haute technologie qui nous transporte à la cour de Louis XV. Un voyage impérial au centre de Paris, couronné par une vue imprenable sur les obélisques et le jardin des Tuileries.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

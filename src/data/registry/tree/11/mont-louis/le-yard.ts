@@ -5,7 +5,7 @@ export const le_yard: SurgicalPlace = {
     name: "YARD",
     slug: "le-yard",
     category: "restaurant",
-    subcategory: ["cave à vins", "bistronomique", "vins natures", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "6 Rue de Mont-Louis",
         arrondissement: 11,
@@ -121,13 +121,13 @@ export const le_yard: SurgicalPlace = {
     instagram_handle: "yard_paris",
     verified: true,
     google_rating: 4.5,
-    description: "Le YARD, c'est avant tout une cave à vin naturel de 250+ références ET un restaurant bistronomique au cœur du 11ème. Le concept est malin : on choisit ses plats à la carte (viande, poisson, légumes grillés), on partage, et on se laisse guider par la sélection naturelle du jour au verre. L'ambiance est chaleureuse, sans chichi, idéale pour un dîner entre amis avec du bon vin en toile de fond.",
-    insider_tip: "• Le menu midi entre 23€ et 28€ est un deal excellent pour cette qualité dans le quartier.\n• Chaque dimanche, ils organisent une dégustation thématique à 30€ avec un vigneron invité — c'est l'événement du week-end pour les amateurs de vin nature.\n• On peut acheter des bouteilles à emporter directement depuis la cave avec une réduction de 30% sur le prix restaurant.\n• La côte de bœuf à 130€ (pour 2) se commande à l'avance et se partage avec un bon rouge nature.",
+    description: "Le YARD, c’est avant tout une cave à vin naturel de 250+ références ET un restaurant bistronomique au cœur du 11ème. Le concept est malin : on choisit ses plats à la carte (viande, poisson, légumes grillés), on partage, et on se laisse guider par la sélection naturelle du jour au verre. L'ambiance est chaleureuse, sans chichi, idéale pour un dîner entre amis avec du bon vin en toile de fond.",
+    insider_tip: "• Le menu midi entre 23€ et 28€ est un deal excellent pour cette qualité dans le quartier.\n• Chaque dimanche, ils organisent une dégustation thématique à 30€ avec un vigneron invité — c’est l’événement du week-end pour les amateurs de vin nature.\n• On peut acheter des bouteilles à emporter directement depuis la cave avec une réduction de 30% sur le prix restaurant.\n• La côte de bœuf à 130€ (pour 2) se commande à l’avance et se partage avec un bon rouge nature.",
     expert_catchline: "Le bistrot-cave du 11ème avec 250+ quilles natures et un menu du marché redoutable.",
     specials: {
         cuisine: ["Gnocchi champignons", "Poitrine de porc confite", "Côte de bœuf", "Huîtres Granny Smith"],
         drinks: ["250+ vins natures en cave", "Sélection au verre quotidienne", "Dégustations dominicales 30€"],
-        must_eat: "Les plats changent tous les jours au gré du marché. Misez sur le menu déjeuner Entrée + Plat à 28€ pour une valeur imbattable. Le soir, les assiettes à partager s'imposent : croquettes de bourguignon (10€), brocoli croustillant (8€) et un bon plat de poisson du jour.",
+        must_eat: "Les plats changent tous les jours au gré du marché. Misez sur le menu déjeuner Entrée + Plat à 28€ pour une valeur imbattable. Le soir, les assiettes à partager s’imposent : croquettes de bourguignon (10€), brocoli croustillant (8€) et un bon plat de poisson du jour.",
         must_drink: "La cave est le vrai trésor. 250+ cuvées naturelles, dont beaucoup sont introuvables ailleurs. Les verres du jour changent quotidiennement et commencent à 7€."
     }
 };

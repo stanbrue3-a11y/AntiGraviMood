@@ -5,9 +5,9 @@ export const cantineTroquet: SurgicalPlace = {
     name: "La Cantine du Troquet Pernety",
     slug: "la-cantine-du-troquet-pernety-paris-14",
     category: "restaurant",
-    subcategory: ["bistrot", "sud-ouest", "vibrant", "institution", "terroir"],
+    subcategory: ['français'],
     location: {
-        address: "101 Rue de l'Ouest, 75014 Paris, France",
+        address: "101 Rue de l’Ouest, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.8341222,
         lng: 2.3159177,
@@ -46,9 +46,9 @@ export const cantineTroquet: SurgicalPlace = {
                     { name: "Pavé de Thon Snacké, Pimientos de Padron", price_cents: 2700 },
                     { name: "Boudin Noir de Christian Parra, Purée", price_cents: 2400 },
                     { name: "Entrecôte Maturée, Frites Maison", price_cents: 3400 },
-                    { name: "Tartare de Boeuf au Piment d'Espelette", price_cents: 2500 },
-                    { name: "Épaule d'Agneau Confite (pour 2)", price_cents: 7200 },
-                    { name: "Merlu de Ligne à l'Espagnole", price_cents: 2600 },
+                    { name: "Tartare de Boeuf au Piment d’Espelette", price_cents: 2500 },
+                    { name: "Épaule d’Agneau Confite (pour 2)", price_cents: 7200 },
+                    { name: "Merlu de Ligne à l’Espagnole", price_cents: 2600 },
                     { name: "Poitrine de Veau rôtie au Romarin", price_cents: 2900 }
                 ]
             },
@@ -86,12 +86,12 @@ export const cantineTroquet: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "La Cantine du Troquet Pernety est le navire amiral de Christian Etchebest dans le 14ème. C'est un lieu vibrant, bruyant, vivant, où l'on cultive l'art du bien-manger sans manières. La cuisine est celle du Sud-Ouest : franche, généreuse et techniquement impeccable. Les produits sont sourcés chez les meilleurs artisans (Ospital, Parra). On s'y installe sur de grandes tablées dans une ambiance de bistrot moderne très dynamique. C'est l'endroit rêvé pour une soirée conviviale où le partage et la bonne humeur sont les maîtres-mots.",
-    insider_tip: "Ici, on ne réserve pas, donc venez tôt ou profitez de l'ambiance au bar en attendant votre table. Les couteaux à la plancha sont absolument divins, une commande obligatoire dès votre arrivée.",
+    description: "La Cantine du Troquet Pernety est le navire amiral de Christian Etchebest dans le 14ème. C’est un lieu vibrant, bruyant, vivant, où l’on cultive l’art du bien-manger sans manières. La cuisine est celle du Sud-Ouest : franche, généreuse et techniquement impeccable. Les produits sont sourcés chez les meilleurs artisans (Ospital, Parra). On s’y installe sur de grandes tablées dans une ambiance de bistrot moderne très dynamique. C’est l'endroit rêvé pour une soirée conviviale où le partage et la bonne humeur sont les maîtres-mots.",
+    insider_tip: "Ici, on ne réserve pas, donc venez tôt ou profitez de l’ambiance au bar en attendant votre table. Les couteaux à la plancha sont absolument divins, une commande obligatoire dès votre arrivée.",
     expert_catchline: "La bistronomie vibrante aux accents du Sud-Ouest.",
     specials: {
         cuisine: ["Sud-Ouest", "Bistronomie Canailles"],
-        drinks: ["Pauilhac", "Vins de Pays Basque", "Sélection d'Armagnacs"],
+        drinks: ["Pauilhac", "Vins de Pays Basque", "Sélection d’Armagnacs"],
         must_eat: "Le Cochon de Lait croustillant.",
         must_drink: "Un vin rouge du Pays Basque."
     },

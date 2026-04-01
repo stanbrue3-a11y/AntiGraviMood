@@ -5,7 +5,7 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
   slug: "chez-gino-pizza-feu-de-bois",
   name: "Chez Gino Pizza Feu de Bois",
   category: "restaurant",
-  subcategory: ["italien"],
+  subcategory: ['italien'],
   location: {
     address: "80 Rue Dunois, 75013 Paris, France",
     arrondissement: 13,
@@ -59,7 +59,7 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
           { name: "Linguini Carbonara (Guanciale)", price_cents: 1290 },
           { name: "Rigatoni Caruso (Crème, Jambon)", price_cents: 1290 },
           { name: "Lasagnes Al Forno (Maison)", price_cents: 1350 },
-          { name: "Penne All'Arrabbiata", price_cents: 1150 }
+          { name: "Penne All’Arrabbiata", price_cents: 1150 }
         ]
       },
       {
@@ -83,8 +83,8 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
       }
     ]
   },
-  description: "Chez Gino est une adresse de référence pour les amoureux de la pizza authentique dans le 13ème arrondissement. Installé depuis des années rue Dunois, l'établissement mise sur une cuisson parfaite au feu de bois et des produits importés directement d'Italie. Une ambiance de quartier chaleureuse et sans superflu.",
-  insider_tip: "• **Combo Moelle** : La Pizza Regina au feu de bois est la valeur la plus sûre, avec une pâte fine et croustillante.\n• **Détail Authentique** : Les lasagnes sont faites maison chaque matin, un délice fondant souvent en rupture dès 13h.\n• **Expérience Culturelle** : Idéal pour une soirée pizza décontractée entre amis avant une balade vers la Place d'Italie.",
+  description: "Chez Gino est une adresse de référence pour les amoureux de la pizza authentique dans le 13ème arrondissement. Installé depuis des années rue Dunois, l’établissement mise sur une cuisson parfaite au feu de bois et des produits importés directement d'Italie. Une ambiance de quartier chaleureuse et sans superflu.",
+  insider_tip: "• **Combo Moelle** : La Pizza Regina au feu de bois est la valeur la plus sûre, avec une pâte fine et croustillante.\n• **Détail Authentique** : Les lasagnes sont faites maison chaque matin, un délice fondant souvent en rupture dès 13h.\n• **Expérience Culturelle** : Idéal pour une soirée pizza décontractée entre amis avant une balade vers la Place d’Italie.",
   specials: {
     cuisine: ["Italienne", "Pizza"],
     drinks: ["Vin italien", "Bière Peroni"],

@@ -39,8 +39,8 @@ export const le_bal_paris: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "LE BAL est un carrefour culturel indépendant dédié à l'image documentaire sous toutes ses formes (photo, film, livre). Installé dans une ancienne salle de bal des années Folles au fond d une impasse, le lieu dégage une énergie créative et exigeante. On y vient pour découvrir des expositions pointues et souvent inédites, ou pour flâner dans l une des meilleures librairies photographiques de Paris. C'est un lieu vibrant, qui invite à la réflexion et à la contemplation de notre monde à travers l objectif.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "LE BAL est un carrefour culturel indépendant dédié à l’image documentaire sous toutes ses formes (photo, film, livre). Installé dans une ancienne salle de bal des années Folles au fond d une impasse, le lieu dégage une énergie créative et exigeante. On y vient pour découvrir des expositions pointues et souvent inédites, ou pour flâner dans l une des meilleures librairies photographiques de Paris. C'est un lieu vibrant, qui invite à la réflexion et à la contemplation de notre monde à travers l objectif.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

@@ -11,7 +11,7 @@ export const les_editeurs: SurgicalPlace = {
     "verified": true,
     "google_rating": 4.3,
     "location": {
-        "address": "4 Carr de l'Odéon",
+        "address": "4 Carr de l’Odéon",
         "arrondissement": 6,
         "lat": 48.851941,
         "lng": 2.338382,
@@ -38,8 +38,8 @@ export const les_editeurs: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Installé dans une magnifique bâtisse à l'angle du Boulevard Saint-Germain, Les Éditeurs est le café littéraire par excellence. Entre les milliers de livres qui ornent les murs, les fauteuils en cuir rouge et la vue sur l'Odéon, l'ambiance est studieuse et feutrée. On y croise souvent des auteurs et des gens de l'édition, venus discuter de leur prochain manuscrit autour d'un café ou d'un club sandwich exemplaire. Une bulle de culture et de confort parisien.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Installé dans une magnifique bâtisse à l’angle du Boulevard Saint-Germain, Les Éditeurs est le café littéraire par excellence. Entre les milliers de livres qui ornent les murs, les fauteuils en cuir rouge et la vue sur l’Odéon, l’ambiance est studieuse et feutrée. On y croise souvent des auteurs et des gens de l’édition, venus discuter de leur prochain manuscrit autour d’un café ou d'un club sandwich exemplaire. Une bulle de culture et de confort parisien.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

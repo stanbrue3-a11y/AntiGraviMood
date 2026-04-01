@@ -39,7 +39,7 @@ export const jeu_de_paume: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Situé à l'entrée des Tuileries, face à l'Orangerie, ce bâtiment Second Empire est dédié à l'image contemporaine (photo, vidéo). Sa programmation est souvent engagée, politique et documentaire (Dorothea Lange, Gordon Matta-Clark). C'est un musée à taille humaine, lumineux, qui offre une pause culturelle intelligente avant d'aller marcher dans le jardin des Tuileries. La librairie est l'une des meilleures de Paris pour la photographie.",
+    "description": "Situé à l’entrée des Tuileries, face à l’Orangerie, ce bâtiment Second Empire est dédié à l’image contemporaine (photo, vidéo). Sa programmation est souvent engagée, politique et documentaire (Dorothea Lange, Gordon Matta-Clark). C’est un musée à taille humaine, lumineux, qui offre une pause culturelle intelligente avant d’aller marcher dans le jardin des Tuileries. La librairie est l'une des meilleures de Paris pour la photographie.",
     "insider_tip": "Temple de la photographie à la Concorde.",
     "specials": {
         "cuisine": [],

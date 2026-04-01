@@ -2,7 +2,7 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const musee_orsay: SurgicalPlace = {
     "id": "poi-147",
-    "name": "Musée d'Orsay",
+    "name": "Musée d’Orsay",
     "slug": "musee-orsay",
     "category": "museum",
     "subcategory": [
@@ -11,7 +11,7 @@ export const musee_orsay: SurgicalPlace = {
     "verified": true,
     "google_rating": 4.8,
     "location": {
-        "address": "Esplanade Valéry Giscard d'Estaing",
+        "address": "Esplanade Valéry Giscard d’Estaing",
         "arrondissement": 7,
         "lat": 48.859961,
         "lng": 2.326561,
@@ -39,8 +39,8 @@ export const musee_orsay: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Installé dans une ancienne gare ferroviaire aux volumes monumentaux, le Musée d'Orsay abrite la plus riche collection au monde de chefs-d'œuvre impressionnistes et post-impressionnistes. Entre les toiles de Monet, Degas, Renoir ou Van Gogh, on déambule sous la grande horloge d'origine avec une émotion toujours intacte. Le dialogue entre l'architecture de fer et de verre et les couleurs vibrantes de l'art du XIXe siècle est unique au monde.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Installé dans une ancienne gare ferroviaire aux volumes monumentaux, le Musée d’Orsay abrite la plus riche collection au monde de chefs-d’œuvre impressionnistes et post-impressionnistes. Entre les toiles de Monet, Degas, Renoir ou Van Gogh, on déambule sous la grande horloge d’origine avec une émotion toujours intacte. Le dialogue entre l’architecture de fer et de verre et les couleurs vibrantes de l’art du XIXe siècle est unique au monde.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

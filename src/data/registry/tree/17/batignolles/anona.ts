@@ -5,7 +5,7 @@ export const anona: SurgicalPlace = {
   slug: "anona",
   name: "ANONA",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Michelin-starred", "Durable", "Moderne"],
+  subcategory: ['français'],
   location: {
     address: "80 Bd des Batignolles, 75017 Paris, France",
     arrondissement: 17,
@@ -55,10 +55,10 @@ export const anona: SurgicalPlace = {
         items: [
           { name: "Le Maïs : bœuf Wagyu, maïs habañero, tortilla croustillante", price_cents: 1900 },
           { name: "Le Canard Mulard : à la moutarde, en raviole, figues", price_cents: 2200 },
-          { name: "Les Couteaux : vinaigrette à l'huile de graines de courge", price_cents: 1700 },
+          { name: "Les Couteaux : vinaigrette à l’huile de graines de courge", price_cents: 1700 },
           { name: "La Carotte des Sables (Vegan) : cuite au jus de carotte", price_cents: 2400 },
           { name: "Asperges Blanches, sabayon agrumes et oxalis", price_cents: 2100 },
-          { name: "Betterave rôtie au feu de bois, brebis de l'Aveyron", price_cents: 1800 }
+          { name: "Betterave rôtie au feu de bois, brebis de l’Aveyron", price_cents: 1800 }
         ]
       },
       {
@@ -66,10 +66,10 @@ export const anona: SurgicalPlace = {
         display_label: "Les Plats",
         items: [
           { name: "Le Cabillaud : pané, chou rouge et kale, pomme de terre", price_cents: 3800 },
-          { name: "Le Pigeon : rôti sur l'os et cuisse confite à la noisette", price_cents: 3800 },
-          { name: "Le Cochon Montalet : noix d'entrecôte rôtie, haricots coco", price_cents: 4900 },
-          { name: "Poisson de Petit Bateau, émulsion d'arêtes grillées", price_cents: 3600 },
-          { name: "Céleri-Rave en croûte de sel, truffe noire d'hiver", price_cents: 3500 },
+          { name: "Le Pigeon : rôti sur l’os et cuisse confite à la noisette", price_cents: 3800 },
+          { name: "Le Cochon Montalet : noix d’entrecôte rôtie, haricots coco", price_cents: 4900 },
+          { name: "Poisson de Petit Bateau, émulsion d’arêtes grillées", price_cents: 3600 },
+          { name: "Céleri-Rave en croûte de sel, truffe noire d’hiver", price_cents: 3500 },
           { name: "Risotto de petit épeautre, champignons des bois", price_cents: 3200 }
         ]
       },
@@ -77,7 +77,7 @@ export const anona: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Les Desserts",
         items: [
-          { name: "Dessert du Chariot selon l'humeur du Chef", price_cents: 1400 },
+          { name: "Dessert du Chariot selon l’humeur du Chef", price_cents: 1400 },
           { name: "Le Soufflé Anona : création de saison", price_cents: 1600 },
           { name: "Mignardises de la Maison Spiwack", price_cents: 1000 },
           { name: "Poire Confite, sorbet verveine du jardin", price_cents: 1400 }
@@ -85,10 +85,10 @@ export const anona: SurgicalPlace = {
       }
     ]
   },
-  description: `Anona est la table engagée du chef Thibaut Spiwack (Top Chef), récompensée d'une étoile Michelin et d'une étoile verte. Situé face au square des Batignolles, ce restaurant sublime la gastronomie durable avec une éthique radicale : approvisionnement local féroce, réduction totale des déchets et technique de haut vol. Un lieu où l'excellence ne sacrifie jamais la conscience écologique.`,
-  insider_tip: `• **Engagement** : La démarche éco-responsable est poussée à l'extrême, n'hésitez pas à poser des questions sur l'origine des produits.
+  description: `Anona est la table engagée du chef Thibaut Spiwack (Top Chef), récompensée d’une étoile Michelin et d’une étoile verte. Situé face au square des Batignolles, ce restaurant sublime la gastronomie durable avec une éthique radicale : approvisionnement local féroce, réduction totale des déchets et technique de haut vol. Un lieu où l'excellence ne sacrifie jamais la conscience écologique.`,
+  insider_tip: `• **Engagement** : La démarche éco-responsable est poussée à l’extrême, n'hésitez pas à poser des questions sur l'origine des produits.
   • **Combo Moelle** : Les créations autour du maïs sont devenues iconiques pour leur équilibre entre rondeur et piment.
-  • **Le Midi** : Le menu déjeûner offre l'expérience étoilée avec un rapport qualité-prix imbattable dans le quartier.`,
+  • **Le Midi** : Le menu déjeûner offre l’expérience étoilée avec un rapport qualité-prix imbattable dans le quartier.`,
   expert_catchline: "Quand la haute gastronomie rencontre la conscience écologique radicale.",
   specials: {
     cuisine: ["Gastronomique"],

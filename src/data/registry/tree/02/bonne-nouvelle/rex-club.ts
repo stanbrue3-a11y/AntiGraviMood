@@ -41,7 +41,7 @@ export const rex_club: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Le grand-père de la techno parisienne. Situé sous le mythique cinéma Grand Rex, c'est le club qui a accueilli les premiers sets de Laurent Garnier et des Daft Punk. Ici, pas de déco, tout est dans le son (un soundsystem Meyer légendaire) et les lumières. C'est un, tunnel sombre, bas de plafond, où l'on vient pour la musique et rien d'autre. La programmation reste, après 30 ans, l'une des plus exigeantes et respectées d'Europe.",
+    "description": "Le grand-père de la techno parisienne. Situé sous le mythique cinéma Grand Rex, c’est le club qui a accueilli les premiers sets de Laurent Garnier et des Daft Punk. Ici, pas de déco, tout est dans le son (un soundsystem Meyer légendaire) et les lumières. C’est un, tunnel sombre, bas de plafond, où l’on vient pour la musique et rien d’autre. La programmation reste, après 30 ans, l’une des plus exigeantes et respectées d'Europe.",
     "insider_tip": "Checkez la prog sur Resident Advisor, c est ici que les légendes mixent.",
     "specials": {
         "cuisine": [],

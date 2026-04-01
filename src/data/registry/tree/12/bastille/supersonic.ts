@@ -42,7 +42,7 @@ export const supersonic: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Le sauveur des nuits rock à Paris. Situé près de Bastille, ce club aux allures de loft new-yorkais (balcon intérieur, scène basse) propose des concerts gratuits presque tous les soirs ! Indie rock, post-punk, pop psychédélique... la programmation est pointue et curieuse. Après les concerts, le lieu se transforme en club avec des soirées à thème ('Fuck Forever' indie pop, 'Sunday Tribute'). C'est toujours plein, ça transpire, c'est vivant et accessible à tous.",
+    "description": "Le sauveur des nuits rock à Paris. Situé près de Bastille, ce club aux allures de loft new-yorkais (balcon intérieur, scène basse) propose des concerts gratuits presque tous les soirs ! Indie rock, post-punk, pop psychédélique... la programmation est pointue et curieuse. Après les concerts, le lieu se transforme en club avec des soirées à thème (’Fuck Forever’ indie pop, ’Sunday Tribute’). C’est toujours plein, ça transpire, c'est vivant et accessible à tous.",
     "insider_tip": "Concerts et soirées tribute Gratuits avant minuit. Ambiance Rock.",
     "specials": {
         "cuisine": [],

@@ -5,7 +5,7 @@ export const le_baribal: SurgicalPlace = {
     name: "Le Baribal",
     slug: "le-baribal",
     category: "restaurant",
-    subcategory: ["brasserie", "bistrot", "français"],
+    subcategory: ['français'],
     location: {
         address: "186 Rue de Vaugirard",
         arrondissement: 15,
@@ -50,8 +50,8 @@ export const le_baribal: SurgicalPlace = {
                 display_label: "Entrées",
                 items: [
                     { name: "Oeuf mayonnaise", price_cents: 600 },
-                    { name: "Harengs pommes à l'huile", price_cents: 800 },
-                    { name: "Soupe à l'oignon gratinée au Cantal", price_cents: 970 },
+                    { name: "Harengs pommes à l’huile", price_cents: 800 },
+                    { name: "Soupe à l’oignon gratinée au Cantal", price_cents: 970 },
                     { name: "Os à moelle", price_cents: 1060 },
                     { name: "6 gros escargots en persillade", price_cents: 1100 },
                     { name: "Saumon fumé et ses blinis", price_cents: 1100 },
@@ -70,7 +70,7 @@ export const le_baribal: SurgicalPlace = {
                     { name: "Saucisse aligot Thérondels", price_cents: 1900 },
                     { name: "Foie de veau persillé", price_cents: 1900 },
                     { name: "Rognons de veau, sauce moutarde", price_cents: 1900 },
-                    { name: "Côtes d'agneau, sauce pistou", price_cents: 1900 },
+                    { name: "Côtes d’agneau, sauce pistou", price_cents: 1900 },
                     { name: "Magret de canard sauce miel", price_cents: 2100 },
                     { name: "Tartare du Baribal (moelle)", price_cents: 2100 },
                     { name: "Entrecôte (300g) béarnaise", price_cents: 2380 },
@@ -122,13 +122,13 @@ export const le_baribal: SurgicalPlace = {
     instagram_handle: "lebaribalparis",
     verified: true,
     google_rating: 4.4,
-    description: "Une véritable institution du 15ème arrondissement installée depuis plus de 40 ans. Le Baribal, c'est ce bistrot de quartier qui ne triche pas : ambiance vivante, bruyante aux heures de pointe, et des portions d'une générosité redoutable. Fief des habitués de Vaugirard, l'adresse conjugue la tradition brasserie française pure jus avec une atmosphère de camaraderie où le patron n'hésite pas à envoyer des shots.",
-    insider_tip: "• Les soirs de week-end, l'endroit peut être particulièrement bruyant et festif, avec une atmosphère presque \"pub\".\n• Une \"Formule Midi\" très efficace existe en semaine à 18€ (Entrée/Plat ou Plat/Dessert).\n• Ne manquez pas l'Happy Hour sur les cocktails à 6€.",
+    description: "Une véritable institution du 15ème arrondissement installée depuis plus de 40 ans. Le Baribal, c’est ce bistrot de quartier qui ne triche pas : ambiance vivante, bruyante aux heures de pointe, et des portions d’une générosité redoutable. Fief des habitués de Vaugirard, l’adresse conjugue la tradition brasserie française pure jus avec une atmosphère de camaraderie où le patron n'hésite pas à envoyer des shots.",
+    insider_tip: "• Les soirs de week-end, l’endroit peut être particulièrement bruyant et festif, avec une atmosphère presque \"pub\".\n• Une \"Formule Midi\" très efficace existe en semaine à 18€ (Entrée/Plat ou Plat/Dessert).\n• Ne manquez pas l’Happy Hour sur les cocktails à 6€.",
     expert_catchline: "Bistrot populaire et généreux, institution vibrante de Vaugirard depuis 40 ans.",
     specials: {
         cuisine: ["Saucisse aligot Thérondels", "Ris de veau crème champignon", "Tartare du Baribal à la moelle", "Profiterole géante"],
         drinks: ["Baribal Spritz", "Pinte de 1664", "Cocktails Happy Hour"],
         must_eat: "Une carte pléthorique où le terroir frappe fort. Ne passez pas à côté du monumental Tartare du Baribal à la moelle (21€) ou du classique Ris de veau à la crème (26€). En entrée, les 6 gros escargots en persillade annoncent la couleur.",
-        must_drink: "Rien de savant, juste de l'efficace : des pintes qui coulent à flots et une belle sélection de cocktails classiques (dont leur signature Baribal Spritz) à 6€ en Happy Hour."
+        must_drink: "Rien de savant, juste de l’efficace : des pintes qui coulent à flots et une belle sélection de cocktails classiques (dont leur signature Baribal Spritz) à 6€ en Happy Hour."
     }
 };

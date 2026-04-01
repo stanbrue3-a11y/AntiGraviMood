@@ -5,7 +5,7 @@ export const coretta: SurgicalPlace = {
   slug: "coretta",
   name: "Coretta",
   category: "restaurant",
-  subcategory: ["modern-french", "bistronomic", "chic", "vue-parc", "institution"],
+  subcategory: ['français'],
   location: {
     address: "151 bis Rue Cardinet, 75017 Paris, France",
     arrondissement: 17,
@@ -45,7 +45,7 @@ export const coretta: SurgicalPlace = {
         items: [
           { name: "Yellowtail crudo, tomates anciennes, framboises", price_cents: 1600 },
           { name: "Moules de Bouchot, toast brioché, poireaux fondants", price_cents: 1400 },
-          { name: "Tempura d'Asperges, Calamars grillés, sauce wasabi", price_cents: 1500 },
+          { name: "Tempura d’Asperges, Calamars grillés, sauce wasabi", price_cents: 1500 },
           { name: "Bruschetta de pain de campagne, Stracciatella", price_cents: 1400 },
           { name: "Gazpacho de tomates Ananas Zebra, crevettes marinées", price_cents: 1300 }
         ]
@@ -78,7 +78,7 @@ export const coretta: SurgicalPlace = {
         display_label: "La Cave & Boissons",
         items: [
           { name: "Verre de Rosé Côtes de Provence", price_cents: 800 },
-          { name: "Bouteille d'Eau Minérale (75cl)", price_cents: 600 },
+          { name: "Bouteille d’Eau Minérale (75cl)", price_cents: 600 },
           { name: "Sélection de Vins au flacon", price_cents: 3000 }
         ]
       }
@@ -86,7 +86,7 @@ export const coretta: SurgicalPlace = {
   },
   expert_catchline: "Une bistronomie de haute volée face au parc, où la brioche à la cannelle est devenue une véritable religion.",
   description: "Coretta est une pépite bistronomique face au parc Martin Luther King, orchestrée par la cheffe Beatriz Gonzalez.",
-  insider_tip: "• **Lumière** : Demandez une table à l'étage près des vitres pour la vue imprenable sur le parc.\n• **Culte** : La brioche à la cannelle est le dessert obligatoire, ne partez pas sans.\n• **Sourcing** : Le menu déjeuner à 32€ est l'une des meilleures affaires du quartier.",
+  insider_tip: "• **Lumière** : Demandez une table à l’étage près des vitres pour la vue imprenable sur le parc.\n• **Culte** : La brioche à la cannelle est le dessert obligatoire, ne partez pas sans.\n• **Sourcing** : Le menu déjeuner à 32€ est l'une des meilleures affaires du quartier.",
   specials: {
     cuisine: ["Cuisine française"],
     drinks: ["Vin", "Cocktail"],

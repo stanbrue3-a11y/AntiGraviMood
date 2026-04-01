@@ -5,7 +5,7 @@ export const sugo: SurgicalPlace = {
   slug: "sugo-pasta-fresca-saint-augustin",
   name: "SUGO pasta fresca - Saint-Augustin",
   category: "restaurant",
-  subcategory: ["italien", "pâtes", "frais", "traiteur", "cantine"],
+  subcategory: ['italien', 'français'],
   location: {
     address: "16 Rue Saint-Augustin, 75002 Paris, France",
     arrondissement: 2,
@@ -73,7 +73,7 @@ export const sugo: SurgicalPlace = {
                 { name: "Jeudi : Lasagna (Ragu de boeuf Angus, béchamel)", price_cents: 1800 },
                 { name: "Vendredi : Salsiccia (Aubergines et saucisse artisanale)", price_cents: 1800 },
                 { name: "Samedi : Ruggine (Pesto, sauce Sugo, olives Ligure)", price_cents: 1800 },
-                { name: "Dimanche : Carciofi (Crème d'artichaut, guanciale)", price_cents: 1800 }
+                { name: "Dimanche : Carciofi (Crème d’artichaut, guanciale)", price_cents: 1800 }
             ]
         },
         {
@@ -82,13 +82,13 @@ export const sugo: SurgicalPlace = {
             items: [
                 { name: "Tiramisu (Mascarpone crémeux, café, chocolat)", price_cents: 700 },
                 { name: "Torta Caprese (Fondant chocolat Valrhona, amandes)", price_cents: 700 },
-                { name: "Panna Cotta (Fleur d'oranger, praliné pistache)", price_cents: 600 }
+                { name: "Panna Cotta (Fleur d’oranger, praliné pistache)", price_cents: 600 }
             ]
         }
     ]
   },
   description: "SUGO est la nouvelle ambassade de la pasta fresca à Paris. Ici, les pâtes sont fabriquées sur place chaque matin à partir de semoule de blé dur bio. Le concept est simple : des recettes italiennes authentiques, des produits sourcés directement chez les petits producteurs, et une générosité sans compromis.",
-  insider_tip: "• **Timing Stratégique** : Venez dès l'ouverture pour éviter la file d'attente sur la rue Saint-Augustin.\n• **Combo Moelle** : La Carbonara est le pilier du lieu, à déguster sur place.\n• **Détail Secret** : Les pâtes sont fraîches, pétries et étirées quotidiennement.",
+  insider_tip: "• **Timing Stratégique** : Venez dès l’ouverture pour éviter la file d'attente sur la rue Saint-Augustin.\n• **Combo Moelle** : La Carbonara est le pilier du lieu, à déguster sur place.\n• **Détail Secret** : Les pâtes sont fraîches, pétries et étirées quotidiennement.",
   specials: {
     cuisine: ["Italienne", "Pasta Bar"],
     drinks: ["Softs", "Vin"],

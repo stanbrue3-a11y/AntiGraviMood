@@ -5,7 +5,7 @@ export const blanca: SurgicalPlace = {
     name: "Blanca",
     slug: "blanca",
     category: "restaurant",
-    subcategory: ["argentinian", "basque", "bistronomic", "fusion"],
+    subcategory: ['français'],
     location: {
         address: "34 Rue Keller",
         arrondissement: 11,
@@ -87,13 +87,13 @@ export const blanca: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.8,
-    description: "Blanca est l'hommage vibrant de Fernando de Tomaso et sa sœur Violetta (du Servan) à leur grand-mère basque émigrée en Argentine. Dans ce bistrot intime de la rue Keller, la cuisine fusionne avec brio l'âme du Pays Basque et la puissance des grillades argentines. Les viandes sont sourcées avec une exigence folle et cuites à la perfection, tandis que les empanadas et le flan au dulce de leche rappellent les saveurs d'enfance. Une table d'une justesse rare.",
-    insider_tip: "Le flan au dulce de leche est l'un des meilleurs de la capitale : ne quittez pas la table sans l'avoir goûté. Le midi, la formule est l'un des meilleurs rapports qualité-prix du quartier.",
-    expert_catchline: "Le trait d'union parfait entre le Pays Basque et l'Argentine, porté par la passion d'une famille.",
+    description: "Blanca est l’hommage vibrant de Fernando de Tomaso et sa sœur Violetta (du Servan) à leur grand-mère basque émigrée en Argentine. Dans ce bistrot intime de la rue Keller, la cuisine fusionne avec brio l’âme du Pays Basque et la puissance des grillades argentines. Les viandes sont sourcées avec une exigence folle et cuites à la perfection, tandis que les empanadas et le flan au dulce de leche rappellent les saveurs d’enfance. Une table d'une justesse rare.",
+    insider_tip: "Le flan au dulce de leche est l’un des meilleurs de la capitale : ne quittez pas la table sans l’avoir goûté. Le midi, la formule est l’un des meilleurs rapports qualité-prix du quartier.",
+    expert_catchline: "Le trait d’union parfait entre le Pays Basque et l’Argentine, porté par la passion d’une famille.",
     specials: {
         cuisine: ["Grillades argentines", "Inspiration basque", "Bistronomie de feu"],
-        drinks: ["Grands vins d'Argentine", "Cidre basque"],
-        must_eat: "L'Entraña avec sa chimichurri maison et le Flan au Dulce de Leche.",
+        drinks: ["Grands vins d’Argentine", "Cidre basque"],
+        must_eat: "L’Entraña avec sa chimichurri maison et le Flan au Dulce de Leche.",
         must_drink: "Un Malbec puissant pour accompagner la viande rouge."
     }
 };

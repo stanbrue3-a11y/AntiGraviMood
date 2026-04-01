@@ -5,7 +5,7 @@ export const petitsPlats: SurgicalPlace = {
     name: "Les Petits Plats",
     slug: "les-petits-plats-paris-14",
     category: "restaurant",
-    subcategory: ["bistrot", "terroir", "traditionnel", "chaleureux", "fait-maison"],
+    subcategory: ['français'],
     location: {
         address: "39 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -45,10 +45,10 @@ export const petitsPlats: SurgicalPlace = {
                     { name: "Cuisse de Canard Confite, Pommes Sautées", price_cents: 2100 },
                     { name: "Saucisse de Morteau et ses Lentilles", price_cents: 1850 },
                     { name: "Filet de Bar à la Plancha, Purée Maison", price_cents: 2300 },
-                    { name: "Bavette d'Aloyau, Sauce Poivre", price_cents: 2250 },
+                    { name: "Bavette d’Aloyau, Sauce Poivre", price_cents: 2250 },
                     { name: "Risotto Crémeux aux Champignons", price_cents: 1900 },
                     { name: "Parmentier de Canard Confit", price_cents: 2050 },
-                    { name: "Plat du Jour (à l'ardoise)", price_cents: 1700 }
+                    { name: "Plat du Jour (à l’ardoise)", price_cents: 1700 }
                 ]
             },
             {
@@ -83,8 +83,8 @@ export const petitsPlats: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Les Petits Plats, situé rue des Plantes, est l'archétype du bistrot parisien chaleureux et sincère. Ici, pas de chichis, mais une cuisine généreuse faite de produits frais et de saison. Le cadre est authentique, avec ses boiseries et ses ardoises affichant les suggestions du jour. On s'y sent tout de suite chez soi, accueilli par une équipe aux petits soins. C'est l'adresse parfaite pour un déjeuner réconfortant ou un dîner convivial entre amis autour de classiques français parfaitement exécutés.",
-    insider_tip: "La mousse au chocolat est un incontournable absolu, servie comme à la maison. Le midi, la formule du jour est d'un excellent rapport qualité-prix, très prisée des habitants du quartier.",
+    description: "Les Petits Plats, situé rue des Plantes, est l’archétype du bistrot parisien chaleureux et sincère. Ici, pas de chichis, mais une cuisine généreuse faite de produits frais et de saison. Le cadre est authentique, avec ses boiseries et ses ardoises affichant les suggestions du jour. On s’y sent tout de suite chez soi, accueilli par une équipe aux petits soins. C’est l'adresse parfaite pour un déjeuner réconfortant ou un dîner convivial entre amis autour de classiques français parfaitement exécutés.",
+    insider_tip: "La mousse au chocolat est un incontournable absolu, servie comme à la maison. Le midi, la formule du jour est d’un excellent rapport qualité-prix, très prisée des habitants du quartier.",
     expert_catchline: "La sincérité du bistrot parisien dans chaque assiette.",
     specials: {
         cuisine: ["Bistrot Traditionnel", "Cuisine Ménagère"],

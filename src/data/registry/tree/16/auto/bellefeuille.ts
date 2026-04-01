@@ -5,7 +5,7 @@ export const bellefeuille: SurgicalPlace = {
   slug: "bellefeuille",
   name: "Bellefeuille",
   category: "restaurant",
-  subcategory: ["araigné"],
+  subcategory: ['français'],
   location: {
     address: "5 Pl. du Chancelier Adenauer, 75116 Paris, France",
     arrondissement: 16,
@@ -43,7 +43,7 @@ export const bellefeuille: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Menus Dégustation",
         items: [
-          { name: "Menu en 6 Étapes", price_cents: 25000, description: "Le voyage complet dans l'univers de Grégory Garimbay" },
+          { name: "Menu en 6 Étapes", price_cents: 25000, description: "Le voyage complet dans l’univers de Grégory Garimbay" },
           { name: "Menu en 4 Étapes", price_cents: 20000 },
           { name: "Menu en 3 Étapes", price_cents: 17000 },
           { name: "Menu Diamant Noir (Saison Truffe)", price_cents: 32000, description: "5 services dédiés à la truffe noire" }
@@ -77,22 +77,22 @@ export const bellefeuille: SurgicalPlace = {
         display_label: "La Cave & Boissons",
         items: [
           { name: "Verre de Sancerre (Domaine Vacheron)", price_cents: 2200 },
-          { name: "Cocktail Signature 'Bellefeuille'", price_cents: 2800 },
+          { name: "Cocktail Signature ’Bellefeuille'", price_cents: 2800 },
           { name: "Thé Rare (Sélection)", price_cents: 1400 },
           { name: "Expresso Bio", price_cents: 900 }
         ]
       }
     ]
   },
-  description: `Table étoilée du mythique hôtel Saint James Paris, Bellefeuille est un écrin de verdure et de sérénité. Le chef Grégory Garimbay y déploie une cuisine inspirée par la nature, les produits de la mer et le potager de l'hôtel. La salle, entre bibliothèque et jardin d'hiver, offre une atmosphère confidentielle et luxueuse, loin du tumulte parisien.`,
+  description: `Table étoilée du mythique hôtel Saint James Paris, Bellefeuille est un écrin de verdure et de sérénité. Le chef Grégory Garimbay y déploie une cuisine inspirée par la nature, les produits de la mer et le potager de l’hôtel. La salle, entre bibliothèque et jardin d’hiver, offre une atmosphère confidentielle et luxueuse, loin du tumulte parisien.`,
   expert_catchline: `Une escale gastronomique botanique dans le jardin secret du 16e.`,
-  insider_tip: `• **Le Jardin Caché** : En été, demandez une table en terrasse sous la pergola pour vivre l'expérience 'garden party' la plus chic de Paris.
-  • **Cuisine de Potager** : Le chef utilise les herbes et légumes du jardin bio de l'hôtel, ne manquez pas les plats identifiés 'Potager'.
-  • **Le Bar de l'Hôtel** : Prolongez la soirée au Library Bar de l'hôtel, l'un des plus impressionnants de la capitale.`,
+  insider_tip: `• **Le Jardin Caché** : En été, demandez une table en terrasse sous la pergola pour vivre l’expérience 'garden party' la plus chic de Paris.
+  • **Cuisine de Potager** : Le chef utilise les herbes et légumes du jardin bio de l’hôtel, ne manquez pas les plats identifiés 'Potager'.
+  • **Le Bar de l’Hôtel** : Prolongez la soirée au Library Bar de l’hôtel, l'un des plus impressionnants de la capitale.`,
   specials: {
     cuisine: ["Français", "Végétarien"],
     drinks: ["Vin", "Cocktail", "Thé"],
-    must_eat: "L'Araignée de Mer au Caviar. Une explosion d'iode et de finesse.",
+    must_eat: "L’Araignée de Mer au Caviar. Une explosion d'iode et de finesse.",
   },
   images: {
     hero: "AU_ZVEEBh-DOMNhRW1FknXABgITWS-ZwgBWXMgZZsztyEUUssn3Uoni4IQ3QdRwrmGaDH-WIF9BPN2K9XcfYu0k3WQLanRthgg8ZolA-NyQuqbW18wmm7lyLO9n5mcYcc6rVjyZD3HlCPYPJJRwqzjkSqli4KrHg7CpJvD5Z7vzBKjmFskAfp5ncicwvE83Bka7wpU4bcbtWoRmK-SDjroxo-vxDwxjtRsUJxf70rsOnYJ8q7vX6xt0t9yZTeke197FqpL4MRlTI162F36thW5eMISmAJgfJqw3328QUDXiohg82BQ",
@@ -102,11 +102,11 @@ export const bellefeuille: SurgicalPlace = {
   google_rating: 4.7,
   michelin_stars: 1,
   real_talk: {
-    text: "Bellefeuille est une bulle. On oublie qu'on est à Paris. La cuisine de Garimbay est d'une légèreté incroyable, avec un focus rare sur le végétal sans jamais être ennuyeux.",
+    text: "Bellefeuille est une bulle. On oublie qu’on est à Paris. La cuisine de Garimbay est d'une légèreté incroyable, avec un focus rare sur le végétal sans jamais être ennuyeux.",
     must_eat: "Araignée de Mer au Caviar",
-    le_secret: "La piscine de l'hôtel est accessible aux résidents, mais l'ambiance du jardin est ouverte à tous pour le dîner.",
-    le_son: "L'élégance du silence, feutré par les tapis et la végétation.",
-    le_must: "Pour un dîner romantique ou confidentiel où l'on veut vraiment impressionner par le calme et la beauté du lieu."
+    le_secret: "La piscine de l’hôtel est accessible aux résidents, mais l'ambiance du jardin est ouverte à tous pour le dîner.",
+    le_son: "L’élégance du silence, feutré par les tapis et la végétation.",
+    le_must: "Pour un dîner romantique ou confidentiel où l’on veut vraiment impressionner par le calme et la beauté du lieu."
   }
 };
 

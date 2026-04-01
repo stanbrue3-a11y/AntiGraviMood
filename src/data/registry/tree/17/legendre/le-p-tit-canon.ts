@@ -5,7 +5,7 @@ export const le_p_tit_canon: SurgicalPlace = {
   slug: "le-p-tit-canon",
   name: "Le P’tit Canon",
   category: "restaurant",
-  subcategory: ["traditional-bistro", "neighborhood-gem", "wine-bar", "institution", "bonne-franquette"],
+  subcategory: ['français'],
   location: {
     address: "36 Rue Legendre, 75017 Paris, France",
     arrondissement: 17,
@@ -44,9 +44,9 @@ export const le_p_tit_canon: SurgicalPlace = {
         display_label: "Entrées",
         items: [
           { name: "Œufs mayonnaise bio", price_cents: 700 },
-          { name: "Escargots de la Maison de l'Escargot (x12)", price_cents: 1800 },
+          { name: "Escargots de la Maison de l’Escargot (x12)", price_cents: 1800 },
           { name: "Salade de poireaux vinaigrette", price_cents: 750 },
-          { name: "Filets de harengs, pommes à l'huile tièdes", price_cents: 850 },
+          { name: "Filets de harengs, pommes à l’huile tièdes", price_cents: 850 },
           { name: "Terrine de porc et ses cornichons", price_cents: 850 },
           { name: "Bâtonnets de mozzarella", price_cents: 900 }
         ]
@@ -84,13 +84,13 @@ export const le_p_tit_canon: SurgicalPlace = {
       }
     ]
   },
-  expert_catchline: "Le vrai bistrot de quartier où les œufs mayo et l'andouillette se dégustent sur des nappes à carreaux rouges.",
+  expert_catchline: "Le vrai bistrot de quartier où les œufs mayo et l’andouillette se dégustent sur des nappes à carreaux rouges.",
   description: "Le bistrot de quartier par excellence. Décoration vintage, nappes à carreaux et ambiance chaleureuse.",
-  insider_tip: "• **Authentique** : Le décor n'a pas bougé depuis des décennies, c'est ce qui fait son charme.\n• **Produit** : L'andouillette 5A est sourcée chez les meilleurs artisans.\n• **Vin** : La sélection au verre est courte mais très bien sentie, demandez conseil.",
+  insider_tip: "• **Authentique** : Le décor n’a pas bougé depuis des décennies, c’est ce qui fait son charme.\n• **Produit** : L’andouillette 5A est sourcée chez les meilleurs artisans.\n• **Vin** : La sélection au verre est courte mais très bien sentie, demandez conseil.",
   specials: {
     cuisine: ["Cuisine de bistrot"],
     drinks: ["Vin"],
-    must_eat: "Cuisine de bistrot. L'andouillette 5A ou le cassoulet maison.",
+    must_eat: "Cuisine de bistrot. L’andouillette 5A ou le cassoulet maison.",
   },
   images: {
     hero: "AU_ZVEEI3LDCB349kjSNnSUzmWgqHbnudYl9nO5yV052SGbDrKgHnwu77FX6UFsXNgrZtkBjLlwM-PcI4-SLGQloIHYFEImmAqgb2lN8weR5OpIP626K3yLjxJEYckxqqceN7dqBJM-p-YtHdlvTGulWH2Se4NZ-oUn2smZWWocqFAu1ThlilZJh369pSgyQNmze7vdzgpvhvVvlp7XLUjcuV2GeOUVWlmJpLEAe9VxkRMW1HpyF6a-gRvowr84EbOBrhGJrYW3osA6ZkybOCKSIjK_a-SA4ZLyjfBysoELZujiaOg",

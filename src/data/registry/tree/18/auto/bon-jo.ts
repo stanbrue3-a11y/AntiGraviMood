@@ -5,7 +5,7 @@ export const bon_jo: SurgicalPlace = {
   slug: "bon-jo",
   name: "Bon Jo",
   category: "restaurant",
-  subcategory: ["brunch", "australien", "café", "montmartre", "healthy"],
+  subcategory: ['français'],
   location: {
     address: "10 Rue Lamarck, 75018 Paris, France",
     arrondissement: 18,
@@ -44,7 +44,7 @@ export const bon_jo: SurgicalPlace = {
         display_label: "Savory Brunch (Plats)",
         items: [
         { name: "Baked Eggs Spinach & Cheese", price_cents: 1450, description: "Œufs au four, épinards, fromage fondant, pain grillé" },
-        { name: "Salmon Toast Avocado", price_cents: 1650, description: "Saumon fumé, avocat écrasé, crème d'aneth" },
+        { name: "Salmon Toast Avocado", price_cents: 1650, description: "Saumon fumé, avocat écrasé, crème d’aneth" },
         { name: "BLT Bagel Scallion", price_cents: 1300, description: "Bacon, laitue, tomate, cream cheese aux oignons verts" },
         { name: "Eggs Royale Benedict", price_cents: 1700, description: "Œufs pochés, saumon, sauce hollandaise maison" },
         { name: "Shakshuka Tradition", price_cents: 1500, description: "Tomates épicées, œufs pochés, feta, coriandre" },
@@ -66,8 +66,8 @@ export const bon_jo: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Niché au pied du Sacré-Cœur, Bon Jo est l'escale brunch par excellence du 18e. Entre influences australiennes et élégance parisienne, ce café baigné de lumière propose une carte courte mais ultra-maîtrisée, où le café de spécialité côtoie des assiettes généreuses. Un lieu calme et serein, loin du tumulte touristique de la place du Tertre.",
-  insider_tip: "• **Timing Stratégique** : Arrivez pile à l'ouverture (09h30) le week-end, le lieu est petit et se remplit en 15 minutes.\n• **Combo Gagnant** : Les Baked Eggs suivis du French Toast Banana Caramel forment l'unité de satiété absolue.\n• **Détail Secret** : Demandez la table près de la fenêtre pour la vue discrète sur les toits de Montmartre.",
+  description: "Niché au pied du Sacré-Cœur, Bon Jo est l’escale brunch par excellence du 18e. Entre influences australiennes et élégance parisienne, ce café baigné de lumière propose une carte courte mais ultra-maîtrisée, où le café de spécialité côtoie des assiettes généreuses. Un lieu calme et serein, loin du tumulte touristique de la place du Tertre.",
+  insider_tip: "• **Timing Stratégique** : Arrivez pile à l’ouverture (09h30) le week-end, le lieu est petit et se remplit en 15 minutes.\n• **Combo Gagnant** : Les Baked Eggs suivis du French Toast Banana Caramel forment l'unité de satiété absolue.\n• **Détail Secret** : Demandez la table près de la fenêtre pour la vue discrète sur les toits de Montmartre.",
   specials: {
     cuisine: ["Australienne", "Brunch", "Healthy"],
     drinks: ["Flat White", "Matcha Latte", "Mimosa"],

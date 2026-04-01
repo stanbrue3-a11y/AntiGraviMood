@@ -5,7 +5,7 @@ export const louloute: SurgicalPlace = {
     name: "Louloute",
     slug: "louloute",
     category: "restaurant",
-    subcategory: ["bar à manger", "bistronomique", "jazz club", "restaurant", "club"],
+    subcategory: ['français'],
     location: {
         address: "55 Rue de Charonne",
         arrondissement: 11,
@@ -50,7 +50,7 @@ export const louloute: SurgicalPlace = {
                     { name: "Falafels (pois chiches, fèves, gouda cumin, sauce tahini harissa)", price_cents: 900 },
                     { name: "Frites de polenta, ketchup maison", price_cents: 800 },
                     { name: "Taquitos (poulet, tomates, aromates, cream cheese)", price_cents: 1200 },
-                    { name: "Cromesquis de Mont d'Or", price_cents: 1100 },
+                    { name: "Cromesquis de Mont d’Or", price_cents: 1100 },
                     { name: "Croquettes canard confit (style Korokke), sauce aigre-douce", price_cents: 1200 },
                     { name: "Crevettes très croustillantes, shiso, chutney abricot gingembre", price_cents: 1300 }
                 ]
@@ -67,10 +67,10 @@ export const louloute: SurgicalPlace = {
                     { name: "Plateau de 3 pitas au kefta, sauce tahini", price_cents: 1400 },
                     { name: "Tartare de Bœuf, œuf de caille, bergamote, paille de patates", price_cents: 1500 },
                     { name: "Ceviche de Cabillaud, radis, gingembre, citron", price_cents: 1500 },
-                    { name: "2 Bao buns O'fish, sauce tartare", price_cents: 1400 },
+                    { name: "2 Bao buns O’fish, sauce tartare", price_cents: 1400 },
                     { name: "Poulpe snacké à la Levantine, batata harra coriandre", price_cents: 1600 },
-                    { name: "Parmigiana d'aubergine aux boulettes, salade d'herbes", price_cents: 1500 },
-                    { name: "Bœuf 'Tiger's tears' style, riz thaï", price_cents: 1700 }
+                    { name: "Parmigiana d’aubergine aux boulettes, salade d'herbes", price_cents: 1500 },
+                    { name: "Bœuf ’Tiger’s tears’ style, riz thaï", price_cents: 1700 }
                 ]
             },
             {
@@ -86,10 +86,10 @@ export const louloute: SurgicalPlace = {
                 display_label: "Desserts",
                 items: [
                     { name: "Tiramisu fraises, poivre, basilic", price_cents: 800 },
-                    { name: "Fondant pur chocolat, piment, glace à l'eau de rose", price_cents: 800 },
+                    { name: "Fondant pur chocolat, piment, glace à l’eau de rose", price_cents: 800 },
                     { name: "Tiramisu café", price_cents: 800 },
                     { name: "Profiteroles au chocolat", price_cents: 800 },
-                    { name: "Pandoro perdu au zeste d'orange", price_cents: 800 }
+                    { name: "Pandoro perdu au zeste d’orange", price_cents: 800 }
                 ]
             },
             {
@@ -113,13 +113,13 @@ export const louloute: SurgicalPlace = {
     instagram_handle: "louloute.paris",
     verified: true,
     google_rating: 4.7,
-    description: "Le bar à manger le plus musical du 11ème. Louloute est un pur hybride : au rez-de-chaussée, on partage d'excellentes assiettes aux influences franco-italiennes (tartares, ceviches, fleurs de courgettes frites) accompagnées de vins natures. L'apothéose se trouve au sous-sol : un authentique club de jazz caché en cave voûtée, avec programmation pointue et jam sessions endiablées.",
-    insider_tip: "• Pensez à vérifier la programmation en ligne : les concerts (Jazz, Soul, Latin) au sous-sol démarrent souvent vers 20h30/21h00.\n• Prévoyez de manger au RDC avant de descendre boire un verre pour le concert.\n• Les beignets de fleurs de courgettes (13€) et le tartare (15€) font l'unanimité.\n• Ouvert un peu plus tôt que les autres (dès 17h00) pour un afterwork pré-concert.",
+    description: "Le bar à manger le plus musical du 11ème. Louloute est un pur hybride : au rez-de-chaussée, on partage d’excellentes assiettes aux influences franco-italiennes (tartares, ceviches, fleurs de courgettes frites) accompagnées de vins natures. L'apothéose se trouve au sous-sol : un authentique club de jazz caché en cave voûtée, avec programmation pointue et jam sessions endiablées.",
+    insider_tip: "• Pensez à vérifier la programmation en ligne : les concerts (Jazz, Soul, Latin) au sous-sol démarrent souvent vers 20h30/21h00.\n• Prévoyez de manger au RDC avant de descendre boire un verre pour le concert.\n• Les beignets de fleurs de courgettes (13€) et le tartare (15€) font l’unanimité.\n• Ouvert un peu plus tôt que les autres (dès 17h00) pour un afterwork pré-concert.",
     expert_catchline: "Bistronomie incisive au rez-de-chaussée, jazz club clandestin au sous-sol. Duo gagnant rue de Charonne.",
     specials: {
         cuisine: ["Tartare de Bœuf bergamote", "Fleurs de courgettes frites", "Ceviche gingembre"],
         drinks: ["Vins natures purs jus", "Cocktails création", "Guinness pression"],
         must_eat: "Contrairement aux clubs classiques qui négligent la nourriture, ici les assiettes sont de vraies claques (goûtez les keftas en pita).",
-        must_drink: "Laissez le barman improviser un cocktail 'sur mesure' en fonction du style sonore du soir."
+        must_drink: "Laissez le barman improviser un cocktail ’sur mesure' en fonction du style sonore du soir."
     }
 };

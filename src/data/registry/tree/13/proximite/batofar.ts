@@ -38,8 +38,8 @@ export const batofar: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Le Batofar n'est pas qu'un bateau, c'est une légende de la nuit parisienne. Amarré sur les quais de la Seine, ce phare rouge accueille les meilleurs DJs de la scène électro et techno dans sa cale transformée en dancefloor vibrant. La terrasse sur le pont offre une pause magique avec vue sur le fleuve et les tours de la BNF. Une expérience clubbing hors du temps et des conventions, bercée par les flots et les infra-basses.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Le Batofar n’est pas qu’un bateau, c’est une légende de la nuit parisienne. Amarré sur les quais de la Seine, ce phare rouge accueille les meilleurs DJs de la scène électro et techno dans sa cale transformée en dancefloor vibrant. La terrasse sur le pont offre une pause magique avec vue sur le fleuve et les tours de la BNF. Une expérience clubbing hors du temps et des conventions, bercée par les flots et les infra-basses.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

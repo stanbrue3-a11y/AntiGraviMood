@@ -5,7 +5,7 @@ export const breizhCafePaulBert: SurgicalPlace = {
     name: "Breizh Café (Paul Bert)",
     slug: "breizh-cafe-paul-bert",
     category: "restaurant",
-    subcategory: ["Crêperie", "Breton", "Vins Natures", "Terroir"],
+    subcategory: ['français'],
     location: {
         address: "23 Rue Paul Bert, 75011 Paris",
         arrondissement: 11,
@@ -32,7 +32,7 @@ export const breizhCafePaulBert: SurgicalPlace = {
                     { name: "Amuse-Galette Chorizo & Comté", price_cents: 870 },
                     { name: "Amuse-Galette Camembert & Miel", price_cents: 870, description: "Confiture de figues, noix." },
                     { name: "Amuse-Galette Poisson Fumé", price_cents: 1200, description: "Crème citronnée, ciboulette." },
-                    { name: "Galette au Beurre d'Algues Bordier", price_cents: 740 },
+                    { name: "Galette au Beurre d’Algues Bordier", price_cents: 740 },
                     { name: "Salade Verte, Vinaigrette au Cidre", price_cents: 410 },
                     { name: "Salade Wasabi & Sarrasin Soufflé", price_cents: 410 }
                 ]
@@ -47,7 +47,7 @@ export const breizhCafePaulBert: SurgicalPlace = {
                     { name: "Galette Complète au Jambon Cru", price_cents: 1600, description: "Œuf miroir, Comté, jambon sec." },
                     { name: "Galette Complète au Chorizo", price_cents: 1600 },
                     { name: "Galette aux Légumes de Saison", price_cents: 1800, description: "Légumes rôtis, pesto de sarrasin." },
-                    { name: "Galette Andouille de Guéméné", price_cents: 1850, description: "Oignons confits au cidre, moutarde à l'ancienne." },
+                    { name: "Galette Andouille de Guéméné", price_cents: 1850, description: "Oignons confits au cidre, moutarde à l’ancienne." },
                     { name: "Galette Saumon Fumé Bio", price_cents: 2150, description: "Crème fraîche, aneth, citron." },
                     { name: "Galette Forestière", price_cents: 1700, description: "Champignons de Paris, crème, jambon, Comté." }
                 ]
@@ -100,9 +100,9 @@ export const breizhCafePaulBert: SurgicalPlace = {
             label: "RÉSERVER"
         }
     },
-    description: "Le temple de la crêpe haute couture s'est installé rue Paul Bert avec une exigence rare. Farines bio, beurres Bordier et cidres d'exception (la cidrothèque est impressionnante). La galette de sarrazin est ici sublimée par des produits de petits producteurs, dans un cadre épuré qui rappelle les racines bretonnes mâtinées d'une touche de modernité nippone (clin d'œil au fondateur).",
+    description: "Le temple de la crêpe haute couture s’est installé rue Paul Bert avec une exigence rare. Farines bio, beurres Bordier et cidres d’exception (la cidrothèque est impressionnante). La galette de sarrazin est ici sublimée par des produits de petits producteurs, dans un cadre épuré qui rappelle les racines bretonnes mâtinées d’une touche de modernité nippone (clin d'œil au fondateur).",
     expert_catchline: "La crêpe bretonne en mode gastronomique : sarrazin bio, beurre Bordier et cidrothèque de folie.",
-    insider_tip: "• Ne passez pas à côté des cidres, la sélection est l'une des meilleures de Paris.\n• La galette à la raclette au lait cru est d'un réconfort absolu en hiver.\n• Pour le dessert, la crêpe au caramel au beurre salé maison est une référence.\n• La terrasse sur la rue Paul Bert est très agréable pour un déjeuner au soleil.",
+    insider_tip: "• Ne passez pas à côté des cidres, la sélection est l’une des meilleures de Paris.\n• La galette à la raclette au lait cru est d'un réconfort absolu en hiver.\n• Pour le dessert, la crêpe au caramel au beurre salé maison est une référence.\n• La terrasse sur la rue Paul Bert est très agréable pour un déjeuner au soleil.",
     specials: {
         cuisine: ["Galette Sarrazin Bio", "Breton", "Beurre Bordier"],
         drinks: ["Cidre Artisanal", "Kir Breton", "Gwenva (spiritueux)"],

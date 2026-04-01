@@ -5,7 +5,7 @@ export const cafe_du_coin: SurgicalPlace = {
     name: "Café du Coin",
     slug: "cafe-du-coin",
     category: "restaurant",
-    subcategory: ["café", "vins natures", "bistronomique", "pizzettes", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "9 Rue Camille Desmoulins",
         arrondissement: 11,
@@ -47,7 +47,7 @@ export const cafe_du_coin: SurgicalPlace = {
                 display_label: "Menu à Tiroirs (Déjeuner - Saison 2025)",
                 items: [
                     { name: "Formule midi (E+P ou P+D)", price_cents: 2000, description: "Le menu du midi change quotidiennement selon le marché." },
-                    { name: "Menu complet midi (E+P+D)", price_cents: 2400, description: "L'option gourmande et équilibrée." },
+                    { name: "Menu complet midi (E+P+D)", price_cents: 2400, description: "L’option gourmande et équilibrée." },
                     { name: "Plat du jour seul", price_cents: 1600 }
                 ]
             },
@@ -93,12 +93,12 @@ export const cafe_du_coin: SurgicalPlace = {
                     { name: "Ganache chocolat, glace gwell maison", price_cents: 800 },
                     { name: "Tarte noisette et poire", price_cents: 700 },
                     { name: "Financier du jour à la pistache", price_cents: 500 },
-                    { name: "Panacotta à la fleur d'oranger", price_cents: 700 }
+                    { name: "Panacotta à la fleur d’oranger", price_cents: 700 }
                 ]
             },
             {
                 category_type: "drink",
-                display_label: "Vins Natures 'Prix Ouvrier'",
+                display_label: "Vins Natures ’Prix Ouvrier'",
                 items: [
                     { name: "Verre de vin nature (Sélection du moment)", price_cents: 400, description: "Le meilleur deal du 11ème sur le vin nature." },
                     { name: "Loire Chenin (le verre)", price_cents: 700 },
@@ -119,13 +119,13 @@ export const cafe_du_coin: SurgicalPlace = {
     instagram_handle: "cafeducoinparis",
     verified: true,
     google_rating: 4.4,
-    description: "Le Café du Coin est le QG du quartier Charonne : café le matin, bistrot à midi avec un menu du marché qui change tous les jours, et bar à vins natures + pizzettes croustillantes le soir. L'ambiance est celle du troquet de quartier parfait — comptoir, tables partagées, zéro prétention et des verres de vin nature dès 4€.",
-    insider_tip: "• Les pizzettes du soir (5-8€) sont le meilleur apéro du quartier : croustillantes, généreuses, et parfaites avec un verre de nature à 4€.\n• La réservation n'est possible QUE pour le déjeuner (12h15-13h). Le soir, venez directement — il y a toujours de la place au comptoir.\n• Le menu à tiroirs du midi change CHAQUE JOUR et ne coûte que 15-24€ — un rapport qualité-prix imbattable.\n• Les verres de vin nature démarrent à 4€, c'est probablement le meilleur prix du 11ème pour du vin nature de qualité.",
+    description: "Le Café du Coin est le QG du quartier Charonne : café le matin, bistrot à midi avec un menu du marché qui change tous les jours, et bar à vins natures + pizzettes croustillantes le soir. L’ambiance est celle du troquet de quartier parfait — comptoir, tables partagées, zéro prétention et des verres de vin nature dès 4€.",
+    insider_tip: "• Les pizzettes du soir (5-8€) sont le meilleur apéro du quartier : croustillantes, généreuses, et parfaites avec un verre de nature à 4€.\n• La réservation n’est possible QUE pour le déjeuner (12h15-13h). Le soir, venez directement — il y a toujours de la place au comptoir.\n• Le menu à tiroirs du midi change CHAQUE JOUR et ne coûte que 15-24€ — un rapport qualité-prix imbattable.\n• Les verres de vin nature démarrent à 4€, c'est probablement le meilleur prix du 11ème pour du vin nature de qualité.",
     expert_catchline: "Le troquet nature du quartier Charonne : pizzettes croustillantes et vins à 4€ le verre.",
     specials: {
         cuisine: ["Pizzettes croustillantes (7 variétés)", "Morue caponata", "Caille rôtie", "Menu à tiroirs du midi"],
         drinks: ["Vins natures dès 4€/verre", "Sélection bio quotidienne", "Cave à emporter"],
-        must_eat: "Le midi, foncez sur le menu à tiroirs (15-24€) qui change chaque jour. Le soir, c'est pizzettes obligatoires : la Mortadelle Truffée/Ricotta (8€) et la Lardo/Taleggio/Œuf (8€) sont les stars. Ajoutez des sardines grillées (12€) pour un repas complet.",
-        must_drink: "Les verres de vin nature commencent à 4€ — c'est le deal du siècle dans le 11ème. Demandez la sélection du jour au comptoir."
+        must_eat: "Le midi, foncez sur le menu à tiroirs (15-24€) qui change chaque jour. Le soir, c’est pizzettes obligatoires : la Mortadelle Truffée/Ricotta (8€) et la Lardo/Taleggio/Œuf (8€) sont les stars. Ajoutez des sardines grillées (12€) pour un repas complet.",
+        must_drink: "Les verres de vin nature commencent à 4€ — c’est le deal du siècle dans le 11ème. Demandez la sélection du jour au comptoir."
     }
 };

@@ -5,7 +5,7 @@ export const early_june: SurgicalPlace = {
   slug: "early-june",
   name: "Early June",
   category: "restaurant",
-  subcategory: ["bistrot", "assiettes-de-partage", "vin-naturel", "tendance"],
+  subcategory: ['français'],
   location: {
     address: "19 Rue Jean Poulmarch, 75010 Paris, France",
     arrondissement: 10,
@@ -21,7 +21,7 @@ export const early_june: SurgicalPlace = {
     culturel: 60
   },
   practical: {
-    opening_hours_raw: "mercredi-dimanche: 18:00–00:00 (Cuisine jusqu'à 23h)",
+    opening_hours_raw: "mercredi-dimanche: 18:00–00:00 (Cuisine jusqu’à 23h)",
     reservation_policy: "sans_resa", // Sauf groupes > 4
     terrace: true,
     ferme_tard: true,
@@ -59,7 +59,7 @@ export const early_june: SurgicalPlace = {
         category_type: "main",
         display_label: "Grands Partages (Plats)",
         items: [
-          { name: "Épaule d'Agneau de 12h (Pour 2-3 personnes)", price_cents: 4500, is_highlight: true },
+          { name: "Épaule d’Agneau de 12h (Pour 2-3 personnes)", price_cents: 4500, is_highlight: true },
           { name: "Poisson Entier du Jour à la Plancha (Prix/kg)", price_cents: 3800 },
           { name: "Côte de Bœuf Maturée (1kg) & Moelle", price_cents: 8500, is_highlight: true },
           { name: "Volaille Fermière au Foin & Jus Corsé", price_cents: 3200 },
@@ -85,7 +85,7 @@ export const early_june: SurgicalPlace = {
           { name: "Riz au Lait & Praliné Noisette Maison", price_cents: 950, is_highlight: true },
           { name: "Cheesecake à la Fraise & Shizo Frais", price_cents: 1050 },
           { name: "Ganache Chocolat Noir 70% & Sel Fumé", price_cents: 900, is_highlight: true },
-          { name: "Sorbet Fleur d'Oranger Maison (3 boules)", price_cents: 850 },
+          { name: "Sorbet Fleur d’Oranger Maison (3 boules)", price_cents: 850 },
           { name: "Assiette de Fromages Affinés & Confiture", price_cents: 1200 },
           { name: "Tartelette aux Fruits du Moment (Saison)", price_cents: 950 }
         ]
@@ -96,7 +96,7 @@ export const early_june: SurgicalPlace = {
         items: [
           { name: "Verre de Vin Orange (Macération)", price_cents: 950, is_highlight: true },
           { name: "Verre de Blanc Pétillant (Pet Nat)", price_cents: 850 },
-          { name: "Verre de Rouge 'Glouglou' (Vin de Soif)", price_cents: 750 },
+          { name: "Verre de Rouge ’Glouglou' (Vin de Soif)", price_cents: 750 },
           { name: "Bouteille de Vin Nature (Sélection du Chef)", price_cents: 3200, is_highlight: true },
           { name: "Kombucha Maison Gingembre & Citron Vert", price_cents: 650 },
           { name: "Jus de Pomme Trouble Fermier", price_cents: 550 },
@@ -106,12 +106,12 @@ export const early_june: SurgicalPlace = {
       }
     ]
   },
-  description: "Early June est l'adresse la plus vibrante du Canal Saint-Martin. Ce comptoir de partage, reconnaissable à sa devanture bleue, accueille des chefs du monde entier en résidence pour des expériences culinaires éphémères et audacieuses. Ici, on déguste des petites assiettes créatives où le produit est magnifié par des techniques modernes (fermentations, fumages, macérations). L'ambiance est décontractée, festive et portée par une sélection pointue de 'vins vivants'. Un lieu de passage obligatoire pour capturer l'esprit de la nouvelle scène gastronomique parisienne.",
-  insider_tip: "• **Le Concept des Résidents** : Vérifiez leur Instagram avant de venir pour connaître le chef du moment (Japonais, Mexicain, Scandinave...), l'expérience change du tout au tout.\n• **Premier Arrivé, Premier Servi** : Pas de réservation pour les petites tables, arrivez dès 18h30 pour sécuriser une place au comptoir, le spectacle en cuisine vaut le détour.\n• **Le Vin Orange** : Demandez conseil, ils ont l'une des meilleures sélections du quartier pour découvrir les vins de macération.",
+  description: "Early June est l’adresse la plus vibrante du Canal Saint-Martin. Ce comptoir de partage, reconnaissable à sa devanture bleue, accueille des chefs du monde entier en résidence pour des expériences culinaires éphémères et audacieuses. Ici, on déguste des petites assiettes créatives où le produit est magnifié par des techniques modernes (fermentations, fumages, macérations). L’ambiance est décontractée, festive et portée par une sélection pointue de ’vins vivants’. Un lieu de passage obligatoire pour capturer l’esprit de la nouvelle scène gastronomique parisienne.",
+  insider_tip: "• **Le Concept des Résidents** : Vérifiez leur Instagram avant de venir pour connaître le chef du moment (Japonais, Mexicain, Scandinave...), l’expérience change du tout au tout.\n• **Premier Arrivé, Premier Servi** : Pas de réservation pour les petites tables, arrivez dès 18h30 pour sécuriser une place au comptoir, le spectacle en cuisine vaut le détour.\n• **Le Vin Orange** : Demandez conseil, ils ont l'une des meilleures sélections du quartier pour découvrir les vins de macération.",
   specials: {
     cuisine: ["Assiettes de partage créatives", "Chefs en résidence internationaux", "Cuisine de saison sourcée"],
-    drinks: ["Vins vivants / Naturels", "Vins oranges d'exception", "Kombuchas artisanaux"],
-    must_eat: "Le Financier Minute (8€) : servi tiède, croquant à l'extérieur et fondant à l'intérieur, c'est le doudou calorique ultime.",
+    drinks: ["Vins vivants / Naturels", "Vins oranges d’exception", "Kombuchas artisanaux"],
+    must_eat: "Le Financier Minute (8€) : servi tiède, croquant à l’extérieur et fondant à l’intérieur, c’est le doudou calorique ultime.",
   },
   images: {
     hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

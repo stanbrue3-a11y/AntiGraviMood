@@ -5,9 +5,9 @@ export const neige_d_ete: SurgicalPlace = {
   slug: "neige-d-ete",
   name: "Neige d’Été",
   category: "restaurant",
-  subcategory: ["gastronomique", "etoile", "franco-japonais", "contemporain"],
+  subcategory: ['français'],
   location: {
-    address: "12 Rue de l'Amiral Roussin, 75015 Paris, France",
+    address: "12 Rue de l’Amiral Roussin, 75015 Paris, France",
     arrondissement: 15,
     lat: 48.8453954,
     lng: 2.2990114,
@@ -71,7 +71,7 @@ export const neige_d_ete: SurgicalPlace = {
       },
       {
         category_type: "main",
-        display_label: "Accompagner l'Instant (Plats)",
+        display_label: "Accompagner l’Instant (Plats)",
         items: [
           { name: "Purée de Céleri-rave onctueuse", price_cents: 0, is_highlight: true },
           { name: "Légumes racines glacés au jus de viande", price_cents: 0 },
@@ -96,10 +96,10 @@ export const neige_d_ete: SurgicalPlace = {
         category_type: "drink",
         display_label: "Sélection de la Sommelière (Boissons)",
         items: [
-          { name: "Coupe de Champagne Duval-Leroy 'Prestige'", price_cents: 1800, is_highlight: true },
-          { name: "Verre de Chablis 1er Cru 'Montmains'", price_cents: 1600 },
+          { name: "Coupe de Champagne Duval-Leroy ’Prestige'", price_cents: 1800, is_highlight: true },
+          { name: "Verre de Chablis 1er Cru ’Montmains'", price_cents: 1600 },
           { name: "Bouteille Margaux Château Palmer (Sélection)", price_cents: 24000 },
-          { name: "Saké Junmai Daiginjo 'HeavenSake'", price_cents: 1450, is_highlight: true },
+          { name: "Saké Junmai Daiginjo ’HeavenSake'", price_cents: 1450, is_highlight: true },
           { name: "Thé Matcha de cérémonie préparé minute", price_cents: 950 },
           { name: "Infusion de Gingembre frais & Miel", price_cents: 700 },
           { name: "Eau minérale premium (75cl)", price_cents: 600 }
@@ -107,11 +107,11 @@ export const neige_d_ete: SurgicalPlace = {
       }
     ]
   },
-  description: "Neige d'Été est une ode à l'épure et à la précision japonaise au service de la haute gastronomie française. Le chef Hideki Nishi, ancien du Taillevent, y livre une partition sans fausse note dans un écrin d'un blanc virginal, calme et lumineux. Étoilé au Guide Michelin, l'établissement se distingue par une technique chirurgicale et une maîtrise absolue des cuissons et des assaisonnements, faisant de chaque plat un moment de contemplation.",
-  insider_tip: "• **La Discrétion** : Le lieu est très discret, presque secret. C'est l'endroit idéal pour un rendez-vous confidentiel ou une célébration intime.\n• **Le Déjeuner** : Profitez du menu déjeuner à 65€, c'est l'un des meilleurs rapports qualité-prix de Paris pour une table de ce standing.\n• **Le Pigeon** : Si le pigeon de Vendée est à la carte, n'hésitez pas. La cuisson sur le coffre est d'une tendreté exemplaire.",
+  description: "Neige d’Été est une ode à l’épure et à la précision japonaise au service de la haute gastronomie française. Le chef Hideki Nishi, ancien du Taillevent, y livre une partition sans fausse note dans un écrin d’un blanc virginal, calme et lumineux. Étoilé au Guide Michelin, l'établissement se distingue par une technique chirurgicale et une maîtrise absolue des cuissons et des assaisonnements, faisant de chaque plat un moment de contemplation.",
+  insider_tip: "• **La Discrétion** : Le lieu est très discret, presque secret. C’est l’endroit idéal pour un rendez-vous confidentiel ou une célébration intime.\n• **Le Déjeuner** : Profitez du menu déjeuner à 65€, c’est l’un des meilleurs rapports qualité-prix de Paris pour une table de ce standing.\n• **Le Pigeon** : Si le pigeon de Vendée est à la carte, n’hésitez pas. La cuisson sur le coffre est d'une tendreté exemplaire.",
   specials: {
     cuisine: ["Haute Gastronomie Franco-Japonaise", "Précision technique", "Produits nobles"],
-    drinks: ["Grands crus classés", "Sakés d'exception", "Thés de cérémonie"],
+    drinks: ["Grands crus classés", "Sakés d’exception", "Thés de cérémonie"],
     must_eat: "Le Pigeon de Vendée rôti sur le coffre : une démonstration de maîtrise technique et de respect du produit.",
   },
   images: {

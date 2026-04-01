@@ -39,8 +39,8 @@ export const muse_picasso_paris: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Installé dans l'Hôtel Salé, le plus grand et le plus extravagant des hôtels particuliers du Marais (construit par un collecteur de l'impôt sur le sel au XVIIe), le musée abrite la plus riche collection mondiale d'œuvres de Picasso. La rénovation a sublimé le dialogue entre l'architecture baroque (escalier d'honneur monumental) et la modernité radicale des œuvres. On y traverse toutes les périodes du maître, de ses débuts académiques au cubisme et au surréalisme. Le café sur le toit et le jardin sont des havres de paix appréciables après la visite.",
-    "insider_tip": "Hôtel Salé magnifique. La collection d'œuvres est unique.",
+    "description": "Installé dans l’Hôtel Salé, le plus grand et le plus extravagant des hôtels particuliers du Marais (construit par un collecteur de l’impôt sur le sel au XVIIe), le musée abrite la plus riche collection mondiale d’œuvres de Picasso. La rénovation a sublimé le dialogue entre l’architecture baroque (escalier d’honneur monumental) et la modernité radicale des œuvres. On y traverse toutes les périodes du maître, de ses débuts académiques au cubisme et au surréalisme. Le café sur le toit et le jardin sont des havres de paix appréciables après la visite.",
+    "insider_tip": "Hôtel Salé magnifique. La collection d’œuvres est unique.",
     "specials": {
         "cuisine": [],
         "drinks": []

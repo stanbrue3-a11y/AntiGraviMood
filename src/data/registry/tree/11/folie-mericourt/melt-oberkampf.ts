@@ -5,7 +5,7 @@ export const melt_oberkampf: SurgicalPlace = {
     name: "Melt Oberkampf",
     slug: "melt-oberkampf",
     category: "restaurant",
-    subcategory: ["barbecue", "texan", "viande", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "74 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -102,13 +102,13 @@ export const melt_oberkampf: SurgicalPlace = {
     instagram_handle: "melt.paris",
     verified: true,
     google_rating: 4.7,
-    description: "Le temple du barbecue à la texane au cœur du quartier Oberkampf. Les viandes s'y fument lentement aux bois de chêne (notamment le célèbre Brisket de Black Angus fumé 15h) avant d'être caramélisées à souhait. Le réconfort absolu pour les carnivores pointus avec d'excellents sides.",
+    description: "Le temple du barbecue à la texane au cœur du quartier Oberkampf. Les viandes s’y fument lentement aux bois de chêne (notamment le célèbre Brisket de Black Angus fumé 15h) avant d’être caramélisées à souhait. Le réconfort absolu pour les carnivores pointus avec d’excellents sides.",
     insider_tip: "• Attention aux sold-outs : tout est fumé sur place en continu, la quantité est finie. Arrivez tôt si vous voulez absolument goûter le Brisket du jour.\n• Le niveau de fumage est très américain, préparez-vous pour des goûts intenses.\n• Mention spéciale au chili cheese smash pour accompagner le pulled pork.",
     expert_catchline: "Du vrai BBQ texan fumé lentement au bois de chêne. Régressif, fondant et ultra-goûteux.",
     specials: {
         cuisine: ["Brisket de bœuf (fumé 15h)", "Pulled Pork Sandwich", "Joue de bœuf confite"],
         drinks: ["Bières artisanales Brooklyn", "Softs américains traditionnels (Dr Pepper)"],
-        must_eat: "Le Brisket Black Angus : d'une tendreté invraisemblable, la viande cède sous le simple poids de la fourchette.",
+        must_eat: "Le Brisket Black Angus : d’une tendreté invraisemblable, la viande cède sous le simple poids de la fourchette.",
         must_drink: "Une Pale Ale amérisante pour trancher dans le gras réconfortant du barbecue."
     }
 };

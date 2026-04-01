@@ -5,7 +5,7 @@ export const sukhothai: SurgicalPlace = {
   slug: "sukhothai",
   name: "SukhoThaï",
   category: "restaurant",
-  subcategory: ["thaï"],
+  subcategory: ['asiatique'],
   location: {
     address: "12 Rue du Père Guérin, 75013 Paris, France",
     arrondissement: 13,

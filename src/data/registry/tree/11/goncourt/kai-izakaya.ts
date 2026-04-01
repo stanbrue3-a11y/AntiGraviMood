@@ -5,7 +5,7 @@ export const kaiIzakaya: SurgicalPlace = {
     name: "Kai Izakaya",
     slug: "kai-izakaya",
     category: "restaurant",
-    subcategory: ["asian tapas", "brunch", "izakaya", "matcha"],
+    subcategory: ['français'],
     location: {
         address: "13 Rue Louis Bonnet",
         arrondissement: 11,
@@ -87,13 +87,13 @@ export const kaiIzakaya: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Kai Izakaya est une adresse hybride et décontractée où le Japon rencontre des saveurs street-food mondiales. Connue pour ses Udon créatives (dont une version carbonara mémorable) et ses desserts fusion comme le Croffle au Matcha, c'est le spot parfait pour un brunch asiatique ou un dîner de tapas à partager.",
-    insider_tip: "Ne repartez pas sans avoir goûté le Croffle au Matcha, c'est leur grande spécialité sucrée. Pour les plats, l'Udon Carbonara est une curiosité technique qui vaut le détour.",
-    expert_catchline: "L'art du tapas asiatique et du brunch créatif à Belleville.",
+    description: "Kai Izakaya est une adresse hybride et décontractée où le Japon rencontre des saveurs street-food mondiales. Connue pour ses Udon créatives (dont une version carbonara mémorable) et ses desserts fusion comme le Croffle au Matcha, c’est le spot parfait pour un brunch asiatique ou un dîner de tapas à partager.",
+    insider_tip: "Ne repartez pas sans avoir goûté le Croffle au Matcha, c’est leur grande spécialité sucrée. Pour les plats, l'Udon Carbonara est une curiosité technique qui vaut le détour.",
+    expert_catchline: "L’art du tapas asiatique et du brunch créatif à Belleville.",
     specials: {
         cuisine: ["Asian Fusion", "Udon créatives", "Matcha Desserts"],
         drinks: ["Thés Matcha", "Sake"],
-        must_eat: "L'Udon Carbonara.",
+        must_eat: "L’Udon Carbonara.",
         must_drink: "Un Matcha Latte bien préparé."
     }
 };

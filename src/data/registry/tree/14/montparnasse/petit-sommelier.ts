@@ -5,7 +5,7 @@ export const petitSommelier: SurgicalPlace = {
     name: "Le Petit Sommelier",
     slug: "le-petit-sommelier-paris-14",
     category: "restaurant",
-    subcategory: ["bistrot-vin", "gastronomique", "cave-a-vins", "terrasse", "traditionnel", "sommellerie"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "49 Avenue du Maine, 75014 Paris, France",
         arrondissement: 14,
@@ -46,7 +46,7 @@ export const petitSommelier: SurgicalPlace = {
                     { name: "Foie Gras de Canard Marbré", price_cents: 2290 },
                     { name: "6 Huîtres N°3 Joël Dupuch (Arcachon)", price_cents: 1990 },
                     { name: "Planche du Petit Sommelier (Charcuteries fines)", price_cents: 1490 },
-                    { name: "Saumon Label Rouge Gravlax à l'aneth", price_cents: 1190 },
+                    { name: "Saumon Label Rouge Gravlax à l’aneth", price_cents: 1190 },
                     { name: "Os à Moelle Gratinée", price_cents: 1350 },
                     { name: "Cuisses de Grenouilles en Fricassée", price_cents: 1490 }
                 ]
@@ -62,14 +62,14 @@ export const petitSommelier: SurgicalPlace = {
                     { name: "Tartare de Boeuf au couteau, frites fraîches", price_cents: 2190 },
                     { name: "Entrecôte Aberdeen Angus (Argentine)", price_cents: 3990 },
                     { name: "Côte de Boeuf Normande (pour 2, ~1.2kg)", price_cents: 11000 },
-                    { name: "Pêche du jour confite à l'huile d'olive", price_cents: 2290 }
+                    { name: "Pêche du jour confite à l’huile d'olive", price_cents: 2290 }
                 ]
             },
             {
                 category_type: "dessert",
                 display_label: "Final en Douceur",
                 items: [
-                    { name: "Millefeuille Érable et Fleur d'Oranger", price_cents: 1390 },
+                    { name: "Millefeuille Érable et Fleur d’Oranger", price_cents: 1390 },
                     { name: "Baba au Rhum Traditionnel", price_cents: 1290 },
                     { name: "Crème Brûlée Sauge & Passion", price_cents: 1290 },
                     { name: "Mousse Chocolat Liégeois au miel", price_cents: 1290 },
@@ -86,8 +86,8 @@ export const petitSommelier: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Le Petit Sommelier est bien plus qu'une brasserie, c'est l'un des meilleurs repaires bachiques de la capitale. Sous la houlette de Pierre Vila Palleja, sommelier de haut vol, cette institution de l'avenue du Maine concilie avec brio une cuisine bourgeoise impeccablement exécutée et une carte des vins vertigineuse (plus de 1300 références). Le décor, entre bistro traditionnel et cabinet de dégustation élégant, convie à la flânerie gourmande. Que ce soit pour un Boeuf Bourguignon de légende ou une dégustation de pépites de vignerons, l'accueil y est toujours empreint d'une passion contagieuse.",
-    insider_tip: "Faites aveuglément confiance au sommelier pour les accords mets-vins, la carte recèle des trésors introuvables ailleurs. Le Vol-au-Vent au vin jaune est son chef-d'oeuvre absolu.",
+    description: "Le Petit Sommelier est bien plus qu’une brasserie, c’est l’un des meilleurs repaires bachiques de la capitale. Sous la houlette de Pierre Vila Palleja, sommelier de haut vol, cette institution de l’avenue du Maine concilie avec brio une cuisine bourgeoise impeccablement exécutée et une carte des vins vertigineuse (plus de 1300 références). Le décor, entre bistro traditionnel et cabinet de dégustation élégant, convie à la flânerie gourmande. Que ce soit pour un Boeuf Bourguignon de légende ou une dégustation de pépites de vignerons, l’accueil y est toujours empreint d'une passion contagieuse.",
+    insider_tip: "Faites aveuglément confiance au sommelier pour les accords mets-vins, la carte recèle des trésors introuvables ailleurs. Le Vol-au-Vent au vin jaune est son chef-d’oeuvre absolu.",
     expert_catchline: "Haute sommellerie et gastronomie bourgeoise face à la Tour Montparnasse.",
     specials: {
         cuisine: ["Traditionnelle Française", "Gibiers en Saison"],

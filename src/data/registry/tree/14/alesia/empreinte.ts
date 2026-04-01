@@ -5,7 +5,7 @@ export const empreinte: SurgicalPlace = {
     name: "L’Empreinte",
     slug: "l-empreinte-paris-14",
     category: "restaurant",
-    subcategory: ["bistronomie", "moderne", "marche", "gastronomique", "cosy"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "5 Rue Mouton-Duvernet, 75014 Paris, France",
         arrondissement: 14,
@@ -40,7 +40,7 @@ export const empreinte: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "L'Empreinte (Plats)",
+                display_label: "L’Empreinte (Plats)",
                 items: [
                     { name: "Ris de Veau Croustillant Sauce Foie Gras", price_cents: 3900, description: "Écrasé de PDT et pleurotes de saison." },
                     { name: "Tartare de Boeuf au couteau du Chef", price_cents: 2400 },
@@ -59,10 +59,10 @@ export const empreinte: SurgicalPlace = {
                     { name: "Foie Gras de Canard Maison", price_cents: 1900 },
                     { name: "Nage de Couteaux à la Crème Persillée", price_cents: 1500 },
                     { name: "Terrine de Râbles de Lapin au Foie Gras", price_cents: 1500 },
-                    { name: "Salade d'Écrevisses au Curry & Avocat", price_cents: 1500 },
+                    { name: "Salade d’Écrevisses au Curry & Avocat", price_cents: 1500 },
                     { name: "Tartare de Veau à la Pistache", price_cents: 1700 },
                     { name: "Saumon Gravlax, Mousse Citron Vert", price_cents: 1500 },
-                    { name: "Feuilleté d'Escargots de Bourgogne", price_cents: 1700 }
+                    { name: "Feuilleté d’Escargots de Bourgogne", price_cents: 1700 }
                 ]
             },
             {
@@ -71,7 +71,7 @@ export const empreinte: SurgicalPlace = {
                 items: [
                     { name: "Tarte Tatin revisitée par le Chef", price_cents: 1000 },
                     { name: "Pavlova aux Fruits Frais", price_cents: 1000 },
-                    { name: "Tarte au Citron de l'Empreinte", price_cents: 1000 },
+                    { name: "Tarte au Citron de l’Empreinte", price_cents: 1000 },
                     { name: "Crème Brûlée à la Fève de Tonka", price_cents: 1000 },
                     { name: "Fondant au Chocolat, vanille", price_cents: 1000 },
                     { name: "Camembert aux Noix et Calvados", price_cents: 1100 }
@@ -87,9 +87,9 @@ export const empreinte: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "L'Empreinte est une pépite bistronomique discrète nichée rue Mouton-Duvernet. Le chef Noël Druais y déploie une cuisine de marché inventive et d'une grande justesse technique, privilégiant les circuits courts et les produits d'exception. Le cadre, aux tons chauds et à l'éclairage soigné, offre une atmosphère intimiste idéale pour une dégustation attentive. Chaque assiette est une composition équilibrée où les saveurs franches des produits de saison sont sublimées par des jus et des émulsions de caractère. C'est l'adresse parfaite pour ceux qui cherchent la discrétion et l'excellence culinaire sans le formalisme des grandes tables.",
-    insider_tip: "Le ris de veau croustillant est la signature absolue du lieu, d'une tendreté et d'un goût incomparables. Pensez également à explorer leur carte des vins, riche en références de vignerons indépendants très bien sourcées.",
-    expert_catchline: "L'excellence bistronomique au service du produit de saison.",
+    description: "L’Empreinte est une pépite bistronomique discrète nichée rue Mouton-Duvernet. Le chef Noël Druais y déploie une cuisine de marché inventive et d’une grande justesse technique, privilégiant les circuits courts et les produits d’exception. Le cadre, aux tons chauds et à l’éclairage soigné, offre une atmosphère intimiste idéale pour une dégustation attentive. Chaque assiette est une composition équilibrée où les saveurs franches des produits de saison sont sublimées par des jus et des émulsions de caractère. C’est l’adresse parfaite pour ceux qui cherchent la discrétion et l’excellence culinaire sans le formalisme des grandes tables.",
+    insider_tip: "Le ris de veau croustillant est la signature absolue du lieu, d’une tendreté et d'un goût incomparables. Pensez également à explorer leur carte des vins, riche en références de vignerons indépendants très bien sourcées.",
+    expert_catchline: "L’excellence bistronomique au service du produit de saison.",
     specials: {
         cuisine: ["Bistronomie", "Cuisine du Marché"],
         drinks: ["Vins de Vignerons", "Cocktails Maison"],

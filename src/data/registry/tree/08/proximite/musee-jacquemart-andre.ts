@@ -39,8 +39,8 @@ export const musee_jacquemart_andre: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "C'est la plus belle collection privée de chefs-d'œuvre à Paris, logée dans l'hôtel particulier d'un couple de collectionneurs du XIXe. Entre peinture italienne de la Renaissance et école flamande, on déambule sous les plafonds peints de Tiepolo. Le clou du spectacle est sans doute le salon de thé, situé dans l'ancienne salle à manger, considéré comme l'un des plus raffinés de la capitale. Une expérience de luxe et de culture d'une élégance absolue sur le boulevard Haussmann.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "C’est la plus belle collection privée de chefs-d’œuvre à Paris, logée dans l’hôtel particulier d’un couple de collectionneurs du XIXe. Entre peinture italienne de la Renaissance et école flamande, on déambule sous les plafonds peints de Tiepolo. Le clou du spectacle est sans doute le salon de thé, situé dans l’ancienne salle à manger, considéré comme l’un des plus raffinés de la capitale. Une expérience de luxe et de culture d’une élégance absolue sur le boulevard Haussmann.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

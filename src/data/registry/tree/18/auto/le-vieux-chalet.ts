@@ -5,7 +5,7 @@ export const le_vieux_chalet: SurgicalPlace = {
   slug: "le-vieux-chalet",
   name: "Le Vieux Chalet",
   category: "restaurant",
-  subcategory: ["français", "traditionnel", "historique", "terrasse", "montmartre"],
+  subcategory: ['français', 'terrasse'],
   location: {
     address: "14 bis Rue Norvins, 75018 Paris, France",
     arrondissement: 18,
@@ -43,7 +43,7 @@ export const le_vieux_chalet: SurgicalPlace = {
         category_type: "starter",
         display_label: "Les Entrées de Tradition",
         items: [
-        { name: "Soupe à l'Oignon Maison Gratinée", price_cents: 950 },
+        { name: "Soupe à l’Oignon Maison Gratinée", price_cents: 950 },
         { name: "Escargots de Bourgogne (x6)", price_cents: 1250, description: "Beurre persillé et ail" },
         { name: "Terrine du Chef & Cornichons", price_cents: 850 },
         { name: "Salade de Chèvre chaud sur Toast", price_cents: 1100 },
@@ -54,7 +54,7 @@ export const le_vieux_chalet: SurgicalPlace = {
         category_type: "main",
         display_label: "Les Plats Gourmands",
         items: [
-        { name: "Bœuf Bourguignon à l'Ancienne", price_cents: 1850 },
+        { name: "Bœuf Bourguignon à l’Ancienne", price_cents: 1850 },
         { name: "Confit de Canard du Sud-Ouest", price_cents: 1950 },
         { name: "Sole Meunière Citronnée", price_cents: 2800 },
         { name: "Magret de Canard au Miel & Épices", price_cents: 2100 },
@@ -75,8 +75,8 @@ export const le_vieux_chalet: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Un secret bien gardé de la rue Norvins. Ce restaurant rustique cache l'un des plus beaux jardins-terrasses de la Butte. On y déguste une cuisine française familiale et sans prétention, à l'ombre des arbres, loin de l'agitation de la place du Tertre voisine.",
-  insider_tip: "• **Timing Stratégique** : En été, demandez impérativement une table dans le jardin intérieur, loin de la rumeur de la rue Norvins.\n• **Combo Moelle** : Le Confit de Canard est ici une référence, particulièrement avec les pommes de terre à la lyonnaise.\n• **Expérience Culturelle** : Prenez le temps d'observer les photos d'époque aux murs ; elles racontent le Montmartre des peintres et des poètes.",
+  description: "Un secret bien gardé de la rue Norvins. Ce restaurant rustique cache l’un des plus beaux jardins-terrasses de la Butte. On y déguste une cuisine française familiale et sans prétention, à l’ombre des arbres, loin de l’agitation de la place du Tertre voisine.",
+  insider_tip: "• **Timing Stratégique** : En été, demandez impérativement une table dans le jardin intérieur, loin de la rumeur de la rue Norvins.\n• **Combo Moelle** : Le Confit de Canard est ici une référence, particulièrement avec les pommes de terre à la lyonnaise.\n• **Expérience Culturelle** : Prenez le temps d’observer les photos d'époque aux murs ; elles racontent le Montmartre des peintres et des poètes.",
   specials: {
     cuisine: ["Française Traditionnelle", "Bourgeoise"],
     drinks: ["Grands Vins", "Liqueurs Artisanales"],

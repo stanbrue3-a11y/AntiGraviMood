@@ -5,7 +5,7 @@ export const qui_plume_la_lune: SurgicalPlace = {
     name: "Qui Plume la Lune",
     slug: "qui-plume-la-lune",
     category: "restaurant",
-    subcategory: ["étoilé", "gastronomique", "dégustation", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "50 Rue Amelot",
         arrondissement: 11,
@@ -65,8 +65,8 @@ export const qui_plume_la_lune: SurgicalPlace = {
                     // VERIFIED: Site officiel (2024)
                     { name: "Menu 3 temps", price_cents: 7000, description: "Entrée, Plat, Dessert." },
                     { name: "Menu Angèle (4 plats + desserts)", price_cents: 11000, description: "Le voyage gastronomique autour du produit." },
-                    { name: "Menu Lucie (5 plats + desserts)", price_cents: 15000, description: "L'expérience complète saisonnière." },
-                    { name: "Menu Claude M. (produits d'exception)", price_cents: 25000, description: "Homard, truffe, caviar et pièces nobles." }
+                    { name: "Menu Lucie (5 plats + desserts)", price_cents: 15000, description: "L’expérience complète saisonnière." },
+                    { name: "Menu Claude M. (produits d’exception)", price_cents: 25000, description: "Homard, truffe, caviar et pièces nobles." }
                 ]
             },
             {
@@ -76,7 +76,7 @@ export const qui_plume_la_lune: SurgicalPlace = {
                     { name: "Lotte nacrée, pimiento de Piquillo & combawa", price_cents: 0 },
                     { name: "Boeuf de Charolles maturé, artichaut & jus corsé", price_cents: 0 },
                     { name: "Foie gras de canard poêlé, porto & cassis marinés", price_cents: 0 },
-                    { name: "Saint-Jacques, bouillon d'herbes & cresson", price_cents: 0 },
+                    { name: "Saint-Jacques, bouillon d’herbes & cresson", price_cents: 0 },
                     { name: "Mousse chocolat sauvage & herbes folles", price_cents: 0 }
                 ]
             },
@@ -129,13 +129,13 @@ export const qui_plume_la_lune: SurgicalPlace = {
     michelin_stars: 1,
     verified: true,
     google_rating: 4.6,
-    description: "Qui Plume la Lune est un restaurant étoilé au Guide Michelin niché dans une rue discrète du 11ème. Le chef compose des menus surprises autour de produits d'exception — Saint-Jacques, homard breton, cerf, agneau de lait des Pyrénées — dans un cadre intime et feutré. Pas de carte : on se laisse porter par les menus dégustation, du midi accessible (45€) au somptueux Menu Claude M. (250€).",
-    insider_tip: "• Le Menu Théodore à 45€ le midi est le prix d'entrée le plus accessible pour un étoilé Michelin dans le 11ème — c'est un deal rare.\n• Il n'y a PAS de carte à la carte : tous les menus sont des parcours surprise du chef.\n• L'accord mets et vins en 3 verres (45€) est recommandé — le sommelier est excellent.\n• Le Menu Claude M. à 250€ est réservé aux grandes occasions — uniquement des produits d'exception (homard, truffe, etc.).\n• La réservation est OBLIGATOIRE, surtout le week-end.",
-    expert_catchline: "L'étoilé Michelin secret du 11ème : menus surprise du chef et produits d'exception dès 45€.",
+    description: "Qui Plume la Lune est un restaurant étoilé au Guide Michelin niché dans une rue discrète du 11ème. Le chef compose des menus surprises autour de produits d’exception — Saint-Jacques, homard breton, cerf, agneau de lait des Pyrénées — dans un cadre intime et feutré. Pas de carte : on se laisse porter par les menus dégustation, du midi accessible (45€) au somptueux Menu Claude M. (250€).",
+    insider_tip: "• Le Menu Théodore à 45€ le midi est le prix d’entrée le plus accessible pour un étoilé Michelin dans le 11ème — c’est un deal rare.\n• Il n’y a PAS de carte à la carte : tous les menus sont des parcours surprise du chef.\n• L’accord mets et vins en 3 verres (45€) est recommandé — le sommelier est excellent.\n• Le Menu Claude M. à 250€ est réservé aux grandes occasions — uniquement des produits d’exception (homard, truffe, etc.).\n• La réservation est OBLIGATOIRE, surtout le week-end.",
+    expert_catchline: "L’étoilé Michelin secret du 11ème : menus surprise du chef et produits d'exception dès 45€.",
     specials: {
         cuisine: ["Saint-Jacques cresson", "Homard breton rôti", "Cerf rôti beurre genièvre", "Agneau de lait Pyrénées"],
         drinks: ["Accords mets-vins 3 à 6 verres", "Sommelière experte", "Cave classique raffinée"],
         must_eat: "Pas de choix : on se laisse porter. Le Menu Angèle (90€, 4 temps) est le sweet spot entre ambition culinaire et budget. Le Menu Théodore (45€) est parfait pour un premier essai au déjeuner.",
-        must_drink: "L'accord Garance en 5 verres (75€) est la meilleure façon de profiter du repas — la sommelière ajuste les accords à chaque plat surprise."
+        must_drink: "L’accord Garance en 5 verres (75€) est la meilleure façon de profiter du repas — la sommelière ajuste les accords à chaque plat surprise."
     }
 };

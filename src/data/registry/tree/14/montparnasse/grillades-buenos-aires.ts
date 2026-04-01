@@ -5,7 +5,7 @@ export const grilladesBuenosAires: SurgicalPlace = {
     name: "Les Grillades de Buenos Aires",
     slug: "les-grillades-de-buenos-aires",
     category: "restaurant",
-    subcategory: ["argentin", "steakhouse", "viande", "parrillada"],
+    subcategory: ['français'],
     location: {
         address: "54 Rue du Montparnasse",
         arrondissement: 14,
@@ -46,7 +46,7 @@ export const grilladesBuenosAires: SurgicalPlace = {
                 display_label: "Les Plats de Terroir",
                 items: [
                     { name: "Bife de Lomo (Filet de bœuf, 250g)", price_cents: 3800, description: "Le summum de la tendreté argentine." },
-                    { name: "Ojo de Bife (Noix d'entrecôte, 300g)", price_cents: 3200 },
+                    { name: "Ojo de Bife (Noix d’entrecôte, 300g)", price_cents: 3200 },
                     { name: "Bife de Cuadril (Cœur de rumsteck)", price_cents: 2600 },
                     { name: "Bife de Chorizo (Faux-filet, 300g)", price_cents: 2900 },
                     { name: "Asado de Tira (Plat de côtes)", price_cents: 2400 },
@@ -85,13 +85,13 @@ export const grilladesBuenosAires: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Une véritable 'estancia' argentine au cœur de Montparnasse. Depuis plus de 20 ans, cet établissement fait figure de référence pour les amoureux de viande d'exception, exclusivement importée de la Pampa argentine. Dans un décor rustique et chaleureux peuplé de guitares et de souvenirs, les parrilladas sont orchestrées avec une précision chirurgicale, portées par les notes de tango qui flottent dans l'air.",
-    insider_tip: "Le 'Bife de Lomo' est d'une tendreté légendaire, mais ne passez pas à côté des empanadas maison en entrée et demandez leur chimichurri spécial.",
-    expert_catchline: "L'ambassade de la viande argentine à Paris.",
+    description: "Une véritable ’estancia’ argentine au cœur de Montparnasse. Depuis plus de 20 ans, cet établissement fait figure de référence pour les amoureux de viande d’exception, exclusivement importée de la Pampa argentine. Dans un décor rustique et chaleureux peuplé de guitares et de souvenirs, les parrilladas sont orchestrées avec une précision chirurgicale, portées par les notes de tango qui flottent dans l'air.",
+    insider_tip: "Le ’Bife de Lomo’ est d’une tendreté légendaire, mais ne passez pas à côté des empanadas maison en entrée et demandez leur chimichurri spécial.",
+    expert_catchline: "L’ambassade de la viande argentine à Paris.",
     specials: {
         cuisine: ["Steakhouse Argentin", "Parrillada"],
         drinks: ["Malbec Argentin", "Vins de Mendoza"],
-        must_eat: "L'Asado de Tira et les Papas Fritas a la provenzal.",
+        must_eat: "L’Asado de Tira et les Papas Fritas a la provenzal.",
         must_drink: "Un Malbec puissant pour accompagner la viande rouge."
     }
 };

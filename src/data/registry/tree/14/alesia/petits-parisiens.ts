@@ -5,7 +5,7 @@ export const petitsParisiens: SurgicalPlace = {
     name: "Les Petits Parisiens",
     slug: "les-petits-parisiens-paris-14",
     category: "restaurant",
-    subcategory: ["bistronomie", "moderne", "terroir", "institution", "cosy"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "33 Avenue Jean Moulin, 75014 Paris, France",
         arrondissement: 14,
@@ -83,11 +83,11 @@ export const petitsParisiens: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.5,
-    description: "Les Petits Parisiens est le digne successeur de l'esprit Régalade sur l'avenue Jean Moulin. Repris avec brio, ce bistrot chic propose une cuisine d'auteur signée Arnaud Baptiste, qui allie avec maestria les codes de la grande cuisine bourgeoise et une modernité décomplexée. Le cadre est élégant, avec ses banquettes de velours et son éclairage tamisé, créant un cocon idéal pour savourer des assiettes d'une grande justesse. C'est le nouveau repaire des gourmets du sud parisien en quête de sincérité culinaire.",
-    insider_tip: "Ne manquez pas l'os à moelle, un classique parfaitement exécuté. Le menu carte blanche du chef est l'option idéale pour découvrir toute l'étendue de sa créativité. L'ambiance y est très chaleureuse en soirée.",
+    description: "Les Petits Parisiens est le digne successeur de l’esprit Régalade sur l’avenue Jean Moulin. Repris avec brio, ce bistrot chic propose une cuisine d’auteur signée Arnaud Baptiste, qui allie avec maestria les codes de la grande cuisine bourgeoise et une modernité décomplexée. Le cadre est élégant, avec ses banquettes de velours et son éclairage tamisé, créant un cocon idéal pour savourer des assiettes d’une grande justesse. C’est le nouveau repaire des gourmets du sud parisien en quête de sincérité culinaire.",
+    insider_tip: "Ne manquez pas l’os à moelle, un classique parfaitement exécuté. Le menu carte blanche du chef est l’option idéale pour découvrir toute l’étendue de sa créativité. L'ambiance y est très chaleureuse en soirée.",
     expert_catchline: "La haute bistronomie de quartier, héritière de la Régalade.",
     specials: {
-        cuisine: ["Bistronomie", "Cuisine d'Auteur"],
+        cuisine: ["Bistronomie", "Cuisine d’Auteur"],
         drinks: ["Sélection de Vignerons", "Cocktails de Saison"],
         must_eat: "Le Paleron de Boeuf braisé.",
         must_drink: "Un vin rouge puissant pour accompagner les plats mijotés."

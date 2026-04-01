@@ -5,7 +5,7 @@ export const petit_nuage: SurgicalPlace = {
     name: "Petit Nuage",
     slug: "petit-nuage",
     category: "restaurant",
-    subcategory: ["bistronomique", "fusion", "petites assiettes", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "51 Rue Basfroi",
         arrondissement: 11,
@@ -80,7 +80,7 @@ export const petit_nuage: SurgicalPlace = {
                 category_type: "drink",
                 display_label: "Cocktails Signatures",
                 items: [
-                    { name: "Petit Nuage (Gin Hendrick's)", price_cents: 1300 },
+                    { name: "Petit Nuage (Gin Hendrick’s)", price_cents: 1300 },
                     { name: "Mayday (Rhum Sailor Jerry)", price_cents: 1200 },
                     { name: "Jamaican Mule", price_cents: 1100 }
                 ]
@@ -94,12 +94,12 @@ export const petit_nuage: SurgicalPlace = {
     verified: true,
     google_rating: 4.9,
     description: "Petit Nuage est un néobistrot vibrant de la rue Basfroi qui mixe avec brio les codes de la gastronomie française et des touches asiatiques audacieuses. Le midi, on y trouve des formules fraîches et accessibles ; le soir, le lieu se transforme en spot à tapassiettes (comme le célèbre cheese naan truffé) dans une ambiance tamisée et conviviale. Une cuisine inventive, lisible et portée par un sourcing de haute volée.",
-    insider_tip: "• Les cheese naans (truffés ou butter chicken) sont l'incontournable absolu pour démarrer la soirée.\n• La salle est souvent comble dès le milieu de semaine, réservez en ligne.\n• Belle sélection de cocktails signatures qui change des classiques habituels.\n• Les gyozas de bœuf maison sont d'une finesse rare.",
+    insider_tip: "• Les cheese naans (truffés ou butter chicken) sont l’incontournable absolu pour démarrer la soirée.\n• La salle est souvent comble dès le milieu de semaine, réservez en ligne.\n• Belle sélection de cocktails signatures qui change des classiques habituels.\n• Les gyozas de bœuf maison sont d'une finesse rare.",
     expert_catchline: "Néobistrot de quartier aux accents fusion : créativité, cheese naans de luxe et ambiance cool.",
     specials: {
         cuisine: ["Cheese Naan truffé", "Bœuf braisé en gyoza", "Ballotine de pintade", "Bistronomie fusion"],
-        drinks: ["Cocktails à base de Gin Hendrick's", "Sélection de vins nature"],
-        must_eat: "Le Cheese Naan truffé : un mariage terre-mer déroutant mais addictif qui résume l'esprit fusion du lieu.",
-        must_drink: "Le cocktail 'Petit Nuage' (Gin Hendrick's) pour rester dans le thème aérien du restaurant."
+        drinks: ["Cocktails à base de Gin Hendrick’s", "Sélection de vins nature"],
+        must_eat: "Le Cheese Naan truffé : un mariage terre-mer déroutant mais addictif qui résume l’esprit fusion du lieu.",
+        must_drink: "Le cocktail ’Petit Nuage’ (Gin Hendrick’s) pour rester dans le thème aérien du restaurant."
     }
 };

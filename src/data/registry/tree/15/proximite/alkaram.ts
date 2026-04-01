@@ -40,7 +40,7 @@ export const alkaram: SurgicalPlace = {
         "wine_glass": 8,
         "coffee_price": 2.6,
         "soft_price": 5,
-        "smart_tip": "L'option sandwich/emporter (Chawarma à 7,50€) est imbattable pour le déjeuner. Sur place, la moyenne par personne avec mezzés tourne autour de 25€.",
+        "smart_tip": "L’option sandwich/emporter (Chawarma à 7,50€) est imbattable pour le déjeuner. Sur place, la moyenne par personne avec mezzés tourne autour de 25€.",
         "menu_items": [
             {
                 "category_type": "other",
@@ -49,7 +49,7 @@ export const alkaram: SurgicalPlace = {
                     { "name": "Hommos Classique", "price_cents": 800, "description": "Purée de pois chiches à la crème de sésame." },
                     { "name": "Hommos Beyrouti", "price_cents": 900, "description": "Version relevée avec ail et persil." },
                     { "name": "Hommos Viande", "price_cents": 1050, "description": "Relevé avec des émincés de viande poêlés." },
-                    { "name": "Moutabal (Caviar d'aubergine)", "price_cents": 800, "description": "Aubergine grillée, crème de sésame." },
+                    { "name": "Moutabal (Caviar d’aubergine)", "price_cents": 800, "description": "Aubergine grillée, crème de sésame." },
                     { "name": "Taboulé Libanais", "price_cents": 800, "description": "Persil, blé concassé, tomate, menthe, oignon, citron." }
                 ]
             },
@@ -79,7 +79,7 @@ export const alkaram: SurgicalPlace = {
                     { "name": "Bière Libanaise (33cl)", "price_cents": 600 },
                     { "name": "Laban Ayran (Yaourt liquide salé)", "price_cents": 600 },
                     { "name": "Café Expresso", "price_cents": 260 },
-                    { "name": "Café Blanc (Eau de fleur d'oranger)", "price_cents": 380 }
+                    { "name": "Café Blanc (Eau de fleur d’oranger)", "price_cents": 380 }
                 ]
             }
         ],
@@ -90,8 +90,8 @@ export const alkaram: SurgicalPlace = {
         "festif": 20,
         "culturel": 40
     },
-    "description": "Situé rue Ferdinand Fabre, AlKaram s'impose discrètement comme l'une des tables libanaises les plus fiables du 15ème arrondissement. Oubliez les concepts standardisés : l'endroit mise sur une véritable authenticité culinaire où tout est fait maison, de l'onctuosité de l'houmous aux viandes marinées avec précision. Le cadre est pensé pour être chaleureux et immersif, soutenu par un fond musical toujours juste – assez présent pour donner la texture d'un voyage au Levant, mais parfaitement dosé pour préserver l'intimité des tables.",
-    "insider_tip": "• Garez vos a priori sur les portions : les mezzés sont très copieux, laissez le service vous guider sur les quantités, ils sont de très bon conseil pour éviter le suremballage.\n• Contrairement à beaucoup d'adresses, la musique de fond est réglée spécifiquement pour ne pas couvrir les conversations : l'ambiance y reste sereine même à salle pleine.\n• Fermé le dimanche et le lundi : anticipez pour vos dîners de week-end.",
+    "description": "Situé rue Ferdinand Fabre, AlKaram s’impose discrètement comme l’une des tables libanaises les plus fiables du 15ème arrondissement. Oubliez les concepts standardisés : l’endroit mise sur une véritable authenticité culinaire où tout est fait maison, de l’onctuosité de l’houmous aux viandes marinées avec précision. Le cadre est pensé pour être chaleureux et immersif, soutenu par un fond musical toujours juste – assez présent pour donner la texture d’un voyage au Levant, mais parfaitement dosé pour préserver l’intimité des tables.",
+    "insider_tip": "• Garez vos a priori sur les portions : les mezzés sont très copieux, laissez le service vous guider sur les quantités, ils sont de très bon conseil pour éviter le suremballage.\n• Contrairement à beaucoup d’adresses, la musique de fond est réglée spécifiquement pour ne pas couvrir les conversations : l'ambiance y reste sereine même à salle pleine.\n• Fermé le dimanche et le lundi : anticipez pour vos dîners de week-end.",
     "specials": {
         "cuisine": ["Libanaise", "Mezzés", "Option Végétarienne Forte"],
         "drinks": ["Vins Libanais", "Thé à la menthe", "Arak"],

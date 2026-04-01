@@ -39,8 +39,8 @@ export const pantheon: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "Surplombant la montagne Sainte-Geneviève, ce monument néoclassique monumental est le lieu de mémoire de la République. Sous son dôme immense, on rend hommage aux 'Grands Hommes' de la patrie, de Victor Hugo à Simone Veil. La coupole offre un panorama époustouflant sur tout le Quartier Latin et au-delà. Entre solennité de la crypte et majesté de l'architecture, c'est une plongée dans l'histoire glorieuse et tragique de France.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Surplombant la montagne Sainte-Geneviève, ce monument néoclassique monumental est le lieu de mémoire de la République. Sous son dôme immense, on rend hommage aux ’Grands Hommes’ de la patrie, de Victor Hugo à Simone Veil. La coupole offre un panorama époustouflant sur tout le Quartier Latin et au-delà. Entre solennité de la crypte et majesté de l’architecture, c’est une plongée dans l’histoire glorieuse et tragique de France.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

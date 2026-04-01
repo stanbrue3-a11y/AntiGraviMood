@@ -5,7 +5,7 @@ export const dome_montparnasse: SurgicalPlace = {
     name: "Le Dôme Montparnasse",
     slug: "le-dome-montparnasse",
     category: "restaurant",
-    subcategory: ["fruits-de-mer", "poissons", "gastronomique", "institution", "art-deco", "historique"],
+    subcategory: ['français'],
     location: {
         address: "108 Boulevard du Montparnasse, 75014 Paris, France",
         arrondissement: 14,
@@ -40,7 +40,7 @@ export const dome_montparnasse: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "other",
-                display_label: "L'Arrivage de l'Océan",
+                display_label: "L’Arrivage de l'Océan",
                 items: [
                     { name: "La Célèbre Bouillabaisse du Dôme", price_cents: 7200, description: "Servie en deux services, la référence absolue à Paris." },
                     { name: "Sole de Sables Meunière (env. 500g)", price_cents: 6400 },
@@ -49,18 +49,18 @@ export const dome_montparnasse: SurgicalPlace = {
                     { name: "Saint-Jacques à la Provençale", price_cents: 4800 },
                     { name: "Friture de Joëls, sauce tartare", price_cents: 1800 },
                     { name: "Carpaccio de Langoustines au citron vert", price_cents: 3800 },
-                    { name: "Soles frites façon 'Dôme'", price_cents: 5500 }
+                    { name: "Soles frites façon ’Dôme'", price_cents: 5500 }
                 ]
             },
             {
                 category_type: "starter",
-                display_label: "Entrées d'Exception",
+                display_label: "Entrées d’Exception",
                 items: [
                     { name: "Demi-homard froid, sauce mayonnaise", price_cents: 4200 },
                     { name: "Salade de Homard tiède aux légumes", price_cents: 4800 },
                     { name: "Saumon Fumé par nos soins", price_cents: 2800 },
                     { name: "Soupe de Poissons de roche, rouille et croûtons", price_cents: 2100 },
-                    { name: "Douzaine d'Huîtres Belon N°00", price_cents: 5200 },
+                    { name: "Douzaine d’Huîtres Belon N°00", price_cents: 5200 },
                     { name: "Tartare de Saumon aux herbes fraîches", price_cents: 2600 }
                 ]
             },
@@ -68,7 +68,7 @@ export const dome_montparnasse: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Final de Haute Volée",
                 items: [
-                    { name: "Millefeuille Maison 'Le Dôme'", price_cents: 1800, description: "Réputé comme l'un des meilleurs de la capitale." },
+                    { name: "Millefeuille Maison ’Le Dôme'", price_cents: 1800, description: "Réputé comme l’un des meilleurs de la capitale." },
                     { name: "Crêpes Suzette au Grand Marnier", price_cents: 2200 },
                     { name: "Soufflé chaud au Chocolat noir", price_cents: 1900 },
                     { name: "Sorbet Citron arrosé à la Vodka", price_cents: 1500 },
@@ -85,12 +85,12 @@ export const dome_montparnasse: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.2,
-    description: "Le Dôme est à la mer ce que Montparnasse est aux arts : un monument. Premier café de prestige ouvert sur le boulevard en 1898, il est devenu le temple incontesté des produits de l'océan. Sous son dôme Art Déco intact, dans une atmosphère de boiseries sombres et de miroirs patinés, on déguste les arrivages les plus exclusifs de nos côtes. Sa bouillabaisse est légendaire, tout comme son banc d'écailler qui est sans doute l'un des plus raffinés de Paris. C'est ici que Brassens, Sartre et Beauvoir refaisaient le monde, dans ce décor qui n'a rien perdu de sa superbe et de son exigence.",
-    insider_tip: "Le Millefeuille du Dôme est une pièce d'orfèvrerie pâtissière, commandez-le dès le début du repas pour être sûr d'en avoir une part. Pour une expérience plus directe, installez-vous au banc de l'écailler.",
+    description: "Le Dôme est à la mer ce que Montparnasse est aux arts : un monument. Premier café de prestige ouvert sur le boulevard en 1898, il est devenu le temple incontesté des produits de l’océan. Sous son dôme Art Déco intact, dans une atmosphère de boiseries sombres et de miroirs patinés, on déguste les arrivages les plus exclusifs de nos côtes. Sa bouillabaisse est légendaire, tout comme son banc d’écailler qui est sans doute l’un des plus raffinés de Paris. C’est ici que Brassens, Sartre et Beauvoir refaisaient le monde, dans ce décor qui n’a rien perdu de sa superbe et de son exigence.",
+    insider_tip: "Le Millefeuille du Dôme est une pièce d’orfèvrerie pâtissière, commandez-le dès le début du repas pour être sûr d’en avoir une part. Pour une expérience plus directe, installez-vous au banc de l’écailler.",
     expert_catchline: "Le temple sacré des produits de la mer sous le ciel de Montparnasse.",
     specials: {
         cuisine: ["Poissons & Crustacés", "Gastronomie de la Mer"],
-        drinks: ["Chablis & Sancerre d'exception", "Grands Crus Classés"],
+        drinks: ["Chablis & Sancerre d’exception", "Grands Crus Classés"],
         must_eat: "La Bouillabaisse traditionnelle et le Millefeuille.",
         must_drink: "Un Muscadet Sèvre-et-Maine avec les huîtres Belon."
     },

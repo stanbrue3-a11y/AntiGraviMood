@@ -5,7 +5,7 @@ export const maison_sota: SurgicalPlace = {
     name: "Maison Sota Atsumi",
     slug: "maison-sota",
     category: "restaurant",
-    subcategory: ["gastronomique", "feu de bois", "japonais", "exception", "restaurant"],
+    subcategory: ['français', 'japonais'],
     location: {
         address: "3 Rue Saint-Hubert",
         arrondissement: 11,
@@ -61,14 +61,14 @@ export const maison_sota: SurgicalPlace = {
                 display_label: "Signature Sota Atsumi (Extraits)",
                 items: [
                     { name: "Makis de veau, huîtres & condiment algues", price_cents: 0 },
-                    { name: "Asperges blanches cuites au bois, beurre d'agrumes", price_cents: 0 },
+                    { name: "Asperges blanches cuites au bois, beurre d’agrumes", price_cents: 0 },
                     { name: "Saint-Jacques de plongée, mousseline de céleri", price_cents: 0 },
                     { name: "Pigeon de Vendée, betteraves au feu de bois", price_cents: 0 },
                     { name: "Poire rôtie, glace au foin & caramel beurre salé", price_cents: 0 },
                     { name: "Tartelette au yuzu & meringue italienne", price_cents: 0 },
                     { name: "Homard bleu de casier au Bincho-tan", price_cents: 0 },
                     { name: "Oursin & sabayon au Vin Jaune", price_cents: 0 },
-                    { name: "Turbot sauvage, émulsion d'arêtes perlé", price_cents: 0 },
+                    { name: "Turbot sauvage, émulsion d’arêtes perlé", price_cents: 0 },
                     { name: "Pain maison au feu de bois & Beurre fermier", price_cents: 0 },
                     { name: "Mignardises de la Maison Sota", price_cents: 0 },
                     { name: "Eau micro-filtrée", price_cents: 600 },
@@ -87,13 +87,13 @@ export const maison_sota: SurgicalPlace = {
     instagram_handle: "maisonsota",
     verified: true,
     google_rating: 4.7,
-    description: "Installé dans un loft sublimement réhabilité avec ses hauts plafonds et ses briques apparentes, Maison est le temple parisien du chef Sota Atsumi (ancien du Clown Bar). L'expérience s'articule autour d'un imposant four à bois spectaculaire placé au centre de la cuisine ouverte. La brigade y exécute une partition millimétrée, mêlant la rigueur japonaise aux plus beaux produits des terroirs français.",
-    insider_tip: "• C'est la table pour célébrer un anniversaire où le budget n'est pas un problème. Le cadre est incroyablement esthétique et romantique.\n• Demandez une table avec vue sur la cuisine ouverte, l'organisation de la brigade est un spectacle hypnotisant en soi.\n• Le menu Déjeuner (Jeudi au Samedi) à 65€ ou 85€ reste l'option la plus stratégique pour découvrir cette étoile Michelin sans forcément débourser 200€ par tête.",
-    expert_catchline: "Haute gastronomie nippone-française enflammée dans un loft d'exception : un sommet parisien.",
+    description: "Installé dans un loft sublimement réhabilité avec ses hauts plafonds et ses briques apparentes, Maison est le temple parisien du chef Sota Atsumi (ancien du Clown Bar). L’expérience s’articule autour d’un imposant four à bois spectaculaire placé au centre de la cuisine ouverte. La brigade y exécute une partition millimétrée, mêlant la rigueur japonaise aux plus beaux produits des terroirs français.",
+    insider_tip: "• C’est la table pour célébrer un anniversaire où le budget n’est pas un problème. Le cadre est incroyablement esthétique et romantique.\n• Demandez une table avec vue sur la cuisine ouverte, l’organisation de la brigade est un spectacle hypnotisant en soi.\n• Le menu Déjeuner (Jeudi au Samedi) à 65€ ou 85€ reste l'option la plus stratégique pour découvrir cette étoile Michelin sans forcément débourser 200€ par tête.",
+    expert_catchline: "Haute gastronomie nippone-française enflammée dans un loft d’exception : un sommet parisien.",
     specials: {
         cuisine: ["Pigeon au feu de bois", "Homard transparent", "Oursin et vin jaune"],
         drinks: ["Cave stratosphérique", "Accords pointus (110€)"],
-        must_eat: "Laissez-vous totalement guider par le Menu Maison (165€). Le pigeon et les pièces maîtresses rôtissent lentement au feu de bois devant vos yeux, tandis que le homard et l'oursin font des apparitions remarquables au rythme des saisons.",
-        must_drink: "L'accord Mets & Vins avec ses 7 verres (110€) est loué par les experts pour sa précision d'orfèvre."
+        must_eat: "Laissez-vous totalement guider par le Menu Maison (165€). Le pigeon et les pièces maîtresses rôtissent lentement au feu de bois devant vos yeux, tandis que le homard et l’oursin font des apparitions remarquables au rythme des saisons.",
+        must_drink: "L’accord Mets & Vins avec ses 7 verres (110€) est loué par les experts pour sa précision d'orfèvre."
     }
 };

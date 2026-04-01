@@ -5,7 +5,7 @@ export const brasserie_barbes: SurgicalPlace = {
   slug: "brasserie-barbes",
   name: "Brasserie Barbès",
   category: "restaurant",
-  subcategory: ["français", "brasserie", "rooftop", "festif", "cocktails"],
+  subcategory: ['français'],
   location: {
     address: "2 Bd Barbès, 75018 Paris, France",
     arrondissement: 18,
@@ -43,7 +43,7 @@ export const brasserie_barbes: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées & To Share",
         items: [
-        { name: "Burrata Crémeuse & Focaccia", price_cents: 1200, description: "Basilic frais et huile d'olive vierge" },
+        { name: "Burrata Crémeuse & Focaccia", price_cents: 1200, description: "Basilic frais et huile d’olive vierge" },
         { name: "Houmous Maison & Pain Pita", price_cents: 900 },
         { name: "Arancini à la Trill (3pcs)", price_cents: 1100, description: "Cœur coulant fromage, huile de truffe" },
         { name: "Carpaccio de Bœuf au Parmesan", price_cents: 1400 },
@@ -60,7 +60,7 @@ export const brasserie_barbes: SurgicalPlace = {
         { name: "Risotto aux Herbes & Champignons", price_cents: 1750 },
         { name: "Tartare de Bœuf Traditionnel", price_cents: 1900 },
         { name: "Demi-Poulet Fermier Rôti", price_cents: 1850, description: "Jus de viande et purée maison" },
-        { name: "Bavette d'Aloyau Grillée", price_cents: 2200, description: "Frites et sauce échalote" },
+        { name: "Bavette d’Aloyau Grillée", price_cents: 2200, description: "Frites et sauce échalote" },
         { name: "Linguine aux Gambas & Piment", price_cents: 2100 },
         { name: "Saumon Snacké & Légumes Croquants", price_cents: 2050 }
       ]},
@@ -77,7 +77,7 @@ export const brasserie_barbes: SurgicalPlace = {
     ]
   },
   description: "Installée dans un ancien magasin Tati mémorable, cette brasserie géante sur quatre niveaux est le cœur battant du carrefour Barbès. Entre déco industrielle, rooftop végétalisé et dancing, on y vient pour un cocktail, un burger ou un plat de saison dans une atmosphère ultra-parisienne et métissée.",
-  insider_tip: "• **Choix du Spot** : Filez directement au rooftop au 4ème étage pour la lumière et l'ambiance jardin d'hiver sous verrière.\n• **Vibe Nocturne** : Le week-end, le spot se transforme en mini-club branché avec DJ sets ; idéal pour un dîner qui finit tard.\n• **Combo Moelle** : Optez pour les Arancini en entrée suivis du Burger Barbès pour une expérience 100% plaisir régressif.",
+  insider_tip: "• **Choix du Spot** : Filez directement au rooftop au 4ème étage pour la lumière et l’ambiance jardin d'hiver sous verrière.\n• **Vibe Nocturne** : Le week-end, le spot se transforme en mini-club branché avec DJ sets ; idéal pour un dîner qui finit tard.\n• **Combo Moelle** : Optez pour les Arancini en entrée suivis du Burger Barbès pour une expérience 100% plaisir régressif.",
   specials: {
     cuisine: ["Française Moderne", "Fusion"],
     drinks: ["Cocktails Création", "Spritz", "Vins Nature"],

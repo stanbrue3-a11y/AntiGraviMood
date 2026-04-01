@@ -38,8 +38,8 @@ export const jardin_des_plantes: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Vieux de quatre siècles, le Jardin des Plantes est un monument vivant de la science et de la nature. Entre ses serres tropicales spectaculaires, sa Ménagerie historique (la plus ancienne au monde!) et ses allées de roses, il offre une promenade savante et poétique. C'est un lieu où l'on déambule entre l'Histoire naturelle et la botanique la plus rare, au pied de la Grande Galerie de l'Évolution. Un jardin royal qui invite à l'éveil des sens et de l'esprit.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Vieux de quatre siècles, le Jardin des Plantes est un monument vivant de la science et de la nature. Entre ses serres tropicales spectaculaires, sa Ménagerie historique (la plus ancienne au monde!) et ses allées de roses, il offre une promenade savante et poétique. C’est un lieu où l’on déambule entre l’Histoire naturelle et la botanique la plus rare, au pied de la Grande Galerie de l’Évolution. Un jardin royal qui invite à l’éveil des sens et de l'esprit.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

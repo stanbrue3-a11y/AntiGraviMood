@@ -5,7 +5,7 @@ export const popine_sacre_coeur: SurgicalPlace = {
   slug: "popine-sacre-coeur",
   name: "Popine Sacré Coeur",
   category: "restaurant",
-  subcategory: ["pizzas"],
+  subcategory: ['français'],
   location: {
     address: "10 Rue Dancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -75,12 +75,12 @@ export const popine_sacre_coeur: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Popine apporte l'excellence de la pizza napolitaine au cœur de Montmartre. Dans un décor moderne et chaleureux, les pizzas à la pâte légère et aux ingrédients sourcés directement en Italie sortent d'un impressionnant four à bois. Une valeur sûre pour les amateurs de margherita authentique.",
-  insider_tip: "• **Timing Stratégique** : Arrivez à 19h pétantes ou réservez via leur site, car les tables du bas sont prisées et l'attente est fréquente rue Dancourt.\n• **Combo Moelle** : Commencez par un Piattino de Ricotta Fraîche avant d'attaquer la Mortadella e Pistacchio, leur grand classique.\n• **Détail Secret** : La salle dispose d'une mezzanine plus calme, parfaite si vous voulez discuter sans le bruit du comptoir.",
+  description: "Popine apporte l’excellence de la pizza napolitaine au cœur de Montmartre. Dans un décor moderne et chaleureux, les pizzas à la pâte légère et aux ingrédients sourcés directement en Italie sortent d'un impressionnant four à bois. Une valeur sûre pour les amateurs de margherita authentique.",
+  insider_tip: "• **Timing Stratégique** : Arrivez à 19h pétantes ou réservez via leur site, car les tables du bas sont prisées et l’attente est fréquente rue Dancourt.\n• **Combo Moelle** : Commencez par un Piattino de Ricotta Fraîche avant d’attaquer la Mortadella e Pistacchio, leur grand classique.\n• **Détail Secret** : La salle dispose d’une mezzanine plus calme, parfaite si vous voulez discuter sans le bruit du comptoir.",
   specials: {
     cuisine: ["Italienne", "Pizza", "Napolitaine"],
     drinks: ["Vins Italiens", "Spritz", "Peroni"],
-    must_eat: "L'art de la pizza napolitaine. Mortadella e Pistacchio & Margherita Extra",
+    must_eat: "L’art de la pizza napolitaine. Mortadella e Pistacchio & Margherita Extra",
   },
   images: {
     hero: "AU_ZVEFGSuElRtGT7ZTQE7u6-G2ynwWKkqAewqOb6AA19ZsnclloGk-zpULUA90INK77pd6OaOBDRY68_6n4JWBPsojep4IU3dgczJ99oF8Okhm9s3ELr6Dpeqvy5evKgOdEECbwRZSqV4Jy_2edH3zZpEQsHIwS8IwdpvrGvbLhaKHuP5saPOObNHRxGpOzLtPF1p7WyBjke8MqVBgvplkEj3M6MI-Ts0nj4OvYOet5AjqwctTm1_gnvqu76nCLimE4dSjNXEWD25jbosp_5qul2zPhJcKUotY_CWaJrJZ7jn96Tg",

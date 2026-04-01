@@ -41,7 +41,7 @@ export const le_carmen: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Danser dans l'ancien hôtel particulier de Georges Bizet (là où il aurait composé Carmen !), c'est possible. Un décor rococo délirant : colonnes corinthiennes, fresques au plafond, statues de femmes drapées, cage dorée géante... Le lieu est magnifique le jour comme la nuit. On y boit des cocktails au gin (leur spécialité) et on y danse tard dans la nuit dans une ambiance décadente et romantique. C'est Pigalle version grand siècle.",
+    "description": "Danser dans l’ancien hôtel particulier de Georges Bizet (là où il aurait composé Carmen !), c’est possible. Un décor rococo délirant : colonnes corinthiennes, fresques au plafond, statues de femmes drapées, cage dorée géante... Le lieu est magnifique le jour comme la nuit. On y boit des cocktails au gin (leur spécialité) et on y danse tard dans la nuit dans une ambiance décadente et romantique. C’est Pigalle version grand siècle.",
     "insider_tip": "Ancienne maison close de Bizet. Le décor rococo est fou.",
     "specials": {
         "cuisine": [],

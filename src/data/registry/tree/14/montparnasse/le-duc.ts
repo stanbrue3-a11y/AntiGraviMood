@@ -5,7 +5,7 @@ export const leDuc: SurgicalPlace = {
     name: "Le Duc",
     slug: "le-duc-paris-14",
     category: "restaurant",
-    subcategory: ["poissons", "seafood", "institution", "historique", "gastronomique"],
+    subcategory: ['français'],
     location: {
         address: "243 Boulevard Raspail, 75014 Paris, France",
         arrondissement: 14,
@@ -40,11 +40,11 @@ export const leDuc: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "L'Art des Poissons",
+                display_label: "L’Art des Poissons",
                 items: [
-                    { name: "Carpaccio de Bar au Citron Vert et Huile d'Olive", price_cents: 4800 },
-                    { name: "Tartare de Bar 'Le Duc' (Signé Minchelli)", price_cents: 5200 },
-                    { name: "Sashimi de Thon Rouge d'Exception", price_cents: 5500 },
+                    { name: "Carpaccio de Bar au Citron Vert et Huile d’Olive", price_cents: 4800 },
+                    { name: "Tartare de Bar ’Le Duc' (Signé Minchelli)", price_cents: 5200 },
+                    { name: "Sashimi de Thon Rouge d’Exception", price_cents: 5500 },
                     { name: "Dorade Royale Crue à la Fleur de Sel", price_cents: 4600 },
                     { name: "Sole Meunière Façon Le Duc (entière)", price_cents: 8500 },
                     { name: "Turbot Grillé aux Herbes (pour 2)", price_cents: 18000 },
@@ -82,12 +82,12 @@ export const leDuc: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.4,
-    description: "Le Duc est plus qu'un restaurant, c'est le lieu où a été inventé l'art de manger le poisson cru à Paris dans les années 60, bien avant la mode des sushis. Fondé par Jean Minchelli, ce temple de la mer conserve un décor intramontable de yacht luxueux des années 70, avec ses boiseries vernies et ses hublots. Ici, le produit est sacré : le poisson n'est jamais dénaturé, simplement sublimé par une découpe parfaite ou une cuisson à la seconde près. C'est l'adresse favorite du Paris littéraire et artistique qui cherche l'épure et l'exceptionnel.",
+    description: "Le Duc est plus qu’un restaurant, c’est le lieu où a été inventé l’art de manger le poisson cru à Paris dans les années 60, bien avant la mode des sushis. Fondé par Jean Minchelli, ce temple de la mer conserve un décor intramontable de yacht luxueux des années 70, avec ses boiseries vernies et ses hublots. Ici, le produit est sacré : le poisson n’est jamais dénaturé, simplement sublimé par une découpe parfaite ou une cuisson à la seconde près. C’est l’adresse favorite du Paris littéraire et artistique qui cherche l’épure et l'exceptionnel.",
     insider_tip: "Commencez impérativement par le carpaccio de bar, le plat qui a fait la légende du lieu. La carte des vins propose des Chablis et des Meursaults de collection qui sont les parfaits compagnons de ces assiettes iodées. Ambiance feutrée et très select.",
-    expert_catchline: "L'inventeur mythique du poisson cru à Paris.",
+    expert_catchline: "L’inventeur mythique du poisson cru à Paris.",
     specials: {
         cuisine: ["Gastronomie Marine", "Poissons Crus"],
-        drinks: ["Grands Vins Blancs de Bourgogne", "Sancerres d'Exception"],
+        drinks: ["Grands Vins Blancs de Bourgogne", "Sancerres d’Exception"],
         must_eat: "Le Carpaccio de Bar et la Sole Meunière.",
         must_drink: "Un Chablis Grand Cru."
     },

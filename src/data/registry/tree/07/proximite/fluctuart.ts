@@ -39,8 +39,8 @@ export const fluctuart: SurgicalPlace = {
         "festif": 8,
         "culturel": 24.3
     },
-    "description": "Amarré au pied du Pont des Invalides, ce centre d'art urbain flottant est une prouesse architecturale totalement transparente. Sur trois niveaux, Fluctuart propose des expositions temporaires gratuites des plus grands street-artistes mondiaux, une librairie spécialisée et un rooftop vibrant. C'est le lieu idéal pour une immersion culturelle décontractée au fil de l'eau, où l'art de rue prend une dimension majestueuse face au Grand Palais.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Amarré au pied du Pont des Invalides, ce centre d’art urbain flottant est une prouesse architecturale totalement transparente. Sur trois niveaux, Fluctuart propose des expositions temporaires gratuites des plus grands street-artistes mondiaux, une librairie spécialisée et un rooftop vibrant. C’est le lieu idéal pour une immersion culturelle décontractée au fil de l’eau, où l'art de rue prend une dimension majestueuse face au Grand Palais.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

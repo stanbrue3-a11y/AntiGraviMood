@@ -5,13 +5,13 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   slug: "bouillon-chartier-gare-de-l-est",
   name: "Bouillon Chartier Gare de l’Est",
   category: "restaurant",
-  subcategory: ["français", "bouillon", "traditionnel", "voyage", "belle-epoque"],
+  subcategory: ['français'],
   location: {
     address: "5 Rue du 8 Mai 1945, 75010 Paris, France",
     arrondissement: 10,
     lat: 48.8759574,
     lng: 2.3587849,
-    nearest_metro: "Gare de l'Est",
+    nearest_metro: "Gare de l’Est",
     metro_lines: [4, 5, 7],
     google_id: "ChIJO77c9RRv5kcRL-TBSE082ec"
   },
@@ -43,7 +43,7 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
         items: [
           { name: "Œufs mayonnaise", price_cents: 270 },
           { name: "Avocat vinaigrette", price_cents: 380 },
-          { name: "Harengs pommes à l'huile", price_cents: 450 },
+          { name: "Harengs pommes à l’huile", price_cents: 450 },
           { name: "Potage de légumes du jour", price_cents: 320 },
           { name: "Pâté de campagne au poivre", price_cents: 390 },
           { name: "Snails (Escargots x6)", price_cents: 680 }
@@ -72,13 +72,13 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
           { name: "Pot de mousse chocolat", price_cents: 370 },
           { name: "Riz au lait grand-mère", price_cents: 280 },
           { name: "Coupe de sorbets", price_cents: 420 },
-          { name: "L'assiette de fromages", price_cents: 480 }
+          { name: "L’assiette de fromages", price_cents: 480 }
         ]
       }
     ]
   },
-  description: "Dernier né de la famille ouvert en 2019 juste en face de la Gare de l'Est, ce bouillon perpétue la tradition du 'bien manger pour pas cher'. Dans un cadre qui semble avoir toujours existé, on y retrouve le ballet incessant des serveurs et les plats qui ont fait la renommée de l'enseigne. L'escale parfaite avant de prendre un train ou après une balade sur les quais du canal.",
-  insider_tip: "• Idéal pour les voyageurs pressés : le service est l'un des plus rapides de Paris.\n• La salle est un peu plus 'aérée' que celle des Grands Boulevards, ce qui rend l'expérience légèrement moins bruyante.\n• Demandez un 'quart de bouillon rouge' pour accompagner votre choucroute, une tradition de l'adresse.",
+  description: "Dernier né de la famille ouvert en 2019 juste en face de la Gare de l’Est, ce bouillon perpétue la tradition du ’bien manger pour pas cher’. Dans un cadre qui semble avoir toujours existé, on y retrouve le ballet incessant des serveurs et les plats qui ont fait la renommée de l’enseigne. L’escale parfaite avant de prendre un train ou après une balade sur les quais du canal.",
+  insider_tip: "• Idéal pour les voyageurs pressés : le service est l’un des plus rapides de Paris.\n• La salle est un peu plus ’aérée’ que celle des Grands Boulevards, ce qui rend l’expérience légèrement moins bruyante.\n• Demandez un ’quart de bouillon rouge’ pour accompagner votre choucroute, une tradition de l’adresse.",
   specials: {
     cuisine: ["Française", "Bouillon", "Populaire"],
     drinks: ["Bouillon Rouge", "Café"],

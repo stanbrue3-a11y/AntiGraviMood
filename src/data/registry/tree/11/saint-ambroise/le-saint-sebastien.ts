@@ -5,7 +5,7 @@ export const le_saint_sebastien: SurgicalPlace = {
   slug: "le-saint-sebastien",
   name: "Le Saint Sébastien",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "42 Rue Saint-Sébastien, 75011 Paris, France",
     arrondissement: 11,
@@ -45,7 +45,7 @@ export const le_saint_sebastien: SurgicalPlace = {
   description: "TODO: Description riche (3 phrases minimum).",
   insider_tip: `• **Timing Stratégique** : Arriver pour l'ouverture à 18h30 pour choper une place au comptoir sans réservation.
   • **Combo Moelle** : Accorder les assiettes de légumes rôtis avec leur sélection de vins au verre.
-  • **Expérience Culturelle** : Discuter avec l'équipe pour comprendre l'origine de leurs produits ultra-locaux.`,
+  • **Expérience Culturelle** : Discuter avec l’équipe pour comprendre l'origine de leurs produits ultra-locaux.`,
   specials: {
     cuisine: [],
     drinks: [],

@@ -5,7 +5,7 @@ export const confluence: SurgicalPlace = {
     name: "Confluence",
     slug: "confluence",
     category: "restaurant",
-    subcategory: ["bistronomie", "fusion", "franco-asiatique", "gastronomique"],
+    subcategory: ['bistronomie', 'français'],
     location: {
         address: "79 Rue de Charonne",
         arrondissement: 11,
@@ -47,7 +47,7 @@ export const confluence: SurgicalPlace = {
                 category_type: "starter",
                 display_label: "Entrées (Small Plates / Starters)",
                 items: [
-                    { name: "Crème de pois chiches & coco", price_cents: 1200, description: "Poitrine de porc croustillante, salade d'agrumes, pickles." },
+                    { name: "Crème de pois chiches & coco", price_cents: 1200, description: "Poitrine de porc croustillante, salade d’agrumes, pickles." },
                     { name: "Nems de Saucisse Moto", price_cents: 1400, description: "Crème au bleu, salade croquante, pickles maison." },
                     { name: "Ceviche de bar au calamansi", price_cents: 1600 },
                     { name: "Carpaccio de bœuf façon Shabu-Shabu", price_cents: 1500 }
@@ -59,8 +59,8 @@ export const confluence: SurgicalPlace = {
                 items: [
                     { name: "Cabillaud Tom Cakod", price_cents: 2400, description: "Lait de coco, galanga, riz gluant, emulsion coco." },
                     { name: "Noix de Saint-Jacques au beurre pistache", price_cents: 2800, description: "Emulsion légumes, tempura de chou-fleur." },
-                    { name: "Côte d'Agneau Shashu", price_cents: 3200, description: "Croûte pistache/herbes, purée patate douce violette." },
-                    { name: "Risotto d'épeautre aux champignons Shiitaké", price_cents: 2200 },
+                    { name: "Côte d’Agneau Shashu", price_cents: 3200, description: "Croûte pistache/herbes, purée patate douce violette." },
+                    { name: "Risotto d’épeautre aux champignons Shiitaké", price_cents: 2200 },
                     { name: "Plat du jour (Midi)", price_cents: 1900 }
                 ]
             },
@@ -83,13 +83,13 @@ export const confluence: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.9,
-    description: "Une prouesse de fusion par le chef Hung Luan Nguyen. Confluence mêle la finesse de la gastronomie française aux saveurs vibrantes de l'Asie (Vietnam, Thaïlande). Le dressage est aussi précis que les goûts sont justes.",
-    insider_tip: "Le Cabillaud Tom Cakod est le plat qui définit le lieu : un équilibre parfait entre l'onctuosité de la coco et le peps du galanga. Réservez une table près de la cuisine pour voir le ballet du chef.",
-    expert_catchline: "L'Asie et la France en parfaite harmonie rue de Charonne.",
+    description: "Une prouesse de fusion par le chef Hung Luan Nguyen. Confluence mêle la finesse de la gastronomie française aux saveurs vibrantes de l’Asie (Vietnam, Thaïlande). Le dressage est aussi précis que les goûts sont justes.",
+    insider_tip: "Le Cabillaud Tom Cakod est le plat qui définit le lieu : un équilibre parfait entre l’onctuosité de la coco et le peps du galanga. Réservez une table près de la cuisine pour voir le ballet du chef.",
+    expert_catchline: "L’Asie et la France en parfaite harmonie rue de Charonne.",
     specials: {
         cuisine: ["Fusion Franco-Asiatique", "Bistronomie technique", "Dressages artistiques"],
         drinks: ["Sélection de vins nature", "Thés asiatiques premium"],
-        must_eat: "Le Cabillaud Tom Cakod à l'émulsion de coco.",
+        must_eat: "Le Cabillaud Tom Cakod à l’émulsion de coco.",
         must_drink: "Un vin blanc minéral de la Loire pour accompagner les Saint-Jacques."
     }
 };

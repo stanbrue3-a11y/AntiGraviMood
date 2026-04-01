@@ -5,7 +5,7 @@ export const dersou: SurgicalPlace = {
     name: "Dersou",
     slug: "dersou",
     category: "restaurant",
-    subcategory: ["Bistronomique", "Fusion", "Cocktail Pairing", "Vins Natures"],
+    subcategory: ['français'],
     location: {
         address: "21 Rue de la Forge Royale, 75011 Paris",
         arrondissement: 11,
@@ -31,8 +31,8 @@ export const dersou: SurgicalPlace = {
                 category_type: "tasting_menu",
                 display_label: "Menus Dégustation & Lunch",
                 items: [
-                    { name: "Menu Dîner 6 étapes", price_cents: 9500, description: "L'expérience signature du chef avec pairing cocktail." },
-                    { name: "Menu Dîner 7 étapes", price_cents: 11000, description: "L'immersion totale, service prolongé." },
+                    { name: "Menu Dîner 6 étapes", price_cents: 9500, description: "L’expérience signature du chef avec pairing cocktail." },
+                    { name: "Menu Dîner 7 étapes", price_cents: 11000, description: "L’immersion totale, service prolongé." },
                     { name: "Lunch Menu (3 étapes)", price_cents: 2800, description: "Servi en semaine, retour de marché." },
                     { name: "Lunch Menu (5 étapes)", price_cents: 4500, description: "La version gastronomique du déjeuner." },
                     { name: "Accord Cocktails (6 verres)", price_cents: 4000 }
@@ -42,7 +42,7 @@ export const dersou: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Petites Assiettes (Lunch / A la Carte)",
                 items: [
-                    { name: "Huître d'Arcachon N2, crème crue & citron", price_cents: 350 },
+                    { name: "Huître d’Arcachon N2, crème crue & citron", price_cents: 350 },
                     { name: "Sardines de Bolinche marinées, brioche", price_cents: 850 },
                     { name: "Pommes Dauphine au Brillat Savarin", price_cents: 750 },
                     { name: "Tartelette aux Chanterelles & ail des ours", price_cents: 1500 },
@@ -106,9 +106,9 @@ export const dersou: SurgicalPlace = {
             label: "RÉSERVER"
         }
     },
-    description: "Dersou est un ovni gastronomique situé entre Bastille et Charonne. Pionnier du pairing 'plat-cocktail', le restaurant propose une cuisine d'auteur brute et sophistiquée, où les influences asiatiques et européennes s'entrechoquent avec brio. Le décor industriel avec ses murs grattés et son grand comptoir en métal entoure une cuisine ouverte bouillonnante d'énergie.",
-    expert_catchline: "L'art du pairing fusion : une cuisine d'auteur percutante accompagnée de cocktails haute couture.",
-    insider_tip: "• L'expérience complète se vit au dîner avec le menu dégustation et l'accord cocktail : c'est l'essence même du lieu.\n• Le midi, la carte plus accessible permet de goûter à la précision du chef sans se ruiner.\n• Installez-vous au comptoir pour voir la brigade à l'œuvre et échanger avec les barmans sur les créations du moment.\n• La sélection de vins naturels est également très pointue pour ceux qui boudent les cocktails.",
+    description: "Dersou est un ovni gastronomique situé entre Bastille et Charonne. Pionnier du pairing ’plat-cocktail’, le restaurant propose une cuisine d’auteur brute et sophistiquée, où les influences asiatiques et européennes s’entrechoquent avec brio. Le décor industriel avec ses murs grattés et son grand comptoir en métal entoure une cuisine ouverte bouillonnante d’énergie.",
+    expert_catchline: "L’art du pairing fusion : une cuisine d'auteur percutante accompagnée de cocktails haute couture.",
+    insider_tip: "• L’expérience complète se vit au dîner avec le menu dégustation et l’accord cocktail : c’est l’essence même du lieu.\n• Le midi, la carte plus accessible permet de goûter à la précision du chef sans se ruiner.\n• Installez-vous au comptoir pour voir la brigade à l’œuvre et échanger avec les barmans sur les créations du moment.\n• La sélection de vins naturels est également très pointue pour ceux qui boudent les cocktails.",
     specials: {
         cuisine: ["Fusion", "Bistronomique", "Sashimi Sériole"],
         drinks: ["Cocktails Signature", "Vins Natures", "Pairing Alcoolisé"],

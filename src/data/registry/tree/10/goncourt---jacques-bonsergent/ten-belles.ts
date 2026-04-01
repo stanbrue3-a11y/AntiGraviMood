@@ -42,7 +42,7 @@ export const ten_belles: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Pionnier de la vague 'coffee shop' à l'anglo-saxonne à Paris, Ten Belles est un petit nid en mezzanine près du Canal Saint-Martin. On y boit un café de spécialité torréfié par leurs soins (Belleville Brûlerie) qui est sans doute l'un des meilleurs de la capitale. Les pâtisseries (scones, cookies, sausage rolls) sont à tomber. C'est souvent plein, on s'assoit sur des petits tabourets ou on prend son café à emporter pour aller se promener le long du canal juste à côté.",
+    "description": "Pionnier de la vague ’coffee shop’ à l’anglo-saxonne à Paris, Ten Belles est un petit nid en mezzanine près du Canal Saint-Martin. On y boit un café de spécialité torréfié par leurs soins (Belleville Brûlerie) qui est sans doute l’un des meilleurs de la capitale. Les pâtisseries (scones, cookies, sausage rolls) sont à tomber. C’est souvent plein, on s'assoit sur des petits tabourets ou on prend son café à emporter pour aller se promener le long du canal juste à côté.",
     "insider_tip": "Pionnier du coffee shop parisien. Le Sausage Roll est top.",
     "specials": {
         "cuisine": [],

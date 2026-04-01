@@ -5,7 +5,7 @@ export const la_buvette: SurgicalPlace = {
     name: "La Buvette",
     slug: "la-buvette",
     category: "restaurant",
-    subcategory: ["cave à manger", "bar à vins", "petites assiettes", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "67 Rue Saint-Maur",
         arrondissement: 11,
@@ -49,7 +49,7 @@ export const la_buvette: SurgicalPlace = {
                     { name: "Amandes fumées", price_cents: 400 },
                     { name: "Beurre bordier & pain au levain", price_cents: 600 },
                     { name: "Pickled Eggs (Œufs marinés)", price_cents: 450 },
-                    { name: "Sardines à l'huile", price_cents: 800 }
+                    { name: "Sardines à l’huile", price_cents: 800 }
                 ]
             },
             {
@@ -57,13 +57,13 @@ export const la_buvette: SurgicalPlace = {
                 display_label: "Assiettes Signature (10€ - 18€)",
                 items: [
                     // VERIFIED: Source 2024-2025 menus
-                    { name: "Haricots blancs, huile d'olive & zeste d'orange", price_cents: 1200, description: "Le plat culte de Camille." },
+                    { name: "Haricots blancs, huile d’olive & zeste d'orange", price_cents: 1200, description: "Le plat culte de Camille." },
                     { name: "Burrata des Pouilles, huile de basilic", price_cents: 1600 },
                     { name: "Terrine de foies de volaille maison", price_cents: 1500 },
                     { name: "Andouille au lard de Vire", price_cents: 1400 },
-                    { name: "Jambon blanc à l'os", price_cents: 1300 },
+                    { name: "Jambon blanc à l’os", price_cents: 1300 },
                     { name: "Bresaola & roquette", price_cents: 1600 },
-                    { name: "Rillettes d'oie", price_cents: 1400 },
+                    { name: "Rillettes d’oie", price_cents: 1400 },
                     { name: "Tomme aux orties", price_cents: 1200 },
                     { name: "Comté 24 mois affiné", price_cents: 1400 },
                     { name: "Chèvre frais & miel", price_cents: 1100 }
@@ -81,13 +81,13 @@ export const la_buvette: SurgicalPlace = {
     instagram_handle: "labuvetteparis",
     verified: true,
     google_rating: 4.4,
-    description: "Une des caves à manger les plus iconiques et puristes de Paris. Camille Fourmont a créé dans ce mouchoir de poche le spot idéal pour écluser des vins natures impeccables accompagnés de grignotis faussement simples mais foudroyants : les fameux haricots blancs zestés à l'orange sont un classique de la gastronomie de comptoir parisienne.",
-    insider_tip: "• C'est tout petit et ils ne prennent aucune réservation : venez dès l'ouverture à 17h ou préparez-vous à boire debout le temps qu'une table se libère.\n• Ferme tôt (22h00) tous les soirs, c'est l'endroit parfait pour un apéro puissant ou un before.\n• Ouvert 7 jours sur 7, ce qui est très rare pour cette qualité.",
-    expert_catchline: "La cave à manger puriste absolue : vins natures impeccables et haricots blancs à l'orange d'anthologie.",
+    description: "Une des caves à manger les plus iconiques et puristes de Paris. Camille Fourmont a créé dans ce mouchoir de poche le spot idéal pour écluser des vins natures impeccables accompagnés de grignotis faussement simples mais foudroyants : les fameux haricots blancs zestés à l’orange sont un classique de la gastronomie de comptoir parisienne.",
+    insider_tip: "• C’est tout petit et ils ne prennent aucune réservation : venez dès l’ouverture à 17h ou préparez-vous à boire debout le temps qu’une table se libère.\n• Ferme tôt (22h00) tous les soirs, c’est l’endroit parfait pour un apéro puissant ou un before.\n• Ouvert 7 jours sur 7, ce qui est très rare pour cette qualité.",
+    expert_catchline: "La cave à manger puriste absolue : vins natures impeccables et haricots blancs à l’orange d'anthologie.",
     specials: {
-        cuisine: ["Haricots blancs zeste d'orange", "Andouille au lard", "Tomme aux orties"],
+        cuisine: ["Haricots blancs zeste d’orange", "Andouille au lard", "Tomme aux orties"],
         drinks: ["100% Vins natures", "Cidres brut"],
-        must_eat: "Vous êtes obligé de commander leur petite assiette star : les gros haricots blancs à l'huile d'olive et zeste d'orange (12€). L'incarnation du 'less is more'.",
-        must_drink: "Allez pointer le doigt directement sur une belle quille nature posée sur l'étagère et laissez Camille ou son équipe vous la raconter."
+        must_eat: "Vous êtes obligé de commander leur petite assiette star : les gros haricots blancs à l’huile d’olive et zeste d’orange (12€). L’incarnation du ’less is more'.",
+        must_drink: "Allez pointer le doigt directement sur une belle quille nature posée sur l’étagère et laissez Camille ou son équipe vous la raconter."
     }
 };

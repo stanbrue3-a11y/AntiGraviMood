@@ -5,7 +5,7 @@ export const le_select: SurgicalPlace = {
     name: "Le Select",
     slug: "le-select-montparnasse",
     category: "restaurant",
-    subcategory: ["brasserie", "historique", "institution", "parisien", "cafe", "terrasse"],
+    subcategory: ['français', 'terrasse'],
     location: {
         address: "99 Boulevard du Montparnasse, 75006 Paris, France",
         arrondissement: 14,
@@ -47,7 +47,7 @@ export const le_select: SurgicalPlace = {
                     { name: "Andouillette 5A à la Chablisienne", price_cents: 2250 },
                     { name: "Onglet de Boeuf Sauce Poivre", price_cents: 2800 },
                     { name: "Pavé de Saumon, Sauce Béarnaise", price_cents: 2100 },
-                    { name: "Filet de Bar à l'Huile d'Olive", price_cents: 2800 },
+                    { name: "Filet de Bar à l’Huile d'Olive", price_cents: 2800 },
                     { name: "Magret de Canard, Sauce Périgourdine", price_cents: 2900 },
                     { name: "Risotto aux Champignons des bois", price_cents: 1950 },
                     { name: "Salade César au Poulet Fermier", price_cents: 1850 }
@@ -61,7 +61,7 @@ export const le_select: SurgicalPlace = {
                     { name: "Escargots de Bourgogne de chez Metzger", price_cents: 1450 },
                     { name: "Saumon Fumé & Blinis Maison", price_cents: 1800 },
                     { name: "Foie Gras de Canard, Toasts Chauds", price_cents: 1950 },
-                    { name: "Harengs Pommes à l'Huile", price_cents: 1200 },
+                    { name: "Harengs Pommes à l’Huile", price_cents: 1200 },
                     { name: "Tataki de Thon et Saumon", price_cents: 1600 },
                     { name: "Assiette de Planche de Charcuterie Conquet", price_cents: 1730 }
                 ]
@@ -87,13 +87,13 @@ export const le_select: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.1,
-    description: "Le Select est la dernière grande brasserie de Montparnasse à avoir conservé son âme et son décor d'origine, sans succomber aux sirènes de la modernisation à outrance. Inauguré en 1923, il fut le refuge de la 'Lost Generation' : Henry Miller, Ernest Hemingway et Morley Callaghan y avaient leurs habitudes. Sous ses éclairages tamisés et son plafond patiné par les années, l'atmosphère y est restée intellectuelle, artistique et profondément parisienne. Que ce soit pour un café matinal, un déjeuner de brasserie classique ou un dernier verre à deux heures du matin, Le Select incarne cette permanence du Montparnasse éternel.",
-    insider_tip: "Ne cherchez pas à réserver le soir, l'établissement cultive une liberté rare à Paris. Le chocolat chaud est l'un des plus onctueux du quartier, parfait pour une pause après-midi. Les soirs de week-end, l'ambiance y est particulièrement vibrante jusqu'au petit matin.",
+    description: "Le Select est la dernière grande brasserie de Montparnasse à avoir conservé son âme et son décor d’origine, sans succomber aux sirènes de la modernisation à outrance. Inauguré en 1923, il fut le refuge de la ’Lost Generation’ : Henry Miller, Ernest Hemingway et Morley Callaghan y avaient leurs habitudes. Sous ses éclairages tamisés et son plafond patiné par les années, l'atmosphère y est restée intellectuelle, artistique et profondément parisienne. Que ce soit pour un café matinal, un déjeuner de brasserie classique ou un dernier verre à deux heures du matin, Le Select incarne cette permanence du Montparnasse éternel.",
+    insider_tip: "Ne cherchez pas à réserver le soir, l’établissement cultive une liberté rare à Paris. Le chocolat chaud est l’un des plus onctueux du quartier, parfait pour une pause après-midi. Les soirs de week-end, l’ambiance y est particulièrement vibrante jusqu'au petit matin.",
     expert_catchline: "Le dernier temple authentique de la Lost Generation à Montparnasse.",
     specials: {
         cuisine: ["Brasserie Traditionnelle", "Viandes de Qualité"],
         drinks: ["Cocktails Classiques", "Vins de Vignerons"],
-        must_eat: "L'Oeuf Mayo et le Confit de Canard.",
+        must_eat: "L’Oeuf Mayo et le Confit de Canard.",
         must_drink: "Un café creme ou un cocktail au bar en zinc."
     }
 };

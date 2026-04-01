@@ -5,7 +5,7 @@ export const lassiette: SurgicalPlace = {
     name: "L’Assiette",
     slug: "l-assiette-paris-14",
     category: "restaurant",
-    subcategory: ["institution", "bistronomie", "terroir", "traditionnel", "gastronomique"],
+    subcategory: ['français', 'bistronomie'],
     location: {
         address: "181 Rue du Château, 75014 Paris, France",
         arrondissement: 14,
@@ -42,13 +42,13 @@ export const lassiette: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Les Incontournables de David Rathgeber",
                 items: [
-                    { name: "Cassoulet Artisanal de L'Assiette", price_cents: 3800, description: "Confit de canard, saucisse de Toulouse, couenne et haricots lingots." },
+                    { name: "Cassoulet Artisanal de L’Assiette", price_cents: 3800, description: "Confit de canard, saucisse de Toulouse, couenne et haricots lingots." },
                     { name: "Ris de Veau Doré au Sutoir", price_cents: 5200 },
                     { name: "Andouillette AAAAA de chez Duval", price_cents: 3200 },
                     { name: "Parmentier de Queue de Boeuf", price_cents: 3400 },
                     { name: "Poitrine de Cochon Fondante", price_cents: 2900 },
                     { name: "Dos de Cabillaud Cuisson Basse Température", price_cents: 3600 },
-                    { name: "Épaule d'Agneau de Lait (pour 2)", price_cents: 9500 }
+                    { name: "Épaule d’Agneau de Lait (pour 2)", price_cents: 9500 }
                 ]
             },
             {
@@ -84,12 +84,12 @@ export const lassiette: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "L'Assiette est une institution mythique de la rue du Château, où David Rathgeber (ancien d'Alain Ducasse) perpétue l'excellence d'une cuisine de terroir haute couture. Le décor est celui d'une ancienne charcuterie fine, avec ses plafonds peints et ses miroirs piqués, offrant une atmosphère d'un chic absolu et d'un confort bourgeois. On y vient pour le meilleur Cassoulet de Paris, mais aussi pour des plats canailles élevés au rang d'oeuvres d'art. C'est le rendez-vous des gourmets qui cherchent la vérité du produit et la générosité d'un chef passionné.",
-    insider_tip: "Le cassoulet est la signature qu'il faut avoir goûtée au moins une fois dans sa vie, mais gardez une place pour le Paris-Brest, l'un des plus fins de la capitale. La carte des vins, axée sur les vignerons indépendants, est une merveille.",
-    expert_catchline: "L'excellence du terroir canaille signée David Rathgeber.",
+    description: "L’Assiette est une institution mythique de la rue du Château, où David Rathgeber (ancien d’Alain Ducasse) perpétue l’excellence d’une cuisine de terroir haute couture. Le décor est celui d’une ancienne charcuterie fine, avec ses plafonds peints et ses miroirs piqués, offrant une atmosphère d’un chic absolu et d’un confort bourgeois. On y vient pour le meilleur Cassoulet de Paris, mais aussi pour des plats canailles élevés au rang d’oeuvres d’art. C’est le rendez-vous des gourmets qui cherchent la vérité du produit et la générosité d’un chef passionné.",
+    insider_tip: "Le cassoulet est la signature qu’il faut avoir goûtée au moins une fois dans sa vie, mais gardez une place pour le Paris-Brest, l'un des plus fins de la capitale. La carte des vins, axée sur les vignerons indépendants, est une merveille.",
+    expert_catchline: "L’excellence du terroir canaille signée David Rathgeber.",
     specials: {
         cuisine: ["Bistronomie de Terroir", "Cuisine Bourgeoise"],
-        drinks: ["Grands Vins de Vignerons", "Sélection d'Eau-de-Vie"],
+        drinks: ["Grands Vins de Vignerons", "Sélection d’Eau-de-Vie"],
         must_eat: "Le Cassoulet Maison et le Ris de Veau.",
         must_drink: "Un vin rouge du Sud-Ouest sélectionné par le sommelier."
     },

@@ -5,7 +5,7 @@ export const folderol: SurgicalPlace = {
     name: "Folderol",
     slug: "folderol",
     category: "restaurant", // Category 'restaurant' used for the gauge system even if cave/ice-cream
-    subcategory: ["cave à manger", "glacier", "vins naturels", "bar à vins"],
+    subcategory: ['français'],
     location: {
         address: "10 Rue du Grand Prieuré",
         arrondissement: 11,
@@ -47,7 +47,7 @@ export const folderol: SurgicalPlace = {
                 category_type: "other",
                 display_label: "Glaces & Sorbets (Parfums Ephémères)",
                 items: [
-                    { name: "Boule Simple (To Go)", price_cents: 450, description: "L'unité." },
+                    { name: "Boule Simple (To Go)", price_cents: 450, description: "L’unité." },
                     { name: "Boule Simple (Sur Place)", price_cents: 650, description: "Inclut le service en salle." },
                     { name: "Deux Boules (To Go)", price_cents: 800 },
                     { name: "Deux Boules (Sur Place)", price_cents: 1000 },
@@ -82,13 +82,13 @@ export const folderol: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.7,
-    description: "Folderol est le fruit de l'union improbable mais géniale entre un glacier haut de gamme et un bar à vins naturels. Dans ce lieu épuré du 11ème, on vient autant pour une boule de glace aux parfums audacieux (huile d'olive, sésame grillé, sorbet sangria) que pour une bouteille de vin vivant dénichée par des passionnés. Un spot lifestyle incontournable où la gourmandise rencontre l'exigence du sourcing.",
-    insider_tip: "• Les queues peuvent être longues le weekend, venez dès l'ouverture à 16h.\n• Testez absolument les parfums 'savonneux' ou herbacés (Lavande, Basilic) qui sont la signature de la maison.\n• Possibilité d'acheter des gâteaux glacés entiers sur commande.",
-    expert_catchline: "L'alliance parfaite entre glaces artisanales d'exception et vins naturels pointus.",
+    description: "Folderol est le fruit de l’union improbable mais géniale entre un glacier haut de gamme et un bar à vins naturels. Dans ce lieu épuré du 11ème, on vient autant pour une boule de glace aux parfums audacieux (huile d’olive, sésame grillé, sorbet sangria) que pour une bouteille de vin vivant dénichée par des passionnés. Un spot lifestyle incontournable où la gourmandise rencontre l’exigence du sourcing.",
+    insider_tip: "• Les queues peuvent être longues le weekend, venez dès l’ouverture à 16h.\n• Testez absolument les parfums ’savonneux’ ou herbacés (Lavande, Basilic) qui sont la signature de la maison.\n• Possibilité d'acheter des gâteaux glacés entiers sur commande.",
+    expert_catchline: "L’alliance parfaite entre glaces artisanales d'exception et vins naturels pointus.",
     specials: {
-        cuisine: ["Glaces artisanales changeantes", "Sorbet Melon-Basilic", "Glace Huile d'Olive", "Vins Natures"],
+        cuisine: ["Glaces artisanales changeantes", "Sorbet Melon-Basilic", "Glace Huile d’Olive", "Vins Natures"],
         drinks: ["Large sélection de vins vivants", "Cidres artisanaux"],
-        must_eat: "Le sorbet orange sanguine et jasmin, d'une élégance rare.",
+        must_eat: "Le sorbet orange sanguine et jasmin, d’une élégance rare.",
         must_drink: "Un blanc de pays nantais ou un pétillant naturel pour contraster avec le sucre de la glace."
     }
 };

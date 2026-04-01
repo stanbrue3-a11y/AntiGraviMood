@@ -5,7 +5,7 @@ export const sokcho: SurgicalPlace = {
   slug: "sokcho",
   name: "SOKCHO 牛者",
   category: "restaurant",
-  subcategory: ["japonais", "steakhouse", "wagyu", "opéra", "viande-exception"],
+  subcategory: ['japonais', 'français'],
   location: {
     address: "7 Rue Gomboust, 75001 Paris, France",
     arrondissement: 1,
@@ -43,7 +43,7 @@ export const sokcho: SurgicalPlace = {
         items: [
           { name: "Tataki de bœuf Wagyu", price_cents: 1800, description: "Fines tranches saisies, sauce ponzu" },
           { name: "Gyoza au bœuf (x5)", price_cents: 1000 },
-          { name: "Salade d'algues Wakame", price_cents: 700 },
+          { name: "Salade d’algues Wakame", price_cents: 700 },
           { name: "Edamame fleur de sel", price_cents: 600 },
           { name: "Carpaccio de Sériole au Yuzu", price_cents: 1600 },
           { name: "Tartare de Saumon & Avocat", price_cents: 1450 }
@@ -55,7 +55,7 @@ export const sokcho: SurgicalPlace = {
         items: [
           { name: "Faux-filet Wagyu Japonais (100g)", price_cents: 4500, description: "Persillage exceptionnel A4/A5" },
           { name: "Entrecôte Wagyu Australie (200g)", price_cents: 5200 },
-          { name: "Bavette d'aloyau Black Angus", price_cents: 2400 },
+          { name: "Bavette d’aloyau Black Angus", price_cents: 2400 },
           { name: "Magret de canard laqué au Miso", price_cents: 2600 },
           { name: "Filet de Saumon Teriyaki", price_cents: 2200 },
           { name: "Mixed Grill Sokcho (Sélection)", price_cents: 3800 },
@@ -67,7 +67,7 @@ export const sokcho: SurgicalPlace = {
         category_type: "dessert",
         display_label: "Accompagnements & Desserts",
         items: [
-          { name: "Riz sauté à l'ail et ciboulette", price_cents: 650 },
+          { name: "Riz sauté à l’ail et ciboulette", price_cents: 650 },
           { name: "Légumes de saison grillés au Teppan", price_cents: 800 },
           { name: "Purée de pomme de terre au Wasabi", price_cents: 750 },
           { name: "Mochi glacé (x3)", price_cents: 900 },
@@ -77,12 +77,12 @@ export const sokcho: SurgicalPlace = {
       }
     ]
   },
-  description: "À deux pas de l'Opéra, Sokcho revisite le concept du steakhouse avec l'élégance japonaise. Spécialiste du bœuf Wagyu d'exception, le lieu propose une viande fondante grillée avec une précision millimétrée. L'ambiance y est épurée, feutrée, idéale pour un dîner intimiste où la qualité du produit est la seule star. Une adresse précieuse pour les amateurs de viandes persillées.",
-  insider_tip: "• Réservez impérativement le soir, le lieu est très prisé pour ses pièces de Wagyu.\n• Le déjeuner propose des formules Bento plus accessibles qui valent le détour.\n• Ne passez pas à côté du riz sauté à l'ail, c'est l'accompagnement signature qui sublime la viande.",
+  description: "À deux pas de l’Opéra, Sokcho revisite le concept du steakhouse avec l’élégance japonaise. Spécialiste du bœuf Wagyu d’exception, le lieu propose une viande fondante grillée avec une précision millimétrée. L'ambiance y est épurée, feutrée, idéale pour un dîner intimiste où la qualité du produit est la seule star. Une adresse précieuse pour les amateurs de viandes persillées.",
+  insider_tip: "• Réservez impérativement le soir, le lieu est très prisé pour ses pièces de Wagyu.\n• Le déjeuner propose des formules Bento plus accessibles qui valent le détour.\n• Ne passez pas à côté du riz sauté à l’ail, c’est l’accompagnement signature qui sublime la viande.",
   specials: {
     cuisine: ["Japonaise", "Steakhouse", "Wagyu"],
     drinks: ["Saké premium", "Whisky japonais"],
-    must_eat: "Japonais Steakhouse. Faux-filet Wagyu & Riz à l'ail",
+    must_eat: "Japonais Steakhouse. Faux-filet Wagyu & Riz à l’ail",
   },
   images: {
     hero: "AU_ZVEGS0jMDJS6mrf1ESCiqOMCfXMmtF68f8yFwQHVqSMq0ihNogEqoM8b4tRPFL3OB2tgcK10q1hTC-gBHw6xxUUIA-Wi3LsWjykUoPT36ruVfQD6FwaAaJVk37JVciz6Sh4Cy_fw6uILx3uwyudS4Iee-cmJGYDe3IRDhz9ZQcZaija7sQdY4pzEF6-QKxckO1oY9NIV1SPhFvTAviSCTzwYv4qQU-YDar_26oJoVzMrq5FERPIxNTbpWBgf1Squpmv5fmFA77uuVDUzSYjn2erqjL2tlSPELzPN4kDABbnmf8Q",

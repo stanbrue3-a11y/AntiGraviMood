@@ -5,7 +5,7 @@ export const geoelia: SurgicalPlace = {
   slug: "geoelia",
   name: "Geoélia",
   category: "restaurant",
-  subcategory: ["gastronomique", "terroir", "végétal-engagé", "passy"],
+  subcategory: ['français'],
   location: {
     address: "125 Rue de la Tour, 75116 Paris",
     arrondissement: 16,
@@ -43,7 +43,7 @@ export const geoelia: SurgicalPlace = {
         category_type: "tasting_menu",
         display_label: "Les Menus Immersion",
         items: [
-          { name: "Menu en 7 Temps", price_cents: 16000, description: "L'expression totale du terroir par Camille Saint-M'leux", is_highlight: true },
+          { name: "Menu en 7 Temps", price_cents: 16000, description: "L’expression totale du terroir par Camille Saint-M'leux", is_highlight: true },
           { name: "Menu en 5 Temps", price_cents: 12500, description: "Une partition végétale et marine équilibrée" },
           { name: "Menu Déjeuner", price_cents: 6500, description: "3 temps, le meilleur rapport qualité/prix du quartier" }
         ]
@@ -54,14 +54,14 @@ export const geoelia: SurgicalPlace = {
         items: [
           { name: "Poireau de Sable au Charbon", price_cents: 0, description: "Textures fumées, praliné noisette sauvage" },
           { name: "Betterave Crapaudine Salée", price_cents: 0, description: "Croûte de sel, réglisse et herbes potagères", is_highlight: true },
-          { name: "Omble Chevalier de Rivière", price_cents: 0, description: "Cuit au foin, émulsion légère d'oseille" },
-          { name: "Volaille de la Cour d'Armoise", price_cents: 0, description: "Le suprême rôti, jus corsé à l'origan" },
+          { name: "Omble Chevalier de Rivière", price_cents: 0, description: "Cuit au foin, émulsion légère d’oseille" },
+          { name: "Volaille de la Cour d’Armoise", price_cents: 0, description: "Le suprême rôti, jus corsé à l’origan" },
           { name: "Agneau de Lait des Pyrénées", price_cents: 0, description: "Épaule confite 24h, ail des ours et navets boulangère" },
           { name: "Champignon de Paris en textures", price_cents: 0, description: "Cru, torréfié, en bouillon et en mousse" },
           { name: "Carotte de chez mon Maraîcher", price_cents: 0, description: "Terreuse, gingembre et fanes frites" },
           { name: "Bar Sauvage de Petite Pêche", price_cents: 0, description: "Saisi à la nacre, beurre de ciboule" },
           { name: "Sourdough Maison & Beurre baratté", price_cents: 0, description: "Pain au levain naturel 48h" },
-          { name: "Amuse-Bouche Potager", price_cents: 0, description: "Soupe froide de saison et écume d'herbes" }
+          { name: "Amuse-Bouche Potager", price_cents: 0, description: "Soupe froide de saison et écume d’herbes" }
         ]
       },
       {
@@ -70,7 +70,7 @@ export const geoelia: SurgicalPlace = {
         items: [
           { name: "Chèvre Frais de la Ferme", price_cents: 1800, description: "Herbes folles du jardin et miel de forêt" },
           { name: "Rhubarbe Sureau & Yaourt", price_cents: 0, description: "Fraîcheur acide, sorbet sauvage et meringue", is_highlight: true },
-          { name: "Chocolat Noir & Sarrasin", price_cents: 0, description: "Ganache fumée au bois d'olivier et croustillant breton" },
+          { name: "Chocolat Noir & Sarrasin", price_cents: 0, description: "Ganache fumée au bois d’olivier et croustillant breton" },
           { name: "Poire Confite à la Verveine", price_cents: 0, description: "Jus de poire réduit et amandes fraîches" },
           { name: "Abricot & Thym Citronné", price_cents: 0 },
           { name: "Mignardises de Camille", price_cents: 0, description: "Petits fours du moment" }
@@ -80,8 +80,8 @@ export const geoelia: SurgicalPlace = {
         category_type: "other",
         display_label: "La Sommelerie Engagée",
         items: [
-          { name: "Accord Mets & Vins 'Empreinte'", price_cents: 8500, description: "Vignerons indépendants et bio" },
-          { name: "Accord 'Botannique' (Sans alcool)", price_cents: 6500, description: "Infusions d'herbes et eaux aromatisées" },
+          { name: "Accord Mets & Vins ’Empreinte'", price_cents: 8500, description: "Vignerons indépendants et bio" },
+          { name: "Accord ’Botannique' (Sans alcool)", price_cents: 6500, description: "Infusions d’herbes et eaux aromatisées" },
           { name: "Coupe de Champagne Extra-Brut", price_cents: 2400 },
           { name: "Verre de Muscadet Granit", price_cents: 1400 },
           { name: "Bouteille de Morgon Nature", price_cents: 7200 },
@@ -92,9 +92,9 @@ export const geoelia: SurgicalPlace = {
       }
     ]
   },
-  description: "Geoélia est la révélation étoilée de Camille Saint-M'leux, nichée dans le calme de la rue de la Tour. Le chef y prône une gastronomie de terroir ultra-précise, où le végétal s'élève au rang de pièce maîtresse. Chaque plat est un hommage vibrant aux petits producteurs, sublimé par une technique minimaliste et audacieuse. Dans un cadre épuré, aux tons naturels et à l'acoustique travaillée, Geoélia offre une parenthèse zen et précieuse où la sincérité culinaire est la seule règle.",
-  expert_catchline: "La poésie brute du terroir à la table étoilée de Camille Saint-M'leux.",
-  insider_tip: "Ne faites pas l'impasse sur la Betterave Crapaudine, c'est elle qui a fait la réputation du chef. Le menu déjeuner est une pépite à 65€ pour s'initier à la haute gastronomie engagée.",
+  description: "Geoélia est la révélation étoilée de Camille Saint-M’leux, nichée dans le calme de la rue de la Tour. Le chef y prône une gastronomie de terroir ultra-précise, où le végétal s’élève au rang de pièce maîtresse. Chaque plat est un hommage vibrant aux petits producteurs, sublimé par une technique minimaliste et audacieuse. Dans un cadre épuré, aux tons naturels et à l’acoustique travaillée, Geoélia offre une parenthèse zen et précieuse où la sincérité culinaire est la seule règle.",
+  expert_catchline: "La poésie brute du terroir à la table étoilée de Camille Saint-M’leux.",
+  insider_tip: "Ne faites pas l’impasse sur la Betterave Crapaudine, c’est elle qui a fait la réputation du chef. Le menu déjeuner est une pépite à 65€ pour s’initier à la haute gastronomie engagée.",
   specials: {
     cuisine: ["Gastronomique Terroir", "Moderne"],
     drinks: ["Vins Nature", "Accords Botanniques"],
@@ -113,9 +113,9 @@ export const geoelia: SurgicalPlace = {
   michelin_stars: 1,
   instagram_handle: "geoelia_paris",
   real_talk: {
-    text: "Un lieu qui apaise instantanément. Camille n'est pas là pour épater mais pour nourrir l'esprit avec les meilleurs produits du terroir. C'est brillant, technique et d'une sincérité désarmante.",
+    text: "Un lieu qui apaise instantanément. Camille n’est pas là pour épater mais pour nourrir l’esprit avec les meilleurs produits du terroir. C’est brillant, technique et d'une sincérité désarmante.",
     must_eat: "Cuisine Terroir. Betterave Crapaudine.",
-    le_secret: "L'infusion de fin de repas réalisée avec les herbes sourcées chez les mêmes maraîchers que pour les plats.",
+    le_secret: "L’infusion de fin de repas réalisée avec les herbes sourcées chez les mêmes maraîchers que pour les plats.",
     le_son: "Un silence élégant et feutré, propice à la confidence.",
     le_must: "Dîner face à la baie vitrée pour profiter de la douceur du quartier Passy."
   }

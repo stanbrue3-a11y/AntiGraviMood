@@ -6,7 +6,7 @@ export const maison_de_victor_hugo: SurgicalPlace = {
     "slug": "maison-de-victor-hugo",
     "category": "museum",
     "subcategory": [
-        "maison d'écrivain"
+        "maison d’écrivain"
     ],
     "verified": true,
     "google_rating": 4.5,
@@ -39,8 +39,8 @@ export const maison_de_victor_hugo: SurgicalPlace = {
         "festif": 4,
         "culturel": 25
     },
-    "description": "Situé sur la mythique Place des Vosges, l'appartement où vécut Victor Hugo est un sanctuaire de l'histoire littéraire française. On y découvre l'intimité de l'auteur de 'Misérables', de ses meubles sculptés par lui-même à sa célèbre table de travail. L'atmosphère est chargée d'une poésie romantique, offrant une vue imprenable sur l'une des places les plus harmonieuses du monde. Un voyage émouvant dans l'esprit d'un génie.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "Situé sur la mythique Place des Vosges, l’appartement où vécut Victor Hugo est un sanctuaire de l’histoire littéraire française. On y découvre l’intimité de l’auteur de ’Misérables’, de ses meubles sculptés par lui-même à sa célèbre table de travail. L’atmosphère est chargée d’une poésie romantique, offrant une vue imprenable sur l’une des places les plus harmonieuses du monde. Un voyage émouvant dans l’esprit d’un génie.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

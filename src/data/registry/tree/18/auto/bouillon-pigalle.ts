@@ -5,7 +5,7 @@ export const bouillon_pigalle: SurgicalPlace = {
   slug: "bouillon-pigalle",
   name: "Bouillon Pigalle",
   category: "restaurant",
-  subcategory: ["français", "bouillon", "traditionnel", "populaire", "brasserie"],
+  subcategory: ['français'],
   location: {
     address: "22 Bd de Clichy, 75018 Paris, France",
     arrondissement: 18,
@@ -43,14 +43,14 @@ export const bouillon_pigalle: SurgicalPlace = {
         category_type: "starter",
         display_label: "Entrées Populaire",
         items: [
-        { name: "Œuf Mayonnaise (Champion du Monde)", price_cents: 250, description: "L'incontournable classique parfaitement exécuté" },
+        { name: "Œuf Mayonnaise (Champion du Monde)", price_cents: 250, description: "L’incontournable classique parfaitement exécuté" },
         { name: "Poireaux Vinaigrette & Noisettes", price_cents: 340 },
         { name: "Os à Moelle Grillé", price_cents: 450, description: "Gros sel et pain de campagne" },
         { name: "Céleri Rémoulade Muscadet", price_cents: 280 },
-        { name: "Sardines à l'Huile & Beurre", price_cents: 480 },
+        { name: "Sardines à l’Huile & Beurre", price_cents: 480 },
         { name: "Terrine de Campagne Maison", price_cents: 420 },
         { name: "Bulots et Mayonnaise Maison", price_cents: 650 },
-        { name: "Soupe à l'Oignon Gratinée", price_cents: 390 }
+        { name: "Soupe à l’Oignon Gratinée", price_cents: 390 }
       ]},
       {
         category_type: "main",
@@ -58,7 +58,7 @@ export const bouillon_pigalle: SurgicalPlace = {
         items: [
         { name: "Saucisse au Couteau & Purée", price_cents: 960, description: "Véritable purée maison au beurre, jus de viande" },
         { name: "Petit-salé aux Lentilles", price_cents: 1180 },
-        { name: "Blanquette de Veau à l'Ancienne", price_cents: 1250 },
+        { name: "Blanquette de Veau à l’Ancienne", price_cents: 1250 },
         { name: "Confit de Canard & Pommes Sarladaises", price_cents: 1350 },
         { name: "Steak Frites Sauce Poivre", price_cents: 1280 },
         { name: "Brandade de Morue Gratinée", price_cents: 1050 },
@@ -78,12 +78,12 @@ export const bouillon_pigalle: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Le renouveau du bouillon parisien à Pigalle. Une immense brasserie démocratique où l'on savoure les classiques de la cuisine bourgeoise (œuf mayo, saucisse-purée, profiterole) à des prix imbattables. Un lieu vibrant, bruyant et convivial qui capture l'énergie du quartier.",
-  insider_tip: "• **Stratégie d'Attente** : Le lieu ne prend pas de résa et la file peut impressionner. Venez à 11h45 ou vers 14h30 pour un passage quasi immédiat.\n• **Expérience Terrasse** : Demandez impérativement l'étage pour profiter de la terrasse chauffée qui surplombe le boulevard de Clichy.\n• **Combo Satiété** : L’œuf mayo à 2.50€ est obligatoire. Enchaînez avec la saucisse-purée (légendaire) pour l'unité de mesure 'Moelle' ultime.",
+  description: "Le renouveau du bouillon parisien à Pigalle. Une immense brasserie démocratique où l’on savoure les classiques de la cuisine bourgeoise (œuf mayo, saucisse-purée, profiterole) à des prix imbattables. Un lieu vibrant, bruyant et convivial qui capture l'énergie du quartier.",
+  insider_tip: "• **Stratégie d’Attente** : Le lieu ne prend pas de résa et la file peut impressionner. Venez à 11h45 ou vers 14h30 pour un passage quasi immédiat.\n• **Expérience Terrasse** : Demandez impérativement l’étage pour profiter de la terrasse chauffée qui surplombe le boulevard de Clichy.\n• **Combo Satiété** : L’œuf mayo à 2.50€ est obligatoire. Enchaînez avec la saucisse-purée (légendaire) pour l’unité de mesure ’Moelle’ ultime.",
   specials: {
     cuisine: ["Française", "Bouillon", "Populaire"],
     drinks: ["Vins au pichet", "Bières à la pression"],
-    must_eat: "Cuisine française. L'œuf mayo champion du monde & Saucisse au couteau purée",
+    must_eat: "Cuisine française. L’œuf mayo champion du monde & Saucisse au couteau purée",
   },
   images: {
     hero: "AU_ZVEGe9bDqiNtjwcAquWAZV0kCqJrPJCMavbVwcJeVvMnJjWl24QVC6rnVyb3uqtPu-CZ0M4saWgD71YvztXemkbcxveUguzzpSZCYgeh2exritetm-10fLjNki-FiXpy-dNWheL7p-zDS7oz61eZXq34ohlkHfqurPfzQsh9_GbcU2B-k12cP8i8bipWnJqBH--hrYTFzSQfuosBnUkuvDVX0IB-YRvgXwuSNYhoMvtG7vf_r5CkAU8RgaKlJbRQEdEAPzhqyZ0F77gzhiOHZLPHkCz5c6Bj6wz17itb4puNr9w",

@@ -39,7 +39,7 @@ export const petit_palais: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Construit pour l'Exposition Universelle de 1900 face au Grand Palais, le Petit Palais est un bijou d'architecture Beaux-Arts. Sa collection permanente (gratuite !) est riche, mais c'est son jardin intérieur qui est une merveille cachée : un péristyle en demi-cercle entourant un bassin et des palmiers, avec un café mosaïqué où l'on se croirait à Rome ou à Nice.",
+    "description": "Construit pour l’Exposition Universelle de 1900 face au Grand Palais, le Petit Palais est un bijou d’architecture Beaux-Arts. Sa collection permanente (gratuite !) est riche, mais c’est son jardin intérieur qui est une merveille cachée : un péristyle en demi-cercle entourant un bassin et des palmiers, avec un café mosaïqué où l'on se croirait à Rome ou à Nice.",
     "insider_tip": "Le jardin intérieur est un havre de paix pour prendre un café.",
     "specials": {
         "cuisine": [],

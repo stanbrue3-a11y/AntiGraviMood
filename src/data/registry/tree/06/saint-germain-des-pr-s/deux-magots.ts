@@ -40,8 +40,8 @@ export const deux_magots: SurgicalPlace = {
         "festif": 3.5,
         "culturel": 23.5
     },
-    "description": "L'éternel rival du Flore, juste en face. Son nom vient des deux statues chinoises (les magots) qui trônent dans la salle et observent les clients depuis le XIXe siècle. Verlaine, Rimbaud et plus tard Hemingway y avaient leurs habitudes. La terrasse, orientée plein sud face à l'église Saint-Germain, est l'un des meilleurs spots de Paris pour observer le ballet des passants. L'ambiance y est peut-être un poil plus chic et traditionnelle que son voisin. Le chocolat chaud à l'ancienne y est tout aussi onctueux et riche.",
-    "insider_tip": "Le grand rival du Flore. Terrasse ensoleillée face à l'église.",
+    "description": "L’éternel rival du Flore, juste en face. Son nom vient des deux statues chinoises (les magots) qui trônent dans la salle et observent les clients depuis le XIXe siècle. Verlaine, Rimbaud et plus tard Hemingway y avaient leurs habitudes. La terrasse, orientée plein sud face à l’église Saint-Germain, est l’un des meilleurs spots de Paris pour observer le ballet des passants. L’ambiance y est peut-être un poil plus chic et traditionnelle que son voisin. Le chocolat chaud à l’ancienne y est tout aussi onctueux et riche.",
+    "insider_tip": "Le grand rival du Flore. Terrasse ensoleillée face à l’église.",
     "specials": {
         "cuisine": [
             "Français",
@@ -51,8 +51,8 @@ export const deux_magots: SurgicalPlace = {
             "Café",
             "Vin"
         ],
-        "must_eat": "Le Chocolat Chaud à l'ancienne et la Blanquette de Veau 'Boris Vian'.",
-        "expert_catchline": "L'excellence du service à la française et les grands classiques du café littéraire."
+        "must_eat": "Le Chocolat Chaud à l’ancienne et la Blanquette de Veau ’Boris Vian’.",
+        "expert_catchline": "L’excellence du service à la française et les grands classiques du café littéraire."
     },
     "images": {
         "hero": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Les_Deux_Magots%2C_25_September_2019.jpg",

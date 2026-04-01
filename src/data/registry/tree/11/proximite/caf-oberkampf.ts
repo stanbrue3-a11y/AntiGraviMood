@@ -48,13 +48,13 @@ export const caf_oberkampf: SurgicalPlace = {
                 "category_type": "main",
                 "display_label": "Plats (Brunch)",
                 "items": [
-                    { "name": "Lost in Shakshuka", "price_cents": 1450, "description": "L'incontournable : sauce tomate épicée, œufs pochés, herbes fraîches, pita." },
-                    { "name": "Avocado Toast au Za'atar", "price_cents": 1350 },
+                    { "name": "Lost in Shakshuka", "price_cents": 1450, "description": "L’incontournable : sauce tomate épicée, œufs pochés, herbes fraîches, pita." },
+                    { "name": "Avocado Toast au Za’atar", "price_cents": 1350 },
                     { "name": "Grilled Cheese (Sourdough & Cheddar)", "price_cents": 1200 },
                     { "name": "Halloumi Toast aux herbes", "price_cents": 1350 },
                     { "name": "Soft Scrambled Eggs on Toast", "price_cents": 1100 },
                     { "name": "Granola Maison & Yaourt Grec", "price_cents": 950 },
-                    { "name": "Porridge d'avoine aux fruits de saison", "price_cents": 900 }
+                    { "name": "Porridge d’avoine aux fruits de saison", "price_cents": 900 }
                 ]
             },
             {
@@ -87,14 +87,14 @@ export const caf_oberkampf: SurgicalPlace = {
         "festif": 10,
         "culturel": 30
     },
-    "description": "Petit par la taille mais immense par sa réputation, le Café Oberkampf est le temple du 'Lost in Shakshuka' à Paris. Ce coffee shop de quartier a su s'imposer grâce à une cuisine franche, colorée et des cafés de spécialité sourcés avec soin. L'ambiance est cosmopolite, vibrante et décontractée, idéale pour un réveil en douceur au cœur du 11ème.",
-    "insider_tip": "Le week-end, la file d'attente peut être longue (pas de réservation). Venez à l'ouverture ou en semaine pour savourer votre shakshuka tranquillement au comptoir.",
-    "expert_catchline": "Le coffee shop iconique d'Oberkampf : shakshuka parfaite et vibes cosmopolites.",
+    "description": "Petit par la taille mais immense par sa réputation, le Café Oberkampf est le temple du ’Lost in Shakshuka’ à Paris. Ce coffee shop de quartier a su s’imposer grâce à une cuisine franche, colorée et des cafés de spécialité sourcés avec soin. L'ambiance est cosmopolite, vibrante et décontractée, idéale pour un réveil en douceur au cœur du 11ème.",
+    "insider_tip": "Le week-end, la file d’attente peut être longue (pas de réservation). Venez à l'ouverture ou en semaine pour savourer votre shakshuka tranquillement au comptoir.",
+    "expert_catchline": "Le coffee shop iconique d’Oberkampf : shakshuka parfaite et vibes cosmopolites.",
     "specials": {
         "cuisine": ["Shakshuka", "Avocado Toast", "Specialty Coffee"],
         "drinks": ["Flat White", "Matcha Latte", "Chai Maison"],
         "must_eat": "La Shakshuka, évidemment.",
-        "must_drink": "Leur Flat White est l'un des plus maîtrisés du quartier."
+        "must_drink": "Leur Flat White est l’un des plus maîtrisés du quartier."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`

@@ -5,7 +5,7 @@ export const severo: SurgicalPlace = {
     name: "Le Severo",
     slug: "le-severo-paris-14",
     category: "restaurant",
-    subcategory: ["viandes", "bistrot", "institution", "steakhouse", "vin-nature"],
+    subcategory: ['français'],
     location: {
         address: "8 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -40,14 +40,14 @@ export const severo: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "main",
-                display_label: "L'Art de la Viande (Maturée sur place)",
+                display_label: "L’Art de la Viande (Maturée sur place)",
                 items: [
                     { name: "Faux-Filet de Boeuf (300g)", price_cents: 3800, description: "Maturé 60 jours, servi avec frites maison." },
                     { name: "Pavé de Coeur de Filet", price_cents: 4200 },
                     { name: "Entrecôte Maturée (pour 2, ~800g)", price_cents: 11000 },
-                    { name: "Bavette d'Aloyau, échalotes confites", price_cents: 2800 },
+                    { name: "Bavette d’Aloyau, échalotes confites", price_cents: 2800 },
                     { name: "Steak Tartare au couteau de William", price_cents: 2600 },
-                    { name: "Côte de Boeuf d'Exception (prix au kg)", price_cents: 12000 },
+                    { name: "Côte de Boeuf d’Exception (prix au kg)", price_cents: 12000 },
                     { name: "Pièce du Boucher selon arrivage", price_cents: 3200 }
                 ]
             },
@@ -68,7 +68,7 @@ export const severo: SurgicalPlace = {
                 items: [
                     { name: "Frites Maison (cuites à la graisse de boeuf)", price_cents: 0, description: "Inclus avec la viande." },
                     { name: "Mousse au Chocolat Noir intense", price_cents: 950 },
-                    { name: "Pruneaux à l'Armagnac", price_cents: 1100 },
+                    { name: "Pruneaux à l’Armagnac", price_cents: 1100 },
                     { name: "Saint-Marcellin de la Mère Richard", price_cents: 1200 }
                 ]
             }
@@ -82,12 +82,12 @@ export const severo: SurgicalPlace = {
     },
     verified: true,
     google_rating: 3.9,
-    description: "Le Severo est le temple sacré de la viande maturée à Paris. Tenue par William Bernet, ancien boucher lui-même, cette institution de la rue des Plantes ne plaisante pas avec le produit. Ici, la nappe à carreaux rouges et les murs encombrés de bouteilles de vin de vignerons annoncent la couleur : c'est un bistrot de puristes. Les viandes, de race limousine ou salers, sont maturées avec une précision chirurgicale et cuites à la perfection. Le service est direct, sincère, et s'accorde parfaitement avec des flacons d'exception souvent issus du monde naturel.",
-    insider_tip: "Demandez le tartare, il est préparé par William lui-même et est considéré par beaucoup comme le meilleur de Paris. La carte des vins recèle des pépites naturelles introuvables ailleurs, n'hésitez pas à demander conseil pour un accord puissant avec les viandes maturées.",
+    description: "Le Severo est le temple sacré de la viande maturée à Paris. Tenue par William Bernet, ancien boucher lui-même, cette institution de la rue des Plantes ne plaisante pas avec le produit. Ici, la nappe à carreaux rouges et les murs encombrés de bouteilles de vin de vignerons annoncent la couleur : c’est un bistrot de puristes. Les viandes, de race limousine ou salers, sont maturées avec une précision chirurgicale et cuites à la perfection. Le service est direct, sincère, et s’accorde parfaitement avec des flacons d’exception souvent issus du monde naturel.",
+    insider_tip: "Demandez le tartare, il est préparé par William lui-même et est considéré par beaucoup comme le meilleur de Paris. La carte des vins recèle des pépites naturelles introuvables ailleurs, n’hésitez pas à demander conseil pour un accord puissant avec les viandes maturées.",
     expert_catchline: "Le temple de la viande maturée servie sans artifice.",
     specials: {
         cuisine: ["Viandes de Race", "Bistrot Carnivore"],
-        drinks: ["Vins Naturels d'Exception", "Grands Crus de la Vallée du Rhône"],
+        drinks: ["Vins Naturels d’Exception", "Grands Crus de la Vallée du Rhône"],
         must_eat: "Le Faux-Filet mâturé et les frites à la graisse de boeuf.",
         must_drink: "Un vin rouge puissant sélectionné par William."
     },

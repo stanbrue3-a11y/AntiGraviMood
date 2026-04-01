@@ -38,8 +38,8 @@ export const raspoutine_paris: SurgicalPlace = {
         "festif": 30,
         "culturel": 5
     },
-    "description": "Le Raspoutine est une légende de la nuit slave à Paris. Avec son décor baroque rouge sang, ses broderies russes et son éclairage tamisé, ce club est une institution de l'exclusivité. On y bascule dans une autre dimension dès le pas de la porte : entre cabaret russe historique et clubbing deep house pointu. Une sélection drastique à l'entrée garantit une faune haut de gamme pour des nuits qui ne s arrêtent jamais dans un luxe de velours et de secret.",
-    "insider_tip": "Prévoyez vos bouchons d'oreilles, le sound system ne rigole pas.",
+    "description": "Le Raspoutine est une légende de la nuit slave à Paris. Avec son décor baroque rouge sang, ses broderies russes et son éclairage tamisé, ce club est une institution de l’exclusivité. On y bascule dans une autre dimension dès le pas de la porte : entre cabaret russe historique et clubbing deep house pointu. Une sélection drastique à l'entrée garantit une faune haut de gamme pour des nuits qui ne s arrêtent jamais dans un luxe de velours et de secret.",
+    "insider_tip": "Prévoyez vos bouchons d’oreilles, le sound system ne rigole pas.",
     "specials": {
         "cuisine": [],
         "drinks": []

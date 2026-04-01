@@ -5,7 +5,7 @@ export const chez_mamane: SurgicalPlace = {
   slug: "chez-mamane",
   name: "Chez Mamane",
   category: "restaurant",
-  subcategory: ["maghrébin"],
+  subcategory: ['français'],
   location: {
     address: "27 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,
@@ -88,11 +88,11 @@ export const chez_mamane: SurgicalPlace = {
       },
       {
         category_type: "dessert",
-        display_label: "Douceurs & Boissons d'Orient",
+        display_label: "Douceurs & Boissons d’Orient",
         items: [
           { name: "Pâtisserie Orientale (à la pièce)", price_cents: 350 },
           { name: "Assiette de 3 Pâtisseries", price_cents: 950 },
-          { name: "Salade d'Oranges Cannelle & Fleur d'Oranger", price_cents: 650 },
+          { name: "Salade d’Oranges Cannelle & Fleur d'Oranger", price_cents: 650 },
           { name: "Thé à la Menthe Fraîche (Pot)", price_cents: 450, is_highlight: true },
           { name: "Café à la mode de Constantine", price_cents: 300 },
           { name: "Boulaouane Rouge (75cl)", price_cents: 1900 },
@@ -102,10 +102,10 @@ export const chez_mamane: SurgicalPlace = {
       }
     ]
   },
-  description: "Chez Mamane est l'âme maghrébine de la Butte-aux-Cailles depuis des décennies. Dans ce petit restaurant aux murs chargés d'histoire et au mobilier dépareillé, on vient chercher la chaleur d'un accueil maternel et le réconfort d'un couscous d'une générosité sans égale. La semoule y est travaillée avec une finesse rare, et le bouillon, parfumé sans être agressif, témoigne d'un savoir-faire familial transmis avec passion. C'est l'un des rares endroits de la Butte où le temps semble s'être arrêté, pour le plus grand bonheur des habitués du quartier qui s'y pressent chaque soir.",
+  description: "Chez Mamane est l’âme maghrébine de la Butte-aux-Cailles depuis des décennies. Dans ce petit restaurant aux murs chargés d’histoire et au mobilier dépareillé, on vient chercher la chaleur d’un accueil maternel et le réconfort d’un couscous d’une générosité sans égale. La semoule y est travaillée avec une finesse rare, et le bouillon, parfumé sans être agressif, témoigne d’un savoir-faire familial transmis avec passion. C’est l’un des rares endroits de la Butte où le temps semble s’être arrêté, pour le plus grand bonheur des habitués du quartier qui s'y pressent chaque soir.",
   insider_tip: `• **Le Rite du Royal** : Si vous avez une faim de loup, le Couscous Royal est imbattable. Les viandes sont cuites séparément pour respecter chaque texture, un luxe rare à ce prix.
-  • **Le Secret de la Chorba** : Mamane prépare sa Chorba tous les matins. C'est l'entrée parfaite, surtout en hiver, pour réchauffer le corps et l'esprit avant le plat principal.
-  • **Ambiance Nocturne** : Le restaurant reste ouvert tard (jusqu'à 2h-3h le week-end). C'est le lieu idéal pour une fin de soirée gourmande et conviviale après un tour dans les bars voisins.`,
+  • **Le Secret de la Chorba** : Mamane prépare sa Chorba tous les matins. C’est l'entrée parfaite, surtout en hiver, pour réchauffer le corps et l'esprit avant le plat principal.
+  • **Ambiance Nocturne** : Le restaurant reste ouvert tard (jusqu’à 2h-3h le week-end). C'est le lieu idéal pour une fin de soirée gourmande et conviviale après un tour dans les bars voisins.`,
   specials: {
     cuisine: ["Algérienne", "Marocaine"],
     drinks: ["Thé à la Menthe", "Boulaouane", "Guerrouane"],

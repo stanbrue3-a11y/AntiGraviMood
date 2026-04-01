@@ -82,9 +82,9 @@ export const badaboum: SurgicalPlace = {
         "festif": 95,
         "culturel": 40
     },
-    "description": "Temple de la nuit Bastillaise, le Badaboum réussit le pari de concilier une salle de concert pointue, un club électronique de référence et un bar à cocktails sophistiqué. Son 'Appartement' caché à l'étage offre une parenthèse feutrée et intimiste au-dessus du tumulte de la piste de danse. C'est le lieu parfait pour découvrir les futurs talents de la scène indie avant de finir la nuit sur des rythmes house ou disco.",
-    "insider_tip": "L'entrée au club est souvent moins chère (ou gratuite) avant minuit sur certaines soirées. Surveillez leur Instagram. Le cocktail bar à l'étage est un refuge idéal quand le club devient trop intense.",
-    "expert_catchline": "Le triptyque magique de Bastille : Concert, Club & Cocktail Bar d'exception.",
+    "description": "Temple de la nuit Bastillaise, le Badaboum réussit le pari de concilier une salle de concert pointue, un club électronique de référence et un bar à cocktails sophistiqué. Son ’Appartement’ caché à l’étage offre une parenthèse feutrée et intimiste au-dessus du tumulte de la piste de danse. C'est le lieu parfait pour découvrir les futurs talents de la scène indie avant de finir la nuit sur des rythmes house ou disco.",
+    "insider_tip": "L’entrée au club est souvent moins chère (ou gratuite) avant minuit sur certaines soirées. Surveillez leur Instagram. Le cocktail bar à l'étage est un refuge idéal quand le club devient trop intense.",
+    "expert_catchline": "Le triptyque magique de Bastille : Concert, Club & Cocktail Bar d’exception.",
     "specials": {
         "cuisine": ["Planches", "Street Food"],
         "drinks": ["Craft Beer", "Cocktails Signature"],

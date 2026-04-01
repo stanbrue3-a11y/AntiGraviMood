@@ -5,7 +5,7 @@ export const orgueil: SurgicalPlace = {
     name: "Orgueil",
     slug: "orgueil",
     category: "restaurant",
-    subcategory: ["gastronomique", "bistronomique", "speakeasy", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "6 Rue Popincourt",
         arrondissement: 11,
@@ -95,13 +95,13 @@ export const orgueil: SurgicalPlace = {
     instagram_handle: "orgueil.paris",
     verified: true,
     google_rating: 4.7,
-    description: "Orgueil (du groupe Bonaloi par le chef Eloi Spinnler) est un restaurant gastronomique hybride : à l'avant, une salle de 'bistro' proposant une carte audacieuse de petites assiettes à partager. À l'arrière, dissimulé derrière les cuisines, un 'speakeasy' ultra-confidentiel proposant un menu dégustation aveugle de (très) haut vol. Un lieu double face avec une philosophie anti-gaspi radicale.",
-    insider_tip: "• Réservez le 'Speakeasy' (74€ en 7 temps) pour une soirée inoubliable caché derrière la cuisine.\n• Côté Bistro : le déjeuner à 22€/27€ est l'une des meilleures affaires du quartier.\n• L'expérience repose sur le zéro déchet : tout est recyclé, fermenté ou twisté dans les recettes.\n• Le menu change tous les trois mois pour coller au plus près des saisons.",
-    expert_catchline: "Bistro zéro déchet à l'avant, speakeasy gastronomique caché à l'arrière : le double jeu d'Orgueil.",
+    description: "Orgueil (du groupe Bonaloi par le chef Eloi Spinnler) est un restaurant gastronomique hybride : à l’avant, une salle de ’bistro’ proposant une carte audacieuse de petites assiettes à partager. À l’arrière, dissimulé derrière les cuisines, un ’speakeasy' ultra-confidentiel proposant un menu dégustation aveugle de (très) haut vol. Un lieu double face avec une philosophie anti-gaspi radicale.",
+    insider_tip: "• Réservez le ’Speakeasy’ (74€ en 7 temps) pour une soirée inoubliable caché derrière la cuisine.\n• Côté Bistro : le déjeuner à 22€/27€ est l’une des meilleures affaires du quartier.\n• L'expérience repose sur le zéro déchet : tout est recyclé, fermenté ou twisté dans les recettes.\n• Le menu change tous les trois mois pour coller au plus près des saisons.",
+    expert_catchline: "Bistro zéro déchet à l’avant, speakeasy gastronomique caché à l’arrière : le double jeu d’Orgueil.",
     specials: {
         cuisine: ["Poulpe breton teriyaki", "Croquetas de canard confit", "Menu dégustation 7 temps (Speakeasy)"],
         drinks: ["Vins natures", "Cocktails création", "Boissons fermentées maison"],
-        must_eat: "L'option Speakeasy est fascinante (dégustation surprise). En bistro, les gnocchis et les viandes confites sont travaillés avec des cuissons millimétrées.",
+        must_eat: "L’option Speakeasy est fascinante (dégustation surprise). En bistro, les gnocchis et les viandes confites sont travaillés avec des cuissons millimétrées.",
         must_drink: "Faites confiance à la carte des vins et aux accords sans alcool (kombuchas, jus) du chef."
     }
 };

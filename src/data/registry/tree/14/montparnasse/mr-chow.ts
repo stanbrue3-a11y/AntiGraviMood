@@ -5,7 +5,7 @@ export const mr_chow: SurgicalPlace = {
   slug: "mr-chow-paris-14",
   name: "MR CHOW",
   category: "restaurant",
-  subcategory: ["hongkongaise", "chinois", "cantonais", "noodles", "panda-panda"],
+  subcategory: ['français', 'asiatique'],
   location: {
     address: "12 Rue Delambre, 75014 Paris, France",
     arrondissement: 14,
@@ -72,10 +72,10 @@ export const mr_chow: SurgicalPlace = {
       }
     ]
   },
-  description: "MR CHOW est l'escale hongkongaise immersive du groupe Panda Panda à Montparnasse. Dans un décor haché inspiré du Hong Kong des années 60 (façon In the Mood for Love), on y déguste une cuisine chinoise traditionnelle faite maison, généreuse et vibrante.",
-  insider_tip: "• **Timing Stratégique** : Arrivez très tôt, la file d'attente s'allonge vite sur le boulevard.\n• **Combo Moelle** : Les Biang Biang Bœuf sont la signature, à commander sans hésiter.\n• **Expérience Culturelle** : Admirez le travail des chefs qui tirent les pâtes en direct derrière le comptoir.",
+  description: "MR CHOW est l’escale hongkongaise immersive du groupe Panda Panda à Montparnasse. Dans un décor haché inspiré du Hong Kong des années 60 (façon In the Mood for Love), on y déguste une cuisine chinoise traditionnelle faite maison, généreuse et vibrante.",
+  insider_tip: "• **Timing Stratégique** : Arrivez très tôt, la file d’attente s'allonge vite sur le boulevard.\n• **Combo Moelle** : Les Biang Biang Bœuf sont la signature, à commander sans hésiter.\n• **Expérience Culturelle** : Admirez le travail des chefs qui tirent les pâtes en direct derrière le comptoir.",
   specials: {
-    cuisine: ["Chinoise", "Xi'an"],
+    cuisine: ["Chinoise", "Xi’an"],
     drinks: ["Softs", "Thé"],
     must_eat: "Cuisine chinoise. Biang Biang Noodles Boeuf",
   },

@@ -5,7 +5,7 @@ export const imperial_choisy: SurgicalPlace = {
   slug: "imperial-choisy",
   name: "Impérial Choisy 美丽都",
   category: "restaurant",
-  subcategory: ["cantonais"],
+  subcategory: ['français'],
   location: {
     address: "32 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -76,8 +76,8 @@ export const imperial_choisy: SurgicalPlace = {
       }
     ]
   },
-  description: "L'Impérial Choisy est une institution incontournable pour les amateurs de rôtisserie cantonaise. Réputé pour son porc laqué Charsiu et son canard rôti d'une tendreté exemplaire, le restaurant offre une expérience authentique dans un cadre simple et efficace. Un pilier du quartier depuis des décennies.",
-  insider_tip: "• **Combo Moelle** : Optez pour le riz aux deux rôtisseries pour goûter à la fois au porc et au canard.\n• **Accompagnement** : Ne négligez pas les légumes Choïsam à la sauce d'huître pour équilibrer le gras des viandes.\n• **Timing Stratégique** : Le restaurant est souvent complet le soir, arriver tôt ou commander à emporter est une excellente alternative.",
+  description: "L’Impérial Choisy est une institution incontournable pour les amateurs de rôtisserie cantonaise. Réputé pour son porc laqué Charsiu et son canard rôti d'une tendreté exemplaire, le restaurant offre une expérience authentique dans un cadre simple et efficace. Un pilier du quartier depuis des décennies.",
+  insider_tip: "• **Combo Moelle** : Optez pour le riz aux deux rôtisseries pour goûter à la fois au porc et au canard.\n• **Accompagnement** : Ne négligez pas les légumes Choïsam à la sauce d’huître pour équilibrer le gras des viandes.\n• **Timing Stratégique** : Le restaurant est souvent complet le soir, arriver tôt ou commander à emporter est une excellente alternative.",
   specials: {
     cuisine: ["Chinoise", "Cantonaise", "Asiatique"],
     drinks: ["Bière Tsingtao", "Thé chaud"],

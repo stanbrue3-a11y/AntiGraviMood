@@ -5,7 +5,7 @@ export const le_servan: SurgicalPlace = {
     name: "Le Servan",
     slug: "le-servan",
     category: "restaurant",
-    subcategory: ["fusion philippine", "bistronomie", "restaurant"],
+    subcategory: ['français', 'bistronomie'],
     location: {
         address: "32 Rue Saint-Maur",
         arrondissement: 11,
@@ -42,9 +42,9 @@ export const le_servan: SurgicalPlace = {
     menu_items: [
       {
         category_type: "tasting_menu",
-        display_label: "Les Menus d'Épure (Menus)",
+        display_label: "Les Menus d’Épure (Menus)",
         items: [
-          { name: "Menu Dégustation (À l'aveugle)", price_cents: 5500, is_highlight: true },
+          { name: "Menu Dégustation (À l’aveugle)", price_cents: 5500, is_highlight: true },
           { name: "Menu Déjeuner (Entrée, Plat, Dessert)", price_cents: 3500, is_highlight: true },
           { name: "Accord Mets & Vins Nature (3 verres)", price_cents: 3000 },
           { name: "Accord Mets & Vins Nature (5 verres)", price_cents: 4500 }
@@ -61,9 +61,9 @@ export const le_servan: SurgicalPlace = {
           { name: "Tartare de Bœuf, mayo épicée & sarrasin", price_cents: 1800 },
           { name: "Oreilles de Cochon au poivre du Sichuan", price_cents: 1450 },
           { name: "Tartelette Tomate, ricotta & chutney piment", price_cents: 1300 },
-          { name: "Os à Moelle, croûte d'herbes & levain", price_cents: 1500 },
+          { name: "Os à Moelle, croûte d’herbes & levain", price_cents: 1500 },
           { name: "Maquereau Crudo, calamansi & gingembre", price_cents: 1600 },
-          { name: "Hors-d'œuvre du jour (Saison)", price_cents: 1200 }
+          { name: "Hors-d’œuvre du jour (Saison)", price_cents: 1200 }
         ]
       },
       {
@@ -99,7 +99,7 @@ export const le_servan: SurgicalPlace = {
         items: [
           { name: "Verre de Vin Blanc (Vibrant & Frais)", price_cents: 950, is_highlight: true },
           { name: "Verre de Vin Rouge (Fruit & Caractère)", price_cents: 1000 },
-          { name: "Verre d'Orange (Macération)", price_cents: 1200, is_highlight: true },
+          { name: "Verre d’Orange (Macération)", price_cents: 1200, is_highlight: true },
           { name: "Bouteille de Pet-Nat (Sélection)", price_cents: 4800 },
           { name: "Eau micro-filtrée (75cl)", price_cents: 500 },
           { name: "Café Espresso Terres de Café", price_cents: 350 }
@@ -118,8 +118,8 @@ export const le_servan: SurgicalPlace = {
     verified: true,
     google_rating: 4.5,
     description: "Le bistrot fulgurant des sœurs Tatiana et Katia Levha. Sous ses airs de bistrot titi-parisien (moulures, plafond peint), la carte balance de formidables uppercuts aux influences asiatiques, et particulièrement philippines (piment, herbes fraîches, agrumes).",
-    insider_tip: "• La carte change purement quotidiennement en fonction du marché de la cheffe.\n• L'ancienne formule déjeuner très attractive n'existe plus, le ticket moyen monte vite à 50€ (et attention, la carafe d'eau micro-filtrée est facturée 5€).\n• Réservez très en avance, le lieu est constament pris d'assaut.",
-    expert_catchline: "Haute-bistronomie percutée d'influences philippines par la brillante Tatiana Levha.",
+    insider_tip: "• La carte change purement quotidiennement en fonction du marché de la cheffe.\n• L’ancienne formule déjeuner très attractive n’existe plus, le ticket moyen monte vite à 50€ (et attention, la carafe d’eau micro-filtrée est facturée 5€).\n• Réservez très en avance, le lieu est constament pris d'assaut.",
+    expert_catchline: "Haute-bistronomie percutée d’influences philippines par la brillante Tatiana Levha.",
     specials: {
         cuisine: ["Cœurs de canard au piment", "Raviolis langoustine au beurre de soja"],
         drinks: ["Vins natures exigeants"],

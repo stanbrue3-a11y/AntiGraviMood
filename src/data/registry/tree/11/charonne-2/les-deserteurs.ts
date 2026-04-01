@@ -5,7 +5,7 @@ export const les_deserteurs: SurgicalPlace = {
     name: "Les Déserteurs",
     slug: "les-deserteurs",
     category: "restaurant",
-    subcategory: ["menu dégustation", "gastro", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "46 Rue Trousseau",
         arrondissement: 11,
@@ -43,12 +43,12 @@ export const les_deserteurs: SurgicalPlace = {
         menu_items: [
             {
                 category_type: "tasting_menu",
-                display_label: "Les Menus Uniques (À l'aveugle)",
+                display_label: "Les Menus Uniques (À l’aveugle)",
                 items: [
                     { name: "Menu Déjeuner 3 temps (Entrée-Plat-Dessert)", price_cents: 3500 },
                     { name: "Menu Déjeuner 2 temps (Entrée-Plat ou Plat-Dessert)", price_cents: 2800 },
                     { name: "Menu Dégustation 4 temps (Soir)", price_cents: 4500 },
-                    { name: "Menu Dégustation 6 temps (Soir)", price_cents: 6000, description: "L'expérience complète du chef Daniel Baratier à l'aveugle." },
+                    { name: "Menu Dégustation 6 temps (Soir)", price_cents: 6000, description: "L’expérience complète du chef Daniel Baratier à l'aveugle." },
                     { name: "Plateau de fromages affinés (Supplément)", price_cents: 1200 },
                     { name: "Accord Mets & Vins (4 verres)", price_cents: 3000 },
                     { name: "Accord Mets & Vins (6 verres)", price_cents: 4500 }
@@ -59,13 +59,13 @@ export const les_deserteurs: SurgicalPlace = {
                 display_label: "Inspirations (Saveurs Déserteurs)",
                 items: [
                     { name: "Betterave aigre-doux, estragon du Mexique", price_cents: 0 },
-                    { name: "Ravioles d'oignons de paille, amandes de Noto", price_cents: 0 },
+                    { name: "Ravioles d’oignons de paille, amandes de Noto", price_cents: 0 },
                     { name: "Thon blanc basque snacké, purée potiron-miso", price_cents: 0 },
                     { name: "Rouget barbet, mousseline de chou-fleur & rouille", price_cents: 0 },
                     { name: "Asperges, anchoïade & pimprenelle", price_cents: 0 },
                     { name: "Pigeonneau de Barbarie, carotte & oseille", price_cents: 0 },
                     { name: "Paris-Brest déstructuré, noisettes & shiso", price_cents: 0 },
-                    { name: "Le dessert 'Triple C' (Caramel, Cacahuète, Chocolat)", price_cents: 0 }
+                    { name: "Le dessert ’Triple C' (Caramel, Cacahuète, Chocolat)", price_cents: 0 }
                 ]
             }
         ]
@@ -80,13 +80,13 @@ export const les_deserteurs: SurgicalPlace = {
     instagram_handle: "lesdeserteurs_paris",
     verified: true,
     google_rating: 4.6,
-    description: "Le duo choc d'anciens de l'institution 'Le Sergent Recruteur' signe ici une table minimaliste (sans fioriture de décoration) où seule l'assiette prime. Cuisine hyper-inventive, rythmée par l'Asie et la Bretagne, rythmée par un menu unique à l'aveugle.",
-    insider_tip: "• C'est un concept exclusif de \"Menu Dégustation à l'aveugle\". Si vous détestez les surprises ou avez trop de restrictions, fuyez.\n• Le menu Déjeuner (35€ pour 3 temps) est un hold-up qualitatif rare dans Paris.\n• Réservation obligatoire par téléphone, le site n'a pas de module de résa direct.",
-    expert_catchline: "Haute gastronomie cachée et minimaliste. L'accord mets/vins à l'aveugle est de très haut niveau.",
+    description: "Le duo choc d’anciens de l’institution ’Le Sergent Recruteur’ signe ici une table minimaliste (sans fioriture de décoration) où seule l’assiette prime. Cuisine hyper-inventive, rythmée par l’Asie et la Bretagne, rythmée par un menu unique à l’aveugle.",
+    insider_tip: "• C’est un concept exclusif de \"Menu Dégustation à l’aveugle\". Si vous détestez les surprises ou avez trop de restrictions, fuyez.\n• Le menu Déjeuner (35€ pour 3 temps) est un hold-up qualitatif rare dans Paris.\n• Réservation obligatoire par téléphone, le site n’a pas de module de résa direct.",
+    expert_catchline: "Haute gastronomie cachée et minimaliste. L’accord mets/vins à l'aveugle est de très haut niveau.",
     specials: {
-        cuisine: ["Menu 6 temps à l'aveugle", "Foie gras terre/mer"],
+        cuisine: ["Menu 6 temps à l’aveugle", "Foie gras terre/mer"],
         drinks: ["Accord Mets / Vins inattendu"],
-        must_eat: "Laissez-vous glisser dans le menu en 6 temps, c'est la seule façon de comprendre la narration du chef.",
-        must_drink: "L'accord mets et vins orchestré au cordeau par le sommelier, on y découvre des petites pépites du Jura et de Bourgogne."
+        must_eat: "Laissez-vous glisser dans le menu en 6 temps, c’est la seule façon de comprendre la narration du chef.",
+        must_drink: "L’accord mets et vins orchestré au cordeau par le sommelier, on y découvre des petites pépites du Jura et de Bourgogne."
     }
 };

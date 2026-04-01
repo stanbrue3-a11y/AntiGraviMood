@@ -41,8 +41,8 @@ export const jardin_du_palais_royal: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Enclavé au cœur du pouvoir (Ministère de la Culture, Conseil Constitutionnel), ce jardin est un miracle de calme et d'élégance. C'est le mariage parfait entre l'héritage classique (allées de tilleuls taillés au carré, fontaine centrale) et l'audace contemporaine avec les Colonnes de Buren dans la cour d'honneur. C'est le spot chic pour lire sur une chaise verte inclinée, loin des voitures. Les galeries qui l'entourent abritent des boutiques de niche (parfumeurs, vintage de luxe, médailles) et des restaurants mythiques comme le Grand Véfour. Une parenthèse royale.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Enclavé au cœur du pouvoir (Ministère de la Culture, Conseil Constitutionnel), ce jardin est un miracle de calme et d’élégance. C’est le mariage parfait entre l’héritage classique (allées de tilleuls taillés au carré, fontaine centrale) et l’audace contemporaine avec les Colonnes de Buren dans la cour d’honneur. C’est le spot chic pour lire sur une chaise verte inclinée, loin des voitures. Les galeries qui l’entourent abritent des boutiques de niche (parfumeurs, vintage de luxe, médailles) et des restaurants mythiques comme le Grand Véfour. Une parenthèse royale.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

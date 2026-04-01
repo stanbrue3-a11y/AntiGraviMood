@@ -5,7 +5,7 @@ export const tricotin: SurgicalPlace = {
   slug: "tricotin",
   name: "Tricotin",
   category: "restaurant",
-  subcategory: ["chinois"],
+  subcategory: ['asiatique'],
   location: {
     address: "15 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -75,8 +75,8 @@ export const tricotin: SurgicalPlace = {
       }
     ]
   },
-  description: "Tricotin est l'une des rôtisseries les plus fréquentées de l'avenue de Choisy. Avec ses deux salles et ses canards laqués suspendus en vitrine, c'est l'essence même de la cuisine cantonaise populaire à Paris. Idéal pour un déjeuner rapide ou un festin de viandes laquées entre amis.",
-  insider_tip: "• **Choix du Maître** : Le porc laqué est souvent considéré comme l'un des meilleurs du quartier, demandez-le avec du riz blanc.\n• **Expérience Culturelle** : Ne soyez pas surpris par le service ultra-efficace mais parfois tranchant, c'est l'école du 13e.\n• **Le Petit Plus** : Profitez de la vente à emporter en sortant pour ramener de la poitrine croustillante chez vous.",
+  description: "Tricotin est l’une des rôtisseries les plus fréquentées de l’avenue de Choisy. Avec ses deux salles et ses canards laqués suspendus en vitrine, c’est l'essence même de la cuisine cantonaise populaire à Paris. Idéal pour un déjeuner rapide ou un festin de viandes laquées entre amis.",
+  insider_tip: "• **Choix du Maître** : Le porc laqué est souvent considéré comme l’un des meilleurs du quartier, demandez-le avec du riz blanc.\n• **Expérience Culturelle** : Ne soyez pas surpris par le service ultra-efficace mais parfois tranchant, c’est l’école du 13e.\n• **Le Petit Plus** : Profitez de la vente à emporter en sortant pour ramener de la poitrine croustillante chez vous.",
   specials: {
     cuisine: ["Chinoise", "Cantonaise", "Asiatique"],
     drinks: ["Bière Tsingtao", "Thé au jasmin"],

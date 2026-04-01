@@ -94,13 +94,13 @@ export const yukga: SurgicalPlace = {
         "festif": 50,
         "culturel": 40
     },
-    "description": "Situé à deux pas de la place de la Bastille, Yukga est rapidement devenu une référence pour les amateurs de barbecue coréen authentique. Ici, la qualité de la viande est reine, proposée brute ou marinée dans le respect des traditions. L'intérieur moderne et chaleureux, doté de systèmes d'extraction performants, permet de savourer son barbecue sans les inconvénients de la fumée. Une adresse généreuse où le service attentif vous guide dans l'art de la découpe et de la dégustation à la coréenne.",
-    "insider_tip": "• Ne passez pas à côté des accompagnements (banchan) faits maison, ils sont d'une fraîcheur exemplaire.\n• Le soir, la réservation est fortement recommandée car le lieu est souvent complet.\n• Si vous êtes amateur de sensations fortes, demandez leur Kimchi Jjigae, il a du caractère.",
+    "description": "Situé à deux pas de la place de la Bastille, Yukga est rapidement devenu une référence pour les amateurs de barbecue coréen authentique. Ici, la qualité de la viande est reine, proposée brute ou marinée dans le respect des traditions. L’intérieur moderne et chaleureux, doté de systèmes d’extraction performants, permet de savourer son barbecue sans les inconvénients de la fumée. Une adresse généreuse où le service attentif vous guide dans l’art de la découpe et de la dégustation à la coréenne.",
+    "insider_tip": "• Ne passez pas à côté des accompagnements (banchan) faits maison, ils sont d’une fraîcheur exemplaire.\n• Le soir, la réservation est fortement recommandée car le lieu est souvent complet.\n• Si vous êtes amateur de sensations fortes, demandez leur Kimchi Jjigae, il a du caractère.",
     "specials": {
         "cuisine": ["Coréen", "Barbecue", "Grillades"],
         "drinks": ["Soju", "Bière Coréenne"],
         "must_eat": "Barbecue de Bœuf & Bibimbap.",
-        "expert_catchline": "L'authenticité du barbecue coréen nichée au cœur du 11e."
+        "expert_catchline": "L’authenticité du barbecue coréen nichée au cœur du 11e."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWGmfhNV2GSZOizGZQecsFjbn3B-zW0ZnaURYcENfV-6JveDnrphhbIdcRmsXIyQLKUJLGTCFKrs6eUB04cmXJ4skHgiGn48GlGnfAP-0-cX1iEu3SmMKyZ0RGsIJN6WrBTPAx6UMqx4kKmdIuyaAeZATjRf2_M1Od5FM1cvioZyNCxQWGCeNf8eLd6in9ulc-xDcE2UC7p6TGggtNeqThP8r-A8R7U641jt1lQCNBEw2nSFnx9C7ZyrhbanJ3QqQw_E4BRPiroWbBfaI-O7uP0GgA_6uW6oNAl-InkSGPGhw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

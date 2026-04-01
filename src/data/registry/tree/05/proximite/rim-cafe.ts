@@ -44,14 +44,14 @@ export const rim_cafe: SurgicalPlace = {
         "wine_glass": 6,
         "coffee_price": 2.5,
         "soft_price": 5,
-        "smart_tip": "Le Happy Hour de 16h à 20h est l'un des meilleurs plans du quartier Saint-Michel pour un spritz en terrasse.",
+        "smart_tip": "Le Happy Hour de 16h à 20h est l’un des meilleurs plans du quartier Saint-Michel pour un spritz en terrasse.",
         "menu_items": [
             {
                 "category_type": "starter",
                 "display_label": "Antipasti & Bruschettas",
                 "items": [
                     { "name": "Mix de Bruschetta", "price_cents": 1200 },
-                    { "name": "Burrata crémeuse et tomates d'Antan", "price_cents": 1400 },
+                    { "name": "Burrata crémeuse et tomates d’Antan", "price_cents": 1400 },
                     { "name": "Planche de charcuterie italienne", "price_cents": 1800 }
                 ]
             },
@@ -83,13 +83,13 @@ export const rim_cafe: SurgicalPlace = {
         "festif": 60,
         "culturel": 30
     },
-    "description": "Niché dans la pittoresque rue Saint-Séverin, le Rim Café est une escale italienne authentique loin des pièges à touristes classiques du quartier. Sa spécialité ? Les pizzas cuites dans un imposant four au feu de bois visible dès l'entrée. L'accueil y est chaleureux, souvent orchestré par une équipe passionnée qui n'hésite pas à recommander les gnocchis à la pistache, devenus cultes parmi les habitués. La petite terrasse permet de profiter de l'animation du Quartier Latin tout en savourant une cuisine généreuse faite maison.",
-    "insider_tip": "• Ne passez pas à côté des Gnocchis à la crème de pistache, c'est la pépite absolue de la carte.\n• Le Happy Hour quotidien rend les cocktails très abordables pour le secteur.\n• Si la terrasse est pleine, l'intérieur avec vue sur le four à pizza est tout aussi agréable.",
+    "description": "Niché dans la pittoresque rue Saint-Séverin, le Rim Café est une escale italienne authentique loin des pièges à touristes classiques du quartier. Sa spécialité ? Les pizzas cuites dans un imposant four au feu de bois visible dès l’entrée. L’accueil y est chaleureux, souvent orchestré par une équipe passionnée qui n’hésite pas à recommander les gnocchis à la pistache, devenus cultes parmi les habitués. La petite terrasse permet de profiter de l'animation du Quartier Latin tout en savourant une cuisine généreuse faite maison.",
+    "insider_tip": "• Ne passez pas à côté des Gnocchis à la crème de pistache, c’est la pépite absolue de la carte.\n• Le Happy Hour quotidien rend les cocktails très abordables pour le secteur.\n• Si la terrasse est pleine, l'intérieur avec vue sur le four à pizza est tout aussi agréable.",
     "specials": {
         "cuisine": ["Italien", "Pizza", "Pasta"],
         "drinks": ["Vins Italiens", "Spritz"],
         "must_eat": "Pizza au feu de bois & Gnocchis Pistache.",
-        "expert_catchline": "L'Italie authentique au feu de bois en plein Saint-Michel."
+        "expert_catchline": "L’Italie authentique au feu de bois en plein Saint-Michel."
     },
     "images": {
         "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUVRdVZ8Ydyu-z7KfXrp_5zCTP9tN5PaBL7PTls_7TEbtZoNijhfrHyoTSWZS894N63qhptV58x4_7HJrBlMJkhTPjMGuRdLRnuoW66RsGeKeO6wVKriErl4ktxzSr3CKqPZqI1IrTd-uarSj1bwbYtruCgwv6EsIm0DjLYgslxfapyt1qd80lFrsb3ssSK4MzhfBuh-8_29Xn-2jIfW-rXqTy1aZd6Cd7vZ_b1ZmJk6cGDdojl-_t50eYaegxA2HKMwrOSPxrGg9jHURtLAsDTXgrKCQtOLEbuH6Vs8ZvhjHbaZlwy0HPXwJuCul4Qg9LlHcOZzsbhkOHiHW3tL_PXA3uAGMOeDdwVOTGpSpNsZs3Yak0qX3SSFj4HyVjrgN18wF5_NmEXYlfoplUKSUZdNfJj9C-YGbgaDQTTvq5ZPj_maGU4KsZOsiMetS0JgRZpwVBb30OqQm31ZwcBjzxw-dkAViC4DEb8RQavRBjfpDNPjzZCSMHrDSRWhWukUJAGAjR5aCAwW46IpplvPbt-D8HvBMVC5Rbgww-2iHWhDkL1ZnPRBJ6GfPH6b-zZ1PCVDKyuNKYcnA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,

@@ -5,7 +5,7 @@ export const kubri: SurgicalPlace = {
     name: "Kubri",
     slug: "kubri",
     category: "restaurant",
-    subcategory: ["libanais", "méditerranéen", "fusion", "restaurant"],
+    subcategory: ['méditerranéen', 'français'],
     location: {
         address: "108 Rue Amelot",
         arrondissement: 11,
@@ -65,7 +65,7 @@ export const kubri: SurgicalPlace = {
                     // VERIFIED: Plats 9-16€
                     { name: "Halloumi Kataif Rolls, miel pimenté", price_cents: 1300, description: "Le plat signature absolu." },
                     { name: "Kubri Fried Chicken, toum citron", price_cents: 1500 },
-                    { name: "Tartare d'agneau, kammouné, radis rose", price_cents: 1600 },
+                    { name: "Tartare d’agneau, kammouné, radis rose", price_cents: 1600 },
                     { name: "Poulpe Imsabaha", price_cents: 1600 },
                     { name: "Falafel Chips, salsa tomate & jalapeño", price_cents: 1000 }
                 ]
@@ -102,13 +102,13 @@ export const kubri: SurgicalPlace = {
     instagram_handle: "kubri.paris",
     verified: true,
     google_rating: 4.8,
-    description: "La gastronomie libanaise modernisée à son apogée. Kubri dynamite les codes du mezze classique : les assiettes sont créatives, punchy et pensées pour le partage de masse. Halloumi rolls au miel pimenté, tartare d'agneau sublime, poulet laqué citron noir... L'ambiance est survoltée, chaleureuse, parfait pour une table de potes.",
-    insider_tip: "• Les 'Halloumi Kataif Rolls' (rouleaux de halloumi frits au miel, 13€) sont le banger absolu de la carte.\n• Venez à plusieurs (3-4) pour pouvoir rayer quasiment toute la carte des mezzes (9-16€).\n• La formule dej à 25€ (3 plats + boisson chaude) est l'un des meilleurs deals d'Oberkampf.\n• Très compliqué d'avoir une table le week-end sans anticiper, réservez en ligne.",
+    description: "La gastronomie libanaise modernisée à son apogée. Kubri dynamite les codes du mezze classique : les assiettes sont créatives, punchy et pensées pour le partage de masse. Halloumi rolls au miel pimenté, tartare d’agneau sublime, poulet laqué citron noir... L'ambiance est survoltée, chaleureuse, parfait pour une table de potes.",
+    insider_tip: "• Les ’Halloumi Kataif Rolls’ (rouleaux de halloumi frits au miel, 13€) sont le banger absolu de la carte.\n• Venez à plusieurs (3-4) pour pouvoir rayer quasiment toute la carte des mezzes (9-16€).\n• La formule dej à 25€ (3 plats + boisson chaude) est l’un des meilleurs deals d’Oberkampf.\n• Très compliqué d’avoir une table le week-end sans anticiper, réservez en ligne.",
     expert_catchline: "La bistronomie libanaise explosive qui ringardise les vieux mezzes. Halloumi rolls incroyables.",
     specials: {
-        cuisine: ["Halloumi Kataif Rolls", "Tartare d'agneau citronné", "Hummus au pesto de bœuf", "Veau laqué à la mélasse"],
-        drinks: ["Mocktails floraux", "Vins méditerranéens", "Cocktails à l'Arak"],
-        must_eat: "Vous devez impérativement tester l'Halloumi frit au miel et le poulet Kubri Fried Chicken. En plat, le Shortrib épices chawarma est d'une tendreté redoutable.",
-        must_drink: "Les limonades libanaises maison ou fiez-vous aux bouteilles de la plaine de la Bekaa pour l'immersion."
+        cuisine: ["Halloumi Kataif Rolls", "Tartare d’agneau citronné", "Hummus au pesto de bœuf", "Veau laqué à la mélasse"],
+        drinks: ["Mocktails floraux", "Vins méditerranéens", "Cocktails à l’Arak"],
+        must_eat: "Vous devez impérativement tester l’Halloumi frit au miel et le poulet Kubri Fried Chicken. En plat, le Shortrib épices chawarma est d'une tendreté redoutable.",
+        must_drink: "Les limonades libanaises maison ou fiez-vous aux bouteilles de la plaine de la Bekaa pour l’immersion."
     }
 };

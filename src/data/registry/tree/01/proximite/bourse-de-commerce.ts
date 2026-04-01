@@ -40,7 +40,7 @@ export const bourse_de_commerce: SurgicalPlace = {
         "festif": 2,
         "culturel": 24
     },
-    "description": "Le nouveau phare de l'art contemporain à Paris. L'homme d'affaires François Pinault a installé sa collection dans l'ancienne Bourse de Commerce, restaurée et transformée par Tadao Ando avec un cylindre de béton minimaliste magistral au centre de la rotonde. La fresque de la coupole a été restaurée, le contraste ancien/moderne est saisissant. C'est un lieu d'art vivant, parfois déroutant (pigeons empaillés, cire qui fond), à l'architecture époustouflante.",
+    "description": "Le nouveau phare de l’art contemporain à Paris. L’homme d’affaires François Pinault a installé sa collection dans l’ancienne Bourse de Commerce, restaurée et transformée par Tadao Ando avec un cylindre de béton minimaliste magistral au centre de la rotonde. La fresque de la coupole a été restaurée, le contraste ancien/moderne est saisissant. C’est un lieu d’art vivant, parfois déroutant (pigeons empaillés, cire qui fond), à l’architecture époustouflante.",
     "insider_tip": "Entrée gratuite le premier samedi du mois de 17h à 21h. Architecture sublime.",
     "specials": {
         "cuisine": [],

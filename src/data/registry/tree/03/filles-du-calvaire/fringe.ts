@@ -40,8 +40,8 @@ export const fringe: SurgicalPlace = {
         "festif": 2,
         "culturel": 2
     },
-    "description": "Un coffee shop qui prend la photo et le café très au sérieux. Les murs sont décorés d'expositions temporaires de photographie d'auteur, et les luminaires en forme de nuages créent une atmosphère douce et rêveuse. Le café (de chez Lomi ou drops internationaux) est extrait avec précision, et la nourriture est saine, colorée et végétale. C'est un lieu calme, propice à la réflexion, à la lecture ou à la conversation à voix basse dans le Haut-Marais.",
-    "insider_tip": "L'espace est aussi une galerie photo, les expos changent souvent.",
+    "description": "Un coffee shop qui prend la photo et le café très au sérieux. Les murs sont décorés d’expositions temporaires de photographie d’auteur, et les luminaires en forme de nuages créent une atmosphère douce et rêveuse. Le café (de chez Lomi ou drops internationaux) est extrait avec précision, et la nourriture est saine, colorée et végétale. C’est un lieu calme, propice à la réflexion, à la lecture ou à la conversation à voix basse dans le Haut-Marais.",
+    "insider_tip": "L’espace est aussi une galerie photo, les expos changent souvent.",
     "specials": {
         "cuisine": [],
         "drinks": [

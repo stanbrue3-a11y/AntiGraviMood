@@ -5,7 +5,7 @@ export const la_manifattura: SurgicalPlace = {
     name: "La Manifattura",
     slug: "la-manifattura",
     category: "restaurant",
-    subcategory: ["italien", "pizzeria", "napolitain", "vins italiens", "restaurant"],
+    subcategory: ['italien', 'pizzeria', 'français'],
     location: {
         address: "106 Boulevard du Montparnasse, 75014 Paris",
         arrondissement: 14,
@@ -46,9 +46,9 @@ export const la_manifattura: SurgicalPlace = {
                 display_label: "Pizzas Traditionnelles (Napoletana)",
                 items: [
                     { name: "Margherita (Tomate, mozzarella di bufala, basilic)", price_cents: 1200 },
-                    { name: "Bufala 'La vraie'", price_cents: 1600 },
+                    { name: "Bufala ’La vraie'", price_cents: 1600 },
                     { name: "Regina (Jambon cuit, champignons)", price_cents: 1800 },
-                    { name: "Diavola 'piccante'", price_cents: 1800 },
+                    { name: "Diavola ’piccante'", price_cents: 1800 },
                     { name: "Burratissima (Tomate, burrata fraîche, basilic)", price_cents: 1900 },
                     { name: "La Manifattura (Mozza fior di latte, gorgonzola, noix, miel)", price_cents: 2000 },
                     { name: "Quattro Formaggi (4 Fromages italiens)", price_cents: 1800 },
@@ -59,7 +59,7 @@ export const la_manifattura: SurgicalPlace = {
                 category_type: "main",
                 display_label: "Pizzas Gourmandes (Signatures)",
                 items: [
-                    { name: "C.P.2019 'Championne de Paris 2019'", price_cents: 2500, description: "La pizza primée, ingrédients d'exception." },
+                    { name: "C.P.2019 ’Championne de Paris 2019'", price_cents: 2500, description: "La pizza primée, ingrédients d’exception." },
                     { name: "Tartufo & Parma (Crème de truffe, jambon de Parme)", price_cents: 2500 },
                     { name: "Tricolore (Pesto de basilic, di bufala, jambon di Parma, burrata)", price_cents: 2500 },
                     { name: "Guagliò (Bresaola de Wagyu, pecorino, roquette)", price_cents: 2500 }
@@ -72,7 +72,7 @@ export const la_manifattura: SurgicalPlace = {
                     { name: "Burratina des Pouilles (125g)", price_cents: 1000 },
                     { name: "Stracciatella fumée au bois", price_cents: 1200 },
                     { name: "Linguine Sciue Sciue (Tomates fraîches, ail, basilic)", price_cents: 1200 },
-                    { name: "Authentica Carbonara (Guanciale, pecorino, jaune d'oeuf)", price_cents: 1800 },
+                    { name: "Authentica Carbonara (Guanciale, pecorino, jaune d’oeuf)", price_cents: 1800 },
                     { name: "Gnocchi alla Sorrentina (Four à bois)", price_cents: 1500 }
                 ]
             },
@@ -82,7 +82,7 @@ export const la_manifattura: SurgicalPlace = {
                 items: [
                     { name: "Tiramisu Classico della Casa", price_cents: 900 },
                     { name: "Baba napolitain au Limoncello", price_cents: 900 },
-                    { name: "Profiteroles à l'italienne (Chocolat chaud)", price_cents: 900 },
+                    { name: "Profiteroles à l’italienne (Chocolat chaud)", price_cents: 900 },
                     { name: "Panna Cotta aux fruits rouges", price_cents: 800 }
                 ]
             }
@@ -97,9 +97,9 @@ export const la_manifattura: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.3,
-    description: "Championne de la pizza à Paris, La Manifattura est une escale incontournable sur le boulevard du Montparnasse pour les amateurs de pâte napolitaine d'exception. Le secret réside dans une fermentation longue du pâton et des produits importés directement de petits producteurs italiens. L'ambiance y est vivante, avec le four à bois en vedette et un service qui chante l'Italie.",
-    insider_tip: "Demandez la pizza 'C.P.2019', celle qui a remporté le titre de championne de Paris. Pour le dessert, le Baba au Limoncello est une rareté qu'il faut absolument goûter ici.",
-    expert_catchline: "L'excellence napolitaine primée : championne de Paris 2019 et sourcing transalpin d'exception.",
+    description: "Championne de la pizza à Paris, La Manifattura est une escale incontournable sur le boulevard du Montparnasse pour les amateurs de pâte napolitaine d’exception. Le secret réside dans une fermentation longue du pâton et des produits importés directement de petits producteurs italiens. L’ambiance y est vivante, avec le four à bois en vedette et un service qui chante l’Italie.",
+    insider_tip: "Demandez la pizza ’C.P.2019’, celle qui a remporté le titre de championne de Paris. Pour le dessert, le Baba au Limoncello est une rareté qu’il faut absolument goûter ici.",
+    expert_catchline: "L’excellence napolitaine primée : championne de Paris 2019 et sourcing transalpin d'exception.",
     specials: {
         cuisine: ["Pizza Napoletana", "Four à bois", "Sourcing italien"],
         drinks: ["Vins italiens de caractère", "Limoncello artisanal"],

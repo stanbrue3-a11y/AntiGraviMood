@@ -5,7 +5,7 @@ export const rue_forest: SurgicalPlace = {
   slug: "rue-forest",
   name: "Rue Forest",
   category: "restaurant",
-  subcategory: ["cuisin"],
+  subcategory: ['français'],
   location: {
     address: "Rue Forest, 75018 Paris, France",
     arrondissement: 18,
@@ -43,6 +43,7 @@ export const rue_forest: SurgicalPlace = {
     ]
   },
   description: `TODO: Description riche (3 phrases minimum).`,
+  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
   insider_tip: `• **Timing Stratégique** : TODO
   • **Combo Moelle** : TODO
   • **Expérience Culturelle** : TODO`,

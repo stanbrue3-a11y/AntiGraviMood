@@ -53,7 +53,7 @@ export const le_centenaire: SurgicalPlace = {
                 "display_label": "Plats",
                 "items": [
                     { name: "Terrine de campagne maison & pickles", price_cents: 700 },
-                    { name: "Soupe à l'Oignon traditionnelle gratinée", price_cents: 1200 },
+                    { name: "Soupe à l’Oignon traditionnelle gratinée", price_cents: 1200 },
                     { name: "Fricassée de grenouilles ail & persil", price_cents: 1600 },
                     { name: "Escargots de Bourgogne (6 pcs)", price_cents: 800 },
                     { name: "Salade Amelot (légumes grillés & artichaut)", price_cents: 1700 }
@@ -67,10 +67,10 @@ export const le_centenaire: SurgicalPlace = {
                     { name: "Croque Monsieur à la truffe, frites & salade", price_cents: 1800 },
                     { name: "Fish & Chips maison, sauce tartare", price_cents: 1800 },
                     { name: "Entrecôte grillée (300g), frites maison", price_cents: 2900 },
-                    { name: "Saucisse d'Auvergne au couteau & Aligot", price_cents: 1900 },
+                    { name: "Saucisse d’Auvergne au couteau & Aligot", price_cents: 1900 },
                     { name: "Confit de Canard, pommes Sarladaises", price_cents: 2100 },
                     { name: "Tartare de Bœuf Salers, frites maison", price_cents: 1900 },
-                    { name: "L'Américain Cheeseburger Black Angus", price_cents: 1700 }
+                    { name: "L’Américain Cheeseburger Black Angus", price_cents: 1700 }
                 ]
             },
             {
@@ -78,8 +78,8 @@ export const le_centenaire: SurgicalPlace = {
         display_label: "Grandes Salades",
         items: [
                     { name: "La César (Poulet croustillant, Parmesan, Œuf mollet)", price_cents: 1900 },
-                    { name: "L'Italienne (Burrata, Légumes grillés, Pesto)", price_cents: 2100 },
-                    { name: "L'Auvergnate (Jambon cru, St Nectaire, Noix)", price_cents: 1900 }
+                    { name: "L’Italienne (Burrata, Légumes grillés, Pesto)", price_cents: 2100 },
+                    { name: "L’Auvergnate (Jambon cru, St Nectaire, Noix)", price_cents: 1900 }
                 ]
             },
             {
@@ -88,7 +88,7 @@ export const le_centenaire: SurgicalPlace = {
                 "items": [
                     { name: "Crème brûlée à la vanille bourbon", price_cents: 800 },
                     { name: "Brownie chocolat & noix", price_cents: 800 },
-                    { name: "Salade d'agrumes à la menthe fraîche", price_cents: 800 },
+                    { name: "Salade d’agrumes à la menthe fraîche", price_cents: 800 },
                     { name: "Café gourmand (sélection du jour)", price_cents: 1200 }
                 ]
             },
@@ -117,12 +117,12 @@ export const le_centenaire: SurgicalPlace = {
         "festif": 55,
         "culturel": 15
     },
-    "description": "Bistrot de quartier généreux et chaleureux, Le Centenaire est une institution de la rue Amelot à deux pas d'Oberkampf. Avec ses 1000+ avis Google et sa note de 4.3, c'est le genre d'adresse où tout le monde se sent chez soi. La cuisine française maison y est servie sans chichi : entrecôte sauce poivre, fish and chips avec frites maison (avec leur peau), et une planche mixte gargantuesque qui fait le bonheur des tablées d'amis. Le Happy Hour de 17h à minuit en fait un des meilleurs deals du 11e pour les after-work prolongés.",
-    "insider_tip": "La planche mixte est légendaire — les habitués la décrivent comme 'la plus longue qu'ils aient jamais vue'. Le café gourmand à 12€ est un excellent rapport qualité-prix selon les avis récents. Demandez les vins bio sur conseil du staff. Pour les végétariens : la salade César est disponible avec du Halloumi grillé à la place du poulet.",
+    "description": "Bistrot de quartier généreux et chaleureux, Le Centenaire est une institution de la rue Amelot à deux pas d’Oberkampf. Avec ses 1000+ avis Google et sa note de 4.3, c’est le genre d’adresse où tout le monde se sent chez soi. La cuisine française maison y est servie sans chichi : entrecôte sauce poivre, fish and chips avec frites maison (avec leur peau), et une planche mixte gargantuesque qui fait le bonheur des tablées d'amis. Le Happy Hour de 17h à minuit en fait un des meilleurs deals du 11e pour les after-work prolongés.",
+    "insider_tip": "La planche mixte est légendaire — les habitués la décrivent comme ’la plus longue qu’ils aient jamais vue’. Le café gourmand à 12€ est un excellent rapport qualité-prix selon les avis récents. Demandez les vins bio sur conseil du staff. Pour les végétariens : la salade César est disponible avec du Halloumi grillé à la place du poulet.",
     "specials": {
         "cuisine": ["Français"],
         "drinks": ["Bière pression (pinte 8,40€, HH 5,80€)", "Cocktails (9€, HH 7€)", "Vins bio"],
-        "must_eat": "Cuisine française bistrot. L'entrecôte grillée sauce poivre (20€) et le fish and chips maison (16€) sont les valeurs sûres. Le cheesecake caramel maison est recommandé par les clients.",
+        "must_eat": "Cuisine française bistrot. L’entrecôte grillée sauce poivre (20€) et le fish and chips maison (16€) sont les valeurs sûres. Le cheesecake caramel maison est recommandé par les clients.",
         "expert_catchline": "Le bistrot généreux de la rue Amelot : HH de 17h à minuit, planche XXL et cuisine maison sans prétention."
     },
     "images": {

@@ -5,7 +5,7 @@ export const petitBaoBastille: SurgicalPlace = {
     name: "Petit Bao - Bastille",
     slug: "petit-bao-bastille",
     category: "restaurant",
-    subcategory: ["Chinois", "Baos", "Dim Sum", "Hong Kong Diner"],
+    subcategory: ['asiatique', 'français'],
     location: {
         address: "10 Rue Bréguet, 75011 Paris",
         arrondissement: 11,
@@ -96,9 +96,9 @@ export const petitBaoBastille: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.3,
-    description: "Anciennement Bao Express, ce lieu a été repensé pour devenir le plus grand temple de la Bao Family. Inspiré des 'cha chaan teng' (cafés de Hong Kong), le décor rétro mélange néons, banquettes et cuisine ouverte survoltée. Des baos vapeur façonnés main aux nouilles sautées au wok, on y trouve toute la gourmandise de la street-food cantonaise avec une énergie communicative.",
-    insider_tip: "N'essayez même pas de réserver, c'est premier arrivé, premier servi. Le weekend, le service continu est parfait pour un déjeuner tardif à 16h sans faire la queue. Le bar caché Underpool au sous-sol vaut le détour pour ses cocktails précis.",
-    expert_catchline: "L'énergie de Hong-Kong et le paradis du bao artisanal entre Bastille et Bréguet.",
+    description: "Anciennement Bao Express, ce lieu a été repensé pour devenir le plus grand temple de la Bao Family. Inspiré des ’cha chaan teng' (cafés de Hong Kong), le décor rétro mélange néons, banquettes et cuisine ouverte survoltée. Des baos vapeur façonnés main aux nouilles sautées au wok, on y trouve toute la gourmandise de la street-food cantonaise avec une énergie communicative.",
+    insider_tip: "N’essayez même pas de réserver, c'est premier arrivé, premier servi. Le weekend, le service continu est parfait pour un déjeuner tardif à 16h sans faire la queue. Le bar caché Underpool au sous-sol vaut le détour pour ses cocktails précis.",
+    expert_catchline: "L’énergie de Hong-Kong et le paradis du bao artisanal entre Bastille et Bréguet.",
     specials: {
         cuisine: ["Baos artisanaux", "Wok-cooked dishes", "Hong Kong Diner vibe"],
         drinks: ["Bières artisanales Deck&Donohue", "Cocktails Speakeasy Underpool"],

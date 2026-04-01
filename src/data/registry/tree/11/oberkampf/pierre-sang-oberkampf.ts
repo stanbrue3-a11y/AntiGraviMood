@@ -5,7 +5,7 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
     name: "Pierre Sang In Oberkampf",
     slug: "pierre-sang-oberkampf",
     category: "restaurant",
-    subcategory: ["fusion", "franco-coréen", "menu à l'aveugle", "gastronomique", "comptoir"],
+    subcategory: ['français'],
     location: {
         address: "55 Rue Oberkampf",
         arrondissement: 11,
@@ -60,7 +60,7 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
             },
             {
                 category_type: "other",
-                display_label: "L'Expérience à l'Aveugle (Soir & Week-end)",
+                display_label: "L’Expérience à l'Aveugle (Soir & Week-end)",
                 items: [
                     { name: "Menu Freestyle (Entrée, Plat, Fromages, Dessert)", price_cents: 4650 },
                     { name: "Menu Découverte 6 temps (Amuse-bouche, 2 entrées, plat, fromages, dessert)", price_cents: 5550 }
@@ -105,13 +105,13 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
     instagram_handle: "pierresang",
     verified: true,
     google_rating: 4.6,
-    description: "C'est l'adresse qui a démocratisé la bistronomie de comptoir à Paris. Pierre Sang Boyer y impose un concept redoutable : le menu à l'aveugle. Une fusion franco-coréenne détonante servie au couteau par une jeune garde de chefs devant vous. Vous goûtez, vous devinez les ingrédients, vous êtes bluffé.",
-    insider_tip: "• Réservez impérativement une place au haut comptoir ('Au bar') sur le site, l'expérience n'a aucun sens sur une table isolée.\n• Concept à l'aveugle total : si vous êtes très difficile ou multiallergique, fuyez.\n• L'un des meilleurs rapports qualité/prix Michelin/Gastronomique du quartier.",
-    expert_catchline: "Haute gastronomie ludique : asseyez-vous au comptoir, mangez à l'aveugle, et tentez de deviner les ingrédients.",
+    description: "C’est l’adresse qui a démocratisé la bistronomie de comptoir à Paris. Pierre Sang Boyer y impose un concept redoutable : le menu à l’aveugle. Une fusion franco-coréenne détonante servie au couteau par une jeune garde de chefs devant vous. Vous goûtez, vous devinez les ingrédients, vous êtes bluffé.",
+    insider_tip: "• Réservez impérativement une place au haut comptoir (’Au bar’) sur le site, l’expérience n’a aucun sens sur une table isolée.\n• Concept à l’aveugle total : si vous êtes très difficile ou multiallergique, fuyez.\n• L'un des meilleurs rapports qualité/prix Michelin/Gastronomique du quartier.",
+    expert_catchline: "Haute gastronomie ludique : asseyez-vous au comptoir, mangez à l’aveugle, et tentez de deviner les ingrédients.",
     specials: {
-        cuisine: ["Menu Découverte à l'aveugle", "Fusion France/Corée du Sud", "Ssamjang (condiment)"],
+        cuisine: ["Menu Découverte à l’aveugle", "Fusion France/Corée du Sud", "Ssamjang (condiment)"],
         drinks: ["Accords Mets et Vins sur-mesure", "Vins au verre surprise"],
-        must_eat: "Ici on ne choisit rien, on s'en remet à la brigade. Le Menu Découverte à 55.50€ est un marathon de 6 assiettes redoutablement bien calibrées autour des racines Auvergnates et Séoulites de Pierre Sang.",
-        must_drink: "L'équipe de sommellerie sort des quilles audacieuses pour les accords à l'aveugle. Laissez-les vous challenger."
+        must_eat: "Ici on ne choisit rien, on s’en remet à la brigade. Le Menu Découverte à 55.50€ est un marathon de 6 assiettes redoutablement bien calibrées autour des racines Auvergnates et Séoulites de Pierre Sang.",
+        must_drink: "L’équipe de sommellerie sort des quilles audacieuses pour les accords à l'aveugle. Laissez-les vous challenger."
     }
 };

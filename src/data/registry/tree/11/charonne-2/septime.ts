@@ -5,7 +5,7 @@ export const septime: SurgicalPlace = {
     name: "Septime",
     slug: "septime",
     category: "restaurant",
-    subcategory: ["gastronomique", "étoilé", "français", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "80 Rue de Charonne",
         arrondissement: 11,
@@ -56,7 +56,7 @@ export const septime: SurgicalPlace = {
         category_type: "main",
         display_label: "Séquences du Moment (Exemples Plats)",
         items: [
-          { name: "Asperges blanches, ail des ours & jaune d'œuf", price_cents: 0, is_highlight: true },
+          { name: "Asperges blanches, ail des ours & jaune d’œuf", price_cents: 0, is_highlight: true },
           { name: "Lieu jaune de ligne, beurre blanc foin", price_cents: 0, is_highlight: true },
           { name: "Canette rôtie au BBQ, betteraves", price_cents: 0 },
           { name: "Pigeon de chez M. Trouillet, oseille", price_cents: 0 },
@@ -71,10 +71,10 @@ export const septime: SurgicalPlace = {
         display_label: "La Cave Nature (Boissons)",
         items: [
           { name: "Verre de Vin Nature du jour", price_cents: 1200, is_highlight: true },
-          { name: "Pet'Nat 'Bulles de Vie' (Verre)", price_cents: 1400 },
+          { name: "Pet’Nat ’Bulles de Vie’ (Verre)", price_cents: 1400 },
           { name: "Champagne Jacques Lassalle (Verre)", price_cents: 2200 },
           { name: "Cidre de Glace (Verre)", price_cents: 1100 },
-          { name: "Bouteille Septime 'Cuvée Maison'", price_cents: 4500 },
+          { name: "Bouteille Septime ’Cuvée Maison'", price_cents: 4500 },
           { name: "Grand Cru Bourgogne (Bouteille)", price_cents: 12000 }
         ]
       },
@@ -86,7 +86,7 @@ export const septime: SurgicalPlace = {
           { name: "Infusion de plantes du jardin", price_cents: 400 },
           { name: "Thé Vert Genmaicha", price_cents: 600 },
           { name: "Double Espresso", price_cents: 600 },
-          { name: "Décaféiné à l'eau", price_cents: 450 }
+          { name: "Décaféiné à l’eau", price_cents: 450 }
         ]
       },
       {
@@ -95,7 +95,7 @@ export const septime: SurgicalPlace = {
         items: [
           { name: "Eau micro-filtrée Septime (75cl)", price_cents: 450 },
           { name: "Jus de fruits frais (Sourcing direct)", price_cents: 800 },
-          { name: "Kombucha Maison 'Verveine'", price_cents: 900, is_highlight: true },
+          { name: "Kombucha Maison ’Verveine'", price_cents: 900, is_highlight: true },
           { name: "Limonade Artisanale", price_cents: 700 },
           { name: "Badoit (75cl)", price_cents: 650 }
         ]
@@ -114,13 +114,13 @@ export const septime: SurgicalPlace = {
 
     verified: true,
     google_rating: 4.4,
-    description: "La pierre angulaire de la gastronomie moderne parisienne. Couronné d'une étoile Michelin et constamment classé parmi les meilleurs restaurants du monde (World's 50 Best), le chef Bertrand Grébaut y sert une cuisine d'une justesse fulgurante, épurée à l'extrême (souvent trois ingrédients par assiette), axée sur le végétal et le sourcing d'exception.",
-    insider_tip: "• Obtenir une table est l'un des plus grands défis de Paris. Les réservations ouvrent exactement 3 semaines à l'avance à 10h00 pétantes : soyez prêt à rafraîchir la page.\n• L'accord mets & vins (axé nature / biodynamie) est indispensable pour comprendre l'œuvre complète (supplément de 75€ le soir).\n• Le restaurant est fermé les week-ends.",
+    description: "La pierre angulaire de la gastronomie moderne parisienne. Couronné d’une étoile Michelin et constamment classé parmi les meilleurs restaurants du monde (World’s 50 Best), le chef Bertrand Grébaut y sert une cuisine d’une justesse fulgurante, épurée à l’extrême (souvent trois ingrédients par assiette), axée sur le végétal et le sourcing d’exception.",
+    insider_tip: "• Obtenir une table est l’un des plus grands défis de Paris. Les réservations ouvrent exactement 3 semaines à l’avance à 10h00 pétantes : soyez prêt à rafraîchir la page.\n• L’accord mets & vins (axé nature / biodynamie) est indispensable pour comprendre l'œuvre complète (supplément de 75€ le soir).\n• Le restaurant est fermé les week-ends.",
     expert_catchline: "Une légende vivante de la bistronomie étoilée. Le boss final de la rue de Charonne.",
     specials: {
-        cuisine: ["Menu Dégustation 7 temps (Carte Blanche)", "Travail d'orfèvre sur le végétal et les sauces"],
-        drinks: ["L'une des plus belles caves de vins natures au monde"],
-        must_eat: "Il n'y a pas de carte mais une suite d'assiettes improvisées chaque matin selon l'arrivage de micro-producteurs d'Île-de-France.",
-        must_drink: "L'accord Mets & Vins est magistralement pensé pour ne jamais écraser la finesse de la cuisine de Bertrand Grébaut."
+        cuisine: ["Menu Dégustation 7 temps (Carte Blanche)", "Travail d’orfèvre sur le végétal et les sauces"],
+        drinks: ["L’une des plus belles caves de vins natures au monde"],
+        must_eat: "Il n’y a pas de carte mais une suite d’assiettes improvisées chaque matin selon l’arrivage de micro-producteurs d'Île-de-France.",
+        must_drink: "L’accord Mets & Vins est magistralement pensé pour ne jamais écraser la finesse de la cuisine de Bertrand Grébaut."
     }
 };

@@ -39,8 +39,8 @@ export const musee_nissim_camondo: SurgicalPlace = {
         "festif": 4,
         "culturel": 24
     },
-    "description": "En bordure du parc Monceau, ce musée raconte la tragédie extraordinaire de la famille de Camondo. Dans cet hôtel particulier figé en 1910, chaque meuble du XVIIIe, chaque porcelaine est un chef-d œuvre. On y découvre l intimité d une dynastie de banquiers passionnés d art français, dont l'histoire fut brutalement stoppée par la déportation. Un lieu d'une beauté mélancolique et d'un luxe absolu, offrant un témoignage poignant sur l'élégance disparue de la Belle Époque.",
-    "insider_tip": "L'entrée est gratuite tous les premiers dimanches du mois.",
+    "description": "En bordure du parc Monceau, ce musée raconte la tragédie extraordinaire de la famille de Camondo. Dans cet hôtel particulier figé en 1910, chaque meuble du XVIIIe, chaque porcelaine est un chef-d œuvre. On y découvre l intimité d une dynastie de banquiers passionnés d art français, dont l’histoire fut brutalement stoppée par la déportation. Un lieu d’une beauté mélancolique et d’un luxe absolu, offrant un témoignage poignant sur l'élégance disparue de la Belle Époque.",
+    "insider_tip": "L’entrée est gratuite tous les premiers dimanches du mois.",
     "specials": {
         "cuisine": [],
         "drinks": []

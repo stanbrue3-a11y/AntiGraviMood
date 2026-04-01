@@ -5,7 +5,7 @@ export const le_temps_des_cerises: SurgicalPlace = {
   slug: "le-temps-des-cerises",
   name: "Le Temps des Cerises",
   category: "restaurant",
-  subcategory: ["bar à vin"],
+  subcategory: ['bar à vin'],
   location: {
     address: "18-20 Rue de la Butte aux Cailles, 75013 Paris, France",
     arrondissement: 13,
@@ -99,7 +99,7 @@ export const le_temps_des_cerises: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Temps des Cerises n'est pas qu'un restaurant, c'est une institution autogérée (SCOP) née en 1976 au cœur de la Butte-aux-Cailles. La cuisine y est franche, généreuse et ancrée dans le terroir français. On y vient pour l'atmosphère unique de village parisien, les discussions enflammées en terrasse et l'engagement social d'une équipe passionnée. Le lieu incarne l'esprit frondeur et solidaire de la Butte.",
+  description: "Le Temps des Cerises n’est pas qu’un restaurant, c’est une institution autogérée (SCOP) née en 1976 au cœur de la Butte-aux-Cailles. La cuisine y est franche, généreuse et ancrée dans le terroir français. On y vient pour l’atmosphère unique de village parisien, les discussions enflammées en terrasse et l’engagement social d’une équipe passionnée. Le lieu incarne l’esprit frondeur et solidaire de la Butte.",
   insider_tip: `• **Solidarité Butte** : Le samedi midi, le restaurant propose un plat à 1€ pour les étudiants, une tradition qui perdure avec panache.
   • **Le Must-Eat** : Le Super Cassoulet est une légende du quartier, généreux et authentique, parfait pour les soirées d'hiver.
   • **Timing Réserve** : Le lieu est extrêmement prisé des locaux. Les réservations téléphoniques sont limitées à 12h30 pour le midi et 19h30 pour le soir, soyez ponctuels !`,

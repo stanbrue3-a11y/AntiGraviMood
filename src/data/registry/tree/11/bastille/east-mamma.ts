@@ -5,7 +5,7 @@ export const eastMamma: SurgicalPlace = {
     name: "East Mamma",
     slug: "east-mamma",
     category: "restaurant",
-    subcategory: ["Italien", "Pizzeria", "Trattoria", "Festif"],
+    subcategory: ['français'],
     location: {
         address: "133 Rue du Faubourg Saint-Antoine, 75011 Paris",
         arrondissement: 11,
@@ -36,7 +36,7 @@ export const eastMamma: SurgicalPlace = {
                     { name: "Prosciutto di Parma DOP 24 mois", price_cents: 900 },
                     { name: "Arancini à la Carbonara", price_cents: 950, description: "Cœur coulant, guanciale croustillant." },
                     { name: "Arancini al Tartufo", price_cents: 1050, description: "La version luxe à la truffe noire." },
-                    { name: "Focaccia barese", price_cents: 850, description: "Tomates cerises, origan et huile d'olive." },
+                    { name: "Focaccia barese", price_cents: 850, description: "Tomates cerises, origan et huile d’olive." },
                     { name: "Porro Arrosto", price_cents: 850, description: "Poireaux rôtis, sauce stracciatella." },
                     { name: "Carpaccino di Manzo", price_cents: 1200, description: "Fines tranches de bœuf, parmesan, roquette." },
                     { name: "Bresaola e Grissini", price_cents: 1000 },
@@ -50,10 +50,10 @@ export const eastMamma: SurgicalPlace = {
                 items: [
                     { name: "Cacio e Pepe", price_cents: 1600, description: "Servies directement dans la meule de pecorino." },
                     { name: "Truffle Pasta (Signature)", price_cents: 1850, description: "Crème de truffe noire, copeaux frais." },
-                    { name: "Busiate all'Arrabbiata", price_cents: 1350, description: "Sauce tomate épicée, stracciatella." },
+                    { name: "Busiate all’Arrabbiata", price_cents: 1350, description: "Sauce tomate épicée, stracciatella." },
                     { name: "Gnocchi alla Sorrentina", price_cents: 1500, description: "Tomate, mozzarella filante, basilic." },
                     { name: "Ravioli del Plin", price_cents: 1750, description: "Farce bœuf et porc, beurre et sauge." },
-                    { name: "Spaghetti all'Amatriciana", price_cents: 1550, description: "Guanciale, tomate, pecorino." },
+                    { name: "Spaghetti all’Amatriciana", price_cents: 1550, description: "Guanciale, tomate, pecorino." },
                     { name: "Lasagna al Forno", price_cents: 1650, description: "La recette de la Mamma." }
                 ]
             },
@@ -114,9 +114,9 @@ export const eastMamma: SurgicalPlace = {
             label: "VOIR LE LIEU"
         }
     },
-    description: "L'établissement qui a lancé la révolution Big Mamma à Paris. East Mamma est une trattoria vibrante où l'on parle fort, on mange bien et on boit du bon vin italien. Tout est sourcé directement auprès des petits producteurs de la botte. Entre le four à bois rutilant et les banquettes conviviales, l'ambiance est électrique et généreuse.",
+    description: "L’établissement qui a lancé la révolution Big Mamma à Paris. East Mamma est une trattoria vibrante où l’on parle fort, on mange bien et on boit du bon vin italien. Tout est sourcé directement auprès des petits producteurs de la botte. Entre le four à bois rutilant et les banquettes conviviales, l’ambiance est électrique et généreuse.",
     expert_catchline: "Le temple de la pizza napolitaine et de la burrata géante dans une ambiance italienne survoltée.",
-    insider_tip: "• Attention : pas de réservations ! Arrivez 15-20 min avant l'ouverture de 19h pour garantir votre place au premier service.\n• Le Tigramisù est servi à la louche, ne prévoyez pas de dessert léger.\n• Les pâtes à la truffe sont un incontournable du groupe, très généreuses en saveur.\n• Si c'est trop plein, testez leur petite terrasse ou prenez une pizza à emporter.",
+    insider_tip: "• Attention : pas de réservations ! Arrivez 15-20 min avant l’ouverture de 19h pour garantir votre place au premier service.\n• Le Tigramisù est servi à la louche, ne prévoyez pas de dessert léger.\n• Les pâtes à la truffe sont un incontournable du groupe, très généreuses en saveur.\n• Si c'est trop plein, testez leur petite terrasse ou prenez une pizza à emporter.",
     specials: {
         cuisine: ["Italien", "Pizza Napolitaine", "Pâtes Truffe"],
         drinks: ["Cocktails Spritz", "Vins Italiens", "Limoncello Maison"],

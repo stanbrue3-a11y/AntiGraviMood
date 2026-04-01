@@ -38,8 +38,8 @@ export const carette_ternes: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "L'institution de la place des Ternes. Carette est le gardien des plaisirs sucrés de l'ouest parisien depuis 1927. Sous ses arcades, on vient pour le chocolat chaud viennois, les macarons fondants et le sel des célèbres finger sandwichs. Le service à l’ancienne et le décor rose poudré créent une ambiance de salon de thé éternel. C’est le rendez-vous des familles chic du quartier et des gourmets qui préfèrent la discrétion des Ternes à l'agitation du Trocadéro.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "L’institution de la place des Ternes. Carette est le gardien des plaisirs sucrés de l’ouest parisien depuis 1927. Sous ses arcades, on vient pour le chocolat chaud viennois, les macarons fondants et le sel des célèbres finger sandwichs. Le service à l’ancienne et le décor rose poudré créent une ambiance de salon de thé éternel. C’est le rendez-vous des familles chic du quartier et des gourmets qui préfèrent la discrétion des Ternes à l’agitation du Trocadéro.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": [

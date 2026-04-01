@@ -5,7 +5,7 @@ export const vantre: SurgicalPlace = {
     name: "Vantre",
     slug: "vantre",
     category: "restaurant",
-    subcategory: ["néo-bistrot", "gastronomique", "vins natures", "japonais", "restaurant"],
+    subcategory: ['français', 'japonais'],
     location: {
         address: "19 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -78,7 +78,7 @@ export const vantre: SurgicalPlace = {
                 display_label: "Plats",
                 items: [
                     // VERIFIED: Yonder + NovaCircle (2024) — plats 24-28€
-                    { name: "Selle d'agneau farcie aux épinards", price_cents: 2800 },
+                    { name: "Selle d’agneau farcie aux épinards", price_cents: 2800 },
                     { name: "Bar de ligne, légumes du moment", price_cents: 2600 },
                     { name: "Boeuf Wellington (en saison)", price_cents: 2800 },
                     { name: "Tête de porc grillée", price_cents: 2400, description: "Un classique audacieux du chef." },
@@ -109,7 +109,7 @@ export const vantre: SurgicalPlace = {
                 items: [
                     { name: "Verre de vin nature / bio", price_cents: 700 },
                     { name: "Bouteille (entrée de cave)", price_cents: 2800 },
-                    { name: "Grands crus et raretés (jusqu'à)", price_cents: 50000, description: "Une cave légendaire de 3000 à 6000 bouteilles pour les amateurs." }
+                    { name: "Grands crus et raretés (jusqu’à)", price_cents: 50000, description: "Une cave légendaire de 3000 à 6000 bouteilles pour les amateurs." }
                 ]
             }
         ]
@@ -125,12 +125,12 @@ export const vantre: SurgicalPlace = {
     verified: true,
     google_rating: 4.4,
     description: "Vantre est le néo-bistrot du chef Marco Pelletier, sommelier de formation devenu cuisinier. Résultat : la cuisine est impeccable (touches japonaises subtiles, produits nobles) et la cave est tout simplement monumentale — entre 3000 et 6000 bouteilles référencées, dont des raretés introuvables. Le cadre est sobre et élégant dans un quartier qui concentre les meilleures tables de Paris.",
-    insider_tip: "• La formule déjeuner à 28-29.50€ est l'un des meilleurs rapports qualité-prix du quartier pour cette catégorie de cuisine.\n• La cave est LE trésor caché : si vous êtes amateur, prévenez Marco et il ira vous chercher une bouteille mémorable dans les profondeurs de sa cave.\n• La selle d'agneau farcie aux épinards (28€) et le pigeon en pâté-croûte au foie gras sont des plats signatures qui reviennent souvent.\n• Le menu change chaque semaine — revenez régulièrement pour des découvertes toujours différentes.",
-    expert_catchline: "Néo-bistrot d'un sommelier devenu chef, avec une cave de 3000+ bouteilles en sous-sol.",
+    insider_tip: "• La formule déjeuner à 28-29.50€ est l’un des meilleurs rapports qualité-prix du quartier pour cette catégorie de cuisine.\n• La cave est LE trésor caché : si vous êtes amateur, prévenez Marco et il ira vous chercher une bouteille mémorable dans les profondeurs de sa cave.\n• La selle d'agneau farcie aux épinards (28€) et le pigeon en pâté-croûte au foie gras sont des plats signatures qui reviennent souvent.\n• Le menu change chaque semaine — revenez régulièrement pour des découvertes toujours différentes.",
+    expert_catchline: "Néo-bistrot d’un sommelier devenu chef, avec une cave de 3000+ bouteilles en sous-sol.",
     specials: {
-        cuisine: ["Selle d'agneau farcie", "Boeuf Wellington", "Pigeon pâté-croûte foie gras", "Tête de porc grillée"],
+        cuisine: ["Selle d’agneau farcie", "Boeuf Wellington", "Pigeon pâté-croûte foie gras", "Tête de porc grillée"],
         drinks: ["Cave monumentale 3000-6000 références", "Vins natures et grands crus", "Verres dès 7€"],
-        must_eat: "Les plats changent chaque semaine mais les regulars reviennent pour la selle d'agneau farcie aux épinards (28€), la tête de porc grillée (24€) pour les audacieux, ou le pigeon en pâté-croûte au foie gras (28€). Le midi, la formule E+P+D à 29.50€ est imbattable.",
+        must_eat: "Les plats changent chaque semaine mais les regulars reviennent pour la selle d’agneau farcie aux épinards (28€), la tête de porc grillée (24€) pour les audacieux, ou le pigeon en pâté-croûte au foie gras (28€). Le midi, la formule E+P+D à 29.50€ est imbattable.",
         must_drink: "Marco Pelletier est un sommelier de formation avec une cave de 3000 à 6000 bouteilles — probablement la plus grande collection secrète du 11ème. Faites-lui confiance les yeux fermés."
     }
 };

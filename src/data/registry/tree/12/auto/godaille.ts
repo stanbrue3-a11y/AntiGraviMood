@@ -5,7 +5,7 @@ export const godaille: SurgicalPlace = {
   slug: "godaille",
   name: "Godaille",
   category: "restaurant",
-  subcategory: ["les"],
+  subcategory: ['français'],
   location: {
     address: "9 Rue Antoine Vollon, 75012 Paris, France",
     arrondissement: 12,
@@ -48,11 +48,11 @@ export const godaille: SurgicalPlace = {
           { name: "Œufs Mimosa à la ventrèche fumée", price_cents: 850, is_highlight: true },
           { name: "Os à moelle gratiné, gros sel & pain grillé", price_cents: 1200, is_highlight: true },
           { name: "Carpaccio de Bar aux agrumes & aneth", price_cents: 1450 },
-          { name: "Croque-monsieur forestier à la truffe d'été", price_cents: 1300 },
+          { name: "Croque-monsieur forestier à la truffe d’été", price_cents: 1300 },
           { name: "Velouté de Potiron & éclats de châtaignes", price_cents: 900 },
           { name: "Terrine de Campagne artisanale", price_cents: 1000 },
           { name: "Burrata crémeuse & pesto de basilic", price_cents: 1500 },
-          { name: "Fritures d'Éperlans & sauce tartare", price_cents: 1150 }
+          { name: "Fritures d’Éperlans & sauce tartare", price_cents: 1150 }
         ]
       },
       {
@@ -60,7 +60,7 @@ export const godaille: SurgicalPlace = {
         display_label: "Plats de Saison (Plats)",
         items: [
           { name: "Le Burger Godaille (Comté 18 mois, oignons)", price_cents: 2100, is_highlight: true },
-          { name: "Pâtes à la crème de truffe d'été & parmesan", price_cents: 2400, is_highlight: true },
+          { name: "Pâtes à la crème de truffe d’été & parmesan", price_cents: 2400, is_highlight: true },
           { name: "Cabillaud vapeur, beurre blanc & mousseline", price_cents: 2500 },
           { name: "Côte de Bœuf maturée (pour 2 pers.)", price_cents: 7200 },
           { name: "Échine de Cochon braisée, jus au thym", price_cents: 2250 },
@@ -78,16 +78,16 @@ export const godaille: SurgicalPlace = {
           { name: "Tarte fine aux Pommes du Limousin", price_cents: 1100 },
           { name: "Île flottante à la praline rose", price_cents: 850 },
           { name: "Profiteroles minute, sauce chocolat chaud", price_cents: 1200 },
-          { name: "Assiette de Fromages affinés d'Aligre", price_cents: 1300 }
+          { name: "Assiette de Fromages affinés d’Aligre", price_cents: 1300 }
         ]
       },
       {
         category_type: "drink",
         display_label: "La Cave sélectionnée (Boissons)",
         items: [
-          { name: "Verre de Côtes du Rhône 'Vieilles Vignes'", price_cents: 750, is_highlight: true },
-          { name: "Verre de Petit Chablis 'Mineral'", price_cents: 950 },
-          { name: "Bouteille Morgon 'Marcel Lapierre'", price_cents: 4500 },
+          { name: "Verre de Côtes du Rhône ’Vieilles Vignes'", price_cents: 750, is_highlight: true },
+          { name: "Verre de Petit Chablis ’Mineral'", price_cents: 950 },
+          { name: "Bouteille Morgon ’Marcel Lapierre'", price_cents: 4500 },
           { name: "Verre de Vin Nature du moment", price_cents: 850, is_highlight: true },
           { name: "Coupe de Champagne Brut", price_cents: 1450 }
         ]
@@ -98,7 +98,7 @@ export const godaille: SurgicalPlace = {
         items: [
           { name: "Demi de Blonde (Pression)", price_cents: 550 },
           { name: "Pinte de Pale Ale Artisanale", price_cents: 950 },
-          { name: "Limonade Artisanale 'La Parisienne'", price_cents: 600 },
+          { name: "Limonade Artisanale ’La Parisienne'", price_cents: 600 },
           { name: "Eau plate/gazeuse filtrée (75cl)", price_cents: 450 },
           { name: "Café Espresso Terres de Café", price_cents: 280 },
           { name: "Grand Café Crème", price_cents: 500 },
@@ -107,8 +107,8 @@ export const godaille: SurgicalPlace = {
       }
     ]
   },
-  description: "Godaille est l'adresse néo-bistrot par excellence du quartier Aligre dans le 12ème. Derrière une façade discrète se cache une cuisine de cœur, généreuse et précise, qui sublime les classiques français : œufs mimosa à la ventrèche, os à moelle gratiné et riz au lait onctueux. L'ambiance y est conviviale, portée par une sélection pointue de vins de vignerons et un sourcing impeccable issu du marché voisin.",
-  insider_tip: "• **Os à Moelle** : C'est l'un des meilleurs du quartier, parfaitement gratiné et servi avec un pain de campagne toasté.\n• **Marché d'Aligre** : Idéal après une balade dominicale au marché pour un déjeuner réconfortant.\n• **Réservation** : Le lieu est souvent complet, pensez à réserver surtout pour le dîner du week-end.",
+  description: "Godaille est l’adresse néo-bistrot par excellence du quartier Aligre dans le 12ème. Derrière une façade discrète se cache une cuisine de cœur, généreuse et précise, qui sublime les classiques français : œufs mimosa à la ventrèche, os à moelle gratiné et riz au lait onctueux. L'ambiance y est conviviale, portée par une sélection pointue de vins de vignerons et un sourcing impeccable issu du marché voisin.",
+  insider_tip: "• **Os à Moelle** : C’est l’un des meilleurs du quartier, parfaitement gratiné et servi avec un pain de campagne toasté.\n• **Marché d’Aligre** : Idéal après une balade dominicale au marché pour un déjeuner réconfortant.\n• **Réservation** : Le lieu est souvent complet, pensez à réserver surtout pour le dîner du week-end.",
   specials: {
     cuisine: ["Néo-Bistrot Généreux", "Os à Moelle", "Riz au Lait Culte"],
     drinks: ["Vins de Vignerons", "Bières Artisanales", "Sélection Aligre"],

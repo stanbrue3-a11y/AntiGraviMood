@@ -38,8 +38,8 @@ export const cafe_mairie_6: SurgicalPlace = {
         "festif": 4,
         "culturel": 5
     },
-    "description": "Le Café de la Mairie est l'un des secrets les mieux gardés du 6e arrondissement. Face à l'église Saint-Sulpice, sa terrasse ombragée est un havre de calme absolu. Ici, le café est servi à l'ancienne et le service est d'une politesse rare. On y vient pour lire le journal, discuter à voix basse ou simplement observer la lumière sur la pierre de l'église. C'est le Paris éternel, celui des écrivains et des penseurs, qui s'offre ici en toute simplicité.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "Le Café de la Mairie est l’un des secrets les mieux gardés du 6e arrondissement. Face à l’église Saint-Sulpice, sa terrasse ombragée est un havre de calme absolu. Ici, le café est servi à l’ancienne et le service est d’une politesse rare. On y vient pour lire le journal, discuter à voix basse ou simplement observer la lumière sur la pierre de l’église. C’est le Paris éternel, celui des écrivains et des penseurs, qui s’offre ici en toute simplicité.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

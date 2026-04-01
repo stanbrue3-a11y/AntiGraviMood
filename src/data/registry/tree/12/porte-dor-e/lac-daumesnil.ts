@@ -40,8 +40,8 @@ export const lac_daumesnil: SurgicalPlace = {
         "festif": 3,
         "culturel": 6.5
     },
-    "description": "L'évasion totale à l'Est de Paris. Le Lac Daumesnil, avec ses deux îles (l'île de Reuilly et l'île de Bercy) reliées par un pont suspendu et une rotonde romantique (le temple de l'Amour), est un décor de carte postale 1900. Louer une barque blanche pour ramer au milieu des cygnes et des saules pleureurs est le cliché parisien qu'on adore vivre. C'est bucolique, apaisant et intemporel.",
-    "insider_tip": "L'adresse préférée des locaux, loin des foules habituelles.",
+    "description": "L’évasion totale à l’Est de Paris. Le Lac Daumesnil, avec ses deux îles (l’île de Reuilly et l’île de Bercy) reliées par un pont suspendu et une rotonde romantique (le temple de l’Amour), est un décor de carte postale 1900. Louer une barque blanche pour ramer au milieu des cygnes et des saules pleureurs est le cliché parisien qu’on adore vivre. C’est bucolique, apaisant et intemporel.",
+    "insider_tip": "L’adresse préférée des locaux, loin des foules habituelles.",
     "specials": {
         "cuisine": [],
         "drinks": []

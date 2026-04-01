@@ -5,7 +5,7 @@ export const aujourdhuiDemain: SurgicalPlace = {
     name: "Aujourd’hui Demain",
     slug: "aujourdhui-demain",
     category: "restaurant",
-    subcategory: ["vegan", "concept store", "brunch", "coffeeshop"],
+    subcategory: ['français'],
     location: {
         address: "42 Rue du Chemin Vert",
         arrondissement: 11,
@@ -21,7 +21,7 @@ export const aujourdhuiDemain: SurgicalPlace = {
         culturel: 70
     },
     practical: {
-        opening_hours_raw: "Mer-Dim: 11:00–23:00 (Cuisine ferme à 22h, Brunch week-end jusqu'à 18h)",
+        opening_hours_raw: "Mer-Dim: 11:00–23:00 (Cuisine ferme à 22h, Brunch week-end jusqu’à 18h)",
         reservation_policy: "resa_conseillee",
         terrace: false,
         accessibility: true,
@@ -92,7 +92,7 @@ export const aujourdhuiDemain: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "Le premier concept-store 100% vegan de Paris. Plus qu'un restaurant, c'est un carrefour de vie pour la communauté végétale : cantine comfort food, coffeeshop pointu et boutique engagée.",
+    description: "Le premier concept-store 100% vegan de Paris. Plus qu’un restaurant, c'est un carrefour de vie pour la communauté végétale : cantine comfort food, coffeeshop pointu et boutique engagée.",
     insider_tip: "Leur Mac n Cheese Carbonara est une prouesse technique végétale. Prévoyez du temps pour flâner dans la boutique (vêtements, cosmétiques, épicerie) après votre repas.",
     expert_catchline: "Le temple de la vie végétale à Paris, entre food et shopping.",
     specials: {

@@ -5,7 +5,7 @@ export const maison_rostang: SurgicalPlace = {
   slug: "maison-rostang",
   name: "Maison Rostang",
   category: "restaurant",
-  subcategory: ["Gastronomique", "Double étoilé", "Cuisine française"],
+  subcategory: ['français'],
   location: {
     address: "20 Rue Rennequin, 75017 Paris, France",
     arrondissement: 17,
@@ -55,7 +55,7 @@ export const maison_rostang: SurgicalPlace = {
         items: [
           { name: "Turbot maturé confit, morilles et jus à la réglisse", price_cents: 8800 },
           { name: "Homard bleu rôti au beurre de café, sabayon vin jaune", price_cents: 11000 },
-          { name: "Volaille de Bresse marinée à l'eau de noix", price_cents: 8600 },
+          { name: "Volaille de Bresse marinée à l’eau de noix", price_cents: 8600 },
           { name: "Canette au sang à la presse (pour 2 personnes)", price_cents: 8800, description: "Prix par personne" },
           { name: "Faux-filet de boeuf Wagyu Grade 5, condiments fumés", price_cents: 9600 },
           { name: "Dos de chevreuil rôti, sauce poivrade", price_cents: 9400 }
@@ -83,11 +83,11 @@ export const maison_rostang: SurgicalPlace = {
       }
     ]
   },
-  description: `Maison Rostang est l'un des joyaux de la haute gastronomie parisienne, doublement étoilé au Guide Michelin. Sous la houlette du chef Nicolas Beaumann, cette institution du 17ème arrondissement perpétue un héritage de classicisme magnifié par une créativité contemporaine sans faille. Le cadre est feutré, riche de collections d'objets d'art, offrant un théâtre idéal pour des plats de légende comme la canette au sang ou le cigare au chocolat.`,
-  insider_tip: `• **Timing Stratégique** : Le menu déjeuner à 105€ est l'une des meilleures façons de découvrir l'excellence Rostang sans l'addition du soir.
+  description: `Maison Rostang est l’un des joyaux de la haute gastronomie parisienne, doublement étoilé au Guide Michelin. Sous la houlette du chef Nicolas Beaumann, cette institution du 17ème arrondissement perpétue un héritage de classicisme magnifié par une créativité contemporaine sans faille. Le cadre est feutré, riche de collections d’objets d'art, offrant un théâtre idéal pour des plats de légende comme la canette au sang ou le cigare au chocolat.`,
+  insider_tip: `• **Timing Stratégique** : Le menu déjeuner à 105€ est l’une des meilleures façons de découvrir l'excellence Rostang sans l'addition du soir.
   • **Combo Moelle** : La quenelle de brochet à la crème de homard est un monument de légèreté et de gourmandise, une signature historique.
-  • **Expérience Culturelle** : Demandez à voir la salle des collections ; la passion de la famille Rostang pour l'art y est palpable et enrichit le voyage.`,
-  expert_catchline: "L'apogée du goût français dans un écrin de collectionneur.",
+  • **Expérience Culturelle** : Demandez à voir la salle des collections ; la passion de la famille Rostang pour l’art y est palpable et enrichit le voyage.`,
+  expert_catchline: "L’apogée du goût français dans un écrin de collectionneur.",
   specials: {
     cuisine: ["Gastronomy Pure", "Classique Moderne"],
     drinks: ["Vins de Collection", "Champagnes de Prestige"],

@@ -5,7 +5,7 @@ export const atelier_saisonnier: SurgicalPlace = {
     name: "L’Atelier Saisonnier",
     slug: "atelier-saisonnier",
     category: "restaurant",
-    subcategory: ["brunch", "bistrot", "fait maison", "vins natures", "restaurant"],
+    subcategory: ['français'],
     location: {
         address: "15 Rue de Charonne",
         arrondissement: 11,
@@ -64,7 +64,7 @@ export const atelier_saisonnier: SurgicalPlace = {
                     { name: "Quiche Végétarienne du jour", price_cents: 0 },
                     { name: "Tarte fine au Poulet et Poireaux", price_cents: 0 },
                     { name: "Pommes de terre grenailles rôties au thym", price_cents: 0 },
-                    { name: "Salade de Pâtes à l'italienne (antipasti)", price_cents: 0 }
+                    { name: "Salade de Pâtes à l’italienne (antipasti)", price_cents: 0 }
                 ]
             },
             {
@@ -72,11 +72,11 @@ export const atelier_saisonnier: SurgicalPlace = {
                 display_label: "Buffet Sucré (Extraits)",
                 items: [
                     { name: "Pancakes moelleux à foison", price_cents: 0 },
-                    { name: "Sirop d'érable véritable", price_cents: 0 },
+                    { name: "Sirop d’érable véritable", price_cents: 0 },
                     { name: "Pâte à tartiner maison (sans huile de palme)", price_cents: 0 },
                     { name: "Tiramisu onctueux (recette familiale)", price_cents: 0 },
                     { name: "Cheesecake New-Yorkais", price_cents: 0 },
-                    { name: "Gâteau Marbré d'enfance", price_cents: 0 },
+                    { name: "Gâteau Marbré d’enfance", price_cents: 0 },
                     { name: "Salade de fruits frais de saison", price_cents: 0 },
                     { name: "Fromage blanc & Granola bio croustillant", price_cents: 0 },
                     { name: "Confitures artisanales variées", price_cents: 0 },
@@ -100,7 +100,7 @@ export const atelier_saisonnier: SurgicalPlace = {
                 display_label: "Boissons Sèches & Fraîches",
                 items: [
                     { name: "Limonade maison au citron vert", price_cents: 600 },
-                    { name: "Jus d'Orange pressé minute", price_cents: 550 },
+                    { name: "Jus d’Orange pressé minute", price_cents: 550 },
                     { name: "Café de spécialité (Espresso)", price_cents: 250 },
                     { name: "Chocolat chaud onctueux", price_cents: 500 },
                     { name: "Thé Bio (Sélection Kusmi)", price_cents: 500 }
@@ -125,13 +125,13 @@ export const atelier_saisonnier: SurgicalPlace = {
     },
     verified: true,
     google_rating: 4.6,
-    description: "L'Atelier Saisonnier est l'institution du brunch à Bastille. Réputé pour son buffet 100% fait maison, gargantuesque et convivial, le restaurant déploie une énergie chaleureuse du matin au soir. Que ce soit pour un brunch à volonté entre amis ou une planche de charcuterie fine le soir accompagnée de vins natures, l'expérience est toujours généreuse et sans chichis.",
-    insider_tip: "• Réservez impérativement pour le brunch du dimanche, les créneaux s'arrachent.\n• Le buffet est régulièrement réapprovisionné, inutile de se précipiter, profitez de l'ambiance chill.\n• Leurs raviolis à la truffe blanche sont un banger souvent ignoré à cause du buffet sucré.\n• Wifi gratuit et atmosphère 'work-friendly' en semaine (hors brunch).",
-    expert_catchline: "L'eldorado du brunch fait maison : buffet gargantuesque et ambiance ultra-chill au cœur du 11ème.",
+    description: "L’Atelier Saisonnier est l’institution du brunch à Bastille. Réputé pour son buffet 100% fait maison, gargantuesque et convivial, le restaurant déploie une énergie chaleureuse du matin au soir. Que ce soit pour un brunch à volonté entre amis ou une planche de charcuterie fine le soir accompagnée de vins natures, l’expérience est toujours généreuse et sans chichis.",
+    insider_tip: "• Réservez impérativement pour le brunch du dimanche, les créneaux s’arrachent.\n• Le buffet est régulièrement réapprovisionné, inutile de se précipiter, profitez de l’ambiance chill.\n• Leurs raviolis à la truffe blanche sont un banger souvent ignoré à cause du buffet sucré.\n• Wifi gratuit et atmosphère ’work-friendly' en semaine (hors brunch).",
+    expert_catchline: "L’eldorado du brunch fait maison : buffet gargantuesque et ambiance ultra-chill au cœur du 11ème.",
     specials: {
         cuisine: ["Buffet Brunch à volonté", "Raviolis à la truffe", "Cheesecake Signature", "Guacamole maison"],
         drinks: ["Limonade maison", "Bières artisanales", "Sélection de Vins Natures"],
         must_eat: "Les pancakes à la pâte à tartiner maison et le guacamole (à volonté dans le brunch) sont les stars incontestées.",
-        must_drink: "Leur jus d'orange pressé ultra-frais pour accompagner le festin matinal."
+        must_drink: "Leur jus d’orange pressé ultra-frais pour accompagner le festin matinal."
     }
 };
