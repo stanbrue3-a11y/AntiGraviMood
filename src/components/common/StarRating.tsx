@@ -52,11 +52,11 @@ export const StarRating = ({ rating, color, size = 16, ratingsCount }: StarRatin
 
   return (
     <View style={styles.container}>
-      <View style={styles.starsRow}>{[0, 1, 2, 3, 4].map(renderStar)}</View>
       {ratingsCount !== undefined && ratingsCount > 0 && (
         <Text style={styles.countText}>({formatCount(ratingsCount)})</Text>
       )}
       <Text style={[styles.ratingText, { color }]}>{rating.toFixed(1)}</Text>
+      <View style={[styles.starsRow, { marginLeft: 6 }]}>{[0, 1, 2, 3, 4].map(renderStar)}</View>
     </View>
   );
 };

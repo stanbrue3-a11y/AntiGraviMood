@@ -68,11 +68,15 @@ async function main() {
         const detailsRes = await axios.get(detailsUrl);
         const details = detailsRes.data.result;
 
-        if (!candidateName) candidateName = details.name;
+        // --- NETTOYAGE SEO OBLIGATOIRE (Standard 2026) ---
+        // Google renvoie souvent des noms pollués : "La Brigade - Mk2 Bibliothèque - Restaurant Paris BNF"
+        // On coupe à la première occurrence de "-", "|", ou "," pour garder l'essence du nom.
+        let cleanName = candidateName.split(/[-|,]/)[0].trim();
+        // Cas particulier : si le nom originel contenait "L'Atelier Saisonnier Paris 13", on peut aussi nettoyer "Paris"
+        cleanName = cleanName.replace(/Paris\s*\d*/i, '').trim();
         
-        // Nettoyage du Slug et du Nom
-        const slug = candidateName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
-        const safeName = candidateName.replace(/'/g, "’");
+        const slug = cleanName.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+        const safeName = cleanName.replace(/'/g, "’");
 
         // Extraction géographique
         const postalCode = details.address_components?.find((c: any) => c.types.includes('postal_code'))?.short_name || '75000';

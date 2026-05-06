@@ -26,7 +26,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
     const { data, error } = await supabase
       .from('places')
-      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, michelin_stars, plat_median_cents');
+      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, google_reviews_count, michelin_stars, plat_median_cents');
 
     if (error) throw error;
     
@@ -229,6 +229,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         expert_catchline: undefined,
       },
       google_rating: row.google_rating,
+      google_user_ratings_total: row.google_reviews_count,
       verified: row.is_verified || false,
       michelin_stars: row.michelin_stars
     } as Place;

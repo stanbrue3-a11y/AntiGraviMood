@@ -57,6 +57,46 @@ async function main() {
             process.exit(1);
         }
 
+        // 🛑 VALIDATION : Format de l'Insider Tip
+        if (payload.insider_tip && !payload.insider_tip.includes('•')) {
+            console.error("🛑 ERREUR FATALE (ÉDITORIAL) : L'insider_tip DOIT utiliser des bullet points avec le caractère '•'.");
+            process.exit(1);
+        }
+        if (payload.insider_tip) {
+            const bullets = payload.insider_tip.split('•').filter((b: string) => b.trim().length > 0);
+            if (bullets.length < 3) {
+                console.error('❌ ERREUR QUALITÉ : L\'insider_tip doit contenir STRICTEMENT au moins 3 points (•).');
+                process.exit(1);
+            }
+        }
+
+        if (payload.description) {
+            if (payload.description.length < 200) {
+                console.error('❌ ERREUR QUALITÉ : La description est trop courte (min 200 car.). Soyez plus immersif.');
+                process.exit(1);
+            }
+            const forbidden = ['généreux', 'authentique', 'convivial', 'traditionnel', 'pépite', 'incontournable'];
+            const found = forbidden.filter(f => payload.description!.toLowerCase().includes(f));
+            if (found.length > 1) {
+                console.error('❌ ERREUR QUALITÉ : Trop de mots creux. Soyez spécifique. Évitez : ' + found.join(', '));
+                process.exit(1);
+            }
+        }
+
+        // 🛑 VALIDATION : Enum Dominant Mood
+        const validMoods = ['chill', 'festif', 'culturel'];
+        if (payload.dominant_mood && !validMoods.includes(payload.dominant_mood)) {
+            console.error(`🛑 ERREUR FATALE (ENUM) : dominant_mood doit être l'un de : ${validMoods.join(', ')}`);
+            process.exit(1);
+        }
+
+        // 🛑 VALIDATION : Enum Category
+        const validCategories = ['restaurant', 'bar', 'café'];
+        if (payload.category && !validCategories.includes(payload.category)) {
+            console.error(`🛑 ERREUR FATALE (ADN) : Un lieu DOIT être l'un de : ${validCategories.join(', ')}. Pas de club, boulangerie ou autre !`);
+            process.exit(1);
+        }
+
         const { data, error } = await supabase.from('places').update(payload).eq('slug', slug).select();
         
         if (error) throw error;
@@ -70,6 +110,12 @@ async function main() {
         
         if (!payload.on_mange_quoi_ici) {
             console.error("❌ La commande --menu exige le champ 'on_mange_quoi_ici'.");
+            process.exit(1);
+        }
+
+        const { data: currentPlace } = await supabase.from('places').select('description, insider_tip').eq('slug', slug).single();
+        if (!currentPlace?.description || !currentPlace?.insider_tip) {
+            console.error("❌ ERREUR : Impossible de publier (PUBLISHED). La Phase 2 (Description + Insider Tip) doit être complétée d'abord.");
             process.exit(1);
         }
 

@@ -563,7 +563,7 @@ const styles = StyleSheet.create({
   levelLabel: {
     fontSize: 24,
     fontWeight: '800',
-    fontFamily: 'PlayfairDisplay_700Bold',
+    fontFamily: 'PlayfairDisplay-Bold',
     letterSpacing: -1,
   },
   anchorBox: {
@@ -606,7 +606,7 @@ const styles = StyleSheet.create({
   priceBig: {
     fontSize: 48,
     fontWeight: '800',
-    fontFamily: 'PlayfairDisplay_700Bold',
+    fontFamily: 'PlayfairDisplay-Bold',
     letterSpacing: -2,
   },
   priceCurrency: { fontSize: 24, fontWeight: '700', marginLeft: 4, color: 'rgba(255,255,255,0.5)' },
