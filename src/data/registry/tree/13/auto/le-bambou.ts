@@ -87,16 +87,31 @@ export const le_bambou: SurgicalPlace = {
   description: "Le Bambou est une véritable institution du quartier chinois de Paris. Reconnu pour son Phở légendaire et son ambiance de cantine vrombissante, c’est l’adresse de référence pour ceux qui cherchent l’authenticité vietnamienne sans fioritures. Service ultra-rapide et saveurs percutantes garanties.",
   insider_tip: "• **Timing Stratégique** : Arrivez tôt (11h45 ou 18h45) car la file d’attente s’allonge très vite sur le trottoir.\n• **Expérience Culturelle** : L’ambiance est bruyante et les tables sont serrées, c’est ce qui fait le charme du lieu.\n• **Combo Moelle** : Le Phở spécial est copieux, n’hésitez pas à demander du piment frais pour relever le bouillon.",
   specials: {
-    cuisine: ["Vietnamienne", "Asiatique"],
+    cuisine: ["Vietnamien"],
     drinks: ["Thé au jasmin", "Bière Saigon"],
     must_eat: "Cuisine vietnamienne. Phở đặc biệt & Nems maison",
   },
-  images: {
-    hero: "AU_ZVEEqrZLEFONR8NlB4mroT640-6H1dlrHLPeWf-F8vIp8LGFoMVUz42Vmk3UFhRKAxVKDJhUJ3m9D1nLNJEHAhsK821PTBTBo5FV8H9xAYHi42VU8xI-TQ3JWDKaLxoeTNT80XEaFE-WpT5Yq7CRXFiTuYjqPcyjxWFt95Z-Hsm_dHpUyTfrgvw_LN3oGMolm5lZ1rA-k306BlONOcRs8yRg-pTwYvnfStwc8eXdfTf25geQWxpb7rCR7fjDKTiNDKw7jysdeN6XlFBK7Y3N4zyArO_9Rvvvgrtk1TBMwEhIfEGbPEYk_Asr1-rLR7Vh-7Y8Tt9wZNqKoFAC7Ws9gLnob1lnuMZD8UnPARnyHK7BGyH1Ivb78t0zuHDXXVA15FGK0HMejy8vHh8uhnj71ETiEfPVsZ38GHDWZ-sPU4dRrAg",
-    gallery: ["AU_ZVEFkXBgtmn9UIE6O6rFj-voGmL5QDJkUMcpqq6dHbWpGKESNfCwxt0Ik04dm-8XGNgG7ep8RNmq2AcRB4T3SETc6WeCCJImO4W35vhMkk80e_BTzD-z1LKv10l7D5jEZ6cOayF-egUMifo4xQE8CW_kH50i6NtDnA11EUbrFAtW2FpLNjS3zZac_v-YI_AuCN8sCr4v5I3c6HEpMfwH_2KDw6yHIFcEshnT4xkQ6mqcO-peRMO3r9f8xXsItuUweo-r_BM967L0CkLS5GHjJGiPnpccqnYGpqzJbdxlRVP6yjZ7N_ziJWv4RTYUhIrCeVyI-PGooGN52dwR3vjM4DI5o5ADpLan6c5YCDiwqGU1wDWnQQ90LU8zF6OfUNUJkOTECjRVLCO7AKIp9Hfkwe0Pbr_g9XozN6BW4jgE2hsP1OVZNjhDRZ7osqNPvETGk","AU_ZVEGdjHoOlqnmMYEsEHIrIxXJEiq26srvd7QEvPV0OrxZzZ6-b8oSSRSvKAMU3zH68Bun3q1wOIKxdUxYhBw-0TtLu_62EZaKVLzXwM8FKfoI3R0EJeP1ruiMGLFdW0WsyelQaQIn9Qdey3vpBNhOADrjCnT37Qy-6oRjO02UPcnYXJnQrweXpdecZSnh1_McuwhM17GgKc5z1_CoytC4geyCx4BPD4SFEC5UOIkY9A-07YsUUuRpX22PDIDB9H1deVfwJSF_kCa7GPNSqp_cUwDZsyp0OVru4QOk92Xq7V7x6A"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bambou/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 3.9
+  google_rating: 3.9,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Phở đặc biệt & Nems maison",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_bambou;

@@ -105,16 +105,31 @@ export const l_ebauchoir: SurgicalPlace = {
   • **Le Midi Stratégique** : Sa formule déjeuner est l'un des meilleurs rapports qualité-prix du secteur Bastille/Aligre.
   • **Réservation Cruciale** : Le lieu est souvent complet le soir dès le début de semaine ; anticipez de 48h.`,
   specials: {
-    cuisine: ["Française", "Bistronomie", "Saisonnière"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vins de Propriétaires", "Café de Spécialité"],
-    must_eat: "Cuisine Bistrot. Travers de Porc & Gâteau de Riz Grand-Mère",
+    must_eat: "Cuisine de bistrot. Travers de Porc & Gâteau de Riz Grand-Mère",
   },
-  images: {
-    hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",
-    gallery: ["AU_ZVEG_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W","AU_ZVEHm_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ebauchoir/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Travers de Porc & Gâteau de Riz Grand-Mère",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_ebauchoir;

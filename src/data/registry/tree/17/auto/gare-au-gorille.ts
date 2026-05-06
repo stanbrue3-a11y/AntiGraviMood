@@ -5,7 +5,7 @@ export const gare_au_gorille: SurgicalPlace = {
   slug: "gare-au-gorille",
   name: "Gare au Gorille",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "68 Rue des Dames, 75017 Paris, France",
     arrondissement: 17,
@@ -90,16 +90,31 @@ export const gare_au_gorille: SurgicalPlace = {
   • **Côté Verre** : Laissez-vous guider par les recommandations de l’équipe pour découvrir des vignerons natures confidentiels.`,
   expert_catchline: "L’excellence de la bistronomie brute dans un décor industriel.",
   specials: {
-    cuisine: ["Bistrot d’auteur"],
+    cuisine: ["Français"],
     drinks: ["Vins Natures"],
     must_eat: "Cuisine de bistrot. La longe de veau rôtie et artichauts barigoule.",
   },
-  images: {
-    hero: "AU_ZVEGxqcl_DZjel77zpeCg1ym6zdTfdy6Mz6M0ma_Ghsw5CLMYpn68v0AYHJAYOMJhWHxw4GWEUX8sfM8q5PA4a3EMQPvFUmiNSFW62j9_50AWqqwSUgO7X_v_hvbXnjcm7uN1xLop9m0zu3G_3a1CQgpWSxa-rNUiCC4K5sqI41ddw1pUzshDu0wHDkW7CIvthRvgz39nHfZka05QDAiNtbakyU_LBy1H5xXOuoETg7sSwqkJ-hCOgG_nghcYnyjtHpKcCaX9JicGraFfHjTzB3wFU7tjKjymU0xJK2xizCB3nQ",
-    gallery: ["AU_ZVEG5RC5v65Nok-6qCMUjx_h7CU37golQAOcimTbCJ06Pac6reEImQwGwutKpg8ANl59yDlKG4GaVQNW3NFpS7Iv9o5LqJSCTzr8dqhIK1rtxtv2rJZjQUN-JhX8sDTWXNZn1ybAqRpOzi5go8OntQIh978hkCh5XHjwzOL5tIKyXsozrBfDcENOnAV0aORY9wfQuRSUpE9Qlq01SolGEtR14qoBOOq6CZnh2K9Fmd7G4km5xksCL8nnUramMrpwY5dG2q2lORoXImpeWM6xpspQ6TIALfPerBdEg3odePMpNcw","AU_ZVEHPSn33fMel9PrnHVq1EGkDKZbGwvayVj3dn0TNHHEka55bWEvb5B0lNP8Za9YsVangOZsmJHil2u9FG9O8t2-OqhL7t_s6jYFFnBkjWYdma-UpBlxr_5-1s6cSQhwY1oTAzcgTasYo-3gjmOCVGKq_kIsXFubc2JiCWMSVMlS_q44-4IRE_f-siu3aQfII3vKDSDAsee_pFijyuSs3r3NOxsy9RxvVlwjcQ2yQZHcIYG5iRCuZfwTLVKLpxUA7XLobtLzK6aFJp5m1UtUD9Ko8s1WFvHrl8Fjt5dV2867uXut4rESk8HRMqxJSQMQauINsxMQ4QEfRwFL7P9UoPIzVAeGWPjAIpTSa90Dp3WWlF6Gmgy8SORdPf12CpM90ReUKkOh1n6l-Ldl7WlO_VtCrL456T01MYNZJmoyM7MzCx1jP2asNoIOGul2dC20n"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gare-au-gorille/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La longe de veau rôtie et artichauts barigoule.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default gare_au_gorille;

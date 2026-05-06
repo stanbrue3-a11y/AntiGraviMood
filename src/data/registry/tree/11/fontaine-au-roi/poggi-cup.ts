@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const poggiCup: SurgicalPlace = {
+export const poggi_cup: SurgicalPlace = {
     id: "poi-poggi-cup",
     name: "Poggi Cup (Fontaine au Roi)",
     slug: "poggi-cup",
@@ -102,16 +102,29 @@ export const poggiCup: SurgicalPlace = {
     expert_catchline: "La gastronomie en gobelet : des plats sains, graphiques et superposés avec amour.",
     insider_tip: "• Mélangez bien votre Poggi Cup pour savourer toutes les couches en une seule bouchée.\n• Le Poggi Poisson (Gravlax) est particulièrement frais et réussi.\n• Formule étudiant à moins de 10€, une rareté pour cette qualité dans le quartier.\n• Leur Cookie Sea Salt est un pêché mignon très addictif.",
     specials: {
-        cuisine: ["Déstructuré", "Healthy", "Bœuf Effiloché"],
+        cuisine: ["Français"],
         drinks: ["Lemon’aid Passion", "Ginger Beer Maison", "Thé Glacé"],
-        must_eat: "Le Poggi Classic et le Tiramisu praliné."
+        must_eat: "Cuisine française. Le Poggi Classic et le Tiramisu praliné."
     },
-    images: {
-        hero: "https://poggicup.com/wp-content/uploads/2021/04/Poggi-Cup-Concept-Design.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/poggi-cup/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.6
+    google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Poggi Classic et le Tiramisu praliné.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

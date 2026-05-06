@@ -5,7 +5,7 @@ export const les_3_bornes: SurgicalPlace = {
     name: "Les 3 Bornés",
     slug: "les-3-bornes",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bouillon'],
     location: {
         address: "71 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -74,13 +74,16 @@ export const les_3_bornes: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXsYTy5MTr2XksYP5yajZ493TIa7m0kZQGVFeToYvZBZADZuAEu1-cGCIx_jK9QIMowkHE4Y20e0yK0oBG7kYdiFYNWG3a4YlSBWm7Pc7Eo3iCTZSupiY0QdJ3vVIEScnla0VAemFVenuRIzu6zo4HuBCB9qW-bYZQdqPFpK0Sja1F_She1Q7hNTFDao6xtZfKPBnalPr1gttHTwHqE-aFocJbu4MRSg08CAmQWNOfbIQ_ZpAGJDjwf3Br4nkoKhpu2azxAbkQCMclsh2j7m_gT20gQ2Uz1r9OmVXXrVgpbGA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWoA-NBXU4lSkJ9AjctKwvL0jlo7x-O8OycpjYJroPWjBVZhyLGmwj0AuRCGoZwFFlIdU47dkPgTiVMSXnnqijpZrghq49B8en5gfXAb5IZUHtdcp_SYKVplNdG0N_RgZK6h8bzBuhu-xixstkONykAWIgvYpFZ5RtzYf58_VIzkfxp1rDU-GMXwYy-ciIVWCV6svqHXckvEaxPG_4uMJWjn9sGIYHLabC4sSuCQcD_sJrr9KurUDhMDV6vOj6MnpwVHg91pzNqIl2-kEyGfIsAn5gaDbjHSZq05mEUfVoONQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVfKnpC0aip4GDYecbkVnp1hR37m2g4-eZ_RZDkLoX81PzYkB6sQqz9NDbw7ZvtZtWi5DmSXEAE7wpuCxtMA2dmJU7tyjc6_uwwl2ehe2kz6a7dkRK5lwmz_VPQF0J2gLfnY1Z4LPqZheq0Ch0xU37x7hWKvoGEgeyt9h-Ky0xY-T8uD63xQPgpQbaEKexc8ZYU4V-BCyAQTwOP5KwQFgUO7wtnfQ1xPQeErVkSltI_PCAIBcjurN94-A9dp1eYVQJw5L6TY5i96xutXJyGieBcazwfzsW0xiBs60K64GuMiBBKpSEKGg5Ryu6_7o23pVDqboQ2XTNFXeqU6yBGpd3hIMOFFTjmkfwGAe7aZktqO1TD1egKIiAiAAmiQOict2AQFLgDJqQ8oVvikxNIxeyH-0SPvPO7-zVBg_bP9ugsnUKJSkGzJfDFxQUkp041&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-3-bornes/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "les3bornes_paris",
     verified: true,
     google_rating: 4.7,
@@ -88,9 +91,18 @@ export const les_3_bornes: SurgicalPlace = {
     insider_tip: "• Attention à l’amplitude d’ouverture resserrée : restaurant du soir uniquement en semaine, avec un seul service dej le samedi.\n• Le menu entrée-plat revient autour de 35-40€, ce qui est extrêmement compétitif pour le niveau d’exécution technique du chef.\n• Allez-y les yeux fermés sur leurs sauces et jus : réductions intenses garanties. Ne passez pas à côté des abats quand il y en a.",
     expert_catchline: "Une grande bistronomie parisienne cachée rue Jean-Pierre Timbaud, où les jus et cuissons frôlent l’étoile.",
     specials: {
-        cuisine: ["Tête de veau caramélisée", "Ravioles de langoustines", "Pâté en croûte de joue de bœuf", "Soufflé poire-chocolat"],
+        cuisine: ["Bouillon"],
         drinks: ["Sélection pointue de vignerons indépendants"],
-        must_eat: "L’entrée signature : le carpaccio de tête de veau, tiède et croustillant, piqué au vif par une sauce gribiche de haute volée.",
+        must_eat: "Cuisine française traditionnelle. L’entrée signature : le carpaccio de tête de veau, tiède et croustillant, piqué au vif par une sauce gribiche de haute volée.",
         must_drink: "Laissez la salle s’amuser avec des accords inattendus sur un Chenin de Loire ou un Côtes-du-Rhône friand."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. L’entrée signature : le carpaccio de tête de veau, tiède et croustillant, piqué au vif par une sauce gribiche de haute volée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

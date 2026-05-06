@@ -77,22 +77,35 @@ export const cerisaie: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV5zC6X1vX1vX1vX1vX1vX1vX1vX1v&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUeX1vX1vX1vX1vX1vX1vX1vX1vX1v&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cerisaie-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "La Cerisaie est l’un des secrets les mieux gardés (et les plus petits) de Montparnasse. Cyril Lalanne y officie avec une passion rare pour les produits de son Sud-Ouest natal. Dans une salle minuscule de 26 couverts où la proximité crée une convivialité immédiate, on déguste un cassoulet d’anthologie et des charcuteries de Porc Noir de Bigorre d’une qualité exceptionnelle. C’est une table de terroir pure, sans artifices, où chaque plat raconte une histoire de vignes et de montagnes. La réservation n’est pas une option, c'est une nécessité absolue pour goûter à cette cuisine de coeur.",
     insider_tip: "Appelez au moins une semaine à l’avance pour le soir. Le menu ardoise change selon les arrivages du pays, mais le cassoulet est pratiquement toujours là. Ne partez pas sans avoir goûté au fromage de Bethmale.",
     expert_catchline: "L’ambassade intime et magistrale du Sud-Ouest à Montparnasse.",
     specials: {
-        cuisine: ["Sud-Ouest", "Terroir"],
+        cuisine: ["Français"],
         drinks: ["Vins du Pays Basque", "Armagnacs d’Exception"],
-        must_eat: "Le Cassoulet aux Haricots Tarbais.",
+        must_eat: "Cuisine française. Le Cassoulet aux Haricots Tarbais.",
         must_drink: "Un Irouléguy ou un Madiran puissant."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Cassoulet aux Haricots Tarbais.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

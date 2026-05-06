@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const petitSommelier: SurgicalPlace = {
+export const petit_sommelier: SurgicalPlace = {
     id: "poi-petit-sommelier-75014",
     name: "Le Petit Sommelier",
     slug: "le-petit-sommelier-paris-14",
@@ -78,21 +78,34 @@ export const petitSommelier: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW_EpsGADNKVRtM0GdKqKU1B0-Ysol-__yN53eHmKlgBmQqxcHNm5Egq4G7iW-6zuB6zp-RwPcSO5arI1dxq4owscSFrrUOfWNPXSkAP5rh4Rl5DXqo3pdweeWQvM3B86toxwUmRcle9eFhbHIaq2mual9s-GRHO-5_6l35OCO2JxnMkAI-CVQslzSJIZvS0O2BdOiTLiQE4DJtZNSfC26YkgG8aMH30D2jpxDgYAyWGUY2cHykiolbS83T2gn8WG6BRxRncEONwVngZuVe6QdLw5dNQIY2Sa4RRRiWuivC2A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXYKKDBSHyfAqtylCfxH6EoS5fh4DZHMEMc8uPLHR6A-FkXVWAnT692u2w192gJHGHEvC0b4IQCmIpb67NpIDN1ZNKPXCvkrLbmxoeFSnrlfWSsCj4Xv-VmbxBt5DyWaPKyyEtikJZgi2vShSsy28ZIu2TQ534XO6VihvyEWrluZSayQbSuU-6aasoLvuhb1jFXcL9bZkNfO3uFe5IdDM7gmubDNHguGL7Gn72xI5rktgYmgDgi3A_fm2IAvwv8SFdp5-QfVgSBMnHJTPmx92mencBHe-x57DGAFtqQPB8NhpFemg6-oJz9t8pZmonfn5Km1NYPX6FU6qKAKQT0CEkXtkUrw6baHSQ6zQhCIi-TkxlHjAdGhWNjNwK6M1t3MgSpHsXowEYdglr6Z37SB9gCe5dOnY0fLFTriHg7tuTBgz0w53QQreyIX8JHCcjy&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-sommelier-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Petit Sommelier est bien plus qu’une brasserie, c’est l’un des meilleurs repaires bachiques de la capitale. Sous la houlette de Pierre Vila Palleja, sommelier de haut vol, cette institution de l’avenue du Maine concilie avec brio une cuisine bourgeoise impeccablement exécutée et une carte des vins vertigineuse (plus de 1300 références). Le décor, entre bistro traditionnel et cabinet de dégustation élégant, convie à la flânerie gourmande. Que ce soit pour un Boeuf Bourguignon de légende ou une dégustation de pépites de vignerons, l’accueil y est toujours empreint d'une passion contagieuse.",
     insider_tip: "Faites aveuglément confiance au sommelier pour les accords mets-vins, la carte recèle des trésors introuvables ailleurs. Le Vol-au-Vent au vin jaune est son chef-d’oeuvre absolu.",
     expert_catchline: "Haute sommellerie et gastronomie bourgeoise face à la Tour Montparnasse.",
     specials: {
-        cuisine: ["Traditionnelle Française", "Gibiers en Saison"],
+        cuisine: ["Bistronomie"],
         drinks: ["Carte des Vins Exceptionnelle", "Spiritueux Fins"],
-        must_eat: "Le Pâté en Croûte maison et le Boeuf Bourguignon.",
+        must_eat: "Cuisine de bistrot. Le Pâté en Croûte maison et le Boeuf Bourguignon.",
         must_drink: "Une pépite dénichée par Pierre dans la cave monumentale."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Pâté en Croûte maison et le Boeuf Bourguignon.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

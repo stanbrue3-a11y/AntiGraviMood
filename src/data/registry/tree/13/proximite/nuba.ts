@@ -4,7 +4,7 @@ export const nuba: SurgicalPlace = {
     "id": "poi-158",
     "name": "Nüba",
     "slug": "nuba",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "rooftop-club"
     ],
@@ -13,6 +13,7 @@ export const nuba: SurgicalPlace = {
     "location": {
         "address": "36 Quai d’Austerlitz",
         "arrondissement": 13,
+        google_id: "TODO",
         "lat": 48.841251,
         "lng": 2.369352,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const nuba: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2nv1CynBCLxGj_0eRlhZpNfTNRMqxQzYLK_6687f7Z5vfHQGHhhUAtNGbuYCII0SWmefKRtJLIn8pzONMFHa_8pHejEhcwO_2X3P-MLAs6hyBx4DZEPytGB9eHMwnYtlyldQfryP-Rzp2iJgIsU8TxS_pXxaGE7pJrD8A5zAR8x4kWNddKUiHrJTHMjdQDi8TNArcKgyzAnrd5lBvBkIb7NbifDgBUq8XzHtBzlgWE-M_UgmSn5_Z8ciW5oCJaO_515_u0AwHjG0NAJBQdtLcKzTs2sH7ASwEBNL8WYvA51nVpfLwJdfZAoGhXs_KLS2tbCPuDox9o0FLxaKyc9X-lMFUn8a9CowahCjjUIZDbrFHBXIOKTI6v557BROpqzeG5j8xb0ilRUb69rJqUGoKu-ntnfZbVeeM_cKFvWOFcHzAw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/nuba/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Rooftop-club. Nüba.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const zaoka: SurgicalPlace = {
   slug: "zaoka",
   name: "Zaoka",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['chinois'],
   location: {
     address: "3 Rue des Patriarches, 75005 Paris, France",
     arrondissement: 5,
@@ -103,13 +103,19 @@ export const zaoka: SurgicalPlace = {
   • **Le Must-Eat** : Le Gua Bao au porc mijoté avec ses éclats de cacahuètes, un monument de réconfort.
   • **Le Secret** : Combinez votre bao avec le poulet popcorn taïwanais pour une véritable expérience de night market.`,
   specials: {
-    cuisine: ["Taïwanais"],
+    cuisine: ["Chinois"],
     drinks: ["Bubble Tea", "Taiwan Beer"],
-    must_eat: "Cuisine taïwanaise. Gua Bao & Lu Rou Fan."
+    must_eat: "Cuisine chinoise. Gua Bao & Lu Rou Fan."
   },
-  images: {
-    hero: "AU_ZVEFgzdY__ICBvCu_bzm2a8vguK80T2pqRzUvyTVUb7USE8vnYb9bggrxwfbdDmlVDB7LDQBGCPrvyKziEWpLmbixvpJSJDXdU8Z1EN7O3NRrpSHX469Y3egqNLxXw6wURvF3q9VZH6ANCFXF_PdTnx8mOATuKlyc9PaoB-CxJxQqRo7zUGpPvzrzu6Tz4G4y9hA3H89ZxQnOmkVHjnZDyPYvKcKzP5e3l9f_8M3Ps1aESwibEaPl358tb1_k2-hiLNfnoF2zs-osUn2ECOH8lUp0vkzLKEtBODuqxJ9D2ndTY5D5xCb9KGUolTUyzLbs2kL7relcumUfkklmhB0Dz0ZQg9KVR2FfBPTDn_1MRXOPPPNgESwzdhV7o-ihbIY6nVK9cy9ZrZS5iRK9cc2tpTeQnrIB5-fpDJBqCdAWiLRf0Gc",
-    gallery: ["AU_ZVEEA-c3H8xh1SHQ1zSeTF3oUnw99jiaGCLmi3DCkP6DGIAfSF8z71IenzCS3dRWgq7IEBsL2viW1UQp827UaaQBbgUuLwkpAoCuomWP0T7lqoDVrSP2kBZ21VlsIcSVSjzt6HZNvIGsYiUO6NVBZ3vwECZnJyr152iJwwcvMCv4UjROsk6x0lYvSYLJZboza9xJ7s3ycJelAuIDymZD_i2o0wIHaOoMHgXhE0He33dDzdMjaZ7FmtKpqQWw1QNHDtT4SMsBLl3r2IN8_jb16dsQmY7JBb97LnsQR2V4H57AztBH_j1zL678OTykF5SELjDB3GCFCb2xnB5CKXr0t89qkOND9m4r8sa9JRuIIdhSLRBAyMAWLgOeBEJZiEAf-plRfi0LJhtQLdFm26hzFHtDGU4BjUKFhtgi0n5HQT2Q2V58","AU_ZVEGVfDK2haFR7fPLMBJrg4BiJbFIB78SJEf8d-kvgpKMBSkZ_Ue-mtPdPqOPN8vRHU5N5vT2OWpJFxr0Nsr5PMoyZY_LjC0MWS4Ptq5Ke_8fMZUdMVlXA4CLPBG4GxZFYNuFosPOhh8G-UHosb2hL9Po4qOb4C84yVYjXo13DOI0m9AU-CzfBOeYXOF_o_3Bsy1-tSLg0GiTMn3codDbsbhGaT-FoMRHHcjiI_W2J9FBatBSTNM3t82-V1H--2CeHDsPXz3DLHAR_gp1QC9U-WQlZgvpMcwLRRIgKpGAZjMZKknYXq4ZWNLIlRwFav7xhwKIG_lgaGMT_B8qSiCJpIdIE7HBbyVnrJ0jhuSMJLj8z_ka1IWOskOlNNIWDXGLDjpdz_d9VEhwxl9nbVstSFX6rkydDhq6KD-ZyUEqHGt1cw", "AU_ZVEGVfDK2haFR7fPLMBJrgoBihJGFIB78SJEf8d-kvgpKMBSkZ_Ue-mtPdPqOPN8vRHU5N5vT2OWpJFxr0Nsr5PMoyZY_LjC0MWS4Ptq5Ke_8fMZUdMVlXA4CLPB"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zaoka/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.6,

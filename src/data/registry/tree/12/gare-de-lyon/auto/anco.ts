@@ -5,7 +5,7 @@ export const anco: SurgicalPlace = {
   slug: "anco",
   name: "ANCO",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "108 Rue de Bercy, 75012 Paris, France",
     arrondissement: 12,
@@ -107,16 +107,31 @@ export const anco: SurgicalPlace = {
   • **Le Risotto** : Le risotto d'épeautre est une merveille de texture, souvent revisité selon les saisons.
   • **Vins Nature** : N’hésitez pas à solliciter l'équipe pour découvrir leurs dernières pépites en vins natures et biodynamiques.`,
   specials: {
-    cuisine: ["Bistronomique", "Française Modernisée"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins Natures", "Cave de Propriétaires"],
-    must_eat: "Cuisine Créative. Ceviche de Maigre & Risotto d’Épeautre",
+    must_eat: "Cuisine de bistrot. Ceviche de Maigre & Risotto d’Épeautre",
   },
-  images: {
-    hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",
-    gallery: ["AU_ZVEG_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W","AU_ZVEHm_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anco/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Ceviche de Maigre & Risotto d’Épeautre",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default anco;

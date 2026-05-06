@@ -5,7 +5,7 @@ export const osteria_ferrara: SurgicalPlace = {
     name: "Osteria Ferrara",
     slug: "osteria-ferrara",
     category: "restaurant",
-    subcategory: ['italien', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "7 Rue du Dahomey",
         arrondissement: 11,
@@ -78,12 +78,16 @@ export const osteria_ferrara: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVHpsf260Zm7ZTqpD0XYflYPiAAOqWFDexJBHRX-qkQp9Z7mO53qb2Mq53qnElDO36sWvYCMpFqxiJtvrJEUUOxtlUpeI2qcE3AXG4oJgE9J-c9tBWa2bjvTo-epnId3acGjDxcpdkZnajGvV7MlgY_koLep2cVDiouJJWfPBrddVgdPKSP6QXXE4poSwQtO4_b3kc4izAklQ8Mmv0gYbsZmyCU4Xb_jYkrLuau1NZYaFQWtDNjjFLXq_Dd75NSyNo5_XVWQyGAcKX1NxUpL8Bh-kyJJMeNnf0vnzqXayQCaw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJCLnDQ6CPxRMH4buEGha_MVkuU8torvc1KWP4VJeK3aDCtDGkRLsmdaTPTTBR00DVN9aHBBJLeNFDuxRsPU0yGwjr82JhTYERAofIMgjr8iy-3m3Vw1sgGg5OxIuvfldZxXVwEtZmPobJrhhPU_PdWxW3luYCBgY3CZaQ0BIXDDMKHTMKvR2wip3H64l2y3kwN0qWr5XkZRMYo2Rrup-esRamua9BRxBe6zGKo8OfYCI433UhSmEBppfad0US_YdgTgy1EooLfrP-Wvo8HRV5Z8WIP_qS4rAQ92HWoqVivA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-ferrara/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "osteriaferrara",
     verified: true,
     google_rating: 4.4,
@@ -91,9 +95,18 @@ export const osteria_ferrara: SurgicalPlace = {
     insider_tip: "• Une institution discrète parfaite pour un très bon date avec l’Italie dans l’assiette.\n• Réservez au moins deux semaines à l’avance, la salle complète à chaque service.\n• Ne partez pas sans tester le Cannolo sicilien ultra croustillant.",
     expert_catchline: "Trattoria bourgeoise de très haute volée, pour manger les meilleures pâtes de Paris dans le calme absolu.",
     specials: {
-        cuisine: ["Mezzi paccheri langoustines", "Cannolo Sicilien", "Vitello Tonnato"],
+        cuisine: ["Italien"],
         drinks: ["Barolo", "Vins naturels italiens"],
-        must_eat: "La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l’image des Mezzi paccheri aux langoustines crues. Du brutal chic.",
+        must_eat: "Cuisine italienne. La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l’image des Mezzi paccheri aux langoustines crues. Du brutal chic.",
         must_drink: "Magnifique cave italienne, beaucoup de belles quilles nord-italiennes."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l’image des Mezzi paccheri aux langoustines crues. Du brutal chic.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -102,13 +102,16 @@ export const clown_bar: SurgicalPlace = {
       }
     ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXQegTdi9zYHK4Y2Vr9c89t2tpKvGD0AABtfPmy5r_eMODYgLIpuYZsDwN0RUZAi3Di77W-3eKriV7cMEcaiBQeWywiYXvS-9yVyL50NRT2LCdVcSlpL9U4FIiq1qiAPXIs9B-WOAM0idKKjpOTrTE6mSo4RTsGadMoTVBI9w9yA5J5XTpxFBgWWnJZkhpyQBfnDejmKPQjpvWdI2sedkVi-dIIBsIBx5mi4AbMa0SzF7-2V1bDReBQ0lRffziTkFla-XNteu4ezNrHhV0T2skO0AgXNCBPxZV7S-2Uh2B2cg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU20o3UPEQPgKW6vmuNldc-VpKr8UKenvNcY4vFhZxJu2MUX3cfXAuDJUz3XnI_TrEQXbvPe9NzHo6yxZTybU1kb0fpChY_4J1ftUTwT_g0DLecT5kH9jRqW2RUhXD2CjgOWlTSpPZM058fR9ARw5vAE8D0RBl6A2JeCZRN06qDqBr-0CJ7VccGedQ1uLzULed99ZFg-3LaJUPslAKWYS-O7D6g49y2EQ_a2LO7vhUdkIHGSM-SYWkgicj205czGWiQ-vCEgulxCo6ae-_lRVpK4Z0XK78FtfKmkUakyRMCzA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-fg5Y5Ph6mhDWS8frztRsHrslugMRG1mPR6GSzgcsO60obERhImrQkj676MwypMOQihItv4NOhj7guLmFfTy2H6_IRsGOSxV4bcsMbXNr4flNb4O-rPqrUtSTp1nHlrOoRI34Z1o6qECeo3tYChRk9dr3pCZzgAL4grBbKuSgbo3Qwq3EAkvlWgJ14PXovMvEIwQkRqG5a-aEPJeFlEUn4G7nwEn4lxDaTk9hi7t_-mEI3GyBBqo_Q_IqjRebnVqLbUD2D30tidAe8pI1vO8GjAkhhV1ZmaVAh3VE5F9M_AvIgphfMz7jb6lSuRSTn2jBMxySomiU24rs6ovr6lvVcxkoXekMdTJh9kKYW2z0fPOFTcTOrAuLmRkbl_llQikCHTosgjh_GJIEPhH0wtmfO6prF3fjHGxcpQm-UkTApQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/clown-bar/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "clownbar_paris",
     verified: true,
     google_rating: 4.5,
@@ -116,9 +119,18 @@ export const clown_bar: SurgicalPlace = {
     insider_tip: "• La carte change purement au gré des saisons, mais le Pithiviers est un indispensable de la maison en hiver.\n• Le menu déjeuner en semaine (32€ E/P/D) est la meilleure façon de tester l’adresse sans y laisser son PEL d'un soir.\n• Regardez bien le sublime bar en faïences centenaires.",
     expert_catchline: "Haute bistronomie dans un écrin Belle Époque somptueux classé monument historique.",
     specials: {
-        cuisine: ["Pithiviers au foie gras", "Pigeon", "Ris de veau"],
+        cuisine: ["Bistronomie"],
         drinks: ["La sélection de vins natures vertigineuse"],
-        must_eat: "Le Pithiviers de canard et foie gras (quand il est de saison), le plat magistral qui a participé à la légende du lieu.",
+        must_eat: "Cuisine française. Le Pithiviers de canard et foie gras (quand il est de saison), le plat magistral qui a participé à la légende du lieu.",
         must_drink: "Tout cru de la sélection extrêmement pointue du chef sommelier, à piocher dans la volumineuse carte des vins naturels."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Pithiviers de canard et foie gras (quand il est de saison), le plat magistral qui a participé à la légende du lieu.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

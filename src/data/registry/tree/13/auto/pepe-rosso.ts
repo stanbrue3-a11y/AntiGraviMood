@@ -5,7 +5,7 @@ export const pepe_rosso: SurgicalPlace = {
   slug: "pepe-rosso",
   name: "Pépé Rosso",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['italien'],
   location: {
     address: "77 Rue de la Glacière, 75013 Paris, France",
     arrondissement: 13,
@@ -87,16 +87,31 @@ export const pepe_rosso: SurgicalPlace = {
   description: "Pépé Rosso est une trattoria familiale nichée au cœur du quartier de la Glacière. Reconnue pour sa cuisine italienne généreuse et ses recettes traditionnelles exécutées sans fioritures, c’est l’adresse idéale pour retrouver le goût de l’Italie dans une ambiance intimiste. Les pâtes y sont al dente et l'accueil toujours souriant.",
   insider_tip: "• **Choix du Maître** : Les Spaghetti Carbonara sont réalisées dans les règles de l’art, sans crème, un must pour les puristes.\n• **Détail Authentique** : Ne manquez pas le Tiramisu maison, souvent considéré comme l’un des meilleurs du quartier.\n• **Expérience Culturelle** : Une adresse prisée des habitués du 13e qui cherchent à s’éloigner des grands axes bruyants.",
   specials: {
-    cuisine: ["Italienne", "Pizzas"],
+    cuisine: ["Italien"],
     drinks: ["Vin de pays", "Limoncello"],
     must_eat: "Cuisine italienne. Spaghetti Carbonara & Tiramisu",
   },
-  images: {
-    hero: "AU_ZVEHCEO5wXpwabX2w6UeEh2xX7Lvo9eru24MKZezmj1_ceENdF_9yVxw48Y0x7HqtM5nmxfjz1ZLGvtyxDdLxtqnG1JW8guO7pszBXd59y_Zdhh4EB9sk7epItZ61twbNBtIW5Tw8aDf2OETwA1ldyvqu7JKN12jopW13Is16SrV-F8xytMJk53fdRdP8Q7MrROZQnqBD9Q2yawCJd0MxRWl2JDGU8xu83NBFfdTTX5ut9z2VBOcyHCLpiUhM_4BQWNodgR9i4D3moRNCdCKj51-bSd1pxP5rIy_kAQFh47AMcg",
-    gallery: ["AU_ZVEH0jTAQmYuCR_H23AYss_yQQdBZOj5lHy0F4ILAHxtpRqedybFedQNbLKL-yu1XlPHh5WTMHzTHU4IJjCcfAKTti8OI_QhIMM4BFJNWL6VyHL6YCnmaDTn0O1CQqo90ebYMDEJTkddsIH5_viytfmRi-qu4jvlomV8ApH_SO9LheSWFl-PpU1VqPO4LeLXiZpRHkNMrH6QRgZXlbTlr-9XcZgPoL2BFKqyLyU6J0mLzRtpCb3CY_V6Yn63M6tRf-bDLdPTcfQ04e7t2UJGWJaOCxhppvdASdPsXJK4CKW2T5Q","AU_ZVEHU420LDHUP3cFd1CoVYJ0BPGPZgsWHgoI5d5l6AHpJJBlOj5yBOcoaawFlejwhnLOyqj10Qke2DXXf9e0yJ1wrTTe7kFHPHjFS24m3TobiEyeXSM20rT3cCmHzeClPU4bU-zpunRmm978cM7c-Hhzdt9ZG8OH_hILo3MuPd8IQewZVKSCe8kvJkMRx5U-MtpP3Bk-g6s_dx90piwRHlBXN2h6V8TW-LGaPD-NNkskklyM0TMtf8U6H-xGGogXjJ7wPSPZ6iEjvwYPjjyfE3O28f3DrxklvlzVAIo39wZyqN2kgMelXOYwVsCTyqKWbLVKwpJzLT8QqWwyiY85sRoyoI6z5WoPKIyamac7bD4EDlvGqMSeXiFuAkTPuhGKhg9aDcESaMaJISCEwJlxaXNzVR-I4tUHneMpyBe7DPp-pJr_GQFSQ5dQjiuHR80eY"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pepe-rosso/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.2
+  google_rating: 4.2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Spaghetti Carbonara & Tiramisu",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pepe_rosso;

@@ -77,22 +77,35 @@ export const dome_montparnasse: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVHmjhpcIMd6ZcGmjafj8Ah0vMUPWbINhuUILF5FDDnhIjZqShMR7yH4c5b3dEY8qD3GM_APXb3y3M7ZTq5PvEqNy8uodKpPztcsP8aXAVvxUxvzwOtf8yIeuhzyP4u1cAfLLE5AbcLbQ0HCVoYegED3gsDV8CJe3LMd7FbKNM7pzfRH7NWwDmgRcmOF7m-WPgwLXkJcBNSq4vKpjnThJolJP8nsak9gn-OScjRMvTVn3hGHebm9arLjmuvmo6XFXhC6wdQpPRSla3uk5vcV7j7Wo3fbdsCaj9YN1ZjADeV5voqI5pkvtIeD93jY1YRm9VjR3Kb_o8ys474zmN8QEz27t1ZBKXHiUkCJ1-JobzIheBMSVan79ieZLj6VUvrOfEcowXxBxqO87MLdolpAPOeQMlwGPpO3lbyF9-f5Vi1eBUDx4iyfnQ6_JpxMDk7&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXQHhTZQgDtH4jrh6jZ4WBLl9w1-pIdxnDl852KEAUqj_18rBs5s0IRkiqKgovw3z1XvA6DKs3xsOVRoGgB5nlxYO8X4LJSNCCCQBzhUERbfVjnHJuuIVIwbJaEUoVSy7DzIGdyIe0auSVhGDZYloAx3QQVpeEXxqun1hiKTKX68-3ZqXpzQAP1lo7kbHKqRJwEC4QdJLysXOLh3PBDIjuXdbyYHOBZmBPtaOucM8-hM7fsF9hQt_9MOaDkBCY41_r2h6SzV9Hj7our9Dsx5ni4McLFQuUrKeSvqYLgAaRZrWzQItCTBESvpjOq57E9u617KtO9Ysdeu_c06GldCKzxLb9dnH2yQICv4UgX-KU3hO16bSDaADevWokSMDxRdVGSM-02ivHwUhi6e84Go53KnP5uzIw5l6NNlq0a5hSf86_96CfaHSxKVXJYWLPH&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dome-montparnasse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.2,
     description: "Le Dôme est à la mer ce que Montparnasse est aux arts : un monument. Premier café de prestige ouvert sur le boulevard en 1898, il est devenu le temple incontesté des produits de l’océan. Sous son dôme Art Déco intact, dans une atmosphère de boiseries sombres et de miroirs patinés, on déguste les arrivages les plus exclusifs de nos côtes. Sa bouillabaisse est légendaire, tout comme son banc d’écailler qui est sans doute l’un des plus raffinés de Paris. C’est ici que Brassens, Sartre et Beauvoir refaisaient le monde, dans ce décor qui n’a rien perdu de sa superbe et de son exigence.",
     insider_tip: "Le Millefeuille du Dôme est une pièce d’orfèvrerie pâtissière, commandez-le dès le début du repas pour être sûr d’en avoir une part. Pour une expérience plus directe, installez-vous au banc de l’écailler.",
     expert_catchline: "Le temple sacré des produits de la mer sous le ciel de Montparnasse.",
     specials: {
-        cuisine: ["Poissons & Crustacés", "Gastronomie de la Mer"],
+        cuisine: ["Français"],
         drinks: ["Chablis & Sancerre d’exception", "Grands Crus Classés"],
-        must_eat: "La Bouillabaisse traditionnelle et le Millefeuille.",
+        must_eat: "Cuisine française. La Bouillabaisse traditionnelle et le Millefeuille.",
         must_drink: "Un Muscadet Sèvre-et-Maine avec les huîtres Belon."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La Bouillabaisse traditionnelle et le Millefeuille.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

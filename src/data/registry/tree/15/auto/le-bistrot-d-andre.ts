@@ -5,7 +5,7 @@ export const le_bistrot_d_andre: SurgicalPlace = {
   slug: "le-bistrot-d-andre",
   name: "Le Bistrot d’André",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "232 Rue Saint-Charles, 75015 Paris, France",
     arrondissement: 15,
@@ -115,17 +115,32 @@ export const le_bistrot_d_andre: SurgicalPlace = {
   • **Combo Moelle** : Commencez par l’os à moelle bien grillé avant d’attaquer leur Bœuf Bourguignon, l’un des plus authentiques de la rive gauche.
   • **Expérience Culturelle** : Prenez le temps de détailler les memorabilia Citroën qui parsèment la salle, c’est un petit musée privé de l’automobile française.`,
   specials: {
-    cuisine: ["Française Traditionnelle", "Cuisine de Terroir"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins de Propriétaires", "Digestifs Classiques"],
-    must_eat: "Cuisine de Bistrot. Bœuf Bourguignon & Magret de Canard au Miel.",
+    must_eat: "Cuisine de bistrot. Bœuf Bourguignon & Magret de Canard au Miel.",
     expert_catchline: "Le repaire historique de Javel, hommage vibrant aux usines Citroën et à la cuisine de terroir.",
   },
-  images: {
-    hero: "AU_ZVEGBQf_SBvTaVZYTqfAkv3--aHQVOi9qxRb70o6c2oQVhTUuJav9-UoOLMzEyBNDsSyNAwz87AlWb128t3hlOB7idF6krQDsgJR-kAV-0Ib01m4vnEbD16Lgo55KUEjIiu2DI49DcGFNb32DDDDzE3o_dJ28_8jbXl9IxxWPQo5ShlZJcb6jPWvA3sg4vQOXpyQHVYJl4rsKeoHrlFASXHNOMGdTzMkxGrupX0pmqNK3rHKclZf2miWSUdplsJSG6IJJraencBwvqg9yH1dEdTidgCCLnijwx-zm3gCuSOuhZPEAi6YKH8cUDehVJkmW3gGoR99Gd7LKxX4Gk_w47j7_5iHPQwxARuJTavYAdXCsidJmcFhRNymihm5P8saCfDc35tjd25aTLtnP-74cHLmP4xnIX3tOfhFB8n89eDlY8A",
-    gallery: ["AU_ZVEHugIL-ZUIZB6xEdWev9NG9DbHv6ksCaRg1l0cTRcfYIGugNPhjl6vPrIgZ3ABsL7r8tbU7igfu8wrWXlEcjkYvw1WUUuwJi0WiO1FucjSr7p450FaVkJoti-pDreVQ13FoUY-zsx6Xk1x9FM4nkUr8nof-mIdVx2v_eUY9s6O8Xw99EbHxTtHIlFL9va1qpdltrxpSRRfCBFsuHzjYXhBHj3T0Gi5gbn8dQr-65H_l9kauxJi2h3ksxTWa5__rd1kH_fO3k6CFQsZNBCldmvr6aqoP4lDzSvGLg8yLqpPl5L7-VQ9RaMo6no9CjYMojOuM6SdZ4n9EYmYm01LsGFtysJnlg3qVJ9eGr3m_NxogjLDh_X3acaZ7BVRjOe0EuCmCzuiyxe5Kg2dsqSQVt_CDvnIAlfz2rpDMCDXjVOZyWg","AU_ZVEHiojoA6Mgy9cW9EApPH3GjhsXnkD4YXXA-7gMKvBIeiNPwgl8QD6jCvaC_xUMXQgdZA0SFSDGQVWlYfVouvVyZQekuy8xwT3pptQsKCsP602LWEUN8QjxVQ1WGfsBGk0aqP4ydV6UBywklbTWVUWqGIANhdw3R5ZoYnE--p0E-KQZE3q1hOQ4KkF8tylnMMvhLify1DX-iZ29zHJopSDWOJXgd7Dh2dU5JYR_G-S0JnS23EqCh2eR0u_zE9Cikdn5vig9hAH1ctUx572O4qfzPN6IklOAUpM-tpso2RJh3Eh77x7IlqYXKONldxUJw3ZAYPnb5PTc1tBGYQw5KemkdHBmPgREoU8RiY0f8S8vI51H183n60ur__4f4p2YnPARmM4IK3kQAQ82e33HpJgYoJyRDqLo61O1qzHNXW9H7U1VIUgoY42CMgXrugwBn"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-d-andre/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Bœuf Bourguignon & Magret de Canard au Miel.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_bistrot_d_andre;

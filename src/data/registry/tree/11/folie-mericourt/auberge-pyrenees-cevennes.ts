@@ -110,19 +110,34 @@ export const auberge_pyrenees_cevennes: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVxNI5TG32SnRdKE17QhLREEo7_QumFnC6_-dEWfuVCyPywt-ZKt4j-rtnB4NBAvQytLW_qu6LIajvMWWvV2DOPc9WCM3fT_jKLMieLI-fd3YLwhUNIBszEy9xJZ6tCH0RHO4c472zlTnxp1b-jAPMHv-mnAO6nKWRRZywRS7rJC7_SeJIqZdqF-g-WOynmzWhskpv5bra1S6GhLKUf0mwAMPPeG0-FaSuZefbdd0TmUzCT_H-0GBMqYo4WC0f3JHFFMKcX3YsgIkfy5L7N797KAE-rYHMLsQPMCyPpvc65PYCNniAC-y8weE3U_Bpo3Q9I9stT-Senv_F4u3zpdjSEYc61f4bnqgZGBHvLw3X5_dxqplFmIQCk1shIkj3fgnKmkE6147vBQsD79op73J1IcI8v58yPdnhbGiNQJRkM3tVEiK1e6SSuLgbhro1g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-pyrenees-cevennes/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Une machine à remonter le temps. L’Auberge Pyrénées Cévennes est l’un des derniers bastions de la cuisine bourgeoise à Paris. Ici, les nappes à carreaux, les jambons suspendus et le décor rustique plantent le décor de festins épiques. Le Cassoulet, d’une authenticité redoutable, est célébré dans tout Paris, tout comme le Pâté en Croûte et la Blanquette de veau. Un Bib Gourmand Michelin qui respecte le produit et les traditions.",
     insider_tip: "• Le Cassoulet est très copieux, prévoyez une marche digestive après.\n• Les soufflés chauds (Grand Marnier ou Vanille) sont cuits minute, commandez-les dès le milieu du repas.\n• Ambiance parfaite pour les amateurs de vrais bistrots à l’ancienne, bruyante et joyeuse.\n• Pensez à demander la suggestion de vins du Sud-Ouest, la cave est superbe sur ces appellations.",
     expert_catchline: "L’institution du Cassoulet à Paris : un voyage dans la France des terroirs et de la gourmandise pure.",
     specials: {
-        cuisine: ["Cassoulet de l’Auberge", "Soufflé au Grand Marnier", "Pâté en Croûte Maison", "Ris de Veau"],
+        cuisine: ["Français"],
         drinks: ["Grands Vins du Sud-Ouest", "Sélection de Digestifs", "Vins de Pays"],
-        must_eat: "Le duo gagnant : Pâté en Croûte en entrée, Cassoulet en plat. Incontournable.",
+        must_eat: "Cuisine française. Le duo gagnant : Pâté en Croûte en entrée, Cassoulet en plat. Incontournable.",
         must_drink: "Un Madiran ou un Cahors sélectionné par le patron pour accompagner le confit du cassoulet."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le duo gagnant : Pâté en Croûte en entrée, Cassoulet en plat. Incontournable.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

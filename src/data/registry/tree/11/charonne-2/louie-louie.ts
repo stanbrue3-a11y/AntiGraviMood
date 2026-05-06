@@ -5,7 +5,7 @@ export const louie_louie: SurgicalPlace = {
     name: "Louie Louie",
     slug: "louie-louie",
     category: "restaurant",
-    subcategory: ['italien', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "78 Rue de Charonne",
         arrondissement: 11,
@@ -87,13 +87,16 @@ export const louie_louie: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUrbrNVpSw52TTbDCi6liQ7Q-XxMyud2FU9d-iC7ZxnVXeFwDNV9yknnqQT0YnocwR7CMdKtCODMmzZ8rZ-Iv3FygjSVfQemjZW0ZurE-0f7OekJetlfAb2SOOQJccVmXmMbbZ-myno2-rByme7ysS3heTeNUrKYvBfTarSAyc7janYrDOYC0Bp8ActRn2cC8FUBS1T5_QZvTjetymOpmgLD3dgx6IhI1iS_9C7MGaVkK-8yTJMy_ZVJre0V6IngtNuZCpA9xm1BLq7b2sZKU2LMDAgb142tvEqEiZdbhxjqQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUjZNXCRfHf7H9FdLMN9hilj2HUFtaH2bE-W6W1Bsu0RpdRPfPSmaCSV_QVy7HNGa0fXGZqpwPTD6ZO9OlUYZQ8T5IvlznQ-Si4pfdRtbBovG4u2gnmBU1viAwLHymQ1bPpNWRZIIrRlcf6SUVGryIcEthnkhhvuKYA7GKt4pN8Xh59ftCfelNfwtgxnGlad2qh7E5CQa2T2chHFkThQ-vGhtjqckMJnAiR15MlxNeK2jT2sV-mkng5Cv0ngxDfKWLFBODZ0dBkmia-GaStkF-2eUVnDp8kGEk5SVM8mQPNNw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWFcq7VwkOxHIdcWI0_Udm_b3VJN4kQ76ue_jzNOBmk9YTTZW_-jrWJ_sj_aBMbNVM8E15V6BGKt6ZuTIbxB_J05UEBVQ0zGGV4uNObzpkio68Zfy6eVb18pweMhoQiqeMwo7WCjqWqaDAxgahcedmmhvm6dXD_QMBsYittmkVXS23iefPyoQYdgjjv5UMsv6_1bbgJ0wOBzv7Mo2zaNYERTl522NiCKM4qFAAXn3HQ7wafXqPxQj1qwW8wHqcN_EHZd_D__eevPEG3KM_xDvMQ5VVgVSctBm9VzUkafO5IWRyE5iwKuNXU-H_WXs4e9yFh6IFk5U37p0jNRu5E2c92Gr9jqCRoMHwmRqf0HnxTnPA11_arF7uspjHXvplQbQ4bHx_hkyN68SpVyQiA5VY3ADCeep4Ox1FPhoaCYxXWc2ETyrjIGvOGWPI9iGVF&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louie-louie/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "louielouie_paris",
     verified: true,
     google_rating: 4.5,
@@ -101,9 +104,18 @@ export const louie_louie: SurgicalPlace = {
     insider_tip: "• C’est rare à Paris : on boit extrêmement bien chez Louie Louie. Leurs cocktails de mixologie accompagnent les pizzas à la perfection, comme ce que l'on voit souvent à Brooklyn.\n• La salle du fond, sous la verrière, est la plus agréable pour dîner.\n• Ouvert en continu tous les jours, midi et soir, un havre de paix sûr.",
     expert_catchline: "Pizzas napolitaines impeccables et cocktails pointus dans la très hype rue de Charonne.",
     specials: {
-        cuisine: ["Pizza ’Muertadel' (Mortadelle/Burrata)", "Pizza Surf & Turf (Anchois/Nduja)", "Baba au Rhum"],
+        cuisine: ["Italien"],
         drinks: ["Cocktails Créations", "Vins natures italiens"],
-        must_eat: "La Muertadel pimente bien l’affaire avec ses ’guindillas’ (petits piments verts) venus twister la douceur de la mortadelle.",
+        must_eat: "Cuisine italienne. La Muertadel pimente bien l’affaire avec ses ’guindillas’ (petits piments verts) venus twister la douceur de la mortadelle.",
         must_drink: "Plutôt que le traditionnel combo Pizza/Bière, tapez dans leur carte de cocktails parfaitement dosés par de vrais bartenders."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La Muertadel pimente bien l’affaire avec ses ’guindillas’ (petits piments verts) venus twister la douceur de la mortadelle.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

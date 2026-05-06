@@ -106,16 +106,31 @@ export const pho_tai: SurgicalPlace = {
   • **Secret de Gourmet** : Leurs Bánh Cuốn (raviolis vapeur) sont préparés à la minute et rivalisent avec les meilleures adresses du quartier chinois.
   • **Timing Idéal** : Victime de son succès, le restaurant ne prend pas de réservation. Arrivez dès 18h45 pour le service du soir afin d’éviter la file d'attente sur le trottoir.`,
   specials: {
-    cuisine: ["Vietnamienne"],
+    cuisine: ["Vietnamien"],
     drinks: ["Café Vietnamien", "Bière 33 Export", "Thé Artichaut"],
-    must_eat: "Cuisine Vietnamienne. Phở Spécial & Bánh Cuốn",
+    must_eat: "Cuisine vietnamienne. Phở Spécial & Bánh Cuốn",
   },
-  images: {
-    hero: "AU_ZVEGnM-qDPWW9Sy4UNTXequGPhmGeEbPAPtbMmci5ZtIwCl7t2AWvLPf2Wpm_kD9u8w5Wr1pukKeAO1abObD7G6yt_xruiZewt8CaIC2KYaCjOL6Rgr6pHvSrB86Y1uTpXtxVv8kZ00lFcBNWYYfMdSeg3Uwsd2FlcQVfReNwr1-NUxE5fX34YITsytmAfSAgLFl0pXrQeE_BfR5uDVTeaW4i6iNNbBxd-pLMI_H9dHajYRN7ygzS7DtNHHowzUvGtFxHtx_gTJBZdCHh1adqAnLVSpKa8YqSTBckdlE9zEWYf7sp337z0nToj4yUXakC4nFJo6WlrdMAPfqHVhl3OTKAwvbfZW0Ddv5puXWCUW19wNh3LOWM6NE2DG_tBtow_uaUhtm0WPBen6CS1wzygEmrUKks4xtM2MIc_3wt3cJGb3VO85gQSt09k794-0u_",
-    gallery: ["AU_ZVEG0vx6xDkJJNCYwXyFcshqWs98sM0frxRaPV0DvcrO0qLxCs0dGdkGmilsh9ErAXTrhCrEjKcyr7SVOF1oKgdSQVc2wHSqDAev6V19FjsLdz_vRbaJA19grYjawNfsgUBkpSeD6HB_ficlvJ0jH1GgdgvJ0KiYQrEiPATkt-s44r5uoRUT6HhEy3uDuOrUjWeYHIeyizHmuaWkBqGXA2eLXm8brK6NtieM8O_NQM4X2tUzfGqPNBxcqglToVWdOxdThsn2kue6dpS2fP80_mq2vvz3c5HDOzAXGDSju_f_KAQ","AU_ZVEHGTSPQd2mHGYDvhH0cbHoHh9BPp1piJ2aimf5u3ZFLeKTh50PfuhPddQkHVhlv25dGIQ1pcNiTeRUdkVWc_Bvm9isqckGkgheiPjMk8ejCU4UuuKxVQwRJS6CCfDyt0nXDyWzUhYuIYTZkhpqy4y3RUSpq5AqOK0AvbgdRMTYERRlvz0he9jqwgLaxBGYcCCrcPERquZ9B9i4U4wBoJN5sI7gwwe-K484tACKTsT55v-JSCUGYanubSNonWATLjZyyAHUR4GKGdwxbyp9BD-MXG-0F8w9_kzng4STChnniYKsRiUEb2VYwy1i5BGiWK01vKBjBAN6rJTxFjgtDgB4zM96wpeIqObmFT1eb56AHhPWk0335DyOYOWyt9jIGtqSN6nD-Wx94YgJCTKPl6lOdk8r2Hhd2Lma1gKqjWAxUS-tZIDh3OHG12sOCdw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-tai/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.2
+  google_rating: 4.2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Phở Spécial & Bánh Cuốn",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pho_tai;

@@ -13,6 +13,7 @@ export const carette_ternes: SurgicalPlace = {
     "location": {
         "address": "Pl. des Ternes",
         "arrondissement": 8,
+        google_id: "TODO",
         "lat": 48.878009,
         "lng": 2.298428,
         "nearest_metro": "À proximité",
@@ -46,9 +47,24 @@ export const carette_ternes: SurgicalPlace = {
             "Thé"
         ]
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2tMH2AUA7exYr9aVpfio1xuh4MEoD0xlXKbxm2Joy9TfLtJqWQzWYdLsvWH4d67BKTNoBsqsQDssKq3baza_UUPAzbpbbh3XSVHTsp4yRJZihDRWfexyLPEs5uL7zIgoVQ8I8B-LH9Y2hdL_1ArO6rcFxDZAnK64YEnyFHo01KQXfCf124Q5IwhgcMz_X5k7hnhe3pOFtDnPb5yp3J7ocdwGgPLpPEJ3nA-5lgkGN0SWtPMM3y7Jsvsez4iMCAK1DUqtp9wIKil2a3Re3cDf_gk0Tz36HSf3wMn8ODLD_Nr3ycz8j6FHS15fsIDAgLavgbHrPtlerhTrJnUpe_KQ0ri-5lmXLi5nqr1_Xt8zvQdqkBElFSiEdwu3tB21TYsHm8m-ExDohpkHCWFgPu5p2253haf2vRZfI797MIIN1xpU0&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette-ternes/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Salon-de-the. Carette Place des Ternes.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -79,21 +79,34 @@ export const le_select: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWB9J9gd2EpDr4HZS5FZ1Nl1VdVkKCUO-zm_j8qHiRp0YgION_HGaTfF3wf3aJYE6l9z88xMrlkapePOMXrgL81XWvGwqVpEwm4RBlg1YAN5HiyIaHugRTLxgcjbPW1nuRjSwWjy0FKhGHkhZafodFrHgJ0wsNOZ0IZ0OO9YohY7dauSa5Dcwh6Fvsovyqo5bzd0cS3W2zekf-_jvvEM8IRdNNLwCjQ8h9v1XpOgp1SwyuYJswx_G9nP2xaPKWtPRshJ1iUQ4jt8rvXYf5h943DzqGaSb7hvGFTsoMfuRYZ8w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVbrJdMRi1uQ_-ZvwA8QvKHjKObvpIML357qocLGP6XcZpH-Z27TUKRi12yOfSQxLaTgyB8s0Ht7GQnPzRDSonCT8v4CcEnZyfRzSkJE9NhE4yYGh38mRrTp2M2b-dTzrrbIRkcrc4rrL97jqFfyCebMuH2O6ZNNidOHJwl0U4Gj6fW_RqVwqMTbG3v6gwMBecOUJVb71A9Zg79NekUeMOzXCiW0s_ZRLLiYp91kwhGH98lZzsxQ3jrY1n0Tmzr1MldazR3eakMLEel8nAmUZH4sB89bZVLVKI6RIcBFNFHMA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-select-montparnasse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.1,
     description: "Le Select est la dernière grande brasserie de Montparnasse à avoir conservé son âme et son décor d’origine, sans succomber aux sirènes de la modernisation à outrance. Inauguré en 1923, il fut le refuge de la ’Lost Generation’ : Henry Miller, Ernest Hemingway et Morley Callaghan y avaient leurs habitudes. Sous ses éclairages tamisés et son plafond patiné par les années, l'atmosphère y est restée intellectuelle, artistique et profondément parisienne. Que ce soit pour un café matinal, un déjeuner de brasserie classique ou un dernier verre à deux heures du matin, Le Select incarne cette permanence du Montparnasse éternel.",
     insider_tip: "Ne cherchez pas à réserver le soir, l’établissement cultive une liberté rare à Paris. Le chocolat chaud est l’un des plus onctueux du quartier, parfait pour une pause après-midi. Les soirs de week-end, l’ambiance y est particulièrement vibrante jusqu'au petit matin.",
     expert_catchline: "Le dernier temple authentique de la Lost Generation à Montparnasse.",
     specials: {
-        cuisine: ["Brasserie Traditionnelle", "Viandes de Qualité"],
+        cuisine: ["Brasserie"],
         drinks: ["Cocktails Classiques", "Vins de Vignerons"],
-        must_eat: "L’Oeuf Mayo et le Confit de Canard.",
+        must_eat: "Cuisine de brasserie. L’Oeuf Mayo et le Confit de Canard.",
         must_drink: "Un café creme ou un cocktail au bar en zinc."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de brasserie. L’Oeuf Mayo et le Confit de Canard.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -88,16 +88,31 @@ export const la_felicita: SurgicalPlace = {
   description: "La Felicità est le vaisseau amiral du groupe Big Mamma à Station F. Ce food-market italien de 4500m² est un lieu hybride unique à Paris, mêlant plusieurs stands gourmands (Pizza, Pasta, Burger, Cocktails) dans un décor spectaculaire et végétalisé. C’est l'endroit parfait pour une sortie festive et décontractée en groupe.",
   insider_tip: "• **Timing Stratégique** : Évitez les heures de pointe du week-end (20h-21h) car la queue pour les pizzas peut devenir interminable.\n• **Combo Moelle** : La Pizza à la Truffe est un classique indémodable du groupe, à savourer avec un spritz.\n• **Détail Secret** : N’oubliez pas de visiter les toilettes, elles font partie intégrante du décor déjanté du lieu.",
   specials: {
-    cuisine: ["Italienne", "Street-Food"],
+    cuisine: ["Italien"],
     drinks: ["Spritz", "Vins Italiens", "Cocktails"],
     must_eat: "Cuisine italienne. Pizza Truffe & Linguine Carbonara",
   },
-  images: {
-    hero: "AU_ZVEGugjV3d2KiCOn636dfKXsUpz_GOBdbXQ_0M8Wl9NefeHJ6hipSpUmCQeTOU5illT3EBoOyhemxMXkGvwarYcEZ8w9m8bQ4RCxoKrbk4O_f1Dfc-0a4WWjQjqHEZskdzuL5ZNuYzZweBfG_z7VOT6fty9756eRhpvs18HohYMjwQrCBS4zMmWiXF3nFnuFh8WJ4yJtMWkuPonanFIQRTFKV4hHNIqL7NJUn4_Xhw4Lt6-0JZED0DpJf_KaHpG8TZn4B_GApi0jF9vVLu9OpbdT77CU7Rt2HiH-tareLkgv0xw",
-    gallery: ["AU_ZVEGOC_5P8EFMD_1SsKEe9q5fk8ibajbMZxAdfyxn3dyP6v-p8bMIUCug9c6msqkdXYU3pTgwz3av8O4T7Q5i22qewX0Q5CEi9q0BCyBtnbmNVibfgVp-YI56JAhPMIsz4E7duWDUEDNpdVaEEStmjK20LVEZ_5tQG69ZsAPJzQsJet_Mpg-yDLqWuEv__ioUNuKuAFV4QVczRv-KQ99PTklp3V_f5AF7MrPvZrvYJxDg4mEvoTsqOp3Xdivbz_T54szsRzh-as-yZTcKEqIuHpw02f1A7E1fZ6lbXvilLcLdDw","AU_ZVEH5NPNWySjcdPrZl94fAVdJfp0S2p0X-qnaxYwOc32k08oIA9vTYgXpgCfnOqB48fyPGSkFQuS-o5MYdFSu97Y2nndLBcYI12DTlnpP5v9k67PJj6EbF8SlnKgFre7s5xzxnVf6n1j8WbDShe_gjtkeZJ6s8UPbjxghHv7af4jZDdnGVYw0aSWs_WQQ1n5uiZ9H3GPaU8MkWbL4_zWlwoFIiV03htkSlzFDoGupr4iClKhVdt0jJkVexsbustIUo8sJtaw7PB1q9pUQvzmreGVP5vGMvgIkMHwRn44FFEiqng"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-felicita/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Pizza Truffe & Linguine Carbonara",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default la_felicita;

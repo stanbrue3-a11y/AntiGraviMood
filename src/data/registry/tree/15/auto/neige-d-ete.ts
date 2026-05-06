@@ -5,7 +5,7 @@ export const neige_d_ete: SurgicalPlace = {
   slug: "neige-d-ete",
   name: "Neige d’Été",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['japonais'],
   location: {
     address: "12 Rue de l’Amiral Roussin, 75015 Paris, France",
     arrondissement: 15,
@@ -110,19 +110,31 @@ export const neige_d_ete: SurgicalPlace = {
   description: "Neige d’Été est une ode à l’épure et à la précision japonaise au service de la haute gastronomie française. Le chef Hideki Nishi, ancien du Taillevent, y livre une partition sans fausse note dans un écrin d’un blanc virginal, calme et lumineux. Étoilé au Guide Michelin, l'établissement se distingue par une technique chirurgicale et une maîtrise absolue des cuissons et des assaisonnements, faisant de chaque plat un moment de contemplation.",
   insider_tip: "• **La Discrétion** : Le lieu est très discret, presque secret. C’est l’endroit idéal pour un rendez-vous confidentiel ou une célébration intime.\n• **Le Déjeuner** : Profitez du menu déjeuner à 65€, c’est l’un des meilleurs rapports qualité-prix de Paris pour une table de ce standing.\n• **Le Pigeon** : Si le pigeon de Vendée est à la carte, n’hésitez pas. La cuisson sur le coffre est d'une tendreté exemplaire.",
   specials: {
-    cuisine: ["Haute Gastronomie Franco-Japonaise", "Précision technique", "Produits nobles"],
+    cuisine: ["Japonais"],
     drinks: ["Grands crus classés", "Sakés d’exception", "Thés de cérémonie"],
-    must_eat: "Le Pigeon de Vendée rôti sur le coffre : une démonstration de maîtrise technique et de respect du produit.",
+    must_eat: "Cuisine japonaise. Le Pigeon de Vendée rôti sur le coffre : une démonstration de maîtrise technique et de respect du produit.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFypzzFx2dfwcG5nE8iPYF_DPUaobxwQsgIz_wWlnmQh6ckDJUrOl-jM3ttsr3EmGZvGvQyJCdkCU_3p7AANxpL4wk9ehN2LZQlYI5BdkyLL4MJiUZvStQOcYgbYlec255pRzEYEjFD-1BPNZFbJnCA4ttDtBcRTl7pqptTvwUpDQtdwo7nLVzEVQAKFJ7ZkuhATXcohBA8f5DEcqe66_Lw2XZppHmjiZbzqiKoUQfF6VHpXG3-Y7AJOw8nOQAIVCUn7qIynaoofm8NnQ0CvRM4IVPhuF1sS3lPUUzMvsRbxw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEF8NpcrXLC3raPdC1dR33BV50ero6dc-H34EgmaL9EgSWnd5nrq_GPCfIjSmZhR_4RjUJ7_f0JCYv3b6Nr-TjfY0q9F8h5pt9gwxvjXQaKtMxa0K8cbbvSj087hw379jx6fMBlvomEeDuaesgSBZN6kXLN0649LPFaj8VI04sQg7hgf5cIlZ-pEAq3F-RRmEdRWb_WYCdXHvHLVW_j4cqG4dNNLIqOqqe8Xfa6-HQcUQG19NhDlw8KMvKNMMIY5hcFec4vsMPSCANduUjMnVPNFThQ9yuVav3wTc2B_wZoKsA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH-yKl8Ym6X7GJQDG0x1ZQcmVMt0EC2DIib3RGPXwgr9tE8-09g-hNVHAzwLNf17fl6e6Nd9cGVQ32gpDKqKGtVbAVuO6u0C8iX8qvYG9NopYgkSYRDEpX7Ounz9kzo53r2WNspsWfMmbiGxYxXk9bMLonAuONSYfHwTK9UWfvElsxR613tAe1bP_afVWBoRNG-bKcb44ipFckQz_go9OHsZBayNZ26g_yCcDFO-D2SgDzAEgDW0AE6iFoYQ2ZvjPPDyZe0k3TQIHX5uMcXCFmTt7Nbma40VA4oluM1_pCBkHY3lW3v2HoLpHBq1ZFbB9olEVvH02Rad5LUC1wLIcCmSK2Rb9kbhFzn9yH4pD5n0MACh3_rWB3aONfDC2XpjsLQF3Uaka5OsObsyyXcHRZ9-z54ZKpK4dv4Lkolj1A6uNA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/neige-d-ete/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Le Pigeon de Vendée rôti sur le coffre : une démonstration de maîtrise technique et de respect du produit.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default neige_d_ete;

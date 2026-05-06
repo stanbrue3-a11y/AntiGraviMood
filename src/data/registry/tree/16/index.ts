@@ -23,7 +23,7 @@ import { monsieur_bleu } from './palais-de-tokyo/monsieur-bleu';
 import { tse_yang } from './passy/tse-yang';
 import { carette } from './trocadero/carette';
 import { girafe } from './trocadero/girafe';
-import { maison_revka } from './victor-hugo/maison-russe';
+import { maison_russe } from './victor-hugo/maison-russe';
 
 export const arrondissement_16Places = [
     brasserie_auteuil,
@@ -51,5 +51,5 @@ export const arrondissement_16Places = [
     tse_yang,
     carette,
     girafe,
-    maison_revka
+    maison_russe
 ];

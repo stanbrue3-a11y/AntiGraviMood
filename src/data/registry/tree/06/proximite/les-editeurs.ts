@@ -13,6 +13,7 @@ export const les_editeurs: SurgicalPlace = {
     "location": {
         "address": "4 Carr de l’Odéon",
         "arrondissement": 6,
+        google_id: "TODO",
         "lat": 48.851941,
         "lng": 2.338382,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const les_editeurs: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0Rk_4pTy7y5qxoV_-GnEtAfJM1kJ7ca1DVWmul0KnEvQEbLkEm5JeunkZ1ASzLvoWbF1N6bH_bfnkEHfySor-5sCKoaEU8XcOjA4VHSiNPHZ8H8xBV-lDxORGzJcRyJYvVvCXrwcZMGsrq8nkx4GsdULEG_T0aJ9R3Y5c2MT7k86XM4KrL5PCscS45MWs96Iy51s8rCjvmDZPVNC_ynt1tH0skv2ykEOjIHvMEaeyWHmzPkcPcg7-J8BH3uwIFTaZdQmAKc1B3C6rjtU2IylziAn2sx3BdHWPgzLw0EGTlqw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-editeurs/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-litteraire. Les Éditeurs.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const zhao_st_germain: SurgicalPlace = {
   slug: "la-taverne-de-zhao-saint-germain",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "82 rue Mazarine, 75006 Paris, France",
     arrondissement: 6,
@@ -85,18 +85,30 @@ export const zhao_st_germain: SurgicalPlace = {
   description: "À deux pas de l’Odéon, cette taverne est l’une des plus esthétiques du groupe. Inaugurée en juillet 2024, elle s’intègre au chic du 6e arrondissement tout en conservant l’âme brute de Xi’an. Le lieu est idéal pour un dîner élégant, sublimant l'art des nouilles Biang Biang dans un cadre épuré.",
   insider_tip: "• C’est l’adresse la plus ’cosy’ de la Rive Gauche : idéale pour faire découvrir la cuisine chinoise authentique dans un cadre soigné.\n• Leur thé au jasmin est servi dans de jolies théières traditionnelles, parfait pour accompagner la puissance des épices.\n• Ne ratez pas l’assiette de raviolis dégustation pour goûter aux trois farces différentes faites maison.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
-  images: {
-    hero: "ATCDNfXdGYfQGiX8FPue34TiuIxcFA8E_wd7Ny9VW452zAL_wvBbansf7lGINuRS462XO_ez3LUK-5NtTw-To17148F6zGGJ7Ca4MUPm1X7k-ZeKHNShJZqYy9kr4gHgpVgomCZ8SCP6gdfw26Igx9O5uHxAZmbbhvVS1keA3hCEWvuLsjIJ4D2-hp_4LW8azNtih605CYE8gOgRkidR29Q3BPYssHwIg7zAMtLhvO8tD1zW-PXL9lY596gI0QtNR0g3f-dUKaI1UDFb3s-ubvK6ytXUXQpje5JChXsaXJBR3Fj55A",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/hero.jpg",
     gallery: [
-      "ATCDNfXlaW_WVgRD48bob8NAXDnrclcwvovZPur7OTXYRKVSBvLiOsnhXzY4HHfi_cKeBJ4QfoWvQK1oX5AC5wS9f2Du_t5GOay453MyVAQKejnnuP0EVSSdb00fcyGPUlPfXp8uzPzKCRE7eJWxsoMXwG_cwoXHyM4p0yb1QXXgiEQU0B1xD4DImKPw25Gi7Vf3I74j__1ZnuYR7EjwLIE_DnCE6cWtBZRbIUos5a1y7sDir3tgdfDaUbsLPPOstsf1XRhr2et6WVy8LoTbfqDRRI6V4xnthyzxXEYKI7rD1zv37g",
-      "ATCDNfXPIreGXx8VVUjSEJzq4BFkih9TLz6Yt1wvt2eZJBMsSf2cVxcuYyz6SZXbbzmabub4RyeOmA3bGxcrDa495FqO1-PO3_omfzwVyrlNyHKyICMDMBrfWWbT_4y-Pvl9PJj4Fzz-f9mvHVlnG1DnbFvqNQmT7whuC2pVG59A6ObkuAXMZ6uHFKQ4zSx-Un1GT1EfmRnR8moURqk9K7xodyXt6pWvepoOyuGjvSL_WABTpFqR6BUQAM7W7aQvUKgHkoLswwYyOCigRZjayGVNaOW8_yoUHfmQOH5VNsVZsHFD2lOb2tvKabQxsyQtM-yDS0QTwUZYTA2GeTMSmViHYwEHcQ-jT3iMWARccTUD-3gwtKLUW8mm8obcSgLsaqcjoDywUJ98-JlAJiDRmwbM_o64dkMnnR9vQ_NRijNBaQEwsidNCdW2ldRi2Y8C5rUl"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-saint-germain/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.9
+  google_rating: 4.9,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_st_germain;

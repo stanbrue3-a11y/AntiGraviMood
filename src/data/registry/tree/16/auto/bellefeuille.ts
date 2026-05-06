@@ -90,20 +90,26 @@ export const bellefeuille: SurgicalPlace = {
   • **Cuisine de Potager** : Le chef utilise les herbes et légumes du jardin bio de l’hôtel, ne manquez pas les plats identifiés 'Potager'.
   • **Le Bar de l’Hôtel** : Prolongez la soirée au Library Bar de l’hôtel, l'un des plus impressionnants de la capitale.`,
   specials: {
-    cuisine: ["Français", "Végétarien"],
+    cuisine: ["Français"],
     drinks: ["Vin", "Cocktail", "Thé"],
-    must_eat: "L’Araignée de Mer au Caviar. Une explosion d'iode et de finesse.",
+    must_eat: "Cuisine française. L’Araignée de Mer au Caviar. Une explosion d’iode et de finesse.",
   },
-  images: {
-    hero: "AU_ZVEEBh-DOMNhRW1FknXABgITWS-ZwgBWXMgZZsztyEUUssn3Uoni4IQ3QdRwrmGaDH-WIF9BPN2K9XcfYu0k3WQLanRthgg8ZolA-NyQuqbW18wmm7lyLO9n5mcYcc6rVjyZD3HlCPYPJJRwqzjkSqli4KrHg7CpJvD5Z7vzBKjmFskAfp5ncicwvE83Bka7wpU4bcbtWoRmK-SDjroxo-vxDwxjtRsUJxf70rsOnYJ8q7vX6xt0t9yZTeke197FqpL4MRlTI162F36thW5eMISmAJgfJqw3328QUDXiohg82BQ",
-    gallery: ["AU_ZVEGADITO-kv6gVGNRkW8RsoBXi7ueXL_ohlB7rtMiobf4s7EnfUgeJhTN5MO8sa_tGk8XqlBsR9lxE6C3odL_3jZJy3_5E3Od6XJ9ZBO2Q0_YL2Sg6EtKW_DHqT9vBCfimQC_850iOzMKw14CCTVGVLHwg0S6EXGdTaaH1amqsaBnP8IfrpFE2twFhXJNoHUMLLMFvube49x2G2D8JvDGan0jhvkOx4DClSQkoy1J7ri4SXm5NMlK2YXe_dki27iazzyFNtmDjW9L7ZelUU8Vq6w7IMNY8nBtdaPPwQ3Lifd_Q","AU_ZVEHdmQ5jKyjf6SCDV2JRvekKk7t0MNnoxqh0q4WFBRtzm2e_tJ1eEszJlzLuAm5cKYTZF_4aMd-V6Zz9VqqdsyslYzRY36xK33iV-OSwpnRjyz3RRz9TGLJT4yirBXmT9f_QniM8g32tv9bRYb4Y4K0brTiOFjS2cenBE1TD4E7o2P9DUEP8vgmPBoh5xJmwEbpzSYxAwzpr27TbKB71i7kj0broFtBpgZT5rLKafPlFDXvEECI3pxWIappCnWUXGzJ8COYhf0rpJUi1wbgHB1Wp4Uwhgt13kK0HCCTiOlqQ2g"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bellefeuille/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.7,
   michelin_stars: 1,
   real_talk: {
     text: "Bellefeuille est une bulle. On oublie qu’on est à Paris. La cuisine de Garimbay est d'une légèreté incroyable, avec un focus rare sur le végétal sans jamais être ennuyeux.",
-    must_eat: "Araignée de Mer au Caviar",
+    must_eat: "Cuisine française. Araignée de Mer au Caviar",
     le_secret: "La piscine de l’hôtel est accessible aux résidents, mais l'ambiance du jardin est ouverte à tous pour le dîner.",
     le_son: "L’élégance du silence, feutré par les tapis et la végétation.",
     le_must: "Pour un dîner romantique ou confidentiel où l’on veut vraiment impressionner par le calme et la beauté du lieu."

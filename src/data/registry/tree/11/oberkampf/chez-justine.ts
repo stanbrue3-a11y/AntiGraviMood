@@ -5,7 +5,7 @@ export const chez_justine: SurgicalPlace = {
     name: "Chez Justine",
     slug: "chez-justine",
     category: "restaurant",
-    subcategory: ['pizzeria', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "96 Rue Oberkampf",
         arrondissement: 11,
@@ -95,13 +95,16 @@ export const chez_justine: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWhJgwzp1GkRJiXjqn4q8CpssL80stzvOYkvGc5lRHRBgTuO9FAdon3_MJikTL0OQitxo8SInKpttJQXqi8qUcmITUlWrNxF3z2HrbyS54TbBM_VO4vHRRtZgPZzc7JLySH0SazjNzTdnBYRGxUkw4LTQ-xXQXqi2G0XiH822qrthh22UXLxuBbojop4gl0_G2jqOHsx_F_GhOidbU4dfXqHWgMnRQ2d5Mijn7R-OdDQayozSHieXmaMbrwL8Jhc_p4ufMaX6-MOLs78XejkNMR2GNHSI47VRbDbTTiqck6Ww&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV3iZgg3qEQFpmf-SKk_waski2fjsJ6GD-OD8bkpbghhFme3OJsI_FEs_45m0Dfd31aSgRF7Gu-HK1riOhEkeUELhERN5rbwU0lETp1dy9LA2utSNQSAaqRqdmFpDzqVrlhY9XLdUIdHrmgwenD9pGUWpTVJuJFbudL45_fJwv6SYGpvGfAOOCcBJnTe4JjZqYRoUkQoml-nPwG8HtOM0TcsL2NZJgnhJ_NOA_mVes9-nZuSAcVFu5blUel3kTOHW6I4IXz3URKdX7hSnlZAQjyK4tIiy8xrh8bvTLuyNSNPg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXqLZddKdRi0pf4ymqTlXEkEEBp_rz5LhTX7YxSWtrDlau6Ec8EfWzAHeWzoLD16pSkZdYq_ETr9YpYU7RIMWp2ZqPCw0lh_GPKQ7oERmqaUKOUpXEScQLVrvN---TF-PwmzuYE5nfvlmq5Y75O8RZfUaMuPI6ccCHGTEYo9iyXJPkCAc7TxTnsfucsVwX7iHpPBE0tmPtfaEhc00bAtLbglTzsx7XX22LR-TIFG8JuNH4aH_iUjlgAFgl2OhOxsTDaeBGBeVr2b2Mpc_lQpaz2Xm_n3WCvQgM0dlCyOcwdiw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-justine/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "chezjustineparis",
     verified: true,
     google_rating: 4.4,
@@ -109,9 +112,18 @@ export const chez_justine: SurgicalPlace = {
     insider_tip: "• Les vendredis et samedis soir, c’est blindé et l’ambiance bascule en mode Before festif (jusqu’à 1h du matin).\n• Le midi, leur formule dej' à 16€ est une des affaires les plus solides du quartier Oberkampf.\n• Visez une pizza, elles sont étonnamment excellentes pour une brasserie généraliste, cuites dans un grand four à bois apparent.",
     expert_catchline: "Néo-brasserie au mix audacieux : viandes à la braise, DJ sets en fin de semaine et gigantesques pizzas napolitaines.",
     specials: {
-        cuisine: ["Pizza Tripletta", "Côte de Bœuf au feu de bois"],
+        cuisine: ["Pizzeria"],
         drinks: ["Pinte de bière artisanale", "Spritz"],
-        must_eat: "Une honnête Pizza Brooklyn (Pepperoni, fior di latte) ou, si vous êtes nombreux, réclamez la côte de bœuf saisie à la flamme.",
+        must_eat: "Cuisine italienne (Pizzeria). Une honnête Pizza Brooklyn (Pepperoni, fior di latte) ou, si vous êtes nombreux, réclamez la côte de bœuf saisie à la flamme.",
         must_drink: "Pinte de blonde au coude-à-coude sur les grandes tablées en bois brut."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne (Pizzeria). Une honnête Pizza Brooklyn (Pepperoni, fior di latte) ou, si vous êtes nombreux, réclamez la côte de bœuf saisie à la flamme.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

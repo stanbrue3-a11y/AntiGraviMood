@@ -105,16 +105,31 @@ export const hawai: SurgicalPlace = {
   • **Le Combo Traiteur** : Ne vous limitez pas à la carte assis ; regardez ce qui vient de sortir de la rôtisserie en vitrine, c'est là que se cachent les meilleures pièces de canard.
   • **Efficacité Maximale** : Le service est l’un des plus rapides de l’arrondissement. Idéal pour un déjeuner ’flash' avant de faire ses courses chez Tang Frères juste à côté.`,
   specials: {
-    cuisine: ["Vietnamienne", "Chinoise", "Traiteur Asian"],
+    cuisine: ["Français"],
     drinks: ["Bière Tsingtao", "Jus de Coco", "Thé Vert"],
     must_eat: "Cuisine Traiteur. Nems au Porc & Bo Bun Classic",
   },
-  images: {
-    hero: "AU_ZVEF6ozFpZGVGosIYWNi38CjdmGFPptexqFV-uviEqPu4ChiTjNumWgmhXRzbuqTdlIWurSs-78vfAnf2XGMMlCbeMZGtunJ9SteBuc1DhWRIjw56Z8vvM5TuZDnnF0rI0saUY-lcm61U4aGKJnJKlcXau4dNuHWnva9ZKyoi3N6Vx6g0At17SUrsup_6g3WFusUqHM4Zsj8C27oplRX_nrXLofvEMzGasvLk_Go3kQXol0cgMOIB-phTs26NAWw2rpag0zGXLvu7oBvdJLfaNOGg3cm2176PM6rZHJgW25wdDQ",
-    gallery: ["AU_ZVEHKTmfmqqJE_8v3w_KTOM0jSc6OYldSu_XyCUhLYfsfS4uMC-Zu1Isp1UvMWtbYmqwI9wm8_9UTSbqlt4aM5hj6kiZ3ZaUVgHEFa29Pi5T8DZKkvO8kuWk9SLU81FrCDDUIaWuEHkLCyJUbUtC3YvUC4vD6tmV-WsRWI41Y1OzI1Iq1qPhnIchQRpLFPWruyKLhMuiHvnbHKZ6F3zUjTv1wSQ0s1pPtHw7WYDRkh92YKlG3gkBzdYIUxOP5YInLerTVs9u199JurHk5x-3VflCRWu0MzOPXEBBSnDoHJrNqfA","AU_ZVEFwinIr0DoxVZJlEQO-ubpjF-NuvK7JQwj0TnMl0envLU3mAH8kfJ4FvJ3Njy6rkZSkie2aYCzah-fgG34Beh5bSRL7cdlww4WX7TE9YSPWdLiP5MPo8SvByyNFfOain6jKmdCXe88Cy-7pz11NimPXf3Ts_OOEjftiSshaEGe0Cy2qkgh8RXNsjB8odQzZRJbjB7Vlhdzfkpuzh9XO3j4hbtgxM7JsvS5l2EfRGMc-Ky8XS3g4YhHHx5nfq7m88yyosUst8GuHtn1qGz2399Z7e_VZVP70PCNOS4VT2loifanKddUTzMOSiC5QcAQ98tNl3O4SR8nKYlkFAuIgmENHPqIZADTJSiFX_g1UUTb5-renxyDiAMI9-tfb668J_mkt4yr93BJhsu1-b9sO6_03J3WtGrhpT-ISF2RdZKPoSg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hawai/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4
+  google_rating: 4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Traiteur. Nems au Porc & Bo Bun Classic",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default hawai;

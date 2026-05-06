@@ -79,16 +79,31 @@ export const chantoiseau: SurgicalPlace = {
   description: "Une pépite bistronomique perchée sur la Butte. Chantoiseau propose une cuisine d’auteur, précise et saisonnière, dans un cadre épuré et chaleureux. Le chef magnifie des produits d’exception avec des associations audacieuses, faisant de cette adresse l’une des plus excitantes du 18e.",
   insider_tip: "• **Menu Déjeuner** : À 23-34€, c’est l'un des meilleurs rapports qualité-prix de la ville pour ce niveau de technicité.\n• **Place de choix** : Les tables près de la vitrine offrent une lumière magnifique le midi.\n• **Accord Mets-Vins** : Laissez-vous guider, la sélection de vins nature et bio est pointue et surprenante.",
   specials: {
-    cuisine: ["Française Moderne", "Bistronomique"],
+    cuisine: ["Français"],
     drinks: ["Vins Nature", "Bio"],
-    must_eat: "Cuisine de saison. Crème de châtaigne & Blanquette moderne",
+    must_eat: "Cuisine Français.",
   },
-  images: {
-    hero: "AU_ZVEFWuhzeFwA2XthMYlJKxx8ueFdwrtR2UFJyTEods6ycml_K6rWJgUt0O2jLsAtFyKTFZUi2yQB8r6hpLpqlXlpJ6tnWMtPSFYhxXdAQ2GcbvTdrWcCes2MUfqFUko4yHd3x1nYfjh_DdFbXcWLT92vDzdUvnWif1ZVEO7NR4W33Ff3POgHHixpWlhLCTh8tRdaSYyJwCG9wqPe9F73OKmtiDuHjaBDiHzS1JkfWH7Hf-rD3d5yWa_8_IAkRhDYgtuXRXbOxqVV1V8PusTitMqwxbhP7Ox4efAD7043JGvQMuA",
-    gallery: ["AU_ZVEH_ziLnyLhXqTidugGy-KwoZi2m3t5VnJxUuzs4V7MAo18mCRIftjHjd8hCCEwaEZbZlXQcmeaK6Jyz7Gi-n70ZS7arKbVJAHWImqosroxe6l1RLUbAHggzfZqyCrZGFVV_jGbqePS3vyr4zM8ZYpA6OKm9uVKGy4VD8H2CSgWeyDbUc1r5y-WPPJT74rYHrcKjkyoIOodusaUZm7WcdStyXVxEcq4LZ-kd4NMPtF7ebsw4izuPLotHsmi4VIpFcJwnU-4ixqljGmkfTVRFtxmEgcGdtOSKkuyePCk1ftfDCw","AU_ZVEEdMtNtOSKcl1Gfn6gCwdJvVBk9be83pJYXliNiwwKHaga3Kfm9_489yhhO0YPm-SPBkO0HI2LBu0vQdoOoYYLFWZ1Z-tk3qd33TPd4leGMppe0LvL2a6CefkRA-nI81ohVlSavH5R_Uf2zL9agps3vr6lf9KB6MzlPOrGv1j1XXpEm7uKZH1363rQZ0WF5sBCyTw77EbbQ0iaL-eDWPZInqA1Xr_tACfMt8ZQjSm0Lw977XtcjUjo7J5TW7jA9WWIPt-mTGoWZBziqOxJUhXtMDqabMMmW-emyGnYWLVUcLw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chantoiseau/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Français.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default chantoiseau;

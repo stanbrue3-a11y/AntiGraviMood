@@ -5,7 +5,7 @@ export const mokoloco: SurgicalPlace = {
     name: "Mokoloco",
     slug: "mokoloco",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['fusion'],
     location: {
         address: "74 Rue de Charonne",
         arrondissement: 11,
@@ -91,13 +91,16 @@ export const mokoloco: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUhklRsOQQ2czp1R8TEmx9YkyIs3yJuYztM6UvYF55cC_DDMufhP1w_bjTa-_mfG2zJ7fYMc3lY0ltqnmdFmg3ua1FzjaQ22JzkkVG-fbkK8n-VzDnkQBEIuaAzN8Buz_6DFCle4HrMnARUPuyT62HixMEG8cHshUImHnrGxCLechrurkaLcqcyQPqpin1BgYHdJSVWFnVqhijVvAWpU9kS2qHRDRqXg_Q8sELKUO0CwcXW5SgW_6eOvHQqx01qMiaiknZhqV45kMCm9VYjPzc9PvmDXxBzcGHeL4k3dldHTJxLAS0dTzwdDONQkYBo7ZhvCBOt83Onom6_dk8q4ZSUiSdVgpLlqBU9k9poHX4X3G_VuCQx-rOifwP9XvFc0hh1nA1nId2dg3wPoo1SqZup-Q6YRO61gny7byA3tbdZKVhw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVqHBidCFadIRyq50joYCZZyrPPACOD37HwF1Yzskt-BRR-Eq_M4WU2M7_qmdkRMxdqPOpGEMNfHEhO_sAIIwDXKjJPG5uik5_2oOBFcTARueqoL-cJohuUAhgIrd6wBmbnVbveJGXJjePZHe5PyOgEzRw4pQb0bnV6CMa6rKUH5LGr9H1xOU7VpaO-8ZuUumxiQYIiM7vxvDp2d-4XAeWoPveow8LZmVD8Pq8FYhyZ55evsSe4JZjvCn4KddxHW51-gSHblUdv-L9opAEQi2vr33WKNkhtL4WBbkeKfx0aSffzrfUXNiFPiiSv7GTvHdstUJFSFfG1TMhVXOVyKUci89zKO5UkhNc47vTZf-XkiFwaep-u2Vo5hEsilepNBC64KsL4CT0FG8ORWBxgJwdEP4OW2sIGZ3d3DdwZvAOA43o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVWa_TpgKQM6b64m-8ncgbjKytxVmN1-UFpbgOqOENmEoKoiRMgYZEAjzj4NYkaj3X-hbhu1Oi2mw9ETuMiQDY0fLpKB6KSUvD2n41UssjyQQPL9MSO1O9zfAPiUjKz078tZg3pYyPx9O_es7yV-3pG3wY0vnZo1EKOrLzIbeNtZSoWSutlA-2I1Ahxhb2c7f9FfgDxyeou-Ho2FdP2dBZ_q5xKyWYG4lfNLsBZpdYSaXrXavvWCXZDXipq_g-Rcfi3rpyTmu7S476IKlxJiHqwohwPUQj4lf4tN_u31IP2fYaAhLesLz2EDMBSDN5La44K5e1tob9dJC720v-6No7bYA2Ct13b2VSjRm0YpavPB4JdJ1RtwzlrvkNMaRP82XVBiQZIQ3bFA_z3bherbiQ_OG3is8-plYdonPxL-adM_x2q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mokoloco/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "mokoloco.paris",
     verified: true,
     google_rating: 4.6,
@@ -105,9 +108,18 @@ export const mokoloco: SurgicalPlace = {
     insider_tip: "• Mokoloco n’est désormais ouvert que le soir ! Et fermé le dimanche et le lundi.\n• Le menu dégustation à 38€ le soir est probablement le meilleur rapport qualité-prix de l’extrêmement hype rue de Charonne.\n• L’endroit est minuscule et charmant, la réservation est indispensable.",
     expert_catchline: "La résidence culinaire de la galaxie Mokonuts, avec un rapport prix/plaisir redoutable le soir.",
     specials: {
-        cuisine: ["Egg Jjim (Flan coréen)", "Menu dégustation abordable", "Fusions franco-coréennes"],
+        cuisine: ["Cuisine Fusion"],
         drinks: ["Pétillants naturels", "Vins sains de vignerons indés"],
-        must_eat: "Laissez-vous tenter par le menu à 38€ pour balayer d’un coup le talent de Minsoo Kim.",
+        must_eat: "Cuisine fusion. Laissez-vous tenter par le menu à 38€ pour balayer d’un coup le talent de Minsoo Kim.",
         must_drink: "Un Pet’Nat fruité pour casser le sel et l'umami des piments coréens."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine fusion. Laissez-vous tenter par le menu à 38€ pour balayer d’un coup le talent de Minsoo Kim.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

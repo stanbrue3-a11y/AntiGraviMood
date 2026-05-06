@@ -5,7 +5,7 @@ export const cuisine: SurgicalPlace = {
   slug: "cuisine",
   name: "Cuisine",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['japonais'],
   location: {
     address: "50 Rue Condorcet, 75009 Paris, France",
     arrondissement: 9,
@@ -111,19 +111,31 @@ export const cuisine: SurgicalPlace = {
   description: "Cuisine est un néobistrot d’auteur niché rue Condorcet, où la rigueur japonaise rencontre la gourmandise française. Chaque assiette est un voyage chromatique et gustatif, portée par des produits bios, issus de l’élevage fermier ou de la pêche durable. Le chef Taketo Matsumoto y insuffle une précision millimétrée, de l’ormeau à l'os à moelle signature au demi-pigeon façon karaage. Le cadre, aux accents rétro des années 60, invite à la confidence, tandis que la carte des vins naturels escorte avec brio cette partition culinaire unique et audacieuse.",
   insider_tip: "• **L’Ormeau** : C’est l’un des rares endroits à Paris où l’on travaille l’ormeau avec une telle maestria, sa sauce bordelaise au cacao est phénoménale.\n• **Vins Naturels** : Laissez-vous guider par Benoit pour les accords, leur cave à manger regorge de flacons confidentiels.\n• **Petit Comité** : Le lieu est intimiste, privilégiez les réservations pour le dîner car les places au comptoir s'arrachent vite.",
   specials: {
-    cuisine: ["Bistronomie fusion Franco-Japonaise", "Produits biologiques et pêche durable", "Menu de marché créatif"],
+    cuisine: ["Japonais"],
     drinks: ["Belle sélection de vins naturels", "Sakes artisanaux Junmai", "Pétillants naturels (Pet-Nat)"],
-    must_eat: "L’Ormeau à l'os à moelle (15€) : une association terre-mer audacieuse avec une sauce bordelaise au cacao inattendue.",
+    must_eat: "Cuisine japonaise. L’Ormeau à l’os à moelle (15€) : une association terre-mer audacieuse avec une sauce bordelaise au cacao inattendue.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEE-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEG-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cuisine/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. L’Ormeau à l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default cuisine;

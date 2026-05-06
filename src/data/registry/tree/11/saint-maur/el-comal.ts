@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const elComal: SurgicalPlace = {
+export const el_comal: SurgicalPlace = {
     id: "poi-el-comal",
     name: "El Comal",
     slug: "el-comal",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['mexicain'],
     location: {
         address: "55 Rue Saint-Maur",
         arrondissement: 11,
@@ -82,21 +82,34 @@ export const elComal: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUguplJfBiKHk8LH68KzGrhdD39tTNeMyPNCseXHXWO-fGKp96nSsQr5ZOwJOY20k5Uco99SflcoS-6DB2Bdw0pb9y96PrYnNudhkPyXwPTSOdCdy2uoibBfb9hQRnEza-e4V-O-qI5Xqr1GIASXiNxiGddRyqIKGfwavB38RteVVZyCFvAAxYgegW-hk3G1s9LelyRZaiKT4sYo9U9UWALX6j4Mij_80d2oqOJd3RNSrmnjIW7uB5ewlfySTWF45NiNQId2b_evEgyYq-0fkJog51u9ovKJ1FQfJXMf7yXdA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU1vwdaGiuc0qdUgSAukNSkFkDmsqjk06DSWwCUoaA9F4i1riFvYrgjc8Y3xNlFbYmyhEAl7lj1nBZ83fAxyZHbJ17twfMtfqD4qmTzOukEPZ9QJhQfVyabZCQI4GLeYQ-HMj7yO1-lcz7xQLNhx5FBfZxf8SgDOj1c1rNfn1ouXRPqc6NDn8stgkKz66SUcQx2zl_aOONGPo_lt74M4uysrIIEm-NXGAzZ3fa2ZyTk-oGRtVuk9gQvgPy93uQOMcnpKDhdK9UVgALqNl96dU41OoE_9hqcyMrqo6d6VjE1TA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/el-comal/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Élu par beaucoup comme le restaurant mexicain le plus authentique du quartier. Chez El Comal, pas de chichis : les tortillas de maïs sont faites maison au fur et à mesure, et les saveurs nous transportent directement à Mexico. Mention spéciale pour la Tinga de Pollo et l’accueil toujours souriant de l'équipe. Un petit bout de Mexique sur la rue Saint-Maur.",
     insider_tip: "Ne passez pas à côté de l’Aqua de Jamaica maison, elle est parfaitement dosée et accompagne divinement les tacos pimentés.",
     expert_catchline: "L’authenticité mexicaine brute et savoureuse rue Saint-Maur.",
     specials: {
-        cuisine: ["Tacos artisanaux", "Tortillas de maïs maison", "Spécialités mexicaines"],
+        cuisine: ["Mexicain"],
         drinks: ["Jarritos", "Hibiscus Water", "Mexican Beers"],
-        must_eat: "Les Tacos Al Pastor (ananas/porc marinée).",
+        must_eat: "Cuisine mexicaine. Les Tacos Al Pastor (ananas/porc marinée).",
         must_drink: "L’Aqua de Jamaica maison."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. Les Tacos Al Pastor (ananas/porc marinée).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

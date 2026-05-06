@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const bistrotACote: SurgicalPlace = {
+export const bistrot_a_cote: SurgicalPlace = {
     id: "poi-bistrot-a-cote",
     name: "Au Bistrot d’à Côté",
     slug: "au-bistrot-a-cote",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "18 Rue Lalande",
         arrondissement: 14,
@@ -78,21 +78,34 @@ export const bistrotACote: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUrTpE5x_GpK0HXLHFUvR8Y--7QZqcjX2d-EAi-y_QtOizOn8eyNgWH9ks1F1aHr5g6jzWABT13Rakx5_Z9ba626jtZaVpivKMuoTxMg36El5U2vJoblkgHiD3KBQWV9XM9pJ28Uj0aTMOLMkPw5tkxwh-DB1OnVamFvXMLb4QyL7mdwxCS3imie2qA34xG_IkvL45xaJjEn-EU5MZnYyK8QAP5QVGjRYG6upN0XahvuoLLxh_--L6p-FLGmQsjWA4zCV6xolzgC6Mex7nKxRpO3b7EpkVKNR2iK616DFyrPRjCdrhQQAh6LGnbwAHSlGoYCeVEcr7jMa6onXDR9tgbXzry4xJ9ulyQ3HGBicml3hyxrEi0Zds6oh7xL2NyiC2UBKI6BP9su3hqR6wQI7ZqgtkMrONm7lI42lG20vLatg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXL0-5sbpYusfBsXLHeiWhLJ60QTM9tJomin9wIWiKaWMofjB_QzY4GABYn92QSZNAsf-fpQ8tMaKnldJ4rZbuetw4ljaS3otnWCTbJAFVGjDfBhC3-KbuKfnoRa5U-W7U6lK5WhVLh0AuxkymXvuocjOAgFG1gFIHQpzUA1SpRgl8qDGTcIHGSpQN0aCZIlDg-lj7BRsjVcI32YnhNBF8zCLkxDxVxZJLrOf7qtYGTxd2GabRHcZ4EaYHRFY4fssIAh1fSpQSrJsWuykovbwMFTSwJCIaWNvXbZwmjVtexq00vXEhstClvV8PE24JEiTFO1IEMaaSOnnbheQLlxMpcxUHXhioZ0wiRzvqu9Yr9Y1xFYdWuzS9-JtWhJ3OV6MW4gNeuKY88wh4541ZxBz_f-Yq52hda1AGWtyORDHeOkqixkhPetZ6k4UCESQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-bistrot-a-cote/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Niché dans la calme rue Lalande, Au Bistrot d’à Côté est le type même du bistrot de charme dont Paris a le secret. Avec sa devanture rouge et son intérieur boisé, c’est une adresse qui cultive l’intimité et la sincérité. Le chef y propose une cuisine de terroir sans artifice, où le goût du produit brut est respecté, le tout servi avec une bienveillance qui fait du bien.",
     insider_tip: "C’est l’endroit parfait pour un dîner romantique ou confidentiel loin de l’agitation de Denfert-Rochereau. La terrine maison est un modèle du genre, généreuse et goûteuse.",
     expert_catchline: "L’intimité du vrai bistrot parisien près de Denfert.",
     specials: {
-        cuisine: ["Bistrot Traditionnel", "Cuisine Familiale"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sélection de Vignerons", "Vins de Pays"],
-        must_eat: "La cuisse de canard confite et la tarte Tatin.",
+        must_eat: "Cuisine de bistrot. La cuisse de canard confite et la tarte Tatin.",
         must_drink: "Un verre de vin rouge gouleyant sélectionné par l’équipe."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La cuisse de canard confite et la tarte Tatin.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -92,21 +92,31 @@ export const le_coucou_paris: SurgicalPlace = {
 • **Combo Win** : Mariez votre paleron de bœuf avec un verre de leur sélection de Bordeaux pour une expérience Moelle authentique.
 • **Anticipation** : La terrasse est très courue dès les premiers rayons de soleil ; arrivez tôt ou réservez votre table pour en profiter.`,
   specials: {
-    cuisine: ["Française", "Bistronomie"],
+    cuisine: ["Français"],
     drinks: ["Belle sélection de vins de vignerons", "Cocktails maison"],
     must_eat: "Cuisine Française. Le magret de canard au miel & romarin suivi de la tarte au citron déstructurée."
   },
-  images: {
-    hero: "AU_ZVEHLByhNcm4ukpOqrEqQqfxpyMjz55VeDVexCQul9Zgca9jIhb_C5gPDigsa3Mnc6zk5boaFzMPHwmWbzNo-PtI5aHt3drCZa8JWU4drcngioGlOCHxWl39XOZlr7UpB8eZSGTDD_qeyDMuBWO0u7Jv_luVF94Ie-stk71n7Ebfe22d3-gWx6bcG2PbXhCQXjj5vDZX9kkzXOQJ2dVvL8m7gr_5-XspbahIl1sjg60PINsCy2Pcxlo6k9gL4rJdZusmZgf1EjUArDjDxrrLkn2PW1RnrraZPkFkSDwIL9rD1R8Jp7A7Rq3y5sQFif3fKVyFwd2WA9pOWGI3Ux1743mHDOPhAFU54mnXMHw9y4ysAqw9phRvV1OWA5QLyqCXlrOz0Xvm871KQAJezTrPQ89LPUvE6NDxfuAURrzIBA8fR4wSHQVIiNWlal-Bt3ljC",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/hero.jpg",
     gallery: [
-      "AU_ZVEGovqLZ7aC6c_qameYdadC-d8XBDYmnGexYLGtg9CfwFhA5EkwdQjTpZtorZQO3svy1BBT8ZA_PNb0iZk15fBnUhdscJ_8JzN5ag0aLL08oQ_7_g9QSG5uvMJ8aqi4VFTrlhYVQAeMLTvXFcELa59qavxEn78ZiFuSpWo_2lBacPeQXEYxHKD8Cn4o9EgerpDtJZ7aWCw_KbOobFiYRZPTIyYreAmbrrV9CMhUvvY2LsiceXpDcd8Ubp8X1V54wKU8IcVnHv9aJN4MD2AcetwueCHQUjW57JzywXdbw_Tg_3QnoAGMtF3RYmwpaXnJSjxZ7jNOA84Dj5yoau7ypg4U4LFMze9zVoJ-kC-56tDjEfuXYpoVPg-PmO8_SmayE53nuxN5qofiW0mqqdqWKM3opzORe5rnXFRXmZYvnrwV4t0RYXnYQLz9KfA-Y4KkH",
-      "AU_ZVEEArmQVfG31QHx4IATMo8UdWdz2KFfl6UCnKpIoqGXzedSdDAiHnGpBjOlUbGJpxR0AQU3C8CPRxWnAC24Ev9OzhlJxj5uzhUs0KBsm1DmVcE2gIZW0NSAr9SAPMH7AU4emVieM-95oAbktymLhmPFi3oTO1bDtiB5VmlKenK6tb6T5yXUsrbabGqCcP_8DaidAusFMoNjo4rrHg4T4l2XWbqKOvxNLilS3e-rp_XEYwzghfXJZhn4ccwrBVXQgkwyTfQQR-LeCysYV7AfhOq2Pcs_cXV95OpBzRM75a4rGYQ",
-      "AU_ZVEHhrpQ9yU8Qk-JaOotP_chII9316uvuu_0qRPO3r1XIKHVKWHrkGZ208Tf1DaxXxc41NYFXWzOB3XhP-6SRSntonRNpgdZtlkLM3eHUHx4m27Pc3V4_9gflsvF1pYi1wOE4esZ5TNB_RVgzhadWEmkq-2r1onPHmJbePAa2p-j0BR5OeupvghHv3qpXCfpio847bEOV3-pEEsWJL3f5ojnW_rAVKojzgRBxp7t6kmad90Djx-_fxHWptpnbQ_9Py0MjxUqtoRT8IJpmOV0Nw3otVqO8rRQ-LBL-OIuZXnuKkdX5dcPCvklYFD9oYr2IS7vDCegX3_g-oukPHbzDGlU_k74Zjb7LwwPA5qf7D4SGYlAUWRJvNGwN6MRfZ4kPp9IkOM0BICJRCV6xz2HrlczGSKoA8Cw1n1Ik7hnnIzdm4A",
-      "AU_ZVEECgpHrFf_sEsN0GySZzbE4IhzDz7Lla9Ve_v5JJx2SvZTOfoBRsHke6PYnqQ8f5Y2R_B2Sw8tU1ppkKqpWGYvNhHUueGk6lY5CuPgfv-UySmaSihyqpp1Zzw9syLHRgut81SW55AP6MF3_nehEC6511eKEcKeY02sR5MUXCyrS8xgUX1iiRJ-7NW8Kt4Qz08lWJtRi_RJhDbE6yQZBlrwlB0ZC4jfE8dvzTvKBo6LVb4Il4SPS6PzJVEWZOiJbhIOeAeHB9g36jC4jL5m1h_6IRxbMOr5evJBkAu12jX-95A"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coucou-paris/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Française. Le magret de canard au miel & romarin suivi de la tarte au citron déstructurée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_coucou_paris;

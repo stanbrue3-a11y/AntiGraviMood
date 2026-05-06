@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const lAlicheur: SurgicalPlace = {
+export const l_alicheur: SurgicalPlace = {
     id: "poi-l-alicheur",
     name: "L’Alicheur",
     slug: "l-alicheur",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bio'],
     location: {
         address: "96 Rue Saint-Maur, 75011 Paris",
         arrondissement: 11,
@@ -103,16 +103,29 @@ export const lAlicheur: SurgicalPlace = {
     expert_catchline: "La cantine asiatique saine et zen : cuissons vapeur et bouillons citronnelle guérisseurs.",
     insider_tip: "• La sauce ’Alicheur’ qui accompagne les pâtes de riz est addictive – demandez-en un peu plus si besoin.\n• C’est l’adresse idéale si vous voulez manger léger mais savoureux le midi.\n• Le bouillon à la citronnelle est un remède miracle contre les rhumes d’hiver.\n• Attention, le restaurant est fermé le weekend !",
     specials: {
-        cuisine: ["Cambodgien", "Healthy", "Vapeur"],
+        cuisine: ["Cuisine saine"],
         drinks: ["Infusion Gingembre", "Bière Singha", "Eaux Détox"],
-        must_eat: "Les pâtes de riz au bœuf et le flan au lait de coco."
+        must_eat: "Cuisine saine & bio. Les pâtes de riz au bœuf et le flan au lait de coco."
     },
-    images: {
-        hero: "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alicheur/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.8
+    google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine saine & bio. Les pâtes de riz au bœuf et le flan au lait de coco.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

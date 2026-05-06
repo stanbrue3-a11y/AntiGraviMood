@@ -5,7 +5,7 @@ export const hanoi_quan: SurgicalPlace = {
   slug: "hanoi-quan-montparnasse",
   name: "Hanoi Quan",
   category: "restaurant",
-  subcategory: ['vietnamien', 'français'],
+  subcategory: ['vietnamien'],
   location: {
     address: "2 Place de Catalogne, 75014 Paris, France",
     arrondissement: 14,
@@ -77,19 +77,31 @@ export const hanoi_quan: SurgicalPlace = {
   description: "Trônant sur la Place de Catalogne, Hanoi Quan est une escale vietnamienne authentique qui réchauffe le quartier Montparnasse. Son bouillon Phở, mijoté pendant des heures, et ses Bo Bun généreux en font une adresse incontournable pour les amateurs de saveurs du Mékong. L’ambiance y est décontractée, idéale pour un shoot de fraîcheur avant de prendre un train.",
   insider_tip: "• Les Phở sont servis ici dans leur version la plus traditionnelle : n’hésitez pas à demander du piment frais supplémentaire pour un kick authentique.\n• Pour une option plus légère mais tout aussi noble, le Poké Bowl Saumon avec sa base de riz vinaigré est extrêmement frais.\n• C’est l’un des rares Viet du quartier à fermer à Minuit tous les jours : idéal pour les arrivées tardives à la Gare Montparnasse.",
   specials: {
-    cuisine: ["Vietnamienne", "Phở", "Bo Bun"],
+    cuisine: ["Vietnamien"],
     drinks: ["Bubble Tea", "Bière Singha"],
     must_eat: "Cuisine vietnamienne. Phở Bœuf & Bo Bun Nem",
   },
-  images: {
-    hero: "AU_ZVEGeF4exy3H3hWhOnzNwOexKcui_mfkRFxwVUpSZTLPvRDidifgIyoJcnLJm1UyjbEnuFGLbQTVXn6caP-3iS7osmbb4NaHNkyG4ZaAHP27f_ryAD8TB2J8wkcUuZv1GMY_b0yqAk7fE2NlIvrz4PTVdnf__T3EnEKxg0DhQcoKCpJ5cBMFx-LyjSjHOTg0bYyWjYxnGVpEx-yO4nQkC2Zjau-0YnwUJYtLQxmFTGf7UTFkTRoCE1Z_MnyWY3cZVXYnsgrg88lwfDOt31OMG5EEKx3me0AhJcLaYTtU1DX2ycGqYJKQNuc_RpJOlf2Ktt9cyUUeElMMuof0hpzAjn6al9A-1RF3hFXLVuPQuqewwBb__fesOYStwLKd9BuZM1_OMezirQ9pbXtdLBJAwzVTSTw1gKgxrnU0GIwVZDrk_-SRX85prY9g1bm48ozv8",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/hero.jpg",
     gallery: [
-      "AU_ZVEGJo78fC583VNug8-mj1Ijjm7rHfct5NZkO59RKJAg9FtTieDML78mYJ3ggke1Ya2qOJhXSGfq4hHn4dxn9_GnOeQGkoe6TR9b61QsyvwKVIlY7Cio4RqnkUCAfr_zx1Q_NtNMXivZETjJ8KHY7CfX9o07DsuxPgpRN9a_dddFUnzt6INwg9LsaEm8MD-S6LLoRMHILFkf9PrK8zcK90IkZTmZFFba7eT-naCCduR-_lg6lfadJTN1Er6EDr76NypbNLjwgkLnsB0wJTvy5NnUIV6ZVN0Z1haWCcjBkZk-svA",
-      "AU_ZVEGrQ3b3IVo9HwLiPDdWCWTv7TY01iV4nylFDWvBmxBUwTJ3ir1DUjIQadxjyoSEvQ_aA6v_brcYpy9nyBbGCYMbRckqkR-cKD8bSGdtum90rPkjBJmwcjNuR6WyHX02Nq2W_8mTZ-eYueiWlIWi53YvecVxhf26ePatw2D_qRqgi9l_-c23vgfOTu8BghkVuZo43jpE47TlOXZSu8uJ3xZ5KksrSpEKCBY5kdx5BeIx-TKs6t5p-QYeqo-wAdV2ZHFjvkjtfTNenM-7mEzDTd4y8AYIflq631zfJvYlhPI8yaWdXWgXBwvT1P7ID0MypRE7vPIf3UDG-_a703lhPetQKnMTD1W_VH8-m23Ql21SNUz--qS5JyWQ_9khiH1fAIpJr2joYdBLCrlHIfruZaXtJG7amhftpgvAkWK4SyFWTkcXhR13exhyFPGeXg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/hanoi-quan-montparnasse/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Phở Bœuf & Bo Bun Nem",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default hanoi_quan;

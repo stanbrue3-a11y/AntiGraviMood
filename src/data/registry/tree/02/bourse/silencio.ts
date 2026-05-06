@@ -2,9 +2,9 @@ import { SurgicalPlace } from '../../../../type-definition';
 
 export const silencio: SurgicalPlace = {
     "id": "poi-010",
-    "name": "Mademoiselle Mouche",
+    "name": "Silencio",
     "slug": "silencio",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "club-prive"
     ],
@@ -13,6 +13,7 @@ export const silencio: SurgicalPlace = {
     "location": {
         "address": "142 Rue Montmartre",
         "arrondissement": 2,
+        google_id: "TODO",
         "lat": 48.868936,
         "lng": 2.343468,
         "nearest_metro": "Bourse",
@@ -46,9 +47,24 @@ export const silencio: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?auto=format&fit=crop&w=800&q=80",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/silencio/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Club-prive. Mademoiselle Mouche.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

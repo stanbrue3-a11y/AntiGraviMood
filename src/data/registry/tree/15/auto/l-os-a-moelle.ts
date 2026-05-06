@@ -97,15 +97,18 @@ export const l_os_a_moelle: SurgicalPlace = {
   • **Le Must-Eat** : Évidemment, l'énorme Os à Moelle rôti à la fleur de sel avec ses tranches de pain toastées.
   • **Le Secret** : Le Menu Dégustation à 45€ (en 6 plats) est l’un des rapports qualité/prix les plus généreux de la rive gauche pour un tel niveau de cuisine.`,
   specials: {
-    cuisine: ["Français", "Traditionnel", "Bistrot", "Viande"],
+    cuisine: ["Français"],
     drinks: ["Belle sélection de vins de vignerons indépendants"],
     must_eat: "Cuisine bistronomique. Un magistral os à moelle rôti et son gros baba au rhum."
   },
-  images: {
-    hero: "AU_ZVEHdKwtbNY8659DC7zCJgT8SFQ-Nap40lAoqFPwcdWcgXKnIO8QIWgKU8hZu7s6WLwRdiMUmf6VVYXAgmUzxYjkT9N-tm7tOA5f60GIcJZPGNckHLCZfWZXo8Xjib37YarPiiigYXJ0BLZaN1TstgzZwWLuvllBufEBthodXdMVQLBzdsYfS7ryhk6Tm2grlbVt3gyScJ4TTEeEp_9t8lFT8cgE6oYIFRmNmS0Iq_VuMJkuNvjCx0apyvGVbwlxf4mC1Dm9BkJjcW05oLEZkbQ1-fbhEGgE5eHV4DzX1f37-PA",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/hero.jpg",
     gallery: [
-      "AU_ZVEEcGpHrFf_sEsN0GySZzbE4IhzDz7Lla9Ve_v5JJx2SvZTOfoBRsHke6PYnqQ8f5Y2R_B2Sw8tU1ppkKqpWGYvNhHUueGk6lY5CuPgfv-UySmaSihyqpp1Zzw9syLHRgut81SW55AP6MF3_nehEC6511eKEcKeY02sR5MUXCyrS8xgUX1iiRJ-7NW8Kt4Qz08lWJtRi_RJhDbE6yQZBlrwlB0ZC4jfE8dvzTvKBo6LVb4Il4SPS6PzJVEWZOiJbhIOeAeHB9g36jC4jL5m1h_6IRxbMOr5evJBkAu12jX-95A",
-      "AU_ZVEHhrpQ9yU8Qk-JaOotP_chII9316uvuu_0qRPO3r1XIKHVKWHrkGZ208Tf1DaxXxc41NYFXWzOB3XhP-6SRSntonRNpgdZtlkLM3eHUHx4m27Pc3V4_9gflsvF1pYi1wOE4esZ5TNB_RVgzhadWEmkq-2r1onPHmJbePAa2p-j0BR5OeupvghHv3qpXCfpio847bEOV3-pEEsWJL3f5ojnW_rAVKojzgRBxp7t6kmad90Djx-_fxHWptpnbQ_9Py0MjxUqtoRT8IJpmOV0Nw3otVqO8rRQ-LBL-OIuZXnuKkdX5dcPCvklYFD9oYr2IS7vDCegX3_g-oukPHbzDGlU_k74Zjb7LwwPA5qf7D4SGYlAUWRJvNGwN6MRfZ4kPp9IkOM0BICJRCV6xz2HrlczGSKoA8Cw1n1Ik7hnnIzdm4A"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-os-a-moelle/gallery_4.jpg"
     ]
   },
   verified: true,

@@ -4,7 +4,7 @@ export const la_bellevilloise: SurgicalPlace = {
     "id": "poi-006",
     "name": "La Bellevilloise",
     "slug": "la-bellevilloise",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "espace-culturel"
     ],
@@ -13,6 +13,7 @@ export const la_bellevilloise: SurgicalPlace = {
     "location": {
         "address": "19-21 Rue Boyer",
         "arrondissement": 20,
+        google_id: "TODO",
         "lat": 48.868351,
         "lng": 2.392157,
         "nearest_metro": "Ménilmontant",
@@ -46,9 +47,24 @@ export const la_bellevilloise: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://upload.wikimedia.org/wikipedia/commons/f/f6/La_Bellevilloise.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-bellevilloise/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Espace-culturel. La Bellevilloise.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

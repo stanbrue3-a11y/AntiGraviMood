@@ -28,7 +28,7 @@ export const joayo_luxembourg: SurgicalPlace = {
             "url": "https://joayo-luxembourg.fr/fr",
             "label": "RÉSERVER"
         },
-        "cuisine_type": "Barbecue Coréen & Spécialités",
+        
         "menu_url": "https://joayo-luxembourg.fr/fr/notre-carte"
     },
     "pricing": {
@@ -90,12 +90,24 @@ export const joayo_luxembourg: SurgicalPlace = {
         "must_eat": "Le Barbecue de Bœuf mariné & les Mandu maison.",
         "expert_catchline": "L’immersion coréenne parfaite à Assas : BBQ généreux et banchans illimités."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXAYz6vSlr7oZgf_27bNcuVpnt_LW9cl-e-xnuC3YBhwoZO6lwzFkiF-RQqBvWIMGPxlWg3ty3-PRC_V6UkIisYwLxCbyG-IdvntQ9PYgnwyc2_kJOyjuvpF_xLUk3PGov0ne6f0Of88s0CIC61V3ICbg1cL2T_feuqsCG4VPixRy35NqdEK6mOyuhp27OI_-uOz72OaAyIWXfNFMZfBmiubWWCOgRg3I2znSF1_DZLz9RlNdXoHoXcuFUOWIW1ejJb_xQLAvFwUujum8LNAiXO4n8oNlJ6qYpLOWq_jen2K-JMLgv5X4hJlxz8Lms3p8GbzYAjxlmffaEwqklaPBRFafuDyyWWDnLbGbNJOmF26dtAmOS_jngxWOW8LcCu4ckQ5LhvNWq_FlX-ZDsROerWzvgFYFV47URQtzyiiU9zagxJrBzRk1gC9SHcYn7bvJ66NycF452tY87x4gvY_kz3BdWUFQLlfimRtsD1UHTdfixdXLsVOtpiqy0sHwauZbsrQ3yrPQq2MwxB2REhZuWD9pOlyQ30ST7XQ9pvRGDUPj9Mhxb9ZOkuLXjtlrLCCb9K33mHNPK3Sw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXt6vGDiXPvxgUF0qo8SMI_8_E2o4kDZXxTKsGVPu029vHdgG3jd3bi161rIOJbUF7ypuAjO7UCFO4nhmNIRAfkLnv6gQXCRCFFlXc9AYHMmXSfiJGAtuQzTT30-8xgnVtKMK0KMGbqHZzTnAT3nAfr9PDhZjcHGPAl8N7iQxcZ3HiMpET5rJoIBvpXikYLjiflGtbQ5CD269X-bnp6dCXeRxiWn9MzsHd8VXbyVh571LHwCXnkcmreBUWSszMv9L9OOZ1xXxom5aR9UPQ-7pZ0lL-es6YHJD8YjXPcoLtoS6L4uGAUqkhL8Fj_tmt6bNWbnBrl_6ELyv1V7zFxjYc3WrwPAA4ebk5oHO_WTU2LdfSOQdUPOBXGAWXxSp0vOEE4pCl_nuk95UIX32ZcsDbEU2dW_Oea_DBVC11EQ0aDoFlJy98TTn51JLxPkiPY&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVXy-I6LvPxXJ4v9WN39fFXA5f6U4E89pXmuAZgUb_1Ykh05WnNQM9iaHywCBpDa5BLGv9_f4KcjfjfrKBC9azZNbtLFST-yNZfn7pcfkS6oY-sSYu4ILbluv07VOULodMXhWLU7ZqiAkVsZ_JSOdvY8cXg8a-q7Cks7jrpUVcKxk0olyJMeKq0B8SLfJgaQz2uVW7gRxQOgyJizhh6pmKxGD8U6siHjo4TSUuJ2Bm4BHIBbXem0335gLnk1djXEjOTm-uj6_ZONaUhqddi58Az3lL_yXvQjq-_QJx6sidgkYcM1wseIk9o5PaDT9nFAi1ahI-LZoumiJ5okmSv_G9TCCpwe500rGF4EmT30dkB6NwBe2nEx8GjvYtH2emIRlnMPw18_u6HNQVQr5G4KPmyr5YObueXzcRwYfUPnsQ4x_B3&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/joayo-luxembourg-paris-6/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coreen. Joayo Luxembourg.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

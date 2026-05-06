@@ -108,16 +108,19 @@ export const cravan: SurgicalPlace = {
   • **Le Must-Eat** : Le Lobster Roll est considéré comme l'un des meilleurs de Paris, un passage obligé.
   • **Sans Résa** : Le lieu ne prend pas de réservations, venez dès l’ouverture à 18h pour sécuriser une table.`,
   specials: {
-    cuisine: ["Cuisine de Comptoir", "Élégant"],
+    cuisine: ["Français"],
     drinks: ["Cocktails Signatures", "Champagnes de Vignerons"],
     must_eat: "Cuisine de Comptoir. Lobster Roll & Croque-Madame à la Truffe.",
     must_drink: "Cravan Cocktail"
   },
-  images: {
-    hero: "AU_ZVEEA4QVzG7DqCLOatKghTO0wICh-Fok1BG04raVVLc8TIqYFOHjPOPxSPryBm1MqRuqqsixopbnBLxqXFkrKHD7TfavdKZmfEOHJCEgeRi6VmAtbq2_8uNUPpntf83xvPXmkeeZyncVKb-qsDLZJiH2GnOwmxPRKXf6v9xKB9v2Kg-9DspPQywYi-AAZg3yEVHzs_i-AahWeklhXLKXrNWBgdXqYAvsrOpdGZwI2vFHN4M5jcY-VRuHPHTvNk7K_9kjOPrccBtYcn7QF35rFNf3DHfkRk86GQzCqmywcwOgueqYcR87ngJw34yjUMN-WUZ6Kzb9ewubh0sjWHhYBVBbZPYOxhalFv0Yoto4QnE2wOcT8zmmss3vGw1uH9Fl_0gvCLANevjEXGe7c-q8KBSJ3_s974lxbuZCRrviMDjccijvI",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/hero.jpg",
     gallery: [
-      "AU_ZVEFb9HceyHFmus4gqSg22_AwpZ56RGTBDWpH-5eXAlxYsuIYCKjeYNceBIaNZ4J_2SX9cX91M5RDNzkCw4LnkPBWiQcSXB_UJQsIR_w6scmkaigtxiZn9yJ6e_pExEzUnFV_r065jby18mtFqZQCe2y2d72YjXgrSyr0-KdsUxMqM_ha00gOUcD8F7CvLrKPk7hRsEencw0EjS8J-1lJyCjfnuMwuWfUZ7fE-s2_XQ04u7ut5Ge4Jw7JB-gPwa1g9H9GAad_9gARychbDspopUmlXWNJsVUeapRqbcWq8Vxc5-1omD0-S1KQ2EYxBAoarLRKAQHOfyJ3F2BIstIXmnSjjWQFM354zaHXZlv6jal1YiprzFrtu-A2FiR4CKdzZFPfgyQnKQnLzNi81jkMfZorbaurtIyVaoxdXkoYJXo",
-      "AU_ZVEFyceqab9SjdewLNNLfMrdtdrehnG9cAurKemrb98SBHPfgRtlV2Td_t57QDYNPm62XHhXFWyMSVYVJ9iF_Slmt_lz_y_EwNcUcXihR5JsdKODXnn6fuMCNO-KJ6bk24h8Dy97CdC-t4XsQt-Pi5GcDNxT30qNn1pXRWBJyNHQ-wIx153Wu3H908ZGpjoFVAWkLciXzruGEw7Cdf3dYz13s_k2cqMBTAQckT2-_qTP5spymxdCwKrW-8U0GfWllxUKpzM_P3ISARn1OEus0ITiMjJ07i17c-vaXpx4x41eHPUeB9YyEFc5MZRd9M_K66xM-h78XorXelssNwFYjxNFfFs6an5ksNijvTNiKcNWhGJvO786AGfaGO3u0uOLBfyxlG3IVBJhM0NvSHatc-WvcMpMZ-GPXZQMnRaZBgjYe7g"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cravan-paris-16e/gallery_4.jpg"
     ]
   },
   verified: true,

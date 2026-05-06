@@ -89,16 +89,31 @@ export const le_17_45: SurgicalPlace = {
   • **Expérience Culturelle** : Ici, on n’attend pas d'être servi, on compose sa planche soi-même avec le crayon de papier fourni ; un rituel convivial qui fait partie du charme.`,
   expert_catchline: "L’art de l'apéro sur-mesure avec les meilleurs produits du terroir.",
   specials: {
-    cuisine: ["Planches", "Fromages & Charcuteries"],
+    cuisine: ["Français"],
     drinks: ["Vins de vignerons", "Bières artisanales"],
-    must_eat: "Apéro à composer. Le camembert rôti ou la planche mixte personnalisée.",
+    must_eat: "Cuisine française. Apéro à composer. Le camembert rôti ou la planche mixte personnalisée.",
   },
-  images: {
-    hero: "AU_ZVEGK64Flz2cP60tfEM0jOyyqxRcoQtjKQiclBigSi8jRobzmWkeBvLg9NCISjB_pBxwJbhr5kqCIW0XUB1lfoudY1tSNxoKMaLK4IC7Cc0NxggDtT6KiLldWPzi7o1H3IVww3nrpiicMWsNxP1-I_L3uDBbxKQbRgiie97bhJR1M1G6wiC9GfLeBxKUxAurJf1i7pKD5KShOX_frvyj_-iGAQlpzqCtnacGb929nWLuWbVYF5dsywMbcA_iUbZeWR4fQLRYwNK3ROcHboQeyZBb2a7E-O_WAfVBZXGyY6cwArQ",
-    gallery: ["AU_ZVEHqnAUiSm5ZFiEDKwSStVEAm9QpNRUNYh1ehUxDpafgECZI1suHqrkuAAatMnpDtgRmAF7LCpe9Hv_geZUnXjxEV9qI_usxNiLpCTMT6O-ZxrLOLe30-X9pZ4GI9pJVsVZOOzsBApGgVrbTQgpFVhAZpIpYzarO5jwV8QSZcXlELiCGNoSEd1Z_2eUSNrJH6Pimd5YAjVd-yu-8jo_yr5AmO2aVQe0gS-nO6yWEa-Un7PpI-kwSLFyaADKbC-cploYr1MhNdasI9XmohISd09fEFzeQWUzHyFPp0VBLiHxaYg","AU_ZVEHCT5KbU7xdGNvZdIE71FkV7nzqo4myWg7_YPJyLzM3ttQYHBRsYLZr86zWMfidLVlT48LnsYgmuavDxmB9nEic6b8V0IosrPDXRFZqWP1FXb84sd1Q43FE2KokHJN2y2WA2aHqGpwB2qnl-YXM-OQDNd1vaiKFzCgbOGor8_vG77vD5NaAftsJQNQztlf2f7jjjWKUtFWXShrxcB3nAT51qwB-NRbUyYRkJ_n97IZfbjjjvuHlSxsIPchBCMyBuJD79IpAVePlPOajgDg9LOi_m4hSG1pefSEiKiT5Ucdt53EPuZDQROQUGgUYGAEDCB__3zzxtfcYzn7Jx06Mr-yvOCI_H-ozsGgDBlohvyNTgpuTr5s2x0TiqP64x3ZhEY66WDXXotYmHQ3hhuzEpfQIOvcQjBOxddmwqo-1eiP7ujo"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-17-45/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Apéro à composer. Le camembert rôti ou la planche mixte personnalisée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_17_45;

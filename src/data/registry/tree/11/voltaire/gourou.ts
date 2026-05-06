@@ -106,19 +106,34 @@ export const gourou: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWvP-mU_W05_V5--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gourou/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Gourou est le nouveau souffle de la cuisine indienne dans le 11ème. Loin des clichés, ce néo-bistrot s’inspire de l’effervescence de Bombay pour proposer une ’Street Food’ précise, colorée et 100% maison. Le décor est une immersion totale (Irani Café), les odeurs d’épices fraîches vous accueillent dès la porte et la bande-son Bollywood complète le voyage. Une adresse vibrante, moderne et redoutablement savoureuse.",
     insider_tip: "• Testez impérativement le Vada Pav, le ’burger’ culte de Bombay, rarissime à Paris dans cette qualité.\n• Leur Cheese Naan est fait à la commande et arrive fumant de vérité.\n• Le menu Solo à 19.50€ est d’une générosité rare : idéal pour une faim de loup.\n• Ambiance assez intimiste, parfait pour un date décontracté mais dépaysant.",
     expert_catchline: "L’Inde version néo-bistrot : street-food explosive, déco d'Irani Café et épices millimétrées.",
     specials: {
-        cuisine: ["Vada Pav (Signature)", "Butter Chicken", "Peshawari Naan", "Ghost Palak"],
+        cuisine: ["Indien"],
         drinks: ["Mango Lassi", "Bière Kingfisher", "Chaï Latte"],
-        must_eat: "Le Vada Pav pour commencer, suivi du Murgh Korma à la pistache, une douceur absolue.",
+        must_eat: "Cuisine indienne. Le Vada Pav pour commencer, suivi du Murgh Korma à la pistache, une douceur absolue.",
         must_drink: "Leur Mango Lassi, onctueux et réalisé avec les meilleures mangues (Alphonso)."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine indienne. Le Vada Pav pour commencer, suivi du Murgh Korma à la pistache, une douceur absolue.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

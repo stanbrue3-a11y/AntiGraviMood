@@ -5,7 +5,7 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
   slug: "le-moulin-de-la-galette",
   name: "Le Moulin de la Galette",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ["brasserie", "historique", "chic", "traditionnel"],
   location: {
     address: "83 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
@@ -46,11 +46,11 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
           { name: "Terrine de Foie Gras de Canard & Chutney", price_cents: 2600, is_highlight: true },
           { name: "Escargots de Bourgogne en coquille (x9)", price_cents: 1900, is_highlight: true },
           { name: "Cuisses de Grenouille à la Provençale", price_cents: 1900 },
-          { name: "Gratinée à l’Oignon Traditionnelle", price_cents: 1400 },
+          { name: "Gratinée à l'Oignon Traditionnelle", price_cents: 1400 },
           { name: "Assiette de Saumon fumé & Blinis Maison", price_cents: 2400 },
           { name: "Entrée du jour du Marché", price_cents: 1200 },
           { name: "Carpaccio de Bœuf, Copeaux de Grana & Basilic", price_cents: 1800 },
-          { name: "Burrata crémeuse & Tomates d’Antan au pesto", price_cents: 1700 }
+          { name: "Burrata crémeuse & Tomates d'Antan au pesto", price_cents: 1700 }
         ]
       },
       {
@@ -72,7 +72,7 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
         display_label: "Accords Moelleux (Plats)",
         items: [
           { name: "Purée de Pommes de Terre onctueuse au Burret", price_cents: 750, is_highlight: true },
-          { name: "Pommes Grenailles sautées à l’Ail & Persil", price_cents: 700 },
+          { name: "Pommes Grenailles sautées à l'Ail & Persil", price_cents: 700 },
           { name: "Épinards frais à la crème de Normandie", price_cents: 650 },
           { name: "Julienne de Légumes de saison croquants", price_cents: 700 },
           { name: "Frites Maison double cuisson croustillantes", price_cents: 600 }
@@ -106,19 +106,34 @@ export const le_moulin_de_la_galette: SurgicalPlace = {
       }
     ]
   },
-  description: "Le Moulin de la Galette est une icône vivante de l’histoire de Montmartre. Mentionné dès 1622 et immortalisé par Renoir, ce lieu mythique propose aujourd’hui une expérience de brasserie chic et intemporelle. Sous l’imposant moulin en bois, on déguste les grands classiques de la cuisine bourgeoise française — Coq au vin, Sole meunière, Escargots — dans un cadre qui respire l’âme bohème du XIXe siècle. Sa terrasse ombragée est l’un des secrets les mieux gardés de la Butte pour un déjeuner hors du temps.",
-  insider_tip: "• **La Table de Renoir** : Demandez une place en terrasse pour vous imprégner de l’atmosphère qui a inspiré le célèbre peintre.\n• **Le Coq au Vin** : C’est une recette inchangée, rustique et réconfortante, exactement ce qu’on attend d’une telle institution.\n• **Visite du Moulin** : Le moulin lui-même ne se visite pas de l’intérieur, mais le restaurant est le seul point d’accès pour l’admirer de si près.",
+  description: "Le Moulin de la Galette est une icône vivante de l'histoire de Montmartre. Mentionné dès 1622 et immortalisé par Renoir, ce lieu mythique propose aujourd'hui une expérience de brasserie chic et intemporelle. Sous l'imposant moulin en bois, on déguste les grands classiques de la cuisine bourgeoise française — Coq au vin, Sole meunière, Escargots — dans un cadre qui respire l'âme bohème du XIXe siècle. Sa terrasse ombragée est l'un des secrets les mieux gardés de la Butte pour un déjeuner hors du temps.",
+  insider_tip: "• **La Table de Renoir** : Demandez une place en terrasse pour vous imprégner de l'atmosphère qui a inspiré le célèbre peintre.\n• **Le Coq au Vin** : C'est une recette inchangée, rustique et réconfortante, exactement ce qu'on attend d'une telle institution.\n• **Visite du Moulin** : Le moulin lui-même ne se visite pas de l'intérieur, mais le restaurant est le seul point d'accès pour l'admirer de si près.",
   specials: {
-    cuisine: ["Cuisine bourgeoise traditionnelle", "Plats signatures classiques", "Atmosphère historique"],
+    cuisine: ["Brasserie"],
     drinks: ["Belle sélection de vins (150 réf)", "Cocktails classiques", "Cave à champagne"],
-    must_eat: "Le Confit de Canard (26€) : une cuisson parfaite, une peau croustillante et des pommes grenailles fondantes.",
+    must_eat: "Cuisine de brasserie. Le Confit de Canard (26€) : une cuisson parfaite, une peau croustillante et des pommes grenailles fondantes.",
   },
-  images: {
-    hero: "AU_ZVEGJz6niuxtitZNJgq6zZWzhTIoEmowDO4xhS9f1rEPo2Pw0lph11PK10LxQ4T1x2uOcEX9ARrZf9AYSHWiEFN1Jjhp8R5nXDh-grMkjnrJ58XBxAMH0cV_MwGo0eFhZHNesxuQKIzhTi-Hk0Z3IhP7qg6Rk6opZxEMJvZwyJZ1n9FIuVxJ4gUPdIZNaWBqdO0kgANxdD8xnH-4-QIxuJOvssDXKbrzWa-4-wkEqFB7RNzZIjOOoSNUJnnZ9dK50PDpXuKtVQd4JGK6AQ4NDsHgmUKwwGNgpicWRGK3JXus",
-    gallery: ["AU_ZVEE3_nAPdHns4hoWlqD-0_4ip4QJC75zTRQfbTMFNFrXwGmVLsgJINph2BFryw0SL-MUcZCkrC7qoKBfTjDfAr4xUHchQ3kDdRU6BubPjivSO1iq7nVmNA8MwEqqYO35oE8Qx51mfKSXrs_erbxKtY0tfZPi21i4bONvO0bPdS3IuNI7J23x1xdebnM-VeyF5i81dUxnEoreUiZUn1zkWGsAPYHR3ltpoe1HvU7BLIWtmpn3_vNBLPJOXZDeBl8kagNFH0Ux11xmWAthz7iust3Fr4IodVjbUG19UYnehNjYEvT32yzVM7SU4c5FqtcKMsxfoJ_OyBjZyo2ie7pApNVMOAWOmGsLtTfEwf8BhEGTWZsjBzVxSd7m3aJy9vEWnY03tR9bpdIBx-2MGqQm5cxwOQTPZLR2QyXjAQ91HzzF48-ZNHyGLo0lvyNUInJI","AU_ZVEHKzGbI5E_tq-qEK8yFPA8Xqk6lOON2Pg-RPWw35mcY39o4MisYItQvSpRdL3w3Z6l1nCx2oD-9L61h4Nn7qkGhl9h5s5b_WVm6AjpKG6gnoI7AQqBHVHiEWLd4fAoUv8XZAQNcftaib0bw1it84ires5hsdkdZznss2jrgL8mh8W_WVzAgo1qYbMvQg9a3gDW_L-C7YByS1qnxgPSM4g6Jj3fSwD8cbTC06bUxfKpCWzS5D0qlRhKiFzQoNR_Qwf-5MdyIRE8tjMHnCS_4fY2sYKR3oNr_KYIsN0ztReQ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-galette/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de brasserie. Le Confit de Canard (26€) : une cuisson parfaite, une peau croustillante et des pommes grenailles fondantes.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_moulin_de_la_galette;

@@ -5,7 +5,7 @@ export const sugo: SurgicalPlace = {
   slug: "sugo-pasta-fresca-saint-augustin",
   name: "SUGO pasta fresca - Saint-Augustin",
   category: "restaurant",
-  subcategory: ['italien', 'français'],
+  subcategory: ['italien'],
   location: {
     address: "16 Rue Saint-Augustin, 75002 Paris, France",
     arrondissement: 2,
@@ -90,19 +90,31 @@ export const sugo: SurgicalPlace = {
   description: "SUGO est la nouvelle ambassade de la pasta fresca à Paris. Ici, les pâtes sont fabriquées sur place chaque matin à partir de semoule de blé dur bio. Le concept est simple : des recettes italiennes authentiques, des produits sourcés directement chez les petits producteurs, et une générosité sans compromis.",
   insider_tip: "• **Timing Stratégique** : Venez dès l’ouverture pour éviter la file d'attente sur la rue Saint-Augustin.\n• **Combo Moelle** : La Carbonara est le pilier du lieu, à déguster sur place.\n• **Détail Secret** : Les pâtes sont fraîches, pétries et étirées quotidiennement.",
   specials: {
-    cuisine: ["Italienne", "Pasta Bar"],
+    cuisine: ["Italien"],
     drinks: ["Softs", "Vin"],
     must_eat: "Cuisine italienne. Carbonara Authentique",
   },
-  images: {
-    hero: "AU_ZVEGU-yvi0YgTOeTpPWEFJ1-QGjW-MKu0h6uMUQMa5yf3siZi8Sw8rasfc9Iu_GFdYi_gxX5HDmCZoOM_WAikDXTeDT8q5fvE-EpZHkzt9BioycEtGt_fBaf7Qc_9CDJ4zMBWOU2uhdakzd52-SWXDZjNgP08bfnxw8bXQ8QshcTW_JGoOZP_kjW0qUppfY9bQsjMod4uWogOP4facIoQyvu1k_mTp8l88q27hp-Iy6Nl_Qmp-2bJx1Wd4mJxLMFBP7LVxLcn-oOxVPR5IhkWTJ1LuMP9jk1qiIuz29pJabuJbw",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/hero.jpg",
     gallery: [
-      "AU_ZVEEcKGBAKcbrPVNhXWLWELjn8chwSfMPC74B_ailrjVPU_cwzQz-OC77W6jbotZ_0gHlr3UMO48j7sZZMN900OLKz5PGQgENKIvfQFXU_juvoqNcLnDygFPXxX13uP_j_LzYoB4Kg613jKh9q97-siWP87PNH-pWhRbbomB0yb4WXPWn1kYo5lpAY0sWJDLXKyrJ5CeTGgrzG3XHCPxGal_8SGbcSPIvwPfVH-6weOsB4arpaXuKTy23Rv04zN4xps-PyLxrJBDXxWAO6Jimhuxd3R_XStFbLugPMztaDGye6jVW-HhBHYGC7yrLm2oUXzuvWQxSAS3FPBrM6gWZrDoe6Gd_f5LlUk9u31r7ZaS3T6f_Do4H78oHsAP8ObmGH42i1eKCUF5AB-G6BvjKWeRyBcTbXdhdQ1hQecrjHrQjiMNoUzlk1yZ5fn1V2tJa",
-      "AU_ZVEEsgOuPrf4XQg1ITdy46kz9zoQS1X1M14Kb1BeJSn-2YU_aPSwJyj0pE-ZzmTH6gGbpsHfZGqYr6hvJtQHpygOgyrDHt10u451vbiox-CQqtkd8M3Oi_8OZ0tnvGKdARzqlUbwthN6567Bog6Okjez8GZCcqBAwfY16drqUOkPnhm9D1t1euz4E1vxFuTMR3y54B3yF8DkKGTTP__iY7HG_-dK8CKDXHwM8gWrupBexRvBvRiawqJGSIumERCS3gcYmEFBPAVS3Y-6NUzAZvmXjHQE94Me3ieamUdH32IxSg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sugo-pasta-fresca-saint-augustin/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Carbonara Authentique",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sugo;

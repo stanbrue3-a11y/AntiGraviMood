@@ -5,7 +5,7 @@ export const amalia: SurgicalPlace = {
     name: "AMÂLIA",
     slug: "amalia",
     category: "restaurant",
-    subcategory: ['français', 'italien'],
+    subcategory: ['italien'],
     location: {
         address: "32 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -93,13 +93,16 @@ export const amalia: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVtnFqNBO0_OR7hQ33nZaz5ov57wnojeBqmzdvpri4hH6NXFFWBs0wmsYpq1vEV-IQuEMSfFp81NYromOfQZaBlO9ZMoSHmqv_BaCYNr33ZacJXGHVpjhFTvq_rB2tJkNrGptYzvK50daMBhP8XZQzb8giVSM5gDNaiy2No2W5gdS0NqSqd1M0FTnrTCBkkD2GUC3NN03Ef-cOAoWcz62IOU9tUw8w15ZZ6t98ri6lyuoaxBsYofP2Lw6qafnwlvrpthuCnzrWJAbPAqPjXH16EZiDz_Ua5W4n-AFQXohDkMA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWuVkxbBECbOlchJYmkIoUvRJG-RJr_099QjcSKpqesG-mOuxlR647sjlOEiWhm8iqW4yOpT1OAgZSOHu5QsrNXIVl8zBG-Q8KZDMqOcf6pM-sGmVXrRZrGVAhlY_NPy6s21HuHGsZ2O3uClBqhWTYSgq7c4QhKuzZ3ZhqGY7SRce3TOae89mYhKy-iBpAqgWGgNQGiH_YTeVzpUbcdKpgF1IXGXeCMf2XmeEOkXfnAjZkPzv-fZmt0qQVa6ZT8D6jkPzCjsvsGxZvUYb3JgYpq57RnyzgSL7D1VHTz5d1KhSx78Zd4qnynlGf61NM0FU6qh5X0jYC_J-D5meHxM80L3X8URlK1TXKDD7q2Tgivt3YnpqrJBx43QCXEdw9RKApoyZiCXKPyYtcQjkca3tY8ZRjdCloaK0Ivw1SdLWI4F8IHjTkOXtQGW4_6U9Ua&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXewsvPf8mytICZ3CWX6-Yw40cvt7sLEazjVmVxBFInAjbbYgkSCMK6xe2q0YZXQiQ3O-VHigG2ZiI2RUHW6xJ3ROxe58PIW5yhy6PMk8qEcHgDF8XnKX15hg6vmVOx33SIoilvdkfaPxaOvbkQtJC1EV8LkyEbkx9IF4KkS87a1nmBmYb5QKxSz_05zECTzWO4zPmFteK0SGvhOBxEY1OiqHSb66z4M0NCi7wjDRUMFLFGI9KwsDgZWdzcLu-1cT_PF_3cj02gJQnBLd51b4XsYdU-cn5UOQTJNah0ORWSFQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/amalia/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "amalia_restaurant_paris",
     michelin_stars: 1,
     verified: true,
@@ -108,9 +111,18 @@ export const amalia: SurgicalPlace = {
     insider_tip: "• Le Grand Menu AMÂLIA à 145€ est l’expérience complète — comptez 225€ avec l’accord vins.\n• Le Menu Saison à 90€ offre un parcours plus court mais tout aussi précis.\n• Le déjeuner propose une carte à la volée avec des plats entre 25-45€ — l’occasion de goûter à moindre coût.\n• La réservation est OBLIGATOIRE et les créneaux sont limités — réservez tôt.\n• C'est un étoilé Michelin 2025 avec 4.9 étoiles Google — un exploit rare.",
     expert_catchline: "L’étoilé Michelin 2025 franco-italien du 11ème : 4.9 étoiles Google, le sommet du quartier.",
     specials: {
-        cuisine: ["Spaghettoni citronnés sauce huître", "Barbue aux olives Taggiasche", "Canard confit jus mezcal", "Araignée de mer cappuccino"],
+        cuisine: ["Italien"],
         drinks: ["Accord mets-vins 80€", "Sélection franco-italienne", "Sommelier expert"],
-        must_eat: "Le Grand Menu AMÂLIA (145€) est le parcours signature. Le dimanche midi, la carte offre des plats individuels entre 25-45€ — le deal du siècle pour un étoilé.",
+        must_eat: "Cuisine italienne. Le Grand Menu AMÂLIA (145€) est le parcours signature. Le dimanche midi, la carte offre des plats individuels entre 25-45€ — le deal du siècle pour un étoilé.",
         must_drink: "L’accord mets-vins à 80€ est calibré pour chaque plat du menu — indispensable pour profiter pleinement de l'expérience."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Le Grand Menu AMÂLIA (145€) est le parcours signature. Le dimanche midi, la carte offre des plats individuels entre 25-45€ — le deal du siècle pour un étoilé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

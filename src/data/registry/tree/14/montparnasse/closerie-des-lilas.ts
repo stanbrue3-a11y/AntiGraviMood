@@ -84,22 +84,35 @@ export const closerie_des_lilas: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXiFoBPhdvSQjim9ZCf8a9PLOaY-cO-A1wcLMk2EAnyjD3SrR9TxezvmpeIRhaZ9-5wlPx2AL7fBW-m5cR9T8TIG8J1GotsHNwZJQLujmHlCvFXapE8w4ZOXjCSoCmZ1yzCxH_f8CCsp7Ec2i51XdvXZsi_3xGdUB1ezzZb7nfOZndmM5IGhQqG99zag533Rbph8IP9VhbXMdLD5oIABPrLllu4uBVRhmQnrTL3l3I3EYQ7B0jl9MGjHgZT_bHrWlIvw0MBOGRbHQoGREucg3bjj9vY183yztluaRXgetBvhzGJpHppPB9iuDLPauAy9kN-arBB5dx7MR4GxaNATRpOxQ7CBU_RMPZKp2PhkD5Ht58AGxVm3YhUxUs7lINJX7L8UxmP0ghJ_CkE4r8zodAZ9P1H9_Ax6FdSpXRRuzhhUURd&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWFhQhqFd6kVmc1AG_EwaWMT4ZBVOxjxpDJS1ak1Bw0P52p-xPOjpNDkmAeEiQVqxXpW2gn4xXEGYDZ1He08Hj1wNpVv9_uvY7e8SncoCL6Z2umjlmIKPh3B0zW8y-6UiH2I-AGKWNon6VJre1BmnLRGjT92XHnarXeDg3DXUhCE4BNAbgHLdiGZg0zD-UQuVc5MhodvjUQt7jVLVEdzNVFRNbt3Wwld3qOqujAGljCfi4Sf-bmj31NxGchNmVk16z1glJrthSQ_KmhichhJIq_vsTZNjsKfP9_Z1iZk8bnmy1xXpIzO_zm1PnYyjSMkS_CqBbptLXTray8LlFe2UioA5YyEkdOkJN4odGDk4lvhlLWIdc-xNR0H95IbFPdixFPDF4wwiJyGjPYNbi06qaWif8tZPBpLlbybg0zuV56WA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-closerie-des-lilas/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.3,
     description: "La Closerie des Lilas n’est pas qu’un restaurant, c’est un fragment vivant de l’histoire littéraire de Paris. Depuis 1847, ce lieu mythique a vu défiler Baudelaire, Verlaine, Hemingway, Fitzgerald et tant d’autres. Divisé en trois espaces — le bar à cocktails feutré, la brasserie animée et le restaurant gastronomique sous verrière — il conserve une atmosphère unique de salon intellectuel permanent. Les banquettes de cuir rouge portent encore les noms des illustres habitués, gravés sur des plaques de cuivre. Entre les lilas de la terrasse et les notes de piano qui s’échappent du bar, le temps semble s’être arrêté dans ce sanctuaire du chic rive gauche.",
     insider_tip: "Demandez la table de Hemingway au bar pour un cocktail en solo, ou installez-vous sous la verrière du restaurant pour un dîner romantique hors du temps. Ne manquez pas le Filet Hemingway, une institution inchangée depuis des décennies.",
     expert_catchline: "Le sanctuaire mythique des lettres et des arts à Montparnasse.",
     specials: {
-        cuisine: ["Gastronomie Française", "Brasserie de Luxe"],
+        cuisine: ["Français"],
         drinks: ["Cocktails Historiques", "Vins d’Exception"],
-        must_eat: "Le Filet de Boeuf Hemingway flambé.",
+        must_eat: "Cuisine française. Le Filet de Boeuf Hemingway flambé.",
         must_drink: "Un Hemingway Special au mythique piano-bar."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Filet de Boeuf Hemingway flambé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

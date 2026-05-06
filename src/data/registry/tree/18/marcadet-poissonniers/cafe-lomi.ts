@@ -13,6 +13,7 @@ export const cafe_lomi: SurgicalPlace = {
     "location": {
         "address": "3 ter Rue Marcadet",
         "arrondissement": 18,
+        google_id: "TODO",
         "lat": 48.890308,
         "lng": 2.355314,
         "nearest_metro": "Marcadet-Poissonniers",
@@ -47,9 +48,24 @@ export const cafe_lomi: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "/images/cafe-lomi.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-lomi/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Torrefacteur. Café Lomi.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

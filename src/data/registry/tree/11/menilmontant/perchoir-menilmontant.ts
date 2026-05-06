@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const perchoirMenilmontant: SurgicalPlace = {
+export const perchoir_menilmontant: SurgicalPlace = {
     id: "poi-perchoir-menilmontant",
     name: "Le Perchoir Ménilmontant",
     slug: "perchoir-menilmontant",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['fusion'],
     location: {
         address: "14 Rue Crespin du Gast",
         arrondissement: 11,
@@ -74,19 +74,34 @@ export const perchoirMenilmontant: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/perchoir-menilmontant/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.3,
     description: "Le Perchoir Ménilmontant est devenu une institution du quartier, niché au 6ème étage d’un immeuble industriel. Si le rooftop du dessus est culte pour ses cocktails et sa vue, le restaurant propose actuellement ’Vecchio’, une résidence italo-américaine vibrante. On y déguste des pâtes à la vodka et du poulet parmigiana comme à New York, dans une atmosphère électrique et festive. C'est le spot parfait pour un dîner qui se prolonge en musique.",
     insider_tip: "Arrivez tôt pour prendre un verre au rooftop (7ème étage) avant de descendre dîner au 6ème. Les portions de pâtes sont généreuses, idéalement pensées pour le partage.",
     expert_catchline: "La ’dolce vita' italo-new-yorkaise sur les toits du 11ème.",
     specials: {
-        cuisine: ["Italo-American", "Residency cooking", "Rooftop dining"],
+        cuisine: ["Cuisine festive"],
         drinks: ["Cocktails créations signature", "Vins italiens"],
-        must_eat: "Les Spicy Fusilli Alla Vodka et le Tiramisù.",
+        must_eat: "Cuisine de partage. Les Spicy Fusilli Alla Vodka et le Tiramisù.",
         must_drink: "Un Negroni classique pour lancer la soirée."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de partage. Les Spicy Fusilli Alla Vodka et le Tiramisù.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

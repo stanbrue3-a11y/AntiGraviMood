@@ -13,6 +13,7 @@ export const terres_de_cafe_batignolles: SurgicalPlace = {
     "location": {
         "address": "33 Rue des Batignolles",
         "arrondissement": 17,
+        google_id: "TODO",
         "lat": 48.885082,
         "lng": 2.320520,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const terres_de_cafe_batignolles: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2baVUD7qR3bds2OM-Rr5DUke2GD1ygrNTzAbmbEHODCfxF7fmaOahpe8vffH5frdgls8zsBKEVRl04VlRipCz8iU4v_BalmiUiruO6T-5LGPfGixIZuXyctGiQPKSNCviMdLUnusTmJP7NYguKkDXkBrxFsSgKDQ24O7qRmLrDvR-PMAagJ4poqAIrGoidXxgoftoz0kYJnGtuXHAaGoTUXfgfz1hKambVnvf2NlceGNgXbODAwlXTo-3fNdopplNh_srnYa8sw9CrepiVJlobQL6Qic-SLi11_jYD7IWyhw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/terres-de-cafe-batignolles/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Specialty-coffee. Terres de Café Batignolles.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

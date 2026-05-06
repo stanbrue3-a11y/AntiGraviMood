@@ -79,22 +79,35 @@ export const chez_papa_montparnasse: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXB4h-MRjPCYlmxDbYTAMKzYMMkSngRkDltGvSxzlyPLqFOx6nuDj7r7xXAphNKx11BCovXRMtQC9HxVIkwjui5nUBbdPMTp0fLUQzGSo_TmBadsEJJruMwsSJvcLpXUDkpA-EEgF2KnfloZ_aUmGNFc1GLIurtXHU3Q29razCR6-hb9VQE2yckjvWAXzo-mdEZOcR03yyPZCF7xtW6Sg1wIyP2FQNtVblMbZ07HkHkz7WTbGAPcIS8XG8wXO6lKA8YiovI9EzNXsVupZlT48RuSQVrcYoK1cYzGvGmVbOtew&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUrFA70kaeehWDCUoeSg7boASD7TZPuAcRMaP0ZAGs8rH_EuTIG87PeAt_W42tDWOvKBHJqWlBevEK-pOYkh80eE0fOvEpQPNu7GCXo7o4MD8A3XvcYvmSoNrDvGADeF6kc-Sbmtj3wM_1MlYyaoWOcYzlxWSU4g9gktIcWMPuW-VPyALSvrKMIeHjPZQsYB6Hp1rvD-tVWZo2cqdumhl5h2xmEUW8HX-Mny1CA12KyjKSSRWWtKRO8yj7pxbO1mzb8rSjunNxBM92n7bBPA0xMxVa2IHLxZYp1eDhHP7D_NA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-papa-montparnasse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.0,
     description: "Chez Papa, c’est l’ambassade la plus conviviale du Sud-Ouest à Montparnasse. Oubliez la diététique et plongez dans une cuisine de terroir rustique, servie avec une générosité qui frise l’insolence. Ici, les salades sont servies dans des saladiers de famille et les plats de résistance pourraient nourrir une escouade de rugbymans. C’est l’adresse refuge par excellence pour ceux qui cherchent la chaleur d'un repas de village au cœur de la capitale, le tout dans une ambiance bon enfant où le rire et les bons appétits sont rois. Service continu et atmosphère sans chichis font de Chez Papa une valeur sûre, de jour comme de nuit.",
     insider_tip: "Les portions sont réellement massives, n’hésitez pas à partager une ’Salade Gargantuesque’ avant d’attaquer les plats chauds. L’aligot est filé à la demande, un spectacle à ne pas manquer pour les amateurs de fromage.",
     expert_catchline: "La générosité brute et gourmande du Sud-Ouest à Vavin.",
     specials: {
-        cuisine: ["Sud-Ouest", "Terroir Français"],
+        cuisine: ["Français"],
         drinks: ["Pacherenc", "Madiran de Producteur"],
-        must_eat: "L’Aligot Saucisse et la Tatin flambée.",
+        must_eat: "Cuisine française. L’Aligot Saucisse et la Tatin flambée.",
         must_drink: "Un verre de vin des Côtes de Gascogne."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’Aligot Saucisse et la Tatin flambée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

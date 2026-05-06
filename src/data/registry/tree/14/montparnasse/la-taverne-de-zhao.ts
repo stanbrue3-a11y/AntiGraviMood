@@ -5,7 +5,7 @@ export const la_taverne_de_zhao: SurgicalPlace = {
   slug: "la-taverne-de-zhao",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "11 Rue Delambre, 75014 Paris, France",
     arrondissement: 14,
@@ -108,19 +108,31 @@ export const la_taverne_de_zhao: SurgicalPlace = {
   description: "La Taverne de Zhao est une escale vibrante dédiée à la gastronomie de Xi’an. Ici, l’art du Biang Biang (nouilles tirées à la main) et du Mo (pain traditionnel) est élevé au rang de religion. L’ambiance ’taverne’ invite au partage dans un décor boisé et authentique, à deux pas de la tour Montparnasse.",
   insider_tip: "• **Timing Stratégique** : Visez le créneau de 12h pour éviter l’affluence des bureaux.\n• **Combo Moelle** : Les Biang Biang Bœuf sont une référence en termes de texture et de goût.\n• **Détail Secret** : Demandez le niveau de piment ’moyen’ pour apprécier toute la complexité des épices de Xi'an.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an"],
+    cuisine: ["Asiatique"],
     drinks: ["Softs", "Thé"],
     must_eat: "Cuisine chinoise. Biang Biang Noodles Bœuf Braisé",
   },
-  images: {
-    hero: "AU_ZVEHV_MriBbok-AK-kjlwkJ423Aoj66Y5LHouQQkduEN-I8e2RMN5LqrMKEdDMi_upTXfDBH7DACT-yn_QySATrKCfyjflDTXpHWfdcdfF-hcOewjf6A65xklzvz2FPKFvr_QaiJrCGBrfOvJfskZyugfRGPgDVeqIBEtCZTyxY9Q575cznpflI8UjkdZMa4gD7vKJCKPCgcDQ-AgeVEzqQQhYm3EmTLHH5zECJfp3cxn5BtepBNiT1ZOGFSH3TfrGLXYroTsohbYAYvSTWc3IbyVVf4peC5iL2qykaGEmgQ",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/hero.jpg",
     gallery: [
-      "AU_ZVEEzHCpcBa4xqeHkvmMHojElXhvQys_HqDl-qHHjuYYxoC0nY8y0WZqA2Zj9J0APa7eUKftCKt1yuQc42j0PJwkqyy1vpg3tcBC-KKXP91R0C8AsLzMLLvBNZ3VGyhRiOH_knwkLSRyecqfJa3iML81mVIv_mwK8VTJNnyBCVLV-VivsIy-YGRE-D3qgMYl67E6aC5s-VUMulORTV1ykARvC3yZ1DPNTfVIpYKongOkB5PJ5DoJfd9othdF7DfFZ6H7NIYHhgSteKNOwD7TBRqakQi9PETvLy-Y_d3gwuvc",
-      "AU_ZVEEBjoRzMYQGowL9vpTrDVvmYdA2ZCpiagKPSlBqA_zExe3kA6HaoXfp4xfQwgTlVNmhuiKedxqFvgiWMuM9K7Xdubd9hje1uaBhIweJnOHnM1UuaI6oTDgbXkrsizK4-Rxy2HQvHgZvqQdFBofRXrDBcplqDCpRjNmmDGrROBX2Thadmzy4aPdJxn-6j8MMbrnmTc8qZONqCuOt65vy73B--yq3gmVBaqmKDQe1ln-_09MSr7dRTU-1zPJjnUOBrYuL6_RsHLOt3Djm_kY81uz83Thirb5rYTereVWtHeo4esJTgtMsyc2BlDbjiEVFu3hyVfN21Qwd3ROIOMHstK1al16H79Ir8gnOve-36TZ0th_7nkzY-CzBYzDvoK7RWub-RfvSLZUGERlhiBCs_kTKA5rpWq77DmgO7GtTdHK7MMCaYra816kpUuGSQcOj"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default la_taverne_de_zhao;

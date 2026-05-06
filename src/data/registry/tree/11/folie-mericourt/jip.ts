@@ -70,21 +70,34 @@ export const jip: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVr8U9v6F9iQ3XyhpLsG-PxElZzaSIScNeuJcvI78GS2C9RrjUXXO5o4RHe5_Y_Ew0ZUXHGpfi5b_uFCKy5rPAPFYFzih_HuLhlHhaBqyGUZ_CujiQ-hCno5CJk46DxoHx0VJG2JJmRAjerk&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWl5y2o_fMcR4OeEuGNniiCn664lWNjYqF_VfseYMvJc6tw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jip/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Le nouveau terrain de jeu du chef Esu Lee (ex-Septime, ex-Cameleon). Jip est une ode à la fusion délicate, où les racines coréennes du chef dansent avec la rigueur des produits français. Une expérience épurée, minimaliste et techniquement bluffante.",
     insider_tip: "Le menu à 35€ est une affaire incroyable pour ce niveau de technicité. Ne manquez pas les accords avec les thés coréens ou les vins naturels sélectionnés avec soin.",
     expert_catchline: "Bib Gourmand 2026. La poésie d’Esu Lee entre Séoul et Paris.",
     specials: {
-        cuisine: ["Franco-Korean Fusion", "Seasonal Tasting Menu", "Chef’s Counter vibes"],
+        cuisine: ["Français"],
         drinks: ["Selection de vins au verre", "Thés coréens"],
-        must_eat: "Le menu 3 temps signature.",
+        must_eat: "Cuisine française. Le menu 3 temps signature.",
         must_drink: "Un thé au gingembre maison pour finir."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le menu 3 temps signature.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

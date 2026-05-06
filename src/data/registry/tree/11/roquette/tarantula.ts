@@ -5,7 +5,7 @@ export const tarantula: SurgicalPlace = {
     name: "Tarántula",
     slug: "tarantula",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['fusion'],
     location: {
         address: "13 bis Rue Keller",
         arrondissement: 11,
@@ -82,19 +82,34 @@ export const tarantula: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tarantula/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Tarántula est la nouvelle sensation mexicaine de la rue Keller. Sous la houlette du chef Emmanuel Peña Treviño, cette cantina moderne délaisse les clichés pour proposer une cuisine du nord du Mexique (Norestense) hautement créative. Ambiance tamisée à la bougie, playlist pointue et sélection de vins natures : c’est le lieu parfait pour une soirée vibrante où les saveurs de piments fumés rencontrent des produits de terroir français sourcés avec soin.",
     insider_tip: "Leur flan à l’huile d'olive et au romarin frit est devenu culte en quelques mois : ne terminez pas sans lui. Pour les amateurs de sensations fortes, demandez leur sélection de mezcals artisanaux.",
     expert_catchline: "La cantina mexicaine 2.0 : saveurs explosives, ambiance tamisée et vins natures.",
     specials: {
-        cuisine: ["Modern Mexican (Norestense)", "Cuisine de partage", "Vins natures"],
+        cuisine: ["Cuisine d'auteur"],
         drinks: ["Mezcals de petits producteurs", "Margaritas d’exception"],
-        must_eat: "Les Tacos de champignons sauvages et le Flan huile d’olive/romarin.",
+        must_eat: "Cuisine créative. Les Tacos de champignons sauvages et le Flan huile d’olive/romarin.",
         must_drink: "Une Margarita classique ou un verre de skin-contact wine."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine créative. Les Tacos de champignons sauvages et le Flan huile d’olive/romarin.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

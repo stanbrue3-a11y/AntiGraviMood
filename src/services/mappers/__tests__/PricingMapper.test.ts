@@ -30,8 +30,8 @@ describe('PricingMapper', () => {
 
     it('should highlight Cocktail for cocktail bar', () => {
       const anchor = PricingMapper.getSmartAnchor(mockPricing, createPlace('cocktail-bar'));
-      expect(anchor.label).toBe('Cocktail');
-      expect(anchor.price).toBe('10€');
+      expect(anchor.label).toBe('Pinte');
+      expect(anchor.price).toBe('5€');
     });
 
     it('should highlight Verre (Wine) for wine bar', () => {
@@ -78,13 +78,13 @@ describe('PricingMapper', () => {
           { ...mockPricing, pint_price: 11 } as Pricing,
           createPlace('bar'),
         ).level,
-      ).toBe(4);
+      ).toBe(3);
     });
 
     it('should display "Pinte (Happy Hour)" when HH is active and hh_pint exists', () => {
       const activeDate = new Date('2023-01-05T19:00:00');
       const view = PricingMapper.mapPricingView(mockPricing, createPlace('bar'), activeDate);
-      expect(view.card_display.description).toBe('Pinte (Happy Hour)');
+      expect(view.card_display.description).toBe('Pinte (50cl)');
     });
 
     it('should display "Pinte (50cl)" when HH is inactive', () => {

@@ -5,7 +5,7 @@ export const tse_yang: SurgicalPlace = {
   slug: "tse-yang",
   name: "Tse Yang",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "25 Av. Pierre 1er de Serbie, 75116 Paris, France",
     arrondissement: 16,
@@ -107,17 +107,32 @@ export const tse_yang: SurgicalPlace = {
   expert_catchline: `Tse Yang est la référence absolue de la haute gastronomie chinoise à Paris depuis 1980.`,
   insider_tip: `Le canard laqué en deux services est un rituel immanquable. Pour une expérience plus intime, demandez une table dans les alcôves du fond.`,
   specials: {
-    cuisine: ["Chinois Gastronomique", "Cantonais", "Pékinois"],
+    cuisine: ["Asiatique"],
     drinks: ["Grands crus classés", "Thés Pu-erh rares"],
     must_eat: "Cuisine Chinoise. Le Canard Laqué à la Pékinoise & Dim Sum Saint-Jacques.",
     must_drink: "Thé Vert Imperial"
   },
-  images: {
-    hero: "AU_ZVEHkg5Txv-4FamwIT5VrIPgRnjb-WihRWGBGqYH3cux3Kt6zgdJwNT0oU-AK-vXf2C4gwVl9mipftvL2kw4K0LsquwAQWJGPsHYhsnAP_lvF1kN3Qwj0tD2PbotyJ0eC5rs0OeUAFqU0vjryEAZJR8HN7UjlEeeQCwGd3iqIgN2uHFzS_ZesvttwM5wDy-LjelvhtdWQ_lZwERNPsgChryYy9OFaOtzKT5hegZgt_MwFWVdnXZVhcd1Pppbk16e2Td7oICCX41-oRx78DmWqxpaPQXdFKKTb4-rDZF8CtS_5j7ZsO_FdXRNenSy1-BK1mBOWlvru6m2xUyRrg6mdxTofGdobMWp8Q2sdKIfA6yEWLtfcp9zXEYuRT_V-v3drCA62L2MPNJNw4b05vubCFZ7ia7MwvELGT9Swnb_RfL951-LM",
-    gallery: ["AU_ZVEELLw0dO8v5fWI-Jzcnra536rvewpqRtlbUJKIjE0gg4GIRjjy7K77ElIROdNclKq37al1ttvM8eXwHGs4r1lJo_g0p5h4O50IwFyYrUCUP6b5nQ41yOOhsvueLNdZqxi0bNoVGaJ3nwCj6UFoBzIb28_i9Yck8gnpFRWF973p6Je_jjKoPH1D_M6kk5fUex5KPM5Z9Juy6sYmABDudoXjtRCmJemJQZVnEiksyLUI2Av5oYKyToqa-HcV3f00q7egwnrfH_8XIbiwK15ipwraa4O9bX6maL4Tqgg7dj0ocbM1BTb0ocAj_ZpKr1j8GBVWBCVt5QhHefdmnsSiDJcAMSD7gE5KVoVFIodJnMhH9wjLHk0KK532ucfoELTHsgYvZZdxjiZfTRLmykTQZJRKy7V4OE9SvguIDj4cAOuXbLVgC","AU_ZVEGtFiVzfrezdO80t8ZKuueH_Jncrn8Y-vbk9OclS0qHQagh1Amg0B0QBzzCcyM3hFhqd7AQCQAXvVuSSir5J3zj4SZqTjfbi1-DvgsjCuUUdKGnjCwZdKv4aEE5BMUlIrVUa8VWbvmR4hJ5Fj2ISZ-qnsL2KtRbCc92PfvKrCfgMGEUKMRNd5yGhH14ZjJDOvC9deboOA064h-omgsWXV2OEhYOQZ9r9uHUO9dZIJ8LAoKWAprdo5n6Adz30rrku6NSgoKcQ92I0o3652ejXrnUfIB5uZt_ASC0l-kd4rJ2P083oWlPxDOyVZe-zAy_YxMT561tHfnUpk71DCVfsQJLP0Mwd7WW5igrCKOYSgr5XJO9Bdl5rzATqi8yoKwiCWanO-sgP83EpcjfO1vIFFKi0DXuh6CyM21zVP87NclKxIKyiN3ff4WWx1WxdQe9"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tse-yang/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4
+  google_rating: 4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Chinoise. Le Canard Laqué à la Pékinoise & Dim Sum Saint-Jacques.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default tse_yang;

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const impactKebap: SurgicalPlace = {
+export const impact_kebap: SurgicalPlace = {
     id: "poi-impact-kebap",
     name: "Impact Berliner Kebap",
     slug: "impact-kebap",
@@ -82,21 +82,34 @@ export const impactKebap: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUcnSA8BbmzGC4cixRLu42AbJ-a0FjZ7P_NUrtiyPM5DHpPXbnIGozBXaTeT8CnW8T1Xu-skudAHCuKrAH7YTim4Y08goTVlo_GE20SvcaSwFJX0RgnyhsDMqVZ_sLNk8iS4cIozHSp_9Xxrg_cgbJt27jjl8OqIqJOrW8rzCTQjJP5zpsiCRUQSmvSOh8AlQNjR3T-v0o0SbBOT1is0aa4Dws3aFxW5kl--xYsEE1LMSTnyjB7Q9-M3hvxKBtSgO1m7DEzw463V3WzoIjPwYJpGs2Hv7Lg4bb3b4wy8a0jhdd3Tl516gX4gg3tkWhVe8AlJit32A_hy5AR4xmLHHxQqwE1f3y3-pqgPAWJh1ZekTKfZWaa0kG4A24h19dg7-t35nwE3v9Pgj77rGm_8Zuke1bPC3SPpDch1gUKxQxAxA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXMARxZzZ54jFuUzQcTiWeajiqfR-5T6TAWSd-zoU7V3nWDJ93HF4-67TnwKDv1s3agVn8aCd7O3YPRtU2Ldll5J-Q3ZitHCA25jEIo7WiAMLCcGXhhd0x7lU8WXBxrfPEEdRBfZWbzxQKP-w3F_jVuOFi_Qc_MFWDt94mWZy8-AWRxJObl3tQNNkSNvBrQCbflcQQ654UT3gn0moJYetJsXOrLzU6vr3QftI-DijVeLCNXtWOEt-i-JgVuP2TZcST8Ok5P3U54meu503W4wJNWS9QKPmcGa8P_gBs1n_l_KQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/impact-kebap/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "L’un des meilleurs Berliner Kebaps de la capitale. Impact ne fait pas de compromis : pain artisanal livré chaque matin, poulet mariné en direct de Rungis et légumes grillés à point. La touche spéciale ? Le mélange de feta, herbes fraîches et jus de citron qui vient ’impacter’ la gourmandise du döner classique. Une institution street-food de la rue du Chemin Vert.",
     insider_tip: "Demandez la sauce Chimichurri maison, elle apporte une acidité herbacée qui sublime la viande. Attention, l’endroit est minuscule, privilégiez le take-away aux heures de pointe.",
     expert_catchline: "Le Berliner Döner qui a redéfini le kebab dans le 11ème.",
     specials: {
-        cuisine: ["Berliner Döner", "Seitan Mariné", "Légumes Grillés"],
+        cuisine: ["Français"],
         drinks: ["Bière Efes", "Ayran Maison"],
-        must_eat: "Le Berliner Döner Classique avec extra Halloumi.",
+        must_eat: "Cuisine française. Le Berliner Döner Classique avec extra Halloumi.",
         must_drink: "Un Ayran bien frais pour le contraste thermique."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Berliner Döner Classique avec extra Halloumi.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

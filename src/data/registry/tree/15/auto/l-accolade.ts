@@ -115,15 +115,30 @@ export const l_accolade: SurgicalPlace = {
   • **Le Must-Have** : Demandez s'il reste du mille-feuille en arrivant, il part extrêmement vite.
   • **La Table Stratégique** : Le petit coin banquette au fond pour fuir l’agitation de la Croix-Nivert.`,
   specials: {
-    cuisine: ["Bistronomie Française"],
+    cuisine: ["Bistronomie"],
     must_eat: `Bistronomie de haut vol. Poitrine de porc confite 12h & Mille-feuille croquant.`
   },
-  images: {
-    hero: "AU_ZVEHuaKfPNtAhtZC-NsFRB62rYXUDmZBDGL5iEe8mrABLaM87z-wZWymo1ZaBeLHEztYW9SOyfOBFbjgU8b-rct5J2kANAz6I4_Z7OiuBxR-KMIZa26-Jt79geyho90wyMd8GB3QlvT7PREBUdo54jPD3iTh3nIorYohCRO81Q-vu9De4JWWlEaboxpBbLD7_ivzTbDr5S62iW2wjji9GOXgm1VXhKZeUw-D7wjGdsxokb8LF_Nwk7VbbbXIG8zPnYDENCr-BWoLxn-qenPFx2ualLS8ysBfnPrZjyVWDosQWqA",
-    gallery: ["AU_ZVEFg9hUYewKjA9ZfI16dyOcWKNrPLmz8eF9JGDY-Xn4E_rUAPnRylOQW_QfhlJsNkFNpRRMBc9W2DoIwLuVqBFKpXn4TeDxOnE8Sa668X33x-b8zz_FHTGmX-Oi9g_qn3SzPKuwhCeP_Z0Ff_f35rBDDtZApS6_06NCqSXS7MFX_gjGqKssyle_umeI9x98kSSQHCIiWzYdpu5jUKuwiUQSOcTGpq_5llADc-dyrceXg6jkeC1j1LCBy0IWBVvQcQWZDllS9RFfIi2lqdJHBYunjxl1SmTdwYT_T0eJ4Hx2q0Q","AU_ZVEGvKEXKf-o5Q2S9taQSKfwmoSRpPWm7O0L7Yh6wQVG0xC93-lkT5jBoKdNNYdnfIAlBOm4V3imINkLTDjWePNLmKuhbGm_GpNxISbvMH2L7AG_vL0R9vMjaplUF5e42asNz4a8sucvPiGv2_tpdzOi9D49R-MCE7SfqPdpBTwzYi38cZRCvUoUGXRfoxcZgYN1DS3MDbytJVkPkEaKCtVhCN79-6aXYMXMzw10Ss2sNJJIe8K0c4JxTJ_QVauouPAbUyUAgrECPabm0dEvHpR6tcnFAl-998VQUaP3ASxs6OA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-accolade/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Bistronomie. L’Accolade.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_accolade;

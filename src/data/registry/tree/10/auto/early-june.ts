@@ -5,7 +5,7 @@ export const early_june: SurgicalPlace = {
   slug: "early-june",
   name: "Early June",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "19 Rue Jean Poulmarch, 75010 Paris, France",
     arrondissement: 10,
@@ -109,19 +109,31 @@ export const early_june: SurgicalPlace = {
   description: "Early June est l’adresse la plus vibrante du Canal Saint-Martin. Ce comptoir de partage, reconnaissable à sa devanture bleue, accueille des chefs du monde entier en résidence pour des expériences culinaires éphémères et audacieuses. Ici, on déguste des petites assiettes créatives où le produit est magnifié par des techniques modernes (fermentations, fumages, macérations). L’ambiance est décontractée, festive et portée par une sélection pointue de ’vins vivants’. Un lieu de passage obligatoire pour capturer l’esprit de la nouvelle scène gastronomique parisienne.",
   insider_tip: "• **Le Concept des Résidents** : Vérifiez leur Instagram avant de venir pour connaître le chef du moment (Japonais, Mexicain, Scandinave...), l’expérience change du tout au tout.\n• **Premier Arrivé, Premier Servi** : Pas de réservation pour les petites tables, arrivez dès 18h30 pour sécuriser une place au comptoir, le spectacle en cuisine vaut le détour.\n• **Le Vin Orange** : Demandez conseil, ils ont l'une des meilleures sélections du quartier pour découvrir les vins de macération.",
   specials: {
-    cuisine: ["Assiettes de partage créatives", "Chefs en résidence internationaux", "Cuisine de saison sourcée"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vins vivants / Naturels", "Vins oranges d’exception", "Kombuchas artisanaux"],
-    must_eat: "Le Financier Minute (8€) : servi tiède, croquant à l’extérieur et fondant à l’intérieur, c’est le doudou calorique ultime.",
+    must_eat: "Haute gastronomie. Le Financier Minute (8€) : servi tiède, croquant à l’extérieur et fondant à l’intérieur, c’est le doudou calorique ultime.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERv-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLB-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/early-june/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le Financier Minute (8€) : servi tiède, croquant à l’extérieur et fondant à l’intérieur, c’est le doudou calorique ultime.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default early_june;

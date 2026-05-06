@@ -111,19 +111,31 @@ export const le_pantruche: SurgicalPlace = {
   description: "Le Pantruche est l’institution indétrônable du 9ème arrondissement. Dans un décor rétro-chic aux accents de bistrot des années 50, le chef Franck Baranger signe une cuisine bourgeoise modernisée avec un brio éclatant. Récompensé par un Bib Gourmand, le restaurant se distingue par sa régularité et ses plats signatures, comme l’inoubliable soufflé au Grand Marnier ou la côte de cochon fondante. C’est l’adresse idéale pour retrouver l’âme gourmande de Paris dans une ambiance chaleureuse et élégante.",
   insider_tip: "• **Le Soufflé** : C’est la spécialité incontestée de la maison. Léger et parfaitement équilibré, il justifie à lui seul la visite.\n• **Le Midi** : La formule déjeuner à 25€ est une aubaine pour les gourmets cherchant l’excellence à prix serré.\n• **L’Ambiance** : Privilégiez les banquettes pour profiter pleinement de l'atmosphère feutrée et conviviale du lieu.",
   specials: {
-    cuisine: ["Bistronomie bourgeoise", "Soufflé Grand Marnier culte", "Produits du terroir"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins d’auteurs & biodynamiques", "Grands crus confidentiels", "Sélection de spiritueux"],
-    must_eat: "Le Soufflé au Grand Marnier (12€) : une prouesse de légèreté et de gourmandise, véritable totem de la gastronomie parisienne.",
+    must_eat: "Cuisine de bistrot. Le Soufflé au Grand Marnier (12€) : une prouesse de légèreté et de gourmandise, véritable totem de la gastronomie parisienne.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFs-quV2l56T3LR7nleAV2qXXxpa8wbXRqt1oBWxao4Xfqm0yeXv6I3UGHaq4-TcJ3_-5N4BQ8R9WZDGwYBhtG53fU7jqL6YxiduVGsBglPr32daVne49MuF3M-yF5cAsMyV53Hxs9XNFR792QeRwJzd-JuiRC5mvJkedeT1JVCePDoP7f5ARavbBLdwdOFw_PBU-_Fx_wKMKC047djGqiVN3zmyfmrn2ZBAI2RUYnDBTCO_S-3Q1G7-l4vUTxzFEHJiZAZ3ILtOuAoKpql-ZoB7Mri2l9xhl5aHSMsOgrnPA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERo-GVR9JHcRz1wKYYxsC2pU8-JzW1dwBv7xw9N3aiSlG2EbKN_UqEDlkBqT-RbDYZdu71snTmOJ9JdIn0Kc6F9mxYaFqDOG45YyHNbLyrEAt_SurzKrIEeTdf2cVXgzStF2fdnHbZ2T44wE6wq3yHX7JaUSqL2ClbOTySqDIyWOjkdnLmcKRqqE2WWdSowPflmqEZDSwCyH4fsFGOB6bNZBRmf6zGL6BOgL5GfT5J6KJzO8ARJw5f3T-hSM4FBiZwgQEMzcFfR8sP4KVr2G2CkO9It4ZFKrP6rDnP3I2KOg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLBCOW6Sq5vNaiHS8f8XlcOYcGTHdtX451bzxACAweCwwyQ_jUDSnNlf2E-WXPtUfqxPFPiNwyufOn4031K4QeEZmH37xtq0AKFdC61iJezLd8K_RaDzvLYMDtEq0VinAee3jscGSMB5flcM0eDxwG-X5ILnAikFXBxUBTYwRepsu13y7kbsQoGl5tCuT9tCBiEdU9mgE5SFrRKRMbAA89sL4EMNPDqMWbTuXkGALmGISyMrnC-DbZ_qiVSac27dsqx51NHj2rCAnYdGX6lf0ino3169cL10_Jm1lQEXT54QuhY-HEdyPgLJGpVjWIlA4LThiZrJp5r0G61sE4ZGXb4B2DoqLX9hDDJiKq84ApLJ0EyhVKaMjrw5Tv3uAQLY0Vedjccv3d8yE7y-86LI3CPxRhiJBKCcBTVX55qaxiDAI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pantruche/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Soufflé au Grand Marnier (12€) : une prouesse de légèreté et de gourmandise, véritable totem de la gastronomie parisienne.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_pantruche;

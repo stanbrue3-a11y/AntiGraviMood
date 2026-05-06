@@ -76,19 +76,34 @@ export const reyna: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVeVHU3zFzoEbNC5zhMhxVdIe1pXOTU8RPYBI6e2NCQxGry40eZ01_9PKOoop8j1mhGlxWq8HDbKjBssWAOnogfXOZxmP39jEX0jNq9of2SfTXzi-0N8rGRObRcYxzODskZo8-uYUNdnXnwvm_CQwdRhsJF6E11nPYop2ah0TmQMK2ZBjsKRKY9Zqcn9TqOszDZqc8O5PniSfb2ZnizYyXKQCYwFf5BsKnlm8Nq0v8kb01I6DM3jhU8WOSbXnNjZoBkc05-uvfYKZ0Lzciphm9qg0nRO3QqD-0wqID-eDGuoTrZDSvl1aArXt1IwwmkEZcFzDd0SnjFQ8K0WuwZVpsl5hyKyk-2AaT8p57Qsz5gMTYSI5PGgO-btJ2y0Xg7GVGBZQP9_uUKnuyjN-m8pw-CsE2CraLYipPImUL7u95b5vLpovNa3PnIJEMnNkqrDe-WHZXbEO4qH47wsRS_JmHmP2OrscR52zjTtxaz5u48FqkeVy5Up0t7CSOiMSWt5MxLUP0AKANb2J5go2VSySXLCP__0GyjkNZgHTr8LrrFQ4UuVdhN9P_C1UNDB3Bs0BFkjPux&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/reyna/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "La ’Reine' de la fusion philippine par Erica Paredes. Une cuisine de tripes et de cœur qui bouscule les codes : ingrédients saisonniers français rencontrant les punchy saveurs de Manille.",
     insider_tip: "La Hainan Burrata est l’entrée incontournable : un choc thermique et gustatif génial. Le lieu est petit et très prisé, réservations impératives.",
     expert_catchline: "L’explosion des saveurs philippines revisitées avec élégance.",
     specials: {
-        cuisine: ["Filipino Fusion", "Kare-Kare", "Lechon Kawali"],
+        cuisine: ["Français"],
         drinks: ["Natural Wines", "Asian Infusions"],
-        must_eat: "La Hainan Burrata au kecap manis.",
+        must_eat: "Cuisine française. La Hainan Burrata au kecap manis.",
         must_drink: "Un vin blanc minéral pour équilibrer les épices."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La Hainan Burrata au kecap manis.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

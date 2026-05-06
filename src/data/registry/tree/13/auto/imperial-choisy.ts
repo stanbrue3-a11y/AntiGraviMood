@@ -79,16 +79,31 @@ export const imperial_choisy: SurgicalPlace = {
   description: "L’Impérial Choisy est une institution incontournable pour les amateurs de rôtisserie cantonaise. Réputé pour son porc laqué Charsiu et son canard rôti d'une tendreté exemplaire, le restaurant offre une expérience authentique dans un cadre simple et efficace. Un pilier du quartier depuis des décennies.",
   insider_tip: "• **Combo Moelle** : Optez pour le riz aux deux rôtisseries pour goûter à la fois au porc et au canard.\n• **Accompagnement** : Ne négligez pas les légumes Choïsam à la sauce d’huître pour équilibrer le gras des viandes.\n• **Timing Stratégique** : Le restaurant est souvent complet le soir, arriver tôt ou commander à emporter est une excellente alternative.",
   specials: {
-    cuisine: ["Chinoise", "Cantonaise", "Asiatique"],
+    cuisine: ["Français"],
     drinks: ["Bière Tsingtao", "Thé chaud"],
     must_eat: "Cuisine cantonaise. Riz aux 2 rôtisseries & Canard laqué",
   },
-  images: {
-    hero: "AU_ZVEHkKxaCPiKTnldkNLjZ_Onlmrk5wYsyByLMty98hKv8TvBKdqXJSVGkvB3cKLQ1JqZ0ATrJ5t2p4R1GYd1CQvocYFf8CK4MBtoTbdRgKAe9CujRnkzDuOrRZn0sku18ftthsW-liOYZ_I-uCrAcMxacAEAONZtoYCwWluxUCuP_ekkoCyEQHtbWRsTcz8XgOsTPmLSwiObVoZNIzkC5uD9RL-QV7rR-y_SYUw-pD32krd7YQ3NQFZJ3rO0sBVcMG_L2YImueH1cz8Le5lhnL9Mh24PvdoorGI3D5981QP4oSxP6T3GzpANKRIlm8qh6O1XBr8ty_al4arjYIVA9deZeYoq7EPqKlEZnFuY4K5qApfML4M64H2qJCS-SOTBz8R2cCTjKkXPZxUneksTAdFZGwv1p7J3iPOh3Jt_QlbHQ5cg",
-    gallery: ["AU_ZVEEPRQgUkZsc8XxaeK0RS1KmqanvFerDk-cmYZsHQh8p9ITNWbg636isztm9nJZRAesJTzEo8pnFJqkpx8NSm5af2UnCq1N464P_wP_zBmw42j-VMsQRs1j9fNfaavAB0IVxJp_myHFgIs_O4s861obGGzz_FhNZteU7HuV7i22AiioWNgxYR5AFOKsOT4YlBzavZnAoy3r2UdKww3GC_ZWwQxxzaRs93pWcmaWr6PRKNk_yeNxvqLTudVGIfIhegfS3bzuFRuWRmHR_-3W1qoexr2bk3UP4dNlACunSypBiNMQHvWg5Bf_gt4z9FXSJrCeOfr-kR7d3bs--nf9wRgcEVIM10YnggHP0iDWFtxy9UAi8zSnbLKc3kwrUA68jZ7pRoRjLzdrQOTjK5xh0YW3BNyLuAx1UFenaa8aNI9iwGA","AU_ZVEEj-3FLJSnS3oq4grT5OfBKG4oo7L7y20HQnsu7OZkFfiuRbJgKEf7ddksa_CwagZ8H2bMbHrauSlLmq1tgQCHb_WnMqeJZVi_4Wt0cfkI7UsJc7vgpAb21YsRU82eE0fSQfm8kEYt64HwvOtf-mZTMq3xytoJPjG4jQfO-MM__fvfEI40_zkyDCME6t2Yk5scFUaqn-1L2B_V0lkT509CuS3jwEIuqsOzzh-gxOeVFw6FRSSHZ1qCXtadA_E-_pC_YBY5D02-BY9xQ-yYZylmHe9L24N21BnVpigEOTf9dyPMgLWJN31uIhCARNcChfSfXl73MMff2m08F9rgxfuTkyeL8C1A-2gumTsqiAwsgGV_zEk8mbEcge6LTtxSLcdesfiI7wfBMDZAicbdbmHQEwpMP4GQy-HATDsTs4EduRr3KUwlmVjnjy8KUbw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/imperial-choisy/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 3.9
+  google_rating: 3.9,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine cantonaise. Riz aux 2 rôtisseries & Canard laqué",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default imperial_choisy;

@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const lAmiPierre: SurgicalPlace = {
+export const l_ami_pierre: SurgicalPlace = {
     id: "poi-l-ami-pierre",
     name: "A l’ami Pierre",
     slug: "l-ami-pierre",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "5 Rue de la Main d’Or",
         arrondissement: 11,
@@ -76,19 +76,34 @@ export const lAmiPierre: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ami-pierre/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "L’Ami Pierre est l’exemple même du petit bistrot de quartier que l’on voudrait garder pour soi. Situé dans la calme rue de la Main d’Or, ce lieu respire l’authenticité avec son comptoir en zinc et ses nappes à carreaux. On y vient pour une cuisine française sincère, sans chichi, où les produits (notamment les viandes de Normandie) sont rois. Un accueil d'une gentillesse rare qui fait de chaque repas un moment suspendu.",
     insider_tip: "Leurs frites maison sont une pure merveille, n’hésitez pas à demander un supplément. Le midi, la formule à 14€ est imbattable dans le quartier.",
     expert_catchline: "Sincérité, générosité et tradition dans ce bistrot pépite de la Main d’Or.",
     specials: {
-        cuisine: ["Bistrot traditionnel", "Cuisine de marché", "Viandes de terroir"],
+        cuisine: ["Bistronomie"],
         drinks: ["Petite sélection de vins de vignerons", "Apéritifs classiques"],
-        must_eat: "L’Andouillette de Bretagne ou l'Entrecôte Béarnaise.",
+        must_eat: "Cuisine de bistrot. L’Andouillette de Bretagne ou l’Entrecôte Béarnaise.",
         must_drink: "Un petit rouge de soif servi au verre."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’Andouillette de Bretagne ou l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

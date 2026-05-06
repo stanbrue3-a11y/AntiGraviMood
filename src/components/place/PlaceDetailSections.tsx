@@ -190,9 +190,6 @@ const ExpertTalkSection = React.memo(() => {
               {/* HEADER: LABEL + CUISINE + CHEVRON */}
               <View style={sectionStyles.expertHeader}>
                 <View style={{ flex: 1 }}>
-                  <Text style={[sectionStyles.mockupLabel, { color: primaryColor, opacity: 0.8 }]}>
-                    {sectionLabel}
-                  </Text>
                   {cuisineLabel && (
                     <Text
                       style={[
@@ -203,6 +200,9 @@ const ExpertTalkSection = React.memo(() => {
                       {cuisineLabel}
                     </Text>
                   )}
+                  <Text style={[sectionStyles.mockupLabel, { color: primaryColor, opacity: 0.8 }]}>
+                    {sectionLabel}
+                  </Text>
                 </View>
                 {hasMore && (
                   <Ionicons

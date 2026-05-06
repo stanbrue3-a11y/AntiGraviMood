@@ -5,7 +5,7 @@ export const le_galopin: SurgicalPlace = {
   slug: "le-galopin",
   name: "Le Galopin",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "34 Rue Sainte-Marthe, 75010 Paris, France",
     arrondissement: 10,
@@ -112,19 +112,31 @@ export const le_galopin: SurgicalPlace = {
   description: "Le Galopin, niché sur l’emblématique place Sainte-Marthe, est une adresse incontournable de la gastronomie créative parisienne. Initialement lancé par les frères Tischenko, le lieu est désormais magnifié par le chef Julien Simmonet. Sa cuisine, fruit de voyages au Japon, sublime les techniques de conservation et d’extraction (Ikejime, fermentations) pour offrir un menu unique d’une précision chirurgicale. Entre influences nippones et terroir français, chaque plat est une œuvre d'art brute, servie dans un décor de bistrot authentique et chaleureux.",
   insider_tip: "• **L’Influence Japonaise** : Ne manquez pas les poissons préparés selon la méthode Ikejime, la texture et la pureté du goût sont incomparables.\n• **La Place Sainte-Marthe** : En été, la terrasse sur cette place qui ressemble à un village est l'une des plus magiques de Paris.\n• **Saké Pairing** : Laissez-vous tenter par un verre de saké avec votre entrée, le chef Simmonet a une connaissance pointue des accords franco-japonais.",
   specials: {
-    cuisine: ["Gastronomie créative fusion Japonaise", "Techniques Ikejime & Fermentations", "Produits de saison ultra-sourcés"],
+    cuisine: ["Bistronomie"],
     drinks: ["Belle sélection de sakés artisanaux", "Vins naturels d’auteur", "Thés de cérémonie"],
-    must_eat: "Le Merlu à l’Algue Dulce & Fumet Coco (29€) : un plat signature qui résume parfaitement l'équilibre entre mer et exotisme.",
+    must_eat: "Cuisine de bistrot. Le Merlu à l’Algue Dulce & Fumet Coco (29€) : un plat signature qui résume parfaitement l’équilibre entre mer et exotisme.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERv-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLB-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-galopin/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Merlu à l’Algue Dulce & Fumet Coco (29€) : un plat signature qui résume parfaitement l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_galopin;

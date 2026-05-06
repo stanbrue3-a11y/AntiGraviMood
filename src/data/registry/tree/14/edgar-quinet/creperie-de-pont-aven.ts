@@ -87,22 +87,34 @@ export const creperie_de_pont_aven: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWK1RBrxLA0XMdO34L3pUyjImx9ztGkOsaJgDxODxmpX739zRsOvJLPSsXJ6exZHuGtws-J-c27A7RaKD1ttk_9W4yAxs02tjd-4Q0kQIJs0Uwfe9BoNQY4N3Ik3dp3D0rKZteT_rdZvtgkMmDw3knES3437KM1JuZaveUZxFUbZxVpjG7Oei4-0KiXplJtnvDC2Ljov9itKFJ4ya0zPqPb93N-1Ru07YyW82HsgyJw42ObSW_rQIITadE8kFzHdB-nVN0FOPFQ3WhI90bEicxy8ttKydCyKfIEgCR1umL29g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVhEczPKlpWdoj6QnGwb0oyY8KvPI8LfCvxIcxnKi2rD2dDbXeCdJmPZHS0McyPot8hcHC1XScDBrKb9GR8noSJTibt3kaONND51hmLw4XK36N9exUW11-mkFUka0BG-r6NdNQGllPzZ7IPAKpU3MEtPHM21omPIYv5At-S7O-W_QL2RBRSZkJLX2vH8cVyebFfYChbUznDC8t0KvDXAlAGZbSfcL58_Eh9tMbxMMPH6_7sMZWRUxRweH4Kpku3apQBNw3Ht0aZSq2cpaEx7cttxyvq2JFsaCryQ4JInNemCw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWEBqJmXXxSszF9at-9sqC-cP_9e3ruFVOqJWm6QKsJgFv2TEjmUHwQVYPMNytUevBs8KG_DSZbjWf1OOfDIIIjMzl52uTJnc3liBiuKbeAzBjUkrxFm91_2tjAcRQQdTSFTl6HSUIKE0PLpJx3dRBuzkCFnDyQhzRh1RB5MD4IY3n3C9F8NhryS1-BGuLiDKqsq8V8lF_fULrAw9rfGw7xBlnf5A6cR1F26kYcd1Tje_llKn7RWtKwC6psx_CeQDLaCmNEqium1D8Kt1HP55avE374ZrmoPKLwlH72ToafWTqOZ-Y3eyxMEF5HX_bK4ak_VYtcVh0t79dtZToq-zjOKwCwt32hCy_ykRjCp1t3uPG23q3Tl3nPHJ0tTfLxNwH6X-wt9T013UKw4Rm_jkJIHr0ZDIQbcP-y0Edsd_g5WwcNmQNcgVGS53wClQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/creperie-de-pont-aven/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Installée dans la célèbre ’rue des crêperies’ de Montparnasse, la Crêperie de Pont-Aven se distingue par son utilisation de farines de sarrasin et de froment biologiques. L’accueil y est chaleureux et les recettes sont executées dans la plus pure tradition bretonne. C’est l’un des meilleurs rapports qualité-prix du quartier pour un repas complet et sans fioritures.",
     insider_tip: "Ne vous laissez pas tromper par la longue file d’attente, le service est d'une rapidité redoutable. La Galette Korkidu avec son Andouille de Guémené est une merveille de caractère breton.",
     expert_catchline: "La tradition bretonne bio au cœur de Montparnasse : efficace, généreux et authentique.",
     specials: {
-        cuisine: ["Traditionnelle bretonne", "Farines bio", "Andouille de Guémené"],
+        cuisine: ["Français"],
         drinks: ["Large choix de cidres bretons et normands", "Bolées à l’ancienne"],
-        must_eat: "La Galette Pont-Aven et la Crêpe au Caramel Beurre Salé maison.",
+        must_eat: "Cuisine française. La Galette Pont-Aven et la Crêpe au Caramel Beurre Salé maison.",
         must_drink: "Une bolée de cidre brut artisanal de la maison."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La Galette Pont-Aven et la Crêpe au Caramel Beurre Salé maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

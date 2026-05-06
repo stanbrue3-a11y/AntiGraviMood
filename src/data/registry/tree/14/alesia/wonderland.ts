@@ -91,22 +91,35 @@ export const wonderland: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW6zaHamMbhV6sCLRwZzZ58Lc6l_myOFBhR3-7GVojNb5upvx4fTe6cSPZWn8_IjitMZWeMqaatoKMU5ckyglfapJrgR_87ub4NGR7SRQcmJbX_jWvXC6YAejpVhwPC0o7X6mb0o14hQYiEvxcaTlFOsCsyu-OlNCQa9a-GbTvtsHJv_4tgOZPDmeanzPHncr7oAbT4xQMgpi1BYNTaAfY7Q9HD7SPUJripWQlJTOJzcoqxXW2G9lRYjosfJ8RGNWhQwCpGkSuRw0_--Sc9NesdJlL0rqWc6LBy4t6xKwsCFg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXctzMp9O-VEQdsEl2pCwyYEemu1AgLFdHEepq_aqJDRnDTe1_aFVxrMgzH2-aKuc2hdEfCbdQw2ENHbA1TsEKjwnduIgD2PEK28TLu2oFbGT8br3ivMdfEvHQir06yEpnJ6CoKMUYE2GdfSZymUaXnrN3hheKEFtGVDojdBrUTwgIK8RUrJZUsGn_RuzAKyR2F9Lva7GwK8GrBwOAN7zBy_CqPbXgWndVui16XiKFPuxZnnJIRmxgmxzrsnQM-1DBXx1UfuXHgtUZ1vy4_PZDcjF938-0PcXqHms7c0Flq0mFeke2MIE3AjuvDni1ZbQBUdgqnxA722vUp-z6gxwm2CPliB35ftwntLPCD4GkVQ6NzA_MiiODr0sYAKFlwxC1rI8W9sHR-uxSG1HMxpilgObhOshYT72tqoQo5YQ5d_3ifPekGXYR6P-jrQWPU&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wonderland-patisserie/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Rodolphe Groizard a créé avec Wonderland une véritable galerie d’art sucré. Célèbre pour ses pâtisseries en trompe-l’œil qui défient l’imagination (des cactus, des statues Moaï ou des fauteuils plus vrais que nature), cet établissement est devenu en quelques années la référence du 14ème pour les gourmets en quête de surprise. Chaque création est une prouesse technique qui cache des saveurs intenses et des textures parfaitement équilibrées.",
     insider_tip: "Arrivez avant 16h si vous voulez avoir le choix, les pièces les plus spectaculaires comme ’Le Cactus’ s’arrachent dès la sortie du déjeuner. Profitez de leur espace salon de thé pour une dégustation sur place, l'accueil y est adorable.",
     expert_catchline: "La haute pâtisserie trompe-l’œil qui émerveille le 14ème.",
     specials: {
-        cuisine: ["Haute Pâtisserie", "Trompe-l’œil"],
+        cuisine: ["Français"],
         drinks: ["Thés de créateurs", "Café de spécialité"],
-        must_eat: "Le Cactus ou le Fantasia, les deux icônes de la maison.",
+        must_eat: "Cuisine française. Le Cactus ou le Fantasia, les deux icônes de la maison.",
         must_drink: "Un thé vert pour contrebalancer la richesse du chocolat."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Cactus ou le Fantasia, les deux icônes de la maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

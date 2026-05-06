@@ -93,20 +93,26 @@ export const blanc: SurgicalPlace = {
   • **Discrétion Automnale** : Le décor est très sobre, presque clinique, pour ne laisser place qu’à l'assiette. Idéal pour les puristes du goût.
   • **Réservation** : Les places sont rares et la Table du Chef est très demandée, réservez plusieurs semaines à l’avance.`,
   specials: {
-    cuisine: ["Français", "Japonais"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vin", "Sake"],
-    must_eat: "Le Bœuf de Galice au Charbon. Probablement la meilleure viande de Paris.",
+    must_eat: "Cuisine française. Le Bœuf de Galice au Charbon. Probablement la meilleure viande de Paris.",
   },
-  images: {
-    hero: "AU_ZVEHYKtK52wAPhxqtdi4RjfpyxhegR6lKo_iBbPFLXP7dJT5i4n3B9pl_rpiifA4s2DwpPinU0oXiwrj0r81jS26oMdHE4wgM8KMUCTLqJf83BtG9QxdVY8ahkmtAgk_JsfOgBaJnldMZbfhJc0VaLA6pLyKraOkoY1etdU1O3ypWeCq4YgZ2x3OMFx-o8cX3jEpBo53msAOQ6Zn9Jj0tJI4OKuqcFzh5jgXjWUElK-WC6YpJq_9Zda65SISBEAlwFCL3707HxEIEckHwWnavBSCW9d4TqNz05NgBVQ_wd6FF8Wezt2QTro1S_q4i62yyFPIandlLWlFm54PR9_MsieFVen7knTMwwipgCkIdhBZulhp4Mqw5_K9Ri7DLTx-5jSrpbb2dHvlWbHTISeWZLdeNndXoAfmRRGuQigzkVvU2-pdFZ8iXZs2YPw0b4VS_",
-    gallery: ["AU_ZVEHhQeOPnsgkJvTtNq6nkpRZu7_eIq-IWQv1oX_2YLjoZmJqOrKHyQC7-W_0cdtwYj-4pdraIL7_QNIYy2DOhV19FI3TOlDQ-fg505cv5vOVraVBpCymjcr4YDWLkREK6cs5x_nC6WWsQwq55hrdKInEd8yguQP7qMCL1F301MJgdcABJpAWGZigwEUHzIoADUWlpkqTEnopgY2zmZqyAxKp7Crn9eCcwUMxqfMeAPRgx8LLSeukjusU-JKyEYAc9oK0WLxrP1Iv-V30RMy8rIKVmtE6cDGhlphTIDV3ReE1Y4N1ZVDkyLI7A3qOXCQ77NgtCfTWqufr4Z0okzyX281HWrwMkjYXfL-f0bEjg9wBgM3GuJwxCOOmFWVcVxeLlb2RCxEtGHSW7oEwCtFSYhos1AG787jadeIEQ5bR05HW3YIlIAARufEBrRn8qA","AU_ZVEGe08GkPpPfgoqWCanJctbF13PPxgpeCOMKj573xwX15tCIZoK0lgAjz0NR23bhaooAyyo5cIVjRJtgapb7Aler-9NnuxPuS65SsLHBdS23GfqYNVHeCOMLugpqylZGRQvwMZxAKlsLR1qnuuqBMZBOZdTJQKzso3PLrMEULqqDKeSjLiJKVo-x_TWJ2zsS77mIJshPOMGghp7sdlJ_ADaq2d5OgZvb696nevWmVlPlHfgJG_dS7aMHP-LlRC0vbjkusf3XBwrOfX9l8i4cpIq63hHBo-QAcc4BUKN_P--AKA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanc/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.5,
   michelin_stars: 2,
   real_talk: {
     text: "Chez Blanc, on ne discute pas, on contemple. Shinichi Sato est un obsédé du détail. Tout est immaculé, du décor à la nacre du turbot. C’est l'un des rares lieux où le silence fait partie du menu.",
-    must_eat: "Bœuf de Galice au Charbon",
+    must_eat: "Cuisine française. Bœuf de Galice au Charbon",
     le_secret: "La cave de sakés incroyables qui changent la vision qu’on peut avoir des accords de gastronomie française.",
     le_son: "Le silence, ponctuel, majestueux.",
     le_must: "Pour les puristes qui considèrent la gastronomie comme un art sacré."

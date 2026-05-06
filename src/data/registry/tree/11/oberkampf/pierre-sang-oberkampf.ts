@@ -5,7 +5,7 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
     name: "Pierre Sang In Oberkampf",
     slug: "pierre-sang-oberkampf",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['coréen'],
     location: {
         address: "55 Rue Oberkampf",
         arrondissement: 11,
@@ -96,12 +96,16 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVCWB2FVTObFQSwFwAA1gQIEYixI1bqx9hlnrymnPYV_V6XxqQNtf1ooUAHXIA3oKTu_yFGGcoAJB0wl3yVCaXc3Xmi_yCbic-h7GZFfTOIDnoWdRP5XENPZtVd2-gfEV9pAkQV3YQBt4oCvLXv7D1vYT5FQhfrOMy72r2aM5TDcEPIc6hqYV0UpfCa8eFJef5U-0Ep5wWwfXMKLe0srm7BZdNimn5d2c4m9W0H_GUkb0CJW__Mp7CgSEIPWJwt0S5Zia9cfhW7SrqaKjhN8jaCMdzwDEps5uoM6UV8wVbKKnNb7wJo6cGC3_SOjM-mJg8l_wutXMsBBO86PP6E82RRGr1WQ4kwaASt2flOxmdShVZl8fpy1KJ_9IDBLWwiPDHoEh_MMUTwUycZKxaBYuWMPE0w1dWEgFTfqmo0L1GkHKvN&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXUlA0buPWfA9wHbE9rwuyMzsVGmoUvBSQI4_d1cubBKoBxJkPVIawG-IA0uWMQaNAtW55jn2bc15B8QMiAtfgVhH-giCELLDRtLI5ouTlAqraYTnTn7qFcZNIQodIlVPhHS9EVxYML44tQ-FlSbPEzac_DMzfyH2TVB7lwRYugeCaEeA3O6Y_7PgNMGEl1muhYcWYVCt2Avzsi_0099rz-lu7wGt1XqShytYlQEx57qYu_J6BqASkvVy6s7l2hNNK9ohLD5_J8GOa3MZB7aN9-WcTB8dJkzvYabxPlgiGXFA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pierre-sang-oberkampf/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "pierresang",
     verified: true,
     google_rating: 4.6,
@@ -109,9 +113,18 @@ export const pierre_sang_oberkampf: SurgicalPlace = {
     insider_tip: "• Réservez impérativement une place au haut comptoir (’Au bar’) sur le site, l’expérience n’a aucun sens sur une table isolée.\n• Concept à l’aveugle total : si vous êtes très difficile ou multiallergique, fuyez.\n• L'un des meilleurs rapports qualité/prix Michelin/Gastronomique du quartier.",
     expert_catchline: "Haute gastronomie ludique : asseyez-vous au comptoir, mangez à l’aveugle, et tentez de deviner les ingrédients.",
     specials: {
-        cuisine: ["Menu Découverte à l’aveugle", "Fusion France/Corée du Sud", "Ssamjang (condiment)"],
+        cuisine: ["Coréen"],
         drinks: ["Accords Mets et Vins sur-mesure", "Vins au verre surprise"],
-        must_eat: "Ici on ne choisit rien, on s’en remet à la brigade. Le Menu Découverte à 55.50€ est un marathon de 6 assiettes redoutablement bien calibrées autour des racines Auvergnates et Séoulites de Pierre Sang.",
+        must_eat: "Cuisine coréenne. Ici on ne choisit rien, on s’en remet à la brigade. Le Menu Découverte à 55.50€ est un marathon de 6 assiettes redoutablement bien calibrées autour des racines Auvergnates et Séoulites de Pierre Sang.",
         must_drink: "L’équipe de sommellerie sort des quilles audacieuses pour les accords à l'aveugle. Laissez-les vous challenger."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine coréenne. Ici on ne choisit rien, on s’en remet à la brigade. Le Menu Découverte à 55.50€ est un marathon de 6 assiettes redoutablement bien calibrées autour des racines Auvergnates et Séoulites de Pierre Sang.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

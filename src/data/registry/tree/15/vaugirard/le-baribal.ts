@@ -5,7 +5,7 @@ export const le_baribal: SurgicalPlace = {
     name: "Le Baribal",
     slug: "le-baribal",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "186 Rue de Vaugirard",
         arrondissement: 15,
@@ -115,10 +115,16 @@ export const le_baribal: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXpBM7hxUWIIkNmf9iHF31KKhk7HP9RTmUbO8b_7Qs546PxfCs9Ok6QFMfldfpSAinNJROuuk1wcIzUJwwLWfdhHew7G90LtAtTIhQYjWxz1sOFxfmImyVBq9zdFvIZn7Mak0YbJuIlunq1AvEZqZy1lsd1sAOSR1I_LOrNPe1DvCwirqE46lPYki46vigrHU2mT1Kicu9ipm0jcK0EBG23TnmNfoYePsm3gvjOci9UAKZky1n5d9RmnEQklLpMwAXTl8FBf9xuDDo4IbjUBNabjkt0Al8swRuJ6Gobh1c2V3D_k14&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-baribal/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lebaribalparis",
     verified: true,
     google_rating: 4.4,
@@ -126,9 +132,18 @@ export const le_baribal: SurgicalPlace = {
     insider_tip: "• Les soirs de week-end, l’endroit peut être particulièrement bruyant et festif, avec une atmosphère presque \"pub\".\n• Une \"Formule Midi\" très efficace existe en semaine à 18€ (Entrée/Plat ou Plat/Dessert).\n• Ne manquez pas l’Happy Hour sur les cocktails à 6€.",
     expert_catchline: "Bistrot populaire et généreux, institution vibrante de Vaugirard depuis 40 ans.",
     specials: {
-        cuisine: ["Saucisse aligot Thérondels", "Ris de veau crème champignon", "Tartare du Baribal à la moelle", "Profiterole géante"],
+        cuisine: ["Bistronomie"],
         drinks: ["Baribal Spritz", "Pinte de 1664", "Cocktails Happy Hour"],
-        must_eat: "Une carte pléthorique où le terroir frappe fort. Ne passez pas à côté du monumental Tartare du Baribal à la moelle (21€) ou du classique Ris de veau à la crème (26€). En entrée, les 6 gros escargots en persillade annoncent la couleur.",
+        must_eat: "Cuisine de bistrot. Une carte pléthorique où le terroir frappe fort. Ne passez pas à côté du monumental Tartare du Baribal à la moelle (21€) ou du classique Ris de veau à la crème (26€). En entrée, les 6 gros escargots en persillade annoncent la couleur.",
         must_drink: "Rien de savant, juste de l’efficace : des pintes qui coulent à flots et une belle sélection de cocktails classiques (dont leur signature Baribal Spritz) à 6€ en Happy Hour."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Une carte pléthorique où le terroir frappe fort. Ne passez pas à côté du monumental Tartare du Baribal à la moelle (21€) ou du classique Ris de veau à la crème (26€). En entrée, les 6 gros escargots en persillade annoncent la couleur.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

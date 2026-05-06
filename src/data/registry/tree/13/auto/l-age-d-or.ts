@@ -5,7 +5,7 @@ export const l_age_d_or: SurgicalPlace = {
   slug: "l-age-d-or",
   name: "L’Âge d’Or",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['japonais'],
   location: {
     address: "26 Rue du Dr Magnan, 75013 Paris, France",
     arrondissement: 13,
@@ -107,16 +107,31 @@ export const l_age_d_or: SurgicalPlace = {
   description: "L’Âge d’Or n’est pas qu’un restaurant, c’est un carrefour culturel vibrant du 13e arrondissement. Alliant une cuisine locavore et bio (produits du Perche, viandes raisonnées) à une programmation artistique exigeante, le lieu respire la liberté et la créativité. On y vient pour un curry japonais le midi ou pour partager des planches de charcuteries pyrénéennes lors d'un concert le soir.",
   insider_tip: "• **Vibe Culturelle** : Consultez leur programmation avant de venir, les soirées concerts transforment totalement l’atmosphère.\n• **Cuisine Fusion** : Ne soyez pas surpris par le mélange Mafé / Curry / Burger, chaque plat est une spécialité maîtrisée par l’équipe.\n• **Terrasse Calme** : La terrasse sur la rue Magnan est l’une des plus agréables et paisibles du quartier pour un verre en fin de journée.",
   specials: {
-    cuisine: ["Français", "Autre"],
+    cuisine: ["Japonais"],
     drinks: ["Cocktail", "Bière", "Vin"],
-    must_eat: "Cuisine Bistrot. Burger de L’Âge d'Or & Kare Raisu",
+    must_eat: "Cuisine japonaise. Burger de L’Âge d'Or & Kare Raisu",
   },
-  images: {
-    hero: "AU_ZVEHKims1OMVmscHUST4R3rEhrHAML0a2PoyfUPwbic2f-U0HgCyOdQm7gB0F9sJLTCN-0mzNW1inFOUn6QDvtKicKBs8Sazgta7iQP0VvUNlIPT9BirurGW0GQPraw8-U8VwlsPtCPUrutr9am2A7svW4rPMCfqJZswmhi5IMb46RHeNCC8aKRIrbRbpYLy1oHDiIg5ba8mK2fQfW2wV76GfTtgNTfbT1Qm86cIeC5B6hkCncMSwtJAvDoBNPOH3pRocDNWcV2c8Cowz6g3F7J3PLPOW9Shg9yooEB2sE0aBYQ",
-    gallery: ["AU_ZVEGI9V_oRZo6SAbW3FvbGx_lwVAMrzn80VP4kYdsvsMPkzz9szR1354WxYXC0QxnAdhWsdVxYSBTou7xsS8tu07zWRZtZSq0fiHt-1TyNga4ggqJKVq3WI-q7mUcV6lDCU5v1uCkas6j87Xl7AV_NFLRGWYFl5vCFisisdPJ4jYLWYxNBCza0OitmexadikKJv__mOsCjToS0-oUI5xf0w-aLh5Jf6QMjEARkSf5neLAjMTS0IbjRiqCCW9njPXisr8so9UomX4pKnKmj3caDuMtxOtjAcRzvimrBOWPX94R-w","AU_ZVEHzGW037h1IRH4pJVbFqv7CL0hQrKKm_Y9kH8bPWzIVFHine8l1nQe5A6b7B2ShOt2KoGF2XsvF50KsyMWCBO4QKbn8uOO07eeO5kqT1-8CrFEGIXim9XMddq7QjgfARxkXE3lc1PNdQp5Yp84EaEp802iLW57CW_P_aE9YmYiTumn1WluRV-xELTFIR0NnF7B_0iPiGaPHtl0qSEBg23pfdDLIANFB17ovURXKbt-AnfKBGhsro_Zy1ENWCzT05gKOcowKVGZG1RAN30jN2AN2g7DAx12FiNT5W4XeMj8LrA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-age-d-or/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.2
+  google_rating: 4.2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Burger de L’Âge d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_age_d_or;

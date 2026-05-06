@@ -97,13 +97,16 @@ export const goguette: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV_LD4nCLwpF_HrpY9cCFZ4IbdoWqR1r2bS0fM8rNDTHUoZNKHbjiAd-yxnYF_2DkYeyEe3wXk6QK_HXfssJT_LFSwB448kKNoTAqKLFKXjf9UfknEuKlVa828NBplVdCLgkIWE8OfYvnrC-uVss1skBHnToBxsddelK0nLPUxJ_BTjCiwZrJRzzNqFNGnzobX9lXFmFdikjQlfD_-l8-tAFMPvnIjrd-q6kx0Y1Nt5nJi6PnHP5pBL8TRK_XlZzJnpSQZ-OUaqte3JAk7EcW-SiuPmSrqoTBw9PLQsKxCF3LWyhgWg1anIYyIAo_adG_L4HD9BprTXAqYdYXbmtQUbYLEYVtFEnXr2LnGow1uZu3AsfkHOVn0haxo3MNDduc0hrSN30d9IJv8efI8oPq22e9HRPMz52TelkVyKAcLcJw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXXpKdkgqHV_zVxaepZEAvf-CK41XyYWHcyZSprydUMnOPl9fnxmPM8jn1QrCxkLdUNZfOby89BFpo6xt7l11PJPqUaXNTIxgft7VLqVzlbBHuqigu2FIH2o0DzxCtQx57AsqeUeX9p8CHSrdiITBzz9GM7myZuiE5do0N_tX8jjmj-BOqvoLtXRwe51YyoErCGQUCl0L0PeWT0dujIN2tZBPS6jfOAAz3ZXBssGOpLTKvRPoQkwZLa4cYATmtD0Q38tmrkH1_-epmHeRYEOfhiLG98jFUY2K9LUJe4FyVQBeznirE1WYcNB2-LE5rkhfF2uvciBnRZCHXd3jTHrsYm5Z6IQuQw_pxxQgkl8fnDUBgq5tAAa4m9PXD6pucAOWWhM_KwbZiyLj9o_iGyNKVhVcu5QgPFiGycPniQCB8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU9cl0uvHL-0K4_vyovcOxAFiQWYkq8VFojsQe6aiNNn_sX843AgbhlcmcxDlE2_BLyZIH2--95JaSIAg8xUMfcWLY48MkGbgA6wC1q1VHIqEAF19-2vK5eApE9cBcWtsl6hbxWw3rpKt3YruIUaQemnjVUlzG2BNtWzZdDW-8yEO4nngGhgVnDq_QOGU1uw8q5MaQ9Sdvzi0zm5KhgEYoPaAVXH0fBJgktfSX5BbhIeHf4bojGE92BHTCM-44lrNpKYTwFyPss5wy-Xu4SXZr7ONjA74AHNejd5XSqvK4ajaygG_dLZr3XTGQl0XVYJpkhK2PlVGtf4Tpwjr4jhdcr_v5ZKZbbziSPUf31ChUyMRhD1osxc4I2QKddqQFZ3XPUDW9uXAoJFaLCm_DMT6B1jPD1OLSA-nhGPr-f2OO5aoo&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/goguette/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "goguette_paris",
     verified: true,
     google_rating: 4.4,
@@ -111,9 +114,18 @@ export const goguette: SurgicalPlace = {
     insider_tip: "• Merveilleuse cave à vins natures, n’hésitez pas à demander conseil à l’équipe, experte en ’jus vivants’.\n• L’ambiance monte d'un cran au fil de la soirée, avec une bande-son souvent très cool (hip-hop/soul), parfait pour les petits groupes.\n• Le menu change extrêmement souvent, ne vous fiez jamais à ce que vous lisez sur internet la veille.",
     expert_catchline: "Néo-bistrot canaille et vins natures par le très créatif chef Gianmarco Gorni.",
     specials: {
-        cuisine: ["Bistronomie créative et changeante", "Assiettes à partager umami"],
+        cuisine: ["Français"],
         drinks: ["Sélection pointue de vins natures et biodynamiques"],
-        must_eat: "Faites confiance à l’inspiration du jour : Gianmarco Gorni a une maîtrise folle des assaisonnements et des jus corsés.",
+        must_eat: "Cuisine française. Faites confiance à l’inspiration du jour : Gianmarco Gorni a une maîtrise folle des assaisonnements et des jus corsés.",
         must_drink: "Laissez-les vous faire goûter à l’aveugle un vin orange un peu fou."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Faites confiance à l’inspiration du jour : Gianmarco Gorni a une maîtrise folle des assaisonnements et des jus corsés.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

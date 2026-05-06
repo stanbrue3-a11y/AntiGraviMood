@@ -13,6 +13,7 @@ export const cafe_nouvelle_mairie: SurgicalPlace = {
     "location": {
         "address": "19 Rue des Fossés Saint-Jacques",
         "arrondissement": 5,
+        google_id: "TODO",
         "lat": 48.845467,
         "lng": 2.344825,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const cafe_nouvelle_mairie: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1PWloJmpAufbVHD1PC5nAJxc6ikp19PDUAnKP-A3u48ozNEky3KdorLe4U2bWjzHU1KrFD4bpvQKpzVF0zzCfvcwdCIQTaDUXvKKYxNxEmX7KkJF31mzZXdOJItHzEjtgUnLXx7lkSxaLgm7rDp2Pxyq8khVBzjKE4Fx5fPZfNqWvC5GyjvtnlvQsZYrgyOfRZaOMtaTsTLjV4eAMTK9dRgQFRIyKoPjk_S3zlxYF2XG-wXzSO4fvTjRcy3_hD05RQ-6jFyyE2cZYbixIhV9fvPNoAIjApb6iMlI8lgABqkw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-nouvelle-mairie/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-terrasse. Café de la Nouvelle Mairie.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

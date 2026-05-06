@@ -76,19 +76,34 @@ export const folderol: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXMYg1U_cP2z4EsKdy7lcvXccEGXQqirtGN7wgXwNZoAs7ze8vqG15Db34JOy15zBbugcJ_QMtBA4GScv5b03Y4j0Wj8SOQD8xa0GL6NNx3C7ENOosmMRIIxjwEqeoiBckCzDDGUEIiKLx-KL3XPmYyA4amNifztUUNzOUK2DbxIHyrzgjxKu09kXhSWnWegebGYz9A_DgfUx6Rum2xAwWx3XbgkaJnbDfh-ooRkM4pyKa6xzFkwSh_lGTZNloxE6xDCb0WTWWORV3ap9-T21N2QZ7a_v5umfamE9HP6Knohm2PFHPMA2J9En5gJff-S8RDrtevBKrUSUN1QpSXBqKX50A1FSgK6ewIIv3te1XIHXFFIaWMjMeZy5JdKE9qGrEwoPD7wdYmTeVMRqzows0msTKff8WdBR_0VivEo1RimNecJGGFpVtKedHZCONI_hIj33J4zGZhswL1L8qPnVUZEMcXyxrS8NFCSoSLsoqYZ27Eth9sfy1FOeru7vvTX9FoV6jQcbE9srQwDYkygeTON_FNBuwZ6PKEA_IanS5jYi_qqYOqahSRqgFwgLqJqEHpRg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/folderol/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Folderol est le fruit de l’union improbable mais géniale entre un glacier haut de gamme et un bar à vins naturels. Dans ce lieu épuré du 11ème, on vient autant pour une boule de glace aux parfums audacieux (huile d’olive, sésame grillé, sorbet sangria) que pour une bouteille de vin vivant dénichée par des passionnés. Un spot lifestyle incontournable où la gourmandise rencontre l’exigence du sourcing.",
     insider_tip: "• Les queues peuvent être longues le weekend, venez dès l’ouverture à 16h.\n• Testez absolument les parfums ’savonneux’ ou herbacés (Lavande, Basilic) qui sont la signature de la maison.\n• Possibilité d'acheter des gâteaux glacés entiers sur commande.",
     expert_catchline: "L’alliance parfaite entre glaces artisanales d'exception et vins naturels pointus.",
     specials: {
-        cuisine: ["Glaces artisanales changeantes", "Sorbet Melon-Basilic", "Glace Huile d’Olive", "Vins Natures"],
+        cuisine: ["Français"],
         drinks: ["Large sélection de vins vivants", "Cidres artisanaux"],
-        must_eat: "Le sorbet orange sanguine et jasmin, d’une élégance rare.",
+        must_eat: "Cuisine française. Le sorbet orange sanguine et jasmin, d’une élégance rare.",
         must_drink: "Un blanc de pays nantais ou un pétillant naturel pour contraster avec le sucre de la glace."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le sorbet orange sanguine et jasmin, d’une élégance rare.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

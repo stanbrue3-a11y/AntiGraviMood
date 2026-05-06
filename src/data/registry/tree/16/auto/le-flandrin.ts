@@ -99,16 +99,19 @@ export const le_flandrin: SurgicalPlace = {
   expert_catchline: "L’élégance de la brasserie de luxe dans une gare historique.",
   insider_tip: "Réservez la terrasse pour profiter de la lumière de fin de journée sur l’avenue Henri Martin. Le mille-feuille est l'un des meilleurs de la capitale, à ne pas manquer.",
   specials: {
-    cuisine: ["Brasserie de luxe", "Français"],
+    cuisine: ["Français"],
     drinks: ["Grands Crus Classés", "Champagnes Millésimés"],
     must_eat: "Cuisine de Brasserie. Sole Meunière & Mille-feuille Vanille.",
     must_drink: "Ruinart Blanc de Blancs"
   },
-  images: {
-    hero: "https://lh5.googleusercontent.com/p/AF1QipMfTHIxVZl5kcRWsoSezOFKAg=w1600-h1000-k-no",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/hero.jpg",
     gallery: [
-      "https://lh5.googleusercontent.com/p/AF1QipN2rBRkgLdbVyo83HwQCOjhkU=w800-h800-k-no",
-      "https://lh5.googleusercontent.com/p/AF1QipGA6Q7xuSibjqxvU8H7oQ1cZ8I=w800-h800-k-no"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-flandrin/gallery_4.jpg"
     ]
   },
   verified: true,

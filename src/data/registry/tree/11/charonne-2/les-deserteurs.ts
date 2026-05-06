@@ -70,13 +70,16 @@ export const les_deserteurs: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWfCJazICA4f6nx__R1rkFf-HqIj35AVsP84lN9yTek8qKIaQdNzRfQt6wgfwMFJlNrAUrc7zkLtVnWYGmjM7vtG22jyh2govowFMc2nSQuf31mxWbjWHBZAFZWqwRNWIh7SpJgyJfWBfC2AC2G8lPhjdLQPMCZ46gsopSWG1A6g-R8yKAfALH4o0SG8JG5DZm0yli3vDK_zhcS-tLPYPuIN8AHoGldl5WqDyqrW298gg_UlnLHfNQWt_A4D26y-N7cg_uNk-g3nrg5Wjcdeiq9l-kyDScKdYKHS_mtVXaWAT37-2ndREQA0aSeZKiZaY7gq3LisvpxZ_ClL4A_BlN1_8mr1pZRtXCxKe-0F8qIUlCqcRCBFNofA_70YksQmgxV81Qs1qCcAu2l6PDepwDZzPWu3ClzkF-LzW6no0Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU5NCm0FinXdmadudBr2-qbdZ9vFkoMb7aGU6935TX2URGDnTjltneKzeIcrrqcst8FygwhOTP0HDbB2q_YQtOe1C_SAU9Nls2LUQWt0JXx6CCP044SwsrrS2SzCLhEaYNKTLfYfW7QR4ZQHIBXTYTABT3ZmiiJaS5FVuJIKO5RQxby6cz18i1niTXSNy4yuk4XkXp7M4_xEUv7nn4XmSnQOXhZ9VIuL1xGp_kAZfMJpGbygPQx5Rzbj7k-ohEPARt-_P06sTP3oYffqdNNd4ZM_45Sc3M_efx2OAiEVrR8aZQ6QODtKeDJ1ng91wxNtTInop-wn4p7hV5gV98-cXcVzeirPcyNHmkPOcZelyOM3ZHtmU4tAjqG-xbQU2iWeRNYF1Pjs3gKQrj-VcEl3jGgJhcMD7mTZ5gD9LfDLjo&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW4Rc5tv7BhmophhzzkcuvUHrvK_RE13NcHLd7PWP15VF_fUVLvOFfOL-V5huD-kDA683gWcjH8YYs4fAvEsjovcsQ8pZHsBZ5SMlA-wVbGrtNDpMjQlDYUV8tn_yN0X_9d_Jx-Pel0KHPHY93lprUSlNMyvRSwuO-2VMNFwZ0QWekRzCO2Z-ZiRdTFe_e_lQlzo152uwA_m-Uts4H-sn7ZHXmUtX2OlRM8HkyFpkbnP-IH-XoXaWe9Y2GntXt2WYGbMCBARNel0ktVtciF4fUTzcFlAgDi3qVYuwPI12eMRzCdGiyTwEPqAh18942KrX1cO4lNn14oGD9K6PAFbzjXv-c6RuAjIDVCYC0XEfeGSFG0Q0S-6NUIOJjLsoQKrGAISKJasMa2LBWcjlIJVOo3QAk6U10O3Gfjy8sf6jZZLA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-deserteurs/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lesdeserteurs_paris",
     verified: true,
     google_rating: 4.6,
@@ -84,9 +87,18 @@ export const les_deserteurs: SurgicalPlace = {
     insider_tip: "• C’est un concept exclusif de \"Menu Dégustation à l’aveugle\". Si vous détestez les surprises ou avez trop de restrictions, fuyez.\n• Le menu Déjeuner (35€ pour 3 temps) est un hold-up qualitatif rare dans Paris.\n• Réservation obligatoire par téléphone, le site n’a pas de module de résa direct.",
     expert_catchline: "Haute gastronomie cachée et minimaliste. L’accord mets/vins à l'aveugle est de très haut niveau.",
     specials: {
-        cuisine: ["Menu 6 temps à l’aveugle", "Foie gras terre/mer"],
+        cuisine: ["Français"],
         drinks: ["Accord Mets / Vins inattendu"],
-        must_eat: "Laissez-vous glisser dans le menu en 6 temps, c’est la seule façon de comprendre la narration du chef.",
+        must_eat: "Cuisine française. Laissez-vous glisser dans le menu en 6 temps, c’est la seule façon de comprendre la narration du chef.",
         must_drink: "L’accord mets et vins orchestré au cordeau par le sommelier, on y découvre des petites pépites du Jura et de Bourgogne."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Laissez-vous glisser dans le menu en 6 temps, c’est la seule façon de comprendre la narration du chef.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

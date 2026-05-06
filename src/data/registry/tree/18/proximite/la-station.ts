@@ -4,7 +4,7 @@ export const la_station: SurgicalPlace = {
     "id": "poi-079",
     "name": "La Station — Gare des Mines",
     "slug": "la-station",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "friche-culturelle"
     ],
@@ -13,6 +13,7 @@ export const la_station: SurgicalPlace = {
     "location": {
         "address": "29 Av. de la Prte d’Aubervilliers",
         "arrondissement": 18,
+        google_id: "TODO",
         "lat": 48.901224,
         "lng": 2.369937,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const la_station: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0a35TXiMUVntUrWpiWx2pjdOPR3FBdmqtdvczlSK4KRdIk6SUAISmrLB3LI8pEOgdCvkF3p7SVPfSXP2tyY0a6avQXhUZPo-U_vlKASKqTWpNo5V0li4RO4SWIuE13-_hJPivEAjB4awQ442FdwjL9vd4eMTPJWYOuJ3QpB0Mb_jCVQNIO6lBRytv1Y1LmgIYR3j5hE-5Ia1pGNqUIJ78krCPobZUnp1T-asaRoDnYRRgSPnRM-1siVMYHQ6pyzL7QBxBwl-o-Z7YajsQYR6ZnLDn5r-UFKcFdDtnCtgeenQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-station/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Friche-culturelle. La Station — Gare des Mines.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

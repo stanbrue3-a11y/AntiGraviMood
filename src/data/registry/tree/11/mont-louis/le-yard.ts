@@ -111,13 +111,16 @@ export const le_yard: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX59QXmg3ZiVRfoxJs0AJ1PJJVakVTSUji4lXfjY27B5rhBCxGGXsjCwUPlvyUEU3A5V5_B26fUQM3XcJxInzyfD6Qy_E3JrRAnlMnf16KaDgYqB87bkVEOvmrtRvsWVFr_kNCbgbD6-ziZwz2V1JlMYeweAG0zAZy0honr65rfGowE2vHeT2E0caob_VU9zGTazXSvkjieaaj5oiFAsLvSe-L_5Rf4aFDf9VGQPoCyiD1ZgmJEs5izA_ODFZ1ebmprlz0wbHzexZPPQ3t7zXuRPNSt3R0ciyIytO-97cyPeQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWPU9rMPeLyToSK1R77S4UdUjfYKYOxR61P-HKrjd-1CP9P-gcFdR8AnWlPa04ReptFToJy13mqart-75JPIUsdmJxv-EtRTe0ra9bXp1wIwobNr_2t8J9kt45GRu0eUYFue9QoEIOgwjxsJXOqlktIB7HKNAfK8Esjt6ZF30GWeJiIPz0vPNjKe3MU8B6vi_JuKs4WnNyWtrhMog62hKUO8ASgmHE9nAkT5cPXp0YI8apP4xorDKaIfFp7K3f4iKEES7xe1uoZvxQKh9xU4KoQV1Nub9MUUiMZy-yNI0bjng&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXMxyiHhCO85VnSZYGD5xGMD-IEcjEMHuwGdDDr1f8knvprSALlFhC_a3ikEP_74ouxdjwmBda8GYUeATOkmkS9cvM574RqhtBMgpsvB69mPQZd9Xq1WmNMKu3KFmFh9zvabLX2CclQuAWlqZpATzdAdxIQDE3_3QT6dbU6hW0hysNkuKU1o4HFdBPh9oylkjrC8v140DRvHYH4v0Cepy6mLF-c3CL72uJmkbstnLnxqNGYUbQ-lgAisEZfdfX9p1PNxddWuVAsY3FeWy6fXY2IhfzGNoBIYx8gDxbG_SyYO9LFA8oMJ8g7TS4o7YJXDWe1nfiS_Gpp-6UQV2-1lv7ReP1pDzSCSsCcegJycmcj7loF793WcneUwbJfTBquCJWDq63bbqXDK1V4MBagjyZBrTJzkphteXdWuZOB2LlQZRZh&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-yard/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "yard_paris",
     verified: true,
     google_rating: 4.5,
@@ -125,9 +128,18 @@ export const le_yard: SurgicalPlace = {
     insider_tip: "• Le menu midi entre 23€ et 28€ est un deal excellent pour cette qualité dans le quartier.\n• Chaque dimanche, ils organisent une dégustation thématique à 30€ avec un vigneron invité — c’est l’événement du week-end pour les amateurs de vin nature.\n• On peut acheter des bouteilles à emporter directement depuis la cave avec une réduction de 30% sur le prix restaurant.\n• La côte de bœuf à 130€ (pour 2) se commande à l’avance et se partage avec un bon rouge nature.",
     expert_catchline: "Le bistrot-cave du 11ème avec 250+ quilles natures et un menu du marché redoutable.",
     specials: {
-        cuisine: ["Gnocchi champignons", "Poitrine de porc confite", "Côte de bœuf", "Huîtres Granny Smith"],
+        cuisine: ["Français"],
         drinks: ["250+ vins natures en cave", "Sélection au verre quotidienne", "Dégustations dominicales 30€"],
-        must_eat: "Les plats changent tous les jours au gré du marché. Misez sur le menu déjeuner Entrée + Plat à 28€ pour une valeur imbattable. Le soir, les assiettes à partager s’imposent : croquettes de bourguignon (10€), brocoli croustillant (8€) et un bon plat de poisson du jour.",
+        must_eat: "Cuisine française. Les plats changent tous les jours au gré du marché. Misez sur le menu déjeuner Entrée + Plat à 28€ pour une valeur imbattable. Le soir, les assiettes à partager s’imposent : croquettes de bourguignon (10€), brocoli croustillant (8€) et un bon plat de poisson du jour.",
         must_drink: "La cave est le vrai trésor. 250+ cuvées naturelles, dont beaucoup sont introuvables ailleurs. Les verres du jour changent quotidiennement et commencent à 7€."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Les plats changent tous les jours au gré du marché. Misez sur le menu déjeuner Entrée + Plat à 28€ pour une valeur imbattable. Le soir, les assiettes à partager s’imposent : croquettes de bourguignon (10€), brocoli croustillant (8€) et un bon plat de poisson du jour.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

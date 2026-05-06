@@ -5,7 +5,7 @@ export const zeyer: SurgicalPlace = {
     name: "Le Zeyer",
     slug: "le-zeyer-paris",
     category: "restaurant",
-    subcategory: ['français', 'terrasse'],
+    subcategory: ['mexicain'],
     location: {
         address: "62 Rue d’Alésia, 75014 Paris, France",
         arrondissement: 14,
@@ -80,22 +80,35 @@ export const zeyer: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXjeFAahcOYVQmfUWcW2kgK__vTQVHAILXCe2uX3FOg2O6zF7tE94sZplgwIoSZ8HjSAjJhKCWvfccR_xnOTYoMMxx9c27RENq-8Vx7TeQqMgWzCmlT7Rw3eoplWBQe75fjjtipn68iU4sC5l0xOd_s2myA1A4Oha1_c6veVjnEqnOES4LL2rlgDLsF48vJxGVErnvngaki-H1KBfzfdJkGBfssUdSSXLM0p35K1VAWJGvQ3oEL3fbJy3-wwfyeH8Itm39EroZwdif_k5Un0CPl1nKyPCGQs8z75Hz1N7Y&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWGi0s6e2cbJkuqiu9L2SyHESaYsJ_Ny5P9W_AVE9h3j-SKEU8Ovnio0YKL_D6_YUXxbmpj--9TZj1N2jSNSQia4hagl72HvmkR-1J04TIbchD_8jew31SLGu3--babB09H5tKsdHD10BewZKcowsoV4-jhpFcvxDscObbrsnZJRVL34MC3q6EkWw_VT3UdwhsZMuanRnPbQmXupZt-0brxjp4YuSdM7YIvlTMLoncitql3j8FzQSibF3mBdQf8pk_RFdmDeGw0csvbFiMrb5p85NsBTjjIotBQYuqs8ZY&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-zeyer-paris/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.0,
     description: "Le Zeyer est l’âme d’Alésia depuis 1913. Cette brasserie monumentale, avec ses plafonds de verre gravé, ses fresques Art Déco et ses banquettes de molekine, est l’un des plus beaux exemples du style montparnassien préservé. On y vient pour la chaleur de l’accueil, le service continu impeccable et une cuisine bourgeoise qui ne déçoit jamais. C’est le lieu de rendez-vous intergénérationnel du 14ème, où les habitués côtoient les curieux sous les lueurs dorées des lustres d’époque, dans une atmosphère qui respire le Paris d’autrefois.",
     insider_tip: "Ne manquez pas leur choucroute alsacienne, l’une des spécialités qui fait la renommée du lieu depuis des décennies. Pour les amateurs de douceur, les glaces Berthillon y sont servies dans les règles de l'art.",
     expert_catchline: "Le joyau Art Déco d’Alésia, brasserie de tradition et de coeur.",
     specials: {
-        cuisine: ["Brasserie Traditionnelle", "Fruits de Mer Frais"],
+        cuisine: ["Mexicain"],
         drinks: ["Sélèction Berthillon", "Grands Crus au Verre"],
-        must_eat: "Le Burger Zeyer au Cantal et la Choucroute.",
+        must_eat: "Cuisine mexicaine. Le Burger Zeyer au Cantal et la Choucroute.",
         must_drink: "Un vin blanc sec avec le plateau d’écailler."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. Le Burger Zeyer au Cantal et la Choucroute.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

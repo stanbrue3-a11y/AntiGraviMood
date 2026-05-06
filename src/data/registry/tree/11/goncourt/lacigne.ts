@@ -5,7 +5,7 @@ export const lacigne: SurgicalPlace = {
     name: "Lacigne",
     slug: "lacigne",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['fusion'],
     location: {
         address: "124 Avenue Parmentier",
         arrondissement: 11,
@@ -87,21 +87,34 @@ export const lacigne: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWCHiiu1klCcOJDOy4fbk-keEuKqNJbJef5yir-L36DjmqB3C0FSLfQ4XkuehZtk6BHJ_4UpPz8qrXATe1XbvdrxmIJt9pW3FCK9GRWAxqQzx9s11VZU5WiHOvquKJUzQLlN1GhN6l69Ki3oSLG3E3nG0C4vHH7jNLKOmr6hrjxfnbvWnRj3UbIgZha2dAMVlUqJOUicKPP54FjDUEjE6HHm6mXEhaMFSZGpFAEUbTZ0lLHLwArB-AOB8dlINm5m-B2q83Q4A-y1936VDd-E-OwAIRG_GmI4PHByZ1Vj7sVOZWnDltbXOVDJ9PU2vG0qmltb9FsPvlN1WU_LqCotox10sCvsDkaqo8Y1y0x4BuoQAmn1dR-SEZRKLz1aG_cokJHOdBGsn0Ot9i7-jjN4AUhwzKFsp2qFmfA9dHqMw6J9g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXjOLUhvFw4EDeTTzSqVKk3KPS9NPh6W-MPjOnwbv78rugx3BxC37B2znQDikm2biiPektYkPkHn9HL8ZcJAx1-LiYlDjOXtw45WhsORG26T_TXrthAHIc54SL9ThWl3NA2htpSwSVtHrEr1g4USWgMUGTsU1coFK-tmQPcesdmPJgts7kRfM53_prt4gmd2_xwSxhkAIqddw2D4Sy7wK7iFGrBZ0aJgPmYooH4aWPQFf1BX9VTsskWn0SYy3216SNeDuWeRFBFkyPfObhZd1GdaPhj4LogvPiBBrsTDqahxQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lacigne/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.9,
     description: "Tenu par le chef Daisuke Kikuchi et son épouse Megumi, Lacigne est un sanctuaire de la pâtisserie et de la cuisine japonaise. Célèbre pour ses mochis artisanaux à la texture d’une finesse rare, le lieu propose aussi une formule déjeuner d’un rapport qualité-prix imbattable. Un écrin minimaliste sur l’Avenue Parmentier où la rigueur nippone rencontre la poésie sucrée.",
     insider_tip: "Les mochis partent très vite, surtout le Matcha Azuki. Arrivez tôt pour le déjeuner ou réservez votre boîte de mochis en avance via Instagram.",
     expert_catchline: "L’excellence du mochi artisanal et de la cuisine nippone par Daisuke Kikuchi.",
     specials: {
-        cuisine: ["Mochis artisanaux", "Donburi raffiné", "Omakase accessible"],
+        cuisine: ["Cuisine d'auteur"],
         drinks: ["Thé Matcha", "Sake de dégustation", "Café de spécialité"],
-        must_eat: "Le mochi Framboise Litchi, un équilibre parfait.",
+        must_eat: "Cuisine créative. Le mochi Framboise Litchi, un équilibre parfait.",
         must_drink: "Un Matcha Latte préparé dans les règles de l’art."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine créative. Le mochi Framboise Litchi, un équilibre parfait.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

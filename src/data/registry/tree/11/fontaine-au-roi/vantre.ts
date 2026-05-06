@@ -5,7 +5,7 @@ export const vantre: SurgicalPlace = {
     name: "Vantre",
     slug: "vantre",
     category: "restaurant",
-    subcategory: ['français', 'japonais'],
+    subcategory: ['japonais'],
     location: {
         address: "19 Rue de la Fontaine au Roi",
         arrondissement: 11,
@@ -114,13 +114,16 @@ export const vantre: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWUROU5tw9_EUPVejPmxVpkBawoGDOzUkG0IrO27_BLXVHsKpsCnHbLk6PGIooxNX9ENhis5Rwxb6tQiDQxKZI0aYT8VQ2zEAA7rVYjOxw9w9geNoQHwNi_uCPLqmbB17UQWTpiV4UomENU5w_pf2-sf-wx_2zps_ORRdbS9XFYe3NCA11lwNKyPV_95RGORhHA9hhO8Hfhitrh1CBii-9aOmPfZKc4NVJVAVy79kLvUaEsO31Z67HmZVrxjb0Lkm8etuw99rvFJKa-sWwHKEi-v-aCHGIQaMT8COv5yvRTvsZp3Xq5X9Gda5vmpq9mSd1vO0cqrtmDtUg0SoD0M1vWJy0LSF7o476R3BFUdpEjbZRk8zs0A3kbZ8Hc5V_JGnLdmkYoOo_Uv6MtEcCiRbFPKBkkajKGsAFrtu21oixSWQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWKfEDZRmcTsJe5o65JlTm-TR0A8rcwpzWtriY3JUxM0yetKChNem9tJbZbN61QeoTnmPZw504O6wsEbkRsabstug3F7PCrVhOMbTt0XtPTUiveYsfx3g3Vvwq5paW1iV5cNcwLgGvhQCVLWWhGK34o7gWtCxp0GZmlKkqqSSIbCy6CGXc5FTQU66m1k0vkZGyDsc_SmBGLoH8APP-0GMCSo74V0CMKqn4z0J82onHYOuqilmSuTyx5d8i-wwDMdlUknIBGtoF3EpSE1hoSv6MnOLuBOfelZfcAf5Pr3YBhIWOp9kGqfxzxLRTjw7ye0mw9JBpix7utCAxmasQhlnUhKSGpkfn2QmXx2AL6SV4bJ15Rjj187t99TaUuzUgjcR33t9kJ4UL8HSRUrCneKuSqAobpeSDdEQdy_gwf5buMdg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVmbFHU_6y2VGDdt1Wn0VB9gZqsmI9pWhNrIzckVAabMQmksz3kTwgXQaDCpcCg5TbDs11rG_kTu2e2gWvlxKvfUSXhme0BmwNGzP-bDX8Y67QSqb57ThUmAeuMW1Uyw34brFb45AeJHW9zqCeArmjsHBgrThE2AQ02zFLmgVGFvMxxpbq-yyTozj1N_1k_NAg09P7OP-9NfvMEQlnj6OIZm7S-OcU5PIsIyth1IieolUiZMlvLcQp6yWnHMFWbcOpqJ1-mILzWQQT6Jz28-cOvYZh3Ava_ggDnU7j8J2X1nNKTtDx8vJ5KdAFSLn-o-grhny2UiAokVRS-5obCi2p6aW1U-nVf0_GyKXNyRrHUss_s8ZljWLaq-oc6eS9wb5oZ7_yAmxypSZzlIlDLkZ3xotN96p4eIhlBsEWiW1IPNV20hJH1UYpmJn-gxzg_&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vantre/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "vantre_paris",
     verified: true,
     google_rating: 4.4,
@@ -128,9 +131,18 @@ export const vantre: SurgicalPlace = {
     insider_tip: "• La formule déjeuner à 28-29.50€ est l’un des meilleurs rapports qualité-prix du quartier pour cette catégorie de cuisine.\n• La cave est LE trésor caché : si vous êtes amateur, prévenez Marco et il ira vous chercher une bouteille mémorable dans les profondeurs de sa cave.\n• La selle d'agneau farcie aux épinards (28€) et le pigeon en pâté-croûte au foie gras sont des plats signatures qui reviennent souvent.\n• Le menu change chaque semaine — revenez régulièrement pour des découvertes toujours différentes.",
     expert_catchline: "Néo-bistrot d’un sommelier devenu chef, avec une cave de 3000+ bouteilles en sous-sol.",
     specials: {
-        cuisine: ["Selle d’agneau farcie", "Boeuf Wellington", "Pigeon pâté-croûte foie gras", "Tête de porc grillée"],
+        cuisine: ["Japonais"],
         drinks: ["Cave monumentale 3000-6000 références", "Vins natures et grands crus", "Verres dès 7€"],
-        must_eat: "Les plats changent chaque semaine mais les regulars reviennent pour la selle d’agneau farcie aux épinards (28€), la tête de porc grillée (24€) pour les audacieux, ou le pigeon en pâté-croûte au foie gras (28€). Le midi, la formule E+P+D à 29.50€ est imbattable.",
+        must_eat: "Cuisine japonaise. Les plats changent chaque semaine mais les regulars reviennent pour la selle d’agneau farcie aux épinards (28€), la tête de porc grillée (24€) pour les audacieux, ou le pigeon en pâté-croûte au foie gras (28€). Le midi, la formule E+P+D à 29.50€ est imbattable.",
         must_drink: "Marco Pelletier est un sommelier de formation avec une cave de 3000 à 6000 bouteilles — probablement la plus grande collection secrète du 11ème. Faites-lui confiance les yeux fermés."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Les plats changent chaque semaine mais les regulars reviennent pour la selle d’agneau farcie aux épinards (28€), la tête de porc grillée (24€) pour les audacieux, ou le pigeon en pâté-croûte au foie gras (28€). Le midi, la formule E+P+D à 29.50€ est imbattable.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

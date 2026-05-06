@@ -5,7 +5,7 @@ export const le_coq_fils_the_poultry_house: SurgicalPlace = {
   slug: "le-coq-fils-the-poultry-house",
   name: "Le Coq & Fils - the Poultry House",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "98 Rue Lepic, 75018 Paris, France",
     arrondissement: 18,
@@ -109,16 +109,31 @@ export const le_coq_fils_the_poultry_house: SurgicalPlace = {
   description: "Le Coq & Fils – The Poultry House est le temple mondial de la volaille de race, orchestré par le chef triplement étoilé Antoine Westermann. Situé sur les pentes de Montmartre, cet établissement rend un hommage vibrant aux éleveurs français en sublimant des espèces oubliées : Poulet de Bresse, Coucou de Rennes ou Pintade de la Drôme. On y redécouvre le plaisir brut et sophistiqué d’une volaille parfaitement rôtie, accompagnée d'un jus corsé et de garnitures réconfortantes, dans un décor qui allie modernité et esprit de terroir.",
   insider_tip: "• **Le Choix des Races** : Ne vous contentez pas du poulet standard, demandez conseil sur les races du moment (Cou nu, Gauloise), la différence de goût est stupéfiante.\n• **L’Île Flottante** : C’est le dessert signature, monumentale et d’une légèreté aérienne, une fin parfaite pour un repas rustique-chic.\n• **Volailles à Partager** : Si vous êtes en groupe, commander une volaille entière est une expérience conviviale unique, découpée devant vous.",
   specials: {
-    cuisine: ["Volailles de races anciennes", "Gastronomie de terroir", "Techniques de rôtissage"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Belle sélection de vins rouges", "Vins biodynamiques", "Cafés gourmands"],
-    must_eat: "L’Œuf Mayonnaise Westermann (10€) : élu l'un des meilleurs de Paris, un classique magnifié par un jus de volaille secret.",
+    must_eat: "Haute gastronomie. L’Œuf Mayonnaise Westermann (10€) : élu l’un des meilleurs de Paris, un classique magnifié par un jus de volaille secret.",
   },
-  images: {
-    hero: "AU_ZVEEJ5IVdU6wsLYWOdxoNJgtRlgIZAtKUVKANkluSR2V22zABm-4vKaou1Abpk2-2h0qoAngMYR5MvzOyY-w0qw6NzHsZIVTOd4rvIez-nYdbpSWcOYFvkAVaEFGq6KvgxZYkl4V56UPYy85glULTgDRK-62IPvC6wMvcHqlPj7Zb0-vi-bo_iO2ImGk4aR9MuT6Pto7rosuSkmi9kbHqhFKZcMf3QFCAwSW3kbTu7SrFCEc3bWiBmt5k2iomBUclqmuz6tVZaii8URXcyjiu2hdF6LbyF_609zRICGo3eNGHOg",
-    gallery: ["AU_ZVEGk_SDv3INlgKSYTsqYdk-S_GRqFotBb5jYSnkmNdcO0gv0S0PYjb1ECUv6GAioM7_PKznnvtOy3MoR1qAwT0HjL51iZ9N8FwoC1h_HIw2eyvZvJj2LmMegeRaI1gqKfZBshsoUvFGxq4GomWvuzeEI6D-QE2C9hzZg0PZTWGCgSuxJj0PYH0zjB3a-SFJzUdfg5MMLGvTZbWyFupBkgbRAFyyiAuV9mBlQdocqptIZmSwZ3jha2-LWQw0yNy1V3FVjaj2914QLTSyDeVHYR349GN5CUFJf-DKCG8QvxavDvA","AU_ZVEFNJt3wm12ggD_pICHKun7jy3ekOm_Be3v9lbM8L6UlrE-DQv0liiJYn0_TwqERHWC-Vcc8aUhdgOQzk8V5a8Wigpda13WRqIiJuIKFFUDFZbzUzZi8s90gz17LxhWzwsQBZIZ9RRzE_SLbelWVTT1c0OKEfgVYrfeRY6aoFrexmy4u6NDGikCaTyByXWx45E5Y0-si__GLcgsuPFQ3Rkkni9_djRzZV7jFKvLtum3WjZjGe2czdhaa8MC7rH27WVrOG7JUypPph3CKiEJdNBl38bACs8uH-Nj4mTqCz6Oo5Q"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-coq-fils-the-poultry-house/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. L’Œuf Mayonnaise Westermann (10€) : élu l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_coq_fils_the_poultry_house;

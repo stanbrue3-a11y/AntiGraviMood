@@ -5,7 +5,7 @@ export const substance: SurgicalPlace = {
   slug: "substance",
   name: "Substance",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "18 Rue de Chaillot, 75116 Paris, France",
     arrondissement: 16,
@@ -90,20 +90,26 @@ export const substance: SurgicalPlace = {
   • **Le Menu du Marché** : À 68€ le midi, c’est l'un des meilleurs rapports qualité-prix pour un étoilé dans ce quartier.
   • **Vibrations** : L’ambiance est plus dynamique et sonore qu’un étoilé classique, idéal pour un dîner ’foodie' entre amis ou un business lunch moderne.`,
   specials: {
-    cuisine: ["Français", "Moderne"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vin", "Cocktail"],
-    must_eat: "Les Gnocchis de Salsifis au café. Le plat qui a fait la réputation du chef.",
+    must_eat: "Haute gastronomie. Les Gnocchis de Salsifis au café. Le plat qui a fait la réputation du chef.",
   },
-  images: {
-    hero: "AU_ZVEEGo_d8tzUU_HfURm9t3flWIR92hw-KvozfWGdR9VJSoevVRgnOqxiB2MLZGNSEN7Kme5JMfmEn8m85ZNu2Hm7iX-ApNXQcgEG28WVIuWIb2Asz9Dp_8YYX8Wc81pcDawwKsnNa2YJK9WNHYmyhiA77mAkwZSD8W21HXQ6CApXnGQP74seD6rPQbigYIxgfi5sqOS4QfJOsB1ZeyWaAf9M-jLv3MC2g5-mInAcuKQuwTSsKoraoRoFEXA_maQH6yFVjHka2HW2xeCpcGrGP5xiOyJuhktQjqy6wOFSZv8dmlA",
-    gallery: ["AU_ZVEHOj-sFwk_l3_RnlLPjep8zmXXmqvdHYloeLEzfn-tO-h3vf-3QMgExuOO43xB26tBy76yUZ3mY2aozG75ByAWM_kdhyMGflG6bCwMloDaaT5yfX3NtasnILTfRAnu97jQMma1rhmigo_4ezXAAXYNhh05zgeKk3FEA_U02GGc2Z-8w8y0oAh6wb5_8ezxA4MXM-zWGf96spiCBOYdS_glurHhvST8A4N7AVNzd_-EtY5XCKe9iSef1lRwSo1dBKUsyT77EHXvYnAsZtMEKJkwOfc-JvAfx1u2hpHyiPjmCkA","AU_ZVEEwiEqf174OYDkvMXjZCzqLY9qdk_UH-aUCDYh5DSX3hhS2tX76r4KhgU6Irymth7EyCOePOxJ9PjjaTwkkUIA3-WplW0PTSbd9xSiC2cDrW7dfNkZuQzOf8vDiCg0VA0X_1jPPLEJq4747UDhtnRw8u6lHE7LEY6MLWE-GG4RZbmJhz0ZXZIPynAYnAl7ged8mWwJsbLbOqN3iNrwLbv0rpyP9SNXiqkGHWj5xl8EhmLtB1NYgAvMmWllVgV0JChG3Ei-RXIO4gCL8q5YV1FMRPqXofkoWeSYaKJwPNWlWlicdIvtgWt64T3fHNnD4m_mXjZmjpFFV64ERkEdZh_UXNoZWKxNAFSQT0x3HwisBoIXrdNxzGKb0GJCPy3zvBzoupnAurdTxJm_9oB-BMdw9Arn37zzvLG6dQNEhNm-sgjGlwQ5Hng4BKslgmbMY"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/substance/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.5,
   michelin_stars: 1,
   real_talk: {
     text: "Substance, c’est de l’émotion pure. Ça va vite, c’est précis, et les saveurs sont franches. Matthias Marc (et maintenant Flavio Lucarini) réussit à rendre la haute gastronomie accessible et ultra-fun.",
-    must_eat: "Gnocchi de Salsifis au Café",
+    must_eat: "Haute gastronomie. Gnocchi de Salsifis au Café",
     le_secret: "La sélection de vins au verre est pointue, n’hésitez pas à demander un accord atypique.",
     le_son: "Le bruit joyeux d’une cuisine ouverte en plein rush.",
     le_must: "Pour ceux qui aiment voir le travail des chefs et qui cherchent une table qui ’bouge' dans le 16e."

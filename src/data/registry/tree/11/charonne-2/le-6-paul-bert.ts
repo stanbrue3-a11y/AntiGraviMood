@@ -105,13 +105,16 @@ export const le_6_paul_bert: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX102-W0-WeTWkdfdnZK9lguSz1E5UXzcAc3RukdCVDnmefGFT2JpIOGL3eyUXdQ7d63zuhSgO0K3RuFIbbZWrBbcvBX-u9NHRvKq5dq8LiK43cITNKH9Ueq-FsxQZdNtRuPUEHjuSNMRojPqcDKitDtQ3FiFQl6OTSYPWKbNGxudmQokJ7GM4KLzWcjcU1GPrNoW5J_zDaf6wH9a4qwNgrQiHZ-ATMcsAn4EV7IDYwC3BGvw2DcqMAhVXf-Ed5_Qnpr66RnTNynVZ4YeY9pXqdLPO-WrHB6fNAElisOqI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXxjKf4u-1gjhE998NEAzrb8UFGfM8K0k9Ke1j6XogaxaWsvpjNxuaMhs2QgHIh-OzDPZ0x7p60QmHPE03uJiYZEegNyrGfYnROJeDbhRBo5bMUUri-Kzz6KR1c1GsVkMkM5Ci0ibj3vGqFSszsw26K-UUzmyKKLu3v0HWYhC2Ks4vhU4jXHV3nyMLPQwo6wO6ZsGgMOgTBQjDXMv2dSrQBLuiUeZGgOtMtyVODLU7s22JtDxcR-9q1-efqsYAWf1zhK_yTJgF8jbn-7c2tQU1uYkNb22ZlMPeGxHm0jz5miS8_A_zd9Ek8WzoOKIy0DY70z69QmWQYiw70CHKpns-t2NBtmq7EoBJ02M6mg4L_xC9FiJT3vCE0DcpAzv3npaUC69tQ_3mFUMJFBvA0zP5DDobqwdMVL5j5nVIV-apGiHw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW4HekjHnG-T6NxkYzsvoNx5xctIbYVhlUGQzqffwfr211ge1mCsLIGOiqrQZRh2pgoN3BGn90US86Z95ltYdzAk7PCo06_BVi617iC1IgoYXmqN64DxpZy47M3eYOHiSRlcOExoxUm44uNkY8QlH0kMzvcPQfHUuTykxOagBUxvKLRZS2CnR0alvL3iTGDDw8uA4mv22O_53xggru1PRBx3JO0b_V4L9_9MFlU7Px3bYZgvbAIe1X0c__lynetZPg5yWvXjEUqJYytAy54Np93KrBZF3_EUHZOc_E1PIyUIIuVVPFlBSOFJvr3pigIggJeT-srSyVk7Ocq7tMeN8vjJGbRtnicCwZ9Eu7747Klk670kGe2vwuPslao0tyUYVote8Xh9DsSx7TpV867Go-ngGr_3FdgF0-F3TKwiMnp0LXcUEQjBLaR1HPKSQLH&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-6-paul-bert/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "le6paulbert",
     verified: true,
     google_rating: 4.5,
@@ -119,9 +122,18 @@ export const le_6_paul_bert: SurgicalPlace = {
     insider_tip: "• Le menu déjeuner à 26€ (E+P+D) est un rapport qualité-prix exceptionnel pour ce niveau de cuisine.\n• Le menu-carte dîner à 44€ offre 4 temps (entrée+poisson+viande+dessert) — le sweet spot.\n• La carte change CHAQUE JOUR — pas de plat fixe, c’est le marché qui décide.\n• La cave de vins natures est pointue et accessible.\n• Ne confondez pas avec le Bistrot Paul Bert juste à côté — c'est un restaurant différent.",
     expert_catchline: "La table bistronomique cachée de la rue Paul Bert : carte du marché quotidienne et vins natures.",
     specials: {
-        cuisine: ["Paleron poêlé servi rouge", "Lotte rôtie beurre blanc", "Pintade salsifis", "Carte quotidienne du marché"],
+        cuisine: ["Français"],
         drinks: ["Vins natures et biodynamiques", "Cave pointue", "Verres dès 8€"],
-        must_eat: "La carte change chaque jour — faites confiance au chef. Le menu-carte dîner à 44€ est l’expérience complète. Le midi à 26€ est un deal incroyable.",
+        must_eat: "Cuisine française. La carte change chaque jour — faites confiance au chef. Le menu-carte dîner à 44€ est l’expérience complète. Le midi à 26€ est un deal incroyable.",
         must_drink: "La cave de vins natures est le point fort — demandez conseil, les références changent souvent."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La carte change chaque jour — faites confiance au chef. Le menu-carte dîner à 44€ est l’expérience complète. Le midi à 26€ est un deal incroyable.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

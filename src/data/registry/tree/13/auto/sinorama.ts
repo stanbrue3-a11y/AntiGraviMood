@@ -5,7 +5,7 @@ export const sinorama: SurgicalPlace = {
   slug: "sinorama",
   name: "Sinorama 大家樂",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "23 Rue du Dr Magnan, 75013 Paris, France",
     arrondissement: 13,
@@ -106,16 +106,31 @@ export const sinorama: SurgicalPlace = {
   • **Secret de Dalle** : Les étiquettes écrites à la main sur les murs indiquent souvent les arrivages de poissons frais ou les spécialités du jour non inscrites sur la carte plastifiée.
   • **Noctambules bienvenus** : Le service continue souvent tard dans la nuit (jusqu’à 2h), ce qui en fait le refuge préféré des chefs et des travailleurs de nuit du quartier.`,
   specials: {
-    cuisine: ["Cantonaise", "Hongkongaise", "Chinoise"],
+    cuisine: ["Bouillon"],
     drinks: ["Thé Pu-Erh", "Bière Tsingtao"],
-    must_eat: "Cuisine Cantonaise. Canard Laqué (3 services) & Pâte de Riz au Bœuf",
+    must_eat: "Cuisine française traditionnelle. Canard Laqué (3 services) & Pâte de Riz au Bœuf",
   },
-  images: {
-    hero: "AU_ZVEG4SPVe6jGDEjYBp3eojF4aXBbr8PAjQMYn3R_YglW8FLKntqhGhdRLtlBz_Ux9Y7yUE78bUwIp7tw4sQXWSDQESdfLz9NwLuuJxXH3zriLUIEWdq6B_bTzlmdUnEAkZymVmREygK2paXgUZL6XoZa2CU9ng339yJEyJ0X_35RomWg06ZYI5ZOvTXRNpUcl_0UqCE9va5V96gXEy56KgUaA3CZfyMkbJZH6hxFVt7tkQ5eyHkyCoGL2Bts8yqYP-cfofWoMjdJpKxR2vLbjfXca2qEKRD5zSVmfDaYy598I3g",
-    gallery: ["AU_ZVEGygWXItq-hlRsEMuGmqhLFBJYdlulcJIcZtM5AGYYgNs3rS4cDg8IKcReLikyByNNGtmrZ-jo-Ab4XkX6F8kGyO4Ja_fBQF9GJ5Azya_IEOzikHLh8kkas1vCoC6nigAJgbqpRv1USevxjdeOvXMyvmB9znWUVDCnnjTByY3nYCK-nHW-ewm9-lNlmJX90zdUuof55YHDRLJO8le2Cs-mdomMbYM_7MWuw1z18w1oaH5B2a8jR6FR0YOR_CdVMt9YXHMiywXNh39RpFDw3xgjP7ryV3m2QyarAHrsZ7Hiu8A","AU_ZVEE45MropzUQByW-HuwRcDW7VKgiKBZ1ybsM3AhS3Wwx_2I4w7_OHjLuHE3yBeSoAxKHsPle4aPgO4CmjMCsjjYopZcDbvpfVB6udzmLxoJ8W8hCIs-NAglx0Hqj_OhqoXSux8nOdT0hiBEBwBuuOO6sCA8P3toxuXsw_vZWk4R9Bw-OGHyYYKByJBLHMRBRmfp2eSgwVk233L_VNRDizyX66utjLpuW3Tj_2UcSDj3KRYRlJnTrFig1jPG-c1T4mrzoI1Q7VeFcz5ApCa8mQ23hwDlvFKnosuKgV75Cq-a80rQum-mzc3ypmDlKtK4071115tfkCeOl12I0uAOubYFbZv2KwShlEvE7iX6zFHvII7y69mQGTlO556btpi2nseeakkcofDZc_Ar7elHZvTeCr4ZOYx6bLROwTdEMwHW1eDIoZ0phzpuqnZmOfCnt"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sinorama/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. Canard Laqué (3 services) & Pâte de Riz au Bœuf",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sinorama;

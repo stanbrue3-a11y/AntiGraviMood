@@ -27,7 +27,7 @@ export const alkaram: SurgicalPlace = {
             "url": "http://www.restaurant-alkaram.fr/",
             "label": "SITE OFFICIEL"
         },
-        "cuisine_type": "Cuisine Libanaise & Méditerranéenne",
+        
         "menu_url": "http://www.restaurant-alkaram.fr/la-carte/"
     },
     "pricing": {
@@ -98,13 +98,24 @@ export const alkaram: SurgicalPlace = {
         "must_eat": "Le Hommos Viande poêlée & les Kebbé Maison.",
         "expert_catchline": "La grande tradition des mezzés levantins, sans compromis ni surenchère."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWCsAyKbgKYjzQEdXDkqECSzhq_4p847-EJQ7T2xaSR8eBbqe9Vnll8MFuj8iGMvdtc4scI9794DkJ4yjeipSiBRAHMOEewSV8qMv2EeoKF_R7ChcvOsEqaXk-jB2DUSdxLB_VwGz2VcXaZDavYiJIrVyEITMuC_SzLc2JRxE_kc3UKqUnoEGX0Gl8ZZzILudeQeMbgA--eCyHmlZ6hUwP1KNHElv-YJac7thSctx4mEuvfoYvaJYpdkAqcB16ix8xxda7y04pB8fd1P1Y-UNRtkuHI4UrPM5CAbzhfPpdo2w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVR0_a2BXnuJqHPGyZlxfjUj6z1EwMDabfysv_8d4pywEq_Cdanftns7qtZNRWjbZ6SSuiKDIHQMcxy6FecFwNq5PpNLacXNEKriqjWnbt7A6Pm0Ix4vKNKmVT39CvO9AnH_cMIbsUQaEaa6VBs4Rhz2I9g0_6D6x-poKlO44mev-UEyBKgJLtcbmcb9QOrFI5u7OObYnjuNvthkQUgGmHmk60KWj1RBrQGBg2FQJlqxfhK96SyKxMgkpA2P61J2OHkErtiS2xjybP3BoXdMhKPkbJ_hShZtUFvgzWipWpH4N7n-K3neS9rtgij5RyGqOSIgSMhKU5xk_4m0o6qcpgoVDR--Dm1h7LdZKgSCJyawsYaxmBNWd0SpW_KQprWc1iolZb252PGNPJ3nwNiDHv0JCCA2y_6Vb4Rg_bpJxg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV7UG3oYVtUkeOXjqldcHz60lhv13DkCnZHi2Run8FPzc8E2jc1XXJd9SZrGkrGR6qY8aHVR5ndDkZAq_ZZ47C8csRQ_6-67qL-1GsjNONA66WrBHB5FMi5f5SUn28HR6ocPKY1fFhuM6931g10pDPhiYXWrPzcDZFABegXgdC7wz3ane5Xsru2AgXkq_Ma3zYwq1B0z37kGEGRO75eQBr92Q99tj1NwSK3gAKQECMAmjJuIa89PsnESS_Z4iyXAKgkkh7A-JBNcyTqsaZJCo4TBv89ZoEdyGem0QxHZHY6vYUkG3z37tiS2e69BW7kYbqLdgy83nOMteks35Sg4dZvVI32KByUravGJCuSXeqKm3ihjHBaJzThZOT3vouG5yXYGEwMIaDv2g6AyLQ1jeSQYofw8XrvlVQ05BnuCVIbsw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWMuw3NBlihoe1u-aXZ5GQD2TEND5mFFU3XGrDyW7oV1BHC6lDvpF7jGnxe0KKZjjx5TXAQQ9nkep9HNnSo7e2S6rx9dbTJZOejsEBk1fJULXBTzTnRKuVjYeZucPmoYFsE8cpmVQwUWFquhiwMakd8OUoWT4PQjC2UMTqFxi8ylf0mWWhoOeFWtYPdgFeElClgmfP_wUJB2lScCEeWHLTO-_iQMiZ6Zid7hTpYyRSU47lo8Llsf15YPhf0lklfau6d8W5YcXmLLuaS34a3Iq-H2JtNmCtklRX61AqUikt84lvVlDOGNiq1vgDaBsoA21DvN-ubDm9BTQaznj0wnz9nSFKpGmTg5I5jk9kqxsWYnoVzwjKcQkb-pj71tGi0pnLNOoRUn_vn1n5du0U_W7y9TX79xrXzsU28a6IdV5HP-soO&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alkaram-paris-15/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Libanais. AlKaram.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

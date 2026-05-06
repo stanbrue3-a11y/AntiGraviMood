@@ -5,7 +5,7 @@ export const la_rughetta: SurgicalPlace = {
     name: "La Rughetta",
     slug: "la-rughetta",
     category: "restaurant",
-    subcategory: ['italien', 'pizzeria'],
+    subcategory: ['italien'],
     location: {
         address: "41 Rue Lepic",
         arrondissement: 18,
@@ -128,10 +128,16 @@ export const la_rughetta: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXniz8orcHxxHoBtUzRxjWQhMPNGZEAiG3p43lJrs_9_aAWnQIYppYjmHbGAnbRP3DjIePxVDlthI1U3Of_y3oqVWVxGTi18hiEQqVBe-4nin3-h8XwROCe02STQA5Xc0GBGyml_-3P9HyxU30RdxcX8ALb5S1_sp8YYvJlt8vuww56nBy9FBoAPCb26uTAFqkeCzvfMJQH_DwhA4jv33hJZ3o5fhQsJfBYAjliyczA2BniJYGWvDM9zjDScu6h-enCSE90VzenwQmf1To1Hj6eaZMlTTXnUrp9tSyo4tyKXySKUjouD474h2-I4DLCwkcV0znycoNG6rnI-pJivdrPm6qCSxHTbpTfIJcUfKY3_GhIx9vb9GclRoPYPb0KasAYFtWE0ZPgb_Nk5gzja6rn9JoC52ghhcploJUXKRhjlbYlkWk_kNlVdD4D12IwYx2kCdRQq9hJQrfJ85Y1X_XPyY4vhIcruzLh6cUohA9EUKCX317ReAgUIO1XbSC5cM4uGGiQvCCZlMw_3Af80wzJqE4qa9MSIjDmeADH_hceJ8PwlKOgTJTEqd2k11dMZ_3H6cBS&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-rughetta/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "larughettaparis",
     verified: true,
     google_rating: 4.7,
@@ -139,9 +145,18 @@ export const la_rughetta: SurgicalPlace = {
     insider_tip: "• Les portions s’y avèrent particulièrement copieuses, prévoyez un appétit solide pour attaquer leurs assiettes de pâtes ou laissez-vous tenter par le doggy bag.\n• Au regard de son emplacement (et de l’affluence de touristes), ses prix très modérés en font une adresse locale exceptionnelle et véritablement préservée.\n• Les pizzas au format géant et particulièrement garnies tombent quasiment toutes hors de l’assiette. La ’4 fromages’ y est régulièrement plébiscitée.",
     expert_catchline: "Trattoria authentique et généreuse, une bulle d’Italie abordable au coeur de la rue Lepic.",
     specials: {
-        cuisine: ["Pizza 4 fromages", "Tagliolini Rughetta", "Pizza au Nutella", "Pizza Diavola"],
+        cuisine: ["Italien"],
         drinks: ["Prosecco (7€)", "Aperol Spritz"],
-        must_eat: "Cuisine italienne classique et très généreuse. L’endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d'accord.",
+        must_eat: "Cuisine italienne. L’endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d'accord.",
         must_drink: "L’établissement dispose d'une très belle carte de vins italiens musclés. On peut également débuter son dîner par des valeurs sûres servies au comptoir comme le Prosecco (7€) ou de très bons Spritz."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. L’endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

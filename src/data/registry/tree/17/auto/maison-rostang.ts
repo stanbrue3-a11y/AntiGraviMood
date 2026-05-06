@@ -5,7 +5,7 @@ export const maison_rostang: SurgicalPlace = {
   slug: "maison-rostang",
   name: "Maison Rostang",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "20 Rue Rennequin, 75017 Paris, France",
     arrondissement: 17,
@@ -89,17 +89,32 @@ export const maison_rostang: SurgicalPlace = {
   • **Expérience Culturelle** : Demandez à voir la salle des collections ; la passion de la famille Rostang pour l’art y est palpable et enrichit le voyage.`,
   expert_catchline: "L’apogée du goût français dans un écrin de collectionneur.",
   specials: {
-    cuisine: ["Gastronomy Pure", "Classique Moderne"],
+    cuisine: ["Français"],
     drinks: ["Vins de Collection", "Champagnes de Prestige"],
     must_eat: "Haute gastronomie française. La canette au sang à la presse ou la quenelle de brochet.",
   },
-  images: {
-    hero: "AU_ZVEHWUOi_kUpVczLcCaaiZhBtyp1_3-I5f_-VVu20ykNrM4HMVnXskgeYZkwiawN_4N-KpUHu9RT46FDqLTl6M1d1QCEEwOvEyzmmbMgjnzuUy43UUwkNHizSzTWYd2tVUwtM-fEnmU6aHZ36_FhSxth1XoZjEQa1gV2_s7Snn3y4zH-5qicINdr6vmIhqkUxwddvpDcVlOTOC27033kPWTwp47oHJ10OoKN2PPpoTgkN8m1mIa9snBsZgk66CxCXma_vblbkr8pdF8yT5gH9vpMRWRdQ6KBRmhk7zd1qf5rSSQ",
-    gallery: ["AU_ZVEHWJpbdMmKOtyRyFq2E03oVKhOQ87W9oDCnDJolLAF6vFGbwhPLSkmiMbZ4CM0RiFw2wtGdVIqUgMGgjxtZ9NPKtl_VO4KF-ww2uwLMHMmN8ia6f_LXxWkDlatxV0lUYvSRfM4-xzZFkKfPU_zovoTZqbX23Acy2sxtZvE0QdMwTLgixZ8x-hi2TRm9POqo5ldp7nvJOu96W0tKRQqa_LueXhIWg7g1pG-UqEybo3WKZanQcscSXFymCubUDQuVX1qJRbO_8KET_6revREv1_2JNY3Xmr0ci4Li3qYSXjckqQ","AU_ZVEEJUGnFhvjWneQcqYL6X60_N4yQyh4Mo5FjnoGEe5fZjSC-vhV9WkRtfTTEtdolgii1QcQCU6Imsu1rHM5-I7ZVyjYo7rjghnwLMTyre0xgBd2HK9mZxCdqxfyw4BtqhsWvEQ_x7qETiCdwL8BIxOTl5KMh2OdsaZWTymfpmnoi_LMYxzBCuVOL1-ctXw3BfqE4wUOTC2PoLVKQKZR5qbKgaRVtuT2-sq_QLbh34vDm56yzsUijLlTFPoNVN71YWF5YFYC_PStzVf1RYRH76ccdd8qwZs5Uw62JfqE4cH7dO7oamQ89YLMj8FQ22yd7Kgmqyn-0zI4K3NCCobOdhMkAnLswCtSUY95toMrupAjLe11xSAv5NYTmAKumu6sNHXsQWAIXg2oxYdP2VliL1E_WKoOzgcrYitNctzg0qCRsNYY_xjCGGqYY6H6_rl1u"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-rostang/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.4,
-  michelin_stars: 2
+  michelin_stars: 2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie française. La canette au sang à la presse ou la quenelle de brochet.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default maison_rostang;

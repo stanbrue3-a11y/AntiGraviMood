@@ -114,16 +114,19 @@ export const andia: SurgicalPlace = {
   expert_catchline: "L’aventure fusion latino dans une gare historique métamorphosée.",
   insider_tip: "Réservez une table sous la verrière pour l’effet ’WOW’ garanti. En fin de semaine, le lieu se transforme en club chic dès 22h30.",
   specials: {
-    cuisine: ["Andine", "Latino-Fusion"],
+    cuisine: ["Français"],
     drinks: ["Pisco Sour", "Margarita Tajin"],
     must_eat: "Cuisine Andine. Ceviche Classico & Poulpe Grillé au Chimichurri.",
     must_drink: "Pisco Sour Maison"
   },
-  images: {
-    hero: "AU_ZVEGOoWa9N23PWmfDt3OLJyEvtJlhT0KFqg2weGFlZpyR__MkHTB11I1Wc1fz_-WBfAGGkFUeTKncwK0soJL71xdaIW2TmHvhVkiiqNpzxp-ZIQMd1BcCDiVn5WfTE1B9FmWIqJhiDac3PFlQfqhWj6Q-y4lXtqwCRJX2wrDZzmpuljdi7c_C_GTjzGtiURhHbYw2kkqSU2TLMP1JlCsCQ-5SMPUQ76JdcDORZaoys5zt1hxaKxbdo-H1nUvDZz2RjusBXcCaBWAq6NU2Dy606_8iyq5nuIMiahXtOOtn-vcaahDyDwziyge6ftubkPX4FP9eY4_5caSL6uhCAIxDMNhgND9PpstyMRhYKsIz6wHKMChBVZkJni5Ps9V7p9Xl3wO2n04AbF-kuvtVG7JdbstsE2HCRgc1wNqLpVcpWnEJaco",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/hero.jpg",
     gallery: [
-      "AU_ZVEE4xg1sgYCfjt1B3iH3pApnYC5QzgNecFuCvUlmY7p0mgkjs_9F9BzmLBieK8Q4FbF7T605XHrE47D72SkVkeQhJUDsceee8gFQSsT1hqMNnAHVn2w13JvsD_ThCPUFXmT69AT1phWRgLARkU-2_Du6xCj_qxANUPES7k-a6mG7nRNI21MiYrXkzH-HNFW5MUHUlM5TyzrOR0bfHpRpmhUb8V-20_fySeO8J4DcIxxrYt3sJC-FnXUSZLcbqRSPzDCtmIn4gz98ywsxn5KT7Onzp5a2NbvV8FECuUckFUjEo6TJ9-ltH96W9wtOSBExw61RzFaFjF5FUBcVnMKg9xok2JacynLPfDoyX9ZA1mwvMeNojsDN6UMKnJvwuRk3Sfdk6RjZefo2D2eQguX94IyHrjFQa-YipnpA_C3zSsmB0RAuthm7uLELi3ULEI2l",
-      "AU_ZVEEJkTEk4Xm4W6EnzGTTNg4noEjASwfJMb37vS1kLneFQLLIBcpkyHG0bGe5JqJD6Ws3IIXunxcK1VNZoqstsBpV9749Tjp7BkY7VJJul-2dEKWI6ZZRprjaEa8GfDno7Ru1jy3aa8l2TFaFg4waYGbEqleNJGpPLdjgNfp0VqY6h6AQI6wNf-PMo9AcThrfdzqdpG4MJxfzI1wxu6esHrEREUcMRDVTptknT0dqRRe0Nm5sRBSI7nbohNq1MPqJX5nkmHwHY5d7K9DHPJLbbHpRBMoDmezE6jSePsjb6p3KbA"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/andia/gallery_4.jpg"
     ]
   },
   verified: true,

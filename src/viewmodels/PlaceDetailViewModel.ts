@@ -164,7 +164,9 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
         insiderTip: place.insider_tip,
         leSecret: place.real_talk?.insider_tip,
         leSon: isBarContext ? place.real_talk?.must_drink || place.real_talk?.must_eat : place.real_talk?.must_eat || place.real_talk?.must_drink,
-        cuisineLabel: place.practical_info?.cuisine_type || (place.specials?.cuisine || []).join(' • ') || undefined,
+        cuisineLabel: (place.specials?.cuisine && place.specials.cuisine.length > 0) 
+          ? place.specials.cuisine.join(' • ') 
+          : place.practical_info?.cuisine_type || (place.subcategory?.[0] !== place.category ? place.subcategory?.[0] : undefined),
       }
       : null,
     description: place.description || null,

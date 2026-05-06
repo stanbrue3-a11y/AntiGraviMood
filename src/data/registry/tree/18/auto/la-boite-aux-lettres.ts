@@ -79,16 +79,31 @@ export const la_boite_aux_lettres: SurgicalPlace = {
   description: "Situé en haut de la rue Lepic, ce bistrot de quartier est une véritable institution montmartroise. Entre les murs couverts de mots doux et la terrasse animée, on y déguste une cuisine maison généreuse et sans prétention. L’ambiance y est électrique, portée par une équipe chaleureuse qui incarne l'esprit du vieux Montmartre.",
   insider_tip: "• **Le Burger de la BAL** : Avec ses frites maison, c’est le réconfort absolu après une balade sur les hauteurs.\n• **Pour les Indécis** : L’option à 12€ pour goûter plusieurs entrées est une superbe idée de partage.\n• **Brunch du Dimanche** : Très populaire, pensez à réserver quelques jours à l’avance.",
   specials: {
-    cuisine: ["Française", "Bistrot", "Traditionnelle"],
+    cuisine: ["Français"],
     drinks: ["Vins de Propriétaires", "Cocktails Maison"],
     must_eat: "Cuisine bistrot. Burger de la BAL & Pain Perdu",
   },
-  images: {
-    hero: "AU_ZVEEna90IMHMeKWAaUy1PaActHLajIkVSoUbUxVCjGEwSQ-CEqWZwQ3jQ1OFYSNdS99KET_aSXWhQ2XM4GFGRc0D3GuvQbjQ8TQ680wHyEzo033Zs_6kQO_nll5-hBE1Rt__yCsCGtyvu2scgUydIaMGmkO59R3EQk11y5FxfR6Kpb7y34nVidfOiF8r5AlhLz5pb1Qv58alci8gQ35nwekp8Y_v5QGZOJ7W_jqs2oCOpt2Y3-IN9TohUDh35MVWzmXylIBrFsZaXtvkXe4DcjUObmkp9uC_Du3_BcZQKCAoI1Q",
-    gallery: ["AU_ZVEGAF5e5t3Z4jL_ywSafAP__dGM4pYY-KIqfSvyur0mSLo6ljCpkD78Omu3PIel1_sgW-yTas1SfIMDPx35PR-8d571i3L5vwQ__KUDzz4yBib94cg8dHcmJ3IbMwka7AOTU75lqSlxC40y-FMGkbav3KGjM1mXAEK1K5UieRF6zpjMI7nAZq8AtXqs_KCQ9o0zHXJmnJLdSYjxwxV75WW7rVgtnkO5Hq_eqo4dzPykRbw4zhKg_r-7XAlxG8wql776dr1VSB3I2pAPFd6S-nHQrxQ_np5kwyUrCqFLQxEnkOg","AU_ZVEGIKJGvHjSQ4zh99M1oO1Y123oQDOqGW4WXdHMZiiG5f-UiEnhLncK6qUY35GluNtPuKN8jtW8_5oDWGeL-5XsUvYc-I7sLmkAD1NaEt5flwzb9LQzq_VOiyBv3b0g8BUaSk7q6LbOPQSWFlvmvCF2QvnaUDE7eEJCTxAwWSvGZwABwTj7LBbPuzU4f1Id-wUZfM042aTOqPdfk2UhkRsjJ_impuZvvyIyNPUTCPl-OozWAowBpul6wl8gWKmk9uIYMt3N2KxXriUiiJWizfoDtL9gCqQxPaMh0MEHTqyJiwIVC0jMQ1CcT2DMEC2VTvCNljX2cPW-k1VH9nURMZVPM9gtiaLKCwa5OyHUX52stvklMCQ_ed-2esxKbg1A-9VV5DiN6IkQ_ZH6Agpp9FDEZPlfyoKFp_wuspdXgwAHOh30r8-LBmu98L48TqTVr"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-boite-aux-lettres/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine bistrot. Burger de la BAL & Pain Perdu",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default la_boite_aux_lettres;

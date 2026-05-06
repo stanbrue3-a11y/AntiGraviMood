@@ -5,7 +5,7 @@ export const le_feria: SurgicalPlace = {
     name: "Féria Café",
     slug: "le-feria",
     category: "restaurant", // Categorized as Bar so PriceEngine prioritizes the pint
-    subcategory: ['français'],
+    subcategory: ['tapas'],
     location: {
         address: "4 Rue du Bourg Tibourg",
         arrondissement: 4,
@@ -106,10 +106,16 @@ export const le_feria: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWRpX9IuSTSv9Z2r5v6wnCbCSdEaFLG7oyLc4Zr5Hd7vnDn7J_R0_PCkEaH3GMgS1rqe8xgm9cy8uE3MAdWkGWGEkWPA8vQxatQCKSBH1EbxUIXWMFMFeFvCN7MYxly_jXoGFsiZSQr2Q2CKE7W84tw5OSEs1AJyC-rw_ADxy9-rjGLw6UMQv7zUkW7bOt3LL-NhlNsSnX1wrJjXXABO14YLOmL11i78dN3z5R8QK9iBwJkbzkoDu2d5EAHhkrAcoRA8Ur69hbNzkSqwr86zBgotR0-CW1R1oLQosHRbHbpDxk23YCx0mNKMmVMxNMctiFFP5onFMgXG-GCTByB032k8mpZbj0NcsgSL_YAtCv3BxDzvHkBYywaQbLy-LE4W7x6_CfCP-0uI2IaljwMJIPnVJc5t6yVNS3N-MA5FjHnQpbQ4ALBPAn75BOFBw36k3PmJ2VdB3d5j35Yrjfobsm0joDNyt1Mwyn1kVwQwM449LwaDzmcncxShU9OvPmyv1KvmRghx0EUYgFiriPfoeVHIVpS9QV83lig7CtOpdm8IU-smhav-3OwZOmEePIixtPmJ25M&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-feria/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "feriacafe_paris",
     verified: true,
     google_rating: 4.3,
@@ -117,9 +123,18 @@ export const le_feria: SurgicalPlace = {
     insider_tip: "• Si vous cherchez de l’intimité pour un premier date calme, fuyez. Ici l’ambiance grimpe très vite en décibels dès 19h.\n• En semaine, attaquez-vous sans hésiter à la solide Pizza ’La Hulk' (Pesto verde & Stracciatella).\n• Pinte très honnête à 6€ en HH pour ce quartier hyper-central.",
     expert_catchline: "Repaire hybride redoutable du Marais : pintes en terrasse le soir, et brunch XXL à volonté le week-end.",
     specials: {
-        cuisine: ["Brunch à volonté (31€)", "Pizza Tartufo", "Egg toast Foie Gras", "Nems de Poulet"],
+        cuisine: ["Espagnol"],
         drinks: ["Pinte blonde HH", "Shots", "Cocktails création"],
-        must_eat: "L’équipe du bar envoie une batterie de tapas bien sourcés pour l’apéro : mention spéciale aux nems de poulet (10,50€). Côté brasserie pure, on frappe au cœur des pizzas napolitaines ou sur l’artillerie lourde du grand brunch buffet.",
+        must_eat: "Cuisine espagnole (Tapas). L’équipe du bar envoie une batterie de tapas bien sourcés pour l’apéro : mention spéciale aux nems de poulet (10,50€). Côté brasserie pure, on frappe au cœur des pizzas napolitaines ou sur l’artillerie lourde du grand brunch buffet.",
         must_drink: "L’arsenal parfait pour le quartier : pintes à 6€ en HH, pichets et une redoutable carte de cocktails pour enflammer la soirée dans une ambiance très vivante."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine espagnole (Tapas). L’équipe du bar envoie une batterie de tapas bien sourcés pour l’apéro : mention spéciale aux nems de poulet (10,50€). Côté brasserie pure, on frappe au cœur des pizzas napolitaines ou sur l’artillerie lourde du grand brunch buffet.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

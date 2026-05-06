@@ -109,13 +109,16 @@ export const biondi: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUqIfxA3xNfcdkKv1y0gMIhsAEloiRBCSShM0z1I7_3MnWlS_bjM0QxjDGsPWb_WdepN20eT9sQ_P8wXkjTpwxvuHaULgrfangyKjM-qF8PqOpNjgGMmMPIgy-713qFg_cF25VFWc2FM-WM6XktOCN8XJvVdVaC7xfNKvi_WITIDl85Ag5_sa4BktKE55jkYsGqIYOM9JOj0HpvlZhezCDLZVXYvqi4EFZoSkNVzg4in77l7IizojxmP909KAA8kgWRk2cvXMfKAaBiabd0CgYzPSJ8galyQ0I4JZUkPs021w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX6F71MPpTXJkYNcSvY8XD9PFRvd1bpdXQlzWgkAVGGWGUSbIK2GUZp5p0KE894xfWWvwRDZU0U2qn7uPN85S9mcP7W7VMJkSDXxmGSPJU-wUS0qIJ2zdvzvQy8ohAyohdLn-k1YVckatJitWPlnZr6MrE7LZUQUDP0ItpvqoY15-gsxsXY1FllIit5qPgb6J4TsazhCrh78_QS3jjkLvVYtFQMmWnI7KCvEatNxB-2hgZhUmW5rlIlEQumGHBYi8d9KWQOFB1DPNJ11Ly6DX8-nFvUD-Edtx22gtDocsYFRVJacaotpbdolxNjEDdHmH8S7QYstA4YhI1JqyH52wqiKBJaZ2yZoJrXOCNOK5hVlLcWUj4Xk0U_1a0XahodHjYVYnpZcUXksvWNALXpmpnqhXGZRfQwV1lYFqnuZyUbOiPNm5NhgcWmedMKxQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfURCHB2Gdml-7qduzTRVzwqEA5Ca3aCHk_LKQH712K4ux0EONRlHfELFQbqZwZe8-XNg1pso-ok6d94cg5I9OaNlXuytG6t_CdLF8HvoWfLvVp5AwtDDm7PogNVkdR6OYkR1nlRWnBpzI3un8rbRO__yYRrCUg978O0radXOwOh6qJlewZRM6LeG2vfCEc8-X30UXDawu1XryW4MLkF6ndu6jaQ3X8yyDdNG3acO7CCaxGJgTVTZMGUd5dgB3_5P3A-AWZaoCYzThhwIt4PSqjsdwRgqGmOsykMSja8gxWINdr4QR7ZGXigA2FppcWfpikMwctrwYGw8dPpb8NzCeGaAY1opzc0xJzE6qHSmrds1Lq05J28G4UTstDZPAxkFy0K3H6CeilPRW41bHLYZmGvQJrgRQdnY3GZqVm44Fe3nuRxCmFnL-hfJejqfg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/biondi/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "biondi_paris",
     verified: true,
     google_rating: 4.4,
@@ -123,9 +126,18 @@ export const biondi: SurgicalPlace = {
     insider_tip: "• C’est le rendez-vous des très gros viandards : venez à plusieurs pour faire honneur aux Côtes de Bœuf maturées 8 semaines à partager.\n• L’expérience du midi est redoutable financièrement (Menu à 23,50€ pour Entrée/Plat/Dessert) et permet de goûter la qualité d’exécution à bas coût.\n• L'odeur de feu de bois embaume la salle, une vraie marque de fabrique.",
     expert_catchline: "Haute couture viandarde et maîtrise absolue du feu argentin. Le paradis carnivore.",
     specials: {
-        cuisine: ["Côte de Boeuf Maturée (jusqu’à 8 semaines)", "Empanadas de carne", "Churrasco de las Pampas"],
+        cuisine: ["Français"],
         drinks: ["Malbecs pulpeux d’Argentine"],
-        must_eat: "L’Empanada de carne en entrée obligatoire, pour s’échauffer avant d’attaquer les fantastiques pièces de viande à la braise.",
+        must_eat: "Cuisine française. L’Empanada de carne en entrée obligatoire, pour s’échauffer avant d’attaquer les fantastiques pièces de viande à la braise.",
         must_drink: "Un Malbec argentin tannique et épicé, la seule règle valable pour affronter la côte de bœuf de Galice."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’Empanada de carne en entrée obligatoire, pour s’échauffer avant d’attaquer les fantastiques pièces de viande à la braise.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const petitBaoBastille: SurgicalPlace = {
+export const petit_bao_bastille: SurgicalPlace = {
     id: "poi-petit-bao-bastille",
     name: "Petit Bao - Bastille",
     slug: "petit-bao-bastille",
@@ -88,21 +88,34 @@ export const petitBaoBastille: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWvEEJTitkBEjbfK5neEMASKs9V4zgWlPrBge4Dil_wOtT1-8oUqklsvdui5m2QhmzkWvPc1vmiPAHBXOi76fgGGj2QMDeEPdHVcKJm4kx-IdHgyCATAyt5zo-Q3toXyxoSl9lT9kbzZx24AsTyhqSD48AF8TpcKGECo5nD51xazeToIESFefv-75ojuyJpWesc996UemvuHfe6-QTCKu0m74UzCNKKGzduhG41HdW6evzwT3pwYpxYYA4tZzKQ7XgDV_9-0-hX7x69ixFaC_RUXWfFCyu4T3b43KoLxUCMmg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWJG_MMu6FYjG-kj31Ib5B2rQs_XXHesaC_OYRJIJrtgCuOOFt8uXxR5snK7pURbl7hd99y3---W0E5rZJoYNrSRKopGAkrtgVmf7EW3BtFN1fDheY3zDWNCdxxnKhrzRv_NRCDV0B0Bly1DD0owoSTPzWSeMr1Ft9-j_e0ggpxdhCkwqXTn3_lhVtFcJkpF3bAH9yX877hrfBcmFnYr_lQvZJm20MRPm2QzmkCJdTehx1J-csfedn_xncmSTO44mtbcgaVpyqHkPrg9xwZigeopMzk7UPGVeUW2qP7d0ysMaV2Py3fccp0Epg44oOpvYvHhewLtwCPxtdi-jvezBQHRbiaL5XsybfG3QQ3ZvJDLFaHFfPFkpH8geUh-akK728-kOY1kHK_S3BVGJyVQBqKrwiKIp6_NENvcsaE0fuZ4TDoygteFmsC77cU9oHp&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bao-bastille/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.3,
     description: "Anciennement Bao Express, ce lieu a été repensé pour devenir le plus grand temple de la Bao Family. Inspiré des ’cha chaan teng' (cafés de Hong Kong), le décor rétro mélange néons, banquettes et cuisine ouverte survoltée. Des baos vapeur façonnés main aux nouilles sautées au wok, on y trouve toute la gourmandise de la street-food cantonaise avec une énergie communicative.",
     insider_tip: "N’essayez même pas de réserver, c'est premier arrivé, premier servi. Le weekend, le service continu est parfait pour un déjeuner tardif à 16h sans faire la queue. Le bar caché Underpool au sous-sol vaut le détour pour ses cocktails précis.",
     expert_catchline: "L’énergie de Hong-Kong et le paradis du bao artisanal entre Bastille et Bréguet.",
     specials: {
-        cuisine: ["Baos artisanaux", "Wok-cooked dishes", "Hong Kong Diner vibe"],
+        cuisine: ["Asiatique"],
         drinks: ["Bières artisanales Deck&Donohue", "Cocktails Speakeasy Underpool"],
-        must_eat: "Le Charsiu Bao au porc laqué, fondant et sucré-salé.",
+        must_eat: "Street-food. Le Charsiu Bao au porc laqué, fondant et sucré-salé.",
         must_drink: "Un cocktail au Underpool après votre festin."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Street-food. Le Charsiu Bao au porc laqué, fondant et sucré-salé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

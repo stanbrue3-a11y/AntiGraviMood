@@ -25,6 +25,7 @@ import { TimeMapper } from './mappers/TimeMapper';
 import { MetaMapper } from './mappers/MetaMapper';
 import { BadgeMapper } from './mappers/BadgeMapper';
 import { isValidString, extractInstagramHandle } from '../utils/sanitization';
+import { PriceEngine } from '../lib/pricing/PriceEngine';
 
 /**
  * PlaceMapper
@@ -146,27 +147,27 @@ export class PlaceMapper {
       value_score: 80,
 
       // Item prices
-      pint_price: nullToUndefined(row.pint_price ?? pricingData.pint_price),
-      cocktail_price: nullToUndefined(row.cocktail_price ?? pricingData.cocktail_price),
-      wine_glass: nullToUndefined(row.wine_glass ?? pricingData.wine_glass),
-      coffee_price: nullToUndefined(row.coffee_price ?? pricingData.coffee_price),
-      dish_price: nullToUndefined(row.main_dish_price ?? pricingData.dish_price),
+      pint_price: (row.pint_price ?? pricingData.pint_price) ?? undefined,
+      cocktail_price: (row.cocktail_price ?? pricingData.cocktail_price) ?? undefined,
+      wine_glass: (row.wine_glass ?? pricingData.wine_glass) ?? undefined,
+      coffee_price: (row.coffee_price ?? pricingData.coffee_price) ?? undefined,
+      dish_price: (row.main_dish_price ?? pricingData.dish_price) ?? undefined,
 
       // Extended prices
-      shot_price: nullToUndefined(pricingData.shot_price),
-      soft_price: nullToUndefined(pricingData.soft_price),
-      planche_price: nullToUndefined(pricingData.planche_price),
+      shot_price: pricingData.shot_price ?? undefined,
+      soft_price: pricingData.soft_price ?? undefined,
+      planche_price: pricingData.planche_price ?? undefined,
 
       // HH (Standardized 2026)
-      hh_time: nullToUndefined(pricingData.hh_time),
-      hh_pint: nullToUndefined(pricingData.hh_pint),
-      hh_cocktail: nullToUndefined(pricingData.hh_cocktail),
-      hh_wine: nullToUndefined(pricingData.hh_wine),
+      hh_time: pricingData.hh_time ?? undefined,
+      hh_pint: pricingData.hh_pint ?? undefined,
+      hh_cocktail: pricingData.hh_cocktail ?? undefined,
+      hh_wine: pricingData.hh_wine ?? undefined,
 
       // Metadata
-      smart_tip: nullToUndefined(pricingData.smart_tip),
-      verified_at: nullToUndefined(pricingData.verified_at),
-      last_updated: nullToUndefined(pricingData.last_updated),
+      smart_tip: pricingData.smart_tip ?? undefined,
+      verified_at: pricingData.verified_at ?? undefined,
+      last_updated: pricingData.last_updated ?? undefined,
 
       menu_items: (pricingData.menu_items || []).map((cat: any) => ({
         category: cat.display_label || cat.category || cat.category_type || 'Menu',
@@ -182,9 +183,9 @@ export class PlaceMapper {
       })),
     };
 
-    const primaryPrice = this.getPrimaryPrice(pricing);
-    pricing.index_price = primaryPrice.price;
-    pricing.primary_price_type = primaryPrice.type;
+    const type = PriceEngine.resolveDrinkType(row.category as any, typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : []);
+    pricing.primary_price_type = type;
+    pricing.index_price = PriceEngine.getReferencePrice(pricing as any, type) || 0;
 
     const practical_info = {
       primary_status: (editorial.primary_status ||
@@ -231,7 +232,7 @@ export class PlaceMapper {
       subcategories:
         typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : [],
       dominant_mood: this.determineDominantMood(
-        moodScores,
+        moodScores as any,
         row.dominant_mood,
       ) as Place['dominant_mood'],
 
@@ -301,7 +302,7 @@ export class PlaceMapper {
 
   static mapRowToSkeleton(row: PlaceRow): PlaceSkeleton {
     const moodScores = this.safeValidate(row.mood_scores_json, PlaceMoodScoresSchema, {});
-    const dominantMood = this.determineDominantMood(moodScores, row.dominant_mood) as MoodType;
+    const dominantMood = this.determineDominantMood(moodScores as any, row.dominant_mood) as MoodType;
 
     const pricing: Pricing = {
       type: (row.category === 'café'
@@ -321,9 +322,9 @@ export class PlaceMapper {
       menu_items: [],
     };
 
-    const primaryPrice = this.getPrimaryPrice(pricing);
-    pricing.index_price = primaryPrice.price;
-    pricing.primary_price_type = primaryPrice.type;
+    const type = PriceEngine.resolveDrinkType(row.category as any, typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : []);
+    pricing.primary_price_type = type;
+    pricing.index_price = PriceEngine.getReferencePrice(pricing as any, type) || 0;
 
     const skeleton: PlaceSkeleton = {
       id: row.id,
@@ -383,17 +384,17 @@ export class PlaceMapper {
       is_free: place.pricing.is_free,
       unit: place.pricing.unit,
       type: place.pricing.type,
-      pint_price: nullToUndefined(pricingData.pint_price ?? place.pricing.pint_price),
-      cocktail_price: nullToUndefined(pricingData.cocktail_price ?? place.pricing.cocktail_price),
-      wine_glass: nullToUndefined(pricingData.wine_glass ?? place.pricing.wine_glass),
-      coffee_price: nullToUndefined(pricingData.coffee_price ?? place.pricing.coffee_price),
-      dish_price: nullToUndefined(pricingData.dish_price ?? place.pricing.dish_price),
-      hh_pint: nullToUndefined(pricingData.hh_pint ?? place.pricing.hh_pint),
-      hh_cocktail: nullToUndefined(pricingData.hh_cocktail ?? place.pricing.hh_cocktail),
-      hh_wine: nullToUndefined(pricingData.hh_wine ?? place.pricing.hh_wine),
-      hh_time: nullToUndefined(pricingData.hh_time ?? place.pricing.hh_time),
-      verified_at: nullToUndefined(pricingData.verified_at || place.pricing.verified_at),
-      smart_tip: nullToUndefined(pricingData.smart_tip || place.pricing.smart_tip),
+      pint_price: (pricingData.pint_price ?? place.pricing.pint_price) ?? undefined,
+      cocktail_price: (pricingData.cocktail_price ?? place.pricing.cocktail_price) ?? undefined,
+      wine_glass: (pricingData.wine_glass ?? place.pricing.wine_glass) ?? undefined,
+      coffee_price: (pricingData.coffee_price ?? place.pricing.coffee_price) ?? undefined,
+      dish_price: (pricingData.dish_price ?? place.pricing.dish_price) ?? undefined,
+      hh_pint: (pricingData.hh_pint ?? place.pricing.hh_pint) ?? undefined,
+      hh_cocktail: (pricingData.hh_cocktail ?? place.pricing.hh_cocktail) ?? undefined,
+      hh_wine: (pricingData.hh_wine ?? place.pricing.hh_wine) ?? undefined,
+      hh_time: (pricingData.hh_time ?? place.pricing.hh_time) ?? undefined,
+      verified_at: (pricingData.verified_at || place.pricing.verified_at) ?? undefined,
+      smart_tip: (pricingData.smart_tip || place.pricing.smart_tip) ?? undefined,
       menu_items:
         (pricingData.menu_items || []).length > 0
           ? (pricingData.menu_items || []).map((cat: any) => ({
@@ -411,9 +412,9 @@ export class PlaceMapper {
           : place.pricing.menu_items,
     };
 
-    const primaryPrice = this.getPrimaryPrice(updatedPricing);
-    updatedPricing.index_price = primaryPrice.price;
-    updatedPricing.primary_price_type = primaryPrice.type;
+    const type = PriceEngine.resolveDrinkType(detailsRow.category as any, typeof detailsRow.subcategory === 'string' ? detailsRow.subcategory.split(',').map((s) => s.trim()) : []);
+    updatedPricing.primary_price_type = type;
+    updatedPricing.index_price = PriceEngine.getReferencePrice(updatedPricing as any, type) || 0;
 
     const hydratedPlace: Place = {
       ...place,
@@ -435,6 +436,10 @@ export class PlaceMapper {
             expert_catchline: realTalkRaw.specials.expert_catchline || undefined,
           }
         : place.specials,
+      media: {
+        ...place.media,
+        google_photos: this.safeJsonParse<string[] | undefined>(detailsRow.google_photos_json, undefined),
+      },
       insider_tip: realTalkRaw.insider_tip || detailsRow.insider_tip || place.insider_tip,
       expert_catchline:
         realTalkRaw.specials?.expert_catchline || realTalkRaw.must_eat || place.expert_catchline,
@@ -443,19 +448,4 @@ export class PlaceMapper {
     return hydratedPlace;
   }
 
-  /**
-   * Helper to extract the primary index price from pricing data.
-   * Order of preference: pint -> wine -> cocktail -> coffee -> dish
-   */
-  private static getPrimaryPrice(pricing: Pricing): {
-    price: number;
-    type: 'generic' | 'pint' | 'wine' | 'cocktail' | 'coffee' | 'dish';
-  } {
-    if (pricing.pint_price) return { price: pricing.pint_price, type: 'pint' };
-    if (pricing.wine_glass) return { price: pricing.wine_glass, type: 'wine' };
-    if (pricing.cocktail_price) return { price: pricing.cocktail_price, type: 'cocktail' };
-    if (pricing.coffee_price) return { price: pricing.coffee_price, type: 'coffee' };
-    if (pricing.dish_price) return { price: pricing.dish_price, type: 'dish' };
-    return { price: 0, type: 'generic' };
-  }
 }

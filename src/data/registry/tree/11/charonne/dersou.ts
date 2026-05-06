@@ -110,17 +110,30 @@ export const dersou: SurgicalPlace = {
     expert_catchline: "L’art du pairing fusion : une cuisine d'auteur percutante accompagnée de cocktails haute couture.",
     insider_tip: "• L’expérience complète se vit au dîner avec le menu dégustation et l’accord cocktail : c’est l’essence même du lieu.\n• Le midi, la carte plus accessible permet de goûter à la précision du chef sans se ruiner.\n• Installez-vous au comptoir pour voir la brigade à l’œuvre et échanger avec les barmans sur les créations du moment.\n• La sélection de vins naturels est également très pointue pour ceux qui boudent les cocktails.",
     specials: {
-        cuisine: ["Fusion", "Bistronomique", "Sashimi Sériole"],
+        cuisine: ["Français"],
         drinks: ["Cocktails Signature", "Vins Natures", "Pairing Alcoolisé"],
-        must_eat: "Le menu dégustation 6 étapes et les sardines sur brioche."
+        must_eat: "Cuisine française. Le menu dégustation 6 étapes et les sardines sur brioche."
     },
-    images: {
-        hero: "https://static.wixstatic.com/media/dersou-paris-interior.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dersou/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     michelin_stars: null,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le menu dégustation 6 étapes et les sardines sur brioche.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

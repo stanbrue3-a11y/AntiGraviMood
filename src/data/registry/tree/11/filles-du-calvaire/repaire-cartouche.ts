@@ -85,13 +85,16 @@ export const repaire_cartouche: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX9T-ojR8OK4CK_CF3SBJATgShbNUqmnessxzjXosHDcgNXvEl9wBqDHW78DWOtWkon3OUq8htYCgZF2YlPoJhKtkssW5LwqH5EmsA3UndTpFNXsS39A5GBaazdRq4tUeSea7xtZCN_65kNdLPrLvMlKeZqrFCcVIYoiqWqJl8FCFWClRO5MAFVHHoudHkFBjByofVb5-5N7SBjZ58IdJqgSZGtRg6YKLcSzHElz458Xlj5Ye23wrYs2rVEffOVCgso6W4f-DxkB_2BW-h25rV8BSksBkZZw_tsFMstVmbl3yaOxhHYHMTavQSeMwWd-TNEnWpZ0m5nBrLJL3kNLCn2GYe53HV0IDA48XnhOHAvPQq5h3-QDBcHh6G1FnMhfuyEy1XqWUrx6xs_FwxYxFcUUr0CiXWNjTGhH9TkWyQJ-w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWyq9sTVRpGbDWBVVqSfRke2mkcmvktlUUjDCqleDDIRhi1zpoaRIr0SZPr1EsXK_9P0q8uZBSzHQdrCFUMCD_FgI_AATKBKUl7UiTuxjAd4Ic_wNA8oPyYZXRZqNgf-LvAkg7Ve30VCds9Y-wFUOyODzlKygCl8fcEwNYUBZko8h4ybX6_MdKsfvvIC12sX7Q50xwYYMa3FOTmVxe7Gro7B3xAGMwu0tfA4GRumcchfqjjiEwjrLj9gn13D_q5gJS2TOU6OMv34C_0EwnhomNVNwJJeFLTHH_2j4k7BDIBXBgeskD-0lrYEZMc71E5ByilAAxAsro0Q1oJeP5T1SXRbeWbVeLYi9lHOq-BPQBkpqAR_Fxo_FI9n0evKKbmpNQYB3uuCkDx2Eb2voNK_qOP9ogBX5fOFkcVW_ulGTVKa5Y&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXJha1jU9cofVIlOjbc8JmXvNWoXbeL-i5cOJyva7LzufS2CJw0drtI8cgAjes97Uxhlql-Ro-K2caZYwXaorq36YUiye8yp_kovqdiTyWRuTdNpvHNNiJOS8uGslLuhnkRVOFYffLyuTYF1arG69-agTWK_LOUBFdoeOr03A9RGuvj60UKnLqFeh09kmCR563XbHTsGjwQOnKcf-2tXC5Goh2fathtlkb1hNfxM1yfXeuvAFMrqembJmXmOABbdLeKRVoJOqy1WEyJTNRARGHLXZBuEAwtV1x3ur4lyX1fM6BQ6m6mlw6YUmXvyM76FiLCuy_byk4FlRhnILKhW9_HMRIMnT-EqUmk1K0MDMg9CD6IwPoQklNHWKtpc-ICjSWwcOg4pZDLo9wywmAfZSQUwRN2I1lKuKClvSFGitkzZNws&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/repaire-cartouche/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lerepairedecartouche",
     verified: true,
     google_rating: 4.3,
@@ -99,9 +102,18 @@ export const repaire_cartouche: SurgicalPlace = {
     insider_tip: "• Ne venez pas ici si vous n’aimez pas la viande : c’est le paradis du gibier (lièvre à la royale, grouse, biche en saison d’hiver).\n• Le pâté en croûte de Rodolphe Paquin est mythique, il DOIT figurer sur votre commande.\n• Le dimanche midi, c'est poulet rôti frites familial pour tout le monde (54€ avec le reste du menu).\n• Les portions sont homériques, prévoyez une balade digestive.",
     expert_catchline: "Le QG viandard incontesté du chef Rodolphe Paquin, temple parisien du pâté en croûte et du grand gibier.",
     specials: {
-        cuisine: ["Pâté en croûte mythique", "Lièvre à la Royale", "Terrine de boudin noir", "Côte de veau rissolée"],
+        cuisine: ["Français"],
         drinks: ["Côte-Rôtie", "Châteauneuf-du-Pape", "Vieux millésimes de Bordeaux"],
-        must_eat: "La trilogie hivernale absolue : terrine en entrée, lièvre à la royale au milieu, et plateau de fromages pour terminer.",
+        must_eat: "Cuisine française. La trilogie hivernale absolue : terrine en entrée, lièvre à la royale au milieu, et plateau de fromages pour terminer.",
         must_drink: "Laissez-vous faire sur un grand vin rouge classique de la vallée du Rhône pour affronter ces plats puissants."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La trilogie hivernale absolue : terrine en entrée, lièvre à la royale au milieu, et plateau de fromages pour terminer.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -91,13 +91,16 @@ export const pianovins: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX6aN1G4kwpCpYShjwTJ4DMD_UPLYxJh5tLhGRx7vxpuFE42vLMtc_Hg-RE3DYZsSKyUNBwxSUZ1lPkOYiHIfnFwgptmi6Zxf53MFqFgv4x5h7TZHkmGgovB5v8RrxRlO-XFmzpgkH_cWkMfCBlBEq_KYEjwseu8ogoB-x0fvdqC6o8P0L7tMTPRzgJOYjFHX14h2r1r1SroxDyM6uXT1eZoD3MLZSUalyCJxIiRxtXUvlLfmktVmNu8jAL0BkLLcjijEEHbZ0X__LQi-MdK2htEsFzxmjpPRk59R1sCSqYmrBJ4hTARedDFrVhsuV-CptdurHXCVmx8B4g70IGcWpf3LQEEv4AfbV4CfBP8RQHM3rGF7dzUzi4nY7GFSycWYBx8ndsrWl5Mb9KaclRrsFRySzVB1FzkPjwvdAhKoG5VOs&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUIpmguK15A73_YsE5v225NzJoTJt37GvsWpMhsifA8zN_v0uUwl3qaCosajcyqhnmgMYZ8Y1ytRG0mdyP1pxpLBs1iEdc2gy9Ck7sNCO4nYN47Igtc0csQ7t609MiFaXx0xjijWIP8KcP4vlCTP9eag9N_FRox4DRvfZhnsRMtefGFe7FzC_RkYX4W8XlgpiohU0xwClvEehkRgBW4f2K3ZuIi4cRxhnMY8ktmTZ7wT3xlzEAfARh1knCzhHYB0aT4o2J2ol3hPKE1lyxKSf-bT9qVfg79qzY4B3GA-5jB6Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWLGTioJxYkZ0guHE6uUTvEy0_n9qQ5hufwqwJQFuMnv_ElSf3IXZEJLesnT8AHlBSDd7FwoPJzrLPOPDdXsCREC-bbsVU_FSBTRL6YpwQNw-DZA-nKyC8tyZSvT-N5a4yTzkOpzzCcztpM6MoO7UaJcygDl8NwNpprkm33ZooUt6xyXqv2g_T7sZxGdbCzCByXvtPh_0oW9w2TU1gA9T77QZeD5tfPbDuB5Md56LCvx0laCmJWgobm1SbWhI1aCXpblnIal65vrtMzlTu5eLyTpKRzeHqIwZ05g1K5PBG6qzzZufTTNhKQWWvU8RofIYtrbkV6sxK_oAcRjw0ruT1g77bs5I_LlsPg8FsPdFjevUjzaz3u4vzOvFimsP-_4lobP2X4Kj5ebn-X8qBetX2XjcWNfsfzebcU5WBGROVraoOimKlN_seXEKEimHdi&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pianovins/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "pianovinsparis",
     verified: true,
     google_rating: 4.8,
@@ -105,9 +108,18 @@ export const pianovins: SurgicalPlace = {
     insider_tip: "• C’est la table parfaite pour une expérience hautement gastronomique (carrément digne de l’étoffe d’un étoilé) sans subir la lourdeur des protocoles mondains.\n• Excellent rapport qualité-prix au déjeuner avec une formule bluffante à 35€.\n• La salle est très contenue, réservation fortement recommandée.",
     expert_catchline: "Haute volée gastronomique discrète par d’anciens cadres de chez Guy Savoy. Dressages bijoux.",
     specials: {
-        cuisine: ["Menu Dégustation Inventif en 5 services", "Plats très techniques, dressages orfèvres"],
+        cuisine: ["Français"],
         drinks: ["Large sélection de vins de propriétaires"],
-        must_eat: "Laissez-vous guider par le Menu à 75€, chaque séquence est un choc de textures souvent très justement dosé.",
+        must_eat: "Cuisine française. Laissez-vous guider par le Menu à 75€, chaque séquence est un choc de textures souvent très justement dosé.",
         must_drink: "Signalez vos préférences à Éric, l’ancien sommelier de Guy Savoy a le don d'ouvrir les bonnes quilles pour faire chanter les assiettes."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Laissez-vous guider par le Menu à 75€, chaque séquence est un choc de textures souvent très justement dosé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

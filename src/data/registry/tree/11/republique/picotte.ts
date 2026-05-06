@@ -83,13 +83,16 @@ export const picotte: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWjHPSkWzvYqZU9k2tEXFLQEWGj2yppOqMGQp7McCOthMgc72DGnQnCev7KTEkHRbk_bLQwIF5-7IDYqxPcALFYCXHecjqFZg3orczo9qxw7960h6Aq5uNCg62KJ9AYAUEzR5RHQ0GFqZzDttoXalJm4la2fO2UcqcJxA7bXa8bewOtQy1qjjtRU0RNkfJVM8SyKsCYGoOTExXkemqZKTMvMkIoDEiJRA2zYvwD7sZOlegQw7tjXr-2duhtKK3eDgIJf3a4hlwYQQiey5F1f3Ef5iRVplsjpi-hVvOhu8tmBg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVtjOQKlQgVe9RJXwQwpSt6D-2UxGGQeJbvDWH5MyQ9vxq1ve5PSf5pm9axZxhMdpEDUy2jq-nMYXILrjVMMJOeeM7tWQ6MwJNKIIy3w6jzC4l70gJQ0FeJRSTodDMj1k8XOkFcjQdxvtPPRZ5F1RKg6opFmK3TPvjgid_4Bk4o9kzBHkzYDAuSzNEb9cnn7vEjM3nYvjHdVuxOEqo9SXdVoAJYw0zevH0r5bUEzzVqcsza2X1mK2jHPiiCSbW4iDhCV4WKGbBuKDfGQaAW74FdX8wlUrfgGAMtPEB5xBHLSg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX4Xdd0FWSZksVISzQoN2lQAY2D1Tvpmlc1ccddNX6sycQE8p8mdEVSjg3XB_VO4NBWW1GTOzgMrcBX_CO35VCOdR6zgLkxirAAHr6nQwsqKReJORv-0Oi5WSasmpIylKutzdLlu1Z3HE_12hJoofDVR0jO4ScMWbn-FtWF_Vy1BkRLWSogEFKtSjUExMqExKlEiP_DibGhmGZG2QEV1czUIasmybn5ljzD8c2PfxgsJdDkyP7P4pKm15fVlzBlcUNuhKVjh5WWkRLLNw8oXNhAj_JkQACJ8YGieJ4vdIejx0oxU_sV_sHpxkpQEuqzXdu_PMovD0fExmWjwp3BRot_OM4wL_wOdYrGlZvqAu5BS1In9cIVVKyw83w8p_H2OZYUEGFhxokwDKaPUDEbEra7rF_SblpeXrPk7TFjX4Oi1C5_39sSPbxdtTACEW-N&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/picotte/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "picotte.paris",
     verified: true,
     google_rating: 4.7,
@@ -97,9 +100,18 @@ export const picotte: SurgicalPlace = {
     insider_tip: "• La carte change très régulièrement (le midi chaque semaine, le soir 4 fois par an) selon les vraies saisons.\n• La bouillabaisse revisitée de Picotte (33€) est magistrale et ultra-digeste.\n• Le menu compet du soir (E+P+D) à 49€ offre l’expérience parfaite.\n• Il y a toujours d'excellentes options végétariennes, sans gluten ou véganes (ex: le cannelloni de poireau).",
     expert_catchline: "Le patrimoine culinaire régional français élevé au rang de bistronomie pointue et légère.",
     specials: {
-        cuisine: ["Bouillabaisse revisitée", "Tartiflette contemporaine", "Longe de Porc Duroc", "Flan antillais"],
+        cuisine: ["Français"],
         drinks: ["Vins de vignerons locaux", "Petites appellations régionales"],
-        must_eat: "Laissez-vous surprendre par leurs revisites de plats ultra-classiques (comme l’œuf parfait ou le toast au Morbier) : c'est là que la technique moderne de la cheffe brille le plus.",
+        must_eat: "Cuisine française. Laissez-vous surprendre par leurs revisites de plats ultra-classiques (comme l’œuf parfait ou le toast au Morbier) : c’est là que la technique moderne de la cheffe brille le plus.",
         must_drink: "Restez dans le thème du terroir avec un verre de Vin Jaune du Jura ou un rouge de Touraine."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Laissez-vous surprendre par leurs revisites de plats ultra-classiques (comme l’œuf parfait ou le toast au Morbier) : c",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

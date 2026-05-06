@@ -5,7 +5,7 @@ export const le_belisaire: SurgicalPlace = {
   slug: "le-belisaire",
   name: "Le Bélisaire",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "2 Rue Marmontel, 75015 Paris, France",
     arrondissement: 15,
@@ -103,16 +103,31 @@ export const le_belisaire: SurgicalPlace = {
   description: "Le Bélisaire est une escale gastronomique authentique nichée dans une rue calme du 15e arrondissement. Le chef breton Matthieu Garrel y sublime les produits de la mer et de sa région d’origine avec une technique irréprochable et un amour du produit brut. La carte, inscrite sur une grande ardoise, change au gré des marées et des saisons, offrant une expérience bistronomique d’une grande sincérité. L’accueil y est chaleureux, presque familial, faisant de ce lieu une adresse chérie par les initiés en quête de vérité culinaire.",
   insider_tip: "• **Timing Stratégique** : Arriver dès l’ouverture du service pour avoir le choix sur l’ardoise, les plats phares comme le risotto de langoustines partent vite.\n  • **Combo Moelle** : Le Menu Découverte à 60€ est une véritable démonstration de force du chef, parfait pour une immersion totale dans sa cuisine iodée.\n  • **Détail Secret** : N’hésitez pas à demander le Kouign-Amann même s’il n’est pas affiché, c'est parfois la surprise du chef en fin de semaine.",
   specials: {
-    cuisine: ["Français", "Bistronomie", "Bretonne"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Muscadet", "Cidre", "Vins de Loire"],
-    must_eat: "Bistronomie Marine. Le risotto crémeux aux langoustines et le homard à la parisienne.",
+    must_eat: "Haute gastronomie. Bistronomie Marine. Le risotto crémeux aux langoustines et le homard à la parisienne.",
   },
-  images: {
-    hero: "AU_ZVEFcO8YBiYr0usgA0glPL-Cg0wjT_fnvoRJYC4-irhHgCTOcZYkgm_wCk-BV5ixM7Rs5382bqZfQ4h3liCAgsTnFN64xxcCXFuLcQz4Cz18u7LdM1rWdoht5pURsiM3boFcmn8iqu6M2OZOlnPgUvXoKzhFiO82RbxQ9qGMIEbz7pvRVE4F7z9HkRkdjkfMxS_jGjPzYTypOaA6Qicwr_wNoIXRD-CfTrLbltzUjfYXO8Jz4Dhn5W3KdVRnoO_3mEfyAOupFk6N9nGP7TuD6wBBKF_VbARsITopIVvMr7dMetw",
-    gallery: ["AU_ZVEE_Pa69PaWvQaOu3YXh3KJpBUgVcWyMDtxZ_U1R3v6ZGd67pxaIRXAesgw6o8cZ-hkkp9cSfNnlhckRE2M7-6DulRtWn8MIenTwLuM9ny7gi3Zkj-w_vtkD-GUJmGuzq96G-jPkvLzEqBYk_csxyirMWcHJXRY-44HkU6Oo91W0Mg4NryR_0wfiwT5UPylOxOdlRIfqxBxx6fyl6loV785SiSytFM5xixYXEVUqZvMn_s1iEbeO3u-ZT9J1oDDPb_l2QSt7f4_-tL_593kKdfeFklyfent8we8vCOlanxZLfQ","AU_ZVEEg6tmgP-UQUROLWWUlDInB2S1ujK1jAN7LLSkxQZMSEU8jCFblRI5pkfY7VBWtBYd6MWq2qTp1oFoN-ErRJShEaJR9X9XEi5huP6mXWOOtiEdB1LXRvdkdCpPnqFBqgVz0W7U41r8Zta4P7BlQNev9t0xNdvhwoIWJUdR3yO_MARSLCINBHjy4p5iaanC8hFmC_I2Foen9JnlxS2W_gkRo59r_Kw-utP0n7ebYieK_wEx-0rcVcWLNrmxguaVA_RcNxLmwFaP7PoLJoJEmR_ORf1NciOkDms-uBTsAAXMy_P2_LGYNtn3pd4ZO0Uqd0FAwjNKZYRstdK-teD7FkkSgSy2fGDF7Ge7pUzeGMYAgV0V-aUQo6k6E9vA_3aOTPKJHKG7FUAv8yOrrIG1DpBS-ly2HGVTN9CTD9B5ElCMpydNMwzYT4Wh6EOhqog"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-belisaire/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Bistronomie Marine. Le risotto crémeux aux langoustines et le homard à la parisienne.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_belisaire;

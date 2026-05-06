@@ -5,7 +5,7 @@ export const guillaume_grasso: SurgicalPlace = {
   slug: "guillaume-grasso",
   name: "Guillaume Grasso",
   category: "restaurant",
-  subcategory: ['français', 'italien'],
+  subcategory: ['italien'],
   location: {
     address: "45 Rue Brancion, 75015 Paris, France",
     arrondissement: 15,
@@ -118,19 +118,31 @@ export const guillaume_grasso: SurgicalPlace = {
   description: "Guillaume Grasso est le gardien du temple de la pizza napolitaine à Paris. Descendant de la famille fondatrice de l’Antica Pizzeria Da Michele à Naples, il pratique un art certifié par l’AVPN (Associazione Verace Pizza Napoletana). Ici, pas de croûte extravagante, mais une pâte fondante, une tomate San Marzano DOP et une cuisson éclair au four à bois. C’est l'expérience napolitaine la plus pure et la plus technique de la capitale.",
   insider_tip: "• **La Marinara** : Si vous voulez tester la qualité technique absolue, prenez la Marinara. Sans fromage, tout repose sur l’équilibre pâte/tomate/origan. Magnifique.\n• **Fritti** : Ne sautez pas les entrées frites (Montanara ou Frittatina), elles sont faites dans les règles de l’art napolitain.\n• **Le Vin** : Accompagnez votre pizza d’un Gragnano bien frais, le vin rouge pétillant de la baie de Naples, c’est l’accord local parfait.",
   specials: {
-    cuisine: ["Vera Pizza Napoletana AVPN", "Frittatina di Pasta", "Pâte fondante"],
+    cuisine: ["Italien"],
     drinks: ["Vins de Campanie (Gragnano)", "Chinotto Lurisia", "Spritz Authentique"],
-    must_eat: "La Margherita di Bufala (12€) : la quintessence de Naples, une harmonie parfaite de saveurs et de textures.",
+    must_eat: "Cuisine italienne. La Margherita di Bufala (12€) : la quintessence de Naples, une harmonie parfaite de saveurs et de textures.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH-7GbHSv0iAq2Di_NsBbpv_9wfUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9Izue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/guillaume-grasso/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La Margherita di Bufala (12€) : la quintessence de Naples, une harmonie parfaite de saveurs et de textures.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default guillaume_grasso;

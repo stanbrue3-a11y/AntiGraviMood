@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const maison_revka: SurgicalPlace = {
+export const maison_russe: SurgicalPlace = {
   id: "poi-maison-revka-16",
   slug: "maison-revka",
   name: "Maison Revka",
@@ -106,16 +106,19 @@ export const maison_revka: SurgicalPlace = {
   expert_catchline: "L’opulence d'une datcha impériale en plein cœur de Victor Hugo.",
   insider_tip: "Le jardin d’hiver sous la verrière est l'endroit le plus convoité de Paris pour un dîner romantique. Le bœuf Strogonoff est un classique dont on ne se lasse pas.",
   specials: {
-    cuisine: ["Slave Moderne", "Russe"],
+    cuisine: ["Français"],
     drinks: ["Vodkas de Prestige", "Champagnes de Collection"],
     must_eat: "Cuisine Slave. Bœuf Strogonoff & Pavlova aux Fruits Rouges.",
     must_drink: "Vodka Beluga Glasse"
   },
-  images: {
-    hero: "AU_ZVEEQ8ieM62y48w1CBRr9MHmI3PuNQ6AMFq1QaFs8omu5zjLTpIs88OjpBL_GzXqV-P9-h-xGR78gj6I0DfNjcg8zbPa0mOIzPsX0x26S80KB4qlOdussBHDQdnqeIueT-7foEaT2E03ATe3PkO7C06amKFhHLXyS12DFntfOZ_VGXXCTNqJG9_gV9N9NvuH45N3CStMsPT7yxzbUlBwc4Ki982EUXLupDTfaIY-cHkvMAw54cttBZHTTyCh7wvmDaWrHv7CYHxE4Cu-eQG2SKWg6S0VeR-nBNo3TEOzydLHWng",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/hero.jpg",
     gallery: [
-      "AU_ZVEF0ZGlHQz6olNQfPqoqM00gmIGSIbARkGlfNR8g31PQ3ncWxtn5V7pfSf7ql-m7G3I7cHAo8NueZfFGs5nt-2p_Pp8yGCribtujSMCYWS7HGBdTAcYMZse43j-Em2DrejUmLkssaJd_Cz9KgHWECfdJfDMmB5mQ2gas5jSCk_zYl9fuvgLpzc9baf097n5mzYBG7y_26RPuv9n0n5BBM0O3wDm0G-NohlmXS2qAdMEJr5SUrnchIY1N6uNN8O1lqX55RwWBPc29gVFE1I0-M-HZNLGdwvV-V3E6HQIqwCIte1Kctsbeftyk9jDiqbK7Zqjjt2Y3b_naAY02CsJsulDy2oAnvh2bjrjavj8AhA5Ph7jdKnjvTHFYKrZJJGCCbvf4XbqYpPFUvKYsBidc-84Gbn9VROxXGj3lfIFUvmfXBX34GAzOGq1yB2zDGoHS",
-      "AU_ZVEES3oxyhUpX3_o2-RAAb6qwNO4qHuCaEhjUBHMoIzCr1UCNvObFYgUDGMoFC_Q5iM8coiJZd_Ar9qA0Lx5Ur7QXh2yvyobmKvITnrx4B6KK7y8Y9TQ1IfLuCJUdwZLLsrckcZZgG_mfncmdQMuLHDpsiZj91uI3xqv0G2vmpwAsJW2d7vtoR9FpMvzhDldkUEe1CXziiTy3L7AygtCYFZ-Jr1XVWz2_diQUNi4g9ZUIDGKiJJXmeVBM-tzJlGCRUFNrL8C2O4M3CHJ48Q3RBRwG9mXvpwczHho0OZzUsQiSKg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-revka/gallery_4.jpg"
     ]
   },
   verified: true,
@@ -130,4 +133,4 @@ export const maison_revka: SurgicalPlace = {
   }
 };
 
-export default maison_revka;
+export default maison_russe;

@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const leTagine: SurgicalPlace = {
+export const tagine: SurgicalPlace = {
     id: "poi-le-tagine",
     name: "Le Tagine",
     slug: "le-tagine",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['marocain'],
     location: {
         address: "13 Rue Crussol",
         arrondissement: 11,
@@ -84,19 +84,34 @@ export const leTagine: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-tagine/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Tagine est bien plus qu’un restaurant, c’est une institution marocaine à Paris depuis plus de 30 ans. Ici, la gastronomie du Maghreb est traitée avec un respect immense : les graines de couscous sont roulées à la main, les épices sont sourcées avec soin et les cuissons en tagine de terre cuite sont d’une tendreté absolue. Le décor, parsemé de zelliges et de lanternes, invite au voyage dans une atmosphère élégante et chaleureuse.",
     insider_tip: "Demandez leur pastilla au pigeonneau en entrée, c’est sans doute l’une des meilleures de la capitale. Et n’oubliez pas de goûter aux vins du Maroc, souvent méconnus mais excellents avec leurs plats épicés.",
     expert_catchline: "L’excellence de la cuisine marocaine traditionnelle : couscous d'orfèvre et tagines fondants.",
     specials: {
-        cuisine: ["Gastronomie marocaine", "Couscous traditionnel", "Cuisine en terre cuite"],
+        cuisine: ["Marocain"],
         drinks: ["Grands vins du Maroc", "Thé à la menthe frais"],
-        must_eat: "Le Couscous Méchoui (agneau de lait) et la Pastilla au Pigeonneau.",
+        must_eat: "Cuisine marocaine. Le Couscous Méchoui (agneau de lait) et la Pastilla au Pigeonneau.",
         must_drink: "Un Guerrouane ou un vin de l’Atlas."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine marocaine. Le Couscous Méchoui (agneau de lait) et la Pastilla au Pigeonneau.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

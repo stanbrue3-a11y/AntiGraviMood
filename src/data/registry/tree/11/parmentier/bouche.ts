@@ -5,7 +5,7 @@ export const bouche: SurgicalPlace = {
     name: "Bouche",
     slug: "bouche",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['tapas'],
     location: {
         address: "85 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -84,13 +84,16 @@ export const bouche: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV-lcJKc6LQKikkCGWFLu8O15mLOuVG2i1owWIZfLag9XPJUpKffEvE7l64ebGjuecNhTIW8Mv7HhtTktOs2fuAEdR5FXybvM8MDUxa-vclzXFoi8tSf-uENee6VfjUBlzMhmZC1jndyebTqcZJ_cdhN0sX4MnCtv36r7LVuxuq26uYlUBsgyD5OpoTqpdFdkWof8wHoEkrh6RMfrj4uPXmtEzDWNweh2xvyYCDKlnf0S4XAyaM-3B1x8K-U2KX8J2d9QcRRBLMbDS2dp6w5dww5BZx0icKEx2clZHe-zc1iA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUDSOaxUkHclUPk09_cYm5IaBKItHMppEnCeJIMcrJUUsbDkHq78EtDV8--UaKdupv9JOp-UNzu9tI-XgU4u7mMKq0bTHYQ7VhdU0ROL1gb1uzz5jFOo6fJvPMCZRgvfBqmzPuIKo6iCyzm3D6GNimGJkViG5Ct1pKniRuKR6_ozr92QYrdGt0ydhDLiECXMsT8ey5taESPcZKHVKE3UoKCxl37B62zd0ufBYZl0Oc6gmRarngZKrxwwsks2X4rL3XkeYS4TdtN30krEojQSzs3hpgjJFq0VSwoBcyj0-26kA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUgiTSqRtF2QcgcmjAaoWRvm0INOeFILwHShKUdKso8VPTJKDXVsNZN7qhzP9D2SMwIvGNw61hzWimp_uISUffKtjSYLKYTlWG3iAGDyGt0_2s48fZtxnGM9EfrkLnktX1lZ9LDh2icoTZLeSK6LgETjoedCQciQMToRXNfGPzIID8_94EVTd2oKczViV80Jx2D7yB8FwoiTNzQEwjaAtuWbXNn-qIhBQ7WmCiJg6Lev0Es0Y4ZWsB7eCxY2qv6lqLH2WmTdsNNVTECCu0WmHW5LH6McUVvhr_KIC_OO0vm0RIlTWoicHgXIpw5WJR6_XB07ZnQmEHIZz7nCGScQnLz_81kwWrjX6LTNSg-qA3edKerK-X5PtlNLuvqkovBXSqALZHKiXW5M8JIjeW_67FVtL-Xl0Ya3FxctB0QZCBZcC-KgllHN713q6ufww&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouche/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "bouche.paris",
     verified: true,
     google_rating: 4.4,
@@ -98,9 +101,18 @@ export const bouche: SurgicalPlace = {
     insider_tip: "• C’est un pur lieu de soir : ouvert 7j/7 le soir (jusqu’à 1h30), mais seulement le dimanche midi pour le déj.\n• Il faut viser 2,5 à 3 assiettes par personne pour être calé (comptez 40-45€ hors boissons).\n• Le chou frisé grillé au BBQ (18€) est LE plat totem de la maison.\n• Le niveau sonore monte très vite en deuxième partie de soirée, c’est bruyant, vivant, on y va pour ça.",
     expert_catchline: "La cave à manger la plus vivante de Jean-Pierre Timbaud, assiettes de partage ultra-incisives et gros son.",
     specials: {
-        cuisine: ["Chou frisé au BBQ", "Praires au beurre d’ail noir", "Mousse de foie de volaille"],
+        cuisine: ["Petites assiettes"],
         drinks: ["Vins natures", "Pétillants naturels (Pet Nats)"],
-        must_eat: "L’approche est très végétale et acide. Le chou frisé est obligatoire. Accompagnez-le de fromages affinés (suisse au nid d'abeille) et des praires.",
+        must_eat: "Cuisine de partage. L’approche est très végétale et acide. Le chou frisé est obligatoire. Accompagnez-le de fromages affinés (suisse au nid d’abeille) et des praires.",
         must_drink: "Laissez-vous faire par la sommellerie : dites ce que vous aimez (tendu, funk, oxydatif) et ils déboucheront la quille parfaite."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de partage. L’approche est très végétale et acide. Le chou frisé est obligatoire. Accompagnez-le de fromages affinés (suisse au nid d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

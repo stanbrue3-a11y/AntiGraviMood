@@ -80,21 +80,34 @@ export const magma: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWBZb9j2TAaN9ptNsoo_QSD0F-pz9zjOkqNKk3Kk6HmnajskwHEFrrmbbvena41ef38c8ENeh_zKfNi1mCWZEDiPCc475PAT95YHdnctiwGXSSRTCAAH7_yVmh5n5dNLNMA1rjdzBdw0q2NhQOUGZPrKdOZ149ORITwfTMeo8-JchgL4extQBIU3A2B_jPsD71Cy83DIDFvMVIeGfruCQTdgxmMs99x1X_Vp7ESiTgnTJqAtLbdp5AfRN2xW3itVT5e-o_fMcR4OeEuGNniiCn664lWNjYqF_VfseYMvJc6tw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVNlGh2zZy6AZog1nFn4xxlsgUMRUNQV841dPeWr-45S1R83kDmFhCfXgWgwguAm6cxirKBUvQHPljLC8RYM7-B0-Oss5bDcIKLN3FHwXeQW6quGzcM2LQc3F1jbp4xww3KjEtFDXCNKWXS8P8mLxa0s3_HSBef4oACFF9uoYBiFofY_07yuCPgy0EFXLLYa-ZzwlyiTCzP78fF2mJQ4cNawTavCiY1ErLwDLI92zgWJpYg2ziDaPBLyL4k357RBoP7qnjSXAz2zhBQWTiuMmaVhSGPRV-nuiLiDDj9i201UA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/magma/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Le chef Ryuya Ono livre une partition d’une justesse rare. Magma est un laboratoire où la technique française s'efface devant la pureté japonaise du produit. Une cuisine anti-gaspi, agile et émouvante, servie dans un cadre intimiste.",
     insider_tip: "L’ormeau (abalone) à l’oreille de cochon est le plat signature à ne pas manquer si disponible. L’accord saké est particulièrement bien pensé et apporte une dimension supplémentaire aux plats de mer.",
     expert_catchline: "La rigueur japonaise rencontre le terroir français dans un magma d’émotions.",
     specials: {
-        cuisine: ["Franco-Japonais", "Omakase-style", "Anti-gaspi Gastronomy"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sake Pairing", "Vins Vivants"],
-        must_eat: "Le menu 9 temps pour saisir toute la palette du chef.",
+        must_eat: "Cuisine française. Le menu 9 temps pour saisir toute la palette du chef.",
         must_drink: "Un accord saké pointu."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le menu 9 temps pour saisir toute la palette du chef.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

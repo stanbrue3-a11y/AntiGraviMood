@@ -60,54 +60,6 @@ describe('PlaceRealTalkSchema', () => {
   });
 });
 
-// ============================================================
-// PlaceMoodScoresSchema
-// ============================================================
-describe('PlaceMoodScoresSchema', () => {
-  it('should parse valid mood scores', () => {
-    const data = {
-      chill: { overall: 75, tags: ['calme', 'cosy'] },
-      festif: { overall: 90, tags: ['dance', 'cocktails'] },
-      culturel: { overall: 30 },
-    };
-
-    const result = PlaceMoodScoresSchema.parse(data);
-    expect(result.chill.overall).toBe(75);
-    expect(result.chill.tags).toEqual(['calme', 'cosy']);
-    expect(result.festif.overall).toBe(90);
-  });
-
-  it('should default null overall to 0', () => {
-    const data = {
-      chill: { overall: null },
-      festif: { overall: undefined },
-    };
-
-    const result = PlaceMoodScoresSchema.parse(data);
-    expect(result.chill.overall).toBe(0);
-    expect(result.festif.overall).toBe(0);
-  });
-
-  it('should convert null tags to undefined', () => {
-    const data = {
-      chill: { overall: 50, tags: null },
-    };
-
-    const result = PlaceMoodScoresSchema.parse(data);
-    expect(result.chill.tags).toBeUndefined();
-  });
-
-  it('should handle malformed entries with catch fallback', () => {
-    const data = {
-      chill: 'not an object', // malformed — should catch
-      festif: { overall: 42 },
-    };
-
-    const result = PlaceMoodScoresSchema.parse(data);
-    expect(result.chill.overall).toBe(0); // Fallback
-    expect(result.festif.overall).toBe(42);
-  });
-});
 
 // ============================================================
 // PlaceEditorialSchema

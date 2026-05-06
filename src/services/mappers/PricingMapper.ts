@@ -11,7 +11,7 @@ export class PricingMapper {
    */
   static getSmartAnchor(
     pricing: Pricing,
-    place: Pick<Place, 'subcategories' | 'pricing'> & { category: PlaceCategory },
+    place: Pick<Place, 'subcategories' | 'pricing'> & { category: string },
     activeCategories: string[] = []
   ): { price: string; label: string; highlight: boolean; badge?: string; description?: string } {
     const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || [], activeCategories);
@@ -39,11 +39,11 @@ export class PricingMapper {
 
   static mapPricingView(
     pricing: Pricing,
-    place: Pick<Place, 'subcategories'> & { category: PlaceCategory; practical_info?: any; pricing?: Pricing },
+    place: Pick<Place, 'subcategories'> & { category: string; practical_info?: any; pricing?: Pricing },
     testDate?: Date,
     activeCategories: string[] = []
   ): PricingView {
-    const drinkType = PriceEngine.resolveDrinkType(place.category, place.subcategories || [], activeCategories);
+    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || [], activeCategories);
     const drinkInfo = PriceEngine.getInfo(drinkType);
     const sanitizedPricing = { ...pricing, hh_time: pricing.hh_time ?? undefined };
     const resolved = PriceEngine.resolveReferencePrice(sanitizedPricing as any, drinkType);

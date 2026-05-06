@@ -4,7 +4,7 @@ export const supersonic: SurgicalPlace = {
     "id": "poi-023",
     "name": "Supersonic",
     "slug": "supersonic",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "salle-concert"
     ],
@@ -13,6 +13,7 @@ export const supersonic: SurgicalPlace = {
     "location": {
         "address": "9 Rue Biscornet",
         "arrondissement": 12,
+        google_id: "TODO",
         "lat": 48.850313,
         "lng": 2.369708,
         "nearest_metro": "Bastille",
@@ -48,9 +49,24 @@ export const supersonic: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "/images/supersonic.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/supersonic/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Salle-concert. Supersonic.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

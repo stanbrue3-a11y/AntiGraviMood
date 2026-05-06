@@ -117,19 +117,31 @@ export const braisenville: SurgicalPlace = {
   description: "Braisenville est l’adresse incontournable du 9ème pour les amateurs de cuissons authentiques au charbon de bois. Situé rue Condorcet, ce restaurant pionnier du partage propose des ’petites assiettes’ gastronomiques où chaque produit est magnifié par le feu. Du poulpe grillé fondant à la côte de bœuf d'exception, la cuisine est à la fois brute et sophistiquée. Le décor industriel chic, avec sa cuisine ouverte, plonge les convives dans une expérience sensorielle vibrante, portée par une belle sélection de vins de vignerons.",
   insider_tip: "• **Le Poulpe** : C’est le plat signature, d’une tendreté absolue grâce à sa cuisson lente suivie d’un passage vif sur la braise.\n• **Formule Partage** : Comptez 3 à 4 assiettes par personne pour une expérience complète du menu.\n• **Côté Rue** : En été, demandez une place près des grandes vitrines ouvertes pour profiter de l'animation de la rue Condorcet.",
   specials: {
-    cuisine: ["Cuisson au charbon de bois (Braise)", "Assiettes de partage gastronomiques", "Produits de saison sourcés"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Cocktails créatifs maison", "Sélection pointue de vins de terroir", "Spiritueux artisanaux"],
-    must_eat: "Le Poulpe au Maïs (15€) : grillé à la perfection, servi avec un houmous chaud et un jus de veau corsé.",
+    must_eat: "Haute gastronomie. Le Poulpe au Maïs (15€) : grillé à la perfection, servi avec un houmous chaud et un jus de veau corsé.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/placeid/photo?maxwidth=1600&photo_reference=AU_ZVEH-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/placeid/photo?maxwidth=1600&photo_reference=AU_ZVEEN-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/placeid/photo?maxwidth=1600&photo_reference=AU_ZVEGx-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/braisenville/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le Poulpe au Maïs (15€) : grillé à la perfection, servi avec un houmous chaud et un jus de veau corsé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default braisenville;

@@ -121,7 +121,7 @@ export class PriceEngine {
         }
 
         if (category === 'bar') return 'pint';
-        if (category === 'club') return 'cocktail';
+        if (category as string === 'club') return 'cocktail';
 
         // 3. Specialty Specificity (Subcategories)
         // CRITICAL FIX: To respect the 2026 "Pint/HH" priority rule, 'bar à cocktails'

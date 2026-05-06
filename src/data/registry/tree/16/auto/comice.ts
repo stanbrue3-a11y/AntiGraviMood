@@ -106,16 +106,19 @@ export const comice: SurgicalPlace = {
   • **Les Vins** : Laissez Etheliya hanter votre verre. Sa sélection de vins canadiens et de petites pépites françaises est unique à Paris.
   • **L'Accueil** : Profitez de la courtoisie exceptionnelle du service, qui détonne admirablement avec la raideur parfois habituelle des étoilés parisiens.`,
   specials: {
-    cuisine: ["Gastronomique Moderne", "Étoilée"],
+    cuisine: ["Français"],
     drinks: ["Vins Canadiens Rares", "Grands Crus"],
     must_eat: "Cuisine Étoilée. Le Soufflé au Grand Marnier & Ris de Veau.",
     must_drink: "Riesling Canadien"
   },
-  images: {
-    hero: "https://lh5.googleusercontent.com/p/AF1QipNhLkzOYmLPZwW5p8sA_HPdqCctnOSow7Jq9aqsdk=w1600-h1000-k-no",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/hero.jpg",
     gallery: [
-      "https://lh5.googleusercontent.com/p/AF1QipE-6G1VOyoDvYrU7655fLEAlHxRvdhnlts7_S7Yy=w800-h800-k-no",
-      "https://lh5.googleusercontent.com/p/AF1QipGQEEMonlGzoFfaUXDDu_CUD6b3e8xSkRYOot5ufi=w800-h800-k-no"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comice/gallery_4.jpg"
     ]
   },
   verified: true,

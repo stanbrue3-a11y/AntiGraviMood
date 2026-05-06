@@ -119,19 +119,34 @@ export const atelier_saisonnier: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVxNI5TG32SnRdKE17QhLREEo7_QumFnC6_-dEWfuVCyPywt-ZKt4j-rtnB4NBAvQytLW_qu6LIajvMWWvV2DOPc9WCM3fT_jKLMieLI-fd3YLwhUNIBszEy9xJZ6tCH0RHO4c472zlTnxp1b-jAPMHv-mnAO6nKWRRZywRS7rJC7_SeJIqZdqF-g-WOynmzWhskpv5bra1S6GhLKUf0mwAMPPeG0-FaSuZefbdd0TmUzCT_H-0GBMqYo4WC0f3JHFFMKcX3YsgIkfy5L7N797KAE-rYHMLsQPMCyPpvc65PYCNniAC-y8weE3U_Bpo3Q9I9stT-Senv_F4u3zpdjSEYc61f4bnqgZGBHvLw3X5_dxqplFmIQCk1shIkj3fgnKmkE6147vBQsD79op73J1IcI8v58yPdnhbGiNQJRkM3tVEiK1e6SSuLgbhro1g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/atelier-saisonnier/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "L’Atelier Saisonnier est l’institution du brunch à Bastille. Réputé pour son buffet 100% fait maison, gargantuesque et convivial, le restaurant déploie une énergie chaleureuse du matin au soir. Que ce soit pour un brunch à volonté entre amis ou une planche de charcuterie fine le soir accompagnée de vins natures, l’expérience est toujours généreuse et sans chichis.",
     insider_tip: "• Réservez impérativement pour le brunch du dimanche, les créneaux s’arrachent.\n• Le buffet est régulièrement réapprovisionné, inutile de se précipiter, profitez de l’ambiance chill.\n• Leurs raviolis à la truffe blanche sont un banger souvent ignoré à cause du buffet sucré.\n• Wifi gratuit et atmosphère ’work-friendly' en semaine (hors brunch).",
     expert_catchline: "L’eldorado du brunch fait maison : buffet gargantuesque et ambiance ultra-chill au cœur du 11ème.",
     specials: {
-        cuisine: ["Buffet Brunch à volonté", "Raviolis à la truffe", "Cheesecake Signature", "Guacamole maison"],
+        cuisine: ["Français"],
         drinks: ["Limonade maison", "Bières artisanales", "Sélection de Vins Natures"],
-        must_eat: "Les pancakes à la pâte à tartiner maison et le guacamole (à volonté dans le brunch) sont les stars incontestées.",
+        must_eat: "Cuisine française. Les pancakes à la pâte à tartiner maison et le guacamole (à volonté dans le brunch) sont les stars incontestées.",
         must_drink: "Leur jus d’orange pressé ultra-frais pour accompagner le festin matinal."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Les pancakes à la pâte à tartiner maison et le guacamole (à volonté dans le brunch) sont les stars incontestées.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

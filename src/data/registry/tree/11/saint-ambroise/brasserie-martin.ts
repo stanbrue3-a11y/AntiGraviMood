@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const brasserieMartin: SurgicalPlace = {
+export const brasserie_martin: SurgicalPlace = {
     id: "poi-brasserie-martin",
     name: "Brasserie Martin",
     slug: "brasserie-martin",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['brasserie'],
     location: {
         address: "24 Rue Saint-Ambroise",
         arrondissement: 11,
@@ -84,21 +84,34 @@ export const brasserieMartin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWFpIDM5V9_74eM-SJiP_8eivedBJBGZ4-Lco24aiNHVDFRrGlQVKocOEHT34o5OUQMcgJ2KI2P7BBFukGHqkeDKlNwSAlIZFbyghaSZ67MShuRH1b8P1372_geYGYyXTVa2kbkoEFLg7tIhwhi-_No_tFcOJKSINWkECAypAVWadWeqQOS6f-N0s3mgzbEMLJTnT1gEE12VHSDsTiCuNfc3oV_ju7P90jBQKCyj6pBrrKQaJ5i-czbG-oAtmW2N-UxrWyE19_Y&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVnMrgLoUzMfKmc-bEu6VicptuxWJ77mFq-AwAHQZdMwolTX9ltWkCQbdScYw3Ly_8tA-hiIgJBzyKap3MRHvZIMI2YAjDLwrN2BLiQiLh-gJlmt10Y4sNdJmFCbZFypaddb5JTLc71A9DtuuQlu7_lrOCQyCYTg3mEefzeM7SH2UFOFgR4mne-QwNUQWZXjNSD-rRA2mrccicC4m8J1C_9_EUJ-Mgh-tcyvwgKOm4qZSD9XAYj3sCsmD4mnGIn5nysPTg-cB3RfhBGWWU0CIhxj7YMRKmlupRb2Yy_8GxYQA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-martin/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Brasserie Martin est le flagship de la ’Nouvelle Garde’ dans le 11ème. Un lieu immense, bruyant, vivant et follement parisien. Sa spécialité ? La rotisserie visible dès l’entrée où tournent poulets fermiers et agneaux de lait. Ici, tout est fait maison, des sauces aux glaces, avec une obsession pour le produit local et le prix juste. Une atmosphère de fête populaire, de midi à minuit.",
     insider_tip: "La terrasse végétalisée face au Square Maurice Gardette est l’un des meilleurs spots du quartier pour un déjeuner au soleil. Goûtez absolument le Paris-Brest, il est gargantuesque.",
     expert_catchline: "La grande brasserie parisienne réinventée : rotisserie, fait-maison et prix d’amis.",
     specials: {
-        cuisine: ["Rotisserie au feu de bois", "Classiques bistrot", "Pâtisseries maison"],
+        cuisine: ["Brasserie"],
         drinks: ["Bières artisanales", "Vins de petits producteurs", "Cocktails création"],
-        must_eat: "Le poulet rôti frites maison, la base absolue.",
+        must_eat: "Cuisine de brasserie. Le poulet rôti frites maison, la base absolue.",
         must_drink: "Une pinte de Martin, leur bière blonde exclusive."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de brasserie. Le poulet rôti frites maison, la base absolue.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

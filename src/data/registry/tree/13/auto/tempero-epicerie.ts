@@ -86,16 +86,31 @@ export const tempero_epicerie: SurgicalPlace = {
   description: "Tempero Épicerie est la ’petite sœur’ du restaurant Nosso d’Alessandra Montagne. Cette épicerie-cantine propose une cuisine vive, locale et aux accents brésiliens dans un cadre moderne et lumineux. On y vient pour les cocottes réconfortantes, les vins natures et l'atmosphère décontractée du quartier de la BNF.",
   insider_tip: "• **Choix du Maître** : La poitrine de porc confite est un incontournable de la chef, d’une tendreté absolue.\n• **Expérience Culturelle** : Profitez-en pour faire vos courses d'épicerie fine et de vins natures avant de partir.\n• **Timing Stratégique** : Idéal pour un déjeuner de travail inspirant ou un début de soirée (le vendredi).",
   specials: {
-    cuisine: ["Française", "Brésilienne", "Fusion"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vin Nature", "Café de spécialité"],
     must_eat: "Cuisine de marché. Cocotte de porc & Riz au lait coco",
   },
-  images: {
-    hero: "AU_ZVEGdrp7jqG2lRjrV6ybhqNzSjta34_7yL26VP5qlVYb1JEHCv26eU02TEp4US9ZzpWxG_vPrEP0ODJxhJGbaThhSHv8SVqSJdKQRbQRKSSNmGp9QO7WO2_Hb6wFgFXgAKwDg4H808sBExWrUVt3Vv0b6ErX6rTiFeEa8tCyC0E8Ruce3eTQxGNPsl3fJ2BcPSocl5eFFcvmpVsQ2sqqcIvvJ4KtWHXFqSEU9vCpGrjDlNbNRWgU2ENg7AKB8azihd9vVEne6rSmfCG7XbwGTL4iLsBqrazrCe4neJQ6wKiUDtk4wHR2GlvntGTpA3L8ppRjTadZ7Aj8AHmhwKscST0WPhiYkxN_hTUcoKOXl4pHjDCWhkZvi_XHXrwiMKgQIFTpe6AIS1mJIhrmihyiJe5V5ca9KU_WzvA9quW6zcAR4oA",
-    gallery: ["AU_ZVEHtkSu_S5e6mooswXj7pQ4rxqiDrblOMhf9xO5L0VGZVQo2BkA-aC7ThQOKW4I6kJjJMkAYi-rJ4uATf9uFeI9CE2qbCU8PXIGRr6Z0jYQQh5h81O4aZvMkQZmA-bvS6dfrM4pnyK5Paj5jFFp1XTMFDZiJohEZ9aw1Y_Zjny4nh3x0fj6UmmtkwHWsjjNGFSEaebpSl6cDwtOOHnF_eA2_7mgLwYMgQRo2Zs9EsTwprgrY68Av1M6hkOtt88joNNX-aIWufUvwkzAvmPiOPR8bb_gFidM97Is-VqCIu_thbA","AU_ZVEFiGNU6IVTX-p8fNsT0yD3aK1iJ5SPo-EiXP9cmPZaLw5JRxNA9V2s85_p7zmgG1qEpiBu5LSQEUpgz1D9frriDR-kUiG9qX6gusLIFcCLlVkqw1RO_RvRxGbWk_DLdlalk0Clokxp1u_EODJlKownadBvx0wrv078iV2siuGkTecgMxz5CWHymkTaL5afaJqbrLbz-OxHqL5R4SJTyOOO0imzudXsSpQbAhfiAcqC-2LqqtFXs4zRxZs4cmVOJHlPf4UZZuBqlxVBJJ4dlaeQglvoLGhyE9rZu_F51Vldiy8y8wFrIpZw5LXbBB04BKU0DBDYJyeWBomntSPDIgdjWTAusCmHkC-77YtnqnrxOXo87y-AAMSdfbm0EYr03BywiJF9A1Q_-s8OSwjQ7FaNWUYaTnBpcOwENr_h3qd1MBZ9R9kW0iT8w5pWq7A"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tempero-epicerie/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de marché. Cocotte de porc & Riz au lait coco",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default tempero_epicerie;

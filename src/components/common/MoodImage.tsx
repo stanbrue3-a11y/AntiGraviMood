@@ -15,7 +15,7 @@ interface MoodImageProps extends Partial<Omit<ImageProps, 'source'>> {
     aspectRatio?: number;
     width?: DimensionValue;
     height?: DimensionValue;
-    style?: ViewStyle | ViewStyle[];
+    style?: any;
 }
 
 export const MoodImage: React.FC<MoodImageProps> = React.memo(({
@@ -59,7 +59,7 @@ export const MoodImage: React.FC<MoodImageProps> = React.memo(({
             source={optimizedSource}
             style={[
                 { width, height, aspectRatio, backgroundColor: '#1C1C1E' },
-                style
+                style as any
             ]}
             contentFit={contentFit}
             transition={transition}

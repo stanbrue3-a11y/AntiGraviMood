@@ -43,22 +43,37 @@ export const le_volant_basque: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  expert_catchline: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  insider_tip: `• **Timing Stratégique** : Arriver tôt pour profiter de l'ambiance calme.
+  • **Combo Moelle** : La spécialité du chef accompagnée d'un verre de vin sélectionné.
+  • **Expérience Culturelle** : L'art de vivre à la parisienne dans un cadre unique.`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. L'Axoa de Veau et le Gâteau Basque.",
   },
-  images: {
-    hero: "AU_ZVEGHYtPIEz2ANLGh_gkh9KdsSSNLiTz5i0nGWyyrvYfb5AJoxdPgd6UTtwh6wSpZh98Y6QuAIS_Ci7ojdPVOI-b1RS6f82HYIm-c9WHMotWvqrvA2PdjU7kA5KtXVrlXr3-TXdFZxEEPSe9rGtOuXwXV-f12ibLdorL5i0RWHTSpe7KAJxDqpAlULeI4IvZgWV0vdJTw8xqHtRLKh-7GlJGAMVflv_GHvGVHS4ZfssLu2ZwIupR4nRSsZX47qh-ESVluDaF_e9c57p9qCae7M7mBdI8hAsaIsOZDj4mBX0TMyg",
-    gallery: ["AU_ZVEHTc8rjK0_CBjtRWXK-IkIiJijE5prcP7VKUSxIMFsCZow8CqCU0_AHXcQJ7hVftHrLfrgL8ZqYmsn6hNrkCNUA3WzhTP_5AmH8tBSqgo-UaVKVhgIo-odbfwY2vVB3-tUQ0OmgfwZUYTRdRCRtTvT2cm99eFrEVCbMWdKaDefnWO2WRCrQqLpA4xETG3Gxz2aFYeb25JkSaQkEV9k42XJATN3zNri5sC9BX2KFLIn5EZA01wb73q_xf7OQbMG2bYQfLlN4w_3SP3-slY1gTSL39l67QY9GLDCHp1_jBZmAElQROaZ43fT_-jcpyvYI6B9ALVqbqETGMQz0KSBkoCbbM0qq5TP32j48sFGNWyDlVGlOYNiOiNYn42jREIF1LSvLB4aoFwnErQAUaz0jhZFQiF0RrY9LCZ5Wyyoy8wSmdHDD","AU_ZVEEoNZpQTZ5wjpmhJMeHGU07CWsEG1kaVsf59FN0QxEnb0p_IJkYTBWicV-y-t67idY8_Qr6DTXBkMoNj08gTN-AvkErjRMxa7jTYFWxxojsFF6dHt0AfcauQgeiFGJq2kH5yuOOqAxsUEAkWdDjFba0lhAjtSDWoZOsVIRM6Rwkk7qriKEK67KxuLLQmZrJpaexVP9m5Wl9AGtRuvobdQfh9D9I7oeRewFBZvpvCpUsuBa3RpFNcuTulmi8PUkJD6971c8dKJsKz0sxH1ZmpK1hxy8TiAtJ9OLDqd2M6SMj2w"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-volant-basque/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. L'Axoa de Veau et le Gâteau Basque.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_volant_basque;

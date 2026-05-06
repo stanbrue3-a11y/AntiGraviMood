@@ -107,16 +107,31 @@ export const l_alimentari: SurgicalPlace = {
   • **Fraîcheur Quotidienne** : N'hésitez pas à demander les suggestions de pâtes du jour, elles sont souvent meilleures que la carte fixe.
   • **Terrisse Stratégique** : Arrivez tôt (avant 20h) pour espérer décrocher une place en terrasse sur cette rue piétonne très prisée le soir.`,
   specials: {
-    cuisine: ["Italienne", "Sarde", "Pizzeria"],
+    cuisine: ["Italien"],
     drinks: ["Chianti", "Spritz"],
-    must_eat: "Cuisine Italienne. Pizza Mortadella & Tiramisu",
+    must_eat: "Cuisine italienne. Pizza Mortadella & Tiramisu",
   },
-  images: {
-    hero: "AU_ZVEEaIfr6Dnd9gCLKOLGECt77ZAs6SNtZ9AMVsl9F7lPN5TO6G221LiEyFZUWUeRSixDmvoiIQlICoUhdaNgTSrblJ-JvBK4MT8vtaJbf3iJbXtD_kqSazWEZSRg3H5vhidB81CALmKpKvW-Upuo1L6gng16H8ovVDhfHNLadubo9eyadkIqHYp6AlNctZhcJrn8zT6-8verV2_AZk0mCykeN7Y00CstnaEHw9SGwoorvdOgu3TMwpjeeJY1zhAXtQakk3f4NaNkfZwkGM5k9wDsGA6x6hzscPq7RzLUzDB8kXVjmLJujmq4fXwK_jX75IFDXlm_gcVCcJvvHOm9t4Ec3x-mdwL86J2yUVUzlqsOXSHc64kBBn2QGFf55ElNQ_GT96UWxoxKc1rARjFvjK-sqFrSNP_jSwAFE6cuO2DKnFg",
-    gallery: ["AU_ZVEGk_R1JXyZdPLfwjnG_hOwGoYeDmdmQ5nN1wiqsCiIaHc1rzlkpPlBQQRlXiZZI1zh_46shutW8dnRmp3GXG_fDxWjYDuYJP2J2mn295jnbLHXEedi23LIsjjgybF8vIJVWL_G6gicxlMaPo1NBOP-dc26wIn8K0q67_d7-UHRfhOlBDbO0v3prgi1T2yRD0ylXq2bm_3-iwSq_WvIiyy1H9WFTkIhOy6Z7geb1t_CBsB6US9pBUyRbGJeneJqMeONYp6MtV_QJpRUG2foSaiSzeP6fhFETbthn5lOE62nza7z4PhCpLhFQf2RmZoMqfJxI-UWbRB-y6MF0afDm0RGyrH5RTL2WryDWNz8dlxp2OBIwUJn_GDQzV2thwfRs5KN6MGIcc3CVTxcaQOy6H_jqPoH-81B6PTqNNquY1d3eMk53","AU_ZVEHMQTRk_sXvCRx0KTs_uqlsKD4LhUEtN5ILVMegK4mvlv1HqC3nF0F1C3XasgpVkojxcHyQF3bpvnZWmGEwDQ7LKxIenu0q8pWkGDkNYMRYBMXRgX00ZtFiPa_EcTE3xOvf7IfoWASwCkRHogI35v1O3FWEM8f7aZyX1KhFsKzLoKSJ7yr6_eFxnyc9e6Iv5poK1l_hMILRZhfk5TxnUHocPuHvTv-jVj5sh2-HryUo4bH_83nTmsAuB_W4o3wSsvDn8AeqWd905KAAS2TUVVFg8SGSUc0lGW_B0ZS9k2rkMjuc5icRRVrgOdAPQVwdk-DFlwe9D-C7M9EjmiL0-XQ_p6HdhVzvRMF8dDilnwSUJ7hj5oMR33ADDjnaq3NGX2TrmY2j1GQcOBO07UlBnFhKEAIjqSUT90Bt4ka2U4U"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-alimentari/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Pizza Mortadella & Tiramisu",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_alimentari;

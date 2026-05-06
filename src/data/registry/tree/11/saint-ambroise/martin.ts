@@ -5,7 +5,7 @@ export const martin: SurgicalPlace = {
     name: "Martin (Boire et Manger)",
     slug: "martin-boire-manger",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "24 Bd du Temple",
         arrondissement: 11,
@@ -76,19 +76,34 @@ export const martin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXqzsRQjpRG6qc4drCkZSTyPMsC484DQ4igeYXpOn-icRo28ecWUdEVL3eeF_tmrHn8lNiygpWN0nZ87tacPvvZY32i-2uUFg6cBK3xlqXQagIEUAmxFyqlVknkmlteOtewpiiuQPvXy7wF5xS9RWFxer4EXAUJPLyQH0RKVzEpj-voyq0IDSCurmQTTVx9DauRJuQP_MgYUQuSlZxd8EY0GSq5NmWyo6cd7hoWVXf-7s_-ARwZDJVaT1iAtqF9XJqXufG8GCzb26GfSXET0eMjCilQz5Y1c5Al0-5FGYc1I3y8pNu0FU-k9TjkSu8Oy0YWGP1pPbFQC2121BQx8H6bhRYTPMXiL1jReM6TDeC6HdknTrBwUdSXEvC0qbAxYmEbDoqs_1Ihok-uNu2sLg4txuMI5GBV6L9wx16tlZiNf1D0H7mK5pOAW_JXBsskL4cfXLdlKHFblW3Byplsj9ps7_Ea2USh2RL3hoedgcYtVc0KxoUAKRWemtATeIiZ7jumchu__Pa9hbu09uRry7ysYnh8TiIeW_Kr5xKTx2jpxTjnldy-0CaCan76sLTbtqJXpcGB&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/martin-boire-manger/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Martin est le repaire par excellence des amateurs de bons vivants au Boulevard du Temple. Dans un décor de bistrot parisien authentique avec son comptoir zinc et ses ardoises manuscrites, on y sert une cuisine de partage vibrante : produits de terroir, abats parfaitement cuisinés et assiettes créatives. L’ambiance y est électrique, portée par une sélection de vins naturels qui ne déçoit jamais.",
     insider_tip: "• Venir tôt (avant 19h30) pour s’assurer une place au comptoir, l’endroit est souvent pris d’assaut.\n• Les abats (cœurs de volaille, pieds de cochon) sont ici d'une finesse exemplaire, même pour les non-initiés.\n• Ne manquez pas leur célèbre terrine maison.",
     expert_catchline: "L’âme festive et gourmande du bistrot parisien moderne, entre petites assiettes et vins vivants.",
     specials: {
-        cuisine: ["Tapas de saison", "Abats raffinés", "Terrine Maison", "Charcuterie sourcée"],
+        cuisine: ["Bistronomie"],
         drinks: ["Large sélection de vins naturels", "Bières artisanales au fût"],
-        must_eat: "Les croquettes de morue à l’aïoli, croustillantes et généreuses.",
+        must_eat: "Cuisine de bistrot. Les croquettes de morue à l’aïoli, croustillantes et généreuses.",
         must_drink: "Un vin orange macéré pour accompagner les assiettes de légumes ou les fromages."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Les croquettes de morue à l’aïoli, croustillantes et généreuses.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const leDauphin: SurgicalPlace = {
+export const le_dauphin: SurgicalPlace = {
     id: "poi-le-dauphin",
     name: "Le Dauphin",
     slug: "le-dauphin",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['tapas'],
     location: {
         address: "131 Avenue Parmentier",
         arrondissement: 11,
@@ -68,19 +68,34 @@ export const leDauphin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dauphin/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Dauphin est le petit frère surdoué du Chateaubriand. Dans un décor spectaculaire tout de marbre vêtu, conçu par l’architecte Rem Koolhaas, on y déguste le concept de ’Tapassiettes’. Ici, la haute cuisine se décline en petites portions à partager, avec une sélection de produits d’une qualité folle. C’est à la fois un bar à vin exigeant et une table de design où le chic parisien rencontre l'excellence culinaire.",
     insider_tip: "Même s’il y a des tables, manger au grand bar central en marbre est l’expérience ultime ici. Laissez le sommelier choisir vos vins natures, leur cave est l’une des plus pointues de Paris.",
     expert_catchline: "Le design rencontre la haute gastronomie en format partage.",
     specials: {
-        cuisine: ["Modern French Tapas", "Wine Bar", "High Design"],
+        cuisine: ["Tapas d'auteur"],
         drinks: ["Vins naturels rares", "Sélection pointue du Chateaubriand"],
-        must_eat: "Les croquettes de jambon ibérique et les sashimis de saison.",
+        must_eat: "Cuisine de partage. Les croquettes de jambon ibérique et les sashimis de saison.",
         must_drink: "Un vin nature blanc de Loire ou du Jura."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de partage. Les croquettes de jambon ibérique et les sashimis de saison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

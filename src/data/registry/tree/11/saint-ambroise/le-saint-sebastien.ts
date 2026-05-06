@@ -42,21 +42,36 @@ export const le_saint_sebastien: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
+  description: "Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.",
   insider_tip: `• **Timing Stratégique** : Arriver pour l'ouverture à 18h30 pour choper une place au comptoir sans réservation.
   • **Combo Moelle** : Accorder les assiettes de légumes rôtis avec leur sélection de vins au verre.
   • **Expérience Culturelle** : Discuter avec l’équipe pour comprendre l'origine de leurs produits ultra-locaux.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEHPmuwE_FBbW-Wr2_7yuWf4MK4i2mjruUIIRxP2LM6JyUZlLEmSqz7Xzf9ABRXd3GtdMNzb2WKBgUfnBfpQtj9gqKmOmjfsKklsdRhOMHTlF5hW5rzXmMYLeePWJcdA4HkmzLiMyEP5tXpsQLjIOtSEqeb4A6Jrj2MIyqq3q5lRDzee3H2c90SFt4aLHEi1jqOvXhWYQGUoo6Vczhw1ZH0r3Tu5fZZsXOuReAZab3gZLNpfaqrKeM5SgWmTEDEyDgni_Yn548qasxtA_gscII_2_eVWf6iTnWsI_5eNy9k",
-    gallery: ["AU_ZVEE_ncfBOpSBmVXE6ICuqbmNiWQRAHX-c3Je027f11lhbleJDGwYUvbjqiIwQD1Zedc0uJ3eIZnCJfWFRoZ9ZO8iBR5tkP4FkUwzjvxLCuYLkRtbLoT4WKWeESv-zZ5Za2tp3T7QxUtKT34FrXcYoD3V45JDlJI6-u4FEHxKp6_NGM8Q_APYZl0lEoEjsDv2A-FtRzliVT-1O3mpNNb7vBxS2axF8XM7qLi1jAa3e9f6IClngckMWAwd8TQumlrrzmTT8GRYRgVVR26hcn2xMIoLwHa_IM7BhW1QvwE_9Nc","AU_ZVEGdBKxqj6lQH8i3-8R0MR13JqHOc-f4HGkSINxgSylZ1TffiIMqDVwN_xuVKb4JIQu_89-BZOtAYT_gRJ9B2hHcdC9O92zdlxE16uP2Jxt0_KDuAXb5YYfjVvdnso_tDVu_BHBL8yUFqooPxkNnr8rVfy9ZFZniXRy0x6SaDh99fhyMZEWQETKgGOc-RHZcYKMjsBOGirwntkmhjcHTcRRN6in06KX3Kg3pMrkfyuJPuHQTHMr2ADP-J4pj4eNWl8Mr653JB3Jn9ExpI75RBdVT57cyhkWJRWUHXJWVwMc"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saint-sebastien/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_saint_sebastien;

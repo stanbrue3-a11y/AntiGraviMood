@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const tram130: SurgicalPlace = {
+export const tram_130: SurgicalPlace = {
     id: "poi-tram-130",
     name: "Trâm 130",
     slug: "tram-130",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "130 Rue Saint-Maur",
         arrondissement: 11,
@@ -75,19 +75,34 @@ export const tram130: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tram-130/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Trâm 130 est l’une des ouvertures les plus excitantes du 11ème. La cheffe Priscilla Trâm y déploie une identité forte : une base classique française percutée par des saveurs vietnamiennes explosives. Ici, le jus de viande côtoie la citronnelle, et l’os à moëlle se pare d’herbes fraîches de Saïgon. Le tout dans un cadre de bistrot moderne, brut et vibrant.",
     insider_tip: "Ne ratez pas leur Tartare sur os à moëlle, c’est le plat qui a fait leur réputation sur les réseaux et il est aussi bon qu’il est beau. Réservation indispensable car le lieu est pris d’assaut.",
     expert_catchline: "L’éclatante fusion Franco-Viet de Priscilla Trâm : technique précise et saveurs percutantes.",
     specials: {
-        cuisine: ["Bistronomie Franco-Viet", "Produits de saison", "Accords créatifs"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sélection courte et efficace de vins natures", "Bière artisanale"],
-        must_eat: "Le Tartare de boeuf vietnamien sur os à moëlle et le Basque Cheesecake.",
+        must_eat: "Cuisine de marché. Le Tartare de boeuf vietnamien sur os à moëlle et le Basque Cheesecake.",
         must_drink: "Un vin blanc de la Loire pour équilibrer les épices."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de marché. Le Tartare de boeuf vietnamien sur os à moëlle et le Basque Cheesecake.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

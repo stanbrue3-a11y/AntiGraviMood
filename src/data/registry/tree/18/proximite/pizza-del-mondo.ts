@@ -33,8 +33,7 @@ export const pizza_del_mondo: SurgicalPlace = {
             "url": "http://pizzarestaurantdelmondo.fr/fr",
             "label": "SITE WEB"
         },
-        "cuisine_type": "Italien / Pizzas au four à pierre"
-    },
+        },
     "pricing": {
         "avg_budget": 20,
         "is_free": false,
@@ -110,12 +109,24 @@ export const pizza_del_mondo: SurgicalPlace = {
         "must_eat": "Pizza Del Mondo & Tiramisu Maison.",
         "expert_catchline": "L’italien généreux et authentique caché au pied de la Butte."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWLCHDh7izuKqLyvbWfGKP04ihT2CQwXx-K_O-Qt8nN6KiCuzCmaRMV3byYlDQK_rjn2iXPE_CnVIxv84HynagilD4fG8dyLxIB661EE-WuAKeyQdCi2w4KEGO09WvjunNEMkvmMeXS0bcxp9XFZGmvWuQWNfUXWOAEinUqN2VQCC2czPRShzgGvB-p_eJ6wI77Ql51sEYVsqLrNrJB1StJ4LBPEeNuEfRN83Vns1vBtrNiHhrgKMhkdImnQPtI9JHfwUEfPJ3d-raOQRTbIux4MoFM5tMyvimjIsvrW4YVxI3k_PcoZPYj0eF_4joPUf97YEWVIOtxgf_PZH-_fjeHZxcio-XSZlUxrQtwpKKKHkLU6en3DyvH9fHSgCFpsYq4R5__FecEzyT7m30GEj_mIrilWxLe1Bre3jDGegTawbCvTc-xrFyqJLSzrt9mMotmsG4y8ddO8sH2TCTqrMIRulPKvczE5Q3Ri9LzBB9BYM0LhBlUly7eNWwO_HbIPlPOnAJJ0KJBth3_wOHqa8nVIwGchPAYbtsTFnHCLZ1OYv2gFFdTqfBTEPOCtSTUthxR52DrKXG6F3Tbg1AKsATyD5PdrA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWMgTEfpy3awd5Ecq4ig_6N4hhA_WZLfT_SswxS4N_2UNxBESbE4IGDSQJV0llFogazXJrez3KC-gyRtxXFXyjfBQTIR8NtqrU9-uf73_QmSojGzbFs96mv6lAGvxkR9yMVIXMcPsctm70uWYI-LXz0DMnT5cv9tjy5LKZCQJogF20Jo_e6AUIWGOSBDYvoXJRMdEymOCepUgg4dVbtLH_vvYS0O1anjuK40zBP_cjklhmMB_4zryPNst_6hkngVCCwt-w7v1J_yXhrgocL8ihonKtL2NX-5P-Rp-5OyZ4NyJJirDWejyl1sFr6OS7wpBln-F9C_VnUJW4Euo2NdUYmHhecXd5TsZAdYK5oulwepfegdUyYurCSeGId-KZj0dZQX4vUwTYOLcwYOi0zqyBueUviKfFxImIlL6Le2h0dVw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUQ90HGapFx5pUGmqY9bV1DjydZ_OZNRr_2o32yRiTJpnCH9tGZ2YWVp3-gEGPi4d-C8FT_gRYR4OGGhIOfEA1igYqmBI-pH7WJi8MYNg3MYkml5Jtd6-OiMbjr0uSK7nKzPVWc_8uzBHGF4V8nBATFplSeEE2YVhtZZ1Xxi1X9afH4TyCBZfmTNZBp8neq_eGyEobsGeMWTn2ZohriTeqhvq1wAnDeFBorqtu9EFWeW1ePylMPIyhiI5QcgsinQraN5OYp2fWwAvd0yqeYCN6Bym6MyvHNMRAKl1gFg0XPSTFm7ndUfA9C5nVEC_1r9XP3SMRXl5_tl7CIT5zR05y4bENTWNReGoV2knjRZV4SIYg8KwA48vNlr0aTO7Na5hr9-HYiyUxriZ3XeQnkc0wpOiY5MmlQgQqjYKycdFWPpngt2pp9cLheImMRBrt-&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pizza-del-mondo/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Italien. Pizza del Mondo.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

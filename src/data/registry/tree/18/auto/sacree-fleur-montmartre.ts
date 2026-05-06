@@ -5,7 +5,7 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
   slug: "sacree-fleur-montmartre",
   name: "Sacrée Fleur Montmartre",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "50 Rue de Clignancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -79,16 +79,31 @@ export const sacree_fleur_montmartre: SurgicalPlace = {
   description: "Sacré Fleur est une adresse sacrée pour les amateurs de viande à Montmartre. Situé au pied de la Butte, ce restaurant familial se spécialise dans les pièces de bœuf d’exception (Charolais) accompagnées de frites maison et de sauces traditionnelles. Une ambiance de bistrot parisien chaleureux et sans chichis.",
   insider_tip: "• **Timing Stratégique** : Réservation impérative, le lieu est petit et très prisé des connaisseurs.\n• **Combo Moelle** : La Côte de bœuf est la star incontestée, idéale pour partager à deux.\n• **Détail Secret** : Ne repartez pas sans avoir goûté la Brioche façon pain perdu, un monument de gourmandise.",
   specials: {
-    cuisine: ["Viandes", "Terroir"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins de Bordeaux", "Vins de la Vallée du Rhône"],
-    must_eat: "Cuisine carnée. Côte de bœuf d’1 Kg",
+    must_eat: "Cuisine de bistrot. Côte de bœuf d’1 Kg",
   },
-  images: {
-    hero: "AU_ZVEHaG4XhVeFIegfoStdfhBbPXntNxDNH6LXnmrOzei0V2rYHNkDHykemhdPq7d8WkrU_4eggwqjxFnwZJFC4Hm4fhqIoiInj-XHcwJG_CsLaL8qQnAprFavTe5MxehL_1E0jZMHgM2VHgvDvnmA3tZvSOd-gSGPHtul7zWJxluZmd6jVh01DKXo6vjKnQ-s9AOi98Jf-5PgdZL7spmuX35AQRSBVdLDo-ezOdZsrApSpZZwZwTxHQWX0jrK6ZFus8B4X2Xr8xhzeNlywvZhu938yh2hehXsNBvYQ1YyazXKVdw",
-    gallery: ["AU_ZVEGjrQbBZIjaYwAc7ryGV436CKsKfJejZxt58jhejWQhsTBnWB5AysWWZaWQrmAoEQwUg7aGEju4aiI_msRdgxrnLt0_llOv-S68wr7HmjlOIIq2XaHFuaAv2AqvaYgJgq2QOkr8iwzdR8rgSl66lfvXoEMxY7ThQsqm30X4Z2vqJ8dgpj8SN96MhXxNDbdRDixI8-P3q8b9ublRfOLAs5wAwt_nyUWXrWHw4k9kpKXQXlZUzUYlKofDrWNkmgwKBDZKSyeSgyNECEzKKomFrC6e5vZ9sQfWKKyPsV5sqYWaCw","AU_ZVEEzkp1O_P1FJIHeaXcPO_YFEnHMdr_XKN_fV_dAvZu0iCZ1_y8dIDvd9LoqAozBVZm44t5dUU9Ih5K28psS9uTQuZZ5c_fmfUzkpba8XvnWuTVAWsbJHIYnu5b9nqt1qowxSPws-UIxiUCga3F7ueBTk4_ma1dVjAEWNNJBWL9qO87r4lI8JsKZe16pJFaMc3nrzT83mA_PZsKmGglAJU4F_7H1MN9EFh2a_AQ8AoTshe1HX-yizxAOLJosk-a-m63stBcLbJ3k9zxS7fHnynwK91vh55bqvtptNYnOuGO-sj_SPhiLvfe_WzK1fW_PPrFOH3Sa7grrPrp4BBYviSbK2mI1jdfH3491crPY8bkrVWvBc_H59a3gb2OnW1Y49lVUGBbD67Con8fbzfxEaicyT-E0P65ZlVKrnLVAm8xBDq_UC3HRZFV6kVrzc2QE"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur-montmartre/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Côte de bœuf d’1 Kg",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sacree_fleur_montmartre;

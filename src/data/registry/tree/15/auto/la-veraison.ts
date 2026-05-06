@@ -43,22 +43,37 @@ export const la_veraison: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  expert_catchline: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  insider_tip: `• **Timing Stratégique** : Arriver tôt pour profiter de l'ambiance calme.
+  • **Combo Moelle** : La spécialité du chef accompagnée d'un verre de vin sélectionné.
+  • **Expérience Culturelle** : L'art de vivre à la parisienne dans un cadre unique.`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de bistrot. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEGduzF9ttUQSTRT3ORdZ0802iHMPQR9VS5gl7cTDvm9utD3XaHN7AJh-VWWQUIf_C5kBuDDBEH5WnkIM-O373XIcyTbmWvJrFJeAiCd058pplBhLF8vV8Pzp7-gDIYR2WsjUFNzTEP6IOHAWNHMYM0vUPwwfx9Vbw-GCkMYRaGX6CB_iJCJm2peKpQoSE08e-KMzfGU8nLVkP0mS8SVLXwyMmn4c9hsn_7-3cAipz3rUive8o0BX36ibXke8dOeHjAhcTgWFRRDzHbRwq1aSk11OKbFcGyNc_loZUiegYBn64AkipEksJ2TI1z1xKLF8vZE78427XjE4fHPK7hGIDhM8EC2PjfUF3ec7SrbRh0hZKV9X-93K18GX_33kKq9XjDdUnrat0pBZzdTcYoZe3XYajKW1uY8IgVROuavS-M",
-    gallery: ["AU_ZVEELdIv92qXEAoVAn6sdKv1k2rj2DLimnpetZyO02WgtVPrGZyxghmy0k9lJUogxwx_5I4zD-ZPjJW44ui0XxKKZhbBaOCNoTEiIz0dj7RrW6N1sZZrwRYV0lE7VHLmHnTLCyuofJnHM1hwMEEQxTrwCFpQkuVPV5AjM8MBvOZseBQUm3lJMTyiI8U_JOK5B3_C0rHJgEEypeIiWNr8CFioECTkieZyv4yx1u5QzyQVXBfle3yzZtris74VFsRe6Zs3qVSt6zla751Mmwp2vmzWauq2sipQ5feWp5y10-7d1aL-tZZY65PcwinoZ4zxGNzwGXb9tbTC8_nuq2r0kIU3hFwGIFhudEW_yYoosgtiHJDo8eL18x7KsmGc_qQlVhUYXPgN88qKqPuASsI8coRSHnEkKziigpZPaK-rpnsu8FexP","AU_ZVEG1rbkZEwqycVuw4QQepbmItbv9L-Y54nVu7lHvqdEpDCUmUJgFJcHVMywjnS-Cccjt3S3Fp-6m3Cszpscu5ym2caM2K2aPqw2okSXcEVJV4lOnF1QwkWaTcaob-7NB0PiC-1ro-sXf-sxpkt30c3AIJUWqkL2jzk1chJfcB0sPWl1w-Yy4z4ly_8VKwd_osnwhSevDB5HLcgT9Ph_FNj3aNKBawWtAImo2b2-oRrteNLQOh6ii9KHDoOm97QZkXDvtfwDUkPs5wsAzArL5eKSUnZd8mG6XHEbeNRvd8uViPw6c3vZYOrJjs2gNUmWqtkYF3SZ6GTKpgSr-ptZYZ76nMn7fe7IqXpjV9PJrM7be_DFXzBnVsN5X_dQPuVtYlkNoEN7viYgPfJIgnmfg3zzz7_rEi55x9cSZpJztvZQ1UewQ_00jf6o0xitHpw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-veraison/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default la_veraison;

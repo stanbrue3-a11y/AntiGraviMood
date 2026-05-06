@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const jazzCafeMontparnasse: SurgicalPlace = {
+export const jazz_cafe_montparnasse: SurgicalPlace = {
     id: "poi-jazz-cafe-montparnasse",
     name: "Jazz Café Montparnasse",
     slug: "jazz-cafe-montparnasse",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "13 Rue du Commandant René Mouchotte, 75014 Paris, France",
         arrondissement: 14,
@@ -78,22 +78,35 @@ export const jazzCafeMontparnasse: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWyji00eQnt3nBauVLsMSVEus8SBFq_dO-laRQQsbHmNrnkE7gY2O2-AfIgciEH6jcDUVLwCDMON-d8Q9XBEYTj-dnFgE-3JtEqjo-ZuT2tjQ17suByyIbttdR9TBV_zc4w4ktOjAPFKwwWF6O39w6FESfj5rdhLEx0LHmlOCMSFLEHkmkoSEvcajG3yOtTDw4-Nu1jdqhOeR_Q0UV-wyJ7ARtv2l6q-GstxQEx6jS6-BYxY7J3HHqFGFPrKJnxYtcVGsI99z_s8iLThkHEUWn8mw7sva0ZzNTvT7C2QY3dRw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXTZIGnVgbRUvDJKdlOu4JIJW-LWOcwmePucXA0cZCAUor0OdsmvWYmmNujqCNI9IwUN3dYfs7B6k4czE0zVg7idAdF5dORWv9s2IKcphoS0KIfDsUZnGTFaxk-F1zKl0f75UJIBeE2qKMBCc5HVkoTj-cV6aYTxFDALO2Rh1VRwMLhWGcrPgkCWb_gAQBYmD7KiWeb2Gcpv1UWGW6yI0MAp_f1xaSj6JslNzUSWouAK8FwXOpylLtERla30_cq_gf3k2AbsU_2cX5O6Eot4BcOS8XSglh305vJuNZ26FEpJQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jazz-cafe-montparnasse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.2,
     description: "Le temple de la note bleue à Montparnasse. Le Jazz Café Montparnasse perpétue l’esprit légendaire des jazz clubs parisiens dans un cadre moderne, confortable et acoustiquement irréprochable. Ici, la musique ne se savoure pas seulement avec les oreilles, mais aussi avec une cuisine de bistrot généreuse et soignée. La scène accueille chaque soir des pointures internationales et des talents émergents, créant une atmosphère électrique où les verres s’entrechoquent au rythme du swing. C’est le lieu parfait pour une soirée hors du temps, entre improvisation culinaire et virtuosité musicale.",
     insider_tip: "Les concerts débutent généralement à 21h, mais arrivez dès 18h30 pour l’apéritif dans la véranda, l'ambiance y est déjà magique. Pensez à réserver les tables en bord de scène pour une immersion totale.",
     expert_catchline: "Gastronomie de bistrot et sets de jazz magistraux à Montparnasse.",
     specials: {
-        cuisine: ["Bistronomie Française", "Planches à Partager"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins de Propriété", "Cocktails Classiques"],
-        must_eat: "L’Entrecôte sauce Béarnaise et le Pavé Chocolat Guanaja.",
+        must_eat: "Cuisine de bistrot. L’Entrecôte sauce Béarnaise et le Pavé Chocolat Guanaja.",
         must_drink: "Un verre de vin rouge corsé pendant le deuxième set."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’Entrecôte sauce Béarnaise et le Pavé Chocolat Guanaja.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

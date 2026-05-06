@@ -78,21 +78,34 @@ export const pavillon_montsouris: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWqPEjFSDHZLGA38sYY6UO7MJKWHjEAiOXU9z6-b7nmzaJtirdnrW6SVoa_0jCMyFKXuIh_mYjcOHO_mJlCOcrb3WhZZeCmjN0cuhlhbB7sn-QITW6GrvLIjBsE8lLoroAgfGhvgfWvYfh4QwI9N2JnYtxKifts_ZwcC-upbyuyAOB01pU_-zpnKP2ne2p9jbz0i_WxZ24OQzb54wm9NPPYFpkyJWrD27jfSD4qcr3X4XcmcrPo4cKJPeI_pq0rGW88ETMp7l_r9So21fDTr_k_aPzJtCDe8e9jABz6v3HXnA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVXUn0btQiavQAKMhfrO4b0gzV2d7nJSndhwIdsVl571BemawKcr_hkegrTvqb_EVA_Nplet5qgfmefjj_lozX_Lxvqp7KV5Te6ZXiHuOVxV-GrgO6Q40QgCa7P0nRENkwVcmhqm5MyNl26S8V_lnH_w56fYa7bAfIM7qtnIfVsDq_Dp14a3YzHRw1oEukasiLF7wbpbAAdvJ9dBYrIgYUzL4aPHGHi6CFL_S5tyl_mXYPFvcJrCwUy-qfcqoHRQQmFfv985vIl2esnSTZVzzDMlScH35eUs-UmgL5hsDNlYg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-montsouris/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.1,
     description: "Inscrit aux Monuments Historiques, le Pavillon Montsouris est une perle de la Belle Époque nichée en plein cœur du parc. Fondé en 1889 pour l’Exposition Universelle, ce bâtiment à l'architecture coloniale élégante offre une expérience hors du temps. On y vient pour sa verrière inondée de lumière et sa terrasse avec vue plongeante sur les pelouses du parc. La cuisine, classique et raffinée, rend hommage aux grands produits français dans un calme que seul le chant des oiseaux vient perturber.",
     insider_tip: "Demandez une table près des fenêtres de la rotonde pour avoir l’impression de déjeuner dans un tableau impressionniste. C’est l’un des lieux les plus romantiques de Paris pour une grande occasion ou un déjeuner dominical paisible.",
     expert_catchline: "L’élégance Belle Époque suspendue au cœur du parc Montsouris.",
     specials: {
-        cuisine: ["Gastronomie Française Revisitée", "Terroir"],
+        cuisine: ["Français"],
         drinks: ["Grands Crus Classés", "Cocktails de Jardin"],
-        must_eat: "Le foie gras de canard et le tourteau au citron vert.",
+        must_eat: "Cuisine française. Le foie gras de canard et le tourteau au citron vert.",
         must_drink: "Un vin blanc frais à déguster sur la terrasse."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le foie gras de canard et le tourteau au citron vert.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

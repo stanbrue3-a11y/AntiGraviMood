@@ -5,7 +5,7 @@ export const jones: SurgicalPlace = {
     name: "Jones",
     slug: "jones",
     category: "restaurant",
-    subcategory: ['bistronomie', 'français', 'italien'],
+    subcategory: ['italien'],
     location: {
         address: "43 Rue Godefroy Cavaignac",
         arrondissement: 11,
@@ -81,13 +81,16 @@ export const jones: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUT3whw4JL8RSQqwIkp82GAm2qMjrnbPXDjSTJ4LMDZ6m4wY9UGaLdlnCcHzKIuKm7WqOj86jGy6eDOnXK2VK9Zbt-_u3s1E4NEov25OUkoe2e00nxuiJ5vQBMVKNqJEo-mCHFlrexY2nCAgkQCQgR2YA7lKdJtFW0XFJr50RkMmkfICHPgni7G6q9C1feG2KsqQr7AMlzNR5-3EXr6LEnBgroURRxbLWu4Dw4CUABZ7DUixhMlO7EjWDgyr_oY4ZQi_1cAh56-ju6KqDBb3I6iOepPEbItBJgkGOxCTBhkgx-H1SMyfa-MeGawCzmqzRlWXDR7DEnTDbHlHpEPCnYbkfGDT9xhlHQZObDkCp-1Ow_eWVmwaJ6xTiHOIQElQ6XC70-6JnPQP3fNdFvZxyPCcSAymeOg9C9JUlks4O00pyNd&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU3SgbCD1Om7IxI9y4w4Di4NMjh5PD-U1NI1tjOd5l2mSyCpCevCLkDSjXuhY_rHTDfDHK2FcsxrskMvs_9xBBtzsx-KTvbfHw0tiwxwN0twzzJnvYAHUmPLpZq7z2l1c9DLKDxHy-chRmAg0c3iGJTcWVfHa1bIuphaxozzH1B2MDmq_hGpVRion4oTVu67tku-kBVXdqagyCaZpiGyqnlRIY6wDhFTahUi4QDlXrnpl4M2MiiaQwpHsszAtdgDb9_-GOTIZINu2aO_bMguHFe7TlUi2xxKBjljOODbyjBEHXzIExdbVrsvBcFhDCweFRbLjxuhE2uKyG5v8ZjtQk8GYs8dNaWVLIkY9mo2xk06g1_GnpCOcSjzM0bXqvYWx4MeRg_g5ZT9H_QoqaMyB-sUoufWL9t0e3EMYDliEibagq5LADXly8k9cgdYEyv&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUQku8oiJsVm2vb3-5lOgJT9skBNHJE6THNgQ7QRPSQvrG72m_2r8wmIuGPpBOiDAfd87jog1WyyU0qyKxFYWEhDCV0RSxmh3pgdp8XHdMVfRpP20DSSmay3mqcWSRGzkBblKBgxvjB_qIxEO27mlpq50cVs2HaYpgKaRr-C6x2HJhS1B5LOU2gy5ZcaoQC8vHoTai0RVswY0qfsAOysTfjnUshr2bFdNv7qrdpSnXxx8uTo-ryW2yADET7Ikx1T-sXl81ibQg4fczXkMTf8ZfW2pbIMFVkqbGV67f1xqrh0By3LTNG3w6Xh8ZTk9gvGdbHRC39uz6VmDJNqjVA1Zt7mMAxeq3rJkPheCnX_DnKJOfZ6gMrWINDgOTUVlqxSFad9cCPj-4uWMePQShihBScDDr1XPK0AG9T_OkvvvIfhPYwda5IKM3ftdc22e_2&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jones/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "jonescaferestaurant",
     verified: true,
     google_rating: 4.5,
@@ -95,9 +98,18 @@ export const jones: SurgicalPlace = {
     insider_tip: "• La carte est construite sous forme de petites et moyennes assiettes. Comptez 3 à 4 assiettes pour deux pour construire un grand dîner.\n• La sélection de vins natures est parmi les plus justes du quartier, laissez le sommelier choisir pour vous.\n• Attention : le restaurant n’est ouvert que le soir, et complètement fermé le mardi et le mercredi.",
     expert_catchline: "Haute volée d’assiettes partagées italo-françaises et quilles natures acérées dans un bistrot vibrant.",
     specials: {
-        cuisine: ["Raviolis cacio e pepe", "Arancini croustillants", "Tiramisu somptueux"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins vivants exclusifs", "Macération pointue"],
-        must_eat: "Les déclinaisons Cacio e Pepe, signature de la maison : de l’arancini à l’ouverture, jusqu’au spaghetti en plat de résistance.",
+        must_eat: "Cuisine italienne. Les déclinaisons Cacio e Pepe, signature de la maison : de l’arancini à l’ouverture, jusqu’au spaghetti en plat de résistance.",
         must_drink: "Un rouge léger du Beaujolais ou une macération de Loire pour accompagner les notes intenses des assiettes."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Les déclinaisons Cacio e Pepe, signature de la maison : de l’arancini à l’ouverture, jusqu’au spaghetti en plat de résistance.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

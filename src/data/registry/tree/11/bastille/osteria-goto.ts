@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const osteriaGoto: SurgicalPlace = {
+export const osteria_goto: SurgicalPlace = {
     id: "poi-osteria-goto",
     name: "Osteria Gòto",
     slug: "osteria-goto",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['italien'],
     location: {
         address: "151 Boulevard Voltaire",
         arrondissement: 11,
@@ -104,21 +104,34 @@ export const osteriaGoto: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXQUO2YQwwvTro8WjrqFNdwgiJrQud6dlUQoultr6QJrbHIBrFdnbrWmKSUv1RgiMKBXwA9uIcWTR23xkR33Cc-7cIhnjZP43KYrqSjXKIEcg_tZVO3h2Eim_tUwq11-eweTQttGPpWv5cs3gT8wWLzIsJqShXWuzy0u7RBek-b3kM5DYKGw5ibS0AEW7KpR_XXx6PsfifAaoYwcFAxYMsM3KN-PXCB13GoKFfAvQDlNtCnvwYNL76MGvSBVtJrzMi-dF67Ez-1vqJqzOpMA2_TREQFOXA7fC2GfU3yAUTT1Lr6aoq4RFu67GA4SloDLrVy_t5Lmigg5QgQzsbBHi2W3oELNZoRzSvEl-EiLfMrngdPVVeIlT8xB9AcDDSF7ILzrFNBy9k8Dll1RrS4elAeQB0VbIMkMBppDBoaLyk9gMc_CyOhV4MWlO0rdg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV2oYQHQJ1NbqH-mtSJfW2cNz_mSK5cZAHYOQ6iZAMm11C8az5ofellgmDIZNBF2nIrjOYsFGQDoJXhvD8hwx7HvEUgt8s4rRh6RwK16sh0x7wfoqHTCcVnMGmschauaNb3zhKgVA3yox2FOBRAaNiK8dBqIhPHElwxi2P1bjYp8qdvFMOlLfKBa-IfsbSaYkkSgTOVTAmo5mOctzQlb7zG8HzG2XWFSfSlrThG8KHYhDyt_r0qJO27SMEyS2MI89luX0Pa3OZgc2Ns3-QpFCWCdiSENvCahPUXExnMqiG5FteE-swpxGhFKPKgJROTkJWVDsRAN_gxl03cM3-oKy1yoh8q4O31yrSd7EiQ4fZ-tD3mjTl9LMXPZ3rHYLEfSkjPFij4nK09ZQt4b5UzVUngSoOiYdTatfERGKf6yX06ksgxF9Y1qGvReI71h4y8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-goto/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Une immersion vénitienne brute sur le boulevard Voltaire. Gòto célèbre les ’Cicchetti’ (tapas italiens) et les vins naturels dans une ambiance d’osteria authentique. Ici, le produit prime, servi sans chichi mais avec une science des terroirs italiens impeccable.",
     insider_tip: "Commandez plusieurs Cicchetti comme les sardines en saor ou la polenta au poisson pour un véritable aperitivo vénitien. Le Lambrusco de Camillo Donati est une petite merveille à découvrir.",
     expert_catchline: "L’osteria vénitienne vibrante du Boulevard Voltaire.",
     specials: {
-        cuisine: ["Venetian Specialties", "Cicchetti", "Hand-made Pasta"],
+        cuisine: ["Italien"],
         drinks: ["Natural Italian Wines", "Bellini & Negroni house-style"],
-        must_eat: "Le Baccalà Mantecato sur crostini.",
+        must_eat: "Cuisine italienne. Le Baccalà Mantecato sur crostini.",
         must_drink: "Un verre de Lambrusco dell’Emilia Frizzante."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Le Baccalà Mantecato sur crostini.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

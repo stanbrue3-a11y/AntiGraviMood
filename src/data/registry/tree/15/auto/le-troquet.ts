@@ -112,15 +112,30 @@ export const le_troquet: SurgicalPlace = {
   • **Le Must-Have** : S'il y a du Pâté en Croûte, commandez-le sans réfléchir. Suivez de près avec le Gâteau Basque.
   • **Casting** : Parfait pour y emmener des amis viandards ou un "bon vivant" qui ne jure que par la tradition.`,
   specials: {
-    cuisine: ["Bistrot Français", "Sud-Ouest"],
+    cuisine: ["Français"],
     must_eat: `Cuisine Sud-Ouest authentique. Ris de veau dorés & Gâteau basque.`
   },
-  images: {
-    hero: "AU_ZVEEQa4VQw0mxfvJrHtQSH3zi8AbJtl_9pp81IaNdDsJzHHkfe3XRkDaFpEKK-Qai-sJzPBqbSN0HEKXo3zuQj1Q5UXYM_zVhdqhuRMHih78T-H2Wg7-BdLQlNOBcBYIhLQvSS24CppdODnYb-4Y9dszQrId6ymtJSyyfUTYd7n3a8L8v-03u3Z5eUA2euywk4g7PPo6dElTBQtnChAQpXX_70UmdqnGSfouaJpcgHlcVYaJtv3-p8AeBGWXmiOuZe2G1hwE_9KlcMqQlx7QaOagq6uqiv8L5Z36lU8YgKtfJCp2U-HQaKAmffDwTbofgbx2yWgQNMVn-ktka-Fytszf4iyvJPicDMVyv33If0hVDDVYx3EJyOvA_j_vkSoB3CFRiheja5OwHX3ZSgeh2QUzqwqYHe1_k5Q61qKFmACB7vMQAn9flC7Ho_w9OBcHb",
-    gallery: ["AU_ZVEEegjL_KHbTp6WjfFz6LsH9vq4xxlViyB9WvPx3IzzY1qk_gGe_OjiLtrvFqSGRMZfvGwQkWsV5n0V7wA_sG9HYBhvj-4qCLsagXuIdOh8mRshH5ERWNZfI5OLc-bG0ulK6122SKqzbHM4jnIJo5wMjH57ER1JhR6GVR5qIWiHCTYfNVmr-RRF_A3nBS7CLM8m1jPZpOEiiedQwudpKnnQMXFCT9O8-3Li29oaeBzX2bqS6S2FZUi6v0bUZk_F5IqH8bUwokIWyh6_ydCXiS79w_MtkPdMWYRdJ1E1duVPpl7o49VuV2lMqOy8oHqpnp2jg0jyfp18qFdEjS6vn9JWwXX7d6gW1UyPBF0HST24jxR2u-FQ0OiAf40CDk-35RCUaan4H_WH5S5ubczCYFLD4onFQUkf8w_Fj1_l77LERpbU5","AU_ZVEEfzXmKWfXbIuj4phG6iafgqO1oneVD6_zQmBMY1WxuuoSwtnCVk47PsiAKXVT_1zxBatTrZ0xo4efkNE51srKP9Lm5LhOL19PZxdWhRuJM6fR3kfIF1-n1dYXcMo5ouff2F4Ro4OsyxPtqrWlg8PhFyGIj4a54SzbVp5e8PmF0Y_CQe7Ze_9bNJzkXxkeN8U54T2mdPFz7py2xdLXVoEXFnnPVWo1kqkGZG4dYkykMkb1SCrZe9aEltKK5PvUVUFeRTopBrYJBo8itvRsiRNJN1uHh1jLsbYrw5iJjhmY2f9coWVK8s0P7hUTXBaVVyEzS0Wu3AQkBv86zy0QQ_jQNav4KlNDHmI6Yz4u93vV-nq-EakA8hKsXViS996g0zXGBU0bsVo3URpOEgBwtkXHDlc3WKM5-I2Zv_a0wqFmjZ98"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-troquet/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Le Troquet.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_troquet;

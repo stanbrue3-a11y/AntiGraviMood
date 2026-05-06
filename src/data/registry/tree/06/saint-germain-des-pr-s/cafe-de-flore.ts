@@ -13,6 +13,7 @@ export const cafe_de_flore: SurgicalPlace = {
     "location": {
         "address": "172 Boulevard Saint-Germain",
         "arrondissement": 6,
+        google_id: "TODO",
         "lat": 48.854159,
         "lng": 2.332605,
         "nearest_metro": "Saint-Germain-des-Prés",
@@ -54,9 +55,24 @@ export const cafe_de_flore: SurgicalPlace = {
         "must_eat": "Le Chocolat Chaud ’Spécial Flore' et sa célèbre Omelette aux Fines Herbes.",
         "expert_catchline": "L’iconique carte du Flore, entre classiques de brasserie et douceurs intemporelles."
     },
-    "images": {
-        "hero": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Caf%C3%A9_de_Flore.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-de-flore/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-litteraire. Café de Flore.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

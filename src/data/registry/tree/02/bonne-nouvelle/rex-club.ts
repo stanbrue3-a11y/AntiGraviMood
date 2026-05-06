@@ -4,7 +4,7 @@ export const rex_club: SurgicalPlace = {
     "id": "poi-012",
     "name": "Rex Club",
     "slug": "rex-club",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "techno-club"
     ],
@@ -13,6 +13,7 @@ export const rex_club: SurgicalPlace = {
     "location": {
         "address": "5 Boulevard Poissonnière",
         "arrondissement": 2,
+        google_id: "TODO",
         "lat": 48.870572,
         "lng": 2.347382,
         "nearest_metro": "Bonne Nouvelle",
@@ -47,9 +48,24 @@ export const rex_club: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "/images/rex-club.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rex-club/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Techno-club. Rex Club.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

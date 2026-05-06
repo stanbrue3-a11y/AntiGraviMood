@@ -109,16 +109,31 @@ export const caillebotte: SurgicalPlace = {
   description: "Caillebotte est la petite sœur lumineuse du Pantruche, une annexe bistronomique où le chef Franck Baranger déploie une cuisine de marché d’une précision diabolique. Dans un cadre épuré mêlant bois blond et cuisine ouverte, on y déguste des assiettes racées, généreuses et techniquement irréprochables. C’est l’adresse phare du 9ème pour ceux qui cherchent la quintessence du néo-bistrot parisien : créativité, produits nobles et prix restés sages.",
   insider_tip: "• **Le Riz au Lait** : Il est devenu culte dans tout le 9ème. Ne partez pas sans le goûter, sa texture et son caramel sont une référence.\n• **Le Déjeuner** : Profitez de la formule à 23€ en semaine, c’est l’un des meilleurs rapports qualité-prix de Paris.\n• **La Table du Chef** : Si vous pouvez, asseyez-vous face à la cuisine pour voir le ballet des cuisiniers, c’est un spectacle de précision.",
   specials: {
-    cuisine: ["Bistronomie créative", "Cuisine ouverte", "Produits de saison"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins vivants & natures", "Sélection de Bourgogne", "Cocktails Maison"],
-    must_eat: "Le Riz au Lait (11€) : l’un des plus mythiques de la capitale, une gourmandise réconfortante et parfaitement équilibrée.",
+    must_eat: "Cuisine de bistrot. Le Riz au Lait (11€) : l’un des plus mythiques de la capitale, une gourmandise réconfortante et parfaitement équilibrée.",
   },
-  images: {
-    hero: "AU_ZVEF8AoWPc7Yc9KzmUIqumwfdZjFtGqFgwLE4b1USioQBFAH0nPjsC3-baOmFkbQVEV_m0bvsPKofCas6EpkB4_TMndeVq8L2rbSnHspfLgXaUfq5fNa88WNSZ85RSrgrMWnIziaAsmmUtFwcJD8T_eoEZG13P7ziEVMSK81zKZq4SupW7hCpJ_335sU9EDRNya7eaIN-HiXTQSuKD2adf2yFogb3dplrle6DoWeSHTWtbdLFbanLe-KoIS2agAOBRNJamyBiZ1uaNydPj77jXKvk-RjVBEStmfkOStJiyRbvZs6JJH8E4ZjyZ3i2YgvNOnavG_0e3PYcr42Tdq3NWvQ5iHe4n-W7emaNW4UUD7nutcSOvCMr9ES7bY11MvheA5wNOIT0tCvEUkyHu5gqrSVjTQrS_OH6Iz1pkT90lk1DtVBG",
-    gallery: ["AU_ZVEGuHZc-Dgi0NNcxl__lZFcQVp75iG_FWL9tDOSHIWPq7SxzFnkISIJfT_HEOB6C90dc1wKZArvCTCb3xgF87Q5EEDUhrIoubO9nX66r7E9KXIpw-JI4mh4vFvYizCoSI00c2j0bAUzF_2qPY0b9Gll6RZbZSwxrazS_r57XWLTLFxhZjFrZS62ZBrhcfE8HgN7V9qg1e9pwVobYJVwvn3qubSD_QaSGypaEsb16eGzW5pj_04vJI5gn2ihaBxNkF9tA5TVmht1IC-tDMH1D89i1S7hll6iaPRbUlnmPIrAW1OXCET38OvxayuUtmbJ7pmJzmrORshmbaLeCqI7Z51sJ3ZUpp6nhDjOsKIq5FVkND9hRTh0hg40hRoLUtEsJcgJkJdbASQpy1pOu8T0tLGjH-zDXkgsvzgmQ4KGFIUf3GQ","AU_ZVEHeAMam3iYOU5dxvDPnuk8WKeeWKLqsTiRgTHzSIuO67irJVVDetxn8X2Qsf4E5O70huKa67jF-1_IdaxU4_lwGBgFAWGtSpMM1Eb9Bml1Hebbh9-X9FXFDdZd2hnKhSlatCqChF4Vuotkrkvf_baEB3QnHBgyCBTSd5LnkGBj2fn9ZnNj1HcY3j2g7RXb88J9I5MCnV0pyoQFueVrche7XMZSWVptlANZwYyuIG7RP_M7lPnT3NefhtglYTbVE66HBxQLLnD40QmiXHRs23ckXOzzdZjQjoP3N1Qdcll9ifPM0funXKeD91YTx-x4E933BopxlTn0zzAyB9-6zKnhBBpFNVBUcrW2FRs_Mdfy_RwKyexBoteaN8s-LmgSMSR03ry91-RNXmvt_8CfOinluHf5fuy1bJOQ-Uec0983OgNIA-s5SN-z2xyvNr45K"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/caillebotte/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Riz au Lait (11€) : l’un des plus mythiques de la capitale, une gourmandise réconfortante et parfaitement équilibrée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default caillebotte;

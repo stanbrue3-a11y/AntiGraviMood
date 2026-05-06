@@ -5,7 +5,7 @@ export const maison_sota: SurgicalPlace = {
     name: "Maison Sota Atsumi",
     slug: "maison-sota",
     category: "restaurant",
-    subcategory: ['français', 'japonais'],
+    subcategory: ['japonais'],
     location: {
         address: "3 Rue Saint-Hubert",
         arrondissement: 11,
@@ -77,13 +77,16 @@ export const maison_sota: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWLBNKlmXz975fAasgXW2w_zL2bFI9Gfrv0_pMbYXG7jdGH_XXCwe_QwxjX5LPmx7cIIv0tkCOxTPhDPQtMNJhioH5XPYOc9xcHshiMCo1kYLb_ydSuGFsgIqOAQv1AwmQQZ7JCldACp6TjJMcVoCGMh4fHcgBB1T62VgG9CvdAVKlXg9IqUvPbuGG5JSXBJKoLoDAk25nAPJY38HpsQeHuMTlgVJKE8KVD96kbcXyjqedp-TRuF2YZv-yb1S-PkUMMcr0kFnL88A4nztusnFwVPs5BhEGXn_47MmWUGBWZpL5uirZ5xLzQGXeVM0mxqiamJ_EOohKlAyd7mqJkw8moL6ElI-5KkkPacgo_c2O9E6kGQqhzsklZUwb-CXz6EQK0q9-V8tnAu8jiwc5DS6oZHF38IlUI0V_proJsKgtDiSgT-elqu6ctmTLdfkc_&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXdZkn1eieWUqSBWloDp0dMFrmrHKETqtEAsKcRdYHLtouM8KHvvo_YU2Ohh5tSRob9iaabTuSpIigPE_88-KWNQxqxdiabaAzu7V6NFCzmhS3666qbwb0YC4s6tmm2novctPDgEzwWQqgLbslq7PJA9JYBMzzX3TGfvP3nLU2_ODrv0Wfc50foKOPOEI7F7BiJRbKd6dwCU2Z2XuqHvHSA7dDrC0E2L7EmgpUjPGp_8RwPcyWn7GV8YYrQ0AnW4K-VfyIokiIEON0oONxm8V-QZJuuS7H7BO-3fGHgm-fGbpdY9wzrz0EmbllXu1cRFYcc0D0vFRV_HrFDiAZLQb_r-OVI5E-R3dm2hLOWXeXzEWjdRDeJEQXahIsSlzvTfuIFvD7rXHQ0wBAO85oZAEX6CHeIhF5Z0nxRUO_enM0&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVSovDi2UxgJkfm39VjZwBWqPKhUClscJqjFvwfn_BM-JJYUT9g1M5kinc9m8AyK9JQ1RK0M-A9b1lYOXEdKO2SdsOLIO-GvaoTH5XKjlG3wIl-2MdWhHfZ04vno0qnURcC5xVnj5mb9HWlh0hGsBCKTKf2o1xMGARlRzWusIehBtXL6oUh77PsUbm5IkV-bovL2XYChucM1GyGeC2sqz-RT_mUJ4OhI0UMNo4r1nMA552EjtgC6lmVtFdrgDYeZg1RjSdjoXdqOV4ZZPrq_fVf4yZRzQhWFlmDD8pgZzXtij9OwDDVPctx8RMcchgv2e0P9EoPeGQ5-B1eBoyz4pJF53cG287TFUPMeG-j_6C1cBIXJT-lpKib1EUhj1DrWiSXuKeBpdr01Um49s5AhXic04hqwWZPNVpUyQV5GQtz4NDRIZ8sePf7EZkxAA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-sota/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "maisonsota",
     verified: true,
     google_rating: 4.7,
@@ -91,9 +94,18 @@ export const maison_sota: SurgicalPlace = {
     insider_tip: "• C’est la table pour célébrer un anniversaire où le budget n’est pas un problème. Le cadre est incroyablement esthétique et romantique.\n• Demandez une table avec vue sur la cuisine ouverte, l’organisation de la brigade est un spectacle hypnotisant en soi.\n• Le menu Déjeuner (Jeudi au Samedi) à 65€ ou 85€ reste l'option la plus stratégique pour découvrir cette étoile Michelin sans forcément débourser 200€ par tête.",
     expert_catchline: "Haute gastronomie nippone-française enflammée dans un loft d’exception : un sommet parisien.",
     specials: {
-        cuisine: ["Pigeon au feu de bois", "Homard transparent", "Oursin et vin jaune"],
+        cuisine: ["Japonais"],
         drinks: ["Cave stratosphérique", "Accords pointus (110€)"],
-        must_eat: "Laissez-vous totalement guider par le Menu Maison (165€). Le pigeon et les pièces maîtresses rôtissent lentement au feu de bois devant vos yeux, tandis que le homard et l’oursin font des apparitions remarquables au rythme des saisons.",
+        must_eat: "Cuisine japonaise. Laissez-vous totalement guider par le Menu Maison (165€). Le pigeon et les pièces maîtresses rôtissent lentement au feu de bois devant vos yeux, tandis que le homard et l’oursin font des apparitions remarquables au rythme des saisons.",
         must_drink: "L’accord Mets & Vins avec ses 7 verres (110€) est loué par les experts pour sa précision d'orfèvre."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Laissez-vous totalement guider par le Menu Maison (165€). Le pigeon et les pièces maîtresses rôtissent lentement au feu de bois devant vos yeux, tandis que le homard et l’oursin font des apparitions remarquables au rythme des saisons.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const cafeMericourt: SurgicalPlace = {
+export const cafe_mericourt: SurgicalPlace = {
     id: "poi-cafe-mericourt",
     name: "Café Méricourt",
     slug: "cafe-mericourt",
@@ -111,16 +111,29 @@ export const cafeMericourt: SurgicalPlace = {
     expert_catchline: "Le temple du brunch et de la shakshuka dans une ambiance coffee shop australienne.",
     insider_tip: "• La shakshuka est le plat le plus demandé du lieu, et pour cause : elle est excellente.\n• Pas de réservations le weekend, attendez-vous à un peu de file d’attente sur le trottoir.\n• Leur jus vert Kale/Pomme est le refresh parfait pour lancer la journée.\n• Les pancakes à la fleur d’oranger sont d’une légèreté incroyable.",
     specials: {
-        cuisine: ["Shakshuka", "Brunch", "Pancakes"],
+        cuisine: ["Français"],
         drinks: ["Filter Coffee", "Flat White", "Green Juice"],
-        must_eat: "La Shakshuka et le Breakfast Bun."
+        must_eat: "Cuisine française. La Shakshuka et le Breakfast Bun."
     },
-    images: {
-        hero: "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mericourt/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.5
+    google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La Shakshuka et le Breakfast Bun.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

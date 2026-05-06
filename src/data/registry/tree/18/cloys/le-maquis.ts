@@ -112,19 +112,31 @@ export const le_maquis: SurgicalPlace = {
   description: "Le Maquis est l’un des néo-bistrots les plus vibrants du 18ème arrondissement. Piloté par les chefs Paul Boudier et Albert Touton (ex-Chateaubriand), cet établissement de la rue des Cloys célèbre une cuisine instinctive, technique et terriblement gourmande. On y vient pour les gnocchis culte, les sauces miroitantes et une carte de vins naturels choisie avec une passion communicative. L’ambiance y est celle d’un quartier qui s'encanaille avec élégance, entre simplicité brute et finesse gastronomique.",
   insider_tip: "• **Les Gnocchis** : S’ils sont à la carte, ne réfléchissez pas un instant. Leur texture est une légende urbaine dans Montmartre.\n• **Le Déjeuner** : Profitez de la formule à 22€ (E+P+D), c’est une masterclass d’efficacité bistronomique.\n• **Le Menu Dégustation** : Le soir, optez pour le menu en 5 séquences (60€) pour saisir toute l'étendue du talent des chefs.",
   specials: {
-    cuisine: ["Néo-bistronomie créative", "Gnocchis signature", "Produits de saison"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins naturels & biodynamiques", "Cave d’auteur", "Spiritueux artisanaux"],
-    must_eat: "Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l’âme même de la maison.",
+    must_eat: "Cuisine de bistrot. Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l’âme même de la maison.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH2oW1t4z2u8ePQ_O9u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEG5T_O4j-5I_R89kL-P-N1V--_u9fUMlZOfPu_xU40_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHmXUJV_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-maquis/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Les Gnocchis Maison au beurre de sauge (22€) : fondants, dorés, ils sont l’âme même de la maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_maquis;

@@ -107,13 +107,16 @@ export const le_servan: SurgicalPlace = {
       }
     ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXhlP-gJZKZ_KNIw9cWTR03sZtpbRa7RdoB3yTwZ2rnLGsnORGQifHBDqP5hidQlOXoRZIpL-qlwiCqyFrmZZc3JJeCU4sXE3I2zpT4uAw9RVlYMXnJE-FlUoME4ypVVwLBllYmqqx7dz1wqjOkHtK99J6mpoPL1tAIKlYew8BCN6pp9Ml_OSB6ubr2jrKZm-arCtrwiqU2O-CBmmZ7F8lFboLs16k36AjDqwDHXVUIgcr50osSLeK5DWI4KeJMyMHOep1OJlvHaaAE0-bDkndnTdxjZVdfYPlBWPx0dSVfpFNYf52omSUT9Iw0tM1Gz0BPwuiCEvE7d8jSZERAFO3phjY6-K3mMf61LwE-5FDL-pFiHcnDV0mP21VsBe6s-cn_BqcsNzr8Ahl5yuaQB6foFnjtKQ4u3wnNp_4mBar1qrRa&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVSlRMBGVPguKG_9rP7rRPbtbcZMYzV0gaMip00H0tEsu8JbJf3uFWQ06G-sPxJgw2k7gACCr9bZIc5fzMlC0RRtf9o_-uWpTeNHtQ92nXJXDQEl7u12BxZP3bN2IDc6y1fSRw_Wm406nFa_M8b_nU3ggv43nT78kgEaeY6qExktngxy9nowc6ST7nbewBu2lc_1924heFuIDr3myiJ5ULpuy9wi-D8WwZ3DNihWEAKxQ86DqmF0Yk-c76P-yKBzuO_okrMD7hl2jrO04gPBrzuk6pkefrxaRozKG1vUYO8Zg5U23Nd_Uy64W05SHQrtrQ8DVB168m06Py_DOLDURp8btoqVVWBZ502IbS1XBR_NpP9FFp_pWvgNWLlWgG9jGdWEUW_YhALAg0Urrc0CMAXsF0yBAQ7BO-KuqvPitkkpWccTgt8Dylq-iEEySnK&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUZpGlWzaXl55tSJoIyO9Q7SvO3soIyHQ9Ejqyuh40MQunp4dvEP5xBgz9xlmxfDlKgV7sLEmTa8X_05S1WmAeNkC8VjzEeKyQkp8wNFh-myOEuZ76c_FL5PcZEDORpcUHhtUxB7RRmLY6EasGvsT-V8UrYSGt-5Gtn0B1CGImG3gI6ETcmOIpdg__GVgpGzoeUWJV0i72sLrwXkD0OKvyF8E7hiQsTo3c0pUiF3jFY1U0ajRSfEcERk0Bh9WMn7LOLAabGt9XayMJ0A7GUxCON5zyj1kiutbwrVnJHzwRhL3bZBhUIWoHakFFWbr01lo6beUb5vIoh0bs4iMxUq3Y5C86sH_mvL7uuWzV-lG8-jYnuUhlO3rBpWs5YndTSBcbPqZ_QqkEgKOQcqjBMyWvX2Amw3AUrpxLNg4rZkMqebpoAlUaSkGlsA9e7U9Dw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-servan/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "leservan",
     verified: true,
     google_rating: 4.5,
@@ -121,9 +124,18 @@ export const le_servan: SurgicalPlace = {
     insider_tip: "• La carte change purement quotidiennement en fonction du marché de la cheffe.\n• L’ancienne formule déjeuner très attractive n’existe plus, le ticket moyen monte vite à 50€ (et attention, la carafe d’eau micro-filtrée est facturée 5€).\n• Réservez très en avance, le lieu est constament pris d'assaut.",
     expert_catchline: "Haute-bistronomie percutée d’influences philippines par la brillante Tatiana Levha.",
     specials: {
-        cuisine: ["Cœurs de canard au piment", "Raviolis langoustine au beurre de soja"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins natures exigeants"],
-        must_eat: "Si les cœurs de canard au piment doux sont à la carte du jour, jetez-vous dessus aveuglément.",
+        must_eat: "Cuisine de bistrot. Si les cœurs de canard au piment doux sont à la carte du jour, jetez-vous dessus aveuglément.",
         must_drink: "Un vin orange macéré pour tenir tête aux épices de la carte."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Si les cœurs de canard au piment doux sont à la carte du jour, jetez-vous dessus aveuglément.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const monsieur_bleu: SurgicalPlace = {
   slug: "monsieur-bleu",
   name: "Monsieur Bleu",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['brasserie'],
   location: {
     address: "Palais De Tokyo, 20 Av. de New York, 75116 Paris, France",
     arrondissement: 16,
@@ -100,17 +100,32 @@ export const monsieur_bleu: SurgicalPlace = {
   expert_catchline: `Installé dans l’aile ouest monumentale du Palais de Tokyo, Monsieur Bleu est l’incarnation du chic parisien.`,
   insider_tip: `Réservez une table près de la baie vitrée pour la lumière magique du soir, ou en terrasse dès les premiers rayons de soleil. Le mille-feuille est une signature indispensable pour conclure le dîner.`,
   specials: {
-    cuisine: ["Brasserie Chic", "Français"],
+    cuisine: ["Français"],
     drinks: ["Cocktails Créations", "Vins Sélectionnés"],
     must_eat: "Cuisine de Brasserie. Poulpe Grillé & Mille-feuille Vanille-Caramel.",
     must_drink: "Cocktail Bleu de Paris"
   },
-  images: {
-    hero: "AU_ZVEFeextDc-xxdKvnpHxasDLUwGDqEHIltW4uJswhr74QA3uMyWnWczc10G2ae0aOXgGL381c5dTT5f58d7CYPI8mapqD19iTf1g5Adop9D0kVhvLm5yLC3v9Q_Tm9bmopB0BILrzgVobjVKrdfmzc6xxNn9j9gSBPPLxwhvLk9e7LPue-r1kGqj7rxqGyDfx5VpMwSg7CScjzgEsJ7Rhn2t6aTvFi1VL6eKeLoCz9x8EZOd10WZN5rv25ZV2eE2v7KWKA1aZBltdkA3mknQ7MdVuq-ENcX5_7YfmJ6E7Lb6E1w",
-    gallery: ["AU_ZVEEg_eB_swmdP88a8nfIsa5sbtqBREdW75IzMYmTft_dTXreDyLXj2FLCMpFlBVvM1EyMF9bdzYV7PbGVzPJOwE5C-PEtjXdwSvgB2aJO6qCLy0iN0sLnrDpWMBYDCxke-9Q5LdSzXI7hs6HIYFa5yI9mVewWRtzYw36i1d1kU7KqKnontFlS5YN3sNfXc_vVHIu8Jp76lEGKKkQv8PqoDfvxDPqk0bnAOUd-zsvlYx9wkUXysekufrbjjkQYSFmBgqhzC6-jQ7NV02ibGwdFAEpPtYD1NYC5jWu8O9D5VnSdw","AU_ZVEHcSUvXIDiCgTQ-61bOJRXgDzHYbeGh8oiKM8eEBH4Q8lJYRkYj_6bBXhizk15Y7XNQy-LuGUhgImanSpE6HwIw4kAWlLUxXWBJKex8lVgZWlqKtuqDIL7s4uf0kEgOfVC3j8EHEq8l4ErRZICGUaWuhUQ81Mw_XhQGp1qx6q0rePjANVDPVdcp_fvd5PHN5htoOp4MEyXExMUifngDoVqWY4W9Jv_e631bYYMFf5UxK97UaKlmJ9Sc2xrwBjRy41bF1fWfpGoZmcVBvBQwZfeSqihDS2AoI3GNZLNCaqMZQw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/monsieur-bleu/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4
+  google_rating: 4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de Brasserie. Poulpe Grillé & Mille-feuille Vanille-Caramel.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default monsieur_bleu;

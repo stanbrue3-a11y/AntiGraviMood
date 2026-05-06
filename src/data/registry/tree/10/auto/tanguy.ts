@@ -5,7 +5,7 @@ export const tanguy: SurgicalPlace = {
   slug: "tanguy",
   name: "Tanguy",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "15 Rue de l’Échiquier, 75010 Paris, France",
     arrondissement: 10,
@@ -110,19 +110,31 @@ export const tanguy: SurgicalPlace = {
   description: "Tanguy est l’ambassade du terroir breton au cœur du 10ème arrondissement. Loin des crêperies touristiques, Gwendal Tanguy propose des galettes de blé noir 100% bio IGP Bretagne, battues à la main, d’une finesse et d’un croustillant incomparables. Ici, chaque produit est sourcé avec ferveur : jambon Prince de Paris, andouille de Guémené Rivalan-Quidu, beurres crus de Thierry Lemarchand. Dans un cadre épuré et moderne, on redécouvre la noblesse de la crêpe, accompagnée d'une sélection pointue de cidres artisanaux de petits producteurs bretons.",
   insider_tip: "• **La Pâte Battue à la Main** : C’est le secret de leur légèreté incroyable, la texture de la galette est unique à Paris.\n• **L’Andouille de Guémené** : Ne passez pas à côté, c’est la Rolls de l'andouille, transcendée par les oignons confits au chouchen.\n• **Cidre de Dégustation** : Osez les cidres extra-brut ou les cuvées de garde, ils rivalisent avec les plus grands vins blancs.",
   specials: {
-    cuisine: ["Crêperie de terroir d’excellence", "Blé noir 100% Bio IGP Bretagne", "Produits bretons ultra-sourcés"],
+    cuisine: ["Bistronomie"],
     drinks: ["Plus de 20 références de cidres artisanaux", "Chouchens de vignerons", "Bières locales"],
-    must_eat: "La Complète de TANGUY (10.50€) : la simplicité absolue magnifiée par des produits d’exception.",
+    must_eat: "Cuisine de bistrot. La Complète de TANGUY (10.50€) : la simplicité absolue magnifiée par des produits d’exception.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tanguy/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La Complète de TANGUY (10.50€) : la simplicité absolue magnifiée par des produits d’exception.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default tanguy;

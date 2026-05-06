@@ -1,0 +1,1120 @@
+--- STATISTIQUES DES NUANCES ---
+{
+  "Cuisine japonaise": 10,
+  "Cuisine française": 179,
+  "Gastronomie bio": 6,
+  "Cuisine italienne": 12,
+  "Cuisine méditerranéenne": 4,
+  "Cuisine italienne (Pizzeria)": 5,
+  "Cuisine indienne": 2,
+  "Cuisine de brasserie": 3
+}
+
+--- RAPPORT DÉTAILLÉ ---
+[
+  {
+    "name": "SOKCHO 牛者",
+    "path": "src/data/registry/tree/01/opera/sokcho.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Kodawari Ramen (Tsukiji)",
+    "path": "src/data/registry/tree/01/palais-royal/kodawari-ramen-tsukiji.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Féria Café",
+    "path": "src/data/registry/tree/04/saint-paul---chemin-vert/le-feria.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Ducky’s",
+    "path": "src/data/registry/tree/06/auto/ducky-s.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Relais de l’Entrecôte",
+    "path": "src/data/registry/tree/06/proximite/relais-entrecote-montparnasse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Braisenville",
+    "path": "src/data/registry/tree/09/auto/braisenville.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Buvette Paris",
+    "path": "src/data/registry/tree/09/auto/buvette-paris.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Caillebotte",
+    "path": "src/data/registry/tree/09/auto/caillebotte.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Condesa",
+    "path": "src/data/registry/tree/09/auto/condesa.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Cuisine",
+    "path": "src/data/registry/tree/09/auto/cuisine.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "Il Cuoco Galante",
+    "path": "src/data/registry/tree/09/auto/il-cuoco-galante.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "L’Office",
+    "path": "src/data/registry/tree/09/auto/l-office.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Pantruche",
+    "path": "src/data/registry/tree/09/auto/le-pantruche.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Pink Mamma",
+    "path": "src/data/registry/tree/09/auto/pink-mamma.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Le Richer",
+    "path": "src/data/registry/tree/09/auto/richer.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Comptoir Sur Mer",
+    "path": "src/data/registry/tree/10/auto/comptoir-sur-mer.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Early June",
+    "path": "src/data/registry/tree/10/auto/early-june.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Galopin",
+    "path": "src/data/registry/tree/10/auto/le-galopin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Verre Volé",
+    "path": "src/data/registry/tree/10/auto/le-verre-vole.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Tanguy",
+    "path": "src/data/registry/tree/10/auto/tanguy.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "Chez Maman",
+    "path": "src/data/registry/tree/10/canal-saint-martin/chez-maman.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Fulgurances, l’Adresse",
+    "path": "src/data/registry/tree/11/alexandre-dumas/fulgurances.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Sot l’y Laisse",
+    "path": "src/data/registry/tree/11/alexandre-dumas/sot-ly-laisse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Biondi",
+    "path": "src/data/registry/tree/11/amelot/biondi.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Clown Bar",
+    "path": "src/data/registry/tree/11/amelot/clown-bar.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Folderol",
+    "path": "src/data/registry/tree/11/amelot/folderol.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Goguette",
+    "path": "src/data/registry/tree/11/amelot/goguette.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Korus",
+    "path": "src/data/registry/tree/11/amelot/korus.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Kubri",
+    "path": "src/data/registry/tree/11/amelot/kubri.ts",
+    "suggestion": "Cuisine méditerranéenne. "
+  },
+  {
+    "name": "Qui Plume la Lune",
+    "path": "src/data/registry/tree/11/amelot/qui-plume-la-lune.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "A La Renaissance",
+    "path": "src/data/registry/tree/11/auto/a-la-renaissance.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Masaikuta",
+    "path": "src/data/registry/tree/11/auto/masaikuta.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Présent",
+    "path": "src/data/registry/tree/11/auto/present.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Brasserie Rosie",
+    "path": "src/data/registry/tree/11/bastille/brasserie-rosie.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "East Mamma",
+    "path": "src/data/registry/tree/11/bastille/east-mamma.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Jamrock",
+    "path": "src/data/registry/tree/11/bastille/jamrock.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Moonshiner",
+    "path": "src/data/registry/tree/11/bastille/moonshiner.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Osteria Gòto",
+    "path": "src/data/registry/tree/11/bastille/osteria-goto.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Petit Bao - Bastille",
+    "path": "src/data/registry/tree/11/bastille/petit-bao-bastille.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Atelier Saisonnier",
+    "path": "src/data/registry/tree/11/charonne/atelier-saisonnier.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Confluence",
+    "path": "src/data/registry/tree/11/charonne/confluence.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Dersou",
+    "path": "src/data/registry/tree/11/charonne/dersou.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Petit Nuage",
+    "path": "src/data/registry/tree/11/charonne/petit-nuage.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Café du Coin",
+    "path": "src/data/registry/tree/11/charonne-2/cafe-du-coin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Clamato",
+    "path": "src/data/registry/tree/11/charonne-2/clamato.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Écailler du Bistrot",
+    "path": "src/data/registry/tree/11/charonne-2/l-ecailler-du-bistrot.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le 6 Paul Bert",
+    "path": "src/data/registry/tree/11/charonne-2/le-6-paul-bert.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "Le Chardenoux",
+    "path": "src/data/registry/tree/11/charonne-2/le-chardenoux.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Les Déserteurs",
+    "path": "src/data/registry/tree/11/charonne-2/les-deserteurs.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Louie Louie",
+    "path": "src/data/registry/tree/11/charonne-2/louie-louie.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Mokoloco",
+    "path": "src/data/registry/tree/11/charonne-2/mokoloco.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Septime La Cave",
+    "path": "src/data/registry/tree/11/charonne-2/septime-la-cave.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Septime",
+    "path": "src/data/registry/tree/11/charonne-2/septime.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Vaisseau",
+    "path": "src/data/registry/tree/11/faidherbe/vaisseau.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "21G Dumpling",
+    "path": "src/data/registry/tree/11/faidherbe-chaligny/21g-dumpling.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Mokonuts",
+    "path": "src/data/registry/tree/11/faidherbe-chaligny/mokonuts.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Osteria Ferrara",
+    "path": "src/data/registry/tree/11/faidherbe-chaligny/osteria-ferrara.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Pianovins",
+    "path": "src/data/registry/tree/11/faidherbe-chaligny/pianovins.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Repaire de Cartouche",
+    "path": "src/data/registry/tree/11/filles-du-calvaire/repaire-cartouche.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "À Table",
+    "path": "src/data/registry/tree/11/folie-mericourt/a-table.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Acolyte de l’Insolite",
+    "path": "src/data/registry/tree/11/folie-mericourt/acolyte-insolite.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Alluma",
+    "path": "src/data/registry/tree/11/folie-mericourt/alluma.ts",
+    "suggestion": "Cuisine méditerranéenne. "
+  },
+  {
+    "name": "Auberge Pyrénées Cévennes",
+    "path": "src/data/registry/tree/11/folie-mericourt/auberge-pyrenees-cevennes.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Aujourd’hui Demain",
+    "path": "src/data/registry/tree/11/folie-mericourt/aujourdhui-demain.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bambino",
+    "path": "src/data/registry/tree/11/folie-mericourt/bambino.ts",
+    "suggestion": "Cuisine italienne (Pizzeria). "
+  },
+  {
+    "name": "Blanca",
+    "path": "src/data/registry/tree/11/folie-mericourt/blanca.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Café Méricourt",
+    "path": "src/data/registry/tree/11/folie-mericourt/cafe-mericourt.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Deux Restaurant",
+    "path": "src/data/registry/tree/11/folie-mericourt/deux.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "FIEF / Fait Ici En France",
+    "path": "src/data/registry/tree/11/folie-mericourt/fief.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Géosmine",
+    "path": "src/data/registry/tree/11/folie-mericourt/geosmine.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Gramme 11",
+    "path": "src/data/registry/tree/11/folie-mericourt/gramme-11.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Impact Berliner Kebap",
+    "path": "src/data/registry/tree/11/folie-mericourt/impact-kebap.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Jip",
+    "path": "src/data/registry/tree/11/folie-mericourt/jip.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Homme Bleu",
+    "path": "src/data/registry/tree/11/folie-mericourt/l-homme-bleu.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Melt Oberkampf",
+    "path": "src/data/registry/tree/11/folie-mericourt/melt-oberkampf.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Onze à Table",
+    "path": "src/data/registry/tree/11/folie-mericourt/onze-a-table.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Pierre Sang on Gambey",
+    "path": "src/data/registry/tree/11/folie-mericourt/pierre-sang-gambey.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Ama",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/ama.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "AMÂLIA",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/amalia.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Épopée",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/epopee.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Poggi Cup (Fontaine au Roi)",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/poggi-cup.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "RANG",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/rang.ts",
+    "suggestion": "Cuisine indienne. "
+  },
+  {
+    "name": "Vantre",
+    "path": "src/data/registry/tree/11/fontaine-au-roi/vantre.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Kai Izakaya",
+    "path": "src/data/registry/tree/11/goncourt/kai-izakaya.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Lacigne",
+    "path": "src/data/registry/tree/11/goncourt/lacigne.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Chateaubriand",
+    "path": "src/data/registry/tree/11/goncourt/le-chateaubriand.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Oobatz",
+    "path": "src/data/registry/tree/11/menilmontant/oobatz.ts",
+    "suggestion": "Cuisine italienne (Pizzeria). "
+  },
+  {
+    "name": "Le Perchoir Ménilmontant",
+    "path": "src/data/registry/tree/11/menilmontant/perchoir-menilmontant.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "YARD",
+    "path": "src/data/registry/tree/11/mont-louis/le-yard.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Acmé",
+    "path": "src/data/registry/tree/11/oberkampf/acme.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Chez Justine",
+    "path": "src/data/registry/tree/11/oberkampf/chez-justine.ts",
+    "suggestion": "Cuisine italienne (Pizzeria). "
+  },
+  {
+    "name": "Magma",
+    "path": "src/data/registry/tree/11/oberkampf/magma.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Ober Mamma",
+    "path": "src/data/registry/tree/11/oberkampf/ober-mamma.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Orgueil",
+    "path": "src/data/registry/tree/11/oberkampf/orgueil.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Osteria dell’anima",
+    "path": "src/data/registry/tree/11/oberkampf/osteria-anima.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Pierre Sang In Oberkampf",
+    "path": "src/data/registry/tree/11/oberkampf/pierre-sang-oberkampf.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "The Rigmarole",
+    "path": "src/data/registry/tree/11/oberkampf/rigmarole.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Soya Cantine Bio",
+    "path": "src/data/registry/tree/11/oberkampf/soya.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Astier",
+    "path": "src/data/registry/tree/11/parmentier/astier.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bouche",
+    "path": "src/data/registry/tree/11/parmentier/bouche.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Chulita",
+    "path": "src/data/registry/tree/11/parmentier/chulita.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Dauphin",
+    "path": "src/data/registry/tree/11/parmentier/le-dauphin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Villaret",
+    "path": "src/data/registry/tree/11/parmentier/le-villaret.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Les 3 Bornés",
+    "path": "src/data/registry/tree/11/parmentier/les-3-bornes.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Breizh Café (Paul Bert)",
+    "path": "src/data/registry/tree/11/paul-bert/breizh-cafe.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bistrot Paul Bert",
+    "path": "src/data/registry/tree/11/paul-bert/paul-bert.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Tontine (Bistrot Permanent)",
+    "path": "src/data/registry/tree/11/paul-bert/tontine.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Terrine de campagne maison & pickles",
+    "path": "src/data/registry/tree/11/proximite/le-centenaire.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Passerini",
+    "path": "src/data/registry/tree/11/proximite/passerini.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Picotte",
+    "path": "src/data/registry/tree/11/republique/picotte.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Automne",
+    "path": "src/data/registry/tree/11/richard-lenoir/automne.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Eunoé",
+    "path": "src/data/registry/tree/11/rochebrune/eunoe.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Brutos",
+    "path": "src/data/registry/tree/11/roquette/brutos.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Jones",
+    "path": "src/data/registry/tree/11/roquette/jones.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "A l’ami Pierre",
+    "path": "src/data/registry/tree/11/roquette/l-ami-pierre.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Lissit",
+    "path": "src/data/registry/tree/11/roquette/lissit.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Louloute",
+    "path": "src/data/registry/tree/11/roquette/louloute.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Pause Café",
+    "path": "src/data/registry/tree/11/roquette/pause-cafe.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Recoin",
+    "path": "src/data/registry/tree/11/roquette/recoin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Sama Bistro",
+    "path": "src/data/registry/tree/11/roquette/sama-bistro.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Street Bangkok (Bastille)",
+    "path": "src/data/registry/tree/11/roquette/street-bangkok.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Superfine",
+    "path": "src/data/registry/tree/11/roquette/superfine.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Tagine",
+    "path": "src/data/registry/tree/11/roquette/tagine.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Tarántula",
+    "path": "src/data/registry/tree/11/roquette/tarantula.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Track 119 (Deb’s Street Food)",
+    "path": "src/data/registry/tree/11/roquette/track-119.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Brasserie Martin",
+    "path": "src/data/registry/tree/11/saint-ambroise/brasserie-martin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Martin (Boire et Manger)",
+    "path": "src/data/registry/tree/11/saint-ambroise/martin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Goyavier",
+    "path": "src/data/registry/tree/11/saint-bernard/goyavier.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Chanceux",
+    "path": "src/data/registry/tree/11/saint-maur/chanceux.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "El Comal",
+    "path": "src/data/registry/tree/11/saint-maur/el-comal.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Erso",
+    "path": "src/data/registry/tree/11/saint-maur/erso.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Alicheur",
+    "path": "src/data/registry/tree/11/saint-maur/l-alicheur.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Buvette",
+    "path": "src/data/registry/tree/11/saint-maur/la-buvette.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Servan",
+    "path": "src/data/registry/tree/11/saint-maur/le-servan.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Reyna",
+    "path": "src/data/registry/tree/11/saint-maur/reyna.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Trâm 130",
+    "path": "src/data/registry/tree/11/saint-maur/tram-130.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Au Passage",
+    "path": "src/data/registry/tree/11/saint-sebastien/au-passage.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Machizo",
+    "path": "src/data/registry/tree/11/saint-sebastien/machizo.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Gourou",
+    "path": "src/data/registry/tree/11/voltaire/gourou.ts",
+    "suggestion": "Cuisine indienne. "
+  },
+  {
+    "name": "Maison Sota Atsumi",
+    "path": "src/data/registry/tree/11/voltaire/maison-sota.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Godaille",
+    "path": "src/data/registry/tree/12/auto/godaille.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Table Bruno Verjus",
+    "path": "src/data/registry/tree/12/auto/table-bruno-verjus.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Le Baron Rouge",
+    "path": "src/data/registry/tree/12/bastille/auto/le-baron-rouge.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le poisson d’Aligre",
+    "path": "src/data/registry/tree/12/bastille/auto/le-poisson-d-aligre.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Mazette",
+    "path": "src/data/registry/tree/12/gare-de-lyon/le-mazette.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Dalou",
+    "path": "src/data/registry/tree/12/nation/auto/le-dalou.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Tang Gourmet",
+    "path": "src/data/registry/tree/13/auto/tang-gourmet.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Lancetta",
+    "path": "src/data/registry/tree/13/place-d-italie/lancetta.ts",
+    "suggestion": "Cuisine italienne (Pizzeria). "
+  },
+  {
+    "name": "L’Empreinte",
+    "path": "src/data/registry/tree/14/alesia/empreinte.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Régalade (Origins 14)",
+    "path": "src/data/registry/tree/14/alesia/la-regalade.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Auberge du Moulin Vert",
+    "path": "src/data/registry/tree/14/alesia/moulin-vert.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Ordonnance",
+    "path": "src/data/registry/tree/14/alesia/ordonnance.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Les Petits Parisiens",
+    "path": "src/data/registry/tree/14/alesia/petits-parisiens.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Wonderland Patisserie",
+    "path": "src/data/registry/tree/14/alesia/wonderland.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Zeyer",
+    "path": "src/data/registry/tree/14/alesia/zeyer.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Restaurant Korean Barbecue",
+    "path": "src/data/registry/tree/14/auto/restaurant-korean-barbecue.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Café du Rendez-Vous",
+    "path": "src/data/registry/tree/14/denfert/cafe-du-rendez-vous.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Augustin",
+    "path": "src/data/registry/tree/14/denfert-rochereau/augustin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Baladna",
+    "path": "src/data/registry/tree/14/denfert-rochereau/baladna.ts",
+    "suggestion": "Cuisine méditerranéenne. "
+  },
+  {
+    "name": "Café du Rendez-Vous",
+    "path": "src/data/registry/tree/14/denfert-rochereau/cafe-rendez-vous.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "I Grappoli",
+    "path": "src/data/registry/tree/14/denfert-rochereau/grappoli.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Crêperie de Pont-Aven",
+    "path": "src/data/registry/tree/14/edgar-quinet/creperie-de-pont-aven.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Jazz Café Montparnasse",
+    "path": "src/data/registry/tree/14/gaite/jazz-cafe-montparnasse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Plomb du Cantal",
+    "path": "src/data/registry/tree/14/gaite/plomb-du-cantal.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Tripletta Gaité",
+    "path": "src/data/registry/tree/14/gaite/tripletta.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "Umami Burger",
+    "path": "src/data/registry/tree/14/gaite/umami-burger.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Bistrot du Dôme",
+    "path": "src/data/registry/tree/14/montparnasse/bistrot-du-dome.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Closerie des Lilas",
+    "path": "src/data/registry/tree/14/montparnasse/closerie-des-lilas.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Les Grillades de Buenos Aires",
+    "path": "src/data/registry/tree/14/montparnasse/grillades-buenos-aires.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Duc",
+    "path": "src/data/registry/tree/14/montparnasse/le-duc.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Petit Sommelier",
+    "path": "src/data/registry/tree/14/montparnasse/petit-sommelier.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "A Mi-Chemin",
+    "path": "src/data/registry/tree/14/pernety/a-mi-chemin.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Cantine du Troquet Pernety",
+    "path": "src/data/registry/tree/14/pernety/cantine-du-troquet.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Cerisaie",
+    "path": "src/data/registry/tree/14/pernety/cerisaie.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Entrepôt",
+    "path": "src/data/registry/tree/14/pernety/entrepot.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "Le Moulin de la Vierge",
+    "path": "src/data/registry/tree/14/pernety/moulin-de-la-vierge.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "Papy aux Fourneaux",
+    "path": "src/data/registry/tree/14/pernety/papy-aux-fourneaux.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Saut du Crapaud",
+    "path": "src/data/registry/tree/14/pernety/saut-du-crapaud.ts",
+    "suggestion": "Cuisine méditerranéenne. "
+  },
+  {
+    "name": "Boulangerie L’Essentiel",
+    "path": "src/data/registry/tree/14/proximite/essentiel-boulangerie.ts",
+    "suggestion": "Gastronomie bio. "
+  },
+  {
+    "name": "L’Imprévu",
+    "path": "src/data/registry/tree/14/proximite/imprevu.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Assiette",
+    "path": "src/data/registry/tree/14/proximite/lassiette.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Cornichon",
+    "path": "src/data/registry/tree/14/proximite/le-cornichon.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Opportun",
+    "path": "src/data/registry/tree/14/proximite/opportun.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Pavillon Montsouris",
+    "path": "src/data/registry/tree/14/proximite/pavillon-montsouris.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Les Petits Plats",
+    "path": "src/data/registry/tree/14/proximite/petits-plats.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Severo",
+    "path": "src/data/registry/tree/14/proximite/severo.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Verre Siffleur",
+    "path": "src/data/registry/tree/14/proximite/verre-siffleur.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Chez Papa Montparnasse",
+    "path": "src/data/registry/tree/14/vavin/chez-papa-montparnasse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Dôme Montparnasse",
+    "path": "src/data/registry/tree/14/vavin/dome-montparnasse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Coupole",
+    "path": "src/data/registry/tree/14/vavin/la-coupole.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Manifattura",
+    "path": "src/data/registry/tree/14/vavin/la-manifattura.ts",
+    "suggestion": "Cuisine italienne (Pizzeria). "
+  },
+  {
+    "name": "Le Select",
+    "path": "src/data/registry/tree/14/vavin/le-select.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Rotonde Montparnasse",
+    "path": "src/data/registry/tree/14/vavin/rotonde-montparnasse.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Chakaiseki Akiyoshi",
+    "path": "src/data/registry/tree/15/auto/chakaiseki-akiyoshi.ts",
+    "suggestion": "Cuisine japonaise. "
+  },
+  {
+    "name": "Guillaume Grasso",
+    "path": "src/data/registry/tree/15/auto/guillaume-grasso.ts",
+    "suggestion": "Cuisine italienne. "
+  },
+  {
+    "name": "L’Accolade",
+    "path": "src/data/registry/tree/15/auto/l-accolade.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Retraite du Père Claude",
+    "path": "src/data/registry/tree/15/auto/la-retraite-du-pere-claude.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Bélisaire",
+    "path": "src/data/registry/tree/15/auto/le-belisaire.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le CasseNoix",
+    "path": "src/data/registry/tree/15/auto/le-cassenoix.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Grand Pan",
+    "path": "src/data/registry/tree/15/auto/le-grand-pan.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Neige d’Été",
+    "path": "src/data/registry/tree/15/auto/neige-d-ete.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Baribal",
+    "path": "src/data/registry/tree/15/vaugirard/le-baribal.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bellefeuille",
+    "path": "src/data/registry/tree/16/auto/bellefeuille.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Blanc",
+    "path": "src/data/registry/tree/16/auto/blanc.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Oiseau Blanc",
+    "path": "src/data/registry/tree/16/auto/l-oiseau-blanc.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Pré Catelan",
+    "path": "src/data/registry/tree/16/auto/le-pre-catelan.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Shang Palace",
+    "path": "src/data/registry/tree/16/auto/shang-palace.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Substance",
+    "path": "src/data/registry/tree/16/auto/substance.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le 17.45 Batignolles",
+    "path": "src/data/registry/tree/17/auto/le-17-45.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bon Jo",
+    "path": "src/data/registry/tree/18/auto/bon-jo.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Brasserie Barbès",
+    "path": "src/data/registry/tree/18/auto/brasserie-barbes.ts",
+    "suggestion": "Cuisine de brasserie. "
+  },
+  {
+    "name": "L’Arcane",
+    "path": "src/data/registry/tree/18/auto/l-arcane.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "L’Été en Pente Douce",
+    "path": "src/data/registry/tree/18/auto/l-ete-en-pente-douce.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "La Mascotte Montmartre",
+    "path": "src/data/registry/tree/18/auto/la-mascotte-montmartre.ts",
+    "suggestion": "Cuisine de brasserie. "
+  },
+  {
+    "name": "Le Coq & Fils - the Poultry House",
+    "path": "src/data/registry/tree/18/auto/le-coq-fils-the-poultry-house.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Moulin de la Galette",
+    "path": "src/data/registry/tree/18/auto/le-moulin-de-la-galette.ts",
+    "suggestion": "Cuisine de brasserie. "
+  },
+  {
+    "name": "Popine Sacré Coeur",
+    "path": "src/data/registry/tree/18/auto/popine-sacre-coeur.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Sacrée Fleur",
+    "path": "src/data/registry/tree/18/clignancourt/sacree-fleur.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Le Maquis",
+    "path": "src/data/registry/tree/18/cloys/le-maquis.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Bulot Bulot Seafood Bar",
+    "path": "src/data/registry/tree/18/martyrs/bulot-bulot.ts",
+    "suggestion": "Cuisine française. "
+  },
+  {
+    "name": "Dilia",
+    "path": "src/data/registry/tree/20/menilmontant/dilia.ts",
+    "suggestion": "Cuisine italienne. "
+  }
+]

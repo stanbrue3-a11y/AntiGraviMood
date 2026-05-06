@@ -5,7 +5,7 @@ export const gramme_11: SurgicalPlace = {
     name: "Gramme 11",
     slug: "gramme-11",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['fusion'],
     location: {
         address: "96 Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -74,19 +74,34 @@ export const gramme_11: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVAkGidY2nObheNCeImtV0vjBNb_W4bF3qFERk1SUNuhxGCle8cfQiSSFdRiXiwNNM0eQKAshfTOM_h5dP5LQ7uGmXdyHKZ7StYuZM8KXxmgkMsV0LDnWzi5MX5d-KUbtHnFT-JFlYSvL7jD2WIMGyy-g7RXKBlq-UjYNtMhp88XkFXd2mDcvak8aRDv6xmlfyl3ds55A6RWItSvOvNTlJwo0cAu6Y7cio0fuysME4g2qqesrMMLPT2G19sjqoPRKo4PFcx3n3NVDXYwrL6BIHkUiUr4coGmLzWHBKgnF7igjKH-o81A0efFg_wY75qoakiJ-zMnUrCofeVkq4Rocahd3TulDvln6abw3o01iNvPWJQD1J8ymv1k6T98_J6xsz8FoWt5foqY70dA6gzBH_g3cUfyJ762DqBeCw4vGk0sV2_dgkmVxGJuHr45jrta1UpD55tpROzahZEJHbu6or7jhrWPMm3XitdwalDJQNniM5H-JRf5mvPTTBOb92kexkzOpP30Gzt6MoxktxpZ-eTUPXvQNGpuwINeeIbkVSYr8SVZiYHzRfB_cXvqWDM33EgBI4k&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/gramme-11/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Gramme est bien plus qu’une cantine, c’est une véritable institution de la rue Jean-Pierre Timbaud. On y vient pour un brunch créatif le dimanche, ou pour un lunch sain et gourmand en semaine. Tout est fait maison avec des produits sourcés en circuit court : des banh mi revisités aux pancakes au kimchi, en passant par leur pâtisserie réconfortante. L’espace est chaleureux, boisé et respire la convivialité parisienne.",
     insider_tip: "• Les pâtisseries du dimanche changent chaque semaine, arrivez tôt pour le brunch ! (Pas de résa).\n• Le Banh Mi de chez Gramme est devenu une référence absolue dans le quartier.\n• Leurs pickles maison sont une petite addiction à ramener chez soi.",
     expert_catchline: "La néo-cantine iconique du 11ème, temple du brunch créatif et du fait-maison.",
     specials: {
-        cuisine: ["Cuisine réconfortante", "Circuits courts", "Brunch créatif", "Banh Mi signature"],
+        cuisine: ["Cuisine d'auteur"],
         drinks: ["Café de spécialité (Lomi)", "Jus pressés", "Vins de soif"],
-        must_eat: "Le Gramme’s Banh Mi, une relecture ultra-gourmande sur pain brioché.",
+        must_eat: "Cuisine créative (Banh Mi). Le Gramme’s Banh Mi, une relecture ultra-gourmande sur pain brioché.",
         must_drink: "Un Flat White parfaitement exécuté avec les grains du torréfacteur Lomi."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine créative (Banh Mi). Le Gramme’s Banh Mi, une relecture ultra-gourmande sur pain brioché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

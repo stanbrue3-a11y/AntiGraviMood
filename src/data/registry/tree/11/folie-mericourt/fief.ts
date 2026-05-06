@@ -74,12 +74,16 @@ export const fief: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW83cfHeo0lxLGDOMK5P74CLD7_pK5zZ-hnG_rrWlMyurv03cVWD58jExUj6hM6EQ0GK9HWee2zivpPcfFtAHtoH9pEpjShVcM3fPu95M3DAW5CKYcHyrpGE6d6FKC4jh7z3KQwlIzeONs6R14mVggqVheqkx2nZwhUZWhiFjO-UGxcwDS7DpOO1Lc01SffCKPpOHdpInaKRyTKWRK_UkhVEB1wZCZxSDr7DJigyswJVaN4tpP6-VHjXFhvy35YdDcpXX6rYuyIYx8XDYzSYFwb6awhKudaRtMR5Ul-FqK-rw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfULyDap0t_rTa8RS9m4tI2k-rJajMRMbt1HWMyC1zhNEClECeoJ_-Lwf1f9GzSfkNNea14sYuexOv5KqHKNvTLi0gsNfBuL9ETGdvdQLVJib_WdJBG1mm8ayujpo5z3N5CTJB8XezhdmYOlQH-td9wW_jzte5YalAh47K9L0cN39jf50o3MXdzN8M4OYoQDNsrI0ShSTRYcNFSxjU8QMFXWSvzDYmxCiWAaBYEaH7TEVW2RC--AXJGV22ISsgjlN59WU6_0_96rbvSI255TftNc1prP1RA9r97OxZ4z6KGAGg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fief/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "fiefrestaurant",
     michelin_stars: 1,
     verified: true,
@@ -89,9 +93,18 @@ export const fief: SurgicalPlace = {
     insider_tip: "• Réservez le comptoir à 20h pour vivre l’expérience ’Grand Menu’ (10 temps) face à la cuisine ouverte.\n• Testez le ’Cafief’ en fin de repas : une infusion céréalière bluffante qui remplace le café traditionnel.\n• Le menu Amour Végétal est l’un des plus aboutis de Paris pour les amateurs de gastronomie végétale.\n• Pensez à réserver plusieurs semaines à l’avance pour le soir.",
     expert_catchline: "L’étoile militante de Victor Mercier : une gastronomie 100% française, durable et époustouflante.",
     specials: {
-        cuisine: ["Menu 10 Temps au comptoir", "Cuisine 100% française", "Infusions de céréales (Cafief)", "Techniques de fermentation"],
+        cuisine: ["Français"],
         drinks: ["Vins de vignerons hexagonaux", "Accords sans alcool artisanaux", "Spiritueux français"],
-        must_eat: "L’esturgeon soufflé avec sa sauce au lait fumé et caviar : un plat de haute volée qui illustre la perfection technique du chef.",
+        must_eat: "Cuisine française. L’esturgeon soufflé avec sa sauce au lait fumé et caviar : un plat de haute volée qui illustre la perfection technique du chef.",
         must_drink: "Les accords sans alcool (infusions, kéfirs) sont pensés avec la même exigence que les plats."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’esturgeon soufflé avec sa sauce au lait fumé et caviar : un plat de haute volée qui illustre la perfection technique du chef.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

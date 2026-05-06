@@ -13,6 +13,7 @@ export const bloom_cafe: SurgicalPlace = {
     "location": {
         "address": "99 Rue Jouffroy d’Abbans",
         "arrondissement": 17,
+        google_id: "TODO",
         "lat": 48.881949,
         "lng": 2.301809,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const bloom_cafe: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2LYNSBYNgim2bagNnvfGQk2FHz1HUwVn-7NAoQhEheGur6R271QH9rK_RAQ_qzae6Pm37v7mH7JyAJf5WXJQhk90pa0ZawDzjYja5WITIDS1tVJ_gNISG4FlSSOyPUNxIEqjyRCTUvv_Xw-t0_UNifpXOxz4PGizR1ARwV6bFWfWx8g8OobdlgXH5twJfX0U5CemHSaKaVZPOgS2PuFiGriz_snUDivo7MoM8-X6A7OimtigagpadfRk_Z2TU_ccljXz9o1aKjQAbnYAv69FXIB_pyJC8opqMENx6zASeDuw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bloom-cafe/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Healthy-cafe. Bloom.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

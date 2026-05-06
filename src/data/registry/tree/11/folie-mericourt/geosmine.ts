@@ -5,7 +5,7 @@ export const geosmine: SurgicalPlace = {
     name: "Géosmine",
     slug: "geosmine",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['gastronomique'],
     location: {
         address: "71 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -76,13 +76,16 @@ export const geosmine: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWnGS_-X9JqNcE4K7QcSITivfz0lLczi8-sGHlnk9ght6YGxyRtGUV2faqUdJ470P0KEFYAlYwS7vkbKS5lwcPxvvamJKotS_Qd0iQpFP9TA_YMwrtPgVJXLsQ-M7L55Vn7E7XOO6gHo-mlu-SPvFy8X9g4fqiNo_E_AyAHo82YzfSogCeOOm8Z4b0UhMS4gfJD9MpKhh6XEUkyjP5xuIGE0eZnT-1IG6uQi9Imvkz5tBzld0HvvzpzaS_Z2ylTGFekrJxDhwfWInuyjodpJy1Ld4A1kkj8Wu4_XPr5gDV9LUJ4pN6QcgIymw-frhviZ8KTEaIlWx1i-wLKwntZdTU_HE_vOiQytYbA6PzzscAUexEfLPaIwTyVgrJVZMGtGp9Rf6VTzalHISP4YVHRp-wuiMU5i2q7irjAdG3AWoE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUCev7uJmC-p5cIgmRxCC4XrvR7fN_zUOrKwyyP5KeobldZ6Y4-s6ApjIWsdWl3YZvI7yOKwEOgOclZh7k3Q7EgwkwhaO-PRdlqnVjGilS-v0eXvFFS7VaM_BpVakvYFeVn9lS_iX0y5O8ML4dFpleUCoixmPrIh9nWqE_wF43DButImzZbs6FaUVv4y5BWEl3vQgglOmmaz_XFZ2ooCYEWMrOt6HprL8nuL-rlgfqt0rJNV-JN--zh6_zgFXsYxDZpDZ8cFhPMBG2ywv1n15U6PlC-WmsWd5Yfi1WNKPGOvQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXttMkBosc8hvTSCDclC9fCFa_0GDsY_OxrHDkBrP4VHx7N4t1JfHd2twU-pt-lO6LskZxUHIh-bA-l5J-dllzb7_0h60YbHh9i7UYJShtbS9u4DkdiZZB06CC8RSB2B61trlcChd8ipk2gvsOR4QtHFZUsWZvFGGoWxCrzZ6Bqe4bUqOLspy_jrrLSFM7aiZOwWbWQXKPrHyFZki7GdDVcSEjMgA15gxisdsD9DtSNlJoiu0AqcDEt5ECMxfbY1immZeahLK8Ni3oO_iJFIfsmZq_BfVSfmGgk12HKHChfKm0Cz5i0OXUn8HjkL88ajJjfG8Q7gQGRfQ_j7BwhFiwV8gQTARxhHQXi1UeVpvhZghCsLYmmwKtZFSJNlGMVVX9N7BPvcWdE_vjxBNMZenl4keQk4OFWe5RndqQdcqag4g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geosmine/gallery_4.jpg"
+    ]
+  },
     michelin_stars: 1,
     verified: true,
 
@@ -91,9 +94,18 @@ export const geosmine: SurgicalPlace = {
     insider_tip: "• C’est l’une des tables les plus recherchées de Paris (1 étoile Michelin), anticipez la réservation plusieurs semaines à l’avance.\n• Préférez le menu en 11 étapes (140€) le soir pour mesurer l'étendue du talent de Maxime Bouttier.\n• La carte des vins est un terrain de jeu fabuleux, laissez le sommelier vous guider sur des pépites natures ou biodynamiques rares.",
     expert_catchline: "Haute gastronomie brutaliste (1 étoile Michelin) menée de main de maître par le jeune prodige Maxime Bouttier.",
     specials: {
-        cuisine: ["Menu Dégustation en 11 étapes", "Cuisine brutaliste et poétique", "Ris de veau croustillant", "Cuissons maîtrisées au cordeau"],
+        cuisine: ["Gastronomie"],
         drinks: ["Grands crus de Bourgogne", "Sélection pointue de vins natures", "Accords Mets & Vins sur-mesure"],
-        must_eat: "L’agneau servi avec des pleurotes grises et un jus au sang d'une intensité folle.",
+        must_eat: "Haute gastronomie. L’agneau servi avec des pleurotes grises et un jus au sang d’une intensité folle.",
         must_drink: "Les accords mets & vins (souvent audacieux, incluant saké ou cidre) sont pensés comme une extension du plat."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. L’agneau servi avec des pleurotes grises et un jus au sang d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

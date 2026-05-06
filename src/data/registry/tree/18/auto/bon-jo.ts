@@ -5,7 +5,7 @@ export const bon_jo: SurgicalPlace = {
   slug: "bon-jo",
   name: "Bon Jo",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['café'],
   location: {
     address: "10 Rue Lamarck, 75018 Paris, France",
     arrondissement: 18,
@@ -69,16 +69,31 @@ export const bon_jo: SurgicalPlace = {
   description: "Niché au pied du Sacré-Cœur, Bon Jo est l’escale brunch par excellence du 18e. Entre influences australiennes et élégance parisienne, ce café baigné de lumière propose une carte courte mais ultra-maîtrisée, où le café de spécialité côtoie des assiettes généreuses. Un lieu calme et serein, loin du tumulte touristique de la place du Tertre.",
   insider_tip: "• **Timing Stratégique** : Arrivez pile à l’ouverture (09h30) le week-end, le lieu est petit et se remplit en 15 minutes.\n• **Combo Gagnant** : Les Baked Eggs suivis du French Toast Banana Caramel forment l'unité de satiété absolue.\n• **Détail Secret** : Demandez la table près de la fenêtre pour la vue discrète sur les toits de Montmartre.",
   specials: {
-    cuisine: ["Australienne", "Brunch", "Healthy"],
+    cuisine: ["Brunch"],
     drinks: ["Flat White", "Matcha Latte", "Mimosa"],
-    must_eat: "Brunch maison. Salmon Avocado Toast & Baked Eggs",
+    must_eat: "Cuisine de café. Brunch maison. Salmon Avocado Toast & Baked Eggs",
   },
-  images: {
-    hero: "AU_ZVEECXyC3ec5DAhvABLT7HHs9ik2txrio2jmt3FO2FH1bstejHjmIMFiQdlBwtEw1PuM2kA28_yggVcQerRODtOCLSa3MWPF-sbrnOg6l4at8bm6YD4QlE82oLb4cbj82U6Gz-CBhgxFuh9xFwrrjcoB-_3mG9oKjmyUp1pfJSbPxCgDNywNC-RDiprrMNIqaJU2a6k3MswO3h9IHa3eH1d-_4VTJ2G3FWbDf8Fju8nGCbbdR931K7oOQEiiD5N-cOZmDiWNqzjERLxFw5qtH_acjkaoAMB__tPs96fG7ae04yw",
-    gallery: ["AU_ZVEEqJyGIyNz3ZTRZyv_WoEJBlgQnn_m1pCCM9wXSUX6kDPtdkFRpDNmvmh-HNE1snsBHgNsSj0nvwOC0LwX8N39grRCg8JSJahaGd8-C3IGdladz7T7v1nxrnBGRYgZ6x3s65RV_l45SlKASCwUatLxkXaAPdTQorN1a6GuFCMqlGUHR0PG3m2ia5xC0VIwwSRoe734Pp5ZmZoxGIVz6JEeM9s41o283YNxHUKZrfRkw_jn7Fb-IUpukd9yCG0UpToY8624KLab76f36wWCRBjDlMSxRKw-axPaKcZ-xISYLEg","AU_ZVEHaqIvuLVkeCwbgxgJws0CWLLA6wCex8SiXjGCAEY8b5yJQLbs3E3Nj0CvFF3zk95CQbPNHi9XacZlHuQFdD_7ZCwCVUYWaTp2inkO21xWae0tsxcO2T0QEbL0f83PWZdmdQj-pFGz9vJyz4TaNYGgnU7LzcFbHDzs08wC2wBkC6zXpygzlTImQxuodixSoKgVXn-IzUiqBqj42H0ItGlDR7bHCtN5g1-nOFNvU9h2vtLN5Y1eQ8Kh5HlbgCwhdFGVGkAqtDhjNzB_H0jcVxBxqdPYw2kWgFEB1YHFT2dNJBQ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bon-jo/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de café. Brunch maison. Salmon Avocado Toast & Baked Eggs",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default bon_jo;

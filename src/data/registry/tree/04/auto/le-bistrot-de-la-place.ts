@@ -5,7 +5,7 @@ export const le_bistrot_de_la_place: SurgicalPlace = {
   slug: "le-bistrot-de-la-place",
   name: "Le Bistrot de la Place",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "2 Pl. du Marché Sainte-Catherine, 75004 Paris, France",
     arrondissement: 4,
@@ -42,22 +42,37 @@ export const le_bistrot_de_la_place: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  expert_catchline: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  insider_tip: `• **Timing Stratégique** : Arriver au moment de l'ouverture pour savourer le calme du lieu.
+  • **Combo Moelle** : La suggestion du jour accompagnée d'une boisson artisanale.
+  • **Expérience Culturelle** : Une immersion dans l'ambiance unique de ce quartier historique.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Bistronomie"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de bistrot. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEGw33RPPrZ3aVzpHM-6bPzA9UMbgFsgpi2Ek2sy-YKB2kzf3nuq4JRAamZwMasCeKbIMwOjCbwg-NhUbu8_3uIAhWVa8VfArgsaW2G6yBzE86cCTskJOZvx4iqHjSRssXM3lsiWzkRb6nRT8UlF8wX9yHB_ED1hOilaGODEScK8Eb6CX7uQNY29h94RGVyQQ3IxR1GUyPqT_-8v5B7JRNrsse3SPN46c2M1f9Lju7cmbjLO7mVI0S8h7i9TICTgPurgwGJI_rr9JqZOgnhEJcYTGCm9IeIBiC0_j1FzVgw-qQ",
-    gallery: ["AU_ZVEHtWrWP7wz9WfWJGKfe2CPZuuZSuPXacb2vkRSOxN_MV3sNTNsWHaqF2nYyPfiT6IOvFuaoNAPPJQgAGCuHHTAVJS0SdwtxQI69Vi-wX_gP-LDcr5zRGvcza6XOVJCQp7bRHHeD1F4pMhH4D-IQWsot-qpDUN81zBEFB7pOdil_CRcesJWp5vstavWUxGhlM5uGGP5l6PTmwBOmbosVfiAxZcIQY_vpLNmGSy7KaE32ui76AV6ss7PZONn4WFSPv3ENuRNk7FB-5bUCbcY4au58uzuFvOp6enniz6euw0KF3w","AU_ZVEFPYen0K06839sqrDZcYyLyqnRmZNbMcAcZ2GmbDLQV1mwDMLw0Xy0fnFAUAz5FIbhIaXLFgmOpLoTonaT2AW7gbIy3rTdnpc2d1x6fPHF0AXK5PZpN3LF-9D6YlSkU1kaedXt8NJdm2Ucy8fXh0t8gnilPxqWs_6UTIEtXcYM2Xfu-OUdCtEO2_x9m31EFim-viNplOWWTFyEG-1LJ0IAfflzh4eYZJly6seo_5d0Su5d3gDEixtExwjR2B94-awxh4XzklWXRvShi2I7z4KFlUsTgVVMdaJtNR29PSbvrPB_LcyoVTpa-X4icaNk2WpbtNpbIp4KiqO1MRrTdJc1gPv3GMuQDvAVSiQ1l1qWxSXmsSClEVp2pMlIqGUX7jIIR_nF1Zw8LatMVlrfaZhNILz8P2PzPSihE8wTmvOV68NKJvVo6xGCQUwYI7bUS"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-de-la-place/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4
+  google_rating: 4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_bistrot_de_la_place;

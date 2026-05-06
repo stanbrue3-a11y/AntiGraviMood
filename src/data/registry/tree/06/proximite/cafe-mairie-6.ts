@@ -13,6 +13,7 @@ export const cafe_mairie_6: SurgicalPlace = {
     "location": {
         "address": "8 Pl. Saint-Sulpice",
         "arrondissement": 6,
+        google_id: "TODO",
         "lat": 48.851508,
         "lng": 2.333704,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const cafe_mairie_6: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2JDuek-ln89-E_SUGymbhUaPdkWSLRqVw8LWGd5TKnqoRaQBrI9XPhZ3NTqRTLN4u8Uo_B51ULmppc7RdP2pMGaR8gEmh0xDljfMe9w2RWzT6ZGUdchdlbhN_u0E-JBbVqv7wfaT3tMjKUyuppUXteNZ4R_k6jKK_9bD098gI9sIESWQA8dM6YSfj549xLg-fj4ruK47Tnx80eld8qV6noYug6tzTwzfo5Q3ae3ERmtZiMWEzQs6TmxE-JDmlLMMGc0K2SdhnNfc_EM0P0VdYcrEZAWVkGirHmO_5hljAp6w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-mairie-6/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-terrasse. Café de la Mairie.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

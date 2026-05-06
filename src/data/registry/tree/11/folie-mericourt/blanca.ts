@@ -5,7 +5,7 @@ export const blanca: SurgicalPlace = {
     name: "Blanca",
     slug: "blanca",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['argentin'],
     location: {
         address: "34 Rue Keller",
         arrondissement: 11,
@@ -81,19 +81,34 @@ export const blanca: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX0_lb1ej2IUqsCLSS9GkQET3s7fw-XK2eD7YV_vUP6-A-7F5Wt8XFbERFGcl4U3es2ZjBew7bsaUn91ZYOIkQV_E_kVdBbJYLOlCsWhX2QU7pYZiABLIIAAUf54jOGsX6Z9d0tK-pNjQ7m_I_qNNmlxmfL83HV_P7nH9bIJ8z70-s5B2zKSWdcRtOZiaBK0NEdXOvSKTgM4w4Tzo9QmTBn3Ug3h05W-x1rskUNe6uS_ij2CiFQ0x6fpLRgrIsFqu8patlaXx8VSTbi9lDrDG8S4a3us8dwjZ6AUf_ii30&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/blanca/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Blanca est l’hommage vibrant de Fernando de Tomaso et sa sœur Violetta (du Servan) à leur grand-mère basque émigrée en Argentine. Dans ce bistrot intime de la rue Keller, la cuisine fusionne avec brio l’âme du Pays Basque et la puissance des grillades argentines. Les viandes sont sourcées avec une exigence folle et cuites à la perfection, tandis que les empanadas et le flan au dulce de leche rappellent les saveurs d’enfance. Une table d'une justesse rare.",
     insider_tip: "Le flan au dulce de leche est l’un des meilleurs de la capitale : ne quittez pas la table sans l’avoir goûté. Le midi, la formule est l’un des meilleurs rapports qualité-prix du quartier.",
     expert_catchline: "Le trait d’union parfait entre le Pays Basque et l’Argentine, porté par la passion d’une famille.",
     specials: {
-        cuisine: ["Grillades argentines", "Inspiration basque", "Bistronomie de feu"],
+        cuisine: ["Argentin"],
         drinks: ["Grands vins d’Argentine", "Cidre basque"],
-        must_eat: "L’Entraña avec sa chimichurri maison et le Flan au Dulce de Leche.",
+        must_eat: "Cuisine argentine. L’Entraña avec sa chimichurri maison et le Flan au Dulce de Leche.",
         must_drink: "Un Malbec puissant pour accompagner la viande rouge."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine argentine. L’Entraña avec sa chimichurri maison et le Flan au Dulce de Leche.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const bambino: SurgicalPlace = {
     name: "Bambino",
     slug: "bambino",
     category: "restaurant",
-    subcategory: ['français', 'pizzeria'],
+    subcategory: ['italien'],
     location: {
         address: "25 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -84,19 +84,34 @@ export const bambino: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVqLYejImDyULcEHVlHKUKAsvN9bQi7vWMtr7PLNr48JCB46b9Wmu-Fr943sPaCozYIiPi2opxqwyuamYqhtZMWlsgXL-QLitAYndUL8J-BajllqgwbdzsXKSub3wTrTESsdiMWhCGfIvS8itD6BH-inhmBtZzp42jgjAweXzT5wrStwUz33HAeQAU70Hd0VOEq28j5t5LZk2C6wUhN7u_-rBaMrZKO2P7Cn0vw_aqRElniHEfBrbaChObxjw9MWpupQG0S5aHa9memR4WhxGsy3xQFpuqsuqG3uwu3AxQ2XA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bambino/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Inspiré par les bars à vin de Tel Aviv et les jazz kissa japonais, Bambino est un lieu hybride unique. Entre mur de vinyles, système son audiophile et cuisine ouverte au feu de bois, l’ambiance y est électrique. On y déguste des pizzas d'une finesse folle et des petites assiettes aux influences levantines dans un nuage de funk et de jazz.",
     insider_tip: "Ne manquez pas le brunch du dimanche, plus calme mais tout aussi savoureux. Pour le soir, arrivez à l’ouverture (19h) car l'endroit ne prend pas de réservations et se remplit en 15 minutes.",
     expert_catchline: "Vinyles, vin nature et pizzas au feu de bois dans un temple audiophile.",
     specials: {
-        cuisine: ["Pizzas artisanales", "Levantine tapas", "Audiophile experience"],
+        cuisine: ["Italien"],
         drinks: ["Natural wines", "Craft cocktails", "Premium audio system"],
-        must_eat: "La pizza Bambinita avec sa burrata crémeuse.",
+        must_eat: "Cuisine italienne. La pizza Bambinita avec sa burrata crémeuse.",
         must_drink: "Un Negroni en écoutant un pressage original de Fela Kuti."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La pizza Bambinita avec sa burrata crémeuse.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

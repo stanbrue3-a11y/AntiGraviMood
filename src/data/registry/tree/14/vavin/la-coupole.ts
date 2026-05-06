@@ -86,22 +86,34 @@ export const la_coupole: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVoKjv6Kck_FbOSqbYEOYsshR2onLTeRIV_CdIm6o7lxH3CPv5-tGhnVy-fIsJ5eXeXjcjFOtIn9D_m5zPT4dff0cpcOdr2zwPzC5F1DYQdStfpcyi2h9C9GAAy0wYdpzyulB61vPent3xdWd7SqH-rcYPDaPxWQRzlq-Z7KVcPQyP1JfP6TXVl2uZQAOL8HI34jW909t57BERBJAlOH5lH1F7IJ1Dp6g3mSbW87Kzh-zw9RXxso43rxQzKH_j5KmPV2et63rkg49EDsk8juZbpn4RBtxoj5-lttIzu8EFODQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVR-WGolHwHSYHeXJE1O2h1NC6cyCkf9dVqwTZ3xV4JUFUdt8SwSPjZbnhzSMTsufKgM7NLvWdlOefjbMWjmROg-3cWQpTo2gBrC9M9iw-dpR0Q_y2P4slgU9552LiGJL4UyOFcGnnTq8Zbja7SanT8UfheMH5KMAx6AfbROYo7Ezs1ATy0_wvjr4uiR-3JRRSXd-r5ITWSashygrxc9rRCJkoSYZplU80l351_2SN7WTz80HLeyCke6jZb2QC270fPC8UEWY8hvcS87ikROuOwi8HmKIBrPaOwtQi9wScgdRFQhxNvFbpnsvFEnea4x1KpHSMBsJkd29tRNh6jAmygg8Q_no_id1fd5gVjdJ-NyCgPWKMy3g7CIAcvvrJ29bXSzGZ_Gmd9hIAMqOG69fXZg4SM3GJLqQ9_Z-hrfXcoFfQmLI4m-DZLENY5mA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU2ejicmtRbNlLfE_RadV4JHYPLxefELVrEosPKDDsruyJ4yRmSfUSb_3mv4v7u9egL9TB7Z40eCwmHgH426ziez9z2MDWRwfehw_LtjPBUcCNm965pe8ghyDhk3LXVmPLViFxFuK79vEg7fdWJFm38dBbehNKO8HT6J6zy9zA2T-1Y69He1X8HNtPTdwkzJk-jvLSOZAyTz_2ji55ji6zyjn0HRpta8E6DaXeJ0PC3TgxvWsgzsZj7Wx_lHvVgEc11kcAwrIVDfCWfzlwx4FR7eYNohQFXwuhRru2YaCrQMA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-coupole/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Plus qu’une brasserie, La Coupole est un temple de l’Art Déco et le cœur battant de l’histoire intellectuelle de Montparnasse. Sous ses célèbres piliers peints par les artistes de l’époque, on y déguste les grands classiques du répertoire français : choucroutes impériales, plateaux de fruits de mer somptueux et surtout son mythique curry d’agneau à l’indienne, servi à la voiture depuis 1927. Un spectacle permanent où le Paris d’hier rencontre celui d’aujourd’hui.",
     insider_tip: "Ne manquez pas le curry d’agneau servi à la voiture, un rituel historique inchangé depuis l'ouverture en 1927. Pensez à lever les yeux pour admirer les chapiteaux décorés par les élèves de Fernand Léger.",
     expert_catchline: "Le temple Art Déco de Montparnasse : choucroutes légendaires et curry mythique depuis 1927.",
     specials: {
-        cuisine: ["Brasserie traditionnelle", "Curry à l’indienne", "Choucroute royale"],
+        cuisine: ["Français"],
         drinks: ["Grands classiques français", "Champagnes de prestige"],
-        must_eat: "Le Curry d’agneau à l'indienne (servi à la voiture) et la Choucroute de La Coupole.",
+        must_eat: "Cuisine française. Le Curry d’agneau à l’indienne (servi à la voiture) et la Choucroute de La Coupole.",
         must_drink: "Une coupe de champagne pour célébrer l’ambiance des années folles."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Curry d’agneau à l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const oxte: SurgicalPlace = {
   slug: "oxte",
   name: "Oxte",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['mexicain'],
   location: {
     address: "5 Rue Troyon, 75017 Paris, France",
     arrondissement: 17,
@@ -87,17 +87,32 @@ export const oxte: SurgicalPlace = {
   • **Expérience Culturelle** : Laissez-vous tenter par le dessert à l’avocat et mezcal, un audacieux mélange de textures et de fraîcheur qui surprendra vos certitudes.`,
   expert_catchline: "L’éclat des saveurs mexicaines magnifié par la rigueur de la gastronomie française.",
   specials: {
-    cuisine: ["Mexicain gastronomique"],
+    cuisine: ["Mexicain"],
     drinks: ["Tequilas premium", "Mezcals", "Vins"],
-    must_eat: "Cuisine mexicaine étoilée. Le pigeon au mole Oxte ou le ceviche de daurade royale.",
+    must_eat: "Cuisine mexicaine. Le pigeon au mole Oxte ou le ceviche de daurade royale.",
   },
-  images: {
-    hero: "AU_ZVEGE3vo0_bsN8aOrKD_Ba1bMpVQm_fxkaZclkvoc_SS4h42tZuthb-0PKPkc91VZ3gwaTGIWPMlrs-GfIbfVoiAJDzC32uKu6cgo8x23ajt6fx8T1pn2xzSk4L_GZCMvi4hFWsHfLKCc9_bkS8mpXM9-tixlnW2mpJg9NMWjRt3Ry7sGwzoX44u1ksnF8MYfGlh-2qJ-TEHX7zSF9yxcmMUN8NtEUXYFUadFc0IiNhLEBZ4H5gT3gmUBPRk6Myo7IHdv-z7Fya0Obwu5unz5loFAAP7nbDFTCjYJufF8J-GeAA",
-    gallery: ["AU_ZVEHSOZ50LnW3A7R31oHy9ZWmd_as2LHhKMbwFQli9g7OGKWsB2GQ7FE2IyhEapCY-5nY-r5zjGLX3QPFWjPY9dtXPUs4S8y3ORYncRiO6TXKkZu4iMyGFh50Xdbk6-KFWrrPxxz92lF1mCNy0pSS1T5_Vlk5gOYAZ_bxe4bzH7yexR8s5eviR2mUlmUnzmGOCQSldUxn_Q7jdCSwh0dr_t9kNLHhPY7_bUa4XBmZDQhFDvmbQe6WPbeq4OOaHY3Bn5G-I6Ss7t3tg9BcPip3tBoe5o1EBAXSqPoTJevI3jC-bA","AU_ZVEGA-HD8518Vi2ZVa6fkE7IqHvJW6FEW2ceNf3FxiPlUyb_ovc14gCMxEjlHoPnaSl_poC6c4frZtwK7Ttr2QC1IYf6fClDTRGPaY3uLNiIfhuBYmyHz7OpTueR4pBmQCugPs0e8xVt7O1qJ0RE9n85pHo62TXZGhC9T9Py9dzbvr2V_YiOFYbR6Kwc9d_B9l9Hlj-FtlPEvexNe3hz9pgxwYFbb_waR9kL5larPNnzGrz9o4GC-j5SpYJKQfYw4cCDDoQZIeva048kMLEB19JGTQnrAF9LRm8M9Qr3whwC6Vw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oxte/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.6,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. Le pigeon au mole Oxte ou le ceviche de daurade royale.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default oxte;

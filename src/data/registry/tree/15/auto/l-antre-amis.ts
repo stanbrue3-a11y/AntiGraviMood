@@ -96,16 +96,31 @@ export const l_antre_amis: SurgicalPlace = {
 • **L’Apothéose** : Si vous prenez à la carte, le Pavé de veau de chez Hugo Desnoyer est une viande d'exception incontournable.
 • **L’Option Chill** : L’après-midi, la maison propose de formidables tapas haut de gamme (poulpe de roche, langoustines) pour un apéro dînatoire très exclusif.`,
   specials: {
-    cuisine: ["Bistronomique", "Créatif", "Gastronomie Française"],
+    cuisine: ["Français"],
     drinks: ["Plus de 150 vignerons", "850 références en cave"],
     must_eat: "Cuisine bistronomique. Le faux-filet maturé et le Menu Carte Blanche.",
   },
-  images: {
-    hero: "AU_ZVEGCdaIEW94dd3aTekoVEsfXQ4eO9Z8dnzJn4p2RY_y8UcnEN53Lue93zGHIbSPSXxn44abSkh5U_rD_w6hQOpQlOdmQC2IOSVEWxPfav1yER21Qux6Or3oU3_cGd5eyIIhUNorzn7xhxPycBEad240lS8hj2sds7IFrHEGxW43qeT68rB1eT7nODOQiTqTLXy7eBjGY5IoMoYKAX88KsmUQKPalLoFPGlYc8wgp6QvvhGPSsXXKKBv8iC8gZyruMjbYzvMSJmjDfEaIQGBr8q7CWYb0N_rzi7dNtnDkiOJYSg",
-    gallery: ["AU_ZVEHgkzAtetKklIoDWcmFp0B1lZ_nF-HlVN7YcqSCcppeuSNJ3erzyfOutYBIdNjQPNgXQIU6m5RPLCzb7CcyGZJ8Ez2HsWi_yJRHWqVNOZA7IEIza6gRYjDO7d9G9ZaM3tTyTKtafGKtj5mpWUJD4hEhiXrkpj9lI97PQ_IdPHMfYIOg8BN0b6ZruCbu3_GEXJIm5TC6IHVt-YDP1cl2gkNy2uJTQYDao6JgWqLbuk2OJieWQ_69_mjXRZpajUxbJrbG1Lffei551J-98K45ypzLOqF1p30_h94tSCZDWPab7w","AU_ZVEG9A3tGtqb8h62xx9EByusg68PzYDvAhbz4-IYdJwAG7nR0GEV2bAEvdb1462puBY0V7zKsh0HoTrif6ZYVk7799iP4GQnNknZsGEYV97ULE9nPNBBtT4Fu2Pni7WEkZ8eU3sNvjDMleqPjD37Ns8TojeUkRbOQBHWlDq0aeh9XAjERTRlzyObh9rsxspOSVUwm23ZLgvYTb9cBeNlbm_pAf_Ax_ZLx68NqUaCf9Sjzo3mTwzIVamKVNj8JQuqhPVUn8zN0FOQ5YDZje63IZDvhDLpSXxA4lC6aTVPj1IfGFEL4soxwLrxVZuGX3lwoSrCdnPeBK1xpNpaVmlG-3mYHEaQtO5QBtH9io_RyuDxQq6VNwkGBsDJYycXhS4kIZn2DaapKzSCAgJblhrtqAKa7YIswoHm2YGVNnxPFugQRFg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-antre-amis/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine bistronomique. Le faux-filet maturé et le Menu Carte Blanche.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_antre_amis;

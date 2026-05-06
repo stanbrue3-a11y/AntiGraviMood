@@ -75,21 +75,34 @@ export const confluence: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWje9DICcWWw1szPTGHnZayUQHsGpiwh4P49KcfbLId_m_FhgDiPceSB_tCU047y-WM7jTSc7RW42fF8UoEiVGBKcf77rGIxO5qMgipBy-c6ckME-sB728LBnbWHlBwyAFjtyCSxrIWy-KF8-2ArgdEyY1qmFCIIxNrJpNPSuDAhGUAm2o7Ruz0DvA-r_me7S1KMyvF3_geiEez2EA1ci55oKq_ek1T3plrBYstR56BSfXXXsyO57rslGQG5kq6_6tO0A1jq_w81aRCy7lGGn8QPYgBQBVro4Tgzsz9sCubJYwu4Hk&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXMYTVLFcO7mcufV7LlnBhMImN6IL3Z37Seoz0wMLTtq0Wn_8pUgszc_QVXu8vjfwTNvznA3DRuFwbY7RO-JLvNITJrq4TCBz54BcT1BcGfMm4-DmuRGNpZfJ2CZJKajPFLVxPn810P1IhJK9zq4hUM8jmVl58QdFDs7RbvZMrOtL76CYckQQMWAKPX2iXgRG-jxOUnkPAc77_qOD6W0H4e9h7WSUsLfIMSLU9X_oclQQud7_AshFeflsXyCeSF5fg0yj2aspLf2p6_ktEkGAXDrmZL2sEJ29X7OFnVLg2jyaSRVlanprPav8fT6RWYeF05i007Kv8_dQn4nXyhlpqYnIrIGtAjWKf3jJxW_y6WIb_d6j7cj_wuOYfmny1ZhNdsUo2D42fO16_d8vtW2Gr0bck2BNgldyYDqnp18vW4Eh6kqX3t7hqHkoTjRh0e&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/confluence/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.9,
     description: "Une prouesse de fusion par le chef Hung Luan Nguyen. Confluence mêle la finesse de la gastronomie française aux saveurs vibrantes de l’Asie (Vietnam, Thaïlande). Le dressage est aussi précis que les goûts sont justes.",
     insider_tip: "Le Cabillaud Tom Cakod est le plat qui définit le lieu : un équilibre parfait entre l’onctuosité de la coco et le peps du galanga. Réservez une table près de la cuisine pour voir le ballet du chef.",
     expert_catchline: "L’Asie et la France en parfaite harmonie rue de Charonne.",
     specials: {
-        cuisine: ["Fusion Franco-Asiatique", "Bistronomie technique", "Dressages artistiques"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sélection de vins nature", "Thés asiatiques premium"],
-        must_eat: "Le Cabillaud Tom Cakod à l’émulsion de coco.",
+        must_eat: "Cuisine française. Le Cabillaud Tom Cakod à l’émulsion de coco.",
         must_drink: "Un vin blanc minéral de la Loire pour accompagner les Saint-Jacques."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Cabillaud Tom Cakod à l’émulsion de coco.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

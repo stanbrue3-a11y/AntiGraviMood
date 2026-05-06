@@ -5,7 +5,7 @@ export const umami_burger: SurgicalPlace = {
     name: "Umami Burger",
     slug: "umami-burger-montparnasse",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['burger'],
     location: {
         address: "19 Rue du Commandant René Mouchotte, 75014 Paris",
         arrondissement: 14,
@@ -85,22 +85,34 @@ export const umami_burger: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX4oPMTdZBvIprONSVbw6fuyxKDgRMNv_7luc5hS6PEjSvglAqntzcCW95vquO7G_x4rUzxl4kmF8DpBdrMJUAGIfvvQWvUsW387ceSQXMeqysuggAdUTAm_MqN3bbVdhO_eEdlsCJKsPKiMKEZmodtAShT4zlBT3yJewbpz1A8mmQvy5uNcsofwCDJuFWj6kYLt5CaTDknS32EUEYBtTiXRGhthv15eeaflMYtjq0rcKT0ox2P6z8y6g24odx2DuP7-YmJGDvuWD6QoypF3Vvg-3fLVk0Sfe-TV_u1JAUtVg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVpnkPVXu_1rphx90MtQhKFM7LjUhgjGCn6ikSQ95KmKcSetZiR6ULn-FOuMfrKv4-UL_JWM2_sikNs96IWc56QZ2VkINX0zc6B7gkPnnNaMAZt4jwNqBQJkDVM201oIIYDS4CVbcLjWrKBcEqiO8XndjKiVjtyvQw4fGPS4b0R3pXrogc1xkhvyaRlHaMC8rfetMIHcJhieAWbuAKtcbrvyPWou2cPiewXFmdQDOphUzXFwngi9rIzlNUA35x7xmxlE64YqpcHxcNn5hzX1FYiuJ61deoxhJTLWDNs4aYC6w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWrYPdRtbcRivNqjJaAvVQtiLGL341MXj7kUcUdphc7m0w_hlljbSprJWsyFYEULvyiNbL3nY6rV_Rdc9KMy1p8SbCw4YOtUXQAYhc0X7rP-wPweRTrK3M7-oa9z0myygVrpu7eaaxXGdSUikXzd7AbzQXQfPaihvqovLkTL2qjhgZPmNwmQApElw3IbTh-mcQiUZXXzjug9YWAurCDYjk18JScyKB_-mv4Zs9-TXohSfw8F5Lpxe6qieeDfHAPiU9CLOtJ6KsBhYMIwsOBCudOjNxL6c5KpCfvN6vKohzmbStTc6ZfrMHNvk4C8y5S6M4c7OA7XuNDi1W7nGsL9qJO_s7-YNIbxRb_8cZMiHYzFuDy54mQcs8QoGg_hkPplxZHdvvsHoYGTYy1GT0zBqA8dXTAOFbZSlsLHvEhonwx1Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/umami-burger-montparnasse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Première implantation européenne de la célèbre chaîne californienne, Umami Burger Paris apporte la science de la ’cinquième saveur’ au cœur de Montparnasse. Installé dans le cadre grandiose de l’Hôtel Pullman, ce spot propose des burgers sophistiqués où chaque ingrédient est choisi pour booster l’Umami. Le décor est moderne, l’ambiance californienne et les recettes repoussent les limites du burger classique.",
     insider_tip: "Si vous avez une faim de loup le week-end, les brunchs du samedi (35€) et dimanche (42€) sont imbattables avec leurs buffets et burgers à volonté. N’oubliez pas de tester les ’Manly Fries’ pour une expérience calorique totale.",
     expert_catchline: "La science de l’Umami venue de Californie : des burgers fusion sophistiqués dans un cadre monumental.",
     specials: {
-        cuisine: ["Burger Gourmet", "Fusion Nippo-Américaine", "Umami flavor"],
+        cuisine: ["Burgers"],
         drinks: ["Milkshakes artisanaux", "Cocktails création"],
-        must_eat: "L’Umami Burger original et les Manly Fries.",
+        must_eat: "Burgers de terroir. L’Umami Burger original et les Manly Fries.",
         must_drink: "Un milkshake vanille-bourbon pour le contraste sucré-salé."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Burgers de terroir. L’Umami Burger original et les Manly Fries.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

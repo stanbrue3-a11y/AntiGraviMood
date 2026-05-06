@@ -1,6 +1,6 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const leGoyavier: SurgicalPlace = {
+export const goyavier: SurgicalPlace = {
     id: "poi-le-goyavier",
     name: "Le Goyavier",
     slug: "le-goyavier",
@@ -84,19 +84,34 @@ export const leGoyavier: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX_J-mU_W05_V5--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-goyavier/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Le Goyavier est le plus ancien restaurant réunionnais de Paris. Depuis 1988, la famille Payet y concocte une cuisine créole d’une authenticité rare. Décor coloré, accueil chaleureux et saveurs ensoleillées : c’est une véritable ambassade de l’Ile Intense au coeur du 11ème. Le point fort ? Des caris mijotés pendant des heures qui vous transportent directement à Saint-Denis ou Cilaos.",
     insider_tip: "Commencez par un punch gingembre maison pour vous mettre dans l’ambiance. Si vous aimez le piment, demandez leur pâte ’piment oiseau’ maison, mais allez-y avec précaution, elle ne plaisante pas.",
     expert_catchline: "L’authenticité réunionnaise à Paris depuis 1988 : caris, rougails et punchs solaires.",
     specials: {
-        cuisine: ["Cuisine réunionnaise", "Creole specialties", "Slow-cooked stews"],
+        cuisine: ["Français"],
         drinks: ["Bière Bourbon Dodo", "Punchs artisanaux", "Rhums arrangés"],
-        must_eat: "Le Rougail Saucisses et le Gâteau Patate en dessert.",
+        must_eat: "Cuisine française. Le Rougail Saucisses et le Gâteau Patate en dessert.",
         must_drink: "Une Dodo bien fraîche, comme là-bas."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Rougail Saucisses et le Gâteau Patate en dessert.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

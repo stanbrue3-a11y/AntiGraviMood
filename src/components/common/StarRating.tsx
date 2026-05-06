@@ -53,10 +53,10 @@ export const StarRating = ({ rating, color, size = 16, ratingsCount }: StarRatin
   return (
     <View style={styles.container}>
       <View style={styles.starsRow}>{[0, 1, 2, 3, 4].map(renderStar)}</View>
-      <Text style={[styles.ratingText, { color }]}>{rating.toFixed(1)}</Text>
       {ratingsCount !== undefined && ratingsCount > 0 && (
         <Text style={styles.countText}>({formatCount(ratingsCount)})</Text>
       )}
+      <Text style={[styles.ratingText, { color }]}>{rating.toFixed(1)}</Text>
     </View>
   );
 };
@@ -73,12 +73,12 @@ const styles = StyleSheet.create({
   ratingText: {
     fontSize: 12,
     fontWeight: '900',
-    marginLeft: 5,
+    marginLeft: 3,
   },
   countText: {
     fontSize: 11,
     color: '#9CA3AF',
-    marginLeft: 2,
+    marginLeft: 5,
   },
 });
 

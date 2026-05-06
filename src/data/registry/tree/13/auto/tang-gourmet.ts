@@ -5,7 +5,7 @@ export const tang_gourmet: SurgicalPlace = {
   slug: "tang-gourmet",
   name: "Tang Gourmet",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "188 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -105,16 +105,31 @@ export const tang_gourmet: SurgicalPlace = {
   • **Le Bao Zi d'Or** : Leurs brioches vapeur au porc laqué (Bao Zi) sont parmi les plus généreuses de l'arrondissement. Un rapport qualité-prix imbattable pour un encas.
   • **Flux Tendus** : Évitez le créneau 12h15-13h00 le samedi, la file d’attente s’allonge jusqu’au trottoir. Visez 11h30 pour avoir le premier choix sur la rôtisserie du jour.`,
   specials: {
-    cuisine: ["Cantonaise", "Traiteur Asian", "Rôtisserie"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Thé Oolong", "Lait de Soja"],
-    must_eat: "Rôtisserie. Canard Laqué & Bao Zi au Porc",
+    must_eat: "Haute gastronomie. Rôtisserie. Canard Laqué & Bao Zi au Porc",
   },
-  images: {
-    hero: "AU_ZVEEOLEOpo2qXOMp8iCeHbUXOZnNBN5nytgoySeQLoROcjQSi3zlCstmHnRjpoZ7ITmko4wp3h_S5OXeRHnTf62u2MW4e01VrEz-7on_9hxg-yOe78VtY4In8dSvdcz0_JjfzAYNRpbo_fdvLXm8CiGz1zPc72sNpCcfwqi4Wr5hAfjjFgibO4KLEiHK2B9i7iOiwpmSCAOrOom1HlgVFye5EkInN8Y35YBCdVllwZ-fJDL2JJHPgLWUB4svENrArLr1lQUOAjhPN52mzJCddvLgLt4Wz9UDkA137n0GFlyHRdg",
-    gallery: ["AU_ZVEFeRcefcuhfMvlCGEUJFbXIQCxyMznie_S4LDtEoDGIiYGjuJ5ejoO_2bRADW1-sMeMJss67JxLH1_cHi1SQmC5nPns6NUJxUiEhBpIjBiXbwqcsBi58BXUhsNA7rZo6ohcbmACzS2zgq0dgsevXvB71zVD0delJ28x6S2LK7tw6-7xgcjULzBnC4p4zEe5DBpXpXDlSauu8o5uYnXUHHa83p207IpY-fd6GmUdRCK6UVWdby9S7xZp2zJq4vK5eSFTup9XKJ3eN0Hd7lNvC1S9eTAabteeVU_M7WzdjJZRHNE6FGKTXjsjKMUxL0Q6Sp2acPinbjnCkozQ4419jf95X7hiv57jnFJa0U1MVXnX2Peh-8YWLrXWPxT_53goMwtjEBeTxKkiws9g0g1F6emYIhDH1z5zoirklPEi5T0zHPFu","AU_ZVEFHHiWWb6L5l636riRSC7ddib4mr3vBJ31XE9gKkZ5DKrej119L3UOEOK57b-gptSLL-mFclbXpJo7W69zkadmuaq2HTIcSkVyL_XajA4eJbUdRO2dqkWnYifTdrsNPWYfwXul9Efsj_hD4iWHk-FQwiPnnVEN9GBNL2qmg2q7ogdMF3oISPBo2KPY2FebLAzjiUC6wHa0idNj_tcRVkH2BfzPi-JxtAqKDEjb_aBA-fbl3hzK__sok8eQOgNLuY_mkdu38MkPVAeC2u6Q75hXELZ0qJDNOs2uuFLGRj0_LPyNEMQzouJL2mFVPF_T9SFJRfIst6fhOoHpQLePU6tapEosHqvGikhTBOCzAabItkZfEAbvgiV4_mw-tBtxjCrtenjfb6b-gICsXMbMuPh6PQmkyBZBBfD2xVDQNEQLFIQ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tang-gourmet/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 3.6
+  google_rating: 3.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Rôtisserie. Canard Laqué & Bao Zi au Porc",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default tang_gourmet;

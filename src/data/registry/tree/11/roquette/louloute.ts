@@ -5,7 +5,7 @@ export const louloute: SurgicalPlace = {
     name: "Louloute",
     slug: "louloute",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['italien'],
     location: {
         address: "55 Rue de Charonne",
         arrondissement: 11,
@@ -103,13 +103,16 @@ export const louloute: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXaROpjINALsJ_Be_QMJpCQgMZ-DD0KNsabXec4yIyjceKaJCx1JhZB9Qi4kG51KXYzU9kZ96TBhz2mMyt4KGqZtUXa3QYY8UUgGtcJ3RhhIwgTTjvbM2VB9tLAobT2X2SM-xpJEvLkk7ao92inQcWYOdLoeGjkoSqD63Tqd_hkg7STI4wx0raP4OuW7W5w3RMEp5SOHUrTumUi12fk1v73s3jSPB_s_0M3g1lCYFMNghlMYy_jFry43HkASlhB7WUh4guilR81Xc8SIANkoE41oWxlt6gxtMyNBoTENZw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXHtREvsjkg45q7WTvTTKHZGL1yA2g6EqbQTMTBAFfAx-9SdIuEJPkei7nrCNjhuIKF_HUV9pupHRXzpN7Ml6q86-JJO3_GskyxYsGQNjGyeIobYoYF8vZqVUfYXKFsFRTxkS-mT3AAb_DDsrb3ee5JGAEBOmppQ_El25GdXKeRFz9bKi-umRdlBBA4WITMvj5vlMDQ3zDZ26XJ_mAXqu5VqFXz9e1SyM7QvoLL1k3MzHIhpT1NSWHi7whHia1NJunCerKW6ZkXImlo7B55hBvKwb9ee9xJ6FdOdyqadss&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXen2bbqx1T-ex66CmiFC_feQeRgG6OrwY8dCVNnR_6TnRM_P9YD0i-sURAGj69erv23GDhUC3izdv79cn2w6bd629aiNl-p03p1EQuOfwvklxTVi7IRG9Dy3m4aq4t3nU0wpK9bKAA5amRKZodRNUKbVAAeT7iEKX_ktOW2rigYWraccmG7ZAY7aFInhLNElEdIu8DpZpKyzCOu6O2h3o4fkzDLnSZHSC09HK0OsB9MsEWXAfbrro-0EK7MiWWWOYFOPtf6uBnBosCHEj2S-Iqq_Jt3XcORC_jPEhiC8Y6KPwFbOlHJK8BWBsYTWgDvGLSVz8zy2ecdnHR-iWXW2D0dYKcNFmxqk7ZjOqRh4BFvamHcnlBb6xoNyiGMYKZ_jCz-Ap2CMdnQWR_rxZl0MjwNdkRLyLn_j8wr4oFn54q5x1_uHcnqCUHq4pPkRYe&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/louloute/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "louloute.paris",
     verified: true,
     google_rating: 4.7,
@@ -117,9 +120,18 @@ export const louloute: SurgicalPlace = {
     insider_tip: "• Pensez à vérifier la programmation en ligne : les concerts (Jazz, Soul, Latin) au sous-sol démarrent souvent vers 20h30/21h00.\n• Prévoyez de manger au RDC avant de descendre boire un verre pour le concert.\n• Les beignets de fleurs de courgettes (13€) et le tartare (15€) font l’unanimité.\n• Ouvert un peu plus tôt que les autres (dès 17h00) pour un afterwork pré-concert.",
     expert_catchline: "Bistronomie incisive au rez-de-chaussée, jazz club clandestin au sous-sol. Duo gagnant rue de Charonne.",
     specials: {
-        cuisine: ["Tartare de Bœuf bergamote", "Fleurs de courgettes frites", "Ceviche gingembre"],
+        cuisine: ["Italien"],
         drinks: ["Vins natures purs jus", "Cocktails création", "Guinness pression"],
-        must_eat: "Contrairement aux clubs classiques qui négligent la nourriture, ici les assiettes sont de vraies claques (goûtez les keftas en pita).",
+        must_eat: "Cuisine italienne. Contrairement aux clubs classiques qui négligent la nourriture, ici les assiettes sont de vraies claques (goûtez les keftas en pita).",
         must_drink: "Laissez le barman improviser un cocktail ’sur mesure' en fonction du style sonore du soir."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Contrairement aux clubs classiques qui négligent la nourriture, ici les assiettes sont de vraies claques (goûtez les keftas en pita).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

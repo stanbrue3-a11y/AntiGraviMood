@@ -48,6 +48,7 @@ export interface PlaceTable {
   real_talk_json: string | null;
   description: string | null;
   michelin_stars: number | null;
+  has_terrace: number | null;
 }
 
 export interface PlacesFtsTable {

@@ -5,7 +5,7 @@ export const le_dalou: SurgicalPlace = {
   slug: "le-dalou",
   name: "Le Dalou",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "30 Pl. de la Nation, 75012 Paris, France",
     arrondissement: 12,
@@ -107,16 +107,31 @@ export const le_dalou: SurgicalPlace = {
   • **Le Banc de l’Écailler** : Les huîtres Spéciales d’Isigny sont d'une fraîcheur exemplaire, ouvertes minute sous vos yeux.
   • **Terrasse Royale** : L’une des meilleures expositions du quartier pour profiter du soleil à l'heure du déjeuner.`,
   specials: {
-    cuisine: ["Brasserie Française", "Fruits de Mer", "Pizza"],
+    cuisine: ["Bistronomie"],
     drinks: ["Bière Pression", "Cocktails Classiques"],
-    must_eat: "Brasserie. Huîtres Spéciales & Andouillette de Troyes",
+    must_eat: "Cuisine de bistrot. Brasserie. Huîtres Spéciales & Andouillette de Troyes",
   },
-  images: {
-    hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",
-    gallery: ["AU_ZVEG_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W","AU_ZVEHm_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-dalou/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.1
+  google_rating: 4.1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Brasserie. Huîtres Spéciales & Andouillette de Troyes",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_dalou;

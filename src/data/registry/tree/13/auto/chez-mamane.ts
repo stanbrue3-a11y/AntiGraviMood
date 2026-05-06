@@ -5,7 +5,7 @@ export const chez_mamane: SurgicalPlace = {
   slug: "chez-mamane",
   name: "Chez Mamane",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "27 Rue des Cinq Diamants, 75013 Paris, France",
     arrondissement: 13,
@@ -107,16 +107,31 @@ export const chez_mamane: SurgicalPlace = {
   • **Le Secret de la Chorba** : Mamane prépare sa Chorba tous les matins. C’est l'entrée parfaite, surtout en hiver, pour réchauffer le corps et l'esprit avant le plat principal.
   • **Ambiance Nocturne** : Le restaurant reste ouvert tard (jusqu’à 2h-3h le week-end). C'est le lieu idéal pour une fin de soirée gourmande et conviviale après un tour dans les bars voisins.`,
   specials: {
-    cuisine: ["Algérienne", "Marocaine"],
+    cuisine: ["Bouillon"],
     drinks: ["Thé à la Menthe", "Boulaouane", "Guerrouane"],
-    must_eat: "Cuisine Maghrébine. Couscous Royal & Chorba Maison",
+    must_eat: "Cuisine française traditionnelle. Couscous Royal & Chorba Maison",
   },
-  images: {
-    hero: "AU_ZVEELQqZHienWKlFwTGJC9FmToQU9ofhZoDFMZDR2YVYFtU0v8YfBRO_4qC1t9pbx4gEslfxDodhRZP7X4RXVKD3dqqolI7tWf5HjBCQLR49lJaT71qQ0gyVc4dTjxJEOcud66hfszFJJyDQ8oEdpQt7g5eagLtc2SMoY143XAyKcdgVyVOmuT9LDH7itNywYwDT6EMc68Yog5fzMSDK6A3gmc_5z2H9gGM154ApiKaKHVTmqzNZYuBt9S8EXU113HV8O7OeSCUpFc0OFfbqoQgipdCSceuq42CoRz_Hk",
-    gallery: ["AU_ZVEEq7EqM4r2MxEu4yM89NfL9YNSlqnPZz-6vbW-gk-l8WZFanUjmSae1GffYgIEC8FiT7CliBywy1V_DjeYK-yANnkGRpo8f8ttmxV9jYJmA680djDmMoS4K7AUUrkoDYA7MuSTlD5DOfT0A0Jddugkyt01FKGLr0znkXZGniC7-hlwbUN_iPg8Xzx7TRbGCyYxV37Y45fsGdHgWcMHDHNpVkvoQ4C9ZlsixTL3A4YkF3r8f1iiyowbXiq9Cbg_2TzZdAm4lMDyssq5trZrWlWcgJ7Ay6-H6zYY1ntlzGS2k6AF4gOF-Jeju7r7R6BIR6eBamWZU7lPbJC9Mx0NoNKpPjPGrh_yyU6cj-RUUAUILhAZoJMwzOvYGMGO46Its2fxtE2n_DfJRU7T0RQH7Pt7qEix363ESQ-QCr_9BBLVhfKA","AU_ZVEH5DbZgqmgcxphX3EQ4VMzg6kYg7XyWJ2c5pG6T6V9sdWS-gf6Omq4iruWUH3hz6AB4kPdg6VwNoG-rI0bH6dZ_uORyvGUM6ObjCJKGdN_rPk1N_0JnxxqEG2kJrCvFQrOCRTcClQWTahfhvLzEOyKBq9K_aX5iWk_3SDmaX0CZrilQd-U1I8CscUgTg09fhfd-KlfB2wfCvJSpe6U75XcflmwMwp2abELNYAnmlQRfxuWFUwaG6gMLAbFonthbCx0FYUle3k0ZN8IzMatJhnrExNXT1yFF-pMvWWPi56slbXa-MkjBFX4aPVpMvydUXHsq8OSH8KwXM9yS4wMUy0ktkYB6mBmryJ4l81EN4OEFYxoNhtqvWHKbr0j_gl2kt-XbGDWNkyu8YVn-0LHOqCt0Zg_Q1N39nBRJWtXjvkMPFBxNzAbS25bWBB0R3CgS"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-mamane/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. Couscous Royal & Chorba Maison",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default chez_mamane;

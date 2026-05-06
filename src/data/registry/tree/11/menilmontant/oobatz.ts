@@ -5,7 +5,7 @@ export const oobatz: SurgicalPlace = {
     name: "Oobatz",
     slug: "oobatz",
     category: "restaurant",
-    subcategory: ['pizzeria', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "4bis Av. Jean Aicard",
         arrondissement: 11,
@@ -85,19 +85,34 @@ export const oobatz: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXgNCYXObq9JZA9K4Rf-qNVbVUiJo9t44c5l5vVBxepuERzKFV-idFgmOYTjofRA-1l0KrvyoijBUdvQXEK2RzlL_vapvvGCj9ZLVX9i4sA-KWfNslEqBlzGce_2CbdUhgkD71cyYoUjTwg-doBK2MrgMviziW_9nq7cnKpyncI2iQFPZG9Uhcx6odc4ariNhN5gBl3shzisbK7t5xuTBHitrcRICT2IFZdpAe2xFXRyIlEPVtp812Cm_bUi47Z351BfN3m2e8kLi0guj9lHc-1UGLy-kMXTxJsorA7uS-_LT44jnPC8vhOfJ7UcvqPCT9xWO-ZTegxPodmURGQTS0p6j8OoXXwBRNE23c_o_LmllRmi7PXixz20cGG6a7cURG9wKixbklEmG7IFdsbwxSYA-0WtiH5OosvUyVuuSoD-vCkhv-rJ6PkCrnH3MdO5hdiJT1m2QJ_UjSQjeYkaFv1ZvIlze_As_HBJoktgLaKOMBKVNr2jGzqXol1SIahScAVZ24q7dKbg3djOEyPmhCvqRQYccsKVFPnb94J09LXb1RG9J5go0d4X9jpqQqzzpLbewv92aIKKzXCViwd-Po3LOiVfg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/oobatz/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "La pizzeria culte de Dan Pearson, ex-chef du Rigmarole. Ici, la pizza est un art de la fermentation : pâte légère, croustillante et garnitures sourcées à l’extrême. Une expérience brute et vibrante.",
     insider_tip: "Ne passez pas à côté du Pizzookie, le dessert signature hybride pizza-cookie servi chaud. Prévoyez de réserver pile 14 jours à l’avance à 10h, les places s'arrachent.",
     expert_catchline: "L’art de la pizza fermentée par un virtuose du Rigmarole.",
     specials: {
-        cuisine: ["Pizzas à longue fermentation", "Garnitures ultra-saisonnières", "Pizzookie"],
+        cuisine: ["Pizzeria"],
         drinks: ["Natural Wines", "Craft Softs"],
-        must_eat: "Le Pizzookie chaud en fin de repas.",
+        must_eat: "Cuisine italienne (Pizzeria). Le Pizzookie chaud en fin de repas.",
         must_drink: "Une limonade artisanale ou une cuvée sauvage en blanc."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne (Pizzeria). Le Pizzookie chaud en fin de repas.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

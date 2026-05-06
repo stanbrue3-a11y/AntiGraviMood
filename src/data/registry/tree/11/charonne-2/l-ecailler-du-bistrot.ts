@@ -5,7 +5,7 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
     name: "L’Écailler du Bistrot",
     slug: "l-ecailler-du-bistrot",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "22 Rue Paul Bert",
         arrondissement: 11,
@@ -84,13 +84,16 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWSJLUvsPCJ_55XcHgi3ntOe9-KJFDYkNeT2wRtCeXbOdCkVkHvWmWEey4bFIeXfmmHMYf4Nd6mRJyerldwdG1vJDxoozWcbJxr5u7jeJxND9oPLyXEhYZFo6HglUkf-lP4MuLMIFoji3Wg8ZmjMyDXQR-lvRfdcogzCtdsId4AHpFeV8W12TKHu1FgJL2gYP7eea1bZuHvKGJ6u4_85jVV900s1mL2iDNPbmz9bFIi1e6Tvsu41yCwIkoZwNmQLTEJ-ckA-_48Wr1kq-Voy9h4A0nb8v7fa5Jcgu-8LRGvxQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXKIubwfCwpkXmZHDChV0Bcbx8KC5TPRH3PcoQIlW6x-Iaw4CaPNLyO8e41wKy0-PcacWTHuC8mpWjrsm0-cAXLeljcC4ZgmU92CrSL7fbHpFYnYTwz0JIozYLxWwnR9ttrcwnNAztZD6HFkVYRuzqq64VUObDX83_a19IG1WXCo7IJvuAjiMZJgFvz_rqDhN6a_U0qEeGm5w5S9Wkum38GDiPbSHqo1DZvuKbqGpSw-hdwaN15lHye-Tsw6ohIPv3Y-Hqv_lrFUyeIvMLvNDB8j3YCO77g-Pqx6C2nBrJ_Iw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUqcuVVR4-VyWXbKhvdwTYLBW1SZ9KvZdIillVpmDUEV6QmHvv1QUJtyab5y1_cvMSPPczijKKddfWP03r4-PGXwtLVix4J6nVVsMFXNLEivFPAJCq_45voGHFYyB1ih7wKgeh-fvvmIY6LvVd-4xhARNi3EHcElOH-dUWqAudQAyZ8v476Fq7krtwbj8oLblWu7OSNFD3waq05homK2DcCdTg5FlElhugYwRcj6--zdT-cC9SFWsA3ClldL3mqzFHRinMInhCztViiO_O6PxHYp6B1bCUe0zZugzKFJcc3JZ7ul8WMhbVk7kCL_Fl86zdQYaqLOOd9YDvMd2m2DRft2wy28FWEJJnWLIPVhC2s9b1VGPTSzdVtLKcsqJpAfZ2tUAFHgZRHMCfaBs5_9oB1gqJzLe4Vhq5EPK3fQIkzDNmtwl0WMxLvRdV9TLsa&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ecailler-du-bistrot/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lecaillerdubistrot",
     verified: true,
     google_rating: 4.4,
@@ -98,9 +101,18 @@ export const l_ecailler_du_bistrot: SurgicalPlace = {
     insider_tip: "• Les cuissons des poissons (barbue de ligne, turbot) sont réputées invraisemblables de justesse.\n• Le menu déjeuner à 26€ est un énorme plan qualitatif pour tester ceux qui le trouvent inabordable le soir.\n• Attention de ne pas confondre avec le Bistrot Paul Bert attenant.",
     expert_catchline: "Soles meunières d’anthologie, homard au Kari Gosse, arrivage breton en direct. L'excellence iodée.",
     specials: {
-        cuisine: ["La Sole Meunière entière", "Les Plateaux de fruits de mer", "Le Demi-Homard bleu rôti"],
+        cuisine: ["Bistronomie"],
         drinks: ["Muscadets pointus & sauvignons tendus"],
-        must_eat: "L’inévitable Sole Meunière, beurrée, fondante mais ferme, comme on en rêve depuis notre enfance.",
+        must_eat: "Cuisine de bistrot. L’inévitable Sole Meunière, beurrée, fondante mais ferme, comme on en rêve depuis notre enfance.",
         must_drink: "Un grand vin blanc de Loire pour glisser délicatement sur la sole et affronter l’iode."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’inévitable Sole Meunière, beurrée, fondante mais ferme, comme on en rêve depuis notre enfance.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

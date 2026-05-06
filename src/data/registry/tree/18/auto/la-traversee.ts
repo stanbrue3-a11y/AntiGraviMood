@@ -77,16 +77,31 @@ export const la_traversee: SurgicalPlace = {
   description: "La Traversée est un véritable bar à manger traversant entre la rue Ramey et la rue Clignancourt. Le midi, l’ambiance est bistronomique avec des formules accessibles et soignées. Le soir, le lieu se transforme en un spot convivial où l'on partage des assiettes créatives accompagnées de vins naturels à la tireuse.",
   insider_tip: "• **Timing Stratégique** : Le Happy Hour (18h-20h) est le moment idéal pour démarrer la soirée avec un cocktail.\n• **Combo Moelle** : Les haricots verts frits sont addictifs, à commander d’office pour le grignotage.\n• **Expérience Culturelle** : Profitez de la sélection de vins bios servis à la tireuse, une rareté à Paris.",
   specials: {
-    cuisine: ["Bistronomie", "Fusion"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vins naturels", "Bières artisanales", "Cocktails"],
-    must_eat: "Cuisine de saison. Maigre mariné au citron confit & Arancini",
+    must_eat: "Cuisine Bar à vin.",
   },
-  images: {
-    hero: "AU_ZVEExu0cxFh8KZyWNrq_0OXtzcp0zv0FQI2ZWZuOhBv72aBJhBND_-DseoDqNid9RRxEB5TtDbD87cIwv3HYd41ME6KpNgxMzIE7rAwGnSoh_Kn1inpu0V6ZUpOmVvNnSqrsBI1dbxKYzRIh1s-9CnhSTc9-yF8r-63gEonb8HlrA5ZTMS9zNONt_YXfNKuXrENMtE0eSbW1nIEycTHW7Vb3cV_vLJl4vET5H2xF-uLFR_NQWPcZddV7cKbvOEZP_Zi0Pj4BkqNH5C4y6VDOznH821MUd2_cUEGIKasZqFCorqA",
-    gallery: ["AU_ZVEFhKLphh2n7a5etzRIh0LPISh7m_lJ_jqU3pFfnDUEDGJ1rrA8m2YLT2Lyl760rcHiH26egKmt1L1OBqdK9RHtADURZxI9ixW7Ke19l2TFga5y8uywXtJ4j87IiBfZE1snXktiIDDzzk7WBfeomJGhmHaEvQ8I0ttB_eS0DHxAJYEMWtfDDfBMx5-2RE07uLQ3BRl61_oF_IAx3Qnxr6TFHyaytwl833HOpBA5RvzbZPYsy6q3_H7uu5ol-iGuDPcCMCh8Y1sMpYjdSSjsD1VKJJrJlhwQOayH2BqnPn14-ZA","AU_ZVEHhY3C6InMrvEPVch2ADVoi-Ao36oEzS5772avADXCo2YUL1OVy32rklnkM2eKHDFcggrh6CKQfslvV-5mx9t8_5EqM0iVIBxQADZg-Xzi70hX53Cu35uMETwuuK9K6SKzVNRQUXmKCQIwsEIhwt622kdwMGYowTHs8czFaW3myosOfiGeFN_t19ZQBpZy6749_bPfz3W-IhIv1PMQ9S06bGMzu4WHW4MhNmQ_E0iqWx7OYRjzDk_mMjXJjNQrBXFsHtZUE-AvMBRq4Jz1iMpUl0xwr1M2CsVP3rAemwVuhm6MB9GwQzfpincs8C0AiK1ewwEiR3a6iRQs4-0euV-DF-1rSDBbOhRvJ2OcMWVVmBcKq61bswqh6aSSQoxi0Cv7oVz-Hv8aB5QsfjyEy9ShL4gLqg3L_jSmia6hP_44eNtwB"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-traversee/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Bar à vin.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default la_traversee;

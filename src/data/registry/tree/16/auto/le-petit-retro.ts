@@ -5,7 +5,7 @@ export const le_petit_retro: SurgicalPlace = {
   slug: "le-petit-retro",
   name: "Le Petit Rétro",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "5 Rue Mesnil, 75116 Paris",
     arrondissement: 16,
@@ -103,16 +103,19 @@ export const le_petit_retro: SurgicalPlace = {
   expert_catchline: "L’âme du bistrot parisien de la Belle Époque dans un décor classé.",
   insider_tip: "• **Le Décor** : Prenez le temps d’admirer les fresques en faïence dans la salle du fond, elles sont d’origine et uniques à Paris.\n  • **Le Plat Signature** : La saucisse-purée est un monument de gourmandise, simple mais parfaite.\n  • **Réservation** : Le lieu est petit et très prisé par les habitués du quartier Victor Hugo, réservez pour être sûr d’avoir une table.",
   specials: {
-    cuisine: ["Bistrot Traditionnel", "Française"],
+    cuisine: ["Français"],
     drinks: ["Vins de Propriété", "Digestifs Classiques"],
     must_eat: "Cuisine de Bistrot. Saucisse au Couteau & Purée & Île Flottante XXL.",
     must_drink: "Brouilly en pot"
   },
-  images: {
-    hero: "AU_ZVEGrCXpEFK__bmAGdhu33eDgDXjAyd_HA98RqIloYHTSP8flAoqJB8DkthsZgLtI01rm9Ryd3TqcufntIBW3Subg5ExgghdY4Jb6Gv8W01pxt16V9qscTeW3mfKzzTSc5D3VqY0oc2yK2g7L5TVJL_iPmqCZA8R-OYf7TWmzRAKWFOeIwnnXbqIBMyNthBVDypDah8b5ZxRSGMWPfJipgDgkF1iueDDnPjt3aLjV8HUJLElGLaV5jbrjxE1beL7MnZ2K8hfkooHkksp7cgWALcSpp92BGo_hKxdBpZ1pikgM7A",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/hero.jpg",
     gallery: [
-      "AU_ZVEEYX68liLAd7jqAjk-WCAQtkpCGhvfVJiSrpmj4AE7Yj3D4vdWJg47H3gas9bfXo22kwkRd2gnhjmoRnOo8yFk5F8eJaYh1hvauccEOHG7c665avnC-UgfHhQYjt-xOTbQPBBUGdob5zSbC76NdSAqesmqFmi1C3CDovebeLcE2ga0-SDtKk05vYOgKXmz1E0ibYWI2HQf4X0fdUZ8d8r9ix8BLEDq8-cQoIeCSg8Szaga7dNNOWthGhuGCn_0bplD4QAPDfJ26i6yGuwqOKXQ5YhqaX9i99s7DyeiwyZas1Q",
-      "AU_ZVEGGrBoyoCJfzX99XIV547kbgucyHbz0zqxVrZxK59Zu0VQAYDHHjsHl0ENH3J2RgRhcNSwnIxD2S7FkHVguBTZLaiYKbTW76VrfUtk9038EAxwGt7ENIF1YNhuPQEkwlpy_G4Qaj8LkbmFt0dUqotXVaTnAaK5bnOd5Vz0af78CN5v2C-nX8vzqobeQKmB7b7-qmHuWojcaLptFEbqNyvYv8Ye65vxAw3YpThkoRBKW4N3IZ9mvT5vx5schThHFR_vIeZm4e9grOlfZuQYlpNGTUvrpThj6qpdzUxCUZhD2xC6tZklXlOaFj2NdsBjb1ZhjKVE4auutEXDw3VPKXzQW_QFiNwlvJ3Y9r1Um0dm9K_5VpfsPTXDFnfX7oKT8iYuVY1STlkEfcPtq-3VCW6-jDSwnZWVvMdlHNqrveBxl3k4qTrxbFMNM-Vk8ZEcW"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-retro/gallery_4.jpg"
     ]
   },
   verified: true,

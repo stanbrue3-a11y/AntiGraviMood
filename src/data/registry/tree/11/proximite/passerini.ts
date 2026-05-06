@@ -5,7 +5,7 @@ export const passerini: SurgicalPlace = {
     name: "Passerini",
     slug: "passerini",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['italien'],
     location: {
         address: "65 Rue de Charenton",
         arrondissement: 11,
@@ -91,19 +91,34 @@ export const passerini: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWFpIDM5V9_74eM-SJiP_8eivedBJBGZ4-Lco24aiNHVDFRrGlQVKocOEHT34o5OUQMcgJ2KI2P7BBFukGHqkeDKlNwSAlIZFbyghaSZ67MShuRH1b8P1372_geYGYyXTVa2kbkoEFLg7tIhwhi-_No_tFcOJKSINWkECAypAVWadWeqQOS6f-N0s3mgzbEMLJTnT1gEE12VHSDsTiCuNfc3oV_ju7P90jBQKCyj6pBrrKQaJ5i-czbG-oAtmW2N-UxrWyE19_Y&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/passerini/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Giovanni Passerini est le maître incontesté de la cuisine italienne à Paris. Dans son restaurant épuré et lumineux du 11ème, il sublime le produit brut avec une technique de haute volée. Ses pâtes fraîches, réalisées avec précision, sont devenues une référence absolue pour les amateurs. Pas de folklore ici, juste l’Italie dans ce qu'elle a de plus élégant, moderne et sincère.",
     insider_tip: "Si les réservations au restaurant sont complètes, essayez ’Passerini & Figli’ juste à côté : c’est sa boutique de pâtes fraîches où l’on peut aussi manger sur le pouce (même si le restaurant reste l’expérience ultime).",
     expert_catchline: "Le temple de la pasta et l’élégance italienne par le maestro Giovanni Passerini.",
     specials: {
-        cuisine: ["Gastronomie italienne", "Pâtes faites main", "Cuisine de marché"],
+        cuisine: ["Italien"],
         drinks: ["Sélection pointue de vins italiens", "Grappa de collection"],
-        must_eat: "Les raviolis du jour, une démonstration technique et gustative.",
+        must_eat: "Cuisine italienne. Les raviolis du jour, une démonstration technique et gustative.",
         must_drink: "Un Barolo ou un vin nature de Sicile."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Les raviolis du jour, une démonstration technique et gustative.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

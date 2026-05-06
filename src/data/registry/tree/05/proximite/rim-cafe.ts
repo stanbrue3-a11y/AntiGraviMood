@@ -34,8 +34,7 @@ export const rim_cafe: SurgicalPlace = {
             "url": "https://www.thefork.fr/restaurant/rim-cafe-r528773",
             "label": "RESERVER"
         },
-        "cuisine_type": "Italien / Pizza au feu de bois"
-    },
+        },
     "pricing": {
         "avg_budget": 25,
         "is_free": false,
@@ -91,12 +90,24 @@ export const rim_cafe: SurgicalPlace = {
         "must_eat": "Pizza au feu de bois & Gnocchis Pistache.",
         "expert_catchline": "L’Italie authentique au feu de bois en plein Saint-Michel."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUVRdVZ8Ydyu-z7KfXrp_5zCTP9tN5PaBL7PTls_7TEbtZoNijhfrHyoTSWZS894N63qhptV58x4_7HJrBlMJkhTPjMGuRdLRnuoW66RsGeKeO6wVKriErl4ktxzSr3CKqPZqI1IrTd-uarSj1bwbYtruCgwv6EsIm0DjLYgslxfapyt1qd80lFrsb3ssSK4MzhfBuh-8_29Xn-2jIfW-rXqTy1aZd6Cd7vZ_b1ZmJk6cGDdojl-_t50eYaegxA2HKMwrOSPxrGg9jHURtLAsDTXgrKCQtOLEbuH6Vs8ZvhjHbaZlwy0HPXwJuCul4Qg9LlHcOZzsbhkOHiHW3tL_PXA3uAGMOeDdwVOTGpSpNsZs3Yak0qX3SSFj4HyVjrgN18wF5_NmEXYlfoplUKSUZdNfJj9C-YGbgaDQTTvq5ZPj_maGU4KsZOsiMetS0JgRZpwVBb30OqQm31ZwcBjzxw-dkAViC4DEb8RQavRBjfpDNPjzZCSMHrDSRWhWukUJAGAjR5aCAwW46IpplvPbt-D8HvBMVC5Rbgww-2iHWhDkL1ZnPRBJ6GfPH6b-zZ1PCVDKyuNKYcnA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWGHvyPPPzNhVOunSc0CodHdKuwmRg2g5EMXcIaZ7dHInzKkpSFxJ9IvBuwpFpo_jS1V5thCLBIpgAjoeC-5VfnKjwq6oAtzJBwItU6GPDQyZkc0tFFchZVBnh38dglyT_xGPMrbUwQaFbo4OAWqL-5q-_nHxaDEPkzWAWSFXiHQ4qiz5bKGSIErxwD0wZb70YrOBpOxTNV_8-HkWGqCZugKEvLYdWA3ss3ovzBdrB4EGtBAjElewBtsoJxEiQHdjjfeLko1Ob3cZNpc_LUJoSO5RNSatJZIxyaSw2CIjZGqeS1m58ajDNjMSZFwL-31C7BdsXZsik5ezn4YqR0u5oqIvApT6vw2-c7qKCyn9GjL3vKWfyACHm4EWf2kvUoYrIeVM9LQir06c7DkRDcUQ1uKCy4k2Xx-BLsGHsCshX4HQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUJVZfJ7HT0Hv9RRg4koZSvZb96ejGQJia-BVOumUtP-20TqqJ0jMqw_uFqfEgQw_RbyvpKpoJWHh9eiDS-Pp2KoMr9eHjBz6LrkgksM0FDj7zHmaLbeZYmuAjH_d9-rgICrgtXNhSYthuLxwYPLVD4B043EzKb8Yo7S5Z9qb-NjPmW3h_L5Sd7A2TcpkFPrQrL06E1ayq19NfqscunPfoCG2VzoQQx6jZ-zfIK8Oo8mOJMDBL7jRfgvmQTMXBteBO4F3kMtJETIxZbsdOuZ9FHVAccBMVlaotyACzIClInmg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rim-cafe/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Italien. Rim Café.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

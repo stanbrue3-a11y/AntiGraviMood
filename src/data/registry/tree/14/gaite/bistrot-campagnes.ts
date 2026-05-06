@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const bistrotCampagnes: SurgicalPlace = {
+export const bistrot_campagnes: SurgicalPlace = {
     id: "poi-bistrot-campagnes-75014",
     name: "Le Bistrot des Campagnes",
     slug: "le-bistrot-des-campagnes-paris-14",
@@ -75,22 +75,35 @@ export const bistrotCampagnes: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXBlkMs7WpnipAgBFtRK4ccj-zjpm-vLUGx6n7Hlv6UMLNzaLiHmheYT_f8XFGCG5BEZFWgKeJnJCssO3d-zRfjrn7tyf6jwR3nr-m8P0kAjMth7EuW3uv0DQ12TmPstU-ECVlIDy27uPxX19p6jUqU5VLssRzvp9dSfPSsyl2sLPNDX1rlGQxnvAyXVKFTrzcYDPbuqVO1ASFWnxtidmzPDvH2k9bWybeUvu7-UjKxJgvuM0RJghlRhcZBVv-RxXD02dAUWkb1cFJT861zRhOrS3mCucTnLbCZ0n0hE4jGDg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUfbh9dZA9jtr8hTl_BImlCHIjl7vAZ18DQPCou6neozS25lN91rMQKY1dWP9Boek5SOoHTecUnCDIFs2Lpe8EzuegobPwldYsh00u3liBwXUnk_yKRPL3BkRJodS41S3k5eUNPNTJAGpxVOxWHioRWQ92D-5zJrB6-k5QhUvKP1qDZxryqQ_MWemwoFbZgPZGcJ3zZ_aAXj2OBaUOkKywNV8B46qzp15TmRbxY7aexhOJCTVQRufGY62n044nTccKkhShl6lhz10vwuZz6coshe1kzr535q2pM8HeWMCDsRA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Bistrot des Campagnes est une véritable invitation au voyage dans la France rurale au coeur du Paris moderne. Avec ses boiseries sombres, ses nappes à carreaux et ses affiches vintage, le décor plante le décor d’une gastronomie généreuse et sans complexe. On y vient pour retrouver les saveurs perdues de l'enfance : des mijotés longuement préparés, des produits de terroir sourcés avec soin et une ambiance conviviale inimitable. La petite terrasse est un havre de paix idéal pour savourer un bon verre de vin de pays.",
     insider_tip: "Ne faites pas l’impasse sur l'andouillette si vous êtes amateur, elle est certifiée AAAAA et parfaitement grillée. Le plateau de fromages est une sélection tournante de petits producteurs de nos régions.",
     expert_catchline: "Tout le charme et la saveur des campagnes françaises dans votre assiette.",
     specials: {
-        cuisine: ["Terroir Français", "Cuisine Grand-Mère"],
+        cuisine: ["Bistronomie"],
         drinks: ["Pichets de Vin de Pays", "Liqueurs Digestives"],
-        must_eat: "L’Andouillette AAAAA et le Confit de Canard.",
+        must_eat: "Cuisine de bistrot. L’Andouillette AAAAA et le Confit de Canard.",
         must_drink: "Un rouge charpenté du Sud-Ouest."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’Andouillette AAAAA et le Confit de Canard.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const present: SurgicalPlace = {
   slug: "present",
   name: "Présent",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "13bis Ave Parmentier, 75011 Paris, France",
     arrondissement: 11,
@@ -109,19 +109,31 @@ export const present: SurgicalPlace = {
   description: "Présent est le prolongement gastronomique du concept-store Aujourd’hui Demain, situé dans le 11ème. Ce néo-bistro éthique propose une cuisine 100% végétale, créative et gourmande, loin des clichés. Dans un décor minimaliste et chaleureux, on y déguste des petites assiettes à partager, des burgers d'anthologie et une sélection pointue de vins natures et de boissons artisanales.",
   insider_tip: "• **Le Burger** : Leur ’OG Burger' est une référence du genre à Paris, même pour les non-végétaliens.\n• **Vins Orange** : La sélection de vins orange est particulièrement bien sourcée, parfaite pour accompagner les épices du menu.\n• **Brunch** : Le week-end, le lieu se transforme pour un brunch complet et très prisé.",
   specials: {
-    cuisine: ["Cuisine 100% Végétale", "Smashed Potatoes", "OG Burger"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vins Natures", "Matcha Latte de haute qualité", "Mocktails signatures"],
-    must_eat: "Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l’extérieur, fondantes à l'intérieur, un régal absolu.",
+    must_eat: "Haute gastronomie. Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l’extérieur, fondantes à l’intérieur, un régal absolu.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFvS1lPfx_JcTq03zp4WUwC0XwJc-3PWMcX9plf3erEvZNbmrVuJSidqVPTePjp-HSA2J4hQnA6CvxRbV7KNW20NHdqdUIp-fS5NAXQlAta-589SjDnTXzKSKl3apQBSMagrNPmTLAP5TQNvc9caH9CywB-E_ujGJJ46ehmfWPklPG7BuVG0d82sX9X2rZk3RbFnC87x9XQmeMKr2nTaTT-75fX5LSLOsFvnNzSCrddT0flGuwMB64s-KqUEafaI8LLEgkAiRB1aS7Z-UBRdaLKnRw7IfUssfzen-PH6TWcJg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHiUoR8V_FGhlGH93EO8xnJ0crCWP0y-EMLRCt3NmV0NxoTt766lYk9hc42cPZ-mErAn7teR2n7p9_z9N7knA50hC4Dhe4eWlDmTJPEliF4_1clg_nEpfhpllyvTRJnQ2RGisjgr5zs3ItFP365lP8578Vv5GT-PbBErkuD8SUcxdkmZPyh7vlPRvYn81V9vq0KUKxcDo8SbCs7i_GhRG-I7DbLvGukZeUEmrRuQvB9keJGcy02SN-M0b_Y6pAPDIZ4zLp4lIbtHgKhhFAGrbmdEI65Sgv0i8hSNfRAdRjKaQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHXKr_3kHHcRqLJFxA5wf7Y8W-unZmD6UaqPx8qQI8yqevnXTPNRrLDfD1wqh1HFjzOLTPLMGpqJ5UeI-csB-z0LTsgPfaw0xkZzl2in0-vAbCUmP0GreOZfL5-suAxFtCBFoC0S_2tjpC0KOCPl8-6tEW_dkYK_SI8Zru92r4B7489ld3hK-xUy88rVGvswLAvFKEhqD3n2CNubz0HuPPKLGvvmNLi1QebN7l1Q2sP43qMl6IsJ-f3_6dWjTPFmpEgDxuldyTlxWeVX_LaJXO_7W77Knwl0yaukJsFYkE3CQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/present/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l’extérieur, fondantes à l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default present;

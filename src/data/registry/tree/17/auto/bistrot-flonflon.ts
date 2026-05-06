@@ -5,7 +5,7 @@ export const bistrot_flonflon: SurgicalPlace = {
   slug: "bistrot-flonflon",
   name: "Bistrot Flonflon",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "2 Rue Brunel, 75017 Paris, France",
     arrondissement: 17,
@@ -90,16 +90,31 @@ export const bistrot_flonflon: SurgicalPlace = {
   • **Côté Verre** : La carte des vins de vignerons est une pépite, avec des références canailles à prix doux.`,
   expert_catchline: "Flonflons, bons vins et assiettes canailles.",
   specials: {
-    cuisine: ["Bistrot festif"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins de copains", "Cocktails"],
     must_eat: "Cuisine de bistrot. Le croque-monsieur brioché à la truffe.",
   },
-  images: {
-    hero: "AU_ZVEGTO_ILqSBryyFy8X6HAuOQ53qY_M-s27_m0GVgMb0vMknkN01fRNsVPJe_oBh-7okfLW3aA3flUGa2hvWe4X-S4xsClwKyTEVFAX2FuAl-6gc7HvnOTFwvHpP1qnaNZVFHvF0BDFm3c7kkceDeV1aq5b0_6cJgUjSedVyX7UaSvOMcLJiDHqw3hP7niowBR5_q1OT2auMX7_ByIS8F-UYhnc-WYer3FJlm_Lgo42BAlBSF7820DSeuyVyQAS1Coqx6WTEBeyVYFWXhKNy-HHj-68LNqq5eNrOsEkP-tyJ-dA",
-    gallery: ["AU_ZVEF23nO-e8WCmtqqG589_laya2Auo8o7L4vNGPHkpnvI_9z6k3rEP9JgxaycTMpN2Us_PHpkjReWQGmEoWqLWancnC4Ssp4c2FtYWvoHeEr8uS9o-fMXuFWAZZIAEu8aTI35xBTrbG_jsUk18IYT5k4ZyD76ct9_K2efhFng9KlrutQgxMLRdcBqg26T6L4yykyKkAK1bX8Jo7oVAMFjRFpqsGGR4S8WJHSE0J-oYFRfaeCBvzLckBlhxNMCaY1_5Jt81wHGZJrAHhNJTY3A9ljNV8-mmoDPV4yx3ZJhzQZr5g","AU_ZVEHbWci7k-CpNsSZSkMP107RMkIDFchmIb7zxXGLA90SOd2Waa5QHYqbZ5B2kkoGyT6nAdZNJEVP8pMVHV0KgJaYYep5JgmNlA5zvs2IoRFCKcXVEei53w4LU8bSyMOD35kLIxD5Zp_JBFb9xoh2MJe_hikteK9d7Ysxxzx-kG-ob_sYqev3ndpAA1E2b4vSpJJGSuAOTQwunFiIgW1dt_jhLSFBu0mSEd3NX6IysXOLrhM0pJ3r-1N2YAzO5vELAkAAUyujSdlce7_Zw-P2-c2ApQTsD8GapIc5SxswH_wDrJta3_g554BkuLbSyKcAFmK9D9nC3Qq_oPTEcE-jUWk1u9dqk9SGDmfurvikgUgpSxyOzec19yZ91aldadGiIaMb7crllqHxs3asAgzb7zRZwdfCIGee4DuD6GJ2lzChP9k1BtnxOhRXpoP6wyXF"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrot-flonflon/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le croque-monsieur brioché à la truffe.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default bistrot_flonflon;

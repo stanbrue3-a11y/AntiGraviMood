@@ -5,7 +5,7 @@ export const lao_viet: SurgicalPlace = {
   slug: "lao-viet",
   name: "Lao Viet",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['vietnamien'],
   location: {
     address: "24 Bd Masséna, 75013 Paris, France",
     arrondissement: 13,
@@ -106,16 +106,31 @@ export const lao_viet: SurgicalPlace = {
   • **Spécialité Rare** : Le Mok Pa (poisson cuit en papillote de feuille de bananier) est une rareté laotienne qui demande une maîtrise parfaite de la vapeur et des herbes aromatiques.
   • **Le Secret des Habitués** : La formule midi à 12€ est un secret jalousement gardé par les travailleurs du quartier. Arrivez tôt, le restaurant se remplit vite de locaux.`,
   specials: {
-    cuisine: ["Laotienne", "Vietnamienne", "Thaïlandaise"],
+    cuisine: ["Vietnamien"],
     drinks: ["Beerlao", "Thé Glacé Maison"],
-    must_eat: "Cuisine Lao. Nem Lao & Mok Pa",
+    must_eat: "Cuisine vietnamienne. Nem Lao & Mok Pa",
   },
-  images: {
-    hero: "AU_ZVEFhPNQOaLMU4yoZwMwIV-Dj5q5-rN13pF9qXUThyQjaJguxT3sWxVkBcHCrtKT-jiwzcacs9bgPyIniV2EpccCm3LJBncsQQtYlrzUPSQBMpaeJNczIb78tFqpGDsSkHiHwrBThJ-7tQaR-Tib1SN8GtCwMPUfIJHB9O4lmdWnzTXlW8eA8gMYiGYCEDkgtYRHNALoDc3K_mvQeuhOWhkU7CEvk-jADwdRDuS3DI8R_qk50JiMMBbYZikj2MGLURV1Q3fsgStpenq898o_JqT0YEvzzPgAoRFoMTRk6zmvrwA",
-    gallery: ["AU_ZVEF4u2-d4ypCN59JNhtz5qeIkb7ZQO1xMTkv8WQvdODRs8zsCZvNrKEGdcPec8By21IJwR9Ye9QpXqezsMU_hGCJkJSofqHxllM0zFUhY5VvAILLrrCzkqgIGO7dGrYYDUnnCjH105Y6oHxqqWc_glNUujw5Qg7G4GrO-wJYuaYmsWD0sMLrn2Rit9RVwJ1p8ZnJEXXLvL9fOod3dvAeHq8l9rzNEyJa71OC6R6MySJmF0XSSnOKpU2WYG3jOdOdHCADUFQwzMSSocS1kUaDQf6BxotGqYGP6E4m4oXniPgwTQ","AU_ZVEGRTJze2GhA4SfFJOQlhd3OAY0SYdPN-EqMibjzvUaZI4XU3wFmuzvwpxEgpKVZgzRV5V0sI9EK8llpDDdyvkLrcuci0re3BqP0DiTHWdvGxLdLXoSPyq5eo8i989VqgM03AFvA97WURmdK201VeP1izUPwR7KJKFltnEp0YjQ6Ljm4yADDG9jO7qgGhZHg6d3MVgBb1mY3ojjcX_V1Y2ZKM6uwVDp-d2amOIjQLEkEMRtDUo54S5KY_acblm6bl6Z2NtOpeiVBEJ4aOMRlf-90QZ2qdcnayGdjjsleWgAEMPLHV9eRWqkt1l95WMddocHC9TO6uatr14A1KidmPszysc5aM_wOwu99zRMILGWvO7v3aoGvNRyN9u39-8nnbUrQ6T_fBS89YBdB-3aQO3bAzVyW6kpOOA93F3jm5j2aP92zYu2r7ncAgj1zdCfG"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lao-viet/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Nem Lao & Mok Pa",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default lao_viet;

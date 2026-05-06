@@ -5,7 +5,7 @@ export const condesa: SurgicalPlace = {
   slug: "condesa",
   name: "La Condesa",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['mexicain'],
   location: {
     address: "13 Rue Rodier, 75009 Paris, France",
     arrondissement: 9,
@@ -111,19 +111,31 @@ export const condesa: SurgicalPlace = {
   description: "La Condesa est le laboratoire hautement créatif du chef mexicain Indra Carrillo Perea. Étoilé au Guide Michelin, ce restaurant du 9ème arrondissement propose une immersion sensorielle où les techniques de la haute gastronomie française rencontrent les saveurs vibrantes et les ingrédients du Mexique. Chaque plat est une pièce d’orfèvrerie technique, servie dans un cadre épuré et élégant, faisant de La Condesa l'une des tables les plus passionnantes et précises de la capitale.",
   insider_tip: "• **Le Menu Carte Blanche** : Ne cherchez pas la carte, laissez-vous porter par les menus surprises qui varient selon les arrivages et l’humeur du chef.\n• **L’Accord Mezcal** : Si vous êtes amateur, demandez à découvrir les mezcals de dégustation, l’accord avec certains plats mariniers est bluffant.\n• **La Table** : Le restaurant est petit et très prisé, les réservations se prennent plusieurs semaines à l'avance.",
   specials: {
-    cuisine: ["Haute Gastronomie Mexicaine", "Précision française", "Étoilé Michelin"],
+    cuisine: ["Mexicain"],
     drinks: ["Mezcals d’exception", "Vins natures & biodynamiques", "Accords créatifs"],
-    must_eat: "L’Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d'influences italiennes et mexicaines.",
+    must_eat: "Cuisine mexicaine. L’Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d’influences italiennes et mexicaines.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/condesa/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. L’Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d’influences italiennes et mexicaines.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default condesa;

@@ -34,7 +34,7 @@ export const PlaceHero = React.memo(() => {
           <ImageCarousel ref={carouselRef} images={images} height={320} />
         ) : firstImage ? (
           <MoodImage
-            source={firstImage}
+            source={firstImage as any}
             style={StyleSheet.absoluteFill as any}
             resolution="HERO"
             priority="high"

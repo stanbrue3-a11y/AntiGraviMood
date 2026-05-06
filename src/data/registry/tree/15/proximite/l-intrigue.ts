@@ -28,7 +28,7 @@ export const l_intrigue: SurgicalPlace = {
             "url": "http://www.lintrigueparis.fr/",
             "label": "SITE OFFICIEL"
         },
-        "cuisine_type": "Brasserie Française & Mixologie",
+        
         "menu_url": "http://www.lintrigueparis.fr/la-carte/"
     },
     "pricing": {
@@ -95,12 +95,24 @@ export const l_intrigue: SurgicalPlace = {
         "must_eat": "Cuisine de marché ’Fait Maison’ : du Burger brioché à l’Oeuf Cocotte truffé.",
         "expert_catchline": "Mixologie signature et sélection de Tequilas pointue dans un cadre feutré."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVYMQ8ZNnyw--q1NLNyHHEhUKpLT4-guMw1WYf1Z85nfTniDmEv5Te9EFekpFTgSfQZ6nP-zWzO3fwOlUFqCcwiIERvJNgHpPwxLa26y79RT4JgU4Jlm7seIwVqXJGAeaiADLatxEjZBQyuWZBN9J4X2K7WACVRvYJfqKJWqIvBtmmOtEzMO1moI986gyoKv4UP-yEu7cXFds6GbrADHQwwYevx0I0SmDgbFSI7Y3GTOHcoPBdgCnfZE49BGMzxjLU_1d9x6TACvvAA4BWKA8Ke0Et4usiBQiyLldW4Gr0QCBCir1eJeYca76BQGplS05ilAduNCGTgg2r1io3scZ-mWqfGt2pd-mZBmP7KC_57xi0mAmkZios1lzRAYPc3Z5udes3-39hWUe2oDHk0d9PfssPvjruHd2_YNcYedzFBOr-g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWbXVCrVdoUB52DgFmoU0Ct0P9xdfdVjt9LduFwHTRcvDDVYvPuy6QamLkzj7_S4M3OeAv-BkO8P-w5F5tSHYR8O0NiSFBeq0jf-XzqqhlwB_7CYDq7bPHuwh0uNY3K7YVMS7zogI7DstumbVUwbQbU213GmEZxzrrumuiKlZUwt70dNj1mktXIAhlPh6ABrp8iOuV18aKJe27vsy-QC4mfT2nRwKae89DsgiVNq84ICi7N7dOnCIDGVkwMZtBU2kJwMKfzS_IglvZLCaYkdthWrI9Zarsm8MEPSaVfHsi7oIOsfy0vpTU9L2yN6csehPBSOLBqRXiJ38NfUvYqczz1DO8djlu6KjG22EIu91ZX9i-raddccqHyjJpNU8q71bsNnGewlQqLDu_UZuP9wx3LXK21v0WgYaruhnyQY6BAOg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUiK6RUk7VE1IT3RPtsMaqEQTpJuzfgtqx6rFc1f3if_-oUrIZ24mOKKBVMsV0MnmcKuroS5RbZipyulpNNxtejPUADuUvQR07-4fCa-UABrJbtgNv1JGk3YyltBFBhjyi1cTnedRvNYzTFR5wsGsyFBvxlQAOSmYf7v-CCHGTcWZ6iIHnlwVQGydZZbXcXQc3y1NcimHEKw3zwX-k1XSAlSNUor3yZmEDutQ--3MWPfFIaSDYvEXfqn0vpvjIs2G7unHKhemGMZNJevdmw-jHi9CsW9LAYnMQynUCnUY5RNf-z9Xqrwy3YeFVthE1IXpZVep9VtRPlpu9UVT-TMhFR6N9scZUIY4oE50DGgR8IF3VSA3rRrUhg1uVBNY1Zf7VAjnTO276n5Mr5IOiHm9i8dDylYOLAlhr9rNpJgNJgGmbE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lintrigue-paris-15/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Bar. L’Intrigue.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

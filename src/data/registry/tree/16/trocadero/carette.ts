@@ -98,16 +98,19 @@ export const carette: SurgicalPlace = {
   expert_catchline: "Le mythe du salon de thé parisien sur la place du Trocadéro.",
   insider_tip: "Ne faites aucune concession sur le chocolat chaud avec chantilly, c’est l’âme de la maison. Évitez les heures de pointe le week-end, l’attente peut être longue sous les arcades.",
   specials: {
-    cuisine: ["Salon de Thé", "Pâtisserie", "Français"],
+    cuisine: ["Français"],
     drinks: ["Chocolat Chaud Signature", "Thés d’exception"],
     must_eat: "Cuisine de Pâtissier. Chocolat Chaud Carette & Macaron XXL Framboise.",
     must_drink: "Chocolat Chaud Maison"
   },
-  images: {
-    hero: "AU_ZVEGz2OYpcSwzNsTReqsQObtr7FSTqaFGKnzG9oXdFa4qvECcuN6EP_5cwsXp44NlOQDFgxNBEB73ADBm3wvF-sotcU7EGInkhn6c4ih35tp6A0QE3usPkbCCt-isAIitzGmZHPJxl22l-6woc8fvPAoai3pAGw_bjuHaRoXd1cjGSFoyZCkWpcj6EOXaP1Ye_pif_UjL8gaoBdCKfzWTApvmBVMrn_ZGZ3bu2W1m3zM5zgacVHaGE8mlT5kIhKL8l7S8lqpKSOTCXFgpooXDfci7Goo0Sf9A7R0SW49ZcavXttZVMiEPK4yG9vYd8Siiec3KdKFXoDWlZFom5M37homgphfY8LPn16oPR2Jl66x4mabs1Bo4_48eaZjqcQof0hZb1jtXnJiwMkJ6SQkpg7bWUyh3tY5S_ovP6P2XtuSRyr4",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/hero.jpg",
     gallery: [
-      "AU_ZVEFcpkbzeySTOns6utcVQVQ_9koWCTFHyNLuZ5419VNRnm5fCfr5jLQnM_UBEYV72xqnPDeh0mmCPTwgF8R_tvNe78wP0KIFPs4rutQQF9FC2_zJtleO8X_055oAGRYinc0_vTE4l59eO-4NvRMmac15QRYEUUrE_HMNAduK2MqvccgytArrfB-BaKhLNJvfs6AYtIEfbas81PfcO-8rWG94hfITcM69v3h41SX-RzHc5SyqOk9nJm9WYMm-jSwd6u_0sxVHP_QnI1myq0msD-_h49Y0JZOSvfQpaWmHa_ceJOUSAwUuh7TtC_UdsB-JxYbiG3toMv4XwrXnfmGETZ33_HBoGlXGkCkloBQcSEAZNMHhNx1l2-4jZNTXKwDeBtd0SwpJXXZHzrIvaMDigbUfLp6JDX1XcSdg_Uol2ykqwg",
-      "AU_ZVEE13qtIwyAMfKY2Di-cM_KDQgua_Am75Cf_S7JFa3H3o1f0nYn3BsuHG4HrGBpN0W-54Ep9UttWI5YgRciVO2vdo7EqKKKyhQNBT2vA6evbYsp_T_s4bVTNCSuXjTgNDZzkhVcaaqZzwGVhk1Tfp6A66nUjouvt8zlkqDDDXQJJm93cf6be56mSeZ1soOchKe9Y6lkzk9UpR-VsaWy-xVKsqF1nIdvXv4abevmv4oEoxl1Wur2Nm535wfzZCGcmlqYbZdNQXlTvfPKd0qK9JORpe__oJy52MzGFdmEaba4Us6zZWn45-3qsOvoB0Bc8twHt9-uhFolTfPsBzkiyvmOGRINQQVuG3n-QlC6HCFJLCtMOGhqyQQoYLSptei0IQY27rY-r9W64wnHNnj7q3X-w4AvptiHNKWFcCbz5VYyZ_9YtLEsyIMKqkjQGGWKx"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/carette/gallery_4.jpg"
     ]
   },
   verified: true,

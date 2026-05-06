@@ -5,7 +5,7 @@ export const saut_du_crapaud: SurgicalPlace = {
     name: "Le Saut du Crapaud",
     slug: "le-saut-du-crapaud",
     category: "restaurant",
-    subcategory: ['français', 'méditerranéen'],
+    subcategory: ['mexicain'],
     location: {
         address: "16 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -78,21 +78,34 @@ export const saut_du_crapaud: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV8_ih4RdnJvTJxujs41mbMjhpfjXEuxSiYHp5yX8ArtKCkCpczzoBLwtWfEq1ytDDIqZc-Edx07dAZCa39xgid7aK_FSGNPKmTAF-Y7PSb22XLnal0-VAQx0CFlc_sLnh3YUlHHvTaHREb0NZkd-MxXPLd62NXVD1qdyC3BBsgxPaQfyF4RAytqroMBbbYalQACklZdSvW7WpMYRfwlKLEgCFgduDSr_tP88BUSxU01ymHKO18fnryOoQQGDyGOapGeLaWHw_SMv3jaYY_xf0DJh9PA9P0iawLEXMlKB52Bg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWcyrNYZwDrxoPbmzYvgT5CW25_EJoRsS9odhRnuZtx1IWskpdxtRFQtkcAZUwaKPTB0hHonSg0LgESTEhjscdM_Dmt9SUf7UmlRLjbmhlJkjqWU_zN-t7GtJNP783vAReNr-eJWplQrPsIigldLiTrjqtPGxAwR5eYbtrDe7fKzFIdiQQAFSeb7v_CmXnpwS8xdU_GBxLjdAYrmGH9wK2shdsDuSzHT2_6pSuseqERXrGwCepHagzwuu27GAsmNFfl8Gkduv4kJsEcXi4A7BG08Avhal9viUNPhNXgARVXhQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-saut-du-crapaud/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Le Saut du Crapaud est la pépite fusion de la rue des Plantes. Sous la houlette du chef mexicain Marco Paz, ce bistrot de quartier dépoussière les codes en injectant des touches ensoleillées du Mexique dans le terroir français. L’ambiance y est vibrante, colorée, à l’image des assiettes qui swinguent entre un boudin noir d’orfèvre et un ceviche d’une fraîcheur absolue. C’est l’adresse idéale pour ceux qui s’ennuient des bistrots trop classiques et cherchent une étincelle de créativité sans chichis.",
     insider_tip: "Ne faites pas l’impasse sur le Brunch du dimanche, c’est l’un des plus originaux du quartier. Leurs cocktails à base de Tequila et Mezcal (si vous demandez gentiment) sont également de petites merveilles pour débuter la soirée.",
     expert_catchline: "Le bistrot fusion qui fait pétiller la rue des Plantes.",
     specials: {
-        cuisine: ["Bistrot Fusion", "Franco-Mexicain"],
+        cuisine: ["Mexicain"],
         drinks: ["Vins de Propriétaires", "Mezcals"],
-        must_eat: "Le ceviche de la Tia et le burger du Crapaud.",
+        must_eat: "Cuisine mexicaine. Le ceviche de la Tia et le burger du Crapaud.",
         must_drink: "Un vin blanc frais et sec pour accompagner le ceviche."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. Le ceviche de la Tia et le burger du Crapaud.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

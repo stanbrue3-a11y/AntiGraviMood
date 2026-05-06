@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const leDuc: SurgicalPlace = {
+export const le_duc: SurgicalPlace = {
     id: "poi-le-duc-75014",
     name: "Le Duc",
     slug: "le-duc-paris-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['japonais'],
     location: {
         address: "243 Boulevard Raspail, 75014 Paris, France",
         arrondissement: 14,
@@ -74,22 +74,35 @@ export const leDuc: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXyLDLt19f2ip5XGbez8Pm9IeI6mevJi4j6hUdHN7jC0q1BFyJpfGotjcJVPxZsK8AXNWfjv4ZOg0TCKmLPY2J6J3KbhiBZMXA4HLpB2_g4BGqV3PipqyXZpUBMDIlwxSEXTONsZwCAeRcunDlfvQBn0wiHCfuHDpXf4i9PBhjXQyIzRbiBnbeTW4iUEPSw-6wqMgyiJa74VwslGHDmNU0QVQdBnJyG_qWA0DYIiJ3R39NYNd4UtsaEYeN904ZUhx00hP59SZ5I0pl4mFo8d4eYPn52tKnJGW7UFetJcZ5JiZ5WwiGLFhhINhGMCUMYA2c4z8B4ropctqd-7P_rAGJPLsik9DHV3VlNLd4U8pY61R4M7GFtVeJ_46zWseMC5wBr6X4vslbcYidVEpsTHD1-LuvqU8fofmH586_uv7aoMQVtSYESIKj6znYn5QhA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV27zOQoVR6AAYVOygx0LFmkgkImii5q54Wmmr3Jr9q01RpuD2sdzAAAk4LkjRrOiv2eHWEF6XduXuWbr5a1Yd7DR7ReAJ-lrtMJjkmQMwtvVVGSJblHCV16lhExslERuj1ATZ9LnnwQZ5HKnbwdS5kyxVqz1lV72ZL9VEpOFFKxZEqknYua-Ty8rMRFYkZI8DMLW-PYDU2sC7VRBwZtm92pc1ygQbTO8gcqstTrb7Aw6TqcvCU0eBFmc9GPScaRWZujOBkcfO6RBz-If4pBi1rRCRt8cQfDYZjVoiY-b2HRQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-duc-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Le Duc est plus qu’un restaurant, c’est le lieu où a été inventé l’art de manger le poisson cru à Paris dans les années 60, bien avant la mode des sushis. Fondé par Jean Minchelli, ce temple de la mer conserve un décor intramontable de yacht luxueux des années 70, avec ses boiseries vernies et ses hublots. Ici, le produit est sacré : le poisson n’est jamais dénaturé, simplement sublimé par une découpe parfaite ou une cuisson à la seconde près. C’est l’adresse favorite du Paris littéraire et artistique qui cherche l’épure et l'exceptionnel.",
     insider_tip: "Commencez impérativement par le carpaccio de bar, le plat qui a fait la légende du lieu. La carte des vins propose des Chablis et des Meursaults de collection qui sont les parfaits compagnons de ces assiettes iodées. Ambiance feutrée et très select.",
     expert_catchline: "L’inventeur mythique du poisson cru à Paris.",
     specials: {
-        cuisine: ["Gastronomie Marine", "Poissons Crus"],
+        cuisine: ["Japonais"],
         drinks: ["Grands Vins Blancs de Bourgogne", "Sancerres d’Exception"],
-        must_eat: "Le Carpaccio de Bar et la Sole Meunière.",
+        must_eat: "Cuisine japonaise. Le Carpaccio de Bar et la Sole Meunière.",
         must_drink: "Un Chablis Grand Cru."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Le Carpaccio de Bar et la Sole Meunière.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

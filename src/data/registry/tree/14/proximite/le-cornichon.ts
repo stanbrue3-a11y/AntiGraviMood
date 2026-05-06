@@ -74,22 +74,34 @@ export const le_cornichon: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVXUdIeFZQbkObKmgaDWO6Joy-TQNoY7jtzMedte-Vk-TPtuZ6422fx9L_bJI6t-kEMj2mzjt6PS4PhFmHhicoDiK7Ua6cAbdMWDGqEIoDGzaNa0HjwHQzRc_9Cm-w68Uz53lqMd9_hClw_H-HjgjytwSU3oD6PravcoZaCEIMhXD1gruINW_k92xZAXe9r-kWLhf9GJocW0YJ-d58o5Wuc0NTlIXJB6Pi9G8avmEl5wEekEd7Xz44ihIu5_aToYUHUCKN0Jq0Exu5z77lXNbH3GteirQmje6aAJe7kVm6YAw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfViH3dg0R49N1nDaWHWU4q8LDAwEMKsUFCQCOW9ih-bW-bDNzGK2P0SWEeIgTz7Iq6dgbMxFoGt2OutnjYHJvqfpLeg8VmK1KA5mttE1WN7wb9MhCTfAukqsTj1HG34nB3qAAmViVL_FGOCtODlJ5I8eO4NgjDcHTxI8sxL9B-2gozUxfGZN_fWg06kl402JiS_exQiOsRjls3l-2t6WwhlpCqng42EfPtVmkCkmp9-GyRMZqKxuny3NIrpj8eC_HE0cOl32N-qvcDZHYwS6DhBHl8si3CdM_8Ov_UPk9Pb_A&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVy-_yam7FphOLBfan1xmT7D9zXZjVGJr8I5bqe-D5YCCIGgxYuHYoCxzeb8_jrSI-Rh1lg2peWv-48dRU9G4RX1aH5ENj7pYw2W5oHWMmz8t9aBCb3K5DXnj1xpnnmS_AYza--weCOgQY-yHfZdInEBBLnA-9KSXv6z7KVP5IsUwZVn8DMBjEx2Lm-ugjSbzlSFUI8-pnsohf2XGMdp00OKJwVDnBuSWkbacNPCtohOyR2EUw69S7BFHG2yxbHxFzgEN4VnLQXvQvaFRNv4ObZHXsDIpe6tVc1uqGw5xY6V-_fFyHe3T7REKE8-T6c8BzPfidKghlByf0L7tcM8g9Babbm6cGC3LtSJMjJfOFCuph_R4D2cv6kzzNE2rIAoCoxhrgjEAW2_tlzWOF6Tm_RsXE8Y9kgVsS4DjIB9f1Vs2ANrRjGVTb-P2OyyEdM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cornichon-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Cornichon est l’un des néo-bistrots les plus accomplis du 14ème, régulièrement salué par le guide Michelin d’un Bib Gourmand. La cuisine y est franche, technique et d’une grande finesse, privilégiant les circuits ultra-courts et le respect des saisons. Le cadre est sobre et moderne, mettant toute la lumière sur l’assiette. C’est l’archétype du restaurant où l’on revient pour la justesse des cuissons et l'originalité des sauces.",
     insider_tip: "Les formules déjeuner sont d’un rapport qualité-prix exceptionnel pour ce niveau de technicité. La socca croustillante en apéritif est un petit bonheur simple à ne pas négliger.",
     expert_catchline: "Bistronomie de précision et sourcing durable : le Bib Gourmand incontournable du 14e.",
     specials: {
-        cuisine: ["Néo-Bistrot", "Sourcing durable", "Bib Gourmand"],
+        cuisine: ["Français"],
         drinks: ["Cave à vins naturels et biodynamiques", "Domaines d’exception"],
-        must_eat: "L’épaule de porc fondante et le chou croustillant vanille bourbon.",
+        must_eat: "Cuisine française. L’épaule de porc fondante et le chou croustillant vanille bourbon.",
         must_drink: "Une pépite de vin nature conseillée par l’équipe."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’épaule de porc fondante et le chou croustillant vanille bourbon.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -86,16 +86,31 @@ export const chez_gino_pizza_feu_de_bois: SurgicalPlace = {
   description: "Chez Gino est une adresse de référence pour les amoureux de la pizza authentique dans le 13ème arrondissement. Installé depuis des années rue Dunois, l’établissement mise sur une cuisson parfaite au feu de bois et des produits importés directement d'Italie. Une ambiance de quartier chaleureuse et sans superflu.",
   insider_tip: "• **Combo Moelle** : La Pizza Regina au feu de bois est la valeur la plus sûre, avec une pâte fine et croustillante.\n• **Détail Authentique** : Les lasagnes sont faites maison chaque matin, un délice fondant souvent en rupture dès 13h.\n• **Expérience Culturelle** : Idéal pour une soirée pizza décontractée entre amis avant une balade vers la Place d’Italie.",
   specials: {
-    cuisine: ["Italienne", "Pizza"],
+    cuisine: ["Italien"],
     drinks: ["Vin italien", "Bière Peroni"],
     must_eat: "Cuisine italienne. Pizza Regina au feu de bois",
   },
-  images: {
-    hero: "AU_ZVEEe0JwxYjYSG2t8IayFjeGngiGz80ZNR5h_HCJbn7e_tpGZjCmP6NvjSLBa6G4YnyX_rIGHFXcetuRrud_d8Hb8Kc3XIoF2g_6pPtb2umZdABc11U-8uQpiPgbu4gLg8HMmy-APf5vtzqeJmYHqdypRlqeN6IgCEUKJhciqZ0uzBVH1fmCDRt-E9cUsEfjgHHhrlGkGAR2Z3dbOYwyOw4tPhSloxVCiIdj8Htz0AwQwAQi8RZtjzldV8BD2ED6JNWsYwC5S72mB8vfnHZHrGaQDGsSejUlOCeXHAJBwRbisUA",
-    gallery: ["AU_ZVEE1CLWgtKm1Un4Z7GSkuY_j8yvi26MY-0OaLvjzWz51SwDP-iVNn_c-T_vH0mFpCORXYJZcI_v02IVSFraM6ooG_TqdW30bt9HQY_hxu8fgGaMKjKsp-k9mS9TSAFrecpKa8u_9WCXhkTqwnHVPoq5QGaQx-oQos0r89232sk-XT-jsXynyuroMISPJOnnBb-oqVCPVtXPzEY7Cg1f26lf-kHGTRM0UozEco2DgR6U-3o36OGTf7rugEhR8DkJhBqXiwUjR_At2mstqI7CLecQy7n4s30AvWakUPoozmJJDHw","AU_ZVEFXZUQCN0DiOMKV4grhgg9B0Js58QdyOmtH6h-2Nm2C0rtwoMHeZmd9dJIULZRaB6mTUDVWEsd1tY0r-Xd3zI3EPUZBB-utZGINSOzUIVR86dCcAmQ9EPVwWDHddhXyCYze1L0n0gA049tmXBBn98rD_oHMxcOe-t74R7nL82TjHXTH9hnbKCNzCZgqLS5JT3v9w90gw_HuViMcgxek7zXMNA4WZ7nEdUHFHvapAxJKZ55d_AMXskvinHcISOSUE-MPvH0JIsVgTUFp_mDU3KLd3XgJSrCGC2U-mh9ygdtZCGX6iUMHEtu8HvN4sF_7qpOmA-Pi7127DAJ4YOVHCrnTRvEJR-zuKCGT-6VdjoaE_BLCLgf5vSf-9Iz1qAo2lXO-gGTzClu33-vUHXygBwbpRK4KzTOG_WssAuJm5pR6HuCZPRoRe2QriQv7acOD"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gino-pizza-feu-de-bois/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Pizza Regina au feu de bois",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default chez_gino_pizza_feu_de_bois;

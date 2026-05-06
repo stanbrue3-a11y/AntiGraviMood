@@ -5,7 +5,7 @@ export const zhao_opera: SurgicalPlace = {
   slug: "la-taverne-de-zhao-opera",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "16 Rue Saint-Augustin, 75002 Paris, France",
     arrondissement: 2,
@@ -85,18 +85,30 @@ export const zhao_opera: SurgicalPlace = {
   description: "À deux pas de l’Opéra Garnier, cette taverne décline l’univers ZHAO dans une version épurée et moderne. C’est l'adresse idéale pour un déjeuner business authentique ou une pause Biang Biang élégante avant un spectacle. Le décor mêle tradition et modernité avec finesse.",
   insider_tip: "• C’est l’adresse la plus ’chic’ de la famille : idéale si vous voulez faire découvrir les saveurs de Xi’an dans un cadre soigné.\n• Les raviolis y sont particulièrement bien exécutés, ne passez pas à côté de la version Poulet & Champignon.\n• Si vous venez à deux, partagez un Mo et un plat de nouilles pour goûter à tout sans exploser votre budget.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Raviolis maison",
   },
-  images: {
-    hero: "AU_ZVEFzULJwYsHqAej83Lu1CN5_6kEokcoBfAa02Cdhv2KLKK0Iyz4Q4EGVdXSWh0X1enifzQujtmVTHQXwgQ9p9ujIx0nxsXP_rlDxOIL7fXZ9Mq-UtYwwFpivbsIe-mD0lwiF4P5dToqW9Nawqaje5pe5cS3d_LVmLgfvDCvmtkd-XQ_pwMlVJa-Ly--MvENbSpmEVm-TlnvVwC3neG4QgKgqiHzVqKPUN4epNRm4P1h2RjpFSYj7y7LmMqZXhLeYarLlRgfpMJFbXJNlfxnfya9K__GxddkK0nY2ZUVjIagkIg",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/hero.jpg",
     gallery: [
-      "AU_ZVEFNtmdfKeAF-p1R1r8lynTG7TVy4-oURswhq7u0h0NBdWVTn-xU_7X60Q_u1ObNXpIIuTEcFOpdiGkRvBxx_Lib-55wDjbAa7tCb3q79Eyi6SqQnAUrSDSTIHZccwLaBwkIp631eR0X_ppoSZB3DaZrlJeEL2vASqQ9mPREYJuzLYgNYFcrhiF1FCBsyD965OWYDUOw08dBEDE-JzicbWdQtAW-e3CFToHVoJHKWhGzif7c_ezzO_d_R1MdOac47w7UZoVgVb2en-UxJapPtWIoFpt1bAsbMxUGtMWEq5hD3g",
-      "AU_ZVEHNesdOxuJouKnwyghpxiW_Ov3-flsBFN3RH5hCIVHEFQCCW6JTPamPTf54n48Yy3nDkdYQ_vmgpCps--kozkg2O751XFYCKbWkscTlHiZoYdiFfDQ272Uz1Hl_09rXAYTeIWsiFLwgv6Bao0V8cNq1ue64fLgffzSZaTB0t_3UY-d07oEKpRVheQ70Eg5KvDMNYTA20z6MWhP7mugYqSsz6grf3MU-TUdTGSYMF5puorqksj54JB88TDQw1IIpaz-n-HgDiqFdj_qTLwwKPEPZHKVa0TvKsfyTpxHTavAR8MnFS1SvLdQSndVcR0-OP5Z4NcE4o1RdPXWmQD8OUmbdYckWBftOLWv7xqcsCxe7a8BdhdKU0jQ_a6I2m1gz3Kkd2GduyfMPEQdN3Gj0ZuQOECr-uiSc-pqkmz3q3RYnu2bK1hGjlyaLs2wYKieL"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-opera/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_opera;

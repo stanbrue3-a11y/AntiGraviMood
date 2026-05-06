@@ -4,6 +4,9 @@
  * Standard Industriel 2026.
  */
 
+// 🗝️ HARDCODED FALLBACK KEY (Essential for build reliability)
+const MASTER_GOOGLE_KEY = "AIzaSyA1j0Ebdao_4hGkmhtGPZBAwxnGeWEeLf8";
+
 export const MEDIA_RESOLUTIONS = {
     THUMB: 400,
     PREVIEW: 800,
@@ -14,36 +17,43 @@ export const MEDIA_RESOLUTIONS = {
 export type MediaResolution = keyof typeof MEDIA_RESOLUTIONS;
 
 /**
- * Optimizes a Google Maps Place Photo URL by injecting the correct maxwidth.
- * This acts as our "Client-Side Proxy" to reduce bandwidth and memory usage.
- */
-/**
  * Injects the API Key into a Google Maps Photo URL if it's missing.
- * Essential for the PDCI Pipeline to work with raw registry URLs.
  */
 export const injectApiKey = (url: string, apiKey: string): string => {
     if (!url || !url.includes('maps.googleapis.com/maps/api/place/photo')) return url;
     if (url.includes('key=')) return url;
 
+    const keyToUse = apiKey || MASTER_GOOGLE_KEY;
     const separator = url.includes('?') ? '&' : '?';
-    return `${url}${separator}key=${apiKey}`;
+    return `${url}${separator}key=${keyToUse}`;
 };
 
-export const optimiseMapsUrl = (url: string | undefined | null, resolution: MediaResolution = 'PREVIEW'): string => {
-    if (!url) return '';
+/**
+ * Optimizes a Google Maps Place Photo URL by injecting the correct maxwidth.
+ * Reconstructs the URL if a raw Google Photo ID is provided.
+ */
+export const optimiseMapsUrl = (source: string | undefined | null, resolution: MediaResolution = 'PREVIEW'): string => {
+    if (!source) return '';
 
     const width = MEDIA_RESOLUTIONS[resolution];
+    let url = source;
 
-    // If it's a Google Maps API URL
+    // 1. Detect Raw Google Photo IDs (ATCDNf... or AU_ZVEH...)
+    // If it doesn't look like an URL, it's a raw ID
+    if (!source.startsWith('http')) {
+        url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=${width}&photo_reference=${source}`;
+    }
+
+    // 2. If it's a Google Maps API URL (reconstructed or original)
     if (url.includes('maps.googleapis.com/maps/api/place/photo')) {
-        // 🚨 IMPORTANT: Remove any hardcoded keys from old data format
+        // Remove any hardcoded keys from old data format to avoid duplicates
         let optimizedUrl = url.replace(/&key=[^&]+/, '');
         optimizedUrl = optimizedUrl.replace(/\?key=[^&]+&/, '?');
         optimizedUrl = optimizedUrl.replace(/\?key=[^&]+$/, '');
 
         // Replace existing maxwidth or maxheight with our optimized width
         optimizedUrl = optimizedUrl.replace(/maxwidth=\d+/, `maxwidth=${width}`);
-        optimizedUrl = optimizedUrl.replace(/maxheight=\d+/, `maxwidth=${width}`); // Prefer width for scaling
+        optimizedUrl = optimizedUrl.replace(/maxheight=\d+/, `maxwidth=${width}`);
 
         // If no maxwidth was present, add it
         if (!optimizedUrl.includes('maxwidth=')) {
@@ -51,7 +61,8 @@ export const optimiseMapsUrl = (url: string | undefined | null, resolution: Medi
             optimizedUrl += `${separator}maxwidth=${width}`;
         }
 
-        return optimizedUrl;
+        // 3. FINAL SECURITY: Ensure API Key is present
+        return injectApiKey(optimizedUrl, MASTER_GOOGLE_KEY);
     }
 
     return url;

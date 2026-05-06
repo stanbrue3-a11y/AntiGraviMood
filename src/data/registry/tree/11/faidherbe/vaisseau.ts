@@ -5,7 +5,7 @@ export const vaisseau: SurgicalPlace = {
     name: "Vaisseau",
     slug: "vaisseau",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['gastronomique'],
     location: {
         address: "35 Rue Faidherbe",
         arrondissement: 11,
@@ -82,19 +82,34 @@ export const vaisseau: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX_J-mU_W05_V5--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/vaisseau/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Vaisseau est le projet tant attendu d’Adrien Cachot, finaliste prodige de Top Chef. Dans un décor minimaliste quasi-monacal du 11ème, le chef livre une partition libre, sans barrières, où les produits mal aimés (abats, algues) côtoient la noblesse du geste. Élu meilleur restaurant de Paris 2025 par Time Out, Vaisseau est plus qu’un restaurant : c’est une expérience sensorielle, intellectuelle et gustative unique au monde.",
     insider_tip: "Les réservations s’envolent en quelques secondes lors de l’ouverture des créneaux (généralement le 1er du mois à midi). Soyez plus rapide qu’un bot. Le menu ’N’importe quoi' est celui qui permet de saisir tout le génie de Cachot.",
     expert_catchline: "L’ovni gastronomique d’Adrien Cachot : une cuisine libre, punk et d’une intelligence rare.",
     specials: {
-        cuisine: ["Haute gastronomie libre", "Focus Abats", "Inspirations japonisantes"],
+        cuisine: ["Gastronomie"],
         drinks: ["Vins de macération", "Accords sans alcool créatifs"],
-        must_eat: "Le Mochi Cacio e Pepe, si présent sur le menu ce jour-là.",
+        must_eat: "Haute gastronomie. Le Mochi Cacio e Pepe, si présent sur le menu ce jour-là.",
         must_drink: "Laissez-vous tenter par les accords boissons, souvent surprenants."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le Mochi Cacio e Pepe, si présent sur le menu ce jour-là.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

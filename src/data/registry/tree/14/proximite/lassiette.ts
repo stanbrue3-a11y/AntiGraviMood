@@ -76,22 +76,35 @@ export const lassiette: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXYyAF0mKs9ZhHzDWcR8ZhpEropJ0ulmkkDnTjNN3YSjzexyAtOT0i9Zz5-3wCeGpjCXMd1Ofh92Qg5DWWUC0Jv5ANb3CwBNc_JD_i-rrGjLNucCtd7-woo0OrEd3OeEpiyzq9ricCiBeBUBfOzKmsxXvmUQFqYUEGlXceuiOYPuxeGd4e2tWKgZJ4X5Or_j7GN7X7AIiUAQK7HZ-UUPtXkkOqbTKhfRSdyOHyYLyab6JpOdkEj3WXC9JVNyF6hmphSQGJ7zP51sr5a5rJq46eBRArqfGTTs4l_xd57JCdRBnSafxe3YfSdk7L7W_-bGSD5Rn4c_DLBJw36jki_GlhBJ0XWjrlrQSDMEEF1tLABT74W84FP7dPh3RQNkrM31cJELR_xnmKVhEnInaNga-UMW37Tonr4NzrsKr3A3Hj8AQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXEV1WsozSw7QpZ3MQN_kDcmupiIw3W5MiYFSxmefatTTCMvY9KJtCl0iJ5msQ8s4icQ3bK6s1004fTtlSsNC7Idwt34-YfdhGJLjW9IxeXZt_w0ttu8JApPYvj_QfWcLCNzVikX-hW6RFqTs3Ql8ffeJgB-Gd0hMDRxFvhu34PreJZvj-YtS-NNKj0QtT7Cjq23qh6GjJPcJQ_im6CH_7XZKnO8zZAM8KwzNweZtuM69F63rACnHhLv_cg6xKGNPeUyhfetWHFBjhekXW6VnIkXJmnXcO-hP0JNkyY9qSt6Q&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-assiette-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "L’Assiette est une institution mythique de la rue du Château, où David Rathgeber (ancien d’Alain Ducasse) perpétue l’excellence d’une cuisine de terroir haute couture. Le décor est celui d’une ancienne charcuterie fine, avec ses plafonds peints et ses miroirs piqués, offrant une atmosphère d’un chic absolu et d’un confort bourgeois. On y vient pour le meilleur Cassoulet de Paris, mais aussi pour des plats canailles élevés au rang d’oeuvres d’art. C’est le rendez-vous des gourmets qui cherchent la vérité du produit et la générosité d’un chef passionné.",
     insider_tip: "Le cassoulet est la signature qu’il faut avoir goûtée au moins une fois dans sa vie, mais gardez une place pour le Paris-Brest, l'un des plus fins de la capitale. La carte des vins, axée sur les vignerons indépendants, est une merveille.",
     expert_catchline: "L’excellence du terroir canaille signée David Rathgeber.",
     specials: {
-        cuisine: ["Bistronomie de Terroir", "Cuisine Bourgeoise"],
+        cuisine: ["Français"],
         drinks: ["Grands Vins de Vignerons", "Sélection d’Eau-de-Vie"],
-        must_eat: "Le Cassoulet Maison et le Ris de Veau.",
+        must_eat: "Cuisine française. Le Cassoulet Maison et le Ris de Veau.",
         must_drink: "Un vin rouge du Sud-Ouest sélectionné par le sommelier."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Cassoulet Maison et le Ris de Veau.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

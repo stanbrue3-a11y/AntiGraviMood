@@ -5,7 +5,7 @@ export const radioeat: SurgicalPlace = {
   slug: "radioeat",
   name: "Radioeat",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['fusion'],
   location: {
     address: "116 Av. du Président Kennedy, 75016 Paris",
     arrondissement: 16,
@@ -105,16 +105,19 @@ export const radioeat: SurgicalPlace = {
   expert_catchline: "La brasserie contemporaine et lumineuse de la Maison de la Radio.",
   insider_tip: "• **Vue Privilégiée** : Demandez une table près des baies vitrées pour admirer la Tour Eiffel tout en déjeunant.\n  • **Combo Concert** : Le restaurant est parfait pour une immersion totale avant ou après une émission publique ou un concert au Studio 104.\n  • **Brunch du Dimanche** : Très couru par les familles du 16ème, pensez à réserver tôt.",
   specials: {
-    cuisine: ["Contemporaine", "Française"],
+    cuisine: ["Cosmopolite"],
     drinks: ["Cocktails Radio", "Vins de Vignerons"],
-    must_eat: "Cuisine Contemporaine. Burrata & Betteraves & Cabillaud Vapeur.",
+    must_eat: "Cuisine cosmopolite. Burrata & Betteraves & Cabillaud Vapeur.",
     must_drink: "Cocktail Studio 104"
   },
-  images: {
-    hero: "AU_ZVEFLwRBhd55D-Guqz0pvhF9OnOdLK1VD_VoJ2R3x3ArFnQbMAM3TrxoQj0lCKLlXcMJyAKWSxwH-E3_ddDWjeZoi5ItCEfnkUTP5vXg5FevmpzxrlD6XXm7gVGwYKuJaAtWcAL-p0wJ1codI9r7NmvDDyzlTXd3UAzNRvtOnWJKoGxwojJ5OjzZ0jxKW0Lmk88RqHFQFWnIkR10LuE-YWDsm_ToqbBGOLU8kVWNeYZfMBNXEEArU0CfnqVsha_awtUuJbijbZ5cmdgLbiNUmYqlnvL1x1L5laTSFYZVxv-EAog",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/hero.jpg",
     gallery: [
-      "AU_ZVEH9HfhJTafbaqTFvEq5a_3j-4E0thpTF5abcwH85aVZIu3uQvF1tOFgshcolajhMXZIBTXrLr2i-fhdBU854xx8IITLdlwmqmeQCkDmBEXiTTLD0JhZ85Rz_ZsX-7wqSOScujZTOkNdP1SR_unBnBkEVn-r4g1PjanUDWmk4o0t4Bz1l7lTlvSkz78vCWhvvMeUzRFwo6Zbs2ZR2-Hv-pzuU5crBORftUAJh8qF6-ZukycHhTCX1rAOHGg9ZBOTk2JuQSukCZ6f4MQyIqQvtcgHvWTSYMg6FoBbOXaQu2V7Wg",
-      "AU_ZVEFDBlGPpznQXj5GBQ7vkaybsjFKnh9WbLFjN5hbWZFoGUWn69ITbou_w3c0IYH6oUu3cU4OLziZrHto824ku9UtZUx7tsWTsdxLkDk9rf2hXZq-10a5FDX9WLooBaEFSx70QjQExmRa2uSy1sHxZwK6l8yBPH7YoIg66vdgtEnHyYr2dzTvyiGvPptQ6A8wNcEE5Ro-XCmJ5NJHivXyH2k8_lPCzc4JcwoPBpruUXJDqinRDlnBCK0TYXOYTJBVl7GN64EGEOpKm93E64NWbi8y9_jhu51ymshRrBoiGs3H1pp25ukIQu7MRTozIO9qbIxuAkwlL1Jkl_WqjV8bbQZOnIeY4n3KHgIzXumWkk3p4W864AdFl2QqLB-hUV5vVGdOLAtL6HZUFVTsbSNfVgsSfR9GtiS1daSUu6T85uLCHWjY"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/radioeat/gallery_4.jpg"
     ]
   },
   verified: true,
@@ -122,7 +125,7 @@ export const radioeat: SurgicalPlace = {
   instagram_handle: "radioeatparis",
   real_talk: {
     text: "Une institution musicale et gourmande. La lumière y est magique au coucher du soleil, et l’assiette est d’une grande finesse pour une brasserie de cette taille. C’est le carrefour des ondes et du goût.",
-    must_eat: "Cuisine Contemporaine. Burrata.",
+    must_eat: "Cuisine cosmopolite. Burrata.",
     le_secret: "La table près de la baie vitrée offre la meilleure vue sur la tour Eiffel scintillante.",
     le_son: "Un mélange de jazz, d’électro soft et de bribes de musique classique s'échappant des studios.",
     le_must: "Dîner juste avant un concert de l’Orchestre National de France."

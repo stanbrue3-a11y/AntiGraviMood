@@ -121,13 +121,16 @@ export const rang: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXkCtgPgpo3bwCXqRJDyvwNQjwDYZWIwGl5FWNQ6ymzgJnO3YOnlBgDbGA5oDuXSn4WGGknzOAiAqIAgNFmLCPcwd9zbmicNWzryt0DeH35xE1Ht5nfrZrFdHNL7x86_Q4MPIOJEkMNzc-xMPxpT-7pDGHLnvOv06mp1FwNpE2uY_RRrwM4gewqVYUZ-cClM4daP_8ZOTFA7izNCMSiZgUVQh0fmj6lG2RVtZyQEu98iMFHtbAzlVJaX41G1GtdPGw854Su348NtNrKdXvV8rAQIyx3DshOuSxeQ5xnzK0rLg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW2to4ZdTwVPYtHlpl-hTpZRDfugl3UH4NsnXjEGS0_geXcG1KsOb3egevvXiIslm1XOhcm0sYjeQUYzdRFhDSfEJRwgKm2sWcgSPlyFK2Bfb28IY4cHL2UnusQOGOqjIjbmgs6iqYLdit0IbJ8jX8ZqO4ndpy_tZ_XAs4k4BNqOzH9CQRw6TjvdsuQPPByF1Q72GII0cTOdB13_DOZvQMp213J1Zvr2tlw0rVZGvCfijOvcd-3KdhChrrJYd1N2yRHosDksf6Lmqx9yvu3zT8_nQ1KEpZpf-wkyCRtSqTYfA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV_v12TR_TvqrpkCfZSLpG2w_urHu77uFSYnBRrUOLk9-As62gJN3iqLYdqo3cdvze1_XyH87_QcX3ky9DQDtF9ZExXAyq3PfV0MlpHVksf90pIs2FTn_VlobbrLgRS71yIsmdGpHjhrjOmlNo_ho99VNlxdPJlVlcTluq5PWAXeaP1D6D2447tstP3Sre_AFbc0BxRTKeKT4P7bZUORGWAJdSUfSXBhFhtyCg-y7Myl2o_V3JQVT3toh_NgMkti-YW5EC4Nj3f2wVzEw4RxecWPyV-0g8zbVcT44miRVnAhUhvTrt09CCBhmGGCn4ejQ2aslDhEeDS2GXXyaIcGlA8IYddkz5Hi2_cXJlpWOKTRSVSVNVZx8y5qFOjSwMXcT5yzcgWOfpcCEQvgq8_HKRAP29V3xcXljQlC0SaqvdwW6OXnDkcO38hDM4mEFM-&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rang/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "rang_paris",
     verified: true,
     google_rating: 4.8,
@@ -135,9 +138,18 @@ export const rang: SurgicalPlace = {
     insider_tip: "• La formule midi à 18€ (Butter Chicken ou Korma + riz + naan) est l’un des meilleurs deals indiens de Paris.\n• Le Garlic Cheese Naan à 5€ est indispensable pour saucer les currys.\n• L’Agneau Korma aux pistaches (25€) est le plat le plus abouti — le parfum des pistaches avec l’agneau fondant est divin.\n• Les cocktails signatures sont faits sur mesure pour accompagner les épices — un vrai effort de mixologie.\n• Les portions sont généreuses : un plat + un naan suffisent largement pour une personne.",
     expert_catchline: "La meilleure cuisine indienne de Paris : épices authentiques, portions généreuses et cocktails sur mesure.",
     specials: {
-        cuisine: ["Butter Chicken", "Agneau Korma pistaches", "Poulet Chettinad", "Aubergines Hyderabad", "Biryani"],
+        cuisine: ["Indien"],
         drinks: ["Cocktails signatures", "Lassi maison", "Carte élaborée"],
-        must_eat: "L’Agneau Korma aux pistaches (25€) est la star absolue. En second, le Butter Chicken (23€) est une valeur sûre inébranlable. Pour les végétariens, le Palak Paneer (24€) et les Kashmiri Koftas (24€) sont excellents. Prenez TOUJOURS un Garlic Cheese Naan (5€).",
+        must_eat: "Cuisine indienne. L’Agneau Korma aux pistaches (25€) est la star absolue. En second, le Butter Chicken (23€) est une valeur sûre inébranlable. Pour les végétariens, le Palak Paneer (24€) et les Kashmiri Koftas (24€) sont excellents. Prenez TOUJOURS un Garlic Cheese Naan (5€).",
         must_drink: "La carte cocktails est surprenante pour un restaurant indien — les signatures sont conçus pour épouser les épices. Le Lassi maison (6€) est un classique rafraîchissant."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine indienne. L’Agneau Korma aux pistaches (25€) est la star absolue. En second, le Butter Chicken (23€) est une valeur sûre inébranlable. Pour les végétariens, le Palak Paneer (24€) et les Kashmiri Koftas (24€) sont excellents. Prenez TOUJOURS un Garlic Cheese Naan (5€).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

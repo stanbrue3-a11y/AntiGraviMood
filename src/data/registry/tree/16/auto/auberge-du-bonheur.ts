@@ -103,16 +103,19 @@ export const auberge_du_bonheur: SurgicalPlace = {
   expert_catchline: "Une parenthèse bucolique enchantée sous les arbres du Bois de Boulogne.",
   insider_tip: "• **Le Jardin** : C’est l’atout maître du lieu. En été, demandez impérativement une table sous les arbres. En hiver, l’intérieur est très cosy.\n  • **Le Week-end** : C’est le spot favori des familles chic du quartier, l’ambiance est joyeuse et animée.\n  • **Accès** : Le restaurant est un peu isolé, prévoyez un taxi ou utilisez la navette gratuite depuis la Porte Maillot si disponible.",
   specials: {
-    cuisine: ["Traditionnelle", "Française"],
+    cuisine: ["Français"],
     drinks: ["Vins de Propriété", "Champagnes Classiques"],
     must_eat: "Cuisine Traditionnelle. Agneau Confite & Tatin Maison.",
     must_drink: "Verre de Bordeaux Supérieur"
   },
-  images: {
-    hero: "AU_ZVEFv0oXqCWYBCMd_TUoxr8sl5MSklgsfyOuSDBajDjLQi2llBCpSyaI-Iie9Dd_0sG-xxuqMMUqQlUcnokWmLqQqJulV-iJxfSgOQEyRAQGosFhPkf5JmaYs24Du0SCbdghtn3XPGykevgfpScBUyioyhaeJJKnyW7KO2De1qzican4bbNYB8ysp4vtFAAxl_JcDbwXsF8fHlWTSNWDKAVlHdhUWv7jd1d9jlGZtWDDhO0nEDt6dkDS-PTGEYEBXrj0Fv5AitXD8_6uTEcniD1s34YPQ8adR-UKoRpSp4CfetQ",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/hero.jpg",
     gallery: [
-      "AU_ZVEFnLqaT_zTJs24M_K0O5DCOTQwAee4EuV-t_o6-39GaBbIWXMdyAn6fqHbKqyLzMRWxNJLbZweC0dVxAcQ5f648UwRB6uO4cPOlEKv0e22cc7pGzH41K8gOQ2CTerlqHxjObTGFLX8z0utCJ-w9mNPJTHoT01pGCIxoNLj_0skjYJP2IULzXFDP2WjR1k2ghyGaUJeJI1pnHquvc_VC0PYA1nlTi8jyXxhfzLE0H3zUM0nQcp0bXlQumq5Djt910E89OOGjok9xlr6A9SkYZOkip5O8x9OgzhMzXO4hZMi-mg",
-      "AU_ZVEHE2SvSb0LD00rVtIiBIpcn4o5IQ1jbsNYUWm5BvS8mxScqAj0jIPBjCJjwsV-V2wnw4eyPTKVlmjxilYvyGf3i1M7JQGA4rbZlrhdUDsO-yT2WnIKenGm7GQUvtfpc6aoIsh6cZDqG4DSQ5snYew__NBWLmnRxdBACF0najdR0Jh7bjcc3BH4TqcCQddW5Sh7eyCJiukGmZdEA1hEEhy9ctNo0HWQ0kCz37LBZNj00og78ZsZ1IWA1Fpda-CzqYcSO6c8PDkOzIGyWa_PNKy5AWACIpUrygqfRP7qTA8C6bw"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-bonheur/gallery_4.jpg"
     ]
   },
   verified: true,

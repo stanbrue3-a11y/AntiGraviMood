@@ -86,21 +86,34 @@ export const moulin_de_la_vierge: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUV9TmJ3nSPkcg10fugkX49_kAlYJoqqnL4H7c3pTlhqEH_z7t5kvK6cHj3qhaGilCTnxg0p-d_5n4XqIVNQlhili-VHc0qYUSvumFb65qr8dvDHI_2QfXNqrTm8l9RBStUKaJaJwbbIarj2OwPXcmYQQ13TSOQnreJ6mVO46ZM4fZJwAVubgPl-vlIt7SlLZ7X70eikZNNp06IhJEep0FxkeJd9IAFBWQ7pT5xdwKL9GcuNYm43dfEo4rjucKdN9cvqY6LHJjMvevHlvsZ9ZpE8wRmeFj1UAuA7SDpUVzvv0IX3rT4VDTfeWFJnUAIkjRllHr1-4uzILLUHntL5er85qSk9vVIJiFgJrcWXtvXEXuVBYJa85lZYuMOkqv0jVbEyucFjYt8h8QERBm5aNcqWg4GE0BCPSbkus80-B_hqEkE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVuDMObvSo5hObEII-Or6VkJ1wr1Jsn6gJS80_x-_BLw4oywzGhTv7IHf-yVpLbgDe_FaqfjV9gX6REMC3v8L2g_duojKQk991EevTA95miD96PI3haTVs4MT3Kz_JvpOrW8K1pz4P8fKA4gICMasAc1QLnRePUDhcUE54lLpjw0-j-n-bTcUk2Ma3jkt5WGSIXVZqMc_vFBUOHt2ludBu52_JCK2z3yi71LLtVN4omU-r97KhCF8P1vz57JWpElHp4UMisqZOiM40Ug3IuXwQQpiTe3VqojFAYcA2cG8piyMwzg-RmgKlqqZn-F4ENlREHpAc9AJaaPlqlBbDI6pXCsUMNgrApTsFq6v78dhxGBYoMT7cCGNyQhaLYGPMX6ftTL4NlZcgcIeEyKXmz9NthKRkByWJY53HEpVsfl_UdL6RN&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-moulin-de-la-vierge/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.1,
     description: "Installé dans une magnifique boutique classée monument historique sur la rue Vercingétorix, Le Moulin de la Vierge est un voyage dans le temps. Avec son décor Art Nouveau et ses plafonds peints, c’est l’un des plus beaux écrins de boulangerie à Paris. On y vient pour les pains de campagne bio cuits au feu de bois selon des méthodes ancestrales, et l’on reste pour le charme suranné de son petit salon de thé où le temps semble s'être arrêté au début du siècle.",
     insider_tip: "Ne manquez pas leur pain de campagne, un véritable monument de goût qui se conserve plusieurs jours. En été, la petite terrasse sur la zone piétonne de la rue de l’Ouest est un havre de paix absolu pour un café-croissant matinal.",
     expert_catchline: "Le pain de tradition dans un écrin de monument historique.",
     specials: {
-        cuisine: ["Boulangerie Bio", "Pâtisserie Traditionnelle"],
+        cuisine: ["Français"],
         drinks: ["Café torréfié", "Thés de sélection"],
-        must_eat: "Le pain de campagne au feu de bois et le millefeuille.",
+        must_eat: "Cuisine française. Le pain de campagne au feu de bois et le millefeuille.",
         must_drink: "Un chocolat chaud à l’ancienne sous les plafonds peints."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le pain de campagne au feu de bois et le millefeuille.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const geoelia: SurgicalPlace = {
   slug: "geoelia",
   name: "Geoélia",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "125 Rue de la Tour, 75116 Paris",
     arrondissement: 16,
@@ -96,16 +96,19 @@ export const geoelia: SurgicalPlace = {
   expert_catchline: "La poésie brute du terroir à la table étoilée de Camille Saint-M’leux.",
   insider_tip: "Ne faites pas l’impasse sur la Betterave Crapaudine, c’est elle qui a fait la réputation du chef. Le menu déjeuner est une pépite à 65€ pour s’initier à la haute gastronomie engagée.",
   specials: {
-    cuisine: ["Gastronomique Terroir", "Moderne"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins Nature", "Accords Botanniques"],
-    must_eat: "Cuisine Terroir. Betterave Crapaudine en croûte de sel & Rhubarbe-Sureau.",
+    must_eat: "Cuisine de bistrot. Betterave Crapaudine en croûte de sel & Rhubarbe-Sureau.",
     must_drink: "Accord Botannique Sans Alcool"
   },
-  images: {
-    hero: "AU_ZVEFmILqtKa-4tl-PYTqazv3wj18DWEjRaa60n-_XD2VdhWeiyMhDlyv3uHmXg0Dxr2Pfk7W-DwQME2CjwCpmvzmiOn3yy3NuRHeVA9ve200YGH17rjePZda0lvdlBuhqshzFcuDGHOOZ3TXAUD6ua0rUg3g5bzIYXXiFiP2ye7q2_1L27hFvB3horp1Q9xuxeckClQHs6WYG-qgWEPqxNdF6bMpUGJwmjyQbDuODvSIShPdYZ_C2sAHzUIw_P-R5gOzDez_p1tleu6tk1a_7QA93oQDS1rJJPjKlDLg46vr0PBPSt-r_eT7-IY-y4uzBbGoBJUlVlaSMiXnzW12-SA35uH88HCFkzamNKs5II8D7QYEEjSTsDVG1hUNeXc0RfeIrjsD0jljwgwyZzchJp7ywen4c5L61cC3l0IOO6hwymRpA4IhwS1ufrZ4QIzN0",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/hero.jpg",
     gallery: [
-      "AU_ZVEGo_moYYwoRgPu9PgGq80HEliQ09th4ilj48hYfo-nI8fcGmTuFJcdImPKAMC99b1BHvKftZJyO_zbRx6uLs7s7yj9zdyKa4pvXrzUMeI-HDEeObhgJ4Jb0VUa7YlJZz0D0lPSII1RPBrwdXf3dQ5dWjIpdOPN3hEBMgZB_xWwVNrEHV3nLVDkroeXonOB4H38K4SmGcfR17D46aTSM1rE5GbHd038SGOYvynvtrRH5HZ1xPhj6ZzHwM-H8Y2myxO80RPveWogUKOz_gogHMtXLRuKECcYjOVlyv2_smqD6OA",
-      "AU_ZVEFeNLEHyj6ZNht9h5ntwuLLGkiBxMjRHkhmaRc1HsjAThXspnUxFpWhZN_QdQp_Dgbu5avq37ZqQ7o2UQxXL9Yi2dmQz-s_Y-EeIWN3AxwZBtzAgXAP1J-1_O_bECbB5bVSKH4KZJNfDdbMJUB2aIsjnroVQtrvVvVVofE_AYFqQzCU4qtEGFV8c9o6WURowdm3EP-pE4b7Rz3d9Qh9sM11VquOf7ylJsX3AR0ScUTuSGjfyt8ua63GtzK6NlUj9dkjcN7kSpgCX5hiMvOr_AF6LIgMuSq6UKLy6hc_K0S0dK41l_PS2OIlL25hACPOPgvKVzGo_7imF1hQGwyvEKa54k_yQWNeAgIxGmnQ_Vbc1Vq4b1P1MEqnW2nnTx0bju_1WWlIH_8aNpQoHxSDAp_e3SddOLCIe_zD-f4ZaW-cCPK5Epge3-1_NGm_rg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/geoelia/gallery_4.jpg"
     ]
   },
   verified: true,
@@ -114,7 +117,7 @@ export const geoelia: SurgicalPlace = {
   instagram_handle: "geoelia_paris",
   real_talk: {
     text: "Un lieu qui apaise instantanément. Camille n’est pas là pour épater mais pour nourrir l’esprit avec les meilleurs produits du terroir. C’est brillant, technique et d'une sincérité désarmante.",
-    must_eat: "Cuisine Terroir. Betterave Crapaudine.",
+    must_eat: "Cuisine de bistrot. Betterave Crapaudine.",
     le_secret: "L’infusion de fin de repas réalisée avec les herbes sourcées chez les mêmes maraîchers que pour les plats.",
     le_son: "Un silence élégant et feutré, propice à la confidence.",
     le_must: "Dîner face à la baie vitrée pour profiter de la douceur du quartier Passy."

@@ -4,7 +4,7 @@
  * In production, logs are disabled to improve performance.
  */
 
-const isDev = __DEV__;
+const isDev = typeof __DEV__ !== 'undefined' ? __DEV__ : process.env.NODE_ENV === 'development';
 
 /**
  * Silicon Valley Grade Logger

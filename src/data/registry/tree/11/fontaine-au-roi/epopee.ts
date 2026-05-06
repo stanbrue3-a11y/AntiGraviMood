@@ -5,7 +5,7 @@ export const epopee: SurgicalPlace = {
     name: "Épopée",
     slug: "epopee",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "52 Rue Léon Frot",
         arrondissement: 11,
@@ -78,19 +78,34 @@ export const epopee: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXT0Za-YgK0SUh3E7HLBXE4CX5i44ts1ypeooYUjfaIu4JSuYv29519J7UO9eIzsvYOmrz4u1nkxIHHo2FSRR8tiHSfdTe9ZYjhMEgKxTkqWp7vl2yspEoAC3cSJsO4dd38wBET5AF5oGQDxAMrBAejx9CMD-S1TDOg1LpEKiZZxRolF4_m-0w58XDJQnoWmWBEi2EGGx_El9KRs7nRLc_JDsd6P5J_nFgBvVyrFFqAYZoqjuhS0DW3iSXFbEP4aq9tGm2QUd9umXrGEgMTaqlBwR9kcEowlJb1jstKHDJDZKPCPKE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epopee/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.9,
     description: "Épopée est une perle rare située près de Charonne, née de l’union créative de la cheffe Yurika Kitano et du sommelier Thomas Legrand. Dans un cadre zen et minimaliste, la cuisine fusionne la technique française et la délicatesse japonaise avec une précision d’orfèvre. Les accords vins natures sont d’une justesse remarquable, faisant de chaque repas une véritable aventure sensorielle, sans l'ostentation des tables étoilées classiques.",
     insider_tip: "• Le rapport qualité-prix au déjeuner (29€ pour 3 plats) est l’un des plus impressionnants de Paris.\n• Ne manquez pas les créations autour du miso et des fermentations maison.\n• Thomas Legrand est un sommelier passionné; laissez-vous guider sur des pépites qu'on ne trouve nulle part ailleurs.",
     expert_catchline: "La fusion parfaite de la précision japonaise et de la générosité française.",
     specials: {
-        cuisine: ["Cuisine Franco-Japonaise", "Produits de saison", "Techniques d’orfèvre", "Végétal sublimé"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins natures d’exception", "Sélection de sakés artisanaux", "Conseils sommelier pointus"],
-        must_eat: "Le dessert au sésame noir, un monument d’équilibre et de texture.",
+        must_eat: "Cuisine de marché. Le dessert au sésame noir, un monument d’équilibre et de texture.",
         must_drink: "Un vin de macération choisi par Thomas pour ses notes complexes et sa longueur."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de marché. Le dessert au sésame noir, un monument d’équilibre et de texture.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

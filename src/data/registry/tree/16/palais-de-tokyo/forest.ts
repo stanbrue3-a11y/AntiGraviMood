@@ -100,16 +100,19 @@ export const forest: SurgicalPlace = {
   expert_catchline: "La jungle gastronomique de Mory Sacko face à la Tour Eiffel.",
   insider_tip: "Demandez une place en terrasse le soir pour profiter de la Tour Eiffel scintillante. L’aubergine au miso est un passage obligé, même pour les carnivores convaincus.",
   specials: {
-    cuisine: ["Créative", "Afro-Japonaise"],
+    cuisine: ["Français"],
     drinks: ["Mocktails Artisanaux", "Vins Nature"],
     must_eat: "Cuisine Créative. Aubergine Laquée au Miso & Poulet Frit Mosugo.",
     must_drink: "Jungle Flow Mocktail"
   },
-  images: {
-    hero: "AU_ZVEEmE9rv-aCPgCAyTmxR2H0CPcL14107FignwjhUqNvm3zOHsJzqy94JS6jxT3k-ER05NBastB1YB-GPsxuAdXhDfn8JZ7dcEasFnrLcmgH4twEkL4NarpNvh9MIpklMl27HiZrYqnmYghG46Tas9ZPAmeedQ5TaL6Cagvw7x8vIayAfzEwsRf5HFcNtLX2pf88mFHdlQEBNxG7FSFvduaGY-aOK-Obn8TBBjqlJx50Qs5wSjtnfzcBJYXle-fF9aRdNTZJghqW69Y5INgiMSLZ45ZhmLlzQlQPIUAsZjP6TMA",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/hero.jpg",
     gallery: [
-      "AU_ZVEEIk1obynKlokzJlr8RnyPuSgcJjPBLEMbkkAcKUQruaIYIeWTabAWSWRmboQdms0wZ2UPl4n4NfAglspJghjsVbaoWkAsHZKHQfM1f8khHmVQ5QoI8EfYhmCvzzn7oUkCsj5CaXsVA3kgNpYyVcNpcqKpvqhr3HrjvsLim-RImBcvFtw9ponAdOvMBZRpttQvYlU9CwnN01SdLFRV2jC3Lp9sLbHZK_eugyX-WeFcxI9-SqbbRT-sdOv5RoudjIEWPJkjaBXRJnBO-Brbt3HRW4NiFl8fl1Q8k5bk3uP8MMQ",
-      "AU_ZVEHlk403JpOAvIAN0SlMhe4AwcaYVTQQBAKVW2yMHLVGo5bu-f-S8IDpPM8PKO2aIzKeBWh2P8bJ7uybOMlSwp_VceJub0zJt3z-z0usz3fMsYAgcIHoa6tfUhwjTzaOZbdAZgpHhZD02HbU1Z62j6G0CIakxnltDUMwHxetUTDXStGJ0tvfHDjCIWblNxt3ktQ_yy6oIFJiqtVyKJxdni5SLm-9irVyk0-Wq7wxyMjx58dRRrBHQrQnEKuIx4iev89cdN6gG2p-Ia4GL02jWm_CGbjqO9pCaXYBpSpiOD39XQ"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/forest/gallery_4.jpg"
     ]
   },
   verified: true,

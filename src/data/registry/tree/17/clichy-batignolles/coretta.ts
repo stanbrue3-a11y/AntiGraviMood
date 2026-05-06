@@ -88,16 +88,31 @@ export const coretta: SurgicalPlace = {
   description: "Coretta est une pépite bistronomique face au parc Martin Luther King, orchestrée par la cheffe Beatriz Gonzalez.",
   insider_tip: "• **Lumière** : Demandez une table à l’étage près des vitres pour la vue imprenable sur le parc.\n• **Culte** : La brioche à la cannelle est le dessert obligatoire, ne partez pas sans.\n• **Sourcing** : Le menu déjeuner à 32€ est l'une des meilleures affaires du quartier.",
   specials: {
-    cuisine: ["Cuisine française"],
+    cuisine: ["Français"],
     drinks: ["Vin", "Cocktail"],
-    must_eat: "Cuisine française. Brioche à la cannelle et caramel beurre salé.",
+    must_eat: "Cuisine Français.",
   },
-  images: {
-    hero: "AU_ZVEEZBave8xvf1dkalRZjlwMglKFwNmNh6TP1fzFA6q4zx2VOPpBiKljvPlBz1Eo_QFE6eLXDFOrcf0t_Mf7V-yjSpU-u9p6vLkCkymfeM9cTWKFq2JnmssWOYtmI88_I6abpqTunoSUJkhtWdQ6YPCwPDVRVtPuqnMcDWmRA91GpTOhRf2apeDlccLwMzNWpuUjV-j982Huk-_7aN0lP0nIBuziQQqrYmQT-6w1Q1Xr-9NNTqXMar7vxH58pn4tGOoJaKw5x48mTqWGRMpdRzl4FfB9p-Bcw0v4d8CN4ygo3RZHpamxkXxcT9bBRBJn1o1ivgKdwmFM7rTGpywIUU7Uuxa2Ug3H0HngW_969XOmOQay5P9U6av5rdtNBI8MlObZTR2yeJrijIirNd4SsQ8YGAr9hVl7VUGjgoPjIf--DltY",
-    gallery: ["AU_ZVEEdP6a0RFcLfXbqCd0xjMP0gPGSM0KLzQVPGpVXOpdZHOv18KJXUNRRuhfnW6r-Sv9B8PeDl8xYp6oGv22pvoXYW1C1g0sYcYstwlRb5x1q1qTz99tqIadKGZuh0fIJt2QXCeGZKkif65H5McY7B3fiU3ppxNb6iAIZdC1_toyNgOentBDRbOJX4iH8TUJHDtHVe8Won5lM2xl5CntpuBGgSMTD8pZMeDi-51jLACF2n-DPVmf88KT6xklp4IYWq7Dxe35WOJvbZOVO7gQa7dzk5CyEoJ1_4n8P2GushPVZ4Q","AU_ZVEH-FsxrRNUkAp4qrDYlVR18uV3VbCaNLPnlGb42hJH8Ein-Jx-2wIUhZyY7ww-JK5FtfNhJHxgnrcrWBtfuyZos7HRYONPYxJVeynOCP2OxtgAS6FQYBjR4s1cMfzZ0MQ9vVZOWT11HJHVqyil2TlemtQ6sVSPre_lKEfAXG7s2ENDUChTsNYdoRqY_3-jKWwQde1rcG9Gt4MU28-x6KVQzIDOwEir_seDclvhsZWilYyUCo1J0T9cRegeW60cekhWWH2EwuCSkeN3Kci07t3vOdCIJN6AGzapchEu4MqfQMWFU2UHxXYKRkrHaCkklmFfegZdG8gFT-19gPa6sJ2INaip5oT4cTaq2JBUniYRzTrgxlzyJf5EZRNiZrp-sSfwwFc5kQdKqbze-9Lm0a9uFF9GKKBwdy8p9xrq7yFMccm_jmSERmrTOGehA-c3s"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coretta/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Français.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default coretta;

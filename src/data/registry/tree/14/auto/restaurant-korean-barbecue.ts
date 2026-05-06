@@ -5,7 +5,7 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
   slug: "restaurant-korean-barbecue",
   name: "Restaurant Korean Barbecue",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['coréen'],
   location: {
     address: "22 Rue Delambre, 75014 Paris, France",
     arrondissement: 14,
@@ -84,16 +84,31 @@ export const restaurant_korean_barbecue: SurgicalPlace = {
   description: "Une adresse incontournable de la rue Delambre pour les amateurs de grillades coréennes authentiques. L’expérience est interactive : chaque table dispose de son propre grill encastré pour saisir vos viandes marinées selon vos envies. L'ambiance y est survoltée et conviviale, portée par le grésillement des braises et les parfums envoûtants de sésame et de soja.",
   insider_tip: "• Timing Stratégique : Arriver dès 19h le week-end, la rue Delambre se remplit vite et le lieu ne prend pas de résas par téléphone aux heures de pointe. \n• Combo Gagnant / Moelle : Le Bulgogi de Bœuf (mariné 24h) accompagné d’un Soju bien frais est l’expérience ultime du lieu. \n• Détail Secret / Ambiance : Demandez une table avec aspiration forte si vous voulez éviter l’odeur de grillade sur vos vêtements, même si le charme est là.",
   specials: {
-    cuisine: ["Coréenne", "Barbecue", "Grillades"],
+    cuisine: ["Coréen"],
     drinks: ["Soju", "Bière Hite", "Thé au Ginseng"],
-    must_eat: "Barbecue coréen. Bulgogi de Bœuf & Bimbibap au bol de pierre.",
+    must_eat: "Cuisine coréenne. Barbecue coréen. Bulgogi de Bœuf & Bimbibap au bol de pierre.",
   },
-  images: {
-    hero: "AU_ZVEGq7w4RB33C8WZan_Q17oJ53D89UojqE_z8g6M--vjp4OmaZTOfNN1d9Z7UfADo2nKBQDWHXKDjywsvpw95CcG_6yu4BaQAL8cqmF1xfcU1F5Ix5S9I22qhY0thg1eVhyM1Ou7WXpT3YDIpY8uqzYJBzUGfPlHN7QPXLwE2lfQLwb4-UFQlGqahSo-liWL7GMukPfTBZVWwv72mjc58JQuk7xbpbz4p-FvPmjvfz-Cgu-TbtjT70hwitmldoA8kz1M1NMFHaSatyBqQmeqz5i6W0q8HaaZIci8R7b4NObp9YizZ5ddHGg4w_BnCi16yqfljvF7iRTksgRyS8zUNMhvgIrxO8fQ2XmzEOHrFuQ_SiphOhIRBjp5ld4juqjOm7U40YaTWbn4__ggqyO5Nmfb2d-Cw0Gu1jNFJjgoipELR15iU8Dcs1bENpmF_ZQ",
-    gallery: ["AU_ZVEEwRCMV8sLMSo5H9k8tk08HiL_pfIMGQv7XksUEerfdoUmH5vSPkPMy2q3RMzpx4fVHYLwPKxjeMHVL3_Fn0xHq9bByGKhuia1tIh-6MCr4dd8n6JCyxSjdpsIjmM_GPLknOecSiNi9QJb8gdoR6fNUkmS1Nu0Yj2bKjQvQjCOOSKFiPH7fC6e3rALpa_4AG5jKX2Ijn_K0FVcE2qDR6XF70JJntGuxYByyes27VPUwJlrQwkslBgwNZBDuK1eOxWkVtVwwJGLIOQtS-V_fb1zcW1zGsTRVq53NMYnwKlQ","AU_ZVEHNAw7blC86ssyoO7uEXUYtGQaYYOg0ChqI5Cj655A8w2Bucbwmfar7694MJduHrbHaydUHk0HFGlez5t_YfYtou9lbQZrZP3KFuGnxd6E9ewNhiu3ICG0AW8nJDa6AT81gd3ta-BkOnnM9vpn6KizZF4EgntXCCw54bWdS6EwULVm54sCaLL1cEkpTBJ5bQAVV7m0WOnRBxzkz716V6KHtWJRN36pKZZlQvODZTxpDB434cZuB9013ef7WrvXQokJ_58Zxc3TFnMPeCCEa7wKvCqgn9hfCPpeNBpKRYCThI9i_-dHr5I0R9JW4Eg-E6by0Vbyxeyy2tluq8UJYTQke8QuBsX8Tj1RnNsyn3Bks5ziKAns56Iq2U6mkvLkObg6RbM8xV4gs57AYkYMZTeHeeiD5yVssPScyLZQQpSPe3SEOgh6g5qXkNFJoWeAZ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-korean-barbecue/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine coréenne. Barbecue coréen. Bulgogi de Bœuf & Bimbibap au bol de pierre.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default restaurant_korean_barbecue;

@@ -78,22 +78,35 @@ export const imprevu: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXtHWJ8G-W2d8RRUmAnZD4PB3ByTR55GE8N_XYodFqT3jC6uhANZFAkqhDEs6IAINrMt_D5AYzUm2Gu5sHLCybRSjg1yWqdp9PMJy7mHze9-ChhL4RcbcaoY1KDXOuHVF9_itAkPfBb1w93CXYzndE3ahFwjFf7eZUlBodjsRydc7hY9bUCd4BXuV8TaPsyMgFc6UPr1r7QS7Yc8cCVLut4JAriGdzgciU3YJPmEm9uks1CJeQutsSIQAXqKLVnOKXMLYj9yA40r9JorjiLSv3eEcHL5DcfsnAre_vcUgTsRA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJ2UwDQgKY6RY_c_9L4jVlL09SUZ_RCkOYUsCDHHkN4LG02-nfdjfP2KrDo_-fb18FpwU9oMYkMB7CzQFOe4xpw5zZxEOUfE7vU3u2lxaLz4DmN6Zr68kCxWK666371N3D-2klfmxwYT3Hpal3DAk_dtDpkI-Y7C1XEiIfqBxrsXwacH4YJ5BlBdlpvxJgK693eo-Ml1IttBBPgMCjWJZekCmo0iCR76GBNlteMiclt2zoulpTzIFByQZx2nBKEizO2dUIEqyKWfX30We0M-NMUGZIEVcQteVHCqs8C6u2gsNR80lvKdxDab1lsIFTEKgdFgf-lKrNb5exifcEOmmRs9L2hKJs4r3VPIfNPsYr3YL9u6M-Hn3qBXbnmKQubspcvXUfRrtf5NwD9yCFCb8eYCGO2wgm6pQNFwbhd_cpZyKIaT8TKtPLxVkKcp7n&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-imprevu-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.1,
     description: "L’Imprévu est le caméléon gourmand de la rue d’Alésia. Que ce soit pour un brunch tardif, un déjeuner aux accents asiatiques ou une soirée tapas-cocktails sur sa terrasse toujours animée, l’établissement s’adapte à tous les moments de la vie parisienne. Son décor moderne, son accueil chaleureux et sa carte éclectique en font un lieu de passage privilégié pour ceux qui aiment la diversité. C’est l’endroit où l’on s’arrête par hasard et d’où l’on repart avec l’envie de revenir, séduit par la justesse des saveurs et la décontraction du service.",
     insider_tip: "Leur sélection de tapas est idéale pour accompagner les cocktails en début de soirée. En hiver, ne manquez pas leur raclette à volonté, un moment de pure convivialité montagnarde en plein 14ème.",
     expert_catchline: "Le bistrot éclectique et vibrant de la rue d’Alésia.",
     specials: {
-        cuisine: ["Bistrot Moderne", "Fusion Asian", "Brunch"],
+        cuisine: ["Français"],
         drinks: ["Cocktails Créatifs", "Vins au Verre"],
-        must_eat: "L’Asian Flank Steak et les Pancakes bacon-sirop.",
+        must_eat: "Cuisine de partage. L’Asian Flank Steak et les Pancakes bacon-sirop.",
         must_drink: "Un cocktail signature en terrasse."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de partage. L’Asian Flank Steak et les Pancakes bacon-sirop.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

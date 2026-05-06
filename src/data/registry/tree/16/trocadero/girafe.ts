@@ -113,17 +113,32 @@ export const girafe: SurgicalPlace = {
   expert_catchline: `Girafe est le joyau iodé du 16ème arrondissement, niché au cœur de la Cité de l’Architecture et du Patrimoine.`,
   insider_tip: `Réservez impérativement en ’terrasse’ pour la vue. Le soir, attendez le début de chaque heure pour voir la Tour Eiffel scintiller pendant que vous dégustez vos linguines au homard.`,
   specials: {
-    cuisine: ["Seafood", "Élégant"],
+    cuisine: ["Français"],
     drinks: ["Champagnes de Prestige", "Grands Crus de Loire"],
     must_eat: "Cuisine Marine. Linguine au Homard & Éclair XXL au Chocolat.",
     must_drink: "Ruinart Blanc de Blancs"
   },
-  images: {
-    hero: "AU_ZVEGdsriscYKgC1TR8YdDmS36oMIMRxDoq7_Xn5KZO9K3HnjYu14YMeHbpi9yMZnAs_ambRQpSjF9FGm_yDoCoUpUpqp2YpkmRoy8b0iBoMnJvog1EXDgXmHPpX0kU9-X9tA6nKjAFyg03ZtdEsaveK2N-lA7lnSGYNq5ubIEcI33WTkfWuxJ005qJ_T4DpMX_Sb-Dw0y7YUQZcxN48R0dl8L5f812VMSAuCS7QuHvm20YMh-D5vZThulbPoBar6SN1OxgkzDQn9LIflL2neQ0RGJX3lXOcY1qV8pHFGfJeJHlQ",
-    gallery: ["AU_ZVEEy5YXM8LZrhoN_1UpK57rSLv4AYYkVwmfSyAZ1qjwmqKlUmKMQWC-qKQWtJ1QlPXPBtBPqpx5sl3xapXJMM79qcIBWIUP-tCkxpGg_rtmmWPuHhrtEQyj18wSHdfVNrm2VeX3X8gVmL3XUCTz4Bd0SIN5jmUY8ddd3To1b8EfXJgPgFx2A3BscKbNQlBiNtNAGsXkvV4YHyec3Dqs9XGHAFWkdBxY8tE74DqQCpEx2i-5K2O27sbJhWgWC5HovUEgG6bylhAO_krbvCz8qxqjCTncYJoFmrR6fV29QPVeHXw","AU_ZVEEk9dGXnCmmukzy5lhd3tZE46auy4WC003GEINaR7hsACI0qyd8XTsXD_tme50H43M6acEouOVRlNWIwCthq5q3WcEsCtXZv6VvaZov0wy3IHtaNWbo8_8kVkWHftxqCJC8zoxkWHGX11g9vEZBfbMN63txp-iMfHaIF-wH8D8Ld9PkI3Nn6vR3h6N3_DMB6aaIaOU73JN78iZXSeguBb5n19-QnuASYYyw3uk3ggchcprJSCJDo7WT83U7ERemekLzrG_4_FKWsaXiJ6O8AyyL3sPyI286JIUfj_uvCCOrY475CoEf3iUxtM3KjqYafrYa8m5NrVZv3eKLTJSM8x6JhuqAP7bo4k5hYnVwRP39h0maRhnCSJuaFXE04K2ZPyyE_KjwGtL7Uld601HTKEprGofhFFpQPuoAvCsb9SVr9A"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/girafe/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 3.9
+  google_rating: 3.9,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Marine. Linguine au Homard & Éclair XXL au Chocolat.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default girafe;

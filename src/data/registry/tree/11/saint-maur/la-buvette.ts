@@ -71,13 +71,16 @@ export const la_buvette: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWRosHKBDxZm5kTNi_PiD_C-3woY6O3BOA8DEVPzNvbZLJb1SZMUqGH5xTD0HUXTFaSe3mUjGHmw_5LcRe0qNMduXlggUQeknwiTuGu0XtWeNgGLPlnSjwRg02xwnuxyRE1-6r6GRH6SLWGT35PZ7iixdsWJ5FTIy7Pxqg_iwuOEx9icXAw3z5x6moGoTxZPJNi7ieftyQm9xj7JUMEEpP8ho9ZkW9PiwpsE0ycOORs7pfLRaofM2pUmgnm9qpCUdHvj5So6VLwoh6ZRY-z1U5ZmTsi2BIAbSiFlQ5U5FzNM2TJBSNzNSat39oEgRHmlkDeh1ol3W_qG2j15CVPfV32Y31NBObO5jFTdimlBdKbe1YmqxmiaRQBwn3uKwArDEkMTTY26IbB4_FrZZZgGD-XblNACiZkT_36CslCYus6-x3A&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUD7QK-q4SkJQ8ST8C5wJ2O-6PMZG6coAU-AuZLBqGUnT-Gt0OWZmctHmZugqdxXIrgmRBN6JdpZX2H_trPyZ82v5hs56wQ93_nFTY-Sr21hdjb16C1RYRRBSS6yNlvxXtBMJXgU0wgKAIQJIoVZXihP2HOYHNIGz4igJREZ4ZjMbU-zAo6E-ZLKIPM1nWhEUREcRnBoOBTqu5BIt0VpeYL2I0D3wGO1KvL1gkwwSPT1lM1C_NVMCwewHUT9j8PlnD-VISUp1ZIFGJaQKz93kGsTfkgE9wbQG8dRD23cx2CyA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUtiMungu8FXt7yeYTkYf-9cKxJ_Qrz2N_x3L57eCzZq8SXtHRzsXA4-tc-vNFIwr1vEye4a1VR7AEnCjgR8QFdfeKc7uvpxNuIQ6Sn0ZQPFO6CMA1Fpb5cLBlIh4NmRnRHVj2bvPlR73Zkb0Z6JyYxqjiKtUR6NKVS-Cue8v8ddJFeYTlfyP78B3uPo1ayDDVkhDXhuQ2K0n1zfKWreNGaume0DQRJ3Ox5h4atu9tNdtEgw6eHpVPbkGdsV_v6gsINGmYucZde3hvpRX5-NnnZnJnU7g9lEX9Y75H-gTrZosJDpSpZ1Ym_qXWOpVwHYh3i3XCdWJ5oz5Vo5t556eyQIejIkcl5gUFE7lE3o7bbxLLtSSJwBU1-VyTSvNDCpNAeUd4YdvBBrE5QPaPH1lZsmQ1-C4A_CGxTsT549ArCd6rN&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-buvette/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "labuvetteparis",
     verified: true,
     google_rating: 4.4,
@@ -85,9 +88,18 @@ export const la_buvette: SurgicalPlace = {
     insider_tip: "• C’est tout petit et ils ne prennent aucune réservation : venez dès l’ouverture à 17h ou préparez-vous à boire debout le temps qu’une table se libère.\n• Ferme tôt (22h00) tous les soirs, c’est l’endroit parfait pour un apéro puissant ou un before.\n• Ouvert 7 jours sur 7, ce qui est très rare pour cette qualité.",
     expert_catchline: "La cave à manger puriste absolue : vins natures impeccables et haricots blancs à l’orange d'anthologie.",
     specials: {
-        cuisine: ["Haricots blancs zeste d’orange", "Andouille au lard", "Tomme aux orties"],
+        cuisine: ["Français"],
         drinks: ["100% Vins natures", "Cidres brut"],
-        must_eat: "Vous êtes obligé de commander leur petite assiette star : les gros haricots blancs à l’huile d’olive et zeste d’orange (12€). L’incarnation du ’less is more'.",
+        must_eat: "Cuisine française. Vous êtes obligé de commander leur petite assiette star : les gros haricots blancs à l’huile d’olive et zeste d’orange (12€). L’incarnation du ’less is more’.",
         must_drink: "Allez pointer le doigt directement sur une belle quille nature posée sur l’étagère et laissez Camille ou son équipe vous la raconter."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Vous êtes obligé de commander leur petite assiette star : les gros haricots blancs à l’huile d’olive et zeste d’orange (12€). L’incarnation du ’less is more",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

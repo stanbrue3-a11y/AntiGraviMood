@@ -118,13 +118,16 @@ export const qui_plume_la_lune: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXc9NGzVor8JdKd3SIAQYe7yRD7mrsgOflX7ZCbtSZokinlXXMELXK25JwqMKRTWaeYaHfj0nAOIpTQDxQXDhD-FApgdHD1U5Eh2jwxo27dr3sJUaj4U1AaN2sybgLXE9qAYg2-h74polcguNU-8xy97jXPMTZVvKtJOpIXr_qbwGV-uOwmqLfo9Uxt_Ca-Epuh2hISOwe4D0qUipSowLRhlFKR4JnlY7F_4nTyg7O3CGYra1R2PFLh-WDThM2Qn1uA3eXxN5H496uAv3f90uWvVTE5o5pzXbq6x7i13vW1iQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW5hTnAnjeTtWM12cSpSnbCntBzRbtxmTqI_xojckMW8LF1Riuc4Dw4b1gYX6JSswdG7haWOkywsuqLitvb5e4bjk4XB0Y6H67XFabDxAlFpaoqT_f5vpyK4oKE3Q1XtengRPkrCs-l3uBuRGll7lGf2yJZgIuKWck13Qeepjval9jm1lFzv1ssM19O_nXwCjvN1AxzbNeWHziaaWbQ_Fiqdkcwa83gRL7USLOvIxOyfu5u1LlUDIA9vQyrWy1Y9Ug4W21vlrRdnMqXVXCWEYbvBLkt9VqgjjZoBBXqCzGCQQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXV9qoBE6rq68nT-lCoOpr9o-v9iFrCTUkm3nj5qMfYrgDJ0lsaei37JbKyphcJ7m7oQ4cGxMaqlo23bKBfTJoYypF4bBPvNSULdkYMZi8PycQZqp86IwqFUoaXXIq-uxYkALUXGTXoz43tXq-Vz6hEhfNgs4iaLoefzJNlWqotQYSSh70q5iItsm__sDbJfyNin6CdAM1s7l1cPbt9IIw2XJaCYrT5-PFr8OTTldpbNY9xzRSjXlqxrtcO8t2RXsMwcivq_xowS43Culnkz-z1F9WAxXL3YWfJR-XkHWSqV9XfPu1KxR-PhClenHTSso-mdU2cOfP_VDESH9xU_A-irNdnN_oxaUjyWu0c9JLHJNnA1A8D-SBHnedQgyB6guS6_yKT2l23XvrAI0LSyAba6u2pMpu7arv_IWHed4NfnwS56gBnuFxgYXMXBuJB&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/qui-plume-la-lune/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "quiplumelalune",
     michelin_stars: 1,
     verified: true,
@@ -133,9 +136,18 @@ export const qui_plume_la_lune: SurgicalPlace = {
     insider_tip: "• Le Menu Théodore à 45€ le midi est le prix d’entrée le plus accessible pour un étoilé Michelin dans le 11ème — c’est un deal rare.\n• Il n’y a PAS de carte à la carte : tous les menus sont des parcours surprise du chef.\n• L’accord mets et vins en 3 verres (45€) est recommandé — le sommelier est excellent.\n• Le Menu Claude M. à 250€ est réservé aux grandes occasions — uniquement des produits d’exception (homard, truffe, etc.).\n• La réservation est OBLIGATOIRE, surtout le week-end.",
     expert_catchline: "L’étoilé Michelin secret du 11ème : menus surprise du chef et produits d'exception dès 45€.",
     specials: {
-        cuisine: ["Saint-Jacques cresson", "Homard breton rôti", "Cerf rôti beurre genièvre", "Agneau de lait Pyrénées"],
+        cuisine: ["Français"],
         drinks: ["Accords mets-vins 3 à 6 verres", "Sommelière experte", "Cave classique raffinée"],
-        must_eat: "Pas de choix : on se laisse porter. Le Menu Angèle (90€, 4 temps) est le sweet spot entre ambition culinaire et budget. Le Menu Théodore (45€) est parfait pour un premier essai au déjeuner.",
+        must_eat: "Cuisine française. Pas de choix : on se laisse porter. Le Menu Angèle (90€, 4 temps) est le sweet spot entre ambition culinaire et budget. Le Menu Théodore (45€) est parfait pour un premier essai au déjeuner.",
         must_drink: "L’accord Garance en 5 verres (75€) est la meilleure façon de profiter du repas — la sommelière ajuste les accords à chaque plat surprise."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Pas de choix : on se laisse porter. Le Menu Angèle (90€, 4 temps) est le sweet spot entre ambition culinaire et budget. Le Menu Théodore (45€) est parfait pour un premier essai au déjeuner.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

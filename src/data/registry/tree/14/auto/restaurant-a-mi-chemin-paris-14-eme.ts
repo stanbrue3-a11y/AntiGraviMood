@@ -42,21 +42,36 @@ export const restaurant_a_mi_chemin_paris_14_eme: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: "Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.",
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEEjUImfoHgLF1lvSBicul6D6fswJrF6jm9HSZd5Kp3-y9OLmLGA3kCnqX_d7rvtvsWZWSS7GCYfAhhmgwxaevkMqWWtusm4jIUz7Oyg2yFZ1Yn2PNU59EMPgQcqd1mkvNxWirPUcl84_QHXT9Uu1NO3myRPFnV7_unbzycvs1v-RDWbnpQ2TRqMT0GmYtkfNVfS8fDR0B7ByZ5LKEiC6UIWL3m3Jtqi4NpxvCXHVGUa82Vb5-_jWhK8VaVWyTvFTULb3JKzGnYPd8h9YSyc8ta9wtAnbDvuftZV9XhdBXkMOA",
-    gallery: ["AU_ZVEFXTWa8ZokQOj4vwgowF5AoFYUndh9f09V7N8fyJCdIpt_q-v4LhMEmF162f9dl0a-APRVBdbhQwD5nkDfEMYLQdW_GFntKia3jqDIox7ZAKjOsuQba8teDB2RVuEHrYevr09_M-_99rcz8I4lV_BZC047bIgrKbOt2cYY-y1nMVlBSKKSnGQh8PWUYEkAxIPjHJnXUPPWjoQ2VeJfkJ_HQz601kGtQEcyPM9osWNB5x04w3d6JPMn3PVKn8hpQ008UBcAkQsjqBDlSRUf7VkmpVvpKOlp8eW-5gccnHtdZ0Q","AU_ZVEFHJ4CIUHGxehQdGMLk8BLtrQMsZsWQW_6HsUgTZ21OH8irHzBNtTULiAQoEgkDND_IJ_jJorZNiYGwGqLGPqfP-5V8cGa4734vcan5KoArt1QBwJsiqyTrYAE-wR-X3xqzyNjg_TMMj7hhhzOSAshuxa6UKl_JK9zSKXf-lTApdGwJ1kDcS79fcXmknXR1jVdfBePBi4ofzoMBDONRa6rsmMOOfwS3r9TNZpK7IhHuLnxmMSyTkdsrjAKQscqeSJulflF-P07LEtTBgm9q84K3Fz22_TuCoA9-sDwp7HQpFief9w03qjmgd3XyvT66Hg2aDxwBzuSdb_RWbdttFl0vLwz7DL41GKAOtrlOOqoysoE4ZU5qSUuhfT8OnmwaxoWVfbmYZz2k5iaFqHduLOTE-iXqehJBtjyP5o0WbEP_JLXXYx-0VbgFFsZZfg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-a-mi-chemin-paris-14-eme/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.1
+  google_rating: 4.1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default restaurant_a_mi_chemin_paris_14_eme;

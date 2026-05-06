@@ -111,16 +111,19 @@ export const brasserie_auteuil: SurgicalPlace = {
   • **Le Must** : La pizza à la truffe est une valeur sûre qui ne déçoit jamais.
   • **Match Day** : Ambiance électrique les soirs de match à Roland-Garros.`,
   specials: {
-    cuisine: ["Italo-Française", "Brasserie"],
+    cuisine: ["Italien"],
     drinks: ["Auteuil Spritz", "Cocktails Maison"],
-    must_eat: "Cuisine de Brasserie. Pizza Truffe & Mascarpone & Linguine aux Gambas.",
+    must_eat: "Cuisine de brasserie. Pizza Truffe & Mascarpone & Linguine aux Gambas.",
     must_drink: "Auteuil Spritz"
   },
-  images: {
-    hero: "AU_ZVEG0JmMrwn3FRi1lWdvbeR0Ga5oGSKikbf_8H6WbfxQfT3EQzoVMCvH7l6K-1y6HQ9RUyitzMYX-Hs1MbF-PiVU3brbjKecH9NJh_tNgBaov8GoHIjC_lbE_Y07FV94EmZDK_tl9NBl5srPqbAlUBOHIllzYeo6sdoQaBMdJCwiTN-WrX1DV1D8r8xdQVo7DO41vJ56sxGeSHgcCL_o6pgX8uOx6YByGEnPoayaVEDGTMB17XSx3QkL_jUS85q_w5L_BwIwCiP90f795fTU_rQkpks6GRgCwxq0a4SE4E6kJAg",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/hero.jpg",
     gallery: [
-      "AU_ZVEEiV6o9__A_WYQ1DSEO0l2V1yKDNl9gYGuacLHeDyKL3RuO2VzfO2s62tRPRVfJDFuNH1O5PzXB53RhLfaVx_Ve6_ustYecR6DZg0fE7SNTs8lHRFyGRrxgLoW5BNEbOhFu4WcnqU9zk-9A-nkcX6A9_mbAUz_kzb1aKxMFHUowyVcEABU3N0QmYuzk_aq51yaSz8kzYSu36K9VC279wPd-ycO3qQIlMrhbAeWl-I1X4YVyF0UgQhXXeXJvq6NNIrD8scU2WIHFWrWw8PQ9YY5HJfhfi7iqFMNR3GNw9yiVwA",
-      "AU_ZVEF2g5hUjI4f418TQc8ga7guqSs58fwK06Sccgt_f0aR1foQnbiCcqdjnl3Zvzqw-rMuE7cS6tawX9j0hVJcnxJtzqrMjFbdoB0HebITpCxvdPTW0GRAnECd3zf6d5PAuuyS591MtzrAoH3b2nmiLMuNm0k1ZJ6B1DxtMrIWpOnFoKX-lDaN0D44TiO9VRMecQjgTVDZvr4_Vb4oQ1gLdgVwAiyEYXKkBjvipc6OvrMD2Gxi1TqskkDwwoVfV9ik4m3PiicbJThO4LKRdlvVOaJzSnCrmvrfSzXiD_9O7HflaXwhQieYuE7fbZ92ZLYPFXqe7H-xLOcX4DEbwHs748_b4hVI0jeFoqst9097gxlbtmUHkMJZgK0TwSp1mk231G0rgxDCdLoBS1CMoGgyeGMIIKO-IsMGY9UVlFqME6eRZAVV5nJ2BhopOaXePQ"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-auteuil/gallery_4.jpg"
     ]
   },
   verified: true,
@@ -128,7 +131,7 @@ export const brasserie_auteuil: SurgicalPlace = {
   instagram_handle: "brasserieauteuil",
   real_talk: {
     text: "Le spot phare du sud du 16ème. C’est grand, c’est vert et l’ambiance rooftop est imbattable dans le quartier. On y vient pour la coolitude apparente et les cocktails bien dosés.",
-    must_eat: "Cuisine de Brasserie. Pizza à la Truffe.",
+    must_eat: "Cuisine de brasserie. Pizza à la Truffe.",
     le_secret: "La bibliothèque au rez-de-chaussée est parfaite pour travailler au calme le matin.",
     le_son: "Deep house chill et sons ensoleillés.",
     le_must: "Dîner entre amis sur le rooftop sous les guirlandes guinguette."

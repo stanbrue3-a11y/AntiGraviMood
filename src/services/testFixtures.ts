@@ -77,6 +77,8 @@ export const MOCK_PLACE_ROW: PlaceRow = {
   metro_line_json: JSON.stringify(['3', '5']),
   vibes_json: JSON.stringify(['chill', 'industrial']),
   google_photos_json: JSON.stringify([]),
+  michelin_stars: null,
+  has_terrace: 1,
 };
 
 export const MOCK_PLACE: Place = {

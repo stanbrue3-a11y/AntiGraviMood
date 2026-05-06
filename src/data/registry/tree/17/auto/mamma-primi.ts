@@ -5,7 +5,7 @@ export const mamma_primi: SurgicalPlace = {
   slug: "mamma-primi",
   name: "Mamma Primi",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['italien'],
   location: {
     address: "18 Rue Boursault, 75017 Paris, France",
     arrondissement: 17,
@@ -90,16 +90,31 @@ export const mamma_primi: SurgicalPlace = {
   • **Côté Verre** : Testez leur sélection de Spritz, toujours bien dosés et rafraîchissants.`,
   expert_catchline: "La folle trattoria italienne au cœur des Batignolles.",
   specials: {
-    cuisine: ["Italien généreux"],
+    cuisine: ["Italien"],
     drinks: ["Cocktails Italiens", "Spritz"],
     must_eat: "Cuisine italienne. Les pâtes à la truffe du Molise.",
   },
-  images: {
-    hero: "AU_ZVEGia7Oi6CqypuuchcrOMLAs6A6FT-9RZ2KqBygbP36KzIiZZtDPHGHLVFYFVAx129C2qCedVipqnHihrUez2RoANI-GRiW50LNP7fm53SBTuAhaSvBHSO_76DKc8q2R9GKSCZRCd_aOJV_aRD762D_hr-0tBxXYJ4DcAV71pdLQEy3bqTk-3p3V-55PyzPIToXztu_udILRdMK-dmh6ji_v17ehw87MruSzO7bu-fAd6yxjNH8FV1Z8kMxVB0vKXTR7KKocwA_lLF4KHMyqR_nHYA3U8VHVffKnkvNVjomdag",
-    gallery: ["AU_ZVEFJ-xPB8Zfu_m5Pj5Ya-xx1PbWJx6vi-OduaY0u_TX-hj08HsK_EAFlxc_3x75X-Ky78W4go__MPgGkrN_vtPBTM4P73Rnk-0YY4pI0nkV2ChruRFj_30noCcZm34pbgwdGYA37-hEm2R14sOfetTY9pQ8BmFT8_mUS9dIXQ0VOQl9gVos_HJldfptggyucCI9ZCkJ4-JQNF5cTUpf113Z3BBA0rI1FioEIC7_exnkH_skrkOzRuwt-zOj-UlHEPxaN-tTTblvaHUb28Vapck5ZjZy12jljHgAExike8WGoSQ","AU_ZVEGb477E3ZlIVlr6J087jyN4wvztHwmfFe9qbuuLQe90Ob-cLrJ-MTHHF8d4wRbUepKwkD_ioHwX8NygFql83_OvuzBDVQgOQl1_7E-_EuS9wH-0izThshK-EQ7Sqz6NpbZxpsWQOpux_aow3z0w6b3qnF6okGMFJpD58XGSNaur4fH5oMKQ1lNHQ0mrwvrXMTP_9t9Bx3m4mNTt-EzDOyvmun--rrMn41OAK4pVxJw3SxQIUiky81nLzgy8HIUKH7IjjigMOYBKqcRV344EEwO4Y4I7NMFWMJLd-Anwd9lz739GCrELL5dLJhWO6kI49s8cAIobbl9kUZLI7e_Mw_qZHAASk-FEwSoFL6AvlgXDTITgYDysE1VHbYQBDIWc9YbE_iAHCrp2Xceq8SieFwWViqN0OPtsA-wbEq9OSUw-V6X-Y4R848wDtlce3zL_"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mamma-primi/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Les pâtes à la truffe du Molise.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default mamma_primi;

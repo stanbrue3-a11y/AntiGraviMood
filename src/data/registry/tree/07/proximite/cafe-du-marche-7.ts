@@ -13,6 +13,7 @@ export const cafe_du_marche_7: SurgicalPlace = {
     "location": {
         "address": "10 Pl. du Marché, 92200 Neuilly-sur-Seine, France",
         "arrondissement": 7,
+        google_id: "TODO",
         "lat": 48.880583,
         "lng": 2.276277,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const cafe_du_marche_7: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1QGa-aS99BxOO9gg4rp6uleoaS-rvDctscuE6DkdhFpe8gTYTTJVM5WZmy8lD4Zuezp7wdF5gT2i8vUsNIS156myV2j2CYXhXmvFd677m3W-a9jyClKvVoEtLNTW-tRTEAPt3T2ZuUjMRMHFuistPBazQkOs2dmUTHA5X-4pqmBEqdY4FXkuZeu3RJP605Lf--R1XGZbO92LlcAzK_tQmdhjrDX6k8ZHUm3UJUi1oivwLXw-6P9IcarKkXZllygT0VL9MpSPFB8_fFJC5k3M4DIPjrcJPJw8ER1m6JBQG2nw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-marche-7/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-terrasse. Le Café du Marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

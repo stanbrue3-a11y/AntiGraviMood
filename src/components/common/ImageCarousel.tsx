@@ -21,7 +21,7 @@ const CarouselItem = React.memo(
     height: number;
   }) => (
     <MoodImage
-      source={item}
+      source={item as any}
       width={width}
       height={height}
       resolution="HERO"

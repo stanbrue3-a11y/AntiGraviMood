@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const twentyOneGDumpling: SurgicalPlace = {
+export const n_21g_dumpling: SurgicalPlace = {
     id: "poi-21g-dumpling",
     name: "21G Dumpling",
     slug: "21g-dumpling",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bouillon'],
     location: {
         address: "167 Rue du Faubourg Saint-Antoine, 75011 Paris",
         arrondissement: 11,
@@ -125,16 +125,29 @@ export const twentyOneGDumpling: SurgicalPlace = {
     expert_catchline: "Les meilleurs Xiao Long Bao de Bastille, pesés au gramme près pour un bouillon parfait.",
     insider_tip: "• Les Xiao Long Bao sont la raison d’être du lieu : commencez par eux.\n• Le Poulet Croustillant Taïwanais avec son basilic frit est un must-order pour les gourmands.\n• Pas de réservation le soir, arrivez tôt (avant 19h30) pour éviter l'attente.\n• Le Mochi au sésame noir est la touche finale idéale.",
     specials: {
-        cuisine: ["Xiao Long Bao", "Taïwanais", "Nouilles Dan Dan"],
+        cuisine: ["Bouillon"],
         drinks: ["Thé Glacé Maison", "Bière Tsingtao", "Bubble Tea"],
-        must_eat: "Le Xiao Long Bao Tradition et le Poulet frit taïwanais."
+        must_eat: "Cuisine française traditionnelle. Le Xiao Long Bao Tradition et le Poulet frit taïwanais."
     },
-    images: {
-        hero: "https://images.squarespace-cdn.com/content/v1/589ca395b3db2b07d6d5a1b3/1592318641957-8Y6V9G8Y6V9G8Y6V9G8Y/21G+Dumpling+Paris+Dim+Sum+Xiao+Long+Bao",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/21g-dumpling/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.5
+    google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. Le Xiao Long Bao Tradition et le Poulet frit taïwanais.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

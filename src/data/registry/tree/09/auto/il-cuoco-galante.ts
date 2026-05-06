@@ -5,7 +5,7 @@ export const il_cuoco_galante: SurgicalPlace = {
   slug: "il-cuoco-galante",
   name: "Il Cuoco Galante",
   category: "restaurant",
-  subcategory: ['italien', 'français'],
+  subcategory: ['italien'],
   location: {
     address: "36 Rue Condorcet, 75009 Paris, France",
     arrondissement: 9,
@@ -116,19 +116,31 @@ export const il_cuoco_galante: SurgicalPlace = {
   description: "Il Cuoco Galante est une destination de choix pour les amateurs de haute gastronomie italienne dans le 9ème. Ce ’cuisinier galant’ propose une partition raffinée où les classiques transalpins sont réinterprétés avec une élégance moderne. La star incontestée reste la pâte fraîche, confectionnée chaque jour à la main avec une technicité remarquable. Dans un cadre feutré et chaleureux avec cuisine ouverte, chaque assiette raconte une histoire de terroir et de passion, faisant de cette adresse l’une des plus belles expressions de l'Italie à Paris.",
   insider_tip: "• **Les Pâtes** : Le travail sur les pâtes fraîches est exceptionnel. Ne passez pas à côté des Bottoni ou des Pappardelle alla vaccinara.\n• **Le Tiramisu** : Il est monté à la commande, ce qui lui confère une légèreté et une fraîcheur incomparables.\n• **Le Menu Carte Blanche** : Pour 46€, le chef vous propose une immersion totale en 4 séquences, un rapport qualité-prix rare pour ce niveau de cuisine.",
   specials: {
-    cuisine: ["Pâtes fraîches artisanales", "Gastronomie italienne", "Techniques modernes"],
+    cuisine: ["Italien"],
     drinks: ["Vins italiens bio & nature", "Meilleurs crus de la Botte", "Digestifs artisanaux"],
-    must_eat: "Les Bottoni à la joue de bœuf confite : un concentré de gourmandise et de finesse dans une pâte d’une finesse absolue.",
+    must_eat: "Cuisine italienne. Les Bottoni à la joue de bœuf confite : un concentré de gourmandise et de finesse dans une pâte d’une finesse absolue.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-cuoco-galante/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Les Bottoni à la joue de bœuf confite : un concentré de gourmandise et de finesse dans une pâte d’une finesse absolue.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default il_cuoco_galante;

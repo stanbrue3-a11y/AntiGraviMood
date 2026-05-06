@@ -13,6 +13,7 @@ export const deux_magots: SurgicalPlace = {
     "location": {
         "address": "6 Place Saint-Germain-des-Prés",
         "arrondissement": 6,
+        google_id: "TODO",
         "lat": 48.854052,
         "lng": 2.333106,
         "nearest_metro": "Saint-Germain-des-Prés",
@@ -54,9 +55,24 @@ export const deux_magots: SurgicalPlace = {
         "must_eat": "Le Chocolat Chaud à l’ancienne et la Blanquette de Veau ’Boris Vian’.",
         "expert_catchline": "L’excellence du service à la française et les grands classiques du café littéraire."
     },
-    "images": {
-        "hero": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Les_Deux_Magots%2C_25_September_2019.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux-magots/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-litteraire. Les Deux Magots.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

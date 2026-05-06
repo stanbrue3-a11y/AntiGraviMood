@@ -13,6 +13,7 @@ export const fringe: SurgicalPlace = {
     "location": {
         "address": "106 Rue de Turenne",
         "arrondissement": 3,
+        google_id: "TODO",
         "lat": 48.862783,
         "lng": 2.364793,
         "nearest_metro": "Filles du Calvaire",
@@ -48,12 +49,24 @@ export const fringe: SurgicalPlace = {
             "Café"
         ]
     },
-    "images": {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUTpczRG8Ug2e9HYLDXEraf89pBPEak1X4Lai8MXMYDa9rldrS7T2__0hn4cBJ-mRnjentBcLPpgtEJJ6-mfl8QxogG0znaPCqgRF9RC-4jx51xyFXVS1SF0TA2kuoG8NU7-clwkf_ZrOs25rwVkIzJHYlO31_470sPdU4oVg1tpON5_cldJSEL2ClrGlf7ETAGZxd9iPEbWN0nv591J8r3VTl0_Fcvx-j6QHn0hBBUurKliSqlL-4XHNy3TnzI-8dkhvNfedOElM25WS8zjCtWRKzu-KQLrWQ2JzTU2Y9NlA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWUi0MXz6hez_kyfVp1V8Mj0qQbHx6ZAqVOXhjZISHiNMnnIflqmDOyjZe0HwgGNlLIV6QMRQPybd9SeO4NNOsdnrv0Cu38igQ4z_lZx99OfvpJDkioQeagLXHATp9DswCU33wsTZddnzuL98qG2qZ6mdqElpJQwkAWaL5YYpL9ygNH2qKupALxV76xwNq0ErnWxjlqszKSXMNFnZFJgBv3BeU5qiFlLZJEsCMAknGxsV-8aOef-_-GJRQo4hkseAVUUx5QJhTIJNb_2c5V0YwETDnTASPjFqBKSyzh4V045g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVFm8no4dQeeaH_jh8_50-adnPjO8W4pqaq9iPHtz-dPcJ8A86jIscviKbBO30cZjbDMFbx-hOcAS78wbb1yQcirXrNLdcJmp7nDg2oHiMS8kwVN5GFy4tuEWPkGYmMU00IkgghQF0Z7daA4Wq2WIzhIVWmXz3-AdfvKdjHxhOovyBM8H9zHWl0X5sEzivDGVdgzmFGuJAKpnT-z_HzpDq2NXxPLv_Js_orIh4qbZ_yf8a4CAO-L_nLbOWx2emY1bV0LE98u2RB6VO369D6oHpeuOKCptIowV3yhFuqWMsg04xrEkUjJeNOr0QcBl1kovE7cWtaokX2MlveEFE8X2L29AyBicmthB8QOuGOu7SpF3mkSw9vfn0RIFJ9lJqGBI84Z6ed_iV2Z4MW_0xSuJbtC2m_tAbu3RoEno8dZCnYcgzkGdGavo-4hS-NIg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fringe/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coffee-shop. Fringe.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

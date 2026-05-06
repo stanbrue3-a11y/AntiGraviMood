@@ -5,7 +5,7 @@ export const sukhothai: SurgicalPlace = {
   slug: "sukhothai",
   name: "SukhoThaï",
   category: "restaurant",
-  subcategory: ['asiatique'],
+  subcategory: ['thaï'],
   location: {
     address: "12 Rue du Père Guérin, 75013 Paris, France",
     arrondissement: 13,
@@ -87,16 +87,31 @@ export const sukhothai: SurgicalPlace = {
   description: "SukhoThaï est une escale thaïlandaise authentique située près du Parc Montsouris. Réputé pour la justesse de ses épices et la fraîcheur de ses produits, le restaurant propose les grands classiques du Siam dans un cadre épuré et zen. Une adresse de confiance pour un voyage culinaire précis et parfumé.",
   insider_tip: "• **Choix du Maître** : Le Curry Massaman est particulièrement réussi, avec une sauce onctueuse et une viande fondante.\n• **Expérience Culturelle** : La décoration intérieure transporte immédiatement en Thaïlande, calme et reposante.\n• **Commande Signature** : Le riz gluant à la mangue est le final parfait pour apaiser le feu des épices.",
   specials: {
-    cuisine: ["Thaïlandaise", "Asiatique"],
+    cuisine: ["Asiatique"],
     drinks: ["Bière Singha", "Thé glacé thaï"],
     must_eat: "Cuisine thaïlandaise. Curry Massaman & Pad Thaï",
   },
-  images: {
-    hero: "AU_ZVEEcafA1Y5rPKZytr6G087O0O651xsEQKhzy4RQEEJQORJR8qna9I_wL9AuT7nCYPaZfsZka8AD65zV10R2zd8t0eZmQi7u03WoYmZr6a9q8Y8NEUwk1OrxdoeuyLkAyIlNfh2J5mNpW7Dc144mcplXqdAugc88LKVyTEDoKS5afYvVTHgc5vt0SgtMkNm1Dcd3VaHl8WU5X3j0d7yC8gtDg7uoosPSKsK7ZnP6mEDoVBQY-oXIFoz0fOMmCzjWdFNLt_79w3wt22rKFYy6DnUklARYmGuGAjGq5SmyONrvjvZB2bg3fRDhmtCEZj-5pcZMInODte2FNZT6aausYX1mX8EZR5dtfqVsBVn5kTJMHX64hZG-Z-EW7TM0oDH1wKNyvMbMuS-As6XcrPYJKWHBNYRn1FEhuu-DvKK5iuJ2QlQ",
-    gallery: ["AU_ZVEGcni5kR5b_Be3XtZ-lLIhmEugAWtYonu-DxPh3IsDUH140MiRsh4fWmZnuHk39oazuqg5J1yTRch05Tf3USr51Lc4hQC1vvkKIo0fq_FYt4KGwo7AfIaPWrrSeiBYs7azYzumITknahCYnr63xgR4gLbVoMtLN8kCvFRIg6MTPYpWAPZshYIZo0NedbJtpNfF0jMXqQVR8OCCyMqgzpa_o6Kx41iZsQCAkwv7rSshwqBb3-kZgxpQHA1X5S1kPLqLUKAExUG0-LkWMbpiChn0hwRDlOQftrthLHv1Ue4rX39OF1Ycf-WRKutV-A5xy_FaxT-ui4HhHKFzh5Eap_nsWEVl1GPmxoKDbLEVQsyKFDvesVzGt3pnjMvTfo2Az_YNVtUNsKUQpBfWpKwxFA7-zNZyJVhHaes1MCWNImr4GG8A","AU_ZVEEKVYUnV6qzTir4sFqc2nfTiviSFCZw7DlGDZMAnjVrBmH0M6WOO9yCPuM2-qjuKq6aajV2UTTerJQcwQ9DYCJKMkIkvVE-TMPnnlCrT9kU7pZXGryBUTYeZNrxFlmp1NEXxNc6mtnaXv0IsZ6kx1_u1Ix_rlqHkxCN5NflKW880fcWdDj-H9F1wSrL_KxQ2bSgoKe9DVcVaSJOBMzlbccUUmkw7cFGpRFFdGLKMQOKU2RrqqjY12Jt-KhrpOlEAMU_G2kCuME1-nPp1rpSWX5CAMCpJr23hCzVLGtZKhxPXuBDCSysYGnPGAVVTKNC94WI_kOpAzNE9UiJ0kGzk0CpNrHEAc4_Xrn1DMMIBXjqJONu4vwDX03nEO1DVmRBCk4Kl1WMkt3UpxVx0_IuHI4EJnP8XDLfdZin61j-TLDMfy5w-v-TsHFA_Ls3nQ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sukhothai/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine thaïlandaise. Curry Massaman & Pad Thaï",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sukhothai;

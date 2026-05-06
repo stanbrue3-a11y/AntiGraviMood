@@ -115,17 +115,32 @@ export const habesha: SurgicalPlace = {
   • **Combo Moelle** : Optez pour la Formule Découverte pour goûter à tous les contrastes, du piquant du Doro Wot à la douceur du fromage aïb.
   • **Expérience Culturelle** : Ne soyez pas surpris, le partage est roi ici ; on mange souvent dans le même grand plat central, comme à Addis-Abeba.`,
   specials: {
-    cuisine: ["Éthiopienne Traditionnelle", "Cuisine du Monde"],
+    cuisine: ["Français"],
     drinks: ["Tedj (Hydromel)", "Café Éthiopien"],
     must_eat: "Cuisine Éthiopienne. Doro Wot & Injera Signature Beyayinetu.",
     expert_catchline: "L’Éthiopie authentique au cœur du 15ème, entre cérémonie du café et partage solidaire.",
   },
-  images: {
-    hero: "AU_ZVEEJr3pV1I1BwosZ9Y81GUICrW43KODXXVgSU80fqJuBC2LbCkpXy7__-VBDUqUrGhEg9hwmJcwHFDRQ7MsxzUsDPc0Wa9rUcyh6sYUL6_4nswHiBXu3_XNNC4GSCWuIACPFefPgDUVKzFffohlxlzksDB7Fk1ktnm2k7KvOEH4R8bmk6aEhbf3cdXh58sNXCT332RLEOLcdvqlePKVvrghVQ1G96CWlBkBsp1Ix9j40WHqN4jziveLPpS3CthIBI8xDepTJjOeGqzjjfEcMiDu0EhODCEGZth2xdShwMoswfAQcsVFZsR5Q7P97V6X1Jf-jdw_zaQEzOCs-WnCBaiDst8Av46zW-0T5-WbGj3PNQXWEd0BPaaQ1u_qHQyYHQ1vWR9DPQmDPn-9mjza1rOCuMq0adEagcoR9265u7h96KA",
-    gallery: ["AU_ZVEGLoZLBIS1fEJX23qyuksr8T9GWt4vfA0BtdoNLrhPP9BPSeZA9oEQrkXOCAh9tHckX8xCjMyalzQyu7qoZyxnMYjCD1o8uedcGX_ewXhp9AS9pPM1Q8EvudBHdPGGtAbXmlOI2G0KAsdsXG9kEINWlWxoWwx5mJ1TB0wewH5FmB30eATkaIVHTNNSf7tX0ynG9Ktr_omm6twdTszADvxPIanI1GE_CVeewaLkPFUtpFO7B1wM06vxl50-FZ7Ry_PiDoZFwqUZ-oQ3EVE2q-eqtiGLatgS2oZ7wogKF5yHj7gholb7ybjChVJQBGFGLYeZXnU_j20UbkLyqJ8UxhJa4l132LAaUaL8M2xM9yO5U8m4zEOX3N-IJLfiOpGGVgJSEDlzNqBF82jCZBeWv1Z8wh7PwQ7bpOkqgZjKBL8zBHA","AU_ZVEGPtVp82HzeaqE1CFU5-FZF7ZaXnHkCmWINEx90Ny2on_y93BFOa9OVVTIs8F3GeGG9840p2NUpa6dvjyzmWXIy6W_2UarloQesj7txsXRDXVqKFSYSv2qsR05J5RCIMYU5AtnXlq7-Nz75UhUUXyjGY5sE72DdEk2tYNFZ1V40xiLS_zP5oVBfXD7Jeg2hpzZjwQQM-EJR9jlgEz5j3wywM2jOF6F05sV7asC4Ri5hhKxf__hCBQWOBNj8ddsW63gvMN2ZDTgb06Tm84qHuOIznE1thWBvyq6rApICbxFbTxbC5ijjLiZKPHk4_F0X4rdNxGVnm4A0ttjY1aDd1AfIG_TLAeSpaXos_1KmSck_vGtIl1ODHFs8OX-sxUjCaBkARnBjtp9ed8A6nbx61h93LWhliEYTNHJu4i-FnJuS1w"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/habesha/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Éthiopienne. Doro Wot & Injera Signature Beyayinetu.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default habesha;

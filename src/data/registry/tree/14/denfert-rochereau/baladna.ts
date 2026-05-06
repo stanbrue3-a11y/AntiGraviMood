@@ -85,22 +85,34 @@ export const baladna: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJmP6XZW0NihY4859qN4hMvtrUlATsbswbc2omQF4AXUeGyn5c-QZDGi8PPf1EyyCgc7372GtpRq57Y4jfX1QaRVbacPZbAXJerEX_tY1eNR9XUnCY8aCg4IXbgYADSszPm8vS_CE9K7QtFDYn7CCUuwPtAr7xEvaEb3e0_EO1X-ElXvoEZeLhB8i1GeTGJO6sBJS0bpzpYQvzIjqc-9C2hy2qU3i_mZYJCy1E4X0Apjb1mV_NSN6RZOGxyelFMJczKFXond8NE8ZCsgvth6IaOfBlSBZOZ79ii8DXtJMnnaZbtXJRZgCdc0zoRm00c_qVjPjTthh4kNZSeHqjxoY0HTxAX4EOL7M_FGdkrzLYb3us67pH0KMYpcvdjCGybqHWKZ2DnzhkYvPS4TcbsjKEKm3Obv0ZcBoERo1vNZJMTDVU&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVgucbKtq0qikLyRpTEYFPSrelIDjEUDdDP9BA5AE47oSC9joQoX0ZmYM9fInu3PM5QX_tWEe8-RlljjxssB6XrKiCWojRxuCekX_v-Nooui9n_FGyNV8pEo6d4i0ViH58C3uv8CQGjSWcYhiKKhXsu5UhWaWJdYzjd70zuF7X8dTPIiyQ9kluLy6v3RyY9jm3UvIXXnbU2EFnKY0HGcENhRZ8m5EBjrpEN244xG14F1m0TP_5LmSgjYDpB7xvmmEtjsm4TutX30W3u2Le10wnG5HIcuwuhtIhVx83QsZmmb74Ynm4LH6798b_e2Vb0mUqiUPuqrE930BDV-K7MH341p5Zv6TrxB4dl-7Cw9Ajg4eaRaXqKC9s2hQCLjzs3ubqN_f8y6QCJrAJUxk9WUoq1EXsHKkQzUpYKZ49pQtd8wVIVFp0IO9nwiwaqKs43&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVzGst0-hdSSiFwTlixJLfSGEKaWo1pxWFFTIJP2zNAiBXCQnFomEtbWebdLqYyuxc50sRMlmqNwNroE3DqJNVLa-rev8wt-Cj3dPbqgYpYjVjAnYIdhhgcHDmGGcANyVjBIK9SJQSxq4815mEFvTCgFa0QsPE_sacVNATdkVIrzvGTJyxrwEwSMzxg9ipYiHHTzn3qYT2neiOGFtIxMBg83miWPW9l1JniWbxrm97Ce746BhUJlZDYg0TtHdKOSKKhNuH6akCT20cz2LbwhR3wqV8IIiXQ2EnhOu12M9hRW3ci_0Aq-XWExQYgzjVYypup15T9AhoAcgzHp9LvrF0C2Af_GNr9VZRxsh01muHdP6OGyYa8cQbgYEK1ITSaW30iVx76R_wIBwcXqdVQWCCdbcvbBaqoobMv9fVjWvNL3Q4yTXJTlovyKzh1DzqG&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/baladna-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Surplombant la place Denfert-Rochereau, Baladna est une escale libanaise authentique qui refuse les compromis sur la qualité. Ici, les mezzés sont faits maison tous les matins et les grillades au feu de bois embaument la salle. L’ambiance est familiale, généreuse et invite au voyage culinaire entre Beyrouth et Paris. Une valeur sûre pour découvrir la finesse d'un vrai houmous et la tendreté des viandes marinées.",
     insider_tip: "Ne manquez pas le Kebbé Nayé (agneau cru au blé concassé) pour les amateurs de sensations fortes, c’est l'un des plus frais de la capitale. La terrasse ensoleillée sur la place est un vrai bonheur au printemps.",
     expert_catchline: "La quintessence du Liban à Denfert : mezzés d’une finesse rare et grillades parfumées.",
     specials: {
-        cuisine: ["Traditionnelle Libanaise", "Grillades au feu de bois", "Mezzés maison"],
+        cuisine: ["Méditerranéen"],
         drinks: ["Arak traditionnel", "Vin libanais (Château Musar)"],
-        must_eat: "Le Plat Baladna et le Houmous maison.",
+        must_eat: "Cuisine méditerranéenne. Le Plat Baladna et le Houmous maison.",
         must_drink: "Un verre d’Arak pour ouvrir l'appétit."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine méditerranéenne. Le Plat Baladna et le Houmous maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

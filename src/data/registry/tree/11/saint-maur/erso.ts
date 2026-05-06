@@ -82,12 +82,16 @@ export const erso: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUHoxtcJEG8eXFfP1ngE_SFRN35Wb139Z_RTd1gr2GuGbcZfh1stD1yPFwWzvi5kE3gstt_dmba-PRol_mhnoIlqkQzwI4WduXDMLlUbOogK9Iusdo0TcKl__LXUxQCUySeyqeqVXA6DFEr5dmf0TyKakkYlQn44Nz9A486uFCcBoQ8UETP7TG_wALhSETnmxE7vjdvjPeAN1zeIhGwgkj-jFmlCjk_RROnHETTyiZV4FYNl-ivyrd5sDQrgyddLmW9F8s4GKpH1uUneLb3xdPDqPp4qy_mLv3jseVCPX__9Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-KFjNMXLPu12imCC_ZJhmUnwrYpBejcsZjVg3qEPtMKECHBybCOE83zIpVCLTM7cn8KqhE6CZ0hRrshsLd4u-uz3g_tTTHo3DUcIc4NMNMBMWqiea&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/erso/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "erso.paris",
     verified: true,
     google_rating: 4.9,
@@ -95,9 +99,18 @@ export const erso: SurgicalPlace = {
     insider_tip: "• Le déjeuner est un hold-up gastronomique spectaculaire : 29€ les 3 services pour un tel niveau de cuisine, on trouve difficilement mieux à Paris.\n• La réservation le soir (où la carte est plus onéreuse et poussée) doit se faire plusieurs semaines à l’avance depuis leur prix Lebey.\n• Il y a toujours un focus puissant sur des fromages affinés de compétition de chez Taka & Vermot.",
     expert_catchline: "Élu Meilleur Bistrot 2025 (Lebey). Un triomphe bistronomique total, le menu déjeuner est une aubaine.",
     specials: {
-        cuisine: ["Barbue meunière au sabayon", "Millefeuille de champignon (miso)", "Carré de veau parfait", "Fromages Taka & Vermot"],
+        cuisine: ["Français"],
         drinks: ["Carte resserrée sur des pépites nature", "Biodynamie"],
-        must_eat: "Suivez aveuglément leurs propositions sur les poissons nobles (barbue, daurade, maigre) traités avec une main de maître sur les fumets et sabayons.",
+        must_eat: "Cuisine française. Suivez aveuglément leurs propositions sur les poissons nobles (barbue, daurade, maigre) traités avec une main de maître sur les fumets et sabayons.",
         must_drink: "Faites 100% confiance à la directrice de salle Marine pour les accords ; elle pioche chez les meilleurs faiseurs de jus vivants."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Suivez aveuglément leurs propositions sur les poissons nobles (barbue, daurade, maigre) traités avec une main de maître sur les fumets et sabayons.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

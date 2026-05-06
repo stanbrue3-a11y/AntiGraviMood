@@ -75,22 +75,34 @@ export const entrepot: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUbQ2ejPmGC16ejAnEKyO0yzIkqsb73xhYb76QbFEslyf6p0x0QGLWTq2AT8MT8cEeO3yYHsrvyzzZXrN_5z-CgPw7BVzXZXTMlO-PfDL5QFxbtSWfImxvegHaU2-GiySqvdXLz1VEB8_HIlh5acnO_ds7z9RdSE4CQMqsVFxX4B7Dx8hvTMuzj7lw1FLQubXWX0JmvWowFGF4l4-P7TUxxQGPFAtotFVmir-QwX87B6mtJpHbnPAoIiY8Yh8CDQmkhbrfEWJAWt4Uwx8zVlJzp21HUPgIY0aWErdwfDDYMNjfHQCcAV6fK19d7XL0o-BMFb-_tFipmqCx-WNxnkgmeig02IEZwmRbGIPBvPSE8ipNeVIQGH5jR275QRHBjDm7D0AqpCGjQZbhr2Mkxv4iyJKyy0zxI7CG8aEpHgMQkPK9G&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVxN2QaCP2qDRs1a4JMj6jSn1c0jmQ2vEsLj8SGURBDHOwaPAmh91-NXfej2izb9oRHh1CiP4SeEeIgUzIX8Nwzz00-IeqcwOET8I7P_Wbd23Sj8Wid1OcCGU-mnuFC7jyYIypeeblppB04P0JrBMym2CJOqVpxfHhNEuzU6VkKTVpIn0dK10ja1F_483KRlQIjOTUJhGQvWrPmYhZ_Szrki9jn1BCqtzOjF1QaOmlhn2nOhnypGE31dyrgaXGy-FfEFUqCRaSv8QWRpizC77LS2eRhYZbGP94he70CvHA4jseQ6zNaUW015CcQkvyUCNcbc-uF5nSz_T6df1px4K0Cd_UGn2Us4awV58ITSkWQcDZBO0UV1z1bpnEdNcB_UXjIatZ16_9DLMHOEI07pEVmW2g_qJS-egUi3OJEysbTXQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXoXouOmL7sq44bB54J9hQVGFtyO0SXcY5AAu1LARAfUKZXL_yiKbbiPqafVCk0uZO95I-Kf_kxLFuhq9Sq6tFV57SRM8oQKRVOaKNZEYVyWB8PH6rn8QEWtKKMkvusCc7W0nnb_YcuJJCchu14osPWwI6F9hwynQ_g8c49lH1ZW_QMNu7yVGfKBpxl_7tC_SR6GMgnWGxQP9a4UxAO5EjKlbOZL_VntJTftw_odr4TqbFnp1f0bLT5XOrhW73CXJgNqXsfGo0Skcxe7evsfnjf5Sa30FGQPCQ0wJsdLgtOc21f7LhsuU5L3K4a_jDCBMChWStUCtCvjWE0gOSaGCUjxe-bimlFU4aFn1uUB56hIyqLvd0j7l69wkdil2wMVUw0BT1b4pi8tv1MkUzTNEjlf4AeyJWUuCHEC-1PT4w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entrepot/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.2,
     description: "Fondé en 1975 par Frédéric Mitterrand dans une ancienne imprimerie, L’Entrepôt est une véritable ’biosphère’ culturelle. Ce lieu hybride unique à Paris réunit trois salles de cinéma Art et Essai, une galerie d’exposition, une salle de concert jazz et un restaurant niché sous une vaste verrière. Un havre de paix artistique où l’on vient aussi bien pour un film indépendant que pour une cuisine de saison dégustée dans son jardin secret, loin du tumulte urbain.",
     insider_tip: "Ne manquez pas les séances ’Ciné-Bébé’ pour les parents ou les concerts Lindy-Hop. La terrasse chauffée, sous serres en hiver, est un pur moment de magie toute l’année.",
     expert_catchline: "L’institution hybride du 14ème : cinéma, jazz et jardin d'hiver.",
     specials: {
-        cuisine: ["Bistronomie de saison", "Brunch dominical"],
+        cuisine: ["Français"],
         drinks: ["Vins naturels", "Cocktails classiques"],
-        must_eat: "L’os à moelle au sel de Guérande et le Tiramisu Nutella-Spéculoos.",
+        must_eat: "Cuisine française. L’os à moelle au sel de Guérande et le Tiramisu Nutella-Spéculoos.",
         must_drink: "Un verre de vin rouge naturel sélectionné par Marie-Sophie Séba."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’os à moelle au sel de Guérande et le Tiramisu Nutella-Spéculoos.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

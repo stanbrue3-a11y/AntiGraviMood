@@ -5,7 +5,7 @@ export const bistrotters: SurgicalPlace = {
     name: "Bistrotters",
     slug: "bistrotters-paris-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "9 Rue Decrès, 75014 Paris, France",
         arrondissement: 14,
@@ -75,22 +75,35 @@ export const bistrotters: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX5sF6bPeYA1nFzRikV_FqVjwXTeaPCA9gwuSAqWPDxJS8SLIK9z_YnnMQMx7LiGKjcwa-KLurTH1xzb5MlNNZ7_BaxpW-0ubarnZkuEgKqWmh7olU9RIFK3J_eM2X-Vwo9FnCUErUd2oGl2K6LvvHfgsGnQcdWz3Fzr9mrbQumsxOkTHJuPBiHmRbM-4gai00mZiEZIc-u3hj0yh_xu_UbFnhhusWsggDwNQ8AqkUD9bQ-CXhClnSPGixo28mXIIgFqNN9N75AHoAW736yWZLFTKszD3t0LBf-61cqCFsPqg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXMxKIvOSJtTnVsFm_MWFTErsmEJ9MQqz-PsW1xEwf79-ZB8-hM3K4B9SH3dp9qRJiMgpQb5-S23xV4rZJRrvC0p6jJ0DCItbbZONx__i9YlNn77KuK3MUOUnDjP7qs6TYU_DYZEn0vCEhq5cO4owqt7ssorAx8iOcDH3-PXKVAabJgPbUBF-WH8GjUFehK1OmI_1_DSayb473AwZuTiEUxlyamzxC2hoVzNGjUgeqc05GMXdypE1XpxJkURmlo2-Wmc-ytbxiWac34qedWrp1sSv50MQ3F04jPKb5kZZB0TA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bistrotters-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Bistrotters est l’une de ces pépites parisiennes que l’on voudrait garder pour soi. Situé dans la tranquille rue Decrès, ce restaurant incarne le bistrot moderne dans ce qu’il a de plus noble : une cuisine de terroir généreuse, un accueil d’une gentillesse rare et une atmosphère chaleureuse faite de bois et de sourires. Tout ici est fait maison, de la terrine au dessert, avec un respect sacré du produit. C’est l’adresse idéale pour redécouvrir le plaisir simple d’un plat parfaitement mijoté dans un cadre authentique.",
     insider_tip: "Goutez absolument à leur riz au lait, une légende locale qui vaut le détour à elle seule. L’ambiance le samedi soir est particulièrement conviviale, pensez à réserver car le lieu est petit.",
     expert_catchline: "L’authenticité absolue du bistrot de quartier et de terroir.",
     specials: {
-        cuisine: ["Bistrot de Terroir", "Cuisine Familiale"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins de Propriétaires", "Bières de Micro-Brasserie"],
-        must_eat: "Le Confit de Canard et le Riz au Lait.",
+        must_eat: "Cuisine de bistrot. Le Confit de Canard et le Riz au Lait.",
         must_drink: "Un vin rouge souple de l’Hérault."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Confit de Canard et le Riz au Lait.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

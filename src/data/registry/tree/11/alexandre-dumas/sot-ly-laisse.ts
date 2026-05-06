@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const leSotLyLaisse: SurgicalPlace = {
+export const sot_ly_laisse: SurgicalPlace = {
     id: "poi-le-sot-ly-laisse",
     name: "Sot l’y Laisse",
     slug: "le-sot-ly-laisse",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['japonais'],
     location: {
         address: "70 Rue Alexandre Dumas",
         arrondissement: 11,
@@ -74,19 +74,34 @@ export const leSotLyLaisse: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-sot-ly-laisse/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Le Sot l’y Laisse est un joyau de la rue Alexandre Dumas. Le chef Eiji Doihara y pratique une cuisine française de haute volée, magnifiée par l’épure et la précision japonaises. Son plat signature, qui donne son nom au restaurant, est une ode aux textures et aux saveurs boisées. Le cadre est sobre, intime, mettant tout l’accent sur les assiettes d'une finesse rare.",
     insider_tip: "Ne manquez pas leur menu déjeuner, sans doute l’un des meilleurs rapports qualité-prix gastronomiques du quartier. Pensez à réserver plusieurs jours à l'avance, le lieu étant petit et très prisé.",
     expert_catchline: "L’art de la haute gastronomie française magnifié par la précision japonaise.",
     specials: {
-        cuisine: ["Franco-Japonais", "Technique Bocuse", "Produits d’exception"],
+        cuisine: ["Franco-Japonais"],
         drinks: ["Belle sélection de vins de Bourgogne", "Sakis sélectionnés"],
-        must_eat: "La fricassée de Sot-l’y-laisse bien sûr.",
+        must_eat: "Cuisine franco-japonaise. La fricassée de Sot-l’y-laisse bien sûr.",
         must_drink: "Un saki pour accompagner les entrées de poisson."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine franco-japonaise. La fricassée de Sot-l’y-laisse bien sûr.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

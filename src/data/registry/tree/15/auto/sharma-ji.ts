@@ -108,17 +108,32 @@ export const sharma_ji: SurgicalPlace = {
   • **Combo Moelle** : Ne passez pas à côté de l’agneau confit (Lamb Ghee Roast), une prouesse de tendreté, idéalement accompagné d’un Garlic Naan tout juste sorti du tandoor.
   • **Expérience Culturelle** : Portez une attention particulière à la carte des cocktails ; les créations comme le Bombay Colada utilisent des épices indiennes de façon magistrale pour accompagner le repas.`,
   specials: {
-    cuisine: ["Indienne Moderne", "Bistronomie"],
+    cuisine: ["Indien"],
     drinks: ["Cocktails Signatures", "Vins Naturels"],
     must_eat: "Cuisine Indienne Moderne. L’épaule d’agneau (Lamb Ghee Roast) & les raviolis tandoori.",
     expert_catchline: "L’excellence indienne par le chef Manoj Sharma, entre tradition et modernité absolue.",
   },
-  images: {
-    hero: "AU_ZVEENMEN24w4Kshf8po7uY-Ilo6561-jkCiGZJWGfW5V62vd0jBCASb1iRo-KimjSvYVQRn7ktanEPYF3PGHUAFTZ-3yTMnM0EGvYyXVuLuq_wB-sz9odXBmUuYqzh_0pNBuTLoiHhiIFLDxJNjNbkgOHO3TRi82dYT6ff6dGeoscu9Zcx8E_e0WEluDMWp0dnbhNmDUFwu57AxsIPHhgVRH0t_1JRkEDv1LsXKl7g2hfTElgrQjmM0BTQO1N1Owde46vrBxUDlPcxy5hUd6msm3UqztYFDCn_x3akAx-a7I",
-    gallery: ["AU_ZVEEDfNRYiYbthbCCbi-qou1wf6huI_nVt4M0ru7qrH4xNgbyIvjlKLWSqwp8SeGgtcLaOfq3k33HtUL0R04TMuK5krUtVFVWYzNFTdBs0YEyc9_sEAYHvyIiAJyiEvuqkwO8ZTimdI-BceZPSErsIHUCPt560IFd6G9z8REONSdukmJ1TMrJk54EUey38IRZc2NNpckCc4AK3-EyeEv2Xn4HsckaHwIX2yjyxblNZdcGIy2dXybc81I4RpdW6aunuCvtr88y0zEsCVkWNZw2x1COaT7qK5dUv8SIT8pgdI8","AU_ZVEF2nb1ObE4TsRhw_yTTXF_oe5bghHbM_ZrtNxOpSNChT2yISUiMu3CN1V2SOzddC4Fc9GmISV7OOtnj2QQg--9tzsmV05t5-36JsVx4gbBZ9q7nRNswPXALrmKUp3xqB8vaERvSAGKpx2CGb93G_rhjAknM_yerdD0BCtsCwueob4DeLIrRLPlLKjDllJsD2HFwAZvYa8uPe6pPia0oabzg0u9poZXhBFzkzkb7klWJ6BKglHTuquQXiyAGXJ5f9cUhUIuqFqdYFH1bfRO0uNpadHQB29SVAf5_65Buktjb8EdXZjD8Luoe-JzRYbd9YfZtXGb1TAPnJd4vkyEjoW2ar5MgxCnolF88mEfJN7IejYKWYMiibACb3j0HaLnZIYBOnM-6Zfq22kQ2ZR_Wu-JqjHwNcYOt0z6Be7ptNBZQfj70tf9dk0ST4K12ww"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sharma-ji/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Indienne Moderne. L’épaule d’agneau (Lamb Ghee Roast) & les raviolis tandoori.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sharma_ji;

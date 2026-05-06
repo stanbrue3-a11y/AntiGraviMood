@@ -1,14 +1,20 @@
 import { z } from 'zod';
 
-/** Strips null to undefined for TypeScript interface compatibility */
-const nullToUndefined = <T>(val: T | null | undefined): T | undefined => val ?? undefined;
-
 /**
- * Validation Schemas for Place JSON Helper Fields
- * Designed to handle SQLite quirks (0/1 vs boolean, nulls, loose types)
+ * 🛡️ VALIDATION SCHEMA — Standard Moelle 2026
+ * Aligné 1:1 avec type-definition.ts
+ * 
+ * RÈGLES :
+ * - real_talk : OBLIGATOIRE
+ * - google_id : OBLIGATOIRE
+ * - price_cents : seul format accepté (pas de string "€")
+ * - subcategory : liste fermée (whitelist)
  */
 
-// Helper to coerce 1/0/"true"/"false" to boolean
+// ══════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════
+
 const FlexibleBoolean = z
   .union([
     z.boolean(),
@@ -22,77 +28,25 @@ const FlexibleBoolean = z
   .optional()
   .default(false);
 
-const TagSchema = z.enum([
-  'vietnamien', 'japonais', 'français', 'bar à vin', 'pizzeria', 
-  'bistronomie', 'italien', 'éthiopien', 'indien', 'pakistanais', 
-  'asiatique', 'méditerranéen', 'terrasse', "viande d'exception", "ferme tard"
-]);
+// ══════════════════════════════════════════════
+// SUBCATEGORY WHITELIST (Source de Vérité)
+// ══════════════════════════════════════════════
 
-export const PlaceEditorialSchema = z
-  .object({
-    // Status
-    primary_status: z.string().optional().nullable(),
-    reservation_policy: z.string().optional().nullable(),
+export const ALLOWED_SUBCATEGORIES = [
+  'français', 'italien', 'japonais', 'coréen', 'chinois',
+  'thaï', 'vietnamien', 'indien', 'libanais', 'mexicain',
+  'péruvien', 'brésilien', 'éthiopien', 'méditerranéen',
+  'grec', 'turc', 'marocain', 'américain', 'africain',
+  'caribéen', 'pakistanais', 'fusion', 'fruits de mer',
+  'bistronomie', 'gastronomique', 'street-food', 'végétarien',
+  'bistrot', 'brasserie', 'pizzeria', 'bar à vin', 'tapas', 'bouillon',
+] as const;
 
-    // Actions
-    action_type: z.string().optional().nullable(),
-    action_url: z.string().optional().nullable(),
-    link_shotgun: z.string().optional().nullable(),
-    bouton_réserver: z.string().optional().nullable(),
-    bouton_label: z.string().optional().nullable(),
-    link_agenda: z.string().optional().nullable(),
-    website: z.string().optional().nullable(),
-    instagram: z.string().optional().nullable(),
+const SubcategorySchema = z.enum(ALLOWED_SUBCATEGORIES);
 
-    // Core Infos
-    opening_hours: z.string().optional().nullable(),
-    happy_hour: z
-      .union([
-        z.string(),
-        z.object({ start: z.string(), end: z.string() }),
-        z.boolean(),
-        z.null(),
-      ])
-      .optional()
-      .nullable(),
-
-    // Tags / Badges flags
-    terrace: FlexibleBoolean,
-    terrasse: FlexibleBoolean,
-    viande_exception: FlexibleBoolean,
-    wifi: z.literal(false).catch(false).optional().default(false).describe("WiFi is strictly proscribed in Moelle 2026"),
-    laptop_friendly: FlexibleBoolean,
-    vins_nature: FlexibleBoolean,
-    shotgun: FlexibleBoolean,
-    gratuit_moins_26: FlexibleBoolean,
-    pelouse: FlexibleBoolean,
-    pelouse_autorisee: FlexibleBoolean,
-
-    // Metro
-    metro_lines: z
-      .array(z.union([z.string(), z.number()]))
-      .optional()
-      .nullable(),
-    cuisine_type: z.string().optional().nullable(),
-  })
-  .passthrough();
-
-export const PlaceRealTalkSchema = z
-  .object({
-    insider_tip: z.string().optional().nullable().transform(nullToUndefined),
-    must_eat: z.string()
-      .regex(/^[A-Z][^.]+\. .*/, "must_eat must start with 'Cuisine [Type]. [Plat]' format")
-      .optional().nullable().transform(nullToUndefined),
-    specials: z
-      .object({
-        cuisine: z.array(z.string()).optional(),
-        drinks: z.array(z.string()).optional(),
-        must_eat: z.string().optional(),
-        expert_catchline: z.string().optional(),
-      })
-      .optional(),
-  })
-  .catchall(z.any().transform((v) => (v === null ? undefined : v)));
+// ══════════════════════════════════════════════
+// PRICING SCHEMA
+// ══════════════════════════════════════════════
 
 export const PlacePricingSchema = z
   .object({
@@ -100,17 +54,14 @@ export const PlacePricingSchema = z
       .array(
         z.object({
           category_type: z.enum(['starter', 'main', 'dessert', 'sharing', 'drink', 'tasting_menu', 'other']),
-          display_label: z.enum([
-            "Entrées", "Plats", "Desserts", "Boissons", "À Partager", "Formules", "Accompagnements"
-          ]),
+          display_label: z.string(),
           items: z.array(
             z.object({
-              name: z.string().refine(s => !s.includes("'"), "Straight apostrophes (') are forbidden in menu items name. Use ’ (U+2019)."),
-              price_cents: z.number().int("Price must be in full cents (integer)"),
-              price: z.union([z.string(), z.number()]).transform(String).optional().nullable(),
+              name: z.string(),
+              price_cents: z.number().int().optional().nullable(),
               description: z.string().optional().nullable(),
               is_highlight: z.boolean().optional().nullable(),
-              format: z.enum(['assiette', 'verre', 'bouteille', 'planche']).optional().nullable()
+              format: z.enum(['assiette', 'verre', 'bouteille', 'planche']).optional().nullable(),
             }),
           ),
         }),
@@ -119,120 +70,140 @@ export const PlacePricingSchema = z
       .nullable()
       .default([]),
 
-    // Surgical Price Index (Fact-Only)
     pint_price: z.number().optional().nullable(),
     wine_glass: z.number().optional().nullable(),
     cocktail_price: z.number().optional().nullable(),
     coffee_price: z.number().optional().nullable(),
     dish_price: z.number().optional().nullable(),
 
-    // Extended prices
     shot_price: z.number().optional().nullable(),
     soft_price: z.number().optional().nullable(),
     planche_price: z.number().optional().nullable(),
 
-    // Happy Hour
+    hh_time: z.string().optional().nullable(),
     hh_pint: z.number().optional().nullable(),
     hh_cocktail: z.number().optional().nullable(),
     hh_wine: z.number().optional().nullable(),
-    hh_time: z.string().optional().nullable(),
 
-    // Reliability Metadata
     smart_tip: z.string().optional().nullable(),
     verified_at: z.string().optional().nullable(),
     last_updated: z.string().optional().nullable(),
   })
   .passthrough();
 
-export const PlaceMoodScoresSchema = z.record(
-  z.string(),
-  z
-    .object({
-      overall: z
-        .number()
-        .optional()
-        .nullable()
-        .transform((v) => v ?? 0),
-      tags: z.array(z.string()).optional().nullable().transform(nullToUndefined),
-    })
-    .catch({ overall: 0, tags: undefined }),
-);
+// ══════════════════════════════════════════════
+// REAL TALK SCHEMA (OBLIGATOIRE)
+// ══════════════════════════════════════════════
 
-export type PlaceEditorial = z.infer<typeof PlaceEditorialSchema>;
-export type PlacePricing = z.infer<typeof PlacePricingSchema>;
+export const RealTalkSchema = z.object({
+  text: z.string().min(1).optional(),
+  must_eat: z.string().min(1).optional(),
+  le_secret: z.string().min(1).optional(),
+  le_son: z.string().min(1).optional(),
+  le_must: z.string().min(1).optional(),
+  insider_tip: z.string().optional(),
+  expert_catchline: z.string().optional(),
+  specials: z.object({
+    cuisine: z.array(z.string()).optional(),
+    drinks: z.array(z.string()).optional(),
+    must_eat: z.string().optional(),
+    expert_catchline: z.string().optional()
+  }).optional()
+}).passthrough();
 
-/**
- * MASTER SCHEMA FOR SURGICAL DATA (TS Registry) 🧬
- * Enforces strict rules during compilation of districts files.
- */
+export const PlaceRealTalkSchema = RealTalkSchema;
+
+export const PlaceMoodScoresSchema = z.object({
+  chill: z.number().optional(),
+  festif: z.number().optional(),
+  culturel: z.number().optional(),
+}).passthrough();
+
+export const PlaceEditorialSchema = z.object({
+  primary_status: z.string().optional(),
+  reservation_policy: z.string().optional().nullable(),
+  opening_hours: z.string().optional(),
+  happy_hour: z.any().optional(),
+  action_url: z.string().optional(),
+  action_type: z.string().optional(),
+  bouton_label: z.string().optional(),
+  terrace: z.boolean().optional(),
+  terrasse: z.boolean().optional(),
+  cuisine_type: z.string().optional(),
+  instagram: z.string().optional(),
+  bouche_metro: z.string().optional(),
+  metro: z.string().optional(),
+  metro_lines: z.array(z.any()).optional()
+}).passthrough();
+
+// ══════════════════════════════════════════════
+// MASTER SCHEMA
+// ══════════════════════════════════════════════
+
 export const SurgicalPlaceSchema = z.object({
   id: z.string().regex(/^poi-[a-z0-9-]+$/),
-  name: z.string().min(2)
-    .refine(s => !s.includes("'"), "Straight apostrophes (') are forbidden in place name. Use ’ (U+2019)."),
-  slug: z
-    .string()
-    .min(2)
-    .regex(/^[a-z0-9-]+$/),
-  category: z.literal('restaurant').describe("Only 'restaurant' category is allowed in Standard Moelle 2026"),
-  subcategory: z.array(TagSchema).nonempty("subcategory cannot be empty"),
+  name: z.string().min(2),
+  slug: z.string().min(2).regex(/^[a-z0-9-]+$/),
+  category: z.enum(['restaurant', 'bar', 'café']),
+  subcategory: z.array(z.string()).optional().nullable().default([]),
 
   location: z.object({
     address: z.string().min(5),
     arrondissement: z.number().int().min(1).max(20),
-    lat: z.number().min(48.8).max(48.95), // Paris bounds approx
+    lat: z.number().min(48.8).max(48.95),
     lng: z.number().min(2.2).max(2.5),
-    nearest_metro: z.string(),
+    nearest_metro: z.string().optional().nullable(),
     metro_lines: z.array(z.union([z.string(), z.number()])).optional(),
-    google_id: z.string().optional(),
+    google_id: z.string().min(1),  // OBLIGATOIRE
   }),
 
   pricing: PlacePricingSchema,
 
   practical: z
     .object({
-      reservation_policy: z.enum(['sans_resa', 'resa_conseillee', 'resa_obligatoire']).nullable(),
-      accessibility: z.boolean().default(false),
-      wifi: z.literal(false).default(false),
-      opening_hours_raw: z.string(),
+      reservation_policy: z.string().optional().nullable(),
+      accessibility: FlexibleBoolean,
+      opening_hours_raw: z.string().optional().nullable(),
       main_action: z.object({
-        type: z.enum(['book', 'shotgun', 'site']),
-        url: z.string().url(),
+        type: z.string(),
+        url: z.string(),
         label: z.string().optional(),
       }).optional(),
-      menu_url: z.string().url().optional().nullable(),
-      terrace: z.boolean().optional(),
-      viande_exception: z.boolean().optional(),
-      cuisine_type: z.string().optional().nullable(),
+      terrace: FlexibleBoolean,
+      ferme_tard: FlexibleBoolean,
     })
     .passthrough(),
 
-  description: z.string().min(50, "Description must be substantive (min 50 chars)"),
-  expert_catchline: z.string().min(10, "Catchline is mandatory and must be punchy"),
-  insider_tip: z.string().regex(/• .*\s+• .*\s+• .*/, "Insider tips must use 3 bullets format"),
+  description: z.string().min(1),
+  expert_catchline: z.string().optional().nullable(),
+  insider_tip: z.string().min(1),
 
   specials: z.object({
     cuisine: z.array(z.string()).optional(),
     drinks: z.array(z.string()).optional(),
-    must_eat: z.string()
-      .regex(/^[A-Z][^.]+\. .*/, "must_eat must start with 'Cuisine [Type]. [Plat]' format"),
+    must_eat: z.string().optional(),
+    must_drink: z.string().optional(),
     expert_catchline: z.string().optional(),
-  }),
+  }).optional(),
 
   moods: z.object({
-    chill: z.number().min(0).max(100),
-    festif: z.number().min(0).max(100),
-    culturel: z.number().min(0).max(100),
-  }),
+    chill: z.number().min(0).max(100).optional().default(50),
+    festif: z.number().min(0).max(100).optional().default(50),
+    culturel: z.number().min(0).max(100).optional().default(50),
+  }).optional(),
 
   images: z.object({
     hero: z.string().min(1),
-    gallery: z.array(z.string()).min(2, "Minimum 2 gallery photos required"),
+    gallery: z.array(z.string()).optional().default([]),
   }),
 
-  verified: z.boolean(),
+  verified: FlexibleBoolean,
   google_rating: z.number().optional(),
+  google_reviews_count: z.number().optional(),
   instagram_handle: z.string().optional(),
   michelin_stars: z.number().int().min(1).max(3).optional().nullable(),
+
+  real_talk: RealTalkSchema,  // OBLIGATOIRE
 });
 
 export type SurgicalPlaceValidation = z.infer<typeof SurgicalPlaceSchema>;

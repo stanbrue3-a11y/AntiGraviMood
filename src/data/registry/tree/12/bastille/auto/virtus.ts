@@ -5,7 +5,7 @@ export const virtus: SurgicalPlace = {
   slug: "virtus",
   name: "Restaurant Virtus",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['argentin'],
   location: {
     address: "29 Rue de Cotte, 75012 Paris, France",
     arrondissement: 12,
@@ -103,16 +103,31 @@ export const virtus: SurgicalPlace = {
   • **Le Duo de Chefs** : L’alchimie entre Chiho et Marcelo se ressent dans chaque assiette, l'un apportant la précision, l'autre la vivacité.
   • **Cote des Vins** : Laissez-vous guider par le sommelier pour des accords audacieux avec des vignerons indépendants méconnus.`,
   specials: {
-    cuisine: ["Gastronomique", "Moderne", "Étoilé Michelin"],
+    cuisine: ["Argentin"],
     drinks: ["Grands Crus", "Vins d’Auteur"],
-    must_eat: "Gastronomie. Saint-Jacques de plongée & Ris de Veau doré",
+    must_eat: "Cuisine argentine. Saint-Jacques de plongée & Ris de Veau doré",
   },
-  images: {
-    hero: "AU_ZVEEf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf",
-    gallery: ["AU_ZVEG_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W","AU_ZVEHm_R1k5F3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3Wf3W"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/virtus/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine argentine. Saint-Jacques de plongée & Ris de Veau doré",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default virtus;

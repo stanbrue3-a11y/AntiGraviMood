@@ -5,7 +5,7 @@ export const mano_a_mano_pizza_restaurant: SurgicalPlace = {
   slug: "mano-a-mano-pizza-restaurant",
   name: "Mano a Mano Pizza Restaurant",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['italien'],
   location: {
     address: "8 Rue Jouffroy d’Abbans, 75017 Paris, France",
     arrondissement: 17,
@@ -42,22 +42,37 @@ export const mano_a_mano_pizza_restaurant: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Italien"],
     drinks: [],
-    must_eat: `Cuisine [Type]. TODO`,
+    must_eat: `Cuisine italienne. La spécialité du chef selon l’arrivage du marché.`,
   },
-  images: {
-    hero: "AU_ZVEH0qYgoUrr98eAlNZ0mgpMtBjrrK12XO5W104FQuePJC2qxVATvjBvG0_DPPfu2yOosJlJK5ywtnZSLB8C1SLWoEXwmFm-8V3pm2IQlBUKF5JK7dlcGJ6AY0mclcCJV42rUjzmTZxkvrcneF_gB9sSAirNTMsr4C128W5WaJidcvI0VOMKpMrTja06nxiJpwk4yVlOtuVQBXIelKKHfJGxuUdtzsNl-2wd3M56ESV7qZ0YFvFerCA9ieGbA6HRgeFcEVB7ILEo1QDkPEeeyJ6bu9LDZta2aMalf8I7CzFSv-Q",
-    gallery: ["AU_ZVEF3wJbN8t9Eb6ETXdRPzN4KDmqoO2PVJDf3GAlafFJ84JbhkebLFzZkNmH7x-o21AnJUgahAZbU23xA_YZv0lEDSGjmsagKVo_IFw6K42op68ZuCALDa1912dT3otPkSILVuRrHi0wLeEO-_dVI7fXOSyotDR8hKmRa9pvSI3_WsfxKH78QV1rxw9Tca43eCMEfaxl3el1YWtA4aICHbXMQNTGHhMXJHFOg8qpL87QxshFc-DkAIsWezTZ1Jp19bKIUKwGkX3b7yo6r0ruCMiSi0TRdYyeJ6ze7Fs89zezQXA","AU_ZVEEpdDwFKNSIbQGIY6RQdq3ptkkR9sgeZzRB0E4E4Oh3NbLZdfcoj4Vavv5JN_VV0uyOi8KvJcS4AI0-Jgh6NiWeJTQ7UCbDsFafB-O7ZBmpt-Md5TUQ5MPPqqln5CNsNwdZwGDEkI2Krb4iFzkQ80BjJR4z7XAI_1XfqBYr_9BVC7whe1X4vdJMo8iUFoYxN4jcI0dtMuoz7rBORO2nwNXf6KOk4YT4G5Ub2h42i8sUuXuG8Fp9FvI2kPNvgB34k0qBIVmjxWSLNciuZdp5Ushk2VT_mis6I6NigHSIwneOAg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mano-a-mano-pizza-restaurant/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Mano a Mano Pizza Restaurant.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default mano_a_mano_pizza_restaurant;

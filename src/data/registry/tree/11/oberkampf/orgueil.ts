@@ -85,13 +85,16 @@ export const orgueil: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWlDOo8O2wNdUDTPjP5Aa5Ekj1wxFqgzWInFsq-N8c88spEO4cleLrGy6dEMlAiPV4N-ha2wnHMKrBctytoL5KN_ihyUVKEVFcAfFbkIgiFlLxC3Oa-wonxCTZA5NB-QrgDyLcJYHIpHBNT8l10UVJUf8TKujCzchQ2Ti3NTpIDAegLZc6LmPJQ2HhindU3u3f-3Z7g8-EFggYA72e-N7NibhqfyG44b73dSqy4A5WkWQOUa1Ai2Ce75oVwV2Y-jYy-cymjacVF0OG3ABtCKN3TQ3eCzMJgaQ1nKGWafGx59w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXHWwkhm0nEZ2tcCXSf851q5C6NLy3I9-6_RNVuUXQ64APvBU9nwPN_chfAgY0LgrpwNao8p5dscNRgwdqs2Qg7_1NjB1vedNltXqyGAai-mYkeQvcch-i2cNGFF9c9nBpnUbPglt7qS99WUpSPPwPfKXH1vWf7wjRnCbRqG8qhD1xmo6AEZLD4iR6X46mMyhhhc_KV8mrq3o6VveQjq9E4bIpZLFCOHYmp9qYmNJMM6nFcSmEEaJzNtlV6D_Nn_5KIHOv8k5hz1SRXK5o9FtpODTsljVwceovXg99BuvBNPQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUsMMgF180xe94y5grDgquI-jxEkTbgBwgZ-hlRdtcYuqKnSMVUVmWQpfBGkgzFMqLuklDzvXfRYmY29QMYRG5dK5KvR1psJa4M7eDIIteg5x-eAb3T8-wtafoDl8XLWy6KX6unRQVKs61tD0Cj-TjcJn7dZUj8rl4eMm9JEQ2iF19ArTIiUyFW1BKP1lYT1KJXOCl71ToyQy1FJUoQxESRRCzAf_odnhsStGEZZiRryAo9qs5K95T5NYCVB6AX5IYSOTvrIH45NuZjeslllt_9VqlZTYp4iQ3TlvGgxjOzEQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/orgueil/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "orgueil.paris",
     verified: true,
     google_rating: 4.7,
@@ -99,9 +102,18 @@ export const orgueil: SurgicalPlace = {
     insider_tip: "• Réservez le ’Speakeasy’ (74€ en 7 temps) pour une soirée inoubliable caché derrière la cuisine.\n• Côté Bistro : le déjeuner à 22€/27€ est l’une des meilleures affaires du quartier.\n• L'expérience repose sur le zéro déchet : tout est recyclé, fermenté ou twisté dans les recettes.\n• Le menu change tous les trois mois pour coller au plus près des saisons.",
     expert_catchline: "Bistro zéro déchet à l’avant, speakeasy gastronomique caché à l’arrière : le double jeu d’Orgueil.",
     specials: {
-        cuisine: ["Poulpe breton teriyaki", "Croquetas de canard confit", "Menu dégustation 7 temps (Speakeasy)"],
+        cuisine: ["Français"],
         drinks: ["Vins natures", "Cocktails création", "Boissons fermentées maison"],
-        must_eat: "L’option Speakeasy est fascinante (dégustation surprise). En bistro, les gnocchis et les viandes confites sont travaillés avec des cuissons millimétrées.",
+        must_eat: "Cuisine française. L’option Speakeasy est fascinante (dégustation surprise). En bistro, les gnocchis et les viandes confites sont travaillés avec des cuissons millimétrées.",
         must_drink: "Faites confiance à la carte des vins et aux accords sans alcool (kombuchas, jus) du chef."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’option Speakeasy est fascinante (dégustation surprise). En bistro, les gnocchis et les viandes confites sont travaillés avec des cuissons millimétrées.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

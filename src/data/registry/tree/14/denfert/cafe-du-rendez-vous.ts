@@ -76,22 +76,35 @@ export const cafe_du_rendez_vous: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXjeFAahcOYVQmfUWcW2kgK__vTQVHAILXCe2uX3FOg2O6zF7tE94sZplgwIoSZ8HjSAjJhKCWvfccR_xnOTYoMMxx9c27RENq-8Vx7TeQqMgWzCmlT7Rw3eoplWBQe75fjjtipn68iU4sC5l0xOd_s2myA1A4Oha1_c6veVjnEqnOES4LL2rlgDLsF48vJxGVErnvngaki-H1KBfzfdJkGBfssUdSSXLM0p35K1VAWJGvQ3oEL3fbJy3-wwfyeH8Itm39EroZwdif_k5Un0CPl1nKyPCGQs8z75Hz1N7Y&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWGi0s6e2cbJkuqiu9L2SyHESaYsJ_Ny5P9W_AVE9h3j-SKEU8Ovnio0YKL_D6_YUXxbmpj--9TZj1N2jSNSQia4hagl72HvmkR-1J04TIbchD_8jew31SLGu3--babB09H5tKsdHD10BewZKcowsoV4-jhpFcvxDscObbrsnZJRVL34MC3q6EkWw_VT3UdwhsZMuanRnPbQmXupZt-0brxjp4YuSdM7YIvlTMLoncitql3j8FzQSibF3mBdQf8pk_RFdmDeGw0csvbFiMrb5p85NsBTjjIotBQYuqs8ZY&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-du-rendez-vous/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 3.8,
     description: "Posté à l’angle stratégique de la place Denfert-Rochereau, le Café du Rendez-Vous est le point de ralliement incontournable du quartier. Ce grand bistrot parisien, avec sa terrasse chauffée qui s’étire généreusement sur le trottoir, offre une animation constante du petit-déjeuner au dernier verre nocturne. L’ambiance y est cosmopolite, vibrante et décontractée, attirant aussi bien les voyageurs en transit que les habitués du 14ème. C'est le lieu idéal pour une pause rapide, un déjeuner de travail efficace ou un Happy Hour prolongé entre amis, le tout dans un décor de brasserie moderne et chaleureuse.",
     insider_tip: "Leur Happy Hour est l’un des plus généreux du quartier, incluant des cocktails créatifs et des planches de produits sourcés. C’est aussi l’endroit parfait pour observer le tumulte parisien depuis la terrasse sans être pressé par le service.",
     expert_catchline: "L’escale vibrante et conviviale face à Denfert-Rochereau.",
     specials: {
-        cuisine: ["Bistrot Français", "Tapas"],
+        cuisine: ["Bistronomie"],
         drinks: ["Large choix de Bières", "Cocktails Happy Hour"],
-        must_eat: "L’Hamburger maison au Cantal et les Oeufs Cocotte.",
+        must_eat: "Cuisine de bistrot. L’Hamburger maison au Cantal et les Oeufs Cocotte.",
         must_drink: "Une bière pression rafraîchissante en terrasse."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’Hamburger maison au Cantal et les Oeufs Cocotte.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

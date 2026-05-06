@@ -5,7 +5,7 @@ export const bouillon_pigalle: SurgicalPlace = {
   slug: "bouillon-pigalle",
   name: "Bouillon Pigalle",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "22 Bd de Clichy, 75018 Paris, France",
     arrondissement: 18,
@@ -81,16 +81,31 @@ export const bouillon_pigalle: SurgicalPlace = {
   description: "Le renouveau du bouillon parisien à Pigalle. Une immense brasserie démocratique où l’on savoure les classiques de la cuisine bourgeoise (œuf mayo, saucisse-purée, profiterole) à des prix imbattables. Un lieu vibrant, bruyant et convivial qui capture l'énergie du quartier.",
   insider_tip: "• **Stratégie d’Attente** : Le lieu ne prend pas de résa et la file peut impressionner. Venez à 11h45 ou vers 14h30 pour un passage quasi immédiat.\n• **Expérience Terrasse** : Demandez impérativement l’étage pour profiter de la terrasse chauffée qui surplombe le boulevard de Clichy.\n• **Combo Satiété** : L’œuf mayo à 2.50€ est obligatoire. Enchaînez avec la saucisse-purée (légendaire) pour l’unité de mesure ’Moelle’ ultime.",
   specials: {
-    cuisine: ["Française", "Bouillon", "Populaire"],
+    cuisine: ["Bouillon"],
     drinks: ["Vins au pichet", "Bières à la pression"],
-    must_eat: "Cuisine française. L’œuf mayo champion du monde & Saucisse au couteau purée",
+    must_eat: "Cuisine française traditionnelle. ",
   },
-  images: {
-    hero: "AU_ZVEGe9bDqiNtjwcAquWAZV0kCqJrPJCMavbVwcJeVvMnJjWl24QVC6rnVyb3uqtPu-CZ0M4saWgD71YvztXemkbcxveUguzzpSZCYgeh2exritetm-10fLjNki-FiXpy-dNWheL7p-zDS7oz61eZXq34ohlkHfqurPfzQsh9_GbcU2B-k12cP8i8bipWnJqBH--hrYTFzSQfuosBnUkuvDVX0IB-YRvgXwuSNYhoMvtG7vf_r5CkAU8RgaKlJbRQEdEAPzhqyZ0F77gzhiOHZLPHkCz5c6Bj6wz17itb4puNr9w",
-    gallery: ["AU_ZVEGSNkLL9x9M4m1vL5sgvs1bM81UjVHcfe4e8GJ-UF5liOioQxapcyOvo_rZxoodA-oeDpS6zQ_4iid69B13gEj_SG93flBR4GetWTaZKDCVxe0pMMFmypaxqySNERjRtJ-WD61vAzhcYrWZM9wQ63pA5SOIACnhyDr8CC9XOR9rhJsdNFIOhTR2U6-Pyczn7Rmg7Vd0hrn8jDaOTbAczRNOlD3sWZXYykNPtUVO3WVDIaV5thu2OoMmfnBAkAuiVrBdskI3q6PYV8tzEmnjun1wmROJ4SK_lfJAh6wee7qSglzUFL5AV0ch-S5rkH_WRMN-8QIySnNnwiv2aoSy7rk258vOTPZzJN-UjXoauOnomXO6Mf3PDmf9UQkAOYfB7QznVI2Upw_Kyv4yvwEs8fqpy1_S0bffZASUSrgZgbJBnFmfE4w70wuJCbgKYjvb","AU_ZVEGSoBL8EdpAVLXxL5lawZR2vicRRfHz5R7fA3d92X5Xw7Fwh_y81lTsIhmQy2hSVkKi7JMjGADUoULbHtmbGJU6B40v7EBAN4SOg_GclCJIhI5Vd-RvC5IukVcEM_tCT3gcJw3-KNfCh0uV3IDx88OoGkqh8uWgGtxH-5j2qrKIcZFSeJOerUCfgEO_LnsQZHCqk7-VhB0UqHOEK8eiVwhooTvaMTi24YsOkmEPrtlDHEZUS6hi43z9KvGedqW7GKnGzrkFCitXsnshj5sb5sJLD5H1fasZYoKEkxRgCHczcPMRuTNepVZs3lVufW-f0dfZ1Ty8Y2JkExL9L5B82lisEhu0PeLaGBmgtTVAooXQkutMWMplVuIdED_CsWOXfq5cJR4sYzhGM28-5V8kjT_ulMZCeUHxffRp1X5oHKS6zCE"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-pigalle/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. ",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default bouillon_pigalle;

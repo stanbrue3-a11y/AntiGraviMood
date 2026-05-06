@@ -5,7 +5,7 @@ export const il_etait_un_square_burger_paris: SurgicalPlace = {
   slug: "il-etait-un-square-burger-paris",
   name: "Il Était Un Square",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['burger'],
   location: {
     address: "54 Rue Corvisart, 75013 Paris, France",
     arrondissement: 13,
@@ -97,16 +97,31 @@ export const il_etait_un_square_burger_paris: SurgicalPlace = {
   description: "Réputé comme l’un des meilleurs spots de burgers de la rive gauche, Il Était Un Square mise sur la qualité brute : viande d’exception, frites maison et mayonnaises travaillées. L’ambiance y est conviviale, presque villageoise malgré la proximité de la Place d'Italie. Une adresse de quartier qui ne déçoit jamais les amateurs de produits sourcés.",
   insider_tip: "• **Frites Légendaires** : Elles sont coupées et cuites sur place, trempez-les absolument dans leur mayonnaise maison.\n• **Le Montagnard** : Si vous aimez le fromage, ne cherchez plus, c’est le burger signature with sa crème de reblochon onctueuse.\n• **No Resa** : Ils ne prennent pas de réservations, venez tôt (12h00 ou 19h00 pile) car le lieu se remplit instantanément.",
   specials: {
-    cuisine: ["Burger", "Bistro"],
+    cuisine: ["Burgers"],
     drinks: ["Bières artisanales"],
-    must_eat: "Cuisine Burger. Le Burger Montagnard & Mayonnaise Maison",
+    must_eat: "Burgers de terroir. Le Burger Montagnard & Mayonnaise Maison",
   },
-  images: {
-    hero: "AU_ZVEE6feacDBTdFOA1LfRqinMt0vxgomyOUdL1ylYAmOysy5kZg_wXqxqeubgqhSH21myYmBY2rTU5fYW5PhqRN1SvMoavgykUMfP_QUJldyGZa5VIlmShkLGvCjCP6KG2x2lrn8LepAeZSIy17D-feUvCzcYG7NV07xXhzTKZ_wK43e-bb2ztUlg9rVpaPcuHmKnbaYIbyI1zGSnXTsQuGxJm7ik26mUGfdpFbQzqTj7LW_fAl3PU8sehrsrTqDdnMV7GQPsblakSTWhykDxHO_V6bv556bcpDiBBSYMiPaYETQ",
-    gallery: ["AU_ZVEHDOCPm2OtNR-0eQ7suvfueHV-O20jsOSAHPoSUkIbMlWcb6kmBZ-sLiK-x5trwV6SiDziLBSCzZ1xJlxoDbBdLEqcoSwTq3y-OUMejLrFGeZZHzXrBMWDsiS3fUetbRVQWftKu_2nR2nk0dOktttQ6WYAA1RFJQc7MVsMxE1LuBpuL__pTn7NlYirRcCKcfXrhrJr7_6f_2Qvu_fWF6ysd7cICwb4AUhMBnR5GA4rDoq20wAa4gp0hDcxgrMjrw7A3D9cTejxttwYWeUFFUvH7I8T1olHq54kFjxIdIYSiKw","AU_ZVEGQ_lWXtZqBvv-T0Z6BPcyz57pV5lwOZda1FA82QyoDVmcPauA75nsOIV3q7OnYnGQH1VxbM55NaWHQzSg3-D5ISaFVg2c7oeClkrHIQcR43_O-aKSMAJMRaEO9X2E9yxZhxYvAP3MnGHCggCnsYMAJKzd_H92No1j5c4eirNjsSVdnelBg_jsZhvCDcsUyoYkZktpvbaPJ_O6x8Al88-2HdtwRQgeIUSmxtl0WMrR_cC4x5Yga_sK2knpesXjyyWFPk94DK98Zra7Y_PA4gljvhCiooO2vSMQjPm4id4TquPBHKGIyRRBPVmX_yM8e6nhryJBnB2IrMDj4wHQXPxzSN2_1EWoYWatiolaA60tGyZZUSiHos-zB6jbADINOr9-f5n45WIOvSGOvbKyRYnBi1IHAt2_qtgfZgQDbzVt1sIhic9lVuhOJyESx70m1"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/il-etait-un-square-burger-paris/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Burgers de terroir. Le Burger Montagnard & Mayonnaise Maison",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default il_etait_un_square_burger_paris;

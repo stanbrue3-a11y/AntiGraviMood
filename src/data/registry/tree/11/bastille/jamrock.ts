@@ -107,19 +107,34 @@ export const jamrock: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUE5LM-jRsD2EnJSW652u-OdFD3x4fLKsM2ktBfIRulzkXw_g5mzMZhetjBktdG1pAqQhTdUM1Nbb8BEaED70RsYlcxGzX0odYJrxqabfNjle-eUCR9H8oL8-d7g6x1bOj0wJSTBa63QAWrE5IZaKm8TSt1lwOPm83_Cx75h6P7IOXqGhMdfj2lxcShJUPHpcc-nzgSdsehpR2vfaX39Iu1fh2O2ioSkOeprovy0eSIL0Q49clYaFWF2Ib8B1NpUXRVDAyVpQ4uwAC7fL2-q1cNkajy2j7ROR62K7zKTXcVoXQNfyc&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/jamrock/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "L’immersion sensorielle dans l'âme jamaïcaine par Camille Le Breton. Une cuisine vibrante qui balance entre tradition (Jerk Chicken fumé) et street-food modernisée, le tout dans une ambiance reggae-chic.",
     insider_tip: "Demandez le Sorrel maison pour accompagner votre Jerk Chicken. Le niveau de piment est ajustable, n’ayez pas peur des ’Festivals’ (beignets de maïs) pour adoucir le feu.",
     expert_catchline: "L’essence de la Jamaïque à Bastille, entre fumé et piment.",
     specials: {
-        cuisine: ["Jerk Chicken fumé", "Curry de légumes Ital", "Bao Coco Bread"],
+        cuisine: ["Français"],
         drinks: ["Rhum Jamaïcain", "Sorrel Maison"],
-        must_eat: "Le Jerk Chicken Signature avec son riz et pois.",
+        must_eat: "Cuisine française. Le Jerk Chicken Signature avec son riz et pois.",
         must_drink: "Un cocktail au rhum vieux ou la citronnade à la chaux."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Jerk Chicken Signature avec son riz et pois.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

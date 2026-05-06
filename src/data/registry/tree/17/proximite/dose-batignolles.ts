@@ -13,6 +13,7 @@ export const dose_batignolles: SurgicalPlace = {
     "location": {
         "address": "82 Place du Dr Félix Lobligeois",
         "arrondissement": 17,
+        google_id: "TODO",
         "lat": 48.887090,
         "lng": 2.317899,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const dose_batignolles: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN34jHK8_P_H22FdoEAjddqDfZLDhKbKYJomic7e4-Iem6y42LpzMcEuM5Vbm8ujYwXnJNakwyCOlrMCQIT5YnvSDcEFXCdOaEFfHM3JprZgd16JkD-w13b7OiW5bzXQtWTdnnUzAwXp-3vqGDRBW-0LDyUsFUKNWtcrCbf8qfH9WkXZyxtySCZkBudi2aORu2a4G6RmP8YfY3RU4v7YVmtsDlRANpcjw6aJeVtml_jg022BrhEs7GKFdvuv5teemR-CieOfZpDoLJ3wrOnKCj5p0Htn2KFrUwKoLOoLKmjCWQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dose-batignolles/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Specialty-coffee. Dose Batignolles.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -42,25 +42,37 @@ export const pont_cardinet: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: `Cuisine [Type]. TODO`,
+    must_eat: `Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.`,
   },
-  images: {
-    hero: "AU_ZVEH7I7rXoQZ9y3bosq9SD0k9mjN4cA27cShbqi9uf3K5OGU6NIgBVPO1rvQVQfGCUvKzcNLgw4bfWD6Ck8UiUcqWZypAZEPyqGmXcGSgrAR6dSmToE4or0rxXeGtzNP9s66YOtD5p9i7wZQTtS9WcVR-1d7Z20OEXALBRymHJgucZ5YiU5D6qtrNOTdsM_KB6nXmJtgj0oOCM2RkccC6YLwQC_V4SHqv0gKFX7uZK0qGJu4a0RF7D9SG_wj_jCM6MsRNfcDsOGyxBxIKWJwPtSxN_ePYhvBdqBAjz2l8vPEg",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/hero.jpg",
     gallery: [
-      "AU_ZVEH7I7rXoQZ9y3bosq9SD0k9mjN4cA27cShbqi9uf3K5OGU6NIgBVPO1rvQVQfGCUvKzcNLgw4bfWD6Ck8UiUcqWZypAZEPyqGmXcGSgrAR6dSmToE4or0rxXeGtzNP9s66YOtD5p9i7wZQTtS9WcVR-1d7Z20OEXALBRymHJgucZ5YiU5D6qtrNOTdsM_KB6nXmJtgj0oOCM2RkccC6YLwQC_V4SHqv0gKFX7uZK0qGJu4a0RF7D9SG_wj_jCM6MsRNfcDsOGyxBxIKWJwPtSxN_ePYhvBdqBAjz2l8vPEg",
-      "AU_ZVEH7I7rXoQZ9y3bosq9SD0k9mjN4cA27cShbqi9uf3K5OGU6NIgBVPO1rvQVQfGCUvKzcNLgw4bfWD6Ck8UiUcqWZypAZEPyqGmXcGSgrAR6dSmToE4or0rxXeGtzNP9s66YOtD5p9i7wZQTtS9WcVR-1d7Z20OEXALBRymHJgucZ5YiU5D6qtrNOTdsM_KB6nXmJtgj0oOCM2RkccC6YLwQC_V4SHqv0gKFX7uZK0qGJu4a0RF7D9SG_wj_jCM6MsRNfcDsOGyxBxIKWJwPtSxN_ePYhvBdqBAjz2l8vPEg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pont-cardinet/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Pont Cardinet.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pont_cardinet;

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const le_verre_siffleur: SurgicalPlace = {
+export const verre_siffleur: SurgicalPlace = {
     id: "poi-verre-siffleur-75014",
     name: "Le Verre Siffleur",
     slug: "le-verre-siffleur-paris",
@@ -76,22 +76,35 @@ export const le_verre_siffleur: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWrq0f_uGiFYE3rCEEPvSngF9pK-PqjdMXXpqV9H-MQFAIW1ghj34Scv1SQonWhnuZRrZ775T9HdGt8QMgbKnT34Ysvvt6Ze2izQDjpkEm5zGgZ806WpVTpjIfyS1BrqjSe5w8jcSv0PA_oSgM86eBNCMwlukpygAYXDwmbdO5TiBbIxQnqdAH1BqDXjoBf48_tTrJhddJ7_eJL5Z01ls3JEhpquZB8ecnCY4JYfP7TDI6Az-yw7q7X_MpS9R0e_wnm_q4o8JfhNEfwDj7AX7-1faJR7Duh5oW0Ow4dg1NxMg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW6zaHamMbhV6sCLRwZzZ58Lc6l_myOFBhR3-7GVojNb5upvx4fTe6cSPZWn8_IjitMZWeMqaatoKMU5ckyglfapJrgR_87ub4NGR7SRQcmJbX_jWvXC6YAejpVhwPC0o7X6mb0o14hQYiEvxcaTlFOsCsyu-OlNCQa9a-GbTvtsHJv_4tgOZPDmeanzPHncr7oAbT4xQMgpi1BYNTaAfY7Q9HD7SPUJripWQlJTOJzcoqxXW2G9lRYjosfJ8RGNWhQwCpGkSuRw0_--Sc9NesdJlL0rqWc6LBy4t6xKwsCFg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-siffleur-paris/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.1,
     description: "Le Verre Siffleur est l’archétype du bistrot de quartier chaleureux où l’on se sent immédiatement chez soi. Situé sur la dynamique rue d’Alésia, il offre un cadre boisé et accueillant, prolongé par une agréable terrasse. La cuisine, sincère et faite maison, revisite les classiques français avec une pointe de modernité et une attention particulière portée à la fraîcheur des produits. C’est l’endroit parfait pour un déjeuner détendu, un apéritif prolongé autour d’un bon verre de vin ou un dîner sans chichis mais de grande qualité. L’équipe, souriante et efficace, finit de faire de ce lieu une valeur sûre du 14ème.",
     insider_tip: "Le Tatin de boudin noir est une petite merveille qui surprendra même les plus réticents. Leur sélection de vins au verre est intelligemment pensée pour accompagner chaque étape du repas.",
     expert_catchline: "Le bistrot de coeur et de goût de la rue d’Alésia.",
     specials: {
-        cuisine: ["Bistrot Français", "Plats Signature"],
+        cuisine: ["Bistronomie"],
         drinks: ["Large Séléction de Vins", "Cocktails Maison"],
-        must_eat: "La Tatin de Boudin Noir et le Burger Siffleur.",
+        must_eat: "Cuisine de bistrot. La Tatin de Boudin Noir et le Burger Siffleur.",
         must_drink: "Un vin rouge souple sélectionné par l’ardoise."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La Tatin de Boudin Noir et le Burger Siffleur.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

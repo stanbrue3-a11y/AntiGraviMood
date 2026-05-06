@@ -4,7 +4,7 @@ export const petit_bain: SurgicalPlace = {
     "id": "poi-083",
     "name": "Petit Bain",
     "slug": "petit-bain",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "péniche-concert"
     ],
@@ -13,6 +13,7 @@ export const petit_bain: SurgicalPlace = {
     "location": {
         "address": "7 Port de la Gare",
         "arrondissement": 13,
+        google_id: "TODO",
         "lat": 48.835526,
         "lng": 2.376712,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const petit_bain: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN06Ns9MSLy6QoOJwLxoTLCCqN_pk31Bs8n9lf1n61rN8oD87HsjX1h9tfW1_zthtHJI4-pPsny9SD0KSa1IS3hhUimvNCoG7pQ0TKWdtDC3Lf7mCIerEgMyUGBjOxsgY2_bsLtGCGj6qjXxPsNRej-Wqw4RG4ZGpE6EittLsgxvaFg6_45xApdsJ_eXMCcqCVQ1Thn5vD5fWxW5HVU1FD9XbLmP4qhqSRhBFQjBZZ1zq1XG7F6_Ga09DjWoPUYtvpBNP7lDDyb9xwMb-s3jyikUConn5R1BjJzbn0y2e6v-7w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-bain/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Péniche-concert. Petit Bain.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

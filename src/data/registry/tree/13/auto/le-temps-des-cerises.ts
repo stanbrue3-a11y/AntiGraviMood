@@ -104,16 +104,31 @@ export const le_temps_des_cerises: SurgicalPlace = {
   • **Le Must-Eat** : Le Super Cassoulet est une légende du quartier, généreux et authentique, parfait pour les soirées d'hiver.
   • **Timing Réserve** : Le lieu est extrêmement prisé des locaux. Les réservations téléphoniques sont limitées à 12h30 pour le midi et 19h30 pour le soir, soyez ponctuels !`,
   specials: {
-    cuisine: ["Française", "Bistrot"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vin nature", "Bière artisanale"],
-    must_eat: "Cuisine Bistrot. Super Cassoulet & Salade de Joue de Porc",
+    must_eat: "Cuisine de bistrot. Super Cassoulet & Salade de Joue de Porc",
   },
-  images: {
-    hero: "AU_ZVEEnWBX9iR_EIyUbgGmmy3iTOsisWlUKsPFZO2Mi8MsNM0EvuoaFYcwBJ6HlUGnFS76KZj4KJTyvX08Q0_LFcaXxAazlGTJ3Xopv1WXUzX6X9rvM-39VaVCA8ti67MC3YW3pY3ywuIDeHvv7bDJgNViEJ6BW8fVRv5Af6xzhkXO6TFrVHcnd617YAZXy84Sc32hz3NXetqSOSsfT29dQ3e_zZy1ayHoIWu3EK05Z4MiatiZch2-NzrmZ00_pqSfR43655eP6j9kXpcPZN7asRsR1FR3S8E_LKCk-Jb4eHbt5sw",
-    gallery: ["AU_ZVEF4liEWfxKN8Hz_Jr1T_xG0GGSxfFWlzBC-5-RylTwJmg8-TM-lCSU3lbvwiSiIT8syBCOuH_eo2cjBVZLRgXrX7gWBUQ6Yueb1I0KSHGiiziGu_HGcUBxvWk6_Yhs-uyyFBr0DErocmSlkKr4GnVNEokz18xCbZLeBUSjTQTxp7775B2J7KNoiJKmc6HtIDJU4rQgxPWUDZH81Vq188lHaCO-Ypx323Usk1Fm3ypHNhnfI7a004rRfvQuqbsKFFgK7Ckf-BxYhPcitWAPuoFI8deyESC0n9p0XRQZgrxj2QNPgUCJ-80TMj8bgDbu9TZ1CjJt0FdH-XKdhQcwyNnxi0TVrk43QPewC3ef4UlL3hdaVp4I25QOMtiHPZw8cGHm8CvHjyQ0llz27Pc_kStPGHxu61bVTDfH6o7ORDQYM4WHj1NkAu04T6Ik1b2Ks","AU_ZVEHnLH5n9yhi8kXakzTFmw7wjSaQhQnsiNG7VjpnoJdHIGVt1V5lMDTTWDtzlM8gcXMKiwxDEYvwJsn1hjpHHkESuW15B-JY-kHoCD0whsp8gNQR4yvddG0U2UPx2P7OElLrZPTDQCR5qgADz_6q5DfbJJyidhKJ2m5KAxNzqXQAVPDCQvei9_wz7g0seoL_H6_AViMgzSo-5AjiCrDDuvoxjZhkV5SsIYiZizPXNIK1YH1l7ETEjr8Iraiz_gvVNs5X2JdsrSP7Fvg4zFsnCy3CFVfaHi0TsVokiEcjhxxUo0vz6hwiMFdru3eWKpE56iBTSwis6C5cscVu1ACFSn92lULdZsc-Tg3tlmEafpyBRtICgqkq64xoASA9RbVArWnMeqOo3SH4Lx0prFbZU_eM6vOGnUsG_zcUAbeiivGjImtG"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-temps-des-cerises/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Super Cassoulet & Salade de Joue de Porc",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_temps_des_cerises;

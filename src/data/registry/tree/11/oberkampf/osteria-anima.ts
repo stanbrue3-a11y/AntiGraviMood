@@ -5,7 +5,7 @@ export const osteria_anima: SurgicalPlace = {
     name: "L’Osteria dell’anima",
     slug: "osteria-anima",
     category: "restaurant",
-    subcategory: ['italien', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "37 Rue Oberkampf",
         arrondissement: 11,
@@ -87,13 +87,16 @@ export const osteria_anima: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW9bf8Q4zi7ujKxPpJHrsVo0F6OMt1jU37EdPg1S3tPRc-GlWUrp4pELmS3osM-0JbmfWqC66U6VZay68PQjwvTX3K2J7sdX6FWzStt_UrKBNM8sDjBCU6T7sAt6NP2ooEHDFr4Sn-ggWeytyX9PkB10NksstVyvIplRt4Ez2RPj2wTl41y8zOYWwlT8DXWM5e9wTXe9yhs1f3xe1gZflM8GkC8qFtHNoHd2-KfcmUyVyi9WoZf__im5GIGyLpyEzGBNBH05pS5QcrscAzRjFq7abM8lMJjMFUrSJt27NOR1pxP8cHiq2LSXeBf-GlbG0wUfkNNgKXxsEyqL4A5sLOafELyh6qB5r-dXfFoWexLa3aaR7LhSawF4hW5EU31vwsr30VNhh0suSmGOOiHjz-tsvv5vdcV_aAKqAoUgDoVtwc&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX4L6FoHFpC8UDRcsnx_2EjAVH2Eskbm1J2a_IEa-j76OQaYnpu4HN85xUCYpO8YGo9cUqSKGJsi8_hM0s3AkjHbMsrUTMGLT3wC8gbOchLoI5o9U6-beURpiIVjOQvg0tylgggQ30gWgiWpppib25O3FdO2fKk1VyUMXvKMOApldIlcF7XSOjZVEav9gX9Qv7irPXXwFmDXe_eBrbsWRzSs-BgtMWHN3Ep_JO_VhsS4kTMnRIRpRkp1tVMEEYG02mgkqggGV6E4NwKMcdzJrlJU1-2kVu0XsQYrAL-7pQdSBxxgHrPhtImnXBLHW8tltr14WeExZNX6HVRll7JIi3DeIG1Nbg5VeA2aAlg9EmR9VV_lK6yWLfFTE6m2AMfBVP7jDxyhNAIEGQXI_eNcNGsYqoqdv2Zyepde-xde2ax_VfNXtcoAdRGE-utCxDD&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXd_QyLWk8BnT5BqSggOxYjG9crR52MX4_801KE7gGrwyR5Yhp_BSVB8vjqxsznHl7CphTlQaamH-acxQh0ZvbvWjmETFT6H0sLsnVLaayT722Kt5_fxsqMlk2JY6vZBkkywuIBtx3rcvfFONwrTzuphfUy89eBOYI9-5freRb2dhUXbVamr0nG0olXPw-ubE3JuUaBYR1_TOKxg-FEHDy1Gr_fA3QStlogDc8dgHO4cy0g2yx2hp9NY4DmTqW_45CGQzv8jYuCnuia-VZ4h6mXMMfbWmjUKsR-XniZBfbyIGXTF7FanMxcAINb_C2ca1JoH7dEx6UjHx0GQ0leZwB8or2RRVwX2OMWpnv2ErIvgBTF9O5SkKwjbHh9R5SHbuT8MbiN6x9N0Y_XIX-V98JS2T9kdTIU96uCLnc1mF-5q1qvhriMBrmzje-JTZu8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/osteria-anima/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "", // Not well known/prominent. Emphasize standard practical interaction.
     verified: true,
     google_rating: 4.6,
@@ -101,9 +104,18 @@ export const osteria_anima: SurgicalPlace = {
     insider_tip: "• La devanture ne paie pas de mine, mais le lieu est très intime et petit : une réservation par téléphone est chaudement recommandée.\n• Regardez vers la cuisine ouverte : on y façonne les pâtes toute la journée à la main.\n• Si vous êtes deux, prenez une assiette de Cacio e Pepe et une assiette Fruit de Mer, et partagez.",
     expert_catchline: "L’artisanat brut de la pâte fraîche italienne, servie copieusement dans une salle minuscule et vivante.",
     specials: {
-        cuisine: ["Pâtes aux fruits de mer fraîches", "Cacio e Pepe"],
+        cuisine: ["Italien"],
         drinks: ["Montepulciano rouge"],
-        must_eat: "L’énorme assiette fumante de Pâtes fraîches enrobées d’ail, d’huile d'olive, de palourdes et fruits de mer.",
+        must_eat: "Cuisine italienne. L’énorme assiette fumante de Pâtes fraîches enrobées d’ail, d’huile d’olive, de palourdes et fruits de mer.",
         must_drink: "Un chaleureux vin Toscan à prix doux pour escorter les glucides."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. L’énorme assiette fumante de Pâtes fraîches enrobées d’ail, d’huile d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

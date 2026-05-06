@@ -32,8 +32,7 @@ export const le_val_royal: SurgicalPlace = {
             "url": "https://www.privateaser.com/lieu/16604-le-val-royal",
             "label": "RESERVER"
         },
-        "cuisine_type": "Brasserie Traditionnelle / Couscous"
-    },
+        },
     "pricing": {
         "avg_budget": 15,
         "is_free": false,
@@ -97,12 +96,24 @@ export const le_val_royal: SurgicalPlace = {
         "must_eat": "Le Croque Monsieur extra-beurré ou le Menu Étudiant pour les budgets serrés.",
         "expert_catchline": "Le meilleur rapport ’Heures de Soleil / Prix de la Pinte' de tout le sud parisien."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUweGRnq1YqS45Mq-6OgUmBxi6uK6Z1MiOhDdGdp0XnYHulXaY8rHSdoLFHHJcEjasvCdIqXewvSHdscxpH6uZ6lxj74humQzZ52_9NibTBmPIsKLR_UV7anuUdXR-tn30AlzMhcMv0764Sc0XPnSWXeSo7FiELnKUUh7I0jjs64TPVhtZ4X8_MqhRZWdeQXIYHnBeZjxQncjWwWz3j7KeTvBX798IM9X8fTL9DmrUhWW-HQNDKnF1YeMw2W8xTo6o7LU2wjm2iyNsdPnerd833snOwXHkuBkGkQ5a0yS9QQw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXIcXLezwUwg1AJYfMN81XmZAiyedFWhjKx3GNW_lpH-CT4J5Wqie817B5XzTGOTOkC4gfg80qQOEli2A4SAkNjflUTD28K6I8y0_vSb5ia2YHuM5Lyj95MhLjYIkkEYBEz-ZG6UptQBsirB6AwcO-8cN3xZrbvtgCDQXvXqf3bPpLctEbPiBX-yJFHBBjRDAnIdqj-iRb3TbpqqnpjZNKHYUakqMrN-TQgVmsnK2OaW9sTuOqeQlw7N3RCco-_kjRV7tfVpCRDroGXRYAiUqD7e0EIluAZU5m8u00wXeFfTw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXxyGs_ZqY0HOBBd7T6lJrZjhxTU718-atNurWszo_V6C2q5vjb-y-oTzg7Oiy_D6kiRbxri0wWKIoLUUJ34hRuPuiBJ0SwJlarNw5JZzhife5qbxtV5zl4ePyNzj1fu4tTxThuL-nMvuftKe_Qn-11gO01756xwgeqkYqro51cYGmnb2oF77c_PIL3kYoPRForvs3pbceyF4oUTZ3OPYrAoMHFaf6OvSSkFkVGvXM7SwA2lS56m7bGN4221OF1TjEsBTCS-IprpdxFdWkMpPZZKyEodx0hVXN7WYb0V2oSLA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-val-royal/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Brasserie. Le Val Royal.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const thai_vien: SurgicalPlace = {
   slug: "thai-vien",
   name: "Thaï-Vien",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['thaï'],
   location: {
     address: "56 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -105,16 +105,31 @@ export const thai_vien: SurgicalPlace = {
   • **Le Secret du Riz Croustillant** : Leur Nem Thadeua est une explosion de textures. Demandez-le ’bien relevé' pour retrouver les saveurs authentiques du Laos.
   • **Fraîcheur Drink** : Le Thé Glacé Thaï (couleur orange) est préparé maison et constitue le parfait contrepoint aux épices des currys rouges.`,
   specials: {
-    cuisine: ["Thaïlandaise", "Laotienne", "Vietnamienne"],
+    cuisine: ["Thaïlandais"],
     drinks: ["Singha", "Thé Glacé Thaï"],
-    must_eat: "Cuisine Thaï/Lao. Loc Lac & Nem Thadeua",
+    must_eat: "Cuisine thaïlandaise. Loc Lac & Nem Thadeua",
   },
-  images: {
-    hero: "AU_ZVEGH4cLW9wwb5Z3I0o23iWsxNiYSSPTbdpxiPNKjl8VS8n3SmV9pMb92ZDDahitnU_6VtORpyAHikkPxOsYU_fcc4UGfQL7CxUCGiw1XswG9pibwow3SMDxOLODfL8hUf9N8b2aZEVN4ionhvXbqBUwllVxOQY_5xLubwcbL6CksiAahrVGyNIpAiAufdowsoDyWeWBb_K7LSbATQ6y6Xh3Ob5qxeePCOSpFHw2hxRdw-TgUQFmJuftiP_3pUt72t8jPziipw3bD4zQ07XPNNySxVVU8I-D2ZkW_Quc1npPyc63E_LnVp1Mnn1T3rkv2fDUhVE3DpXyl8SRO_jbdgp7AzDOCCELoU3bnbHPyXf0QUdrpqsBA5hvr1uxHvcoT4YWijNzFOfWyNXyX6fnjYhVrhT6lHooS69SW-YF1UUE",
-    gallery: ["AU_ZVEHpmR3NB7a39CI3oy0GEjEf4Himhj8z2Cm5_D19JqfU4CesaOc6Du3ZVUZwSuHq-kB5r1LyEcQlij0zbd93TtGgZnAPvd_1OTo5Mo9lxhB4Ph8MqZf6HkQINMGS7JENH71sPRUfP25ywgL1ZZgZs21ZChBfqzKa39n5lKqbHSamOX_LnK_8t5j4PCjnA3DQ_Fv7AQD4yXoptQinZA79rtL4LCHCBaI_VYq6kBhp4lySF90iG7_h4aq8FMPwnzoyd2wwUoW14d5QYMlDQzGVHofpsutAepwTdnt3DHySaeSTCxf_DQlvzFaxqpQYU9dv0MXwqAiCdsS9f-4lRtjqp6ZIs_iqnIat_CVPCH7N4IM6eaAveIHipj7fQsteLkYvXN0bklpjrQfY-wS6fcJEmCsjbzaPYkd4S6kEo1d5FokEFQ","AU_ZVEHDRCvdp1px9nM_l3ollcBLlATwYfHv2f1WZ4iAayQ5MyNnLihJtyEw-jGvfoIRrG4psW9qVZocRHDDsl0X8ebhPZAkPSalLsg05v6fFOzBz03rppgRco9cMydQzmpHSs75KVpFGVPKOhmDOfS4V-c5mzP50kb_vR-QZvzecv6ftdj6G6Ho82462u5yM_EoygaxhQFNO5yAPAYHWJtf4psjUI4iTapmU2dsGVvaweIiIxjIXQBZOt3WOFxnIdnGeWLzglM1A2YenIS1_39w8bwu6A2yDVuVLP86NACKTBrBuzOtfNBILlLQfVlLJ39wR0je_IbTO6gXXlH125DjBKmt3ajltAczU9hYf0eqRJGYn0ZM2U25FtjozVkTmpb1lD_MtqDH05iN7eFjE0369k82uzrmAFPPDoSKBmQuwSlpdHkNcm8ZMBX6N_s_hPbD"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/thai-vien/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine thaïlandaise. Loc Lac & Nem Thadeua",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default thai_vien;

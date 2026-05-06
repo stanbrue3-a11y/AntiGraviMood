@@ -86,19 +86,34 @@ export const lissit: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVtk8sP7AR7_RPMoMeus-D9li2r-ZOU5zAY3x2TFfVxMrBiHipRnQysOT4zsyyFVuboqal8s14Ycz_gI3X-plMVdhY2vv-qiu2vAmoKL4NGLcIRwJvFyOgGml9ghO1UGmUHD7l3LR42c6pHKQNNBNut-Sb1issEtei8Q5Ystg9vz5c6AtGSbIhIP-9tyghXukg2pe4CW3CMKW-Hxz7l01RF7uZpMBrpKiO7obYDEB-CFD_gABJzA7_TeWz5KeCsbw78w3p6QO5fYn4NBKdYQ3Ca2cjA-c23fOs2BSutinSSTg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lissit/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Une pépite récompensée par le Bib Gourmand 2026. Lissit (pour l’enfant du pays Alexis Lissitzky) est un lieu à part où la charcuterie maison règne en maître. La cheffe Claire Grumellon y déploie une cuisine de tradition, brute et sincère, qui magnifie le produit sans artifice. Une ambiance de natural wine bar chaleureux où l'on se sent immédiatement chez soi.",
     insider_tip: "Alexis est un sommelier passionné ; demandez-lui sa sélection de vermouths ou de vins naturels hors-carte, c’est là que réside l'âme du lieu.",
     expert_catchline: "Bib Gourmand 2026. L’art de la charcuterie maison et du vin vivant.",
     specials: {
-        cuisine: ["Charcuterie Maison", "Tradition Modernisée", "Plats de Grand-Mère"],
+        cuisine: ["Français"],
         drinks: ["Natural Wines", "Vermouth Specialist", "Artisanal Cocktails"],
-        must_eat: "Le pâté en croûte maison (l’un des meilleurs du quartier).",
+        must_eat: "Cuisine française. Le pâté en croûte maison (l’un des meilleurs du quartier).",
         must_drink: "Un vermouth artisanal sélectionné par Alexis."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le pâté en croûte maison (l’un des meilleurs du quartier).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

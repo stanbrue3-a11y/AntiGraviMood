@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
 export const chez_maman: SurgicalPlace = {
-    id: "poi-chez-maman",
+    id: "poi-chez-maman-laumiere",
     name: "Chez Maman",
-    slug: "chez-maman",
+    slug: "chez-maman-laumiere",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['burger'],
     location: {
         address: "34 Av. de Laumière",
         arrondissement: 19,
@@ -118,10 +118,16 @@ export const chez_maman: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWiw4zv3fVYIYPd6Suo3EHE00XPSYw5qzWYgPccAnBTNUAa1XM1YuGGKDKGgkpqRYRFS8Vfz3Sg8t97nSv6viEsYWZaGx-GTT5f-7vasuPqd2Tb3SV07jnwdE4wVHo8dZuxwFz4ICvRWvyFeLlWWyGkYPwiW0jusjEEEtb4Lzu-4-N7IJXB8vlZeD_1qK-J7CBC7p6CDqxFgfwPsh0paBxBGYaWOKod6TaTQyxqmeF1YzVe9DIkybtS8UHfmX2KHqhAtuvvjwbmuGvapb7Hz_e9s9f3xN5SPV7VC43cJIryLMorzXw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-maman/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "chezmamanparis",
     verified: true,
     google_rating: 4.5,
@@ -129,9 +135,18 @@ export const chez_maman: SurgicalPlace = {
     insider_tip: "• La très grande terrasse idéalement exposée offre un ensoleillement optimal l’après-midi, parfait pour les fins de journée d’été.\n• Le service est souvent cité parmi les meilleurs du quartier pour sa bonne humeur authentique.\n• Il est particulièrement agréable de venir boire sa pinte blonde à 3€ pendant les 7 d’Happy Hour XXL",
     expert_catchline: "Une brasserie colorée à l’accueil généreux et à la belle terrasse ensoleillée.",
     specials: {
-        cuisine: ["Bœuf bourguignon", "Dindo burger", "Tartare de bœuf", "Entrecôte XL"],
+        cuisine: ["Burgers"],
         drinks: ["Pinte (6.10€, HH 3.00€)", "Verre de vin (4.90€)"],
-        must_eat: "Brasserie traditionnelle. Foncez sur le Dindo Burger ou le classique bœuf bourguignon avec sa purée régressive.",
+        must_eat: "Burgers de terroir. Brasserie traditionnelle. Foncez sur le Dindo Burger ou le classique bœuf bourguignon avec sa purée régressive.",
         must_drink: "Remarquable Happy Hour XXL (17h-00h) avec la pinte de blonde à 3€. Misez aussi sur les bouteilles de vin abordables."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Burgers de terroir. Brasserie traditionnelle. Foncez sur le Dindo Burger ou le classique bœuf bourguignon avec sa purée régressive.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

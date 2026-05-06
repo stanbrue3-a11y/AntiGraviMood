@@ -5,7 +5,7 @@ export const le_grand_pan: SurgicalPlace = {
   slug: "le-grand-pan",
   name: "Le Grand Pan",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "20 Rue Rosenwald, 75015 Paris, France",
     arrondissement: 15,
@@ -112,19 +112,31 @@ export const le_grand_pan: SurgicalPlace = {
   description: "Le Grand Pan est le repaire des amateurs de viandes franches et de cuisine de terroir au cœur du 15ème. Le chef Benoît Gauthier, fils de boucher, y travaille des produits d’exception avec une sincérité désarmante. L’ambiance y est celle d’un vrai bistrot parisien : conviviale, animée et centrée sur le plaisir de l’assiette. C’est l’adresse idéale pour partager une côte de bœuf d’anthologie accompagnée d'une purée mythique.",
   insider_tip: "• **La Viande** : Ici, on vient pour la viande. Demandez la maturité des pièces du jour, Benoît est intarissable sur ses producteurs.\n• **La Purée** : Elle est considérée par beaucoup comme l’une des meilleures de Paris, rivalisant avec celle de Robuchon par son onctuosité.\n• **Le Midi** : La formule déjeuner offre un rapport qualité-prix imbattable (Entrée 8€ / Plat 16€ / Dessert 9€).",
   specials: {
-    cuisine: ["Viandes d’exception", "Cuisine du Sud-Ouest", "Bistrot culte"],
+    cuisine: ["Bistronomie"],
     drinks: ["Sélection de vins du Sud-Ouest", "Vins natures & bio", "Digestifs artisanaux"],
-    must_eat: "La Côte de Bœuf Limousine (85€ pour 2) avec sa purée onctueuse. Un classique indémodable.",
+    must_eat: "Cuisine de bistrot. La Côte de Bœuf Limousine (85€ pour 2) avec sa purée onctueuse. Un classique indémodable.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFe-quV2l56T3LR7nleAV2qXXxpa8wbXRqt1oBWxao4Xfqm0yeXv6I3UGHaq4-TcJ3_-5N4BQ8R9WZDGwYBhtG53fU7jqL6YxiduVGsBglPr32daVne49MuF3M-yF5cAsMyV53Hxs9XNFR792QeRwJzd-JuiRC5mvJkedeT1JVCePDoP7f5ARavbBLdwdOFw_PBU-_Fx_wKMKC047djGqiVN3zmyfmrn2ZBAI2RUYnDBTCO_S-3Q1G7-l4vUTxzFEHJiZAZ3ILtOuAoKpql-ZoB7Mri2l9xhl5aHSMsOgrnPA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERo-GVR9JHcRz1wKYYxsC2pU8-JzW1dwBv7xw9N3aiSlG2EbKN_UqEDlkBqT-RbDYZdu71snTmOJ9JdIn0Kc6F9mxYaFqDOG45YyHNbLyrEAt_SurzKrIEeTdf2cVXgzStF2fdnHbZ2T44wE6wq3yHX7JaUSqL2ClbOTySqDIyWOjkdnLmcKRqqE2WWdSowPflmqEZDSwCyH4fsFGOB6bNZBRmf6zGL6BOgL5GfT5J6KJzO8ARJw5f3T-hSM4FBiZwgQEMzcFfR8sP4KVr2G2CkO9It4ZFKrP6rDnP3I2KOg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLBCOW6Sq5vNaiHS8f8XlcOYcGTHdtX451bzxACAweCwwyQ_jUDSnNlf2E-WXPtUfqxPFPiNwyufOn4031K4QeEZmH37xtq0AKFdC61iJezLd8K_RaDzvLYMDtEq0VinAee3jscGSMB5flcM0eDxwG-X5ILnAikFXBxUBTYwRepsu13y7kbsQoGl5tCuT9tCBiEdU9mgE5SFrRKRMbAA89sL4EMNPDqMWbTuXkGALmGISyMrnC-DbZ_qiVSac27dsqx51NHj2rCAnYdGX6lf0ino3169cL10_Jm1lQEXT54QuhY-HEdyPgLJGpVjWIlA4LThiZrJp5r0G61sE4ZGXb4B2DoqLX9hDDJiKq84ApLJ0EyhVKaMjrw5Tv3uAQLY0Vedjccv3d8yE7y-86LI3CPxRhiJBKCcBTVX55qaxiDAI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-pan/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La Côte de Bœuf Limousine (85€ pour 2) avec sa purée onctueuse. Un classique indémodable.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_grand_pan;

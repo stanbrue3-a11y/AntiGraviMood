@@ -5,7 +5,7 @@ export const anona: SurgicalPlace = {
   slug: "anona",
   name: "ANONA",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "80 Bd des Batignolles, 75017 Paris, France",
     arrondissement: 17,
@@ -91,17 +91,32 @@ export const anona: SurgicalPlace = {
   • **Le Midi** : Le menu déjeûner offre l’expérience étoilée avec un rapport qualité-prix imbattable dans le quartier.`,
   expert_catchline: "Quand la haute gastronomie rencontre la conscience écologique radicale.",
   specials: {
-    cuisine: ["Gastronomique"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vins Bio", "Mixologie Durable"],
-    must_eat: "Cuisine gastronomique. Le cabillaud pané ou les créations au maïs.",
+    must_eat: "Haute gastronomie. Le cabillaud pané ou les créations au maïs.",
   },
-  images: {
-    hero: "AU_ZVEF95-uDzquDAT8ssj0ve7RktAW1nLcqWfQ2jlkztBi27-4BbfFMOA8vaaADOhImQq5H_d6BfWJB8urDn_xZN-g2r5YiHq95PqtwwV_a0JlcuaiNwIxiG-UyIf3EwElYn5G8XOv7t9-CVY1IEw5bG8PkDAc6CqUqLEXtsDCM24p87bXqQnvq_da52xcNCf3xpt_akyGwHEhJupyjGy9vWoAiBEzAAL8LPyj4_WN6DKOUlmL1ZoUHEIBVl3ZA323asvtkPIs8sjK-W7SYM0ekD68WZF9wjOvsxqZ9t9Lbh7c",
-    gallery: ["AU_ZVEE9HcssRaAUIpLmB9TPD4608-iHAWN9hD7gb7Ta3xDj8n26hekGTDtxCDmG8h4J_7UNqR8Vmux4KQyX9lcVu2_wqROqOaLNkpbd_jQP_zlSUmKKA0mnfMYnTzGkt9UIRVcml5pqmiw0WMlGl6tLhB-9gYxhlF1Vw74uHSwoXyaxZuLMsRYO82CNjMn-JOy_iD2mHOLAyz-6V7AZIwO8bw1szmlECSa8t_Hhgp7GnLXoGW-ogBkNiVmrHG74vY6Fa_gYfIsvPTrwFZvj4WSGzWCc-gSrIjs8P40c4sde93g","AU_ZVEFXXhLFLwRUZaGJmekJYcvYXFVXnnvCbdejV_Svnn14H2YY_MpCxlhwQVDGwPbqBRrQh57wFFe8SXK43JB-IJMBwQ3pvQyDHoHnphw6A5fnuhFWa-SVNq-Aul2AefSSHGdCLlLT0WwbZiKaa1ZTLCrvW9j35rZyITGS4zI0eGjUf0DbUIzdGCX_m8Q1nKaCsTxZ9j48VULp937O7a2gvd3_SABJ0klp2MFo2lLinMqTcZbGQdIjH79iF18tBcZN70nCjzSNn2-ZEUXIv6eHISeywUa2KMHT-zgOxjAMrWM"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/anona/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.7,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le cabillaud pané ou les créations au maïs.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default anona;

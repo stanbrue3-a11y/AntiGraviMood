@@ -1,5 +1,6 @@
+import { chez_maman } from './folie-mericourt/chez-maman';
 import { fulgurances } from './alexandre-dumas/fulgurances';
-import { leSotLyLaisse } from './alexandre-dumas/sot-ly-laisse';
+import { sot_ly_laisse } from './alexandre-dumas/sot-ly-laisse';
 import { biondi } from './amelot/biondi';
 import { clown_bar } from './amelot/clown-bar';
 import { folderol } from './amelot/folderol';
@@ -15,11 +16,11 @@ import { sababa_le_gout_de_la_paix } from './auto/sababa-le-gout-de-la-paix';
 import { zhao_bastille } from './auto/zhao-bastille';
 import { badaboum } from './bastille/badaboum';
 import { brasserie_rosie } from './bastille/brasserie-rosie';
-import { eastMamma } from './bastille/east-mamma';
+import { east_mamma } from './bastille/east-mamma';
 import { jamrock } from './bastille/jamrock';
 import { moonshiner } from './bastille/moonshiner';
-import { osteriaGoto } from './bastille/osteria-goto';
-import { petitBaoBastille } from './bastille/petit-bao-bastille';
+import { osteria_goto } from './bastille/osteria-goto';
+import { petit_bao_bastille } from './bastille/petit-bao-bastille';
 import { atelier_saisonnier } from './charonne/atelier-saisonnier';
 import { confluence } from './charonne/confluence';
 import { dersou } from './charonne/dersou';
@@ -33,10 +34,10 @@ import { le_chardenoux } from './charonne-2/le-chardenoux';
 import { les_deserteurs } from './charonne-2/les-deserteurs';
 import { louie_louie } from './charonne-2/louie-louie';
 import { mokoloco } from './charonne-2/mokoloco';
-import { septimeLaCave } from './charonne-2/septime-la-cave';
+import { septime_la_cave } from './charonne-2/septime-la-cave';
 import { septime } from './charonne-2/septime';
 import { vaisseau } from './faidherbe/vaisseau';
-import { twentyOneGDumpling } from './faidherbe-chaligny/21g-dumpling';
+import { n_21g_dumpling } from './faidherbe-chaligny/21g-dumpling';
 import { mokonuts } from './faidherbe-chaligny/mokonuts';
 import { osteria_ferrara } from './faidherbe-chaligny/osteria-ferrara';
 import { pianovins } from './faidherbe-chaligny/pianovins';
@@ -45,15 +46,15 @@ import { a_table } from './folie-mericourt/a-table';
 import { acolyte_insolite } from './folie-mericourt/acolyte-insolite';
 import { alluma } from './folie-mericourt/alluma';
 import { auberge_pyrenees_cevennes } from './folie-mericourt/auberge-pyrenees-cevennes';
-import { aujourdhuiDemain } from './folie-mericourt/aujourdhui-demain';
+import { aujourdhui_demain } from './folie-mericourt/aujourdhui-demain';
 import { bambino } from './folie-mericourt/bambino';
 import { blanca } from './folie-mericourt/blanca';
-import { cafeMericourt } from './folie-mericourt/cafe-mericourt';
+import { cafe_mericourt } from './folie-mericourt/cafe-mericourt';
 import { deux } from './folie-mericourt/deux';
 import { fief } from './folie-mericourt/fief';
 import { geosmine } from './folie-mericourt/geosmine';
 import { gramme_11 } from './folie-mericourt/gramme-11';
-import { impactKebap } from './folie-mericourt/impact-kebap';
+import { impact_kebap } from './folie-mericourt/impact-kebap';
 import { jip } from './folie-mericourt/jip';
 import { l_homme_bleu } from './folie-mericourt/l-homme-bleu';
 import { melt_oberkampf } from './folie-mericourt/melt-oberkampf';
@@ -62,14 +63,14 @@ import { pierre_sang_gambey } from './folie-mericourt/pierre-sang-gambey';
 import { ama } from './fontaine-au-roi/ama';
 import { amalia } from './fontaine-au-roi/amalia';
 import { epopee } from './fontaine-au-roi/epopee';
-import { poggiCup } from './fontaine-au-roi/poggi-cup';
+import { poggi_cup } from './fontaine-au-roi/poggi-cup';
 import { rang } from './fontaine-au-roi/rang';
 import { vantre } from './fontaine-au-roi/vantre';
-import { kaiIzakaya } from './goncourt/kai-izakaya';
+import { kai_izakaya } from './goncourt/kai-izakaya';
 import { lacigne } from './goncourt/lacigne';
 import { le_chateaubriand } from './goncourt/le-chateaubriand';
 import { oobatz } from './menilmontant/oobatz';
-import { perchoirMenilmontant } from './menilmontant/perchoir-menilmontant';
+import { perchoir_menilmontant } from './menilmontant/perchoir-menilmontant';
 import { le_yard } from './mont-louis/le-yard';
 import { acme } from './oberkampf/acme';
 import { chez_justine } from './oberkampf/chez-justine';
@@ -83,11 +84,11 @@ import { soya } from './oberkampf/soya';
 import { astier } from './parmentier/astier';
 import { bouche } from './parmentier/bouche';
 import { chulita } from './parmentier/chulita';
-import { leDauphin } from './parmentier/le-dauphin';
+import { le_dauphin } from './parmentier/le-dauphin';
 import { le_villaret } from './parmentier/le-villaret';
 import { les_3_bornes } from './parmentier/les-3-bornes';
-import { breizhCafePaulBert } from './paul-bert/breizh-cafe';
-import { bistrotPaulBert } from './paul-bert/paul-bert';
+import { breizh_cafe } from './paul-bert/breizh-cafe';
+import { paul_bert } from './paul-bert/paul-bert';
 import { tontine } from './paul-bert/tontine';
 import { caf_oberkampf } from './proximite/caf-oberkampf';
 import { cafe_industrie } from './proximite/cafe-industrie';
@@ -100,38 +101,39 @@ import { automne } from './richard-lenoir/automne';
 import { eunoe } from './rochebrune/eunoe';
 import { brutos } from './roquette/brutos';
 import { jones } from './roquette/jones';
-import { lAmiPierre } from './roquette/l-ami-pierre';
+import { l_ami_pierre } from './roquette/l-ami-pierre';
 import { lissit } from './roquette/lissit';
 import { louloute } from './roquette/louloute';
-import { pauseCafe } from './roquette/pause-cafe';
+import { pause_cafe } from './roquette/pause-cafe';
 import { recoin } from './roquette/recoin';
-import { samaBistro } from './roquette/sama-bistro';
-import { streetBangkokBastille } from './roquette/street-bangkok';
+import { sama_bistro } from './roquette/sama-bistro';
+import { street_bangkok } from './roquette/street-bangkok';
 import { superfine } from './roquette/superfine';
-import { leTagine } from './roquette/tagine';
+import { tagine } from './roquette/tagine';
 import { tarantula } from './roquette/tarantula';
-import { track119 } from './roquette/track-119';
-import { brasserieMartin } from './saint-ambroise/brasserie-martin';
+import { track_119 } from './roquette/track-119';
+import { brasserie_martin } from './saint-ambroise/brasserie-martin';
 import { le_saint_sebastien } from './saint-ambroise/le-saint-sebastien';
 import { martin } from './saint-ambroise/martin';
-import { leGoyavier } from './saint-bernard/goyavier';
+import { goyavier } from './saint-bernard/goyavier';
 import { chanceux } from './saint-maur/chanceux';
 import { double_dragon } from './saint-maur/double-dragon';
-import { elComal } from './saint-maur/el-comal';
+import { el_comal } from './saint-maur/el-comal';
 import { erso } from './saint-maur/erso';
-import { lAlicheur } from './saint-maur/l-alicheur';
+import { l_alicheur } from './saint-maur/l-alicheur';
 import { la_buvette } from './saint-maur/la-buvette';
 import { le_servan } from './saint-maur/le-servan';
 import { reyna } from './saint-maur/reyna';
-import { tram130 } from './saint-maur/tram-130';
+import { tram_130 } from './saint-maur/tram-130';
 import { au_passage } from './saint-sebastien/au-passage';
 import { machizo } from './saint-sebastien/machizo';
 import { gourou } from './voltaire/gourou';
 import { maison_sota } from './voltaire/maison-sota';
 
 export const arrondissement_11Places = [
+    chez_maman,
     fulgurances,
-    leSotLyLaisse,
+    sot_ly_laisse,
     biondi,
     clown_bar,
     folderol,
@@ -147,11 +149,11 @@ export const arrondissement_11Places = [
     zhao_bastille,
     badaboum,
     brasserie_rosie,
-    eastMamma,
+    east_mamma,
     jamrock,
     moonshiner,
-    osteriaGoto,
-    petitBaoBastille,
+    osteria_goto,
+    petit_bao_bastille,
     atelier_saisonnier,
     confluence,
     dersou,
@@ -165,10 +167,10 @@ export const arrondissement_11Places = [
     les_deserteurs,
     louie_louie,
     mokoloco,
-    septimeLaCave,
+    septime_la_cave,
     septime,
     vaisseau,
-    twentyOneGDumpling,
+    n_21g_dumpling,
     mokonuts,
     osteria_ferrara,
     pianovins,
@@ -177,15 +179,15 @@ export const arrondissement_11Places = [
     acolyte_insolite,
     alluma,
     auberge_pyrenees_cevennes,
-    aujourdhuiDemain,
+    aujourdhui_demain,
     bambino,
     blanca,
-    cafeMericourt,
+    cafe_mericourt,
     deux,
     fief,
     geosmine,
     gramme_11,
-    impactKebap,
+    impact_kebap,
     jip,
     l_homme_bleu,
     melt_oberkampf,
@@ -194,14 +196,14 @@ export const arrondissement_11Places = [
     ama,
     amalia,
     epopee,
-    poggiCup,
+    poggi_cup,
     rang,
     vantre,
-    kaiIzakaya,
+    kai_izakaya,
     lacigne,
     le_chateaubriand,
     oobatz,
-    perchoirMenilmontant,
+    perchoir_menilmontant,
     le_yard,
     acme,
     chez_justine,
@@ -215,11 +217,11 @@ export const arrondissement_11Places = [
     astier,
     bouche,
     chulita,
-    leDauphin,
+    le_dauphin,
     le_villaret,
     les_3_bornes,
-    breizhCafePaulBert,
-    bistrotPaulBert,
+    breizh_cafe,
+    paul_bert,
     tontine,
     caf_oberkampf,
     cafe_industrie,
@@ -232,30 +234,30 @@ export const arrondissement_11Places = [
     eunoe,
     brutos,
     jones,
-    lAmiPierre,
+    l_ami_pierre,
     lissit,
     louloute,
-    pauseCafe,
+    pause_cafe,
     recoin,
-    samaBistro,
-    streetBangkokBastille,
+    sama_bistro,
+    street_bangkok,
     superfine,
-    leTagine,
+    tagine,
     tarantula,
-    track119,
-    brasserieMartin,
+    track_119,
+    brasserie_martin,
     le_saint_sebastien,
     martin,
-    leGoyavier,
+    goyavier,
     chanceux,
     double_dragon,
-    elComal,
+    el_comal,
     erso,
-    lAlicheur,
+    l_alicheur,
     la_buvette,
     le_servan,
     reyna,
-    tram130,
+    tram_130,
     au_passage,
     machizo,
     gourou,

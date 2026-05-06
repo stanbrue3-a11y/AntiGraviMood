@@ -42,22 +42,37 @@ export const benjamin_schmitt_restaurant: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: `Cuisine [Type]. TODO`,
+    must_eat: `Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.`,
   },
-  images: {
-    hero: "AU_ZVEHgHlXWBeHThwyxNnSokp--YEkpUalbfkFIU3ZG2C3_sui6x2O9wTZmbaAVu7qgl9c_p4_iSX4e_0_haA1_onMzR8JoVHMQrG0Y_wpXA6jRRAbCtkSWzWVhUEnJU0H2Vj1AxtIf_N4WSzcgZHRHKutLoP5hD5Q5FhmR2HxRoVB62ZLbaWweO1mgRGC_vaBamRu6FbZNnkUBpbaQfUz7LiPsBiQL8Xa0xDx0IgIlza90wovNpXZDai_-l8m7gzwBvaCsfNdGUf-SUnLZ7eSfBleOdVS47FCsin3PWwZ11PrBlw",
-    gallery: ["AU_ZVEHILf-BPXSDW4Jnspwu9AjN9cLbjyVLWcwNm6TLvf8WYqOq_whyeALE5Z0StQOR4oSDcGlQN8XdvC_nz734nQHYBjMB2LOZg3GYYENSQex58KMXcUTAdKcJpPnTo7sI8j3QsNwD2j1P74UNMDvUQfEbxcEhYrgjtZnVDlT0JKK0jtauEswhK5mjgoDZJy11mT_ASRMzEA29EAs1HIHs0ps3DtTOanDX6hTGYrvuyQ1PcH8PR4fSe8mlV1s8w6MEyXGiQNYijhFgFRJqFyvRH5Jtm-sGJGTjr9mkJHXB3CPcUQ","AU_ZVEHsy0HxzRVSo4ala2OnwIUybnvNZ4OUih2xXSKte_SBGMp3fVIF9Fi_wh3ZFsTIQn2oRTdjowJ6YgMdmcmIVMFIg4dbeDFlNTXsuV2lExopt2ssXCQX9B8gvi3lZpb_nHq3yyq04R_CBL_GBCHjThULnjsBiizzAiesFmZnFafwuZ7obW47AU45Rrpet3T6AriFm2oDkPsURWmkjJVgrU15qDA3iGnfOPShyJTNl8HjiWJIn2ChEBS1YQ1_Vg6PoXo81PlNcOCSea-4mkLlY69KzXJmJAXPCohDlMR_Oa1SbAr9BysSziI9ycSUWRlFxm2ztEh09dOPMBiYbX-eSM9agwckKAP10spUDGqOjJXsmrxk0NzVIPqzULvUyi8l5YevACNXmr9ZzZhwT936xTJs93jRKX1Vg4kXg99VtPuJ6A"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/benjamin-schmitt-restaurant/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Benjamin Schmitt Restaurant.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default benjamin_schmitt_restaurant;

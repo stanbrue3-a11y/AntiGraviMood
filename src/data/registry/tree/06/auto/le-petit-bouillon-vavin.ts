@@ -5,7 +5,7 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
   slug: "le-petit-bouillon-vavin",
   name: "Le Petit Bouillon Vavin",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "119 Bd du Montparnasse, 75006 Paris, France",
     arrondissement: 6,
@@ -86,16 +86,31 @@ export const le_petit_bouillon_vavin: SurgicalPlace = {
   description: "Le Petit Bouillon Vavin est une enclave d’effervescence joyeuse au cœur du Montparnasse historique. Sous son haut plafond Art Déco, on revit l’âge d’or des brasseries populaires parisiennes : service en tablier blanc, nappes en papier et une cuisine française authentique servie à une vitesse record. C’est bruyant, c’est vivant, c'est Paris.",
   insider_tip: "• Comme tout bon bouillon, l’endroit ne prend pas de réservations : vise les créneaux ’tôt’ (12h/19h) pour éviter la queue sur le boulevard.\n• Ne rate surtout pas l’os à moelle, c’est l'un des meilleurs rapports qualité-prix du quartier.\n• Le service est si rapide que tu peux finir tes trois plats en moins de 45 minutes si tu es pressé.",
   specials: {
-    cuisine: ["Française", "Bouillon", "Traditionnelle"],
+    cuisine: ["Bouillon"],
     drinks: ["Vin de table", "Kir", "Café"],
-    must_eat: "Cuisine française. Bœuf Bourguignon & Œuf Mayo",
+    must_eat: "Cuisine française traditionnelle. ",
   },
-  images: {
-    hero: "AU_ZVEHWQ-1KSeGl4RTzEROvX0vyo_vHiBNiY7tWq5i9Zr9yWVTORp5e5MFrIbPuQm2_zF1EsiLA4pwqq-chvononqKPq4W-7rbkg3bJCLLrVlNiPB4Zruscn5tscERrx8l-kTbuUisXAvphcTbBHE6TNBOT5ko5ymLjhjGdY4FSXWsCG7FzXpspLuXVl7h50NFpK0MwptqDCRHrCRLgwBouWEgk60zyeQ0GU1J-bY1cdZlaNhdjeb0yopsVTWai27pDuHnc4Z05GCWTRhVZYGmVyLwiPLoO8hKeE8zSIceUhMM",
-    gallery: ["AU_ZVEGwAm1v0oFxV0pFA3uZJTGvsMqxdqnLubPqun3XS4y0yUpC8tkJ6Mwds6tu2uevVLXPwYISsfvi94pALeRHtLtxogtuV4JVruGGEiBUH4Ludh2lCGswamXagf_kzMkqR688eEe16Pse3uJ3JaU750LuH0zt_v6UXNlPBnmpoFxghR6c6JjixNejeth5CqceOO_RxBh9hi_c7346nx01ocUWM9-vdnsS70Pn5ezOCgQjQmgpfGe7kiMDwpj2pe6lqZW1oAC7dfbowx-P56tBAI4VFRhkDGSWVYCH9k4nnntwOV5FJHuGromQS-riDqD9jD4TSG40sgU6jR8H6Cirvs4iiKAVJXcFmRZPF_RweVh78qGz3upQMU1tbsphMkgnabUSwat8QsA7KOu-e-0wucOBbpTZw9xsjR8hUUiC05jqvO4TXhlsFUXOYcdfnIT1","AU_ZVEE2e6Jt_EHpSNhlmOzvz6V9aedpckuKhen57Ux8ZGnSc2JEz7VffM2dzwoozsR_dkVi9-aTCFvMKcpCAQZNxFx21N6xWntkcX7cZ_fTc8uM7A50UiMpHGX71UQaASm9ORsLSjQ-_z3dnve_QqCL40KhcHO6WH0OgSIQI_dXDHch4O0oWX86c3IrG7K5N4p7W6_lV186qzb-iJtRK6KePvcb0IsO4Mo0ztXvVDnDNimRuWQyOb41OJoG_KlPR34e_J-UUsYuQA6uwArPR5CImb6T9cRCIShDsdqYEwTxX8c"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-petit-bouillon-vavin/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.0
+  google_rating: 4.0,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. ",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_petit_bouillon_vavin;

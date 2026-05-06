@@ -5,7 +5,7 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
   slug: "frederic-simonin-restaurant",
   name: "Frédéric Simonin",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "25 Rue Bayen, 75017 Paris, France",
     arrondissement: 17,
@@ -91,17 +91,32 @@ export const frederic_simonin_restaurant: SurgicalPlace = {
   • **Lieu** : Idéal pour un déjeuner d’affaires de haut vol ou un dîner discret et intimiste.`,
   expert_catchline: "La rigueur et le talent d’un Meilleur Ouvrier de France dans chaque assiette.",
   specials: {
-    cuisine: ["Gastronomique de produit"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vins prestigieux", "Grands Crus"],
-    must_eat: "Cuisine gastronomique. Le Saint-Pierre au citron confit ou les langoustines au bouillon d’artichaut.",
+    must_eat: "Haute gastronomie. Le Saint-Pierre au citron confit ou les langoustines au bouillon d’artichaut.",
   },
-  images: {
-    hero: "AU_ZVEF19GJJ_tzNACKkAqRMgJY0UZQMKpb0zIX7JQapm0gRrUteoSk2w8rPnPELfG2Lon7Kr1bMO9nstHbretH43Mf5-hU2sM_T299qnmsn4NH0Bv478pNchs6sq_DEwbXhxlTrHsWPA_bWONPy3rTg3aEoD3r7YgeX5doEx-fWjOkdWtBWFz98hMOoW42w5yKswxE87x-ew0u5jvPtLhtMh9H8sNme8rHHoA_4xKQVfrsP_Ifc7MvZVGiuZ5OjXMaOmXfK5I1CIeff7OnOs6ot_6paNe6tgNntF0Sb92oBcOKejw",
-    gallery: ["AU_ZVEGWuUL6bhbcRZrq1iwJJjf5JAeSX7jQ2wcjkMy0lM_MOPrtaDTFu3Y8cB0QSy67t8Cr5dSk3CRNsj6zud4838HJ-baQp94Rf3WtSg4NeAL4ja4PSIaYyxod8IJPZMJS3iQb4xW0Dtxb07pVAqHl2pf_aaP0XBFvq1cXJ4PHywFSlF6GPTlRCaMIdjP-OIveniC8mVQ3hU9nlHoxJ3YDal7y9ao9v8R0hOjr7KMICv_lV8lnH9sT1BhyKCvxhtP2gyzDZq5UzbsS5heiW1Q2zmaXHu6u95MBL--T6Yzj2r7CzQ","AU_ZVEGSjGWgqIUtbwnzQb7VvD3DM9jviW_Za-3zQqRemklxLELIG1TXaU-_ggfIdPuMcYHd1UalbeVlgyMq-uMdRwnY0qChBGnRH2pmdVmDSzWo86Rsifxt_Jyo1pjHjyDTXH_Y6rOpk7lsdaN8oErNA8DT9DZp0MaGNMV-EOWR8YYpD21Rl1eTZAiBja4qmKPNlUntzA_nEVl8DsVtOtdwhb9HpX0GRigMAgmwidep3Am5bkucvcTvBz4s88Udmga6Eqk-XfViFfFvhSWqXC6KdQYjdzOdhqBDaaJplzw9sM0Afw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/frederic-simonin-restaurant/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.6,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le Saint-Pierre au citron confit ou les langoustines au bouillon d’artichaut.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default frederic_simonin_restaurant;

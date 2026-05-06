@@ -42,25 +42,37 @@ export const rue_forest: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEGdSijDRPJejHywRv4pHVPwjsfj_daX9ZQBKUvn4GsYL7Vd89eW_DqFIwcWuERvnONEa71yegNkSvMOchMF2cbxyIa-O8KfmZes4ffsEAk3UNrS6VOHvuIS_ivgvznbWdRTt0xxyO4b8-hEJrEt8dJasrCxyOl8I72ZnI1qKul8GKA7LPPZIFL0iego0R1V8GxIIMLuZQq9gcwz1klB35iIwdR7cR29OfhB_yGY42xsIt5d_QeyzoIX91cFL6JulZebZ0FhSr-Ys6CycdUjKFQJcgC18mmThoz4O36OcYCcnZenT8VlUv98pFu_3I5oJRUW8ePvmMiU9BvL42zB1I3W4pBwaV39tKD9Spgs-HY-wTETtBLeMdfDypG7qpRjisU3QUqzYW0DdB6g96EMf6dXMHcKud4GgK6p_AK3Z1Gfm6qs",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/hero.jpg",
     gallery: [
-      "AU_ZVEGdSijDRPJejHywRv4pHVPwjsfj_daX9ZQBKUvn4GsYL7Vd89eW_DqFIwcWuERvnONEa71yegNkSvMOchMF2cbxyIa-O8KfmZes4ffsEAk3UNrS6VOHvuIS_ivgvznbWdRTt0xxyO4b8-hEJrEt8dJasrCxyOl8I72ZnI1qKul8GKA7LPPZIFL0iego0R1V8GxIIMLuZQq9gcwz1klB35iIwdR7cR29OfhB_yGY42xsIt5d_QeyzoIX91cFL6JulZebZ0FhSr-Ys6CycdUjKFQJcgC18mmThoz4O36OcYCcnZenT8VlUv98pFu_3I5oJRUW8ePvmMiU9BvL42zB1I3W4pBwaV39tKD9Spgs-HY-wTETtBLeMdfDypG7qpRjisU3QUqzYW0DdB6g96EMf6dXMHcKud4GgK6p_AK3Z1Gfm6qs",
-      "AU_ZVEGdSijDRPJejHywRv4pHVPwjsfj_daX9ZQBKUvn4GsYL7Vd89eW_DqFIwcWuERvnONEa71yegNkSvMOchMF2cbxyIa-O8KfmZes4ffsEAk3UNrS6VOHvuIS_ivgvznbWdRTt0xxyO4b8-hEJrEt8dJasrCxyOl8I72ZnI1qKul8GKA7LPPZIFL0iego0R1V8GxIIMLuZQq9gcwz1klB35iIwdR7cR29OfhB_yGY42xsIt5d_QeyzoIX91cFL6JulZebZ0FhSr-Ys6CycdUjKFQJcgC18mmThoz4O36OcYCcnZenT8VlUv98pFu_3I5oJRUW8ePvmMiU9BvL42zB1I3W4pBwaV39tKD9Spgs-HY-wTETtBLeMdfDypG7qpRjisU3QUqzYW0DdB6g96EMf6dXMHcKud4GgK6p_AK3Z1Gfm6qs"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/rue-forest/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 0
+  google_rating: 0,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default rue_forest;

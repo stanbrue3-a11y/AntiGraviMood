@@ -5,7 +5,7 @@ export const mondol_kiri: SurgicalPlace = {
   slug: "mondol-kiri",
   name: "Mondol Kiri",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "159 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -104,16 +104,31 @@ export const mondol_kiri: SurgicalPlace = {
   • **Mariage Inattendu** : Le magret de canard aux litchis en curry rouge offre un contraste sucré-salé d'une modernité surprenante.
   • **Sérénité Requise** : Contrairement aux usines à soupe du quartier, on vient ici pour prendre son temps. Réservation conseillée le week-end car la salle est intimiste.`,
   specials: {
-    cuisine: ["Cambodgienne"],
+    cuisine: ["Bouillon"],
     drinks: ["Angkor Beer", "Thé Jasmin", "Jus de Coco"],
-    must_eat: "Cuisine Cambodgienne. Amok de Poisson & Salade d’Ananas",
+    must_eat: "Cuisine française traditionnelle. Amok de Poisson & Salade d’Ananas",
   },
-  images: {
-    hero: "AU_ZVEHUXNtMg-dXXAHWPBpaqYLqQBTIM7xLuc-13u7tDc64wIb_1ba7H4ZLjBQFjH0pV12voiYfvxfxCKKH95zxBh91gxMmT7p-h1zBRmBy8P8vdifUWnkW0_0Ap9U_a24vP9IiOoSHU62iXsepkF0Xp3jb-TYEViZxozdbY29X14h_cfpucbHaizn4Q1-41nW64BVDsvBxabYcOCekLcYnAJTZ6sxtQDHNcHCLl8XPIEdJXaprDHue2RrpnA-oSHwCqEzB8ukSX_WyfHD5Rn2OSJkbdBPUN8fShg3z7R4ps29-wQ",
-    gallery: ["AU_ZVEF9ef43PY3Ni8tgOtTYgheBWM0Dc8CnwgkRzpMRa4lbWFF_3WJIJmTvRcOjfweQmmm6xquLxjTRCJR9zk2Xm_pKXQfpjGVUfF4WZ9kOCP6__iYb-RVHe4zPYqshRMUlGMU8t_j3j_F7DhYfqQEqGlLtv0AT2lC78jiCp2GCUJq8uPW80sSUOIgTtBk_cHuGygUZgIear-OJby4lsVeucRDLw3m-8ZezEFfnvrBMeT4pKuQ8_1RA_i52nY4VnGh65qVFRcNl7s2wrIgIrn2evSMu1lHljoGWRKFP4RELBaIg9Q","AU_ZVEEW07va6VkuI-N0CA19_A6k1W5yJOGo__0HIeEqHeObZ6kOkOgBf1pjD9A7aRi0PpXt3Ocmt4zz-tUm2c8V-kXM5veQa_FL5YxVZ3_h6nsmmwIbG3VOlK5-UOA34wEuCSaFUMeNu15QUn6w9UWtByq9cB3Xaz1QpdSDZ5yBsjD66soJen6cKK6UpQpB9UMCccPAerR2QrmNpQX9pmhUBGCyQTny5d6VPAxVZIvHW9IsFHI1uxSFyZ6YYmn5Jw6_rWJiUFNFZiayNUW3K_s6qCIutBI60tEs6xWf_7cJHMh8MxMYstcTPS9HtznkiqMitAjDcyFXVWbYnPQm-vQc8MO57_dWGNrPqdyjpAuwgTHMsM8-UUTnTfE3W_5cDl87-JBwLRStDAPNR5CnWqDddHthOmu_vNkYPn8SJOwQ3ieOX8ij"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mondol-kiri/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. Amok de Poisson & Salade d’Ananas",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default mondol_kiri;

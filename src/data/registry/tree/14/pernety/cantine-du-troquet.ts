@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const cantineTroquet: SurgicalPlace = {
+export const cantine_du_troquet: SurgicalPlace = {
     id: "poi-cantine-troquet-pernety-75014",
     name: "La Cantine du Troquet Pernety",
     slug: "la-cantine-du-troquet-pernety-paris-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "101 Rue de l’Ouest, 75014 Paris, France",
         arrondissement: 14,
@@ -78,22 +78,35 @@ export const cantineTroquet: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU3JnKqpAykNVTC0Mow6V8w1wBW7dQvH-gOXkG9jLP_Xd0LdR1Ar4NPRSnYGpDSmN751HvCXPJtUuIS0GyvLBSh6cAkFKsJNzA6ina3kWdFlRM5vlLTYirG1xbeFkNLVMMXUDS9-Baol-ssqVz0r0TL4T9NGt6Ch1evtufXhiix9x4ys0fauDYOyCKPPROoB6K38saU9eHTq7HgwaZOyWLleKbLg1eIJllyFXZJPuFwmGHw5iZ609qiPMYlp-FufXH8FHT2-1uLTyGD-wYRaDoCp-3y1DqevCD9NYxBpyO-1PF6b4JR5Tw77_DRMq1AzzZYtTD2LBjkOhYAXAifBQMw7H0XLtjryePfLvBg32YAe98-s1TWyx2FWOll7Stj2jW29xHMXW5WVQoaf5wMJKc2aX7C5FRHNMvHjywZc-tMqVr_UOQJgTZ9MGfG6A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWoKirK8aPmb014PHq2R_4wjoyFKm4JHnGJktbQyeYSDBap-vg1XoXc5te8vsBDfDm-8GCBVFcNapJ4T-6-RgZ9o3gY5e5f2H5zXoMAHN3b8utj-s8jO7KDufSQG05PjLO84Yg8ta0PeNtCAIBr06zKLD2RaSehZUvzPjn0mVVttDPZz4_VCrncaXf0QPNFHSVYoHMH05bCh-fH9eeWgq1PNtVdcoo1dETiNUoLcHuBr*S4jDPbJ_aDhhtcI4zS50R-mLkI_CLC7mhmC7eBvn1DJAw_N_QU7GeJ2Tz_evU4IOrFHbd7tDGi3vDDf48W1Ysw3L_kck0IIANE4QTbZvqNHK_how4RrI1plQBkyeCLuqqm27R4IyQrTB6re2rYBdJgMNt2eSd6x3jCluXp7NcJ1DMCjuedU0Mv3ECPjFsGyI1syI4AuO3B8DnX644T&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-cantine-du-troquet-pernety-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "La Cantine du Troquet Pernety est le navire amiral de Christian Etchebest dans le 14ème. C’est un lieu vibrant, bruyant, vivant, où l’on cultive l’art du bien-manger sans manières. La cuisine est celle du Sud-Ouest : franche, généreuse et techniquement impeccable. Les produits sont sourcés chez les meilleurs artisans (Ospital, Parra). On s’y installe sur de grandes tablées dans une ambiance de bistrot moderne très dynamique. C’est l'endroit rêvé pour une soirée conviviale où le partage et la bonne humeur sont les maîtres-mots.",
     insider_tip: "Ici, on ne réserve pas, donc venez tôt ou profitez de l’ambiance au bar en attendant votre table. Les couteaux à la plancha sont absolument divins, une commande obligatoire dès votre arrivée.",
     expert_catchline: "La bistronomie vibrante aux accents du Sud-Ouest.",
     specials: {
-        cuisine: ["Sud-Ouest", "Bistronomie Canailles"],
+        cuisine: ["Bistronomie"],
         drinks: ["Pauilhac", "Vins de Pays Basque", "Sélection d’Armagnacs"],
-        must_eat: "Le Cochon de Lait croustillant.",
+        must_eat: "Cuisine de bistrot. Le Cochon de Lait croustillant.",
         must_drink: "Un vin rouge du Pays Basque."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Cochon de Lait croustillant.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

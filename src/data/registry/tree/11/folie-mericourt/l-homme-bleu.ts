@@ -5,7 +5,7 @@ export const l_homme_bleu: SurgicalPlace = {
     name: "L’Homme Bleu",
     slug: "l-homme-bleu",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['marocain'],
     location: {
         address: "55 Bis Rue Jean-Pierre Timbaud",
         arrondissement: 11,
@@ -76,13 +76,16 @@ export const l_homme_bleu: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVDP1p_xrBFl1fDkjsMEToSRCpbuzGjyVDl0DxPhkSW6lKdTdSnKOfiJ8tyShUIQpwOSYcP6z4mCHw6GYZ4Gn8AtNIkYtzwdvLqXOYdTpdJ4pcJnxS-f4Vlq-4PvdSY_kr7tsWdMdWtcZvXPrRRXQnoNZvDch-ZR7t1rj0ei1ogQKkKgqhtX9Xo14ZpDJQ03FSmTNTpw_7Q1zyIR9_CT4lzAYcyd2zJU-1cxXq5EQlCIskMNVD5LNFXene28HnOSB37zgw3kvvDo0O9DSBW_n-RH-lcrvxW7NcZioPdFymRGwriJO6fzzPn24svpVzU2yDGsfpPqC83HhmHffnaoOX5lEhdgj9tk-MLBwTYyScM6yMMlJWiBt-xYomLtirXxZ-QEponT9KyktTwa-wwv9L0Gb19PlpLgpZWHaJCRkR3R0g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUanXbs9TB4Tdm8Sy38biVs5LNFqtha-riu4E0I2q5AdrKdp-T08wOQNq1HieirXkiqnZgrhekxXsnRgVi2N_dvWvTSIjU9V-iwzF0QgQv0rnxT0L-oFjIA3mml2Ci3jv68HB3CaE19p8Li2G8waVzCazVXSZQYaPNIRHd45PROPyGsq2a0UUryAxYmRkh9opHIxq6w7FjcrcaFoqfpCKAAG_qGMl7-pESuX-2YKTW-iyvheepmgZjNeLQKhcazoHnWNZ-zEs7DxG2Z8Q1hrj2En5d8SSYoAQr9ycmfi_g2BZSzPAu6lNZc-D1UTrkwJrGFV5d8h0MKW811CuCUdhTU7xSp5d-2tDFw9DprYkXsnQNLVLwd_WhuPmbimXcJLQMlqZnEEhY2lIBZXLzJu7ChI_Kb2dmCFt9HSk6zauE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX7ZVlyyCj3k06tDnfIt6rD1J016nJPLAeJh854INZCbwfRser9WOE2c3jX0GrgsmYeLtXqUmB-K8zcCQFpvEZVpuPtFl3UtIKFkotl4A_soG9kH6aeY6Pu0AvRLaw99RzC3n9N1e5mZsbC-pcpk5NMm12npVvHcf9OcRYNEXNnhJqOHP0LpULsgRkmYNWw_X8moBFKXt9JG0dtISf4lEtLbLBiE1mDz399BsZtXFi3-HuMwOOwpqZINA1CCTbZLRoLkhGWao8rKmvHTZnoOOv3H15jEwNIyoiV7Dp1y1NptRWRAAV1lqV4_PgsAEz0VpFSnyc7kcM_YInPSerBaBeDZT0BffHxNkF3RQ6_jETf409mLY21iwwx9xBTdsFx-qddd52DPfAnE2A291HUghwaz8tNzPboUz0MImxPIYyQvkzW4EkYTVsz-5sGSBWw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-homme-bleu/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "restaurant.lhommebleu",
     verified: true,
     google_rating: 4.6,
@@ -90,9 +93,18 @@ export const l_homme_bleu: SurgicalPlace = {
     insider_tip: "• Le Couscous ’Homme Bleu’ (Royal à 23€) est la valeur sûre pour les très grosses faims.\n• Le Tajine Lham Lahlou (agneau, pruneaux, 22€) ravira les fans de sucré-salé.\n• La salle est grande mais se remplit vite l’hiver — réservation quasiment obligatoire le week-end.\n• Très bon rapport qualité/prix/quantité, on repart souvent avec un doggy-bag.",
     expert_catchline: "Couscous et tajines exceptionnels dans une ambiance chaleureuse. Une institution parisienne.",
     specials: {
-        cuisine: ["Couscous Homme Bleu (Royal)", "Tajine aux pruneaux", "Tajine S’Uxarfi (Agneau-citron confit)"],
+        cuisine: ["Berbère"],
         drinks: ["Thé à la menthe", "Vins du Maghreb"],
-        must_eat: "Le Couscous Royal rassemble tout ce qu’on aime, et les boulettes de viande sont fondantes à souhait.",
+        must_eat: "Cuisine berbère. Le Couscous Royal rassemble tout ce qu’on aime, et les boulettes de viande sont fondantes à souhait.",
         must_drink: "Le rituel du thé à la menthe (3.50€) pour clôturer le repas est non négociable."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine berbère. Le Couscous Royal rassemble tout ce qu’on aime, et les boulettes de viande sont fondantes à souhait.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

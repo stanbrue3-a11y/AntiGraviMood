@@ -5,7 +5,7 @@ export const tontine: SurgicalPlace = {
     name: "Tontine (Bistrot Permanent)",
     slug: "tontine",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "6 Rue Paul Bert, 75011 Paris",
         arrondissement: 11,
@@ -108,16 +108,29 @@ export const tontine: SurgicalPlace = {
     expert_catchline: "L’avant-garde de la fusion asiat-parisienne dans un cadre brut et convivial.",
     insider_tip: "• Surveillez leur compte Instagram : les résidences de chefs changent la donne culinaire tous les quelques mois.\n• Les oignons de Roscoff au miso sont une petite tuerie à partager absolument.\n• Ambiance tamisée le soir, très ’cool kids’ de l’Est parisien.\n• Les vins sont choisis avec soin pour matcher les saveurs épicées ou fermentées.",
     specials: {
-        cuisine: ["Fusion Asiatique", "Vins Natures", "Udon de riz"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vin Naturel", "Thé Genmaicha", "Bière Artisanale"],
-        must_eat: "L’omelette aux herbes thaï et les plats de bœuf braisé au soja."
+        must_eat: "Cuisine de bistrot. L’omelette aux herbes thaï et les plats de bœuf braisé au soja."
     },
-    images: {
-        hero: "https://images.perchoir.fr/content/v1/589ca395b3db2b07d6d5a1b3/Tontine-Paris-11-Interior.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tontine/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.4
+    google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’omelette aux herbes thaï et les plats de bœuf braisé au soja.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

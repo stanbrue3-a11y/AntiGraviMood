@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const samaBistro: SurgicalPlace = {
+export const sama_bistro: SurgicalPlace = {
     id: "poi-sama-bistro",
     name: "Sama Bistro",
     slug: "sama-bistro",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['libanais'],
     location: {
         address: "5 Rue Guillaume Bertrand",
         arrondissement: 11,
@@ -84,19 +84,34 @@ export const samaBistro: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sama-bistro/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Sama Bistro est une lettre d’amour à la cuisine libanaise, réinterprétée avec la finesse d’un bistrot contemporain. Ici, les saveurs du Proche-Orient s’émancipent des clichés pour proposer des assiettes solaires, techniques et extrêmement généreuses. Le cadre est lumineux, l’accueil vibrant, et le brunch du weekend est déjà une institution pour les amateurs de Terwi’a authentique.",
     insider_tip: "Ne faites pas l’impasse sur le feuilleté Batata, c’est une merveille de textures. Le brunch est souvent complet, réservez bien à l’avance.",
     expert_catchline: "La cuisine levantine en mode bistronomie : solaire, créative et passionnée.",
     specials: {
-        cuisine: ["Libanais Créatif", "Bistronomie du Levant", "Mezzés revisités"],
+        cuisine: ["Libanais"],
         drinks: ["Vins du Liban et d’ailleurs", "Arak sélectionné"],
-        must_eat: "Le feuilleté Batata et les brochettes Taouk à la pistache.",
+        must_eat: "Cuisine libanaise. Le feuilleté Batata et les brochettes Taouk à la pistache.",
         must_drink: "Un verre de Château Musar pour accompagner la viande."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine libanaise. Le feuilleté Batata et les brochettes Taouk à la pistache.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

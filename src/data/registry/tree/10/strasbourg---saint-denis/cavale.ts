@@ -5,7 +5,7 @@ export const cavale: SurgicalPlace = {
     name: "Cavale",
     slug: "cavale",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['street-food'],
     location: {
         address: "40 Rue des Petites Écuries",
         arrondissement: 10,
@@ -123,10 +123,16 @@ export const cavale: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUvLHcc1RCffFlLtbE5XSUc83DG1W3wJc0LejswLsb7LTWg3M0J8CkTaYGtfO_KsxSLz1AgV1drzi4dMpt5WrC7VSQ7t4I5L9-KjvK_yfh2yf19cdfi-KC7dRY8pg6bOGL6yJkDVSYePyP1xe3EpIqVJdg1QR-58TywamUhwT6gg9NzQxF8NST7B9weu1d_5y6VSbhzUnxJUcYEboADE0CZYeXhbGMP4t5iDoL3Ttbo-kKZSdUnOLcVga5eGwAexuyAHq9xSQGHzRmvwfViUWMG_eHHjtqoaTmPU4wy3DdMar8ReCHdPKP0Y1YckWWR6g_8JzPGmqvs7GHTW7BHUS57Q6dZeuGp5AkllHdgwB-jF4WaliC93g1tb6OqUjoabLckhll7i4xLZ-EXP2a22MPPifmUsuNQpQcQ4srkpOfyptu5bjycHFfL06A6KhQecRc1rNwEuKs8NWi4cqcTWguPqGYAoL0ywsEc5EjRGRPedYZfJ90GO4RbVfKfWHjmFVQtMT4S4XcV7o5GXB6fELWXiXqMhytWtS2jBpwiDJVHRvs9NecWwz3GXC-WruBYgDKVh-mV&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cavale/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "cavale_paris",
     verified: true,
     google_rating: 4.8,
@@ -134,9 +140,18 @@ export const cavale: SurgicalPlace = {
     insider_tip: "• Si vous cherchez un dîner romantique et calme, fuyez : l’endroit est réputé pour son niveau sonore extrêmement festif (et bruyant) en soirée.\n• La terrasse couverte est équipée de chauffages et de couvertures en hiver, ce qui en fait un spot très prisé toute l'année.\n• Leurs \"tapas\" hybrides, comme les gros Nems de Feta (11€) ou le Castaniù (Frites, cantal fondu et lard fumé à 9€), sont exceptionnels pour accompagner l’apéro.",
     expert_catchline: "Brasserie vibrante et bouillonnante du 10ème, où l’on dévore une cuisine ultra-généreuse dans un joyeux vacarme.",
     specials: {
-        cuisine: ["Magret de canard au sirop d’érable", "Le Croque à la truffe d’été", "Gros nem de Feta croustillant", "Brioche Perdue"],
+        cuisine: ["Street-food"],
         drinks: ["Pinte de bière", "Cocktails création", "Vin de copains"],
-        must_eat: "Cuisine de brasserie percutante. Incontournables : les croquetas truffade, le magret de canard au sirop d’érable, et la fameuse brioche perdue en dessert.",
+        must_eat: "Street-food. Incontournables : les croquetas truffade, le magret de canard au sirop d’érable, et la fameuse brioche perdue en dessert.",
         must_drink: "Large sélection de cocktails création, vins nature pointus et pintes fraîches. Le bar tourne à plein régime jusqu’à la fermeture."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Street-food. Incontournables : les croquetas truffade, le magret de canard au sirop d’érable, et la fameuse brioche perdue en dessert.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -110,16 +110,31 @@ export const pho_banh_cuon_14: SurgicalPlace = {
   description: "Phở Bánh Cuốn 14 est une légende vivante du 13ème arrondissement. Célèbre pour avoir démocratisé la soupe Phở à Paris, cet établissement ne désemplit jamais. On y vient pour la profondeur de son bouillon, la finesse de ses Bánh cuốn et son atmosphère survoltée qui transporte instantanément à Hanoï.",
   insider_tip: "• **Commande Signature** : Le Phở Spécial est un passage obligé, mais ne faites pas l’impasse sur les Bánh cuốn (crêpes de riz), la spécialité de la maison.\n• **Astuce Évitement** : La queue sur le trottoir est une constante, essayez de venir vers 11h30 ou 16h pour un moment plus calme.\n• **Détail Authentique** : N’oubliez pas d’arroser votre soupe de citron vert et de basilic thaï avant de déguster.",
   specials: {
-    cuisine: ["Vietnamienne", "Asiatique"],
+    cuisine: ["Vietnamien"],
     drinks: ["Café vietnamien", "Bière Saigon"],
     must_eat: "Cuisine vietnamienne. Phở spécial & Bánh cuốn maison",
   },
-  images: {
-    hero: "AU_ZVEEOgBxpecqjSc8C6Jc5gWRfBiIr02e8zP2FLsY1XEDwJ12VB02kvLj58GMIbu47cHhpKli3oUZz80BL_v19y53RY52yvLEER2Skdj1hJf11rEjUhsAHffkmWh6hgzN1tKfeGF4yAdDy3fbqOxSUc0gPZE5I9M2h9NQobfeeGLNJI73bYltROUE1dlGZz7xX_rjRK83hiYGZxeTZVVizGbD8z4Yd32ZXSjm-HBES2lGr1Pwdu_N9wNQnLAX50UMBZUdgMH6vrwTcgqAsES276kRvg7GyM-Y8wAFrsXNTXNbylA",
-    gallery: ["AU_ZVEG-bXVuTOO3NFXCGA1rDOsVMf8DqUrINCafqhds2NXcgcAyZmJ4EHGu1ISylSdmU4yyCM_5mqO_o2Nzd2FCZ0t9zbGPxLje34qxiPjL1DOYSwAXsH5wzQIIDVoYaAY2ITGkfownyDAOZ6SrlXuTjAK6RlMSn2-La4RtHOpQJojdDJCN6x3HGsKeu3GgBuNPLJbOgTWnxqTjTM9MIb51RHDtCsEAikercpcmBBPAMKoRnQVVF-a1XMMCnSzCIm23D_K3jR2YK21fwNVcoPWKagmTdH4L7LcgM2gr3mNZKVIL2w","AU_ZVEH9g-b_fMQCK00DZ7cvwX5EAAYKcj7aQvicoex96zcgO65VtdiTuyHxo1Xy24E0P2QOGmdpcsglBqU4rhaJwFdKYcPOmfHcRFrdc5npOt-0wW91oEvxHNZdkxaGLI-y2JkXMIB6eGwiRtbXNk6qSnQ4z5DJcMMlUfBe0VFoWTRa_Wq2sMoNeLqDRyZ5lXcALNv8aNgR1ecDIFlBLZN9COq5JjMNVONb2_S0pAqUZVNQRg0g2C7mVu2OTM8APwgiIzdGkSVWYVFxqYVqGU3NE5oXHBUFUwz7TFK0SzjdSLFdyoFhWifcJFGd6OYcRXcvvwENgWk08FGEDBHsp57-4bn8HLe44WubYtEZ3NzOaKEVT4WD4Ej6UBxQ9QeZM_J40ZgWGVqvjLq8QxJrej3u4YChDLiDWW7NUlSM5-foKg0AVRzOLALjDfj1_M1gaA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pho-banh-cuon-14/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.2
+  google_rating: 4.2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Phở spécial & Bánh cuốn maison",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pho_banh_cuon_14;

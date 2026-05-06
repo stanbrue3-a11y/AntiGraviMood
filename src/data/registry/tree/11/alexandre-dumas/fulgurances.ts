@@ -96,13 +96,16 @@ export const fulgurances: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUNj2EqygIk3P34pgB7cJ3OiWFvfTdF2OfPdumFSH5jIcdOpYxd7BH6IwKfxP51Dkin1Fm15fQnnSQO3Iw6qgspJydaBTEaQllGzJCfy2yacWtGXK8UcvQF2sFK2QYmBrbo2WcQvv9np3cvAHygXm40bq7RCC6-gKo-XoFGrUADjN7DBeNAGC0nnpZNAJTt2FaH1jjiq2mt84Wmn36PzDJSfxq_bEESqEhNCMgccYZ6_wzwZ2GiczczHyPonCkEds8Y76EapHZtsDRfb9-19bO7FyGxeuEX3wRchtOtoS3gFvZdsU7PtRjx1ju-dC54RC12RummgZNUxg67m2XYun1GHX4WyCXGk-p4IPCNh3ETtR-QbjPQ4dkpNaLOblmrOKmkM-SRZEA9HoF0RZWz469etArF4wiH7W9sb74WymIpJr8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWvXoI6ggFBYp6kfUwYP6H0MZk8Qbak8_dRZsn-YjttIGkJTLxIvHN2a-q-E-Eyu31sjCW4wdxEAX1dX4mzkeBf0gA1qjacOjFuHHWIMior9FOSbESBPtKCpTya2A0rww7TiCN9SCGcam9aT73SpHYmw_U3foZ-fSK3bvZpIE3SBaPuLX3OpvxYTXEaDkQYmzjx-ssiJD9vbBDm_2YaKaK25ywqgMkahIAPEGvr6CX-PxikrPgjcqEeCp8k4RQ0Dhhn_iPhw73htpwGssIWWxoqHv7KwmHdW8MGpZMVF-DhUA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXYYY_qu6AXUElmBS5mE2WphMQ6X9ezrovuGtSjNShSXonO9sBVj6dUPWfXv-K9Y9ToYl_fd8O3H0akiKyw7BF9vxA8OFVYkgC2nphCoLkvalpDmb-J-cdRrvyOefQMl0Lm9fE94kpn7lStVLQiQ9JHzBxMafZ3hPPU-NEpTocbiE3O9DPgmsFaONSmQAIiLBAia-ipMmkllL1aI5BOik8GowWjtlpPWedspIjGlX0KxRjI7_OQfZohU0s9_rrvS-bPxGTn3UIC5JbklN6xob0D7rzIufshM0gxWbE7dQyHOJMC7b3gCpsqC7MfLOLlrlG2Y9lD_tdYEHTIqqkm5B4dmp7ATiVdw9gKAfFblJYTHuS_DzjAm5zw9571OoIT7w5peTYWVUizOZDvXvj_aqTgEnvdE_1NVeEEt6yWhTN_FMqe5RRxtz2k-W9Sjy73&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/fulgurances/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "fulgurances",
     verified: true,
     google_rating: 4.7,
@@ -110,9 +113,18 @@ export const fulgurances: SurgicalPlace = {
     insider_tip: "• Le concept est unique en France : un nouveau chef tous les quelques mois. Chaque visite est différente.\n• Le menu midi à 22€ (E+P) est le deal absolu — de la cuisine créative de jeune chef pour le prix d’un bistrot.\n• Le menu dîner à 44€ (3 temps) ou 58€ (4 temps) offre l'expérience complète.\n• Consultez le site pour savoir quel chef est en résidence actuellement.\n• Les vins natures sont bien sélectionnés et changent aussi avec les chefs.",
     expert_catchline: "Le restaurant-tremplin du 11ème : chefs émergents en résidence, menu midi à 22€.",
     specials: {
-        cuisine: ["Carte qui change avec chaque chef", "Cuisine créative et saisonnière", "Options végétariennes fréquentes"],
+        cuisine: ["Français"],
         drinks: ["Vins natures", "Sélection adaptée au chef en résidence"],
-        must_eat: "Impossible de recommander un plat fixe — la carte change avec chaque chef. Le menu midi à 22€ est toujours le meilleur deal. Le soir, le menu complet à 58€ est l’expérience la plus aboutie.",
+        must_eat: "Cuisine française. Impossible de recommander un plat fixe — la carte change avec chaque chef. Le menu midi à 22€ est toujours le meilleur deal. Le soir, le menu complet à 58€ est l’expérience la plus aboutie.",
         must_drink: "Les vins natures changent aussi — faites confiance au service pour les accords."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Impossible de recommander un plat fixe — la carte change avec chaque chef. Le menu midi à 22€ est toujours le meilleur deal. Le soir, le menu complet à 58€ est l’expérience la plus aboutie.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

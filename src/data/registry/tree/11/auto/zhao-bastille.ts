@@ -5,7 +5,7 @@ export const zhao_bastille: SurgicalPlace = {
   slug: "la-taverne-de-zhao-bastille",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "67 rue de la Roquette, 75011 Paris, France",
     arrondissement: 11,
@@ -86,19 +86,31 @@ export const zhao_bastille: SurgicalPlace = {
   insider_tip: "• C’est l’adresse idéale pour un repas rapide avant de sortir dans les bars de la Roquette.\n• Les tables sont plus serrées ici, ce qui renforce l’ambiance conviviale et dynamique du lieu.\n• Demandez les Biang Biang Poulet croustillant, c’est le ’comfort food' par excellence pour affronter la nuit parisienne.",
   expert_catchline: "Xi’an à Bastille : nouilles Biang Biang et Rou Jia Mo. Street food épicée et moderne !",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     drinks: ["Thés chinois", "Bières artisanales"],
     must_eat: "Cuisine Chinoise (Xi’an). Nouilles Biang Biang et Rou Jia Mo. Un voyage épicé et authentique sur la Route de la Soie.",
   },
-  images: {
-    hero: "AU_ZVEE_DAg6LufPHUinB9iD0CRwn-KIDT9uTjrFPppuBpswgW0sdLCriYjmfAVN6XbvAy3oT7-R3iCd5ro2YyXaSDyI3fpxnGbXQUTyCUg4eGQqMUmw7VUysJKq6i0-XQO4Gc4KBUQ776m7sGUSLRi-ybnnwfZcqL7RI2bUAmHwrWS42XUh3slOLWu_utOkfXE1Z3pKuaX63mBtz9Z3Ey1_vDXubLHlMUDGWe2OPJlMYeaUxQ6RP34y0GSv7tWJYbkpLoOnzM4MFJFGfe6YA2FRXm8Sl-8DUiL9pYp8sh3wHTy0PQ",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/hero.jpg",
     gallery: [
-      "AU_ZVEGIqhl3EgLLrc5RX-cE_kca5xBl0R07ltYNfL-LkADfwtxs1imAiWLm5xK8Pn3PkNgyQswgTSZDbgSHME6QTqYVtrSpWtGjshYhUvFfG73EsqdWVOLmqmNvTTEMvbaXXuSE3JtUpPFgEPr1STATFuLqf4VvJCus59Gul6Qxun-F-ie76oxIGLfoXyQ7UlajjtrPGS0TxGPaCN3LV0cZYBx2mw2HRYJ2yEaF7e7Co7UtAhz-OkK-0R-wka24S1k6UyJ4p7tJjjTTP0kq0LyR1RydeW8p3aerGOHO7OXG6EIX_A",
-      "AU_ZVEElDRZJoQuoaDw8KpSi4ZuE44HTrWYh259mwPWLl2-lVCIaFBw5lVLpwn5JT2N4P30eAlbQHYmv5jltxn4GY4z0aoWHLmux5oW8-jFTRqfLailUrgXh3-swbOw19t_xms5Hiba0uFjKP32eqhHAw9uZueX8C5xYvtK8sMNhZrlCxKR4uZE6vjyys2cXaX4P0BjYDFeAVSdZxo-sFMCAEBKRozWbBdVv6H9z0KKMzoJCtYJ8Xr42h-hYWRyxBS0VpNBNhzL5it5BFLvAl3Zf5eiCZmOGAlSbcPiAA1JukgMQO9PeDiRDJfD4Ct0Jw4Af3wfltXVTN4Go_ms-wJB1jpizInVRaNKzdKc9hLfFNqh34aQF2_qLfYK1I4ndchB4k4XGiHBcf2_-BGC35auKykhnNtTx0WtNDQykVhOiV4Tbn4wr_4BA2yml23d4sA"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-bastille/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_bastille;

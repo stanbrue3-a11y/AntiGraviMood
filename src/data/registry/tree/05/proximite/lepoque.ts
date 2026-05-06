@@ -26,7 +26,7 @@ export const lepoque: SurgicalPlace = {
             "url": "http://www.restaurant-lepoque.com/",
             "label": "RÉSERVER"
         },
-        "cuisine_type": "Restaurant Français",
+        
         "menu_url": "http://www.restaurant-lepoque.com/la-carte/",
         "terrace": false
     },
@@ -96,12 +96,24 @@ export const lepoque: SurgicalPlace = {
         "must_eat": "Souris d’Agneau & Crumble de Boudin Noir.",
         "expert_catchline": "Une institution parisienne immuable : des nappes à carreaux, une souris d’agneau de 7h et un accueil sincère."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=ATCDNfV7qHMW0WLjoalp1gh-cZou6S3LNvWFO_pafcJVtIyd9xZHoWm4LedR5aNYOvOHgeFzwXs4Z4dm26vM7ZVcOI9mml4uFUeii2sghzoUA_BnbFybD1hotgJtb5XxcC1jiDC5sNYJF46caZzoulpBcg2QdBGZNL30DybgyINYobDsxA3-r2_iouAbAw7yzaO9PJT9Ds8L0vFhjH87RU447BwWPFl8zy7XVT9IJHrc4BOmh9KR-q4gb9WF8E4wEWAKOkGMzYfCExfFvxEP124Q5X1mDHgTrms-WGV1766VFqEszGRcg5Nbe7IC2ot9CGlFBcz__PozKDz2f4yQKaptsqqPRzwaMxZ7iiLchhm4wKILFXKnm0oFSAedack1GNJit8En4_Qg4snLQ9Wzte8UblCWHrRxl8OhKIT3PBdN43g0uQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=ATCDNfWof16OZXyvnewkC7NHNSezsq2FNhVJlVzEMEqX7amYc9SHU0Pbz5n3ikmn4GwZtn65HKWmgVYliZAbb4LHZVJtDgrI3-ckPBWlS6n5GIlVd_TjpU_f5cN9f39zRMHhP0SVEblv6fNOy-is4Ck1bsyRSa5un1p8YvSQOOU1pdRSh6aO3iflmQ8kgBBjdiduW4K2TNkXpsNz5Ht4GOWXfbXki_YkHOAvNES8PDq0RDLKkb_-vB3_HNzhdWkr4uhNlxIXRmEzHz_9akGmVxiK-jkxtr_g-TDf_onZ3EJZhRYFH6reWSet4aFIZZfYGy69pkNIk2Bx9XIFxLfFGLbRDjrJGmlVYx8aY5PMtRcuYSPRB_6BhBlJpB__RUhIXE0SkwoDMRfIYyr6d1LvcUIhFf0OUESz7Kli7Fh1CURWc5s_V9Qj&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=ATCDNfVHWCcJTgFTQRk38uoATXZmYLfJh_fAElNb3rGWlWbygufy-WUeD4oUnSN_FYPRaCxL6qRK30N_saRD6CwsA3vz9DRtdln-zrxkesg2TFN8DDig6kxgck5BAoO76d7MswxPQaZf_OqIKRiQNYDqqdO1cAF1gZ_d37VdbKOqwXogfaaTzBnAnxwmanmlQJpTiJ4NZnr_s-pkFEnt2iveg4yrbKg9_xZG_ClL9E6ocHe6C4_qj53BfMB3KAN_YhjcfL-uGJjFXbZN-wTcjEUtzHtVRGqa7OS13kFTJkrk6by8SA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lepoque-paris-5/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. L’Époque.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

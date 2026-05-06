@@ -5,7 +5,7 @@ export const o_mexico: SurgicalPlace = {
   slug: "o-mexico",
   name: "O’Mexico",
   category: "restaurant",
-  subcategory: ['méditerranéen'],
+  subcategory: ['mexicain'],
   location: {
     address: "20 Rue du Père Guérin, 75013 Paris, France",
     arrondissement: 13,
@@ -105,16 +105,31 @@ export const o_mexico: SurgicalPlace = {
   • **Spécialité Cachée** : Le Pollo con Piña (Poulet à l’ananas) est une recette rare à Paris, héritée directement de la province d'Oaxaca.
   • **Vibe Midi** : Le menu à 15,90€ est l’un des meilleurs rapports qualité-prix du quartier pour un déjeuner complet et dépaysant.`,
   specials: {
-    cuisine: ["Mexicaine", "Tex-Mex"],
+    cuisine: ["Méditerranéen"],
     drinks: ["Margarita", "Tequila", "Bière Mexicaine"],
-    must_eat: "Cuisine Mexicaine. Enchilada Mexicana & Nachos O’Mexico",
+    must_eat: "Cuisine mexicaine. Enchilada Mexicana & Nachos O’Mexico",
   },
-  images: {
-    hero: "AU_ZVEGZxk-z2HATMWsZvcwDzmy-f9CjaD-hgPkXHW0bbOWhrZBz1mTxSqd9XFAlH_f4XNZzX3ZfcQDPbP_SIJgzeLaEqLCKl5ws2rwvr2by5WOJPh29LDQ5L5CAVtpi8iAQakEojOEQEIVD3_Nl--KmOTeokUvBbhAvY2iEMofoXMcRPtpYOnB-PV045B3Fi_HZCif82Hs9J2dWCjXrzZl_KJ0LOksnc9_o0ey9JKd_laVSs84WeZjJto9NjP4v8WJ_ku3GuTDvwkemKc2lErlCoGxIeQ1vo0_hkU1QIYIpbxguIQ",
-    gallery: ["AU_ZVEEDkKka3egFPmk6_oEUFUsmlGEflhX40C3C-CB3Ic3SrDKXZXz6g-FdpD08X8W9xiMYe84VrM408bedXZzm1oTdpZ2H8o3Gb5oHnv96N3pJeu5gyQqMjggW_p3rCtgDXqPV_SSmBZTTIFruA6MhTuvd6rD-1XVJQF7fA-kFLMo6gvoL4Xa97xsGH6ec2njkVd92CpOjM4SxOdzckYB6lcNOmLfvOxacLX41t90ECsHEGQOcoFDZv3OT8hSPEhxBHmqsPsz9qN4GbIrG7tBEms3JUyMuUl3Yo35VdzZdXusBHw","AU_ZVEFByTm6QkQA0PGRAGbv4A06TAK6VSm3byJmg_OOEsCyuS9aR73jXDx6HPJoRi_zrKj9PBetciDjQVtaG8_Yg6-Yna0RimI0bFbazeZ-VdWoLVaKf4j9D-pbAeknv20xDfQwJUZxfgHg1nQzilTdvlTysIGq_kXqgqTMQ6Anct5ve0RoPrl0cK3qTTgbr5yTSsd9WjVgEKI8UEF_I5nXfgXNakGMAfcEJeoyGTJ68upTKgLUADBo0Ap1kkjkOHRkG5OAHaA-He-uWy79BQCMZx4kgpXCuSuYcLrwz0KbgKTfDbSLJcnsWpb1CnrdOWOmpkXAuzZaNaivJERQGyvK5FkNgFT1KWeBcMxM935VcxzhjdpiIKcxCcNO-hmaQGq5HP2a7HrXL5eLlj-uBs0I6d81QGObE6shAPWeO5CsUthtgdDoLfZfLCZxFI5oahRY"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/o-mexico/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine mexicaine. Enchilada Mexicana & Nachos O’Mexico",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default o_mexico;

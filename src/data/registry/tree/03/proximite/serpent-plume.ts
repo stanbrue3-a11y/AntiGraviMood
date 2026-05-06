@@ -4,7 +4,7 @@ export const serpent_plume: SurgicalPlace = {
     "id": "poi-046",
     "name": "Serpent à Plume",
     "slug": "serpent-plume",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "lieux-insolites"
     ],
@@ -13,6 +13,7 @@ export const serpent_plume: SurgicalPlace = {
     "location": {
         "address": "24 Pl. des Vosges",
         "arrondissement": 3,
+        google_id: "TODO",
         "lat": 48.856166,
         "lng": 2.366650,
         "nearest_metro": "À proximité",
@@ -44,12 +45,24 @@ export const serpent_plume: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUbXoQboWHODXCdgTlWXjKKwOvFwol5HPMN1OYUApH3rqmEY9om11ix3M1bQLpGnh8LmW2nSSbvS1FAkTkdGH6ho015-wysnZGTk-DWVfMcKqakw8_rnC6Om1wvgCNCJ4YtKnuKT04LUrSezD1D3qilwd5M1Z3vnrfQkHfG09u8opQOpGpuWjmq-5w5KoDiOgu6McwK1gXn-u8tlZtfjvtchs7VBw1vXeZzp2BLjaPblujJ4ItUnot8z3NNNgLODiG5T1hnkUJR_6yepCZaVh22sEefO-aviVJy7_Iqym2Rqdl6UDZ-wmWO0Kz8tOLpmeDUVjqKdktdx84LB2T4oPP7gpdy0VEArHVbWKvL_DkE4YnNzstCPTeU9Q4F_h43AlVQq94rnqqjdiNELkvZwXvW-sY7IlvGXLORIhTRkhqqxg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX-glEEG_EnRXQHBcmpPYTRS88YB4zYq9ly3woESkqmWlQcOtflMptTQPG5qVQ24T9O19omKw2A-ozMKgB6nqpoP7kcuIAtWIKIS2094pSwDt4Cb6x4RKAPgnvbw9kImG-1GNWta0DXtemBQbJ1W8bt2ZI_94XXgcx9bMcztjGUhxtR4oIn7rFFOs_gTlwUdKw1kmHl3p1M3KoRknEhhxPZjgDGtEIvEPUrFA0y-htsdc1Ls7BaaqtR-6YflUnM0StdBABbeQfXRU9Y4q_iA7z4XB7wzS5D5b9WBWkQcHb6W7mpMLlJagte42kz5CxsjH3L-1EGVm_r07iWXaz7wWw-JVtokXBXh-v2U64DGEhccI7aMBJdkgAlmPWf7kAeHoS2310lCsUtO7ADrgMUyPJWUOE8M1G73H7NRt00ogfcu_0lYvtkWQqs2Jfgag&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUfhMFtbGVQIYtPdG37xzAL5XPd3NTBwLeG78VPBk5kllWkP7CGLy5wnZwaTCnOIv_QOOM4hAMEi_R03GNpek8CSzVEKbRLHFbWsA22e9x_dBGy38ZWnuXaKQ7dYrsmN9dHdHRurw0NwubPyk3nWgBlIFvUEnL7oRvWOYYRLOfbLW8T9bVy_oumBbaxsLYOo--QRyDswXQXwDAB5ri6NkFg0mtuRP-_ZTCMwKL6yfzEkOsoPh9JwpP2CkZ-g1kdOGt0L8bBqu0tE2z4vXniEcxesef7eF0bacHYHXo5T9VF9g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/serpent-plume/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Lieux-insolites. Serpent à Plume.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

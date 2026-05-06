@@ -85,13 +85,16 @@ export const alluma: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXHlARID27IwHG-Sgm64zq8g9vzq0NYvbZPaOfbrvOIPDbisqFuZHRzfCI3Bq4vxbzLaozZVCEnCizwkbGpQSGn05337YVTYrSYzpteDRPxva4l6UcESe2d_JWPDAt838ypjSDVjtKMUeZ4Cj4E4De_xff35XyLLUpn7fmryMp_o9fbbEEAonMR0kqPoa0lI5b6VCb-77tGhX0LgTAvSHNGXDG599sRBxrPPnv3N7RaQmTw1Wf_iXEHt-PnQ_XZN5-0akNkr35IF_1Ldeo1W09XT0yXknQlVqVo20phOslCVw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXg5Shk0p0gJBNNuN6sUGeifqastbe3ylwQ9JCcGb2wkuLsxXMVy1-ZA2trIBqwa3PJqhs1vCQo8mCcVTFL4QiyeuqyA-jsG0xr9agQ6zRjzdVpQYhVDpQ7r6CPdEbVlGLqYoL_nEggucojYIO_nO6ZcLG9O01LuIRxNk02gUWYb-zzqETq1CZeaJB3YYBc-jLyccSHf1lLDyP4ETx5h73bsRYLq5nd-0xLb2sjg10zK2AHDnLDXuTQKfDOsooqNJ5oDwTmlmvu-1jAox_RvPch7h1Hi08qqEA7hM6dZwUIng&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWjju2HVqLHFYRg51b_SkUfO5EEsnR_tcipTQZgKzdwN9QCkQCQOCQ5r265dRB-kM3zRcpov76BT47ZJdyHtl_AK7fNc3OKffuOTqVbhg5K4OWZGvDjhA4JvIUTieyIFl7ePp9V8o7GpmcoISHpElgtalo-q1o9hyUq2FuYcSRC8nZDRIZF4FPqHq-Jv0qGvNy9A-IAnVIvXIYvwmwP238AQpOy4PC-5mSnRzg9E7L9j1VHQMQGSPrWmadwtwmCtvwucnBRicuqkeI_jdzM1s4W4CyokzxkbRD-gcUXkZInPsPATyb4zfvM8ZjM3gsBAhgLkPklYmRAW3vid4TK9ByFN2rNX07l8qTx_MdOOWW7KParSMD0swNUqIVxB0cjG7mw0tVTPWpsCuGLz9sqGSFAdiSBT-JvXzJVnzvuPFLmFrMLTJYNNK7WNH9mNg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/alluma/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "allumaparis",
     verified: true,
     google_rating: 4.8,
@@ -99,9 +102,18 @@ export const alluma: SurgicalPlace = {
     insider_tip: "• Le menu déjeuner complet à 25€ (E+P+D) est une affaire en or pour cette qualité.\n• Le menu dégustation du soir en 6 temps (55€) est indispensable pour comprendre la vision du chef.\n• Les mercredis et jeudis, c’est ’Carte Blanche’ pour le chef.\n• Les vins sont axés natures et biodynamiques, avec des références arméniennes pointues.",
     expert_catchline: "La bistronomie franco-levantine la plus élégante du 11ème, menu canon à 25€ le midi.",
     specials: {
-        cuisine: ["Crudo de poisson aux agrumes", "Poulpe au charbon", "Namelaka au chocolat, glace sésame"],
+        cuisine: ["Français"],
         drinks: ["Vins natures", "Vins arméniens", "Sélection pointue"],
-        must_eat: "Le menu dégustation (55€) vaut largement le détour. À la carte, le poulpe au charbon (32€) et le crudo (16€) marquent les esprits.",
+        must_eat: "Cuisine méditerranéenne. Le menu dégustation (55€) vaut largement le détour. À la carte, le poulpe au charbon (32€) et le crudo (16€) marquent les esprits.",
         must_drink: "Laissez-vous guider sur un vin orange ou une cuvée d’Europe de l'Est pour matcher les épices."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine méditerranéenne. Le menu dégustation (55€) vaut largement le détour. À la carte, le poulpe au charbon (32€) et le crudo (16€) marquent les esprits.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

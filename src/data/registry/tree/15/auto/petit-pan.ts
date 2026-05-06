@@ -43,22 +43,37 @@ export const petit_pan: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  expert_catchline: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  insider_tip: `• **Timing Stratégique** : Arriver tôt pour profiter de l'ambiance calme.
+  • **Combo Moelle** : La spécialité du chef accompagnée d'un verre de vin sélectionné.
+  • **Expérience Culturelle** : L'art de vivre à la parisienne dans un cadre unique.`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEFi5HR21_9kBqyEBaGupJZKBisYR608m7ReGLHQ4scibZhXRbBWmW_VafI_zACyZk1W6S0pE9qSs4qpnI0w1BORjnsezyLE3Ntx7p11AiQyfgKBI0h1kCDpXeDhPYxwpJ6oIyJ9Un6sjlQxQOLvWNfgZ1rNLqpdzl1uyXCM-BPxIPl1KDe_txvxMXFo_ZpV4DkUSc01Wc16UsNFTZT4OyMDeW_rrHn1R2IDkIkY2PVRu_MTwJoZhfsgITFcP5GbduLP-59e_I6lq58QX2ltLKUMmQnPcmOLsnzc-qVf9E-gtw",
-    gallery: ["AU_ZVEHStYuCbmJMZUZlKS58t2GKvHj42LScz0ndQ4LGV03DTxDnS9QzcUYl5g8A7Nvz8Yaesp1d76Mfgr8cER-NgLd5PO27cEAwr783WUHXWEBCG29y1F0973E9Gq-GMch8Rm0Mse0yjUxQdEQlSOsG_aMJBimYFcBrm4gJZjXOH_kYELxnsiHujPhv5AZSyItUfTM5JhnbY3c1q1x2NhoS1M_tpz4qL47uGXfiHOBU4VFzzBOAg8v7NjajihHm9tJxznXJFrZ6Qh0hczsGe9H5FbdQaYaHe256Q9-Za-PvPST19WpjV8dgDURj9yCFtefpv1SX74HDvYc2_uYgwir2jtiIDN1SJv2jeuRyKB3JWOB3-pqrEn018ggWzRLleMYqqUHBbmH3hghqzNLrDY8YmGjI21XaDIwksY3NhPMpt5M","AU_ZVEGN7D5h_mbreT8VJybR7CFCp9cbC2__cpPqgyhQGNUqyxDuDXtug3RVPkz6EQwcM_5wtOKGlvjiCXavbjkiGdMLtREsRtjXVutlKP4RIPLzRbcsGw4u5caZL58r9DnJ4NVisePi0u89-K136zkIHCdHMU8bqy_3IOKx6UkMBGH-GtfPAvXccSEb38TEuULu-KOjbuFtIkpTAVzSObQpGNsDM7OTvKBhZDQdkKYHn_siQp1LuHhDmjqNh6FuWfTnGyn6QUHU52xIWuSagjKaj0wfeTmhKjk9pLa6Cl7BK8wOkA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/petit-pan/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default petit_pan;

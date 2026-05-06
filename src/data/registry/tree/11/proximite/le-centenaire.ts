@@ -32,8 +32,7 @@ export const le_centenaire: SurgicalPlace = {
             "url": "https://www.lecentenaireparis.com/",
             "label": "SITE WEB"
         },
-        "cuisine_type": "Français"
-    },
+        },
     "pricing": {
         "avg_budget": 15,
         "is_free": false,
@@ -125,9 +124,24 @@ export const le_centenaire: SurgicalPlace = {
         "must_eat": "Cuisine française bistrot. L’entrecôte grillée sauce poivre (20€) et le fish and chips maison (16€) sont les valeurs sûres. Le cheesecake caramel maison est recommandé par les clients.",
         "expert_catchline": "Le bistrot généreux de la rue Amelot : HH de 17h à minuit, planche XXL et cuisine maison sans prétention."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWThkNEpDTlxu-6JngUnW7xqPt8QuUwues5jbP4kPZws5KQ23gfEf8P5Kpuq-RHRasew5Lh9QFf5blJjMSs_JJCxeJvxCkyeFjkEwbZ6v5G4j-e-Hf1nKfR3X6LajCGedBUye-iLY06ra6JSBu0SxED7SXpLnntt-sPKMFbbvDJb_ktOisnewZQklIIeXX62MZZhEM5qrcGbWyUF83_Q1u3TYPd0FgnleGD3WR3RKkKJKViquginYzJeSYu0tATsgdELpcUXDyq0GvCWCYwO_a69CsGWCHDZbL2F0e7rzgM30P7MIn-rcWLYc-NmQoeP97R6IqAtOHa16fLxXYW6R1m8LNJspRzhLhyYp6mXuGeRW3cnEB84w8qTiGaTWgr1mhOGsgtKBaHnPCkSkZH_eeE7RR7E6LYqBTJxZxG8jczzaZ38Y2N9YKhhzUnPHapHT8yTiGuOvwBQQIYm5tUNKM1qImACxHa-JSduKZo_sWNoBUdiMR2O92Tf86RcCrbLq3JDpX7GumT30hohkbSEsnVNpsh-z6_70n4VDEqqcIwG4W4n_uonsunnnjJhNQuBnesv2HEZX_Zuw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-centenaire/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Bistrot. Le Centenaire.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

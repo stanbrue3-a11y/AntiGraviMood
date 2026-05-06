@@ -5,7 +5,7 @@ export const septime: SurgicalPlace = {
     name: "Septime",
     slug: "septime",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['gastronomique'],
     location: {
         address: "80 Rue de Charonne",
         arrondissement: 11,
@@ -102,13 +102,16 @@ export const septime: SurgicalPlace = {
       }
     ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVoWY8rpDqKEPd9pWh_xUNdz65Vr4S0YiBJ5uUjPWYVdifTL60C-OQTd2cqb3uamBZe2exLgcEcp4licpiUC_hdvCFn3kdvBbgzGVNeIeDf2laLIie_D14VeGS4a5Q3nvP6jihwKRMJZq-dNLuE2xC39eRVWuYgyYws5ho8LRRcGV4CVNnTVPDqndtoEc5F26JoEHXkYoxLhTHCGDUo-GnTkperwoYILaFx8p7wWM9VfyK9SER6BxQZHwUo5JPDUt_kBzUCeVN6Au6-xQ-HJP06iwXf4GR_ky398LBMDAQan_1EobJCC1cCJSvk-ZnCyojiZqiQcc-TooRy9U6HbXwCq4JExj0IUpff3ZwuSbpSe8NzZVMR_oUpx8N36WaiER9BIL735YEjesMSG4amqIfqq2P2vd1yaXvi1Vtmg4g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW5XX0ORqY3k8IsUKLSSHNN8RdJ0H4WapSDE9GmynCxNxndW1i78t-ZYY87S-ffhbDhRbF1BRFg0-i17C1exQr2AC6ScxC1usEUbGGd2G1VZzpzG9riOLfLEFHv2EOPvO2qvyrjZkBajs95Q4qC0bBTOVJFKkIGwUAIKaBzYOWJnixoh1u6cLl55UfPbaX2diZ-zgyxQsh1TV5VHvED5HK5VgsadPHaGc_8hxCL3BSyyf5Rq_uv35a699B--NYAXzc6r__SeyxZHP4Os_WCrnzDJIXj_dsjnRGjdy-MEvQAFGG7tl82c0lpld-9VqKOPKZI63ICXrEqtML6xqyhAPz0sXI3EmvTyu877l2CFg-w1qP9lzXmVXLmAJkxD9G-AqpVHqr4UldPkCnBA1Hlw_SYMmpocvEt-jtlaG8Uf0rvkZU&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVAGJHFVJyZ3WLxMQRzdwEjE52ryBekqd5ZJTHjRlrPZ7z9_y1qqsX53empneRIN2IvBUKCXhG3CSIsckxhRF4jI1OwvmRRkx7oPOhGk8yJJeXrFfdboxhGB3abOzPtIDngkOsmUVb-tODLYcDR2iXg2GFuVEy47mIXSZy-Uh7Sp0zjcUBsPB3Vh3mx8Pq2cwJa6dUctHdAEp2v7iIW76q4SgRfoJAG8mktvzMsVgA02QhBWuvGT_-6pQTBs-jhEWeWgBNUL3FsQLfsAwHAadtr-kJp7ek-nipMpK40pHOdF67Xcd2_lbvWeNOj4DEUV1bq_XItidlg9OQxLMqAGdQppmFIAJmKz7uiWc0zryCO8z88FNW-39oacCb--caKR9iqIR5Zq4DLJC3THKEKVTKy01K9YR5agIwXyDL2h7fjHjKPfWPlzle7Sbw5X9eE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "septimeparis",
     michelin_stars: 1,
 
@@ -118,9 +121,18 @@ export const septime: SurgicalPlace = {
     insider_tip: "• Obtenir une table est l’un des plus grands défis de Paris. Les réservations ouvrent exactement 3 semaines à l’avance à 10h00 pétantes : soyez prêt à rafraîchir la page.\n• L’accord mets & vins (axé nature / biodynamie) est indispensable pour comprendre l'œuvre complète (supplément de 75€ le soir).\n• Le restaurant est fermé les week-ends.",
     expert_catchline: "Une légende vivante de la bistronomie étoilée. Le boss final de la rue de Charonne.",
     specials: {
-        cuisine: ["Menu Dégustation 7 temps (Carte Blanche)", "Travail d’orfèvre sur le végétal et les sauces"],
+        cuisine: ["Français"],
         drinks: ["L’une des plus belles caves de vins natures au monde"],
-        must_eat: "Il n’y a pas de carte mais une suite d’assiettes improvisées chaque matin selon l’arrivage de micro-producteurs d'Île-de-France.",
+        must_eat: "Haute gastronomie. Il n’y a pas de carte mais une suite d’assiettes improvisées chaque matin selon l’arrivage de micro-producteurs d’Île-de-France.",
         must_drink: "L’accord Mets & Vins est magistralement pensé pour ne jamais écraser la finesse de la cuisine de Bertrand Grébaut."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Il n’y a pas de carte mais une suite d’assiettes improvisées chaque matin selon l’arrivage de micro-producteurs d’Île-de-France.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

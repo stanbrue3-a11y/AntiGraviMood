@@ -34,8 +34,7 @@ export const cafe_industrie: SurgicalPlace = {
             "url": "http://www.cafedelindustrieparis.fr/",
             "label": "SITE WEB"
         },
-        "cuisine_type": "Cuisine Française Traditionnelle"
-    },
+        },
     "pricing": {
         "avg_budget": 25,
         "is_free": false,
@@ -106,12 +105,24 @@ export const cafe_industrie: SurgicalPlace = {
         "must_eat": "Le Filet de bœuf au poivre & le Gâteau au chocolat.",
         "expert_catchline": "L’âme rétro de Bastille dans un décor de cinéma."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWNR8T3YmaFWPsQ8TJX9hAJokoCE0L3CdG-fnx-B1CFhDODDoTd2UlEnmzy6HXVypvh9qPii-3ZURxKH72hYHxgbm6ccKnJXRd-wG90SornmSMp-yyw4u4tVyTyfmrPYaY9xGFDYK64LwP4KUNXA4FXwHZTCwVhpBjDtTfU33lhPCJITCWzJUuLNd5E2u512DWFH0DEJ8leiZCR-RGMOlkG1RSS9UQuA7WYu14maTcqM6vf3TaivJIW_eygnLLn7BU1XaBFKBsbXeYhqy6GssulYK408cXSV3N7WPaDuOcZB7WBXSnDuWSKjAEc_MPkrwh4ULF-_jgCu7AcXLz63Z3gg_OEH1Daxs8JrqNQ3Uu4OG04mDITHC7u5viIaRPdpfbPkZBqfYCpS99ogbQF8IMmfTc4TGhzMwnybUEtAkosZ_8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU1iD_iwqomdnwJtjv8OrSKEW3Sh4oJ4tI620gNJbtho-ZvBu0sm0nKF0KqmIA0B7p_QmgG0rnhViFWUQ013rFP7p2MaWEmKZO6wEa7s3ujge3DTvcV3y6YLv7Iahe9wQSUMPZ5ESWEU6bHusQhyaEzLr8XFax0W81ZaZ9kFawbiFTevxfPAKRA_t-BD_Pf1fzKZjvhTk3pTkbcMmdxqK6eoCit9OC3U8UZvnAR0E169BB-QFLfoLZI1XvEqzFoSmIPL65_7_MZXWpDoEoAoc7oYWLrpcY0qOwO58oL266EqgaLnaiQwckeQPinGXlP3Zxmw17HfAa6pu6XkBc4mSpEHRxuPqmAEiMy95Yso7S-cijk0hESaV0uKu_TSrNa0-GAY0R1g7L_BBYGdMHsjhA0wIUM2hO2PqJ_oVKVFOZr2i7V&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVD2JVi8HMktP9IagPObrsjMlnkvpgmpG_B3_EsbvgFXKuXFk0A8-Ctw1QmQYl0w0ajHRgqIvSsshrUxpSLSEVX9I7TTmXtmWINJoiTVx1VGHTFhfwToi9fQTc2AUUTCaKH1MdjFoDXylJQg4SaE0CBYmBQyEER4Zl2yhpbR3hVmT7N9-kjXDbjHn2sF-sDjD5PaJoB8IaIWvKYK6GEBbPKSSERX4RpXxFwblQObDBnWssH8cWGablWdAv8mdhRmOiDiBhJl65q69fAG4W9hrm3femAPixrGu8Oj7tey_iBG-EY53-9k6Prpyuq5HIjCVXCCeGqlAOa3w1uKY4N1hxmVP4VZG0EtqU8gZpNzYRasbBzj3jKP3LxDL3ex8pOQJ8gY4lMNtRTTi33wKr2yEESGxWB5G03FIOO7GR4E28&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-industrie/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Bistro. Café de l’Industrie.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

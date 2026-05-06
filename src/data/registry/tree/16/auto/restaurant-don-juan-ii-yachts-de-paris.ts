@@ -89,16 +89,19 @@ export const restaurant_don_juan_ii_yachts_de_paris: SurgicalPlace = {
   expert_catchline: "Le seul dîner croisière étoilé Michelin au monde, par Frédéric Anton.",
   insider_tip: "L’embarquement se fait Port Debilly à 19h45 précises. Montez sur le pont supérieur entre deux plats pour admirer la Tour Eiffel scintillante, c'est le moment fort du voyage.",
   specials: {
-    cuisine: ["Gastronomique Française", "Étoilée"],
+    cuisine: ["Français"],
     drinks: ["Accords Mets & Vins", "Champagnes de Prestige"],
     must_eat: "Cuisine Étoilée. Langoustine en Ravioli & Soufflé au Chocolat.",
     must_drink: "Champagne Bollinger"
   },
-  images: {
-    hero: "AU_ZVEH0RBya3VeK9GO0yVaamRedDNVq_s2lVHK6UHNULuSjxGbgkl8F8RfQRM1Ju38_M6Q9fD5cwwp7yaXjbGypCatGR3vMANxP538TA3cFa836ixjoToaHkxkGR0oOCURSW9GwxuqripAIEAcEjAvXs8481moN6wdImHXed5zayxetsXor3DYXnhGhUB3nyxPicLrF9V-C5lnd6DiUt3CyBu5rGxlNA_EZmuvHxxvkKEE3IvsR0aCyMW28xQxq30amYf-QPYLJvce3t9fMbpjOqm6fOPo6FZo6iLXRgxqjAmVCXQ",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/hero.jpg",
     gallery: [
-      "AU_ZVEFO9t4jevIzs0i8jvm_CcqxxizACQJ4T1J1CgxK3yje8tPgQ8GKxDvsxhel_0N132Fc7H6eF21gPnI6_wrcWnzoihOiWxFpmbQ00qO9kUHrkqPDyWlrMZKkk7Yt5e9zTteIzosa8HAs8XgRVHodfeorDYyOiGAL-HmgxrpA3f42rCMYW3zfisqWIM5_9Rhe7Q7Qdjq4HYp4Q5J1it-xCODlb6rDV06IV62IguctbQ1ER3uPb_E2RSPQFbpSTwb1u0v8AuvPAr62ifo_NGpUoEzeGiLGuaNxPn9iN7MJV3unmg",
-      "AU_ZVEFH40XMG3xH6DrVO56Mo9FWL130oapYj0swPh5bw0hZeBpU3igNEItsl1_GbCA9pcfHGd6px_gSGix9iJ_qq46DPRzzXI8O01sVwb8C9E7DbRUKGiX3-U8UtBS_FBCz_wvSerVkjjd0myPYYVKM9MQ4lqEUJ76GiEU4uvYMC9KKwQS7MuGScHNggfqsJgkaRpKSd9sCObu9WDWtD_ca05j_04uKRieEkVjgRc_b4s5JoOjXwebkxUhj2D8yrXfiUulaUJi3y-c22WonVleL4Txxt8CjSkwwouwHo268HzLC0TuEsdPNgAKEYTfyDHnHEYGF-eFIbEuJoV0QK9aIbxPxuSvVZRKWD9UVHhF0oxcB9QwA3snY2ZgPJdW--5AJWLwCv6ARugnpmjUM6yz2pirwNSbo3u63g2lUCj-rUooVG-38AkJ-I0ncXupRS9X-"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-don-juan-ii-yachts-de-paris/gallery_4.jpg"
     ]
   },
   verified: true,

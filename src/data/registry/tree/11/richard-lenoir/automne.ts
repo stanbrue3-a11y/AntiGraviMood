@@ -89,13 +89,16 @@ export const automne: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUTD2_phSzeK7OGAbF6zn8GJHnHhx4876GajW257D-XoEQ9mXEebRxJT6rUXX9w5mNAw872BE53Py8vXG_T4_ktUHeqYJg-yf5yQpIsukb9KL3e6unXJBYeZkjJIWtWGYuQ_5qb053blGO1034jpblU4J3Cxx9ke9QbXNyORlAHB11B3BAmDb27GtZVTWJ67QJPYZ1pORf-h-NwpBC95PY0FcGRFvMUknoqqjVxOQsc11SVChaGlCzX0gYOZuv_g-qLsp1dNkFUnK6mErXEptBuBaVI8599023T1WTn7SwH_A&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWPv97-PFm_IkcQmIsZj1lszKS8pz2uARXL_JwfdtDNHE2NnheqoUDlGLRPBrI8ru7zJRql3N1kQKqEZG2OB_9EAKeXQuxMhFTAcMbmxWBCkg32Fc_qjVcxc0HhyDNPkmpi-DovTl84FgCM-7I6IvPO_1NVTfrJETv_fsBnGFBbj7NZlGoaFU-rY18VN6WIv3at-JTghlCczKgJmH3jmgCYPjWcdVN-pCR6RmTNQxnbXNuOshLzVcHlivcYbIRu5vtYJl5vnAX7pdnQLaxdo8aCoboLR6AU9O6iEVfnGGCmxg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVAEb7l_d8k7-n-5qfv6_qfCO_26YrWS0VGTlsY9xQinW3QU95IMko2cJjdVstv-UN8yhxqeTZAMF6BparI0kX5WJ3CAUcHaeAU0Hae_E8x1IQmW_41-yhP4qZ5WjljcHt3rJxnfJhOYnh4fPJrZctcBBMgZARQiwLL9IUc-PBiC50U0YPlao79juy08s8fms1OKRbxJ07snsFT_w_UCRGv-l1w6VmzY9te2rIZ-A0ClVGeT7101imQbVXojBAEaIJj11kdXKAy9yD0WggnlyjXJZorwTY6Ih26GFWP-7AvuARMWmr5q4AU6wtBC1Ekk2hD7RC8If2mlBqctQpoM0wPrEHhTd3KwyLSay8IV0bnzkWQFU9Hqo-6Un3DagQTWwoJgMzN8bsz6n_9oKBUUfZlr_YIzESJgwZ0LaZB3KSiwqgk6aahTlO-aUasZg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/automne/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "restaurant_automne",
     michelin_stars: 1,
     verified: true,
@@ -104,9 +107,18 @@ export const automne: SurgicalPlace = {
     insider_tip: "• C’est l’adresse parfaite pour un dîner d’affaires haut de gamme ou un repas romantique où le calme et le service impeccable priment.\n• Allez-y pendant la saison de la chasse (automne/hiver) : le chef excelle dans la préparation du gibier (Selle de chevreuil) avec une subtilité rare.\n• Le menu déjeuner à 75€ du mercredi au vendredi est un excellent deal pour une table étoilée de ce calibre.",
     expert_catchline: "Haute couture gastronomique sous perfusion japonaise dans un écrin étoilé.",
     specials: {
-        cuisine: ["Ris de veau croustillant", "Gibier en saison", "Tartelette de foie gras"],
+        cuisine: ["Japonais"],
         drinks: ["Cave nature d’auteur", "Accords de 45€ à 65€"],
-        must_eat: "Laissez-vous guider par le Menu en 7 temps (145€). L’assiette star reste son ris de veau croustillant au printemps, ou ses formidables cuissons de gibier racé en hiver.",
+        must_eat: "Haute gastronomie. Laissez-vous guider par le Menu en 7 temps (145€). L’assiette star reste son ris de veau croustillant au printemps, ou ses formidables cuissons de gibier racé en hiver.",
         must_drink: "L’accord mets et vins (jusqu'à 65€) est conseillé car le sommelier déniche des quilles nature souvent introuvables par ailleurs."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Laissez-vous guider par le Menu en 7 temps (145€). L’assiette star reste son ris de veau croustillant au printemps, ou ses formidables cuissons de gibier racé en hiver.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

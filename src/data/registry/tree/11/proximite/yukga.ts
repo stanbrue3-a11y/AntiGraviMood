@@ -34,8 +34,7 @@ export const yukga: SurgicalPlace = {
             "url": "https://yukga888.com/",
             "label": "SITE WEB"
         },
-        "cuisine_type": "Barbecue Coréen Authentique"
-    },
+        },
     "pricing": {
         "avg_budget": 30,
         "is_free": false,
@@ -102,12 +101,24 @@ export const yukga: SurgicalPlace = {
         "must_eat": "Barbecue de Bœuf & Bibimbap.",
         "expert_catchline": "L’authenticité du barbecue coréen nichée au cœur du 11e."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWGmfhNV2GSZOizGZQecsFjbn3B-zW0ZnaURYcENfV-6JveDnrphhbIdcRmsXIyQLKUJLGTCFKrs6eUB04cmXJ4skHgiGn48GlGnfAP-0-cX1iEu3SmMKyZ0RGsIJN6WrBTPAx6UMqx4kKmdIuyaAeZATjRf2_M1Od5FM1cvioZyNCxQWGCeNf8eLd6in9ulc-xDcE2UC7p6TGggtNeqThP8r-A8R7U641jt1lQCNBEw2nSFnx9C7ZyrhbanJ3QqQw_E4BRPiroWbBfaI-O7uP0GgA_6uW6oNAl-InkSGPGhw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV9cgVSWqzm6OlD8UGQyhZOGeUpRgbGULiRBWVbbzhUBr8ogkir9wuBdFmy3FBPGkX6uGC7U7FtWKh8ckL_Jh23dGhup7DsF19GPA0Itktxc_EqDKvGZld0zIYLIz_uDyN6wAPbRSrdukR1sSpH4_tjE_sV93MJR_TJ5tovBy2g2PcBiRNp2rM_pmLImkygPaSEkf7pnwRUq3WPQ4nC3JO2s8NwGdQsaay7EyhWKrmkN_aLVXyrKbXqGPl_EWwwLrQhULpGk50eOWxiDDgkslYbfU9eVb6mFLDqS7Htr6KgkPROJJezdPkJj-Cz-r0Jq-u-FzVRq0WpHro6Zh8ysK9CDng2ah_k72IoUxmr3ObFGHwHj0ahMv_L1bsMb8sPUYZL7ISAYfWSYRdJdJctWZTDQh16AEpeFKw2-MsxrtXZMsM8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWbt3_pBWYGpq_ycSx2-iywQOQeDbEBNOe80mt4uZUtd-2FYcdtJGplAVWRjNzNkpvkHYE3YzRuX8e0ZOaEvU1C-1uCaRWDl5ZQisrheyYN2VzBsqmZqzntZsJ-EJQ_MaovionMw7hxogfGpQqtGIzhfnMSvP3QgWR4Z64EvitUAYuDa-poLkkCiON2yVPmr1kj0gT36ubJN2IzFrUxpEl8ZFMci101n0HLFL1REjK8JxXpGCZrGeK-T5OUj0rY_YkvL267M6igji4QZYHjWmlQzMV7TPH3GRyaSansZPMG-P4mLoTk_IsPks3Sqd90cOex7oSuPJgL4tbSQQtCA68IUW-rgFz3xUowW_5PkzeuZfbf4iLEa3orQyc2OSaCFvRR4cZ3zakafPW_pgt1Qp_QN15yKp-pAPlwXIbS_myXAunftMGe9uslYxSlAU6Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/yukga/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coreen. Yukga Paris.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

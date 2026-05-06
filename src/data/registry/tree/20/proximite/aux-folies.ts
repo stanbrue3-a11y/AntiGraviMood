@@ -4,7 +4,7 @@ export const aux_folies: SurgicalPlace = {
     "id": "poi-080",
     "name": "Aux Folies",
     "slug": "aux-folies",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "friche-culturelle"
     ],
@@ -13,6 +13,7 @@ export const aux_folies: SurgicalPlace = {
     "location": {
         "address": "8 Rue de Belleville",
         "arrondissement": 20,
+        google_id: "TODO",
         "lat": 48.872244,
         "lng": 2.378063,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const aux_folies: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN35SqC8oBrSZVB_FyW_N93Y--gi7xKbNaldL__6BhZvd4kalvp8eHt04TjNlU1pOR08K3uhQRc-O8gOkwWyO8nBJsc3pPZpAzJmjtkzbuUeP2Lz0fN6dlvmiGdRNxU-Dss1uupVQYgxl859cbkmmgIwBi1-ier3EiJfE0eQL5YzI63RVClLjWLV6ob7wTtpz-_Pg0t6HEJjL6Tg1xsnEBqOSHHhhDK8ZtfjCwb06XbMsUGX_Hf9kY9kfkBe-5kOuW3EU8UwlqcsBQS0-MDjB9cLav6SKrdYUdYRx6haybfOc55rxs8vFKwf__m6twxDVQwHOBtgQ5cS4UksRLkGnsVR6NBHbVNEcOBwo7_YodtK9OfKa3c_F5tCE7kx0GfnmNGeeMnYqfNFmI76-XSGi40g_ujrJhKUie4GJKwz42ysdQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aux-folies/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Friche-culturelle. Aux Folies.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const afaria: SurgicalPlace = {
   slug: "afaria",
   name: "Afaria",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "15 Rue Desnouettes, 75015 Paris, France",
     arrondissement: 15,
@@ -106,16 +106,31 @@ export const afaria: SurgicalPlace = {
 • **Le Festin** : Ne passez pas à côté des pieds de cochon croustillants suivis du magret de canard à partager.
 • **L’Ambiance** : La bibliothèque gourmande à l’entrée et l’accent chantant de l’équipe vous transportent directement dans les Landes.`,
   specials: {
-    cuisine: ["Sud-Ouest", "Bistrot", "Landais"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vins du Béarn", "Armagnac"],
-    must_eat: "Cuisine Basque. Le magret de canard rôti aux sarments de vigne.",
+    must_eat: "Cuisine de bistrot. Le magret de canard rôti aux sarments de vigne.",
   },
-  images: {
-    hero: "AU_ZVEHF04LdM3fZxmiE-37ckeBb6GQ4r6xLQaeBgBnNGHrzkr990hY2FskIQhIlGRjDpnJPs-Q6wr4dJZPSzcA78lcUKyOoM8Uezj_EtAOcvh0h3k3Ih6-pg9vKE8hLdFHcw5AEsgCxo7zxmpG2NehLN1AhAST94hAZIcZmrFVi8Ih77k6BQqXnRTgBXo5MI3HBF-fmC_L9AW2pT0AioGC9yODb_ZAzyMs2n0sOiN1iHK4Gl4Vl-eoeVlGmbGRvGNnuhVuajiWA2PgXqRK6MIwkwRcJnMXRQjqymY3VDC1FjkFqsg",
-    gallery: ["AU_ZVEGp5jg5v-UATJZ7a1swzQyS8YCUe7_xRoQ-zNG4Br_P-lLhds7_QwmCQ2AdJRYGfqBZUUqWvQazDO24Ok60OBKQgt0v_EbbrJ-zFHOe0ztGRmTVv8tgtu4lvGoRZ8GclTqziaJOXM0nRkgVz2MRPbDtQuqktelQUjIXynpECXgs17GN_6EhGmu_ttVUL6dB_PvvDqmJKZcm8o6IHZrLOnJrQD7JBXEcH_fsXHfWep8gGWhSYOly49u_P_ubmXSbkGeQE0V0XEYzU8V2ujy9HjZwO8UjKjdfY47lYJC0CccxJQ","AU_ZVEGZTSDHayl5FgBpOckwD-kmm4Px30k7sUHrHQinavXStXWHOFye-p7WueEqB0OgUhEYdqzWDCVouTXCWVba1aSw0PG79N2a1NXqCh1RZQIsAfS4NFwts5a9KuZouLloLVTpsIw4IdIwCi2wqiYeCAIKNdVcE2GKs7JeR1HueMG2C8PM5pQxR-9nQeYTKAbqGVuhSwfyMpv1KFKalf8wUpc_Iic7-snwUFnR9lJRvY4nQjhH214r95rZ0CMZal2JBp1iT1SyTdOa7nva2a8wjZKjGmMI6-pYlh4pp9MkNolQoO7hONva5cAWajle3TmEyGZL-w4x9SNX_-R1_Js9dFviP3J_0LHlEhWsJAY-HhySmAl6Y3WHzMq3Rxs_iICpV7x8r_5FvSFxpjVoBncjTdTjDEPZ2vnorAfNEndde9MvAviHs3Q4jYRn2-iSJcG2"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/afaria/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le magret de canard rôti aux sarments de vigne.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default afaria;

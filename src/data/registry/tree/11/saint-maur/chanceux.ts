@@ -111,13 +111,16 @@ export const chanceux: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXjRe54AgfYhiAoHHLGUI_pyRjbZe7exa8CXIQwbHqyCeAPxhP-4IhIXaUML-LP2Wi1IAmftCoIcwZABNB9Od4YggpmW7W6MZCKMyn1lkuZOboH5VUe74Z1LMO3dAMOt2wVfy5e-njVdV96J3vA4k_rHDMBFG27Nr85R2HmBdVnryvF6joaLYq3AELInPYQfo6xaPPGYX3-iL8lJLwkwDPbgKFugOVyKkHARaFCxTlrH2AUCzZFbPcx__AHnqQdFc5turXTTbAaBwJXAjc9AOvKhIHIvOiYo3yCYJR2xueemQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUFNRCYwBanPY9yq6_XOWqenBzKOUe1hYq6fS7taV6rXBGwnkZcLKZ9N4hEYEn_k-Is8RNSDszvOJyM1KZck5Qdn9CWnI9Eq4PTWBbzNU4C0ccD_10CjKcunI7INIQYcKmHee4cy3WO-x3qwffLDxJwHINI9caMx5u7wUDW66MtSuM9Gn9l85v8aQEFawo7zYykfZFm1c7_GFQxFffEJiQ9URZBfF6RbpK9FEk2WdWcVojCCNI_mE5dlF8o0c02Ty8h45yihzaLzN65xy1LgmBjUfi6flSdmi25u4tgPL8dLYT4zxDSDOedkMGEyPugwA99P_IRf7XVLMLZ8tVOit-_A2GYuXaX2MYa4k-gD_ajrYiXaOpAGPw9wNFcIhtd7iRjjKtQVXzdY0XknWsOIu9VOr2UnS1mo5XSfwIWUPBdwEWWquWjqUNmymfgr7iu&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVNDjMtPdkEitrB5i5Oqq4Vmr_E4MWEVBUwa0feoIuz5iFVfmUQUv0fgu7iahJBLhIobzYxnM_N2ACU3E8-1Qi4ULkuTmZGukVXTiBNi58myLb3Lpe_UmTmC0QAXjRp5JLB70cbfe_BmBWACiHeL-R7JNzlK0gm-zitvG6v9LExrFqpyO3-_vzkjvuIWsXsd8vDFrR5DLOGO6LGUKNkBv9VW7nThbKOPF3d6M_Dbwytn1WNVL4VCVNMePc7DgU2sH9LKi_xptWCc84ojv0UMeWMr3ehVr0t-7CK7DDOsoCzLw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chanceux/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "chanceux.paris",
     verified: true,
     google_rating: 4.6,
@@ -125,9 +128,18 @@ export const chanceux: SurgicalPlace = {
     insider_tip: "• Les horaires sont trompeurs : Chanceux est un vrai coffee-shop diurne du lundi au mercredi et ne devient un restaurant du soir qu’à partir du jeudi.\n• Leurs sandwichs chauds (\"Melt\") du midi avec un croisement de fromages fondants et pastrami sont d’authentiques tueries.\n• Excellente alternative pour le petit-déjeuner ou le télétravail léger grâce au WiFi gratuit le matin.",
     expert_catchline: "Superbe adresse hybride diurne/nocturne misant sur une comfort-food ultra généreuse. L’âme du 11ème.",
     specials: {
-        cuisine: ["Le Pickled Beef sandwich (Pastrami)", "Mont d’Or chaud à partager", "Ragoût de canard"],
+        cuisine: ["Bistronomie"],
         drinks: ["Café de spécialité le matin", "Vins natures le soir"],
-        must_eat: "Le Pickled Beef le midi : du gros pastrami relevé par un fromage suisse texturé dans un pain rye hyper moelleux.",
+        must_eat: "Cuisine française. Le Pickled Beef le midi : du gros pastrami relevé par un fromage suisse texturé dans un pain rye hyper moelleux.",
         must_drink: "Un flat white exécuté dans les règles de l’art le matin, pour démarrer du bon pied."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Pickled Beef le midi : du gros pastrami relevé par un fromage suisse texturé dans un pain rye hyper moelleux.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

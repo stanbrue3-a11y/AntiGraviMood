@@ -5,7 +5,7 @@ export const bulot_bulot: SurgicalPlace = {
   slug: "bulot-bulot",
   name: "Bulot Bulot Seafood Bar",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['mer'],
   location: {
     address: "83 Rue des Martyrs, 75018 Paris, France",
     arrondissement: 18,
@@ -89,19 +89,31 @@ export const bulot_bulot: SurgicalPlace = {
   description: "À deux pas de Pigalle, Bulot Bulot est l’ambassade de la côte normande dans le 18e. Ici, pas de chichis : on s’installe au bar ou en terrasse pour déguster des huîtres ultra-fraîches, des bulots à l’aïoli et surtout leurs célèbres Lobster Rolls. L'ambiance est iodée, conviviale et délicieusement rétro. Une escale maritime indispensable en plein Paris.",
   insider_tip: "• Pas de réservation : venez tôt pour choper une place en terrasse rue des Martyrs.\n• Le Lobster Roll Classique est le meilleur de la rive droite, testez-le absolument.\n• Accompagnez le tout d’un verre de Muscadet bien frais sélectionné par la maison.",
   specials: {
-    cuisine: ["Seafood", "Poisson", "Poissons et fruits de mer"],
+    cuisine: ["Poisson"],
     drinks: ["Vins blancs de Loire", "Cidre fermier"],
-    must_eat: "Poissons et Crustacés. Huîtres de Blainville & Lobster Roll",
+    must_eat: "Cuisine de la mer. Poissons et Crustacés. Huîtres de Blainville & Lobster Roll",
   },
-  images: {
-    hero: "AU_ZVEHkrOq59aYn7oGnbe-gm-Ylko9YvEwPu2powCwjGqQS4TteRk58Bn3Rf_0YDj-zhhWUkNbXU_ADNRJOwzGownph_dsTmyS-bPyGR5Cd_WPCNfjCZGpe2Kn-x4Zf7noVii7lY5vftFaK107ArMfny97wfQrVakqnu1pQzmHhsFipmskkzeaz3AL_cy8pCOze0GVnayhmR_kEPRZadTdvZB_KN7f1tOUHN-1gYjWFAVKhOf6HaPxHLOqQvsMy8MDg2uZOspd9M0FnuakfgZQ2WHMYMH76pgwjKhI2MLizhFiqPw",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/hero.jpg",
     gallery: [
-      "AU_ZVEGFvL57MZtxgTfrcIJU79rfeBRvb9JbE3uJ0cWkyIUeXZUNobsQ3jaqXz0atgnjgXEC78XWpFNafb8koTo5lHFLsWdDSmSwJQrquj5uGr50KgOFkEKc90TG9VsrIezpwaYidugZfj1V0HFq9Vjk7kxmVzdje0Qhog7PdQ4a4OG2w5enEK-FngpOyYmvHT3PwSV-jV_KFSrghBD_BENMRA8LzXB-_xDQL2fx8KC9Q2cglVC8pGv5jQ3oScO1g7t5ZD7AqLMmNBELwgCRynoK7FGcxQdWTQLhN9vwyYvRKPr7QQ",
-      "AU_ZVEGtOsju3neqgZsJNUWqkdaQ2aIon2U0Q7bSGhDW3-f_pV7WbCg4ECJNxSp7jCKbs8YOvsAD18_8wJUqyTvGRkmM63ksDNeCjSuYLS_e8ttj8HTk9CXY4QeeS_-oZoPjxAE2Gy68OoT6ehsoWCa5pfdPvXIdUcY7Sjw5YPEccyX5Ftg_XKkPlgALfv0081zJEsYDj1ktYN-ek0Fs86vRowfKe3I1-4OfsWJROFzvgMAXRyTmUA6WsqwOC9tk-NQo8lZ9LdHKK2AFy7DyPYGMxnh1hshqP77zH6A1V715sff0PVDrXi6-NPNyrjTTPJNrzf68aKroBZ6lkaKvOW-JD35Hd4rmUiHrdnKcr2D6R-oId8sWOL2KelDNJqQBpJYDAkfrwSc3tYVrGbYBqq-V49fC3HWSzLiB5wRf9rt-MVJMMhjIvJpitljX887yNBwT"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bulot-bulot/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de la mer. Poissons et Crustacés. Huîtres de Blainville & Lobster Roll",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default bulot_bulot;

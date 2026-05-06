@@ -13,6 +13,7 @@ export const buddy_buddy_paris: SurgicalPlace = {
     "location": {
         "address": "15 Rue de Marseille",
         "arrondissement": 8,
+        google_id: "TODO",
         "lat": 48.871832,
         "lng": 2.363402,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const buddy_buddy_paris: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1RfW-OxkEn_roRx9Bb43NP0XipXDbWVpq1t-jDkLa4E0tX6olf7eq3iBPsYRBFrW_GEQY-870pTkyxhG8dpDjQu3WlO62McmqvIcWWJIN16J1kfyII1EfNnLaK7JnIkENnX2pbXBbf8Wxe99NyoZFLjjXDKMopO0yeapi8ZtxBFsBTU-hPvKnYZYC-NJgNHqIi9ggjwIau-ZFb4TKu8ZUHp9NrQbMx7BYiz3G1mKXELXV3PMwnk94YGWdpD3YvTykM4JmfuOmKbXJ7L2rd2JlPuYKt1seXZHssKV0L8PZJcQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buddy-buddy-paris/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Specialty-coffee. Buddy Buddy.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

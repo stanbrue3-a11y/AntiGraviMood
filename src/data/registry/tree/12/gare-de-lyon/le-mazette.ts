@@ -111,16 +111,31 @@ export const le_mazette: SurgicalPlace = {
   • **Programmation** : Vérifiez l'agenda sur leur Instagram, les soirées varient énormément entre house pétillante et techno pointue.
   • **Accès Port** : L’accès par le port de la Rapée offre une balade agréable avant de monter à bord.`,
   specials: {
-    cuisine: ["Finger Food", "Street Food de saison"],
+    cuisine: ["Français"],
     drinks: ["Cocktails Créatifs", "Bières Artisanales"],
-    must_eat: "Vibe Clubbing. Cocktails au coucher du soleil & Tapas à partager",
+    must_eat: "Cuisine française. Vibe Clubbing. Cocktails au coucher du soleil & Tapas à partager",
   },
-  images: {
-    hero: "AU_ZVEGlwZyS3zU6bUEKDAQb1NNU34El1Nj9lojFuCo6tNkcZOz_2YId9R0EKuEc_gBKAkNKyCunwcguuCySeZ2youJXBrDvNU0iTZNCpRPxKmADsAp6B9JyXio8SPs0JF58kMUSAp0e9_4gm-B_USwKXfNCQE_u8UP-PyEStrKo9fsD4q6qZnJc25pONx_RcmTVR7LiwMCT-alTpLYMSWVX9liKkvP3N9hmLy9HvjhvSf-ShAoAwVMlIwabPEhf1IIZ1JFjMteOJKhW8r0xb32-3FXjfZ6mpDisxdtY3WLI4wzeXGTIt6FfRgUyS8XbvvP_auNUE0Gt2Hd4NFAcO8xnt5lEmgTdT_Bgaoag4Np1_PtU9YmJrrrLNA3L4G4gPXmKPJD-WDU9xXnvfCFpV2G7WQjaSuD00LHvuNtu_APbFvOATA",
-    gallery: ["AU_ZVEFVki1sq4TuH0nby06Ag9qO3cNpklnIZ3vocofEa9Z2td-QRQ-aVuINnnqceIGDHjWXAhVKl083lJOJmawlaTm2kfn5Le9x6ITWpj640O-yZjkaIbaSGQzX5dOBXCbBlwAKCY7KXsb8felPT3Tp2Nx0HoZAgLaOG3Z8cRSVP_K5NrhwqfrEY5JJN7-XUrMYQqntMZsbChof60tFD5lsYFykqfx9vSluY0AnoLe0jhvgaBDLLdiNn4Dm4cHAlA","AU_ZVEHZAwG-cB48g-FVM4B3h1kDZlov2qFRBBkJ8bJ1ahDqXbEwg6Lvl4SbjMa4hJZZ-KeBwzs9tqvNv8RUBucbXrw0DoaD8bqFCTMdx-HtvgQCZ31QFCpjELtdYS6C-7ect4YPboRbODCLVwtnruxC-QzwWZxcE7PtPdtswqmkitc9m_LEcedkBVTCPibyOGkR3ywEwufz6hti1ZW_nYfSE0vSTFcfWj8yMKHhoCBw-1m6M0Xuw37VICOYdzgWTir6zetOJ1ZMT3T8nEcGbLPVAQ-6CIDKZ9xK9V0vreG2Cs7ntM3C-kFevqBhc7zjqSJZLFyBvTgGZa7Z8a-WqjKvslY7XUii9x7TKOuXQVciWz7OE6mRQqLi0oTci6jgdQdyZKQUkcxN8ItwIyDBJbJdzJXaTz3Q_I7Ybw9M2YQTJEZlBDRJLECPv_bBl8HlF1RB"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-mazette/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4
+  google_rating: 4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Vibe Clubbing. Cocktails au coucher du soleil & Tapas à partager",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_mazette;

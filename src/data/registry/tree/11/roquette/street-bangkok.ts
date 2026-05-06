@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const streetBangkokBastille: SurgicalPlace = {
+export const street_bangkok: SurgicalPlace = {
     id: "poi-street-bangkok-bastille",
     name: "Street Bangkok (Bastille)",
     slug: "street-bangkok-bastille",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['thaï'],
     location: {
         address: "13 Rue de la Roquette, 75011 Paris",
         arrondissement: 11,
@@ -113,16 +113,29 @@ export const streetBangkokBastille: SurgicalPlace = {
     expert_catchline: "Le meilleur du BBQ thaï au charbon de bois et des currys explosifs à Bastille.",
     insider_tip: "• Le Tigre qui pleure est la star absolue du lieu, demandez-le bien piquant si vous osez.\n• Ouvert jusqu’à 1h du matin, c’est le spot parfait pour un manger un vrai plat après quelques verres.\n• Le Pad Ka Prao est l’un des plus authentiques de Paris (attention au piment).\n• Goûtez leur thé glacé citronnelle maison pour éteindre le feu du curry.",
     specials: {
-        cuisine: ["Thaïlandais", "Street BBQ", "Pad Thaï"],
+        cuisine: ["Thaïlandais"],
         drinks: ["Bière Singha", "Nam Manao", "Thé Citronnelle"],
-        must_eat: "Le Tigre qui pleure et la salade de papaye verte."
+        must_eat: "Cuisine thaïlandaise. Le Tigre qui pleure et la salade de papaye verte."
     },
-    images: {
-        hero: "https://streetbangkok.fr/wp-content/uploads/2021/04/Street-Bangkok-Bastille-Design.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/street-bangkok-bastille/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.4
+    google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine thaïlandaise. Le Tigre qui pleure et la salade de papaye verte.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

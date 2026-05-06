@@ -42,21 +42,36 @@ export const l_avant_poste_nouvellement_les_resistants_la_table: SurgicalPlace =
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: "Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.",
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEHr_3gJJRjX7IfJvOwZZhZ6CESQr0eWM29t2w_OCOWfj3L-t42S6298KjlmfRAQ0NESWTlZoY5N8Lh1k-dkWcV9xPsJlW5zw4MyhSMU1r76vYbjpOrUeIDYjdy2vQH7UAhS3-GYgmFrmAv2FKX8dPXLhwkBJbq4MLt8rKvyGDdRLNr9_61uQ6TUSCcx4D0fullVWQ04mmFfUojAAYt0xUR5dFz-8NiSVGL0q7bluA6WCJVgTk77ZmsMy-nIbbZFCQtMGsu3GbRwaPvhqfgFZ7hDnuBdQQRrEsa-yiT3m77rrg",
-    gallery: ["AU_ZVEFTNPJcynuzzaxW15eyyuytCg_c10jKA7XuTuXixRO-Ocum-hEOKxXK2W-0dvm2c4rZmUHVIUUjZUgnp_RCveu0vZuf0LQcsdJGzF_SjzJOO4vnMmYm1qz-s75oTbClQScKtE-ciRtTMizMuXrI991-8xls9ddQqIQTn4D8JNc7032z_fi27Z4OR07_juU-HxpPy_mUgzsyJYbzvCpaUmdSpcSI9oz5g0IBs7UjPjEuhSOcnzHXZ8KQmAb0fZYgUHm5jy_r6QiesE-ASfbNcZIokwFOyFK21IqXG2s-JfKzqAOa3MDas0FFCTAebCesJ_4ewsM_SZV6XSCrPKHcKbWHIKVNQhz9pIEZcLiDJS29vxoHVS2O18bLPwNCuVZ9aK_szT2f-qalWL5j9iG1OF37MfoyyG3oL6M5OBWw2lViTTaw","AU_ZVEHFsX88vsAxOvcUqLVxLj-v3HJyvt7yh12Nj_kj3uNDPqJV1qanJxtz76byFMUqmAlfZDTz7TGhjznoHPNh6jjZ_E873vFccObXjh6GZXAwyoU-KsmtrsTEJu-bZCiXOhlCtU0rwuuotYNw_Zl_qw_gNL-90vGMa0nHVdQEmOu273JsYPnaqMHrcBGTs3eXbd447rEWyJTdcc41IfWyj6aPsVKXdqYo5yzs0LRoOqW6zvxhX4Iip6fvgCFUG4RAv2nj4gWnO1VbRh2YatXjLl8b0HvENnJc2_3IDMJaUxTRVjZdcWw6yUGwpDHyIx4SJn77mo246Dcpw9es82FHoXaFNWKQHso_RYOWDHHHOiphpjEwyAdpq9iX0oZza3iuvs1lmRnTTLUaSaauwTT7QHCowndSNBb4A_mYEsuOJ0Ra4w"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-avant-poste-nouvellement-les-resistants-la-table/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_avant_poste_nouvellement_les_resistants_la_table;

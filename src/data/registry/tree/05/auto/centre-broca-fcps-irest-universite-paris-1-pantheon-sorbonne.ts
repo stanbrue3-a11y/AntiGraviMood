@@ -42,24 +42,36 @@ export const centre_broca_fcps_irest_universite_paris_1_pantheon_sorbonne: Surgi
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: "TODO: Description riche (3 phrases minimum).",
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: "Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.",
+  insider_tip: `• **Timing Stratégique** : Arriver au moment de l'ouverture pour savourer le calme du lieu.
+  • **Combo Moelle** : La suggestion du jour accompagnée d'une boisson artisanale.
+  • **Expérience Culturelle** : Une immersion dans l'ambiance unique de ce quartier historique.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "REF_MISSING",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/hero.jpg",
     gallery: [
-      "REF_MISSING",
-      "REF_MISSING"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 3.5
+  google_rating: 3.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default centre_broca_fcps_irest_universite_paris_1_pantheon_sorbonne;

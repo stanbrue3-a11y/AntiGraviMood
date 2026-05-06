@@ -107,16 +107,31 @@ export const chez_gladines_butte_aux_cailles: SurgicalPlace = {
   description: "Chez Gladines est l’institution indétrônable de la Butte-aux-Cailles, célèbre pour ses salades servies dans des saladiers géants et son ambiance survoltée de tablée basque. Ici, la convivialité prime sur le calme, les nappes à carreaux voient défiler des portions gargantuesques d’axoa ou d’escalope montagnarde. C’est l’adresse idéale pour un festin entre amis où l'on finit inévitablement par discuter avec ses voisins de table, un pichet de rouge à la main.",
   insider_tip: "• **Le Défi Salade** : La ’5 Diamants’ est un défi physique. Ne prévoyez rien d’intense après ce repas.\n• **No Resa** : Préparez-vous à attendre sur le trottoir le week-end, l’ambiance commence déjà là.\n• **Le Must-Eat** : L’escalope montagnarde avec son fromage fondu et son jambon est un monument local.",
   specials: {
-    cuisine: ["Sud-Ouest", "Basque"],
+    cuisine: ["Français"],
     drinks: ["Vin en pichet", "Cidre", "Patxaran"],
     must_eat: "Cuisine Basque. Salade 5 Diamants & Escalope Montagnarde",
   },
-  images: {
-    hero: "AU_ZVEETAyxUiKfouTmfZigJDKni4dUBmQum9OHxT44YyXn5qxxZ73g1WDU_ngwIHfjutbMjQw5a8v1fro_GVvD9fjBG2bvtkQdK7sdO2fKYcVoZL9JbVsKqOHUkWzirXwp0crNKg4SVObFJkDJgoaKs1N4qZ4_oSHbKkN6jE2uaA_hesBXSlmEdVzQ7zHvtAnP9dtRKx-nArFLNw0L9m0ylFHzXdWtE-kdT4ZrhZD_ryCVeIeQ8E6kD2NnyRXI76SY8SogJqccGYnHtjH9dSM8jsizeoNsmu-JvWFk1Q7VRQCSqPg",
-    gallery: ["AU_ZVEHqOfucgC5QG3BOI4tZ836Cv49Ads8pLRJWVU4zVIzBrf2hH3GSZqgGa0jrCMvth_hROzQmZiA4HJJDTp76n1BRM5L4EiMtn687fAx_p6S73QHeQmAx4iPsJsYRAeUjR_1SRHvOGgKR07g_XzDd_B3z4-SUhtDedADpds8v5XW3Xc4muJycNAWcoeF3dYXgLUKcc5Rk5ris0cRaj4TSG7TrohWyx361NUxSVyDZqaKyV9Bn9XdF2I6qf8m1uJb3oKP4YVQVoDrZoQO-nM-nIAHVawn19ECO3FNKQp5pd4uTEg","AU_ZVEEWDAWNb2hc2nG_M4yvz144xVsnvVP-O2PK5bdDhr0JMQJTQZdDlfEIbycX5kUJl3lXtC7px2H7KNC8yOzqldmVPD2r4sgBN0msNINIxFQd-HyI3XI4_q6D1M7RUTnxvHkBRhemhAjxnX5ayIwyycI_yXxSdRwkjxO-C6WokQBRWulK7DJebJmjgPWZ_TVuIRI6Y6mlJN6dAxOFhy0LOaeijEQ1ZqIruzpFd_EBioqXCbw36z_xD-XlCI8kz_sCE4Bo3vc_yB_PlLohoxP4GPqayO2daPOUGzbe0ZO3vpyI7YlfJiwznS36wGwirCDCJYa1AHrtQtrW17clJEyX5UZl2JoBmmUAfPRugW4Z2ci525AvnIv20_sJQAoGtyjqkY27sNMMjWQ3JeDwCrMLyZ248mntiaLXwj7x9wnIX2_tXaC5MCAJO8HVjUcMwFud"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-gladines-butte-aux-cailles/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Basque. Salade 5 Diamants & Escalope Montagnarde",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default chez_gladines_butte_aux_cailles;

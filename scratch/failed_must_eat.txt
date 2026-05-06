@@ -1,0 +1,17 @@
+src/data/registry/tree/03/auto/restaurant-l-oyat.ts
+src/data/registry/tree/04/auto/le-bistrot-de-la-place.ts
+src/data/registry/tree/05/auto/centre-broca-fcps-irest-universite-paris-1-pantheon-sorbonne.ts
+src/data/registry/tree/18/auto/rue-forest.ts
+src/data/registry/tree/16/auto/bambini-paris.ts
+src/data/registry/tree/17/auto/pont-cardinet.ts
+src/data/registry/tree/17/auto/mano-a-mano-pizza-restaurant.ts
+src/data/registry/tree/17/auto/le-bonheur-de-cardinet.ts
+src/data/registry/tree/10/auto/l-avant-poste-nouvellement-les-resistants-la-table.ts
+src/data/registry/tree/09/proximite/la-mano.ts
+src/data/registry/tree/01/auto/palais-de-justice-de-paris.ts
+src/data/registry/tree/15/auto/petit-pan.ts
+src/data/registry/tree/15/auto/le-volant-basque.ts
+src/data/registry/tree/15/auto/stephane-martin.ts
+src/data/registry/tree/15/auto/la-veraison.ts
+src/data/registry/tree/14/auto/mr-chow-cuisine-chinoise.ts
+src/data/registry/tree/14/auto/restaurant-a-mi-chemin-paris-14-eme.ts

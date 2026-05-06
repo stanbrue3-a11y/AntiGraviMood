@@ -5,7 +5,7 @@ export const auberge_de_la_butte: SurgicalPlace = {
   slug: "auberge-de-la-butte",
   name: "Auberge de la Butte",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['italien'],
   location: {
     address: "8 Rue de la Butte aux Cailles, 75013 Paris, France",
     arrondissement: 13,
@@ -103,16 +103,31 @@ export const auberge_de_la_butte: SurgicalPlace = {
   • **Terrasse Royale** : Sa position à l’angle de la rue de la Butte-aux-Cailles offre l’un des meilleurs points d’observation pour humer l'ambiance du quartier.
   • **Fermeture Tardive** : Rare pour un restaurant de ce type dans le quartier, l’Auberge sert tard tous les jours, idéal pour les dîners improvisés.`,
   specials: {
-    cuisine: ["Française", "Pizza", "Bistrot"],
+    cuisine: ["Italien"],
     drinks: ["Vin au verre", "Bière pression"],
-    must_eat: "Cuisine Bistrot. Bœuf Bourguignon & Cuisses de Grenouilles",
+    must_eat: "Cuisine italienne. Bœuf Bourguignon & Cuisses de Grenouilles",
   },
-  images: {
-    hero: "AU_ZVEHhUrrI7QErr9oC-8k_htjOtX22vlrd5tqFeJLnMf_M-I39nY-pdovlHvWZZDO3UMdBShYW8eCUW3Ic-P2zcDw3d4o34erw8kSeDyrd56SkD7xVXGD0rPsV_1UWG7KBbwbb3BgpeWzwjmCyK3cZYxb4XkGVBRA0lFCGwxpq_ol-LuuYdRCBtitdH4PUxUilbuJMhPC5jWXIDquskiF-oaaDENwTKqxq-cjkojZsksbFFL8i5UZuVqtbOomuMpoCD-WlZ6PxRD__8DwJCu_wvXqxkuG7DxCGlaZWqMfK8cTGXg",
-    gallery: ["AU_ZVEFwdtZZpuXRocYJercMNm430MbGjqHWqUsI7aoEoIQ2m1EMu3WrO31Tg6Yf3hLBO1gFzaf156A5OJQD3-q0Lb2M2uXcOyI0UNm6nxtFiYLUIeW_Q7d4U1bovg8fQIftASOhvmJWskkLg53uzV6RVEXecKWS7JTqF-SgeDYICzn3uVTyqgw5KicUICsndukA3Zg0DLmR4EGlFDnqMpS6BW4EbQuLHSlklCwl4DJ4fBe9jcx-tHe6xfqA6UE64NlVQUfdxW21U4ZFa0egEL0-mP5VrSPB3LTUSMgroBleRByMYVC-ZPffkIITC6IbAM2DtvnQTqGzfxJ6ZcUbPT63DL0xPfi7PSim6uaMGz2U4vdsm29yX8IxVQ042te57SntzMGAgahbORLfowytCFYNGdlTpGsFuutYBnZTmkRfcRRgq2Yf","AU_ZVEEgscRq5Vc3sICPHb0jQEOZRm-h_7JwAejbz1KSNPdyVf1yJZfcW6ga_-PTtfl3A4aqwZXO8Bh3_jH4RJDnZtV4FQNehOv7N31USs_w02vLLVDJ76CYn60DegOu2Wa8b40BjrioTGyii3-69ne44LoY4I_F3ZjKmHAd6loo7OMGZNIhJgYb6y50u4bUEkPK0kG1dkhni4J_bT3OziyqN17X02RR4IQov8XMaBQ45TRYT5FWJ6iQH3-d-LWZXSeFEhN2d-bhcRm6g2PYXvrWXUDBC1kbeCibAWUP52yrAzE4830BToNwsM7WAWbUaR8TtasNbOOFtFw4_t92FA9w0vXlU1KU7z_cb-cQd5hk57AuQJezJORPOL-IY12KGmicXzTnYS3ipGOTPzLHaunFjL0aqmOZfeo5sY9k8JYN72E"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-de-la-butte/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.1
+  google_rating: 4.1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Bœuf Bourguignon & Cuisses de Grenouilles",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default auberge_de_la_butte;

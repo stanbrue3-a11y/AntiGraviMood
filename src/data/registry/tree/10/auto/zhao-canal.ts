@@ -5,7 +5,7 @@ export const zhao_canal: SurgicalPlace = {
   slug: "la-taverne-de-zhao-canal",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "49 Rue des Vinaigriers, 75010 Paris, France",
     arrondissement: 10,
@@ -85,18 +85,30 @@ export const zhao_canal: SurgicalPlace = {
   description: "C’est ici que tout a commencé en 2011. La Taverne de Zhao Canal Saint-Martin est le berceau parisien des nouilles Biang Biang. Avec ses tables en bois et son ambiance factory ultra-chill, c’est l’adresse parfaite pour une pause authentique loin de l'agitation du boulevard.",
   insider_tip: "• Arrivée conseillée avant 19h30 pour éviter l’attente car la salle est petite et très prisée des habitués du Canal.\n• Demandez le Mo au porc en entrée, c'est le mariage parfait avec les nouilles pimentées.\n• Les nouilles Biang Biang sont tirées à la main devant vous : un spectacle qui garantit une fraîcheur absolue.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
-  images: {
-    hero: "AU_ZVEGao1y5UM45HVLhjRuDMBRKCixoI3cfn6YEDfx6t0DNKepHMZwskvMtDT3x3Xwc-kab_eo2qzGOVMntJJh2-2b0aat6fj-LTXXd4zmBmayKC2HX7JrUM9bEAgW51Ja56OsYRu2IV-9PWIDGBUPvBHZDjBsraBsUszWRnSumXer827G3oi9FT2wReyuhos8dNHXVKm3VE6vKkdDnCBI0s27R-0IxxiNkG49gpPfmqkbtBg4EojHBRsJgrOZTWN8UCMkzrowmBCvBkzRjg30GD49yKeUyDqSBrVu1YpO4xpc7ww",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/hero.jpg",
     gallery: [
-      "AU_ZVEEDquQ7jS7RpSITcXEMwTIfwbzW7rDvSUixzs4HyPtZzQL4sXjAio7346q9_Qatoj3CzjlYh88T7R67zAk_lYwBN394kD8mYit6exDmNlAi0e_WMMfesMnq9YwhbA6Tn0aSfCHSB2zcM6MiO_2vYGQnnvUhPD4xlNZhdq2ShIpcZykmN_Z0jGOv7COWYIx19j7nGUH6x1JrOZsj8i_tTipsJUnWjEJ-EEyrPkEp-X926dbqRtYCASIOIMp69UsM6xvsFM2XBJcQchFIFCyPkQvw28V8P-kGK-47sp8zmiGiYQ",
-      "AU_ZVEFm2qbNG54JIya7ZfsdeR1LC1RJT6gi1qe73JHF8mIuxvsDVyQZzXmlThijRrU5oTYREb2o_G-x1BCQxAeMiU2c9cJgDk-AXPf_pGs9TIWEuz-g7J2cYRFhoQNlFK34BQKzJpojoki5rSldHXh5ITF-xLxAiq13estx0RFlsi1dMTkY4JRw_zVXxLb3yh6R_xHxI0tpEru1RShYnD2TMFzQcyeOeattjrKiuSAcj4pKYeQr_-wQ_YQhUwjG9A2FoozC7Dp0YFsN9Xcg1by89PTyyQSJaYbtsHYEZVrfv8hgDQg9R3dEN0Xh96ezuFDkmQVOga8_OqhCd_A0x8tYDY_Y3Wysat2JJ3zyCQKi6FjJJp057hEeI-muWWn5H5qgEZhXj_Ew-cBlSOg1x82Oo8-kkQZ-0gD540SErlkJmJNjfChC-8QLbBXw6mk-DaVo"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-canal/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_canal;

@@ -5,7 +5,7 @@ export const popine_sacre_coeur: SurgicalPlace = {
   slug: "popine-sacre-coeur",
   name: "Popine Sacré Coeur",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ["pizzas"],
   location: {
     address: "10 Rue Dancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -75,19 +75,34 @@ export const popine_sacre_coeur: SurgicalPlace = {
       ]}
     ]
   },
-  description: "Popine apporte l’excellence de la pizza napolitaine au cœur de Montmartre. Dans un décor moderne et chaleureux, les pizzas à la pâte légère et aux ingrédients sourcés directement en Italie sortent d'un impressionnant four à bois. Une valeur sûre pour les amateurs de margherita authentique.",
-  insider_tip: "• **Timing Stratégique** : Arrivez à 19h pétantes ou réservez via leur site, car les tables du bas sont prisées et l’attente est fréquente rue Dancourt.\n• **Combo Moelle** : Commencez par un Piattino de Ricotta Fraîche avant d’attaquer la Mortadella e Pistacchio, leur grand classique.\n• **Détail Secret** : La salle dispose d’une mezzanine plus calme, parfaite si vous voulez discuter sans le bruit du comptoir.",
+  description: "Popine apporte l'excellence de la pizza napolitaine au cœur de Montmartre. Dans un décor moderne et chaleureux, les pizzas à la pâte légère et aux ingrédients sourcés directement en Italie sortent d'un impressionnant four à bois. Une valeur sûre pour les amateurs de margherita authentique.",
+  insider_tip: "• **Timing Stratégique** : Arrivez à 19h pétantes ou réservez via leur site, car les tables du bas sont prisées et l'attente est fréquente rue Dancourt.\n• **Combo Moelle** : Commencez par un Piattino de Ricotta Fraîche avant d'attaquer la Mortadella e Pistacchio, leur grand classique.\n• **Détail Secret** : La salle dispose d'une mezzanine plus calme, parfaite si vous voulez discuter sans le bruit du comptoir.",
   specials: {
-    cuisine: ["Italienne", "Pizza", "Napolitaine"],
+    cuisine: ["Pizzas"],
     drinks: ["Vins Italiens", "Spritz", "Peroni"],
-    must_eat: "L’art de la pizza napolitaine. Mortadella e Pistacchio & Margherita Extra",
+    must_eat: "Cuisine française. L’art de la pizza napolitaine. Mortadella e Pistacchio & Margherita Extra",
   },
-  images: {
-    hero: "AU_ZVEFGSuElRtGT7ZTQE7u6-G2ynwWKkqAewqOb6AA19ZsnclloGk-zpULUA90INK77pd6OaOBDRY68_6n4JWBPsojep4IU3dgczJ99oF8Okhm9s3ELr6Dpeqvy5evKgOdEECbwRZSqV4Jy_2edH3zZpEQsHIwS8IwdpvrGvbLhaKHuP5saPOObNHRxGpOzLtPF1p7WyBjke8MqVBgvplkEj3M6MI-Ts0nj4OvYOet5AjqwctTm1_gnvqu76nCLimE4dSjNXEWD25jbosp_5qul2zPhJcKUotY_CWaJrJZ7jn96Tg",
-    gallery: ["AU_ZVEFQsjQ6NYxSSel2Vwimhgc1NCwYuptyS1vhTxi-G_1czizDPAK_9qSKTODs7oW1gpyN367hvkHQ6IY9Sh7c8fIOI8gumuPlhwMxzy_iVXhdQ-s0aEy-4fN6PsNuzMsANFjcjrEotINp0THRg2wZsLrvultCpSg_wWWdOWvEHbRIkyu9nexXu4E3T0Jl7OvEZ1xJE3uyRiIuXf5JJg2AK_ML4hyHMNES8LfxVU8ie-S_R01gTSA-PROB5SH9KwXPD9InUWpLxnAtvNB7pNcOD-K63zrLfX7d4HuJ8V54GNZarw","AU_ZVEH_NMa_rniFDRQjlWLrQuecN7vtDInvA7xrB4Jr0LPiyDgSgTi3hZoNHA2MyVs4xfni3de4cWgJ4-0lu3kGm1keX7N-R4le8F7AhiA0jIZtBI21u-1pdo7zrNydr4BrEQt6x6mqjWPS_tWa52E_GN_rmRDowM7a_0JZVWjC0VLnxmKX1XP1Inde0ilNg2sJc0TWqc_8T049UMisUgiKj-UigORfE9zyq0WyE03djTrZEq4gw0ZRg64qk0Yc-VmmJGXoE5qZoYIQ6aTmx7qIzvdZT3Ch4LlFlUnooWx9qpAzcIMhM9WuFsiM1-AoG74mFA7xkrOoMOroyZqIX3nvUxyJT4l4_VKHwTHwoamA_egqK_GUOOL-x_HzKLoNTBDWnv0ihcP8G-fwGtM84cGYZXtXfhK0gEMpb_JCIIxzWtOHYTtJ0f-0kOoc-unbgr28"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/popine-sacre-coeur/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default popine_sacre_coeur;

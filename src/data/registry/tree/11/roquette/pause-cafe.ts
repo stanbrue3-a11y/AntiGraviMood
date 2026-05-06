@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const pauseCafe: SurgicalPlace = {
+export const pause_cafe: SurgicalPlace = {
     id: "poi-pause-cafe",
     name: "Le Pause Café",
     slug: "pause-cafe",
@@ -110,16 +110,29 @@ export const pauseCafe: SurgicalPlace = {
     expert_catchline: "L’institution de la rue de Charonne : la terrasse mythique des rendez-vous de Bastille.",
     insider_tip: "• La terrasse est chauffée l’hiver, ce qui en fait le spot de repli parfait pour observer le passage rue de Charonne.\n• Le tartare est l’un des plus réguliers du quartier, servi comme il se doit avec des frites maison.\n• C’est l’un des rares endroits du coin à garder un esprit ’brasserie de village’ malgré la hype environnante.\n• Idéal pour un café-journal le matin avant que la foule n’arrive.",
     specials: {
-        cuisine: ["Bistro Français", "Tartare", "Burgers"],
+        cuisine: ["Français"],
         drinks: ["Pression Blonde Pause", "Aperol Spritz", "Café Allongé"],
-        must_eat: "Le tartare au couteau et les frites maison."
+        must_eat: "Cuisine française. Le tartare au couteau et les frites maison."
     },
-    images: {
-        hero: "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pause-cafe/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.1
+    google_rating: 4.1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le tartare au couteau et les frites maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

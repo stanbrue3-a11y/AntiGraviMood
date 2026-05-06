@@ -96,16 +96,19 @@ export const zostera: SurgicalPlace = {
   expert_catchline: "L’océan sauvage et poétique s'invite à la table étoilée de Julien Dumas.",
   insider_tip: "Demandez au sommelier l’accord sans alcool ’Rivage’, les infusions d’herbes sauvages du chef sont révolutionnaires. L’ormeau est un passage obligé si vous êtes en quête de sensations iodées inédites.",
   specials: {
-    cuisine: ["Gastronomique Marine", "Océanique"],
+    cuisine: ["Français"],
     drinks: ["Vins Blancs Minéraux", "Infusions Marines"],
     must_eat: "Cuisine Marine. L’Ormeau Sauvage & Pomme d'Antan confite au Miel de mer.",
     must_drink: "Infusion Sauvage du Chef"
   },
-  images: {
-    hero: "AU_ZVEEKPsvub9MYLhyaSr4te8-boS0MVr08U4Lyk9nDFc-7gTCqpweudeaziYvh-NZG1_kqmnuk5-4HvKvyt_V6pR5F1RDNFIvwHNMZ78Zx7yDQzPi_5MEE7hvfi__ue9JCSxZMKmO3-n9P0alO5k7bgF8JQrXKGkTZT4_h3B05I3tAqa8yDDwXKQ8_4ESxej_dNhFaLVlykRcqy2saXGMLdpL52e0V03cF53xfHqwYR7izAI0R8Pinx15kXBz4UMi8ueylkGOmBcx8Yn9BA_NgZpLE-ecfJoZ6HtWL0gp6LJvqgcY4r_av2LqzbPS4R9CSiHxG2M9rC-gqum-IyY3UufNxbr3lv7JmfFzenbu8qrfok2O7HmSmzm-8NdPdeYT5zRIeyKQmgGTqpnC-YlETloIWMzgj-ePBkG7afXW3SpN0LzwkkpdkRyRE5qNDnQ",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/hero.jpg",
     gallery: [
-      "AU_ZVEFavdi9QTQpTPYEVW7kw5YeN9BHmOkeDT-lSLFLmX7dTnVhD7ov91SgRhS9o1Yk1cK7-I7OlNXZ7v4LKF_q5mwjaMHRs5fvYB4l1_BQnHCK7FcgCGZXfSsxxD7ZU49WeTHXlmMb9zaUOfshi27AX1JIjXff-mpyaWLY81JS2FqRtO1gMdbz4fcWF7xaMJxTBkHFkp6LCaS9djg4KqFy0QUWnFM2rr-_8BJan2mDDl2W1zV3bd-qR6aFsK7n30xKeelXDMCpCFukuA6vK6N0-eXpmCRuPpn_lWAeyAQ0v1AYzA",
-      "AU_ZVEENQMulau6anM3GLaPdYlq-ZURgxaoZexbs1g8FjzElqhjGVS9_TnMBa6yowKn70i5V3iuKBMnBlq0trs7c7FAkctDF6UkUkCdUmbjngfISFfWriDIMQM-nRp704L_6nMSpQ8xLxV6BsPBWB7y4YnTU3_NaqbVwv0YC8elDNpAP5JQAvvAXXLYbv5kQWrDU_F9aktqHgdXDr0cSmVV13IMG6-b2gczjg1M7bp1_sdXcYmp0UnPK66fUzseW7p-BzINXaPiySMLWACN72LpH4jx_nkG2l3u75TR-II1Udrmsr8nkDFSA23eMFpFdDFNJLrtVJcZ8WSlxXYiRV2DFDM04b5dG_BXU9zLegcgFVk5QiClpKpvCJ2sYpIGfPvnUOu2G91fpkgeq2xsIYx0PREIwFDDOrtB6wW3nVJIOgrLZTluQF0mAQcpo9bGvBqAA"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/zostera/gallery_4.jpg"
     ]
   },
   verified: true,

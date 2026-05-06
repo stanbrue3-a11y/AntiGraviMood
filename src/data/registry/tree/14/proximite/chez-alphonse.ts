@@ -28,8 +28,7 @@ export const chez_alphonse: SurgicalPlace = {
             "label": "RÉSERVER SUR THEFORK"
         },
         "menu_url": "https://www.chez-alphonse.fr/",
-        "cuisine_type": "Bistronomie Française"
-    },
+        },
     "pricing": {
         "avg_budget": 31,
         "is_free": false,
@@ -83,14 +82,25 @@ export const chez_alphonse: SurgicalPlace = {
         "must_eat": "Le Confit de Canard fondant & le Cheesecake Pistache.",
         "expert_catchline": "Bistronomie franche, sourcing pointu et générosité au cœur du 14e."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJFdGeqnhI_1adHrFvY1piUpZCYyDssFiA3XhMKGXs83Inn6LO8qH-xyK7M8oC9exVpraTdcJyFwQGlAiqHLA7tafH0Vx0oJHfrjOi-zs1O8jIAeYLpf5SYTO5YL68dbLebON9iSYoHvKEqBLo4uBCWjqOpqGRodFz2iRSpnvzt5V7JLNAD-AOXdkUuswsl-XTBK7zx56SzxAmL1wPX31YGveGuKluw2jZUtg3Se8sQ83fn1_QcEMuZ2Kb5zw5_wqUDN0T3Qu0W4xL4_728H1wzOlePJxCCT_MF_2X92cZ0g&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUkMM66pp3x2xVJinEfrXhSaVaC0eozeH6312zxjQbrpsnNNT6tNkbfhTxPo4_r3gdwdXELTSgtoZqzv6UjXlNfQtzgWLrQqRSLoDmCWGZrpM8MFnlP4MK6LpU1g2HFYVLJvBsSaGmnq6o0DfMqH4BvH2Ps6myixwU3ieMHiNA-z9VHeewAGX8gTL0bo33OPAwuudwOzVxFi3QYTiG4FpyVlmJcmXZsye5f8QbVrL4qqPbecHAkp8UvzDKSrYgIjVf37nIwOfsN262FSJjVVorS-ebLsIauEcIQEcgz5G5tyvqVN4zxqmVhP3QHfZ0m28-pfjBtn_xHb5bcCfWUW9KOqHT4j0dv6jGGkZDQLGlrFsEHkFd2uegRUZIsZ8gw_0u2ZVBsWtX9q6Dlhrto_a8ZrzFpznWeeOe2Ul8NpIXTxgN4kUX4O-UCZ2CA5y43&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVwh_eGVhXzk6NqS7cokmAgt_5jzBDmRgaI9uLLBdwwnqW4NF1S9YbsbXDsLf5Am9gCCbO7_wxRdeyRjV7RZYqh_n9fdFb3H6SDxpJIFRgcAWni1jZlZKjg5MgmMkSPB4vDnx224qv3wprvU-Zb4rr4Mnp6f4s05VxGBxq543JrO40_c23VRpuH4Se8MtKD88HajAAys2WF0DiauzXmb1lwb8HQdHF1PfOE25N3gyQcFzMjXIf0PnEUrlHPmssuSvUk_4OXs4P97bSxUx4dUEhPAE45KhMu5JDcmpJOkoAExA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU_sUoHlcuheY-SRD8AQHrh-guMKkI-FQrOW8SzAXpNwdSOkCnqMq4DZByrhHLWTrrZevP9QitIbvNWUJcU76XRcwUakZee-QLvtx7BSfWKzfKqnCJbWGSZIndHnhacoRIMhXQLCs_WJW8gE8geGbjTW19RG7kFh6zvmE9nmtMtO7ReDnDG3rjMDwT3qUGVKepN4ffpbnA-HNvdBG6tiztCaOnE7y2YPib20ub3qEjQyzX-78Wm4t3rMm_LJgrMiCAeynpjOrPnidwB-C3fqWl6awB8LhDUVGKvZWSBkiQiSg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chez-alphonse-paris-14/gallery_4.jpg"
+    ]
+  },
     "instagram_handle": "restaurantchezalphonse",
-    "source": "expert_human"
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Bistro. Chez Alphonse.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

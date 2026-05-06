@@ -5,7 +5,7 @@ export const le_verre_vole: SurgicalPlace = {
   slug: "le-verre-vole",
   name: "Le Verre Volé",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "67 Rue de Lancry, 75010 Paris, France",
     arrondissement: 10,
@@ -111,19 +111,31 @@ export const le_verre_vole: SurgicalPlace = {
   description: "Le Verre Volé est l’épicentre du vin naturel à Paris depuis l’an 2000. Situé à deux pas du Canal Saint-Martin, ce bistrot mythique combine une cave à vins d’exception (400+ références sans soufre) et une cuisine de marché vibrante. On s’y presse pour sa fameuse saucisse au couteau, son boudin noir maison et son atmosphère survoltée de néo-bistrot parisien. Ici, le produit est roi et le partage est de mise, le tout accompagné par les conseils avisés de sommeliers passionnés qui ont fait l’histoire du mouvement ’nature’.",
   insider_tip: "• **Le Droit de Bouchon** : Achetez une bouteille à la cave adjacente et dégustez-la sur place (7€ de droit de bouchage), c’est le meilleur rapport qualité-prix de la capitale.\n• **La Saucisse au Couteau** : C’est le plat culte, ne repartez pas sans l’avoir goûté, surtout si elle est accompagnée de leur purée légendaire.\n• **Réservation Obligatoire** : Le lieu est petit et toujours complet, réservez bien à l'avance pour espérer avoir une table le soir.",
   specials: {
-    cuisine: ["Cuisine de marché", "Vin naturel (Institution)", "Produits de niche sourcés"],
+    cuisine: ["Bistronomie"],
     drinks: ["Plus de 400 références de vins naturels", "Bières artisanales", "Droit de bouchon avantageux"],
-    must_eat: "Le Boudin Noir Maison (17€) : une recette secrète, fondant à souhait, équilibrant parfaitement le gras et les épices.",
+    must_eat: "Cuisine de bistrot. Le Boudin Noir Maison (17€) : une recette secrète, fondant à souhait, équilibrant parfaitement le gras et les épices.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERv-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLB-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-verre-vole/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Boudin Noir Maison (17€) : une recette secrète, fondant à souhait, équilibrant parfaitement le gras et les épices.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_verre_vole;

@@ -1,5 +1,4 @@
 import { SurgicalPlace } from './type-definition';
-import { arrondissement_0Places } from './tree/00';
 import { arrondissement_1Places } from './tree/01';
 import { arrondissement_2Places } from './tree/02';
 import { arrondissement_3Places } from './tree/03';
@@ -23,7 +22,6 @@ import { arrondissement_20Places } from './tree/20';
 
 // AGGREGATE ALL DATA FROM REGISTRY TREE 🌳
 const allPlaces: SurgicalPlace[] = [
-    ...arrondissement_0Places,
     ...arrondissement_1Places,
     ...arrondissement_2Places,
     ...arrondissement_3Places,

@@ -5,7 +5,7 @@ export const restaurant_le_faham: SurgicalPlace = {
   slug: "restaurant-le-faham",
   name: "Le Faham",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "108 Rue Cardinet, 75017 Paris, France",
     arrondissement: 17,
@@ -90,17 +90,32 @@ export const restaurant_le_faham: SurgicalPlace = {
   • **Ambiance** : C’est lumineux, moderne et chaleureux ; une bouffée d'air marin réunionnais en plein Paris.`,
   expert_catchline: "L’éclat d'une cuisine métisse portée au sommet par Kelly Rangama.",
   specials: {
-    cuisine: ["Fusion / Réunionnaise Gastronomique"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Rhum Arrangé d’Exception", "Cocktails Exotiques"],
-    must_eat: "Cuisine fusion. Les sarcives au miel ou la légine de l’Océan Indien.",
+    must_eat: "Haute gastronomie. Les sarcives au miel ou la légine de l’Océan Indien.",
   },
-  images: {
-    hero: "AU_ZVEEozWhFOgKogw0ycu5aPpCunIZl_DqAk5rSmlQIRM0kQMU5cvKJEC30AHbg5tlpba41A3QFFlhoeeP2vlWm7hRiNAF1m9IKomryGeW9mlg_HeNMHAPy0JqIyci4JF9BifCZywk28UEXrgGU2tPUkc24SZF3o4VRb9M8YnIR3Ocxu02NBuxfRLbLUe-09TKIcaHvyKMmP8xY-Dy0mec2Z9_VeAXQ68FeoIUIYiT2SkX03P68V4E_AKH4y4URCIC8PCv4xIZU7BFNUG4OiJjil7KwWzUs1HLM-7C6Dqnqp_E90Q",
-    gallery: ["AU_ZVEGQiRNpsKixPMT5J3wS6W_6ajuSXZINC7bYfcCBbComQFUWREoKFqH6XoliRZgwlmFs_sPXYTJGqcNGxvCoBV5vOW4lG4VoecTabKtL2pzrkmA3C31M3dBwdUkmoxIS9KQQvkcF9Kzzt54rpxeiEA822b0Fg2aKgdjXZndUrtx8e2rNPIWXRhcLP8iCCWV-4b6Vx0QnCTQJ5BJ8zckG7yXfdPUtKvFgMb3CAoUuaFPY3MN0qg1kfXK_ng0Fk7PacSMGfgtuamBZsk2jF6c4gwIF86J76XhbEQ1NgajeVqHe-g","AU_ZVEH_NIQhO0uPOWvTnMJn7wP3FWX6leK93GLTlPBJiM2Z8iF6L8o0TOYREw-8cUMByASig4ouQ72NzkvEjqcibfeEpypjLs2_GnWKaLFME7vyIMOVIn7RgmFoL_iscGtaGjptq4AJ2K8-PfWP1ZD8s5tV8ohcWR-7rXq2268MOt1nipk27F_eUon3sRDqOMNELUpAX0JD4iOuIKLGqfrBibPp3JAqisuwkpSY-_kBFmnapW1SxUkuCrjWMCsUOKnih7YLJohQMhyXUMWH9UpST19Yy05NbMgta5SECG4orfXwWBXberjYMvQ6drf6O3Jd3xT4dtMMw_yNW7XCy-eE-LS1B7lOMdPWGMTbnDX1sEzAMovwEQr6JgyQiaUNv9PosUIogE_omLSD6MLPlOQZt5di3fotYaw2tHkIETY7sa-L0ie4"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-le-faham/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.6,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Les sarcives au miel ou la légine de l’Océan Indien.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default restaurant_le_faham;

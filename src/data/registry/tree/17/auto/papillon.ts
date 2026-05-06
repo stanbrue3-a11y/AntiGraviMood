@@ -90,16 +90,31 @@ export const papillon: SurgicalPlace = {
   • **Expérience Culturelle** : Christophe Saintagne redéfinit la simplicité luxe ; observez le dressage, c’est une leçon d'esthétisme.`,
   expert_catchline: "La haute couture culinaire sans le superflu.",
   specials: {
-    cuisine: ["Gastronomie pure"],
+    cuisine: ["Français"],
     drinks: ["Grands crus", "Champagnes"],
     must_eat: "Cuisine gastronomique. Le canard sauvage au sang et olives de Lucques.",
   },
-  images: {
-    hero: "AU_ZVEHuB4UbSO9f0Wi0rxTUd0WyfrRYMeVTHsoUFb42IyEJRkjc8H5E0lu_-rc2K7K18FwGTrY7fRvbmrJS8edsxIrvbxEJIFc24RbfcXON9jQHH7p8Yuof8SIK9m9mlDnLNwvMGkUS3Vs7x1SxJvXh8CGNJeIujbEzlJLSS-X21Noz6t11M-VEAVzH6nlyw5yb-ytPuTblISKJ1WtWEOdTzGfAkPwDGbRI5DpYZ9iG1xiK4NB6-A0Ktnag6vpzAsNSCiYH_LPNWzlj1iudWFUpjA3LgJi0rVYpO1I3XB40dtYWZM8DX6iJGNQ5giUOAAOYYbQ714uqQzH2qaZL0QhGFRCjcV0gz4TRSzrW50o-GnS-SHSd7dtdrmvjyim0abyxJOalLgHazckBkvi9vw8pTVLZtBEqd1d78nJA1EYFQ91FMQ",
-    gallery: ["AU_ZVEFoV877grvoSH63TcoKJos4i0GBZNdXv0KfCTWY4ZtslkByqzphH5DX8KAW3PslJwcYK3rjf9W90kJh4GTU1lMp6laCpvZnS-6gEdD0duLVnaH-8960hrxSt03J0XifwQjsJ7AlAfEMm6JawWetq73_LNxdmclKTazMO5uDRzn2yhbWbZlfeJBvPycAE0joumi7Sic2_quqUuqO9vfPU8jEMMFhUH679iZ5beqdA_hKdGYXT00kLhWixRmrMK4zI6G5hQjZElMaI_YnZUR-YfNbZMFURS70-8FMBscJzJY8u-vJvkZX99qZ46mH9TpCfKPvTM3K3ergKTVS-MaDvjq6MZwE_al0DpFOmOjTkfknz-RRTYxKkCS7W_wVGfbkym3yNU9uw7-IYGCwXvA8uZTFU2AVOVZD_ogbpGM_R3Q","AU_ZVEFGKWQLyK2kIZNpVkWNfPCN41n4a-AQPAROH01qoo54D3qH2qwUPmRw1eh0ekJePE3-IZWE1MiUGPZ0VswTCKRv2stIeECFifCfjlhbq4QY16I3Iskk_75hwi4PrnxlYeylF_oSPKgxIyICeFuqAADVl3L2liPuDY3Vy2I3sZvZDtfhcgYvh45dC-uTy4RmKeOnEWQN7SL6vw4g3D-UD8KmVSD5eNcWztu8QIPcvQ6idNT-r3bVjWzpJFvaRTft9Ya-i8ObF3snCWHS_7cAUESAdpM23b0qKHG1Nu3-MZSX_JL1fFPlCWnLOqZ4Q2AWr1X-z8jz_rTKNWw1vuAb26Eolw3b0Pwv9hfvv64S-Eo0vrWvTLH0rnB8G-TFACJICRNw-QSHKtjZpX5Z0vZTnPsySDIemJ5FBhvJTt-cSi1zM1Sj"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papillon/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine gastronomique. Le canard sauvage au sang et olives de Lucques.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default papillon;

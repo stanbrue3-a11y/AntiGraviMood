@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Inconnu",
+    "path": "src/data/registry/tree/05/auto/arrivederci-pizzeria.ts",
+    "currentPrefix": "Cuisine Italienne",
+    "detectedTruth": "Cuisine italienne (Pizzeria)",
+    "originalMustEat": "Cuisine Italienne. Pizza Margherita & Antipasti."
+  },
+  {
+    "name": "Ducky’s",
+    "path": "src/data/registry/tree/06/auto/ducky-s.ts",
+    "currentPrefix": "Street Food",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Street Food. Gua Bao Canard Laqué & Frites de Patate Douce"
+  },
+  {
+    "name": "La Condesa",
+    "path": "src/data/registry/tree/09/auto/condesa.ts",
+    "currentPrefix": "Haute gastronomie",
+    "detectedTruth": "Cuisine mexicaine",
+    "originalMustEat": "Haute gastronomie. L’Agnolotti Maison au bouillon de fève Tonka et Maïs : une fusion magistrale d’influences italiennes et mexicaines."
+  },
+  {
+    "name": "Pink Mamma",
+    "path": "src/data/registry/tree/09/auto/pink-mamma.ts",
+    "currentPrefix": "Cuisine italienne (Trattoria)",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine italienne (Trattoria). La Bistecca alla Fiorentina (58€) : une côte de bœuf d’exception cuite à la flamme, pour les vrais amateurs de viande."
+  },
+  {
+    "name": "Chez Maman",
+    "path": "src/data/registry/tree/10/canal-saint-martin/chez-maman.ts",
+    "currentPrefix": "Street-food",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Street-food. Brasserie traditionnelle. Foncez sur le Dindo Burger ou le classique bœuf bourguignon avec sa purée régressive."
+  },
+  {
+    "name": "A La Renaissance",
+    "path": "src/data/registry/tree/11/auto/a-la-renaissance.ts",
+    "currentPrefix": "Street-food",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Street-food. L’Œuf Mayo ’Renaissance’ (8€) : une onctuosité parfaite, une pointe d’acidité, bref la perfection du genre."
+  },
+  {
+    "name": "Présent",
+    "path": "src/data/registry/tree/11/auto/present.ts",
+    "currentPrefix": "Street-food",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Street-food. Les Smashed Potatoes with mayo miso (9.50€) : croustillantes à l’extérieur, fondantes à l’intérieur, un régal absolu."
+  },
+  {
+    "name": "East Mamma",
+    "path": "src/data/registry/tree/11/bastille/east-mamma.ts",
+    "currentPrefix": "Cuisine française",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine française. La Mammargherita et le Tigramisù."
+  },
+  {
+    "name": "Osteria Ferrara",
+    "path": "src/data/registry/tree/11/faidherbe-chaligny/osteria-ferrara.ts",
+    "currentPrefix": "Cuisine italienne (Trattoria)",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine italienne (Trattoria). La précision est la de mise. Les pâtes sont al dente et baignent dans des justes parfaits, à l’image des Mezzi paccheri aux langoustines crues. Du brutal chic."
+  },
+  {
+    "name": "Kai Izakaya",
+    "path": "src/data/registry/tree/11/goncourt/kai-izakaya.ts",
+    "currentPrefix": "Cuisine japonaise (Izakaya)",
+    "detectedTruth": "Cuisine japonaise",
+    "originalMustEat": "Cuisine japonaise (Izakaya). L’Udon Carbonara."
+  },
+  {
+    "name": "Sama Bistro",
+    "path": "src/data/registry/tree/11/roquette/sama-bistro.ts",
+    "currentPrefix": "Cuisine française",
+    "detectedTruth": "Cuisine libanaise",
+    "originalMustEat": "Cuisine française. Le feuilleté Batata et les brochettes Taouk à la pistache."
+  },
+  {
+    "name": "Restaurant Virtus",
+    "path": "src/data/registry/tree/12/bastille/auto/virtus.ts",
+    "currentPrefix": "Gastronomie",
+    "detectedTruth": "Cuisine argentine",
+    "originalMustEat": "Gastronomie. Saint-Jacques de plongée & Ris de Veau doré"
+  },
+  {
+    "name": "Auberge de la Butte",
+    "path": "src/data/registry/tree/13/auto/auberge-de-la-butte.ts",
+    "currentPrefix": "Cuisine Bistrot",
+    "detectedTruth": "Cuisine italienne (Pizzeria)",
+    "originalMustEat": "Cuisine Bistrot. Bœuf Bourguignon & Cuisses de Grenouilles"
+  },
+  {
+    "name": "Chez Mamane",
+    "path": "src/data/registry/tree/13/auto/chez-mamane.ts",
+    "currentPrefix": "Cuisine Maghrébine",
+    "detectedTruth": "Cuisine marocaine",
+    "originalMustEat": "Cuisine Maghrébine. Couscous Royal & Chorba Maison"
+  },
+  {
+    "name": "Il Était Un Square",
+    "path": "src/data/registry/tree/13/auto/il-etait-un-square-burger-paris.ts",
+    "currentPrefix": "Cuisine Burger",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Cuisine Burger. Le Burger Montagnard & Mayonnaise Maison"
+  },
+  {
+    "name": "Lao Viet",
+    "path": "src/data/registry/tree/13/auto/lao-viet.ts",
+    "currentPrefix": "Cuisine Lao",
+    "detectedTruth": "Cuisine vietnamienne",
+    "originalMustEat": "Cuisine Lao. Nem Lao & Mok Pa"
+  },
+  {
+    "name": "Phở Tài",
+    "path": "src/data/registry/tree/13/auto/pho-tai.ts",
+    "currentPrefix": "Cuisine Vietnamienne",
+    "detectedTruth": "Cuisine vietnamienne",
+    "originalMustEat": "Cuisine Vietnamienne. Phở Spécial & Bánh Cuốn"
+  },
+  {
+    "name": "Restaurant Lao Lane Xang",
+    "path": "src/data/registry/tree/13/auto/restaurant-lao-lane-xang.ts",
+    "currentPrefix": "Cuisine laotienne",
+    "detectedTruth": "Cuisine vietnamienne",
+    "originalMustEat": "Cuisine laotienne. Salade de riz croustillant & Steak Lao"
+  },
+  {
+    "name": "Viet Thai",
+    "path": "src/data/registry/tree/13/auto/viet-thai.ts",
+    "currentPrefix": "Cuisine Thai/Viet",
+    "detectedTruth": "Cuisine vietnamienne",
+    "originalMustEat": "Cuisine Thai/Viet. Plateaux découverte & Pad Thaï"
+  },
+  {
+    "name": "Lancetta",
+    "path": "src/data/registry/tree/13/place-d-italie/lancetta.ts",
+    "currentPrefix": "Cuisine italienne (Trattoria)",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine italienne (Trattoria). L’art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare."
+  },
+  {
+    "name": "I Grappoli",
+    "path": "src/data/registry/tree/14/denfert-rochereau/grappoli.ts",
+    "currentPrefix": "Cuisine italienne (Trattoria)",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine italienne (Trattoria). La pizza Tripletta (homonyme piquant) ou les linguine alla Vongole."
+  },
+  {
+    "name": "Umami Burger",
+    "path": "src/data/registry/tree/14/gaite/umami-burger.ts",
+    "currentPrefix": "Street-food",
+    "detectedTruth": "Burgers",
+    "originalMustEat": "Street-food. L’Umami Burger original et les Manly Fries."
+  },
+  {
+    "name": "Les Grillades de Buenos Aires",
+    "path": "src/data/registry/tree/14/montparnasse/grillades-buenos-aires.ts",
+    "currentPrefix": "Cuisine française",
+    "detectedTruth": "Cuisine argentine",
+    "originalMustEat": "Cuisine française. L’Asado de Tira et les Papas Fritas a la provenzal."
+  },
+  {
+    "name": "Le Saut du Crapaud",
+    "path": "src/data/registry/tree/14/pernety/saut-du-crapaud.ts",
+    "currentPrefix": "Cuisine méditerranéenne",
+    "detectedTruth": "Cuisine mexicaine",
+    "originalMustEat": "Cuisine méditerranéenne. Le ceviche de la Tia et le burger du Crapaud."
+  },
+  {
+    "name": "Oxte",
+    "path": "src/data/registry/tree/17/auto/oxte.ts",
+    "currentPrefix": "Cuisine mexicaine étoilée",
+    "detectedTruth": "Cuisine mexicaine",
+    "originalMustEat": "Cuisine mexicaine étoilée. Le pigeon au mole Oxte ou le ceviche de daurade royale."
+  },
+  {
+    "name": "La Rughetta",
+    "path": "src/data/registry/tree/18/abbesses/la-rughetta.ts",
+    "currentPrefix": "Cuisine italienne classique et très généreuse",
+    "detectedTruth": "Cuisine italienne",
+    "originalMustEat": "Cuisine italienne classique et très généreuse. L’endroit excelle tant par ses authentiques pizzas romaines à pâte fine comme la Diavola ou la 4 Formaggi, que par ses plats de pâtes fraîches copieusement servis comme les Tagliolini maison. Le Tiramisu et la spectaculaire Pizza au Nutella terminent de mettre tout le monde d"
+  }
+]

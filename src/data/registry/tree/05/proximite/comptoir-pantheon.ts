@@ -13,6 +13,7 @@ export const comptoir_pantheon: SurgicalPlace = {
     "location": {
         "address": "5 Rue Soufflot",
         "arrondissement": 5,
+        google_id: "TODO",
         "lat": 48.846511,
         "lng": 2.343913,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const comptoir_pantheon: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1ZC3GjNyqNPQ9lbwatR45mgyg5xsG6nWjR7W-E11ZLioSR2__rGTPTZavpM18Q0FdRKqONieZ4NqoFY3qbVz1iPyM7NeBMabMnyyREn7s6Hcc70C3EgXkTfM7oDCEiBPLGWL1ED8bnQjzRj2u60K6pQec91dTkI-46O85p-4v0rrDWzPglyyKZyzRGuteMnFrDejQqIsvy07Yy353bwSowddGue09tXei_7SHFSGrHcQ3Na9gF0-MIYy0UC6DEV2N9OAzpkDYNzSJuT7iXt8s_I46PVmVd3lz27CWZ-oUiYB9Tx9-09oJ9yYW3X0FCK27Yo8l5KjiTYH8a79VUTE5ZEgn-MWjeX5uRilNjgQg42Kda3ZiA0dOk5WvhiJtvemxiF3HxhT2tsgM8Nyd6UZmk4KFrVITT940iHbcSSywhOw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-pantheon/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cafe-terrasse. Le Comptoir du Panthéon.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

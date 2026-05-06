@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const moulinVert: SurgicalPlace = {
+export const moulin_vert: SurgicalPlace = {
     id: "poi-moulin-vert-75014",
     name: "Auberge du Moulin Vert",
     slug: "auberge-du-moulin-vert-paris-14",
@@ -74,22 +74,35 @@ export const moulinVert: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUT8LMe85RJRwkuC3OE4gT1VSm7n8po8u5nV66XBH8GVaHUJRtY7IuZ2-iQN0_DpD6etyUptotDi5yPHIXZ2HG8X8vLTrGW3vygNWeFcVHootsSKm74yEYMCaRgcaHnoLRUxE6eklGv3E67pDNvvBDGptLcHqlmhFy02Ylsq3InHIJ2iqtkGnJTb7lLH9r1k9qCShXHphP7VG-L3Ld6GOLum53j-sGEldmyvGYN_g1n-nN7jNajRmHTH7CRmpnfX3ui8BC1bBeDaXrTjDtL5ddbdnpdg63zGYzXgs6EAbxlnl0sQRbo334u2aa0ErUCb-8zm95bu5RI8ZX3BY3U9OjLsfmXGFP_Ug4Aoxssd85bAO0NsDAzuKQs2N2pe4PHUUdqAAYoe_od2J6yeNbExAZcC2FovCnUsuFuqEllDNbntNay&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVhlSz45DLi3DqkAaM9OxJnTV-SjZolcfTWOEaWJP0pen0FQEc4nrg4KmTwp2CZJZcVOZoFCzb2-sg32OwiIHul8yESS1OFIKoR_jCJINRrwniiJLhYULUD4nloo96OkShtCULk9fWIjn60u3cJSmw2wIFqr0SnrwZDtfm1KC7DoihY8Fd2xBLGBwGtaHGmqbJygtUN1_80Bj3csbrSjxtHd5dZxzJlAnJY_qdQyItQAXHubZ_vD-4AqT9D2W4aRxaj8rvn9y9po38RhDe7XMjhbK5MU5iTYcn1bgiqPs6uD95aLCxKOZqAjDIa9SkoMn6jqk5XbjYAxAb9Xz2n3kLXuRWsqCXWs2RfvWdrtNyNBcatVUQlyn3qxiMD-32LCCVSSE-8jqtK92QcKwlR4NpRrHY--_GvszVhzF73684dTo_2&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/auberge-du-moulin-vert-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 3.7,
     description: "L’Auberge du Moulin Vert est une institution historique du 14ème arrondissement, offrant un cadre bucolique absolument unique avec son jardin de curé et sa terrasse ombragée. Si le passé de l’établissement fut parfois irrégulier, sa transformation récente en fait à nouveau une destination privilégiée pour ceux qui cherchent l’apaisement en ville. La cuisine, d'inspiration gastronomique classique, privilégie les belles pièces de viande et les poissons nobles, servis dans une verrière lumineuse qui donne sur la verdure.",
     insider_tip: "Demandez impérativement une table dans le jardin si le temps le permet, c’est l'atout maître de la maison. Les ris de veau sont particulièrement soignés, un retour aux sources de la grande cuisine française.",
     expert_catchline: "Un jardin d’Eden gastronomique caché dans le quartier d'Alésia.",
     specials: {
-        cuisine: ["Gastronomique Classique", "Brasserie de Standing"],
+        cuisine: ["Français"],
         drinks: ["Grands Crus classés", "Champagnes de Marque"],
-        must_eat: "Les Ris de Veau aux Morilles et les Poissons Fins de Ligne.",
+        must_eat: "Cuisine française. Les Ris de Veau aux Morilles et les Poissons Fins de Ligne.",
         must_drink: "Un grand vin rouge de Bordeaux."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Les Ris de Veau aux Morilles et les Poissons Fins de Ligne.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

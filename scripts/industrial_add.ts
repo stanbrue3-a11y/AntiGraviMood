@@ -109,8 +109,8 @@ async function main() {
             console.warn('💡 INFO FACTURATION : Cet appel va consommer ~0.017$ (Details).');
         }
 
-        // 2. GET DETAILS (Hours, Website, Photos)
-        const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,formatted_address,geometry,opening_hours,rating,user_ratings_total,website,url,address_components,photos&key=${GOOGLE_KEY}&language=fr`;
+        // 2. GET DETAILS (Hours, Website, Photos, Reviews pour le Cerveau IA)
+        const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,formatted_address,geometry,opening_hours,rating,user_ratings_total,website,url,address_components,photos,reviews,editorial_summary&key=${GOOGLE_KEY}&language=fr`;
         const detailsRes = await axios.get(detailsUrl);
         const details = detailsRes.data.result;
 
@@ -126,6 +126,7 @@ async function main() {
         const lng = details.geometry.location.lng;
         const address = details.formatted_address;
         const rating = details.rating || 0;
+        const reviewsCount = details.user_ratings_total || 0;
         const website = details.website || details.url;
         const hours = details.opening_hours?.weekday_text?.join(' | ') || "Non renseigné";
         
@@ -135,9 +136,11 @@ async function main() {
         const postalCode = details.address_components?.find((c: any) => c.types.includes('postal_code'))?.short_name || '75000';
         const arrondissement = parseInt(postalCode.slice(-2)) || 0;
 
-        const photoRefs = details.photos?.slice(0, 3).map((p: any) => p.photo_reference) || [];
+        const photoRefs = details.photos?.slice(0, 5).map((p: any) => p.photo_reference) || [];
         const hero = photoRefs[0] || 'REF_MISSING';
         const gallery = photoRefs.slice(1);
+        
+        let aiTerrace = false;
 
         const slug = details.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
         
@@ -173,22 +176,96 @@ async function main() {
         const filePath = existingFilePath || path.join(targetDir, `${slug}.ts`);
 
         // 4. SMART MERGE LOGIC (Moelle V11.3)
-        let menuItems = `[
-      {
-        category_type: "main",
-        display_label: "Les Incontournables",
-        items: [
-           { name: "Plat Signature", price_cents: 2400, description: "Description du plat" },
-           // TODO: Saisir 20+ items ici (Satiété garantie)
-        ]
-      }
-    ]`;
+        let menuItems = `[]`;
         let description = "TODO: Description riche (3 phrases minimum).";
+        let catchline = "TODO: Expert catchline. [Punchy !]";
         let tip = "• **Timing Stratégique** : TODO\n  • **Combo Moelle** : TODO\n  • **Expérience Culturelle** : TODO";
         let subcategories = '["restaurant"]';
-        let specials = `{\n    cuisine: ["Française"], // TODO\n    drinks: [],\n    must_eat: "Cuisine [Type]. TODO",\n  }`;
+        let specials = `{\n    cuisine: ["Française"],\n    drinks: [],\n    must_eat: "Cuisine [Type]. TODO",\n  }`;
         let moods = `{\n    chill: 60,\n    festif: 40,\n    culturel: 50\n  }`;
         let verified = "false";
+        let nearest_metro = "TODO";
+        let metro_lines = "[]";
+
+        // --- 🧠 CERVEAU IA (Gemini 2.5 Flash) ---
+        const GEMINI_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
+        if (GEMINI_KEY && details.reviews && existingFilePath === null) {
+            console.log(`🧠 Analyse sémantique des ${details.reviews.length} avis Google en cours par l'IA...`);
+            const reviewsText = details.reviews.map((r: any) => r.text).join(" | ");
+            const prompt = `
+            Lieu : ${candidateName}
+            Avis clients : ${reviewsText}
+
+            Tu es un critique gastronomique pointu (façon Le Fooding) pour l'application exigeante 'MoodMap'.
+            Ta mission est de fournir une description HYPER précise et sourcée sur ce lieu. 
+            NE TE LIMITE PAS aux avis fournis. Utilise ta propre base de connaissances sur ce restaurant parisien pour donner des détails précis (nom du chef, plats signatures réels, histoire du lieu, type de vin, etc.). Si tu ne le connais pas intimement, sois le plus factuel et appétissant possible avec les avis.
+            Si le lieu a une terrasse, précise-le (has_terrace: true).
+            Ton output DOIT être un JSON strict et valide, sans formattage markdown, prêt pour un JSON.parse().
+            
+            Format attendu:
+            {
+                "description": "3 phrases qualitatives décrivant l'expérience et le lieu (sans apostrophes droites, utilise ’).",
+                "expert_catchline": "1 phrase très punchy (on y mange quoi ?). Ex: Le bistrot de quartier indémodable.",
+                "insider_tip": "• [Astuce 1 basée sur les reviews]\\n• [Astuce 2]\\n• [Astuce 3]",
+                "must_eat": "Cuisine [Type]. [Plat mentionné 1] & [Plat mentionné 2]",
+                "has_terrace": true, // Boolean. Mets true UNIQUEMENT si les avis ou le contexte mentionnent explicitement une terrasse ou extérieur.
+                "moods": { "chill": 60, "festif": 20, "culturel": 20 },
+                "subcategories": ["bistronomie"],
+                "real_talk": {
+                    "le_secret": "Une phrase courte sur l'astuce secrète du lieu",
+                    "le_son": "Le type d'ambiance sonore",
+                    "le_must": "Ce qu'il faut absolument prendre"
+                },
+                "nearest_metro": "Nom exact de la station de métro la plus proche",
+                "metro_lines": ["9", "11"] // Tableau de strings avec les numéros/lettres des lignes
+            }
+            La somme des moods doit être environ 100.`;
+
+            try {
+                const aiRes = await axios.post(
+                    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`,
+                    { 
+                        contents: [{ parts: [{ text: prompt }] }],
+                        tools: [{ googleSearch: {} }]
+                    }
+                );
+                let jsonText = aiRes.data.candidates[0].content.parts[0].text;
+                jsonText = jsonText.replace(/\`\`\`json/g, '').replace(/\`\`\`/g, '').trim();
+                const aiData = JSON.parse(jsonText);
+
+                description = (aiData.description || description).replace(/'/g, "’");
+                catchline = (aiData.expert_catchline || catchline).replace(/'/g, "’");
+                tip = (aiData.insider_tip || tip).replace(/'/g, "’");
+                subcategories = JSON.stringify(aiData.subcategories || ["bistronomie"]);
+                if (aiData.must_eat) {
+                   specials = `{\n    cuisine: ${JSON.stringify(aiData.subcategories || ["Française"])},\n    drinks: [],\n    must_eat: "${aiData.must_eat.replace(/'/g, "’")}",\n  }`;
+                }
+                if (aiData.moods) {
+                   moods = JSON.stringify(aiData.moods, null, 2);
+                }
+                if (typeof aiData.has_terrace === 'boolean') {
+                   aiTerrace = aiData.has_terrace;
+                }
+                
+                let realTalkObj = {
+                   text: (aiData.description || description).replace(/'/g, "’"),
+                   must_eat: (aiData.must_eat || "").replace(/'/g, "’"),
+                   le_secret: (aiData.real_talk?.le_secret || "").replace(/'/g, "’"),
+                   le_son: (aiData.real_talk?.le_son || "").replace(/'/g, "’"),
+                   le_must: (aiData.real_talk?.le_must || "").replace(/'/g, "’")
+                };
+                var real_talk_str = JSON.stringify(realTalkObj, null, 4);
+                
+                nearest_metro = aiData.nearest_metro || nearest_metro;
+                metro_lines = JSON.stringify(aiData.metro_lines || []);
+
+                console.log(`✅ Éditorial, Badges et Moods déduits avec succès par l'IA. (Terrasse auto-détectée: ${aiTerrace})`);
+            } catch (e: any) {
+                console.error(`❌ ÉCHEC CRITIQUE IA : ${e.message}`);
+                console.error(`Le mode "TODO" est désactivé par sécurité Standard Moelle 2026.`);
+                process.exit(1);
+            }
+        }
 
         if (existingFilePath && !isForced) {
             console.log(`⚠️  Fichier existant détecté : ${existingFilePath}`);
@@ -233,15 +310,15 @@ export const ${exportName}: SurgicalPlace = {
     arrondissement: ${arrondissement},
     lat: ${lat},
     lng: ${lng},
-    nearest_metro: "TODO",
-    metro_lines: [],
+    nearest_metro: "${nearest_metro}",
+    metro_lines: ${metro_lines},
     google_id: "${placeId}"
   },
   moods: ${moods.endsWith(',') ? moods.slice(0, -1) : moods},
   practical: {
     opening_hours_raw: "${hours}",
     reservation_policy: "${reservationPolicy}",
-    terrace: true,
+    terrace: ${aiTerrace},
     ferme_tard: ${isLate},
     accessibility: true,
     main_action: {
@@ -259,14 +336,17 @@ export const ${exportName}: SurgicalPlace = {
     menu_items: ${menuItems}
   },
   description: \`${description}\`,
+  expert_catchline: \`${catchline}\`,
   insider_tip: \`${tip}\`,
   specials: ${specials.endsWith(',') ? specials.slice(0, -1) : specials},
+  real_talk: ${typeof real_talk_str !== 'undefined' ? real_talk_str : "{}"},
   images: {
     hero: "${hero}",
     gallery: ${JSON.stringify(gallery)}
   },
   verified: ${verified},
-  google_rating: ${rating}
+  google_rating: ${rating},
+  google_reviews_count: ${reviewsCount}
 };
 
 export default ${exportName};

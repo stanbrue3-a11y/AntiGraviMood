@@ -74,22 +74,35 @@ export const severo: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW5cr6495aWTZsTGhuEQjHHnaDiDpFfpHD5_VsOEXOTXwOzuZrYFsBT7_hIAQOe9ApxCBU-lGcbUxV0NO5FEhqbRkDvYepZEOrHJklP-D5vARWm6ce8DBrXSdQpfk1Bl3-Io_elYMcE2vG9_HGJ1yxXuZHOWLDKdKNzC5KGi0ASuzx73FhxH6edQTErje6R_FsyUvzxmrGMqVe9is2HAN3fVTN6rpirr0IWEacTB_bkt9iSOlRPyYZpfJ3yW423StHU_USqS71RiVD3KYiLbCdGt5XiESkdBixqpjJpIfChtQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfViSH7ZoW-J8Kz5hLuezwXt6nlExxZbHtLGN07j3rP0QgvaHlIq8CHlKdNW3sFq5s72DpeH1k3ef_vaDdVmK6QRLTukpjst4LHyi-4PaHYb36R2t12BOHo5jvrx-pZKiGG9JLdHRglAeIwP0OjKFIm1vLRp73_GWjhkwBVpSpUKuqEQSu7duPk4T-M4n97Uvn70Coqdfa3NcW1I1m0FBhDBdNDDVvzX2IJhf2KuWUtRShM6lAqGXvBXlsXL-CDmTujQkbeoHVQzrnJE35H6XrFa89FDmZ1rdOamWSiORulvzw&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-severo-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 3.9,
     description: "Le Severo est le temple sacré de la viande maturée à Paris. Tenue par William Bernet, ancien boucher lui-même, cette institution de la rue des Plantes ne plaisante pas avec le produit. Ici, la nappe à carreaux rouges et les murs encombrés de bouteilles de vin de vignerons annoncent la couleur : c’est un bistrot de puristes. Les viandes, de race limousine ou salers, sont maturées avec une précision chirurgicale et cuites à la perfection. Le service est direct, sincère, et s’accorde parfaitement avec des flacons d’exception souvent issus du monde naturel.",
     insider_tip: "Demandez le tartare, il est préparé par William lui-même et est considéré par beaucoup comme le meilleur de Paris. La carte des vins recèle des pépites naturelles introuvables ailleurs, n’hésitez pas à demander conseil pour un accord puissant avec les viandes maturées.",
     expert_catchline: "Le temple de la viande maturée servie sans artifice.",
     specials: {
-        cuisine: ["Viandes de Race", "Bistrot Carnivore"],
+        cuisine: ["Français"],
         drinks: ["Vins Naturels d’Exception", "Grands Crus de la Vallée du Rhône"],
-        must_eat: "Le Faux-Filet mâturé et les frites à la graisse de boeuf.",
+        must_eat: "Cuisine française. Le Faux-Filet mâturé et les frites à la graisse de boeuf.",
         must_drink: "Un vin rouge puissant sélectionné par William."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Faux-Filet mâturé et les frites à la graisse de boeuf.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

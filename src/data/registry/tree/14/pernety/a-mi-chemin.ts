@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const aMiChemin: SurgicalPlace = {
+export const a_mi_chemin: SurgicalPlace = {
     id: "poi-a-mi-chemin-75014",
     name: "A Mi-Chemin",
     slug: "a-mi-chemin-paris-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['marocain'],
     location: {
         address: "31 Rue Boulard, 75014 Paris, France",
         arrondissement: 14,
@@ -74,22 +74,35 @@ export const aMiChemin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXB5v4Z3DWasbA0TudjIJGX_a_3mlMTzINeQ8_N7QxOBvc3uDZbeMk4kDErhSds3_7Sjb37a0T33-bP5Ju8WQVldQlzdqHYvRYStLKWfM3g_1avE8rOPEIRyxl8-f2X2Ez54vUukW5RBtXHANMXEGCmch7AHS-lMa5dVjufrxEIYXiTPJ-CGyAttfPo5ZMwGNarVarDlBn5ECi-jzrMAFPkTRQqy0dkwUrmfO7bKgFPIUj-Q7oIlWavrT-WnEma7rQZUj1Dq1u9k6Grtm9Uk-Jvv3vQw4PBSY_Fr3HSB_QpuQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXZTNnm-Gb_SQKzY87GeKm2-vgXSXvU30KjOw1ndyZzXJJodUKXh9LiBXWWFh6M_bmE683UbGnbY6lPk9QFVE19L6hB5_tkI7-KTJcGJOSpEyM9E4jkQGCy1gebSGbqFAQ7peanDvx02Wg0NQpICBhrBJeFUzbVi2hFYV1eZaWCAFB8l71uhBOjDByoIVAMMRVpHpvhFf4-AbTyv9CQh_mNTKdkH43ZFRB4JmWLsUGu98vNHlDKl_6cyhtT5o8FcuRDnsiuN7qufqI3uXrKfgPZo0NQZz8f2gOhHJxXbwfO9A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-mi-chemin-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.0,
     description: "A Mi-Chemin est une adresse unique, fruit de la rencontre entre Nordine Labiadh (tunisien) et sa femme Virginie (bretonne). Cette fusion donne naissance à une cuisine métissée d’une poésie absolue, où les épices orientales viennent s’encanailler avec les produits du marché parisien. Le décor est simple, intimiste, et le service d’une douceur extraordinaire. On y vient pour un voyage culinaire singulier où le couscous côtoie des flacons de vins naturels d'exception, créant un pont entre deux rives de la Méditerranée.",
     insider_tip: "Ne manquez pas leur tajine, d’un équilibre parfait entre le sucré et le salé. Nordine est un conteur de saveurs, laissez-le vous guider dans son univers. Les places sont limitées, la réservation est indispensable.",
     expert_catchline: "Le voyage poétique d’une fusion franco-tunisienne d'exception.",
     specials: {
-        cuisine: ["Fusion", "Tunisienne et Française"],
+        cuisine: ["Marocain"],
         drinks: ["Vins Naturels Curatés", "Thé à la Menthe Signature"],
-        must_eat: "Le Tajine de Veau aux Pruneaux.",
+        must_eat: "Cuisine marocaine. Le Tajine de Veau aux Pruneaux.",
         must_drink: "Un vin blanc de Loire en accord surprenant avec le couscous."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine marocaine. Le Tajine de Veau aux Pruneaux.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

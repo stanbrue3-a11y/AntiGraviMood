@@ -5,7 +5,7 @@ export const pink_mamma: SurgicalPlace = {
   slug: "pink-mamma",
   name: "Pink Mamma",
   category: "restaurant",
-  subcategory: ['italien', 'français'],
+  subcategory: ['italien'],
   location: {
     address: "20 Bis Rue de Douai, 75009 Paris, France",
     arrondissement: 9,
@@ -117,19 +117,31 @@ export const pink_mamma: SurgicalPlace = {
   description: "Pink Mamma est la cathédrale transalpine spectaculaire du 9ème arrondissement. Répartie sur quatre étages baignés de lumière, cette trattoria du groupe Big Mamma rend hommage à Florence et à sa célèbre ’Braceria’. On y vient pour la vue imprenable sous la verrière du dernier étage, mais surtout pour ses viandes maturées grillées au feu de bois et ses pâtes à la truffe devenues légendaires. L’ambiance y est électrique, généreuse et résolument festive, complétée par un bar speakeasy caché au sous-sol pour finir la soirée en beauté.",
   insider_tip: "• **La Verrière** : Pour une expérience visuelle optimale, demandez une table au dernier étage sous la verrière lors de votre réservation.\n• **Pâtes à la Truffe** : C’est le ’must’ absolu de la maison, ultra-crémeux et généreux en truffe fraîche.\n• **No Entry** : Ne partez pas sans avoir déniché l’entrée secrète du bar à cocktails au sous-sol, caché derrière les portes d’une chambre froide.",
   specials: {
-    cuisine: ["Cuisine Florentine (Braceria)", "Pâtes fraîches maison", "Pizzas au feu de bois"],
+    cuisine: ["Italien"],
     drinks: ["Cocktails créatifs au bar No Entry", "Vins italiens en direct des vignerons", "Sélection de Spritz"],
-    must_eat: "La Bistecca alla Fiorentina (58€) : une côte de bœuf d’exception cuite à la flamme, pour les vrais amateurs de viande.",
+    must_eat: "Cuisine italienne. La Bistecca alla Fiorentina (58€) : une côte de bœuf d’exception cuite à la flamme, pour les vrais amateurs de viande.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH9z-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEE-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGx-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pink-mamma/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La Bistecca alla Fiorentina (58€) : une côte de bœuf d’exception cuite à la flamme, pour les vrais amateurs de viande.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pink_mamma;

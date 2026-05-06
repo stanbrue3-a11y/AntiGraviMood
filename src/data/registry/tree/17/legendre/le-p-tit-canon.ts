@@ -5,7 +5,7 @@ export const le_p_tit_canon: SurgicalPlace = {
   slug: "le-p-tit-canon",
   name: "Le P’tit Canon",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "36 Rue Legendre, 75017 Paris, France",
     arrondissement: 17,
@@ -88,16 +88,31 @@ export const le_p_tit_canon: SurgicalPlace = {
   description: "Le bistrot de quartier par excellence. Décoration vintage, nappes à carreaux et ambiance chaleureuse.",
   insider_tip: "• **Authentique** : Le décor n’a pas bougé depuis des décennies, c’est ce qui fait son charme.\n• **Produit** : L’andouillette 5A est sourcée chez les meilleurs artisans.\n• **Vin** : La sélection au verre est courte mais très bien sentie, demandez conseil.",
   specials: {
-    cuisine: ["Cuisine de bistrot"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vin"],
     must_eat: "Cuisine de bistrot. L’andouillette 5A ou le cassoulet maison.",
   },
-  images: {
-    hero: "AU_ZVEEI3LDCB349kjSNnSUzmWgqHbnudYl9nO5yV052SGbDrKgHnwu77FX6UFsXNgrZtkBjLlwM-PcI4-SLGQloIHYFEImmAqgb2lN8weR5OpIP626K3yLjxJEYckxqqceN7dqBJM-p-YtHdlvTGulWH2Se4NZ-oUn2smZWWocqFAu1ThlilZJh369pSgyQNmze7vdzgpvhvVvlp7XLUjcuV2GeOUVWlmJpLEAe9VxkRMW1HpyF6a-gRvowr84EbOBrhGJrYW3osA6ZkybOCKSIjK_a-SA4ZLyjfBysoELZujiaOg",
-    gallery: ["AU_ZVEFBA-8ZoLUHdp4lqmmFKrWOE2D3bZIF4XNvIKQXGlamJeq-0BjJCZkgLHGjteDlkzKEzB2N9WGJdcwe_G-aDVVW8uXZcCtQoSHvLR7SIb5iMSYBBYvf7JTdEYKLZ7Gr0VK37_9Ly2MknwSgrnDbd2M9mRhDqQqKGfrptYrydaUUEQ9dIi69IPcMb2n2HOycMrTYdbrjntBNu_FFkC6X7Tx9IHibPN0NWKJw0fkFAqBNDmOjYTp_GLAsJqXkPLMWtyvbQj4zvuAR0FjFcDQ8QK8jAg8ThGjn46cbyOl_RSPH-A","AU_ZVEHwSS71spN0Q4J6XM4RQkj-3c49iA2AlKAvrb8wgb98YzccqifBvWiYpRquACk6QQGjbKk79ntW_r0j6islHtX2EjcuuTIQJMQagrz8i8gh6qHsy9bADrvtDZcuxc9FglTT0rXSxYZ4Tvj-XJPf61UicASYEVfBaRMxdvxXeSc8UFt-5e-08ZsWmHwdy46LbI1Xa9xm-JuUDCuUJz2L_i-zoHWx7WjkDALZwiMyne5aPiMSHnowvjzt_3BnjTDI7v5k7WZwY3o9EgJWgNmMpwy6RlhX1ZUlBfs4DrukMw-wNhhNllZewJPK9y9pPe7MIlKkAl9mtxBVHq5BfAdgiPJWDyCAwGV3hBA0MNGX72AY924ErM2Rdi0J2MAAuhyxGrMLp5NwZ4EPXu33nfPdLW2gCmHVU400NHO_08lvDh9O_w"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-p-tit-canon/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’andouillette 5A ou le cassoulet maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_p_tit_canon;

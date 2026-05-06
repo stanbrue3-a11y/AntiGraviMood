@@ -107,6 +107,7 @@ export interface PlaceRow {
   description: string | null;
   insider_tip: string | null;
   michelin_stars: number | null;
+  has_terrace: number | null;
 }
 
 /**
@@ -133,7 +134,7 @@ export interface PlaceSkeleton {
   pricing: Pricing;
   google_rating?: number;
   google_user_ratings_total?: number;
-  michelin_stars?: number;
+  michelin_stars?: number | null;
 }
 
 // User & Moments

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const septimeLaCave: SurgicalPlace = {
+export const septime_la_cave: SurgicalPlace = {
     id: "poi-septime-la-cave",
     name: "Septime La Cave",
     slug: "septime-la-cave",
@@ -98,16 +98,29 @@ export const septimeLaCave: SurgicalPlace = {
     expert_catchline: "La cave naturelle de Septime : des vins d’exception et des tapas cultes sans réservation.",
     insider_tip: "• Le Foie Gras à l’anguille fumée est un classique indémodable du groupe Septime.\n• Arrivez tôt (18h) pour espérer avoir une petite place au comptoir, car c'est toujours plein.\n• La sélection de vins Orange est souvent incroyable, laissez-vous guider par les cavistes.\n• Vous pouvez acheter vos bouteilles à emporter (-7€ de droit de bouchon).",
     specials: {
-        cuisine: ["Vins Natures", "Anguille Fumée", "Produits d’exception"],
+        cuisine: ["Français"],
         drinks: ["Vins de Macération", "Pet’Nat", "Domaine Gauby"],
-        must_eat: "L’assiette foie gras / anguille et la terrine de porc noir."
+        must_eat: "Cuisine française. L’assiette foie gras / anguille et la terrine de porc noir."
     },
-    images: {
-        hero: "https://septime-lacave.fr/wp-content/uploads/2021/05/Septime-La-Cave-Interieur.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipM_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/septime-la-cave/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.4
+    google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’assiette foie gras / anguille et la terrine de porc noir.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

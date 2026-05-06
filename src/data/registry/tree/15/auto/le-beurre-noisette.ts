@@ -112,16 +112,31 @@ export const le_beurre_noisette: SurgicalPlace = {
 • **Top Rapport Qualité/Prix** : Le menu dégustation en 6 services (68€) est une démonstration de force culinaire à réserver pour les grandes occasions.
 • **La Petite Touche** : Ne manquez pas l’option purée à l’huile de noisette, un clin d’œil au nom du restaurant et un pur délice.`,
   specials: {
-    cuisine: ["Bistronomie de haut vol", "Riz au Lait culte", "Produits de saison"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Vins de vignerons indépendants", "Bières locales", "Spiritueux artisanaux"],
-    must_eat: "Cuisine bistronomique. Le Pâté en Croûte de sarrasin au canard et le Riz au Lait.",
+    must_eat: "Haute gastronomie. Le Pâté en Croûte de sarrasin au canard et le Riz au Lait.",
   },
-  images: {
-    hero: "AU_ZVEHUHO5qa6zXHiR7omecDQnXOJPp8-mbfFwRHU5D7Cyg-gWXi9tRwDBowRjlJss-4wfdI6t5khkW23uYjeTBRG6OLRDX0pPyJUnrML_vpbPROJdZtt_QicxGmmpvUjxoWtyn0g318juW27zZ7AyDiVfk9Eab-Pj_Dj3iqZoV_gU8T2KQ8g-okVNdMArcyVjFWMUTF__RgRIvlik-FWiUZbL1Klei93UTm0lfRTLQGwXtcdsoj0oGtEquqJmbDMWxArXleQ4jhwuBz6Ero_wGp-BofkRx2KXcxra1DQc63T2Ltw",
-    gallery: ["AU_ZVEE_825jDnaUEqAoHedDiXDEEvrc3P6zXsOTNHTUwHbQIdDUq42YP1Hm9Hygt8I8kG542oUJ4F_liLaU_8BUtxRwnj4nhyHXKsJTh06P4WsPxqJhiYRg5nfvgfzQ5hqapk2dskdmL_p5hOUpDp2uqsifxxYeK1elPKQPjaGZl5KjM1uJjOCK8KPTwBdVzswd4L4qZ5oxsrl7mdGBzEVmefcn239m40YoYr6_SrrBBuppNjHMGODo1dHeofNCa1RkD1tP8hs8rDY5j6QIj8CDMMgwYnld8OmELXuRu1VyRbA3sg","AU_ZVEGLKsn3LZA2EvHSiB60fnpfM4PJ2-INZlkbUT3xtFmWOpyvB9KFoTQSIAM62zG_xAu3HKHy0UTB7gPX-vTf7d0fi0egbV8O2CUCI7LcQjOBTYDZ_DKkSQHFqm6h6EUpJG-sTkWpt1D9-pJUTPIOPEV84HhvUN6-2SGwGtaYGLYXgFkKRQvvPhvJd640tDapd2Q4bTL59qvQnDIoDwGgbk-yY2a4WsDTwzPdtHUX2DfhgrzVfqBpmd56KjtFv_qHI7mR8pTgMM-kLtSMg3bJRtOGgJAs1y-Zsh5DyLIYP04YmmJSMvXyDeOTXcpo3nsOXAWG26GwqSN_z2RwQ75G132okAEQM6cT5h-04RpIydV6c54ZffsmWDWLL6dbPlT42IFE6fWEg2_wcFpFWMOG2o5mLXHRGjeUTKAJcYImBTCC_aeeORh5oBtpFtWUmF8n"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-beurre-noisette/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. Le Pâté en Croûte de sarrasin au canard et le Riz au Lait.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_beurre_noisette;

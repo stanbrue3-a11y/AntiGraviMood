@@ -5,7 +5,7 @@ export const ober_mamma: SurgicalPlace = {
     name: "Ober Mamma",
     slug: "ober-mamma",
     category: "restaurant",
-    subcategory: ['italien', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "107 Bd Richard-Lenoir",
         arrondissement: 11,
@@ -110,13 +110,16 @@ export const ober_mamma: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXgqEasX4fTqrYjAVZjt70aiqjbNAv8ICpNaTxgbgsqHFNT6DBHYJ-D03HjFQnqyHnUwTL16aTOeZlBWHKXkDqgxu60MSKMskcQKJJul4e-NQFmU0BD62MFrY_7zTi-0fvIrn8lNabOxPu-FKUpq4AMHWk3DnTTGQK-F0pKmGYXKNjHAEjC3XAF_I5VnuSHvE0ns0al24DEgYgtMhOnoQQv27QCzBN1ocjpIX8jipWRCe-VnfQVp7aMbZmcwzpb1_KyzNBd8ezVEvQil04czPSBRSSq-WCUYvDISNTqdE7HdQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWkrwgcEH7t8n0tmNQ6NGZjUec_CA5Cnv9waM9gdDb7MCsdlG_9wPFOORq-gtCJzsd9eH4ba6iqoAE5Bp610XJHw39Y3dPqJNo6VJM6dsk7Ixnc8WoT34T2bAUty5v0WSGb1pHj3EL4giFbrMzWKoaJ-R1AilPnW3_D5d8WfBl5XuMah6R7szabKjTnNsL384Vl47CAjA2W7LUJS8Mul9MTrC70WTVLaLGoSp-g3TLcL2qUFD8f3um6bQ3GgKgOYU1G70pBr8as-cboIxlMtg-crFjr-pxaBIOa-oxqVixQ2Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX166jrfKCFxpxT_E3_ujvRRaqmpLwk2BQWPBAmxkBZjYcpGoADjVsyf20ovRfkMJ836sJT4lpbRZmhJNAgX1ssarx6tF7W7k3iF_3z64XJ3gtGqcJnU8I3quposcFYK3K0FQB-NhR0ATaDL_hN90FoZ6hPtsZ7Jak4W5GRtGX2sN84RZk5d0fp7RLTjqodFtkVAsymV2A5AUn3ERH5Ekirbi3PevA21xbh5eSiIzMMUUJuJJksZIu_ANXk3moGbMezRRRsAz23Iz4o6-Tu7666YQDnL0HCfY7xy8IVp4l2tj__g-JL2GMjbQ7RcyuWWruiXe45WRMe6wmZduIPQrP9pr1lKKS14-cIXKq5jfSLoamPhkmxNLRsY_YQoRS560FksOuWOqI864uWjvpQG0ImiWywqUlUxM0RMxaWgf-n0yQIoBjWpgC72wHhF5gv&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ober-mamma/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "bigmammagroup",
     verified: true,
     google_rating: 4.7,
@@ -124,9 +127,18 @@ export const ober_mamma: SurgicalPlace = {
     insider_tip: "• Pensez à lever les yeux : le majestueux bar en bois et toute l’architecture valent la photo. \n• L’attente peut être rude si vous n’avez pas réservé : venez dès l’ouverture de 18h15 pour être sûr de rentrer.\n• La Marguerita d’appel (6,90€) reste l'un des braquages gastronomiques de Paris niveau rapport qualité/prix.",
     expert_catchline: "Tout le bruit, les saveurs et la démesure de l’Italie par le géant Big Mamma.",
     specials: {
-        cuisine: ["Pizza napolitaine au four à bois", "Tiramisu servi à la louche"],
+        cuisine: ["Italien"],
         drinks: ["Spritz géants explosifs"],
-        must_eat: "Difficile de ne pas céder pour l’opulente Pizza à la Truffe ou, au moment du dessert, l'incontournable Tiramisu posé au centre de la table.",
+        must_eat: "Cuisine italienne. Difficile de ne pas céder pour l’opulente Pizza à la Truffe ou, au moment du dessert, l’incontournable Tiramisu posé au centre de la table.",
         must_drink: "Un Spritz aux fruits ou un des \"Big Boys\" mixés par leurs barmans survoltés."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Difficile de ne pas céder pour l’opulente Pizza à la Truffe ou, au moment du dessert, l",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

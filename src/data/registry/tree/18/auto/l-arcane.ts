@@ -5,7 +5,7 @@ export const l_arcane: SurgicalPlace = {
   slug: "l-arcane",
   name: "L’Arcane",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "39 Rue Lamarck, 75018 Paris, France",
     arrondissement: 18,
@@ -111,19 +111,31 @@ export const l_arcane: SurgicalPlace = {
   description: "L’Arcane est le sanctuaire étoilé de la rue Lamarck, où le chef Laurent Magnin déploie une gastronomie d’une finesse absolue. L’établissement se distingue par ses ’menus à l’aveugle’, une invitation à la surprise totale où chaque séquence révèle la maîtrise parfaite des cuissons et la noblesse des produits de saison. Le cadre est intimiste, épuré et élégant, offrant une vue discrète sur les pentes de Montmartre, loin de l’agitation touristique, pour une expérience culinaire hors du temps.",
   insider_tip: "• **Menu Surprise** : N’ayez pas peur de l’inconnu, le chef est un maître de l’équilibre. Signalez simplement vos allergies à l’avance.\n• **L’Emplacement** : Le restaurant est situé sur le versant plus calme de la Butte, idéal pour une soirée romantique et feutrée.\n• **Accords Vins** : L'accord mets-vins est particulièrement pertinent ici, les flacons sélectionnés soulignent magnifiquement la délicatesse des plats.",
   specials: {
-    cuisine: ["Haute Gastronomie étoilée", "Menu surprise carte blanche", "Produits de saison"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Accords mets-vins de précision", "Sélection de Champagnes", "Vins de petits producteurs"],
-    must_eat: "L’Œuf à 63°, Asperges et Effilochée de Tourteau : une entrée d’une grande technicité, signature de l’élégance du chef.",
+    must_eat: "Haute gastronomie. L’Œuf à 63°, Asperges et Effilochée de Tourteau : une entrée d’une grande technicité, signature de l’élégance du chef.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnXfL8h-zB-E2O9zG0kZ0W-K5L7zY7rJ7e5W9J8_3KT32F1IseISGJL4kyoR97z5aRPsJKy6lRbvCi0KlBb6MxEOsG_qs1gRz7c26HdWvBp_GeG6R2ykOu3jktuAya1hUH_ZbU_pAOZoCwp2B62KXzw0mYAo_tVUu_iVBaezUtOQOOkKKETjfOG2C4zn68dJFsPlKDtNL6DEf0HBpAhlyIvdsEX8fmLVeLhilKgWvgGg4XV-131uqdV7kQYIyq7HH2v9CGTrGmNSwtXEkVTVAYlE4dtKk5yxLCmaBRJiF9eA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHReRKh0dSWhMKdS3iF1ALRwdp6sT005Ke-HMxgYag-yTYaYH90ZNFg8ukcO6pTaPxllOW9V9AM_HBry6v_8Me65ie1Qqf7NjWDxGWIDzM5hV55kad3EOoIMVF0z0A5QbbqV2QFmUFMQpcyYue5p1n7OUtI6RWinSU-LTLScL0gximL5mSCVq5BC-COT5ApK1CWAdzCCFyHBIXp3qcEJjJM8EtLRNkqIOIKPlb5c9I&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGf5fjECvVn5ayKSPn7t4rZIgY0Tk6cOyGTcbuvHL2Ik_7DHt9p1lHKk5A5g9GaTieSjOJ53If7Uk7xnP-PRzf22gnAkO-YwC8a4TRoZrp683ouQb21yrj2cF32LEJvJ0Kn4-JM6xUcX5NwxtQYhhVDIJOo-z3HqXEuJs2fn1q9gQAQ6jlHmGclLmcTWAGO7HLdgdCxLCgvqTdZOAjV25E481beelulf-Ewzy5bZ7To1EbxFsajpc4lOMc3JD17fmBHRITQsWnDzY_ZglWkGYIXIg7hnBmXK0cCXly3Eur5AD6thzbwV2b9nW7gJCYmLXuAHkT8-Iqrt5KZcyDqh1J5hYsxlwdjdurKKm445-JnA-5BqfoL-9zni3oiHwNbhw69IjuEgRxOCKnYTS5VanOUR19ha-r7ZPsWLHGtNfS5BxxqLT1sbBDNx8HWKQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-arcane/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. L’Œuf à 63°, Asperges et Effilochée de Tourteau : une entrée d’une grande technicité, signature de l’élégance du chef.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_arcane;

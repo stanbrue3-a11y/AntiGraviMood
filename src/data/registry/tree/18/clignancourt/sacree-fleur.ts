@@ -5,7 +5,7 @@ export const sacree_fleur: SurgicalPlace = {
   slug: "sacree-fleur",
   name: "Sacrée Fleur",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['brasserie'],
   location: {
     address: "50 Rue de Clignancourt, 75018 Paris, France",
     arrondissement: 18,
@@ -88,19 +88,31 @@ export const sacree_fleur: SurgicalPlace = {
   description: "À l’ombre du Sacré-Cœur, la Sacrée Fleur est le temple de la viande rouge dans le 18e. Cette brasserie intime et chaleureuse se spécialise dans les pièces de bœuf d’exception (Aubrac, Charolais) servies avec une générosité rare. L’accueil y est légendaire et l'ambiance évoque le Montmartre authentique, loin des pièges à touristes. Un incontournable pour les carnivores en quête de Moelle.",
   insider_tip: "• La réservation est obligatoire le soir, le lieu est souvent complet plusieurs jours à l’avance.\n• Leur sauce au bleu est une institution, demandez-la pour accompagner votre entrecôte.\n• La côte de bœuf pour deux est spectaculaire, prévoyez une faim de loup.",
   specials: {
-    cuisine: ["Française", "Steakhouse", "Viande"],
+    cuisine: ["Brasserie"],
     drinks: ["Vins du Languedoc", "Vin de pays"],
-    must_eat: "Steakhouse Montmartre. Entrecôte Aubrac & Os à Moelle",
+    must_eat: "Cuisine de brasserie. Steakhouse Montmartre. Entrecôte Aubrac & Os à Moelle",
   },
-  images: {
-    hero: "AU_ZVEE1QgqhG68YxvUW7Y01BmpyD27yysn48yQuVzXKXpnKPs4IN1HY219jsuIvo6gVf40YoFZ679gGhoVgepNDa2yz4qYcmUenNL5AN3q7xaheZ7nSNr5vaSiramcW0drycmp6BSZYb3ZO_d-5piThYMYIK1V2zIkOKd4KOJbgkG42EQbhM5K4VG7of7_XhCaC4wRAFzGPwOJFJKSt_0UeUlKCfqTwK3YMwUp2CbLXFf3ieOzpdRwzqwTML5DLL0ON4hjUB12yb4BwNeANWTqipMkkuVXWKYHMiShpXzBdGPE2cA",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/hero.jpg",
     gallery: [
-      "AU_ZVEEkMCc6457B2wgtiO63awv3BWMgbT3ni5IvtwRNCWHAZXs6_0PXvyFTYNaZCSMCD26inNMYoqvt2P7bHRO02TfzVzxHvnpHxsvSSd4ravLdw2-Ka8CknFYVXR8GoSCm-gbx-2Yc5EiBqcxF5FkoED5D2Hhk6aM2osRaW8MN3da3-xqvnELhuLbdForbyo1Gup2mj9jKDS4D16oZd5dfS0GRSWfWPkMd_avP_crp2v1Bres_skicIjuFKo3eeCbcE02BYyCSAckbVIQ2ioKV4kkGkyfhcg_e46e-Y1NoYTYkgQ",
-      "AU_ZVEENs4TfbCtQN4XrQDVky7mIXWZnUp-O1F_oysEZIKIC3B_7J3x_j11Z6CeKLtWTc8XaXCsYgwxRQbG5SR8dg04IS7i1AeGVdAXqsAqo_FbG_83ogGgILqPKapyLLBPTiZt-3zsOKwJy7nIxztDicikzZ2Gsoqv6tULnnOoZOy5Uf1ltfPMke2c8v5P1Z1AcjiGv1DnVOiS5K-WM2OmfImZHKgK1CIOWJsRV4l0ksVv3LPaQehw8xZp3-gUaXRCgH3EK9x8LF5sddVMdCOGHUq4KRq5JvHD7EjtpQ6Z-U0lY_-mS9mSBgyqYdnYHLxWBRoqBLudp4yCL2ag9CD508h9-uWt5OYPJ0aM_ZS-HZ-zYMMHb7pZiz_8wylcuENpyShpAIF-DSzuiKzIuFuPkoquJ8Cg1iU73UNzNAsB68B7E9UWKhmLL6uuF_DZmXx5N"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sacree-fleur/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de brasserie. Steakhouse Montmartre. Entrecôte Aubrac & Os à Moelle",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sacree_fleur;

@@ -5,7 +5,7 @@ export const villa_sophia: SurgicalPlace = {
   slug: "villa-sophia",
   name: "Villa Sophia",
   category: "restaurant",
-  subcategory: ['italien', 'français'],
+  subcategory: ['italien'],
   location: {
     address: "6 Rue Georges Bizet, 75116 Paris",
     arrondissement: 16,
@@ -111,16 +111,19 @@ export const villa_sophia: SurgicalPlace = {
   expert_catchline: "Une table italienne solaire et généreuse au cœur de Chaillot.",
   insider_tip: "• **Le Four à Bois** : Les pizzas sont la grande force du lieu, profitez-en.\n  • **Terrasse Ensoleillée** : Aux beaux jours, la terrasse sur la rue de Chaillot est particulièrement agréable pour un Spritz.\n  • **Service Continu** : Très pratique pour manger tardivement ou prendre un café en journée.",
   specials: {
-    cuisine: ["Italienne", "Bistrot Chic"],
+    cuisine: ["Italien"],
     drinks: ["Spritz Classique", "Vins Toscans"],
     must_eat: "Cuisine Italienne. Pizza Tartufo & Linguine alle Vongole.",
     must_drink: "Spritz à l’Aperol"
   },
-  images: {
-    hero: "AU_ZVEFtv4GAqUyj8w1ZDBEi0sERWoE1sumeJoTyJcXb-6c8K4L3uRd0X-RqGGLm3DW5q-VSFhJcI3gG1DI8AXH3gpJKeU1b71pO8uVjvcz9M8CYNnLrlpwaPm_-rjz37ktO0Hwy9waS9viKuhLVfD7HiBREuuo3NcBBMNY6jnT615H6XjVCi0x9mGHHbhmBq28ZoVZ33jjuvkUsHe0aAyjsUTI7XWzLFxBobrw42VI-RYDuOjieo5w2Q338HIX9p_a4epcAVGo7SV4ngcx7PFJu8AcWkddC1GiKcf4vHBdxoV9AGg",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/hero.jpg",
     gallery: [
-      "AU_ZVEEFnjZWJXIDPzDttFjvUOsSt8eZduHO0Q8iyoxt8y-lH4HlK4o-CyvnGfhPFQqcV_bM3oAIuGWWjAw2D3VtPCA0xAJf5Lz-XRarq3RNpqzcjjikEHrUwSezChHZdvWiZ-GfBhBY6zdW_vWp10rb9aTbF8Oa3Nz4zSz5m9mdIkHocOG60HdHOrYySf3f2txD4CmLEK-pLAZ5vezGKW1GaeCTBuKGVPgOEuCXYPEfVHlSgXkqLV-LEF9_1mZ3M5FXr_irrNTtwZB2KIoacNlxE1u6bdOxB1U29S5kQxvm9b2Akg",
-      "AU_ZVEHH33hF9a2HpV6U00Qu7bBiamU8TCzbZSpOLggpUkHjY_Cf0Bv-t8v73oeN8zWJ5iGrq4Q2qW7zibOFdmI0MOcVpYp9owAfp-5rvKb1l7K4ie9sZTODYBZb2Db40qMaNrb1FyRh1IN_H8-pWpXoHkbls3zv5KRf-VhpQmu8tA1NhSF7AEAUj2eB1vLM6f7_MWEvUgobyHQmMlUJweJr2tBp3t2aO9aNca-FBdKlQoFBzgZHmDf2GLpGIVmv9fH3yMDT9_jNLK8kMHRfdp-WBnLB7WICff3uwkbR2xwY2QWBsFC6RiMu0FO6ZqXF2CtF0lxIyBvotepsn1Nqal6CWT5qIDQGWf0OwtD9QT0CwYLhnL2MH1GqV97wRc4rIU_pHVG1basZiG0d96uoWY3r9XYLXCG4Ovl-y_wbbmLUNG9_liZA2xs8RUdZJuV5tyW0"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/villa-sophia/gallery_4.jpg"
     ]
   },
   verified: true,

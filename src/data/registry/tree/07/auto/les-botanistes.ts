@@ -43,22 +43,37 @@ export const les_botanistes: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEEq1CC5NqSyKtO__s0y2rbOYtutlW572dzkLTK8uJKzI5lGCOaUsfLuDmWaIaj1ZGf5WzpNgeqMrKlceSqbayKAcst43v-Be02bcnhzxPnUWHMSVx6-qZvR_ouQ04hPTQDoWFnKw3_-59xDSEN-IvdKsNPlbRcNi_Kut2bEV_FUPonpXglmfnvH2yDoiKggxR9zXlCOb9edY0JdIyOayNJPp4AtxJBMoDekwWdzTfkMS8gAERLWITJnfln7yHa5QZrrehawKq-6DVD4LA1a6X_jxQDG-V54fxBDyHzaRuBygA",
-    gallery: ["AU_ZVEEGUaS6LovlQIDsveRM5MZTIVEvKje1lD9gFVfqIbIlGsbN5U8kl3A3bff0mVPoY0jPCbet5bKiG5LztTBtw5zP4fN6fsHq28Qt0E_shE-f6XJk0vUgd92b7GmWmNJvETT9ilDjTsu2frCntUYgzdNseeycI2Qhu3sltNNcAzufHUHLyz2WpDbiZ77JjXcVrwTm5Ue3R49TR-FZIzTtQFaV4xhs-hFgkiCg5ckZ3cVtYkw-FSm0sSVB9Xj3OGzk6XFlCBttOEJTlqCkTfzl5dUMZxsGtozqRDmwa_QW60Vj_Q","AU_ZVEETurY8wkPGTYrSZCvWcWM-XSf-T0cVH-BDW6PvQmC_8K5fjn59GQwoRMwERfy4CDX38yBSPmihyqd_aqiRpjPTPQdcOcceirgK6Vtj1e5r8huBwvQxSKYA3XufzofL0olWVwwzwSH2INmcLynR2dtZd8sMBSW4VMbzNHns8xQUe_CyqG5cT9AequFCkj5O_-zFgLhG9TyNIE8RzTNEz0nCEH64YSVkbJtL1_9ApKd733CzAB6MXCGCMKxX5qAdr4-kJZ4O6Aell5MXzZf3mBpN9mTYIezebTHNRAN6WCmkLGj2lEstnIaB3zz1EmPn7bOZl4bmpwHUi1FxPLTW0pkrcPTII6Qx3zZUwiNU_jca_L-IXm1ka-BiFgVUb5SL4jCflH35zm2L2jg8QYuyXQlx4dwmXw7lpWq8lPd9AEfs6K83"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-botanistes/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default les_botanistes;

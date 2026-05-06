@@ -78,22 +78,34 @@ export const korus: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXuF-Z8SIP2X8hwZE9Dzn4Q5WOpXeDS0SOJfxgvlJC8mly2KHiSumsoHDEPf0qz8eMr7G0ggY_rVHVvQ_7KuLP5geMqwpkQQZltZkmtP6gKlSo5BioUzBJT65v2gBK6At-cBc3eKBiDvROSWnW54uTAKVlvbm6AKyswBuIptp0EK7MN2Qe8ilMJsQa4MJiJRv1udy6roxYjDfv7untPQH_0KPYHBNbnvOcD0eloewuFrszHUwl3zxsQdeEhp_3IWkWEiaW39QfH4RV67-I85b8jmWKLrYb0ArEfxtdHaT0sOA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUFa4PXOmR6iSsqSDsxNkUKoHXiVO5r0uYxqoiYa3Bq877qbLh85U4gsXbktOHUZBZuhgH7OhRqQH6hvABEx8SvCFBEFkCf6EAZE6Ha6OnYZR55eXwI11E_OwIYK-lVjLFi60xyfDtJZLqplca0Dmql7yjn1MJjkf2rXspINLLDRA83G8OvSWPYndY-0vNMxYITWi4OEyFLSreHEKdbm7G4I0DQH5blUeC74bg4j9C6vBKG5DZRMI2zp828Dxwn2W_M1kBKcuNZmtWUXzuvuUoJBYrMsWhJb6HHzTMw382_iBcJLCxUT1RR7_iddJyKV3vQ_P-MO3jorG8jf3qVT7xheUsiNJaqoH6qT4PzRBt3dIxcNveW3xQ6BMnwzeY4rcfbHwc51tjbLxAxiKp-jSPllNhv48btUgymHI5IwpspFqSmHvxb1Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV29wZ249fdOe9E6VuYYqZIvOhJYFPYbNFc0lUMlZdCoCEgqQpsK1Jc1tx2MgNtt-NAcM-gFU1Kz6zR8dfAifpVlHf2Lx2ywjYjIUpl9yGTfZJezUCyXZTcTTu-1djxC8FF36zpFWb7NuvYVwqmUbjnjbncsmApD5bu0bAxb8ThH1_C_kFN-agCoA5Ua02cLphXdhrLze5SmWjXZzaUcGM5o4tacO06AzvRf_FL0Bae3dS7KbRUqmyJ9Dnz_syUUIHb582Q2abl7GuufhXAHq102aA6yColezCm28tiQW696wU6G7b3ge2oNwQltI4kne4l5-1eB1R5ZkKv9-0J9VC_4fcbLSOFcwauEbrPe_BzlAxK9GX2WcNFTjpilOjahkn3zERpeEVWMGMjHa0TOteZYjUYmMwdDrRoIiYduMV5foCWwWhXUAK0KjD3mQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/korus/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Recommandé par le Guide Michelin, Korus est l’incarnation parfaite du néo-bistrot du 11ème arrondissement. Dans une salle intimiste aux murs grattés et au mobilier vintage, on y déguste une cuisine d'auteur vive et moderne, articulée autour de trois menus dégustation (Tempo, Opus, Chorus). Le sourcing des produits est irréprochable et la cave fait la part belle aux vins naturels de vignerons pointus.",
     insider_tip: "• Excellent spot pour un dîner romantique ou entre amateurs de grande gastronomie décontractée.\n• Le menu Opus en 6 temps (79€) est le compromis idéal pour saisir l’univers du chef.\n• Demandez l'accord mets & vins, réputé pour ses découvertes parfois hors des sentiers battus (cidres millésimés, vins macérés).",
     expert_catchline: "Haute volée néo-bistronomique et vins natures dans un décor intimiste et brut.",
     specials: {
-        cuisine: ["Menus Dégustation (Tempo, Opus, Chorus)", "Paleron de bœuf sauce cacao", "Tartare de haddock", "Plats très graphiques et sourcés"],
+        cuisine: ["Français"],
         drinks: ["Forte sélection de vins vivants / natures", "Petits rendements et vignerons rares"],
-        must_eat: "L’audacieux paleron de bœuf relevé par une étonnante sauce au cacao, signature de la maison.",
+        must_eat: "Cuisine française. L’audacieux paleron de bœuf relevé par une étonnante sauce au cacao, signature de la maison.",
         must_drink: "Laissez le sommelier vous dénicher un vin orange ou un rouge léger de Loire en totale adéquation avec le plat."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’audacieux paleron de bœuf relevé par une étonnante sauce au cacao, signature de la maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

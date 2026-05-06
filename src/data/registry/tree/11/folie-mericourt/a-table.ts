@@ -87,13 +87,16 @@ export const a_table: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWjZYSx2CHxcI65e0_9awFG35xuHm206xs25AWjw1FD-kRIardDTQjbIk_j664yYzsfXFP53p2h96HSxM1n-DDhLfv8ATsyFFYlZQy1-vSFvy4vkB-oi-y72O7sviafnBOu-VH_ukm385QNtQvOGEywrOkk2eHUxtZd4PkbT-1c1AokjcrJ7Oyw9eQIf4euPQvM8BTqIPYh8T2XFsBVRblWyASM_0fMnRABUOHVlZrook58HpVpunRrlx6xAEtlv9bbdiHyTQ-_-QE8rVpL9Wprov3ReMdN0dRfzhV_uUGQdQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX3rBN7WLQJj2erhRwHmHtqMQMhVRZjTEXniQRJ7QuJASif4l--t6fv7nPAFJGqEObo5tFS9yBpcZWqStvJCdoQiwArAlxVwpwEs2P2Yhtzh9KCqkOjgOM6fadIKyvDWv3VFdq92KaAZtWDGVLOCofqLYmjUZjPElPVihE6t1t3IZV4YVX-n31URAeltYd3fTAOXH8IUuoEFp_y-Xmv-f5x_kXZOEoX_RIS8iCotAoXlVYSvVTWJA_1hD3ZAxRUx7bri1su7stb8nXXBijkoZAk2gVFCK7rAIQHIJpjmCkteA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXh-7CKLo43LdRDa3bRXpL-0oRmanmBOJ0AxS1pevRrngDkT6Gl77h2bt3uVWYYOcH4YHsPYMFXqQ6otcZe4Cx8NT9E6H-4D8-Zk4mkus-VKZecCax8DQi1LWmccw1CeSWFZ15FcOq_xihPu2hBfbNTEurwOYQRF0jG1yUzewbb9HkjVhk9cPRTPX03-DZ0Rkz9A8hdIUfFKbYkDmAKqUTgzo9-JvpYTThq2kMawRzElhJCxZdK3m_SXEU03iM54T7V6I5L8lWW3P5Up470X3dbKYmaJ15VqsD34vRFyxIpIKzzNFjGaZtko7rdWDxYJxWIufBnv4WlIh2DwLFlXbibQPkzDL_i4rBFwOAnVQZfhYGcaMTUdMFXGWKISYdkt38dG8Fm-JLom7G2UvByu4uwaUnUGdOkZwLaSiL_TwSBYw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-table/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "onzeatable_paris",
     verified: true,
     google_rating: 4.7,
@@ -101,9 +104,18 @@ export const a_table: SurgicalPlace = {
     insider_tip: "• Le restaurant sert en continu en fin de semaine et ferme à minuit, ce qui en fait un excellent plan pour les dîners tardifs dans le quartier.\n• Leur brunch du dimanche (34€) est de plus en plus populaire, pensez à réserver.\n• Si vous venez à l’apéro, commencez par partager le croque à la truffe et au pastrami (18€), diablement efficace.",
     expert_catchline: "Une bistronomie de réconfort aux assiettes généreuses et au sourcing soigné, parfaite pour un dîner tardif.",
     specials: {
-        cuisine: ["Croque truffe & pastrami", "Noix d’entrecôte d'Argentine", "Œufs mayo façon César"],
+        cuisine: ["Français"],
         drinks: ["Cocktails classiques bien dosés"],
-        must_eat: "Le magret de canard en basse température (25€), fondant à cœur avec sa peau saisie.",
+        must_eat: "Cuisine française. Le magret de canard en basse température (25€), fondant à cœur avec sa peau saisie.",
         must_drink: "Une pinte bien fraîche pour accompagner le fameux croque à la truffe et au pastrami."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le magret de canard en basse température (25€), fondant à cœur avec sa peau saisie.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

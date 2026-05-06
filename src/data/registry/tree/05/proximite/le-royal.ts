@@ -34,8 +34,7 @@ export const le_royal: SurgicalPlace = {
             "url": "https://www.privateaser.com/lieu/40519-le-royal",
             "label": "RESERVER"
         },
-        "cuisine_type": "Brasserie Parisienne / Italienne"
-    },
+        },
     "pricing": {
         "avg_budget": 20,
         "is_free": false,
@@ -110,9 +109,24 @@ export const le_royal: SurgicalPlace = {
         "must_eat": "Bistronomie canaille. Le Croque Royal à la Truffe avec son Comté affiné est le banger du lieu. En dessert, la Brioche Perdue rivalise avec les meilleures adresses du quartier.",
         "expert_catchline": "L’institution de Port-Royal pour un apéro marathon et un croque-monsieur à la truffe d'exception."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWX_gfjvqWOL3LlxUo6fGQBnlaZvI0OLSQS7q_5bHTrPdmuIdxHnx3MO6z-06kpZ4fRRODhh_5-DCoTzmR-s8XWYowO14VU-DZWEm52jGw-kdIYue-5JUeThygZ2oCPyng6xlqaEI904grFnQtUffwtIFkJTRJJAODUf__2KPQEea4WqtI8RBCVoCxeu9PTixxCZzzbwwdDT-o_s3v0SgZaiBb4HazTQ5nPOBta2R1ccEUyRrE8JYNKiKnsdW0v8gSTWNRY847Uclj0nox9BwTLP5bNjk4v8QM2IjBnUpGyOtuePZo&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-royal/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Brasserie. Le Royal.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

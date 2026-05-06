@@ -5,7 +5,7 @@ export const sawadee: SurgicalPlace = {
   slug: "sawadee",
   name: "Sawadee",
   category: "restaurant",
-  subcategory: ['asiatique'],
+  subcategory: ['thaï'],
   location: {
     address: "53 Av. Emile Zola, 75015 Paris, France",
     arrondissement: 15,
@@ -106,16 +106,31 @@ export const sawadee: SurgicalPlace = {
   • **Combo Moelle** : Les Larmes du Tigre accompagnées d'un riz gluant, un classique indémodable.
   • **Expérience Culturelle** : Admirez la décoration traditionnelle qui n’a pas changé depuis 1988, une capsule temporelle thaïlandaise.`,
   specials: {
-    cuisine: ["Thaïlandais", "Asiatique"],
+    cuisine: ["Asiatique"],
     drinks: ["Thé Thaï", "Bière Singha"],
     must_eat: "Cuisine Thaïlandaise. Les Larmes du Tigre (filet de bœuf mariné et grillé).",
   },
-  images: {
-    hero: "AU_ZVEGW6y48Nm6aHRKjM6mEedndULj2dtrGyjc7Ew0wErid2OlHjguI5lecgh_w80jHk_9BvsMFegipakQdfTZvLjZ8aIT6r_kf4IHS3898AUuLAerKQpbIbmWczLpSM7CKFEwFu9miAtu4pzoVWnOvHc_2H45m5C50YmDfGLgBjRctoNtG-WeGdI09nD20ec25_1XyhQNhl5xMVB83T4_YV8ANyn_OxKBptyl21hGKN12e-4TA5wgEfwdqquxo47VJA0qnrS0fDj6gcaUSyfK9f0wl7qBSiq3gmZKVaKkd_i4VTQ",
-    gallery: ["AU_ZVEFld2U3JFNy2DjVkswr5UiL0ngvyd5RWOJJD8UzxKvBzN0IsnmAXtM1pUPf1eOZrhBFMIZhKORZYnVgU6HkhjaDiAZ_qCNZy_0_hMpzB4Dv5lCsa2vS7aqdfoe4597Df1MaPt7HwXWGV54erjy2ojpn5ZcgjhkDwGAmhhwkz2SCHpuqUq3EbxyB1NQgkUmI25SQuJWnK1209x5wvQ0nAD5cxFeVJaVt2jLRmh1WwyaHZRpP03LQGVyqZ0BLJ72loueoFLtIimffVfS6tfWNPZd3YDEsIRsJH0mFp0fx7qYgpw","AU_ZVEFY9KbdNm8mNTDt2Xfa5TCFLp55B0M1-mEbqoQ1l0TZdIQQky-YvbDZgx7apAGITh5GwgjUJa70D22D99EzZ_rRuw6r9FESB3ZhlfssFoJCPkPqTXwsRlMSXdZWMYpAyIJ5kZpOD_qb8RfSEjCPIr1QyrYRHQHS10A3m_B0Oy9nPBxist2tE68VmeS58m_x5W9iBODrPSRsOaSrSdad66b5popcN62_yS6VoMglM3mGV90lUoaIbISWUDaCPzpboMqsOs3rO6JEReFQSRLJkRqnewo49WCNwQxU2RJoVvinB-8Ny4ducRsa6rGueP4_ZkDW-ogCD5IVljd59zROWdwXr7Zd-6D5dIijLDPUdEJaV_LJHVOF_kb95A79U4cckc4zOO9rgQdZnzr6Qiet65dLWKph8A15_AhyI4Hsspy1Ca4zsLpzNnC49agj-xpA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/sawadee/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Thaïlandaise. Les Larmes du Tigre (filet de bœuf mariné et grillé).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default sawadee;

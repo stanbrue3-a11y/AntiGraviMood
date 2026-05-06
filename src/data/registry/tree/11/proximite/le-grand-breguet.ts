@@ -34,8 +34,7 @@ export const le_grand_breguet: SurgicalPlace = {
             "url": "http://www.legrandbreguet.com/",
             "label": "SITE WEB"
         },
-        "cuisine_type": "Bio / Français"
-    },
+        },
     "pricing": {
         "avg_budget": 15,
         "is_free": false,
@@ -125,9 +124,24 @@ export const le_grand_breguet: SurgicalPlace = {
         "must_eat": "La formule midi à 10€ (entrée/plat ou plat/dessert 100% bio) est l’un des meilleurs rapports qualité/prix du quartier. Le ’Bol bio végé’ et le ’Succulent au chocolat’ sont les classiques de la maison. Pour l’afterwork, les tapas bio accompagnées d’un vin nature français.",
         "expert_catchline": "Tiers-lieu 100% bio : cantine saine le midi, coworking studieux et bar festif le soir avec vins nature."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU-CpG6Bdfvop3ojLEvO-HTdIlvT6kldXoW2psUeEVXjYnacod7rbVSjFrboqGDFvMQcCxgkkcuaJucvhrGMAXDAQylzjuwjpHwMrhuAOWuuFsIQtF7vOn-4j30cufa9u910k4caJm8nx7lTLiT39NZapdCP7HcqNc1StAl6XiuOGaTO6Y6L6NJpNyO8Xgh-Fxh4RQ5yWMqbX6ccMagbNehNgHa7F1ikbvwP2LsPGs3jUEBlOhpYgi71qNDPJ6sgJ8gufPfYp1dZXGpZXrDEQOG7FLvEGnlssgSVtbpH3sRmsFz3SdsVnjKK6fLJys91ep_WEZpbd-LGn7zF7rXvtD24le3Qd_7fxPIj9j-bG2D9sUW9Xcpqw9lxkJOzH0GvEmTkDEbCM1WOn29O2KE8Pv7hNg88XrPUDGPau5y8BfV3MNm5t6u9831PBypfAh26Y7vuD7D0GRfCvaAdQVPx9R3rKuDGaOi_Jv5HgaN0zg-JxIt7ZicroB6cHFibhpgp2QVqhxPQ4nHGEVFHx_P3Nu-BlZRFPfzw-_BUL7yjbUARTEQfTTRscCzr4jp5ai7x6dmTN-3&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": []
-    },
-    "source": "expert_human"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-grand-breguet/gallery_4.jpg"
+    ]
+  },
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cantine-bio. Le Grand Bréguet.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

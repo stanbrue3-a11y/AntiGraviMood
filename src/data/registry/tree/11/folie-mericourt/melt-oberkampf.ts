@@ -92,13 +92,16 @@ export const melt_oberkampf: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV4LoNWRJIbPcUZJkKTFo9caENk7mZzxnD7VZreUPMJGX9AQCq9iOO0GrMEr9zOx9Y_O1yaAsfw_sjdD0bCQqTFFY3vyHBK9NMHCWjOKuVWhdGEQhea6DCJtg4AJ9-Cly10J069bXLIPu1m4WQiFdOVRk0EcWaUxYgXSvyMSV9m3RgPbnyybd4rQrup8PwoD54eRe05SVSXkSkAoSa_zXQuyTLdXnesV8EbDmhnDnzp27hiHnGvMsR_ytOP4FgR-8JrIGYDiWXytmHcRV102Yxe7RJzHWRKSbO0vansi1RH0g&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWEsv3lPxBa4JSceLrt-tw7-IBy1kgF1i54QPN2kbI0lqmRtPlHMESrR28JZMvh_pBOsEGcYkqW8HL-fx-dco7181H3vZ_1XLbz2MzVH9nQiuiAiDc5MmVA4hjL4Hmz_1c8fbbfurKzGzhpfNoORTi53HeCdyrwpxPKH-P0J1io01zduUKfPOW0r79GXwFLUh7O5dm4CwATdum3gB-MhsPiD1Fsm9ByWvVpSFphDFaKwWiOJ_9o7HMD8HGwFtSuWHe0PCVpo3Zm4PJl72sCUiB2DdyAxdV-Dqa7U9plEyX6yB4N_vJ_8PmpKn-pFs2InOEqLrHeJVCj3z83DUv_B0N9KNhPN0Ex6velh1rEPJXAyNlto9ArVPTyKcBOYfNqOdLkyeNyITcG8S5ivgNtY5Zl3uxqICqWfysrEU96pHTK0K-7l-WeYwTjtHWBYqME&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUlduNqt51EANezr1THzwJK7i4o2n23osr9hYrOCSDH-cJoCFvWmz5sfZj87SF0nXWiDIRBhpJKBxV1_CK6bAcxjjjavgSmth5RCVBC_nuxgCl8HTUSBsIKCpCYS8JSlGYSn1J2sA0GkFRDuIoHGkWqFFxE_hOJW5Y8z-0qkVXI6aAph86qtqzkgucVpfJutzz1REL5hr3cUCLvloz8-attoOIW62fA2iAjG5qxFm5mTSwnTw1EsjqaRrS7N8Y7q1G5BY1AERMionPGVTGCqUdjrf4R5tpFsP2u7VW632Vyzg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/melt-oberkampf/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "melt.paris",
     verified: true,
     google_rating: 4.7,
@@ -106,9 +109,18 @@ export const melt_oberkampf: SurgicalPlace = {
     insider_tip: "• Attention aux sold-outs : tout est fumé sur place en continu, la quantité est finie. Arrivez tôt si vous voulez absolument goûter le Brisket du jour.\n• Le niveau de fumage est très américain, préparez-vous pour des goûts intenses.\n• Mention spéciale au chili cheese smash pour accompagner le pulled pork.",
     expert_catchline: "Du vrai BBQ texan fumé lentement au bois de chêne. Régressif, fondant et ultra-goûteux.",
     specials: {
-        cuisine: ["Brisket de bœuf (fumé 15h)", "Pulled Pork Sandwich", "Joue de bœuf confite"],
+        cuisine: ["Français"],
         drinks: ["Bières artisanales Brooklyn", "Softs américains traditionnels (Dr Pepper)"],
-        must_eat: "Le Brisket Black Angus : d’une tendreté invraisemblable, la viande cède sous le simple poids de la fourchette.",
+        must_eat: "Cuisine française. Le Brisket Black Angus : d’une tendreté invraisemblable, la viande cède sous le simple poids de la fourchette.",
         must_drink: "Une Pale Ale amérisante pour trancher dans le gras réconfortant du barbecue."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Brisket Black Angus : d’une tendreté invraisemblable, la viande cède sous le simple poids de la fourchette.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

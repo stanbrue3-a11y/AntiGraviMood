@@ -75,22 +75,35 @@ export const essentiel_boulangerie: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJ2UwDQgKY6RY_c_9L4jVlL09SUZ_RCkOYUsCDHHkN4LG02-nfdjfP2KrDo_-fb18FpwU9oMYkMB7CzQFOe4xpw5zZxEOUfE7vU3u2lxaLz4DmN6Zr68kCxWK666371N3D-2klfmxwYT3Hpal3DAk_dtDpkI-Y7C1XEiIfqBxrsXwacH4YJ5BlBdlpvxJgK693eo-Ml1IttBBPgMCjWJZekCmo0iCR76GBNlteMiclt2zoulpTzIFByQZx2nBKEizO2dUIEqyKWfX30We0M-NMUGZIEVcQteVHCqs8C6u2gsNR80lvKdxDab1lsIFTEKgdFgf-lKrNb5exifcEOmmRs9L2hKJs4r3VPIfNPsYr3YL9u6M-Hn3qBXbnmKQubspcvXUfRrtf5NwD9yCFCb8eYCGO2wgm6pQNFwbhd_cpZyKIaT8TKtPLxVkKcp7n&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXtHWJ8G-W2d8RRUmAnZD4PB3ByTR55GE8N_XYodFqT3jC6uhANZFAkqhDEs6IAINrMt_D5AYzUm2Gu5sHLCybRSjg1yWqdp9PMJy7mHze9-ChhL4RcbcaoY1KDXOuHVF9_itAkPfBb1w93CXYzndE3ahFwjFf7eZUlBodjsRydc7hY9bUCd4BXuV8TaPsyMgFc6UPr1r7QS7Yc8cCVLut4JAriGdzgciU3YJPmEm9uks1CJeQutsSIQAXqKLVnOKXMLYj9yA40r9JorjiLSv3eEcHL5DcfsnAre_vcUgTsRA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/boulangerie-l-essentiel-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Élue meilleure boulangerie d’Île-de-France en 2022, l’Essentiel porte bien son nom. Ici, on revient aux fondamentaux de la boulangerie française : levain naturel, farines bio et savoir-faire artisanal sans concession. Que ce soit pour leur pain Versot à la croûte généreuse, leurs viennoiseries pur beurre ou leurs pâtisseries fines, la qualité est constante et l’éthique de production irréprochable. C’est l’escale gourmande par excellence pour un petit-déjeuner vrai ou un déjeuner sur le pouce qui ne sacrifie jamais le goût à la rapidité.",
     insider_tip: "Ne manquez pas leur flan à la vanille de Madagascar, d’une onctuosité rare. Le pain ’Versot’ se conserve admirablement bien plusieurs jours, n'hésitez pas à en prendre une miche entière.",
     expert_catchline: "L’excellence artisanale primée, au service du goût l'état pur.",
     specials: {
-        cuisine: ["Boulangerie Artisanale", "Pâtisserie Fine"],
+        cuisine: ["Français"],
         drinks: ["Café de Qualité", "Jus de Fruits Bio"],
-        must_eat: "Le Flan à la Vanille et le Pain Versot.",
+        must_eat: "Cuisine française. Le Flan à la Vanille et le Pain Versot.",
         must_drink: "Un café Expresso avec un croissant au beurre."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Flan à la Vanille et le Pain Versot.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

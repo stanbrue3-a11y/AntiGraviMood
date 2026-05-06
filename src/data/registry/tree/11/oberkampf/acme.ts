@@ -94,22 +94,34 @@ export const acme: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVxEpn2WLWaP4ks-ZXKl9khrs-9kvqchR05L1mE4kUkG3FLSLNoDT-yKYxawZupwHQKPVMeKO5HatUf2T9s7YAamKLzygfhOYgh9MCPVa8Pztvzy-jsLj5d4E7RkwMPb47rwEDmCw_KNN8uPzZxE1PkuE_u_i-M0Jj14x7aRi4mEXvO_9uO_BHxaAWSi-MSbdMbV1OH8fFjxuQN2nsvh5amXexPbxAvXdMfRDbCzsZDcrehD21OWvjPn-yPDNbRLUpX2qxFoSMr8eEa0iDDCNeWKzaPcS67NnCtpUu-W_DZ5XgO4OSPh4oMvAt8p-rQFsZw81n9iJ8cu_VhTNHTZH3XnaAxhq5UpGRqaFfeDGxnap_DexFEc-FVC4ty2vehA3udqZyT0IEjTDZ30ZhomBSQUJXmueikd6eA4GpZsvFYkbalmIGOvSVWbwZq9f4dso9uhuizhHltmLY-cRdXIE9ZKn5FM2K4KfTf07VU0kuQMnWpZ-kZefdtOWFAr2HShzj6BpYnmgVWs4Q1cQRjl33S5gI2su0Fz0A6X42wJJ-BiAh6-RaeHip1UVVr8hSCfASce8_HwC29HA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWXqz6Pc4Q5hBERpbPXCWFDBU_ORB-2aR9-aKy2uESN1PeVMeDuUHrZwSb6t6y__QJE1OypoV-lAcUrp9nJSYS_JEdfFGwU6XDnGDcbsI6rXpXFfryD6qBN2vHtkd6U1mbI2v7YyRLvL7HodocV6ZLt1C8TPoEbzEDgqqT-CHPZSYx-_rJ05JKMzyvb6oBcB_msQj4I8JCj9NcaMpqrp1MSllFgaQeYHXMJVgOsakF4pvcm9_sNDVLXKolVJ06pDXPpUeiK3P8RzZzz_S4dPzUV4Vsa7F8VNvV6qoBpiPS5BlVOK0ql1KFdYYFVQSN_I60zXtRHbrS76b1nMOaPFgS3klWfrS627v2w5BhciZ8W68C5TtxfCR_fW-yafJdcnk8CgGgNzkYePGxXrK2fTWy9iV9Yb6Gro4m4HOVEeFyk_mI48gIchZoC-wmzwQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVMk1q8MtKiZYiVOFMSrNYlgW0aGjSQk4iRxayTnCltrxMKoJ2u1GqSSyujZFbFzMeXU-ijIW_GhfotuosjkAxkMKXa2G2hCc1Auuwc7uP1yExCwqs6nobmNOvz6C_PZpm7BGV_HVcxYPfEJ34gqW51gHtr3iVGzsZklbJaohq3q7qQoUQTFHn6537WdZF_zWPGr9yYmpS58JGoTOzlMNaUHjcngxwbFMk5dYiDW0lDHCHU9BBLEm33uBkopdohoIMk7FBxHXucpbaDre9qfF3QsvhjINF3iF1QeMeBSM3FOKCiIO4gP6ZLgN1vF5PlbNcOL9ledGbXDqvZReQJDaMKsXGUdIGb3m8jGbR0MtldTFVLyByqyDlsQM1uavIITGuANYDp5XgYl9RKTHhFVgTytKq9SSh7D-QsFOkoGVmHtA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acme/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.9,
     description: "Acmé est le projet personnel de la cheffe Margot Delacroix, une adresse intimiste et lumineuse où la cuisine française est repensée avec une grande délicatesse florale et graphique. Ici, pas de carte fixe mais des menus ’carte blanche' qui subliment le végétal et les produits de terroir avec des techniques de haute gastronomie (fermentation, brûlis, infusions), le tout dans une ambiance chaleureuse et décontractée.",
     insider_tip: "• C’est l’un des meilleurs rapports qualité-prix gastronomiques du quartier (menu 5 temps à 51€).\n• Demandez l’accord sans alcool : la cheffe travaille des extractions de plantes fascinantes.\n• La tarte Tatin de céleri est une expérience gustative déroutante et géniale.\n• Les tables sont peu nombreuses, la réservation est impérative plusieurs jours à l'avance.",
     expert_catchline: "Haute gastronomie florale, créative et abordable menée par la talentueuse cheffe Margot Delacroix.",
     specials: {
-        cuisine: ["Menu Carte Blanche 5/6 temps", "Tatin de céleri", "Cuisine florale et graphique", "Produits de saison sourcés"],
+        cuisine: ["Français"],
         drinks: ["Vins de vignerons", "Cocktails signatures", "Infusions froides maison"],
-        must_eat: "L’assiette de poireaux crayons au dashi et katsuobushi : une démonstration de maîtrise du goût umami appliqué au végétal.",
+        must_eat: "Cuisine française. L’assiette de poireaux crayons au dashi et katsuobushi : une démonstration de maîtrise du goût umami appliqué au végétal.",
         must_drink: "Le Kéfir de fruits maison, toujours surprenant et parfaitement équilibré pour accompagner les étapes salées."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’assiette de poireaux crayons au dashi et katsuobushi : une démonstration de maîtrise du goût umami appliqué au végétal.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -127,13 +127,16 @@ export const astier: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXlTDlhdYFbv1_o0xUhu15xfVLDPfkON2Z1l2mvxQPvVy_kvKQQTOFqrWgCgpw_p715YIaI-WWBbBE6lSNyd_BiRw_XWB4vl0FnHhF4nPhPvvhChCoAV1iqvmwYrKo-nr2urjf-AHmc9B2U4SO6zrqPHUtyOXoavTwqBXP8owzL2UFLX3tPDcqfaBqaZoYhdQyz05Ex_To9PKB5A-dnLqhhszqC3OihLAGNd31NBLoNd_tDZNfrTNEXmeIKukq-BO1PN9phqCgC2ssGNapSW2lRA8KQewBGBZ0PGTREOdjgdw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUq0fJxDN9S8I1LNeTeTbIPoqtIMG2Y0-DKpfTj7xSXQGS9A4A5j_rbwZ9CUC8_tHjlT5icMN76IVkIH81MZsvmxNvGfQ-mTgVzbWQ3OVcdK5LMzRwwiIruSdVrtvvf8eCbVnU4fdP5H5nzUba1fq4jxGOl4wN1leH4FYw7VDI8eS4VgsDfyvtaxx56gCHemITYPcfP90w14BXuRmMnvWSP6L5o4xbv57wFo_q11a8rjU6d-gA3gQIa3q3T05lP22mqvQwBBg_qDrRCHqJiVifhRX227vgnCy-Klt6Us7aZfw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU_rt7iZcpEzy-uirAKetjGK9ZWH7SobLE6LOdpHZ2GKVeaLfFO3TQ6sF1XdGv2F7d5IV17AMtirjw0JEbcWIAWFoE7WgZwt8UEKDIpILFwZUf3_6wKiKIRKJUO5Z-6g_Uq-xgFU4xPvH1A-HHc1J74R9whSvPX61rqwYcCo3oh4irxm7mw9cYVaHuVGz-quRJdZrjPo9_A9UanUWBlJ5qOKqhxYgrEOkAWKmj3Ccr5k77yacEFo6VtgfwbTLh2_81IlHwnysUFhnBo0-XbpL5zPyYpHJ4vxd7mkYJSTdODO5MLbDO5QQVbUbNbwInCsf618TjHYNeM2sKfrs6CgosRt7aR9HHkwO0r0Ru-zHPalEThDy1_WvS_bKKwE3BeUyJ-8xsa7yofzgW1gXdxS0fzBJSVUyWGaSofkVjCjWdM94_u1602rbAq_If2Q4Yj&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/astier/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "restaurant_astier",
     verified: true,
     google_rating: 4.3,
@@ -141,9 +144,18 @@ export const astier: SurgicalPlace = {
     insider_tip: "• Le plateau de fromages à 26€/personne est LA raison pour laquelle les gens reviennent : c’est un buffet d’affinés exceptionnels, probablement le meilleur rapport qualité-prix de Paris pour le fromage.\n• Le menu E+P+Fromages+Dessert à 45€ est le sweet spot absolu : 4 temps pour moins de 50€ dans un bistrot historique.\n• Les harengs marinés d’Astier (12€) sont un classique qui n'a pas bougé depuis 1956.\n• La cave de 400 références est excellente et les prix restent accessibles.",
     expert_catchline: "L’institution bistrot de 1956 : pâté en croûte, pigeon rôti et le légendaire plateau de fromages.",
     specials: {
-        cuisine: ["Pâté en croûte pintade-foie gras", "Harengs marinés d’Astier", "Demi-pigeonneau rôti", "Filet de boeuf Simmental"],
+        cuisine: ["Français"],
         drinks: ["Cave de 400 références", "Grands Bourgognes", "Vins du Rhône accessibles"],
-        must_eat: "Le menu à 45€ avec fromages est le meilleur deal de la maison. Les plats signatures : demi-pigeonneau de Pornic (32€), quenelle de daurade (22€), filet de boeuf Simmental (42€). Et surtout, ne JAMAIS skipper le plateau de fromages Anthès à 26€.",
+        must_eat: "Cuisine française. Le menu à 45€ avec fromages est le meilleur deal de la maison. Les plats signatures : demi-pigeonneau de Pornic (32€), quenelle de daurade (22€), filet de boeuf Simmental (42€). Et surtout, ne JAMAIS skipper le plateau de fromages Anthès à 26€.",
         must_drink: "La cave de 400 références est l’une des plus complètes du 11ème. Demandez conseil au sommelier pour un Bourgogne ou un Rhône qui se marie avec le plateau de fromages."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le menu à 45€ avec fromages est le meilleur deal de la maison. Les plats signatures : demi-pigeonneau de Pornic (32€), quenelle de daurade (22€), filet de boeuf Simmental (42€). Et surtout, ne JAMAIS skipper le plateau de fromages Anthès à 26€.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

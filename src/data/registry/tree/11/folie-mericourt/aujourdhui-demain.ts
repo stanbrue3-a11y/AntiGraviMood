@@ -1,6 +1,6 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const aujourdhuiDemain: SurgicalPlace = {
+export const aujourdhui_demain: SurgicalPlace = {
     id: "poi-aujourdhui-demain",
     name: "Aujourd’hui Demain",
     slug: "aujourdhui-demain",
@@ -86,19 +86,34 @@ export const aujourdhuiDemain: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV8oWT1IqC2inaUyalVjLc7cIkMeu6M9nVmg4NPDqeqOJcyn1Nco1RrHqecu4f2ivolSUYqPyipfU_dK7Q5BK6-0JjB-UrdmVmlANSy4Wats8EC3Nj6FaD_d4RZDnMlYd2MWiZFgqUcjzlyjXppxUI-XbTEFz2fj4BsNAD6z9P5x2vcNBKb3e1PJGLmofSaVtqd_JOIakbozZgTYtMsN_aIS0K9wFPyIpPZv1LEG4cCEtbHWt75dc_6Pj3LW22e_Fe_WFnZrDVNI8Wizk_fP18VaZqkw3bAgcer53IGrMBVJOC7Ayw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/aujourdhui-demain/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Le premier concept-store 100% vegan de Paris. Plus qu’un restaurant, c'est un carrefour de vie pour la communauté végétale : cantine comfort food, coffeeshop pointu et boutique engagée.",
     insider_tip: "Leur Mac n Cheese Carbonara est une prouesse technique végétale. Prévoyez du temps pour flâner dans la boutique (vêtements, cosmétiques, épicerie) après votre repas.",
     expert_catchline: "Le temple de la vie végétale à Paris, entre food et shopping.",
     specials: {
-        cuisine: ["Mac N Cheese végétal", "Burgers gourmands", "Boulangerie vegan"],
+        cuisine: ["Français"],
         drinks: ["Specialty Lattes", "House Infusions"],
-        must_eat: "Le Croque-Monsieur Forever pour les amateurs de comfort food.",
+        must_eat: "Cuisine française. Le Croque-Monsieur Forever pour les amateurs de comfort food.",
         must_drink: "Un Ultraviolet latte pour les couleurs et le goût."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Croque-Monsieur Forever pour les amateurs de comfort food.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

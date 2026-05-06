@@ -75,22 +75,35 @@ export const ordonnance: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV95MltxSz5RBrmmSp2dtuFUQs2KKUyODK2YZwxWTwkcyMEl2nrHXWqocPN1VYxObhdNsmdmfREGkbyfj8K13S1QilVI1LR0tyVt5rj0LP0g-zK2tQoGwcStXpX2huFReGeyRNJO3rLcp7yHt8d7-6jnRI_6haUVDsar3-ZqgYJEM2LzCTDr2nDZ7SI_9Wbhw6et289Mwxw_jUBh3bEVfWQmSJ0J33PGB-z14A3gmgYhQxX4kjLbZHs4GwP6qtflTw3cKWhjdhqIcW_3nRRqEoNDZiSB1plRgh5kUQnUxfw9A&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW4Vx9MO3q7hAZbGLF9YkI5MkO67UPYkMBB232bWPwQ1Wh3z0nyL07Ze8OLCkz6UNzL-xkZjaReJo5PjhwFPmK1SCFJcdnOWZDlnjUtqFpQDIrJxCWA3_X1bYfALWx0vBVe5ujEJrwLsuikv8tDDOfRNl10yf8IQqRgyJGLmPiCR2JtzqE1QUID_85Utj9OqQg6ZvFEFtWtiF0bCZARNPfcfgSjUGrQTyUs9HcSFypWvFjeBBuN77Mc4k7zkU-zLDND6_g2U1Fk4V4ML1QnuBRPKWZOG7oSVEj2yPUx5nZDDQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ordonnance-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "L’Ordonnance est un joyau bistronomique niché discrètement rue des Plantes. Ici, la cuisine est une affaire de précision et de respect absolue du produit. Le chef propose une carte courte qui change au gré des saisons et des arrivages du marché, garantissant une fraîcheur irréprochable. Le cadre est élégant sans être guindé, avec une atmosphère calme et intimiste qui se prête merveilleusement aux conversations. C’est l’adresse de quartier par excellence pour les amateurs de gastronomie française moderne et raffinée.",
     insider_tip: "Le menu déjeuner est un secret de quartier d’un rapport qualité-prix bluffant. Ne passez pas à côté de l'oeuf parfait, une signature de la maison exécutée avec une maîtrise parfaite.",
     expert_catchline: "La bistronomie d’une précision chirurgicale au cœur du 14ème.",
     specials: {
-        cuisine: ["Bistronomique Moderne", "Cuisine du Marché"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sélection de Vins de Propriété", "Digestifs Artisanaux"],
-        must_eat: "L’Oeuf Parfait et la Joue de Boeuf confite.",
+        must_eat: "Cuisine française. L’Oeuf Parfait et la Joue de Boeuf confite.",
         must_drink: "Un vin blanc sec de Loire pour accompagner le poisson."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’Oeuf Parfait et la Joue de Boeuf confite.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

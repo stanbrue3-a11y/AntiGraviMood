@@ -1,6 +1,6 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const track119: SurgicalPlace = {
+export const track_119: SurgicalPlace = {
     id: "poi-track-119",
     name: "Track 119 (Deb’s Street Food)",
     slug: "track-119",
@@ -83,21 +83,34 @@ export const track119: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUFXO3v__7eybqUaFmpY4xvicNt-ygoiuQ4L7hCjpoN33Qnq7UAJ3Q0YHND2ACsblJBF6HBGF081ByTecUNGr-b3OizTLnaG30YAFR0xuJWpP9o76l1Uv6uyZhmBBcft53H5Tf6m3SNP4wLig0oKcwF-XXM3m3oLf1uGXJQzZObwROOAyIwmMC29xzuw9GbF8lGsMdDDy-oBOLS3z8EFRH7U2ZfRm-6nJuY_WJNg-TUM12I59CMBF8rid6PcUOkUoT4zSA7_TddzpQrZr22D8kAfs6cjSXaVe2yZCnscjkbsmVFf-KFjNMXLPu12imCC_ZJhmUnwrYpBejcsZjVg3qEPtMKECHBybCOE83zIpVCLTM7cn8KqhE6CZ0hRrshsLd4u-uz3g_tTTHo3DUcIc4NMNMBMWqiea&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVtk8sP7AR7_RPMoMeus-D9li2r-ZOU5zAY3x2TFfVxMrBiHipRnQysOT4zsyyFVuboqal8s14Ycz_gI3X-plMVdhY2vv-qiu2vAmoKL4NGLcIRwJvFyOgGml9ghO1UGmUHD7l3LR42c6pHKQNNBNut-Sb1issEtei8Q5Ystg9vz5c6AtGSbIhIP-9tyghXukg2pe4CW3CMKW-Hxz7l01RF7uZpMBrpKiO7obYDEB-CFD_gABJzA7_TeWz5KeCsbw78w3p6QO5fYn4NBKdYQ3Ca2cjA-c23fOs2BSutinSSTg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/track-119/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Niché dans le hub artistique de Track 119, Deb’s Street Food est une explosion de saveurs indo-pakistanaises. Le lieu respire la culture, mêlant street-art, musique et gastronomie sans complexes. Le clou du spectacle ? Des naans revisités avec des fromages français comme le camembert.",
     insider_tip: "Osez le Naan Gorgonzola/Miel, c’est une hérésie culinaire mais un pur délice gustatif. Accompagnez le tout d'un Mango Lassi bien onctueux pour calmer les épices du Keema.",
     expert_catchline: "La street-food indienne qui bouscule les codes rue du Chemin Vert.",
     specials: {
-        cuisine: ["Indian Street Food", "Pakistani Specialties", "Fusion Naans"],
+        cuisine: ["Français"],
         drinks: ["Lassis Maison", "Bières Indiennes"],
-        must_eat: "Le Naan Camembert (l’insolite MOELLE).",
+        must_eat: "Cuisine française. Le Naan Camembert (l’insolite MOELLE).",
         must_drink: "Un Chai Latte épicé."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Naan Camembert (l’insolite MOELLE).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

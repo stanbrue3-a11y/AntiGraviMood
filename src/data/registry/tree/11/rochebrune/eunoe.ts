@@ -5,7 +5,7 @@ export const eunoe: SurgicalPlace = {
     name: "Eunoé",
     slug: "eunoe",
     category: "restaurant",
-    subcategory: ['français', 'japonais'],
+    subcategory: ['japonais'],
     location: {
         address: "6 Rue Rochebrune",
         arrondissement: 11,
@@ -82,22 +82,34 @@ export const eunoe: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXH9k36Qq_9Nkvit-Ow4V9FJIK1fZfr3NNO1PVuNeImgKZREstwJU6I5gZRCftRNOj1A0TGimJVmMmH7d3PQ2JTGMbqUYRiKtNHqGW9AN53X3b5_WZuabw8vOrgXloF1i_2rRP528-cxHbtdwWJHPV3QOXKITtGxSong_lsS2QL72md5e1BbrXTOdnjdFWovagpJRt1xWaDW3GYM5S2j9HRj1aJvEmzoaje0_k1DtW75ai3wNdNIBB5X4PBzi7EHBDn-HbS9gc0i5Yh8BRpXGwJLqU3zin22HwHrLPb4QgbYQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUABIy-JGdNF5su9UEXOKD1QCnly6POU1yLYUgS8kJd5cNYcb30M1AhYZVNp-OQfvXkLRQ7kOYqZ6m3d7TN--U6pfZTAVkFz3fNQMLvlR7EmgemjSk5FqzGArayOMasUrh16xeqnn5XRJ3Gp8JqeVpxZxQhAaUTW3a69oH0hoFKyYyiX5KQVdX81mP96uFtNHsy1NUH3_xy7-x0_z1ZIw4liUxFf-6ib8HqM78Xam0N7chySU61Zt0jQPCD99i_yExPIIthOmtJTeg9HXlGRDdb5Ro5SFoGquuUioIOWVY7YTXOixT5K53zGcuARZTElvCoA1NB7iJFCcvXYDpjEAGv3-l9sqItJMN349vwbCVSyWpOt_yAVHKwgRwh3ZIPhfdyVfLMhow6HzG_agcIN_Qn8iKR6LEyYkx_8D6qqq2nhY_nR3ibra7nH-t-pn0s&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXGqnjJuEJ5sWVcpY3vUOioYTPILZWicVKHEcUE_QT-LkcQvxdo1g8uBxmHdhxnLr7ft45Sbci6RyPSk4K3BLLYswwdlv1mYqbOQdRQhpB5OWaOaqmJ5AoJyP-O0cvbtpkESBCkw-Dff5FgdD3aJQSg_hoQCCS8kf1lwGs8dXdt41mNcxgkmytEsvbNhRvKPB0FBHaIwCnP-Qq9JJwE28IgEBgJiaZE4NwqWxriT1k5F8QZPa7AsBh0zzh4gHw5yclCr2o2rzubi2OwRbVw7oUqJSKaJagHFo0XOPcRhNgUnuTke3aP6OX6jkZC2hKFXcIMYKdOjjkbuHo4DbXfP5Fw3zDmDxZqUoSVgIT3HJbnW9IZ1ziRb3S0GUSWuvlY_gFeDNp6gxHw18mxqm8wSYRYTVsoFNOJFhkS0FJiehw5hYzDuw_FKQdSgSrqL_4T&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/eunoe/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Un brillant néo-bistrot impulsé par le chef Ryuji Sato et le sommelier Félix Perrotte. La philosophie d’Eunoé repose sur des produits bruts français twistés par une technique japonaise irreprochable, notamment des cuissons parfaites au barbecue binchotan. Le menu du midi (26€ complet) est un petit miracle, tandis que le soir se révèle plus audacieux.",
     insider_tip: "• Le rapport qualité-prix de la formule déjeuner à 26€ est l’un des meilleurs du quartier, foncez.\n• Le soir, la cuisson au barbecue binchotan est reine : le Bar de ligne ou le Rumsteck sont souvent impressionnants.\n• Laissez le sommelier Félix Perrotte vous guider les yeux fermés sur la carte des vins.",
     expert_catchline: "Néo-bistrot franco-japonais où les produits bruts français rencontrent la précision du barbecue binchotan.",
     specials: {
-        cuisine: ["Cuisson au Binchotan", "Gravelax de dorade", "Rumsteck de Salers", "Pêche pochée à la verveine"],
+        cuisine: ["Japonais"],
         drinks: ["Sélection pointue de vins nature et biodynamiques", "Accords originaux du sommelier"],
-        must_eat: "N’importe quel produit magnifié au grill binchotan (souvent du poisson ou du boeuf de Salers).",
+        must_eat: "Cuisine japonaise. N’importe quel produit magnifié au grill binchotan (souvent du poisson ou du boeuf de Salers).",
         must_drink: "Faites confiance à Félix Perrotte pour dénicher la pépite hors des sentiers battus."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. N’importe quel produit magnifié au grill binchotan (souvent du poisson ou du boeuf de Salers).",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

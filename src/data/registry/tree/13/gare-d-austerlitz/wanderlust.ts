@@ -4,7 +4,7 @@ export const wanderlust: SurgicalPlace = {
     "id": "poi-005",
     "name": "Wanderlust",
     "slug": "wanderlust",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "club-plein-air"
     ],
@@ -13,6 +13,7 @@ export const wanderlust: SurgicalPlace = {
     "location": {
         "address": "32 Quai d’Austerlitz",
         "arrondissement": 13,
+        google_id: "TODO",
         "lat": 48.840136,
         "lng": 2.370589,
         "nearest_metro": "Gare d’Austerlitz",
@@ -47,9 +48,24 @@ export const wanderlust: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cit%C3%A9_de_la_Mode_et_du_Design.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/wanderlust/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Club-plein-air. Wanderlust.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

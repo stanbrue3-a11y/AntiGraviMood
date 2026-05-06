@@ -5,7 +5,7 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   slug: "bouillon-chartier-gare-de-l-est",
   name: "Bouillon Chartier Gare de l’Est",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bouillon'],
   location: {
     address: "5 Rue du 8 Mai 1945, 75010 Paris, France",
     arrondissement: 10,
@@ -80,19 +80,31 @@ export const bouillon_chartier_gare_de_l_est: SurgicalPlace = {
   description: "Dernier né de la famille ouvert en 2019 juste en face de la Gare de l’Est, ce bouillon perpétue la tradition du ’bien manger pour pas cher’. Dans un cadre qui semble avoir toujours existé, on y retrouve le ballet incessant des serveurs et les plats qui ont fait la renommée de l’enseigne. L’escale parfaite avant de prendre un train ou après une balade sur les quais du canal.",
   insider_tip: "• Idéal pour les voyageurs pressés : le service est l’un des plus rapides de Paris.\n• La salle est un peu plus ’aérée’ que celle des Grands Boulevards, ce qui rend l’expérience légèrement moins bruyante.\n• Demandez un ’quart de bouillon rouge’ pour accompagner votre choucroute, une tradition de l’adresse.",
   specials: {
-    cuisine: ["Française", "Bouillon", "Populaire"],
+    cuisine: ["Bouillon"],
     drinks: ["Bouillon Rouge", "Café"],
-    must_eat: "Cuisine française. Œufs Mayonnaise & Choucroute alsacienne",
+    must_eat: "Cuisine française traditionnelle. ",
   },
-  images: {
-    hero: "AU_ZVEFgb3FP-1l9dJLqkB7K6VRed_N2iVVyoLYynk4fu9Neg3_AQOh2Qcx-tXFG7qhYQ_XwLUO-8DmyqOX5VIKenNXHUdyYCrkXFYhREjOwRWEVdEKZJdBGAxzhHNUFm35fgo61fXRhpRapWZL3e43tR5yp6wvCmNnG1dsKg889gs0NRwwePmYZ49WYQhY5-7Ldwc1MjKyIWwgo2bvxmUnqPsfyNFV-s95TlzY0WTQ1lMNiTmnm92ANhbff9Qd2bGR3WSrSjjZNQJhA3lqSCF7cNUYnYxo3mRkZTEOcrZ0ZIMt92w",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/hero.jpg",
     gallery: [
-      "AU_ZVEGRMJ-66S8eAkbum6rFOjKO32DeuUyUJNZz7amPHm-iIiPMAI10x56cvdj7mlL9cdr4CckdHoJhQDPAxSdQfY_kg4nQL-ME2RnjQm0fV0QzC02bcTTbNGUTLznws98ngrJN3a6tVqgJqWjuasFl8CgAOWi8jicBklgqvaznHN0oyjkhHuaxFmDYY6abc2RNt0rrqc90nJIgZbM89EApXgUSiwqmpxC_gSLA38JeA3mIEKO3j04M35ks38Ib6zfg9aaFBzfz4Da4aVye2YfabwYJDEusphGk4X51C9AQRdppHq1VSAe50_lB-kRP90PfmizD3QX76yP6DRpkH9uITify_DMZRNC6CeBZ9Atq-5Hr1NKhYzxYP5f4ofxXAcm57JLOUuCyOib9Xn7aJ7pL-V7FNJd8vJ7skHTAIEZc18efWBEXzyuG5HddEUKH8MQ7",
-      "AU_ZVEEhsNOQKIuO_NjIrZ7-0ISU5VFJLgIEhAyyuZOiTKY0VLiEWsSM_euYN5URSsEc2jH1dLAMVvm4Ht5C36YV4_q9l_FxOrXFhDc7xGc0fUuraA7ECVfXhBsB_sR1NP1wmuaUkt-Mybz48MXpcVHBnFfq2iS69VmsYQoRc9aC9odr5SaUMFJYYaiCjKmXAyS7sKTGygEzBQ2VgSCaLqxO-d58hQ3Xahl6NFdiNsKXZxPeabyLs3jaoKYR73qO3esn66TKEBxIIacLrjysRRwxOVlGRonIm1Qd9gJ3PlzJ8P9u-A"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/bouillon-chartier-gare-de-l-est/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française traditionnelle. ",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default bouillon_chartier_gare_de_l_est;

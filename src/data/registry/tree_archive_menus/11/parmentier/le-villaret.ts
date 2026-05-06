@@ -1,0 +1,109 @@
+import { SurgicalPlace } from '../../../type-definition';
+
+export const le_villaret: SurgicalPlace = {
+    id: "poi-le-villaret",
+    name: "Le Villaret",
+    slug: "le-villaret",
+    category: "restaurant",
+    subcategory: ['français'],
+    location: {
+        address: "13 Rue Ternaux",
+        arrondissement: 11,
+        lat: 48.86431899999999,
+        lng: 2.372838,
+        nearest_metro: "Parmentier",
+        metro_lines: [3],
+        google_id: "ChIJRV4qmfxt5kcR8htPBNXSGKE"
+    },
+    moods: {
+        chill: 70,
+        festif: 5,
+        culturel: 25
+    },
+    practical: {
+        opening_hours_raw: "lundi: Fermé\nmardi: 12:00–14:30, 19:00–22:30\nmercredi: 12:00–14:30, 19:00–22:30\njeudi: 12:00–14:30, 19:00–22:30\nvendredi: 12:00–14:30, 19:00–22:30\nsamedi: 12:00–14:30, 19:00–22:00\ndimanche: Fermé",
+        reservation_policy: "resa_conseillee",
+        terrace: false,
+        accessibility: true,
+        main_action: {
+            type: "site",
+            url: "https://www.levillaret-restaurant.fr/",
+            label: "RÉSERVER (SITE)"
+        }
+    },
+    pricing: {
+        avg_budget: 59,
+        is_free: false,
+        pint_price: 0,
+        wine_glass: 10.00,
+        coffee_price: 3.50,
+        dish_price: 42.00, // Median of Main Courses (22€-52€)
+        last_updated: "2026-03-06",
+        menu_items: [
+            {
+                category_type: "tasting_menu",
+                display_label: "Formule Déjeuner",
+                items: [
+                    { name: "Menu Midi", price_cents: 3500 }
+                ]
+            },
+            {
+                category_type: "starter",
+                display_label: "Entrées",
+                items: [
+                    { name: "Queue de bœuf au foie gras", price_cents: 1800 },
+                    { name: "Tête de veau, sauce gribiche", price_cents: 1600 },
+                    { name: "Ris de veau doré", price_cents: 1800 },
+                    { name: "Saumon fumé maison, focaccia herbes", price_cents: 2200 },
+                    { name: "Pâté en croûte (Ris de veau, Porc, Foie gras)", price_cents: 2500 },
+                    { name: "Cervelle d’agneau et petits légumes", price_cents: 1800 }
+                ]
+            },
+            {
+                category_type: "main",
+                display_label: "Plats",
+                items: [
+                    { name: "Faux-filet de boeuf Blonde d’Aquitaine", price_cents: 4200 },
+                    { name: "Fricassée de rognons à la truffe", price_cents: 5200 },
+                    { name: "Épaule d’agneau de Lozère (pour 2)", price_cents: 9500, description: "Pièce de partage — exclue du dish_price." }
+                ]
+            },
+            {
+                category_type: "dessert",
+                display_label: "Desserts",
+                items: [
+                    { name: "Baba au rhum, gingembre et clémentine", price_cents: 1500 },
+                    { name: "Dessert du jour", price_cents: 1500 }
+                ]
+            },
+            {
+                category_type: "drink",
+                display_label: "Cave (1000+ références, dominante Bourgogne)",
+                items: [
+                    { name: "Verre de vin (à partir de)", price_cents: 1000 },
+                    { name: "Bouteille (à partir de)", price_cents: 3500 },
+                    { name: "Grands Bourgognes (armoire vitrée)", price_cents: 12000 }
+                ]
+            }
+        ]
+    },
+    images: {
+        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXgekspiDs7vs_sIVzqBkCq4Ui4p6w0LD-RWhTWEIzKD-w5nyx5YQJgd5wgO3USj7OiffQD-pQ6DQpFEiemNGn8clMIalMbyrtTjoLsJER215t0gwl7j736cPOgtzj2nENETjAD6zDfi32BYVB989wV6FUKhpcZhh37l1hug0MpNBEJTtJUwRIsA5lOtDONa0iFUCWyxmStbv8rd9Z4RaM8MRYWVpObxCKGb1pgNlZuE1IWxhxjGACGeFpmiDhNAZY0B8uYLOtzUb2rpVdPJ1Yio6thKjyYzqX_FWJkGYwy73YuCG15OKzsZZUsKLGSt_E5A2CrNQ_vwYMKJWma9yWyDUzcE4koHRNe6_S3QSgpyORCLxtbd1vpnuEqMvpo5sHCC3YKi3989rL2KnGIQDRkLDcQyrq8ziu-iUX3AsE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        gallery: [
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWcYoOY4n52WdebbaC5szQHaBFgvSm43gu14bPTLE4b1FMgmpVLmwX5y4JdClV8_1bOSqpeV0IrfN18uU0dCxcuV1G7M2nn53E_2DHmkTzOg99P1co-1ZhhucGQoSrK28mhvxCHdVzNHf0Pq-umg2stjjTYshyMAC17ijLLGh1dWy-GUk8KW0MCYbpTScugiqr1JSVxQ9-2TiX2veG1YNri8ynYWRjh46Ywteo0atqIDXOOjarhnhFFBhoj_zbhBRLZnghN7H9q0Gc6xAtaQxkyeCIPq3GztEr-gnh_3sl-GzA6ir9WeAjiA62s4bpPsNprcbfv615iU75HLzN5r40GAkXkvB0qTrnVDslb8sTfRdlFqKTS3IYe2nGZmVv4cXi_qmg2TGqrLUXGFukjPahFuCNkbzW-1PSup36u8HLL0BWSvKgOv746s2aHKpKE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXZgqkwbVyPHqLldqXrYfW_9khmmg2fi28eCvT5UwfOV4OKNmKt0IGS5ny6qbPYWFJfs6gOO6RP7g6_-q9r8a3mNooT-Bq0V3EmjPRWSYKZeub6VMWeGqJwU9t7t-IzUNc9_0mX2tUefjhp_22KuMdzOAz2hzUou3-lVvI9vBJWN6bt_xvtuHXiiprt6D-mu1BS2rVFdIwDzXZJUVKngsqCnjv-R2CuQiUjMZk6KPFj2Sm_C-4RSKJQV_liAMaacpmyzLdGDS8AIlBddPSDlog1quJZH4ddVhfkSiHtK8Cu-pDyemgmhR-lhpwd5y0BEOPPOeF2PYCRBTYSD3YAahAXjS2P96dnvq7NitvaBEiTOCrgFJemp_WLLIflhGYRcEh8KLICLESkwo4DQCyQGxWnGmQhSdugjzZvoz0-wYCh_QjciayqMmuMGIOkQRhI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+        ]
+    },
+    instagram_handle: "levillaret",
+    verified: true,
+    google_rating: 4.4,
+    description: "Le Villaret est le bistrot gastronomique d’Olivier Gaslain, niché dans une ruequiète du 11ème. La carte est courte, ultra-saisonnière, et met en avant les produits nobles : rognons truffés, boeuf Blonde d’Aquitaine, agneau de Lozère. Mais le vrai trésor, c’est la cave : plus de 1000 références avec une dominante bourguignonne magistrale, présentées dans une armoire vitrée spectaculaire.",
+    insider_tip: "• La cave de 1000+ références est LE trésor caché — demandez à voir l’armoire vitrée qui contient les Bourgognes rares.\n• La fricassée de rognons à la truffe (52€) est le plat signature pour les amateurs.\n• Le menu midi à 35€ est le point d’entrée idéal pour découvrir le chef.\n• L’épaule d’agneau de Lozère (95€ pour 2) se partage et se commande à l’avance.",
+    expert_catchline: "Le bistrot du terroir noble : rognons truffés, agneau de Lozère et 1000 vins en armoire vitrée.",
+    specials: {
+        cuisine: ["Fricassée de rognons à la truffe", "Faux-filet Blonde d’Aquitaine", "Épaule d’agneau Lozère", "Queue de boeuf au foie gras"],
+        drinks: ["Cave 1000+ références", "Grands Bourgognes", "Armoire vitrée spectaculaire"],
+        must_eat: "La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d’Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
+        must_drink: "La cave est le nerf de guerre : 1000+ références, dominante Bourgogne et Rhône. Les verres démarrent à 10€ mais laissez-vous guider vers une bouteille — le rapport qualité-prix est honnête."
+    }
+};

@@ -5,7 +5,7 @@ export const brasserie_rosie: SurgicalPlace = {
     name: "Brasserie Rosie",
     slug: "brasserie-rosie",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['brasserie'],
     location: {
         address: "53 Rue du Faubourg Saint-Antoine",
         arrondissement: 11,
@@ -108,13 +108,16 @@ export const brasserie_rosie: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUvNAXEO_VpHe8y7kMEuKoFLTBdaNDeIC84jE-qjpZjI_X-1UrW478Q5vT6Qsdbma2uNGdxBwxKb_XGTxc8RV5jDyzLRhXSS_oXedRBuxg5exMsQBvR0_ukb694pmDgJm9hLaoPIXiR604FH_TKWw9cNdIBPWOcROVB1YUeoWoUSs_Atf244vo1EbsHTB0sJ8pv3FWqHCltsgWdy68NQa5ruuKNk7D5wtaLSwiQo-QwgZBxo1vNUXJBm0WEt8ftt9s05y6sozaIh1TDKpWt5RnzxGd1WrjxJeADCiMTK9igZw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXIaXQ0ik95okz48pzc1tcfiPWHPkGP-kB92d-zr-HmXVVtlMbw2nEtuUQrQOIdEvY16-k2u3MVXgTZ2EMgoOiymFQLs96j7qsWIEWeZhrmusTggVJ38xAd-yY5b2QgESYSjxzMQLbBT4DLD3qW-bNrunAU2FdC4bOtXuLlIfqxmdZRQzMPr4vHBYnbCJg5ARSA60JtjIhZLwGJoR1WcdyJFg1egoQy_iGRdVR6brLcHQt80uSQYhiciAS-4hgxRgpn7-AW0Bjr9-S2AIqVmlZfWDhtLALC1jKK1VOzacCGd61GCpR4R4rqLtJfQN4ezk7vbNmM-aBf75i-GU0o70XKvo19fLFS_TlX1NCbxt0iZ6km5Le5E0MCMY0PbMzFQjmxHmuaZcFYTFAE6fsJ7dCtCQ5LgY-ekrANUKfq0549PhtNDpHhE3nOweCldg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUdWpzOzfIuVZDOD0mfWUfkdvxiXs9hxAxD1djDwg4HFkfcR5VlsMmnXVVdSAUBoHMAF3R2GA8u0EifmK_0oP3iH96knLOM9xLd4Ow5XFk6Kd-KB0sxEhSPSbK5hYVdkw77CH5D7-0-rTFLxx5mAWaEpjqC9IhZl5sPbkgqKnkY2PtVo396YeOAJrBkKj4HVTz--zW46o6xsOsZBYPP0F1uYJbWc0x0QYLx_Vmw2aYNKwg7xuR2oDaJLq1_ky9dTNUHVnInWr68GC3saPjTpR3jC8OfWgW6XAIUkkcTEooa5Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/brasserie-rosie/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "brasserierosie",
     verified: true,
     google_rating: 4.7,
@@ -122,9 +125,18 @@ export const brasserie_rosie: SurgicalPlace = {
     insider_tip: "• Les saloirs/boutiques privatisables au premier étage valent le coup d’œil.\n• Pour une brasserie aussi stylisée, le rapport qualité/prix (notamment la formule à 19,50€ le midi) est imbattable dans ce quartier.\n• Le Paris-Brest y est stratosphérique, il justifie presque le déplacement.",
     expert_catchline: "La néo-brasserie parfaite : déco dingue, 100% fait-maison, et coquillettes à la truffe en étendard.",
     specials: {
-        cuisine: ["Coquillettes truffe/jambon", "Paris-Brest de folie"],
+        cuisine: ["Brasserie"],
         drinks: ["Pinte de blonde rafraîchissante"],
-        must_eat: "Vous n’aurez d'autre choix que de sombrer devant les réjouissantes coquillettes à la crème de truffes (servies dans leur poêlon en cuivre).",
+        must_eat: "Cuisine de brasserie. Vous n’aurez d’autre choix que de sombrer devant les réjouissantes coquillettes à la crème de truffes (servies dans leur poêlon en cuivre).",
         must_drink: "Restez sur de bons basiques traditionnels comme une pinte de bière artisanale."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de brasserie. Vous n’aurez d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const l_agape: SurgicalPlace = {
   slug: "l-agape",
   name: "L’Agapé",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['japonais'],
   location: {
     address: "51 Rue Jouffroy d’Abbans, 75017 Paris, France",
     arrondissement: 17,
@@ -91,17 +91,32 @@ export const l_agape: SurgicalPlace = {
   • **Expérience Culturelle** : La sélection de fromages de chez Bernard Antony est l’une des meilleures de Paris ; une étape obligatoire pour les amateurs.`,
   expert_catchline: "L’harmonie parfaite entre la rigueur gastronomique et l'émotion du produit brut.",
   specials: {
-    cuisine: ["Gastronomique"],
+    cuisine: ["Japonais"],
     drinks: ["Grands Crus", "Champagnes"],
-    must_eat: "Cuisine gastronomique. Les tagliatelles de seiche ou le homard bleu de Roscoff.",
+    must_eat: "Cuisine japonaise. Les tagliatelles de seiche ou le homard bleu de Roscoff.",
   },
-  images: {
-    hero: "AU_ZVEF0pLJiFQIX12Zp-JsZFsdg4rj0QdnF56vVck4NoLo48YWESkOFfBiUNho_yx-KHJxHbek5TmSVRyXWEgNd_ItCaRUFySwEur6zumJQDz1_ey-8upZwkNXznhait-5z7jbD1dLP1fMnvF8wrP2GEpFgadYuOQBRTOxpPL1uxUeie5fN5_FDZWFuzm9kelDszJgy9ICYzsoc6EJZ0_zhvWAaPcY4SY79YZ-ioFXmDgPptK_3rPJARuDwPylmSUD3vJzkeU4vY35_ZQ88mIts4o5ZH3L_Gp2ZtpxYehwGo5K52z42MZ852jyl1GgN1h9KkskcChXSlj5l8QO8bTUQLiYkE0eMKYD5cuXGUnzL8KVwpD-jB-CyottxtpJeWloyOQesZnCstiKETuDSqrxtRLfXPo1l3y7Yg0Qv6_2g9Vpg6gqD",
-    gallery: ["AU_ZVEF_7As0WHYgX16TRc03PWRItQQDVX86rAU4KNqq2eE5vkcFxcf73-NuT9YQHWepat3K5XCCtcEZtzluJ1M_tqc7vtRDTOhveKenrDKPYc-rr6oHgRoFaNYxAvDBEq-MXRrCqY3ASc5dioLyY94to_xnRDR1EIAqWkrsU9iLyykwgtMtrCc_JE38jic9jfOikYCH7fTEDJMwO3MrkDhZdZ1DYf05dWpMW-XXB1gZzfnfwNYrQyPFJYUsEKRPI17NPzWSUw0Sl90jf5_xZC4vM6DfA9DAd_0gq4M_5dPDD_OJQw","AU_ZVEG5FAQfABytewmTFxRF5QyWO-DlZuWNkPvYPbEnCsZJEZWnELQ9ENJbEVyBHtn8TqrTCWKquqreJs271nPN310Wg_JMbSiwhM1gguwGD7q1ayI-MOdpVYs_7qnIJ0IL7NVSWNjsQwYu15ev6Q64c_0pdHRjhf5m2khCt7BW_d-ja_rGd7plL7fCs_mtIT4YgQBa_rX3M06Bb_csXmdOFmdth-y7XYvtr-xit5KjLT2dwvl-FFwOdO4nGi19RaZws4i5HzTOgEOVoA7WGabfALO7u4s31A0LbbCSHXC4ylm5Xq6MFNwdjl-gvzV95XMyuVppaQ9PEAx938RIfgXd_Q3hs91RgJmv6UXdCLdq6-zxATTT_htG6Z_US0tCIaGpH1HLWP93EhohlCcSEDi6NP0t0EKbRlY-zhIuvT7JBtvU4PxOuzqhhg35EKpcjw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-agape/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.4,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Les tagliatelles de seiche ou le homard bleu de Roscoff.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_agape;

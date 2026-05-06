@@ -78,16 +78,31 @@ export const le_vieux_chalet: SurgicalPlace = {
   description: "Un secret bien gardé de la rue Norvins. Ce restaurant rustique cache l’un des plus beaux jardins-terrasses de la Butte. On y déguste une cuisine française familiale et sans prétention, à l’ombre des arbres, loin de l’agitation de la place du Tertre voisine.",
   insider_tip: "• **Timing Stratégique** : En été, demandez impérativement une table dans le jardin intérieur, loin de la rumeur de la rue Norvins.\n• **Combo Moelle** : Le Confit de Canard est ici une référence, particulièrement avec les pommes de terre à la lyonnaise.\n• **Expérience Culturelle** : Prenez le temps d’observer les photos d'époque aux murs ; elles racontent le Montmartre des peintres et des poètes.",
   specials: {
-    cuisine: ["Française Traditionnelle", "Bourgeoise"],
+    cuisine: ["Français"],
     drinks: ["Grands Vins", "Liqueurs Artisanales"],
-    must_eat: "Cuisine française traditionnelle. Confit de canard & Tarte Tatin maison",
+    must_eat: "Cuisine Français.",
   },
-  images: {
-    hero: "AU_ZVEFT1s6n1BD1XttMF3dc13AjHlU7UitqE3BbiDTsv9voO6Eo7RrG87_tpwfkOSc32sSVPX0yz3RfI_3pnrv481SW-OnQDuJk7xLEWI-eCqKZGvVKy4ngZj76aF_DecEytg8lmLNWso3L-UsL1Wu9bsKblWwe-V4H610Hip9snoCiqKv0BC_D1sixUrKi1l_aDu0QgXn4qpc_RGPYK3UcRrx54LBbJpDLM8wAZezJtoogygtVjA-FSFMU1tJLXdv8PC4KFjBzA8yXuFz0xfZ-KdjyNbGlaDeEkc-cEuueLQXz-zhsT8B4OpqF8dYmHRhXFhh7AGcUcDaL9t0swyULuqqaY_YCxRscEvi3hMLkhyuSgxPeXArxUTGoxmjL4WV5FjPOyy9jjJuQIM1ruUvCrXSsr02jk359CAgDCbZzsXNnEg",
-    gallery: ["AU_ZVEHk3o_cYLiTuNeUCgzrQ6HqYF7eaj3uepvp5mBaymMritM6RtvoKLC9xh3lH4CpGUHvBBJGoqkirkFpCwrPmAwIkx9pDv0ImRxry3mxOXuchOXhPvz2-fhEadQCRubEdlfxJRBFEh3yw1Ua0R4Foq11ppngMIdbM_lnuycka3S5eYX8Um9Dql0nGawdaqtlKW5gZ0NrPq-ok_HnVnKJ2fmHpf3gqVXR7NxfGdXmHAOwD_whzItKtSRxV1AG92gn6aWzNUBYHrmQordjaD5pfkCqV59tMpprPv625Ijo9LOK86iLxotRnS5oS7Gg5TezwHRA6udHfgGY1glMvL3xz7Nyju0gZmPzqxWQgjLN1KDYAyD8_5Q7-VRRt5SM1AgH2Ld47LwaeeDGY3QKAl5of203dC-GNrbZaA_ePvR1i18","AU_ZVEFaC7vfdGqI6LK33upHP2buo4VimZvmZyVHNkVh2z8AQSX7MBX0k0XGBwDFLrZlMysGfapykrEGiwlGjpsGO-ut3zoUQy0_gLcPrMx21tc6oYeqJMM0q13FrKMrkTiW1X7AVPFKpg9Slo-bE0b602Fa65f4Zy4dHMRWjApn3P-BqFbtZ6-d26xb_vkUy0fx_yJ21-BhLgYBt4ps4d2TxjvdunwYiY8XIQ-aPXIZh0ZKjtLL6IZQiWW3LDLQ5dK9Bply_NEgAqOLQw-VsgtFRyVmrxZBBGTtu2FuUf18BJJwrx8r-3Yz6Us_Eh2i29OdCn3YSgOe86cIT_BnuMiRQ09EiqW6JneWJrMSIkP73l_1gXAA5PLHQtW4pY8AGtDJcBQ_fPdzE08n0YV2BPcIGzsud8gHL3XeZ6HxA1_fISdmUA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-vieux-chalet/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine Français.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_vieux_chalet;

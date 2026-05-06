@@ -42,22 +42,37 @@ export const epicerie_hectare: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  expert_catchline: `Un établissement authentique qui incarne l'art de vivre parisien avec sincérité.`,
+  insider_tip: `• **Timing Stratégique** : Profiter de l'ouverture pour une expérience privilégiée.
+  • **Combo Moelle** : La suggestion du chef, gage de qualité et de fraîcheur.
+  • **Expérience Culturelle** : Une immersion au cœur de l'histoire du quartier.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: `Cuisine [Type]. TODO`,
+    must_eat: `Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.`,
   },
-  images: {
-    hero: "AU_ZVEEsoVWtEKw51PXAWJ8F1vrue-Hb5Tlj_4pWW2v8tsV0IsdpD0gmayc8Z3vmIDG7jCqIMjF53hAoJ3hdAvmbNQBUc5rvsXeBz-0K-4DMLzS_u5BpomsKTw3NdmW0g7eoWA6W33gCdjyoH3oZUPyxverDWDyAfC4Ts6kltJCUdq7LYjHtSfXWa8fu8TSgkwydtBDiR1BFjotJZbsP76Ta3dmIorS8FsYBGvaHq22VwQ9XTOlCYj1cvEqM9meQBkEbarTw1ZfFZBZbhE1NKbwzEZC58WPz-5aDIKsbnsKos6tjKg",
-    gallery: ["AU_ZVEE7l0NLT3fZW-GrfPg4wPUVZkAxe1t9BVSn1BiI01zeK5yZRjQ6x7YXF2EEroDRIBgJV_srH3hI6xiuSD1wHf8CfJO3qDY3xAgZRXk3ORQWOqtta9IubNv1oynemoeHMmCOgmeKBvz6fpJBAjC_EJOT3bsgnzjKYkm5hEZFlBoMelvux5VmIBIsJDFMo5CAaLkXMhMBeTgzTNMiamsmJQUcQQQZF3gsIKnPrHIgo1zX3VWXyr9qyjx5hPWBKDFIpMseBRwvnBqgIMjI9EjDyhC43xc3Iu4d1uYvxS3tmOrPp1E9sZ4pbouxk_RskczJfw1dJwFRZOERhdi5x1Bh7q6XCqDtC9y4Dg6BgMcumNdeeUaJcVFSjgU5b2jks0GL9YAOYaCI6m_OlZ9dg9fi3m3MpXrWy3zdZzEpgnLRbBXupA","AU_ZVEFv1KWT036px9Wq4Ksy5QJ5NCXCa_yFE8sqchp6Bb9AHA9SO_gO9NV3SWqBrG7HJ3rvFWLswPGikf_N8YTG057-7oUXUU1rlJ3Z-ShSvM4O2PUTFWxYCt2dD6qsGFPVC3fep3Ddgm-LODyD838EgMUQWoRs-m6DWGUTTfm68sdUuIXvhdPqwT9x9dKy1sFyFyiJV32EgW75k2JEPezDnkSkTw6fBLj9TPh-wgeV6U16L_19hxYkk-LmBzQSqfMKyDuUv2jvJosjzUGqqg3fPmMvigBb-wLQpKG40oczikW4pg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/epicerie-hectare/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Epicerie Hectare.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default epicerie_hectare;

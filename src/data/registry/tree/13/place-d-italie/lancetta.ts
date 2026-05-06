@@ -5,7 +5,7 @@ export const lancetta: SurgicalPlace = {
     name: "Lancetta",
     slug: "lancetta",
     category: "restaurant",
-    subcategory: ['italien', 'pizzeria', 'français'],
+    subcategory: ['italien'],
     location: {
         address: "26 Rue Bobillot",
         arrondissement: 13,
@@ -99,10 +99,16 @@ export const lancetta: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVXYOe3SVR15OP6pI732O7DV9_qSAE-lvmHZKM_voxyX9c2UGPRVQFcSkMvszwjb6pvAxpwbPIJ1J3yejKrZF8NK19yz4L5DA_BlcFn9EMaKj9a7bUButz5eDfGFa4Rst_IogeAdx1nvlO6V1x6EcEzeipgbapD_5AlP79lK48YoVSAmaZmgpyk8ZukfiSvjZ6VSwZ2phHzQwY54nFCO68EmvHMhggaIXCjvBWMB1tyepAWuxUU7Um-AabNwftuoM3x3bqwWDAE7CFK4PtJIM_i-n7eW8z-mbEUTennp0XD2tobOr8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/lancetta/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lancetta_paris",
     verified: true,
     google_rating: 4.8,
@@ -110,9 +116,18 @@ export const lancetta: SurgicalPlace = {
     insider_tip: "• Une salle à manger se trouve à l’étage, n’hésitez pas à la demander lors de votre réservation si vous souhaitez un cadre plus intimiste.\n• Le restaurant est fermé le dimanche et le lundi midi.\n• Pensez à garder une petite place pour les desserts, les habitués considèrent leurs Cannoli siciliens comme l’un des meilleurs de Paris.",
     expert_catchline: "Superbe trattoria italienne confidentielle et chaleureuse du 13ème arrondissement.",
     specials: {
-        cuisine: ["Tagliatelle à la truffe", "Fleurs de courgette en beignet", "Cannoli siciliens", "Linguine Frutti di Mare"],
+        cuisine: ["Italien"],
         drinks: ["Spritz", "Vin italien"],
-        must_eat: "L’art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare.",
+        must_eat: "Cuisine italienne. L’art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare.",
         must_drink: "Sélection solide de vins italiens de petits producteurs et classiques Spritz pour l’aperitivo."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. L’art de la pasta. Ne passez pas à côté des beignets de fleurs de courgettes (14€) en entrée. Le plat phare : les incroyables Tagliatelle tartufate (19€) ou de puissantes Linguine frutti di mare.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -42,22 +42,37 @@ export const restaurant_l_oyat: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  expert_catchline: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  insider_tip: `• **Timing Stratégique** : Arriver au moment de l'ouverture pour savourer le calme du lieu.
+  • **Combo Moelle** : La suggestion du jour accompagnée d'une boisson artisanale.
+  • **Expérience Culturelle** : Une immersion dans l'ambiance unique de ce quartier historique.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEEy94qthh_KL7jnntULg7G2Ngcx5opKVAd6ykL8fvkrj1YknMuxw1JdnrkYZDeBt2qxh8AY0bFM8Zpj7-A8g1Hvt-5ziiHX19f1tLPVLeU6rN-7wqj2WqHlHmtFKaI_Ux_J723whNly6EkaSfbUMEsLq6odVutlwY2rl1GyykGgO_K9UVCMdS6yzsZK0s9upSVXyCAFoz8MhgouWWy34zpJ7pO0AKEXa37icTaRiZhwmgZ8mCdi7DJIyxbrZLYnRnkOKqsdAyTyi7nS_fcXR6YWlJGk7j0Nrvu8hy1f8WP_lg",
-    gallery: ["AU_ZVEHOGL2hDODapXupfNKoSS7BbjT9dxPrnViNcQXUCqZyfqxn2DmnPRpBvdFmOHZ6eSev89G0Y1A19priFwi2UKokAfRyO_3sMw8lzmv7kjf7ts9JG0RkXVK1JnjRIl8Esy0H4Bvuxt3U-yJ4MIyY9a5VmvjwDql5EpxB-lWhHiEJ9D_jEJrAq_KXAL0iGa9GTo0S1h8mDnfy8SxPgAzqLPt9gmrKnnEjzpxT44HpNIuBA4fhv1rcf9NtTQ1RdYbwDW9HEQkK9TypxLUL8RsszRsUDTuktkHGxXN_lGpmZZgMqA","AU_ZVEEmYQfY1MRtn-BD59_5s-U40TQCB3elYbSjZK8Y_qpX_CSpP6jQ9DZkbElPyWuEOGy5dw7FGU4L3lc8qqr6VEoIfQbp6lGIm1sFNIQFwKqo7A6ctdlz3AqaOGmzYqdxQYYJldfjLyITtWMPpbH9jQIexBIpC5vfzzis_A_r1J0TdNZAY_KIRMIpWrnziAmSumL5pcSYXHcAiXNsnvY1X_UmBob94wBVeG98DxJObaZrPmC63XTwUJ5LxZr5ecg6IoImMbFK-i-iTz2Q6Hpp5v2oi1O1fKdPPYQAxJr2UFX8KTzmYz0gf7aArCK8x2Zml7p4Uj5cRLqLrggIN9xU6QMolinWYqDfyjJEoJ4M6aWonKVSttbDFyoSJVeU33QDfRYJ3F6ZyuG4O1QZiCbJmAbBtJT_fo_QYh9DMSgfTsPxGm2y6zj5eVMnCevS1g"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/restaurant-l-oyat/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.7
+  google_rating: 4.7,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default restaurant_l_oyat;

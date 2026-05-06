@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const triplettaGaite: SurgicalPlace = {
+export const tripletta: SurgicalPlace = {
     id: "poi-tripletta-gaite-75014",
     name: "Tripletta Gaité",
     slug: "tripletta-gaite-paris-14",
     category: "restaurant",
-    subcategory: ['français', 'italien', 'terrasse'],
+    subcategory: ['italien'],
     location: {
         address: "1 Impasse de la Gaité, 75014 Paris, France",
         arrondissement: 14,
@@ -74,22 +74,35 @@ export const triplettaGaite: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVE3js4xRE6riUbYjAcuwcjd15Y5f_QWkCwhu4XOgahl7wKE4HW_VL6jqZppldAwGDmdS9cY06p14wIXKu-_LnewgyyJKjWyA3k6QVta8HnXQE9eo4InOkT-4mgHvn1uW3JN1UcT7jnxkS3vc56UUkYEHsZNJd4RM1Zx2KLiEJJUMbmIrqYzFcvoASsCFOd-UaMu6rwVyBSuo1nK3-qx5kubDa0j8NIdtbDZdpjGxSgcCFWCYncwmtkTgwmNPIefLwwzpv52KBE5onZXSkYc85boyk4_faBq8fiUTdLi0Y3FQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfU3bhHEvh387FEgwmdnQiLypByPjroJZTydAkuOk1EBlSK8e7zr7SastA_ZJc6QiWjpZaIZJuARhVjuUfuiooTsST9dKK1UTDzsgM8jpAOIvlwStTgLXkwwztWwLy5zio-G7_XCKlKqCFH3c-I9ILDTb23E9mjqUI85WB-FBWKGMgn6q7pgStJxOoi1XNjDcqo6bsngWETY1m2cOC_O0oT-P571zNx7eHjHAMzvd3dtmvIJwVU4TKWA7-4agqdgwXR-bmW6NIlwONgPyzJTx5xo4M5IjrvxBXj4Eqy2m9NHpu3SIt4ffztwru9vbDOlANhKefeW-AuJFs7Av5xe-8IaRx-FhUXtR2NpDf-ttTga1XcjJK3Co5OZnmPyzcsJFFgZVZREFk0y0xM4FlLnlxJ25zL5t7TBU1_6O21Jqwx-49L8mIAujf_ZrRrVaA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tripletta-gaite-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Tripletta Gaité est l’ambassade de la pizza napolitaine dans le quartier de la Gaité. Avec son four à bois imposant et sa décoration industrielle chaleureuse, le lieu dégage une énergie vibrante dès l’entrée. La pâte, longuement maturée, est une merveille de légèreté et de moelleux, garnie de produits sourcés directement en Italie. La terrasse, située dans une petite impasse calme, est une pépite rare dans ce quartier animé. C’est l'adresse idéale pour une pizza entre amis avant une séance de théâtre.",
     insider_tip: "Demandez une table en terrasse si le temps le permet, l’impasse est très charmante. La pizza Tripletta avec sa N'duja (saucisse piquante calabraise) est un must pour les amateurs de sensations fortes.",
     expert_catchline: "La pizza napolitaine pure et vibrante à Montparnasse.",
     specials: {
-        cuisine: ["Napolitaine", "Italienne Contemporaine"],
+        cuisine: ["Italien"],
         drinks: ["Spritz", "Vins Italiens Bio", "Bières Artisanales"],
-        must_eat: "La pizza Tripletta et la Burrata Pugliese.",
+        must_eat: "Cuisine italienne. La pizza Tripletta et la Burrata Pugliese.",
         must_drink: "Un Spritz classique ou un vin rouge des Pouilles."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La pizza Tripletta et la Burrata Pugliese.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

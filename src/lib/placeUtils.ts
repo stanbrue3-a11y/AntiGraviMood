@@ -24,18 +24,15 @@ export const getPlaceImages = (p: Place | PlaceSkeleton) => {
 
   // 2. Google Places API (Only for full Places, skeletons stick to hero/local)
   const googlePhotos = (p.media as Record<string, unknown>)?.google_photos as string[] | undefined;
-  if (images.length < 5 && googlePhotos && googlePhotos.length > 0) {
-    const remaining = 5 - images.length;
-    const photosToAdd = googlePhotos.slice(0, remaining);
-
-    photosToAdd.forEach((photo: string) => {
+  if (googlePhotos && googlePhotos.length > 0) {
+    googlePhotos.forEach((photo: string) => {
       // If it's already a full URL (from compile), use it directly
       if (photo.startsWith('http')) {
         if (!images.includes(photo)) images.push(photo);
       } else {
         // It's a raw photo_reference, build the URL
         const url = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photo}&key=${GOOGLE_API_KEY}`;
-        images.push(url);
+        if (!images.includes(url)) images.push(url);
       }
     });
   }

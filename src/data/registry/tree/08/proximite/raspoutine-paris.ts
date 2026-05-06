@@ -4,7 +4,7 @@ export const raspoutine_paris: SurgicalPlace = {
     "id": "poi-180",
     "name": "Raspoutine",
     "slug": "raspoutine-paris",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "club-select"
     ],
@@ -13,6 +13,7 @@ export const raspoutine_paris: SurgicalPlace = {
     "location": {
         "address": "58 Rue de Bassano",
         "arrondissement": 8,
+        google_id: "TODO",
         "lat": 48.871488,
         "lng": 2.300272,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const raspoutine_paris: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN1Q9pCADCg7Y1VicjRPvLmI2Y9W8z8GRoZmxqTdudc2WDDpf_L9tyFhi6cDzUFjcq9vzTY4hwXLr1BuwCsVPazrKYs5M_FBCi-YzJEW3y2MzrFslBsX7pzEi_FuUsxYGMpulqv1GqLWl1WFazLdSCZ3d13vyKYPdrUD-wvu3sVT2B0KGOG7Gmm65UmvRNIxhIloz1DWKfsZast1HpBcZILIDR5TvN3BxSUYTjSaork1EsNK9nz5wNM7BgBiRNz1Fhv8jQ5iodYC7MfIIIHi_otX87FsSZm3LTn3G-N2QnCsbsr_TLGlSIzvi-8ghFC253nrX41bdQ5lPbgCMQh1GjenRkd_y55pIz6gNgemvtk5pv_ewSgTP29AqIA2knpuDA1ARnOIf33uOpzKjLEw2buykoM8VdDPqAXnJuhxY8nuMJ8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/raspoutine-paris/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Club-select. Raspoutine.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

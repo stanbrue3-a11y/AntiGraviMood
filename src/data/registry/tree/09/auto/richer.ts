@@ -114,19 +114,31 @@ export const richer: SurgicalPlace = {
   description: "Le Richer est une institution de la rue Richer, prisé pour sa bistronomie créative et son atmosphère infatigable. Ce lieu, qui ne prend pas de réservations, incarne parfaitement l’esprit des Grands Boulevards : une cuisine exigeante dans un cadre décontracté et authentique. Les plats, renouvelés au fil des saisons, marient technique française et touches modernes. Que ce soit pour un déjeuner d'affaires ou un dîner entre amis, Le Richer offre une expérience constante où le produit est roi.",
   insider_tip: "• **Sans Réservation** : L’astuce est de venir dès l’ouverture ou après 21h30 pour éviter l’attente.\n• **Cochon Confit** : Leur éffiloché est un classique indémodable, à goûter absolument.\n• **Vins Bien Pensés** : La carte des vins, axée sur la biodynamie, recèle de pépites à prix doux, n'hésitez pas à demander conseil au sommelier.",
   specials: {
-    cuisine: ["Bistronomie créative de saison", "Produits du terroir ultra-frais", "Cuisine française moderne"],
+    cuisine: ["Français"],
     drinks: ["Belle sélection biodynamique", "Vins de vignerons indépendants", "Boissons artisanales"],
-    must_eat: "L’éffiloché de Cochon Confit (27€) : une explosion de saveurs fondantes, marque de fabrique de la maison.",
+    must_eat: "Cuisine française. L’éffiloché de Cochon Confit (27€) : une explosion de saveurs fondantes, marque de fabrique de la maison.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEH7z-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEnX-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGkY-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/richer/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’éffiloché de Cochon Confit (27€) : une explosion de saveurs fondantes, marque de fabrique de la maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default richer;

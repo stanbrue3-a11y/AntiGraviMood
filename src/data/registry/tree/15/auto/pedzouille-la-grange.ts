@@ -102,15 +102,30 @@ export const pedzouille_la_grange: SurgicalPlace = {
   • **Le Must-Eat** : Le Camembert flambé au Calvados est un spectacle visuel et gustatif incontournable pour démarrer.
   • **L'Ambiance** : Le week-end, le lieu se transforme en véritable fête foraine montagnarde avec sets DJ et karaoké improvisé.`,
   specials: {
-    cuisine: ["Française de Terroir"],
+    cuisine: ["Français"],
     must_eat: `Cuisine rustique de rooftop. Camembert flambé & Côte de bœuf maturée.`
   },
-  images: {
-    hero: "AU_ZVEE7S7O2Y2rAnvJszA-sL0z8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS",
-    gallery: ["AU_ZVEE_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS","AU_ZVEE_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS_L7rC2g-sZ_L8yAyL6Nsh9V_pE62D_oV8u7mS"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/pedzouille-la-grange/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Pedzouille La Grange.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default pedzouille_la_grange;

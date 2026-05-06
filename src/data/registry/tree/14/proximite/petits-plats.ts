@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const petitsPlats: SurgicalPlace = {
+export const petits_plats: SurgicalPlace = {
     id: "poi-petits-plats-75014",
     name: "Les Petits Plats",
     slug: "les-petits-plats-paris-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "39 Rue des Plantes, 75014 Paris, France",
         arrondissement: 14,
@@ -75,22 +75,35 @@ export const petitsPlats: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWdZXFtCimy1M-zdd5lQigNreDwIFRYZVO_owoxrPjSIUq6HZS0XD6BG4GMzj7ZaryNx_u78_NRQ8bfGulqUiXKqQfdQTsWVF6J_XiGyvtiYdWFSHG6p7uauq0E-V1R5EH307G6Y-cTV_4iJzIIuCgXUq51KL8ysetJ2U_xuU6jtUTk6s7yYbujp6f5ooNAzobdIJtviSEAA85p_hCh_Ne2v5a530NcU_sVeWU23OhU45dZX1zA6ICZhe8KrnE543FSWbVm3bucbdy2HTToYf2-ZihfJNczxTB9F5hWl48&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUOxxy5WuVVDOIwWw3WAGPhgNJ87mSM7FPhn_hw3kEzAkVQ5ywTp0wj9J6E7ZSJFBDGHCupYScfxmspWY0ty-jeOfftwGzNhhzzmHgeLB_OFWolDI_iapyS2cRS7Jye8DTWra4lkiGkRekQtPg7fDlt10TsxfXvAbm_gKOYU6Obpos7oOCpXD16uwkO4YKnYSn66V_Pr6IbJYebr5ILNWuU95z_fC9xJ_XrZd6zSS1tfkGu3YJtlX4UThDjqMY5B8H-nA8OPf_tUStQc917xp6UBGUB5KA8moSgBdxHFEE&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-plats-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Les Petits Plats, situé rue des Plantes, est l’archétype du bistrot parisien chaleureux et sincère. Ici, pas de chichis, mais une cuisine généreuse faite de produits frais et de saison. Le cadre est authentique, avec ses boiseries et ses ardoises affichant les suggestions du jour. On s’y sent tout de suite chez soi, accueilli par une équipe aux petits soins. C’est l'adresse parfaite pour un déjeuner réconfortant ou un dîner convivial entre amis autour de classiques français parfaitement exécutés.",
     insider_tip: "La mousse au chocolat est un incontournable absolu, servie comme à la maison. Le midi, la formule du jour est d’un excellent rapport qualité-prix, très prisée des habitants du quartier.",
     expert_catchline: "La sincérité du bistrot parisien dans chaque assiette.",
     specials: {
-        cuisine: ["Bistrot Traditionnel", "Cuisine Ménagère"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins au Verre", "Bière de Brasserie"],
-        must_eat: "Le Confit de Canard et les Frites Maison.",
+        must_eat: "Cuisine de bistrot. Le Confit de Canard et les Frites Maison.",
         must_drink: "Un quart de vin rouge de pays."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Confit de Canard et les Frites Maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

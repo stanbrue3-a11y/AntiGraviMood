@@ -13,6 +13,7 @@ export const le_pavillon_des_canaux: SurgicalPlace = {
     "location": {
         "address": "39 Quai de la Loire",
         "arrondissement": 19,
+        google_id: "TODO",
         "lat": 48.887433,
         "lng": 2.378698,
         "nearest_metro": "Laumière",
@@ -48,12 +49,24 @@ export const le_pavillon_des_canaux: SurgicalPlace = {
             "Café"
         ]
     },
-    "images": {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWDw0Ns1INzL4MJ1702tyldxG6aJ_MWqfaJRWOZwYYoHc0w7JXTkRIg25Lqsl2m6DLHNNdTsBecmzZ8mp7MtxETQP7CU9BVaiHyxTDrhXyqK6962WZyo6o-zY66jUYr0iqoip5THNXPTM7tIRGSEW9G88JLmEyonHmV3fTEstco1wsrbIF0NKRUNgrpP1VExQ22_X912k0GhFTEDeFSPDBLZWuhjp9Ocv4PhHeTsMh1-CV8zOc8ry32j2bIcHCQLVwXm5HY1A54asYQUicuO3Jrl8GbO_BQbmnk2Gt4SbaHkw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUi43B0OaRusU2o5BxDK1BP11G0GzIKJGEDEfefkrYZ-avDc0FILzgJqWqqsPlXQPtrd8geKuk99AJa7OO7yfgBDwsxi5E4PXkWhPRtemulU14EzMwkLMxVcMT2QtnlnGnpX-NHSZJm35G6BiDwj7msMpPqzWD9tM46n7DzSdwq9tZFaErw61Faa6fInmuBLuKe6SklX4EV4JmoCcIWIodkN1CKEa5rqSj9Ukx65ZKsslry9_GWHnnZ-SfpX97uyJPhEQozF45oWs8zwHnsXqIm2i7_IM1QIq7B7RbU-jzDFg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWAW-P3-CjpRNTPPaLgn1vvsVJGm99h_4X781lPSPvWh0cmMHEBJ035h8QGNJ5vUfPCTuL7RHtsNbTDYl8fr0pmfqI2Vk73flPNBaUREwj04y2eWj0-zZYxN9akp76HPEwPkw3LJUiwhd_v_pjAv5VH-nv0Yd8--0L_YTk0jd5zrOcoe1ZPD055zKa3LlZe1q83ZlxiJFQW4PjsPW5_8dQQKd8XGAWaWRBsIs7YCx57E-9jw0zXluIWJZmepmc80x5UkxLhwWEhbHB0U6q5zrVKt65ia5arhgGFdiNtSTBZEyKLbtBsNqlmzArEdvo9lWByCb1hSK9DPNBoKb3na-GLNiybIuciT-DGSWw7c0JfjJeBvOqdVyfeaU5DTEmQ7cMy-CTU3BF2KLdmzoK_RFX2EFD4g1H8804JE3gZDiZiO_58UoDx1dmVSTs5iVKB&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-pavillon-des-canaux/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coffee-shop. Le Pavillon des Canaux.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

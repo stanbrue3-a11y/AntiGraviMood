@@ -5,7 +5,7 @@ export const zhao_batignolles: SurgicalPlace = {
   slug: "la-taverne-de-zhao-batignolles",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "59 rue des Dames, 75017 Paris, France",
     arrondissement: 17,
@@ -85,18 +85,30 @@ export const zhao_batignolles: SurgicalPlace = {
   description: "Dernière-née du groupe (juin 2025), la Taverne Batignolles s’installe dans l’un des quartiers les plus familiaux du 17e. Avec son décor urbain et soigné, elle propose une escapade authentique aux habitants du secteur. On y retrouve l’excellence des produits ZHAO dans un cadre accueillant.",
   insider_tip: "• C’est l’adresse idéale si vous habitez le 17e et voulez un voyage culinaire sans quitter votre quartier.\n• Leur salle est conçue pour accueillir les tablées familiales du week-end, l’ambiance y est chaleureuse.\n• Ne ratez pas les Mo's en entrée, ils sont le format idéal pour un grignotage savoureux avec les enfants.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
-  images: {
-    hero: "AU_ZVEEidlTLKWiktlYtAf-Y8_1CSjSsZRwNPhVZzEMbP_n_m6rh3La_9hGgz4Np_KuaGMvb0nM_cA2s9NOy3z3y3aNbMWMlAnEal8UghHtHvgYWTmdHi3ml3mhm4TFb1mL2JgeYFlWtETbhbv88VBZj-C8JB9pH2LUCKxkww88ziDYwk0XfqpY-2Vpe32qZB6D_jiVEYca_GBj0dNqVg6fK5RRCDaV3eleQ05hkcdPsDWaHU8cAqj6TsgO4NJq-EAem0O0Lux0bNFTIDda04XtdU6dm9QUg4rGlcK0mem42kS6Lkg",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/hero.jpg",
     gallery: [
-      "AU_ZVEHJnnnxETYrUJZugPWeftsLr2AORjcpmt-iMcuZoqmAfFf9tgjkPZLkwU5VBqJ4GLkH-z5slO3uWzPYiN9xECRfeyKrHWrMjWvt4Q2dBFmqob-QBT6EVE3Tr_F7kHJjjKY-eTLXCtwT0FmMKV2_BpJZb5Ws7xYJ_GfpJbrElKT9C8aBv0x1SgbwlZVD0bEaM5Vvcpwl7BP8rMJgh-HHq0m8l6ebp-iNqGquRmnBvj1G6irAs0sYrlQp7dBZt6VI6-fL-y2TZg4hiFPNsQADfookzy2oUDR92o2z6y2I5G1va6yvYaLyl0RySVRnHXlwQzJ-c8erhddsP3q1-Lq3vVPaDT04QzLxIvfzc7ZhAprB6dvFSM8Zp8IR9MDz397fEBmLt2V8ege4qJv8Aw4EfKR-VFuKWru1xCQ1vpBdW6Xg4c8rqeSQ0avwCKuaNQ",
-      "AU_ZVEHJv7ZfF7kgmK_V6rsw4fC1dOCDPrui4kOLMUPxg6Jim3B2gdai-ajVLHgX09fJyrbSjj5_FgxAV0CDqI6RbcTbcAk_0YjWUNzhHI68IASN64MruYNtIrJKO7IrDtDZZkckk5_9w7TVGkKDbj5Pc9y1NBHpm2E2c5bZqe1Y-810YW6hq6WqCDs8Hx7jdToXFUGvKKBRXWlFXMb4Q4F1b5V0YI2FyWJjgBJRa7X-lD0-Gv1KEnHFPgdUb1TMF3fCNThAOUUwaDW44Yld7VLK_BnVvKRInmzuaeIxuesdvN3kFpr3HWwjMt-RyVTvupSCvWj2n4Dt1klQhls6RPufm_C1_8UM-YLOS3eY3dXNmHdglyFHGjuh3SbOmZPVlalSuf6U-VCAH1S9rBPN-jynk8ipbBBHVgUvgg-fDpntcCGMJYWJRGPTIulardXf6yGZ"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-batignolles/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.9
+  google_rating: 4.9,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_batignolles;

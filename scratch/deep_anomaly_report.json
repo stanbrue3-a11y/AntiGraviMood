@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Comptoir Sur Mer",
+    "path": "src/data/registry/tree/10/auto/comptoir-sur-mer.ts",
+    "foundKw": "ceviche",
+    "trueIdentity": "Cuisine de la mer"
+  },
+  {
+    "name": "Blanca",
+    "path": "src/data/registry/tree/11/folie-mericourt/blanca.ts",
+    "foundKw": "chimichurri",
+    "trueIdentity": "Cuisine française"
+  },
+  {
+    "name": "Deux Restaurant",
+    "path": "src/data/registry/tree/11/folie-mericourt/deux.ts",
+    "foundKw": "pita",
+    "trueIdentity": "Cuisine française"
+  },
+  {
+    "name": "Le Chateaubriand",
+    "path": "src/data/registry/tree/11/goncourt/le-chateaubriand.ts",
+    "foundKw": "pita",
+    "trueIdentity": "Cuisine française"
+  },
+  {
+    "name": "Pierre Sang In Oberkampf",
+    "path": "src/data/registry/tree/11/oberkampf/pierre-sang-oberkampf.ts",
+    "foundKw": "coréen",
+    "trueIdentity": "Cuisine coréenne"
+  },
+  {
+    "name": "Soya Cantine Bio",
+    "path": "src/data/registry/tree/11/oberkampf/soya.ts",
+    "foundKw": "falafel",
+    "trueIdentity": "Gastronomie bio"
+  },
+  {
+    "name": "Le Dauphin",
+    "path": "src/data/registry/tree/11/parmentier/le-dauphin.ts",
+    "foundKw": "tapas",
+    "trueIdentity": "Cuisine de partage"
+  },
+  {
+    "name": "Street Bangkok (Bastille)",
+    "path": "src/data/registry/tree/11/roquette/street-bangkok.ts",
+    "foundKw": "curry",
+    "trueIdentity": "Cuisine thaïlandaise"
+  },
+  {
+    "name": "Thaï-Vien",
+    "path": "src/data/registry/tree/13/auto/thai-vien.ts",
+    "foundKw": "thaï",
+    "trueIdentity": "Cuisine thaïlandaise"
+  },
+  {
+    "name": "Restaurant Korean Barbecue",
+    "path": "src/data/registry/tree/14/auto/restaurant-korean-barbecue.ts",
+    "foundKw": "coréen",
+    "trueIdentity": "Cuisine coréenne"
+  }
+]

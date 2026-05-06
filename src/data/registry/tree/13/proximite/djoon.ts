@@ -4,7 +4,7 @@ export const djoon: SurgicalPlace = {
     "id": "poi-169",
     "name": "Djoon",
     "slug": "djoon",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "club-house"
     ],
@@ -13,6 +13,7 @@ export const djoon: SurgicalPlace = {
     "location": {
         "address": "22 Bd Vincent Auriol",
         "arrondissement": 13,
+        google_id: "TODO",
         "lat": 48.836567,
         "lng": 2.371439,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const djoon: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN05r-6JTJkai2OuvSfTr6v6ISTVgkAQNztikSc-yuSytjOo7ESH9ogyRfd49Ie1iXEqI1Oe8CkHca2fr1FMYuHGUFqoIrPWV01eUHLiuuxZsIn01hUqh_gN84Ghw_ezAyafRGASjoENL9WIlGbwZjbS2CbqVGP1PKXku0b7jJkM_3vKwsf9PwOcfTuny1TpG9I_Wd_K327eiVhPPGXDgE0Iy5lnovzLamtTCu11P_-CbELwhZWdptqpK-d_RRtbT5OT6NlPnOKPCxNjJnW65M9HrCp9c6pXjhbHhro3rf9ftA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/djoon/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Club-house. Djoon.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

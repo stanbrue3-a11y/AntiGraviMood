@@ -5,7 +5,7 @@ export const corail_restaurant: SurgicalPlace = {
   name: "Corail Restaurant",
   slug: "corail-restaurant",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['mer'],
   location: {
     address: "11 Av. du Président Wilson, 75116 Paris",
     arrondissement: 16,
@@ -104,16 +104,19 @@ export const corail_restaurant: SurgicalPlace = {
   expert_catchline: "La perle iodée et épurée du Palais de Tokyo.",
   insider_tip: "Ne manquez pas le carpaccio de Saint-Jacques au corail, une explosion de fraîcheur. La terrasse est l’une des mieux gardées du quartier pour un déjeuner au soleil.",
   specials: {
-    cuisine: ["Seafood Moderne", "Océanique"],
+    cuisine: ["Poisson"],
     drinks: ["Vins Blancs de Loire", "Champagnes Millésimés"],
-    must_eat: "Cuisine Seafood. Carpaccio de Saint-Jacques & Filet de Bar au Yuzu.",
+    must_eat: "Cuisine de la mer. Carpaccio de Saint-Jacques & Filet de Bar au Yuzu.",
     must_drink: "Sancerre Maison"
   },
-  images: {
-    hero: "AU_ZVEHPw7G-D_21L6slW88xQ5_oVrLH3YiRDnThKpnykBHQrlbUHEvPodS8NAJcDqGUr4qCr-lq26O_f0kxhen4iJM3hZAi-0B6KvBM2twFBRpWB15s7-x20oi_bmOMqyvVITQTo8hdcMqvEQ0iN6yfFXJdVgX5ABLQbldfHo0DrIu2-e2bEbesjCsiiizsCwKH8JtKMkb5hTCPPYKx-qBxmEEwA8vdCKG6fHCyvtS3K3ojFRh3e0L-zC0YPSeDiZZlKYhwD4T8hlCzzNjt3PjL3I0xdooAtj2T_dJhugD9f47Ncw",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/hero.jpg",
     gallery: [
-      "AU_ZVEF_I5c57WW1C7WYq8mN5t4Q9aeygTW2itc9nCTYvBqJycORxPdZpfB5J3c5-dGsjTPu2ONwRF8teYa67hS34R-KHXydLY2myQrSc3nmG--1iZwdhdDOqU1j127DhSXxCDzwwqLlxIAHGgLpwgDy3iN6H-McOz7o6jp5lw-cp54L-pLRfpFWAdrpHX6or8F5hJFORYzPXjn2_naCNIhSX_FmuzPGqQbPAYbd68Vot06YmrOiZl_czVFt7oJOwsCJ_khxaSwgPzd4iX0oH588jxR31P0GUMnE7mRDqPo0nK2pwQ",
-      "AU_ZVEGKvy-DJsd9fAxVoDoA5E41nMgUHtDSCbT9R9XhfETM6puy8VoZXRhQOv2zwV0CcoFOY3mfZFvB0elzvU4G3J7jDGyJSwcOJUEup8bZ89RYiRAkfowOqGMiDXplZgZCET5TA4hSdiFMqvsesb9tmQ7lAnw0POl3ofx8RSyqv8a8_9KDTwD1_BX5pyutRBZ5_TonIogsOsoonQsvlxNuM9Z_jxem-LCnv9T9KpfIZjOSpeWD049quM9KiRc-5e5GQdQafp0FOPe1FU7IMV4ReHIKcnKQEq869YK-fCfkLUR_9w"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/corail-restaurant/gallery_4.jpg"
     ]
   },
   verified: true,
@@ -121,7 +124,7 @@ export const corail_restaurant: SurgicalPlace = {
   instagram_handle: "corail_restaurant",
   real_talk: {
     text: "Un lieu qui respire la sérénité. L’assiette est précise, respectueuse du produit et très moderne. C’est l’adresse parfaite pour un déjeuner d'affaires élégant ou un dîner romantique après une expo.",
-    must_eat: "Cuisine Seafood. Carpaccio de Saint-Jacques.",
+    must_eat: "Cuisine de la mer. Carpaccio de Saint-Jacques.",
     le_secret: "La table près de la baie vitrée offre une lumière magnifique pour le déjeuner.",
     le_son: "Jazz smooth et sons d’ambiance discrets.",
     le_must: "Le filet de bar, dont la cuisson est toujours millimétrée."

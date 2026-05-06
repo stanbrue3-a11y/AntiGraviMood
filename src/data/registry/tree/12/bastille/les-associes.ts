@@ -17,6 +17,7 @@ export const les_associes: SurgicalPlace = {
         // VERIFIED: Google Maps API
         "address": "50 Boulevard de la Bastille",
         "arrondissement": 12,
+        google_id: "TODO",
         "lat": 48.8515138,
         "lng": 2.3694951,
         "nearest_metro": "Bastille",
@@ -136,10 +137,24 @@ export const les_associes: SurgicalPlace = {
         "must_eat": "Le burger maison frites à 15€ ou la côte de bœuf sauce béarnaise à 19,50€. En dessert, le mi-cuit chocolat tendre à cœur à 6,50€ — un classique indétrônable.",
         "expert_catchline": "Happy Hour de 9 heures (15h-00h), terrasse couverte, cuisine maison et l’addition qui reste douce — le QG afterwork du boulevard de la Bastille."
     },
-    "images": {
-        // VERIFIED: Google Maps API photo_reference
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXw_nSVsJN21c6PzL3Iua-AVWmp35sWJxm9xdd6bvkzhkmbY_OSiVewW_ld1aGpTGvtFrM7P1kp7cmy6w6N-F1q9M_IW6ARR9evAgQk112-7IcC6xa1Yt0LdTOux4zPGRsVpc-m7vZ5lC8Sk0cNGfoLKctkI7mCTfQTXReLbX5RoLIYouhUZvXQDLEQgFdPS92ShPsPYndABiVneAj33N1DhJ_7WQV-ImAhE8v7aQZd0qQOPcUGtPhyM5VDfQBA5UEx6ck01qQ1GiM8XTROjMMvmckKf9pM0y8_9EFWcnzirnkR6szRydvr5wEZTud5DJqMjrGxdLlvho8Xbuluj4lhzFg1p80z-Q1DZSt6olrlbioJ_nElOijmC0Efalk4uYLiBuoFdVUw3km9Bfastil5SqQVDP53Vzcvm_iDMz6uWVW0nnFNDhTruiy8sSWPXdNjSCI9ZBnwIk0xxKXZTC-631SsIkzFWfJyQsJadZSX5hVSbNKbZrMfC1uviEOu21hwT22WxJYNytnqzdqaocT2hYK9iVLLvDeyTkIu__MHFCDaSRWxZMpURmkAfY9vYBbJv1k6Nk3hgJQt3hCG8owTqUyljQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "research_ai"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-associes/gallery_4.jpg"
+    ]
+  },
+    "source": "research_ai",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Brasserie. Les Associés.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

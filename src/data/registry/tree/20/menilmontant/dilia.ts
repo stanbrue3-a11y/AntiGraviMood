@@ -5,7 +5,7 @@ export const dilia: SurgicalPlace = {
     name: "Dilia",
     slug: "dilia",
     category: "restaurant",
-    subcategory: ['bistronomie', 'italien', 'français'],
+    subcategory: ['italien'],
     location: {
         // Technically just inside the 20th but hyper-proximate to 11th vibe
         address: "1 Rue d’Eupatoria",
@@ -84,13 +84,16 @@ export const dilia: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVGwlFFUuFtBdW0FSGswM5H5aeVsX_S2Vmp5eKJ6Rj2WRRR6x1alGrlrxoWp_9XrHJel5BKKeImfbJY0phiu_y23ry04yXYXsFeqEC3Oqib2XALBlG7dIItk-fTLarlSy83f_1Q2LGWzDRPCZYAJRFnRlGxGRK6nyIfil7Hau1hRH2n_ZXvnWy5kHO-tkaQw5aLeEwOjAwOYSGwrwF_0uI3nXftJqyZ-KRJ728vW1vmYGeACpjfXXfyq6lM2ktnep2R86splmXXJMBmfVcXa-_M8edr_3E3a7z_EOy1mbirEH_1ATsWJixJDX2CnxIAjj08d4CQ2hzZotlIOcNDMjsDbLuRjpgo2syeg1kv67O9A7xCa11nWjNOVHUaPNSQELxbgm3cPidZjOBDBZJZyuXgSAM99x-dK6q9wdfhqEKf2GhO&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVAG1DKDuOxBg0Sg4Sc3591JH8Mgbop3R9rb3EvwpobNbxfTnyRJPNI8hWWQDuZlwEdscVMsYTtXADxeCY0C47xUfdxz7Uj_OHJzOL3HA4b6dTulFKICrU6oSdlcYng8bxOr6RBm2yvWN7D5Yls0YENEuYgCyWmkUchVYvkL9pPO_5ykrD6btthth9R_vp8mOlLeCzqyXur5s3rAKCO9q-I78pl-U6W3n84ztpqvcLdyjQF82FbQvZISqIpWOCirsOyBlkb_Ix8A1FuSIefW4hYUO0-2lIA64xCUteWM0aVQWHfcL0wORo2YHZj4KcPjB5qLnkwtvzLIJ7NZ07_TYzszA3ySO8Q545MYD7pxeYflHq7uhke98a85CoWlBXnYOYMML3aMkCb1YAixD7QhapHG0pk8pN9U723D0Q8gVE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWiqdVBKKmj41qw-LDpw_l2xhzk7F6Lf7yFZN4hq9V3AmYhWuMecxAWjpR3Y3-O8qk3hRdoTj3C_xqF-f7WDFGiyLRTll5CJyR14BFyoFtC04Ql0pzfgJh0q8mwFeYq5VkE7CtYPnlTzyhOSd5sQyUpapgtBi-zwP9XKJQsVmFn28wKMUcC8MlXGPmvy-GYtyzv_z8fqXvNw6DciJ9f-9GJpVkwVE6I7gv7dTnvWHeQ6qIK-_1AGCPt6qkVuVjH5g4HpWRvqyA-qjDx4ygaGDD9AjazAWwezPBy8x6wk1OpjvsvdN2UXAc70j5W4fVv3thUpK-7Q--uOQwsb2XHXkjuXwY3n4ShFQwGdqvqRFWDOyVeOa7FcXk_wONInt5Rugbm2gZ2ja6YGlxmG7FaXxRy8WZLH1koPtdveynHhObSN5cQTulCHI3JleOEH8DO&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/dilia/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "dilia_paris",
     verified: true,
     google_rating: 4.6,
@@ -98,9 +101,18 @@ export const dilia: SurgicalPlace = {
     insider_tip: "• Si le menu dégustation du soir à 65€ est exceptionnel, le déjeuner à 28€ est une aubaine inouïe. \n• En été, la petite place de l’église d’Eupatoria offre une terrasse digne d’un village du sud de l’Italie.\n• Pensez absolument à réserver, l’adresse est farouchement gardée par les locaux.",
     expert_catchline: "Haute couture culinaire italo-française cachée dans l’ancien rade le plus charmant de Ménilmontant.",
     specials: {
-        cuisine: ["Pâtes farcies maison", "Pigeon"],
+        cuisine: ["Bistronomie"],
         drinks: ["Barolo et grands crus italiens"],
-        must_eat: "Laissez-vous guider par la ’Carte Blanche 6 Passages', avec une tendresse particulière pour les incroyables Tortellinis maison servis dans un bouillon (Brodo) limpide.",
+        must_eat: "Cuisine italienne. Laissez-vous guider par la ’Carte Blanche 6 Passages’, avec une tendresse particulière pour les incroyables Tortellinis maison servis dans un bouillon (Brodo) limpide.",
         must_drink: "Rien d’autre que l'accord Mets/Vins (42€) tricoté par le sommelier à dominance nature."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. Laissez-vous guider par la ’Carte Blanche 6 Passages",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

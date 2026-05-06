@@ -43,22 +43,37 @@ export const l_as_du_fallafel: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  expert_catchline: `Un établissement authentique qui cultive l'art de vivre et la convivialité au quotidien.`,
+  insider_tip: `• **Timing Stratégique** : Arriver au moment de l'ouverture pour savourer le calme du lieu.
+  • **Combo Moelle** : La suggestion du jour accompagnée d'une boisson artisanale.
+  • **Expérience Culturelle** : Une immersion dans l'ambiance unique de ce quartier historique.`,
   specials: {
-    cuisine: [],
+    cuisine: ["Français"],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. Le Sandwich Fallafel Spécial.",
   },
-  images: {
-    hero: "AU_ZVEF1bI2K9f1KQj-KohJ5BHABtju-BlOZnSDw8LfFtNxXx4a3W2yN82RK5JJEjVpXtm6Qt98fwWvgzPt2zWfPHB42-7DpSLczC9nrRVlpgxeijGFODYQsipg_PZVI4p90t4O0QYvV5XZhsmGRG6qGTV3PWjjDrmgMQb_h9r7mu0BULpTJjxuxt4sQMHm70c3O_eXV5utP6kfxyHHW_WRyBpm-8ylv10z_xTx2CUsznIXui4vp_q1EqlNuhKHh0hUQAVRmgg3En8-MdG6_d-Cwui_Vw6yvH4bWwqn5AUwzyTPwLw",
-    gallery: ["AU_ZVEFu9biuRKzfe4yvbZ8Z4nYqNIGWLIjJ6s7ugsWgKWkc-6HMeAjkWEb6HGaorWyXubroJn8sHWTgMiJC8f0xjsdJNzyXZtkusR7_VjPFXe_jyHNSvGxK3OfshvAujSCGF_6hae-w_aKFQcTMpfZlNFeE50h0L8IWCZ66rfBwXxV_TixOatZt-HkbtbwORxL_9yUPbHhxQdDItk7wHeeRr8HqyFjE2wHlOgSunYbJ5M54TZHG2khHe0Sh-qnCZq3l-zy8faRpqpHHHFHpvHwKT0CCJ0eZsfCc9clIOdCiMSz9yQ","AU_ZVEHl6-xF9M_nNIRlZJX7BqnjS2nMrH3jJ1I8m6ggqMhwju9y8KYwC3pTu7wnD01VXyoAIwjo6LG7CM7GtwRiuVaYCjp5aYkq4dlUlQ0C_CYXYpOLerYDORFHv1GLhPoZs0TDnvWOflJjcEGbKemNYwghBa3_x6u9lTLh4KXxmlqd5H1yDEdXkA4u1RneLBKs7z3rh8h4nKAM03dPP6B6eNaAL_9EyOYwMfQKjXwd2Ew4BpVlvnlnGB5FcRxOTlnPkqE_1HufUiQYAxHkk8joBCL8EtqiWokwzqCTA4DU8tVRixrT7QW-NBPmsfxiNy8UsJC_g8-xequKu4SHQN8TBD2NOWJbVialdnauvE6vm4t3GQWCOCv0GjNUnzzqVSnp7cTBNJ7GAzL7UWfc_Pyr9x7_Jo96XJ8G0MTbLQF04j9fJata"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-as-du-fallafel/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. Le Sandwich Fallafel Spécial.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_as_du_fallafel;

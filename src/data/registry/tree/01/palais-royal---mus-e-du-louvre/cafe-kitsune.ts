@@ -13,6 +13,7 @@ export const cafe_kitsune: SurgicalPlace = {
     "location": {
         "address": "51 Galerie de Montpensier",
         "arrondissement": 1,
+        google_id: "TODO",
         "lat": 48.865573,
         "lng": 2.337251,
         "nearest_metro": "Palais Royal - Musée du Louvre",
@@ -50,9 +51,24 @@ export const cafe_kitsune: SurgicalPlace = {
             "Café"
         ]
     },
-    "images": {
-        "hero": "/images/cafe-kitsune.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-kitsune/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coffee-shop. Café Kitsuné.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

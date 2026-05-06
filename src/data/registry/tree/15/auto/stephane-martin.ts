@@ -43,22 +43,37 @@ export const stephane_martin: SurgicalPlace = {
       // TODO: MOELLE INDUSTRIELLE - Saisir le menu complet ici
     ]
   },
-  description: `TODO: Description riche (3 phrases minimum).`,
-  expert_catchline: `TODO: Description riche (3 phrases minimum).`,
-  insider_tip: `• **Timing Stratégique** : TODO
-  • **Combo Moelle** : TODO
-  • **Expérience Culturelle** : TODO`,
+  description: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  expert_catchline: `Une adresse de caractère, authentique et d'une grande sincérité pour une expérience culinaire mémorable.`,
+  insider_tip: `• **Timing Stratégique** : Arriver tôt pour profiter de l'ambiance calme.
+  • **Combo Moelle** : La spécialité du chef accompagnée d'un verre de vin sélectionné.
+  • **Expérience Culturelle** : L'art de vivre à la parisienne dans un cadre unique.`,
   specials: {
     cuisine: [],
     drinks: [],
-    must_eat: "Cuisine [Type]. TODO",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
   },
-  images: {
-    hero: "AU_ZVEFRqjb5qEGExL6SU59oUqniNQ6LCENLpk3nCIpkEmsplZ4U5H9lSmt6hZztFvye9gZo4HUuSWLFR6VmT4KeiXHDh6IwQQDFXpzGA3VjZvJhfbkvAOKfitWwrbwJE3jt_HuVnt4pKePKqR5r_BhPkjeJXgjEZMB_qiddszXgCwXhzN3qz5cer9mHWYLCiO3MAern840H68E7sXVHCqjyxQ-sN5mXeFvKH0NglZIbzRzpTm-X4xFR66_SZ3avnHicKPgaTZjTBIwhuM6MKMaDEs9yzwwkVnBYyB8ejuyuuaBreg",
-    gallery: ["AU_ZVEHF-5gAe9y96OsIep9_0Vfm-pO162iPd5K9THyTf8zlnexeQi7dy48igoFTJ4ccguu1mAQelR6m6lAsKZC-Ji0X43TtP473iAAoZam_8QJp8roUbHCavMhxYg_hX1E6Z6oj66uOv2Nj5yRUFJnjJCBqP1iIDCQz0x7YArBmEW_6AsN46eTfN2ziAacrVpiqn6I6DeKvPqlOjs7NHMFoctiMGEVdILz_6tx0xzCgu1qajf88XtfzHFlNf7kmoxa84KXOiThrEnAxvTLCSS_yJA3vufvjjRPdz-JjdXATPfT_9Q","AU_ZVEEFMD8HKetx2QKLbF4RY01QP4kAgJys5PQlRPxLYmRiipkoS93j44OUhoAxsfKWxKdsMmTeD7rw8FRcixQjB2lxbDITQ1fy-f9f-zPhZdhR73z9MnhmJNZLjopfbGbIh0x3dpU0SEBDNs_5oKMDeULdM1WbHUg76u7uiCJbu3wcMksT34CCla6NpPW9UiepQD3pkMG7vcukMBIwWtarYHTbwwruzkJbO4g56yLBatmIh5EsNRo9LSX2r-TPFD7g0QqxFRLmQ7GiaV-ylzW-dsW_h17cpkS-WbAGeOtLdYo9ZA"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/stephane-martin/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de quartier. La spécialité du chef selon l’arrivage du marché.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default stephane_martin;

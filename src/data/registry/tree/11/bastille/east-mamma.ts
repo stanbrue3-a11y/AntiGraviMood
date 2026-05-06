@@ -1,11 +1,11 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const eastMamma: SurgicalPlace = {
+export const east_mamma: SurgicalPlace = {
     id: "poi-east-mamma",
     name: "East Mamma",
     slug: "east-mamma",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['italien'],
     location: {
         address: "133 Rue du Faubourg Saint-Antoine, 75011 Paris",
         arrondissement: 11,
@@ -118,16 +118,29 @@ export const eastMamma: SurgicalPlace = {
     expert_catchline: "Le temple de la pizza napolitaine et de la burrata géante dans une ambiance italienne survoltée.",
     insider_tip: "• Attention : pas de réservations ! Arrivez 15-20 min avant l’ouverture de 19h pour garantir votre place au premier service.\n• Le Tigramisù est servi à la louche, ne prévoyez pas de dessert léger.\n• Les pâtes à la truffe sont un incontournable du groupe, très généreuses en saveur.\n• Si c'est trop plein, testez leur petite terrasse ou prenez une pizza à emporter.",
     specials: {
-        cuisine: ["Italien", "Pizza Napolitaine", "Pâtes Truffe"],
+        cuisine: ["Italien"],
         drinks: ["Cocktails Spritz", "Vins Italiens", "Limoncello Maison"],
-        must_eat: "La Mammargherita et le Tigramisù."
+        must_eat: "Cuisine italienne. La Mammargherita et le Tigramisù."
     },
-    images: {
-        hero: "https://www.bigmammagroup.com/wp-content/uploads/2015/04/East-Mamma-Interior.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipN_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/east-mamma/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.6
+    google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne. La Mammargherita et le Tigramisù.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

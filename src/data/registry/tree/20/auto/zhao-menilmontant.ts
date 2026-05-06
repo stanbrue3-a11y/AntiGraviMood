@@ -5,7 +5,7 @@ export const zhao_menilmontant: SurgicalPlace = {
   slug: "la-taverne-de-zhao-menilmontant",
   name: "La Taverne de Zhao",
   category: "restaurant",
-  subcategory: ['asiatique', 'français'],
+  subcategory: ['chinois'],
   location: {
     address: "42 rue de Ménilmontant, 75020 Paris, France",
     arrondissement: 20,
@@ -85,18 +85,30 @@ export const zhao_menilmontant: SurgicalPlace = {
   description: "Dernière-née du groupe, la Taverne Ménilmontant apporte les saveurs de Xi’an dans l’est parisien. Le décor y est particulièrement chaleureux, parfaitement intégré à l’esprit populaire et artistique du 20e arrondissement. On y retrouve l'excellence des Biang Biang tirées à la main.",
   insider_tip: "• Sa salle spacieuse en fait l’adresse la plus confortable du groupe pour les grandes tablées d’amis.\n• Ne ratez pas les raviolis Poulet & Champignon, la farce y est particulièrement savoureuse et juteuse.\n• C’est l’endroit idéal pour un déjeuner tardif le week-end, l’ambiance y est détendue et conviviale.",
   specials: {
-    cuisine: ["Chinoise", "Xi’an", "Nouilles"],
+    cuisine: ["Asiatique"],
     must_eat: "Cuisine chinoise. Biang Biang Bœuf & Mo Porc",
   },
-  images: {
-    hero: "AU_ZVEEY6APDVnf8dp7VVU3sJ-wbR8As70GNC-qtQn_2ov_L4jWKohPzMIVhCvELfHCS9XxyF9L_qNRLCBFf8T6hMre8WD5YoDiC-AB-JX6BoJTdQhcAYUymaBSiIeQ6jIQiRJfpB3vYoEZyUH-cpCI765FgfsvRA1ZIya6VzLMWpvX2buOUm0_i8eA0KyCSJiTEsaL8iiYl9RWDHHMQlyQDeL9iiFFrutMRJPuEnRTocNt-ig483Cv4ieAQRfLinjnIbFffJ88Tir3TysMK6q6afHj-4-IKs_tGGnl0F1BLHV4xuw",
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/hero.jpg",
     gallery: [
-      "AU_ZVEHceT3BqQ_kJMnDMpTXKJUV8-O187HgHaoAOeGYUKJbQV7AYtFCq2aDsSKDu25CZOE4WRVvW9G58JseZOGkPPWdjtxCGpF6Y6iqX1b3mt11POkJo8biGYQ2B2pNxKv7ZxHpGfH5O-TmTRRKxiqlgqC2pNggJNwzbrX0xA1X3RLElJab6ibJhsIHcxrwRk9dGxZ5F2zZ6g_gidJ-1wxlFxySCM4yWkyu1WKebpI2PhJHGGsxpFulcnKqIz5-2tBWxxx2g1k2UOkTi2uvac1Lv9Qt5l6swL1raU8xNM1_cMOg7w",
-      "AU_ZVEGLYdBbmyidL188hKX0xao0oC3vI8AB-hyAmpPwUAByeSo9nk-MfGTwZ8HNu-aP5OwULmbk2o4VfmKMiQljwMt_szLhHjwubz24kllQ71lXx9N9k-Ah-clffq7r6eG_Z2xkBUPYnJXLicVgOpKsbtrk51E7cZ4418xWSTf87_9zNYiGsnhgwdb5XxQDlNIuWhDt4Gw799clgHYOQDysTLf3lPrKygUMaLFq9Q7Bug83qckxlmQCdzDGia2CXneqspGmJnxtAPe1oX0nh-6yZnVvftM8Tb1OfzT2_T4C-b0jXjevZPCDUB-2Ge9F3nFIBWw79pNRmV9_UOjVAj1wG0kESitLaMzUEyPZt8qcAc7jYIJTBACjfJNyX4IA9xKNPyBs6MhFg6kMfRtA6Fm0hNWR762TDN_-w9rT1yE24-aU-AUmFZpuQYSwr3ddMLgJ"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao-menilmontant/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.9
+  google_rating: 4.9,
+
+    real_talk: {
+    text: "Une taverne vibrante dédiée aux saveurs de Xi'an, où l'authenticité se goûte dans chaque bol de nouilles tirées à la main.",
+    must_eat: "Cuisine chinoise. Biang Biang & Mo (Pain traditionnel).",
+    le_secret: "La pâte est pétrie et étirée sous vos yeux, une technique ancestrale qui donne aux nouilles cette mâche unique.",
+    le_son: "Le bruit sourd des pâtes que l'on claque sur le plan de travail et l'animation joyeuse des convives.",
+    le_must: "Le Mo au porc mijoté, un réconfort absolu."
+  }
+
 };
 
 export default zhao_menilmontant;

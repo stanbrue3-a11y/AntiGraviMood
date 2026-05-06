@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const petitsParisiens: SurgicalPlace = {
+export const petits_parisiens: SurgicalPlace = {
     id: "poi-petits-parisiens-75014",
     name: "Les Petits Parisiens",
     slug: "les-petits-parisiens-paris-14",
@@ -75,22 +75,35 @@ export const petitsParisiens: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWCUwg-gD3iO2jSH95OZJrt5axmOsDRPl0YFkk_QHEx-6gf5fFsC6saBfflbn1SfpNOFUSo6LSj_TFLXDxcSpdjx2nBqD2l907XuZ3AK1iCIm8_vZ9FXhowKuD-gL9tcRbAdUNDLNok425mOfFSHnl7RKnZOdHj2azDnxWBr3RUkfqWFkbDbFPYELH_VrMyslLCFVDNtCUhULkplkno0TiPJw6JkD5OpXOM89hclg4IQ9KQjtNqzYun9bjAXt8uuvxARw5SZAc5gKxmT0PYIpPKTz5wv76yYkELXFOOEOArXg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVi-PHFPElBtTMb3uOoKE3MqAwNT-DRCehPUguajpKe0WE5n4Vgw_kMJlTZZqu0lEjDLMqz3rcr1sE-l9XVtrfiGUoQae4A9nFXG4T9NBYUc5HfcB3T4h_Z7bgeNjICjfJJjk5dMFti4dG9gMQDT3T-XF1gjLuIoges3wckMqIdlyuW52-sHoRsFW_ULf1m-hcU85ce-N1rF0AyK0wUrSvAJZI2y8fk16plGGTRyiQN9ea6TItOXeFo5SxIYC-5osdo8P5kxdsOjNXQrugaY19F78-esZC5TWnYgwmUKPHSag&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/les-petits-parisiens-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.5,
     description: "Les Petits Parisiens est le digne successeur de l’esprit Régalade sur l’avenue Jean Moulin. Repris avec brio, ce bistrot chic propose une cuisine d’auteur signée Arnaud Baptiste, qui allie avec maestria les codes de la grande cuisine bourgeoise et une modernité décomplexée. Le cadre est élégant, avec ses banquettes de velours et son éclairage tamisé, créant un cocon idéal pour savourer des assiettes d’une grande justesse. C’est le nouveau repaire des gourmets du sud parisien en quête de sincérité culinaire.",
     insider_tip: "Ne manquez pas l’os à moelle, un classique parfaitement exécuté. Le menu carte blanche du chef est l’option idéale pour découvrir toute l’étendue de sa créativité. L'ambiance y est très chaleureuse en soirée.",
     expert_catchline: "La haute bistronomie de quartier, héritière de la Régalade.",
     specials: {
-        cuisine: ["Bistronomie", "Cuisine d’Auteur"],
+        cuisine: ["Bistronomie"],
         drinks: ["Sélection de Vignerons", "Cocktails de Saison"],
-        must_eat: "Le Paleron de Boeuf braisé.",
+        must_eat: "Cuisine de bistrot. Le Paleron de Boeuf braisé.",
         must_drink: "Un vin rouge puissant pour accompagner les plats mijotés."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. Le Paleron de Boeuf braisé.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

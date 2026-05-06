@@ -14,6 +14,7 @@ export const l_attirail_cafe: SurgicalPlace = {
     "location": {
         "address": "8 Boulevard Saint-Martin",
         "arrondissement": 10,
+        google_id: "TODO",
         "lat": 48.8688572, // VERIFIED: Google Maps API
         "lng": 2.3579085, // VERIFIED: Google Maps API
         "nearest_metro": "Strasbourg - Saint-Denis",
@@ -70,9 +71,24 @@ export const l_attirail_cafe: SurgicalPlace = {
         "must_eat": "Les potatoes aux herbes offertes avec chaque consommation et la croziflette quand elle est dispo.",
         "expert_catchline": "Pinte à 3,80€, potatoes gratuites et terrasse chauffée — le bar le plus généreux du boulevard Saint-Martin."
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXTxouQ_UGx58l2W_k5YMqiQO0h-JswWvSJnsjSYMCMjtqWmcbXzmzw_5kSGC25w86KpT6XfEiTBybvOanGW3zcYzCsoA6Rg0aW7pOgotmzv9HanAfSvcEtpMiDdmfw9YG2YOJp-EIydIQoLsN-Vj525Zj19CVgmknwkVUsliSECsgXqV0uiRM55qKJnzwyctIQso-OlPY9-W-Gpzh6tiG9EYBaXPOqKQ0prjL5XqCqOjId7CvOZQL6PMJDNaOslOV3FjXujSwK81-1lyri9EgMgL3vuQljSRnk3lB4qKbgBHqVzc8&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "research_ai"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-attirail-cafe/gallery_4.jpg"
+    ]
+  },
+    "source": "research_ai",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Bar de quartier. L’Attirail Café.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

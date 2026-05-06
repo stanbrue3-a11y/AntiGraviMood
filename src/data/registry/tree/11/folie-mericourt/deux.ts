@@ -95,19 +95,34 @@ export const deux: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVNR5SeQqflRHTu7TIXdsiLLvOJ7xYIBOGfBrIyjytj0-rzY3Xu10ARF-SFOu8wFZUfkaZI8AODT85f1mOySx3N9DrbO_-XNZHlO8qCDod-KNylnaxtlCl-zwPBwdpzshSwesowN9OGxr3WYVBoZWZcbUWVsCA-TRoLsSx0HxVS7mde7ArvmcbsgrIJVaRnw3hFFrRzdbKy8UR6lS8E2zKq2WXChA_8SRvZo10wTdHkN6WHDCl1XMBFUGl-Ti4FUReMGKHXIH4cEBGFQPBGoLJc_WyOMxc2jVbmjiQt6i0&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/deux/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Deux Restaurant est le fruit de la collaboration entre deux chefs complices : Tiphaine Mollard (Savoie) et Romain Casas (Sud-Ouest). Dans ce bistrot de quartier chaleureux, les deux terroirs fusionnent avec intelligence pour proposer une cuisine de produit brute, généreuse et techniquement irréprochable. Un lieu de partage où la convivialité n’a d'égal que la qualité des sourcing.",
     insider_tip: "• C’est l’un des meilleurs spots pour redécouvrir la Chartreuse (à travers leur baba signature).\n• Les ribs de porc au miel de Savoie sont d’une gourmandise absolue.\n• Le samedi midi, l’ambiance est parfaite pour un déjeuner de terroir prolongé.\n• Les fromages proviennent directement de petits producteurs des deux régions d’origine des chefs.",
     expert_catchline: "La fusion parfaite entre le Sud-Ouest et la Savoie dans un bistrot de haute volée.",
     specials: {
-        cuisine: ["Gnocchis au Vacherin", "Ribs au miel de Savoie", "Jambon Ibaiama Louis Ospital", "Blanquette de veau"],
+        cuisine: ["Français"],
         drinks: ["Sélection de vins de Savoie", "Vins du Sud-Ouest rares", "Digestifs à la Chartreuse"],
-        must_eat: "L’œuf poché au crémeux de céleri et diots fumés : un pont gustatif parfait entre les deux terroirs des chefs.",
+        must_eat: "Cuisine française. L’œuf poché au crémeux de céleri et diots fumés : un pont gustatif parfait entre les deux terroirs des chefs.",
         must_drink: "Un verre de vin blanc de Savoie (Chignin-Bergeron ou Roussette) pour accompagner les plats crémeux."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. L’œuf poché au crémeux de céleri et diots fumés : un pont gustatif parfait entre les deux terroirs des chefs.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

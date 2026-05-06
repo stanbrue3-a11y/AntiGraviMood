@@ -5,7 +5,7 @@ export const tricotin: SurgicalPlace = {
   slug: "tricotin",
   name: "Tricotin",
   category: "restaurant",
-  subcategory: ['asiatique'],
+  subcategory: ['chinois'],
   location: {
     address: "15 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -78,16 +78,31 @@ export const tricotin: SurgicalPlace = {
   description: "Tricotin est l’une des rôtisseries les plus fréquentées de l’avenue de Choisy. Avec ses deux salles et ses canards laqués suspendus en vitrine, c’est l'essence même de la cuisine cantonaise populaire à Paris. Idéal pour un déjeuner rapide ou un festin de viandes laquées entre amis.",
   insider_tip: "• **Choix du Maître** : Le porc laqué est souvent considéré comme l’un des meilleurs du quartier, demandez-le avec du riz blanc.\n• **Expérience Culturelle** : Ne soyez pas surpris par le service ultra-efficace mais parfois tranchant, c’est l’école du 13e.\n• **Le Petit Plus** : Profitez de la vente à emporter en sortant pour ramener de la poitrine croustillante chez vous.",
   specials: {
-    cuisine: ["Chinoise", "Cantonaise", "Asiatique"],
+    cuisine: ["Asiatique"],
     drinks: ["Bière Tsingtao", "Thé au jasmin"],
     must_eat: "Cuisine chinoise. Porc laqué & Canard aux 5 parfums",
   },
-  images: {
-    hero: "AU_ZVEEXdxSzJUkhBaBH5SfkYWptSL4S-QHGZdMs2xbXPAwtPcw-GRxKWk4CXii3IgDzfDGDJyFcrSxuyHYBXeyTP7bP8HuDp5mKNm1SNjq5zRemASI4TdHXSHxaxXNI26CwmMdoOxzqTb4mgUFRv5Kj7gRNxbfVM5Lh-T1mKCspD3FBWQrs60x-iFIF5b-tmkDJonszfUBcrLvIl30NVjqSDKmkjgg20i4BUhlbs-Sq3wYYGrdCyXVI5XZc1_Eu-5bE8LDfyLC819UqvI5mS2bV0RrSlZTbyzT-kOXWU6d7wSd5eg",
-    gallery: ["AU_ZVEHTWNX9xEEx3K3k7gSolAyDByPR45oJtF2_pH1zkpXJJW5Du4QsOBSmUQ-zk_pTOFiPqRacNoYYCDn83Oj38QoKYjnYGXLfrfANnBNqTkq7hWhJ4hw56Xxb_SGHxTR8HR_bBHM1pCTbnHzK7LhxPihJAbeQ6_-iBSPd4CzcOarGEzhnqnzWGg84A5JYNJjBV2ZiQshbZnEFs2U9BVw1RrbsTBvs3nNEeG80myWF1TyLXC7Map1wl8DQ0_oEJ1JzEm4_oIIvkGfSrPxBLfKWjHIWlxtUmBjXTmQOFRxeF8zUpw","AU_ZVEEoYMzMKDZ7z0bRhYY-J-vTZJl1CbKBR6fFgCN5d9M5Vcvf_mxUgvojMbiN6qPb3JRlhOizZD3H_P5g0xDylR4wg5EI3U9PXiFnTqi4ESeeu3kOAjObvTd9thzkFTzbJLu-Ei09Of_leWO2UEYDZb83SLfj2iHBKOzI9Ehg3YDZl-IlXTvXhWrGkNh3CcpAchtfOVRMtPgHby8U4CVeMZiYmRg2VFjsFmqvLM3PwIh5igglKD1XP9h7lT6B2IUH9ZjuMg8uTvcQlw5j4Pn2Eo_--fMTDYongS_25XmKAISpZOrHsQpzPfgtPnP8vv1dpI_vRlJ8RhGeiP6vaqHVY-NnM2ypPz11Nhv6Zym8hHZUGJXc2Tjnk4jsxYJMvxzKMZSXP7ygYwIMRoGxRwPmhGvCQh-tOww8Gf13wVztK86vrpUHWZX_xgvhwo1krhkE"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/tricotin/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 3.9
+  google_rating: 3.9,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine chinoise. Porc laqué & Canard aux 5 parfums",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default tricotin;

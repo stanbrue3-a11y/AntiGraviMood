@@ -110,19 +110,31 @@ export const chakaiseki_akiyoshi: SurgicalPlace = {
   description: "Chakaiseki Akiyoshi est une enclave de sérénité absolue, premier restaurant hors du Japon entièrement dédié à l’art du Cha-kaiseki (repas précédant la cérémonie du thé). Étoilé au Guide Michelin, le chef propose une expérience méditative où chaque geste, de la cuisson du riz au charbon de bois à la préparation du matcha, est un rituel. Le décor Sukiya minimaliste et les saveurs d'une pureté rare transportent convives directement à Kyoto.",
   insider_tip: "• **Le Comptoir** : Réservez au comptoir de la cérémonie du thé pour observer la précision millimétrée du chef.\n• **Le Rythme** : Prévoyez du temps. Le Cha-kaiseki est une expérience lente, rythmée par le calme et la contemplation.\n• **L’Accord Thé** : L’accord thés est magistral et offre une perspective différente de l’accord saké classique.",
   specials: {
-    cuisine: ["Cha-kaiseki traditionnel", "Cérémonie du thé", "Cuisson au charbon de bois"],
+    cuisine: ["Japonais"],
     drinks: ["Matcha de cérémonie", "Sakés Junmai Daiginjo", "Thés rares de Kyoto"],
-    must_eat: "Le Riz Niigata cuit au charbon de bois : la base sacrée du repas, d’une texture et d'un goût inoubliables.",
+    must_eat: "Haute gastronomie (Japon). Le Riz Niigata cuit au charbon de bois : la base sacrée du repas, d’une texture et d’un goût inoubliables.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEEoMMewCT-EK70qQP_WYrLQKVMw3Fm56jXC6z0OWjZuOv-JxwcLnwpLjnvTLcGO8qjxZ8FcSXo-l8En_eWxdf4khdbVQRbJq61OB2UnDCn4XCpGtw6ONXtupm5P75eHM_K2pJj3QinVhBUxpyR-1QOhH8RHlcBRQt_IweVWQgLSdeuxCoEX6DaDqXJAsP8XSrBBq4TUZiX5bvPPQBEOXY7bOcXpWPP89n0Ngvoz9Hhm2sTd1diBe9ulVT-Rf6-n8SOXgU3g1uw5TsYUhT-vxUswQgCdlkB1TQFdWdnIS1LPaoNbmDon9N0aQLMVsyu0KAoSliIsx7nfbNVFvH5ZBRjVenH9fR8gbZ1wttL_CmdpmbiR0i0Jc1M8idcXgW9049-0PXpiCdWfGRKJkLdqtidQqAVhWiS7w8JYCXTICuFmnVvprmvC2GccFXKSUg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEG09OOXNXIn56Zd4ICauNfnTtZkXujQlTmajUvEQF3XLxieWNDikqdTFPrD3lAuqx32J2H3r0N3Kn6MqKhbGhJ6IwwX3DmkgReYBqLtwrb8obkvHcC_lUEWpucQ4peYJCb6GIT3qgKMHWBa5LohhHJd17iGsmeKsr6EuaSMOWPRSZJuPLQZOTiVMET3Y8-mJ5LPyJkovZ_t4yPOG-xJuTlVzvlSYMtbiBOYYHwj6w14x5eTdz8oWZ0mXVvpDAf8dQuLVnzOpsa153DFQgqXAvvnNuxZEyyrrcwhHKn8StDA5w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGYEiunMaSBcCoY7OXz0lk6Bngz9V0ZqnlKx3i1HRKlWN1FpnpABVoLwyZ0YDk3E-tfWi5IPBCx--gWOckM9OtsTuJaHSTefqO0QomrtaEw5CPkf5eMMChcf_3E8vpAh92i4bKEh7ebPoy7yD3y3C-ie-RmKIbWpUwoJE3zOv-H3CvfMqln00s-m2Xi40jEPp6LGxorFIS8wJyNW1YDeOvaEx19rkMXS7y0DujwPxaITOGPhTbcKAYQg-wbOqS71-mbxR3WQNl48t2ds2TYkZIl9rp58faSaDUqn6naepKIGYe3Nj0dnpXATpy989aXBfzK2wrVBE9dQFNeje_toswyF6tDoqXG4ZGVVNYXFeSbhxm3Ps0HNoCTynJWWduhUaQmpbPntPdlVwZpL-tr89SkfcvRvF9tw700QsvDFLEIIgerL4S3zwerMyfuxWZa&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/chakaiseki-akiyoshi/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.8
+  google_rating: 4.8,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie (Japon). Le Riz Niigata cuit au charbon de bois : la base sacrée du repas, d’une texture et d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default chakaiseki_akiyoshi;

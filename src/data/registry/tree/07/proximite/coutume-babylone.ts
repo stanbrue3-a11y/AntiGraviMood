@@ -13,6 +13,7 @@ export const coutume_babylone: SurgicalPlace = {
     "location": {
         "address": "47 Rue de Babylone",
         "arrondissement": 7,
+        google_id: "TODO",
         "lat": 48.851643,
         "lng": 2.318316,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const coutume_babylone: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN0pYvX-KXmJ94LSf3DhxfYee2yMSKFntUXD6lB2-cWAXuqFPUNlHXvm6lGsv23VDhnHXU8ClJdPM4SBX272XHKgiJ078t4q9WbLngn401-71LvJJub-ulfWY2PAR3NF7VCKkmDjsiTIFJ-2OQ3krS0JAeQHMZqEB5lEt9VpfIq2Fr2zFGCDdmHBcWPgTNZskhVi5OibCxzoE0o8z_JuDKk7h1V29TVV9N5eAniHgVJ27ddtLPPMdDG8NwfhXBz6nHIR4t1WpczHqlK8Yl_bTFNp2M8rBIFAnD1tTX_qYzcxxQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/coutume-babylone/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Specialty-coffee. Coutume Café.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

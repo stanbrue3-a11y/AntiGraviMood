@@ -5,7 +5,7 @@ export const viet_thai: SurgicalPlace = {
   slug: "viet-thai",
   name: "Viet Thai",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['vietnamien'],
   location: {
     address: "201 - 203 Av. de Choisy, 75013 Paris, France",
     arrondissement: 13,
@@ -104,16 +104,31 @@ export const viet_thai: SurgicalPlace = {
   • **Spécialité Cachée** : Leur soupe au canard ’5 parfums' est une merveille de réconfort, souvent moins citée que le Pho mais tout aussi maîtrisée.
   • **Rafraîchissement** : Le thé glacé citronnelle maison est préparé chaque jour, indispensable pour apaiser les feux du curry vert.`,
   specials: {
-    cuisine: ["Vietnamienne", "Thaïlandaise"],
+    cuisine: ["Vietnamien"],
     drinks: ["Singha", "Café Vietnamien"],
-    must_eat: "Cuisine Thai/Viet. Plateaux découverte & Pad Thaï",
+    must_eat: "Cuisine vietnamienne. Plateaux découverte & Pad Thaï",
   },
-  images: {
-    hero: "AU_ZVEHyQuTrs7kZorGbVQXkKhbdxp0NJUBovwVYh361rambC6sz08BigGMqC2qHxYi9CCcU8r2K0O7CyoBIb40mZmH3rjalZpVamvp5EkVQrKQoazuOz2gdIjl594f2n6waeRulwOaGC5HgoASMqtqyel9vJhTEb1620URvZGa92xmjOybNU2YYvIDSHp0cQ3pkn_DQqTz9xoxGyp-DjfePSlnZ70WOoYr19Hg9OfWFTLNSKaH4q3srQ7-Mt5NjHMG23InLCoYrgLTrGrY3RwNWsCmHZeRiq4ZLHVpYc2vMplhUOA",
-    gallery: ["AU_ZVEENrOpMqSS9tZ-sHTHgzgZ11JOiBz82BihHaBfN8AuniJ4nF6KdrYDOj67QYMgVwMjXCgbYgf62IsShsSvjbQ0-4eABobjqlv7vCEs63ep6GxuETDdYsvFU--b1q4KwcX_n_XMUGbbY18Sb3Gd5O9TmqCpS_4EtC5mD1UGbPSA573bWZrnPm_FbcQATYBfBc-3s3O_AncRXE84_eHlcAzcseAIJIPScWTeLSEc7p5s93zVTo19d7-2kYX__W4A3qkvob5DqSIaqxxvTNl7Bd9yeRmSHFITbbbzhdPvytlQByw","AU_ZVEFsZWV4OBCytj5zpz-HF3l5suqrHmndhtDyUfZjsxD7pulArjTm2u-gAsxMwooDrv5PIVEFi8BIjf7_QQ94z_SkMw2l58uRlK2oC7s-UDLhsaepFMZjotwKa-XDpx-3rITSGv8sF2ap8r_JsYmBtYIWy9k8v1cF9TaBnm-1CFbGeEVxe_rcuXNzrApZBK4eUWTl6T5dwsSw0LoFz-A0KTxrPJrb1kP9VXz1aQZGE3vNJVj3Y5XPwCJmvn83cdzrYNdoEL1FX-ImSCWus1vRN2bkU9rt5f9buaN8H-YV-0WjWCFLJYpb8cEMtgu44k3gULzeNotk3IBMeRcdK7L_vpu9Z5Y7j_JtBdDtELLDx7VFVkueCgMhBx6TIeST5XkXLvm175pvaF6qWd0zcGTDO6Kbazdz_TfPZI-vjx7wK5w1MbgK2ayO2bywlRenMc2G"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/viet-thai/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.2
+  google_rating: 4.2,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine vietnamienne. Plateaux découverte & Pad Thaï",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default viet_thai;

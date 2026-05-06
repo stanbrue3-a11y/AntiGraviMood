@@ -5,7 +5,7 @@ export const recoin: SurgicalPlace = {
     name: "Recoin",
     slug: "recoin",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "60 Rue Saint-Sabin",
         arrondissement: 11,
@@ -74,19 +74,34 @@ export const recoin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/recoin/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Recoin est un petit bijou de la rue Saint-Sabin. Ce bistrot de quartier, discret et chaleureux, propose une cuisine de marché créative et maîtrisée. Le midi, on y trouve des formules d’un rapport qualité-prix exemplaire, tandis que le soir, l'ambiance devient plus intime avec des assiettes à partager intelligentes. Une adresse qui privilégie le produit, le goût et la sincérité du service.",
     insider_tip: "Passez le matin pour leur café de spécialité ou en fin d’après-midi pour un verre de vin nature en terrasse. Le lieu est petit, donc réservez si vous venez le midi avec un groupe.",
     expert_catchline: "Le néo-bistro de quartier par excellence : frais, saisonnier et terriblement efficace.",
     specials: {
-        cuisine: ["Bistronomie de saison", "Assiettes à partager", "Produits de proximité"],
+        cuisine: ["Bistronomie"],
         drinks: ["Vins natures sélectionnés", "Café de spécialité"],
-        must_eat: "La Terrine maison et les légumes de saison travaillés avec audace.",
+        must_eat: "Cuisine de bistrot. La Terrine maison et les légumes de saison travaillés avec audace.",
         must_drink: "Un verre de Chenin pour accompagner le poisson."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La Terrine maison et les légumes de saison travaillés avec audace.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

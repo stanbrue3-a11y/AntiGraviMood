@@ -81,19 +81,34 @@ export const ama: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXW_a9vHMH8fuWg1i-Tb_Zq_xM_b538cHgDR3P0QaMzsASIOAQ6t7GL3VPGprU6Uzv0TBxHAkmbkypyaAe7K7i6SuxHdtfnxh_0xjTRFllSGXTJzaRUeSuJCdDq_zEXdYXz2G235yZ8gUpxkdkChR_EGwgTibqy-p1nLvbT8s5kgGxE9ncB5Uwf2fHqzboWjkURIyHmeqepPNSH3AAC18FZUAD1KFyccbyYsk249p4ehVVrzvkHoW1J8fmYmJw4nEfR3UFWSXaccjp88mmrzP_32hhJs1eo6OEIYqnYaFMM_Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ama/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Une immersion authentique au Tibet au coeur du 11ème. Ama (qui signifie ’mère’ en tibétain) propose une cuisine familiale et généreuse. Leurs momos, ces célèbres raviolis farcis, sont préparés chaque jour avec amour et servis avec une sauce piquante dont ils ont le secret. L’ambiance y est calme et spirituelle, parfaite pour une parenthèse loin du tumulte parisien.",
     insider_tip: "Ne partez pas sans goûter le thé au beurre salé (Po Cha), c’est une expérience clivante mais incontournable pour comprendre la culture tibétaine.",
     expert_catchline: "La poésie des momos tibétains et de la cuisine d’altitude.",
     specials: {
-        cuisine: ["Tibetan Momos", "Hand-pulled Noodles", "Tingmo Bread"],
+        cuisine: ["Français"],
         drinks: ["Tibetan Butter Tea", "Homemade Lassi"],
-        must_eat: "Les Momos Boeuf grillés.",
+        must_eat: "Cuisine française. Les Momos Boeuf grillés.",
         must_drink: "Le thé au beurre salé pour les aventuriers."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Les Momos Boeuf grillés.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

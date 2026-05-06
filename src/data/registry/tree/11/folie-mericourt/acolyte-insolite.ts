@@ -5,7 +5,7 @@ export const acolyte_insolite: SurgicalPlace = {
     name: "L’Acolyte de l’Insolite",
     slug: "acolyte-insolite",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['japonais'],
     location: {
         address: "49 Rue de la Folie Méricourt",
         arrondissement: 11,
@@ -85,13 +85,16 @@ export const acolyte_insolite: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUrVVuqi5foXBi5R8PoWltQFmMx1HZeVT3mOkUFtHyDzIphh5gFzetXSIGy4me1tWAXiePFIPSgcgQCY-4p51rZR1_yIsDcJG-vpjGrfd9ZJnWSjBQM0w3bM2dSMwmbxIDObCC4TBRE4DEtpTB6rKmre_dPPKwMxUpdjwYc9c1Lx9sH3yDSTC4vrxFnFrJ5bt2EKu_tYIDS-2lRqQz-UiIL5oTvChAl7BSanAE26fLKi4KkfojhwwtmsJYrijDsQ67wvs6IVArMKXL-hlZLHsrE_EMGbKnTr7fnSrPMGIibVeneKkES7LFBY7CeMuh9SLKxNb3McB-8rPjhPhqDI5Ih6X8_hyWhS1vm6ps1LXRdTkqfkz0wG3SX8tdp3sQ3nKNKdJDZUaQxG_rf3z9C5UZCVTspfNdv26OcBaXl5XY&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXEXtb7kSmk-xPLSUU8yc9FQeqM4o9aoFsxoAtBD9tuPdkTeRcI3pHfjEv-_iwyUuGU9i5pUI6AbDI_XBR8-awyV1wZqPVMKY0284AB6BvmiiP5s-WDLMZuhGk6BMzyRO_SaSdKTx1Q1M5sV7yafTm55g6XbGibMi7yRu8iqpznEV1WNv546IXakAdahK1DYhEOchkMlM-i8fd8HqfVztfxWjFZKiJMQgnDS9ehFqWs_TkGRdlRa9tjV1Ae7G5IxiZ6GABJc53JhRsZk-BziI6NZP8o82tV6v_iSOT6xQKR_QaucW9pD-br-Svp35DGoaxA2ySC211HH6yZA198lNGYWCU9iCv347M8JSl4CAsLLCleklu5kN-w3cmtsfWog0KYkMlk1Pegc4dKYVxjaZWMpayPuTmLgNYQyCWuitbK2Q&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWEElpPHPSrSCxat61qhSubg_QgnZ0wyO7_rHNk5sIincB_4p91sFbh3f6kagBz9gzDJ3job7UMapAmXi6Mgg3XV0MHdTA2u1Qziaw2UxdTugjj0wgPxHeNnPlzO8WYInBmmWkJbgm7ZoZHit6sZwcYUDMzHQC-Fw_2qsMSRqpTWaFR6Plk5KU7VQXF9M3Sn80JqNShZL4cCT5oLZMUILEOD63nezVEND-ovXW2CIplZYKju9xXB9P9Ci_Q5bNiFonIBCqxH__QxY2K55p6S2M9Ci8Athylr-H1VptXZQgHnByYfMSnkwHGLgjs8QsWS-o2OSQ2ZdLSBlL3gKLDbxIl7lTReZcT1VPvGO3kpGt1HIY9cks5VndWc_dtePuW91_qtIGgwFjgbgs5bqc-bxKcGzcGpYU45DABpmtUpczbI2on&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/acolyte-insolite/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "lacolytedelinsolite",
     verified: true,
     google_rating: 4.8,
@@ -99,9 +102,18 @@ export const acolyte_insolite: SurgicalPlace = {
     insider_tip: "• Les tarifs sont incroyablement doux pour le quartier (13€ la belle salade IGP, 9€ le sandwich ultra soigné).\n• L’endroit est fermé TOUT le week-end, prévoyez vos visites en semaine.\n• Demandez au chef s’il peut adapter le plat ou improviser, il s’amuse particulièrement avec les contraintes \"végétariennes\" ou hors carte.",
     expert_catchline: "Une table secrète aux influences surprenantes (franco-japonaises) qui truste un rating exceptionnel.",
     specials: {
-        cuisine: ["Takoyaki", "Udon de poulet revisité", "Magret de canard"],
+        cuisine: ["Japonais"],
         drinks: ["Vins natures sans chichi"],
-        must_eat: "Laissez-vous tenter par le grand écart : un Tartare de Bœuf parfaitement assaisonné suivi par des Takoyaki japonais !",
+        must_eat: "Cuisine japonaise. Laissez-vous tenter par le grand écart : un Tartare de Bœuf parfaitement assaisonné suivi par des Takoyaki japonais !",
         must_drink: "Un petit verre de rouge naturel simple et gouleyant pour accompagner cette folie culinaire."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Laissez-vous tenter par le grand écart : un Tartare de Bœuf parfaitement assaisonné suivi par des Takoyaki japonais !",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

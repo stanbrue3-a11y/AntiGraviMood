@@ -76,22 +76,35 @@ export const opportun: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXUyhwhEojS6GU9IkUFKVDeIfFu45vlFnALFCg3gT2tKBRrQuq0XGTqgRbVKy92eRxCpGSNnjrpdins1oNW-JdiEwphINLLwleGAi8clLboREhoQt5l5VZgs3M8flJnwEorlObLNm6PfnnWCw75yfgZypnTwTpVRi_4dNopG3cywVUlIfB_Scbt2DIbDOop1ttVz9w9Sh1keiRFol-pO31RpOPbgDY9B6hyA39zU2Wi3IhWpS-nSUwOwi4A6IeLSGDS-xm_hTA6oKEfYLz-_eq-mT5AX9yfqNKv0VKjy_3hLQ&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVlgc69r7b3SVLWAAYmTmOl0eAvbSnXjGiq7nVwQBWEWblQK4wAaDtFTjSTQ6FSzUzj1PZ7QSDk6xHPLebO_qAM8aiwdm-AaBirH5lZLKSXIgBYfHnh6GwbKl1XFvxTvc8yNl65ghvBaslwnC7THon-U0hVUno6h2zxdVusS2VN40IZ43Krux3MvvbHLx9W_fgs0BLs36AxSji9XYyfSn7E7y-2uiIf2rIyFp_KQDi3ylkFYWDoyd5cr_Nfg_vwFZk-V4N2XQSmDBaxZK7WZhknkbzLv7l6YgSk5fYe-dHmqTeiVEeANyGgYJpaLhznsU-k_gB87hQRugTdKF2PhAMEHvoHofjYHPSCq9MY-QX8Tcrd6ZJXsShPZE9n1xWEbwFi-Nu3oYR8YfMbjtngIvPPgirXbIg_VNhk4zrRWh28xvp_NNw7aeNOhNTvVqUN&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-opportun-paris-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "L’Opportun est un véritable bouchon lyonnais égaré boulevard Edgar Quinet, une ambassade de la gourmandise rhodanienne en plein Paris. Ici, Serge et son équipe perpétuent les traditions les plus nobles : Tablier de sapeur, quenelles sauce Nantua et Saint-Marcellin coulant. L’atmosphère est celle d’un bistrot de copains, bruyant, joyeux et sincère, où les bouteilles de beaujolais défilent sur des tables serrées. C’est franc, c’est généreux, et c’est surtout le seul endroit du quartier où l’on respecte autant le produit que le terroir de sa région d'origine.",
     insider_tip: "Ne faites pas l’impasse sur le Tablier de Sapeur, c’est la grande spécialité du chef. La sélection de vins ’nature' est également remarquable, demandez conseil pour une découverte hors des sentiers battus.",
     expert_catchline: "L’authenticité brute et joyeuse du bouchon lyonnais à Montparnasse.",
     specials: {
-        cuisine: ["Lyonnaise", "Abats Fins"],
+        cuisine: ["Français"],
         drinks: ["Vins du Beaujolais", "Vins Naturels"],
-        must_eat: "Le Tablier de Sapeur et la Tarte à la Praline.",
+        must_eat: "Cuisine française. Le Tablier de Sapeur et la Tarte à la Praline.",
         must_drink: "Un pot de Côte-du-Rhône ou un Morgon fruité."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Tablier de Sapeur et la Tarte à la Praline.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

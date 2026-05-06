@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const cafeRendezVous: SurgicalPlace = {
+export const cafe_rendez_vous: SurgicalPlace = {
     id: "poi-cafe-rendez-vous",
     name: "Café du Rendez-Vous",
     slug: "cafe-rendez-vous",
@@ -73,22 +73,34 @@ export const cafeRendezVous: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Aaw_79J-8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Aaw_79K-8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=Aaw_79L-8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v8v&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/cafe-rendez-vous/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.0,
     description: "Le Café du Rendez-Vous est l’âme battante de la Place Denfert-Rochereau. Depuis plus de 30 ans, cette brasserie tenue par la famille Porte incarne le trait d’union parfait entre le bistrot parisien traditionnel et l’élégance contemporaine. Sa terrasse chauffée et vitrée, véritable poste d'observation sur le mouvement de la ville, ne désemplit jamais, du petit-déjeuner matinal au dernier cocktail de la nuit.",
     insider_tip: "Profitez du Happy Hour de 17h à 21h pour découvrir leurs planches de tapas à prix doux. La terrasse est chauffée en hiver, ce qui en fait l’un des rares spots confortables dehors toute l'année à Denfert.",
     expert_catchline: "La terrasse institutionnelle et conviviale de Denfert.",
     specials: {
-        cuisine: ["Bistronomie Saisonnière", "Happy Hour"],
+        cuisine: ["Bistronomie"],
         drinks: ["Cocktails Premium", "Bière de spécialité"],
-        must_eat: "L’œuf cocotte maison et le French Toast au caramel.",
+        must_eat: "Cuisine de bistrot. L’œuf cocotte maison et le French Toast au caramel.",
         must_drink: "Une bière artisanale ou un cocktail signature en terrasse."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’œuf cocotte maison et le French Toast au caramel.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -91,20 +91,26 @@ export const l_oiseau_blanc: SurgicalPlace = {
   • **Le Poulet de Bresse** : C'est le plat de David Bizet qui lui a valu sa réputation mondiale, ne le manquez pas.
   • **Coucher de Soleil** : Réservez 30 minutes avant l’heure dorée pour voir la Tour Eiffel s'allumer pendant votre cocktail.`,
   specials: {
-    cuisine: ["Gastronomique", "Français"],
+    cuisine: ["Bar à vin"],
     drinks: ["Vin de collection", "Cocktails Signature"],
-    must_eat: "Le Poulet de Bresse en deux services. Un chef-d’œuvre de technique française.",
+    must_eat: "Cuisine française. Le Poulet de Bresse en deux services. Un chef-d’œuvre de technique française.",
   },
-  images: {
-    hero: "AU_ZVEFtw-7Ngx8fLBvrEU7fZQ9_B_tdydHDCA3U5x1NZrmdXdbofYmPDU-j2kCM7icgktGFV4BNSJ8LKzQ8ds_yZfL9vJBM7jfkB9WtHde1hbiMP3daTddiy7-fIZ9EiKgaTAIm3wTUtTL9nB9r1rXGGCAR51oQMJC8EgPi80y8SOxibGdoX8V3tvpdUKSZGhjxCZEyXh4wseM-y35WhNrIXwy3_En7AiG3BxVU3sQhQd-qJ1SYxPS5SHTsnf4-Po_ZNHQBLVS8ZlJxn194dXjAtsVCuhR7SYCKYWgVR6mokpPgag",
-    gallery: ["AU_ZVEG7C6NaLcyGufvo8l-IS92mvl55hr1ssOReCoFk_OEUkDAguWyUf2DSsYsyuWFbqbm7RnV3laQntWo7ZfHe5x9BZSahaNbisxGxDsr_rGZsvlA8adun_ucTJus5vUP4dQMypZsd4lBRULCCMFvbue5hXZvaniiPIUM1muIC9ol3azVBXJdAORkOe5bmpssmcWJqpsyPw9RZBb_qsgZMV5TqA0NWdWA1En9lti0PWWPB3k5c3t8ryonlxt8q6XWeEISq0Ab-Zu20UOYAXbeoWm5QRo0BkSN7VJJbnRVdst7_CQ","AU_ZVEGqFMlJubcF6SpehInbfYetqkBzx49mW3hIuQS3a31c45pcbPu6uyTb8foU8A2REjY_WqDdjoBbXV4izOjbzKJvGUHLYsG4vmXBxf-pH6EHRIGDNJOjh4TWLzt2DPfQJb4Vf4SOcbHCCem05OXxFydIAfHhhyiKo1YR7X7zW_b6SSG2vei0396JZOw5Og4BlfFBNy6y9fiyEFwWE7vu3N5uWbR2E1ki2tptATCONKbCgIO5BSNQlnfBtTw1_9fpK3CibKCCqOCgTY_meide-NiXU7qdw2q3CcC8Sn_linrR8A"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-oiseau-blanc/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.6,
   michelin_stars: 2,
   real_talk: {
     text: "L’Oiseau Blanc, c’est le luxe ultime. On y vient pour la vue (indiscutable), mais Bizet a réussi l’exploit de rendre l’assiette aussi mémorable que la Tour Eiffel. C’est précis, c'est riche, et le service est digne du Peninsula.",
-    must_eat: "L’Oiseau Blanc au Chocolat",
+    must_eat: "Cuisine française. L’Oiseau Blanc au Chocolat",
     le_secret: "La table près de la réplique grandeur nature du biplan au-dessus du vide.",
     le_son: "Le vent discret sur le rooftop et le murmure des discussions feutrées.",
     le_must: "Dîner au moment où la Tour Eiffel commence à scintiller."

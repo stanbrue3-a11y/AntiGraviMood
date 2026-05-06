@@ -5,7 +5,7 @@ export const la_dame_de_pic: SurgicalPlace = {
   slug: "la-dame-de-pic",
   name: "La Dame de Pic",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "20 Rue du Louvre, 75001 Paris, France",
     arrondissement: 1,
@@ -91,19 +91,31 @@ export const la_dame_de_pic: SurgicalPlace = {
   description: "À quelques pas du Louvre, La Dame de Pic est l’ambassade parisienne de la cheffe Anne-Sophie Pic. Dans un cadre poudré et épuré, elle déploie une cuisine d’une sensibilité rare, jouant sur l’imprégnation et les arômes complexes. Chaque plat est une dentelle de saveurs, souvent sublimée par des accords parfumés inédits. Une expérience gastronomique d'une élégance absolue, étoilée au guide Michelin.",
   insider_tip: "• Pensez à réserver plusieurs semaines à l’avance pour le dîner, le lieu est très convoité.\\n• Le Millefeuille Blanc est un passage obligé, c’est l’un des desserts les plus sophistiqués de Paris.\\n• La cheffe déménagera à la Fondation Cartier en 2026, profitez de l’écrin historique de la rue du Louvre tant qu’il en est temps.",
   specials: {
-    cuisine: ["Gastronomique", "Moderne", "Française"],
+    cuisine: ["Français"],
     drinks: ["Vins d’exception", "Accords sans alcool"],
     must_eat: "Gastronomie moderne. Berlingots & Millefeuille Blanc",
   },
-  images: {
-    hero: "AU_ZVEFgxxZF1hGgOfEbxMXD_zl_YIeLtBXw6Y6ZbIhzKXfTGJ9k2l7kyzS9jIiNQMGmLNn08tzVANxwaPu6NDecw-cp6TEZ3r9qAnPVNeCl_dWrhT9_NAl68kFrIso4J42c5p9omzar5qhBCCtV7yHUJlp3zHDLCFG-dXvTzgzuQkVtYrhzbA58uyjyGryt6sEmZtcyp1nNLT6nsmAVNct_mK9PckN6wQupqCGHQYxgbcywATiSpsKnBopN574MFckmErUc5hNBkvMInVyR1Vh9r_61Ecj2CGkWt4x3znRN7onfxg",
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/hero.jpg",
     gallery: [
-      "AU_ZVEGuUguA_7wA-qywtCVfx5YVVmpRuDFdR1QqQnqoC1VOGKl_K8ztFKKfu_e5UlXh6WAzOqUIeJqQbXosEBcWQhXwj-FSyC4aQOev5gD2cvhValv-E2HKzIW8eBvVUJz4CbAILxr6EshhUPiRyzE1jIYrg46Ofl-b-N0G61IaXMvDe4gTHybS9qszy77VAhCej6LT7msUgDqitmVNKuwi9S4UEzKQ9hI_XaqzEFy49G2Ev_QxY5xroROIv-Sr6I81VQtjFSdbvNzAEBmakVWLf-HyPI1Sr33tNJwlN1ypLjnCpQ",
-      "AU_ZVEGipnbCLL61PGFxKYENy2DKP4We7kDLAHMsh-X9BjnCA0J9oiHibkwBwWu0guaccr0lWecKFh1wQ3qovXSO6wQG6tUAYv8J9oWjScEPRNMymMO2uSmjlpbVL7gDjU5do7KxWw8sISDyqs79545HQqIE2v8vKs5D-idw16lDZRCIeVMVMUCEK5PwU9u2A6hve58ZeXwihLICE35qevWWyw4eJ9fc_NUMrGoeKrn6kPwlHQpcfEhrh4UmsB5L_DMnDh1w7NZSvS8XU-4EUYTEaqg9ugNzbopX5m_1mfmiJAf0XQ2Ne2iMe3GS2Zjd5Zf86hjNkOJOAIHZBURz5RmrkFPgeeW0RD_Io1WLbwICB4epOzcNuOO0oHoHOKDY0gYQ6tR2L7cxjp8KewmouM3Psdj044eV4ayLh3N22aCuJHj8CSa4h3CnORyi36NfJg"
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-dame-de-pic/gallery_4.jpg"
     ]
   },
   verified: true,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Gastronomie moderne. Berlingots & Millefeuille Blanc",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default la_dame_de_pic;

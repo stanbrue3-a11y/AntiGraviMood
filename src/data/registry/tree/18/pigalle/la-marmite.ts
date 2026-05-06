@@ -17,6 +17,7 @@ export const la_marmite: SurgicalPlace = {
         // VERIFIED: Google Maps API
         "address": "2 Boulevard de Clichy",
         "arrondissement": 18,
+        google_id: "TODO",
         "lat": 48.8822792,
         "lng": 2.3394899,
         "nearest_metro": "Pigalle",
@@ -166,10 +167,24 @@ export const la_marmite: SurgicalPlace = {
         "must_eat": "Le couscous le lundi (institution locale), la formule express midi à 19,50€ avec l’œuf mayonnaise maison en entrée et les lasagnes fondantes. Un habitué Google 5 étoiles jure par la crêpe caramel beurre salé en dessert.",
         "expert_catchline": "Happy Hour de 7 heures (16h-23h), couscous le lundi, et la terrasse la plus vivante de Pigalle — le bistrot qui résiste au piège à touristes du boulevard."
     },
-    "images": {
-        // VERIFIED: Google Maps API photo_reference
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX5Z2pyPh905TlSZZdOPQ9kZ5IhKiD3VfN724UwVSqptXhYD_f6BnWDGSciuBy6YNMhKTqTLU75tLB9m8tvr7Bdbm06xbWVKs4CZ5Agv14BGm72FHs4NPBh_3A73Qq2TwD_DxvwHjhb7xzlnD8yiAzuk4AfisAQAPoZ2R1so865Xsq3YGXIJbIa1nUN6ReHzFTT74nexx5iHEgvhFDslCw3Gb6N6mNTj67wXGyltY9_treDC-jIvTrEpDdoEwmHaB4k5_l0X3hhOlIZbgsVvjcpLEz9dnaUf0mSRRfKPwWJs8VeQWGTACf-OMeYJXv-Tyk-XZKS5bVIwtSIHtu2-2T2CtQM__ne0g68Rv-EKTz2FeoBnqV5fRCAQQvM1KM5eyLoc1jPR-lXZ-scQQgTKqP9jq9iHfWb5vH_-tMyr6QJJbjXzsFF6DEVmEKMw7cGYYt3nLSsxPpubXgDkuExsmKSSdumuckmpnPexQ16zq73I_SkIc2Cpyeul3DM6s0DGQt1wQ40InoaoeiHzrHGHVH5m0wRrDJTK4OU2LPL1GYgciF9I4zPCtgTJu5rJEPslnmY_oJvdYxQsg&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "research_ai"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-marmite/gallery_4.jpg"
+    ]
+  },
+    "source": "research_ai",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Bistrot. La Marmite.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

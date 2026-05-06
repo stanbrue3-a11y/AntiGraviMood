@@ -89,20 +89,26 @@ export const shang_palace: SurgicalPlace = {
   • **Le Dim Sum Lunch** : Les vapeurs sont plus nombreuses au déjeuner, c'est le moment idéal pour découvrir la variété de la carte.
   • **Le Thé** : Ne négligez pas la carte des thés, ils sont sélectionnés comme des grands crus et changent radicalement l’expérience du repas.`,
   specials: {
-    cuisine: ["Cantonaise", "Chinoise Gastronomique"],
+    cuisine: ["Bar à vin"],
     drinks: ["Thés Rares", "Vins d’Alsace"],
-    must_eat: "Le Canard Laqué à la Pékinoise. Le plus authentique de Paris.",
+    must_eat: "Cuisine française. Le Canard Laqué à la Pékinoise. Le plus authentique de Paris.",
   },
-  images: {
-    hero: "AU_ZVEG0qmqLtgY8sUKA0OmJbWRT662typbagKEK39JlENGym82kw5SKMhLhthX7pEuFs-wTjhDEqW8TeG1hcIO3Jmhk4sGF_MQP4EDPGQv3iQ3AkRK7xsvlPOLVtw046gsdKt6sbB9WzXjrMn2IYEiNvO8M2kLSjBWKw2rgh3DnXbOVn9MFJsxNWsmfVXP67PRiWOzeaQbdGbrXEQsE7sSsqiGAK-7JRhE4bJSsoQ3REjGJiRmTMth8G2AtPitL9Iui8dxqVP2hUfPzuqCc3xe0-wft23jw-9Jt762DHZQznNg",
-    gallery: ["AU_ZVEHOfxuHPXyuBhDtiSkFAaFZk2ALcAGp8D-K7h8I-eBN7ap4NdifpiT9X2FLGmRRRxFusF5x9EHK5WESvNUzbzt2PWM8UTT2T7vGOAwoiM4e5YsAkpHKFwjWktODD3oMycjmOlAnnurOwQfJF2vYcGdZfIrMCmZfO8sUfy-tj0NQNNw5C5D5-3k1K-6fpeMJ_hZ_8x7mA0rpAZhb-ZamYN2WAOp5G9Qz6vIVJyIrQehx5BMY7BtFGteh7fCc1NcHytBeyT5UBEQyAWn743iiZwPTHKWsWQC9_IuviqZOS5jaiJxNTgpOJGbc5epS2jx6cT53BbNbaXXosCQsBw9UhPVmaVbHUFEIPDQsf7p9Uct7ul6iLz-oDDv93JRvafJ-IFdrZkfpsdkvoWApS86W7zJ3KregzgPX8pu9DpuLfdBPP4g","AU_ZVEHVc0jeTUF2kpPkY2_xVp_eIkL5R3NH6DffDNsaX2KK9_PPGZEGodVihJnAu4T13uGsiMTKqCwdaoFoo_vLcyCXRgdK7VNEr_D5a8WnFrTHYiZrouA9Qa6paEEtcsHagZarm0M75ncMwfKLuypVOYZLyn4GXdAzuFyM_8nPc8uyTgXlj2IGFiinepkWIpROPpz8IcnswPq1KOnlgvsD4xMj2DKn_frbAMjv3XVU3LZkT4ulS4VcBboTfC0CnKE9RfY_zEoy4VsFftS9gV6lzFZend6emBIK7BsJz5hE-iJJlepkhIbjQwYz1CH5TnFIW9rHJzYyER1RzcuNpe3eGl-7vEkZy0WUJ1roSxcCjOafSI7m3ce0vl0XRrYW6_iN5SLvD8BccNr61Aa8cFp_wnTqD5cY2JEVfWkoCCMVlZsNsbgk6EoIoHxBY4hYVOIZ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/shang-palace/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.5,
   michelin_stars: 1,
   real_talk: {
     text: "Le Shang Palace n’est pas un ’chinois’ de quartier, c’est une ambassade culturelle. Tony Xu ne transige pas sur les techniques de rôtissage. C’est le seul endroit où vous trouverez un canard laqué de ce niveau dans un cadre de palace parisien.",
-    must_eat: "Canard Laqué",
+    must_eat: "Cuisine française. Canard Laqué",
     le_secret: "La cave de thés Pu-Erh millésimés qui coûtent parfois plus cher que le vin mais offrent un accord incroyable avec les Dim Sum.",
     le_son: "Le silence majestueux et le bruit des chariots en bois précieux.",
     le_must: "Un déjeuner Dim Sum en famille dans l’une des alcôves privées."

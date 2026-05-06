@@ -115,15 +115,30 @@ export const le_cafe_du_commerce: SurgicalPlace = {
   • **Le Duo Incontournable** : Commencez par les œufs mayo (réputés parmi les meilleurs de Paris) et enchaînez sur le confit de canard, une valeur sûre ici.
   • **Casting Idéal** : C’est le lieu parfait pour impressionner des amis de passage à Paris sans se ruiner, le cadre par rapport au prix est imbattable.`,
   specials: {
-    cuisine: ["Brasserie Parisienne Classique"],
+    cuisine: ["Français"],
     must_eat: `Cuisine de brasserie authentique. Confit de canard & Vacherin du Commerce.`
   },
-  images: {
-    hero: "AU_ZVEFlaNpqZ6q6H_9gRTZjNNU0UN8zOxDAgz-pAOfExJqE2wmWv1WvOj_Ft5ClxV4aVGJG7bXb2-oPaPQxl5w2U0EuuIWpWLx1VsE8dTZOYK_OJjHhxAU5CCE-mE6NhnBikw2xPwU8Al85YMT6EQxLlK2SBMeMv5JH4RxEIKViM40aNFgddhSrjd3Z1i1MqIueqzdugvSWeSABO2PmgVth3H_wAMemHGeRDbI0c6aeei7HvZgBTBijF8T_d1vYC9pIFJ8XV5mc3DHBwIo-Ph9rhsl6Ymd2oSOIDojsgoedSwTFMw",
-    gallery: ["AU_ZVEE2Y_yLqJTVtxH7qrEj0obTSEGP4anrnYYoGYzE3w4YObw5Y_6_TSMTnklOkMpcd8iWFEZVPxN0o4fogvMJZ_q2fmXa8X9ywCRyO5iCb1eHuQuzXOGi6mphhIxnSsHC-kegvmrGlMcKtDoGxfSR7mubpEoLKTIRD6tkL5MQCaq71OyXeHCFC3G2GNQyreNAMVIYeC7a46MHyuubHG8y3fhpoeiUCojx8s1UJwHuAMgtjb-33DGVNMgo5P8kQlN5RlXQPFQzkeoTR0pWAu9XUhIku6ZW5XEN8wpZ9BD_qTVqXv6Jr4IBUqmjgX1_PBVe0VfqNShjMQZ2cYPTRsEu8oq0Ve6dUf7nUI4adNCCL4DQ_WmSqCI6dzWTnyS45eVLZTAUNGWTt0YbYp1wq-pQRWo1ZJEbpdjUcjVSuacxMs_DuU152efuzYdWnuBxzCeo","AU_ZVEHIhztWvD3YuQiNBPwtnIZ43fTv4crtOl4Qs2HWiAlA6aUulYF-1XQb7UnkC5zHeZHmGfSYIT-QzPwDO6voxKpplx-pbyYGIkiRmbrRYoq9y39dwKdsWf-7hShPP4pMyc_eaSMWRSNKr1qZpuRFYbOH14dkc3cfaTq6v9n551qIj3CCQjYOZEZ5mEBJvI8nvzsOro_QpyoknL7HD6lkg1WKDlTYfQI5vkHz548dklp_eIwdY5kKUtlOd8MYUJ5qNZ41-AJ2Q9uWswS0lE-quSEUMNNURqTT1j1TvcuAYprAjg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-cafe-du-commerce/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Français. Le Café du Commerce.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default le_cafe_du_commerce;

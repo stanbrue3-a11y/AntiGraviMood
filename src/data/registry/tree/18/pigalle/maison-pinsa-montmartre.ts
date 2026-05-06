@@ -30,8 +30,7 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
             "url": "http://www.maisonpinsa.com/",
             "label": "RESERVER"
         },
-        "cuisine_type": "Pinsa Romana Italienne"
-    },
+        },
     "pricing": {
         "avg_budget": 18,
         "is_free": false,
@@ -99,13 +98,25 @@ export const maison_pinsa_montmartre: SurgicalPlace = {
         "must_eat": "Cuisine Italienne. La Pinsa Regina aux champignons frais ou la Mortadella Bomba pour les gourmands.",
         "expert_catchline": "La pizza 2.0, plus légère, plus croustillante et 100% plaisir au pied du Sacré-Cœur."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXbZGhx8X9JPiTDHxxlFBTjFAQRAmjo1P_zAvwxZUvWUQxBK4FDTpD4d6jgM65QFLHGHgqQyXNQhP1_QFy6Gh4OrJkcRTXdTAI_q-PwJ68RfxqfyxCAliCjizjbNYaYivlJyRyynyWTSd_9-soarNzxij01plt-XsFjFOnJ6Uei2CyfI5zDCcTtcUc5fbPSDbRgrmraLCiNxCcpmhb11cEfmVk7b4ZPgWOF7lkDKN3psTB49fRzOpTKEDwaq-6qQxoBjlQY05-oyk1JjP2XQdtoKhYiJOubT5_Ug_amR8Rt2OSMCviW0-sKIwIH-DbS_r4UvtOyHsiMRXHwEFuKsE3WVSS56u4UvxvL3a97to9wB8A6gsO9xwGFJ5g3gkVEB0Q6DY0v41Kanlp8QfsJClzQRDm9NNLIFfRxU2Fk9gcDebNOhowPPSNDsipPgUp5PM7lloz702CdPktp2QaT2-ZQqH__U8ngjlWE54qTeUukG0tVYJQZ6OK0jozpJc6sw75tjzR9rxoDavw6VUn_Gk7ab5jQGKcGkS0LXLTP6UrSfFlZcqH2cgiyRkNb4u_guIehuSM455mHINOFZ13_QdSvyaa8NA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXw2iiENahseKgCI-FH7ApcMj4XnzDzc6b2X17j3CfLkdUweEYxL9Putt1XtvRL31Zj6FA3_i0dCpmovjzW9FQLD3NFj9sc0iRroZJAWrh1BwPVEOUSJNsIxK4sB5dUVbZ3mYoAZUgpbbnUIq8O4vqCfQjGuZ0x7_m6gQwNeMhDP7SEeB6XsbaGtDvXaUhhfXaMz3d96WszlNpUOIpKFWHfkst6o8Xr_MNVaGGcXYxrjiZqAf4BmyEs69PXw8HcT-NFVUdVT9ajbxJrM761fDsEmkC4OEoFw-FOc1YiXEXmhQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXmLjQQSULKzZXKMCsISyz7dIJxRVfC5J4Gws6EcnfCfHGQkhu0w2BTImtOT31iXd-thQ79EDe7EkMr-pEmPa6wcuk8A84BMg_VAxO8j1PkcptU7oObS1p8JL6dtx99qHqosYjT5WNFvFQE4oQwGky4BTbpeAHo9uwfH78PS2xlJ2vOLD1ipS1SGCGq0gkzaDPTom9gZdwAns9hCf-nrAaYJ9o0UGxT4YZbT_MK9O0ltxSa3ZwdZlOybpktB6czHtv5-2BBTpUXYvCzYVQ55iNxmJ1cVK9lGS9IRFbb2hvJP7PzoB_sdClVP5on4d4Oq2QZKSIJEgYKN2-aw-QvaIaePBTeH88PWPc1lKXX95maoFQLVG9M0JV7PQrRjMYWCtX9yUvPeDrDETdwTK02fCl4KBRJYPqmoa5pD1jCKE_jFNgK_lEAZo6RSEXzVTc5&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-pinsa-montmartre/gallery_4.jpg"
+    ]
+  },
     "instagram_handle": "maisonpinsa",
-    "source": "expert_human"
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Pizzeria. Maison Pinsa Montmartre.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

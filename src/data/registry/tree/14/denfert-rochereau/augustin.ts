@@ -5,7 +5,7 @@ export const augustin: SurgicalPlace = {
     name: "Augustin",
     slug: "augustin-bistrot-14",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     location: {
         address: "79 Rue Daguerre, 75014 Paris",
         arrondissement: 14,
@@ -88,22 +88,34 @@ export const augustin: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV8wF4Ox9DtQIw0h85RrezXge2dVEjR4lv_8fJw6CRiW8P4G92rCGP6R6FQC6dwSK0SbTq2DG66d0aEiswxcO1ewsCY9wBnWjS0iU8_OfLHvJ_w8vGUDg9KmiXAk1E_7698IFuIRoT2CCJAK6HYRZbVdL-jiADl5FqAJ6u35e6SrWMfS-k7Bc-lDdeTGwCUsaESd6o3Mk6ohw2t8C-l7ctADbfMwusYeLElFzxL-EYZ3PZ_MnzM5wwKo3EMQAc-PZOFGb3uUWaDCA3KQ3jannDbBtYJdY-4Pp5H3UOsb5NyIg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWeLBAIOwEreFVzA_9T5aX3o1rd9yrBEdPOxaF52XoXNXViOBDOXTS2MXEc-rG_vwYZP3PQi85rfhNEkHhjtkeHHZc_IsqCEm8J5qgXonS5X-Qrri-8Qb5aje2I2sXkK3OP0Vk2P82bYQAov_55QF4mYhkkJ5GaDbzwXZo9F8kkJzAiv2wiRM0KYxfR_tZ_gmdVLCBQntalDf5pnlgzd1TqcULy7HdAG8mkexeKQUSDP3UB60f6qG_UgJxiG6zgX9RJW5PaBK7EAirjsciI8AD4Q3vqnjQa1abvfqV8ELuiDBCrunUDS5QeNHoMLzvmB1PIqVBXO0gsEojZSmcPwPG0dnzoaaRW_4hu9B-P8DbSU78IAjQ5RJp-VWA1YHQ__yMm35eBk04VYH4QbRnEP-oEHwhrM4A30jRzLbKvXCLzk1_qVTEz7rmBcNw3X5-l&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXhkMt-nyyemnY1coPnbXJabKfBaKNndmfFD-ZNJ6N9NdMfbhYB-qPYC6zdYrxH8pikcGniR5uFdbrm9AKVdfF55G8K8AHM7XDA22rrTFiDpxchOUk87JDDE8ROTkxNOafGBwvYrd-wv_h22IROqEL9wd7Su9xPX9VvMmWbFE8bNBocsHQwA4rRXj6Rvasa3nGcKH7G9FVwRR-GnLFihSLt1IJTBxPcyehufAECnePFjevq6LCyehGxKwSKYNXyGl2V0ByaUhHaC4GuiRvce_BQkWjOn0Vg08oYWHqtiBrOIDNskgoJmm4o8EhafY9TjWUWw92sq9NU_Xfv0gXIz2u5IAiBzmcLP0YCRdPqSufBoEOarxZfVHFVL8mfr93ynQykm4jrJ0yo1lrdkjksyU26XFJgE0epwshRqnY-9Oh0xo3s&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/augustin-bistrot-14/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Augustin est le joyau chic du quartier Daguerre. Sous la houlette du chef Vincent Deyres, ce bistrot réinvente les codes de la gastronomie française avec une modernité rafraîchissante. Le décor est feutré, l’accueil soigné, et chaque assiette est un tableau où le produit noble est roi. C’est l’adresse idéale pour un dîner intimiste ou un déjeuner d'affaires au calme, loin du tumulte des grandes brasseries montparnassiennes.",
     insider_tip: "Le menu à 42€ est d’un équilibre remarquable, laissez-vous guider par les suggestions du chef qui changent tous les mois. La purée à la truffe qui accompagne le cochon est une expérience en soi.",
     expert_catchline: "La bistronomie d’exception du quartier Daguerre : raffinement, saisonnalité et justesse.",
     specials: {
-        cuisine: ["Bistronomie", "Cuisine de Saison", "Sourcing direct"],
+        cuisine: ["Bistronomie"],
         drinks: ["Cave à vins pointue", "Champagnes de niche"],
-        must_eat: "La Côte de Cochon à la purée de truffe.",
+        must_eat: "Cuisine de bistrot. La Côte de Cochon à la purée de truffe.",
         must_drink: "Un verre de Bourgogne blanc sélectionné par Vincent Deyres."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La Côte de Cochon à la purée de truffe.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -34,8 +34,7 @@ export const maison_de_l_aubrac: SurgicalPlace = {
             "url": "https://www.maison-aubrac.com/",
             "label": "RESERVER"
         },
-        "cuisine_type": "Viande Aubrac / Steakhouse"
-    },
+        },
     "pricing": {
         "avg_budget": 50,
         "is_free": false,
@@ -95,13 +94,25 @@ export const maison_de_l_aubrac: SurgicalPlace = {
         "must_eat": "Cuisine de l’Aubrac. L'onglet de bœuf ou le traditionnel Aligot filant servi à table.",
         "expert_catchline": "Le temple de la viande aveyronnaise ouvert quand tout le monde dort."
     },
-    "images": {
-        "hero": `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVdRA0izsmYMmigzy5uNKldTZXUqxAG67YEMRFWrswvawCk7dnHb8VH16FKu3tyR3Um7Yrz1OKdIW-WGXJusmAe4H8k41FHaAnwB5SPYiDWANwLFfCqB3JYwDBUkfwV_2kgOvp-5tjnmQP_2dAYKosPgEcdZ3EZzv2NjPYE8ghN7VrVUWr5FLQJBfgcNm4msrIEjaOZDO5QU98RN5XWtKayn4nUJRGvgEjpxmRhbThKYdvP47Adv-nthCu3X-Ggbn2iT_kfP8Q-BbBwgvL5IrL7MO_ADbuAUzRKffX_BpQ0IIRQeak&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        "gallery": [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXL-AZtaumBe_Jl2Ly2K9Ta2xfgo2kSLlMbZ6BMHzWNYWss7rP43xzv9x-208aKZqtVeShpckyOGhXsvj46GRA8VdqDgktZtKeZAMVL2nknKTDALjAfOt5MqQUMVWajzAJJSEEd6Bl0vw_yF1B6iR3WhTLUmcaB7OTu8VMbkiRlQzwfDae-QDPqCKRJ8n619Nbq02iqxuatsC6Zs7gy0dEP-GJp6Qi0gjdd7jhv6nRS7zTaV3oj-9WXbw1Mg1HM1IGosMJMcQ4ZNJ9b42l6LIoVQzd1HrOPbA0zz5WrSS98ZDFxpa8v_01oK8xgwdXESubesPdQahxhJFdI5QJjDWxh4vmBOuPfPUvlrLbNaXBfy5NbbjDhGwfMsxC6u_52skat4OjLMnhRiqqf6n6ifIWhvt3e1HpYxFLLEBq0epvBhkW-G3fzJeUCaWV8tsyQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUme0l1ryZXI2CDex5HeD4wcJTg60XDugKRsWppEIc54xjpPK7eit-sZkZ7XT5x8jtNITRE04RnLVx3VgMsbLGmZOKarQZiO7L8-DqNyzTvCXVUUz8f7gq7aBtCXj1VZWKir4GsvWX8gCfo6Gr5xD_1goOy2ZkZ0Z6lYLMxkZfP6mrVrJErfxlRI1wxsb7BYm3gH3d-E3CB_oXSvxtzTi42jQ4Uy2P0_PkKEOD9gBVfqd6Y8Qt60KRWpyB3J8QdK1Jn09CCvlKs097BRDIHtY26CSMCA4HItoia7USlfU2_L2mSodITQv9OirWhSXxShZ0sxxRuEViEAN0dBjTPeTrGhaLUci9eNf29HroRlrS0rluFhxOve962L8vmCFgGcfypTjy_-7CSIl5u7xqp_-5Nr0XGGZt12mBExXRMp8_VWKVWura-fc5rGtxe0IM0&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/maison-de-l-aubrac/gallery_4.jpg"
+    ]
+  },
     "instagram_handle": "lamaisondelaubrac",
-    "source": "expert_human"
+    "source": "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Viande. La Maison de l’Aubrac.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

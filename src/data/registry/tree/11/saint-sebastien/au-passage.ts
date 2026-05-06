@@ -112,13 +112,16 @@ export const au_passage: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUg3ndH2NK6C_T8lGIXF_h9F75JgQsx-FUF2Nz_gfRSzik9zNjeoB6eympdXXmL9RxRiX_1VkGJTdTpAUAW0ZRBC4LiFNLr6o3-rPLIg3XNcucu0ZEW1VIjS--0vefYMIN34OfiNod6gNWW5MSbnv3OL5u7qHM55XNHtALqvo24FBiuGFReLoaBoNnkhZorJ23bgjfpfyhapGojsVr_sZiYbWwGH4b56OZozOnQxIBe85wzWYxnjwBmJiy1R1dfssapIJ5hFPtXBJrF3Mjgk8PVfdBaXhW8g9-b15XHSUTyvfziIvNS8JdxoRguwBXAWQCPTGzkTAekLL6FyZjvw5F5G7X0KmY2pLi31N2YJwg5ZMv5ZX73Mz6lxH2Q6Ruf4-CP8ozrGTU8DDfPOAAdKjgTnbdyLAZiEWV5btN6oHXMbxo&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfV1NNqcIukw5ylzYPN6uAO7tNOVt2JDv8uMPNjqqDmE673gQgOkskyHRKIIcs0gUp8NdOlV9kw6NNZySy5bdiwdoKGUJlyryRSmCdGO7MrnpTPfVBZVIMJDk0QaQAnLRvhKpttdRJlswcnliMSsxoskdx1yTJgrgLzsQJJGqeSgk49bmG_MrrMKyb0VKb2NnUM0hQgCoVYMY_s8WMqtSMlL3WQyjnmnwNF8WxKCkp98Peddb6TO8KLdswD4LHWMz390CsMZLXlqOrnD7fjk_4KwPGN4plf9DAtlueBikORwBw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXXxeOiQGckHjpECS3rp-ntEIu4dCyb70WOy3AollQMSw--8n5afRg3BYNi8G2cvpNZsHBC4fxTkXiQhoD0BbWPhso26eadvaPFd3QL2WLavLRWAF8oAjMOlv8L_ZUNHcjDUDN0fA7kO1n-zKljNnzAxEyIY-yRGksc4aQew6Dp9ccEjI3l9-Rlf6bw5UcvLnHc0naMDHkn4EklVbc5KXJX3H4beFoUVjvFJfAvTlU6-_jhiw0FCxrvDYZdQhC9b79kYHmi99Mmo27t6VGtsmbwugcT5iGJ46p0BUkVRkXJAQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/au-passage/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "aupassage_paris",
     verified: true,
     google_rating: 4.5,
@@ -126,9 +129,18 @@ export const au_passage: SurgicalPlace = {
     insider_tip: "• Pas de réservation le soir : venez tôt (dès 19h) pour avoir une place au comptoir ou une table dans le passage.\n• Commandez 3 à 4 tapas par personne pour un repas complet — les portions sont généreuses.\n• Le poulpe à la plancha (14€) et le tartare de thon (14€) sont les valeurs sûres.\n• Si vous êtes un groupe, demandez la côte de boeuf au kg (80€) qui est servie certains soirs seulement — un coup de fil en avance est conseillé.\n• Les verres de vin nature démarrent à 6€, un prix d’appel rare pour cette qualité dans le quartier.",
     expert_catchline: "Le QG nocturne du vin nature et des tapas du marché dans un passage secret du 11ème.",
     specials: {
-        cuisine: ["Poulpe à la plancha", "Tartare de thon", "Épaule d’agneau", "Tapas du marché créatives"],
+        cuisine: ["Français"],
         drinks: ["250 vins d’auteurs natures", "Verres dès 6€", "Sélection bio et biodynamique"],
-        must_eat: "Les tapas changent chaque soir selon le marché. Les classiques qui reviennent souvent : le poulpe à la plancha (14€), le carpaccio de rouget au chou-rave (13€), et le parfait de foie de volaille (10€). En groupe, la côte de boeuf au kilo (80€) est un must.",
+        must_eat: "Cuisine française. Les tapas changent chaque soir selon le marché. Les classiques qui reviennent souvent : le poulpe à la plancha (14€), le carpaccio de rouget au chou-rave (13€), et le parfait de foie de volaille (10€). En groupe, la côte de boeuf au kilo (80€) est un must.",
         must_drink: "La cave de 250 références natures est le nerf de guerre. Les verres du soir démarrent à 6€ — un rapport qualité-prix honnête et rare dans le 11ème."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Les tapas changent chaque soir selon le marché. Les classiques qui reviennent souvent : le poulpe à la plancha (14€), le carpaccio de rouget au chou-rave (13€), et le parfait de foie de volaille (10€). En groupe, la côte de boeuf au kilo (80€) est un must.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

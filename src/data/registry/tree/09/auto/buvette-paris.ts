@@ -113,19 +113,31 @@ export const buvette_paris: SurgicalPlace = {
   description: "Buvette Paris est la ’gastrothèque’ culte du 9ème arrondissement, véritable pont entre l’énergie de New York et l'art de vivre français. Situé dans la charmante rue Henry Monnier, ce lieu hybride propose un service continu, du café matinal au cocktail tardif. On y vient pour ses célèbres œufs vapeur au brunch, ses croque-madame iconiques ou son coq au vin réconfortant. Le décor, mêlant briques apparentes, bois patiné et marbre, crée une atmosphère intime et vibrante où chaque détail célèbre le produit brut et le partage.",
   insider_tip: "• **Le Croque Madame** : Appelé ’Cr’Q Mme’ sur la carte, c’est le meilleur de SoPi, demandez-le bien doré.\n• **Sans Réservation** : Le lieu est victime de son succès, surtout le week-end. Arrivez avant 10h pour le brunch ou optez pour un déjeuner tardif en semaine.\n• **Le Coq au Vin** : Un plat de grand-mère magnifié, servi uniquement au dîner, parfait pour les soirées d’hiver.",
   specials: {
-    cuisine: ["Gastrothèque Franco-Américaine", "Brunch iconique en service continu", "Cuisine de terroir modernisée"],
+    cuisine: ["Français"],
     drinks: ["Belle carte de vins naturels", "Champagnes de vignerons", "Cocktails de brunch classiques"],
-    must_eat: "Le Coq au Vin (21€) : fondant, intense et servi avec un gratin dauphinois qui vaut le détour.",
+    must_eat: "Cuisine française. Le Coq au Vin (21€) : fondant, intense et servi avec un gratin dauphinois qui vaut le détour.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEGoX5X2_s_B7-A7n-D8v9bL7S9T0y-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEERv-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHLB-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o-u-i-o&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/buvette-paris/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Le Coq au Vin (21€) : fondant, intense et servi avec un gratin dauphinois qui vaut le détour.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default buvette_paris;

@@ -5,11 +5,12 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
     name: "Le Relais de l’Entrecôte",
     slug: "relais-entrecote-montparnasse",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bistrot'],
     verified: true,
     google_rating: 4.4,
     instagram_handle: "relaisdelentrecote",
     location: {
+        google_id: "TODO",
         address: "101 Boulevard du Montparnasse",
         arrondissement: 6,
         lat: 48.842509,
@@ -25,7 +26,7 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
             type: "site",
             url: "https://www.relaisdelentrecote.com/"
         },
-        cuisine_type: "Viande & Frites",
+        
         terrace: true
     },
     pricing: {
@@ -76,17 +77,29 @@ export const relais_entrecote_montparnasse: SurgicalPlace = {
     expert_catchline: "L’unique formule magique : salade, faux-filet extra tendre, frites à discrétion et sauce confidentielle.",
     insider_tip: "- Aucune réservation n’est acceptée. La file d’attente s’allonge sur le boulevard dès 18h45.\n- Dès que votre première portion est terminée, la serveuse débarque spontanément pour vous reservir une deuxième assiette de viande chaude et des frites craquantes (tout est inclus).\n- Le service est exceptionnellement rapide : idéal avant un train à Montparnasse.\n- Le Vin du Relais est un vin bio issu du propre vignoble de la famille, excellent rapport Q/P.",
     specials: {
-        cuisine: ["Faux-filet", "Frites Allumettes", "Sauce Secrète"],
+        cuisine: ["Français"],
         drinks: ["Vin de la Propriété (Château de Saurs)", "Bordeaux"],
-        must_eat: "L’irréductible menu unique (29€) et les profiteroles géantes en dessert.",
+        must_eat: "Cuisine de bistrot. L’irréductible menu unique (29€) et les profiteroles géantes en dessert.",
         expert_catchline: "Le temple de la viande où les frites dorées coulent à flots."
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVF3rkicQKWwWJDuVixQsvlAFxBeDh05KFg9c3eXkCam1NAfqi2NYEVEBxi30jKfHMCubr0m1vWn7Q2PQvIhlgwED3ZiLPMrWGV43najeenjxLCuJRaOKdvwR7cV80eQLrFR2ZcPdNYXHR1iuzghegsQAAy4kyTzxHIaQXfzlOFS4EtWGfbhkQAx1whBnHUt-woksY6V31SpL9QkP6S0IynJosXusB7h-u7eLr9i8xDUZ4p6wIS9SFCsyGYCRb1rWDC862Zm1QjqKKx6TSEGq1Z91hjhOrQivR_Hk36AUlAUnQK5Ag&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW3YsRXDREIOkeGQJgq0_fQBPNkSaPghRXy2sFcTsHh60xxTASFmxbvP04K_jh84aDn6rzqb1oPq8VOpRIDInUWoyn_iodqK0ZMqNboGIqaK_vKmDEiOk_ZWL8IRgXf_X3MY9x3BE_CLCOIXWnazbZbJ4Ot9XMVb_DE8gRgIgZyRWza995tXVuTnaFfBCAp1BF_3ZrPsC3ywkdgKYHRWpqDYmBkHimWxc-rtq2EA6YoKOYRINr5VP7CdA4JZ-n9M3x_Ix8HWpkWlnTOIiZkRM3aC6XDXVL_nWRI4xylAYDpYLxqyI8oEu5wRrPOCKmTqmuYgYMQmHRenLkyvhwt_ApI832QKr84jZd9BpH3wgVJBZnjQvnX7DhWF-Fp1qZABI-IHTsbGpOUzfWAzbbmUqpmfbkkWDh1KbkQRLTGiKVB4tCFPs7A_xnYbFgaezf8&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUC1upTwIlr2k8MfSib3QzIBnngqwiEHlmYnz2FegxZ7lmYtiVYAByyYnznodeHv8T9fdvazubNcg9wOHCNIwpWr4iA56ZkysTpplwTkx3Tm884cNN6c8ZBC2hYG4E8B8wsDZun2y_eIARbVP_giEYccNd0BabEbwgJ4hNv6K4KSpTmejatXs6Dvqunj-Bpu6Kr9h7fejm4-e-M-O4hUgfFlsAGdFrSltA0Um-hwFGOmLS8-rn-L6RKexhDFSCsQzr69e-IdneKwi33cKe84ZUYcrM6sED9Fam2m4UX33x83QOjVrDsTp0VovoDFcZ3T2PeIf5TaqnijmwqYgKpMb1Gigpmn9NYSSoplIQUNXflApIVf7rWHm9UXN645pilwIIVr65EjzQm_6I7CPBilqRyQ5RSjfK9Bond7h41BTZt-s__YPiGjb_6zmJsmecS&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    source: "expert_human"
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/relais-entrecote-montparnasse/gallery_4.jpg"
+    ]
+  },
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. L’irréductible menu unique (29€) et les profiteroles géantes en dessert.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

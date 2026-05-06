@@ -1,0 +1,55 @@
+import { la_rughetta } from './abbesses/la-rughetta';
+import { bon_jo } from './auto/bon-jo';
+import { bouillon_pigalle } from './auto/bouillon-pigalle';
+import { brasserie_barbes } from './auto/brasserie-barbes';
+import { chantoiseau } from './auto/chantoiseau';
+import { l_arcane } from './auto/l-arcane';
+import { l_ete_en_pente_douce } from './auto/l-ete-en-pente-douce';
+import { la_boite_aux_lettres } from './auto/la-boite-aux-lettres';
+import { la_mascotte_montmartre } from './auto/la-mascotte-montmartre';
+import { la_traversee } from './auto/la-traversee';
+import { le_coq_fils_the_poultry_house } from './auto/le-coq-fils-the-poultry-house';
+import { le_moulin_de_la_galette } from './auto/le-moulin-de-la-galette';
+import { le_relais_gascon } from './auto/le-relais-gascon';
+import { le_vieux_chalet } from './auto/le-vieux-chalet';
+import { le_vrai_paris } from './auto/le-vrai-paris';
+import { popine_sacre_coeur } from './auto/popine-sacre-coeur';
+import { rue_forest } from './auto/rue-forest';
+import { sacree_fleur_montmartre } from './auto/sacree-fleur-montmartre';
+import { sacree_fleur } from './clignancourt/sacree-fleur';
+import { le_maquis } from './cloys/le-maquis';
+import { cafe_lomi } from './marcadet-poissonniers/cafe-lomi';
+import { bulot_bulot } from './martyrs/bulot-bulot';
+import { la_marmite } from './pigalle/la-marmite';
+import { maison_pinsa_montmartre } from './pigalle/maison-pinsa-montmartre';
+import { la_station } from './proximite/la-station';
+import { pizza_del_mondo } from './proximite/pizza-del-mondo';
+
+export const arrondissement_18Places = [
+    la_rughetta,
+    bon_jo,
+    bouillon_pigalle,
+    brasserie_barbes,
+    chantoiseau,
+    l_arcane,
+    l_ete_en_pente_douce,
+    la_boite_aux_lettres,
+    la_mascotte_montmartre,
+    la_traversee,
+    le_coq_fils_the_poultry_house,
+    le_moulin_de_la_galette,
+    le_relais_gascon,
+    le_vieux_chalet,
+    le_vrai_paris,
+    popine_sacre_coeur,
+    rue_forest,
+    sacree_fleur_montmartre,
+    sacree_fleur,
+    le_maquis,
+    cafe_lomi,
+    bulot_bulot,
+    la_marmite,
+    maison_pinsa_montmartre,
+    la_station,
+    pizza_del_mondo
+];

@@ -105,19 +105,31 @@ export const table_bruno_verjus: SurgicalPlace = {
   description: "Table de Bruno Verjus est une expérience gastronomique radicale située à Aligre. Classé parmi les meilleurs restaurants du monde (Top 10 World’s 50 Best), le chef y pratique une cuisine de l’instant, respectant l’intégrité absolue des produits sourcés en direct des meilleurs producteurs. Le comptoir en étain permet d'observer la précision chirurgicale des cuissons millimétrées.",
   insider_tip: "• **Le Comptoir** : Réservez absolument au comptoir pour vivre le spectacle total de la cuisine ouverte.\n• **Homard mi-cuit** : Si la séquence du homard est proposée, c’est un passage obligé, considéré comme l’un des meilleurs au monde.\n• **Accord Vins** : Laissez-vous guider par les accords, la cave est l’une des plus intelligentes de Paris sur les blancs et les vins du Jura.",
   specials: {
-    cuisine: ["Crevette Carabinero", "Homard mi-cuit", "Cuisine de l’instant"],
+    cuisine: ["Japonais"],
     drinks: ["Vins du Jura rares", "Accords Prestige", "Champagnes de vignerons"],
-    must_eat: "La crevette Carabinero, à peine saisie, servie avec une réduction de ses têtes. Un choc gustatif pur.",
+    must_eat: "Cuisine japonaise. La crevette Carabinero, à peine saisie, servie avec une réduction de ses têtes. Un choc gustatif pur.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEFUJReXsVdZa4p-FPhHskz8kxz2SXUdavYuLTMNIFODQPHbAWqPYMuG62iV8cwKz0BQ6lN6JB5xskkduS8_69ExknoD_LbXEYZfjUnHG-GDTc9QddvMZSf4xITqzH9F1xkvpjgdztA7EExLBwoeqfG2FEQKM0oE78TgDnu0wjEeAaovBPLazw3PKyoSHNX9U0PNxLCt2o0rYSHGLLd1y-PuVjhGkkBXhU911eozYOO2pn7Jo7_i1gFgsXZzKAomoPY4PyCB4j602eamqzZa9mb6caXmsG9d4vhRjwDjONdDFQ&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEF-NHcj1Xzy-Bkn1sW3CeZ71ns8sX__V7ZukbURjDxtvMioD3pV2s0dstwlLe3RgLS8wkzoY0W84gMK3glf4sAQVMGzh2aP5Gt1tR0CWpLcA17-u-_NWEf9JMyKwoDmZPv2ApULqvaJoDK-4AcusUocnRO4JzLfhEneH_1crgd0UUqOmk6ZdDQHmKLin9J1ln7QS8yyimQlHGhcXd32o6zO6XFH11e8dGE1wmIlWwaqAnHF4Dfn5ABrFQu8JiYlj0tlwjH7fDGmkhSsTGiF5QC26T-pIRpB_ZHWHLty01tcBg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEE6s_sVsSmB1qgrLjelrvBnSgtjLwOBaU3WPtRJJ_GWDFPXQTkUbkuwQbldS5RxKnzxsgJiFOY0yyERjnQ6e1VsVroGl_vLbHv4SwnVxbHQNaOTB7R0Q5uEZiBg3L-5sYxZSY-eimu9uVPeYnVRaPxklQaO3kjcBcKTIupmvycRztBtKnaMbf-9XmXMXjONXeIkRxfd2t3EbBSRhsKbY-8iyLkWT0aJ5xCXsHTc_eD_BhYSHbhCBhtFVghUo7P0Z5vHHpFrnak4s5Zp4BYCx3mJt5dhqlNLMA0pGWNNQgThyA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/table-bruno-verjus/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.4
+  google_rating: 4.4,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. La crevette Carabinero, à peine saisie, servie avec une réduction de ses têtes. Un choc gustatif pur.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default table_bruno_verjus;

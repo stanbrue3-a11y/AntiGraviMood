@@ -5,7 +5,7 @@ export const ducky_s: SurgicalPlace = {
   slug: "ducky-s",
   name: "Ducky’s",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['street-food'],
   location: {
     address: "157 Bd du Montparnasse, 75006 Paris, France",
     arrondissement: 6,
@@ -106,16 +106,31 @@ export const ducky_s: SurgicalPlace = {
   • **Secret Side** : Leurs frites de patate douce sont considérées comme parmi les meilleures du quartier, parfaitement croustillantes.
   • **Le Canard de Fête** : Il est possible de commander un canard entier laqué à l’avance pour vos dîners à la maison, découpé selon les règles de l'art.`,
   specials: {
-    cuisine: ["Street Food", "Chinoise", "Asiatique"],
+    cuisine: ["Asiatique"],
     drinks: ["Tsingtao", "Thé Glacé Maison"],
-    must_eat: "Street Food. Gua Bao Canard Laqué & Frites de Patate Douce",
+    must_eat: "Burgers de terroir. Gua Bao Canard Laqué & Frites de Patate Douce",
   },
-  images: {
-    hero: "AU_ZVEHY17L9DvYi5E1HJ1utVVWVb0vPfDKoq-cqRVavSMJgVONcrGLQAWaOTJoTKMCXTGzMyR2aqBeoJ6Kger_6srALn2pfpnwViZMAb0a3KawV8ycFLQmzMfoDgkv4t4DulCa8Q5BXYfFPlUOxpi7mPw_YYnT6uYhTq03efogm34Q69DkOYt1mWsytg54MlnQdt7GFJ-WRaVyjL-gIDvYTYvD6j-KE1BMw4_mQIv_5ZlgdMNXNtzi_IWBkQKWTT61imYUZIm12TBobJNohtqBhHau5rcfeQexvp91keKaIRxAsckUx-PON38dAtwwWYqPfLBD4bTWwydOMihlAy44608vHoTGN_ELcU0vnCiXtLCbTTxz-YQXRdA8tzYGbdPQ9aOZyARyAds2Sd-mKF5xQQv7h5XNsPsPYZAwJFN3qndqfB1o",
-    gallery: ["AU_ZVEGK-srVRdQf2kvOwc08uZtU2rHmYNjxRrOB0WgVCWzzz7Or-6fjt_aW1paVedAUgqb6qzv9zE1ouWbJSbNCRnA_M822TsWE-fs8rZERuWzxXbp1C0kZ7XsBc-AQI41xDptQ9UIW8Np-_D9PiX2qP9gk1PoU6tmCRGNXcYODPnPcAoHrvw1qjVEwV1gVMVrmD42BA9_KxEsIEitx4n_Lk2AORU-p3X74Bl_Z_nku8UeKWnrqyk6eTOlKKdrA8ivYQDqWsCBFzMx-AC7z8WbkGhwVYfRigJ2Gpucao5LlL9RKMg","AU_ZVEE8ujWLjeox-qcANOpqzm91pMCT6dBedZ0o4Z3yy2XIdcF96F7twXLw7ljJSpXiqG6eMy1BRG-aV1pKqrpIe4Esmiu1mmIAfcJRk13stlm6kXprH7ka5fYX-WezUvw-fcTWju196MOVu2OpaMRBBwdh4hujVbPfLiW0ZrgYp9XQ4H06uBzjIZ3rOxXXgydCfGlgiGEblx1lWL0jScPtH0APo2F9YNDzkBFdWJdvslG7aiY6tfJq-LqDVM0NmqF2ZwW1Q8aoDoKSRh_iAuVbdQ0a6ISe5qJ2dUXrO4dLcxzvQ-YEElCy32E_hwFNs4f0-xSWybWSAD_4MKIZKr1mCJ6D1fS6ynQ9NYQRcxyBaN6rc9X_Xp1FTsr5MBh4FvvDjGuM0i9jEkCInIM91k-ubLtjmd9v1CMNrmFEOgYh2jeeuw"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/ducky-s/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.6
+  google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Burgers de terroir. Gua Bao Canard Laqué & Frites de Patate Douce",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default ducky_s;

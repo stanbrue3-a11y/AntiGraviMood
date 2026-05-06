@@ -74,16 +74,31 @@ export const l_ete_en_pente_douce: SurgicalPlace = {
   description: "Situé sur la mythique rue Muller, ce bistrot bucolique offre l’une des terrasses les plus charmantes de Montmartre. Avec son ambiance de village et sa cuisine de marché fraîche et colorée, c’est le lieu idéal pour une halte apaisante après l’ascension des marches du Sacré-Cœur.",
   insider_tip: "• **Timing Stratégique** : Visez le milieu d’après-midi pour une citronnade en terrasse ; la lumière qui filtre à travers les feuilles est sublime.\n• **Combo Moelle** : La Quiche Maison (une des meilleures du quartier) accompagnée d’une bière de la Goutte d’Or locale.\n• **Détail Secret** : La petite place Muller est bien plus calme que sa voisine la place du Tertre, idéal pour lire un livre en terrasse.",
   specials: {
-    cuisine: ["Française", "Bistrot", "Provencale"],
+    cuisine: ["Français"],
     drinks: ["Citronnade Maison", "Bières Locales", "Vins Bio"],
-    must_eat: "Havre de paix au pied du Sacré-Cœur. Quiche maison & Tatin",
+    must_eat: "Cuisine française. Havre de paix au pied du Sacré-Cœur. Quiche maison & Tatin",
   },
-  images: {
-    hero: "AU_ZVEFzujlUffzvT7KY4ba_bLMwvMUUG_OGYimhA47zYeK9H1y-wxKEZKKA8ktkg9M4i1YAFlmunN4B42z3GjfTYkO3RQyYM7twaSFj3qejGWIRpNe26di_JNLdfjI-6WesyPhLkCRmK3TTaFtfzSpLDgmT98_ykA6wyct1Mx9GJttBg3RsYzHCqoZUDJZbPwKKR7IZrJx31oF9X978JrAy_FG_d_C8LYlQtxmHhIiT7zlCuqAa9DfZjl47kZrDMk00sgPjabZkQ_jBinuXCEIcpgf59-Obyf55yDUC49aMnItbCA",
-    gallery: ["AU_ZVEG8R55ORtf8T1Ntf1M5Ijor4FuWAYBQahMVnq3irvlOObcGSRBdEZJU_bsoY46S9b_v7MSFdbWoOGw_xHcB4aTdXBD94MFcbzcmRXYvbTsnpBDzJ3OHYmcvu3j99y0fjQkiZtSkLt7aOi_yF_DBu5oPLHrcNwt13IhQ67ykeJaLJeyWR1GFCIdhmQQOXwu0cOFQTx8b-bT8rXwrCQriAiZDxoWfaDyPtRmkLn9oraZ4O8-_V3lolZ5v2t4y4FT3OxHwPMPlPVky4nupITrWXCRgKKuiG5snkOk1CyHxuW_iSA","AU_ZVEFv_s94hEY9LROTcaEqFBXdKfWS6QGlgbV4QI38i9Q-nIrCZHLFmgdJHm82Wp3F2yxtnmkD6J31Z53_smnm-FP9PijjpkqTWlnmtBqvhn7GSWYPkavOAzgb78CWSoIK1d5FmWIwai100vamEZYBKluXuhsg4UNI28huuey2VuO7rjbhvRF6iSmRV-wP8Q3sbWRMt7g3RCAxKZQnEnJ89AE80omPczlvknvJu0pgRbq5K9FjRfBIDfhZW5EBTvrL7NSKSml5E4agFJ49kkRvxDs_uxFC3RW6VvQ6WUPpdOnVbnutktZ2CeiTOTs81Ep9gHRSnY_uU4oDCmYv6jj4uNgS8AlEQDTuEBaMJ4R0rLubfpCqGzudcQEqjyiOq50MgkSgTT4AfgLbY2tauG4ie5e1ZrQ3EOZOU4A3C1G0l7PslbyWKT17-fpltNwfFQ"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-ete-en-pente-douce/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.1
+  google_rating: 4.1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. Havre de paix au pied du Sacré-Cœur. Quiche maison & Tatin",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_ete_en_pente_douce;

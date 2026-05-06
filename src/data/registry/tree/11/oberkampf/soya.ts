@@ -5,7 +5,7 @@ export const soya: SurgicalPlace = {
     name: "Soya Cantine Bio",
     slug: "soya",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['bio'],
     location: {
         address: "20 Rue de la Pierre Levée",
         arrondissement: 11,
@@ -75,19 +75,34 @@ export const soya: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWv5D-3u9G-O_vX-H4nK-R-nQ--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/soya/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.6,
     description: "Soya est le pionnier de la cuisine bio et végane dans le 11ème. Installé dans un ancien atelier textile aux beaux volumes indus, ce restaurant prouve que la cuisine végétale peut être gourmande, généreuse et techniquement aboutie. Leur ’Grand Mezze’ est un festival de couleurs et de textures, devenu le chouchou des habitants du quartier en quête d’un repas sain sans compromis sur le plaisir.",
     insider_tip: "Leur brunch du dimanche est une institution absolue à Paris : buffet pantagruélique bio et végan. Réservation obligatoire au moins une semaine à l’avance pour espérer avoir une table.",
     expert_catchline: "La référence de la ’Plant-Based' gourmande : organique, fait-maison et indémodable.",
     specials: {
-        cuisine: ["Vegan & Organic", "Gluten-Free Friendly", "Émergence indus"],
+        cuisine: ["Bio"],
         drinks: ["Jus pressés à froid", "Vins bio et naturels"],
-        must_eat: "Le Grand Mezze et leur Lasagne maison.",
+        must_eat: "Gastronomie bio. Le Grand Mezze et leur Lasagne maison.",
         must_drink: "Leur infusion du jour au gingembre frais."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Gastronomie bio. Le Grand Mezze et leur Lasagne maison.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const machizo: SurgicalPlace = {
     name: "Machizo",
     slug: "machizo",
     category: "restaurant",
-    subcategory: ['japonais', 'français'],
+    subcategory: ['japonais'],
     location: {
         address: "35 Rue Saint-Sébastien",
         arrondissement: 11,
@@ -69,22 +69,34 @@ export const machizo: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXFi0LS7nTfDB7uExTNJ6vIr3xxSDsyyKwysTQzrDYDjfCWkzlbT6mK5F6-ZTH_H7cY_-XVyJpY3dzmuQ07qgGZxRIz8qFU64ogZxbZaHFEJJr1PTEDrmrrsXLIQ0r9iJ7jMQ7miP6puXjoLlXD8I8MRyuuQv7xPYhphPsKSLUdgJaT21WuttYcNnPBdMcOd_r1MafAvUukOxp7CSQ1XvkGewcVLibHOZqkK7uTbPprTRBXJlsU3gpmlbWqMvUMOEnMVuUMmh0AKoefzuglA44Q8yxaoln8banS2pY8if8ZT6T8TylK5F6fiiYcK6RnXJzEJWphWq0DYpy9fGnwOXHLJ4azpTJlgkALEXatCTho5SiePzwQ-yzoFZa3wPJuXq8C8MUmzZOqTV_5tzrtf8gmM0vbshxLvgHUMp5zp3k&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfW57ZChfz_PTcqwf38-2t6mSf6OLUnvy9_htbaAj9aBOsHlZVG4fq_PFMW7GJhellQPz9kAe8XB5RCWYXosqXyK0d8JQA20MPUaZBlyv5VIgl0ixON9Ch_ViQQvTvp_etyskJSlnAMWJ7FgINAORa9s2vJ3T7oi66VyrRmJUrIhnw2RFsndxPh-tFGbQJKITpYRtYzrSkH7RhXHvmi8ckAk59s6oIodOks6RfnUksVzBn7hDPccpzz7QLVRwr-x-ZJDZAkgDjypxyC92y99ZuN9bFp_iG-hnIxiNJfX4v4AdA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVM6f26NOyT-TWkjPof92aRS-KYIGIdSfKl4Asp54yFPknpgBT5smjm8VekQfJXGVcnX-WL3ZA9b_D-tpGC3Zv3wJ7eDyPtlcbRdbFWgUC4VC5tLYXryRKUvvKXL5XawkE7mkOXfMf1bb79Cp_54xiaE4Y7_H8YopJFaxxaW2ezs_ZoHz96-Er8bPiWwlpfcEBrSfKxPJ-FdEAN1TNWiU_4bRh9Q2CECSiweaNsJZS-N8cO3_KyJP-ISIw9Vn3BabEgHaIIFYSi09F2-Ydx-3TuyDbcuafgQxzTnZcD3UKQVp3lNDJihprqhChOija_Pr5so_hjYn-ExBDpL1pAVTiCOZIASwm2xQmTYM5eYoZ0U2Sbb-PAxafoO6gO9QvxevZJM5UIz3LYxDfsEGa1PTCCgNKb5ZFN7MyfaFbbjnF5B9D1iqspdA6Zw6JklA&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/machizo/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.9,
     description: "Un joyau d’intimité caché dans le 11ème arrondissement (26 couverts seulement). Le chef Taka fusionne l’hyper-précision technique japonaise avec le répertoire gastronomique français. Une cuisine instinctive et évolutive servie sous forme de menus dégustation à l’aveugle, avec un service chaleureux assuré par son épouse Kornelia en salle.",
     insider_tip: "• Pensez à réserver très en avance (salle minuscule ouverte que le soir).\n• Le Flan de foie gras au dashi a remporté le prestigieux Prix Lebey 2024, c’est le plat signature absolu.\n• Optez pour le menu 7 temps, l'évolution des saveurs est pensée comme un véritable voyage.",
     expert_catchline: "Haute gastronomie franco-japonaise en carte blanche dans un écrin minimaliste de 26 places.",
     specials: {
-        cuisine: ["Flan de foie gras (Prix Lebey)", "Cuissons à la braise", "Omakase", "Pigeon de Racan"],
+        cuisine: ["Japonais"],
         drinks: ["Accords Mets & Vins ultra pointus", "Sélection de Sakés", "Thés verts d’exception"],
-        must_eat: "Le flan de foie gras infusé au dashi. Une texture irréelle qui a secoué la critique gastronomique.",
+        must_eat: "Cuisine japonaise. Le flan de foie gras infusé au dashi. Une texture irréelle qui a secoué la critique gastronomique.",
         must_drink: "Laissez-vous guider sur les accords métis qui croisent vins natures français et sakés de petits producteurs."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. Le flan de foie gras infusé au dashi. Une texture irréelle qui a secoué la critique gastronomique.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

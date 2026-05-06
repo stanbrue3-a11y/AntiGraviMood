@@ -5,7 +5,7 @@ export const l_entredgeu: SurgicalPlace = {
   slug: "l-entredgeu",
   name: "L’entredgeu",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['bistrot'],
   location: {
     address: "83 Rue Laugier, 75017 Paris, France",
     arrondissement: 17,
@@ -86,16 +86,31 @@ export const l_entredgeu: SurgicalPlace = {
   description: "L’Entredgeu est une institution du 17ème, un bistrot bourgeois qui honore les classiques avec une précision chirurgicale.",
   insider_tip: "• **Signature** : La tarte tatin d’oignons est légendaire, ne passez pas à côté.\n• **Confort** : Un cadre bourgeois très chaleureux, idéal pour les repas en famille.\n• **Réservation** : Indispensable plusieurs jours à l'avance pour le soir.",
   specials: {
-    cuisine: ["Cuisine bourgeoise"],
+    cuisine: ["Bistronomie"],
     drinks: ["Vin", "Cocktail"],
-    must_eat: "Cuisine bourgeoise. La tarte tatin d’oignons et la souris d'agneau.",
+    must_eat: "Cuisine de bistrot. La tarte tatin d’oignons et la souris d'agneau.",
   },
-  images: {
-    hero: "AU_ZVEFGp_EMTza2U-hoX7GQKbw9LHWfmqMtMQ53mYckSWJ9TbFnay0REIIYgg-iZiJLz69GSRJi3YROLjyfauYdvpBM6RKwN2mYrjHAuC--jLYfTtjXkDe9GB1ajhlJ4mzb1AXk96iBo848svuXFggiLiNo11Eh05OqE0NOYjepQAB5IprtvTyuovdeOQI1NWZjqrhqucFn9AJ-4BOGWh7Q4sG57ZF_mJPv_JsZ830XVI50zX02cQB_h3qKc1VpeA5p4ltLjPLSjQMMKNADMpRGTPfekD542t88gapVc8etD6wlVw",
-    gallery: ["AU_ZVEE3yL52Hp46yNRmSz5vASr3FV9L8Vn4J-uAuchN0CbOg4k7XJY5mbN0hTaqBdTy8Rg2D4niKRLuJpp_JhrPnWKTFdpuFPd3r3tgIMqAtcSw8gUOGd3k-bXQEHGIsmF1vAC4pj1hYptgY3gt2cJZO4pabZE-te3sC05ApzWGkQlb21vFQe-dRtWew4jY47Egx328291_UT_sGoEFxkPE3zGYYU09GH7k2hdHNXzZIQ8fykwGMdxc2Hk9Rv8vs2lbVCM_3aZ9HkEm1Lfoxk316A7uVc7hsUnYfUAZO6t3qxS2_Q","AU_ZVEED-Ww1zXMS7awp7XsWA879OFEjicmwIx8FZzCkpvLl4lXWDo36KOAdrIzNlLJadsrnOLZAqGw4Tqtu5gZBalNIly4ZdUd5zyEjh-IS3A8-NXXsRWGqhWP43xrEFX55Xp82RuS6YvOU9i4FOlMIvJ3ZXofgZYuuEaMGCJSXd3HlXG1nBCLDM_kde4MikPi_DvGdE07s0z8HLwXHaGJsr_1GRLPzMv2gLoWwE58GkzO7wtZbkDmpFPj6iWQp7cH1PwLXp00NoNiLAJSfpxNFFxgf3rxcI0Zgdc6BTxEs-FzP2LPjz662QBO6cmE9gnz7RCVinFucQaWsKBA8w0LiRZnBP55CxPej71BdWW2NA9qN068Iw3uojKxi1jnLYeoXE0DUX7doINhhuDzVDiGVpTAUPeA0R9EwyK0vdFxuk1s"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/l-entredgeu/gallery_4.jpg"
+    ]
   },
   verified: true,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de bistrot. La tarte tatin d’oignons et la souris d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default l_entredgeu;

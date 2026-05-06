@@ -5,7 +5,7 @@ export const superfine: SurgicalPlace = {
     name: "Superfine",
     slug: "superfine",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['italien'],
     location: {
         address: "86 Rue de la Roquette",
         arrondissement: 11,
@@ -108,19 +108,34 @@ export const superfine: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfX_J-mU_W05_V5--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM--jM&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: []
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/superfine/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.8,
     description: "Nouveau bastion de la nuit roquette, Superfine a investi l’ancien Motel pour créer un ’dive bar’ ultra-léché. Ici, le street food se veut ’sexy’ (pizze soufflées, superdogs) et les cocktails s’aventurent dans des territoires audacieux (dashi, absinthe, sapin). DJ sets, acoustique soignée et ambiance électrique : l’adresse est déjà le nouveau QG de l'Est parisien branché.",
     insider_tip: "• Ne passez pas à côté de la ’Puff Pizza’ à la harissa et au miel, une tuerie absolue.\n• Le cocktail ’Not A Bloody Mary’ est une masterclass de limpidité et de piquant.\n• Happy hour sur les pressions craft en début de soirée.\n• Les places au bar sont les meilleures pour observer les mixologues à l’œuvre.",
     expert_catchline: "Le dive bar 2.0 de la Roquette : street food sexy et cocktails d’avant-garde dans une ambiance survoltée.",
     specials: {
-        cuisine: ["Puff Pizza Ricotta & Harissa", "Superdog Guinness", "Eggplant Katsu Burger"],
+        cuisine: ["Italien"],
         drinks: ["Absinthe Gimlet", "Natural Wine Selection", "Guinness on tap"],
-        must_eat: "La Puff Pizza Pepperoni, incroyable de légèreté, suivie d’un Superdog bien gratiné.",
+        must_eat: "Cuisine italienne (Sandwichs). La Puff Pizza Pepperoni, incroyable de légèreté, suivie d’un Superdog bien gratiné.",
         must_drink: "L’Absinthe Gimlet pour son équilibre parfait entre fraîcheur et herbalité."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine italienne (Sandwichs). La Puff Pizza Pepperoni, incroyable de légèreté, suivie d’un Superdog bien gratiné.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

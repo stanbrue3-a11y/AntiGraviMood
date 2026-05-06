@@ -1,11 +1,11 @@
 import { SurgicalPlace } from '../../../type-definition';
 
-export const kaiIzakaya: SurgicalPlace = {
+export const kai_izakaya: SurgicalPlace = {
     id: "poi-kai-izakaya",
     name: "Kai Izakaya",
     slug: "kai-izakaya",
     category: "restaurant",
-    subcategory: ['français'],
+    subcategory: ['japonais'],
     location: {
         address: "13 Rue Louis Bonnet",
         arrondissement: 11,
@@ -79,21 +79,34 @@ export const kaiIzakaya: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfUMqyC78EhFpagU2gZOhRA_AkiADYnp_UJ36SHnoqFYAsyu1LNOLTO4c8IoyEoI9SuY-HSivPIrpeP_FIgkYUbaAWmy1L7T209u_4FxSgJp2HnbcWxPczo9_4JwH-1vXodQ7WL4W9soKaw6at1R278kUoh66p9Ny1SF73xMgq29FiQ3XyhpLsG-PxElZzaSIScNeuJcvI78GS2C9RrjUXXO5o4RHe5_Y_Ew0ZUXHGpfi5b_uFCKy5rPAPFYFzih_HuLhlHhaBqyGUZ_CujiQ-hCno5CJk46DxoHx0VJG2JJmRAjerk&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWZMI3mbuY1aF91cs-3uHWlK3mBibM16O8TXVuX8PwafT5cIfqEM8D7rOf3uVyB9w8NppESxtWou8AaLczIq-HUIhxlFR7MgDFPxDZ4e1oHwe0JnDByu7NoZa9MRkbzPxOthuT0pzGCiOTnt8l_3pCQJj7sZOdunSMZX8_eV4L6BSI9xAfw1Yd5K6N5RnpLy1m56tsxKzA_Z7w7acio-po7B6Pf1-7V7w41n-xMwYho3Yx_VwhozCahx6zu8YAWmSldRaxKg732SR3gGTiCLYbFti7tKF95uO6dtE3LTW-paw&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/kai-izakaya/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.7,
     description: "Kai Izakaya est une adresse hybride et décontractée où le Japon rencontre des saveurs street-food mondiales. Connue pour ses Udon créatives (dont une version carbonara mémorable) et ses desserts fusion comme le Croffle au Matcha, c’est le spot parfait pour un brunch asiatique ou un dîner de tapas à partager.",
     insider_tip: "Ne repartez pas sans avoir goûté le Croffle au Matcha, c’est leur grande spécialité sucrée. Pour les plats, l'Udon Carbonara est une curiosité technique qui vaut le détour.",
     expert_catchline: "L’art du tapas asiatique et du brunch créatif à Belleville.",
     specials: {
-        cuisine: ["Asian Fusion", "Udon créatives", "Matcha Desserts"],
+        cuisine: ["Japonais"],
         drinks: ["Thés Matcha", "Sake"],
-        must_eat: "L’Udon Carbonara.",
+        must_eat: "Cuisine japonaise. L’Udon Carbonara.",
         must_drink: "Un Matcha Latte bien préparé."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine japonaise. L’Udon Carbonara.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -142,12 +142,12 @@ export class SQLitePlacesRepository implements IPlacesRepository {
                   eb.and([eb('places.pint_price', '>', 0), eb('places.pint_price', '<=', pintLimit)]),
                   eb.and([eb('places.wine_glass', '>', 0), eb('places.wine_glass', '<=', pintLimit)]),
                   eb.and([eb('places.cocktail_price', '>', 0), eb('places.cocktail_price', '<=', pintLimit * 1.35)]),
-                  eb.and([
-                    eb.or([eb('places.pint_price', 'is', null), eb('places.pint_price', '=', 0)]),
-                    eb.or([eb('places.wine_glass', 'is', null), eb('places.wine_glass', '=', 0)]),
-                    eb.or([eb('places.cocktail_price', 'is', null), eb('places.cocktail_price', '=', 0)]),
-                    eb.and([eb('places.budget_avg', '>', 0), eb('places.budget_avg', '<=', pintLimit)])
-                  ])
+                    eb.and([
+                      eb.or([eb('places.pint_price', 'is', null), eb('places.pint_price', '=', 0)]),
+                      eb.or([eb('places.wine_glass', 'is', null), eb('places.wine_glass', '=', 0)]),
+                      eb.or([eb('places.cocktail_price', 'is', null), eb('places.cocktail_price', '=', 0)]),
+                      eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', pintLimit)])
+                    ])
                 ])
               ])
             );
@@ -172,7 +172,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           }
 
           if (maxPrice !== null) {
-            priceOrs.push(eb.and([eb('places.budget_avg', '>', 0), eb('places.budget_avg', '<=', maxPrice)]));
+            priceOrs.push(eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', maxPrice)]));
           }
 
           return eb.or(priceOrs);
@@ -180,12 +180,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       }
 
       if (filterTerrace) {
-        q = q.where((eb) =>
-          eb.or([
-            eb('places.description', 'like', '%terrasse%'),
-            eb('places.editorial_json', 'like', '%terrasse%'),
-          ]),
-        );
+        q = q.where('places.has_terrace', '=', 1);
       }
 
       q = q.orderBy('places_fts.rank', 'asc');
@@ -227,18 +222,13 @@ export class SQLitePlacesRepository implements IPlacesRepository {
                 eb('places.coffee_price', '<=', coffeeLimit),
               ]),
             );
-          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          if (maxPrice !== null) priceOrs.push(eb('places.main_dish_price', '<=', maxPrice));
           return eb.or(priceOrs);
         });
       }
 
       if (filterTerrace) {
-        q = q.where((eb) =>
-          eb.or([
-            eb('places.description', 'like', '%terrasse%'),
-            eb('places.editorial_json', 'like', '%terrasse%'),
-          ]),
-        );
+        q = q.where('places.has_terrace', '=', 1);
       }
 
       if (userLocation) {
@@ -334,18 +324,13 @@ export class SQLitePlacesRepository implements IPlacesRepository {
                 eb('places.coffee_price', '<=', coffeeLimit),
               ]),
             );
-          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          if (maxPrice !== null) priceOrs.push(eb('places.main_dish_price', '<=', maxPrice));
           return eb.or(priceOrs);
         });
       }
 
       if (filterTerrace) {
-        q = q.where((eb) =>
-          eb.or([
-            eb('places.description', 'like', '%terrasse%'),
-            eb('places.editorial_json', 'like', '%terrasse%'),
-          ]),
-        );
+        q = q.where('places.has_terrace', '=', 1);
       }
 
       q = q.orderBy('places_fts.rank', 'asc');
@@ -387,18 +372,13 @@ export class SQLitePlacesRepository implements IPlacesRepository {
                 eb('places.coffee_price', '<=', coffeeLimit),
               ]),
             );
-          if (maxPrice !== null) priceOrs.push(eb('places.budget_avg', '<=', maxPrice));
+          if (maxPrice !== null) priceOrs.push(eb('places.main_dish_price', '<=', maxPrice));
           return eb.or(priceOrs);
         });
       }
 
       if (filterTerrace) {
-        q = q.where((eb) =>
-          eb.or([
-            eb('places.description', 'like', '%terrasse%'),
-            eb('places.editorial_json', 'like', '%terrasse%'),
-          ]),
-        );
+        q = q.where('places.has_terrace', '=', 1);
       }
 
       if (userLocation) {

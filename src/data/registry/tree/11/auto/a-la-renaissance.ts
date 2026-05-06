@@ -5,7 +5,7 @@ export const a_la_renaissance: SurgicalPlace = {
   slug: "a-la-renaissance",
   name: "A La Renaissance",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['burger'],
   location: {
     address: "87 Rue de la Roquette, 75011 Paris, France",
     arrondissement: 11,
@@ -110,19 +110,31 @@ export const a_la_renaissance: SurgicalPlace = {
   description: "À La Renaissance est un bistrot historique de la rue de la Roquette, brillamment repris par l’équipe de Quixotic Projects. L’endroit a conservé son âme de brasserie populaire tout en injectant une exigence moderne sur le sourcing et une expertise cocktail de haut vol. C’est le lieu hybride parfait, où l’on peut manger un burger d’anthologie ou un œuf mayo culte accompagné d'un Negroni parfaitement exécuté.",
   insider_tip: "• **L’Œuf Mayo** : Il est régulièrement cité comme l’un des meilleurs de Paris — un impératif absolu.\n• **Vibration** : Le lieu est très animé le soir, idéal pour un dîner festif avant d’explorer les bars du quartier.\n• **Service Continu** : Très pratique pour manger un morceau de qualité à des heures décalées.",
   specials: {
-    cuisine: ["Burger Renaissance", "Œuf Mayo Culte", "Bistrot Moderne"],
+    cuisine: ["Burgers"],
     drinks: ["Cocktails Quixotic Projects", "Vins natures", "Bières artisanales"],
-    must_eat: "L’Œuf Mayo ’Renaissance’ (8€) : une onctuosité parfaite, une pointe d'acidité, bref la perfection du genre.",
+    must_eat: "Burgers de terroir. L’Œuf Mayo ’Renaissance’ (8€) : une onctuosité parfaite, une pointe d’acidité, bref la perfection du genre.",
   },
-  images: {
-    hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHL9Kjr2OpMIHP5XmEBjiE-XivmojvglOaZV7d5g-AcKq2veg0wzi8vpGzqZT_F_OUZSGk1Wv9CSEwcK0ZSTza8LRKbrHMKhJsrHDjfwAhj5GqeUu9B0yPnW9zS0bAGLGySjwt6tRVzk0lcQRwkxW4Wknsscl_QHYO743EpnLNQL6_zgv_4iVfRMNRIs2ktqZvqGKTj9l14sSl_QVRUBAVNSZLqbPrBCqR7PM0o0QCg2HziKfyBmkMUKqBLHk8K_cVX1VYttOiOejR8c0kxv5w-tUBc9WxCF6K609WPKrgj0w&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/hero.jpg",
     gallery: [
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHr9FzPRcBTcVtFkUAvyHl-wXL-lNUdasdYV3EZToj-U_Ouaof4FIKd3t2O0WdEch7ALk4-KdoFDbi_mb_NytHExOUMcW3PIT-3W9Y_jGuwb3cv33Bxj8nKdfa9TxU0ycRgIze6URbOGp3NovUufYuU2Igs3bFJ2xMzkrf0r_9js_RK2nGbzmHO0149ZvCEIIhlS9gKEBRRIYqcbD7txy6llrCM3rY5urZbz8fEZfsAZDRkKNZpVQSapBeIQ3e05TR3p0wMdMx9pgCJ7eImEyfABuXpStBFqle5JVRbY3LtDg&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=AU_ZVEHaXKmegwKRnU6OVWS6qe2wHiYWLxu_0aB5HmrhtoEafn0NUs89jrViddUkiEziGhKwcCAZPCDfJ8bbHnMZZySoKidoa5TL7_ey3nFNUT-p6lRXMLnL5Rmn4eSv0RFrq6k3h1uw5sSRngaObvrl8wJUIFs7mVvOZKmBIXD6HIUDFpqD_ZA9PHXv9C4gt9wJQm70E6-r6MmReIzk7DvmjbLuUApZ1hFhQVWt6cTZqF0sKOPf8TyQa4bAND9aPfJnb8jy5TEr_OY-M3g4RoIe78jmK9wj-2imquHP0t2pYSQLsMVJAYis7RR-51PLbYuFRhE6hrkJjToBCGN82UVkj5LTw6p0tqeDfBj-bE1BEzj9X2OaGXtOak1J1GawDbx7GzfmO3PpwZ8PwZEz58M1lfsTtdMeJLaJWgXCbzycQCjtygkFV-A5xuGvMPkmT2Y2&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/a-la-renaissance/gallery_4.jpg"
     ]
   },
   verified: false,
-  google_rating: 4.3
+  google_rating: 4.3,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Burgers de terroir. L’Œuf Mayo ’Renaissance’ (8€) : une onctuosité parfaite, une pointe d",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default a_la_renaissance;

@@ -5,7 +5,7 @@ export const mallory_gabsi: SurgicalPlace = {
   slug: "mallory-gabsi",
   name: "Mallory Gabsi",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['gastronomique'],
   location: {
     address: "28 Rue des Acacias, 75017 Paris, France",
     arrondissement: 17,
@@ -90,17 +90,32 @@ export const mallory_gabsi: SurgicalPlace = {
   • **Vibe** : C’est le lieu idéal pour une célébration intime ; le service est d'une précision chirurgicale sans être guindé.`,
   expert_catchline: "L’étoffe d'un futur géant : Mallory Gabsi réinvente les codes de la gastronomie parisienne.",
   specials: {
-    cuisine: ["Gastronomique"],
+    cuisine: ["Haute Gastronomie"],
     drinks: ["Accords Mets & Vins", "Sins Alcool Premium"],
-    must_eat: "Cuisine gastronomique. La langoustine au foin ou le turbot au caviar.",
+    must_eat: "Haute gastronomie. La langoustine au foin ou le turbot au caviar.",
   },
-  images: {
-    hero: "AU_ZVEEGY-8f7ZWHhT1sBROyNctVETkY08nmyT3fCPSyYjrz4W7mXVaQht2SN6VkhhFF6nTq57EVlMPt_vdtkN4kHX7RPZWF2N-k6n0N0SRMryMesYDUe1IJhgmek_y6oCSYMQLDH3uIB1RKg9V_ZwdlIL6DJqjVMyrDqbvHePvqbDegwT-fJu9wjqdkkeGnwfUbRZQjbJKD6gjsORlqpTfoccuGNgTpCyytV5lTsaSXH86gXiDX_CLni1keY99Hy68gH6KuQprKQ1_Q-En6REO2Hrd5iMwKQakwb53QTGM3WD04SQ",
-    gallery: ["AU_ZVEHG-x2d078nvJlAq75qDhxml19PEXdPSeVmkiKD6yu8whidE36XTVSMAs7Im591zWzniW7SlhEI0wS5kVQllChXqv-s8h-Mf7Ta92esas0E279YI6kUR-kuqke1mPVDB2wUHXsZm4oNlWXAcr8NMe2GK7USrmAyx5Q-A8kzSCjoX1rVHwv7c7APSq_sqope0fLIUKGtHmYR2RhpJaZjd0rahkGt8M2TY3USNEcz5Vg6o3BpmomFO6TMGHWP8GFVziE0OHyC0EKxFbcUgJ46Sh4jFWSGm1Jq8jmRIy56t-acfRcinkeCPoTDM8LpVSyUTzp-RkfVbglAMnVpf_mF5OdWVFe8KMZNbelKwnVfCxeonoSERTM1ui7adidgXyyjONuKBRh-NvOe3uN9rnmi1Fcy2RvtLNo79e73WGHw7n80hRjzYLZ1328e_eLjBA","AU_ZVEG2M_QiVldsaBcEQ9aTW2GoXKGiGzVtRGVeHk-OVgjvYEYl8eHU2ipO4KCvG3_ArPemc8RS0HWxItxN78YUld2pOtSX6dbAy_zVoczIbbB_PqiKwK9oOJzG0TkEu5HSQDAZYCxBuJY7FAnnHOYHkmyodt1E9FYGmqPR9B0b-qkD2EquwXtfBfATBwzKJHX-TlJPWw-9-CE3OHOUXPR1VcU1qL7jiz7aP52oGfMs6ZWddoE6i0f7blkA2IqihTlXt4CI_zYr0xwlt8ZXtV1TuUemRvtTaxdxU9OZs9MbFivEWg"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/mallory-gabsi/gallery_4.jpg"
+    ]
   },
   verified: true,
   google_rating: 4.8,
-  michelin_stars: 1
+  michelin_stars: 1,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Haute gastronomie. La langoustine au foin ou le turbot au caviar.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default mallory_gabsi;

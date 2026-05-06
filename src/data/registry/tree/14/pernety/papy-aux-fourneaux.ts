@@ -76,22 +76,35 @@ export const papy_aux_fourneaux: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVJ2UwDQgKY6RY_c_9L4jVlL09SUZ_RCkOYUsCDHHkN4LG02-nfdjfP2KrDo_-fb18FpwU9oMYkMB7CzQFOe4xpw5zZxEOUfE7vU3u2lxaLz4DmN6Zr68kCxWK666371N3D-2klfmxwYT3Hpal3DAk_dtDpkI-Y7C1XEiIfqBxrsXwacH4YJ5BlBdlpvxJgK693eo-Ml1IttBBPgMCjWJZekCmo0iCR76GBNlteMiclt2zoulpTzIFByQZx2nBKEizO2dUIEqyKWfX30We0M-NMUGZIEVcQteVHCqs8C6u2gsNR80lvKdxDab1lsIFTEKgdFgf-lKrNb5exifcEOmmRs9L2hKJs4r3VPIfNPsYr3YL9u6M-Hn3qBXbnmKQubspcvXUfRrtf5NwD9yCFCb8eYCGO2wgm6pQNFwbhd_cpZyKIaT8TKtPLxVkKcp7n&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        gallery: [
-            "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXtHWJ8G-W2d8RRUmAnZD4PB3ByTR55GE8N_XYodFqT3jC6uhANZFAkqhDEs6IAINrMt_D5AYzUm2Gu5sHLCybRSjg1yWqdp9PMJy7mHze9-ChhL4RcbcaoY1KDXOuHVF9_itAkPfBb1w93CXYzndE3ahFwjFf7eZUlBodjsRydc7hY9bUCd4BXuV8TaPsyMgFc6UPr1r7QS7Yc8cCVLut4JAriGdzgciU3YJPmEm9uks1CJeQutsSIQAXqKLVnOKXMLYj9yA40r9JorjiLSv3eEcHL5DcfsnAre_vcUgTsRA&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/papy-aux-fourneaux-paris/gallery_4.jpg"
+    ]
+  },
     verified: true,
     google_rating: 4.4,
     description: "Papy aux Fourneaux réinvente le concept de la table d’hôtes avec une modernité et une chaleur désarmantes. Ici, pas d’assiettes individuelles dressées au millimètre, mais de grandes cocottes en fonte posées au centre de la table, invitant au partage et à la gourmandise. La cuisine est une déclaration d’amour aux produits français, sourcés directement auprès de petits producteurs. Le décor, mêlant vintage et industriel, crée une atmosphère de salon familial où l’on prend le temps de vivre. C’est l’adresse ultime pour un repas entre amis ou en famille qui finit toujours par se prolonger autour d’un bon dessert maison.",
     insider_tip: "Le restaurant fonctionne sur le principe de la cocotte unique par table, idéal à partir de deux personnes. Ne faites pas l’impasse sur la brioche perdue, c'est le doudou culinaire de la maison.",
     expert_catchline: "La convivialité régressive et généreuse d’un repas de famille.",
     specials: {
-        cuisine: ["Table d’Hôtes", "Produits de Terroir"],
+        cuisine: ["Français"],
         drinks: ["Vins de Producteurs", "Limonades Artisanales"],
-        must_eat: "La Cocotte de Sauté de Veau et la Brioche Perdue.",
+        must_eat: "Cuisine française. La Cocotte de Sauté de Veau et la Brioche Perdue.",
         must_drink: "Un vin de partage servi en carafe."
     },
-    source: "expert_human"
+    source: "expert_human",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La Cocotte de Sauté de Veau et la Brioche Perdue.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -5,7 +5,7 @@ export const comptoir_sur_mer: SurgicalPlace = {
   slug: "comptoir-sur-mer",
   name: "Comptoir Sur Mer",
   category: "restaurant",
-  subcategory: ['français'],
+  subcategory: ['mer'],
   location: {
     address: "53 Rue de Lancry, 75010 Paris, France",
     arrondissement: 10,
@@ -119,16 +119,31 @@ export const comptoir_sur_mer: SurgicalPlace = {
   description: "Surmer (et son iconique Comptoir Mer rue de Lancry) est la référence absolue des produits de la mer dans le 10ème arrondissement. Orchestré par la cheffe Olive Davoux, ce lieu célèbre la pêche artisanale et responsable. Entre le bar à huîtres Utah Beach d’une fraîcheur insolente et les petites assiettes marines créatives (seiche plancha, ceviche de mulet), l’expérience est un voyage immédiat vers les côtes normandes et vendéennes. Décor brut, service décontracté et carte de vins naturels font de cette adresse le repaire des amateurs d’iode et de vérité.",
   insider_tip: "• **Les Huîtres Utah Beach** : C’est la signature de la maison, sourcées avec une exigence rare. Elles sont d’un équilibre sucre/sel parfait.\n• **Le Comptoir de Lancry** : Privilégiez l’adresse historique pour un plateau de fruits de mer sur le pouce, l'ambiance y est plus authentique.\n• **Vins Blancs Naturels** : Demandez conseil sur les Muscadets travaillés en biodynamie, les accords avec les coquillages sont foudroyants.",
   specials: {
-    cuisine: ["Seafood & Bar à huîtres", "Pêche artisanale responsable", "Arrivages quotidiens direct producteur"],
+    cuisine: ["Cuisine de la mer"],
     drinks: ["Belle sélection de vins blancs nature", "Champagnes de vignerons", "Muscadets de garde"],
-    must_eat: "Les Linguines aux Palourdes (24.50€) : généreuses en iode, un plat réconfortant qui sent bon le large.",
+    must_eat: "Cuisine de la mer. Les Linguines aux Palourdes (24.50€) : généreuses en iode, un plat réconfortant qui sent bon le large.",
   },
-  images: {
-    hero: "AU_ZVEGvsC0ceFzlHaV4T5nvln4DdQeHNizagmd9HGLT4qwN3kZwXILpLX2zY8w6aVe2vdUe57zfebk7X99QZFaHSUYzlOiF-a9yqI4-_TJJKdNDrfqTJh6_LFTAZCixO7zq7QdIeW_ik17V9ZBrDMUDOowYOKBa6VF-8eQBhf8nqCfH7a7tKq4OApIcZtV1QakfpSuLOfMgI5292StoQE0WdUs1tenhQS6Ps6HTsANA2DX8gBBNJvfTM1Ap1regncLRY3LEK8UCKdrd8MS8bFqyb8rss9HOFuR6N1fPA5xeYLix6w",
-    gallery: ["AU_ZVEGbi4culzCCPAvOKOF2UgQh0g1bmqAHzg_ZJ9jMgNJuOv4Srqkr33z3Bd3h91pTWe1CmLMqUSzOHkFxjgU54Du8b8tcbamVdgG4jzua02xuKIHAdik0yfaZe_Wa_CFJW1XEVuiUO0eDjt0Cd74cs_yfEnuaQmReXI9rfiV1bYSXzFMmKcb632Az6_XCJeWd8fOwOmN2GgrqqR_HRjAfCBem_tUi71lKmoBBAy5ghM2l3FtUZlp21XJiL_BdUmrDLDRiB4OjKFwfonjbhQWp87aPwqZTrL05StxynjuPot3Pvg","AU_ZVEHl6P6EN9samcK5bmF6ahYEPdGULj-DKOHOV0CgQI0HGkdfOJ-HQPuQUF1slYTmkgg8RpBO5BDzcvYqO3QSdHitw9bzj-del3BcHSORhPUVq1F512v2Af-TWoYMAs9cqdh3tdJ7tMnJgQrt_JPK_RrQ2Kp_zdbdTmVLlR1iK8fa6suWkIPagZuUxTq-lpuo57O6yasV-FRiAFKEclU0Xul2kXa2x_NoZVGuYhxo6s_iocSBov52rcs9PAAXDFweoECLmc_MSnHm7Yxy1H40OiiB-m--xGItE4liXuuxhUiEErd6jzgc19AxXGJZlT7fX8PBjUQnNiElUXTDK1y1sWbZx77LsWxAm42fK90gktYe0YhX9V7U1diS_f_NNHbHesRfJWzi7sHHaV2BC19-RxgjhPqPAeXskLNYRYZV3-tc1jI"]
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/comptoir-sur-mer/gallery_4.jpg"
+    ]
   },
   verified: false,
-  google_rating: 4.5
+  google_rating: 4.5,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine de la mer. Les Linguines aux Palourdes (24.50€) : généreuses en iode, un plat réconfortant qui sent bon le large.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
 
 export default comptoir_sur_mer;

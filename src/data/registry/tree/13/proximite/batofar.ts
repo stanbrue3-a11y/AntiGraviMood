@@ -4,7 +4,7 @@ export const batofar: SurgicalPlace = {
     "id": "poi-157",
     "name": "Batofar",
     "slug": "batofar",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "peniche-club"
     ],
@@ -13,6 +13,7 @@ export const batofar: SurgicalPlace = {
     "location": {
         "address": "3 Port de la Gare",
         "arrondissement": 13,
+        google_id: "TODO",
         "lat": 48.833321,
         "lng": 2.379050,
         "nearest_metro": "À proximité",
@@ -44,9 +45,24 @@ export const batofar: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=AcnlKN2bSPGSTOKvXcLSdjjGJvoX3t0f9SKUL1uYX1RyZ1EDmlrVDYMJjoCCekgppttDA_L97EN_4uAd1MmsAhUo3zHYusD9JNgWzKUfk2inWRzi9YhvXvPd28OgBBG5hWzu-1TXmMJCyRtNGk0Si5956oNtOBuRHTl8EoJmE3QWJZ-jNirCaHM6HqTJ7LV9UNg4DQB9VJRv7ZgW-1wa9Q2KojsvKZsuExiSJDklTLug4WNpOI-xYCrXb8KU18S266TqjfN5II5icP0E0KXvf6eL1WjTby9vnr1tX8OmdWhs_ZiO8w&key=AIzaSyDpkuHPvH-X8hZrLrpZbyC2Hi39iAfrLKM",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/batofar/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Peniche-club. Batofar.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -1,6 +1,6 @@
 import { SurgicalPlace } from "../../../type-definition";
 
-export const breizhCafePaulBert: SurgicalPlace = {
+export const breizh_cafe: SurgicalPlace = {
     id: "poi-breizh-cafe-paul-bert",
     name: "Breizh Café (Paul Bert)",
     slug: "breizh-cafe-paul-bert",
@@ -104,16 +104,29 @@ export const breizhCafePaulBert: SurgicalPlace = {
     expert_catchline: "La crêpe bretonne en mode gastronomique : sarrazin bio, beurre Bordier et cidrothèque de folie.",
     insider_tip: "• Ne passez pas à côté des cidres, la sélection est l’une des meilleures de Paris.\n• La galette à la raclette au lait cru est d'un réconfort absolu en hiver.\n• Pour le dessert, la crêpe au caramel au beurre salé maison est une référence.\n• La terrasse sur la rue Paul Bert est très agréable pour un déjeuner au soleil.",
     specials: {
-        cuisine: ["Galette Sarrazin Bio", "Breton", "Beurre Bordier"],
+        cuisine: ["Français"],
         drinks: ["Cidre Artisanal", "Kir Breton", "Gwenva (spiritueux)"],
-        must_eat: "La galette complète au chorizo et la crêpe Suzette flambée."
+        must_eat: "Cuisine française. La galette complète au chorizo et la crêpe Suzette flambée."
     },
-    images: {
-        hero: "https://breizhcafe.com/wp-content/uploads/2022/02/BREIZH-CAFE-PAUL-BERT-1.jpg",
-        gallery: [
-            "https://lh3.googleusercontent.com/p/AF1QipM_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ_XQ=s1360-w1360-h1020"
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/breizh-cafe-paul-bert/gallery_4.jpg"
+    ]
+  },
     verified: true,
-    google_rating: 4.6
+    google_rating: 4.6,
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La galette complète au chorizo et la crêpe Suzette flambée.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

@@ -87,13 +87,16 @@ export const le_villaret: SurgicalPlace = {
             }
         ]
     },
-    images: {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXgekspiDs7vs_sIVzqBkCq4Ui4p6w0LD-RWhTWEIzKD-w5nyx5YQJgd5wgO3USj7OiffQD-pQ6DQpFEiemNGn8clMIalMbyrtTjoLsJER215t0gwl7j736cPOgtzj2nENETjAD6zDfi32BYVB989wV6FUKhpcZhh37l1hug0MpNBEJTtJUwRIsA5lOtDONa0iFUCWyxmStbv8rd9Z4RaM8MRYWVpObxCKGb1pgNlZuE1IWxhxjGACGeFpmiDhNAZY0B8uYLOtzUb2rpVdPJ1Yio6thKjyYzqX_FWJkGYwy73YuCG15OKzsZZUsKLGSt_E5A2CrNQ_vwYMKJWma9yWyDUzcE4koHRNe6_S3QSgpyORCLxtbd1vpnuEqMvpo5sHCC3YKi3989rL2KnGIQDRkLDcQyrq8ziu-iUX3AsE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWcYoOY4n52WdebbaC5szQHaBFgvSm43gu14bPTLE4b1FMgmpVLmwX5y4JdClV8_1bOSqpeV0IrfN18uU0dCxcuV1G7M2nn53E_2DHmkTzOg99P1co-1ZhhucGQoSrK28mhvxCHdVzNHf0Pq-umg2stjjTYshyMAC17ijLLGh1dWy-GUk8KW0MCYbpTScugiqr1JSVxQ9-2TiX2veG1YNri8ynYWRjh46Ywteo0atqIDXOOjarhnhFFBhoj_zbhBRLZnghN7H9q0Gc6xAtaQxkyeCIPq3GztEr-gnh_3sl-GzA6ir9WeAjiA62s4bpPsNprcbfv615iU75HLzN5r40GAkXkvB0qTrnVDslb8sTfRdlFqKTS3IYe2nGZmVv4cXi_qmg2TGqrLUXGFukjPahFuCNkbzW-1PSup36u8HLL0BWSvKgOv746s2aHKpKE&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXZgqkwbVyPHqLldqXrYfW_9khmmg2fi28eCvT5UwfOV4OKNmKt0IGS5ny6qbPYWFJfs6gOO6RP7g6_-q9r8a3mNooT-Bq0V3EmjPRWSYKZeub6VMWeGqJwU9t7t-IzUNc9_0mX2tUefjhp_22KuMdzOAz2hzUou3-lVvI9vBJWN6bt_xvtuHXiiprt6D-mu1BS2rVFdIwDzXZJUVKngsqCnjv-R2CuQiUjMZk6KPFj2Sm_C-4RSKJQV_liAMaacpmyzLdGDS8AIlBddPSDlog1quJZH4ddVhfkSiHtK8Cu-pDyemgmhR-lhpwd5y0BEOPPOeF2PYCRBTYSD3YAahAXjS2P96dnvq7NitvaBEiTOCrgFJemp_WLLIflhGYRcEh8KLICLESkwo4DQCyQGxWnGmQhSdugjzZvoz0-wYCh_QjciayqMmuMGIOkQRhI&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
+          images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-villaret/gallery_4.jpg"
+    ]
+  },
     instagram_handle: "levillaret",
     verified: true,
     google_rating: 4.4,
@@ -101,9 +104,18 @@ export const le_villaret: SurgicalPlace = {
     insider_tip: "• La cave de 1000+ références est LE trésor caché — demandez à voir l’armoire vitrée qui contient les Bourgognes rares.\n• La fricassée de rognons à la truffe (52€) est le plat signature pour les amateurs.\n• Le menu midi à 35€ est le point d’entrée idéal pour découvrir le chef.\n• L’épaule d’agneau de Lozère (95€ pour 2) se partage et se commande à l’avance.",
     expert_catchline: "Le bistrot du terroir noble : rognons truffés, agneau de Lozère et 1000 vins en armoire vitrée.",
     specials: {
-        cuisine: ["Fricassée de rognons à la truffe", "Faux-filet Blonde d’Aquitaine", "Épaule d’agneau Lozère", "Queue de boeuf au foie gras"],
+        cuisine: ["Français"],
         drinks: ["Cave 1000+ références", "Grands Bourgognes", "Armoire vitrée spectaculaire"],
-        must_eat: "La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d’Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
+        must_eat: "Cuisine française. La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d’Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
         must_drink: "La cave est le nerf de guerre : 1000+ références, dominante Bourgogne et Rhône. Les verres démarrent à 10€ mais laissez-vous guider vers une bouteille — le rapport qualité-prix est honnête."
-    }
+    },
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Cuisine française. La fricassée de rognons à la truffe (52€) est iconique. Pour un budget plus doux, le faux-filet Blonde d’Aquitaine (42€) est irréprochable. Le menu midi à 35€ est un excellent deal.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

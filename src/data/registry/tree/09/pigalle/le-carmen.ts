@@ -4,7 +4,7 @@ export const le_carmen: SurgicalPlace = {
     "id": "poi-017",
     "name": "Le Carmen",
     "slug": "le-carmen",
-    "category": "club",
+    "category": "bar",
     "subcategory": [
         "club-mansion"
     ],
@@ -13,6 +13,7 @@ export const le_carmen: SurgicalPlace = {
     "location": {
         "address": "34 Rue Duperré",
         "arrondissement": 9,
+        google_id: "TODO",
         "lat": 48.882085,
         "lng": 2.334219,
         "nearest_metro": "Pigalle",
@@ -47,9 +48,24 @@ export const le_carmen: SurgicalPlace = {
         "cuisine": [],
         "drinks": []
     },
-    "images": {
-        "hero": "/images/le-carmen.jpg",
-        "gallery": []
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-carmen/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Club-mansion. Le Carmen.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };

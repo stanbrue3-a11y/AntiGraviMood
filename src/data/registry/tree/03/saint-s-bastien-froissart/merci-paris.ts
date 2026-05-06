@@ -13,6 +13,7 @@ export const merci_paris: SurgicalPlace = {
     "location": {
         "address": "111 Bd Beaumarchais",
         "arrondissement": 3,
+        google_id: "TODO",
         "lat": 48.860721,
         "lng": 2.366832,
         "nearest_metro": "Saint-Sébastien-Froissart",
@@ -48,12 +49,24 @@ export const merci_paris: SurgicalPlace = {
             "Café"
         ]
     },
-    "images": {
-        hero: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfXIom44PeVfC3EHG5Pw3W6ZNaglgTPBIAR8403MSAwxt8aE1edr5l6PWyjoQAl6ePEnXwDksw9E4Kj84qraxYGpipdmZa_ny0oIcs4xaYUgcPkCuEBzipGmpJSZs6xK2YsYEDYZ5BlU8yJZkjoTHiVJMfdnh8gWYVX7e1szYMAa174tiYbLdRSBglbyt8oEVDlTxiz2ss6hW4U_IG01DlgggYFF3NXlibcmUhnhAupybrmdsjJUFLp0eeeSRO2rS4hbMNPLtQLQOCm4vlUnspOn4CsN6ROe_iS2u7Tu_maXwi1ZphDZvYp03SRtUfdPS2Je7Gf66ChM2ksD37JrtcJnPGu6Zskp9GKRPJKp3H29MhtyEU6hlRBllTgB0t1HpKS_nUNQAasvrFVuMK0cCLJQ_Y_JRKMlXEATHRjWCW9k_p7p&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-        gallery: [
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfWHevO7Xd8hG0jTaMTaVoh4XhCXgnTWa3Iod-ZfRHDE42EZpzOFUUwPnnb7mcI4YM9dYGmhD8_sstIB7hvES8Oj7a3yAmwa-bUs--GpW9uDoEmQQSC90FNO_mMs70d8FEXu-rTUoA1nL6ZfpYN_vYjUp-3lBE7ZZBBk-KE5VaGEFOOoAGN_1uJKZZprGzU5rBG3EKschDwBQhLtBaILCHmtrOuxs5OVMjdsi160bt9mzafGYKI4VmsfvPpUj1V1wNshGtD6dOzkgC6a2FVcP9m-8OYXQENOBhXZ_moh4RZkp0yeW-ezgCLih8iUfaLUTSQIqcdNhiCCp4MxBoffvkInEIaHlwRzrr1U-k-yz8OHdo2hXVS3yjw6R1KEITsRJ3Q-hg0R9izsnY2VWRzzXRaBT7fWTdMKrxvhUd9Mx_TS4d1jqOlJhS-E33houfQW&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`,
-            `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photo_reference=ATCDNfVcuq_IsHMd7_M4QR-yln_dpxL1nmAtLhtv3iR0E9Fhv5gtCym3FZUhRLxmOhGyISqIN6fBLFIIZJuDymTTrUiUoO2ZPvJfBoEJBOcZIOlVoUVUZBxOwKSA2iE5vp9M3ORTACCemG49--c7Q7TmiB_oGRBQW5qdr1MOuu2l-qA2ZW1hYsd87pLGRWHgv5ezZAvdgxHMGhaSA1zcO8sMCqpVtB-6G8PmmYlOy8IgEb8XrragGVJXc388BIOVCt-MiGA-WRlubbx_MgARQ905lFbJfkKtRpsKbJWPa22jD_ewGov2kAhnKpgW0u8yfdBHbe7GVPxIHkvjjDdzbFUz4nthikyE3RjgW1bYhsK79NTxh3syOGtwpWjIpoCHPdWhuXooQ1u_bjzu2SIEVU-YK5lhIknaTC7pJyASY8u_Nf0RoLS3&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        ]
-    },
-    "source": "to_be_verified"
+        images: {
+    hero: "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/hero.jpg",
+    gallery: [
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/hero.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/gallery_1.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/gallery_2.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/gallery_3.jpg",
+      "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/merci-paris/gallery_4.jpg"
+    ]
+  },
+    "source": "to_be_verified",
+
+  real_talk: {
+    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    must_eat: "Coffee-shop. Merci.",
+    le_secret: "L'ambiance unique du quartier.",
+    le_son: "Brouhaha joyeux et convivial.",
+    le_must: "L'accueil chaleureux."
+  }
+
 };
