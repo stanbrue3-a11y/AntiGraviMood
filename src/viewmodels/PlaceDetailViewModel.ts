@@ -158,9 +158,11 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     expertise: (place.real_talk || place.insider_tip)
       ? {
         type: isBarContext ? 'drink' : 'food',
+        // V4 : on_mange_quoi_ici est la source principale, must_eat est le fallback legacy
+        // Si aucun des deux n'a de valeur, headline reste undefined (pas de texte générique)
         headline: isBarContext
-          ? place.specials?.must_drink || place.real_talk?.must_drink || place.specials?.expert_catchline || place.specials?.must_eat || 'Sélection Liqueurs & Spiritueux.'
-          : place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.expert_catchline || 'Expertise & Sélection.',
+          ? place.specials?.must_drink || place.real_talk?.must_drink || place.specials?.expert_catchline || place.specials?.must_eat || (place as any).on_mange_quoi_ici || undefined
+          : (place as any).on_mange_quoi_ici || place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.expert_catchline || undefined,
         insiderTip: place.insider_tip,
         leSecret: place.real_talk?.insider_tip,
         leSon: isBarContext ? place.real_talk?.must_drink || place.real_talk?.must_eat : place.real_talk?.must_eat || place.real_talk?.must_drink,

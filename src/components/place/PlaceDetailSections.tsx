@@ -178,6 +178,9 @@ const ExpertTalkSection = React.memo(() => {
   const isSingleLongBlock = bullets.length === 1 && bullets[0].length > 150;
   const hasMore = hiddenBullets.length > 0 || isSingleLongBlock;
 
+  // Si pas de contenu du tout, ne pas afficher la section
+  if (!headline && bullets.length === 0) return null;
+
   return (
     <View style={sectionStyles.scrollPadding}>
       <View
@@ -214,14 +217,23 @@ const ExpertTalkSection = React.memo(() => {
                 )}
               </View>
 
-              <Text
-                style={[
-                  sectionStyles.expertHeadline,
-                  { color: isDark ? theme.text.primary : '#1A1A1A', marginTop: 4 },
-                ]}
-              >
-                {headline}
-              </Text>
+              {headline ? (
+                <Text
+                  style={[
+                    sectionStyles.expertHeadline,
+                    { color: isDark ? theme.text.primary : '#1A1A1A', marginTop: 4 },
+                  ]}
+                >
+                  {headline}
+                </Text>
+              ) : (
+                <View style={sectionStyles.pendingPhotoContainer}>
+                  <Ionicons name="camera-outline" size={16} color={primaryColor} style={{ opacity: 0.4 }} />
+                  <Text style={[sectionStyles.pendingPhotoText, { color: isDark ? theme.text.muted : '#AAAAAA' }]}>
+                    En attente de la photo du menu
+                  </Text>
+                </View>
+              )}
             </TouchableOpacity>
 
             {/* APARTÉ SECTION (Partial or Full) */}
@@ -502,5 +514,17 @@ const sectionStyles = StyleSheet.create({
   readMoreText: {
     fontSize: 14,
     fontWeight: '700',
+  },
+  pendingPhotoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 8,
+    opacity: 0.6,
+  },
+  pendingPhotoText: {
+    fontSize: 13,
+    fontStyle: 'italic',
+    fontWeight: '400',
   },
 });
