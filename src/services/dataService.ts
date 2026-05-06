@@ -55,11 +55,10 @@ export class DataService {
         const db = await this._kernel.attach();
         await MigrationRunner.run(db);
 
-        // 1. Repository Hydration (Local Mode by default in dev for agility)
-        const isDev = __DEV__ || !!process.env.EXPO_PUBLIC_USE_LOCAL_DB;
-        console.warn(`🏗️ [DataService] ENGINE MODE: ${isDev ? 'LOCAL SQLITE' : 'CLOUD SUPABASE'}`);
+        // 1. Repository Hydration (Force Supabase Native pour valider l'Architecture Titan V4)
+        console.warn(`🏗️ [DataService] ENGINE MODE: CLOUD SUPABASE NATIVE (Titan V4)`);
         
-        const placesRepo = isDev ? new (require('../repositories/SQLitePlacesRepository').SQLitePlacesRepository)(db) : new SupabasePlacesRepository();
+        const placesRepo = new SupabasePlacesRepository();
         
         const momentsRepo = new SQLiteMomentsRepository(db);
 

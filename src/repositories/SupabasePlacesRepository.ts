@@ -26,7 +26,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
     const { data, error } = await supabase
       .from('places')
-      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, media, index_price, google_rating, michelin_stars');
+      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, michelin_stars, plat_median_cents');
 
     if (error) throw error;
     
@@ -43,10 +43,10 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       subcategories: row.subcategories || [],
       dominant_mood: row.dominant_mood,
       media: {
-        hero_image: row.media?.hero_image || row.media?.hero || ''
+        hero_image: row.hero_image || ''
       },
       pricing: {
-          index_price: row.index_price || 0,
+          index_price: row.plat_median_cents ? row.plat_median_cents / 100 : 0,
           unit: '€',
           is_free: false,
           type: 'generic',
@@ -175,35 +175,16 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   }
 
   /**
-   * Complex Mapping: Supabase Flat Row -> Complex App Model
+   * Complex Mapping: Supabase Flat Row V4 -> Complex App Model
    */
   private mapSupabaseRowToPlace(row: any): Place {
-    // 1. Merge Duplicate Categories in Pricing
-    const rawMenu = row.raw_menu || [];
-    const mergedMenu: any[] = [];
-    const categoryMap: Record<string, any[]> = {};
-
-    rawMenu.forEach((cat: any) => {
-      if (!categoryMap[cat.category]) {
-        categoryMap[cat.category] = [];
-      }
-      categoryMap[cat.category].push(...cat.items);
-    });
-
-    Object.keys(categoryMap).forEach(catName => {
-      mergedMenu.push({
-        category: catName,
-        items: categoryMap[catName]
-      });
-    });
-
     return {
       id: row.id,
       name: row.name,
       slug: row.slug,
       description: row.description || '',
-      expert_catchline: row.real_talk?.expert_catchline || '',
-      insider_tip: row.real_talk?.insider_tip || '',
+      expert_catchline: '', // Deleted in V4
+      insider_tip: row.insider_tip || '',
       category: row.category,
       subcategories: row.subcategories || [],
       dominant_mood: row.dominant_mood,
@@ -217,38 +198,38 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       pricing: {
         type: row.category === 'café' ? 'cafe' : row.category,
         unit: '€',
-        is_free: row.pint_price === 0,
-        index_price: row.index_price,
-        pint_price: row.pint_price || undefined,
-        cocktail_price: row.cocktail_price || undefined,
-        coffee_price: row.coffee_price || undefined,
-        dish_price: row.main_dish_price || undefined,
-        menu_items: mergedMenu
+        is_free: false,
+        index_price: row.plat_median_cents ? row.plat_median_cents / 100 : 0,
+        pint_price: undefined,
+        cocktail_price: undefined,
+        coffee_price: undefined,
+        dish_price: row.plat_median_cents ? row.plat_median_cents / 100 : undefined,
+        menu_items: []
       } as any,
       practical_info: {
-        primary_status: row.practical_info?.reservation_policy,
-        opening_hours: row.practical_info?.opening_hours || 'Voir sur place',
-        terrace: row.practical_info?.terrace,
-        main_action: row.practical_info?.main_action
+        primary_status: row.reservation_policy || 'sans_resa',
+        opening_hours: row.opening_hours_raw || 'Voir sur place',
+        terrace: row.has_terrace || false,
+        main_action: null
       } as any,
       media: {
-        hero_image: row.media?.hero_image || row.media?.hero || '',
-        google_photos: row.media?.google_photos || row.media?.gallery || []
+        hero_image: row.hero_image || '',
+        google_photos: row.google_photos || []
       } as any,
       real_talk: {
-        insider_tip: row.real_talk?.insider_tip,
-        must_eat: row.real_talk?.must_eat,
-        must_drink: row.real_talk?.must_drink
+        insider_tip: row.insider_tip,
+        must_eat: row.on_mange_quoi_ici,
+        must_drink: undefined
       } as any,
       specials: {
-        cuisine: row.real_talk?.cuisine || [],
-        drinks: row.real_talk?.drinks || [],
-        must_eat: row.real_talk?.must_eat || undefined,
-        must_drink: row.real_talk?.must_drink || undefined,
-        expert_catchline: row.real_talk?.expert_catchline || undefined,
+        cuisine: row.subcategories || [],
+        drinks: [],
+        must_eat: row.on_mange_quoi_ici || undefined,
+        must_drink: undefined,
+        expert_catchline: undefined,
       },
       google_rating: row.google_rating,
-      verified: row.verified,
+      verified: row.is_verified || false,
       michelin_stars: row.michelin_stars
     } as Place;
   }
