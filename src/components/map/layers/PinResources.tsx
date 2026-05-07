@@ -257,6 +257,29 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
+      
+      {/* C. NEW LOT INDICATOR (Small Green Dot on the Left) */}
+      <Mapbox.SymbolLayer
+        id="new-lot-indicator"
+        minZoomLevel={12}
+        sourceID="placesSource"
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_new_lot'], true]]}
+        style={
+          {
+            textField: '●',
+            textColor: '#4ADE80',
+            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            textSize: 14,
+            textAnchor: 'center',
+            textOffset: [-1.2, 0.4], // Offset to the left and slightly down to avoid rating overlap
+            textAllowOverlap: true,
+            textIgnorePlacement: true,
+            textHaloColor: '#000000',
+            textHaloWidth: 2,
+            textHaloBlur: 0,
+          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
+        }
+      />
     </>
   );
 });

@@ -135,6 +135,7 @@ export interface PlaceSkeleton {
   google_rating?: number;
   google_user_ratings_total?: number;
   michelin_stars?: number | null;
+  tags?: string[];
 }
 
 // User & Moments

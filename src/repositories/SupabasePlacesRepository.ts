@@ -26,7 +26,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
     const { data, error } = await supabase
       .from('places')
-      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, google_reviews_count, michelin_stars, plat_median_cents');
+      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, google_reviews_count, michelin_stars, plat_median_cents, tags');
 
     if (error) throw error;
     
@@ -53,7 +53,8 @@ export class SupabasePlacesRepository implements IPlacesRepository {
           menu_items: []
       } as any,
       google_rating: row.google_rating,
-      michelin_stars: row.michelin_stars
+      michelin_stars: row.michelin_stars,
+      tags: row.tags || []
     } as PlaceSkeleton));
   }
 
@@ -98,7 +99,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
     // Practical Info Filters
     if (filters.filterTerrace) {
-      query = query.eq('practical_info->terrace', true);
+      query = query.eq('has_terrace', true);
     }
     if (filters.filterHappyHour) {
       query = query.not('hh_pint_price', 'is', null);
@@ -159,7 +160,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
     // Practical Info Filters
     if (filters.filterTerrace) {
-      query = query.eq('practical_info->terrace', true);
+      query = query.eq('has_terrace', true);
     }
     if (filters.filterHappyHour) {
       query = query.not('hh_pint_price', 'is', null);

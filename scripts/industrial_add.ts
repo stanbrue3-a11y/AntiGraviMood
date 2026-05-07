@@ -37,7 +37,7 @@ async function main() {
 
     try {
         // 1. RECHERCHE GOOGLE MAPS
-        const findUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(query)}&inputtype=textquery&fields=place_id,name&key=${GOOGLE_KEY}`;
+        const findUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(query)}&inputtype=textquery&fields=place_id,name,formatted_address&key=${GOOGLE_KEY}`;
         const searchRes = await axios.get(findUrl);
         
         if (searchRes.data.status !== 'OK' || !searchRes.data.candidates[0]) {
@@ -46,19 +46,37 @@ async function main() {
         }
 
         const placeId = searchRes.data.candidates[0].place_id;
-        let candidateName = searchRes.data.candidates[0].name;
+        const candidateName = searchRes.data.candidates[0].name;
+        const candidateAddress = searchRes.data.candidates[0].formatted_address;
 
         // --- BOUCLIER ANTI-DOUBLON SUPABASE ---
-        const { data: existingPlace } = await supabase
+        // Check by Google ID
+        const { data: existingById } = await supabase
             .from('places')
             .select('slug, name')
             .eq('google_id', placeId)
             .single();
 
-        if (existingPlace) {
-            console.error(`🛑 ARRÊT DE SÉCURITÉ : Ce lieu existe déjà dans Supabase !`);
-            console.error(`   👉 Nom : ${existingPlace.name}`);
+        if (existingById) {
+            console.error(`🛑 ARRÊT DE SÉCURITÉ : Ce Google ID existe déjà dans Supabase !`);
+            console.error(`   👉 Nom : ${existingById.name} (Slug: ${existingById.slug})`);
             process.exit(1);
+        }
+
+        // Check by exact Address (to catch duplicates with different Google IDs)
+        if (candidateAddress) {
+            const { data: existingByAddress } = await supabase
+                .from('places')
+                .select('slug, name')
+                .eq('address', candidateAddress)
+                .single();
+
+            if (existingByAddress) {
+                console.error(`🛑 ARRÊT DE SÉCURITÉ : Un lieu existe déjà à cette adresse !`);
+                console.error(`   👉 Nom en base : ${existingByAddress.name} (Slug: ${existingByAddress.slug})`);
+                console.error(`   📍 Adresse détectée : ${candidateAddress}`);
+                process.exit(1);
+            }
         }
 
         console.log(`✅ Google Place ID trouvé : ${placeId}`);
@@ -87,6 +105,23 @@ async function main() {
         const hero = photoRefs[0] || null;
         const gallery = photoRefs.slice(1);
 
+        // 🕛 AUTO-DETECT "FERME TARD" — Fermeture à minuit ou après
+        // On cherche des patterns de fermeture tardive dans les horaires Google
+        const hoursText = details.opening_hours?.weekday_text?.join(' ') || '';
+        const latePatterns = [
+          /12:00\s*AM/i,   // minuit (format 12h)
+          /1:00\s*AM/i,    // 1h du matin
+          /2:00\s*AM/i,    // 2h du matin
+          /3:00\s*AM/i,    // 3h du matin
+          /00:00/,         // minuit (format 24h)
+          /01:00/,         // 1h (format 24h)
+          /02:00/,         // 2h (format 24h)
+        ];
+        const closes_late = latePatterns.some(p => p.test(hoursText));
+
+        // ☀️ TERRASSE : null par défaut → audit photo OBLIGATOIRE lors de l'enrichissement
+        const has_terrace = null;
+
         // 3. INSERTION SUPABASE (Données Brutes)
         console.log(`💾 [PHASE 2 : PUSH DB] Envoi des données brutes vers Supabase...`);
         
@@ -113,8 +148,8 @@ async function main() {
             
             opening_hours_raw: details.opening_hours?.weekday_text?.join(' | ') || null,
             opening_hours_json: details.opening_hours || null,
-            closes_late: false,
-            has_terrace: false,
+            closes_late: closes_late, // 🕛 Auto-calculé depuis les horaires Google
+            has_terrace: has_terrace, // ☀️ Auto-détecté via Google Attributes
             reservation_policy: null,
             michelin_stars: null,
             

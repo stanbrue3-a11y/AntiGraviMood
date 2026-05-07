@@ -115,6 +115,7 @@ export const NativeMapPro = React.memo(
             name: place.name,
             category: subtitle,
             arrondissement: place.location.arrondissement,
+            is_new_lot: place.tags?.includes('new_lot') || false,
           },
         };
       });
