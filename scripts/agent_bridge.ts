@@ -128,6 +128,31 @@ async function main() {
                 console.error('❌ ERREUR QUALITÉ : Trop de mots creux. Soyez spécifique. Évitez : ' + found.join(', '));
                 process.exit(1);
             }
+
+            // 🛡️ GARDE-FOU ANTI-HALLUCINATION
+            // Détecte les patterns factuels risqués (relations fournisseur, filière, provenance spécifique)
+            // qui ne peuvent pas être vérifiés sans source. Exige un dogme_source traçable.
+            const HALLUCINATION_PATTERNS = [
+                /même filière/i,
+                /même fournisseur/i,
+                /approvisionné (chez|par|auprès)/i,
+                /livré (en|par|depuis|directement)/i,
+                /pêché (en|par|à|dans)/i,
+                /élevé (en|par|à|dans)/i,
+                /maturation de \d+/i,
+                /en provenance de/i,
+                /sourcé (chez|auprès|directement)/i,
+            ];
+            const riskyMatch = HALLUCINATION_PATTERNS.find(p => p.test(payload.description!));
+            if (riskyMatch && !payload.dogme_source) {
+                console.error(`🛑 ERREUR ANTI-HALLUCINATION : La description contient une affirmation factuelle vérifiable (pattern : "${riskyMatch.source}").`);
+                console.error(`   ➡️  Ajoutez "dogme_source": "<URL ou GOOGLE_REVIEWS>" dans le payload pour prouver la source.`);
+                console.error(`   ➡️  Si vous ne pouvez pas sourcer ce fait, reformulez sans affirmation de provenance spécifique.`);
+                process.exit(1);
+            }
+            if (payload.dogme_source) {
+                console.log(`✅ [TRAÇABILITÉ] Dogme sourcé : ${payload.dogme_source}`);
+            }
         }
 
         // 🛑 VALIDATION : Enum Dominant Mood
@@ -167,6 +192,9 @@ async function main() {
             finalTags.push('new_lot');
         }
         payload.tags = finalTags;
+
+        // 🧹 Nettoyage : dogme_source est un champ de validation locale, pas une colonne Supabase
+        delete payload.dogme_source;
 
         const { data, error } = await supabase.from('places').update(payload).eq('slug', slug).select();
         
