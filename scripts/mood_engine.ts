@@ -58,9 +58,9 @@ export async function calculateMoodAndTerrace(
     const systemInstruction = `Tu es un expert critique gastronomique parisien. Tu dois analyser ce restaurant pour déterminer son ambiance principale et s'il possède une terrasse visible en extérieur.
     
 RÈGLES D'AMBIANCE (dominant_mood doit être EXACTEMENT l'une de ces 3 valeurs) :
-- "chill" : Calme, feutré, intime, gastronomique, nappes blanches, discussion possible.
-- "festif" : Bruyant, musique, bar, mange-debout, cocktails, lieu de soirée, animé.
-- "culturel" : Immersion étrangère très forte, traditionnel typique. (Si doute entre chill et culturel, privilégie chill).
+- chill : Calme, propice à la discussion feutrée, service posé. CRITÈRE D'EXCLUSION : Si les avis mentionnent 'bruyant', 'complet', 'bondé', 'musique forte' ou 'difficile de s'entendre', ce n'est JAMAIS chill.
+- festif : Animé, vibrant, musique présente, idéal pour les groupes, peut être bruyant, service énergique.
+- culturel : Forte identité, lieu qui transporte (décoration, concept, immersion étrangère très forte)., traditionnel typique. (Si doute entre chill et culturel, privilégie chill).
 
 RÈGLES TERRASSE (has_terrace) :
 - "true" si tu vois CLAIREMENT des tables à l'extérieur dans la rue/cour sur les photos.

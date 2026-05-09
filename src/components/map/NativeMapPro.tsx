@@ -116,6 +116,7 @@ export const NativeMapPro = React.memo(
             category: subtitle,
             arrondissement: place.location.arrondissement,
             is_new_lot: place.tags?.includes('new_lot') || false,
+            is_pastille_bleue: place.tags?.includes('pastille_bleue') || false,
           },
         };
       });

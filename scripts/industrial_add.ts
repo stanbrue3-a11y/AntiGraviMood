@@ -52,6 +52,8 @@ async function main() {
     const placeIdFlagIndex = args.findIndex(a => a === '--place-id');
     if (placeIdFlagIndex !== -1 && args[placeIdFlagIndex + 1]) forcePlaceId = args[placeIdFlagIndex + 1];
 
+    const forceAuditOnly = args.includes('--force-audit-only');
+
     const cleanArgs: string[] = [];
     for (let i = 0; i < args.length; i++) {
         if (args[i] === '--arr') { i++; continue; }
@@ -90,10 +92,12 @@ async function main() {
 
         console.log(`🎯 Place ID : ${placeId}`);
         const { data: existingById } = await supabase.from('places').select('slug, name').eq('google_id', placeId).single();
-        if (existingById) { 
+        if (existingById && !forceAuditOnly) { 
             console.warn(`🛑 Déjà en base : ${existingById.slug}`);
             process.exit(1); 
         }
+        
+        const finalSlug = existingById ? existingById.slug : null;
 
         const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,formatted_address,geometry,opening_hours,rating,user_ratings_total,website,url,address_components,photos,types,price_level,business_status,reviews&key=${GOOGLE_KEY}&language=fr`;
         const detailsRes = await axios.get(detailsUrl);
@@ -153,14 +157,12 @@ async function main() {
             process.exit(1);
         }
 
-        const postalCode = details.address_components?.find((c: any) => c.types.includes('postal_code'))?.short_name || '75000';
-        let arrondissement = parseInt(postalCode.slice(-2)) || 0;
+        // 🏢 Extraction de l'arrondissement (Paris 750XX ou 751XX pour le 16e)
+        const zipCodeMatch = details.formatted_address.match(/75[01](\d{2})/);
+        const extractedArr = zipCodeMatch ? parseInt(zipCodeMatch[1]) : 0;
 
-        if (forcePlaceId && targetArr) {
-            console.warn(`⚠️ Force Arrondissement : ${arrondissement} -> ${targetArr}`);
-            arrondissement = targetArr;
-        } else if (targetArr && arrondissement !== targetArr) {
-            console.error(`🛑 Mauvais arrondissement : ${arrondissement} (attendu ${targetArr})`);
+        if (targetArr && extractedArr !== targetArr) {
+            console.error(`🛑 Mauvais arrondissement : ${extractedArr} (attendu ${targetArr})`);
             process.exit(1);
         }
 
@@ -169,27 +171,70 @@ async function main() {
         const latePatterns = [/12:00\s*AM/i, /1:00\s*AM/i, /2:00\s*AM/i, /00:00/, /01:00/];
         const closes_late = latePatterns.some(p => p.test(hoursText));
 
-        // 🧠 MOOD ENGINE — Calcul IA basé sur les avis et les photos
-        const moodResult = await calculateMoodAndTerrace(details, GOOGLE_KEY, GEMINI_KEY);
-        console.log(`🧠 [MOOD ENGINE] ${moodResult.dominant_mood.toUpperCase()} (Confiance: ${moodResult.confidence}%) — Terrasse visuelle: ${moodResult.has_terrace}`);
-        console.log(`💬 Justification: ${moodResult.justification}`);
+        const bypassMood = process.argv.includes('--bypass-mood');
+
+        // 🧠 MOOD ENGINE — Calcul IA basé sur les avis et les photos (ou bypass)
+        let moodResult: any = { dominant_mood: 'chill', confidence: 100, has_terrace: false, justification: 'Bypass IA manuel.' };
+        
+        if (!bypassMood) {
+            moodResult = await calculateMoodAndTerrace(details, GOOGLE_KEY, GEMINI_KEY);
+            console.log(`🧠 [MOOD ENGINE] ${moodResult.dominant_mood.toUpperCase()} (Confiance: ${moodResult.confidence}%) — Terrasse visuelle: ${moodResult.has_terrace}`);
+            console.log(`💬 Justification: ${moodResult.justification}`);
+        } else {
+            console.log(`⏭️ [BYPASS IA] Mood réglé sur CHILL par défaut.`);
+        }
+
+        const hasTerrace = (details as any).outdoor_seating === true || moodResult.has_terrace === true;
 
         const newPlace = {
             slug, name: safeName, category: 'restaurant', subcategories: [], dominant_mood: moodResult.dominant_mood,
-            address: details.formatted_address, arrondissement, lat: details.geometry.location.lat, lng: details.geometry.location.lng,
+            address: details.formatted_address, arrondissement: extractedArr, lat: details.geometry.location.lat, lng: details.geometry.location.lng,
             google_id: placeId, google_rating: details.rating, google_reviews_count: details.user_ratings_total,
             opening_hours_raw: details.opening_hours?.weekday_text?.join(' | ') || null,
             opening_hours_json: details.opening_hours || null,
-            closes_late, has_terrace: moodResult.has_terrace, hero_image: photoRefs[0] || null, google_photos: photoRefs.slice(1), status: 'SCAFFOLDED',
+            closes_late, has_terrace: hasTerrace, hero_image: photoRefs[0] || null, google_photos: photoRefs.slice(1), 
+            internal_audit_logs: [`[MOOD ENGINE v2] ${moodResult.dominant_mood} (conf: ${moodResult.confidence}%) - Justification: ${moodResult.justification} | Google Terrace: ${(details as any).outdoor_seating}`],
+            mood_engine_version: 'v2',
+            status: 'SCAFFOLDED',
         };
 
-        const { data, error } = await supabase.from('places').insert(newPlace).select();
-        if (error) { 
-            console.error(`❌ Erreur Supabase : ${error.message}`);
-            process.exit(1); 
+        if (!forceAuditOnly) {
+            const { data, error } = await supabase.from('places').insert(newPlace).select();
+            if (error) { 
+                console.error(`❌ Erreur Supabase : ${error.message}`);
+                process.exit(1); 
+            }
+        } else {
+            console.log(`⏭️ [AUDIT ONLY] Saut de l'\''insertion en base pour ${safeName}.`);
         }
 
-        console.log(`✨ SUCCÈS : ${safeName} (${arrondissement}ème) enregistré !`);
+        const effectiveSlug = finalSlug || slug;
+        // 📸 AUDIT VISUEL — Téléchargement des photos pour vérification par l'\''agent
+        const auditDir = path.join(__dirname, '../scratch/vision_audit', effectiveSlug);
+        if (!fs.existsSync(auditDir)) fs.mkdirSync(auditDir, { recursive: true });
+        
+        console.log(`📸 Téléchargement des photos pour AUDIT VISUEL dans : ${auditDir}`);
+        const auditPhotos = details.photos?.slice(0, 5) || [];
+        for (let i = 0; i < auditPhotos.length; i++) {
+            try {
+                const photoUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${auditPhotos[i].photo_reference}&key=${GOOGLE_KEY}`;
+                const response = await axios({ url: photoUrl, responseType: 'stream' });
+                const writer = fs.createWriteStream(path.join(auditDir, `photo_${i}.jpg`));
+                response.data.pipe(writer);
+                await new Promise((resolve, reject) => {
+                    writer.on('finish', resolve);
+                    writer.on('error', reject);
+                });
+            } catch (err) {
+                console.error(`⚠️ Échec du téléchargement de la photo ${i}`);
+            }
+        }
+
+        console.log(`✨ SUCCÈS : ${safeName} (${extractedArr}ème) enregistré !`);
+        console.log(`\n⚠️  [ACTION REQUISE] AUDIT VISUEL OBLIGATOIRE :`);
+        console.log(`👉 Vérifiez les photos dans : ${auditDir}`);
+        console.log(`👉 Commande recommandée : ls ${auditDir} && view_file sur les images.`);
+        console.log(`👉 Vérifiez en priorité : TERRASSE et MOOD (${moodResult.dominant_mood}).\n`);
     } catch (error: any) { 
         console.error(`❌ Erreur Critique : ${error.message}`);
         process.exit(1); 

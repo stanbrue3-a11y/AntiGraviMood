@@ -95,9 +95,17 @@ export const PlaceHero = React.memo(() => {
       </View>
 
       <View style={styles.heroContent} pointerEvents="none">
-        <Text style={styles.heroTitle}>
-          {viewModel.hero.title} {viewModel.hero.michelin_stars ? '★'.repeat(viewModel.hero.michelin_stars) : ''}
-        </Text>
+        <View style={styles.titleRow}>
+          <Text style={styles.heroTitle}>
+            {viewModel.hero.title} {viewModel.hero.michelin_stars ? '★'.repeat(viewModel.hero.michelin_stars) : ''}
+          </Text>
+          {viewModel.tags?.includes('pastille_bleue') && (
+            <View style={[styles.statusDot, { backgroundColor: '#3B82F6' }]} />
+          )}
+          {viewModel.tags?.includes('new_lot') && !viewModel.tags?.includes('pastille_bleue') && (
+            <View style={[styles.statusDot, { backgroundColor: '#4ADE80' }]} />
+          )}
+        </View>
       </View>
     </View>
   );
@@ -154,5 +162,22 @@ const styles = StyleSheet.create({
     textShadowColor: 'rgba(0,0,0,0.4)',
     textShadowOffset: { width: 0, height: 2 },
     textShadowRadius: 10,
+    flexShrink: 1,
+  },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  statusDot: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    marginTop: 4, // Slight adjustment for Playfair baseline
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.5,
+    shadowRadius: 4,
+    elevation: 5,
   },
 });

@@ -183,9 +183,17 @@ export const DiscoverCard = React.memo(
 
             {/* Bottom Text Overlay */}
             <View style={styles.textOverlay}>
-              <Text style={styles.name} numberOfLines={2}>
-                {place.name}
-              </Text>
+              <View style={styles.nameRow}>
+                <Text style={styles.name} numberOfLines={1}>
+                  {place.name}
+                </Text>
+                {place.tags?.includes('pastille_bleue') && (
+                  <View style={[styles.statusDot, { backgroundColor: '#3B82F6' }]} />
+                )}
+                {place.tags?.includes('new_lot') && !place.tags?.includes('pastille_bleue') && (
+                  <View style={[styles.statusDot, { backgroundColor: '#4ADE80' }]} />
+                )}
+              </View>
               <View style={styles.metaRow}>
                 <Text style={styles.subtitle} numberOfLines={1}>
                   {contextualCategory === place.category ? (place.subcategories?.[0] || place.category) : contextualCategory}
@@ -278,6 +286,22 @@ const styles = StyleSheet.create({
     textShadowOffset: { width: 0, height: 1 },
     textShadowRadius: 3,
     marginBottom: 0,
+    flexShrink: 1,
+  },
+  nameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  statusDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    elevation: 3,
   },
   metaRow: {
     flexDirection: 'row',

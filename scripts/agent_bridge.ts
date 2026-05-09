@@ -23,12 +23,20 @@ async function main() {
     const slug = args[1];
 
     if (action === '--list') {
-        console.log(`📡 Récupération des derniers lieux (SCAFFOLDED)...`);
-        const { data, error } = await supabase
+        const arr = args[1] ? parseInt(args[1]) : null;
+        console.log(`📡 Récupération des fiches ${arr ? 'dans le ' + arr + 'ème ' : 'récentes'}...`);
+        let query = supabase
             .from('places')
-            .select('slug, name, status, dominant_mood')
-            .order('created_at', { ascending: false })
-            .limit(10);
+            .select('slug, name, status, dominant_mood, arrondissement')
+            .order('created_at', { ascending: false });
+        
+        if (arr) {
+            query = query.eq('arrondissement', arr);
+        } else {
+            query = query.limit(10);
+        }
+
+        const { data, error } = await query;
         if (error) throw error;
         console.log(JSON.stringify(data, null, 2));
         return;
@@ -55,6 +63,7 @@ async function main() {
             { label: 'reservation_policy',         ok: !!p.reservation_policy },
             { label: 'hero_image',                 ok: !!p.hero_image },
             { label: 'closes_late',                ok: p.closes_late !== null },
+            { label: 'Audit F.I.P.P (Façade #1)',  ok: !!(p.internal_audit_logs && p.internal_audit_logs.some((l: string) => l.includes('[AUDIT F.I.P.P OK]'))) },
         ];
         // Phase 2 : champs menu — NORMALEMENT vides jusqu'à réception de la photo du menu
         const phase2 = [
@@ -104,15 +113,17 @@ async function main() {
             process.exit(1);
         }
 
-        // 🛑 VALIDATION : Format de l'Insider Tip
-        if (payload.insider_tip && !payload.insider_tip.includes('•')) {
-            console.error("🛑 ERREUR FATALE (ÉDITORIAL) : L'insider_tip DOIT utiliser des bullet points avec le caractère '•'.");
-            process.exit(1);
-        }
         if (payload.insider_tip) {
-            const bullets = payload.insider_tip.split('•').filter((b: string) => b.trim().length > 0);
-            if (bullets.length < 3) {
-                console.error('❌ ERREUR QUALITÉ : L\'insider_tip doit contenir STRICTEMENT au moins 3 points (•).');
+            if (!payload.insider_tip.includes('•')) {
+                console.error("🛑 ERREUR FATALE (ÉDITORIAL) : L'insider_tip DOIT utiliser des bullet points avec le caractère '•'.");
+                process.exit(1);
+            }
+            
+            // 🛑 ANTI-TITRES RIGIDES
+            const forbiddenTitles = [/Le Dogme\s*:/i, /Mon conseil\s*:/i, /Timing\s*:/i, /Conseil\s*:/i];
+            const foundTitle = forbiddenTitles.find(p => p.test(payload.insider_tip!));
+            if (foundTitle) {
+                console.error(`🛑 ERREUR ÉDITORIALE (RIGIDITÉ) : Ne mettez pas de titres type "${foundTitle.source}" dans l'insider tip. Parlez naturellement, comme à un ami.`);
                 process.exit(1);
             }
         }
@@ -122,11 +133,39 @@ async function main() {
                 console.error('❌ ERREUR QUALITÉ : La description est trop courte (min 200 car.). Soyez plus immersif.');
                 process.exit(1);
             }
-            const forbidden = ['généreux', 'authentique', 'convivial', 'traditionnel', 'pépite', 'incontournable'];
+            const forbidden = [
+                'généreux', 'authentique', 'convivial', 'traditionnel', 'pépite', 'incontournable', 
+                'chaleur de l\'accueil', 'service impeccable', 'cadre chaleureux', 'accueil chaleureux',
+                'service aux petits soins', 'perle rare', 'vaut le détour', 'expérience unique',
+                'institution', 'spectaculaire', 'véritable', 'écrin', 'chic', 'cosy', 'élégance', 'parisien', 'cadre'
+            ];
             const found = forbidden.filter(f => payload.description!.toLowerCase().includes(f));
-            if (found.length > 1) {
-                console.error('❌ ERREUR QUALITÉ : Trop de mots creux. Soyez spécifique. Évitez : ' + found.join(', '));
+            if (found.length > 0) {
+                console.error('🛑 ERREUR ÉDITORIALE (MOTS CREUX) : Votre description contient des clichés interdits : ' + found.join(', '));
                 process.exit(1);
+            }
+
+            // 🛡️ DÉTECTEUR DE LYRISME (ANTI-BULLSHIT)
+            const LYRISME_PATTERNS = [
+                /moment suspendu/i, /voyage sensoriel/i, /explosion de saveurs/i, 
+                /éveil des sens/i, /sublimer le produit/i, /invitation au voyage/i,
+                /paradis des gourmets/i, /pépite gastronomique/i, /magie opère/i,
+                /capsule temporelle/i, /véritable ambassade/i, /escale (levantine|asiatique|italienne)/i
+            ];
+            const foundLyrisme = LYRISME_PATTERNS.find(p => p.test(payload.description!));
+            if (foundLyrisme) {
+                console.error(`🛑 ERREUR ÉDITORIALE (LYRISME) : La description est trop "marketing" (pattern détecté : "${foundLyrisme.source}"). Soyez plus factuel et naturel.`);
+                process.exit(1);
+            }
+
+            // 🛡️ DÉTECTEUR DE CONTRADICTION DE MOOD
+            if (payload.dominant_mood === 'chill') {
+                const noisePatterns = [/bruyant/i, /agité/i, /foule/i, /complet/i, /serré/i, /animé/i, /vivant/i];
+                const foundNoise = noisePatterns.find(p => p.test(payload.description!) || p.test(payload.insider_tip || ''));
+                if (foundNoise) {
+                    console.error(`🛑 CONTRADICTION DÉTECTÉE : Vous décrivez un lieu "${foundNoise.source}" mais le mood est "chill". Un lieu chill DOIT être calme et posé.`);
+                    process.exit(1);
+                }
             }
 
             // 🛡️ GARDE-FOU ANTI-HALLUCINATION
@@ -152,6 +191,27 @@ async function main() {
             }
             if (payload.dogme_source) {
                 console.log(`✅ [TRAÇABILITÉ] Dogme sourcé : ${payload.dogme_source}`);
+            }
+
+            // 🛡️ DÉTECTEUR DE MATIÈRE (SENSORY CHECK)
+            const sensoryPatterns = [/zinc/i, /bois/i, /pierre/i, /velours/i, /bruit/i, /odeur/i, /vacarme/i, /froid/i, /chaud/i, /matière/i, /marbre/i, /cuivre/i];
+            const hasSensory = sensoryPatterns.some(p => p.test(payload.description!));
+            if (!hasSensory) {
+                console.error(`🛑 ERREUR QUALITÉ (SENSORY) : Votre description manque de "matière". Mentionnez au moins un élément physique (zinc, bois, pierre, vacarme, odeur...).`);
+                process.exit(1);
+            }
+        }
+
+        // 🛡️ GARDE-FOU F.I.P.P (VISUAL AUDIT)
+        if (payload.tags && payload.tags.includes('pastille_bleue')) {
+            const hasAuditLog = payload.internal_audit_logs && payload.internal_audit_logs.some((l: string) => l.includes('[AUDIT F.I.P.P OK]'));
+            const { data: existing } = await supabase.from('places').select('internal_audit_logs').eq('slug', slug).single();
+            const alreadyHasAudit = existing?.internal_audit_logs && existing.internal_audit_logs.some((l: string) => l.includes('[AUDIT F.I.P.P OK]'));
+
+            if (!hasAuditLog && !alreadyHasAudit) {
+                console.error(`🛑 ERREUR QUALITÉ (F.I.P.P) : La pastille_bleue exige un audit visuel systématique.`);
+                console.error(`   ➡️  Ajoutez "[AUDIT F.I.P.P OK] Ordre validé : [X, Y, Z]" dans vos internal_audit_logs.`);
+                process.exit(1);
             }
         }
 
@@ -185,10 +245,16 @@ async function main() {
             }
         }
 
-        // 🛡️ AUTO-TAGGING : Marquage automatique des derniers lots pour le point vert UI
+        // 🛡️ AUTO-TAGGING : Marquage automatique des lots pour l'\''UI
         const { data: current } = await supabase.from('places').select('tags').eq('slug', slug).single();
-        let finalTags = current?.tags || [];
-        if (!finalTags.includes('new_lot')) {
+        let existingTags = current?.tags || [];
+        let incomingTags = payload.tags || [];
+        
+        // On fusionne les tags existants et les nouveaux en évitant les doublons
+        let finalTags = Array.from(new Set([...existingTags, ...incomingTags]));
+        
+        // On ajoute new_lot par défaut UNIQUEMENT si aucune pastille spécifique n'\''est présente
+        if (finalTags.length === 0 || (!finalTags.includes('new_lot') && !finalTags.includes('pastille_bleue'))) {
             finalTags.push('new_lot');
         }
         payload.tags = finalTags;

@@ -280,6 +280,29 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
+
+      {/* D. PASTILLE BLEUE INDICATOR (Small Blue Dot on the Left) */}
+      <Mapbox.SymbolLayer
+        id="pastille-bleue-indicator"
+        minZoomLevel={12}
+        sourceID="placesSource"
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_pastille_bleue'], true]]}
+        style={
+          {
+            textField: '●',
+            textColor: '#3B82F6',
+            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            textSize: 14,
+            textAnchor: 'center',
+            textOffset: [-1.2, 0.4],
+            textAllowOverlap: true,
+            textIgnorePlacement: true,
+            textHaloColor: '#000000',
+            textHaloWidth: 2,
+            textHaloBlur: 0,
+          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
+        }
+      />
     </>
   );
 });
