@@ -108,6 +108,7 @@ export interface PlaceRow {
   insider_tip: string | null;
   michelin_stars: number | null;
   has_terrace: number | null;
+  reservation_policy: string | null;
 }
 
 /**

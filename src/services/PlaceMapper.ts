@@ -188,7 +188,8 @@ export class PlaceMapper {
     pricing.index_price = PriceEngine.getReferencePrice(pricing as any, type) || 0;
 
     const practical_info = {
-      primary_status: (editorial.primary_status ||
+      primary_status: (row.reservation_policy ||
+        editorial.primary_status ||
         editorial.reservation_policy ||
         null) as Place['practical_info']['primary_status'],
       opening_hours: editorial.opening_hours || row.hours_json || 'Voir sur place',

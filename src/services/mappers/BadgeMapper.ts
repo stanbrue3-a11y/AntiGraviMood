@@ -43,6 +43,7 @@ export class BadgeMapper {
     };
 
     const statusMap: Record<string, { label: string; icon: string }> = {
+      sans_resa: { label: 'Sans réservation', icon: 'ban-outline' },
       resa_conseillee: { label: 'Résa conseillée', icon: 'calendar-outline' },
       resa_obligatoire: { label: 'Résa obligatoire', icon: 'calendar-outline' },
     };

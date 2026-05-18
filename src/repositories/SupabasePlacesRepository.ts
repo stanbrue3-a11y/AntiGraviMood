@@ -177,6 +177,17 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
   /**
    * Complex Mapping: Supabase Flat Row V4 -> Complex App Model
+   *
+   * ⚠️ SYNCHRONISATION OBLIGATOIRE (Standard Industriel 2026) :
+   * Tout nouveau champ ajouté ici DOIT aussi être ajouté dans :
+   *   → src/services/PlaceMapper.ts (chemin SQLite legacy)
+   *   → src/types/model.ts (interface PlaceRow)
+   * Sans quoi le badge ou la donnée sera invisible sur le chemin SQLite.
+   *
+   * Champs synchronisés à ce jour :
+   *   - reservation_policy → practical_info.primary_status ✅
+   *   - has_terrace → practical_info.terrace ✅
+   *   - metro_lines → location.metro_lines ✅
    */
   private mapSupabaseRowToPlace(row: any): Place {
     return {
@@ -184,7 +195,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       name: row.name,
       slug: row.slug,
       description: row.description || '',
-      expert_catchline: '', // Deleted in V4
+      expert_catchline: '',
       insider_tip: row.insider_tip || '',
       category: row.category,
       subcategories: row.subcategories || [],
@@ -208,7 +219,9 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         menu_items: []
       } as any,
       practical_info: {
-        primary_status: row.reservation_policy || 'sans_resa',
+        // ⚡ NE PAS utiliser de fallback ici : si la politique n'est pas renseignée,
+        // on retourne null pour ne pas afficher de badge sur les anciens lieux non audités.
+        primary_status: (row.reservation_policy || null) as Place['practical_info']['primary_status'],
         opening_hours: row.opening_hours_raw || 'Voir sur place',
         terrace: row.has_terrace || false,
         main_action: null

@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 import { createClient } from '@supabase/supabase-js';
-import { calculateMoodAndTerrace } from './mood_engine';
 
 // Chargement des variables d'environnement
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
@@ -132,15 +131,6 @@ async function main() {
             process.exit(1);
         }
 
-        // 🛡️ GARDE-FOU #3 — Détection des noms qui sont en réalité des adresses
-        // Google retourne parfois un nom comme "93 Rue Saint-Maur" qui n'est pas un nom de restaurant.
-        // Pattern : commence par un chiffre suivi d'un mot de voirie (Rue, Boulevard, Avenue...)
-        const ADDRESS_PATTERN = /^\d+\s+(rue|boulevard|avenue|place|impasse|allée|passage|square|villa)/i;
-        if (ADDRESS_PATTERN.test(candidateName.trim())) {
-            console.error(`🛑 REJET NOM : "${candidateName}" ressemble à une adresse, pas un nom de restaurant.`);
-            process.exit(1);
-        }
-
         // Nettoyage du nom : on retire uniquement les suffixes parasites après " - " ou " | "
         // On NE split plus sur le tiret simple pour ne pas tronquer les noms composés
         let cleanName = candidateName
@@ -167,24 +157,37 @@ async function main() {
         }
 
         const photoRefs = details.photos?.slice(0, 5).map((p: any) => p.photo_reference) || [];
+        console.log(`📸 [REPAIR AUDIT] Photo References: ${JSON.stringify(photoRefs)}`);
         const hoursText = details.opening_hours?.weekday_text?.join(' ') || '';
         const latePatterns = [/12:00\s*AM/i, /1:00\s*AM/i, /2:00\s*AM/i, /00:00/, /01:00/];
         const closes_late = latePatterns.some(p => p.test(hoursText));
 
-        const bypassMood = process.argv.includes('--bypass-mood');
-
-        // 🧠 MOOD ENGINE — Calcul IA basé sur les avis et les photos (ou bypass)
-        let moodResult: any = { dominant_mood: 'chill', confidence: 100, has_terrace: false, justification: 'Bypass IA manuel.' };
+        // 🧠 MOOD ENGINE — L'Agent (Antigravity) est désormais l'unique cerveau visuel.
+        let moodResult: any = { 
+            dominant_mood: 'chill', 
+            confidence: 0, 
+            has_terrace: null, 
+            justification: 'Audit visuel Agent requis.', 
+            photo_order: [0, 1, 2, 3, 4] 
+        };
         
-        if (!bypassMood) {
-            moodResult = await calculateMoodAndTerrace(details, GOOGLE_KEY, GEMINI_KEY);
-            console.log(`🧠 [MOOD ENGINE] ${moodResult.dominant_mood.toUpperCase()} (Confiance: ${moodResult.confidence}%) — Terrasse visuelle: ${moodResult.has_terrace}`);
-            console.log(`💬 Justification: ${moodResult.justification}`);
-        } else {
-            console.log(`⏭️ [BYPASS IA] Mood réglé sur CHILL par défaut.`);
-        }
+        console.log(`⏭️ [AGENT AUDIT] Mood réglé sur PENDING. L'Agent effectuera l'audit visuel.`);
 
         const hasTerrace = (details as any).outdoor_seating === true || moodResult.has_terrace === true;
+
+        // 📸 RÉORGANISATION ET DÉDOUBLONNAGE TECHNIQUE
+        // On utilise un Set pour garantir que chaque photo_reference est unique
+        const seenRefs = new Set();
+        const deduplicatedRefs = moodResult.photo_order
+            .map((idx: number) => photoRefs[idx])
+            .filter((ref: string | undefined) => {
+                if (!ref || seenRefs.has(ref)) return false;
+                seenRefs.add(ref);
+                return true;
+            });
+        
+        const hero_image = deduplicatedRefs[0] || photoRefs[0] || null;
+        const google_photos = deduplicatedRefs.slice(1, 5); // On garde 4 photos max pour la galerie (+1 hero)
 
         const newPlace = {
             slug, name: safeName, category: 'restaurant', subcategories: [], dominant_mood: moodResult.dominant_mood,
@@ -192,10 +195,14 @@ async function main() {
             google_id: placeId, google_rating: details.rating, google_reviews_count: details.user_ratings_total,
             opening_hours_raw: details.opening_hours?.weekday_text?.join(' | ') || null,
             opening_hours_json: details.opening_hours || null,
-            closes_late, has_terrace: hasTerrace, hero_image: photoRefs[0] || null, google_photos: photoRefs.slice(1), 
-            internal_audit_logs: [`[MOOD ENGINE v2] ${moodResult.dominant_mood} (conf: ${moodResult.confidence}%) - Justification: ${moodResult.justification} | Google Terrace: ${(details as any).outdoor_seating}`],
+            closes_late, has_terrace: hasTerrace, hero_image, google_photos, 
+            internal_audit_logs: [
+                `[MOOD ENGINE v2] ${moodResult.dominant_mood} (conf: ${moodResult.confidence}%) - Justification: ${moodResult.justification} | Google Terrace: ${(details as any).outdoor_seating}`,
+                ...(moodResult.confidence === 0 ? ['[MOOD_PENDING] Erreur API Gemini lors du scaffolding — Audit visuel manuel requis.'] : [])
+            ],
             mood_engine_version: 'v2',
             status: 'SCAFFOLDED',
+            tags: ['new_lot', 'pastille_rouge'],
         };
 
         if (!forceAuditOnly) {

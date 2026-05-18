@@ -263,7 +263,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
         id="new-lot-indicator"
         minZoomLevel={12}
         sourceID="placesSource"
-        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_new_lot'], true]]}
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_new_lot'], true], ['!=', ['get', 'is_pastille_rouge'], true]]}
         style={
           {
             textField: '●',
@@ -295,6 +295,28 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textSize: 14,
             textAnchor: 'center',
             textOffset: [-1.2, 0.4],
+            textAllowOverlap: true,
+            textIgnorePlacement: true,
+            textHaloColor: '#000000',
+            textHaloWidth: 2,
+            textHaloBlur: 0,
+          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
+        }
+      />
+      {/* E. PASTILLE ROUGE INDICATOR (Small Red Dot on the Left) */}
+      <Mapbox.SymbolLayer
+        id="pastille-rouge-indicator"
+        minZoomLevel={12}
+        sourceID="placesSource"
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_pastille_rouge'], true]]}
+        style={
+          {
+            textField: '●',
+            textColor: '#EF4444',
+            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            textSize: 14,
+            textAnchor: 'center',
+            textOffset: [-1.2, -0.6], // Offset slightly higher to avoid total overlap with blue/green
             textAllowOverlap: true,
             textIgnorePlacement: true,
             textHaloColor: '#000000',
