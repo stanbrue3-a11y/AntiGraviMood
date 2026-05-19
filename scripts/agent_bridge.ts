@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs';
 import { createClient } from '@supabase/supabase-js';
 import metroData from './data/paris_metro_stations.json';
 
@@ -152,15 +153,12 @@ async function main() {
                 console.error("🛑 ERREUR FATALE (PROCESS) : Vous devez obligatoirement fournir un tableau 'raw_facts' contenant vos extractions brutes AVANT de rédiger la description.");
                 process.exit(1);
             }
-            delete payload.raw_facts; // On ne le pousse pas en base
 
             // 🛑 VALIDATION : Champs Sensoriels Obligatoires
             if (!payload.sensory_material || !payload.sensory_noise) {
                 console.error("🛑 ERREUR FATALE (SENSORY) : Vous devez fournir 'sensory_material' (ex: 'bois patiné') et 'sensory_noise' (ex: 'brouhaha de brasserie') dans le payload.");
                 process.exit(1);
             }
-            delete payload.sensory_material;
-            delete payload.sensory_noise;
 
             if (payload.description.length < 200) {
                 console.error('❌ ERREUR QUALITÉ : La description est trop courte (min 200 car.). Soyez plus immersif.');
@@ -207,13 +205,14 @@ async function main() {
                 process.exit(1);
             }
 
-            // 🛡️ DÉTECTEUR CORPORATE / RP (ANTI-BULLSHIT)
+            // 🛡️ DÉTECTEUR CORPORATE / RP / BIOGRAPHIE (ANTI-BULLSHIT)
             const CORPORATE_PATTERNS = [
-                /groupe \w+/i, /signé par/i, /appartenant au/i, /nouvelle adresse de/i, /petit frère de/i, /en face de/i, /face à/i
+                /groupe \w+/i, /signé par/i, /appartenant au/i, /nouvelle adresse de/i, /petit frère de/i, /en face de/i, /face à/i,
+                /le chef \w+/i, /la cheffe \w+/i, /fondé par/i, /créé par/i, /ouvert par/i, /imaginé par/i, /pensé par/i, /l'histoire de/i
             ];
             const foundCorporate = CORPORATE_PATTERNS.find(p => p.test(combinedText));
             if (foundCorporate) {
-                console.error(`🛑 ERREUR ÉDITORIALE (CORPORATE/RP) : Le texte contient du name-dropping ou des références externes ("${foundCorporate.source}"). Chaque fiche doit exister par elle-même, sans citer la holding, d'autres restos ou la concurrence.`);
+                console.error(`🛑 ERREUR ÉDITORIALE (CORPORATE/RP/BIO) : Le texte contient du name-dropping, des biographies ou des références externes ("${foundCorporate.source}"). Racontez l'expérience du lieu, pas la vie des fondateurs, et ne citez pas la concurrence.`);
                 process.exit(1);
             }
 
@@ -246,6 +245,13 @@ async function main() {
                 console.error(`🛑 ERREUR ANTI-HALLUCINATION : Le texte contient une affirmation technique (pattern : "${riskyMatch.source}").`);
                 console.error(`   ➡️  AJOUTEZ "dogme_source_ref" (URL/ID) ET "dogme_exact_quote" (phrase copiée-collée) pour PROUVER le sourcing.`);
                 process.exit(1);
+            }
+            if (payload.dogme_source_ref) {
+                const validRefs = ['GOOGLE_REVIEWS', 'SITE_OFFICIEL', 'MENU_PHOTO'];
+                if (!validRefs.includes(payload.dogme_source_ref) && !payload.dogme_source_ref.startsWith('http://') && !payload.dogme_source_ref.startsWith('https://')) {
+                    console.error("🛑 ERREUR ANTI-HALLUCINATION : La source fournie doit être soit une URL valide (http/https), soit l'une des valeurs autorisées (GOOGLE_REVIEWS, SITE_OFFICIEL, MENU_PHOTO).");
+                    process.exit(1);
+                }
             }
 
             // 🛡️ VÉRIFICATION CRYPTOGRAPHIQUE DE LA CITATION GOOGLE REVIEWS
@@ -305,6 +311,7 @@ async function main() {
             if (!hasAuditLog && !alreadyHasAudit) {
                 console.error(`🛑 ERREUR QUALITÉ (F.I.P.P) : La pastille_bleue exige un audit visuel systématique.`);
                 console.error(`   ➡️  Ajoutez "[AUDIT F.I.P.P OK] Ordre validé : [X, Y, Z]" dans vos internal_audit_logs.`);
+                console.error(`   👉 RAPPEL ORDRE : 1. Façade -> 2. Intérieur -> 3. Plats (Ne jamais mettre un plat en 2ème si un intérieur est dispo).`);
                 process.exit(1);
             }
         }
@@ -331,14 +338,6 @@ async function main() {
                 console.error("🛑 ERREUR FATALE (TITAN) : Le tableau 'subcategories' est obligatoire (ex: ['brunch', 'coffee_shop']).");
                 process.exit(1);
             }
-            
-            const forbiddenSubcats = ['cantine', 'restaurant', 'bar', 'lieu', 'endroit', 'bouffe'];
-            const badSubcat = payload.subcategories.find(s => forbiddenSubcats.includes(s.toLowerCase()));
-            if (badSubcat) {
-                console.error(`🛑 ERREUR FATALE (SÉMANTIQUE) : La sous-catégorie "${badSubcat}" est trop générique. Utilisez des termes culinaires précis comme 'cuisine_chinoise', 'bistrot_auteur', etc.`);
-                process.exit(1);
-            }
-
             if (payload.nearest_metro === undefined || !Array.isArray(payload.metro_lines)) {
                 console.error("🛑 ERREUR FATALE (TITAN) : L'audit du métro (nearest_metro et metro_lines en tableau) est OBLIGATOIRE lors de l'enrichissement éditorial !");
                 process.exit(1);
@@ -346,6 +345,27 @@ async function main() {
             if (payload.has_terrace === undefined) {
                 console.error("🛑 ERREUR FATALE (TITAN) : L'audit visuel de la terrasse (has_terrace en boolean) est OBLIGATOIRE ! Ne vous fiez pas aveuglément à Google.");
                 process.exit(1);
+            }
+        }
+
+        // 🛑 VALIDATION : Ontologie Stricte (subcategories.json) toujours exécutée si subcategories est fourni
+        if (payload.subcategories) {
+            const subcatRefPath = path.join(__dirname, 'data/subcategories.json');
+            if (fs.existsSync(subcatRefPath)) {
+                const subcatData = JSON.parse(fs.readFileSync(subcatRefPath, 'utf8'));
+                const allowedSubcats = [
+                    ...subcatData.format,
+                    ...subcatData.cuisine,
+                    ...subcatData.specialite
+                ];
+                const invalidSubcat = payload.subcategories.find((s: string) => !allowedSubcats.includes(s));
+                if (invalidSubcat) {
+                    console.error(`🛑 ERREUR FATALE (ONTOLOGIE) : La sous-catégorie "${invalidSubcat}" n'existe pas dans le référentiel strict.`);
+                    console.error(`   👉 Consultez scripts/data/subcategories.json pour choisir parmi les tags autorisés (format, cuisine, specialite).`);
+                    process.exit(1);
+                }
+            } else {
+                console.error("⚠️ Fichier data/subcategories.json introuvable. Validation de l'ontologie ignorée.");
             }
         }
 
@@ -415,6 +435,9 @@ async function main() {
         delete payload.dogme_source;
         delete payload.dogme_source_ref;
         delete payload.dogme_exact_quote;
+        delete payload.raw_facts;
+        delete payload.sensory_material;
+        delete payload.sensory_noise;
 
         const { data, error } = await supabase.from('places').update(payload).eq('slug', slug).select();
         
@@ -436,6 +459,11 @@ async function main() {
             process.exit(1);
         }
 
+        if (!payload.Url_Photos_Menu || !Array.isArray(payload.Url_Photos_Menu) || payload.Url_Photos_Menu.length === 0) {
+            console.error("🛑 ERREUR FATALE (ANTI-HALLUCINATION) : Passage en Phase 2 refusé. Vous DEVEZ fournir la preuve visuelle dans 'Url_Photos_Menu'. Pas de photo = pas de publication.");
+            process.exit(1);
+        }
+
         const { data: currentPlace } = await supabase.from('places').select('description, insider_tip').eq('slug', slug).single();
         if (!currentPlace?.description || !currentPlace?.insider_tip) {
             console.error("❌ ERREUR : Impossible de publier (PUBLISHED). La Phase 2 (Description + Insider Tip) doit être complétée d'abord.");
@@ -445,6 +473,7 @@ async function main() {
         const { data, error } = await supabase.from('places').update({
             on_mange_quoi_ici: payload.on_mange_quoi_ici,
             plat_median_cents: payload.plat_median_cents || null,
+            Url_Photos_Menu: payload.Url_Photos_Menu,
             status: 'PUBLISHED'
         }).eq('slug', slug).select();
         
