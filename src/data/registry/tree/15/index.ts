@@ -8,6 +8,7 @@ import { l_os_a_moelle } from './auto/l-os-a-moelle';
 import { la_retraite_du_pere_claude } from './auto/la-retraite-du-pere-claude';
 import { la_veraison } from './auto/la-veraison';
 import { le_belisaire } from './auto/le-belisaire';
+import { bistrot_15 } from './auto/bistrot-15';
 import { le_beurre_noisette } from './auto/le-beurre-noisette';
 import { le_bistrot_d_andre } from './auto/le-bistrot-d-andre';
 import { le_cafe_du_commerce } from './auto/le-cafe-du-commerce';
@@ -37,6 +38,7 @@ export const arrondissement_15Places = [
     la_retraite_du_pere_claude,
     la_veraison,
     le_belisaire,
+    bistrot_15,
     le_beurre_noisette,
     le_bistrot_d_andre,
     le_cafe_du_commerce,

@@ -12,6 +12,7 @@ import { augustin } from './denfert-rochereau/augustin';
 import { baladna } from './denfert-rochereau/baladna';
 import { bistrot_a_cote } from './denfert-rochereau/bistrot-a-cote';
 import { cafe_rendez_vous } from './denfert-rochereau/cafe-rendez-vous';
+import { cantinella } from './denfert-rochereau/cantinella';
 import { grappoli } from './denfert-rochereau/grappoli';
 import { creperie_de_pont_aven } from './edgar-quinet/creperie-de-pont-aven';
 import { bistrot_campagnes } from './gaite/bistrot-campagnes';
@@ -29,6 +30,7 @@ import { le_duc } from './montparnasse/le-duc';
 import { mr_chow } from './montparnasse/mr-chow';
 import { petit_sommelier } from './montparnasse/petit-sommelier';
 import { a_mi_chemin } from './pernety/a-mi-chemin';
+import { bistrot_jools } from './pernety/bistrot-jools';
 import { cantine_du_troquet } from './pernety/cantine-du-troquet';
 import { cerisaie } from './pernety/cerisaie';
 import { entrepot } from './pernety/entrepot';
@@ -68,6 +70,7 @@ export const arrondissement_14Places = [
     baladna,
     bistrot_a_cote,
     cafe_rendez_vous,
+    cantinella,
     grappoli,
     creperie_de_pont_aven,
     bistrot_campagnes,
@@ -85,6 +88,7 @@ export const arrondissement_14Places = [
     mr_chow,
     petit_sommelier,
     a_mi_chemin,
+    bistrot_jools,
     cantine_du_troquet,
     cerisaie,
     entrepot,

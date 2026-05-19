@@ -124,6 +124,26 @@ async function main() {
             process.exit(1);
         }
 
+        // 🛡️ VALIDATION : Ontologie des sous-catégories
+        if (payload.subcategories) {
+            const subcatsPath = path.join(__dirname, 'data/subcategories.json');
+            if (fs.existsSync(subcatsPath)) {
+                const subcatsRef = JSON.parse(fs.readFileSync(subcatsPath, 'utf-8'));
+                const allValidSubcats = new Set([
+                    ...(subcatsRef.format || []),
+                    ...(subcatsRef.cuisine || []),
+                    ...(subcatsRef.specialite || [])
+                ]);
+                for (const subcat of payload.subcategories) {
+                    if (!allValidSubcats.has(subcat)) {
+                        console.error(`🛑 ERREUR FATALE (ONTOLOGIE) : La sous-catégorie "${subcat}" n'existe pas dans le référentiel strict.`);
+                        console.error(`   👉 Consultez scripts/data/subcategories.json pour choisir parmi les tags autorisés (format, cuisine, specialite).`);
+                        process.exit(1);
+                    }
+                }
+            }
+        }
+
         // 🛑 VALIDATION : Fracture Structurelle de l'insider_tip
         if (payload.insider_tips) {
             if (!Array.isArray(payload.insider_tips) || payload.insider_tips.length !== 3) {
@@ -208,7 +228,8 @@ async function main() {
             // 🛡️ DÉTECTEUR CORPORATE / RP / BIOGRAPHIE (ANTI-BULLSHIT)
             const CORPORATE_PATTERNS = [
                 /groupe \w+/i, /signé par/i, /appartenant au/i, /nouvelle adresse de/i, /petit frère de/i, /en face de/i, /face à/i,
-                /le chef \w+/i, /la cheffe \w+/i, /fondé par/i, /créé par/i, /ouvert par/i, /imaginé par/i, /pensé par/i, /l'histoire de/i
+                /(le|la) chef(fe)?\s+[A-Z][a-z]+/i, /(la|sa) cuisine du chef/i, /cuisine du chef/i, /fondateur/i, /propriétaire/i,
+                /fondé par/i, /créé par/i, /ouvert par/i, /imaginé par/i, /pensé par/i, /l'histoire de/i
             ];
             const foundCorporate = CORPORATE_PATTERNS.find(p => p.test(combinedText));
             if (foundCorporate) {
@@ -218,7 +239,7 @@ async function main() {
 
             // 🛡️ DÉTECTEUR DE CONTRADICTION DE MOOD
             if (payload.dominant_mood === 'chill' || (!payload.dominant_mood && (await supabase.from('places').select('dominant_mood').eq('slug', slug).single()).data?.dominant_mood === 'chill')) {
-                const noisePatterns = [/bruyant/i, /agité/i, /foule/i, /complet/i, /serré/i, /animé/i, /vivant/i];
+                const noisePatterns = [/bruyant/i, /agité/i, /foule/i, /complet/i, /serré/i, /animé/i, /anime/i, /s'anime/i, /vivant/i];
                 const foundNoise = noisePatterns.find(p => p.test(combinedText));
                 if (foundNoise) {
                     console.error(`🛑 CONTRADICTION DÉTECTÉE : Vous décrivez un lieu "${foundNoise.source}" mais le mood est "chill". Un lieu chill DOIT être calme et posé.`);

@@ -5,13 +5,13 @@ export const petit_sommelier: SurgicalPlace = {
     name: "Le Petit Sommelier",
     slug: "le-petit-sommelier-paris-14",
     category: "restaurant",
-    subcategory: ['français', 'terrasse'],
+    subcategory: ['cave_a_manger', 'francaise'],
     location: {
         address: "49 Avenue du Maine, 75014 Paris, France",
         arrondissement: 14,
         lat: 48.8398125,
         lng: 2.3218524,
-        nearest_metro: "Montparnasse-Bienvenüe",
+        nearest_metro: "Montparnasse - Bienvenüe",
         metro_lines: ["4", "6", "12", "13"],
         google_id: "ChIJK-0NQMtx5kcRT2guyXzQChc"
     },
@@ -90,22 +90,22 @@ export const petit_sommelier: SurgicalPlace = {
   },
     verified: true,
     google_rating: 4.5,
-    description: "Le Petit Sommelier est bien plus qu’une brasserie, c’est l’un des meilleurs repaires bachiques de la capitale. Sous la houlette de Pierre Vila Palleja, sommelier de haut vol, cette institution de l’avenue du Maine concilie avec brio une cuisine bourgeoise impeccablement exécutée et une carte des vins vertigineuse (plus de 1300 références). Le décor, entre bistro traditionnel et cabinet de dégustation élégant, convie à la flânerie gourmande. Que ce soit pour un Boeuf Bourguignon de légende ou une dégustation de pépites de vignerons, l’accueil y est toujours empreint d'une passion contagieuse.",
-    insider_tip: "Faites aveuglément confiance au sommelier pour les accords mets-vins, la carte recèle des trésors introuvables ailleurs. Le Vol-au-Vent au vin jaune est son chef-d’oeuvre absolu.",
+    description: "Des boiseries patinées et des tables rondes habillent cette adresse de l'avenue du Maine, réputée pour sa cave aux nombreuses références. Dans une ambiance calme et propice à la dégustation, le cliquetis discret des verres accompagne des plats de la cuisine bourgeoise soignée.",
+    insider_tip: "Faites confiance aux suggestions du sommelier pour des accords précis avec vos plats. Le pâté en croûte fait maison est une entrée particulièrement travaillée.",
     expert_catchline: "Haute sommellerie et gastronomie bourgeoise face à la Tour Montparnasse.",
     specials: {
-        cuisine: ["Bistronomie"],
+        cuisine: ["cave_a_manger", "francaise"],
         drinks: ["Carte des Vins Exceptionnelle", "Spiritueux Fins"],
         must_eat: "Cuisine de bistrot. Le Pâté en Croûte maison et le Boeuf Bourguignon.",
-        must_drink: "Une pépite dénichée par Pierre dans la cave monumentale."
+        must_drink: "Une bouteille dénichée par le sommelier dans la cave monumentale."
     },
 
   real_talk: {
-    text: "Une adresse de caractère, authentique et d'une grande sincérité.",
+    text: "Une table de quartier sérieuse et sincère.",
     must_eat: "Cuisine de bistrot. Le Pâté en Croûte maison et le Boeuf Bourguignon.",
     le_secret: "L'ambiance unique du quartier.",
-    le_son: "Brouhaha joyeux et convivial.",
-    le_must: "L'accueil chaleureux."
+    le_son: "Brouhaha joyeux.",
+    le_must: "L'accueil attentif."
   }
 
 };
