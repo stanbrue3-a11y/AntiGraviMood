@@ -9,6 +9,7 @@ export const les_editeurs: SurgicalPlace = {
   location: {
     address: "4 Carrefour de l'Odéon, 75006 Paris",
     arrondissement: 6,
+    lat: 48.8519407,
     lng: 2.338965,
     nearest_metro: "Odéon",
     metro_lines: [4, 10],

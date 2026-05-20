@@ -9,7 +9,8 @@ export const pasta_e_fagioli: SurgicalPlace = {
   location: {
     address: "82 Rue Claude Bernard, 75005 Paris",
     arrondissement: 5,
-    lng: 2.3448764,
+    lat: 48.840865,
+        lng: 2.3448764,
     nearest_metro: "Censier-Daubenton",
     metro_lines: [7],
     google_id: "ChIJO6aGH-px5kcRswGP6rvY6jA"

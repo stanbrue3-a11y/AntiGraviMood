@@ -256,9 +256,9 @@ export class PlaceMapper {
       },
 
       mood_scores: {
-        chill: { overall: moodScores.chill?.overall || 50, criteria: undefined },
-        festif: { overall: moodScores.festif?.overall || 50, criteria: undefined },
-        culturel: { overall: moodScores.culturel?.overall || 50, criteria: undefined },
+        chill: { overall: typeof moodScores.chill === 'number' ? moodScores.chill : 50, criteria: undefined },
+        festif: { overall: typeof moodScores.festif === 'number' ? moodScores.festif : 50, criteria: undefined },
+        culturel: { overall: typeof moodScores.culturel === 'number' ? moodScores.culturel : 50, criteria: undefined },
       },
 
       vibes: vibes,

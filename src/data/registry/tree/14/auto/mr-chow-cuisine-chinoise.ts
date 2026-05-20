@@ -9,6 +9,7 @@ export const mr_chow_cuisine_chinoise: SurgicalPlace = {
   location: {
     address: "24 Rue Daguerre, 75014 Paris",
     arrondissement: 14,
+    lat: 48.8418261,
     lng: 2.333258,
     nearest_metro: "Denfert-Rochereau",
     metro_lines: [4, 6],

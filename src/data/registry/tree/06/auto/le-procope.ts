@@ -9,6 +9,7 @@ export const le_procope: SurgicalPlace = {
   location: {
     address: "13 Rue de l'Ancienne Comédie, 75006 Paris",
     arrondissement: 6,
+    lat: 48.8529913,
     lng: 2.338876,
     nearest_metro: "Odéon",
     metro_lines: [4, 10],

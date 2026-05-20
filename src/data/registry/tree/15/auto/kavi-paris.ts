@@ -9,7 +9,8 @@ export const kavi_paris: SurgicalPlace = {
   location: {
     address: "40 bis Av. de Suffren, 75015 Paris, France",
     arrondissement: 15,
-    lng: 2.2955154,
+    lat: 48.8543848,
+        lng: 2.2955154,
     nearest_metro: "Plat signature selon arrivage.",
     metro_lines: [],
     google_id: "ChIJ3TSbWkZx5kcRBd3mKWgDNww"},

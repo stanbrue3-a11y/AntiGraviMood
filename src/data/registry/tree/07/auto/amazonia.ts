@@ -9,7 +9,8 @@ export const amazonia: SurgicalPlace = {
   location: {
     address: "33 Av. de Suffren, 75007 Paris, France",
     arrondissement: 7,
-    lng: 2.2950844,
+    lat: 48.8550477,
+        lng: 2.2950844,
     nearest_metro: "La Motte-Picquet - Grenelle",
     metro_lines: [6, 8, 10],
     google_id: "ChIJB2bFCgBx5kcRusgGK1ULtTs"

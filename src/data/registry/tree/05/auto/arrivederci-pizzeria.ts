@@ -9,7 +9,8 @@ export const arrivederci_pizzeria: SurgicalPlace = {
   location: {
     address: "47 Rue Gay-Lussac, 75005 Paris, France",
     arrondissement: 5,
-    lng: 2.343495,
+    lat: 48.841716,
+        lng: 2.343495,
     nearest_metro: "Luxembourg",
     metro_lines: [],
     google_id: "ChIJYzW1_Olx5kcRnpyk_aDvbXU"},

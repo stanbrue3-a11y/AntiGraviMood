@@ -73,7 +73,7 @@ export const maison_de_l_aubrac: SurgicalPlace = {
                 "display_label": "Côté Cave & Dessert",
                 "items": [
                     { "name": "Verre de vin (Sélection)", "price_cents": 900 },
-                    { "name": "Aligot Maison", "price": "Accompagnement" },
+                    { "name": "Aligot Maison" },
                     { "name": "Fondant au chocolat cœur coulant", "price_cents": 1400 },
                     { "name": "Brioche façon pain perdu", "price_cents": 1200 }
                 ]

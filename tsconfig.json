@@ -4,5 +4,12 @@
     "strict": true
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
-  "exclude": ["android/**", "ios/**", "node_modules/**"]
+  "exclude": [
+    "android/**",
+    "ios/**",
+    "node_modules/**",
+    "scripts/**",
+    "src/data/registry/**",
+    "scratch/**"
+  ]
 }

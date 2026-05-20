@@ -9,7 +9,8 @@ export const goku_restaurant_asiatique_burgers_paris_republique_marais: Surgical
   location: {
     address: "27 Bd du Temple, 75003 Paris, France",
     arrondissement: 3,
-    lng: 2.3653516,
+    lat: 48.865024,
+        lng: 2.3653516,
     nearest_metro: "Plat signature selon arrivage.",
     metro_lines: [],
     google_id: "ChIJtQDmzgdu5kcRfAHFnNYR7So"},

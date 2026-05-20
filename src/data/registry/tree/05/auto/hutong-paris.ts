@@ -9,7 +9,8 @@ export const hutong_paris: SurgicalPlace = {
   location: {
     address: "147 Boulevard Saint-Michel, 75005 Paris, France",
     arrondissement: 5,
-    lng: 2.3376612,
+    lat: 48.8409454,
+        lng: 2.3376612,
     nearest_metro: "Port-Royal",
     metro_lines: [],
     google_id: "ChIJIePag-tx5kcREVcnf5vU_IY"},

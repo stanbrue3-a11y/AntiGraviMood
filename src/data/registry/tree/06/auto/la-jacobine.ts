@@ -9,6 +9,7 @@ export const la_jacobine: SurgicalPlace = {
   location: {
     address: "59-61 Rue Saint-André des Arts, 75006 Paris",
     arrondissement: 6,
+    lat: 48.8533819,
     lng: 2.338965,
     nearest_metro: "Odéon",
     metro_lines: [4, 10],

@@ -126,7 +126,7 @@ export const dersou: SurgicalPlace = {
   },
     verified: true,
     google_rating: 4.5,
-    michelin_stars: null,
+    michelin_stars: undefined,
 
   real_talk: {
     text: "Une adresse de caractère, authentique et d'une grande sincérité.",

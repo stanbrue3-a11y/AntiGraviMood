@@ -79,6 +79,7 @@ export const MOCK_PLACE_ROW: PlaceRow = {
   google_photos_json: JSON.stringify([]),
   michelin_stars: null,
   has_terrace: 1,
+  reservation_policy: null,
 };
 
 export const MOCK_PLACE: Place = {

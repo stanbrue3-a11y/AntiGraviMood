@@ -60,6 +60,7 @@ export interface PlaceDetailViewModel {
   sections: SectionType[];
   primaryColor: string;
   isDark: boolean;
+  tags?: string[];
 
   hero: {
     title: string;
@@ -138,6 +139,7 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     sections,
     primaryColor,
     isDark,
+    tags: place.practical_info?.tags || [],
     hero: { 
       title: place.name, 
       images: getPlaceImages(place),
@@ -168,7 +170,7 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
         leSon: isBarContext ? place.real_talk?.must_drink || place.real_talk?.must_eat : place.real_talk?.must_eat || place.real_talk?.must_drink,
         cuisineLabel: (place.specials?.cuisine && place.specials.cuisine.length > 0) 
           ? place.specials.cuisine.join(' • ') 
-          : place.practical_info?.cuisine_type || (place.subcategory?.[0] !== place.category ? place.subcategory?.[0] : undefined),
+          : place.practical_info?.cuisine_type || (place.subcategories?.[0] !== place.category ? place.subcategories?.[0] : undefined),
       }
       : null,
     description: place.description || null,

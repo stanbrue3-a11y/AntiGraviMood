@@ -9,6 +9,7 @@ export const aux_folies: SurgicalPlace = {
   location: {
     address: "8 Rue de Belleville, 75020 Paris",
     arrondissement: 20,
+    lat: 48.8722442,
     lng: 2.378965,
     nearest_metro: "Belleville",
     metro_lines: [2, 11],

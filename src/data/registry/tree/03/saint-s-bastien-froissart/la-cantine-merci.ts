@@ -9,6 +9,7 @@ export const la_cantine_merci: SurgicalPlace = {
     location: {
         address: "111 Bd Beaumarchais, 75003 Paris",
         arrondissement: 3,
+        lat: 48.8607214,
         lng: 2.3668319,
         nearest_metro: "Saint-Sébastien-Froissart",
         metro_lines: [8],

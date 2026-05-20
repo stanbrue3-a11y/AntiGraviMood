@@ -9,6 +9,7 @@ export const le_baratin: SurgicalPlace = {
   location: {
     address: "3 Rue Jouye-Rouve, 75020 Paris",
     arrondissement: 20,
+    lat: 48.8730712,
     lng: 2.381258,
     nearest_metro: "Pyrénées",
     metro_lines: [11],

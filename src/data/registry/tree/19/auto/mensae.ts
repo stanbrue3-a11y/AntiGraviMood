@@ -9,6 +9,7 @@ export const mensae: SurgicalPlace = {
   location: {
     address: "23 Rue de la Mare, 75019 Paris",
     arrondissement: 19,
+    lat: 48.8757226,
     lng: 2.388965,
     nearest_metro: "Pyrénées",
     metro_lines: [11],
