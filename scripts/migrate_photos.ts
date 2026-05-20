@@ -1,6 +1,7 @@
 import path from 'path';
 import axios from 'axios';
 import { createClient } from '@supabase/supabase-js';
+import sharp from 'sharp';
 
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
@@ -25,7 +26,22 @@ async function uploadToSupabase(ref: string, storagePath: string): Promise<strin
   try {
     const googleUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=${ref}&key=${GOOGLE_KEY}`;
     const response = await axios.get(googleUrl, { responseType: 'arraybuffer' });
-    const buffer = Buffer.from(response.data);
+    let buffer = Buffer.from(response.data);
+
+    // Optimize image on-the-fly using sharp
+    try {
+      const image = sharp(buffer);
+      const metadata = await image.metadata();
+      let pipeline = image;
+      if (metadata.width && metadata.width > 1000) {
+        pipeline = pipeline.resize({ width: 1000, withoutEnlargement: true });
+      }
+      buffer = await pipeline
+        .jpeg({ quality: 75, progressive: true })
+        .toBuffer();
+    } catch (compressErr: any) {
+      console.warn(`      ⚠️ Warning: Failed to compress ${storagePath}, uploading raw image:`, compressErr.message);
+    }
 
     const { error } = await supabase.storage
       .from(BUCKET_NAME)
