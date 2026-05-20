@@ -53,7 +53,16 @@ export const PlacePricingSchema = z
     menu_items: z
       .array(
         z.object({
-          category_type: z.enum(['starter', 'main', 'dessert', 'sharing', 'drink', 'tasting_menu', 'other']),
+          category_type: z.enum([
+            'starter',       // Entrées
+            'main',          // Plats principaux
+            'sharing',       // À partager / Tapas
+            'side',          // Accompagnements
+            'dessert',       // Desserts
+            'soft_drink',    // Boissons sans alcool
+            'alcohol_drink', // Boissons alcoolisées
+            'formula'        // Formules & Menus
+          ]),
           display_label: z.string(),
           items: z.array(
             z.object({

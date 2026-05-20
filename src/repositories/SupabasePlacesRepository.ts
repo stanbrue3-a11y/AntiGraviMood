@@ -83,26 +83,23 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       query = query.in('dominant_mood', filters.selectedMoods);
     }
     
-    // Price Filters
+    // Price Filters (Titan-V4: converted to centimes)
     if (filters.pintLimit !== null && filters.pintLimit !== undefined) {
-      query = query.lte('pint_price', filters.pintLimit);
+      query = query.lte('pint_price_cents', filters.pintLimit * 100);
     }
     if (filters.dishLimit !== null && filters.dishLimit !== undefined) {
-      query = query.lte('main_dish_price', filters.dishLimit);
+      query = query.lte('plat_median_cents', filters.dishLimit * 100);
     }
     if (filters.coffeeLimit !== null && filters.coffeeLimit !== undefined) {
-      query = query.lte('coffee_price', filters.coffeeLimit);
+      query = query.lte('coffee_price_cents', filters.coffeeLimit * 100);
     }
     if (filters.maxPrice !== null && filters.maxPrice !== undefined) {
-      query = query.lte('index_price', filters.maxPrice);
+      query = query.lte('plat_median_cents', filters.maxPrice * 100);
     }
 
     // Practical Info Filters
     if (filters.filterTerrace) {
       query = query.eq('has_terrace', true);
-    }
-    if (filters.filterHappyHour) {
-      query = query.not('hh_pint_price', 'is', null);
     }
 
     if (filters.searchQuery) {
@@ -115,6 +112,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   }
 
   async getPlaceDetails(id: string, signal?: AbortSignal): Promise<Place | null> {
+    // Fetch place row
     const { data, error } = await supabase
       .from('places')
       .select('*')
@@ -125,7 +123,44 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         if (error.code === 'PGRST116') return null; // Not found
         throw error;
     }
-    return this.mapSupabaseRowToPlace(data);
+
+    // Fetch relational menu (Titan-V4) — categories + items
+    const { data: categoriesData } = await supabase
+      .from('menu_categories')
+      .select('id, category_type, display_label, sort_order')
+      .eq('place_id', id)
+      .order('sort_order', { ascending: true });
+
+    let menuItems: any[] = [];
+
+    if (categoriesData && categoriesData.length > 0) {
+      const categoryIds = categoriesData.map((c: any) => c.id);
+
+      const { data: itemsData } = await supabase
+        .from('menu_items')
+        .select('id, category_id, name, description, price_cents, happy_hour_price_cents, is_highlight')
+        .in('category_id', categoryIds);
+
+      menuItems = categoriesData.map((cat: any) => ({
+        category: cat.display_label || cat.category_type,
+        category_type: cat.category_type,
+        display_label: cat.display_label,
+        items: (itemsData || [])
+          .filter((item: any) => item.category_id === cat.id)
+          .map((item: any) => ({
+            name: item.name,
+            description: item.description || undefined,
+            price: item.price_cents
+              ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€`
+              : undefined,
+            price_cents: item.price_cents,
+            happy_hour_price_cents: item.happy_hour_price_cents || undefined,
+            is_highlight: item.is_highlight || false,
+          })),
+      }));
+    }
+
+    return this.mapSupabaseRowToPlace(data, menuItems);
   }
 
   async getFilteredPlaceIds(
@@ -144,26 +179,23 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       query = query.in('dominant_mood', filters.selectedMoods);
     }
 
-    // Price Filters
+    // Price Filters (Titan-V4: converted to centimes)
     if (filters.pintLimit !== null && filters.pintLimit !== undefined) {
-      query = query.lte('pint_price', filters.pintLimit);
+      query = query.lte('pint_price_cents', filters.pintLimit * 100);
     }
     if (filters.dishLimit !== null && filters.dishLimit !== undefined) {
-      query = query.lte('main_dish_price', filters.dishLimit);
+      query = query.lte('plat_median_cents', filters.dishLimit * 100);
     }
     if (filters.coffeeLimit !== null && filters.coffeeLimit !== undefined) {
-      query = query.lte('coffee_price', filters.coffeeLimit);
+      query = query.lte('coffee_price_cents', filters.coffeeLimit * 100);
     }
     if (filters.maxPrice !== null && filters.maxPrice !== undefined) {
-      query = query.lte('index_price', filters.maxPrice);
+      query = query.lte('plat_median_cents', filters.maxPrice * 100);
     }
 
     // Practical Info Filters
     if (filters.filterTerrace) {
       query = query.eq('has_terrace', true);
-    }
-    if (filters.filterHappyHour) {
-      query = query.not('hh_pint_price', 'is', null);
     }
 
     if (filters.searchQuery) {
@@ -189,7 +221,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
    *   - has_terrace → practical_info.terrace ✅
    *   - metro_lines → location.metro_lines ✅
    */
-  private mapSupabaseRowToPlace(row: any): Place {
+  private mapSupabaseRowToPlace(row: any, menuItems: any[] = []): Place {
     return {
       id: row.id,
       name: row.name,
@@ -212,11 +244,13 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         unit: '€',
         is_free: false,
         index_price: row.plat_median_cents ? row.plat_median_cents / 100 : 0,
-        pint_price: undefined,
-        cocktail_price: undefined,
-        coffee_price: undefined,
+        pint_price: row.pint_price_cents ? row.pint_price_cents / 100 : undefined,
+        cocktail_price: row.cocktail_price_cents ? row.cocktail_price_cents / 100 : undefined,
+        coffee_price: row.coffee_price_cents ? row.coffee_price_cents / 100 : undefined,
+        wine_glass: row.wine_glass_cents ? row.wine_glass_cents / 100 : undefined,
         dish_price: row.plat_median_cents ? row.plat_median_cents / 100 : undefined,
-        menu_items: []
+        verified_at: row.menu_verified_at ? new Date(row.menu_verified_at).toISOString().split('T')[0] : undefined,
+        menu_items: menuItems
       } as any,
       practical_info: {
         // ⚡ NE PAS utiliser de fallback ici : si la politique n'est pas renseignée,

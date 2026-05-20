@@ -47,6 +47,7 @@ export interface PlaceTable {
   ai_insights_json: string | null;
   real_talk_json: string | null;
   description: string | null;
+  insider_tip: string | null;
   michelin_stars: number | null;
   has_terrace: number | null;
 }

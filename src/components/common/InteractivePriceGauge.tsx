@@ -8,6 +8,7 @@ import {
   Dimensions,
   Platform,
   ScrollView,
+  LayoutAnimation,
 } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { Ionicons } from '@expo/vector-icons';
@@ -27,6 +28,22 @@ const { width, height } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.92;
 
 import type { Place, Pricing, PricingView } from '../../types/model';
+
+// ── Menu Tab Grouping ──────────────────────────────────────────────────────
+const CATEGORY_TAB_LABELS: Record<string, string> = {
+  formula: 'Formules',
+  sharing: 'À Partager',
+  starter: 'Entrées',
+  main: 'Plats',
+  side: 'Accompagnements',
+  dessert: 'Desserts',
+  alcohol_drink: 'Boissons',
+  soft_drink: 'Boissons',
+};
+const MENU_TAB_ORDER = ['formula', 'sharing', 'starter', 'main', 'side', 'dessert', 'boissons'];
+const toTabKey = (ct: string) =>
+  ct === 'soft_drink' || ct === 'alcohol_drink' ? 'boissons' : ct;
+
 
 export interface InteractivePriceGaugeProps {
   pricingView?: PricingView;
@@ -114,6 +131,8 @@ export const InteractivePriceGauge = ({
   const { isDark } = useTheme();
   const [modalVisible, setModalVisible] = useState(false);
   const [showFullMenu, setShowFullMenu] = useState(false);
+  const [openTabs, setOpenTabs] = useState<string[]>([]);
+
 
   // 2026 Hook-Based Logic ⚡️
   const {
@@ -140,6 +159,38 @@ export const InteractivePriceGauge = ({
 
   const { label, price, highlight, badge } = view.card_display;
   const menu = view.menu || [];
+
+  // Compute tabs from menu categories
+  const menuTabs = (() => {
+    const seen = new Set<string>();
+    const tabs: { key: string; label: string }[] = [];
+    menu.forEach((cat: any) => {
+      const k = toTabKey(cat.category_type || '');
+      if (k && !seen.has(k)) {
+        seen.add(k);
+        tabs.push({
+          key: k,
+          label:
+            k === 'boissons'
+              ? 'Boissons'
+              : CATEGORY_TAB_LABELS[cat.category_type] || cat.display_label || cat.category || 'Autre',
+        });
+      }
+    });
+    return tabs.sort((a, b) => {
+      const iA = MENU_TAB_ORDER.indexOf(a.key);
+      const iB = MENU_TAB_ORDER.indexOf(b.key);
+      return (iA === -1 ? 99 : iA) - (iB === -1 ? 99 : iB);
+    });
+  })();
+
+  const toggleTab = (key: string) => {
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    setOpenTabs((prev) =>
+      prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]
+    );
+  };
+
   const pinceLabel = pricingView?.pince_label || defaultLevelLabel;
 
   // Animations
@@ -161,8 +212,10 @@ export const InteractivePriceGauge = ({
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     logger.trackEvent('price_gauge_opened', { level: view.level, label });
     setShowFullMenu(false);
+    setOpenTabs([]);
     setModalVisible(true);
   };
+
 
   const handleClose = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
@@ -219,39 +272,74 @@ export const InteractivePriceGauge = ({
                       <Text style={[styles.headerTitle, { color: activeColor }]}>MENU COMPLET</Text>
                     </View>
 
-                    <View style={styles.categoriesSection}>
-                      {menu.map(
-                        (
-                          cat: { category: string; items: { name: string; price: string }[] },
-                          idx: number,
-                        ) => (
-                          <View key={idx} style={styles.categoryBlock}>
-                            <View style={styles.categoryHeader}>
-                              <Ionicons name="restaurant-outline" size={16} color={activeColor} />
-                              <Text style={styles.categoryTitle}>{cat.category}</Text>
+                    {/* ACCORDION */}
+                    {menuTabs.map((tab) => {
+                      const isOpen = openTabs.includes(tab.key);
+                      const groups = menu.filter(
+                        (cat: any) => toTabKey(cat.category_type || '') === tab.key
+                      );
+                      const totalItems = groups.reduce(
+                        (acc: number, cat: any) => acc + (cat.items?.length || 0),
+                        0
+                      );
+                      return (
+                        <View key={tab.key} style={styles.accordionSection}>
+                          <Pressable
+                            onPress={() => toggleTab(tab.key)}
+                            style={[
+                              styles.accordionHeader,
+                              isOpen && { borderBottomWidth: 1, borderBottomColor: 'rgba(255,255,255,0.08)' },
+                            ]}
+                          >
+                            <View style={{ flex: 1 }}>
+                              <Text style={[styles.accordionLabel, { color: isOpen ? activeColor : '#FFF' }]}>
+                                {tab.label}
+                              </Text>
+                              {!isOpen && (
+                                <Text style={styles.accordionCount}>{totalItems} éléments</Text>
+                              )}
                             </View>
-                            {cat.items?.map((item: { name: string; price: string }, i: number) => (
-                              <View key={i} style={styles.itemRow}>
-                                <Text style={styles.itemName} numberOfLines={1}>
-                                  {item.name}
-                                </Text>
-                                <View style={styles.dotLine}>
-                                  <View style={styles.dotLineInner} />
+                            <Ionicons
+                              name={isOpen ? 'chevron-up' : 'chevron-down'}
+                              size={16}
+                              color={isOpen ? activeColor : 'rgba(255,255,255,0.35)'}
+                            />
+                          </Pressable>
+
+                          {isOpen && (
+                            <View style={styles.accordionContent}>
+                              {groups.map((cat: any, idx: number) => (
+                                <View key={idx} style={styles.categoryBlock}>
+                                  {cat.display_label && (
+                                    <Text style={[styles.categorySubLabel, { color: activeColor }]}>
+                                      {cat.display_label}
+                                    </Text>
+                                  )}
+                                  {(cat.items || []).map((item: any, i: number) => (
+                                    <View key={i} style={styles.itemRow}>
+                                      <View style={{ flex: 1, marginRight: 8 }}>
+                                        <Text style={styles.itemName} numberOfLines={2}>
+                                          {item.name}
+                                        </Text>
+                                        {item.is_highlight && (
+                                          <Text style={[styles.highlightTag, { color: activeColor }]}>
+                                            ★ Recommandé
+                                          </Text>
+                                        )}
+                                      </View>
+                                      <View style={styles.dotLine}>
+                                        <View style={styles.dotLineInner} />
+                                      </View>
+                                      <Text style={styles.itemPrice}>{item.price}</Text>
+                                    </View>
+                                  ))}
                                 </View>
-                                <Text style={styles.itemPrice}>{item.price}</Text>
-                              </View>
-                            ))}
-                          </View>
-                        ),
-                      )}
-                      {menu.length === 0 && (
-                        <Text
-                          style={{ color: '#9CA3AF', fontStyle: 'italic', textAlign: 'center' }}
-                        >
-                          Aucun menu disponible.
-                        </Text>
-                      )}
-                    </View>
+                              ))}
+                            </View>
+                          )}
+                        </View>
+                      );
+                    })}
                   </>
                 ) : (
                   <>
@@ -682,6 +770,51 @@ const styles = StyleSheet.create({
     padding: 8,
     backgroundColor: 'rgba(255,255,255,0.1)',
     borderRadius: 20,
+  },
+
+  // ── Accordion ─────────────────────────────────────────────────────────────
+  accordionSection: {
+    borderRadius: 12,
+    marginBottom: 8,
+    backgroundColor: 'rgba(255,255,255,0.04)',
+    overflow: 'hidden',
+  },
+  accordionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+  },
+  accordionLabel: {
+    fontSize: 14,
+    fontWeight: '700',
+    letterSpacing: 0.4,
+  },
+  accordionCount: {
+    fontSize: 11,
+    color: 'rgba(255,255,255,0.35)',
+    marginTop: 2,
+    fontWeight: '400',
+  },
+  accordionContent: {
+    paddingHorizontal: 16,
+    paddingBottom: 12,
+    paddingTop: 4,
+  },
+  categorySubLabel: {
+    fontSize: 10,
+    fontWeight: '700',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    opacity: 0.65,
+    marginBottom: 10,
+    marginTop: 6,
+  },
+  highlightTag: {
+    fontSize: 10,
+    fontWeight: '700',
+    marginTop: 3,
+    letterSpacing: 0.3,
   },
 });
 

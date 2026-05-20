@@ -73,7 +73,7 @@ export const PricingSchema = z.object({
     .array(
       z.object({
         category: z.string().optional(), // Legacy compat
-        category_type: z.string().optional(), // V2: starter|main|dessert|drink|sharing|tasting_menu|other
+        category_type: z.string().optional(), // V4: starter|main|sharing|side|dessert|soft_drink|alcohol_drink|formula
         display_label: z.string().optional(), // V2: Free-form display name
         items: z.array(
           z.object({

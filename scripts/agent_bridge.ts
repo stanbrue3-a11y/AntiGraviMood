@@ -471,7 +471,7 @@ async function main() {
         console.log(JSON.stringify(data[0], null, 2));
     }
     else if (action === '--menu') {
-        // Nouvelle action dédiée EXCLUSIVEMENT à la Phase 2 (quand la photo du menu est fournie)
+        // [Titan-V4 Relational Menus Ingestion]
         const payloadStr = args.slice(2).join(' ');
         const payload = JSON.parse(payloadStr);
         
@@ -485,21 +485,184 @@ async function main() {
             process.exit(1);
         }
 
-        const { data: currentPlace } = await supabase.from('places').select('description, insider_tip').eq('slug', slug).single();
-        if (!currentPlace?.description || !currentPlace?.insider_tip) {
-            console.error("❌ ERREUR : Impossible de publier (PUBLISHED). La Phase 2 (Description + Insider Tip) doit être complétée d'abord.");
+        // Fetch place details
+        const { data: currentPlace, error: fetchErr } = await supabase.from('places').select('id, description, insider_tip').eq('slug', slug).single();
+        if (fetchErr || !currentPlace) {
+            console.error(`❌ ERREUR : Lieu avec le slug "${slug}" introuvable.`);
+            process.exit(1);
+        }
+        if (!currentPlace.description || !currentPlace.insider_tip) {
+            console.error("❌ ERREUR : Impossible de publier (PUBLISHED). La Phase 1 (Description + Insider Tip) doit être complétée d'abord.");
             process.exit(1);
         }
 
-        const { data, error } = await supabase.from('places').update({
-            on_mange_quoi_ici: payload.on_mange_quoi_ici,
-            plat_median_cents: payload.plat_median_cents || null,
-            Url_Photos_Menu: payload.Url_Photos_Menu,
-            status: 'PUBLISHED'
-        }).eq('slug', slug).select();
+        const placeId = currentPlace.id;
+        const payloadCategories = payload.menu_items || [];
+
+        // Fetch existing categories and items on Supabase for inflation logging
+        const { data: dbCategories } = await supabase.from('menu_categories').select('*').eq('place_id', placeId);
+        const { data: dbItems } = await supabase.from('menu_items').select('*').eq('place_id', placeId);
+
+        const categoryIdsToKeep = new Set<string>();
+        const itemIdsToKeep = new Set<string>();
+
+        console.log(`⛓️  [TITAN V4] Ingestion relationnelle en cours pour ${slug}...`);
         
-        if (error) throw error;
-        console.log(`✅ [PHASE 2] Menu validé et lieu PUBLIÉ pour ${slug} !`);
+        let sortOrder = 1;
+        for (const payCat of payloadCategories) {
+            const catType = payCat.category_type;
+            const displayLabel = payCat.display_label;
+
+            let dbCat = dbCategories?.find(c => c.category_type === catType && c.display_label === displayLabel);
+            let categoryId: string;
+
+            if (dbCat) {
+                categoryId = dbCat.id;
+                categoryIdsToKeep.add(categoryId);
+                // Sync sort order
+                await supabase.from('menu_categories').update({ sort_order: sortOrder }).eq('id', categoryId);
+            } else {
+                const { data: newCat, error: catErr } = await supabase.from('menu_categories').insert({
+                    place_id: placeId,
+                    category_type: catType,
+                    display_label: displayLabel,
+                    sort_order: sortOrder
+                }).select().single();
+                if (catErr) throw catErr;
+                categoryId = newCat.id;
+                categoryIdsToKeep.add(categoryId);
+            }
+            sortOrder++;
+
+            for (const payItem of payCat.items || []) {
+                const itemName = payItem.name;
+                const newPrice = payItem.price_cents || null;
+                const newHhPrice = payItem.happy_hour_price_cents || null;
+                const description = payItem.description || null;
+                const isHighlight = payItem.is_highlight || false;
+
+                let dbItem = dbItems?.find(i => i.name.toLowerCase().trim() === itemName.toLowerCase().trim());
+                let itemId: string;
+
+                if (dbItem) {
+                    itemId = dbItem.id;
+                    itemIdsToKeep.add(itemId);
+
+                    const oldPrice = dbItem.price_cents;
+
+                    // Inflation Ledger Logging
+                    if (oldPrice !== newPrice) {
+                        await supabase.from('menu_price_history').insert({
+                            menu_item_id: itemId,
+                            place_id: placeId,
+                            item_name: itemName,
+                            old_price_cents: oldPrice,
+                            new_price_cents: newPrice
+                        });
+                        console.log(`📈 [INFLATION] Prix modifié pour "${itemName}" chez ${slug} : ${oldPrice ? oldPrice/100 : 'null'}€ -> ${newPrice ? newPrice/100 : 'null'}€`);
+                    }
+
+                    // Update item details
+                    const { error: itemUpdateErr } = await supabase.from('menu_items').update({
+                        category_id: categoryId,
+                        price_cents: newPrice,
+                        happy_hour_price_cents: newHhPrice,
+                        description: description,
+                        is_highlight: isHighlight
+                    }).eq('id', itemId);
+                    if (itemUpdateErr) throw itemUpdateErr;
+                } else {
+                    // Create new item
+                    const { data: newItem, error: itemErr } = await supabase.from('menu_items').insert({
+                        category_id: categoryId,
+                        place_id: placeId,
+                        name: itemName,
+                        description: description,
+                        price_cents: newPrice,
+                        happy_hour_price_cents: newHhPrice,
+                        is_highlight: isHighlight
+                    }).select().single();
+                    if (itemErr) throw itemErr;
+                    
+                    itemId = newItem.id;
+                    itemIdsToKeep.add(itemId);
+
+                    // Initial price entry in ledger
+                    await supabase.from('menu_price_history').insert({
+                        menu_item_id: itemId,
+                        place_id: placeId,
+                        item_name: itemName,
+                        old_price_cents: null,
+                        new_price_cents: newPrice
+                    });
+                }
+            }
+        }
+
+        // Clean orphaned items & categories
+        if (dbItems) {
+            for (const dbItem of dbItems) {
+                if (!itemIdsToKeep.has(dbItem.id)) {
+                    const { error: delItemErr } = await supabase.from('menu_items').delete().eq('id', dbItem.id);
+                    if (delItemErr) throw delItemErr;
+                    console.log(`🧹 Plat orphelin supprimé : ${dbItem.name}`);
+                }
+            }
+        }
+        if (dbCategories) {
+            for (const dbCat of dbCategories) {
+                if (!categoryIdsToKeep.has(dbCat.id)) {
+                    const { error: delCatErr } = await supabase.from('menu_categories').delete().eq('id', dbCat.id);
+                    if (delCatErr) throw delCatErr;
+                    console.log(`🧹 Catégorie orpheline supprimée : ${dbCat.display_label}`);
+                }
+            }
+        }
+
+        // Compute plat_median_cents from main dishes
+        const mainDishesPrices = payloadCategories
+            .filter((c: any) => c.category_type === 'main')
+            .flatMap((c: any) => c.items || [])
+            .map((i: any) => i.price_cents)
+            .filter((p: any) => typeof p === 'number' && p > 0)
+            .sort((a: number, b: number) => a - b);
+
+        let calculatedMedianCents: number | null = null;
+        if (mainDishesPrices.length > 0) {
+            const mid = Math.floor(mainDishesPrices.length / 2);
+            if (mainDishesPrices.length % 2 !== 0) {
+                calculatedMedianCents = mainDishesPrices[mid];
+            } else {
+                calculatedMedianCents = Math.round((mainDishesPrices[mid - 1] + mainDishesPrices[mid]) / 2);
+            }
+        }
+
+        // Build Cache Values
+        const finalMedianCents = calculatedMedianCents || 
+                                 (payload.plat_median_cents) || 
+                                 (payload.dish_price ? Math.round(payload.dish_price * 100) : null);
+
+        const pintPriceCents = payload.pint_price ? Math.round(payload.pint_price * 100) : null;
+        const cocktailPriceCents = payload.cocktail_price ? Math.round(payload.cocktail_price * 100) : null;
+        const coffeePriceCents = payload.coffee_price ? Math.round(payload.coffee_price * 100) : null;
+        const wineGlassCents = payload.wine_glass ? Math.round(payload.wine_glass * 100) : null;
+
+        // Update Places Table (Caches & Status)
+        const { error: updatePlaceErr } = await supabase.from('places').update({
+            on_mange_quoi_ici: payload.on_mange_quoi_ici,
+            plat_median_cents: finalMedianCents,
+            pint_price_cents: pintPriceCents,
+            cocktail_price_cents: cocktailPriceCents,
+            coffee_price_cents: coffeePriceCents,
+            wine_glass_cents: wineGlassCents,
+            Url_Photos_Menu: payload.Url_Photos_Menu,
+            menu_verified_at: new Date().toISOString(),
+            status: 'PUBLISHED'
+        }).eq('slug', slug);
+        
+        if (updatePlaceErr) throw updatePlaceErr;
+        
+        console.log(`✅ [PHASE 2] Menu ingéré de manière relationnelle, caches mis à jour, et fiche PUBLIÉE pour ${slug} !`);
     }
     else if (action === '--delete') {
         const { error } = await supabase.from('places').delete().eq('slug', slug);
