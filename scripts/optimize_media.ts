@@ -7,7 +7,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const BUCKET_NAME = 'place-media';
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function optimizeImage(buffer: Buffer): Promise<Buffer> {
@@ -21,17 +21,15 @@ async function optimizeImage(buffer: Buffer): Promise<Buffer> {
   }
 
   // Convert to progressive jpeg with 75% quality
-  return await pipeline
-    .jpeg({ quality: 75, progressive: true })
-    .toBuffer();
+  return await pipeline.jpeg({ quality: 75, progressive: true }).toBuffer();
 }
 
-async function processFile(filePath: string): Promise<{ before: number; after: number; optimized: boolean }> {
+async function processFile(
+  filePath: string,
+): Promise<{ before: number; after: number; optimized: boolean }> {
   try {
     // 1. Download file from Supabase
-    const { data, error } = await supabase.storage
-      .from(BUCKET_NAME)
-      .download(filePath);
+    const { data, error } = await supabase.storage.from(BUCKET_NAME).download(filePath);
 
     if (error) throw error;
     if (!data) throw new Error('Empty file received');
@@ -49,7 +47,7 @@ async function processFile(filePath: string): Promise<{ before: number; after: n
         .from(BUCKET_NAME)
         .upload(filePath, optimizedBuffer, {
           contentType: 'image/jpeg',
-          upsert: true
+          upsert: true,
         });
 
       if (uploadError) throw uploadError;
@@ -63,7 +61,9 @@ async function processFile(filePath: string): Promise<{ before: number; after: n
   }
 }
 
-async function optimizeFolder(folderPath: string): Promise<{ filesCount: number; savedBytes: number }> {
+async function optimizeFolder(
+  folderPath: string,
+): Promise<{ filesCount: number; savedBytes: number }> {
   let savedBytes = 0;
   let filesCount = 0;
 
@@ -78,20 +78,24 @@ async function optimizeFolder(folderPath: string): Promise<{ filesCount: number;
 
     for (const file of files) {
       // Ignore directories/subfolders
-      if (file.id === null && file.metadata === null) continue; 
-      
+      if (file.id === null && file.metadata === null) continue;
+
       const filePath = `${folderPath}/${file.name}`;
       const ext = path.extname(file.name).toLowerCase();
       if (!['.jpg', '.jpeg', '.png', '.webp'].includes(ext)) continue;
 
-      process.stdout.write(`   📸 Optimizing ${file.name} (${(file.metadata.size / 1024).toFixed(0)} KB)... `);
+      process.stdout.write(
+        `   📸 Optimizing ${file.name} (${(file.metadata.size / 1024).toFixed(0)} KB)... `,
+      );
       const res = await processFile(filePath);
-      
+
       if (res.optimized) {
         const diff = res.before - res.after;
         savedBytes += diff;
         filesCount++;
-        console.log(`✅ Compressed! Saved ${(diff / 1024).toFixed(0)} KB (${((res.after / res.before) * 100).toFixed(0)}% of original)`);
+        console.log(
+          `✅ Compressed! Saved ${(diff / 1024).toFixed(0)} KB (${((res.after / res.before) * 100).toFixed(0)}% of original)`,
+        );
       } else {
         console.log('✨ Already optimized.');
       }
@@ -136,7 +140,7 @@ async function main() {
 
   for (const place of places) {
     console.log(`\n📂 Processing: ${place.name} (${place.slug})`);
-    
+
     // 1. Optimize place gallery & hero
     const galleryRes = await optimizeFolder(place.slug);
     totalFiles += galleryRes.filesCount;
@@ -148,7 +152,9 @@ async function main() {
     totalSaved += menuRes.savedBytes;
   }
 
-  console.log(`\n🏁 Done! Optimized ${totalFiles} files. Saved ${(totalSaved / (1024 * 1024)).toFixed(2)} MB total.`);
+  console.log(
+    `\n🏁 Done! Optimized ${totalFiles} files. Saved ${(totalSaved / (1024 * 1024)).toFixed(2)} MB total.`,
+  );
 }
 
 main().catch(console.error);

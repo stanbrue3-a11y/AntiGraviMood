@@ -1,4 +1,4 @@
- /**
+/**
  * 🏎️ PRICE ENGINE - INDUSTRIAL 2026 STANDARD
  * Single source of truth for all pricing logic in MoodMap.
  * Handles DrinkType resolution, Benchmark comparisons, and Happy Hour weighting.
@@ -10,219 +10,243 @@ import { OpeningHours } from '../timeUtils';
 export type DrinkType = 'pint' | 'wine' | 'cocktail' | 'coffee' | 'dish' | 'generic';
 
 export interface DrinkTypeInfo {
-    type: DrinkType;
-    label: string;
-    descriptionLabel: string;
-    benchmark: number;
-    icon: string;
+  type: DrinkType;
+  label: string;
+  descriptionLabel: string;
+  benchmark: number;
+  icon: string;
 }
 
 /** Paris Benchmarks 2026 */
 export const BENCHMARKS: Record<DrinkType, number> = {
-    pint: 7.0,
-    wine: 6.5,
-    cocktail: 12.0,
-    coffee: 2.5,
-    dish: 18.0,
-    generic: 15.0,
+  pint: 7.0,
+  wine: 6.5,
+  cocktail: 12.0,
+  coffee: 2.5,
+  dish: 18.0,
+  generic: 15.0,
 };
 
 const DRINK_TYPE_INFO: Record<DrinkType, DrinkTypeInfo> = {
-    pint: {
-        type: 'pint',
-        label: 'Pinte',
-        descriptionLabel: 'Pinte (50cl)',
-        benchmark: BENCHMARKS.pint,
-        icon: 'beer-outline',
-    },
-    wine: {
-        type: 'wine',
-        label: 'Verre',
-        descriptionLabel: 'Verre de vin',
-        benchmark: BENCHMARKS.wine,
-        icon: 'wine-outline',
-    },
-    cocktail: {
-        type: 'cocktail',
-        label: 'Cocktail',
-        descriptionLabel: 'Cocktail Signature',
-        benchmark: BENCHMARKS.cocktail,
-        icon: 'flask-outline',
-    },
-    coffee: {
-        type: 'coffee',
-        label: 'Café',
-        descriptionLabel: 'Café / Espresso',
-        benchmark: BENCHMARKS.coffee,
-        icon: 'cafe-outline',
-    },
-    dish: {
-        type: 'dish',
-        label: 'Plat',
-        descriptionLabel: 'Plat principal',
-        benchmark: BENCHMARKS.dish,
-        icon: 'restaurant-outline',
-    },
-    generic: {
-        type: 'generic',
-        label: 'Prix',
-        descriptionLabel: 'Prix moyen',
-        benchmark: BENCHMARKS.generic,
-        icon: 'pricetag-outline',
-    },
+  pint: {
+    type: 'pint',
+    label: 'Pinte',
+    descriptionLabel: 'Pinte (50cl)',
+    benchmark: BENCHMARKS.pint,
+    icon: 'beer-outline',
+  },
+  wine: {
+    type: 'wine',
+    label: 'Verre',
+    descriptionLabel: 'Verre de vin',
+    benchmark: BENCHMARKS.wine,
+    icon: 'wine-outline',
+  },
+  cocktail: {
+    type: 'cocktail',
+    label: 'Cocktail',
+    descriptionLabel: 'Cocktail Signature',
+    benchmark: BENCHMARKS.cocktail,
+    icon: 'flask-outline',
+  },
+  coffee: {
+    type: 'coffee',
+    label: 'Café',
+    descriptionLabel: 'Café / Espresso',
+    benchmark: BENCHMARKS.coffee,
+    icon: 'cafe-outline',
+  },
+  dish: {
+    type: 'dish',
+    label: 'Plat',
+    descriptionLabel: 'Plat médian',
+    benchmark: BENCHMARKS.dish,
+    icon: 'restaurant-outline',
+  },
+  generic: {
+    type: 'generic',
+    label: 'Prix',
+    descriptionLabel: 'Prix moyen',
+    benchmark: BENCHMARKS.generic,
+    icon: 'pricetag-outline',
+  },
 };
 
 export class PriceEngine {
-    /**
+  /**
    * canonize types for HH duration
    */
-    static getHHDuration(hhTime: string | null | undefined): number {
-        if (!hhTime) return 0;
-        const match = hhTime.match(/(\d{1,2}[:h]?\d{0,2})\s?[-–|à]\s?(\d{1,2}[:h]?\d{0,2})/);
-        if (match) {
-            try {
-                const oh = new OpeningHours(`${match[1]}-${match[2]}`);
-                return oh.end - oh.start;
-            } catch (e) {
-                return 0;
-            }
-        }
+  static getHHDuration(hhTime: string | null | undefined): number {
+    if (!hhTime) return 0;
+    const match = hhTime.match(/(\d{1,2}[:h]?\d{0,2})\s?[-–|à]\s?(\d{1,2}[:h]?\d{0,2})/);
+    if (match) {
+      try {
+        const oh = new OpeningHours(`${match[1]}-${match[2]}`);
+        return oh.end - oh.start;
+      } catch (e) {
         return 0;
+      }
+    }
+    return 0;
+  }
+
+  /**
+   * Resolves the primary drink type based on category, subcategories AND user filters.
+   * @param category Main category of the place
+   * @param subcategories Subcategories of the place
+   * @param activeCategories User-selected filters on the map/search
+   */
+  static resolveDrinkType(
+    category: PlaceCategory,
+    subcategories: string[],
+    activeCategories: string[] = [],
+  ): DrinkType {
+    const sub = subcategories.join(' ').toLowerCase();
+    const active = activeCategories.map((c) => c.toLowerCase());
+
+    // 1. Contextual Override (Standard Janus 2026)
+    // Explicit filters take absolute priority
+    if (active.some((c) => c.includes('vin'))) return 'wine';
+    if (active.some((c) => c.includes('cocktail'))) return 'cocktail';
+
+    // If user is explicitly filtering by "bar" or "boisson", pint is KING.
+    if (active.some((c) => c.includes('bar') || c.includes('boisson'))) {
+      return 'pint';
     }
 
-    /**
-     * Resolves the primary drink type based on category, subcategories AND user filters.
-     * @param category Main category of the place
-     * @param subcategories Subcategories of the place
-     * @param activeCategories User-selected filters on the map/search
-     */
-    static resolveDrinkType(category: PlaceCategory, subcategories: string[], activeCategories: string[] = []): DrinkType {
-        const sub = subcategories.join(' ').toLowerCase();
-        const active = activeCategories.map(c => c.toLowerCase());
-
-        // 1. Contextual Override (Standard Janus 2026)
-        // Explicit filters take absolute priority
-        if (active.some(c => c.includes('vin'))) return 'wine';
-        if (active.some(c => c.includes('cocktail'))) return 'cocktail';
-
-        // If user is explicitly filtering by "bar" or "boisson", pint is KING.
-        if (active.some(c => c.includes('bar') || c.includes('boisson'))) {
-            return 'pint';
-        }
-
-        // If user is explicitly filtering by "restaurant" or "food", we pivot to dishes even for bars
-        if (active.some(c => c.includes('restaurant') || c.includes('food') || c.includes('plat'))) {
-            return 'dish';
-        }
-
-        // 2. Mandatory Category Primacy (Standard 2026)
-        if (category === 'restaurant') {
-            return 'dish';
-        }
-
-        if (category === 'bar') return 'pint';
-        if (category as string === 'club') return 'cocktail';
-
-        // 3. Specialty Specificity (Subcategories)
-        // CRITICAL FIX: To respect the 2026 "Pint/HH" priority rule, 'bar à cocktails'
-        // should only override to cocktail IF it's not a general bar first, or if explicitly filtered.
-        // We defer 'cocktail' resolution to fallback if 'bar' is the primary category.
-        if (sub.includes('vin') || sub.includes('cave') || sub.includes('nature')) return 'wine';
-        if (category as string !== 'bar' && (sub.includes('cocktail') || sub.includes('speakeasy') || sub.includes('mixo'))) return 'cocktail';
-        if (sub.includes('café') || sub.includes('coffee') || sub.includes('salon-de-the')) return 'coffee';
-
-        // 4. Fallbacks
-        if (sub.includes('bouillon') || sub.includes('bistro') || sub.includes('brasserie')) return 'dish';
-
-        return category === 'café' ? 'coffee' : 'generic';
+    // If user is explicitly filtering by "restaurant" or "food", we pivot to dishes even for bars
+    if (active.some((c) => c.includes('restaurant') || c.includes('food') || c.includes('plat'))) {
+      return 'dish';
     }
 
-    /**
-     * Calcule le prix médian du plat (Standard Industriel V12.0)
-     * Single Source of Truth importée par TOUS les scripts de compilation.
-     */
-    static calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
-        if (!menuItems || menuItems.length === 0) return null;
+    // 2. Mandatory Category Primacy (Standard 2026)
+    if (category === 'restaurant') {
+      return 'dish';
+    }
 
-        let prices: number[] = [];
-        let foundMainDish = false;
+    if (category === 'bar') return 'pint';
+    if ((category as string) === 'club') return 'cocktail';
 
-        menuItems.forEach(cat => {
-            if (cat.category_type === 'main') {
-                (cat.items || []).forEach((item: any) => {
-                    const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-                    if (!isNaN(priceNum) && priceNum >= 7) { 
-                        prices.push(priceNum); 
-                        foundMainDish = true; 
-                    }
-                });
-            }
+    // 3. Specialty Specificity (Subcategories)
+    // CRITICAL FIX: To respect the 2026 "Pint/HH" priority rule, 'bar à cocktails'
+    // should only override to cocktail IF it's not a general bar first, or if explicitly filtered.
+    // We defer 'cocktail' resolution to fallback if 'bar' is the primary category.
+    if (sub.includes('vin') || sub.includes('cave') || sub.includes('nature')) return 'wine';
+    if (
+      (category as string) !== 'bar' &&
+      (sub.includes('cocktail') || sub.includes('speakeasy') || sub.includes('mixo'))
+    )
+      return 'cocktail';
+    if (sub.includes('café') || sub.includes('coffee') || sub.includes('salon-de-the'))
+      return 'coffee';
+
+    // 4. Fallbacks
+    if (sub.includes('bouillon') || sub.includes('bistro') || sub.includes('brasserie'))
+      return 'dish';
+
+    return category === 'café' ? 'coffee' : 'generic';
+  }
+
+  /**
+   * Calcule le prix médian du plat (Standard Industriel V12.0)
+   * Single Source of Truth importée par TOUS les scripts de compilation.
+   */
+  static calculateMedianDishPrice(menuItems: any[] | undefined): number | null {
+    if (!menuItems || menuItems.length === 0) return null;
+
+    let prices: number[] = [];
+    let foundMainDish = false;
+
+    menuItems.forEach((cat) => {
+      if (cat.category_type === 'main') {
+        (cat.items || []).forEach((item: any) => {
+          const priceNum = item.price_cents
+            ? item.price_cents / 100
+            : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
+          if (!isNaN(priceNum) && priceNum >= 7) {
+            prices.push(priceNum);
+            foundMainDish = true;
+          }
         });
+      }
+    });
 
-        if (!foundMainDish || prices.length < 3) {
-            menuItems.forEach(cat => {
-                if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
-                    (cat.items || []).forEach((item: any) => {
-                        const priceNum = item.price_cents ? item.price_cents / 100 : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
-                        if (!isNaN(priceNum) && priceNum >= 4) { prices.push(priceNum); }
-                    });
-                }
-            });
+    if (!foundMainDish || prices.length < 3) {
+      menuItems.forEach((cat) => {
+        if (cat.category_type === 'sharing' || cat.category_type === 'starter') {
+          (cat.items || []).forEach((item: any) => {
+            const priceNum = item.price_cents
+              ? item.price_cents / 100
+              : parseFloat((item.price || '').replace('€', '').replace(',', '.') || '0');
+            if (!isNaN(priceNum) && priceNum >= 4) {
+              prices.push(priceNum);
+            }
+          });
         }
-
-        if (prices.length === 0) return null;
-        prices.sort((a, b) => a - b);
-        const mid = Math.floor(prices.length / 2);
-        return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
+      });
     }
 
-    /**
+    if (prices.length === 0) return null;
+    prices.sort((a, b) => a - b);
+    const mid = Math.floor(prices.length / 2);
+    return prices.length % 2 !== 0 ? prices[mid] : (prices[mid - 1] + prices[mid]) / 2;
+  }
+
+  /**
    * Returns the canonical reference price for a given type.
    * Handles HH weighting (Long HH > 3h = HH price is the reference).
    */
-    static getReferencePrice(pricing: Partial<Pricing> | null | undefined, type: DrinkType): number | undefined {
-        if (!pricing) return undefined;
-        const isLongHH = this.getHHDuration(pricing.hh_time) >= 3;
+  static getReferencePrice(
+    pricing: Partial<Pricing> | null | undefined,
+    type: DrinkType,
+  ): number | undefined {
+    if (!pricing) return undefined;
+    const isLongHH = this.getHHDuration(pricing.hh_time) >= 3;
 
-        if (pricing.is_free) return 0;
+    if (pricing.is_free) return 0;
 
-        switch (type) {
-            case 'pint':
-                return (isLongHH && pricing.hh_pint) ? pricing.hh_pint : pricing.pint_price || undefined;
-            case 'wine':
-                return (isLongHH && pricing.hh_wine) ? pricing.hh_wine : pricing.wine_glass || undefined;
-            case 'cocktail':
-                return (isLongHH && pricing.hh_cocktail) ? pricing.hh_cocktail : pricing.cocktail_price || undefined;
-            case 'coffee':
-                return pricing.coffee_price || undefined;
-            case 'dish':
-                return pricing.dish_price || undefined;
-            case 'generic':
-                return pricing.index_price || undefined;
-            default:
-                return undefined;
-        }
+    switch (type) {
+      case 'pint':
+        return isLongHH && pricing.hh_pint ? pricing.hh_pint : pricing.pint_price || undefined;
+      case 'wine':
+        return isLongHH && pricing.hh_wine ? pricing.hh_wine : pricing.wine_glass || undefined;
+      case 'cocktail':
+        return isLongHH && pricing.hh_cocktail
+          ? pricing.hh_cocktail
+          : pricing.cocktail_price || undefined;
+      case 'coffee':
+        return pricing.coffee_price || undefined;
+      case 'dish':
+        return pricing.dish_price || undefined;
+      case 'generic':
+        return pricing.index_price || undefined;
+      default:
+        return undefined;
     }
+  }
 
-    /**
+  /**
    * Resolves the best available price point for a place.
    */
-    static resolveReferencePrice(pricing: Partial<Pricing> | null | undefined, primaryType: DrinkType): { price: number; type: DrinkType } {
-        if (!pricing) return { price: 0, type: 'generic' };
-        const primary = this.getReferencePrice(pricing, primaryType);
-        if (primary && primary > 0) return { price: primary, type: primaryType };
+  static resolveReferencePrice(
+    pricing: Partial<Pricing> | null | undefined,
+    primaryType: DrinkType,
+  ): { price: number; type: DrinkType } {
+    if (!pricing) return { price: 0, type: 'generic' };
+    const primary = this.getReferencePrice(pricing, primaryType);
+    if (primary && primary > 0) return { price: primary, type: primaryType };
 
-        // New Fallback Order: Dish and Pint first, Coffee last.
-        const fallbacks: DrinkType[] = ['dish', 'pint', 'cocktail', 'wine', 'coffee'];
-        for (const fb of fallbacks) {
-            const p = this.getReferencePrice(pricing, fb);
-            if (p && p > 0) return { price: p, type: fb };
-        }
-
-        return { price: 0, type: 'generic' };
+    // New Fallback Order: Dish and Pint first, Coffee last.
+    const fallbacks: DrinkType[] = ['dish', 'pint', 'cocktail', 'wine', 'coffee'];
+    for (const fb of fallbacks) {
+      const p = this.getReferencePrice(pricing, fb);
+      if (p && p > 0) return { price: p, type: fb };
     }
 
-    static getInfo(type: DrinkType): DrinkTypeInfo {
-        return DRINK_TYPE_INFO[type];
-    }
+    return { price: 0, type: 'generic' };
+  }
+
+  static getInfo(type: DrinkType): DrinkTypeInfo {
+    return DRINK_TYPE_INFO[type];
+  }
 }

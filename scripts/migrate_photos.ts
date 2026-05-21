@@ -19,7 +19,7 @@ const BUCKET_NAME = 'place-media';
 const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY!;
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function uploadToSupabase(ref: string, storagePath: string): Promise<string | null> {
@@ -36,23 +36,24 @@ async function uploadToSupabase(ref: string, storagePath: string): Promise<strin
       if (metadata.width && metadata.width > 1000) {
         pipeline = pipeline.resize({ width: 1000, withoutEnlargement: true });
       }
-      buffer = await pipeline
-        .jpeg({ quality: 75, progressive: true })
-        .toBuffer();
+      buffer = await pipeline.jpeg({ quality: 75, progressive: true }).toBuffer();
     } catch (compressErr: any) {
-      console.warn(`      ⚠️ Warning: Failed to compress ${storagePath}, uploading raw image:`, compressErr.message);
+      console.warn(
+        `      ⚠️ Warning: Failed to compress ${storagePath}, uploading raw image:`,
+        compressErr.message,
+      );
     }
 
-    const { error } = await supabase.storage
-      .from(BUCKET_NAME)
-      .upload(storagePath, buffer, {
-        contentType: 'image/jpeg',
-        upsert: true
-      });
+    const { error } = await supabase.storage.from(BUCKET_NAME).upload(storagePath, buffer, {
+      contentType: 'image/jpeg',
+      upsert: true,
+    });
 
     if (error) throw error;
 
-    const { data: { publicUrl } } = supabase.storage.from(BUCKET_NAME).getPublicUrl(storagePath);
+    const {
+      data: { publicUrl },
+    } = supabase.storage.from(BUCKET_NAME).getPublicUrl(storagePath);
     return publicUrl;
   } catch (e: any) {
     console.error(`   ❌ Échec upload ${storagePath}: ${e.message}`);
@@ -136,7 +137,7 @@ async function main() {
     const ok = await migratePlace(place);
     if (ok) migrated++;
     // Petite pause pour ne pas saturer l'API Google
-    await new Promise(r => setTimeout(r, 100));
+    await new Promise((r) => setTimeout(r, 100));
   }
 
   console.log(`\n🏁 Terminé : ${migrated} fiches migrées vers Supabase Storage.`);

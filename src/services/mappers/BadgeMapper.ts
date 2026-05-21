@@ -87,28 +87,25 @@ export class BadgeMapper {
         return new OpeningHours(timePart);
       });
       const maxEnd = Math.max(...ranges.map((r: any) => r.end));
-      if (maxEnd > 26) { // Strictly after 2:00 AM normalized
+      if (maxEnd > 26) {
+        // Strictly after 2:00 AM normalized
         addBadge('Ouvert Tard', 'moon-outline', '#c499ff');
       }
     }
 
     // 🏆 MICHELIN STARS 2026 (Priority)
     if (place.michelin_stars && place.michelin_stars > 0) {
-      addBadge(
-        `${place.michelin_stars}★ Michelin`,
-        'star',
-        moodColor
-      );
+      addBadge(`${place.michelin_stars}★ Michelin`, 'star', moodColor);
     }
 
     // 3. Relevant Subcategories to Badges
     const subMap: Record<string, { label: string; icon: string }> = {
       pepite: { label: 'Pépite', icon: 'star-outline' },
-      viande: { label: 'Viande d\'exception', icon: 'restaurant-outline' },
+      viande: { label: "Viande d'exception", icon: 'restaurant-outline' },
       étoilé: { label: '1★ Michelin', icon: 'star' },
       michelin: { label: '1★ Michelin', icon: 'star' },
     };
-    place.subcategories?.forEach(sub => {
+    place.subcategories?.forEach((sub) => {
       const key = sub.toLowerCase();
       if (subMap[key]) {
         addBadge(subMap[key].label, subMap[key].icon, moodColor);
@@ -122,7 +119,7 @@ export class BadgeMapper {
     if (hh) {
       addBadge(
         `HH: ${hh.display}`,
-        'time-outline', // Dégage la flamme 
+        'time-outline', // Dégage la flamme
         hh.active ? '#ffab60' : '#9CA3AF',
       );
     }

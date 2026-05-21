@@ -57,9 +57,9 @@ export class DataService {
 
         // 1. Repository Hydration (Force Supabase Native pour valider l'Architecture Titan V4)
         console.warn(`🏗️ [DataService] ENGINE MODE: CLOUD SUPABASE NATIVE (Titan V4)`);
-        
+
         const placesRepo = new SupabasePlacesRepository();
-        
+
         const momentsRepo = new SQLiteMomentsRepository(db);
 
         // 3. Atomic Assignment

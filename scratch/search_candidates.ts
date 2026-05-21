@@ -21,7 +21,7 @@ async function search(query: string) {
 }
 
 async function main() {
-  await search("Pizzeria I Briganti 72 Avenue Jean Moulin Paris");
+  await search('Pizzeria I Briganti 72 Avenue Jean Moulin Paris');
 }
 
 main().catch(console.error);

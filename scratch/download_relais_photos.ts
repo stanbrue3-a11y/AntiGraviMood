@@ -10,12 +10,15 @@ async function download() {
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${PLACE_ID}&fields=photos&key=${GOOGLE_KEY}`;
   const res = await axios.get(url);
   const photos = res.data.result.photos;
-  
+
   for (let i = 0; i < 3; i++) {
     const photoRef = photos[i].photo_reference;
     const photoUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=${photoRef}&key=${GOOGLE_KEY}`;
     const imgRes = await axios.get(photoUrl, { responseType: 'arraybuffer' });
-    fs.writeFileSync(path.join(__dirname, `../scratch/relais_photo_${i}.jpg`), Buffer.from(imgRes.data));
+    fs.writeFileSync(
+      path.join(__dirname, `../scratch/relais_photo_${i}.jpg`),
+      Buffer.from(imgRes.data),
+    );
     console.log(`Downloaded photo ${i}`);
   }
 }

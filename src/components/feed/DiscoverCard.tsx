@@ -54,7 +54,7 @@ export const DiscoverCard = React.memo(
 
     const [imageLoaded, setImageLoaded] = React.useState(false);
 
-    const activeCategories = useSearchStore(state => state.selectedCategories);
+    const activeCategories = useSearchStore((state) => state.selectedCategories);
     const mood = ContextualEngine.resolveMood(place, activeCategories);
     const contextualCategory = ContextualEngine.resolveContextualCategory(place, activeCategories);
     const accentColor = moodColors[mood].primary;
@@ -170,14 +170,17 @@ export const DiscoverCard = React.memo(
 
             {/* Michelin Badge Overlay */}
             {place.michelin_stars && place.michelin_stars > 0 && (
-              <View style={[styles.michelinBadge, { backgroundColor: accentColor, flexDirection: 'row', alignItems: 'center' }]}>
+              <View
+                style={[
+                  styles.michelinBadge,
+                  { backgroundColor: accentColor, flexDirection: 'row', alignItems: 'center' },
+                ]}
+              >
                 <Text style={[styles.michelinText, { marginRight: 2 }]}>
                   {place.michelin_stars}
                 </Text>
                 <Ionicons name="star" size={12} color="#fff" style={{ marginRight: 4 }} />
-                <Text style={styles.michelinText}>
-                  Michelin
-                </Text>
+                <Text style={styles.michelinText}>Michelin</Text>
               </View>
             )}
 
@@ -196,7 +199,9 @@ export const DiscoverCard = React.memo(
               </View>
               <View style={styles.metaRow}>
                 <Text style={styles.subtitle} numberOfLines={1}>
-                  {contextualCategory === place.category ? (place.subcategories?.[0] || place.category) : contextualCategory}
+                  {contextualCategory === place.category
+                    ? place.subcategories?.[0] || place.category
+                    : contextualCategory}
                 </Text>
                 <Text style={styles.dot}>•</Text>
                 <Text style={styles.subtitle}>{place.location.arrondissement}e</Text>

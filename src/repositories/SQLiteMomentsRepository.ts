@@ -22,7 +22,7 @@ interface MomentRow {
 }
 
 export class SQLiteMomentsRepository implements IMomentsRepository {
-  constructor(private db: SQLite.SQLiteDatabase) { }
+  constructor(private db: SQLite.SQLiteDatabase) {}
 
   async getMoments(placeId?: string): Promise<Moment[]> {
     let query = `

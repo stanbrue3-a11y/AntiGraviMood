@@ -2,15 +2,11 @@
   {
     "name": "Deux Restaurant",
     "path": "src/data/registry/tree/11/folie-mericourt/deux.ts",
-    "keywords": [
-      "pita"
-    ]
+    "keywords": ["pita"]
   },
   {
     "name": "Le Chateaubriand",
     "path": "src/data/registry/tree/11/goncourt/le-chateaubriand.ts",
-    "keywords": [
-      "pita"
-    ]
+    "keywords": ["pita"]
   }
 ]

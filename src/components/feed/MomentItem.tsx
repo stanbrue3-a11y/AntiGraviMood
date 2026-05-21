@@ -73,12 +73,7 @@ export const MomentItem = ({
         delayLongPress={300}
         onPress={handleSmartTap}
       >
-        <MoodImage
-          source={item.imageUri}
-          style={styles.image}
-          resolution="FULL"
-          priority="high"
-        />
+        <MoodImage source={item.imageUri} style={styles.image} resolution="FULL" priority="high" />
 
         {/* 2. THE SCRIM (Premium Gradient Overlay) */}
         <LinearGradient

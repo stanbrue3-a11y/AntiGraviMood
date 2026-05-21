@@ -7,7 +7,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY!;
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function checkDb(name: string) {
@@ -37,17 +37,17 @@ async function searchGoogle(query: string) {
 }
 
 async function main() {
-  await checkDb("Backstage Café");
-  await checkDb("Olive Chicken");
-  await checkDb("Le Plomb du Cantal");
-  await checkDb("Wadja");
+  await checkDb('Backstage Café');
+  await checkDb('Olive Chicken');
+  await checkDb('Le Plomb du Cantal');
+  await checkDb('Wadja');
   await checkDb("L'Opportun");
 
   console.log('\n--- Fetching Google Place IDs ---');
-  await searchGoogle("Backstage Café Rue de la Gaîté Paris");
+  await searchGoogle('Backstage Café Rue de la Gaîté Paris');
   await searchGoogle("Olive Chicken Rue de l'Arrivée Paris");
-  await searchGoogle("Le Plomb du Cantal Rue de la Gaîté Paris");
-  await searchGoogle("Wadja Rue de la Grande Chaumière Paris");
+  await searchGoogle('Le Plomb du Cantal Rue de la Gaîté Paris');
+  await searchGoogle('Wadja Rue de la Grande Chaumière Paris');
 }
 
 main().catch(console.error);

@@ -10,7 +10,7 @@ async function main() {
   const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(query)}&key=${GOOGLE_KEY}`;
   const res = await axios.get(url);
   const results = res.data.results || [];
-  
+
   console.log(`Found ${results.length} places near Montparnasse 14th:`);
   for (const r of results) {
     if (r.rating >= 4.4 && r.user_ratings_total > 50) {

@@ -7,7 +7,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY!;
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function checkDb(name: string) {
@@ -37,11 +37,7 @@ async function searchGoogle(query: string) {
 }
 
 async function main() {
-  const queries = [
-    "bistrot 75015 Paris",
-    "italien 75014 Paris",
-    "japonais 75014 Paris"
-  ];
+  const queries = ['bistrot 75015 Paris', 'italien 75014 Paris', 'japonais 75014 Paris'];
   for (const q of queries) {
     console.log(`\n🔍 Searching Google for: "${q}"`);
     const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(q)}&key=${GOOGLE_KEY}`;
@@ -49,7 +45,9 @@ async function main() {
     const results = res.data.results || [];
     for (const r of results.slice(0, 5)) {
       if (r.rating >= 4.3) {
-        console.log(`- Name: ${r.name} | Rating: ${r.rating} (${r.user_ratings_total} reviews) | Address: ${r.formatted_address} | PlaceID: ${r.place_id}`);
+        console.log(
+          `- Name: ${r.name} | Rating: ${r.rating} (${r.user_ratings_total} reviews) | Address: ${r.formatted_address} | PlaceID: ${r.place_id}`,
+        );
         const dbMatch = await checkDb(r.name);
         if (dbMatch.length === 0) {
           console.log(`   👉 NOT IN DB! Suitable candidate!`);

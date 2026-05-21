@@ -87,6 +87,8 @@ const PricingSection = React.memo(() => {
         pricingView={pricingView}
         activeColor={primaryColor}
         smartTip={pricingView.smart_tip}
+        placeName={viewModel.hero.title}
+        cuisine={viewModel.cuisine || undefined}
         triggerComponent={
           <View
             style={[
@@ -163,9 +165,9 @@ const ExpertTalkSection = React.memo(() => {
   // Split insiderTip into bullet points
   const bullets = insiderTip
     ? insiderTip
-      .split(/\n?\u2022\s*/)
-      .map((s) => s.trim())
-      .filter((s) => s.length > 0)
+        .split(/\n?\u2022\s*/)
+        .map((s) => s.trim())
+        .filter((s) => s.length > 0)
     : [];
 
   const sectionLabel = type === 'drink' ? 'ON BOIT QUOI ICI ?' : 'ON MANGE QUOI ICI ?';
@@ -228,8 +230,18 @@ const ExpertTalkSection = React.memo(() => {
                 </Text>
               ) : (
                 <View style={sectionStyles.pendingPhotoContainer}>
-                  <Ionicons name="camera-outline" size={16} color={primaryColor} style={{ opacity: 0.4 }} />
-                  <Text style={[sectionStyles.pendingPhotoText, { color: isDark ? theme.text.muted : '#AAAAAA' }]}>
+                  <Ionicons
+                    name="camera-outline"
+                    size={16}
+                    color={primaryColor}
+                    style={{ opacity: 0.4 }}
+                  />
+                  <Text
+                    style={[
+                      sectionStyles.pendingPhotoText,
+                      { color: isDark ? theme.text.muted : '#AAAAAA' },
+                    ]}
+                  >
                     En attente de la photo du menu
                   </Text>
                 </View>

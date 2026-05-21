@@ -9,7 +9,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 const PORT = 4500;
@@ -21,10 +21,14 @@ const HTML_CONTENT = fs.readFileSync(path.join(__dirname, 'menu_uploader.html'),
 function getContentType(filename: string): string {
   const ext = path.extname(filename).toLowerCase();
   switch (ext) {
-    case '.png': return 'image/png';
-    case '.gif': return 'image/gif';
-    case '.webp': return 'image/webp';
-    case '.pdf': return 'application/pdf';
+    case '.png':
+      return 'image/png';
+    case '.gif':
+      return 'image/gif';
+    case '.webp':
+      return 'image/webp';
+    case '.pdf':
+      return 'application/pdf';
     case '.jpg':
     case '.jpeg':
     default:
@@ -39,9 +43,7 @@ const server = http.createServer(async (req, res) => {
   if (req.method === 'GET' && url.pathname === '/') {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
     res.end(HTML_CONTENT);
-  } 
-  
-  else if (req.method === 'GET' && url.pathname === '/api/places') {
+  } else if (req.method === 'GET' && url.pathname === '/api/places') {
     try {
       const { data, error } = await supabase
         .from('places')
@@ -56,9 +58,7 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: err.message }));
     }
-  } 
-  
-  else if (req.method === 'POST' && url.pathname === '/api/upload') {
+  } else if (req.method === 'POST' && url.pathname === '/api/upload') {
     const slug = url.searchParams.get('slug');
     const filename = url.searchParams.get('filename') || 'menu.jpg';
 
@@ -85,7 +85,7 @@ const server = http.createServer(async (req, res) => {
           console.log(`⚡ [UPLOADER] Auto-optimizing image ${cleanFilename} via sharp...`);
           const pipeline = sharp(buffer);
           const metadata = await pipeline.metadata();
-          
+
           // Max width 2400px preserves excellent readability while dropping file size
           if (metadata.width && metadata.width > 2400) {
             bufferToUpload = await pipeline
@@ -93,13 +93,16 @@ const server = http.createServer(async (req, res) => {
               .jpeg({ quality: 85, progressive: true })
               .toBuffer();
           } else {
-            bufferToUpload = await pipeline
-              .jpeg({ quality: 85, progressive: true })
-              .toBuffer();
+            bufferToUpload = await pipeline.jpeg({ quality: 85, progressive: true }).toBuffer();
           }
-          console.log(`✅ [UPLOADER] Optimization complete: ${(buffer.length / 1024 / 1024).toFixed(2)}MB -> ${(bufferToUpload.length / 1024 / 1024).toFixed(2)}MB`);
+          console.log(
+            `✅ [UPLOADER] Optimization complete: ${(buffer.length / 1024 / 1024).toFixed(2)}MB -> ${(bufferToUpload.length / 1024 / 1024).toFixed(2)}MB`,
+          );
         } catch (sharpError: any) {
-          console.error(`⚠️ [UPLOADER] Sharp optimization failed, uploading original buffer:`, sharpError.message);
+          console.error(
+            `⚠️ [UPLOADER] Sharp optimization failed, uploading original buffer:`,
+            sharpError.message,
+          );
         }
       }
 
@@ -107,21 +110,21 @@ const server = http.createServer(async (req, res) => {
 
       try {
         console.log(`📡 [UPLOADER] Uploading ${cleanFilename} to Storage for ${slug}...`);
-        
+
         // 1. Upload file to Supabase Storage place-media bucket
         const { error: uploadError } = await supabase.storage
           .from('place-media')
           .upload(storagePath, bufferToUpload, {
             contentType: contentType,
-            upsert: true
+            upsert: true,
           });
 
         if (uploadError) throw uploadError;
 
         // 2. Get Public URL
-        const { data: { publicUrl } } = supabase.storage
-          .from('place-media')
-          .getPublicUrl(storagePath);
+        const {
+          data: { publicUrl },
+        } = supabase.storage.from('place-media').getPublicUrl(storagePath);
 
         console.log(`🔗 [UPLOADER] Public URL: ${publicUrl}`);
 
@@ -155,7 +158,7 @@ const server = http.createServer(async (req, res) => {
         const { error: dbError } = await supabase
           .from('places')
           .update({
-            Url_Photos_Menu: currentUrls
+            Url_Photos_Menu: currentUrls,
           })
           .eq('slug', slug);
 
@@ -164,16 +167,13 @@ const server = http.createServer(async (req, res) => {
         console.log(`✅ [UPLOADER] Database appended for ${slug}!`);
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ success: true, publicUrl }));
-
       } catch (err: any) {
         console.error(`❌ [UPLOADER] Upload error:`, err.message);
         res.writeHead(500, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify({ error: err.message }));
       }
     });
-  } 
-  
-  else if (req.method === 'POST' && url.pathname === '/api/delete-file') {
+  } else if (req.method === 'POST' && url.pathname === '/api/delete-file') {
     const slug = url.searchParams.get('slug');
     const fileUrl = url.searchParams.get('url');
 
@@ -202,7 +202,7 @@ const server = http.createServer(async (req, res) => {
       const { error: dbError } = await supabase
         .from('places')
         .update({
-          Url_Photos_Menu: updatedUrls.length > 0 ? updatedUrls : null
+          Url_Photos_Menu: updatedUrls.length > 0 ? updatedUrls : null,
         })
         .eq('slug', slug);
 
@@ -223,9 +223,7 @@ const server = http.createServer(async (req, res) => {
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: err.message }));
     }
-  } 
-  
-  else {
+  } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not Found');
   }

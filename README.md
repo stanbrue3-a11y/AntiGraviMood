@@ -19,13 +19,16 @@ L'application vise à identifier objectivement le positionnement tarifaire des �
 Le projet adopte une approche **Data-as-Code**, où la base de données est le résultat d'une compilation de fichiers structurés.
 
 ### 🛡️ Le Pipeline de Compilation (`compile_registry.ts`)
+
 Le script de compilation assure la cohérence du système à travers plusieurs étapes de validation :
+
 - **Typage Strict** : Validation des schémas de données via TypeScript et Zod.
 - **Audit de Prix (Pricing Audit)** : Vérification de la cohérence entre le prix de référence saisi manuellement et la médiane calculée par le `PriceEngine`. Un écart supérieur à 20% bloque la génération.
 - **Radar de Proximité** : Détection automatique des doublons géographiques par calcul de distance (Haversine).
 - **Garantie d'Exhaustivité** : Validation de la présence d'un menu complet pour chaque restaurant.
 
 ### 🚀 Stack Technologique
+
 - **Application** : React Native / Expo.
 - **Stockage** : SQLite (base locale pré-compilée pour assurer la rapidité des recherches hors-ligne).
 - **Gestion des données** : Architecture Git-based CMS (fichiers `.ts` individuels organisés par quartier).
@@ -35,6 +38,7 @@ Le script de compilation assure la cohérence du système à travers plusieurs �
 ## 🛠️ Protocole d'Ingestion des Données
 
 Pour garantir la pertinence du `PriceEngine`, toute nouvelle entrée suit le standard **Moelle**, imposant :
+
 - **Exhaustivité Totale** : Transcription intégrale de la carte (Starter, Main, Dessert, Drinks).
 - **Vérification Multi-Sources** : Recoupement systématique (Google Maps, sites officiels, photos de cartes récentes).
 - **Normalisation** : Conversion des horaires en format ISO et standardisation des catégories de prix.
@@ -58,4 +62,5 @@ npx expo start
 ```
 
 ---
-*Ce projet applique des méthodes d'analyse quantitative à la curation urbaine pour offrir une information fiable et vérifiée.*
+
+_Ce projet applique des méthodes d'analyse quantitative à la curation urbaine pour offrir une information fiable et vérifiée._

@@ -4,14 +4,12 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function statusAudit() {
-  const { data, error } = await supabase
-    .from('places')
-    .select('status');
-  
+  const { data, error } = await supabase.from('places').select('status');
+
   if (error) {
     console.error(error);
     return;

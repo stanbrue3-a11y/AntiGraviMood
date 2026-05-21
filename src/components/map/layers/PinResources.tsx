@@ -257,13 +257,18 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
-      
+
       {/* C. NEW LOT INDICATOR (Small Green Dot on the Left) */}
       <Mapbox.SymbolLayer
         id="new-lot-indicator"
         minZoomLevel={12}
         sourceID="placesSource"
-        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_new_lot'], true], ['!=', ['get', 'is_pastille_rouge'], true]]}
+        filter={[
+          'all',
+          ['!', ['has', 'point_count']],
+          ['==', ['get', 'is_new_lot'], true],
+          ['!=', ['get', 'is_pastille_rouge'], true],
+        ]}
         style={
           {
             textField: '●',

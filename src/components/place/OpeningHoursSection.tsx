@@ -94,18 +94,18 @@ export const OpeningHoursSection = React.memo(
 
                   return (
                     <View key={idx} style={styles.detailRow}>
-                      <Text 
+                      <Text
                         style={[
-                          styles.detailDay, 
-                          { color: detail.isToday ? theme.text.primary : theme.text.secondary }
+                          styles.detailDay,
+                          { color: detail.isToday ? theme.text.primary : theme.text.secondary },
                         ]}
                       >
                         {day}
                       </Text>
-                      <Text 
+                      <Text
                         style={[
-                          styles.detailHours, 
-                          { color: detail.isToday ? theme.text.primary : theme.text.secondary }
+                          styles.detailHours,
+                          { color: detail.isToday ? theme.text.primary : theme.text.secondary },
                         ]}
                       >
                         {hours || '-'}

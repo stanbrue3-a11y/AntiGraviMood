@@ -7,7 +7,7 @@ const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY!;
 const placeIds = {
   jools: 'ChIJtyCvRgBx5kcRDicVh793gls',
   cantinella: 'ChIJO235vMBx5kcRrHbZaiYJUXU',
-  bistrot15: 'ChIJ1aA85VJx5kcRH_Jo6mIkLhY'
+  bistrot15: 'ChIJ1aA85VJx5kcRH_Jo6mIkLhY',
 };
 
 async function getDetails(name: string, id: string) {

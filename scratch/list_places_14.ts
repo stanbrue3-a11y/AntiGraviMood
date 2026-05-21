@@ -5,7 +5,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function main() {
@@ -17,7 +17,9 @@ async function main() {
   if (error) throw error;
   console.log(`Found ${places.length} places in 14th arrondissement.`);
   for (const p of places) {
-    console.log(`- ${p.name} | ${p.slug} | Status: ${p.status} | Subcategories: ${p.subcategories?.join(', ')}`);
+    console.log(
+      `- ${p.name} | ${p.slug} | Status: ${p.status} | Subcategories: ${p.subcategories?.join(', ')}`,
+    );
   }
 }
 

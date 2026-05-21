@@ -6,24 +6,39 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 const FORBIDDEN_ROOTS = [
-  'chic', 'cosy', 'authentiq', 'traditionnel', 'convivial',
-  'incontournable', 'institution', 'véritable', 'elegance', 'élégance',
-  'parisien', 'perle rare', 'genereux', 'généreux', 'chaleureu', 'chaleureux',
-  'impeccable', 'vaut le détour', 'expérience unique', 'spectaculaire',
-  'écrin', 'nostalgie', 'cadre', 'pépite', 'pepite'
+  'chic',
+  'cosy',
+  'authentiq',
+  'traditionnel',
+  'convivial',
+  'incontournable',
+  'institution',
+  'véritable',
+  'elegance',
+  'élégance',
+  'parisien',
+  'perle rare',
+  'genereux',
+  'généreux',
+  'chaleureu',
+  'chaleureux',
+  'impeccable',
+  'vaut le détour',
+  'expérience unique',
+  'spectaculaire',
+  'écrin',
+  'nostalgie',
+  'cadre',
+  'pépite',
+  'pepite',
 ];
 
 async function main() {
-  const slugs = [
-    'bistrot-jools',
-    'cantinella',
-    'bistrot-15',
-    'le-petit-sommelier-paris-14'
-  ];
+  const slugs = ['bistrot-jools', 'cantinella', 'bistrot-15', 'le-petit-sommelier-paris-14'];
 
   console.log(`🔍 Auditing ${slugs.length} recent places...\n`);
 
@@ -71,7 +86,7 @@ async function main() {
 
     // Check insider tips format
     const tipsStr = p.insider_tip || '';
-    const tips = tipsStr.split('\n').filter(t => t.trim().length > 0);
+    const tips = tipsStr.split('\n').filter((t) => t.trim().length > 0);
     console.log(`   Insider Tips Count: ${tips.length}`);
     let tipsFormatOk = true;
     for (const tip of tips) {
@@ -80,18 +95,26 @@ async function main() {
       }
     }
     if (tips.length !== 3 || !tipsFormatOk) {
-      console.log(`      ⚠️ WARNING: Insider tips formatting incorrect (Must be exactly 3 bullet points starting with •)`);
+      console.log(
+        `      ⚠️ WARNING: Insider tips formatting incorrect (Must be exactly 3 bullet points starting with •)`,
+      );
     }
 
     // Check if hero image is in the bucket
     if (p.hero_image && !p.hero_image.includes('place-media')) {
-      console.log(`      ⚠️ WARNING: Hero image is not in Supabase Storage bucket ('place-media')! Url: ${p.hero_image}`);
+      console.log(
+        `      ⚠️ WARNING: Hero image is not in Supabase Storage bucket ('place-media')! Url: ${p.hero_image}`,
+      );
     }
 
     // Check if google_photos are in the bucket
-    const externalPhotos = (p.google_photos || []).filter((url: string) => !url.includes('place-media'));
+    const externalPhotos = (p.google_photos || []).filter(
+      (url: string) => !url.includes('place-media'),
+    );
     if (externalPhotos.length > 0) {
-      console.log(`      ⚠️ WARNING: ${externalPhotos.length} photos in google_photos are not in Supabase Storage!`);
+      console.log(
+        `      ⚠️ WARNING: ${externalPhotos.length} photos in google_photos are not in Supabase Storage!`,
+      );
     }
 
     // Check audit logs

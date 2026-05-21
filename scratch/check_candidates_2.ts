@@ -7,7 +7,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY!;
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function checkDb(name: string) {
@@ -37,14 +37,14 @@ async function searchGoogle(query: string) {
 }
 
 async function main() {
-  await checkDb("Le Petit Sommelier");
-  await checkDb("Le Bistro des Campagnes");
-  await checkDb("Le Petit Baigneur");
+  await checkDb('Le Petit Sommelier');
+  await checkDb('Le Bistro des Campagnes');
+  await checkDb('Le Petit Baigneur');
 
   console.log('\n--- Fetching Google Place IDs ---');
-  await searchGoogle("Le Petit Sommelier Avenue du Maine Paris");
-  await searchGoogle("Le Bistro des Campagnes Rue de la Gaîté Paris");
-  await searchGoogle("Le Petit Baigneur Rue de la Sablière Paris");
+  await searchGoogle('Le Petit Sommelier Avenue du Maine Paris');
+  await searchGoogle('Le Bistro des Campagnes Rue de la Gaîté Paris');
+  await searchGoogle('Le Petit Baigneur Rue de la Sablière Paris');
 }
 
 main().catch(console.error);

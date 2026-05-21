@@ -13,7 +13,7 @@ export class SQLitePlacesRepository implements IPlacesRepository {
   constructor(
     private db: SQLite.SQLiteDatabase,
     private kernel?: SQLiteKernel,
-  ) { }
+  ) {}
 
   private async getDb(): Promise<Kysely<Database>> {
     if (this.kysely) return this.kysely;
@@ -121,10 +121,14 @@ export class SQLitePlacesRepository implements IPlacesRepository {
         .where('places_fts.places_fts', 'match', searchQuery.trim() + '*');
 
       if (selectedCategories && selectedCategories.length > 0)
-        q = q.where((eb) => eb.or([
-          eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
-        ]));
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.category', 'in', selectedCategories),
+            ...selectedCategories.map((cat) =>
+              eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`),
+            ),
+          ]),
+        );
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
       if (selectedDistricts && selectedDistricts.length > 0)
@@ -137,19 +141,37 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null) {
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
                 eb.or([
-                  eb.and([eb('places.pint_price', '>', 0), eb('places.pint_price', '<=', pintLimit)]),
-                  eb.and([eb('places.wine_glass', '>', 0), eb('places.wine_glass', '<=', pintLimit)]),
-                  eb.and([eb('places.cocktail_price', '>', 0), eb('places.cocktail_price', '<=', pintLimit * 1.35)]),
+                  eb('places.category', '=', 'bar'),
+                  eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %'),
+                ]),
+                eb.or([
+                  eb.and([
+                    eb('places.pint_price', '>', 0),
+                    eb('places.pint_price', '<=', pintLimit),
+                  ]),
+                  eb.and([
+                    eb('places.wine_glass', '>', 0),
+                    eb('places.wine_glass', '<=', pintLimit),
+                  ]),
+                  eb.and([
+                    eb('places.cocktail_price', '>', 0),
+                    eb('places.cocktail_price', '<=', pintLimit * 1.35),
+                  ]),
+                  eb.and([
+                    eb.or([eb('places.pint_price', 'is', null), eb('places.pint_price', '=', 0)]),
+                    eb.or([eb('places.wine_glass', 'is', null), eb('places.wine_glass', '=', 0)]),
+                    eb.or([
+                      eb('places.cocktail_price', 'is', null),
+                      eb('places.cocktail_price', '=', 0),
+                    ]),
                     eb.and([
-                      eb.or([eb('places.pint_price', 'is', null), eb('places.pint_price', '=', 0)]),
-                      eb.or([eb('places.wine_glass', 'is', null), eb('places.wine_glass', '=', 0)]),
-                      eb.or([eb('places.cocktail_price', 'is', null), eb('places.cocktail_price', '=', 0)]),
-                      eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', pintLimit)])
-                    ])
-                ])
-              ])
+                      eb('places.main_dish_price', '>', 0),
+                      eb('places.main_dish_price', '<=', pintLimit),
+                    ]),
+                  ]),
+                ]),
+              ]),
             );
           }
 
@@ -157,8 +179,11 @@ export class SQLitePlacesRepository implements IPlacesRepository {
             priceOrs.push(
               eb.and([
                 eb('places.category', 'in', ['restaurant', 'bouillon']),
-                eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', dishLimit)]),
-              ])
+                eb.and([
+                  eb('places.main_dish_price', '>', 0),
+                  eb('places.main_dish_price', '<=', dishLimit),
+                ]),
+              ]),
             );
           }
 
@@ -166,13 +191,21 @@ export class SQLitePlacesRepository implements IPlacesRepository {
             priceOrs.push(
               eb.and([
                 eb('places.category', '=', 'café'),
-                eb.and([eb('places.coffee_price', '>', 0), eb('places.coffee_price', '<=', coffeeLimit)]),
-              ])
+                eb.and([
+                  eb('places.coffee_price', '>', 0),
+                  eb('places.coffee_price', '<=', coffeeLimit),
+                ]),
+              ]),
             );
           }
 
           if (maxPrice !== null) {
-            priceOrs.push(eb.and([eb('places.main_dish_price', '>', 0), eb('places.main_dish_price', '<=', maxPrice)]));
+            priceOrs.push(
+              eb.and([
+                eb('places.main_dish_price', '>', 0),
+                eb('places.main_dish_price', '<=', maxPrice),
+              ]),
+            );
           }
 
           return eb.or(priceOrs);
@@ -189,10 +222,12 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       let q = queryBuilder.selectFrom('places').selectAll('places');
 
       if (selectedCategories && selectedCategories.length > 0)
-        q = q.where((eb) => eb.or([
-          eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb('places.subcategory', 'like', `%${cat}%`))
-        ]));
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.category', 'in', selectedCategories),
+            ...selectedCategories.map((cat) => eb('places.subcategory', 'like', `%${cat}%`)),
+          ]),
+        );
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
       if (selectedDistricts && selectedDistricts.length > 0)
@@ -204,8 +239,11 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null)
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb('places.subcategory', 'like', '%bar%')]),
-                eb('places.pint_price', '<=', pintLimit)
+                eb.or([
+                  eb('places.category', '=', 'bar'),
+                  eb('places.subcategory', 'like', '%bar%'),
+                ]),
+                eb('places.pint_price', '<=', pintLimit),
               ]),
             );
           if (dishLimit !== null)
@@ -291,10 +329,14 @@ export class SQLitePlacesRepository implements IPlacesRepository {
         .where('places_fts.places_fts', 'match', searchQuery.trim() + '*');
 
       if (selectedCategories && selectedCategories.length > 0)
-        q = q.where((eb) => eb.or([
-          eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
-        ]));
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.category', 'in', selectedCategories),
+            ...selectedCategories.map((cat) =>
+              eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`),
+            ),
+          ]),
+        );
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
       if (selectedDistricts && selectedDistricts.length > 0)
@@ -306,8 +348,11 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null)
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
-                eb('places.pint_price', '<=', pintLimit)
+                eb.or([
+                  eb('places.category', '=', 'bar'),
+                  eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %'),
+                ]),
+                eb('places.pint_price', '<=', pintLimit),
               ]),
             );
           if (dishLimit !== null)
@@ -339,10 +384,14 @@ export class SQLitePlacesRepository implements IPlacesRepository {
       let q = queryBuilder.selectFrom('places').select('places.id');
 
       if (selectedCategories && selectedCategories.length > 0)
-        q = q.where((eb) => eb.or([
-          eb('places.category', 'in', selectedCategories),
-          ...selectedCategories.map(cat => eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`))
-        ]));
+        q = q.where((eb) =>
+          eb.or([
+            eb('places.category', 'in', selectedCategories),
+            ...selectedCategories.map((cat) =>
+              eb(sql`(', ' || places.subcategory || ', ')`, 'like', `%, ${cat}, %`),
+            ),
+          ]),
+        );
       if (selectedMoods && selectedMoods.length > 0)
         q = q.where('places.dominant_mood', 'in', selectedMoods);
       if (selectedDistricts && selectedDistricts.length > 0)
@@ -354,8 +403,11 @@ export class SQLitePlacesRepository implements IPlacesRepository {
           if (pintLimit !== null)
             priceOrs.push(
               eb.and([
-                eb.or([eb('places.category', '=', 'bar'), eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %')]),
-                eb('places.pint_price', '<=', pintLimit)
+                eb.or([
+                  eb('places.category', '=', 'bar'),
+                  eb(sql`(', ' || places.subcategory || ', ')`, 'like', '%, bar, %'),
+                ]),
+                eb('places.pint_price', '<=', pintLimit),
               ]),
             );
           if (dishLimit !== null)

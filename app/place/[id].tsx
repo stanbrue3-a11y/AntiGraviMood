@@ -53,7 +53,10 @@ export default function PlaceDetailScreen() {
   );
 
   const activeCategories = useSearchStore((state) => state.selectedCategories);
-  const viewModel = useMemo(() => (place ? mapPlaceToDetailViewModel(place, activeCategories) : null), [place, activeCategories]);
+  const viewModel = useMemo(
+    () => (place ? mapPlaceToDetailViewModel(place, activeCategories) : null),
+    [place, activeCategories],
+  );
 
   // Background hydration
   useEffect(() => {
@@ -90,7 +93,6 @@ export default function PlaceDetailScreen() {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     toggleLike(place.id);
   }, [place, toggleLike]);
-
 
   const handleVibeCheck = useCallback(async () => {
     if (place?.media?.instagram_handle) {

@@ -22,7 +22,7 @@ export class CrabCalculator {
    * @param pricing - Pricing data from the place
    * @param drinkType - Resolved drink type from drinkTypeResolver (NOT raw category string)
    */
-  static getMetrics(pricing: Pricing, drinkType: DrinkType = 'generic'): PriceMetrics {
+  static getMetrics(pricing: Pricing, drinkType: DrinkType = 'generic', dominantMood?: string): PriceMetrics {
     if (pricing.is_free) {
       return {
         percent: 5,
@@ -47,7 +47,7 @@ export class CrabCalculator {
     return {
       percent,
       label: this.getLabel(percent),
-      color: this.getColor(percent),
+      color: this.getColor(percent, dominantMood),
       currentPrice: current,
       benchmarkPrice: fair,
       deviationPercent,
@@ -62,11 +62,14 @@ export class CrabCalculator {
     return 'ROI DES PINCES 👑'; // Extremely Cheap
   }
 
-  private static getColor(percent: number): string {
+  private static getColor(percent: number, dominantMood?: string): string {
     if (percent <= 25) return palette.success; // Bon Plan
     if (percent <= 50) return palette.warning; // Cool Price
-    if (percent <= 85) return palette.error;   // Ça Pince
-    return moodColors.culturel.primary; // Rolls Mode (Purple)
+    if (percent <= 85) return palette.error; // Ça Pince
+    const moodKey = (dominantMood && moodColors[dominantMood as keyof typeof moodColors])
+      ? (dominantMood as keyof typeof moodColors)
+      : 'chill';
+    return moodColors[moodKey].primary; // Rolls Mode (Dynamic Mood Color)
   }
 
   static getConfidenceMetrics(lastUpdated?: string): {
@@ -82,7 +85,8 @@ export class CrabCalculator {
       (now.getFullYear() - date.getFullYear()) * 12 + (now.getMonth() - date.getMonth());
 
     if (diffMonths <= 3) return { score: 100, label: 'VÉRIFIÉ RÉCEMMENT', color: palette.success };
-    if (diffMonths <= 6) return { score: 70, label: 'VÉRIFIÉ IL Y A 6 MOIS', color: palette.warning };
+    if (diffMonths <= 6)
+      return { score: 70, label: 'VÉRIFIÉ IL Y A 6 MOIS', color: palette.warning };
 
     return { score: 40, label: 'VÉRIFICATION ANCIENNE', color: palette.error };
   }

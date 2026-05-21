@@ -8,16 +8,13 @@ import { IPlacesRepository } from './IPlacesRepository';
  * This represents the "New World" of MoodMap (Cloud-First).
  */
 export class SupabasePlacesRepository implements IPlacesRepository {
-  
   /**
    * Fetches full place objects.
    * Supabase already returns JSON objects for columns like 'media' or 'practical_info',
    * so we don't need the string-parsing logic of PlaceMapper (Legacy).
    */
   async getRegistryPlaces(signal?: AbortSignal): Promise<Place[]> {
-    const { data, error } = await supabase
-      .from('places')
-      .select('*');
+    const { data, error } = await supabase.from('places').select('*');
 
     if (error) throw error;
     return (data as any[]).map((row) => this.mapSupabaseRowToPlace(row));
@@ -26,42 +23,45 @@ export class SupabasePlacesRepository implements IPlacesRepository {
   async getRegistrySkeletons(signal?: AbortSignal): Promise<PlaceSkeleton[]> {
     const { data, error } = await supabase
       .from('places')
-      .select('id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, google_reviews_count, michelin_stars, plat_median_cents, tags');
+      .select(
+        'id, name, slug, address, arrondissement, lat, lng, category, subcategories, dominant_mood, hero_image, google_rating, google_reviews_count, michelin_stars, plat_median_cents, tags',
+      );
 
     if (error) throw error;
-    
-    return (data as any[]).map(row => ({
-      id: row.id,
-      name: row.name,
-      slug: row.slug,
-      location: {
-        address: row.address,
-        arrondissement: row.arrondissement,
-        coordinates: { lat: row.lat, lng: row.lng }
-      },
-      category: row.category,
-      subcategories: row.subcategories || [],
-      dominant_mood: row.dominant_mood,
-      media: {
-        hero_image: row.hero_image || ''
-      },
-      pricing: {
-          index_price: row.plat_median_cents ? row.plat_median_cents / 100 : 0,
-          unit: '€',
-          is_free: false,
-          type: 'generic',
-          menu_items: []
-      } as any,
-      google_rating: row.google_rating,
-      michelin_stars: row.michelin_stars,
-      tags: row.tags || []
-    } as PlaceSkeleton));
+
+    return (data as any[]).map(
+      (row) =>
+        ({
+          id: row.id,
+          name: row.name,
+          slug: row.slug,
+          location: {
+            address: row.address,
+            arrondissement: row.arrondissement,
+            coordinates: { lat: row.lat, lng: row.lng },
+          },
+          category: row.category,
+          subcategories: row.subcategories || [],
+          dominant_mood: row.dominant_mood,
+          media: {
+            hero_image: row.hero_image || '',
+          },
+          pricing: {
+            index_price: row.plat_median_cents ? row.plat_median_cents / 100 : 0,
+            unit: '€',
+            is_free: false,
+            type: 'generic',
+            menu_items: [],
+          } as any,
+          google_rating: row.google_rating,
+          michelin_stars: row.michelin_stars,
+          tags: row.tags || [],
+        }) as PlaceSkeleton,
+    );
   }
 
   async getRegistryRows(signal?: AbortSignal): Promise<PlaceRow[]> {
-    const { data, error } = await supabase
-      .from('places')
-      .select('*');
+    const { data, error } = await supabase.from('places').select('*');
 
     if (error) throw error;
     return data as any[];
@@ -69,7 +69,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
   async getFilteredPlaces(
     filters: Partial<FilterCriteria> & { userLocation?: { lat: number; lng: number } },
-    signal?: AbortSignal
+    signal?: AbortSignal,
   ): Promise<Place[]> {
     let query = supabase.from('places').select('*');
 
@@ -82,7 +82,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
     if (filters.selectedMoods && filters.selectedMoods.length > 0) {
       query = query.in('dominant_mood', filters.selectedMoods);
     }
-    
+
     // Price Filters (Titan-V4: converted to centimes)
     if (filters.pintLimit !== null && filters.pintLimit !== undefined) {
       query = query.lte('pint_price_cents', filters.pintLimit * 100);
@@ -113,15 +113,11 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
   async getPlaceDetails(id: string, signal?: AbortSignal): Promise<Place | null> {
     // Fetch place row
-    const { data, error } = await supabase
-      .from('places')
-      .select('*')
-      .eq('id', id)
-      .single();
+    const { data, error } = await supabase.from('places').select('*').eq('id', id).single();
 
     if (error) {
-        if (error.code === 'PGRST116') return null; // Not found
-        throw error;
+      if (error.code === 'PGRST116') return null; // Not found
+      throw error;
     }
 
     // Fetch relational menu (Titan-V4) — categories + items
@@ -138,7 +134,9 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
       const { data: itemsData } = await supabase
         .from('menu_items')
-        .select('id, category_id, name, description, price_cents, happy_hour_price_cents, is_highlight')
+        .select(
+          'id, category_id, name, description, price_cents, happy_hour_price_cents, is_highlight',
+        )
         .in('category_id', categoryIds);
 
       menuItems = categoriesData.map((cat: any) => ({
@@ -165,7 +163,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
   async getFilteredPlaceIds(
     filters: Partial<FilterCriteria> & { userLocation?: { lat: number; lng: number } },
-    signal?: AbortSignal
+    signal?: AbortSignal,
   ): Promise<string[]> {
     let query = supabase.from('places').select('id');
 
@@ -204,7 +202,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
 
     const { data, error } = await query;
     if (error) throw error;
-    return (data as any[]).map(r => r.id);
+    return (data as any[]).map((r) => r.id);
   }
 
   /**
@@ -237,7 +235,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         arrondissement: row.arrondissement,
         coordinates: { lat: row.lat, lng: row.lng },
         nearest_metro: row.nearest_metro,
-        metro_lines: row.metro_lines || []
+        metro_lines: row.metro_lines || [],
       },
       pricing: {
         type: row.category === 'café' ? 'cafe' : row.category,
@@ -249,25 +247,28 @@ export class SupabasePlacesRepository implements IPlacesRepository {
         coffee_price: row.coffee_price_cents ? row.coffee_price_cents / 100 : undefined,
         wine_glass: row.wine_glass_cents ? row.wine_glass_cents / 100 : undefined,
         dish_price: row.plat_median_cents ? row.plat_median_cents / 100 : undefined,
-        verified_at: row.menu_verified_at ? new Date(row.menu_verified_at).toISOString().split('T')[0] : undefined,
-        menu_items: menuItems
+        verified_at: row.menu_verified_at
+          ? new Date(row.menu_verified_at).toISOString().split('T')[0]
+          : undefined,
+        menu_items: menuItems,
       } as any,
       practical_info: {
         // ⚡ NE PAS utiliser de fallback ici : si la politique n'est pas renseignée,
         // on retourne null pour ne pas afficher de badge sur les anciens lieux non audités.
-        primary_status: (row.reservation_policy || null) as Place['practical_info']['primary_status'],
+        primary_status: (row.reservation_policy ||
+          null) as Place['practical_info']['primary_status'],
         opening_hours: row.opening_hours_raw || 'Voir sur place',
         terrace: row.has_terrace || false,
-        main_action: null
+        main_action: null,
       } as any,
       media: {
         hero_image: row.hero_image || '',
-        google_photos: row.google_photos || []
+        google_photos: row.google_photos || [],
       } as any,
       real_talk: {
         insider_tip: row.insider_tip,
         must_eat: row.on_mange_quoi_ici,
-        must_drink: undefined
+        must_drink: undefined,
       } as any,
       specials: {
         cuisine: row.subcategories || [],
@@ -289,7 +290,7 @@ export class SupabasePlacesRepository implements IPlacesRepository {
       google_rating: row.google_rating,
       google_user_ratings_total: row.google_reviews_count,
       verified: row.is_verified || false,
-      michelin_stars: row.michelin_stars
+      michelin_stars: row.michelin_stars,
     } as Place;
   }
 }

@@ -52,14 +52,14 @@ async function fixLats() {
 
   for (const file of files) {
     let content = fs.readFileSync(file, 'utf8');
-    
+
     // Check if "lat:" is missing inside the location block
     const locationMatch = content.match(/location\s*:\s*\{([^}]+)\}/);
     if (locationMatch) {
       const locationContent = locationMatch[1];
       if (!locationContent.includes('lat:')) {
         console.log(`\n⚠️  File missing lat: ${path.basename(file)}`);
-        
+
         const googleIdMatch = content.match(/google_id\s*:\s*["']([^"']+)["']/);
         const google_id = googleIdMatch ? googleIdMatch[1].trim() : '';
 
@@ -70,22 +70,22 @@ async function fixLats() {
 
         console.log(`   Querying Google Places API for ID: ${google_id}...`);
         const loc = await fetchFromGoogle(google_id);
-        
+
         if (loc) {
           console.log(`   Found coordinates on Google: lat=${loc.lat}, lng=${loc.lng}`);
-          
+
           const originalLocation = locationMatch[0];
           let updatedLocation = originalLocation;
-          
+
           if (originalLocation.includes('lng:')) {
             updatedLocation = originalLocation.replace(
               /lng\s*:\s*([0-9.-]+)/,
-              `lat: ${loc.lat},\n        lng: $1`
+              `lat: ${loc.lat},\n        lng: $1`,
             );
           } else {
             updatedLocation = originalLocation.replace(
               /arrondissement\s*:\s*([0-9]+)/,
-              `arrondissement: $1,\n        lat: ${loc.lat}`
+              `arrondissement: $1,\n        lat: ${loc.lat}`,
             );
           }
 
@@ -93,9 +93,9 @@ async function fixLats() {
           fs.writeFileSync(file, content, 'utf8');
           console.log(`   ✅ Patched file!`);
           fixCount++;
-          
+
           // Delay to prevent hitting rate limits
-          await new Promise(r => setTimeout(r, 150));
+          await new Promise((r) => setTimeout(r, 150));
         } else {
           console.log(`   ❌ Could not retrieve geometry from Google API.`);
         }

@@ -138,9 +138,7 @@ export default function DiscoverScreen() {
           </View>
         </View>
 
-        {filterVisible && (
-          <FilterSheet visible={true} onClose={() => setFilterVisible(false)} />
-        )}
+        {filterVisible && <FilterSheet visible={true} onClose={() => setFilterVisible(false)} />}
       </ScreenFade>
     </>
   );

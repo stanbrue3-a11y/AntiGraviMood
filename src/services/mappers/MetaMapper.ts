@@ -9,7 +9,10 @@ const MOOD_PALETTE: Record<string, string> = {
 };
 
 export class MetaMapper {
-  static mapMetaView(place: Place, activeCategories: string[] = []): {
+  static mapMetaView(
+    place: Place,
+    activeCategories: string[] = [],
+  ): {
     mood_label: string;
     mood_color: string;
     subtitle: string;
@@ -76,8 +79,19 @@ export class MetaMapper {
       actions.primary = {
         type: mainAction.type,
         url: mainAction.url,
-        label: mainAction.label?.toUpperCase() || (mainAction.type === 'book' ? 'RÉSERVER' : mainAction.type === 'shotgun' ? 'SHOTGUN' : 'SITE WEB'),
-        icon: mainAction.type === 'shotgun' ? 'flash' : mainAction.type === 'book' ? 'calendar' : 'globe',
+        label:
+          mainAction.label?.toUpperCase() ||
+          (mainAction.type === 'book'
+            ? 'RÉSERVER'
+            : mainAction.type === 'shotgun'
+              ? 'SHOTGUN'
+              : 'SITE WEB'),
+        icon:
+          mainAction.type === 'shotgun'
+            ? 'flash'
+            : mainAction.type === 'book'
+              ? 'calendar'
+              : 'globe',
       };
     }
 

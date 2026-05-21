@@ -29,15 +29,15 @@ export class TimeMapper {
           rawDisplayFallback = hoursJson;
         }
       }
-    } catch (e) { 
+    } catch (e) {
       rawDisplayFallback = hoursJson || '';
     }
 
     const display =
-      parsedHours?.display?.replace('Tlj: ', 'TOUS LES JOURS : ') || 
+      parsedHours?.display?.replace('Tlj: ', 'TOUS LES JOURS : ') ||
       rawDisplayFallback?.replace('Tlj: ', 'TOUS LES JOURS : ') ||
       'Horaires non confirmés';
-    
+
     // Use raw string as standard if we don't have a JSON object
     const standard = parsedHours?.standard || rawDisplayFallback;
 
@@ -54,23 +54,27 @@ export class TimeMapper {
     const currentHour = now.getHours() + now.getMinutes() / 60;
 
     if (standard && standard !== 'Non renseigné') {
-
       // Split by comma, pipe, or newline
-      const allLines = standard.split(/[|,\n]/).map((s) => s.trim()).filter(Boolean);
+      const allLines = standard
+        .split(/[|,\n]/)
+        .map((s) => s.trim())
+        .filter(Boolean);
 
       // Filter lines: Keep if they mention today OR if the whole string is just a time range (implicit TLJ)
-      const todayLines = allLines.filter(line => {
+      const todayLines = allLines.filter((line) => {
         const lowerLine = line.toLowerCase();
         // If it explicitly mentions another day, skip it
-        const otherDays = daysFr.filter(d => d !== todayFr);
-        const mentionsOtherDay = otherDays.some(d => lowerLine.includes(d) || lowerLine.includes(d.substring(0,3)));
-        
+        const otherDays = daysFr.filter((d) => d !== todayFr);
+        const mentionsOtherDay = otherDays.some(
+          (d) => lowerLine.includes(d) || lowerLine.includes(d.substring(0, 3)),
+        );
+
         // It's for today if: explicit mention OR doesn't mention any other day and has times
         return lowerLine.includes(todayFr) || lowerLine.includes(todayFrShort) || !mentionsOtherDay;
       });
 
       // Extract time ranges from filtered lines
-      const rawRanges = todayLines.map(line => {
+      const rawRanges = todayLines.map((line) => {
         const match = line.match(/(?:[A-Za-zÀ-ÿ]+\s*[:]\s*)(.*)/);
         return match ? match[1].trim() : line;
       });
@@ -114,7 +118,10 @@ export class TimeMapper {
       rawDetails = parsedHours.detailed.split('\n');
     } else if (rawDisplayFallback) {
       // Split by pipe (registry standard) or newline
-      rawDetails = rawDisplayFallback.split(/[|\n]/).map(s => s.trim()).filter(Boolean);
+      rawDetails = rawDisplayFallback
+        .split(/[|\n]/)
+        .map((s) => s.trim())
+        .filter(Boolean);
       // Remove the first line if it's already the 'display' summary (heuristic)
       if (rawDetails.length > 1 && rawDetails[0].toLowerCase().includes('tous les jours')) {
         // keep it anyway for the list
@@ -122,7 +129,9 @@ export class TimeMapper {
     }
 
     const details = rawDetails.map((l) => {
-      const cleanLine = l.replace(/Tlj\s*:\s*/gi, 'Tous les jours : ').replace(/Tlj\b/gi, 'Tous les jours');
+      const cleanLine = l
+        .replace(/Tlj\s*:\s*/gi, 'Tous les jours : ')
+        .replace(/Tlj\b/gi, 'Tous les jours');
       const lowerLine = cleanLine.toLowerCase();
       const isToday = lowerLine.includes(todayFr) || lowerLine.includes(todayFrShort);
       return { text: cleanLine, isToday };

@@ -24,7 +24,12 @@ const buildLayout = (
   if (hasOpening) layout.push('hours');
 
   // On mange/boit quoi ici ? — Unified source
-  if (place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.must_drink || place.real_talk?.must_drink) {
+  if (
+    place.specials?.must_eat ||
+    place.real_talk?.must_eat ||
+    place.specials?.must_drink ||
+    place.real_talk?.must_drink
+  ) {
     layout.push('must_eat');
   }
 
@@ -81,6 +86,7 @@ export interface PlaceDetailViewModel {
 
   pricing: PricingView | null;
   opening: any | null;
+  cuisine: string | null;
 
   expertise: {
     type: 'food' | 'drink';
@@ -113,16 +119,21 @@ export interface PlaceDetailViewModel {
 /**
  * MAPPER PUR: Place -> PlaceDetailViewModel
  */
-export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string[] = []): PlaceDetailViewModel => {
+export const mapPlaceToDetailViewModel = (
+  place: Place,
+  activeCategories: string[] = [],
+): PlaceDetailViewModel => {
   const metaView = MetaMapper.mapMetaView(place, activeCategories);
   const actionsView = MetaMapper.mapActionsView(place);
   const happyHourView = TimeMapper.mapHappyHourView(place.practical_info?.happy_hour);
-  const rawHours = place.opening_hours 
-    ? JSON.stringify(place.opening_hours) 
+  const rawHours = place.opening_hours
+    ? JSON.stringify(place.opening_hours)
     : place.practical_info?.opening_hours_raw || place.practical_info?.opening_hours || null;
 
   const openingView = TimeMapper.mapOpeningView(rawHours, place);
-  const pricingView = place.pricing ? PricingMapper.mapPricingView(place.pricing as any, place as any, undefined, activeCategories) : null;
+  const pricingView = place.pricing
+    ? PricingMapper.mapPricingView(place.pricing as any, place as any, undefined, activeCategories)
+    : null;
   const badgesView = BadgeMapper.mapBadgesView(place, metaView.mood_color);
 
   const hasActions = !!actionsView.primary || !!actionsView.instagram || badgesView.length > 0;
@@ -140,10 +151,10 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     primaryColor,
     isDark,
     tags: place.practical_info?.tags || [],
-    hero: { 
-      title: place.name, 
+    hero: {
+      title: place.name,
       images: getPlaceImages(place),
-      michelin_stars: place.michelin_stars || undefined 
+      michelin_stars: place.michelin_stars || undefined,
     },
     meta: {
       moodLabel: metaView.mood_label,
@@ -157,33 +168,56 @@ export const mapPlaceToDetailViewModel = (place: Place, activeCategories: string
     },
     pricing: pricingView,
     opening: openingView,
-    expertise: (place.real_talk || place.insider_tip)
-      ? {
-        type: isBarContext ? 'drink' : 'food',
-        // V4 : on_mange_quoi_ici est la source principale, must_eat est le fallback legacy
-        // Si aucun des deux n'a de valeur, headline reste undefined (pas de texte générique)
-        headline: isBarContext
-          ? place.specials?.must_drink || place.real_talk?.must_drink || place.specials?.expert_catchline || place.specials?.must_eat || (place as any).on_mange_quoi_ici || undefined
-          : (place as any).on_mange_quoi_ici || place.specials?.must_eat || place.real_talk?.must_eat || place.specials?.expert_catchline || undefined,
-        insiderTip: place.insider_tip,
-        leSecret: place.real_talk?.insider_tip,
-        leSon: isBarContext ? place.real_talk?.must_drink || place.real_talk?.must_eat : place.real_talk?.must_eat || place.real_talk?.must_drink,
-        cuisineLabel: (place.specials?.cuisine && place.specials.cuisine.length > 0) 
-          ? place.specials.cuisine.join(' • ') 
-          : place.practical_info?.cuisine_type || (place.subcategories?.[0] !== place.category ? place.subcategories?.[0] : undefined),
-      }
-      : null,
+    cuisine:
+      place.specials?.cuisine && place.specials.cuisine.length > 0
+        ? place.specials.cuisine.join(' • ')
+        : place.practical_info?.cuisine_type ||
+          (place.subcategories?.[0] !== place.category ? place.subcategories?.[0] : null),
+    expertise:
+      place.real_talk || place.insider_tip
+        ? {
+            type: isBarContext ? 'drink' : 'food',
+            // V4 : on_mange_quoi_ici est la source principale, must_eat est le fallback legacy
+            // Si aucun des deux n'a de valeur, headline reste undefined (pas de texte générique)
+            headline: isBarContext
+              ? place.specials?.must_drink ||
+                place.real_talk?.must_drink ||
+                place.specials?.expert_catchline ||
+                place.specials?.must_eat ||
+                (place as any).on_mange_quoi_ici ||
+                undefined
+              : (place as any).on_mange_quoi_ici ||
+                place.specials?.must_eat ||
+                place.real_talk?.must_eat ||
+                place.specials?.expert_catchline ||
+                undefined,
+            insiderTip: place.insider_tip,
+            leSecret: place.real_talk?.insider_tip,
+            leSon: isBarContext
+              ? place.real_talk?.must_drink || place.real_talk?.must_eat
+              : place.real_talk?.must_eat || place.real_talk?.must_drink,
+            cuisineLabel:
+              place.specials?.cuisine && place.specials.cuisine.length > 0
+                ? place.specials.cuisine.join(' • ')
+                : place.practical_info?.cuisine_type ||
+                  (place.subcategories?.[0] !== place.category
+                    ? place.subcategories?.[0]
+                    : undefined),
+          }
+        : null,
     description: place.description || null,
     actions: {
       primary: actionsView.primary as any,
       hasInstagram: !!actionsView.instagram,
       badges: badgesView as any,
     },
-    metro: place.location.nearest_metro ? {
-      nearest: place.location.nearest_metro,
-      lines: place.location.metro_lines || [],
-      addressShort: place.location.address ? place.location.address.split(',')[0] : 'Adresse',
-    } : null,
+    metro: place.location.nearest_metro
+      ? {
+          nearest: place.location.nearest_metro,
+          lines: place.location.metro_lines || [],
+          addressShort: place.location.address ? place.location.address.split(',')[0] : 'Adresse',
+        }
+      : null,
     social: { momentCount: place.social_preview?.moment_count || 120 },
   };
 };

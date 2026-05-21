@@ -6,7 +6,7 @@ dotenv.config({ path: path.join(process.cwd(), '.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function fixJosselinPhoto() {
@@ -30,9 +30,11 @@ async function fixJosselinPhoto() {
 
   const { error: updateError } = await supabase
     .from('places')
-    .update({ 
-        hero_image: correctHero,
-        internal_audit_logs: [" [CRITICAL FIX] Switched Hero Image to Photo 3 (Real Facade n°67) after manual audit of annex error."]
+    .update({
+      hero_image: correctHero,
+      internal_audit_logs: [
+        ' [CRITICAL FIX] Switched Hero Image to Photo 3 (Real Facade n°67) after manual audit of annex error.',
+      ],
     })
     .eq('slug', 'la-creperie-de-josselin');
 

@@ -5,13 +5,16 @@ import { palette, moodColors } from '../design/tokens/colors';
  * 2026 Presentation Logic for Pricing
  * Unifies Gauge and Badge visual rules (Industrial Bugatti Grade).
  */
-export const usePricePresentation = (view?: PricingView) => {
+export const usePricePresentation = (view?: PricingView, dominantMood?: string) => {
   // 1. Level Color Mapping (The "Pince" Scale)
   const getLevelColor = (level: number) => {
     if (level === 1) return palette.success; // Bon Plan
     if (level === 2) return palette.warning; // Cool Price
-    if (level === 3) return palette.error;   // Ça Pince
-    return moodColors.culturel.primary;      // Rolls Mode (Luxe)
+    if (level === 3) return palette.error; // Ça Pince
+    const moodKey = (dominantMood && moodColors[dominantMood as keyof typeof moodColors])
+      ? (dominantMood as keyof typeof moodColors)
+      : 'chill';
+    return moodColors[moodKey].primary; // Rolls Mode (Luxe)
   };
 
   // 2. Level Label Mapping

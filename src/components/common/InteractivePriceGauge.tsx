@@ -41,15 +41,15 @@ const CATEGORY_TAB_LABELS: Record<string, string> = {
   soft_drink: 'Boissons',
 };
 const MENU_TAB_ORDER = ['formula', 'sharing', 'starter', 'main', 'side', 'dessert', 'boissons'];
-const toTabKey = (ct: string) =>
-  ct === 'soft_drink' || ct === 'alcohol_drink' ? 'boissons' : ct;
-
+const toTabKey = (ct: string) => (ct === 'soft_drink' || ct === 'alcohol_drink' ? 'boissons' : ct);
 
 export interface InteractivePriceGaugeProps {
   pricingView?: PricingView;
   activeColor?: string;
   smartTip?: string;
   triggerComponent?: React.ReactNode;
+  placeName?: string;
+  cuisine?: string;
 }
 
 export const PriceMiniBadge = ({ view }: { view?: PricingView }) => {
@@ -133,7 +133,6 @@ export const InteractivePriceGauge = ({
   const [showFullMenu, setShowFullMenu] = useState(false);
   const [openTabs, setOpenTabs] = useState<string[]>([]);
 
-
   // 2026 Hook-Based Logic ⚡️
   const {
     color: cursorColor,
@@ -173,7 +172,10 @@ export const InteractivePriceGauge = ({
           label:
             k === 'boissons'
               ? 'Boissons'
-              : CATEGORY_TAB_LABELS[cat.category_type] || cat.display_label || cat.category || 'Autre',
+              : CATEGORY_TAB_LABELS[cat.category_type] ||
+                cat.display_label ||
+                cat.category ||
+                'Autre',
         });
       }
     });
@@ -186,9 +188,7 @@ export const InteractivePriceGauge = ({
 
   const toggleTab = (key: string) => {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-    setOpenTabs((prev) =>
-      prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]
-    );
+    setOpenTabs((prev) => (prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]));
   };
 
   const pinceLabel = pricingView?.pince_label || defaultLevelLabel;
@@ -216,7 +216,6 @@ export const InteractivePriceGauge = ({
     setModalVisible(true);
   };
 
-
   const handleClose = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     setModalVisible(false);
@@ -231,11 +230,11 @@ export const InteractivePriceGauge = ({
           <View style={[styles.miniTrigger, { backgroundColor: activeColor + '10' }]}>
             <CrabIcon size={18} color={activeColor} />
             <Text style={[styles.miniTitle, { color: activeColor }]}>{pinceLabel}</Text>
-            <View style={[styles.miniBarTrack, { backgroundColor: cursorColor + '18' }]}>
+            <View style={[styles.miniBarTrack, { backgroundColor: activeColor + '18' }]}>
               <View
                 style={[
                   styles.miniBarFill,
-                  { width: `${barFillPercent}%`, backgroundColor: cursorColor },
+                  { width: `${barFillPercent}%`, backgroundColor: activeColor },
                 ]}
               />
             </View>
@@ -257,6 +256,9 @@ export const InteractivePriceGauge = ({
 
           <Animated.View entering={FadeIn.duration(200)} style={styles.cardWrapper}>
             <View style={[styles.card, isDark && { backgroundColor: '#1C1C1E' }]}>
+              <Pressable style={styles.closeBtn} onPress={handleClose}>
+                <Ionicons name="close" size={20} color="rgba(255,255,255,0.8)" />
+              </Pressable>
               <ScrollView
                 contentContainerStyle={styles.scrollContent}
                 showsVerticalScrollIndicator={false}
@@ -276,11 +278,11 @@ export const InteractivePriceGauge = ({
                     {menuTabs.map((tab) => {
                       const isOpen = openTabs.includes(tab.key);
                       const groups = menu.filter(
-                        (cat: any) => toTabKey(cat.category_type || '') === tab.key
+                        (cat: any) => toTabKey(cat.category_type || '') === tab.key,
                       );
                       const totalItems = groups.reduce(
                         (acc: number, cat: any) => acc + (cat.items?.length || 0),
-                        0
+                        0,
                       );
                       return (
                         <View key={tab.key} style={styles.accordionSection}>
@@ -288,11 +290,19 @@ export const InteractivePriceGauge = ({
                             onPress={() => toggleTab(tab.key)}
                             style={[
                               styles.accordionHeader,
-                              isOpen && { borderBottomWidth: 1, borderBottomColor: 'rgba(255,255,255,0.08)' },
+                              isOpen && {
+                                borderBottomWidth: 1,
+                                borderBottomColor: 'rgba(255,255,255,0.08)',
+                              },
                             ]}
                           >
                             <View style={{ flex: 1 }}>
-                              <Text style={[styles.accordionLabel, { color: isOpen ? activeColor : '#FFF' }]}>
+                              <Text
+                                style={[
+                                  styles.accordionLabel,
+                                  { color: isOpen ? activeColor : '#FFF' },
+                                ]}
+                              >
                                 {tab.label}
                               </Text>
                               {!isOpen && (
@@ -317,20 +327,30 @@ export const InteractivePriceGauge = ({
                                   )}
                                   {(cat.items || []).map((item: any, i: number) => (
                                     <View key={i} style={styles.itemRow}>
-                                      <View style={{ flex: 1, marginRight: 8 }}>
-                                        <Text style={styles.itemName} numberOfLines={2}>
-                                          {item.name}
-                                        </Text>
+                                      <View style={{ flex: 1 }}>
+                                        <View style={styles.itemHeader}>
+                                          <Text style={styles.itemName}>
+                                            {item.name}
+                                          </Text>
+                                          <Text
+                                            style={[styles.itemPrice, { color: activeColor }]}
+                                          >
+                                            {item.price}
+                                          </Text>
+                                        </View>
+                                        {item.description && (
+                                          <Text style={styles.itemDescription}>
+                                            {item.description}
+                                          </Text>
+                                        )}
                                         {item.is_highlight && (
-                                          <Text style={[styles.highlightTag, { color: activeColor }]}>
+                                          <Text
+                                            style={[styles.highlightTag, { color: activeColor }]}
+                                          >
                                             ★ Recommandé
                                           </Text>
                                         )}
                                       </View>
-                                      <View style={styles.dotLine}>
-                                        <View style={styles.dotLineInner} />
-                                      </View>
-                                      <Text style={styles.itemPrice}>{item.price}</Text>
                                     </View>
                                   ))}
                                 </View>
@@ -348,7 +368,7 @@ export const InteractivePriceGauge = ({
                         <Text style={[styles.headerTitle, { color: activeColor }]}>
                           LA BARRE DES PINCES
                         </Text>
-                        {view.confidence && (
+                        {view.confidence && view.confidence.label !== 'Non vérifié' && (
                           <View
                             style={[
                               styles.confidenceBadge,
@@ -382,7 +402,7 @@ export const InteractivePriceGauge = ({
                             style={[styles.barFill, animatedBarStyle, { overflow: 'hidden' }]}
                           >
                             <ViewGradient
-                              colors={[cursorColor + 'BF', cursorColor]}
+                              colors={[activeColor + 'BF', activeColor]}
                               start={{ x: 0, y: 0 }}
                               end={{ x: 1, y: 0 }}
                               style={{ flex: 1 }}
@@ -402,40 +422,35 @@ export const InteractivePriceGauge = ({
                       </View>
                     </View>
 
-                    {/* RESTORED: "Pince" Details */}
+                    {/* Pince Title */}
                     <View style={styles.metricsRow}>
-                      <View>
-                        <Text style={[styles.levelLabel, { color: cursorColor }]}>
-                          {pricingView?.pince_label || pinceLabel}
-                        </Text>
-                        <Text style={styles.benchmarkText}>
-                          {pricingView?.benchmark_label || 'vs benchmark Paris'}
-                        </Text>
-                      </View>
-                      <View style={{ alignItems: 'flex-end' }}>
-                        <Text style={styles.deviationText}>
-                          {pricingView?.deviation_text || `${view.avg_price}€`}
-                        </Text>
-                        <Text style={styles.contextText}>
-                          {pricingView?.price_context || 'pour un lieu à Paris'}
-                        </Text>
-                      </View>
+                      <Text style={[styles.levelLabel, { color: activeColor }]}>
+                        {pricingView?.pince_label || pinceLabel}
+                      </Text>
                     </View>
 
-                    {/* BIG NUMBER Display */}
-                    <View style={styles.anchorBox}>
-                      <View style={styles.anchorLeft}>
-                        <Text style={styles.anchorPrice}>{price}</Text>
-                        <Text style={styles.anchorLabel}>
-                          {pricingView?.card_display.description || label}
+                    {/* Framed Price Banner (Sleek Boxed Card) */}
+                    <View
+                      style={[
+                        styles.priceBannerBoxed,
+                        {
+                          borderColor: activeColor + '30',
+                          backgroundColor: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.015)',
+                        },
+                      ]}
+                    >
+                      <View
+                        style={[styles.priceIndicatorLineBoxed, { backgroundColor: activeColor }]}
+                      />
+                      <View style={styles.priceBannerContentBoxed}>
+                        <Text style={styles.priceBannerLabel}>
+                          {(pricingView?.card_display.description || label || '')
+                            .replace(/Plat principal/g, 'Plat médian')
+                            .replace(/plat principal/g, 'plat médian')}
                         </Text>
-                      </View>
-                      <View style={styles.anchorRight}>
-                        <Ionicons
-                          name="information-circle-outline"
-                          size={20}
-                          color="rgba(255,255,255,0.4)"
-                        />
+                        <Text style={[styles.priceBannerValue, { color: activeColor }]}>
+                          {price}
+                        </Text>
                       </View>
                     </View>
 
@@ -456,19 +471,23 @@ export const InteractivePriceGauge = ({
                             <Ionicons name="star-outline" size={16} color={activeColor} />
                             <Text style={styles.categoryTitle}>{menu[0].category}</Text>
                           </View>
-                          {menu[0].items
-                            .slice(0, 3)
-                            .map((item: { name: string; price: string }, i: number) => (
-                              <View key={i} style={styles.itemRow}>
-                                <Text style={styles.itemName} numberOfLines={1}>
-                                  {item.name}
-                                </Text>
-                                <View style={styles.dotLine}>
-                                  <View style={styles.dotLineInner} />
+                          {menu[0].items.slice(0, 3).map((item: any, i: number) => (
+                            <View key={i} style={styles.itemRow}>
+                              <View style={{ flex: 1 }}>
+                                <View style={styles.itemHeader}>
+                                  <Text style={styles.itemName}>
+                                    {item.name}
+                                  </Text>
+                                  <Text style={[styles.itemPrice, { color: activeColor }]}>
+                                    {item.price}
+                                  </Text>
                                 </View>
-                                <Text style={styles.itemPrice}>{item.price}</Text>
+                                {item.description && (
+                                  <Text style={styles.itemDescription}>{item.description}</Text>
+                                )}
                               </View>
-                            ))}
+                            </View>
+                          ))}
                         </View>
                       </View>
                     )}
@@ -493,10 +512,6 @@ export const InteractivePriceGauge = ({
                 )}
               </ScrollView>
             </View>
-
-            <Pressable style={styles.closeBtn} onPress={handleClose}>
-              <Ionicons name="close" size={24} color="rgba(255,255,255,0.8)" />
-            </Pressable>
           </Animated.View>
         </View>
       </Modal>
@@ -654,34 +669,37 @@ const styles = StyleSheet.create({
     fontFamily: 'PlayfairDisplay-Bold',
     letterSpacing: -1,
   },
-  anchorBox: {
+  priceBannerBoxed: {
     flexDirection: 'row',
-    backgroundColor: 'rgba(255,255,255,0.05)',
-    borderRadius: 12,
-    padding: 12,
-    marginTop: 16,
     alignItems: 'center',
-    justifyContent: 'space-between',
+    marginTop: 20,
+    marginBottom: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.08)',
   },
-  anchorLeft: {
-    flexDirection: 'column',
+  priceIndicatorLineBoxed: {
+    width: 3,
+    height: 28,
+    borderRadius: 2,
+    marginRight: 12,
   },
-  anchorPrice: {
-    fontSize: 18,
-    fontWeight: '800',
+  priceBannerContentBoxed: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  priceBannerLabel: {
+    fontSize: 16,
+    fontWeight: '700',
     color: '#FFF',
   },
-  anchorLabel: {
-    fontSize: 12,
-    color: 'rgba(255,255,255,0.6)',
-    fontWeight: '500',
-    marginTop: 2,
-  },
-  anchorRight: {
-    flexDirection: 'row',
-    alignItems: 'center',
+  priceBannerValue: {
+    fontSize: 24,
+    fontWeight: '900',
+    fontFamily: Platform.OS === 'ios' ? 'System' : 'sans-serif-black',
   },
   priceBlock: {
     borderRadius: 20,
@@ -732,15 +750,25 @@ const styles = StyleSheet.create({
   },
   categoryTitle: { fontSize: 14, fontWeight: '700', color: '#FFF', letterSpacing: 1 },
   itemRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 10,
+    marginBottom: 14,
   },
-  itemName: { fontSize: 15, color: '#E5E7EB', flexShrink: 1, marginRight: 10 },
-  itemPrice: { fontSize: 15, fontWeight: '600', color: '#FFF' },
-  dotLine: { flex: 1, height: 1, overflow: 'hidden', marginHorizontal: 8 },
-  dotLineInner: { height: 1, backgroundColor: 'rgba(255,255,255,0.1)', width: '100%' },
+  itemHeader: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+    gap: 8,
+    flexWrap: 'wrap',
+    marginBottom: 2,
+  },
+  itemName: { fontSize: 15, color: '#E5E7EB', fontWeight: '600' },
+  itemPriceInline: { fontSize: 15, fontWeight: '700' },
+  itemPrice: { fontSize: 14, fontWeight: '700' },
+  itemDescription: {
+    fontSize: 12,
+    color: 'rgba(255,255,255,0.45)',
+    marginTop: 4,
+    fontWeight: '400',
+    lineHeight: 16,
+  },
 
   fullMenuBtn: {
     flexDirection: 'row',
@@ -770,6 +798,7 @@ const styles = StyleSheet.create({
     padding: 8,
     backgroundColor: 'rgba(255,255,255,0.1)',
     borderRadius: 20,
+    zIndex: 20,
   },
 
   // ── Accordion ─────────────────────────────────────────────────────────────

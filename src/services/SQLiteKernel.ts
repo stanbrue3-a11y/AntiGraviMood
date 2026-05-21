@@ -22,7 +22,7 @@ export class SQLiteKernel {
   private db: SQLite.SQLiteDatabase | null = null;
   private kyselyDb: Kysely<Database> | null = null;
 
-  constructor() { }
+  constructor() {}
 
   /**
    * Attaches the SQLite kernel by ensuring the binary is deployed and opened.
@@ -74,9 +74,7 @@ export class SQLiteKernel {
         const deployedHash = await AsyncStorage.getItem(SQLiteKernel.VERSION_KEY);
         console.warn(`📊 [Kernel] Hash Check: Deployed=${deployedHash} | Bundled=${currentHash}`);
         if (deployedHash !== currentHash) {
-          logger.log(
-            `🔄 [Kernel] Hash shift detected (${deployedHash} -> ${currentHash})`,
-          );
+          logger.log(`🔄 [Kernel] Hash shift detected (${deployedHash} -> ${currentHash})`);
           // CRITICAL: Must delete WAL and SHM accompanies to prevent malformation
           await FileSystem.deleteAsync(dbPath, { idempotent: true });
           await FileSystem.deleteAsync(`${dbPath}-wal`, { idempotent: true });
@@ -99,7 +97,9 @@ export class SQLiteKernel {
       try {
         this.db = await SQLite.openDatabaseAsync(SQLiteKernel.DB_NAME);
         // 4. Integrity check — actually verify the result
-        const check = await this.db.getFirstAsync<{ integrity_check: string }>('PRAGMA integrity_check;');
+        const check = await this.db.getFirstAsync<{ integrity_check: string }>(
+          'PRAGMA integrity_check;',
+        );
         if (check?.integrity_check !== 'ok') {
           throw new Error(`Integrity check failed: ${check?.integrity_check}`);
         }
@@ -107,7 +107,9 @@ export class SQLiteKernel {
         logger.log(`🔧 [Kernel] DB corrupted or malformed, force redeploying...`);
         // Close any partially opened DB
         if (this.db) {
-          try { await this.db.closeAsync(); } catch (_) { }
+          try {
+            await this.db.closeAsync();
+          } catch (_) {}
           this.db = null;
         }
         // Delete and redeploy (Atomically)
@@ -123,7 +125,9 @@ export class SQLiteKernel {
         this.db = await SQLite.openDatabaseAsync(SQLiteKernel.DB_NAME);
 
         // Final sanity check after redeploy
-        const finalCheck = await this.db.getFirstAsync<{ integrity_check: string }>('PRAGMA integrity_check;');
+        const finalCheck = await this.db.getFirstAsync<{ integrity_check: string }>(
+          'PRAGMA integrity_check;',
+        );
         if (finalCheck?.integrity_check !== 'ok') {
           throw new Error(`Fatal: Redepoyed DB is still malformed: ${finalCheck?.integrity_check}`);
         }

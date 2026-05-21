@@ -224,21 +224,26 @@ export const isOpenNow = (place: Place): boolean => {
   const todayFrShort = todayFr.substring(0, 3);
 
   // Split and filter for today's ranges
-  const allLines = raw.split(/[|,\n]/).map((s) => s.trim()).filter(Boolean);
-  const todayLines = allLines.filter(line => {
+  const allLines = raw
+    .split(/[|,\n]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const todayLines = allLines.filter((line) => {
     const lower = line.toLowerCase();
-    const otherDays = daysFr.filter(d => d !== todayFr);
-    const mentionsOtherDay = otherDays.some(d => lower.includes(d) || lower.includes(d.substring(0,3)));
+    const otherDays = daysFr.filter((d) => d !== todayFr);
+    const mentionsOtherDay = otherDays.some(
+      (d) => lower.includes(d) || lower.includes(d.substring(0, 3)),
+    );
     return lower.includes(todayFr) || lower.includes(todayFrShort) || !mentionsOtherDay;
   });
 
   if (todayLines.length === 0) return false;
 
-  const ranges = todayLines.map(line => {
+  const ranges = todayLines.map((line) => {
     const match = line.match(/(?:[A-Za-zÀ-ÿ]+\s*[:]\s*)(.*)/);
     const timeStr = match ? match[1].trim() : line;
     return new OpeningHours(timeStr);
   });
 
-  return ranges.some(oh => oh.isOpen(currentHour));
+  return ranges.some((oh) => oh.isOpen(currentHour));
 };

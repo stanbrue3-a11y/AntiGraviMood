@@ -147,11 +147,11 @@ export class PlaceMapper {
       value_score: 80,
 
       // Item prices
-      pint_price: (row.pint_price ?? pricingData.pint_price) ?? undefined,
-      cocktail_price: (row.cocktail_price ?? pricingData.cocktail_price) ?? undefined,
-      wine_glass: (row.wine_glass ?? pricingData.wine_glass) ?? undefined,
-      coffee_price: (row.coffee_price ?? pricingData.coffee_price) ?? undefined,
-      dish_price: (row.main_dish_price ?? pricingData.dish_price) ?? undefined,
+      pint_price: row.pint_price ?? pricingData.pint_price ?? undefined,
+      cocktail_price: row.cocktail_price ?? pricingData.cocktail_price ?? undefined,
+      wine_glass: row.wine_glass ?? pricingData.wine_glass ?? undefined,
+      coffee_price: row.coffee_price ?? pricingData.coffee_price ?? undefined,
+      dish_price: row.main_dish_price ?? pricingData.dish_price ?? undefined,
 
       // Extended prices
       shot_price: pricingData.shot_price ?? undefined,
@@ -175,7 +175,9 @@ export class PlaceMapper {
         display_label: cat.display_label,
         items: (cat.items || []).map((item: any) => ({
           name: item.name,
-          price: item.price_cents ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€` : item.price,
+          price: item.price_cents
+            ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€`
+            : item.price,
           price_cents: item.price_cents,
           description: item.description || undefined,
           is_highlight: item.is_highlight || false,
@@ -183,7 +185,10 @@ export class PlaceMapper {
       })),
     };
 
-    const type = PriceEngine.resolveDrinkType(row.category as any, typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : []);
+    const type = PriceEngine.resolveDrinkType(
+      row.category as any,
+      typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : [],
+    );
     pricing.primary_price_type = type;
     pricing.index_price = PriceEngine.getReferencePrice(pricing as any, type) || 0;
 
@@ -256,9 +261,18 @@ export class PlaceMapper {
       },
 
       mood_scores: {
-        chill: { overall: typeof moodScores.chill === 'number' ? moodScores.chill : 50, criteria: undefined },
-        festif: { overall: typeof moodScores.festif === 'number' ? moodScores.festif : 50, criteria: undefined },
-        culturel: { overall: typeof moodScores.culturel === 'number' ? moodScores.culturel : 50, criteria: undefined },
+        chill: {
+          overall: typeof moodScores.chill === 'number' ? moodScores.chill : 50,
+          criteria: undefined,
+        },
+        festif: {
+          overall: typeof moodScores.festif === 'number' ? moodScores.festif : 50,
+          criteria: undefined,
+        },
+        culturel: {
+          overall: typeof moodScores.culturel === 'number' ? moodScores.culturel : 50,
+          criteria: undefined,
+        },
       },
 
       vibes: vibes,
@@ -303,7 +317,10 @@ export class PlaceMapper {
 
   static mapRowToSkeleton(row: PlaceRow): PlaceSkeleton {
     const moodScores = this.safeValidate(row.mood_scores_json, PlaceMoodScoresSchema, {});
-    const dominantMood = this.determineDominantMood(moodScores as any, row.dominant_mood) as MoodType;
+    const dominantMood = this.determineDominantMood(
+      moodScores as any,
+      row.dominant_mood,
+    ) as MoodType;
 
     const pricing: Pricing = {
       type: (row.category === 'café'
@@ -323,7 +340,10 @@ export class PlaceMapper {
       menu_items: [],
     };
 
-    const type = PriceEngine.resolveDrinkType(row.category as any, typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : []);
+    const type = PriceEngine.resolveDrinkType(
+      row.category as any,
+      typeof row.subcategory === 'string' ? row.subcategory.split(',').map((s) => s.trim()) : [],
+    );
     pricing.primary_price_type = type;
     pricing.index_price = PriceEngine.getReferencePrice(pricing as any, type) || 0;
 
@@ -348,7 +368,9 @@ export class PlaceMapper {
     };
 
     if (skeleton.michelin_stars) {
-      console.warn(`🦴 [Skeleton] Found Michelin Star: ${skeleton.name} -> ${skeleton.michelin_stars}`);
+      console.warn(
+        `🦴 [Skeleton] Found Michelin Star: ${skeleton.name} -> ${skeleton.michelin_stars}`,
+      );
     }
 
     return skeleton;
@@ -385,15 +407,15 @@ export class PlaceMapper {
       is_free: place.pricing.is_free,
       unit: place.pricing.unit,
       type: place.pricing.type,
-      pint_price: (pricingData.pint_price ?? place.pricing.pint_price) ?? undefined,
-      cocktail_price: (pricingData.cocktail_price ?? place.pricing.cocktail_price) ?? undefined,
-      wine_glass: (pricingData.wine_glass ?? place.pricing.wine_glass) ?? undefined,
-      coffee_price: (pricingData.coffee_price ?? place.pricing.coffee_price) ?? undefined,
-      dish_price: (pricingData.dish_price ?? place.pricing.dish_price) ?? undefined,
-      hh_pint: (pricingData.hh_pint ?? place.pricing.hh_pint) ?? undefined,
-      hh_cocktail: (pricingData.hh_cocktail ?? place.pricing.hh_cocktail) ?? undefined,
-      hh_wine: (pricingData.hh_wine ?? place.pricing.hh_wine) ?? undefined,
-      hh_time: (pricingData.hh_time ?? place.pricing.hh_time) ?? undefined,
+      pint_price: pricingData.pint_price ?? place.pricing.pint_price ?? undefined,
+      cocktail_price: pricingData.cocktail_price ?? place.pricing.cocktail_price ?? undefined,
+      wine_glass: pricingData.wine_glass ?? place.pricing.wine_glass ?? undefined,
+      coffee_price: pricingData.coffee_price ?? place.pricing.coffee_price ?? undefined,
+      dish_price: pricingData.dish_price ?? place.pricing.dish_price ?? undefined,
+      hh_pint: pricingData.hh_pint ?? place.pricing.hh_pint ?? undefined,
+      hh_cocktail: pricingData.hh_cocktail ?? place.pricing.hh_cocktail ?? undefined,
+      hh_wine: pricingData.hh_wine ?? place.pricing.hh_wine ?? undefined,
+      hh_time: pricingData.hh_time ?? place.pricing.hh_time ?? undefined,
       verified_at: (pricingData.verified_at || place.pricing.verified_at) ?? undefined,
       smart_tip: (pricingData.smart_tip || place.pricing.smart_tip) ?? undefined,
       menu_items:
@@ -404,7 +426,9 @@ export class PlaceMapper {
               display_label: cat.display_label,
               items: (cat.items || []).map((item: any) => ({
                 name: item.name,
-                price: item.price_cents ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€` : item.price,
+                price: item.price_cents
+                  ? `${(item.price_cents / 100).toFixed(item.price_cents % 100 === 0 ? 0 : 2)}€`
+                  : item.price,
                 price_cents: item.price_cents,
                 description: item.description || undefined,
                 is_highlight: item.is_highlight || false,
@@ -413,7 +437,12 @@ export class PlaceMapper {
           : place.pricing.menu_items,
     };
 
-    const type = PriceEngine.resolveDrinkType(detailsRow.category as any, typeof detailsRow.subcategory === 'string' ? detailsRow.subcategory.split(',').map((s) => s.trim()) : []);
+    const type = PriceEngine.resolveDrinkType(
+      detailsRow.category as any,
+      typeof detailsRow.subcategory === 'string'
+        ? detailsRow.subcategory.split(',').map((s) => s.trim())
+        : [],
+    );
     updatedPricing.primary_price_type = type;
     updatedPricing.index_price = PriceEngine.getReferencePrice(updatedPricing as any, type) || 0;
 
@@ -439,7 +468,10 @@ export class PlaceMapper {
         : place.specials,
       media: {
         ...place.media,
-        google_photos: this.safeJsonParse<string[] | undefined>(detailsRow.google_photos_json, undefined),
+        google_photos: this.safeJsonParse<string[] | undefined>(
+          detailsRow.google_photos_json,
+          undefined,
+        ),
       },
       insider_tip: realTalkRaw.insider_tip || detailsRow.insider_tip || place.insider_tip,
       expert_catchline:
@@ -448,5 +480,4 @@ export class PlaceMapper {
 
     return hydratedPlace;
   }
-
 }

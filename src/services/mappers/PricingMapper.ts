@@ -12,9 +12,13 @@ export class PricingMapper {
   static getSmartAnchor(
     pricing: Pricing,
     place: Pick<Place, 'subcategories' | 'pricing'> & { category: string },
-    activeCategories: string[] = []
+    activeCategories: string[] = [],
   ): { price: string; label: string; highlight: boolean; badge?: string; description?: string } {
-    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || [], activeCategories);
+    const drinkType = PriceEngine.resolveDrinkType(
+      place.category as any,
+      place.subcategories || [],
+      activeCategories,
+    );
     const resolved = PriceEngine.resolveReferencePrice(pricing as any, drinkType);
     const info = PriceEngine.getInfo(resolved.type);
 
@@ -22,11 +26,11 @@ export class PricingMapper {
     const priceLabel = resolved.price > 0 ? `${resolved.price}€` : '-';
 
     // Logic: If it's a long HH and the price we found matches the HH price for that drink type
-    const isActuallyHH = isLongHH && (
-      (resolved.type === 'pint' && resolved.price === pricing.hh_pint) ||
-      (resolved.type === 'cocktail' && resolved.price === pricing.hh_cocktail) ||
-      (resolved.type === 'wine' && resolved.price === pricing.hh_wine)
-    );
+    const isActuallyHH =
+      isLongHH &&
+      ((resolved.type === 'pint' && resolved.price === pricing.hh_pint) ||
+        (resolved.type === 'cocktail' && resolved.price === pricing.hh_cocktail) ||
+        (resolved.type === 'wine' && resolved.price === pricing.hh_wine));
 
     return {
       label: isActuallyHH ? `${info.label} (HH)` : info.label,
@@ -39,16 +43,25 @@ export class PricingMapper {
 
   static mapPricingView(
     pricing: Pricing,
-    place: Pick<Place, 'subcategories'> & { category: string; practical_info?: any; pricing?: Pricing },
+    place: Pick<Place, 'subcategories' | 'dominant_mood'> & {
+      category: string;
+      practical_info?: any;
+      pricing?: Pricing;
+    },
     testDate?: Date,
-    activeCategories: string[] = []
+    activeCategories: string[] = [],
   ): PricingView {
-    const drinkType = PriceEngine.resolveDrinkType(place.category as any, place.subcategories || [], activeCategories);
+    const drinkType = PriceEngine.resolveDrinkType(
+      place.category as any,
+      place.subcategories || [],
+      activeCategories,
+    );
     const drinkInfo = PriceEngine.getInfo(drinkType);
     const sanitizedPricing = { ...pricing, hh_time: pricing.hh_time ?? undefined };
     const resolved = PriceEngine.resolveReferencePrice(sanitizedPricing as any, drinkType);
 
-    const metrics = CrabCalculator.getMetrics(pricing, drinkType);
+    const mood = place.dominant_mood || 'chill';
+    const metrics = CrabCalculator.getMetrics(pricing, drinkType, mood);
     const anchor = this.getSmartAnchor(pricing, { ...place, pricing }, activeCategories);
 
     let menu = pricing.menu_items || [];
@@ -74,7 +87,6 @@ export class PricingMapper {
     };
 
     const sign = metrics.deviationPercent > 0 ? '+' : '';
-
 
     // --- CONTEXTUAL SORTING (V2 Architecture) ---
     if (menu && menu.length > 1) {

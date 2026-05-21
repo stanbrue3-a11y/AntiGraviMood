@@ -6,7 +6,7 @@ dotenv.config({ path: path.join(__dirname, '../.env') });
 
 const supabase = createClient(
   process.env.EXPO_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
 async function audit14() {
@@ -20,9 +20,9 @@ async function audit14() {
     return;
   }
 
-  const scaffolded = data.filter(p => p.status === 'SCAFFOLDED');
-  const published = data.filter(p => p.status === 'PUBLISHED');
-  const elite = scaffolded.filter(p => (p.google_rating || 0) > 4.3);
+  const scaffolded = data.filter((p) => p.status === 'SCAFFOLDED');
+  const published = data.filter((p) => p.status === 'PUBLISHED');
+  const elite = scaffolded.filter((p) => (p.google_rating || 0) > 4.3);
 
   console.log('--- STATISTIQUES 14e ---');
   console.log(`Total en base : ${data.length}`);
@@ -30,9 +30,11 @@ async function audit14() {
   console.log(`SCAFFOLDED : ${scaffolded.length}`);
   console.log(`CIBLES ELITE (> 4.3) : ${elite.length}`);
   console.log('\n--- LISTE ELITE ---');
-  elite.sort((a, b) => b.google_rating - a.google_rating).forEach(p => {
-    console.log(`[${p.google_rating}] ${p.name} (${p.slug})`);
-  });
+  elite
+    .sort((a, b) => b.google_rating - a.google_rating)
+    .forEach((p) => {
+      console.log(`[${p.google_rating}] ${p.name} (${p.slug})`);
+    });
 }
 
 audit14();

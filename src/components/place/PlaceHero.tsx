@@ -97,7 +97,8 @@ export const PlaceHero = React.memo(() => {
       <View style={styles.heroContent} pointerEvents="none">
         <View style={styles.titleRow}>
           <Text style={styles.heroTitle}>
-            {viewModel.hero.title} {viewModel.hero.michelin_stars ? '★'.repeat(viewModel.hero.michelin_stars) : ''}
+            {viewModel.hero.title}{' '}
+            {viewModel.hero.michelin_stars ? '★'.repeat(viewModel.hero.michelin_stars) : ''}
           </Text>
           {viewModel.tags?.includes('pastille_bleue') && (
             <View style={[styles.statusDot, { backgroundColor: '#3B82F6' }]} />

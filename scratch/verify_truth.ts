@@ -9,7 +9,7 @@ const places = [
   { slug: 'le-procope', id: 'ChIJdQn7zN5x5kcRhKnVo8EDJS0' },
   { slug: 'le-relais-de-lodeon', id: 'ChIJ14gott5x5kcRB7pH3xLn1hk' },
   { slug: 'topokki', id: 'ChIJzUM4Y5hx5kcRZww7LwRXFuE' },
-  { slug: 'les-editeurs', id: 'ChIJF6_Jst5x5kcRF0sXkzeGFHI' }
+  { slug: 'les-editeurs', id: 'ChIJF6_Jst5x5kcRF0sXkzeGFHI' },
 ];
 
 async function check() {

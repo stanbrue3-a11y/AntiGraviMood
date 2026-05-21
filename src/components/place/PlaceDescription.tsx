@@ -48,7 +48,6 @@ export const PlaceDescription = React.memo(() => {
       </TouchableOpacity>
 
       <View style={styles.content}>
-
         <Text
           style={[styles.text, { color: theme.text.primary }]}
           numberOfLines={expanded ? undefined : 3}

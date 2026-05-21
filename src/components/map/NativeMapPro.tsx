@@ -49,7 +49,7 @@ export const NativeMapPro = React.memo(
     const [isBouncing, setIsBouncing] = React.useState(false);
 
     // UI Context for intelligence
-    const activeCategories = useSearchStore(s => s.selectedCategories);
+    const activeCategories = useSearchStore((s) => s.selectedCategories);
 
     // External highlight effect
     useEffect(() => {
@@ -145,7 +145,7 @@ export const NativeMapPro = React.memo(
                 animationDuration: 600,
                 animationMode: 'flyTo',
               });
-            } catch (err) { }
+            } catch (err) {}
           }
         } else {
           const numericId = feature.properties?.numeric_id;

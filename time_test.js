@@ -19,13 +19,17 @@ class OpeningHours {
   }
 }
 const standard = '12:00-15:00, 19:00-23:00';
-const lines = standard.split(/[,\n]/).map((s) => s.trim()).filter(Boolean);
-const rawRanges = lines.map(line => {
-  const timePart = line.includes(':') && !/^\d{1,2}h/.test(line)
-    ? line.split(':').slice(1).join(':').trim()
-    : line;
+const lines = standard
+  .split(/[,\n]/)
+  .map((s) => s.trim())
+  .filter(Boolean);
+const rawRanges = lines.map((line) => {
+  const timePart =
+    line.includes(':') && !/^\d{1,2}h/.test(line)
+      ? line.split(':').slice(1).join(':').trim()
+      : line;
   return timePart;
 });
 console.log(rawRanges);
-const ranges = rawRanges.map(r => new OpeningHours(r));
+const ranges = rawRanges.map((r) => new OpeningHours(r));
 console.log(ranges);

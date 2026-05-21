@@ -129,7 +129,7 @@ export const useSearchStore = create<SearchState>((set, get) => ({
     }
   },
 
-  warmUpPrices: () => { },
+  warmUpPrices: () => {},
 
   setSearchQuery: (query) => set({ searchQuery: query }),
   setTimeRange: (range) => set({ timeRange: range }),
