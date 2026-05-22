@@ -1,0 +1,422 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Bulgogi façon Séoul & Bibimbap traditionnel au choix.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.36.33.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.36.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.36.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.36.56.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.37.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.37.06.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.37.12.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.37.18.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/daon/Capture_d_e_cran_2026-05-22_a__20.37.26.png"
+  ],
+  "pint_price": 8,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Yangnyeom Gaji",
+          "price_cents": 1100,
+          "description": "Beignets d'aubergine enrobés de sauce yangnyeom",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet Frit à la sauce coréenne",
+          "price_cents": 1150,
+          "description": "Sweet chili ou sauce mayonnaise",
+          "is_highlight": false
+        },
+        {
+          "name": "Kun Mandu (V)",
+          "price_cents": 850,
+          "description": "Raviolis grillés aux légumes (6 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cheese Tteokbokki",
+          "price_cents": 1300,
+          "description": "Gâteaux de riz et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Corn Cheese",
+          "price_cents": 1000,
+          "description": "Maïs sauté au fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignet de Crevette",
+          "price_cents": 1450,
+          "description": "Beignets de crevettes (6 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi Ball (V)",
+          "price_cents": 900,
+          "description": "Croquettes de riz au kimchi frites (2 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Korokké",
+          "price_cents": 700,
+          "description": "Croquettes de patate douce (4 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de Tofu (V)",
+          "price_cents": 1000,
+          "description": "Salade de tofu frit à la sauce sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de Concombre (V)",
+          "price_cents": 800,
+          "description": "Vinaigré et pimenté",
+          "is_highlight": false
+        },
+        {
+          "name": "Jap-Chae aux Légumes (V)",
+          "price_cents": 1300,
+          "description": "Sauté de vermicelles aux légumes et sésames",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi Cheese Jeon",
+          "price_cents": 1400,
+          "description": "Galette de kimchi et fromage",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats Principaux",
+      "items": [
+        {
+          "name": "Séoul Bulgogi",
+          "price_cents": 1850,
+          "description": "Bœuf mariné bulgogi façon Séoul, petits légumes, vermicelles, patates douces",
+          "is_highlight": true
+        },
+        {
+          "name": "Jeyuk Bokkeum",
+          "price_cents": 1750,
+          "description": "Porc sauté épicé petits légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Dakgalbi Bokkeum",
+          "price_cents": 1750,
+          "description": "Poulet sauté épicé petits légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Classic Katsu",
+          "price_cents": 1650,
+          "description": "Poulet pané",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi Bokkeumbap",
+          "price_cents": 1650,
+          "description": "Riz sauté au kimchi avec œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap",
+          "price_cents": 1700,
+          "description": "Tofu (V), Poulet, Poulet frit, Porc, Bœuf (+1€) au choix",
+          "is_highlight": true
+        },
+        {
+          "name": "Doenjang Jjigae (V)",
+          "price_cents": 1750,
+          "description": "Ragoût de pâte de soja avec tofu",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi Jjigae",
+          "price_cents": 1850,
+          "description": "Ragoût de kimchi avec porc épicé",
+          "is_highlight": false
+        },
+        {
+          "name": "Daon Guksu",
+          "price_cents": 1900,
+          "description": "Nouilles en soupe pimentée (au bœuf ou aux tripes de bœuf)",
+          "is_highlight": false
+        },
+        {
+          "name": "Naeng-Myun",
+          "price_cents": 1800,
+          "description": "Nouilles de sarrasin froides (soupe ou bibim pimenté sans soupe)",
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf Mariné (Barbecue)",
+          "price_cents": 2200,
+          "description": "Barbecue coréen traditionnel bœuf mariné",
+          "is_highlight": false
+        },
+        {
+          "name": "Porc Mariné (Barbecue)",
+          "price_cents": 2100,
+          "description": "Barbecue de poitrine de porc mariné",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet Mariné (Barbecue)",
+          "price_cents": 2100,
+          "description": "Barbecue cuisses de poulet mariné",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "À Partager",
+      "items": [
+        {
+          "name": "Bulgogi Jeongol",
+          "price_cents": 3800,
+          "description": "Ragoût de bœuf légumes vermicelles de patate douce sauce bulgogi",
+          "is_highlight": false
+        },
+        {
+          "name": "Cheese Dakgalbi",
+          "price_cents": 3900,
+          "description": "Poulet sauté épicé avec fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Korea Wings Planche - M",
+          "price_cents": 1600,
+          "description": "Ailes de poulet frits au trois saveurs & frites de pommes de terre (6 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Korea Wings Planche - L",
+          "price_cents": 3000,
+          "description": "Ailes de poulet frits au trois saveurs & frites de pommes de terre (12 pièces)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "Bol de riz",
+          "price_cents": 250,
+          "description": "Bol de riz blanc supplémentaire",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi",
+          "price_cents": 500,
+          "description": "Portion de kimchi maison supplémentaire",
+          "is_highlight": false
+        },
+        {
+          "name": "Frites de pommes de terre",
+          "price_cents": 450,
+          "description": "Portion de frites supplémentaire",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tartelette au Yuja",
+          "price_cents": 900,
+          "description": "Tartelette au citron et yuja, ricotta citronnée",
+          "is_highlight": false
+        },
+        {
+          "name": "Panna Cotta au sésame noir",
+          "price_cents": 800,
+          "description": "Panna cotta au sésame noir",
+          "is_highlight": false
+        },
+        {
+          "name": "Mochi Glacé",
+          "price_cents": 350,
+          "description": "Yuja, Sésame noir, Mangue et passion, Vanille au choix",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola",
+          "price_cents": 300,
+          "description": "Canette 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola Zéro",
+          "price_cents": 300,
+          "description": "Canette 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Sprite",
+          "price_cents": 300,
+          "description": "Canette 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Ice Tea",
+          "price_cents": 300,
+          "description": "Canette 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Evian (50cl)",
+          "price_cents": 250,
+          "description": "Bouteille 50cl",
+          "is_highlight": false
+        },
+        {
+          "name": "San Pellegrino (50cl)",
+          "price_cents": 300,
+          "description": "Bouteille 50cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de poire (coréen)",
+          "price_cents": 400,
+          "description": "Canette 238ml",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de raisin (coréen)",
+          "price_cents": 400,
+          "description": "Canette 238ml",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Yuza miel",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Aloe vera miel",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé gingembre miel",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé omija sucré",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé sceau de salomon",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé vert",
+          "price_cents": 400,
+          "description": "Thé coréen traditionnel chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Espresso",
+          "price_cents": 250,
+          "description": "Café espresso classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Allongé",
+          "price_cents": 250,
+          "description": "Café allongé classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Décaféiné",
+          "price_cents": 250,
+          "description": "Café décaféiné",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Bière coréenne",
+          "price_cents": 500,
+          "description": "Bière locale en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Somek",
+          "price_cents": 2200,
+          "description": "Mélange traditionnel de 2 bières et 1 soju",
+          "is_highlight": false
+        },
+        {
+          "name": "Asahi pression (Demi)",
+          "price_cents": 450,
+          "description": "Pression 250ml",
+          "is_highlight": false
+        },
+        {
+          "name": "Asahi pression (Pinte)",
+          "price_cents": 800,
+          "description": "Pression 500ml",
+          "is_highlight": false
+        },
+        {
+          "name": "Soju Classic",
+          "price_cents": 1400,
+          "description": "Soju classique Chamiseul",
+          "is_highlight": false
+        },
+        {
+          "name": "Soju aromatisé",
+          "price_cents": 1400,
+          "description": "Soju aromatisé au choix (Myrtille, Pêche, Prune)",
+          "is_highlight": false
+        },
+        {
+          "name": "Earl Grey High Ball",
+          "price_cents": 900,
+          "description": "Mélange de whisky et thé Earl Grey",
+          "is_highlight": false
+        },
+        {
+          "name": "Yuja High Ball",
+          "price_cents": 900,
+          "description": "Mélange de whisky et Yuja",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
