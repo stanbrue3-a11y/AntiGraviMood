@@ -1,0 +1,850 @@
+{
+  "on_mange_quoi_ici": "Cuisine bretonne. Galette en double épaisseur & Crêpe au caramel maison.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-le-petit-josselin/Capture_d_e_cran_2026-05-20_a__15.51.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-le-petit-josselin/Capture_d_e_cran_2026-05-20_a__15.51.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-le-petit-josselin/Capture_d_e_cran_2026-05-20_a__15.51.31.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-le-petit-josselin/Capture_d_e_cran_2026-05-20_a__15.51.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-le-petit-josselin/Capture_d_e_cran_2026-05-20_a__15.51.40.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2,
+  "wine_glass": 5,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Couples de Sarrasin",
+      "items": [
+        {
+          "name": "Beurre",
+          "price_cents": 720,
+          "description": "Galette de blé noir au beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Jambon",
+          "price_cents": 1120,
+          "description": "Galette de blé noir au jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Fromage",
+          "price_cents": 1120,
+          "description": "Galette de blé noir à l'emmental râpé",
+          "is_highlight": false
+        },
+        {
+          "name": "Œuf (miroir ou brouillé)",
+          "price_cents": 1120,
+          "description": "Galette de blé noir à l'œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisse",
+          "price_cents": 1120,
+          "description": "Galette de blé noir à la saucisse",
+          "is_highlight": false
+        },
+        {
+          "name": "Oignon",
+          "price_cents": 1120,
+          "description": "Galette de blé noir aux oignons confits",
+          "is_highlight": false
+        },
+        {
+          "name": "Champignon frais",
+          "price_cents": 1120,
+          "description": "Galette de blé noir aux champignons de Paris frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Lard",
+          "price_cents": 1120,
+          "description": "Galette de blé noir au lard doré",
+          "is_highlight": false
+        },
+        {
+          "name": "Jambon Fromage",
+          "price_cents": 1220,
+          "description": "Galette de blé noir jambon et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisse Fromage",
+          "price_cents": 1220,
+          "description": "Galette de blé noir saucisse et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Lard, Oignon",
+          "price_cents": 1220,
+          "description": "Galette de blé noir lard et oignon confit",
+          "is_highlight": false
+        },
+        {
+          "name": "Complète (Œuf, Jambon, Fromage)",
+          "price_cents": 1300,
+          "description": "Œuf, jambon blanc, emmental",
+          "is_highlight": true
+        },
+        {
+          "name": "Paysanne (Œuf, Lard, Oignon)",
+          "price_cents": 1300,
+          "description": "Œuf, lard, oignon confit",
+          "is_highlight": false
+        },
+        {
+          "name": "Chèvre",
+          "price_cents": 1220,
+          "description": "Galette de blé noir au fromage de chèvre",
+          "is_highlight": false
+        },
+        {
+          "name": "Roquefort",
+          "price_cents": 1220,
+          "description": "Galette de blé noir au fromage de roquefort",
+          "is_highlight": false
+        },
+        {
+          "name": "Chèvre, Noix",
+          "price_cents": 1300,
+          "description": "Galette de blé noir chèvre et noix",
+          "is_highlight": false
+        },
+        {
+          "name": "Roquefort, Noix",
+          "price_cents": 1300,
+          "description": "Galette de blé noir roquefort et noix",
+          "is_highlight": false
+        },
+        {
+          "name": "Biche (Chèvre, Miel)",
+          "price_cents": 1300,
+          "description": "Galette de blé noir chèvre et miel",
+          "is_highlight": false
+        },
+        {
+          "name": "Andouille de Guémené",
+          "price_cents": 1520,
+          "description": "Galette de blé noir à l'andouille de Guémené",
+          "is_highlight": false
+        },
+        {
+          "name": "Saumon fumé citron et crème",
+          "price_cents": 1520,
+          "description": "Saumon fumé, filet de jus de citron, crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Josselin",
+          "price_cents": 1540,
+          "description": "Œuf, jambon, fromage, champignons frais",
+          "is_highlight": true
+        },
+        {
+          "name": "Morbihannaise",
+          "price_cents": 1540,
+          "description": "Œuf, jambon, fromage, tomate fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Bretonne",
+          "price_cents": 1540,
+          "description": "Saucisse, fromage, tomate fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Bertine",
+          "price_cents": 1540,
+          "description": "Œuf, jambon, fromage, oignons confits",
+          "is_highlight": false
+        },
+        {
+          "name": "Végétarienne",
+          "price_cents": 1540,
+          "description": "Œuf, fromage, oignon, tomate fraîche, champignons frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Meneac",
+          "price_cents": 1540,
+          "description": "Épinards frais, chèvre, crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Maraîchère",
+          "price_cents": 1540,
+          "description": "Épinards frais, œuf, lard, fromage, crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "4 Fromages",
+          "price_cents": 1540,
+          "description": "Emmental, camembert, roquefort, chèvre, crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Les Forges",
+          "price_cents": 1590,
+          "description": "Chèvre, tomate fraîche, jambon de pays",
+          "is_highlight": false
+        },
+        {
+          "name": "Savoyarde",
+          "price_cents": 1590,
+          "description": "Reblochon fondant, jambon de pays, pommes de terre, crème fraîche, oignons confits",
+          "is_highlight": false
+        },
+        {
+          "name": "Galinette",
+          "price_cents": 1590,
+          "description": "Fromage, poulet émincé, tomate fraîche, épinards",
+          "is_highlight": false
+        },
+        {
+          "name": "Campagnarde",
+          "price_cents": 1590,
+          "description": "Œuf, fromage, pommes de terre sautées, jambon de pays",
+          "is_highlight": false
+        },
+        {
+          "name": "Tureyek",
+          "price_cents": 1590,
+          "description": "Poulet émincé, fromage, champignons frais, pommes de terre",
+          "is_highlight": false
+        },
+        {
+          "name": "Normande",
+          "price_cents": 1590,
+          "description": "Camembert, compote de pommes maison, jambon de pays",
+          "is_highlight": false
+        },
+        {
+          "name": "Guillac",
+          "price_cents": 1590,
+          "description": "Andouille de Guémené, œuf, fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Baruac",
+          "price_cents": 1590,
+          "description": "Saucisse, fromage, pommes de terre, champignons frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Bébert",
+          "price_cents": 1590,
+          "description": "Chèvre, confiture de figues, lard grillé",
+          "is_highlight": true
+        },
+        {
+          "name": "Galette du Moment",
+          "price_cents": 1590,
+          "description": "Recette du moment suggérée à l'ardoise",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Salades",
+      "items": [
+        {
+          "name": "Portion de salade",
+          "price_cents": 200,
+          "description": "Petite portion de salade verte d'accompagnement",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte",
+          "price_cents": 440,
+          "description": "Salade verte croquante assaisonnée",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte aux noix",
+          "price_cents": 660,
+          "description": "Salade verte garnie de cerneaux de noix",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte au roquefort",
+          "price_cents": 660,
+          "description": "Salade verte agrémentée de dés de roquefort",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte roquefort et noix",
+          "price_cents": 880,
+          "description": "Salade verte avec roquefort et cerneaux de noix",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte au poulet",
+          "price_cents": 880,
+          "description": "Salade verte au poulet émincé",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte camembert jambon de pays",
+          "price_cents": 880,
+          "description": "Salade verte garnie de camembert et jambon de pays",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Couples de Froment & Desserts",
+      "items": [
+        {
+          "name": "Beurre Sucre",
+          "price_cents": 720,
+          "description": "Crêpe de froment en double épaisseur au beurre et sucre",
+          "is_highlight": false
+        },
+        {
+          "name": "Confiture de fraise",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la confiture de fraise",
+          "is_highlight": false
+        },
+        {
+          "name": "Confiture de figue",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la confiture de figue",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat maison",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au chocolat chaud maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat + 1 garniture",
+          "price_cents": 1090,
+          "description": "Chocolat maison avec 1 ingrédient au choix (chantilly, orange confite, noix & amandes, banane, glace vanille ou poire)",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat + 2 garnitures",
+          "price_cents": 1180,
+          "description": "Chocolat maison avec 2 ingrédients au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Nutella",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au Nutella",
+          "is_highlight": false
+        },
+        {
+          "name": "Nutella + 1 garniture",
+          "price_cents": 1090,
+          "description": "Nutella avec 1 ingrédient au choix (chantilly, noix de coco ou banane)",
+          "is_highlight": false
+        },
+        {
+          "name": "Nutella + 2 garnitures",
+          "price_cents": 1180,
+          "description": "Nutella avec 2 ingrédients au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Caramel au Beurre Salé Maison",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au caramel au beurre salé fait maison",
+          "is_highlight": true
+        },
+        {
+          "name": "Caramel + 1 garniture",
+          "price_cents": 1090,
+          "description": "Caramel maison avec 1 ingrédient au choix (glace vanille ou chantilly)",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de Spéculoos",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la crème de spéculoos",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de Spéculoos + glace vanille",
+          "price_cents": 1090,
+          "description": "Crème de spéculoos et sa boule de glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de Marrons",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la crème de marrons de l'Ardèche",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de Marrons + crème fraîche",
+          "price_cents": 1090,
+          "description": "Crème de marrons et crème fraîche épaisse",
+          "is_highlight": false
+        },
+        {
+          "name": "Compote de pommes maison",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la compote de pommes faite maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Compote + 1 garniture",
+          "price_cents": 1090,
+          "description": "Compote maison avec 1 ingrédient au choix (chantilly, spéculoos, glace vanille ou noix & amandes)",
+          "is_highlight": false
+        },
+        {
+          "name": "Compote + 2 garnitures",
+          "price_cents": 1180,
+          "description": "Compote maison avec 2 ingrédients au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Frangipane maison",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur à la frangipane maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Frangipane + poire",
+          "price_cents": 1090,
+          "description": "Frangipane maison avec morceaux de poire",
+          "is_highlight": false
+        },
+        {
+          "name": "Citron pressé",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au jus de citron pressé et sucre",
+          "is_highlight": false
+        },
+        {
+          "name": "Miel",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au miel",
+          "is_highlight": false
+        },
+        {
+          "name": "Miel + 1 garniture",
+          "price_cents": 1090,
+          "description": "Miel avec 1 ingrédient au choix (citron pressé ou noix & amandes)",
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop d'érable",
+          "price_cents": 990,
+          "description": "Crêpe de froment en double épaisseur au sirop d'érable",
+          "is_highlight": false
+        },
+        {
+          "name": "Flambée (Rhum, Grand Marnier ou Calvados)",
+          "price_cents": 990,
+          "description": "Crêpe de froment flambée au spiritueux de votre choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Compote flambée calvados",
+          "price_cents": 1090,
+          "description": "Compote de pommes maison flambée au calvados",
+          "is_highlight": false
+        },
+        {
+          "name": "Banane flambée rhum",
+          "price_cents": 1090,
+          "description": "Banane et crêpe flambée au rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "Martiniquaise",
+          "price_cents": 1180,
+          "description": "Chocolat maison, banane fraîche, glace noix de coco, flambée au rhum",
+          "is_highlight": true
+        },
+        {
+          "name": "Chaud/Froid",
+          "price_cents": 1180,
+          "description": "Glace vanille flambée au Grand Marnier",
+          "is_highlight": false
+        },
+        {
+          "name": "Carnac",
+          "price_cents": 1180,
+          "description": "Caramel au beurre salé maison, glace vanille, amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "Garo",
+          "price_cents": 1180,
+          "description": "Orange confite maison flambée au Grand Marnier",
+          "is_highlight": false
+        },
+        {
+          "name": "Lanouée",
+          "price_cents": 1180,
+          "description": "Nutella, banane fraîche, noix de coco râpée",
+          "is_highlight": false
+        },
+        {
+          "name": "Ploermel",
+          "price_cents": 1180,
+          "description": "Chocolat maison, poire pochée, amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "Tatin",
+          "price_cents": 1180,
+          "description": "Compote de pommes maison, caramel beurre salé, glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Quiberon",
+          "price_cents": 1180,
+          "description": "Frangipane maison, poire pochée, amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "Loudeac",
+          "price_cents": 1180,
+          "description": "Compote de pommes maison, spéculoos concassés, glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Brehan",
+          "price_cents": 1180,
+          "description": "Compote de pommes maison, sirop d'érable, glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Cambout",
+          "price_cents": 1180,
+          "description": "Chocolat maison, orange confite maison, amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "Mohon",
+          "price_cents": 1180,
+          "description": "Chocolat maison, frangipane maison, poire pochée",
+          "is_highlight": false
+        },
+        {
+          "name": "Vignola",
+          "price_cents": 1180,
+          "description": "Chocolat maison, cerises amarena, glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe du Moment",
+          "price_cents": 1180,
+          "description": "Recette sucrée du moment suggérée à l'ardoise",
+          "is_highlight": false
+        },
+        {
+          "name": "Glace ou Sorbet (3 boules)",
+          "price_cents": 850,
+          "description": "Trois boules de glace ou sorbet artisanal (Vanille, caramel au beurre salé, coco, fraise, parfum du moment)",
+          "is_highlight": false
+        },
+        {
+          "name": "Belle Île",
+          "price_cents": 950,
+          "description": "Coupe glacée : glace vanille, caramel au beurre salé maison, chantilly maison, amandes grillées",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola (33 cl)",
+          "price_cents": 450,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola Zéro (33 cl)",
+          "price_cents": 450,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Ice Tea (50 cl)",
+          "price_cents": 450,
+          "description": "50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme (25 cl)",
+          "price_cents": 550,
+          "description": "Jus de pomme artisanal 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme pétillant (25 cl)",
+          "price_cents": 550,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Citronnade Bio (25 cl)",
+          "price_cents": 550,
+          "description": "Citronnade biologique maison 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus du moment (25 cl)",
+          "price_cents": 550,
+          "description": "Selon suggestion 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Évian (50 cl)",
+          "price_cents": 400,
+          "description": "Eau minérale plate 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "San Pellegrino (50 cl)",
+          "price_cents": 400,
+          "description": "Eau minérale gazeuse 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Lait Ribot (Tasse 25 cl)",
+          "price_cents": 400,
+          "description": "Lait fermenté traditionnel breton",
+          "is_highlight": false
+        },
+        {
+          "name": "Lait Ribot (Bouteille 1 L)",
+          "price_cents": 800,
+          "description": "Lait fermenté traditionnel breton 1 Litre",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Expresso",
+          "price_cents": 200,
+          "description": "Café expresso classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Décaféiné",
+          "price_cents": 200,
+          "description": "Café décaféiné classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Crème",
+          "price_cents": 400,
+          "description": "Café expresso avec mousse de lait",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Kir Breton (8 cl)",
+          "price_cents": 400,
+          "description": "Apéritif traditionnel : cidre et crème de cassis",
+          "is_highlight": false
+        },
+        {
+          "name": "Kir Vin Blanc (8 cl)",
+          "price_cents": 500,
+          "description": "Apéritif classique : vin blanc et crème de cassis",
+          "is_highlight": false
+        },
+        {
+          "name": "Pommeau de Bretagne (8 cl)",
+          "price_cents": 500,
+          "description": "Apéritif breton à base de moût de pomme et d'eau-de-vie de cidre",
+          "is_highlight": false
+        },
+        {
+          "name": "Chouchen (8 cl)",
+          "price_cents": 500,
+          "description": "Hydromel liquoreux traditionnel breton",
+          "is_highlight": false
+        },
+        {
+          "name": "Whisky Breton (4 cl)",
+          "price_cents": 700,
+          "description": "Digestif ou apéritif au malt breton",
+          "is_highlight": false
+        },
+        {
+          "name": "Apéritif du moment",
+          "price_cents": 500,
+          "description": "Suggestion d'apéritif du moment",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Bordeaux (12 cl)",
+          "price_cents": 500,
+          "description": "Vin rouge AOP Bordeaux 12 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bordeaux (Pichet 25 cl)",
+          "price_cents": 800,
+          "description": "Vin rouge AOP Bordeaux pichet 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bordeaux (Pichet 50 cl)",
+          "price_cents": 1200,
+          "description": "Vin rouge AOP Bordeaux pichet 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Muscadet (12 cl)",
+          "price_cents": 500,
+          "description": "Vin blanc sec AOP Muscadet 12 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Muscadet (Pichet 25 cl)",
+          "price_cents": 800,
+          "description": "Vin blanc sec AOP Muscadet pichet 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Muscadet (Pichet 50 cl)",
+          "price_cents": 1200,
+          "description": "Vin blanc sec AOP Muscadet pichet 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Côtes de Provence (12 cl)",
+          "price_cents": 500,
+          "description": "Vin rosé AOP Côtes de Provence 12 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes de Provence (Pichet 25 cl)",
+          "price_cents": 800,
+          "description": "Vin rosé AOP Côtes de Provence pichet 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes de Provence (Pichet 50 cl)",
+          "price_cents": 1200,
+          "description": "Vin rosé AOP Côtes de Provence pichet 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Fine de Bretagne (4 cl)",
+          "price_cents": 600,
+          "description": "Eau-de-vie de cidre bretonne 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Calvados (4 cl)",
+          "price_cents": 600,
+          "description": "Eau-de-vie de cidre AOP Calvados 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Poire Williams (4 cl)",
+          "price_cents": 600,
+          "description": "Eau-de-vie de poire Williams 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Limoncello (4 cl)",
+          "price_cents": 600,
+          "description": "Liqueur de citron 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Amaretto (4 cl)",
+          "price_cents": 600,
+          "description": "Liqueur d'amande douce 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Digestif du moment",
+          "price_cents": 600,
+          "description": "Digestif suggéré du moment 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Heineken (33 cl)",
+          "price_cents": 500,
+          "description": "Bière blonde en bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Bretonne Guiniz Du (33 cl)",
+          "price_cents": 600,
+          "description": "Bière ambrée bretonne au sarrasin (sans gluten) 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière du moment (33 cl)",
+          "price_cents": 600,
+          "description": "Sélection de bière artisanale du moment en bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Brut (Bouteille 75 cl)",
+          "price_cents": 1540,
+          "description": "Cidre brut de caractère en bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Doux (Bouteille 75 cl)",
+          "price_cents": 1540,
+          "description": "Cidre doux fruité en bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Artisanal (Bouteille 75 cl)",
+          "price_cents": 1740,
+          "description": "Cidre de producteur artisanal en bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio (Bouteille 75 cl)",
+          "price_cents": 1740,
+          "description": "Cidre biologique certifié en bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Pichet Brut (25 cl)",
+          "price_cents": 700,
+          "description": "Cidre brut au pichet 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Pichet Brut (50 cl)",
+          "price_cents": 1100,
+          "description": "Cidre brut au pichet 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Pichet Brut (75 cl)",
+          "price_cents": 1350,
+          "description": "Cidre brut au pichet 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Pichet Brut (100 cl)",
+          "price_cents": 1540,
+          "description": "Cidre brut au pichet 1 Litre",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
