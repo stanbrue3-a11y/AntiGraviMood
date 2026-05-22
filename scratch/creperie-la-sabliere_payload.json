@@ -1,0 +1,588 @@
+{
+  "on_mange_quoi_ici": "Cuisine bretonne. Galette complète & Crêpe au caramel au beurre salé.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-la-sabliere/cre_perie_la_sablie_re.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.3,
+  "wine_glass": 5.5,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Galettes de Sarrasin",
+      "items": [
+        {
+          "name": "Galette au Beurre",
+          "price_cents": 440,
+          "description": "Galette traditionnelle au beurre",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette à l'Emmental",
+          "price_cents": 610,
+          "description": "Galette traditionnelle à l'emmental râpé",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Jambon",
+          "price_cents": 610,
+          "description": "Galette traditionnelle au jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Œuf Miroir",
+          "price_cents": 610,
+          "description": "Galette traditionnelle à l'œuf miroir",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Jambon Champignons",
+          "price_cents": 730,
+          "description": "Galette traditionnelle jambon et champignons",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Œuf Jambon",
+          "price_cents": 730,
+          "description": "Galette traditionnelle œuf et jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Jambon Emmental",
+          "price_cents": 730,
+          "description": "Galette traditionnelle jambon et emmental",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Champignons Emmental",
+          "price_cents": 730,
+          "description": "Galette traditionnelle champignons et emmental",
+          "is_highlight": false
+        },
+        {
+          "name": "La Complète",
+          "price_cents": 940,
+          "description": "Œuf miroir, Jambon, Emmental",
+          "is_highlight": true
+        },
+        {
+          "name": "La Bergère",
+          "price_cents": 990,
+          "description": "Poireaux à la crème, Fromage de Chèvre",
+          "is_highlight": false
+        },
+        {
+          "name": "La Guémené",
+          "price_cents": 1010,
+          "description": "Andouille de Guémené, Emmental, Oignons",
+          "is_highlight": false
+        },
+        {
+          "name": "La Forestière",
+          "price_cents": 1010,
+          "description": "Œuf brouillé, Champignons, Gruyère, Bacon, Crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "La Loches",
+          "price_cents": 990,
+          "description": "Chorizo, œuf, emmental, Oignons",
+          "is_highlight": false
+        },
+        {
+          "name": "La Super Complète",
+          "price_cents": 990,
+          "description": "Œuf miroir, Jambon, Emmental, Champignons",
+          "is_highlight": false
+        },
+        {
+          "name": "La Popeye",
+          "price_cents": 1010,
+          "description": "Épinards, Bacon, Crème fraîche, Œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "La Roquefort",
+          "price_cents": 1010,
+          "description": "Roquefort, Pommes de terre sautées, Bacon, Salade verte",
+          "is_highlight": false
+        },
+        {
+          "name": "La Seguin",
+          "price_cents": 1010,
+          "description": "Chèvre, Emmental, Miel, Salade verte",
+          "is_highlight": false
+        },
+        {
+          "name": "La Gorgon",
+          "price_cents": 990,
+          "description": "Gorgonzola, emmental, Poires, Noix",
+          "is_highlight": false
+        },
+        {
+          "name": "L'Américaine",
+          "price_cents": 1090,
+          "description": "Steak haché, Emmental, Œuf miroir",
+          "is_highlight": false
+        },
+        {
+          "name": "La Chipoteuse",
+          "price_cents": 1090,
+          "description": "Saucisse, chipolata, pommes de terre sautées, oignon",
+          "is_highlight": false
+        },
+        {
+          "name": "La Rustique",
+          "price_cents": 1090,
+          "description": "Boudin noir, Compote de pommes",
+          "is_highlight": false
+        },
+        {
+          "name": "La Nordique",
+          "price_cents": 1120,
+          "description": "Saumon fumé, Œuf brouillé, Crème fraîche, Ciboulette, Jus de citron",
+          "is_highlight": false
+        },
+        {
+          "name": "La Berrichonne",
+          "price_cents": 1120,
+          "description": "Fromage de chèvre, Pommes de terre sautées, Jambon de pays",
+          "is_highlight": false
+        },
+        {
+          "name": "La Tartiflette",
+          "price_cents": 1120,
+          "description": "Reblochon, Pommes de terre sautées, Oignons, Crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "La Killian",
+          "price_cents": 1120,
+          "description": "Saucisse fumée, Champignons, Crème fraîche, Pommes de terre",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "Salade verte",
+          "price_cents": 300,
+          "description": "Salade verte d'accompagnement",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Crêpes Sucrées & Desserts",
+      "items": [
+        {
+          "name": "Crêpe au Sucre",
+          "price_cents": 390,
+          "description": "Crêpe de froment sucrée classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe au Beurre Sucre",
+          "price_cents": 410,
+          "description": "Crêpe de froment sucrée au beurre",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Confiture de myrtilles",
+          "price_cents": 570,
+          "description": "Crêpe de froment sucrée à la confiture de myrtilles",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe au Miel",
+          "price_cents": 530,
+          "description": "Crêpe de froment sucrée au miel",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Miel Citron",
+          "price_cents": 570,
+          "description": "Crêpe de froment sucrée au miel et jus de citron",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe au Sirop d'érable",
+          "price_cents": 570,
+          "description": "Crêpe de froment sucrée au sirop d'érable",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Caramel au Beurre Salé Maison",
+          "price_cents": 680,
+          "description": "Crêpe de froment sucrée au caramel au beurre salé fait maison",
+          "is_highlight": true
+        },
+        {
+          "name": "Crêpe Caramel au Beurre Salé Maison Chantilly",
+          "price_cents": 730,
+          "description": "Crêpe de froment sucrée au caramel au beurre salé et chantilly maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe au Chocolat",
+          "price_cents": 680,
+          "description": "Crêpe de froment sucrée au chocolat chaud maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Chocolat Chantilly",
+          "price_cents": 730,
+          "description": "Crêpe de froment sucrée au chocolat chaud et chantilly maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Banane Chocolat",
+          "price_cents": 750,
+          "description": "Crêpe de froment sucrée avec banane fraîche et chocolat maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Banane Caramel",
+          "price_cents": 750,
+          "description": "Crêpe de froment sucrée avec banane fraîche et caramel maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Poire Chocolat",
+          "price_cents": 750,
+          "description": "Crêpe de froment sucrée avec poires et chocolat chaud maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Poire Caramel",
+          "price_cents": 750,
+          "description": "Crêpe de froment sucrée avec poires et caramel maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Crème de marron",
+          "price_cents": 680,
+          "description": "Crêpe de froment sucrée à la crème de marrons",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Crème de marron Chantilly",
+          "price_cents": 730,
+          "description": "Crêpe de froment sucrée à la crème de marrons et chantilly maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Compote de pommes maison",
+          "price_cents": 750,
+          "description": "Crêpe de froment sucrée à la compote de pommes faite maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe au Nutella",
+          "price_cents": 680,
+          "description": "Crêpe de froment sucrée au Nutella",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Nutella Chantilly",
+          "price_cents": 730,
+          "description": "Crêpe de froment sucrée au Nutella et chantilly maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Flambée Rhum",
+          "price_cents": 700,
+          "description": "Crêpe sucrée flambée au rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Flambée Calvados",
+          "price_cents": 700,
+          "description": "Crêpe sucrée flambée au calvados",
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Flambée Grand Marnier",
+          "price_cents": 700,
+          "description": "Crêpe sucrée flambée au Grand Marnier",
+          "is_highlight": false
+        },
+        {
+          "name": "La Normande",
+          "price_cents": 830,
+          "description": "Pommes au caramel, calvados",
+          "is_highlight": false
+        },
+        {
+          "name": "La Suzette",
+          "price_cents": 820,
+          "description": "Beurre d'orange, Grand Marnier",
+          "is_highlight": false
+        },
+        {
+          "name": "L'Antillaise",
+          "price_cents": 820,
+          "description": "Banane, Rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "La Gourmande (crêpe)",
+          "price_cents": 860,
+          "description": "Glace vanille, Caramel maison, Chantilly, Amandes grillées",
+          "is_highlight": true
+        },
+        {
+          "name": "La Vallée Blanche",
+          "price_cents": 860,
+          "description": "Crème de marron, Glace vanille, chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "La Coco",
+          "price_cents": 860,
+          "description": "Nutella, Glace coco, Coco râpé",
+          "is_highlight": false
+        },
+        {
+          "name": "La Choco-nuts",
+          "price_cents": 700,
+          "description": "Chocolat, Noisettes",
+          "is_highlight": false
+        },
+        {
+          "name": "La Dame Blanche",
+          "price_cents": 860,
+          "description": "Glace vanille, Chocolat, Chantilly, Amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "La Belle Hélène",
+          "price_cents": 860,
+          "description": "Poires, Glace vanille, Chocolat, Chantilly, Amandes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "La Glacée",
+          "price_cents": 700,
+          "description": "Crêpe au beurre, Glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "La Chouka",
+          "price_cents": 730,
+          "description": "Chocolat, Caramel",
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe Glacée 1 Boule",
+          "price_cents": 340,
+          "description": "Parfums : Chocolat, Noix de Coco, Vanille, Caramel au beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe Glacée 2 Boules",
+          "price_cents": 650,
+          "description": "Parfums : Chocolat, Noix de Coco, Vanille, Caramel au beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Sorbet 1 Boule",
+          "price_cents": 340,
+          "description": "Parfums : Citron, Framboise, Fraise, Cassis",
+          "is_highlight": false
+        },
+        {
+          "name": "Sorbet 2 Boules",
+          "price_cents": 650,
+          "description": "Parfums : Citron, Framboise, Fraise, Cassis",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola (33 cl)",
+          "price_cents": 430,
+          "description": "Canette 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola Zéro (33 cl)",
+          "price_cents": 430,
+          "description": "Canette 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de fruits (25 cl)",
+          "price_cents": 410,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme Bio (1 L)",
+          "price_cents": 810,
+          "description": "Bouteille 1 Litre",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade",
+          "price_cents": 400,
+          "description": "Boisson gazeuse classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop à l'eau",
+          "price_cents": 340,
+          "description": "Menthe, citron ou fraise",
+          "is_highlight": false
+        },
+        {
+          "name": "Café",
+          "price_cents": 230,
+          "description": "Café expresso classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Décaféiné",
+          "price_cents": 230,
+          "description": "Café décaféiné classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé ou Infusion",
+          "price_cents": 410,
+          "description": "Sélection de thés et d'infusions",
+          "is_highlight": false
+        },
+        {
+          "name": "Café crème",
+          "price_cents": 410,
+          "description": "Café expresso avec nuage de lait",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat chaud",
+          "price_cents": 450,
+          "description": "Chocolat chaud maison",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Cidre Kerné (Bouteille 75 cl)",
+          "price_cents": 1390,
+          "description": "Cidre fermier breton, brut ou doux",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Kerné (Pichet 50 cl)",
+          "price_cents": 790,
+          "description": "Cidre fermier breton, brut ou doux",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Kerné (Bolée 18 cl)",
+          "price_cents": 400,
+          "description": "Cidre fermier breton, brut ou doux",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio DEMI SEC (Bouteille 75 cl)",
+          "price_cents": 1450,
+          "description": "Cidre biologique demi-sec",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio DEMI SEC (Pichet 50 cl)",
+          "price_cents": 800,
+          "description": "Cidre biologique demi-sec",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio DEMI SEC (Bolée 18 cl)",
+          "price_cents": 430,
+          "description": "Cidre biologique demi-sec",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin rouge, blanc, rosé (Bouteille 75 cl)",
+          "price_cents": 2300,
+          "description": "Sélection de vins de table",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin rouge, blanc, rosé (Pichet 50 cl)",
+          "price_cents": 1400,
+          "description": "Sélection de vins de table",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Vin (14 cl)",
+          "price_cents": 550,
+          "description": "Rouge, blanc ou rosé",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière du moment (33 cl)",
+          "price_cents": 540,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Duchesse Anne (33 cl)",
+          "price_cents": 540,
+          "description": "Blonde bretonne de tradition",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Blanche Hermine (33 cl)",
+          "price_cents": 540,
+          "description": "Bière blanche au froment",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Telenn Du (33 cl)",
+          "price_cents": 540,
+          "description": "Bière ambrée au blé noir bio (sans gluten)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cervoise Lancelot (33 cl)",
+          "price_cents": 540,
+          "description": "Bière sur levure traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Kir Breton (14 cl)",
+          "price_cents": 410,
+          "description": "Crème de cassis et cidre doux",
+          "is_highlight": false
+        },
+        {
+          "name": "Kir Vin Blanc (14 cl)",
+          "price_cents": 390,
+          "description": "Crème de cassis et vin blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Whisky (4 cl)",
+          "price_cents": 800,
+          "description": "Whisky de sélection",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
