@@ -1,0 +1,588 @@
+{
+  "on_mange_quoi_ici": "Cuisine bretonne. Galette complète Quimper & Crêpe au caramel maison Saint-Servan.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/creperie-plougastel/menu_0.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.8,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Galettes de Sarrasin",
+      "items": [
+        {
+          "name": "Pont-L'abbé",
+          "price_cents": 320,
+          "description": "Galette traditionnelle au beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Plomelin",
+          "price_cents": 560,
+          "description": "Aux œufs frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Pouldreuzic",
+          "price_cents": 560,
+          "description": "Au jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Suler",
+          "price_cents": 560,
+          "description": "Au fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Pleyben",
+          "price_cents": 750,
+          "description": "Œuf et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-guénolé",
+          "price_cents": 750,
+          "description": "Jambon et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-renan",
+          "price_cents": 750,
+          "description": "Œuf et jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Keremma",
+          "price_cents": 790,
+          "description": "Épinards et œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Landerneau",
+          "price_cents": 790,
+          "description": "Champignons et fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Pontivy",
+          "price_cents": 890,
+          "description": "Chèvre chaud et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Locmalo",
+          "price_cents": 890,
+          "description": "À l'andouille de Guémené et oignons",
+          "is_highlight": false
+        },
+        {
+          "name": "Quimper",
+          "price_cents": 890,
+          "description": "Œuf, jambon, fromage (La Complète)",
+          "is_highlight": true
+        },
+        {
+          "name": "Kerlouan",
+          "price_cents": 890,
+          "description": "Jambon, champignons, fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Port-launay",
+          "price_cents": 890,
+          "description": "Poireaux, fromage, crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "La Nantaise",
+          "price_cents": 890,
+          "description": "Asperges, fromage, crème fraîche à la ciboulette",
+          "is_highlight": false
+        },
+        {
+          "name": "Tréméoc",
+          "price_cents": 980,
+          "description": "Saucisse, fromage et œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Dinan",
+          "price_cents": 980,
+          "description": "Œuf, jambon, fromage et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Dinard",
+          "price_cents": 980,
+          "description": "Bleu d'Auvergne, jambon, noix et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Plouescat",
+          "price_cents": 990,
+          "description": "Oignons, lardons, œuf et crème fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Quiberon",
+          "price_cents": 990,
+          "description": "Blanc de poulet, épinards, œuf, oignons et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Châteaulin",
+          "price_cents": 1050,
+          "description": "Haché de bœuf, échalotes, tomates et œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-brieuc",
+          "price_cents": 1050,
+          "description": "Haché de bœuf, oignons, bleu, œuf et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Guilvinec",
+          "price_cents": 1090,
+          "description": "Saumon fumé, crème fraîche à la ciboulette",
+          "is_highlight": false
+        },
+        {
+          "name": "Sainte-Anne",
+          "price_cents": 1190,
+          "description": "Noix de Saint-Jacques, poireaux, salade et crème fraîche à la ciboulette",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Crêpes de Froment",
+      "items": [
+        {
+          "name": "Nevez",
+          "price_cents": 320,
+          "description": "Sucre et beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Fouesnant (Sucre, Confiture, Chocolat, Miel, Citron, Compote ou Nutella)",
+          "price_cents": 550,
+          "description": "Parfums au choix : Confiture, chocolat, citron, miel, compote de pommes ou Nutella",
+          "is_highlight": false
+        },
+        {
+          "name": "Redon",
+          "price_cents": 690,
+          "description": "Crème de marrons et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Lesconil",
+          "price_cents": 710,
+          "description": "Flambée au calvados, rhum, cointreau ou Grand-Marnier",
+          "is_highlight": false
+        },
+        {
+          "name": "Trégana",
+          "price_cents": 710,
+          "description": "Miel & citron ou miel & amandes ou miel & noix",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Servan",
+          "price_cents": 710,
+          "description": "Caramel maison au beurre salé",
+          "is_highlight": true
+        },
+        {
+          "name": "Penmarc'h",
+          "price_cents": 790,
+          "description": "Noix, compote de pommes flambée calvados",
+          "is_highlight": false
+        },
+        {
+          "name": "Locronan",
+          "price_cents": 790,
+          "description": "Banane flambée au rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "Audierne",
+          "price_cents": 790,
+          "description": "Ananas, flambée au rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "Crozon",
+          "price_cents": 830,
+          "description": "Banane, caramel maison au beurre salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Cast",
+          "price_cents": 850,
+          "description": "Pommes cuites, miel et glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Lunaire",
+          "price_cents": 850,
+          "description": "Banane, chocolat chaud et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Jacut",
+          "price_cents": 850,
+          "description": "Noix de coco râpée, chocolat chaud et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Cap Fréhel",
+          "price_cents": 850,
+          "description": "Frangipane maison, chocolat chaud et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Trébeurden",
+          "price_cents": 850,
+          "description": "Glace vanille, chocolat chaud et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Jacques-Cartier",
+          "price_cents": 850,
+          "description": "Sirop d’érable, glace vanille et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "St Trémeur",
+          "price_cents": 850,
+          "description": "Poires au sirop, chocolat chaud et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Locmaria",
+          "price_cents": 860,
+          "description": "Confiture d'orange, glace vanille, flambée au cointreau",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Pierre",
+          "price_cents": 860,
+          "description": "Chocolat chaud, raisins secs, glace vanille, flambée au rhum",
+          "is_highlight": false
+        },
+        {
+          "name": "Plougastel",
+          "price_cents": 860,
+          "description": "Confiture de fraises, glace vanille, flambée au Grand-Marnier",
+          "is_highlight": true
+        },
+        {
+          "name": "Locminé",
+          "price_cents": 890,
+          "description": "Caramel au beurre salé, glace vanille, concassé d'amandes et noix",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Nos Menus",
+      "items": [
+        {
+          "name": "Menu breton",
+          "price_cents": 1490,
+          "description": "Salade mixte + Galette Quimper (jambon, œuf, fromage) ou Landerneau (champignons, fromage) + Crêpe Nevez (beurre-sucre) ou Fouesnant (chocolat, miel, citron, compote, confiture ou Nutella)",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu marin",
+          "price_cents": 1690,
+          "description": "Assiette de tarama (salade verte, tarama, salicornes) + Galette Guilvinec (saumon fumé, crème fraîche à la ciboulette) + Crêpe Nevez (beurre-sucre) ou Fouesnant",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu forestier",
+          "price_cents": 1690,
+          "description": "Salade forestière (lardons, gésiers) + Galette super complète (jambon, champignons, œuf, fromage) + Crêpe Nevez (beurre-sucre) ou Fouesnant",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola / Light / Zéro (33cl)",
+          "price_cents": 420,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Orangina (25cl)",
+          "price_cents": 390,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Ice Tea (25cl)",
+          "price_cents": 390,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Perrier (33cl)",
+          "price_cents": 390,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop de grenadine ou menthe (33cl)",
+          "price_cents": 280,
+          "description": "Verre 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Nectar de fruit (25cl)",
+          "price_cents": 350,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Eau minérale Plancoët (50cl)",
+          "price_cents": 390,
+          "description": "Eau minérale bretonne (plate ou gazeuse) 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Café / Décaféiné",
+          "price_cents": 280,
+          "description": "Café expresso classique ou décaféiné",
+          "is_highlight": false
+        },
+        {
+          "name": "Café noisette",
+          "price_cents": 320,
+          "description": "Café expresso avec une larme de lait",
+          "is_highlight": false
+        },
+        {
+          "name": "Café crème",
+          "price_cents": 390,
+          "description": "Café crème classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Double café / Décaféiné",
+          "price_cents": 450,
+          "description": "Double expresso classique ou décaféiné",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat chaud",
+          "price_cents": 480,
+          "description": "Chocolat chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé / Infusion",
+          "price_cents": 380,
+          "description": "Sélection de thés et d'infusions",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé au lait",
+          "price_cents": 420,
+          "description": "Thé avec son nuage de lait",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Cidre la Bolée (20cl)",
+          "price_cents": 350,
+          "description": "Cidre servi à la bolée tradition 20 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre le Pichet (25cl)",
+          "price_cents": 420,
+          "description": "Pichet 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre le Pichet (50cl)",
+          "price_cents": 790,
+          "description": "Pichet 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouteille (75cl)",
+          "price_cents": 1190,
+          "description": "Bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouteille «Magnum» Brut (1.5L)",
+          "price_cents": 2190,
+          "description": "Bouteille Magnum Brut",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre artisanal, rosé ou bio (75cl)",
+          "price_cents": 1390,
+          "description": "Sélection artisanale, rosée ou biologique 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre fermier ou terroir (75cl)",
+          "price_cents": 1590,
+          "description": "Sélection cidricole fermière ou terroir 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Poiré Bouteille (75cl)",
+          "price_cents": 1390,
+          "description": "Cidre de poire en bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme artisanal (25cl)",
+          "price_cents": 420,
+          "description": "Bouteille 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme artisanal (50cl)",
+          "price_cents": 790,
+          "description": "Pichet ou bouteille 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de pomme artisanal (75cl)",
+          "price_cents": 1290,
+          "description": "Bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Blanc Sauvignon (25cl)",
+          "price_cents": 590,
+          "description": "Sauvignon blanc en carafe 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Blanc Sauvignon (50cl)",
+          "price_cents": 990,
+          "description": "Sauvignon blanc en carafe 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Blanc Sauvignon (75cl)",
+          "price_cents": 1990,
+          "description": "Sauvignon blanc en carafe 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rosé Côtes de Provence (25cl)",
+          "price_cents": 590,
+          "description": "Côtes de Provence en carafe 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rosé Côtes de Provence (50cl)",
+          "price_cents": 990,
+          "description": "Côtes de Provence en carafe 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rosé Côtes de Provence (75cl)",
+          "price_cents": 1990,
+          "description": "Côtes de Provence en carafe 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rouge Bordeaux (25cl)",
+          "price_cents": 590,
+          "description": "Bordeaux rouge en carafe 25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rouge Bordeaux (50cl)",
+          "price_cents": 990,
+          "description": "Bordeaux rouge en carafe 50 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin Rouge Bordeaux (75cl)",
+          "price_cents": 1990,
+          "description": "Bordeaux rouge en carafe 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Le Kir au sauvignon",
+          "price_cents": 390,
+          "description": "Crème de cassis et Sauvignon blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Le kir Breton au Cidre",
+          "price_cents": 370,
+          "description": "Crème de cassis et cidre brut",
+          "is_highlight": false
+        },
+        {
+          "name": "Chouchen ou Pommeau (4cl)",
+          "price_cents": 390,
+          "description": "Apéritif breton traditionnel 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Chouchen ou Pommeau (75cl)",
+          "price_cents": 1590,
+          "description": "Bouteille 75 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Digestif (Grand-Marnier, Rhum, Cointreau, Calvados)",
+          "price_cents": 560,
+          "description": "Digestif au choix 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Whisky breton",
+          "price_cents": 620,
+          "description": "Whisky de malt breton 4 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Liqueur de fraise de Plougastel",
+          "price_cents": 560,
+          "description": "Liqueur bretonne artisanale à la fraise",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Heineken (33cl)",
+          "price_cents": 490,
+          "description": "Bouteille 33 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Bretonne (33cl)",
+          "price_cents": 590,
+          "description": "Bière locale blonde, brune, blanche ou rousse en bouteille 33 cl",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
