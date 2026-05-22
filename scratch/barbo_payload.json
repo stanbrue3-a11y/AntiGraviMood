@@ -1,0 +1,153 @@
+{
+  "on_mange_quoi_ici": "Cuisine française. Lieu jaune rôti & Lingot d'agneau.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/barbo/Capture_d_e_cran_2026-05-22_a__20.32.39.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/barbo/Capture_d_e_cran_2026-05-22_a__20.32.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/barbo/Capture_d_e_cran_2026-05-22_a__20.32.47.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/barbo/Capture_d_e_cran_2026-05-22_a__20.32.57.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Crémeux de Carottes & Carottes glacées",
+          "price_cents": 1000,
+          "description": "Crémeux de carottes de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crémeux carottes au curcuma, carottes glacées, amandes",
+          "price_cents": 1000,
+          "description": "Crémeux parfumé au curcuma",
+          "is_highlight": false
+        },
+        {
+          "name": "Persil tubéreux rôti & Ragoût de Soja et Cébette",
+          "price_cents": 1200,
+          "description": "Persil tubéreux rôti",
+          "is_highlight": false
+        },
+        {
+          "name": "Salsifis fumés au foin & Sauce menthe et champignon",
+          "price_cents": 1200,
+          "description": "Salsifis fumés au foin",
+          "is_highlight": false
+        },
+        {
+          "name": "Asperges blanches, crème de volaille, noix, pomelo grillé",
+          "price_cents": 1200,
+          "description": "Asperges blanches de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Déclinaison de betteraves, oeuf parfait, crème au lard et Lin",
+          "price_cents": 1000,
+          "description": "Betteraves cuisinées de différentes façons",
+          "is_highlight": false
+        },
+        {
+          "name": "Crudo de Bar & Légumes du moment",
+          "price_cents": 1500,
+          "description": "Poisson cru mariné de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Crudo de bar, radis, fraises, estragon",
+          "price_cents": 1500,
+          "description": "Bar cru mariné aux fraises et estragon",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Pois chiches, brocolis, pimentón fumé doux",
+          "price_cents": 2200,
+          "description": "Plat végétarien de pois chiches et brocolis",
+          "is_highlight": false
+        },
+        {
+          "name": "Lieu Jaune, Risotto d'Épeautre & Crème de Topinambour",
+          "price_cents": 2700,
+          "description": "Lieu jaune cuit sur peau, risotto crémeux d'épeautre",
+          "is_highlight": true
+        },
+        {
+          "name": "Volaille d'Armoise, Purée de Patate Douce & Céleri Snacké",
+          "price_cents": 2700,
+          "description": "Suprême de volaille d'Armoise rôtie",
+          "is_highlight": true
+        },
+        {
+          "name": "Retour de pêche, crémeux persil, fenouil grillé, sauce Ail des Ours",
+          "price_cents": 2700,
+          "description": "Poisson sauvage selon arrivage",
+          "is_highlight": false
+        },
+        {
+          "name": "Lingot d'agneau, purée de patate douce, salade de petit pois",
+          "price_cents": 2700,
+          "description": "Agneau fondant façon lingot",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Fromage du moment",
+          "price_cents": 1000,
+          "description": "Sélection du crémier",
+          "is_highlight": false
+        },
+        {
+          "name": "Madeleine, glace Madeleine & Espuma Chocolat",
+          "price_cents": 1200,
+          "description": "Madeleine tiède et sa glace parfumée",
+          "is_highlight": false
+        },
+        {
+          "name": "Poire Pochée, Sorbet Herbacé & Gingembre Confit",
+          "price_cents": 1400,
+          "description": "Dessert frais de fruits pochés",
+          "is_highlight": false
+        },
+        {
+          "name": "Pain perdu au caramel, poires, noisettes et citron confit",
+          "price_cents": 1400,
+          "description": "Pain perdu gourmand",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules & Menus",
+      "items": [
+        {
+          "name": "Menu dégustation (En 5 temps)",
+          "price_cents": 7000,
+          "description": "Menu surprise selon l'inspiration du chef",
+          "is_highlight": false
+        },
+        {
+          "name": "Accord Mets & Vins",
+          "price_cents": 2500,
+          "description": "Sélection de vins nature au verre",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
