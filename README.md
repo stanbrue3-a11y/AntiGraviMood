@@ -42,6 +42,7 @@ Pour garantir la pertinence du `PriceEngine`, toute nouvelle entrée suit le sta
 - **Exhaustivité Totale** : Transcription intégrale de la carte (Starter, Main, Dessert, Drinks).
 - **Vérification Multi-Sources** : Recoupement systématique (Google Maps, sites officiels, photos de cartes récentes).
 - **Normalisation** : Conversion des horaires en format ISO et standardisation des catégories de prix.
+- **Téléversement des Menus** : Lancement du dashboard d'upload via `npm run menu-uploader` pour attacher les captures d'écran et les PDFs de cartes directement à Supabase Storage.
 
 ---
 

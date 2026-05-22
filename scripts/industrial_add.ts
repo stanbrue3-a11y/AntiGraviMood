@@ -10,10 +10,8 @@ const GOOGLE_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY;
 const SUPABASE_URL = process.env.EXPO_PUBLIC_SUPABASE_URL;
 const SUPABASE_KEY =
   process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
-const GEMINI_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY;
-
-if (!GOOGLE_KEY || !SUPABASE_URL || !SUPABASE_KEY || !GEMINI_KEY) {
-  console.error('❌ Clés API manquantes dans le .env (Google, Supabase ou Gemini)');
+if (!GOOGLE_KEY || !SUPABASE_URL || !SUPABASE_KEY) {
+  console.error('❌ Clés API manquantes dans le .env (Google ou Supabase)');
   process.exit(1);
 }
 
@@ -243,7 +241,7 @@ async function main() {
       internal_audit_logs: [
         `[MOOD ENGINE v2] ${moodResult.dominant_mood} (conf: ${moodResult.confidence}%) - Justification: ${moodResult.justification} | Google Terrace: ${(details as any).outdoor_seating}`,
         ...(moodResult.confidence === 0
-          ? ['[MOOD_PENDING] Erreur API Gemini lors du scaffolding — Audit visuel manuel requis.']
+          ? ['[MOOD_PENDING] Audit visuel Agent requis.']
           : []),
       ],
       mood_engine_version: 'v2',

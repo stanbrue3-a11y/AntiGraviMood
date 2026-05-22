@@ -3,6 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import { createClient } from '@supabase/supabase-js';
 import { exec } from 'child_process';
+import sharp from 'sharp';
 
 // Load environment variables
 require('dotenv').config({ path: path.join(__dirname, '../.env') });

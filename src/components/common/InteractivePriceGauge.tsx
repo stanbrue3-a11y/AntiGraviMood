@@ -41,7 +41,8 @@ const CATEGORY_TAB_LABELS: Record<string, string> = {
   soft_drink: 'Boissons',
 };
 const MENU_TAB_ORDER = ['formula', 'sharing', 'starter', 'main', 'side', 'dessert', 'boissons'];
-const toTabKey = (ct: string) => (ct === 'soft_drink' || ct === 'alcohol_drink' ? 'boissons' : ct);
+const toTabKey = (ct: string) =>
+  ct === 'soft_drink' || ct === 'alcohol_drink' ? 'boissons' : ct;
 
 export interface InteractivePriceGaugeProps {
   pricingView?: PricingView;
@@ -130,7 +131,6 @@ export const InteractivePriceGauge = ({
 }: InteractivePriceGaugeProps) => {
   const { isDark } = useTheme();
   const [modalVisible, setModalVisible] = useState(false);
-  const [showFullMenu, setShowFullMenu] = useState(false);
   const [openTabs, setOpenTabs] = useState<string[]>([]);
 
   // 2026 Hook-Based Logic ⚡️
@@ -188,7 +188,9 @@ export const InteractivePriceGauge = ({
 
   const toggleTab = (key: string) => {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-    setOpenTabs((prev) => (prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]));
+    setOpenTabs((prev) =>
+      prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key]
+    );
   };
 
   const pinceLabel = pricingView?.pince_label || defaultLevelLabel;
@@ -211,7 +213,6 @@ export const InteractivePriceGauge = ({
   const handleOpen = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     logger.trackEvent('price_gauge_opened', { level: view.level, label });
-    setShowFullMenu(false);
     setOpenTabs([]);
     setModalVisible(true);
   };
@@ -230,11 +231,11 @@ export const InteractivePriceGauge = ({
           <View style={[styles.miniTrigger, { backgroundColor: activeColor + '10' }]}>
             <CrabIcon size={18} color={activeColor} />
             <Text style={[styles.miniTitle, { color: activeColor }]}>{pinceLabel}</Text>
-            <View style={[styles.miniBarTrack, { backgroundColor: activeColor + '18' }]}>
+            <View style={[styles.miniBarTrack, { backgroundColor: cursorColor + '18' }]}>
               <View
                 style={[
                   styles.miniBarFill,
-                  { width: `${barFillPercent}%`, backgroundColor: activeColor },
+                  { width: `${barFillPercent}%`, backgroundColor: cursorColor },
                 ]}
               />
             </View>
@@ -257,20 +258,122 @@ export const InteractivePriceGauge = ({
           <Animated.View entering={FadeIn.duration(200)} style={styles.cardWrapper}>
             <View style={[styles.card, isDark && { backgroundColor: '#1C1C1E' }]}>
               <Pressable style={styles.closeBtn} onPress={handleClose}>
-                <Ionicons name="close" size={20} color="rgba(255,255,255,0.8)" />
+                <Ionicons name="close" size={24} color="rgba(255,255,255,0.8)" />
               </Pressable>
+
               <ScrollView
                 contentContainerStyle={styles.scrollContent}
                 showsVerticalScrollIndicator={false}
               >
-                {showFullMenu ? (
-                  <>
-                    <Pressable onPress={() => setShowFullMenu(false)} style={styles.backButtonRow}>
-                      <Ionicons name="arrow-back" size={20} color={activeColor} />
-                      <Text style={[styles.backButtonText, { color: activeColor }]}>Retour</Text>
-                    </Pressable>
+                <View style={styles.headerSection}>
+                  <View style={styles.headerTitleRow}>
+                    <Text style={[styles.headerTitle, { color: activeColor }]}>
+                      LA BARRE DES PINCES
+                    </Text>
+                    {view.confidence && view.confidence.label !== 'Non vérifié' && (
+                      <View
+                        style={[
+                          styles.confidenceBadge,
+                          { backgroundColor: view.confidence.color + '15' },
+                        ]}
+                      >
+                        <View
+                          style={[
+                            styles.confidenceDot,
+                            { backgroundColor: view.confidence.color },
+                          ]}
+                        />
+                        <Text style={[styles.confidenceText, { color: view.confidence.color }]}>
+                          {view.confidence.label}
+                        </Text>
+                      </View>
+                    )}
+                  </View>
+                  <Text style={styles.headerSubtitle}>Est-ce que c'est un bon plan ?</Text>
+                </View>
 
-                    <View style={styles.headerSection}>
+                {/* GAUGE */}
+                <View style={styles.barContainer}>
+                  <View style={styles.barTrackOuter}>
+                    <View style={styles.barTrack}>
+                      <View style={styles.benchmarkLine}>
+                        <View style={styles.benchmarkPointer} />
+                        <Text style={styles.benchmarkLabel}>STANDARD</Text>
+                      </View>
+                      <Animated.View
+                        style={[styles.barFill, animatedBarStyle, { overflow: 'hidden' }]}
+                      >
+                        <ViewGradient
+                          colors={[cursorColor + 'BF', cursorColor]}
+                          start={{ x: 0, y: 0 }}
+                          end={{ x: 1, y: 0 }}
+                          style={{ flex: 1 }}
+                        />
+                      </Animated.View>
+                    </View>
+                  </View>
+                  <View style={styles.barLabels}>
+                    <View style={styles.barLabelGroup}>
+                      <CrabIcon size={14} color={activeColor} />
+                      <Text style={[styles.barLabelText, { color: activeColor }]}>CHEAP</Text>
+                    </View>
+                    <View style={styles.barLabelGroup}>
+                      <Text style={styles.barLabelText}>CHER</Text>
+                      <SafeIcon size={14} color="#9CA3AF" />
+                    </View>
+                  </View>
+                </View>
+
+                {/* Pince Details */}
+                <View style={styles.metricsRow}>
+                  <View>
+                    <Text style={[styles.levelLabel, { color: cursorColor }]}>
+                      {pricingView?.pince_label || pinceLabel}
+                    </Text>
+                    <Text style={styles.benchmarkText}>
+                      {pricingView?.benchmark_label || 'vs benchmark Paris'}
+                    </Text>
+                  </View>
+                  <View style={{ alignItems: 'flex-end' }}>
+                    <Text style={styles.deviationText}>
+                      {pricingView?.deviation_text || `${view.avg_price}€`}
+                    </Text>
+                    <Text style={styles.contextText}>
+                      {pricingView?.price_context || 'pour un lieu à Paris'}
+                    </Text>
+                  </View>
+                </View>
+
+                {/* BIG NUMBER Display (anchorBox) */}
+                <View style={styles.anchorBox}>
+                  <View style={styles.anchorLeft}>
+                    <Text style={styles.anchorPrice}>{price}</Text>
+                    <Text style={styles.anchorLabel}>
+                      {pricingView?.card_display.description || label}
+                    </Text>
+                  </View>
+                  <View style={styles.anchorRight}>
+                    <Ionicons
+                      name="information-circle-outline"
+                      size={20}
+                      color="rgba(255,255,255,0.4)"
+                    />
+                  </View>
+                </View>
+
+                {smartTip && (
+                  <View style={styles.tipBox}>
+                    <Ionicons name="bulb-outline" size={18} color={activeColor} />
+                    <Text style={styles.tipText} numberOfLines={2}>
+                      {smartTip}
+                    </Text>
+                  </View>
+                )}
+
+                {/* MENU COMPLET SECTION */}
+                {menuTabs.length > 0 && (
+                  <>
+                    <View style={[styles.headerSection, { marginTop: 12, marginBottom: 16 }]}>
                       <Text style={[styles.headerTitle, { color: activeColor }]}>MENU COMPLET</Text>
                     </View>
 
@@ -278,11 +381,11 @@ export const InteractivePriceGauge = ({
                     {menuTabs.map((tab) => {
                       const isOpen = openTabs.includes(tab.key);
                       const groups = menu.filter(
-                        (cat: any) => toTabKey(cat.category_type || '') === tab.key,
+                        (cat: any) => toTabKey(cat.category_type || '') === tab.key
                       );
                       const totalItems = groups.reduce(
                         (acc: number, cat: any) => acc + (cat.items?.length || 0),
-                        0,
+                        0
                       );
                       return (
                         <View key={tab.key} style={styles.accordionSection}>
@@ -326,31 +429,30 @@ export const InteractivePriceGauge = ({
                                     </Text>
                                   )}
                                   {(cat.items || []).map((item: any, i: number) => (
-                                    <View key={i} style={styles.itemRow}>
-                                      <View style={{ flex: 1 }}>
-                                        <View style={styles.itemHeader}>
-                                          <Text style={styles.itemName}>
+                                    <View key={i} style={{ marginBottom: 12 }}>
+                                      <View style={styles.itemRow}>
+                                        <View style={{ flex: 1, marginRight: 8 }}>
+                                          <Text style={styles.itemName} numberOfLines={2}>
                                             {item.name}
                                           </Text>
-                                          <Text
-                                            style={[styles.itemPrice, { color: activeColor }]}
-                                          >
-                                            {item.price}
-                                          </Text>
+                                          {item.is_highlight && (
+                                            <Text
+                                              style={[styles.highlightTag, { color: activeColor }]}
+                                            >
+                                              ★ Recommandé
+                                            </Text>
+                                          )}
                                         </View>
-                                        {item.description && (
-                                          <Text style={styles.itemDescription}>
-                                            {item.description}
-                                          </Text>
-                                        )}
-                                        {item.is_highlight && (
-                                          <Text
-                                            style={[styles.highlightTag, { color: activeColor }]}
-                                          >
-                                            ★ Recommandé
-                                          </Text>
-                                        )}
+                                        <View style={styles.dotLine}>
+                                          <View style={styles.dotLineInner} />
+                                        </View>
+                                        <Text style={styles.itemPrice}>{item.price}</Text>
                                       </View>
+                                      {item.description && (
+                                        <Text style={styles.itemDescription}>
+                                          {item.description}
+                                        </Text>
+                                      )}
                                     </View>
                                   ))}
                                 </View>
@@ -360,154 +462,6 @@ export const InteractivePriceGauge = ({
                         </View>
                       );
                     })}
-                  </>
-                ) : (
-                  <>
-                    <View style={styles.headerSection}>
-                      <View style={styles.headerTitleRow}>
-                        <Text style={[styles.headerTitle, { color: activeColor }]}>
-                          LA BARRE DES PINCES
-                        </Text>
-                        {view.confidence && view.confidence.label !== 'Non vérifié' && (
-                          <View
-                            style={[
-                              styles.confidenceBadge,
-                              { backgroundColor: view.confidence.color + '15' },
-                            ]}
-                          >
-                            <View
-                              style={[
-                                styles.confidenceDot,
-                                { backgroundColor: view.confidence.color },
-                              ]}
-                            />
-                            <Text style={[styles.confidenceText, { color: view.confidence.color }]}>
-                              {view.confidence.label}
-                            </Text>
-                          </View>
-                        )}
-                      </View>
-                      <Text style={styles.headerSubtitle}>Est-ce que c'est un bon plan ?</Text>
-                    </View>
-
-                    {/* GAUGE */}
-                    <View style={styles.barContainer}>
-                      <View style={styles.barTrackOuter}>
-                        <View style={styles.barTrack}>
-                          <View style={styles.benchmarkLine}>
-                            <View style={styles.benchmarkPointer} />
-                            <Text style={styles.benchmarkLabel}>STANDARD</Text>
-                          </View>
-                          <Animated.View
-                            style={[styles.barFill, animatedBarStyle, { overflow: 'hidden' }]}
-                          >
-                            <ViewGradient
-                              colors={[activeColor + 'BF', activeColor]}
-                              start={{ x: 0, y: 0 }}
-                              end={{ x: 1, y: 0 }}
-                              style={{ flex: 1 }}
-                            />
-                          </Animated.View>
-                        </View>
-                      </View>
-                      <View style={styles.barLabels}>
-                        <View style={styles.barLabelGroup}>
-                          <CrabIcon size={14} color={activeColor} />
-                          <Text style={[styles.barLabelText, { color: activeColor }]}>CHEAP</Text>
-                        </View>
-                        <View style={styles.barLabelGroup}>
-                          <Text style={styles.barLabelText}>CHER</Text>
-                          <SafeIcon size={14} color="#9CA3AF" />
-                        </View>
-                      </View>
-                    </View>
-
-                    {/* Pince Title */}
-                    <View style={styles.metricsRow}>
-                      <Text style={[styles.levelLabel, { color: activeColor }]}>
-                        {pricingView?.pince_label || pinceLabel}
-                      </Text>
-                    </View>
-
-                    {/* Framed Price Banner (Sleek Boxed Card) */}
-                    <View
-                      style={[
-                        styles.priceBannerBoxed,
-                        {
-                          borderColor: activeColor + '30',
-                          backgroundColor: isDark ? 'rgba(255,255,255,0.02)' : 'rgba(0,0,0,0.015)',
-                        },
-                      ]}
-                    >
-                      <View
-                        style={[styles.priceIndicatorLineBoxed, { backgroundColor: activeColor }]}
-                      />
-                      <View style={styles.priceBannerContentBoxed}>
-                        <Text style={styles.priceBannerLabel}>
-                          {(pricingView?.card_display.description || label || '')
-                            .replace(/Plat principal/g, 'Plat médian')
-                            .replace(/plat principal/g, 'plat médian')}
-                        </Text>
-                        <Text style={[styles.priceBannerValue, { color: activeColor }]}>
-                          {price}
-                        </Text>
-                      </View>
-                    </View>
-
-                    {smartTip && (
-                      <View style={styles.tipBox}>
-                        <Ionicons name="bulb-outline" size={18} color={activeColor} />
-                        <Text style={styles.tipText} numberOfLines={2}>
-                          {smartTip}
-                        </Text>
-                      </View>
-                    )}
-
-                    {/* PREVIEW MENU (First 3 items of first category) */}
-                    {menu.length > 0 && menu[0].items && (
-                      <View style={styles.categoriesSection}>
-                        <View style={styles.categoryBlock}>
-                          <View style={styles.categoryHeader}>
-                            <Ionicons name="star-outline" size={16} color={activeColor} />
-                            <Text style={styles.categoryTitle}>{menu[0].category}</Text>
-                          </View>
-                          {menu[0].items.slice(0, 3).map((item: any, i: number) => (
-                            <View key={i} style={styles.itemRow}>
-                              <View style={{ flex: 1 }}>
-                                <View style={styles.itemHeader}>
-                                  <Text style={styles.itemName}>
-                                    {item.name}
-                                  </Text>
-                                  <Text style={[styles.itemPrice, { color: activeColor }]}>
-                                    {item.price}
-                                  </Text>
-                                </View>
-                                {item.description && (
-                                  <Text style={styles.itemDescription}>{item.description}</Text>
-                                )}
-                              </View>
-                            </View>
-                          ))}
-                        </View>
-                      </View>
-                    )}
-
-                    <Pressable
-                      onPress={() => setShowFullMenu(true)}
-                      style={({ pressed }) => [
-                        styles.fullMenuBtn,
-                        {
-                          backgroundColor: activeColor + '15',
-                          opacity: pressed ? 0.7 : 1,
-                          borderColor: activeColor + '30',
-                        },
-                      ]}
-                    >
-                      <Text style={[styles.fullMenuBtnText, { color: activeColor }]}>
-                        VOIR TOUT LE MENU
-                      </Text>
-                      <Ionicons name="arrow-forward" size={16} color={activeColor} />
-                    </Pressable>
                   </>
                 )}
               </ScrollView>
@@ -519,7 +473,7 @@ export const InteractivePriceGauge = ({
   );
 };
 
-// Styles (Preserved mostly, cleaned up unused)
+// Styles (Restored completely from original, preserving correct dimensions and fonts)
 const styles = StyleSheet.create({
   miniTrigger: {
     flexDirection: 'row',
@@ -529,7 +483,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#F3F4F6',
     borderRadius: 16,
     gap: 10,
-    // width: '100%' // flexible
   },
   miniTitle: { fontSize: 15, fontWeight: '600' },
   miniBarTrack: {
@@ -563,6 +516,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.4,
     shadowRadius: 30,
     elevation: 10,
+    position: 'relative', // added to hold absolute closeBtn inside card safely
   },
   scrollContent: { paddingBottom: 32 },
   headerSection: {
@@ -669,54 +623,36 @@ const styles = StyleSheet.create({
     fontFamily: 'PlayfairDisplay-Bold',
     letterSpacing: -1,
   },
-  priceBannerBoxed: {
+  anchorBox: {
     flexDirection: 'row',
-    alignItems: 'center',
-    marginTop: 20,
+    backgroundColor: 'rgba(255,255,255,0.05)',
+    borderRadius: 12,
+    padding: 12,
+    marginTop: 16,
     marginBottom: 16,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    borderRadius: 16,
-    borderWidth: 1,
-  },
-  priceIndicatorLineBoxed: {
-    width: 3,
-    height: 28,
-    borderRadius: 2,
-    marginRight: 12,
-  },
-  priceBannerContentBoxed: {
-    flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
+    justifyContent: 'space-between',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.08)',
   },
-  priceBannerLabel: {
-    fontSize: 16,
-    fontWeight: '700',
+  anchorLeft: {
+    flexDirection: 'column',
+  },
+  anchorPrice: {
+    fontSize: 18,
+    fontWeight: '800',
     color: '#FFF',
   },
-  priceBannerValue: {
-    fontSize: 24,
-    fontWeight: '900',
-    fontFamily: Platform.OS === 'ios' ? 'System' : 'sans-serif-black',
+  anchorLabel: {
+    fontSize: 12,
+    color: 'rgba(255,255,255,0.6)',
+    fontWeight: '500',
+    marginTop: 2,
   },
-  priceBlock: {
-    borderRadius: 20,
-    paddingVertical: 16,
-    paddingHorizontal: 16,
-    alignItems: 'flex-start',
-    marginBottom: 20,
+  anchorRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
-  priceRow: { flexDirection: 'row', alignItems: 'baseline' },
-  priceBig: {
-    fontSize: 48,
-    fontWeight: '800',
-    fontFamily: 'PlayfairDisplay-Bold',
-    letterSpacing: -2,
-  },
-  priceCurrency: { fontSize: 24, fontWeight: '700', marginLeft: 4, color: 'rgba(255,255,255,0.5)' },
-  priceDesc: { fontSize: 16, color: 'rgba(255,255,255,0.6)', marginTop: -4 },
 
   tipBox: {
     flexDirection: 'row',
@@ -750,46 +686,15 @@ const styles = StyleSheet.create({
   },
   categoryTitle: { fontSize: 14, fontWeight: '700', color: '#FFF', letterSpacing: 1 },
   itemRow: {
-    marginBottom: 14,
-  },
-  itemHeader: {
     flexDirection: 'row',
-    alignItems: 'baseline',
-    gap: 8,
-    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'space-between',
     marginBottom: 2,
   },
-  itemName: { fontSize: 15, color: '#E5E7EB', fontWeight: '600' },
-  itemPriceInline: { fontSize: 15, fontWeight: '700' },
-  itemPrice: { fontSize: 14, fontWeight: '700' },
-  itemDescription: {
-    fontSize: 12,
-    color: 'rgba(255,255,255,0.45)',
-    marginTop: 4,
-    fontWeight: '400',
-    lineHeight: 16,
-  },
-
-  fullMenuBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 16,
-    borderRadius: 16,
-    borderWidth: 1,
-    gap: 8,
-    marginTop: 8,
-  },
-  fullMenuBtnText: { fontSize: 13, fontWeight: '800', letterSpacing: 1 },
-
-  backButtonRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 16,
-    alignSelf: 'flex-start',
-    marginLeft: 4,
-  },
-  backButtonText: { marginLeft: 6, fontWeight: '600', fontSize: 15 },
+  itemName: { fontSize: 15, color: '#E5E7EB', flexShrink: 1, marginRight: 10, fontWeight: '600' },
+  itemPrice: { fontSize: 15, fontWeight: '600', color: '#FFF' },
+  dotLine: { flex: 1, height: 1, overflow: 'hidden', marginHorizontal: 8 },
+  dotLineInner: { height: 1, backgroundColor: 'rgba(255,255,255,0.1)', width: '100%' },
 
   closeBtn: {
     position: 'absolute',
@@ -844,6 +749,14 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     marginTop: 3,
     letterSpacing: 0.3,
+  },
+  itemDescription: {
+    fontSize: 12,
+    color: 'rgba(255,255,255,0.45)',
+    marginTop: 2,
+    fontWeight: '400',
+    lineHeight: 16,
+    paddingRight: 40,
   },
 });
 

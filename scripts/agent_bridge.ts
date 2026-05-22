@@ -743,6 +743,17 @@ async function main() {
       process.exit(1);
     }
 
+    // Validation du format on_mange_quoi_ici (Standard Titan / Workflow Surgical Data Entry)
+    const onMangeQuoiPattern = /^Cuisine\s+[^.]+\.\s+[^&]+\s+&\s+[^&]+\.$/;
+    if (!onMangeQuoiPattern.test(payload.on_mange_quoi_ici.trim())) {
+      console.error(
+        `🛑 ERREUR FATALE (FORMAT DU MENU) : Le champ 'on_mange_quoi_ici' ne respecte pas le format du workflow : "Cuisine [adjectif/type]. [Plat 1] & [Plat 2]."\n` +
+        `Reçu : "${payload.on_mange_quoi_ici}"\n` +
+        `Exemple valide : "Cuisine tibétaine. Sha momos au bœuf & Then Thuk."`
+      );
+      process.exit(1);
+    }
+
     if (
       !payload.Url_Photos_Menu ||
       !Array.isArray(payload.Url_Photos_Menu) ||
@@ -752,6 +763,18 @@ async function main() {
         "🛑 ERREUR FATALE (ANTI-HALLUCINATION) : Passage en Phase 2 refusé. Vous DEVEZ fournir la preuve visuelle dans 'Url_Photos_Menu'. Pas de photo = pas de publication.",
       );
       process.exit(1);
+    }
+
+    // --- SÉCURITÉ STRUCTURELLE : Les menus doivent provenir de localhost:4500 / Supabase Storage place-media/menus/[slug]
+    const bucketPrefix = `/storage/v1/object/public/place-media/menus/${slug}/`;
+    for (const url of payload.Url_Photos_Menu) {
+      const isSupabaseUrl = url.startsWith(SUPABASE_URL || '');
+      const containsBucketPath = url.includes(bucketPrefix);
+      if (!isSupabaseUrl || !containsBucketPath) {
+        console.error(`🛑 SÉCURITÉ : L'URL du menu est invalide ou externe : "${url}".`);
+        console.error(`   Tous les menus doivent être téléversés via le dashboard à l'adresse http://localhost:4500.`);
+        process.exit(1);
+      }
     }
 
     // Fetch place details
@@ -964,7 +987,7 @@ async function main() {
       };
 
       const beerKeywords = /\b(?:bières?|beers?|pression|draft|cervoise|stout|pils|lager|blonde|blanche|brune|ipa|ale|asahi|kirin|singha|tsingtao|heineken|1664|almaza|corona|budweiser|carlsberg|guinness|leffe|duvel|chimay|chouffe|desperados)\b/i;
-      const virtualPintPrices: number[] = [];
+      const realPintPrices: number[] = [];
 
       const alcoholCategory = payloadCategories.find((c: any) => c.category_type === 'alcohol_drink');
       if (alcoholCategory && alcoholCategory.items) {
@@ -976,22 +999,26 @@ async function main() {
           if (beerKeywords.test(fullText)) {
             const price = item.price_cents;
             if (typeof price === 'number' && price > 0) {
-              let volumeCl = extractVolumeCl(fullText);
-              if (!volumeCl) {
-                volumeCl = 33; // Default fallback to 33cl
-              }
-              const scaled = Math.round(price * (50 / volumeCl));
-              if (scaled > 0) {
-                virtualPintPrices.push(scaled);
+              const volumeCl = extractVolumeCl(fullText);
+              const hasPintKeyword = /\b(?:pinte|pint)\b/i.test(fullText);
+              
+              // Standard Pint is 50cl. We ONLY consider it a pint if:
+              // - It explicitly specifies 50cl (or 500ml / 0.5l)
+              // - Or it explicitly contains the keyword "pinte" or "pint" AND does not specify a different volume (like 25cl, 33cl, etc.)
+              const isExplicit50cl = volumeCl === 50;
+              const isPintByName = hasPintKeyword && (volumeCl === null || volumeCl === 50);
+
+              if (isExplicit50cl || isPintByName) {
+                realPintPrices.push(price);
               }
             }
           }
         }
       }
 
-      if (virtualPintPrices.length > 0) {
-        pintPriceCents = Math.min(...virtualPintPrices);
-        console.log(`🍺 [VIRTUAL PINT] Computed virtual pint price from bottled beer: ${pintPriceCents / 100}€ (${pintPriceCents} cents)`);
+      if (realPintPrices.length > 0) {
+        pintPriceCents = Math.min(...realPintPrices);
+        console.log(`🍺 [PINT] Found real pint price on the menu: ${pintPriceCents / 100}€ (${pintPriceCents} cents)`);
       }
     }
 

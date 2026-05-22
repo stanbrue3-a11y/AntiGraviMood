@@ -33,10 +33,10 @@ function isLikelyDescription(line: string): boolean {
 // Detect section category based on header text
 function detectCategoryFromHeader(header: string): string | null {
   const h = header.toLowerCase().trim();
-  if (h.includes('entrée') || h.includes('starter') || h.includes('tapas') || h.includes('antipasti') || h.includes('apéro') || h.includes('apérif')) {
+  if (h.includes('entrée') || h.includes('starter') || h.includes('tapas') || h.includes('antipasti') || h.includes('apéro') || h.includes('apérif') || h.includes('salade')) {
     return 'starter';
   }
-  if (h.includes('dessert') || h.includes('sweet') || h.includes('douceur') || h.includes('dolci')) {
+  if (h.includes('dessert') || h.includes('sweet') || h.includes('douceur') || h.includes('dolci') || h.includes('fromage')) {
     return 'dessert';
   }
   if (h.includes('biere') || h.includes('beer') || h.includes('vin') || h.includes('whisky') || h.includes('sake') || h.includes('champagne') || h.includes('cocktail') || h.includes('alcool') || h.includes('cave')) {
@@ -55,7 +55,7 @@ function detectCategoryFromHeader(header: string): string | null {
   if (h.includes('partager') || h.includes('sharing') || h.includes('mezze') || h.includes('planche')) {
     return 'sharing';
   }
-  if (h.includes('plat') || h.includes('main') || h.includes('momo') || h.includes('soupe') || h.includes('spécialité') || h.includes('specialite') || h.includes('nouille') || h.includes('riz')) {
+  if (h.includes('plat') || h.includes('main') || h.includes('momo') || h.includes('soupe') || h.includes('spécialité') || h.includes('specialite') || h.includes('nouille') || h.includes('riz') || h.includes('poisson') || h.includes('pâte') || h.includes('risotto') || h.includes('pasta') || h.includes('viande') || h.includes('pizza')) {
     return 'main';
   }
   return null;
@@ -66,14 +66,18 @@ function classifyItem(name: string, description: string, defaultCat: string | nu
   const text = `${name} ${description}`.toLowerCase();
   
   // 1. Drink & Dessert Overrides (blanc, rouge, rosé are matched safely with wine/vin context)
-  if (/\b(?:bière|beer|asahi|kirin|singha|tsingtao|heineken|1664|corona|sake|saké|champagne|cocktail|spritz|whisky|gin|vodka|rhum)\b/i.test(text) || /\bvin\b/i.test(text) || /vin\s+(?:blanc|rouge|rosé)/i.test(text)) {
-    return 'alcohol_drink';
+  if (defaultCat !== 'main' && defaultCat !== 'starter' && defaultCat !== 'side' && defaultCat !== 'dessert') {
+    if (/\b(?:bière|beer|asahi|kirin|singha|tsingtao|heineken|1664|corona|sake|saké|champagne|cocktail|spritz|whisky|gin|vodka|rhum)\b/i.test(text) || /\bvin\b/i.test(text) || /vin\s+(?:blanc|rouge|rosé)/i.test(text)) {
+      return 'alcohol_drink';
+    }
+    if (/\b(?:coca|coke|fanta|sprite|orangina|schweppes|perrier|evian|vittel|san pellegrino|badoit|volvic|jus\s+de|litchi|mangue|ananas|pomme|orange|limonade|ice tea|iced tea|thé|infusion|café|coffee|expresso|cappuccino|macchiato)\b/i.test(text)) {
+      return 'soft_drink';
+    }
   }
-  if (/\b(?:coca|coke|fanta|sprite|orangina|schweppes|perrier|evian|vittel|san pellegrino|badoit|volvic|jus\s+de|litchi|mangue|ananas|pomme|orange|limonade|ice tea|iced tea|thé|infusion|café|coffee|expresso|cappuccino|macchiato)\b/i.test(text)) {
-    return 'soft_drink';
-  }
-  if (/\b(?:mochi|glace|sorbet|dessert|cheesecake|fondant|perle\s+de\s+coco|lychee|litchi\s+au\s+sirop|tarte|crème|creme|tiramisu|panacotta|panna cotta)\b/i.test(text)) {
-    return 'dessert';
+  if (defaultCat !== 'main' && defaultCat !== 'starter' && defaultCat !== 'side') {
+    if (/\b(?:mochi|glace|sorbet|dessert|cheesecake|fondant|perle\s+de\s+coco|lychee|litchi\s+au\s+sirop|tarte|crème\s+(?:brûlée|glacée|renversée|caramel|anglaise)|tiramisu|panacotta|panna cotta)\b/i.test(text)) {
+      return 'dessert';
+    }
   }
   
   // 2. Fallback to Section Header Category
@@ -117,8 +121,8 @@ function parsePriceLine(line: string): { priceCents: number; extra?: string } | 
     return { priceCents, extra: extra || undefined };
   }
 
-  // Support naked price like "16,50" or "16.50"
-  const nakedPricePattern = /^(\d+[.,]\d{2})\s*(.*)$/;
+  // Support naked price like "16,50", "16.50", "16,9" or "16.9"
+  const nakedPricePattern = /^(\d+[.,]\d{1,2})\s*(.*)$/;
   match = line.trim().match(nakedPricePattern);
   if (match) {
     const val = parseFloat(match[1].replace(',', '.'));
@@ -141,7 +145,8 @@ function isHeaderLine(line: string): boolean {
   }
   
   const headerKeywords = [
-    'entrées', 'starters', 'plats', 'momo', 'soupes', 'spécialités', 'desserts', 'boissons', 'vins', 'formules', 'menus'
+    'entrées', 'starters', 'plats', 'momo', 'soupes', 'spécialités', 'desserts', 'boissons', 'vins', 'formules', 'menus',
+    'salades', 'poissons', 'pâtes et risotto', 'viandes', 'fromages', 'pâtes', 'risotto', 'pizzas'
   ];
   if (headerKeywords.includes(cleaned.toLowerCase())) {
     return true;
@@ -339,8 +344,13 @@ function main() {
       : Math.round((mainPrices[mid - 1] + mainPrices[mid]) / 2);
   }
 
+  const mainItems = parsedItems.filter(i => i.category === 'main');
+  const onMangeQuoi = mainItems.length >= 2
+    ? `Cuisine de bistrot. ${mainItems[0].name} & ${mainItems[1].name}.`
+    : 'Cuisine de bistrot. Plat 1 & Plat 2.';
+
   const payload = {
-    on_mange_quoi_ici: parsedItems.slice(0, 3).map(i => i.name).join(', '),
+    on_mange_quoi_ici: onMangeQuoi,
     Url_Photos_Menu: [], // Pre-filled placeholder
     menu_items: menuItemsGrouped,
     dish_price: medianDishPrice ? medianDishPrice / 100 : undefined

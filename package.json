@@ -15,7 +15,8 @@
     "industrial-add": "npx tsx scripts/industrial_add.ts",
     "industrial-sync": "npx tsx scripts/audit_registry.ts --slug=$npm_config_slug && npx tsx scripts/sync_to_supabase.ts --slug=$npm_config_slug && npx tsx scripts/migrate_media.ts --slug=$npm_config_slug && npx tsx scripts/inject_data.ts && npx tsx scripts/enrich_data.ts --slug=$npm_config_slug && npx tsx scripts/compile_registry.ts",
     "audit-registry": "npx tsx scripts/audit_registry.ts",
-    "menu-uploader": "npx tsx scripts/menu_uploader.ts"
+    "menu-uploader": "npx tsx scripts/menu_uploader.ts",
+    "ingest-menu": "npx tsx scripts/ingest_menu_pipeline.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
