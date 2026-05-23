@@ -1,0 +1,162 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Brochette bœuf au fromage & California avocat saumon.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kyo/feafaefezfzafe.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées, Maki & Sushi",
+      "items": [
+        {
+          "name": "Maki Saumon (6 pièces)",
+          "price_cents": 480,
+          "description": "M1 Shake",
+          "is_highlight": false
+        },
+        {
+          "name": "Maki Thon (6 pièces)",
+          "price_cents": 500,
+          "description": "M2 Tekka",
+          "is_highlight": false
+        },
+        {
+          "name": "California Avocat Saumon (6 pièces)",
+          "price_cents": 580,
+          "description": "M6 Avocat saumon",
+          "is_highlight": true
+        },
+        {
+          "name": "California Avocat Thon (6 pièces)",
+          "price_cents": 580,
+          "description": "M7 Avocat thon",
+          "is_highlight": false
+        },
+        {
+          "name": "California Avocat Fromage Saumon (6 pièces)",
+          "price_cents": 650,
+          "description": "M14",
+          "is_highlight": false
+        },
+        {
+          "name": "Brochette Bœuf au Fromage (2 pièces)",
+          "price_cents": 520,
+          "description": "Y12 Chizu gyuniku",
+          "is_highlight": true
+        },
+        {
+          "name": "Brochette Boulette de Poulet (2 pièces)",
+          "price_cents": 480,
+          "description": "Y8 Tsukune",
+          "is_highlight": false
+        },
+        {
+          "name": "Brochette Cuisse de Poulet (2 pièces)",
+          "price_cents": 480,
+          "description": "Y9 Negima",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade japonaise",
+          "price_cents": 600,
+          "description": "S1 Salade avec choux et poisson",
+          "is_highlight": false
+        },
+        {
+          "name": "Gyoza Poulet & Légumes (5 pièces)",
+          "price_cents": 580,
+          "description": "S9 Raviolis grillés japonais",
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi Saumon (8 tranches)",
+          "price_cents": 980,
+          "description": "SA1 Shake",
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi Thon (8 tranches)",
+          "price_cents": 1080,
+          "description": "SA2 Maguro",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats Chauds & Menus",
+      "items": [
+        {
+          "name": "Nouilles sautées au bœuf (ou crevettes/légumes/poulet)",
+          "price_cents": 1000,
+          "description": "P1 Nouilles sautées japonaises",
+          "is_highlight": false
+        },
+        {
+          "name": "10 gyoza grillés",
+          "price_cents": 1100,
+          "description": "P2 Raviolis poulet et légumes, servis avec soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "Tempura crevette et légumes",
+          "price_cents": 1590,
+          "description": "P3 8 beignets de crevette et assortiment de légumes, servis avec soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "Bobun au bœuf",
+          "price_cents": 1000,
+          "description": "P5 Bobun traditionnel servi avec nems et vermicelles",
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf sauce Teriyaki",
+          "price_cents": 1180,
+          "description": "P8 Tranches de bœuf à la sauce teriyaki douce",
+          "is_highlight": true
+        },
+        {
+          "name": "Soupe Udon",
+          "price_cents": 1190,
+          "description": "P9 Soupe de nouilles udon japonaises et beignets de crevette",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu 1 (2 plats au choix)",
+          "price_cents": 1080,
+          "description": "Menu composé servi avec 1 soupe miso et 1 salade de choux",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu 2 (3 plats au choix)",
+          "price_cents": 1490,
+          "description": "Menu composé servi avec 1 soupe miso et 1 salade de choux",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu B1 (6 california + 1 plat chaud)",
+          "price_cents": 1380,
+          "description": "California saumon avocat et un plat chaud au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Bento N6",
+          "price_cents": 1480,
+          "description": "3 sashimi saumon, 3 sushi assortiment, 3 california saumon avocat, 2 brochettes",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Brochettes A (5 pièces)",
+          "price_cents": 980,
+          "description": "Boeuf, boulettes de poulet, poulet, boeuf au fromage, champignons",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
