@@ -1,0 +1,460 @@
+{
+  "on_mange_quoi_ici": "Cuisine de crêperie. Galette complète & Galette Josselin aux champignons.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.32.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.38.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.56.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.48.04.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.48.13.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Salades",
+      "items": [
+        {
+          "name": "Salade verte",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte aux noix",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte Roquefort ou Chèvre",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte Roquefort Noix ou Chèvre Noix",
+          "price_cents": 900,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Galettes",
+      "items": [
+        {
+          "name": "Galette Beurre Salé",
+          "price_cents": 690,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Jambon",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Fromage",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Oeuf",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Saucisse",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Oignon",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Forestière (Champignon)",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Lard",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Purée d'aubergine",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Jambon Fromage",
+          "price_cents": 1090,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Poulet Fromage",
+          "price_cents": 1090,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Saucisse Fromage",
+          "price_cents": 1090,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Complète (Oeuf, Jambon, Fromage)",
+          "price_cents": 1190,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Lard Oignon",
+          "price_cents": 1190,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Roquefort ou Chèvre",
+          "price_cents": 1150,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Roquefort Noix ou Chèvre Noix",
+          "price_cents": 1190,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Chèvre Miel",
+          "price_cents": 1190,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Meneac (Épinard, Chèvre, Crème)",
+          "price_cents": 1190,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Andouille de Guéméné",
+          "price_cents": 1290,
+          "is_highlight": false
+        },
+        {
+          "name": "Galette Saumon Fumé, Citron, Crème",
+          "price_cents": 1290,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Josselin (Oeuf, Jambon, Fromage, Champignon)",
+          "price_cents": 1390,
+          "is_highlight": true
+        },
+        {
+          "name": "Spécialité Morbihannaise (Oeuf, Jambon, Fromage, Tomate fraîche)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Bretonne (Saucisse, Fromage, Tomate fraîche)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Maraîchère (Épinard, Oeuf miroir, Lard, Fromage, Crème)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Finistère (Purée d'aubergine, Oeuf miroir, Lard)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Bertine (Oeuf, Jambon, Fromage, Oignon)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Végétarienne (Oeuf, Fromage, Tomate fraîche, Oignon, Champignon)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Paysanne (Oeuf miroir, Lard, Oignon, Fromage)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Galinette (Poulet, Fromage, Champignon, Crème)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Brocéliande (Confiture de figue, Chèvre, Lard)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Korrigan (Jambon de pays, Chèvre, Tomate fraîche)",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Spécialité Armor (Andouille de Guéméné, Fromage, Oeuf miroir)",
+          "price_cents": 1390,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Crêpes sucrées & Desserts",
+      "items": [
+        {
+          "name": "Crêpe Beurre Sucre",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Confiture (Fraise, Framboise, Abricot ou Myrtille)",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Chocolat Maison",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Chocolat Maison + 1 Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Nutella",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Nutella + 1 Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Compote de Pomme Maison",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Compote de Pomme Maison + Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Caramel au Beurre Salé Maison",
+          "price_cents": 800,
+          "is_highlight": true
+        },
+        {
+          "name": "Crêpe Caramel au Beurre Salé Maison + 1 Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Frangipane Maison",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Frangipane Maison + 1 Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Miel",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Miel + 1 Garniture",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Citron Pressé",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Crème de Marron",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Mont-Blanc (Crème de marrons, Crème fraîche)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Sirop d'Érable",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Flambée (Rhum, Calvados, Cointreau, Mandarine ou Grand Marnier)",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpe Banane Flambée au Rhum",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe Colonel (Citron artisanal & Vodka)",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe Belle Ile (Vanille artisanale, Caramel, Amandes & Chantilly)",
+          "price_cents": 990,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Kir Breton 16cl",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Pommeau Breton 7cl",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Kir vin blanc 16cl",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Chouchen 12cl",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Pichet Cidre Brut Pression 25cl",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Pichet Cidre Brut Pression 50cl",
+          "price_cents": 990,
+          "is_highlight": false
+        },
+        {
+          "name": "Pichet Cidre Brut Pression 100cl",
+          "price_cents": 1490,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Brut 75cl",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Doux 75cl",
+          "price_cents": 1390,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Brut Biologique 75cl",
+          "price_cents": 1490,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Brut Artisanal 75cl",
+          "price_cents": 1490,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bouché Doux Poiré Artisanal 75cl",
+          "price_cents": 1490,
+          "is_highlight": false
+        },
+        {
+          "name": "Heineken 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Bretonne 33cl",
+          "price_cents": 700,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Café Expresso",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Café Décaféiné",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Café Crème",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Jus d'Orange Bio 25cl",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de Pomme Artisanal 25cl",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola / Zéro 33cl",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Evian 50cl",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Evian 1L",
+          "price_cents": 780,
+          "is_highlight": false
+        },
+        {
+          "name": "Badoit 50cl",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "Badoit 1L",
+          "price_cents": 780,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

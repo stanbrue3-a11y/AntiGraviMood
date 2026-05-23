@@ -1,0 +1,438 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Pizza C.P.2019 & Gnocchi alla sorrentina.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-manifattura/feafaefezfzazdfzd.pdf"
+  ],
+  "pint_price": 10,
+  "cocktail_price": 12,
+  "coffee_price": 2.5,
+  "wine_glass": 7,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Antipasti & Insalate",
+      "items": [
+        {
+          "name": "Burratina 125g, roquette, huile de basilic",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Stracciatella fumé, croûtons, huile de basilic",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "La fritturina (calamars, gambas, aïoli)",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Stella della Manifattura 2.0 (à partager)",
+          "price_cents": 2800,
+          "is_highlight": true
+        },
+        {
+          "name": "Polpette e mulignan frits - 6pcs",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Mini calzoni frits - 5pcs",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Bruschetta (mozza di bufala, balsamique)",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Carpaccio di gamberi de Sicile",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata Caprese 250g",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Carpaccio de bœuf et champignons",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata Cesar",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Parmigiana fredda",
+          "price_cents": 1800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Pizze & Paste",
+      "items": [
+        {
+          "name": "Polpette di manzo e bufala fondente",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "La véritable Milanaise, frites",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Stracciatella di manzo (300g)",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Polipetti alla luciana (poulpe sauce tomate)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Tonno grigliato (thon grillé, haricots)",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Margherita",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Bufala La Vraie",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Quattro formaggi",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Regina",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Salsiccia e friatielli",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Cetara (thon, oignons rouges)",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Parmigiana (aubergines frites)",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Ortolana",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Napoli",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Diavola piccante",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Burratissima",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza La Manifattura (Bresaola, burrata)",
+          "price_cents": 2000,
+          "is_highlight": true
+        },
+        {
+          "name": "Pizza Parma D.O.P (Jambon de Parme 24 mois)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Favolosa (Mortadelle, pistache)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Tricolore",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Guagliò",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Tartufo & Parma",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza C.P.2019 (Championne de Paris)",
+          "price_cents": 2500,
+          "is_highlight": true
+        },
+        {
+          "name": "Linguine sciue sciue",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Gnocchi alla sorrentina",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "L'autentica carbonara",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Penne salmone",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Trofie pesto e burrata",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Linguine al tonno",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Linguine alle vongole (palourdes)",
+          "price_cents": 2100,
+          "is_highlight": false
+        },
+        {
+          "name": "Tagliatelles al tartufo",
+          "price_cents": 2200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Dolci",
+      "items": [
+        {
+          "name": "Panna Cotta fruits rouges",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Profiteroles à l'italienne au chocolat",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Profiteroles à l'italienne aux pistaches",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Tarte de la nonna",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Baba napolitain au limoncello",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Tarte aux 3 chocolats",
+          "price_cents": 900,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Birra & Cocktails & Vini",
+      "items": [
+        {
+          "name": "Bouteille Peroni 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Peroni pression 25cl",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Peroni pression 50cl (Pinte)",
+          "price_cents": 1000,
+          "is_highlight": true
+        },
+        {
+          "name": "Paulaner pression 50cl (Pinte)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "1664 blanche pression 50cl",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Grimbergen ambrée pression 50cl",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Aperol Spritz",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Passion Spritz",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Hugo",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail La Manifattura",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Moscow Mule",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Mojito",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Bellini",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Montepulciano 14cl",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Primitivo 14cl",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Chianti 14cl",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rosé Chiaretto Di Bartolino 14cl",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin blanc Chardonnay 14cl",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Analcolici & Caffeteria",
+      "items": [
+        {
+          "name": "Espresso",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Double expresso",
+          "price_cents": 350,
+          "is_highlight": false
+        },
+        {
+          "name": "Allongé",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Cappuccino",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé, Infusion",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "San Benedetto plate 50cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "San Benedetto gazeuse 50cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola / Zéro 33cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade Italienne 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Bambino",
+      "items": [
+        {
+          "name": "Menu Bambino (Pâtes ou pizza + boisson)",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "on_mange_quoi_ici": "Cuisine chinoise. Pâtes Biang Biang au bœuf & Tong Guan Mo au porc.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-taverne-de-zhao/zczczvzrvrzv.pdf"
+  ],
+  "pint_price": 7,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": 5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées Froides & Chaudes",
+      "items": [
+        {
+          "name": "Platycodon (Poulet effiloché, sésame blanc)",
+          "price_cents": 780,
+          "is_highlight": true
+        },
+        {
+          "name": "Forêt Noire (Champignons noirs, radis, coriandre)",
+          "price_cents": 680,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade d'Algues épicée",
+          "price_cents": 680,
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf au Piment",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis Dorés Classique (x6)",
+          "price_cents": 780,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis à la Vapeur (x6)",
+          "price_cents": 780,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis Végétariens Dorés (x6)",
+          "price_cents": 780,
+          "is_highlight": false
+        },
+        {
+          "name": "Xiao Long Bao au porc (x4)",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet Frit de ZHAO",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Mo N°1 au porc mijoté",
+          "price_cents": 750,
+          "is_highlight": true
+        },
+        {
+          "name": "Mo Ji au poulet mariné",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Mo Végé au tofu et œuf",
+          "price_cents": 750,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Liang Pi & Pâtes & Riz",
+      "items": [
+        {
+          "name": "Liang Pi Classique (Pâtes froides, sésame)",
+          "price_cents": 1180,
+          "is_highlight": false
+        },
+        {
+          "name": "Liang Pi XO au poulet",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes Biang Biang Tomate",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes Biang Biang Porc",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes Biang Biang Bœuf",
+          "price_cents": 1380,
+          "is_highlight": true
+        },
+        {
+          "name": "Pâtes Biang Biang Tomate + Porc",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes Biang Biang Tomate + Bœuf",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes aux épinards Tomate",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes aux épinards Porc",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes aux épinards Bœuf",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes d'Épinards Fraîches de ZHAO (froides)",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Marmite de Vermicelles de Riz au poulet",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Marmite de Nouilles de Patate Douce au poulet",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Marmite d'Udon Chinois au poulet",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz au Porc mijoté",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz au Calamar sauté",
+          "price_cents": 1450,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz au Poulet mariné",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz aux Œufs Brouillés à la Tomate",
+          "price_cents": 1280,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mangue Fraîche au Riz noir et Lait de Coco",
+          "price_cents": 650,
+          "is_highlight": true
+        },
+        {
+          "name": "Glace au Sésame Noir avec Sablé d'Œuf",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Flan au Thé Vert avec Haricot Rouge",
+          "price_cents": 650,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Bière & Vins",
+      "items": [
+        {
+          "name": "Tsingtao Pression 25cl",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Tsingtao Pression 50cl (Pinte)",
+          "price_cents": 700,
+          "is_highlight": true
+        },
+        {
+          "name": "Tsing Tao bouteille 33cl",
+          "price_cents": 480,
+          "is_highlight": false
+        },
+        {
+          "name": "Tsing Tao IPA Bière 6.2° 33cl",
+          "price_cents": 580,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Côtes-du-Rhône 14cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin blanc Riesling 14cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rosé Côtes-de-Provence 14cl",
+          "price_cents": 500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Café / Déca",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Pu-erh au Citron Vert Séché",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Oolong à la Pêche Blanche",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop de Prune Acidulée (Fait Maison)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Glacé au Pamplemousse (Fait Maison)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola / Zéro 33cl",
+          "price_cents": 350,
+          "is_highlight": false
+        },
+        {
+          "name": "Evian 50cl",
+          "price_cents": 350,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

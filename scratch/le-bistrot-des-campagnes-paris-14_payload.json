@@ -1,0 +1,225 @@
+{
+  "on_mange_quoi_ici": "Cuisine française de terroir. Joues de porc braisées & Tatin de boudin noir.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.40.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.59.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": 6.5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Chèvre fondant aux piquillos, sablé parmesan",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Poêlée de pleurotes grises, ail et persil, oeuf poché",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de saumon, aneth mangue et citron vert",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Tatin de boudin noir aux pommes",
+          "price_cents": 1050,
+          "is_highlight": true
+        },
+        {
+          "name": "Terrine de campagne aux épices Rabelais, pickles",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Foie gras de canard mi-cuit au torchon à l'Armagnac",
+          "price_cents": 2500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Pavé de rumsteck de boeuf grillé aux herbes, frites",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de boeuf du bistrot, version rafraîchissante, frites",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Suprême de poulet jaune, sauce cacahuète, patate douce",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Joues de porc marinées au vin de Loire, rattes",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Poisson sauvage vapeur, yuzu, risotto d'épeautre",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Risotto végétarien d'épeautre",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Confit de canard traditionnel, sauce moutarde",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Magret de canard poêlé aux fruits rouges",
+          "price_cents": 3100,
+          "is_highlight": false
+        },
+        {
+          "name": "Rognons de veau flambés à l'Armagnac",
+          "price_cents": 3100,
+          "is_highlight": false
+        },
+        {
+          "name": "Côte de boeuf véritable grillée pour 2",
+          "price_cents": 7500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Plateau sélection de fromages AOC au lait cru",
+          "price_cents": 1350,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème viennoise au chocolat noir 50% cacao",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Vacherin du bistrot",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Profiteroles traditionnelles sauce chocolat noir",
+          "price_cents": 1350,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème brûlée vanille flambée au Grand Marnier",
+          "price_cents": 1050,
+          "is_highlight": true
+        },
+        {
+          "name": "Gros baba bouchon au rhum Saint James",
+          "price_cents": 1250,
+          "is_highlight": false
+        },
+        {
+          "name": "Pomme confite à l'anis étoilé",
+          "price_cents": 1050,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins & Apéritifs",
+      "items": [
+        {
+          "name": "Verre de vin rosé Côtes de Provence 14cl",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Côtes de Bordeaux 14cl",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin blanc Anjou Chenin 14cl",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Kir vin blanc 14cl",
+          "price_cents": 650,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Café Expresso",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Café Crème",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat chaud",
+          "price_cents": 650,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Menu Bistrot Midi (plat + entrée ou dessert)",
+          "price_cents": 2550,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Bistrot Soir (plat + entrée ou dessert)",
+          "price_cents": 3550,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Campagne Soir (entrée + plat + dessert)",
+          "price_cents": 4450,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Enfant (plat et dessert)",
+          "price_cents": 1500,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

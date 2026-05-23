@@ -1,0 +1,152 @@
+{
+  "on_mange_quoi_ici": "Cuisine méditerranéenne. Épaule d'agneau confite & Panouss au panais.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-petite-soeur/LPS-Menu-Mai-2026.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": 9.5,
+  "coffee_price": 3,
+  "wine_glass": 6,
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Tapas",
+      "items": [
+        {
+          "name": "Assiette de fromages sélection du moment",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Panouss (Houmous au panais et ail noir)",
+          "price_cents": 900,
+          "is_highlight": true
+        },
+        {
+          "name": "Tirokafteri (Toast à la grecque, feta)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "L'Œuf et demi mayo au paprika fumé",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Fêta rôtie au miel fermenté et thym",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Fava (Crème de fèves jaunes, anchois)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de gorgonzola aux noix et pomme",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Fuet Catalan",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats à partager",
+      "items": [
+        {
+          "name": "Épaule d'agneau confite, crème de maïs",
+          "price_cents": 2000,
+          "is_highlight": true
+        },
+        {
+          "name": "Farinata de légumes rôtis aux épices",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Dolma (Boulettes de sardines au citron confit)",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Börek (Feuilleté au fenouil et brebis)",
+          "price_cents": 1800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Pomme rôtie au miel miso et halva",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Pithiviers (Fondant amande citronné)",
+          "price_cents": 900,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins & Cocktails",
+      "items": [
+        {
+          "name": "Verre de vin nature (Rouge, Blanc, Rosé)",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail Ginto (Gin du 14e)",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail Mexico Mule",
+          "price_cents": 950,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Chaudes & Softs",
+      "items": [
+        {
+          "name": "Expresso",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Double expresso",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé / Infusion",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Lemonaid 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Community Cola 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
