@@ -1,0 +1,482 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Pizza Tartufo & Tataki de saumon.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-imprevu-paris-14/Capture_d_e_cran_2026-05-23_a__19.16.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-imprevu-paris-14/Capture_d_e_cran_2026-05-23_a__19.16.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-imprevu-paris-14/Capture_d_e_cran_2026-05-23_a__19.16.32.png"
+  ],
+  "pint_price": 7,
+  "cocktail_price": 9,
+  "coffee_price": 2.6,
+  "wine_glass": 5.5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Œufs Mayonnaise",
+          "price_cents": 790,
+          "description": "Petite salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Gaspacho à la Provençale",
+          "price_cents": 890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "6 Escargots Façon Bourguignonne",
+          "price_cents": 890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Burrata, Tomate, Basilic",
+          "price_cents": 1190,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de Saumon",
+          "price_cents": 1590,
+          "description": "Mangue, citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Carpaccio de Bœuf 150g",
+          "price_cents": 1590,
+          "description": "Mâche, copeaux de parmesan",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Plat du Jour",
+          "price_cents": 1600,
+          "description": "Selon le marché",
+          "is_highlight": false
+        },
+        {
+          "name": "Penne all'Arrabbiata",
+          "price_cents": 1690,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Wok de Poulet Thaï",
+          "price_cents": 1690,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de Bœuf 180g",
+          "price_cents": 1790,
+          "description": "Frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Bavette à l'Échalote 200g",
+          "price_cents": 1890,
+          "description": "Frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Tataki de Saumon",
+          "price_cents": 1890,
+          "description": "Sauce thaï, riz",
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte 250g",
+          "price_cents": 1990,
+          "description": "Sauce au poivre, frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Croque Monsieur",
+          "price_cents": 1490,
+          "description": "Frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Burger L'Imprévu",
+          "price_cents": 2090,
+          "description": "Frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Chicken Burger",
+          "price_cents": 2090,
+          "description": "Frites, salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Margherita",
+          "price_cents": 1000,
+          "description": "Sauce tomate, mozzarella, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Regina",
+          "price_cents": 1400,
+          "description": "Sauce tomate, mozzarella, jambon, champignons, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Napolitaine",
+          "price_cents": 1490,
+          "description": "Sauce tomate, mozzarella, câpres, anchois, olives, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Végétarienne",
+          "price_cents": 1690,
+          "description": "Sauce tomate, mozzarella, champignons, poivron, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Calzone",
+          "price_cents": 1690,
+          "description": "Sauce tomate, mozzarella, jambon, champignons, œuf, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Tartufo",
+          "price_cents": 1790,
+          "description": "Crème de truffe, mozzarella, champignons, roquette",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Tapas & À Partager",
+      "items": [
+        {
+          "name": "Planche de Charcuterie Maison El Berzo",
+          "price_cents": 1890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Planche de Fromage ou Mixte",
+          "price_cents": 1890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Camembert Rôti",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Guacamole",
+          "price_cents": 800,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Wings Tex Mex x6",
+          "price_cents": 1000,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Wings Tex Mex x12",
+          "price_cents": 1790,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Nachos Cheddar",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Onion Rings x9",
+          "price_cents": 800,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Mozza Sticks x7",
+          "price_cents": 1000,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mousse au Chocolat",
+          "price_cents": 890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu",
+          "price_cents": 890,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème Brûlée Vanille",
+          "price_cents": 890,
+          "description": "Vanille de Madagascar",
+          "is_highlight": false
+        },
+        {
+          "name": "Café ou Thé Gourmand",
+          "price_cents": 1190,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Brioche Perdue",
+          "price_cents": 890,
+          "description": "Caramel beurre salé",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola / Coca-Cola Zéro 33cl",
+          "price_cents": 560,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Orangina / Fuze Tea 33cl",
+          "price_cents": 560,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Schweppes Tonic / Agrum' 33cl",
+          "price_cents": 560,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade Pression / Diabolo",
+          "price_cents": 460,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop à l'Eau",
+          "price_cents": 410,
+          "description": "Grenadine, Pêche, Fraise, Menthe, Citron, Violette, Coco",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de Fruits / Nectars",
+          "price_cents": 460,
+          "description": "Orange, Pomme, Ananas, Abricot, Fraise, Tomate",
+          "is_highlight": false
+        },
+        {
+          "name": "Fruits Pressés",
+          "price_cents": 660,
+          "description": "Orange, Citron, Pamplemousse",
+          "is_highlight": false
+        },
+        {
+          "name": "Expresso / Décaféiné",
+          "price_cents": 260,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Noisette",
+          "price_cents": 270,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Allongé",
+          "price_cents": 280,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Crème / Chocolat Chaud",
+          "price_cents": 400,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Cappuccino",
+          "price_cents": 450,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Café / Chocolat Viennois",
+          "price_cents": 500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Richard",
+          "price_cents": 400,
+          "description": "Earl Grey, Vert Sencha, Menthe, Fruits Rouges, Caramel, Jasmin",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Demi Blonde 25cl",
+          "price_cents": 500,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte Blonde 50cl",
+          "price_cents": 700,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Demi L'abbaye Tongerlo 25cl",
+          "price_cents": 600,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte L'abbaye Tongerlo 50cl",
+          "price_cents": 880,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Demi L'IPA Le Castor 25cl",
+          "price_cents": 700,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte L'IPA Le Castor 50cl",
+          "price_cents": 980,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Demi La Triple Charles Quint 25cl",
+          "price_cents": 600,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte La Triple Charles Quint 50cl",
+          "price_cents": 880,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Demi La Blanche Super 8 25cl",
+          "price_cents": 600,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte La Blanche Super 8 50cl",
+          "price_cents": 880,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Bouteille Corona / Desperados 33cl",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail Mojito / Caïpirinha / Moscow Mule / Spritz",
+          "price_cents": 900,
+          "description": "Happy hour à 7€",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Rouge - Côtes du Rhône AOP",
+          "price_cents": 550,
+          "description": "La Lironde, Pierre Dupond",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Rouge - Bordeaux AOP",
+          "price_cents": 600,
+          "description": "Château l'Église",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Rouge - Cahors Malbec",
+          "price_cents": 650,
+          "description": "Le Fruit du Caillou, Combel la Serre",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Rouge - Saumur AOP",
+          "price_cents": 750,
+          "description": "Les Motuelles, Arnaud Lambert",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Rouge - Bourgogne AOP",
+          "price_cents": 800,
+          "description": "Coutelouise, Dominique Laurent",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Blanc - Chardonnay Pays d'Oc",
+          "price_cents": 600,
+          "description": "Torremila",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Blanc - Sauvignon",
+          "price_cents": 700,
+          "description": "Les Enfants Terribles",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Formule Midi - Entrée + Plat ou Plat + Dessert",
+          "price_cents": 1990,
+          "description": "Midi en semaine. Hors week-end",
+          "is_highlight": false
+        },
+        {
+          "name": "Formule Midi - Entrée + Plat + Dessert",
+          "price_cents": 2590,
+          "description": "Midi en semaine. Hors week-end",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

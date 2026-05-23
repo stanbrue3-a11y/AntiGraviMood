@@ -1,0 +1,317 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Selle d'agneau farcie & Tataki de truite.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.14.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.14.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.14.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.15.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.15.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-entrepot/Capture_d_e_cran_2026-05-23_a__19.15.10.png"
+  ],
+  "pint_price": 8,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Houmous",
+          "price_cents": 900,
+          "description": "Choux de Bruxelles, sauge",
+          "is_highlight": false
+        },
+        {
+          "name": "Tarama de Haddock",
+          "price_cents": 1200,
+          "description": "Radis, huile de poireaux",
+          "is_highlight": false
+        },
+        {
+          "name": "Panisses",
+          "price_cents": 1100,
+          "description": "Labneh, menthe, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Tataki de Truite",
+          "price_cents": 1400,
+          "description": "Crème de topinambour, shiitakes, vinaigrette miso et sésame",
+          "is_highlight": true
+        },
+        {
+          "name": "Pâté en Croûte",
+          "price_cents": 1300,
+          "description": "Volaille et cochon, noisettes et abricots, pickles",
+          "is_highlight": false
+        },
+        {
+          "name": "Pierogi Végétarien",
+          "price_cents": 1200,
+          "description": "Pommes de terre et fromage blanc, chou rouge, crème foin et poivre",
+          "is_highlight": false
+        },
+        {
+          "name": "Croquettes de Boudin Noir",
+          "price_cents": 1300,
+          "description": "Mayonnaise aux herbes, kumquats confits, pickles et roquette",
+          "is_highlight": false
+        },
+        {
+          "name": "Stracciatella",
+          "price_cents": 1400,
+          "description": "Purée de 'Nduja",
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de Capocollo",
+          "price_cents": 1300,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Filet de Maigre",
+          "price_cents": 2300,
+          "description": "Purée de carotte et fenouil, chou pointu, beurre blanc aux anchois",
+          "is_highlight": false
+        },
+        {
+          "name": "Selle d'Agneau Farcie aux Herbes",
+          "price_cents": 2500,
+          "description": "Caponata aux pommes et pignons de pin, pommes de terre en persillade, tapenade",
+          "is_highlight": true
+        },
+        {
+          "name": "Risotto de Petit Épeautre",
+          "price_cents": 2000,
+          "description": "Crème de brocolis au safran, tuile de parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Ris de Veau",
+          "price_cents": 3200,
+          "description": "Tapenade, légumes de saison et pommes de terre, jus de viande",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Assiette de Fromages",
+          "price_cents": 1400,
+          "description": "Chèvre au miel et zaatar, Ossau Iraty et Morbier, chutney de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Brie aux Algues",
+          "price_cents": 1200,
+          "description": "Mascarpone et cerneaux de noix, chutney de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Espuma Bananes Flambées",
+          "price_cents": 1200,
+          "description": "Rhum, sorbet chocolat 65%, crumble aux épices",
+          "is_highlight": false
+        },
+        {
+          "name": "Petits Beignets",
+          "price_cents": 900,
+          "description": "Pâte à tartiner au chocolat, amandes et graines de courge, caramel",
+          "is_highlight": false
+        },
+        {
+          "name": "Pavlova",
+          "price_cents": 1000,
+          "description": "Sorbet kiwi, fenouil et aneth, chantilly au timut",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans Alcool",
+      "items": [
+        {
+          "name": "Eau Pétillante Castalie 75cl",
+          "price_cents": 350,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Cola / Club Maté",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Ginger Beer Bio Accent",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade Bio Nature Brasserie d'Olt",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de Fruits Alain Milliat",
+          "price_cents": 600,
+          "description": "Tomate, Orange, Raisin, Pomme",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade Bio Mona",
+          "price_cents": 600,
+          "description": "Citron Vert & Citron Jaune, Pêche & Abricot",
+          "is_highlight": false
+        },
+        {
+          "name": "Thé Glacé UMA",
+          "price_cents": 600,
+          "description": "Thé Vert, Rooibos",
+          "is_highlight": false
+        },
+        {
+          "name": "Sirop à l'Eau",
+          "price_cents": 400,
+          "description": "Grenadine, Menthe, Citron, Orgeat, Pêche",
+          "is_highlight": false
+        },
+        {
+          "name": "Expresso / Déca / Allongé / Noisette",
+          "price_cents": 250,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème",
+          "price_cents": 280,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Double Expresso / Chocolat Chaud",
+          "price_cents": 400,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Demi Konrad Blonde 25cl",
+          "price_cents": 450,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte Konrad Blonde 50cl",
+          "price_cents": 800,
+          "description": "Bière pression",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Brasserie Toussaint - La Cloclo 33cl",
+          "price_cents": 700,
+          "description": "Blonde Saison par Chloé Charles",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Brasserie Toussaint - IPA 33cl",
+          "price_cents": 700,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio Sassy Brut 33cl",
+          "price_cents": 700,
+          "description": "L'inimitable (5%) - Sec et fruité",
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Bio Sassy Rosé 33cl",
+          "price_cents": 700,
+          "description": "La sulfureuse (3%) - Arômes de fruits rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "White Wine: Marie - Maison Ventenac",
+          "price_cents": 2900,
+          "description": "Pays d'Oc. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "White Wine: Au bout du chenin",
+          "price_cents": 4800,
+          "description": "Touraine. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Orange Wine: Kremo - Jordi Llorens",
+          "price_cents": 4800,
+          "description": "Espagne. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Red Wine: Oscar - Domaine de la Dourbie",
+          "price_cents": 2800,
+          "description": "Vallée de l'Hérault. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Red Wine: Les 3 Pierres - Domaine Belmont",
+          "price_cents": 3600,
+          "description": "Côtes-du-Lot. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Red Wine: Domaine Mathieu Dumarcher",
+          "price_cents": 4300,
+          "description": "Rhône. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Red Wine: Têtes de chats - Mathieu Coste",
+          "price_cents": 4900,
+          "description": "Loire. Bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Champagne / Pet Nat: Dansez - Marie Rocher",
+          "price_cents": 3900,
+          "description": "Pétillant Naturel. Bouteille",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Menu Enfant",
+          "price_cents": 1600,
+          "description": "Plat + Dessert + Sirop à l'eau",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
