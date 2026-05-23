@@ -1,0 +1,169 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Cassoulet maison & Escargots en pot.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.16.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.25.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.32.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.50.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-assiette-paris-14/Capture_d_e_cran_2026-05-23_a__14.46.58.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Velouté du Moment",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Escargots en Pot et Croûton Doré",
+          "price_cents": 2100,
+          "description": "",
+          "is_highlight": true
+        },
+        {
+          "name": "Croquettes de Pieds de Cochon Sauce Tartare",
+          "price_cents": 2200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Ceviche de Daurade Royale Jus de Tomates Vertes, Pickles d'Oignons Rouges",
+          "price_cents": 2300,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Cassoulet Maison",
+          "price_cents": 4100,
+          "description": "",
+          "is_highlight": true
+        },
+        {
+          "name": "Joue de Cochon Braisée en Cocotte Jus aux Olives, Légumes de Saison",
+          "price_cents": 3400,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Poisson selon l'Arrivage",
+          "price_cents": 3500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Caille Farcie au Foie Gras Jus de Rôti",
+          "price_cents": 3600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Coquillette à la Truffe",
+          "price_cents": 3800,
+          "description": "Suggestion du chef",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Crème Caramel au Beurre Salé",
+          "price_cents": 1500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Baba au Rhum, Crème Mi-Montée à la Vanille",
+          "price_cents": 1800,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Pêche Blanche Pochée dans son Sirop, Sorbet Pêche",
+          "price_cents": 1500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Ananas Rôti, Meringue Coco, Glace Vanille",
+          "price_cents": 1700,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins Rouges (Bouteille)",
+      "items": [
+        {
+          "name": "2021 Fleurie - Domaine de Fa",
+          "price_cents": 5500,
+          "description": "Beaujolais",
+          "is_highlight": false
+        },
+        {
+          "name": "2020 Chénas \"Quarts-D. Piron\"",
+          "price_cents": 6000,
+          "description": "Beaujolais",
+          "is_highlight": false
+        },
+        {
+          "name": "2022 Irancy la Croix Montjoie",
+          "price_cents": 6000,
+          "description": "Bourgogne",
+          "is_highlight": false
+        },
+        {
+          "name": "2021 Morgon Côte du Py - Domaine Bouland",
+          "price_cents": 6000,
+          "description": "Beaujolais",
+          "is_highlight": false
+        },
+        {
+          "name": "2022 Vacqueyras \"Lopy\" - Domaine Le Sang des Cailloux",
+          "price_cents": 6500,
+          "description": "Rhône",
+          "is_highlight": false
+        },
+        {
+          "name": "2022 Châteauneuf-du-Pape - Domaine Saint Préfert",
+          "price_cents": 13000,
+          "description": "Rhône",
+          "is_highlight": false
+        },
+        {
+          "name": "2020 Cairanne \"L'Ébruscade\" - Marcel Richaud",
+          "price_cents": 7500,
+          "description": "Rhône",
+          "is_highlight": false
+        },
+        {
+          "name": "2020 Bourgueil \"Rencontre\" - Domaine Amirault",
+          "price_cents": 5000,
+          "description": "Vallée de la Loire",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
