@@ -1,0 +1,99 @@
+{
+  "on_mange_quoi_ici": "Cuisine kabyle. Couscous Méchoui & Tadjine Hlou.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-amazigh/Capture_d_e_cran_2026-05-23_a__22.57.16.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-amazigh/Capture_d_e_cran_2026-05-23_a__22.57.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-amazigh/Capture_d_e_cran_2026-05-23_a__22.57.24.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-amazigh/Capture_d_e_cran_2026-05-23_a__22.57.31.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "plat_median_cents": 1900,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Chorba Frik soupe maison",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Assortiment de Boureks",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Tchektchouka",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "H'Miss poivrons tomates ail",
+          "price_cents": 900,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Couscous Agneau",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Couscous Bœuf",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Couscous Poulet",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Couscous Méchoui d'agneau au four",
+          "price_cents": 2200,
+          "is_highlight": true
+        },
+        {
+          "name": "Couscous Brochette d'agneau",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Tadjine Zitoune carotte olives",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tadjine Hlou aux pruneaux et amandes",
+          "price_cents": 1900,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Baghrir crêpe mille trous",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Khobz de Maman",
+          "price_cents": 550,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

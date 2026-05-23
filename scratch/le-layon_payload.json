@@ -1,0 +1,71 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Filet de Canard rôti & Steak de chou-fleur snacké.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-layon/feafaefezfzaqfqdf.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 1900,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Le Radis multicolore cresson et fromage frais",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Petit Pois salade ail doux et fraise",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "La Courgette crème et bresaola",
+          "price_cents": 1300,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Le Chou-Fleur steak snacké et yaourt",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Maigre rôti aux asperges vertes",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Canard filet rôti et patates douces",
+          "price_cents": 1900,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "La Rhubarbe clafoutis et sorbet maison",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "La Fraise au naturel et siphon yaourt",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

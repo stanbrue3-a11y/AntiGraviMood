@@ -1,0 +1,91 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Poulpe grillé & Pluma ibérique grillée.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-jeroboam/feafaefezfzafafaeg.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 2600,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Croustillants de gambas au curry breton",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Ceviche de maigre, yaourt grec et cancha",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Frites d'halloumi, pak choi et sauce tartare",
+          "price_cents": 1500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Mi-cuit de thon au sésame",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Poulpe grillé, infusion au chorizo",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Noix de pétoncles grillées, crème de morilles",
+          "price_cents": 2900,
+          "is_highlight": false
+        },
+        {
+          "name": "Gnocchi, asperges vertes et parmesan",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Agneau confit 7h à la citronnelle",
+          "price_cents": 2900,
+          "is_highlight": false
+        },
+        {
+          "name": "Pluma ibérique grillée, vinaigre de Xérès",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte Black Angus, beurre Café de Paris",
+          "price_cents": 3100,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Brioche façon pain perdu, caramel beurre salé",
+          "price_cents": 1100,
+          "is_highlight": true
+        },
+        {
+          "name": "Pavlova fraise, sorbet framboise-violette",
+          "price_cents": 1100,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

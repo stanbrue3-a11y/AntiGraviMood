@@ -1,0 +1,91 @@
+{
+  "on_mange_quoi_ici": "Cuisine marine. Escalopes de Saint-Pierre au beurre de vodka & Sole meunière.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.15.32.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.15.35.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.15.39.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.15.43.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.13.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.24.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-duc-paris-14/Capture_d_e_cran_2026-05-23_a__22.16.27.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 20,
+  "coffee_price": 8,
+  "wine_glass": 15,
+  "plat_median_cents": 6800,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Salmon tartare",
+          "price_cents": 2500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Sole in Meuniere butter",
+          "price_cents": 6800,
+          "is_highlight": true
+        },
+        {
+          "name": "Escalopes of John Dory with vodka butter sauce",
+          "price_cents": 6800,
+          "is_highlight": true
+        },
+        {
+          "name": "Goujons of sole with 2 peppers sauce",
+          "price_cents": 9000,
+          "is_highlight": false
+        },
+        {
+          "name": "Langoustine from Scotland, ginger butter",
+          "price_cents": 7500,
+          "is_highlight": false
+        },
+        {
+          "name": "Gilthead sea bream aiguillettes in lime butter",
+          "price_cents": 5800,
+          "is_highlight": false
+        },
+        {
+          "name": "Monkfish sauteed provence style",
+          "price_cents": 5800,
+          "is_highlight": false
+        },
+        {
+          "name": "Hake steak, rosemary oil",
+          "price_cents": 6000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mille-feuilles",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Baba au Rhum",
+          "price_cents": 2200,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

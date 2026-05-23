@@ -1,0 +1,101 @@
+{
+  "on_mange_quoi_ici": "Cuisine asiatique. Bibimbap au bœuf & Gyozas au porc grillés.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-florissant/evzfezfzeffz.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": 4.5,
+  "plat_median_cents": 1390,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Nems au porc ou poulet (E1)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis aux crevettes à la vapeur (E3)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Potage pékinois (E4)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Gyozas porc ou poulet (R13)",
+          "price_cents": 680,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Ramen Tonkotsu porc ou poulet (N1)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe de nouilles aux travers de porc (N3)",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz au bœuf maison (R1)",
+          "price_cents": 1450,
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap au bœuf (R2)",
+          "price_cents": 1450,
+          "is_highlight": true
+        },
+        {
+          "name": "Bibimbap au poulet (R3)",
+          "price_cents": 1450,
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap au saumon (R4)",
+          "price_cents": 1550,
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap végétarien (R7)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Bo Bun au bœuf (V2)",
+          "price_cents": 1280,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mochi glacé x2",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Perles de coco x2",
+          "price_cents": 400,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

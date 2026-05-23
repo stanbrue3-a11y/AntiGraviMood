@@ -1,0 +1,102 @@
+{
+  "on_mange_quoi_ici": "Cuisine fusion. Big Yucatan Burger & Poulpe grillé à la mexicaine.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-saut-du-crapaud/Capture_d_e_cran_2026-05-23_a__23.02.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-saut-du-crapaud/Capture_d_e_cran_2026-05-23_a__23.02.58.png"
+  ],
+  "pint_price": 7.5,
+  "cocktail_price": 8,
+  "coffee_price": 2.5,
+  "wine_glass": 7,
+  "plat_median_cents": 2200,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Sopa azteca au chorizo",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Boudin noir basque plancha compotée d'oignons",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Croqueta de crabe sauce aux herbes",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Filet de bar sauce à la diabla",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Onglet de bœuf sauce chimichurri",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Big Yucatan Burger pulled pork frites",
+          "price_cents": 2200,
+          "is_highlight": true
+        },
+        {
+          "name": "Ceviche vert de bar marinade herbes",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Poulpe grillé à la mexicaine",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Thon rouge mi-cuit sauce aigre-douce",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Steak tartare citron vert coriandre",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Ris de veau rôti légumes saison",
+          "price_cents": 3500,
+          "is_highlight": false
+        },
+        {
+          "name": "Entrecôte maturée 300g frites",
+          "price_cents": 2800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Ananas rôtis à la téquila",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Cheesecake au citron vert coulis passion",
+          "price_cents": 1100,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

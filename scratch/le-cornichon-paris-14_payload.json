@@ -1,0 +1,88 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Ris de veau doré croustillant & Cabillaud rôti.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.11.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.11.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.07.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.18.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.24.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-cornichon-paris-14/Capture_d_e_cran_2026-05-23_a__22.12.33.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 3500,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Matjes en croque en sel",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Poireaux fondants marinés",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Crabes sauvages",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Dorade royale en filet à la plancha",
+          "price_cents": 3500,
+          "is_highlight": false
+        },
+        {
+          "name": "Dos de cabillaud rôti",
+          "price_cents": 3500,
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet de ferme rôti",
+          "price_cents": 3500,
+          "is_highlight": false
+        },
+        {
+          "name": "Épaule de cochon cuite fondante",
+          "price_cents": 3500,
+          "is_highlight": false
+        },
+        {
+          "name": "Ris de veau doré croustillant au beurre",
+          "price_cents": 5300,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Chou croustillant vanille Bourbon",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat de St Domingue façon soufflé",
+          "price_cents": 1000,
+          "is_highlight": true
+        }
+      ]
+    }
+  ]
+}

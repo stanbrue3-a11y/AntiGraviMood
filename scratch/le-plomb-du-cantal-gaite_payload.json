@@ -1,0 +1,105 @@
+{
+  "on_mange_quoi_ici": "Cuisine auvergnate. Saucisse fraîche d'Auvergne & Confit de canard.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.03.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.06.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.09.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.13.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.18.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.23.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.31.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.33.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-plomb-du-cantal-gaite/Capture_d_e_cran_2026-05-23_a__23.01.36.png"
+  ],
+  "pint_price": 9.6,
+  "cocktail_price": 9.5,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 2700,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Saucisse sèche d'Auvergne",
+          "price_cents": 910,
+          "is_highlight": false
+        },
+        {
+          "name": "Pâté d'Auvergne maison",
+          "price_cents": 910,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe à l'oignon gratinée avec tomme",
+          "price_cents": 880,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Saucisse fraîche d'Auvergne avec aligot",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Magret entier 400g avec aligot",
+          "price_cents": 3050,
+          "is_highlight": false
+        },
+        {
+          "name": "Confit de canard avec aligot",
+          "price_cents": 2700,
+          "is_highlight": true
+        },
+        {
+          "name": "Tripoux 3 pièces avec aligot",
+          "price_cents": 2700,
+          "is_highlight": false
+        },
+        {
+          "name": "Chou farci à l'Aveyronnaise avec aligot",
+          "price_cents": 2650,
+          "is_highlight": false
+        },
+        {
+          "name": "L'Onglet 250g avec aligot",
+          "price_cents": 2850,
+          "is_highlight": false
+        },
+        {
+          "name": "Entrecôte 330g avec aligot",
+          "price_cents": 2950,
+          "is_highlight": false
+        },
+        {
+          "name": "Côte de bœuf 500g avec aligot",
+          "price_cents": 3150,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tarte maison pommes caramel et vanille",
+          "price_cents": 930,
+          "is_highlight": false
+        },
+        {
+          "name": "Flan Auvergnat pruneaux raisins rhum",
+          "price_cents": 780,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

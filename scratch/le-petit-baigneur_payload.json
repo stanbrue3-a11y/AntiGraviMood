@@ -1,0 +1,96 @@
+{
+  "on_mange_quoi_ici": "Cuisine française. Bœuf bourguignon & Saucisse au couteau.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.19.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.23.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.28.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.31.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-petit-baigneur/Capture_d_e_cran_2026-05-23_a__22.58.39.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": 5,
+  "plat_median_cents": 1800,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "L'œuf mayo",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de campagne maison",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Filets de harengs pommes à l'huile",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe à l'oignon gratinée",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "La saucisse au couteau purée maison",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de bœuf frites maison",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Brandade de morue salade verte",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Suprême de poulet rôti forestière",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Bavette à l'échalote frites maison",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Boeuf bourguignon coquillettes",
+          "price_cents": 2100,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Crème caramel à l'ancienne",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu classique",
+          "price_cents": 900,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
