@@ -493,7 +493,7 @@ async function main() {
     (finalPayload.dish_price ? Math.round(finalPayload.dish_price * 100) : null);
 
   let finalPintPriceCents = finalPayload.pint_price ? Math.round(finalPayload.pint_price * 100) : null;
-  if (!finalPintPriceCents && detectedPintPrice) {
+  if (finalPayload.pint_price === undefined && detectedPintPrice) {
     finalPintPriceCents = detectedPintPrice;
   }
 

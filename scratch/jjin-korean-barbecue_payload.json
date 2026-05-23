@@ -1,0 +1,594 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Bulgogi mariné & Faux-filet de Wagyu.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/jjin-korean-barbecue/feafaefezfzafg.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": 12,
+  "coffee_price": 3.5,
+  "wine_glass": 7,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Raviolis au poulet (6 pièces)",
+          "price_cents": 900,
+          "description": "Chicken dumplings",
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis aux légumes (6 pièces)",
+          "price_cents": 900,
+          "description": "Dumplings aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette au Kimchi",
+          "price_cents": 1000,
+          "description": "Kimchi pancake",
+          "is_highlight": false
+        },
+        {
+          "name": "Calamar frit",
+          "price_cents": 1100,
+          "description": "Tentacule de calamar frit servi avec une sauce maison épicée",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet frit désossé sauce sweet & spicy",
+          "price_cents": 1100,
+          "description": "Fried chicken",
+          "is_highlight": true
+        },
+        {
+          "name": "Galette coréenne aux fruits de mer avec ciboulette",
+          "price_cents": 1400,
+          "description": "Korean seafood pancake Cuttlefish, shrimp and mussel",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimbap Thon",
+          "price_cents": 1400,
+          "description": "Seaweed rice rolled with Tuna, Radish, Carrot, omelet, Shiso and sesame oil",
+          "is_highlight": false
+        },
+        {
+          "name": "Japchae aux légumes",
+          "price_cents": 1500,
+          "description": "Stir-fried vermicelli noodles with vegetables",
+          "is_highlight": false
+        },
+        {
+          "name": "Yukhoe",
+          "price_cents": 1800,
+          "description": "Korean beef tartar",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats & Barbecues",
+      "items": [
+        {
+          "name": "Bibim-Guksu",
+          "price_cents": 1400,
+          "description": "Nouilles froides mélangées, équilibre entre piquant, acidulé, sucré et umami",
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap",
+          "price_cents": 1800,
+          "description": "Riz chaud, légumes, viande (poulet, bœuf ou tofu) et jaune d'œuf, servi dans un bol en pierre chaude",
+          "is_highlight": true
+        },
+        {
+          "name": "Bibimbap yukhoe",
+          "price_cents": 2000,
+          "description": "Riz chaud, légumes, tartare de bœuf coréen et jaune d'œuf, servi dans un bol en pierre chaude",
+          "is_highlight": false
+        },
+        {
+          "name": "Ragoût kimchi",
+          "price_cents": 1800,
+          "description": "Kimchi Jjigae, ragoût épicé coréen à base de kimchi fermenté et porc",
+          "is_highlight": false
+        },
+        {
+          "name": "Galbitang",
+          "price_cents": 1800,
+          "description": "Soupe coréenne claire et réconfortante préparée à partir de côtes de bœuf mijotées",
+          "is_highlight": false
+        },
+        {
+          "name": "Rose Tteokbokki",
+          "price_cents": 1800,
+          "description": "Gâteau de riz, pâte de poisson, chou blanc et oignon dans une sauce épicée au gochujang",
+          "is_highlight": false
+        },
+        {
+          "name": "Bulgogi (Barbecue Bœuf)",
+          "price_cents": 2200,
+          "description": "Tranches de bœuf très fines marinées dans un mélange sucré-salé (220g)",
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte (Barbecue Bœuf)",
+          "price_cents": 2500,
+          "description": "Pièce de bœuf tendre et savoureuse (200g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Flat Iron (Barbecue Bœuf)",
+          "price_cents": 2500,
+          "description": "Pièce de bœuf tendre découpée dans l'épaule, grillée et juteuse",
+          "is_highlight": false
+        },
+        {
+          "name": "JJIN Galbi (Barbecue Bœuf)",
+          "price_cents": 2600,
+          "description": "Côtes de bœuf coupées transversalement, marinées dans une sauce sucrée-salée (400g)",
+          "is_highlight": true
+        },
+        {
+          "name": "Bavette d'aloyau prestige (Barbecue Bœuf)",
+          "price_cents": 2800,
+          "description": "Découpe de bœuf issue de la partie basse de l'aloyau (200g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Brisket (Barbecue Bœuf)",
+          "price_cents": 2800,
+          "description": "Poitrine de bœuf finement découpée, servie congelée pour la découpe (200g)",
+          "is_highlight": false
+        },
+        {
+          "name": "T-BONE Black Angus (Barbecue Bœuf)",
+          "price_cents": 4800,
+          "description": "T-bone steak avec os en T séparant le filet et le contre-filet (500g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Faux-Filet Wagyu A4 - Japon (Barbecue Bœuf)",
+          "price_cents": 9000,
+          "description": "Faux-filet de Wagyu japonais au persillage extrêmement fin (selon arrivage)",
+          "is_highlight": true
+        },
+        {
+          "name": "Poitrine de porc (Barbecue Porc)",
+          "price_cents": 2000,
+          "description": "Fines tranches de poitrine de porc riches et fondantes (400g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Échine de porc ibérique (Barbecue Porc)",
+          "price_cents": 2600,
+          "description": "Pièce persillée tendre et moelleuse (180g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Pluma de porc ibérique (Barbecue Porc)",
+          "price_cents": 2800,
+          "description": "Pièce d'exception issue de l'avant de l'échine, tendre et fondante (180g)",
+          "is_highlight": false
+        },
+        {
+          "name": "Set de Légumes (Barbecue)",
+          "price_cents": 2000,
+          "description": "Assortiment de légumes pour le barbecue",
+          "is_highlight": false
+        },
+        {
+          "name": "Set de Fruits de Mer (Barbecue)",
+          "price_cents": 5800,
+          "description": "Assortiment de fruits de mer pour le barbecue",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Formules Barbecue à Partager",
+      "items": [
+        {
+          "name": "Grillade de bœuf pour 2",
+          "price_cents": 6800,
+          "description": "Set de bœuf avec flatiron, entrecôte & JJIN galbi",
+          "is_highlight": false
+        },
+        {
+          "name": "Grillade de bœuf prestige pour 2",
+          "price_cents": 7800,
+          "description": "Set de bœuf avec Brisket, Bavette d'aloyau prestige & JJIN galbi",
+          "is_highlight": false
+        },
+        {
+          "name": "Grillade de porc pour 2",
+          "price_cents": 6500,
+          "description": "Set de poitrine de porc, échine de porc et pluma de porc",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "Bol de riz",
+          "price_cents": 400,
+          "description": "Bol de riz blanc et noir",
+          "is_highlight": false
+        },
+        {
+          "name": "Feuille de shiso verte",
+          "price_cents": 500,
+          "description": "Feuilles de shiso",
+          "is_highlight": false
+        },
+        {
+          "name": "Algues nori",
+          "price_cents": 500,
+          "description": "Algues séchées",
+          "is_highlight": false
+        },
+        {
+          "name": "Poireaux pimentés",
+          "price_cents": 400,
+          "description": "Poireaux préparés aux épices",
+          "is_highlight": false
+        },
+        {
+          "name": "Banchan au choix",
+          "price_cents": 400,
+          "description": "Accompagnement traditionnel coréen",
+          "is_highlight": false
+        },
+        {
+          "name": "Set de 6 condiments de saison",
+          "price_cents": 800,
+          "description": "Assortiment de 6 banchan de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Fromage avec maïs et omelette soufflée",
+          "price_cents": 800,
+          "description": "Accompagnement chaud au fromage et maïs",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mochi glacé (1 pièce)",
+          "price_cents": 400,
+          "description": "Parfum au choix : Matcha, Vanille ou Mangue",
+          "is_highlight": false
+        },
+        {
+          "name": "Affogato",
+          "price_cents": 800,
+          "description": "Expresso avec une glace vanille italienne",
+          "is_highlight": false
+        },
+        {
+          "name": "Profiteroles",
+          "price_cents": 800,
+          "description": "Glace vanille avec coulis de chocolat blanc & matcha",
+          "is_highlight": false
+        },
+        {
+          "name": "Glace 2 boules avec chantilly",
+          "price_cents": 900,
+          "description": "Parfums au choix : vanille, framboise, matcha, sésame noir",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Evian ou Vittel (50cl)",
+          "price_cents": 500,
+          "description": "Bouteille de 50cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Eau pétillante (75cl)",
+          "price_cents": 400,
+          "description": "Bouteille de 75cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola (33cl)",
+          "price_cents": 600,
+          "description": "Bouteille de 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola Zéro (33cl)",
+          "price_cents": 600,
+          "description": "Bouteille de 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Orangina (25cl)",
+          "price_cents": 600,
+          "description": "Bouteille de 25cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Ice Tea (25cl)",
+          "price_cents": 600,
+          "description": "Bouteille de 25cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus d'Aloe Vera (24cl)",
+          "price_cents": 500,
+          "description": "Boisson à l'aloe vera",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade maison",
+          "price_cents": 600,
+          "description": "Parfum au choix : Fraise citron, Framboise citron, Yuzu, Prune",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Expresso",
+          "price_cents": 350,
+          "description": "Café noir serré",
+          "is_highlight": false
+        },
+        {
+          "name": "Double Expresso",
+          "price_cents": 600,
+          "description": "Double dose d'expresso",
+          "is_highlight": false
+        },
+        {
+          "name": "Café allongé",
+          "price_cents": 420,
+          "description": "Expresso allongé d'eau chaude",
+          "is_highlight": false
+        },
+        {
+          "name": "Théière",
+          "price_cents": 600,
+          "description": "Au choix : thé à la rose, chrysanthème, thé vert, thé à l'orge",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées & Cocktails",
+      "items": [
+        {
+          "name": "Cocktail - JJin To",
+          "price_cents": 1200,
+          "description": "Gin japonais, Italicus, Aperol, espuma de pamplemousse (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Seoul Vibe",
+          "price_cents": 1200,
+          "description": "Soju coréen, hibiscus, gingembre (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Leetchi Spritz",
+          "price_cents": 1200,
+          "description": "Liqueur de sureau, Italicus, litchi, pétillant (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Kim",
+          "price_cents": 1200,
+          "description": "Gin japonais, soju coréen, jus de kimchi (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Match'Geolli",
+          "price_cents": 1200,
+          "description": "Makgeolli coréen, rhum, matcha, blanc d'œuf (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Sojuto",
+          "price_cents": 1200,
+          "description": "Rhum, soju infusé, shiso, butterfly pea (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail - Korean Refresher",
+          "price_cents": 1200,
+          "description": "Rhum, shiso, concombre (soir uniquement)",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière coréenne Cass (33cl)",
+          "price_cents": 600,
+          "description": "Bière coréenne en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Heineken (25cl)",
+          "price_cents": 500,
+          "description": "Bière en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Heineken (50cl)",
+          "price_cents": 900,
+          "description": "Bière en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Galia (25cl)",
+          "price_cents": 600,
+          "description": "Bière locale en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Bière Galia (50cl)",
+          "price_cents": 1100,
+          "description": "Bière locale en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Makgeolli (750ml) 6%",
+          "price_cents": 1600,
+          "description": "Boisson coréenne pétillante à base de riz fermenté",
+          "is_highlight": false
+        },
+        {
+          "name": "Soju Nature (36cl) 16%",
+          "price_cents": 1600,
+          "description": "Spiritueux coréen traditionnel à base de riz, d'orge ou de blé (Chamisul)",
+          "is_highlight": false
+        },
+        {
+          "name": "Soju Arôme (36cl) 14%",
+          "price_cents": 1600,
+          "description": "Au choix : Pêche, Fraise, Pomme",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin de prune - Seoljoongmae (37.5cl)",
+          "price_cents": 2000,
+          "description": "Vin coréen doux à base de prunes fermentées",
+          "is_highlight": false
+        },
+        {
+          "name": "Vin de framboise - Bohae Bokbunja (37.5cl)",
+          "price_cents": 2100,
+          "description": "Vin coréen doux à base de framboises noires fermentées",
+          "is_highlight": false
+        },
+        {
+          "name": "Hwayo Soju premium 25% (50cl)",
+          "price_cents": 3800,
+          "description": "Soju premium coréen à base de riz et d'ingrédients naturels",
+          "is_highlight": false
+        },
+        {
+          "name": "Hwayo Soju premium 41% (50cl)",
+          "price_cents": 5800,
+          "description": "Soju artisanal coréen de riz puissant et raffiné",
+          "is_highlight": false
+        },
+        {
+          "name": "Bordeaux AOC - Château Roquefort (Verre 15cl)",
+          "price_cents": 700,
+          "description": "Vin rouge au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Côte du Rhône AOP - Marquis des Eyssarts (Verre 15cl)",
+          "price_cents": 700,
+          "description": "Vin rouge au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Nicolas de Bourgueil La Source 2024 (Verre 15cl)",
+          "price_cents": 900,
+          "description": "Yannick Amirault, La Source 2024, vin rouge au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Chardonnay Val de Loire (Verre 15cl)",
+          "price_cents": 700,
+          "description": "Les Éclaireurs - Trinquons, vin blanc au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes de Provence Rosé (Verre 15cl)",
+          "price_cents": 700,
+          "description": "Tout Simplement, Domaine Saint Pons, rosé au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Bordeaux AOC - Château Roquefort (Bouteille 75cl)",
+          "price_cents": 2800,
+          "description": "Vin rouge en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Côte du Rhône AOP - Marquis des Eyssarts (Bouteille 75cl)",
+          "price_cents": 2800,
+          "description": "Vin rouge en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Nicolas de Bourgueil La Source 2024 (Bouteille 75cl)",
+          "price_cents": 3800,
+          "description": "Yannick Amirault, La Source 2024, vin rouge en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Émilion Grand Cru - Château Montlisse (Bouteille 75cl)",
+          "price_cents": 4500,
+          "description": "Vin rouge gourmand et harmonieux en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Château Combel La-Serre (Bouteille 75cl)",
+          "price_cents": 4500,
+          "description": "Cahors AOP, Malbec en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Domaine Moë - Hautes Côtes de Nuits AOC (Bouteille 75cl)",
+          "price_cents": 5800,
+          "description": "Vin rouge fruité et élégant en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Chardonnay Val de Loire (Bouteille 75cl)",
+          "price_cents": 2800,
+          "description": "Les Éclaireurs - Trinquons, vin blanc en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Chablis AOC \"Le Finage\" La Chablisienne (Bouteille 75cl)",
+          "price_cents": 4800,
+          "description": "Vin blanc sec et élégant",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes de Provence Rosé (Bouteille 75cl)",
+          "price_cents": 2800,
+          "description": "Tout Simplement, Domaine Saint Pons, rosé en bouteille",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules & Menus",
+      "items": [
+        {
+          "name": "Menu Midi (Mardi au Vendredi midi)",
+          "price_cents": 1700,
+          "description": "Entrée (3 raviolis ou 2 parts de kimchi pancake) + Plat (Bibimbap poulet/bœuf/tofu, Deopbap poulet, Kimchi soup ou Galbi tang) + soupe du jour, riz blanc et 3 condiments",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu BBQ (Mardi au Vendredi midi)",
+          "price_cents": 1800,
+          "description": "Entrée (3 raviolis ou 2 parts de kimchi pancake) + Viande cuite en cuisine (Bulgogi, JJIN Galbi, Poitrine de porc) + soupe du jour, riz blanc et 3 condiments",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

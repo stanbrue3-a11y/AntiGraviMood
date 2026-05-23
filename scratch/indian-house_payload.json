@@ -1,0 +1,426 @@
+{
+  "on_mange_quoi_ici": "Cuisine indienne. Poulet tikka massala & Cheese naan maison.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/indian-house/feafaefezfza.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Samossas au paneer (fromage maison)",
+          "price_cents": 650,
+          "description": "Réalisés à la minute avec une pâte maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Samossas végétariens aux légumes frais",
+          "price_cents": 500,
+          "description": "Réalisés à la minute avec une pâte maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Samossas au poulet mariné aux épices",
+          "price_cents": 650,
+          "description": "Réalisés à la minute avec une pâte maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Tikki aux pommes de terre et petits légumes frais",
+          "price_cents": 600,
+          "description": "Entrée de street food de pommes de terre",
+          "is_highlight": false
+        },
+        {
+          "name": "Panipuri",
+          "price_cents": 550,
+          "description": "Street food indienne traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Panipuri royale",
+          "price_cents": 550,
+          "description": "Street food indienne traditionnelle version royale",
+          "is_highlight": false
+        },
+        {
+          "name": "Panipuri tartare de saumon",
+          "price_cents": 700,
+          "description": "Street food revisitée au saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "Green Seekh Kebab",
+          "price_cents": 800,
+          "description": "Kebab haché aux herbes",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignets - Mélange de légumes",
+          "price_cents": 900,
+          "description": "Mélange de légumes en beignets croustillants",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignets - Aux crevettes",
+          "price_cents": 750,
+          "description": "Beignets de crevettes",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignets du jour",
+          "price_cents": 500,
+          "description": "Beignets selon l'humeur du chef",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Jacques massala sur lit d'aubergines",
+          "price_cents": 1250,
+          "description": "Entrée spéciale aux noix de Saint-Jacques",
+          "is_highlight": false
+        },
+        {
+          "name": "Brocoli dorés au Tandoor",
+          "price_cents": 650,
+          "description": "Têtes de brocoli grillées au four Tandoor",
+          "is_highlight": false
+        },
+        {
+          "name": "Brochettes de poulet Tikka",
+          "price_cents": 700,
+          "description": "Brochettes de poulet mariné cuites au Tandoor",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "À Partager",
+      "items": [
+        {
+          "name": "Mix grill à partager",
+          "price_cents": 1900,
+          "description": "Pour 2 à 4 personnes (samossa, beignet de crevettes, seekh kebab, poulet tikka et panipuri)",
+          "is_highlight": false
+        },
+        {
+          "name": "Planche royale à partager",
+          "price_cents": 2900,
+          "description": "Pour 2 à 4 personnes (samossa, beignet de légumes, seekh kebab, poulet tikka, panipuri royale et gambas tikka)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats Maison",
+      "items": [
+        {
+          "name": "Paneer fromage maison",
+          "price_cents": 1500,
+          "description": "Cuisiné avec des légumes frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Palak Paneer",
+          "price_cents": 1400,
+          "description": "Fromage maison cuisiné avec des épinards frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Daal Tarka",
+          "price_cents": 1200,
+          "description": "Lentilles cuisinées de façon traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Chana Massala",
+          "price_cents": 1100,
+          "description": "Pois chiches cuisinés de façon traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Bartha",
+          "price_cents": 1300,
+          "description": "Caviar d'aubergines maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Aloo & Brocoli",
+          "price_cents": 1350,
+          "description": "Pommes de terre et brocolis cuisinés avec les épices du Nord",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet Tikka Massala",
+          "price_cents": 1350,
+          "description": "Poulet mariné grillé au tandoor, servi avec une sauce tomate et gingembre parsemée de coriandre",
+          "is_highlight": true
+        },
+        {
+          "name": "Poulet Shahi Korma",
+          "price_cents": 1450,
+          "description": "Poulet désossé aux épices avec une sauce au lait de coco, cajou et amandes",
+          "is_highlight": false
+        },
+        {
+          "name": "Agneau Palak",
+          "price_cents": 1800,
+          "description": "Agneau désossé aux diverses épices et aux épinards frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Agneau Vindaloo",
+          "price_cents": 1700,
+          "description": "Agneau avec pommes de terre préparé à la sauce Vindaloo",
+          "is_highlight": false
+        },
+        {
+          "name": "Saumon Palak",
+          "price_cents": 1900,
+          "description": "Pavé de saumon mi-cuit grillé au tandoor servi avec des épinards frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Jacques Karahi",
+          "price_cents": 2100,
+          "description": "Noix de Saint-Jacques cuites avec des épices du Nord, sauce yaourt, poivrons verts et rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "Gambas tikka Massala",
+          "price_cents": 2100,
+          "description": "Gambas cuites au tandoor servies avec une sauce tomate et gingembre, coriandre",
+          "is_highlight": false
+        },
+        {
+          "name": "Jarret d'agneau",
+          "price_cents": 2300,
+          "description": "Mijoté pendant 5 heures dans une sauce maison, accompagné de légumes frais et riz au choix",
+          "is_highlight": true
+        },
+        {
+          "name": "Noix de veau",
+          "price_cents": 1900,
+          "description": "Accompagné de légumes frais et riz au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Jarreton de porc",
+          "price_cents": 1600,
+          "description": "Accompagné de légumes frais et riz au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Bar entier",
+          "price_cents": 2200,
+          "description": "Poisson frais accompagné de légumes frais et riz aux petits pois",
+          "is_highlight": false
+        },
+        {
+          "name": "Dorade entière",
+          "price_cents": 2300,
+          "description": "Poisson frais accompagné de légumes frais et riz aux petits pois",
+          "is_highlight": false
+        },
+        {
+          "name": "Biryani végétarien",
+          "price_cents": 1400,
+          "description": "Plat traditionnel au riz mijoté, accompagné de raïta aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Biryani poulet",
+          "price_cents": 1550,
+          "description": "Plat traditionnel au riz mijoté et poulet, accompagné de raïta aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Biryani agneau",
+          "price_cents": 1700,
+          "description": "Plat traditionnel au riz mijoté et agneau, accompagné de raïta aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Biryani au duo de poisson",
+          "price_cents": 2000,
+          "description": "Plat traditionnel au riz mijoté et duo de poisson, raïta",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements & Naans",
+      "items": [
+        {
+          "name": "Riz nature basmati",
+          "price_cents": 250,
+          "description": "Riz basmati blanc nature",
+          "is_highlight": false
+        },
+        {
+          "name": "Riz aux petits pois",
+          "price_cents": 300,
+          "description": "Riz basmati aux petits pois",
+          "is_highlight": false
+        },
+        {
+          "name": "Riz à la coco",
+          "price_cents": 400,
+          "description": "Riz basmati parfumé à la noix de coco",
+          "is_highlight": false
+        },
+        {
+          "name": "Riz aux œufs",
+          "price_cents": 600,
+          "description": "Riz basmati sauté aux œufs",
+          "is_highlight": false
+        },
+        {
+          "name": "Riz aux fruits secs",
+          "price_cents": 600,
+          "description": "Riz basmati aux amandes, noix de cajou, raisins secs",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Daal Tarka",
+          "price_cents": 600,
+          "description": "Portion de lentilles traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Aloo Gobi",
+          "price_cents": 600,
+          "description": "Portion de pommes de terre et chou-fleur",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Bartha",
+          "price_cents": 600,
+          "description": "Portion de caviar d'aubergines maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Palak Paneer",
+          "price_cents": 600,
+          "description": "Portion d'épinards au fromage maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Légumes punjab",
+          "price_cents": 600,
+          "description": "Portion de légumes façon Punjab",
+          "is_highlight": false
+        },
+        {
+          "name": "Accompagnement - Chana massala",
+          "price_cents": 600,
+          "description": "Portion de pois chiches traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Naan nature",
+          "price_cents": 250,
+          "description": "Pâte levée préparée à la minute",
+          "is_highlight": false
+        },
+        {
+          "name": "Butter Naan",
+          "price_cents": 400,
+          "description": "Pâte levée au beurre",
+          "is_highlight": false
+        },
+        {
+          "name": "Cheese Naan",
+          "price_cents": 450,
+          "description": "Pâte levée fourrée au fromage",
+          "is_highlight": true
+        },
+        {
+          "name": "Garlic Naan",
+          "price_cents": 350,
+          "description": "Pâte levée à l'ail",
+          "is_highlight": false
+        },
+        {
+          "name": "Garlic & Cheese Naan",
+          "price_cents": 500,
+          "description": "Pâte levée à l'ail et fourrée au fromage",
+          "is_highlight": true
+        },
+        {
+          "name": "Olive Naan",
+          "price_cents": 400,
+          "description": "Pâte levée aux olives",
+          "is_highlight": false
+        },
+        {
+          "name": "Oignon Naan",
+          "price_cents": 400,
+          "description": "Pâte levée aux oignons",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Gulab Jamun maison à la pistache",
+          "price_cents": 600,
+          "description": "Pâtisserie indienne traditionnelle",
+          "is_highlight": false
+        },
+        {
+          "name": "Raspberry puri",
+          "price_cents": 700,
+          "description": "Dessert à la framboise",
+          "is_highlight": false
+        },
+        {
+          "name": "Panacotta à la mangue",
+          "price_cents": 750,
+          "description": "Panna cotta revisitée à la mangue",
+          "is_highlight": false
+        },
+        {
+          "name": "Kulfi maison",
+          "price_cents": 750,
+          "description": "Glace indienne traditionnelle maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Naan au Nutella",
+          "price_cents": 650,
+          "description": "Pâte levée fourrée au Nutella",
+          "is_highlight": false
+        },
+        {
+          "name": "Latoo Naan",
+          "price_cents": 750,
+          "description": "Pâte levée fourrée au Nutella et noix de coco",
+          "is_highlight": false
+        },
+        {
+          "name": "Glaces et sorbets",
+          "price_cents": 600,
+          "description": "Deux boules au choix (Vanille, chocolat, café, caramel, pistache, mangue, passion, coco, citron, poire, pomme, framboise)",
+          "is_highlight": false
+        },
+        {
+          "name": "Coupes glacées",
+          "price_cents": 750,
+          "description": "Colonel, dame blanche, etc.",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
