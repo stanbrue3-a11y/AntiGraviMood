@@ -1,0 +1,139 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Porc rôti flambé à la cachaça & Ceviche de poisson d'arrivage.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.14.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.20.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.29.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.37.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.47.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/galia-par-maxim-godigna/Capture_d_e_cran_2026-05-23_a__01.54.54.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Ceviche de poisson d'arrivage",
+          "price_cents": 1300,
+          "description": "Agrumes, condiment goyave",
+          "is_highlight": false
+        },
+        {
+          "name": "Foie gras au rhum vénézuélien",
+          "price_cents": 2300,
+          "description": "Dulce à l'orange et sauce chamoy",
+          "is_highlight": false
+        },
+        {
+          "name": "Velouté du mois",
+          "price_cents": 1300,
+          "description": "Velouté de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Bollos pelones farcis à la volaille",
+          "price_cents": 1300,
+          "description": "Crémeux d'avocat",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Porc rôti flambé à la cachaça",
+          "price_cents": 2700,
+          "description": "Risotto au citron confit",
+          "is_highlight": true
+        },
+        {
+          "name": "Pêche du moment",
+          "price_cents": 2700,
+          "description": "Purée de patate douce, praliné de graines de tournesol",
+          "is_highlight": false
+        },
+        {
+          "name": "Entrecôte Blonde de Galice",
+          "price_cents": 3900,
+          "description": "Chips de manioc, chimichurri, fromage « frito »",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Caraquart du chef",
+          "price_cents": 1200,
+          "description": "Caramel au beurre salé, noix de coco râpée (possibilité sans coco)",
+          "is_highlight": false
+        },
+        {
+          "name": "Cheesecake tiramisu",
+          "price_cents": 1200,
+          "description": "Cheesecake façon tiramisu",
+          "is_highlight": false
+        },
+        {
+          "name": "Fromage du moment caramélisé",
+          "price_cents": 1200,
+          "description": "Compote de banane plantain",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules & Menus",
+      "items": [
+        {
+          "name": "Menu du jour MIDI - Entrée & Plat",
+          "price_cents": 2200,
+          "description": "Midi uniquement, hors week-end et jours fériés",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu du jour MIDI - Plat & Dessert",
+          "price_cents": 2200,
+          "description": "Midi uniquement, hors week-end et jours fériés",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu du jour MIDI - Entrée, Plat & Dessert",
+          "price_cents": 2500,
+          "description": "Midi uniquement, hors week-end et jours fériés",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu à la carte - Entrée, Plat & Dessert",
+          "price_cents": 4200,
+          "description": "Midi et Soir - Du Mardi au Dimanche",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Déguatation (5 services)",
+          "price_cents": 5500,
+          "description": "Cinq services selon l'inspiration du chef",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Dégustation (6 services)",
+          "price_cents": 6500,
+          "description": "Six services selon l'inspiration du chef",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

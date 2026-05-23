@@ -1,0 +1,385 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Lasagne alla bolognese & Pizza margherita.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.23.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.38.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/fi-lia/Capture_d_e_cran_2026-05-23_a__01.52.52.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": 10,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Insalata Cesare",
+          "price_cents": 1600,
+          "description": "Cœur de salade romaine, croûtons maison ail et parmesan, sauce César crémeuse",
+          "is_highlight": false
+        },
+        {
+          "name": "Panino della Casa",
+          "price_cents": 1600,
+          "description": "Pain focaccia doré, légumes marinés, mozzarella di bufala roquette, pesto",
+          "is_highlight": false
+        },
+        {
+          "name": "La Burrata DOP (18€)",
+          "price_cents": 1800,
+          "description": "Pickles de tomates de notre potager, basilic, olives marinées aux épices, citron, pain focaccina",
+          "is_highlight": false
+        },
+        {
+          "name": "La Burrata DOP à partager (24€)",
+          "price_cents": 2400,
+          "description": "Burrata des Pouilles (300g), pickles de tomates de notre potager, basilic, olives marinées, pain focaccina",
+          "is_highlight": false
+        },
+        {
+          "name": "Vitello Tonnato - Il nostro classico",
+          "price_cents": 1800,
+          "description": "Crème de thon, jus de veau, pickles d'oignons grelots",
+          "is_highlight": false
+        },
+        {
+          "name": "Minestra di Pesce",
+          "price_cents": 2200,
+          "description": "Soupe de poisson maison, palourdes, pâtes fregola, huile d'olive 'Lucangeli'",
+          "is_highlight": false
+        },
+        {
+          "name": "La Vignarola alla Romana",
+          "price_cents": 2200,
+          "description": "Salade de pois gourmands, artichauts marinés, haricots verts, guanciale, parmesan, fleurs et aromates",
+          "is_highlight": false
+        },
+        {
+          "name": "Carpaccio di Polpo",
+          "price_cents": 2400,
+          "description": "Carpaccio de poulpe, stracciatella fumé, huile d'olive bergamote 'Lucangeli', larmes de poivrons",
+          "is_highlight": false
+        },
+        {
+          "name": "Salumi-Charcuterie Artisanale",
+          "price_cents": 3600,
+          "description": "Prosciutto, mortadella, capocollo, fontina DOP, gorgonzola, focaccia",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Pâtes, Pizzas & Plats",
+      "items": [
+        {
+          "name": "Gnocchi al Gorgonzola e Noci",
+          "price_cents": 2200,
+          "description": "Gnocchi de pommes de terre maison, fondue de gorgonzola, noix torréfiées",
+          "is_highlight": false
+        },
+        {
+          "name": "Linguine alle Vongole",
+          "price_cents": 2600,
+          "description": "Pâtes linguine, ail, persil, piment, palourdes, vin blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Risotto ai Funghi con Spiedini di Salsiccia",
+          "price_cents": 3200,
+          "description": "Risotto aux champignons de saison, fondue de parmesan, saucisse de veau artisanale grillée au feu de bois",
+          "is_highlight": false
+        },
+        {
+          "name": "Lasagne alla Bolognese",
+          "price_cents": 2400,
+          "description": "Pâtes aux œufs maison, sauce bolognaise au bœuf, béchamel, parmesan",
+          "is_highlight": true
+        },
+        {
+          "name": "Carbonara al Tartufo",
+          "price_cents": 3800,
+          "description": "Spaghettoni aux œufs frais, guanciale, truffe de saison 'Melanosporum'",
+          "is_highlight": true
+        },
+        {
+          "name": "Orata alla Griglia",
+          "price_cents": 3600,
+          "description": "Daurade grillée, pickles de tomates de notre potager, ail, olives taggiasche, citron, basilic. Accompagnement au choix.",
+          "is_highlight": false
+        },
+        {
+          "name": "Galetto al Limone",
+          "price_cents": 3600,
+          "description": "Coquelet mariné au citron confit (280g). Accompagnement au choix.",
+          "is_highlight": false
+        },
+        {
+          "name": "Bistecca Tomahawk - Il classico toscano",
+          "price_cents": 12000,
+          "description": "Côte de bœuf Tomahawk grillée (900g, à partager). Accompagnement au choix.",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Margherita",
+          "price_cents": 1800,
+          "description": "Sauce tomate, mozzarella di bufala, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Mortazza",
+          "price_cents": 2200,
+          "description": "Mozzarella fior di latte, mortadella, stracciatella, parmesan, pistaches",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Bufalina Verde",
+          "price_cents": 2400,
+          "description": "Burrata des Pouilles, crème d'artichaut, roquette, échalotes confites, pignons de pin torréfiés",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza al Tonno",
+          "price_cents": 2400,
+          "description": "Thon mariné, sauce tomate, olives taggiasche, câpres, oignons rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza La Parma",
+          "price_cents": 2600,
+          "description": "Sauce tomate, mozzarella di bufala, jambon cru de Parme, basilic",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Café Gourmand della Mamma",
+          "price_cents": 1200,
+          "description": "Sélection de mignardises italiennes",
+          "is_highlight": false
+        },
+        {
+          "name": "Fi'liamisu",
+          "price_cents": 1200,
+          "description": "Tiramisu de la maison Fi'lia",
+          "is_highlight": true
+        },
+        {
+          "name": "Il carrello dei Dolci",
+          "price_cents": 1600,
+          "description": "Chariot de desserts du chef pâtissier Guillaume, saveurs de saison",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins & Bulles",
+      "items": [
+        {
+          "name": "Prosecco Spumante DOC (Verre 12cl)",
+          "price_cents": 1000,
+          "description": "Bulle italienne au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Prosecco Spumante DOC (Bouteille 75cl)",
+          "price_cents": 5600,
+          "description": "Bulle italienne en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Lambrusco IGT Sorbara Secco (Verre 12cl)",
+          "price_cents": 1000,
+          "description": "Vin pétillant italien au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Lambrusco IGT Sorbara Secco (Bouteille 75cl)",
+          "price_cents": 5600,
+          "description": "Vin pétillant italien en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Valdobbiadene Prosecco Superiore DOCG (Verre 12cl)",
+          "price_cents": 1400,
+          "description": "Prosecco de qualité supérieure au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Valdobbiadene Prosecco Superiore DOCG (Bouteille 75cl)",
+          "price_cents": 7500,
+          "description": "Prosecco de qualité supérieure en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Cuvée 22 Brut Franciacorta DOCG (Bouteille 75cl)",
+          "price_cents": 12800,
+          "description": "Bulle de prestige en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Sicilia IGT Corvo Bianco (Verre 12cl)",
+          "price_cents": 1000,
+          "description": "Vin blanc de Sicile au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Sicilia IGT Corvo Bianco (Bouteille 75cl)",
+          "price_cents": 5600,
+          "description": "Vin blanc de Sicile en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Grigio 'Prendo' IGT Dolomiti (Verre 12cl)",
+          "price_cents": 1100,
+          "description": "Vin blanc du Trentin-Haut-Adige au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Grigio 'Prendo' IGT Dolomiti (Bouteille 75cl)",
+          "price_cents": 6200,
+          "description": "Vin blanc du Trentin-Haut-Adige en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Ribolla Gialla 'Iside' IGP Venezia Giulia (Verre 12cl)",
+          "price_cents": 1200,
+          "description": "Vin blanc du Frioul au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Ribolla Gialla 'Iside' IGP Venezia Giulia (Bouteille 75cl)",
+          "price_cents": 6400,
+          "description": "Vin blanc du Frioul en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Chardonnay 'Pilat' Alto Adige DOC (Verre 12cl)",
+          "price_cents": 1400,
+          "description": "Vin blanc haut de gamme du Haut-Adige au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Chardonnay 'Pilat' Alto Adige DOC (Bouteille 75cl)",
+          "price_cents": 7500,
+          "description": "Vin blanc haut de gamme du Haut-Adige en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Castello Di Pomino DOC (Bouteille 75cl)",
+          "price_cents": 11100,
+          "description": "Vin blanc de Toscane d'exception en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Veneto IGT Pinot Grigio Rosé Vinoglia (Verre 12cl)",
+          "price_cents": 1000,
+          "description": "Vin rosé de Vénétie au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Veneto IGT Pinot Grigio Rosé Vinoglia (Bouteille 75cl)",
+          "price_cents": 5600,
+          "description": "Vin rosé de Vénétie en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Grigio DOC Delle Venezie Rosé (Verre 12cl)",
+          "price_cents": 1200,
+          "description": "Vin rosé de Vénétie au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Grigio DOC Delle Venezie Rosé (Bouteille 75cl)",
+          "price_cents": 6400,
+          "description": "Vin rosé de Vénétie en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Merlot Riserva 'Campo Camino' DOC (Verre 12cl)",
+          "price_cents": 1100,
+          "description": "Vin rouge de Vénétie au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Merlot Riserva 'Campo Camino' DOC (Bouteille 75cl)",
+          "price_cents": 5900,
+          "description": "Vin rouge de Vénétie en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Venezie IGT360 Ruber Capite (Verre 12cl)",
+          "price_cents": 1200,
+          "description": "Assemblage rouge vénitien au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Venezie IGT360 Ruber Capite (Bouteille 75cl)",
+          "price_cents": 6400,
+          "description": "Assemblage rouge vénitien en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Sicilia IGT Corvo Rosso (Verre 12cl)",
+          "price_cents": 1400,
+          "description": "Vin rouge de Sicile au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Sicilia IGT Corvo Rosso (Bouteille 75cl)",
+          "price_cents": 7500,
+          "description": "Vin rouge de Sicile en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Noir 'Prendo' IGT Dolomiti (Verre 12cl)",
+          "price_cents": 1500,
+          "description": "Vin rouge du Trentin au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Pinot Noir 'Prendo' IGT Dolomiti (Bouteille 75cl)",
+          "price_cents": 8500,
+          "description": "Vin rouge du Trentin en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Valpolicella Classico DOC Bonacosta (Verre 12cl)",
+          "price_cents": 1500,
+          "description": "Vin rouge classique de Vénétie au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Valpolicella Classico DOC Bonacosta (Bouteille 75cl)",
+          "price_cents": 8500,
+          "description": "Vin rouge classique de Vénétie en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Chianti Classico DOCG (Verre 12cl)",
+          "price_cents": 1600,
+          "description": "Vin rouge de Toscane de tradition au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Chianti Classico DOCG (Bouteille 75cl)",
+          "price_cents": 8900,
+          "description": "Vin rouge de Toscane de tradition en bouteille",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
