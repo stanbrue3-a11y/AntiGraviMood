@@ -1,0 +1,210 @@
+{
+  "on_mange_quoi_ici": "Cuisine franco-japonaise. Poisson sauvage du jour poêlé & Ris de veau rôti.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.07.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.07.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.07.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.08.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.08.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.08.12.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kigawa/Capture_d_e_cran_2026-05-23_a__11.08.17.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": 9,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées (incluses dans les menus)",
+      "items": [
+        {
+          "name": "Filet de truite mariné aux agrumes, gelée de figue",
+          "price_cents": null,
+          "description": "Trout fillet marinated with citrus fruits, black fig jelly (inclus dans le Menu Déjeuner)",
+          "is_highlight": false
+        },
+        {
+          "name": "Friture de crevettes et encornets, huile de Livèche",
+          "price_cents": null,
+          "description": "Fried shrimp and squid, lovage oil (inclus dans le Menu Déjeuner)",
+          "is_highlight": false
+        },
+        {
+          "name": "Asperges blanches gratinées, siphon d'orange sanguine",
+          "price_cents": null,
+          "description": "Gratinated white asparagus with blood orange foam (inclus dans le Menu Dégustation)",
+          "is_highlight": false
+        },
+        {
+          "name": "Gambas rôties, émulsion de jus de homard",
+          "price_cents": null,
+          "description": "King prawns with lobster jus emulsion (inclus dans le Menu Dégustation)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats (inclus dans les menus)",
+      "items": [
+        {
+          "name": "Poisson sauvage du jour poêlé",
+          "price_cents": null,
+          "description": "Pan-fried wild fish of the day",
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte de bœuf rôtie",
+          "price_cents": null,
+          "description": "Roasted beef ribeye (inclus dans le Menu Déjeuner)",
+          "is_highlight": false
+        },
+        {
+          "name": "Carré d'agneau rôti au romarin",
+          "price_cents": null,
+          "description": "Roast rack of lamb (inclus dans le Menu Déjeuner)",
+          "is_highlight": false
+        },
+        {
+          "name": "Ris de veau rôti «Croustillant-Fondant»",
+          "price_cents": null,
+          "description": "Roasted sweetbreads \"Crispy-Soft\" (supplément 8€ au déjeuner / 10€ pour deux personnes au dîner)",
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte de bœuf Angus rôtie",
+          "price_cents": null,
+          "description": "Roasted beef ribeye (inclus dans le Menu Dégustation)",
+          "is_highlight": false
+        },
+        {
+          "name": "Carré de cochon ibérique rôti",
+          "price_cents": null,
+          "description": "Roasted Iberian pork rack (inclus dans le Menu Dégustation)",
+          "is_highlight": false
+        },
+        {
+          "name": "Pigeon rôti pour 2 personnes",
+          "price_cents": null,
+          "description": "Roast pigeon for 2 people (supplément 10€ au dîner)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts (incluses dans les menus)",
+      "items": [
+        {
+          "name": "Inspiration SHISO, crème aux myrtilles et écume de fromage blanc",
+          "price_cents": null,
+          "description": "Shiso inspiration, blueberry cream and fromage blanc foam (inclus dans le Menu Déjeuner)",
+          "is_highlight": false
+        },
+        {
+          "name": "Œuf à la coque exotique, siphon à la vanille",
+          "price_cents": null,
+          "description": "Eggshell Dessert with Tropical Fruits and Vanilla Foam (inclus dans le Menu Dégustation)",
+          "is_highlight": true
+        },
+        {
+          "name": "Mille-feuille déstructuré aux fraises, glace au sirop d'érable",
+          "price_cents": null,
+          "description": "Deconstructed strawberry mille-feuille with maple syrup ice cream (inclus dans le Menu Dégustation)",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules & Menus",
+      "items": [
+        {
+          "name": "Menu Déjeuner",
+          "price_cents": 5500,
+          "description": "Entrée + 2ème Entrée + Plat au choix + Dessert (Midi uniquement)",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Dîner / Dégustation",
+          "price_cents": 9500,
+          "description": "1er Entrée + 2ème Entrée + Poisson + Plat au choix + 1er Dessert + 2ème Dessert (Soir uniquement)",
+          "is_highlight": true
+        },
+        {
+          "name": "Accord Mets & Vins - 2 Verres",
+          "price_cents": 2300,
+          "description": "2 verres de vin de 10cl sélectionnés (classique)",
+          "is_highlight": false
+        },
+        {
+          "name": "Accord Mets & Vins - 2 Verres Supérieur",
+          "price_cents": 4100,
+          "description": "2 verres de vin de 10cl sélectionnés (supérieur)",
+          "is_highlight": false
+        },
+        {
+          "name": "Accord Mets & Vins - 3 Verres",
+          "price_cents": 3500,
+          "description": "3 verres de vin de 10cl sélectionnés (classique)",
+          "is_highlight": false
+        },
+        {
+          "name": "Accord Mets & Vins - 3 Verres Supérieur",
+          "price_cents": 5300,
+          "description": "3 verres de vin de 10cl sélectionnés (supérieur)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Jus de Raisin Chardonnay blanc, Alain Milliat (15cl)",
+          "price_cents": 800,
+          "description": "Jus de raisin artisanal haut de gamme",
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail sans Alcool (12cl)",
+          "price_cents": 900,
+          "description": "Jus concentré de Yuzu, Cassis, Tonic",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Apéritifs & Alcools",
+      "items": [
+        {
+          "name": "Coupe de Champagne, Delamotte, Brut (12cl)",
+          "price_cents": 1800,
+          "description": "Champagne Delamotte Brut au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Kir Cassis de Bourgogne (12cl)",
+          "price_cents": 900,
+          "description": "Kir traditionnel au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Bourgogne Aligoté - Vin blanc (12cl)",
+          "price_cents": 900,
+          "description": "Vin blanc au verre",
+          "is_highlight": false
+        },
+        {
+          "name": "Saké Japonais, Tatenokawa Junmai Dai Ginjo (6cl)",
+          "price_cents": 900,
+          "description": "Saké japonais de qualité supérieure",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
