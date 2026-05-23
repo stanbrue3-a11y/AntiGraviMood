@@ -1,0 +1,240 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Poulet frit coréen & Boeuf mariné au barbecue.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/koko-grill/MENU_JOAYO-Montaparnasse__kokogrill_.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Raviolis aux légumes",
+          "price_cents": 750,
+          "description": "Vegetables dumplings",
+          "is_highlight": false
+        },
+        {
+          "name": "Vermicelles sautés aux légumes",
+          "price_cents": 1300,
+          "description": "Japchae traditionnel",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette au kimchi",
+          "price_cents": 1400,
+          "description": "Galette coréenne piquante au kimchi fermenté",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette au kimchi au fromage",
+          "price_cents": 1500,
+          "description": "Galette au kimchi gratinée au fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Galette aux fruits de mer",
+          "price_cents": 1400,
+          "description": "Seafood green onion pancake",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignets de crevettes",
+          "price_cents": 1400,
+          "description": "Shrimp fritters",
+          "is_highlight": false
+        },
+        {
+          "name": "Beignets de calamar",
+          "price_cents": 1400,
+          "description": "Squid fritters",
+          "is_highlight": false
+        },
+        {
+          "name": "Ailes de poulet à la sauce soja sucré ail",
+          "price_cents": 1200,
+          "description": "Chicken wings glazed with sweet soy and garlic sauce",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet frit coréen à la sauce au choix",
+          "price_cents": 1300,
+          "description": "Korean fried chicken with choice of sauce",
+          "is_highlight": true
+        },
+        {
+          "name": "Tteokbokki",
+          "price_cents": 1300,
+          "description": "Pâtes de riz à la sauce pimentée",
+          "is_highlight": false
+        },
+        {
+          "name": "Tteokbokki rosé",
+          "price_cents": 1500,
+          "description": "Pâtes de riz à la crème pimentée",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats & Barbecues",
+      "items": [
+        {
+          "name": "Bibimbap chaud",
+          "price_cents": 1800,
+          "description": "Hot bibimbap servi dans un bol chaud",
+          "is_highlight": false
+        },
+        {
+          "name": "Sauté de viande au choix mariné",
+          "price_cents": 1800,
+          "description": "Marinated meat stir-fry (beef, chicken, or pork)",
+          "is_highlight": false
+        },
+        {
+          "name": "Sauté de calamar mariné",
+          "price_cents": 1800,
+          "description": "Marinated squid stir-fry",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet pané",
+          "price_cents": 1600,
+          "description": "Breaded chicken",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet pané au fromage",
+          "price_cents": 1800,
+          "description": "Breaded chicken with cheese",
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf mariné à la sauce soja",
+          "price_cents": 2300,
+          "description": "Beef loin marinated in soy sauce (Barbecue)",
+          "is_highlight": true
+        },
+        {
+          "name": "Entrecôte de bœuf à la sauce soja",
+          "price_cents": 2500,
+          "description": "Beef loin marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet mariné à la sauce soja",
+          "price_cents": 2300,
+          "description": "Chicken marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Poitrine de porc",
+          "price_cents": 2100,
+          "description": "Pork belly (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Porc mariné à la sauce soja",
+          "price_cents": 2300,
+          "description": "Pork marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Échine de porc mariné à la sauce soja",
+          "price_cents": 2300,
+          "description": "Pork loin marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Porc et calamar mariné à la sauce soja",
+          "price_cents": 2400,
+          "description": "Pork and squid marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Calamar mariné à la sauce soja",
+          "price_cents": 2400,
+          "description": "Squid marinated in soy sauce (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "Crevettes black tiger",
+          "price_cents": 2500,
+          "description": "Black tiger shrimps (Barbecue)",
+          "is_highlight": false
+        },
+        {
+          "name": "BBQ MAX - 3 viandes au choix et 2 bols de riz",
+          "price_cents": 4800,
+          "description": "BBQ assortment with 3 meats and 2 rice bowls",
+          "is_highlight": false
+        },
+        {
+          "name": "Ragoût à la pâte de soja fermentée",
+          "price_cents": 1800,
+          "description": "Fermented soybean paste stew",
+          "is_highlight": false
+        },
+        {
+          "name": "Ragoût épicé au porc et au kimchi",
+          "price_cents": 1800,
+          "description": "Spicy pork and kimchi stew",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet épicé au fromage (2 pers.)",
+          "price_cents": 3800,
+          "description": "Spicy chicken with cheese (pour deux personnes)",
+          "is_highlight": false
+        },
+        {
+          "name": "Rabokki (2 pers.)",
+          "price_cents": 3600,
+          "description": "Ramen and tteokbokki (pour deux personnes)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules Midi",
+      "items": [
+        {
+          "name": "Menu Bibimbap Chaud",
+          "price_cents": 1650,
+          "description": "Au choix: tofu, bœuf, poulet, porc, calamar",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Viande Marinée",
+          "price_cents": 1650,
+          "description": "Au choix: bœuf, poulet, porc, calamar, calamar et porc",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Poulet Frit (sans sauce)",
+          "price_cents": 1350,
+          "description": "Korean fried chicken sans sauce",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Poulet Frit (avec sauce)",
+          "price_cents": 1450,
+          "description": "Korean fried chicken avec sauce au choix",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Poulet Pané",
+          "price_cents": 1600,
+          "description": "Panko breaded chicken menu",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
