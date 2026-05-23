@@ -1,0 +1,533 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Spaghetti ai vongole & Pizza Margherita.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.04.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.04.47.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.04.51.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.04.54.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.04.58.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/i-grappoli/Capture_d_e_cran_2026-05-23_a__11.05.02.png"
+  ],
+  "pint_price": 11,
+  "cocktail_price": 11,
+  "coffee_price": 3,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Antipasti e Insalata",
+      "items": [
+        {
+          "name": "Finocchio",
+          "price_cents": 900,
+          "description": "Salade de fenouille, huile d'olive citron, olives grenades pistaches",
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata Caprese",
+          "price_cents": 1400,
+          "description": "Tomate datterino au pesto, mozzarella di bufala A.O.P",
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare di Spada",
+          "price_cents": 1600,
+          "description": "Tartare d'espadon, avocat, mangue, huile d'olive citron, légèrement relevé",
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata di Polpo",
+          "price_cents": 1600,
+          "description": "Poulpe en salade, tomates, olives, oignons confits, relevé au citron",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Pomodoro Basilic",
+          "price_cents": 1700,
+          "description": "Sauce tomate maison, datterino, ail, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Penne all' Arrabbiata",
+          "price_cents": 1800,
+          "description": "Sauce tomate maison, légèrement relevé, jalapeno",
+          "is_highlight": false
+        },
+        {
+          "name": "Penne Formaggi & Ruccola",
+          "price_cents": 1900,
+          "description": "Penne au 4 fromages, roquette, noix de pécan",
+          "is_highlight": false
+        },
+        {
+          "name": "Spaghetti al Limone e Gamberi",
+          "price_cents": 2500,
+          "description": "Crème citronnée, gambas black tiger marinés au citron puis snakées à la plancha",
+          "is_highlight": false
+        },
+        {
+          "name": "Gnocchi al Pesto & Burrata",
+          "price_cents": 2200,
+          "description": "Gnocchi frais, pesto de basilic frais, tomate datterino, pignons de pin grillés, coeur de burrata",
+          "is_highlight": false
+        },
+        {
+          "name": "Pappardelle Salsiccia di Toscana",
+          "price_cents": 2400,
+          "description": "Saucisse de cochon grillée au beurre, champignons snakés, légèrement relevé",
+          "is_highlight": false
+        },
+        {
+          "name": "Spaghetti ai Vongole",
+          "price_cents": 2600,
+          "description": "Palourdes poêlées, relevées au vin blanc, ail, piment, persillade",
+          "is_highlight": true
+        },
+        {
+          "name": "Ravioli al Tartufo Nero Piemontese",
+          "price_cents": 2700,
+          "description": "Ravioli à la truffe, carpaccio de truffe noire, crème de champignons à la truffe",
+          "is_highlight": false
+        },
+        {
+          "name": "Margherita",
+          "price_cents": 1400,
+          "description": "Pomodori, mozzarella, basilic",
+          "is_highlight": true
+        },
+        {
+          "name": "Calzone",
+          "price_cents": 1600,
+          "description": "Soufflée, pomodori, fior di latte, oeuf, jambon blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Bella Regina",
+          "price_cents": 1700,
+          "description": "Pomodori, mozzarella, champignons de Paris, jambon blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Diavola",
+          "price_cents": 1800,
+          "description": "Pomodori, mozzarella, spianata piquante, oignons rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "Mortadella",
+          "price_cents": 1900,
+          "description": "Crème de parmesan, ricotta, mortadelle AOP à la pistache de Sicile, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Burrata",
+          "price_cents": 2200,
+          "description": "Pomodori, tomates datterino, burrata des Pouilles, pesto basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Formaggi",
+          "price_cents": 1900,
+          "description": "Mozzarella, pecorino romano, parmesan, gorgonzola",
+          "is_highlight": false
+        },
+        {
+          "name": "Siciliana",
+          "price_cents": 1700,
+          "description": "Pomodori, mozzarella, aubergines grillées, pignons de pin, menthe",
+          "is_highlight": false
+        },
+        {
+          "name": "San Daniele",
+          "price_cents": 2100,
+          "description": "Pomodori, mozzarella, jambon San Daniele 30 mois, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Toscana",
+          "price_cents": 2400,
+          "description": "Pomodori, tomates rouges et jaunes, stracciatella, roquette, San Daniele 30 mois",
+          "is_highlight": false
+        },
+        {
+          "name": "Vegetariana",
+          "price_cents": 1900,
+          "description": "Pesto maison, mozzarella, légumes grillés et marinés",
+          "is_highlight": false
+        },
+        {
+          "name": "Polpete di Manzo",
+          "price_cents": 2100,
+          "description": "Boulettes de boeuf, cumin, tomates datterino, coriandre, spaghetti tomate",
+          "is_highlight": false
+        },
+        {
+          "name": "Grande Carpaccio di Manzo",
+          "price_cents": 2200,
+          "description": "Viande de boeuf sélectionnée, huile d'olive citron, mozzarella di buffala, roquette, parmesan, penne tomate",
+          "is_highlight": false
+        },
+        {
+          "name": "Bistecca di Pesce Spada",
+          "price_cents": 2700,
+          "description": "Steak d'espadon snaké à la plancha, caponata de légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Cotoletta Milanese",
+          "price_cents": 2500,
+          "description": "Belle escalope de noix de veau pannée, penne tomate",
+          "is_highlight": false
+        },
+        {
+          "name": "Polipo Grigliato",
+          "price_cents": 2900,
+          "description": "Poulpe grillé, flambé au marsala, crème de poivrons rouges, caponata de légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata Estiva",
+          "price_cents": 1800,
+          "description": "Boulghour, concombre, mangue, grenades, tomates, avocat, coriandre, radis, menthe, féta",
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata di Antipasti",
+          "price_cents": 2100,
+          "description": "Légumes grillés et marinés, jambon San Daniele, mozzarella di bufala",
+          "is_highlight": false
+        },
+        {
+          "name": "Bella Cesar",
+          "price_cents": 1800,
+          "description": "Salade romaine, blanc de poulet doré, sauce césar maison, tomates, oeufs pochés, croutons aillés, parmesan",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "A Partager",
+      "items": [
+        {
+          "name": "Beignets di Mozzarella",
+          "price_cents": 900,
+          "description": "Beignets de mozzarella",
+          "is_highlight": false
+        },
+        {
+          "name": "Bruschetta",
+          "price_cents": 1100,
+          "description": "Tomates, olives, burrata, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Prosciutto San Daniele",
+          "price_cents": 1600,
+          "description": "Assiette de jambon San Daniele",
+          "is_highlight": false
+        },
+        {
+          "name": "Burrata Puglisese",
+          "price_cents": 1900,
+          "description": "Belle burrata des Pouilles",
+          "is_highlight": false
+        },
+        {
+          "name": "Carpaccio di Bresaola",
+          "price_cents": 1600,
+          "description": "Carpaccio de boeuf séché, roquette, parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Antipasti Fiorentina",
+          "price_cents": 2200,
+          "description": "Planche de charcuteries et fromages italiens",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Dolci",
+      "items": [
+        {
+          "name": "Tiramisu de la Zia",
+          "price_cents": 1000,
+          "description": "Notre tiramisu",
+          "is_highlight": true
+        },
+        {
+          "name": "Bello Colonnello",
+          "price_cents": 1200,
+          "description": "Deux boules de glace citron, zestes de citron, vodka",
+          "is_highlight": false
+        },
+        {
+          "name": "Panna Cotta",
+          "price_cents": 1100,
+          "description": "Vanille de Madagascar et fruits rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème Brulée al Pistacchio",
+          "price_cents": 1100,
+          "description": "Crème brûlée à la pistache",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Goloso",
+          "price_cents": 950,
+          "description": "Café gourmand",
+          "is_highlight": false
+        },
+        {
+          "name": "Pizza Calzone Nocciolata",
+          "price_cents": 1100,
+          "description": "Soufflée à la nocciolata bio, des noisettes",
+          "is_highlight": false
+        },
+        {
+          "name": "Pallina di Gelato o Sorbetto",
+          "price_cents": 350,
+          "description": "Boule de glace : vanille, chocolat, pistache, fraise, citron",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Espresso, Déca, Noisette, Allongé \"Florio\" Café Richard",
+          "price_cents": 300,
+          "description": "Café Richard",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Crème",
+          "price_cents": 500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat Chaud",
+          "price_cents": 550,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Café Frappé",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Cappuccino",
+          "price_cents": 650,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Thés ou Infusion Menthe Fraîche \"Comptoirs Richard\"",
+          "price_cents": 600,
+          "description": "Ceylan, Earl Grey, Vert, Fruits rouges, Verveine, Camomille",
+          "is_highlight": false
+        },
+        {
+          "name": "Perrier, Coca, Coca Zéro, Schweppes, Ginger Beer",
+          "price_cents": 500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de Fruits",
+          "price_cents": 500,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Fruits Pressés",
+          "price_cents": 700,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Acqua Panna 75cl",
+          "price_cents": 650,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "San Pellegrino 75cl",
+          "price_cents": 700,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Bella Vista (sans alcool)",
+          "price_cents": 800,
+          "description": "Sirop de poire, orgeat, ginger beer",
+          "is_highlight": false
+        },
+        {
+          "name": "Bella Luna (sans alcool)",
+          "price_cents": 800,
+          "description": "Jus d'orange, jus passion, jus d'ananas, sirop de grenadine",
+          "is_highlight": false
+        },
+        {
+          "name": "Virgin Mojito (sans alcool)",
+          "price_cents": 800,
+          "description": "Limonade, citron vert, menthe fraîche",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Aperol Spritz",
+          "price_cents": 1100,
+          "description": "Apérol, prosecco millésimé, soda",
+          "is_highlight": true
+        },
+        {
+          "name": "Hugo Spritz",
+          "price_cents": 1200,
+          "description": "Liqueur de sureau, prosecco millésimé, soda",
+          "is_highlight": false
+        },
+        {
+          "name": "Bellini Spritz",
+          "price_cents": 1200,
+          "description": "Purée de pêche blanche, jus de citron, orgeat, prosecco",
+          "is_highlight": false
+        },
+        {
+          "name": "Espresso Martini",
+          "price_cents": 1200,
+          "description": "Vodka, espresso, liqueur de café, sucre de canne",
+          "is_highlight": false
+        },
+        {
+          "name": "Prosecco Royal Millesimato",
+          "price_cents": 1200,
+          "description": "Martini blanc, prosecco, citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Amaretto Basilico",
+          "price_cents": 1400,
+          "description": "Amaretto Disarono, prosecco, liqueur de basilic, jus de citron",
+          "is_highlight": false
+        },
+        {
+          "name": "Porn Star Martini",
+          "price_cents": 1400,
+          "description": "Vodka, jus de citron vert, sirop de vanille, passion, shot de prosecco",
+          "is_highlight": false
+        },
+        {
+          "name": "Mojito",
+          "price_cents": 1200,
+          "description": "Rhum Bacardi, soda, citron vert, menthe, sucre de canne",
+          "is_highlight": false
+        },
+        {
+          "name": "Fragola Cosmo",
+          "price_cents": 1200,
+          "description": "Cosmopolitan à la fraise",
+          "is_highlight": false
+        },
+        {
+          "name": "Florencia Mule",
+          "price_cents": 1200,
+          "description": "Vodka, citron vert, ginger beer",
+          "is_highlight": false
+        },
+        {
+          "name": "Limoncello, Grappa, Get27, Manzana, Grey Goose",
+          "price_cents": 900,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Amaretto Disarono, Tequila Patron",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Glenfiddish 12 ans",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Red Label",
+          "price_cents": 1000,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Jack Daniel's",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Big Peat",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Laphroaig",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Johnnie Walker Black",
+          "price_cents": 1200,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Nikka Whisky",
+          "price_cents": 1400,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Peroni Pression 25cl",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Peroni Pression 50cl",
+          "price_cents": 1100,
+          "description": "",
+          "is_highlight": true
+        },
+        {
+          "name": "Peroni sans alcool 33cl",
+          "price_cents": 700,
+          "description": "",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
