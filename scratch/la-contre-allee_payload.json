@@ -1,0 +1,140 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Pluma de pata negra laquée & Ceviche de daurade.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-contre-allee/Capture_d_e_cran_2026-05-23_a__20.56.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-contre-allee/Capture_d_e_cran_2026-05-23_a__20.56.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-contre-allee/Capture_d_e_cran_2026-05-23_a__20.56.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-contre-allee/Capture_d_e_cran_2026-05-23_a__20.56.15.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-contre-allee/Capture_d_e_cran_2026-05-23_a__20.56.21.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": 6,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Ceviche de daurade mariné au citron vert",
+          "price_cents": 1400,
+          "is_highlight": true
+        },
+        {
+          "name": "Burratina crémeuse, tomates anciennes, pesto",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème de betterave, cabillaud mariné à l'aneth",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de chou chinois au sot-l'y-laisse de dinde",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Planche de jambon ibérique Mangalica",
+          "price_cents": 2400,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Filet de cabillaud, petits légumes, fumet de poisson",
+          "price_cents": 2800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de veau façon tigre qui pleure",
+          "price_cents": 2800,
+          "is_highlight": false
+        },
+        {
+          "name": "Chipirons en persillade, houmous lentilles vertes",
+          "price_cents": 3300,
+          "is_highlight": true
+        },
+        {
+          "name": "Filet de bœuf, pommes grenailles, jus de viande",
+          "price_cents": 3400,
+          "is_highlight": false
+        },
+        {
+          "name": "Pluma de pata negra laquée, caponata",
+          "price_cents": 3400,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Profiterole au chocolat, crème glacée de Paris",
+          "price_cents": 1200,
+          "is_highlight": true
+        },
+        {
+          "name": "Crème coco, fruits rouges frais, craquelin",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de fromages de chez Vacroux",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Cheese-cake au citron, coulis de mangue",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de mignardises maison",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Baba au rhum, chantilly maison",
+          "price_cents": 1300,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins au Verre",
+      "items": [
+        {
+          "name": "Verre de Côtes de Blaye blanc",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Viognier Le Versant blanc",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Beaujolais blanc",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Menetou-Salon blanc",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

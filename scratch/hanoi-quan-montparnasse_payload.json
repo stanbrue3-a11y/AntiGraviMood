@@ -1,0 +1,43 @@
+{
+  "on_mange_quoi_ici": "Cuisine [adjectif/type]. [Plat 1] & [Plat 2].",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.23.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.38.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/hanoi-quan-montparnasse/Capture_d_e_cran_2026-05-23_a__01.52.52.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Exemple Entrée",
+          "price_cents": 1200,
+          "description": "Description optionnelle",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Exemple Plat",
+          "price_cents": 1800,
+          "description": "Description optionnelle",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

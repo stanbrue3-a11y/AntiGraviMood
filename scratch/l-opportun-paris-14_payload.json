@@ -1,0 +1,192 @@
+{
+  "on_mange_quoi_ici": "Cuisine lyonnaise. Tablier de sapeur & Quenelle de brochet sauce Nantua.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-opportun-paris-14/feafaefezfzafee.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-opportun-paris-14/Capture_d_e_cran_2026-05-23_a__20.44.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-opportun-paris-14/Capture_d_e_cran_2026-05-23_a__20.44.51.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": 7,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées Lyonnaises & Terroir",
+      "items": [
+        {
+          "name": "Oeufs mayonnaise maison Fallot, finalistes 2022",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Oeuf meurette au vin rouge et lard fermier",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de famille recette inchangée depuis 1985",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Ravioles à la fourme persillée du Beaujolais",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Harengs marinés comme au bistrot, pommes vapeurs",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Escargots de Bourgogne au beurre persillé maison x6",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Escargots de Bourgogne au beurre persillé maison x12",
+          "price_cents": 2800,
+          "is_highlight": false
+        },
+        {
+          "name": "Foie gras de canard maison, gelée de Sauternes",
+          "price_cents": 3000,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade peaux de canard confit snacké, vinaigre de Xérès",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de joues de porc confites",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "La charcuterie du terroir & terrines maison",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Les petits saladiers lyonnais selon le marché",
+          "price_cents": 1400,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Spécialités Lyonnaises & Viandes",
+      "items": [
+        {
+          "name": "Andouillette de veau Bobosse braisée, purée maison",
+          "price_cents": 2500,
+          "is_highlight": true
+        },
+        {
+          "name": "Quenelle de brochet sauce Nantua aux écrevisses, riz basmati",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Tablier de sapeur des Gones pané, beurre persillé maison",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Saucisson chaud lyonnais pistaché Bobosse, pommes vapeurs",
+          "price_cents": 2400,
+          "is_highlight": false
+        },
+        {
+          "name": "Demi rognon de veau cuit au four, purée maison",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Onglet de bœuf aux échalotes au vin blanc, frites maison",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Onglet de veau aux échalotes au vin blanc, frites maison",
+          "price_cents": 2800,
+          "is_highlight": false
+        },
+        {
+          "name": "Le duo d'onglets (bœuf et veau), frites maison",
+          "price_cents": 3000,
+          "is_highlight": false
+        },
+        {
+          "name": "Ris de veau en persillade, pommes grenailles et pleurotes",
+          "price_cents": 3700,
+          "is_highlight": false
+        },
+        {
+          "name": "Fricassée de ris de veau et Saint-Jacques poêlées",
+          "price_cents": 3700,
+          "is_highlight": false
+        },
+        {
+          "name": "Pavé de rumsteak gratiné à la fourme de Beaujolais",
+          "price_cents": 2900,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de bœuf préparé à la commande, frites maison",
+          "price_cents": 2400,
+          "is_highlight": false
+        },
+        {
+          "name": "Mythique pavé au poivre sauvage flambé à l'armagnac",
+          "price_cents": 3500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons & Vins",
+      "items": [
+        {
+          "name": "Verre de Beaujolais rouge",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Côtes du Rhône rouge",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Bordeaux rouge",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Pot Lyonnais de Beaujolais (46cl)",
+          "price_cents": 1000,
+          "is_highlight": true
+        },
+        {
+          "name": "Pot Lyonnais de Côtes du Rhône (46cl)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Kir Aligoté",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Spritz / Americano",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
