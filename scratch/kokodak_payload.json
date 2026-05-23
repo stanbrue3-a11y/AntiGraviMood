@@ -1,0 +1,158 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Cheese katsu & Udon katsu.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kokodak/Capture_d_e_cran_2026-05-23_a__14.44.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kokodak/Capture_d_e_cran_2026-05-23_a__14.44.04.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/kokodak/Capture_d_e_cran_2026-05-23_a__14.44.15.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Raviolis grillés",
+          "price_cents": 800,
+          "description": "Grilled dumplings",
+          "is_highlight": false
+        },
+        {
+          "name": "Omelette",
+          "price_cents": 600,
+          "description": "",
+          "is_highlight": false
+        },
+        {
+          "name": "Ailes de poulet",
+          "price_cents": 900,
+          "description": "Chicken wings",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet frit coréen",
+          "price_cents": 1000,
+          "description": "Korean fried chicken",
+          "is_highlight": false
+        },
+        {
+          "name": "Tteokbokki",
+          "price_cents": 900,
+          "description": "Pâtes de riz à la sauce pimentée / Rice cake",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi épicé",
+          "price_cents": 400,
+          "description": "Spicy Kimchi",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Katsu classic",
+          "price_cents": 1500,
+          "description": "Porc pané classique",
+          "is_highlight": false
+        },
+        {
+          "name": "Cheese katsu",
+          "price_cents": 1650,
+          "description": "Katsu fourré au fromage",
+          "is_highlight": true
+        },
+        {
+          "name": "Signature katsu épicé",
+          "price_cents": 1600,
+          "description": "Katsu avec sauce épicée signature",
+          "is_highlight": false
+        },
+        {
+          "name": "Kimchi katsu épicé",
+          "price_cents": 1550,
+          "description": "Katsu servi avec du kimchi relevé",
+          "is_highlight": false
+        },
+        {
+          "name": "Soy katsu",
+          "price_cents": 1450,
+          "description": "Katsu nappé de sauce soja aromatisée",
+          "is_highlight": false
+        },
+        {
+          "name": "Curry katsu",
+          "price_cents": 1550,
+          "description": "Katsu accompagné de sauce curry",
+          "is_highlight": false
+        },
+        {
+          "name": "Tteokbokki katsu épicé",
+          "price_cents": 1700,
+          "description": "Katsu accompagné de tteokbokki épicé",
+          "is_highlight": false
+        },
+        {
+          "name": "Pâtes katsu",
+          "price_cents": 1600,
+          "description": "Katsu servi sur un lit de pâtes",
+          "is_highlight": false
+        },
+        {
+          "name": "Tteokbokki aux fromages",
+          "price_cents": 1700,
+          "description": "Pâtes de riz nappées de fromage fondu",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon kimchi",
+          "price_cents": 1350,
+          "description": "Nouilles udon au kimchi piquant",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon poulets",
+          "price_cents": 1400,
+          "description": "Nouilles udon accompagnées de morceaux de poulet",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon katsu",
+          "price_cents": 1450,
+          "description": "Nouilles udon accompagnées de porc pané katsu",
+          "is_highlight": true
+        },
+        {
+          "name": "Udon tantan végétarien (froid)",
+          "price_cents": 1200,
+          "description": "Nouilles udon froides façon tantan aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon goso végétarien (froid)",
+          "price_cents": 1200,
+          "description": "Nouilles udon froides goso aux légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon curry",
+          "price_cents": 1400,
+          "description": "Nouilles udon à la sauce curry",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon tofu végétarien (froid)",
+          "price_cents": 1300,
+          "description": "Nouilles udon froides au tofu et légumes",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
