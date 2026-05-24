@@ -1,0 +1,783 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Sushis variés & brochettes yakitori.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yaki/afeafeafaeg.pdf"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yaki/afeafeafaeg.pdf",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "24 mai 2026",
+      "id_alias": "pdf_menu"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "B1. Soupe miso",
+          "price_cents": 350,
+          "description": "Tofu, poireau, algue",
+          "is_highlight": false
+        },
+        {
+          "name": "B2. Crudités",
+          "price_cents": 370,
+          "description": "Choux blanc, carotte, concombre",
+          "is_highlight": false
+        },
+        {
+          "name": "B10. Salade d'algues",
+          "price_cents": 590,
+          "description": "Salade d'algues fraîches",
+          "is_highlight": false
+        },
+        {
+          "name": "B11. Edamame",
+          "price_cents": 690,
+          "description": "Fèves de soja vertes",
+          "is_highlight": false
+        },
+        {
+          "name": "B7. Gyoza japonais",
+          "price_cents": 899,
+          "description": "6 pièces, raviolis japonais grillés poulet et légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "B7a. 5 nems poulet",
+          "price_cents": 890,
+          "description": "5 pièces de nems croustillants au poulet",
+          "is_highlight": false
+        },
+        {
+          "name": "B8. Tempura crevettes",
+          "price_cents": 1190,
+          "description": "5 pièces de crevettes panées à la japonaise",
+          "is_highlight": false
+        },
+        {
+          "name": "B9. Wakatori beignet de poulet",
+          "price_cents": 870,
+          "description": "5 pièces de poulet frit style karaage",
+          "is_highlight": false
+        },
+        {
+          "name": "B12. Takoyaki",
+          "price_cents": 1190,
+          "description": "6 pièces, beignet boulette de farine avec poulpe",
+          "is_highlight": false
+        },
+        {
+          "name": "B13. Raviolis japonais végétarien",
+          "price_cents": 790,
+          "description": "5 pièces de raviolis japonais végétariens",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "B5. Riz gohan",
+          "price_cents": 350,
+          "description": "Riz nature",
+          "is_highlight": false
+        },
+        {
+          "name": "B6. Riz vinaigré",
+          "price_cents": 390,
+          "description": "Riz assaisonné au vinaigre de riz",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "C6. Chirashi saumon",
+          "price_cents": 1599,
+          "description": "Grand bol de riz vinaigré garni de tranches de saumon cru",
+          "is_highlight": false
+        },
+        {
+          "name": "C7a. Chirashi tartare",
+          "price_cents": 1790,
+          "description": "Grand bol de riz vinaigré au saumon tartare et avocat",
+          "is_highlight": false
+        },
+        {
+          "name": "C7. Chirashi assortiment",
+          "price_cents": 1799,
+          "description": "Grand bol de riz vinaigré au poisson cru assorti",
+          "is_highlight": false
+        },
+        {
+          "name": "C6a. Chirashi anguille grillée",
+          "price_cents": 1999,
+          "description": "Grand bol de riz vinaigré avec des tranches d'anguille grillée",
+          "is_highlight": false
+        },
+        {
+          "name": "N1. Nouilles yakisoba au poulet et légumes",
+          "price_cents": 1399,
+          "description": "Nouilles sautées au poulet et légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "N3. Nouilles yakisoba aux légumes",
+          "price_cents": 1190,
+          "description": "Nouilles sautées végétariennes",
+          "is_highlight": false
+        },
+        {
+          "name": "Su2. Sushi Shake (Saumon)",
+          "price_cents": 590,
+          "description": "La paire de sushis au saumon cru",
+          "is_highlight": false
+        },
+        {
+          "name": "Su1. Sushi maguro (Thon)",
+          "price_cents": 590,
+          "description": "La paire de sushis au thon",
+          "is_highlight": false
+        },
+        {
+          "name": "Su9. Sushi Ikura",
+          "price_cents": 750,
+          "description": "La paire de sushis aux œufs de saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "Su4. Sushi Unagi",
+          "price_cents": 670,
+          "description": "La paire de sushis à l'anguille grillée",
+          "is_highlight": false
+        },
+        {
+          "name": "Su7. Sushi Tai",
+          "price_cents": 570,
+          "description": "La paire de sushis à la daurade",
+          "is_highlight": false
+        },
+        {
+          "name": "Su3. Sushi Tako",
+          "price_cents": 630,
+          "description": "La paire de sushis au poulpe",
+          "is_highlight": false
+        },
+        {
+          "name": "Su9A. Sushi Masago",
+          "price_cents": 670,
+          "description": "La paire de sushis aux œufs de capelan",
+          "is_highlight": false
+        },
+        {
+          "name": "Sa22. Sashimis de saumon",
+          "price_cents": 1299,
+          "description": "9 tranches de saumon cru",
+          "is_highlight": false
+        },
+        {
+          "name": "Sa20. Assortiment de sashimis",
+          "price_cents": 1399,
+          "description": "9 tranches de poissons assortis",
+          "is_highlight": false
+        },
+        {
+          "name": "Sa25. Sashimis de daurade",
+          "price_cents": 1370,
+          "description": "9 tranches de daurade",
+          "is_highlight": false
+        },
+        {
+          "name": "Sa23. Sashimis Tako",
+          "price_cents": 1599,
+          "description": "9 tranches de poulpe",
+          "is_highlight": false
+        },
+        {
+          "name": "L3. Masago roll",
+          "price_cents": 1599,
+          "description": "10 pièces. Intérieur : avocat, tempura crevettes, concombre. Extérieur : œufs de capelan",
+          "is_highlight": false
+        },
+        {
+          "name": "L2. Tekka roll",
+          "price_cents": 1690,
+          "description": "10 pièces. Intérieur : avocat, tempura crevettes, concombre. Extérieur : tranches de thon et saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "L1. Shake roll",
+          "price_cents": 1570,
+          "description": "10 pièces. Intérieur : avocat, tempura crevettes, concombre. Extérieur : tranches de saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "L4. Green dragon roll",
+          "price_cents": 1890,
+          "description": "10 pièces. Intérieur : avocat, tempura crevettes, concombre. Extérieur : tranches d'anguille grillée",
+          "is_highlight": false
+        },
+        {
+          "name": "L5. Rainbow roll",
+          "price_cents": 1799,
+          "description": "10 pièces. Intérieur : avocat, surimi, concombre, fromage. Extérieur : thon, saumon, avocat",
+          "is_highlight": false
+        },
+        {
+          "name": "L7. Crunchy roll",
+          "price_cents": 1570,
+          "description": "10 pièces. Intérieur : avocat, surimi, concombre, fromage. Extérieur : beignet croustillant, sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "L6. Tiger roll",
+          "price_cents": 1899,
+          "description": "10 pièces. Intérieur : avocat, surimi, concombre, fromage. Extérieur : crevettes, avocat",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk14. California (au choix)",
+          "price_cents": 999,
+          "description": "8 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "M18a. California Las Vegas",
+          "price_cents": 1299,
+          "description": "8 pièces. California saumon avocat, surmonté d'un morceau de saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk10A. Tempura maki",
+          "price_cents": 1290,
+          "description": "8 pièces. California avec tempura crevette et avocat",
+          "is_highlight": false
+        },
+        {
+          "name": "M14b. California oignons frits",
+          "price_cents": 1270,
+          "description": "8 pièces. California avocat saumon, oignons frits",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk16a. Saumon roll cheese",
+          "price_cents": 1099,
+          "description": "8 pièces. Fromage frais entouré de riz et saumon",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk12A. Maki avocat",
+          "price_cents": 799,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk14A. Printemps (au choix)",
+          "price_cents": 890,
+          "description": "8 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk12. Shake maki saumon",
+          "price_cents": 590,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk18. Negiri maki",
+          "price_cents": 999,
+          "description": "8 pièces. Avocat, saumon, fromage frais, sésame, algue",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk11. Maki thon",
+          "price_cents": 590,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk16. Maki royal",
+          "price_cents": 999,
+          "description": "6 pièces. Saumon, riz, algue, sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk17. Maki anguille",
+          "price_cents": 690,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk13A. Maki fromage",
+          "price_cents": 690,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk10. Temaki",
+          "price_cents": 690,
+          "description": "Cornet d'algue garni",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk13. Maki concombre",
+          "price_cents": 570,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Mk15. Maki radis salé",
+          "price_cents": 570,
+          "description": "6 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "A10. Brochette bœuf fromage",
+          "price_cents": 799,
+          "description": "2 pièces",
+          "is_highlight": true
+        },
+        {
+          "name": "A2. Brochette de boulette poulet",
+          "price_cents": 599,
+          "description": "2 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "A1. Brochette de poulet",
+          "price_cents": 599,
+          "description": "2 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "A4. Brochette de boeuf",
+          "price_cents": 590,
+          "description": "2 pièces",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules & Menus",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "V8. Menu Rolls & California",
+          "price_cents": 1599,
+          "description": "8 rolls saumon fromage + 8 California avocat saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F6A. Menu Sushi, maki et sashimi",
+          "price_cents": 2190,
+          "description": "8 Californias avocat saumon, 3 sushis saumon, 9 sashimis, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "V1. Menu 10 Sashimis saumon et riz",
+          "price_cents": 1599,
+          "description": "10 sashimis saumon, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "V3. Menu California & Sushi",
+          "price_cents": 1399,
+          "description": "8 California avocat saumon et 3 sushis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F4a. Menu California, Sushi Saumon",
+          "price_cents": 1970,
+          "description": "8 California, 7 sushis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F3. Menu Sushi nami",
+          "price_cents": 1570,
+          "description": "5 sushis saumon ou assortis, 6 makis au saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F6. Menu Maki",
+          "price_cents": 1790,
+          "description": "8 Californias avocat saumon, 6 makis saumon et 6 makis thon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F4. Menu Sushi tso",
+          "price_cents": 1890,
+          "description": "7 sushis saumon ou assortis, 6 makis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "V7. Menu 16 California",
+          "price_cents": 1490,
+          "description": "16 California avocat saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "C8. Menu Sashimi assortiment",
+          "price_cents": 1899,
+          "description": "Plateau de sashimis assortis, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "V2. Menu California & Raviolis",
+          "price_cents": 1390,
+          "description": "8 California avocat saumon et 5 raviolis au poulet, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "V5. Menu Maki, Sushi & Sashimi",
+          "price_cents": 1490,
+          "description": "6 makis saumon, 2 sushis saumon, 3 sashimis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "V4. Menu California & Maki",
+          "price_cents": 1399,
+          "description": "8 California avocat saumon et 6 makis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "V6. Menu California & Sashimi",
+          "price_cents": 1499,
+          "description": "8 California avocat saumon, 5 sashimis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F3a. Menu Mix",
+          "price_cents": 1590,
+          "description": "8 California et 5 sushis saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "F2. Menu Sushi saumon ou assortiment",
+          "price_cents": 1890,
+          "description": "8 pièces de sushi saumon ou assortiment, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "C11. Menu Futomaki",
+          "price_cents": 1590,
+          "description": "Grands rouleaux de maki aux poissons crus et légumes, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "V10. Menu Saumon roll cheese & Printemps",
+          "price_cents": 2089,
+          "description": "8 saumon roll cheese, 8 Printemps avocat saumon, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "C4. Menu Sushi & Brochettes",
+          "price_cents": 1590,
+          "description": "4 sushis assortis ou saumon, 4 brochettes (boulette, poulet, boeuf, boeuf fromage), soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "C2. Menu Sashimi & Brochettes",
+          "price_cents": 2299,
+          "description": "10 sashimis, 5 brochettes (boulette, 2 poulets, boeuf, boeuf fromage), soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "R4. Menu Raviolis, sushi et maki",
+          "price_cents": 1990,
+          "description": "5 raviolis japonais, 6 makis saumon, 4 sushis, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "C3. Menu Sushi & Brochettes Saumon",
+          "price_cents": 1590,
+          "description": "4 sushis saumon, 3 brochettes de saumon, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "C1. Menu Sashimi Saumon & Brochettes",
+          "price_cents": 2199,
+          "description": "8 sashimis saumon, 5 brochettes (boulette, 2 poulets, boeuf, boeuf fromage), soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "C5. Menu Maki & Brochettes",
+          "price_cents": 1590,
+          "description": "6 makis saumon, 4 brochettes (boulette, poulet, boeuf, boeuf fromage), soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "T4. Menu Tempura, sushi et maki",
+          "price_cents": 1990,
+          "description": "4 tempuras crevettes, 6 makis saumon, 4 sushis, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "R3. Menu Raviolis et sashimi",
+          "price_cents": 1970,
+          "description": "5 raviolis, sashimis, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "R1. Menu Raviolis et brochettes",
+          "price_cents": 1690,
+          "description": "5 raviolis, 4 brochettes, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "T3. Menu Tempura et sashimi",
+          "price_cents": 1970,
+          "description": "4 tempuras, 9 sashimis, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "V2a. Menu California & Nems",
+          "price_cents": 1390,
+          "description": "8 Californias avocat saumon et 4 nems au poulet, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "T7. Menu Wakadori, sushi et maki",
+          "price_cents": 1790,
+          "description": "Beignet poulet, 6 makis saumon, 4 sushis, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "R2. Menu Raviolis et brochettes",
+          "price_cents": 1890,
+          "description": "5 raviolis, 5 brochettes, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "T6. Menu Wakadori et sashimi",
+          "price_cents": 1790,
+          "description": "Beignet poulet, 9 sashimis, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "Notre Box 44 pièces",
+          "price_cents": 4990,
+          "description": "Pour 2 personnes. 8 Californias tempura, 8 Californias avocat saumon, 8 rolls saumon fromage, 8 sushis, 10 sashimis, 2 macarons",
+          "is_highlight": false
+        },
+        {
+          "name": "F8. Menu Prestige",
+          "price_cents": 5200,
+          "description": "Sashimis assortis, 8 Californias, 6 makis saumon, 6 sushis, 8 brochettes, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "F7. Menu Valentin",
+          "price_cents": 4750,
+          "description": "Sashimis assortis, 6 makis saumon, 4 sushis, 6 brochettes, soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "M1. Menu Brochettes M1",
+          "price_cents": 1490,
+          "description": "2 poulets et 2 boulettes, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "M4. Menu Brochettes M4",
+          "price_cents": 1370,
+          "description": "2 boulettes et 2 bœuf fromage, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "A. Menu Brochettes A",
+          "price_cents": 1670,
+          "description": "2 boulettes, 2 poulets, 2 bœuf fromage, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "M3. Menu Brochettes M3",
+          "price_cents": 1370,
+          "description": "2 poulets, 2 bœuf fromage, soupe, salade et riz",
+          "is_highlight": false
+        },
+        {
+          "name": "M8. Menu Brochettes M8",
+          "price_cents": 1570,
+          "description": "1 boulette, 2 poulets, 1 boeuf, 1 bœuf fromage, soupe, salade et riz",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "Perles de coco",
+          "price_cents": 499,
+          "description": "La paire de perles de coco",
+          "is_highlight": false
+        },
+        {
+          "name": "Nougat mou au sésame",
+          "price_cents": 480,
+          "description": "Une portion de nougat mou au sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "Lychees au sirop",
+          "price_cents": 400,
+          "description": "Une portion de lychees au sirop",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "Coca-Cola zero sucres",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Ice Tea pêche",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Orangina",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Perrier",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Fanta orange",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de lychees",
+          "price_cents": 300,
+          "description": "25 cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Oasis tropicale",
+          "price_cents": 300,
+          "description": "33 cL",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "menu_photo_alias": "pdf_menu",
+      "items": [
+        {
+          "name": "Bière Asahi 33cl",
+          "price_cents": 550,
+          "description": "Bière japonaise, 33 cL",
+          "is_highlight": false
+        },
+        {
+          "name": "Saumur-Champigny AOC, Les Chanteraines 75cl",
+          "price_cents": 2300,
+          "description": "Vin rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Bordeaux AOC, Moulin de Labordes 75cl",
+          "price_cents": 1500,
+          "description": "Vin rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Brouilly AOC, Château de Corcelles 75cl",
+          "price_cents": 2500,
+          "description": "Vin rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes du Rhône - Villages AOC, Pure Garrigue 75cl",
+          "price_cents": 1650,
+          "description": "Vin rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Puisseguin Saint-Emilion AOC Catherine du Roy 75cl",
+          "price_cents": 2500,
+          "description": "Vin rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Touraine AOC, Sauvignon Les Roches 75cl",
+          "price_cents": 2200,
+          "description": "Vin blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Muscadet de Sévre et Maine sur Lie AOC 75cl",
+          "price_cents": 2600,
+          "description": "Vin blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Tavel AOC, Prieuré de Montézargues 75cl",
+          "price_cents": 3000,
+          "description": "Vin rosé",
+          "is_highlight": false
+        },
+        {
+          "name": "Alsace AOC, Riesling Hans Schaeffer 75cl",
+          "price_cents": 2400,
+          "description": "Vin blanc",
+          "is_highlight": false
+        },
+        {
+          "name": "Côtes de Provence AOC 75cl",
+          "price_cents": 2500,
+          "description": "Vin rosé",
+          "is_highlight": false
+        },
+        {
+          "name": "Sancerre AOC, Les Broux 75cl",
+          "price_cents": 4700,
+          "description": "Vin blanc",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
