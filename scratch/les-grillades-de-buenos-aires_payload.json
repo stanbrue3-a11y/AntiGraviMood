@@ -1,0 +1,121 @@
+{
+  "on_mange_quoi_ici": "Cuisine argentine. Bife de chorizo & Empanadas mendocinas.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-grillades-de-buenos-aires/Capture_d_e_cran_2026-05-23_a__23.24.50.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-grillades-de-buenos-aires/Capture_d_e_cran_2026-05-23_a__23.24.54.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-grillades-de-buenos-aires/Capture_d_e_cran_2026-05-23_a__23.24.57.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-grillades-de-buenos-aires/Capture_d_e_cran_2026-05-23_a__23.25.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-grillades-de-buenos-aires/Capture_d_e_cran_2026-05-23_a__23.25.06.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 7,
+  "coffee_price": null,
+  "wine_glass": 7,
+  "plat_median_cents": 3000,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Empanada mendocina au bœuf",
+          "price_cents": 900,
+          "is_highlight": true
+        },
+        {
+          "name": "Empanada de espinaca y 3 quesos",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Ensalada mixta (Salade mixte)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Chorizo criollo (saucisse grillée)",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Morcilla (boudin noir grillé)",
+          "price_cents": 850,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Grillades",
+      "items": [
+        {
+          "name": "Bife Ancho (Entrecôte)",
+          "price_cents": 3000,
+          "is_highlight": false
+        },
+        {
+          "name": "Bife de Chorizo (Faux-filet)",
+          "price_cents": 3000,
+          "is_highlight": true
+        },
+        {
+          "name": "Bife de Lomo (Filet de bœuf)",
+          "price_cents": 3550,
+          "is_highlight": true
+        },
+        {
+          "name": "Trio de viandes",
+          "price_cents": 3200,
+          "is_highlight": false
+        },
+        {
+          "name": "Asado de Tira (travers de bœuf)",
+          "price_cents": 2750,
+          "is_highlight": false
+        },
+        {
+          "name": "Plato del Gaucho",
+          "price_cents": 2850,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Flan con dulce de leche",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Banana con dulce de leche",
+          "price_cents": 500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons",
+      "items": [
+        {
+          "name": "Fuerza Vermouth Argentin",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Quilmes 34cl",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge Malbec",
+          "price_cents": 700,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

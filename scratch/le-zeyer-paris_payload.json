@@ -1,0 +1,121 @@
+{
+  "on_mange_quoi_ici": "Cuisine de brasserie. Pavé de cabillaud poêlé & Andouillette AAAAA grillée.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-zeyer-paris/Capture_d_e_cran_2026-05-23_a__23.21.58.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-zeyer-paris/Capture_d_e_cran_2026-05-23_a__23.22.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-zeyer-paris/Capture_d_e_cran_2026-05-23_a__23.22.07.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-zeyer-paris/Capture_d_e_cran_2026-05-23_a__23.22.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-zeyer-paris/Capture_d_e_cran_2026-05-23_a__23.22.20.png"
+  ],
+  "pint_price": 10,
+  "cocktail_price": 9.5,
+  "coffee_price": 3,
+  "wine_glass": 7,
+  "plat_median_cents": 2500,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées & Snacking",
+      "items": [
+        {
+          "name": "Les 6 très gros escargots de Bourgogne",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Omelette nature frites et salade",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Le croque-monsieur frites et salade",
+          "price_cents": 1100,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Merlan meunière aux amandes",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Grillade de poissons à l'aïoli",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Pavé de cabillaud poêlé au curry",
+          "price_cents": 2500,
+          "is_highlight": true
+        },
+        {
+          "name": "Pavé de saumon poêlé sauce pistou",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi-cuit de thon rouge aux graines de sésame",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Linguines crémeuses aux gambas",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Filet de bar sauce béarnaise",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Andouillette AAAAA grillée, sauce moutarde",
+          "price_cents": 2500,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Crème brûlée à la cassonade",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Soufflé glacé au Grand-Marnier",
+          "price_cents": 1100,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons",
+      "items": [
+        {
+          "name": "Kronembourg pinte 50cl",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Demory Paris IPA pinte 50cl",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Côtes de Provence AOC",
+          "price_cents": 700,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

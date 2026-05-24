@@ -1,0 +1,81 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bar. Assiette de charcuterie maison & Tapas maison.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-tonnerre/Capture_d_e_cran_2026-05-23_a__23.19.39.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-tonnerre/Capture_d_e_cran_2026-05-23_a__23.19.46.png"
+  ],
+  "pint_price": 5,
+  "cocktail_price": 8,
+  "coffee_price": null,
+  "wine_glass": 4,
+  "plat_median_cents": 650,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Plats & Planches",
+      "items": [
+        {
+          "name": "Assiette de charcuterie maison, pain, cornichons",
+          "price_cents": 1600,
+          "is_highlight": true
+        },
+        {
+          "name": "Saucisson nature, Beaufort ou noisettes",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tapas maison (houmous, rillettes de thon)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Bol de frites maison avec mayonnaise ou ketchup",
+          "price_cents": 500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons",
+      "items": [
+        {
+          "name": "Éclair (Blonde légère) pinte 50cl",
+          "price_cents": 500,
+          "is_highlight": true
+        },
+        {
+          "name": "Britt Summer IPA pinte 50cl",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Sant Erwann Abbaye pinte 50cl",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Ti Punch (6cl)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Daïquiri",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Pina Colada",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge / blanc",
+          "price_cents": 400,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
