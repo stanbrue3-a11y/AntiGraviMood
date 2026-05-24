@@ -342,8 +342,85 @@ async function main() {
   }
 
   // 7. Ingestion Logic
-  console.log(`\n⛓️  Ingesting categories and items into Supabase...`);
+  console.log(`\n⛓️  Ingesting menu photos, categories and items into Supabase...`);
   const placeId = place.id;
+
+  // Query existing photos in database
+  const { data: dbPhotos } = await supabase
+    .from('menu_photos')
+    .select('*')
+    .eq('place_id', placeId);
+
+  // Normalize photos from payload
+  const payloadPhotos: Array<{ url: string; photo_date: string | null; raw_date_label: string | null; id_alias?: string }> = [];
+  if (Array.isArray(finalPayload.menu_photos)) {
+    payloadPhotos.push(...finalPayload.menu_photos);
+  } else if (Array.isArray(finalPayload.Url_Photos_Menu)) {
+    for (const item of finalPayload.Url_Photos_Menu) {
+      if (typeof item === 'string') {
+        payloadPhotos.push({ url: item, photo_date: null, raw_date_label: null });
+      } else if (item && typeof item === 'object' && item.url) {
+        payloadPhotos.push({
+          url: item.url,
+          photo_date: item.photo_date || null,
+          raw_date_label: item.raw_date_label || null,
+          id_alias: item.id_alias
+        });
+      }
+    }
+  }
+
+  const photoIdsToKeep = new Set<string>();
+  const aliasToUuid: Record<string, string> = {};
+
+  for (const p of payloadPhotos) {
+    let dbPhoto = dbPhotos?.find(x => x.url === p.url);
+    let photoId: string;
+
+    if (dbPhoto) {
+      photoId = dbPhoto.id;
+      // Update metadata if changed
+      if (dbPhoto.photo_date !== p.photo_date || dbPhoto.raw_date_label !== p.raw_date_label) {
+        await supabase
+          .from('menu_photos')
+          .update({
+            photo_date: p.photo_date || null,
+            raw_date_label: p.raw_date_label || null
+          })
+          .eq('id', photoId);
+      }
+    } else {
+      const { data: newPhoto, error: photoErr } = await supabase
+        .from('menu_photos')
+        .insert({
+          place_id: placeId,
+          url: p.url,
+          photo_date: p.photo_date || null,
+          raw_date_label: p.raw_date_label || null
+        })
+        .select()
+        .single();
+      if (photoErr) throw photoErr;
+      photoId = newPhoto.id;
+    }
+
+    photoIdsToKeep.add(photoId);
+    if (p.id_alias) {
+      aliasToUuid[p.id_alias] = photoId;
+    }
+    aliasToUuid[p.url] = photoId; // Fallback to URL mapping
+  }
+
+  // Clean up orphaned photos
+  if (dbPhotos) {
+    for (const dbPhoto of dbPhotos) {
+      if (!photoIdsToKeep.has(dbPhoto.id)) {
+        await supabase.from('menu_photos').delete().eq('id', dbPhoto.id);
+        console.log(`  🧹 Deleted orphaned menu photo: ${dbPhoto.url}`);
+      }
+    }
+  }
+
   const payloadCategories = finalPayload.menu_items || [];
 
   const { data: dbCategories } = await supabase
@@ -362,6 +439,8 @@ async function main() {
   for (const payCat of payloadCategories) {
     const catType = payCat.category_type;
     const displayLabel = payCat.display_label;
+    const catPhotoAlias = payCat.menu_photo_alias || payCat.menu_photo_url || null;
+    const resolvedCatPhotoId = catPhotoAlias ? (aliasToUuid[catPhotoAlias] || null) : null;
 
     let dbCat = dbCategories?.find(
       (c) => c.category_type === catType && c.display_label === displayLabel
@@ -399,6 +478,11 @@ async function main() {
       const description = payItem.description || null;
       const isHighlight = payItem.is_highlight || false;
 
+      // Handle item-specific photo metadata with inheritance
+      const itemPhotoAlias = payItem.menu_photo_alias || payItem.menu_photo_url || null;
+      const resolvedItemPhotoId = itemPhotoAlias ? (aliasToUuid[itemPhotoAlias] || null) : null;
+      const finalItemPhotoId = resolvedItemPhotoId || resolvedCatPhotoId || null;
+
       let dbItem = dbItems?.find(
         (i) => i.name.toLowerCase().trim() === itemName.toLowerCase().trim()
       );
@@ -433,6 +517,7 @@ async function main() {
             happy_hour_price_cents: newHhPrice,
             description: description,
             is_highlight: isHighlight,
+            menu_photo_id: finalItemPhotoId,
           })
           .eq('id', itemId);
         if (itemUpdateErr) throw itemUpdateErr;
@@ -448,6 +533,7 @@ async function main() {
             price_cents: newPrice,
             happy_hour_price_cents: newHhPrice,
             is_highlight: isHighlight,
+            menu_photo_id: finalItemPhotoId,
           })
           .select()
           .single();
@@ -508,6 +594,7 @@ async function main() {
     : null;
 
   // Update Places Table (Caches & Status)
+  const finalUrlsList = payloadPhotos.map(p => p.url);
   const { error: updatePlaceErr } = await supabase
     .from('places')
     .update({
@@ -517,7 +604,7 @@ async function main() {
       cocktail_price_cents: finalCocktailPriceCents,
       coffee_price_cents: finalCoffeePriceCents,
       wine_glass_cents: finalWineGlassCents,
-      Url_Photos_Menu: finalPayload.Url_Photos_Menu,
+      Url_Photos_Menu: finalUrlsList,
       menu_verified_at: new Date().toISOString(),
       status: 'PUBLISHED',
     })
