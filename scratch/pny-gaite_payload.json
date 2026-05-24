@@ -28,7 +28,8 @@
           "description": "Rondelles d'oignons frites faites minute, sauce Sunday BBQ",
           "is_highlight": false
         }
-      ]
+      ],
+      "menu_photo_alias": "drinks_card_2023"
     },
     {
       "category_type": "main",
@@ -94,7 +95,8 @@
           "description": "Bun sésame, bœuf PNY de 250g, American cheese, cheddar affiné, oignons, pickles, sauce maison, salade iceberg",
           "is_highlight": false
         }
-      ]
+      ],
+      "menu_photo_alias": "burger_card_2025"
     },
     {
       "category_type": "side",
@@ -124,7 +126,8 @@
           "description": "Frites maison nappées de cheddar fondu affiné 18 mois, éclats de bacon croustillant",
           "is_highlight": false
         }
-      ]
+      ],
+      "menu_photo_alias": "drinks_card_2023"
     },
     {
       "category_type": "dessert",
@@ -160,7 +163,8 @@
           "description": "Chou géant maison, crème fouettée, chocolat fondu, glace vanille artisanale (pour deux)",
           "is_highlight": false
         }
-      ]
+      ],
+      "menu_photo_alias": "drinks_card_2023"
     }
   ],
   "Url_Photos_Menu": [
@@ -168,5 +172,31 @@
     "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.03.png",
     "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.07.png",
     "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.10.png"
+  ],
+  "menu_photos": [
+    {
+      "id_alias": "burger_card_2025",
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.13.58.png",
+      "photo_date": "2025-01-15",
+      "raw_date_label": "Janvier 2025"
+    },
+    {
+      "id_alias": "drinks_card_2023",
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.03.png",
+      "photo_date": "2023-06-10",
+      "raw_date_label": "Juin 2023"
+    },
+    {
+      "id_alias": "other_card_2",
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.07.png",
+      "photo_date": null,
+      "raw_date_label": null
+    },
+    {
+      "id_alias": "other_card_3",
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.10.png",
+      "photo_date": null,
+      "raw_date_label": null
+    }
   ]
 }
