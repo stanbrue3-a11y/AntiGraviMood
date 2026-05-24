@@ -19,11 +19,9 @@ async function check() {
     return;
   }
 
-  console.log(`Checking scaffolded places:`);
+  console.log(`Found ${data.length} places in SCAFFOLDED status:`);
   data.forEach((p) => {
-    if (p.Url_Photos_Menu && p.Url_Photos_Menu !== "") {
-      console.log(`- ${p.name} (${p.slug}) | Url_Photos_Menu:`, JSON.stringify(p.Url_Photos_Menu));
-    }
+    console.log(`- ${p.name} (${p.slug}) | Status: ${p.status} | Url_Photos_Menu:`, p.Url_Photos_Menu);
   });
 }
 

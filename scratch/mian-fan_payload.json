@@ -1,0 +1,258 @@
+{
+  "on_mange_quoi_ici": "Cuisine asiatique. Bo buon & Sha shao porc ibérique.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mian-fan/feafaefezfzafaefaaefg.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Dim Sum & Entrées",
+      "items": [
+        {
+          "name": "Chicken Dim Sum (x5)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Dim Sum Laqué (x5)",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Beef Dim Sum (x5)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Dim Sum Santé Veggie (x5)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Gyoza Japonais Porc (x5)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh Bao de Madame Li (x5)",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Duck Dim Sum (x5)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Edamame",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis Crevettes Frits",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Nems au poulet",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Nems légumes vegan",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Som Tam (Salade papaye)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Yam Neus Nam Tok (Salade boeuf)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Tako Sensai (Salade poulpe)",
+          "price_cents": 1680,
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi de Saumon",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de Saumon et mangue",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare d'avocat au crabe",
+          "price_cents": 2200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats Principaux & Woks",
+      "items": [
+        {
+          "name": "Sha Sao Soup",
+          "price_cents": 1680,
+          "description": "Soupe de nouilles Soba, choux pak choï, filet mignon de porc ibérique laqué",
+          "is_highlight": false
+        },
+        {
+          "name": "Duck's Soup",
+          "price_cents": 1800,
+          "description": "Soupe de nouilles Udon, choux pak choï, magret de canard laqué",
+          "is_highlight": false
+        },
+        {
+          "name": "Yaya (Canard laqué au miel)",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Sha Shao (Porc laqué au miel)",
+          "price_cents": 2200,
+          "is_highlight": true
+        },
+        {
+          "name": "Duck's (Magret laqué à rouler)",
+          "price_cents": 2400,
+          "is_highlight": false
+        },
+        {
+          "name": "Yun Tun Mian",
+          "price_cents": 1180,
+          "is_highlight": false
+        },
+        {
+          "name": "Bo Buon (Boeuf / Poulet / Vegan)",
+          "price_cents": 1200,
+          "is_highlight": true
+        },
+        {
+          "name": "Zha Jiang Mian",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Spicy Pai Fan",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Jipai Mian",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Tartare Thaï",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Xia façon Mian Fan",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Bibimbap",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi Zhi Mian Fan (Wok)",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Shu Cai Chao Mian (Wok Veggie)",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Ji Pai Fan (Wok)",
+          "price_cents": 1080,
+          "is_highlight": false
+        },
+        {
+          "name": "Double Wok",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Veggie Wok",
+          "price_cents": 1280,
+          "is_highlight": false
+        },
+        {
+          "name": "Udonguo Mian",
+          "price_cents": 1580,
+          "is_highlight": false
+        },
+        {
+          "name": "Hai Xian Fan",
+          "price_cents": 1450,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Coupelle de litchis",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Cheesecake coulis framboise",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Moelleux au chocolat",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Tarte au citron meringuée",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de fruits frais",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Crumble pommes fruits rouges",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Café gourmand cookie",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Mangue fraîche entière",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1375
+}

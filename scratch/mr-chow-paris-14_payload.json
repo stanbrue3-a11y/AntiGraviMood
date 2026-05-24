@@ -1,0 +1,205 @@
+{
+  "on_mange_quoi_ici": "Cuisine chinoise. Biang Biang beef noodles & Xiao long bao.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mr-chow-paris-14/MENU_MC_FR-ENG_Web_202604.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Xiao Chi & Dim Sum",
+      "items": [
+        {
+          "name": "Fresh Mushroom Salad",
+          "price_cents": 750,
+          "description": "Champignons frais de saison, sauce ail-soja-sésame, chili oil maison, cébette, coriandre",
+          "is_highlight": false
+        },
+        {
+          "name": "Smashed Cucumbers",
+          "price_cents": 450,
+          "description": "Concombres, citron, ail, huile de sésame, coriandre, chili oil maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Cold Sichuan Chicken",
+          "price_cents": 750,
+          "description": "Haut de cuisse de poulet mariné au gingembre, sauce soja, chili oil maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Wontons aux crevettes (x5)",
+          "price_cents": 850,
+          "description": "Frits (avec spicy mayo) ou Pochés (avec chili oil maison)",
+          "is_highlight": false
+        },
+        {
+          "name": "Baozis (x3)",
+          "price_cents": 700,
+          "description": "Classique au porc ou Veggie",
+          "is_highlight": false
+        },
+        {
+          "name": "Xiao Long Bao (x5)",
+          "price_cents": 950,
+          "description": "Raviolis vapeurs au porc, cébette, gingembre, chou chinois, hot bouillon",
+          "is_highlight": true
+        },
+        {
+          "name": "Shui Jiao (x6)",
+          "price_cents": 850,
+          "description": "Porc fermier ou Poulet mariné avec gingembre, chili oil maison, cacahuètes",
+          "is_highlight": false
+        },
+        {
+          "name": "Sheng Jian Bao (x4)",
+          "price_cents": 950,
+          "description": "Raviolis semi-briochés grillés au porc, cébette, gingembre, chou chinois, hot bouillon",
+          "is_highlight": false
+        },
+        {
+          "name": "Wu Gok Pork-Taro (x3)",
+          "price_cents": 850,
+          "description": "Raviolis frits à base de farine de riz gluant, taro, porc mariné, champignons",
+          "is_highlight": false
+        },
+        {
+          "name": "Crystal Veggie Dumplings (x5)",
+          "price_cents": 850,
+          "description": "Raviolis vapeur à la farine de froment, champignons shiitakés, maïs, coriandre",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Specials & Noodles",
+      "items": [
+        {
+          "name": "Aubergines Hong Shao",
+          "price_cents": 1250,
+          "description": "Aubergines tigrées fondantes, sauce maison soja vinaigre noir, oignons frits",
+          "is_highlight": false
+        },
+        {
+          "name": "Popcorn Fried Chicken",
+          "price_cents": 1300,
+          "description": "Poulet frit mariné au buttermilk, spicy mayo maison, popcorn",
+          "is_highlight": false
+        },
+        {
+          "name": "Spicy Fried Chicken",
+          "price_cents": 1450,
+          "description": "Poulet frit mariné pimpé avec une sauce épicée au Gochujiang",
+          "is_highlight": false
+        },
+        {
+          "name": "Shrimp Toasts",
+          "price_cents": 1350,
+          "description": "Fried gua bao maison, à la crevette, sésame noir et blanc, spicy mayo",
+          "is_highlight": false
+        },
+        {
+          "name": "Biang Biang Beef Noodles",
+          "price_cents": 1450,
+          "description": "Nouilles fraîches biang biang, bœuf braisé à la taïwanaise, sésame, coriandre",
+          "is_highlight": true
+        },
+        {
+          "name": "Taiwanese Beef Noodle Soup",
+          "price_cents": 1450,
+          "description": "Nouilles fraîches, bœuf braisé à la taïwanaise, pak choï, coriandre, bouillon maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Biang Biang Noodles Porc Grillé",
+          "price_cents": 1450,
+          "description": "Nouilles fraîches biang biang, porc rôti puis grillé, concombres frais, pickles, sauce soja sésame, cacahuètes",
+          "is_highlight": false
+        },
+        {
+          "name": "Biang Biang Noodles Agneau Confit",
+          "price_cents": 1550,
+          "description": "Nouilles fraîches biang biang, épaule d’agneau confite 4h, sauce soja cumin, coriandre",
+          "is_highlight": true
+        },
+        {
+          "name": "Biang Biang Chicken Noodles",
+          "price_cents": 1400,
+          "description": "Nouilles fraîches biang biang, haut de cuisse de poulet braisé et mariné au gingembre, sésame, coriandre",
+          "is_highlight": false
+        },
+        {
+          "name": "Creamy Dandan Noodles",
+          "price_cents": 1450,
+          "description": "Nouilles fraîches biang biang, porc haché sauté, champignons parfumés, crème de sésame, cacahuètes",
+          "is_highlight": false
+        },
+        {
+          "name": "Veggie Noodles",
+          "price_cents": 1350,
+          "description": "Nouilles fraîches biang biang, aubergines chinoises, champignons shiitakés",
+          "is_highlight": false
+        },
+        {
+          "name": "Cold Mango Noodles",
+          "price_cents": 1450,
+          "description": "Nouilles de patate douce froides, mangues fraîches, concombres, carottes, sauce citron sésame",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "Riz blanc",
+          "price_cents": 350,
+          "description": "Riz blanc, cébette, sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "Yu Choy Sum",
+          "price_cents": 500,
+          "description": "Légumes verts HK style, sauce huître, huile à l'ail",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mochi glacé",
+          "price_cents": 650,
+          "description": "Pâte à mochi, boule de glace artisanale de chez Reÿs",
+          "is_highlight": false
+        },
+        {
+          "name": "Mochis peanuts sésame noir (x2)",
+          "price_cents": 500,
+          "description": "Servis chauds. Pâte de riz gluant, crème cacahuète, sésame noir, noix de coco",
+          "is_highlight": false
+        },
+        {
+          "name": "Mango Sago",
+          "price_cents": 600,
+          "description": "Lait de coco, perles de tapioca, mangue fraîche, zeste de citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Bao sucré",
+          "price_cents": 500,
+          "description": "Liu Sha Bao (crème œufs) ou Bao choco noisette (gianduja)",
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1450
+}

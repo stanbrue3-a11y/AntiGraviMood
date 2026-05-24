@@ -1,0 +1,110 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Barbecue de côte de bœuf & Dolsot-bibimbap.",
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 4,
+  "wine_glass": null,
+  "plat_median_cents": 2400,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Gyoza grillés (3 pièces)",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Gyoza grillés (6 pièces)",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Grillades & Menus",
+      "items": [
+        {
+          "name": "Menu Midi A (Gyoza x3 + Barbecue Bœuf 100g + Riz)",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Midi B (Gyoza x3 + Barbecue Bœuf 100g + Dolsot-Bibimbap)",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Midi C (Gyoza x6 + Barbecue Bœuf + Riz)",
+          "price_cents": 2100,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Midi D (Gyoza x6 + Barbecue Bœuf + Dolsot-Bibimbap)",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Soir E (Gyoza x4 + Barbecue Bœuf + Riz)",
+          "price_cents": 2300,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Soir F (Gyoza x4 + Barbecue Bœuf + Dolsot-Bibimbap)",
+          "price_cents": 2800,
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Soir G (Gyoza x6 + Barbecue Bœuf + Riz)",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Soir H (Gyoza x6 + Barbecue Bœuf + Dolsot-Bibimbap)",
+          "price_cents": 3000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Matcha Roll Cake (Pancake japonais roulé au thé vert et Azuki)",
+          "price_cents": 600,
+          "is_highlight": true
+        },
+        {
+          "name": "Beignet de banane flambé au Grand Marnier",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Mangue fraîche",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Glace au sésame noir",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Glace au thé vert (Macha)",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-korean-barbecue/Capture_d_e_cran_2026-05-24_a__15.21.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-korean-barbecue/Capture_d_e_cran_2026-05-24_a__15.21.24.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-korean-barbecue/Capture_d_e_cran_2026-05-24_a__15.21.26.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-korean-barbecue/Capture_d_e_cran_2026-05-24_a__15.21.29.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-korean-barbecue/Capture_d_e_cran_2026-05-24_a__15.21.34.png"
+  ]
+}

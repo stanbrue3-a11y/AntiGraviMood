@@ -12,19 +12,16 @@ async function check() {
   const { data, error } = await supabase
     .from('places')
     .select('name, slug, status, Url_Photos_Menu')
-    .eq('status', 'SCAFFOLDED');
+    .eq('slug', 'fi-lia')
+    .single();
 
   if (error) {
-    console.error('Error fetching places:', error);
+    console.error('Error:', error);
     return;
   }
 
-  console.log(`Checking scaffolded places:`);
-  data.forEach((p) => {
-    if (p.Url_Photos_Menu && p.Url_Photos_Menu !== "") {
-      console.log(`- ${p.name} (${p.slug}) | Url_Photos_Menu:`, JSON.stringify(p.Url_Photos_Menu));
-    }
-  });
+  console.log('Fi-Lia in database:');
+  console.log(JSON.stringify(data, null, 2));
 }
 
 check();

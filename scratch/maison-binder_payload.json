@@ -1,0 +1,150 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Asperges vertes grillées & Dahl de lentilles vertes.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/maison-binder/feafaefezfzafeaf.pdf"
+  ],
+  "pint_price": 8.5,
+  "cocktail_price": 10,
+  "coffee_price": 2.5,
+  "wine_glass": 7.5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Asperges vertes grillées",
+          "price_cents": 950,
+          "description": "Gel orange, tuile sarrasin, huile verte, aneth",
+          "is_highlight": true
+        },
+        {
+          "name": "L'artichaut entier sauce gribiche",
+          "price_cents": 950,
+          "description": "Artichaut entier, sauce gribiche, algue nori, ciboulette",
+          "is_highlight": false
+        },
+        {
+          "name": "Sucrine braisée crème de tahini",
+          "price_cents": 900,
+          "description": "Persillade au piment d'Espelette, oxalys",
+          "is_highlight": false
+        },
+        {
+          "name": "Ricotta citron, fraises et petit pois",
+          "price_cents": 900,
+          "description": "Tuiles de fraises, fraises confites, petit pois frais",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Dahl de lentilles vertes",
+          "price_cents": 1750,
+          "description": "Blettes, pois chiche, noix au paprika fumé, naan & zeste de citron",
+          "is_highlight": true
+        },
+        {
+          "name": "Salade radicchio au roquefort",
+          "price_cents": 1550,
+          "description": "Endives, poire, roquefort, amandes caramélisées, sauce orange",
+          "is_highlight": false
+        },
+        {
+          "name": "Aïoli à l'ail des ours",
+          "price_cents": 1550,
+          "description": "Oeufs durs, ail grillé, carottes rôties, fenouil cru, pommes grenailles",
+          "is_highlight": false
+        },
+        {
+          "name": "Burger patate douce & grenailles",
+          "price_cents": 1650,
+          "description": "Bun boulanger, patate douce laquée miel, chèvre, roquette, asperges vertes",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mousse au chocolat",
+          "price_cents": 750,
+          "description": "Chocolat, piment d'Espelette, fleur de sel",
+          "is_highlight": false
+        },
+        {
+          "name": "Blanc manger coco",
+          "price_cents": 850,
+          "description": "Crème de coco, fécule de maïs & rhubarbe",
+          "is_highlight": false
+        },
+        {
+          "name": "Pavlova du moment",
+          "price_cents": 950,
+          "description": "Pavlova, fruits de saison",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Citronnade bio maison",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Ginger Beer UMA",
+          "price_cents": 550,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Pinte IPA Citra Galactique (50cl)",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Expresso Martini",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Poire Tonic",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin",
+          "price_cents": 750,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Formule Unique Dimanche",
+          "price_cents": 2600,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1600
+}

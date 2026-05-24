@@ -1,0 +1,200 @@
+{
+  "on_mange_quoi_ici": "Cuisine coréenne. Yukhoe bibimbap & So bol jjim.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ma-shi-ta/menu_midi_FR_ENG.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ma-shi-ta/2___________________FR.pdf"
+  ],
+  "pint_price": 9,
+  "cocktail_price": 12,
+  "coffee_price": 3.5,
+  "wine_glass": 5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Tartare de boeuf charolais",
+          "price_cents": 1500,
+          "description": "Au couteau avec prune verte au piment, œuf cru, fleur de sel",
+          "is_highlight": false
+        },
+        {
+          "name": "Bojagi Japchae (Petit)",
+          "price_cents": 900,
+          "description": "Nouilles de patate douce sautées sauce soja et sésame",
+          "is_highlight": false
+        },
+        {
+          "name": "Gamtae Jumeokbap",
+          "price_cents": 1000,
+          "description": "3 petites boules de riz avec ecklonia cava",
+          "is_highlight": false
+        },
+        {
+          "name": "Saewoo Jatjeub Muchim",
+          "price_cents": 1000,
+          "description": "Salade de crevettes, concombres et racine de lotus (été)",
+          "is_highlight": false
+        },
+        {
+          "name": "Dak Gangjeong (Petit)",
+          "price_cents": 900,
+          "description": "Poulet frit à la sauce au choix (piquante, soja, ou sel/poivre)",
+          "is_highlight": false
+        },
+        {
+          "name": "Haemul Pajeon",
+          "price_cents": 1600,
+          "description": "Crêpe coréenne aux fruits de mer (hiver)",
+          "is_highlight": false
+        },
+        {
+          "name": "Aubergine et racine de lotus frite",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Mandoo au poulet et légumes",
+          "price_cents": 900,
+          "description": "5 raviolis au poulet et légumes, sauce aigre-douce",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Yukhoe Bibimbap",
+          "price_cents": 2500,
+          "description": "Bibimbap au tartare de bœuf charolais/limousin au couteau, œuf, légumes sautés",
+          "is_highlight": true
+        },
+        {
+          "name": "So Bol Jjim",
+          "price_cents": 2500,
+          "description": "Joue de bœuf fondante mijotée lentement, interprétation coréenne du bœuf bourguignon",
+          "is_highlight": true
+        },
+        {
+          "name": "Maekjeok (Porc grillé)",
+          "price_cents": 2400,
+          "description": "Échine de porc assaisonnée à la pâte de soja de Muryangsu",
+          "is_highlight": false
+        },
+        {
+          "name": "Ibérique Jeyuk Bokkeum",
+          "price_cents": 2000,
+          "description": "Échine de porc ibérique tranchée, sauce pimentée, légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Bibimbap Végétarien",
+          "price_cents": 2000,
+          "description": "Riz blanc et noir, œuf, carottes, pousses de soja, courgettes, navets sautés",
+          "is_highlight": false
+        },
+        {
+          "name": "Gomtang",
+          "price_cents": 1800,
+          "description": "Bouillon clair de bœuf longuement mijoté",
+          "is_highlight": false
+        },
+        {
+          "name": "Sundubu Jjigae",
+          "price_cents": 2000,
+          "description": "Ragoût de tofu moelleux bouilli au porc, sauce épicée, légumes, œuf cru",
+          "is_highlight": false
+        },
+        {
+          "name": "Jjimdak",
+          "price_cents": 1800,
+          "description": "Morceaux de poulet braisé à la sauce soja et légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Udon froid aux crevettes frites",
+          "price_cents": 1700,
+          "description": "Udon froid avec sauce maison soja ou piquante (été)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Trou Séoul",
+          "price_cents": 1300,
+          "description": "Premium soju servi avec glace vanille et yuzu",
+          "is_highlight": false
+        },
+        {
+          "name": "Assortiment de 2 petits desserts",
+          "price_cents": 900,
+          "description": "Desserts coréens par un artiste de la Royal Food Culture Foundation",
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu au sésame noir",
+          "price_cents": 800,
+          "description": "Revisité par Sayuri Nakao",
+          "is_highlight": true
+        },
+        {
+          "name": "Bingsu",
+          "price_cents": 1000,
+          "description": "Glace pilée au lait et lait concentré (été)",
+          "is_highlight": false
+        },
+        {
+          "name": "Madeleine artisanale + boisson",
+          "price_cents": 800,
+          "description": "Thé vert ou sésame noir, servie avec café ou thé",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Bière Cass (50cl)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Soju Highball",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Bokbunja Cocktail",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Formule Midi (Entrée + Plat)",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Formule Midi (Entrée + Plat + Dessert)",
+          "price_cents": 2200,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 2000
+}

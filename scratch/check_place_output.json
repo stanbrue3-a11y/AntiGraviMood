@@ -1,0 +1,491 @@
+Found 6 places:
+{
+  "id": "bb2cb80d-d883-43a8-bf2e-b94cb26bbdc4",
+  "slug": "la-creperie-de-josselin",
+  "name": "La Crêperie de Josselin",
+  "category": "restaurant",
+  "subcategories": [],
+  "dominant_mood": "culturel",
+  "address": "67 Rue du Montparnasse, 75014 Paris, France",
+  "arrondissement": 14,
+  "lat": 48.8416679,
+  "lng": 2.3254674,
+  "nearest_metro": "Edgar Quinet",
+  "metro_lines": [
+    "6"
+  ],
+  "google_id": "ChIJNZKKCsxx5kcRKI18uxbygPI",
+  "google_rating": 4.5,
+  "google_reviews_count": 5396,
+  "description": "C'est le phare de la rue du Montparnasse. Sous ses plafonds bas, le décor est resté figé : boiseries sombres patinées, carrelage d'époque et rideaux de dentelle. On y vient pour ses galettes de blé noir fortement beurrées et sa spécialité, 'Le Couple' (une galette à deux étages), servie dans un vacarme de brasserie vivant où l'on s'attable au coude-à-coude.",
+  "insider_tip": "• Prévoyez du liquide : la maison refuse historiquement la carte bancaire.\n• Sans réservations, l'attente est quasi-systématique : visez l'ouverture pour éviter la file d'attente sur le trottoir.\n• Si le n°67 est bondé, tentez votre chance au Petit Josselin au n°59 : c'est la maison jumelle, la même carte, et parfois quelques minutes de queue en moins.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "lundi: Fermé | mardi: 17:30 – 23:00 | mercredi: 11:30 – 23:00 | jeudi: 11:30 – 23:00 | vendredi: 11:30 – 23:00 | samedi: 11:30 – 23:00 | dimanche: 11:30 – 22:30",
+  "opening_hours_json": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1130"
+        },
+        "close": {
+          "day": 0,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1730"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "open_now": false,
+    "weekday_text": [
+      "lundi: Fermé",
+      "mardi: 17:30 – 23:00",
+      "mercredi: 11:30 – 23:00",
+      "jeudi: 11:30 – 23:00",
+      "vendredi: 11:30 – 23:00",
+      "samedi: 11:30 – 23:00",
+      "dimanche: 11:30 – 22:30"
+    ]
+  },
+  "closes_late": false,
+  "has_terrace": true,
+  "reservation_policy": "sans_resa",
+  "michelin_stars": null,
+  "tags": [
+    "new_lot",
+    "pastille_bleue"
+  ],
+  "plat_median_cents": null,
+  "hero_image": "Ab43m-vZDZqor3ECwZyBNmH-mmWK9T5ZY43Hr3aVe8pPy1AS-YSAzfMvyU4tMQ1u3z3pvaJ_9Lo46dbt123eXf87u2fkyQ-O7KPmfhpLObOyrq7KUaAbm5o1mkmWkIssPjpGHoahGhkBNZ5Yirxjqes1_A_LC7dGgeevebZqT6EXzxPWf7gwhAeAKoa2lkLNWE3ZyyqBAREq42995LvXQ7LUnERI0IsTiURr7vBcX0u1-G-1amzyQkfCxhptEStpOwnaey1ZGn4AfdNPcD4v6tgEw-mjq865YSW-DzNUhY2xS_1AhHOP6UJVvgA9Mxao2pqaCe9NXj1lFOLJuh4SzY-Ltm_4rSthGkTSCeKyJCcw9JpqstjO_9MZvIp6nUkgvvwoeIwtAu4OgVoARcwv30YGaoawcavebJDT7_-zVsW8BEIIKeEcENCQOGnH0pGe-GsI",
+  "google_photos": [
+    "Ab43m-vpQTiime0t7Jeib7LTW8-_LgmzBL6ol_BtA2A49flPFyneIb8W7dG2Bc7GDgNiCpnGKO1He6H7t3gAfX5wBKiGdidIHhtiBHT2hKyJG6H9kL4qnt6s5MpSkAm9oZbIBo0WmSIl84aTdNEz2Kyfo-ami2Oqc9fjIqL3B9dVFTKrtsygrJbdr7lP_YcELMohROpHGZRtSz_8t52mgb5pHPQ5WFaVIp7j4KrD5O2hYUGEfjVI6LnoHHoMrUtiYzjR5V3o_tV2tLPaEQhm4OUHC6v9nQmuBnR1X94JTsy32I6iwEqnwD2c8M2fe-vg1E7IO-1lRxiNBQRBCuyCkXYCr6c2ikOKAHJJvJpJVKn5REGgDZHNoNHnbbOVav7DtqsQcbJFocXZhz8NDf3U8kTD4Tq52QBepfgpaYhj1kiGWIVTKAVBpSSRe_Acu35hYhSS",
+    "Ab43m-tE7VOpt08dnQBb6RHLWLaqFMayZPCJL8U0GVmCcexiGkJCieSXjbxxCZ-FbQYLE8lRGzpT552EIXuFTEiBu966x8isxF7rNPGCRoJ6P-vp8yBwN-arqdRadt3cOATW8hiHqAca_MGa0FJkEgKRwQOqjweKhX4nZnjM-N-GIKBusw0klZqggKRONjPPmh7Z-M8FY_jOryHfkSZhXn7uSd6QcWx33s3kplh_-xdnj0hDdWu6VzsWB-v2jpxir1Ax6tep_tOWrxRcQeXudi-wE1lak9h99OKlfdcBRwZIs_mpSt5VmxdTMv6K4xyludfpOZPk0jjtjGpLD4-e6sxzB7zNNtqD7BMhSXLbU5D_C3LHMIWVj6m2aAEM38a8J4Ovx7KwSOriDl2JQWpUrqiubo5iVlAXo-OkQtgwQdgo3clwTHl5zKgvOlSvQlF5HsQa",
+    "Ab43m-tm0LNUrOuwGXIPhA_8sCYw-bOiUHr-X1YbCEiMzY7xkHawQVdapXhZ-OmPomekal1RruX1YLKyDo8L9aBgc5poCi80jInMJJf7wYiupgGY0QaYY9pKtussxTkJ5TX8T3DGlBLNXdQOafl7qDTH9LbnaZ6LjeL9nvXR_bnrXT5obGjqh13NRT5iXcgfp2fua44XyJuyA_W2czzneTAPbVO2JVNwhpz63ksXyL3Ng2SIADM0fgAA9MGQ1bXIuK_5czPi6UPLWA5ti7AcbBvV4gH_NjV4meo8gQ7k56_sQVuETBNN1nbE255FhVHPGpl8UkAWx_zTSGioirv8hkG-lEa2YzluwzwkWNRR2N-iQbCiauwB1HfhOsrpku9qUQFo39i7qIkHwXMvSbQjCni1mV1gsEbt9FKMR7qOo-tZAenAbmNF9h-w1SS4DJmdrN00",
+    "Ab43m-vZDZqor3ECwZyBNmH-mmWK9T5ZY43Hr3aVe8pPy1AS-YSAzfMvyU4tMQ1u3z3pvaJ_9Lo46dbt123eXf87u2fkyQ-O7KPmfhpLObOyrq7KUaAbm5o1mkmWkIssPjpGHoahGhkBNZ5Yirxjqes1_A_LC7dGgeevebZqT6EXzxPWf7gwhAeAKoa2lkLNWE3ZyyqBAREq42995LvXQ7LUnERI0IsTiURr7vBcX0u1-G-1amzyQkfCxhptEStpOwnaey1ZGn4AfdNPcD4v6tgEw-mjq865YSW-DzNUhY2xS_1AhHOP6UJVvgA9Mxao2pqaCe9NXj1lFOLJuh4SzY-Ltm_4rSthGkTSCeKyJCcw9JpqstjO_9MZvIp6nUkgvvwoeIwtAu4OgVoARcwv30YGaoawcavebJDT7_-zVsW8BEIIKeEcENCQOGnH0pGe-GsI"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [
+    " [CRITICAL FIX] Switched Hero Image to Photo 3 (Real Facade n°67) after manual audit of annex error.",
+    "[DOGME PROOF] Ref: GOOGLE_REVIEWS | Citation exacte: \"Ils refusent toujours la carte bleue, prévoyez du liquide.\""
+  ],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-11T20:06:08.725123+00:00",
+  "updated_at": "2026-05-23T19:48:42.173659+00:00",
+  "mood_engine_version": "v2",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.32.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.38.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.41.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.45.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.53.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.56.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.47.59.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.48.04.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-creperie-de-josselin/Capture_d_e_cran_2026-05-23_a__21.48.13.png\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}
+{
+  "id": "a33b2b2a-59c4-4562-bbb9-f2be82f43d8a",
+  "slug": "la-manifattura",
+  "name": "La Manifattura",
+  "category": "restaurant",
+  "subcategories": [
+    "italien"
+  ],
+  "dominant_mood": "chill",
+  "address": "106 Boulevard du Montparnasse, 75014 Paris",
+  "arrondissement": 14,
+  "lat": 48.8421114,
+  "lng": 2.3285434,
+  "nearest_metro": "Vavin",
+  "metro_lines": [
+    "4"
+  ],
+  "google_id": "ChIJI6zZEPNx5kcRt4SwvVs2WV4",
+  "google_rating": 4.3,
+  "google_reviews_count": 2109,
+  "description": "Championne de la pizza à Paris, La Manifattura est une escale incontournable sur le boulevard du Montparnasse pour les amateurs de pâte napolitaine d’exception. Le secret réside dans une fermentation longue du pâton et des produits importés directement de petits producteurs italiens. L’ambiance y est vivante, avec le four à bois en vedette et un service qui chante l’Italie.",
+  "insider_tip": "Demandez la pizza ’C.P.2019’, celle qui a remporté le titre de championne de Paris. Pour le dessert, le Baba au Limoncello est une rareté qu’il faut absolument goûter ici.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "Lundi: 12:00–14:30, 19:00–23:00 | Mardi: 12:00–14:30, 19:00–23:00 | Mercredi: 12:00–14:30, 19:00–23:00 | Jeudi: 12:00–14:30, 19:00–23:00 | Vendredi: 12:00–14:30, 19:00–23:00 | Samedi: 12:00–14:30, 19:00–23:00 | Dimanche: 12:00–14:30, 19:00–23:00",
+  "opening_hours_json": null,
+  "closes_late": false,
+  "has_terrace": false,
+  "reservation_policy": "resa_conseillee",
+  "michelin_stars": null,
+  "tags": [],
+  "plat_median_cents": null,
+  "hero_image": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/hero.jpg",
+  "google_photos": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/hero.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/gallery_1.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/gallery_2.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/gallery_3.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-manifattura/gallery_4.jpg"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-06T12:09:08.496098+00:00",
+  "updated_at": "2026-05-23T19:49:58.431735+00:00",
+  "mood_engine_version": "v1",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-manifattura/feafaefezfzazdfzd.pdf\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}
+{
+  "id": "e1cf8212-fad1-4aea-8697-cc725d1b1e10",
+  "slug": "la-petite-soeur",
+  "name": "La Petite Soeur",
+  "category": "restaurant",
+  "subcategories": [
+    "bistrot",
+    "cave_a_manger",
+    "mediterraneenne",
+    "tapas",
+    "vins_naturels"
+  ],
+  "dominant_mood": "chill",
+  "address": "37 Rue du Couëdic, 75014 Paris, France",
+  "arrondissement": 14,
+  "lat": 48.8300809,
+  "lng": 2.3312068,
+  "nearest_metro": "Mouton-Duvernet",
+  "metro_lines": [
+    "4"
+  ],
+  "google_id": "ChIJZZSF_71x5kcRBn0kptqnjUc",
+  "google_rating": 4.7,
+  "google_reviews_count": 194,
+  "description": "Sur la calme Place Michel Audiard, La Petite Sœur se repère à sa devanture rouge carmin abritée sous un store de la même couleur. Devant la porte, deux oliviers en pot entourent quelques petites tables de bistrot. À lintérieur, les tables en bois brut accueillent des plats dinspiration méditerranéenne : un crémeux de labneh aux tomates cerises rôties et cacahuètes, ou un caviar daubergines au sésame fumé. Latmosphère est bercée par un léger brouhaha de quartier et lodeur dhuile dolive qui séchappe de la petite cuisine.",
+  "insider_tip": "• Pensez à réserver en avance car la salle est exiguë et se remplit très rapidement le soir.\n• Installez-vous en terrasse sur la place piétonne pour profiter du soleil lors des beaux jours.\n• Accompagnez vos tapas de lune de leurs bières artisanales locales ou de leur sélection de vins nature.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "lundi: Fermé | mardi: 18:00 – 00:00 | mercredi: 18:00 – 00:00 | jeudi: 18:00 – 00:00 | vendredi: 18:00 – 02:00 | samedi: 17:00 – 02:00 | dimanche: 11:30 – 00:00",
+  "opening_hours_json": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "open_now": true,
+    "weekday_text": [
+      "lundi: Fermé",
+      "mardi: 18:00 – 00:00",
+      "mercredi: 18:00 – 00:00",
+      "jeudi: 18:00 – 00:00",
+      "vendredi: 18:00 – 02:00",
+      "samedi: 17:00 – 02:00",
+      "dimanche: 11:30 – 00:00"
+    ]
+  },
+  "closes_late": true,
+  "has_terrace": true,
+  "reservation_policy": "resa_conseillee",
+  "michelin_stars": null,
+  "tags": [
+    "new_lot",
+    "pastille_rouge"
+  ],
+  "plat_median_cents": null,
+  "hero_image": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-petite-soeur/photo_4.jpg",
+  "google_photos": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-petite-soeur/hero.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-petite-soeur/photo_1.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-petite-soeur/photo_2.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-petite-soeur/photo_3.jpg"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [
+    "[AUDIT F.I.P.P OK] Ordre validé : Façade (#4) -> Terrasse (#0) -> Tomates (#1) -> Aubergine (#2) -> Hummus (#3)"
+  ],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-19T17:37:08.485746+00:00",
+  "updated_at": "2026-05-23T19:50:37.073526+00:00",
+  "mood_engine_version": "v2",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-petite-soeur/LPS-Menu-Mai-2026.pdf\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}
+{
+  "id": "f9626ed1-f6b9-468b-ac76-c38e4aa108b0",
+  "slug": "la-taverne-de-zhao",
+  "name": "La Taverne de Zhao",
+  "category": "restaurant",
+  "subcategories": [
+    "cuisine_chinoise",
+    "specialite_shaanxi"
+  ],
+  "dominant_mood": "festif",
+  "address": "11 Rue Delambre, 75014 Paris, France",
+  "arrondissement": 14,
+  "lat": 48.8416463,
+  "lng": 2.3283367,
+  "nearest_metro": "Vavin",
+  "metro_lines": [
+    "4"
+  ],
+  "google_id": "ChIJTxzcA9Nx5kcRJyR_2DjInGY",
+  "google_rating": 4.8,
+  "google_reviews_count": 2339,
+  "description": "Derrière une devanture en bois écarlate flanquée d'une imposante lanterne en papier, cette enclave dédiée à la province du Shaanxi sert ses bols fumants dans un joyeux vacarme. L'endroit reproduit l'effervescence des rues de Xi'an avec ses plats portés par le piment et l'ail cru. On s'y attable au coude-à-coude pour aspirer bruyamment de longues nouilles plates étirées sous vos yeux, une vraie claque gustative en plein cœur du 14ème.",
+  "insider_tip": "• L'adresse est très demandée au déjeuner comme au dîner, visez le début de service pour espérer avoir une table.\n• Le 'Tong Guan Mo', un pain chinois croustillant farci à la viande mijotée, est idéal pour éponger les sauces pimentées.\n• Les 'Liang Pi', pâtes de blé servies froides avec du concombre et une sauce au sésame, sont le secret le mieux gardé de la carte.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "lundi: 12:00 – 14:30, 19:00 – 22:30 | mardi: 12:00 – 14:30, 19:00 – 22:30 | mercredi: 12:00 – 14:30, 19:00 – 22:30 | jeudi: 12:00 – 14:30, 19:00 – 22:30 | vendredi: 12:00 – 22:30 | samedi: 12:00 – 22:30 | dimanche: 12:00 – 22:30",
+  "opening_hours_json": null,
+  "closes_late": false,
+  "has_terrace": true,
+  "reservation_policy": "sans_resa",
+  "michelin_stars": null,
+  "tags": [
+    "new_lot",
+    "pastille_rouge"
+  ],
+  "plat_median_cents": null,
+  "hero_image": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/hero.jpg",
+  "google_photos": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/hero.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_1.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_2.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_3.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/la-taverne-de-zhao/gallery_4.jpg"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [
+    "[AUDIT F.I.P.P OK] La photo montre une belle façade rouge et une terrasse avec des tables métalliques vertes.",
+    "[DOGME PROOF] Ref: GOOGLE_REVIEWS | Citation exacte: \"Les nouilles biang biang sont incroyables\"",
+    "[AUDIT F.I.P.P OK] La photo montre une belle façade rouge et une terrasse avec des tables métalliques vertes.",
+    "[DOGME PROOF] Ref: GOOGLE_REVIEWS | Citation exacte: \"Les nouilles biang biang sont incroyables\""
+  ],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-06T12:09:06.810315+00:00",
+  "updated_at": "2026-05-23T19:52:51.767934+00:00",
+  "mood_engine_version": "v1",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/la-taverne-de-zhao/zczczvzrvrzv.pdf\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}
+{
+  "id": "9323597e-667b-4571-bd47-c12eec94da4e",
+  "slug": "le-bistrot-des-campagnes-paris-14",
+  "name": "Le Bistrot des Campagnes",
+  "category": "restaurant",
+  "subcategories": [
+    "bistrot",
+    "francaise"
+  ],
+  "dominant_mood": "chill",
+  "address": "6 Rue Léopold Robert, 75014 Paris, France",
+  "arrondissement": 14,
+  "lat": 48.8409963,
+  "lng": 2.3307099,
+  "nearest_metro": "Vavin",
+  "metro_lines": [
+    "4"
+  ],
+  "google_id": "ChIJodz_tshx5kcRUayAaJCnP2A",
+  "google_rating": 4.5,
+  "google_reviews_count": 790,
+  "description": "Des étagères chargées de livres anciens recouvrent les murs de briques de cette adresse de la rue Léopold Robert. Au Bistrot des Campagnes, les tables en chêne sombre et les chaises au bois patiné accueillent une cuisine de terroir rustique. Sous une lumière douce qui met en valeur le sol en tomettes et les barres de laiton du comptoir, le tintement discret des verres à pied accompagne les repas. Lodeur du bœuf bourguignon mijoté et du confit de canard séchappe de la cuisine ouverte, offrant un moment serein à lécart des grands boulevards.",
+  "insider_tip": "• Réservez une table près de la bibliothèque pour profiter dun coin particulièrement tranquille.\n• Goutez au pâté de campagne maison, servi à la bonne franquette avec des cornichons croquants.\n• La carte met en avant les vins de vignerons indépendants, parfaits pour accompagner les viandes.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "Monday: 12:00 – 2:30 PM, 6:30 – 11:30 PM | Tuesday: 12:00 – 2:30 PM, 6:30 – 11:30 PM | Wednesday: 12:00 – 2:30 PM, 6:30 – 11:30 PM | Thursday: 12:00 – 2:30 PM, 6:30 – 11:30 PM | Friday: 12:00 – 2:30 PM, 6:30 – 11:30 PM | Saturday: 6:30 – 11:30 PM | Sunday: Closed",
+  "opening_hours_json": null,
+  "closes_late": false,
+  "has_terrace": false,
+  "reservation_policy": "resa_conseillee",
+  "michelin_stars": null,
+  "tags": [
+    "new_lot"
+  ],
+  "plat_median_cents": null,
+  "hero_image": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/hero.jpg",
+  "google_photos": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/hero.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_1.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_2.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_3.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-des-campagnes-paris-14/gallery_4.jpg"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-06T12:09:06.135794+00:00",
+  "updated_at": "2026-05-23T19:56:32.27369+00:00",
+  "mood_engine_version": "v1",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.40.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.44.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.53.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.54.59.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.02.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.44.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.53.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-des-campagnes-paris-14/Capture_d_e_cran_2026-05-23_a__21.55.59.png\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}
+{
+  "id": "e86ce068-c062-4d7b-93b3-9782aed9b9aa",
+  "slug": "le-bistrot-du-dome-paris-14",
+  "name": "Le Bistrot du Dôme",
+  "category": "restaurant",
+  "subcategories": [
+    "Poissons et Crustacés",
+    "Institution"
+  ],
+  "dominant_mood": "chill",
+  "address": "1 Rue Delambre, 75014 Paris, France",
+  "arrondissement": 14,
+  "lat": 48.8417221,
+  "lng": 2.329005,
+  "nearest_metro": "Vavin",
+  "metro_lines": [
+    "4"
+  ],
+  "google_id": "ChIJQ0M91s5x5kcRIxMlRQkwoqU",
+  "google_rating": 4.5,
+  "google_reviews_count": 488,
+  "description": "L'annexe marine du célèbre Dôme, offrant une expérience centrée sur la fraîcheur absolue des produits de la mer. Le Bistrot du Dôme propose des arrivages quotidiens : poissons nobles grillés à la plancha, coquillages charnus et soupes de poissons d'une grande intensité. L'atmosphère y est celle d'une brasserie chic et lumineuse, où le service à l'ancienne apporte une touche de solennité bienvenue.",
+  "insider_tip": "• Le bar grillé au sel marin est une spécialité maison qui sublime la finesse du poisson sauvage.\n• La terrasse sous le grand auvent jaune est l'une des plus agréables du quartier pour observer l'animation de Montparnasse.\n• La sélection de vins blancs de Loire est spécifiquement pensée pour accompagner les plateaux d'iode.",
+  "on_mange_quoi_ici": null,
+  "opening_hours_raw": "Monday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Tuesday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Wednesday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Thursday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Friday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Saturday: 12:00 – 2:15 PM, 7:00 – 10:30 PM | Sunday: 12:00 – 2:15 PM, 7:00 – 10:30 PM",
+  "opening_hours_json": null,
+  "closes_late": false,
+  "has_terrace": true,
+  "reservation_policy": "resa_conseillee",
+  "michelin_stars": null,
+  "tags": [
+    "new_lot"
+  ],
+  "plat_median_cents": null,
+  "hero_image": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/hero.jpg",
+  "google_photos": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/hero.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/gallery_1.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/gallery_2.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/gallery_3.jpg",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/le-bistrot-du-dome-paris-14/gallery_4.jpg"
+  ],
+  "is_verified": false,
+  "is_closed": false,
+  "internal_audit_logs": [],
+  "status": "SCAFFOLDED",
+  "created_at": "2026-05-06T12:09:06.540286+00:00",
+  "updated_at": "2026-05-23T19:57:18.782687+00:00",
+  "mood_engine_version": "v1",
+  "Url_Photos_Menu": "[\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-du-dome-paris-14/Capture_d_e_cran_2026-05-23_a__21.56.50.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-du-dome-paris-14/Capture_d_e_cran_2026-05-23_a__21.56.53.png\",\"https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/le-bistrot-du-dome-paris-14/Capture_d_e_cran_2026-05-23_a__21.56.56.png\"]",
+  "pint_price_cents": null,
+  "cocktail_price_cents": null,
+  "coffee_price_cents": null,
+  "wine_glass_cents": null,
+  "menu_verified_at": null
+}

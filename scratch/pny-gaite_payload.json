@@ -1,0 +1,172 @@
+{
+  "on_mange_quoi_ici": "Cuisine de rue. Vintage Cheeseburger & Sunday BBQ burger.",
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "plat_median_cents": 1390,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "À Partager",
+      "items": [
+        {
+          "name": "Jalapeño Poppers (x6)",
+          "price_cents": 750,
+          "description": "Boules de fromage frites avec une pointe de piment jalapeño",
+          "is_highlight": false
+        },
+        {
+          "name": "Fresh Avocado & Chips",
+          "price_cents": 690,
+          "description": "Chips de tortillas de maïs croustillantes, guacamole maison aux piments",
+          "is_highlight": false
+        },
+        {
+          "name": "Onion Rings (x6)",
+          "price_cents": 550,
+          "description": "Rondelles d'oignons frites faites minute, sauce Sunday BBQ",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Burgers",
+      "items": [
+        {
+          "name": "Vintage Cheeseburger",
+          "price_cents": 1190,
+          "description": "Bœuf PNY, cheddar affiné, ketchup, moutarde, pickles, salade iceberg, oignon rouge",
+          "is_highlight": true
+        },
+        {
+          "name": "Jucy Lucy",
+          "price_cents": 1490,
+          "description": "Steak PNY fourré au cheddar coulant, sauce Minneapolis, oignons grillés et pickles",
+          "is_highlight": true
+        },
+        {
+          "name": "Crispy Burger",
+          "price_cents": 1350,
+          "description": "Poulet frit mariné au gingembre, cheddar affiné, mayonnaise au paprika",
+          "is_highlight": false
+        },
+        {
+          "name": "The Return of the Cowboy",
+          "price_cents": 1450,
+          "description": "Bœuf PNY, cheddar affiné, onion ring, bacon fumé, oignons caramélisés, sauce Sunday BBQ",
+          "is_highlight": true
+        },
+        {
+          "name": "Tribute",
+          "price_cents": 1390,
+          "description": "Bun sésame, bœuf PNY, American cheese, cheddar affiné, sauce maison, oignons, pickles, salade iceberg",
+          "is_highlight": false
+        },
+        {
+          "name": "Morning California",
+          "price_cents": 1450,
+          "description": "Bœuf PNY, cheddar affiné, guacamole maison, mayonnaise sriracha, salade iceberg",
+          "is_highlight": false
+        },
+        {
+          "name": "Smoky Blue",
+          "price_cents": 1390,
+          "description": "Bœuf PNY, fromage Blue Stilton, bacon croustillant, salade iceberg, oignons caramélisés",
+          "is_highlight": false
+        },
+        {
+          "name": "Atomic Veggie",
+          "price_cents": 1350,
+          "description": "Champignon Portobello pané au panko, cheddar affiné, sauce secrète PNY, oignon rouge, salade iceberg",
+          "is_highlight": false
+        },
+        {
+          "name": "Vegan Nirvana",
+          "price_cents": 1390,
+          "description": "Steak végétal Redefine Meat, bun vegan, cheddar vegan, ketchup, moutarde, salade iceberg, oignon rouge, pickles",
+          "is_highlight": false
+        },
+        {
+          "name": "XXL Tribute",
+          "price_cents": 1980,
+          "description": "Bun sésame, bœuf PNY de 250g, American cheese, cheddar affiné, oignons, pickles, sauce maison, salade iceberg",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "French Fries",
+          "price_cents": 490,
+          "description": "Frites shoestring faites maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Sweet Potatoes",
+          "price_cents": 590,
+          "description": "Frites de patate douce shoestring faites maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Reloaded Fries",
+          "price_cents": 650,
+          "description": "Frites maison nappées de cheddar fondu affiné 18 mois, sauce Minneapolis, oignons grillés",
+          "is_highlight": true
+        },
+        {
+          "name": "Loaded Fries",
+          "price_cents": 690,
+          "description": "Frites maison nappées de cheddar fondu affiné 18 mois, éclats de bacon croustillant",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Cookie Skillet",
+          "price_cents": 950,
+          "description": "Cookie aux pépites de chocolat chaud et peanuts grillées, servi dans sa poêle avec glace vanille",
+          "is_highlight": true
+        },
+        {
+          "name": "Le Cheesecake",
+          "price_cents": 890,
+          "description": "Servi avec un coulis de fruits rouges",
+          "is_highlight": false
+        },
+        {
+          "name": "Crumble à la Mode",
+          "price_cents": 890,
+          "description": "Pommes tendres à la cannelle, servi chaud avec glace vanille artisanale",
+          "is_highlight": false
+        },
+        {
+          "name": "Blackout Chocolate Cake",
+          "price_cents": 750,
+          "description": "Gâteau au chocolat maison, pépites de chocolat, sauce chocolat et chantilly",
+          "is_highlight": false
+        },
+        {
+          "name": "Giant Devil Profiterole",
+          "price_cents": 1250,
+          "description": "Chou géant maison, crème fouettée, chocolat fondu, glace vanille artisanale (pour deux)",
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.13.58.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.03.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.07.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/pny-gaite/Capture_d_e_cran_2026-05-24_a__15.14.10.png"
+  ]
+}

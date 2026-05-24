@@ -1,0 +1,133 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Tonkutsu ramen & Tori shoyu ramen.",
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 2000,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Gyoza poulet (6p)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Gyoza légumes (6p)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Ebi Fry (crevettes panées 3p)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Poulet Crispy (filet de poulet frit 5p)",
+          "price_cents": 1100,
+          "is_highlight": true
+        },
+        {
+          "name": "Gua bao au poulet",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Gua bao crevette",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Gua bao vegan (aubergine chinoise gratinée)",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Takoyaki au poulpe (6p)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Edamame",
+          "price_cents": 500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Nos Ramens",
+      "items": [
+        {
+          "name": "Tonkutsu ramen (bouillon porc mijoté 12h)",
+          "price_cents": 1500,
+          "is_highlight": true
+        },
+        {
+          "name": "Tori Shoyu ramen (bouillon poulet)",
+          "price_cents": 1600,
+          "is_highlight": true
+        },
+        {
+          "name": "Tori Shio ramen (bouillon poulet)",
+          "price_cents": 1600,
+          "is_highlight": false
+        },
+        {
+          "name": "Pai tan Aka ramen (bouillon porc)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Pai tan Kuro ramen (bouillon porc)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Vegan ramen (bouillon lait de soja)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Aka poulet teriyaki ramen",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Kuro poulet teriyaki ramen",
+          "price_cents": 2200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Daifuku Mochi (sésame noir / fraise / thé vert / yuzu)",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Pancake fourré (haricot rouge / yuzu / thé vert)",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Dango Hanami (3 couleurs, 2 brochettes)",
+          "price_cents": 300,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ramen-wang-take-away-ramen/Capture_d_e_cran_2026-05-24_a__15.16.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ramen-wang-take-away-ramen/Capture_d_e_cran_2026-05-24_a__15.16.10.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ramen-wang-take-away-ramen/Capture_d_e_cran_2026-05-24_a__15.16.15.png"
+  ]
+}

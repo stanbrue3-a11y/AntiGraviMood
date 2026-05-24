@@ -20,6 +20,32 @@ export class TimeMapper {
     let parsedHours: { display?: string; standard?: string; detailed?: string } = {};
     let rawDisplayFallback = '';
 
+    if (hoursJson) {
+      const lower = hoursJson.toLowerCase();
+      const isClosedPerm = lower.includes('définitivement fermé') || lower.includes('permanent');
+      const isClosedTemp = lower.includes('fermé temporairement') || lower.includes('temporaire');
+
+      if (isClosedPerm) {
+        return {
+          state: 'closed',
+          label: 'Fermé',
+          color: palette.error,
+          time_display: 'Définitivement fermé',
+          details: [{ text: 'Définitivement fermé', isToday: true }],
+        };
+      }
+
+      if (isClosedTemp) {
+        return {
+          state: 'closed',
+          label: 'Fermé',
+          color: palette.warning,
+          time_display: 'Fermé temporairement',
+          details: [{ text: 'Fermé temporairement', isToday: true }],
+        };
+      }
+    }
+
     try {
       if (hoursJson) {
         if (hoursJson.trim().startsWith('{')) {
@@ -53,7 +79,7 @@ export class TimeMapper {
     const todayFrShort = todayFr.substring(0, 3);
     const currentHour = now.getHours() + now.getMinutes() / 60;
 
-    if (standard && standard !== 'Non renseigné') {
+    if (standard && standard !== 'Non renseigné' && /\d/.test(standard)) {
       // Split by comma, pipe, or newline
       const allLines = standard
         .split(/[|,\n]/)

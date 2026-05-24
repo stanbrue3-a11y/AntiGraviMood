@@ -11,19 +11,20 @@ const supabase = createClient(
 async function check() {
   const { data, error } = await supabase
     .from('places')
-    .select('name, slug, status, Url_Photos_Menu')
+    .select('name, slug, status, Url_Photos_Menu, updated_at')
+    .eq('arrondissement', 14)
     .eq('status', 'SCAFFOLDED');
 
   if (error) {
-    console.error('Error fetching places:', error);
+    console.error('Error:', error);
     return;
   }
 
-  console.log(`Checking scaffolded places:`);
-  data.forEach((p) => {
-    if (p.Url_Photos_Menu && p.Url_Photos_Menu !== "") {
-      console.log(`- ${p.name} (${p.slug}) | Url_Photos_Menu:`, JSON.stringify(p.Url_Photos_Menu));
-    }
+  console.log(`Found ${data.length} scaffolded places in 14th:`);
+  data.forEach(p => {
+    console.log(`- ${p.name} (${p.slug})`);
+    console.log(`  Updated At: ${p.updated_at}`);
+    console.log(`  Menus: ${p.Url_Photos_Menu}`);
   });
 }
 

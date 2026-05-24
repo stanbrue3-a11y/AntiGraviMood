@@ -1,0 +1,284 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Cassoulet artisanal & Confit de canard maison.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-tontons/Capture_d_e_cran_2026-05-24_a__13.58.22.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-tontons/Capture_d_e_cran_2026-05-24_a__13.58.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-tontons/Capture_d_e_cran_2026-05-24_a__13.58.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-tontons/Capture_d_e_cran_2026-05-24_a__13.58.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-tontons/Capture_d_e_cran_2026-05-24_a__13.58.49.png"
+  ],
+  "pint_price": 6.9,
+  "cocktail_price": null,
+  "coffee_price": 2,
+  "wine_glass": 4.2,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Escargots x6",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe à l'oignon gratinée",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de serrano",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de campagne",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade chevre chaud et magret fumé",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade d'écrevisses et crevettes marinées",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de charcuterie (1 pers)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de charcuterie (2 pers)",
+          "price_cents": 1390,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats, Burgers & Salades",
+      "items": [
+        {
+          "name": "Penne aux écrevisses",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Penne à la Provençale gratinées",
+          "price_cents": 1350,
+          "is_highlight": false
+        },
+        {
+          "name": "Cassoulet artisanal",
+          "price_cents": 1850,
+          "is_highlight": true
+        },
+        {
+          "name": "Confit de canard maison, pommes sarladaises",
+          "price_cents": 1690,
+          "is_highlight": true
+        },
+        {
+          "name": "Quiche maison salade",
+          "price_cents": 1550,
+          "is_highlight": false
+        },
+        {
+          "name": "Travers de porc sauce miel",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Steak de magret, sauce aux cèpes",
+          "price_cents": 1790,
+          "is_highlight": false
+        },
+        {
+          "name": "Magret façon Rossini",
+          "price_cents": 2090,
+          "is_highlight": false
+        },
+        {
+          "name": "Magret sauce au miel",
+          "price_cents": 1790,
+          "is_highlight": false
+        },
+        {
+          "name": "Pièce du boucher du chef",
+          "price_cents": 1790,
+          "is_highlight": false
+        },
+        {
+          "name": "Filet de poulet, crème Normande",
+          "price_cents": 1590,
+          "is_highlight": false
+        },
+        {
+          "name": "Pavé de saumon à l'oseille",
+          "price_cents": 1790,
+          "is_highlight": false
+        },
+        {
+          "name": "Souris d'agneau avec purée maison",
+          "price_cents": 1990,
+          "is_highlight": false
+        },
+        {
+          "name": "Entrecôte 300g, frites, salade",
+          "price_cents": 2290,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Burger Tradi (au cheddar)",
+          "price_cents": 1550,
+          "is_highlight": false
+        },
+        {
+          "name": "L'Auverpin (au cantal)",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Josébeauburger (au roquefort)",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Burger foie gras",
+          "price_cents": 2150,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Bacon Burger (au cheddar)",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Le Burger végétarien",
+          "price_cents": 1550,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Parisienne",
+          "price_cents": 1450,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Bergère",
+          "price_cents": 1750,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Océane",
+          "price_cents": 1750,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade des Tontons",
+          "price_cents": 1890,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette des Tontons",
+          "price_cents": 1750,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Café gourmand",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Panacotta coulis de fruits rouges",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème brûlée",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Mousse au chocolat",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu maison",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de fromage",
+          "price_cents": 850,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Coca Cola (33cl)",
+          "price_cents": 350,
+          "is_highlight": false
+        },
+        {
+          "name": "Schweppes (33cl)",
+          "price_cents": 290,
+          "is_highlight": false
+        },
+        {
+          "name": "Perrier (33cl)",
+          "price_cents": 290,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Pinte Météor (50cl)",
+          "price_cents": 690,
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte Carlsberg (50cl)",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin (12cl)",
+          "price_cents": 420,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Apéro Gourmand",
+          "price_cents": 1590,
+          "description": "Foie gras, saucisse sèche, terrine et confit d'oignons",
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1750
+}

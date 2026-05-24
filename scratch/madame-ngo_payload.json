@@ -1,0 +1,182 @@
+{
+  "on_mange_quoi_ici": "Cuisine vietnamienne. Bo Bun & Canard grillé à la sauce tamarin.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.00.27.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.00.32.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.14.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.22.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/madame-ngo/Capture_d_e_cran_2026-05-24_a__14.01.33.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Salade de mangue au Tofu",
+          "price_cents": 890,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de mangue aux Crevettes",
+          "price_cents": 1090,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe au lait de coco (Tofu)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Crepe de lune croustillante",
+          "price_cents": 1090,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh Xep",
+          "price_cents": 990,
+          "description": "Paté chaud vietnamien, taro, champignon noir, crevettes",
+          "is_highlight": false
+        },
+        {
+          "name": "Nems au porc ou poulet (4 pcs)",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Wow Poulet",
+          "price_cents": 990,
+          "description": "Poulet frit croustillant, cheddar, mayonnaise épicée",
+          "is_highlight": false
+        },
+        {
+          "name": "Raviolis frits aux crevettes",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Bo Bun Tofu",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Bo Bun Poulet ou Boeuf",
+          "price_cents": 1750,
+          "is_highlight": true
+        },
+        {
+          "name": "Bo Bun Crevettes",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Canard grillé sauce tamarin",
+          "price_cents": 2000,
+          "is_highlight": true
+        },
+        {
+          "name": "Poulet fermier sauce gingembre",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Porc caramélisé aux cinq épices",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz sauté royal aux trois trésors",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi Xao Tofu",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi Xao Poulet / Boeuf",
+          "price_cents": 1750,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi Xao Poulet pané",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Mi Xao Crevettes / Canard",
+          "price_cents": 2050,
+          "is_highlight": false
+        },
+        {
+          "name": "Curry Rouge Tofu",
+          "price_cents": 1550,
+          "is_highlight": false
+        },
+        {
+          "name": "Curry Rouge Poulet",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Curry Rouge Boeuf",
+          "price_cents": 1750,
+          "is_highlight": false
+        },
+        {
+          "name": "Curry Rouge Crevettes",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Curry Rouge Canard",
+          "price_cents": 2050,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Perles de tapioca à la mangue",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh Da Lon",
+          "price_cents": 800,
+          "description": "Gâteau de pandan, taro et riz vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Perles de coco au gingembre",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu au Matcha",
+          "price_cents": 800,
+          "is_highlight": true
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1800
+}

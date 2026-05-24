@@ -1,0 +1,272 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Pizza Margherita & Piadina romagnola.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/oggi/Capture_d_e_cran_2026-05-24_a__14.22.15.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/oggi/Capture_d_e_cran_2026-05-24_a__14.22.21.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Antipasti",
+      "items": [
+        {
+          "name": "Antipasti mozzarella",
+          "price_cents": 1000,
+          "description": "Assortiment de légumes grillés, mozzarella di bufala campana",
+          "is_highlight": false
+        },
+        {
+          "name": "Antipasti Parm",
+          "price_cents": 1100,
+          "description": "Assortiment de légumes grillés, jambon de Parme",
+          "is_highlight": false
+        },
+        {
+          "name": "Salumi misti",
+          "price_cents": 1000,
+          "description": "Assortiment de charcuteries italiennes (coppa, bresaola...)",
+          "is_highlight": false
+        },
+        {
+          "name": "Mozzarella di bufala campana",
+          "price_cents": 900,
+          "description": "Roquette, tomates cerises",
+          "is_highlight": false
+        },
+        {
+          "name": "Mozzarella burrata pugliese",
+          "price_cents": 1500,
+          "description": "Burrata des Pouilles, roquette, tomates cerises",
+          "is_highlight": true
+        },
+        {
+          "name": "Zucchine e ricotta",
+          "price_cents": 1000,
+          "description": "Courgettes, ricotta, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Parma e mozzarella di bufala campana",
+          "price_cents": 1100,
+          "description": "Jambon de Parme, mozzarella di bufala, roquette, tomates cerises",
+          "is_highlight": false
+        },
+        {
+          "name": "Poivrons marines",
+          "price_cents": 1000,
+          "description": "Poivrons marinés, ricotta, pesto",
+          "is_highlight": false
+        },
+        {
+          "name": "Aubergine parmigiana",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Artichauts au parmesan",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Bresaola",
+          "price_cents": 1200,
+          "description": "Bresaola italienne, roquette, parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Roquette parmesan",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Insalata di tonno",
+          "price_cents": 1500,
+          "description": "Roquette, thon, câpres, parmesan, tomates cerises, olives faggiasca",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Pizze & Piadine",
+      "items": [
+        {
+          "name": "Marinara",
+          "price_cents": 1100,
+          "description": "Sauce tomate, ail, origan",
+          "is_highlight": false
+        },
+        {
+          "name": "Margherita",
+          "price_cents": 1200,
+          "description": "Sauce tomate, mozzarella, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Bufala",
+          "price_cents": 1500,
+          "description": "Sauce tomate, mozzarella di bufala campana, tomates cerises",
+          "is_highlight": false
+        },
+        {
+          "name": "Bufala e parma",
+          "price_cents": 1700,
+          "description": "Sauce tomate, mozzarella di bufala campana, jambon de Parme, tomates cerises",
+          "is_highlight": true
+        },
+        {
+          "name": "Burrata",
+          "price_cents": 1800,
+          "description": "Sauce tomate, mozzarella burrata pugliese, basilic, tomates cerises",
+          "is_highlight": true
+        },
+        {
+          "name": "Ricotta",
+          "price_cents": 1500,
+          "description": "Sauce tomate, mozzarella, ricotta, basilic",
+          "is_highlight": false
+        },
+        {
+          "name": "Regina",
+          "price_cents": 1400,
+          "description": "Sauce tomate, mozzarella, jambon blanc, champignons",
+          "is_highlight": false
+        },
+        {
+          "name": "Napoli",
+          "price_cents": 1300,
+          "description": "Sauce tomate, mozzarella, anchois, olives taggiasca, câpres",
+          "is_highlight": false
+        },
+        {
+          "name": "Stagione con",
+          "price_cents": 1400,
+          "description": "Sauce tomate, mozzarella, jambon blanc, artichaut, champignons, olives taggiasca",
+          "is_highlight": false
+        },
+        {
+          "name": "Parma",
+          "price_cents": 1500,
+          "description": "Sauce tomate, mozzarella, jambon de Parme",
+          "is_highlight": false
+        },
+        {
+          "name": "Formaggi",
+          "price_cents": 1400,
+          "description": "Sauce tomate, mozzarella, pecorino, ricotta, gorgonzola",
+          "is_highlight": false
+        },
+        {
+          "name": "Rustica",
+          "price_cents": 1500,
+          "description": "Sauce tomate, mozzarella, coppa, pecorino",
+          "is_highlight": false
+        },
+        {
+          "name": "Siciliana",
+          "price_cents": 1100,
+          "description": "Sauce tomate, câpres, olives",
+          "is_highlight": false
+        },
+        {
+          "name": "Rucola",
+          "price_cents": 1200,
+          "description": "Sauce tomate, mozzarella, bresaola, roquette, parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Calzone",
+          "price_cents": 1500,
+          "description": "Sauce tomate, mozzarella, jambon blanc, œuf",
+          "is_highlight": false
+        },
+        {
+          "name": "Calabrese",
+          "price_cents": 1400,
+          "description": "Sauce tomate, mozzarella, saucisse piquante",
+          "is_highlight": false
+        },
+        {
+          "name": "Bianca",
+          "price_cents": 1600,
+          "description": "Crème fraîche, mozzarella, jambon de Parme, champignons",
+          "is_highlight": false
+        },
+        {
+          "name": "Cabrera",
+          "price_cents": 1400,
+          "description": "Crème fraîche, mozzarella, thon, oignon rouge",
+          "is_highlight": false
+        },
+        {
+          "name": "Verduri",
+          "price_cents": 1700,
+          "description": "Sauce tomate, courgette, aubergine, poivron",
+          "is_highlight": false
+        },
+        {
+          "name": "Verduri e bufala",
+          "price_cents": 1600,
+          "description": "Sauce tomate, courgette, aubergine, poivron, mozzarella di bufala campana",
+          "is_highlight": false
+        },
+        {
+          "name": "Nordique",
+          "price_cents": 1900,
+          "description": "Crème fraîche, mozzarella, saumon fumé",
+          "is_highlight": false
+        },
+        {
+          "name": "Tartufo",
+          "price_cents": 1500,
+          "description": "Crème fraîche, crème de truffe noire, champignons, roquette, parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Piadina romagnola",
+          "price_cents": 1500,
+          "description": "Pâte finement étirée et refermée, ricotta, jambon de Parme, tomate fraîche, roquette, parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Piadina tartufo",
+          "price_cents": 1800,
+          "description": "Pâte finement étirée et refermée, ricotta, champignons, crème de truffe",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Dolci",
+      "items": [
+        {
+          "name": "Panna cotta",
+          "price_cents": 650,
+          "description": "Coulis de fruits rouges ou caramel",
+          "is_highlight": false
+        },
+        {
+          "name": "Tiramisu della casa",
+          "price_cents": 650,
+          "is_highlight": true
+        },
+        {
+          "name": "Baba au rhum",
+          "price_cents": 650,
+          "is_highlight": false
+        },
+        {
+          "name": "Moelleux au chocolat",
+          "price_cents": 650,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 1500
+}

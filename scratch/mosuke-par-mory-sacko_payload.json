@@ -1,0 +1,35 @@
+{
+  "on_mange_quoi_ici": "Cuisine gastronomique. Menu Migration & Menu Vol de nuit.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mosuke-par-mory-sacko/Capture_d_e_cran_2026-05-24_a__14.20.04.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mosuke-par-mory-sacko/Capture_d_e_cran_2026-05-24_a__14.20.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mosuke-par-mory-sacko/Capture_d_e_cran_2026-05-24_a__14.20.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mosuke-par-mory-sacko/Capture_d_e_cran_2026-05-24_a__14.20.13.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/mosuke-par-mory-sacko/Capture_d_e_cran_2026-05-24_a__14.20.18.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "formula",
+      "display_label": "Menus Dégustation",
+      "items": [
+        {
+          "name": "Menu Migration - Au déjeuner",
+          "price_cents": 14500,
+          "description": "Service en 15 séquences mariant les influences africaines, japonaises et françaises. Déclinable en version végétarienne. Proposé au déjeuner de 12h à 14h.",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Vol de nuit - Au dîner",
+          "price_cents": 25500,
+          "description": "Service en 25 séquences mariant les influences africaines, japonaises et françaises. Déclinable en version végétarienne. Proposé au dîner de 19h à 21h45.",
+          "is_highlight": true
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": null
+}

@@ -1,0 +1,335 @@
+=== File: menu_0.png ===
+IN
+Madame Ngo
+Photo - déc. 2025
+SALADE DE MANGUE
+(Mango salad)
+Mangue,
+concombre, carotte, herbes,
+cacahuete, sauce citron vert / Mango,
+cucumber, carrot, herbs, peanuts,
+lime sauce
+Tofu / Tofu
+Crevettes / Shrimps
+8,9
+10,9
+SOUPE AU LAIT DE COCO
+(Coconut milk soup)
+Légumes,
+lait de coco, citronnelle /
+Vegetables, coconut milk, Lemongrass
+Tofu / Tofu
+Poulet / chichen
+Crevettes / Shrimps
+10
+CREPE DE LUNE AU POISSON ET
+CREVETTE CROUSTILLANTE
+Shrimp and fish Moon Crepe
+Crevettes, poisson, farine de riz et
+de blé,
+lait de coco, patate blanche,
+oignon, champignon, ciboulette, ail /
+Shrimp, fish, rice and wheat flour,
+coconut milk, white potato, onion,
+mushroom, chives, garlic
+10, 9
+BANH XEP (Paté chaud vietnamien)
+Farine de blé, taro, champignon noir,
+crevettes, huile végétale raffinée, huile de
+sésame, épices / Wheat flour, taro,
+black fungus,
+shrimp, refined vegetable oil,
+sesame oil, spices
+9,9
+Goodle Mans
+
+=== File: menu_1.png ===
+Madame Ngo
+Photo - déc. 2025
+BOBUN (Bo-Bun)
+Vermicelles de riz, salade, herbes, cacahuète, oignons frits, Nuoc-Mam, nems /
+Vermicelli, salad, herbs, peanut, fried onions, fish sauce, fried rolls
+Tofu / Tofu
+Poulet ou boeuf / Chicken or beef
+Crevettes / Shrimps
+16,5
+17,5
+18,5
+CANARD GRILLÉ À LA
+SAUCE TAMARIN
+(Grilled duck with tamarind sauce)
+Canard mariné et grillé à la sauce tamarin,
+pak - choi, poivron, basilic frit, poivre,
+servi avec du riz /
+Narinated and grilled duch with tamarind
+sauce, pah choi, pepper, fried basil,
+pepper, served with rice
+20
+POULET FERMIER SAUCE ÉCHALOTTE ET GINGEMBRE
+(Chicken with shallot sauce)
+Poulet poêlé, sauce échalotte, ciboulette, ail, gingembre, servi avec du riz /
+Pan-fried chicken, shallot sauce, chives, garlic, ginger, served with
+19
+PORC CARAMÉLISÉ AUX
+CINQ ÉPICES
+(Caramelized porc with five spices)
+Porc, cinq épices, Nuoc-Mam, échalotte,
+poivre, ail, poivron, ciboulette,
+servi avec du riz /
+Porh, five spices,
+Nuoc-Mam, shallot,
+pepper, garlic, bell pepper, chives,
+served with rice
+18,5
+Google Maps
+
+=== File: menu_2.png ===
+IN
+HADEHE HOS
+Madame Ngo
+Photo - déc. 2025
+VINS ROUGES / RED WINES
+Bourgueil AOP
+Prestige et Tradition
+Brouilly AOP
+Château des Tours
+37,5 cl 15
+37,5 cl 17
+70 cl 24
+70 cl
+28
+Bourgogne Cote Chalonnaise AOP
+Pinot Noir Millebuis
+37,5 cl 19
+70 cl 33
+Saint Emilion Grand Cru AOP
+Château Bellerose
+37,5 cl
+21
+70 cl 38
+VINS BLANCS / WHiTE WINES
+Bourgogne Côtes Chalonnaise AOP
+Chardonnay Millebuis
+37,5 cl 15
+Pouilly Fumé AOP
+Pascal Jolivet
+37,5 cl 24
+70 cl
+28
+70 cl 44
+VINS ROSÉS / ROSÉ WiNES
+Côtes de Provence AOP
+Presqu'ile de Minuty
+37,5 cl 15
+70 cl
+15
+Bandol AOP
+Château de Fontvive
+,5 cl
+>8
+Google Maps
+70 cl 15
+
+=== File: menu_3.png ===
+M
+Madame Ngo
+Photo - déc. 2025
+PLAT /
+MAiN COURSES
+MI XAO
+(Stir fried noodles)
+Nouilles sautées aux cing Légumes, oignon,
+œuf au plat,
+oignon frit,
+coriandre / Stir fried rice noodles with vegetables, onions, fried egg,
+fried onions, coriander
+Tofu / Tofu
+Poulet / Chicken
+boeuf / beef
+Poulet pane / Breaded chicken
+Crevettes / Shrimps
+Canard frit / Fried duck
+16,5
+17,5
+17,5
+18,5
+20,5
+CURRY ROUGE
+(Red curry)
+Curry rouge au lait de coco,
+citronnelle, cing légumes,
+salade, cacahuètes /
+Red curry with coconut milk,
+Lemongrass, vegetables, salad,
+peanuts
+Tofu / Tofu
+Poulet / Chicken
+boeuf / beef
+Poulet pane / Breaded chicken
+Crevettes / Shrimps
+Canard frit / Fried duck!
+15,5
+16,5
+17,5
+17,5
+18,5
+20,5
+Google Maps
+
+=== File: menu_4.png ===
+Madame Ngo
+Photo - déc. 2025
+BIERES / BEERS
+SAIGON BEER
+33cls 7
+BOISSONS FRAÏCHES /
+SOFTDRiNKS
+EVIAN
+50cls 4,9
+COCA COLA
+50cls 4,9
+SAN PELLEGRINO
+50cls 4,9
+COCA ZÉRO
+50cls 4,9
+BOISSONS CHAUDES /
+HOTDRiNKS
+THÉ AU RIZ GRILLÉ
+Green tea with grilled rice
+6
+THÉ AU GINGEMBRE
+Ginger tea
+6
+THÉ AU JASMIN
+Jasmin tea
+6
+
+=== File: menu_5.png ===
+Madame Ngo
+Photo - déc. 2025
+ENTRÉES /
+APPETiZERS
+NEMS AU PORC OU AU POULET (4 pcs)
+(Pork or chicken spring rolls)
+Galettes de riz, porc ou poulet,
+Légumes mixtes, épices / Rice paper, pork
+or chicken, mixed vegetables, spices
+9
+WOW POULET (wow chicken)
+Poulet frit croustillant, poudre de
+cheddar, mayonnaise épicée, sésame /
+Crispy fried chicken, cheddar powder,
+spicy mayonnaise,
+sesame
+9,9
+RAVIOLIS FRITS AUX CREVETTES
+(Fried shrimp dumplings)
+Crevettes, légumes mixtes,
+herbes,
+sauce citron jaune / Mixed vegetables,
+shrimp, herbs, lime sauce
+10
+Google Maps
+
+=== File: menu_6.png ===
+Madame Ngo
+Photo - déc. 2025
+DESSERTS
+PERLES DE TAPIOCA À LA MANGUE •
+(Mango pandan pearl)
+8
+BANH DA LON O
+Gâteau de pandan, taro et riz vert /
+Pandan Taro and Green Rice cake
+8
+PERLES DE COCO ET JUS DE GINGEMBRE O-
+(Ginger-infused coconut pearls)
+8
+TIRAMISU AU MATCHA
+(Matcha Tiramisu)
+8
+
+=== File: menu_7.png ===
+Madame Ngo
+Photo - déc. 2025
+RIZ SAUTÉ ROYAL AUX TROIS TRÉSORS
+(Royal fried rice with three treasures)
+Riz, poulet, boeuf, crevette, mais, ananas, carotte,
+œuf, oignon frit /
+Rice, chichen, beef, shrimp, corn, pineapple, carrots,
+egg, fried onions
+18,5
+
+=== File: menu_8.png ===
+Madame Ngo
+A B
+Photo - janv. 2026
+ENTRÉES /
+APPETIZERS
+MERE NO PORC OU AU POULET (4 DES) O
+9,9
+OO0O0
+RAVIOLES FRITS AUX CREVETTES O
+patter
+000U
+10
+CREPE DE LUNE AU POISSON ET
+CREVETTE CROUSTILLANTE O-
+00900
+Tabicau de correspondance des Allergènes
+Crovettes
+SOUPE AU LAST, DE COCO O
+Tofu 7 on
+Poutet / mur
+Crevettes / wi
+SANY XEP O
+18,9
+COURTS PHO O
+17,5
+KIRTNANIENNE
+POULED FERYTER SAUCE ECHALOTTE ET GINGEMBRE O
+SALADE D'ÉPINAKOS AUX
+CREVETTES CADUSTILLANTES O
+000
+000U0S
+CANARD GRILEE A
+0O0
+19
+MI XAO O-
+O0OG
+Тоты / Ton
+Poulet / chicken:
+bonut. / heer
+Poulet pane Y bestet once
+Crevettes. / shethe
+Canard frit I me Luca
+16,5
+17,5
+27,5
+18
+1,5
+20,5
+- 10,5
+PLAT / MAiN COURSES
+CURRY ROUGE
+PORC CARANELISE AUX
+CINO ÉPICES
+Mung Nam,
+berl pepper, chives,
+0O0
+18,5
+Tofu / Ju
+Paulet /W
+boeuf / bert
+Crivettea /
+Canard frit / Terri sul
+16,5
+17,5
+17,5
+28,5
+28
+Cood Mone
+RIZ SAUTÉ ROYAL AUX TROIS TRÉSORS O
+with three transites)
+00
+10,5

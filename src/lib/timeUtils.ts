@@ -98,6 +98,7 @@ export class OpeningHours {
  * Checks if the current time falls within a given range.
  */
 export const isTimeInRange = (range: string, targetHour?: number): boolean => {
+  if (range.toLowerCase().includes('fermé') || range.toLowerCase().includes('closed')) return false;
   const oh = new OpeningHours(range);
   const now = new Date();
   const currentHour =
@@ -204,6 +205,7 @@ export const isHappyHourActive = (
 export const isOpenDuring = (place: Place, range: { start: number; end: number }): boolean => {
   const raw = place.opening_hours?.standard;
   if (!raw || raw === 'Non renseigné') return true;
+  if (raw.toLowerCase().includes('fermé') || raw.toLowerCase().includes('closed')) return false;
 
   const oh = new OpeningHours(raw);
   return oh.overlaps(range.start, range.end);
@@ -216,6 +218,7 @@ export const isOpenDuring = (place: Place, range: { start: number; end: number }
 export const isOpenNow = (place: Place): boolean => {
   const raw = place.opening_hours?.standard;
   if (!raw || raw === 'Non renseigné') return true;
+  if (raw.toLowerCase().includes('fermé') || raw.toLowerCase().includes('closed')) return false;
 
   const now = new Date();
   const currentHour = now.getHours() + now.getMinutes() / 60;

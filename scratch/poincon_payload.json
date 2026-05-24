@@ -1,0 +1,152 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Rumsteck d'agneau & Focaccia à l'ail noir.",
+  "pint_price": 7.5,
+  "cocktail_price": 12,
+  "coffee_price": 2.3,
+  "wine_glass": 6,
+  "plat_median_cents": 2400,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Tapas & Entrées",
+      "items": [
+        {
+          "name": "Houmous de petits pois à la menthe",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Burrata & condiment tomates séchées piquillos et gingembre",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Asperges blanches, condiment rhubarbe, sarrasin croquant",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Focaccia à l'ail noir, thym, ricotta et compotée de pommes",
+          "price_cents": 1100,
+          "is_highlight": true
+        },
+        {
+          "name": "Flan chorizo, maroilles, tomates séchées, jalapenos",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Sardine au chalumeau, poivrons rôtis, gel de basilic",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Raviole ouverte, farce aux légumes, sauce hoisin à l'orange",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Crudo de daurade, fenouil croquant, vinaigrette carotte citron",
+          "price_cents": 1500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Rumsteck d'agneau, jus aux épices, pois chiches grillés, carottes glacées",
+          "price_cents": 2600,
+          "is_highlight": true
+        },
+        {
+          "name": "Filet d'omble chevalier, purée PDT épinards, beurre blanc rhubarbe et sauge",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Risotto à la crème de roquefort, fenouil grillé, huile d'aneth",
+          "price_cents": 2000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Chou Paris Quimper, chantilly tonka, amandes effilées",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Premières fraises, pomelo, lemon curd, sablé breton",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Ossau Iraty 24 mois, confiture de fruits rouges",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Bières & Cidre",
+      "items": [
+        {
+          "name": "Pinte Tuborg pression 50cl",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte 1664 Blanche pression 50cl",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte Brooklyn IPA pression 50cl",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre Extra Brut Appie 33cl",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Formule Midi (Entrée + Plat ou Plat + Dessert)",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Formule Midi (Entrée + Plat + Dessert)",
+          "price_cents": 2600,
+          "is_highlight": false
+        },
+        {
+          "name": "Formule Brunch Adulte (Reservations et concert live)",
+          "price_cents": 3700,
+          "is_highlight": true
+        }
+      ]
+    }
+  ],
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/poincon/05_19_2026_CARTE_SOIR_.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/poincon/05_-_20_2026_CARTE_MIDI.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/poincon/2025-_07_Menu_Brunch.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/poincon/carte_des_vins_Poincon.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/poincon/menu_boisson_Poincon__23_.pdf"
+  ]
+}

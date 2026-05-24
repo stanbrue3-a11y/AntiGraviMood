@@ -1,0 +1,205 @@
+{
+  "on_mange_quoi_ici": "Cuisine de brasserie. Cuisse de canard fermier & Saucisse fraîche de cochon.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/maison-peret/autres-boissons.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/maison-peret/les-vins.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/maison-peret/la-carte.pdf"
+  ],
+  "pint_price": 8.2,
+  "cocktail_price": 12,
+  "coffee_price": 2.9,
+  "wine_glass": 5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Assiette de saucisson d'Auvergne",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Œufs durs mayonnaise",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de pâté de foie",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Filet de harengs J.-C. David",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Chèvre chaud Rocamadour (x2)",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Escargots Géants de Bourgogne (x6)",
+          "price_cents": 1500,
+          "is_highlight": true
+        },
+        {
+          "name": "Foie gras de canard du Gers",
+          "price_cents": 2100,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats & Terroir",
+      "items": [
+        {
+          "name": "Salade Végétale aux légumes tièdes",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Rustique au Bleu d'Auvergne",
+          "price_cents": 1800,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Césarine au poulet fermier",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Labaskar au jambon de Pays",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisson chaud lyonnais pistaché",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisse fraîche de cochon du Perche",
+          "price_cents": 2100,
+          "is_highlight": true
+        },
+        {
+          "name": "Poitrine de cochon fermier de l'Aveyron",
+          "price_cents": 2300,
+          "is_highlight": false
+        },
+        {
+          "name": "Cuisse de canard fermier confite 24h",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Steak haché Aubrac frites",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Burger Cantalou au bacon",
+          "price_cents": 2100,
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de bœuf Aubrac",
+          "price_cents": 2200,
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf Aubrac braisé au Minervois",
+          "price_cents": 2500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "À Partager",
+      "items": [
+        {
+          "name": "L’Ardoise de Saint-Urcize (Charcuteries & Fromages)",
+          "price_cents": 3200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Assortiment de fromages d'Auvergne",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème brûlée à la vanille",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Crumble aux pommes",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Café Gourmand Berthillon",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Dessert du jour",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Crêpes au sucre (x2)",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées & Cocktails",
+      "items": [
+        {
+          "name": "Pinte Tuborg blonde pression (47cl)",
+          "price_cents": 820,
+          "is_highlight": false
+        },
+        {
+          "name": "Pinte Grimbergen blanche (47cl)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Spritz-Aperol",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Pornstar Martini",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Touraine Sauvignon (15cl)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Bourgueil rouge (15cl)",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 2050
+}

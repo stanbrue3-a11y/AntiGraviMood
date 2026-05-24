@@ -58,6 +58,22 @@ describe('TimeMapper', () => {
       const result = TimeMapper.mapOpeningView(null, mockPlace);
       expect(result.state).toBe('closed');
     });
+
+    it('should handle permanently closed string input', () => {
+      const result = TimeMapper.mapOpeningView('Définitivement fermé', mockPlace);
+      expect(result.state).toBe('closed');
+      expect(result.label).toBe('Fermé');
+      expect(result.color).toBe(palette.error);
+      expect(result.time_display).toBe('Définitivement fermé');
+    });
+
+    it('should handle temporarily closed string input', () => {
+      const result = TimeMapper.mapOpeningView('Fermé temporairement', mockPlace);
+      expect(result.state).toBe('closed');
+      expect(result.label).toBe('Fermé');
+      expect(result.color).toBe(palette.warning);
+      expect(result.time_display).toBe('Fermé temporairement');
+    });
   });
 
   describe('mapHappyHourView', () => {

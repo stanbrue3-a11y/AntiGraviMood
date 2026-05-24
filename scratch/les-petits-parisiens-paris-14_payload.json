@@ -1,0 +1,183 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique. Œuf mayonnaise au kasu & Poulpe grillé/laqué.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-petits-parisiens-paris-14/undefined.pdf",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/les-petits-parisiens-paris-14/faefaegf.pdf"
+  ],
+  "pint_price": null,
+  "cocktail_price": 12,
+  "coffee_price": 3.5,
+  "wine_glass": 10,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Œuf mayonnaise au kasu & sapin",
+          "price_cents": 1100,
+          "description": "Finaliste du championnat du monde de l’œuf mayonnaise 2025",
+          "is_highlight": true
+        },
+        {
+          "name": "Asperges vertes de Provence",
+          "price_cents": 1900,
+          "description": "Poutargue & ail des ours & jaune d'oeuf confit",
+          "is_highlight": false
+        },
+        {
+          "name": "Ravioles de Brocciu, noix & noisettes",
+          "price_cents": 1200,
+          "description": "Bouillon de cosses de petits pois, olive/miso",
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi de sériole ikejime marinée",
+          "price_cents": 2100,
+          "description": "Ponzu & condiment d'ail noir",
+          "is_highlight": false
+        },
+        {
+          "name": "Foie gras de canard IGP du Sud-Ouest",
+          "price_cents": 2100,
+          "description": "Condiment passion/café",
+          "is_highlight": false
+        },
+        {
+          "name": "Œuf parfait à la turque",
+          "price_cents": 1100,
+          "description": "Pickles de légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de chou vinaigré",
+          "price_cents": 1100,
+          "description": "Sésame & orange confite",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Poulpe grillé/laqué",
+          "price_cents": 3600,
+          "description": "Cresson, oseille & fraises",
+          "is_highlight": true
+        },
+        {
+          "name": "Maigre de ligne au miso de sureau",
+          "price_cents": 2900,
+          "description": "Poireaux brûlés, nage de céleri",
+          "is_highlight": false
+        },
+        {
+          "name": "Volaille Culoiselle au vin jaune & morilles",
+          "price_cents": 5000,
+          "is_highlight": false
+        },
+        {
+          "name": "Bœuf AOP Fin Gras du Mézenc",
+          "price_cents": 3800,
+          "description": "Sauce cacao & angélique, gratin de PDT à la sauge",
+          "is_highlight": true
+        },
+        {
+          "name": "Pomme de ris de veau",
+          "price_cents": 4900,
+          "description": "Purée fumée, sabayon à la feuille de figue",
+          "is_highlight": false
+        },
+        {
+          "name": "Lieu confit au poivre des cimes",
+          "price_cents": 2100,
+          "description": "Crème de petits pois & légumes de saison",
+          "is_highlight": false
+        },
+        {
+          "name": "Filets de caille",
+          "price_cents": 2100,
+          "description": "Crème d’artichaut, tétragones sautés & champignons eryngii",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Assiette de fromages affinés",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Crémeux aux agrumes",
+          "price_cents": 1400,
+          "description": "Saké & flouve odorante, sorbet mandarine",
+          "is_highlight": false
+        },
+        {
+          "name": "Notre fameux riz au lait à la vanille",
+          "price_cents": 1100,
+          "description": "Fruits à coques, caramel au beurre salé",
+          "is_highlight": true
+        },
+        {
+          "name": "Chocolat 70% Mayan Red",
+          "price_cents": 1500,
+          "description": "Crémeux au thé matcha, framboise pépins",
+          "is_highlight": false
+        },
+        {
+          "name": "Glaces & sorbets maison",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées & Cocktails",
+      "items": [
+        {
+          "name": "Espresso Martini",
+          "price_cents": 1200,
+          "description": "Vodka & liqueur de café",
+          "is_highlight": false
+        },
+        {
+          "name": "Cosmopolitan",
+          "price_cents": 1400,
+          "description": "Vodka, liqueur d’orange, jus de cranberry",
+          "is_highlight": false
+        },
+        {
+          "name": "Meletti Apéritivo Spritz",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin (15cl)",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Menu Dégustation (5 services)",
+          "price_cents": 6900,
+          "description": "Menu en cinq services idéal pour découvrir toute la cuisine du chef",
+          "is_highlight": false
+        }
+      ]
+    }
+  ],
+  "plat_median_cents": 3600
+}
