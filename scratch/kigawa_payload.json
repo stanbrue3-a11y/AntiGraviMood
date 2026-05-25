@@ -13,6 +13,7 @@
   "cocktail_price": null,
   "coffee_price": null,
   "wine_glass": 9,
+  "plat_median_cents": 2600,
   "menu_items": [
     {
       "category_type": "starter",

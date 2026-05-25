@@ -11,6 +11,7 @@
   "cocktail_price": null,
   "coffee_price": null,
   "wine_glass": null,
+  "plat_median_cents": 6800,
   "menu_items": [
     {
       "category_type": "formula",
@@ -30,6 +31,5 @@
         }
       ]
     }
-  ],
-  "plat_median_cents": null
+  ]
 }

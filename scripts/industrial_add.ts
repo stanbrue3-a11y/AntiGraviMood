@@ -124,9 +124,9 @@ async function main() {
       process.exit(1);
     }
 
-    // 🛡️ GARDE-FOU #1 — Note Google ≥ 4.0 (Standard Moelle 2026)
-    if (details.rating !== undefined && details.rating !== null && details.rating < 4.0) {
-      console.error(`🛑 REJET ADN : Note Google ${details.rating} < 4.0 — Lieu non éligible.`);
+    // 🛡️ GARDE-FOU #1 — Note Google ≥ 4.3 (Standard Moelle 2026)
+    if (details.rating !== undefined && details.rating !== null && details.rating < 4.3) {
+      console.error(`🛑 REJET ADN : Note Google ${details.rating} < 4.3 — Lieu non éligible.`);
       console.error(`   👉 Nom : ${candidateName}`);
       process.exit(1);
     }

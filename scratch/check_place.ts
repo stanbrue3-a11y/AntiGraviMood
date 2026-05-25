@@ -8,31 +8,25 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
-const slugs = [
-  'la-creperie-de-josselin',
-  'la-manifattura',
-  'la-petite-soeur',
-  'la-taverne-de-zhao',
-  'le-bistrot-des-campagnes-paris-14',
-  'le-bistrot-du-dome-paris-14'
-];
+async function main() {
+  const slug = process.argv[2];
+  if (!slug) {
+    console.error('Please provide a slug');
+    process.exit(1);
+  }
 
-async function checkPlaces() {
-  const { data, error } = await supabase
+  const { data: p, error } = await supabase
     .from('places')
     .select('*')
-    .in('slug', slugs);
+    .eq('slug', slug)
+    .single();
 
   if (error) {
-    console.error('Error fetching places:', error);
+    console.error('Error fetching place:', error);
     return;
   }
 
-  console.log(`Found ${data?.length || 0} places:`);
-  data?.forEach(p => {
-    console.log(JSON.stringify(p, null, 2));
-  });
+  console.log(JSON.stringify(p, null, 2));
 }
 
-checkPlaces();
-
+main().catch(console.error);
