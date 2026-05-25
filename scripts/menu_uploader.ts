@@ -13,7 +13,7 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
-const PORT = 4500;
+const PORT = 4505;
 
 // Serve static HTML/JS for dashboard
 const HTML_CONTENT = fs.readFileSync(path.join(__dirname, 'menu_uploader.html'), 'utf8');

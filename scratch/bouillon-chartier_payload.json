@@ -1,0 +1,407 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bouillon. Confit de canard aux grenailles & Tête de veau sauce gribiche.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bouillon-chartier/Capture_d_e_cran_2026-05-25_a__21.27.22.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bouillon-chartier/Capture_d_e_cran_2026-05-25_a__21.27.30.png"
+  ],
+  "pint_price": 8,
+  "cocktail_price": 9.5,
+  "coffee_price": 2,
+  "wine_glass": 5.5,
+  "plat_median_cents": 1075,
+  "description": "Dans le brouhaha continu de cette immense salle sous verrière, le ballet des serveurs en gilet noir et tablier blanc rythme le va-et-vient des assiettes de terre de fer. Sous les boiseries sombres et les globes lumineux rétro, le décor en cuivre patiné et miroirs biseautés respire le Paris de la Belle Époque. L'odeur du beurre d'escargot et du bouillon mijoté s'échappe de l'office, tandis que les clients s'attablent sur les banquettes en velours rouge pour commander des classiques à prix serrés, écrits à la craie ou griffonnés sur la nappe en papier.",
+  "insider_tips": [
+    "Arrive tôt, idéalement vers 11h45 pour le déjeuner ou 18h30 pour le dîner, pour éviter la queue sur le boulevard.",
+    "Ne rate pas les profiteroles maison en dessert, servies avec une sauce chocolat chaude nappée à la table.",
+    "Regarde le serveur faire l'addition directement au crayon de papier sur la nappe à la fin du repas."
+  ],
+  "dominant_mood": "culturel",
+  "nearest_metro": "Montparnasse - Bienvenüe",
+  "metro_lines": [
+    "4",
+    "6",
+    "12",
+    "13"
+  ],
+  "has_terrace": false,
+  "reservation_policy": "sans_resa",
+  "subcategories": [
+    "bistrot",
+    "francaise"
+  ],
+  "raw_facts": [
+    "Établissement existant depuis 1896",
+    "Addition faite au crayon sur la nappe"
+  ],
+  "sensory_material": "banquettes en velours rouge et cuivre patiné",
+  "sensory_noise": "brouhaha continu de l'immense salle",
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bouillon-chartier/Capture_d_e_cran_2026-05-25_a__21.27.22.png",
+      "photo_date": "2026-02-14",
+      "raw_date_label": "14 Février 2026"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bouillon-chartier/Capture_d_e_cran_2026-05-25_a__21.27.30.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "25 Mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Les Entrées",
+      "items": [
+        {
+          "name": "Oeuf dur mayonnaise",
+          "price_cents": 200,
+          "is_highlight": true
+        },
+        {
+          "name": "Potage de légumes",
+          "price_cents": 100,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade verte mélangée",
+          "price_cents": 220,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade de lentilles vinaigrette",
+          "price_cents": 250,
+          "is_highlight": false
+        },
+        {
+          "name": "Céleri rémoulade Maison",
+          "price_cents": 270,
+          "is_highlight": false
+        },
+        {
+          "name": "Rosette de Lyon",
+          "price_cents": 310,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de campagne Maison",
+          "price_cents": 370,
+          "is_highlight": false
+        },
+        {
+          "name": "Museau de porc vinaigrette",
+          "price_cents": 380,
+          "is_highlight": false
+        },
+        {
+          "name": "Poireaux vinaigrette",
+          "price_cents": 350,
+          "is_highlight": false
+        },
+        {
+          "name": "Filet de Hareng pommes à l'huile",
+          "price_cents": 390,
+          "is_highlight": false
+        },
+        {
+          "name": "Crevettes roses mayonnaise",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Avocat sauce crevettes",
+          "price_cents": 410,
+          "is_highlight": false
+        },
+        {
+          "name": "Salade frisée aux lardons",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Bloc Foie gras de Canard",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "6 Escargots",
+          "price_cents": 750,
+          "is_highlight": true
+        },
+        {
+          "name": "12 Escargots",
+          "price_cents": 1500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Les Poissons & Plats",
+      "items": [
+        {
+          "name": "Civet de Sanglier façon bourguignonne",
+          "price_cents": 1150,
+          "is_highlight": true
+        },
+        {
+          "name": "Saucisse de Francfort, frites",
+          "price_cents": 1030,
+          "is_highlight": false
+        },
+        {
+          "name": "Spaghetti aux légumes",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Spaghetti à la bolognaise",
+          "price_cents": 850,
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisse de l'Aveyron, purée",
+          "price_cents": 1100,
+          "is_highlight": false
+        },
+        {
+          "name": "Boudin noir, purée",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Langue de bœuf, Sauce Diable, Riz",
+          "price_cents": 980,
+          "is_highlight": false
+        },
+        {
+          "name": "Tête de Veau, Sauce Gribiche",
+          "price_cents": 1150,
+          "is_highlight": true
+        },
+        {
+          "name": "Poulet Fermier Rôti Label Rouge, frites",
+          "price_cents": 1050,
+          "is_highlight": false
+        },
+        {
+          "name": "Choucroute alsacienne",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Andouillette de Troyes, frites sauce moutarde",
+          "price_cents": 1250,
+          "is_highlight": false
+        },
+        {
+          "name": "Confit de Canard, grenailles",
+          "price_cents": 1250,
+          "is_highlight": true
+        },
+        {
+          "name": "Pièce du Boucher Grillée, Beurre MDH, frites",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Pièce du Boucher, Sauce Poivre, frites",
+          "price_cents": 1320,
+          "is_highlight": false
+        },
+        {
+          "name": "Daurade rôtie, Sauce vierge, légumes",
+          "price_cents": 1380,
+          "is_highlight": false
+        },
+        {
+          "name": "Quenelle de brochet sauce crustacés",
+          "price_cents": 1000,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Les Légumes",
+      "items": [
+        {
+          "name": "Frites",
+          "price_cents": 260,
+          "is_highlight": false
+        },
+        {
+          "name": "Purée",
+          "price_cents": 260,
+          "is_highlight": false
+        },
+        {
+          "name": "Haricots verts frais à l'anglaise",
+          "price_cents": 260,
+          "is_highlight": false
+        },
+        {
+          "name": "Pommes Grenailles",
+          "price_cents": 260,
+          "is_highlight": false
+        },
+        {
+          "name": "Champignons à la provençale",
+          "price_cents": 260,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Les Desserts",
+      "items": [
+        {
+          "name": "Camembert",
+          "price_cents": 280,
+          "is_highlight": false
+        },
+        {
+          "name": "Pont l'Évêque",
+          "price_cents": 280,
+          "is_highlight": false
+        },
+        {
+          "name": "Bleu d'Auvergne",
+          "price_cents": 280,
+          "is_highlight": false
+        },
+        {
+          "name": "Rocamadour",
+          "price_cents": 280,
+          "is_highlight": false
+        },
+        {
+          "name": "Fromage blanc de campagne",
+          "price_cents": 190,
+          "is_highlight": false
+        },
+        {
+          "name": "Compote de pommes Maison",
+          "price_cents": 200,
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe de crème chantilly",
+          "price_cents": 270,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz au lait Maison",
+          "price_cents": 280,
+          "is_highlight": false
+        },
+        {
+          "name": "Île Flottante",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Mousse au chocolat Maison",
+          "price_cents": 320,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème au caramel Maison",
+          "price_cents": 320,
+          "is_highlight": false
+        },
+        {
+          "name": "Chou chantilly",
+          "price_cents": 380,
+          "is_highlight": false
+        },
+        {
+          "name": "Pruneaux au vin glace vanille",
+          "price_cents": 390,
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe Mont Blanc",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Baba au rhum",
+          "price_cents": 490,
+          "is_highlight": false
+        },
+        {
+          "name": "La Profiterole \"Chartier\"",
+          "price_cents": 480,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Les Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Silver pression 50cl",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "1664 Blanche pression 50cl",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Demory Paris IPA pression 50cl",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Kronenbourg 33cl",
+          "price_cents": 380,
+          "is_highlight": false
+        },
+        {
+          "name": "Cidre 27.5cl",
+          "price_cents": 380,
+          "is_highlight": false
+        },
+        {
+          "name": "La Barge Pale Ale 75cl",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Mojito",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Piña Colada",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Caipirinha",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Nuit de Folie",
+          "price_cents": 950,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Buzet AOP",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Bordeaux AOP",
+          "price_cents": 550,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

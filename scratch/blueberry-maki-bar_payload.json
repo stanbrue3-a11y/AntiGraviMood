@@ -1,0 +1,249 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Maki Pink Yakuza & Sashimi classique mixte.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.29.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.29.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.29.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.29.55.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.30.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.30.07.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.30.15.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 14,
+  "coffee_price": 1.5,
+  "wine_glass": 7.5,
+  "plat_median_cents": 2600,
+  "description": "Dans cette ruelle pavée de Saint-Germain-des-Prés, cette échoppe japonaise cache un couloir tamisé éclairé par des néons bleu électrique et des lampions colorés. Sous le plafond en béton brut et autour des tables en bois sombre, une atmosphère de bar de nuit règne sur fond de musique feutrée. L'arôme du riz vinaigré tiède et du gingembre mariné se mêle aux vapeurs du saké servi chaud, tandis que les cuisiniers sculptent sous vos yeux des makis originaux couronnés de truffe d'été, de tarama d'oursin ou de saumon flambé au chalumeau.",
+  "insider_tips": [
+    "Réserve absolument ta table en ligne plusieurs jours à l'avance, car le lieu est minuscule et toujours complet.",
+    "Commande le maki Pink Yakuza, composé de saumon flambé au chalumeau et relevé d'une pointe de mayonnaise au wasabi.",
+    "Laisse-toi tenter par un verre de saké recommandé par l'équipe, servi dans des petits verres en bois typiques (masu)."
+  ],
+  "dominant_mood": "chill",
+  "nearest_metro": "Saint-Germain-des-Prés",
+  "metro_lines": [
+    "4"
+  ],
+  "has_terrace": false,
+  "reservation_policy": "resa_obligatoire",
+  "subcategories": [
+    "japonais",
+    "sushi"
+  ],
+  "raw_facts": [
+    "Tables en bois sombre et plafond en béton brut",
+    "Makis faits sous les yeux des clients"
+  ],
+  "sensory_material": "tables en bois sombre et néons bleus",
+  "sensory_noise": "musique feutrée en arrière-plan",
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/blueberry-maki-bar/Capture_d_e_cran_2026-05-25_a__21.29.42.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "25 Mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Izakaya & Tapas",
+      "items": [
+        {
+          "name": "Edamame nature ou spicy",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Bouillon au sarrasin",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Geisha à la poutargue",
+          "price_cents": 1000,
+          "is_highlight": true
+        },
+        {
+          "name": "Salade Kuro Goma",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Aubergine miso pickles",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Tempura Blueberry gambas",
+          "price_cents": 2300,
+          "is_highlight": false
+        },
+        {
+          "name": "Tataki de thon rouge de Méditerranée",
+          "price_cents": 3200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Signature Makis (6 pièces)",
+      "items": [
+        {
+          "name": "Shiso Bomb",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Yuzu Smokey",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Maki végétarien de saison",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Totoro (Thon Toro)",
+          "price_cents": 1900,
+          "is_highlight": true
+        },
+        {
+          "name": "Chicken Pot (5 pièces)",
+          "price_cents": 1700,
+          "is_highlight": false
+        },
+        {
+          "name": "Pink Yakuza",
+          "price_cents": 1900,
+          "is_highlight": true
+        },
+        {
+          "name": "California for Ever",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Rackham le Rouge",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Gatsby",
+          "price_cents": 2800,
+          "is_highlight": false
+        },
+        {
+          "name": "Transsibérien",
+          "price_cents": 2900,
+          "is_highlight": false
+        },
+        {
+          "name": "Unagi (8 pièces)",
+          "price_cents": 3600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Assortiments",
+      "items": [
+        {
+          "name": "Assortiment classique Nigiri (10 pièces)",
+          "price_cents": 2900,
+          "is_highlight": false
+        },
+        {
+          "name": "Assortiment classique Sashimi (12 pièces)",
+          "price_cents": 3200,
+          "is_highlight": false
+        },
+        {
+          "name": "Chirashi mixte",
+          "price_cents": 3100,
+          "is_highlight": false
+        },
+        {
+          "name": "Chirashi saumon spicy",
+          "price_cents": 2600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu sésame noir",
+          "price_cents": 1200,
+          "is_highlight": true
+        },
+        {
+          "name": "Panna cotta matcha",
+          "price_cents": 1200,
+          "is_highlight": false
+        },
+        {
+          "name": "Mochi frais sésame noir / matcha",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Coupe glacée maison (2 boules)",
+          "price_cents": 1200,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Cocktails & Boissons",
+      "items": [
+        {
+          "name": "Tokyo Spritz",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Cats Eyes",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Blueberry Plum",
+          "price_cents": 1300,
+          "is_highlight": false
+        },
+        {
+          "name": "Kurumi Rhapsody",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Wasabi tonic",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Shibuya Martini",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin blanc Côtes de Gascogne",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rosé Côtes de Provence",
+          "price_cents": 750,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}
