@@ -339,7 +339,7 @@ async function main() {
           /bruyant/i,
           /agité/i,
           /foule/i,
-          /complet/i,
+          // /complet/i, -> Retiré car un lieu chill/intime peut être complet en raison de sa petite taille sans être bruyant
           /serré/i,
           /animé/i,
           /anime/i,
