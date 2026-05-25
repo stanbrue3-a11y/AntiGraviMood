@@ -54,7 +54,7 @@ async function main() {
     return;
   }
 
-  if (!slug && (action === '--get' || action === '--update' || action === '--audit')) {
+  if (!slug && (action === '--get' || action === '--update' || action === '--audit' || action === '--validate')) {
     console.error(
       '❌ Précisez un slug. Ex: npx tsx scripts/agent_bridge.ts --audit le-cornichon-paris-14',
     );
@@ -124,7 +124,7 @@ async function main() {
     const { data, error } = await supabase.from('places').select('*').eq('slug', slug).single();
     if (error) throw error;
     console.log(JSON.stringify(data, null, 2));
-  } else if (action === '--update') {
+  } else if (action === '--update' || action === '--validate') {
     const payloadStr = args.slice(2).join(' ');
     if (!payloadStr) {
       console.error('❌ Payload JSON manquant pour la mise à jour.');
@@ -721,6 +721,13 @@ async function main() {
     delete payload.raw_facts;
     delete payload.sensory_material;
     delete payload.sensory_noise;
+
+    if (action === '--validate') {
+      console.log(`✅ [VALIDATION SUCCESS] Payload is 100% compliant with editorial standards.`);
+      console.log(`   Description length: ${payload.description ? payload.description.length : 0} characters.`);
+      console.log(`   Insider tips check: OK`);
+      process.exit(0);
+    }
 
     const { data, error } = await supabase.from('places').update(payload).eq('slug', slug).select();
 
