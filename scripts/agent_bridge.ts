@@ -261,18 +261,17 @@ async function main() {
       process.exit(1);
     }
 
-    // 🛡️ GARDE-FOU ADN (4.3) — Bloque l'enrichissement si le lieu ne respecte pas le standard
+    // 🛡️ GARDE-FOU ADN (4.3) — Avertit si le lieu est sous le standard mais permet la mise à jour car existant
     const { data: ratingData } = await supabase
       .from('places')
       .select('google_rating, name')
       .eq('slug', slug)
       .single();
     if (ratingData && ratingData.google_rating < 4.3) {
-      console.error(
-        `🛑 REJET ADN (agent_bridge) : "${ratingData.name}" (${ratingData.google_rating}) est en dessous du standard 4.3.`,
+      console.warn(
+        `⚠️  AVERTISSEMENT ADN (agent_bridge) : "${ratingData.name}" (${ratingData.google_rating}) est en dessous du standard 4.3.`,
       );
-      console.error(`   👉 Ce lieu ne peut plus être enrichi éditorialement.`);
-      process.exit(1);
+      console.warn(`   L'enrichissement est autorisé car la fiche existe déjà en base.`);
     }
 
     if (payload.description) {

@@ -49,9 +49,11 @@ async function main() {
   const slug = args[0];
 
   if (!slug) {
-    console.error('❌ Usage: npm run ingest-menu <restaurant-slug>');
+    console.error('❌ Usage: npm run ingest-menu <restaurant-slug> [--yes|-y]');
     process.exit(1);
   }
+
+  const autoConfirm = args.includes('--yes') || args.includes('-y');
 
   console.log(`\n=================== STARTING INGESTION PIPELINE FOR ${slug.toUpperCase()} ===================`);
 
@@ -72,10 +74,14 @@ async function main() {
   
   if (!place.description || !place.insider_tip) {
     console.warn(`⚠️  WARNING: Phase 1 details are missing (description or insider_tip is empty).`);
-    const proceed = await askQuestion('Do you want to proceed with Phase 2 anyway? (y/n): ');
-    if (proceed.toLowerCase() !== 'y') {
-      console.log('Aborting.');
-      process.exit(0);
+    if (!autoConfirm) {
+      const proceed = await askQuestion('Do you want to proceed with Phase 2 anyway? (y/n): ');
+      if (proceed.toLowerCase() !== 'y') {
+        console.log('Aborting.');
+        process.exit(0);
+      }
+    } else {
+      console.log('Auto-confirm (--yes): Proceeding despite missing Phase 1 details.');
     }
   }
 
@@ -298,10 +304,14 @@ async function main() {
   console.log(`   You can edit values in this file manually if needed.`);
 
   // 6. Interactive Confirmation Prompt
-  const ans = await askQuestion('\nDo you want to inject this menu into the database now? (y/n): ');
-  if (ans.toLowerCase() !== 'y') {
-    console.log('Ingestion cancelled. You can review the payload file, edit it, and ingest manually later.');
-    process.exit(0);
+  if (!autoConfirm) {
+    const ans = await askQuestion('\nDo you want to inject this menu into the database now? (y/n): ');
+    if (ans.toLowerCase() !== 'y') {
+      console.log('Ingestion cancelled. You can review the payload file, edit it, and ingest manually later.');
+      process.exit(0);
+    }
+  } else {
+    console.log('Auto-confirm (--yes): Injecting menu into the database...');
   }
 
   // Load final payload from file (in case the user manually edited it during verification)
