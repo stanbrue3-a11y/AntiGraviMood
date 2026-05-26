@@ -4,11 +4,11 @@ import { PlaceSkeleton, MoodType, Place } from '../../types/model';
 import { moodColors } from '../../design/tokens/colors';
 import { IconService } from '../../services/IconService';
 import { getHeroImage } from '../../lib/placeUtils'; // Added for accurate prefetch
-import { ClusterImages, ClusterLayers } from './layers/ClusterResources';
-import { PinImages, PinLayers } from './layers/PinResources';
+import { PinImages, PinLayers, MiniDotLayer } from './layers/PinResources';
 import { Image } from 'expo-image'; // Added for prefetch
 import { useSearchStore } from '../../stores/searchStore';
 import { ContextualEngine } from '../../services/ContextualEngine';
+import { bayesianScore, isPremiumPlace } from '../../utils/bayesianScore';
 
 type Props = {
   places: PlaceSkeleton[];
@@ -33,13 +33,6 @@ const hashCode = (str: string): number => {
     hash = hash & hash;
   }
   return Math.abs(hash);
-};
-
-const clusterProperties = {
-  point_count: ['+', 1],
-  chill_count: ['+', ['case', ['==', ['get', 'mood'], 'chill'], 1, 0]],
-  festif_count: ['+', ['case', ['==', ['get', 'mood'], 'festif'], 1, 0]],
-  culturel_count: ['+', ['case', ['==', ['get', 'mood'], 'culturel'], 1, 0]],
 };
 
 export const NativeMapPro = React.memo(
@@ -96,6 +89,13 @@ export const NativeMapPro = React.memo(
           : place.category;
         const subtitle = `${displayCategory} • ${place.location.arrondissement}e`;
 
+        const relevanceScore = bayesianScore(place.google_rating, place.google_user_ratings_total);
+        const premium = isPremiumPlace(
+          place.google_rating,
+          place.google_user_ratings_total,
+          place.tags,
+        );
+
         return {
           type: 'Feature',
           id: numericId,
@@ -118,6 +118,8 @@ export const NativeMapPro = React.memo(
             is_new_lot: place.tags?.includes('new_lot') || false,
             is_pastille_bleue: place.tags?.includes('pastille_bleue') || false,
             is_pastille_rouge: place.tags?.includes('pastille_rouge') || false,
+            relevance_score: relevanceScore,
+            is_premium: premium,
           },
         };
       });
@@ -164,7 +166,6 @@ export const NativeMapPro = React.memo(
     return (
       <>
         <Mapbox.Images>
-          <ClusterImages />
           <PinImages />
         </Mapbox.Images>
 
@@ -174,13 +175,9 @@ export const NativeMapPro = React.memo(
             ref={shapeSourceRef}
             shape={placesGeoJSON as React.ComponentProps<typeof Mapbox.ShapeSource>['shape']}
             onPress={handlePress}
-            cluster={true}
-            clusterRadius={35}
-            clusterMaxZoomLevel={14}
-            clusterProperties={clusterProperties}
             hitbox={{ width: 30, height: 30 }}
           >
-            <ClusterLayers />
+            <MiniDotLayer />
             <PinLayers activePin={activePin} isBouncing={isBouncing} />
           </Mapbox.ShapeSource>
         )}

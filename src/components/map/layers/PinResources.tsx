@@ -162,10 +162,106 @@ export const PinImages = React.memo(() => {
   );
 });
 
+// ─── MINI-DOT LAYER (GPU Circle — visible at medium zoom, fades out as pins appear) ───
+export const MiniDotLayer = React.memo(() => {
+  const fadeAnimation = ['interpolate', ['linear'], ['zoom'], 13, 1, 14.5, 0] as any;
+
+  return (
+    <Mapbox.CircleLayer
+      id="mini-dots"
+      sourceID="placesSource"
+      filter={['!', ['has', 'point_count']]}
+      belowLayerID="points-static"
+      style={
+        {
+          // Smooth cross-fade: fully visible at zoom ≤13, gone by zoom 14.5
+          circleOpacity: fadeAnimation,
+          circleStrokeOpacity: fadeAnimation,
+
+          // Premium places are slightly larger to stand out at city levels
+          circleRadius: [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            10,
+            ['case', ['get', 'is_premium'], 3.2, 1.8],
+            13,
+            ['case', ['get', 'is_premium'], 6.0, 4.2],
+            14.5,
+            ['case', ['get', 'is_premium'], 7.5, 5.5],
+          ] as any,
+
+          circleColor: ['get', 'mood_color'] as any,
+
+          circleStrokeWidth: [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            10,
+            1.0,
+            13,
+            1.8,
+            14.5,
+            2.2,
+          ] as any,
+          circleStrokeColor: '#FFFFFF',
+        } as React.ComponentProps<typeof Mapbox.CircleLayer>['style']
+      }
+    />
+  );
+});
+
 interface PinLayersProps {
   activePin: number | null;
   isBouncing: boolean;
 }
+
+// ─── ZOOM THRESHOLDS ───
+// Premium pins appear earlier (zoom 13.5→14.5), standard pins later (zoom 14→15.5)
+const PREMIUM_FADE_IN: [number, number, number, number] = [13.5, 0, 14.5, 1];
+const STANDARD_FADE_IN: [number, number, number, number] = [14, 0, 15.5, 1];
+
+/** Mapbox expression: opacity interpolation that respects is_premium */
+const pinOpacity = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  // Before zoom 13.5 → everything invisible
+  13,
+  0,
+  // At zoom 14 → premium fully visible, standard still fading
+  14,
+  ['case', ['get', 'is_premium'], 1, 0.2],
+  // At zoom 15.5 → everything fully visible
+  15.5,
+  1,
+];
+
+/** Mapbox expression: icon size grows from small dot to full size with zoom */
+const pinSize = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  13,
+  0.3,
+  14,
+  ['case', ['get', 'is_premium'], 0.7, 0.4],
+  15.5,
+  0.85,
+];
+
+/** Mapbox expression: text opacity — labels appear slightly after pins */
+const labelOpacity = [
+  'interpolate',
+  ['linear'],
+  ['zoom'],
+  13.5,
+  0,
+  14.5,
+  ['case', ['get', 'is_premium'], 0.9, 0],
+  15.5,
+  1,
+];
 
 export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) => {
   return (
@@ -173,7 +269,6 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
       {/* A. NAME LABEL (Right - Simple Text + Halo) */}
       <Mapbox.SymbolLayer
         id="place-name-labels"
-        minZoomLevel={13}
         sourceID="placesSource"
         filter={['!', ['has', 'point_count']]}
         style={
@@ -189,6 +284,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloColor: '#000000',
             textHaloWidth: 1.5,
             textHaloBlur: 0,
+            textOpacity: labelOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
@@ -206,9 +302,9 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             iconImage: ['get', 'icon_image'],
             iconAllowOverlap: true,
             iconIgnorePlacement: true,
-            iconSize: 0.85,
+            iconSize: pinSize as unknown as number,
             iconAnchor: 'center',
-            // Transition removed for crispness
+            iconOpacity: pinOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
@@ -237,7 +333,6 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
       {/* B. RATING (Directly Above Pin) */}
       <Mapbox.SymbolLayer
         id="place-rating-labels"
-        minZoomLevel={13}
         sourceID="placesSource"
         filter={['!', ['has', 'point_count']]}
         style={
@@ -253,7 +348,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloColor: '#000000',
             textHaloWidth: 1.8,
             textHaloBlur: 0,
-            // Transition removed for crispness
+            textOpacity: labelOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
@@ -282,6 +377,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloColor: '#000000',
             textHaloWidth: 2,
             textHaloBlur: 0,
+            textOpacity: pinOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
@@ -305,6 +401,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloColor: '#000000',
             textHaloWidth: 2,
             textHaloBlur: 0,
+            textOpacity: pinOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
@@ -327,6 +424,7 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloColor: '#000000',
             textHaloWidth: 2,
             textHaloBlur: 0,
+            textOpacity: pinOpacity as unknown as number,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
