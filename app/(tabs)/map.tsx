@@ -178,7 +178,7 @@ export default function MapScreen() {
         }
       }
 
-      if (currentZoom < 14) {
+      if (currentZoom < 14.4) {
         // Zoomed out (showing dots/small pins): Zoom in to 14.5 to show the pin, but do NOT open detail card
         cameraRef.current?.setCamera({
           centerCoordinate: coordinates,
