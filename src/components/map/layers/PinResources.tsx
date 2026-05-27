@@ -169,7 +169,7 @@ export const MiniDotLayer = React.memo(() => {
       id="mini-dots"
       sourceID="placesSource"
       filter={['!', ['has', 'point_count']]}
-      maxZoomLevel={15.0} // Visible until close zoom
+      maxZoomLevel={22} // Keep dots visible at all zoom levels as fallback
       style={
         {
           circleOpacity: 1,
@@ -219,10 +219,9 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
 
   return (
     <>
-      {/* 1. FULL PINS (Static) - Icon and Name grouped together. Activated at zoom 13.5. */}
+      {/* 1. FULL PINS (Static) - Icon and Name grouped together. */}
       <Mapbox.SymbolLayer
         id="points-static"
-        minZoomLevel={13.5}
         sourceID="placesSource"
         filter={[
           'all',
@@ -269,7 +268,6 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
       {/* 3. ACTIVE PIN (Always visible, highest visual priority) */}
       <Mapbox.SymbolLayer
         id="points-active"
-        minZoomLevel={13.5}
         sourceID="placesSource"
         filter={[
           'all',
