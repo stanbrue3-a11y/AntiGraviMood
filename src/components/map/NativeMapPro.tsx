@@ -12,8 +12,9 @@ import { bayesianScore, isPremiumPlace } from '../../utils/bayesianScore';
 
 type Props = {
   places: PlaceSkeleton[];
-  onPlacePress: (placeId: string, coordinates: [number, number]) => void;
+  onPlacePress: (placeId: string, coordinates: [number, number], clickedOnPin: boolean) => void;
   cameraRef?: React.RefObject<Mapbox.Camera | null>;
+  mapRef?: React.RefObject<Mapbox.MapView | null>;
   highlightedPlaceId?: string | null;
   styleLoaded?: boolean;
 };
@@ -36,7 +37,7 @@ const hashCode = (str: string): number => {
 };
 
 export const NativeMapPro = React.memo(
-  ({ places, onPlacePress, cameraRef, highlightedPlaceId, styleLoaded }: Props) => {
+  ({ places, onPlacePress, cameraRef, mapRef, highlightedPlaceId, styleLoaded }: Props) => {
     const shapeSourceRef = useRef<Mapbox.ShapeSource>(null);
     const [activePin, setActivePin] = React.useState<number | null>(null);
     const [isBouncing, setIsBouncing] = React.useState(false);
@@ -150,6 +151,23 @@ export const NativeMapPro = React.memo(
             } catch (err) {}
           }
         } else {
+          // Check if the user clicked on a visible pin (SymbolLayer) vs a mini-dot (CircleLayer)
+          let clickedOnPin = false;
+          if (mapRef?.current && e.point) {
+            try {
+              const symbolFeatures = await mapRef.current.queryRenderedFeaturesAtPoint(
+                [e.point.x, e.point.y],
+                undefined,
+                ['points-static', 'points-active'],
+              );
+              if (symbolFeatures && symbolFeatures.features && symbolFeatures.features.length > 0) {
+                clickedOnPin = true;
+              }
+            } catch (err) {
+              console.warn('Failed to query rendered features:', err);
+            }
+          }
+
           const numericId = feature.properties?.numeric_id;
           setActivePin(numericId ?? null);
           setIsBouncing(true);
@@ -157,10 +175,11 @@ export const NativeMapPro = React.memo(
           onPlacePress(
             feature.properties?.id ?? '',
             feature.geometry.coordinates as [number, number],
+            clickedOnPin,
           );
         }
       },
-      [cameraRef, onPlacePress],
+      [cameraRef, mapRef, onPlacePress],
     );
 
     return (

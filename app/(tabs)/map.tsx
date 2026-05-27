@@ -156,7 +156,7 @@ export default function MapScreen() {
 
   // --- HANDLERS ---
   const handlePlacePress = useCallback(
-    async (placeId: string, coordinates: [number, number]) => {
+    async (placeId: string, coordinates: [number, number], clickedOnPin: boolean) => {
       Haptics.selectionAsync();
 
       // Retrieve current zoom level to decide whether to open card or just focus/zoom
@@ -178,17 +178,8 @@ export default function MapScreen() {
         }
       }
 
-      if (currentZoom < 14.4) {
-        // Zoomed out (showing dots/small pins): Zoom in to 14.5 to show the pin, but do NOT open detail card
-        cameraRef.current?.setCamera({
-          centerCoordinate: coordinates,
-          zoomLevel: 14.5,
-          animationDuration: 1000,
-          animationMode: 'flyTo',
-          padding: { paddingBottom: 150, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
-        });
-      } else {
-        // Zoomed in: Open detail card and center coordinate above the card
+      if (clickedOnPin || currentZoom >= 14.4) {
+        // Zoomed in OR clicked directly on a pin (even zoomed out): Open detail card and center coordinate above the card
         router.push({ pathname: '/place/[id]', params: { id: placeId } });
 
         cameraRef.current?.setCamera({
@@ -197,6 +188,15 @@ export default function MapScreen() {
           animationDuration: 1000,
           animationMode: 'flyTo',
           padding: { paddingBottom: 450, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
+        });
+      } else {
+        // Zoomed out (clicked on a dot): Zoom in to 14.5 to show the pin, but do NOT open detail card
+        cameraRef.current?.setCamera({
+          centerCoordinate: coordinates,
+          zoomLevel: 14.5,
+          animationDuration: 1000,
+          animationMode: 'flyTo',
+          padding: { paddingBottom: 150, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
         });
       }
     },
@@ -247,6 +247,7 @@ export default function MapScreen() {
           places={places}
           onPlacePress={handlePlacePress}
           cameraRef={cameraRef}
+          mapRef={mapRef}
           highlightedPlaceId={internalHighlightId}
           styleLoaded={styleLoaded}
         />
