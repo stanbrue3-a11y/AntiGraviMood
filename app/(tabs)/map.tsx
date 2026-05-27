@@ -156,8 +156,18 @@ export default function MapScreen() {
 
   // --- HANDLERS ---
   const handlePlacePress = useCallback(
-    (placeId: string, coordinates: [number, number]) => {
+    async (placeId: string, coordinates: [number, number]) => {
       Haptics.selectionAsync();
+
+      // Retrieve current zoom level to decide whether to open card or just focus/zoom
+      let currentZoom = 12; // default fallback
+      if (mapRef.current) {
+        try {
+          currentZoom = await mapRef.current.getZoom();
+        } catch (err) {
+          console.warn('Error getting map zoom level:', err);
+        }
+      }
 
       // 🚀 PREFETCH HERO IMAGE FOR MEMORY CACHE
       const place = usePlacesStore.getState().placesMap[placeId];
@@ -168,16 +178,27 @@ export default function MapScreen() {
         }
       }
 
-      router.push({ pathname: '/place/[id]', params: { id: placeId } });
+      if (currentZoom < 14) {
+        // Zoomed out (showing dots/small pins): Zoom in to 14.5 to show the pin, but do NOT open detail card
+        cameraRef.current?.setCamera({
+          centerCoordinate: coordinates,
+          zoomLevel: 14.5,
+          animationDuration: 1000,
+          animationMode: 'flyTo',
+          padding: { paddingBottom: 150, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
+        });
+      } else {
+        // Zoomed in: Open detail card and center coordinate above the card
+        router.push({ pathname: '/place/[id]', params: { id: placeId } });
 
-      // CINEMATIC FLY-TO 🎥 (uses fixed zoom, avoids async native bridge call)
-      cameraRef.current?.setCamera({
-        centerCoordinate: coordinates,
-        zoomLevel: 14.5,
-        animationDuration: 1000,
-        animationMode: 'flyTo',
-        padding: { paddingBottom: 450, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
-      });
+        cameraRef.current?.setCamera({
+          centerCoordinate: coordinates,
+          zoomLevel: 14.5,
+          animationDuration: 1000,
+          animationMode: 'flyTo',
+          padding: { paddingBottom: 450, paddingLeft: 0, paddingRight: 0, paddingTop: 0 },
+        });
+      }
     },
     [router],
   );
