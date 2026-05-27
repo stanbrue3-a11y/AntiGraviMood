@@ -179,6 +179,7 @@ export const MiniDotLayer = React.memo(() => {
       id="mini-dots"
       sourceID="placesSource"
       filter={['!', ['has', 'point_count']]}
+      maxZoomLevel={22}
       style={
         {
           iconImage: ['concat', 'dot-', ['get', 'mood']],
