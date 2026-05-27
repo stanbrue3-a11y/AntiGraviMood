@@ -1,0 +1,169 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Pizza Margherita & Pizza Senatore à la truffe noire.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.45.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.34.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.42.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/senatore/Capture_d_e_cran_2026-05-24_a__15.52.45.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 9,
+  "coffee_price": null,
+  "wine_glass": 5.5,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Pizzas",
+      "items": [
+        {
+          "name": "Margherita",
+          "price_cents": 1400,
+          "description": "Sauce tomate, fior di latte, basilic"
+        },
+        {
+          "name": "Napoletana",
+          "price_cents": 1400,
+          "description": "Sauce tomate, fior di latte, anchois, olives noires leccino et origan"
+        },
+        {
+          "name": "Vesuvio",
+          "price_cents": 1850,
+          "description": "Sauce tomate, gorgonzola, spianata, fior di latte"
+        },
+        {
+          "name": "Rucolona",
+          "price_cents": 1950,
+          "description": "Fior di latte, tomates cerises, jambon de Parme, roquette et Grana Padano D.O.P"
+        },
+        {
+          "name": "Cinghialotta",
+          "price_cents": 1850,
+          "description": "Fior di latte, saucisse au fenouil, friarielli (brocolis napolitain), piment doux"
+        },
+        {
+          "name": "Al tonno",
+          "price_cents": 1750,
+          "description": "Sauce tomate, fior di latte, thon, olives noires leccino, oignons et basilic"
+        },
+        {
+          "name": "Vegetariana",
+          "price_cents": 1650,
+          "description": "Sauce tomate, fior di latte, courgettes grillées, aubergines grillées, poivrons grillés, olives noires leccino, poêlée de champignons"
+        },
+        {
+          "name": "Quattro formaggi",
+          "price_cents": 1650,
+          "description": "Sauce tomate, fior di latte, ricotta de vache, gorgonzola D.O.P. et grana padano D.O.P"
+        },
+        {
+          "name": "Quattro stagioni",
+          "price_cents": 1650,
+          "description": "Sauce tomate, fior di latte, jambon blanc, artichauts à la romaine et poêlée de champignons"
+        },
+        {
+          "name": "Fichi e gorgonzola",
+          "price_cents": 1950,
+          "description": "Confiture de figue, fior di latte, gorgonzola D.O.P, roquette, jambon de Parme et Grana Padano D.O.P"
+        },
+        {
+          "name": "La bronte",
+          "price_cents": 2450,
+          "description": "Pesto de pistache, fior di latte, mortadelle à la pistache, Grana Padano D.O.P et burrata (100g)"
+        },
+        {
+          "name": "Salmone",
+          "price_cents": 1950,
+          "description": "Saumon fumé, fior di latte, tomates cerises et roquette"
+        },
+        {
+          "name": "Bresaola",
+          "price_cents": 2250,
+          "description": "Sauce tomate, fior di latte, bresaola, roquette, stracciatella (crème de burrata), tomates cerises et Grana Padano D.O.P"
+        },
+        {
+          "name": "Senatore",
+          "price_cents": 2950,
+          "description": "Crème à la truffe noire, fior di latte, roquette, jambon de Parme, tomates cerises, burrata (100 g), parmesan et carpaccio de truffe frais"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu",
+          "price_cents": 800
+        },
+        {
+          "name": "Panna cotta",
+          "price_cents": 800,
+          "description": "Coulis de fruits rouges et fruits frais"
+        },
+        {
+          "name": "Babà al rum con crema patissiere",
+          "price_cents": 800,
+          "description": "Baba au rhum à la napolitaine et crème pâtissière"
+        },
+        {
+          "name": "Cannoli siciliani",
+          "price_cents": 800,
+          "description": "Cannoli sicilienne farcie à la ricotta"
+        },
+        {
+          "name": "Carpaccio d'ananas con gelato al limone",
+          "price_cents": 900,
+          "description": "Carpaccio d'ananas avec une boule de glace citron et coulis de fruits rouges"
+        },
+        {
+          "name": "I gelati italiani (3 palline)",
+          "price_cents": 900,
+          "description": "Glaces italiennes 3 boules"
+        },
+        {
+          "name": "Colonello al Limoncello",
+          "price_cents": 1200,
+          "description": "3 boules de sorbet citron et limoncello"
+        },
+        {
+          "name": "Café Gourmand",
+          "price_cents": 1200
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Spritz limoncello",
+          "price_cents": 900
+        },
+        {
+          "name": "Spritz & Fraise",
+          "price_cents": 900
+        },
+        {
+          "name": "Vin au verre",
+          "price_cents": 550
+        }
+      ]
+    }
+  ]
+}

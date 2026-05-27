@@ -1,0 +1,230 @@
+{
+  "on_mange_quoi_ici": "Cuisine vietnamienne. Banh mi au porc laqué & Boeuf Loc Lac.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/opla-banh-mi-more/Capture_d_e_cran_2026-05-24_a__15.08.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/opla-banh-mi-more/Capture_d_e_cran_2026-05-24_a__15.08.46.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/opla-banh-mi-more/Capture_d_e_cran_2026-05-24_a__15.08.42.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/opla-banh-mi-more/Capture_d_e_cran_2026-05-24_a__15.08.46.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Banh Bao (brioche farcie au porc)",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh He (v) (galette de riz gluant)",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "3 Bouchées de morue",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "3 Bouchées au poulet & shiitake",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "3 Raviolis frits aux crevettes",
+          "price_cents": 450,
+          "is_highlight": false
+        },
+        {
+          "name": "2 Pâtés chauds (v) (patate douce & curry)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "2 Raviolis vietnamiens (v)",
+          "price_cents": 480,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Banh Mi & Plats",
+      "items": [
+        {
+          "name": "Banh mi Opla (v)",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi poulet",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi tofu (v)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi porc laqué",
+          "price_cents": 800,
+          "is_highlight": true
+        },
+        {
+          "name": "Banh mi thon",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi boeuf",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi spécial jambonneau",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Banh mi spécial poulet",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Boeuf Loc Lac",
+          "price_cents": 1850,
+          "is_highlight": true
+        },
+        {
+          "name": "Tigre qui pleure",
+          "price_cents": 1850,
+          "is_highlight": false
+        },
+        {
+          "name": "Khao Man Kai",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette Opla",
+          "price_cents": 1750,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe nouilles porc laqué",
+          "price_cents": 1500,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe Pho Poulet fermier",
+          "price_cents": 1650,
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe Pho Boeuf",
+          "price_cents": 1500,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "3 Taro & crème de coco",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "3 Khanom Chan (coco & pandan)",
+          "price_cents": 540,
+          "is_highlight": false
+        },
+        {
+          "name": "3 Samoussas Nutella banane",
+          "price_cents": 480,
+          "is_highlight": false
+        },
+        {
+          "name": "Flan thaï",
+          "price_cents": 480,
+          "is_highlight": false
+        },
+        {
+          "name": "Crème caramel au lait de coco",
+          "price_cents": 480,
+          "is_highlight": false
+        },
+        {
+          "name": "Riz gluant (banane & haricots)",
+          "price_cents": 400,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons",
+      "items": [
+        {
+          "name": "Softs (Coca, Orangina, Lipton, Sprite, Perrier)",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Lait de soja",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Jus (coco / litchi / mangue)",
+          "price_cents": 300,
+          "is_highlight": false
+        },
+        {
+          "name": "Thé",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Café",
+          "price_cents": 250,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Bières",
+      "items": [
+        {
+          "name": "Bière Singha",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Beer Lao",
+          "price_cents": 500,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

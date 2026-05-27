@@ -1,0 +1,121 @@
+{
+  "on_mange_quoi_ici": "Cuisine de brasserie. Soupe à l'oignon gratinée au Cantal & Magret de canard à l'aligot.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/au-petit-suisse/feafaefezfzafeafeafa.pdf"
+  ],
+  "pint_price": 980,
+  "cocktail_price": 1100,
+  "coffee_price": 250,
+  "wine_glass": 650,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/au-petit-suisse/feafaefezfzafeafeafa.pdf",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Œuf dur mayonnaise maison",
+          "price_cents": 700
+        },
+        {
+          "name": "Saumon fumé et ses toasts de pain BIO",
+          "price_cents": 1500
+        },
+        {
+          "name": "Bol de soupe à l'oignon gratinée au Cantal",
+          "price_cents": 990,
+          "is_highlight": true
+        },
+        {
+          "name": "Terrine de campagne du moment et ses toasts de pain BIO",
+          "price_cents": 800
+        },
+        {
+          "name": "6 gros escargots de Bourgogne",
+          "price_cents": 1100
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Belle côte de bœuf (environ 1.2kg, aligot ou frites)",
+          "price_cents": 8000
+        },
+        {
+          "name": "Tartare de bœuf Charolais, frites et salade",
+          "price_cents": 1950
+        },
+        {
+          "name": "Magret de canard sauce au miel orange, aligot",
+          "price_cents": 1950,
+          "is_highlight": true
+        },
+        {
+          "name": "Suprême de poulet au citron confit, haricots verts croquants",
+          "price_cents": 1800
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Planches",
+      "items": [
+        {
+          "name": "Planche de charcuterie de la maison 'Conquet'",
+          "price_cents": 1650
+        },
+        {
+          "name": "Planche fromagère (Cantal, Roquefort, St Nectaire, Camembert)",
+          "price_cents": 1650
+        },
+        {
+          "name": "Planche mixte (Charcuterie & fromages)",
+          "price_cents": 1950
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Mousse au chocolat maison",
+          "price_cents": 750
+        },
+        {
+          "name": "Tarte Tatin à l'ancienne, crème fraîche",
+          "price_cents": 800
+        },
+        {
+          "name": "Crème brûlée à la vanille",
+          "price_cents": 750
+        },
+        {
+          "name": "Tiramisu maison",
+          "price_cents": 750
+        },
+        {
+          "name": "Moelleux au chocolat, coulis de fruits rouges",
+          "price_cents": 700
+        },
+        {
+          "name": "Café gourmand",
+          "price_cents": 660
+        },
+        {
+          "name": "Glace artisanale 'Pedone' (pot 100ml)",
+          "price_cents": 550
+        }
+      ]
+    }
+  ]
+}

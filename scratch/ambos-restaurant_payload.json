@@ -1,0 +1,94 @@
+{
+  "on_mange_quoi_ici": "Cuisine fusion. Poularde jaune des Landes & Crudo de langoustines.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.11.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.15.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.19.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.32.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.35.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.44.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ambos-restaurant/Capture_d_e_cran_2026-05-24_a__19.52.11.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "À partager",
+      "items": [
+        {
+          "name": "Arepa",
+          "price_cents": 1000
+        },
+        {
+          "name": "Galette saucisse",
+          "price_cents": 1200
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Crudo de Langoustines, maïs, jalapeños, leche de tigre",
+          "price_cents": 2300
+        },
+        {
+          "name": "Coques et couteaux marinières, curry noir, lentilles Beluga",
+          "price_cents": 2100
+        },
+        {
+          "name": "Foie gras poêlé du Quercy, carotte gingembre, agrumes",
+          "price_cents": 2700
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Lieu jaune de ligne, betterave, haddock fumé, tobiko, huile d'oseille",
+          "price_cents": 4200,
+          "is_highlight": true
+        },
+        {
+          "name": "Racine de krachaï, butternut, fregola sarda et shiso (V)",
+          "price_cents": 3600
+        },
+        {
+          "name": "Poularde jaune des Landes, céleri croustillant, huîtres et nori",
+          "price_cents": 4400,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Sélection de fromages de la maison Barthélemy",
+          "price_cents": 1800
+        },
+        {
+          "name": "Maïs fumé, piment chipotle, dulce de leche, chichamorada",
+          "price_cents": 1600
+        },
+        {
+          "name": "Fenouil croquant, pomme, aneth, granité gin",
+          "price_cents": 1600
+        }
+      ]
+    }
+  ]
+}

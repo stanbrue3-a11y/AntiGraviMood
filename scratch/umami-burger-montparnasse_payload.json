@@ -1,0 +1,224 @@
+{
+  "on_mange_quoi_ici": "Cuisine américaine. Umami Classic & Sam's Crispy Chicken.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/umami-burger-montparnasse/pdf_file-1-menu-et-boissons-fr-1656074048.pdf"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/umami-burger-montparnasse/pdf_file-1-menu-et-boissons-fr-1656074048.pdf",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": 10,
+  "cocktail_price": 14,
+  "coffee_price": 3.5,
+  "wine_glass": 7,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Burgers",
+      "items": [
+        {
+          "name": "Umami Classic",
+          "price_cents": 1500,
+          "description": "Steak, salade, cornichons, tomates, oignons caramélisés, cheddar, sauce classique"
+        },
+        {
+          "name": "Plant-Based Classic",
+          "price_cents": 1700,
+          "description": "Galette végétale BEYOND, salade, cornichons, tomates, oignons caramélisés, cheddar, sauce classique"
+        },
+        {
+          "name": "Sunnyside",
+          "price_cents": 1700,
+          "description": "Steak, bacon, œuf au plat, tapenade de tomates confites, avocat, salade, cornichons, cheddar, sauce aïoli à la truffe"
+        },
+        {
+          "name": "K-Town Tuna",
+          "price_cents": 1900,
+          "description": "Thon mi-cuit mariné au Gochujang, salade de chou épicée Coréenne, cornichons, sauce classique"
+        },
+        {
+          "name": "Manly",
+          "price_cents": 1600,
+          "description": "Steak, bacon, sauce au fromage, sauce classique"
+        },
+        {
+          "name": "Umami Patty Melt",
+          "price_cents": 1600,
+          "description": "Steak, oignons caramélisés, provolone, cheddar, sauce classique"
+        },
+        {
+          "name": "Sam's Crispy Chicken",
+          "price_cents": 1700,
+          "description": "Poulet bio croustillant, salade de coleslaw, cornichons, sauce classique"
+        },
+        {
+          "name": "Rossini Cheeseburger",
+          "price_cents": 2200,
+          "description": "Steak, foie gras poêlé, mimolette vieillie, cornichons, oignons frits, sauce aïoli à la truffe"
+        },
+        {
+          "name": "K-Town Poke Bowl",
+          "price_cents": 1600,
+          "description": "Riz blanc assaisonné, edamame, avocat, carottes, concombre, thon mariné, oignon nouveau, sauce ponzu, épices togarashi"
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Bacon Mac'N Cheese",
+          "price_cents": 1000,
+          "description": "Bacon, épices de la Nouvelle-Orléans, parmesan, sauce trois fromages"
+        },
+        {
+          "name": "Thick Onion Rings",
+          "price_cents": 900
+        },
+        {
+          "name": "Cheesy Potato Tots",
+          "price_cents": 900,
+          "description": "Croquettes de pommes de terre farcies au trois fromages, parmesan, épices de la Nouvelle-Orléans"
+        },
+        {
+          "name": "Umami Tenders",
+          "price_cents": 1400,
+          "description": "Poulets croustillants aux épices de la Nouvelle-Orléans"
+        }
+      ]
+    },
+    {
+      "category_type": "side",
+      "display_label": "Accompagnements",
+      "items": [
+        {
+          "name": "Thin Fries",
+          "price_cents": 600,
+          "description": "Frites classiques aux épices de la Nouvelle-Orléans"
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "price_cents": 900,
+          "description": "Frites classiques de patates douces aux épices de la Nouvelle-Orléans"
+        },
+        {
+          "name": "Truffle'Em Fries",
+          "price_cents": 900,
+          "description": "Frites à la fondue de fromage et crème de truffe, cébettes"
+        },
+        {
+          "name": "Manly Fries",
+          "price_cents": 900,
+          "description": "Frites aux épices de la Nouvelle-Orléans, copeaux de bacon, cébettes, sauce au fromage"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Chocolate Cake",
+          "price_cents": 900,
+          "description": "Gâteau au chocolat noir, mousse au chocolat"
+        },
+        {
+          "name": "Peanut Butter Pie",
+          "price_cents": 900,
+          "description": "Mousse au chocolat noir et au beurre de cacahuète fourrée de Reese's Peanut Butter Cups"
+        },
+        {
+          "name": "Cheesecake",
+          "price_cents": 900
+        },
+        {
+          "name": "Fruit sliders",
+          "price_cents": 700,
+          "description": "Fruits frais et infusion à la citronnelle"
+        },
+        {
+          "name": "Ben & Jerry's Ice Creams",
+          "price_cents": 800
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Heineken pression (25cl)",
+          "price_cents": 700
+        },
+        {
+          "name": "Heineken pression (pinte 50cl)",
+          "price_cents": 1000
+        },
+        {
+          "name": "Mezcal Eastside",
+          "price_cents": 1400,
+          "description": "Mezcal, jus de citron vert, concombre et menthe"
+        },
+        {
+          "name": "Peach John Daily",
+          "price_cents": 1400,
+          "description": "Vodka à la pêche, ice tea, jus de citron"
+        },
+        {
+          "name": "Rose Aperol Sangria",
+          "price_cents": 1400
+        },
+        {
+          "name": "Kiki de Montparnasse Pale Ale (33cl)",
+          "price_cents": 900
+        },
+        {
+          "name": "Lagunitas IPA (35.5cl)",
+          "price_cents": 900
+        },
+        {
+          "name": "Vin blanc de Loire (verre)",
+          "price_cents": 700
+        },
+        {
+          "name": "Vin rouge Zinfandel (verre)",
+          "price_cents": 800
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Expresso / Décaféiné",
+          "price_cents": 350
+        },
+        {
+          "name": "Double expresso / Cappuccino / Latte",
+          "price_cents": 500
+        },
+        {
+          "name": "Thés bio Betjeman & Barton",
+          "price_cents": 500
+        },
+        {
+          "name": "Coca-Cola / Zéro (33cl)",
+          "price_cents": 600
+        },
+        {
+          "name": "Sprite / Orangina (33cl)",
+          "price_cents": 600
+        },
+        {
+          "name": "Evian / Badoit (1L)",
+          "price_cents": 700
+        }
+      ]
+    }
+  ]
+}

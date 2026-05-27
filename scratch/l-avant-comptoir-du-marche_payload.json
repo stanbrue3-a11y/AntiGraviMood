@@ -1,0 +1,138 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Croquettes de chipirons à l'encre & poitrine de porc caramélisée au miel.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.09.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.09.56.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.09.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.10.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.10.05.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 2400,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-du-marche/Capture_d_e_cran_2026-05-25_a__22.09.52.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Hors-d'œuvre & Tapas du Marché",
+      "items": [
+        {
+          "name": "Croquettes jambon ou chipirons",
+          "price_cents": 600,
+          "description": "Portion de 3 pièces",
+          "is_highlight": true
+        },
+        {
+          "name": "Croquettes parmesan",
+          "price_cents": 600,
+          "description": "Perles du Japon, zeste de citron vert (3 pcs)",
+          "is_highlight": false
+        },
+        {
+          "name": "Rissoles de fromage",
+          "price_cents": 650,
+          "description": "Zeste de citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Mini sandwich au lard",
+          "price_cents": 900,
+          "description": "Servi avec sauce Savora",
+          "is_highlight": false
+        },
+        {
+          "name": "Piments padron",
+          "price_cents": 800,
+          "description": "Fleur de sel",
+          "is_highlight": false
+        },
+        {
+          "name": "Pâté en croûte de porc",
+          "price_cents": 1200,
+          "description": "Porc, canard et foie gras, mesclun, guindillas",
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de campagne façon Régalade",
+          "price_cents": 800,
+          "description": "Servie avec salade verte",
+          "is_highlight": false
+        },
+        {
+          "name": "Pâté des Avant-Comptoirs par Eric Ospital",
+          "price_cents": 800,
+          "description": "Charcuterie basque",
+          "is_highlight": false
+        },
+        {
+          "name": "Cœurs de canards",
+          "price_cents": 800,
+          "description": "Ail doux, piquillos",
+          "is_highlight": false
+        },
+        {
+          "name": "Poitrine de porc caramélisée au miel",
+          "price_cents": 800,
+          "description": "Porc fondant laqué au miel",
+          "is_highlight": true
+        },
+        {
+          "name": "Chipirons frits",
+          "price_cents": 1000,
+          "description": "Citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Saint Jacques rôties au beurre",
+          "price_cents": 1400,
+          "description": "Portion de 2 pièces",
+          "is_highlight": false
+        },
+        {
+          "name": "Bao de poitrine de poulet frit",
+          "price_cents": 1000,
+          "description": "Carottes râpées, mayo teriyaki",
+          "is_highlight": false
+        },
+        {
+          "name": "Côte de bœuf Black Angus 1 kg",
+          "price_cents": 7200,
+          "description": "Frites, mayo estragon",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Riz au lait vanille",
+          "price_cents": 700,
+          "description": "Vanille Bourbon de Madagascar, crispy framboise",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème brûlée aux fèves de Tonka",
+          "price_cents": 700,
+          "description": "Crème brûlée parfumée",
+          "is_highlight": false
+        },
+        {
+          "name": "Paris-Brest",
+          "price_cents": 600,
+          "description": "Amandes, chantilly",
+          "is_highlight": true
+        }
+      ]
+    }
+  ]
+}

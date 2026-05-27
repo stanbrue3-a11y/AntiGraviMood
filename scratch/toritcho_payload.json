@@ -1,0 +1,112 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Assortiment de brochettes grillées & Sashimi saumon.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/toritcho/Capture_d_e_cran_2026-05-24_a__16.03.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/toritcho/Capture_d_e_cran_2026-05-24_a__16.03.47.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/toritcho/Capture_d_e_cran_2026-05-24_a__16.03.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/toritcho/Capture_d_e_cran_2026-05-24_a__16.03.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/toritcho/Capture_d_e_cran_2026-05-24_a__16.03.58.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Agedashi Tofu",
+          "price_cents": 960,
+          "description": "Pâté de soja frit chaud dans un bouillon dashi",
+          "is_highlight": false
+        },
+        {
+          "name": "Edamame",
+          "price_cents": 480,
+          "description": "Soja vert cuit vapeur salé",
+          "is_highlight": false
+        },
+        {
+          "name": "Wakame Su",
+          "price_cents": 660,
+          "description": "Algues et concombre à la sauce vinaigrette",
+          "is_highlight": false
+        },
+        {
+          "name": "Chawanmushi",
+          "price_cents": 960,
+          "description": "Omelette cuite à la vapeur à la japonaise (uniquement le soir)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Menus de Brochettes & Spécialités",
+      "items": [
+        {
+          "name": "Menu A (5 Brochettes)",
+          "price_cents": 1920,
+          "description": "Soupe, salade, riz et assortiment de 5 brochettes grillées",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu B (Brochettes & Fruits de mer)",
+          "price_cents": 2500,
+          "description": "Soupe, salade, riz, gambas, brochette de bulot et assortiment de 5 brochettes grillées",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu C (Sashimi & Brochettes)",
+          "price_cents": 2730,
+          "description": "Soupe, salade, riz, assortiment de sashimi et assortiment de 5 brochettes grillées",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu D (Le Soir)",
+          "price_cents": 3450,
+          "description": "Soupe miso, 3 entrées, sushi ou sashimi, tempura de crevettes et légumes, et 2 pièces de brochettes du jour",
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi Shake (Saumon)",
+          "price_cents": 1700,
+          "description": "Tranches de saumon cru frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Sashimi Maguro (Thon)",
+          "price_cents": 1990,
+          "description": "Tranches de thon cru frais",
+          "is_highlight": false
+        },
+        {
+          "name": "Maki California (6 pièces)",
+          "price_cents": 1030,
+          "description": "Saumon ou crevettes, avocat, mayonnaise",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins (Bouteilles)",
+      "items": [
+        {
+          "name": "Muscadet Domaine Ventois (75cl)",
+          "price_cents": 2360,
+          "description": "Vin blanc de Loire",
+          "is_highlight": false
+        },
+        {
+          "name": "Brouilly Pierre Caméléon (75cl)",
+          "price_cents": 3200,
+          "description": "Vin rouge du Beaujolais",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

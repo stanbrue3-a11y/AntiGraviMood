@@ -1,0 +1,149 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Croquettes de chipirons à l'encre & croque à la truffe noire au vieux comté.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-de-la-terre-et-de-la-mer/Capture_d_e_cran_2026-05-25_a__22.08.35.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-de-la-terre-et-de-la-mer/Capture_d_e_cran_2026-05-25_a__22.08.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-de-la-terre-et-de-la-mer/Capture_d_e_cran_2026-05-25_a__22.08.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-de-la-terre-et-de-la-mer/Capture_d_e_cran_2026-05-25_a__22.09.00.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 2400,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/l-avant-comptoir-de-la-terre-et-de-la-mer/Capture_d_e_cran_2026-05-25_a__22.08.35.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Hors-d'œuvre & Tapas du Terroir",
+      "items": [
+        {
+          "name": "Croquettes de Chipirons à l'encre de seiche",
+          "price_cents": 600,
+          "description": "Zestes de citron vert",
+          "is_highlight": true
+        },
+        {
+          "name": "Croquettes Jambon",
+          "price_cents": 600,
+          "description": "Croquettes de jambon",
+          "is_highlight": false
+        },
+        {
+          "name": "Croquettes de Morue",
+          "price_cents": 600,
+          "description": "Zestes de citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Rissoles de fromages frit",
+          "price_cents": 600,
+          "description": "Citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Poelée de pleurottes à l'ail",
+          "price_cents": 800,
+          "description": "Persil et mousse suprême",
+          "is_highlight": false
+        },
+        {
+          "name": "Velouté de potimarron",
+          "price_cents": 700,
+          "description": "Au curcuma et croûtons",
+          "is_highlight": false
+        },
+        {
+          "name": "Houmous de pois chiche",
+          "price_cents": 800,
+          "description": "Ail, citron et pain pita",
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisse de cochon aux herbes",
+          "price_cents": 1000,
+          "description": "Mousse de pommes de terre et olives",
+          "is_highlight": false
+        },
+        {
+          "name": "Pâté de mon Amatxi par Eric Ospital",
+          "price_cents": 1000,
+          "description": "Pâté basque de référence",
+          "is_highlight": false
+        },
+        {
+          "name": "Oeuf mayonnaise de l'avant comptoir",
+          "price_cents": 650,
+          "description": "Œuf mayonnaise maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Ceviche de Lieu jaune",
+          "price_cents": 1000,
+          "description": "Jus de mandarine et fraise",
+          "is_highlight": false
+        },
+        {
+          "name": "Poulpe Grillé",
+          "price_cents": 1100,
+          "description": "Salsa verde ou romesco au miel",
+          "is_highlight": false
+        },
+        {
+          "name": "Hamburger de bœuf et foie gras",
+          "price_cents": 1200,
+          "description": "Oignons confits",
+          "is_highlight": true
+        },
+        {
+          "name": "Croque à la truffe noire",
+          "price_cents": 2200,
+          "description": "Vieux comté",
+          "is_highlight": true
+        },
+        {
+          "name": "Côte de Bœuf Black Angus 1Kg",
+          "price_cents": 6900,
+          "description": "Belles pièces à partager",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Riz au lait à la vanille",
+          "price_cents": 700,
+          "description": "Caramel, amandes et noisettes",
+          "is_highlight": false
+        },
+        {
+          "name": "Quenelle de chocolat",
+          "price_cents": 700,
+          "description": "Huile d'olive, fleur de sel et piment d'Espelette",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Vins d'Exception",
+      "items": [
+        {
+          "name": "Verre de Château Chalon 2015",
+          "price_cents": 1900,
+          "description": "Vin jaune servi avec assiette de comté",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

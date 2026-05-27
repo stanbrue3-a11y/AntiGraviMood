@@ -1,0 +1,224 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Ramen traditionnel & Unagi Don.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.37.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.59.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.34.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.37.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.41.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.46.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yatai-ramen-montparnasse/Capture_d_e_cran_2026-05-24_a__16.04.59.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 9,
+  "coffee_price": null,
+  "wine_glass": 12,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Rāmens & Donburis",
+      "items": [
+        {
+          "name": "Rāmen traditionnel",
+          "price_cents": 1600,
+          "description": "Tranche porc chashu, bambou menma, huile d'ail noir, bouillon tonkotsu porc, shoyu tare, nouilles bio"
+        },
+        {
+          "name": "Rāmen végétarien",
+          "price_cents": 1600,
+          "description": "3 légumes de saison, bouillon de légumes et épices, miso tare, nouilles bio"
+        },
+        {
+          "name": "Donburi magret canard",
+          "price_cents": 1900,
+          "description": "Magret de canard, sauce teriyaki, œuf parfait coulant"
+        },
+        {
+          "name": "Unagi Don",
+          "price_cents": 2200,
+          "description": "Anguille, poivre sansho, œuf parfait coulant"
+        },
+        {
+          "name": "Gyudon bœuf",
+          "price_cents": 1500,
+          "description": "Bœuf émincé, oignons confits, œuf parfait coulant"
+        },
+        {
+          "name": "Curry Torikatsu",
+          "price_cents": 1600,
+          "description": "Curry japonais au poulet pané frit, légumes, œuf nitamago"
+        },
+        {
+          "name": "Curry Végétarien",
+          "price_cents": 1500,
+          "description": "Curry japonais aux légumes de saison, œuf nitamago"
+        },
+        {
+          "name": "Torikatsu Don",
+          "price_cents": 1500,
+          "description": "Poulet pané frit, légumes, chou, œuf nitamago"
+        },
+        {
+          "name": "Rāmen signature wagyu & foie gras",
+          "price_cents": 3800,
+          "description": "Tranche wagyu, foie gras poêlé, champignons enoki, œuf nitamago, truffe"
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Tapas",
+      "items": [
+        {
+          "name": "Gyoza maison végétarien x5",
+          "price_cents": 900
+        },
+        {
+          "name": "Gyoza maison Porc x5",
+          "price_cents": 900
+        },
+        {
+          "name": "Magret Slices",
+          "price_cents": 900,
+          "description": "Réduction balsamique soja, condiment pesto, miso blanc"
+        },
+        {
+          "name": "Concombre goma",
+          "price_cents": 500,
+          "description": "Pignons de pin, sauce sésame"
+        },
+        {
+          "name": "Karaage",
+          "price_cents": 900,
+          "description": "Traditionnels beignets de poulet"
+        },
+        {
+          "name": "Spicy Karaage",
+          "price_cents": 950,
+          "description": "Beignets de poulet épicé"
+        },
+        {
+          "name": "Torikatsu",
+          "price_cents": 900,
+          "description": "Cuisse de poulet panée accompagnée de chou frais, sauce tonkatsu"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mochi maison matcha",
+          "price_cents": 800,
+          "description": "Mochi à la crème matcha et azuki"
+        },
+        {
+          "name": "Fondant au cœur matcha",
+          "price_cents": 800
+        },
+        {
+          "name": "Kurogoma cheesecake",
+          "price_cents": 800,
+          "description": "Cheesecake aérien maison au sésame noir"
+        },
+        {
+          "name": "Mochi glacé",
+          "price_cents": 400
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules",
+      "items": [
+        {
+          "name": "Formule Tapas + Rāmen",
+          "price_cents": 2250
+        },
+        {
+          "name": "Formule Rāmen + Dessert",
+          "price_cents": 2250
+        },
+        {
+          "name": "Formule Tapas + Rāmen + Dessert",
+          "price_cents": 2850
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Yuzu frappé Saké",
+          "price_cents": 900,
+          "description": "Cocktail givré au yuzu et saké"
+        },
+        {
+          "name": "Bière japonaise Kirin (33cl)",
+          "price_cents": 600
+        },
+        {
+          "name": "Bière ISE KADOYA Hazy IPA (33cl)",
+          "price_cents": 850
+        },
+        {
+          "name": "Dassai 45 Yamadanishiki Saké (verre)",
+          "price_cents": 1200
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Yuzu frappé Sans Alcool",
+          "price_cents": 900
+        },
+        {
+          "name": "Limonade matcha maison (25cl)",
+          "price_cents": 800
+        },
+        {
+          "name": "Ramune nature / litchi / yuzu (20cl)",
+          "price_cents": 550
+        },
+        {
+          "name": "Coca-Cola / Zéro (33cl)",
+          "price_cents": 450
+        },
+        {
+          "name": "Evian / Badoit (50cl)",
+          "price_cents": 450
+        }
+      ]
+    }
+  ]
+}

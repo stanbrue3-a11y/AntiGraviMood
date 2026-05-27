@@ -1,0 +1,221 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Risotto al tartufo & Saltimbocca alla romana.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.38.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.40.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.47.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.38.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.40.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.44.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/terra-mia/Capture_d_e_cran_2026-05-24_a__16.01.47.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 10,
+  "coffee_price": 2,
+  "wine_glass": 5,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Risottos",
+      "items": [
+        {
+          "name": "Risotto crevettes et citron",
+          "price_cents": 2000
+        },
+        {
+          "name": "Risotto al funghi porcini",
+          "price_cents": 2000
+        },
+        {
+          "name": "Risotto crème de courgette et lamelles de parmesan",
+          "price_cents": 1700
+        },
+        {
+          "name": "Risotto du chef",
+          "price_cents": 2700
+        },
+        {
+          "name": "Risotto di legumi",
+          "price_cents": 1700,
+          "description": "huile d'olive, légumes, lamelles de Parmesan"
+        },
+        {
+          "name": "Risotto al salmone",
+          "price_cents": 1900,
+          "description": "huile d'olive, saumon, crème fraîche, persil, lamelles de Parmesan"
+        },
+        {
+          "name": "Risotto al tartufo",
+          "price_cents": 2200,
+          "description": "huile d'olive, crème de truffe noire, persil, lamelles de Parmesan"
+        },
+        {
+          "name": "Risotto ai quattro formaggi",
+          "price_cents": 1900,
+          "description": "crème fraîche, chèvre, gorgonzola, bufala fumée, lamelles de Parmesan"
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Viandes & Poissons",
+      "items": [
+        {
+          "name": "Scaloppina de veau au vin blanc",
+          "price_cents": 1800
+        },
+        {
+          "name": "Scaloppina de veau au citron",
+          "price_cents": 1800
+        },
+        {
+          "name": "Scaloppina de veau alla pizzaïola",
+          "price_cents": 1800
+        },
+        {
+          "name": "Scaloppina champignons",
+          "price_cents": 1800
+        },
+        {
+          "name": "Scaloppina al Marsala",
+          "price_cents": 1800
+        },
+        {
+          "name": "Entrecôte Argentine",
+          "price_cents": 2500
+        },
+        {
+          "name": "Saltimbocca alla romana",
+          "price_cents": 2300
+        },
+        {
+          "name": "Espadon grillé",
+          "price_cents": 2300
+        },
+        {
+          "name": "Espadon alla marinara",
+          "price_cents": 2500
+        },
+        {
+          "name": "Tonno al forno",
+          "price_cents": 2300
+        },
+        {
+          "name": "Sauté de palourdes et moules",
+          "price_cents": 2200,
+          "description": "huile d'olive, poivre, persil, toast de pain"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu café",
+          "price_cents": 800
+        },
+        {
+          "name": "Tiramisu fraise",
+          "price_cents": 800
+        },
+        {
+          "name": "Tiramisu Nutella",
+          "price_cents": 800
+        },
+        {
+          "name": "Pastiera Napoletana",
+          "price_cents": 800
+        },
+        {
+          "name": "Tiramisu pistache",
+          "price_cents": 800
+        },
+        {
+          "name": "Panna cotta",
+          "price_cents": 800
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Spritz",
+          "price_cents": 1000,
+          "description": "Prosecco, apérol, eau gazeuse"
+        },
+        {
+          "name": "Coupe de Champagne",
+          "price_cents": 1000
+        },
+        {
+          "name": "Coupe de Prosecco",
+          "price_cents": 800
+        },
+        {
+          "name": "Birra Moretti (33cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Birra Peroni (33cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Verre de vin du Mois",
+          "price_cents": 500
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Café / Décaféiné",
+          "price_cents": 200
+        },
+        {
+          "name": "Doppio Café",
+          "price_cents": 300
+        },
+        {
+          "name": "Cappuccino",
+          "price_cents": 350
+        },
+        {
+          "name": "Coca-Cola / Zéro (33cl)",
+          "price_cents": 400
+        },
+        {
+          "name": "Orangina (25cl)",
+          "price_cents": 400
+        },
+        {
+          "name": "San Pellegrino (75cl)",
+          "price_cents": 500
+        }
+      ]
+    }
+  ]
+}

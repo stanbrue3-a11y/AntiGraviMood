@@ -1,0 +1,138 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Assiettes à partager & poêlée de pleurotes au jaune d'œuf confit.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.58.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.58.28.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.58.53.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.58.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.59.11.png"
+  ],
+  "pint_price": 10,
+  "cocktail_price": 12,
+  "coffee_price": null,
+  "wine_glass": 8.5,
+  "plat_median_cents": 2600,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/freddy-s/Capture_d_e_cran_2026-05-25_a__21.58.21.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Petites Assiettes à Partager",
+      "items": [
+        {
+          "name": "Aubergine marinée",
+          "price_cents": 700,
+          "description": "Vinaigrette à la tomate, pangrattato",
+          "is_highlight": false
+        },
+        {
+          "name": "Courgette grillée",
+          "price_cents": 700,
+          "description": "Feta, noisette, menthe",
+          "is_highlight": false
+        },
+        {
+          "name": "Pleurotes grillées",
+          "price_cents": 900,
+          "description": "Soja, sésame et jaune d'œuf confit",
+          "is_highlight": true
+        },
+        {
+          "name": "Piperade et chorizo",
+          "price_cents": 900,
+          "description": "Coulis de poivrons rouges, œufs hachés, chorizo",
+          "is_highlight": false
+        },
+        {
+          "name": "Couteaux au beurre d'ail",
+          "price_cents": 1100,
+          "description": "Razorclams in garlic and parsley butter",
+          "is_highlight": false
+        },
+        {
+          "name": "Saumon mi-cuit miso",
+          "price_cents": 1300,
+          "description": "Yaourt",
+          "is_highlight": false
+        },
+        {
+          "name": "Ceviche de dorade",
+          "price_cents": 1400,
+          "description": "Criolla, pamplemousse, shiso",
+          "is_highlight": false
+        },
+        {
+          "name": "Onglet bœuf Angus",
+          "price_cents": 1400,
+          "description": "Romesco",
+          "is_highlight": true
+        },
+        {
+          "name": "Poulet teriyaki",
+          "price_cents": 1400,
+          "description": "Mayonnaise au miso",
+          "is_highlight": false
+        },
+        {
+          "name": "Magret de canard fumé",
+          "price_cents": 1400,
+          "description": "Purée de chou-fleur, fraises marinées",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Riz au lait caramel",
+          "price_cents": 700,
+          "description": "Caramel, cacahuètes",
+          "is_highlight": false
+        },
+        {
+          "name": "Cremeux au chocolat",
+          "price_cents": 1000,
+          "description": "Fraises gariguette, crème montée, pistache",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons",
+      "items": [
+        {
+          "name": "Jamaican Mule",
+          "price_cents": 1200,
+          "description": "Rhum Appleton, citron vert, ginger beer Fever Tree",
+          "is_highlight": false
+        },
+        {
+          "name": "Spicy Manolito",
+          "price_cents": 1400,
+          "description": "Tequila Olmeca Altos, jalapeño, coriandre, citron vert",
+          "is_highlight": false
+        },
+        {
+          "name": "Biére pression Deck & Donohue (50cl)",
+          "price_cents": 1000,
+          "description": "D° pilsner",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de vin rouge",
+          "price_cents": 850,
+          "description": "Côte-Roannaise Éclat de Granite (12cl)",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

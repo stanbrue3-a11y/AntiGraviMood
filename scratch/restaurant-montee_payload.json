@@ -1,0 +1,89 @@
+{
+  "on_mange_quoi_ici": "Cuisine gastronomique. Menu Signature en 10 étapes & Menu Terroir en 7 étapes.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-montee/Capture_d_e_cran_2026-05-24_a__15.51.18.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-montee/Capture_d_e_cran_2026-05-24_a__15.51.50.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-montee/Capture_d_e_cran_2026-05-24_a__15.51.18.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/restaurant-montee/Capture_d_e_cran_2026-05-24_a__15.51.50.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 20,
+  "coffee_price": null,
+  "wine_glass": 9,
+  "plat_median_cents": 2800,
+  "menu_items": [
+    {
+      "category_type": "formula",
+      "display_label": "Menus Dégustation",
+      "items": [
+        {
+          "name": "Dégustation Déjeuner (5 étapes)",
+          "price_cents": 6000,
+          "description": "Servi le midi, plat principal au choix poisson ou viande"
+        },
+        {
+          "name": "Dégustation Déjeuner (6 étapes)",
+          "price_cents": 7500,
+          "description": "Servi le midi"
+        },
+        {
+          "name": "Menu Terroir (7 étapes)",
+          "price_cents": 12000,
+          "description": "Plat principal au choix poisson ou viande"
+        },
+        {
+          "name": "Menu Signature (10 étapes)",
+          "price_cents": 15000
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Coupe de Champagne Taittinger",
+          "price_cents": 1900
+        },
+        {
+          "name": "Kir Royal au cassis de Bourgogne",
+          "price_cents": 2000
+        },
+        {
+          "name": "Kir vin blanc au cassis de Bourgogne",
+          "price_cents": 1000
+        },
+        {
+          "name": "Bière 1664 (33cl)",
+          "price_cents": 700
+        },
+        {
+          "name": "Verre de Saint Aubin 1er cru (Blanc)",
+          "price_cents": 1500
+        },
+        {
+          "name": "Verre de Santenay 1er Cru (Rouge)",
+          "price_cents": 1500
+        },
+        {
+          "name": "Verre de Languedoc Faune (Blanc)",
+          "price_cents": 900
+        },
+        {
+          "name": "Verre de Languedoc Elise (Rouge)",
+          "price_cents": 900
+        }
+      ]
+    }
+  ]
+}

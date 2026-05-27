@@ -1,0 +1,191 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Spaghetti al pomodoro de Mr Giorgio Armani & Ossobuco de veau à la Milanaise.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.30.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.40.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.50.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 15,
+  "coffee_price": null,
+  "wine_glass": 13,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/emporio-armani-caffe/Capture_d_e_cran_2026-05-25_a__21.57.30.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Antipasti",
+      "items": [
+        {
+          "name": "Mozzarella di Bufala",
+          "price_cents": 2400,
+          "description": "Mozzarella de bufflonne, Panzanella aux olives taggiasche, tomate, oignons, concombre, câpres",
+          "is_highlight": false
+        },
+        {
+          "name": "Carciofi alla Giudia",
+          "price_cents": 2600,
+          "description": "Artichauts frits à la romaine, menthe fraîche, copeaux de Pecorino Romano DOP",
+          "is_highlight": true
+        },
+        {
+          "name": "Uovo Croccante",
+          "price_cents": 2500,
+          "description": "Œuf croustillant, courgettes au vinaigre, fondue de Parmigiano Reggiano au safran",
+          "is_highlight": false
+        },
+        {
+          "name": "Vitello Tonnato",
+          "price_cents": 2800,
+          "description": "Fines lamelles de rôti de veau rosées servies froides, sauce au thon, câpres de Salina, légumes",
+          "is_highlight": true
+        },
+        {
+          "name": "Carpaccio di Manzo",
+          "price_cents": 2900,
+          "description": "Carpaccio de bœuf, fraîcheur de fenouil, pamplemousse rose, copeaux de Parmigiano Reggiano, vinaigre balsamique",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Primi & Secondi",
+      "items": [
+        {
+          "name": "Spaghetti al Pomodoro",
+          "price_cents": 2400,
+          "description": "Spaghetti Mancini à la tomate et au basilic frais (plat signature de Mr Giorgio Armani)",
+          "is_highlight": true
+        },
+        {
+          "name": "Linguine alle Vongole Veraci",
+          "price_cents": 3400,
+          "description": "Linguine Mancini aux palourdes de pêche à pied et boutargue sarde de mulet",
+          "is_highlight": false
+        },
+        {
+          "name": "Spaghetti Carbonari",
+          "price_cents": 2800,
+          "description": "Spaghetti aux œufs fermiers, joue de porc affinée, Pecorino Romano D.O.P.",
+          "is_highlight": false
+        },
+        {
+          "name": "Tagliatelle al Ragu",
+          "price_cents": 3200,
+          "description": "Tagliatelle au ragù à l'ancienne comme à Bologne",
+          "is_highlight": false
+        },
+        {
+          "name": "Ravioli del Plin",
+          "price_cents": 3300,
+          "description": "Raviolis farcis au bœuf, fondue de Parmigiano Reggiano, noisettes torréfiées",
+          "is_highlight": false
+        },
+        {
+          "name": "Tajarin ai Gamberi Rossi de Mazara",
+          "price_cents": 3500,
+          "description": "Fines tagliatelles aux gambas rouges de Mazara et estragon",
+          "is_highlight": false
+        },
+        {
+          "name": "Risotto ai Carciofi",
+          "price_cents": 3500,
+          "description": "Risotto Carnaroli aux artichauts, mascarpone et Parmigiano Reggiano",
+          "is_highlight": false
+        },
+        {
+          "name": "Chitarra Cacio & Pepe",
+          "price_cents": 2800,
+          "description": "Spaghetti chitarra au Pecorino et poivre façon cacio & pepe",
+          "is_highlight": false
+        },
+        {
+          "name": "Branzino",
+          "price_cents": 4500,
+          "description": "Pavé de bar de ligne poêlé aux épinards sautés à l'huile d'olive, concassé de tomate",
+          "is_highlight": false
+        },
+        {
+          "name": "Ossobuco à la Milanaise",
+          "price_cents": 4500,
+          "description": "Ossobuco de veau à la Milanaise, purée de pommes de terre, sauce aux morilles",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Dolci",
+      "items": [
+        {
+          "name": "Tiramisu Armani Caffè",
+          "price_cents": 1800,
+          "description": "Tiramisu crémeux au mascarpone et œufs bio, expresso Illy",
+          "is_highlight": true
+        },
+        {
+          "name": "Tarteletta alle Fragole",
+          "price_cents": 1600,
+          "description": "Tartelette à la crème pâtissière à la vanille, fraises, sorbet chocolat",
+          "is_highlight": false
+        },
+        {
+          "name": "Baba Napoletano",
+          "price_cents": 1800,
+          "description": "Baba napolitain au rhum Diplomatico, fruits rouges, chantilly à la vanille, sorbet citron",
+          "is_highlight": false
+        },
+        {
+          "name": "Amalfina",
+          "price_cents": 1600,
+          "description": "Moelleux chaud au chocolat blanc et citron, sorbet fraise",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Aperitivi & Vini",
+      "items": [
+        {
+          "name": "Aperol Spritz",
+          "price_cents": 1600,
+          "description": "Aperol, Prosecco de Valdobbiadene, Eau de Seltz",
+          "is_highlight": false
+        },
+        {
+          "name": "Contratto Spritz",
+          "price_cents": 1500,
+          "description": "Apéritif Contratto, Prosecco de Valdobbiadene, Eau de Seltz",
+          "is_highlight": false
+        },
+        {
+          "name": "Negroni",
+          "price_cents": 1600,
+          "description": "Gin Citadelle, Vermouth Contratto, Campari Bitter",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Gavi de Gavi DOCG",
+          "price_cents": 1300,
+          "description": "Cépage Cortese, maison Batasiolo (12cl)",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Catarratto Antisa",
+          "price_cents": 1300,
+          "description": "Sicilia DOC, maison Tasca d'Almerita (12cl)",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

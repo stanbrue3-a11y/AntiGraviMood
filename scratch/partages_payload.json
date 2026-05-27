@@ -1,0 +1,332 @@
+{
+  "on_mange_quoi_ici": "Cuisine de partage. Planches gourmandes & tapas de fruits de mer.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.39.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.47.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.50.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.36.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.39.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.42.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.47.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/partages/Capture_d_e_cran_2026-05-24_a__15.11.50.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": 7.5,
+  "cocktail_price": 10,
+  "coffee_price": null,
+  "wine_glass": 6,
+  "plat_median_cents": 2100,
+  "menu_items": [
+    {
+      "category_type": "sharing",
+      "display_label": "Planches & Hâtifs à partager",
+      "items": [
+        {
+          "name": "Planche de charcuterie (jambon de parme 24 mois, lonzo corse, porchetta, saucisson)",
+          "price_cents": 2000,
+          "is_highlight": true
+        },
+        {
+          "name": "Planche de fromage (Sainte-Maure, fourme d'Ambert, comté 18 mois)",
+          "price_cents": 2000,
+          "is_highlight": false
+        },
+        {
+          "name": "Planche mixte (charcuterie et fromage)",
+          "price_cents": 2400,
+          "is_highlight": true
+        },
+        {
+          "name": "Planche de tapas (16 pièces : tenders, accras, onion rings, mozza stick)",
+          "price_cents": 2800,
+          "is_highlight": true
+        },
+        {
+          "name": "Oeuf mayo façon Partages (mayonnaise maison)",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "Boîte de sardines (La Bonne Mer Bio)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Saumon fumé",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de poisson",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Saint-Jacques Muscadet",
+          "price_cents": 900,
+          "is_highlight": false
+        },
+        {
+          "name": "Terrine de campagne (cochonnailles du Haut-Bois)",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Bol de frites",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisson fuet",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Lonzo Corse",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Porchetta artisanale",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Saucisson à la truffe",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Jambon de Parme",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Tapas chaudes",
+      "items": [
+        {
+          "name": "Tenders de poulet (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Tenders de poulet (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Accras de morue (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Accras de morue (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Oignon rings (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Oignon rings (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Mozza stick (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Mozza stick (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Jalapeños au fromage (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Jalapeños au fromage (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Crevettes torpedo (par 4)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Crevettes torpedo (par 6)",
+          "price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Mini chicken burger (x2)",
+          "price_cents": 800,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Fruits de mer",
+      "items": [
+        {
+          "name": "Assiette de bulots",
+          "price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Grosses crevettes roses (x6)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Route des huîtres (5 Ostra-Regal + 5 Fines de Claires)",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Assiette de la mer (9 Fines de Claires, bulots, 4 crevettes)",
+          "price_cents": 3000,
+          "is_highlight": true
+        },
+        {
+          "name": "Huîtres Fines de Claires n°3 (par 6)",
+          "price_cents": 1400,
+          "is_highlight": false
+        },
+        {
+          "name": "Huîtres Fines de Claires n°3 (par 9)",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Huîtres Fines de Claires n°3 (par 12)",
+          "price_cents": 2500,
+          "is_highlight": false
+        },
+        {
+          "name": "Huîtres Ostra-Regal n°3 (par 6)",
+          "price_cents": 1900,
+          "is_highlight": false
+        },
+        {
+          "name": "Huîtres Ostra-Regal n°3 (par 9)",
+          "price_cents": 2700,
+          "is_highlight": false
+        },
+        {
+          "name": "Huîtres Ostra-Regal n°3 (par 12)",
+          "price_cents": 3600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Blonde pression (demi - 25cl)",
+          "price_cents": 400,
+          "is_highlight": false
+        },
+        {
+          "name": "Blonde pression (pinte - 50cl)",
+          "price_cents": 750,
+          "is_highlight": false
+        },
+        {
+          "name": "Monaco (demi - 25cl)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Blanche artisanale (bouteille 33cl)",
+          "price_cents": 600,
+          "is_highlight": false
+        },
+        {
+          "name": "IPA artisanale (bouteille 33cl)",
+          "price_cents": 700,
+          "is_highlight": false
+        },
+        {
+          "name": "Aperol Spritz / Mojito",
+          "price_cents": 1000,
+          "happy_hour_price_cents": 800,
+          "is_highlight": false
+        },
+        {
+          "name": "Cocktail Signature (Moscow Mule / Blue Lagoon / Porn Star)",
+          "price_cents": 1200,
+          "happy_hour_price_cents": 1000,
+          "is_highlight": false
+        },
+        {
+          "name": "Vin rouge / blanc / rosé (le verre)",
+          "price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Sodas (Coca, Sprite, Perrier)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Diabolo (menthe, grenadine, pêche)",
+          "price_cents": 500,
+          "is_highlight": false
+        },
+        {
+          "name": "Jus de fruits français (orange, pomme, abricot, ananas, mangue, tomate)",
+          "price_cents": 550,
+          "is_highlight": false
+        },
+        {
+          "name": "Mocktails (Virgin Mojito / Virgin Colada)",
+          "price_cents": 800,
+          "happy_hour_price_cents": 600,
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

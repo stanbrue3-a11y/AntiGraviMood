@@ -1,0 +1,137 @@
+{
+  "on_mange_quoi_ici": "Cuisine gastronomique. Homard bleu aux épices Tandoori & Pigeonneau fermier de Magescq.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/helene-darroze/Capture_d_e_cran_2026-05-25_a__22.00.51.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/helene-darroze/Capture_d_e_cran_2026-05-25_a__22.00.54.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/helene-darroze/Capture_d_e_cran_2026-05-25_a__22.01.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/helene-darroze/Capture_d_e_cran_2026-05-25_a__22.01.04.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "plat_median_cents": 4800,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/helene-darroze/Capture_d_e_cran_2026-05-25_a__22.00.51.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "formula",
+      "display_label": "Menus Dégustation",
+      "items": [
+        {
+          "name": "Menu Déjeuner (4 services)",
+          "price_cents": 9800,
+          "description": "Servi au déjeuner de midi du mardi au samedi, hors boissons",
+          "is_highlight": false
+        },
+        {
+          "name": "Menu Dégustation (6 services)",
+          "price_cents": 20500,
+          "description": "Menu dégustation signature, hors boissons",
+          "is_highlight": true
+        },
+        {
+          "name": "Menu Dégustation (9 services)",
+          "price_cents": 26000,
+          "description": "Menu dégustation signature complet, hors boissons",
+          "is_highlight": true
+        },
+        {
+          "name": "La Table du Chef (Menu à l'aveugle)",
+          "price_cents": 33500,
+          "description": "Menu surprise unique servi directement en cuisine face aux fourneaux",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Saint-Jacques d'Erquy et oursin de Galice",
+          "price_cents": null,
+          "description": "Simple tartare, mikado d'endives de pleine terre, chou-rave et pomme verte, sudachi et verveine, crème aux coraux d'oursin",
+          "is_highlight": false
+        },
+        {
+          "name": "Caviar Krystal du lac aux mille ilots",
+          "price_cents": null,
+          "description": "Cocons de Pigna, gros couteaux de Normandie à peine raidis, huître Perle Blanche, crème crue relevée de citron caviar (Supplément 55€ sur le menu)",
+          "is_highlight": true
+        },
+        {
+          "name": "Champignon de Paris du terroir parisien",
+          "price_cents": null,
+          "description": "Champignon crème de Grégory Spinelli, crème de noix fraîches du Périgord, émulsion au vin jaune d'Arbois",
+          "is_highlight": false
+        },
+        {
+          "name": "Foie gras de canard des Landes",
+          "price_cents": null,
+          "description": "Foie gras trié par la famille Dupérier dans les Landes, juste rôti aux graines de sésame et sarrasin, kiwi du bassin de l'Adour, feuilles de sansho et jus au saké",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Homard bleu aux épices Tandoori",
+          "price_cents": null,
+          "description": "Mousseline de carottes aux agrumes confits, réduction de poivre de Lampong à la coriandre fraîche, montée au beurre noisette",
+          "is_highlight": true
+        },
+        {
+          "name": "Rouget de roche maturé",
+          "price_cents": null,
+          "description": "Cuit sur la peau, feuille de blette garnie de côtes et tête de veau, câpres de Pantelleria, beurre blanc citronné au jus d'arêtes rôties",
+          "is_highlight": false
+        },
+        {
+          "name": "Pigeonneau fermier de Magescq",
+          "price_cents": null,
+          "description": "Pigeonneau de la famille Dublanc farci sous la peau de ses abats, cuit à la goutte de sang, betteraves, kumquat confit, jus intense au mole Poblano",
+          "is_highlight": true
+        },
+        {
+          "name": "Bœuf Wagyu Grade 5 de Gunma",
+          "price_cents": null,
+          "description": "Filet grilled, cecina maison, bao farci d'effiloché de bœuf, légumes racines au tamarin, jus de bœuf au poivre vert fermenté (Supplément 85€ sur le menu)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Véritable baba signature",
+          "price_cents": null,
+          "description": "Imbibé de l'armagnac de notre sélection, poires Comice fraîches et pochées, sorbet poire-gingembre, chantilly parfumée aux quatre-épices (Supplément 18€ sur le menu)",
+          "is_highlight": true
+        },
+        {
+          "name": "Agrumes de saison",
+          "price_cents": null,
+          "description": "Tangelos, clémentines, oranges au naturel, cédrats et mains de bouddha pochés, sorbet aux agrumes et pimiento del piquillo, Fontainebleau au citron noir d'Iran",
+          "is_highlight": false
+        },
+        {
+          "name": "Chocolat de Colombie et olive Kalamata",
+          "price_cents": null,
+          "description": "Croustade et mousse au chocolat de Nicolas Berger, sorbet au chocolat et olives noires, praliné aux cacahuètes de Soustons",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

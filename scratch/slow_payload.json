@@ -1,0 +1,230 @@
+{
+  "on_mange_quoi_ici": "Cuisine végétale créative. Karaage de pleurotes & Aubergine façon natin.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.13.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.18.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.22.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.28.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.33.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.36.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.58.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/f_e_ge_g_e_gge_.pdf"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.13.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.18.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.22.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.28.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.33.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.36.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.44.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.52.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/Capture_d_e_cran_2026-05-24_a__15.54.58.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/slow/f_e_ge_g_e_gge_.pdf",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 10,
+  "coffee_price": 2.5,
+  "wine_glass": 6.5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Velouté de printemps",
+          "price_cents": 800,
+          "description": "Velouté crémeux de petits pois frais, huile aux tomates confites et une quenelle de mascarpone vegan"
+        },
+        {
+          "name": "Terrine de champignons",
+          "price_cents": 900,
+          "description": "Champignons et lentilles beluga, chutney de marrons, pickles de graine de moutarde, pousses de moutarde"
+        },
+        {
+          "name": "Karaage de pleurotes",
+          "price_cents": 1000,
+          "description": "Pleurotes délicieusement panées dans un appareil au lait d’avoine, paprika et cumin, servies avec une sauce verte crémeuse aux herbes"
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Salade de lentilles gourmande",
+          "price_cents": 1650,
+          "description": "Lentilles noires beluga, filet de protéine végétale, patate douce, petit pois, roquette, suprêmes de pamplemousse dans une vinaigrette gourmande à l’orange gingembre, chips de patate douce et pickles d’oignon rouge"
+        },
+        {
+          "name": "Saucisse purée revisitée",
+          "price_cents": 1700,
+          "description": "Saucisse maison faite à base de pois chiche et tomates confites, servi avec un écrasé de pomme de terre, tombée d’épinards, vierge de légumes et un jus corsé de légumes mijotés, suprêmes de pamplemousse"
+        },
+        {
+          "name": "Pavé de tofu à la béarnaise",
+          "price_cents": 1700,
+          "description": "Tofu fumé mariné dans un jus de betterave et algues, feuille de nori, servi avec un quinoa à la madras, petit pois, raisin sec, oignon et pointe de safran, sauce béarnaise vegan, déclinaison de carottes et vierge à la livèche"
+        },
+        {
+          "name": "Aubergine façon natin",
+          "price_cents": 1800,
+          "description": "Farce cambodgienne légèrement relevée revisitée à base de protéine de soja, curry rouge, lait de coco, cacahuètes, citronnelle et oignons dans une aubergine rôtie, servie avec une crème de petit pois, asperges et déclinaison de carottes, chips de racine de lotus"
+        },
+        {
+          "name": "Ceviche de truite au ponzu",
+          "price_cents": 1850,
+          "description": "Sauce ponzu maison à base de tamari, yuzu et vinaigre, lait de coco et citron vert, servi avec des pommes grenailles rôties, tombée d’épinards, pickles d’oignon rouge"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Pavlova fraise basilic",
+          "price_cents": 1200,
+          "description": "Meringue vegan à base de jus de pois chiche, crème montée au basilic thaï, pointe de citron vert, coulis de fruits rouges, fraises et myrtilles fraîches"
+        },
+        {
+          "name": "Crumble choco banane",
+          "price_cents": 1100,
+          "description": "Crumble sans gluten, chocolat noir 65% bio, banane, crème anglaise à la banane à base de tofu soyeux, lait d’avoine et gingembre confit"
+        },
+        {
+          "name": "Flan coco pistache",
+          "price_cents": 1000,
+          "description": "Flan à la turque au lait de coco et lait d’avoine, coulis à la pistache et concassé de pistaches"
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Thé glacé maison Bio (25cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Jus/nectar de fruits Alain Milliat (33cl)",
+          "price_cents": 700
+        },
+        {
+          "name": "Limonade Voilà Bio (33cl)",
+          "price_cents": 600
+        },
+        {
+          "name": "Kombucha Feuilles de Figuier (33cl)",
+          "price_cents": 650
+        },
+        {
+          "name": "Eau plate Evian / Eau pétillante Badoit (50cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Eau Abatilles (1L)",
+          "price_cents": 800
+        },
+        {
+          "name": "Café / Déca / Allongé Costadoro Bio",
+          "price_cents": 250
+        },
+        {
+          "name": "Café noisette Costadoro Bio",
+          "price_cents": 280
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Litchi Spritz",
+          "price_cents": 1000
+        },
+        {
+          "name": "Caïpiberry",
+          "price_cents": 1200
+        },
+        {
+          "name": "La Parisienne Blonde (33cl)",
+          "price_cents": 800
+        },
+        {
+          "name": "La Parisienne IPA (33cl)",
+          "price_cents": 800
+        },
+        {
+          "name": "Kir cassis, pêche ou mûre",
+          "price_cents": 800
+        },
+        {
+          "name": "Kir Royal",
+          "price_cents": 1200
+        },
+        {
+          "name": "Prosecco (verre)",
+          "price_cents": 700
+        },
+        {
+          "name": "Champagne Olivier Marteaux Brut (verre)",
+          "price_cents": 1100
+        },
+        {
+          "name": "Lou Pitchoun (verre)",
+          "price_cents": 650
+        },
+        {
+          "name": "Munt (verre)",
+          "price_cents": 700
+        }
+      ]
+    }
+  ]
+}

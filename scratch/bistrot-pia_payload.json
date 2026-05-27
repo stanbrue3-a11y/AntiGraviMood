@@ -1,0 +1,202 @@
+{
+  "on_mange_quoi_ici": "Cuisine de bistrot. Entrecôte frites maison & Linguines au pesto rouge.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.28.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.31.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.39.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.42.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.56.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.57.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.57.07.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.57.12.png"
+  ],
+  "pint_price": 800,
+  "happy_hour_pint_price": 650,
+  "cocktail_price": 950,
+  "happy_hour_cocktail_price": 800,
+  "coffee_price": null,
+  "wine_glass": 550,
+  "happy_hour_wine_glass": 500,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/bistrot-pia/Capture_d_e_cran_2026-05-24_a__19.56.28.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Œuf mayonnaise et salade",
+          "price_cents": 700
+        },
+        {
+          "name": "Escargots en persillade (Les 6)",
+          "price_cents": 1400
+        },
+        {
+          "name": "Mozzarella di Buffala et tomate",
+          "price_cents": 1200
+        },
+        {
+          "name": "Ravioles de Royan et crème de Parmesan",
+          "price_cents": 1200
+        },
+        {
+          "name": "Assiette de Saumon Gravlax, crème ciboulette",
+          "price_cents": 1600
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Tartare de bœuf cru ou poêlé, salade et frites maison",
+          "price_cents": 1950
+        },
+        {
+          "name": "Cheeseburger au cheddar, frites maison",
+          "price_cents": 1950
+        },
+        {
+          "name": "Chicken Burger, sauce tartare et frites maison",
+          "price_cents": 1850
+        },
+        {
+          "name": "Végé burger au cheddar, frites maison",
+          "price_cents": 1850
+        },
+        {
+          "name": "Pinsa tomate et mozzarella",
+          "price_cents": 1500
+        },
+        {
+          "name": "Linguines au pesto rouge et burratta",
+          "price_cents": 1850,
+          "is_highlight": true
+        },
+        {
+          "name": "Filet de poulet à la crème de truffe et linguines",
+          "price_cents": 1850
+        },
+        {
+          "name": "Ravioles de Royan et crème de Parmesan",
+          "price_cents": 1900
+        },
+        {
+          "name": "Tartare de Saumon, salade et frites maison",
+          "price_cents": 2100
+        },
+        {
+          "name": "Pavé de saumon, sauce vierge et légumes croquants",
+          "price_cents": 2300
+        },
+        {
+          "name": "Fish and chips, sauce tartare",
+          "price_cents": 1750
+        },
+        {
+          "name": "Tataki de thon sauce Tao et légumes croquants",
+          "price_cents": 2300
+        },
+        {
+          "name": "Entrecôte (300g), sauce béarnaise, frites maison et salade",
+          "price_cents": 2900,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "À partager",
+      "items": [
+        {
+          "name": "Planche mixte (Charcuterie ou fromages)",
+          "price_cents": 2600
+        },
+        {
+          "name": "Croque Apéro (déjà coupé)",
+          "price_cents": 1000
+        },
+        {
+          "name": "Calamars frits sauce tartare",
+          "price_cents": 1000
+        },
+        {
+          "name": "Guacamole et chips tortillas",
+          "price_cents": 1000
+        },
+        {
+          "name": "Poulet crispy et sauce Tao",
+          "price_cents": 1000
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Assiette de fromages",
+          "price_cents": 1300
+        },
+        {
+          "name": "Pain perdu caramel beurre salé et glace vanille",
+          "price_cents": 1000,
+          "is_highlight": true
+        },
+        {
+          "name": "Dame Blanche",
+          "price_cents": 1000
+        },
+        {
+          "name": "Mi cuit chocolat et glace vanille",
+          "price_cents": 1000
+        },
+        {
+          "name": "Crème brûlée vanille",
+          "price_cents": 850
+        },
+        {
+          "name": "Crêpes au sucre",
+          "price_cents": 750
+        },
+        {
+          "name": "Crêpes au Nutella",
+          "price_cents": 950
+        },
+        {
+          "name": "Tarte du moment",
+          "price_cents": 950
+        },
+        {
+          "name": "Café gourmand",
+          "price_cents": 950
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules déjeuner",
+      "items": [
+        {
+          "name": "Plat seul suggestions du jour (midi)",
+          "price_cents": 1600
+        },
+        {
+          "name": "Entrée + Plat ou Plat + Dessert suggestions du jour (midi)",
+          "price_cents": 2000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "on_mange_quoi_ici": "Cuisine française. Canard de Challans aux olives & Pâté en croûte d'Arnaud Nicolas.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/allard/Capture_d_e_cran_2026-05-24_a__19.50.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/allard/Capture_d_e_cran_2026-05-24_a__19.50.56.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/allard/Capture_d_e_cran_2026-05-24_a__19.51.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/allard/Capture_d_e_cran_2026-05-24_a__19.51.16.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": null,
+  "coffee_price": null,
+  "wine_glass": null,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/allard/Capture_d_e_cran_2026-05-24_a__19.50.52.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Arnaud Nicolas pâté en croûte, pickles",
+          "price_cents": 2800
+        },
+        {
+          "name": "Velouté de cresson et cep",
+          "price_cents": 2600
+        },
+        {
+          "name": "Foie gras de canard poêlé, coing, sauce dolce forte",
+          "price_cents": 3600
+        },
+        {
+          "name": "Escargots de Bourgogne (Les 6)",
+          "price_cents": 1400
+        },
+        {
+          "name": "Escargots de Bourgogne (Les 12)",
+          "price_cents": 2800
+        },
+        {
+          "name": "Cuisses de grenouille traditionnelles de Fernande Allard",
+          "price_cents": 3200
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Turbot façon Dugléré",
+          "price_cents": 5000
+        },
+        {
+          "name": "Agneau de l'Aveyron, blettes, jus de cuisson",
+          "price_cents": 5200
+        },
+        {
+          "name": "Ris de veau doré, chou braisé",
+          "price_cents": 5800,
+          "is_highlight": true
+        },
+        {
+          "name": "Filet de bœuf poêlé, sauce poivrade",
+          "price_cents": 5400
+        },
+        {
+          "name": "Canard de Challans aux olives (pour deux)",
+          "price_cents": 11000,
+          "is_highlight": true
+        },
+        {
+          "name": "Poulet rôti du Bourbonnais (pour deux)",
+          "price_cents": 9200
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Assortiment de fromages français",
+          "price_cents": 1400
+        },
+        {
+          "name": "Cookpot de figues, amandes et mûres",
+          "price_cents": 1400
+        },
+        {
+          "name": "Profiteroles au chocolat",
+          "price_cents": 1400
+        },
+        {
+          "name": "Coupe Allard (glace vanille, café et praliné)",
+          "price_cents": 1400
+        },
+        {
+          "name": "Savarin au rhum, Chantilly légère",
+          "price_cents": 1400
+        },
+        {
+          "name": "Île flottante",
+          "price_cents": 1400
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Formules déjeuner",
+      "items": [
+        {
+          "name": "Entrée + Plat + Dessert suggestions du jour (midi)",
+          "price_cents": 3400
+        },
+        {
+          "name": "Entrée + Plat ou Plat + Dessert suggestions du jour (midi)",
+          "price_cents": 2800
+        }
+      ]
+    }
+  ]
+}

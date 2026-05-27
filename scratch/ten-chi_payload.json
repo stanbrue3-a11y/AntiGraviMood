@@ -1,0 +1,176 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Tsukunes yakitori & Shokado Bento.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.01.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.04.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.12.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.16.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.20.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.01.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.04.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.12.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.16.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/ten-chi/Capture_d_e_cran_2026-05-24_a__15.57.20.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": 7,
+  "cocktail_price": 4.5,
+  "coffee_price": 2.7,
+  "wine_glass": null,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Menus & Spécialités",
+      "items": [
+        {
+          "name": "Poke bowl saumon et légumes",
+          "price_cents": 1350
+        },
+        {
+          "name": "Poke bowl végétarien",
+          "price_cents": 1300
+        },
+        {
+          "name": "Menu A1 (4 Brochettes)",
+          "price_cents": 900,
+          "description": "2 poulet, 2 boulettes de poulet"
+        },
+        {
+          "name": "Menu A2 (4 Brochettes)",
+          "price_cents": 900,
+          "description": "1 bœuf au fromage, 2 poulet, 1 boulettes de poulet"
+        },
+        {
+          "name": "Menu A3 (4 Brochettes)",
+          "price_cents": 950,
+          "description": "2 poulet, 2 bœuf au fromage"
+        },
+        {
+          "name": "Menu A3A (4 Brochettes)",
+          "price_cents": 1000,
+          "description": "4 bœuf au fromage"
+        },
+        {
+          "name": "Menu B1 (5 Brochettes)",
+          "price_cents": 1050,
+          "description": "2 poulet, 1 boulettes de poulet, 1 bœuf, 1 bœuf au fromage"
+        },
+        {
+          "name": "Menu B3 (6 Brochettes)",
+          "price_cents": 1300,
+          "description": "1 poulet, 1 thon, 1 boulettes de poulet, 1 champignon, 1 saumon, 1 bœuf au fromage"
+        },
+        {
+          "name": "Menu H1 (Spécial)",
+          "price_cents": 1550,
+          "description": "8 maki Tenchi Royal + 2 brochettes saumon ou bœuf au fromage"
+        },
+        {
+          "name": "Menu N1 (Sushi & California)",
+          "price_cents": 1300,
+          "description": "4 sushi saumon + 8 maki California"
+        },
+        {
+          "name": "Soupe Udon au tempura crevette",
+          "price_cents": 1150
+        },
+        {
+          "name": "Soupe Udon au bœuf",
+          "price_cents": 1050
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Entrées & Brochettes",
+      "items": [
+        {
+          "name": "Raviolis japonais (6 pièces)",
+          "price_cents": 550
+        },
+        {
+          "name": "Nêms au poulet (4 pièces)",
+          "price_cents": 550
+        },
+        {
+          "name": "Tempura crevette (5 pièces)",
+          "price_cents": 850
+        },
+        {
+          "name": "Takoyaki (5 pièces)",
+          "price_cents": 600
+        },
+        {
+          "name": "Edamame",
+          "price_cents": 400
+        },
+        {
+          "name": "Salade d'algues",
+          "price_cents": 450
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Bière japonaise Asahi (33cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Bière japonaise Asahi (50cl)",
+          "price_cents": 700
+        },
+        {
+          "name": "Uméshu Liqueur de Prune (8cl)",
+          "price_cents": 450
+        },
+        {
+          "name": "Saké Cocktail",
+          "price_cents": 450,
+          "description": "Saké, crème de cassis"
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Espresso / Déca / Allongé",
+          "price_cents": 270
+        },
+        {
+          "name": "Coca-Cola / Zéro (33cl)",
+          "price_cents": 400
+        },
+        {
+          "name": "Jus d'orange / pomme / lychee (25cl)",
+          "price_cents": 400
+        }
+      ]
+    }
+  ]
+}

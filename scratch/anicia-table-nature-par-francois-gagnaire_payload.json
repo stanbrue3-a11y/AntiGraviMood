@@ -1,0 +1,110 @@
+{
+  "on_mange_quoi_ici": "Cuisine bistronomique d'Auvergne. Raviole de volaille fermière & Carré de veau de pays rôti au foin.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.53.40.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.53.44.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.12.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.17.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.21.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.25.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.38.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.54.41.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 1000,
+  "coffee_price": null,
+  "wine_glass": 900,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/anicia-table-nature-par-francois-gagnaire/Capture_d_e_cran_2026-05-24_a__19.53.40.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Blinis à la farine de Lentille Verte du Puy",
+          "price_cents": 1000
+        },
+        {
+          "name": "Velouté parmentier à la truffe noire de Jean Garcia",
+          "price_cents": 1900
+        },
+        {
+          "name": "Foie gras de canard poêlé, espuma de panais, passion, cacao",
+          "price_cents": 2200
+        },
+        {
+          "name": "L'huître 'spéciale' N 2 Maison Tarbouriech",
+          "price_cents": 2400
+        },
+        {
+          "name": "Poireau braisé et tartare d'huîtres d'Oléron aux algues fraîches",
+          "price_cents": 2500
+        },
+        {
+          "name": "Belles ravioles de volaille fermière, crème de Paris à l'ail doux",
+          "price_cents": 2700,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "La pastorale de légumes, champignons et fruits de printemps",
+          "price_cents": 2800
+        },
+        {
+          "name": "Omble « Ikejime » du Cézallier, morilles et asperges sauvageonnes",
+          "price_cents": 3600
+        },
+        {
+          "name": "Carré de veau de pays rôti au foin, pressé de pommes de terre",
+          "price_cents": 4000,
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts & Fromages",
+      "items": [
+        {
+          "name": "Les fromages du pays au lait cru affinés aux Artisous",
+          "price_cents": 1600
+        },
+        {
+          "name": "Notre tiramisu « terre vellave » à la Verveine Verte du Velay",
+          "price_cents": 1800,
+          "is_highlight": true
+        },
+        {
+          "name": "Un autre regard sur le millefeuille au citron de la Riviera",
+          "price_cents": 1800
+        },
+        {
+          "name": "Baba bouchon à la prune de pays, chantilly de mascarpone",
+          "price_cents": 1700
+        }
+      ]
+    },
+    {
+      "category_type": "formula",
+      "display_label": "Menus",
+      "items": [
+        {
+          "name": "Menu Inspiration Gourmande 'Sur le Chemin' (6 étapes)",
+          "price_cents": 8600
+        }
+      ]
+    }
+  ]
+}

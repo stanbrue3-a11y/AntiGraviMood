@@ -1,0 +1,357 @@
+
+📋 AUDIT — Opla - Banh Mi & more [PUBLISHED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ❌ subcategories
+  ✅ has_terrace
+  ❌ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 8/11 (73%)
+  — PHASE 2 (Menu — requiert photo) —
+  ✅ on_mange_quoi_ici
+  ✅ plat_median_cents
+==================================================
+  🟢 Fiche publiée et complète.
+
+📋 AUDIT — Papy aux Fourneaux [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ❌ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 9/11 (82%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 2 champ(s) manquant(s).
+
+📋 AUDIT — Partage brasserie [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ❌ nearest_metro
+  ❌ metro_lines
+  ❌ subcategories
+  ✅ has_terrace
+  ❌ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 7/11 (64%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 4 champ(s) manquant(s).
+
+📋 AUDIT — Partages [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Restaurant La Cantine du Troquet Daguerre [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).
+
+📋 AUDIT — Senatore [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Slow [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Soucoté [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Sushi Gozen [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Ten Chi [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).
+
+📋 AUDIT — Terra Mia [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 10/11 (91%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 1 champ(s) manquant(s).
+
+📋 AUDIT — Tripletta Gaité [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ❌ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 9/11 (82%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 2 champ(s) manquant(s).
+
+📋 AUDIT — Umami Burger [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ❌ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ❌ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 9/11 (82%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  ⚠️  Phase 1 incomplète — 2 champ(s) manquant(s).
+
+📋 AUDIT — Yatai Ramen Montparnasse [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).
+
+📋 AUDIT — Restaurant MONTÉE [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).
+
+📋 AUDIT — Yakitori Montparnasse [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).
+
+📋 AUDIT — Toritcho [SCAFFOLDED]
+==================================================
+  — PHASE 1 (Enrichissement éditorial) —
+  ✅ description (200 car. min)
+  ✅ insider_tip (3 • min)
+  ✅ dominant_mood
+  ✅ nearest_metro
+  ✅ metro_lines
+  ✅ subcategories
+  ✅ has_terrace
+  ✅ reservation_policy
+  ✅ hero_image
+  ✅ closes_late
+  ✅ Audit F.I.P.P (Façade #1)
+  Score Phase 1 : 11/11 (100%)
+  — PHASE 2 (Menu — requiert photo) —
+  ⏳ on_mange_quoi_ici
+  ⏳ plat_median_cents
+==================================================
+  🟡 Phase 1 complète. En attente de la photo du menu (Phase 2).

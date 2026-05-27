@@ -162,31 +162,30 @@ export const PinImages = React.memo(() => {
   );
 });
 
-// ─── MINI-DOT LAYER (GPU Circle — visible at medium zoom, hides instantly at zoom 14.0) ───
+// ─── MINI-DOT LAYER (GPU Circle — visible at medium zoom) ───
 export const MiniDotLayer = React.memo(() => {
   return (
     <Mapbox.CircleLayer
       id="mini-dots"
       sourceID="placesSource"
       filter={['!', ['has', 'point_count']]}
-      maxZoomLevel={14.0}
-      belowLayerID="points-static"
+      maxZoomLevel={15.0} // Visible until close zoom
       style={
         {
           circleOpacity: 1,
           circleStrokeOpacity: 1,
 
-          // Premium places are slightly larger to stand out at city levels
+          // All points have the exact same size, scaling with zoom
           circleRadius: [
             'interpolate',
             ['linear'],
             ['zoom'],
             10,
-            ['case', ['get', 'is_premium'], 3.2, 1.8],
+            2.2,
             13,
-            ['case', ['get', 'is_premium'], 6.0, 4.2],
-            14.0,
-            ['case', ['get', 'is_premium'], 7.5, 5.5],
+            4.2,
+            15,
+            5.2,
           ] as any,
 
           circleColor: ['get', 'mood_color'] as any,
@@ -199,7 +198,7 @@ export const MiniDotLayer = React.memo(() => {
             1.0,
             13,
             1.8,
-            14.0,
+            15,
             2.2,
           ] as any,
           circleStrokeColor: '#FFFFFF',
@@ -214,54 +213,13 @@ interface PinLayersProps {
   isBouncing: boolean;
 }
 
-// ─── ZOOM THRESHOLDS ───
-// Premium pins appear earlier (zoom 13.5→14.5), standard pins later (zoom 14→15.5)
-const PREMIUM_FADE_IN: [number, number, number, number] = [13.5, 0, 14.5, 1];
-const STANDARD_FADE_IN: [number, number, number, number] = [14, 0, 15.5, 1];
-
-/** Mapbox expression: icon size grows from small dot to full size with zoom */
-const pinSize = [
-  'interpolate',
-  ['linear'],
-  ['zoom'],
-  13.5,
-  0.4,
-  14.5,
-  ['case', ['get', 'is_premium'], 0.7, 0.4],
-  15.5,
-  0.85,
-];
-
 export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) => {
   const sortKey = ['*', -1, ['get', 'relevance_score']] as any;
 
+
   return (
     <>
-      {/* A. NAME LABEL (Right - Simple Text + Halo) */}
-      <Mapbox.SymbolLayer
-        id="place-name-labels"
-        minZoomLevel={13.5}
-        sourceID="placesSource"
-        filter={['!', ['has', 'point_count']]}
-        style={
-          {
-            textField: ['get', 'name'],
-            textColor: ['get', 'mood_color'],
-            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
-            textSize: 12,
-            textAnchor: 'left',
-            textOffset: [1.5, 0],
-            textAllowOverlap: false,
-            textIgnorePlacement: true,
-            textHaloColor: '#000000',
-            textHaloWidth: 1.5,
-            textHaloBlur: 0,
-            textOpacity: 1,
-            symbolSortKey: sortKey,
-          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
-        }
-      />
-
+      {/* 1. FULL PINS (Static) - Icon and Name grouped together. Activated at zoom 13.5. */}
       <Mapbox.SymbolLayer
         id="points-static"
         minZoomLevel={13.5}
@@ -275,15 +233,40 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
           {
             iconImage: ['get', 'icon_image'],
             iconAllowOverlap: false,
-            iconIgnorePlacement: true,
-            iconSize: pinSize as unknown as number,
+            iconIgnorePlacement: false, // participates in collision detection
+            iconSize: 0.85, // Constant size to ensure they look like pins, not points, at zoom
             iconAnchor: 'center',
             iconOpacity: 1,
+
+            textField: [
+              'format',
+              ['case', ['==', ['get', 'rating'], ''], '', ['concat', '★', ['get', 'rating']]],
+              { 'font-scale': 0.95 },
+              ['case', ['==', ['get', 'rating'], ''], '', '\n'],
+              {},
+              ['get', 'name'],
+              {},
+            ] as any,
+            textColor: ['get', 'mood_color'],
+            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            textSize: 11,
+            textVariableAnchor: ['right', 'left'] as any,
+            textRadialOffset: 1.5,
+            textAllowOverlap: false,
+            textIgnorePlacement: false,
+            textOptional: true, // Allow icon to show even if the name text collides (Naked Pin behavior)
+            textHaloColor: '#000000',
+            textHaloWidth: 1.5,
+            textHaloBlur: 0,
+            textOpacity: 1,
+
             symbolSortKey: sortKey,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
 
+
+      {/* 3. ACTIVE PIN (Always visible, highest visual priority) */}
       <Mapbox.SymbolLayer
         id="points-active"
         minZoomLevel={13.5}
@@ -298,114 +281,38 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             iconImage: ['get', 'icon_image'],
             iconAllowOverlap: true,
             iconIgnorePlacement: true,
-            iconSize: 0.95,
+            iconSize: 0.85, // Harmonized size at 0.85
             iconAnchor: 'center',
             iconTranslate: isBouncing ? [0, -25] : [0, 0],
             iconTranslateTransition: { duration: 150, delay: 0 },
-          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
-        }
-      />
 
-      {/* B. RATING (Directly Above Pin) */}
-      <Mapbox.SymbolLayer
-        id="place-rating-labels"
-        minZoomLevel={13.5}
-        sourceID="placesSource"
-        filter={['!', ['has', 'point_count']]}
-        style={
-          {
-            textField: ['concat', '★', ['get', 'rating']],
+            textField: [
+              'format',
+              ['case', ['==', ['get', 'rating'], ''], '', ['concat', '★', ['get', 'rating']]],
+              { 'font-scale': 1.0 },
+              ['case', ['==', ['get', 'rating'], ''], '', '\n'],
+              {},
+              ['get', 'name'],
+              {},
+            ] as any,
             textColor: ['get', 'mood_color'],
             textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
             textSize: 12,
-            textAnchor: 'center',
-            textOffset: [-0.3, -2.1],
-            textAllowOverlap: false,
-            textIgnorePlacement: true,
-            textHaloColor: '#000000',
-            textHaloWidth: 1.8,
-            textHaloBlur: 0,
-            textOpacity: 1,
-            symbolSortKey: sortKey,
-          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
-        }
-      />
-
-      {/* C. NEW LOT INDICATOR (Small Green Dot on the Left) */}
-      <Mapbox.SymbolLayer
-        id="new-lot-indicator"
-        minZoomLevel={13.5}
-        sourceID="placesSource"
-        filter={[
-          'all',
-          ['!', ['has', 'point_count']],
-          ['==', ['get', 'is_new_lot'], true],
-          ['!=', ['get', 'is_pastille_rouge'], true],
-        ]}
-        style={
-          {
-            textField: '●',
-            textColor: '#4ADE80',
-            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
-            textSize: 14,
-            textAnchor: 'center',
-            textOffset: [-1.2, 0.4], // Offset to the left and slightly down to avoid rating overlap
+            textAnchor: 'left',
+            textOffset: [1.5, 0],
             textAllowOverlap: true,
             textIgnorePlacement: true,
+            textTranslate: isBouncing ? [0, -25] : [0, 0],
+            textTranslateTransition: { duration: 150, delay: 0 },
             textHaloColor: '#000000',
-            textHaloWidth: 2,
+            textHaloWidth: 1.5,
             textHaloBlur: 0,
             textOpacity: 1,
           } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
         }
       />
 
-      {/* D. PASTILLE BLEUE INDICATOR (Small Blue Dot on the Left) */}
-      <Mapbox.SymbolLayer
-        id="pastille-bleue-indicator"
-        minZoomLevel={13.5}
-        sourceID="placesSource"
-        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_pastille_bleue'], true]]}
-        style={
-          {
-            textField: '●',
-            textColor: '#3B82F6',
-            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
-            textSize: 14,
-            textAnchor: 'center',
-            textOffset: [-1.2, 0.4],
-            textAllowOverlap: true,
-            textIgnorePlacement: true,
-            textHaloColor: '#000000',
-            textHaloWidth: 2,
-            textHaloBlur: 0,
-            textOpacity: 1,
-          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
-        }
-      />
-      {/* E. PASTILLE ROUGE INDICATOR (Small Red Dot on the Left) */}
-      <Mapbox.SymbolLayer
-        id="pastille-rouge-indicator"
-        minZoomLevel={13.5}
-        sourceID="placesSource"
-        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_pastille_rouge'], true]]}
-        style={
-          {
-            textField: '●',
-            textColor: '#EF4444',
-            textFont: ['Open Sans Bold', 'Arial Unicode MS Bold'],
-            textSize: 14,
-            textAnchor: 'center',
-            textOffset: [-1.2, -0.6], // Offset slightly higher to avoid total overlap with blue/green
-            textAllowOverlap: true,
-            textIgnorePlacement: true,
-            textHaloColor: '#000000',
-            textHaloWidth: 2,
-            textHaloBlur: 0,
-            textOpacity: 1,
-          } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
-        }
-      />
+
     </>
   );
 });

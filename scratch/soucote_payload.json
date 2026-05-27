@@ -1,0 +1,202 @@
+{
+  "on_mange_quoi_ici": "Cuisine fusion créative. Bagel Boeuf & Burrata et assiettes à partager.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.51.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.55.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.59.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.56.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.56.06.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.51.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.55.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.55.59.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.56.02.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/soucote/Capture_d_e_cran_2026-05-24_a__15.56.06.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": 8,
+  "cocktail_price": 11,
+  "coffee_price": 2.5,
+  "wine_glass": 5.5,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Bagels (le midi)",
+      "items": [
+        {
+          "name": "Bagel Betterave & chèvre frais",
+          "price_cents": 900,
+          "description": "Coulis de betterave au citron vert, pickles de légumes de saison, chèvre frais, zestes de citron, coriandre"
+        },
+        {
+          "name": "Bagel Bœuf & burrata",
+          "price_cents": 1000,
+          "description": "Bresaola, burrata crémeuse, mayonnaise au cumin"
+        },
+        {
+          "name": "Bagel Chorizo & ketchup oignons rouges",
+          "price_cents": 1150,
+          "description": "Chorizo, ketchup oignons rouges, noisettes concassées, radis finement tranchés"
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "Assiettes à partager (le soir)",
+      "items": [
+        {
+          "name": "Coulis de rhubarbe, chèvre frais, pickles d'ananas, courgette et coriandre",
+          "price_cents": 750
+        },
+        {
+          "name": "Guacamole de mangue et avocat, huile au paprika",
+          "price_cents": 1000
+        },
+        {
+          "name": "Pain pita, ketchup d'oignon rouge, compotée de tomates à l'huile d'olive, chou rouge aux épices et charcuterie du jour",
+          "price_cents": 1100
+        },
+        {
+          "name": "Chorizo infusé au miel et cajun, yaourt grec et concombre, herbes fraîches et pain pita",
+          "price_cents": 900
+        },
+        {
+          "name": "Mini salade Soucoté du jour",
+          "price_cents": 700
+        },
+        {
+          "name": "Houmous de brocoli et pois chiches",
+          "price_cents": 1100
+        },
+        {
+          "name": "Burrata crémeuse, vinaigre balsamique à la grenade et sel fumé",
+          "price_cents": 1200
+        },
+        {
+          "name": "Pain multigrain, mayonnaise au cumin, mozzarella, carottes marinées à l'hibiscus et bresaola",
+          "price_cents": 1200
+        },
+        {
+          "name": "Planche mixte (charcuterie et fromage) - Petite",
+          "price_cents": 1400
+        },
+        {
+          "name": "Planche mixte (charcuterie et fromage) - Grande",
+          "price_cents": 2300
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Panna cotta du jour",
+          "price_cents": 600,
+          "description": "Coulis de pêche, yaourt aux agrumes et noisettes torréfiées aux épices"
+        },
+        {
+          "name": "Tartelette aux fraises infusées au romarin",
+          "price_cents": 800
+        },
+        {
+          "name": "Ganache au chocolat",
+          "price_cents": 700,
+          "description": "Raisin infusé à l'huile de menthe"
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Poretti Lager 5.0° (25cl)",
+          "price_cents": 450
+        },
+        {
+          "name": "Poretti Lager 5.0° (pinte 50cl)",
+          "price_cents": 800
+        },
+        {
+          "name": "Aperol Spritz / Amaretto Spritz",
+          "price_cents": 1100
+        },
+        {
+          "name": "Gin tonic",
+          "price_cents": 1100
+        },
+        {
+          "name": "St.Germain Spritz / Commandaria spritz",
+          "price_cents": 1200
+        },
+        {
+          "name": "KEO - lager Chypriote (bouteille/canette 33cl)",
+          "price_cents": 600
+        },
+        {
+          "name": "Vin blanc Palooza (verre)",
+          "price_cents": 550
+        },
+        {
+          "name": "Vin rouge Palooza (verre)",
+          "price_cents": 550
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons sans alcool",
+      "items": [
+        {
+          "name": "Espresso / Déca / Allongé",
+          "price_cents": 250
+        },
+        {
+          "name": "Cappuccino / Café au lait / Chocolat chaud",
+          "price_cents": 500
+        },
+        {
+          "name": "Thé / Double Espresso",
+          "price_cents": 450
+        },
+        {
+          "name": "NONA June Tonic - Sans Alcool",
+          "price_cents": 1000
+        },
+        {
+          "name": "Amaretto sour - Sans Alcool",
+          "price_cents": 1000
+        },
+        {
+          "name": "Coca-Cola / Coca-Cola Zéro (33cl)",
+          "price_cents": 500
+        },
+        {
+          "name": "Orangina / Tonic / Sprite (25cl)",
+          "price_cents": 500
+        }
+      ]
+    }
+  ]
+}

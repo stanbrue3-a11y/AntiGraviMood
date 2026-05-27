@@ -1,0 +1,125 @@
+{
+  "on_mange_quoi_ici": "Cuisine japonaise. Menu Bento M16 & Chirashi Saumon.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.26.45.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.26.51.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.26.54.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.26.57.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.27.00.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/yakitori-montparnasse/Capture_d_e_cran_2026-05-24_a__16.27.04.png"
+  ],
+  "pint_price": 6.5,
+  "cocktail_price": null,
+  "coffee_price": 2.5,
+  "wine_glass": 5.5,
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Hors d'oeuvres",
+      "items": [
+        {
+          "name": "Soupe Miso",
+          "price_cents": 280,
+          "description": "Potage de soja avec algues et tofu",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade Crudité",
+          "price_cents": 300,
+          "description": "Salade de choux, carottes et concombres vinaigrés",
+          "is_highlight": false
+        },
+        {
+          "name": "Gyoza Poulet",
+          "price_cents": 650,
+          "description": "Raviolis grillés japonais au poulet et légumes (6 pièces)",
+          "is_highlight": false
+        },
+        {
+          "name": "Ebi Tempura",
+          "price_cents": 750,
+          "description": "Beignets de crevettes croustillants (3 pièces)",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Menus & Chirashi",
+      "items": [
+        {
+          "name": "Menu Bento M16",
+          "price_cents": 1800,
+          "description": "6 california saumon avocat, 2 sushi saumon, 4 sashimi, 3 brochettes (1 poulet, 1 boeuf au fromage, 1 saumon), servis avec soupe, salade et riz",
+          "is_highlight": true
+        },
+        {
+          "name": "Chirashi Saumon M15D",
+          "price_cents": 1300,
+          "description": "Tranches de saumon cru dans un bol de riz vinaigré, servi avec soupe et salade",
+          "is_highlight": true
+        },
+        {
+          "name": "Anage Don M14",
+          "price_cents": 1950,
+          "description": "Anguille grillée dans un bol de riz, servi avec soupe et salade",
+          "is_highlight": false
+        },
+        {
+          "name": "Gyudon M18",
+          "price_cents": 1450,
+          "description": "Grand bol de riz au boeuf sauté à la sauce soja japonaise, servi avec soupe et salade",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Mochis glacés",
+          "price_cents": 550,
+          "description": "Assortiment de deux mochis glacés japonais",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Coca-Cola / Coca zero (33cl)",
+          "price_cents": 450,
+          "description": "Canette 33cl",
+          "is_highlight": false
+        },
+        {
+          "name": "Limonade japonaise (20cl)",
+          "price_cents": 400,
+          "description": "Ramune originale",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Bière Asahi (50cl)",
+          "price_cents": 650,
+          "description": "Bière blonde japonaise en bouteille",
+          "is_highlight": false
+        },
+        {
+          "name": "Saké Hakutsuru",
+          "price_cents": 1350,
+          "description": "Flacon 300ml, 14.5% vol.",
+          "is_highlight": false
+        }
+      ]
+    }
+  ]
+}

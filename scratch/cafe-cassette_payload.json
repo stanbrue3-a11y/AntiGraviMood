@@ -1,0 +1,242 @@
+{
+  "on_mange_quoi_ici": "Cuisine de brasserie. Bacon burger Cassette & Confit de canard à l'ancienne.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.31.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.37.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.40.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.43.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.49.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.52.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.55.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.58.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.51.02.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.51.05.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.51.08.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.51.11.png"
+  ],
+  "pint_price": null,
+  "cocktail_price": 14,
+  "coffee_price": 3.7,
+  "wine_glass": 7,
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/cafe-cassette/Capture_d_e_cran_2026-05-25_a__21.50.31.png",
+      "photo_date": "2026-05-25",
+      "raw_date_label": "mai 2026"
+    }
+  ],
+  "menu_items": [
+    {
+      "category_type": "starter",
+      "display_label": "Entrées",
+      "items": [
+        {
+          "name": "Oeufs mayonnaise traditionnels",
+          "price_cents": 1000,
+          "description": "Oeufs mayonnaise de tradition",
+          "is_highlight": false
+        },
+        {
+          "name": "Soupe à l'oignon traditionnelle",
+          "price_cents": 1400,
+          "description": "Gratinée au fromage",
+          "is_highlight": false
+        },
+        {
+          "name": "Burrata crémeuse",
+          "price_cents": 1600,
+          "description": "Tomates colorées et pesto",
+          "is_highlight": false
+        },
+        {
+          "name": "Tartare de thon mariné",
+          "price_cents": 1700,
+          "description": "Citronnelle, gingembre, avocat et citron vert",
+          "is_highlight": true
+        },
+        {
+          "name": "Belle assiette de saumon fumé",
+          "price_cents": 1900,
+          "description": "Crème de ciboulette et ses toasts",
+          "is_highlight": false
+        },
+        {
+          "name": "Escargots x6",
+          "price_cents": 1500,
+          "description": "Six escargots préparés",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "main",
+      "display_label": "Plats",
+      "items": [
+        {
+          "name": "Bavette de bœuf à l'échalote",
+          "price_cents": 2100,
+          "description": "200g, servie avec frites maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Confit de canard à l'ancienne",
+          "price_cents": 2300,
+          "description": "Accompagné de pommes sarladaises",
+          "is_highlight": true
+        },
+        {
+          "name": "Bacon burger Cassette",
+          "price_cents": 2200,
+          "description": "Simple steak de bœuf 140g, bun, tomates, cheddar fondu, sauce américaine, oignons, frites maison",
+          "is_highlight": true
+        },
+        {
+          "name": "Filet de bar à la plancha",
+          "price_cents": 2500,
+          "description": "Aux agrumes, servi avec wok de légumes",
+          "is_highlight": false
+        },
+        {
+          "name": "Filet de bœuf",
+          "price_cents": 2800,
+          "description": "Sauce au poivre, servi avec frites maison",
+          "is_highlight": false
+        },
+        {
+          "name": "Risotto de coquillettes à la truffe",
+          "price_cents": 2300,
+          "description": "Jambon blanc truffé, roquette et copeaux de parmesan",
+          "is_highlight": false
+        },
+        {
+          "name": "Lasagnes ricotta & épinards",
+          "price_cents": 2100,
+          "description": "Gruyère gratiné",
+          "is_highlight": false
+        },
+        {
+          "name": "Salade italienne",
+          "price_cents": 2200,
+          "description": "Jeunes pousses d'épinard, burrata, jambon de pays, pomme Granny Smith, tomates cerises, œuf dur",
+          "is_highlight": false
+        },
+        {
+          "name": "Poke bowl au thon",
+          "price_cents": 2200,
+          "description": "Thon mariné, quinoa, avocat, carottes, légumes de saison, concombre, mangue, graines torréfiées, pois chiches, radis",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "sharing",
+      "display_label": "À Partager",
+      "items": [
+        {
+          "name": "Sticks de mozzarella",
+          "price_cents": 1200,
+          "description": "Mozzarella sticks frits",
+          "is_highlight": false
+        },
+        {
+          "name": "Croquettes de cecina & brebis",
+          "price_cents": 1400,
+          "description": "Accompagnées de guacamole",
+          "is_highlight": false
+        },
+        {
+          "name": "Planche mixte",
+          "price_cents": 2600,
+          "description": "Fromages affinés et charcuterie",
+          "is_highlight": true
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Brioche façon pain perdu",
+          "price_cents": 1200,
+          "description": "Glace caramel beurre salé",
+          "is_highlight": true
+        },
+        {
+          "name": "Mi-cuit au chocolat",
+          "price_cents": 1300,
+          "description": "Servi avec glace vanille",
+          "is_highlight": false
+        },
+        {
+          "name": "Crème brûlée",
+          "price_cents": 1200,
+          "description": "Crème brûlée vanille",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "soft_drink",
+      "display_label": "Boissons Sans Alcool",
+      "items": [
+        {
+          "name": "Expresso",
+          "price_cents": 370,
+          "description": "Café Perle Noire 100% arabica de la Maison Richard",
+          "is_highlight": false
+        },
+        {
+          "name": "Café crème",
+          "price_cents": 650,
+          "description": "Café crème",
+          "is_highlight": false
+        },
+        {
+          "name": "Citronnade maison",
+          "price_cents": 1200,
+          "description": "Citron pressé, limonade, menthe fraîche",
+          "is_highlight": false
+        },
+        {
+          "name": "Coca-Cola",
+          "price_cents": 690,
+          "description": "33 cl",
+          "is_highlight": false
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons Alcoolisées",
+      "items": [
+        {
+          "name": "Verre de Côtes du Rhône",
+          "price_cents": 700,
+          "description": "AOP Pure Garrigue (12 cl)",
+          "is_highlight": false
+        },
+        {
+          "name": "Verre de Mâcon-Villages",
+          "price_cents": 1300,
+          "description": "AOP Collovray et Terrier-Orchys (12 cl)",
+          "is_highlight": false
+        },
+        {
+          "name": "Aperol Spritz",
+          "price_cents": 1400,
+          "description": "Aperol, prosecco, Perrier",
+          "is_highlight": false
+        },
+        {
+          "name": "Rennes du Cassette",
+          "price_cents": 1600,
+          "description": "Vodka Skyy, Cointreau, citron, sucre, ananas, grenade et Schweppes hibiscus",
+          "is_highlight": true
+        }
+      ]
+    }
+  ]
+}

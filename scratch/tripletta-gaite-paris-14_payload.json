@@ -1,0 +1,256 @@
+{
+  "on_mange_quoi_ici": "Cuisine italienne. Pizza Margherita DOP & Pizza Tripletta.",
+  "Url_Photos_Menu": [
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.34.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.37.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.41.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.46.png",
+    "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.59.png"
+  ],
+  "menu_photos": [
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.34.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.37.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.41.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.46.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    },
+    {
+      "url": "https://sfirkmmgkorhblpejrnw.supabase.co/storage/v1/object/public/place-media/menus/tripletta-gaite-paris-14/Capture_d_e_cran_2026-05-24_a__16.04.59.png",
+      "photo_date": "2026-05-24",
+      "raw_date_label": "2026-05-24"
+    }
+  ],
+  "pint_price": null,
+  "cocktail_price": 8,
+  "coffee_price": null,
+  "wine_glass": 6,
+  "menu_items": [
+    {
+      "category_type": "main",
+      "display_label": "Pizzas & Plats au Four",
+      "items": [
+        {
+          "name": "Marinara",
+          "price_cents": 1000,
+          "description": "Double sauce tomate San Marzano DOP, ail, huile d'olive extra vierge bio, origan, basilic frais"
+        },
+        {
+          "name": "Margherita DOP",
+          "price_cents": 1200,
+          "description": "Sauce tomate San Marzano DOP, grana padano DOP, basilic frais, mozzarella fior di latte"
+        },
+        {
+          "name": "Prosciutto e Funghi",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, grana padano DOP, basilic frais, mozzarella fior di latte, jambon blanc, champignons cuits et crus"
+        },
+        {
+          "name": "Cheesus Christ",
+          "price_cents": 1500,
+          "description": "Mozzarella fior di latte, basilic frais, provola affumicata, gorgonzola DOP, brie, grana padano DOP"
+        },
+        {
+          "name": "Tripletta",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, mozzarella fior di latte, spianata calabra, piments verts, 'nduja di Spilinga, grana padano DOP, basilic frais"
+        },
+        {
+          "name": "Speckiale",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, mozzarella fior di latte, brie, speck artisanal, origan, oignons rouges, basilic frais"
+        },
+        {
+          "name": "Brooklyn",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, grana padano DOP, basilic frais, mozzarella fior di latte, double pepperoni"
+        },
+        {
+          "name": "Vegetariana d'Inverno",
+          "price_cents": 1500,
+          "description": "Crème de potimarron, mozzarella fior di latte, champignons sautés, pickles de piments rouges, graines de courges, grana padano DOP, basilic frais"
+        },
+        {
+          "name": "Calzone",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, mozzarella fior di latte, ricotta, grana padano DOP, basilic frais"
+        },
+        {
+          "name": "Belleville",
+          "price_cents": 1500,
+          "description": "Mozzarella fior di latte, olives, basilic frais, tomates confites maison, filets de thon de Cetara, oignons rouges, zeste de citron"
+        },
+        {
+          "name": "Bufala DOP",
+          "price_cents": 1600,
+          "description": "Sauce tomate San Marzano DOP, basilic frais, mozzarella di bufala DOP, copeaux de grana padano DOP, huile d'olive extra vierge DOP"
+        },
+        {
+          "name": "Polpetta",
+          "price_cents": 1700,
+          "description": "Sauce tomate San Marzano DOP, mozzarella fior di latte, polpette de veau, oignons rouges, origan, basilic frais"
+        },
+        {
+          "name": "Napoli",
+          "price_cents": 1400,
+          "description": "Sauce tomate San Marzano DOP, basilic frais, origan, olives, câpres PSF, filets d'anchois de Cetara"
+        },
+        {
+          "name": "Speciale Tartufo",
+          "price_cents": 1800,
+          "description": "Crème de truffe, speck artisanal, mozzarella fior di latte, basilic frais"
+        },
+        {
+          "name": "Gran Paradiso",
+          "price_cents": 1800,
+          "description": "Mozzarella fior di latte, taleggio DOP, coppa di Parma, basilic frais"
+        },
+        {
+          "name": "Zucca",
+          "price_cents": 1500,
+          "description": "Crème de potimarron, mozzarella fior di latte d'Agerola, provola, 'nduja di Spilinga, basilic frais"
+        },
+        {
+          "name": "Lasagnes Bolognese",
+          "price_cents": 1700,
+          "description": "Pâtes fraîches aux œufs et épinards, sauce bolognaise, béchamel, parmesan, mozzarella"
+        },
+        {
+          "name": "Lasagnes Truffe",
+          "price_cents": 1700,
+          "description": "Pâtes fraîches aux œufs, ricotta, béchamel à la tartufata, champignons bruns, grana padano DOP, mozzarella fior di latte, basilic"
+        },
+        {
+          "name": "Parmigiana",
+          "price_cents": 1500,
+          "description": "Aubergines délicatement frites, sauce tomate San Marzano, provola"
+        }
+      ]
+    },
+    {
+      "category_type": "starter",
+      "display_label": "Antipasti",
+      "items": [
+        {
+          "name": "Parmesan 24 mois DOP et olives vertes di Granata",
+          "price_cents": 600
+        },
+        {
+          "name": "Burratina",
+          "price_cents": 1000,
+          "description": "125 Gr, servie avec une part de focaccia barese et huile d'olive extra vierge"
+        },
+        {
+          "name": "Burratina Anchois",
+          "price_cents": 1200,
+          "description": "Avec filets d'anchois de Cetara et zeste de citron, servie avec focaccia barese"
+        },
+        {
+          "name": "Burratina Tomates Confites",
+          "price_cents": 1200,
+          "description": "Avec tomates Datterino confites, servie avec focaccia barese"
+        },
+        {
+          "name": "Burratina Pesto Genovese",
+          "price_cents": 1200,
+          "description": "Avec pesto de basilic frais, servie avec focaccia barese"
+        },
+        {
+          "name": "Poivron grillé mariné et stracciatella",
+          "price_cents": 900,
+          "description": "Crumble de pecorino et huile d'herbes, servi avec focaccia barese"
+        },
+        {
+          "name": "Focaccia Classica",
+          "price_cents": 500,
+          "description": "Huile d'olive extra vierge, origan"
+        }
+      ]
+    },
+    {
+      "category_type": "dessert",
+      "display_label": "Desserts",
+      "items": [
+        {
+          "name": "Tiramisu",
+          "price_cents": 800
+        },
+        {
+          "name": "Affogato",
+          "price_cents": 600,
+          "description": "Café et glace à la fleur de lait"
+        },
+        {
+          "name": "Cheesecake Napoletano",
+          "price_cents": 800,
+          "description": "Torta napoletana à la ricotta, crème de citron et orange, zeste de citron"
+        },
+        {
+          "name": "Delizia",
+          "price_cents": 800,
+          "description": "Pizza à la Nocciolata et noisettes concassées"
+        },
+        {
+          "name": "Mousse au chocolat",
+          "price_cents": 900,
+          "description": "Pistaches torréfiées, huile d'olive extra vierge"
+        }
+      ]
+    },
+    {
+      "category_type": "alcohol_drink",
+      "display_label": "Boissons alcoolisées",
+      "items": [
+        {
+          "name": "Select Spritz",
+          "price_cents": 800
+        },
+        {
+          "name": "Spritz Bianco",
+          "price_cents": 800
+        },
+        {
+          "name": "Negroni",
+          "price_cents": 700
+        },
+        {
+          "name": "Americano",
+          "price_cents": 800
+        },
+        {
+          "name": "Basilico",
+          "price_cents": 900
+        },
+        {
+          "name": "Dark & Stormy",
+          "price_cents": 1000
+        },
+        {
+          "name": "Bourbon Sour",
+          "price_cents": 1000
+        },
+        {
+          "name": "Expresso Martini",
+          "price_cents": 900
+        },
+        {
+          "name": "Divina Vin (verre)",
+          "price_cents": 600
+        }
+      ]
+    }
+  ]
+}
