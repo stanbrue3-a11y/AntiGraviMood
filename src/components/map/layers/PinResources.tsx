@@ -288,14 +288,10 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
             textHaloWidth: 1.5,
             textHaloBlur: 0,
             textOpacity: [
-              'interpolate',
-              ['linear'],
+              'step',
               ['zoom'],
-              11,
               0.0,
-              12,
-              0.3,
-              14,
+              13.0,
               1.0,
             ] as any,
 

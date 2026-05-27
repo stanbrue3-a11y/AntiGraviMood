@@ -155,7 +155,6 @@ export default function MapScreen() {
   }, [mapCameraRequest]);
 
   // --- HANDLERS ---
-  // C3 FIX: Synchronous — no more blocking `await getZoom()` bridge call.
   const handlePlacePress = useCallback(
     (placeId: string, coordinates: [number, number]) => {
       Haptics.selectionAsync();
