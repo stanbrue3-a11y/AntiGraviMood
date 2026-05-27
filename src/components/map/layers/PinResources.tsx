@@ -158,51 +158,45 @@ export const PinImages = React.memo(() => {
           </Svg>
         </Mapbox.Image>
       ))}
+
+      {/* 🔴 Mini-dots images to bypass Mapbox Standard 3D lighting in dark mode */}
+      {(['chill', 'festif', 'culturel'] as const).map((mood) => (
+        <Mapbox.Image key={`dot-${mood}`} name={`dot-${mood}`}>
+          <Svg height="16" width="16" viewBox="0 0 16 16">
+            <Circle cx="8" cy="8" r="8" fill="white" />
+            <Circle cx="8" cy="8" r="5.6" fill={MOOD_COLORS[mood]} />
+          </Svg>
+        </Mapbox.Image>
+      ))}
     </>
   );
 });
 
-// ─── MINI-DOT LAYER (GPU Circle — visible at medium zoom) ───
+// ─── MINI-DOT LAYER (GPU Symbol — visible at medium zoom, ignores 3D lighting) ───
 export const MiniDotLayer = React.memo(() => {
   return (
-    <Mapbox.CircleLayer
+    <Mapbox.SymbolLayer
       id="mini-dots"
       sourceID="placesSource"
       filter={['!', ['has', 'point_count']]}
-      maxZoomLevel={22} // Keep dots visible at all zoom levels as fallback
       style={
         {
-          circleOpacity: 1,
-          circleStrokeOpacity: 1,
-
-          // All points have the exact same size, scaling with zoom
-          circleRadius: [
+          iconImage: ['concat', 'dot-', ['get', 'mood']],
+          iconAllowOverlap: true,
+          iconIgnorePlacement: true,
+          iconSize: [
             'interpolate',
             ['linear'],
             ['zoom'],
             10,
-            2.2,
+            0.40,
             13,
-            4.2,
+            0.75,
             15,
-            5.2,
+            0.93,
           ] as any,
-
-          circleColor: ['get', 'mood_color'] as any,
-
-          circleStrokeWidth: [
-            'interpolate',
-            ['linear'],
-            ['zoom'],
-            10,
-            1.0,
-            13,
-            1.8,
-            15,
-            2.2,
-          ] as any,
-          circleStrokeColor: '#FFFFFF',
-        } as React.ComponentProps<typeof Mapbox.CircleLayer>['style']
+          symbolSortKey: ['*', -1, ['get', 'relevance_score']] as any,
+        } as React.ComponentProps<typeof Mapbox.SymbolLayer>['style']
       }
     />
   );
