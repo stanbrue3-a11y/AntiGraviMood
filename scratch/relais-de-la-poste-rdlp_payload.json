@@ -1,0 +1,29 @@
+{
+  "description": "Ce bistrot de quartier de la rue du Cherche-Midi accueille ses convives dans un décor feutré aux tables en bois verni et chaises classiques. Les murmures des conversations et le tintement des verres de vin accompagnent une ardoise courte de classiques français faits maison. Le lieu dispose également d'une petite terrasse agréable pour observer le passage.",
+  "insider_tips": [
+    "Commande leur tartare de bœuf préparé minute, une spécialité de la maison très appréciée.",
+    "Installe-toi en terrasse sur le trottoir pour profiter de la douceur du quartier lors des beaux jours.",
+    "Privilégie une visite au déjeuner pour tester leur formule midi au très bon rapport qualité-prix."
+  ],
+  "dominant_mood": "chill",
+  "nearest_metro": "Saint-Placide",
+  "metro_lines": ["4"],
+  "has_terrace": true,
+  "reservation_policy": "resa_conseillee",
+  "subcategories": ["bistrot", "francaise"],
+  "hero_image": "Ab43m-tAUhk_utu9Cg1ohBeYsjO3RUIhWUPSfnDYpJJnAnlzNhrWnK71Z-cP-7DXW1SNPEx12e6x1SZRoqm7Bu9emJOjReMqodMVPvmWhQetpHSJuXfc8cYEa1DXOgf32kwJJdhOOugyJ3h95BF0-llJp1a0P7ITX-XP4XzOQaYzb9IjauVX16bge72f6bJImysjRTA4Es0FOn8oBVfKRfRRj51HnAyGTc9vbk3InzQTUAv4IARSdaMOv7JbOxVuvINlGPPBqYq3Z6ONXIgNElSbcmFSm-XS9sIqWdCAKZksHOsQ9hjjeaU0ta7RBoCVIi9E7mhA5IuZEm1_asj1pEuIDuy81eryb5BwV_eFeKFQyFHh_jFQaEclJbiEklfuc5J3gTyMGzdtCdrw8aN4uIetMNT9L_Gr7WAB0bPF017sTPIIT_J5EVn6dOHrspJQQNrJ",
+  "google_photos": [
+    "Ab43m-uBP7cbatW28pTb3fnJqFWpYoI0A3Ux0XEC36OI-AtSHs3diO8h_CZEqlB7Yd0kwtHS4bZZYBkRE4NnIPyPFBzEkb6Fz9yUtP96UeVlIxc8tZDrcUwum_O-PtDKHSUpwf2eI512Tc3DWttG9Qw9C1Vryh-MPaJDh_ebKzp1710HfcD6908Ev6arF-ED4Y9luV_RBQ69mjcqYj_zXHqSBQuPmVCG76nxGMf4ePGelrsqDFJDWccJlLU_cTw6p2xkIm8jk7GPMFMHiG9Igep78v-YZIkrF07fUg2PGO4KUx_ejoiIrASmSgysz62DBjbfF0dS1Q-7r8FgsOOiShinB3_FCfr7-T59DiakyhUhqz30SvXBiX5jyDc87VJwDUgBfnzQwggrRnclzOjD_cWkvfoOv6ZGGkXw2JD3lLECclnERzi3FS1kY8XaZSgGEGPI",
+    "Ab43m-suMLJWVtXsamnZ2_yqEcTXkJryEJ87DXqTOCjVHcGzMaJ_HWg1A4xUuy6-l3OnDo8KX48NxM3Uo6Yj5eqFD0GM_XOs7mIBOR8omWJwIdGeBOLnqJ7CEkITgVvdWI1Ne53GMxYw9NrjZNgIBVkiW6IO-9fLbtIb8S6vAP4eQTqbPYRxy7Hr_FjYSx40dTWCN3RfqOvvLAzbSH_d4IW-ObgI5RgzJW9mU7grvBSYOfW_52ubGvgjwsUUKPMWT5-5Trr0E139Mf_BU3kISy7aYPWqsr7Uy2vZx5fmCgw5eDE2vMikB_Xeftt9glh3iKFtuH1u_yC2qLCCqhj8ckwfqG90n5ZAtwUr0VbcFkQJm1JghhieLyqTvgSAVFxva9wI3nZJ0ElT0jLIWBgJqDwUin2ZWiibq-pTuenUek2bVTH_lFRrA9Et2H-tZMtY2g",
+    "Ab43m-urziEfaweM4vG0G2e6pJ6yflA4heXM9jr5xN6SWo6SqtmjO7mSyYSbK7x141ASa1ajAD77RmO7geiC4tqP-k0cy4HeOa5QO72YozesDJ5GvCVizqKE7YbaXv4L-wtZGxP4NxaLW_9GjHpmKyVqb0MEUTezVhOBC0dEO84LHs1nUF6PA60YmCITGhVShKCUBImqjqEcF5GJtTx0cf8ScqRbGSHv6cZ0psCRzIeENfaPAofDhw9mjOiQxsqkZsEySSv6YbKPzVq7JIIi9MoLh0faL51wzWyQWT-VjubBGv6PkyJBBFPa_tdsLYDlkys6pP_UD_xOZaY26Ro0KjmKP4OaWiK6ZrXL87ldi_S7IVzWxS9C-BHcWRS5r0QHIlgzTKgg1DA2z1rJ19y0KS2raG8DYPFgDOse4TnEsD7pT72g_dWvSFpK__3Bigru3Yr_",
+    "Ab43m-tbFIL0jix8LwBe8Imk2JocG-ZDTz2SLF6bx4Ge8gi6XEfmNCcK6wi0QJqYWCiuD6l-ZtoGuhKh0giUQJq7kowNTKEVO9frasY3PDV-pd4zQDrvGB8O-DYRDJcN9T1IuAYNH2uKXiND49We7YrwwI9hazZqybgHiaFziCo3xQvnMvUKNCv_MM7u2i9-8mO50nhBAnCrUxfmg3fphiEhfIXDXxg3EGngpnEYHQMJ66vRnR5gkeZXayvfWpwOuAREyAFSYTEfZ1EBGb_20Yj4VS-_hiBUvIhEx3GvwjmWDU2s21gN_drCyMV_r8I1mjad6FJo8V02pHy8I1smHHIqaNFhfJF_p1s1LYgoKtepA-tMFc7wS7uRQCQ2bRrRjldvK8Il6_24B3G0S-4RRFVg-cA-iFuN-wteht41-UiCcYoCdKl7JNzjleEOymOBtG-j"
+  ],
+  "tags": ["new_lot", "pastille_bleue"],
+  "internal_audit_logs": [
+    "[AUDIT F.I.P.P OK] Ordre validé : [0, 4, 1, 2, 3] (Façade en hero, puis salle/table, puis détails de salle/bar, puis plats)."
+  ],
+  "raw_facts": ["Bistrot de quartier", "Rue du Cherche-Midi", "Propose classiques français faits maison"],
+  "sensory_material": "tables en bois verni, chaises classiques, comptoir traditionnel",
+  "sensory_noise": "murmures des conversations, tintement des verres de vin",
+  "historical_anecdote": "Adresse établie sur la rue du Cherche-Midi, s'inscrivant dans la tradition des bistrots parisiens conviviaux à l'ancienne."
+}
