@@ -216,6 +216,14 @@ async function main() {
         process.exit(1);
       }
 
+      // 🛑 VALIDATION : Dimension Historique Obligatoire (MAJ 2026)
+      if (!payload.historical_anecdote) {
+        console.error(
+          "🛑 ERREUR FATALE (HISTORY) : Vous devez fournir 'historical_anecdote' (ex: 'Maison fondée en 1928' ou 'Ancien atelier d'artiste transformé en bistrot') dans le payload pour ancrer le lieu dans son histoire.",
+        );
+        process.exit(1);
+      }
+
       if (payload.description.length < 200) {
         console.error(
           '❌ ERREUR QUALITÉ : La description est trop courte (min 200 car.). Soyez plus immersif.',
@@ -720,6 +728,7 @@ async function main() {
     delete payload.raw_facts;
     delete payload.sensory_material;
     delete payload.sensory_noise;
+    delete payload.historical_anecdote;
 
     if (action === '--validate') {
       console.log(`✅ [VALIDATION SUCCESS] Payload is 100% compliant with editorial standards.`);

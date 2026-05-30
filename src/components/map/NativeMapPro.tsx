@@ -119,6 +119,7 @@ export const NativeMapPro = React.memo(
             is_new_lot: place.tags?.includes('new_lot') || false,
             is_pastille_bleue: place.tags?.includes('pastille_bleue') || false,
             is_pastille_rouge: place.tags?.includes('pastille_rouge') || false,
+            is_latest: place.tags?.includes('new_lot') || false,
             relevance_score: relevanceScore,
             is_premium: premium,
           },

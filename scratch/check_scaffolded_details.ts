@@ -8,24 +8,28 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY!,
 );
 
-async function check() {
+const slugs = ['aux-plumes', 'bistro-palyma', 'shinotaku', 'kimura', 'hanoi-quan-montparnasse'];
+
+async function main() {
   const { data, error } = await supabase
     .from('places')
-    .select('name, slug, status, Url_Photos_Menu, updated_at')
-    .eq('arrondissement', 14)
-    .eq('status', 'SCAFFOLDED');
+    .select('name, slug, arrondissement, status, description, insider_tip, dominant_mood, has_terrace, Url_Photos_Menu, tags')
+    .in('slug', slugs);
 
   if (error) {
     console.error('Error:', error);
     return;
   }
 
-  console.log(`Found ${data.length} scaffolded places in 14th:`);
-  data.forEach(p => {
-    console.log(`- ${p.name} (${p.slug})`);
-    console.log(`  Updated At: ${p.updated_at}`);
-    console.log(`  Menus: ${p.Url_Photos_Menu}`);
+  data.forEach((p) => {
+    console.log(`=== ${p.name} (${p.slug}) ===`);
+    console.log(`Status: ${p.status}`);
+    console.log(`Tags: ${JSON.stringify(p.tags)}`);
+    console.log(`Description: ${p.description?.substring(0, 100)}...`);
+    console.log(`Insider Tip: ${p.insider_tip?.substring(0, 100)}...`);
+    console.log(`Mood: ${p.dominant_mood} | Terrace: ${p.has_terrace}`);
+    console.log(`Menu URLs: ${JSON.stringify(p.Url_Photos_Menu)}`);
   });
 }
 
-check();
+main().catch(console.error);

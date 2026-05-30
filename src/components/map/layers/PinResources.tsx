@@ -371,7 +371,56 @@ export const PinLayers = React.memo(({ activePin, isBouncing }: PinLayersProps) 
         }
       />
 
+      {/* 🟢 Green dot badge for the 10 latest implemented places (Pins zoomed in) */}
+      <Mapbox.CircleLayer
+        id="latest-badge-pins"
+        sourceID="placesSource"
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_latest'], true]]}
+        minZoomLevel={13}
+        style={
+          {
+            circleColor: '#22C55E', // Green dot
+            circleRadius: [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              13,
+              3,
+              15,
+              4.5,
+            ] as any,
+            circleStrokeColor: '#FFFFFF',
+            circleStrokeWidth: 1,
+            circleTranslate: [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              13,
+              ['literal', [10, -10]],
+              15,
+              ['literal', [15, -15]],
+            ] as any,
+            circleTranslateTransition: { duration: 150, delay: 0 },
+          } as React.ComponentProps<typeof Mapbox.CircleLayer>['style']
+        }
+      />
 
+      {/* 🟢 Green dot badge for the 10 latest implemented places (Mini-dots zoomed out) */}
+      <Mapbox.CircleLayer
+        id="latest-badge-dots"
+        sourceID="placesSource"
+        filter={['all', ['!', ['has', 'point_count']], ['==', ['get', 'is_latest'], true]]}
+        maxZoomLevel={13}
+        style={
+          {
+            circleColor: '#22C55E',
+            circleRadius: 2.2,
+            circleStrokeColor: '#FFFFFF',
+            circleStrokeWidth: 0.8,
+            circleTranslate: [4.5, -4.5] as any,
+          } as React.ComponentProps<typeof Mapbox.CircleLayer>['style']
+        }
+      />
     </>
   );
 });
